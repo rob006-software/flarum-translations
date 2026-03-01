@@ -2,55 +2,55 @@
     "datlechin-birthdays": {
         "admin": {
             "permissions": {
-                "edit_own_birthday_label": "",
-                "view_birthday_label": ""
+                "edit_own_birthday_label": "Modifier son propre anniversaire",
+                "view_birthday_label": "Afficher l'anniversaire"
             },
             "settings": {
-                "set_on_registration_label": "",
-                "required_label": "",
-                "required_help": "",
-                "min_age_label": "",
-                "min_age_help": "",
-                "date_format_label": "",
-                "date_format_help": "",
-                "date_none_year_label": ""
+                "set_on_registration_label": "Autoriser le paramétrage des anniversaires lors de l'inscription",
+                "required_label": "Saisie obligatoire des anniversaires",
+                "required_help": "Vous devez activer l'option Saisir à l'inscription pour que cette option fonctionne",
+                "min_age_label": "Âge minimum",
+                "min_age_help": "Âge minimum pour s'inscrire",
+                "date_format_label": "Format de date",
+                "date_format_help": "Utilisez le format de date de <a>dayjs</a>. Laissez vide pour utiliser le format par défaut.",
+                "date_none_year_label": "Format de date sans année"
             }
         },
         "forum": {
             "user": {
-                "birthday_text": "",
-                "age_text": ""
+                "birthday_text": "Date d'anniversaire : {date}",
+                "age_text": "Âge : {age}"
             },
             "change_dob": {
-                "title": "",
-                "date_of_birth_text": "",
-                "submit_button": ""
+                "title": "Modifier la date de naissance",
+                "date_of_birth_text": "=> datlechin-birthdays.ref.date_of_birth",
+                "submit_button": "=> core.ref.save_changes"
             },
             "settings": {
-                "change_dob_label": "",
-                "dob_heading": "",
-                "show_dob_date_label": "",
-                "show_dob_year_label": "",
-                "show_dob_year_help": ""
+                "change_dob_label": "Modifier la date de naissance",
+                "dob_heading": "=> datlechin-birthdays.ref.date_of_birth",
+                "show_dob_date_label": "Afficher le jour et le mois de naissance",
+                "show_dob_year_label": "Afficher l'année de naissance",
+                "show_dob_year_help": "Cela autorisera les autres utilisateurs à voir votre âge."
             },
             "edit_user": {
-                "dob_heading": ""
+                "dob_heading": "=> datlechin-birthdays.ref.date_of_birth"
             },
             "nav": {
-                "nav_item": ""
+                "nav_item": "Anniversaires du jour"
             },
             "page": {
-                "discussion_count": "",
-                "post_count": ""
+                "discussion_count": "{count, plural, one {Discussion : #} other {Discussions : #}}",
+                "post_count": "{count, plural, one {Message : #} other {Messages : #}}"
             }
         },
         "api": {
-            "invalid_dob_message": "",
-            "invalid_age_message": "",
+            "invalid_dob_message": "Date de naissance invalide",
+            "invalid_age_message": "Votre âge doit être d'au moins {minAge} ans.",
             "birthday_required_message": ""
         },
         "ref": {
-            "date_of_birth": ""
+            "date_of_birth": "Date de naissance"
         }
     }
 }

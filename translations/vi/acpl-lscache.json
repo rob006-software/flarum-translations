@@ -1,38 +1,38 @@
 {
     "acpl-lscache": {
         "admin": {
-            "cache_enabled_label": "",
-            "cache_enabled_help": "",
-            "public_cache_ttl_label": "",
-            "public_cache_ttl_help": "",
-            "clearing_cache_listener_label": "",
-            "serve_stale_label": "",
-            "serve_stale_help": "",
-            "purge_on_discussion_update_label": "",
-            "purge_on_discussion_update_help": "",
-            "cache_exclude_label": "",
-            "cache_exclude_help": "",
-            "drop_qs_label": "",
-            "drop_qs_help": "",
-            "status_codes_cache_label": "",
-            "status_codes_cache_help": "",
-            "purge_all": "",
+            "cache_enabled_label": "Kích hoạt LSCache",
+            "cache_enabled_help": "Hãy xem <a>Trang thông tin</a> để biết cách kiểm tra bộ đệm. LƯU Ý: Khi vô hiệu hóa bộ nhớ cache, tất cả các mục được lưu trong bộ nhớ cache cho trang web này sẽ bị xóa.",
+            "public_cache_ttl_label": "Bộ nhớ cache công khai TTL mặc định",
+            "public_cache_ttl_help": "Xác định khoảng thời gian, tính bằng giây, các trang công khai được lên vào bộ nhớ cache. Mặc định là 604800 giây (một tuần).",
+            "clearing_cache_listener_label": "Xoá LSCache khi xoá bộ nhớ đệm Flarum",
+            "serve_stale_label": "Phục vụ nội dung cũ",
+            "serve_stale_help": "Nếu BẬT, phiên bản lỗi thời của trang đã lưu trong bộ nhớ cache sẽ được hiển thị cho khách truy cập cho đến khi có bản sao bộ nhớ cache được tạo. Điều này làm giảm tải máy chủ. Nếu bị tắt, trang sẽ được tạo động trong quá trình cập nhật bộ nhớ cache, điều này có thể làm tăng thời gian chờ đợi. Theo thiết kế, tùy chọn này có thể phục vụ nội dung lỗi thời. Vui lòng không kích hoạt tính năng này nếu bạn thấy điều đó không thể chấp nhận được.",
+            "purge_on_discussion_update_label": "Xóa URL hoặc lưu trữ thẻ trên bản cập nhật thảo luận",
+            "purge_on_discussion_update_help": "Nhập URL hoặc Thẻ đệm bạn muốn xóa khi một cuộc thảo luận được cập nhật, mỗi dòng một thẻ. URL nên bắt đầu bằng <code>/</code>, ví dụ: <code>/rankings</code>, và Thẻ đệm nên bắt đầu bằng <code>tag=</code>, ví dụ: <code>tag=rankings</code>. Đối với nhiều tuyến đường, việc thêm một quy tắc trong .htaccess với một biểu thức chính quy gắn thẻ các tuyến đường và chỉ nhập thẻ này tại đây sẽ nhanh hơn. <a>Tìm hiểu thêm</a>. Theo mặc định, bộ nhớ đệm cho trang chủ và các cuộc thảo luận đã cập nhật sẽ bị xóa.",
+            "cache_exclude_label": "Loại trừ Đường dẫn khỏi Bộ nhớ đệm",
+            "cache_exclude_help": "Các đường dẫn chứa các chuỗi này sẽ không được lưu vào bộ nhớ đệm. Đối với <code>/mypath/mypage?aa=bb</code>, bạn có thể sử dụng <code>mypage?aa=</code>. Để khớp với phần đầu, hãy thêm <code>^</code> vào đầu. Để khớp chính xác, hãy thêm <code>$</code> vào cuối URL. Một trên mỗi dòng.",
+            "drop_qs_label": "Xoá chuỗi truy vấn",
+            "drop_qs_help": "Sử dụng tính năng này để loại bỏ các chuỗi truy vấn cụ thể, như <code>fbclid</code> hoặc <code>utm*</code> khi lưu vào bộ nhớ đệm. Điều này ngăn chặn bộ nhớ cache dự phòng của các trang có chuỗi truy vấn \"rác\" chẳng hạn như mã UTM, được sử dụng để theo dõi nhưng không ảnh hưởng đến nội dung trang. Điều này yêu cầu LSWS v5.2.3 trở lên. Liệt kê các chuỗi truy vấn để xoá, một chuỗi trên mỗi dòng. <a>Tìm hiểu thêm về cách loại bỏ chuỗi truy vấn</a>.<br></br>\n⚠️ Cài đặt này sẽ sửa đổi tệp .htaccess.\n",
+            "status_codes_cache_label": "Mã trạng thái HTTP mặc định TTL của trang",
+            "status_codes_cache_help": "Chỉ định mã trạng thái HTTP và số giây để lưu trang đó vào bộ nhớ đệm, cách nhau bằng dấu cách. Mỗi dòng một mã.",
+            "purge_all": "=> acpl-lscache.ref.purge_cache",
             "test_failed_alert": "",
             "permissions": {
-                "purge": ""
+                "purge": "=> acpl-lscache.ref.purge_cache"
             }
         },
         "forum": {
             "purge": {
-                "discussion": ""
+                "discussion": "=> acpl-lscache.ref.purge_cache"
             }
         },
         "lib": {
-            "purge_success": "",
-            "purge_all_success": ""
+            "purge_success": "Đã thông báo cho LiteSpeed Server xóa các mục LSCache.",
+            "purge_all_success": "Đã thông báo cho Máy chủ LiteSpeed xóa tất cả các mục LSCache."
         },
         "ref": {
-            "purge_cache": ""
+            "purge_cache": "Xóa LSCache"
         }
     }
 }

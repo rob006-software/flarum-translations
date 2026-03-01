@@ -1,38 +1,38 @@
 {
     "acpl-lscache": {
         "admin": {
-            "cache_enabled_label": "",
-            "cache_enabled_help": "",
-            "public_cache_ttl_label": "",
-            "public_cache_ttl_help": "",
-            "clearing_cache_listener_label": "",
-            "serve_stale_label": "",
-            "serve_stale_help": "",
-            "purge_on_discussion_update_label": "",
-            "purge_on_discussion_update_help": "",
-            "cache_exclude_label": "",
-            "cache_exclude_help": "",
-            "drop_qs_label": "",
-            "drop_qs_help": "",
-            "status_codes_cache_label": "",
-            "status_codes_cache_help": "",
-            "purge_all": "",
-            "test_failed_alert": "",
+            "cache_enabled_label": "LSCache'yi etkinleştir",
+            "cache_enabled_help": "Önbelleğin nasıl test edileceğine ilişkin <a>Bilgi sayfasına</a> bakın. NOT: Önbelleği devre dışı bırakırken, bu site için önbelleğe alınmış tüm girişler temizlenecektir.",
+            "public_cache_ttl_label": "Varsayılan Genel Önbellek TTL",
+            "public_cache_ttl_help": "Genel sayfaların saniye cinsinden ne kadar süreyle önbelleğe alınması gerektiğini tanımlayın. Varsayılan değer 604800 saniyedir (bir hafta).",
+            "clearing_cache_listener_label": "Flarum Önbelleği Temizlendiğinde LSCache'yi Temizle",
+            "serve_stale_label": "Eski İçeriği Sunun",
+            "serve_stale_help": "Etkinleştirilirse, yeni bir önbellek kopyası oluşturulana kadar ziyaretçilere önbelleğe alınmış bir sayfanın eski bir sürümü sunulur. Bu, sunucu yükünü azaltır. Devre dışı bırakılırsa sayfa, önbellek güncellemesi sırasında dinamik olarak oluşturulur ve bu da bekleme sürelerini artırabilir. Tasarım gereği, bu seçenek güncel olmayan içerik sunabilir. Bunu kabul edilemez bulursanız lütfen bunu etkinleştirmeyin.",
+            "purge_on_discussion_update_label": "Tartışma Güncellemesinde URL'leri temizle veya Etiketleri önbelleğe al",
+            "purge_on_discussion_update_help": "Bir tartışma güncellendiğinde temizlemek istediğiniz URL'leri veya önbellek etiketlerini, her satıra bir tane gelecek şekilde girin. URL <code>/</code> ile başlamalıdır, ör. <code>/rankings</code> ve önbellek Etiketi <code>tag=</code> ile başlamalıdır, ör. <code>tag=sıralamalar</code>. Birden fazla rota için, .htaccess'e rotaları etiketleyen normal ifadeli bir kural eklemek ve buraya yalnızca bu etiketi girmek daha hızlıdır. <a>Daha fazla bilgi edinin</a>. Varsayılan olarak ana sayfanın ve güncellenen tartışmaların önbelleği temizlenir.",
+            "cache_exclude_label": "Dizinleri Önbelleğe Almadan Hariç Tut",
+            "cache_exclude_help": "Bu dizeleri içeren yollar önbelleğe alınmaz. <code>/mypath/mypage?aa=bb</code> için <code>mypage?aa=</code> kullanabilirsiniz. Başlangıcı eşleştirmek için başlangıca <code>^</code> ekleyin. Tam eşleşme için URL'nin sonuna <code>$</code> ekleyin. Her satıra bir tane.",
+            "drop_qs_label": "Sorgu Dizelerini Bırak",
+            "drop_qs_help": "Önbelleğe alırken <code>fbclid</code> veya <code>utm*</code> gibi belirli sorgu dizelerini bırakmak için bu özelliği kullanın. Bu, izleme için kullanılan ancak sayfa içeriğini etkilemeyen UTM kodları gibi \"önemsiz\" sorgu dizelerine sahip sayfaların gereksiz önbelleğe alınmasını önler. Bu, LSWS v5.2.3 veya daha yenisini gerektirir. Her satıra bir tane düşecek sorgu dizelerini listeleyin. <a>Sorgu dizelerini bırakma hakkında daha fazla bilgi edinin</a>.<br></br> \n⚠️ Bu ayar, .htaccess dosyasını değiştirir.\n",
+            "status_codes_cache_label": "Varsayılan HTTP Durum Kodu Sayfası TTL",
+            "status_codes_cache_help": "Bir HTTP durum kodu ve o sayfanın önbelleğe alınması için gereken saniye sayısını boşlukla ayırarak belirtin. Satır başına bir tane.",
+            "purge_all": "=> acpl-lscache.ref.purge_cache",
+            "test_failed_alert": "Sunucunuzun LSCache'i desteklemediği görünüyor. Sunucu yapılandırmanızı kontrol edin. Tespit edilen sunucu: <b>{server}</b>, tespit edilen LiteSpeed türü: <b>{type}</b>.",
             "permissions": {
-                "purge": ""
+                "purge": "=> acpl-lscache.ref.purge_cache"
             }
         },
         "forum": {
             "purge": {
-                "discussion": ""
+                "discussion": "=> acpl-lscache.ref.purge_cache"
             }
         },
         "lib": {
-            "purge_success": "",
-            "purge_all_success": ""
+            "purge_success": "LiteSpeed Sunucusuna LSCache girişlerini temizlemesi için bildirim gönderildi.",
+            "purge_all_success": "LiteSpeed Sunucusuna tüm LSCache girişlerini temizlemesi için bildirim gönderildi."
         },
         "ref": {
-            "purge_cache": ""
+            "purge_cache": "LSCache'yi Temizle"
         }
     }
 }

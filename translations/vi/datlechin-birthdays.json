@@ -2,55 +2,55 @@
     "datlechin-birthdays": {
         "admin": {
             "permissions": {
-                "edit_own_birthday_label": "",
-                "view_birthday_label": ""
+                "edit_own_birthday_label": "Chỉnh sửa ngày sinh của chính mình",
+                "view_birthday_label": "Xem sinh nhật"
             },
             "settings": {
-                "set_on_registration_label": "",
-                "required_label": "",
-                "required_help": "",
-                "min_age_label": "",
-                "min_age_help": "",
-                "date_format_label": "",
-                "date_format_help": "",
-                "date_none_year_label": ""
+                "set_on_registration_label": "Cho phép đặt ngày sinh khi đăng ký",
+                "required_label": "Bắt buộc nhập ngày sinh",
+                "required_help": "Bạn cần bật tùy chọn bên trên để tùy chọn này hoạt động",
+                "min_age_label": "Tuổi tối thiểu",
+                "min_age_help": "Tuổi tối thiểu để đăng ký",
+                "date_format_label": "Định dạng ngày sinh",
+                "date_format_help": "Sử dụng định dạng <a>dayjs</a>. Để trống để sử dụng định dạng mặc định.",
+                "date_none_year_label": "Định dạng ngày sinh không có năm"
             }
         },
         "forum": {
             "user": {
-                "birthday_text": "",
-                "age_text": ""
+                "birthday_text": "Sinh nhật: {date}",
+                "age_text": "Tuổi: {age}"
             },
             "change_dob": {
-                "title": "",
-                "date_of_birth_text": "",
-                "submit_button": ""
+                "title": "Chỉnh sửa ngày sinh",
+                "date_of_birth_text": "=> datlechin-birthdays.ref.date_of_birth",
+                "submit_button": "=> core.ref.save_changes"
             },
             "settings": {
-                "change_dob_label": "",
-                "dob_heading": "",
-                "show_dob_date_label": "",
-                "show_dob_year_label": "",
-                "show_dob_year_help": ""
+                "change_dob_label": "Sửa ngày sinh",
+                "dob_heading": "=> datlechin-birthdays.ref.date_of_birth",
+                "show_dob_date_label": "Hiển thị ngày tháng sinh",
+                "show_dob_year_label": "Hiển thị năm sinh",
+                "show_dob_year_help": "Cho phép mọi người có thể nhìn thấy tuổi của bạn."
             },
             "edit_user": {
-                "dob_heading": ""
+                "dob_heading": "=> datlechin-birthdays.ref.date_of_birth"
             },
             "nav": {
-                "nav_item": ""
+                "nav_item": "Sinh nhật hôm nay"
             },
             "page": {
-                "discussion_count": "",
-                "post_count": ""
+                "discussion_count": "{count, plural, one {Cuộc thảo luận: #} other {Cuộc thảo luận: #}}",
+                "post_count": "{count, plural, one {Bài viết: #} other {Bài viết: #}}"
             }
         },
         "api": {
-            "invalid_dob_message": "",
-            "invalid_age_message": "",
+            "invalid_dob_message": "Ngày sinh của bạn không hợp lệ",
+            "invalid_age_message": "Tuổi của bạn phải từ {minAge} tuổi trở lên.",
             "birthday_required_message": ""
         },
         "ref": {
-            "date_of_birth": ""
+            "date_of_birth": "Ngày sinh"
         }
     }
 }

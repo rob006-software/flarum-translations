@@ -1,4 +1,20 @@
 {
+    "acpl-lscache.json": {
+        "acpl-lscache": {
+            "admin": {
+                "cache_exclude_help": "3675da155e36157c47564998fc31d89b 3675da155e36157c47564998fc31d89b",
+                "cache_exclude_label": "3b3f88f99e7596f9a70f3bd009275e90 3b3f88f99e7596f9a70f3bd009275e90",
+                "clearing_cache_listener_label": "5c3486dafae9ff7b0c764f7193d4d6c9 5c3486dafae9ff7b0c764f7193d4d6c9",
+                "public_cache_ttl_help": "f2b62ee4f067eb733c3d2a7f4d98bc6a f2b62ee4f067eb733c3d2a7f4d98bc6a",
+                "public_cache_ttl_label": "d069b85b7bdbf85e52f0bcd1f70f4ce3 d069b85b7bdbf85e52f0bcd1f70f4ce3",
+                "purge_all": "372839bcd46cc9f6027d856b3aa3ea78 372839bcd46cc9f6027d856b3aa3ea78",
+                "purge_on_discussion_update_help": "a3dd5e206bb63f23b8f4426247074275 a3dd5e206bb63f23b8f4426247074275",
+                "purge_on_discussion_update_label": "3f557876bd6b6dcbd67a5be1e3ceaa42 3f557876bd6b6dcbd67a5be1e3ceaa42",
+                "serve_stale_help": "47f6ab40b3356da65e29a1e704124542 47f6ab40b3356da65e29a1e704124542",
+                "serve_stale_label": "631192594782567ae9f8f4e9ffef2a4d 631192594782567ae9f8f4e9ffef2a4d"
+            }
+        }
+    },
     "acpl-my-tags.json": {
         "acpl-my-tags": {
             "admin": {
@@ -740,6 +756,31 @@
                 "adapters": {
                     "local": "63c1a9214df6dd48fa51eb424fed2dd5 63c1a9214df6dd48fa51eb424fed2dd5"
                 }
+            }
+        }
+    },
+    "datlechin-bbcode-hide-content.json": {
+        "datlechin-bbcode-hide-content": {
+            "admin": {
+                "permissions": {
+                    "bypass_like_label": "0f59e5b112cd06fbdda455dfc195609d 0f59e5b112cd06fbdda455dfc195609d"
+                }
+            }
+        }
+    },
+    "datlechin-birthdays.json": {
+        "datlechin-birthdays": {
+            "admin": {
+                "permissions": {
+                    "edit_own_birthday_label": "bd6d0562d63168c7f1dc48f72945cd8c bd6d0562d63168c7f1dc48f72945cd8c"
+                }
+            }
+        }
+    },
+    "datlechin-discussion-overview.json": {
+        "datlechin-discussion-overview": {
+            "forum": {
+                "created": "56f7728c4904ac0d00ff7f394f561997 56f7728c4904ac0d00ff7f394f561997"
             }
         }
     },

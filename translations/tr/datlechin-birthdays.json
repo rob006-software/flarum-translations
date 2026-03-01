@@ -2,55 +2,55 @@
     "datlechin-birthdays": {
         "admin": {
             "permissions": {
-                "edit_own_birthday_label": "",
-                "view_birthday_label": ""
+                "edit_own_birthday_label": "Kendi doğum gününü düzenle",
+                "view_birthday_label": "Doğum gününü görüntüle"
             },
             "settings": {
-                "set_on_registration_label": "",
-                "required_label": "",
-                "required_help": "",
-                "min_age_label": "",
-                "min_age_help": "",
-                "date_format_label": "",
-                "date_format_help": "",
-                "date_none_year_label": ""
+                "set_on_registration_label": "Kayıt sırasında doğum günlerinin ayarlanmasına izin ver",
+                "required_label": "Doğum günlerinin girilmesi zorunludur",
+                "required_help": "Bu seçeneğin çalışması için Kayıtta ayarla seçeneğini etkinleştirmeniz gerekir",
+                "min_age_label": "Minimum yaş",
+                "min_age_help": "Kayıt için minimum yaş",
+                "date_format_label": "Tarih formatı",
+                "date_format_help": "<a>dayjs</a> tarih biçimini kullanın. Varsayılan biçimi kullanmak için boş bırakın.",
+                "date_none_year_label": "Yıl olmadan tarih formatı"
             }
         },
         "forum": {
             "user": {
-                "birthday_text": "",
-                "age_text": ""
+                "birthday_text": "Doğum Günü: {date}",
+                "age_text": "Yaş: {age}"
             },
             "change_dob": {
-                "title": "",
-                "date_of_birth_text": "",
-                "submit_button": ""
+                "title": "Doğum Tarihini Düzenle",
+                "date_of_birth_text": "=> datlechin-birthdays.ref.date_of_birth",
+                "submit_button": "=> core.ref.save_changes"
             },
             "settings": {
-                "change_dob_label": "",
-                "dob_heading": "",
-                "show_dob_date_label": "",
-                "show_dob_year_label": "",
-                "show_dob_year_help": ""
+                "change_dob_label": "Doğum Tarihini Değiştir",
+                "dob_heading": "=> datlechin-birthdays.ref.date_of_birth",
+                "show_dob_date_label": "Doğum gününü ve ayını göster",
+                "show_dob_year_label": "Doğum yılını göster",
+                "show_dob_year_help": "Bu, insanların yaşınızı görmesini sağlayacaktır."
             },
             "edit_user": {
-                "dob_heading": ""
+                "dob_heading": "=> datlechin-birthdays.ref.date_of_birth"
             },
             "nav": {
-                "nav_item": ""
+                "nav_item": "Bugün Doğanlar"
             },
             "page": {
-                "discussion_count": "",
-                "post_count": ""
+                "discussion_count": "{count, plural, one {Tartışma: #} other {Tartışmalar: #}}",
+                "post_count": "{count, plural, one {İleti: #} other {İletiler: #}}"
             }
         },
         "api": {
-            "invalid_dob_message": "",
-            "invalid_age_message": "",
+            "invalid_dob_message": "Geçersiz doğum tarihi",
+            "invalid_age_message": "Yaşınız en az {minAge} olmalıdır.",
             "birthday_required_message": ""
         },
         "ref": {
-            "date_of_birth": ""
+            "date_of_birth": "Doğum Günü"
         }
     }
 }

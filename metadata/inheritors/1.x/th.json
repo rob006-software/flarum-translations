@@ -1,4 +1,41 @@
 {
+    "acpl-lscache.json": {
+        "acpl-lscache": {
+            "admin": {
+                "cache_enabled_help": "b2cb3c4cd1d46f2aa2bfbcc908523c54 b2cb3c4cd1d46f2aa2bfbcc908523c54",
+                "cache_enabled_label": "8c0b496c4932fc89e3fbfe9da30f76d0 8c0b496c4932fc89e3fbfe9da30f76d0",
+                "cache_exclude_help": "e90f72f683fcf95b5121ea0b753b3400 e90f72f683fcf95b5121ea0b753b3400",
+                "cache_exclude_label": "b6056d3b5f56f57ae7ec0f79f967a52d b6056d3b5f56f57ae7ec0f79f967a52d",
+                "clearing_cache_listener_label": "7499b2bcf8cd461b78c72c87ff55a977 7499b2bcf8cd461b78c72c87ff55a977",
+                "drop_qs_help": "41238d184ee4ae4758a8600247429e4c 41238d184ee4ae4758a8600247429e4c",
+                "drop_qs_label": "fc014138490d3a2c52a4b0790afada63 fc014138490d3a2c52a4b0790afada63",
+                "permissions": {
+                    "purge": "82ceb32e014a94db44d41f626982de95 82ceb32e014a94db44d41f626982de95"
+                },
+                "public_cache_ttl_help": "f83a1828b5e9f3b07a1a0aeec188144d f83a1828b5e9f3b07a1a0aeec188144d",
+                "public_cache_ttl_label": "5853b81aa2de7ee7c1cf2adc30396246 5853b81aa2de7ee7c1cf2adc30396246",
+                "purge_all": "82ceb32e014a94db44d41f626982de95 82ceb32e014a94db44d41f626982de95",
+                "purge_on_discussion_update_help": "f50a9d86f8ab51e7cb65641666509a37 f50a9d86f8ab51e7cb65641666509a37",
+                "purge_on_discussion_update_label": "49ff6390a7cb28b26a95d297e28e7549 49ff6390a7cb28b26a95d297e28e7549",
+                "serve_stale_help": "b88680f4e445f8cf8b0e06682b9e5b23 b88680f4e445f8cf8b0e06682b9e5b23",
+                "serve_stale_label": "8a8b7f3a6633be30394ff53cc2551a5c 8a8b7f3a6633be30394ff53cc2551a5c",
+                "status_codes_cache_help": "9ae3f0a90dd2e24dc735e4ae9c63dd13 9ae3f0a90dd2e24dc735e4ae9c63dd13",
+                "status_codes_cache_label": "87e7110bdbbb0518f2d3a4a288460f38 87e7110bdbbb0518f2d3a4a288460f38"
+            },
+            "forum": {
+                "purge": {
+                    "discussion": "82ceb32e014a94db44d41f626982de95 82ceb32e014a94db44d41f626982de95"
+                }
+            },
+            "lib": {
+                "purge_all_success": "c55b1cde61ceb892ff6274eda053701c c55b1cde61ceb892ff6274eda053701c",
+                "purge_success": "9260f3ee7cbbb3f9d1ddfb00bf8a1fb8 9260f3ee7cbbb3f9d1ddfb00bf8a1fb8"
+            },
+            "ref": {
+                "purge_cache": "38f2a5ecda60bb2efa30a1c860caf1a4 38f2a5ecda60bb2efa30a1c860caf1a4"
+            }
+        }
+    },
     "acpl-my-tags.json": {
         "acpl-my-tags": {
             "admin": {

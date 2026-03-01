@@ -2,51 +2,51 @@
     "datlechin-birthdays": {
         "admin": {
             "permissions": {
-                "edit_own_birthday_label": "",
-                "view_birthday_label": ""
+                "edit_own_birthday_label": "Modificare il proprio compleanno",
+                "view_birthday_label": "Vedere data di nascita"
             },
             "settings": {
-                "set_on_registration_label": "",
-                "required_label": "",
-                "required_help": "",
-                "min_age_label": "",
-                "min_age_help": "",
-                "date_format_label": "",
-                "date_format_help": "",
-                "date_none_year_label": ""
+                "set_on_registration_label": "Consenti impostazione compleanno durante registrazione",
+                "required_label": "Imposta campo Data di nascita come richiesto",
+                "required_help": "Per abilitare questa opzione devi impostare anche il campo nel form di registrazione",
+                "min_age_label": "Età Minima",
+                "min_age_help": "Età minima per registrarsi",
+                "date_format_label": "Formato Data",
+                "date_format_help": "Usa il formato <a>day.js</a> . Lascia vuoto per quello di default.",
+                "date_none_year_label": "Formato data senza anno"
             }
         },
         "forum": {
             "user": {
-                "birthday_text": "",
-                "age_text": ""
+                "birthday_text": "Compleanno: {date}",
+                "age_text": "Età: {age}"
             },
             "change_dob": {
-                "title": "",
-                "date_of_birth_text": "",
-                "submit_button": ""
+                "title": "Modifica Data di Nascita",
+                "date_of_birth_text": "Data di Nascita",
+                "submit_button": "=> core.ref.save_changes"
             },
             "settings": {
-                "change_dob_label": "",
-                "dob_heading": "",
-                "show_dob_date_label": "",
-                "show_dob_year_label": "",
-                "show_dob_year_help": ""
+                "change_dob_label": "Cambia Data di Nascita",
+                "dob_heading": "Data di nascita",
+                "show_dob_date_label": "Mostra giorno e mese di nascita",
+                "show_dob_year_label": "Mostra anno di nascita",
+                "show_dob_year_help": "Questo consentirà agli utenti di conoscere la tua età."
             },
             "edit_user": {
-                "dob_heading": ""
+                "dob_heading": "Data di Nascita"
             },
             "nav": {
-                "nav_item": ""
+                "nav_item": "Compleanni di oggi"
             },
             "page": {
-                "discussion_count": "",
-                "post_count": ""
+                "discussion_count": "{count, plural, one {Discussione: #} other {Discussioni: #}}",
+                "post_count": "{count, plural, one {Post: #} other {Post: #}}"
             }
         },
         "api": {
-            "invalid_dob_message": "",
-            "invalid_age_message": "",
+            "invalid_dob_message": "La tua data di nascita deve essere inferiore a 100 anni fa.",
+            "invalid_age_message": "La tua età deve essere minimo di: {minAge}.",
             "birthday_required_message": ""
         },
         "ref": {

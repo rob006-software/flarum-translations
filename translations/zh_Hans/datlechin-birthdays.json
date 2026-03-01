@@ -2,55 +2,55 @@
     "datlechin-birthdays": {
         "admin": {
             "permissions": {
-                "edit_own_birthday_label": "",
-                "view_birthday_label": ""
+                "edit_own_birthday_label": "修改个人生日",
+                "view_birthday_label": "查看生日"
             },
             "settings": {
-                "set_on_registration_label": "",
-                "required_label": "",
-                "required_help": "",
-                "min_age_label": "",
-                "min_age_help": "",
-                "date_format_label": "",
-                "date_format_help": "",
-                "date_none_year_label": ""
+                "set_on_registration_label": "允许注册时设置生日",
+                "required_label": "强制注册时设置生日",
+                "required_help": "请先启用「允许注册时设置生日」",
+                "min_age_label": "最低年龄",
+                "min_age_help": "最低注册年龄",
+                "date_format_label": "日期格式",
+                "date_format_help": "请使用 <a>dayjs</a> 日期格式，留空以使用默认设置。",
+                "date_none_year_label": "忽略年份"
             }
         },
         "forum": {
             "user": {
-                "birthday_text": "",
-                "age_text": ""
+                "birthday_text": "生日：{date}",
+                "age_text": "年龄：{age}"
             },
             "change_dob": {
-                "title": "",
-                "date_of_birth_text": "",
-                "submit_button": ""
+                "title": "编辑生日",
+                "date_of_birth_text": "=> datlechin-birthdays.ref.date_of_birth",
+                "submit_button": "=> core.ref.save_changes"
             },
             "settings": {
-                "change_dob_label": "",
-                "dob_heading": "",
-                "show_dob_date_label": "",
-                "show_dob_year_label": "",
-                "show_dob_year_help": ""
+                "change_dob_label": "修改生日",
+                "dob_heading": "=> datlechin-birthdays.ref.date_of_birth",
+                "show_dob_date_label": "显示生日的月份和具体日期",
+                "show_dob_year_label": "显示生日的年份",
+                "show_dob_year_help": "这将公开您的年龄。"
             },
             "edit_user": {
-                "dob_heading": ""
+                "dob_heading": "=> datlechin-birthdays.ref.date_of_birth"
             },
             "nav": {
-                "nav_item": ""
+                "nav_item": "新的一岁！"
             },
             "page": {
-                "discussion_count": "",
-                "post_count": ""
+                "discussion_count": "{count, plural, one {主题：#} other {主题：#}}",
+                "post_count": "{count, plural, one {回帖：#} other {回帖：#}}"
             }
         },
         "api": {
-            "invalid_dob_message": "",
-            "invalid_age_message": "",
+            "invalid_dob_message": "无效的出生日期",
+            "invalid_age_message": "很抱歉，您的年龄必须大于 {minAge} 岁。",
             "birthday_required_message": ""
         },
         "ref": {
-            "date_of_birth": ""
+            "date_of_birth": "生日"
         }
     }
 }
