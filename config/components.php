@@ -270,6 +270,9 @@ return [
 	'sycho-profile-cover' => [
 		'tag' => 'https://raw.githubusercontent.com/SychO9/flarum-profile-cover/v2.0.0/resources/locale/en.yml',
 	],
+	'tryhackx-thumb-sliders' => [
+		'tag' => 'https://raw.githubusercontent.com/TryHackX/flarum-thumb-sliders/1.0.2/locale/en.yml',
+	],
 	'walsgit-recycle-bin' => [
 		'tag' => 'https://raw.githubusercontent.com/WalsGit/recycle-bin/2.0.0/locale/en.yml',
 	],
