@@ -253,12 +253,12 @@
                 "title": "=> core.ref.email"
             },
             "extension": {
-                "abandoned_no_replacement": "",
-                "abandoned_with_replacement": "",
+                "abandoned_no_replacement": "Extensi ini tidak lagi dipelihara oleh pengembangnya dan mungkin tidak akan menerima pembaruan.",
+                "abandoned_with_replacement": "Extensi ini telah digantikan oleh {replacement}. Pertimbangkan untuk beralih ke paket pengganti.",
                 "configure_scopes": "Konfigurasi Cakupan",
                 "confirm_purge": "Pembersihan akan menghapus semua entri database dan aset yang terkait dengan ekstensi. Hal ini tidak akan menghapus ekstensi; serta harus dilakukan melalui Composer. Apakah Anda yakin ingin melanjutkan?",
                 "database_driver_mismatch": "",
-                "deprecated": "",
+                "deprecated": "Tidak lagi didukung",
                 "disabled": "Tidak Aktif",
                 "enable_to_see": "Aktifkan ekstensi untuk melihat dan mengubah pengaturan.",
                 "enabled": "Aktif",
@@ -280,7 +280,7 @@
                     "no_readme": "Ekstensi ini tampaknya tidak memiliki file README",
                     "title": "Dokumentasi {extName}"
                 },
-                "replaced": "",
+                "replaced": "Diganti",
                 "safe_mode_warning": ""
             },
             "header": {
