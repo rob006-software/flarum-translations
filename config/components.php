@@ -242,6 +242,9 @@ return [
 	'justoverclock-welcomebox' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-welcomebox/3.0.0/locale/en.yml',
 	],
+	'leonmmcoset-scratch-ifream' => [
+		'tag' => 'https://raw.githubusercontent.com/Leonmmcoset/scratch-ifream/0.8/locale/en.yml',
+	],
 	'migratetoflarum-fake-data' => [
 		'beta' => 'https://raw.githubusercontent.com/migratetoflarum/fake-data/2.0.0-beta.1/resources/locale/en.yml',
 	],
