@@ -278,6 +278,12 @@ return [
 	'huoxin-relative-url' => [
 		'beta' => 'https://raw.githubusercontent.com/huoxin233/flarum-ext-relative-url/2.0.0-beta.1/locale/en.yml',
 	],
+	'huseyinfiliz-diff' => [
+		'beta' => 'https://raw.githubusercontent.com/huseyinfiliz/flarum-diff/2.0.0-beta.4/locale/en.yml',
+		'__builtInLanguages' => [
+			'tr',
+		],
+	],
 	'huseyinfiliz-modern-footer' => [
 		'beta' => 'https://raw.githubusercontent.com/huseyinfiliz/modern-footer/v2.0.0-beta.1/resources/locale/en.yml',
 	],
