@@ -245,6 +245,9 @@ return [
 	'migratetoflarum-fake-data' => [
 		'beta' => 'https://raw.githubusercontent.com/migratetoflarum/fake-data/2.0.0-beta.1/resources/locale/en.yml',
 	],
+	'steperlin-markdown' => [
+		'tag' => 'https://raw.githubusercontent.com/linkerlin/flarum-markdown/v2.1.13/locale/en.yml',
+	],
 	'sycho-advanced-extension-categories' => [
 		'tag' => 'https://raw.githubusercontent.com/SychO9/flarum-advanced-extension-categories/v0.2.1/locale/en.yml',
 	],
