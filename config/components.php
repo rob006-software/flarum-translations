@@ -20,6 +20,9 @@ return [
 		'https://raw.githubusercontent.com/flarum/flarum-core/v2.0.0-beta.7/locale/validation.yml',
 	],
 	/* extensions list begin */
+	'acpl-lscache' => [
+		'beta' => 'https://raw.githubusercontent.com/android-com-pl/flarum-lscache/v4.0.0-beta.1/locale/en.yml',
+	],
 	'acpl-mobile-tab' => [
 		'beta' => 'https://raw.githubusercontent.com/android-com-pl/mobile-tab/2.0.0-beta.8/locale/en.yml',
 	],
@@ -28,6 +31,12 @@ return [
 	],
 	'datitisev-backup' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/main/datitisev-backup.yml',
+	],
+	'datlechin-bbcode-hide-content' => [
+		'beta' => 'https://raw.githubusercontent.com/datlechin/flarum-bbcode-hide-content/v2.0.0-beta.1/locale/en.yml',
+	],
+	'datlechin-birthdays' => [
+		'beta' => 'https://raw.githubusercontent.com/datlechin/flarum-birthdays/v3.0.0-beta.1/locale/en.yml',
 	],
 	'datlechin-copy-links' => [
 		'beta' => 'https://raw.githubusercontent.com/datlechin/flarum-copy-links/v2.0.0-beta.1/locale/en.yml',
