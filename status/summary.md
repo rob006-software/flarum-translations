@@ -92,8 +92,13 @@
 
 | Extension | Status |
 | --- | --- |
+| [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/-/acpl-lscache/multi-auto.svg)](https://weblate.rob006.net/projects/flarum2/acpl-lscache/) |
 | [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/-/acpl-mobile-tab/multi-auto.svg)](https://weblate.rob006.net/projects/flarum2/acpl-mobile-tab/) |
 | [`acpl/my-tags`](https://github.com/android-com-pl/my-tags) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/-/acpl-my-tags/multi-auto.svg)](https://weblate.rob006.net/projects/flarum2/acpl-my-tags/) |
+| [`datlechin/flarum-bbcode-hide-content`](https://github.com/datlechin/flarum-bbcode-hide-content) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/-/datlechin-bbcode-hide-content/multi-auto.svg)](https://weblate.rob006.net/projects/flarum2/datlechin-bbcode-hide-content/) |
+| [`datlechin/flarum-birthdays`](https://github.com/datlechin/flarum-birthdays) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/-/datlechin-birthdays/multi-auto.svg)](https://weblate.rob006.net/projects/flarum2/datlechin-birthdays/) |
+| [`datlechin/flarum-copy-links`](https://github.com/datlechin/flarum-copy-links) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/-/datlechin-copy-links/multi-auto.svg)](https://weblate.rob006.net/projects/flarum2/datlechin-copy-links/) |
+| [`datlechin/flarum-discussion-overview`](https://github.com/datlechin/flarum-discussion-overview) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/-/datlechin-discussion-overview/multi-auto.svg)](https://weblate.rob006.net/projects/flarum2/datlechin-discussion-overview/) |
 | [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/-/flectar-turnstile/multi-auto.svg)](https://weblate.rob006.net/projects/flarum2/flectar-turnstile/) |
 | [`forumaker/magicbb`](https://github.com/forumaker/magicbb) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/-/forumaker-magicbb/multi-auto.svg)](https://weblate.rob006.net/projects/flarum2/forumaker-magicbb/) |
 | [`forumaker/magicdice`](https://github.com/forumaker/magicdice) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/-/forumaker-magicdice/multi-auto.svg)](https://weblate.rob006.net/projects/flarum2/forumaker-magicdice/) |
