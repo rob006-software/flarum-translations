@@ -12,22 +12,22 @@
                 "external_api_description": ""
             },
             "settings": {
-                "enable_batch_requests_label": "",
-                "enable_batch_requests_help": "",
-                "blacklist_label": "",
-                "blacklist_help": "",
-                "blacklist_placeholder": "",
-                "whitelist_label": "",
-                "whitelist_help": "",
-                "whitelist_placeholder": "",
-                "convert_media_urls_label": "",
-                "convert_media_urls_help": "",
-                "use_google_favicons_label": "",
-                "use_google_favicons_help": "",
-                "cache_time_label": "",
-                "cache_time_help": "",
-                "open_links_in_new_tab_label": "",
-                "open_links_in_new_tab_help": "",
+                "enable_batch_requests_label": "Bật xử lý theo lô",
+                "enable_batch_requests_help": "Cải thiện hiệu suất bằng cách xử lý nhiều liên kết cùng lúc. Khi tắt, các liên kết sẽ được xử lý lần lượt.",
+                "blacklist_label": "Danh sách đen",
+                "blacklist_help": "Chỉ định các tên miền hoặc URL không tạo xem trước liên kết. Dùng dấu phẩy để phân tách nhiều mục.",
+                "blacklist_placeholder": "Ví dụ: facebook.com, https://domain.com/path, twitter.com/specific-page",
+                "whitelist_label": "Danh sách trắng",
+                "whitelist_help": "Chỉ tạo xem trước cho các tên miền hoặc URL này. Để trống để cho phép tất cả tên miền không nằm trong danh sách đen.",
+                "whitelist_placeholder": "Ví dụ: trusted-site.com, specific-domain.org/path",
+                "convert_media_urls_label": "Xem trước URL Media",
+                "convert_media_urls_help": "Tạo xem trước cho các URL trỏ đến tệp media (ảnh, video, v.v.).",
+                "use_google_favicons_label": "Hiển thị favicon trang web",
+                "use_google_favicons_help": "Hiển thị favicon của trang web bằng dịch vụ Google Favicon để tăng khả năng nhận diện trực quan.",
+                "cache_time_label": "Thời gian lưu cache (phút)",
+                "cache_time_help": "Thời gian lưu xem trước liên kết trước khi làm mới. Đặt 0 để tắt lưu cache. Mặc định: 60 phút.",
+                "open_links_in_new_tab_label": "Mở liên kết trong tab mới",
+                "open_links_in_new_tab_help": "Luôn mở liên kết xem trước trong tab trình duyệt mới.",
                 "external_api_fallback_label": "",
                 "external_api_fallback_help": "",
                 "external_api_url_label": "",
@@ -35,7 +35,7 @@
             }
         },
         "forum": {
-            "site_cannot_be_reached": ""
+            "site_cannot_be_reached": "Không thể tải xem trước. Vui lòng kiểm tra URL và thử lại."
         }
     }
 }

@@ -12,22 +12,22 @@
                 "external_api_description": ""
             },
             "settings": {
-                "enable_batch_requests_label": "",
-                "enable_batch_requests_help": "",
-                "blacklist_label": "",
-                "blacklist_help": "",
-                "blacklist_placeholder": "",
-                "whitelist_label": "",
-                "whitelist_help": "",
-                "whitelist_placeholder": "",
-                "convert_media_urls_label": "",
-                "convert_media_urls_help": "",
-                "use_google_favicons_label": "",
-                "use_google_favicons_help": "",
-                "cache_time_label": "",
-                "cache_time_help": "",
-                "open_links_in_new_tab_label": "",
-                "open_links_in_new_tab_help": "",
+                "enable_batch_requests_label": "启用批量处理",
+                "enable_batch_requests_help": "同时生成多个链接预览，提升加载效率。",
+                "blacklist_label": "排除列表（黑名单）",
+                "blacklist_help": "指定不生成链接预览的域名或URL，如果是多个条目请用英文逗号分隔。",
+                "blacklist_placeholder": "如：flarum.org,flarum.org.cn",
+                "whitelist_label": "允许列表（白名单）",
+                "whitelist_help": "指定生成链接预览的域名或URL，如果是多个条目请用英文逗号分隔。",
+                "whitelist_placeholder": "如：flarum.org,flarum.org.cn",
+                "convert_media_urls_label": "启用媒体链接预览",
+                "convert_media_urls_help": "为媒体文件（如图片、视频等）的URL生成预览。",
+                "use_google_favicons_label": "显示网站图标（使用谷歌图标 API）",
+                "use_google_favicons_help": "使用谷歌图标API显示网站图标，增强视觉辨识度。",
+                "cache_time_label": "缓存时长（分钟）",
+                "cache_time_help": "设置链接预览的缓存存储时长，设为0则禁用缓存，默认值为60分钟。",
+                "open_links_in_new_tab_label": "在新标签页打开链接",
+                "open_links_in_new_tab_help": "让链接在新标签页中打开。",
                 "external_api_fallback_label": "",
                 "external_api_fallback_help": "",
                 "external_api_url_label": "",
@@ -35,7 +35,7 @@
             }
         },
         "forum": {
-            "site_cannot_be_reached": ""
+            "site_cannot_be_reached": "无法加载预览，请检查链接后重试。"
         }
     }
 }

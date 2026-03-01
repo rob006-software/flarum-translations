@@ -12,22 +12,22 @@
                 "external_api_description": ""
             },
             "settings": {
-                "enable_batch_requests_label": "",
-                "enable_batch_requests_help": "",
-                "blacklist_label": "",
-                "blacklist_help": "",
-                "blacklist_placeholder": "",
-                "whitelist_label": "",
-                "whitelist_help": "",
-                "whitelist_placeholder": "",
-                "convert_media_urls_label": "",
-                "convert_media_urls_help": "",
-                "use_google_favicons_label": "",
-                "use_google_favicons_help": "",
-                "cache_time_label": "",
-                "cache_time_help": "",
-                "open_links_in_new_tab_label": "",
-                "open_links_in_new_tab_help": "",
+                "enable_batch_requests_label": "Omogući skupnu obradu",
+                "enable_batch_requests_help": "Poboljšaj performanse obradom više pregleda poveznica istovremeno. Kada je onemogućeno, poveznice se obrađuju jedna po jedna.",
+                "blacklist_label": "Crna lista Domena",
+                "blacklist_help": "Odredite domene ili URL-ove za koje ne bi trebalo generirati preglede poveznica. Koristite zareze za odvajanje višestrukih unosa.",
+                "blacklist_placeholder": "Primjeri: facebook.com, twitter.com/specific-page",
+                "whitelist_label": "Bijela lista Domena",
+                "whitelist_help": "Generiraj preglede samo za ove domene ili URL-ove. Ostavi prazno da bi se omogućile sve domene koje nisu na crnoj listi.",
+                "whitelist_placeholder": "Primjeri: trusted-site.com, specific-domain.org/path",
+                "convert_media_urls_label": "Pregled Medijskih URL-ova",
+                "convert_media_urls_help": "Generiraj preglede za URL-ove koji upućuju na medijske datoteke (slike, videozapise itd.).",
+                "use_google_favicons_label": "Prikaži Ikone Stranice",
+                "use_google_favicons_help": "Prikaži ikone web-mjesta koristeći Googleovu uslugu Favicon za poboljšanje vizualnog prepoznavanja.",
+                "cache_time_label": "Trajanje predmemorije (minute)",
+                "cache_time_help": "Koliko dugo pohranjivati preglede poveznica prije osvježavanja. Postavi na 0 za onemogućavanje predmemoriranja. Zadano: 60 minuta.",
+                "open_links_in_new_tab_label": "Otvori Poveznice u Novoj Kartici",
+                "open_links_in_new_tab_help": "Uvijek otvori pregledane poveznice u novoj kartici preglednika.",
                 "external_api_fallback_label": "",
                 "external_api_fallback_help": "",
                 "external_api_url_label": "",
@@ -35,7 +35,7 @@
             }
         },
         "forum": {
-            "site_cannot_be_reached": ""
+            "site_cannot_be_reached": "Nije moguće učitati pregled. Molimo provjerite URL i pokušajte ponovno."
         }
     }
 }

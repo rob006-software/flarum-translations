@@ -12,22 +12,22 @@
                 "external_api_description": ""
             },
             "settings": {
-                "enable_batch_requests_label": "",
-                "enable_batch_requests_help": "",
-                "blacklist_label": "",
-                "blacklist_help": "",
-                "blacklist_placeholder": "",
-                "whitelist_label": "",
-                "whitelist_help": "",
-                "whitelist_placeholder": "",
-                "convert_media_urls_label": "",
-                "convert_media_urls_help": "",
-                "use_google_favicons_label": "",
-                "use_google_favicons_help": "",
-                "cache_time_label": "",
-                "cache_time_help": "",
-                "open_links_in_new_tab_label": "",
-                "open_links_in_new_tab_help": "",
+                "enable_batch_requests_label": "Kötegelt feldolgozás engedélyezése",
+                "enable_batch_requests_help": "A teljesítmény növelése több hivatkozás-előnézet egyidejű feldolgozásával. Ha ki van kapcsolva, akkor a hivatkozásokat egyesével dolgozza fel.",
+                "blacklist_label": "Domain tiltólista",
+                "blacklist_help": "Adja meg azokat a domaineket vagy webcímeket, melyek nem állítanak elő hivatkozás-előnézeteket. Használjon vesszőket a bejegyzések elválasztásához.",
+                "blacklist_placeholder": "Példák: facebook.com, twitter.com/adott-oldal",
+                "whitelist_label": "Domain engedélyezési lista",
+                "whitelist_help": "Előnézetek előállítása csak ezeknél a domaineknél vagy webcímeknél. Az összes nem tiltott domain engedélyezéséhez hagyja üresen.",
+                "whitelist_placeholder": "Példák: megbizhato-oldal.com, konkret-domain.org/utvonal",
+                "convert_media_urls_label": "Médiawebcímek előnézete",
+                "convert_media_urls_help": "Előnézetek előállítása az médiafájlokra (képek, videók, stb.) mutató webcímek esetén.",
+                "use_google_favicons_label": "Oldalikonok megjelenítése",
+                "use_google_favicons_help": "Webhelyek faviconjainak megjelenítése a Google Favicon szolgáltatásának használatával, a jobb vizuális felismerés érdekében.",
+                "cache_time_label": "Gyorsítótárazás hossza (percben)",
+                "cache_time_help": "Meddig legyenek a hivatkozás-előnézetek tárolva frissítés előtt. A gyorsítótárazás kikapcsolásához állítsa 0-ra. Alapértelmezés: 60 perc.",
+                "open_links_in_new_tab_label": "Hivatkozások megnyitása új lapon",
+                "open_links_in_new_tab_help": "Előnézettel rendelkező hivatkozások megnyitása mindig új böngészőlapon.",
                 "external_api_fallback_label": "",
                 "external_api_fallback_help": "",
                 "external_api_url_label": "",
@@ -35,7 +35,7 @@
             }
         },
         "forum": {
-            "site_cannot_be_reached": ""
+            "site_cannot_be_reached": "Az előnézet nem tölthető be. Ellenőrizze a webcímet, és próbálja újra."
         }
     }
 }

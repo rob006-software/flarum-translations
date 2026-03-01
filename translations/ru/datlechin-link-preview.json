@@ -12,22 +12,22 @@
                 "external_api_description": ""
             },
             "settings": {
-                "enable_batch_requests_label": "",
-                "enable_batch_requests_help": "",
-                "blacklist_label": "",
-                "blacklist_help": "",
-                "blacklist_placeholder": "",
-                "whitelist_label": "",
-                "whitelist_help": "",
-                "whitelist_placeholder": "",
-                "convert_media_urls_label": "",
-                "convert_media_urls_help": "",
-                "use_google_favicons_label": "",
-                "use_google_favicons_help": "",
-                "cache_time_label": "",
-                "cache_time_help": "",
-                "open_links_in_new_tab_label": "",
-                "open_links_in_new_tab_help": "",
+                "enable_batch_requests_label": "Включить пакетную обработку",
+                "enable_batch_requests_help": "Повышает производительность благодаря одновременной обработке нескольких предпросмотров. Если функция отключена, ссылки обрабатываются по одной.",
+                "blacklist_label": "Чёрный список",
+                "blacklist_help": "Введите через запятую список доменов или URL для исключения из предпросмотра ссылок.",
+                "blacklist_placeholder": "Например, facebook.com,https://domain.com/path",
+                "whitelist_label": "Разрешённые домены",
+                "whitelist_help": "Создавать предпросмотр только для этих доменов или URL. Оставьте поле пустым, чтобы разрешить все домены, которых нет в чёрном списке.",
+                "whitelist_placeholder": "Например, trusted-site.com, specific-domain.org/path",
+                "convert_media_urls_label": "Преобразовывать URL медиа",
+                "convert_media_urls_help": "Если включено, все медиа URL будут преобразованы в предпросмотр ссылок.",
+                "use_google_favicons_label": "Показывать иконки сайтов",
+                "use_google_favicons_help": "Показывать фавиконки сайтов с помощью сервиса Google Favicon для улучшения стиля.",
+                "cache_time_label": "Время кэширования (в минутах)",
+                "cache_time_help": "Время хранения предпросмотра перед обновлением. Установите 0, чтобы отключить кэширование. По умолчанию — 60 минут.",
+                "open_links_in_new_tab_label": "Открывать ссылки в новой вкладке",
+                "open_links_in_new_tab_help": "Всегда открывать предпросмотр ссылок в новой вкладке браузера.",
                 "external_api_fallback_label": "",
                 "external_api_fallback_help": "",
                 "external_api_url_label": "",
@@ -35,7 +35,7 @@
             }
         },
         "forum": {
-            "site_cannot_be_reached": ""
+            "site_cannot_be_reached": "Не удалось загрузить предпросмотр. Проверьте URL и попробуйте снова."
         }
     }
 }

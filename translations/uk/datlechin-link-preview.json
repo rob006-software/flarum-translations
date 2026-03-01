@@ -12,22 +12,22 @@
                 "external_api_description": ""
             },
             "settings": {
-                "enable_batch_requests_label": "",
-                "enable_batch_requests_help": "",
-                "blacklist_label": "",
-                "blacklist_help": "",
-                "blacklist_placeholder": "",
-                "whitelist_label": "",
-                "whitelist_help": "",
-                "whitelist_placeholder": "",
-                "convert_media_urls_label": "",
-                "convert_media_urls_help": "",
-                "use_google_favicons_label": "",
-                "use_google_favicons_help": "",
-                "cache_time_label": "",
-                "cache_time_help": "",
-                "open_links_in_new_tab_label": "",
-                "open_links_in_new_tab_help": "",
+                "enable_batch_requests_label": "Увімкнути пакетну обробку",
+                "enable_batch_requests_help": "Підвищити продуктивність, обробляючи кілька попередніх переглядів посилань одночасно. Якщо вимкнено, посилання обробляються по одному.",
+                "blacklist_label": "Чорний список доменів",
+                "blacklist_help": "Вкажіть домени або URL-адреси, які не повинні генерувати попередній перегляд посилань. Використовуйте коми для розділення декількох записів.",
+                "blacklist_placeholder": "Наприклад: facebook.com,twitter.com/specific-page",
+                "whitelist_label": "Білий список доменів",
+                "whitelist_help": "Створювати попередній перегляд тільки для цих доменів або URL-адрес. Залиште порожнім, щоб дозволити всі домени, що не входять до чорного списку.",
+                "whitelist_placeholder": "Наприклад: facebook.com,https://domain.com/path",
+                "convert_media_urls_label": "Попередній перегляд URL-адрес медіа",
+                "convert_media_urls_help": "Створювати попередній перегляд для URL-адрес, які вказують на медіафайли (зображення, відео тощо).",
+                "use_google_favicons_label": "Відображати іконки сайту",
+                "use_google_favicons_help": "Показуйте іконки сайту за допомогою сервісу Google Favicon, щоб покращити візуальне впізнавання.",
+                "cache_time_label": "Час кешування в хв",
+                "cache_time_help": "Як довго зберігати попередній перегляд посилань перед оновленням. Встановіть 0, щоб вимкнути кешування. За замовчуванням: 60 хвилин.",
+                "open_links_in_new_tab_label": "Відкрити посилання в новій вкладці",
+                "open_links_in_new_tab_help": "Завжди відкривайте попередньо переглянуті посилання в новій вкладці браузера.",
                 "external_api_fallback_label": "",
                 "external_api_fallback_help": "",
                 "external_api_url_label": "",
@@ -35,7 +35,7 @@
             }
         },
         "forum": {
-            "site_cannot_be_reached": ""
+            "site_cannot_be_reached": "Не вдалося завантажити попередній перегляд. Будь ласка, перевірте URL-адресу та спробуйте ще раз."
         }
     }
 }

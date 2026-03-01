@@ -2,26 +2,26 @@
     "datlechin-more-discussions": {
         "admin": {
             "settings": {
-                "block_name_label": "",
-                "block_name_help": "",
-                "discussion_limit_label": "",
-                "discussion_limit_help": "",
-                "discussion_related_label": "",
-                "discussion_related_help": "",
-                "filter_by_label": "",
-                "filter_by_help": "",
+                "block_name_label": "區塊名稱",
+                "block_name_help": "區塊名稱（預設 <code>Latest Discussions</code>）",
+                "discussion_limit_label": "貼文限制",
+                "discussion_limit_help": "要顯示的討論數（預設 <code>5</code>）",
+                "discussion_related_label": "相關結果",
+                "discussion_related_help": "按討論標題搜尋相關結果。 <b>警告：</b>這會對您的網站效能產生很大影響，特別是在大型網站的情況下。 若要解決此問題，請將此選項與 <b>clarkwinkelmann/flarum-ext-scout</b> 擴充功能結合使用。",
+                "filter_by_label": "進行過濾",
+                "filter_by_help": "過濾討論（預設：<code>最新</code>）",
                 "filter_dropdown": {
-                    "latest": "",
-                    "top": "",
-                    "newest": "",
-                    "oldest": "",
-                    "hot": "",
-                    "votes": ""
+                    "latest": "最後回覆",
+                    "top": "最熱貼文",
+                    "newest": "最新",
+                    "oldest": "最舊的",
+                    "hot": "追蹤（需要 fof/gamification）",
+                    "votes": "噓文（需要 fof/gamification）"
                 }
             }
         },
         "forum": {
-            "block_default_name": ""
+            "block_default_name": "最新討論"
         }
     }
 }

@@ -12,22 +12,22 @@
                 "external_api_description": ""
             },
             "settings": {
-                "enable_batch_requests_label": "",
-                "enable_batch_requests_help": "",
-                "blacklist_label": "",
-                "blacklist_help": "",
-                "blacklist_placeholder": "",
-                "whitelist_label": "",
-                "whitelist_help": "",
-                "whitelist_placeholder": "",
-                "convert_media_urls_label": "",
-                "convert_media_urls_help": "",
-                "use_google_favicons_label": "",
-                "use_google_favicons_help": "",
-                "cache_time_label": "",
-                "cache_time_help": "",
-                "open_links_in_new_tab_label": "",
-                "open_links_in_new_tab_help": "",
+                "enable_batch_requests_label": "Aktifkan Pemrosesan Massal",
+                "enable_batch_requests_help": "Tingkatkan kinerja dengan memproses beberapa pratinjau link secara bersamaan. Apabila dinonaktifkan, tautan akan diproses satu per satu.",
+                "blacklist_label": "Daftar Hitam Domain",
+                "blacklist_help": "Tentukan domain atau URL yang tidak boleh menghasilkan pratinjau tautan. Gunakan koma untuk memisahkan beberapa entri.",
+                "blacklist_placeholder": "Contoh: facebook.com, twitter.com/specific-page",
+                "whitelist_label": "Daftar Putih Domain",
+                "whitelist_help": "Hanya buat pratinjau untuk domain atau URL ini. Biarkan kosong untuk mengizinkan semua domain yang tidak masuk ke dalam daftar hitam.",
+                "whitelist_placeholder": "Contoh: trusted-site.com, specific-domain.org/path",
+                "convert_media_urls_label": "Pratinjau URL Media",
+                "convert_media_urls_help": "Hasilkan pratinjau untuk URL yang mengarah ke file media (gambar, video, dll.).",
+                "use_google_favicons_label": "Tampilkan Ikon Situs",
+                "use_google_favicons_help": "Tampilkan favicon situs web menggunakan layanan Google Favicon untuk meningkatkan pengenalan visual.",
+                "cache_time_label": "Durasi Cache (menit)",
+                "cache_time_help": "Berapa lama menyimpan pratinjau link sebelum melakukan penyegaran. Atur ke 0 untuk menonaktifkan cache. Default: 60 menit.",
+                "open_links_in_new_tab_label": "Buka Link di Tab Baru",
+                "open_links_in_new_tab_help": "Selalu buka link pratinjau di tab baru.",
                 "external_api_fallback_label": "",
                 "external_api_fallback_help": "",
                 "external_api_url_label": "",
@@ -35,7 +35,7 @@
             }
         },
         "forum": {
-            "site_cannot_be_reached": ""
+            "site_cannot_be_reached": "Tidak dapat memuat pratinjau. Silakan periksa URL dan coba lagi."
         }
     }
 }
