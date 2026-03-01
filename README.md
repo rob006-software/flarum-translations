@@ -908,6 +908,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`forumaker-magicread`](https://weblate.rob006.net/projects/flarum2/forumaker-magicread) | [`forumaker/magicread`](https://github.com/forumaker/magicread) |
 | [`forumaker-magicslider`](https://weblate.rob006.net/projects/flarum2/forumaker-magicslider) | [`forumaker/magicslider`](https://github.com/forumaker/magicslider) |
 | [`huoxin-relative-url`](https://weblate.rob006.net/projects/flarum2/huoxin-relative-url) | [`huoxin/relative-url`](https://github.com/huoxin233/flarum-ext-relative-url) |
+| [`huseyinfiliz-diff`](https://weblate.rob006.net/projects/flarum2/huseyinfiliz-diff) | [`huseyinfiliz/flarum-diff`](https://github.com/huseyinfiliz/flarum-diff) |
 | [`huseyinfiliz-modern-footer`](https://weblate.rob006.net/projects/flarum2/huseyinfiliz-modern-footer) | [`huseyinfiliz/modern-footer`](https://github.com/huseyinfiliz/modern-footer) |
 | [`huseyinfiliz-stickiest`](https://weblate.rob006.net/projects/flarum2/huseyinfiliz-stickiest) | [`huseyinfiliz/stickiest`](https://github.com/huseyinfiliz/stickiest) |
 | [`ianm-boring-avatars`](https://weblate.rob006.net/projects/flarum2/ianm-boring-avatars) | [`ianm/boring-avatars`](https://github.com/imorland/flarum-ext-boring-avatars) |
