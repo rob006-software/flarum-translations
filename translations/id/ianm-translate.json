@@ -4,24 +4,24 @@
             "glossary": {
                 "button": "Glosarium",
                 "create_button": "Buat istilah baru",
-                "refresh_button": "",
-                "edit_term": "",
-                "delete_term": "",
+                "refresh_button": "Segarkan",
+                "edit_term": "Edit istilah",
+                "delete_term": "Hapus istilah",
                 "section": {
                     "heading": "Konfigurasi Glosarium",
                     "help": "Kata-kata atau istilah glosarium didefinisikan sehingga layanan penerjemahan tidak akan menerjemahkannya. Hal ini berguna untuk kata benda yang tepat, istilah teknis, atau kata lain yang tidak boleh diterjemahkan."
                 },
                 "terms": {
-                    "current": ""
+                    "current": "{count, plural, one {# istilah} other {# istilah}} saat ini didefinisikan"
                 },
-                "no_terms": "",
-                "extender_info": "",
-                "create_not_implemented": "",
-                "edit_not_available": "",
-                "delete_not_available": "",
+                "no_terms": "elum ada istilah glosarium yang didefinisikan saat ini.",
+                "extender_info": "Istilah glosarium dapat ditambahkan menggunakan ekstensi PHP extender di file extend.php Anda.",
+                "create_not_implemented": "Pembuatan istilah melalui antarmuka pengguna belum diimplementasikan. Gunakan PHP extender.",
+                "edit_not_available": "Istilah ini didefinisikan dalam kode dan tidak dapat diedit melalui antarmuka pengguna",
+                "delete_not_available": "Istilah ini didefinisikan dalam kode dan tidak dapat dihapus melalui antarmuka pengguna",
                 "source": {
-                    "code": "",
-                    "database": "",
+                    "code": "Didefinisikan dalam kode",
+                    "database": "Disimpan di database",
                     "default": ""
                 }
             },
@@ -51,8 +51,8 @@
                 "seemless-help": "Fitur beta. Ketika diaktifkan, semua konten pengguna akan diterjemahkan secara otomatis ke semua bahasa forum yang tersedia. Ketika pengguna melihat konten multi-bahasa, terjemahan akan ditampilkan secara otomatis.",
                 "multi-lang-search": "Pencarian multi-bahasa",
                 "multi-lang-search-help": "Ketika diaktifkan, pencarian akan menyertakan semua terjemahan konten.",
-                "short-content-length": "",
-                "short-content-length-help": "",
+                "short-content-length": "Konten Pendek",
+                "short-content-length-help": "Ketika diaktifkan, konten yang lebih pendek dari panjang yang ditentukan akan diterjemahkan dan dianggap ditulis dalam bahasa antarmuka saat ini. Nilai 0 akan menonaktifkan fitur ini.",
                 "deepl": {
                     "api_key": {
                         "help": "Daftar di {link}. Driver akan secara otomatis mendeteksi jenis key free/pro.",
@@ -76,20 +76,20 @@
                         }
                     },
                     "model_type": {
-                        "help": "",
-                        "label": "",
+                        "help": "Pilih model DeepL mana yang akan digunakan untuk penerjemahan.",
+                        "label": "Jenis model",
                         "options": {
-                            "latency_optimized": "",
-                            "prefer_quality_optimized": ""
+                            "latency_optimized": "Dioptimalkan untuk kecepatan",
+                            "prefer_quality_optimized": "Lebih mengutamakan kualitas jika tersedia"
                         }
                     },
                     "glossary": {
                         "options": {
-                            "none": ""
+                            "none": "Tanpa glosarium"
                         },
                         "pair": {
-                            "label": "",
-                            "help": ""
+                            "label": "Glosarium {source} ke {target}",
+                            "help": "Pilih glosarium saat menerjemahkan dari {source} ke {target}, atau pilih \"tanpa glosarium\" jika tidak diperlukan untuk pasangan bahasa ini."
                         }
                     }
                 },
@@ -101,63 +101,63 @@
                 },
                 "openai": {
                     "api_key": {
-                        "help": "",
-                        "label": ""
+                        "help": "Daftar untuk mendapatkan kunci API di {link}. Driver ini mendukung model GPT-4o dan GPT-4o-mini.",
+                        "label": "=> ianm-translate.lib.settings.api-key"
                     },
                     "translation_model": {
-                        "help": "",
-                        "label": "",
+                        "help": "Pilih model OpenAI mana yang akan digunakan untuk terjemahan. GPT-4o menawarkan kualitas terbaik, GPT-4o-mini memberikan keseimbangan yang baik, dan GPT-3.5-turbo adalah yang paling hemat biaya.",
+                        "label": "Model terjemahan",
                         "options": {
-                            "gpt-4o": "",
-                            "gpt-4o-mini": "",
+                            "gpt-4o": "GPT-4o (Premium)",
+                            "gpt-4o-mini": "GPT-4o Mini (Balanced)",
                             "gpt-3": {
-                                "5-turbo": "",
-                                "5-turbo-0125": ""
+                                "5-turbo": "GPT-3.5 Turbo (Budget)",
+                                "5-turbo-0125": "GPT-3.5 Turbo Terbaru (Budget+)"
                             }
                         }
                     },
                     "detection_model": {
-                        "help": "",
-                        "label": "",
+                        "help": "Pilih model OpenAI mana yang akan digunakan untuk deteksi bahasa. GPT-3.5-turbo direkomendasikan karena deteksi bahasa adalah tugas yang sederhana dan tidak memerlukan model yang paling canggih.",
+                        "label": "Model pendeteksian bahasa",
                         "options": {
-                            "gpt-4o": "",
-                            "gpt-4o-mini": "",
+                            "gpt-4o": "GPT-4o (Premium)",
+                            "gpt-4o-mini": "GPT-4o Mini (Balanced)",
                             "gpt-3": {
-                                "5-turbo": "",
-                                "5-turbo-0125": ""
+                                "5-turbo": "GPT-3.5 Turbo (Budget)",
+                                "5-turbo-0125": "GPT-3.5 Turbo Terbaru (Budget+)"
                             }
                         }
                     },
                     "de_variant": {
-                        "help": "",
-                        "label": "",
+                        "help": "Saat menerjemahkan ke bahasa Jerman, pilih varian mana yang akan digunakan.",
+                        "label": "Varian bahasa Jerman",
                         "options": {
-                            "casual": "",
-                            "swiss": ""
+                            "casual": "Jerman informal",
+                            "swiss": "Jerman Swiss"
                         }
                     },
                     "en_variant": {
-                        "help": "",
-                        "label": "",
+                        "help": "Saat menerjemahkan ke bahasa Inggris, pilih varian mana yang akan digunakan.",
+                        "label": "Varian bahasa Inggris",
                         "options": {
-                            "en-GB": "",
-                            "en-US": ""
+                            "en-GB": "Inggris Britania",
+                            "en-US": "Inggris Amerika"
                         }
                     },
                     "max_tokens": {
-                        "help": "",
-                        "label": "",
+                        "help": "Jumlah maksimum token untuk keluaran terjemahan. Nilai lebih tinggi memungkinkan terjemahan lebih panjang tetapi meningkatkan biaya. 1024 token ≈ 750 kata. Biaya GPT-4o ≈ $0.03 per 1K token keluaran, GPT-4o-mini ≈ $0.0006 per 1K token keluaran.",
+                        "label": "Maksimum token keluaran",
                         "options": {
-                            "1024": "",
-                            "2048": "",
-                            "4096": "",
-                            "6144": "",
-                            "8192": ""
+                            "1024": "1.024 token (~750 kata)",
+                            "2048": "2.048 token (~1.500 kata)",
+                            "4096": "4.096 token (~3.000 kata)",
+                            "6144": "6.144 token (~4.500 kata)",
+                            "8192": "8.192 token (~6.000 kata)"
                         }
                     },
                     "timeout": {
-                        "help": "",
-                        "label": ""
+                        "help": "Batas waktu permintaan dalam detik. Tingkatkan jika Anda mengalami kesalahan batas waktu.",
+                        "label": "Batas waktu (detik)"
                     }
                 },
                 "translate-all-enabled": "Aktifkan semua terjemahan bahasa",
@@ -191,7 +191,7 @@
         },
         "forum": {
             "post": {
-                "translation-error": ""
+                "translation-error": "Ada masalah dalam menampilkan terjemahan post ini. Eror telah dicatat dengan ID {uuid}. Silakan laporkan hal ini jika masalah terus berlanjut."
             },
             "unknown-language": "[tidak terdeteksi]",
             "detected-language": "Post ini dalam bahasa {postLang}",
