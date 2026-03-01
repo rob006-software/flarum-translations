@@ -215,6 +215,9 @@ return [
 	'fof-reactions' => [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/reactions/2.0.0-beta.2/resources/locale/en.yml',
 	],
+	'fof-rich-text' => [
+		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/rich-text/2.0.0-beta.1/resources/locale/en.yml',
+	],
 	'fof-sentry' => [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/sentry/2.0.0-beta.3/resources/locale/en.yml',
 	],
