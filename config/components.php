@@ -339,5 +339,8 @@ return [
 	'yippy-tag-with-themes' => [
 		'tag' => 'https://raw.githubusercontent.com/Yippy/flarum-tag-with-themes/v2.0.3/locale/en.yml',
 	],
+	'zhihe-subscriptions' => [
+		'beta' => 'https://raw.githubusercontent.com/echolocked/zhihe-subscriptions/v2.0.0-beta.3/locale/en.yml',
+	],
 	/* extensions list end */
 ];
