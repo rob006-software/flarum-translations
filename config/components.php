@@ -230,6 +230,9 @@ return [
 	'fof-sentry' => [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/sentry/2.0.0-beta.3/resources/locale/en.yml',
 	],
+	'fof-share-social' => [
+		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/share-social/2.0.0-beta.1/resources/locale/en.yml',
+	],
 	'fof-sitemap' => [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/sitemap/3.0.0-beta.5/resources/locale/en.yml',
 	],
