@@ -59,6 +59,9 @@ return [
 	'datlechin-signup-button' => [
 		'beta' => 'https://raw.githubusercontent.com/datlechin/flarum-signup-button/v2.0.0-beta.1/locale/en.yml',
 	],
+	'datlechin-silent-edit' => [
+		'beta' => 'https://raw.githubusercontent.com/datlechin/flarum-silent-edit/v2.0.0-beta.1/locale/en.yml',
+	],
 	'datlechin-tag-passwords' => [
 		'beta' => 'https://raw.githubusercontent.com/datlechin/flarum-tag-passwords/v2.0.0-beta.1/locale/en.yml',
 	],
