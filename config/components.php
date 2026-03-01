@@ -53,6 +53,9 @@ return [
 	'datlechin-posted-on' => [
 		'beta' => 'https://raw.githubusercontent.com/datlechin/flarum-posted-on/v2.0.0-beta.1/locale/en.yml',
 	],
+	'datlechin-scroll-buttons' => [
+		'beta' => 'https://raw.githubusercontent.com/datlechin/flarum-scroll-buttons/v2.0.0-beta.1/locale/en.yml',
+	],
 	'flarum-akismet' => [
 		'beta' => 'https://raw.githubusercontent.com/flarum/akismet/v2.0.0-beta.7/locale/en.yml',
 	],
