@@ -2,25 +2,25 @@
     "forumaker-magic-dice": {
         "admin": {
             "settings": {
-                "section_main": "",
-                "clearOnEdit": ""
+                "section_main": "Настройки",
+                "clearOnEdit": "Генерировать новые числа при редактировании поста"
             }
         },
         "forum": {
             "tooltip": {
-                "preview": ""
+                "preview": "Случайный бросок при сохранении"
             },
             "composer": {
-                "rollDie": ""
+                "rollDie": "Кубик"
             },
             "settings": {
                 "diceSkin": {
-                    "heading": "",
-                    "classic": "",
-                    "circle": "",
-                    "hc": "",
-                    "gradient": "",
-                    "neon": ""
+                    "heading": "Стиль кубика",
+                    "classic": "Классика",
+                    "circle": "Орбита",
+                    "hc": "Контраст",
+                    "gradient": "Закат",
+                    "neon": "Неон"
                 }
             }
         }
