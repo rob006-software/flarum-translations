@@ -837,13 +837,16 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`fof-anti-spam`](https://weblate.rob006.net/projects/flarum2/fof-anti-spam) | [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) |
 | [`fof-best-answer`](https://weblate.rob006.net/projects/flarum2/fof-best-answer) | [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer) |
 | [`fof-byobu`](https://weblate.rob006.net/projects/flarum2/fof-byobu) | [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu) |
+| [`fof-categories`](https://weblate.rob006.net/projects/flarum2/fof-categories) | [`fof/categories`](https://github.com/FriendsOfFlarum/categories) |
 | [`fof-default-group`](https://weblate.rob006.net/projects/flarum2/fof-default-group) | [`fof/default-group`](https://github.com/FriendsOfFlarum/default-group) |
 | [`fof-default-user-preferences`](https://weblate.rob006.net/projects/flarum2/fof-default-user-preferences) | [`fof/default-user-preferences`](https://github.com/FriendsOfFlarum/default-user-preferences) |
 | [`fof-discussion-templates`](https://weblate.rob006.net/projects/flarum2/fof-discussion-templates) | [`fof/discussion-templates`](https://github.com/FriendsOfFlarum/discussion-templates) |
+| [`fof-discussion-thumbnail`](https://weblate.rob006.net/projects/flarum2/fof-discussion-thumbnail) | [`fof/discussion-thumbnail`](https://github.com/FriendsOfFlarum/discussion-thumbnail) |
 | [`fof-discussion-views`](https://weblate.rob006.net/projects/flarum2/fof-discussion-views) | [`fof/discussion-views`](https://github.com/FriendsOfFlarum/discussion-views) |
 | [`fof-disposable-emails`](https://weblate.rob006.net/projects/flarum2/fof-disposable-emails) | [`fof/disposable-emails`](https://github.com/FriendsOfFlarum/disposable-emails) |
 | [`fof-drafts`](https://weblate.rob006.net/projects/flarum2/fof-drafts) | [`fof/drafts`](https://github.com/FriendsOfFlarum/drafts) |
 | [`fof-follow-tags`](https://weblate.rob006.net/projects/flarum2/fof-follow-tags) | [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags) |
+| [`fof-formatting`](https://weblate.rob006.net/projects/flarum2/fof-formatting) | [`fof/formatting`](https://github.com/FriendsOfFlarum/formatting) |
 | [`fof-frontpage`](https://weblate.rob006.net/projects/flarum2/fof-frontpage) | [`fof/frontpage`](https://github.com/FriendsOfFlarum/frontpage) |
 | [`fof-gamification`](https://weblate.rob006.net/projects/flarum2/fof-gamification) | [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification) |
 | [`fof-geoip`](https://weblate.rob006.net/projects/flarum2/fof-geoip) | [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip) |
@@ -861,7 +864,9 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`fof-prevent-necrobumping`](https://weblate.rob006.net/projects/flarum2/fof-prevent-necrobumping) | [`fof/prevent-necrobumping`](https://github.com/FriendsOfFlarum/prevent-necrobumping) |
 | [`fof-profile-image-crop`](https://weblate.rob006.net/projects/flarum2/fof-profile-image-crop) | [`fof/profile-image-crop`](https://github.com/FriendsOfFlarum/profile-image-crop) |
 | [`fof-reactions`](https://weblate.rob006.net/projects/flarum2/fof-reactions) | [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions) |
+| [`fof-rich-text`](https://weblate.rob006.net/projects/flarum2/fof-rich-text) | [`fof/rich-text`](https://github.com/FriendsOfFlarum/rich-text) |
 | [`fof-sentry`](https://weblate.rob006.net/projects/flarum2/fof-sentry) | [`fof/sentry`](https://github.com/FriendsOfFlarum/sentry) |
+| [`fof-share-social`](https://weblate.rob006.net/projects/flarum2/fof-share-social) | [`fof/share-social`](https://github.com/FriendsOfFlarum/share-social) |
 | [`fof-sitemap`](https://weblate.rob006.net/projects/flarum2/fof-sitemap) | [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap) |
 | [`fof-socialprofile`](https://weblate.rob006.net/projects/flarum2/fof-socialprofile) | [`fof/socialprofile`](https://github.com/FriendsOfFlarum/socialprofile) |
 | [`fof-split`](https://weblate.rob006.net/projects/flarum2/fof-split) | [`fof/split`](https://github.com/FriendsOfFlarum/split) |
