@@ -26,6 +26,9 @@ return [
 	'acpl-my-tags' => [
 		'beta' => 'https://raw.githubusercontent.com/android-com-pl/my-tags/2.0.0-beta.2/locale/en.yml',
 	],
+	'capybash-magicdice' => [
+		'tag' => 'https://raw.githubusercontent.com/capybash/magicdice/1.0.1/resources/locale/en.yml',
+	],
 	'datitisev-backup' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/main/datitisev-backup.yml',
 	],
