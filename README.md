@@ -887,6 +887,11 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`datlechin-birthdays`](https://weblate.rob006.net/projects/flarum2/datlechin-birthdays) | [`datlechin/flarum-birthdays`](https://github.com/datlechin/flarum-birthdays) |
 | [`datlechin-copy-links`](https://weblate.rob006.net/projects/flarum2/datlechin-copy-links) | [`datlechin/flarum-copy-links`](https://github.com/datlechin/flarum-copy-links) |
 | [`datlechin-discussion-overview`](https://weblate.rob006.net/projects/flarum2/datlechin-discussion-overview) | [`datlechin/flarum-discussion-overview`](https://github.com/datlechin/flarum-discussion-overview) |
+| [`datlechin-link-preview`](https://weblate.rob006.net/projects/flarum2/datlechin-link-preview) | [`datlechin/flarum-link-preview`](https://github.com/datlechin/flarum-link-preview) |
+| [`datlechin-more-discussions`](https://weblate.rob006.net/projects/flarum2/datlechin-more-discussions) | [`datlechin/flarum-more-discussions`](https://github.com/datlechin/flarum-more-discussions) |
+| [`datlechin-posted-on`](https://weblate.rob006.net/projects/flarum2/datlechin-posted-on) | [`datlechin/flarum-posted-on`](https://github.com/datlechin/flarum-posted-on) |
+| [`datlechin-scroll-buttons`](https://weblate.rob006.net/projects/flarum2/datlechin-scroll-buttons) | [`datlechin/flarum-scroll-buttons`](https://github.com/datlechin/flarum-scroll-buttons) |
+| [`datlechin-signup-button`](https://weblate.rob006.net/projects/flarum2/datlechin-signup-button) | [`datlechin/flarum-signup-button`](https://github.com/datlechin/flarum-signup-button) |
 | [`flectar-turnstile`](https://weblate.rob006.net/projects/flarum2/flectar-turnstile) | [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile) |
 | [`forumaker-magicbb`](https://weblate.rob006.net/projects/flarum2/forumaker-magicbb) | [`forumaker/magicbb`](https://github.com/forumaker/magicbb) |
 | [`forumaker-magicdice`](https://weblate.rob006.net/projects/flarum2/forumaker-magicdice) | [`forumaker/magicdice`](https://github.com/forumaker/magicdice) |
