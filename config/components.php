@@ -1809,6 +1809,12 @@ return [
 	'yippy-tag-with-themes' => [
 		'tag' => 'https://raw.githubusercontent.com/Yippy/flarum-tag-with-themes/v1.0.16/locale/en.yml',
 	],
+	'zephyrisle-zai' => [
+		'tag' => 'https://raw.githubusercontent.com/Zephyr-Isle/flarum-zai/v1.0.0/resources/locale/en.yml',
+		'__builtInLanguages' => [
+			'zh_Hans',
+		],
+	],
 	'zhihe-primary-posts' => [
 		'tag' => 'https://raw.githubusercontent.com/echolocked/zhihe-primary-posts/v1.0.4/locale/en.yml',
 		'__builtInLanguages' => [
