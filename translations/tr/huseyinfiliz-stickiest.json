@@ -2,49 +2,49 @@
     "huseyinfiliz-stickiest": {
         "admin": {
             "permissions": {
-                "super_sticky_discussions_label": "",
-                "tag_sticky_discussions_label": ""
+                "super_sticky_discussions_label": "Süper sabitlenmiş tartışmalar",
+                "tag_sticky_discussions_label": "Etikette sabitlenmiş tartışmalar"
             },
             "settings": {
-                "badge_icon_label": "",
-                "badge_icon_text": "",
-                "display_tag_sticky_label": "",
-                "display_tag_sticky_text": ""
+                "badge_icon_label": "Süper sabitlenmiş rozet simgesi",
+                "badge_icon_text": "=> core.ref.icon_text",
+                "display_tag_sticky_label": "\"Tüm Tartışmalar\" listesinde etiket sabitlemelerini göster",
+                "display_tag_sticky_text": "Normal tartışma olarak kabul edilecekler ve sabitlenmiş olarak kalmayacaklar."
             }
         },
         "forum": {
             "badge": {
-                "sticky_tooltip": "",
-                "super_sticky_tooltip": "",
-                "tag_sticky_tooltip": "",
-                "super_tag_sticky_tooltip": ""
+                "sticky_tooltip": "=> huseyinfiliz-stickiest.ref.sticky",
+                "super_sticky_tooltip": "=> huseyinfiliz-stickiest.ref.super_sticky",
+                "tag_sticky_tooltip": "=> huseyinfiliz-stickiest.ref.tag_sticky",
+                "super_tag_sticky_tooltip": "=> huseyinfiliz-stickiest.ref.super_tag_sticky"
             },
             "stickiest_modal": {
-                "title": "",
-                "sticky_label": "",
-                "sticky_text": "",
-                "super_sticky_label": "",
-                "super_sticky_text": "",
-                "tag_sticky_label": "",
-                "tag_sticky_text": "",
-                "tags_label": "",
-                "submit_button": ""
+                "title": "Sabitle: {title}",
+                "sticky_label": "=> flarum-sticky.ref.sticky",
+                "sticky_text": "Sabitlenen tartışmalar, okunmamışlarsa \"Tüm Tartışmalar\" listesinde en üstte kalır. Tartışmaya ait belirli bir etiketi görüntülerken, her zaman en üstte kalacaklardır.",
+                "super_sticky_label": "=> huseyinfiliz-stickiest.ref.super_sticky",
+                "super_sticky_text": "Süper sabitlenen tartışmalar ne olursa olsun en üstte kalacak.",
+                "tag_sticky_label": "=> huseyinfiliz-stickiest.ref.tag_sticky",
+                "tag_sticky_text": "Etiket sabitlemeleri varsayılan olarak \"Tüm Tartışmalar\" listesinde gizlenir. Burada seçeceğiniz etiketlerden biri olan belirli bir etiketi görüntülerken yalnızca gösterilecek ve üstte kalacaklardır. Bu seçenek \"Süper Sabitle\" ile birleştirilebilir.",
+                "tags_label": "=> flarum-tags.ref.tags",
+                "submit_button": "=> core.ref.save_changes"
             },
             "discussion_controls": {
-                "sticky_button": ""
+                "sticky_button": "=> flarum-sticky.forum.discussion_controls.sticky_button"
             },
             "post_stream": {
-                "discussion_stickied_text": "",
-                "discussion_unstickied_text": "",
-                "discussion_super_stickied_text": "",
-                "discussion_common_stickied_text": ""
+                "discussion_stickied_text": "=> flarum-sticky.forum.post_stream.discussion_stickied_text",
+                "discussion_unstickied_text": "=> flarum-sticky.forum.post_stream.discussion_unstickied_text",
+                "discussion_super_stickied_text": "{username} bu tartışmayı süper sabitledi.",
+                "discussion_common_stickied_text": "{username} bu tartışmanın süper sabitlenmesini kaldırdı."
             }
         },
         "ref": {
-            "sticky": "",
-            "super_sticky": "",
-            "tag_sticky": "",
-            "super_tag_sticky": ""
+            "sticky": "=> flarum-sticky.ref.sticky",
+            "super_sticky": "Süper Sabitle",
+            "tag_sticky": "Etikette Sabitle",
+            "super_tag_sticky": "Süper Etikette Sabitle"
         }
     }
 }
