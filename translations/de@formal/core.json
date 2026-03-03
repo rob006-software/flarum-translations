@@ -2,7 +2,7 @@
     "core": {
         "admin": {
             "advanced": {
-                "description": "",
+                "description": "Erweiterte Einstellungen für dein Forum konfigurieren.",
                 "maintenance": {
                     "bisect": {
                         "begin_button_text": "",
@@ -15,14 +15,14 @@
                         "end_button": "",
                         "issue_question": "",
                         "issue_question_help": "",
-                        "no_button": "",
+                        "no_button": "Nein",
                         "result_description": "",
                         "start_button": "",
                         "stop_button": "",
                         "steps_left": "",
                         "total_steps": "",
                         "title": "",
-                        "yes_button": ""
+                        "yes_button": "Ja"
                     },
                     "config_override": {
                         "label": "",
@@ -30,23 +30,23 @@
                     },
                     "help": "",
                     "options": {
-                        "none": "",
+                        "none": "Keine Wartung.",
                         "high": "",
                         "low": "",
                         "safe": ""
                     },
                     "safe_mode_extensions": "",
                     "safe_mode_extensions_override_help": "",
-                    "section_label": ""
+                    "section_label": "Wartung"
                 },
                 "fontawesome": {
-                    "section_label": "",
-                    "source_label": "",
+                    "section_label": "FontAwesome-Symbole",
+                    "source_label": "Symbolquelle",
                     "source_help": "",
                     "source_local": "",
-                    "source_cdn": "",
+                    "source_cdn": "CDN",
                     "source_kit": "",
-                    "cdn_url_label": "",
+                    "cdn_url_label": "CDN-URL",
                     "cdn_url_help": "",
                     "kit_url_label": "",
                     "kit_url_help": "",
@@ -59,7 +59,7 @@
                     "search_configuration": ""
                 },
                 "queue": {
-                    "section_label": "",
+                    "section_label": "Warteschlange",
                     "sync_info": "",
                     "sync_help": "",
                     "custom_driver": "",
@@ -109,13 +109,13 @@
                 "logo_heading": "Firmenzeichen",
                 "logo_text": "Laden Sie ein Logo hoch, welches anstelle des Forum-Titels angezeigt wird.",
                 "title": "Erscheinungsbild",
-                "color_scheme_label": "",
+                "color_scheme_label": "Farbschema (Standard)",
                 "color_schemes": {
                     "auto_mode_label": "",
-                    "dark_hc_mode_label": "",
-                    "dark_mode_label": "",
-                    "light_hc_mode_label": "",
-                    "light_mode_label": ""
+                    "dark_hc_mode_label": "=> core.ref.dark_hc_mode_label",
+                    "dark_mode_label": "=> core.ref.dark_mode_label",
+                    "light_hc_mode_label": "=> core.ref.light_hc_mode_label",
+                    "light_mode_label": "=> core.ref.light_mode_label"
                 }
             },
             "basics": {
@@ -123,7 +123,7 @@
                 "default_language_heading": "Standardsprache",
                 "description": "Legen Sie den Forentitel, die Sprache und weitere Grundeinstellungen fest.",
                 "display_name_driver_options": {
-                    "username": ""
+                    "username": "Benutzername"
                 },
                 "display_name_heading": "Anzeigename",
                 "display_name_text": "Wählen Sie den Treiber, der verwendet wird, um den Anzeigenamen der Benutzer zu bestimmen. Standardmäßig wird der Benutzername angezeigt.",
@@ -585,13 +585,13 @@
                 "time_lapsed_text": "{period} später"
             },
             "posts_sort": {
-                "newest_button": "",
-                "oldest_button": "",
-                "relevance_button": ""
+                "newest_button": "=> core.ref.newest",
+                "oldest_button": "=> core.ref.oldest",
+                "relevance_button": "=> core.ref.relevance"
             },
             "posts": {
                 "meta_title_text": "",
-                "refresh_tooltip": ""
+                "refresh_tooltip": "=> core.ref.refresh"
             },
             "rename_discussion": {
                 "submit_button": "=> core.ref.rename",
@@ -639,10 +639,10 @@
                 "color_scheme_heading": "",
                 "color_schemes": {
                     "auto_mode_label": "",
-                    "dark_hc_mode_label": "",
-                    "dark_mode_label": "",
-                    "light_hc_mode_label": "",
-                    "light_mode_label": ""
+                    "dark_hc_mode_label": "=> core.ref.dark_hc_mode_label",
+                    "dark_mode_label": "=> core.ref.dark_mode_label",
+                    "light_hc_mode_label": "=> core.ref.light_hc_mode_label",
+                    "light_mode_label": "=> core.ref.light_mode_label"
                 },
                 "notification_checkbox_a11y_label_template": "Erhalten Sie \"{description}\" Benachrichtigungen über {method}",
                 "notifications_heading": "=> core.ref.notifications",
@@ -740,39 +740,39 @@
             },
             "gambits": {
                 "group_keys": {
-                    "allows": "",
-                    "has": "",
-                    "is": ""
+                    "allows": "erlaubt",
+                    "has": "hat",
+                    "is": "ist"
                 },
                 "discussions": {
                     "author": {
-                        "key": "",
+                        "key": "Autor",
                         "hint": ""
                     },
                     "created": {
-                        "key": "",
+                        "key": "erstellt",
                         "hint": ""
                     },
                     "hidden": {
                         "key": ""
                     },
                     "unread": {
-                        "key": ""
+                        "key": "ungelesen"
                     }
                 },
                 "posts": {
                     "discussion": {
-                        "key": "",
+                        "key": "Diskussion",
                         "hint": ""
                     }
                 },
                 "users": {
                     "email": {
-                        "key": "",
-                        "hint": ""
+                        "key": "E-Mail",
+                        "hint": "beispiel@rechner.local"
                     },
                     "group": {
-                        "key": "",
+                        "key": "Gruppe",
                         "hint": ""
                     }
                 }
@@ -1043,7 +1043,7 @@
             "some_others": "{count, plural, one {# weiterem} other {# weiteren}}",
             "start_a_discussion": "Diskussion starten",
             "username": "Benutzername",
-            "username_or_email_placeholder": "",
+            "username_or_email_placeholder": "Benutzername oder E-Mail",
             "users": "Benutzer",
             "view": "Anzeigen",
             "write_a_reply": "Eine Antwort schreiben…",
