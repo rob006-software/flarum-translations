@@ -2,11 +2,11 @@
     "flarum-gdpr": {
         "admin": {
             "gdpr_page": {
-                "heading": "Przegląd danych GDPR",
-                "description": "Status różnych działań i integracji GDPR",
+                "heading": "Przegląd danych RODO",
+                "description": "Status działań i integracji związanych z RODO",
                 "data_types": {
                     "title": "Typy danych",
-                    "help_text": "To są obecnie zarejestrowane typy danych. Każdy typ jest wymieniony razem z jego przypisanymi akcjami eksportu, anonimizacji i usuwania. Jeśli rozszerzenie obsługuje jakiekolwiek dane, które podlegają przepisom GDPR, powinno zarejestrować swoje typy danych za pomocą <code>flarum/gdpr</code>.\nDane przechowywane w tabeli <code>user</code> są obsługiwane oddzielnie, zobacz poniżej dane tabeli użytkowników.\n",
+                    "help_text": "To są obecnie zarejestrowane typy danych. Każdy typ jest wymieniony razem z jego przypisanymi akcjami eksportu, anonimizacji i usuwania. Jeśli rozszerzenie obsługuje jakiekolwiek dane, które podlegają przepisom RODO, powinno zarejestrować swoje typy danych za pomocą <code>flarum/gdpr</code>.\nDane przechowywane w tabeli <code>user</code> są obsługiwane oddzielnie, zobacz poniżej dane tabeli użytkowników.\n",
                     "type": "Typ",
                     "export_description": "Akcja eksportu",
                     "anonymize_description": "Akcja anonimizacji",
@@ -14,9 +14,9 @@
                     "extension": "Rozszerzenie"
                 },
                 "settings": {
-                    "heading": "Ustawienia GDPR",
-                    "help_text": "Szukasz ustawień GDPR? Znajdziesz je na stronie rozszerzenia.",
-                    "extension_settings_button": "Ustawienia GDPR"
+                    "heading": "Ustawienia RODO",
+                    "help_text": "Szukasz ustawień RODO? Znajdziesz je na stronie rozszerzenia.",
+                    "extension_settings_button": "Ustawienia RODO"
                 },
                 "user_table_data": {
                     "not_yet_implemented": "",
@@ -29,7 +29,7 @@
                 "gdpr_title": ""
             },
             "permissions": {
-                "process_erasure": "Przetwarzanie żądań usunięcia",
+                "process_erasure": "Rozpatrywanie wniosków o usunięcie konta",
                 "process_export_for_others": "Żądanie i odbieranie eksportu danych dla innych użytkowników",
                 "see_anonymized_user_badges": "Wyświetlanie zanonimizowanych odznak użytkowników"
             },
@@ -93,12 +93,12 @@
             "request_data": {
                 "title": "Zażądaj danych dla {username}",
                 "text": "Przygotujemy dla Ciebie archiwum zip. Gdy będzie gotowe, otrzymasz powiadomienie z linkiem do pobrania. Link będzie aktywny przez jeden dzień.\n",
-                "request_button": "Zażądaj archiwum"
+                "request_button": "Przygotuj archiwum"
             }
         },
         "email": {
             "confirm_erasure": {
-                "subject": "Potwierdź swoje żądanie usunięcia konta",
+                "subject": "Potwierdź chęć usunięcia konta",
                 "body": ""
             },
             "erasure_completed": {
@@ -112,7 +112,7 @@
                 }
             },
             "erasure_cancelled": {
-                "subject": "Żądanie usunięcia konta anulowane",
+                "subject": "Wniosek o usunięcie konta został anulowany",
                 "body": ""
             },
             "export_available": {
@@ -122,7 +122,7 @@
         },
         "forum": {
             "badges": {
-                "anonymized_user": "Anonimowy Użytkownik"
+                "anonymized_user": "Anonimowy użytkownik"
             },
             "delete_user": {
                 "title": "Usuń konto {username}",
@@ -136,7 +136,7 @@
                 "tooltip": "Żądania usunięcia konta",
                 "title": "Żądania usunięcia konta"
             },
-            "erasure_request_confirmed": "Potwierdziłeś swoje żądanie usunięcia konta. Działanie zostanie podjęte w ciągu 30 dni, zgodnie z wymogami GDPR.",
+            "erasure_request_confirmed": "Wniosek o usunięcie konta został potwierdzony. Działanie zostanie podjęte w ciągu 30 dni, zgodnie z wymogami RODO.",
             "settings": {
                 "data": {
                     "heading": "Dane osobowe"
@@ -144,7 +144,7 @@
                 "export_data_button": "Eksport danych",
                 "export_data_help": "Żądanie eksportu danych zapewni Ci możliwość pobrania kopii wszystkich informacji związanych z Twoim kontem. Obejmuje to posty, komentarze i szczegóły profilu.",
                 "request_erasure_button": "Usuń konto",
-                "request_erasure_help": "Żądanie usunięcia spowoduje trwałe usunięcie Twojego konta i wszystkich powiązanych danych. Ta akcja jest nieodwracalna. Przed kontynuowaniem upewnij się, że zapisałeś wszelkie treści, które chcesz zachować."
+                "request_erasure_help": "Usunięcie konta jest nieodwracalne i obejmuje wszystkie powiązane dane. Zanim przejdziesz dalej, upewnij się, że masz zapisane wszystkie treści, które chcesz zachować."
             },
             "process_erasure": {
                 "confirm": "Czy na pewno chcesz usunąć konto {name} w trybie {mode}?",
@@ -155,16 +155,16 @@
                 "deletion_button": "Usuń użytkownika"
             },
             "request_erasure": {
-                "title": "Zażądaj usunięcia konta",
+                "title": "Złóż wniosek o usunięcie konta",
                 "reason": "Podano następujący powód: {reason}",
                 "status": {
                     "awaiting_user_confirmation": "Powinieneś otrzymać e-mail, aby potwierdzić żądanie usunięcia konta.\n",
-                    "user_confirmed": "Potwierdziłeś swoje żądanie usunięcia konta. Działanie zostanie podjęte w ciągu 30 dni, zgodnie z wymogami GDPR.\n"
+                    "user_confirmed": "Wniosek o usunięcie konta został potwierdzony. Działanie zostanie podjęte w ciągu 30 dni, zgodnie z wymogami RODO.\n"
                 },
                 "text": "Po otrzymaniu i potwierdzeniu administrator przejrzy Twoje żądanie w ciągu 30 dni, zgodnie z wymogami GDPR.",
                 "password_label": "Potwierdź hasło",
                 "reason_label": "Powód (opcjonalnie)",
-                "cancel_button": "Anuluj żądanie",
+                "cancel_button": "Anuluj wniosek",
                 "request_button": "Zażądaj usunięcia"
             },
             "notification": {
