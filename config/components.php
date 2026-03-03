@@ -782,7 +782,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/webhooks/1.3.3/resources/locale/en.yml',
 	],
 	'forumaker-magicbb' => [
-		'tag' => 'https://raw.githubusercontent.com/forumaker/magicbb/1.0.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/forumaker/magicbb/v1.1.0/resources/locale/en.yml',
 	],
 	'forumaker-magicread' => [
 		'tag' => 'https://raw.githubusercontent.com/forumaker/magicread/1.1.0/resources/locale/en.yml',
