@@ -2,10 +2,10 @@
     "import-ai-webhook": {
         "admin": {
             "settings": {
-                "webhook_url_label": "",
-                "webhook_url_help": "",
-                "bearer_token_label": "",
-                "bearer_token_help": ""
+                "webhook_url_label": "URL Webhook",
+                "webhook_url_help": "Masukkan URL untuk menerima request POST saat pengguna membuat atau mengedit post. Payload mencakup event type, serta data lengkap pengguna, post, diskusi, dan actor model.",
+                "bearer_token_label": "Token Bearer",
+                "bearer_token_help": "Token Bearer opsional untuk Authorization header. Token akan dikirim sebagai 'Authorization: Bearer <your-token>' dengan setiap webhook request."
             }
         }
     }
