@@ -21,16 +21,16 @@
                 "user_table_data": {
                     "title": "Data Tabel Pengguna",
                     "help_text": "Pada umumnya, setiap kolom yang ditambahkan ke tabel <code>pengguna</code> akan ditangani secara otomatis, baik untuk mengekspor data maupun untuk penghapusan. \nNamun, ada beberapa kasus khusus, yang tercantum di bawah ini.\n",
-                    "column": "",
-                    "type": "",
-                    "nullable": "",
-                    "pii": "",
-                    "redacted_on_export": "",
-                    "extension": "",
-                    "yes": "",
-                    "no": "",
-                    "pii_tooltip": "",
-                    "redacted_on_export_tooltip": ""
+                    "column": "Kolom",
+                    "type": "Tipe",
+                    "nullable": "Dapat bernilai null",
+                    "pii": "PII",
+                    "redacted_on_export": "Diedit saat ekspor",
+                    "extension": "Ekstensi",
+                    "yes": "Ya",
+                    "no": "Tidak",
+                    "pii_tooltip": "Kolom ini dianggap sebagai informasi yang dapat diidentifikasi secara pribadi dan akan diedit dalam konteks yang dianonimkan (misalnya, anonymized event payloads).",
+                    "redacted_on_export_tooltip": "Nilai kolom ini akan dikosongkan (disetel menjadi null) saat membuat ekspor data pengguna. Kolom tetap muncul dalam file ekspor, tetapi dengan nilai null."
                 }
             },
             "nav": {
@@ -73,7 +73,7 @@
                     "delete_description": "Menghapus avatar pengguna dari sistem file.",
                     "export_description": "Mengambil avatar pengguna dari sistem file dan menyertakannya dalam ekspor."
                 },
-                "default_user_action": "",
+                "default_user_action": "Tidak ada tindakan, ditangani secara default oleh tabel data pengguna.",
                 "discussions": {
                     "export_description": "Mengekspor semua diskusi yang telah dimulai oleh pengguna. Data dibatasi pada judul dan tanggal pembuatan."
                 },
