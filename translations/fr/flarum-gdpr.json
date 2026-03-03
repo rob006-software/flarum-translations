@@ -20,7 +20,17 @@
                 },
                 "user_table_data": {
                     "title": "Données de la table des utilisateurs",
-                    "help_text": "Dans la plupart des cas, toutes les colonnes ajoutées à la table <code>user</code> seront traitées automatiquement, tant pour l'exportation des données que pour l'effacement.\nIl existe cependant quelques cas particuliers qui sont énumérés ci-dessous.\n"
+                    "help_text": "Dans la plupart des cas, toutes les colonnes ajoutées à la table <code>user</code> seront traitées automatiquement, tant pour l'exportation des données que pour l'effacement.\nIl existe cependant quelques cas particuliers qui sont énumérés ci-dessous.\n",
+                    "column": "",
+                    "type": "",
+                    "nullable": "",
+                    "pii": "",
+                    "redacted_on_export": "",
+                    "extension": "",
+                    "yes": "",
+                    "no": "",
+                    "pii_tooltip": "",
+                    "redacted_on_export_tooltip": ""
                 }
             },
             "nav": {
@@ -63,6 +73,7 @@
                     "delete_description": "Supprime l'avatar de l'utilisateur du système de fichiers.",
                     "export_description": "Récupère l'avatar de l'utilisateur dans le système de fichiers et l'inclut dans l'exportation."
                 },
+                "default_user_action": "",
                 "discussions": {
                     "export_description": "Exporte toutes les discussions que l'utilisateur a démarrées. Les données sont limitées au titre et à la date de création."
                 },

@@ -20,7 +20,17 @@
                 },
                 "user_table_data": {
                     "title": "使用者表數據",
-                    "help_text": "大多數情況下，新增至 <code>user</code> 表中的任何欄位都會自動處理，以匯出資料和刪除資料。\n但是，也有一些特殊情況，如下圖所示。\n"
+                    "help_text": "大多數情況下，新增至 <code>user</code> 表中的任何欄位都會自動處理，以匯出資料和刪除資料。\n但是，也有一些特殊情況，如下圖所示。\n",
+                    "column": "",
+                    "type": "",
+                    "nullable": "",
+                    "pii": "",
+                    "redacted_on_export": "",
+                    "extension": "",
+                    "yes": "",
+                    "no": "",
+                    "pii_tooltip": "",
+                    "redacted_on_export_tooltip": ""
                 }
             },
             "nav": {
@@ -63,6 +73,7 @@
                     "delete_description": "從檔案系統中刪除使用者的頭像。",
                     "export_description": "從檔案系統檢索使用者的頭像並將其包含在匯出中。"
                 },
+                "default_user_action": "",
                 "discussions": {
                     "export_description": "匯出用戶已開始的所有討論。 資料僅限於標題和建立日期。"
                 },

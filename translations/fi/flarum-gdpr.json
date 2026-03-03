@@ -20,7 +20,17 @@
                 },
                 "user_table_data": {
                     "title": "Käyttäjä taulun tiedot",
-                    "help_text": "Enimmäkseen kaikki <code>user</code>-tauluun lisätyt sarakkeet käsitellään automaattisesti, sekä tietojen vientiä että poistamista varten.\nKuitenkin on joitain erityistapauksia, jotka on lueteltu alla.\n"
+                    "help_text": "Enimmäkseen kaikki <code>user</code>-tauluun lisätyt sarakkeet käsitellään automaattisesti, sekä tietojen vientiä että poistamista varten.\nKuitenkin on joitain erityistapauksia, jotka on lueteltu alla.\n",
+                    "column": "",
+                    "type": "",
+                    "nullable": "",
+                    "pii": "",
+                    "redacted_on_export": "",
+                    "extension": "",
+                    "yes": "",
+                    "no": "",
+                    "pii_tooltip": "",
+                    "redacted_on_export_tooltip": ""
                 }
             },
             "nav": {
@@ -63,6 +73,7 @@
                     "delete_description": "Poistaa käyttäjän avatarin järjestelmästä.",
                     "export_description": "Hakee käyttäjän avatarin tiedostojärjestelmästä ja sisällyttää sen vientiin."
                 },
+                "default_user_action": "",
                 "discussions": {
                     "export_description": "Vie kaikki käyttäjän aloittamat keskustelut. Tieto rajattu otsikkoon ja luontipäivään."
                 },

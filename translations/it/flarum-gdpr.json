@@ -20,7 +20,17 @@
                 },
                 "user_table_data": {
                     "title": "Tabella dati Utente",
-                    "help_text": "Nella maggior parte dei casi, tutte le colonne aggiunte alla tabella <code>user</code> verranno gestite automaticamente, sia per l'esportazione dei dati che per la cancellazione.\nEsistono però alcuni casi particolari, che elenchiamo di seguito.\n"
+                    "help_text": "Nella maggior parte dei casi, tutte le colonne aggiunte alla tabella <code>user</code> verranno gestite automaticamente, sia per l'esportazione dei dati che per la cancellazione.\nEsistono però alcuni casi particolari, che elenchiamo di seguito.\n",
+                    "column": "",
+                    "type": "",
+                    "nullable": "",
+                    "pii": "",
+                    "redacted_on_export": "",
+                    "extension": "",
+                    "yes": "",
+                    "no": "",
+                    "pii_tooltip": "",
+                    "redacted_on_export_tooltip": ""
                 }
             },
             "nav": {
@@ -63,6 +73,7 @@
                     "delete_description": "Cancella avatar utente dal filesystem.",
                     "export_description": "Recupera l'avatar dell'utente dal filesystem e lo include nell'esportazione."
                 },
+                "default_user_action": "",
                 "discussions": {
                     "export_description": "Esporta tutte le discussioni avviate dall'utente. Dati limitati al titolo e alla data di creazione."
                 },

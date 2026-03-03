@@ -20,7 +20,17 @@
                 },
                 "user_table_data": {
                     "title": "Daten der Benutzertabelle",
-                    "help_text": "In den meisten Fällen werden alle Spalten, die der <code>Benutzer</code>-Tabelle hinzugefügt werden, automatisch behandelt, sowohl für den Export von Daten als auch für das Löschen.\nEs gibt jedoch einige Sonderfälle, die im Folgenden aufgeführt sind.\n"
+                    "help_text": "In den meisten Fällen werden alle Spalten, die der <code>Benutzer</code>-Tabelle hinzugefügt werden, automatisch behandelt, sowohl für den Export von Daten als auch für das Löschen.\nEs gibt jedoch einige Sonderfälle, die im Folgenden aufgeführt sind.\n",
+                    "column": "",
+                    "type": "",
+                    "nullable": "",
+                    "pii": "",
+                    "redacted_on_export": "",
+                    "extension": "",
+                    "yes": "",
+                    "no": "",
+                    "pii_tooltip": "",
+                    "redacted_on_export_tooltip": ""
                 }
             },
             "nav": {
@@ -63,6 +73,7 @@
                     "delete_description": "Löscht den Avatar des Benutzers aus dem Dateisystem.",
                     "export_description": "Ruft den Avatar des Benutzers aus dem Dateisystem ab und schließt ihn in den Export ein."
                 },
+                "default_user_action": "",
                 "discussions": {
                     "export_description": "Exportiert alle Diskussionen, die der Benutzer begonnen hat. Die Daten beschränken sich auf Titel und Erstellungsdatum."
                 },

@@ -20,7 +20,17 @@
                 },
                 "user_table_data": {
                     "title": "用户表数据",
-                    "help_text": "多数情况下，我们会自动处理导出和抹除时的 <code>用户</code>表数据。\n然而，会存在一些特殊情况，如下。\n"
+                    "help_text": "多数情况下，我们会自动处理导出和抹除时的 <code>用户</code>表数据。\n然而，会存在一些特殊情况，如下。\n",
+                    "column": "",
+                    "type": "",
+                    "nullable": "",
+                    "pii": "",
+                    "redacted_on_export": "",
+                    "extension": "",
+                    "yes": "",
+                    "no": "",
+                    "pii_tooltip": "",
+                    "redacted_on_export_tooltip": ""
                 }
             },
             "nav": {
@@ -63,6 +73,7 @@
                     "delete_description": "从文件系统删除用户头像。",
                     "export_description": "从文件系统获取用户头像，并导出。"
                 },
+                "default_user_action": "",
                 "discussions": {
                     "export_description": "导出用户发起的所有主题帖，数据仅限于标题和创建日期。"
                 },

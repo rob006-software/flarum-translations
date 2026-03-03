@@ -20,7 +20,17 @@
                 },
                 "user_table_data": {
                     "title": "Felhasználói adatok táblája",
-                    "help_text": "A legtöbb esetben a <code>user</code> táblához adott oszlopok automatikusan kezelve lesznek, az adatok exportálása és törlése esetén is.\nViszont vannak speciális esetek, amelyeket alább soroltunk fel.\n"
+                    "help_text": "A legtöbb esetben a <code>user</code> táblához adott oszlopok automatikusan kezelve lesznek, az adatok exportálása és törlése esetén is.\nViszont vannak speciális esetek, amelyeket alább soroltunk fel.\n",
+                    "column": "",
+                    "type": "",
+                    "nullable": "",
+                    "pii": "",
+                    "redacted_on_export": "",
+                    "extension": "",
+                    "yes": "",
+                    "no": "",
+                    "pii_tooltip": "",
+                    "redacted_on_export_tooltip": ""
                 }
             },
             "nav": {
@@ -63,6 +73,7 @@
                     "delete_description": "Törli a felhasználó profilképét a fájlrendszerről.",
                     "export_description": "Lekéri a felhasználó profilképét a fájlrendszerről, és beleteszi az exportálásba."
                 },
+                "default_user_action": "",
                 "discussions": {
                     "export_description": "Exportálja az összes, a felhasználó által indított témát. Az adatok a címre és a létrehozás idejére vannak korlátozva."
                 },

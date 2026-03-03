@@ -20,7 +20,17 @@
                 },
                 "user_table_data": {
                     "title": "Data Tabel Pengguna",
-                    "help_text": "Pada umumnya, setiap kolom yang ditambahkan ke tabel <code>pengguna</code> akan ditangani secara otomatis, baik untuk mengekspor data maupun untuk penghapusan. \nNamun, ada beberapa kasus khusus, yang tercantum di bawah ini.\n"
+                    "help_text": "Pada umumnya, setiap kolom yang ditambahkan ke tabel <code>pengguna</code> akan ditangani secara otomatis, baik untuk mengekspor data maupun untuk penghapusan. \nNamun, ada beberapa kasus khusus, yang tercantum di bawah ini.\n",
+                    "column": "",
+                    "type": "",
+                    "nullable": "",
+                    "pii": "",
+                    "redacted_on_export": "",
+                    "extension": "",
+                    "yes": "",
+                    "no": "",
+                    "pii_tooltip": "",
+                    "redacted_on_export_tooltip": ""
                 }
             },
             "nav": {
@@ -63,6 +73,7 @@
                     "delete_description": "Menghapus avatar pengguna dari sistem file.",
                     "export_description": "Mengambil avatar pengguna dari sistem file dan menyertakannya dalam ekspor."
                 },
+                "default_user_action": "",
                 "discussions": {
                     "export_description": "Mengekspor semua diskusi yang telah dimulai oleh pengguna. Data dibatasi pada judul dan tanggal pembuatan."
                 },

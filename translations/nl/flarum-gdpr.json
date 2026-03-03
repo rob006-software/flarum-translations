@@ -20,7 +20,17 @@
                 },
                 "user_table_data": {
                     "title": "Gebruikerstabel gegevens",
-                    "help_text": "In de meeste gevallen worden kolommen die zijn toegevoegd aan de <code>user</code> tabel automatisch afgehandeld, zowel voor het exporteren van gegevens als voor het wissen.\nEr zijn echter enkele speciale gevallen, die hieronder worden opgesomd.\n"
+                    "help_text": "In de meeste gevallen worden kolommen die zijn toegevoegd aan de <code>user</code> tabel automatisch afgehandeld, zowel voor het exporteren van gegevens als voor het wissen.\nEr zijn echter enkele speciale gevallen, die hieronder worden opgesomd.\n",
+                    "column": "",
+                    "type": "",
+                    "nullable": "",
+                    "pii": "",
+                    "redacted_on_export": "",
+                    "extension": "",
+                    "yes": "",
+                    "no": "",
+                    "pii_tooltip": "",
+                    "redacted_on_export_tooltip": ""
                 }
             },
             "nav": {
@@ -63,6 +73,7 @@
                     "delete_description": "Verwijdert de avatar van de gebruiker van het bestandssysteem.",
                     "export_description": "Haalt de avatar van de gebruiker op van het bestandssysteem en voegt deze toe aan de export."
                 },
+                "default_user_action": "",
                 "discussions": {
                     "export_description": "Exporteert alle discussies die de gebruiker is gestart. Gegevens zijn beperkt tot de titel en aanmaakdatum."
                 },

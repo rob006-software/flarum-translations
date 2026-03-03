@@ -20,7 +20,17 @@
                 },
                 "user_table_data": {
                     "title": "Dane tabeli użytkowników",
-                    "help_text": "W większości przypadków każda kolumna dodana do tabeli <code>user</code> będzie obsługiwana automatycznie, zarówno pod kątem eksportowania danych, jak i usuwania.\nIstnieją jednak pewne specjalne przypadki, które są wymienione poniżej.\n"
+                    "help_text": "W większości przypadków każda kolumna dodana do tabeli <code>user</code> będzie obsługiwana automatycznie, zarówno pod kątem eksportowania danych, jak i usuwania.\nIstnieją jednak pewne specjalne przypadki, które są wymienione poniżej.\n",
+                    "column": "",
+                    "type": "",
+                    "nullable": "",
+                    "pii": "",
+                    "redacted_on_export": "",
+                    "extension": "",
+                    "yes": "",
+                    "no": "",
+                    "pii_tooltip": "",
+                    "redacted_on_export_tooltip": ""
                 }
             },
             "nav": {
@@ -63,6 +73,7 @@
                     "delete_description": "Usuwa awatar użytkownika z systemu plików.",
                     "export_description": "Pobiera awatar użytkownika z systemu plików i dołącza go do eksportu."
                 },
+                "default_user_action": "",
                 "discussions": {
                     "export_description": "Eksportuje wszystkie dyskusje rozpoczęte przez użytkownika. Dane ograniczone do tytułu i daty utworzenia."
                 },

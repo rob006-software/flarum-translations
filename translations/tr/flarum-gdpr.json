@@ -20,7 +20,17 @@
                 },
                 "user_table_data": {
                     "title": "Kullanıcı Tablo Verisi",
-                    "help_text": "Çoğunlukla, <code>kullanıcı</code> tablosuna eklenen tüm sütunlar hem verileri dışa aktarmak hem de silmek amacıyla otomatik olarak işlenecektir.\nAncak aşağıda sıralanan bazı özel durumlar vardır.\n"
+                    "help_text": "Çoğunlukla, <code>kullanıcı</code> tablosuna eklenen tüm sütunlar hem verileri dışa aktarmak hem de silmek amacıyla otomatik olarak işlenecektir.\nAncak aşağıda sıralanan bazı özel durumlar vardır.\n",
+                    "column": "",
+                    "type": "",
+                    "nullable": "",
+                    "pii": "",
+                    "redacted_on_export": "",
+                    "extension": "",
+                    "yes": "",
+                    "no": "",
+                    "pii_tooltip": "",
+                    "redacted_on_export_tooltip": ""
                 }
             },
             "nav": {
@@ -63,6 +73,7 @@
                     "delete_description": "Kullanıcının avatarını dosya sisteminden siler.",
                     "export_description": "Kullanıcının avatarını dosya sisteminden alır ve dışa aktarma işlemine dahil eder."
                 },
+                "default_user_action": "",
                 "discussions": {
                     "export_description": "Kullanıcının başlattığı tüm tartışmaları dışa aktarır. Veriler başlık ve oluşturma tarihiyle sınırlıdır."
                 },

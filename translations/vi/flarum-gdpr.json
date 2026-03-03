@@ -20,7 +20,17 @@
                 },
                 "user_table_data": {
                     "title": "Dữ liệu bảng người dùng",
-                    "help_text": "Phần lớn, bất kỳ cột nào được thêm vào bảng <code>user</code> sẽ được xử lý tự động, cho cả việc xuất dữ liệu và xóa.\nTuy nhiên, có một số trường hợp đặc biệt được liệt kê bên dưới.\n"
+                    "help_text": "Phần lớn, bất kỳ cột nào được thêm vào bảng <code>user</code> sẽ được xử lý tự động, cho cả việc xuất dữ liệu và xóa.\nTuy nhiên, có một số trường hợp đặc biệt được liệt kê bên dưới.\n",
+                    "column": "",
+                    "type": "",
+                    "nullable": "",
+                    "pii": "",
+                    "redacted_on_export": "",
+                    "extension": "",
+                    "yes": "",
+                    "no": "",
+                    "pii_tooltip": "",
+                    "redacted_on_export_tooltip": ""
                 }
             },
             "nav": {
@@ -63,6 +73,7 @@
                     "delete_description": "Xóa ảnh đại diện của người dùng khỏi hệ thống tệp.",
                     "export_description": "Lấy ảnh đại diện của người dùng từ hệ thống tệp và đưa vào bản xuất."
                 },
+                "default_user_action": "",
                 "discussions": {
                     "export_description": "Xuất tất cả cuộc thảo luận mà người dùng đã bắt đầu. Dữ liệu giới hạn ở tiêu đề và ngày tạo."
                 },
