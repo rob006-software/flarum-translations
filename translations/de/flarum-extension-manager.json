@@ -5,7 +5,7 @@
                 "add_label": "Neue Authentifizierungsmethode",
                 "add_modal": {
                     "host_label": "Host",
-                    "host_placeholder": "",
+                    "host_placeholder": "Beispiel: bearer.flarum.org",
                     "submit_button": "Senden",
                     "token_label": "Token",
                     "type_label": "Typ",
@@ -25,7 +25,7 @@
                     "github-oauth": "GitHub OAuth",
                     "gitlab-oauth": "GitLab OAuth",
                     "gitlab-token": "GitLab Token",
-                    "bearer": "HTTP Bearer"
+                    "bearer": "HTTP-Bearer"
                 }
             },
             "composer": {
@@ -98,42 +98,42 @@
                 "update": "Aktualisieren"
             },
             "minor_update_confirmation": {
-                "content": ""
+                "content": "Dadurch werden auch alle anderen Erweiterungen/Pakete mit verfügbaren Updates aktualisiert."
             },
             "required_php_functions": "",
             "sections": {
                 "discover": {
-                    "description": "",
-                    "empty_results": "",
+                    "description": "Füge deinem Flarum-Forum mit Erweiterungen neue Funktionen und Integrationen hinzu.",
+                    "empty_results": "Es sieht so aus, als wären keine Erweiterungen verfügbar.",
                     "extension": {
                         "badges": {
-                            "compatible": "",
-                            "fof": "",
-                            "flarum": "",
-                            "incompatible": "",
-                            "premium": "",
-                            "unstable": ""
+                            "compatible": "Kompatibel",
+                            "fof": "Friends Of Flarum",
+                            "flarum": "Flarum",
+                            "incompatible": "Inkompatibel",
+                            "premium": "Premium",
+                            "unstable": "Instabil"
                         },
-                        "downloads": ""
+                        "downloads": "{count, plural, one {{formattedCount} Download} other {{formattedCount} Downloads}}"
                     },
                     "premium_extension_terms": "",
-                    "search": "",
+                    "search": "Suchen...",
                     "server_error": "",
                     "sort": {
-                        "toggle_dropdown_accessible_label": "",
-                        "top": "",
-                        "latest": ""
+                        "toggle_dropdown_accessible_label": "Sortieroptionen umschalten",
+                        "top": "Meistgeladen",
+                        "latest": "Neueste"
                     },
                     "tabs": {
-                        "discover": "",
-                        "extensions": "",
-                        "languages": "",
-                        "themes": ""
+                        "discover": "Entdecken",
+                        "extensions": "Erweiterungen",
+                        "languages": "Sprachen",
+                        "themes": "Themen"
                     },
-                    "title": "",
+                    "title": "Erweiterungen",
                     "party_filter": {
-                        "all": "",
-                        "premium": "",
+                        "all": "Alle",
+                        "premium": "Premium",
                         "toggle_dropdown_accessible_label": ""
                     }
                 },
@@ -194,7 +194,7 @@
                 "global_update_successful": "Alle Pakete erfolgreich aktualisiert.",
                 "last_update_checked_at": "Letzte Überprüfung auf Updates: ",
                 "run_global_update": "Globale Aktualisierung starten",
-                "updater_title": "Updates",
+                "updater_title": "Aktualisierungen",
                 "updater_help": "Führt eine Überprüfung auf neue Erweiterungen und Flarum-Updates durch."
             },
             "update_successful": "Flarum erfolgreich aktualisiert.",
