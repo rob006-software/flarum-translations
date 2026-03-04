@@ -6,7 +6,7 @@
                 "description": "Status działań i integracji związanych z RODO",
                 "data_types": {
                     "title": "Typy danych",
-                    "help_text": "To są obecnie zarejestrowane typy danych. Każdy typ jest wymieniony razem z jego przypisanymi akcjami eksportu, anonimizacji i usuwania. Jeśli rozszerzenie obsługuje jakiekolwiek dane, które podlegają przepisom RODO, powinno zarejestrować swoje typy danych za pomocą <code>flarum/gdpr</code>.\nDane przechowywane w tabeli <code>user</code> są obsługiwane oddzielnie, zobacz poniżej dane tabeli użytkowników.\n",
+                    "help_text": "To są obecnie zarejestrowane typy danych. Każdy typ jest wymieniony razem z jego przypisanymi działaniami eksportu, anonimizacji i usuwania. Jeśli rozszerzenie obsługuje jakiekolwiek dane, które podlegają przepisom RODO, powinno zarejestrować swoje typy danych za pomocą <code>flarum/gdpr</code>.\nDane przechowywane w tabeli <code>user</code> są obsługiwane oddzielnie, zobacz poniżej dane tabeli użytkowników.\n",
                     "type": "Typ",
                     "export_description": "Akcja eksportu",
                     "anonymize_description": "Akcja anonimizacji",
@@ -25,23 +25,23 @@
                 }
             },
             "nav": {
-                "gdpr_button": "Integracje GDPR",
+                "gdpr_button": "Integracje RODO",
                 "gdpr_title": ""
             },
             "permissions": {
                 "process_erasure": "Rozpatrywanie wniosków o usunięcie konta",
-                "process_export_for_others": "Żądanie i odbieranie eksportu danych dla innych użytkowników",
+                "process_export_for_others": "Wnioskowanie o eksport i pobieranie danych innych użytkowników",
                 "see_anonymized_user_badges": "Wyświetlanie zanonimizowanych odznak użytkowników"
             },
             "settings": {
-                "allow_anonymization": "Zezwalaj na anonimizację dla żądań usunięcia",
-                "allow_anonymization_help": "Domyślna opcja, zalecana dla większości społeczności. W tym trybie posty/komentarze są zachowywane tak bardzo, jak to możliwe zgodnie z GDPR, ale wszelkie informacje identyfikujące użytkownika są usuwane.",
-                "allow_deletion": "Zezwalaj na usunięcie dla żądań usunięcia",
+                "allow_anonymization": "Zezwalaj na anonimizację przy wnioskach o usunięcie konta",
+                "allow_anonymization_help": "Domyślna opcja, zalecana dla większości społeczności. W tym trybie posty/komentarze są zachowywane w jak największym stopniu, na ile pozwala na to RODO, ale wszelkie informacje identyfikujące użytkownika są usuwane.",
+                "allow_deletion": "Zezwalaj na całkowite usunięcie przy wnioskach o usunięcie konta",
                 "allow_deletion_help": "Opcja znacznie bardziej restrykcyjna. W tym trybie wszystkie posty/komentarze zostaną usunięte i użytkownik zostanie usunięty z bazy danych. Używaj z ostrożnością.",
                 "default_anonymous_username": "Domyślna nazwa użytkownika dla zanonimizowanych użytkowników",
                 "default_anonymous_username_help": "Gdy użytkownik zostanie zanonimizowany, jego nazwa użytkownika zostanie zastąpiona tą wartością, plus ID żądania anonimizacji, na przykład <code>Anonim123</code>.",
-                "default_erasure": "Domyślna akcja dla żądań usunięcia",
-                "default_erasure_help": "Jaka powinna być domyślna akcja dla żądań usunięcia?",
+                "default_erasure": "Domyślne działanie dla wniosków o usunięcie konta",
+                "default_erasure_help": "Jakie powinno być domyślne działanie dla wniosków o usunięcie konta?",
                 "default_erasure_options": {
                     "anonymization": "Anonimizacja",
                     "deletion": "Usunięcie"
@@ -127,14 +127,14 @@
             "delete_user": {
                 "title": "Usuń konto {username}",
                 "text": "Czy na pewno chcesz usunąć konto {username}?\n\nTa akcja jest nieodwracalna.\n",
-                "modal_delete_button": "Usuń przy użyciu domyślnej akcji",
+                "modal_delete_button": "Usuń przy użyciu domyślnego działania",
                 "delete_button": "Usuń"
             },
             "erasure_requests": {
-                "empty_text": "Brak oczekujących żądań usunięcia konta",
-                "item_text": "{name} zażądał usunięcia konta",
-                "tooltip": "Żądania usunięcia konta",
-                "title": "Żądania usunięcia konta"
+                "empty_text": "Brak oczekujących wniosków o usunięcie konta",
+                "item_text": "{name} złożył wniosek o usunięcie konta",
+                "tooltip": "Wnioski o usunięcie konta",
+                "title": "Wnioski o usunięcie konta"
             },
             "erasure_request_confirmed": "Wniosek o usunięcie konta został potwierdzony. Działanie zostanie podjęte w ciągu 30 dni, zgodnie z wymogami RODO.",
             "settings": {
@@ -142,7 +142,7 @@
                     "heading": "Dane osobowe"
                 },
                 "export_data_button": "Eksport danych",
-                "export_data_help": "Żądanie eksportu danych zapewni Ci możliwość pobrania kopii wszystkich informacji związanych z Twoim kontem. Obejmuje to posty, komentarze i szczegóły profilu.",
+                "export_data_help": "Złożenie wniosku o eksport danych zapewni Ci możliwość pobrania kopii wszystkich informacji związanych z Twoim kontem. Obejmuje to posty, komentarze i szczegóły profilu.",
                 "request_erasure_button": "Usuń konto",
                 "request_erasure_help": "Usunięcie konta jest nieodwracalne i obejmuje wszystkie powiązane dane. Zanim przejdziesz dalej, upewnij się, że masz zapisane wszystkie treści, które chcesz zachować."
             },
@@ -158,14 +158,14 @@
                 "title": "Złóż wniosek o usunięcie konta",
                 "reason": "Podano następujący powód: {reason}",
                 "status": {
-                    "awaiting_user_confirmation": "Powinieneś otrzymać e-mail, aby potwierdzić żądanie usunięcia konta.\n",
-                    "user_confirmed": "Wniosek o usunięcie konta został potwierdzony. Działanie zostanie podjęte w ciągu 30 dni, zgodnie z wymogami RODO.\n"
+                    "awaiting_user_confirmation": "Powinieneś otrzymać e-mail, aby potwierdzić chęć usunięcia konta.\n",
+                    "user_confirmed": "Potwierdzono chęć usunięcia konta. Działanie zostanie podjęte w ciągu 30 dni, zgodnie z wymogami RODO.\n"
                 },
-                "text": "Po otrzymaniu i potwierdzeniu administrator przejrzy Twoje żądanie w ciągu 30 dni, zgodnie z wymogami GDPR.",
+                "text": "Po otrzymaniu i potwierdzeniu administrator przejrzy Twój wniosek w ciągu 30 dni, zgodnie z wymogami RODO.",
                 "password_label": "Potwierdź hasło",
                 "reason_label": "Powód (opcjonalnie)",
                 "cancel_button": "Anuluj wniosek",
-                "request_button": "Zażądaj usunięcia"
+                "request_button": "Złóż wniosek o usunięcie"
             },
             "notification": {
                 "export-ready": "Twój eksport danych dla {username} jest teraz gotowy do pobrania."
