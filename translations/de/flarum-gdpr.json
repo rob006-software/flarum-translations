@@ -19,14 +19,14 @@
                     "extension_settings_button": "DSGVO-Einstellungen"
                 },
                 "user_table_data": {
-                    "not_yet_implemented": "",
+                    "not_yet_implemented": "Noch nicht implementiert",
                     "title": "Daten der Benutzertabelle",
                     "help_text": "In den meisten Fällen werden alle Spalten, die der <code>Benutzer</code>-Tabelle hinzugefügt werden, automatisch behandelt, sowohl für den Export von Daten als auch für das Löschen.\nEs gibt jedoch einige Sonderfälle, die im Folgenden aufgeführt sind.\n"
                 }
             },
             "nav": {
                 "gdpr_button": "DSGVO-Integrationen",
-                "gdpr_title": ""
+                "gdpr_title": "=> flarum-gdpr.admin.gdpr_page.description"
             },
             "permissions": {
                 "process_erasure": "Löschanträge verarbeiten",
@@ -55,8 +55,8 @@
                 "columns": {
                     "user_actions": {
                         "data_export": {
-                            "button": "",
-                            "tooltip": ""
+                            "button": "Exportieren",
+                            "tooltip": "Datenexport für {username}"
                         }
                     }
                 }
@@ -99,25 +99,25 @@
         "email": {
             "confirm_erasure": {
                 "subject": "Bestätige die Anfrage zur Löschung deines Kontos",
-                "body": ""
+                "body": "Jemand (hoffentlich du) hat gerade die Löschung des Kontos „{display_name}“ beantragt.\n\nUm diesen Vorgang zu bestätigen, folge bitte dem folgenden Link. Anschließend wird dein Antrag von unserem Team bearbeitet.\n\n{erasure_confirm_url}\n"
             },
             "erasure_completed": {
                 "deletion": {
                     "subject": "Kontolöschung abgeschlossen",
-                    "body": ""
+                    "body": "Dies ist eine automatische, endgültige Benachrichtigung darüber, dass dein Konto gelöscht wurde.\n"
                 },
                 "anonymization": {
                     "subject": "Anonymisierung des Kontos abgeschlossen",
-                    "body": ""
+                    "body": "Dies ist eine automatische, finale Benachrichtigung darüber, dass dein Konto anonymisiert wurde.\n"
                 }
             },
             "erasure_cancelled": {
                 "subject": "Antrag zur Kontolöschung abgebrochen",
-                "body": ""
+                "body": "Dies ist eine automatische Benachrichtigung, dass deine Anfrage zur Stornierung der Kontolöschung bearbeitet wurde.\n\nDein Konto wird nicht mehr gelöscht.\n"
             },
             "export_available": {
                 "subject": "Datenexport verfügbar",
-                "body": ""
+                "body": "Du hast einen Export der Kontodaten für {Benutzername} angefordert. Dieser Export wurde erfolgreich erstellt und steht nun zur Verfügung:\n\n{url}\n\nDieser Export bleibt bis {destroys_at} verfügbar.\n"
             }
         },
         "forum": {
