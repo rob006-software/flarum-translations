@@ -8,7 +8,7 @@
             "title": "Filtrowanie",
             "bad_words_help": "Podaj ciągi znaków do odfiltrowania, po jednym na wiersz. Jeśli post zawiera któryś z podanych ciągów, post zostanie oznaczony do zatwierdzenia przez moderację. Odporne na 133t.",
             "help2": "Przedział czasu (w minutach), w którym następujące po sobie posty napisane przez tego samego użytkownika zostaną scalone.",
-            "email_help": "Treść wiadomości e-mail po odfiltrowaniu posta. Akceptuje zarówno HTML jak i czysty tekst.",
+            "email_help": "Treść wiadomości e-mail wysyłanej po oflagowaniu posta. Akceptuje HTML i czysty tekst. Możesz użyć zmiennej %USERNAME%, aby wstawić nazwę użytkownika, którego post został oflagowany.\n",
             "filter_label": "Ciągi znaków do odfiltrowania",
             "countLabel": "Poziom tolerancji cenzora",
             "cooldownLabel": "Scalanie postów",
@@ -17,11 +17,11 @@
                 "placeholder": "Ciągi znaków do odfiltrowania",
                 "filter_title": "Ciągi znaków do odfiltrowania",
                 "email_label": "Ustawienia e-mail",
-                "email_help": "",
+                "email_help": "Pozostaw puste, aby użyć domyślnych tłumaczeń. Możesz użyć rozszerzenia FoF Linguist, aby przetłumaczyć treść wiadomości.",
                 "switch": {
                     "email": "Wyślij użytkownikowi wiadomość e-mail po tym jak jego post zostanie odfiltrowany",
                     "merge": "Automatycznie scalaj podwójne posty",
-                    "delete": ""
+                    "delete": "Automatycznie usuwaj odfiltrowane posty"
                 },
                 "email_subject": "Temat",
                 "email_body": "Treść"
@@ -35,7 +35,7 @@
             },
             "email": {
                 "default_subject": "Odnośnie Twojego ostatniego posta...",
-                "default_text": "Dzięki, że napisałeś! Niestety Twój post został ukryty, bo zawierał jedno ze słów zablokowanych na naszym forum.\n\nJeśli uważasz, że to pomyłka, nie martw się - post wkrótce zostanie zweryfikowany przez moderatora. Post pojawi się na forum zaraz po tym, jak moderator go zaakceptuje.\n\nDziękujemy za zrozumienie.\n"
+                "default_text": "%USERNAME%,\n\nDziękujemy za aktywność! Niestety Twój post został ukryty, ponieważ zawierał treści, których nie akceptujemy na naszym forum.\n\nJeśli uważasz, że to pomyłka, nic się nie martw – każdy ukryty post jest weryfikowany przez naszych moderatorów. Jeśli uznają, że usunięcie było niesłuszne, post zostanie przywrócony.\n\nDziękujemy za zrozumienie.\n"
             }
         }
     }
