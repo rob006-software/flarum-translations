@@ -1298,7 +1298,7 @@
                     "title": "3800214dda3839e23e8d96b79069da82 3800214dda3839e23e8d96b79069da82"
                 },
                 "round-alert": {
-                    "message": "725ebf537a97b45599b002bf4987ebe5 725ebf537a97b45599b002bf4987ebe5",
+                    "message": "2050746387fa7eed8cfdc42f5c912769 2050746387fa7eed8cfdc42f5c912769",
                     "rankings": "c0ddc3e65161d28e85b1b951e4930f76 c0ddc3e65161d28e85b1b951e4930f76"
                 },
                 "table-fish": {
@@ -3523,6 +3523,24 @@
                     "description_label": "35bedb45241d6b3f70fa6f56197c3361 35bedb45241d6b3f70fa6f56197c3361",
                     "disable_inputs_label": "76f4eb01a04610a661bccc06e062aabe 76f4eb01a04610a661bccc06e062aabe",
                     "title_label": "18a8022569d6ced829f833aa855530ce 18a8022569d6ced829f833aa855530ce"
+                }
+            }
+        }
+    },
+    "datitisev-maintenance.json": {
+        "datitisev-maintenance": {
+            "admin": {
+                "dashboard": {
+                    "disable_maintenance_mode_button": "5bf402222588430cd3b5ecb9bf6d69ad 5bf402222588430cd3b5ecb9bf6d69ad",
+                    "enable_maintenance_mode_button": "78fdcb6ca1ab5583e21c8a1097e0dfa8 78fdcb6ca1ab5583e21c8a1097e0dfa8"
+                },
+                "settings": {
+                    "status_disabled": "6ca323ce17ace43a7a65a578b3235cc7 6ca323ce17ace43a7a65a578b3235cc7",
+                    "status_enabled": "24018c0c6271feeefea0205de352ed27 24018c0c6271feeefea0205de352ed27",
+                    "status_force_disabled": "8fb297103329ea8b7cf726ae04b3a8a2 8fb297103329ea8b7cf726ae04b3a8a2",
+                    "status_via_config": "a7732093ff87bd443d9d4685d0ebd8dc a7732093ff87bd443d9d4685d0ebd8dc",
+                    "status_via_database": "ad56a20fdca5e686151ac7563451dbb3 ad56a20fdca5e686151ac7563451dbb3",
+                    "title": "d2b2d88529d812ef588b060030e80663 d2b2d88529d812ef588b060030e80663"
                 }
             }
         }
@@ -6849,31 +6867,57 @@
                 },
                 "settings": {
                     "access_key_label": "19ad1e93c00c905a0a13e5c2ecbc796b 19ad1e93c00c905a0a13e5c2ecbc796b",
+                    "error_code_prefix": "bcc7582c9a66be8187578997794a9c1f bcc7582c9a66be8187578997794a9c1f",
+                    "error_prefix": "0aa2532e67c34b582d7582bdd00c60f2 0aa2532e67c34b582d7582bdd00c60f2",
                     "general": {
                         "heading": "02be9999832d9b4f68c22d725bc04789 02be9999832d9b4f68c22d725bc04789",
                         "help": "6d79666691cd1bcf53ecff3f865f5c03 6d79666691cd1bcf53ecff3f865f5c03"
                     },
                     "providers": {
-                        "heading": "db0787cbe44944df9c9a3b033dcdade2 db0787cbe44944df9c9a3b033dcdade2"
+                        "heading": "db0787cbe44944df9c9a3b033dcdade2 db0787cbe44944df9c9a3b033dcdade2",
+                        "help": "adb0cc047c6f39ce5e0883d90f854f75 adb0cc047c6f39ce5e0883d90f854f75"
                     },
+                    "quota_label": "e8aa19ab8790cb2596b569b80f661992 e8aa19ab8790cb2596b569b80f661992",
                     "service_ipapi-pro_description": "7a257f1008200b6e05f2b58458e56b59 7a257f1008200b6e05f2b58458e56b59",
                     "service_ipapi-pro_label": "b618f0f03cd3a4997ea86b35e26f361b b618f0f03cd3a4997ea86b35e26f361b",
                     "service_ipapi_description": "1550f84768e4277535b3a49e13bb92e6 1550f84768e4277535b3a49e13bb92e6",
                     "service_ipapi_label": "c250685b1b65f5e2c344711553979fcc c250685b1b65f5e2c344711553979fcc",
-                    "service_ipdata_description": "4e774ba7ad3849e8eb942e7614452a4f 4e774ba7ad3849e8eb942e7614452a4f",
+                    "service_ipdata_description": "9fc3e0a99950020eb457e7897065ad98 9fc3e0a99950020eb457e7897065ad98",
                     "service_ipdata_label": "bc6e14bfd8041d29d22a77aca2d25b43 bc6e14bfd8041d29d22a77aca2d25b43",
+                    "service_ipinfo-lite_description": "ec4de875adfd3ac2ebacb3a649941a0a ec4de875adfd3ac2ebacb3a649941a0a",
                     "service_ipinfo-lite_label": "b61995cdb1458dbfdf855425fae26f64 b61995cdb1458dbfdf855425fae26f64",
+                    "service_iplocation_description": "826a4336c10468bf2b012b6bbf5be9b8 826a4336c10468bf2b012b6bbf5be9b8",
                     "service_iplocation_label": "853cf441fed13757e7327b53c4bdf2a2 853cf441fed13757e7327b53c4bdf2a2",
+                    "service_ipsevenex_description": "beb67750628ff458f632fae1f2b65130 beb67750628ff458f632fae1f2b65130",
                     "service_ipsevenex_label": "565119aa5b5f8bcd0a4a6d06c564fc6f 565119aa5b5f8bcd0a4a6d06c564fc6f",
                     "service_label": "09ed8615f82fe4a6e202bd9a2de6f541 09ed8615f82fe4a6e202bd9a2de6f541",
-                    "show_flag_help": "0323e5434dde8059a11f16b3c2cc08be 0323e5434dde8059a11f16b3c2cc08be",
-                    "show_flag_label": "87b941554e01b09a5df755967164fafe 87b941554e01b09a5df755967164fafe"
+                    "show_flag_help": "a6ce884d8f7dcc7bbc0d9ad0055030e6 a6ce884d8f7dcc7bbc0d9ad0055030e6",
+                    "show_flag_label": "87b941554e01b09a5df755967164fafe 87b941554e01b09a5df755967164fafe",
+                    "status_error": "976c416a56227706f421eb0f2b366b5c 976c416a56227706f421eb0f2b366b5c",
+                    "status_success": "72b8bbaa651096d058e3a092c0777f06 72b8bbaa651096d058e3a092c0777f06",
+                    "status_unknown": "f9a26283d7a8988b63a8f9f5f681ab76 f9a26283d7a8988b63a8f9f5f681ab76",
+                    "test": {
+                        "heading": "f483c1929db2ace67455e91a740e3b2c f483c1929db2ace67455e91a740e3b2c",
+                        "help": "9c8f08fccd1e24b867146c22f0fd0a84 9c8f08fccd1e24b867146c22f0fd0a84"
+                    },
+                    "test_button": "8a2ea864e5efe3f5b689a2f19e35d31b 8a2ea864e5efe3f5b689a2f19e35d31b",
+                    "test_error_details_label": "4c2205524684fcf021e898ea48f58265 4c2205524684fcf021e898ea48f58265",
+                    "test_http_status_code_label": "d66f497c806b28e2a7960814323760ec d66f497c806b28e2a7960814323760ec",
+                    "test_response_time_label": "82e9b7b3bdfb553761b08726e21d39d3 82e9b7b3bdfb553761b08726e21d39d3",
+                    "test_result_title": "8affc97cd4227e405eb09442af6f3675 8affc97cd4227e405eb09442af6f3675",
+                    "test_service_help": "eda95f3608fee5f6a6cd937b5d0ec459 eda95f3608fee5f6a6cd937b5d0ec459",
+                    "test_service_label": "b689536549fa5a21d1cef678b7bfb1cb b689536549fa5a21d1cef678b7bfb1cb",
+                    "test_service_label_result": "fd9d8934efd938d25386a3ef59aa92cb fd9d8934efd938d25386a3ef59aa92cb",
+                    "test_status_label": "24a23d787190f2c4812ff9ab11847a72 24a23d787190f2c4812ff9ab11847a72",
+                    "test_timestamp_label": "a05d4a5241961bbc0077a7b3ad1c42d0 a05d4a5241961bbc0077a7b3ad1c42d0",
+                    "testing": "8b629fc337893be16e31b3b7978f60c5 8b629fc337893be16e31b3b7978f60c5"
                 }
             },
             "forum": {
                 "alerts": {
                     "ip_copied": "24e7b5f823e0d5001cfc0a569e85fef2 24e7b5f823e0d5001cfc0a569e85fef2"
                 },
+                "copy_ip_label": "f4366cb67c261ac3ba2f5b9b7e9ab1c3 f4366cb67c261ac3ba2f5b9b7e9ab1c3",
                 "map_button_label": "5c01febd09352b12e061ad5d52689dfe 5c01febd09352b12e061ad5d52689dfe",
                 "map_modal": {
                     "as": "dec20b35ad94f1a61d9de894338ba93f dec20b35ad94f1a61d9de894338ba93f",
