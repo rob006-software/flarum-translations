@@ -19,14 +19,14 @@
                     "extension_settings_button": "DSGVO-Einstellungen"
                 },
                 "user_table_data": {
-                    "not_yet_implemented": "",
+                    "not_yet_implemented": "Noch nicht implementiert",
                     "title": "Daten der Benutzertabelle",
                     "help_text": "In den meisten Fällen werden alle Spalten, die der <code>Benutzer</code>-Tabelle hinzugefügt werden, automatisch behandelt, sowohl für den Export von Daten als auch für das Löschen.\nEs gibt jedoch einige Sonderfälle, die im Folgenden aufgeführt sind.\n"
                 }
             },
             "nav": {
                 "gdpr_button": "DSGVO-Integrationen",
-                "gdpr_title": ""
+                "gdpr_title": "=> flarum-gdpr.admin.gdpr_page.description"
             },
             "permissions": {
                 "process_erasure": "Löschanträge verarbeiten",
@@ -55,8 +55,8 @@
                 "columns": {
                     "user_actions": {
                         "data_export": {
-                            "button": "",
-                            "tooltip": ""
+                            "button": "Exportieren",
+                            "tooltip": "Datenexport für {username}"
                         }
                     }
                 }
