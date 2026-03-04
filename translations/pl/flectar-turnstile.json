@@ -2,22 +2,22 @@
     "flectar-turnstile": {
         "admin": {
             "settings": {
-                "help_text": "",
-                "site_key": "Klucz strony",
-                "secret_key": "Sekretny klucz",
-                "signup": "=> core.forum.sign_up.title",
-                "signin": "=> core.forum.log_in.title",
-                "forgot": "=> core.forum.forgot_password.title"
+                "help_text": "Wygeneruj klucze Turnstile w swoim panelu Cloudflare <a>tutaj</a>.",
+                "site_key": "Klucz witryny",
+                "secret_key": "Klucz tajny",
+                "signup": "Rejestracja",
+                "signin": "Logowanie",
+                "forgot": "Przypomnienie hasła"
             }
         },
         "forum": {
-            "not_loaded_error": "Nie udało się wczytać Cloudflare Turnstile. Proszę odświeżyć stronę i sprawdzić swój adblocker.",
-            "validation_error": "",
-            "error": ""
+            "not_loaded_error": "Nie udało się załadować Cloudflare Turnstile. Odśwież stronę i sprawdź, czy adblocker nie blokuje skryptu.",
+            "validation_error": "Ukończ weryfikację Turnstile.",
+            "error": "Wystąpił błąd podczas weryfikacji, czy jesteś człowiekiem. Spróbuj ponownie."
         }
     },
     "validation": {
-        "turnstile": "Nie mogliśmy zweryfikować, czy jesteś robotem, czy nie. Proszę odświeżyć stronę i spróbować ponownie.",
-        "required": ""
+        "turnstile": "Nie udało się zweryfikować, czy jesteś człowiekiem. Odśwież stronę i spróbuj ponownie.",
+        "required": "Ukończ weryfikację Turnstile."
     }
 }
