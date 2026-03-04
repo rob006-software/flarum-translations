@@ -2,7 +2,7 @@
     "flarum-realtime": {
         "forum": {
             "push": {
-                "discussion-list-new-activity": "",
+                "discussion-list-new-activity": "{count, plural, one {# aktualisierte Diskussion anzeigen} other {# aktualisierte Diskussionen anzeigen}}",
                 "discussion-list-new-activity-with-auto-release": ""
             },
             "typing-indicator": {
@@ -13,7 +13,7 @@
             },
             "user": {
                 "settings": {
-                    "heading": "",
+                    "heading": "Echtzeit",
                     "typing-indicator-type": {
                         "help": "",
                         "label": ""
