@@ -2,16 +2,16 @@
     "fof-geoip": {
         "admin": {
             "permissions": {
-                "see_country": ""
+                "see_country": "Wyświetlanie kraju pochodzenia adresu IP"
             },
             "settings": {
                 "general": {
-                    "heading": "",
-                    "help": ""
+                    "heading": "Ustawienia ogólne",
+                    "help": "Te ustawienia kontrolują ogólne zachowanie rozszerzenia."
                 },
                 "providers": {
-                    "heading": "",
-                    "help": ""
+                    "heading": "Usługa sprawdzania IP",
+                    "help": "Wybierz usługę do sprawdzania adresów IP. Niektóre z nich nakładają limity zapytań, więc upewnij się, że zapoznałeś się z ich dokumentacją, aby uzyskać więcej informacji."
                 },
                 "service_label": "Usługa",
                 "service_ipdata_label": "IPData",
@@ -24,39 +24,39 @@
                 "service_iplocation_description": "Użyj <b>https://www.iplocation.net/</b>, aby pobrać informacje o kraju i ISP. Limity dotyczące częstotliwości odwołań do API nie są znane.",
                 "service_ipsevenex_label": "7x Geolocation API",
                 "service_ipsevenex_description": "Użyj <b>https://7x.ax</b>, aby uzyskać bezpłatny klucz API dla maksymalnie 20 żądań na minutę. Dostępne są również płatne plany dla wyższych limitów użytkowania.",
-                "service_ipinfo-lite_label": "",
-                "service_ipinfo-lite_description": "",
+                "service_ipinfo-lite_label": "IPInfo Lite",
+                "service_ipinfo-lite_description": "Użyj <b>https://ipinfo.io</b>, aby pobierać informacje o IP bez żadnych limitów i ograniczeń. Wymaga darmowej rejestracji w celu uzyskania klucza API.",
                 "access_key_label": "Access Key",
-                "quota_label": "",
-                "show_flag_label": "",
-                "show_flag_help": "",
+                "quota_label": "Limit zapytań",
+                "show_flag_label": "Pokazuj flagę kraju przy każdym poście",
+                "show_flag_help": "Wyświetla flagę kraju przypisaną do adresu IP autora posta (bez ujawniania samego adresu), jeśli użytkownik włączy tę opcję w swoich preferencjach.",
                 "test": {
-                    "heading": "",
-                    "help": ""
+                    "heading": "Test konfiguracji usługi",
+                    "help": "Przetestuj konfigurację usługi sprawdzania IP za pomocą przykładowego adresu. Przed wykonaniem testu upewnij się, że zapisałeś ustawienia."
                 },
-                "test_service_label": "",
-                "test_service_help": "",
-                "test_button": "",
-                "testing": "",
-                "test_result_title": "",
-                "test_ip_required": "",
-                "test_error": "",
-                "test_service_label_result": "",
-                "test_status_label": "",
-                "test_response_time_label": "",
-                "test_timestamp_label": "",
-                "test_http_status_code_label": "",
-                "test_error_details_label": "",
-                "test_processed_service_response_label": "",
-                "status_success": "",
-                "status_error": "",
-                "status_unknown": "",
-                "response_headers_label": "",
-                "raw_http_response_label": "",
-                "request_url_label": "",
-                "request_options_label": "",
-                "error_prefix": "",
-                "error_code_prefix": "",
+                "test_service_label": "Przetestuj usługę sprawdzania IP",
+                "test_service_help": "Wprowadź adres IPv4 lub IPv6, aby przetestować obecną konfigurację usługi.",
+                "test_button": "Przetestuj usługę",
+                "testing": "Testowanie...",
+                "test_result_title": "Wynik testu",
+                "test_ip_required": "Wprowadź adres IP do przetestowania.",
+                "test_error": "Wystąpił błąd podczas testowania usługi.",
+                "test_service_label_result": "Usługa:",
+                "test_status_label": "Status:",
+                "test_response_time_label": "Czas odpowiedzi:",
+                "test_timestamp_label": "Znacznik czasu:",
+                "test_http_status_code_label": "Kod statusu HTTP:",
+                "test_error_details_label": "Szczegóły błędu:",
+                "test_processed_service_response_label": "Przetworzona odpowiedź z usługi:",
+                "status_success": "✓ Sukces",
+                "status_error": "✗ Błąd",
+                "status_unknown": "Nieznany",
+                "response_headers_label": "Nagłówki odpowiedzi",
+                "raw_http_response_label": "Surowa treść odpowiedzi HTTP",
+                "request_url_label": "URL żądania",
+                "request_options_label": "Opcje żądania",
+                "error_prefix": "Błąd:",
+                "error_code_prefix": "Kod:",
                 "title": "FriendsOfFlarum GeoIP",
                 "service_ipstack_label": "IPStack",
                 "service_ipstack_description": "Użyj <b>https://ipstack.com</b>, aby sprawdzić do 10 000 IP na miesiąc, w ramach darmowego pakietu. Płatne plany zawierają informacje o połączeniu (ISP, organizacja) oraz poziomie zagrożenia.",
@@ -69,7 +69,7 @@
             "alerts": {
                 "ip_copied": "Skopiowano adres IP"
             },
-            "copy_ip_label": "",
+            "copy_ip_label": "Skopiuj adres IP do schowka",
             "map_button_label": "Informacje o IP",
             "map_modal": {
                 "title": "Informacje o IP",
@@ -80,14 +80,14 @@
                 "as": "ASN",
                 "mobile": "Sieć komórkowa",
                 "organization": "Organizacja",
-                "threat_level": "",
-                "threat_types": "",
+                "threat_level": "Poziom zagrożenia",
+                "threat_types": "Typy zagrożeń",
                 "error": "Błąd",
                 "not_enough_data": "Za mało danych, aby narysować mapę"
             },
             "user": {
                 "settings": {
-                    "ip_country": ""
+                    "ip_country": "Pokazuj flagę kraju, z którego piszę, na podstawie mojego adresu IP"
                 }
             }
         }
@@ -95,8 +95,8 @@
     "fof-default-user-preferences": {
         "admin": {
             "settings": {
-                "showIPCountry": "",
-                "showIPCountry-help": ""
+                "showIPCountry": "Pokazuj flagę kraju, z którego pisze użytkownik",
+                "showIPCountry-help": "Funkcja działa w oparciu o adres IP z momentu publikacji posta. Flaga kraju (jeśli jest włączona) będzie widoczna dla wszystkich. Administratorzy i moderatorzy po najechaniu na nią zobaczą w dymku sam adres IP."
             }
         }
     }
