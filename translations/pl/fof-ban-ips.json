@@ -74,8 +74,8 @@
         "lib": {
             "data": {
                 "bannedipdata": {
-                    "export_description": "",
-                    "anonymize_description": ""
+                    "export_description": "Jeśli wpis blokady IP jest powiązany z użytkownikiem (tzn. użytkownik został zablokowany na podstawie adresu IP), w eksporcie znajdzie się jego adres IP wraz z powodem blokady i datą jej utworzenia.",
+                    "anonymize_description": "Wszystkie adresy IP powiązane z użytkownikiem zostaną odłączone, jednak sam adres IP pozostanie zablokowany wraz z podanym powodem. Upewnij się, że w polu „powód” nie są przechowywane żadne dane osobowe."
                 }
             }
         }
