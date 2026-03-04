@@ -31,19 +31,19 @@
                 "use_alt_ui": "Alternatywny układ",
                 "use_alt_ui_help": "Wyświetl opcje do ustawiania najlepszej odpowiedzi w stopce posta",
                 "documentation": "Dokumentacja",
-                "enabled_tags_label": "",
-                "enabled_tags_help": "",
-                "remind_tags_label": "",
-                "remind_tags_help": "",
-                "tags_info": "",
-                "solution_search": "",
-                "solution_search_help": "",
-                "remove_solutions_from_main_search": "",
-                "remove_solutions_from_main_search_help": "",
-                "display_tags": "",
-                "display_tags_help": "",
-                "discussion_sidebar_jump_button": "",
-                "discussion_sidebar_jump_button_help": "",
+                "enabled_tags_label": "Włączone tagi",
+                "enabled_tags_help": "Wybierz tagi, dla których chcesz włączyć najlepsze odpowiedzi. Tagi te zmienią format na \"Pytania i Odpowiedzi\" (Q&A) i będą miały możliwość oznaczania najlepszych odpowiedzi.",
+                "remind_tags_label": "Tagi z przypomnieniami",
+                "remind_tags_help": "Wybierz tagi, dla których mają być wysyłane przypomnienia. Przypomnienia będą wysyłane tylko dla dyskusji zawierających te tagi.",
+                "tags_info": "Gdy tag ma włączoną obsługę najlepszych odpowiedzi, przypisz uprawnienia dla każdej grupy użytkowników, która może je wybierać (we własnej dyskusji, w dowolnej dyskusji). Uprawnienia mogą być przypisywane globalnie (dla każdego tagu obsługującego najlepsze odpowiedzi) lub niezależnie dla poszczególnych tagów.\n",
+                "solution_search": "Wyszukiwanie rozwiązań",
+                "solution_search_help": "Zezwalaj na przeszukiwanie dyskusji z najlepsza odpowiedzią",
+                "remove_solutions_from_main_search": "Wyklucz rozwiązania z głównego wyszukiwania",
+                "remove_solutions_from_main_search_help": "Wyklucza dyskusje z najlepszą odpowiedzią z głównych wyników wyszukiwania „wszystkie dyskusje”",
+                "display_tags": "Wyświetlaj tagi w wynikach wyszukiwania",
+                "display_tags_help": "Wyświetla przypisane tagi w wynikach wyszukiwania dla dyskusji z najlepszą odpowiedzią",
+                "discussion_sidebar_jump_button": "Przycisk przejścia do najlepszej odpowiedzi na pasku bocznym",
+                "discussion_sidebar_jump_button_help": "Dodaje na pasku bocznym dyskusji przycisk, który pozwala szybko przewinąć stronę bezpośrednio do najlepszej odpowiedzi.",
                 "allow_select_own_post": "Wybieranie własnego posta",
                 "allow_select_own_post_help": "Pozwól użytkownikowi wybrać swój własny post jako najlepszą odpowiedź w dyskusji",
                 "enable_all_tags_button": "Włącz obsługę najlepszych odpowiedzi we wszystkich tagach",
@@ -93,11 +93,11 @@
                 "best-answer-count": "{count, plural, one {{count} najlepsza odpowiedź} few {{count} najlepsze odpowiedzi} other {{count} najlepszych odpowiedzi}}"
             },
             "search": {
-                "discussions_solutions_heading": "",
-                "all_discussions_solutions_button": ""
+                "discussions_solutions_heading": "Rozwiązane dyskusje",
+                "all_discussions_solutions_button": "Szukaj „{query}” w rozwiązanych dyskusjach"
             },
             "discussion": {
-                "jump_to_best_answer_button": ""
+                "jump_to_best_answer_button": "Przejdź do najlepszej odpowiedzi"
             }
         },
         "email": {
