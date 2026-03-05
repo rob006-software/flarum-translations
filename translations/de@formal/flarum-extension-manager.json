@@ -100,7 +100,7 @@
             "minor_update_confirmation": {
                 "content": ""
             },
-            "required_php_functions": "",
+            "required_php_functions": "Der Erweiterungsmanager erfordert, dass die folgenden PHP-Funktionen aktiviert sind: <code>{functions}</code>. Wenn du keinen Zugriff auf die PHP-Konfiguration hast, wende dich bitte an deinen Hosting-Anbieter.\n",
             "sections": {
                 "discover": {
                     "description": "Füge deinem Flarum-Forum mit Erweiterungen neue Funktionen und Integrationen hinzu.",
@@ -116,9 +116,9 @@
                         },
                         "downloads": "{count, plural, one {{formattedCount} Download} other {{formattedCount} Downloads}}"
                     },
-                    "premium_extension_terms": "",
+                    "premium_extension_terms": "Bedingungen für Premium-Erweiterungen",
                     "search": "Suchen...",
-                    "server_error": "",
+                    "server_error": "Der Dienst ist derzeit nicht verfügbar. Bitte versuche es später erneut.",
                     "sort": {
                         "toggle_dropdown_accessible_label": "Sortieroptionen umschalten",
                         "top": "Meistgeladen",
@@ -134,7 +134,7 @@
                     "party_filter": {
                         "all": "Alle",
                         "premium": "Premium",
-                        "toggle_dropdown_accessible_label": ""
+                        "toggle_dropdown_accessible_label": "Party-Filter umschalten"
                     }
                 },
                 "queue": {
@@ -174,8 +174,8 @@
                     "title": "Warteschlange"
                 },
                 "settings": {
-                    "title": "",
-                    "description": ""
+                    "title": "Optionen und Warteschlange",
+                    "description": "Konfiguriere den Erweiterungsmanager und überprüfe die Vorgänge in der Warteschlange."
                 }
             },
             "settings": {
