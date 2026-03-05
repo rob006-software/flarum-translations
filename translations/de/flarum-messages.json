@@ -2,14 +2,14 @@
     "flarum-messages": {
         "admin": {
             "permissions": {
-                "send_messages_label": "",
+                "send_messages_label": "Private Nachrichten senden",
                 "delete_own_messages_label": "Eigene Nachrichten löschen"
             }
         },
         "forum": {
             "composer": {
-                "discard_confirmation": "",
-                "placeholder": "",
+                "discard_confirmation": "Du hast deine Nachricht nicht gesendet. Möchtest du sie wirklich verwerfen?",
+                "placeholder": "Schreib eine Nachricht...",
                 "recipients": "Empfänger",
                 "submit_button": "Nachricht senden",
                 "to": "An:"
@@ -26,9 +26,9 @@
                 "controls": {
                     "details_button": "Details"
                 },
-                "controls_toggle_label": "",
+                "controls_toggle_label": "Dialogsteuerungsaktionen",
                 "details_modal": {
-                    "created_at": "",
+                    "created_at": "Erstellungsdatum",
                     "recipients": "Teilnehmer",
                     "title": "Konversationsdetails"
                 }
@@ -46,54 +46,54 @@
             },
             "message_controls": {
                 "delete_button": "Löschen",
-                "delete_confirmation": ""
+                "delete_confirmation": "Möchtest du diese Nachricht wirklich löschen? Diese Aktion kann nicht rückgängig gemacht werden."
             },
             "messages_page": {
-                "cannot_send_message_button": "",
+                "cannot_send_message_button": "Kann keine Nachricht senden",
                 "empty_text": "Keine neuen Nachrichten",
                 "hero": {
                     "title": "Nachrichten",
-                    "subtitle": ""
+                    "subtitle": "Deine privaten Unterhaltungen mit anderen Benutzern"
                 },
                 "mark_all_as_read_tooltip": "Alle als gelesen markieren",
                 "refresh_tooltip": "Aktualisieren",
                 "send_message_button": "Nachricht senden",
                 "stream": {
-                    "load_previous_button": "",
-                    "load_next_button": "",
-                    "start_of_the_conversation": "",
+                    "load_previous_button": "Vorherige Nachrichten laden",
+                    "load_next_button": "Nächste Nachrichten laden",
+                    "start_of_the_conversation": "Beginn der Unterhaltung",
                     "time_lapsed_text": "=> core.forum.post_stream.time_lapsed_text"
                 },
                 "title": "Nachrichten"
             },
             "recipient_selection_modal": {
-                "title": ""
+                "title": "Wähle die Empfänger für diese Nachricht"
             },
             "settings": {
-                "notify_message_received_label": ""
+                "notify_message_received_label": "Jemand schickt mir eine Nachricht"
             },
             "user_controls": {
                 "send_message_button": "Nachricht senden",
                 "cannot_reply_text": "Dieser Benutzer kann nicht antworten"
             },
             "notifications": {
-                "message_received_text": ""
+                "message_received_text": "Benachrichtigung über dein Erhalt einer Nachricht von {user}"
             }
         },
         "email": {
             "message_received": {
-                "subject": "",
+                "subject": "{user_display_name} hat dir eine Nachricht gesendet",
                 "plain": {
-                    "body": ""
+                    "body": "{user_display_name} hat dir eine Nachricht gesendet.\n\n{url}\n\n---\n\n{content}\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{user_display_name} hat dir eine [neue Nachricht]({url}) gesendet."
                 }
             }
         },
         "lib": {
             "dialog": {
-                "title": ""
+                "title": "Unterhaltung {username}"
             }
         }
     }
