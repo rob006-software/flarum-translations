@@ -264,7 +264,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/webhooks/2.0.0-beta.1/resources/locale/en.yml',
 	],
 	'forumaker-magicbb' => [
-		'tag' => 'https://raw.githubusercontent.com/forumaker/magicbb/2.0.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/forumaker/magicbb/v2.1.0/resources/locale/en.yml',
 	],
 	'forumaker-magicdice' => [
 		'tag' => 'https://raw.githubusercontent.com/forumaker/magicdice/2.0.0/resources/locale/en.yml',
