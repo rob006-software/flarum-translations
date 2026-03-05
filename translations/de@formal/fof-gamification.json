@@ -87,8 +87,8 @@
                     "vote_color": "Abgestimmt Farbe",
                     "icon_name": "Upvote/Downvote Symbol",
                     "icon_help": "Gebe ein beliebiges Font-Awesome-Icon mit den Endungen -up und -down ein. Beispiele: arrow, thumbs, chevron",
-                    "icon_preview_upvote": "",
-                    "icon_preview_downvote": "",
+                    "icon_preview_upvote": "Upvote",
+                    "icon_preview_downvote": "Downvote",
                     "upvotes_only": "Nur Upvoting zulassen",
                     "first_post_only": "Stimmen nach oben/unten nur im ersten Beitrag einer Diskussion zulassen",
                     "allow_self_votes": "Nutzer können über ihre eigenen Beiträge abstimmen"
@@ -136,7 +136,7 @@
     "lib": {
         "gambits": {
             "hot": {
-                "key": ""
+                "key": "angesagt"
             }
         }
     }
