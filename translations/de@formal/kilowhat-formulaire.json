@@ -39,25 +39,25 @@
                 "horizontal-layout-locations": {
                     "standaloneEdit": "Separate Seite zum Ausfüllen/Bearbeiten",
                     "standaloneView": "Separate Anzeigeseite",
-                    "profileEdit": "",
-                    "profileView": "",
-                    "signUp": "",
-                    "discussionEdit": "",
-                    "discussionView": "",
-                    "discussionComposer": ""
+                    "profileEdit": "Profil-Bearbeitungsseite",
+                    "profileView": "Profil-Anzeigeseite",
+                    "signUp": "Anmeldeformular (nur Formulaire-Felder)",
+                    "discussionEdit": "Modal zur Diskussionsbearbeitung",
+                    "discussionView": "Container für Diskussionsansicht",
+                    "discussionComposer": "Diskussions-Composer"
                 },
-                "uniformComposerLayout": "",
-                "uniformComposerLayoutHelp": "",
-                "noByobuFields": "",
-                "noByobuFieldsHelp": "",
+                "uniformComposerLayout": "Einheitliches Layout für Diskussions-Composer",
+                "uniformComposerLayoutHelp": "Ändert das Design der Themen, Titel- und Inhaltsfelder, damit sie zu Formulaire passen. Dieses Layout benötigt noch mehr Platz, daher wird empfohlen, die Erweiterung <a>Composer Page</a> zu installieren und zu aktivieren.\n",
+                "noByobuFields": "Diskussionsfelder nicht mit privaten Diskussionen aus der Byobu-Erweiterung integrieren",
+                "noByobuFieldsHelp": "Standardmäßig gelten Diskussionsfelder, die nicht Themen-spezifisch sind, für alle Diskussionen, einschließlich privater Diskussionen.",
                 "translateManually": "Manuelle Formularübersetzung aktivieren",
-                "translateManuallyHelp": "",
-                "translateWithTranslator": "",
-                "translateWithTranslatorHelp": "",
-                "replacementPatternLocale": "",
-                "replacementPatternLocaleHelp": "",
+                "translateManuallyHelp": "Wenn aktiv, können Feldnamen in der Benutzeroberfläche des Formular-Managers übersetzt werden. Im Forum müssen mehrere Sprachen aktiv sein.\n",
+                "translateWithTranslator": "Formularübersetzung mit der Flarum-Translator-API aktivieren",
+                "translateWithTranslatorHelp": "Wenn aktiv, können Feldnamen über lokale Erweiterungen und Sprachpakete angepasst werden. Informationen zur Verwendung dieser Funktion findest du in der Dokumentation.\n",
+                "replacementPatternLocale": "Bei der Anwendung eines Ersetzungsmusters verwendete Sprache",
+                "replacementPatternLocaleHelp": "Die Standardoption „Auto“ bedeutet, dass die Sprache des Benutzers, der das Formular abgeschickt hat, verwendet wird, wenn keine Warteschlange aktiv ist. Wenn eine Warteschlange aktiv ist, wird die Standardsprache des Forums verwendet. Diese Einstellung wirkt sich sowohl auf Benachrichtigungs-E-Mails als auch auf die automatische Erstellung von Diskussionen aus.\n",
                 "replacementPatternLocaleOptions": {
-                    "auto": ""
+                    "auto": "Automatisch"
                 }
             }
         },
@@ -66,8 +66,8 @@
                 "forms": "=> kilowhat-formulaire.ref.manager"
             },
             "require-submission-alert": {
-                "message": "",
-                "action": ""
+                "message": "Wir haben den Zugriff auf dein Konto vorübergehend eingeschränkt, bis du das Formular „{title}“ eingereicht hast.",
+                "action": "Formular öffnen"
             },
             "form-index": {
                 "header": {
@@ -91,7 +91,7 @@
                     "title": "Titel",
                     "accept-submissions": "Offen",
                     "allow-modification": "Bearbeitet",
-                    "enabled": "",
+                    "enabled": "Aktiviert",
                     "submissions": "Einreichungen",
                     "actions": "Aktionen"
                 }
@@ -129,25 +129,25 @@
                 },
                 "tabs": {
                     "template": "Vorlage",
-                    "translate": "",
-                    "placement": "",
+                    "translate": "Übersetzen",
+                    "placement": "Platzierung",
                     "access": "Zugriff",
-                    "notifications": "",
+                    "notifications": "Benachrichtigungen",
                     "submissions": "Einreichungen"
                 },
                 "access-status": {
                     "closed": "Geschlossen",
-                    "create": "",
-                    "edit": "",
-                    "both": "",
-                    "enabled": "",
+                    "create": "Nur erstellen",
+                    "edit": "Nur bearbeiten",
+                    "both": "Erstellen und bearbeiten",
+                    "enabled": "Aktiviert",
                     "disabled": "Entwurf"
                 },
-                "controls": "",
-                "template-export": "",
-                "enable-expert-mode": "",
-                "disable-expert-mode": "",
-                "show-advanced-attributes": "",
+                "controls": "Steuerelemente",
+                "template-export": "Vorlagen importieren/exportieren",
+                "enable-expert-mode": "Expertenmodus aktivieren",
+                "disable-expert-mode": "Expertenmodus deaktivieren",
+                "show-advanced-attributes": "Erweiterte Attribute anzeigen...",
                 "restore": "Wiederherstellen",
                 "hide": "Löschen",
                 "delete": "Dauerhaft löschen",
@@ -165,7 +165,7 @@
                     "linked-form-is-draft": "",
                     "auto-link-permission-warning": ""
                 },
-                "expert-mode-warning": "",
+                "expert-mode-warning": "Erweiterte Feldattribute sind sichtbar. Lies unbedingt die Dokumentation zu diesen Funktionen, da du sonst möglicherweise Fehler verursachen kannst!\n",
                 "section": {
                     "template": "Vorlage",
                     "permissions": "Berechtigungen"
