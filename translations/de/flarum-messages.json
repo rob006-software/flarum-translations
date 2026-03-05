@@ -3,68 +3,68 @@
         "admin": {
             "permissions": {
                 "send_messages_label": "",
-                "delete_own_messages_label": ""
+                "delete_own_messages_label": "Eigene Nachrichten löschen"
             }
         },
         "forum": {
             "composer": {
                 "discard_confirmation": "",
                 "placeholder": "",
-                "recipients": "",
-                "submit_button": "",
-                "to": ""
+                "recipients": "Empfänger",
+                "submit_button": "Nachricht senden",
+                "to": "An:"
             },
             "dialog_list": {
-                "load_more_button": "",
-                "mark_as_read_tooltip": "",
-                "title": "",
-                "view_all": ""
+                "load_more_button": "=> core.ref.load_more",
+                "mark_as_read_tooltip": "Als gelesen markieren",
+                "title": "Nachrichten",
+                "view_all": "Alle Nachrichten ansehen"
             },
             "dialog_section": {
-                "back_label": "",
-                "cannot_reply_text": "",
+                "back_label": "Zurück",
+                "cannot_reply_text": "Dieser Benutzer kann nicht antworten",
                 "controls": {
-                    "details_button": ""
+                    "details_button": "Details"
                 },
                 "controls_toggle_label": "",
                 "details_modal": {
                     "created_at": "",
-                    "recipients": "",
-                    "title": ""
+                    "recipients": "Teilnehmer",
+                    "title": "Konversationsdetails"
                 }
             },
             "header": {
-                "dropdown_tooltip": ""
+                "dropdown_tooltip": "Nachrichten"
             },
             "index": {
-                "messages_link": ""
+                "messages_link": "Nachrichten"
             },
             "index_sort": {
-                "latest_button": "",
-                "newest_button": "",
-                "oldest_button": ""
+                "latest_button": "Neueste",
+                "newest_button": "Neueste",
+                "oldest_button": "Älteste"
             },
             "message_controls": {
-                "delete_button": "",
+                "delete_button": "Löschen",
                 "delete_confirmation": ""
             },
             "messages_page": {
                 "cannot_send_message_button": "",
-                "empty_text": "",
+                "empty_text": "Keine neuen Nachrichten",
                 "hero": {
-                    "title": "",
+                    "title": "Nachrichten",
                     "subtitle": ""
                 },
-                "mark_all_as_read_tooltip": "",
-                "refresh_tooltip": "",
-                "send_message_button": "",
+                "mark_all_as_read_tooltip": "Alle als gelesen markieren",
+                "refresh_tooltip": "Aktualisieren",
+                "send_message_button": "Nachricht senden",
                 "stream": {
                     "load_previous_button": "",
                     "load_next_button": "",
                     "start_of_the_conversation": "",
-                    "time_lapsed_text": ""
+                    "time_lapsed_text": "=> core.forum.post_stream.time_lapsed_text"
                 },
-                "title": ""
+                "title": "Nachrichten"
             },
             "recipient_selection_modal": {
                 "title": ""
@@ -73,8 +73,8 @@
                 "notify_message_received_label": ""
             },
             "user_controls": {
-                "send_message_button": "",
-                "cannot_reply_text": ""
+                "send_message_button": "Nachricht senden",
+                "cannot_reply_text": "Dieser Benutzer kann nicht antworten"
             },
             "notifications": {
                 "message_received_text": ""
