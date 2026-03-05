@@ -12,23 +12,23 @@
                     },
                     "bisect_modal": {
                         "description": "",
-                        "end_button": "",
-                        "issue_question": "",
-                        "issue_question_help": "",
+                        "end_button": "Schließen und zur Erweiterungsseite gehen",
+                        "issue_question": "Tritt das Problem weiterhin auf?",
+                        "issue_question_help": "Versuche, das Problem auf einer separaten Seite zu reproduzieren, und antworte anhand des Ergebnisses.",
                         "no_button": "Nein",
                         "result_description": "",
                         "start_button": "",
                         "stop_button": "",
-                        "steps_left": "",
-                        "total_steps": "",
+                        "steps_left": "Verbleibende Schritte: {steps}",
+                        "total_steps": "Dafür sind {steps} Schritte nötig.",
                         "title": "",
                         "yes_button": "Ja"
                     },
                     "config_override": {
-                        "label": "",
-                        "help": ""
+                        "label": "Deine Datei <code>config.php</code> überschreibt diese Einstellungen.",
+                        "help": "Du kannst diese Einstellungen hier weiterhin ändern, sie werden jedoch erst wirksam, wenn du in deiner Datei <code>config.php</code> den Wert <code>offline</code> auf <code>0</code> setzst."
                     },
-                    "help": "",
+                    "help": "Versetze dein Forum in den Wartungsmodus, um zu verhindern, dass Benutzer darauf zugreifen können.",
                     "options": {
                         "none": "Keine Wartung.",
                         "high": "",
