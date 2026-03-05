@@ -16,7 +16,7 @@
                 "no-option-selected": "Keine option ausgewählt"
             },
             "tags": {
-                "inadequate-settings": "",
+                "inadequate-settings": "Die Themen-Einstellungen sind nicht korrekt konfiguriert. Erlaube maximal ein primäres und ein sekundäres Thema oder deaktiviere die Funktion „Thema als Felder”.\n",
                 "tags-label": "Themen"
             }
         },
@@ -26,70 +26,70 @@
                 "add-field": "Feld hinzufügen",
                 "save-field": "Feldänderungen speichern",
                 "delete-field": "Feld löschen",
-                "edit-field": "",
+                "edit-field": "Zum Bearbeiten des Feldes klicken",
                 "add-answer": "Antwort hinzufügen",
                 "save-answer": "Antwortänderungen speichern",
                 "delete-answer": "Antwort löschen",
                 "edit-answer": "Antwort bearbeiten",
-                "edit-answer-prompt": "",
-                "show-user-answers": ""
+                "edit-answer-prompt": "Inhalt überall bearbeiten, wo er verwendet wird",
+                "show-user-answers": "Nicht vorgeschlagene Antworten anzeigen ({count})"
             },
             "fields": {
                 "add": "Feld {field} hinzufügen",
                 "edit": "Feld {field} bearbeiten",
                 "required": "Erforderlich",
                 "name": "Feldname",
-                "name-help": "",
+                "name-help": "Die öffentlich sichtbare (nicht übersetzbare) Feldbezeichnung.\n",
                 "description": "Feldbeschreibung",
-                "description-help": "",
-                "show_when_empty": "",
-                "show_when_empty-help": "",
-                "validation": "",
-                "user_values_allowed": "",
-                "user_values_allowed-help": "",
-                "validation-help": "",
-                "enable-user-values-for-validation": "",
-                "icon": "",
-                "icon-help": "",
-                "icon-preview": "",
-                "save-field-for-answers": "",
-                "is_suggested": "",
-                "new-answer": "",
-                "new-answer-placeholder": ""
+                "description-help": "Eine optionale Beschreibung, um die Verwendung/Notwendigkeit dieses Feldes zu erläutern.\n",
+                "show_when_empty": "Anzeigen, wenn leer",
+                "show_when_empty-help": "Legt fest, ob das Feld in der Diskussion angezeigt werden soll, wenn es keine Antwort enthält",
+                "validation": "Validierung für Benutzerwerte",
+                "user_values_allowed": "Erlaubte Benutzerwerte",
+                "user_values_allowed-help": "Wenn aktiviert, können Benutzer ihre eigenen Werte anstelle der vom Administrator definierten Werte hinzufügen. Diese Werte werden anhand der Einstellung „Validierung” überprüft. Wenn diese Option deaktiviert ist, können sie nur die „vorgeschlagenen” Antworten verwenden.\n",
+                "validation-help": "Überprüfe die unterstützten <a>Laravel-Validierungsregeln</a>. Beispiel: „string|min:5“ oder „url“.\n",
+                "enable-user-values-for-validation": "Aktiviere „Benutzerwerte“, um Validierungsregeln zu konfigurieren",
+                "icon": "Symbol",
+                "icon-help": "Zeigt ein Symbol vor den vom Benutzer eingegebenen Werten an. Eine Übersicht über die verfügbaren Symbole findest du auf der <a>FontAwesome-Website</a>. Verwende den vollständigen Namen der Symbolklasse einschließlich Präfix, zum Beispiel „fas fa-bolt“.\n",
+                "icon-preview": "Vorschau: {preview}",
+                "save-field-for-answers": "Speichere das Feld, um Antworten hinzuzufügen",
+                "is_suggested": "Benutzern eine Antwort vorschlagen",
+                "new-answer": "Neue Antwort",
+                "new-answer-placeholder": "Irgendein Text"
             },
             "messages": {
-                "delete-answer-confirmation": "",
-                "delete-field-confirmation": ""
+                "delete-answer-confirmation": "Möchtest du die Antwort „{content}“ wirklich löschen? Sie wird aus allen Diskussionen entfernt, in denen sie verwendet wird. Wenn du vorhandene Antworten behalten möchtest, deaktiviere stattdessen die Antwortvorschläge. Antwort löschen?\n",
+                "delete-field-confirmation": "Möchtest du das Feld „{name}“ wirklich löschen? Das Feld und die darin enthaltenen Antworten werden aus allen Diskussionen entfernt, in denen sie verwendet werden. Feld löschen?\n"
             },
             "settings": {
-                "fields-section-title": "",
-                "fields-section-title-placeholder": "",
-                "fields-section-title-help": "",
-                "column-count": "",
-                "n-columns": "",
-                "labels-as-placeholders": "",
-                "labels-as-placeholders-help": "",
-                "fields-in-hero": "",
-                "hide-empty-fields-section": "",
-                "hide-empty-fields-section-help": "",
-                "tags-as-field": "",
-                "tags-as-field-help": "",
-                "tags-field-name": "",
-                "tags-field-name-placeholder": ""
+                "fields-section-title": "Titel des Abschnitts „Benutzerdefinierte Felder“",
+                "fields-section-title-placeholder": "Standardmäßig wird kein Titel angezeigt",
+                "fields-section-title-help": "Benutzer sehen diesen Text über den benutzerdefinierten Feldern im Editor und in der Diskussion.\n",
+                "column-count": "Anzahl der Spalten bei der Anzeige der Felder",
+                "n-columns": "{count} Spalten",
+                "labels-as-placeholders": "Labels als Platzhalter im Formular anzeigen",
+                "labels-as-placeholders-help": "Felder benötigen weniger vertikalen Platz und Symbole werden nicht mehr angezeigt. Beachte, dass dies Auswirkungen auf die Benutzerfreundlichkeit haben kann, insbesondere beim Bearbeiten bestehender Felder.\n",
+                "fields-in-hero": "Felder im Diskussionsbanner anstelle des ersten Beitrags anzeigen",
+                "hide-empty-fields-section": "Titel und Steuerelemente ausblenden, wenn alle Felder leer und ausgeblendet sind",
+                "hide-empty-fields-section-help": "Standardmäßig wird der Abschnitt immer angezeigt, wenn der Benutzer Felder bearbeiten kann oder ein Titel festgelegt wurde, auch wenn alle Felder ausgeblendet sind. Wenn diese Option aktiviert ist, wird der Abschnitt ausgeblendet und die Schaltfläche „Felder bearbeiten“ ist nur im Dropdown-Menü „Antworten“ verfügbar, wenn alle Felder leer sind.\n",
+                "tags-as-field": "Themen-Auswahl als Feld anzeigen",
+                "tags-as-field-help": "Dadurch wird der Standard-Themen-Selektor ausgeblendet und stattdessen ein benutzerdefiniertes Dropdown-Feld angezeigt. Dies funktioniert nur, wenn du maximal einen primären und einen sekundären Tag zugelassen hast!\n",
+                "tags-field-name": "Bezeichnung des Themen-Feldes",
+                "tags-field-name-placeholder": "=> fof-mason.forum.tags.tags-label"
             },
             "titles": {
-                "settings": "",
-                "fields": "",
-                "field-settings": "",
-                "field-answers": ""
+                "settings": "Einstellungen",
+                "fields": "Felder",
+                "field-settings": "Feld-Einstellungen",
+                "field-answers": "Feld-Antworten"
             },
             "permissions": {
-                "see-own-fields": "",
-                "see-other-fields": "",
-                "fill-fields": "",
-                "update-own-fields": "",
-                "update-other-fields": "",
-                "skip-required-fields": ""
+                "see-own-fields": "Felder in eigenen bestehenden Diskussionen sehen",
+                "see-other-fields": "Felder in allen bestehenden Diskussionen sehen",
+                "fill-fields": "Felder in neuen Diskussionen ausfüllen",
+                "update-own-fields": "Felder in eigenen Diskussionen aktualisieren",
+                "update-other-fields": "Felder in allen Diskussionen aktualisieren",
+                "skip-required-fields": "Darf erforderliche Felder überspringen"
             }
         }
     }
