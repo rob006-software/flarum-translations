@@ -5,24 +5,24 @@
                 "front_button": "Titelseite"
             },
             "badge": {
-                "frontpage_tooltip": ""
+                "frontpage_tooltip": "Als Titelseite markiert"
             },
             "post_controls": {
-                "push_to_front_button": "",
-                "pull_from_front_button": ""
+                "push_to_front_button": "Auf die Titelseite verschieben",
+                "pull_from_front_button": "Von der Titelseite herunternehmen"
             }
         }
     },
     "fof-frontpage": {
         "admin": {
             "permissions": {
-                "can_push_to_frontpage_label": ""
+                "can_push_to_frontpage_label": "Darf auf die Titelseite verschieben"
             }
         },
         "lib": {
             "gambits": {
                 "frontpage": {
-                    "key": ""
+                    "key": "Titelseite"
                 }
             }
         }
