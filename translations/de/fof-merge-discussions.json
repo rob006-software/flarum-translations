@@ -3,7 +3,7 @@
         "forum": {
             "modal": {
                 "title": "Diskussionen zusammenführen",
-                "search_discussions_placeholder": "",
+                "search_discussions_placeholder": "Diskussionen suchen...",
                 "ordering_heading": "Bestellung zusammenführen",
                 "ordering_date_label": "Beiträge nach Erstellungsdatum zusammenführen",
                 "ordering_date_help": "Beiträge in der resultierenden Diskussion werden nach ihrem individuellen Erstellungsdatum neu geordnet",
@@ -11,14 +11,14 @@
                 "ordering_suffix_help": "Beiträge, die in die bestehende Diskussion eingebunden werden, werden am Ende der Diskussion angehängt",
                 "type_heading": "Typ zusammenführen",
                 "type_target_label": "Mit mir zusammenführen",
-                "type_target_help_text": "",
+                "type_target_help_text": "Wähle die Diskussion(en) aus, die du in {Titel} zusammenführen möchtest.",
                 "type_from_label": "Diese Diskussion in eine andere zusammenführen",
-                "type_from_help_text": "",
+                "type_from_help_text": "Wähle die Ziel-Diskussion aus, in die {title} zusammengeführt werden soll.",
                 "load_preview_button": "Vorschau",
                 "submit_button": "=> fof-merge-discussions.ref.merge"
             },
             "notification": {
-                "discussion_merged": "",
+                "discussion_merged": "Deine Diskussion {oldTitle} wurde von {username} mit dieser Diskussion zusammengeführt.",
                 "preferences": {
                     "discussion_merged": "Jemand führt eine meiner Diskussionen mit einer anderen zusammen"
                 }
@@ -27,7 +27,7 @@
                 "merge": "=> fof-merge-discussions.ref.merge"
             },
             "post": {
-                "merged": ""
+                "merged": "{count, plural, one {1 Beitrag von {titles} zusammengeführt.} other {{count} Beitrag von {titles} zusammengeführt.}}"
             }
         },
         "admin": {
