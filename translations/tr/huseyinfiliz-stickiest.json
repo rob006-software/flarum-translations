@@ -4,18 +4,18 @@
             "permissions": {
                 "super_sticky_discussions_label": "Süper sabitlenmiş tartışmalar",
                 "tag_sticky_discussions_label": "Etikette sabitlenmiş tartışmalar",
-                "stickiest_label": "",
-                "tag_sticky_label": ""
+                "stickiest_label": "Süper sabitlenmiş tartışmalar",
+                "tag_sticky_label": "Etikette sabitlenmiş tartışmalar"
             },
             "settings": {
                 "badge_icon_label": "Süper sabitlenmiş rozet simgesi",
                 "badge_icon_text": "=> core.ref.icon_text",
                 "display_tag_sticky_label": "\"Tüm Tartışmalar\" listesinde etiket sabitlemelerini göster",
                 "display_tag_sticky_text": "Normal tartışma olarak kabul edilecekler ve sabitlenmiş olarak kalmayacaklar.",
-                "show_tag_sticky_label": "",
-                "show_tag_sticky_help": "",
-                "stickiest_icon_label": "",
-                "stickiest_icon_help": ""
+                "show_tag_sticky_label": "Tüm Tartışmalar listesinde etiket sabitlemelerini göster",
+                "show_tag_sticky_help": "Kapatıldığında, etikete sabitlenmiş tartışmalar yalnızca o etiket sayfasında görünür.",
+                "stickiest_icon_label": "Süper sabitlenmiş rozet simgesi",
+                "stickiest_icon_help": "Font Awesome ikon sınıfı (ör. fas fa-star)"
             }
         },
         "forum": {
@@ -24,7 +24,7 @@
                 "super_sticky_tooltip": "=> huseyinfiliz-stickiest.ref.super_sticky",
                 "tag_sticky_tooltip": "=> huseyinfiliz-stickiest.ref.tag_sticky",
                 "super_tag_sticky_tooltip": "=> huseyinfiliz-stickiest.ref.super_tag_sticky",
-                "stickiest_tooltip": ""
+                "stickiest_tooltip": "Süper Sabitle"
             },
             "stickiest_modal": {
                 "title": "Sabitle: {title}",
@@ -45,19 +45,19 @@
                 "discussion_unstickied_text": "=> flarum-sticky.forum.post_stream.discussion_unstickied_text",
                 "discussion_super_stickied_text": "{username} bu tartışmayı süper sabitledi.",
                 "discussion_common_stickied_text": "{username} bu tartışmanın süper sabitlenmesini kaldırdı.",
-                "discussion_stickiest_text": "",
-                "discussion_unstickiest_text": ""
+                "discussion_stickiest_text": "{username} bu tartışmayı süper sabitledi.",
+                "discussion_unstickiest_text": "{username} bu tartışmanın süper sabitlenmesini kaldırdı."
             },
             "sticky_modal": {
-                "title": "",
-                "sticky_label": "",
-                "sticky_help": "",
-                "stickiest_label": "",
-                "stickiest_help": "",
-                "tag_sticky_label": "",
-                "tag_sticky_help": "",
-                "select_tags": "",
-                "submit_button": ""
+                "title": "Sabitle: {title}",
+                "sticky_label": "Sabitle",
+                "sticky_help": "Tüm Tartışmalarda okunmadığında üste sabitler, etiket sayfasında daima sabit kalır.",
+                "stickiest_label": "Süper Sabitle",
+                "stickiest_help": "Her yerde daima en üste sabitlenir.",
+                "tag_sticky_label": "Etikette Sabitle",
+                "tag_sticky_help": "Yalnızca seçili etiket sayfalarında sabitlenir.",
+                "select_tags": "Etiketleri seçin",
+                "submit_button": "Değişiklikleri Kaydet"
             }
         },
         "ref": {
