@@ -24,13 +24,13 @@
                     "column": "Sütun",
                     "type": "Tür",
                     "nullable": "Boş bırakılabilir",
-                    "pii": "",
-                    "redacted_on_export": "",
-                    "extension": "",
-                    "yes": "",
-                    "no": "",
-                    "pii_tooltip": "",
-                    "redacted_on_export_tooltip": ""
+                    "pii": "KV",
+                    "redacted_on_export": "Dışa aktarımda gizlenir",
+                    "extension": "Uzantı",
+                    "yes": "Evet",
+                    "no": "Hayır",
+                    "pii_tooltip": "Bu sütun kişisel tanımlayıcı bilgi içerir ve anonim bağlamlarda (ör. anonimleştirilmiş olay yükleri) gizlenir.",
+                    "redacted_on_export_tooltip": "Bu sütunun değeri, kullanıcı verisi dışa aktarılırken silinir. Sütun dışa aktarımda görünmeye devam eder ancak değeri null olur."
                 }
             },
             "nav": {
@@ -73,7 +73,7 @@
                     "delete_description": "Kullanıcının avatarını dosya sisteminden siler.",
                     "export_description": "Kullanıcının avatarını dosya sisteminden alır ve dışa aktarma işlemine dahil eder."
                 },
-                "default_user_action": "",
+                "default_user_action": "İşlem yok, varsayılan kullanıcı tablosu veri işleme tarafından yönetilir.",
                 "discussions": {
                     "export_description": "Kullanıcının başlattığı tüm tartışmaları dışa aktarır. Veriler başlık ve oluşturma tarihiyle sınırlıdır."
                 },
