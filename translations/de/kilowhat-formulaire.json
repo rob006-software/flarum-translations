@@ -161,7 +161,7 @@
                 "warnings": {
                     "show-on-signup-invalid-permissions": "Du musst nicht genehmigten Mitgliedern die Berechtigungen „Eigene anzeigen“ und „Eigene bearbeiten“ zuweisen, um „Bei Anmeldung anzeigen“ verwenden zu können.\n",
                     "show-on-composer-invalid-permissions": "Stelle sicher, dass die Berechtigungen „Eigene anzeigen” und „Eigene bearbeiten” mit den Personen übereinstimmen, die Diskussionen mit den ausgewählten Themen starten können, um „In Composer anzeigen” zu verwenden. Wenn du dir nicht sicher bist, wähle „Mitglieder”. Diese Meldung kann auch dann angezeigt werden, wenn deine Einstellungen korrekt sind.\n",
-                    "require-submission-invalid-permissions": "",
+                    "require-submission-invalid-permissions": "Du musst nicht genehmigten Mitgliedern die Berechtigungen „Eigene Beiträge anzeigen“ und „Eigene Beiträge bearbeiten“ zuweisen, um die Option „Zur Nutzung des Forums ist eine Anmeldung erforderlich“ verwenden zu können.\n",
                     "linked-form-is-draft": "",
                     "auto-link-permission-warning": ""
                 },
@@ -205,7 +205,7 @@
                 },
                 "auto-discussion-options": "Optionen für neue Diskussionen",
                 "email-confirmation-options": "Vorlage der Bestätigungs-E-Mail",
-                "email-notification-options": "",
+                "email-notification-options": "Vorlage für Benachrichtigungs-E-Mail",
                 "exiting-with-unsaved-data": "Sie haben ungespeicherte Änderungen. Möchtest du die Seite wirklich verlassen?",
                 "preview": "Vorschau in neuem Tab",
                 "save-for-preview": "Für Vorschau speichern"
@@ -260,7 +260,7 @@
                 "description": "Beschreibung",
                 "descriptionTranslationKey": "",
                 "key": "",
-                "fill-permission": "",
+                "fill-permission": "(Experte) Ausfüllberechtigungen",
                 "contentTranslationKey": "",
                 "required": "Erforderlich",
                 "rich": "",
@@ -272,7 +272,7 @@
                 "mime": "",
                 "other": "",
                 "defaultValue": "",
-                "duplicate": "",
+                "duplicate": "Feld duplizieren",
                 "delete": "Feld löschen",
                 "missing-title": "Feld ohne Titel",
                 "no-answer": "Nicht beantwortet",
@@ -281,12 +281,12 @@
                     "long": "Langer Text",
                     "number": "Zahl",
                     "date": "Datum",
-                    "checkbox": "",
-                    "radio": "",
-                    "select": "",
-                    "upload": "",
-                    "content": "",
-                    "items": ""
+                    "checkbox": "Kontrollkästchen",
+                    "radio": "Optionsfeld",
+                    "select": "Dropdown-Liste",
+                    "upload": "Hochladen",
+                    "content": "Inhalt",
+                    "items": "Mehrfachauswahl"
                 }
             },
             "options-editor": {
@@ -296,16 +296,16 @@
                     "key": "",
                     "defaultValue": ""
                 },
-                "remove": "",
-                "new-placeholder": ""
+                "remove": "Option entfernen",
+                "new-placeholder": "Neue Option..."
             },
             "items-editor": {
-                "add": "",
-                "remove": ""
+                "add": "Zeile hinzufügen",
+                "remove": "Zeile entfernen"
             },
             "upload-editor": {
                 "uploading": "",
-                "remove": ""
+                "remove": "Datei entfernen"
             },
             "rich-text": {
                 "preview-placeholder": ""
@@ -319,7 +319,7 @@
             },
             "translate": {
                 "switch-tab-to-edit": "",
-                "option-heading": ""
+                "option-heading": "Option #{number}"
             },
             "submission": {
                 "form-closed": "Dieses Formular ist geschlossen.",
@@ -331,19 +331,19 @@
                 "unlock": "",
                 "lock": "",
                 "restore": "Wiederherstellen",
-                "hide": "",
-                "delete": "",
+                "hide": "Löschen",
+                "delete": "Dauerhaft löschen",
                 "delete-confirmation": "Die Einreichung vom {date} wird dauerhaft gelöscht"
             },
             "submission-index": {
-                "form-edit": "",
+                "form-edit": "Formular bearbeiten",
                 "form-show": "Neue Einreichung",
                 "show": "Anzeigen",
                 "guest": "Gast",
-                "load-more": "",
+                "load-more": "Mehr laden",
                 "empty": "Noch keine Einreichungen",
                 "search": "Einreichungen suchen...",
-                "export": "",
+                "export": "Exportieren",
                 "columns": {
                     "date": "Datum",
                     "user": "Benutzer",
@@ -351,14 +351,14 @@
                 }
             },
             "badge": {
-                "locked": "",
-                "hidden": ""
+                "locked": "Gesperrt",
+                "hidden": "Verbergen"
             },
             "error-page": {
                 "denied-title": "Keine Genehmigung",
-                "denied-description": "",
+                "denied-description": "Es sieht so aus, als hättest du keinen Zugriff auf diesen Inhalt. Versuche dich anzumelden.",
                 "notfound-title": "Nicht gefunden",
-                "notfound-description": ""
+                "notfound-description": "Dieser Inhalt existiert entweder nicht oder du hast möglicherweise keinen Zugriff darauf."
             },
             "submission-sort": {
                 "latest": "Neueste Einreichungen",
@@ -430,7 +430,7 @@
             "duplicate-field-key": "",
             "cannot-change-form-type": "Du kannst den Formulartyp nicht mehr ändern, wenn bereits Einreichungen vorhanden sind",
             "unknown-form": "",
-            "unauthorized-form": "",
+            "unauthorized-form": "Du verfügst nicht über die erforderlichen Berechtigungen, um das Formular mit der ID {id} auszufüllen",
             "unauthorized-scoped-form": "",
             "unsupported-discussion-form": "",
             "file-already-belongs-form": "",
