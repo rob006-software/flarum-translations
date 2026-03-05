@@ -2,14 +2,14 @@
     "datlechin-link-preview": {
         "admin": {
             "sections": {
-                "general_label": "",
-                "general_description": "",
-                "performance_label": "",
-                "performance_description": "",
-                "url_filtering_label": "",
-                "url_filtering_description": "",
-                "external_api_label": "",
-                "external_api_description": ""
+                "general_label": "Allgemein",
+                "general_description": "Grundlegende Anzeigeeinstellungen für Link-Vorschauen.",
+                "performance_label": "Leistung",
+                "performance_description": "Optimiere, wie Link-Vorschauen abgerufen und zwischengespeichert werden.",
+                "url_filtering_label": "URL-Filterung",
+                "url_filtering_description": "Steuere, welche URLs Link-Vorschauen generieren.",
+                "external_api_label": "Externer API-Fallback",
+                "external_api_description": "Verwende einen externen Dienst, wenn das direkte Abrufen fehlschlägt (z. B. bei durch Bots geschützten Websites)."
             },
             "settings": {
                 "enable_batch_requests_label": "Stapelverarbeitung einschalten",
@@ -28,10 +28,10 @@
                 "cache_time_help": "Legt fest, wie lange Link-Vorschauen gespeichert werden, bevor sie aktualisiert werden. Auf 0 setzen, um das Caching zu deaktivieren. Standard: 60 Minuten.",
                 "open_links_in_new_tab_label": "Links in einem neuen Browser-Tab öffnen",
                 "open_links_in_new_tab_help": "Alle Vorschau-Links standardmäßig in einem neuen Tab öffnen.",
-                "external_api_fallback_label": "",
-                "external_api_fallback_help": "",
-                "external_api_url_label": "",
-                "external_api_url_help": ""
+                "external_api_fallback_label": "Externer API-Fallback",
+                "external_api_fallback_help": "Wenn der direkte Abruf fehlschlägt (z. B. bei botgeschützten Websites wie Reuters), verwende eine externe oEmbed-API, um die Metadaten des Links abzurufen.",
+                "external_api_url_label": "Externe API-URL",
+                "external_api_url_help": "Benutzerdefinierter oEmbed-API-Endpunkt. Leer lassen, um die Standardeinstellung zu verwenden (Iframely Open API). Die URL wird als Abfrageparameter angehängt."
             }
         },
         "forum": {
