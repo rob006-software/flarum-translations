@@ -3,18 +3,18 @@
         "admin": {
             "settings": {
                 "title": "FriendsOfFlarum Open Collective",
-                "use_legacy_api_key_label": "",
-                "use_legacy_api_key_help": "",
-                "api_key_label": "API-Schlüssel",
-                "api_key_help": "",
-                "personal_token_label": "",
-                "personal_token_help": "",
+                "use_legacy_api_key_label": "API-Schlüssel für Legacy-Anwendung verwenden",
+                "use_legacy_api_key_help": "Wenn du einen alten API-Schlüssel hast, kannst du diesen weiterhin verwenden, es wird jedoch empfohlen, auf einen persönlichen Token umzusteigen. Derzeit scheinen persönliche Token im API-Schlüssel-Modus (d. h. „API-Key”-Header) zu funktionieren, dies ist jedoch nicht dokumentiert.\n",
+                "api_key_label": "Anwendungs-API-Schlüssel (veraltet)",
+                "api_key_help": "Diese Authentifizierungsmethode ist veraltet. Bitte erwäge den Wechsel zu einem persönlichen Token.",
+                "personal_token_label": "Persönlicher Token",
+                "personal_token_help": "Erstelle einen persönlichen Token unter <a>https://opencollective.com/applications</a>. Dieser Token wird verwendet, um deine Unterstützerinformationen von Open Collective abzurufen.",
                 "slug_label": "Kollektiver Slug",
-                "slug_help": "",
-                "group_label": "Zuzuweisende Gruppe",
-                "group_help": "",
-                "onetime_group_label": "",
-                "onetime_group_help": ""
+                "slug_help": "Gib deinen Open Collective-Kollektiv-Slug ein (den Teil nach opencollective.com/ in deiner Kollektiv-URL).",
+                "group_label": "Wiederkehrende Unterstützergruppe",
+                "group_help": "Wähle aus, zu welcher Flarum-Benutzergruppe wiederkehrende Unterstützer hinzugefügt werden sollen. Benutzer werden automatisch hinzugefügt, wenn sie wiederkehrende Unterstützer werden, und nach Ablauf ihres Abonnements in die Gruppe für einmalige Unterstützer verschoben (sofern konfiguriert).",
+                "onetime_group_label": "Einmalige Unterstützergruppe (optional)",
+                "onetime_group_help": "Wähle aus, zu welcher Flarum-Benutzergruppe einmalige Unterstützer hinzugefügt werden sollen. Wenn diese Option nicht festgelegt ist, werden einmalige Unterstützer nicht verwaltet. Wenn ein wiederkehrender Unterstützer sein Abonnement kündigt, wird er in diese Gruppe verschoben."
             }
         }
     }

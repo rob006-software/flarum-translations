@@ -30,13 +30,13 @@
                 "use_alt_ui": "Alternatywny układ",
                 "use_alt_ui_help": "Wyświetl opcje do ustawiania najlepszej odpowiedzi w stopce posta",
                 "documentation": "Dokumentacja",
-                "enabled_tags_label": "",
-                "enabled_tags_help": "",
-                "remind_tags_label": "",
-                "remind_tags_help": "",
-                "tags_info": "",
-                "discussion_sidebar_jump_button": "",
-                "discussion_sidebar_jump_button_help": ""
+                "enabled_tags_label": "Włączone tagi",
+                "enabled_tags_help": "Wybierz tagi, dla których chcesz włączyć najlepsze odpowiedzi. Tagi te zmienią format na \"Pytania i Odpowiedzi\" (Q&A) i będą miały możliwość oznaczania najlepszych odpowiedzi.",
+                "remind_tags_label": "Tagi z przypomnieniami",
+                "remind_tags_help": "Wybierz tagi, dla których mają być wysyłane przypomnienia. Przypomnienia będą wysyłane tylko dla dyskusji zawierających te tagi.",
+                "tags_info": "Gdy tag ma włączoną obsługę najlepszych odpowiedzi, przypisz uprawnienia dla każdej grupy użytkowników, która może je wybierać (we własnej dyskusji, w dowolnej dyskusji). Uprawnienia mogą być przypisywane globalnie (dla każdego tagu obsługującego najlepsze odpowiedzi) lub niezależnie dla poszczególnych tagów.\n",
+                "discussion_sidebar_jump_button": "Przycisk przejścia do najlepszej odpowiedzi na pasku bocznym",
+                "discussion_sidebar_jump_button_help": "Dodaje na pasku bocznym dyskusji przycisk, który pozwala szybko przewinąć stronę bezpośrednio do najlepszej odpowiedzi."
             },
             "edit_tag": {
                 "qna_label": "Włącz możliwość ustawiania najlepszej odpowiedzi w tym tagu",
@@ -81,7 +81,7 @@
                 "best-answer-count": "{count, plural, one {{count} najlepsza odpowiedź} few {{count} najlepsze odpowiedzi} other {{count} najlepszych odpowiedzi}}"
             },
             "discussion": {
-                "jump_to_best_answer_button": ""
+                "jump_to_best_answer_button": "Przejdź do najlepszej odpowiedzi"
             }
         },
         "email": {

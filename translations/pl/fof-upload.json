@@ -37,7 +37,7 @@
                 "watermark": "Wybierz, czy obrazki będą miały dodany znak wodny podczas przesyłania. Znaki wodne są dodawane do nie-gifów bazując na Twoich preferencjach poniżej.\n",
                 "s3_compatible_storage": "Poniższe ustawienia są wymagane jedynie, gdy korzystasz z usługi kompatybilnej z S3. Jeśli korzystasz z AWS, możesz pozostawić je puste.\n",
                 "s3_acl": "ACL, które powinno być zastosowane do wysłanego obiektu (domyślnie: private). Obsługiwane wartości można znaleźć na https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
-                "custom_s3_url": "",
+                "custom_s3_url": "Użyj tego ustawienia, jeśli korzystasz z usługi zgodnej z S3, która wymaga określonego formatu URL (np. Backblaze B2), lub jeśli występują problemy z domyślnym formatem adresu. W większości usług to ustawienie nie jest potrzebne. Upewnij się, że adres URL zawiera protokół (https://) i jest poprawnie sformatowany. Przykład: https://your-bucket.s3.your-region.backblazeb2.com\n",
                 "s3_instance_profile": "Pozostaw klucz i sekret puste, aby użyć poświadczeń w profilu instancji.\n",
                 "composer_buttons": "Domyślnie przycisk dla managera plików oraz przycisk do wysyłania plików są jednocześnie widoczne. Ale możesz to zmienić i wyświetlać tylko jeden przycisk.\n"
             },
@@ -52,7 +52,7 @@
                     "endpoint": "Endpoint",
                     "use_path_style_endpoint": "Use path style endpoint",
                     "acl": "Access Control List (ACL)",
-                    "custom_url": ""
+                    "custom_url": "Niestandardowy adres URL S3"
                 },
                 "disable-download-logging": {
                     "title": "Wyłącz rejestrowanie pobrań",
@@ -71,7 +71,7 @@
                     "cdn_url": "URL usługi CDN (poprzedza ścieżki plików)",
                     "title": "Ustawienia pamięci lokalnej"
                 },
-                "configured_by_environment": "",
+                "configured_by_environment": "Ustawienia pamięci masowej zostały wstępnie skonfigurowane za pomocą zmiennych środowiskowych.",
                 "qiniu": {
                     "title": "Ustawienia Qiniu",
                     "key": "Key",
@@ -111,10 +111,10 @@
                     "toggle": "Oznaczaj obrazki znakiem wodnym"
                 },
                 "svg-sanitizer": {
-                    "title": "",
-                    "allow_animate": "",
-                    "help": "",
-                    "allow_animate_help": ""
+                    "title": "Sanitizer SVG",
+                    "allow_animate": "Zezwól na animacje SVG",
+                    "help": "Skonfiguruj sposób przetwarzania i oczyszczania plików SVG podczas ich przesyłania. Pliki SVG mogą zawierać potencjalnie niebezpieczne skrypty i powinny być obsługiwane z ostrożnością. Przesłane pliki SVG są oczyszczane przy przesyłaniu, a szkodliwe skrypty i tagi są usuwane.",
+                    "allow_animate_help": "Włączenie animacji SVG może wprowadzić luki bezpieczeństwa, ponieważ animowane pliki SVG mogą zawierać złośliwy kod. Włącz tę opcję na własne ryzyko i tylko wtedy, gdy ufasz swoim użytkownikom."
                 },
                 "composer_buttons": {
                     "title": "Przyciski w kompozytorze",

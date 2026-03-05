@@ -36,8 +36,8 @@
                 "terms-updated-at-help": "Data ostatniej aktualizacji polityki. Ustawienie tej wartości wymusi ponowną akceptację dla wszystkich użytkowników, którzy zaakceptowali politykę przed tą datą. Data musi być z przeszłości (w przeciwnym razie użytkownicy nie będą w stanie zaakceptować polityki).\n",
                 "export-url": "Eksport",
                 "export-url-help": "Każdy użytkownik z uprawnieniem \"Eksportowanie wszystkich danych o politykach\" ma dostęp do tych adresów URL, które pozwalają pobrać listę użytkowników, którzy zaakceptowali daną politykę. Możesz znaleźć więcej informacji o dostępnych opcjach na <a>wiki rozszerzenia</a>.\n",
-                "optional": "",
-                "optional-help": ""
+                "optional": "Opcjonalna polityka",
+                "optional-help": "Po włączeniu użytkownicy mogą korzystać z forum i wchodzić z nim w interakcje bez akceptowania tej polityki."
             },
             "permissions": {
                 "see-user-policies-state": "Przeglądanie statusu akceptacji polityk przez użytkownika",
@@ -66,7 +66,7 @@
             "update-alert": {
                 "must-accept-message": "Tymczasowo ograniczyliśmy możliwości Twojego konta, do czasu aż zaakceptujesz nowe warunki korzystania z forum.",
                 "can-accept-message": "Niedawno zaktualizowaliśmy warunki korzystania z forum. Musisz je zaakceptować, aby kontynuować korzystanie z witryny.",
-                "can-accept-optional-message": "",
+                "can-accept-optional-message": "Niedawno zaktualizowaliśmy warunki. Możesz zapoznać się z nimi w dogodnym czasie.",
                 "review": "Kliknij tutaj, aby zobaczyć i zaakceptować nowe warunki korzystania z forum",
                 "close": "Zamknij"
             },
@@ -82,8 +82,8 @@
         "lib": {
             "data": {
                 "userpolicydata": {
-                    "export_description": "",
-                    "delete_description": ""
+                    "export_description": "Szczegóły dotyczące akceptacji warunków przez użytkownika",
+                    "delete_description": "Usuwa informację o akceptacji warunków przez użytkownika"
                 }
             }
         }
