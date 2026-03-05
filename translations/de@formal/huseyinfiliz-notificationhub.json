@@ -2,57 +2,57 @@
     "huseyinfiliz-notificationhub": {
         "admin": {
             "title": {
-                "page_title": ""
+                "page_title": "Benachrichtigungsarten"
             },
             "permissions": {
-                "send_all": "",
-                "send_user": ""
+                "send_all": "Benachrichtigungen an alle Benutzer senden",
+                "send_user": "Benachrichtigungen an einzelne Benutzer senden"
             },
             "settings": {
-                "add_button": "",
-                "no_data": "",
-                "delete_confirm": "",
+                "add_button": "Benachrichtigungsart hinzufügen",
+                "no_data": "Noch keine Benachrichtigungsarten.",
+                "delete_confirm": "Möchtest du diese Benachrichtigungsart und alle zugehörigen Benachrichtigungen wirklich löschen?",
                 "fields": {
-                    "actions": "",
-                    "name": "",
-                    "excerpt_key": "",
-                    "description": "",
+                    "actions": "Aktionen",
+                    "name": "Name der Benachrichtigungsart",
+                    "excerpt_key": "Standardauszug",
+                    "description": "Beschreibung der Benachrichtigungsart",
                     "icon": "Standardsymbol",
                     "default_message_key": "Standardnachricht",
-                    "permission": "",
-                    "color": "",
+                    "permission": "Berechtigung der Benachrichtigungsart",
+                    "color": "Farbe der Benachrichtigungsart",
                     "default_url": "Standardlink",
                     "default_recipients": "Standardempfänger",
-                    "sort_order": "",
-                    "active": ""
+                    "sort_order": "Sortierreihenfolge",
+                    "active": "Aktiv"
                 },
                 "save": "Speichern",
-                "edit_notification_type": "",
-                "add_notification_type": ""
+                "edit_notification_type": "Benachrichtigungsart bearbeiten",
+                "add_notification_type": "Benachrichtigungsart hinzufügen"
             }
         },
         "forum": {
             "links": {
-                "notification_individual": "",
-                "notification_all": ""
+                "notification_individual": "Benachrichtigung senden",
+                "notification_all": "Benachrichtigung senden"
             },
             "modal_notification": {
-                "title_text": "",
+                "title_text": "Benachrichtigung senden",
                 "recipients_label": "Empfänger",
                 "recipients_placeholder": "",
-                "message_label": "",
-                "url_label": "",
-                "url_placeholder": "",
-                "submit_button": "",
+                "message_label": "Nachricht",
+                "url_label": "Ziellink",
+                "url_placeholder": "https://www.beispiel.de",
+                "submit_button": "Benachrichtigung senden",
                 "notification_sent_message": "",
-                "notification_type_label": "",
-                "no_notification_types": "",
-                "preview_title": "",
-                "preview_message_placeholder": ""
+                "notification_type_label": "Benachrichtigungsart",
+                "no_notification_types": "Keine aktiven Benachrichtigungsarten gefunden.",
+                "preview_title": "Benachrichtigungsvorschau",
+                "preview_message_placeholder": "Benachrichtigungsnachricht..."
             },
             "recipient_kinds": {
-                "user": "",
-                "group": ""
+                "user": "Benutzer",
+                "group": "Gruppe"
             }
         },
         "api": {
