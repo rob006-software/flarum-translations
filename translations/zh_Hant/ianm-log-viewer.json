@@ -2,11 +2,11 @@
     "ianm-log-viewer": {
         "admin": {
             "permissions": {
-                "access_logfile_api": "透過 API 訪問日誌檔案數據"
+                "access_logfile_api": "檢視與管理日誌檔案"
             },
             "settings": {
-                "max-file-size": "",
-                "max-file-size-help": "",
+                "max-file-size": "最大日誌檔案大小（MB）",
+                "max-file-size-help": "如果日誌檔案超過這個大小，就會被拆分成多個部分。設為 0 以停用分割。預設是 1MB。最大允許大小為 150MB。",
                 "purge-days": "幾天後清除日誌檔案",
                 "purge-days-help": "依賴於Flarum 程式排程處於活動狀態。 0 表示停用。"
             },
