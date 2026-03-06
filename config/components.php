@@ -739,6 +739,9 @@ return [
 	],
 	'gm-fire-nicknames' => [
 		'tag' => 'https://raw.githubusercontent.com/gm-fire/nicknames/v1.8.1/locale/en.yml',
+		'__builtInLanguages' => [
+			'zh_Hans',
+		],
 	],
 	'gtdxyz-login' => [
 		'tag' => 'https://raw.githubusercontent.com/daocatt/flarum-ext-login/1.0.2/locale/en.yml',
