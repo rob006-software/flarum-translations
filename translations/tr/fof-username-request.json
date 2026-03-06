@@ -72,7 +72,7 @@
             },
             "pending_requests": {
                 "empty_text": "İsim değişikliği talebi bulunamadı.",
-                "group_label": "",
+                "group_label": "İstekler",
                 "nickname_item_text": "{name} bir takma ad değişikliği istedi",
                 "nickname_exerpt": "İstenen takma ad: {requestedName}",
                 "tooltip": "=> fof-username-request.ref.name_change_requests",
@@ -99,7 +99,7 @@
         "email": {
             "body": {
                 "noReasonProvided": "Herhangi bir neden belirtilmedi.",
-                "approved": "",
+                "approved": "Kullanıcı adınızı \"{new_username}\" olarak değiştirme isteğiniz {actor_display_name} tarafından onaylandı.\n\nArtık yeni kullanıcı adınızla giriş yapabilirsiniz: {login_url}\n",
                 "rejected": ""
             },
             "subject": {
