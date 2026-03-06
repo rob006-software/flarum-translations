@@ -854,6 +854,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`fof-horizon`](https://weblate.rob006.net/projects/flarum2/fof-horizon) | [`fof/horizon`](https://github.com/FriendsOfFlarum/horizon) |
 | [`fof-ignore-users`](https://weblate.rob006.net/projects/flarum2/fof-ignore-users) | [`fof/ignore-users`](https://github.com/FriendsOfFlarum/ignore-users) |
 | [`fof-impersonate`](https://weblate.rob006.net/projects/flarum2/fof-impersonate) | [`fof/impersonate`](https://github.com/FriendsOfFlarum/impersonate) |
+| [`fof-linguist`](https://weblate.rob006.net/projects/flarum2/fof-linguist) | [`fof/linguist`](https://github.com/FriendsOfFlarum/linguist) |
 | [`fof-links`](https://weblate.rob006.net/projects/flarum2/fof-links) | [`fof/links`](https://github.com/FriendsOfFlarum/links) |
 | [`fof-merge-discussions`](https://weblate.rob006.net/projects/flarum2/fof-merge-discussions) | [`fof/merge-discussions`](https://github.com/FriendsOfFlarum/merge-discussions) |
 | [`fof-moderator-notes`](https://weblate.rob006.net/projects/flarum2/fof-moderator-notes) | [`fof/moderator-notes`](https://github.com/FriendsOfFlarum/moderator-notes) |
