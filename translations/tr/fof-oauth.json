@@ -109,7 +109,7 @@
             "error": {
                 "bad_verification_code": "Geçersiz veya süresi dolmuş doğrulama jetonu. Lütfen tekrar deneyin.",
                 "invalid_state": "Geçersiz durum. Lütfen tekrar deneyin.",
-                "already_linked": ""
+                "already_linked": "Bu hesap zaten başka bir kullanıcıya bağlı."
             }
         },
         "lib": {
@@ -124,8 +124,8 @@
             },
             "gambits": {
                 "sso": {
-                    "key": "",
-                    "hint": ""
+                    "key": "sso",
+                    "hint": "bir giriş sağlayıcı"
                 }
             }
         },
