@@ -19,14 +19,14 @@
                     "extension_settings_button": "Paramètres du RGPD"
                 },
                 "user_table_data": {
-                    "not_yet_implemented": "",
+                    "not_yet_implemented": "Pas encore mis en œuvre",
                     "title": "Données de la table des utilisateurs",
                     "help_text": "Dans la plupart des cas, toutes les colonnes ajoutées à la table <code>user</code> seront traitées automatiquement, tant pour l'exportation des données que pour l'effacement.\nIl existe cependant quelques cas particuliers qui sont énumérés ci-dessous.\n"
                 }
             },
             "nav": {
                 "gdpr_button": "Intégrations RGPD",
-                "gdpr_title": ""
+                "gdpr_title": "=> flarum-gdpr.admin.gdpr_page.description"
             },
             "permissions": {
                 "process_erasure": "Traiter les demandes d'effacement",
@@ -55,8 +55,8 @@
                 "columns": {
                     "user_actions": {
                         "data_export": {
-                            "button": "",
-                            "tooltip": ""
+                            "button": "Exporter",
+                            "tooltip": "Exporter les données de {username}"
                         }
                     }
                 }
@@ -99,25 +99,25 @@
         "email": {
             "confirm_erasure": {
                 "subject": "Confirmer la demande d'effacement de votre compte",
-                "body": ""
+                "body": "Quelqu'un (en espérant que cela soit vous) vient de demander la suppression du compte « {display_name} ».\n\nPour confirmer cette action, veuillez suivre le lien ci-dessous. Votre demande sera ensuite traitée par notre équipe.\n\n{erasure_confirm_url}\n"
             },
             "erasure_completed": {
                 "deletion": {
                     "subject": "Suppression du compte terminée",
-                    "body": ""
+                    "body": "Ceci est une notification automatique et définitive vous informant que votre compte a été supprimé.\n"
                 },
                 "anonymization": {
                     "subject": "L'anonymisation du compte est terminée",
-                    "body": ""
+                    "body": "Ceci est une notification automatique et définitive vous informant que votre compte a été anonymisé.\n"
                 }
             },
             "erasure_cancelled": {
                 "subject": "Demande d'effacement de compte annulée",
-                "body": ""
+                "body": "Ceci est une notification automatique vous informant que votre demande d'annulation de la suppression de votre compte a été traitée.\n\nVotre compte ne sera plus supprimé.\n"
             },
             "export_available": {
                 "subject": "Exportation de données disponible",
-                "body": ""
+                "body": "Vous avez demandé l'exportation des données du compte de {username}. Cette exportation a été générée avec succès et est désormais disponible :\n\n{url}\n\nCette exportation restera disponible jusqu'au {destroys_at}.\n"
             }
         },
         "forum": {
