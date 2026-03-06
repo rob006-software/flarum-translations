@@ -7,7 +7,7 @@
                     "bisect": {
                         "begin_button_text": "Commencer la bissection",
                         "continue_button_text": "Continuer la bissection",
-                        "label": "",
+                        "label": "Bissection d'extension",
                         "help": "Permet d'identifier l'extension à l'origine du problème que vous avez constaté. Le forum passe alors automatiquement en mode maintenance (réduite) jusqu'à la fin du processus."
                     },
                     "bisect_modal": {
@@ -21,7 +21,7 @@
                         "stop_button": "Arrêter la bissection",
                         "steps_left": "Étapes restantes : {steps}",
                         "total_steps": "Cela prendra environ {steps} étapes.",
-                        "title": "",
+                        "title": "Bissection d'extension",
                         "yes_button": "Oui"
                     },
                     "config_override": {
@@ -45,7 +45,7 @@
                     "source_help": "Sélectionnez comment charger les icônes FontAwesome. Local utilise des polices groupées, CDN charge depuis un CDN et Kit utilise les kits FontAwesome avec des icônes personnalisées.",
                     "source_local": "Local (Groupé)",
                     "source_cdn": "CDN",
-                    "source_kit": "FontAwesome Kit",
+                    "source_kit": "Kit FontAwesome",
                     "cdn_url_label": "CDN URL",
                     "cdn_url_help": "Lien complet vers le fichier CSS FontAwesome sur un CDN",
                     "kit_url_label": "Kit URL",
@@ -257,7 +257,7 @@
                 "abandoned_with_replacement": "Cette extension a été remplacée par {replacement}. Envisagez de migrer vers le paquet de remplacement.",
                 "configure_scopes": "Configurer Scopes",
                 "confirm_purge": "La purge supprime toutes les entrées de la base de données et les ressources liées à l'extension. Elle ne désinstallera pas l'extension ; cela doit être effectué depuis Composer. Êtes-vous sûr de vouloir continuer ?",
-                "database_driver_mismatch": "",
+                "database_driver_mismatch": "Cette extension ne prend pas en charge le pilote de base de données que vous avez configuré.",
                 "deprecated": "Obsolète",
                 "disabled": "Désactivée",
                 "enable_to_see": "Activez l'extension pour afficher et modifier ses paramètres.",
@@ -281,12 +281,12 @@
                     "title": "Documentation de {extName}"
                 },
                 "replaced": "Remplacé",
-                "safe_mode_warning": ""
+                "safe_mode_warning": "Le mode sans échec est actuellement activé. Les extensions ne sont pas démarrées et leurs paramètres sont donc inaccessibles."
             },
             "header": {
                 "get_help": "Obtenir de l'aide",
                 "log_out_button": "=> core.ref.log_out",
-                "search_placeholder": "Rechercher...",
+                "search_placeholder": "Rechercher…",
                 "search_role_label": "Rechercher"
             },
             "loading": {
@@ -348,7 +348,7 @@
                 "post_without_throttle_label": "Répondre plusieurs fois sans attendre",
                 "read_heading": "Lire",
                 "remove_scope_label": "Supprimer la portée de {scope}",
-                "remove_scope_confirmation": "",
+                "remove_scope_confirmation": "Êtes-vous sûr de vouloir supprimer la plage {scope} ?",
                 "rename_discussions_label": "Renommer les discussions",
                 "reply_to_discussions_label": "Répondre aux discussions",
                 "search_users_label": "=> core.ref.search_users",
@@ -590,7 +590,7 @@
                 "relevance_button": "=> core.ref.relevance"
             },
             "posts": {
-                "meta_title_text": "",
+                "meta_title_text": "Résultats de la recherche",
                 "refresh_tooltip": "=> core.ref.refresh"
             },
             "rename_discussion": {
@@ -725,10 +725,10 @@
             },
             "error": {
                 "circular_dependencies_message": "Dépendances circulaires détectées : {extensions}. Abandon de l'opération. Veuillez désactiver l'une des extensions puis réessayer.",
-                "db_error_message": "",
+                "db_error_message": "Échec de la requête de base de données. Cela peut être dû à une incompatibilité entre une extension et votre pilote de base de données.",
                 "dependent_extensions_message": "Impossible de désactiver {extension} tant que les extensions dépendantes suivantes ne sont pas désactivées : {extensions}",
                 "extension_initialiation_failed_message": "{extension} n'a pas réussi à s'initialiser, veuillez vérifier la console du navigateur pour plus d'informations.",
-                "extension_runtime_failed_message": "",
+                "extension_runtime_failed_message": "{extension} a rencontré une erreur lors de son exécution. Consultez la console du navigateur pour plus d'informations.",
                 "generic_message": "Oups ! Une erreur est survenue. Veuillez actualiser la page puis réessayer.",
                 "generic_cross_origin_message": "Oups ! Un problème s'est produit lors d'une demande d'origine croisée. Veuillez recharger la page puis réessayer.",
                 "missing_dependencies_message": "Impossible d'activer {extension} tant que les dépendances suivantes ne sont pas activées : {extensions}",
@@ -740,7 +740,7 @@
             },
             "gambits": {
                 "group_keys": {
-                    "allows": "",
+                    "allows": "autorise",
                     "has": "a",
                     "is": "est"
                 },
@@ -773,7 +773,7 @@
                     },
                     "group": {
                         "key": "Groupe",
-                        "hint": ""
+                        "hint": "les noms de groupes au singulier ou au pluriel"
                     }
                 }
             },
@@ -797,8 +797,8 @@
                 "drawer_button": "Ouvrir le tiroir de navigation"
             },
             "notices": {
-                "bisecting": "",
-                "bisecting_continue": "",
+                "bisecting": "Exécution d'un processus de bissection des extensions afin de déterminer quelle extension est à l'origine du problème.",
+                "bisecting_continue": "Continuer à bissecter",
                 "maintenance_mode_low": "Indisponible pour maintenance. Seuls les administrateurs peuvent accéder au forum.",
                 "maintenance_mode_safe": "Indisponible pour maintenance en mode sans échec. Seuls les administrateurs peuvent accéder au forum et aucune extension n'est lancée."
             },
