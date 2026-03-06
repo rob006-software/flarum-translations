@@ -5,20 +5,20 @@
                 "description": "Configurez les paramètres avancés de votre forum.",
                 "maintenance": {
                     "bisect": {
-                        "begin_button_text": "",
-                        "continue_button_text": "",
+                        "begin_button_text": "Commencer la bissection",
+                        "continue_button_text": "Continuer la bissection",
                         "label": "",
                         "help": "Permet d'identifier l'extension à l'origine du problème que vous avez constaté. Le forum passe alors automatiquement en mode maintenance (faible) jusqu'à la fin du processus."
                     },
                     "bisect_modal": {
                         "description": "Cela met le forum en mode maintenance (faible) jusqu'à ce que le processus soit terminé. À chaque étape, certaines extensions seront désactivées jusqu'à ce que nous trouvions celle qui cause le problème. Ne soyez donc pas surpris de voir des fonctionnalités manquantes ou un thème différent. Gardez cette page ouverte et essayez de reproduire le problème après chaque étape dans une page séparée. Vous pouvez toujours revenir à cette page si vous la fermez par erreur.\n",
                         "end_button": "Fermer et aller à la page d'extension",
-                        "issue_question": "",
+                        "issue_question": "Le problème persiste-t-il ?",
                         "issue_question_help": "Essayez de reproduire le problème dans une page séparée et répondez en fonction du résultat.",
                         "no_button": "Non",
                         "result_description": "Le forum n'est plus en mode maintenance. La recherche d'extension est terminée. D'après vos réponses à chaque étape, la cause du problème est l'extension suivante :\n",
-                        "start_button": "",
-                        "stop_button": "",
+                        "start_button": "Commencer la bissection",
+                        "stop_button": "Arrêter la bissection",
                         "steps_left": "Étapes restantes : {steps}",
                         "total_steps": "Cela prendra environ {steps} étapes.",
                         "title": "",
@@ -51,37 +51,37 @@
                     "kit_url_label": "",
                     "kit_url_help": "",
                     "config_override": {
-                        "label": "",
+                        "label": "Remplacement de configuration",
                         "help": ""
                     }
                 },
                 "pgsql": {
-                    "search_configuration": ""
+                    "search_configuration": "Rechercher la configuration à utiliser"
                 },
                 "queue": {
                     "section_label": "",
                     "sync_info": "",
                     "sync_help": "",
                     "custom_driver": "",
-                    "retries_label": "",
+                    "retries_label": "Réessais de tâches",
                     "retries_help": "",
                     "memory_label": "",
                     "memory_help": "",
                     "timeout_label": "",
-                    "timeout_help": "",
-                    "rest_label": "",
-                    "rest_help": "",
-                    "backoff_label": "",
-                    "backoff_help": ""
+                    "timeout_help": "Durée maximale pendant laquelle une tâche unique peut s'exécuter avant d'expirer. La valeur par défaut est 60 secondes.",
+                    "rest_label": "Temps de repos (en secondes)",
+                    "rest_help": "Temps d'attente entre les tâches de traitement. La valeur par défaut est 0 seconde.",
+                    "backoff_label": "Délai (en secondes)",
+                    "backoff_help": "Délai d'attente avant de réessayer une tâche qui a échoué. La valeur par défaut est 0 seconde."
                 },
                 "search": {
-                    "section_label": "",
-                    "driver_heading": "",
-                    "driver_text": "",
+                    "section_label": "Rechercher des pilotes",
+                    "driver_heading": "Rechercher un pilote : {model}",
+                    "driver_text": "Sélectionnez un pilote à utiliser pour rechercher ce modèle.",
                     "driver_options": {
-                        "default": ""
+                        "default": "Recherche dans la base de données par défaut"
                     },
-                    "no_other_drivers": ""
+                    "no_other_drivers": "Aucun pilote de recherche n'est encore disponible. Installez une extension de pilote de recherche pour pouvoir le configurer."
                 },
                 "title": ""
             },
