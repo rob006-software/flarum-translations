@@ -135,12 +135,12 @@
                 "show_language_selector_label": "Afficher le sélecteur de langue",
                 "slug_driver_options": {
                     "discussions": {
-                        "default": "",
-                        "utf8": ""
+                        "default": "Identifiant avec nom générique",
+                        "utf8": "Identifiant avec nom générique UTF-8"
                     },
                     "users": {
-                        "default": "",
-                        "id": ""
+                        "default": "Nom d'utilisateur",
+                        "id": "Identifiant"
                     }
                 },
                 "slug_driver_heading": "Pilote de l'identifiant texte unique : {model}",
@@ -162,12 +162,12 @@
             "dashboard": {
                 "clear_cache_button": "Effacer le cache",
                 "description": "Votre forum en un coup d'œil.",
-                "info_button": "",
+                "info_button": "Informations système",
                 "info_modal": {
-                    "title": "",
-                    "copy_button": "",
-                    "copy_success": "",
-                    "copy_error": ""
+                    "title": "Informations système",
+                    "copy_button": "Copier dans le presse-papiers",
+                    "copy_success": "Informations système copiées dans le presse-papiers",
+                    "copy_error": "Échec de la copie dans le presse-papiers"
                 },
                 "io_error_message": "Impossible d'écrire dans le système de fichiers. Veuillez vérifier les permissions de votre système de fichiers puis réessayer. Vous pouvez également essayer d'écrire dans le système de fichiers par ligne de commande à partir de la console.",
                 "status": {
@@ -183,7 +183,7 @@
                     }
                 },
                 "title": "Tableau de bord",
-                "toggle_advanced_page_button": "",
+                "toggle_advanced_page_button": "Basculer vers la page avancée",
                 "tools_button": "Outils"
             },
             "debug-warning": {
@@ -224,17 +224,17 @@
                 "driver_heading": "Sélectionner un pilote",
                 "driver_label": "Pilote",
                 "format": {
-                    "multipart_option": "",
-                    "plain_option": "",
-                    "html_option": ""
+                    "multipart_option": "Multi-parties (recommandé)",
+                    "plain_option": "Texte brut",
+                    "html_option": "HTML"
                 },
-                "format_heading": "",
-                "format_help": "",
+                "format_heading": "Format des courriels sortants",
+                "format_help": "Choisissez le format dans lequel les courriels sortants seront envoyés. L'option recommandée est <code>multi-parties</code>, car elle permettra au client de messagerie de votre utilisateur d'afficher le format le plus approprié.",
                 "from_label": "Expéditeur",
                 "mail_encryption_label": "Chiffrement",
-                "mail_encryption_tls_help": "",
-                "mail_encryption_ssl_help": "",
-                "mail_encryption_none_help": "",
+                "mail_encryption_tls_help": "La connexion démarre sans chiffrement et passe ensuite au protocole TLS (STARTTLS). Généralement utilisé avec le port 587 ou 25.",
+                "mail_encryption_ssl_help": "La connexion est chiffrée dès le départ (TLS implicite). Généralement utilisé avec le port 465.",
+                "mail_encryption_none_help": "Pas de chiffrement. Non recommandé pour une utilisation en production.",
                 "mail_host_label": "Hôte",
                 "mail_mailgun_domain_label": "Domaine",
                 "mail_mailgun_region_label": "Région",
@@ -249,7 +249,7 @@
                 "send_test_mail_success": "Le courriel de test a été envoyé !",
                 "send_test_mail_text": "Cela enverra un courriel utilisant la configuration spécifiée ci-dessus à votre adresse de courriel {email}.",
                 "smtp_heading": "Paramètres SMTP",
-                "smtp_description": "",
+                "smtp_description": "Configurez les paramètres de connexion SMTP. Configurations courantes : port 587 avec TLS ou port 465 avec SSL.",
                 "title": "=> core.ref.email"
             },
             "extension": {
