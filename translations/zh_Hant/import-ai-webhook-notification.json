@@ -2,13 +2,13 @@
     "import-ai-webhook-notification": {
         "forum": {
             "settings": {
-                "notify_webhook_label": ""
+                "notify_webhook_label": "Webhook 網址"
             }
         },
         "admin": {
             "settings": {
-                "webhook_url_label": "",
-                "webhook_url_help": "",
+                "webhook_url_label": "Webhook 網址",
+                "webhook_url_help": "發送通知 webhook 的網址。空的則是停用。",
                 "webhook_token_label": "",
                 "webhook_token_help": "",
                 "timeout_label": "",
