@@ -23,14 +23,14 @@
                     "help_text": "Dans la plupart des cas, toutes les colonnes ajoutées à la table <code>user</code> seront traitées automatiquement, tant pour l'exportation des données que pour l'effacement.\nIl existe cependant quelques cas particuliers qui sont énumérés ci-dessous.\n",
                     "column": "Colonne",
                     "type": "Type",
-                    "nullable": "",
-                    "pii": "",
-                    "redacted_on_export": "",
-                    "extension": "",
-                    "yes": "",
-                    "no": "",
-                    "pii_tooltip": "",
-                    "redacted_on_export_tooltip": ""
+                    "nullable": "Nullable",
+                    "pii": "IPI",
+                    "redacted_on_export": "Expurgé à l'exportation",
+                    "extension": "Extension",
+                    "yes": "Oui",
+                    "no": "Non",
+                    "pii_tooltip": "Cette colonne est considérée comme une information personnelle identifiable et sera supprimée dans les contextes anonymisés (par exemple les charges utiles anonymisées des événements).",
+                    "redacted_on_export_tooltip": "La valeur de cette colonne est effacée (définie sur null) lors de la génération d'une exportation de données utilisateur. La colonne apparaît toujours dans l'exportation avec une valeur null."
                 }
             },
             "nav": {
@@ -73,7 +73,7 @@
                     "delete_description": "Supprime l'avatar de l'utilisateur du système de fichiers.",
                     "export_description": "Récupère l'avatar de l'utilisateur dans le système de fichiers et l'inclut dans l'exportation."
                 },
-                "default_user_action": "",
+                "default_user_action": "Aucune action, gérée par défaut par le traitement des données du tableau utilisateur.",
                 "discussions": {
                     "export_description": "Exporte toutes les discussions que l'utilisateur a démarrées. Les données sont limitées au titre et à la date de création."
                 },
