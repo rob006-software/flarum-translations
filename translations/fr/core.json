@@ -8,10 +8,10 @@
                         "begin_button_text": "Commencer la bissection",
                         "continue_button_text": "Continuer la bissection",
                         "label": "",
-                        "help": "Permet d'identifier l'extension à l'origine du problème que vous avez constaté. Le forum passe alors automatiquement en mode maintenance (faible) jusqu'à la fin du processus."
+                        "help": "Permet d'identifier l'extension à l'origine du problème que vous avez constaté. Le forum passe alors automatiquement en mode maintenance (réduite) jusqu'à la fin du processus."
                     },
                     "bisect_modal": {
-                        "description": "Cela met le forum en mode maintenance (faible) jusqu'à ce que le processus soit terminé. À chaque étape, certaines extensions seront désactivées jusqu'à ce que nous trouvions celle qui cause le problème. Ne soyez donc pas surpris de voir des fonctionnalités manquantes ou un thème différent. Gardez cette page ouverte et essayez de reproduire le problème après chaque étape dans une page séparée. Vous pouvez toujours revenir à cette page si vous la fermez par erreur.\n",
+                        "description": "Cela met le forum en mode maintenance (réduite) jusqu'à ce que le processus soit terminé. À chaque étape, certaines extensions seront désactivées jusqu'à ce que nous trouvions celle qui cause le problème. Ne soyez donc pas surpris de voir des fonctionnalités manquantes ou un thème différent. Gardez cette page ouverte et essayez de reproduire le problème après chaque étape dans une page séparée. Vous pouvez toujours revenir à cette page si vous la fermez par erreur.\n",
                         "end_button": "Fermer et aller à la page d'extension",
                         "issue_question": "Le problème persiste-t-il ?",
                         "issue_question_help": "Essayez de reproduire le problème dans une page séparée et répondez en fonction du résultat.",
@@ -25,49 +25,49 @@
                         "yes_button": "Oui"
                     },
                     "config_override": {
-                        "label": "",
-                        "help": ""
+                        "label": "Votre fichier <code>config.php</code> remplace ces paramètres.",
+                        "help": "Vous pouvez toujours modifier ces paramètres ici, mais ils ne prendront effet que lorsque vous aurez défini <code>offline</code> sur <code>0</code> dans votre fichier <code>config.php</code>."
                     },
-                    "help": "",
+                    "help": "Mettez votre forum en mode maintenance pour empêcher les utilisateurs d'y accéder.",
                     "options": {
-                        "none": "",
-                        "high": "",
-                        "low": "",
-                        "safe": ""
+                        "none": "Aucune maintenance.",
+                        "high": "Mode maintenance avancée. Personne ne peut accéder au forum (ne peut être activé que via config.php)",
+                        "low": "Mode maintenance réduite. Les administrateurs peuvent accéder au forum.",
+                        "safe": "Mode sans échec. Aucune extension n'est lancée et seuls les administrateurs peuvent accéder au forum."
                     },
-                    "safe_mode_extensions": "",
-                    "safe_mode_extensions_override_help": "",
-                    "section_label": ""
+                    "safe_mode_extensions": "Extensions autorisées à démarrer en mode sans échec",
+                    "safe_mode_extensions_override_help": "Ce paramètre est remplacé par la clé <code>safe_mode_extensions</code> dans votre fichier <code>config.php</code>. (<b>{extensions}</b>)",
+                    "section_label": "Maintenance"
                 },
                 "fontawesome": {
-                    "section_label": "",
-                    "source_label": "",
-                    "source_help": "",
-                    "source_local": "",
-                    "source_cdn": "",
-                    "source_kit": "",
-                    "cdn_url_label": "",
-                    "cdn_url_help": "",
-                    "kit_url_label": "",
-                    "kit_url_help": "",
+                    "section_label": "Icônes FontAwesome",
+                    "source_label": "Source de l'icône",
+                    "source_help": "Sélectionnez comment charger les icônes FontAwesome. Local utilise des polices groupées, CDN charge depuis un CDN et Kit utilise les kits FontAwesome avec des icônes personnalisées.",
+                    "source_local": "Local (Groupé)",
+                    "source_cdn": "CDN",
+                    "source_kit": "FontAwesome Kit",
+                    "cdn_url_label": "CDN URL",
+                    "cdn_url_help": "Lien complet vers le fichier CSS FontAwesome sur un CDN",
+                    "kit_url_label": "Kit URL",
+                    "kit_url_help": "Lien vers le script FontAwesome Kit (à partir de l'adresse kit.fontawesome.com)",
                     "config_override": {
                         "label": "Remplacement de configuration",
-                        "help": ""
+                        "help": "Les paramètres FontAwesome sont actuellement définis dans votre fichier config.php et ne peuvent pas être modifiés ici."
                     }
                 },
                 "pgsql": {
                     "search_configuration": "Rechercher la configuration à utiliser"
                 },
                 "queue": {
-                    "section_label": "",
-                    "sync_info": "",
-                    "sync_help": "",
-                    "custom_driver": "",
+                    "section_label": "File d'attente",
+                    "sync_info": "Votre forum utilise un pilote de file d'attente synchrone. Les tâches sont traitées instantanément dans le thread principal.",
+                    "sync_help": "Pour améliorer les performances et l'expérience utilisateur, envisagez d'utiliser le pilote de file d'attente de base de données. Pour plus d'informations, consultez la documentation.",
+                    "custom_driver": "Votre forum utilise le pilote de file d'attente {driver}, qui est fourni par une extension.",
                     "retries_label": "Réessais de tâches",
-                    "retries_help": "",
-                    "memory_label": "",
-                    "memory_help": "",
-                    "timeout_label": "",
+                    "retries_help": "Nombre maximal de tentatives pour exécuter une tâche avant qu'elle ne soit marquée comme ayant échoué. La valeur par défaut est 1.",
+                    "memory_label": "Limite de mémoire (MB)",
+                    "memory_help": "Quantité maximale de mémoire que le processus de file d'attente peut utiliser avant d'être redémarré. La valeur par défaut est 128 Mo.",
+                    "timeout_label": "Délai d'expiration pour les tâches (secondes)",
                     "timeout_help": "Durée maximale pendant laquelle une tâche unique peut s'exécuter avant d'expirer. La valeur par défaut est 60 secondes.",
                     "rest_label": "Temps de repos (en secondes)",
                     "rest_help": "Temps d'attente entre les tâches de traitement. La valeur par défaut est 0 seconde.",
@@ -83,10 +83,10 @@
                     },
                     "no_other_drivers": "Aucun pilote de recherche n'est encore disponible. Installez une extension de pilote de recherche pour pouvoir le configurer."
                 },
-                "title": ""
+                "title": "Avancé"
             },
             "appearance": {
-                "allow_user_color_scheme_label": "",
+                "allow_user_color_scheme_label": "Permettre aux utilisateurs de choisir leur propre palette de couleurs",
                 "colored_header_label": "Colorisation de l'en-tête",
                 "colors_heading": "Couleurs",
                 "colors_primary_label": "Couleur principale",
@@ -109,7 +109,7 @@
                 "logo_heading": "Logo",
                 "logo_text": "Transférez une image qui sera affichée à la place du titre du forum.",
                 "title": "Apparence",
-                "color_scheme_label": "",
+                "color_scheme_label": "Palette de couleurs par défaut",
                 "color_schemes": {
                     "auto_mode_label": "",
                     "dark_hc_mode_label": "",
@@ -373,12 +373,12 @@
             },
             "search_source": {
                 "general": {
-                    "heading": ""
+                    "heading": "Général"
                 }
             },
             "settings": {
                 "saved_message": "Vos modifications ont été enregistrées.",
-                "select_dropdown_custom_label": "",
+                "select_dropdown_custom_label": "Personnaliser",
                 "submit_button": "=> core.ref.save_changes"
             },
             "upload_image": {
@@ -408,8 +408,8 @@
                         "user_actions": {
                             "title": "Actions",
                             "edit_user": {
-                                "button": "",
-                                "tooltip": ""
+                                "button": "=> core.ref.edit",
+                                "tooltip": "Modifier {username}"
                             }
                         },
                         "user_id": {
@@ -485,7 +485,7 @@
                 "empty_text": "Il semble qu'il n'y ait aucune discussion ici.",
                 "load_more_button": "=> core.ref.load_more",
                 "replied_text": "{username} a répondu à cette discussion {ago}",
-                "skip_discussion_list_pane": "",
+                "skip_discussion_list_pane": "Ignorer le volet de la liste de discussion",
                 "started_text": "{username} a démarré cette discussion {ago}",
                 "total_replies_a11y_label": "{count, plural, one {# réponse} other {# réponses}}",
                 "unread_replies_a11y_label": "{count, plural, one {# réponse non lue} other {# réponses non lues}}. Marquer {count, plural, one {la réponse non lue comme lue} other {les réponses non lues comme lues}}."
@@ -518,31 +518,31 @@
                 "mark_all_as_read_confirmation": "Êtes-vous sûr de vouloir marquer toutes les discussions comme lues ?",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "meta_title_text": "=> core.ref.all_discussions",
-                "refresh_tooltip": "",
+                "refresh_tooltip": "=> core.ref.refresh",
                 "start_discussion_button": "=> core.ref.start_a_discussion",
-                "skip_to_main_content": "",
+                "skip_to_main_content": "Passer directement au contenu principal",
                 "toggle_sidenav_dropdown_accessible_label": "Afficher le menu déroulant de navigation"
             },
             "index_sort": {
                 "latest_button": "Activité",
-                "newest_button": "",
-                "oldest_button": "",
-                "relevance_button": "",
+                "newest_button": "=> core.ref.newest",
+                "oldest_button": "=> core.ref.oldest",
+                "relevance_button": "=> core.ref.relevance",
                 "toggle_dropdown_accessible_label": "Modifier le tri des listes de discussion",
                 "top_button": "Popularité"
             },
             "log_in": {
                 "forgot_password_link": "Mot de passe oublié ?",
-                "invalid_login_message": "",
+                "invalid_login_message": "=> core.ref.invalid_login_message",
                 "password_placeholder": "=> core.ref.password",
-                "remember_me_label": "",
+                "remember_me_label": "=> core.ref.remember_me_label",
                 "sign_up_text": "Vous n'avez pas de compte ? <a>S'inscrire</a>",
                 "submit_button": "=> core.ref.log_in",
                 "title": "=> core.ref.log_in",
-                "username_or_email_placeholder": ""
+                "username_or_email_placeholder": "=> core.ref.username_or_email_placeholder"
             },
             "notifications": {
-                "delete_all_confirm": "",
+                "delete_all_confirm": "Êtes-vous sûr(e) de vouloir supprimer toutes les notifications ? Cette action n'est pas réversible",
                 "delete_all_tooltip": "Supprimer toutes les notifications",
                 "discussion_renamed_text": "{username} a renommé le titre de la discussion",
                 "empty_text": "Aucune notification",
@@ -567,9 +567,9 @@
                 "toggle_dropdown_accessible_label": "Afficher le menu déroulant des contrôles de publication"
             },
             "post_list": {
-                "empty_text": "",
-                "in_discussion_text": "",
-                "load_more_button": ""
+                "empty_text": "Il semble qu'il n'y ait aucun message ici.",
+                "in_discussion_text": "Dans la {discussion}",
+                "load_more_button": "=> core.ref.load_more"
             },
             "post_scrubber": {
                 "now_link": "Maintenant",
@@ -585,13 +585,13 @@
                 "time_lapsed_text": "{period} plus tard"
             },
             "posts_sort": {
-                "newest_button": "",
-                "oldest_button": "",
-                "relevance_button": ""
+                "newest_button": "=> core.ref.newest",
+                "oldest_button": "=> core.ref.oldest",
+                "relevance_button": "=> core.ref.relevance"
             },
             "posts": {
                 "meta_title_text": "",
-                "refresh_tooltip": ""
+                "refresh_tooltip": "=> core.ref.refresh"
             },
             "rename_discussion": {
                 "submit_button": "=> core.ref.rename",
@@ -636,13 +636,13 @@
                 "account_heading": "Compte",
                 "change_email_button": "=> core.ref.change_email",
                 "change_password_button": "=> core.ref.change_password",
-                "color_scheme_heading": "",
+                "color_scheme_heading": "Palette de couleurs",
                 "color_schemes": {
-                    "auto_mode_label": "",
-                    "dark_hc_mode_label": "",
-                    "dark_mode_label": "",
-                    "light_hc_mode_label": "",
-                    "light_mode_label": ""
+                    "auto_mode_label": "Préférences Système",
+                    "dark_hc_mode_label": "=> core.ref.dark_hc_mode_label",
+                    "dark_mode_label": "=> core.ref.dark_mode_label",
+                    "light_hc_mode_label": "=> core.ref.light_hc_mode_label",
+                    "light_mode_label": "=> core.ref.light_mode_label"
                 },
                 "notification_checkbox_a11y_label_template": "Recevoir les notifications « {description} » par le biais de {method}",
                 "notifications_heading": "=> core.ref.notifications",
@@ -741,13 +741,13 @@
             "gambits": {
                 "group_keys": {
                     "allows": "",
-                    "has": "",
-                    "is": ""
+                    "has": "a",
+                    "is": "est"
                 },
                 "discussions": {
                     "author": {
-                        "key": "",
-                        "hint": ""
+                        "key": "auteur",
+                        "hint": "nom d'utilisateur ou liste de noms d'utilisateurs séparés par des virgules"
                     },
                     "created": {
                         "key": "créée",
