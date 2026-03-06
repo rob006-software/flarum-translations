@@ -111,11 +111,11 @@
                 "title": "Apparence",
                 "color_scheme_label": "Palette de couleurs par défaut",
                 "color_schemes": {
-                    "auto_mode_label": "",
-                    "dark_hc_mode_label": "",
-                    "dark_mode_label": "",
-                    "light_hc_mode_label": "",
-                    "light_mode_label": ""
+                    "auto_mode_label": "Système utilisateur ou préférence configurée",
+                    "dark_hc_mode_label": "=> core.ref.dark_hc_mode_label",
+                    "dark_mode_label": "=> core.ref.dark_mode_label",
+                    "light_hc_mode_label": "=> core.ref.light_hc_mode_label",
+                    "light_mode_label": "=> core.ref.light_mode_label"
                 }
             },
             "basics": {
@@ -123,7 +123,7 @@
                 "default_language_heading": "Langue par défaut",
                 "description": "Configurez le titre, la langue et les autres paramètres de base de votre forum.",
                 "display_name_driver_options": {
-                    "username": ""
+                    "username": "Nom d'utilisateur"
                 },
                 "display_name_heading": "Nom d'affichage de l'utilisateur",
                 "display_name_text": "Sélectionnez le pilote qui doit être utilisé pour les noms d'affichage des utilisateurs. Par défaut, le nom d'utilisateur est affiché.",
