@@ -41,19 +41,19 @@
             "suspended": {
                 "subject": "Votre compte a été suspendu",
                 "plain": {
-                    "body": ""
+                    "body": "Vous avez été suspendu pour la raison suivante :\n\n---\n{suspension_message}\n---\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "Vous avez été suspendu de {forumTitle} pour la raison suivante :"
                 }
             },
             "unsuspended": {
                 "subject": "Votre compte n'est plus suspendu",
                 "plain": {
-                    "body": ""
+                    "body": "Votre suspension a été levée. Vous pouvez retourner sur le forum en cliquant sur le lien suivant :\n\n{forum_url}\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "Votre suspension a été levée. Vous pouvez retourner sur [{forumTitle}]({forum_url}) dès que vous êtes prêt."
                 }
             }
         },
@@ -61,7 +61,7 @@
             "gambits": {
                 "users": {
                     "suspended": {
-                        "key": ""
+                        "key": "a suspendu"
                     }
                 }
             }
