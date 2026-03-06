@@ -253,12 +253,12 @@
                 "title": "=> core.ref.email"
             },
             "extension": {
-                "abandoned_no_replacement": "",
-                "abandoned_with_replacement": "",
+                "abandoned_no_replacement": "Cette extension n'est plus maintenue par son auteur et pourrait ne plus recevoir de mises à jour.",
+                "abandoned_with_replacement": "Cette extension a été remplacée par {replacement}. Envisagez de migrer vers le paquet de remplacement.",
                 "configure_scopes": "Configurer Scopes",
                 "confirm_purge": "La purge supprime toutes les entrées de la base de données et les ressources liées à l'extension. Elle ne désinstallera pas l'extension ; cela doit être effectué depuis Composer. Êtes-vous sûr de vouloir continuer ?",
                 "database_driver_mismatch": "",
-                "deprecated": "",
+                "deprecated": "Obsolète",
                 "disabled": "Désactivée",
                 "enable_to_see": "Activez l'extension pour afficher et modifier ses paramètres.",
                 "enabled": "Activée",
@@ -280,26 +280,26 @@
                     "no_readme": "Cette extension ne semble pas avoir de fichier « Lisez-moi »",
                     "title": "Documentation de {extName}"
                 },
-                "replaced": "",
+                "replaced": "Remplacé",
                 "safe_mode_warning": ""
             },
             "header": {
                 "get_help": "Obtenir de l'aide",
                 "log_out_button": "=> core.ref.log_out",
-                "search_placeholder": "",
-                "search_role_label": ""
+                "search_placeholder": "Rechercher...",
+                "search_role_label": "Rechercher"
             },
             "loading": {
                 "title": "Veuillez patienter…"
             },
             "models": {
-                "discussions": "",
-                "posts": "",
-                "users": ""
+                "discussions": "=> core.ref.discussions",
+                "posts": "=> core.ref.posts",
+                "users": "=> core.ref.users"
             },
             "nav": {
-                "advanced_button": "",
-                "advanced_title": "",
+                "advanced_button": "=> core.admin.advanced.title",
+                "advanced_title": "=> core.admin.advanced.description",
                 "appearance_button": "=> core.admin.appearance.title",
                 "appearance_title": "=> core.admin.appearance.description",
                 "basics_button": "=> core.admin.basics.title",
