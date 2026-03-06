@@ -194,6 +194,9 @@ return [
 	'fof-impersonate' => [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/impersonate/2.0.0-beta.2/resources/locale/en.yml',
 	],
+	'fof-linguist' => [
+		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/linguist/2.0.0-beta.1/resources/locale/en.yml',
+	],
 	'fof-links' => [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/links/2.0.0-beta.2/locale/en.yml',
 	],
