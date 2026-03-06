@@ -1049,7 +1049,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/matteocontrini/flarum-imgur-upload/v3.9.1/locale/en.yml',
 	],
 	'mattoid-money-history-auto' => [
-		'tag' => 'https://raw.githubusercontent.com/Mattoids/flarum-ext-money-history-auto/v1.10.2/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/Mattoids/flarum-ext-money-history-auto/v1.10.3/locale/en.yml',
 		'__builtInLanguages' => [
 			'zh_Hans',
 		],
