@@ -11,26 +11,26 @@
                 "import": ""
             },
             "buttons": {
-                "apply": "",
-                "reset": "",
-                "copy-original": "",
-                "load-more": "",
+                "apply": "申込み",
+                "reset": "リセットする",
+                "copy-original": "オリジナルをコピー",
+                "load-more": "さらに読み込む",
                 "delete-redundant": "",
                 "delete-redundant-confirm": "",
                 "delete-all": "",
                 "delete-all-confirm": ""
             },
             "locales": {
-                "all": ""
+                "all": "全部"
             },
             "placeholder": {
-                "not-translated": "",
-                "all-locales": "",
-                "hint": ""
+                "not-translated": "未翻訳",
+                "all-locales": "ここで設定したテキストはすべての言語で表示されます",
+                "hint": "元のコンテンツ："
             },
             "filters": {
-                "search": "",
-                "with-own-translations": "",
+                "search": "検索する...",
+                "with-own-translations": "カスタム翻訳",
                 "missing": "",
                 "missing-middle-label": "",
                 "negation-options": {
@@ -46,15 +46,15 @@
                     "or": "",
                     "and": ""
                 },
-                "for-extension": "",
+                "for-extension": "プラグインを指定する",
                 "frontend": "",
                 "frontend-all-except-admin": "",
                 "mass-edit": "",
-                "results": ""
+                "results": "{shown} のうち{shown}個の一致する翻訳を表示しています"
             },
             "clear-cache": {
-                "text": "",
-                "button": ""
+                "text": "新しい翻訳はまだ適用されていません。 Note: キャッシュをクリアすると、フォーラムが一時的に遅くなる可能性があります。\n",
+                "button": "すぐにキャッシュをクリア"
             },
             "coverage": {
                 "column-options": {

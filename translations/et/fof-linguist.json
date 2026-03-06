@@ -2,118 +2,118 @@
     "fof-linguist": {
         "admin": {
             "permissions": {
-                "view_string_keys": ""
+                "view_string_keys": "Vaata tõlke tekstide võtmeid"
             },
             "tabs": {
-                "strings": "",
-                "coverage": "",
-                "export": "",
-                "import": ""
+                "strings": "Tõlked",
+                "coverage": "Katvus",
+                "export": "Ekspordi",
+                "import": "Impordi"
             },
             "buttons": {
-                "apply": "",
-                "reset": "",
-                "copy-original": "",
-                "load-more": "",
-                "delete-redundant": "",
-                "delete-redundant-confirm": "",
-                "delete-all": "",
-                "delete-all-confirm": ""
+                "apply": "Rakenda",
+                "reset": "Taasta algne",
+                "copy-original": "Kopeeri algne tekst",
+                "load-more": "Laadi rohkem",
+                "delete-redundant": "Kustuta üleliigsed tõlked",
+                "delete-redundant-confirm": "See kustutab {count} tõlget, millel on identne algne tekst ja tõlge. See võib olla kasulik puhastamiseks pärast keelepaki uuendamist.\n",
+                "delete-all": "Kustuta kõik tõlked",
+                "delete-all-confirm": "See kustutab KÕIK sinu {count} kohandatud tõlget. Veendu, et sa oleksid eksportinud või varundanud kõik, mida sa soovid alles hoida.\n"
             },
             "locales": {
-                "all": ""
+                "all": "Kõik"
             },
             "placeholder": {
-                "not-translated": "",
-                "all-locales": "",
-                "hint": ""
+                "not-translated": "Tõlkimata",
+                "all-locales": "Siin määratud teksti näidatakse kõigis keeltes",
+                "hint": "Algne väärtus:"
             },
             "filters": {
-                "search": "",
-                "with-own-translations": "",
-                "missing": "",
+                "search": "Otsi tõlgitavaid tekste...",
+                "with-own-translations": "Minu tõlked",
+                "missing": "Leia puuduvad tõlked",
                 "missing-middle-label": "",
                 "negation-options": {
-                    "with": "",
-                    "without": ""
+                    "with": "Koos",
+                    "without": "Ilma"
                 },
                 "type-options": {
-                    "any": "",
-                    "original": "",
-                    "own": ""
+                    "any": "Algne või kohandatud",
+                    "original": "Algne",
+                    "own": "Kohandatud"
                 },
                 "operation-options": {
-                    "or": "",
-                    "and": ""
+                    "or": "emb-kumb",
+                    "and": "Kõik"
                 },
-                "for-extension": "",
-                "frontend": "",
-                "frontend-all-except-admin": "",
-                "mass-edit": "",
-                "results": ""
+                "for-extension": "Lisaprogrammile",
+                "frontend": "Saidil",
+                "frontend-all-except-admin": "Kõik v.a. admin",
+                "mass-edit": "Hulgi muutmine",
+                "results": "Näidatakse {shown} sobivat tõlgest {total}-st"
             },
             "clear-cache": {
-                "text": "",
-                "button": ""
+                "text": "Uusi tõlkeid pole praegu veel kasutusse pandud. Märkus: vahemälu tühjendamine võib sinu saidi ajutiselt aeglasemaks teha.\n",
+                "button": "Tühjenda vahemälu kohe"
             },
             "coverage": {
                 "column-options": {
-                    "locale": "",
-                    "namespace": ""
+                    "locale": "Kelle järgi",
+                    "namespace": "Saidil"
                 },
                 "total-options": {
-                    "percent": "",
-                    "count": ""
+                    "percent": "Protsent",
+                    "count": "Arv"
                 },
                 "columns": {
-                    "namespace": "",
-                    "total": "",
-                    "all-except-admin": "",
-                    "all-frontends": ""
+                    "namespace": "Nimeruum",
+                    "total": "Kokku",
+                    "all-except-admin": "Foorum ja muu saidi osa",
+                    "all-frontends": "Näita kõiki saidi tekste"
                 },
                 "count": {
-                    "percent": "",
-                    "total": "",
-                    "details": ""
+                    "percent": "{percent} %",
+                    "total": "{translated} / {total}",
+                    "details": "{total} kokku / {original} algset / {custom} kohandatud"
                 },
-                "all-namespaces": "",
-                "apply-missing-filter": ""
+                "all-namespaces": "Kõik",
+                "apply-missing-filter": "Näita sobivaid puuduvaid tõlkeid"
             },
             "export": {
-                "title": "",
-                "warning": "",
-                "locale": "",
+                "title": "Ekspordi",
+                "warning": "Eksportimisel kasutatakse Flarumi Yaml-vormingul põhinevaid tõlkefaile, mis on kavandatud jagama tõlkeid erinevate foorumite ja keelepaki haldajate vahel. Vorming pole mõeldud kõikide tõlgete liigutamiseks uude foorumisse. Sõltuvalt sinu olukorrast, võib andmebaasi otsene kopeerimine olla parem variant.\n",
+                "locale": "Keel",
                 "locale-all": "",
-                "namespace": "",
-                "namespace-all": "",
-                "include-originals": "",
+                "namespace": "Nimeruum",
+                "namespace-all": "Kõik",
+                "include-originals": "Kaasa algsed tõlked",
                 "include-all": "",
-                "output": "",
-                "output-loading": "",
-                "output-empty": "",
-                "download": ""
+                "output": "Väljund",
+                "output-loading": "Väljundi laadimine...",
+                "output-empty": "Tühi väljund",
+                "download": "Laadi alla"
             },
             "import": {
-                "title": "",
-                "input": "",
-                "input-placeholder": "",
-                "locale": "",
+                "title": "Impordi",
+                "input": "Sisend",
+                "input-placeholder": "Kogudus oma Yaml failid siia",
+                "locale": "Keel",
                 "locale-all": "",
-                "override-existing": "",
-                "submit": "",
-                "results": "",
-                "results-with-ignore": ""
+                "override-existing": "Kirjuta minu olemas olevad kohandatud tõlked üle",
+                "submit": "Impordi",
+                "results": "Importimine on lõpetatud. {imported} teksti impodriti ja {identical} identset teksti jäeti vahele. Lehekülge värskendatakse nüüd, et näidata uusi tõlkeid.\n",
+                "results-with-ignore": "Importimine on lõpetatud. {imported} teksti impodriti, {ignored} olemasolevat teksti ignoreeriti ja {identical} identset teksti jäeti vahele. Lehekülge värskendatakse nüüd, et näidata uusi tõlkeid.\n"
             },
             "known-namespace": {
-                "core": "",
-                "validation": ""
+                "core": "Flarumi tuum",
+                "validation": "Valideerimise tõrge"
             },
             "known-frontend": {
-                "forum": "",
-                "admin": "",
-                "lib": "",
-                "ref": "",
-                "api": ""
+                "forum": "Foorum",
+                "admin": "Admin",
+                "lib": "Lib (kasutatakse nii foorumis kui ka adminiliideses)",
+                "ref": "Viide (teiste võtmeta taaskasutamine)",
+                "api": "API"
             }
         }
     }

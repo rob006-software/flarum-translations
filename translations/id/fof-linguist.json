@@ -2,118 +2,118 @@
     "fof-linguist": {
         "admin": {
             "permissions": {
-                "view_string_keys": ""
+                "view_string_keys": "Melihat kunci string terjemahan"
             },
             "tabs": {
-                "strings": "",
-                "coverage": "",
-                "export": "",
-                "import": ""
+                "strings": "Terjemahan",
+                "coverage": "Cakupan",
+                "export": "Ekspor",
+                "import": "Impor"
             },
             "buttons": {
-                "apply": "",
-                "reset": "",
-                "copy-original": "",
-                "load-more": "",
-                "delete-redundant": "",
-                "delete-redundant-confirm": "",
-                "delete-all": "",
-                "delete-all-confirm": ""
+                "apply": "Terapkan",
+                "reset": "Kembali ke asli",
+                "copy-original": "Salin teks asli",
+                "load-more": "Muat lainnya",
+                "delete-redundant": "Hapus terjemahan yang tidak perlu",
+                "delete-redundant-confirm": "Ini akan menghapus {count} terjemahan yang memiliki nilai asli dan nilai khusus yang sama. Ini dapat berguna untuk membersihkan setelah pembaruan paket bahasa.\n",
+                "delete-all": "Hapus semua terjemahan",
+                "delete-all-confirm": "Ini akan menghapus SEMUA dari {count} terjemahan khusus Anda. Pastikan Anda telah mengekspor atau mem-backup semua yang mungkin ingin Anda simpan.\n"
             },
             "locales": {
-                "all": ""
+                "all": "Semua"
             },
             "placeholder": {
-                "not-translated": "",
-                "all-locales": "",
-                "hint": ""
+                "not-translated": "Tidak diterjemahkan",
+                "all-locales": "Teks yang didefinisikan di sini akan ditampilkan dalam semua bahasa",
+                "hint": "Nilai asli:"
             },
             "filters": {
-                "search": "",
-                "with-own-translations": "",
-                "missing": "",
-                "missing-middle-label": "",
+                "search": "Cari string terjemahan...",
+                "with-own-translations": "Terjemahan saya",
+                "missing": "Temukan terjemahan yang hilang",
+                "missing-middle-label": "terjemahan dalam",
                 "negation-options": {
-                    "with": "",
-                    "without": ""
+                    "with": "Dengan",
+                    "without": "Tanpa"
                 },
                 "type-options": {
-                    "any": "",
-                    "original": "",
-                    "own": ""
+                    "any": "Original atau Khusus",
+                    "original": "Original",
+                    "own": "Khusus"
                 },
                 "operation-options": {
-                    "or": "",
-                    "and": ""
+                    "or": "Salah satu dari",
+                    "and": "Semua"
                 },
-                "for-extension": "",
-                "frontend": "",
-                "frontend-all-except-admin": "",
-                "mass-edit": "",
-                "results": ""
+                "for-extension": "Untuk ekstensi",
+                "frontend": "Untuk frontend",
+                "frontend-all-except-admin": "Semua, kecuali Admin",
+                "mass-edit": "Pengeditan massal",
+                "results": "Menampilkan {shown} dari {total} terjemahan yang cocok"
             },
             "clear-cache": {
-                "text": "",
-                "button": ""
+                "text": "Terjemahan baru belum diterapkan. Catatan: menghapus cache dapat memperlambat forum Anda untuk sementara waktu.\n",
+                "button": "Hapus cache"
             },
             "coverage": {
                 "column-options": {
-                    "locale": "",
-                    "namespace": ""
+                    "locale": "Berdasarkan bahasa",
+                    "namespace": "Berdasarkan frontend"
                 },
                 "total-options": {
-                    "percent": "",
-                    "count": ""
+                    "percent": "Persentase",
+                    "count": "Jumlah"
                 },
                 "columns": {
-                    "namespace": "",
-                    "total": "",
-                    "all-except-admin": "",
-                    "all-frontends": ""
+                    "namespace": "Namespace",
+                    "total": "Total",
+                    "all-except-admin": "Forum dan frontend lainnya",
+                    "all-frontends": "Tampilkan semua frontend"
                 },
                 "count": {
-                    "percent": "",
-                    "total": "",
-                    "details": ""
+                    "percent": "{percent} %",
+                    "total": "{translated} / {total}",
+                    "details": "total {total} / {original} original / {custom} khusus"
                 },
-                "all-namespaces": "",
-                "apply-missing-filter": ""
+                "all-namespaces": "Semua",
+                "apply-missing-filter": "Tampilkan terjemahan yang belum diterjemahkan yang cocok"
             },
             "export": {
-                "title": "",
-                "warning": "",
-                "locale": "",
-                "locale-all": "",
-                "namespace": "",
-                "namespace-all": "",
-                "include-originals": "",
-                "include-all": "",
-                "output": "",
-                "output-loading": "",
-                "output-empty": "",
-                "download": ""
+                "title": "Ekspor",
+                "warning": "Format ekspor menggunakan file terjemahan berbasis Yaml milik Flarum dan dirancang untuk dapat saling berbagi terjemahan antar forum dan dengan pengelola paket bahasa. Format ini tidak dirancang untuk memindahkan semua terjemahan ke forum baru. Tergantung pada kasus penggunaan Anda, menyalin database secara langsung mungkin merupakan ide yang lebih baik.\n",
+                "locale": "Bahasa lokal",
+                "locale-all": "Pseudo-locale \"Semua\"",
+                "namespace": "Namespace",
+                "namespace-all": "Semua",
+                "include-originals": "Sertakan terjemahan aslinya",
+                "include-all": "Sertakan terjemahan yang didefinisikan untuk \"semua\" bahasa",
+                "output": "Output",
+                "output-loading": "Memuat output...",
+                "output-empty": "Output kosong",
+                "download": "Download"
             },
             "import": {
-                "title": "",
-                "input": "",
-                "input-placeholder": "",
-                "locale": "",
-                "locale-all": "",
-                "override-existing": "",
-                "submit": "",
-                "results": "",
-                "results-with-ignore": ""
+                "title": "Impor",
+                "input": "Input",
+                "input-placeholder": "Tarik dan lepas atau paste file Yaml di sini",
+                "locale": "Bahasa lokal",
+                "locale-all": "Pseudo-locale \"Semua\"",
+                "override-existing": "Timpa terjemahan khusus Saya yang sudah ada",
+                "submit": "Impor",
+                "results": "Impor selesai. String {imported} telah diimpor dan string {identical} yang identik dilewati. Halaman sekarang akan di-refresh untuk menampilkan terjemahan yang baru.\n",
+                "results-with-ignore": "Impor telah selesai. String {imported} telah diimpor, string {ignored} yang sudah ada telah diabaikan dan string {identical} yang identik telah dilewati. Halaman sekarang akan di-refresh untuk menampilkan terjemahan yang baru.\n"
             },
             "known-namespace": {
-                "core": "",
-                "validation": ""
+                "core": "Flarum Core",
+                "validation": "Kesalahan Validasi"
             },
             "known-frontend": {
-                "forum": "",
-                "admin": "",
-                "lib": "",
-                "ref": "",
-                "api": ""
+                "forum": "Forum",
+                "admin": "Admin",
+                "lib": "Lib (digunakan pada Forum dan Admin)",
+                "ref": "Ref (digunakan kembali pada kolom lain)",
+                "api": "API"
             }
         }
     }

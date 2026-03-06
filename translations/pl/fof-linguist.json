@@ -5,56 +5,56 @@
                 "view_string_keys": ""
             },
             "tabs": {
-                "strings": "",
-                "coverage": "",
-                "export": "",
-                "import": ""
+                "strings": "Tłumaczenia",
+                "coverage": "Pokrycie",
+                "export": "Eksport",
+                "import": "Import"
             },
             "buttons": {
-                "apply": "",
-                "reset": "",
-                "copy-original": "",
-                "load-more": "",
-                "delete-redundant": "",
-                "delete-redundant-confirm": "",
-                "delete-all": "",
-                "delete-all-confirm": ""
+                "apply": "Zastosuj",
+                "reset": "Przywróć oryginał",
+                "copy-original": "Skopiuj oryginalny tekst",
+                "load-more": "Wczytaj więcej",
+                "delete-redundant": "Usuń redundantne tłumaczenia",
+                "delete-redundant-confirm": "Spowoduje to usunięcie {count} tłumaczeń, które mają niestandardowe tłumaczenie takie same jak oryginalne tłumaczenie. Może to być przydatne do czyszczenia niepotrzebnych tłumaczeń po aktualizacji pakietu językowego.\n",
+                "delete-all": "Usuń wszystkie tłumaczenia",
+                "delete-all-confirm": "Spowoduje to usunięcie wszystkich {count} niestandardowych tłumaczeń. Upewnij się, że masz kopię wszystkich tłumaczeń, które chciałbyś zachować.\n"
             },
             "locales": {
-                "all": ""
+                "all": "Wszystkie"
             },
             "placeholder": {
-                "not-translated": "",
-                "all-locales": "",
-                "hint": ""
+                "not-translated": "Nieprzetłumaczone",
+                "all-locales": "Tekst, który tutaj wpiszesz, zostanie pokazany dla wszystkich języków",
+                "hint": "Oryginalny tekst:"
             },
             "filters": {
-                "search": "",
-                "with-own-translations": "",
-                "missing": "",
-                "missing-middle-label": "",
+                "search": "Szukaj tekstu tłumaczenia...",
+                "with-own-translations": "Moje tłumaczenia",
+                "missing": "Znajdź brakujące tłumaczenia",
+                "missing-middle-label": "tłumaczenia dla",
                 "negation-options": {
-                    "with": "",
-                    "without": ""
+                    "with": "Posiadające",
+                    "without": "Nieposiadające"
                 },
                 "type-options": {
-                    "any": "",
-                    "original": "",
-                    "own": ""
+                    "any": "oryginalne lub własne",
+                    "original": "oryginalne",
+                    "own": "własne"
                 },
                 "operation-options": {
-                    "or": "",
-                    "and": ""
+                    "or": "dowolnego z wybranych:",
+                    "and": "wszystkich wybranych:"
                 },
-                "for-extension": "",
+                "for-extension": "Rozszerzenia",
                 "frontend": "",
                 "frontend-all-except-admin": "",
                 "mass-edit": "",
-                "results": ""
+                "results": "Wyświetlono {shown} z {total} pasujących tłumaczeń"
             },
             "clear-cache": {
-                "text": "",
-                "button": ""
+                "text": "Nowe tłumaczenia jeszcze nie zostały zastosowane. Uwaga: wyczyszczenie cache może chwilowo spowolnić Twoje forum.\n",
+                "button": "Wyczyść cache teraz"
             },
             "coverage": {
                 "column-options": {

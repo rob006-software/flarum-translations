@@ -2,118 +2,118 @@
     "fof-linguist": {
         "admin": {
             "permissions": {
-                "view_string_keys": ""
+                "view_string_keys": "Çeviri dizisi anahtarlarını görüntüle"
             },
             "tabs": {
-                "strings": "",
-                "coverage": "",
-                "export": "",
-                "import": ""
+                "strings": "Çeviriler",
+                "coverage": "Kapsam",
+                "export": "Dışa Aktar",
+                "import": "İçe Aktar"
             },
             "buttons": {
-                "apply": "",
-                "reset": "",
-                "copy-original": "",
-                "load-more": "",
-                "delete-redundant": "",
-                "delete-redundant-confirm": "",
-                "delete-all": "",
-                "delete-all-confirm": ""
+                "apply": "Uygula",
+                "reset": "Aslına döndür",
+                "copy-original": "Asıl metin kopyala",
+                "load-more": "Daha fazla",
+                "delete-redundant": "Gereksiz çevirileri sil",
+                "delete-redundant-confirm": "Bu, aynı olan orijinal ve özel değerlere sahip {count} çeviriyi silecektir. Bu, bir dil paketi güncellemesinden sonra temizlemek için yararlı olabilir.\n",
+                "delete-all": "Çevirileri sil",
+                "delete-all-confirm": "Bu, {count} özel çevirinizin TÜMÜNÜ silecektir. Saklamak isteyebileceğiniz her şeyi dışa aktardığınızdan veya yedeklediğinizden emin olun.\n"
             },
             "locales": {
-                "all": ""
+                "all": "Tümü"
             },
             "placeholder": {
-                "not-translated": "",
-                "all-locales": "",
-                "hint": ""
+                "not-translated": "Çevirilmemiş",
+                "all-locales": "Bu alana yazılan bir metin tüm dillerde gösterilir",
+                "hint": "Asıl değer:"
             },
             "filters": {
-                "search": "",
-                "with-own-translations": "",
-                "missing": "",
-                "missing-middle-label": "",
+                "search": "Çeviriler içerisinde ara...",
+                "with-own-translations": "Çevirilerim",
+                "missing": "Eksik çevirileri bulun",
+                "missing-middle-label": "çeviriler",
                 "negation-options": {
-                    "with": "",
-                    "without": ""
+                    "with": "ile",
+                    "without": "olmadan"
                 },
                 "type-options": {
-                    "any": "",
-                    "original": "",
-                    "own": ""
+                    "any": "Aslı veya Özel",
+                    "original": "Aslı",
+                    "own": "Özel"
                 },
                 "operation-options": {
-                    "or": "",
-                    "and": ""
+                    "or": "Bir diğeri",
+                    "and": "Tümü"
                 },
-                "for-extension": "",
-                "frontend": "",
-                "frontend-all-except-admin": "",
-                "mass-edit": "",
-                "results": ""
+                "for-extension": "Uzantılar için",
+                "frontend": "Ön uç için",
+                "frontend-all-except-admin": "Yönetici hariç tümü",
+                "mass-edit": "Toplu düzenleme",
+                "results": "{total} eşleşen çeviriden {shown} adeti gösteriliyor"
             },
             "clear-cache": {
-                "text": "",
-                "button": ""
+                "text": "Yeni çeviriler henüz uygulanmadı. Not: Önbelleği temizlemek forumunuzu geçici olarak yavaşlatabilir.\n",
+                "button": "Önbelleği şimdi temizle"
             },
             "coverage": {
                 "column-options": {
-                    "locale": "",
-                    "namespace": ""
+                    "locale": "Dile göre",
+                    "namespace": "Ön uca göre"
                 },
                 "total-options": {
-                    "percent": "",
-                    "count": ""
+                    "percent": "Yüzde",
+                    "count": "Sayı"
                 },
                 "columns": {
-                    "namespace": "",
-                    "total": "",
-                    "all-except-admin": "",
-                    "all-frontends": ""
+                    "namespace": "Ad alanı",
+                    "total": "Toplam",
+                    "all-except-admin": "Forum ve diğer ön uçlar",
+                    "all-frontends": "Tüm ön uçları göster"
                 },
                 "count": {
-                    "percent": "",
-                    "total": "",
-                    "details": ""
+                    "percent": "% {percent}",
+                    "total": "{translated} / {total}",
+                    "details": "{total} toplam / {original} orijinal / {custom} özel"
                 },
-                "all-namespaces": "",
-                "apply-missing-filter": ""
+                "all-namespaces": "Tümü",
+                "apply-missing-filter": "Eşleşen eksik çevirileri göster"
             },
             "export": {
-                "title": "",
-                "warning": "",
-                "locale": "",
-                "locale-all": "",
-                "namespace": "",
-                "namespace-all": "",
-                "include-originals": "",
-                "include-all": "",
-                "output": "",
-                "output-loading": "",
-                "output-empty": "",
-                "download": ""
+                "title": "Dışa Aktar",
+                "warning": "Dışa aktarma biçimi Flarum'un YAML tabanlı çeviri dosyalarında ve çevirileri forumlar arasında dil paketi oluşturmak için kullanılır. Format, tüm çevirileri yeni bir foruma taşımak için tasarlanmamıştır. Kullanım durumunuza bağlı olarak veritabanından doğrudan kopyalamak daha iyi olabilir.\n",
+                "locale": "Yerel",
+                "locale-all": "\"Tümü\"",
+                "namespace": "Ad Alanı",
+                "namespace-all": "Tümü",
+                "include-originals": "Tüm asıl çevirileri dahil et",
+                "include-all": "\"Tüm\" diller için tanımlanan çevirileri dahil et",
+                "output": "Çıktı",
+                "output-loading": "Dışa aktarma yükleniyor...",
+                "output-empty": "Boş çıktı",
+                "download": "İndir"
             },
             "import": {
-                "title": "",
-                "input": "",
-                "input-placeholder": "",
-                "locale": "",
-                "locale-all": "",
-                "override-existing": "",
-                "submit": "",
-                "results": "",
-                "results-with-ignore": ""
+                "title": "İçe Aktar",
+                "input": "Giriş",
+                "input-placeholder": "YAML dosyasını sürükleyip bırakın veya yapıştırın",
+                "locale": "Yerel",
+                "locale-all": "\"Tümü\"",
+                "override-existing": "Mevcut özel çevirilerimi geçersiz kıl",
+                "submit": "İçe Aktar",
+                "results": "İçe aktarma tamamlandı. {imported} dize içe aktarıldı ve {identical} dize atlandı. Sayfa şimdi yeni çevirileri gösterecek şekilde yenilenecektir.\n",
+                "results-with-ignore": "İçe aktarma tamamlandı. {imported} dize içe aktarıldı, {ignored} dize yok sayıldı ve {identical} aynı dize atlandı. Sayfa şimdi yeni çevirileri gösterecek şekilde yenilenecektir.\n"
             },
             "known-namespace": {
-                "core": "",
-                "validation": ""
+                "core": "Flarum Çekirdeği",
+                "validation": "Doğrulama Hataları"
             },
             "known-frontend": {
-                "forum": "",
-                "admin": "",
-                "lib": "",
-                "ref": "",
-                "api": ""
+                "forum": "Forum",
+                "admin": "Yönetici",
+                "lib": "Lib (Hem Forumda hem de Yönetici Panelinde kullanılır)",
+                "ref": "Ref (diğer anahtarlar yeniden kullanılır)",
+                "api": "API"
             }
         }
     }
