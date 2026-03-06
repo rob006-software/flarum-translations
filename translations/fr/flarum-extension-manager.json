@@ -5,7 +5,7 @@
                 "add_label": "Nouvelle méthode d'authentification",
                 "add_modal": {
                     "host_label": "Hôte",
-                    "host_placeholder": "",
+                    "host_placeholder": "exemple : bearer.flarum.org",
                     "submit_button": "Envoyer",
                     "token_label": "Jeton",
                     "type_label": "Type",
@@ -75,7 +75,7 @@
             "extensions": {
                 "check_why_it_failed_updating": "Montrer pourquoi elle n'a pas été mise à jour.",
                 "install": "Installer une nouvelle extension",
-                "install_help": "",
+                "install_help": "Remplissez le nom du paquet d'extension pour continuer. Vous pouvez spécifier une <semantic_link>version sémantique</semantic_link> en utilisant le format <code>fournisseur/nom-du-paquet:version</code>. Rendez-vous sur {link} pour parcourir les extensions.\n",
                 "proceed": "Procéder",
                 "remove": "Désinstaller",
                 "successful_install": "L'extension {extension} a été installée, redirection en cours…",
@@ -98,43 +98,43 @@
                 "update": "Mettre à jour"
             },
             "minor_update_confirmation": {
-                "content": ""
+                "content": "Cela mettra également à jour toutes les autres extensions et paquets pour lesquels des mises à jour sont disponibles."
             },
-            "required_php_functions": "",
+            "required_php_functions": "Le gestionnaire d'extension nécessite l'activation des fonctions PHP suivantes : <code>{functions}</code>. Si vous n'avez pas accès à la configuration PHP, veuillez contacter votre hébergeur.\n",
             "sections": {
                 "discover": {
-                    "description": "",
-                    "empty_results": "",
+                    "description": "Ajoutez de nouvelles fonctionnalités et intégrations à votre forum Flarum grâce à des extensions.",
+                    "empty_results": "Il semble qu'aucune extension ne soit disponible.",
                     "extension": {
                         "badges": {
-                            "compatible": "",
-                            "fof": "",
-                            "flarum": "",
-                            "incompatible": "",
-                            "premium": "",
-                            "unstable": ""
+                            "compatible": "Compatible",
+                            "fof": "Friends Of Flarum",
+                            "flarum": "Flarum",
+                            "incompatible": "Incompatible",
+                            "premium": "Premium",
+                            "unstable": "Instable"
                         },
-                        "downloads": ""
+                        "downloads": "{count, plural, one {{formattedCount} téléchargement} other {{formattedCount} téléchargements}}"
                     },
-                    "premium_extension_terms": "",
-                    "search": "",
-                    "server_error": "",
+                    "premium_extension_terms": "Conditions d'utilisation des extension premium",
+                    "search": "Rechercher…",
+                    "server_error": "Le service est actuellement indisponible, veuillez réessayer plus tard.",
                     "sort": {
-                        "toggle_dropdown_accessible_label": "",
-                        "top": "",
-                        "latest": ""
+                        "toggle_dropdown_accessible_label": "Activer ou désactiver les options de tri",
+                        "top": "Plus téléchargées",
+                        "latest": "Plus récentes"
                     },
                     "tabs": {
-                        "discover": "",
-                        "extensions": "",
-                        "languages": "",
-                        "themes": ""
+                        "discover": "Découvrir",
+                        "extensions": "Extensions",
+                        "languages": "Langues",
+                        "themes": "Thèmes"
                     },
-                    "title": "",
+                    "title": "Extensions",
                     "party_filter": {
-                        "all": "",
-                        "premium": "",
-                        "toggle_dropdown_accessible_label": ""
+                        "all": "Toutes",
+                        "premium": "Premium",
+                        "toggle_dropdown_accessible_label": "Activer ou désactiver le filtre des parties"
                     }
                 },
                 "queue": {
@@ -160,7 +160,7 @@
                     "output_modal": {
                         "cause_unknown": "Inconnu",
                         "command": "Commande de Composer",
-                        "guessed_cause": "Cause",
+                        "guessed_cause": "Raison",
                         "output": "Sortie"
                     },
                     "refresh": "Actualiser la liste des tâches",
@@ -174,8 +174,8 @@
                     "title": "File d'attente"
                 },
                 "settings": {
-                    "title": "",
-                    "description": ""
+                    "title": "Options et file d'attente",
+                    "description": "Configurez le gestionnaire d'extensions et vérifiez les opérations dans la file d'attente."
                 }
             },
             "settings": {
@@ -183,12 +183,12 @@
                 "access_warning": "Soyez prudent quant aux personnes à qui vous donnez accès à la zone d'administration car le gestionnaire d'extensions peut être utilisé par des acteurs malveillants pour installer des paquets qui peuvent entraîner des failles de sécurité.",
                 "debug_mode_warning": "Vous êtes en mode débogage, le gestionnaire d'extension ne peut pas installer et mettre à jour correctement les paquets de développement local. Veuillez utiliser l'interface de ligne de commande à cet effet.",
                 "queue_jobs": "Exécuter les opérations dans la file d'attente en arrière-plan",
-                "queue_jobs_help": "",
+                "queue_jobs_help": "Vous pouvez consulter la documentation relative à une implémentation <basic_impl_link>basique</basic_impl_link> ou <adv_impl_link>plus avancée</adv_impl_link> de la file d'attente. Assurez-vous que la version PHP utilisée pour la file d'attente est {php_version}. Vérifiez que les <folder_perms_link>autorisations d'accès au dossier</folder_perms_link> sont correctement configurées.\n",
                 "task_retention_days": "Jours de rétention des tâches",
                 "task_retention_days_help": "Le nombre de jours pendant lesquels les tâches terminées doivent être conservées dans la base de données. Les tâches plus anciennes seront supprimées. La valeur 0 permet de conserver toutes les tâches.\n"
             },
             "updater": {
-                "up_to_date": "",
+                "up_to_date": "Aucune mise à jour en attente.",
                 "check_for_updates": "Vérifier les mises à jour",
                 "flarum": "Noyau de Flarum",
                 "global_update_successful": "Mise à jour de tous les paquets réussie.",
@@ -199,7 +199,7 @@
             },
             "update_successful": "Flarum a été mis à jour.",
             "why_not_modal": {
-                "title": "Pourquoi la mise à jour ne se fait-elle pas ?"
+                "title": "Pourquoi la mise à jour ne s'effectue-t-elle pas ?"
             }
         }
     }
