@@ -2,9 +2,9 @@
     "import-ai-webhook": {
         "admin": {
             "settings": {
-                "webhook_url_label": "",
-                "webhook_url_help": "",
-                "bearer_token_label": "",
+                "webhook_url_label": "Webhook 網址",
+                "webhook_url_help": "輸入網址即可在使用者建立或編輯貼文時接收 POST 請求。有效載荷包含事件類型，以及完整的使用者、貼文、討論與演員模型資料。",
+                "bearer_token_label": "持有人令牌",
                 "bearer_token_help": ""
             }
         }
