@@ -2,10 +2,10 @@
     "import-ai-oauth-passport": {
         "admin": {
             "settings": {
-                "title": "",
-                "enabled_label": "",
-                "redirect_url_label": "",
-                "redirect_url_help": "",
+                "title": "oauth設定",
+                "enabled_label": "啟用 OAuth 護照登入",
+                "redirect_url_label": "重定向網址（複製到你的 OAuth 伺服器）",
+                "redirect_url_help": "將此網址複製到你 OAuth 伺服器允許的重定向網址",
                 "client_id_label": "",
                 "client_secret_label": "",
                 "scopes_label": "",
