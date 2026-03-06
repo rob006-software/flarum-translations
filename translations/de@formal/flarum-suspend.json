@@ -41,19 +41,19 @@
             "suspended": {
                 "subject": "Ihr Konto wurde ausgeschlossen",
                 "plain": {
-                    "body": ""
+                    "body": "Du wurdest aus folgendem Grund ausgeschlossen:\n\n---\n{suspension_message}\n---\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "Du wurdest von {forumTitle} aus folgendem Grund ausgeschlossen:"
                 }
             },
             "unsuspended": {
                 "subject": "Die Ausschluss Ihres Kontos wurde aufgehoben",
                 "plain": {
-                    "body": ""
+                    "body": "Dein Ausschluss wurde aufgehoben. Du kannst wieder zurück ins Forum mit einem Klick auf den folgenden Link:\n\n{forum_url}\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "Dein Ausschluss wurde aufgehoben. Du kannst zu [{forumTitle}]({forum_url}) zurückkehren, sobald du bereit bist."
                 }
             }
         },
@@ -61,7 +61,7 @@
             "gambits": {
                 "users": {
                     "suspended": {
-                        "key": ""
+                        "key": "ausgeschlossen"
                     }
                 }
             }
