@@ -11,82 +11,82 @@
                         "help": "Gözlemlediğiniz bir soruna neden olan uzantıyı tespit etmenize yardımcı olur. Bu işlem, süreç tamamlanana kadar forumu otomatik olarak bakım moduna (düşük) alır."
                     },
                     "bisect_modal": {
-                        "description": "",
-                        "end_button": "",
-                        "issue_question": "",
-                        "issue_question_help": "",
-                        "no_button": "",
-                        "result_description": "",
-                        "start_button": "",
-                        "stop_button": "",
-                        "steps_left": "",
-                        "total_steps": "",
-                        "title": "",
-                        "yes_button": ""
+                        "description": "Bu işlem, süreç tamamlanana kadar forumu bakım moduna (düşük) alır. Her adımda, soruna neden olan uzantı bulunana kadar bazı uzantılar devre dışı bırakılır. Bu nedenle eksik özellikler veya farklı tema tasarımı görmeniz normaldir. Bu sayfayı açık tutun ve her adımdan sonra sorunu ayrı bir sayfada yeniden oluşturmayı deneyin. Sayfayı yanlışlıkla kapatırsanız her zaman buraya geri dönebilirsiniz.\n",
+                        "end_button": "Kapat ve uzantı sayfasına git",
+                        "issue_question": "Sorun hala devam ediyor mu?",
+                        "issue_question_help": "Sorunu ayrı bir sayfada yeniden oluşturmayı deneyin ve sonuca göre yanıtlayın.",
+                        "no_button": "Hayır",
+                        "result_description": "Forum artık bakım modunda değil. Uzantı ikiye bölme işlemi tamamlandı. Her adımdaki yanıtlarınıza göre, soruna neden olan uzantı şudur:\n",
+                        "start_button": "İkiye bölmeyi başlat",
+                        "stop_button": "İkiye bölmeyi durdur",
+                        "steps_left": "Kalan adım: {steps}",
+                        "total_steps": "Bu işlem yaklaşık {steps} adım sürecektir.",
+                        "title": "Uzantı İkiye Bölme",
+                        "yes_button": "Evet"
                     },
                     "config_override": {
-                        "label": "",
-                        "help": ""
+                        "label": "<code>config.php</code> dosyanız bu ayarları geçersiz kılıyor.",
+                        "help": "Bu ayarları buradan değiştirebilirsiniz, ancak <code>config.php</code> dosyanızda <code>offline</code> değerini <code>0</code> olarak ayarlayana kadar geçerli olmayacaklardır."
                     },
-                    "help": "",
+                    "help": "Kullanıcıların erişimini engellemek için forumunuzu bakım moduna alın.",
                     "options": {
-                        "none": "",
-                        "high": "",
-                        "low": "",
-                        "safe": ""
+                        "none": "Bakım yok.",
+                        "high": "Yüksek bakım modu. Kimse foruma erişemez (yalnızca config.php üzerinden etkinleştirilebilir)",
+                        "low": "Düşük bakım modu. Yöneticiler foruma erişebilir.",
+                        "safe": "Güvenli mod. Hiçbir uzantı yüklenmez ve yalnızca yöneticiler foruma erişebilir."
                     },
-                    "safe_mode_extensions": "",
-                    "safe_mode_extensions_override_help": "",
-                    "section_label": ""
+                    "safe_mode_extensions": "Güvenli modda yüklenmesine izin verilen uzantılar",
+                    "safe_mode_extensions_override_help": "Bu ayar, <code>config.php</code> dosyanızdaki <code>safe_mode_extensions</code> anahtarı tarafından geçersiz kılınmaktadır. (<b>{extensions}</b>)",
+                    "section_label": "Bakım"
                 },
                 "fontawesome": {
-                    "section_label": "",
-                    "source_label": "",
-                    "source_help": "",
-                    "source_local": "",
-                    "source_cdn": "",
-                    "source_kit": "",
-                    "cdn_url_label": "",
-                    "cdn_url_help": "",
-                    "kit_url_label": "",
-                    "kit_url_help": "",
+                    "section_label": "FontAwesome Simgeleri",
+                    "source_label": "Simge Kaynağı",
+                    "source_help": "FontAwesome simgelerinin nasıl yükleneceğini seçin. Yerel, paketlenmiş yazı tiplerini kullanır; CDN, bir CDN'den yükler; Kit ise özel simgelerle FontAwesome Kit'lerini kullanır.",
+                    "source_local": "Yerel (Paketlenmiş)",
+                    "source_cdn": "CDN",
+                    "source_kit": "FontAwesome Kit",
+                    "cdn_url_label": "CDN Bağlantısı",
+                    "cdn_url_help": "Bir CDN üzerindeki FontAwesome CSS dosyasının tam bağlantısı",
+                    "kit_url_label": "Kit Bağlantısı",
+                    "kit_url_help": "FontAwesome Kit betik bağlantınız (kit.fontawesome.com adresinden)",
                     "config_override": {
-                        "label": "",
-                        "help": ""
+                        "label": "Yapılandırma Geçersiz Kılma",
+                        "help": "FontAwesome ayarları şu anda config.php dosyanızda tanımlı olduğundan buradan değiştirilemez."
                     }
                 },
                 "pgsql": {
-                    "search_configuration": ""
+                    "search_configuration": "Kullanılacak arama yapılandırması"
                 },
                 "queue": {
-                    "section_label": "",
-                    "sync_info": "",
-                    "sync_help": "",
-                    "custom_driver": "",
-                    "retries_label": "",
-                    "retries_help": "",
-                    "memory_label": "",
-                    "memory_help": "",
-                    "timeout_label": "",
-                    "timeout_help": "",
-                    "rest_label": "",
-                    "rest_help": "",
-                    "backoff_label": "",
-                    "backoff_help": ""
+                    "section_label": "Kuyruk",
+                    "sync_info": "Forumunuz eşzamanlı kuyruk sürücüsü kullanıyor. İşler ana işlem iş parçacığında anında işlenmektedir.",
+                    "sync_help": "Daha iyi performans ve kullanıcı deneyimi için veritabanı kuyruk sürücüsünü kullanmayı düşünün. Daha fazla bilgi için belgelere göz atın.",
+                    "custom_driver": "Forumunuz, bir uzantı tarafından sağlanan {driver} kuyruk sürücüsünü kullanıyor.",
+                    "retries_label": "İş Tekrar Deneme Sayısı",
+                    "retries_help": "Bir işi başarısız olarak işaretlemeden önce en fazla kaç kez deneneceği. Varsayılan değer 1'dir.",
+                    "memory_label": "Bellek Sınırı (MB)",
+                    "memory_help": "Kuyruk işçisinin yeniden başlatılmadan önce kullanabileceği en fazla bellek miktarı. Varsayılan değer 128 MB'dir.",
+                    "timeout_label": "İş Zaman Aşımı (saniye)",
+                    "timeout_help": "Tek bir işin zaman aşımına uğramadan önce çalışabileceği en uzun süre. Varsayılan değer 60 saniyedir.",
+                    "rest_label": "Bekleme Süresi (saniye)",
+                    "rest_help": "İşler arasında beklenecek süre. Varsayılan değer 0 saniyedir.",
+                    "backoff_label": "Geri Çekilme Süresi (saniye)",
+                    "backoff_help": "Başarısız bir işi yeniden denemeden önce beklenecek süre. Varsayılan değer 0 saniyedir."
                 },
                 "search": {
-                    "section_label": "",
-                    "driver_heading": "",
-                    "driver_text": "",
+                    "section_label": "Arama Sürücüleri",
+                    "driver_heading": "Arama Sürücüsü: {model}",
+                    "driver_text": "Bu model için kullanılacak arama sürücüsünü seçin.",
                     "driver_options": {
-                        "default": ""
+                        "default": "Varsayılan veritabanı araması"
                     },
-                    "no_other_drivers": ""
+                    "no_other_drivers": "Henüz kullanılabilir arama sürücüsü yok. Yapılandırabilmek için bir arama sürücüsü uzantısı yükleyin."
                 },
-                "title": ""
+                "title": "Gelişmiş"
             },
             "appearance": {
-                "allow_user_color_scheme_label": "",
+                "allow_user_color_scheme_label": "Kullanıcıların kendi renk düzenlerini seçmelerine izin ver",
                 "colored_header_label": "Renkli Üstbilgi",
                 "colors_heading": "Renkler",
                 "colors_primary_label": "Birincil Renk",
@@ -109,13 +109,13 @@
                 "logo_heading": "Logo",
                 "logo_text": "Forum başlığının yerine görüntülenecek bir görsel yükle.",
                 "title": "Görünüm",
-                "color_scheme_label": "",
+                "color_scheme_label": "Renk Şeması (varsayılan)",
                 "color_schemes": {
-                    "auto_mode_label": "",
-                    "dark_hc_mode_label": "",
-                    "dark_mode_label": "",
-                    "light_hc_mode_label": "",
-                    "light_mode_label": ""
+                    "auto_mode_label": "Kullanıcının sistem veya yapılandırılmış tercihi",
+                    "dark_hc_mode_label": "=> core.ref.dark_hc_mode_label",
+                    "dark_mode_label": "=> core.ref.dark_mode_label",
+                    "light_hc_mode_label": "=> core.ref.light_hc_mode_label",
+                    "light_mode_label": "=> core.ref.light_mode_label"
                 }
             },
             "basics": {
@@ -123,7 +123,7 @@
                 "default_language_heading": "Varsayılan Dil",
                 "description": "Forumunun başlığını, dilini ve diğer temel ayarlarını yapılandır.",
                 "display_name_driver_options": {
-                    "username": ""
+                    "username": "Kullanıcı adı"
                 },
                 "display_name_heading": "Görünen Kullanıcı Adı",
                 "display_name_text": "Kullanıcıların görünen adları için kullanılması gereken tercihi seçin. Varsayılan olarak kullanıcı adı gösterilir.",
@@ -135,12 +135,12 @@
                 "show_language_selector_label": "Dil seçiciyi göster",
                 "slug_driver_options": {
                     "discussions": {
-                        "default": "",
-                        "utf8": ""
+                        "default": "Kısa adla birlikte ID",
+                        "utf8": "UTF-8 kısa adla birlikte ID"
                     },
                     "users": {
-                        "default": "",
-                        "id": ""
+                        "default": "Kullanıcı adı",
+                        "id": "ID"
                     }
                 },
                 "slug_driver_heading": "Adres Kısa Adı Sürücüsü: {model}",
@@ -183,7 +183,7 @@
                     }
                 },
                 "title": "Gösterge Paneli",
-                "toggle_advanced_page_button": "",
+                "toggle_advanced_page_button": "Gelişmiş Sayfayı Aç/Kapat",
                 "tools_button": "Araçlar"
             },
             "debug-warning": {
@@ -224,17 +224,17 @@
                 "driver_heading": "Sürücü Seç",
                 "driver_label": "Sürücü",
                 "format": {
-                    "multipart_option": "",
-                    "plain_option": "",
-                    "html_option": ""
+                    "multipart_option": "Çok parçalı (önerilen)",
+                    "plain_option": "Düz Metin",
+                    "html_option": "HTML"
                 },
-                "format_heading": "",
-                "format_help": "",
+                "format_heading": "Giden E-posta Biçimi",
+                "format_help": "Giden e-postaların hangi biçimde gönderileceğini seçin. Önerilen seçenek <code>çok parçalı</code>'dır; bu, kullanıcınızın e-posta istemcisinin en uygun biçimi görüntülemesini sağlar.",
                 "from_label": "Gönderen",
                 "mail_encryption_label": "Şifreleme",
-                "mail_encryption_tls_help": "",
-                "mail_encryption_ssl_help": "",
-                "mail_encryption_none_help": "",
+                "mail_encryption_tls_help": "Bağlantı şifresiz başlar ve TLS'ye yükseltilir (STARTTLS). Genellikle 587 veya 25 numaralı bağlantı noktasıyla kullanılır.",
+                "mail_encryption_ssl_help": "Bağlantı baştan itibaren şifrelenir (Örtük TLS). Genellikle 465 numaralı bağlantı noktasıyla kullanılır.",
+                "mail_encryption_none_help": "Şifreleme yok. Üretim ortamında kullanılması önerilmez.",
                 "mail_host_label": "Sunucu",
                 "mail_mailgun_domain_label": "Alanadı",
                 "mail_mailgun_region_label": "Bölge",
@@ -249,7 +249,7 @@
                 "send_test_mail_success": "Test postası başarıyla gönderildi!",
                 "send_test_mail_text": "Bu, yukarıdaki yapılandırma ayarları ile {email} adresine gönderilecektir.",
                 "smtp_heading": "SMTP Ayarları",
-                "smtp_description": "",
+                "smtp_description": "SMTP bağlantı ayarlarını yapılandırın. Yaygın yapılandırmalar: TLS ile 587 numaralı bağlantı noktası veya SSL ile 465 numaralı bağlantı noktası.",
                 "title": "=> core.ref.email"
             },
             "extension": {
@@ -257,7 +257,7 @@
                 "abandoned_with_replacement": "Bu uzantı {replacement} ile değiştirildi. Yeni pakete geçiş yapmayı değerlendirin.",
                 "configure_scopes": "Kapsamları Yapılandır",
                 "confirm_purge": "Temizleme, uzantıyla ilgili tüm veritabanı girdilerini ve varlıkları kaldıracaktır. Uzantıyı kaldırmaz; kaldırma işlemi Composer aracılığıyla yapılmalıdır. Devam etmek istediğine emin misin?",
-                "database_driver_mismatch": "",
+                "database_driver_mismatch": "Bu uzantı, yapılandırılmış veritabanı sürücünüzü desteklemiyor.",
                 "deprecated": "Kullanımdan Kaldırıldı",
                 "disabled": "Etkisizleştirildi",
                 "enable_to_see": "Ayarları görüntülemek ve değiştirmek için uzantıyı etkinleştirin.",
@@ -281,25 +281,25 @@
                     "title": "{extName} belgeleri"
                 },
                 "replaced": "Değiştirildi",
-                "safe_mode_warning": ""
+                "safe_mode_warning": "Güvenli mod şu anda etkin. Uzantılar yüklenmediğinden ayarlarına erişilemiyor."
             },
             "header": {
                 "get_help": "Yardım Al",
                 "log_out_button": "=> core.ref.log_out",
-                "search_placeholder": "",
-                "search_role_label": ""
+                "search_placeholder": "Ara...",
+                "search_role_label": "Ara"
             },
             "loading": {
                 "title": "Lütfen Bekleyin..."
             },
             "models": {
-                "discussions": "",
-                "posts": "",
-                "users": ""
+                "discussions": "=> core.ref.discussions",
+                "posts": "=> core.ref.posts",
+                "users": "=> core.ref.users"
             },
             "nav": {
-                "advanced_button": "",
-                "advanced_title": "",
+                "advanced_button": "=> core.admin.advanced.title",
+                "advanced_title": "=> core.admin.advanced.description",
                 "appearance_button": "=> core.admin.appearance.title",
                 "appearance_title": "=> core.admin.appearance.description",
                 "basics_button": "=> core.admin.basics.title",
@@ -348,7 +348,7 @@
                 "post_without_throttle_label": "Beklemeden birden çok kez yanıtlayın",
                 "read_heading": "Okuma",
                 "remove_scope_label": "{scope} kapsamını kaldır",
-                "remove_scope_confirmation": "",
+                "remove_scope_confirmation": "{scope} kapsamını kaldırmak istediğinizden emin misiniz?",
                 "rename_discussions_label": "Tartışmaları yeniden adlandır",
                 "reply_to_discussions_label": "Tartışmalara yanıt ver",
                 "search_users_label": "=> core.ref.search_users",
@@ -373,12 +373,12 @@
             },
             "search_source": {
                 "general": {
-                    "heading": ""
+                    "heading": "Genel"
                 }
             },
             "settings": {
                 "saved_message": "Değişiklikleriniz kaydedildi.",
-                "select_dropdown_custom_label": "",
+                "select_dropdown_custom_label": "Özel",
                 "submit_button": "=> core.ref.save_changes"
             },
             "upload_image": {
@@ -408,8 +408,8 @@
                         "user_actions": {
                             "title": "Eylemler",
                             "edit_user": {
-                                "button": "",
-                                "tooltip": ""
+                                "button": "=> core.ref.edit",
+                                "tooltip": "Düzenle {username}"
                             }
                         },
                         "user_id": {
@@ -485,7 +485,7 @@
                 "empty_text": "Burada hiç tartışma yok gibi görünüyor.",
                 "load_more_button": "=> core.ref.load_more",
                 "replied_text": "{username}, {ago} yanıtladı",
-                "skip_discussion_list_pane": "",
+                "skip_discussion_list_pane": "Tartışma listesi panelini atla",
                 "started_text": "{username} {ago} başlattı",
                 "total_replies_a11y_label": "{count, plural, one {# yanıt} other {# yanıt}}",
                 "unread_replies_a11y_label": "{count, plural, one {# okunmamış yanıt} other {# okunmamış yanıt}}. {count, plural, one {yanıtı} other {yanıtı}} okunmadı olarak işaretle."
@@ -518,31 +518,31 @@
                 "mark_all_as_read_confirmation": "Tüm tartışmaları okundu olarak işaretlemek istediğinden emin misin?",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "meta_title_text": "=> core.ref.all_discussions",
-                "refresh_tooltip": "",
+                "refresh_tooltip": "=> core.ref.refresh",
                 "start_discussion_button": "=> core.ref.start_a_discussion",
-                "skip_to_main_content": "",
+                "skip_to_main_content": "Ana içeriğe atla",
                 "toggle_sidenav_dropdown_accessible_label": "Gezinme açılır menüsünü aç / kapat"
             },
             "index_sort": {
                 "latest_button": "En Son",
-                "newest_button": "",
-                "oldest_button": "",
-                "relevance_button": "",
+                "newest_button": "=> core.ref.newest",
+                "oldest_button": "=> core.ref.oldest",
+                "relevance_button": "=> core.ref.relevance",
                 "toggle_dropdown_accessible_label": "Tartışma listesi sıralamasını değiştir",
                 "top_button": "Popüler"
             },
             "log_in": {
                 "forgot_password_link": "Şifreni mi unuttun?",
-                "invalid_login_message": "",
+                "invalid_login_message": "=> core.ref.invalid_login_message",
                 "password_placeholder": "=> core.ref.password",
-                "remember_me_label": "",
+                "remember_me_label": "=> core.ref.remember_me_label",
                 "sign_up_text": "Hesabın yok mu? <a> Kayıt Ol </a>",
                 "submit_button": "=> core.ref.log_in",
                 "title": "=> core.ref.log_in",
-                "username_or_email_placeholder": ""
+                "username_or_email_placeholder": "=> core.ref.username_or_email_placeholder"
             },
             "notifications": {
-                "delete_all_confirm": "",
+                "delete_all_confirm": "Tüm bildirimleri silmek istediğinizden emin misiniz? Bu işlem geri alınamaz",
                 "delete_all_tooltip": "Tüm bildirimleri sil",
                 "discussion_renamed_text": "{username} başlığı değiştirdi",
                 "empty_text": "Bildirim Yok",
@@ -567,9 +567,9 @@
                 "toggle_dropdown_accessible_label": "Yayın kontrolleri açılır menüsünü aç / kapat"
             },
             "post_list": {
-                "empty_text": "",
-                "in_discussion_text": "",
-                "load_more_button": ""
+                "empty_text": "Burada hiç gönderi yok gibi görünüyor.",
+                "in_discussion_text": "{discussion} tartışmasında",
+                "load_more_button": "=> core.ref.load_more"
             },
             "post_scrubber": {
                 "now_link": "Şimdi",
@@ -585,13 +585,13 @@
                 "time_lapsed_text": "{period} sonra"
             },
             "posts_sort": {
-                "newest_button": "",
-                "oldest_button": "",
-                "relevance_button": ""
+                "newest_button": "=> core.ref.newest",
+                "oldest_button": "=> core.ref.oldest",
+                "relevance_button": "=> core.ref.relevance"
             },
             "posts": {
-                "meta_title_text": "",
-                "refresh_tooltip": ""
+                "meta_title_text": "Gönderi arama sonuçları",
+                "refresh_tooltip": "=> core.ref.refresh"
             },
             "rename_discussion": {
                 "submit_button": "=> core.ref.rename",
@@ -636,13 +636,13 @@
                 "account_heading": "Hesap",
                 "change_email_button": "=> core.ref.change_email",
                 "change_password_button": "=> core.ref.change_password",
-                "color_scheme_heading": "",
+                "color_scheme_heading": "Renk Şeması",
                 "color_schemes": {
-                    "auto_mode_label": "",
-                    "dark_hc_mode_label": "",
-                    "dark_mode_label": "",
-                    "light_hc_mode_label": "",
-                    "light_mode_label": ""
+                    "auto_mode_label": "Sistem tercihi",
+                    "dark_hc_mode_label": "=> core.ref.dark_hc_mode_label",
+                    "dark_mode_label": "=> core.ref.dark_mode_label",
+                    "light_hc_mode_label": "=> core.ref.light_hc_mode_label",
+                    "light_mode_label": "=> core.ref.light_mode_label"
                 },
                 "notification_checkbox_a11y_label_template": "{method} aracılığıyla \"{description}\" bildirimleri alın",
                 "notifications_heading": "=> core.ref.notifications",
@@ -725,10 +725,10 @@
             },
             "error": {
                 "circular_dependencies_message": "Döngüsel bağımlılıklar algılandı: {extensions}. İptal ediliyor. Lütfen uzantılardan birini devre dışı bırakın ve tekrar deneyin.",
-                "db_error_message": "",
+                "db_error_message": "Veritabanı sorgusu başarısız oldu. Bu, bir uzantı ile veritabanı sürücünüz arasındaki uyumsuzluktan kaynaklanıyor olabilir.",
                 "dependent_extensions_message": "{extension} uzantısı şu uzantı etkisizleştirilmeden önce etkisizleştirilemez: {extensions}",
                 "extension_initialiation_failed_message": "{extension} başlatılamadı, daha fazla bilgi için tarayıcı konsolunu kontrol edin.",
-                "extension_runtime_failed_message": "",
+                "extension_runtime_failed_message": "{extension} çalışırken bir hatayla karşılaştı. Daha fazla bilgi için tarayıcı konsolunu kontrol edin.",
                 "generic_message": "Oops! Bir şeyler yanlış gitti. Lütfen sayfayı yenileyin ve tekrar deneyin.",
                 "generic_cross_origin_message": "Oops! Kaynaklar arası istek sırasında bir şeyler ters gitti. Lütfen sayfayı yeniden yükleyin ve tekrar deneyin.",
                 "missing_dependencies_message": "{extension} şu uzantı aktif edilmeden önce aktif edilemez: {extensions}",
@@ -740,45 +740,45 @@
             },
             "gambits": {
                 "group_keys": {
-                    "allows": "",
-                    "has": "",
-                    "is": ""
+                    "allows": "izinler",
+                    "has": "sahip",
+                    "is": "durum"
                 },
                 "discussions": {
                     "author": {
-                        "key": "",
-                        "hint": ""
+                        "key": "yazar",
+                        "hint": "kullanıcı adı veya virgülle ayrılmış kullanıcı adları"
                     },
                     "created": {
-                        "key": "",
-                        "hint": ""
+                        "key": "tarih",
+                        "hint": "2020-12-31 veya 2020-12-31..2021-09-30"
                     },
                     "hidden": {
-                        "key": ""
+                        "key": "gizli"
                     },
                     "unread": {
-                        "key": ""
+                        "key": "okunmamış"
                     }
                 },
                 "posts": {
                     "discussion": {
-                        "key": "",
-                        "hint": ""
+                        "key": "tartışma",
+                        "hint": "tartışmanın ID'si"
                     }
                 },
                 "users": {
                     "email": {
-                        "key": "",
-                        "hint": ""
+                        "key": "eposta",
+                        "hint": "ornek@makine.local"
                     },
                     "group": {
-                        "key": "",
-                        "hint": ""
+                        "key": "grup",
+                        "hint": "tekil veya çoğul grup adları"
                     }
                 }
             },
             "input": {
-                "clear_button": ""
+                "clear_button": "Girdiyi temizle"
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
@@ -791,51 +791,51 @@
                 "close": "Kapat"
             },
             "multi_select": {
-                "placeholder": ""
+                "placeholder": "Birden fazla seçenek belirleyin"
             },
             "nav": {
                 "drawer_button": "Gezinme Çekmecesini Aç"
             },
             "notices": {
-                "bisecting": "",
-                "bisecting_continue": "",
-                "maintenance_mode_low": "",
-                "maintenance_mode_safe": ""
+                "bisecting": "Soruna neden olan uzantıyı belirlemek için uzantı ikiye bölme işlemi yürütülüyor.",
+                "bisecting_continue": "İkiye bölme devam ediyor",
+                "maintenance_mode_low": "Bakımda. Foruma yalnızca yöneticiler erişebilir.",
+                "maintenance_mode_safe": "Güvenli modda bakımda. Foruma yalnızca yöneticiler erişebilir ve hiçbir uzantı yüklenmez."
             },
             "number_suffix": {
                 "kilo_text": "K",
                 "mega_text": "M"
             },
             "pagination": {
-                "back_button": "",
-                "first_button": "",
-                "go_to_page_textbox_a11y_label": "",
-                "last_button": "",
-                "next_button": "",
-                "page_counter": ""
+                "back_button": "Önceki sayfa",
+                "first_button": "İlk sayfaya git",
+                "go_to_page_textbox_a11y_label": "Doğrudan sayfa numarasına git",
+                "last_button": "Son sayfaya git",
+                "next_button": "Sonraki sayfa",
+                "page_counter": "Sayfa {current} / {total}"
             },
             "search": {
-                "gambit_plus_button_a11y_label": "",
-                "gambit_minus_button_a11y_label": "",
-                "title": "",
-                "no_results_text": "",
-                "no_search_text": "",
-                "options_heading": "",
-                "placeholder": "",
-                "preview_heading": "",
-                "search_clear_button_accessible_label": ""
+                "gambit_plus_button_a11y_label": "Pozitif filtre ekle",
+                "gambit_minus_button_a11y_label": "Negatif filtre ekle",
+                "title": "Ara",
+                "no_results_text": "Burada hiç sonuç yok gibi görünüyor.",
+                "no_search_text": "Henüz bir arama yapmadınız.",
+                "options_heading": "Arama seçenekleri",
+                "placeholder": "Ara...",
+                "preview_heading": "Arama önizlemesi",
+                "search_clear_button_accessible_label": "Arama terimini temizle"
             },
             "search_source": {
                 "discussions": {
-                    "all_button": "",
-                    "heading": ""
+                    "all_button": "\"{query}\" için tüm tartışmalarda ara",
+                    "heading": "=> core.ref.discussions"
                 },
                 "posts": {
-                    "all_button": "",
-                    "heading": ""
+                    "all_button": "\"{query}\" için tüm gönderilerde ara",
+                    "heading": "=> core.ref.posts"
                 },
                 "users": {
-                    "heading": ""
+                    "heading": "=> core.ref.users"
                 }
             },
             "series": {
@@ -844,21 +844,21 @@
                 "two_text": "{first} ve {second}"
             },
             "user_selection_modal": {
-                "empty_results": "",
-                "max_items_to_select": "",
-                "search_placeholder": "",
-                "submit_button": "",
-                "title": ""
+                "empty_results": "Aramanızla eşleşen kullanıcı bulunamadı.",
+                "max_items_to_select": "{count, plural, one {En fazla # kullanıcı seçin} other {En fazla # kullanıcı seçin}}",
+                "search_placeholder": "=> core.ref.search_users",
+                "submit_button": "=> core.ref.okay",
+                "title": "İlgili kullanıcıları seçin"
             },
             "username": {
                 "deleted_text": "[silindi]"
             },
             "datetime_formats": {
-                "fullTime": "",
+                "fullTime": "LLLL",
                 "humanTimeShort": "D MMM",
                 "humanTimeLong": "ll",
                 "scrubber": "MMMM YYYY",
-                "userListJoinDate": ""
+                "userListJoinDate": "LLL"
             }
         },
         "views": {
@@ -895,9 +895,9 @@
                 "csrf_token_mismatch": "Çok uzun süre işlem yapmadın.",
                 "csrf_token_mismatch_return_link": "Geri dön, tekrar dene",
                 "invalid_confirmation_token": "Bu onaylama bağlantısı zaten kullanılmış veya geçersiz.",
-                "maintenance_mode_link": "",
-                "maintenance_mode_message": "",
-                "maintenance_mode_title": "",
+                "maintenance_mode_link": "Yönetici girişi",
+                "maintenance_mode_message": "Bu forum şu anda bakımda. Lütfen daha sonra tekrar kontrol edin.",
+                "maintenance_mode_title": "Bakım",
                 "not_authenticated": "Bu sayfaya erişim izniniz bulunmuyor. Giriş yaptıktan sonra tekrar deneyin.",
                 "not_found": "Aradığınız sayfa bulunamadı.",
                 "not_found_return_link": "{forum} forumuna geri dön",
@@ -910,7 +910,7 @@
                 "previous_page_button": "=> core.ref.previous_page"
             },
             "layout": {
-                "skip_to_content": ""
+                "skip_to_content": "İçeriğe atla"
             },
             "log_out": {
                 "log_out_button": "=> core.ref.log_out",
@@ -918,12 +918,12 @@
                 "title": "=> core.ref.log_out"
             },
             "log_in": {
-                "invalid_login_message": "",
-                "username_or_email_placeholder": "",
-                "password_placeholder": "",
-                "remember_me_label": "",
-                "submit_button": "",
-                "title": ""
+                "invalid_login_message": "=> core.ref.invalid_login_message",
+                "username_or_email_placeholder": "=> core.ref.username_or_email_placeholder",
+                "password_placeholder": "=> core.ref.password",
+                "remember_me_label": "=> core.ref.remember_me_label",
+                "submit_button": "=> core.ref.log_in",
+                "title": "=> core.ref.log_in"
             },
             "reset_password": {
                 "confirm_password_label": "Yeni Şifreyi Onayla",
@@ -932,17 +932,17 @@
                 "title": "=> core.ref.reset_your_password"
             },
             "unsubscribe_email": {
-                "title": "",
-                "return_to_forum": "",
-                "confirm_button": "",
-                "immediate_helptext": "",
-                "confirm_message": "",
-                "success_message": "",
-                "invalid_message": ""
+                "title": "Abonelik İptali Onayı",
+                "return_to_forum": "{forumTitle} sitesine dön",
+                "confirm_button": "Onayla",
+                "immediate_helptext": "Onayladığınızda aboneliğiniz derhal iptal edilecektir.",
+                "confirm_message": "{forumTitle} sitesinden \"{type}\" e-posta bildirimlerinin aboneliğini iptal etmek istediniz.",
+                "success_message": "{forumTitle} sitesinden \"{type}\" bildirimlerinin aboneliğini başarıyla iptal ettiniz. Tekrar almak isterseniz lütfen [ayarlarınızı güncelleyin]({settingsLink}).",
+                "invalid_message": "Bu abonelik iptal bağlantısı geçersiz veya zaten kullanılmış. {forumTitle} sitesinden gelen e-posta bildirimlerinde değişiklik yapmak için lütfen [ayarlarınızı kontrol edin]({settingsLink})."
             }
         },
         "api": {
-            "invalid_username_message": "",
+            "invalid_username_message": "Kullanıcı adı yalnızca harf, rakam ve tire içerebilir. En az bir harf bulunmalıdır.",
             "invalid_filter_type": {
                 "must_be_numeric_message": "{filter} filtresi sayısal olmalıdır.",
                 "must_not_be_array_message": "{filter} filtresi bir dizi olmamalıdır.",
@@ -950,39 +950,39 @@
             }
         },
         "email": {
-            "greeting": "",
-            "signoff": "",
+            "greeting": "Merhaba {displayName},",
+            "signoff": "{forumTitle} ekibi",
             "informational": {
-                "default_title": "",
-                "footer": "",
-                "footer_plain": ""
+                "default_title": "Bilgilendirme",
+                "footer": "Bu e-posta, [{forumTitle}]({forumUrl}) sitesindeki hesabınızla ilgili bir bilgilendirme olarak {userEmail} adresine gönderilmiştir.",
+                "footer_plain": "Bu e-posta, {forumTitle} sitesindeki hesabınızla ilgili bir bilgilendirme olarak {userEmail} adresine gönderilmiştir."
             },
             "notification": {
-                "default_title": "",
+                "default_title": "Bildirim",
                 "footer": {
-                    "main_text": "",
-                    "main_text_plain": "",
-                    "unsubscribe_text": "",
-                    "unsubscribe_text_plain": "",
-                    "settings_text": "",
-                    "settings_text_plain": ""
+                    "main_text": "Bu e-posta, [{forumTitle}]({forumUrl}) sitesinde \"{type}\" bildirimlerine abone olduğunuz için {email} adresine gönderilmiştir.",
+                    "main_text_plain": "Bu e-posta, {forumTitle} sitesinde \"{type}\" bildirimlerine abone olduğunuz için {email} adresine gönderilmiştir.",
+                    "unsubscribe_text": "Bu tür bildirimleri almak istemiyorsanız [buradan aboneliğinizi iptal edin]({unsubscribeLink}).",
+                    "unsubscribe_text_plain": "Bu tür bildirimleri almak istemiyorsanız buradan aboneliğinizi iptal edin: {unsubscribeLink}",
+                    "settings_text": "Bildirim ayarlarınızı [buradan]({settingsLink}) yönetin.",
+                    "settings_text_plain": "Bildirim ayarlarınızı buradan yönetin: {settingsLink}"
                 }
             },
             "activate_account": {
                 "subject": "Yeni Hesabını Etkinleştir",
-                "body": ""
+                "body": "Birisi (umarız siz) bu e-posta adresiyle {forum} sitesine kaydoldu.\n\nBu sizseniz aşağıdaki bağlantıya tıklamanız yeterli, hesabınız etkinleştirilecektir:\n{url}\n\nKaydolan siz değilseniz lütfen bu e-postayı dikkate almayın.\n"
             },
             "confirm_email": {
                 "subject": "Yeni E-posta Adresini Doğrula",
-                "body": ""
+                "body": "Birisi (umarız siz) {forum} sitesindeki e-posta adresini bu adresle değiştirdi.\n\nBu sizseniz aşağıdaki bağlantıya tıklamanız yeterli, e-posta adresiniz onaylanacaktır:\n{url}\n\nBu siz değilseniz lütfen bu e-postayı dikkate almayın.\n"
             },
             "reset_password": {
                 "subject": "=> core.ref.reset_your_password",
-                "body": ""
+                "body": "Birisi (umarız siz) {forum} sitesindeki hesabınız için şifre sıfırlama talebinde bulundu.\n\nBu sizseniz aşağıdaki bağlantıya tıklayarak şifrenizi sıfırlayabilirsiniz:\n{url}\n\nŞifrenizi değiştirmek istemiyorsanız bu e-postayı dikkate almayın, herhangi bir işlem yapılmayacaktır.\n"
             },
             "send_test": {
                 "subject": "Flarum Test Postası",
-                "body": ""
+                "body": "Bu, Flarum e-posta yapılandırmanızın düzgün çalıştığını doğrulamak için gönderilmiş bir test e-postasıdır.\n\nBu işlemi siz yaptıysanız yapılandırmanız doğru çalışıyor demektir.\n\nBu siz değilseniz lütfen bu e-postayı dikkate almayın.\n"
             }
         },
         "ref": {
@@ -997,8 +997,8 @@
             "custom_footer_title": "Özel Altbilgiyi Düzenle",
             "custom_header_text": "Sayfanın en üstünde görüntülenecek HTML kodu ekleyin, Flarum'un kendi üstbilgisinin üstünde.",
             "custom_header_title": "Özel Başlığı Düzenle",
-            "dark_hc_mode_label": "",
-            "dark_mode_label": "",
+            "dark_hc_mode_label": "Koyu Yüksek Kontrastlı Mod",
+            "dark_mode_label": "Koyu Mod",
             "delete": "Sil",
             "delete_forever": "Kalıcı Olarak Sil",
             "discussions": "Tartışmalar",
@@ -1009,9 +1009,9 @@
             "generic_confirmation_message": "Devam etmek istediğinizden emin misiniz? Bu işlem geri alınamaz.",
             "icon": "Simge",
             "icon_text": "<code>fas fa-</code> öneki <em>dahil</em>, herhangi bir <a>FontAwesome</a> ikon sınıfı adını girin.",
-            "invalid_login_message": "",
-            "light_hc_mode_label": "",
-            "light_mode_label": "",
+            "invalid_login_message": "Giriş bilgileriniz hatalı.",
+            "light_hc_mode_label": "Açık Yüksek Kontrastlı Mod",
+            "light_mode_label": "Açık Mod",
             "load_more": "Daha Fazla Yükle",
             "loading": "Yükleniyor...",
             "log_in": "Giriş Yap",
@@ -1019,20 +1019,20 @@
             "mark_all_as_read": "Tümünü Okundu Olarak İşaretle",
             "never": "Asla",
             "new_token": "Yeni Jeton",
-            "newest": "",
+            "newest": "Yeniler",
             "next_page": "Sonraki Sayfa",
             "notifications": "Bildirimler",
             "okay": "Tamam",
-            "oldest": "",
+            "oldest": "Eskiler",
             "password": "Şifre",
             "posts": "Gönderiler",
             "previous_page": "Önceki Sayfa",
-            "relevance": "",
-            "remember_me_label": "",
+            "relevance": "Alakalı",
+            "remember_me_label": "Beni Hatırla",
             "remove": "Kaldır",
             "rename": "Yeniden Adlandır",
             "reply": "Yanıtla",
-            "refresh": "",
+            "refresh": "Yenile",
             "reset_your_password": "Şifreni Sıfırla",
             "restore": "Geri Yükle",
             "save_changes": "Değişiklikleri Kaydet",
@@ -1043,7 +1043,7 @@
             "some_others": "{count, plural, one {# diğer} other {# diğer}}",
             "start_a_discussion": "Bir Tartışma Başlat",
             "username": "Kullanıcı Adı",
-            "username_or_email_placeholder": "",
+            "username_or_email_placeholder": "Kullanıcı Adı ya da E-posta",
             "users": "Kullanıcılar",
             "view": "Görüntüle",
             "write_a_reply": "Bir Yanıt Yaz...",
