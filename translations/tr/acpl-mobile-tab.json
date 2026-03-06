@@ -1,41 +1,41 @@
 {
     "acpl-mobile-tab": {
         "admin": {
-            "available_items": "",
-            "active_items": "",
-            "create_new_item_button": "",
+            "available_items": "Kullanılabilir öğeler",
+            "active_items": "Aktif öğeler",
+            "create_new_item_button": "Yeni öğe oluştur",
             "edit_item": {
-                "modal_title": "",
-                "label": "",
-                "label_placeholder": "",
-                "path": "",
-                "url": "",
-                "icon": "",
-                "icon_help": "",
-                "is_internal_checkbox": "",
-                "open_new_tab_checkbox": "",
-                "submit_button": "",
-                "delete_button": "",
-                "delete_item_confirmation": ""
+                "modal_title": "Öğeyi düzenle",
+                "label": "Etiket",
+                "label_placeholder": "Özel öğe",
+                "path": "Dizin",
+                "url": "Bağlantı",
+                "icon": "Simge",
+                "icon_help": "<code>fas fa-</code> öneki dahil olmak üzere herhangi bir <a>FontAwesome</a> simge sınıfı adını girin.",
+                "is_internal_checkbox": "Bu bir dahili bağlantı mı?",
+                "open_new_tab_checkbox": "Bağlantıyı yeni sekmede aç",
+                "submit_button": "Kaydet",
+                "delete_button": "Sil",
+                "delete_item_confirmation": "Bu öğeyi silmek istediğinizden emin misiniz?"
             },
             "scroll_settings": {
-                "toggle_label": "",
-                "threshold_label": "",
-                "threshold_help": ""
+                "toggle_label": "Kaydırmada görünürlüğü değiştir",
+                "threshold_label": "Kaydırma eşiği (px)",
+                "threshold_help": "Görünürlüğü değiştirmek için mevcut konumdan kaydırılması gereken mesafe."
             }
         },
         "lib": {
             "item": {
-                "home": "",
-                "all_discussions": "",
-                "categories": "",
-                "notifications": "",
-                "session": "",
-                "search": "",
-                "log_in": "",
-                "profile": "",
-                "tags": "",
-                "messages": ""
+                "home": "Anasayfa",
+                "all_discussions": "Tartışmalar",
+                "categories": "Kategoriler",
+                "notifications": "Bildirimler",
+                "session": "Oturum",
+                "search": "Ara",
+                "log_in": "Giriş Yap",
+                "profile": "Profil",
+                "tags": "Etiketler",
+                "messages": "Mesajlar"
             }
         }
     }
