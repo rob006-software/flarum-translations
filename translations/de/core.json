@@ -31,46 +31,46 @@
                     "help": "Versetze dein Forum in den Wartungsmodus, um zu verhindern, dass Benutzer darauf zugreifen können.",
                     "options": {
                         "none": "Keine Wartung.",
-                        "high": "",
-                        "low": "",
-                        "safe": ""
+                        "high": "Intensiver Wartungsmodus. Niemand kann auf das Forum zugreifen (kann nur über config.php aktiviert werden)",
+                        "low": "Einfacher Wartungsmodus. Administratoren können auf das Forum zugreifen.",
+                        "safe": "Abgesicherter Modus. Es werden keine Erweiterungen gestartet und nur Administratoren können auf das Forum zugreifen."
                     },
-                    "safe_mode_extensions": "",
-                    "safe_mode_extensions_override_help": "",
+                    "safe_mode_extensions": "Erweiterungen, die im abgesicherten Modus gestartet werden dürfen",
+                    "safe_mode_extensions_override_help": "Diese Einstellung wird durch den Schlüssel <code>safe_mode_extensions</code> in deiner Datei <code>config.php</code> überschrieben. (<b>{extensions}</b>)",
                     "section_label": "Wartung"
                 },
                 "fontawesome": {
                     "section_label": "FontAwesome-Symbole",
                     "source_label": "Symbolquelle",
-                    "source_help": "",
-                    "source_local": "",
+                    "source_help": "Wähle aus, wie FontAwesome-Symbole geladen werden sollen. „Lokal“ verwendet gebündelte Schriftarten, „CDN“ lädt von einem CDN und „Kit“ verwendet FontAwesome-Kits mit benutzerdefinierten Symbolen.",
+                    "source_local": "Lokal (Gebündelt)",
                     "source_cdn": "CDN",
-                    "source_kit": "",
+                    "source_kit": "FontAwesome-Kit",
                     "cdn_url_label": "CDN-URL",
-                    "cdn_url_help": "",
-                    "kit_url_label": "",
-                    "kit_url_help": "",
+                    "cdn_url_help": "Vollständige URL zur FontAwesome-CSS-Datei auf einem CDN",
+                    "kit_url_label": "Kit-URL",
+                    "kit_url_help": "Die URL deines FontAwesome-Kit-Skripts (von kit.fontawesome.com)",
                     "config_override": {
-                        "label": "",
-                        "help": ""
+                        "label": "Konfigurationsüberschreibung",
+                        "help": "Die FontAwesome-Einstellungen sind derzeit in deiner config.php-Datei festgelegt und können hier nicht geändert werden."
                     }
                 },
                 "pgsql": {
-                    "search_configuration": ""
+                    "search_configuration": "Zu verwendende Suchkonfiguration"
                 },
                 "queue": {
                     "section_label": "Warteschlange",
-                    "sync_info": "",
-                    "sync_help": "",
-                    "custom_driver": "",
-                    "retries_label": "",
-                    "retries_help": "",
-                    "memory_label": "",
-                    "memory_help": "",
-                    "timeout_label": "",
-                    "timeout_help": "",
-                    "rest_label": "",
-                    "rest_help": "",
+                    "sync_info": "Dein Forum verwendet den synchronen Warteschlangentreiber. Aufträge werden sofort im Hauptprozess-Thread verarbeitet.",
+                    "sync_help": "Für eine bessere Leistung und Benutzererfahrung solltest du die Verwendung des Datenbank-Warteschlangentreibers in Betracht ziehen. Weitere Informationen findest du in der Dokumentation.",
+                    "custom_driver": "Dein Forum verwendet den {driver} Queue-Treiber, der von einer Erweiterung bereitgestellt wird.",
+                    "retries_label": "Job-Wiederholungsversuche",
+                    "retries_help": "Maximale Anzahl von Versuchen, einen Auftrag auszuführen, bevor er als fehlgeschlagen markiert wird. Der Standardwert ist 1.",
+                    "memory_label": "Speicherlimit (MB)",
+                    "memory_help": "Maximaler Speicher, den der Queue-Worker vor dem Neustart verwenden kann. Der Standardwert beträgt 128 MB.",
+                    "timeout_label": "Zeitlimit für Jobs (Sekunden)",
+                    "timeout_help": "Maximaldauer, die ein einzelner Job ausgeführt werden kann. Der Standardwert beträgt 60 Sekunden.",
+                    "rest_label": "Restzeit (Sekunden)",
+                    "rest_help": "Zeit, die zwischen der Verarbeitung von Jobs gewartet werden soll. Der Standardwert ist 0 Sekunden.",
                     "backoff_label": "",
                     "backoff_help": ""
                 },
