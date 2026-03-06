@@ -2,9 +2,9 @@
     "flarum-sticky": {
         "admin": {
             "settings": {
-                "enable_display_excerpt": "",
-                "only_sticky_unread_discussions_label": "",
-                "only_sticky_unread_discussions_help": ""
+                "enable_display_excerpt": "Afficher un extrait du premier message lorsqu'une discussion épinglée n'a pas été lue",
+                "only_sticky_unread_discussions_label": "Seules les discussions non lues et épinglées",
+                "only_sticky_unread_discussions_help": "Sur la page de toutes les discussions, les discussions épinglées non lues sont affichées en haut, tandis que les discussions épinglées lues suivent l'ordre normal."
             },
             "permissions": {
                 "sticky_discussions_label": "Discussions épinglées"
@@ -27,7 +27,7 @@
             "gambits": {
                 "discussions": {
                     "sticky": {
-                        "key": ""
+                        "key": "a épinglé"
                     }
                 }
             }
