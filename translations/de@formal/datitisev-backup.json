@@ -16,9 +16,9 @@
                 "sftp": "SFTP"
             },
             "settings_button": "Konfigurieren",
-            "delete_button": "",
-            "delete_confirmation": "",
-            "create_button": "",
+            "delete_button": "Löschen",
+            "delete_confirmation": "Möchtest du „{name}“ ({adapter}) wirklich löschen?",
+            "create_button": "Neuen Adapter hinzufügen",
             "required_package_button": "Einrichten",
             "required-package-modal": {
                 "title": "Für {adapter} wird ein Paket benötigt",
@@ -73,12 +73,12 @@
                 },
                 "aws": {
                     "credentials-key": {
-                        "label": "",
-                        "description": ""
+                        "label": "Schlüssel",
+                        "description": "AWS-Anmeldedaten-Schlüssel"
                     },
                     "credentials-secret": {
-                        "label": "",
-                        "description": ""
+                        "label": "Secret",
+                        "description": "AWS-Anmeldedaten-Schlüssel"
                     },
                     "region": {
                         "label": "Region",
@@ -99,31 +99,31 @@
                 },
                 "dropbox": {
                     "key": {
-                        "label": ""
+                        "label": "App-Schlüssel"
                     },
                     "secret": {
-                        "label": ""
+                        "label": "App-Secret"
                     },
                     "refresh-token": {
                         "label": "",
                         "description": ""
                     },
                     "help": {
-                        "obtain-access-code-label": "",
-                        "obtain-access-code-button": "",
-                        "obtain-refresh-token-label": "",
-                        "obtain-refresh-token-button": "",
-                        "obtain-refresh-token-success": ""
+                        "obtain-access-code-label": "Zugangscode erhalten (App-Schlüssel erforderlich)",
+                        "obtain-access-code-button": "Dropbox öffnen",
+                        "obtain-refresh-token-label": "Verwende den Zugriffscode, um ein Aktualisierungstoken zu erhalten (erfordert App-Schlüssel und Secret)",
+                        "obtain-refresh-token-button": "Code verwenden",
+                        "obtain-refresh-token-success": "Aktualisierungstoken erfolgreich abgerufen und oben aktualisiert! Speichere die Änderungen, um sie zu sichern."
                     }
                 },
                 "gdrive": {
                     "client-id": {
-                        "label": "",
+                        "label": "Client-ID",
                         "description": ""
                     },
                     "client-secret": {
-                        "label": "",
-                        "description": ""
+                        "label": "Client-Secret",
+                        "description": " "
                     },
                     "refresh-token": {
                         "label": "Token aktualisieren",
@@ -134,8 +134,8 @@
                         "description": "https://drive.google.com/drive/u/0/folders/ID"
                     },
                     "help": {
-                        "test_success_alert": "",
-                        "test_button": ""
+                        "test_success_alert": "Erfolgreich mit Google Drive verbunden! Speichere die Änderungen, um die Einstellungen zu übernehmen.",
+                        "test_button": "Verbindung testen"
                     }
                 },
                 "ftp": {

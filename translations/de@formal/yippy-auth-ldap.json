@@ -1,18 +1,18 @@
 {
     "yippy-auth-ldap": {
         "forum": {
-            "account_found": "",
-            "log_in_with": "",
-            "log_out": "",
+            "account_found": "Konto auf {server} gefunden",
+            "log_in_with": "Bei {server} anmelden",
+            "log_out": "=> core.ref.log_out",
             "errors": {
-                "core_csrf_token_mismatch": "",
-                "search_filter_is_invalid": "",
+                "core_csrf_token_mismatch": "=> core.views.error.csrf_token_mismatch",
+                "search_filter_is_invalid": "Die Suche nach {server} kann aufgrund ungültiger „LDAP-Suchfelder“ nicht gefiltert werden. Ändere die Erweiterungseinstellungen.",
                 "not_authenticated": "",
-                "csrf_token_mismatch": "",
+                "csrf_token_mismatch": "Du bist zu lange inaktiv gewesen. Bitte aktualisiere die Seite und versuche es erneut.",
                 "domains": {
                     "connection_failed": "",
-                    "no_domains": "",
-                    "empty_host": "",
+                    "no_domains": "In den Admin-Einstellungen sind keine Domänen festgelegt, passe die Erweiterungseinstellungen an.",
+                    "empty_host": "Für die Domäne {domain_index} sind keine Domänen- oder Server-IP-Adressen festgelegt. Passe die Erweiterungseinstellungen an.",
                     "empty_base_dn": "",
                     "empty_user_username": "",
                     "empty_search_field": "",
@@ -20,54 +20,54 @@
                     "mail_field_does_not_exist": ""
                 },
                 "account": {
-                    "invalid_inputs": "",
-                    "not_found": "",
-                    "incorrect_details": "",
-                    "password_expired": "",
-                    "disabled": "",
-                    "expired": "",
-                    "locked": ""
+                    "invalid_inputs": "Eingabefelder dürfen nicht leer sein",
+                    "not_found": "Dein Konto kann auf {server} nicht gefunden werden.",
+                    "incorrect_details": "Falsches Passwort eingegeben.",
+                    "password_expired": "Dein Passwort ist abgelaufen.",
+                    "disabled": "Dein Konto wurde deaktiviert. Wende dich bitte an die Administration von {server}.",
+                    "expired": "Dein Konto ist abgelaufen. Wende sich bitte an die Administration von {server}.",
+                    "locked": "Dein Konto ist gesperrt. Wende sich bitte an die Administration von {server}."
                 }
             }
         },
         "admin": {
             "settings": {
-                "title": "",
+                "title": "LDAP-Einstellungen",
                 "method_name": "",
                 "domains": {
                     "title": "",
                     "description": "",
-                    "add": "",
-                    "banner": "",
+                    "add": "Domäne hinzufügen",
+                    "banner": "Domäne {index} – [{isEnabled}]",
                     "is_enabled": {
-                        "enabled": "",
-                        "disabled": ""
+                        "enabled": "Aktivieren",
+                        "disabled": "Deaktiviert"
                     },
                     "header": {
-                        "server": "",
-                        "admin": "",
-                        "search_fields": "",
+                        "server": "LDAP-Server-Einstellungen",
+                        "admin": "LDAP-Admin",
+                        "search_fields": "LDAP-Kontosuche",
                         "search_fields_description": "",
-                        "flarum": "",
+                        "flarum": "Flarum Benutzerprofil",
                         "flarum_description": ""
                     },
                     "data": {
-                        "host": "",
-                        "host_help": "",
+                        "host": "Domänen- oder Server-IP-Adressen",
+                        "host_help": "Durch Kommas getrennt",
                         "base_dn": "",
                         "base_dn_help": "",
                         "filter": "",
                         "filter_help": "",
-                        "port": "",
-                        "port_help": "",
-                        "version": "",
+                        "port": "Port",
+                        "port_help": "Nicht-SSL (Port 389) oder SSL (Port 636).",
+                        "version": "LDAP-Version",
                         "version_help": "",
                         "follow_referrals": "",
-                        "use_ssl": "",
-                        "use_tls": "",
+                        "use_ssl": "SSL verwenden",
+                        "use_tls": "TLS verwenden",
                         "admin_dn": "",
                         "admin_dn_help": "",
-                        "admin_password": "",
+                        "admin_password": "Passwort",
                         "admin_password_help": "",
                         "search_user_fields": "",
                         "search_user_fields_help": "",
