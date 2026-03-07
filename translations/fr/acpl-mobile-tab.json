@@ -1,42 +1,42 @@
 {
     "acpl-mobile-tab": {
         "admin": {
-            "available_items": "",
-            "active_items": "",
-            "create_new_item_button": "",
+            "available_items": "Éléments disponibles",
+            "active_items": "Élément actifs",
+            "create_new_item_button": "Créer un nouvel élément",
             "edit_item": {
-                "modal_title": "",
-                "label": "",
-                "label_placeholder": "",
-                "path": "",
-                "url": "",
-                "icon": "",
-                "icon_help": "",
-                "is_internal_checkbox": "",
-                "open_new_tab_checkbox": "",
-                "submit_button": "",
-                "delete_button": "",
-                "delete_item_confirmation": ""
+                "modal_title": "Modifier un élément",
+                "label": "Libellé",
+                "label_placeholder": "Mon élément personnalisé",
+                "path": "Chemin",
+                "url": "URL",
+                "icon": "Icône",
+                "icon_help": "Saisissez le nom de n'importe quelle classe d'icônes de <a>Font Awesome</a>, en incluant le préfixe <code>fas fa-</code>.",
+                "is_internal_checkbox": "Est-ce un lien interne ?",
+                "open_new_tab_checkbox": "Ouvrir le lien dans un nouvel onglet",
+                "submit_button": "Enregistrer",
+                "delete_button": "Supprimer",
+                "delete_item_confirmation": "Êtes-vous sûr de vouloir supprimer cet élément ?"
             },
             "scroll_settings": {
-                "toggle_label": "",
-                "threshold_label": "",
-                "threshold_help": ""
+                "toggle_label": "Activer ou désactiver l'affichage lors du défilement",
+                "threshold_label": "Seuil de défilement (px)",
+                "threshold_help": "Distance à parcourir à partir de la position actuelle pour basculer la visibilité."
             }
         },
         "lib": {
             "item": {
-                "home": "",
-                "all_discussions": "",
-                "categories": "",
-                "notifications": "",
-                "session": "",
-                "search": "",
-                "log_in": "",
-                "profile": "",
-                "tags": "",
-                "messages": "",
-                "fof-byobu": ""
+                "home": "Accueil",
+                "all_discussions": "Discussions",
+                "categories": "Catégories",
+                "notifications": "Notifications",
+                "session": "Session",
+                "search": "Rechercher",
+                "log_in": "Se connecter",
+                "profile": "Profil",
+                "tags": "Étiquettes",
+                "messages": "Messages",
+                "fof-byobu": "Privé"
             }
         }
     }
