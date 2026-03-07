@@ -12,13 +12,13 @@
                 "title": "Réactions",
                 "anonymous_count": "{count, plural, one {# utilisateur anonyme} other {# utilisateurs anonymes}}",
                 "no_reactions": "Il n'y a aucune réaction pour le moment",
-                "remove_all_reaction_type": "",
-                "remove_user_reaction": ""
+                "remove_all_reaction_type": "Supprimer toutes les réactions {réaction}",
+                "remove_user_reaction": "Supprimer la réaction"
             },
             "mod_item": "Voir les réactions",
             "react_button_label": "Réagir",
-            "reaction_button_label": "",
-            "reacted_with_label": ""
+            "reaction_button_label": "Réagir avec {réaction}",
+            "reacted_with_label": "{count, plural, one {{reaction} (# réaction)} other {{reaction} (# réactions)}}"
         },
         "admin": {
             "permissions": {
@@ -42,8 +42,8 @@
                         "identifier": "Identifiant"
                     },
                     "delete_confirmation": "Êtes-vous sûr de vouloir supprimer cette réaction ? Cette action ne peut pas être annulée.",
-                    "delete_reaction_button": "",
-                    "add_reaction_button": ""
+                    "delete_reaction_button": "Supprimer la réaction",
+                    "add_reaction_button": "Ajouter une réaction"
                 },
                 "convert": {
                     "help": "Si vous venez de mettre à jour votre extension, vos réactions devront être converties. Si vous venez d'installer cette extension, vous pouvez ignorer ce message en toute sécurité.",
