@@ -868,6 +868,13 @@ return [
 	'glowingblue-author-filter' => [
 		'tag' => 'https://raw.githubusercontent.com/glowingblue/flarum-ext-author-filter/1.0.1/resources/locale/en.yml',
 	],
+	'gitzaai-mobile-ui-tab-2' => [
+		'tag' => 'https://raw.githubusercontent.com/gitzaai/mobile-ui-tab-2/0.1/resources/locale/en.yml',
+		'__builtInLanguages' => [
+			'ja',
+			'zh_Hans',
+		],
+	],
 	'glowingblue-localizd' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/84b06a54d8679050557844666ca9436064cb016b/glowingblue-localizd.yml',
 	],
