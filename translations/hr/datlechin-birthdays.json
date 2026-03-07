@@ -2,57 +2,57 @@
     "datlechin-birthdays": {
         "admin": {
             "permissions": {
-                "edit_own_birthday_label": "",
-                "view_birthday_label": ""
+                "edit_own_birthday_label": "Uredi vlastiti rođendan",
+                "view_birthday_label": "Prikaži rođendan"
             },
             "settings": {
-                "set_on_registration_label": "",
-                "required_label": "",
-                "required_help": "",
-                "min_age_label": "",
-                "min_age_help": "",
-                "date_format_label": "",
-                "date_format_help": "",
-                "date_none_year_label": ""
+                "set_on_registration_label": "Omogući postavljanje rođendana prilikom registracije",
+                "required_label": "Obavezni unos datuma rođenja",
+                "required_help": "Potrebno je omogućiti opciju \"Postavi pri registraciji\" kako bi ova opcija funkcionirala",
+                "min_age_label": "Minimalna dob",
+                "min_age_help": "Minimalna dob za registraciju",
+                "date_format_label": "Format datuma",
+                "date_format_help": "Koristite <a>dayjs</a> format datuma. Ostavite prazno za korištenje zadanog formata.",
+                "date_none_year_label": "Format datuma bez godine"
             }
         },
         "forum": {
             "user": {
-                "birthday_text": "",
-                "age_text": ""
+                "birthday_text": "Rođendan: {date}",
+                "age_text": "Dob: {age}"
             },
             "change_dob": {
-                "title": "",
-                "date_of_birth_text": "",
-                "submit_button": ""
+                "title": "Uredi datum rođenja",
+                "date_of_birth_text": "=> datlechin-birthdays.ref.date_of_birth",
+                "submit_button": "=> core.ref.save_changes"
             },
             "settings": {
-                "change_dob_label": "",
-                "dob_heading": "",
-                "show_dob_date_label": "",
-                "show_dob_year_label": "",
-                "show_dob_year_help": ""
+                "change_dob_label": "Promijeni datum rođenja",
+                "dob_heading": "=> datlechin-birthdays.ref.date_of_birth",
+                "show_dob_date_label": "Prikaži dan i mjesec rođenja",
+                "show_dob_year_label": "Prikaži godinu rođenja",
+                "show_dob_year_help": "Ovo će omogućiti drugima da vide vašu dob."
             },
             "edit_user": {
-                "dob_heading": ""
+                "dob_heading": "=> datlechin-birthdays.ref.date_of_birth"
             },
             "nav": {
-                "nav_item": ""
+                "nav_item": "Današnji rođendani"
             },
             "page": {
-                "discussion_count": "",
-                "post_count": ""
+                "discussion_count": "{count, plural, one {Tema: #} other {Teme: #}}",
+                "post_count": "{count, plural, one {Objava: #} other {Objave: #}}"
             },
             "sign_up": {
-                "dob_placeholder": ""
+                "dob_placeholder": "=> datlechin-birthdays.ref.date_of_birth"
             }
         },
         "api": {
-            "invalid_dob_message": "",
-            "invalid_age_message": ""
+            "invalid_dob_message": "Neispravan datum rođenja",
+            "invalid_age_message": "Vaša dob mora biti najmanje {minAge} godina."
         },
         "ref": {
-            "date_of_birth": ""
+            "date_of_birth": "Datum rođenja"
         }
     }
 }
