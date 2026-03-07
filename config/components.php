@@ -96,6 +96,9 @@ return [
 	],
 	'avokadogames-auth-discord' => [
 		'tag' => 'https://raw.githubusercontent.com/AvokadoGames/auth-discord/0.1.3/resources/locale/en.yml',
+		'__builtInLanguages' => [
+			'tr',
+		],
 	],
 	'blessing-oauth-client' => [
 		'tag' => 'https://raw.githubusercontent.com/bs-community/flarum-oauth-client/v2.0.2/locale/en.yml',
