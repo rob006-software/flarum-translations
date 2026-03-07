@@ -3,7 +3,7 @@
         "forum": {
             "modal": {
                 "title": "Fusionner les discussions",
-                "search_discussions_placeholder": "",
+                "search_discussions_placeholder": "Rechercher dans les discussions...",
                 "ordering_heading": "Ordre de fusion",
                 "ordering_date_label": "Fusionner les messages par date de création",
                 "ordering_date_help": "Les messages de la discussion qui en résulte sont réorganisés en fonction de leur date de création individuelle",
@@ -11,14 +11,14 @@
                 "ordering_suffix_help": "Les messages qui sont fusionnés dans la discussion restante seront ajoutés à la fin de la discussion",
                 "type_heading": "Type de fusion",
                 "type_target_label": "Fusionner avec moi",
-                "type_target_help_text": "",
+                "type_target_help_text": "Sélectionnez une ou plusieurs discussions à fusionner avec {title}.",
                 "type_from_label": "Fusionner cette discussion avec une autre",
-                "type_from_help_text": "",
+                "type_from_help_text": "Sélectionnez la discussion cible dans laquelle fusionner {title}.",
                 "load_preview_button": "Prévisualiser",
                 "submit_button": "=> fof-merge-discussions.ref.merge"
             },
             "notification": {
-                "discussion_merged": "",
+                "discussion_merged": "Votre discussion {oldTitle} a été fusionnée dans cette discussion par {username}.",
                 "preferences": {
                     "discussion_merged": "Quelqu'un a fusionné une de mes discussions avec une autre"
                 }
@@ -27,7 +27,7 @@
                 "merge": "=> fof-merge-discussions.ref.merge"
             },
             "post": {
-                "merged": ""
+                "merged": "{count, plural, one {Fusion 1 message de {titles}.} other {Fusion de {count} messages de {titles}.}}"
             }
         },
         "admin": {
@@ -53,7 +53,7 @@
         },
         "email": {
             "merged": {
-                "body": "",
+                "body": "Votre discussion, {merged_discussion_title}, a été fusionnée dans {discussion_title} par {actor_display_name}.\n\nConsultez-le ici {discussion_url} .\n",
                 "subject": "Votre discussion \"{merged_discussion_title}\" a été fusionnée"
             }
         }
