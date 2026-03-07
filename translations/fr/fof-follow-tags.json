@@ -60,30 +60,30 @@
         },
         "email": {
             "newDiscussionInTag": {
-                "subject": "",
+                "subject": "[Étiquette | Nouvelle discussion] {title}",
                 "plain": {
-                    "body": ""
+                    "body": "{actor_display_name} a démarré une discussion sous une étiquette que vous suivez : {discussion_title}\n\nPour consulter la nouvelle discussion, cliquez sur le lien suivant :\n{discussion_url}\n\n---\n\n{content}\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{actor_display_name} a démarré une discussion sous une étiquette que vous suivez : [{discussion_title}]({discussion_url})\n"
                 }
             },
             "newPostInTag": {
-                "subject": "",
+                "subject": "[Étiquette | Nouveau message] {title}",
                 "plain": {
-                    "body": ""
+                    "body": "{actor_display_name} a publié un message dans une discussion sur un tag que vous suivez : {discussion_title}\n\nPour voir la nouvelle activité, cliquez sur le lien suivant :\n{post_url}\n\n---\n\n{content}\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{actor_display_name} a publié un message dans une discussion sur un tag que vous suivez : [{discussion_title}]({post_url})\n"
                 }
             },
             "newDiscussionTag": {
-                "subject": "",
+                "subject": "[Étiquette | Étiquette modifiée] {title}",
                 "plain": {
-                    "body": ""
+                    "body": "{actor_display_name} vient de modifier l'étiquette d'une discussion de {author_display_name} par une étiquette que vous suivez {discussion_title}.\n\nPour voir la nouvelle discussion, cliquez sur le lien suivant :\n{discussion_url}\n\n---\n\n{content}\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{actor_display_name} vient de modifier l'étiquette d'une discussion de {author_display_name} par une étiquette que vous suivez {discussion_title}.\n"
                 }
             }
         },
