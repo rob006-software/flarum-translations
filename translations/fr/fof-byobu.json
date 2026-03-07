@@ -123,21 +123,21 @@
             "body": {
                 "private_discussion_created": "{actor_display_name} a démarré une nouvelle discussion privée avec vous en tant que destinataire : {discussion_title}.\n\nVous pouvez la consulter ici :\n{discussion_url}\n\nVous devrez peut-être vous connecter avant de pouvoir accéder à ce lien.\n",
                 "private_discussion_replied": "{actor_display_name} a publié un message dans une discussion privée dans laquelle vous êtes destinataire : {discussion_title}.\n\nVous pouvez la consulter ici :\n{post_url}\n\nVous devrez peut-être vous connecter avant de pouvoir accéder à ce lien.\n",
-                "recipient_removed": "{actor_display_name} a quitté la discussion privée : {discussion_title}. Il ne pourra plus voir son contenu.\n\nRegardez-le ici :\n{discussion_url}\n\nVous devrez peut-être vous connecter avant de pouvoir accéder à ce lien.\n",
-                "private_discussion_added": "{actor_display_name} vous a ajouté à une discussion privée existante : {discussion_title}.\n\nRegardez-le ici :\n{discussion_url}\n\nVous devrez peut-être vous connecter avant de pouvoir accéder à ce lien.\n",
-                "made_public": ""
+                "recipient_removed": "{actor_display_name} a quitté la discussion privée : {discussion_title}. Il ne pourra plus voir son contenu.\n\nVous pouvez la consulter ici :\n{discussion_url}\n\nVous devrez peut-être vous connecter avant de pouvoir accéder à ce lien.\n",
+                "private_discussion_added": "{actor_display_name} vous a ajouté à une discussion privée existante : {discussion_title}.\n\nVous pouvez la consulter ici :\n{discussion_url}\n\nVous devrez peut-être vous connecter avant de pouvoir accéder à ce lien.\n",
+                "made_public": "{actor_display_name} a supprimé tous les destinataires et rendu la discussion publique : {discussion_title}.\n\nVous pouvez la consulter ici :\n{discussion_url}\n\nVous devrez peut-être vous connecter avant de pouvoir accéder à ce lien.\n"
             }
         },
         "lib": {
             "gambits": {
                 "byobu": {
-                    "key": ""
+                    "key": "byobu"
                 },
                 "private": {
-                    "key": ""
+                    "key": "privé"
                 },
                 "allows-pd": {
-                    "key": ""
+                    "key": "autorise-dp"
                 }
             }
         }
