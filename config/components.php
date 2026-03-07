@@ -873,6 +873,9 @@ return [
 	],
 	'liyanqwq-cravatar' => [
 		'tag' => 'https://raw.githubusercontent.com/liyanqwq/flarum-cravatar/v0.1.0/resources/locale/en.yml',
+		'__builtInLanguages' => [
+			'zh_Hans',
+		],
 	],
 	'maicol07-oidc-client' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/maicol07-oidc-client.yml',
