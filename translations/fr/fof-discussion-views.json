@@ -2,8 +2,8 @@
     "core": {
         "forum": {
             "index_sort": {
-                "most_viewed_button": "",
-                "least_viewed_button": ""
+                "most_viewed_button": "Les plus consultés",
+                "least_viewed_button": "Les moins consultés"
             }
         }
     },
@@ -13,7 +13,7 @@
                 "title": "Réinitialiser le nombre de vues de la discussion",
                 "submit": "Envoyer",
                 "label": "Définir le nombre de vues",
-                "invalid": ""
+                "invalid": "Veuillez saisir un nombre valide supérieur ou égal à 0"
             },
             "discussion_controls": {
                 "resetviews_button": "Définir le nombre de vues"
@@ -30,7 +30,7 @@
         "lib": {
             "gambits": {
                 "popular": {
-                    "key": ""
+                    "key": "Populaire"
                 }
             }
         }
