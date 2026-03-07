@@ -39,12 +39,12 @@
             "modal_notification": {
                 "title_text": "Benachrichtigung senden",
                 "recipients_label": "Empfänger",
-                "recipients_placeholder": "",
+                "recipients_placeholder": "Gib einen Benutzernamen oder Gruppennamen ein...",
                 "message_label": "Nachricht",
                 "url_label": "Ziellink",
                 "url_placeholder": "https://www.beispiel.de",
                 "submit_button": "Benachrichtigung senden",
-                "notification_sent_message": "",
+                "notification_sent_message": "Benachrichtigungen wurden an {recipientsCount} Benutzer gesendet!",
                 "notification_type_label": "Benachrichtigungsart",
                 "no_notification_types": "Keine aktiven Benachrichtigungsarten gefunden.",
                 "preview_title": "Benachrichtigungsvorschau",
@@ -56,10 +56,10 @@
             }
         },
         "api": {
-            "message_required": "",
-            "user_ids_required": "",
-            "subject_id_required": "",
-            "no_valid_recipients": ""
+            "message_required": "Nachricht ist erforderlich.",
+            "user_ids_required": "Benutzer-IDs sind erforderlich.",
+            "subject_id_required": "Benachrichtigungsart ist erforderlich.",
+            "no_valid_recipients": "Keine gültigen Empfänger gefunden."
         }
     }
 }
