@@ -3,199 +3,199 @@
         "admin": {
             "settings": {
                 "general": {
-                    "heading": "",
-                    "help": ""
+                    "heading": "Opće postavke",
+                    "help": "Ove postavke kontroliraju osnovne funkcije proširenja Ankete."
                 },
                 "global_polls": {
-                    "heading": "",
-                    "help": ""
+                    "heading": "Globalne ankete",
+                    "help": "Ove postavke kontroliraju funkciju globalnih anketa."
                 },
                 "image": {
-                    "heading": "",
-                    "help": ""
+                    "heading": "Postavke slika",
+                    "help": "Ove postavke kontroliraju postavke slika za ankete."
                 },
-                "allow_option_image": "",
-                "allow_image_uploads": "",
-                "allow_image_uploads_help": "",
-                "enable_global_polls": "",
-                "enable_global_polls_help": "",
-                "enabled_poll_groups": "",
-                "enabled_poll_groups_help": "",
-                "max_options": "",
-                "options_color_blend": "",
-                "options_color_blend_help": "",
-                "image_height": "",
-                "image_width": ""
+                "allow_option_image": "Dozvoli unos URL-a slike za svaku opciju ankete",
+                "allow_image_uploads": "Dozvoli učitavanje slika za ankete i njihove opcije",
+                "allow_image_uploads_help": "Ako je omogućeno, korisnici će moći učitavati slike uz mogućnost unosa URL-a slike (ako je omogućeno za opcije, uvijek je omogućeno za samu anketu).",
+                "enable_global_polls": "Omogući globalne ankete",
+                "enable_global_polls_help": "Globalne ankete nisu vezane uz određenu objavu i dostupne su putem namjenske stranice anketa.",
+                "enabled_poll_groups": "Omogući grupe anketa",
+                "enabled_poll_groups_help": "Grupe anketa omogućuju grupiranje globalnih anketa i njihov prikaz na namjenskoj stranici.",
+                "max_options": "Maksimalni broj opcija po anketi",
+                "options_color_blend": "Miješanje boje teksta u opcijama ankete",
+                "options_color_blend_help": "Koristite ovo za miješanje boja kako bi opcije ankete bile čitljivije. Onemogućite ako ova funkcija uzrokuje probleme s izgledom vašeg foruma, smanjujući čitljivost.",
+                "image_height": "Promjena visine slike",
+                "image_width": "Promjena širine slike"
             },
             "permissions": {
-                "view_results_without_voting": "",
-                "start": "",
-                "start_global": "",
-                "self_edit": "",
-                "self_post_edit": "",
-                "upload_images": "",
-                "vote": "",
-                "change_vote": "",
-                "moderate": "",
-                "view_group": "",
-                "start_group": "",
-                "moderate_group": ""
+                "view_results_without_voting": "Pregled rezultata bez glasanja",
+                "start": "Pokreni anketu",
+                "start_global": "Pokreni globalnu anketu",
+                "self_edit": "Uredi izrađene ankete (zahtijeva dozvolu uređivanja objava)",
+                "self_post_edit": "Uredi *sve* ankete na vlastitim objavama (zahtijeva dozvolu uređivanja objava)",
+                "upload_images": "Dozvoli korisnicima učitavanje slika za ankete",
+                "vote": "Glasaj u anketama",
+                "change_vote": "Promijeni glas",
+                "moderate": "Uredi i ukloni ankete",
+                "view_group": "Pregledaj grupe anketa",
+                "start_group": "Izradi grupe anketa",
+                "moderate_group": "Uredi i ukloni grupe anketa"
             }
         },
         "forum": {
-            "days_remaining": "",
-            "no_permission": "",
-            "poll_ended": "",
-            "public_poll": "",
-            "max_votes_allowed": "",
-            "polls_count": "",
-            "poll_never_ends": "",
-            "answers": "",
+            "days_remaining": "Anketa završava {time}.",
+            "no_permission": "Nemate dozvolu za glasanje",
+            "poll_ended": "Ova anketa je završila.",
+            "public_poll": "Pregledaj glasače",
+            "max_votes_allowed": "Anketa dopušta glasanje za {max, plural, one {# opciju} other {# opcije}}.",
+            "polls_count": "{count, plural, one {{count} glas} other {{count} glasova}}",
+            "poll_never_ends": "Anketa nikad ne završava",
+            "answers": "Odgovori",
             "poll": {
-                "cannot_change_vote": "",
-                "submit_button": "",
-                "start_poll_button": "",
-                "cannot_start_poll_button": "",
-                "total_votes": ""
+                "cannot_change_vote": "Ne možete promijeniti svoj glas nakon glasanja.",
+                "submit_button": "Glasaj",
+                "start_poll_button": "Pokreni globalnu anketu",
+                "cannot_start_poll_button": "Nije moguće pokrenuti anketu",
+                "total_votes": "{count, plural, one {# glas je dan} other {# glasova je dano}}"
             },
             "poll_controls": {
-                "edit_label": "",
-                "delete_label": "",
-                "view_label": "",
-                "delete_confirmation": "",
-                "delete_success_message": "",
-                "delete_error_message": ""
+                "edit_label": "=> core.ref.edit",
+                "delete_label": "=> core.ref.delete",
+                "view_label": "=> core.ref.view",
+                "delete_confirmation": "Jeste li sigurni da želite izbrisati ovu anketu?",
+                "delete_success_message": "Anketa je uspješno izbrisana.",
+                "delete_error_message": "Došlo je do pogreške prilikom brisanja ankete."
             },
             "poll_form": {
-                "delete": "",
-                "error": ""
+                "delete": "Izbriši anketu",
+                "error": "Došlo je do pogreške pri spremanju ankete, molimo kontaktirajte administratora."
             },
             "poll_groups": {
                 "composer": {
-                    "add_title": "",
-                    "edit_title": "",
-                    "save_changes": "",
-                    "delete": "",
-                    "groups_manager": "",
-                    "view_group": "",
-                    "success": ""
+                    "add_title": "Dodaj grupu anketa",
+                    "edit_title": "Uredi grupu anketa",
+                    "save_changes": "=> core.ref.save_changes",
+                    "delete": "Izbriši grupu anketa",
+                    "groups_manager": "Upravitelj grupa anketa",
+                    "view_group": "Pregledaj grupu anketa",
+                    "success": "Grupa anketa je uspješno spremljena."
                 },
                 "list_page": {
-                    "title": "",
-                    "start_poll_group_button": "",
-                    "cannot_start_poll_group_button": "",
-                    "empty_text": "",
-                    "load_more_button": "",
-                    "no_polls": "",
-                    "add_poll_button": ""
+                    "title": "Grupe anketa",
+                    "start_poll_group_button": "Pokreni grupu anketa",
+                    "cannot_start_poll_group_button": "Nije moguće pokrenuti grupu anketa",
+                    "empty_text": "Čini se da ovdje nema grupa anketa.",
+                    "load_more_button": "=> core.ref.load_more",
+                    "no_polls": "Nema anketa u ovoj grupi.",
+                    "add_poll_button": "Dodaj anketu u grupu"
                 },
                 "controls": {
-                    "add_poll_label": "",
-                    "edit_label": "",
-                    "view_label": "",
-                    "delete_label": "",
-                    "delete_confirmation": "",
-                    "delete_success_message": "",
-                    "delete_error_message": ""
+                    "add_poll_label": "Dodaj anketu",
+                    "edit_label": "=> core.ref.edit",
+                    "view_label": "Pregledaj grupu anketa",
+                    "delete_label": "=> core.ref.delete",
+                    "delete_confirmation": "Jeste li sigurni da želite izbrisati ovu grupu anketa?",
+                    "delete_success_message": "Grupa anketa je uspješno izbrisana.",
+                    "delete_error_message": "Došlo je do pogreške prilikom brisanja grupe anketa."
                 }
             },
             "polls_page": {
-                "title": ""
+                "title": "Ankete"
             },
             "polls_list": {
-                "empty_text": "",
-                "load_more_button": "",
+                "empty_text": "Čini se da ovdje nema anketa dostupnih cijeloj zajednici.",
+                "load_more_button": "=> core.ref.load_more",
                 "sort_dropdown": {
-                    "newest": "",
-                    "oldest": "",
-                    "most_voted": "",
-                    "least_voted": "",
+                    "newest": "Najnovije",
+                    "oldest": "Najstarije",
+                    "most_voted": "Najviše glasano",
+                    "least_voted": "Najmanje glasano",
                     "sort_dropdown": {
-                        "default": ""
+                        "default": "=> fof-polls.forum.polls_list.sort_dropdown.newest"
                     }
                 }
             },
             "composer_discussion": {
-                "add_poll": "",
-                "edit_poll": "",
-                "no_permission_alert": ""
+                "add_poll": "=> fof-polls.forum.moderation.add",
+                "edit_poll": "=> fof-polls.forum.moderation.edit",
+                "no_permission_alert": "Nemate dozvolu za pokretanje ankete."
             },
             "compose": {
-                "add_title": "",
-                "edit_title": "",
-                "polls_manager": "",
-                "polls_preview": "",
-                "continue_editing": "",
-                "success": ""
+                "add_title": "Dodaj anketu",
+                "edit_title": "Uredi anketu",
+                "polls_manager": "Upravitelj anketa",
+                "polls_preview": "Pregledaj anketu",
+                "continue_editing": "Nastavi uređivanje",
+                "success": "Anketa je uspješno spremljena."
             },
             "modal": {
-                "add_title": "",
-                "add_option_label": "",
-                "date_placeholder": "",
-                "edit_title": "",
-                "include_question": "",
-                "max": "",
-                "min": "",
-                "no_voters": "",
-                "option_placeholder": "",
-                "image_option_placeholder": "",
-                "options_label": "",
-                "public_poll_label": "",
-                "allow_multiple_votes_label": "",
-                "max_votes_label": "",
-                "max_votes_help": "",
-                "hide_votes_label": "",
-                "hide_votes_label_help": "",
-                "allow_change_vote_label": "",
-                "question_placeholder": "",
-                "subtitle_placeholder": "",
-                "submit": "",
-                "delete": "",
-                "error": "",
+                "add_title": "Dodaj anketu",
+                "add_option_label": "Dodaj opciju",
+                "date_placeholder": "Datum završetka ankete (nije obavezno)",
+                "edit_title": "Uredi anketu",
+                "include_question": "Morate uključiti pitanje",
+                "max": "Možete imati najviše {max} odgovora",
+                "min": "Morate uključiti najmanje 2 odgovora",
+                "no_voters": "Nema glasova",
+                "option_placeholder": "Odgovor",
+                "image_option_placeholder": "URL slike (nije obavezno)",
+                "options_label": "Odgovori",
+                "public_poll_label": "Dozvoli pregled glasača",
+                "allow_multiple_votes_label": "Dozvoli glasanje za više opcija",
+                "max_votes_label": "Maksimalni broj glasova po korisniku",
+                "max_votes_help": "Postavite na 0 kako biste korisnicima dozvolili glasanje za sve opcije.",
+                "hide_votes_label": "Sakrij glasove do završetka ankete",
+                "hide_votes_label_help": "Korisnik koji je pokrenuo anketu uvijek će moći vidjeti glasove.",
+                "allow_change_vote_label": "Dozvoli korisnicima promjenu glasa",
+                "question_placeholder": "Pitanje",
+                "subtitle_placeholder": "Podnaslov/Opis (nije obavezno)",
+                "submit": "Pošalji",
+                "delete": "=> core.ref.delete",
+                "error": "=> core.lib.error.generic_message",
                 "poll_image": {
-                    "label": "",
-                    "help": "",
-                    "alt_label": "",
-                    "alt_help_text": "",
-                    "later_help": ""
+                    "label": "Slika ankete",
+                    "help": "Učitajte sliku za prikaz uz anketu (nije obavezno).",
+                    "alt_label": "Alternativni tekst slike",
+                    "alt_help_text": "Ovaj tekst je obavezan kada je postavljena slika, prikazat će se ako se slika ne učita.",
+                    "later_help": "Moći ćete učitati sliku nakon izrade ankete."
                 },
                 "poll_option_image": {
-                    "label": "",
-                    "help": ""
+                    "label": "Slika opcije ankete",
+                    "help": "Učitajte sliku za prikaz uz opciju ankete (nije obavezno)."
                 },
                 "tooltip": {
                     "options": {
-                        "add-button": ""
+                        "add-button": "Dodaj odgovor"
                     }
                 }
             },
             "moderation": {
-                "add": "",
-                "delete": "",
-                "delete_confirm": "",
-                "edit": ""
+                "add": "Dodaj anketu",
+                "delete": "Ukloni anketu",
+                "delete_confirm": "Jeste li sigurni da želite izbrisati ovu anketu?",
+                "edit": "Uredi anketu"
             },
             "page": {
-                "nav": "",
-                "nav-all": "",
-                "nav-groups": ""
+                "nav": "Ankete",
+                "nav-all": "Sve globalne ankete",
+                "nav-groups": "Grupe anketa"
             },
             "showcase": {
-                "active-polls": "",
-                "ended-polls": "",
-                "no-active-polls": "",
-                "no-recent-polls": ""
+                "active-polls": "Aktivne ankete",
+                "ended-polls": "Završene ankete",
+                "no-active-polls": "Trenutno nema aktivnih anketa.",
+                "no-recent-polls": "Trenutno nema nedavno završenih anketa."
             },
             "tooltip": {
-                "badge": "",
-                "votes": ""
+                "badge": "Anketa",
+                "votes": "{count, plural, one {# glas} other {# glasova}}"
             },
             "votes_modal": {
-                "title": ""
+                "title": "Glasači"
             },
             "upload_image": {
-                "remove_button": "",
-                "upload_button": ""
+                "remove_button": "Izbriši sliku",
+                "upload_button": "Učitaj sliku"
             }
         }
     }
