@@ -645,6 +645,9 @@ return [
 	],
 	'imshuzai-bbcode' => [
 		'tag' => 'https://raw.githubusercontent.com/imshuzai/BBcode/0.0.2/resources/locale/en.yml',
+		'__builtInLanguages' => [
+			'es',
+		],
 	],
 	'itnt-uitab' => [
 		'tag' => 'https://raw.githubusercontent.com/Littlegolden/flarum-uitab/v0.4.2/resources/locale/en.yml',
