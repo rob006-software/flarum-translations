@@ -87,8 +87,8 @@
                     "vote_color": "Couleur votée",
                     "icon_name": "Icône de vote positif/négatif",
                     "icon_help": "Entrez n'importe quelle icône Font Awesome ayant le suffixe -up et -down. Exemples : flèche, pouce, chevron",
-                    "icon_preview_upvote": "",
-                    "icon_preview_downvote": "",
+                    "icon_preview_upvote": "Vote positif",
+                    "icon_preview_downvote": "Vote négatif",
                     "upvotes_only": "Autoriser uniquement le vote positif",
                     "first_post_only": "Autoriser uniquement les votes positifs/négatifs dans le premier message d'une discussion",
                     "allow_self_votes": "Les utilisateurs peuvent voter sur leurs propres messages"
@@ -96,7 +96,7 @@
                 "save_settings": "Enregistrer les paramètres",
                 "convert": {
                     "button": "Convertir les « j'aime » en votes positifs",
-                    "help": "",
+                    "help": "Converti vos anciens « j'aime » de l'extension flarum/likes en votes positifs et calcule la popularité de toutes les discussions en cours.",
                     "converting": "Vos « j'aime » sont en cours de conversion. Actualisez votre site après quelques minutes pour voir le résultat. (Le temps de conversion peut prendre un certain temps en fonction du nombre total de « j'aime » sur votre forum)",
                     "converted": "Les {number} « j'aime » ont été convertis"
                 },
@@ -136,7 +136,7 @@
     "lib": {
         "gambits": {
             "hot": {
-                "key": ""
+                "key": "brûlant"
             }
         }
     }
