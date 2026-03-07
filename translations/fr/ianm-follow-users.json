@@ -24,10 +24,10 @@
             "followed": "Abonnements",
             "followers": "{count, plural, one {Abonné} other {Abonnés}}",
             "profile_link": "=> ianm-follow-users.lib.following_link",
-            "followers_link": "",
+            "followers_link": "Abonnés",
             "profile_page": {
                 "no_following": "Il semble que vous ne suivez personne.",
-                "no_followers": ""
+                "no_followers": "Il semble que vous n'ayez encore aucun abonné."
             },
             "user_controls": {
                 "follow_button": "=> ianm-follow-users.lib.follow",
@@ -75,30 +75,30 @@
         },
         "email": {
             "new_discussion_by_user": {
-                "subject": "",
+                "subject": "{user_display_name} a démarré une discussion",
                 "plain": {
-                    "body": ""
+                    "body": "{user_display_name} a démarré une nouvelle discussion : {discussion_title}\n\n{discussion_url}\n\n---\n\n{post_content}\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{user_display_name} a démarré une nouvelle discussion : [{discussion_title}]({discussion_url})."
                 }
             },
             "new_follower": {
-                "subject": "",
+                "subject": "{follower_display_name} vous a suivi",
                 "plain": {
-                    "body": ""
+                    "body": "{follower_display_name} a commencé à vous suivre, il sera donc averti lorsque vous démarrerez une nouvelle discussion.\n\n{profile_url}\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{follower_display_name} a commencé à vous suivre, il sera donc averti lorsque vous démarrerez une nouvelle discussion."
                 }
             },
             "new_post": {
-                "subject": "",
+                "subject": "{user_display_name} a publié un message dans {discussion_title}",
                 "plain": {
-                    "body": ""
+                    "body": "{user_display_name} a publié un message dans {discussion_title}.\n\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nVous ne recevrez plus aucune notification concernant cette discussion tant que vous ne serez pas à jour.\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{user_display_name} a publié un message dans [{discussion_title}]({post_url})."
                 }
             }
         },
@@ -123,7 +123,7 @@
             },
             "gambits": {
                 "followeduser": {
-                    "key": ""
+                    "key": "utilisateursuivi"
                 }
             }
         }
