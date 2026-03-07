@@ -496,6 +496,12 @@ return [
 	'davwheat-virtual-authors' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/84b06a54d8679050557844666ca9436064cb016b/davwheat-virtual-authors.yml',
 	],
+	'delzyioncloud-whmcs' => [
+		'tag' => 'https://raw.githubusercontent.com/delzyioncloud/flarum-whmcs/v1.0.0/locale/en.yml',
+		'__builtInLanguages' => [
+			'fr',
+		],
+	],
 	'dem13n-discussion-cards' => [
 		'tag' => 'https://raw.githubusercontent.com/Dem13n/discussion-cards/0.3.8/locale/en.yml',
 	],
