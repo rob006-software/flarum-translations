@@ -3395,6 +3395,14 @@
                             "description": "389aeda80b46ee3c01bf8684a081d92e 389aeda80b46ee3c01bf8684a081d92e",
                             "label": "30edf70db68aa84f05d3e72326807b0c 30edf70db68aa84f05d3e72326807b0c"
                         },
+                        "credentials-key": {
+                            "description": "9eee973159a8397c35d351f849e1a02f 9eee973159a8397c35d351f849e1a02f",
+                            "label": "0f511d362346c2f658bb594d5b04224e 0f511d362346c2f658bb594d5b04224e"
+                        },
+                        "credentials-secret": {
+                            "description": "9eee973159a8397c35d351f849e1a02f 9eee973159a8397c35d351f849e1a02f",
+                            "label": "1e6947ac7fb3a9529a9726eb692c8cc5 1e6947ac7fb3a9529a9726eb692c8cc5"
+                        },
                         "path-prefix": {
                             "description": "ade6db90d777b80de402147b25d14dbe ade6db90d777b80de402147b25d14dbe",
                             "label": "c71e4e041f63eca3ebeed0df815666f4 c71e4e041f63eca3ebeed0df815666f4"
@@ -3416,6 +3424,21 @@
                         "endpoint": {
                             "description": "37429782706e610616c49ed040707114 37429782706e610616c49ed040707114",
                             "label": "0d4fedf2e74d76217b635fd430efc302 0d4fedf2e74d76217b635fd430efc302"
+                        }
+                    },
+                    "dropbox": {
+                        "help": {
+                            "obtain-access-code-button": "7976295ca8c88dcb52cf26546f267c7b 7976295ca8c88dcb52cf26546f267c7b",
+                            "obtain-access-code-label": "7bacf731a7e411661ec4f1286a3c20ba 7bacf731a7e411661ec4f1286a3c20ba",
+                            "obtain-refresh-token-button": "4880824bc95c1ac5b385995e84f5d291 4880824bc95c1ac5b385995e84f5d291",
+                            "obtain-refresh-token-label": "e060bb1bb7a80648a78693f9fec391b9 e060bb1bb7a80648a78693f9fec391b9",
+                            "obtain-refresh-token-success": "80c439fab1d357307e4463125e36edf6 80c439fab1d357307e4463125e36edf6"
+                        },
+                        "key": {
+                            "label": "2832d3733d4509fde021394a6503e416 2832d3733d4509fde021394a6503e416"
+                        },
+                        "secret": {
+                            "label": "20fd904ca6b3fff24dae4c9a987940dc 20fd904ca6b3fff24dae4c9a987940dc"
                         }
                     },
                     "ftp": {
@@ -3457,9 +3480,20 @@
                         }
                     },
                     "gdrive": {
+                        "client-id": {
+                            "label": "eeb1efbd26704027efcf2f69b4db01db eeb1efbd26704027efcf2f69b4db01db"
+                        },
+                        "client-secret": {
+                            "description": "7215ee9c7d9dc229d2921a40e899ec5f 7215ee9c7d9dc229d2921a40e899ec5f",
+                            "label": "9df5edb40f1affbb1dc0eb646ab7a4fa 9df5edb40f1affbb1dc0eb646ab7a4fa"
+                        },
                         "folder": {
                             "description": "f796176a07d12affc57434f6a84022c5 f796176a07d12affc57434f6a84022c5",
                             "label": "db5216a5f79d786dceed639f82e28689 db5216a5f79d786dceed639f82e28689"
+                        },
+                        "help": {
+                            "test_button": "6a0795d10226eefef28dfea5a23eb03b 6a0795d10226eefef28dfea5a23eb03b",
+                            "test_success_alert": "8ef8b82ab1d3f1387fe08abc6e658c9c 8ef8b82ab1d3f1387fe08abc6e658c9c"
                         },
                         "refresh-token": {
                             "description": "abf8975765588229c03a0270f2f7c716 abf8975765588229c03a0270f2f7c716",
@@ -3489,6 +3523,9 @@
                     "webdav": "bfe7f566c6bb5b2d1c7280dc45ef284b bfe7f566c6bb5b2d1c7280dc45ef284b",
                     "zip": "a4021bab0f6a79ea883c1b7ea45a4c08 a4021bab0f6a79ea883c1b7ea45a4c08"
                 },
+                "create_button": "1122edd52e3bea85c00f1bc11da0997d 1122edd52e3bea85c00f1bc11da0997d",
+                "delete_button": "1010b01ca33474b21dfca7411a13552c 1010b01ca33474b21dfca7411a13552c",
+                "delete_confirmation": "2b305bbf25f81d404dbba3f1a4d0642b 2b305bbf25f81d404dbba3f1a4d0642b",
                 "nav": {
                     "description": "9c1832844a7962bda29b74c3476983a1 9c1832844a7962bda29b74c3476983a1",
                     "label": "3500ba09d0538297440ca620c9dd46bf 3500ba09d0538297440ca620c9dd46bf"
@@ -9634,10 +9671,15 @@
             "forum": {
                 "my_votes": {
                     "add_vote": "b9e31ccd418c36b07461b3f14c928ece b9e31ccd418c36b07461b3f14c928ece",
+                    "categories_remaining": "3faab9ec3e4e58730710d27c84663cbd 3faab9ec3e4e58730710d27c84663cbd",
+                    "change": "59b0fe8d3fee044fb03d40984e6300ed 59b0fe8d3fee044fb03d40984e6300ed",
                     "last_vote": "828972baf335e85c1f04eb108729c0d3 828972baf335e85c1f04eb108729c0d3",
+                    "no_votes": "48a31bf2ed032a49408b223372319316 48a31bf2ed032a49408b223372319316",
                     "remove": "513d306cc83aa63d5a3801c0cac5f739 513d306cc83aa63d5a3801c0cac5f739",
                     "title": "72f7082fae4692e99fc52073e5071ce6 72f7082fae4692e99fc52073e5071ce6",
-                    "vote_now": "41d0bcb0992d151fc9b0964cb6f011dc 41d0bcb0992d151fc9b0964cb6f011dc"
+                    "total_votes": "bf02757717ecf530b9bd375fdbefb6f0 bf02757717ecf530b9bd375fdbefb6f0",
+                    "vote_now": "41d0bcb0992d151fc9b0964cb6f011dc 41d0bcb0992d151fc9b0964cb6f011dc",
+                    "votes_unlimited": "c9f1718ba2dd5c21e24a4e23eff6f4fe c9f1718ba2dd5c21e24a4e23eff6f4fe"
                 },
                 "progress": {
                     "complete": "5cf15d78be6ebdfa2dab62cbd6c8e303 5cf15d78be6ebdfa2dab62cbd6c8e303"

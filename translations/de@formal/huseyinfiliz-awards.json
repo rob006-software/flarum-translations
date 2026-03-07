@@ -140,16 +140,16 @@
             "my_votes": {
                 "title": "Deine Stimmen",
                 "summary": "",
-                "total_votes": "",
+                "total_votes": "{count} Stimmen insgesamt",
                 "last_vote": "Zuletzt abgestimmt: {time}",
                 "votes_used": "",
-                "votes_unlimited": "",
-                "change": "",
+                "votes_unlimited": "{count} Stimmen",
+                "change": "Ändern",
                 "remove": "Entfernen",
                 "add_vote": "Stimme abgeben",
                 "vote_now": "Jetzt abstimmen",
-                "no_votes": "",
-                "categories_remaining": ""
+                "no_votes": "Du hast noch nicht abgestimmt",
+                "categories_remaining": "Kategorien ohne Stimmen"
             },
             "progress": {
                 "voted": "",
