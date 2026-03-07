@@ -945,6 +945,9 @@ return [
 	],
 	'nhanchaukp-login-to-see' => [
 		'tag' => 'https://raw.githubusercontent.com/nhanchaukp/flarum-login2see/v0.0.5/resources/locale/en.yml',
+		'__builtInLanguages' => [
+			'vi',
+		],
 	],
 	'nomiscz-auth-steam' => [
 		'tag' => 'https://raw.githubusercontent.com/NomisCZ/flarum-ext-auth-steam/v1.0.1/resources/locale/en.yml',
