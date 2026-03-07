@@ -844,6 +844,12 @@ return [
 			'zh_Hans',
 		],
 	],
+	'frie-nextcloud-oauth' => [
+		'tag' => 'https://raw.githubusercontent.com/frie/flarum-nextcloud-oauth/0.2/resources/locale/en.yml',
+		'__builtInLanguages' => [
+			'de',
+		],
+	],
 	'ganuonglachanh-sonic' => [
 		'tag' => 'https://raw.githubusercontent.com/ganuonglachanh/flarum-sonic/0.1.9/resources/locale/en.yml',
 	],
