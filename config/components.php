@@ -1528,6 +1528,9 @@ return [
 	'peruguitar-user-portrait' => [
 		'tag' => 'https://raw.githubusercontent.com/Anexsoft/peruguitar-flarum-ext-user-portrait/1.0.4/locale/en.yml',
 	],
+	'quasimo-llms-txt' => [
+		'tag' => 'https://raw.githubusercontent.com/Quasimo/flarum-ext-llms-txt/v1.0.4/resources/locale/en.yml',
+	],
 	'ralkage-hcaptcha' => [
 		'tag' => 'https://raw.githubusercontent.com/Ralkage/flarum-hcaptcha/1.0.0/resources/locale/en.yml',
 	],
