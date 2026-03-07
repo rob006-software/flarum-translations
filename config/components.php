@@ -721,6 +721,9 @@ return [
 	],
 	'imeepo-daily-check-in' => [
 		'tag' => 'https://raw.githubusercontent.com/imeepo/flarum-daily-check-in/v1.1.0/locale/en.yml',
+		'__builtInLanguages' => [
+			'zh_Hans',
+		],
 	],
 	'jeromegillard-map' => [
 		'tag' => 'https://raw.githubusercontent.com/JeromeGillard/flarum-map/v0.1.5/locale/en.yml',
