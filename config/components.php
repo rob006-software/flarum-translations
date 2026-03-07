@@ -943,6 +943,9 @@ return [
 	],
 	'lrysia-pagination' => [
 		'tag' => 'https://raw.githubusercontent.com/lrysia/flarum-pagination/1.2.0/resources/locale/en.yml',
+		'__builtInLanguages' => [
+			'zh_Hans',
+		],
 	],
 	'maicol07-oidc-client' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/maicol07-oidc-client.yml',
