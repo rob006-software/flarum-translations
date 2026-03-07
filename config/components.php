@@ -873,6 +873,9 @@ return [
 	],
 	'littlecxm-whisper' => [
 		'tag' => 'https://raw.githubusercontent.com/littlecxm/whisper/0.1.5/resources/locale/en.yml',
+		'__builtInLanguages' => [
+			'zh_Hans',
+		],
 	],
 	'maicol07-oidc-client' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/maicol07-oidc-client.yml',
