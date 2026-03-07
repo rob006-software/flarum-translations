@@ -2,29 +2,29 @@
     "blomstra-database-queue": {
         "admin": {
             "settings": {
-                "backoff_label": "",
-                "backoff_help": "",
-                "memory_label": "",
-                "memory_help": "",
-                "rest_label": "",
-                "rest_help": "",
-                "retries_label": "",
-                "retries_help": "",
-                "timeout_label": "",
-                "timeout_help": ""
+                "backoff_label": "Zurückhaltung",
+                "backoff_help": "Die Anzahl der Sekunden, die gewartet werden soll, bevor ein Job, bei dem eine nicht abgefangene Ausnahme aufgetreten ist, erneut versucht wird.\n",
+                "memory_label": "Speicher",
+                "memory_help": "Die Speicherlimit in Megabyte.\n",
+                "rest_label": "Pause",
+                "rest_help": "Die Anzahl der Sekunden, die zwischen den Aufträgen pausiert werden soll.\n",
+                "retries_label": "Wiederholungen",
+                "retries_help": "Die Anzahl der Versuche, einen Job auszuführen, bevor er als fehlgeschlagen protokolliert wird.\n",
+                "timeout_label": "Zeitüberschreitung",
+                "timeout_help": "Die Anzahl der Sekunden, die ein Kindprozess ausgeführt werden darf.\n"
             },
             "stats": {
-                "auto_refresh": "",
-                "heading": "",
-                "refresh": "",
+                "auto_refresh": "Automatische Aktualisierung",
+                "heading": "Warteschlagen-Übersicht",
+                "refresh": "Aktualisieren",
                 "data": {
-                    "queue-name": "",
-                    "pending-jobs": "",
-                    "failed-jobs": "",
+                    "queue-name": "Warteschlange",
+                    "pending-jobs": "Ausstehende Jobs",
+                    "failed-jobs": "Fehlgeschlagene Jobs",
                     "status": {
-                        "label": "",
-                        "running": "",
-                        "inactive": ""
+                        "label": "Status",
+                        "running": "Wird ausgeführt",
+                        "inactive": "Inaktiv"
                     }
                 }
             }

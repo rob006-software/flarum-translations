@@ -2,9 +2,9 @@
     "flarum-sticky": {
         "admin": {
             "settings": {
-                "enable_display_excerpt": "",
-                "only_sticky_unread_discussions_label": "",
-                "only_sticky_unread_discussions_help": ""
+                "enable_display_excerpt": "Auszug aus dem ersten Beitrag anzeigen, wenn eine angeheftete Diskussion ungelesen ist",
+                "only_sticky_unread_discussions_label": "Nur angeheftete ungelesene Diskussionen",
+                "only_sticky_unread_discussions_help": "Auf der Seite „Alle Diskussionen“ werden ungelesene angeheftete Diskussionen oben angeheftet, während gelesene angeheftete Diskussionen der regulären Reihenfolge folgen."
             },
             "permissions": {
                 "sticky_discussions_label": "Diskussion anpinnen"
@@ -27,7 +27,7 @@
             "gambits": {
                 "discussions": {
                     "sticky": {
-                        "key": ""
+                        "key": "angeheftet"
                     }
                 }
             }
