@@ -966,6 +966,9 @@ return [
 	],
 	'richsheep-elasticsearch' => [
 		'tag' => 'https://raw.githubusercontent.com/Richsheep/flarum-elasticsearch/v0.0.3/resources/locale/en.yml',
+		'__builtInLanguages' => [
+			'zh_Hans',
+		],
 	],
 	'serakoi-flarumstaffbadge' => [
 		'tag' => 'https://raw.githubusercontent.com/Serakoi/flarumstaffbadge/1.2.1/resources/locale/en.yml',
