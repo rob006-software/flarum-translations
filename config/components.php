@@ -1510,6 +1510,12 @@ return [
 	'nosun-reply-to-see' => [
 		'tag' => 'https://raw.githubusercontent.com/nosun/flarum-ext-reply2see/v1.03/resources/locale/en.yml',
 	],
+	'nyu8-auth0' => [
+		'tag' => 'https://raw.githubusercontent.com/nyu8/flarum-auth0/v1.0.6/locale/en.yml',
+		'__builtInLanguages' => [
+			'zh_Hans',
+		],
+	],
 	'nyu8-email-filter' => [
 		'tag' => 'https://raw.githubusercontent.com/nyu8/flarum-email-filter/v1.0.7/locale/en.yml',
 	],
