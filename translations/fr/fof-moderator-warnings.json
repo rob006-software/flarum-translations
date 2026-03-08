@@ -51,8 +51,8 @@
                 "warnings_no_strikes": "Avertissements du modérateur : aucune sanction reçue"
             },
             "warning_list_item": {
-                "list_item_heading": "",
-                "list_item_heading_hidden": "",
+                "list_item_heading": "{strikes, plural, one {# sanction, {time}} other {# sanctions, {time}}}",
+                "list_item_heading_hidden": "{strikes, plural, one {# sanction, {time} (supprimée)} other {# sanctions, {time} (supprimées)}}",
                 "public_comment": "Avertissement",
                 "private_comment": "Commentaires visibles du modérateur",
                 "linked_post": "Message lié"
