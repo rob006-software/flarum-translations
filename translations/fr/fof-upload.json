@@ -132,7 +132,7 @@
             "permissions": {
                 "download_label": "Télécharger les fichiers",
                 "upload_label": "",
-                "upload_mime_label": "",
+                "upload_mime_label": "Transférer {label}",
                 "view_user_uploads_label": "Afficher les transferts des utilisateurs",
                 "delete_uploads_of_others_label": "Supprimer les transferts des utilisateurs",
                 "upload_shared_label": "Transférer des fichiers partagés",
@@ -197,7 +197,7 @@
             "text_preview": {
                 "expand": "Développer l'aperçu",
                 "collapse": "Réduire l'aperçu",
-                "download": "",
+                "download": "Télécharger le fichier",
                 "error": "Erreur lors de la prévisualisation du fichier. Il a peut-être été supprimé ou l'ID de fichier fourni n'est pas valide.\n",
                 "no_snippet_preview": "<l'aperçu apparaîtra ici après la publication>",
                 "no_snippet": "<aucun extrait d'aperçu disponible>"
@@ -206,7 +206,7 @@
         "api": {
             "upload_errors": {
                 "forbidden_type": "Le transfert de fichiers de ce type n'est pas autorisé.",
-                "mime_permission_denied": "",
+                "mime_permission_denied": "Vous n'avez pas l'autorisation de transférer ce type de fichier.",
                 "unsupported_type": "L'adaptateur de transfert ne prend pas en charge le type MIME fourni : {mime}.",
                 "could_not_detect_mime": "Impossible de détecter le type MIME de ce fichier, veuillez réessayer.",
                 "max_upload_file_size_ini": "La limite de taille maximale des fichiers transférés a été atteinte dans le fichier php.ini.",
