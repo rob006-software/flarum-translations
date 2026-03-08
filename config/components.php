@@ -1251,6 +1251,9 @@ return [
 	],
 	'pixiake-aichat' => [
 		'tag' => 'https://raw.githubusercontent.com/pixiake/aichat/v0.0.2/locale/en.yml',
+		'__builtInLanguages' => [
+			'zh_Hans',
+		],
 	],
 	'ralkage-hcaptcha' => [
 		'tag' => 'https://raw.githubusercontent.com/Ralkage/flarum-hcaptcha/1.0.0/resources/locale/en.yml',
