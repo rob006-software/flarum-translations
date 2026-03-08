@@ -156,6 +156,9 @@
                 "confirm": "Are you sure you want to erase {name}'s account under {mode} mode?",
                 "title": "Process erasure request",
                 "text": "{name} has requested account erasure.",
+                "requested_at": "Requested: {date}",
+                "confirmed_at": "Confirmed: {date}",
+                "eligible_at": "Eligible for auto-processing: {date}",
                 "comments_label": "Comments (optional)",
                 "anonymization_button": "Anonymize user",
                 "deletion_button": "Delete user"
