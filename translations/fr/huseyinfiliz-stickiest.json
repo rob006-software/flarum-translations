@@ -10,12 +10,12 @@
             "settings": {
                 "badge_icon_label": "Icône de badge super épinglé",
                 "badge_icon_text": "=> core.ref.icon_text",
-                "display_tag_sticky_label": "Afficher les étiquettes dans la liste de « Toutes les discussions »",
+                "display_tag_sticky_label": "Afficher les étiquettes épinglées dans la liste de « Toutes les discussions »",
                 "display_tag_sticky_text": "Elles seront traitées comme des discussions ordinaires et ne resteront pas dans la partie supérieure.",
-                "show_tag_sticky_label": "Afficher les étiquettes dans toutes les discussions",
-                "show_tag_sticky_help": "Lorsque cette option est désactivée, les discussions épinglées n'apparaissent que lorsque vous consultez cette balise spécifique.",
+                "show_tag_sticky_label": "Afficher les étiquettes épinglées dans toutes les discussions",
+                "show_tag_sticky_help": "Lorsque cette option est désactivée, les discussions épinglées n'apparaissent que lorsque vous consultez cette étiquette spécifique.",
                 "stickiest_icon_label": "Icône de badge super épinglé",
-                "stickiest_icon_help": ""
+                "stickiest_icon_help": "Classe d'icône Font Awesome (par exemple, fas fa-star)"
             }
         },
         "forum": {
@@ -29,9 +29,9 @@
             "stickiest_modal": {
                 "title": "Épingle {title}",
                 "sticky_label": "=> flarum-sticky.ref.sticky",
-                "sticky_text": "Les discussions épinglées resteront dans la partie supérieure de la liste de « Toutes les discussions » si elles ne sont pas lues. Lors de l'affichage d'une étiquette spécifique appartenant à la discussion, ils resteront en haut de la liste à tout moment.",
+                "sticky_text": "Les discussions épinglées resteront dans la partie supérieure de la liste de « Toutes les discussions » si elles ne sont pas lues. Lors de l'affichage d'une étiquette spécifique appartenant à la discussion, elles resteront en haut de la liste à tout moment.",
                 "super_sticky_label": "=> huseyinfiliz-stickiest.ref.super_sticky",
-                "super_sticky_text": "Les discussions super épinglées colleront à la partie supérieure quoi qu'il arrive.",
+                "super_sticky_text": "Les discussions super épinglées resteront dans la partie supérieure quoi qu'il arrive.",
                 "tag_sticky_label": "=> huseyinfiliz-stickiest.ref.tag_sticky",
                 "tag_sticky_text": "Les étiquettes épinglées sont masquées par défaut de la liste de « Toutes les discussions ». Elles ne seront affichées et épinglées dans la partie supérieure que lors de la consultation d'une étiquette spécifique, c'est-à-dire une des étiquettes que vous sélectionnerez ici. Cette option peut être combinée avec « Super épingle ».",
                 "tags_label": "=> flarum-tags.ref.tags",
@@ -51,12 +51,12 @@
             "sticky_modal": {
                 "title": "Épingle : {title}",
                 "sticky_label": "Épingle",
-                "sticky_help": "",
+                "sticky_help": "Les discussions épinglées resteront dans la partie supérieure de la liste de « Toutes les discussions » si elles ne sont pas lues. Lors de l'affichage d'une étiquette spécifique appartenant à la discussion, elles resteront en haut de la liste à tout moment.",
                 "stickiest_label": "Super épinglée",
-                "stickiest_help": "",
+                "stickiest_help": "Les discussions super épinglées resteront dans la partie supérieure quoi qu'il arrive.",
                 "tag_sticky_label": "Étiquette épinglée",
-                "tag_sticky_help": "",
-                "select_tags": "",
+                "tag_sticky_help": "Les discussions ne seront affichées et épinglées dans la partie supérieure que lors de la consultation d'une étiquette spécifique.",
+                "select_tags": "Sélectionner les étiquettes",
                 "submit_button": "Enregistrer les modifications"
             }
         },
