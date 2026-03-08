@@ -1532,7 +1532,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/Quasimo/flarum-ext-llms-txt/v1.0.4/resources/locale/en.yml',
 	],
 	'quasimo-tag-sidebar' => [
-		'tag' => 'https://raw.githubusercontent.com/Quasimo/flarum-ext-tag-sidebar/v1.0.13/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/Quasimo/flarum-ext-tag-sidebar/v1.1.0/resources/locale/en.yml',
 		'__builtInLanguages' => [
 			'zh_Hans',
 		],
