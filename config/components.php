@@ -413,7 +413,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-birthdays/v2.1.2/locale/en.yml',
 	],
 	'datlechin-birthdays-widget' => [
-		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-birthdays-widget/v0.1.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-birthdays-widget/v0.1.1/locale/en.yml',
 	],
 	'datlechin-cbox' => [
 		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-cbox/v0.1.1/locale/en.yml',
