@@ -2,41 +2,41 @@
     "forumaker-magicbb": {
         "admin": {
             "settings": {
-                "bb_center": "",
-                "bb_justify": "",
-                "bb_color": "",
-                "bb_spoiler": "",
-                "bb_table": "",
-                "bb_info": "",
-                "bb_audio": "",
-                "bb_image": "",
-                "bb_image_help": "",
-                "bb_iframe": "",
-                "bb_iframe_help": "",
-                "toolbar_group": "",
-                "toolbar_group_help": ""
+                "bb_center": "Zentrieren",
+                "bb_justify": "Blocksatz",
+                "bb_color": "Farbe",
+                "bb_spoiler": "Spoiler",
+                "bb_table": "Tabelle",
+                "bb_info": "Warnhinweis",
+                "bb_audio": "Audio",
+                "bb_image": "FoF Upload",
+                "bb_image_help": "Fügt dem Editor eine neue Schaltfläche für die Bildausrichtung hinzu. Große, zentrierte Bilder werden automatisch auf 60 % der Beitragsbreite verkleinert, seitlich ausgerichtete Bilder auf bis zu 40 %.",
+                "bb_iframe": "iFrame",
+                "bb_iframe_help": "Ermöglicht das Einbetten von iFrames aus beliebigen Quellen. Mit Vorsicht verwenden – eingebettete Inhalte können externe Skripte enthalten. 🧹 Bitte leere nach dem Ändern dieser Einstellung den Flarum-Cache.",
+                "toolbar_group": "MagicBB-Schaltflächen zusammenfassen",
+                "toolbar_group_help": "Wenn aktiviert, werden alle MagicBB-Schaltflächen im Editor zu einer einzigen Schaltfläche zusammengefasst."
             },
             "sections": {
-                "text": "",
-                "content": "",
-                "images": "",
-                "features": ""
+                "text": "Text-Formatierungen",
+                "content": "Inhalts-Formatierungen",
+                "images": "Bild-Formatierungen",
+                "features": "Funktionen"
             },
             "permissions": {
-                "use_iframe": ""
+                "use_iframe": "iFrame erlauben"
             }
         },
         "forum": {
             "composer": {
-                "center_button": "",
-                "justify_button": "",
-                "color_button": "",
-                "spoiler_button": "",
-                "table_button": "",
-                "info_button": "",
-                "audio_button": "",
+                "center_button": "Zentrieren",
+                "justify_button": "Blocksatz",
+                "color_button": "Farbe hinzufügen",
+                "spoiler_button": "Spoiler hinzufügen",
+                "table_button": "Tabelle hinzufügen",
+                "info_button": "Warnung hinzufügen",
+                "audio_button": "Audio hinzufügen",
                 "image_button": "",
-                "more_button": ""
+                "more_button": "Mehr"
             }
         }
     }

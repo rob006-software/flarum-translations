@@ -1716,8 +1716,8 @@
             "admin": {
                 "pusher_settings": {
                     "app_cluster_label": "249694a485fc5d3289c38986b4f8e887 249694a485fc5d3289c38986b4f8e887",
-                    "app_id_label": "81ee9e44098c26f1fd408be9177f158a 81ee9e44098c26f1fd408be9177f158a",
-                    "app_key_label": "1419e6e0ca0d373634252d61fe4fd021 1419e6e0ca0d373634252d61fe4fd021",
+                    "app_id_label": "81ee9e44098c26f1fd408be9177f158a 6be37447234a81f282165398a7ea48f4",
+                    "app_key_label": "1419e6e0ca0d373634252d61fe4fd021 2832d3733d4509fde021394a6503e416",
                     "app_secret_label": "61be046f95cb2ba09bf173f0cbba80d9 61be046f95cb2ba09bf173f0cbba80d9",
                     "title": "5ef8bba66d295362e1e2f0cccbf21aa9 5ef8bba66d295362e1e2f0cccbf21aa9"
                 }
@@ -4619,6 +4619,48 @@
                 "hidden": "7e933fd2795419e39c89aaede4f142cf 7e933fd2795419e39c89aaede4f142cf",
                 "renamed": "7c62d0d6fdb7ce28f3f0d98ef98226aa 7c62d0d6fdb7ce28f3f0d98ef98226aa",
                 "restored": "504e35a3b9905e49b35a85c251507a69 504e35a3b9905e49b35a85c251507a69"
+            }
+        }
+    },
+    "forumaker-magicbb.json": {
+        "forumaker-magicbb": {
+            "admin": {
+                "permissions": {
+                    "use_iframe": "852620968a2e7a647a5e1236442cc621 852620968a2e7a647a5e1236442cc621"
+                },
+                "sections": {
+                    "content": "e33b942e1b9a21bd68ecc81091e2041c e33b942e1b9a21bd68ecc81091e2041c",
+                    "features": "8f96b9007880dcd8b15648ced9350869 8f96b9007880dcd8b15648ced9350869",
+                    "images": "a56961575f1a0a8aecc562ec877cb669 a56961575f1a0a8aecc562ec877cb669",
+                    "text": "2196c8398bd4e3e18050b0d21d464cd5 2196c8398bd4e3e18050b0d21d464cd5"
+                },
+                "settings": {
+                    "bb_audio": "b22f0418e8ac915eb66f829d262d14a2 b22f0418e8ac915eb66f829d262d14a2",
+                    "bb_center": "5e01b7daaa336273ec03c11da780ae0e 5e01b7daaa336273ec03c11da780ae0e",
+                    "bb_color": "16fd55d02a23f31097ca58eccfeec97c 16fd55d02a23f31097ca58eccfeec97c",
+                    "bb_iframe": "f5ab0f82d3c5556baa773b78de397f35 f5ab0f82d3c5556baa773b78de397f35",
+                    "bb_iframe_help": "fec6e927d15e9c3b9d56604c7d4d85a8 fec6e927d15e9c3b9d56604c7d4d85a8",
+                    "bb_image": "2de1eca32c5aa87247a472c313b13901 2de1eca32c5aa87247a472c313b13901",
+                    "bb_image_help": "c5068a0850e7d5f24a095dfcb57af067 c5068a0850e7d5f24a095dfcb57af067",
+                    "bb_info": "a109ffeb5bd121c6be7b1158c7fbbaa3 a109ffeb5bd121c6be7b1158c7fbbaa3",
+                    "bb_justify": "839313f4f2ddf184cc8b7ba10ed16129 839313f4f2ddf184cc8b7ba10ed16129",
+                    "bb_spoiler": "f7115e4891ab41c009017e95f47eb6e9 f7115e4891ab41c009017e95f47eb6e9",
+                    "bb_table": "4a0888ebd14d5c62de5d8bc40e077d33 4a0888ebd14d5c62de5d8bc40e077d33",
+                    "toolbar_group": "5769a43ffca87b5f650132e6026ff047 5769a43ffca87b5f650132e6026ff047",
+                    "toolbar_group_help": "a87f552760d680af61fc299c7c5fa32f a87f552760d680af61fc299c7c5fa32f"
+                }
+            },
+            "forum": {
+                "composer": {
+                    "audio_button": "20974512e033aa4c78371303c93fa943 20974512e033aa4c78371303c93fa943",
+                    "center_button": "5e01b7daaa336273ec03c11da780ae0e 5e01b7daaa336273ec03c11da780ae0e",
+                    "color_button": "3357e98130f7cc3b934e17383f890c2a 3357e98130f7cc3b934e17383f890c2a",
+                    "info_button": "1eba4ed9ebffb06b11a62053d9592e7b 1eba4ed9ebffb06b11a62053d9592e7b",
+                    "justify_button": "839313f4f2ddf184cc8b7ba10ed16129 839313f4f2ddf184cc8b7ba10ed16129",
+                    "more_button": "7bb2046a9d1157eb64f7445140d0d61a 7bb2046a9d1157eb64f7445140d0d61a",
+                    "spoiler_button": "8c8032ae3d045475b80487673b800a33 8c8032ae3d045475b80487673b800a33",
+                    "table_button": "306fa36eb497e6684bb5c16faf3bfa54 306fa36eb497e6684bb5c16faf3bfa54"
+                }
             }
         }
     },
