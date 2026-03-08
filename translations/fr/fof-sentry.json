@@ -28,7 +28,7 @@
                 "monitor_performance_label": "Taux de surveillance des performances de l'application dorsale (0 - 100)",
                 "monitor_performance_help": "",
                 "profile_rate_label": "Taux de profilage de l'application dorsale (0 - 100)",
-                "profile_rate_help": "Ceci est relatif au taux de surveillance des performances. La surveillance des performances doit être activée pour que cette fonction fonctionne.\n\n{br}✱ L'activation de cette fonction affecte le temps de réponse en raison de la surcharge liée au profilage et aux demandes envoyées à Sentry. Apprenez à compenser ce problème à l'adresse <a>https://docs.sentry.io/platforms/php/profiling/#improve-response-time</a>.\n{br}{icon} <bold>Cette fonctionnalité nécessite le profileur d'échantillonnage Excimer de Wikipédia, qui n'est disponible que pour Linux.</bold>\n",
+                "profile_rate_help": "Ceci est relatif au taux de surveillance des performances. La surveillance des performances doit être activée pour que cette fonction fonctionne.\n\n{br}✱ L'activation de cette fonction affecte le temps de réponse en raison de la surcharge liée au profilage et aux demandes envoyées à Sentry. Apprenez à compenser ce problème à l'adresse <a>https://docs.sentry.io/platforms/php/profiling/#improve-response-time</a>.\n{br}{icon} <bold>Cette fonctionnalité nécessite le profileur d'échantillonnage Excimer de Wikipédia, qui n'est disponible que pour Linux.</bold>",
                 "javascript_label": "Signaler des erreurs JavaScript",
                 "javascript_help": "",
                 "javascript_console_label": "Capturer la console JavaScript",
