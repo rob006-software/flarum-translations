@@ -10,6 +10,7 @@
                 "random_username_label": "Randomize Usernames",
                 "random_username_help": "This will hide the `username` input on registration, and use a random number instead. It will also make the `nickname` field mandatory. This will only take effect if \"Allow setting nicknames on registration\" is enabled.",
                 "regex_label": "Regular expression for validation",
+                "regex_help": "The following characters are always disallowed in nicknames: [ ] ( ) < >",
                 "set_on_registration_label": "Allow setting nicknames on registration",
                 "unique_label": "Require unique nicknames"
             },
