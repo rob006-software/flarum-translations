@@ -33,7 +33,7 @@
                 "mime_types": "",
                 "resize": "Décidez si vous souhaitez redimensionner vos images avant qu'elles ne soient téléchargées. Vous pouvez indiquer une largeur et une hauteur maximales, en pixels. Le processus de redimensionnement conserve le rapport hauteur/largeur des images.\n",
                 "client_extension": "Par défaut, l'extension Upload sélectionnera une extension de fichier sûre en fonction du type MIME.\nPour certains types de fichiers basés sur des données ZIP ou binaires, cela peut entraîner l'utilisation d'extensions génériques au lieu de l'extension attendue.\nVous pouvez saisir ici une liste d'extensions de fichiers, séparées par des virgules, qui seront conservées mot pour mot.\n",
-                "thumbnails": "",
+                "thumbnails": "Génère une miniature pour les images au moment du transfert. La miniature est affichée ;\nen cliquant dessus, le fichier original en pleine résolution s'ouvre dans un nouvel onglet.\nLes miniatures réduisent considérablement la bande passante et le poids des pages pour les forums contenant de nombreuses images volumineuses.\n",
                 "watermark": "Décidez si un filigrane sera ajouté aux images lors du téléchargement. Les filigranes sont ajoutés aux images qui ne sont pas des GIFS en fonction de vos préférences définies ci-dessous.\n",
                 "s3_compatible_storage": "Les paramètres suivants ne sont obligatoires que si vous utilisez un stockage compatible S3. Si vous utilisez AWS, vous pouvez les laisser vides.\n",
                 "s3_acl": "L'ACL qui doit être appliquée à l'objet téléchargé (par défaut : privé). Pour les valeurs possibles, veuillez consulter https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
@@ -83,7 +83,7 @@
                     "mime_types": "Configurez votre type MIME (téléversez la cartographie de téléchargement)",
                     "mime_type_regex_placeholder": "par exemple ^image/(jpeg|png|gif)$",
                     "mime_type_regex_invalid": "",
-                    "mime_type_permission_placeholder": "",
+                    "mime_type_permission_placeholder": "Libellé d'autorisation (facultatif, par exemple Images)",
                     "title": "Préférences générales",
                     "php_ini_values": "Vos valeurs <code>php.ini</code> sont <code>post_max_size={post}</code> et <code>upload_max_filesize={upload}</code>. Assurez-vous que la valeur définie ici est inférieure à ces seuils ou ajustez-les en conséquence. Si vous utilisez <code>Nginx</code>, assurez-vous également que <code>client_max_body_size</code> est d'une taille suffisante pour la limite maximale choisie."
                 },
@@ -106,7 +106,7 @@
                     "opacity": "Opacité du filigrane (0–100)",
                     "padding": "",
                     "position": "Position du filigrane",
-                    "size_percent": "",
+                    "size_percent": "Taille du filigrane (en pourcentage)",
                     "title": "Images en filigrane",
                     "toggle": "Images en filigrane"
                 },
