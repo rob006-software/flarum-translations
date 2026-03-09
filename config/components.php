@@ -1553,7 +1553,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/rehiy/flarum-reply-to-see/v1.8.0/resources/locale/en.yml',
 	],
 	'resofire-v2-discussion-participants' => [
-		'tag' => 'https://raw.githubusercontent.com/ResofireV2/discussion-participants/v0.1.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ResofireV2/discussion-participants/v0.1.6/locale/en.yml',
 	],
 	'rob006-last-post-avatar' => [
 		'tag' => 'https://raw.githubusercontent.com/rob006-software/flarum-ext-last-post-avatar/1.2.4/locale/en.yml',
