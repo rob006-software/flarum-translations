@@ -100,7 +100,7 @@
             "body": {
                 "noReasonProvided": "Herhangi bir neden belirtilmedi.",
                 "approved": "Kullanıcı adınızı \"{new_username}\" olarak değiştirme isteğiniz {actor_display_name} tarafından onaylandı.\n\nArtık yeni kullanıcı adınızla giriş yapabilirsiniz: {login_url}\n",
-                "rejected": ""
+                "rejected": "Kullanıcı adınızı \"{old_username}\" yerine \"{requested_username}\" olarak değiştirme isteğiniz {actor_display_name} tarafından reddedildi.\n\nNeden: {reason}\n"
             },
             "subject": {
                 "approved": "{display_name}, kullanıcı adınızın {requested_username} olarak değiştirilmesini onayladı",
