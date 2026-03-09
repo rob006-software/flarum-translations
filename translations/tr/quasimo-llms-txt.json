@@ -2,24 +2,24 @@
     "quasimo-llms-txt": {
         "admin": {
             "settings": {
-                "urls_label": "",
-                "urls_help": "",
-                "open_label": "",
-                "enabled_label": "",
-                "enabled_help": "",
-                "full_enabled_label": "",
-                "full_enabled_help": "",
-                "sort_label": "",
-                "sort_latest": "",
-                "sort_top": "",
-                "sort_help": "",
-                "max_discussions_label": "",
-                "max_discussions_help": "",
-                "max_posts_label": "",
-                "max_posts_help": "",
-                "custom_intro_label": "",
-                "custom_intro_placeholder": "",
-                "custom_intro_help": ""
+                "urls_label": "Uç Nokta Bağlantıları",
+                "urls_help": "Etkinleştirildiğinde, aşağıdaki bağlantılar forumunuz hakkında LLM dostu içerik sunacaktır.",
+                "open_label": "Yeni sekmede aç",
+                "enabled_label": "llms.txt etkinleştir",
+                "enabled_help": "{url} adresinde forumunuzun kısa bir dizinini sunar. Kategorilere ve son tartışmalara bağlantılar içerir.",
+                "full_enabled_label": "llms-full.txt etkinleştir",
+                "full_enabled_help": "{url} adresinde tüm tartışmaların tam metnini sunar. Her gönderinin içeriğini kapsar.",
+                "sort_label": "Tartışma sıralaması",
+                "sort_latest": "Son etkinlik",
+                "sort_top": "En çok yanıt",
+                "sort_help": "Tartışmaların her iki dosyada nasıl sıralanacağını belirler.",
+                "max_discussions_label": "Dahil edilecek en fazla tartışma sayısı",
+                "max_discussions_help": "Listelenecek en fazla tartışma sayısı (1–1000). Varsayılan: 100.",
+                "max_posts_label": "Tartışma başına en fazla gönderi sayısı (yalnızca llms-full.txt)",
+                "max_posts_help": "Tam dosyada tartışma başına dahil edilecek en fazla gönderi sayısı (1–500). Varsayılan: 50.",
+                "custom_intro_label": "Özel giriş paragrafı",
+                "custom_intro_placeholder": "Her iki dosyada forum başlığının altında görünecek isteğe bağlı bir giriş yazın.",
+                "custom_intro_help": "Atlamak için boş bırakın. Düz metin veya Markdown desteklenir."
             }
         }
     }
