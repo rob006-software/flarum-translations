@@ -156,9 +156,9 @@
                 "confirm": "Czy na pewno chcesz usunąć konto {name} w trybie {mode}?",
                 "title": "Przetwarzanie żądania usunięcia",
                 "text": "{name} zażądał usunięcia konta.",
-                "requested_at": "",
-                "confirmed_at": "",
-                "eligible_at": "",
+                "requested_at": "Złożono: {date}",
+                "confirmed_at": "Potwierdzono: {date}",
+                "eligible_at": "Automatyczne przetworzenie: {date}",
                 "comments_label": "Komentarze (opcjonalnie)",
                 "anonymization_button": "Anonimizuj użytkownika",
                 "deletion_button": "Usuń użytkownika"
