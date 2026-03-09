@@ -901,6 +901,9 @@ return [
 	],
 	'jiushutech-dingtalk-login' => [
 		'tag' => 'https://raw.githubusercontent.com/jiushutech/flarum-dingtalk-login/v1.3.0/resources/locale/en.yml',
+		'__builtInLanguages' => [
+			'zh_Hans',
+		],
 	],
 	'jslirola-login2seeplus' => [
 		'tag' => 'https://raw.githubusercontent.com/jslirola/flarum-ext-login2seeplus/v0.2.1/locale/en.yml',
