@@ -3,25 +3,25 @@
         "forum": {
             "composer": {
                 "inactive_discussion_alert": {
-                    "title": "",
-                    "description": "",
-                    "cta": "",
-                    "cta_button": "",
-                    "confirmation": ""
+                    "title": "Bu tartışmadaki son yanıt {time} tarihinde verildi.",
+                    "description": "Yanıtınızın yeni bir değer katıp katmadığını veya konunun zaten çözülüp çözülmediğini değerlendirin.",
+                    "cta": "Yeni bir sorunuz veya bakış açınız varsa yeni bir tartışma başlatmayı düşünün.",
+                    "cta_button": "=> core.ref.start_a_discussion",
+                    "confirmation": "Bu tartışmanın etkin olmadığını anlıyorum ancak yanıtım konuyla ilgili."
                 },
-                "error": ""
+                "error": "Bu tartışma yanıt verilemeyecek kadar eski."
             }
         },
         "admin": {
             "settings": {
-                "general_heading": "",
-                "days_label": "",
-                "days_help": "",
-                "show_discussion_cta_label": "",
-                "show_discussion_cta_help": "",
-                "tags_title": "",
-                "tags_help": "",
-                "tags_placeholder": ""
+                "general_heading": "Genel Ayarlar",
+                "days_label": "Tartışmanın Etkin Dışı Sayılacağı Gün Sayısı",
+                "days_help": "Son gönderiden bu kadar gün sonra tartışmaları etkin dışı olarak işaretle. Varsayılan olarak devre dışı bırakmak için <code>0</code> olarak ayarlayın.",
+                "show_discussion_cta_label": "\"Yeni Tartışma Başlat\" Önerisini Göster",
+                "show_discussion_cta_help": "Kullanıcılar etkin olmayan tartışmalara yanıt vermeye çalıştığında yeni bir tartışma başlatma önerisi gösterir.",
+                "tags_title": "Etikete Özel Ayarlar",
+                "tags_help": "Belirli etiketler için genel etkinlik dışı eşiğini geçersiz kılın. Varsayılanı kullanmak için boş bırakın. Birden fazla etiket farklı değerlere sahip olduğunda en kısa süre uygulanır.",
+                "tags_placeholder": "Varsayılan"
             }
         }
     }
