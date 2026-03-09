@@ -27,7 +27,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/android-com-pl/mobile-tab/2.0.0-beta.9/locale/en.yml',
 	],
 	'acpl-my-tags' => [
-		'beta' => 'https://raw.githubusercontent.com/android-com-pl/my-tags/2.0.0-beta.2/locale/en.yml',
+		'beta' => 'https://raw.githubusercontent.com/android-com-pl/my-tags/2.0.0-beta.3/locale/en.yml',
 	],
 	'datitisev-backup' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/main/datitisev-backup.yml',
