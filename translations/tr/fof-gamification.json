@@ -87,8 +87,8 @@
                     "vote_color": "Oylandığındaki renk",
                     "icon_name": "Yukarı oy/aşağı oy simgesi",
                     "icon_help": "İstediğiniz -up ve -down arka eki olan FontAwesome simgesini ekleyin. Örn: arrow, thumbs, chevron",
-                    "icon_preview_upvote": "",
-                    "icon_preview_downvote": "",
+                    "icon_preview_upvote": "Yukarı Oy",
+                    "icon_preview_downvote": "Aşağı Oy",
                     "upvotes_only": "Yalnızca yukarı oya izin ver",
                     "first_post_only": "Bir tartışmada yalnızca ilk gönderinin yukarı/aşağı oylanmasına izin verin",
                     "allow_self_votes": "Kullanıcılar kendi gönderilerine oy verebilir"
@@ -96,7 +96,7 @@
                 "save_settings": "Ayarları Kaydet",
                 "convert": {
                     "button": "Beğenileri yukarı oya çevir",
-                    "help": "",
+                    "help": "Flarum/likes uzantısındaki önceki beğenilerinizi yukarı oylara dönüştürün ve mevcut tüm tartışmalar için popülerlik puanını hesaplayın.",
                     "converting": "Beğenileriniz dönüştürülüyor. Sonucu görmek için sayfayı birkaç dakika sonra yenileyin. (Dönüşüm forum beğenilerinize bağlı olarak zaman alabilir)",
                     "converted": "{number} beğeni başarıyla dönüştürüldü"
                 },
@@ -136,7 +136,7 @@
     "lib": {
         "gambits": {
             "hot": {
-                "key": ""
+                "key": "trend"
             }
         }
     }
