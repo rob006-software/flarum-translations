@@ -71,22 +71,22 @@
                     "timeout_help": "Maximaldauer, die ein einzelner Job ausgeführt werden kann. Der Standardwert beträgt 60 Sekunden.",
                     "rest_label": "Restzeit (Sekunden)",
                     "rest_help": "Zeit, die zwischen der Verarbeitung von Jobs gewartet werden soll. Der Standardwert ist 0 Sekunden.",
-                    "backoff_label": "",
-                    "backoff_help": ""
+                    "backoff_label": "Zurückstellen (Sekunden)",
+                    "backoff_help": "Zeit, die vor dem erneuten Versuch eines fehlgeschlagenen Jobs gewartet werden soll. Der Standardwert ist 0 Sekunden."
                 },
                 "search": {
                     "section_label": "Treiber suchen",
                     "driver_heading": "Treiber suchen: {model}",
-                    "driver_text": "",
+                    "driver_text": "Wähle einen Treiber, der für die Suche nach diesem Modell verwendet werden soll.",
                     "driver_options": {
                         "default": ""
                     },
                     "no_other_drivers": ""
                 },
-                "title": ""
+                "title": "Fortgeschritten"
             },
             "appearance": {
-                "allow_user_color_scheme_label": "",
+                "allow_user_color_scheme_label": "Benutzern die Auswahl ihres eigenen Farbschemas ermöglichen",
                 "colored_header_label": "Kopfzeile einfärben",
                 "colors_heading": "Farbgebung",
                 "colors_primary_label": "Primärfarbe",
@@ -1002,7 +1002,7 @@
             "delete": "Löschen",
             "delete_forever": "Endgültig löschen",
             "discussions": "Diskussionen",
-            "edit": "Ändern",
+            "edit": "Bearbeiten",
             "edit_user": "Benutzer bearbeiten",
             "email": "E-Mail",
             "extensions": "Erweiterungen",
