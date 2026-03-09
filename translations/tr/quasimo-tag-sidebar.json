@@ -1,21 +1,21 @@
 {
     "quasimo-tag-sidebar": {
         "forum": {
-            "edit_button": "",
-            "modal_title": "",
-            "sidebar_label": "",
-            "sidebar_placeholder": "",
-            "save_button": "",
-            "cancel_button": "",
-            "sidebar_empty": ""
+            "edit_button": "Paneli Düzenle",
+            "modal_title": "Paneli Düzenle: {tag}",
+            "sidebar_label": "Panel İçeriği (Markdown)",
+            "sidebar_placeholder": "Markdown kullanarak kenar çubuğu içeriği girin...\n\n## Bağlantılar\n- [Örnek](https://example.com)\n\n**Kalın** ve *italik* desteklenir.",
+            "save_button": "Kaydet",
+            "cancel_button": "İptal",
+            "sidebar_empty": "(Henüz panel içeriği yok)"
         },
         "admin": {
-            "instructions_title": "",
-            "instruction_1": "",
-            "instruction_2": "",
-            "instruction_3": "",
-            "instruction_4": "",
-            "permission_edit_sidebar": ""
+            "instructions_title": "Nasıl kullanılır",
+            "instruction_1": "Forumda herhangi bir etiket sayfasına gidin.",
+            "instruction_2": "Yetkili kullanıcılar için kenar çubuğunda \"Paneli Düzenle\" butonu görünecektir.",
+            "instruction_3": "Düzenleyiciyi açmak için düğmeye tıklayın, Markdown ile içerik yazın ve kaydedin.",
+            "instruction_4": "Moderatörlerin kenar çubuğu içeriğini düzenlemesine izin vermek için aşağıdaki izni atayın.",
+            "permission_edit_sidebar": "Etiket kenar çubuğu içeriğini düzenle"
         }
     }
 }
