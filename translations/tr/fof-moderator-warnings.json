@@ -30,7 +30,7 @@
                 "warning_button": "Kullanıcıyı Uyar"
             },
             "user": {
-                "warnings": ""
+                "warnings": "Uyarılar"
             },
             "settings": {
                 "warning_notification_label": "Moderatör tarafından uyarıldığımda"
@@ -51,8 +51,8 @@
                 "warnings_no_strikes": "Moderatör Uyarıları: Hiçbir Uyarı Alınmadı"
             },
             "warning_list_item": {
-                "list_item_heading": "",
-                "list_item_heading_hidden": "",
+                "list_item_heading": "{strikes, plural, one {# uyarı, {time}} other {# uyarı, {time}}}",
+                "list_item_heading_hidden": "{strikes, plural, one {# uyarı, {time} (kaldırıldı)} other {# uyarı, {time} (kaldırıldı)}}",
                 "public_comment": "Uyarı",
                 "private_comment": "Moderatörlere Görünür Yorumlar",
                 "linked_post": "Bağlantılı Gönderi"
