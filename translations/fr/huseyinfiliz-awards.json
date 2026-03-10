@@ -1,7 +1,7 @@
 {
     "huseyinfiliz-awards": {
         "admin": {
-            "title": "Gestion des récompenses",
+            "title": "Gestion des prix",
             "nav": {
                 "title": "Récompenses",
                 "description": "Gérer les récompenses de la communauté et les votes"
@@ -15,10 +15,10 @@
             },
             "awards": {
                 "title": "Gérer les récompenses",
-                "create": "Créer une récompense",
-                "create_title": "Créer une nouvelle récompense",
-                "edit_title": "Éditer une récompense",
-                "name": "Nom de la récompense",
+                "create": "Créer un prix",
+                "create_title": "Créer un nouveau prix",
+                "edit_title": "Modifier le prix",
+                "name": "Nom du prix",
                 "year": "Année",
                 "starts_at": "Début du vote",
                 "ends_at": "Fin du vote",
@@ -33,16 +33,16 @@
                 "image_url_help": "Image de couverture affichée dans le bandeau. Transférer ou coller le lien.",
                 "categories": "Catégories",
                 "publish": "Publier les résultats",
-                "delete_confirm": "Êtes-vous sûr de vouloir supprimer cette récompense ?",
+                "delete_confirm": "Êtes-vous sûr de vouloir supprimer ce prix ?",
                 "publish_confirm": "Êtes-vous sûr de vouloir publier les résultats ? Tous les votants en seront informés.",
-                "empty": "Aucune récompense créée pour le moment."
+                "empty": "Aucun prix créé pour le moment."
             },
             "categories": {
                 "title": "Gérer les catégories",
                 "create": "Créer une catégorie",
                 "create_title": "Créer une nouvelle catégorie",
                 "edit_title": "Modifier la catégorie",
-                "select_award": "Sélectionner la récompense",
+                "select_award": "Sélectionner un prix",
                 "name": "Nom de la catégorie",
                 "nominees": "Nominés",
                 "allow_other": "Autoriser les suggestions des utilisateurs",
@@ -101,7 +101,7 @@
             },
             "permissions": {
                 "view": "Voir les récompenses",
-                "vote": "",
+                "vote": "Voter pour les récompenses",
                 "view_results": "Voir les résultats en avance",
                 "manage": "Gérer les récompenses"
             }
@@ -122,16 +122,16 @@
                 "voting_ended": "Vote terminé {time}",
                 "voting_starts": "Début du vote {time}",
                 "results_published": "Résultats publiés",
-                "select_award": "Sélectionner la récompense",
+                "select_award": "Sélectionner un prix",
                 "previous_awards": "Récompenses de l'année précédente"
             },
             "voting": {
                 "select": "Sélectionner",
                 "voted": "Voté",
                 "change_vote": "Modifier le vote",
-                "voting_closed": "",
-                "ended": "",
-                "ends_in_days": "",
+                "voting_closed": "Le vote est clos",
+                "ended": "Le vote est terminé",
+                "ends_in_days": "Le vote se termine dans {days} jours",
                 "ends_in_hours": "Le vote se termine dans {heures} heures",
                 "ends_soon": "Le vote se termine bientôt",
                 "vote_saved": "Votre vote a été enregistré !",
@@ -161,7 +161,7 @@
                 "countdown": "Le vote se termine dans : {jours}j {heures}h {minutes}m {secondes}s",
                 "voting_ended": "Le vote est terminé",
                 "results_published": "Résultats publiés",
-                "draft_preview": "",
+                "draft_preview": "Aperçu du brouillon",
                 "results_preview": "Aperçu des résultats"
             },
             "preview": {
@@ -169,7 +169,7 @@
             },
             "results": {
                 "winner": "Vainqueur",
-                "runner_up": "Runner Up",
+                "runner_up": "Dauphin",
                 "votes": "{count} votes",
                 "percentage": "{percent}%",
                 "view_all": "Voir tous les résultats",
@@ -187,7 +187,7 @@
                 "votes_unlimited": "{count} votes"
             },
             "other": {
-                "suggest": "",
+                "suggest": "Autre suggestion",
                 "click_to_suggest": "Cliquez pour proposer un nominé",
                 "placeholder": "Entrez le nom du nominé...",
                 "submit": "Soumettre la suggestion",
@@ -200,15 +200,15 @@
                 "no_suggestions": "Vous n'avez pas encore soumis une suggestion.",
                 "cancel": "Annuler",
                 "status_pending": "En attente",
-                "status_approved": "Approuvé",
-                "status_rejected": "Rejeté",
+                "status_approved": "Approuvée",
+                "status_rejected": "Rejetée",
                 "status_merged": "Fusionné",
                 "cancel_confirm": "Annuler cette suggestion ?"
             },
             "empty": {
                 "no_awards": "Aucune récompense active",
-                "no_awards_description": "Il n'y a pas de récompenses disponibles pour le moment. Revenez plus tard !",
-                "no_categories": "Aucun catégorie dans ce prix pour le moment.",
+                "no_awards_description": "Il n'y a aucun prix disponible actuellement. Revenez plus tard !",
+                "no_categories": "Aucune catégorie dans ce prix pour le moment.",
                 "no_nominees": "Aucun nominé dans cette catégorie pour le moment."
             },
             "notification": {
@@ -221,7 +221,7 @@
                 "vote_limit_reached": "Vous ne pouvez voter que pour {limit} nominés dans cette catégorie.",
                 "vote_quota_exhausted": "Vous avez utilisé tous vos votes/suggestions disponibles pour cette catégorie.",
                 "cannot_delete_processed_suggestion": "Seules les suggestions en attente peuvent être annulées.",
-                "not_available": "Cette récompense n'est pas encore disponible."
+                "not_available": "Ce prix n'est pas encore disponible."
             }
         },
         "lib": {
@@ -235,7 +235,7 @@
             "move_down": "Descendre",
             "upload_image": "Transférer une image",
             "upload_success": "Image transférée avec succès",
-            "upload_error": "",
+            "upload_error": "Échec du transfert de l'image",
             "save": "Enregistrer les modifications"
         }
     }
