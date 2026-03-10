@@ -30,13 +30,13 @@
                 "warning_button": "Benutzer verwarnen"
             },
             "user": {
-                "warnings": ""
+                "warnings": "Warnungen"
             },
             "settings": {
                 "warning_notification_label": "Ein Moderator warnt mich"
             },
             "validation": {
-                "public_comment_required": "Du gibst meistens einen öffentlichen Kommentar ab.",
+                "public_comment_required": "Du musst eine öffentliche Begründung abgeben.",
                 "invalid_strike_count": "Die Anzahl der Strikes muss eine ganze Zahl zwischen 0 und 5 sein."
             },
             "warning_controls": {
@@ -47,12 +47,12 @@
             "warning_list": {
                 "add_button": "Neue Verwarnung",
                 "no_warnings": "Anscheindend befinden sich hier keine Verwarnungen.",
-                "warnings": "{strikes, plural, one {Moderator Verwarnungen: # Strike erhalten} other {Moderator Verwarnugen: # Strikes erhalten}}",
-                "warnings_no_strikes": "Moderator Warnungen: Keine Strikes erhalten"
+                "warnings": "{strikes, plural, one {Moderator-Verwarnungen: # Strike erhalten} other {Moderator-Verwarnugen: # Strikes erhalten}}",
+                "warnings_no_strikes": "Moderator-Verwarnungen: Keine Strikes erhalten"
             },
             "warning_list_item": {
-                "list_item_heading": "",
-                "list_item_heading_hidden": "",
+                "list_item_heading": "{strikes, plural, one {# Strike, {time}} other {# Strikes, {time}}}",
+                "list_item_heading_hidden": "{strikes, plural, one {# Strike, {time} (entfernt)} other {# Strikes, {time} (entfernt)}}",
                 "public_comment": "Verwarnung",
                 "private_comment": "Moderator-sichtbare Kommentare",
                 "linked_post": "Verlinkter Beitrag"
@@ -61,9 +61,9 @@
                 "confirmation_message": "Deine Warnung wurde hinterlegt. Möglicherweise musst Du die Seite aktualisieren, um sie anzuzeigen.",
                 "heading": "<strong>{username}</strong> verwarnen",
                 "strikes_heading": "Wie viele Strikes sollen angewendet werden?",
-                "public_comment_heading": "Wieso erhält <strong>{username}</strong> diese Warnungen? Diese Kommentare sind für den Benutzer und andere Moderatoren sichtbar.",
-                "private_comment_heading": "Wieso erhält <strong>{username}</strong> diese Warnungen? Diese Kommentare sind NUR für andere Moderatoren sichtbar.",
-                "submit_button": "Warnung sichern"
+                "public_comment_heading": "Wieso erhält <strong>{username}</strong> diese Verwarnungen? Diese Kommentare sind für den Benutzer und andere Moderatoren sichtbar.",
+                "private_comment_heading": "Wieso erhält <strong>{username}</strong> diese Verwarnungen? Diese Kommentare sind NUR für andere Moderatoren sichtbar.",
+                "submit_button": "Verwarnung speichern"
             }
         }
     }
