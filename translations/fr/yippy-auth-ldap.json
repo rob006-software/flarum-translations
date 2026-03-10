@@ -10,7 +10,7 @@
                 "not_authenticated": "Impossible de lier {server} en raison d'un identifiant non valide, veuillez modifier les paramètres de l'extension.",
                 "csrf_token_mismatch": "Vous avez été inactif pendant trop longtemps, veuillez rafraîchir la page et réessayer",
                 "domains": {
-                    "connection_failed": "",
+                    "connection_failed": "Échec de la connexion pour le domaine {domain_index}, code d'erreur `{data}`",
                     "no_domains": "Les paramètres d'administration n'ont pas de domaines définis, veuillez modifier les paramètres d'extension.",
                     "empty_host": "Le domaine {domain_index} n'a pas de domaines ou d'adresses IP de serveur définis, veuillez modifier les paramètres d'extension.",
                     "empty_base_dn": "Le domaine {domain_index} n'a pas de DN de base défini, veuillez modifier les paramètres d'extension.",
