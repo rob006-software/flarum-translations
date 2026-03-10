@@ -1,134 +1,134 @@
 {
     "huseyinfiliz-awards": {
         "admin": {
-            "title": "",
+            "title": "Gestion des récompenses",
             "nav": {
-                "title": "",
-                "description": ""
+                "title": "Récompenses",
+                "description": "Gérer les récompenses de la communauté et les votes"
             },
             "tabs": {
-                "awards": "",
-                "categories": "",
-                "nominees": "",
-                "suggestions": "",
-                "settings": ""
+                "awards": "Récompenses",
+                "categories": "Catégories",
+                "nominees": "Nominés",
+                "suggestions": "Suggestions",
+                "settings": "Paramètres"
             },
             "awards": {
-                "title": "",
-                "create": "",
-                "create_title": "",
-                "edit_title": "",
-                "name": "",
-                "year": "",
-                "starts_at": "",
-                "ends_at": "",
-                "status": "",
-                "status_draft": "",
-                "status_active": "",
-                "status_ended": "",
-                "status_published": "",
-                "show_live_votes": "",
-                "show_live_votes_help": "",
-                "image_url": "",
-                "image_url_help": "",
-                "categories": "",
-                "publish": "",
-                "delete_confirm": "",
-                "publish_confirm": "",
-                "empty": ""
+                "title": "Gérer les récompenses",
+                "create": "Créer une récompense",
+                "create_title": "Créer une nouvelle récompense",
+                "edit_title": "Éditer une récompense",
+                "name": "Nom de la récompense",
+                "year": "Année",
+                "starts_at": "Début du vote",
+                "ends_at": "Fin du vote",
+                "status": "Statut",
+                "status_draft": "Brouillon",
+                "status_active": "Actif",
+                "status_ended": "Terminé",
+                "status_published": "Publié",
+                "show_live_votes": "Afficher les résultats en direct",
+                "show_live_votes_help": "Afficher les résultats pendant que le vote est actif",
+                "image_url": "URL de l'image de couverture",
+                "image_url_help": "Image de couverture affichée dans le bandeau. Transférer ou coller le lien.",
+                "categories": "Catégories",
+                "publish": "Publier les résultats",
+                "delete_confirm": "Êtes-vous sûr de vouloir supprimer cette récompense ?",
+                "publish_confirm": "Êtes-vous sûr de vouloir publier les résultats ? Tous les votants en seront informés.",
+                "empty": "Aucune récompense créée pour le moment."
             },
             "categories": {
-                "title": "",
-                "create": "",
-                "create_title": "",
-                "edit_title": "",
-                "select_award": "",
-                "name": "",
-                "nominees": "",
-                "allow_other": "",
-                "allow_other_help": "",
-                "delete_confirm": "",
-                "empty": ""
+                "title": "Gérer les catégories",
+                "create": "Créer une catégorie",
+                "create_title": "Créer une nouvelle catégorie",
+                "edit_title": "Modifier la catégorie",
+                "select_award": "Sélectionner la récompense",
+                "name": "Nom de la catégorie",
+                "nominees": "Nominés",
+                "allow_other": "Autoriser les suggestions des utilisateurs",
+                "allow_other_help": "Les utilisateurs peuvent proposer des nominés qui ne figurent pas dans la liste",
+                "delete_confirm": "Êtes-vous sûr de vouloir supprimer cette catégorie ?",
+                "empty": "Aucune catégorie trouvée."
             },
             "nominees": {
-                "title": "",
-                "create": "",
-                "create_title": "",
-                "edit_title": "",
-                "select_category": "",
-                "name": "",
-                "description_help": "",
-                "image": "",
-                "image_url": "",
-                "image_url_help": "",
-                "adjust_votes": "",
-                "vote_adjustment_title": "",
-                "real_votes": "",
-                "adjustment": "",
-                "adjustment_help": "",
-                "displayed_votes": "",
-                "reset": "",
-                "reset_adjustment": "",
-                "delete_confirm": "",
-                "empty": ""
+                "title": "Gérer les nominés",
+                "create": "Créer un nominé",
+                "create_title": "Créer un nouveau nominé",
+                "edit_title": "Modifier un nominé",
+                "select_category": "Sélectionner une catégorie",
+                "name": "Nom du nominé",
+                "description_help": "Courte description affichée sous le nom (facultatif)",
+                "image": "Image",
+                "image_url": "URL de l'image",
+                "image_url_help": "URL vers l'image du nominé (par exemple, couverture du jeu)",
+                "adjust_votes": "Ajuster les votes",
+                "vote_adjustment_title": "Ajustement du vote",
+                "real_votes": "Votes réels",
+                "adjustment": "Ajustement",
+                "adjustment_help": "Entrez un nombre positif ou négatif pour ajuster le nombre de votes affiché.",
+                "displayed_votes": "Votes affichés",
+                "reset": "Réinitialiser",
+                "reset_adjustment": "Réinitialiser l'ajustement à 0",
+                "delete_confirm": "Êtes-vous sûr de vouloir supprimer ce nominé ?",
+                "empty": "Aucun nominé trouvé."
             },
             "suggestions": {
-                "title": "",
-                "empty": "",
-                "name": "",
-                "category": "",
-                "user": "",
-                "date": "",
-                "approve": "",
-                "reject": "",
-                "merge": "",
-                "approve_confirm": "",
-                "reject_confirm": "",
-                "merge_title": "",
-                "merge_info": "",
-                "select_nominee_label": "",
-                "select_nominee_placeholder": "",
-                "no_nominees": ""
+                "title": "Suggestions en attente",
+                "empty": "Aucune suggestion en attente",
+                "name": "Nom suggéré",
+                "category": "Catégorie",
+                "user": "Soumis par",
+                "date": "Date",
+                "approve": "Approuver",
+                "reject": "Rejeter",
+                "merge": "Fusionner",
+                "approve_confirm": "Créer un nouveau nominé ? L'utilisateur votera automatiquement pour lui.",
+                "reject_confirm": "Rejeter cette suggestion ?",
+                "merge_title": "Fusionner la suggestion",
+                "merge_info": "Fusionner « {nom} » avec un nominé existant. Le vote de l'utilisateur sera pris en compte pour ce nominé.",
+                "select_nominee_label": "Sélectionner le nominé",
+                "select_nominee_placeholder": "-- Sélectionner un nominé --",
+                "no_nominees": "Aucun nominé disponible dans cette catégorie. Impossible de fusionner."
             },
             "settings": {
-                "title": "",
-                "nav_title": "",
-                "nav_title_help": "",
-                "nav_icon": "",
-                "nav_icon_help": "",
-                "votes_per_category": "",
-                "votes_per_category_help": ""
+                "title": "Paramètres",
+                "nav_title": "Titre de navigation",
+                "nav_title_help": "Texte affiché dans la barre de navigation latérale",
+                "nav_icon": "Icône de navigation",
+                "nav_icon_help": "Classe d'icône Font Awesome (par exemple, fas fa-trophy, fas fa-award, fas fa-star)",
+                "votes_per_category": "Votes par catégorie",
+                "votes_per_category_help": "0 pour illimité, 1 pour un seul vote (modifiable), >1 pour plusieurs votes."
             },
             "permissions": {
-                "view": "",
+                "view": "Voir les récompenses",
                 "vote": "",
-                "view_results": "",
-                "manage": ""
+                "view_results": "Voir les résultats en avance",
+                "manage": "Gérer les récompenses"
             }
         },
         "forum": {
             "nav": {
-                "title": "",
-                "categories": "",
-                "all_categories": ""
+                "title": "Récompenses",
+                "categories": "Catégories",
+                "all_categories": "Toutes les catégories"
             },
             "tabs": {
-                "categories": "",
-                "my_votes": "",
-                "results": ""
+                "categories": "Catégories",
+                "my_votes": "Mes votes",
+                "results": "Résultats"
             },
             "page": {
-                "voting_ends": "",
-                "voting_ended": "",
-                "voting_starts": "",
-                "results_published": "",
-                "select_award": "",
-                "previous_awards": ""
+                "voting_ends": "Fin du vote {time}",
+                "voting_ended": "Vote terminé {time}",
+                "voting_starts": "Début du vote {time}",
+                "results_published": "Résultats publiés",
+                "select_award": "Sélectionner la récompense",
+                "previous_awards": "Récompenses de l'année précédente"
             },
             "voting": {
-                "select": "",
-                "voted": "",
-                "change_vote": "",
+                "select": "Sélectionner",
+                "voted": "Voté",
+                "change_vote": "Modifier le vote",
                 "voting_closed": "",
                 "ended": "",
                 "ends_in_days": "",
@@ -144,99 +144,99 @@
                 "last_vote": "",
                 "votes_used": "",
                 "votes_unlimited": "",
-                "change": "",
-                "remove": "",
-                "add_vote": "",
-                "vote_now": "",
-                "no_votes": "",
-                "categories_remaining": ""
+                "change": "Modifier",
+                "remove": "Supprimer",
+                "add_vote": "Ajouter un vote",
+                "vote_now": "Voter maintenant",
+                "no_votes": "Vous n'avez pas encore voté",
+                "categories_remaining": "Catégories sans votes"
             },
             "progress": {
-                "voted": "",
-                "complete": "",
-                "prev": "",
-                "next": ""
+                "voted": "{count}/{total} catégories votées",
+                "complete": "Terminé !",
+                "prev": "Précédent",
+                "next": "Suivant"
             },
             "hero": {
-                "countdown": "",
-                "voting_ended": "",
-                "results_published": "",
+                "countdown": "Le vote se termine dans : {jours}j {heures}h {minutes}m {secondes}s",
+                "voting_ended": "Le vote est terminé",
+                "results_published": "Résultats publiés",
                 "draft_preview": "",
-                "results_preview": ""
+                "results_preview": "Aperçu des résultats"
             },
             "preview": {
-                "admin_only": ""
+                "admin_only": "Mode aperçu - Visible uniquement pour les utilisateurs autorisés"
             },
             "results": {
-                "winner": "",
-                "runner_up": "",
-                "votes": "",
-                "percentage": "",
-                "view_all": "",
-                "full_results": ""
+                "winner": "Vainqueur",
+                "runner_up": "Runner Up",
+                "votes": "{count} votes",
+                "percentage": "{percent}%",
+                "view_all": "Voir tous les résultats",
+                "full_results": "Résultats complets"
             },
             "prediction": {
-                "title": "",
-                "score": "",
-                "correct": "",
-                "wrong": ""
+                "title": "Votre score de prédiction",
+                "score": "{correct}/{total} prédictions correctes !",
+                "correct": "Correct :",
+                "wrong": "Incorrect :"
             },
             "category": {
-                "nominees_count": "",
-                "votes_used": "",
-                "votes_unlimited": ""
+                "nominees_count": "{count} nominés",
+                "votes_used": "{used}/{limit} votes",
+                "votes_unlimited": "{count} votes"
             },
             "other": {
                 "suggest": "",
-                "click_to_suggest": "",
-                "placeholder": "",
-                "submit": "",
-                "success": "",
-                "already_submitted": "",
-                "pending_count": "",
-                "remaining": "",
-                "no_remaining": "",
-                "my_suggestions": "",
-                "no_suggestions": "",
-                "cancel": "",
-                "status_pending": "",
-                "status_approved": "",
-                "status_rejected": "",
-                "status_merged": "",
-                "cancel_confirm": ""
+                "click_to_suggest": "Cliquez pour proposer un nominé",
+                "placeholder": "Entrez le nom du nominé...",
+                "submit": "Soumettre la suggestion",
+                "success": "Suggestion soumise ! Elle sera examinée par les modérateurs.",
+                "already_submitted": "Vous avez déjà soumis une suggestion pour cette catégorie.",
+                "pending_count": "{count} suggestion(s) en attente",
+                "remaining": "{count} suggestion(s) restante(s)",
+                "no_remaining": "Il n'y a plus de créneaux disponibles pour les suggestions",
+                "my_suggestions": "Mes suggestions",
+                "no_suggestions": "Vous n'avez pas encore soumis une suggestion.",
+                "cancel": "Annuler",
+                "status_pending": "En attente",
+                "status_approved": "Approuvé",
+                "status_rejected": "Rejeté",
+                "status_merged": "Fusionné",
+                "cancel_confirm": "Annuler cette suggestion ?"
             },
             "empty": {
-                "no_awards": "",
-                "no_awards_description": "",
-                "no_categories": "",
-                "no_nominees": ""
+                "no_awards": "Aucune récompense active",
+                "no_awards_description": "Il n'y a pas de récompenses disponibles pour le moment. Revenez plus tard !",
+                "no_categories": "Aucun catégorie dans ce prix pour le moment.",
+                "no_nominees": "Aucun nominé dans cette catégorie pour le moment."
             },
             "notification": {
-                "results_published": ""
+                "results_published": "Les résultats du {awardName} ont été publiés !"
             },
             "error": {
-                "voting_closed": "",
-                "rate_limit": "",
-                "other_not_allowed": "",
-                "vote_limit_reached": "",
-                "vote_quota_exhausted": "",
-                "cannot_delete_processed_suggestion": "",
-                "not_available": ""
+                "voting_closed": "Le vote est clos.",
+                "rate_limit": "Trop de votes. Veuillez patienter un instant.",
+                "other_not_allowed": "Cette catégorie n'accepte pas les suggestions.",
+                "vote_limit_reached": "Vous ne pouvez voter que pour {limit} nominés dans cette catégorie.",
+                "vote_quota_exhausted": "Vous avez utilisé tous vos votes/suggestions disponibles pour cette catégorie.",
+                "cannot_delete_processed_suggestion": "Seules les suggestions en attente peuvent être annulées.",
+                "not_available": "Cette récompense n'est pas encore disponible."
             }
         },
         "lib": {
-            "success_message": "",
-            "actions": "",
-            "votes": "",
-            "slug": "",
-            "description": "",
-            "sort_order": "",
-            "move_up": "",
-            "move_down": "",
-            "upload_image": "",
-            "upload_success": "",
+            "success_message": "Modifications enregistrées avec succès !",
+            "actions": "Actions",
+            "votes": "Votes",
+            "slug": "Identifiant texte unique",
+            "description": "Description",
+            "sort_order": "Ordre",
+            "move_up": "Monter",
+            "move_down": "Descendre",
+            "upload_image": "Transférer une image",
+            "upload_success": "Image transférée avec succès",
             "upload_error": "",
-            "save": ""
+            "save": "Enregistrer les modifications"
         }
     }
 }
