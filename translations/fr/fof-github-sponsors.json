@@ -7,13 +7,13 @@
             },
             "settings": {
                 "api_token_label": "Jeton API",
-                "api_token_help": "",
+                "api_token_help": "Créez un jeton d'accès personnel sur <a>https://github.com/settings/tokens/new</a> avec les champs <code>user</code> et <code>read:org</code>. Ce jeton sert à récupérer vos informations de parrainage sur GitHub.",
                 "account_type_label": "Type de compte",
-                "account_type_help": "",
+                "account_type_help": "Sélectionner si vous souhaitez suivre les sponsors d'un compte utilisateur GitHub personnel ou d'un compte d'organisation.",
                 "login_label": "Identifiant",
-                "login_help": "",
+                "login_help": "Entrez votre nom d'utilisateur GitHub (pour les comptes utilisateurs) ou le nom de votre organisation (pour les organisations). Il s'agit du compte dont les sponsors seront synchronisés.",
                 "group_label": "Groupe à attribuer",
-                "group_help": ""
+                "group_help": "Sélectionner le groupe d'utilisateur Flarum auquel les sponsors doivent être ajoutés. Les utilisateurs seront automatiquement ajoutés lorsqu'ils deviendront sponsors et supprimés lorsqu'ils cesseront d'être sponsors."
             }
         }
     }
