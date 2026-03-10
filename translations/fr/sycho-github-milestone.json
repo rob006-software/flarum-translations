@@ -15,7 +15,7 @@
             "closed": "=> sycho-github-milestone.ref.closed",
             "open": "=> sycho-github-milestone.ref.open",
             "all": "=> sycho-github-milestone.ref.all",
-            "complete": "",
+            "complete": "<strong>{progress}%</strong> Terminé",
             "load_more": "=> core.forum.discussion_list.load_more_button",
             "tasks_done": "{number} sur {total}"
         },
