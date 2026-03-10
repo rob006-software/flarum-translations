@@ -2223,6 +2223,16 @@
     },
     "flarum-realtime.json": {
         "flarum-realtime": {
+            "admin": {
+                "settings": {
+                    "release-discussion-updates": "752042c92b8155d1ac5d7b76547f4142 752042c92b8155d1ac5d7b76547f4142",
+                    "release-discussion-updates-help": "35a3050767b721509d5f4546389b0a6d 35a3050767b721509d5f4546389b0a6d",
+                    "release-discussion-updates-interval": "bed39e2a55f79cbf654bfe02a4c1b1a8 bed39e2a55f79cbf654bfe02a4c1b1a8",
+                    "release-discussion-updates-interval-help": "ddd9cb5a721e1879e90ab1ea62ab05e6 ddd9cb5a721e1879e90ab1ea62ab05e6",
+                    "typing-indicator": "d0779a57d019f928821859d37dffba9d d0779a57d019f928821859d37dffba9d",
+                    "typing-indicator-help": "05ca448dd842f0eedd5a9b231e83cf8c 05ca448dd842f0eedd5a9b231e83cf8c"
+                }
+            },
             "forum": {
                 "push": {
                     "discussion-list-new-activity": "a3b8296b856ae55a5ad9c26e8f013b4a a3b8296b856ae55a5ad9c26e8f013b4a",
@@ -2968,6 +2978,16 @@
                     "dropdown_label": "61c62c33bd47c9ec8a8d2afa362f4ebd 61c62c33bd47c9ec8a8d2afa362f4ebd",
                     "settings": {
                         "block_pd": "d4e068a41fee217445f631e2b4866a64 d4e068a41fee217445f631e2b4866a64"
+                    }
+                }
+            },
+            "lib": {
+                "gambits": {
+                    "allows-pd": {
+                        "key": "2a86c283c7e54ca3f27d4c038deecb90 2a86c283c7e54ca3f27d4c038deecb90"
+                    },
+                    "private": {
+                        "key": "90ceee8a9b1b67d4e50699a0f1d2939e 90ceee8a9b1b67d4e50699a0f1d2939e"
                     }
                 }
             }
