@@ -1819,7 +1819,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/Yippy/flarum-tag-with-themes/v1.0.16/locale/en.yml',
 	],
 	'zerosonesfun-preview' => [
-		'tag' => 'https://raw.githubusercontent.com/zerosonesfun/flarum-preview/0.9/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/zerosonesfun/flarum-preview/1.0.4/locale/en.yml',
 	],
 	'zhihe-primary-posts' => [
 		'tag' => 'https://raw.githubusercontent.com/echolocked/zhihe-primary-posts/v1.0.4/locale/en.yml',
