@@ -79,9 +79,9 @@
                     "driver_heading": "Treiber suchen: {model}",
                     "driver_text": "Wähle einen Treiber, der für die Suche nach diesem Modell verwendet werden soll.",
                     "driver_options": {
-                        "default": ""
+                        "default": "Standard-Datenbanksuche"
                     },
-                    "no_other_drivers": ""
+                    "no_other_drivers": "Es sind noch keine Suchtreiber verfügbar. Installiere eine Suchtreiber-Erweiterung, um diese konfigurieren zu können."
                 },
                 "title": "Fortgeschritten"
             },
@@ -135,12 +135,12 @@
                 "show_language_selector_label": "Sprachauswahlmenü zeigen",
                 "slug_driver_options": {
                     "discussions": {
-                        "default": "",
-                        "utf8": ""
+                        "default": "ID mit Slug",
+                        "utf8": "ID mit UTF-8-Slug"
                     },
                     "users": {
-                        "default": "",
-                        "id": ""
+                        "default": "Benutzername",
+                        "id": "ID"
                     }
                 },
                 "slug_driver_heading": "Slug-Treiber: {model}",
@@ -183,7 +183,7 @@
                     }
                 },
                 "title": "Dashboard",
-                "toggle_advanced_page_button": "",
+                "toggle_advanced_page_button": "Erweiterte Seite umschalten",
                 "tools_button": "Werkzeuge"
             },
             "debug-warning": {
@@ -224,17 +224,17 @@
                 "driver_heading": "Treiber auswählen",
                 "driver_label": "Treiber",
                 "format": {
-                    "multipart_option": "",
-                    "plain_option": "",
-                    "html_option": ""
+                    "multipart_option": "Multipart (empfohlen)",
+                    "plain_option": "Klartext",
+                    "html_option": "HTML"
                 },
-                "format_heading": "",
-                "format_help": "",
+                "format_heading": "Format für ausgehende E-Mails",
+                "format_help": "Wähle das Format, in dem ausgehende E-Mails versendet werden sollen. Die empfohlene Option ist <code>multipart</code>, da dadurch der E-Mail-Client deines Benutzers das am besten geeignete Format anzeigen kann.",
                 "from_label": "Absenderadresse",
                 "mail_encryption_label": "Verschlüsselung",
-                "mail_encryption_tls_help": "",
-                "mail_encryption_ssl_help": "",
-                "mail_encryption_none_help": "",
+                "mail_encryption_tls_help": "Die Verbindung beginnt unverschlüsselt und wird auf TLS (STARTTLS) hochgestuft. Wird in der Regel mit Port 587 oder 25 verwendet.",
+                "mail_encryption_ssl_help": "Die Verbindung ist von Anfang an verschlüsselt (implizites TLS). Wird in der Regel mit Port 465 verwendet.",
+                "mail_encryption_none_help": "Keine Verschlüsselung. Nicht für den produktiven Einsatz empfohlen.",
                 "mail_host_label": "Host",
                 "mail_mailgun_domain_label": "Domäne",
                 "mail_mailgun_region_label": "Region",
@@ -725,10 +725,10 @@
             },
             "error": {
                 "circular_dependencies_message": "Zirkuläre Abhängigkeiten erkannt: {extensions}. Prozess abgebrochen. Bitte deaktivieren Sie eine der Erweiterungen und versuchen Sie es erneut.",
-                "db_error_message": "",
+                "db_error_message": "Datenbankabfrage fehlgeschlagen. Dies kann durch eine Inkompatibilität zwischen einer Erweiterung und deinem Datenbanktreiber verursacht werden.",
                 "dependent_extensions_message": "Die Erweiterung {extension} kann nicht deaktiviert werden, bis die folgenden abhängigen Erweiterungen deaktiviert wurden: {extensions}",
                 "extension_initialiation_failed_message": "{extension} konnte nicht initialisiert werden, überprüfen Sie die Browser-Konsole für weitere Informationen.",
-                "extension_runtime_failed_message": "",
+                "extension_runtime_failed_message": "Bei der Ausführung von {extension} ist ein Fehler aufgetreten. Weitere Informationen findest du in der Browserkonsole.",
                 "generic_message": "Es tut uns leid! Es ist ein Fehler aufgetreten. Bitte laden Sie die Seite neu und versuchen Sie es erneut.",
                 "generic_cross_origin_message": "Es tut uns leid! Bei einer Cross-Origin-Anfrage ist ein Problem aufgetreten. Bitte laden Sie die Seite neu und versuchen Sie es erneut.",
                 "missing_dependencies_message": "Die Erweiterung {extension} kann nicht aktiviert werden, bis die folgenden abhängigen Erweiterungen aktiviert wurden: {extensions}",
@@ -747,7 +747,7 @@
                 "discussions": {
                     "author": {
                         "key": "Autor",
-                        "hint": ""
+                        "hint": "Benutzername oder durch Kommas getrennte Liste von Benutzernamen"
                     },
                     "created": {
                         "key": "erstellt",
@@ -773,7 +773,7 @@
                     },
                     "group": {
                         "key": "Gruppe",
-                        "hint": ""
+                        "hint": "Singular- oder Plural-Gruppennamen"
                     }
                 }
             },
@@ -798,7 +798,7 @@
             },
             "notices": {
                 "bisecting": "",
-                "bisecting_continue": "",
+                "bisecting_continue": "Bisect fortsetzen",
                 "maintenance_mode_low": "",
                 "maintenance_mode_safe": ""
             },
