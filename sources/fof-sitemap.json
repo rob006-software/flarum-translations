@@ -52,7 +52,9 @@
                             "minimum_item_threshold_help": "The minimum number of discussions a tag must have for it to be included in the sitemap."
                         }
                     }
-                }
+                },
+                "column_pruning": "Enable column pruning",
+                "column_pruning_help": "Fetches only the columns needed to generate URLs (e.g. id, slug, username, dates) instead of SELECT *. Significantly reduces memory usage per model on large forums. Enabled by default — only disable if a custom slug driver or visibility scope requires columns not in the default selection."
             }
         }
     }
