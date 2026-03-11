@@ -156,9 +156,9 @@
                 "confirm": "Êtes-vous sûr de vouloir effacer le compte de {name} en mode {mode} ?",
                 "title": "Traiter la demande d'effacement",
                 "text": "{name} a demandé l'effacement de son compte.",
-                "requested_at": "",
-                "confirmed_at": "",
-                "eligible_at": "",
+                "requested_at": "Demandé : {date}",
+                "confirmed_at": "Confirmé : {date}",
+                "eligible_at": "Éligible au traitement automatique : {date}",
                 "comments_label": "Commentaires (facultatif)",
                 "anonymization_button": "Anonymiser l'utilisateur",
                 "deletion_button": "Supprimer l'utilisateur"
