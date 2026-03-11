@@ -16,7 +16,7 @@
             },
             "dialog_list": {
                 "load_more_button": "=> core.ref.load_more",
-                "mark_as_read_tooltip": "",
+                "mark_as_read_tooltip": "Marquer comme lue",
                 "title": "Messages",
                 "view_all": "Afficher tous les messages"
             },
@@ -26,7 +26,7 @@
                 "controls": {
                     "details_button": "Informations"
                 },
-                "controls_toggle_label": "",
+                "controls_toggle_label": "Actions de contrôle de la conversation",
                 "details_modal": {
                     "created_at": "Date de création",
                     "recipients": "Participants",
@@ -53,9 +53,9 @@
                 "empty_text": "Aucun nouveau message",
                 "hero": {
                     "title": "Messages",
-                    "subtitle": ""
+                    "subtitle": "Vos conversations privées avec d'autres utilisateurs"
                 },
-                "mark_all_as_read_tooltip": "",
+                "mark_all_as_read_tooltip": "Tout marquer comme lu",
                 "refresh_tooltip": "Actualiser",
                 "send_message_button": "Envoyer un message",
                 "stream": {
@@ -77,7 +77,7 @@
                 "cannot_reply_text": "Cet utilisateur ne peut pas répondre"
             },
             "notifications": {
-                "message_received_text": ""
+                "message_received_text": "{user} vous a envoyé un message"
             }
         },
         "email": {
