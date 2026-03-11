@@ -10,7 +10,7 @@
                 "random_username_label": "Rendre les noms d'utilisateur aléatoires",
                 "random_username_help": "Cela masquera le champ `username` lors de l'inscription et utilisera un nombre aléatoire à la place. Cela rendra également le champ `nickname` obligatoire. Cette option ne prendra effet que si le réglage « Autoriser à définir des pseudonymes lors de l'inscription » est activé.",
                 "regex_label": "Expression régulière pour la validation",
-                "regex_help": "",
+                "regex_help": "Les caractères suivants sont toujours interdits dans les pseudonymes : [ ] ( ) < >",
                 "set_on_registration_label": "Autoriser de définir des pseudonymes lors de l'inscription",
                 "unique_label": "Exiger des pseudonymes uniques"
             },
