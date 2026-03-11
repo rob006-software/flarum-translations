@@ -2,28 +2,28 @@
     "core": {
         "forum": {
             "index_sort": {
-                "popular_button": "",
-                "unpopular_button": ""
+                "popular_button": "Popularno",
+                "unpopular_button": "Nepopularno"
             }
         }
     },
     "fof-discussion-views": {
         "forum": {
             "modal_resetviews": {
-                "title": "",
-                "submit": "",
-                "label": ""
+                "title": "Resetiraj broj pregleda rasprave",
+                "submit": "Potvrdi",
+                "label": "Postavi broj pregleda na"
             },
             "discussion_controls": {
-                "resetviews_button": ""
+                "resetviews_button": "Postavi broj pregleda"
             }
         },
         "admin": {
             "permissions": {
-                "reset_views_label": ""
+                "reset_views_label": "Postavi preglede rasprave"
             },
             "settings": {
-                "ignore_crawlers": ""
+                "ignore_crawlers": "Zanemari posjete botova"
             }
         }
     }
