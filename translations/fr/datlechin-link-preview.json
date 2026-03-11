@@ -2,14 +2,14 @@
     "datlechin-link-preview": {
         "admin": {
             "sections": {
-                "general_label": "",
-                "general_description": "",
-                "performance_label": "",
-                "performance_description": "",
-                "url_filtering_label": "",
-                "url_filtering_description": "",
-                "external_api_label": "",
-                "external_api_description": ""
+                "general_label": "Général",
+                "general_description": "Préférences d'affichage de base pour les aperçus des liens.",
+                "performance_label": "Performance",
+                "performance_description": "Optimisez la manière dont les aperçus des liens sont récupérés et mis en cache.",
+                "url_filtering_label": "Filtrage des URL",
+                "url_filtering_description": "Contrôlez les URL qui génèrent des aperçus de liens.",
+                "external_api_label": "API externe de secours",
+                "external_api_description": "Utilisez un service externe lorsque la récupération directe échoue (par exemple sur les sites qui se protègent des robots)."
             },
             "settings": {
                 "enable_batch_requests_label": "Activer le traitement par lots",
@@ -28,10 +28,10 @@
                 "cache_time_help": "Durée de stockage des aperçus de liens avant actualisation. La valeur 0 désactive la mise en cache. Valeur par défaut : 60 minutes.",
                 "open_links_in_new_tab_label": "Ouvrir les liens dans un nouvel onglet",
                 "open_links_in_new_tab_help": "Toujours ouvrir les liens prévisualisés dans un nouvel onglet du navigateur.",
-                "external_api_fallback_label": "",
-                "external_api_fallback_help": "",
-                "external_api_url_label": "",
-                "external_api_url_help": ""
+                "external_api_fallback_label": "API externe de secours",
+                "external_api_fallback_help": "Lorsque la récupération directe échoue (par exemple sur les sites qui se protègent des robots comme Reuters), utilisez une API oEmbed externe pour récupérer les métadonnées du lien.",
+                "external_api_url_label": "URL de l'API externe",
+                "external_api_url_help": "Point de terminaison API oEmbed personnalisé. Laissez vide pour utiliser la valeur par défaut (API ouverte Iframely). L'URL sera ajoutée en tant que paramètre de requête."
             }
         },
         "forum": {
