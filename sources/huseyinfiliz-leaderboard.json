@@ -1,0 +1,101 @@
+{
+    "huseyinfiliz-leaderboard": {
+        "admin": {
+            "tabs": {
+                "general": "General",
+                "points": "Points",
+                "exclusions": "Exclusions",
+                "maintenance": "Maintenance"
+            },
+            "modals": {
+                "save": "Save",
+                "cancel": "Cancel",
+                "close": "Close",
+                "select_groups": "Select Groups",
+                "select_tags": "Select Tags",
+                "none_selected": "None selected"
+            },
+            "settings": {
+                "leaderboard_name_label": "Leaderboard Name",
+                "points_label_label": "Points Label",
+                "points_discussion_started_label": "Points for starting a discussion",
+                "points_post_created_label": "Points for posting a reply",
+                "points_daily_login_label": "Points for daily login",
+                "points_like_received_label": "Points for receiving a like",
+                "points_like_given_label": "Points for giving a like",
+                "points_reaction_received_label": "Points for receiving a reaction",
+                "points_reaction_given_label": "Points for giving a reaction",
+                "points_best_answer_label": "Points for best answer",
+                "points_badge_earned_label": "Points for earning a badge",
+                "points_upvote_received_label": "Points for receiving an upvote",
+                "points_downvote_received_label": "Points for receiving a downvote",
+                "excluded_groups_label": "Excluded Groups",
+                "excluded_groups_help": "Users in selected groups will be excluded from the leaderboard.",
+                "excluded_tags_label": "Excluded Tags",
+                "excluded_tags_help": "Discussions with selected tags will not earn points.",
+                "section_core": "Core Points",
+                "section_likes": "Likes",
+                "section_reactions": "Reactions",
+                "section_best_answer": "Best Answer",
+                "section_badges": "Badges",
+                "section_gamification": "Gamification",
+                "extension_not_enabled": "This extension is not enabled.",
+                "recalculate_points_title": "Recalculate All Activity",
+                "recalculate_points_help": "Re-scans all source data (discussions, posts, likes, etc.), removes orphaned records, adds missing ones, and rebuilds all totals. Use this after changing tag exclusions or if data seems out of sync.",
+                "recalculate_points_button": "Recalculate All Activity",
+                "recalculate_points_confirm": "This will re-scan all source data and rebuild point records from scratch. This may take a while on large forums.",
+                "recalculate_points_success": "All activity recalculated successfully.",
+                "recalculate_points_failed": "Recalculation failed. You can try again.",
+                "recalculate_points_retry": "Try Again",
+                "recalculate_points_warning": "Do not close this page or navigate away while recalculation is in progress. The operation will fail if interrupted.",
+                "already_running": "A recalculation is already in progress. Please wait for it to finish.",
+                "recalculate_totals_title": "Sync Points",
+                "recalculate_totals_help": "Recalculates all user point totals using current point values. Use this after changing point values.",
+                "recalculate_totals_button": "Sync Points",
+                "recalculate_totals_success": "Points synced successfully.",
+                "points_changed_notice": "Point values have changed. Sync points to apply new values.",
+                "tags_changed_notice": "Tag exclusions have changed. Recalculate all activity to update historical data.",
+                "sync_step_discussion_started": "Scanning discussions...",
+                "sync_step_post_created": "Scanning posts...",
+                "sync_step_like_received": "Scanning likes received...",
+                "sync_step_like_given": "Scanning likes given...",
+                "sync_step_reaction_received": "Scanning reactions received...",
+                "sync_step_reaction_given": "Scanning reactions given...",
+                "sync_step_best_answer": "Scanning best answers...",
+                "sync_step_vote_received": "Scanning votes...",
+                "sync_step_badge_earned": "Scanning badges...",
+                "sync_step_rebuild_totals": "Rebuilding totals..."
+            }
+        },
+        "forum": {
+            "period": {
+                "daily": "Daily",
+                "weekly": "Weekly",
+                "monthly": "Monthly",
+                "quarterly": "Quarterly",
+                "yearly": "Yearly",
+                "all": "All Time"
+            },
+            "podium": {
+                "first": "1st",
+                "second": "2nd",
+                "third": "3rd",
+                "stat_comments": "Comments",
+                "stat_discussions": "Discussions",
+                "stat_badges": "Badges"
+            },
+            "contenders": {
+                "title": "Top Contenders"
+            },
+            "honorable": {
+                "title": "Honorable Mentions"
+            },
+            "list": {
+                "rank": "Rank",
+                "points": "{points} {label}",
+                "load_more": "Show More",
+                "no_results": "No results for this period."
+            }
+        }
+    }
+}
