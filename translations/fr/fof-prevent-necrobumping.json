@@ -3,24 +3,24 @@
         "forum": {
             "composer": {
                 "inactive_discussion_alert": {
-                    "title": "",
-                    "description": "",
-                    "cta": "",
+                    "title": "La dernière réponse à cette discussion date du {time}.",
+                    "description": "Demandez-vous si votre réponse apporte une valeur ajoutée ou si le sujet a déjà été résolu.",
+                    "cta": "Envisagez de démarrer une nouvelle discussion si vous avez une nouvelle question ou un nouveau point de vue.",
                     "cta_button": "=> core.ref.start_a_discussion",
-                    "confirmation": ""
+                    "confirmation": "Je comprends que cette discussion est inactive, mais ma réponse est pertinente."
                 },
-                "error": ""
+                "error": "Cette discussion est trop ancienne pour y répondre."
             }
         },
         "admin": {
             "settings": {
                 "general_heading": "Paramètres généraux",
-                "days_label": "",
-                "days_help": "",
-                "show_discussion_cta_label": "",
-                "show_discussion_cta_help": "",
-                "tags_title": "",
-                "tags_help": "",
+                "days_label": "Nombre de jours avant que la discussion soit considérée comme inactive",
+                "days_help": "Marquer les discussions comme inactives après un certain nombre de jours depuis le dernier message. Définissez cette option sur <code>0</code> pour désactiver ce comportement par défaut.",
+                "show_discussion_cta_label": "Afficher l'invite « Démarrer une nouvelle discussion »",
+                "show_discussion_cta_help": "Afficher une suggestion pour démarrer une nouvelle discussion lorsque les utilisateurs tentent de répondre à des discussions inactives.",
+                "tags_title": "Paramètres spécifiques aux étiquettes",
+                "tags_help": "Remplacez le seuil d'inactivité global pour des étiquettes spécifiques. Laissez ce champ vide pour utiliser la valeur par défaut. Lorsque plusieurs étiquettes ont des valeurs différentes, c'est la période la plus courte qui s'applique.",
                 "tags_placeholder": "Par défaut"
             }
         }
