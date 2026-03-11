@@ -15,15 +15,15 @@
                 "settings": {
                     "heading": "Echtzeit",
                     "typing-indicator-type": {
-                        "help": "",
-                        "label": ""
+                        "help": "Wenn aktiviert, zeigt die Eingabeanzeige die Benutzer an, die gerade tippen. Deaktiviere diese Option, um nur die Anzahl der Benutzer anzuzeigen, die gerade tippen.",
+                        "label": "Anzeigen, wer gerade tippt"
                     }
                 }
             }
         },
         "admin": {
             "permission": {
-                "view-who-types": ""
+                "view-who-types": "Sehen, wer gerade tippt"
             },
             "settings": {
                 "release-discussion-updates": "DiscussionList-Aktualisierungen",

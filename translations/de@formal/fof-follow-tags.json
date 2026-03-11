@@ -62,28 +62,28 @@
             "newDiscussionInTag": {
                 "subject": "[Tag | Neue Diskussion] {title}",
                 "plain": {
-                    "body": ""
+                    "body": "{actor_display_name} hat eine Diskussion in einem Tag gestartet, dem du folgst: {discussion_title}\n\nUm die neue Diskussion anzuzeigen, klicke auf den folgenden Link:\n{discussion_url}\n\n---\n\n{content}\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{actor_display_name} hat eine Diskussion in einem Tag gestartet, dem du folgst: [{discussion_title}]({discussion_url})\n"
                 }
             },
             "newPostInTag": {
                 "subject": "[Tag | Neuer Beitrag] {title}",
                 "plain": {
-                    "body": ""
+                    "body": "{actor_display_name} hat in einer Diskussion zu einem Tag, dem du folgst, einen Beitrag gepostet: {discussion_title}\n\nUm die neue Aktivität anzuzeigen, klicke auf den folgenden Link:\n{post_url}\n\n---\n\n{content}\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{actor_display_name} hat in einer Diskussion zu einem Tag, dem du folgst, einen Beitrag gepostet: [{discussion_title}]({post_url})\n"
                 }
             },
             "newDiscussionTag": {
                 "subject": "[Tag | Geändertes Tag] {title}",
                 "plain": {
-                    "body": ""
+                    "body": "{actor_display_name} hat gerade das Tag einer Diskussion von {author_display_name} in ein Tag geändert, dem du folgst: {discussion_title}\n\nUm die Diskussion anzuzeigen, klicke auf den folgenden Link:\n{discussion_url}\n\n---\n\n{content}\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{actor_display_name} hat gerade das Tag einer Diskussion von {author_display_name} in ein Tag geändert, dem du folgst: [{discussion_title}]({discussion_url})\n"
                 }
             }
         },

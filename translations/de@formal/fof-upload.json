@@ -33,7 +33,7 @@
                 "mime_types": "",
                 "resize": "Wähle aus, ob du die Größe deiner Bilder ändern möchtest, bevor sie hochgeladen werden. Du kannst eine maximale Breite und Höhe in Pixeln wählen. Bei der Größenänderung wird das Seitenverhältnis der Bilder beibehalten.\n",
                 "client_extension": "Standardmäßig wählt Upload eine sichere Dateierweiterung basierend auf dem MIME-Typ.\nBei einigen Dateitypen, die auf ZIP- oder Binärdaten basieren, kann dies dazu führen, dass generische Erweiterungen statt der erwarteten verwendet werden.\nHier kannst du eine kommagetrennte Liste von Dateierweiterungen eingeben, die genau beibehalten werden sollen.\n",
-                "thumbnails": "",
+                "thumbnails": "Erstelle beim Hochladen eine verkleinerte Miniaturansicht für Bilder. Die Miniaturansicht wird inline angezeigt.\nDurch Anklicken wird die Originaldatei in voller Auflösung in einem neuen Tab geöffnet. Miniaturansichten\nreduzieren die Bandbreite und das Seitengewicht für Foren mit vielen großen Bildern erheblich.\n",
                 "watermark": "Wähle aus, ob Bilder beim Hochladen mit einem Wasserzeichen versehen werden sollen. Wasserzeichen werden basierend auf deinen Einstellungen unten hinzugefügt, jedoch nicht bei GIF's.\n",
                 "s3_compatible_storage": "Die folgenden Einstellungen sind nur erforderlich, wenn du S3 kompatiblen Speicher verwendest. Wenn du AWS verwendest, kannst du sie leer lassen.\n",
                 "s3_acl": "Die Zugriffssteuerungsliste (ACL), die auf das hochgeladene Objekt angewendet werden soll (Standard: private). Für mögliche Werte, siehe https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
@@ -127,7 +127,7 @@
                 "inspect-mime": "MIME-Typ der Testdatei"
             },
             "warnings": {
-                "fileinfo_missing": ""
+                "fileinfo_missing": "Die PHP-Erweiterung <strong>fileinfo</strong> ist auf diesem Server nicht geladen. FoF Upload funktioniert weiterhin, aber die MIME-Typ-Kreuzvalidierung ist deaktiviert, wodurch der Schutz vor gefälschten Dateitypen verringert wird. Aktiviere die Erweiterung in deiner PHP-Konfiguration, um optimale Sicherheit zu gewährleisten.\n"
             },
             "permissions": {
                 "download_label": "Dateien herunterladen",
