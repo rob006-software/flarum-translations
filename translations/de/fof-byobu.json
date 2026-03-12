@@ -123,15 +123,15 @@
             "body": {
                 "private_discussion_created": "{actor_display_name} hat eine neue private Diskussion mit dir als Empfänger gestartet: {discussion_title}.\n\nHier kannst du sie anzeigen:\n{discussion_url}\n\nMöglicherweise musst du dich zuerst anmelden, bevor du auf diesen Link zugreifen kannst.\n",
                 "private_discussion_replied": "{actor_display_name} hat in einer privaten Diskussion mit dir als Empfänger folgenden Beitrag gepostet: {discussion_title}.\n\nHier kannst du ihn ansehen:\n{post_url}\n\nMöglicherweise musst du dich zuerst anmelden, bevor du auf diesen Link zugreifen kannst.\n",
-                "recipient_removed": "",
-                "private_discussion_added": "",
-                "made_public": ""
+                "recipient_removed": "{actor_display_name} hat die private Diskussion verlassen: {discussion_title}. Er/sie kann nun keine Inhalte mehr davon sehen.\n\nHier ansehen:\n{discussion_url}\n\nMöglicherweise musst du dich zuerst anmelden, bevor du auf diesen Link zugreifen kannst.\n",
+                "private_discussion_added": "{actor_display_name} hat dich zu einer bestehenden privaten Diskussion hinzugefügt: {discussion_title}.\n\nHier kannst du sie einsehen:\n{discussion_url}\n\nMöglicherweise musst du dich zuerst anmelden, bevor du auf diesen Link zugreifen kannst.\n",
+                "made_public": "{actor_display_name} hat alle Empfänger entfernt und die Diskussion öffentlich gemacht: {discussion_title}.\n\nHier ansehen:\n{discussion_url}\n\nMöglicherweise musst du dich zuerst anmelden, bevor du auf diesen Link zugreifen kannst.\n"
             }
         },
         "lib": {
             "gambits": {
                 "byobu": {
-                    "key": ""
+                    "key": "byobu"
                 },
                 "private": {
                     "key": "privat"
