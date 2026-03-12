@@ -1,42 +1,42 @@
 {
     "acpl-mobile-tab": {
         "admin": {
-            "available_items": "",
-            "active_items": "",
-            "create_new_item_button": "",
+            "available_items": "Доступные элементы",
+            "active_items": "Активные элементы",
+            "create_new_item_button": "Создать элемент",
             "edit_item": {
-                "modal_title": "",
-                "label": "",
-                "label_placeholder": "",
-                "path": "",
-                "url": "",
-                "icon": "",
-                "icon_help": "",
-                "is_internal_checkbox": "",
-                "open_new_tab_checkbox": "",
-                "submit_button": "",
-                "delete_button": "",
-                "delete_item_confirmation": ""
+                "modal_title": "Редактировать элемент",
+                "label": "Название",
+                "label_placeholder": "Кастомный элемент",
+                "path": "Путь",
+                "url": "URL",
+                "icon": "Иконка",
+                "icon_help": "Введите имя класса иконки <a>FontAwesome</a>, включая префикс <code>fas fa-</code>.",
+                "is_internal_checkbox": "Это внутренняя ссылка?",
+                "open_new_tab_checkbox": "Открывать ссылку в новой вкладке",
+                "submit_button": "Сохранить",
+                "delete_button": "Удалить",
+                "delete_item_confirmation": "Удалить этот элемент?"
             },
             "scroll_settings": {
-                "toggle_label": "",
-                "threshold_label": "",
-                "threshold_help": ""
+                "toggle_label": "Переключать видимость при прокрутке",
+                "threshold_label": "Порог прокрутки (px)",
+                "threshold_help": "Расстояние прокрутки от текущей позиции, после которого будет изменяться видимость."
             }
         },
         "lib": {
             "item": {
-                "home": "",
-                "all_discussions": "",
-                "categories": "",
-                "notifications": "",
-                "session": "",
-                "search": "",
-                "log_in": "",
-                "profile": "",
-                "tags": "",
-                "messages": "",
-                "fof-byobu": ""
+                "home": "Главная",
+                "all_discussions": "Дискуссии",
+                "categories": "Категории",
+                "notifications": "Уведомления",
+                "session": "Сессия",
+                "search": "Поиск",
+                "log_in": "Войти",
+                "profile": "Профиль",
+                "tags": "Теги",
+                "messages": "Сообщения",
+                "fof-byobu": "Переписки"
             }
         }
     }
