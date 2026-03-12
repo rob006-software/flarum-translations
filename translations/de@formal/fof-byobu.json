@@ -125,13 +125,13 @@
                 "private_discussion_replied": "",
                 "recipient_removed": "",
                 "private_discussion_added": "",
-                "made_public": ""
+                "made_public": "{actor_display_name} hat alle Empfänger entfernt und die Diskussion öffentlich gemacht: {discussion_title}.\n\nHier ansehen:\n{discussion_url}\n\nMöglicherweise musst du dich zuerst anmelden, bevor du auf diesen Link zugreifen kannst.\n"
             }
         },
         "lib": {
             "gambits": {
                 "byobu": {
-                    "key": ""
+                    "key": "byobu"
                 },
                 "private": {
                     "key": "privat"
