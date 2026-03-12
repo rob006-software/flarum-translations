@@ -7,6 +7,15 @@
             }
         }
     },
+    "acpl-my-tags.json": {
+        "acpl-my-tags": {
+            "admin": {
+                "settings": {
+                    "enable-placeholder": "d41d8cd98f00b204e9800998ecf8427e 44d9cb401b0a3ec594aa462765f88571"
+                }
+            }
+        }
+    },
     "core.json": {
         "core": {
             "admin": {
@@ -745,10 +754,58 @@
             }
         }
     },
+    "datlechin-birthdays.json": {
+        "datlechin-birthdays": {
+            "admin": {
+                "permissions": {
+                    "edit_own_birthday_label": "d41d8cd98f00b204e9800998ecf8427e 3760cdeeae5f6e3b1b9f4dff15b2b1b1"
+                }
+            }
+        }
+    },
+    "datlechin-copy-links.json": {
+        "datlechin-copy-links": {
+            "forum": {
+                "copy_link_button": "d41d8cd98f00b204e9800998ecf8427e 8c859111bf0822db05e6d1caf44fb379"
+            }
+        }
+    },
+    "datlechin-discussion-overview.json": {
+        "datlechin-discussion-overview": {
+            "forum": {
+                "created": "d41d8cd98f00b204e9800998ecf8427e 57643d6994ed8c8fbeefa6516e66e6d8"
+            }
+        }
+    },
+    "datlechin-scroll-buttons.json": {
+        "datlechin-flarum-scroll-buttons": {
+            "admin": {
+                "scroll_to_top_label": "d41d8cd98f00b204e9800998ecf8427e 466dade8b6e2739ee78b2b5d7b4fb7af"
+            }
+        }
+    },
     "datlechin-signup-button.json": {
         "datlechin-signup-button": {
             "forum": {
                 "sign_up": "5da2448f7f07b2c3b4026f455b0b1a10 5da2448f7f07b2c3b4026f455b0b1a10"
+            }
+        }
+    },
+    "datlechin-silent-edit.json": {
+        "datlechin-silent-edit": {
+            "admin": {
+                "permissions": {
+                    "clearLastEdit": "d41d8cd98f00b204e9800998ecf8427e 80fddabc0cc1123628e3c11f7ab2c8af"
+                }
+            }
+        }
+    },
+    "datlechin-tag-passwords.json": {
+        "datlechin-tag-passwords": {
+            "admin": {
+                "setting": {
+                    "display_unlock_icon": "d41d8cd98f00b204e9800998ecf8427e f13c3d954b56f95a2ad0590d3cb9340b"
+                }
             }
         }
     },
