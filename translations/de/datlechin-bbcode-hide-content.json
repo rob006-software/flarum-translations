@@ -2,14 +2,14 @@
     "datlechin-bbcode-hide-content": {
         "admin": {
             "permissions": {
-                "bypass_like_label": "",
-                "bypass_reply_label": ""
+                "bypass_like_label": "Like-Anforderung umgehen",
+                "bypass_reply_label": "Antwort-Anforderung umgehen"
             }
         },
         "forum": {
-            "must_be_logged_in": "",
-            "must_liked": "",
-            "must_replied": ""
+            "must_be_logged_in": "Du musst angemeldet sein, um diesen Inhalt ansehen zu können.",
+            "must_liked": "Du musst diesen Inhalt liken, um ihn ansehen zu können.",
+            "must_replied": "Du musst auf diesen Inhalt antworten, um ihn ansehen zu können."
         }
     }
 }
