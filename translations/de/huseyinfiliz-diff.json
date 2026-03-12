@@ -62,17 +62,17 @@
                 "mergeThresholdHelp": "Dies bestimmt, ob ein Block vom Typ „Ersetzen“ je nach dem Verhältnis der geänderten Inhalte, dessen Wert zwischen 0 und 1 liegt, zusammengeführt werden soll oder nicht.",
                 "dbOptimisation": "Datenbank-Optimierung",
                 "archiveOlds": "Alte Überarbeitungen archivieren",
-                "archiveOldsInfo": "",
-                "useCrons": "",
-                "useCronsHelp": "",
-                "archiveInfo": ""
+                "archiveOldsInfo": "Wenn <strong>x ≥ A</strong>, werden die ersten <strong>y=mx+b</strong> Revisionen des Beitrags als zusammengeführt und komprimiert gespeichert. Das <strong>x</strong> bezieht sich auf die Anzahl der Revisionen des Beitrags. Fließkommawerte von <strong>y</strong> werden auf den nächstniedrigeren ganzzahligen Wert gerundet.",
+                "useCrons": "Verwende Cron-Jobs, um alte Revisionen zu archivieren",
+                "useCronsHelp": "Du musst einen Cron-Eintrag zu deinem Server hinzufügen, damit diese Option funktioniert. Sie wird wöchentlich sonntags um 02:00 Uhr ausgeführt. Wenn du diese Option deaktivierst und die oben genannte Option aktivierst, werden alle Revisionen des Beitrags auf Archivierung überprüft, wenn der zugehörige Beitrag überarbeitet wird.",
+                "archiveInfo": "Beachte, dass du beide Optionen deaktivieren und den Befehl <code>php flarum diff:archive</code> ausführen kannst, um alte Revisionen manuell zu archivieren."
             },
             "permissions": {
                 "viewEditHistory": "Bearbeitungsverlauf ansehen",
                 "deleteEditHistory": "Bearbeitungsverlauf von anderen löschen",
                 "selfDeleteEditHistory": "Eigenen Bearbeitungsverlauf löschen",
-                "rollbackEditHistory": "",
-                "selfRollbackEditHistory": ""
+                "rollbackEditHistory": "Bearbeitungsverlauf anderer zurücksetzen",
+                "selfRollbackEditHistory": "Eigenen Bearbeitungsverlauf zurücksetzen"
             }
         },
         "ref": {
