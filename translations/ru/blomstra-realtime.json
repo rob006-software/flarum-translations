@@ -2,36 +2,36 @@
     "blomstra-realtime": {
         "forum": {
             "push": {
-                "discussion-list-new-activity": "",
-                "discussion-list-new-activity-with-auto-release": ""
+                "discussion-list-new-activity": "{count, plural, one {Показать # обновлённую дискуссию} few {Показать # обновлённые дискуссии} many {Показать # обновлённых дискуссий} other {Показать # обновлённые дискуссии}}",
+                "discussion-list-new-activity-with-auto-release": "{count, plural, one {В # дискуссии появилась активность} few {В # дискуссиях появилась активность} many {В # дискуссиях появилась активность} other {В # дискуссиях появилась активность}}. Обновление через {releaseTimeout} сек. Нажмите, чтобы показать её сейчас."
             },
             "typing-indicator": {
-                "anonymous-user": "",
-                "people-are-typing": "",
-                "users-are-typing": "",
+                "anonymous-user": "[Аноним]",
+                "people-are-typing": "{number, plural, one {# человек печатает} few {# человека печатают} many {# человек печатают} other {# человек печатает}}",
+                "users-are-typing": "{count, plural, one {{users} печатает} other {{users}{others, plural, =1 { и ещё #} =0 {} other { и ещё #}} печатают}}",
                 "no-activity": "Никто не печатает"
             },
             "user": {
                 "settings": {
-                    "heading": "",
+                    "heading": "Обновления в реальном времени",
                     "typing-indicator-type": {
-                        "help": "",
-                        "label": ""
+                        "help": "Если включено, индикатор будет показывать пользователей, которые сейчас печатают. Отключите, чтобы отображать только количество печатающих.",
+                        "label": "Показывать печатающих"
                     }
                 }
             }
         },
         "admin": {
             "permission": {
-                "view-who-types": "Посмотреть, кто печатает"
+                "view-who-types": "Видеть печатающих"
             },
             "settings": {
-                "release-discussion-updates": "",
-                "release-discussion-updates-help": "",
-                "release-discussion-updates-interval": "",
-                "release-discussion-updates-interval-help": "",
-                "typing-indicator": "",
-                "typing-indicator-help": ""
+                "release-discussion-updates": "Обновления списка дискуссий",
+                "release-discussion-updates-help": "Если включено, новые дискуссии будут автоматически добавляться в <code>DiscussionList</code> через указанный ниже интервал.",
+                "release-discussion-updates-interval": "Интервал автоматического обновления дискуссий",
+                "release-discussion-updates-interval-help": "В секундах. Значение 0 отключает автоматическое обновление.",
+                "typing-indicator": "Индикатор набора текста",
+                "typing-indicator-help": "Если включено, пользователи с полученным разрешением смогут видеть количество других пользователей, которые сейчас печатают в дискуссии. Если отключено, индикатор набора текста будет полностью удалён из интерфейса и из данных WebSocket."
             }
         }
     }
