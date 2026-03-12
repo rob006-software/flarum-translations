@@ -1553,6 +1553,9 @@ return [
 	'rehiy-reply-to-see' => [
 		'tag' => 'https://raw.githubusercontent.com/rehiy/flarum-reply-to-see/v1.8.0/resources/locale/en.yml',
 	],
+	'resofire-digest-mail' => [
+		'tag' => 'https://raw.githubusercontent.com/ResofireV2/digest-mail/v0.2.5/locale/en.yml',
+	],
 	'rob006-last-post-avatar' => [
 		'tag' => 'https://raw.githubusercontent.com/rob006-software/flarum-ext-last-post-avatar/1.2.4/locale/en.yml',
 		'__builtInLanguages' => [
