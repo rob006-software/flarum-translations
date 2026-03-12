@@ -180,19 +180,19 @@
                     "timeout": "=> datitisev-backup.admin.adapter-settings-modal.ftp.timeout",
                     "port": {
                         "label": "Port",
-                        "description": ""
+                        "description": "Der SFTP-Port (Standardwert ist 22)."
                     },
                     "private-key": {
-                        "label": "",
-                        "description": ""
+                        "label": "Privater Schlüssel",
+                        "description": "Pfad (vorzugsweise absolut) zu einem privaten Schlüssel, der bei der Authentifizierung der SFTP-Verbindung verwendet werden soll."
                     },
                     "passphrase": {
-                        "label": "",
-                        "description": ""
+                        "label": "Passphrase",
+                        "description": "Die Passphrase für den privaten Schlüssel, falls zutreffend."
                     },
                     "use-agent": {
-                        "toggle": "",
-                        "description": ""
+                        "toggle": "Agent verwenden",
+                        "description": "Ob der SSH-Agent zur Authentifizierung der Verbindung verwendet werden soll (Standardwert: false)."
                     }
                 }
             },
