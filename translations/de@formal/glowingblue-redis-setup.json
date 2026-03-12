@@ -6,7 +6,7 @@
                 "enable_redis_sessions": "Redis-Sitzungen aktivieren (alle Benutzer werden abgemeldet, nachdem diese Einstellung geändert wurde)",
                 "enable_queue": "Redis-Warteschlange aktivieren",
                 "horizon_config": "Horizon-Konfiguration (Format: JSON).",
-                "horizon_help_text": "Dies wird an <code>(new \\Blomstra\\Horizon\\Extend\\Horizon)->config(...))</code> übergeben"
+                "horizon_help_text": "Dies wird an <code>(new \\FoF\\Horizon\\Extend\\Horizon)->config(...))</code> übergeben"
             }
         }
     }
