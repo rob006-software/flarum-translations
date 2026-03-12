@@ -2,8 +2,8 @@
     "datitisev-backup": {
         "admin": {
             "settings": {
-                "database_bin_path_label": "",
-                "database_bin_path_help": ""
+                "database_bin_path_label": "(Optional) Pfad zu den Datenbank-Binärdateien",
+                "database_bin_path_help": "Wenn sich die Binärdateien deiner Datenbank (z. B. mysqldump, pg_dump) nicht im PATH deines Systems befinden, kannst du hier das Verzeichnis angeben, in dem sie sich befinden. Achte darauf, den abschließenden Schrägstrich anzugeben (z. B. <code>/usr/local/mysql/bin/</code>).\n"
             },
             "adapters": {
                 "local": "Lokaler Speicher",
@@ -26,9 +26,9 @@
             },
             "adapter-settings-modal": {
                 "title": "{adapter} konfigurieren",
-                "name_label": "",
-                "timestamp_label": "",
-                "timestamp_help": "",
+                "name_label": "Standortname",
+                "timestamp_label": "Format des Zeitstempels bei Dateinamen",
+                "timestamp_help": "Gib das Format für Zeitstempel in Sicherungsdateinamen an. Der Standardwert ist <code>U</code> (Unix-Zeitstempel). Verwendet <a>PHP-Datumsformatierung</a>. Unsichere Dateinamenzeichen werden bereinigt. Der Dateiname hat das Format <code>{forum}-[formatierter Zeitstempel].zip</code>.\n",
                 "local": {
                     "target": {
                         "label": "Zielpfad",
@@ -59,16 +59,16 @@
                 },
                 "azure": {
                     "endpoint": {
-                        "label": "",
-                        "description": ""
+                        "label": "Verbindungszeichenfolge",
+                        "description": "Die Verbindungszeichenfolge für deinen Azure-Speicher."
                     },
                     "container": {
                         "label": "Container",
                         "description": "Azure-Container"
                     },
                     "path-prefix": {
-                        "label": "",
-                        "description": ""
+                        "label": "Pfadpräfix",
+                        "description": "Optionales Standard-Pfadpräfix für Dateien."
                     }
                 },
                 "aws": {
@@ -152,8 +152,8 @@
                         "description": "Das Benutzerkennwort für die Authentifizierung auf dem FTP-Server."
                     },
                     "passive": {
-                        "toggle": "",
-                        "description": ""
+                        "toggle": "Passiver Modus",
+                        "description": "Ob für die FTP-Verbindung der passive Modus verwendet werden soll."
                     },
                     "port": {
                         "label": "Port",
@@ -173,13 +173,13 @@
                     }
                 },
                 "sftp": {
-                    "host": "",
-                    "username": "",
-                    "password": "",
-                    "root": "",
-                    "timeout": "",
+                    "host": "=> datitisev-backup.admin.adapter-settings-modal.ftp.host",
+                    "username": "=> datitisev-backup.admin.adapter-settings-modal.ftp.username",
+                    "password": "=> datitisev-backup.admin.adapter-settings-modal.ftp.password",
+                    "root": "=> datitisev-backup.admin.adapter-settings-modal.ftp.root",
+                    "timeout": "=> datitisev-backup.admin.adapter-settings-modal.ftp.timeout",
                     "port": {
-                        "label": "",
+                        "label": "Port",
                         "description": ""
                     },
                     "private-key": {
