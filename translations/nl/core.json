@@ -2,7 +2,7 @@
     "core": {
         "admin": {
             "advanced": {
-                "description": "",
+                "description": "Configureer de geavanceerde instellingen voor uw forum.",
                 "maintenance": {
                     "bisect": {
                         "begin_button_text": "",
@@ -12,26 +12,26 @@
                     },
                     "bisect_modal": {
                         "description": "",
-                        "end_button": "",
-                        "issue_question": "",
-                        "issue_question_help": "",
-                        "no_button": "",
+                        "end_button": "Sluiten en naar de extensiepagina gaan",
+                        "issue_question": "Doet het probleem zich nog steeds voor?",
+                        "issue_question_help": "Probeer het probleem op een aparte pagina te reproduceren en geef antwoord op basis van het resultaat.",
+                        "no_button": "Nee",
                         "result_description": "",
                         "start_button": "",
                         "stop_button": "",
-                        "steps_left": "",
-                        "total_steps": "",
+                        "steps_left": "Resterende stappen: {steps}",
+                        "total_steps": "Dit zal ongeveer {steps} stappen duren.",
                         "title": "",
-                        "yes_button": ""
+                        "yes_button": "Ja"
                     },
                     "config_override": {
-                        "label": "",
+                        "label": "Uw <code>config.php</code> bestand overschrijft deze instellingen.",
                         "help": ""
                     },
-                    "help": "",
+                    "help": "Zet je forum in de onderhoudsmodus om te voorkomen dat gebruikers er toegang toe krijgen.",
                     "options": {
-                        "none": "",
-                        "high": "",
+                        "none": "Geen onderhoud.",
+                        "high": "Hoge onderhoudsmodus. Niemand heeft toegang tot het forum (kan alleen worden ingeschakeld via config.php)",
                         "low": "",
                         "safe": ""
                     },
@@ -44,9 +44,9 @@
                     "source_label": "",
                     "source_help": "",
                     "source_local": "",
-                    "source_cdn": "",
-                    "source_kit": "",
-                    "cdn_url_label": "",
+                    "source_cdn": "CDN",
+                    "source_kit": "FontAwesome-kit",
+                    "cdn_url_label": "CDN URL (link)",
                     "cdn_url_help": "",
                     "kit_url_label": "",
                     "kit_url_help": "",
