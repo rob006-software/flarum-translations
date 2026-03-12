@@ -2,8 +2,8 @@
     "datitisev-backup": {
         "admin": {
             "settings": {
-                "database_bin_path_label": "",
-                "database_bin_path_help": ""
+                "database_bin_path_label": "(Facultatif) Chemin d'accès aux fichiers binaires de la base de données",
+                "database_bin_path_help": "Si les binaires de votre base de données (par exemple mysqldump, pg_dump) ne se trouvent pas dans le CHEMIN de votre système, vous pouvez spécifier ici le répertoire dans lequel ils se trouvent. Veillez à inclure la barre oblique finale (par exemple <code>/usr/local/mysql/bin/</code>).\n"
             },
             "adapters": {
                 "local": "Stockage local",
@@ -27,8 +27,8 @@
             "adapter-settings-modal": {
                 "title": "Configurer {adapter}",
                 "name_label": "Nom de l'emplacement",
-                "timestamp_label": "",
-                "timestamp_help": "",
+                "timestamp_label": "Format de l'horodatage du nom de fichier",
+                "timestamp_help": "Spécifiez le format des horodatages dans les noms de fichiers de sauvegarde. La valeur par défaut est <code>U</code> (horodatage Unix). Utilise le <a>formatage de date PHP</a>. Les caractères non sécurisés du nom de fichier seront nettoyés. Le nom de fichier sera au format <code>{forum}-[horodatage formaté].zip</code>.\n",
                 "local": {
                     "target": {
                         "label": "Chemin de la cible",
@@ -59,16 +59,16 @@
                 },
                 "azure": {
                     "endpoint": {
-                        "label": "",
-                        "description": ""
+                        "label": "Chaîne de connexion",
+                        "description": "La chaîne de connexion pour votre stockage Azure."
                     },
                     "container": {
                         "label": "Conteneur",
                         "description": "Conteneur d'Azure"
                     },
                     "path-prefix": {
-                        "label": "",
-                        "description": ""
+                        "label": "Préfixe du chemin",
+                        "description": "Préfixe de chemin par défaut facultatif pour les fichiers."
                     }
                 },
                 "aws": {
@@ -152,8 +152,8 @@
                         "description": "Le mot de passe de l'utilisateur avec lequel il faut s'authentifier sur le serveur FTP."
                     },
                     "passive": {
-                        "toggle": "",
-                        "description": ""
+                        "toggle": "Mode passif",
+                        "description": "Utiliser le mode passif pour la connexion FTP."
                     },
                     "port": {
                         "label": "Port",
@@ -173,26 +173,26 @@
                     }
                 },
                 "sftp": {
-                    "host": "",
-                    "username": "",
-                    "password": "",
-                    "root": "",
-                    "timeout": "",
+                    "host": "=> datitisev-backup.admin.adapter-settings-modal.ftp.host",
+                    "username": "=> datitisev-backup.admin.adapter-settings-modal.ftp.username",
+                    "password": "=> datitisev-backup.admin.adapter-settings-modal.ftp.password",
+                    "root": "=> datitisev-backup.admin.adapter-settings-modal.ftp.root",
+                    "timeout": "=> datitisev-backup.admin.adapter-settings-modal.ftp.timeout",
                     "port": {
-                        "label": "",
-                        "description": ""
+                        "label": "Port",
+                        "description": "Le port SFTP (22 par défaut)."
                     },
                     "private-key": {
-                        "label": "",
-                        "description": ""
+                        "label": "Clé privée",
+                        "description": "Chemin d'accès (de préférence absolu) à une clé privée à utiliser lors de l'authentification de la connexion SFTP."
                     },
                     "passphrase": {
-                        "label": "",
-                        "description": ""
+                        "label": "Phrase secrète",
+                        "description": "La phrase secrète pour la clé privée, le cas échéant."
                     },
                     "use-agent": {
-                        "toggle": "",
-                        "description": ""
+                        "toggle": "Utiliser l'agent",
+                        "description": "Utiliser l'agent SSH pour authentifier la connexion (désactivé par défaut)."
                     }
                 }
             },
