@@ -1,42 +1,42 @@
 {
     "acpl-mobile-tab": {
         "admin": {
-            "available_items": "",
-            "active_items": "",
-            "create_new_item_button": "",
+            "available_items": "Verfügbare Elemente",
+            "active_items": "Aktive Elemente",
+            "create_new_item_button": "Neues Element erstellen",
             "edit_item": {
-                "modal_title": "",
-                "label": "",
-                "label_placeholder": "",
-                "path": "",
-                "url": "",
-                "icon": "",
-                "icon_help": "",
-                "is_internal_checkbox": "",
-                "open_new_tab_checkbox": "",
-                "submit_button": "",
-                "delete_button": "",
-                "delete_item_confirmation": ""
+                "modal_title": "Element bearbeiten",
+                "label": "Beschriftung",
+                "label_placeholder": "Mein eigenes Element",
+                "path": "Pfad",
+                "url": "URL",
+                "icon": "Symbol",
+                "icon_help": "Gib den Namen einer beliebigen <a>FontAwesome</a>-Symbolklasse ein, einschließlich des Präfixes <code>fas fa-</code>.",
+                "is_internal_checkbox": "Ist das ein interner Link?",
+                "open_new_tab_checkbox": "Link in neuem Tab öffnen",
+                "submit_button": "Speichern",
+                "delete_button": "Löschen",
+                "delete_item_confirmation": "Möchtest du diesen Artikel wirklich löschen?"
             },
             "scroll_settings": {
-                "toggle_label": "",
-                "threshold_label": "",
-                "threshold_help": ""
+                "toggle_label": "Sichtbarkeit beim Scrollen umschalten",
+                "threshold_label": "Bildlaufschwelle (px)",
+                "threshold_help": "Entfernung, die von der aktuellen Position aus gescrollt werden muss, um die Sichtbarkeit umzuschalten."
             }
         },
         "lib": {
             "item": {
-                "home": "",
-                "all_discussions": "",
-                "categories": "",
-                "notifications": "",
-                "session": "",
-                "search": "",
-                "log_in": "",
-                "profile": "",
-                "tags": "",
-                "messages": "",
-                "fof-byobu": ""
+                "home": "Start",
+                "all_discussions": "Diskussionen",
+                "categories": "Kategorien",
+                "notifications": "Benachrichtigungen",
+                "session": "Sitzung",
+                "search": "Suche",
+                "log_in": "Anmelden",
+                "profile": "Profil",
+                "tags": "Themen",
+                "messages": "Nachrichten",
+                "fof-byobu": "Privat"
             }
         }
     }
