@@ -75,30 +75,30 @@
         },
         "email": {
             "new_discussion_by_user": {
-                "subject": "",
+                "subject": "{user_display_name} hat eine Diskussion gestartet",
                 "plain": {
-                    "body": ""
+                    "body": "{user_display_name} hat eine neue Diskussion gestartet: {discussion_title}\n\n{discussion_url}\n\n---\n\n{post_content}\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{user_display_name} hat eine neue Diskussion gestartet: [{discussion_title}]({discussion_url})."
                 }
             },
             "new_follower": {
-                "subject": "",
+                "subject": "{follower_display_name} folgt dir",
                 "plain": {
-                    "body": ""
+                    "body": "{follower_display_name} folgt dir jetzt und wird benachrichtigt, wenn du eine neue Diskussion startest.\n\n{profile_url}\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{follower_display_name} folgt dir jetzt und wird benachrichtigt, wenn du eine neue Diskussion startest."
                 }
             },
             "new_post": {
-                "subject": "",
+                "subject": "{user_display_name} hat einen Beitrag in {discussion_title} erstellt",
                 "plain": {
-                    "body": ""
+                    "body": "{user_display_name} hat einen Beitrag in {discussion_title} erstellt.\n\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nDu erhältst keine weiteren Benachrichtigungen zu dieser Diskussion, bis du auf dem neuesten Stand bist.\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{user_display_name} hat einen Beitrag in [{discussion_title}] erstellt ({post_url})."
                 }
             }
         },
@@ -123,7 +123,7 @@
             },
             "gambits": {
                 "followeduser": {
-                    "key": ""
+                    "key": "gefolgterbenutzer"
                 }
             }
         }
