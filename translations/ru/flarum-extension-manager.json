@@ -5,7 +5,7 @@
                 "add_label": "Новый метод аутентификации",
                 "add_modal": {
                     "host_label": "Хост",
-                    "host_placeholder": "",
+                    "host_placeholder": "пример: bearer.flarum.org",
                     "submit_button": "Отправить",
                     "token_label": "Токен",
                     "type_label": "Тип",
@@ -98,43 +98,43 @@
                 "update": "Обновить"
             },
             "minor_update_confirmation": {
-                "content": ""
+                "content": "Это также обновит другие расширения и пакеты, для которых доступны обновления."
             },
-            "required_php_functions": "",
+            "required_php_functions": "Менеджеру расширений требуются следующие функции PHP: <code>{functions}</code>. Если у вас нет доступа к настройкам PHP, обратитесь к вашему хостинг-провайдеру.\n",
             "sections": {
                 "discover": {
-                    "description": "",
-                    "empty_results": "",
+                    "description": "Добавляйте новые функции и возможности на форум с помощью расширений.",
+                    "empty_results": "Похоже, доступных расширений нет.",
                     "extension": {
                         "badges": {
-                            "compatible": "",
-                            "fof": "",
-                            "flarum": "",
-                            "incompatible": "",
-                            "premium": "",
-                            "unstable": ""
+                            "compatible": "Совместимо",
+                            "fof": "Friends of Flarum",
+                            "flarum": "Flarum",
+                            "incompatible": "Несовместимо",
+                            "premium": "Премиум",
+                            "unstable": "Нестабильно"
                         },
-                        "downloads": ""
+                        "downloads": "{count, plural, one {{formattedCount} загрузка} few {{formattedCount} загрузки} many {{formattedCount} загрузок} other {{formattedCount} загрузки}}"
                     },
-                    "premium_extension_terms": "",
-                    "search": "",
-                    "server_error": "",
+                    "premium_extension_terms": "Условия премиум-расширения",
+                    "search": "Поиск…",
+                    "server_error": "Сервис временно недоступен. Попробуйте позже.",
                     "sort": {
-                        "toggle_dropdown_accessible_label": "",
-                        "top": "",
-                        "latest": ""
+                        "toggle_dropdown_accessible_label": "Переключить параметры сортировки",
+                        "top": "Самые скачиваемые",
+                        "latest": "Новые"
                     },
                     "tabs": {
-                        "discover": "",
-                        "extensions": "",
-                        "languages": "",
-                        "themes": ""
+                        "discover": "Обзор",
+                        "extensions": "Расширения",
+                        "languages": "Языки",
+                        "themes": "Темы"
                     },
-                    "title": "",
+                    "title": "Расширения",
                     "party_filter": {
-                        "all": "",
-                        "premium": "",
-                        "toggle_dropdown_accessible_label": ""
+                        "all": "Все",
+                        "premium": "Премиум",
+                        "toggle_dropdown_accessible_label": "Переключить фильтр источника"
                     }
                 },
                 "queue": {
@@ -174,8 +174,8 @@
                     "title": "Очередь"
                 },
                 "settings": {
-                    "title": "",
-                    "description": ""
+                    "title": "Параметры и очередь",
+                    "description": "Настройте менеджер расширений и проверьте операции в очереди."
                 }
             },
             "settings": {
@@ -183,12 +183,12 @@
                 "access_warning": "Пожалуйста, будьте внимательны в отношении лиц, имеющих доступ к администрированию. Менеджер расширений может быть использован злоумышленниками для установки вредоносных пакетов, что может привести к нарушениям безопасности.",
                 "debug_mode_warning": "Вы работаете в режиме отладки. Менеджер расширений не может корректно устанавливать и обновлять локальные пакеты разработки. Для этой цели используйте интерфейс командной строки.",
                 "queue_jobs": "Запуск операций в фоне",
-                "queue_jobs_help": "",
+                "queue_jobs_help": "Подробнее о <basic_impl_link>базовой реализации очереди</basic_impl_link> или о <adv_impl_link>более продвинутой</adv_impl_link>. Убедитесь, что для очереди используется PHP версии {php_version}. Также проверьте, что <folder_perms_link>права доступа к папкам</folder_perms_link> настроены правильно.\n",
                 "task_retention_days": "Дни хранения задачи",
                 "task_retention_days_help": "Число дней, в течение которых выполненная задача хранится в базе данных. По истечении этого срока, задачи удаляются. Укажите 0 для сохранения всех задач.\n"
             },
             "updater": {
-                "up_to_date": "",
+                "up_to_date": "Нет ожидающих обновлений.",
                 "check_for_updates": "Проверить обновления",
                 "flarum": "Ядро Flarum",
                 "global_update_successful": "Все пакеты успешно обновлены.",
