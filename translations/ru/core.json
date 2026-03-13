@@ -26,7 +26,7 @@
                     },
                     "config_override": {
                         "label": "Ваш файл <code>config.php</code> переопределяет эти настройки.",
-                        "help": ""
+                        "help": "Вы можете изменить эти настройки здесь, но они не вступят в силу, пока в файле <code>config.php</code> параметр <code>offline</code> не будет установлен в <code>0</code>."
                     },
                     "help": "Включите режим обслуживания, чтобы временно закрыть доступ к форуму для пользователей.",
                     "options": {
@@ -35,58 +35,58 @@
                         "low": "Базовый режим обслуживания. Форум доступен только администраторам.",
                         "safe": "Безопасный режим. Расширения не загружаются, форум доступен только администраторам."
                     },
-                    "safe_mode_extensions": "",
-                    "safe_mode_extensions_override_help": "",
-                    "section_label": ""
+                    "safe_mode_extensions": "Расширения, разрешённые к запуску в безопасном режиме",
+                    "safe_mode_extensions_override_help": "Этот параметр переопределяется ключом <code>safe_mode_extensions</code> в файле <code>config.php</code>. (<b>{extensions}</b>)",
+                    "section_label": "Обслуживание"
                 },
                 "fontawesome": {
-                    "section_label": "",
-                    "source_label": "",
-                    "source_help": "",
-                    "source_local": "",
-                    "source_cdn": "",
-                    "source_kit": "",
-                    "cdn_url_label": "",
-                    "cdn_url_help": "",
-                    "kit_url_label": "",
-                    "kit_url_help": "",
+                    "section_label": "Иконки Font Awesome",
+                    "source_label": "Источник иконок",
+                    "source_help": "Выберите способ загрузки иконок Font Awesome. Local использует встроенные шрифты, CDN загружает их с CDN, а Kit использует наборы Font Awesome с пользовательскими иконками.",
+                    "source_local": "Локально (встроено)",
+                    "source_cdn": "CDN",
+                    "source_kit": "Font Awesome Kit",
+                    "cdn_url_label": "CDN URL",
+                    "cdn_url_help": "Полный URL CSS-файла Font Awesome на CDN",
+                    "kit_url_label": "URL набора",
+                    "kit_url_help": "URL скрипта вашего набора с kit.fontawesome.com",
                     "config_override": {
-                        "label": "",
-                        "help": ""
+                        "label": "Переопределение конфигурации",
+                        "help": "Настройки Font Awesome заданы в файле config.php и не могут быть изменены здесь."
                     }
                 },
                 "pgsql": {
-                    "search_configuration": ""
+                    "search_configuration": "Конфигурация поиска"
                 },
                 "queue": {
-                    "section_label": "",
-                    "sync_info": "",
-                    "sync_help": "",
-                    "custom_driver": "",
-                    "retries_label": "",
-                    "retries_help": "",
-                    "memory_label": "",
-                    "memory_help": "",
-                    "timeout_label": "",
-                    "timeout_help": "",
-                    "rest_label": "",
-                    "rest_help": "",
-                    "backoff_label": "",
-                    "backoff_help": ""
+                    "section_label": "Очередь",
+                    "sync_info": "Форум использует синхронный драйвер очереди. Задачи выполняются сразу в основном процессе.",
+                    "sync_help": "Для повышения производительности и удобства пользователей рекомендуется использовать драйвер очереди с использованием базы данных. Подробнее в документации.",
+                    "custom_driver": "Форум использует драйвер очереди {driver}, предоставленный расширением.",
+                    "retries_label": "Повторные попытки задачи",
+                    "retries_help": "Максимальное количество попыток выполнения задачи перед тем, как она будет помечена неудачной. По умолчанию — 1.",
+                    "memory_label": "Лимит памяти (MB)",
+                    "memory_help": "Максимальный объём памяти, который может использовать обработчик очереди перед перезапуском. По умолчанию — 128 MB.",
+                    "timeout_label": "Тайм-аут задачи (в секундах)",
+                    "timeout_help": "Максимальное время выполнения одной задачи до принудительного завершения. По умолчанию — 60 секунд.",
+                    "rest_label": "Время ожидания (в секундах)",
+                    "rest_help": "Время ожидания между обработкой задач. По умолчанию — 0 секунд.",
+                    "backoff_label": "Задержка перед повторной попыткой (в секундах)",
+                    "backoff_help": "Время ожидания перед повторной попыткой выполнения неудачной задачи. По умолчанию — 0 секунд."
                 },
                 "search": {
-                    "section_label": "",
-                    "driver_heading": "",
-                    "driver_text": "",
+                    "section_label": "Драйверы поиска",
+                    "driver_heading": "Драйвер поиска: {model}",
+                    "driver_text": "Выберите драйвер для поиска в этой модели.",
                     "driver_options": {
-                        "default": ""
+                        "default": "Стандартный поиск в базе данных"
                     },
-                    "no_other_drivers": ""
+                    "no_other_drivers": "Другие драйверы поиска пока недоступны. Установите расширение драйвера поиска, чтобы настроить его."
                 },
                 "title": "Расширенные"
             },
             "appearance": {
-                "allow_user_color_scheme_label": "",
+                "allow_user_color_scheme_label": "Разрешить пользователям выбирать цветовую схему",
                 "colored_header_label": "Цветная шапка",
                 "colors_heading": "Цвета",
                 "colors_primary_label": "Основной цвет",
@@ -109,13 +109,13 @@
                 "logo_heading": "Логотип",
                 "logo_text": "Загрузите изображение, которое будет отображаться вместо названия форума.",
                 "title": "Оформление",
-                "color_scheme_label": "",
+                "color_scheme_label": "Цветовая схема по умолчанию",
                 "color_schemes": {
-                    "auto_mode_label": "",
-                    "dark_hc_mode_label": "",
-                    "dark_mode_label": "",
-                    "light_hc_mode_label": "",
-                    "light_mode_label": ""
+                    "auto_mode_label": "Как в системе",
+                    "dark_hc_mode_label": "=> core.ref.dark_hc_mode_label",
+                    "dark_mode_label": "=> core.ref.dark_mode_label",
+                    "light_hc_mode_label": "=> core.ref.light_hc_mode_label",
+                    "light_mode_label": "=> core.ref.light_mode_label"
                 }
             },
             "basics": {
@@ -123,7 +123,7 @@
                 "default_language_heading": "Язык по умолчанию",
                 "description": "Настройка названия форума, локализации и других основных параметров.",
                 "display_name_driver_options": {
-                    "username": ""
+                    "username": "Имя пользователя"
                 },
                 "display_name_heading": "Отображаемое имя",
                 "display_name_text": "Выберите драйвер, который должен использоваться для отображаемых имён пользователей. По умолчанию, используется username.",
@@ -135,12 +135,12 @@
                 "show_language_selector_label": "Показывать переключатель языка",
                 "slug_driver_options": {
                     "discussions": {
-                        "default": "",
-                        "utf8": ""
+                        "default": "ID и slug",
+                        "utf8": "ID и UTF-8 slug"
                     },
                     "users": {
-                        "default": "",
-                        "id": ""
+                        "default": "Имя пользователя",
+                        "id": "ID"
                     }
                 },
                 "slug_driver_heading": "Драйвер путей: {model}",
@@ -224,17 +224,17 @@
                 "driver_heading": "Выберите драйвер",
                 "driver_label": "Драйвер",
                 "format": {
-                    "multipart_option": "",
-                    "plain_option": "",
-                    "html_option": ""
+                    "multipart_option": "Смешанный формат (рекомендуется)",
+                    "plain_option": "Только текст",
+                    "html_option": "HTML"
                 },
-                "format_heading": "",
-                "format_help": "",
+                "format_heading": "Формат исходящих писем",
+                "format_help": "Выберите формат отправки писем. Рекомендуется <code>multipart</code> — почтовый клиент пользователя отобразит наиболее подходящий формат.",
                 "from_label": "Отправитель",
                 "mail_encryption_label": "Шифрование",
-                "mail_encryption_tls_help": "",
-                "mail_encryption_ssl_help": "",
-                "mail_encryption_none_help": "",
+                "mail_encryption_tls_help": "Соединение сначала устанавливается без шифрования, затем переходит на TLS (STARTTLS). Обычно используется с портом 587 или 25.",
+                "mail_encryption_ssl_help": "Соединение шифруется с самого начала (Implicit TLS). Обычно используется с портом 465.",
+                "mail_encryption_none_help": "Без шифрования. Не рекомендуется для постоянного использования.",
                 "mail_host_label": "Хост",
                 "mail_mailgun_domain_label": "Домен",
                 "mail_mailgun_region_label": "Регион",
@@ -249,7 +249,7 @@
                 "send_test_mail_success": "Пробное письмо успешно отправлено!",
                 "send_test_mail_text": "На Ваш адрес электронной почты {email} будет отправлено письмо с использованием указанной выше конфигурации.",
                 "smtp_heading": "Настройки SMTP",
-                "smtp_description": "",
+                "smtp_description": "Настройте параметры SMTP-подключения. Распространённые варианты: порт 587 с TLS или порт 465 с SSL.",
                 "title": "=> core.ref.email"
             },
             "extension": {
@@ -257,7 +257,7 @@
                 "abandoned_with_replacement": "Это расширение заменено на {replacement}. Рекомендуем перейти на новую версию.",
                 "configure_scopes": "Настройка областей",
                 "confirm_purge": "Это действие удалит записи в базе данных и ресурсы, связанные с расширением; расширение полностью не удаляется. Полное удаление расширения должно быть выполнено при помощи Composer. Вы уверены, что хотите продолжить?",
-                "database_driver_mismatch": "",
+                "database_driver_mismatch": "Это расширение не поддерживает используемый драйвер базы данных.",
                 "deprecated": "Устарело",
                 "disabled": "Отключено",
                 "enable_to_see": "Включите расширение для отображения и изменения его настроек.",
@@ -281,25 +281,25 @@
                     "title": "Документация {extName}"
                 },
                 "replaced": "Заменено",
-                "safe_mode_warning": ""
+                "safe_mode_warning": "Включён безопасный режим. Расширения не запускаются — их настройки недоступны."
             },
             "header": {
                 "get_help": "Помощь",
                 "log_out_button": "=> core.ref.log_out",
-                "search_placeholder": "",
-                "search_role_label": ""
+                "search_placeholder": "Поиск...",
+                "search_role_label": "Поиск"
             },
             "loading": {
                 "title": "Пожалуйста, подождите..."
             },
             "models": {
-                "discussions": "",
-                "posts": "",
-                "users": ""
+                "discussions": "=> core.ref.discussions",
+                "posts": "=> core.ref.posts",
+                "users": "=> core.ref.users"
             },
             "nav": {
-                "advanced_button": "",
-                "advanced_title": "",
+                "advanced_button": "=> core.admin.advanced.title",
+                "advanced_title": "=> core.admin.advanced.description",
                 "appearance_button": "=> core.admin.appearance.title",
                 "appearance_title": "=> core.admin.appearance.description",
                 "basics_button": "=> core.admin.basics.title",
@@ -348,7 +348,7 @@
                 "post_without_throttle_label": "Отвечать подряд без ожидания",
                 "read_heading": "Чтение",
                 "remove_scope_label": "Удалить разрешение {scope}",
-                "remove_scope_confirmation": "",
+                "remove_scope_confirmation": "Удалить разрешение {scope}?",
                 "rename_discussions_label": "Изменять название дискуссий",
                 "reply_to_discussions_label": "Отвечать в дискуссии",
                 "search_users_label": "Искать пользователей",
@@ -373,12 +373,12 @@
             },
             "search_source": {
                 "general": {
-                    "heading": ""
+                    "heading": "Основное"
                 }
             },
             "settings": {
                 "saved_message": "Настройки сохранены.",
-                "select_dropdown_custom_label": "",
+                "select_dropdown_custom_label": "Пользовательский",
                 "submit_button": "=> core.ref.save_changes"
             },
             "upload_image": {
@@ -408,8 +408,8 @@
                         "user_actions": {
                             "title": "Действия",
                             "edit_user": {
-                                "button": "",
-                                "tooltip": ""
+                                "button": "=> core.ref.edit",
+                                "tooltip": "Редактировать {username}"
                             }
                         },
                         "user_id": {
@@ -485,7 +485,7 @@
                 "empty_text": "Кажется, здесь нет дискуссий.",
                 "load_more_button": "=> core.ref.load_more",
                 "replied_text": "{username} ответил(а) {ago}",
-                "skip_discussion_list_pane": "",
+                "skip_discussion_list_pane": "Пропустить список дискуссий",
                 "started_text": "{username} создал(а) {ago}",
                 "total_replies_a11y_label": "{count, plural, one {# ответ} few {# ответа} other {# ответов}}",
                 "unread_replies_a11y_label": "{count, plural, one {# непрочитанный ответ} few {# непрочитанных ответа} other {# непрочитанных ответов}}. Отметить {count, plural, one {ответ} few {ответа} other {ответов}} как прочитано."
@@ -518,31 +518,31 @@
                 "mark_all_as_read_confirmation": "Вы уверены, что хотите отметить все дискуссии прочитанными?",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "meta_title_text": "=> core.ref.all_discussions",
-                "refresh_tooltip": "",
+                "refresh_tooltip": "=> core.ref.refresh",
                 "start_discussion_button": "=> core.ref.start_a_discussion",
-                "skip_to_main_content": "",
+                "skip_to_main_content": "К основному содержимому",
                 "toggle_sidenav_dropdown_accessible_label": "Меню навигации"
             },
             "index_sort": {
                 "latest_button": "По обновлению",
-                "newest_button": "",
-                "oldest_button": "",
-                "relevance_button": "",
+                "newest_button": "=> core.ref.newest",
+                "oldest_button": "=> core.ref.oldest",
+                "relevance_button": "=> core.ref.relevance",
                 "toggle_dropdown_accessible_label": "Изменить сортировку списка дискуссий",
                 "top_button": "Популярное"
             },
             "log_in": {
                 "forgot_password_link": "Забыли пароль?",
-                "invalid_login_message": "",
+                "invalid_login_message": "=> core.ref.invalid_login_message",
                 "password_placeholder": "=> core.ref.password",
-                "remember_me_label": "",
+                "remember_me_label": "=> core.ref.remember_me_label",
                 "sign_up_text": "У Вас нет аккаунта? <a>Регистрация</a>",
                 "submit_button": "=> core.ref.log_in",
                 "title": "=> core.ref.log_in",
-                "username_or_email_placeholder": ""
+                "username_or_email_placeholder": "=> core.ref.username_or_email_placeholder"
             },
             "notifications": {
-                "delete_all_confirm": "",
+                "delete_all_confirm": "Удалить все уведомления? Это действие нельзя отменить",
                 "delete_all_tooltip": "Удалить все уведомления",
                 "discussion_renamed_text": "{username} изменил(а) название",
                 "empty_text": "Уведомления отсутствуют",
@@ -567,9 +567,9 @@
                 "toggle_dropdown_accessible_label": "Выпадающее меню управления сообщением"
             },
             "post_list": {
-                "empty_text": "",
-                "in_discussion_text": "",
-                "load_more_button": ""
+                "empty_text": "Похоже, здесь нет сообщений.",
+                "in_discussion_text": "В {discussion}",
+                "load_more_button": "=> core.ref.load_more"
             },
             "post_scrubber": {
                 "now_link": "Сейчас",
@@ -585,13 +585,13 @@
                 "time_lapsed_text": "{period} спустя"
             },
             "posts_sort": {
-                "newest_button": "",
-                "oldest_button": "",
-                "relevance_button": ""
+                "newest_button": "=> core.ref.newest",
+                "oldest_button": "=> core.ref.oldest",
+                "relevance_button": "=> core.ref.relevance"
             },
             "posts": {
-                "meta_title_text": "",
-                "refresh_tooltip": ""
+                "meta_title_text": "Результаты поиска по сообщениям",
+                "refresh_tooltip": "=> core.ref.refresh"
             },
             "rename_discussion": {
                 "submit_button": "=> core.ref.rename",
@@ -636,13 +636,13 @@
                 "account_heading": "Аккаунт",
                 "change_email_button": "=> core.ref.change_email",
                 "change_password_button": "=> core.ref.change_password",
-                "color_scheme_heading": "",
+                "color_scheme_heading": "Цветовая схема",
                 "color_schemes": {
-                    "auto_mode_label": "",
-                    "dark_hc_mode_label": "",
-                    "dark_mode_label": "",
-                    "light_hc_mode_label": "",
-                    "light_mode_label": ""
+                    "auto_mode_label": "Как в системе",
+                    "dark_hc_mode_label": "=> core.ref.dark_hc_mode_label",
+                    "dark_mode_label": "=> core.ref.dark_mode_label",
+                    "light_hc_mode_label": "=> core.ref.light_hc_mode_label",
+                    "light_mode_label": "=> core.ref.light_mode_label"
                 },
                 "notification_checkbox_a11y_label_template": "Получать \"{description}\" уведомления через {method}",
                 "notifications_heading": "=> core.ref.notifications",
@@ -725,10 +725,10 @@
             },
             "error": {
                 "circular_dependencies_message": "Обнаружены циклические зависимости: {extensions}. Прерывание действия. Пожалуйста, отключите одно из расширений и попробуйте ещё раз.",
-                "db_error_message": "",
+                "db_error_message": "Ошибка при выполнении запроса к базе данных. Причиной может быть несовместимость расширения с используемым драйвером базы данных.",
                 "dependent_extensions_message": "Невозможно отключить {extension}, пока не будут отключены следующие зависимые расширения: {extensions}",
                 "extension_initialiation_failed_message": "{extension} не удалось инициализировать. Проверьте консоль браузера для получения дополнительной информации.",
-                "extension_runtime_failed_message": "",
+                "extension_runtime_failed_message": "Во время работы расширения {extension} произошла ошибка. Подробности смотрите в консоли браузера.",
                 "generic_message": "Упс! Что-то пошло не так. Пожалуйста, обновите страницу и попробуйте ещё раз.",
                 "generic_cross_origin_message": "Упс! Что-то пошло не так при выполнении запроса cross-origin. Пожалуйста, обновите страницу и попробуйте ещё раз.",
                 "missing_dependencies_message": "Невозможно включить {extension}, пока не будут включены следующие зависимые расширения: {extensions}",
@@ -740,45 +740,45 @@
             },
             "gambits": {
                 "group_keys": {
-                    "allows": "",
-                    "has": "",
-                    "is": ""
+                    "allows": "разрешает",
+                    "has": "имеет",
+                    "is": "является"
                 },
                 "discussions": {
                     "author": {
-                        "key": "",
-                        "hint": ""
+                        "key": "автор",
+                        "hint": "имя пользователя или список имён через запятую"
                     },
                     "created": {
-                        "key": "",
-                        "hint": ""
+                        "key": "создана",
+                        "hint": "2020-12-31 или 2020-12-31..2021-09-30"
                     },
                     "hidden": {
-                        "key": ""
+                        "key": "скрыта"
                     },
                     "unread": {
-                        "key": ""
+                        "key": "непрочитанна"
                     }
                 },
                 "posts": {
                     "discussion": {
-                        "key": "",
-                        "hint": ""
+                        "key": "дискуссия",
+                        "hint": "ID дискуссии"
                     }
                 },
                 "users": {
                     "email": {
-                        "key": "",
-                        "hint": ""
+                        "key": "email",
+                        "hint": "example@machine.local"
                     },
                     "group": {
-                        "key": "",
-                        "hint": ""
+                        "key": "группа",
+                        "hint": "название группы или список названий групп"
                     }
                 }
             },
             "input": {
-                "clear_button": ""
+                "clear_button": "Очистить поле"
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
@@ -791,51 +791,51 @@
                 "close": "Закрыть"
             },
             "multi_select": {
-                "placeholder": ""
+                "placeholder": "Выберите несколько вариантов"
             },
             "nav": {
                 "drawer_button": "Открыть панель навигации"
             },
             "notices": {
-                "bisecting": "",
-                "bisecting_continue": "",
-                "maintenance_mode_low": "",
-                "maintenance_mode_safe": ""
+                "bisecting": "Выполняется диагностика расширений для определения причины проблемы.",
+                "bisecting_continue": "Продолжить диагностику",
+                "maintenance_mode_low": "Форум закрыт на техническое обслуживание. Доступ есть только у администраторов.",
+                "maintenance_mode_safe": "Форум закрыт на техническое обслуживание в безопасном режиме. Доступ есть только у администраторов, расширения не загружаются."
             },
             "number_suffix": {
                 "kilo_text": "K",
                 "mega_text": "M"
             },
             "pagination": {
-                "back_button": "",
-                "first_button": "",
-                "go_to_page_textbox_a11y_label": "",
-                "last_button": "",
-                "next_button": "",
-                "page_counter": ""
+                "back_button": "Предыдущая страница",
+                "first_button": "На первую страницу",
+                "go_to_page_textbox_a11y_label": "Перейти к номеру страницы",
+                "last_button": "На последнюю страницу",
+                "next_button": "Следующая страница",
+                "page_counter": "Страница {current} из {total}"
             },
             "search": {
-                "gambit_plus_button_a11y_label": "",
-                "gambit_minus_button_a11y_label": "",
-                "title": "",
-                "no_results_text": "",
-                "no_search_text": "",
-                "options_heading": "",
-                "placeholder": "",
-                "preview_heading": "",
-                "search_clear_button_accessible_label": ""
+                "gambit_plus_button_a11y_label": "Добавить положительный фильтр",
+                "gambit_minus_button_a11y_label": "Добавить отрицательный фильтр",
+                "title": "Поиск",
+                "no_results_text": "Похоже, ничего не найдено.",
+                "no_search_text": "Вы ещё ничего не искали.",
+                "options_heading": "Параметры поиска",
+                "placeholder": "Поиск...",
+                "preview_heading": "Предпросмотр поиска",
+                "search_clear_button_accessible_label": "Очистить поиск"
             },
             "search_source": {
                 "discussions": {
-                    "all_button": "",
-                    "heading": ""
+                    "all_button": "Искать во всех дискуссиях: «{query}»",
+                    "heading": "=> core.ref.discussions"
                 },
                 "posts": {
-                    "all_button": "",
-                    "heading": ""
+                    "all_button": "Искать «{query}» во всех сообщениях",
+                    "heading": "=> core.ref.posts"
                 },
                 "users": {
-                    "heading": ""
+                    "heading": "=> core.ref.users"
                 }
             },
             "series": {
@@ -844,21 +844,21 @@
                 "two_text": "{first} и {second}"
             },
             "user_selection_modal": {
-                "empty_results": "",
-                "max_items_to_select": "",
-                "search_placeholder": "",
-                "submit_button": "",
-                "title": ""
+                "empty_results": "Пользователи не найдены.",
+                "max_items_to_select": "{count, plural, one {Выберите не более # пользователя} few {Выберите не более # пользователей} many {Выберите не более # пользователей} other {Выберите не более # пользователей}}",
+                "search_placeholder": "=> core.ref.search_users",
+                "submit_button": "=> core.ref.okay",
+                "title": "Выберите пользователей"
             },
             "username": {
                 "deleted_text": "[удалено]"
             },
             "datetime_formats": {
-                "fullTime": "",
+                "fullTime": "LLLL",
                 "humanTimeShort": "D MMM",
                 "humanTimeLong": "ll",
                 "scrubber": "DD/MM/YYYY",
-                "userListJoinDate": ""
+                "userListJoinDate": "LLL"
             }
         },
         "views": {
@@ -895,8 +895,8 @@
                 "csrf_token_mismatch": "Вы были неактивны продолжительное время.",
                 "csrf_token_mismatch_return_link": "Вернитесь назад и попробуйте ещё раз",
                 "invalid_confirmation_token": "Ссылка для подтверждения недействительна или уже была использована.",
-                "maintenance_mode_link": "",
-                "maintenance_mode_message": "",
+                "maintenance_mode_link": "Вход для администратора",
+                "maintenance_mode_message": "Форум временно закрыт на техническое обслуживание. Попробуйте зайти позже.",
                 "maintenance_mode_title": "Обслуживание",
                 "not_authenticated": "У Вас нет прав доступа к этой странице. Попробуйте ещё раз после входа в свой аккаунт.",
                 "not_found": "Страница по Вашему запросу не найдена.",
@@ -910,7 +910,7 @@
                 "previous_page_button": "=> core.ref.previous_page"
             },
             "layout": {
-                "skip_to_content": ""
+                "skip_to_content": "К содержимому"
             },
             "log_out": {
                 "log_out_button": "=> core.ref.log_out",
@@ -918,12 +918,12 @@
                 "title": "=> core.ref.log_out"
             },
             "log_in": {
-                "invalid_login_message": "",
-                "username_or_email_placeholder": "",
-                "password_placeholder": "",
-                "remember_me_label": "",
-                "submit_button": "",
-                "title": ""
+                "invalid_login_message": "=> core.ref.invalid_login_message",
+                "username_or_email_placeholder": "=> core.ref.username_or_email_placeholder",
+                "password_placeholder": "=> core.ref.password",
+                "remember_me_label": "=> core.ref.remember_me_label",
+                "submit_button": "=> core.ref.log_in",
+                "title": "=> core.ref.log_in"
             },
             "reset_password": {
                 "confirm_password_label": "Подтвердить пароль",
@@ -932,17 +932,17 @@
                 "title": "=> core.ref.reset_your_password"
             },
             "unsubscribe_email": {
-                "title": "",
-                "return_to_forum": "",
-                "confirm_button": "",
-                "immediate_helptext": "",
-                "confirm_message": "",
-                "success_message": "",
-                "invalid_message": ""
+                "title": "Подтверждение отписки",
+                "return_to_forum": "Вернуться на {forumTitle}",
+                "confirm_button": "Подтвердить",
+                "immediate_helptext": "После подтверждения вы будете немедленно отписаны.",
+                "confirm_message": "Вы запросили отписку от уведомлений типа «{type}» с форума {forumTitle}.",
+                "success_message": "Вы успешно отписались от уведомлений типа «{type}» с форума {forumTitle}. Если захотите получать их снова, [измените настройки]({settingsLink}).",
+                "invalid_message": "Ссылка для отписки недействительна или уже была использована. Для изменения настройки почтовых уведомлений на форуме {forumTitle} [проверьте свои настройки]({settingsLink})."
             }
         },
         "api": {
-            "invalid_username_message": "",
+            "invalid_username_message": "Имя пользователя может содержать только буквы, цифры и дефисы. Оно должно содержать хотя бы одну букву.",
             "invalid_filter_type": {
                 "must_be_numeric_message": "Фильтр {filter} должен быть числовым.",
                 "must_not_be_array_message": "Фильтр {filter} не должен быть массивом.",
@@ -950,39 +950,39 @@
             }
         },
         "email": {
-            "greeting": "",
-            "signoff": "",
+            "greeting": "Здравствуйте, {displayName},",
+            "signoff": "Команда {forumTitle}",
             "informational": {
-                "default_title": "",
-                "footer": "",
-                "footer_plain": ""
+                "default_title": "Информация",
+                "footer": "Это письмо отправлено на адрес {userEmail} как служебное уведомление, связанное с вашей учётной записью на [{forumTitle}]({forumUrl}).",
+                "footer_plain": "Это письмо отправлено на адрес {userEmail} как служебное уведомление, связанное с вашей учётной записью на [{forumTitle}]."
             },
             "notification": {
-                "default_title": "",
+                "default_title": "Уведомление",
                 "footer": {
-                    "main_text": "",
-                    "main_text_plain": "",
-                    "unsubscribe_text": "",
-                    "unsubscribe_text_plain": "",
-                    "settings_text": "",
-                    "settings_text_plain": ""
+                    "main_text": "Это письмо отправлено на адрес {email}, потому что вы подписаны на уведомления «{type}» на [[{forumTitle}]]({forumUrl}).",
+                    "main_text_plain": "Это письмо отправлено на адрес {email}, потому что вы подписаны на уведомления «{type}» на форуме {forumTitle}.",
+                    "unsubscribe_text": "Если вы больше не хотите получать такие уведомления, [отпишитесь здесь]({unsubscribeLink}).",
+                    "unsubscribe_text_plain": "Если вы больше не хотите получать такие уведомления, перейдите по ссылке для отписки: {unsubscribeLink}",
+                    "settings_text": "Управлять настройками уведомлений можно [здесь]({settingsLink}).",
+                    "settings_text_plain": "Управлять настройками уведомлений: {settingsLink}"
                 }
             },
             "activate_account": {
                 "subject": "Активация Вашего аккаунта",
-                "body": ""
+                "body": "На форуме {forum} кто-то зарегистрировался с этим адресом электронной почты.\n\nЕсли это были вы, перейдите по ссылке ниже, чтобы активировать учётную запись:\n{url}\n\nЕсли вы не регистрировались на {forum}, просто проигнорируйте письмо.\n"
             },
             "confirm_email": {
                 "subject": "Подтверждение нового адреса email",
-                "body": ""
+                "body": "На форуме {forum} кто-то сменил адрес электронный почты на этот.\n\nЕсли это были вы, перейдите по ссылке ниже для подтверждения нового адреса:\n{url}\n\nЕсли это были не вы, просто проигнорируйте письмо.\n"
             },
             "reset_password": {
                 "subject": "=> core.ref.reset_your_password",
-                "body": ""
+                "body": "На форуме {forum} кто-то отправил запрос на смену пароля для вашей учётной записи.\n\nЕсли это были вы, перейдите по ссылке ниже для установки нового пароля:\n{url}\n\nЕсли это были не вы, просто проигнорируйте письмо.\n"
             },
             "send_test": {
                 "subject": "Проверка email Flarum",
-                "body": ""
+                "body": "Это тестовое письмо для проверки работы электронной почты на форуме Flarum.\n\nЕсли вы отправили его, значит настройки работают корректно.\n\nЕсли это сделали не вы, просто проигнорируйте письмо.\n"
             }
         },
         "ref": {
@@ -997,8 +997,8 @@
             "custom_footer_title": "Редактирование нижнего колонтитула",
             "custom_header_text": "HTML, который будет отображаться в самой верхней части страницы, над заголовком Flarum.",
             "custom_header_title": "Редактирование верхнего колонтитула",
-            "dark_hc_mode_label": "",
-            "dark_mode_label": "",
+            "dark_hc_mode_label": "Контрастный тёмный",
+            "dark_mode_label": "Тёмный",
             "delete": "Удалить",
             "delete_forever": "Удалить (навсегда)",
             "discussions": "Дискуссии",
@@ -1009,9 +1009,9 @@
             "generic_confirmation_message": "Вы уверены, что хотите продолжить? Это действие невозможно отменить.",
             "icon": "Иконка",
             "icon_text": "Введите название любого класса иконки <a>Font Awesome</a>, <em>включая</em> префикс <code>fas fa-</code>.",
-            "invalid_login_message": "",
-            "light_hc_mode_label": "",
-            "light_mode_label": "",
+            "invalid_login_message": "Указаны неверные данные для входа.",
+            "light_hc_mode_label": "Контрастная светлая",
+            "light_mode_label": "Светлая",
             "load_more": "Показать ещё",
             "loading": "Загрузка...",
             "log_in": "Войти",
@@ -1019,20 +1019,20 @@
             "mark_all_as_read": "Отметить всё как прочитанное",
             "never": "Никогда",
             "new_token": "Новый токен",
-            "newest": "",
+            "newest": "Новые",
             "next_page": "Следующая страница",
             "notifications": "Уведомления",
             "okay": "ОК",
-            "oldest": "",
+            "oldest": "Старые",
             "password": "Пароль",
             "posts": "Сообщения",
             "previous_page": "Предыдущая страница",
-            "relevance": "",
-            "remember_me_label": "",
+            "relevance": "По соответствию",
+            "remember_me_label": "Запомнить меня",
             "remove": "Удалить",
             "rename": "Переименовать",
             "reply": "Ответить",
-            "refresh": "",
+            "refresh": "Обновить",
             "reset_your_password": "Сбросить пароль",
             "restore": "Восстановить",
             "save_changes": "Сохранить",
@@ -1043,7 +1043,7 @@
             "some_others": "{count, plural, one {# другой} other {# других}}",
             "start_a_discussion": "Создать дискуссию",
             "username": "Имя пользователя",
-            "username_or_email_placeholder": "",
+            "username_or_email_placeholder": "Имя пользователя или Email",
             "users": "Пользователи",
             "view": "Посмотреть",
             "write_a_reply": "Написать ответ...",
