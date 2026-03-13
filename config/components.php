@@ -327,6 +327,9 @@ return [
 	'migratetoflarum-fake-data' => [
 		'beta' => 'https://raw.githubusercontent.com/migratetoflarum/fake-data/2.0.0-beta.1/resources/locale/en.yml',
 	],
+	'ramon-colored' => [
+		'tag' => 'https://raw.githubusercontent.com/ram0ng1/colored/1.3.0/resources/locale/en.yml',
+	],
 	'sycho-advanced-extension-categories' => [
 		'tag' => 'https://raw.githubusercontent.com/SychO9/flarum-advanced-extension-categories/v0.2.1/locale/en.yml',
 	],
