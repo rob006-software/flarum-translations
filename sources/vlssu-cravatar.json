@@ -10,6 +10,10 @@
                     "title": "Replace custom avatars uploaded to Forum",
                     "helptext": "Replace custom avatars already uploaded to the forum with a Cravatar"
                 },
+                "allow-user-toggle": {
+                    "title": "Allow users to switch between Cravatar and uploaded avatars",
+                    "helptext": "When enabled, users can choose to use either their Cravatar image or the avatar uploaded to the forum."
+                },
                 "defaults": {
                     "title": "Defaults",
                     "helptext": "What happens when an email address has no matching Cravatar image? Cravatar has a number of built in options which you can use as defaults. Most of these work by taking the requested email hash and using it to generate a themed image that is unique to that email address.",
@@ -36,7 +40,9 @@
         },
         "forum": {
             "settings": {
-                "edit-cravatar": "Manage avatar on cravatar.cn"
+                "edit-cravatar": "Manage avatar on cravatar.cn",
+                "use-cravatar": "Use Cravatar avatar",
+                "use-uploaded": "Use uploaded avatar"
             }
         }
     }

@@ -10,6 +10,10 @@
                     "title": "",
                     "helptext": ""
                 },
+                "allow-user-toggle": {
+                    "title": "",
+                    "helptext": ""
+                },
                 "defaults": {
                     "title": "По подразбиране",
                     "helptext": "",
@@ -36,7 +40,9 @@
         },
         "forum": {
             "settings": {
-                "edit-cravatar": ""
+                "edit-cravatar": "",
+                "use-cravatar": "",
+                "use-uploaded": ""
             }
         }
     }
