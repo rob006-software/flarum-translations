@@ -13,7 +13,8 @@
             }
         },
         "console": {
-            "scheduled_drafts_disabled": "下書きの予約投稿は現在無効になっています。"
+            "scheduled_drafts_disabled": "下書きの予約投稿は現在無効になっています。",
+            "no_title_error": ""
         },
         "ref": {
             "schedule_draft": "下書きの予約投稿"
@@ -49,7 +50,8 @@
                 "schedule_button": "予約",
                 "schedule_time_preview": "この下書きは<b>{datetime}</b>に自動的に公開されます。",
                 "schedule_time_preview_formatter": "LLLL",
-                "schedule_time_preview_invalid": "無効な日時です"
+                "schedule_time_preview_invalid": "無効な日時です",
+                "no_title_error": ""
             },
             "user": {
                 "settings": {
