@@ -27,14 +27,14 @@
                 "status_active": "Aktiv",
                 "status_ended": "Beendet",
                 "status_published": "Veröffentlicht",
-                "show_live_votes": "",
-                "show_live_votes_help": "",
-                "image_url": "",
-                "image_url_help": "",
+                "show_live_votes": "Live-Abstimmungsergebnisse anzeigen",
+                "show_live_votes_help": "Anzahl der Stimmen anzeigen, während die Abstimmung läuft",
+                "image_url": "URL des Titelbildes",
+                "image_url_help": "Titelbild, das im Hero-Bereich angezeigt wird. Hochladen oder URL einfügen.",
                 "categories": "Kategorien",
                 "publish": "Ergebnisse veröffentlichen",
                 "delete_confirm": "Möchtest du diese Auszeichnung wirklich löschen?",
-                "publish_confirm": "",
+                "publish_confirm": "Möchtest du die Ergebnisse wirklich veröffentlichen? Alle Abstimmenden werden darüber informiert.",
                 "empty": "Noch keine Auszeichnungen erstellt."
             },
             "categories": {
@@ -57,7 +57,7 @@
                 "edit_title": "Nominierten bearbeiten",
                 "select_category": "Kategorie auswählen",
                 "name": "Name des Nominierten",
-                "description_help": "",
+                "description_help": "Kurzbeschreibung unter dem Namen (optional)",
                 "image": "Bild",
                 "image_url": "Bild-URL",
                 "image_url_help": "",
@@ -66,38 +66,38 @@
                 "real_votes": "",
                 "adjustment": "",
                 "adjustment_help": "",
-                "displayed_votes": "",
+                "displayed_votes": "Angezeigte Stimmen",
                 "reset": "Zurücksetzen",
-                "reset_adjustment": "",
-                "delete_confirm": "",
-                "empty": ""
+                "reset_adjustment": "Anpassung auf 0 zurücksetzen",
+                "delete_confirm": "Möchtest du diesen Kandidaten wirklich löschen?",
+                "empty": "Keine Kandidaten gefunden."
             },
             "suggestions": {
-                "title": "",
-                "empty": "",
-                "name": "",
+                "title": "Ausstehende Vorschläge",
+                "empty": "Keine ausstehenden Vorschläge",
+                "name": "Vorgeschlagener Name",
                 "category": "Kategorie",
                 "user": "Eingereicht durch",
                 "date": "Datum",
                 "approve": "Genehmigen",
                 "reject": "Ablehnen",
                 "merge": "Zusammenführen",
-                "approve_confirm": "",
-                "reject_confirm": "",
+                "approve_confirm": "Als neuen Kandidaten vorschlagen? Der Benutzer wird automatisch dafür stimmen.",
+                "reject_confirm": "Diesen Vorschlag ablehnen?",
                 "merge_title": "",
                 "merge_info": "",
                 "select_nominee_label": "Nominierten auswählen",
-                "select_nominee_placeholder": "",
-                "no_nominees": ""
+                "select_nominee_placeholder": "-- Wähle einen Kandidaten aus --",
+                "no_nominees": "In dieser Kategorie sind keine Kandidaten vorhanden, die zusammengeführt werden könnten."
             },
             "settings": {
-                "title": "",
-                "nav_title": "",
-                "nav_title_help": "",
-                "nav_icon": "",
-                "nav_icon_help": "",
-                "votes_per_category": "",
-                "votes_per_category_help": ""
+                "title": "Einstellungen",
+                "nav_title": "Navigationstitel",
+                "nav_title_help": "Text in der Navigations-Seitenleiste",
+                "nav_icon": "Navigationssymbol",
+                "nav_icon_help": "FontAwesome-Symbolklasse (z. B. fas fa-trophy, fas fa-award, fas fa-star)",
+                "votes_per_category": "Stimmen pro Kategorie",
+                "votes_per_category_help": "0 für unbegrenzte Stimmen, 1 für eine Stimme (ersetzen), >1 für mehrere Stimmen."
             },
             "permissions": {
                 "view": "",
@@ -109,40 +109,40 @@
         "forum": {
             "nav": {
                 "title": "",
-                "categories": "",
-                "all_categories": ""
+                "categories": "Kategorien",
+                "all_categories": "Alle Kategorien"
             },
             "tabs": {
-                "categories": "",
-                "my_votes": "",
-                "results": ""
+                "categories": "Kategorien",
+                "my_votes": "Meine Stimmen",
+                "results": "Ergebnisse"
             },
             "page": {
-                "voting_ends": "",
-                "voting_ended": "",
-                "voting_starts": "",
-                "results_published": "",
+                "voting_ends": "Abstimmung endet um {time}",
+                "voting_ended": "Abstimmung endete um {time}",
+                "voting_starts": "Abstimmung beginnt um {time}",
+                "results_published": "Ergebnisse veröffentlicht",
                 "select_award": "",
                 "previous_awards": ""
             },
             "voting": {
-                "select": "",
-                "voted": "",
-                "change_vote": "",
-                "voting_closed": "",
-                "ended": "",
-                "ends_in_days": "",
-                "ends_in_hours": "",
-                "ends_soon": "",
-                "vote_saved": "",
+                "select": "Auswählen",
+                "voted": "Abgestimmt",
+                "change_vote": "Stimme ändern",
+                "voting_closed": "Abstimmung ist beendet",
+                "ended": "Abstimmung wurde beendet",
+                "ends_in_days": "Abstimmung endet in {days} Tagen",
+                "ends_in_hours": "Abstimmung endet in {hours} Stunden",
+                "ends_soon": "Abstimmung endet bald",
+                "vote_saved": "Deine Stimme wurde gewertet!",
                 "vote_removed": "Deine Stimme wurde entfernt."
             },
             "my_votes": {
                 "title": "Deine Stimmen",
-                "summary": "",
+                "summary": "Du hast in {voted}/{total} Kategorien abgestimmt",
                 "total_votes": "{count} Stimmen insgesamt",
                 "last_vote": "Zuletzt abgestimmt: {time}",
-                "votes_used": "",
+                "votes_used": "{used}/{limit} Stimmen verwendet",
                 "votes_unlimited": "{count} Stimmen",
                 "change": "Ändern",
                 "remove": "Entfernen",
@@ -152,10 +152,10 @@
                 "categories_remaining": "Kategorien ohne Stimmen"
             },
             "progress": {
-                "voted": "",
+                "voted": "{count}/{total} Kategorien abgestimmt",
                 "complete": "Abgeschlossen!",
-                "prev": "",
-                "next": ""
+                "prev": "Zurück",
+                "next": "Weiter"
             },
             "hero": {
                 "countdown": "",
@@ -168,29 +168,29 @@
                 "admin_only": ""
             },
             "results": {
-                "winner": "",
-                "runner_up": "",
-                "votes": "",
-                "percentage": "",
-                "view_all": "",
-                "full_results": ""
+                "winner": "Gewinner",
+                "runner_up": "Zweiter",
+                "votes": "{count} Stimmen",
+                "percentage": "{percent} %",
+                "view_all": "Alle Ergebnisse anzeigen",
+                "full_results": "Alle Ergebnisse"
             },
             "prediction": {
                 "title": "",
                 "score": "",
-                "correct": "",
-                "wrong": ""
+                "correct": "Korrekt:",
+                "wrong": "Falsch:"
             },
             "category": {
-                "nominees_count": "",
-                "votes_used": "",
-                "votes_unlimited": ""
+                "nominees_count": "{count} Kandidaten",
+                "votes_used": "{used}/{limit} Stimmen",
+                "votes_unlimited": "{count} Stimmen"
             },
             "other": {
-                "suggest": "",
+                "suggest": "Andere vorschlagen",
                 "click_to_suggest": "",
                 "placeholder": "",
-                "submit": "",
+                "submit": "Kandidaten vorschlagen",
                 "success": "",
                 "already_submitted": "",
                 "pending_count": "",
@@ -198,11 +198,11 @@
                 "no_remaining": "",
                 "my_suggestions": "",
                 "no_suggestions": "",
-                "cancel": "",
-                "status_pending": "",
-                "status_approved": "",
-                "status_rejected": "",
-                "status_merged": "",
+                "cancel": "Abbrechen",
+                "status_pending": "Ausstehend",
+                "status_approved": "Angenommen",
+                "status_rejected": "Abgelehnt",
+                "status_merged": "Zusammengeführt",
                 "cancel_confirm": ""
             },
             "empty": {
@@ -215,7 +215,7 @@
                 "results_published": ""
             },
             "error": {
-                "voting_closed": "",
+                "voting_closed": "Abstimmung ist beendet.",
                 "rate_limit": "",
                 "other_not_allowed": "",
                 "vote_limit_reached": "",
@@ -226,15 +226,15 @@
         },
         "lib": {
             "success_message": "",
-            "actions": "",
-            "votes": "",
-            "slug": "",
-            "description": "",
-            "sort_order": "",
-            "move_up": "",
-            "move_down": "",
-            "upload_image": "",
-            "upload_success": "",
+            "actions": "Aktionen",
+            "votes": "Stimmen",
+            "slug": "Slug",
+            "description": "Beschreibung",
+            "sort_order": "Reihenfolge",
+            "move_up": "Nach oben",
+            "move_down": "Nach unten",
+            "upload_image": "Bild hochladen",
+            "upload_success": "Bild erfolgreich hochgeladen",
             "upload_error": "",
             "save": "Änderungen speichern"
         }
