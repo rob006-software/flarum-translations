@@ -165,7 +165,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/disposable-emails/2.0.0-beta.1/locale/en.yml',
 	],
 	'fof-drafts' => [
-		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/drafts/2.0.0-beta.4/resources/locale/en.yml',
+		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/drafts/2.0.0-beta.5/resources/locale/en.yml',
 	],
 	'fof-follow-tags' => [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/follow-tags/2.0.0-beta.6/resources/locale/en.yml',
