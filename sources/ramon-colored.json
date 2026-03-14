@@ -1,0 +1,57 @@
+{
+    "colored": {
+        "admin": {
+            "settings": {
+                "tag_mode_label": "Tag Color Mode",
+                "tag_mode_first": "First Tag",
+                "tag_mode_second": "Second Tag",
+                "tag_mode_custom": "Custom",
+                "tag_position_label": "Tag Position",
+                "tag_position_help": "Select the position of the tag for customization.",
+                "custom_css_label": "Custom CSS",
+                "custom_css_help": "Add any custom CSS styles you want to apply here.",
+                "transition_delay_label": "Animation Speed",
+                "transition_delay_help": "Select the speed of color transitions",
+                "transition_speeds": {
+                    "fast": "Fast (0.1s)",
+                    "normal": "Normal (0.5s)",
+                    "slow": "Slow (1s)"
+                },
+                "transition_custom_label": "Custom Speed",
+                "transition_custom_help": "Enter custom transition time in seconds (e.g. 0.7)",
+                "elements": {
+                    "header_label": "Header Border",
+                    "header_help": "Enable coloring for the header.",
+                    "header_description": "Adds a colored border to the top of the forum header",
+                    "hero_label": "Main Banner",
+                    "hero_help": "Enable coloring for the hero section.",
+                    "hero_description": "Colors the background of the main page banner",
+                    "navigation_label": "Navigation Bar",
+                    "navigation_help": "Enable coloring for the navigation bar.",
+                    "navigation_description": "Adds a colored border to the navigation bar",
+                    "button_label": "Primary Items",
+                    "button_help": "Enable coloring for primary elements",
+                    "button_description": "Applies color to primary elements like buttons, links, and menu items",
+                    "usercard_label": "User Card",
+                    "usercard_help": "Enable coloring for user cards.",
+                    "usercard_description": "Adds a colored border to user cards",
+                    "post_label": "Posts",
+                    "post_help": "Enable coloring for posts.",
+                    "post_description": "Adds a colored border to the side of posts",
+                    "alerts_label": "Alerts",
+                    "alerts_help": "Enable coloring for alerts.",
+                    "alerts_description": "Adds a colored border to system notifications",
+                    "dropdown_label": "Dropdown Menus",
+                    "dropdown_help": "Enable coloring for dropdown menus.",
+                    "dropdown_description": "Applies color to the background of dropdown menus",
+                    "composer_label": "Text Editor",
+                    "composer_help": "Enable coloring for the post composer.",
+                    "composer_description": "Applies color to the background of the text editor",
+                    "custom_label": "Custom CSS",
+                    "custom_help": "Enable the use of custom CSS."
+                }
+            },
+            "donate": "Support this extension"
+        }
+    }
+}
