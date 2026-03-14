@@ -759,7 +759,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/split/1.1.1/locale/en.yml',
 	],
 	'fof-subscribed' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/subscribed/1.1.4/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/subscribed/1.1.5/resources/locale/en.yml',
 	],
 	'fof-synopsis' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/synopsis/1.0.1/resources/locale/en.yml',
