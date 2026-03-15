@@ -2,58 +2,58 @@
     "fof-merge-discussions": {
         "forum": {
             "modal": {
-                "title": "",
-                "ordering_heading": "",
-                "ordering_date_label": "",
-                "ordering_date_help": "",
-                "ordering_suffix_label": "",
-                "ordering_suffix_help": "",
-                "type_heading": "",
-                "type_target_label": "",
-                "type_target_help_text": "",
-                "type_from_label": "",
-                "type_from_help_text": "",
-                "load_preview_button": "",
-                "submit_button": ""
+                "title": "Spoji teme",
+                "ordering_heading": "Redoslijed spajanja",
+                "ordering_date_label": "Spoji objave prema datumu stvaranja",
+                "ordering_date_help": "Objave u rezultirajućoj temi bit će poredane prema datumu stvaranja",
+                "ordering_suffix_label": "Dodaj spojene objave na kraj teme",
+                "ordering_suffix_help": "Objave koje se spajaju u preživjelu temu bit će dodane na kraj teme",
+                "type_heading": "Vrsta spajanja",
+                "type_target_label": "Spoji u mene",
+                "type_target_help_text": "Odaberi temu/e za spajanje u <b>{title}</b>.",
+                "type_from_label": "Spoji ovu temu u drugu",
+                "type_from_help_text": "Odaberi ciljnu temu za spajanje <b>{title}</b>.",
+                "load_preview_button": "Pregled",
+                "submit_button": "=> fof-merge-discussions.ref.merge"
             },
             "notification": {
-                "discussion_merged": "",
+                "discussion_merged": "Vaša tema <b>{oldTitle}</b> spojena je u ovu temu od strane {username}.",
                 "preferences": {
-                    "discussion_merged": ""
+                    "discussion_merged": "Netko spoji jednu od mojih tema s drugom"
                 }
             },
             "discussion": {
-                "merge": ""
+                "merge": "=> fof-merge-discussions.ref.merge"
             },
             "post": {
-                "merged": ""
+                "merged": "{count, plural, one {Spojena <b>#</b> objava iz {titles}.} other {Spojeno <b>#</b> objava iz {titles}.}}"
             }
         },
         "admin": {
             "permissions": {
-                "merge_discussions_label": ""
+                "merge_discussions_label": "Spoji teme"
             },
             "settings": {
-                "search_result_help": "",
-                "search_result_label": ""
+                "search_result_help": "Koliko tema treba biti prikazano prilikom pretrage unutar modalnog prozora `Spoji teme`.",
+                "search_result_label": "Ograničenje pretrage pri spajanju tema"
             }
         },
         "api": {
             "error": {
-                "merging_failed": "",
-                "updating_failed": "",
-                "deleting_failed": "",
-                "fixing_posts_number_failed": "",
-                "fixing_posts_number_meta_failed": ""
+                "merging_failed": "Spajanje tema nije uspjelo.",
+                "updating_failed": "Ažuriranje detalja teme nije uspjelo.",
+                "deleting_failed": "Brisanje praznih tema nije uspjelo.",
+                "fixing_posts_number_failed": "Ispravljanje brojeva objava nije uspjelo.",
+                "fixing_posts_number_meta_failed": "Ispravljanje brojeva objava nije uspjelo."
             }
         },
         "ref": {
-            "merge": ""
+            "merge": "Spoji"
         },
         "email": {
             "merged": {
-                "body": "",
-                "subject": ""
+                "body": "Pozdrav {recipient_display_name},\n\nVaša tema, {merged_discussion_title}, spojena je u {discussion_title} od strane {actor_display_name}.\n\nPogledajte je ovdje {discussion_url} .\n",
+                "subject": "Vaša tema \"{merged_discussion_title}\" je spojena"
             }
         }
     }
