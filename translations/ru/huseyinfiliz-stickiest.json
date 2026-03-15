@@ -4,18 +4,18 @@
             "permissions": {
                 "super_sticky_discussions_label": "Закреплять дискуссии приоритетно",
                 "tag_sticky_discussions_label": "Закреплять дискуссии по тегу",
-                "stickiest_label": "",
-                "tag_sticky_label": ""
+                "stickiest_label": "Закреплять дискуссии приоритетно",
+                "tag_sticky_label": "Закреплять дискуссии по тегу"
             },
             "settings": {
                 "badge_icon_label": "Иконка приоритетного закрепления",
                 "badge_icon_text": "=> core.ref.icon_text",
                 "display_tag_sticky_label": "Показывать закреплённые по тегу дискуссии на странице всех дискуссий",
                 "display_tag_sticky_text": "Они будут отображаться как обычные дискуссии без закрепления вверху списка.",
-                "show_tag_sticky_label": "",
-                "show_tag_sticky_help": "",
-                "stickiest_icon_label": "",
-                "stickiest_icon_help": ""
+                "show_tag_sticky_label": "Показывать закреплённые по тегу дискуссии на странице всех дискуссий",
+                "show_tag_sticky_help": "Если отключено, закреплённые по тегу дискуссии будут отображаться только при просмотре соответствующего тега.",
+                "stickiest_icon_label": "Иконка приоритетного закрепления",
+                "stickiest_icon_help": "Класс иконки Font Awesome (например: fas fa-star)"
             }
         },
         "forum": {
@@ -24,7 +24,7 @@
                 "super_sticky_tooltip": "=> huseyinfiliz-stickiest.ref.super_sticky",
                 "tag_sticky_tooltip": "=> huseyinfiliz-stickiest.ref.tag_sticky",
                 "super_tag_sticky_tooltip": "=> huseyinfiliz-stickiest.ref.super_tag_sticky",
-                "stickiest_tooltip": ""
+                "stickiest_tooltip": "Приоритетное закрепление"
             },
             "stickiest_modal": {
                 "title": "Закрепление {title}",
@@ -45,19 +45,19 @@
                 "discussion_unstickied_text": "=> flarum-sticky.forum.post_stream.discussion_unstickied_text",
                 "discussion_super_stickied_text": "{username} отметил(а) дискуссию приоритетной.",
                 "discussion_common_stickied_text": "{username} снял(а) приоритет с дискуссии.",
-                "discussion_stickiest_text": "",
-                "discussion_unstickiest_text": ""
+                "discussion_stickiest_text": "{username} отметил(а) дискуссию приоритетной.",
+                "discussion_unstickiest_text": "{username} снял(а) приоритет с дискуссии."
             },
             "sticky_modal": {
-                "title": "",
-                "sticky_label": "",
-                "sticky_help": "",
-                "stickiest_label": "",
-                "stickiest_help": "",
-                "tag_sticky_label": "",
-                "tag_sticky_help": "",
-                "select_tags": "",
-                "submit_button": ""
+                "title": "Закрепление: {title}",
+                "sticky_label": "Закрепление",
+                "sticky_help": "На странице всех дискуссий закрепляется только при наличии непрочитанных сообщений, а внутри тега — всегда.",
+                "stickiest_label": "Приоритетное закрепление",
+                "stickiest_help": "Всегда закреплена на самом верху.",
+                "tag_sticky_label": "Закрепление по тегу",
+                "tag_sticky_help": "Закрепляется только в выбранных тегах.",
+                "select_tags": "Выбрать теги",
+                "submit_button": "Сохранить"
             }
         },
         "ref": {
