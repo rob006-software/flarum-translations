@@ -1246,6 +1246,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`ramon-colored`](https://weblate.rob006.net/projects/flarum/ramon-colored) | [`ramon/colored`](https://github.com/ram0ng1/colored) |
 | [`rehiy-reply-to-see`](https://weblate.rob006.net/projects/flarum/rehiy-reply-to-see) | [`rehiy/flarum-reply-to-see`](https://github.com/rehiy/flarum-reply-to-see) |
 | [`resofire-discussion-participants`](https://weblate.rob006.net/projects/flarum/resofire-discussion-participants) | [`resofire/discussion-participants`](https://github.com/ResofireV2/discussion-participants) |
+| [`resofire-menu-control`](https://weblate.rob006.net/projects/flarum/resofire-menu-control) | [`resofire/menu-control`](https://github.com/ResofireV2/menu-control) |
 | [`rob006-last-post-avatar`](https://weblate.rob006.net/projects/flarum/rob006-last-post-avatar) | [`rob006/flarum-ext-last-post-avatar`](https://github.com/rob006-software/flarum-ext-last-post-avatar) |
 | [`sas_sam-regrole`](https://weblate.rob006.net/projects/flarum/sas_sam-regrole) | [`sas_sam/flarum-regrole`](https://github.com/SasSam/flarum-regrole) |
 | [`serakoi-hideprofile`](https://weblate.rob006.net/projects/flarum/serakoi-hideprofile) | [`serakoi/flarum-hideprofile`](https://github.com/Serakoi/flarum-hideprofile) |
