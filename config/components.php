@@ -1559,6 +1559,9 @@ return [
 	'rehiy-reply-to-see' => [
 		'tag' => 'https://raw.githubusercontent.com/rehiy/flarum-reply-to-see/v1.8.0/resources/locale/en.yml',
 	],
+	'resofire-blog-cards' => [
+		'tag' => 'https://raw.githubusercontent.com/ResofireV2/blog-cards/v0.4.5/locale/en.yml',
+	],
 	'resofire-discussion-participants' => [
 		'tag' => 'https://raw.githubusercontent.com/ResofireV2/discussion-participants/v1.0.3/locale/en.yml',
 	],
