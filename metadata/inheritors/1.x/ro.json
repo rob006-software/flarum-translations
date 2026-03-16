@@ -1,4 +1,57 @@
 {
+    "acpl-lscache.json": {
+        "acpl-lscache": {
+            "admin": {
+                "cache_enabled_help": "5bbdde96053dcc0ac9f1f575d52736ec 5bbdde96053dcc0ac9f1f575d52736ec",
+                "cache_enabled_label": "5abb8af2bb04b8adb32969c08d1c0189 5abb8af2bb04b8adb32969c08d1c0189",
+                "cache_exclude_help": "987330cd0be5281e13b7d6f0dcee1f1b 987330cd0be5281e13b7d6f0dcee1f1b",
+                "cache_exclude_label": "12e83812181e73b3b2a214178892eef6 12e83812181e73b3b2a214178892eef6",
+                "clearing_cache_listener_label": "49f410f5e93c6c92be985aaa761e8fc7 49f410f5e93c6c92be985aaa761e8fc7",
+                "drop_qs_help": "b041e5b811f0240fd66808ea0074a5c0 b041e5b811f0240fd66808ea0074a5c0",
+                "drop_qs_label": "59089f6117e6e469815d90fd18ac26a0 59089f6117e6e469815d90fd18ac26a0",
+                "permissions": {
+                    "purge": "82ceb32e014a94db44d41f626982de95 82ceb32e014a94db44d41f626982de95"
+                },
+                "public_cache_ttl_help": "461a0dd2f33aeae9b6a5fe0379103726 461a0dd2f33aeae9b6a5fe0379103726",
+                "public_cache_ttl_label": "d06493dd83b6430928f214004c1e82e4 d06493dd83b6430928f214004c1e82e4",
+                "purge_all": "82ceb32e014a94db44d41f626982de95 82ceb32e014a94db44d41f626982de95",
+                "purge_on_discussion_update_help": "9ae0d0da0679572fe1376f485b8d1af7 9ae0d0da0679572fe1376f485b8d1af7",
+                "purge_on_discussion_update_label": "620cdef65d4955ac2877762e3676752a 620cdef65d4955ac2877762e3676752a",
+                "serve_stale_help": "0081c0827c67c88e7b93f17f3e0fb29c 0081c0827c67c88e7b93f17f3e0fb29c",
+                "serve_stale_label": "04bfb9e0bf97babf6e1daacf6255a5a9 04bfb9e0bf97babf6e1daacf6255a5a9",
+                "status_codes_cache_help": "b5ba3be758c897a9119801c98d8d5fe3 b5ba3be758c897a9119801c98d8d5fe3",
+                "status_codes_cache_label": "decf69c340d70b1b13edfb75330e50f6 decf69c340d70b1b13edfb75330e50f6",
+                "test_failed_alert": "1961940214ce673e7eb861394839b26d 1961940214ce673e7eb861394839b26d"
+            },
+            "forum": {
+                "purge": {
+                    "discussion": "82ceb32e014a94db44d41f626982de95 82ceb32e014a94db44d41f626982de95"
+                }
+            },
+            "lib": {
+                "purge_all_success": "200375e3008b5664dc295b2e99804d50 200375e3008b5664dc295b2e99804d50",
+                "purge_success": "0e78288fd55fb843a225d35f809585b6 0e78288fd55fb843a225d35f809585b6"
+            },
+            "ref": {
+                "purge_cache": "ec30f013a1db29ed58bf9c9b92ddcd47 ec30f013a1db29ed58bf9c9b92ddcd47"
+            }
+        }
+    },
+    "acpl-my-tags.json": {
+        "acpl-my-tags": {
+            "admin": {
+                "settings": {
+                    "enable-placeholder": "bdbd3e043e62a96dcd31d045a01014c6 bdbd3e043e62a96dcd31d045a01014c6"
+                }
+            },
+            "forum": {
+                "index": {
+                    "my_tags": "5d76336327a8afa287e50aa2b535b4da 5d76336327a8afa287e50aa2b535b4da",
+                    "placeholder": "210cb938a617e4a5c50adcfacb05c54f 210cb938a617e4a5c50adcfacb05c54f"
+                }
+            }
+        }
+    },
     "core.json": {
         "core": {
             "admin": {
@@ -12,6 +65,7 @@
                     "custom_footer_text": "a85a9719a53a00353c3df59be9b16f91 a85a9719a53a00353c3df59be9b16f91",
                     "custom_header_heading": "aeab37d64195c6b0fbdfbfb97c0e459d aeab37d64195c6b0fbdfbfb97c0e459d",
                     "custom_header_text": "4b3b82f45b4c4c5e4097e25bfb201fa5 4b3b82f45b4c4c5e4097e25bfb201fa5",
+                    "custom_styles_cannot_use_less_features": "63fa3b4bc70069a48fa1c8d58e8f7fe5 63fa3b4bc70069a48fa1c8d58e8f7fe5",
                     "custom_styles_heading": "c8f7340b84305c8230897e62327f81b3 c8f7340b84305c8230897e62327f81b3",
                     "custom_styles_text": "c9a7370257aed86c04bb8d31cbde5950 c9a7370257aed86c04bb8d31cbde5950",
                     "description": "00666146ec05cfeabdf361d857d9cd94 00666146ec05cfeabdf361d857d9cd94",
@@ -43,10 +97,39 @@
                     "welcome_banner_heading": "021398e526f6d7e9b49030f3b6d1de8f 021398e526f6d7e9b49030f3b6d1de8f",
                     "welcome_banner_text": "c67d1b987a8b7595586de4baca6819dd c67d1b987a8b7595586de4baca6819dd"
                 },
+                "create_user": {
+                    "email_confirmed_label": "34651d10a71761b527065b29efcec208 34651d10a71761b527065b29efcec208",
+                    "email_placeholder": "7638203591a5ee0b0f5773ae124b708b 7638203591a5ee0b0f5773ae124b708b",
+                    "password_placeholder": "7b5eea8ea6d89af5d022584e2886779b 7b5eea8ea6d89af5d022584e2886779b",
+                    "submit_and_create_another_button": "cb4560764da1533faf86da1272e1ad55 cb4560764da1533faf86da1272e1ad55",
+                    "submit_button": "f6b20d8e6bdb29ad8f1805efbb614a13 f6b20d8e6bdb29ad8f1805efbb614a13",
+                    "title": "5fbe7183d1635cb89b95b9290940df72 5fbe7183d1635cb89b95b9290940df72",
+                    "use_random_password": "6b20396ab367e916cc847a39bbf6b5a3 6b20396ab367e916cc847a39bbf6b5a3",
+                    "username_placeholder": "b878d6a7a6488413a07a3af7c81c5d8c b878d6a7a6488413a07a3af7c81c5d8c"
+                },
                 "dashboard": {
                     "clear_cache_button": "550bba72902c530788ed75617bcb09cc 550bba72902c530788ed75617bcb09cc",
                     "description": "e23b257d8df3b8f93ae5e33e662ea864 e23b257d8df3b8f93ae5e33e662ea864",
+                    "info_button": "f582dd85f1896d2faa320e1f96fcc589 f582dd85f1896d2faa320e1f96fcc589",
+                    "info_modal": {
+                        "copy_button": "e36cbbdef93165a15f7056a4809827f9 e36cbbdef93165a15f7056a4809827f9",
+                        "copy_error": "a8c7cb05dfe075e330478f2cea047b97 a8c7cb05dfe075e330478f2cea047b97",
+                        "copy_success": "642b2b9a944d94adf67154e09b24dc28 642b2b9a944d94adf67154e09b24dc28",
+                        "title": "f582dd85f1896d2faa320e1f96fcc589 f582dd85f1896d2faa320e1f96fcc589"
+                    },
                     "io_error_message": "eb79790722afdfe64e8cee4cdee02676 eb79790722afdfe64e8cee4cdee02676",
+                    "status": {
+                        "headers": {
+                            "queue-driver": "667035ea5f35978169b5948d1ac78b7b 667035ea5f35978169b5948d1ac78b7b",
+                            "scheduler-status": "10946cc2d1aac9ebac1a4c3eeb6d9b5d 10946cc2d1aac9ebac1a4c3eeb6d9b5d",
+                            "session-driver": "dffe87b620cc0cdf12bacc1cb48eaf93 dffe87b620cc0cdf12bacc1cb48eaf93"
+                        },
+                        "scheduler": {
+                            "active": "c091eba4b1a1955ab314e18aa471eb67 c091eba4b1a1955ab314e18aa471eb67",
+                            "inactive": "188d1f34781dff6c26d12e59118fc515 188d1f34781dff6c26d12e59118fc515",
+                            "never-run": "0c82d2bd8da3a1f32f70f0c327a379ef 0c82d2bd8da3a1f32f70f0c327a379ef"
+                        }
+                    },
                     "title": "b4185e41d9dbebc3227b33718b987f36 b4185e41d9dbebc3227b33718b987f36",
                     "tools_button": "f2632ae3c91e7bd36c8d2ad0b364fdce f2632ae3c91e7bd36c8d2ad0b364fdce"
                 },
@@ -106,8 +189,11 @@
                     "title": "7638203591a5ee0b0f5773ae124b708b 7638203591a5ee0b0f5773ae124b708b"
                 },
                 "extension": {
+                    "abandoned_no_replacement": "e1bc313c7771b0fbdbe44df2e24eb4fa e1bc313c7771b0fbdbe44df2e24eb4fa",
+                    "abandoned_with_replacement": "d7e2c15084012ff0496761c6d9c28459 d7e2c15084012ff0496761c6d9c28459",
                     "configure_scopes": "34ccf44edf68cf164345d0a4a25d7007 34ccf44edf68cf164345d0a4a25d7007",
                     "confirm_purge": "5964497ed5e85b4c71cef66e9bfc273a 5964497ed5e85b4c71cef66e9bfc273a",
+                    "deprecated": "e7c813ad57142164a1a4c1ace7db7311 e7c813ad57142164a1a4c1ace7db7311",
                     "disabled": "1ed6f2c8b0b3c6f4ebc9c00ef6b5e7b0 1ed6f2c8b0b3c6f4ebc9c00ef6b5e7b0",
                     "enable_to_see": "f5bc66b0da0d65a57467192c63c27056 f5bc66b0da0d65a57467192c63c27056",
                     "enabled": "7df669b631a6060250d7fe858c860bd1 7df669b631a6060250d7fe858c860bd1",
@@ -128,7 +214,8 @@
                         "button_label": "c47c7c7383225ab55ff591cb59c41e6b c47c7c7383225ab55ff591cb59c41e6b",
                         "no_readme": "38dffc2b31d20715539d9d4f07f84684 38dffc2b31d20715539d9d4f07f84684",
                         "title": "6f2015b07f1dc1224d73faf2e1aecba4 6f2015b07f1dc1224d73faf2e1aecba4"
-                    }
+                    },
+                    "replaced": "39816c3e3a09a3e503d7208b50bfd7d5 39816c3e3a09a3e503d7208b50bfd7d5"
                 },
                 "header": {
                     "get_help": "ee177ff6b7b3b9a3a8c8b112202e2e80 ee177ff6b7b3b9a3a8c8b112202e2e80",
@@ -164,8 +251,10 @@
                     "userlist_title": "63c623bfd6cafdfca0e499b50134291c 63c623bfd6cafdfca0e499b50134291c"
                 },
                 "permissions": {
+                    "allow_hide_own_posts_label": "8cc7cf361adff38c66542042de44c274 8cc7cf361adff38c66542042de44c274",
                     "allow_post_editing_label": "43311ca57000d5fd66fc3a26fe4b313a 43311ca57000d5fd66fc3a26fe4b313a",
                     "allow_renaming_label": "533872ff14ef1e514df2109ebefb5a3d 533872ff14ef1e514df2109ebefb5a3d",
+                    "create_access_token_label": "4e6365201a06fc3c12c43407554581e1 4e6365201a06fc3c12c43407554581e1",
                     "create_heading": "4e18addddb4f7c9bd9b94b29742e40b5 4e18addddb4f7c9bd9b94b29742e40b5",
                     "delete_discussions_forever_label": "9ed80350aaa09f3bc85db42d88225632 9ed80350aaa09f3bc85db42d88225632",
                     "delete_discussions_label": "1eb35565dd0edf7691cd7deb659d6107 1eb35565dd0edf7691cd7deb659d6107",
@@ -177,14 +266,16 @@
                     "edit_users_groups_label": "f6af738d1ef916f93baf2a6138273aec f6af738d1ef916f93baf2a6138273aec",
                     "edit_users_label": "90cfee2251b618034f8d3e93a775313f 90cfee2251b618034f8d3e93a775313f",
                     "global_heading": "4cc6684df7b4a92b1dec6fce3264fac8 4cc6684df7b4a92b1dec6fce3264fac8",
+                    "moderate_access_tokens_label": "6be07284b9a7f6b826dead007b2ced89 6be07284b9a7f6b826dead007b2ced89",
                     "moderate_heading": "bbdf79ff3400cd3ccc4771c905e6b879 bbdf79ff3400cd3ccc4771c905e6b879",
                     "new_group_button": "0a0b44176cd98255d6d7772c604235ce 0a0b44176cd98255d6d7772c604235ce",
                     "participate_heading": "237ba34b7726bf39f611ac32d252da4a 237ba34b7726bf39f611ac32d252da4a",
                     "post_without_throttle_label": "efd6dad8a2b61a0e7b0459b3195bfff9 efd6dad8a2b61a0e7b0459b3195bfff9",
                     "read_heading": "51148be8e261eb67de2d3d694b7ae4d2 51148be8e261eb67de2d3d694b7ae4d2",
+                    "remove_scope_label": "0c9fc49c89eabd8e642890bf58ec1736 0c9fc49c89eabd8e642890bf58ec1736",
                     "rename_discussions_label": "c3bca4b62b2a55cf686f67e4b30d34fd c3bca4b62b2a55cf686f67e4b30d34fd",
                     "reply_to_discussions_label": "591af1bebea151634a45cce65ed42226 591af1bebea151634a45cce65ed42226",
-                    "search_users_label": "9c1763bb1517817eea6dbea2f03f95e1 9c1763bb1517817eea6dbea2f03f95e1",
+                    "search_users_label": "63911375f0e1af989a01965fbfa69a52 63911375f0e1af989a01965fbfa69a52",
                     "sign_up_label": "a7ba80f22af351368f3e078fcd46b18e a7ba80f22af351368f3e078fcd46b18e",
                     "start_discussions_label": "8df1185b96cddbff9ba220a90732d7ab 8df1185b96cddbff9ba220a90732d7ab",
                     "title": "33c06218744d4b56266a9af2e8ab3f9b 33c06218744d4b56266a9af2e8ab3f9b",
@@ -195,6 +286,7 @@
                 },
                 "permissions_controls": {
                     "allow_indefinitely_button": "6a7cf4ceadd7d0b40a7c9d9285ba075d 6a7cf4ceadd7d0b40a7c9d9285ba075d",
+                    "allow_never_button": "4ce7eb5ea1b886577bbd616430d8dae8 4ce7eb5ea1b886577bbd616430d8dae8",
                     "allow_some_minutes_button": "3e2659f4ed1b8e12cafcef40d79486ff 3e2659f4ed1b8e12cafcef40d79486ff",
                     "allow_ten_minutes_button": "68eff162454b21c16128417a71c6fb7f 68eff162454b21c16128417a71c6fb7f",
                     "allow_until_reply_button": "19c432e44cf5dadcaae560d9ea0ddc1c 19c432e44cf5dadcaae560d9ea0ddc1c",
@@ -212,9 +304,13 @@
                     "upload_button": "c68e9e50200b5ddf6c3a64b14ce3a932 c68e9e50200b5ddf6c3a64b14ce3a932"
                 },
                 "users": {
+                    "create_user_button": "aeca65454c0bbb84e9e06008a7ec42bf aeca65454c0bbb84e9e06008a7ec42bf",
                     "description": "4aa9c14b1e1011ea7a4d86649aab9c96 4aa9c14b1e1011ea7a4d86649aab9c96",
                     "grid": {
                         "columns": {
+                            "display_name": {
+                                "title": "7f6d7cac26c473842b71003579d4181a 7f6d7cac26c473842b71003579d4181a"
+                            },
                             "email": {
                                 "title": "7638203591a5ee0b0f5773ae124b708b 7638203591a5ee0b0f5773ae124b708b",
                                 "visibility_hide": "ccab77b9c0bc99234ad5f27f9cdf2b06 ccab77b9c0bc99234ad5f27f9cdf2b06",
@@ -227,6 +323,9 @@
                             "join_time": {
                                 "title": "f32a4b843fa11903c5e2881b4247d21b f32a4b843fa11903c5e2881b4247d21b"
                             },
+                            "user_actions": {
+                                "title": "387b27d8ccb8e10e3ed5d0859cd111b1 387b27d8ccb8e10e3ed5d0859cd111b1"
+                            },
                             "user_id": {
                                 "title": "b718adec73e04ce3ec720dd11a06a308 b718adec73e04ce3ec720dd11a06a308"
                             },
@@ -237,8 +336,16 @@
                         },
                         "invalid_column_content": "631b3c9a5f92a8b59a09d2c39c36d3e2 631b3c9a5f92a8b59a09d2c39c36d3e2"
                     },
+                    "search_placeholder": "63911375f0e1af989a01965fbfa69a52 63911375f0e1af989a01965fbfa69a52",
                     "title": "c728ba4bc816e01e04c15794c6c82064 c728ba4bc816e01e04c15794c6c82064",
                     "total_users": "840003294015f57e3ff8aeeb3993a8a2 840003294015f57e3ff8aeeb3993a8a2"
+                }
+            },
+            "api": {
+                "invalid_filter_type": {
+                    "must_be_numeric_message": "b91a4063631a2d5796ca720105648b05 b91a4063631a2d5796ca720105648b05",
+                    "must_not_be_array_message": "e0aef1e9f4d688041fa55e09259e8540 e0aef1e9f4d688041fa55e09259e8540",
+                    "must_not_be_multidimensional_array_message": "f737ebc8cc9753f9b37ab400e002f5d6 f737ebc8cc9753f9b37ab400e002f5d6"
                 }
             },
             "email": {
@@ -392,7 +499,7 @@
                 },
                 "post_stream": {
                     "discussion_renamed_old_tooltip": "32d39261c9a5da607804674c9284731b 32d39261c9a5da607804674c9284731b",
-                    "discussion_renamed_text": "45bca59878928ba8623d854a724e06f1 45bca59878928ba8623d854a724e06f1",
+                    "discussion_renamed_text": "c5b7e3c03e518f1b271d6015595f8bf8 c5b7e3c03e518f1b271d6015595f8bf8",
                     "load_more_button": "aace03f843f7ad259fe0d79dc2e07f43 aace03f843f7ad259fe0d79dc2e07f43",
                     "reply_placeholder": "61ef38160b0cd74ac4602d9ee34d12df 61ef38160b0cd74ac4602d9ee34d12df",
                     "time_lapsed_text": "1f12020561fb326c3d41c4324f4db66f 1f12020561fb326c3d41c4324f4db66f"
@@ -400,6 +507,41 @@
                 "rename_discussion": {
                     "submit_button": "70a95318cbc9f59c2bfe70ea0a56409f 70a95318cbc9f59c2bfe70ea0a56409f",
                     "title": "533872ff14ef1e514df2109ebefb5a3d 533872ff14ef1e514df2109ebefb5a3d"
+                },
+                "security": {
+                    "browser_on_operating_system": "bd6e7ff57723afc4ca0caa344d72bd9e bd6e7ff57723afc4ca0caa344d72bd9e",
+                    "cannot_terminate_current_session": "f143c76c3034527c32cbde3bc0c50705 f143c76c3034527c32cbde3bc0c50705",
+                    "created": "bf185f3de7908e22bcb5b85c40a42ff9 bf185f3de7908e22bcb5b85c40a42ff9",
+                    "current_active_session": "9a25b1760d2a4f5c8e03b5d6b0c93bb1 9a25b1760d2a4f5c8e03b5d6b0c93bb1",
+                    "developer_tokens_heading": "28ddf73c6817c58ae0d0d62564b342b2 28ddf73c6817c58ae0d0d62564b342b2",
+                    "empty_text": "d702752ee555a2ca22a40b4bb5926ac6 d702752ee555a2ca22a40b4bb5926ac6",
+                    "global_logout": {
+                        "heading": "7f3c229acf6a6f444706e1cca3747867 7f3c229acf6a6f444706e1cca3747867",
+                        "help_text": "cac12db2bfb072acb639c32acc3482ff cac12db2bfb072acb639c32acc3482ff",
+                        "log_out_button": "f925317549ba6b605a3f98483a5285db f925317549ba6b605a3f98483a5285db"
+                    },
+                    "hide_access_token": "cf2e69c15f66d21a81fc6b36a1f87b5e cf2e69c15f66d21a81fc6b36a1f87b5e",
+                    "last_activity": "ea8be081119defc4a18e5fe453720e1d ea8be081119defc4a18e5fe453720e1d",
+                    "never": "4ce7eb5ea1b886577bbd616430d8dae8 4ce7eb5ea1b886577bbd616430d8dae8",
+                    "new_access_token_button": "29a2f4d25ae6de56a331a4c6dda16533 29a2f4d25ae6de56a331a4c6dda16533",
+                    "new_access_token_modal": {
+                        "submit_button": "a386ca4c1fe29df58b7c38ba7745b90c a386ca4c1fe29df58b7c38ba7745b90c",
+                        "title": "29a2f4d25ae6de56a331a4c6dda16533 29a2f4d25ae6de56a331a4c6dda16533",
+                        "title_placeholder": "b537a487f3f39afe7252f3e40c6f42ee b537a487f3f39afe7252f3e40c6f42ee"
+                    },
+                    "revoke_access_token": "fbdebc135d19ab2fc19858c1afdc04a6 fbdebc135d19ab2fc19858c1afdc04a6",
+                    "revoke_access_token_confirmation": "a476a237402007d00c4426085e7c1762 a476a237402007d00c4426085e7c1762",
+                    "session_terminated": "31e7855539c8b85f781a78bf934792be 31e7855539c8b85f781a78bf934792be",
+                    "session_termination_failed": "3d19defdab65a2f7dba1e6688c23bfa7 3d19defdab65a2f7dba1e6688c23bfa7",
+                    "sessions_heading": "f0057b13fc260d661952ccb5803674b1 f0057b13fc260d661952ccb5803674b1",
+                    "show_access_token": "b3e9ef0c9aa5e86a92a3ea5e199773cf b3e9ef0c9aa5e86a92a3ea5e199773cf",
+                    "terminate_all_other_sessions": "2861cbfa092cc4a82eeac6ac6abdf70c 2861cbfa092cc4a82eeac6ac6abdf70c",
+                    "terminate_all_other_sessions_confirmation": "a476a237402007d00c4426085e7c1762 a476a237402007d00c4426085e7c1762",
+                    "terminate_session": "e77ca41a4af62580b83f66396c8aaaf4 e77ca41a4af62580b83f66396c8aaaf4",
+                    "title": "6353300d22c38ffd24d6a3ad4329fb5d 6353300d22c38ffd24d6a3ad4329fb5d",
+                    "token_item_title": "35244e391f0f5f74cc834ae1924ff7a1 35244e391f0f5f74cc834ae1924ff7a1",
+                    "token_revoked": "c393dd54fc765d2e692e8f178d2552b8 c393dd54fc765d2e692e8f178d2552b8",
+                    "token_title_placeholder": "6666cd76f96956469e7be39d750cc7d9 6666cd76f96956469e7be39d750cc7d9"
                 },
                 "settings": {
                     "account_heading": "a012e84f82500f110c243e2d81989541 a012e84f82500f110c243e2d81989541",
@@ -435,6 +577,7 @@
                     "posts_empty_text": "ed5b01a4601aa021f570e759b4037c8a ed5b01a4601aa021f570e759b4037c8a",
                     "posts_link": "71a663b7b22e9d1f1e2282167e13555a 71a663b7b22e9d1f1e2282167e13555a",
                     "posts_load_more_button": "aace03f843f7ad259fe0d79dc2e07f43 aace03f843f7ad259fe0d79dc2e07f43",
+                    "security_link": "6353300d22c38ffd24d6a3ad4329fb5d 6353300d22c38ffd24d6a3ad4329fb5d",
                     "settings_link": "0ca86c85cafc43a4dbda7ed0736850c0 0ca86c85cafc43a4dbda7ed0736850c0"
                 },
                 "user_controls": {
@@ -472,6 +615,14 @@
                 "badge": {
                     "hidden_tooltip": "bd42588af691df64b906d81d403e85d7 bd42588af691df64b906d81d403e85d7"
                 },
+                "data_segment": {
+                    "label": "4005f6e781f147f712c9633fe0f95be2 4005f6e781f147f712c9633fe0f95be2"
+                },
+                "datetime_formats": {
+                    "humanTimeLong": "5b54c0a045f179bcbbbc9abcb8b5cd4c 5b54c0a045f179bcbbbc9abcb8b5cd4c",
+                    "humanTimeShort": "e09b22879b27102cac8ded0265190246 e09b22879b27102cac8ded0265190246",
+                    "scrubber": "3c07c94e9b8110724b05c4eefc92e693 3c07c94e9b8110724b05c4eefc92e693"
+                },
                 "debug_button": "5fde16836d98e42888eb1027fad588ea 5fde16836d98e42888eb1027fad588ea",
                 "dropdown": {
                     "toggle_dropdown_accessible_label": "c2d1bb62a7a70c18522b6dd96ae092ad c2d1bb62a7a70c18522b6dd96ae092ad"
@@ -491,8 +642,10 @@
                     "username_label": "b878d6a7a6488413a07a3af7c81c5d8c b878d6a7a6488413a07a3af7c81c5d8c"
                 },
                 "error": {
+                    "circular_dependencies_message": "5b67c191404d45e44c601c75e6eaa1e1 5b67c191404d45e44c601c75e6eaa1e1",
                     "dependent_extensions_message": "fcae4683f9d2b46d76b2b3f893ed0cf7 fcae4683f9d2b46d76b2b3f893ed0cf7",
                     "extension_initialiation_failed_message": "dbe00913b8f25b16e964039488d888b5 dbe00913b8f25b16e964039488d888b5",
+                    "generic_cross_origin_message": "3868c7dc1318023469608004dc094fc0 3868c7dc1318023469608004dc094fc0",
                     "generic_message": "ea0a065b263173f8fac249edbd07c28d ea0a065b263173f8fac249edbd07c28d",
                     "missing_dependencies_message": "a66683600f1b0fe21729d4cc1696ed53 a66683600f1b0fe21729d4cc1696ed53",
                     "not_found_message": "a88e0fb7eb600994e9f3d699fd0d7936 a88e0fb7eb600994e9f3d699fd0d7936",
@@ -546,6 +699,7 @@
                 "edit_user": "2a7bb105a1f5e43af7ee2fdfb4475c4b 2a7bb105a1f5e43af7ee2fdfb4475c4b",
                 "email": "1e884e3078d9978e216a027ecd57fb34 1e884e3078d9978e216a027ecd57fb34",
                 "extensions": "44d650814711753e8bddd87249471552 44d650814711753e8bddd87249471552",
+                "generic_confirmation_message": "d03465425033291f941fbd3bdbee4eaa d03465425033291f941fbd3bdbee4eaa",
                 "icon": "40f03b672f0d485b73800a7c99aa88fa 40f03b672f0d485b73800a7c99aa88fa",
                 "icon_text": "9e63f0f1bed5e67c5a0eb67537c24845 9e63f0f1bed5e67c5a0eb67537c24845",
                 "load_more": "d24f3235eedee5c170c5031dfc03ef04 d24f3235eedee5c170c5031dfc03ef04",
@@ -553,6 +707,8 @@
                 "log_in": "4fd80b158bfd62060ba14d29ab720948 4fd80b158bfd62060ba14d29ab720948",
                 "log_out": "c7dd55c9144231ef0a1ee94add63b660 c7dd55c9144231ef0a1ee94add63b660",
                 "mark_all_as_read": "f496c98d6b3dd39fd477141ccad61e91 f496c98d6b3dd39fd477141ccad61e91",
+                "never": "d8fa0968c4760968cc12482988028ea8 d8fa0968c4760968cc12482988028ea8",
+                "new_token": "2283334cb23103a8f8f893961899c386 2283334cb23103a8f8f893961899c386",
                 "next_page": "4986f43de21983b525e4f06075b823d6 4986f43de21983b525e4f06075b823d6",
                 "notifications": "33017163c5c2f4f4f0f93cb9f00a8bbc 33017163c5c2f4f4f0f93cb9f00a8bbc",
                 "okay": "e0aa021e21dddbd6d8cecec71e9cf564 e0aa021e21dddbd6d8cecec71e9cf564",
@@ -565,6 +721,8 @@
                 "reset_your_password": "66e848ba61edf9e2dab26887c8ce9c0d 66e848ba61edf9e2dab26887c8ce9c0d",
                 "restore": "7265fefd76b8858e1b8ba56005e3964f 7265fefd76b8858e1b8ba56005e3964f",
                 "save_changes": "058ac98b416313d470a7cd44881b44cd 058ac98b416313d470a7cd44881b44cd",
+                "search_users": "defec1fe2b1b5252db44677cd85a4563 defec1fe2b1b5252db44677cd85a4563",
+                "security": "9b6cae8237a35ff3b984607a4dab8770 9b6cae8237a35ff3b984607a4dab8770",
                 "settings": "2ffc45cc5aaddea7d508648bbb0394ac 2ffc45cc5aaddea7d508648bbb0394ac",
                 "sign_up": "a7ba80f22af351368f3e078fcd46b18e a7ba80f22af351368f3e078fcd46b18e",
                 "some_others": "278aff02b44be5b3699d3498fdd5e73e 278aff02b44be5b3699d3498fdd5e73e",
