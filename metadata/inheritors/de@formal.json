@@ -4630,12 +4630,26 @@
         "fof-prevent-necrobumping": {
             "admin": {
                 "settings": {
-                    "days_help": "a4db4120d83888dbb453b6c74de6a0d7 a4db4120d83888dbb453b6c74de6a0d7",
-                    "days_label": "ea511d0f3441763ba2e9c0196342ed23 ea511d0f3441763ba2e9c0196342ed23",
-                    "show_discussion_cta_help": "8736d0569677b7997d7f972fdf725de9 8736d0569677b7997d7f972fdf725de9",
-                    "show_discussion_cta_label": "9d4823a2829ba9863f93a32ce44260d3 9d4823a2829ba9863f93a32ce44260d3",
-                    "tags_help": "14b6651c958e9ae2f15ed9f593da65c2 14b6651c958e9ae2f15ed9f593da65c2",
-                    "tags_title": "fb68224d1488a94ba3000c78c002ae9b fb68224d1488a94ba3000c78c002ae9b"
+                    "days_help": "7d5f516849c9690b356bedb5d3ffb0de d41d8cd98f00b204e9800998ecf8427e",
+                    "days_label": "d01009356c4eb4f9ede3830dabe922f2 d41d8cd98f00b204e9800998ecf8427e",
+                    "general_heading": "02be9999832d9b4f68c22d725bc04789 02be9999832d9b4f68c22d725bc04789",
+                    "show_discussion_cta_help": "2810da70089082ccadf05ad7642b8a07 d41d8cd98f00b204e9800998ecf8427e",
+                    "show_discussion_cta_label": "27421472626020aff7d3b1225aa49bf0 d41d8cd98f00b204e9800998ecf8427e",
+                    "tags_help": "b54b019c1bce091f9c8225210d923791 d41d8cd98f00b204e9800998ecf8427e",
+                    "tags_placeholder": "eb6d8ae6f20283755b339c0dc273988b eb6d8ae6f20283755b339c0dc273988b",
+                    "tags_title": "c3c882fb2b446969f7aecf0b8f519c2e d41d8cd98f00b204e9800998ecf8427e"
+                }
+            },
+            "forum": {
+                "composer": {
+                    "error": "03f6df8ca4bb79b383c8194494c459e8 03f6df8ca4bb79b383c8194494c459e8",
+                    "inactive_discussion_alert": {
+                        "confirmation": "c39086d220532c2435e1afd8614bba39 c39086d220532c2435e1afd8614bba39",
+                        "cta": "c4e7f4a9fc9ee82febbdbb1af6164888 c4e7f4a9fc9ee82febbdbb1af6164888",
+                        "cta_button": "3390e67d6de88601acefc799b0c6648e 3390e67d6de88601acefc799b0c6648e",
+                        "description": "fe3e168ed8bf9a93d4f8578cc677c194 fe3e168ed8bf9a93d4f8578cc677c194",
+                        "title": "018e55fb9292f515c680c4993f49e6f9 018e55fb9292f515c680c4993f49e6f9"
+                    }
                 }
             }
         }
@@ -6862,7 +6876,8 @@
     },
     "validation.json": {
         "validation": {
-            "accepted": "675a91f7c6750b24a3a67020a1af88cb 675a91f7c6750b24a3a67020a1af88cb",
+            "accepted": "60ad6fc6a8ae04839c8e6a6a70848693 d41d8cd98f00b204e9800998ecf8427e",
+            "accepted_if": "b3bbc42bb10b2ccef8274714786c5c94 b3bbc42bb10b2ccef8274714786c5c94",
             "active_url": "a539ddbb58b7f9c8c06503a11e6f0f77 a539ddbb58b7f9c8c06503a11e6f0f77",
             "after": "f92abcd50beb131c8f5d827d2580eea5 f92abcd50beb131c8f5d827d2580eea5",
             "after_or_equal": "fa29ead81be7a489f4a296426a7d3f95 fa29ead81be7a489f4a296426a7d3f95",

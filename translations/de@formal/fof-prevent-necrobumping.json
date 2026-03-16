@@ -3,25 +3,25 @@
         "forum": {
             "composer": {
                 "inactive_discussion_alert": {
-                    "title": "",
-                    "description": "",
-                    "cta": "",
-                    "cta_button": "",
-                    "confirmation": ""
+                    "title": "Die letzte Antwort in dieser Diskussion stammt von {time}.",
+                    "description": "Überlege, ob deine Antwort einen Mehrwert bietet oder ob das Thema bereits geklärt ist.",
+                    "cta": "Eröffne doch eine neue Diskussion, wenn du eine neue Frage oder einen neuen Standpunkt hast.",
+                    "cta_button": "=> core.ref.start_a_discussion",
+                    "confirmation": "Ich weiß, dass diese Diskussion nicht mehr aktiv ist, aber meine Antwort ist relevant."
                 },
-                "error": ""
+                "error": "Diese Diskussion ist zu alt, um darauf zu antworten."
             }
         },
         "admin": {
             "settings": {
-                "general_heading": "",
+                "general_heading": "Allgemeine Einstellungen",
                 "days_label": "",
                 "days_help": "",
                 "show_discussion_cta_label": "",
                 "show_discussion_cta_help": "",
                 "tags_title": "",
                 "tags_help": "",
-                "tags_placeholder": ""
+                "tags_placeholder": "Standard"
             }
         }
     }
