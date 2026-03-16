@@ -505,6 +505,9 @@ return [
 	'ekumanov-inline-audio' => [
 		'tag' => 'https://raw.githubusercontent.com/ekumanov/flarum-ext-inline-audio/v1.0.1/locale/en.yml',
 	],
+	'ekumanov-new-posts-notice' => [
+		'tag' => 'https://raw.githubusercontent.com/ekumanov/flarum-ext-new-posts-notice/v1.0.3/locale/en.yml',
+	],
 	'extiverse-mercury' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/mercury/0.2.0/resources/locale/en.yml',
 	],
