@@ -502,6 +502,12 @@ return [
 	'dem13n-topic-starter-label' => [
 		'tag' => 'https://raw.githubusercontent.com/Dem13n/topic-starter-label/0.1.8/locale/en.yml',
 	],
+	'ekumanov-inline-audio' => [
+		'tag' => 'https://raw.githubusercontent.com/ekumanov/flarum-ext-inline-audio/v1.0.1/locale/en.yml',
+	],
+	'ekumanov-new-posts-notice' => [
+		'tag' => 'https://raw.githubusercontent.com/ekumanov/flarum-ext-new-posts-notice/v1.0.3/locale/en.yml',
+	],
 	'extiverse-mercury' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/mercury/0.2.0/resources/locale/en.yml',
 	],
@@ -602,13 +608,13 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/best-answer/1.7.1/resources/locale/en.yml',
 	],
 	'fof-byobu' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/byobu/1.4.3/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/byobu/1.4.4/resources/locale/en.yml',
 	],
 	'fof-categories' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/categories/1.0.0/resources/locale/en.yml',
 	],
 	'fof-clockwork' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/clockwork/1.0.5/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/clockwork/1.1.0/resources/locale/en.yml',
 	],
 	'fof-cookie-consent' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/cookie-consent/1.1.3/resources/locale/en.yml',
@@ -1555,9 +1561,12 @@ return [
 	],
 	'resofire-blog-cards' => [
 		'tag' => 'https://raw.githubusercontent.com/ResofireV2/blog-cards/v0.4.5/locale/en.yml',
-		'__builtInLanguages' => [
-			'fr',
-		],
+	],
+	'resofire-discussion-participants' => [
+		'tag' => 'https://raw.githubusercontent.com/ResofireV2/discussion-participants/v1.0.3/locale/en.yml',
+	],
+	'resofire-menu-control' => [
+		'tag' => 'https://raw.githubusercontent.com/ResofireV2/menu-control/v1.0.2/resources/locale/en.yml',
 	],
 	'rob006-last-post-avatar' => [
 		'tag' => 'https://raw.githubusercontent.com/rob006-software/flarum-ext-last-post-avatar/1.2.4/locale/en.yml',

@@ -1,0 +1,24 @@
+{
+    "resofire-menu-control": {
+        "admin": {
+            "nav_order": {
+                "title": "Menu Item Order",
+                "description": "Use the arrow buttons to reorder the sidebar navigation items on the forum index page. Changes take effect immediately after saving.",
+                "save_button": "Save Order",
+                "save_success": "Navigation order saved.",
+                "no_items": "No navigation items detected yet. Visit the forum index page as an admin first to populate this list.",
+                "move_up": "Move up",
+                "icon_input_title": "Custom Font Awesome icon class (e.g. fas fa-bolt). Leave empty to use default.",
+                "highlight_color_label": "Highlight color",
+                "highlight_color_help": "Background color for highlighted nav items. Leave empty to use the default theme color.",
+                "add_highlight": "Highlight this item for users",
+                "remove_highlight": "Remove highlight",
+                "move_down": "Move down",
+                "flip_label": "Flip navigation (show tags above menu items)",
+                "flip_help": "When enabled, tag links appear at the top of the sidebar and navigation items (All Discussions, Following, etc.) appear below.",
+                "sticky_label": "Sticky sidebar (sidebar stays visible while scrolling)",
+                "sticky_help": "When enabled, the sidebar including the Start a Discussion button stays fixed at the top of the viewport as you scroll down."
+            }
+        }
+    }
+}

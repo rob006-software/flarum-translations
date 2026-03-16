@@ -2,45 +2,45 @@
     "fof-subscribed": {
         "forum": {
             "settings": {
-                "defaults_label": "",
-                "forced_label": "",
-                "notify_discussion_created_label": "",
-                "notify_post_created_label": "",
-                "notify_post_unapproved_label": "",
-                "notify_user_created_label": "",
-                "notify_post_flagged_label": ""
+                "defaults_label": "Postavka \"{setting}\" omogućena prema zadanim postavkama",
+                "forced_label": "Prisilno omogući \"{setting}\" za sve",
+                "notify_discussion_created_label": "Netko stvori raspravu",
+                "notify_post_created_label": "Netko stvori novu objavu ili odgovor",
+                "notify_post_unapproved_label": "Stvorena objava treba odobrenje",
+                "notify_user_created_label": "Kada se netko registrira",
+                "notify_post_flagged_label": "Netko postavi novu prijavu na objavu"
             },
             "notifications": {
-                "discussion_created_text": "",
-                "post_created_text": "",
-                "post_unapproved_text": "",
-                "user_created_text": "",
-                "post_flagged_text": ""
+                "discussion_created_text": "{username} stvorio novu raspravu",
+                "post_created_text": "{username} napisao novu objavu",
+                "post_unapproved_text": "{username} stvorio objavu koja zahtijeva odobrenje",
+                "user_created_text": "{username} se upravo registrirao",
+                "post_flagged_text": "{username} prijavio objavu"
             }
         },
         "admin": {
             "permission": {
-                "subscribe_to_discussion_created": "",
-                "subscribe_to_post_created": "",
-                "subscribe_to_post_unapproved": "",
-                "subscribe_to_user_created": "",
-                "subscribe_to_post_flagged": ""
+                "subscribe_to_discussion_created": "Dopušteno primanje obavijesti o novoj raspravi",
+                "subscribe_to_post_created": "Dopušteno primanje obavijesti o novoj objavi ili odgovoru",
+                "subscribe_to_post_unapproved": "Dopušteno primanje obavijesti o novoj neodobrenoj objavi",
+                "subscribe_to_user_created": "Dopušteno primanje obavijesti o novom korisniku",
+                "subscribe_to_post_flagged": "Dopušteno primanje obavijesti o novoj prijavi"
             }
         },
         "email": {
             "subject": {
-                "newDiscussion": "",
-                "newUser": "",
-                "postUnapproved": "",
-                "postCreated": "",
-                "postFlagged": ""
+                "newDiscussion": "[Pretplaćen | Nova rasprava] {title}",
+                "newUser": "[Pretplaćen | Novi korisnik] {username}",
+                "postUnapproved": "[Pretplaćen | Neodobreno] {username} objavio u {title}",
+                "postCreated": "[Pretplaćen | Nova objava] {username} napisao novu objavu u {title}",
+                "postFlagged": "[Pretplaćen | Nova prijava] {username} prijavio objavu u {title}"
             },
             "body": {
-                "newDiscussion": "",
-                "newUser": "",
-                "postUnapproved": "",
-                "postCreated": "",
-                "postFlagged": ""
+                "newDiscussion": "Pozdrav {recipient_display_name},\n\n{actor_display_name} pokrenuo novu raspravu: {discussion_title}\n\nZa pregled ove nove rasprave, pogledaj sljedeći link:\n{discussion_url}\n\n---\n\n{post_content}\n",
+                "newUser": "Pozdrav {recipient_display_name},\n\n{actor_display_name} se upravo pridružio {forum_url}.\n\nZa pregled profila ovog novog korisnika, pogledaj sljedeći link:\n{user_url}\n",
+                "postUnapproved": "Pozdrav {recipient_display_name},\n\n{actor_display_name} stvorio objavu koja nije automatski odobrena u {discussion_title}\n\nZa pregled ove nove objave, pogledaj sljedeći link:\n{post_url}\n\n---\n\n{post_content}\n",
+                "postCreated": "Pozdrav {recipient_display_name},\n\n{actor_display_name} upravo stvorio novu objavu u {discussion_title}\n\nZa pregled ove nove objave, pogledaj sljedeći link:\n{post_url}\n\n---\n\n{post_content}\n",
+                "postFlagged": "Pozdrav {recipient_display_name},\n\n{actor_display_name} upravo prijavio objavu u {discussion_title}\n\nZa pregled ove objave, pogledaj sljedeći link:\n{post_url}\n"
             }
         }
     }
