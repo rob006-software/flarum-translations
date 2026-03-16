@@ -310,7 +310,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/imorland/flarum-ext-log-viewer/2.0.0-beta.2/locale/en.yml',
 	],
 	'ianm-twofactor' => [
-		'beta' => 'https://raw.githubusercontent.com/imorland/flarum-ext-twofactor/2.0.0-beta.4/locale/en.yml',
+		'beta' => 'https://raw.githubusercontent.com/imorland/flarum-ext-twofactor/2.0.0-beta.5/locale/en.yml',
 	],
 	'import-ai-webhook-notification' => [
 		'tag' => 'https://raw.githubusercontent.com/import-ai/flarum-webhook-notification/v0.1.5/locale/en.yml',
