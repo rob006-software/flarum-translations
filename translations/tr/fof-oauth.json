@@ -17,12 +17,6 @@
                 "update_email_from_provider_help": "Etkinleştirilirse, kullanıcının e-posta adresi, foruma her girişte OAuth sağlayıcısı tarafından sağlanan adresle eşleşecek şekilde güncellenecektir. Tüm sağlayıcılar güncel e-postayı sağlamaz; bu durumda bu ayarın bu sağlayıcılar üzerinde herhangi bir etkisi olmaz.",
                 "disable_avatars_label": "Sağlayıcıdan avatarları devre dışı bırak",
                 "disable_avatars_help": "Etkinleştirilirse, kullanıcının avatarı kayıt sırasında sağlayıcının avatarıyla eşleşmeyecektir. Bunun yalnızca gelecekteki kayıtları etkilediğini ve mevcut kullanıcıların avatarlarını değiştirmeyeceğini unutmayın.\n",
-                "fullscreen_popup_label": "OAuth için Tam Ekran Açılır Penceresini Kullan",
-                "fullscreen_popup_help": "Etkinleştirildiğinde, OAuth girişi tam ekran bir açılır pencerede açılacaktır. Bu etkinleştirilirse genişlik ve yükseklik ayarları dikkate alınmaz.",
-                "popup_width_label": "OAuth Açılır Pencere Genişliği",
-                "popup_width_help": "OAuth açılır penceresinin genişliğini ayarlayın. \"OAuth için Tam Ekran Açılır Penceresini Kullan\" seçeneği etkinleştirilirse bu ayar göz ardı edilecektir.",
-                "popup_height_label": "OAuth Açılır Pencere Yüksekliği",
-                "popup_height_help": "OAuth açılır penceresinin yüksekliğini ayarlayın. \"OAuth için Tam Ekran Açılır Penceresini Kullan\" seçeneği etkinleştirilirse bu ayar göz ardı edilecektir.",
                 "providers": {
                     "callback_url_text": "Gerekirse, geri arama bağlantısını {url} olarak ayarlayın.",
                     "group_label": "Grup Ataması",
@@ -49,11 +43,6 @@
                         "client_secret_label": "=> fof-oauth.ref.settings.app_secret",
                         "domain_label": "GitLab Etki Alanı"
                     },
-                    "twitter": {
-                        "description": "{link} bağlantısında bir uygulama oluşturun. Bir Hizmet Şartları bağlantısı ve Gizlilik Politikası bağlantısı belirlemeniz gerekecektir. Daha sonra istek e-posta iznini eklediğinizden emin olun.",
-                        "api_key_label": "API Anahtarı",
-                        "api_secret_label": "API Secret"
-                    },
                     "google": {
                         "description": "{link} bağlantısında bir uygulama oluşturun.",
                         "client_id_label": "=> fof-oauth.ref.settings.client_id",
@@ -64,8 +53,19 @@
                         "description": "{link} adresinde bir uygulama oluştur.",
                         "client_id_label": "=> fof-oauth.ref.settings.client_id",
                         "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
+                    },
+                    "twitter": {
+                        "description": "{link} bağlantısında bir uygulama oluşturun. Bir Hizmet Şartları bağlantısı ve Gizlilik Politikası bağlantısı belirlemeniz gerekecektir. Daha sonra istek e-posta iznini eklediğinizden emin olun.",
+                        "api_key_label": "API Anahtarı",
+                        "api_secret_label": "API Secret"
                     }
-                }
+                },
+                "fullscreen_popup_label": "OAuth için Tam Ekran Açılır Penceresini Kullan",
+                "fullscreen_popup_help": "Etkinleştirildiğinde, OAuth girişi tam ekran bir açılır pencerede açılacaktır. Bu etkinleştirilirse genişlik ve yükseklik ayarları dikkate alınmaz.",
+                "popup_width_label": "OAuth Açılır Pencere Genişliği",
+                "popup_width_help": "OAuth açılır penceresinin genişliğini ayarlayın. \"OAuth için Tam Ekran Açılır Penceresini Kullan\" seçeneği etkinleştirilirse bu ayar göz ardı edilecektir.",
+                "popup_height_label": "OAuth Açılır Pencere Yüksekliği",
+                "popup_height_help": "OAuth açılır penceresinin yüksekliğini ayarlayın. \"OAuth için Tam Ekran Açılır Penceresini Kullan\" seçeneği etkinleştirilirse bu ayar göz ardı edilecektir."
             }
         },
         "forum": {
@@ -102,6 +102,11 @@
                 "linkedin": "=> fof-oauth.lib.providers.linkedin",
                 "twitter": "=> fof-oauth.lib.providers.twitter"
             },
+            "account_linked": {
+                "title": "",
+                "body": "",
+                "dismiss_button": ""
+            },
             "signup": {
                 "username_help": "Lütfen buradan bilinecek bir kullanıcı adı seçin"
             },
@@ -118,9 +123,9 @@
                 "facebook": "Facebook",
                 "github": "GitHub",
                 "gitlab": "GitLab",
-                "twitter": "Twitter",
                 "google": "Google",
-                "linkedin": "LinkedIn"
+                "linkedin": "LinkedIn",
+                "twitter": "Twitter"
             },
             "gambits": {
                 "sso": {

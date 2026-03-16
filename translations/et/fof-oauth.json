@@ -17,12 +17,6 @@
                 "update_email_from_provider_help": "Kui see on sisse lülitatud, siis kasutaja e-posti aadress muudetakse e-posti aadressiks OAuth teenusepakkuja juures kasutatava e-posti aadressiga. Kõik teenusepakkujad ei võimalda e-posti aadressi uuendamist. Sellistel juhtudel pole sellel seadel mitte mingit mõju.",
                 "disable_avatars_label": "",
                 "disable_avatars_help": "",
-                "fullscreen_popup_label": "Kasuta täisekraanil OAuth hüpikakent",
-                "fullscreen_popup_help": "Kui see on sisse lülitatud, siis OAuth avaneb täisekraanil. Kui see on sisse lülitatud, siis kõrguse ja laiuse seadeid ignoreeritakse.",
-                "popup_width_label": "OAuth hüpikakna laius",
-                "popup_width_help": "OAuth hüpikakna laius. Kui valik \"Kasuta täisekraanil OAuth hüpikakent\" on sisse lülitatud, siis seda seadet ignoreeritakse.",
-                "popup_height_label": "OAuth hüpikakna kõrgus",
-                "popup_height_help": "OAuth hüpikakna kõrgus. Kui valik \"Kasuta täisekraanil OAuth hüpikakent\" on sisse lülitatud, siis seda seadet ignoreeritakse.",
                 "providers": {
                     "callback_url_text": "Kui vajalik, siis määra \"tagasihelistamise\" URL ({url}).",
                     "group_label": "",
@@ -49,11 +43,6 @@
                         "client_secret_label": "=> fof-oauth.ref.settings.app_secret",
                         "domain_label": "GitLab domeen"
                     },
-                    "twitter": {
-                        "description": "Loo rakendus lingil {link}. Pead sisestama ka lingi teenuse kasutustingimustele ja privaatsuspoliitikale. Seejärel veendu, et lisaksid ka e-posti aadressi küsimise õiguse.",
-                        "api_key_label": "API võti",
-                        "api_secret_label": "API salasõna"
-                    },
                     "google": {
                         "description": "Loo rakendus lingil {link}.",
                         "client_id_label": "=> fof-oauth.ref.settings.client_id",
@@ -64,8 +53,19 @@
                         "description": "Loo rakendus lingil {link}.",
                         "client_id_label": "=> fof-oauth.ref.settings.client_id",
                         "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
+                    },
+                    "twitter": {
+                        "description": "Loo rakendus lingil {link}. Pead sisestama ka lingi teenuse kasutustingimustele ja privaatsuspoliitikale. Seejärel veendu, et lisaksid ka e-posti aadressi küsimise õiguse.",
+                        "api_key_label": "API võti",
+                        "api_secret_label": "API salasõna"
                     }
-                }
+                },
+                "fullscreen_popup_label": "Kasuta täisekraanil OAuth hüpikakent",
+                "fullscreen_popup_help": "Kui see on sisse lülitatud, siis OAuth avaneb täisekraanil. Kui see on sisse lülitatud, siis kõrguse ja laiuse seadeid ignoreeritakse.",
+                "popup_width_label": "OAuth hüpikakna laius",
+                "popup_width_help": "OAuth hüpikakna laius. Kui valik \"Kasuta täisekraanil OAuth hüpikakent\" on sisse lülitatud, siis seda seadet ignoreeritakse.",
+                "popup_height_label": "OAuth hüpikakna kõrgus",
+                "popup_height_help": "OAuth hüpikakna kõrgus. Kui valik \"Kasuta täisekraanil OAuth hüpikakent\" on sisse lülitatud, siis seda seadet ignoreeritakse."
             }
         },
         "forum": {
@@ -102,6 +102,11 @@
                 "linkedin": "=> fof-oauth.lib.providers.linkedin",
                 "twitter": "=> fof-oauth.lib.providers.twitter"
             },
+            "account_linked": {
+                "title": "",
+                "body": "",
+                "dismiss_button": ""
+            },
             "signup": {
                 "username_help": "Palun vali kasutajanimi, mida kasutada siin"
             },
@@ -118,9 +123,9 @@
                 "facebook": "Facebook",
                 "github": "GitHub",
                 "gitlab": "GitLab",
-                "twitter": "Twitter",
                 "google": "Google",
-                "linkedin": "LinkedIn"
+                "linkedin": "LinkedIn",
+                "twitter": "Twitter"
             },
             "gambits": {
                 "sso": {

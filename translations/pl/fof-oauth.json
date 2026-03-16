@@ -17,12 +17,6 @@
                 "update_email_from_provider_help": "Jeśli to ustawienie jest włączone, adres e-mail użytkownika zostanie zaktualizowany przy każdym logowaniu na forum, aby pasował do adresu podanego przez dostawcę OAuth. Nie wszyscy dostawcy udostępniają zaktualizowany adres e-mail - ustawienie nie będzie miało żadnego wpływu na tych dostawców.",
                 "disable_avatars_label": "",
                 "disable_avatars_help": "",
-                "fullscreen_popup_label": "",
-                "fullscreen_popup_help": "",
-                "popup_width_label": "",
-                "popup_width_help": "",
-                "popup_height_label": "",
-                "popup_height_help": "",
                 "providers": {
                     "callback_url_text": "Jeśli to konieczne, ustaw adres zwrotny (callback URL) na {url}.",
                     "group_label": "",
@@ -49,11 +43,6 @@
                         "client_secret_label": "=> fof-oauth.ref.settings.app_secret",
                         "domain_label": "Domena GitLab"
                     },
-                    "twitter": {
-                        "description": "Utwórz aplikację na {link}. Będziesz musiał ustawić URL do Polityki Prywatności oraz Regulaminu Serwisu. Upewnij się, że dodałeś uprawnienia do uzyskiwania adresu e-mail.",
-                        "api_key_label": "API Key",
-                        "api_secret_label": "API Secret"
-                    },
                     "google": {
                         "description": "Utwórz aplikację na {link}.",
                         "client_id_label": "=> fof-oauth.ref.settings.client_id",
@@ -64,6 +53,11 @@
                         "description": "Utwórz aplikację na {link}.",
                         "client_id_label": "=> fof-oauth.ref.settings.client_id",
                         "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
+                    },
+                    "twitter": {
+                        "description": "Utwórz aplikację na {link}. Będziesz musiał ustawić URL do Polityki Prywatności oraz Regulaminu Serwisu. Upewnij się, że dodałeś uprawnienia do uzyskiwania adresu e-mail.",
+                        "api_key_label": "API Key",
+                        "api_secret_label": "API Secret"
                     }
                 }
             }
@@ -102,6 +96,11 @@
                 "linkedin": "=> fof-oauth.lib.providers.linkedin",
                 "twitter": "Twittera"
             },
+            "account_linked": {
+                "title": "",
+                "body": "",
+                "dismiss_button": ""
+            },
             "signup": {
                 "username_help": "Wybierz nazwę użytkownika wykorzystywaną na forum"
             },
@@ -118,9 +117,9 @@
                 "facebook": "Facebook",
                 "github": "GitHub",
                 "gitlab": "GitLab",
-                "twitter": "Twitter",
                 "google": "Google",
-                "linkedin": "LinkedIn"
+                "linkedin": "LinkedIn",
+                "twitter": "Twitter"
             },
             "gambits": {
                 "sso": {

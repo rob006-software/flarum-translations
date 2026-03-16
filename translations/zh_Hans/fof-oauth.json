@@ -17,12 +17,6 @@
                 "update_email_from_provider_help": "启用此项，在用户每次登录论坛时，尝试从 OAuth 提供方获取并更新用户的电子邮箱地址。",
                 "disable_avatars_label": "禁用来自提供商的头像",
                 "disable_avatars_help": "如果启用此选项，用户注册时，其头像将不会自动更新为与提供商的头像一致。请注意，此设置仅影响未来的注册用户，不会更改现有用户的头像。\n",
-                "fullscreen_popup_label": "使用全屏弹出窗口进行 OAuth 认证",
-                "fullscreen_popup_help": "启用此项，忽略宽高设置，打开一个新的全屏弹出窗口进行 OAuth。",
-                "popup_width_label": "OAuth 弹窗宽度",
-                "popup_width_help": "设置 OAuth 弹窗的宽度，此设置对「全屏弹出窗口」无效。",
-                "popup_height_label": "OAuth 弹窗高度",
-                "popup_height_help": "设置 OAuth 弹窗的高度，此设置对「全屏弹出窗口」无效。",
                 "providers": {
                     "callback_url_text": "根据需要可将回调 URL 设为 {url}。",
                     "group_label": "分配组",
@@ -49,11 +43,6 @@
                         "client_secret_label": "=> fof-oauth.ref.settings.app_secret",
                         "domain_label": "GitLab 域名"
                     },
-                    "twitter": {
-                        "description": "在 {link} 创建一个应用。您需要提供服务协议和隐私政策 URL，然后确保添加请求邮件权限。",
-                        "api_key_label": "API Key",
-                        "api_secret_label": "API Secret"
-                    },
                     "google": {
                         "description": "前往此处创建应用：{link}",
                         "client_id_label": "=> fof-oauth.ref.settings.client_id",
@@ -64,8 +53,19 @@
                         "description": "前往 {link} 创建应用。",
                         "client_id_label": "=> fof-oauth.ref.settings.client_id",
                         "client_secret_label": "Client Secret"
+                    },
+                    "twitter": {
+                        "description": "在 {link} 创建一个应用。您需要提供服务协议和隐私政策 URL，然后确保添加请求邮件权限。",
+                        "api_key_label": "API Key",
+                        "api_secret_label": "API Secret"
                     }
-                }
+                },
+                "fullscreen_popup_label": "使用全屏弹出窗口进行 OAuth 认证",
+                "fullscreen_popup_help": "启用此项，忽略宽高设置，打开一个新的全屏弹出窗口进行 OAuth。",
+                "popup_width_label": "OAuth 弹窗宽度",
+                "popup_width_help": "设置 OAuth 弹窗的宽度，此设置对「全屏弹出窗口」无效。",
+                "popup_height_label": "OAuth 弹窗高度",
+                "popup_height_help": "设置 OAuth 弹窗的高度，此设置对「全屏弹出窗口」无效。"
             }
         },
         "forum": {
@@ -102,6 +102,11 @@
                 "linkedin": "=> fof-oauth.lib.providers.linkedin",
                 "twitter": "=> fof-oauth.lib.providers.twitter"
             },
+            "account_linked": {
+                "title": "",
+                "body": "",
+                "dismiss_button": ""
+            },
             "signup": {
                 "username_help": "请选择用户名"
             },
@@ -118,9 +123,9 @@
                 "facebook": "Facebook",
                 "github": "GitHub",
                 "gitlab": "GitLab",
-                "twitter": "Twitter",
                 "google": "Google",
-                "linkedin": "领英"
+                "linkedin": "领英",
+                "twitter": "Twitter"
             },
             "gambits": {
                 "sso": {

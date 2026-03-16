@@ -17,12 +17,6 @@
                 "update_email_from_provider_help": "Ak je táto možnosť povolená, e-mailová adresa používateľa sa pri každom prihlásení do fóra aktualizuje tak, aby zodpovedala adrese poskytnutej poskytovateľom OAuth. Nie všetci poskytovatelia poskytujú aktualizovaný e-mail, v takom prípade toto nastavenie nebude mať u týchto poskytovateľov žiadny účinok.",
                 "disable_avatars_label": "",
                 "disable_avatars_help": "",
-                "fullscreen_popup_label": "",
-                "fullscreen_popup_help": "",
-                "popup_width_label": "",
-                "popup_width_help": "",
-                "popup_height_label": "",
-                "popup_height_help": "",
                 "providers": {
                     "callback_url_text": "V prípade potreby nastavte URL presmerovania na {url}.",
                     "group_label": "",
@@ -49,11 +43,6 @@
                         "client_secret_label": "=> fof-oauth.ref.settings.app_secret",
                         "domain_label": "GitLab doména"
                     },
-                    "twitter": {
-                        "description": "Vytvorte si aplikáciu na adrese {link}. Budete musieť nastaviť URL adresu Podmienok služby a URL adresu Zásad ochrany osobných údajov. Nezabudnite potom pridať povolenie na vyžiadanie e-mailu.",
-                        "api_key_label": "API Kľúč",
-                        "api_secret_label": "API Tajný kľúč (Secret)"
-                    },
                     "google": {
                         "description": "Vytvorte aplikáciu na adrese {link}.",
                         "client_id_label": "=> fof-oauth.ref.settings.client_id",
@@ -64,6 +53,11 @@
                         "description": "Vytvorte aplikáciu na adrese {link}.",
                         "client_id_label": "=> fof-oauth.ref.settings.client_id",
                         "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
+                    },
+                    "twitter": {
+                        "description": "Vytvorte si aplikáciu na adrese {link}. Budete musieť nastaviť URL adresu Podmienok služby a URL adresu Zásad ochrany osobných údajov. Nezabudnite potom pridať povolenie na vyžiadanie e-mailu.",
+                        "api_key_label": "API Kľúč",
+                        "api_secret_label": "API Tajný kľúč (Secret)"
                     }
                 }
             }
@@ -102,6 +96,11 @@
                 "linkedin": "=> fof-oauth.lib.providers.linkedin",
                 "twitter": "=> fof-oauth.lib.providers.twitter"
             },
+            "account_linked": {
+                "title": "",
+                "body": "",
+                "dismiss_button": ""
+            },
             "signup": {
                 "username_help": "Vyber si prezývku ktorou tu chceš byť volaný"
             },
@@ -118,9 +117,9 @@
                 "facebook": "Facebook",
                 "github": "GitHub",
                 "gitlab": "GitLab",
-                "twitter": "Twitter",
                 "google": "Google",
-                "linkedin": "LinkedIn"
+                "linkedin": "LinkedIn",
+                "twitter": "Twitter"
             },
             "gambits": {
                 "sso": {

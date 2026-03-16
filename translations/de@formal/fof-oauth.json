@@ -17,12 +17,6 @@
                 "update_email_from_provider_help": "Wenn diese Option aktiviert ist, wird die E-Mail-Adresse des Nutzers bei jeder Anmeldung im Forum aktualisiert, damit sie mit der vom OAuth-Anbieter angegebenen Adresse übereinstimmt. Nicht alle Anbieter stellen die aktualisierte E-Mail-Adresse zur Verfügung. In diesem Fall hat diese Einstellung bei diesen Anbietern keine Auswirkungen.",
                 "disable_avatars_label": "Avatare dieses Anbieters deaktivieren",
                 "disable_avatars_help": "Sofern aktiviert, werden Nutzer-Avatare bei der Anmeldung nicht mit den Avataren dieses Anbieter aktualisiert. Dies betrifft nur zukünftige Anmeldungen und wird nicht die Avatare von vorhandenen Nutzern ändern.\n",
-                "fullscreen_popup_label": "OAuth-Popup im Vollbild öffnen",
-                "fullscreen_popup_help": "Sofern aktiviert, wird das OAuth-Anmeldefenster im Vollbild geöffnet. Wenn es aktiviert ist, werden die Einstellungen für Breite und Höhe ignoriert.",
-                "popup_width_label": "Breite des OAuth-Popupfensters",
-                "popup_width_help": "Legt die Breite des OAuth-Popupfensters fest. Diese Einstellung wird ignoriert, wenn \"OAuth-Popup im Vollbild öffnen\" aktiviert ist.",
-                "popup_height_label": "Höhe des OAuth-Popupfensters",
-                "popup_height_help": "Legt die Höhe des OAuth-Popupfensters fest. Diese Einstellung wird ignoriert, wenn \"OAuth-Popup im Vollbild öffnen\" aktiviert ist.",
                 "providers": {
                     "callback_url_text": "Wenn nötig, setze die Rückruf-URL (callback) zu {url}.",
                     "group_label": "Gruppe zuweisen",
@@ -49,11 +43,6 @@
                         "client_secret_label": "=> fof-oauth.ref.settings.app_secret",
                         "domain_label": "GitLab-Domain"
                     },
-                    "twitter": {
-                        "description": "Erstelle eine Applikation unter {link}. Du musst eine Nutzungsbedingungen-, sowie eine Datenschutzrichtlinien-URL festlegen. Weise dann die \"E-Mail anfordern\" Berechtigung deiner Applikation zu.",
-                        "api_key_label": "API-Schlüssel",
-                        "api_secret_label": "API-Secret"
-                    },
                     "google": {
                         "description": "Erstelle eine Applikation unter {link}.",
                         "client_id_label": "=> fof-oauth.ref.settings.client_id",
@@ -64,8 +53,19 @@
                         "description": "Erstelle eine Applikation unter {link}.",
                         "client_id_label": "=> fof-oauth.ref.settings.client_id",
                         "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
+                    },
+                    "twitter": {
+                        "description": "Erstelle eine Applikation unter {link}. Du musst eine Nutzungsbedingungen-, sowie eine Datenschutzrichtlinien-URL festlegen. Weise dann die \"E-Mail anfordern\" Berechtigung deiner Applikation zu.",
+                        "api_key_label": "API-Schlüssel",
+                        "api_secret_label": "API-Secret"
                     }
-                }
+                },
+                "fullscreen_popup_label": "OAuth-Popup im Vollbild öffnen",
+                "fullscreen_popup_help": "Sofern aktiviert, wird das OAuth-Anmeldefenster im Vollbild geöffnet. Wenn es aktiviert ist, werden die Einstellungen für Breite und Höhe ignoriert.",
+                "popup_width_label": "Breite des OAuth-Popupfensters",
+                "popup_width_help": "Legt die Breite des OAuth-Popupfensters fest. Diese Einstellung wird ignoriert, wenn \"OAuth-Popup im Vollbild öffnen\" aktiviert ist.",
+                "popup_height_label": "Höhe des OAuth-Popupfensters",
+                "popup_height_help": "Legt die Höhe des OAuth-Popupfensters fest. Diese Einstellung wird ignoriert, wenn \"OAuth-Popup im Vollbild öffnen\" aktiviert ist."
             }
         },
         "forum": {
@@ -102,6 +102,11 @@
                 "linkedin": "=> fof-oauth.lib.providers.linkedin",
                 "twitter": "=> fof-oauth.lib.providers.twitter"
             },
+            "account_linked": {
+                "title": "",
+                "body": "",
+                "dismiss_button": ""
+            },
             "signup": {
                 "username_help": "Bitte wähle hier einen Benutzernamen, der bekannt sein soll"
             },
@@ -118,9 +123,9 @@
                 "facebook": "Facebook",
                 "github": "GitHub",
                 "gitlab": "GitLab",
-                "twitter": "Twitter",
                 "google": "Google",
-                "linkedin": "LinkedIn"
+                "linkedin": "LinkedIn",
+                "twitter": "Twitter"
             },
             "gambits": {
                 "sso": {

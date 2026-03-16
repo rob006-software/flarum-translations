@@ -17,12 +17,6 @@
                 "update_email_from_provider_help": "Nếu được kích hoạt, địa chỉ email của người dùng sẽ được cập nhật để khớp với địa chỉ được cung cấp bởi nhà cung cấp OAuth mỗi khi đăng nhập vào diễn đàn. Tuy nhiên, không phải tất cả các nhà cung cấp đều cung cấp địa chỉ email đã cập nhật, trong trường hợp này, cài đặt này sẽ không có tác dụng với những nhà cung cấp đó.",
                 "disable_avatars_label": "Vô hiệu hóa avatar từ nhà cung cấp",
                 "disable_avatars_help": "Nếu được bật, ảnh đại diện của người dùng sẽ không được cập nhật để khớp với ảnh đại diện của nhà cung cấp khi đăng ký. Lưu ý rằng tính năng này chỉ ảnh hưởng đến các lần đăng ký sau này và sẽ không thay đổi ảnh đại diện của người dùng hiện tại.\n",
-                "fullscreen_popup_label": "Sử dụng cửa sổ popup toàn màn hình cho OAuth",
-                "fullscreen_popup_help": "Khi được kích hoạt, đăng nhập OAuth sẽ mở trong một cửa sổ popup toàn màn hình. Nếu điều này được kích hoạt, các thiết lập chiều rộng và chiều cao sẽ bị bỏ qua.",
-                "popup_width_label": "Chiều rộng của cửa sổ popup OAuth",
-                "popup_width_help": "Đặt chiều rộng của cửa sổ popup OAuth. Cài đặt này sẽ bị bỏ qua nếu \"Sử dụng cửa sổ popup toàn màn hình cho OAuth\" được kích hoạt.",
-                "popup_height_label": "Chiều cao của cửa sổ popup OAuth",
-                "popup_height_help": "Đặt chiều cao của cửa sổ popup OAuth. Cài đặt này sẽ bị bỏ qua nếu \"Sử dụng cửa sổ popup toàn màn hình cho OAuth\" được kích hoạt.",
                 "providers": {
                     "callback_url_text": "Nếu cần, hãy đặt URL callback thành {url}.",
                     "group_label": "Gán nhóm",
@@ -49,11 +43,6 @@
                         "client_secret_label": "=> fof-oauth.ref.settings.app_secret",
                         "domain_label": "Miền GitLab"
                     },
-                    "twitter": {
-                        "description": "Tạo ứng dụng tại {link}. Bạn sẽ cần đặt URL Điều khoản dịch vụ và URL Chính sách quyền riêng tư. Đảm bảo sau đó thêm quyền yêu cầu email.",
-                        "api_key_label": "Mã khoá API",
-                        "api_secret_label": "Mã bí mật API"
-                    },
                     "google": {
                         "description": "Tạo ứng dụng tại {link}.",
                         "client_id_label": "=> fof-oauth.ref.settings.client_id",
@@ -64,8 +53,19 @@
                         "description": "Tạo ứng dụng tại {link}.",
                         "client_id_label": "=> fof-oauth.ref.settings.client_id",
                         "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
+                    },
+                    "twitter": {
+                        "description": "Tạo ứng dụng tại {link}. Bạn sẽ cần đặt URL Điều khoản dịch vụ và URL Chính sách quyền riêng tư. Đảm bảo sau đó thêm quyền yêu cầu email.",
+                        "api_key_label": "Mã khoá API",
+                        "api_secret_label": "Mã bí mật API"
                     }
-                }
+                },
+                "fullscreen_popup_label": "Sử dụng cửa sổ popup toàn màn hình cho OAuth",
+                "fullscreen_popup_help": "Khi được kích hoạt, đăng nhập OAuth sẽ mở trong một cửa sổ popup toàn màn hình. Nếu điều này được kích hoạt, các thiết lập chiều rộng và chiều cao sẽ bị bỏ qua.",
+                "popup_width_label": "Chiều rộng của cửa sổ popup OAuth",
+                "popup_width_help": "Đặt chiều rộng của cửa sổ popup OAuth. Cài đặt này sẽ bị bỏ qua nếu \"Sử dụng cửa sổ popup toàn màn hình cho OAuth\" được kích hoạt.",
+                "popup_height_label": "Chiều cao của cửa sổ popup OAuth",
+                "popup_height_help": "Đặt chiều cao của cửa sổ popup OAuth. Cài đặt này sẽ bị bỏ qua nếu \"Sử dụng cửa sổ popup toàn màn hình cho OAuth\" được kích hoạt."
             }
         },
         "forum": {
@@ -102,6 +102,11 @@
                 "linkedin": "=> fof-oauth.lib.providers.linkedin",
                 "twitter": "=> fof-oauth.lib.providers.twitter"
             },
+            "account_linked": {
+                "title": "",
+                "body": "",
+                "dismiss_button": ""
+            },
             "signup": {
                 "username_help": "Vui lòng chọn một tên người dùng tại đây"
             },
@@ -118,9 +123,9 @@
                 "facebook": "Facebook",
                 "github": "GitHub",
                 "gitlab": "GitLab",
-                "twitter": "Twitter",
                 "google": "Google",
-                "linkedin": "LinkedIn"
+                "linkedin": "LinkedIn",
+                "twitter": "Twitter"
             },
             "gambits": {
                 "sso": {

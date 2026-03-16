@@ -17,12 +17,6 @@
                 "update_email_from_provider_help": "",
                 "disable_avatars_label": "",
                 "disable_avatars_help": "",
-                "fullscreen_popup_label": "",
-                "fullscreen_popup_help": "",
-                "popup_width_label": "",
-                "popup_width_help": "",
-                "popup_height_label": "",
-                "popup_height_help": "",
                 "providers": {
                     "callback_url_text": "If necessary, set the callback URL to {url}.",
                     "group_label": "",
@@ -49,11 +43,6 @@
                         "client_secret_label": "=> fof-oauth.ref.settings.app_secret",
                         "domain_label": "GitLab Domain"
                     },
-                    "twitter": {
-                        "description": "Create an app at {link}. You will need to set a Terms of Service URL and a Privacy Policy URL. Make sure to then add the request email permission.",
-                        "api_key_label": "API Key",
-                        "api_secret_label": "API Secret"
-                    },
                     "google": {
                         "description": "Create an application at {link}.",
                         "client_id_label": "=> fof-oauth.ref.settings.client_id",
@@ -64,6 +53,11 @@
                         "description": "Create an application at {link}.",
                         "client_id_label": "=> fof-oauth.ref.settings.client_id",
                         "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
+                    },
+                    "twitter": {
+                        "description": "Create an app at {link}. You will need to set a Terms of Service URL and a Privacy Policy URL. Make sure to then add the request email permission.",
+                        "api_key_label": "API Key",
+                        "api_secret_label": "API Secret"
                     }
                 }
             }
@@ -76,8 +70,7 @@
                 "with_github_button": "",
                 "with_gitlab_button": "",
                 "with_google_button": "",
-                "with_linkedin_button": "",
-                "with_twitter_button": ""
+                "with_linkedin_button": ""
             },
             "user": {
                 "settings": {
@@ -99,8 +92,12 @@
                 "github": "",
                 "gitlab": "",
                 "google": "",
-                "linkedin": "",
-                "twitter": ""
+                "linkedin": ""
+            },
+            "account_linked": {
+                "title": "",
+                "body": "",
+                "dismiss_button": ""
             },
             "signup": {
                 "username_help": ""
@@ -118,9 +115,9 @@
                 "facebook": "Facebook",
                 "github": "GitHub",
                 "gitlab": "GitLab",
-                "twitter": "Twitter",
                 "google": "Google",
-                "linkedin": "LinkedIn"
+                "linkedin": "LinkedIn",
+                "twitter": "Twitter"
             },
             "gambits": {
                 "sso": {

@@ -17,12 +17,6 @@
                 "update_email_from_provider_help": "Адрес email пользователя будет обновляться в соответствии с адресом, предоставленным провайдером OAuth при каждом входе на форум. Не все провайдеры предоставляют обновлённый адрес email и, в этом случае, этот параметр не будет иметь никакого влияния на подобных провайдеров.",
                 "disable_avatars_label": "",
                 "disable_avatars_help": "",
-                "fullscreen_popup_label": "Полноэкранное окно для OAuth",
-                "fullscreen_popup_help": "Вход OAuth откроется в полноэкранном режиме. При включении этого параметра, настройки ширины и высоты будут игнорироваться.",
-                "popup_width_label": "Ширина окна OAuth",
-                "popup_width_help": "Укажите ширину всплывающего окна OAuth. Этот параметр будет игнорироваться, если включено \"Полноэкранное окно для OAuth\".",
-                "popup_height_label": "Высота окна OAuth",
-                "popup_height_help": "Укажите высоту всплывающего окна OAuth. Этот параметр будет игнорироваться, если включено \"Полноэкранное окно для OAuth\".",
                 "providers": {
                     "callback_url_text": "При необходимости, укажите callback URL в {url}.",
                     "group_label": "",
@@ -49,11 +43,6 @@
                         "client_secret_label": "=> fof-oauth.ref.settings.app_secret",
                         "domain_label": "Домен GitLab"
                     },
-                    "twitter": {
-                        "description": "Создайте приложение по ссылке {link}. Вы должны указать ссылку на Terms of Service и ссылку на Privacy Policy. Не забудьте дать разрешение на чтение e-mail пользователя.",
-                        "api_key_label": "Ключ API",
-                        "api_secret_label": "Секретный ключ API"
-                    },
                     "google": {
                         "description": "Создайте приложение по ссылке {link}.",
                         "client_id_label": "=> fof-oauth.ref.settings.client_id",
@@ -64,8 +53,19 @@
                         "description": "Создайте приложение по ссылке {link}.",
                         "client_id_label": "=> fof-oauth.ref.settings.client_id",
                         "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
+                    },
+                    "twitter": {
+                        "description": "Создайте приложение по ссылке {link}. Вы должны указать ссылку на Terms of Service и ссылку на Privacy Policy. Не забудьте дать разрешение на чтение e-mail пользователя.",
+                        "api_key_label": "Ключ API",
+                        "api_secret_label": "Секретный ключ API"
                     }
-                }
+                },
+                "fullscreen_popup_label": "Полноэкранное окно для OAuth",
+                "fullscreen_popup_help": "Вход OAuth откроется в полноэкранном режиме. При включении этого параметра, настройки ширины и высоты будут игнорироваться.",
+                "popup_width_label": "Ширина окна OAuth",
+                "popup_width_help": "Укажите ширину всплывающего окна OAuth. Этот параметр будет игнорироваться, если включено \"Полноэкранное окно для OAuth\".",
+                "popup_height_label": "Высота окна OAuth",
+                "popup_height_help": "Укажите высоту всплывающего окна OAuth. Этот параметр будет игнорироваться, если включено \"Полноэкранное окно для OAuth\"."
             }
         },
         "forum": {
@@ -102,6 +102,11 @@
                 "linkedin": "=> fof-oauth.lib.providers.linkedin",
                 "twitter": "=> fof-oauth.lib.providers.twitter"
             },
+            "account_linked": {
+                "title": "",
+                "body": "",
+                "dismiss_button": ""
+            },
             "signup": {
                 "username_help": "Пожалуйста, выберите имя пользователя для регистрации"
             },
@@ -118,9 +123,9 @@
                 "facebook": "Facebook",
                 "github": "GitHub",
                 "gitlab": "GitLab",
-                "twitter": "Twitter",
                 "google": "Google",
-                "linkedin": "LinkedIn"
+                "linkedin": "LinkedIn",
+                "twitter": "Twitter"
             },
             "gambits": {
                 "sso": {

@@ -17,12 +17,6 @@
                 "update_email_from_provider_help": "",
                 "disable_avatars_label": "",
                 "disable_avatars_help": "",
-                "fullscreen_popup_label": "",
-                "fullscreen_popup_help": "",
-                "popup_width_label": "",
-                "popup_width_help": "",
-                "popup_height_label": "",
-                "popup_height_help": "",
                 "providers": {
                     "callback_url_text": "Agar kerak bo'lsa, callback URL manzilini {url} qilib o'rnating.",
                     "group_label": "",
@@ -49,11 +43,6 @@
                         "client_secret_label": "=> fof-oauth.ref.settings.app_secret",
                         "domain_label": "GitLab domeni"
                     },
-                    "twitter": {
-                        "description": "{link} orqali ilova yarating. Xizmat shartlari URL manzili va Maxfiylik siyosati URL manzilini o'rnatishingiz kerak bo'ladi. Keyin so'rov elektron pochta ruxsatini qo'shganingizga ishonch hosil qiling.",
-                        "api_key_label": "API kaliti",
-                        "api_secret_label": "API yashirin kaliti"
-                    },
                     "google": {
                         "description": "Ilova yarating: {link}.",
                         "client_id_label": "=> fof-oauth.ref.settings.client_id",
@@ -64,6 +53,11 @@
                         "description": "Ilova yarating: {link}.",
                         "client_id_label": "=> fof-oauth.ref.settings.client_id",
                         "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
+                    },
+                    "twitter": {
+                        "description": "{link} orqali ilova yarating. Xizmat shartlari URL manzili va Maxfiylik siyosati URL manzilini o'rnatishingiz kerak bo'ladi. Keyin so'rov elektron pochta ruxsatini qo'shganingizga ishonch hosil qiling.",
+                        "api_key_label": "API kaliti",
+                        "api_secret_label": "API yashirin kaliti"
                     }
                 }
             }
@@ -102,6 +96,11 @@
                 "linkedin": "=> fof-oauth.lib.providers.linkedin",
                 "twitter": "=> fof-oauth.lib.providers.twitter"
             },
+            "account_linked": {
+                "title": "",
+                "body": "",
+                "dismiss_button": ""
+            },
             "signup": {
                 "username_help": "Iltimos, bu yerda tanish bo'lish uchun foydalanuvchi nomini tanlang"
             },
@@ -118,9 +117,9 @@
                 "facebook": "Facebook",
                 "github": "GitHub",
                 "gitlab": "GitLab",
-                "twitter": "Twitter",
                 "google": "Google",
-                "linkedin": "LinkedIn"
+                "linkedin": "LinkedIn",
+                "twitter": "Twitter"
             },
             "gambits": {
                 "sso": {

@@ -17,12 +17,6 @@
                 "update_email_from_provider_help": "Se abilitata, l'indirizzo email dell'utente verrà aggiornato per corrispondere a quello fornito dal provider OAuth a ogni accesso al forum. Non tutti i provider forniscono l'email aggiornata, nel qual caso questa impostazione non avrà alcun effetto con tali provider.",
                 "disable_avatars_label": "",
                 "disable_avatars_help": "",
-                "fullscreen_popup_label": "Usa finestra a schermo intero per OAuth",
-                "fullscreen_popup_help": "Se abilitata, il login OAuth si aprirà in una finestra a schermo intero e le impostazioni di larghezza e altezza verranno ignorate.",
-                "popup_width_label": "Larghezza finestra OAuth",
-                "popup_width_help": "Imposta la larghezza della finestra OAuth. Questa impostazione verrà ignorata se \"Usa finestra a schermo intero per OAuth\" è abilitata.",
-                "popup_height_label": "Altezza finestra OAuth",
-                "popup_height_help": "Imposta l'altezza della finestra OAuth. Questa impostazione verrà ignorata se \"Usa finestra a schermo intero per OAuth\" è abilitata.",
                 "providers": {
                     "callback_url_text": "Se necessario, imposta il callback su {url}.",
                     "group_label": "",
@@ -49,11 +43,6 @@
                         "client_secret_label": "=> fof-oauth.ref.settings.app_secret",
                         "domain_label": "Dominio GitLab"
                     },
-                    "twitter": {
-                        "description": "Crea un app all'indirizzo {link}. Dovrai impostare un URL per i Termini di Servizio e Informativa sulla Privacy. Assicurati di farlo poi aggiungi il permesso per richiedere le email.",
-                        "api_key_label": "Chiave API",
-                        "api_secret_label": "Codice segreto API"
-                    },
                     "google": {
                         "description": "Crea un app all'indirizzo {link}.",
                         "client_id_label": "=> fof-oauth.ref.settings.client_id",
@@ -64,8 +53,19 @@
                         "description": "Crea link applicazione a {link}.",
                         "client_id_label": "=> fof-oauth.ref.settings.client_id",
                         "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
+                    },
+                    "twitter": {
+                        "description": "Crea un app all'indirizzo {link}. Dovrai impostare un URL per i Termini di Servizio e Informativa sulla Privacy. Assicurati di farlo poi aggiungi il permesso per richiedere le email.",
+                        "api_key_label": "Chiave API",
+                        "api_secret_label": "Codice segreto API"
                     }
-                }
+                },
+                "fullscreen_popup_label": "Usa finestra a schermo intero per OAuth",
+                "fullscreen_popup_help": "Se abilitata, il login OAuth si aprirà in una finestra a schermo intero e le impostazioni di larghezza e altezza verranno ignorate.",
+                "popup_width_label": "Larghezza finestra OAuth",
+                "popup_width_help": "Imposta la larghezza della finestra OAuth. Questa impostazione verrà ignorata se \"Usa finestra a schermo intero per OAuth\" è abilitata.",
+                "popup_height_label": "Altezza finestra OAuth",
+                "popup_height_help": "Imposta l'altezza della finestra OAuth. Questa impostazione verrà ignorata se \"Usa finestra a schermo intero per OAuth\" è abilitata."
             }
         },
         "forum": {
@@ -102,6 +102,11 @@
                 "linkedin": "=> fof-oauth.lib.providers.linkedin",
                 "twitter": "=> fof-oauth.lib.providers.twitter"
             },
+            "account_linked": {
+                "title": "",
+                "body": "",
+                "dismiss_button": ""
+            },
             "signup": {
                 "username_help": "Per favore scegli un nome utente"
             },
@@ -118,9 +123,9 @@
                 "facebook": "Facebook",
                 "github": "GitHub",
                 "gitlab": "GitLab",
-                "twitter": "Twitter",
                 "google": "Google",
-                "linkedin": "LinkedIn"
+                "linkedin": "LinkedIn",
+                "twitter": "Twitter"
             },
             "gambits": {
                 "sso": {

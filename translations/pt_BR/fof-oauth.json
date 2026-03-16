@@ -17,12 +17,6 @@
                 "update_email_from_provider_help": "",
                 "disable_avatars_label": "",
                 "disable_avatars_help": "",
-                "fullscreen_popup_label": "",
-                "fullscreen_popup_help": "",
-                "popup_width_label": "",
-                "popup_width_help": "",
-                "popup_height_label": "",
-                "popup_height_help": "",
                 "providers": {
                     "callback_url_text": "Se necessário, defina o URL de retorno de chamada como {url}.",
                     "group_label": "",
@@ -49,11 +43,6 @@
                         "client_secret_label": "=> fof-oauth.ref.settings.app_secret",
                         "domain_label": "Domínio GitLab"
                     },
-                    "twitter": {
-                        "description": "Crie um aplicativo em {link}. Você precisará definir um URL de Termos de Serviço e um URL de Política de Privacidade. Certifique-se de adicionar a permissão de e-mail de solicitação.",
-                        "api_key_label": "Chave API",
-                        "api_secret_label": "Segredo da API"
-                    },
                     "google": {
                         "description": "Criar uma aplicação em {link}.",
                         "client_id_label": "=> fof-oauth.ref.settings.client_id",
@@ -64,6 +53,11 @@
                         "description": "Criar uma aplicação em {link}.",
                         "client_id_label": "=> fof-oauth.ref.settings.client_id",
                         "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
+                    },
+                    "twitter": {
+                        "description": "Crie um aplicativo em {link}. Você precisará definir um URL de Termos de Serviço e um URL de Política de Privacidade. Certifique-se de adicionar a permissão de e-mail de solicitação.",
+                        "api_key_label": "Chave API",
+                        "api_secret_label": "Segredo da API"
                     }
                 }
             }
@@ -102,6 +96,11 @@
                 "linkedin": "=> fof-oauth.lib.providers.linkedin",
                 "twitter": "=> fof-oauth.lib.providers.twitter"
             },
+            "account_linked": {
+                "title": "",
+                "body": "",
+                "dismiss_button": ""
+            },
             "signup": {
                 "username_help": "Escolha um nome de usuário para ser conhecido aqui"
             },
@@ -118,9 +117,9 @@
                 "facebook": "Facebook",
                 "github": "GitHub",
                 "gitlab": "GitLab",
-                "twitter": "Twitter",
                 "google": "Google",
-                "linkedin": "LinkedIn"
+                "linkedin": "LinkedIn",
+                "twitter": "Twitter"
             },
             "gambits": {
                 "sso": {

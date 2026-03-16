@@ -17,12 +17,6 @@
                 "update_email_from_provider_help": "",
                 "disable_avatars_label": "",
                 "disable_avatars_help": "",
-                "fullscreen_popup_label": "",
-                "fullscreen_popup_help": "",
-                "popup_width_label": "",
-                "popup_width_help": "",
-                "popup_height_label": "",
-                "popup_height_help": "",
                 "providers": {
                     "callback_url_text": "",
                     "group_label": "",
@@ -48,11 +42,6 @@
                         "client_id_label": "=> fof-oauth.ref.settings.app_id",
                         "client_secret_label": "=> fof-oauth.ref.settings.app_secret",
                         "domain_label": ""
-                    },
-                    "twitter": {
-                        "description": "",
-                        "api_key_label": "",
-                        "api_secret_label": ""
                     },
                     "google": {
                         "description": "",
@@ -102,6 +91,11 @@
                 "linkedin": "=> fof-oauth.lib.providers.linkedin",
                 "twitter": "=> fof-oauth.lib.providers.twitter"
             },
+            "account_linked": {
+                "title": "",
+                "body": "",
+                "dismiss_button": ""
+            },
             "signup": {
                 "username_help": ""
             },
@@ -118,7 +112,6 @@
                 "facebook": "",
                 "github": "",
                 "gitlab": "",
-                "twitter": "",
                 "google": "",
                 "linkedin": ""
             },
