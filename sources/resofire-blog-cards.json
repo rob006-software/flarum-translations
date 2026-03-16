@@ -1,0 +1,33 @@
+{
+    "resofire_blog_cards": {
+        "forum": {
+            "replies": "Replies: {count}",
+            "unreadReplies": "Unread replies: {count}",
+            "show_all_participants": "Show all participants",
+            "more_participants": "{count}+",
+            "modal_title": "{count} Participants",
+            "load_more": "Load more"
+        },
+        "admin": {
+            "settings": {
+                "onIndexPage_label": "Use on Discussion List",
+                "onIndexPage_help": "If enabled, the discussion list page will display cards.",
+                "tagIds_label": "Restrict to Tags",
+                "tagIds_help": "Select tags to show cards on. If none are selected, cards appear on all tag pages.",
+                "fullWidth_label": "Full Width Cards",
+                "fullWidth_help": "If enabled, each card will span the full width instead of two per row."
+            },
+            "tools_heading": "Tools",
+            "recalculate_help": "Recalculates participant avatars for all discussions. Run this after first installing the extension on an existing forum, or any time you suspect the preview data is out of sync.",
+            "recalculate_button": "Recalculate Participants",
+            "recalculating_button": "Recalculating…",
+            "recalculate_success": "Done. Recalculated {count} discussions in {duration}s.",
+            "recalculate_error": "An error occurred. Please try again or use the CLI command.",
+            "recalculate_modal_title": "Recalculating Participants",
+            "recalculate_modal_warning": "Do not close this window or navigate away until the process is complete.",
+            "recalculate_modal_progress": "{processed} of {total} discussions",
+            "recalculate_modal_complete": "Complete! {total} discussions recalculated.",
+            "recalculate_modal_close": "Close"
+        }
+    }
+}
