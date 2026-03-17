@@ -4,7 +4,7 @@
             "title": "Auszeichnungs-Verwaltung",
             "nav": {
                 "title": "Auszeichnungen",
-                "description": ""
+                "description": "Community-Auszeichnungen und Abstimmung verwalten"
             },
             "tabs": {
                 "awards": "Auszeichnungen",
@@ -27,14 +27,14 @@
                 "status_active": "Aktiv",
                 "status_ended": "Beendet",
                 "status_published": "Veröffentlicht",
-                "show_live_votes": "",
-                "show_live_votes_help": "",
-                "image_url": "",
-                "image_url_help": "",
+                "show_live_votes": "Stimmenanzahl live anzeigen",
+                "show_live_votes_help": "Stimmenanzahl während der Abstimmung live anzeigen",
+                "image_url": "Titelbild-URL",
+                "image_url_help": "Titelbild, das im Hero-Bereich angezeigt wird. Hochladen oder URL einfügen.",
                 "categories": "Kategorien",
                 "publish": "Ergebnisse veröffentlichen",
                 "delete_confirm": "Möchtest du diese Auszeichnung wirklich löschen?",
-                "publish_confirm": "",
+                "publish_confirm": "Möchtest du die Ergebnisse wirklich veröffentlichen? Alle Abstimmenden werden darüber informiert.",
                 "empty": "Noch keine Auszeichnungen erstellt."
             },
             "categories": {
@@ -57,92 +57,92 @@
                 "edit_title": "Nominierten bearbeiten",
                 "select_category": "Kategorie auswählen",
                 "name": "Name des Nominierten",
-                "description_help": "",
+                "description_help": "Kurzbeschreibung unter dem Namen (optional)",
                 "image": "Bild",
                 "image_url": "Bild-URL",
-                "image_url_help": "",
-                "adjust_votes": "",
-                "vote_adjustment_title": "",
-                "real_votes": "",
-                "adjustment": "",
-                "adjustment_help": "",
-                "displayed_votes": "",
+                "image_url_help": "URL zum Bild des Vorschlags (z. B. Spielcover, Porträtfoto)",
+                "adjust_votes": "Stimmen anpassen",
+                "vote_adjustment_title": "Stimmenanpassung",
+                "real_votes": "Echte Stimmen",
+                "adjustment": "Anpassung",
+                "adjustment_help": "Gib eine positive oder negative Zahl ein, um die angezeigte Stimmenzahl anzupassen.",
+                "displayed_votes": "Angezeigte Stimmen",
                 "reset": "Zurücksetzen",
-                "reset_adjustment": "",
-                "delete_confirm": "",
-                "empty": ""
+                "reset_adjustment": "Anpassung auf 0 zurücksetzen",
+                "delete_confirm": "Möchtest du diesen Vorschlag wirklich löschen?",
+                "empty": "Keine Vorschläge gefunden."
             },
             "suggestions": {
-                "title": "",
-                "empty": "",
-                "name": "",
+                "title": "Ausstehende Vorschläge",
+                "empty": "Keine ausstehenden Vorschläge",
+                "name": "Vorgeschlagener Name",
                 "category": "Kategorie",
                 "user": "Eingereicht durch",
                 "date": "Datum",
                 "approve": "Genehmigen",
                 "reject": "Ablehnen",
                 "merge": "Zusammenführen",
-                "approve_confirm": "",
-                "reject_confirm": "",
-                "merge_title": "",
-                "merge_info": "",
-                "select_nominee_label": "Nominierten auswählen",
-                "select_nominee_placeholder": "",
-                "no_nominees": ""
+                "approve_confirm": "Neuen Kandidaten erstellen? Der Benutzer wird automatisch dafür stimmen.",
+                "reject_confirm": "Vorschlag ablehnen?",
+                "merge_title": "Vorschlag zusammenführen",
+                "merge_info": "„{name}“ mit einem bestehenden Kandidaten zusammenführen. Die Stimme des Benutzers werden zu diesem Kandidaten hinzugefügt.",
+                "select_nominee_label": "Kandidaten auswählen",
+                "select_nominee_placeholder": "-- Wähle einen Kandidaten aus --",
+                "no_nominees": "In dieser Kategorie sind keine Kandidaten vorhanden, die zusammengeführt werden könnten."
             },
             "settings": {
-                "title": "",
-                "nav_title": "",
-                "nav_title_help": "",
-                "nav_icon": "",
-                "nav_icon_help": "",
-                "votes_per_category": "",
-                "votes_per_category_help": ""
+                "title": "Einstellungen",
+                "nav_title": "Navigationstitel",
+                "nav_title_help": "Text in der Navigations-Seitenleiste",
+                "nav_icon": "Navigationssymbol",
+                "nav_icon_help": "FontAwesome-Symbol-Klasse (z. B. fas fa-trophy, fas fa-award, fas fa-star)",
+                "votes_per_category": "Stimmen pro Kategorie",
+                "votes_per_category_help": "0 für unbegrenzte Stimmen, 1 für eine Stimme (ersetzen), >1 für mehrere Stimmen."
             },
             "permissions": {
-                "view": "",
-                "vote": "",
-                "view_results": "",
-                "manage": ""
+                "view": "Auszeichnungen ansehen",
+                "vote": "Für die Auszeichnungen abstimmen",
+                "view_results": "Ergebnisse vorzeitig ansehen",
+                "manage": "Auszeichnungen verwalten"
             }
         },
         "forum": {
             "nav": {
-                "title": "",
-                "categories": "",
-                "all_categories": ""
+                "title": "Auszeichnungen",
+                "categories": "Kategorien",
+                "all_categories": "Alle Kategorien"
             },
             "tabs": {
-                "categories": "",
-                "my_votes": "",
-                "results": ""
+                "categories": "Kategorien",
+                "my_votes": "Meine Stimmen",
+                "results": "Ergebnisse"
             },
             "page": {
-                "voting_ends": "",
-                "voting_ended": "",
-                "voting_starts": "",
-                "results_published": "",
-                "select_award": "",
-                "previous_awards": ""
+                "voting_ends": "Abstimmung endet {time}",
+                "voting_ended": "Abstimmung beendet {time}",
+                "voting_starts": "Abstimmung beginnt {time}",
+                "results_published": "Ergebnisse veröffentlicht",
+                "select_award": "Auszeichnung auswählen",
+                "previous_awards": "Auszeichnungen des Vorjahres"
             },
             "voting": {
-                "select": "",
-                "voted": "",
-                "change_vote": "",
-                "voting_closed": "",
-                "ended": "",
-                "ends_in_days": "",
-                "ends_in_hours": "",
-                "ends_soon": "",
-                "vote_saved": "",
+                "select": "Auswählen",
+                "voted": "Abgestimmt",
+                "change_vote": "Stimme ändern",
+                "voting_closed": "Abstimmung wurde geschlossen",
+                "ended": "Abstimmung ist beendet",
+                "ends_in_days": "Abstimmung endet in {days} Tagen",
+                "ends_in_hours": "Abstimmung endet in {hours} Stunden",
+                "ends_soon": "Abstimmung endet bald",
+                "vote_saved": "Deine Stimme wurde erfasst!",
                 "vote_removed": "Deine Stimme wurde entfernt."
             },
             "my_votes": {
                 "title": "Deine Stimmen",
-                "summary": "",
+                "summary": "Du hast in {voted}/{total} Kategorien abgestimmt",
                 "total_votes": "{count} Stimmen insgesamt",
                 "last_vote": "Zuletzt abgestimmt: {time}",
-                "votes_used": "",
+                "votes_used": "{used}/{limit} Stimmen verwendet",
                 "votes_unlimited": "{count} Stimmen",
                 "change": "Ändern",
                 "remove": "Entfernen",
@@ -152,34 +152,34 @@
                 "categories_remaining": "Kategorien ohne Stimmen"
             },
             "progress": {
-                "voted": "",
+                "voted": "In {count}/{total} Kategorien abgestimmt",
                 "complete": "Abgeschlossen!",
-                "prev": "",
-                "next": ""
+                "prev": "Zurück",
+                "next": "Weiter"
             },
             "hero": {
-                "countdown": "",
-                "voting_ended": "",
-                "results_published": "",
-                "draft_preview": "",
-                "results_preview": ""
+                "countdown": "Abstimmung endet in: {days}d {hours}h {minutes}m {seconds}s",
+                "voting_ended": "Abstimmung ist beendet",
+                "results_published": "Ergebnisse veröffentlicht",
+                "draft_preview": "Vorschau auf den Entwurf",
+                "results_preview": "Vorschau der Ergebnisse"
             },
             "preview": {
-                "admin_only": ""
+                "admin_only": "Vorschau-Modus – Nur für autorisierte Benutzer sichtbar"
             },
             "results": {
-                "winner": "",
-                "runner_up": "",
-                "votes": "",
-                "percentage": "",
-                "view_all": "",
-                "full_results": ""
+                "winner": "Gewinner",
+                "runner_up": "Zweitplatzierter",
+                "votes": "{count} Stimmen",
+                "percentage": "{percent} %",
+                "view_all": "Alle Ergebnisse ansehen",
+                "full_results": "Vollständige Ergebnisse"
             },
             "prediction": {
-                "title": "",
-                "score": "",
-                "correct": "",
-                "wrong": ""
+                "title": "Dein Vorhersage-Ergebnis",
+                "score": "{correct}/{total} richtige Vorhersagen!",
+                "correct": "Richtig:",
+                "wrong": "Falsch:"
             },
             "category": {
                 "nominees_count": "",
