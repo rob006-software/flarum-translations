@@ -68,6 +68,9 @@ return [
 	'ekumanov-inline-audio' => [
 		'beta' => 'https://raw.githubusercontent.com/ekumanov/flarum-ext-inline-audio/v2.0.0-beta.2/locale/en.yml',
 	],
+	'ekumanov-new-posts-notice' => [
+		'beta' => 'https://raw.githubusercontent.com/ekumanov/flarum-ext-new-posts-notice/v2.0.0-beta.1/locale/en.yml',
+	],
 	'flarum-akismet' => [
 		'beta' => 'https://raw.githubusercontent.com/flarum/akismet/v2.0.0-beta.7/locale/en.yml',
 	],
