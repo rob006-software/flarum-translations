@@ -2,16 +2,16 @@
     "huseyinfiliz-stickiest": {
         "admin": {
             "permissions": {
-                "super_sticky_discussions_label": "Super sticky Diskussionen",
-                "tag_sticky_discussions_label": "",
+                "super_sticky_discussions_label": "Besonders wichtige Diskussionen",
+                "tag_sticky_discussions_label": "Thema sticky Diskussionen",
                 "stickiest_label": "",
                 "tag_sticky_label": ""
             },
             "settings": {
-                "badge_icon_label": "",
+                "badge_icon_label": "Super sticky Symbol",
                 "badge_icon_text": "=> core.ref.icon_text",
-                "display_tag_sticky_label": "",
-                "display_tag_sticky_text": "",
+                "display_tag_sticky_label": "Themen stickies in der Liste „Alle Diskussionen“ anzeigen",
+                "display_tag_sticky_text": "Sie werden wie normale Diskussionen behandelt und bleiben nicht oben angeheftet.",
                 "show_tag_sticky_label": "",
                 "show_tag_sticky_help": "",
                 "stickiest_icon_label": "",
@@ -29,11 +29,11 @@
             "stickiest_modal": {
                 "title": "Sticky {title}",
                 "sticky_label": "=> flarum-sticky.ref.sticky",
-                "sticky_text": "",
+                "sticky_text": "Gepinnte Diskussionen bleiben in der Liste „Alle Diskussionen“ ganz oben, solange sie noch nicht gelesen wurden. Wenn man sich ein bestimmtes Thema ansieht, das zu dieser Diskussion gehört, bleiben sie stets ganz oben angeheftet.",
                 "super_sticky_label": "=> huseyinfiliz-stickiest.ref.super_sticky",
-                "super_sticky_text": "",
+                "super_sticky_text": "Besonders wichtige Themen bleiben auf jeden Fall ganz oben angeheftet.",
                 "tag_sticky_label": "=> huseyinfiliz-stickiest.ref.tag_sticky",
-                "tag_sticky_text": "",
+                "tag_sticky_text": "Gepinnte Themen sind standardmäßig in der Liste „Alle Diskussionen“ ausgeblendet. Sie werden nur angezeigt und bleiben oben angeheftet, wenn man ein bestimmtes Thema aufruft, nämlich eines der Themen, die du hier auswählst. Diese Option kann mit „Besonders wichtig“ kombiniert werden.",
                 "tags_label": "=> flarum-tags.ref.tags",
                 "submit_button": "=> core.ref.save_changes"
             },
@@ -62,9 +62,9 @@
         },
         "ref": {
             "sticky": "=> flarum-sticky.ref.sticky",
-            "super_sticky": "Super Sticky",
-            "tag_sticky": "",
-            "super_tag_sticky": ""
+            "super_sticky": "Besonders wichtig",
+            "tag_sticky": "Gepinntes Thema",
+            "super_tag_sticky": "Besonders wichtiges Thema"
         }
     }
 }
