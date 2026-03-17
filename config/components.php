@@ -355,7 +355,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/Yippy/flarum-tag-with-themes/v2.0.3/locale/en.yml',
 	],
 	'zerosonesfun-preview' => [
-		'tag' => 'https://raw.githubusercontent.com/zerosonesfun/flarum-preview/2.0.7/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/zerosonesfun/flarum-preview/2.0.9/locale/en.yml',
 	],
 	/* extensions list end */
 ];
