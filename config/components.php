@@ -1566,7 +1566,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ResofireV2/discussion-participants/v1.0.3/locale/en.yml',
 	],
 	'resofire-menu-control' => [
-		'tag' => 'https://raw.githubusercontent.com/ResofireV2/menu-control/v1.0.2/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ResofireV2/menu-control/v1.0.4/resources/locale/en.yml',
 	],
 	'rob006-last-post-avatar' => [
 		'tag' => 'https://raw.githubusercontent.com/rob006-software/flarum-ext-last-post-avatar/1.2.4/locale/en.yml',
