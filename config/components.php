@@ -1835,7 +1835,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/Yippy/flarum-tag-with-themes/v1.0.16/locale/en.yml',
 	],
 	'zerosonesfun-sound-system' => [
-		'tag' => 'https://raw.githubusercontent.com/zerosonesfun/flarum-sound-system/1.1.2/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/zerosonesfun/flarum-sound-system/1.2.0/resources/locale/en.yml',
 		'__builtInLanguages' => [
 			'ar',
 			'de',
