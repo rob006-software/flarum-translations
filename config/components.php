@@ -1566,7 +1566,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ResofireV2/discussion-participants/v1.0.3/locale/en.yml',
 	],
 	'resofire-labels' => [
-		'tag' => 'https://raw.githubusercontent.com/ResofireV2/labels/v0.2.7/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ResofireV2/labels/v0.2.9/locale/en.yml',
 	],
 	'resofire-menu-control' => [
 		'tag' => 'https://raw.githubusercontent.com/ResofireV2/menu-control/v1.0.2/resources/locale/en.yml',
