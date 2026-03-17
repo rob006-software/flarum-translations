@@ -2,54 +2,54 @@
     "fof-categories": {
         "admin": {
             "basics": {
-                "categories_label": ""
+                "categories_label": "Категории"
             },
             "labels": {
-                "keep_tags_nav": "",
-                "child_bare_icon": "",
-                "compact_mobile_mode": "",
-                "full_page_desktop": "",
-                "parent_remove_icon": "",
-                "parent_remove_description": "",
-                "parent_remove_stats": "",
-                "parent_remove_last_discussion": "",
-                "small_forum_optimized": ""
+                "keep_tags_nav": "Оставить ссылку на страницу тегов в боковой панели навигации?",
+                "child_bare_icon": "Иконки подкатегорий без фона?",
+                "compact_mobile_mode": "Компактный мобильный режим",
+                "full_page_desktop": "Полная страница на десктопе?",
+                "parent_remove_icon": "Скрыть иконки у тегов верхнего уровня?",
+                "parent_remove_description": "Скрыть описания у тегов верхнего уровня?",
+                "parent_remove_stats": "Скрыть статистику у тегов верхнего уровня?",
+                "parent_remove_last_discussion": "Скрыть последние дискуссии у тегов верхнего уровня?",
+                "small_forum_optimized": "Оптимизировать для небольших форумов?"
             },
             "help": {
-                "child_bare_icon": "",
-                "full_page_desktop": "",
-                "small_forum_optimized": ""
+                "child_bare_icon": "Показывать иконки подкатегорий без круглого фона?",
+                "full_page_desktop": "Свернуть меню навигации в боковой панели в одну строку, как на странице тегов? При этом виджеты, например Friends of Flarum Forum Statistics, будут скрыты из навигации категорий.",
+                "small_forum_optimized": "Это обеспечит более точный подсчёт дискуссий и сообщений, но может значительно замедлить работу средних и крупных форумов."
             },
             "headings": {
-                "nav": "",
-                "layout": "",
-                "parent_display": "",
-                "child_display": "",
-                "performance": ""
+                "nav": "Навигация",
+                "layout": "Макет",
+                "parent_display": "Отображение родительских категорий",
+                "child_display": "Отображение дочерних категорий",
+                "performance": "Производительность"
             },
-            "title": ""
+            "title": "Настройки категорий"
         },
         "forum": {
             "all_categories": {
-                "meta_description_text": "",
-                "meta_title_text": ""
+                "meta_description_text": "Все категории",
+                "meta_title_text": "=> fof-categories.ref.categories"
             },
             "header": {
-                "back_to_categories_tooltip": ""
+                "back_to_categories_tooltip": "Вернуться к категориям"
             },
             "index": {
-                "categories_link": ""
+                "categories_link": "=> fof-categories.ref.categories"
             },
             "stat-widgets": {
-                "discussion_label": "",
-                "post_label": ""
+                "discussion_label": "Дискуссии",
+                "post_label": "Сообщения"
             },
             "last_discussion_widget": {
-                "no_discussions": ""
+                "no_discussions": "Дискуссий пока нет"
             }
         },
         "ref": {
-            "categories": ""
+            "categories": "Категории"
         }
     }
 }
