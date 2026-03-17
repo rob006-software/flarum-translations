@@ -2,49 +2,49 @@
     "fof-rich-text": {
         "admin": {
             "settings": {
-                "toggle_on_editor": ""
+                "toggle_on_editor": "Показывать переключатель режима форматирования в редакторе"
             }
         },
         "lib": {
             "composer": {
-                "toggle_button": "",
-                "insert_button": "",
+                "toggle_button": "Переключить режим форматирования",
+                "insert_button": "Вставить",
                 "insert_image": {
-                    "src_placeholder": "",
-                    "title_placeholder": ""
+                    "src_placeholder": "Ссылка",
+                    "title_placeholder": "Заголовок"
                 },
                 "insert_link": {
-                    "text_placeholder": "",
-                    "href_placeholder": "",
-                    "title_placeholder": "",
-                    "remove_button": ""
+                    "text_placeholder": "Текст",
+                    "href_placeholder": "URL",
+                    "title_placeholder": "Подсказка при наведении",
+                    "remove_button": "Удалить"
                 },
-                "additional_items_tooltip": "",
-                "bold_tooltip": "",
-                "code_tooltip": "",
-                "code_block_tooltip": "",
-                "header_tooltip": "",
-                "horizontal_rule_tooltip": "",
-                "image_tooltip": "",
-                "italic_tooltip": "",
-                "link_tooltip": "",
-                "ordered_list_tooltip": "",
-                "paragraph_tooltip": "",
-                "quote_tooltip": "",
-                "spoiler_block_tooltip": "",
-                "spoiler_inline_tooltip": "",
-                "strike_tooltip": "",
-                "sub_tooltip": "",
-                "sup_tooltip": "",
-                "text_type_tooltip": "",
-                "unordered_list_tooltip": ""
+                "additional_items_tooltip": "Дополнительные инструменты",
+                "bold_tooltip": "Жирный текст <{modifierKey}-b>",
+                "code_tooltip": "Код <{modifierKey}-`>",
+                "code_block_tooltip": "Вставить блок кода",
+                "header_tooltip": "Сделать заголовком {level} <shift-{modifierKey}-{level}>",
+                "horizontal_rule_tooltip": "Вставить горизонтальную линию",
+                "image_tooltip": "Вставить изображение",
+                "italic_tooltip": "Курсив <{modifierKey}-i>",
+                "link_tooltip": "Вставить ссылку",
+                "ordered_list_tooltip": "Нумерованный список <shift-{modifierKey}-9>",
+                "paragraph_tooltip": "Сделать абзацем <shift-{modifierKey}-0>",
+                "quote_tooltip": "Вставить цитату <{modifierKey}-q>",
+                "spoiler_block_tooltip": "Раскрывающийся спойлер",
+                "spoiler_inline_tooltip": "Спойлер <{modifierKey}-;>",
+                "strike_tooltip": "Зачёркнутый текст <alt-shift-5>",
+                "sub_tooltip": "Нижний индекс <{modifierKey}-,>",
+                "sup_tooltip": "Верхний индекс <{modifierKey}-.>",
+                "text_type_tooltip": "Выбрать тип текста",
+                "unordered_list_tooltip": "Маркированный список <shift-{modifierKey}-8>"
             }
         },
         "forum": {
             "settings": {
-                "composer_heading": "",
-                "use_rich_text_editor_label": "",
-                "rich_text_compact_paragraphs_label": ""
+                "composer_heading": "Редактор",
+                "use_rich_text_editor_label": "Использовать расширенный редактор",
+                "rich_text_compact_paragraphs_label": "Не разделять абзацы новой строкой."
             }
         }
     }
