@@ -518,31 +518,31 @@
                 "mark_all_as_read_confirmation": "Sind Sie sicher, dass Sie alle Diskussionen als gelesen markieren möchten?",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "meta_title_text": "=> core.ref.all_discussions",
-                "refresh_tooltip": "",
+                "refresh_tooltip": "=> core.ref.refresh",
                 "start_discussion_button": "=> core.ref.start_a_discussion",
                 "skip_to_main_content": "Zum Hauptinhalt springen",
                 "toggle_sidenav_dropdown_accessible_label": "Dropdown-Menü für die Navigation umschalten"
             },
             "index_sort": {
                 "latest_button": "Zuletzt",
-                "newest_button": "",
-                "oldest_button": "",
-                "relevance_button": "",
+                "newest_button": "=> core.ref.newest",
+                "oldest_button": "=> core.ref.oldest",
+                "relevance_button": "=> core.ref.relevance",
                 "toggle_dropdown_accessible_label": "Sortierung der Diskussionsliste ändern",
                 "top_button": "Meist diskutiert"
             },
             "log_in": {
                 "forgot_password_link": "Passwort vergessen?",
-                "invalid_login_message": "",
+                "invalid_login_message": "=> core.ref.invalid_login_message",
                 "password_placeholder": "=> core.ref.password",
-                "remember_me_label": "",
+                "remember_me_label": "=> core.ref.remember_me_label",
                 "sign_up_text": "Noch keinen Account? <a>Registrieren</a>",
                 "submit_button": "=> core.ref.log_in",
                 "title": "=> core.ref.log_in",
-                "username_or_email_placeholder": ""
+                "username_or_email_placeholder": "=> core.ref.username_or_email_placeholder"
             },
             "notifications": {
-                "delete_all_confirm": "",
+                "delete_all_confirm": "Möchten Sie wirklich alle Benachrichtigungen löschen? Dieser Vorgang kann nicht rückgängig gemacht werden.",
                 "delete_all_tooltip": "Alle Benachrichtigungen löschen",
                 "discussion_renamed_text": "{username} hat den Titel geändert",
                 "empty_text": "Keine neuen Benachrichtigungen",
@@ -942,7 +942,7 @@
             }
         },
         "api": {
-            "invalid_username_message": "",
+            "invalid_username_message": "Der Benutzername darf nur Buchstaben, Zahlen und Bindestriche enthalten. Er muss mindestens einen Buchstaben enthalten.",
             "invalid_filter_type": {
                 "must_be_numeric_message": "Der {filter} Filter muss numerisch sein.",
                 "must_not_be_array_message": "Der {filter} Filter darf kein Array sein.",
@@ -970,19 +970,19 @@
             },
             "activate_account": {
                 "subject": "Aktivierung Ihres neuen Kontos",
-                "body": ""
+                "body": "Jemand (hoffentlich Sie!) hat sich mit dieser E-Mail-Adresse bei {forum} registriert.\n\nFalls Sie das waren, klicken Sie einfach auf den folgenden Link, um Ihr Konto zu aktivieren:\n{url}\n\nFalls Sie sich nicht registriert haben, ignorieren Sie diese E-Mail bitte.\n"
             },
             "confirm_email": {
                 "subject": "Bestätigung Ihrer E-Mail-Adresse",
-                "body": ""
+                "body": "Jemand (hoffentlich Sie!) hat seine E-Mail-Adresse im {forum} auf diese geändert.\n\nFalls Sie das waren, klicken Sie einfach auf den folgenden Link, um Ihre E-Mail-Adresse zu bestätigen:\n{url}\n\nFalls Sie das nicht waren, ignorieren Sie diese E-Mail bitte.\n"
             },
             "reset_password": {
                 "subject": "Zurücksetzung Ihres Passwortes",
-                "body": ""
+                "body": "Jemand (hoffentlich Sie!) hat für Ihr Konto auf {forum} eine Anfrage wegen eines vergessenen Passworts gestellt.\n\nFalls Sie das waren, klicken Sie auf den folgenden Link, um Ihr Passwort zurückzusetzen:\n{url}\n\nWenn Sie Ihr Passwort nicht ändern möchten, ignorieren Sie diese E-Mail einfach – es wird nichts passieren.\n"
             },
             "send_test": {
                 "subject": "Flarum E-Mail Test",
-                "body": ""
+                "body": "Dies ist eine Test-E-Mail, um zu überprüfen, ob Ihre E-Mail-Konfiguration in Flarum ordnungsgemäß funktioniert.\n\nFalls Sie diese E-Mail erhalten haben, bedeutet dies, dass Ihre Konfiguration funktioniert!\n\nFalls Sie diese E-Mail nicht erhalten haben, ignorieren Sie sie bitte.\n"
             }
         },
         "ref": {
