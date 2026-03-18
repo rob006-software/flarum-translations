@@ -54,7 +54,7 @@
             "numeric": "",
             "string": ""
         },
-        "hex_color": "",
+        "hex_color": "Das Feld :attribute muss eine gültige Hexadezimalfarbe sein.",
         "image": "",
         "in": "Der gewählte Wert für :attribute ist ungültig.",
         "in_array": "",
@@ -63,7 +63,7 @@
         "ipv4": "",
         "ipv6": "",
         "json": "",
-        "lowercase": "",
+        "lowercase": "Das Feld :attribute muss in Kleinbuchstaben geschrieben sein.",
         "lt": {
             "array": "",
             "file": "",
@@ -76,14 +76,14 @@
             "numeric": "",
             "string": ""
         },
-        "mac_address": "",
+        "mac_address": "Das Feld :attribute muss eine gültige MAC-Addresse sein.",
         "max": {
             "array": "",
             "file": "",
             "numeric": "",
             "string": ""
         },
-        "max_digits": "",
+        "max_digits": "Das Feld :attribute darf nicht mehr als :value Ziffern enthalten.",
         "mimes": "",
         "mimetypes": "",
         "min": {
