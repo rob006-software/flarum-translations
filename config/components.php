@@ -957,7 +957,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/sort-changer/v2/locale/en.yml',
 	],
 	'huseyinfiliz-stickiest' => [
-		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/stickiest/1.0.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/stickiest/1.0.1/locale/en.yml',
 	],
 	'huseyinfiliz-sticky-title' => [
 		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/sticky-title/v1.8/locale/en.yml',
