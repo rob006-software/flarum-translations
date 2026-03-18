@@ -1,33 +1,33 @@
 {
     "resofire_blog_cards": {
         "forum": {
-            "replies": "",
-            "unreadReplies": "",
-            "show_all_participants": "",
-            "more_participants": "",
-            "modal_title": "",
-            "load_more": ""
+            "replies": "Odgovori: {count}",
+            "unreadReplies": "Nepročitani odgovori: {count}",
+            "show_all_participants": "Prikaži sve sudionike",
+            "more_participants": "{count}+",
+            "modal_title": "{count} sudionika",
+            "load_more": "Učitaj više"
         },
         "admin": {
             "settings": {
-                "onIndexPage_label": "",
-                "onIndexPage_help": "",
-                "tagIds_label": "",
-                "tagIds_help": "",
-                "fullWidth_label": "",
-                "fullWidth_help": ""
+                "onIndexPage_label": "Koristi na popisu tema",
+                "onIndexPage_help": "Ako je omogućeno, stranica s popisom tema prikazivat će kartice.",
+                "tagIds_label": "Ograniči na kategorije",
+                "tagIds_help": "Odaberi kategorije na kojima će se prikazivati kartice. Ako nijedna nije odabrana, kartice se prikazuju na svim stranicama kategorija.",
+                "fullWidth_label": "Kartice pune širine",
+                "fullWidth_help": "Ako je omogućeno, svaka kartica će zauzimati punu širinu umjesto dvije po redu."
             },
-            "tools_heading": "",
-            "recalculate_help": "",
-            "recalculate_button": "",
-            "recalculating_button": "",
-            "recalculate_success": "",
-            "recalculate_error": "",
-            "recalculate_modal_title": "",
-            "recalculate_modal_warning": "",
-            "recalculate_modal_progress": "",
-            "recalculate_modal_complete": "",
-            "recalculate_modal_close": ""
+            "tools_heading": "Alati",
+            "recalculate_help": "Ponovno izračunava avatare sudionika za sve teme. Pokrenite ovo nakon prvog instaliranja proširenja na postojećem forumu ili uvijek kada sumnjate da su podaci pregleda neusklađeni.",
+            "recalculate_button": "Ponovno izračunaj sudionike",
+            "recalculating_button": "Ponovno izračunavanje…",
+            "recalculate_success": "Gotovo. Ponovno izračunato {count} tema za {duration}s.",
+            "recalculate_error": "Došlo je do pogreške. Pokušajte ponovo ili koristite CLI naredbu.",
+            "recalculate_modal_title": "Ponovno izračunavanje sudionika",
+            "recalculate_modal_warning": "Ne zatvarajte ovaj prozor niti napuštajte stranicu dok se proces ne završi.",
+            "recalculate_modal_progress": "{processed} od {total} tema",
+            "recalculate_modal_complete": "Završeno! {total} tema je ponovno izračunato.",
+            "recalculate_modal_close": "Zatvori"
         }
     }
 }
