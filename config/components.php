@@ -629,7 +629,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/default-user-preferences/1.2.2/locale/en.yml',
 	],
 	'fof-discussion-language' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/discussion-language/1.3.8/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/discussion-language/1.3.9/resources/locale/en.yml',
 	],
 	'fof-discussion-templates' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/discussion-templates/1.0.0/resources/locale/en.yml',
