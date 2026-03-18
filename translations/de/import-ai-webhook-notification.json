@@ -2,14 +2,14 @@
     "import-ai-webhook-notification": {
         "forum": {
             "settings": {
-                "notify_webhook_label": ""
+                "notify_webhook_label": "Webhook"
             }
         },
         "admin": {
             "settings": {
-                "webhook_url_label": "",
-                "webhook_url_help": "",
-                "webhook_token_label": "",
+                "webhook_url_label": "Webhook-URL",
+                "webhook_url_help": "Die URL, an die Benachrichtigungs-Webhooks gesendet werden sollen. Zur Deaktivierung leer lassen.",
+                "webhook_token_label": "Bearer-Token",
                 "webhook_token_help": "",
                 "timeout_label": "",
                 "timeout_help": "",
