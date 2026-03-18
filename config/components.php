@@ -66,7 +66,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/datlechin/flarum-tag-passwords/v2.0.0-beta.1/locale/en.yml',
 	],
 	'ekumanov-inline-audio' => [
-		'beta' => 'https://raw.githubusercontent.com/ekumanov/flarum-ext-inline-audio/v2.0.0-beta.2/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ekumanov/flarum-ext-inline-audio/v2.2.0/locale/en.yml',
 	],
 	'ekumanov-new-posts-notice' => [
 		'beta' => 'https://raw.githubusercontent.com/ekumanov/flarum-ext-new-posts-notice/v2.0.0-beta.1/locale/en.yml',
