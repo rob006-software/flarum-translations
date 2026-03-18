@@ -995,6 +995,17 @@
             }
         }
     },
+    "blomstra-trello.json": {
+        "blomstra-trello": {
+            "admin": {
+                "modals": {
+                    "fields": {
+                        "board": "0e20e27969b608a3c3ac22f324f41bdf 0e20e27969b608a3c3ac22f324f41bdf"
+                    }
+                }
+            }
+        }
+    },
     "blomstra-usercard-stats.json": {
         "blomstra-usercard-stats": {
             "forum": {
@@ -1021,6 +1032,13 @@
         "edoras-formatting": {
             "spoiler": {
                 "defaultValue": "c81922536db43263d574098c5f7c1283 c81922536db43263d574098c5f7c1283"
+            }
+        }
+    },
+    "cccyun-clogin-oauth.json": {
+        "cccyun-clogin-oauth": {
+            "admin": {
+                "appurl_label": "1596658ad41f85fdf6e31a41ed69d74d 1596658ad41f85fdf6e31a41ed69d74d"
             }
         }
     },
@@ -1547,6 +1565,9 @@
                 "permissions": {
                     "createPublic": "8aab56bcda6149f8fe81c2f4ba87d8c4 8aab56bcda6149f8fe81c2f4ba87d8c4",
                     "viewPublic": "97cd5a2ead88e6b87fc6dec0021de86e 97cd5a2ead88e6b87fc6dec0021de86e"
+                },
+                "settings": {
+                    "collapseSeries": "4b1383c162ad9196ed4c4c79d3c994d2 4b1383c162ad9196ed4c4c79d3c994d2"
                 }
             }
         }
@@ -2434,6 +2455,15 @@
             }
         }
     },
+    "clarkwinkelmann-sudo-mode.json": {
+        "clarkwinkelmann-sudo-mode": {
+            "admin": {
+                "settings": {
+                    "duration": "b2a3843b05097a106d59ca3a65eaa959 b2a3843b05097a106d59ca3a65eaa959"
+                }
+            }
+        }
+    },
     "clarkwinkelmann-translation-inspector.json": {
         "clarkwinkelmann-translation-inspector": {
             "admin": {
@@ -2500,6 +2530,15 @@
             },
             "api": {
                 "fallbackMessage": "d46a8d47e6b0f677ae5c751dc8705ce6 d46a8d47e6b0f677ae5c751dc8705ce6"
+            }
+        }
+    },
+    "clarkwinkelmann-vote-with-money.json": {
+        "clarkwinkelmann-vote-with-money": {
+            "admin": {
+                "settings": {
+                    "preselection": "471e4e6ea3c9a2dc59aa6c000b6a7db8 471e4e6ea3c9a2dc59aa6c000b6a7db8"
+                }
             }
         }
     },
@@ -3748,6 +3787,15 @@
             }
         }
     },
+    "datlechin-chatgpt.json": {
+        "datlechin-chatgpt": {
+            "admin": {
+                "settings": {
+                    "api_key_label": "d49baca13a52bd681f6da4d6b7f5fd0f d49baca13a52bd681f6da4d6b7f5fd0f"
+                }
+            }
+        }
+    },
     "datlechin-copy-links.json": {
         "datlechin-copy-links": {
             "forum": {
@@ -3831,6 +3879,19 @@
             },
             "forum": {
                 "block_default_name": "6b9261435c334d107578b45613ca42f1 6b9261435c334d107578b45613ca42f1"
+            }
+        }
+    },
+    "datlechin-oauth-envato.json": {
+        "fof-oauth": {
+            "admin": {
+                "settings": {
+                    "providers": {
+                        "envato": {
+                            "description": "fd728e0a11877a73d1ae52ca3d84e962 fd728e0a11877a73d1ae52ca3d84e962"
+                        }
+                    }
+                }
             }
         }
     },
@@ -13839,6 +13900,7 @@
                 "nav_order": {
                     "add_highlight": "20e5ffd5bff7b638eca6f4717cc5eb00 20e5ffd5bff7b638eca6f4717cc5eb00",
                     "description": "bb9bb7476cddfe54f8e6dfa06a90cef0 bb9bb7476cddfe54f8e6dfa06a90cef0",
+                    "flip_help": "d069d9caea3b16c8046cb17442e3af2b d069d9caea3b16c8046cb17442e3af2b",
                     "flip_label": "c2f212c08ad8b8211d6b249e021f494e c2f212c08ad8b8211d6b249e021f494e",
                     "highlight_color_help": "b6cecfffa10338ce2cb34ae69fd67618 b6cecfffa10338ce2cb34ae69fd67618",
                     "highlight_color_label": "07a3a20fcf0e8012fa80b88477902d77 07a3a20fcf0e8012fa80b88477902d77",
@@ -13850,6 +13912,8 @@
                     "remove_item": "c6a21ecb22b2bcc111278a6fbf61cccd c6a21ecb22b2bcc111278a6fbf61cccd",
                     "save_button": "d3f5e55007c49db23a7c20d955e5bddb d3f5e55007c49db23a7c20d955e5bddb",
                     "save_success": "371bf809aab6f912d3089d7f31e0adcd 371bf809aab6f912d3089d7f31e0adcd",
+                    "sticky_help": "ca25f7b371d8c4e9ad770b3851381d4f ca25f7b371d8c4e9ad770b3851381d4f",
+                    "sticky_label": "b1457b3169c54a6ae85cc66fde9e2e89 b1457b3169c54a6ae85cc66fde9e2e89",
                     "title": "e5edc95e57a3bf7696be473b23b486e0 e5edc95e57a3bf7696be473b23b486e0"
                 }
             }
