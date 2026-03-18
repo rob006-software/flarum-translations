@@ -44,51 +44,51 @@
         "filled": ":attribute muss ausgefüllt sein.",
         "gt": {
             "array": "Das Feld :attribute muss mehr als :value Elemente haben.",
-            "file": "",
+            "file": "Das Feld :attribute muss grösser als :value Kilobytes sein.",
             "numeric": "Das Feld :attribute muss grösser als :value sein.",
             "string": "Das Feld :attribute muss mehr als :value Zeichen haben."
         },
         "gte": {
             "array": "Das Feld :attribute muss :value Elemente oder mehr haben.",
-            "file": "",
+            "file": "Das Feld :attribute muss grösser oder gleich :value Kilobytes sein.",
             "numeric": "Das Feld :attribute muss grösser oder gleich :value sein.",
-            "string": ""
+            "string": "Das Feld :attribute muss mehr als oder :value Zeichen haben."
         },
-        "hex_color": "",
-        "image": "",
+        "hex_color": "Das Feld :attribute muss eine gültige Hexadezimalfarbe sein.",
+        "image": "Das Feld :attribute muss ein Bild sein.",
         "in": "Der gewählte Wert für :attribute ist ungültig.",
-        "in_array": "",
-        "integer": "",
-        "ip": "",
-        "ipv4": "",
-        "ipv6": "",
-        "json": "",
-        "lowercase": "",
+        "in_array": "Das Feld :attribute muss in :other vorhanden sein.",
+        "integer": "Das Feld :attribute muss eine Ganzzahl sein.",
+        "ip": "Das Feld :attribute muss eine gültige IP-Addresse sein.",
+        "ipv4": "Das Feld :attribute muss eine gültige IPv4-Addresse sein.",
+        "ipv6": "Das Feld :attribute muss eine gültige IPv6-Addresse sein.",
+        "json": "Das Feld :attribute muss eine gültige JSON-Zeichenkette sein.",
+        "lowercase": "Das Feld :attribute muss in Kleinbuchstaben geschrieben sein.",
         "lt": {
-            "array": "",
-            "file": "",
-            "numeric": "",
-            "string": ""
+            "array": "Das Feld :attribute muss weniger als :value Elemente haben.",
+            "file": "Das Feld :attribute muss weniger als :value Kilobytes sein.",
+            "numeric": "Das Feld :attribute muss kleiner als :value sein.",
+            "string": "Das Feld :attribute muss weniger als :value Zeichen haben."
         },
         "lte": {
-            "array": "",
-            "file": "",
-            "numeric": "",
-            "string": ""
+            "array": "Das Feld :attribute darf nicht mehr als :value Elemente enthalten.",
+            "file": "Das Feld :attribute muss weniger als oder genau :value Kilobytes sein.",
+            "numeric": "Das Feld :attribute muss kleiner als oder gleich :value sein.",
+            "string": "Das Feld :attribute muss weniger als oder genau :value Zeichen haben."
         },
-        "mac_address": "",
+        "mac_address": "Das Feld :attribute muss eine gültige MAC-Addresse sein.",
         "max": {
-            "array": "",
-            "file": "",
-            "numeric": "",
-            "string": ""
+            "array": "Das Feld :attribute darf nicht mehr als :max Elemente enthalten.",
+            "file": "Das Feld :attribute darf nicht grösser als :max Kilobytes sein.",
+            "numeric": "Das Feld :attribute darf nicht grösser als :max sein.",
+            "string": "Das Feld :attribute darf nicht mehr als :max Zeichen haben."
         },
-        "max_digits": "",
-        "mimes": "",
-        "mimetypes": "",
+        "max_digits": "Das Feld :attribute darf nicht mehr als :value Ziffern enthalten.",
+        "mimes": "Das Feld :attribute muss eine Datei des Typs :values sein.",
+        "mimetypes": "Das Feld :attribute muss eine Datei des Typs :values sein.",
         "min": {
             "array": "",
-            "file": "",
+            "file": "Das Feld :attribute darf nicht kleiner als :min Kilobytes sein.",
             "numeric": "",
             "string": ""
         },
@@ -131,7 +131,7 @@
         "same": "",
         "size": {
             "array": "",
-            "file": "",
+            "file": "Das Feld :attribute muss :size Kilobytes sein.",
             "numeric": "",
             "string": ""
         },
