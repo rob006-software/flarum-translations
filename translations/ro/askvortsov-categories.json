@@ -2,54 +2,54 @@
     "askvortsov-categories": {
         "admin": {
             "basics": {
-                "categories_label": ""
+                "categories_label": "Categorii"
             },
             "labels": {
-                "keep_tags_nav": "",
-                "child_bare_icon": "",
-                "compact_mobile_mode": "",
-                "full_page_desktop": "",
-                "parent_remove_icon": "",
-                "parent_remove_description": "",
-                "parent_remove_stats": "",
-                "parent_remove_last_discussion": "",
-                "small_forum_optimized": ""
+                "keep_tags_nav": "Afișare link etichete în meniul lateral?",
+                "child_bare_icon": "Pictograme pentru sub-categorii?",
+                "compact_mobile_mode": "Mod mobil compact",
+                "full_page_desktop": "Lățime completă pe desktop?",
+                "parent_remove_icon": "Ascundere pictograme pentru categoriile principale?",
+                "parent_remove_description": "Ascundere descrieri pentru categoriile principale?",
+                "parent_remove_stats": "Ascundere statistici pentru categoriile principale?",
+                "parent_remove_last_discussion": "Ascundere discuții recente pentru categoriile principale?",
+                "small_forum_optimized": "Optimizare pentru forumuri mici?"
             },
             "help": {
-                "child_bare_icon": "",
-                "full_page_desktop": "",
-                "small_forum_optimized": ""
+                "child_bare_icon": "Afișare pictograme sub-categorii fără fundal circular?",
+                "full_page_desktop": "Restrângere meniu lateral într-un singur rând (ca la pagina tradițională de etichete).",
+                "small_forum_optimized": "Această setare va oferi cifre mai precise pentru discuții/postări, dar va încetini drastic forumurile medii și mari."
             },
             "headings": {
-                "nav": "",
-                "layout": "",
-                "parent_display": "",
-                "child_display": "",
-                "performance": ""
+                "nav": "Navigare",
+                "layout": "Aspect",
+                "parent_display": "Afișare categorii principale",
+                "child_display": "Afișare sub-categorii",
+                "performance": "Performanță"
             },
-            "title": ""
+            "title": "Setări categorii"
         },
         "forum": {
             "all_categories": {
-                "meta_description_text": "",
-                "meta_title_text": ""
+                "meta_description_text": "Toate categoriile",
+                "meta_title_text": "=> askvortsov-categories.ref.categories"
             },
             "header": {
-                "back_to_categories_tooltip": ""
+                "back_to_categories_tooltip": "Înapoi la categorii"
             },
             "index": {
-                "categories_link": ""
+                "categories_link": "=> askvortsov-categories.ref.categories"
             },
             "stat-widgets": {
-                "discussion_label": "",
-                "post_label": ""
+                "discussion_label": "Discuții",
+                "post_label": "Postări"
             },
             "last_discussion_widget": {
-                "no_discussions": ""
+                "no_discussions": "Nicio discuție (încă!)"
             }
         },
         "ref": {
-            "categories": ""
+            "categories": "Categorii"
         }
     }
 }
