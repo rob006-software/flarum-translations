@@ -74,15 +74,15 @@
             },
             "automoderator_instructions": {
                 "header": "Instrucțiuni extensie",
-                "text": ""
+                "text": "<li>Pe scurt: Când un utilizator îndeplinește criteriul X, execută Y. Când un utilizator nu mai îndeplinește criteriul X, execută Z.</li>\n<li><strong>Criterii:</strong> Criteriile reprezintă nucleul acestei extensii. Acestea sunt seturi arbitrare de metrici și cerințe. Când un utilizator îndeplinește un criteriu, orice acțiune „la obținere” (on gain) pentru acel criteriu va fi executată. Când un utilizator pierde un criteriu, orice acțiune „la pierdere” (on loss) pentru acel criteriu va fi executată.</li>\n<ul>\n  <li><strong>Metrică:</strong> O condiție numerică. De exemplu, numărul de postări sau numărul de aprecieri primite. Un criteriu poate solicita un interval, un minim sau un maxim de metrici.</li>\n  <li><strong>Cerință:</strong> O condiție logică (booleană) abstractă. De exemplu, faptul de a nu fi suspendat sau de a avea un e-mail care se potrivește cu o anumită expresie regulată (regex).</li>\n</ul>\n<li><strong>Acțiuni:</strong> Ceva ce se întâmplă automat atunci când un criteriu este îndeplinit sau pierdut. Aceasta poate include orice, de la adăugarea/eliminarea dintr-un grup, până la trimiterea unui e-mail sau suspendarea unui utilizator.</li>\n<li><strong>Declanșator (Trigger):</strong> Un set de evenimente care determină reevaluarea criteriilor de grup ale unui utilizator. Acestea fac parte din definițiile metricilor și cerințelor. Toate criteriile vor fi evaluate la autentificare: acesta este „declanșatorul universal”.</li>\n<li>Acțiunile „la pierdere” vor rula întotdeauna înaintea acțiunilor „la obținere”. În acest fel, acțiunile vor fi menținute atâta timp cât un utilizator îndeplinește cel puțin unul dintre criteriile care execută acea acțiune la obținere.</li>\n<li>Rețineți că acțiunile rulează doar „la pierdere” și „la obținere”. Editările manuale efectuate în timp ce un utilizator îndeplinește un criteriu nu vor declanșa reaplicarea acțiunilor „la obținere” ale acelui criteriu.</li>\n<li>Dacă ștergeți un criteriu, acțiunile „la pierdere” NU vor fi executate pentru utilizatorii care îndeplinesc în prezent criteriul respectiv.</li>\n<li>Dacă folosiți criterii pentru a gestiona grupuri, vă recomandăm să mențineți un set separat de grupuri care să fie gestionate prin criterii. Nu veți putea adăuga sau elimina manual utilizatori din aceste grupuri.</li>\n"
             }
         },
         "lib": {
-            "group_id": "",
+            "group_id": "ID de grup",
             "managed_groups": {
-                "header": "",
-                "group_item": "",
-                "groups_not_editable": ""
+                "header": "Grupuri gestionate:",
+                "group_item": "<badge></badge> {groupName}",
+                "groups_not_editable": "Grupurile gestionate prin criteriile automoderatorului nu pot fi adăugate sau eliminate manual utilizatorilor, pentru a preveni inconsistențele."
             }
         }
     }
