@@ -56,7 +56,7 @@
                     }
                 },
                 "column_pruning": "Oszlopok szűrésének engedélyezése",
-                "column_pruning_help": "",
+                "column_pruning_help": "SELECT * helyett csak a webcímek előállításához szükséges oszlopokat kéri le (például azonosító, keresőbarát webcím, felhasználónév, dátumok). Jelentősen csökkenti a modellenkénti memóriahasználatot a nagy fórumokon. Alapértelmezetten engedélyezve van – csak akkor tiltsa le, ha a keresőbarát webcímek egyéni illesztőprogramja vagy a láthatósági hatókör olyan oszlopokat igényel, amelyek nem szerepelnek az alapértelmezett kiválasztásban.",
                 "mode_help_cache_disk_label": "Gyorsítótár- vagy lemezalapú mód",
                 "mode_help_cache_disk": "Kis vagy közepes fórumokhoz, melyek a legnagyobb valószínűség szerint cronjobok és a Flarum ütemezőjének (lásd lent) futtatását engedélyező környezeteken futnak, és ahol a bejegyzések, felhasználók, címkék és lapok darabszáma 50 000 elemnél kevesebb.",
                 "title": "FoF Oldaltérkép"
