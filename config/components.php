@@ -166,6 +166,9 @@ return [
 	'cccyun-clogin-oauth' => [
 		'tag' => 'https://raw.githubusercontent.com/netcccyun/flarum-clogin-oauth/v1.0.2/resources/locale/en.yml',
 	],
+	'chrisdenend-generate-usernames' => [
+		'beta' => 'https://raw.githubusercontent.com/chrisdenend/flarum-ext-generate-usernames/v0.1.0-beta.4/locale/en.yml',
+	],
 	'clarkwinkelmann-anonymous-posting' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-anonymous-posting/1.1.1/locale/en.yml',
 	],
