@@ -1535,6 +1535,9 @@ return [
 	'ordinaryjellyfish-sentra-prime' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/84b06a54d8679050557844666ca9436064cb016b/ordinaryjellyfish-sentra-prime.yml',
 	],
+	'peopleinside-antiflood' => [
+		'tag' => 'https://raw.githubusercontent.com/PeopleInside/flarum-ext-antiflood/1.0.7/locale/en.yml',
+	],
 	'peruguitar-user-portrait' => [
 		'tag' => 'https://raw.githubusercontent.com/Anexsoft/peruguitar-flarum-ext-user-portrait/1.0.4/locale/en.yml',
 	],
