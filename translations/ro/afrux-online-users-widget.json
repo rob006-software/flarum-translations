@@ -2,18 +2,18 @@
     "afrux-online-users-widget": {
         "admin": {
             "settings": {
-                "cache_ttl": "",
-                "last_seen_interval": "",
-                "max_users": ""
+                "cache_ttl": "Timpul de stocare în cache a listei de utilizatori (în secunde)",
+                "last_seen_interval": "Intervalul de timp de la ultima activitate pentru a considera un utilizator online (în minute)",
+                "max_users": "Numărul maxim de utilizatori afișați"
             },
             "permissions": {
-                "view_online_users_widget": ""
+                "view_online_users_widget": "Widget Vizualizare Utilizatori Online"
             }
         },
         "forum": {
             "widget": {
-                "title": "",
-                "empty": ""
+                "title": "Utilizatori online",
+                "empty": "Momentan nu sunt utilizatori online."
             }
         }
     }
