@@ -706,6 +706,9 @@ return [
 	'fof-moderator-warnings' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/moderator-warnings/1.0.1/resources/locale/en.yml',
 	],
+	'fof-move-posts' => [
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/move-posts/v1.0.0/locale/en.yml',
+	],
 	'fof-nightmode' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/nightmode/1.6.0/resources/locale/en.yml',
 	],
