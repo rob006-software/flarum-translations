@@ -333,6 +333,9 @@ return [
 	'migratetoflarum-fake-data' => [
 		'beta' => 'https://raw.githubusercontent.com/migratetoflarum/fake-data/2.0.0-beta.1/resources/locale/en.yml',
 	],
+	'peopleinside-antiflood' => [
+		'tag' => 'https://raw.githubusercontent.com/PeopleInside/flarum-ext-antiflood/1.0.7/locale/en.yml',
+	],
 	'ramon-colored' => [
 	],
 	'resofire-discussion-participants' => [
