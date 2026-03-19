@@ -2,6 +2,11 @@
     "ekumanov-inline-audio": {
         "forum": {
             "bbcode_description": "Embed an audio player: [player]URL[/player]"
+        },
+        "admin": {
+            "settings": {
+                "show_download_button": "Show download button on player bar"
+            }
         }
     }
 }
