@@ -2,62 +2,62 @@
     "fof-move-posts": {
         "admin": {
             "settings": {
-                "moved_first_post_content": "",
-                "moved_first_post_content_help": "",
-                "group_sequential_posts": ""
+                "moved_first_post_content": "Treść pierwszego posta w przeniesionej dyskusji",
+                "moved_first_post_content_help": "Jeśli masz dyskusję z jednym postem, przeniesienie tego posta spowoduje, że pierwszy post początkowej dyskusji zostanie zredagowany tak, by wskazywał na nową dyskusję. Możesz edytować zawartość tego posta tutaj.\n",
+                "group_sequential_posts": "Grupuj kolejne posty informujące o przeniesieniu."
             },
             "permissions": {
-                "move_posts": ""
+                "move_posts": "=> sycho-move-posts.ref.move_posts"
             }
         },
         "forum": {
             "badge": {
-                "first_moved_tooltip": ""
+                "first_moved_tooltip": "Przeniesiono"
             },
             "discussion": {
-                "move_posts": ""
+                "move_posts": "=> fof-move-posts.ref.move_posts"
             },
             "error": {
-                "move_old_post_to_newer_discussion": "",
-                "move_posts_to_same_discussion": ""
+                "move_old_post_to_newer_discussion": "=> fof-move-posts.ref.status.old_to_new_move",
+                "move_posts_to_same_discussion": "Nie możesz przenieść postów do tej samej dyskusji."
             },
             "modal": {
-                "check": "",
-                "destination": "",
-                "discussion_help": "",
-                "discussion_name": "",
-                "new_discussion": "",
-                "selected_posts": "",
+                "check": "Sprawdź typ operacji",
+                "destination": "Dyskusja docelowa",
+                "discussion_help": "Zastosowane zostaną tagi z dyskusji źródłowej. Można je zmienić po utworzeniu nowej.",
+                "discussion_name": "=> core.forum.composer_discussion.title_placeholder",
+                "new_discussion": "Nowa dyskusja",
+                "selected_posts": "Wybrano {count, plural, one {jeden post} few {{count} posty} other {{count} postów}}",
                 "status": {
-                    "complex_move": "",
-                    "old_to_new_move": "",
-                    "simple_move": ""
+                    "complex_move": "Będzie to złożone przeniesienie. Przenoszone posty zostaną wstawione pomiędzy te już istniejące, wskutek czego stare odnośniki do postów w docelowej dyskusji również mogą ulec zmianie.",
+                    "old_to_new_move": "=> fof-move-posts.ref.status.old_to_new_move",
+                    "simple_move": "Będzie to proste przeniesienie, posty zostaną dodane na końcu dyskusji."
                 },
-                "submit": "",
-                "title": ""
+                "submit": "Przenieś",
+                "title": "=> fof-move-posts.ref.move_posts"
             },
             "notifications": {
-                "post_moved_text": ""
+                "post_moved_text": "Jeden z Twoich postów został przeniesiony do {targetDiscussionTitle}."
             },
             "post": {
-                "unmove": "",
-                "move": "",
-                "moving": ""
+                "unmove": "Cofnij wybór do przeniesienia",
+                "move": "Wybierz do przeniesienia",
+                "moving": "Przenoszenie posta"
             },
             "post_stream": {
-                "post_moved": ""
+                "post_moved": "{username} przeniósł {count, plural, one{post} few{{count} posty} other{{count} postów}} do {target_discussion}."
             }
         },
         "ref": {
-            "move_posts": "",
+            "move_posts": "Przenieś posty",
             "status": {
-                "old_to_new_move": ""
+                "old_to_new_move": "Nie można przenieść starego posta do nowszej dyskusji."
             }
         },
         "lib": {
             "discussion": {
                 "first_post": {
-                    "default_content": ""
+                    "default_content": "*Ten post został przeniesiony do **[%DISCUSSION_NAME%](%POST_LINK%)**.*\n"
                 }
             }
         }
