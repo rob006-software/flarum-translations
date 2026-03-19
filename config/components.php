@@ -1683,6 +1683,12 @@ return [
 	'umhelper-oauth-clerk' => [
 		'tag' => 'https://raw.githubusercontent.com/UMHelper/flarum-ext-oauth-clerk/1.0.1/locale/en.yml',
 	],
+	'ucw-celeste-status' => [
+		'tag' => 'https://raw.githubusercontent.com/wuxianucw/flarum-celeste-status/v0.1.2/locale/en.yml',
+		'__builtInLanguages' => [
+			'zh_Hans',
+		],
+	],
 	'v17development-blog' => [
 		'tag' => 'https://raw.githubusercontent.com/v17development/flarum-blog/v0.8.0/locale/en.yaml',
 	],
