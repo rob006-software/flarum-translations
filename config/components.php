@@ -1730,6 +1730,12 @@ return [
 	'webbinaro-gpx-preview' => [
 		'tag' => 'https://raw.githubusercontent.com/eddiewebb/flarum-gpx-preview/2.0.5/resources/locale/en.yml',
 	],
+	'weixinxin1994-custom-discussions-item' => [
+		'tag' => 'https://raw.githubusercontent.com/Weixinxin1994/flarum-custom-discussions-item/v1.0.1/locale/en.yml',
+		'__builtInLanguages' => [
+			'zh_Hans',
+		],
+	],
 	'widayn-avatar-cropper' => [
 		'tag' => 'https://raw.githubusercontent.com/WiDayn/flarum-avatar-cropper/v0.1.2/resources/locale/en.yml',
 		'__builtInLanguages' => [
