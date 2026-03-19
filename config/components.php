@@ -902,6 +902,9 @@ return [
 			'zh_Hans',
 		],
 	],
+	'gtdxyz-logo-boost' => [
+		'tag' => 'https://raw.githubusercontent.com/daocatt/flarum-ext-logo-boost/1.0/locale/en.yml',
+	],
 	'hehongyuanlove-auth-qq' => [
 		'tag' => 'https://raw.githubusercontent.com/Hehongyuanlove/flarum-auth-qq/2.5.1/resources/locale/en.yml',
 	],
