@@ -104,6 +104,9 @@ return [
 	'blomstra-database-queue' => [
 		'tag' => 'https://raw.githubusercontent.com/blomstra/flarum-ext-database-queue/1.1.0/resources/locale/en.yml',
 	],
+	'blomstra-fathom-analytics' => [
+		'beta' => 'https://raw.githubusercontent.com/blomstra/flarum-ext-fathom-analytics/1.0.0-beta.3/locale/en.yml',
+	],
 	'blomstra-flag-duplicates' => [
 		'tag' => 'https://raw.githubusercontent.com/blomstra/flarum-ext-flag-duplicate/0.2.4/locale/en.yml',
 	],
