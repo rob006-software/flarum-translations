@@ -1750,6 +1750,12 @@ return [
 			'vi',
 		],
 	],
+	'xiaoxiaobai5724-theme-switch' => [
+		'tag' => 'https://raw.githubusercontent.com/Xiaoxiaobai5724/flarum-theme-switch/0.2/resources/locale/en.yml',
+		'__builtInLanguages' => [
+			'zh_Hans',
+		],
+	],
 	'xrh0905-oauth-microsoft' => [
 		'tag' => 'https://raw.githubusercontent.com/xrh0905/flarum-ext-oauth-microsoft/v1.0.1/locale/en.yml',
 	],
