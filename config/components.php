@@ -902,6 +902,9 @@ return [
 			'zh_Hans',
 		],
 	],
+	'hamcq-filter-plus' => [
+		'tag' => 'https://raw.githubusercontent.com/HamCQ/flarum-ext-filter-plus/1.0.3/resources/locale/en.yml',
+	],
 	'hehongyuanlove-auth-qq' => [
 		'tag' => 'https://raw.githubusercontent.com/Hehongyuanlove/flarum-auth-qq/2.5.1/resources/locale/en.yml',
 	],
