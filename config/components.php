@@ -503,7 +503,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/Dem13n/topic-starter-label/0.1.8/locale/en.yml',
 	],
 	'ekumanov-inline-audio' => [
-		'tag' => 'https://raw.githubusercontent.com/ekumanov/flarum-ext-inline-audio/v1.3.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ekumanov/flarum-ext-inline-audio/v1.4.0/locale/en.yml',
 	],
 	'ekumanov-new-posts-notice' => [
 		'tag' => 'https://raw.githubusercontent.com/ekumanov/flarum-ext-new-posts-notice/v1.0.3/locale/en.yml',
