@@ -1831,6 +1831,12 @@ return [
 			'zh_Hans',
 		],
 	],
+	'xypp-websocket-notification' => [
+		'tag' => 'https://raw.githubusercontent.com/zxy19/flarum-websocket-notification/v0.2.1/locale/en.yml',
+		'__builtInLanguages' => [
+			'zh_Hans',
+		],
+	],
 	'yippy-auth-ldap' => [
 		'tag' => 'https://raw.githubusercontent.com/Yippy/flarum-ext-auth-ldap/v1.0.2/locale/en.yml',
 	],
