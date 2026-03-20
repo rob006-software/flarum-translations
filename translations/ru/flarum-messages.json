@@ -2,98 +2,98 @@
     "flarum-messages": {
         "admin": {
             "permissions": {
-                "send_messages_label": "",
-                "delete_own_messages_label": ""
+                "send_messages_label": "Отправлять личные сообщения",
+                "delete_own_messages_label": "Удалять свои сообщения"
             }
         },
         "forum": {
             "composer": {
-                "discard_confirmation": "",
-                "placeholder": "",
-                "recipients": "",
-                "submit_button": "",
-                "to": ""
+                "discard_confirmation": "Сообщение не отправлено. Удалить его?",
+                "placeholder": "Напишите сообщение…",
+                "recipients": "Получатели",
+                "submit_button": "Отправить сообщение",
+                "to": "Кому:"
             },
             "dialog_list": {
-                "load_more_button": "",
-                "mark_as_read_tooltip": "",
-                "title": "",
-                "view_all": ""
+                "load_more_button": "=> core.ref.load_more",
+                "mark_as_read_tooltip": "Отметить как прочитанное",
+                "title": "Сообщения",
+                "view_all": "Все сообщения"
             },
             "dialog_section": {
-                "back_label": "",
-                "cannot_reply_text": "",
+                "back_label": "Назад",
+                "cannot_reply_text": "Этот пользователь не может отвечать",
                 "controls": {
-                    "details_button": ""
+                    "details_button": "Детали"
                 },
-                "controls_toggle_label": "",
+                "controls_toggle_label": "Управление диалогом",
                 "details_modal": {
-                    "created_at": "",
-                    "recipients": "",
-                    "title": ""
+                    "created_at": "Дата создания",
+                    "recipients": "Участники",
+                    "title": "Сведения о диалоге"
                 }
             },
             "header": {
-                "dropdown_tooltip": ""
+                "dropdown_tooltip": "Сообщения"
             },
             "index": {
-                "messages_link": ""
+                "messages_link": "Последние"
             },
             "index_sort": {
-                "latest_button": "",
-                "newest_button": "",
-                "oldest_button": ""
+                "latest_button": "Последние",
+                "newest_button": "Новые",
+                "oldest_button": "Старые"
             },
             "message_controls": {
-                "delete_button": "",
-                "delete_confirmation": ""
+                "delete_button": "Удалить",
+                "delete_confirmation": "Удалить это сообщение? Это действие нельзя отменить."
             },
             "messages_page": {
-                "cannot_send_message_button": "",
-                "empty_text": "",
+                "cannot_send_message_button": "Нельзя отправить сообщение",
+                "empty_text": "Нет новых сообщений",
                 "hero": {
-                    "title": "",
-                    "subtitle": ""
+                    "title": "Сообщения",
+                    "subtitle": "Ваши личные диалоги с другими пользователями"
                 },
-                "mark_all_as_read_tooltip": "",
-                "refresh_tooltip": "",
-                "send_message_button": "",
+                "mark_all_as_read_tooltip": "Отметить всё как прочитанное",
+                "refresh_tooltip": "Обновить",
+                "send_message_button": "Написать сообщение",
                 "stream": {
-                    "load_previous_button": "",
-                    "load_next_button": "",
-                    "start_of_the_conversation": "",
-                    "time_lapsed_text": ""
+                    "load_previous_button": "Загрузить предыдущие сообщения",
+                    "load_next_button": "Загрузить следующие сообщения",
+                    "start_of_the_conversation": "Начало диалога",
+                    "time_lapsed_text": "=> core.forum.post_stream.time_lapsed_text"
                 },
-                "title": ""
+                "title": "Сообщения"
             },
             "recipient_selection_modal": {
-                "title": ""
+                "title": "Выберите получателей сообщения"
             },
             "settings": {
-                "notify_message_received_label": ""
+                "notify_message_received_label": "Кто-то отправил мне сообщение"
             },
             "user_controls": {
-                "send_message_button": "",
-                "cannot_reply_text": ""
+                "send_message_button": "Написать сообщение",
+                "cannot_reply_text": "Этот пользователь не может отвечать"
             },
             "notifications": {
-                "message_received_text": ""
+                "message_received_text": "Новое сообщение от {user}"
             }
         },
         "email": {
             "message_received": {
-                "subject": "",
+                "subject": "Новое сообщение от {user_display_name}",
                 "plain": {
-                    "body": ""
+                    "body": "Новое сообщение от {user_display_name}.\n\n{url}\n\n---\n\n{content}\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "[Новое сообщение]({url}) от {user_display_name}."
                 }
             }
         },
         "lib": {
             "dialog": {
-                "title": ""
+                "title": "Диалог с {username}"
             }
         }
     }
