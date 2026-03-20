@@ -1291,6 +1291,126 @@
             }
         }
     },
+    "fof-upload.json": {
+        "flarum-gdpr": {
+            "lib": {
+                "data": {
+                    "uploads": {
+                        "anonymize_description": "8eca9fdf3f812c0dee477bc41285b52b 8eca9fdf3f812c0dee477bc41285b52b",
+                        "delete_description": "3e8ed5b13f919de51b3275842b293d5a 3e8ed5b13f919de51b3275842b293d5a",
+                        "export_description": "35cffeda62a02040a54e31b98068eea1 35cffeda62a02040a54e31b98068eea1"
+                    }
+                }
+            }
+        },
+        "fof-upload": {
+            "admin": {
+                "help_texts": {
+                    "client_extension": "9eb3a7ea160f849479836ffa0fc1263d 9eb3a7ea160f849479836ffa0fc1263d",
+                    "composer_buttons": "232aa3ead10cee06a5890add2d951f8d 232aa3ead10cee06a5890add2d951f8d",
+                    "custom_s3_url": "e178bbb5231debebd5dbfe5ca022d28e e178bbb5231debebd5dbfe5ca022d28e",
+                    "disable-download-logging": "f948a1d9ceb4960dcfe57db48e281246 f948a1d9ceb4960dcfe57db48e281246",
+                    "disable-hotlink-protection": "fa92c2a672ea8061a6fb05afba1744dc fa92c2a672ea8061a6fb05afba1744dc",
+                    "download_templates": "239a7d8c00debec2139d2566277c9e10 239a7d8c00debec2139d2566277c9e10",
+                    "resize": "c418b6b4746df536b15f0f0eb645cadf c418b6b4746df536b15f0f0eb645cadf",
+                    "s3_acl": "6f4f7dc8787d47421a16b9170aae8662 6f4f7dc8787d47421a16b9170aae8662",
+                    "s3_compatible_storage": "5945d52f869f8b5efa248d40dd984165 5945d52f869f8b5efa248d40dd984165",
+                    "s3_instance_profile": "cbb76eadeaa8f05c5a9a92b3647a604c cbb76eadeaa8f05c5a9a92b3647a604c",
+                    "watermark": "6ebdbdc711942d5491af344502079b8d 6ebdbdc711942d5491af344502079b8d"
+                },
+                "labels": {
+                    "aws-s3": {
+                        "acl": "1a1627a1e71fabb3c44a916495f709c1 1a1627a1e71fabb3c44a916495f709c1",
+                        "advanced_title": "d65ac0f41443a39de85b0e060ebe8b1b d65ac0f41443a39de85b0e060ebe8b1b",
+                        "bucket": "30edf70db68aa84f05d3e72326807b0c 30edf70db68aa84f05d3e72326807b0c",
+                        "custom_url": "232cf5563bfdf422710a2afe85ea8ee9 232cf5563bfdf422710a2afe85ea8ee9",
+                        "endpoint": "2a6ba72e93aa7fa676d07973ed2716bb 2a6ba72e93aa7fa676d07973ed2716bb",
+                        "key": "4e95505eb85f22b10faa3d0822d8be67 4e95505eb85f22b10faa3d0822d8be67",
+                        "region": "e280d60f90761f5e475558209ee8fdfd e280d60f90761f5e475558209ee8fdfd",
+                        "secret": "1e6947ac7fb3a9529a9726eb692c8cc5 1e6947ac7fb3a9529a9726eb692c8cc5",
+                        "title": "3ffb568213de91d0e7c1edfd7f776fe6 3ffb568213de91d0e7c1edfd7f776fe6",
+                        "use_path_style_endpoint": "9ab956bbfd18987a609ff92ff3c8a4b9 9ab956bbfd18987a609ff92ff3c8a4b9"
+                    },
+                    "client_extension": {
+                        "title": "b0c2ea6979dc7fffe136c77c6505f789 b0c2ea6979dc7fffe136c77c6505f789"
+                    },
+                    "composer_buttons": {
+                        "options": {
+                            "both": "8f6f54e3b397c3a29dd54bab801ccdd8 8f6f54e3b397c3a29dd54bab801ccdd8",
+                            "media-btn": "033aa002748eb28cfcf88e1d487630ae 033aa002748eb28cfcf88e1d487630ae",
+                            "upload-btn": "9fa9309d14c55f2267035c0db08df43d 9fa9309d14c55f2267035c0db08df43d"
+                        },
+                        "title": "a6e912d1666e724247459324f506365c a6e912d1666e724247459324f506365c"
+                    },
+                    "configured_by_environment": "7127bcc20affb6712fc947a6e4748598 7127bcc20affb6712fc947a6e4748598",
+                    "disable-download-logging": {
+                        "title": "93af07a4a29b5b1050f9b071b940451f 93af07a4a29b5b1050f9b071b940451f",
+                        "toggle": "670e2e590546cd67da1fed2d56d5dfa2 670e2e590546cd67da1fed2d56d5dfa2"
+                    },
+                    "disable-hotlink-protection": {
+                        "title": "1bd89f93a22cb3f267fde913f6cab647 1bd89f93a22cb3f267fde913f6cab647",
+                        "toggle": "670e2e590546cd67da1fed2d56d5dfa2 670e2e590546cd67da1fed2d56d5dfa2"
+                    },
+                    "imgur": {
+                        "client_id": "e732f5186d12036287bd90f1fbeed0d8 e732f5186d12036287bd90f1fbeed0d8",
+                        "title": "0177727d06da13d972ca0dbc563491d6 0177727d06da13d972ca0dbc563491d6",
+                        "tos": "881b610b8c1beab7c8a37fe4904fd0f5 881b610b8c1beab7c8a37fe4904fd0f5"
+                    },
+                    "inspect-mime": "eed0af814f169ee88bccc9b4d469972b eed0af814f169ee88bccc9b4d469972b",
+                    "local": {
+                        "cdn_url": "860b5d56a58d1181e558ba8d0c1166b3 860b5d56a58d1181e558ba8d0c1166b3",
+                        "title": "1528b00414cc3eedfd4243c7974574f8 1528b00414cc3eedfd4243c7974574f8"
+                    },
+                    "preferences": {
+                        "max_file_size": "6bfd7f55afee58f804423c6a5e540ef6 6bfd7f55afee58f804423c6a5e540ef6",
+                        "mime_types": "a472b3eb70a0ccda70e9a4a0efe0a5a7 a472b3eb70a0ccda70e9a4a0efe0a5a7",
+                        "php_ini_values": "6ab8dde2bb8f37a88bfe98738897a844 6ab8dde2bb8f37a88bfe98738897a844",
+                        "title": "aaf3d5b359316f33ff6b097cecc9ac0a aaf3d5b359316f33ff6b097cecc9ac0a"
+                    },
+                    "qiniu": {
+                        "bucket": "30edf70db68aa84f05d3e72326807b0c 30edf70db68aa84f05d3e72326807b0c",
+                        "key": "4e95505eb85f22b10faa3d0822d8be67 4e95505eb85f22b10faa3d0822d8be67",
+                        "secret": "1e6947ac7fb3a9529a9726eb692c8cc5 1e6947ac7fb3a9529a9726eb692c8cc5",
+                        "title": "2c0f12a739a3e73442719a02fb20b547 2c0f12a739a3e73442719a02fb20b547"
+                    },
+                    "resize": {
+                        "max_width": "6a7b4e1fdb8632c41ec59a86da1a8e0c 6a7b4e1fdb8632c41ec59a86da1a8e0c",
+                        "title": "3a351f03d8aabb28b5c8c5bd87f57a6d 3a351f03d8aabb28b5c8c5bd87f57a6d",
+                        "toggle": "17e7f53838ff3938a476e6773ff5e90b 17e7f53838ff3938a476e6773ff5e90b"
+                    },
+                    "svg-sanitizer": {
+                        "allow_animate": "5bade9c9d2f8447e3dc41ff15915dd6f 5bade9c9d2f8447e3dc41ff15915dd6f",
+                        "allow_animate_help": "6d003fd1904af49b1fe6c6a9f3dd70da 6d003fd1904af49b1fe6c6a9f3dd70da",
+                        "help": "e6d3ea50457b14b3d1d5a7da93872be4 e6d3ea50457b14b3d1d5a7da93872be4",
+                        "title": "6394af052f049d4739d434ee3f0929c4 6394af052f049d4739d434ee3f0929c4"
+                    },
+                    "watermark": {
+                        "file": "249137c1b3b713b2501c83b5467dc706 249137c1b3b713b2501c83b5467dc706",
+                        "position": "b297916c10cf4a14e6ef888b49d01310 b297916c10cf4a14e6ef888b49d01310",
+                        "title": "e5249babbd126f7ae91707437fc0ad6b e5249babbd126f7ae91707437fc0ad6b",
+                        "toggle": "e6e13281ebcbb24907c49b86380b41ae e6e13281ebcbb24907c49b86380b41ae"
+                    }
+                },
+                "nav": {
+                    "shared-uploads-button": "c35a42a5524422b383e10e3e45e327b7 c35a42a5524422b383e10e3e45e327b7"
+                },
+                "pane": {
+                    "description": "2b4e22df348a5bfc8b793315dd97b6f4 2b4e22df348a5bfc8b793315dd97b6f4",
+                    "title": "9b0228bac373cb240a4804f304d70233 9b0228bac373cb240a4804f304d70233"
+                },
+                "permissions": {
+                    "download_label": "99c7e26bb680447ad742c21b06ecd4e5 99c7e26bb680447ad742c21b06ecd4e5"
+                },
+                "shared-uploads": {
+                    "description": "5afe9aa616f22efd36fc5922c4844e85 5afe9aa616f22efd36fc5922c4844e85",
+                    "introduction": "2362746fadd1eeb6be410db25f591df3 2362746fadd1eeb6be410db25f591df3",
+                    "no-files": "136f8d14fe63a0e067fe44ebbc97aa00 136f8d14fe63a0e067fe44ebbc97aa00",
+                    "title": "c35a42a5524422b383e10e3e45e327b7 c35a42a5524422b383e10e3e45e327b7",
+                    "upload-new-button": "8b1d51d6524d48e3581d2b5861fc6e2f 8b1d51d6524d48e3581d2b5861fc6e2f"
+                }
+            }
+        }
+    },
     "fof-user-directory.json": {
         "fof-user-directory": {
             "admin": {
