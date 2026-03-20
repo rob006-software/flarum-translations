@@ -136,15 +136,15 @@
                 "view_user_uploads_label": "Vezi fișierele încărcate de utilizator",
                 "delete_uploads_of_others_label": "Șterge fișierele încărcate de utilizator",
                 "upload_shared_label": "Încarcă fișiere partajate",
-                "access_shared_label": ""
+                "access_shared_label": "Accesează fișierele partajate în Manager Media"
             },
             "templates": {
-                "file": "",
-                "file_description": "",
-                "image": "",
-                "image_description": "",
-                "image-preview": "",
-                "image-preview_description": "",
+                "file": "Șablon implicit pentru descărcarea fișierelor",
+                "file_description": "Afișează numele fișierului și câteva informații generale. Descărcările sunt procesate prin PHP, permițând colectarea statisticilor și protecția împotriva hotlink-urilor.\n",
+                "image": "Șablon implicit pentru descărcarea imaginilor",
+                "image_description": "Afișează o miniatură a imaginii și procesează descărcarea prin PHP. Permite colectarea statisticilor și protecția împotriva hotlink-urilor.\n",
+                "image-preview": "Șablon complet pentru previzualizarea imaginii",
+                "image-preview_description": "Afișează imaginea completă direct în text (in-line). Fără funcție de descărcare, nu sunt colectate statistici, iar protecția împotriva hotlink-urilor este ignorată.\n",
                 "markdown-image": "",
                 "markdown-image_description": "",
                 "bbcode-image": "",
