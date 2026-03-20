@@ -30,33 +30,33 @@
             },
             "permissions": {
                 "process_erasure": "Обработать запросы на удаление",
-                "process_export_for_others": "",
+                "process_export_for_others": "Запрашивать и получать экспорт данных других пользователей",
                 "see_anonymized_user_badges": "Посмотреть анонимизированные жетоны пользователей"
             },
             "settings": {
                 "allow_anonymization": "Разрешить анонимизацию запросов на удаление",
-                "allow_anonymization_help": "",
+                "allow_anonymization_help": "Вариант по умолчанию, рекомендуемый для большинства сообществ. В этом режиме публикации и комментарии сохраняются в максимально возможном объёме в рамках GDPR. При этом вся информация, позволяющая идентифицировать пользователя, удаляется.",
                 "allow_deletion": "Разрешить удаление по запросу",
                 "allow_deletion_help": "Более жесткая опция. В этом режиме все сообщения/комментарии будут удалены и пользователь будет удален из базы. Пользуйтесь осторожно.",
                 "default_anonymous_username": "Имя пользователя по умолчанию для анонимизированных пользователей",
-                "default_anonymous_username_help": "",
-                "default_erasure": "",
-                "default_erasure_help": "",
+                "default_anonymous_username_help": "При анонимизации пользователя его имя будет заменено на это значение с добавлением ID запроса, например <code>Anonymous123</code>.",
+                "default_erasure": "Действие по умолчанию для запросов на удаление",
+                "default_erasure_help": "Какое действие по умолчанию следует выполнять для запросов на удаление?",
                 "default_erasure_options": {
-                    "anonymization": "",
-                    "deletion": ""
+                    "anonymization": "Анонимизация",
+                    "deletion": "Удаление"
                 },
                 "gdpr_page": {
-                    "title": "",
-                    "help_text": ""
+                    "title": "Интеграция данных и действия",
+                    "help_text": "Перед выбором действий для вашего форума важно понимать, какие данные интегрированы и как они обрабатываются при анонимизации и удалении. Ознакомьтесь с обзором GDPR, чтобы понять обработку данных и какие дополнительные расширения зарегистрировали свои данные для работы с этим расширением."
                 }
             },
             "userlist": {
                 "columns": {
                     "user_actions": {
                         "data_export": {
-                            "button": "",
-                            "tooltip": ""
+                            "button": "Экспорт",
+                            "tooltip": "Экспортировать данные пользователя {username}"
                         }
                     }
                 }
@@ -65,112 +65,112 @@
         "lib": {
             "data": {
                 "avatar": {
-                    "delete_description": "",
-                    "export_description": ""
+                    "delete_description": "Удаляет аватар пользователя из файловой системы.",
+                    "export_description": "Получает аватар пользователя из файловой системы и включает его в экспорт."
                 },
                 "discussions": {
-                    "export_description": ""
+                    "export_description": "Экспортирует все дискуссии, созданные пользователем. Данные ограничены названием и датой создания."
                 },
                 "forum": {
-                    "export_description": ""
+                    "export_description": "Экспортирует название форума, URL, имя пользователя, email и текущую дату."
                 },
-                "no_action": "",
+                "no_action": "Действий нет.",
                 "posts": {
-                    "anonymize_description": "",
-                    "delete_description": "",
-                    "export_description": ""
+                    "anonymize_description": "Удаляет IP-адрес из всех сообщений пользователя.",
+                    "delete_description": "Удаляет все сообщения пользователя.",
+                    "export_description": "Экспортирует все сообщения пользователя. Данные ограничены содержимым, датой создания, IP-адресом и ID дискуссии."
                 },
                 "tokens": {
-                    "delete_description": "",
-                    "export_description": ""
+                    "delete_description": "Удаляет все токены, созданные пользователем.",
+                    "export_description": "Экспортирует все токены, созданные пользователем. Данные ограничены датой создания и типом токена."
                 },
                 "user": {
-                    "anonymize_description": "",
-                    "delete_description": "",
-                    "export_description": ""
+                    "anonymize_description": "Все поля пользователя устанавливаются в null. Поля без поддержки null получают значения по умолчанию или специальные значения. Пароль изменяется, настройки сбрасываются, все группы удаляются.",
+                    "delete_description": "Удаляет пользователя из базы данных.",
+                    "export_description": "Экспортирует данные из таблицы пользователя. Все поля, кроме id и пароля."
                 }
             },
             "request_data": {
-                "title": "",
-                "text": "",
-                "request_button": ""
+                "title": "Запросить данные пользователя {username}",
+                "text": "Для вас будет подготовлен ZIP-архив. Когда он будет готов, вы получите уведомление со ссылкой для скачивания. Она будет действовать один день.\n",
+                "request_button": "Запросить архив"
             }
         },
         "email": {
             "confirm_erasure": {
-                "subject": "",
-                "body": ""
+                "subject": "Подтвердите запрос на удаление аккаунта",
+                "body": "Кто-то (надеемся, что вы) только что отправил запрос на удаление аккаунта {display_name}.\n\nДля подтверждения перейдите по ссылке ниже. После этого мы рассмотрим ваш запрос.\n\n{erasure_confirm_url}\n"
             },
             "erasure_completed": {
                 "deletion": {
-                    "subject": "",
-                    "body": ""
+                    "subject": "Удаление аккаунта завершено",
+                    "body": "Ваш аккаунт удалён.\n"
                 },
                 "anonymization": {
-                    "subject": "",
-                    "body": ""
+                    "subject": "Анонимизация аккаунта завершена",
+                    "body": "Ваш аккаунт стал анонимным.\n"
                 }
             },
             "erasure_cancelled": {
-                "subject": "",
-                "body": ""
+                "subject": "Запрос на удаление аккаунта отменён",
+                "body": "Это автоматическое уведомление: мы обработали ваш запрос на отмену удаления аккаунта\n\nВаш аккаунт не будет удалён.\n"
             },
             "export_available": {
-                "subject": "",
-                "body": ""
+                "subject": "Доступен экспорт данных",
+                "body": "Вы запросили экспорт данных аккаунта пользователя {username} — он уже готов.\n\n{url}\n\nЭкспорт будет доступен до {destroys_at}\n"
             }
         },
         "forum": {
             "badges": {
-                "anonymized_user": ""
+                "anonymized_user": "Анонимный пользователь"
             },
             "delete_user": {
-                "title": "",
-                "text": "",
-                "modal_delete_button": "",
-                "delete_button": ""
+                "title": "Удалить аккаунт пользователя {username}",
+                "text": "Удалить аккаунт пользователя {username}?\n\nЭто действие необратимо.\n",
+                "modal_delete_button": "Удалить стандартным способом",
+                "delete_button": "Удалить"
             },
             "erasure_requests": {
-                "empty_text": "",
-                "item_text": "",
-                "tooltip": "",
-                "title": ""
+                "empty_text": "Нет ожидающих запросов на удаление аккаунта",
+                "item_text": "Пользователь {name} запросил удаление аккаунта",
+                "tooltip": "Запросы на удаление аккаунта",
+                "title": "Запросы на удаление аккаунта"
             },
-            "erasure_request_confirmed": "",
+            "erasure_request_confirmed": "Вы подтвердили удаление аккаунта. Оно будет выполнено в течение 30 дней в соответствии с GDPR.",
             "settings": {
                 "data": {
-                    "heading": ""
+                    "heading": "Персональные данные"
                 },
-                "export_data_button": "",
-                "export_data_help": "",
-                "request_erasure_button": "",
-                "request_erasure_help": ""
+                "export_data_button": "Экспорт данных",
+                "export_data_help": "Вы сможете скачать копию всех данных, связанных с вашим аккаунтом, включая сообщения, комментарии и данные профиля.",
+                "request_erasure_button": "Удалить аккаунт",
+                "request_erasure_help": "Запрос на удаление приведёт к полному удалению аккаунта и всех связанных данных. Это действие необратимо. Перед продолжением сохраните важную информацию."
             },
             "process_erasure": {
-                "confirm": "",
-                "title": "",
-                "text": "",
-                "comments_label": "",
-                "anonymization_button": "",
-                "deletion_button": ""
+                "confirm": "Удалить аккаунт пользователя {name} в режиме «{mode}»?",
+                "title": "Обработать запрос на удаление",
+                "text": "Пользователь {name} запросил удаление аккаунта.",
+                "comments_label": "Комментарий (по желанию)",
+                "anonymization_button": "Обезличить пользователя",
+                "deletion_button": "Удалить пользователя"
             },
             "request_erasure": {
-                "title": "",
-                "reason": "",
+                "title": "Запросить удаление аккаунта",
+                "reason": "Вы указали причину: {reason}",
                 "status": {
-                    "awaiting_user_confirmation": "",
-                    "user_confirmed": ""
+                    "awaiting_user_confirmation": "Вам должно прийти письмо для подтверждения удаления аккаунта.\n",
+                    "user_confirmed": "Вы подтвердили удаление аккаунта. Оно будет выполнено в течение 30 дней в соответствии с GDPR.\n"
                 },
-                "text": "",
-                "password_label": "",
-                "reason_label": "",
-                "cancel_button": "",
-                "request_button": ""
+                "text": "После подтверждения запрос будет рассмотрен в течение 30 дней в соответствии с GDPR.",
+                "password_label": "Подтверждение пароля",
+                "reason_label": "Причина (по желанию)",
+                "cancel_button": "Отменить запрос",
+                "request_button": "Запросить удаление"
             },
             "notification": {
-                "export-ready": ""
+                "export-ready": "Экспорт данных пользователя {username} готов к скачиванию."
             },
-            "export_file": ""
+            "export_file": "Экспорт данных пользователя {username} ({email}) подготовлен {date} на форуме {forumTitle} ({url})"
         }
     }
 }
