@@ -859,6 +859,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`fof-merge-discussions`](https://weblate.rob006.net/projects/flarum2/fof-merge-discussions) | [`fof/merge-discussions`](https://github.com/FriendsOfFlarum/merge-discussions) |
 | [`fof-moderator-notes`](https://weblate.rob006.net/projects/flarum2/fof-moderator-notes) | [`fof/moderator-notes`](https://github.com/FriendsOfFlarum/moderator-notes) |
 | [`fof-moderator-warnings`](https://weblate.rob006.net/projects/flarum2/fof-moderator-warnings) | [`fof/moderator-warnings`](https://github.com/FriendsOfFlarum/moderator-warnings) |
+| [`fof-move-posts`](https://weblate.rob006.net/projects/flarum2/fof-move-posts) | [`fof/move-posts`](https://github.com/FriendsOfFlarum/move-posts) |
 | [`fof-oauth`](https://weblate.rob006.net/projects/flarum2/fof-oauth) | [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth) |
 | [`fof-open-collective`](https://weblate.rob006.net/projects/flarum2/fof-open-collective) | [`fof/open-collective`](https://github.com/FriendsOfFlarum/open-collective) |
 | [`fof-pages`](https://weblate.rob006.net/projects/flarum2/fof-pages) | [`fof/pages`](https://github.com/FriendsOfFlarum/pages) |
