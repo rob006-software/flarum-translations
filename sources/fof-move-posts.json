@@ -36,6 +36,10 @@
                 "submit": "Proceed",
                 "title": "=> fof-move-posts.ref.move_posts"
             },
+            "alerts": {
+                "posts_moved": "{count, plural, one {Post moved.} other {{count} posts moved.}}",
+                "posts_moved_to": "{count, plural, one {Post moved to {target_discussion}.} other {Moved {count} posts to {target_discussion}.}}"
+            },
             "notifications": {
                 "post_moved_text": "One or more of your posts were moved to {targetDiscussionTitle}."
             },
