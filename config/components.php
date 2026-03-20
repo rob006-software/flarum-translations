@@ -1616,6 +1616,9 @@ return [
 	'startracex-dark' => [
 		'tag' => 'https://raw.githubusercontent.com/startracex/flarum-dark/0.0.1/locale/en.yml',
 	],
+	'subasteve-action-log' => [
+		'tag' => 'https://raw.githubusercontent.com/subasteve/flarum-action-log/v0.1.5/resources/locale/en.yml',
+	],
 	'swaggymacro-only-starter' => [
 		'tag' => 'https://raw.githubusercontent.com/SwaggyMacro/OnlyStarter/0.6.6/resources/locale/en.yml',
 	],
