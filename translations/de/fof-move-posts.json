@@ -33,11 +33,11 @@
                     "old_to_new_move": "=> fof-move-posts.ref.status.old_to_new_move",
                     "simple_move": ""
                 },
-                "submit": "",
-                "title": ""
+                "submit": "Fortfahren",
+                "title": "=> fof-move-posts.ref.move_posts"
             },
             "notifications": {
-                "post_moved_text": ""
+                "post_moved_text": "Einer oder mehrere deiner Beiträge wurden nach {targetDiscussionTitle} verschoben."
             },
             "post": {
                 "unmove": "",
@@ -45,13 +45,13 @@
                 "moving": "Beitrag verschieben"
             },
             "post_stream": {
-                "post_moved": ""
+                "post_moved": "{count, plural, one {{username} hat einen Beitrag verschoben nach {target_discussion}.} other {{username} hat {count} Beiträge verschoben nach {target_discussion}.}}"
             }
         },
         "ref": {
-            "move_posts": "",
+            "move_posts": "Beiträge verschieben",
             "status": {
-                "old_to_new_move": ""
+                "old_to_new_move": "Ein alter Beitrag kann nicht in eine neuere Diskussion verschoben werden."
             }
         },
         "lib": {
