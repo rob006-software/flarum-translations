@@ -3545,6 +3545,47 @@
             }
         }
     },
+    "fof-move-posts.json": {
+        "fof-move-posts": {
+            "admin": {
+                "permissions": {
+                    "move_posts": "d41d8cd98f00b204e9800998ecf8427e 460fcdce371ae0e10e0ee0c12c79d2e4"
+                }
+            },
+            "forum": {
+                "badge": {
+                    "first_moved_tooltip": "d41d8cd98f00b204e9800998ecf8427e a4fa9f37b81a0a914ea5bce9d6bb145c"
+                },
+                "discussion": {
+                    "move_posts": "d41d8cd98f00b204e9800998ecf8427e 460fcdce371ae0e10e0ee0c12c79d2e4"
+                },
+                "error": {
+                    "move_old_post_to_newer_discussion": "d41d8cd98f00b204e9800998ecf8427e f85664bf593193585940c28dc9bc9dc4",
+                    "move_posts_to_same_discussion": "d41d8cd98f00b204e9800998ecf8427e cb30a33fb0ada63314eb97f8efb685c9"
+                },
+                "modal": {
+                    "destination": "d41d8cd98f00b204e9800998ecf8427e c70773ef95cfaa7dbe2dd1fb14fe2159",
+                    "discussion_name": "d41d8cd98f00b204e9800998ecf8427e 5f93b38d28c94e3aa21b8e2066929348",
+                    "new_discussion": "d41d8cd98f00b204e9800998ecf8427e e0e44074a4c88967872309c3d390277c",
+                    "selected_posts": "d41d8cd98f00b204e9800998ecf8427e 1c87b95ba700b54ce2472d2a80d390e9",
+                    "status": {
+                        "old_to_new_move": "d41d8cd98f00b204e9800998ecf8427e f85664bf593193585940c28dc9bc9dc4"
+                    }
+                },
+                "post": {
+                    "move": "d41d8cd98f00b204e9800998ecf8427e 67666bd651756d6c4343c1f3b361587a",
+                    "moving": "d41d8cd98f00b204e9800998ecf8427e 46aa600411d44724b5c43e2293c4024f"
+                }
+            },
+            "lib": {
+                "discussion": {
+                    "first_post": {
+                        "default_content": "d41d8cd98f00b204e9800998ecf8427e e71b1b537b05b085fb5a5bc0d46584c5"
+                    }
+                }
+            }
+        }
+    },
     "fof-oauth.json": {
         "fof-oauth": {
             "admin": {
