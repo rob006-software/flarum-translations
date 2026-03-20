@@ -3,9 +3,9 @@
         "lib": {
             "data": {
                 "uploads": {
-                    "export_description": "",
-                    "anonymize_description": "",
-                    "delete_description": ""
+                    "export_description": "Toate fișierele încărcate de utilizator.",
+                    "anonymize_description": "Elimină referința utilizatorului din fișierele încărcate. Fișierele rămân accesibile utilizatorilor care le puteau vizualiza înainte de anonimizare.",
+                    "delete_description": "Șterge toate fișierele încărcate de utilizator."
                 }
             }
         }
@@ -13,109 +13,109 @@
     "fof-upload": {
         "admin": {
             "nav": {
-                "shared-uploads-button": ""
+                "shared-uploads-button": "Încărcări partajate"
             },
             "shared-uploads": {
-                "description": "",
-                "introduction": "",
-                "no-files": "",
-                "title": "",
-                "upload-new-button": ""
+                "description": "Încarcă fișiere ce pot fi utilizate de toți utilizatorii forumului.",
+                "introduction": "Încărcările partajate sunt fișiere ce pot fi folosite de toți utilizatorii forumului. Acestea nu sunt atașate niciunei postări, dar pot fi inserate în postări prin intermediul managerului media.\n\n<strong>Avertisment:</strong> Încărcările partajate nu sunt protejate de permisiuni. Oricine deține URL-ul le poate vizualiza.\n",
+                "no-files": "Nu au fost încărcate încă fișiere partajate.",
+                "title": "Încărcări partajate",
+                "upload-new-button": "Încarcă fișier nou"
             },
             "pane": {
-                "title": "",
-                "description": ""
+                "title": "Încarcă",
+                "description": "Configurează serviciile de încărcare și preferințele."
             },
             "help_texts": {
-                "disable-download-logging": "",
-                "disable-hotlink-protection": "",
-                "download_templates": "",
-                "mime_types": "",
-                "resize": "",
-                "client_extension": "",
-                "watermark": "",
-                "s3_compatible_storage": "",
-                "s3_acl": "",
-                "custom_s3_url": "",
-                "s3_instance_profile": "",
-                "composer_buttons": ""
+                "disable-download-logging": "Dezactivează jurnalizarea fiecărei descărcări efectuate de utilizatorii forumului. Menținerea activă îți permite să vizualizezi numărul de descărcări și alte metrici în viitorul apropiat.\n",
+                "disable-hotlink-protection": "Protecția hotlink previne deschiderea descărcărilor de pe alte site-uri. Metoda actuală necesită un token CSRF și ID-ul postării.\n",
+                "download_templates": "Șabloanele de descărcare determină modul în care sunt afișate încărcările pe forum, de exemplu sub formă de previzualizări sau butoane. Momentan disponibile:\n",
+                "mime_types": "Te rugăm să îți configurezi maparea aici. Fiecare expresie regulată de tip MIME va fi gestionată de un adaptor de încărcare și un șablon de descărcare specific.\n",
+                "resize": "Alege dacă dorești să redimensionezi imaginile înainte de a fi încărcate. Poți alege o lățime și o înălțime maximă, în pixeli. Procesul de redimensionare păstrează raportul de aspect al imaginilor.\n",
+                "client_extension": "În mod implicit, Modulul de Încărcare va alege o extensie de fișier sigură bazată pe tipul MIME.\nPentru unele tipuri de fișiere bazate pe formate ZIP sau date binare, acest lucru poate duce la utilizarea unor extensii generice în locul celei așteptate.\nAici poți introduce o listă de extensii, separate prin virgulă, care vor fi păstrate întocmai.\n",
+                "watermark": "Alege dacă imaginile vor avea un watermark adăugat în timpul încărcării. Watermark-urile sunt adăugate fișierelor care nu sunt de tip GIF, pe baza preferințelor tale de mai jos.\n",
+                "s3_compatible_storage": "Următoarele setări sunt necesare doar atunci când utilizezi un mediu de stocare compatibil S3. Dacă utilizezi AWS, le poți lăsa necompletate.\n",
+                "s3_acl": "ACL-ul care ar trebui aplicat obiectului încărcat (implicit: privat). Pentru valorile posibile, consultă https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
+                "custom_s3_url": "Utilizează această setare dacă folosești un serviciu compatibil S3 care necesită un format specific de URL (de exemplu, Backblaze B2) sau dacă întâmpini probleme cu formatul implicit al URL-ului. Această setare nu este, în general, necesară pentru majoritatea serviciilor. Asigură-te că URL-ul include protocolul (https://) și este formatat corect. Exemplu: https://your-bucket.s3.your-region.backblazeb2.com\n",
+                "s3_instance_profile": "Lasă cheia și secretul necompletate pentru a utiliza acreditările din profilul instanței.\n",
+                "composer_buttons": "În mod implicit, atât butonul managerului media, cât și butonul de încărcare sunt vizibile. Poți alege, de asemenea, să afișezi un singur buton.\n"
             },
             "labels": {
                 "aws-s3": {
-                    "bucket": "",
-                    "key": "",
-                    "region": "",
-                    "secret": "",
-                    "title": "",
-                    "advanced_title": "",
-                    "endpoint": "",
-                    "use_path_style_endpoint": "",
-                    "acl": "",
-                    "custom_url": ""
+                    "bucket": "Bucket",
+                    "key": "Cheie",
+                    "region": "Regiune",
+                    "secret": "Secret",
+                    "title": "Setări stocare AWS S3",
+                    "advanced_title": "Setări avansate stocare S3",
+                    "endpoint": "Endpoint",
+                    "use_path_style_endpoint": "Utilizează punctul de terminare în stil cale (path-style endpoint)",
+                    "acl": "Listă de Control al Accesului (ACL)",
+                    "custom_url": "URL S3 personalizat"
                 },
                 "disable-download-logging": {
-                    "title": "",
-                    "toggle": ""
+                    "title": "Dezactivează jurnalizarea descărcărilor",
+                    "toggle": "Dezactivează"
                 },
                 "disable-hotlink-protection": {
-                    "title": "",
-                    "toggle": ""
+                    "title": "Dezactivează protecția împotriva hotlinking-ului",
+                    "toggle": "Dezactivează"
                 },
                 "imgur": {
-                    "client_id": "",
-                    "title": "",
-                    "tos": ""
+                    "client_id": "ID client Imgur",
+                    "title": "Setări stocare imagini Imgur",
+                    "tos": "Este responsabilitatea ta să te asiguri că utilizatorii forumului tău respectă <a>Termenii și condițiile</a> Imgur"
                 },
                 "local": {
-                    "cdn_url": "",
-                    "title": ""
+                    "cdn_url": "URL de livrare a conținutului (prefixează fișierele)",
+                    "title": "Setări stocare locală"
                 },
-                "configured_by_environment": "",
+                "configured_by_environment": "Setările tale de stocare au fost pre-configurate prin variabile de mediu.",
                 "qiniu": {
-                    "title": "",
-                    "key": "",
-                    "secret": "",
-                    "bucket": ""
+                    "title": "Setări stocare Qiniu",
+                    "key": "Cheie",
+                    "secret": "Secret",
+                    "bucket": "Bucket"
                 },
                 "preferences": {
-                    "max_file_size": "",
-                    "mime_types": "",
-                    "title": "",
-                    "php_ini_values": ""
+                    "max_file_size": "Dimensiunea maximă a fișierului (în kiloocteți)",
+                    "mime_types": "Configurează maparea tipului MIME și a adaptorului de încărcare",
+                    "title": "Preferințe generale",
+                    "php_ini_values": "Valorile tale <code>php.ini</code> sunt <code>post_max_size={post}</code> și <code>upload_max_filesize={upload}</code>. Asigură-te că valoarea setată aici este sub aceste praguri sau ajustează-le corespunzător. Dacă folosești <code>Nginx</code>, asigură-te de asemenea că <code>client_max_body_size</code> are o dimensiune suficientă pentru limita maximă aleasă."
                 },
                 "resize": {
-                    "max_width": "",
-                    "title": "",
-                    "toggle": ""
+                    "max_width": "Lățimea/înălțimea maximă a imaginii",
+                    "title": "Redimensionare imagine",
+                    "toggle": "Redimensionează imaginile"
                 },
                 "client_extension": {
-                    "title": ""
+                    "title": "Extensii de fișiere furnizate de utilizator"
                 },
                 "watermark": {
-                    "file": "",
-                    "position": "",
-                    "title": "",
-                    "toggle": ""
+                    "file": "Încarcă imaginea pentru watermark",
+                    "position": "Poziție watermark",
+                    "title": "Imagini cu watermark",
+                    "toggle": "Imagini watermark"
                 },
                 "svg-sanitizer": {
-                    "title": "",
-                    "allow_animate": "",
-                    "help": "",
-                    "allow_animate_help": ""
+                    "title": "Sanitizator SVG",
+                    "allow_animate": "Permite animațiile SVG",
+                    "help": "Configurează modul în care fișierele SVG sunt procesate și sanitizate la încărcare. Fișierele SVG pot conține scripturi potențial dăunătoare și trebuie manipulate cu atenție. Fișierele SVG încărcate sunt sanitizate în momentul procesării, iar scripturile și etichetele dăunătoare sunt eliminate.",
+                    "allow_animate_help": "Activarea animațiilor SVG poate introduce vulnerabilități de securitate, deoarece fișierele SVG animate pot conține cod malițios. Activează această setare pe propriul risc și doar dacă ai încredere în utilizatorii tăi."
                 },
                 "composer_buttons": {
-                    "title": "",
+                    "title": "Butoane editor (Composer)",
                     "options": {
-                        "both": "",
-                        "upload-btn": "",
-                        "media-btn": ""
+                        "both": "Ambele",
+                        "upload-btn": "Doar buton încărcare",
+                        "media-btn": "Doar buton manager media"
                     }
                 },
-                "inspect-mime": ""
+                "inspect-mime": "Testează tipul MIME al fișierului"
             },
             "permissions": {
-                "download_label": "",
-                "upload_label": "",
+                "download_label": "Descarcă fișiere",
+                "upload_label": "Încarcă fișiere",
                 "view_user_uploads_label": "",
                 "delete_uploads_of_others_label": "",
                 "upload_shared_label": "",
