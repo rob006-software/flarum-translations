@@ -7,30 +7,30 @@
                 "group_sequential_posts": ""
             },
             "permissions": {
-                "move_posts": ""
+                "move_posts": "=> fof-move-posts.ref.move_posts"
             }
         },
         "forum": {
             "badge": {
-                "first_moved_tooltip": ""
+                "first_moved_tooltip": "Verschoben"
             },
             "discussion": {
-                "move_posts": ""
+                "move_posts": "=> fof-move-posts.ref.move_posts"
             },
             "error": {
-                "move_old_post_to_newer_discussion": "",
-                "move_posts_to_same_discussion": ""
+                "move_old_post_to_newer_discussion": "=> fof-move-posts.ref.status.old_to_new_move",
+                "move_posts_to_same_discussion": "Beiträge können nicht in dieselbe Diskussion verschoben werden."
             },
             "modal": {
                 "check": "",
-                "destination": "",
+                "destination": "Zieldiskussion",
                 "discussion_help": "",
-                "discussion_name": "",
-                "new_discussion": "",
-                "selected_posts": "",
+                "discussion_name": "=> core.forum.composer_discussion.title_placeholder",
+                "new_discussion": "Neue Diskussion",
+                "selected_posts": "{count, plural, one {Ein Beitrag ausgewählt} other {{count} Beiträge ausgewählt}}",
                 "status": {
                     "complex_move": "",
-                    "old_to_new_move": "",
+                    "old_to_new_move": "=> fof-move-posts.ref.status.old_to_new_move",
                     "simple_move": ""
                 },
                 "submit": "",
@@ -41,8 +41,8 @@
             },
             "post": {
                 "unmove": "",
-                "move": "",
-                "moving": ""
+                "move": "Zum Verschieben auswählen",
+                "moving": "Beitrag verschieben"
             },
             "post_stream": {
                 "post_moved": ""
@@ -57,7 +57,7 @@
         "lib": {
             "discussion": {
                 "first_post": {
-                    "default_content": ""
+                    "default_content": "*Dieser Beitrag wurde verschoben nach **[%DISCUSSION_NAME%](%POST_LINK%)**.*\n"
                 }
             }
         }
