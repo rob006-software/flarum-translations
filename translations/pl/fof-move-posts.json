@@ -37,8 +37,8 @@
                 "title": "=> fof-move-posts.ref.move_posts"
             },
             "alerts": {
-                "posts_moved": "",
-                "posts_moved_to": ""
+                "posts_moved": "{count, plural, one {Post został przeniesiony.} few {Przeniesiono {count} posty.} other {Przeniesiono {count} postów.}}",
+                "posts_moved_to": "{count, plural, one {Post został przeniesiony do {target_discussion}.} few {Przeniesiono {count} posty do {target_discussion}.} other {Przeniesiono {count} postów do {target_discussion}.}}"
             },
             "notifications": {
                 "post_moved_text": "Jeden z Twoich postów został przeniesiony do {targetDiscussionTitle}."
