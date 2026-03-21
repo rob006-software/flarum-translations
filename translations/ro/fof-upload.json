@@ -145,84 +145,84 @@
                 "image_description": "Afișează o miniatură a imaginii și procesează descărcarea prin PHP. Permite colectarea statisticilor și protecția împotriva hotlink-urilor.\n",
                 "image-preview": "Șablon complet pentru previzualizarea imaginii",
                 "image-preview_description": "Afișează imaginea completă direct în text (in-line). Fără funcție de descărcare, nu sunt colectate statistici, iar protecția împotriva hotlink-urilor este ignorată.\n",
-                "markdown-image": "",
-                "markdown-image_description": "",
-                "bbcode-image": "",
-                "bbcode-image_description": "",
-                "just-url": "",
-                "just-url_description": "",
-                "text-preview": "",
-                "text-preview_description": ""
+                "markdown-image": "Șablon Markdown pentru imagini",
+                "markdown-image_description": "Afișează imaginea completă în text (in-line) folosind Markdown. <strong>Trebuie să aveți flarum/markdown instalat și activat pentru ca acest lucru să funcționeze.</strong> Nu există funcționalitate de descărcare, nu se colectează statistici și protecția împotriva hotlink-ului este ignorată.\n",
+                "bbcode-image": "Șablon BBCode pentru imagini",
+                "bbcode-image_description": "Afișează imaginea completă în text (in-line) folosind BBCode. <strong>Trebuie să aveți flarum/bbcode instalat și activat pentru ca acest lucru să funcționeze.</strong> Nu există funcționalitate de descărcare, nu se colectează statistici și protecția împotriva hotlink-ului este ignorată.\n",
+                "just-url": "Doar URL",
+                "just-url_description": "Inserează doar adresa URL. Randarea poate fi gestionată de alte extensii cu funcție de auto-link. Nu există funcționalitate de descărcare, nu se colectează statistici și protecția împotriva hotlink-ului este ignorată.\n",
+                "text-preview": "Previzualizare text",
+                "text-preview_description": "Inserează o previzualizare (primele 5 rânduri) a fișierului text, cu opțiunea de a extinde pentru a afișa conținutul complet al fișierului.\n"
             },
             "upload_methods": {
-                "aws-s3": "",
-                "imgur": "",
-                "local": "",
-                "ovh-svfs": "",
-                "qiniu": ""
+                "aws-s3": "S3 sau Compatibil",
+                "imgur": "Imgur",
+                "local": "Local",
+                "ovh-svfs": "OVH SVFS",
+                "qiniu": "QiNiu"
             },
             "inspect-mime": {
-                "title": "",
-                "description": "",
-                "select": "",
-                "laravel-validation": "",
-                "no-file-selected": "",
-                "validation-passed": "",
-                "validation-failed": "",
-                "mime-detector": "",
-                "mime-fileinfo": "",
-                "guessed-extension": "",
-                "not-available": ""
+                "title": "Inspectează tipul MIME",
+                "description": "FoF Upload folosește biblioteca <a>PHP Mime Detector</a> pentru tipurile MIME comune și PHP Fileinfo ca rezervă.\nValoarea MIME returnată de Fileinfo poate fi diferită de la un server la altul!\n",
+                "select": "Selectați un fișier mai jos pentru a inspecta valorile care vor fi utilizate. Fișierul nu va fi salvat.",
+                "laravel-validation": "Validare fișiere Laravel",
+                "no-file-selected": "Niciun fișier",
+                "validation-passed": "Validat",
+                "validation-failed": "Eșuat: {error}",
+                "mime-detector": "Detector MIME (principal)",
+                "mime-fileinfo": "PHP Fileinfo (fallback)",
+                "guessed-extension": "Extensie de fișier implicită (dacă originalul nu este în lista albă)",
+                "not-available": "Niciun rezultat"
             }
         },
         "forum": {
-            "media_manager": "",
+            "media_manager": "Manager media",
             "buttons": {
-                "attach": "",
-                "upload": "",
-                "upload_shared": "",
-                "user_uploads": "",
-                "cancel": "",
-                "media": "",
-                "shared_media": ""
+                "attach": "Atașează",
+                "upload": "Încărcare",
+                "upload_shared": "Partajat",
+                "user_uploads": "Încărcările utilizatorului",
+                "cancel": "Anulează",
+                "media": "Media mea",
+                "shared_media": "Media partajată"
             },
             "states": {
-                "error": "",
-                "loading": "",
-                "unauthorized": ""
+                "error": "Eroare",
+                "loading": "Se încarcă",
+                "unauthorized": "Nu aveți permisiunea de a descărca fișiere"
             },
             "validation": {
-                "max_size": ""
+                "max_size": "Încărcările de peste {max} kb nu sunt acceptate."
             },
             "text_preview": {
-                "expand": "",
-                "collapse": "",
+                "expand": "Extinde previzualizarea",
+                "collapse": "Restrânge previzualizarea",
                 "download": "",
-                "error": "",
-                "no_snippet_preview": "",
-                "no_snippet": ""
+                "error": "Eroare la previzualizarea fișierului. Este posibil să fi fost șters sau ID-ul fișierului furnizat este nevalid.\n",
+                "no_snippet_preview": "<previzualizarea va apărea aici după postare>",
+                "no_snippet": "<niciun fragment de previzualizare disponibil>"
             }
         },
         "api": {
             "upload_errors": {
-                "forbidden_type": "",
+                "forbidden_type": "Încărcarea fișierelor de acest tip nu este permisă.",
                 "mime_permission_denied": "",
-                "unsupported_type": "",
-                "could_not_detect_mime": "",
-                "max_upload_file_size_ini": "",
-                "max_upload_file_size_form": "",
-                "partial_upload": "",
-                "no_file_uploaded": "",
-                "no_upload_tmp_folder": "",
-                "cannot_write_to_disk": "",
-                "upload_blocked_by_php_extension": "",
-                "no_files_made_it_to_upload": ""
+                "unsupported_type": "Adaptorul de încărcare nu acceptă tipul MIME furnizat: {mime}.",
+                "could_not_detect_mime": "Nu s-a putut detecta tipul MIME al acestui fișier, vă rugăm să încercați din nou.",
+                "max_upload_file_size_ini": "Limita maximă de încărcare a fișierelor a fost atinsă din configurația php.ini.",
+                "max_upload_file_size_form": "Limita maximă de încărcare a fișierului a fost atinsă din formular.",
+                "partial_upload": "Încărcare parțială.",
+                "no_file_uploaded": "Niciun fișier încărcat.",
+                "no_upload_tmp_folder": "Nu există folderul temporar pentru încărcarea fișierelor.",
+                "cannot_write_to_disk": "Nu s-a putut scrie pe disc.",
+                "upload_blocked_by_php_extension": "O extensie PHP a blocat încărcarea.",
+                "no_files_made_it_to_upload": "Vă rugăm să încărcați fișiere nu mai mari de {max} kb."
             }
         },
         "lib": {
             "upload-shared-file-modal": {
-                "title": "",
-                "dropzone": "",
+                "title": "Fișier nou partajat",
+                "dropzone": "Trageți și plasați fișierele aici sau faceți clic pentru a răsfoi",
                 "hide-from-media-gallery": "",
                 "upload": ""
             },
