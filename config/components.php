@@ -854,6 +854,12 @@ return [
 			'zh_Hans',
 		],
 	],
+	'framiodev-direct-chat' => [
+		'tag' => 'https://raw.githubusercontent.com/framiodev/direct-chat/v1.0.5/locale/en.yml',
+		'__builtInLanguages' => [
+			'tr',
+		],
+	],
 	'ganuonglachanh-sonic' => [
 		'tag' => 'https://raw.githubusercontent.com/ganuonglachanh/flarum-sonic/0.1.9/resources/locale/en.yml',
 	],
