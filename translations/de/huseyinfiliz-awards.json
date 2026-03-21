@@ -182,40 +182,40 @@
                 "wrong": "Falsch:"
             },
             "category": {
-                "nominees_count": "",
-                "votes_used": "",
-                "votes_unlimited": ""
+                "nominees_count": "{count} Nominierte",
+                "votes_used": "{used}/{limit} Stimmen",
+                "votes_unlimited": "{count} Stimmen"
             },
             "other": {
-                "suggest": "",
-                "click_to_suggest": "",
-                "placeholder": "",
-                "submit": "",
-                "success": "",
-                "already_submitted": "",
-                "pending_count": "",
-                "remaining": "",
-                "no_remaining": "",
-                "my_suggestions": "",
-                "no_suggestions": "",
-                "cancel": "",
-                "status_pending": "",
-                "status_approved": "",
-                "status_rejected": "",
-                "status_merged": "",
-                "cancel_confirm": ""
+                "suggest": "Andere vorschlagen",
+                "click_to_suggest": "Klicken, um einen Kandidaten vorzuschlagen",
+                "placeholder": "Namen des Nominierten eingeben...",
+                "submit": "Vorschlag einreichen",
+                "success": "Vorschlag eingereicht! Er wird von den Moderatoren geprüft.",
+                "already_submitted": "Du hast bereits einen Vorschlag für diese Kategorie eingereicht.",
+                "pending_count": "{count} ausstehende Vorschläge",
+                "remaining": "{count} verbleibende Vorschläge",
+                "no_remaining": "Es sind keine Plätze für Vorschläge mehr verfügbar",
+                "my_suggestions": "Meine Vorschläge",
+                "no_suggestions": "Du hast noch keine Vorschläge eingereicht.",
+                "cancel": "Abbrechen",
+                "status_pending": "Ausstehend",
+                "status_approved": "Genehmigt",
+                "status_rejected": "Abgelehnt",
+                "status_merged": "Zusammengeführt",
+                "cancel_confirm": "Diesen Vorschlag verwerfen?"
             },
             "empty": {
-                "no_awards": "",
-                "no_awards_description": "",
+                "no_awards": "Keine aktiven Auszeichnungen",
+                "no_awards_description": "Derzeit sind keine Auszeichnungen verfügbar. Schaue später noch einmal vorbei!",
                 "no_categories": "In dieser Auszeichnung gibt es noch keine Kategorien.",
                 "no_nominees": "In dieser Kategorie gibt es noch keine Kandidaten."
             },
             "notification": {
-                "results_published": ""
+                "results_published": "Die Ergebnisse für {awardName} wurden veröffentlicht!"
             },
             "error": {
-                "voting_closed": "",
+                "voting_closed": "Abstimmung ist beendet.",
                 "rate_limit": "",
                 "other_not_allowed": "",
                 "vote_limit_reached": "",
