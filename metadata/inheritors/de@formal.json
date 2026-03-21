@@ -1646,6 +1646,12 @@
     },
     "ekumanov-inline-audio.json": {
         "ekumanov-inline-audio": {
+            "admin": {
+                "settings": {
+                    "show_download_button": "c4c88c57db1a59719e1dd140d8ebfbc4 c4c88c57db1a59719e1dd140d8ebfbc4",
+                    "show_right_click_download": "ea28d49c12b695b773b3320713d1c138 ea28d49c12b695b773b3320713d1c138"
+                }
+            },
             "forum": {
                 "bbcode_description": "4d1ac4046b4954fdfdeb7a54c9f02367 4d1ac4046b4954fdfdeb7a54c9f02367"
             }
@@ -6829,7 +6835,7 @@
         "import-ai-webhook-notification": {
             "admin": {
                 "settings": {
-                    "channel_icon_help": "19fe2824dbcb0affdb6c19ef5a0d4904 19fe2824dbcb0affdb6c19ef5a0d4904",
+                    "channel_icon_help": "f34f7431dd0f3cf8a816ba6731583ad1 f34f7431dd0f3cf8a816ba6731583ad1",
                     "channel_icon_label": "7387c62e8a71f7dfa7b7217e0bedaf1a 7387c62e8a71f7dfa7b7217e0bedaf1a",
                     "channel_label_help": "8bdc80119a1a1d3d7ec9dd10b6d4dc0a 8bdc80119a1a1d3d7ec9dd10b6d4dc0a",
                     "channel_label_label": "9d8977fd814b17d113e966d7aed407d8 9d8977fd814b17d113e966d7aed407d8",
@@ -6843,6 +6849,9 @@
                     "webhook_url_label": "73f814002f27c6adf54646700027f2fa 73f814002f27c6adf54646700027f2fa"
                 },
                 "validation": {
+                    "channel_icon_invalid": "d824379c1984782b6b6f2fba2c94df07 d824379c1984782b6b6f2fba2c94df07",
+                    "channel_label_required": "4564b4ff31726d58b9920e00664c0d1f 4564b4ff31726d58b9920e00664c0d1f",
+                    "retry_count_invalid": "ba291e00da8296961960404224d79785 ba291e00da8296961960404224d79785",
                     "timeout_invalid": "0e3700222e9564f4c87569046a3ce1d3 0e3700222e9564f4c87569046a3ce1d3"
                 }
             },
