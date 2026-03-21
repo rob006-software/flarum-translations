@@ -5060,16 +5060,18 @@
             },
             "forum": {
                 "category": {
-                    "nominees_count": "d41d8cd98f00b204e9800998ecf8427e b62825b96af374970dc84c59bf1565d1",
-                    "votes_unlimited": "d41d8cd98f00b204e9800998ecf8427e c9f1718ba2dd5c21e24a4e23eff6f4fe",
-                    "votes_used": "d41d8cd98f00b204e9800998ecf8427e f95cbbe70107ef4f4acbbe11ba958fe7"
+                    "nominees_count": "370209aa56a7a4f2ddbc0c8f0f68f629 b62825b96af374970dc84c59bf1565d1",
+                    "votes_unlimited": "c9f1718ba2dd5c21e24a4e23eff6f4fe c9f1718ba2dd5c21e24a4e23eff6f4fe",
+                    "votes_used": "f95cbbe70107ef4f4acbbe11ba958fe7 f95cbbe70107ef4f4acbbe11ba958fe7"
                 },
                 "empty": {
+                    "no_awards": "87ec2df0a22841d0d7bd522424f94271 87ec2df0a22841d0d7bd522424f94271",
+                    "no_awards_description": "53deb252c057074e9e642ef0cdd042c2 53deb252c057074e9e642ef0cdd042c2",
                     "no_categories": "ef4d5a0f76c3631a624d501aab20857b ef4d5a0f76c3631a624d501aab20857b",
                     "no_nominees": "549980272e262ab446a1ab858ae450d4 549980272e262ab446a1ab858ae450d4"
                 },
                 "error": {
-                    "voting_closed": "d41d8cd98f00b204e9800998ecf8427e 434f3eec70fbc08465eebe5058a93294"
+                    "voting_closed": "434f3eec70fbc08465eebe5058a93294 434f3eec70fbc08465eebe5058a93294"
                 },
                 "hero": {
                     "countdown": "d03eb849b22da015fce866093d51801a d03eb849b22da015fce866093d51801a",
@@ -5097,14 +5099,27 @@
                     "categories": "2d707e301392c9ecf968755f45a08273 2d707e301392c9ecf968755f45a08273",
                     "title": "e0ff506853e3826e309fbebcf31dd902 e0ff506853e3826e309fbebcf31dd902"
                 },
+                "notification": {
+                    "results_published": "c11a3ad1c58031b5eb2b3a9186fa0480 c11a3ad1c58031b5eb2b3a9186fa0480"
+                },
                 "other": {
-                    "cancel": "d41d8cd98f00b204e9800998ecf8427e 4b97278b444c0203fc17d7b93a39f5c7",
-                    "status_approved": "d41d8cd98f00b204e9800998ecf8427e 9272267d7a7c7a0358fc450db24f4253",
-                    "status_merged": "d41d8cd98f00b204e9800998ecf8427e d441c1344c2878c48683ead656ec6d16",
-                    "status_pending": "d41d8cd98f00b204e9800998ecf8427e 785dd3dc38ecc4290d644a7c141e8e99",
-                    "status_rejected": "d41d8cd98f00b204e9800998ecf8427e 76bec9222b6c223f96d25f8b79492ca2",
-                    "submit": "d41d8cd98f00b204e9800998ecf8427e 56faa9e9e5da3c2b586ed067bcd3c32b",
-                    "suggest": "d41d8cd98f00b204e9800998ecf8427e fe6158a8b5ac55cbf50926f8b05b4fda"
+                    "already_submitted": "0b406d49fdce03d72cf0a2bb55099bf9 0b406d49fdce03d72cf0a2bb55099bf9",
+                    "cancel": "4b97278b444c0203fc17d7b93a39f5c7 4b97278b444c0203fc17d7b93a39f5c7",
+                    "cancel_confirm": "de674c0d8d0085c3eff70e5dc23041a2 de674c0d8d0085c3eff70e5dc23041a2",
+                    "click_to_suggest": "7f99ec2269952d0c69855f23a8995985 7f99ec2269952d0c69855f23a8995985",
+                    "my_suggestions": "464aad3669b72755dcede049f5d8b29e 464aad3669b72755dcede049f5d8b29e",
+                    "no_remaining": "27e80c76b326181bd49637cbe59acb19 27e80c76b326181bd49637cbe59acb19",
+                    "no_suggestions": "5a940b7cf9449258c35f92336648301f 5a940b7cf9449258c35f92336648301f",
+                    "pending_count": "e109c965488b10401b2bb3ed2cf822e6 e109c965488b10401b2bb3ed2cf822e6",
+                    "placeholder": "9be2b646f22e232ee3d717e651d45be8 9be2b646f22e232ee3d717e651d45be8",
+                    "remaining": "6edec47324a8a436324f61f19788bdda 6edec47324a8a436324f61f19788bdda",
+                    "status_approved": "a5f08c4e2f22e5f7e6221fbeb627c56f 9272267d7a7c7a0358fc450db24f4253",
+                    "status_merged": "d441c1344c2878c48683ead656ec6d16 d441c1344c2878c48683ead656ec6d16",
+                    "status_pending": "785dd3dc38ecc4290d644a7c141e8e99 785dd3dc38ecc4290d644a7c141e8e99",
+                    "status_rejected": "76bec9222b6c223f96d25f8b79492ca2 76bec9222b6c223f96d25f8b79492ca2",
+                    "submit": "8e601f793da633e28831cbd451e21fca 56faa9e9e5da3c2b586ed067bcd3c32b",
+                    "success": "4ab3d7eae81b7aa278e9bd023b834b40 4ab3d7eae81b7aa278e9bd023b834b40",
+                    "suggest": "fe6158a8b5ac55cbf50926f8b05b4fda fe6158a8b5ac55cbf50926f8b05b4fda"
                 },
                 "page": {
                     "previous_awards": "6203c60cce7590dedbc186b072952883 6203c60cce7590dedbc186b072952883",

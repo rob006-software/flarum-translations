@@ -189,31 +189,31 @@
             },
             "other": {
                 "suggest": "Andere vorschlagen",
-                "click_to_suggest": "",
-                "placeholder": "",
+                "click_to_suggest": "Klicken, um einen Kandidaten vorzuschlagen",
+                "placeholder": "Namen des Nominierten eingeben...",
                 "submit": "Kandidaten vorschlagen",
-                "success": "",
-                "already_submitted": "",
-                "pending_count": "",
-                "remaining": "",
-                "no_remaining": "",
-                "my_suggestions": "",
-                "no_suggestions": "",
+                "success": "Vorschlag eingereicht! Er wird von den Moderatoren geprüft.",
+                "already_submitted": "Du hast bereits einen Vorschlag für diese Kategorie eingereicht.",
+                "pending_count": "{count} ausstehende Vorschläge",
+                "remaining": "{count} verbleibende Vorschläge",
+                "no_remaining": "Es sind keine Plätze für Vorschläge mehr verfügbar",
+                "my_suggestions": "Meine Vorschläge",
+                "no_suggestions": "Du hast noch keine Vorschläge eingereicht.",
                 "cancel": "Abbrechen",
                 "status_pending": "Ausstehend",
                 "status_approved": "Angenommen",
                 "status_rejected": "Abgelehnt",
                 "status_merged": "Zusammengeführt",
-                "cancel_confirm": ""
+                "cancel_confirm": "Diesen Vorschlag verwerfen?"
             },
             "empty": {
-                "no_awards": "",
-                "no_awards_description": "",
+                "no_awards": "Keine aktiven Auszeichnungen",
+                "no_awards_description": "Derzeit sind keine Auszeichnungen verfügbar. Schaue später noch einmal vorbei!",
                 "no_categories": "In dieser Auszeichnung gibt es noch keine Kategorien.",
                 "no_nominees": "In dieser Kategorie gibt es noch keine Kandidaten."
             },
             "notification": {
-                "results_published": ""
+                "results_published": "Die Ergebnisse für {awardName} wurden veröffentlicht!"
             },
             "error": {
                 "voting_closed": "Abstimmung ist beendet.",
