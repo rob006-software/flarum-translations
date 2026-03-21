@@ -217,16 +217,16 @@
             },
             "error": {
                 "voting_closed": "Abstimmung ist beendet.",
-                "rate_limit": "",
-                "other_not_allowed": "",
-                "vote_limit_reached": "",
-                "vote_quota_exhausted": "",
-                "cannot_delete_processed_suggestion": "",
-                "not_available": ""
+                "rate_limit": "Zu viele Stimmen. Bitte einen Moment warten.",
+                "other_not_allowed": "In dieser Kategorie werden keine Vorschläge angenommen.",
+                "vote_limit_reached": "In dieser Kategorie kannst du nur für {limit} Nominierte stimmen.",
+                "vote_quota_exhausted": "Du hast alle deine verfügbaren Stimmen/Vorschläge für diese Kategorie bereits abgegeben.",
+                "cannot_delete_processed_suggestion": "Es können nur ausstehende Vorschläge storniert werden.",
+                "not_available": "Diese Auszeichnung ist noch nicht verfügbar."
             }
         },
         "lib": {
-            "success_message": "",
+            "success_message": "Änderungen erfolgreich gespeichert!",
             "actions": "Aktionen",
             "votes": "Stimmen",
             "slug": "Slug",
@@ -236,7 +236,7 @@
             "move_down": "Nach unten",
             "upload_image": "Bild hochladen",
             "upload_success": "Bild erfolgreich hochgeladen",
-            "upload_error": "",
+            "upload_error": "Das Hochladen des Bildes ist fehlgeschlagen",
             "save": "Änderungen speichern"
         }
     }
