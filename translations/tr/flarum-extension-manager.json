@@ -5,7 +5,7 @@
                 "add_label": "Yeni kimlik doğrulama yöntemi",
                 "add_modal": {
                     "host_label": "Sunucu",
-                    "host_placeholder": "",
+                    "host_placeholder": "ör. bearer.flarum.org",
                     "submit_button": "Gönder",
                     "token_label": "Jeton",
                     "type_label": "Tür",
@@ -98,43 +98,43 @@
                 "update": "Güncelle"
             },
             "minor_update_confirmation": {
-                "content": ""
+                "content": "Bu işlem, mevcut güncellemeleri içeren diğer tüm eklentileri/paketleri de güncelleyecektir."
             },
-            "required_php_functions": "",
+            "required_php_functions": "Eklenti yöneticisi aşağıdaki PHP fonksiyonlarının etkinleştirilmesini gerektirir: <code>{functions}</code>. PHP yapılandırmasına erişiminiz yoksa lütfen hosting sağlayıcınızla iletişime geçin.\n",
             "sections": {
                 "discover": {
-                    "description": "",
-                    "empty_results": "",
+                    "description": "Flarum forumunuza eklentilerle yeni özellikler ve entegrasyonlar ekleyin.",
+                    "empty_results": "Görünüşe göre kullanılabilir uzantı yok.",
                     "extension": {
                         "badges": {
-                            "compatible": "",
-                            "fof": "",
-                            "flarum": "",
-                            "incompatible": "",
-                            "premium": "",
-                            "unstable": ""
+                            "compatible": "Uyumlu",
+                            "fof": "Friends Of Flarum",
+                            "flarum": "Flarum",
+                            "incompatible": "Uyumlu değil",
+                            "premium": "Premium",
+                            "unstable": "Kararsız"
                         },
-                        "downloads": ""
+                        "downloads": "{count, plural, one {{formattedCount} indirme} other {{formattedCount} indirme}}"
                     },
-                    "premium_extension_terms": "",
-                    "search": "",
-                    "server_error": "",
+                    "premium_extension_terms": "Premium uzantı şartları",
+                    "search": "Arayın...",
+                    "server_error": "Hizmet şu anda kullanılamıyor, lütfen daha sonra tekrar deneyin.",
                     "sort": {
-                        "toggle_dropdown_accessible_label": "",
-                        "top": "",
-                        "latest": ""
+                        "toggle_dropdown_accessible_label": "Sıralama seçeneklerini değiştir",
+                        "top": "En Çok İndirilenler",
+                        "latest": "En son"
                     },
                     "tabs": {
-                        "discover": "",
-                        "extensions": "",
-                        "languages": "",
-                        "themes": ""
+                        "discover": "Keşfet",
+                        "extensions": "Uzantılar",
+                        "languages": "Diller",
+                        "themes": "Temalar"
                     },
-                    "title": "",
+                    "title": "Uzantılar",
                     "party_filter": {
-                        "all": "",
-                        "premium": "",
-                        "toggle_dropdown_accessible_label": ""
+                        "all": "Tümü",
+                        "premium": "Premium",
+                        "toggle_dropdown_accessible_label": "Parti filtresini aç/kapat"
                     }
                 },
                 "queue": {
@@ -174,8 +174,8 @@
                     "title": "Sıra"
                 },
                 "settings": {
-                    "title": "",
-                    "description": ""
+                    "title": "Seçenekler ve Kuyruk",
+                    "description": "Uzantı yöneticisini yapılandırın ve kuyruktaki işlemleri kontrol edin."
                 }
             },
             "settings": {
@@ -183,12 +183,12 @@
                 "access_warning": "Lütfen yönetici alanına erişim izni verdiğiniz kişilere dikkat edin; uzantı yöneticisi, kötü kişiler tarafından güvenlik ihlallerine yol açabilecek paketler yüklemek amacıyla kötüye kullanılabilir.",
                 "debug_mode_warning": "Hata ayıklama modunda çalışıyorsunuz, uzantı yöneticisi yerel geliştirme paketlerini düzgün şekilde kurup güncelleyemiyor. Lütfen bu tür amaçlar için komut satırı arayüzünü kullanın.",
                 "queue_jobs": "İşlemleri arka planda çalıştır",
-                "queue_jobs_help": "",
+                "queue_jobs_help": "<basic_impl_link>Temel kuyruk</basic_impl_link> uygulaması veya <adv_impl_link>daha gelişmiş</adv_impl_link> bir uygulama hakkında bilgi edinebilirsiniz. Kuyruk için kullanılan PHP sürümünün {php_version} olduğundan emin olun. <folder_perms_link>klasör izinlerinin</folder_perms_link> doğru şekilde ayarlandığından emin olun.\n",
                 "task_retention_days": "Görev saklama günleri",
                 "task_retention_days_help": "Tamamlanan görevlerin veritabanında tutulacağı gün sayısı. Bundan daha eski olan görevler silinecektir. Tüm görevleri korumak için 0'a ayarlayın.\n"
             },
             "updater": {
-                "up_to_date": "",
+                "up_to_date": "Bekleyen güncelleme yok.",
                 "check_for_updates": "Güncellemeleri kontrol et",
                 "flarum": "Flarum Çekirdeği",
                 "global_update_successful": "Tüm paketler başarıyla güncellendi.",
