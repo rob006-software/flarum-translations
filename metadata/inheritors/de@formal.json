@@ -788,10 +788,29 @@
                         "apple": {
                             "client_id_label": "c426eaa7cf1591debbd911d01745f07a c426eaa7cf1591debbd911d01745f07a",
                             "description": "abe3ce0c9c1a74e93d3092e7069364b6 abe3ce0c9c1a74e93d3092e7069364b6",
+                            "key_file_id_label": "e37ad91f4fcfc8f44e9178105bc2803c e37ad91f4fcfc8f44e9178105bc2803c",
+                            "keyfile_upload": {
+                                "remove_button": "8daec51a81a6d931e68100f90c1d1794 8daec51a81a6d931e68100f90c1d1794",
+                                "upload_button": "b546a9a68c958221f34d6581d8fb941a b546a9a68c958221f34d6581d8fb941a"
+                            },
                             "keyfile_upload_help": "8d9d455d60beee0209c082af60c012b8 8b340e8452671a04e25b213ce1b349fd",
-                            "keyfile_upload_label": "009bbf7c004d233ce9294ca825186bbe 009bbf7c004d233ce9294ca825186bbe"
+                            "keyfile_upload_label": "009bbf7c004d233ce9294ca825186bbe 009bbf7c004d233ce9294ca825186bbe",
+                            "team_id_label": "bef897a8c47e61d636223173cc730325 bef897a8c47e61d636223173cc730325"
                         }
                     }
+                }
+            },
+            "forum": {
+                "log_in": {
+                    "with_apple_button": "cda5096699e318b53d1cd732a3db1271 cda5096699e318b53d1cd732a3db1271"
+                },
+                "providers": {
+                    "apple": "5aff8a82dda2bf74a02cdc1cadd23767 5aff8a82dda2bf74a02cdc1cadd23767"
+                }
+            },
+            "lib": {
+                "providers": {
+                    "apple": "9f6290f4436e5a2351f12e03b6433c3c 9f6290f4436e5a2351f12e03b6433c3c"
                 }
             }
         }
@@ -4163,6 +4182,7 @@
                     },
                     "settings": {
                         "add_script": "e85a2f1d6de3e3b0e71b1a2e19952659 e85a2f1d6de3e3b0e71b1a2e19952659",
+                        "admin_bypass_warning": "c14b8f398c69cd921f9b7dbbd46996ab c14b8f398c69cd921f9b7dbbd46996ab",
                         "alert": {
                             "code_has_script": "ab3b2ff5392e42db08087e6d74feeff2 ab3b2ff5392e42db08087e6d74feeff2",
                             "fix_errors": "9ac104ae9edf9b31bea56a434c3b53eb 9ac104ae9edf9b31bea56a434c3b53eb"
@@ -4183,7 +4203,8 @@
                         },
                         "script_deletion": "e48045e478342e49dd2dfa0e817dfd72 e48045e478342e49dd2dfa0e817dfd72",
                         "script_urls": "db9bc88e876dfa408458c26f421eea53 db9bc88e876dfa408458c26f421eea53",
-                        "use_adsense": "4ba2b37956f5588b42c3cfcd95207747 4ba2b37956f5588b42c3cfcd95207747"
+                        "use_adsense": "4ba2b37956f5588b42c3cfcd95207747 4ba2b37956f5588b42c3cfcd95207747",
+                        "warning": "0d3bbd8258161b36ccdde20855f2718a 0d3bbd8258161b36ccdde20855f2718a"
                     }
                 },
                 "lib": {
@@ -4520,7 +4541,7 @@
                     "add_label": "102fce86194ff94033ca309596134235 102fce86194ff94033ca309596134235",
                     "add_modal": {
                         "host_label": "c2ca16d048ec66e04bca283eab048ec2 c2ca16d048ec66e04bca283eab048ec2",
-                        "host_placeholder": "558a065e74ab4a4ac72a1eeaaa26502f 558a065e74ab4a4ac72a1eeaaa26502f",
+                        "host_placeholder": "a9dc810fcd94e062be2be396a01805ad a9dc810fcd94e062be2be396a01805ad",
                         "submit_button": "c10dbfd82ada39d491ee13697ce3034b c10dbfd82ada39d491ee13697ce3034b",
                         "token_label": "459a6f79ad9b13cbcb5f692d2cc7a94d 459a6f79ad9b13cbcb5f692d2cc7a94d",
                         "type_label": "c2ea84331318265913c436726c9c4ff3 c2ea84331318265913c436726c9c4ff3",
@@ -4590,7 +4611,7 @@
                 "extensions": {
                     "check_why_it_failed_updating": "379e8c589a6ae80b0ccc48af142f98a0 379e8c589a6ae80b0ccc48af142f98a0",
                     "install": "366b7b18423c523225984bb9b9f1c323 366b7b18423c523225984bb9b9f1c323",
-                    "install_help": "95809a088098b1a0b45e2d98ef2e4a3b dbac7b227d5901e0e5519fbaebc4f4af",
+                    "install_help": "9dee717ac5c7d6b31075ac276681a6a2 dbac7b227d5901e0e5519fbaebc4f4af",
                     "proceed": "6bb478b68c23107fa86bb14bdaf7bd0b 6bb478b68c23107fa86bb14bdaf7bd0b",
                     "remove": "e3e4ed7740f7c51d7a9f57157d71e5af e3e4ed7740f7c51d7a9f57157d71e5af",
                     "successful_install": "b9eb86caea6f0f0edeefdd33f9e68b2f b9eb86caea6f0f0edeefdd33f9e68b2f",
@@ -4871,7 +4892,10 @@
                     "anonymization_button": "44c49b78d4a3a72a9dea74a6d2e6a757 44c49b78d4a3a72a9dea74a6d2e6a757",
                     "comments_label": "2ff41efae67a5ecd8112d7be9060fde2 2ff41efae67a5ecd8112d7be9060fde2",
                     "confirm": "6992c8eea8a26bd8972294a7268d1324 6992c8eea8a26bd8972294a7268d1324",
+                    "confirmed_at": "71f4c1ca410a2cd1b95029244b63d09d 71f4c1ca410a2cd1b95029244b63d09d",
                     "deletion_button": "aa647c7f4c7d964f27a1858b97ccf674 aa647c7f4c7d964f27a1858b97ccf674",
+                    "eligible_at": "e79747fafbee3f5a5987191eac28d4b6 e79747fafbee3f5a5987191eac28d4b6",
+                    "requested_at": "799d02af67378f68e4f89b9e2c95b644 799d02af67378f68e4f89b9e2c95b644",
                     "text": "738087b2b136a26c0ffef0347384a009 738087b2b136a26c0ffef0347384a009",
                     "title": "06d6515c478a4bdb8f59ce2b512a8d34 06d6515c478a4bdb8f59ce2b512a8d34"
                 },
@@ -5096,6 +5120,7 @@
                     "min_label": "4dbd054e027542736126bc59920b6328 4dbd054e027542736126bc59920b6328",
                     "random_username_help": "470cf5a111592ee317c14acf61fad0b4 470cf5a111592ee317c14acf61fad0b4",
                     "random_username_label": "9558d23c486ab9c5a8d9425665112ea6 9558d23c486ab9c5a8d9425665112ea6",
+                    "regex_help": "47804ab95962f1e2dbea2fdff4991570 47804ab95962f1e2dbea2fdff4991570",
                     "regex_label": "cca1d29b4721d5eb51e4a3fd823dee94 cca1d29b4721d5eb51e4a3fd823dee94",
                     "set_on_registration_label": "496607e2cd57b82077bbd77dcbb72380 496607e2cd57b82077bbd77dcbb72380",
                     "unique_label": "d4af63ac737e7a27712b60845374b912 d4af63ac737e7a27712b60845374b912"

@@ -6,29 +6,29 @@
                     "apple": {
                         "description": "Mit Apple ID anmelden {link}",
                         "client_id_label": "Dienst-ID Kennung",
-                        "key_file_id_label": "",
+                        "key_file_id_label": "Schlüsseldatei-Kennung",
                         "keyfile_upload_label": "Schlüsseldatei",
                         "keyfile_upload_help": "Erstellen Sie ein <a>keyfile</a> und laden Sie es hier hoch",
                         "keyfile_upload": {
-                            "upload_button": "",
-                            "remove_button": ""
+                            "upload_button": "Schlüsseldatei hochladen",
+                            "remove_button": "Schlüsseldatei entfernen"
                         },
-                        "team_id_label": ""
+                        "team_id_label": "Team-ID"
                     }
                 }
             }
         },
         "forum": {
             "log_in": {
-                "with_apple_button": ""
+                "with_apple_button": "Mit {provider} anmelden"
             },
             "providers": {
-                "apple": ""
+                "apple": "=> fof-oauth.lib.providers.apple"
             }
         },
         "lib": {
             "providers": {
-                "apple": ""
+                "apple": "Apple"
             }
         }
     }
