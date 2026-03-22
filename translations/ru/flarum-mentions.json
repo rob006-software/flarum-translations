@@ -21,7 +21,7 @@
             "notifications": {
                 "others_text": "=> core.ref.some_others",
                 "post_mentioned_text": "{username} ответил(а) на Ваше сообщение",
-                "user_mentioned_text": "{username} упомянул(а) Вас",
+                "user_mentioned_text": "{username} упомянул(а) вас",
                 "group_mentioned_text": "{username} упомянул(а) Вашу группу"
             },
             "post": {
@@ -54,8 +54,8 @@
                 "body": "Здравствуйте, {recipient_display_name}!\n\n{replier_display_name} ответил(а) на Ваше сообщение (#{post_number}) в {title}.\n\n{url}\n\n---\n\n{content}\n"
             },
             "user_mentioned": {
-                "subject": "{mentioner_display_name} упомянул(а) Вас в {title}",
-                "body": "Здравствуйте, {recipient_display_name}!\n\n{mentioner_display_name} упомянул(а) Вас в своём сообщении в {title}.\n\n{url}\n\n---\n\n{content}\n"
+                "subject": "{mentioner_display_name} упомянул(а) вас в {title}",
+                "body": "Здравствуйте, {recipient_display_name}!\n\n{mentioner_display_name} упомянул(а) вас в своём сообщении в {title}.\n\n{url}\n\n---\n\n{content}\n"
             },
             "group_mentioned": {
                 "subject": "{mentioner_display_name} упомянул(а) Вашу группу в {title}",
