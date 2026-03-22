@@ -55,8 +55,8 @@
                         }
                     }
                 },
-                "column_pruning": "",
-                "column_pruning_help": "",
+                "column_pruning": "Spaltenbeschneidung aktivieren",
+                "column_pruning_help": "Ruft nur die Spalten ab, die zur Generierung von URLs benötigt werden (z. B. id, slug, username, dates), anstatt SELECT *. Reduziert den Speicherbedarf pro Modell in großen Foren erheblich. Standardmäßig aktiviert – nur deaktivieren, wenn ein benutzerdefinierter Slug-Treiber oder Sichtbarkeitsbereich Spalten erfordert, die nicht in der Standardauswahl enthalten sind.",
                 "mode_help_cache_disk_label": "Cache-Modus/Disk-Modus",
                 "mode_help_cache_disk": "Am besten geeignet für kleine oder mittelgroße Foren, am ehesten auf Hosting-Umgebungen, die Cronjobs zulassen und den Flarum-Scheduler aktivieren (siehe unten), und mit Diskussionen, Benutzern, Tags und Seiten, die in Summe weniger als 50.000 Einträge umfassen.",
                 "title": "FoF-Sitemap"
