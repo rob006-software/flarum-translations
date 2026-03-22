@@ -1,0 +1,130 @@
+{
+    "ralkage-civility-filter": {
+        "admin": {
+            "settings": {
+                "enabled_label": "",
+                "enabled_help": "",
+                "ai_provider_label": "",
+                "ai_provider_help": "",
+                "api_key_label": "",
+                "api_key_help": "",
+                "openai_api_key_label": "",
+                "openai_api_key_help": "",
+                "openrouter_api_key_label": "",
+                "openrouter_api_key_help": "",
+                "model_label": "",
+                "model_help": "",
+                "warn_threshold_label": "",
+                "warn_threshold_help": "",
+                "hold_threshold_label": "",
+                "hold_threshold_help": "",
+                "block_threshold_label": "",
+                "block_threshold_help": "",
+                "log_all_label": "",
+                "log_all_help": "",
+                "monitored_tags_label": "",
+                "monitored_tags_help": "",
+                "custom_prompt_label": "",
+                "custom_prompt_help": "",
+                "word_blocklist_label": "",
+                "word_blocklist_help": "",
+                "webhook_url_label": "",
+                "webhook_url_help": "",
+                "webhook_min_action_label": "",
+                "webhook_min_action_help": "",
+                "auto_suspend_threshold_label": "",
+                "auto_suspend_threshold_help": "",
+                "auto_suspend_days_label": "",
+                "auto_suspend_days_help": "",
+                "auto_suspend_window_label": "",
+                "auto_suspend_window_help": "",
+                "rate_limit_label": "",
+                "rate_limit_help": ""
+            },
+            "permissions": {
+                "bypass_label": ""
+            },
+            "nav": {
+                "civility_log": "",
+                "stats": ""
+            },
+            "log": {
+                "title": "",
+                "username": "",
+                "score": "",
+                "action": "",
+                "categories": "",
+                "excerpt": "",
+                "date": "",
+                "discussion": "",
+                "no_logs": "",
+                "clear": "",
+                "clear_confirm": "",
+                "export": "",
+                "filter_action": "",
+                "all_actions": "",
+                "allowed": "",
+                "warned": "",
+                "moderated": "",
+                "blocked": "",
+                "actions_col": "",
+                "approve": "",
+                "delete": "",
+                "suspend": "",
+                "approved": "",
+                "deleted": "",
+                "suspended": ""
+            },
+            "test": {
+                "title": "",
+                "message_label": "",
+                "message_placeholder": "",
+                "discussion_title_label": "",
+                "discussion_title_placeholder": "",
+                "submit": "",
+                "result_score": "",
+                "result_action": "",
+                "result_reason": "",
+                "result_categories": "",
+                "result_latency": "",
+                "api_error": ""
+            },
+            "stats": {
+                "title": "",
+                "total_checks": "",
+                "average_score": "",
+                "action_breakdown": "",
+                "top_categories": "",
+                "top_offenders": "",
+                "daily_trend": "",
+                "user": "",
+                "violations": "",
+                "avg_score": "",
+                "date": "",
+                "total": "",
+                "flagged": "",
+                "no_data": ""
+            }
+        },
+        "forum": {
+            "post_notice_warned_author": "",
+            "post_notice_warned_mod": "",
+            "post_notice_moderated": "",
+            "notification_warned": "",
+            "notification_moderated": "",
+            "settings": {
+                "notify_civility_flagged": ""
+            },
+            "user_profile": {
+                "civility_title": "",
+                "total_checks": "",
+                "average_score": "",
+                "violations": "",
+                "no_history": ""
+            }
+        },
+        "api": {
+            "post_blocked": ""
+        }
+    }
+}
