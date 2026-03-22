@@ -6,7 +6,7 @@
                 "description": "Übersicht der DSGVO-konformen Maßnahmen und Integrationen",
                 "data_types": {
                     "title": "Arten der Daten",
-                    "help_text": "Hier sind die derzeit registrierten Datentypen aufgeführt. Jeder Typ wird zusammen mit den zugehörigen Export-, Anonymisierungs- und Löschungsaktionen aufgeführt. Wenn eine Erweiterung Daten verarbeitet, die unter die DSGVO-Vorschriften fallen, so sollte sie ihre Datentypen bei <code>blomstra/gdpr</code> registrieren.\nDaten, die in der <code>Benutzer</code>-Tabelle gespeichert sind, werden gesondert behandelt, siehe Benutzertabellendaten unten.\n",
+                    "help_text": "Hier sind die derzeit registrierten Datentypen aufgeführt. Jeder Typ wird zusammen mit den zugehörigen Export-, Anonymisierungs- und Löschungsaktionen aufgeführt. Wenn eine Erweiterung Daten verarbeitet, die unter die DSGVO-Vorschriften fallen, so sollte sie ihre Datentypen bei <code>flarum/gdpr</code> registrieren.\nDaten, die in der <code>Benutzer</code>-Tabelle gespeichert sind, werden gesondert behandelt, siehe „Daten der Benutzertabelle“ unten.\n",
                     "type": "Art",
                     "export_description": "Exportieren",
                     "anonymize_description": "Anonymisierung",
@@ -99,25 +99,25 @@
         "email": {
             "confirm_erasure": {
                 "subject": "Bestätige die Anfrage zur Löschung deines Kontos",
-                "body": ""
+                "body": "Jemand (hoffentlich Sie) hat gerade die Löschung des Kontos „{display_name}“ beantragt.\n\nUm diesen Vorgang zu bestätigen, folgen Sie bitte dem folgenden Link. Anschließend wird Ihr Antrag von unserem Team bearbeitet.\n\n{erasure_confirm_url}\n"
             },
             "erasure_completed": {
                 "deletion": {
                     "subject": "Kontolöschung abgeschlossen",
-                    "body": ""
+                    "body": "Dies ist eine automatische, abschließende Benachrichtigung darüber, dass Ihr Konto gelöscht wurde.\n"
                 },
                 "anonymization": {
                     "subject": "Anonymisierung des Kontos abgeschlossen",
-                    "body": ""
+                    "body": "Dies ist eine automatische, abschließende Benachrichtigung darüber, dass Ihr Konto anonymisiert wurde.\n"
                 }
             },
             "erasure_cancelled": {
                 "subject": "Antrag zur Kontolöschung abgebrochen",
-                "body": ""
+                "body": "Dies ist eine automatische Benachrichtigung, dass Ihre Anfrage zur Rücknahme der Kontolöschung bearbeitet wurde.\n\nIhr Konto wird nun nicht mehr gelöscht.\n"
             },
             "export_available": {
                 "subject": "Datenexport verfügbar",
-                "body": ""
+                "body": "Sie haben einen Export der Kontodaten für {username} angefordert. Dieser Export wurde erfolgreich erstellt und steht nun zur Verfügung:\n\n{url}\n\nDieser Export bleibt bis zum {destroys_at} verfügbar.\n"
             }
         },
         "forum": {
