@@ -3434,6 +3434,7 @@
                     "csrf_token_mismatch": "6cd3bcb53781a73155b6be655b4f4a40 70f51f97ecc38d2ca99851251cedcff2",
                     "csrf_token_mismatch_return_link": "de13ecdfbf386503500af3f64bb48800 ccb8d2787dd6940fd487a265a7f00dd6",
                     "invalid_confirmation_token": "faca6bfba838bb21f5ab2a37497035f1 faca6bfba838bb21f5ab2a37497035f1",
+                    "method_not_allowed": "227704aaffa764a098a2ac9ccc3f383c 227704aaffa764a098a2ac9ccc3f383c",
                     "not_authenticated": "639f4aaf01b8e5d7a20a5f15fef4def9 d2b433849d75076e541059db8fdb7284",
                     "not_found": "dd31204adbac2dcebccc98481196c27b dd31204adbac2dcebccc98481196c27b",
                     "not_found_return_link": "e3459481280ac9352bbb525f410c6f08 e3459481280ac9352bbb525f410c6f08",
@@ -8845,6 +8846,8 @@
                     "build_button_help": "89e0755d38430053d9e8fa64dab1f6e8 89e0755d38430053d9e8fa64dab1f6e8",
                     "build_error": "00055b2d231ec8b1877e66a8002b039e 00055b2d231ec8b1877e66a8002b039e",
                     "build_success": "844d4863ca3f21aac10eb5e63f80cd00 844d4863ca3f21aac10eb5e63f80cd00",
+                    "column_pruning": "acda5293511054e973b5511ca682a245 acda5293511054e973b5511ca682a245",
+                    "column_pruning_help": "51fca827025d986561f2675841bc5c40 51fca827025d986561f2675841bc5c40",
                     "exclude_tags": "1f01920c6134d86174cac13aca31427f 1f01920c6134d86174cac13aca31427f",
                     "exclude_tags_help": "baaa0f45550247a23262db71bf15be57 baaa0f45550247a23262db71bf15be57",
                     "exclude_users": "9fd9876bc6a7f971854460b0673df5b5 9fd9876bc6a7f971854460b0673df5b5",
@@ -8983,7 +8986,7 @@
                     "post_created_text": "70afd8292ba2105345e5b43c4821be15 70afd8292ba2105345e5b43c4821be15",
                     "post_flagged_text": "8d0514752957dc80524527b9e541cf52 8d0514752957dc80524527b9e541cf52",
                     "post_unapproved_text": "04ad66594b64fc26f6e6629f3d0e4225 04ad66594b64fc26f6e6629f3d0e4225",
-                    "user_created_text": "360e938d63ea6eb9b15639cca6c4832c 360e938d63ea6eb9b15639cca6c4832c"
+                    "user_created_text": "56428bf63ccb4d6801ff01cb54ab6e5e 56428bf63ccb4d6801ff01cb54ab6e5e"
                 },
                 "settings": {
                     "defaults_label": "9a7c66e89b33437b4331e901ca17c567 9a7c66e89b33437b4331e901ca17c567",
@@ -14052,6 +14055,24 @@
         },
         "validation": {
             "hcaptcha": "5720ef73a4a2a4d8d0f407189cbf4c02 5720ef73a4a2a4d8d0f407189cbf4c02"
+        }
+    },
+    "ralkage-word-censor.json": {
+        "ralkage-word-censor": {
+            "admin": {
+                "settings": {
+                    "replacement_help": "b1ecff39af9bbb656e6d69600cfd4029 b1ecff39af9bbb656e6d69600cfd4029",
+                    "replacement_label": "5f02f085fd354609b7f49dbb51c28cf0 5f02f085fd354609b7f49dbb51c28cf0",
+                    "word_list_help": "69b5239e746add564be3b8b49e8d772b 69b5239e746add564be3b8b49e8d772b",
+                    "word_list_label": "bdd15a6e6f23c6ca7b3d218764025c3f bdd15a6e6f23c6ca7b3d218764025c3f"
+                }
+            },
+            "forum": {
+                "settings": {
+                    "word_censor_help": "78238279404a6d5dbf86b4ef0d65a3b1 78238279404a6d5dbf86b4ef0d65a3b1",
+                    "word_censor_label": "9ed2f930713db66b673c083a99b47be5 9ed2f930713db66b673c083a99b47be5"
+                }
+            }
         }
     },
     "ramesh-dada-gui-image-and-link.json": {

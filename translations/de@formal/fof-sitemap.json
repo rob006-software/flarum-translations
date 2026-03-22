@@ -53,8 +53,8 @@
                         }
                     }
                 },
-                "column_pruning": "",
-                "column_pruning_help": ""
+                "column_pruning": "Spaltenbeschneidung aktivieren",
+                "column_pruning_help": "Ruft nur die Spalten ab, die zur Generierung von URLs benötigt werden (z. B. id, slug, username, dates), anstatt SELECT *. Reduziert den Speicherbedarf pro Modell in großen Foren erheblich. Standardmäßig aktiviert – nur deaktivieren, wenn ein benutzerdefinierter Slug-Treiber oder Sichtbarkeitsbereich Spalten erfordert, die nicht in der Standardauswahl enthalten sind."
             }
         }
     }
