@@ -60,30 +60,30 @@
         },
         "email": {
             "newDiscussionInTag": {
-                "subject": "",
+                "subject": "[Etiket | Yeni Tartışma] {title}",
                 "plain": {
-                    "body": ""
+                    "body": "{actor_display_name}, takip ettiğiniz bir etikette bir tartışma başlattı: {discussion_title}\n\nYeni tartışmayı görüntülemek için aşağıdaki bağlantıyı kontrol edin:\n{discussion_url}\n\n---\n\n{content}\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{actor_display_name}, takip ettiğiniz etikette tartışma başlattı: [{discussion_title}]({discussion_url})\n"
                 }
             },
             "newPostInTag": {
-                "subject": "",
+                "subject": "[Etiket | Yeni Gönderi] {title}",
                 "plain": {
-                    "body": ""
+                    "body": "{actor_display_name}, takip ettiğiniz bir etiketteki tartışmaya katıldı: {discussion_title}\n\nYeni etkinliği görüntülemek için aşağıdaki bağlantıyı inceleyin:\n{post_url}\n\n---\n\n{content}\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{actor_display_name}, takip ettiğiniz etiketteki tartışmaya şu mesajı gönderdi: [{discussion_title}]({post_url})\n"
                 }
             },
             "newDiscussionTag": {
-                "subject": "",
+                "subject": "[Etiket | Değiştirilen Etiket] {title}",
                 "plain": {
-                    "body": ""
+                    "body": "{actor_display_name}, {author_display_name} tarafından başlatılan bir tartışmadaki etiketi, sizin takip ettiğiniz bir etiketle değiştirdi: {discussion_title}\n\nTartışmayı görüntülemek için aşağıdaki bağlantıyı kontrol edin:\n{discussion_url}\n\n---\n\n{content}\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{actor_display_name}, {author_display_name} tarafından başlatılan bir tartışmanın etiketini, sizin takip ettiğiniz bir etiketle değiştirdi: [{discussion_title}]({discussion_url})\n"
                 }
             }
         },
