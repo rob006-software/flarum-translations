@@ -854,6 +854,12 @@ return [
 			'zh_Hans',
 		],
 	],
+	'framiodev-pusher-hub' => [
+		'tag' => 'https://raw.githubusercontent.com/framiodev/pusher-hub/v2.0.2/locale/en.yml',
+		'__builtInLanguages' => [
+			'tr',
+		],
+	],
 	'ganuonglachanh-sonic' => [
 		'tag' => 'https://raw.githubusercontent.com/ganuonglachanh/flarum-sonic/0.1.9/resources/locale/en.yml',
 	],
