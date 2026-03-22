@@ -855,7 +855,7 @@ return [
 		],
 	],
 	'framiodev-pusher-hub' => [
-		'tag' => 'https://raw.githubusercontent.com/framiodev/pusher-hub/v2.0.2/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/framiodev/pusher-hub/v2.0.6/locale/en.yml',
 		'__builtInLanguages' => [
 			'tr',
 		],
