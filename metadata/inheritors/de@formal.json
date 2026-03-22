@@ -6487,18 +6487,25 @@
         "huseyinfiliz-stickiest": {
             "admin": {
                 "permissions": {
+                    "stickiest_label": "2de24008c902aedd6651a344b4d7d1b4 2de24008c902aedd6651a344b4d7d1b4",
                     "super_sticky_discussions_label": "2de24008c902aedd6651a344b4d7d1b4 2de24008c902aedd6651a344b4d7d1b4",
-                    "tag_sticky_discussions_label": "bbae6eb5703febc5afe31e74da94f5aa bbae6eb5703febc5afe31e74da94f5aa"
+                    "tag_sticky_discussions_label": "bbae6eb5703febc5afe31e74da94f5aa bbae6eb5703febc5afe31e74da94f5aa",
+                    "tag_sticky_label": "46c13dd4d3cfaa97b5a7147a5fd99609 46c13dd4d3cfaa97b5a7147a5fd99609"
                 },
                 "settings": {
                     "badge_icon_label": "c6c30b70205593138689476445e4f2f9 c6c30b70205593138689476445e4f2f9",
                     "badge_icon_text": "3a4f1e25cdf9fd2667d523c2b1486aac 3a4f1e25cdf9fd2667d523c2b1486aac",
                     "display_tag_sticky_label": "6e41e9bb5a5f5fb501bca6f9d47bfe82 6e41e9bb5a5f5fb501bca6f9d47bfe82",
-                    "display_tag_sticky_text": "6e9ccc2d0cae804f2b5f8228d499ff79 6e9ccc2d0cae804f2b5f8228d499ff79"
+                    "display_tag_sticky_text": "6e9ccc2d0cae804f2b5f8228d499ff79 6e9ccc2d0cae804f2b5f8228d499ff79",
+                    "show_tag_sticky_help": "8a69973932a6027fb6930ad121101973 8a69973932a6027fb6930ad121101973",
+                    "show_tag_sticky_label": "970092b01b58c433bda0b5ad41ba3bf7 970092b01b58c433bda0b5ad41ba3bf7",
+                    "stickiest_icon_help": "672d22c9ff26137f9a490083e03a2def 672d22c9ff26137f9a490083e03a2def",
+                    "stickiest_icon_label": "6459a3e6ce1ce1221dcb45876bf1c665 6459a3e6ce1ce1221dcb45876bf1c665"
                 }
             },
             "forum": {
                 "badge": {
+                    "stickiest_tooltip": "c61848ed7c64dcca8e17d3155c681c9c c61848ed7c64dcca8e17d3155c681c9c",
                     "sticky_tooltip": "2735acd161aa2e24ebc6103a1c58ef41 2735acd161aa2e24ebc6103a1c58ef41",
                     "super_sticky_tooltip": "9b46db47fd2e8f00c7491692db912142 9b46db47fd2e8f00c7491692db912142",
                     "super_tag_sticky_tooltip": "a5ca7728c691916d03df8311162535b3 a5ca7728c691916d03df8311162535b3",
@@ -6510,8 +6517,10 @@
                 "post_stream": {
                     "discussion_common_stickied_text": "9c67621e9579e73c5d4e2f6cd46285c8 9c67621e9579e73c5d4e2f6cd46285c8",
                     "discussion_stickied_text": "7dbb1559a1726768684faca6d9569f07 7dbb1559a1726768684faca6d9569f07",
+                    "discussion_stickiest_text": "56b6e52df8e23693c0001dff68abb6ea 56b6e52df8e23693c0001dff68abb6ea",
                     "discussion_super_stickied_text": "67dd39260506bb1f1930c67d5dbb3077 67dd39260506bb1f1930c67d5dbb3077",
-                    "discussion_unstickied_text": "3b653ba3f74d2ec2f9d2eeb0a0f24f0d 3b653ba3f74d2ec2f9d2eeb0a0f24f0d"
+                    "discussion_unstickied_text": "3b653ba3f74d2ec2f9d2eeb0a0f24f0d 3b653ba3f74d2ec2f9d2eeb0a0f24f0d",
+                    "discussion_unstickiest_text": "2e6f8e1ee2c0d0bc9161d9a0080daee1 2e6f8e1ee2c0d0bc9161d9a0080daee1"
                 },
                 "stickiest_modal": {
                     "sticky_label": "c4918a323ffb630fc250d319e284761a c4918a323ffb630fc250d319e284761a",
@@ -6522,7 +6531,18 @@
                     "tag_sticky_label": "e58389160f168607fdab6efd8d0ce3e6 e58389160f168607fdab6efd8d0ce3e6",
                     "tag_sticky_text": "53677bb987b845b56c98f8c66d8efbfd 53677bb987b845b56c98f8c66d8efbfd",
                     "tags_label": "1bafd20aed021e65d59dbdccf273f86c 1bafd20aed021e65d59dbdccf273f86c",
-                    "title": "16d660f66cc4b8adcaf22ef2d90dfe6d 16d660f66cc4b8adcaf22ef2d90dfe6d"
+                    "title": "16a9426a1f371fecf4aed59e3ed9f5b3 16a9426a1f371fecf4aed59e3ed9f5b3"
+                },
+                "sticky_modal": {
+                    "select_tags": "c4a9795dd853c40cf312141cf4eace63 c4a9795dd853c40cf312141cf4eace63",
+                    "stickiest_help": "a5d562cf189e7a4520670d1134050649 a5d562cf189e7a4520670d1134050649",
+                    "stickiest_label": "c61848ed7c64dcca8e17d3155c681c9c c61848ed7c64dcca8e17d3155c681c9c",
+                    "sticky_help": "be36aa667864c8eea327a72861350928 be36aa667864c8eea327a72861350928",
+                    "sticky_label": "49cdc1d70898a59714e971cd4b1a8276 49cdc1d70898a59714e971cd4b1a8276",
+                    "submit_button": "2aecef96f81b160fed14d90375699a85 2aecef96f81b160fed14d90375699a85",
+                    "tag_sticky_help": "2c6f82b358db0e509d3187fed462a22d 2c6f82b358db0e509d3187fed462a22d",
+                    "tag_sticky_label": "43a96e52ceef7860b79dc34006a06992 43a96e52ceef7860b79dc34006a06992",
+                    "title": "3d34c4123c631bc486e8b6e0ee2dcefe 3d34c4123c631bc486e8b6e0ee2dcefe"
                 }
             },
             "ref": {
