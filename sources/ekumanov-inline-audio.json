@@ -7,7 +7,8 @@
             "settings": {
                 "show_download_button": "Show download button on player bar",
                 "show_right_click_download": "Allow right-click on filename to save the file",
-                "auto_play": "Start playing immediately when a filename is clicked"
+                "auto_play": "Start playing immediately when a filename is clicked",
+                "strip_upload_prefix": "Hide numeric prefix from uploaded filenames (e.g. \"1774205518-685373-song.mp3\" → \"song.mp3\")"
             }
         }
     }

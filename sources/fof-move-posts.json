@@ -34,10 +34,10 @@
                     "simple_move": "Will be a simple move, posts will all be added at the end of the discussion."
                 },
                 "submit": "Proceed",
-                "title": "=> fof-move-posts.ref.move_posts"
+                "title": "=> fof-move-posts.ref.move_posts",
+                "confirm_move_all_to_new_discussion": "You are about to move all posts from this discussion into a new one. In most cases, it makes more sense to edit the existing discussion instead, for example by changing its title, tags, or other attributes. Do you want to continue?"
             },
             "alerts": {
-                "posts_moved": "{count, plural, one {Post moved.} other {{count} posts moved.}}",
                 "posts_moved_to": "{count, plural, one {Post moved to {target_discussion}.} other {Moved {count} posts to {target_discussion}.}}"
             },
             "notifications": {
