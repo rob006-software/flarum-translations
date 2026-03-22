@@ -121,23 +121,23 @@
                 "private_discussion_added": "[Переписка] {display_name} добавил(а) Вас в переписку"
             },
             "body": {
-                "private_discussion_created": "",
-                "private_discussion_replied": "",
-                "recipient_removed": "",
-                "private_discussion_added": "",
-                "made_public": ""
+                "private_discussion_created": "Пользователь {actor_display_name} начал новую приватную дискуссию с вами: {discussion_title}.\n\nПерейти:\n{discussion_url}\n\nВозможно, сначала потребуется войти в аккаунт, чтобы открыть эту ссылку.\n",
+                "private_discussion_replied": "Пользователь {actor_display_name} написал в приватной дискуссии, участником которой вы являетесь: {discussion_title}.\n\nПерейти:\n{post_url}\n\nВозможно, сначала потребуется войти в аккаунт, чтобы открыть эту ссылку.\n",
+                "recipient_removed": "Пользователь {actor_display_name} покинул приватную дискуссию: {discussion_title} и больше не сможет просматривать её содержимое.\n\nПерейти:\n{discussion_url}\n\nВозможно, сначала потребуется войти в аккаунт, чтобы открыть эту ссылку.\n",
+                "private_discussion_added": "Пользователь {actor_display_name} добавил вас в существующую приватную дискуссию: {discussion_title}.\n\nПерейти:\n{discussion_url}\n\nВозможно, сначала потребуется войти в аккаунт, чтобы открыть эту ссылку.\n",
+                "made_public": "Пользователь {actor_display_name} удалил всех участников и сделал дискуссию публичной: {discussion_title}.\n\nПерейти:\n{discussion_url}\n\nВозможно, сначала потребуется войти в аккаунт, чтобы открыть эту ссылку.\n"
             }
         },
         "lib": {
             "gambits": {
                 "byobu": {
-                    "key": ""
+                    "key": "переписки"
                 },
                 "private": {
-                    "key": ""
+                    "key": "приватная"
                 },
                 "allows-pd": {
-                    "key": ""
+                    "key": "переписки"
                 }
             }
         }
