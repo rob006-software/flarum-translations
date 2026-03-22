@@ -50,7 +50,7 @@
                     "search_field": "Поиск пользователя"
                 },
                 "help": {
-                    "add_recipients": "Эта дискуссия будет видна только выбранным Вами участникам. Требуется как минимум 1 участник (кроме Вас).",
+                    "add_recipients": "Эта дискуссия будет видна только выбранным вами участникам. Требуется как минимум 1 участник, кроме вас.",
                     "update_recipients": "Эта дискуссия будет видна только выбранным Вами участникам.",
                     "selected_users": "Нажмите на имя пользователя для удаления.",
                     "click_user_to_remove_tooltip": "Нажмите для удаления"
@@ -79,7 +79,7 @@
                 "pd_text": "{username} начал(а) с Вами переписку",
                 "pd_user_left_label": "Пользователь покидает переписку, участником которой я являюсь",
                 "pd_user_left_text": "{username} покинул(а) переписку",
-                "pd_added_text": "{username} добавил(а) Вас в переписку",
+                "pd_added_text": "{username} добавил(а) вас в переписку",
                 "pd_added_label": "Добавление меня в существующую переписку"
             }
         },
@@ -118,7 +118,7 @@
                 "private_discussion_created": "[Переписка] {display_name} начал(а) новую переписку с Вами",
                 "private_discussion_replied": "[Переписка] {display_name} ответил(а) в переписке",
                 "recipient_removed": "[Переписка] {display_name} покинул(а) переписку",
-                "private_discussion_added": "[Переписка] {display_name} добавил(а) Вас в переписку"
+                "private_discussion_added": "[Переписка] {display_name} добавил(а) вас в переписку"
             },
             "body": {
                 "private_discussion_created": "Пользователь {actor_display_name} начал новую приватную дискуссию с вами: {discussion_title}.\n\nПерейти:\n{discussion_url}\n\nВозможно, сначала потребуется войти в аккаунт, чтобы открыть эту ссылку.\n",
