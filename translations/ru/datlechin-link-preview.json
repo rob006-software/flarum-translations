@@ -9,7 +9,7 @@
                 "url_filtering_label": "Фильтрация URL",
                 "url_filtering_description": "Определяет, для каких URL создаётся предпросмотр ссылок.",
                 "external_api_label": "Резервный внешний API",
-                "external_api_description": ""
+                "external_api_description": "Использовать внешний сервис, если не удалось получить данные напрямую. Например, для сайтов с защитой от ботов."
             },
             "settings": {
                 "enable_batch_requests_label": "Включить пакетную обработку",
@@ -28,10 +28,10 @@
                 "cache_time_help": "Время хранения предпросмотра перед обновлением. Установите 0, чтобы отключить кэширование. По умолчанию — 60 минут.",
                 "open_links_in_new_tab_label": "Открывать ссылки в новой вкладке",
                 "open_links_in_new_tab_help": "Всегда открывать предпросмотр ссылок в новой вкладке браузера.",
-                "external_api_fallback_label": "",
-                "external_api_fallback_help": "",
-                "external_api_url_label": "",
-                "external_api_url_help": ""
+                "external_api_fallback_label": "Резервный внешний API",
+                "external_api_fallback_help": "Если не удалось получить данные напрямую, например, с сайтов с защитой от ботов, таких как Reuters, используется внешний oEmbed API для получения метаданных ссылки.",
+                "external_api_url_label": "URL внешнего API",
+                "external_api_url_help": "Пользовательская конечная точка oEmbed API. Оставьте поле пустым, чтобы использовать API по умолчанию — открытый API Iframely. URL будет добавлен как параметр запроса."
             }
         },
         "forum": {
