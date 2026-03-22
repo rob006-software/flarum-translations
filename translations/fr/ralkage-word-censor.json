@@ -5,13 +5,13 @@
                 "word_list_label": "Mots censurés",
                 "word_list_help": "Saisissez un mot ou une expression par ligne. Ceux-ci seront remplacés par le caractère de remplacement lorsqu'ils s'afficheront pour les utilisateurs.",
                 "replacement_label": "Caractère de remplacement",
-                "replacement_help": ""
+                "replacement_help": "Caractère utilisé pour remplacer chaque lettre d'un mot censuré. Par défaut : *"
             }
         },
         "forum": {
             "settings": {
-                "word_censor_label": "",
-                "word_censor_help": ""
+                "word_censor_label": "Activer la censure des mots",
+                "word_censor_help": "Lorsque cette option est activée, les mots configurés seront censurés dans les messages. Désactivez-la pour voir le contenu non censuré."
             }
         }
     }
