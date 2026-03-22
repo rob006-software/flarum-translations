@@ -34,11 +34,12 @@
                     "simple_move": "Ce sera un mouvement simple, les messages seront tous ajoutés à la fin de la discussion."
                 },
                 "submit": "Procéder",
-                "title": "=> fof-move-posts.ref.move_posts"
+                "title": "=> fof-move-posts.ref.move_posts",
+                "confirm_move_all_to_new_discussion": ""
             },
             "alerts": {
-                "posts_moved": "{count, plural, one {Message déplacé.} other {{count} messages déplacés.}}",
-                "posts_moved_to": "{count, plural, one {Message déplacé vers {target_discussion}.} other {{count} messages déplacés vers {target_discussion}.}}"
+                "posts_moved_to": "{count, plural, one {Message déplacé vers {target_discussion}.} other {{count} messages déplacés vers {target_discussion}.}}",
+                "posts_moved": "{count, plural, one {Message déplacé.} other {{count} messages déplacés.}}"
             },
             "notifications": {
                 "post_moved_text": "Un ou plusieurs de vos messages ont été déplacés vers {targetDiscussionTitle}."

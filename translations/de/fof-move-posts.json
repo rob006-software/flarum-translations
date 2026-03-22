@@ -34,11 +34,12 @@
                     "simple_move": "Das wird eine einfache Verschiebung sein. Alle Beiträge werden am Ende der Diskussion hinzugefügt."
                 },
                 "submit": "Fortfahren",
-                "title": "=> fof-move-posts.ref.move_posts"
+                "title": "=> fof-move-posts.ref.move_posts",
+                "confirm_move_all_to_new_discussion": ""
             },
             "alerts": {
-                "posts_moved": "{count, plural, one {Beitrag verschoben.} other {{count} Beiträge verschoben.}}",
-                "posts_moved_to": "{count, plural, one {Beitrag verschoben nach {target_discussion}.} other {{count} Beiträge verschoben nach {target_discussion}.}}"
+                "posts_moved_to": "{count, plural, one {Beitrag verschoben nach {target_discussion}.} other {{count} Beiträge verschoben nach {target_discussion}.}}",
+                "posts_moved": "{count, plural, one {Beitrag verschoben.} other {{count} Beiträge verschoben.}}"
             },
             "notifications": {
                 "post_moved_text": "Einer oder mehrere deiner Beiträge wurden nach {targetDiscussionTitle} verschoben."
