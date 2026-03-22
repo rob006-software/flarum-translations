@@ -2,8 +2,8 @@
     "datitisev-backup": {
         "admin": {
             "settings": {
-                "database_bin_path_label": "",
-                "database_bin_path_help": ""
+                "database_bin_path_label": "(İsteğe bağlı) Veritabanı ikili dosyalarının yolu",
+                "database_bin_path_help": "Eğer veritabanı ikili dosyalarınız (ör. mysqldump, pg_dump) sisteminizin PATH değişkeninde tanımlı değilse, bulundukları dizini buradan belirtebilirsiniz. Sonuna eğik çizgi eklediğinizden emin olun (ör. <code>/usr/local/mysql/bin/</code>).\n"
             },
             "adapters": {
                 "local": "Yerel depolama",
@@ -27,8 +27,8 @@
             "adapter-settings-modal": {
                 "title": "{adapter} yapılandırın",
                 "name_label": "Konum Adı",
-                "timestamp_label": "",
-                "timestamp_help": "",
+                "timestamp_label": "Dosya Adı Zaman Damgası Biçimi",
+                "timestamp_help": "Yedekleme dosyası adlarındaki zaman damgaları için biçimi belirtin. Varsayılan değer <code>U</code>'dur (Unix zaman damgası). <a>PHP tarih biçimlendirmesini</a> kullanır. Güvenli olmayan dosya adı karakterleri temizlenecektir. Dosya adı <code>{forum}-[biçimlendirilmiş zaman damgası].zip</code> biçiminde olacaktır.\n",
                 "local": {
                     "target": {
                         "label": "Hedef yol",
@@ -59,16 +59,16 @@
                 },
                 "azure": {
                     "endpoint": {
-                        "label": "",
-                        "description": ""
+                        "label": "Bağlantı Dizesi",
+                        "description": "Azure depolama alanınız için bağlantı dizesi."
                     },
                     "container": {
                         "label": "Taşıyıcı",
                         "description": "Azure taşıyıcı"
                     },
                     "path-prefix": {
-                        "label": "",
-                        "description": ""
+                        "label": "Dosya yolu öneki",
+                        "description": "Dosyalar için isteğe bağlı varsayılan yol öneki."
                     }
                 },
                 "aws": {
