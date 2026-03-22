@@ -21,7 +21,7 @@
             "notifications": {
                 "others_text": "=> core.ref.some_others",
                 "post_mentioned_text": "{username} ответил(а) на Ваше сообщение",
-                "user_mentioned_text": "{username} упомянул(а) Вас",
+                "user_mentioned_text": "{username} упомянул(а) вас",
                 "group_mentioned_text": "{username} упомянул(а) Вашу группу"
             },
             "post": {
@@ -59,7 +59,7 @@
                 }
             },
             "user_mentioned": {
-                "subject": "{mentioner_display_name} упомянул(а) Вас в {title}",
+                "subject": "{mentioner_display_name} упомянул(а) вас в {title}",
                 "plain": {
                     "body": "{mentioner_display_name} упомянул(а) вас в сообщении в дискуссии «{title}».\n\n{url}\n\n---\n\n{content}\n"
                 },
