@@ -71,33 +71,33 @@
                 "text_start": "Möchtest du diese wirklich <u>endgültig löschen</u> ",
                 "text_end": " ausgewählte Diskussionen?",
                 "submit_button": "Diese Diskussionen endgültig löschen",
-                "success": ""
+                "success": "Die ausgewählten Diskussionen wurden erfolgreich gelöscht"
             },
             "mass_delete_post_modal": {
                 "title": "Diese Beiträge endgültig löschen",
-                "text_start": "",
+                "text_start": "Möchtest du diese wirklich <u>endgültig löschen</u> ",
                 "text_end": " ausgewählte Beiträge?",
                 "submit_button": "Diese Beiträge endgültig löschen",
-                "success": ""
+                "success": "Die ausgewählten Beiträge wurden erfolgreich gelöscht"
             },
-            "bulk_delete_label": "",
-            "bulk_post_delete_label": "",
+            "bulk_delete_label": "Ausgewählte Diskussionen löschen",
+            "bulk_post_delete_label": "Ausgewählte Beiträge löschen",
             "pagination": {
-                "first_page_button": "",
-                "back_button": "",
-                "page_counter": "",
-                "go_to_page_textbox_a11y_label": "",
-                "next_button": "",
-                "last_page_button": ""
+                "first_page_button": "Zur Startseite",
+                "back_button": "Zurück zur vorherigen Seite",
+                "page_counter": "Seite {current} von {total}",
+                "go_to_page_textbox_a11y_label": "Direkt zur Seitenzahl springen",
+                "next_button": "Zur nächsten Seite",
+                "last_page_button": "Zur letzten Seite"
             },
-            "mass_help_text": "",
+            "mass_help_text": "Bitte warte, bis die Seite neu geladen wird, nachdem du die Massenwiederherstellung oder das Massenlöschen bestätigt hast",
             "grid": {
-                "invalid_column_content": ""
+                "invalid_column_content": "Ungültiger Inhalt!"
             },
             "post": {
-                "id": "",
-                "title": "",
-                "open_post": ""
+                "id": "ID",
+                "title": "Beitragstext",
+                "open_post": "Beitrag öffnen"
             }
         }
     }
