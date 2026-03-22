@@ -216,7 +216,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/moderator-warnings/2.0.0-beta.4/resources/locale/en.yml',
 	],
 	'fof-move-posts' => [
-		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/move-posts/v2.0.0-beta.2/locale/en.yml',
+		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/move-posts/v2.0.0-beta.3/locale/en.yml',
 	],
 	'fof-oauth' => [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/oauth/2.0.0-beta.2/resources/locale/en.yml',
