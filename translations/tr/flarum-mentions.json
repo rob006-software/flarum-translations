@@ -52,28 +52,28 @@
             "post_mentioned": {
                 "subject": "{replier_display_name} senin {title} tartışmasındaki gönderini yanıtladı",
                 "plain": {
-                    "body": ""
+                    "body": "{replier_display_name}, {title} tarihli (#{post_number}) gönderinize yanıt verdi.\n\n{url}\n\n---\n\n{content}\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{replier_display_name}, [{title}]({url}) adresindeki (#{post_number}) gönderinize yanıt verdi."
                 }
             },
             "user_mentioned": {
                 "subject": "{mentioner_display_name}, {title} tartışmasında senden bahsetti",
                 "plain": {
-                    "body": ""
+                    "body": "{mentioner_display_name}, {title} adresindeki bir gönderide sizden bahsetti.\n\n{url}\n\n---\n\n{content}\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{mentioner_display_name}, [{title}]({url}) adresindeki bir gönderide sizden bahsetti."
                 }
             },
             "group_mentioned": {
                 "subject": "{mentioner_display_name}, {title} içinde üyesi olduğunuz bir gruptan bahsetti",
                 "plain": {
-                    "body": ""
+                    "body": "{mentioner_display_name}, {title}'da üyesi olduğunuz bir gruptan bahsetti.\n\n{url}\n\n---\n\n{content}\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{mentioner_display_name}, [{title}]({url}) adresinde üyesi olduğunuz bir gruptan bahsetti."
                 }
             }
         },
@@ -81,8 +81,8 @@
             "gambits": {
                 "posts": {
                     "mentioned": {
-                        "key": "",
-                        "hint": ""
+                        "key": "mentioned",
+                        "hint": "Bahsi geçen kullanıcının kimliği veya kullanıcı adı"
                     }
                 }
             }
