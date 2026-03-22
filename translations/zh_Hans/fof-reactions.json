@@ -12,11 +12,14 @@
                 "title": "表情",
                 "anonymous_count": "{count} 位匿名用户",
                 "no_reactions": "暂无反应",
+                "load_more": "",
+                "others_count": "",
                 "remove_all_reaction_type": "",
                 "remove_user_reaction": ""
             },
             "mod_item": "查看表情",
             "react_button_label": "戳表情",
+            "unreact_button_label": "",
             "reaction_button_label": "",
             "reacted_with_label": ""
         },
@@ -43,7 +46,16 @@
                     },
                     "delete_confirmation": "确定要删除此反应吗？此操作无法撤销。",
                     "delete_reaction_button": "",
-                    "add_reaction_button": ""
+                    "add_reaction_button": "",
+                    "add_reaction_label": "",
+                    "header": {
+                        "display": "",
+                        "identifier": "",
+                        "type": "",
+                        "enabled": "",
+                        "action": "",
+                        "preview": ""
+                    }
                 },
                 "convert": {
                     "help": "如果您刚刚更新本扩展，此操作将转换所有帖子的戳一戳表情。如果您刚刚安装本插件，请忽略本条消息。",
@@ -56,7 +68,6 @@
                     "react_own_posts_label": "允许用户对自己的帖子作出反应，",
                     "allow-anonymous": "允许匿名（游客）反应",
                     "allow-anonymous-help": "启用此项，允许游客和匿名用户对帖子作出反应。请注意匿名反应不与任何用户关联，仅出现在反应清单中。",
-                    "save_settings": "保存设置",
                     "integrations": {
                         "legend": "整合",
                         "warning": "同一个戳一戳表情<strong>不会</strong>转换为「赞」<strong>或</strong>「顶」",
@@ -72,7 +83,8 @@
                             "Label": "转换表情为「赞」",
                             "Helptext": "要将某个表情自动转换为「赞」？请在下方输入该表情的标识名"
                         }
-                    }
+                    },
+                    "save_settings": "保存设置"
                 }
             }
         }

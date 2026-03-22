@@ -12,11 +12,14 @@
                 "title": "Bày tỏ cảm xúc",
                 "anonymous_count": "{count, plural, one {# người dùng ẩn danh} other {# người dùng ẩn danh}}",
                 "no_reactions": "Chưa có lượt bày tỏ cảm xúc nào",
+                "load_more": "",
+                "others_count": "",
                 "remove_all_reaction_type": "",
                 "remove_user_reaction": ""
             },
             "mod_item": "Xem bày tỏ cảm xúc",
             "react_button_label": "Cảm xúc",
+            "unreact_button_label": "",
             "reaction_button_label": "",
             "reacted_with_label": ""
         },
@@ -43,7 +46,16 @@
                     },
                     "delete_confirmation": "Bạn có chắc chắn muốn xóa phản ứng này không? Thao tác này không thể hoàn tác.",
                     "delete_reaction_button": "",
-                    "add_reaction_button": ""
+                    "add_reaction_button": "",
+                    "add_reaction_label": "",
+                    "header": {
+                        "display": "",
+                        "identifier": "",
+                        "type": "",
+                        "enabled": "",
+                        "action": "",
+                        "preview": ""
+                    }
                 },
                 "convert": {
                     "help": "Nếu bạn vừa cập nhật tiện ích mở rộng của mình, biểu cảm của bạn sẽ phải được chuyển đổi. Nếu bạn vừa cài đặt tiện ích mở rộng này, bạn có thể bỏ qua thông báo này một cách an toàn.",
@@ -56,7 +68,6 @@
                     "react_own_posts_label": "Người dùng có thể bày tỏ cảm xúc bài viết của riêng họ,",
                     "allow-anonymous": "Cho phép bày tỏ cảm xúc ẩn danh (khách)",
                     "allow-anonymous-help": "Nếu được kích hoạt, khách và người dùng ẩn danh sẽ có thể phản hồi bài đăng. Lưu ý rằng các phản hồi ẩn danh sẽ không được liên kết với hồ sơ người dùng và sẽ được tổng hợp trong danh sách phản hồi.",
-                    "save_settings": "Lưu thay đổi",
                     "integrations": {
                         "legend": "Tích hợp",
                         "warning": "Biểu cảm giống nhau <strong>không thể</strong> chuyển thành lượt thích <strong>và</strong> lượt bình chọn",
@@ -72,7 +83,8 @@
                             "Label": "Chuyển biểu cảm sang lượt thích",
                             "Helptext": "Nhập mã nhận dạng của biểu cảm bạn muốn tự động chuyển đổi thành biểu cảm tương tự"
                         }
-                    }
+                    },
+                    "save_settings": "Lưu thay đổi"
                 }
             }
         }

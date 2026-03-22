@@ -12,11 +12,14 @@
                 "title": "心情",
                 "anonymous_count": "{count, plural, one {# 匿名用戶} other {# 匿名用戶}}",
                 "no_reactions": "還沒有任何反應",
+                "load_more": "",
+                "others_count": "",
                 "remove_all_reaction_type": "",
                 "remove_user_reaction": ""
             },
             "mod_item": "查看心情",
             "react_button_label": "表達心情",
+            "unreact_button_label": "",
             "reaction_button_label": "",
             "reacted_with_label": ""
         },
@@ -43,7 +46,16 @@
                     },
                     "delete_confirmation": "您確定要刪除此反應嗎？ 此操作無法撤銷。",
                     "delete_reaction_button": "",
-                    "add_reaction_button": ""
+                    "add_reaction_button": "",
+                    "add_reaction_label": "",
+                    "header": {
+                        "display": "",
+                        "identifier": "",
+                        "type": "",
+                        "enabled": "",
+                        "action": "",
+                        "preview": ""
+                    }
                 },
                 "convert": {
                     "help": "若你只是更新延伸套件，你的回應將被轉換。若你已安裝此延伸套件，你可以安心地忽略這條訊息。",
@@ -56,7 +68,6 @@
                     "react_own_posts_label": "允許用戶對自已的貼文表達心情",
                     "allow-anonymous": "允許匿名（訪客）反應",
                     "allow-anonymous-help": "如果啟用，訪客和匿名用戶將能夠對貼文做出反應。 請注意，匿名反應不會連結到用戶個人資料，而是會聚合在反應列表中。",
-                    "save_settings": "儲存設定",
                     "integrations": {
                         "legend": "融合",
                         "warning": "相同的回應<strong>不會</strong>轉換為「讚」<strong>或</strong>「推」",
@@ -72,7 +83,8 @@
                             "Label": "轉換回應為「喜歡」",
                             "Helptext": "輸入你想要自動轉換為「喜歡」的回應的標識"
                         }
-                    }
+                    },
+                    "save_settings": "儲存設定"
                 }
             }
         }

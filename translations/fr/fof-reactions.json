@@ -12,11 +12,14 @@
                 "title": "Réactions",
                 "anonymous_count": "{count, plural, one {# utilisateur anonyme} other {# utilisateurs anonymes}}",
                 "no_reactions": "Il n'y a aucune réaction pour le moment",
+                "load_more": "",
+                "others_count": "",
                 "remove_all_reaction_type": "Supprimer toutes les réactions {réaction}",
                 "remove_user_reaction": "Supprimer la réaction"
             },
             "mod_item": "Voir les réactions",
             "react_button_label": "Réagir",
+            "unreact_button_label": "",
             "reaction_button_label": "Réagir avec {réaction}",
             "reacted_with_label": "{count, plural, one {{reaction} (# réaction)} other {{reaction} (# réactions)}}"
         },
@@ -43,7 +46,16 @@
                     },
                     "delete_confirmation": "Êtes-vous sûr de vouloir supprimer cette réaction ? Cette action est irréversible.",
                     "delete_reaction_button": "Supprimer la réaction",
-                    "add_reaction_button": "Ajouter une réaction"
+                    "add_reaction_button": "Ajouter une réaction",
+                    "add_reaction_label": "",
+                    "header": {
+                        "display": "",
+                        "identifier": "",
+                        "type": "",
+                        "enabled": "",
+                        "action": "",
+                        "preview": ""
+                    }
                 },
                 "convert": {
                     "help": "Si vous venez de mettre à jour votre extension, vos réactions devront être converties. Si vous venez d'installer cette extension, vous pouvez ignorer ce message en toute sécurité.",
@@ -56,7 +68,6 @@
                     "react_own_posts_label": "Les utilisateurs peuvent réagir à leurs propres messages,",
                     "allow-anonymous": "Autoriser les réactions anonymes (invités)",
                     "allow-anonymous-help": "Si cette option est activée, les invités et les utilisateurs anonymes pourront réagir aux messages. Les réactions anonymes ne seront pas liées à un profil d'utilisateur et seront regroupées dans la liste des réactions.",
-                    "save_settings": "Enregistrer les paramètres",
                     "integrations": {
                         "legend": "Intégrations",
                         "warning": "La même réaction <strong>ne peut pas</strong> être convertie en un « j'aime » <strong>et</strong> en un vote positif",
@@ -72,7 +83,8 @@
                             "Label": "Convertir les réactions en mentions « j'aime »",
                             "Helptext": "Saisissez l'identifiant de la réaction que vous souhaitez convertir automatiquement en mentions « j'aime »"
                         }
-                    }
+                    },
+                    "save_settings": "Enregistrer les paramètres"
                 }
             }
         }

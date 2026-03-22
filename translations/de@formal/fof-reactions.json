@@ -12,11 +12,14 @@
                 "title": "Reaktionen",
                 "anonymous_count": "{count, plural, one {# anonymer Benutzer} other {# anonyme Benutzer}}",
                 "no_reactions": "Noch keine Reaktionen",
+                "load_more": "",
+                "others_count": "",
                 "remove_all_reaction_type": "Alle {Reaktion} Reaktionen entfernen",
                 "remove_user_reaction": "Reaktion entfernen"
             },
             "mod_item": "Reaktionen anzeigen",
             "react_button_label": "Reagieren",
+            "unreact_button_label": "",
             "reaction_button_label": "Mit {reaction} reagieren",
             "reacted_with_label": "{count, plural, one {{reaction} (# Reaktion)} other {{reaction} (# Reaktionen)}}"
         },
@@ -43,7 +46,16 @@
                     },
                     "delete_confirmation": "Soll diese Reaktion wirklich gelöscht werden? Dieser Vorgang kann nicht rückgängig gemacht werden.",
                     "delete_reaction_button": "Reaktion löschen",
-                    "add_reaction_button": "Reaktion hinzufügen"
+                    "add_reaction_button": "Reaktion hinzufügen",
+                    "add_reaction_label": "",
+                    "header": {
+                        "display": "",
+                        "identifier": "",
+                        "type": "",
+                        "enabled": "",
+                        "action": "",
+                        "preview": ""
+                    }
                 },
                 "convert": {
                     "help": "Wenn du deine Erweiterung gerade aktualisiert hast, müssen deine Reaktionen konvertiert werden. Wenn du diese Erweiterung gerade erst installiert hast, kannst du diese Nachricht getrost ignorieren.",
@@ -56,7 +68,6 @@
                     "react_own_posts_label": "Benutzer können auf eigene Beiträge reagieren,",
                     "allow-anonymous": "Anonyme (Gast-)Reaktionen zulassen",
                     "allow-anonymous-help": "Wenn diese Option aktiviert ist, können Gäste und anonyme Nutzer auf Beiträge reagieren. Beachte, dass anonyme Reaktionen nicht mit einem Nutzerprofil verknüpft werden und in der Liste der Reaktionen zusammengefasst werden.",
-                    "save_settings": "Einstellungen speichern",
                     "integrations": {
                         "legend": "Integrationen",
                         "warning": "Die gleiche Reaktion <strong>kann nicht</strong> in ein Gefällt-mir <strong>und</strong> ein Upvote umgewandelt werden",
@@ -72,7 +83,8 @@
                             "Label": "Reaktionen zu Gefällt-mirs konvertieren",
                             "Helptext": "Gebe den Bezeichner der Reaktion ein, die du automatisch in ein Gefällt mir umwandeln möchtest"
                         }
-                    }
+                    },
+                    "save_settings": "Einstellungen speichern"
                 }
             }
         }

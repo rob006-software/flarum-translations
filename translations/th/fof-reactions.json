@@ -12,11 +12,14 @@
                 "title": "การเเสดงความรู้สึก",
                 "anonymous_count": "",
                 "no_reactions": "",
+                "load_more": "",
+                "others_count": "",
                 "remove_all_reaction_type": "",
                 "remove_user_reaction": ""
             },
             "mod_item": "ดูการเเสดงความรู้สึก",
             "react_button_label": "ตอบโต้",
+            "unreact_button_label": "",
             "reaction_button_label": "",
             "reacted_with_label": ""
         },
@@ -43,7 +46,16 @@
                     },
                     "delete_confirmation": "",
                     "delete_reaction_button": "",
-                    "add_reaction_button": ""
+                    "add_reaction_button": "",
+                    "add_reaction_label": "",
+                    "header": {
+                        "display": "",
+                        "identifier": "",
+                        "type": "",
+                        "enabled": "",
+                        "action": "",
+                        "preview": ""
+                    }
                 },
                 "convert": {
                     "help": "หากคุณเพิ่งอัพเดทส่วนเสริมนี้ ตัวการเเสดงความรู้สึกของคุณจะถูกเปลี่ยน หากคุณเพิ่งติดตั้งส่วนเสริมนี้ เเค่ไม่ต้องสนใจข้อความนี้",
@@ -56,7 +68,6 @@
                     "react_own_posts_label": "",
                     "allow-anonymous": "",
                     "allow-anonymous-help": "",
-                    "save_settings": "บันทึกการตั้งค่า",
                     "integrations": {
                         "legend": "การรวม",
                         "warning": "ความรู้สึกซ้ำกัน <strong>ไม่สามารถ</strong> เปลี่ยนเเปลเป็นการถูกใจได้ <strong>เเละ</strong> การเห็นด้วย",
@@ -72,7 +83,8 @@
                             "Label": "เปลี่ยนความรู้สึกเป็นการถูกใจ",
                             "Helptext": "กรุณาใส่ตัวบงบอกถึงความรู้สึกที่คุณต้องการให้เปลี่ยนเป็นการถูกใจอย่างอัตโนมัติ"
                         }
-                    }
+                    },
+                    "save_settings": "บันทึกการตั้งค่า"
                 }
             }
         }

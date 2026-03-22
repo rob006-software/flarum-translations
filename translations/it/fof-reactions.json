@@ -12,11 +12,14 @@
                 "title": "Reazioni",
                 "anonymous_count": "",
                 "no_reactions": "",
+                "load_more": "",
+                "others_count": "",
                 "remove_all_reaction_type": "",
                 "remove_user_reaction": ""
             },
             "mod_item": "Mostra Reazioni",
             "react_button_label": "Reazione",
+            "unreact_button_label": "",
             "reaction_button_label": "",
             "reacted_with_label": ""
         },
@@ -43,7 +46,16 @@
                     },
                     "delete_confirmation": "",
                     "delete_reaction_button": "",
-                    "add_reaction_button": ""
+                    "add_reaction_button": "",
+                    "add_reaction_label": "",
+                    "header": {
+                        "display": "",
+                        "identifier": "",
+                        "type": "",
+                        "enabled": "",
+                        "action": "",
+                        "preview": ""
+                    }
                 },
                 "convert": {
                     "help": "Se hai appena aggiornato l'estensione, le tue reazioni dovranno essere convertite. Se hai appena installato questa estensione, puoi tranquillamente ignorare questo messaggio.",
@@ -56,7 +68,6 @@
                     "react_own_posts_label": "Gli utenti possono reagire ai propri post",
                     "allow-anonymous": "",
                     "allow-anonymous-help": "",
-                    "save_settings": "Salva Impostazioni",
                     "integrations": {
                         "legend": "Integrazioni",
                         "warning": "La stessa reazione <strong>non può</strong> essere convertita in un like <strong>e</strong> in un voto negativo",
@@ -72,7 +83,8 @@
                             "Label": "Converti reazioni in like",
                             "Helptext": "Inserisci l'identificatore della reazione che vuoi automaticamente convertire in like"
                         }
-                    }
+                    },
+                    "save_settings": "Salva Impostazioni"
                 }
             }
         }

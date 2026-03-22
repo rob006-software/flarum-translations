@@ -12,11 +12,14 @@
                 "title": "Reações",
                 "anonymous_count": "",
                 "no_reactions": "",
+                "load_more": "",
+                "others_count": "",
                 "remove_all_reaction_type": "",
                 "remove_user_reaction": ""
             },
             "mod_item": "Ver Reações",
             "react_button_label": "Reagir",
+            "unreact_button_label": "",
             "reaction_button_label": "",
             "reacted_with_label": ""
         },
@@ -43,7 +46,16 @@
                     },
                     "delete_confirmation": "",
                     "delete_reaction_button": "",
-                    "add_reaction_button": ""
+                    "add_reaction_button": "",
+                    "add_reaction_label": "",
+                    "header": {
+                        "display": "",
+                        "identifier": "",
+                        "type": "",
+                        "enabled": "",
+                        "action": "",
+                        "preview": ""
+                    }
                 },
                 "convert": {
                     "help": "Se você acabou de atualizar sua extensão, suas reações terão que ser convertidas. Se você acabou de instalar esta extensão, pode ignorar esta mensagem.",
@@ -56,7 +68,6 @@
                     "react_own_posts_label": "Usuários podem reagir às suas próprias postagens",
                     "allow-anonymous": "",
                     "allow-anonymous-help": "",
-                    "save_settings": "Salvar Alterações",
                     "integrations": {
                         "legend": "Integrações",
                         "warning": "A mesma reação <strong>não</strong> pode ser convertida em um like <strong>e</strong> em um voto positivo",
@@ -72,7 +83,8 @@
                             "Label": "Converter reações em curtidas",
                             "Helptext": "Entre o identificador da reação que você gostaria de converter automaticamente em uma curtida"
                         }
-                    }
+                    },
+                    "save_settings": "Salvar Alterações"
                 }
             }
         }
