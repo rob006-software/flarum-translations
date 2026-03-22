@@ -2,64 +2,64 @@
     "huseyinfiliz-notificationhub": {
         "admin": {
             "title": {
-                "page_title": ""
+                "page_title": "Értesítéstípusok"
             },
             "permissions": {
-                "send_all": "",
-                "send_user": ""
+                "send_all": "Értesítések küldése az összes felhasználónak",
+                "send_user": "Értesítések küldése egyes felhasználónak"
             },
             "settings": {
-                "add_button": "",
-                "no_data": "",
-                "delete_confirm": "",
+                "add_button": "Értesítéstípus hozzáadása",
+                "no_data": "Még nincsenek értesítéstípusok.",
+                "delete_confirm": "Biztos, hogy törli ezt az értesítéstípust és az összes hozzá tartozó értesítést?",
                 "fields": {
-                    "actions": "",
-                    "name": "",
-                    "excerpt_key": "",
-                    "description": "",
-                    "icon": "",
-                    "default_message_key": "",
-                    "permission": "",
-                    "color": "",
-                    "default_url": "",
-                    "default_recipients": "",
-                    "sort_order": "",
-                    "active": ""
+                    "actions": "Műveletek",
+                    "name": "Értesítéstípus neve",
+                    "excerpt_key": "Alapértelmezett kivonat",
+                    "description": "Értesítéstípus leírása",
+                    "icon": "Alapértelmezett ikon",
+                    "default_message_key": "Alapértelmezett üzenet",
+                    "permission": "Értesítéstípus engedélye",
+                    "color": "Értesítéstípus színe",
+                    "default_url": "Alapértelmezett hivatkozás",
+                    "default_recipients": "Alapértelmezett címzettek",
+                    "sort_order": "Rendezési sorrend",
+                    "active": "Aktív"
                 },
-                "save": "",
-                "edit_notification_type": "",
-                "add_notification_type": ""
+                "save": "Mentés",
+                "edit_notification_type": "Értesítéstípus szerkesztése",
+                "add_notification_type": "Értesítéstípus hozzáadása"
             }
         },
         "forum": {
             "links": {
-                "notification_individual": "",
-                "notification_all": ""
+                "notification_individual": "Értesítés küldése",
+                "notification_all": "Értesítés küldése"
             },
             "modal_notification": {
-                "title_text": "",
-                "recipients_label": "",
-                "recipients_placeholder": "",
-                "message_label": "",
-                "url_label": "",
-                "url_placeholder": "",
-                "submit_button": "",
-                "notification_sent_message": "",
-                "notification_type_label": "",
-                "no_notification_types": "",
-                "preview_title": "",
-                "preview_message_placeholder": ""
+                "title_text": "Értesítés küldése",
+                "recipients_label": "Címzettek",
+                "recipients_placeholder": "Írjon be egy felhasználó- vagy csoportnevet…",
+                "message_label": "Üzenet",
+                "url_label": "Célhivatkozás",
+                "url_placeholder": "https://www.example.com",
+                "submit_button": "Értesítés küldése",
+                "notification_sent_message": "Értesítések kiküldve {recipientsCount} felhasználónak!",
+                "notification_type_label": "Értesítéstípus",
+                "no_notification_types": "Még nincsenek aktív értesítéstípusok.",
+                "preview_title": "Értesítés előnézete",
+                "preview_message_placeholder": "Értesítési üzenet…"
             },
             "recipient_kinds": {
-                "user": "",
-                "group": ""
+                "user": "Felhasználó",
+                "group": "Csoport"
             }
         },
         "api": {
-            "message_required": "",
-            "user_ids_required": "",
-            "subject_id_required": "",
-            "no_valid_recipients": ""
+            "message_required": "Az üzenet megadása kötelező.",
+            "user_ids_required": "A felhasználóazonosítók megadása kötelező.",
+            "subject_id_required": "Az értesítés típusának megadása kötelező.",
+            "no_valid_recipients": "Nem található érvényes címzett."
         }
     }
 }
