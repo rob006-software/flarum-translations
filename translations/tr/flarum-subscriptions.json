@@ -40,10 +40,10 @@
             "new_post": {
                 "subject": "[Yeni Gönderi] {title}",
                 "plain": {
-                    "body": ""
+                    "body": "{poster_display_name}, takip ettiğiniz {title} başlıklı tartışmaya yeni bir gönderi yazdı.\n\nYeni etkinliği görüntülemek için aşağıdaki bağlantıyı kontrol edin:\n{url}\n\n---\n\n{content}\n\n---\n\nGüncel olana kadar bu tartışmayla ilgili başka bildirim almayacaksınız.\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{poster_display_name}, takip ettiğiniz [{title}]({url}) başlıklı tartışmaya yeni bir gönderi yazdı.\n\nGüncel olana kadar bu tartışmayla ilgili başka bildirim almayacaksınız.\n"
                 }
             }
         },
@@ -51,8 +51,8 @@
             "gambits": {
                 "discussions": {
                     "subscription": {
-                        "following_key": "",
-                        "ignoring_key": ""
+                        "following_key": "following",
+                        "ignoring_key": "ignoring"
                     }
                 }
             }
