@@ -12,14 +12,14 @@
                 "title": "Reaktionen",
                 "anonymous_count": "{count, plural, one {# anonymer Benutzer} other {# anonyme Benutzer}}",
                 "no_reactions": "Noch keine Reaktionen",
-                "load_more": "",
-                "others_count": "",
+                "load_more": "Mehr laden",
+                "others_count": "+ {count, plural, one {# andere} other {# andere}}",
                 "remove_all_reaction_type": "Alle {Reaktion} Reaktionen entfernen",
                 "remove_user_reaction": "Reaktion entfernen"
             },
             "mod_item": "Reaktionen anzeigen",
             "react_button_label": "Reagieren",
-            "unreact_button_label": "",
+            "unreact_button_label": "Reaktion entfernen",
             "reaction_button_label": "Mit {reaction} reagieren",
             "reacted_with_label": "{count, plural, one {{reaction} (# Reaktion)} other {{reaction} (# Reaktionen)}}"
         },
@@ -32,12 +32,12 @@
             "page": {
                 "cdn": {
                     "title": "CDN",
-                    "help": "In der Standardkonfiguration werden Assets für Reaktionen über Cloudflares CDN ausgeliefert. Es gibt auch die Möglichkeit,\neine andere CDN-Adresse zu verwenden. <code>[codepoint]</code> wird durch den Codepoint des Emojis ersetzt.\n\nUm zum Beispiel auf Noto Emoji per jsdelivr zu wechseln, würde man als URL <code>https://cdn.jsdelivr.net/gh/googlefonts/noto-emoji@v2.040/svg/emoji_u[codepoint].svg</code> verwenden. Dieses Feld darf NIE leer bleiben.\n",
+                    "help": "In der Standardkonfiguration werden Assets für Reaktionen über Cloudflares CDN ausgeliefert. Es gibt auch die Möglichkeit,\neine andere CDN-Adresse zu verwenden. <code>[codepoint]</code> wird durch den Codepoint des Emojis ersetzt.\n\nUm zum Beispiel auf Noto Emoji per jsdelivr zu wechseln, würde man als URL <code>https://cdn.jsdelivr.net/gh/googlefonts/noto-emoji@v2.040/svg/emoji_u[codepoint].svg</code> verwenden.\n\nIhr CDN muss Emoji/Unicode {emojibase} oder höher unterstützen. Verwenden Sie [twemoji], um durch die Twemoji-Version zu ersetzen.\n",
                     "label": "URL",
                     "default-url": "Standard: {url}"
                 },
                 "reactions": {
-                    "title": "Benutzerdefinierte Reaktionen",
+                    "title": "Reaktionen",
                     "reactions": "Aktuelle Reaktionen",
                     "Helptext": "Gib den Namen (Bezeichner) des Emoji oder Font-Awesome Icons ein und wähle aus, welchen Typ du haben möchtest.",
                     "help": {
@@ -47,14 +47,14 @@
                     "delete_confirmation": "Soll diese Reaktion wirklich gelöscht werden? Dieser Vorgang kann nicht rückgängig gemacht werden.",
                     "delete_reaction_button": "Reaktion löschen",
                     "add_reaction_button": "Reaktion hinzufügen",
-                    "add_reaction_label": "",
+                    "add_reaction_label": "Neue Reaktion hinzufügen",
                     "header": {
-                        "display": "",
-                        "identifier": "",
-                        "type": "",
-                        "enabled": "",
-                        "action": "",
-                        "preview": ""
+                        "display": "Anzeigetext",
+                        "identifier": "Symbol-/Emoji-Kennung",
+                        "type": "Typ",
+                        "enabled": "Aktiviert",
+                        "action": "Aktion",
+                        "preview": "Vorschau"
                     }
                 },
                 "convert": {
