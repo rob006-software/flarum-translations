@@ -152,8 +152,8 @@
                         "description": "FTP sunucusunda kimlik doğrulaması yapılacak kullanıcı şifresi."
                     },
                     "passive": {
-                        "toggle": "",
-                        "description": ""
+                        "toggle": "Pasif mod",
+                        "description": "FTP bağlantısı için pasif modun kullanılıp kullanılmayacağı."
                     },
                     "port": {
                         "label": "Port",
@@ -173,26 +173,26 @@
                     }
                 },
                 "sftp": {
-                    "host": "",
-                    "username": "",
-                    "password": "",
-                    "root": "",
-                    "timeout": "",
+                    "host": "=> datitisev-backup.admin.adapter-settings-modal.ftp.host",
+                    "username": "=> datitisev-backup.admin.adapter-settings-modal.ftp.username",
+                    "password": "=> datitisev-backup.admin.adapter-settings-modal.ftp.password",
+                    "root": "=> datitisev-backup.admin.adapter-settings-modal.ftp.root",
+                    "timeout": "=> datitisev-backup.admin.adapter-settings-modal.ftp.timeout",
                     "port": {
-                        "label": "",
-                        "description": ""
+                        "label": "Port",
+                        "description": "SFTP portu (varsayılan 22)."
                     },
                     "private-key": {
-                        "label": "",
-                        "description": ""
+                        "label": "Özel Anahtar",
+                        "description": "SFTP bağlantısının kimlik doğrulamasında kullanılacak özel anahtarın yolu (tercihen mutlak yol)."
                     },
                     "passphrase": {
-                        "label": "",
-                        "description": ""
+                        "label": "Anahtar Parolası",
+                        "description": "Varsa, özel anahtarın (private key) anahtar parolası."
                     },
                     "use-agent": {
                         "toggle": "",
-                        "description": ""
+                        "description": "Bağlantı kimlik doğrulaması için SSH agent kullanılıp kullanılmayacağı (varsayılan: false)."
                     }
                 }
             },
