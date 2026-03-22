@@ -103,9 +103,9 @@
                 "twitter": "=> fof-oauth.lib.providers.twitter"
             },
             "account_linked": {
-                "title": "",
-                "body": "",
-                "dismiss_button": ""
+                "title": "Bağlı hesap",
+                "body": "{forum} hesabınız <strong>{username}</strong> artık {provider} ile bağlandı. Bundan sonra hem forum şifrenizle hem de {provider} hesabınızla giriş yapabilirsiniz.",
+                "dismiss_button": "Anladım"
             },
             "signup": {
                 "username_help": "Lütfen buradan bilinecek bir kullanıcı adı seçin"
