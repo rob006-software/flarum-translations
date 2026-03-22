@@ -1563,7 +1563,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/rehiy/flarum-reply-to-see/v1.8.0/resources/locale/en.yml',
 	],
 	'resofire-avatars' => [
-		'tag' => 'https://raw.githubusercontent.com/ResofireV2/avatars/v0.1.8/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ResofireV2/avatars/v0.2.7/resources/locale/en.yml',
 	],
 	'resofire-blog-cards' => [
 		'tag' => 'https://raw.githubusercontent.com/ResofireV2/blog-cards/v0.5.2/locale/en.yml',
