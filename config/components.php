@@ -855,7 +855,7 @@ return [
 		],
 	],
 	'framiodev-direct-chat' => [
-		'tag' => 'https://raw.githubusercontent.com/framiodev/direct-chat/v1.0.5/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/framiodev/direct-chat/v2.0.5/locale/en.yml',
 		'__builtInLanguages' => [
 			'tr',
 		],
