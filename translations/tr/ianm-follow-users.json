@@ -75,30 +75,30 @@
         },
         "email": {
             "new_discussion_by_user": {
-                "subject": "",
+                "subject": "{user_display_name} bir tartışma başlattı",
                 "plain": {
-                    "body": ""
+                    "body": "{user_display_name} yeni bir tartışma başlattı: {discussion_title}\n\n{discussion_url}\n\n---\n\n{post_content}\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{user_display_name} yeni bir tartışma başlattı: [{discussion_title}]({discussion_url})."
                 }
             },
             "new_follower": {
-                "subject": "",
+                "subject": "{follower_display_name} sizi takip etti",
                 "plain": {
-                    "body": ""
+                    "body": "{follower_display_name} sizi takip etmeye başladı, yeni bir tartışma başlattığınızda bildirim alacak.\n\n{profile_url}\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{follower_display_name} sizi takip etmeye başladı, yeni bir tartışma başlattığınızda bildirim alacak."
                 }
             },
             "new_post": {
-                "subject": "",
+                "subject": "{user_display_name} tarafından {discussion_title} gönderildi",
                 "plain": {
-                    "body": ""
+                    "body": "{user_display_name}, {discussion_title} başlığı altında bir gönderi paylaştı.\n\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nGüncel olana kadar bu tartışmayla ilgili başka bildirim almayacaksınız.\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{user_display_name}, [{discussion_title}]({post_url}) başlığı altında paylaşım yaptı."
                 }
             }
         },
@@ -123,7 +123,7 @@
             },
             "gambits": {
                 "followeduser": {
-                    "key": ""
+                    "key": "followeduser"
                 }
             }
         }
