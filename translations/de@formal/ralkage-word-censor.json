@@ -2,16 +2,16 @@
     "ralkage-word-censor": {
         "admin": {
             "settings": {
-                "word_list_label": "",
-                "word_list_help": "",
-                "replacement_label": "",
-                "replacement_help": ""
+                "word_list_label": "Zensierte Wörter",
+                "word_list_help": "Gib pro Zeile ein Wort oder einen Ausdruck ein. Diese werden bei der Anzeige für die Benutzer durch das Ersatzzeichen ersetzt.",
+                "replacement_label": "Ersatzzeichen",
+                "replacement_help": "Zeichen, das jeden Buchstaben eines zensierten Wortes ersetzt. Standard: *"
             }
         },
         "forum": {
             "settings": {
-                "word_censor_label": "",
-                "word_censor_help": ""
+                "word_censor_label": "Wortzensur aktivieren",
+                "word_censor_help": "Wenn aktiviert, werden festgelegte Wörter in Beiträgen zensiert. Deaktivieren, um unzensierte Inhalte anzuzeigen."
             }
         }
     }
