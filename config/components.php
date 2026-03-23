@@ -120,7 +120,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/flarum/realtime/v2.0.0-beta.8.1/resources/locale/en.yml',
 	],
 	'flarum-statistics' => [
-		'beta' => 'https://raw.githubusercontent.com/flarum/statistics/v2.0.0-beta.7/locale/en.yml',
+		'beta' => 'https://raw.githubusercontent.com/flarum/statistics/v2.0.0-beta.8/locale/en.yml',
 	],
 	'flarum-sticky' => [
 		'beta' => 'https://raw.githubusercontent.com/flarum/sticky/v2.0.0-beta.7/locale/en.yml',
