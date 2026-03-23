@@ -12,16 +12,16 @@
                 "title": "İfadeler",
                 "anonymous_count": "{count, plural, one {# bilinmeyen kullanıcı} other {# bilinmeyen kullanıcılar}}",
                 "no_reactions": "Henüz tepki yok",
-                "load_more": "",
-                "others_count": "",
-                "remove_all_reaction_type": "",
-                "remove_user_reaction": ""
+                "load_more": "Daha fazla yükle",
+                "others_count": "+ {count, plural, one {# diğer} other {# diğer}}",
+                "remove_all_reaction_type": "Tüm {reaction} ifadelerini kaldır",
+                "remove_user_reaction": "İfadeyi kaldır"
             },
             "mod_item": "İfadeleri Göster",
             "react_button_label": "Tepki",
-            "unreact_button_label": "",
-            "reaction_button_label": "",
-            "reacted_with_label": ""
+            "unreact_button_label": "İfadeyi kaldır",
+            "reaction_button_label": "{reaction} ile tepki verin",
+            "reacted_with_label": "{count, plural, one {{reaction} (# tepki)} other {{reaction} (# tepki)}}"
         },
         "admin": {
             "permissions": {
@@ -32,12 +32,12 @@
             "page": {
                 "cdn": {
                     "title": "CDN",
-                    "help": "Varsayılan olarak reaksiyon varlıklarını Cloudflare'in CDN'sinden sunuyoruz. Ayrıca gerektiği gibi başka bir CDN adresi belirtme\nseçeneğiniz de vardır. <code>[codepoint]</code>, emojinin kod noktasıyla değiştirilecektir.\n\nÖrneğin, jsdelivr aracılığıyla Noto Emoji'ye geçmek için <code>https://cdn.jsdelivr.net/gh/googlefonts/noto-emoji@v2.040/svg/emoji_u[codepoint].svg</code> komutunu girmeniz gerekir. Bu alan ASLA boş bırakılmamalıdır.\n",
+                    "help": "Varsayılan olarak, reaksiyon varlıklarını Cloudflare'ın CDN'sinden sunuyoruz. Ayrıca, gerektiği gibi başka bir CDN adresi de belirtebilirsiniz. <code>[codepoint]</code> ifadesi, emojinin kod noktasıyla değiştirilecektir.\n\nÖrneğin, jsdelivr üzerinden Noto Emoji'ye geçmek için <code>https://cdn.jsdelivr.net/gh/googlefonts/noto-emoji@v2.040/svg/emoji_u[codepoint].svg</code> adresini girmeniz gerekir.\n\nCDN'nizin Emoji/Unicode {emojibase} veya daha yenisini desteklemesi gerekir. Twemoji sürümünü değiştirmek için [twemoji] kullanın.\n",
                     "label": "Bağlantı",
                     "default-url": "Varsayılan: {url}"
                 },
                 "reactions": {
-                    "title": "Özel İfadeler",
+                    "title": "İfadeler",
                     "reactions": "Mevcut İfadeler",
                     "Helptext": "İfadeyi veya Font Awesome için uygun kodu girin ve istediğiniz türü seçin.",
                     "help": {
@@ -45,16 +45,16 @@
                         "identifier": "İfade"
                     },
                     "delete_confirmation": "Bu reaksiyonu silmek istediğinizden emin misiniz? Bu eylem geri alınamaz.",
-                    "delete_reaction_button": "",
-                    "add_reaction_button": "",
-                    "add_reaction_label": "",
+                    "delete_reaction_button": "İfadeyi sil",
+                    "add_reaction_button": "İfade ekle",
+                    "add_reaction_label": "Yeni bir ifade ekle",
                     "header": {
-                        "display": "",
-                        "identifier": "",
-                        "type": "",
-                        "enabled": "",
-                        "action": "",
-                        "preview": ""
+                        "display": "Metin",
+                        "identifier": "Simge/Emoji Tanımlayıcı",
+                        "type": "Tür",
+                        "enabled": "Etkinleştirildi",
+                        "action": "İşlem",
+                        "preview": "Önizleme"
                     }
                 },
                 "convert": {
