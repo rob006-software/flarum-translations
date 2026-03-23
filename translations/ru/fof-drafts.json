@@ -14,7 +14,7 @@
         },
         "console": {
             "scheduled_drafts_disabled": "Расписание черновиков отключено в настройках.",
-            "no_title_error": ""
+            "no_title_error": "Черновик пропущен — нет заголовка дискуссии."
         },
         "ref": {
             "schedule_draft": "Запланировать публикацию"
@@ -51,7 +51,7 @@
                 "schedule_time_preview": "Черновик будет автоматически опубликован в <b>{datetime}</b>.",
                 "schedule_time_preview_formatter": "LLLL",
                 "schedule_time_preview_invalid": "Некорректная дата и / или время",
-                "no_title_error": ""
+                "no_title_error": "Укажите заголовок дискуссии, чтобы отложить публикацию."
             },
             "user": {
                 "settings": {
@@ -67,8 +67,8 @@
     "fof-default-user-preferences": {
         "admin": {
             "settings": {
-                "draftAutosaveEnable": "",
-                "draftAutosaveInterval": ""
+                "draftAutosaveEnable": "Включить автосохранение черновиков по умолчанию",
+                "draftAutosaveInterval": "Интервал автосохранения по умолчанию (в секундах)"
             }
         }
     },
@@ -76,8 +76,8 @@
         "lib": {
             "data": {
                 "drafts": {
-                    "export_description": "",
-                    "delete_description": ""
+                    "export_description": "Все черновики пользователя.",
+                    "delete_description": "Удалить все черновики пользователя."
                 }
             }
         }
