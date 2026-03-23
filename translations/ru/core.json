@@ -55,12 +55,12 @@
                         "help": "Настройки Font Awesome заданы в файле config.php и не могут быть изменены здесь."
                     },
                     "preview": {
-                        "button": "",
-                        "label": "",
-                        "help": "",
-                        "fa5_fa6_label": "",
-                        "fa7_label": "",
-                        "pro_label": ""
+                        "button": "Предпросмотр иконок",
+                        "label": "Предпросмотр иконки",
+                        "help": "Проверьте настройку Font Awesome. Отображаемая иконка означает, что набор доступен, пустой квадрат — что он не загружен.",
+                        "fa5_fa6_label": "Алиасы FA5/FA6",
+                        "fa7_label": "Классы FA7",
+                        "pro_label": "Только Pro"
                     }
                 },
                 "pgsql": {
@@ -116,8 +116,8 @@
                 "favicon_text": "Загрузите изображение, которое будет отображаться в качестве значка форума.",
                 "logo_heading": "Логотип",
                 "logo_text": "Загрузите изображение, которое будет отображаться вместо названия форума.",
-                "logo_dark_mode_heading": "",
-                "logo_dark_mode_text": "",
+                "logo_dark_mode_heading": "Логотип для тёмной темы",
+                "logo_dark_mode_text": "Загрузите альтернативный логотип для тёмной темы.",
                 "title": "Оформление",
                 "color_scheme_label": "Цветовая схема по умолчанию",
                 "color_schemes": {
@@ -138,10 +138,10 @@
                 "display_name_heading": "Отображаемое имя",
                 "display_name_text": "Выберите драйвер, который должен использоваться для отображаемых имён пользователей. По умолчанию, используется username.",
                 "avatar_driver_options": {
-                    "default": ""
+                    "default": "По умолчанию"
                 },
-                "avatar_driver_heading": "",
-                "avatar_driver_text": "",
+                "avatar_driver_heading": "Аватар пользователя",
+                "avatar_driver_text": "Выберите источник аватаров, который будет использоваться, если пользователь не загрузил свой аватар. По умолчанию аватар не отображается, если пользователь его не загрузил.",
                 "forum_description_heading": "Описание форума",
                 "forum_description_text": "Введите краткое описание сообщества. Описание появится в одноимённом meta-теге и будет использоваться поисковыми системами.",
                 "forum_title_heading": "Название форума",
@@ -156,7 +156,7 @@
                     "users": {
                         "default": "Имя пользователя",
                         "id": "ID",
-                        "id_with_display_name": ""
+                        "id_with_display_name": "ID и отображаемое имя"
                     }
                 },
                 "slug_driver_heading": "Драйвер путей: {model}",
@@ -176,18 +176,18 @@
                 "username_placeholder": "=> core.ref.username"
             },
             "announcements": {
-                "comments_label": "",
-                "description": "",
-                "empty": "",
-                "load_error": "",
-                "about": "",
-                "hide": "",
-                "read_more": "",
-                "refresh": "",
-                "retry": "",
-                "show": "",
-                "title": "",
-                "view_all": ""
+                "comments_label": "{count, plural, one {# комментарий} other {# комментариев}}",
+                "description": "Последние новости и анонсы от команды Flarum.",
+                "empty": "Анонсы не найдены.",
+                "load_error": "Не удалось загрузить анонсы. Попробуйте позже.",
+                "about": "Последние новости и анонсы из официального сообщества Flarum на discuss.flarum.org.",
+                "hide": "Скрыть анонсы",
+                "read_more": "Прочитать больше",
+                "refresh": "Обновить",
+                "retry": "Попробовать снова",
+                "show": "Показать анонсы",
+                "title": "Анонсы",
+                "view_all": "Все анонсы на discuss.flarum.org"
             },
             "dashboard": {
                 "clear_cache_button": "Очистить кэш",
@@ -217,20 +217,20 @@
                 "tools_button": "Инструменты"
             },
             "extensions-health-widget": {
-                "abandoned_no_replacement": "",
-                "abandoned_with_replacement": "",
-                "all_healthy": "",
-                "section_abandoned_empty": "",
-                "section_suggested_empty": "",
-                "section_disabled_empty": "",
-                "title": "",
-                "section_abandoned_heading": "",
-                "section_abandoned_help": "",
-                "section_suggested_heading": "",
-                "section_suggested_help": "",
-                "section_disabled_heading": "",
-                "section_disabled_help": "",
-                "suggested_by": ""
+                "abandoned_no_replacement": "Нет доступной замены",
+                "abandoned_with_replacement": "Заменено на {replacement}",
+                "all_healthy": "Все расширения исправны.",
+                "section_abandoned_empty": "Проблем не обнаружено.",
+                "section_suggested_empty": "Рекомендаций нет.",
+                "section_disabled_empty": "Все расширения включены.",
+                "title": "Состояние расширений",
+                "section_abandoned_heading": "Требует внимания",
+                "section_abandoned_help": "Эти расширения больше не поддерживаются или могут иметь проблемы с совместимостью. Рекомендуется обновить, заменить или удалить их.",
+                "section_suggested_heading": "Рекомендуется",
+                "section_suggested_help": "Расширения Flarum могут использовать другие расширения или пакеты, чтобы добавить новые функции или интеграции.",
+                "section_disabled_heading": "Отключено",
+                "section_disabled_help": "Эти расширения установлены, но сейчас отключены. Включите их в настройках или удалите, если они больше не нужны.",
+                "suggested_by": "Рекомендуется расширением {extension}"
             },
             "debug-warning": {
                 "detail": "При активном режиме <code>отладки</code>, Flarum будет перестраивать <code>JavaScript</code> и <code>CSS</code> при каждом запросе. Это может привести к утечке потенциально важной информации, например, пароли баз данных, переменные окружения и т.п.\n\nНастоятельно рекомендуется отключить режим <code>отладки</code> в Вашем файле <code>config.php</code>. Дополнительную информацию смотрите в <link>документации Flarum</link>.\n",
@@ -287,14 +287,14 @@
                 "mail_mailgun_secret_label": "Секретный ключ",
                 "mail_password_label": "=> core.ref.password",
                 "mail_port_label": "Порт",
-                "mail_postmark_message_stream_label": "",
-                "mail_postmark_token_label": "",
-                "mail_smtp_verify_peer_label": "",
-                "mail_smtp_verify_peer_help": "",
+                "mail_postmark_message_stream_label": "Лента сообщений",
+                "mail_postmark_token_label": "Токен сервера",
+                "mail_smtp_verify_peer_label": "Проверять SSL-сертификат",
+                "mail_smtp_verify_peer_help": "Проверять SSL-сертификат сервера при использовании TLS/SSL. Отключайте только при самоподписанном сертификате.",
                 "mail_username_label": "=> core.ref.username",
                 "mailgun_heading": "Настройки Mailgun",
-                "postmark_heading": "",
-                "postmark_description": "",
+                "postmark_heading": "Настройки Postmark",
+                "postmark_description": "Отправка писем через HTTP API Postmark. При необходимости укажите поток сообщений вместо стандартного.",
                 "not_sending_message": "Сейчас Flarum не отправляет электронные письма. Это может быть связано с выбранным драйвером или параметрами конфигурации.",
                 "send_test_mail_button": "Отправить",
                 "send_test_mail_heading": "Отправить пробное письмо",
@@ -357,13 +357,13 @@
                 "basics_button": "=> core.admin.basics.title",
                 "basics_title": "=> core.admin.basics.description",
                 "categories": {
-                    "analytics": "",
+                    "analytics": "Аналитика",
                     "authentication": "Аутентификация",
                     "core": "Настройки форума",
                     "discussion": "Общение",
                     "feature": "Возможности",
                     "formatting": "Форматирование",
-                    "infrastructure": "",
+                    "infrastructure": "Инфраструктура",
                     "language": "Языки",
                     "moderation": "Модерация",
                     "other": "Другие расширения",
@@ -703,9 +703,9 @@
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "Web",
                 "notify_discussion_renamed_label": "Изменение названия моей дискуссии",
-                "device_heading": "",
-                "haptic_feedback_help": "",
-                "haptic_feedback_label": "",
+                "device_heading": "Устройство",
+                "haptic_feedback_help": "Доступно только на поддерживаемых мобильных устройствах",
+                "haptic_feedback_label": "Включить вибрацию",
                 "privacy_disclose_online_label": "Показывать мой статус online",
                 "privacy_heading": "Конфиденциальность",
                 "title": "=> core.ref.settings"
@@ -902,7 +902,7 @@
             },
             "user_selection_modal": {
                 "empty_results": "Пользователи не найдены.",
-                "max_items_to_select": "{count, plural, one {Выберите не более # пользователя} few {Выберите не более # пользователей} many {Выберите не более # пользователей} other {Выберите не более # пользователей}}",
+                "max_items_to_select": "{count, plural, one {Выберите не более # пользователя} other {Выберите не более # пользователей}}",
                 "search_placeholder": "=> core.ref.search_users",
                 "submit_button": "=> core.ref.okay",
                 "title": "Выберите пользователей"
@@ -1066,7 +1066,7 @@
             "extensions": "Расширения",
             "generic_confirmation_message": "Вы уверены, что хотите продолжить? Это действие невозможно отменить.",
             "icon": "Иконка",
-            "icon_text": "Введите название любого класса иконки <a>Font Awesome</a>, <em>включая</em> префикс <code>fas fa-</code>.",
+            "icon_text": "Введите название любого класса иконки <a>Font Awesome</a>, <em>включая</em> префикс. Например, <code>fas fa-flag</code> или <code>fa-solid fa-flag</code>.",
             "invalid_login_message": "Указаны неверные данные для входа.",
             "light_hc_mode_label": "Контрастная светлая",
             "light_mode_label": "Светлая",
