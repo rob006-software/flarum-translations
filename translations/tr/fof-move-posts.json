@@ -2,66 +2,66 @@
     "fof-move-posts": {
         "admin": {
             "settings": {
-                "moved_first_post_content": "",
-                "moved_first_post_content_help": "",
-                "group_sequential_posts": ""
+                "moved_first_post_content": "Tartışma Konusunun (İlk Mesaj) İçeriği Taşındı",
+                "moved_first_post_content_help": "Yalnızca tek bir gönderiyle bir tartışma olduğunda bu gönderiyi taşımak, ilk tartışmanın ilk gönderisinin yeni tartışmaya işaret edecek şekilde düzenlenmesine neden olur. O yazının içeriğini buradan düzenleyebilirsiniz.\n",
+                "group_sequential_posts": "Grup sıralı gönderisi, etkinlik gönderilerini tek bir gönderiye taşıdı."
             },
             "permissions": {
-                "move_posts": ""
+                "move_posts": "=> fof-move-posts.ref.move_posts"
             }
         },
         "forum": {
             "badge": {
-                "first_moved_tooltip": ""
+                "first_moved_tooltip": "Taşındı"
             },
             "discussion": {
-                "move_posts": ""
+                "move_posts": "=> fof-move-posts.ref.move_posts"
             },
             "error": {
-                "move_old_post_to_newer_discussion": "",
-                "move_posts_to_same_discussion": ""
+                "move_old_post_to_newer_discussion": "=> fof-move-posts.ref.status.old_to_new_move",
+                "move_posts_to_same_discussion": "Aynı tartışma başlığı altında farklı gönderileri taşıyamazsınız."
             },
             "modal": {
-                "check": "",
-                "destination": "",
-                "discussion_help": "",
-                "discussion_name": "",
-                "new_discussion": "",
-                "selected_posts": "",
+                "check": "İşlem Türünü Kontrol Et",
+                "destination": "Hedef Tartışma",
+                "discussion_help": "Kaynak tartışmanın etiketleri kullanılacaktır ve bu etiketler oluşturulduktan sonra değiştirilebilir.",
+                "discussion_name": "=> core.forum.composer_discussion.title_placeholder",
+                "new_discussion": "Yeni Tartışma",
+                "selected_posts": "{count, plural, one {1 Gönderi Seçildi} other {{count} Gönderi Seçildi}}",
                 "status": {
-                    "complex_move": "",
-                    "old_to_new_move": "",
-                    "simple_move": ""
+                    "complex_move": "Bu karmaşık bir işlem olacak; gönderiler birbiri içine kaydırılacak ve bu durum, hedef tartışmadaki gönderilerin eski URL'lerinin de değişmesine yol açacaktır.",
+                    "old_to_new_move": "=> fof-move-posts.ref.status.old_to_new_move",
+                    "simple_move": "Bu basit bir işlem olacak; tüm mesajlar tartışmanın sonuna eklenecek."
                 },
-                "submit": "",
-                "title": "",
-                "confirm_move_all_to_new_discussion": ""
+                "submit": "Devam et",
+                "title": "=> fof-move-posts.ref.move_posts",
+                "confirm_move_all_to_new_discussion": "Bu tartışmadaki tüm gönderileri yeni bir tartışmaya taşımak üzeresiniz. Çoğu durumda, mevcut tartışmayı düzenlemek (örneğin başlığını, etiketlerini veya diğer özelliklerini değiştirmek) daha mantıklıdır. Devam etmek istiyor musunuz?"
             },
             "alerts": {
-                "posts_moved_to": ""
+                "posts_moved_to": "{count, plural, one {Gönderi {target_discussion} konusuna taşındı.} other {{count} gönderi {target_discussion} konusuna taşındı.}}"
             },
             "notifications": {
-                "post_moved_text": ""
+                "post_moved_text": "Gönderilerinizden biri veya birkaçı {targetDiscussionTitle} başlığına taşındı."
             },
             "post": {
-                "unmove": "",
-                "move": "",
-                "moving": ""
+                "unmove": "Taşımak için seçimi kaldırın",
+                "move": "Taşımak için seçin",
+                "moving": "Gönderiyi Taşı"
             },
             "post_stream": {
-                "post_moved": ""
+                "post_moved": "{count, plural, one {{username}, bir gönderiyi {target_discussion} konusuna taşıdı.} other {{username}, {count} gönderiyi {target_discussion} konusuna taşıdı.}}"
             }
         },
         "ref": {
-            "move_posts": "",
+            "move_posts": "Gönderileri Taşı",
             "status": {
-                "old_to_new_move": ""
+                "old_to_new_move": "Eski bir gönderi, daha yeni bir tartışmaya taşınamaz."
             }
         },
         "lib": {
             "discussion": {
                 "first_post": {
-                    "default_content": ""
+                    "default_content": "*Bu gönderi **[%DISCUSSION_NAME%](%POST_LINK%)** adresine taşınmıştır.*\n"
                 }
             }
         }
