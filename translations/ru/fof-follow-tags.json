@@ -60,30 +60,30 @@
         },
         "email": {
             "newDiscussionInTag": {
-                "subject": "",
+                "subject": "[Тег | Новая дискуссия] {title}",
                 "plain": {
-                    "body": ""
+                    "body": "Пользователь {actor_display_name} начал дискуссию в теге, на который вы подписаны: {discussion_title}\n\nЧтобы просмотреть её, перейдите по ссылке:\n{discussion_url}\n\n---\n\n{content}\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{actor_display_name} начал(а) дискуссию в теге, на который вы подписаны: [{discussion_title}]({discussion_url})\n"
                 }
             },
             "newPostInTag": {
-                "subject": "",
+                "subject": "[Тег | Новое сообщение] {title}",
                 "plain": {
-                    "body": ""
+                    "body": "Пользователь {actor_display_name} оставил сообщение в дискуссии по тегу, на который вы подписаны: {discussion_title}\n\nЧтобы увидеть новую активность, перейдите по ссылке:\n{post_url}\n\n---\n\n{content}\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{actor_display_name} оставил(а) сообщение в дискуссии по тегу, на который вы подписаны: [{discussion_title}]({post_url})\n"
                 }
             },
             "newDiscussionTag": {
-                "subject": "",
+                "subject": "[Тег | Изменён тег] {title}",
                 "plain": {
-                    "body": ""
+                    "body": "Пользователь {actor_display_name} изменил тег в дискуссии пользователя {author_display_name} на тег, на который вы подписаны: {discussion_title}\n\nЧтобы просмотреть дискуссию, перейдите по ссылке:\n{discussion_url}\n\n---\n\n{content}\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{actor_display_name} изменил(а) тег в дискуссии пользователя {author_display_name} на тег, на который вы подписаны: [{discussion_title}]({discussion_url})\n"
                 }
             }
         },
