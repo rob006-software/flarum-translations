@@ -53,6 +53,14 @@
                     "config_override": {
                         "label": "",
                         "help": ""
+                    },
+                    "preview": {
+                        "button": "",
+                        "label": "",
+                        "help": "",
+                        "fa5_fa6_label": "",
+                        "fa7_label": "",
+                        "pro_label": ""
                     }
                 },
                 "pgsql": {
@@ -108,6 +116,8 @@
                 "favicon_text": "Įkelkite vaizdą, kuris bus rodomas kaip forumo nuorodos piktograma.",
                 "logo_heading": "Logotipas",
                 "logo_text": "Įkelkite vaizdą, kuris bus rodomas vietoje forumo pavadinimo.",
+                "logo_dark_mode_heading": "",
+                "logo_dark_mode_text": "",
                 "title": "Išvaizda",
                 "color_scheme_label": "",
                 "color_schemes": {
@@ -127,6 +137,11 @@
                 },
                 "display_name_heading": "Vartotojo rodomas vardas",
                 "display_name_text": "Pasirinkite tvarkyklę, kuri turėtų būti naudojama naudotojų rodomiems vardams. Pagal numatytuosius nustatymus rodomas vartotojo vardas.",
+                "avatar_driver_options": {
+                    "default": ""
+                },
+                "avatar_driver_heading": "",
+                "avatar_driver_text": "",
                 "forum_description_heading": "Forumo aprašymas",
                 "forum_description_text": "Įveskite trumpą ar du sakinius, apibūdinančius jūsų bendruomenę. Tai bus rodoma metažymoje ir paieškos sistemose.",
                 "forum_title_heading": "Forumo pavadinimas",
@@ -140,7 +155,8 @@
                     },
                     "users": {
                         "default": "",
-                        "id": ""
+                        "id": "",
+                        "id_with_display_name": ""
                     }
                 },
                 "slug_driver_heading": "Slug tvarkyklė: {model}",
@@ -158,6 +174,20 @@
                 "title": "",
                 "use_random_password": "",
                 "username_placeholder": ""
+            },
+            "announcements": {
+                "comments_label": "",
+                "description": "",
+                "empty": "",
+                "load_error": "",
+                "about": "",
+                "hide": "",
+                "read_more": "",
+                "refresh": "",
+                "retry": "",
+                "show": "",
+                "title": "",
+                "view_all": ""
             },
             "dashboard": {
                 "clear_cache_button": "Išvalyti talpyklą",
@@ -185,6 +215,22 @@
                 "title": "Skydelis",
                 "toggle_advanced_page_button": "",
                 "tools_button": "Įrankiai"
+            },
+            "extensions-health-widget": {
+                "abandoned_no_replacement": "",
+                "abandoned_with_replacement": "",
+                "all_healthy": "",
+                "section_abandoned_empty": "",
+                "section_suggested_empty": "",
+                "section_disabled_empty": "",
+                "title": "",
+                "section_abandoned_heading": "",
+                "section_abandoned_help": "",
+                "section_suggested_heading": "",
+                "section_suggested_help": "",
+                "section_disabled_heading": "",
+                "section_disabled_help": "",
+                "suggested_by": ""
             },
             "debug-warning": {
                 "detail": "",
@@ -241,8 +287,14 @@
                 "mail_mailgun_secret_label": "Slaptas raktas",
                 "mail_password_label": "=> core.ref.password",
                 "mail_port_label": "Portas",
+                "mail_postmark_message_stream_label": "",
+                "mail_postmark_token_label": "",
+                "mail_smtp_verify_peer_label": "",
+                "mail_smtp_verify_peer_help": "",
                 "mail_username_label": "=> core.ref.username",
                 "mailgun_heading": "„Mailgun“ nustatymai",
+                "postmark_heading": "",
+                "postmark_description": "",
                 "not_sending_message": "Flarum šiuo metu nesiunčia el. Taip gali nutikti dėl pasirinktos tvarkyklės arba jos konfigūracijos klaidų.",
                 "send_test_mail_button": "Siųsti",
                 "send_test_mail_heading": "Siųsti testinį laišką",
@@ -305,11 +357,13 @@
                 "basics_button": "=> core.admin.basics.title",
                 "basics_title": "=> core.admin.basics.description",
                 "categories": {
+                    "analytics": "",
                     "authentication": "Autentifikavimas",
                     "core": "Pagrindinė konfigūracija",
                     "discussion": "Diskusija",
                     "feature": "Funkcijos",
                     "formatting": "Formatavimas",
+                    "infrastructure": "",
                     "language": "Kalbos",
                     "moderation": "Moderavimas",
                     "other": "Kiti įskiepiai",
@@ -649,6 +703,9 @@
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "Žiniatinklis",
                 "notify_discussion_renamed_label": "Kažkas pervadino mano pradėtą diskusiją",
+                "device_heading": "",
+                "haptic_feedback_help": "",
+                "haptic_feedback_label": "",
                 "privacy_disclose_online_label": "Rodyti kitiems kada esu prisijungęs(-usi)",
                 "privacy_heading": "Privatumas",
                 "title": "=> core.ref.settings"
@@ -898,6 +955,7 @@
                 "maintenance_mode_link": "",
                 "maintenance_mode_message": "",
                 "maintenance_mode_title": "",
+                "method_not_allowed": "",
                 "not_authenticated": "Neturite leidimo patekti į šį puslapį. Bandykite dar kartą, prisijungę.",
                 "not_found": "Puslapio kurio prašėte rasti nepavyko.",
                 "not_found_return_link": "Grįžti į {forum}",

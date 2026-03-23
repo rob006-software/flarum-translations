@@ -53,6 +53,14 @@
                     "config_override": {
                         "label": "",
                         "help": ""
+                    },
+                    "preview": {
+                        "button": "",
+                        "label": "",
+                        "help": "",
+                        "fa5_fa6_label": "",
+                        "fa7_label": "",
+                        "pro_label": ""
                     }
                 },
                 "pgsql": {
@@ -108,6 +116,8 @@
                 "favicon_text": "Ανέβασε μια εικόνα που θα χρησημοποιηθεί σαν εικονίδιο του forum.",
                 "logo_heading": "Λογότυπο",
                 "logo_text": "Ανέβασε μια εικόνα που θα εμφανίζεται στην θέση του τίτλου.",
+                "logo_dark_mode_heading": "",
+                "logo_dark_mode_text": "",
                 "title": "Εμφάνιση",
                 "color_scheme_label": "",
                 "color_schemes": {
@@ -127,6 +137,11 @@
                 },
                 "display_name_heading": "Εμφάνιση ονόματος του χρήστη",
                 "display_name_text": "Επίλεξε το πρόγραμμα οδήγησης που θα χρησιμοποηθεί για την εμφάνιση των ονομάτων των χρηστών του forum. Προεπιλογή είναι η εμφάνιση του Username.",
+                "avatar_driver_options": {
+                    "default": ""
+                },
+                "avatar_driver_heading": "",
+                "avatar_driver_text": "",
                 "forum_description_heading": "Περιγραφή forum",
                 "forum_description_text": "Γράψε μία ή δύο σύντομες φράσεις για να περιγράψεις την κοινώτητα του forum σου. Το κείμενο αυτό θα εμφανιστεί στην περιγραφή meta και στις μηχανές αναζήτησης.",
                 "forum_title_heading": "Τίτλος του forum",
@@ -140,7 +155,8 @@
                     },
                     "users": {
                         "default": "",
-                        "id": ""
+                        "id": "",
+                        "id_with_display_name": ""
                     }
                 },
                 "slug_driver_heading": "Πρόγραμμα οδήγησης Slug: {model}",
@@ -158,6 +174,20 @@
                 "title": "",
                 "use_random_password": "",
                 "username_placeholder": ""
+            },
+            "announcements": {
+                "comments_label": "",
+                "description": "",
+                "empty": "",
+                "load_error": "",
+                "about": "",
+                "hide": "",
+                "read_more": "",
+                "refresh": "",
+                "retry": "",
+                "show": "",
+                "title": "",
+                "view_all": ""
             },
             "dashboard": {
                 "clear_cache_button": "Διαγραφή Cache",
@@ -185,6 +215,22 @@
                 "title": "Πίνακας ελέγχου",
                 "toggle_advanced_page_button": "",
                 "tools_button": "Εργαλεία"
+            },
+            "extensions-health-widget": {
+                "abandoned_no_replacement": "",
+                "abandoned_with_replacement": "",
+                "all_healthy": "",
+                "section_abandoned_empty": "",
+                "section_suggested_empty": "",
+                "section_disabled_empty": "",
+                "title": "",
+                "section_abandoned_heading": "",
+                "section_abandoned_help": "",
+                "section_suggested_heading": "",
+                "section_suggested_help": "",
+                "section_disabled_heading": "",
+                "section_disabled_help": "",
+                "suggested_by": ""
             },
             "debug-warning": {
                 "detail": "Όταν η λειτουργία εντοπισμού σφαλμάτων (<code>debug</code>) είναι ενεργή, το Flarum θα ανακατασκευάζει τα στοιχεία <code>JavaScript</code> και <code>CSS</code> σε κάθε αίτηση και θα μπορούσε επίσης δυνητικά να διαρρεύσει άλλες πληροφορίες, όπως ευαίσθητα στοιχεία βάσης δεδομένων, μεταβλητές περιβάλλοντος κ.λπ.\n\nΣυνιστάται ιδιαίτερα να απενεργοποιήσετε την αποσφαλμάτωση (<code>debug</code>) στο αρχείο <code>config.php</code> στην παραγωγή. Δείτε τα <link>έγγραφα του Flarum<-link> για περισσότερες πληροφορίες.\n",
@@ -241,8 +287,14 @@
                 "mail_mailgun_secret_label": "Secret key",
                 "mail_password_label": "=> core.ref.password",
                 "mail_port_label": "Port",
+                "mail_postmark_message_stream_label": "",
+                "mail_postmark_token_label": "",
+                "mail_smtp_verify_peer_label": "",
+                "mail_smtp_verify_peer_help": "",
                 "mail_username_label": "=> core.ref.username",
                 "mailgun_heading": "Ρυθμίσεις Mailgun",
+                "postmark_heading": "",
+                "postmark_description": "",
                 "not_sending_message": "Η αποστολή e-mail δεν λειτουργεί. Αυτό μπορεί να οφείλεται στο επιλεγμένο πρόγραμμα οδήγησης ή σε εσφαλμένες ρυθμίσεις αυτού.",
                 "send_test_mail_button": "Αποστολή",
                 "send_test_mail_heading": "Αποστολή δοκιμαστικού e-mail",
@@ -305,11 +357,13 @@
                 "basics_button": "=> core.admin.basics.title",
                 "basics_title": "=> core.admin.basics.description",
                 "categories": {
+                    "analytics": "",
                     "authentication": "Authentication",
                     "core": "Βασικές Ρυθμίσεις",
                     "discussion": "Συζήτηση",
                     "feature": "Χαρακτηριστικά",
                     "formatting": "Μορφοποίηση",
+                    "infrastructure": "",
                     "language": "Γλώσσες",
                     "moderation": "Συντονισμός",
                     "other": "Άλλα πρόσθετα",
@@ -649,6 +703,9 @@
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "Ιστοσελίδα",
                 "notify_discussion_renamed_label": "Κάποιος μετονόμασε μια συζήτηση που ξεκίνησα",
+                "device_heading": "",
+                "haptic_feedback_help": "",
+                "haptic_feedback_label": "",
                 "privacy_disclose_online_label": "Επιτρέπω στους άλλους χρήστες να δουν πότε είμαι ενεργός",
                 "privacy_heading": "Ιδιωτικότητα",
                 "title": "=> core.ref.settings"
@@ -898,6 +955,7 @@
                 "maintenance_mode_link": "",
                 "maintenance_mode_message": "",
                 "maintenance_mode_title": "",
+                "method_not_allowed": "",
                 "not_authenticated": "Δεν έχετε πρόσβαση σε αυτή την σελίδα. Παρακαλώ συνδεθείτε και ξαναδοκιμάστε.",
                 "not_found": "Δεν ήταν δυνατή η εύρεση της σελίδας που ζητήσατε.",
                 "not_found_return_link": "Επιστροφή στο {forum}",

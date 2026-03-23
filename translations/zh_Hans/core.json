@@ -53,6 +53,14 @@
                     "config_override": {
                         "label": "",
                         "help": ""
+                    },
+                    "preview": {
+                        "button": "",
+                        "label": "",
+                        "help": "",
+                        "fa5_fa6_label": "",
+                        "fa7_label": "",
+                        "pro_label": ""
                     }
                 },
                 "pgsql": {
@@ -108,6 +116,8 @@
                 "favicon_text": "上传图片做为论坛的站点图标，该图标会显示在浏览器标签页、搜索引擎结果条目及书签等多个地方。",
                 "logo_heading": "标志",
                 "logo_text": "上传图片代替论坛名称，并展示在导航栏左侧。",
+                "logo_dark_mode_heading": "",
+                "logo_dark_mode_text": "",
                 "title": "外观",
                 "color_scheme_label": "",
                 "color_schemes": {
@@ -127,6 +137,11 @@
                 },
                 "display_name_heading": "用户外显名称",
                 "display_name_text": "选择外显名称的类型，默认为用户名。",
+                "avatar_driver_options": {
+                    "default": ""
+                },
+                "avatar_driver_heading": "",
+                "avatar_driver_text": "",
                 "forum_description_heading": "论坛描述",
                 "forum_description_text": "输入一两句话简单介绍您的论坛。这将会显示为 <meta name=\"description\"> 描述标签，一般为 160 字的文本，用于介绍网页的内容。平常多被搜索引擎截取网页简介用。",
                 "forum_title_heading": "论坛名称",
@@ -140,7 +155,8 @@
                     },
                     "users": {
                         "default": "",
-                        "id": ""
+                        "id": "",
+                        "id_with_display_name": ""
                     }
                 },
                 "slug_driver_heading": "固定链接驱动：{model}",
@@ -158,6 +174,20 @@
                 "title": "添加新用户",
                 "use_random_password": "生成随机密码",
                 "username_placeholder": "=> core.ref.username"
+            },
+            "announcements": {
+                "comments_label": "",
+                "description": "",
+                "empty": "",
+                "load_error": "",
+                "about": "",
+                "hide": "",
+                "read_more": "",
+                "refresh": "",
+                "retry": "",
+                "show": "",
+                "title": "",
+                "view_all": ""
             },
             "dashboard": {
                 "clear_cache_button": "清除缓存",
@@ -185,6 +215,22 @@
                 "title": "仪表盘",
                 "toggle_advanced_page_button": "",
                 "tools_button": "工具"
+            },
+            "extensions-health-widget": {
+                "abandoned_no_replacement": "",
+                "abandoned_with_replacement": "",
+                "all_healthy": "",
+                "section_abandoned_empty": "",
+                "section_suggested_empty": "",
+                "section_disabled_empty": "",
+                "title": "",
+                "section_abandoned_heading": "",
+                "section_abandoned_help": "",
+                "section_suggested_heading": "",
+                "section_suggested_help": "",
+                "section_disabled_heading": "",
+                "section_disabled_help": "",
+                "suggested_by": ""
             },
             "debug-warning": {
                 "detail": "启用 <code>调试</code> 模式时，所有 Flarum 请求均不会缓存，<code>JavaScript</code> 和 <code>CSS</code> 文件将每次请求时返回全新的编译版本。调试模式中，所有日志、警告和错误均会以弹窗形式展示在网页中，数据库密码、环境变量等敏感信息均有可能在此期间泄露。\n\n因此我们强烈建议您在生产环境中将 <code>config.php</code> 文件中的 <code>debug</code> 设置为 <code>false</code> 以禁用调试模式。请查看 <link>Flarum 文档</link>了解更多信息。\n",
@@ -241,8 +287,14 @@
                 "mail_mailgun_secret_label": "Secret key",
                 "mail_password_label": "=> core.ref.password",
                 "mail_port_label": "端口",
+                "mail_postmark_message_stream_label": "",
+                "mail_postmark_token_label": "",
+                "mail_smtp_verify_peer_label": "",
+                "mail_smtp_verify_peer_help": "",
                 "mail_username_label": "用户名（部分邮件服务商要求用户名必须与发件地址一致）",
                 "mailgun_heading": "Mailgun 设置",
+                "postmark_heading": "",
+                "postmark_description": "",
                 "not_sending_message": "Flarum 当前无法发送电子邮件，请检查邮件驱动及其配置。",
                 "send_test_mail_button": "发送",
                 "send_test_mail_heading": "发送测试邮件",
@@ -305,11 +357,13 @@
                 "basics_button": "=> core.admin.basics.title",
                 "basics_title": "=> core.admin.basics.description",
                 "categories": {
+                    "analytics": "",
                     "authentication": "认证",
                     "core": "核心配置",
                     "discussion": "主题",
                     "feature": "功能",
                     "formatting": "格式化",
+                    "infrastructure": "",
                     "language": "语言包",
                     "moderation": "内容审核",
                     "other": "其他",
@@ -649,6 +703,9 @@
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "通知",
                 "notify_discussion_renamed_label": "我的主题标题被更改",
+                "device_heading": "",
+                "haptic_feedback_help": "",
+                "haptic_feedback_label": "",
                 "privacy_disclose_online_label": "公开我的在线状态",
                 "privacy_heading": "隐私设置",
                 "title": "=> core.ref.settings"
@@ -898,6 +955,7 @@
                 "maintenance_mode_link": "",
                 "maintenance_mode_message": "",
                 "maintenance_mode_title": "",
+                "method_not_allowed": "",
                 "not_authenticated": "您没有权限访问此页面，请登录后再试。",
                 "not_found": "您访问的页面不存在。",
                 "not_found_return_link": "返回 {forum}",

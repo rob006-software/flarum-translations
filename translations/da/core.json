@@ -53,6 +53,14 @@
                     "config_override": {
                         "label": "",
                         "help": ""
+                    },
+                    "preview": {
+                        "button": "",
+                        "label": "",
+                        "help": "",
+                        "fa5_fa6_label": "",
+                        "fa7_label": "",
+                        "pro_label": ""
                     }
                 },
                 "pgsql": {
@@ -108,6 +116,8 @@
                 "favicon_text": "Upload et billede for at blive vist som forummets genvejsikon.",
                 "logo_heading": "Logo",
                 "logo_text": "Upload et billede, der skal vises i stedet for forumtitlen.",
+                "logo_dark_mode_heading": "",
+                "logo_dark_mode_text": "",
                 "title": "Udseende",
                 "color_scheme_label": "",
                 "color_schemes": {
@@ -127,6 +137,11 @@
                 },
                 "display_name_heading": "Bruger visningsnavn",
                 "display_name_text": "Vælg den driver, der skal bruges til brugernes visningsnavne. Som standard vises brugernavnet.",
+                "avatar_driver_options": {
+                    "default": ""
+                },
+                "avatar_driver_heading": "",
+                "avatar_driver_text": "",
                 "forum_description_heading": "Forumbeskrivelse",
                 "forum_description_text": "Indtast en kort sætning eller to, der beskriver dit samfund. Dette vil blive vist i meta-tagget og dukke op i søgemaskiner.",
                 "forum_title_heading": "Forumtitel",
@@ -140,7 +155,8 @@
                     },
                     "users": {
                         "default": "",
-                        "id": ""
+                        "id": "",
+                        "id_with_display_name": ""
                     }
                 },
                 "slug_driver_heading": "Slug Driver: {model}",
@@ -158,6 +174,20 @@
                 "title": "",
                 "use_random_password": "",
                 "username_placeholder": ""
+            },
+            "announcements": {
+                "comments_label": "",
+                "description": "",
+                "empty": "",
+                "load_error": "",
+                "about": "",
+                "hide": "",
+                "read_more": "",
+                "refresh": "",
+                "retry": "",
+                "show": "",
+                "title": "",
+                "view_all": ""
             },
             "dashboard": {
                 "clear_cache_button": "Ryd cache",
@@ -185,6 +215,22 @@
                 "title": "Dashboard",
                 "toggle_advanced_page_button": "",
                 "tools_button": "Forumværktøjer"
+            },
+            "extensions-health-widget": {
+                "abandoned_no_replacement": "",
+                "abandoned_with_replacement": "",
+                "all_healthy": "",
+                "section_abandoned_empty": "",
+                "section_suggested_empty": "",
+                "section_disabled_empty": "",
+                "title": "",
+                "section_abandoned_heading": "",
+                "section_abandoned_help": "",
+                "section_suggested_heading": "",
+                "section_suggested_help": "",
+                "section_disabled_heading": "",
+                "section_disabled_help": "",
+                "suggested_by": ""
             },
             "debug-warning": {
                 "detail": "",
@@ -241,8 +287,14 @@
                 "mail_mailgun_secret_label": "Hemmelig nøgle",
                 "mail_password_label": "Adgangskode",
                 "mail_port_label": "Port",
+                "mail_postmark_message_stream_label": "",
+                "mail_postmark_token_label": "",
+                "mail_smtp_verify_peer_label": "",
+                "mail_smtp_verify_peer_help": "",
                 "mail_username_label": "Brugernavn",
                 "mailgun_heading": "Mailgun indstillinger",
+                "postmark_heading": "",
+                "postmark_description": "",
                 "not_sending_message": "Flarum sender i øjeblikket ingen e-mails. Dette skyldes den valgte driver, eller fejl i opsætningen.",
                 "send_test_mail_button": "Send",
                 "send_test_mail_heading": "Send test email",
@@ -305,11 +357,13 @@
                 "basics_button": "",
                 "basics_title": "",
                 "categories": {
+                    "analytics": "",
                     "authentication": "Autentificering",
                     "core": "Indstil kernen",
                     "discussion": "Diskussion",
                     "feature": "Funktioner",
                     "formatting": "Formatering",
+                    "infrastructure": "",
                     "language": "Sprog",
                     "moderation": "Moderering",
                     "other": "Andre udvidelser",
@@ -649,6 +703,9 @@
                 "notify_by_email_heading": "E-mail",
                 "notify_by_web_heading": "Hjemmeside",
                 "notify_discussion_renamed_label": "Nogen omdøber en diskussion jeg har startet",
+                "device_heading": "",
+                "haptic_feedback_help": "",
+                "haptic_feedback_label": "",
                 "privacy_disclose_online_label": "Tillad andre at se når jeg er online",
                 "privacy_heading": "Privatliv",
                 "title": "Indstillinger"
@@ -898,6 +955,7 @@
                 "maintenance_mode_link": "",
                 "maintenance_mode_message": "",
                 "maintenance_mode_title": "",
+                "method_not_allowed": "",
                 "not_authenticated": "Du har ikke tilladelse til at tilgå denne side. Prøv igen efter at have logget ind.",
                 "not_found": "Siden du leder efter blev ikke fundet.",
                 "not_found_return_link": "Gå tilbage til {forum}",

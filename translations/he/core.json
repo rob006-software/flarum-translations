@@ -53,6 +53,14 @@
                     "config_override": {
                         "label": "",
                         "help": ""
+                    },
+                    "preview": {
+                        "button": "",
+                        "label": "",
+                        "help": "",
+                        "fa5_fa6_label": "",
+                        "fa7_label": "",
+                        "pro_label": ""
                     }
                 },
                 "pgsql": {
@@ -108,6 +116,8 @@
                 "favicon_text": "העלה תמונה שתשמש כלוגו קיצור הדרך של הפורום.",
                 "logo_heading": "לוגו",
                 "logo_text": "העלה תמונה שתחליף את כותרת הפורום.",
+                "logo_dark_mode_heading": "",
+                "logo_dark_mode_text": "",
                 "title": "תצורה",
                 "color_scheme_label": "",
                 "color_schemes": {
@@ -127,6 +137,11 @@
                 },
                 "display_name_heading": "שם תצוגה של משתמש",
                 "display_name_text": "בחירת driver שישומש להצגת שמות להצגה. ברירת המחדל, יוצג שם משתמש.",
+                "avatar_driver_options": {
+                    "default": ""
+                },
+                "avatar_driver_heading": "",
+                "avatar_driver_text": "",
                 "forum_description_heading": "תיאור הפורום",
                 "forum_description_text": "הכנס משפט או שניים שמתארים את הקהילה. זה יופיע בתג הMeta ובמנועי חיפוש.",
                 "forum_title_heading": "כותרת פורום",
@@ -140,7 +155,8 @@
                     },
                     "users": {
                         "default": "",
-                        "id": ""
+                        "id": "",
+                        "id_with_display_name": ""
                     }
                 },
                 "slug_driver_heading": "מיקום(slug) של Driver: {model}",
@@ -158,6 +174,20 @@
                 "title": "יצירת משתמש חדש",
                 "use_random_password": "יצירת סיסמה אקראית",
                 "username_placeholder": "=> core.ref.username"
+            },
+            "announcements": {
+                "comments_label": "",
+                "description": "",
+                "empty": "",
+                "load_error": "",
+                "about": "",
+                "hide": "",
+                "read_more": "",
+                "refresh": "",
+                "retry": "",
+                "show": "",
+                "title": "",
+                "view_all": ""
             },
             "dashboard": {
                 "clear_cache_button": "ניקוי מטמון",
@@ -185,6 +215,22 @@
                 "title": "לוח מחוונים",
                 "toggle_advanced_page_button": "",
                 "tools_button": "כלים"
+            },
+            "extensions-health-widget": {
+                "abandoned_no_replacement": "",
+                "abandoned_with_replacement": "",
+                "all_healthy": "",
+                "section_abandoned_empty": "",
+                "section_suggested_empty": "",
+                "section_disabled_empty": "",
+                "title": "",
+                "section_abandoned_heading": "",
+                "section_abandoned_help": "",
+                "section_suggested_heading": "",
+                "section_suggested_help": "",
+                "section_disabled_heading": "",
+                "section_disabled_help": "",
+                "suggested_by": ""
             },
             "debug-warning": {
                 "detail": "כשמצב <code>debug</code> מופעל, Flarum יבנה מחדש את <code>JavaScript</code> ואת ה<code>CSS</code> לכל בקשה, וזה ככל הנראה יגרום לזליגת מידע אחר כגון, סודות של מסד הנתונים, משתני מערכת ועוד.\nמומלץ בחום לבטל את מצב ה<code>debug</code> בקובץ <code>config.php</code> כשהפורום ציבורי. ראו <link>Flarum docs</link> למידע נוסף.\n",
@@ -241,8 +287,14 @@
                 "mail_mailgun_secret_label": "מפתח סודי",
                 "mail_password_label": "=> core.ref.password",
                 "mail_port_label": "פורט",
+                "mail_postmark_message_stream_label": "",
+                "mail_postmark_token_label": "",
+                "mail_smtp_verify_peer_label": "",
+                "mail_smtp_verify_peer_help": "",
                 "mail_username_label": "=> core.ref.username",
                 "mailgun_heading": "הגדרות Mailgun",
+                "postmark_heading": "",
+                "postmark_description": "",
                 "not_sending_message": "Flarum לא שולח מיילים. ייתכן שהסיבה לכך היא driver שנבחר, או משגיאות בתצורתו.",
                 "send_test_mail_button": "שליחה",
                 "send_test_mail_heading": "שליחת מייל בדיקה",
@@ -305,11 +357,13 @@
                 "basics_button": "=> core.admin.basics.title",
                 "basics_title": "=> core.admin.basics.description",
                 "categories": {
+                    "analytics": "",
                     "authentication": "התחברות",
                     "core": "הגדרות ראשיות",
                     "discussion": "דיון",
                     "feature": "תכונות",
                     "formatting": "פורמט",
+                    "infrastructure": "",
                     "language": "שפות",
                     "moderation": "ניהול",
                     "other": "הרחבות נוספות",
@@ -649,6 +703,9 @@
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "אתר",
                 "notify_discussion_renamed_label": "מישהו שינה כותרת של דיון שיצרתי",
+                "device_heading": "",
+                "haptic_feedback_help": "",
+                "haptic_feedback_label": "",
                 "privacy_disclose_online_label": "אפשר למשתמשים לראות מתי אני מחובר/ת",
                 "privacy_heading": "פרטיות",
                 "title": "=> core.ref.settings"
@@ -898,6 +955,7 @@
                 "maintenance_mode_link": "",
                 "maintenance_mode_message": "",
                 "maintenance_mode_title": "",
+                "method_not_allowed": "",
                 "not_authenticated": "אין באפשרותך להגיע לעמוד הזה. נסו שנית לאחר ההתחברות.",
                 "not_found": "עמוד שביקשת אינו קיים.",
                 "not_found_return_link": "חזרה ל{forum}",

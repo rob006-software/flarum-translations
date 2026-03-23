@@ -53,6 +53,14 @@
                     "config_override": {
                         "label": "",
                         "help": ""
+                    },
+                    "preview": {
+                        "button": "",
+                        "label": "",
+                        "help": "",
+                        "fa5_fa6_label": "",
+                        "fa7_label": "",
+                        "pro_label": ""
                     }
                 },
                 "pgsql": {
@@ -108,6 +116,8 @@
                 "favicon_text": "Laadi üles pilt, mida näidatakse foorumi otsetee ikoonil.",
                 "logo_heading": "Logo",
                 "logo_text": "Laadi üles pilt, mida näidatakse foorumi pealkirja asemel.",
+                "logo_dark_mode_heading": "",
+                "logo_dark_mode_text": "",
                 "title": "Välimus",
                 "color_scheme_label": "",
                 "color_schemes": {
@@ -127,6 +137,11 @@
                 },
                 "display_name_heading": "Kasutaja kuvatav nimi",
                 "display_name_text": "Vali, kuidas näidatakse kasutajate nimesid. Vaikimisi näidatakse kasutajanime.",
+                "avatar_driver_options": {
+                    "default": ""
+                },
+                "avatar_driver_heading": "",
+                "avatar_driver_text": "",
                 "forum_description_heading": "Foorumi kirjeldus",
                 "forum_description_text": "Sisesta lühike lause või kaks, mis kirjeldab sinu kasutajaskonda. See läheb meta sildi sisse ja seda kasutatakse otsingumootorite poolt.",
                 "forum_title_heading": "Foorumi pealkiri",
@@ -140,7 +155,8 @@
                     },
                     "users": {
                         "default": "",
-                        "id": ""
+                        "id": "",
+                        "id_with_display_name": ""
                     }
                 },
                 "slug_driver_heading": "Slug draiver: {model}",
@@ -158,6 +174,20 @@
                 "title": "Loo uus kasutaja",
                 "use_random_password": "Genereeri parool",
                 "username_placeholder": "Kasutajanimi"
+            },
+            "announcements": {
+                "comments_label": "",
+                "description": "",
+                "empty": "",
+                "load_error": "",
+                "about": "",
+                "hide": "",
+                "read_more": "",
+                "refresh": "",
+                "retry": "",
+                "show": "",
+                "title": "",
+                "view_all": ""
             },
             "dashboard": {
                 "clear_cache_button": "Puhasta vahemälu",
@@ -185,6 +215,22 @@
                 "title": "Juhtpaneel",
                 "toggle_advanced_page_button": "",
                 "tools_button": "Tööriistad"
+            },
+            "extensions-health-widget": {
+                "abandoned_no_replacement": "",
+                "abandoned_with_replacement": "",
+                "all_healthy": "",
+                "section_abandoned_empty": "",
+                "section_suggested_empty": "",
+                "section_disabled_empty": "",
+                "title": "",
+                "section_abandoned_heading": "",
+                "section_abandoned_help": "",
+                "section_suggested_heading": "",
+                "section_suggested_help": "",
+                "section_disabled_heading": "",
+                "section_disabled_help": "",
+                "suggested_by": ""
             },
             "debug-warning": {
                 "detail": "Kui <code>silumisrežiim</code> on aktiivne, siis Flarum taasloob <code>Javascripti</code> ja <code>CSS</code> failid igal päringul ning võib potensiaalselt lekkida muud tundlikku informatsiooni - nagu näiteks salastatud andmed andmebaasis, keskkonnamuutujad jne.\n\nRangelt soovituslik on toodangukeskkonnas <code>silumisrežiim</code> välja lülitada <code>config.php</code> konfiguratsioonifailist. Lisainformatsiooni leiab <link>Flarumi dokumentatsioonist</link>.\n",
@@ -241,8 +287,14 @@
                 "mail_mailgun_secret_label": "Salavõti",
                 "mail_password_label": "=> core.ref.password",
                 "mail_port_label": "Port",
+                "mail_postmark_message_stream_label": "",
+                "mail_postmark_token_label": "",
+                "mail_smtp_verify_peer_label": "",
+                "mail_smtp_verify_peer_help": "",
                 "mail_username_label": "=> core.ref.username",
                 "mailgun_heading": "Mailgun seaded",
+                "postmark_heading": "",
+                "postmark_description": "",
                 "not_sending_message": "Hetkel Flarum e-posti ei saada. See võib olla tingitud valitud draiverist või selle valedest seadetest.",
                 "send_test_mail_button": "Saada",
                 "send_test_mail_heading": "Saada proovimeil",
@@ -305,11 +357,13 @@
                 "basics_button": "=> core.admin.basics.title",
                 "basics_title": "=> core.admin.basics.description",
                 "categories": {
+                    "analytics": "",
                     "authentication": "Autentimine",
                     "core": "Põhiseaded",
                     "discussion": "Vestlus",
                     "feature": "Funktsioonid",
                     "formatting": "Vormindus",
+                    "infrastructure": "",
                     "language": "Keeled",
                     "moderation": "Modereerimine",
                     "other": "Teised laiendused",
@@ -649,6 +703,9 @@
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "Veeb",
                 "notify_discussion_renamed_label": "Keegi nimetab minu alustatud vestluse ümber",
+                "device_heading": "",
+                "haptic_feedback_help": "",
+                "haptic_feedback_label": "",
                 "privacy_disclose_online_label": "Näita teistele, kui ma olen lehel",
                 "privacy_heading": "Privaatsus",
                 "title": "=> core.ref.settings"
@@ -898,6 +955,7 @@
                 "maintenance_mode_link": "",
                 "maintenance_mode_message": "",
                 "maintenance_mode_title": "",
+                "method_not_allowed": "",
                 "not_authenticated": "Sul pole selle lehe ligipääsuõigust. Proovi peale sisselogimist uuesti.",
                 "not_found": "Nõutud lehte ei leitud.",
                 "not_found_return_link": "Mine tagasi lehele {forum}",

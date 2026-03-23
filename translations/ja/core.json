@@ -53,6 +53,14 @@
                     "config_override": {
                         "label": "",
                         "help": ""
+                    },
+                    "preview": {
+                        "button": "",
+                        "label": "",
+                        "help": "",
+                        "fa5_fa6_label": "",
+                        "fa7_label": "",
+                        "pro_label": ""
                     }
                 },
                 "pgsql": {
@@ -108,6 +116,8 @@
                 "favicon_text": "画像をアップロードすると、フォーラムのFaviconに表示されます。",
                 "logo_heading": "ロゴ",
                 "logo_text": "画像をアップロードすると、フォーラムのタイトルの代わりに表示されます。",
+                "logo_dark_mode_heading": "",
+                "logo_dark_mode_text": "",
                 "title": "外見",
                 "color_scheme_label": "",
                 "color_schemes": {
@@ -127,6 +137,11 @@
                 },
                 "display_name_heading": "ユーザーの表示名",
                 "display_name_text": "ユーザーの表示名として何を使用するかを選択します。初期設定ではユーザー名が表示されます。",
+                "avatar_driver_options": {
+                    "default": ""
+                },
+                "avatar_driver_heading": "",
+                "avatar_driver_text": "",
                 "forum_description_heading": "フォーラムの説明文",
                 "forum_description_text": "あなたのコミュニティを文章で簡潔に入力してください。これはmetaタグに使用され、検索エンジンに表示されます。",
                 "forum_title_heading": "フォーラムタイトル",
@@ -140,7 +155,8 @@
                     },
                     "users": {
                         "default": "",
-                        "id": ""
+                        "id": "",
+                        "id_with_display_name": ""
                     }
                 },
                 "slug_driver_heading": "スラッグ: {model}",
@@ -158,6 +174,20 @@
                 "title": "新しいユーザーを作成",
                 "use_random_password": "ランダムなパスワードを生成",
                 "username_placeholder": "=> core.ref.username"
+            },
+            "announcements": {
+                "comments_label": "",
+                "description": "",
+                "empty": "",
+                "load_error": "",
+                "about": "",
+                "hide": "",
+                "read_more": "",
+                "refresh": "",
+                "retry": "",
+                "show": "",
+                "title": "",
+                "view_all": ""
             },
             "dashboard": {
                 "clear_cache_button": "キャッシュのクリア",
@@ -185,6 +215,22 @@
                 "title": "ダッシュボード",
                 "toggle_advanced_page_button": "",
                 "tools_button": "ツール"
+            },
+            "extensions-health-widget": {
+                "abandoned_no_replacement": "",
+                "abandoned_with_replacement": "",
+                "all_healthy": "",
+                "section_abandoned_empty": "",
+                "section_suggested_empty": "",
+                "section_disabled_empty": "",
+                "title": "",
+                "section_abandoned_heading": "",
+                "section_abandoned_help": "",
+                "section_suggested_heading": "",
+                "section_suggested_help": "",
+                "section_disabled_heading": "",
+                "section_disabled_help": "",
+                "suggested_by": ""
             },
             "debug-warning": {
                 "detail": "When <code>デバッグ</code>モードが有効化されている場合、Flarumは<code>JavaScript</code> と <code>CSS</code> のリビルドをリクエスト毎に実行します。また、データベースシークレットや環境変数などのデータが漏洩する可能性があります。\n\n運用環境においては、<code>config.php</code>を開いて<code>debug</code>を無効化することを強く推奨します。詳細は<link>Flarum docs</link>をご確認ください。\n",
@@ -241,8 +287,14 @@
                 "mail_mailgun_secret_label": "シークレットキー",
                 "mail_password_label": "=> core.ref.password",
                 "mail_port_label": "ポート",
+                "mail_postmark_message_stream_label": "",
+                "mail_postmark_token_label": "",
+                "mail_smtp_verify_peer_label": "",
+                "mail_smtp_verify_peer_help": "",
                 "mail_username_label": "=> core.ref.username",
                 "mailgun_heading": "Mailgun設定",
+                "postmark_heading": "",
+                "postmark_description": "",
                 "not_sending_message": "Flarumは現在メールを送信していません。これは、選択した送信方法または設定のエラーが原因である可能性があります。",
                 "send_test_mail_button": "送信",
                 "send_test_mail_heading": "テストメールを送信",
@@ -305,11 +357,13 @@
                 "basics_button": "=> core.admin.basics.title",
                 "basics_title": "=> core.admin.basics.description",
                 "categories": {
+                    "analytics": "",
                     "authentication": "認証",
                     "core": "基本設定",
                     "discussion": "会話",
                     "feature": "機能",
                     "formatting": "書式",
+                    "infrastructure": "",
                     "language": "言語",
                     "moderation": "管理",
                     "other": "その他",
@@ -649,6 +703,9 @@
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "Web",
                 "notify_discussion_renamed_label": "あなたの作成したスレッドのタイトルが変更された時",
+                "device_heading": "",
+                "haptic_feedback_help": "",
+                "haptic_feedback_label": "",
                 "privacy_disclose_online_label": "自分のオンライン状況を他のユーザーが確認できるようにする",
                 "privacy_heading": "プライバシー",
                 "title": "=> core.ref.settings"
@@ -898,6 +955,7 @@
                 "maintenance_mode_link": "",
                 "maintenance_mode_message": "",
                 "maintenance_mode_title": "",
+                "method_not_allowed": "",
                 "not_authenticated": "このページにアクセスする権限がありません。ログイン後に再度お試しください。",
                 "not_found": "要求されたページが見つかりませんでした。",
                 "not_found_return_link": "{forum} へ戻る",

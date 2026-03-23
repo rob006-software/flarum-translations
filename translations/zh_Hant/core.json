@@ -53,6 +53,14 @@
                     "config_override": {
                         "label": "",
                         "help": ""
+                    },
+                    "preview": {
+                        "button": "",
+                        "label": "",
+                        "help": "",
+                        "fa5_fa6_label": "",
+                        "fa7_label": "",
+                        "pro_label": ""
                     }
                 },
                 "pgsql": {
@@ -108,6 +116,8 @@
                 "favicon_text": "上傳圖片作為論壇的網站圖示，該圖示將顯示在瀏覽器標籤頁、搜尋引擎結果列表和書籤等多個位置。",
                 "logo_heading": "網站標誌",
                 "logo_text": "上傳圖片代替論壇名稱，將顯示在導航欄的左側。",
+                "logo_dark_mode_heading": "",
+                "logo_dark_mode_text": "",
                 "title": "外觀",
                 "color_scheme_label": "",
                 "color_schemes": {
@@ -127,6 +137,11 @@
                 },
                 "display_name_heading": "使用者顯示名稱",
                 "display_name_text": "選擇外顯名稱的類型，預設為用戶名。",
+                "avatar_driver_options": {
+                    "default": ""
+                },
+                "avatar_driver_heading": "",
+                "avatar_driver_text": "",
                 "forum_description_heading": "論壇說明",
                 "forum_description_text": "使用一到兩句話簡短描述論壇。這將會增加到 Meta 標籤中，並顯示於搜尋引擎結果中。",
                 "forum_title_heading": "論壇名稱",
@@ -140,7 +155,8 @@
                     },
                     "users": {
                         "default": "",
-                        "id": ""
+                        "id": "",
+                        "id_with_display_name": ""
                     }
                 },
                 "slug_driver_heading": "固定連結驅動：{model}",
@@ -158,6 +174,20 @@
                 "title": "建立新用戶",
                 "use_random_password": "產生隨機密碼",
                 "username_placeholder": "=> core.ref.username"
+            },
+            "announcements": {
+                "comments_label": "",
+                "description": "",
+                "empty": "",
+                "load_error": "",
+                "about": "",
+                "hide": "",
+                "read_more": "",
+                "refresh": "",
+                "retry": "",
+                "show": "",
+                "title": "",
+                "view_all": ""
             },
             "dashboard": {
                 "clear_cache_button": "清除快取",
@@ -185,6 +215,22 @@
                 "title": "儀表板",
                 "toggle_advanced_page_button": "",
                 "tools_button": "工具"
+            },
+            "extensions-health-widget": {
+                "abandoned_no_replacement": "",
+                "abandoned_with_replacement": "",
+                "all_healthy": "",
+                "section_abandoned_empty": "",
+                "section_suggested_empty": "",
+                "section_disabled_empty": "",
+                "title": "",
+                "section_abandoned_heading": "",
+                "section_abandoned_help": "",
+                "section_suggested_heading": "",
+                "section_suggested_help": "",
+                "section_disabled_heading": "",
+                "section_disabled_help": "",
+                "suggested_by": ""
             },
             "debug-warning": {
                 "detail": "啟用 <code>調適</code> 模式時，<code>JavaScript</code> 和 <code>CSS</code> 檔案將於每次請求時返回全新的編譯版本。調試模式中，所有日誌、警告和錯誤均會以彈窗形式展示在網頁中，資料庫密碼、環境變數等敏感資訊均有可能在此期間洩漏。 \n \n因此我們強烈建議您在生產環境中將 <code>config.php</code> 檔案中的 <code>debug</code> 設置為 <code>false</code> 以禁用調試模式。請查看 <link>Flarum 文件</link>了解更多資訊。\n",
@@ -241,8 +287,14 @@
                 "mail_mailgun_secret_label": "Secret key",
                 "mail_password_label": "密碼",
                 "mail_port_label": "通訊埠",
+                "mail_postmark_message_stream_label": "",
+                "mail_postmark_token_label": "",
+                "mail_smtp_verify_peer_label": "",
+                "mail_smtp_verify_peer_help": "",
                 "mail_username_label": "用戶名 (部分服務商要求使用完整郵件地址)",
                 "mailgun_heading": "Mailgun 設定",
+                "postmark_heading": "",
+                "postmark_description": "",
                 "not_sending_message": "Flarum 目前無法傳送郵件，請檢查郵件驅動及配置。",
                 "send_test_mail_button": "發送",
                 "send_test_mail_heading": "發送測試郵件",
@@ -305,11 +357,13 @@
                 "basics_button": "基本設定",
                 "basics_title": "設置論壇名稱、語言以及其他基本設置",
                 "categories": {
+                    "analytics": "",
                     "authentication": "驗證",
                     "core": "核心配置",
                     "discussion": "主題",
                     "feature": "功能",
                     "formatting": "格式化",
+                    "infrastructure": "",
                     "language": "語言包",
                     "moderation": "內容審核",
                     "other": "其他",
@@ -649,6 +703,9 @@
                 "notify_by_email_heading": "郵箱",
                 "notify_by_web_heading": "網頁",
                 "notify_discussion_renamed_label": "你的貼文主題被更改",
+                "device_heading": "",
+                "haptic_feedback_help": "",
+                "haptic_feedback_label": "",
                 "privacy_disclose_online_label": "公開我的在線狀態",
                 "privacy_heading": "隱私",
                 "title": "設定"
@@ -898,6 +955,7 @@
                 "maintenance_mode_link": "",
                 "maintenance_mode_message": "",
                 "maintenance_mode_title": "",
+                "method_not_allowed": "",
                 "not_authenticated": "您沒有權限訪問此頁面。請登入後再試。",
                 "not_found": "頁面未找到。",
                 "not_found_return_link": "返回 {forum}",

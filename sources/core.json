@@ -53,6 +53,14 @@
                     "config_override": {
                         "label": "Config Override",
                         "help": "FontAwesome settings are currently set in your config.php file and cannot be changed here."
+                    },
+                    "preview": {
+                        "button": "Preview Icons",
+                        "label": "Icon Preview",
+                        "help": "Verify your FontAwesome setup. A rendered icon means that tier is available; a broken box means it is not loaded.",
+                        "fa5_fa6_label": "FA5/FA6 aliases",
+                        "fa7_label": "FA7 classes",
+                        "pro_label": "Pro only"
                     }
                 },
                 "pgsql": {
@@ -108,6 +116,8 @@
                 "favicon_text": "Upload an image to be displayed as the forum's shortcut icon.",
                 "logo_heading": "Logo",
                 "logo_text": "Upload an image to be displayed in place of the forum title.",
+                "logo_dark_mode_heading": "Dark mode logo",
+                "logo_dark_mode_text": "Upload an alternate logo to be displayed when dark mode is enabled.",
                 "title": "Appearance",
                 "color_scheme_label": "Color Scheme (default)",
                 "color_schemes": {
@@ -127,6 +137,11 @@
                 },
                 "display_name_heading": "User Display Name",
                 "display_name_text": "Select the driver that should be used for users' display names. By default, the username is shown.",
+                "avatar_driver_options": {
+                    "default": "Default"
+                },
+                "avatar_driver_heading": "User Avatar",
+                "avatar_driver_text": "Select a driver that should be used for users' avatars when no user-uploaded avatar is available. By default, no avatar will be displayed when a user has not uploaded one.",
                 "forum_description_heading": "Forum Description",
                 "forum_description_text": "Enter a short sentence or two that describes your community. This will appear in the meta tag and show up in search engines.",
                 "forum_title_heading": "Forum Title",
@@ -140,7 +155,8 @@
                     },
                     "users": {
                         "default": "Username",
-                        "id": "ID"
+                        "id": "ID",
+                        "id_with_display_name": "ID with Display Name"
                     }
                 },
                 "slug_driver_heading": "Slug Driver: {model}",
@@ -158,6 +174,20 @@
                 "title": "Create new user",
                 "use_random_password": "Generate random password",
                 "username_placeholder": "=> core.ref.username"
+            },
+            "announcements": {
+                "comments_label": "{count, plural, one {# comment} other {# comments}}",
+                "description": "Latest news and announcements from the Flarum Team.",
+                "empty": "No announcements found.",
+                "load_error": "Could not load announcements. Please try again later.",
+                "about": "Latest news and announcements pulled from the official Flarum community at discuss.flarum.org.",
+                "hide": "Hide announcements",
+                "read_more": "Read more",
+                "refresh": "Refresh announcements",
+                "retry": "Try again",
+                "show": "Show announcements",
+                "title": "Announcements",
+                "view_all": "View all on discuss.flarum.org"
             },
             "dashboard": {
                 "clear_cache_button": "Clear Cache",
@@ -185,6 +215,22 @@
                 "title": "Dashboard",
                 "toggle_advanced_page_button": "Toggle Advanced Page",
                 "tools_button": "Tools"
+            },
+            "extensions-health-widget": {
+                "abandoned_no_replacement": "No replacement available",
+                "abandoned_with_replacement": "Replaced by {replacement}",
+                "all_healthy": "All extensions are healthy.",
+                "section_abandoned_empty": "No issues found.",
+                "section_suggested_empty": "No suggestions.",
+                "section_disabled_empty": "All extensions are enabled.",
+                "title": "Extension Health",
+                "section_abandoned_heading": "Needs Attention",
+                "section_abandoned_help": "These extensions are no longer maintained or may have compatibility issues. Consider updating, replacing, or removing them.",
+                "section_suggested_heading": "Suggested",
+                "section_suggested_help": "Flarum extensions can add optional extra features by specifying other extensions or packages. These might add more features or integrations.",
+                "section_disabled_heading": "Disabled",
+                "section_disabled_help": "These extensions are installed but not currently enabled. Enable them from their settings page, or remove them if no longer needed.",
+                "suggested_by": "Suggested by {extension}"
             },
             "debug-warning": {
                 "detail": "When <code>debug</code> mode is active, Flarum will rebuild its <code>JavaScript</code> and <code>CSS</code> assets on every request, and could also potentially leak other information, such as database secrets, environment variables, etc.\n\nIt is highly recommended to disable <code>debug</code> in your <code>config.php</code> file in production. See <link>Flarum docs</link> for more information.\n",
@@ -241,8 +287,14 @@
                 "mail_mailgun_secret_label": "Secret key",
                 "mail_password_label": "=> core.ref.password",
                 "mail_port_label": "Port",
+                "mail_postmark_message_stream_label": "Message stream",
+                "mail_postmark_token_label": "Server token",
+                "mail_smtp_verify_peer_label": "Verify SSL Certificate",
+                "mail_smtp_verify_peer_help": "Verify the server's SSL certificate when using TLS or SSL encryption. Disable only if your mail server uses a self-signed certificate.",
                 "mail_username_label": "=> core.ref.username",
                 "mailgun_heading": "Mailgun Settings",
+                "postmark_heading": "Postmark Settings",
+                "postmark_description": "Send email via Postmark's HTTP API. Optionally specify a message stream to use a non-default stream.",
                 "not_sending_message": "Flarum currently does not send emails. This can be due to the selected driver, or errors in its configuration.",
                 "send_test_mail_button": "Send",
                 "send_test_mail_heading": "Send Test Mail",
@@ -305,11 +357,13 @@
                 "basics_button": "=> core.admin.basics.title",
                 "basics_title": "=> core.admin.basics.description",
                 "categories": {
+                    "analytics": "Analytics",
                     "authentication": "Authentication",
                     "core": "Core Configuration",
                     "discussion": "Discussion",
                     "feature": "Features",
                     "formatting": "Formatting",
+                    "infrastructure": "Infrastructure",
                     "language": "Languages",
                     "moderation": "Moderation",
                     "other": "Other Extensions",
@@ -649,6 +703,9 @@
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "Web",
                 "notify_discussion_renamed_label": "Someone renames a discussion I started",
+                "device_heading": "Device",
+                "haptic_feedback_help": "Only available on supported mobile devices",
+                "haptic_feedback_label": "Enable haptic feedback",
                 "privacy_disclose_online_label": "Allow others to see when I am online",
                 "privacy_heading": "Privacy",
                 "title": "=> core.ref.settings"
@@ -898,6 +955,7 @@
                 "maintenance_mode_link": "Administrator login",
                 "maintenance_mode_message": "This forum is currently down for maintenance. Please check back later.",
                 "maintenance_mode_title": "Maintenance",
+                "method_not_allowed": "This page does not support that request method.",
                 "not_authenticated": "You do not have permission to access this page. Try again after logging in.",
                 "not_found": "The page you requested could not be found.",
                 "not_found_return_link": "Return to {forum}",
@@ -1008,7 +1066,7 @@
             "extensions": "Extensions",
             "generic_confirmation_message": "Are you sure you want to proceed? This action cannot be undone.",
             "icon": "Icon",
-            "icon_text": "Enter the name of any <a>FontAwesome</a> icon class, <em>including</em> the <code>fas fa-</code> prefix.",
+            "icon_text": "Enter the name of any <a>FontAwesome</a> icon class, <em>including</em> the prefix (e.g. <code>fas fa-flag</code> or <code>fa-solid fa-flag</code>).",
             "invalid_login_message": "Your login details were incorrect.",
             "light_hc_mode_label": "Light High Contrast Mode",
             "light_mode_label": "Light Mode",

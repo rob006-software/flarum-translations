@@ -53,6 +53,14 @@
                     "config_override": {
                         "label": "",
                         "help": ""
+                    },
+                    "preview": {
+                        "button": "",
+                        "label": "",
+                        "help": "",
+                        "fa5_fa6_label": "",
+                        "fa7_label": "",
+                        "pro_label": ""
                     }
                 },
                 "pgsql": {
@@ -108,6 +116,8 @@
                 "favicon_text": "포럼의 바로가기에 보여질 이미지를 업로드하세요.",
                 "logo_heading": "로고",
                 "logo_text": "포럼 제목에 보여질 이미지를 업로드하세요.",
+                "logo_dark_mode_heading": "",
+                "logo_dark_mode_text": "",
                 "title": "외관",
                 "color_scheme_label": "",
                 "color_schemes": {
@@ -127,6 +137,11 @@
                 },
                 "display_name_heading": "사용자 표시 이름",
                 "display_name_text": "사용자 표시 이름에 사용되는 드라이버를 선택하십시오. 기본적으로 사용자명이 표시됩니다.",
+                "avatar_driver_options": {
+                    "default": ""
+                },
+                "avatar_driver_heading": "",
+                "avatar_driver_text": "",
                 "forum_description_heading": "포럼 설명",
                 "forum_description_text": "커뮤니티를 설명하는 두개의 짧은 문장을 입력합니다. 이 문장은 메타 태그에 나타나고 검색 엔진에 표시됩니다.",
                 "forum_title_heading": "포럼 타이틀",
@@ -140,7 +155,8 @@
                     },
                     "users": {
                         "default": "",
-                        "id": ""
+                        "id": "",
+                        "id_with_display_name": ""
                     }
                 },
                 "slug_driver_heading": "슬러그 드라이버: {model}",
@@ -158,6 +174,20 @@
                 "title": "새로운 사용자 생성",
                 "use_random_password": "임의의 비밀번호 생성",
                 "username_placeholder": "=> core.ref.username"
+            },
+            "announcements": {
+                "comments_label": "",
+                "description": "",
+                "empty": "",
+                "load_error": "",
+                "about": "",
+                "hide": "",
+                "read_more": "",
+                "refresh": "",
+                "retry": "",
+                "show": "",
+                "title": "",
+                "view_all": ""
             },
             "dashboard": {
                 "clear_cache_button": "캐시 삭제",
@@ -185,6 +215,22 @@
                 "title": "대시보드",
                 "toggle_advanced_page_button": "",
                 "tools_button": "도구"
+            },
+            "extensions-health-widget": {
+                "abandoned_no_replacement": "",
+                "abandoned_with_replacement": "",
+                "all_healthy": "",
+                "section_abandoned_empty": "",
+                "section_suggested_empty": "",
+                "section_disabled_empty": "",
+                "title": "",
+                "section_abandoned_heading": "",
+                "section_abandoned_help": "",
+                "section_suggested_heading": "",
+                "section_suggested_help": "",
+                "section_disabled_heading": "",
+                "section_disabled_help": "",
+                "suggested_by": ""
             },
             "debug-warning": {
                 "detail": "<code>debug</code> 모드가 활성화되어 있을 때, Flarum은 매 요청마다 자신의 <code>JavaScript</code> 및 <code>CSS</code> 자산을 다시 빌드하고 데이터베이스 비밀번호, 환경 변수 등과 같은 다른 정보가 노출될 수도 있습니다.\n\n운영 환경에서는 <code>config.php</code> 파일에서 <code>debug</code>를 비활성화하는 것이 매우 권장됩니다. 자세한 내용은 <link>Flarum 문서</link>를 참조하세요.\n",
@@ -241,8 +287,14 @@
                 "mail_mailgun_secret_label": "시크릿 키",
                 "mail_password_label": "=> core.ref.password",
                 "mail_port_label": "포트",
+                "mail_postmark_message_stream_label": "",
+                "mail_postmark_token_label": "",
+                "mail_smtp_verify_peer_label": "",
+                "mail_smtp_verify_peer_help": "",
                 "mail_username_label": "=> core.ref.username",
                 "mailgun_heading": "Mailgun 설정",
+                "postmark_heading": "",
+                "postmark_description": "",
                 "not_sending_message": "Flarum에서 현재 이메일을 보낼 수 없습니다. 이 문제는 선택한 드라이버 또는 해당 구성의 오류 때문일 수 있습니다.",
                 "send_test_mail_button": "전송",
                 "send_test_mail_heading": "테스트 이메일 전송",
@@ -305,11 +357,13 @@
                 "basics_button": "기본",
                 "basics_title": "=> core.admin.basics.description",
                 "categories": {
+                    "analytics": "",
                     "authentication": "인증",
                     "core": "코어 설정",
                     "discussion": "토의",
                     "feature": "기능",
                     "formatting": "형식",
+                    "infrastructure": "",
                     "language": "언어",
                     "moderation": "중재",
                     "other": "다른 확장",
@@ -649,6 +703,9 @@
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "웹",
                 "notify_discussion_renamed_label": "누군가 내가 시작한 게시물의 이름을 바꿨을 때",
+                "device_heading": "",
+                "haptic_feedback_help": "",
+                "haptic_feedback_label": "",
                 "privacy_disclose_online_label": "온라인 상태를 다른 사용자가 볼 수 있도록 허용",
                 "privacy_heading": "프라이버시",
                 "title": "=> core.ref.settings"
@@ -898,6 +955,7 @@
                 "maintenance_mode_link": "",
                 "maintenance_mode_message": "",
                 "maintenance_mode_title": "",
+                "method_not_allowed": "",
                 "not_authenticated": "이 페이지에 접속할 수 있는 권한이 없습니다. 로그인 한 후 다시 시도하십시오.",
                 "not_found": "요청한 페이지를 찾을 수 없습니다.",
                 "not_found_return_link": "{forum}으로 돌아가기",

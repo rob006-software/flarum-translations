@@ -53,6 +53,14 @@
                     "config_override": {
                         "label": "",
                         "help": ""
+                    },
+                    "preview": {
+                        "button": "",
+                        "label": "",
+                        "help": "",
+                        "fa5_fa6_label": "",
+                        "fa7_label": "",
+                        "pro_label": ""
                     }
                 },
                 "pgsql": {
@@ -108,6 +116,8 @@
                 "favicon_text": "Forumun qısayol simvolu kimi göstəriləcək bir şəkil yükləyin (favikon).",
                 "logo_heading": "Loqo",
                 "logo_text": "Forumun başlığının yerinə göstəriləcək bir şəkil yükləyin (Loqo).",
+                "logo_dark_mode_heading": "",
+                "logo_dark_mode_text": "",
                 "title": "Görünüş",
                 "color_scheme_label": "",
                 "color_schemes": {
@@ -127,6 +137,11 @@
                 },
                 "display_name_heading": "İstifadəçinin Görünən Adı",
                 "display_name_text": "İstifadəçilərin ekran adları üçün istifadə edilməli olan sürücünü seçin. Standart olaraq istifadəçi adı göstərilir.",
+                "avatar_driver_options": {
+                    "default": ""
+                },
+                "avatar_driver_heading": "",
+                "avatar_driver_text": "",
                 "forum_description_heading": "Forum Açıqlaması",
                 "forum_description_text": "İcmanızı (forum istifadəçilərini) təsvir edən qısa bir və ya iki cümlə daxil edin. Bu meta etiketdə görünəcək və axtarış motorlarında çıxacaq.",
                 "forum_title_heading": "Forum Başlığı",
@@ -140,7 +155,8 @@
                     },
                     "users": {
                         "default": "",
-                        "id": ""
+                        "id": "",
+                        "id_with_display_name": ""
                     }
                 },
                 "slug_driver_heading": "Slug Sürücü (Slug Driver): {model}",
@@ -158,6 +174,20 @@
                 "title": "Yeni istifadəçi yarat",
                 "use_random_password": "Təsadüfi şifrə yarat",
                 "username_placeholder": "=> core.ref.username"
+            },
+            "announcements": {
+                "comments_label": "",
+                "description": "",
+                "empty": "",
+                "load_error": "",
+                "about": "",
+                "hide": "",
+                "read_more": "",
+                "refresh": "",
+                "retry": "",
+                "show": "",
+                "title": "",
+                "view_all": ""
             },
             "dashboard": {
                 "clear_cache_button": "Keşi Təmizlə",
@@ -185,6 +215,22 @@
                 "title": "Panel",
                 "toggle_advanced_page_button": "",
                 "tools_button": "Alətlər"
+            },
+            "extensions-health-widget": {
+                "abandoned_no_replacement": "",
+                "abandoned_with_replacement": "",
+                "all_healthy": "",
+                "section_abandoned_empty": "",
+                "section_suggested_empty": "",
+                "section_disabled_empty": "",
+                "title": "",
+                "section_abandoned_heading": "",
+                "section_abandoned_help": "",
+                "section_suggested_heading": "",
+                "section_suggested_help": "",
+                "section_disabled_heading": "",
+                "section_disabled_help": "",
+                "suggested_by": ""
             },
             "debug-warning": {
                 "detail": "<code>debug</code> rejimi aktiv olduqda, Flarum hər sorğuda öz <code>JavaScript</code> və <code>CSS</code> varlıqlarını bərpa edəcək və həmçinin potensial olaraq verilənlər bazası sirləri, mühit dəyişənləri və s. kimi məlumatları sızdıra bilər.\n\nİstehsalda olan <code>config.php</code> faylınızda <code>debug</code>-u deaktiv etmək böyük ölçüdə tövsiyə olunur. Ətraflı məlumat üçün <link>Flarum docs</link>-ə baxın.\n",
@@ -241,8 +287,14 @@
                 "mail_mailgun_secret_label": "Gizli açar",
                 "mail_password_label": "=> core.ref.password",
                 "mail_port_label": "Port",
+                "mail_postmark_message_stream_label": "",
+                "mail_postmark_token_label": "",
+                "mail_smtp_verify_peer_label": "",
+                "mail_smtp_verify_peer_help": "",
                 "mail_username_label": "=> core.ref.username",
                 "mailgun_heading": "Mailgun Parametrləri",
+                "postmark_heading": "",
+                "postmark_description": "",
                 "not_sending_message": "Flarum hazırda e-poçt göndərmir. Bunun səbəbi seçilmiş sürücü və ya onun konfiqurasiyasındakı səhvlər ola bilər.",
                 "send_test_mail_button": "Göndər",
                 "send_test_mail_heading": "Test poçtu göndər",
@@ -305,11 +357,13 @@
                 "basics_button": "=> core.admin.basics.title",
                 "basics_title": "=> core.admin.basics.description",
                 "categories": {
+                    "analytics": "",
                     "authentication": "İdentifikasiya",
                     "core": "Əsas Konfiqurasiya",
                     "discussion": "Müzakirə",
                     "feature": "Xüsusiyyətlər",
                     "formatting": "Formatlama",
+                    "infrastructure": "",
                     "language": "Dillər",
                     "moderation": "Moderasiya",
                     "other": "Digər Uzantılar",
@@ -649,6 +703,9 @@
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "Veb",
                 "notify_discussion_renamed_label": "Kimsə mənim başladığım müzakirənin adını dəyişir",
+                "device_heading": "",
+                "haptic_feedback_help": "",
+                "haptic_feedback_label": "",
                 "privacy_disclose_online_label": "Başqalarının onlayn olduğumu görməsinə icazə ver",
                 "privacy_heading": "Məxfilik",
                 "title": "=> core.ref.settings"
@@ -898,6 +955,7 @@
                 "maintenance_mode_link": "",
                 "maintenance_mode_message": "",
                 "maintenance_mode_title": "",
+                "method_not_allowed": "",
                 "not_authenticated": "Bu səhifəyə daxil olmaq üçün icazəniz yoxdur. Daxil olduqdan sonra yenidən cəhd edin.",
                 "not_found": "İstədiyiniz səhifəni tapmaq mümkün olmadı.",
                 "not_found_return_link": "{forum} səhifəsinə qayıt",

@@ -53,6 +53,14 @@
                     "config_override": {
                         "label": "",
                         "help": ""
+                    },
+                    "preview": {
+                        "button": "",
+                        "label": "",
+                        "help": "",
+                        "fa5_fa6_label": "",
+                        "fa7_label": "",
+                        "pro_label": ""
                     }
                 },
                 "pgsql": {
@@ -108,6 +116,8 @@
                 "favicon_text": "Качете изображение, което да бъде показвано като иконка на бърз достъп за форума.",
                 "logo_heading": "Лого",
                 "logo_text": "Качете изображение, което да бъде показвано вместо заглавието на форума.",
+                "logo_dark_mode_heading": "",
+                "logo_dark_mode_text": "",
                 "title": "Външен вид",
                 "color_scheme_label": "",
                 "color_schemes": {
@@ -127,6 +137,11 @@
                 },
                 "display_name_heading": "Име на потребителя за показване",
                 "display_name_text": "Изберете драйвъра, който трябва да се използва за показване на имената на потребителите. По подразбиране се показва потребителското име.",
+                "avatar_driver_options": {
+                    "default": ""
+                },
+                "avatar_driver_heading": "",
+                "avatar_driver_text": "",
                 "forum_description_heading": "Описание на форума",
                 "forum_description_text": "Въведете кратко изречение или две, които описват вашата общност. Това ще се появи в мета тага и ще се показва в търсачките.",
                 "forum_title_heading": "Заглавие на форума",
@@ -140,7 +155,8 @@
                     },
                     "users": {
                         "default": "",
-                        "id": ""
+                        "id": "",
+                        "id_with_display_name": ""
                     }
                 },
                 "slug_driver_heading": "Slug Драйвър: {model}",
@@ -158,6 +174,20 @@
                 "title": "Създай нов потребител",
                 "use_random_password": "Генериране на произволна парола",
                 "username_placeholder": "=> core.ref.username"
+            },
+            "announcements": {
+                "comments_label": "",
+                "description": "",
+                "empty": "",
+                "load_error": "",
+                "about": "",
+                "hide": "",
+                "read_more": "",
+                "refresh": "",
+                "retry": "",
+                "show": "",
+                "title": "",
+                "view_all": ""
             },
             "dashboard": {
                 "clear_cache_button": "Изчисти кеша",
@@ -185,6 +215,22 @@
                 "title": "Табло",
                 "toggle_advanced_page_button": "",
                 "tools_button": "Инструменти"
+            },
+            "extensions-health-widget": {
+                "abandoned_no_replacement": "",
+                "abandoned_with_replacement": "",
+                "all_healthy": "",
+                "section_abandoned_empty": "",
+                "section_suggested_empty": "",
+                "section_disabled_empty": "",
+                "title": "",
+                "section_abandoned_heading": "",
+                "section_abandoned_help": "",
+                "section_suggested_heading": "",
+                "section_suggested_help": "",
+                "section_disabled_heading": "",
+                "section_disabled_help": "",
+                "suggested_by": ""
             },
             "debug-warning": {
                 "detail": "Когато режимът <code>debug</code> е активен, Flarum ще престроява своите <code>JavaScript</code> и <code>CSS</code> ресурси при всеки заявка и може да изтекат друга информация, като например базови пароли, променливи на средата и др.\n\nПрепоръчва се да деактивирате <code>debug</code> във вашия файл <code>config.php</code> в прод средата. Вижте <link>Flarum документацията</link> за повече информация.\n",
@@ -241,8 +287,14 @@
                 "mail_mailgun_secret_label": "Таен ключ",
                 "mail_password_label": "=> core.ref.password",
                 "mail_port_label": "Порт",
+                "mail_postmark_message_stream_label": "",
+                "mail_postmark_token_label": "",
+                "mail_smtp_verify_peer_label": "",
+                "mail_smtp_verify_peer_help": "",
                 "mail_username_label": "=> core.ref.username",
                 "mailgun_heading": "Настройки за Mailgun",
+                "postmark_heading": "",
+                "postmark_description": "",
                 "not_sending_message": "В момента Flarum не изпраща имейли. Това може да се дължи на избрания драйвър или грешки в неговата конфигурация.",
                 "send_test_mail_button": "Изпрати",
                 "send_test_mail_heading": "Изпрати тестов имейл",
@@ -305,11 +357,13 @@
                 "basics_button": "=> core.admin.basics.title",
                 "basics_title": "=> core.admin.basics.description",
                 "categories": {
+                    "analytics": "",
                     "authentication": "Удостоверяване",
                     "core": "Основна конфигурация",
                     "discussion": "Дискусия",
                     "feature": "Характеристики",
                     "formatting": "Форматиране",
+                    "infrastructure": "",
                     "language": "Езици",
                     "moderation": "Модериране",
                     "other": "Други разширения",
@@ -649,6 +703,9 @@
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "Уеб",
                 "notify_discussion_renamed_label": "Някой преименува дискусия, която стартирахте",
+                "device_heading": "",
+                "haptic_feedback_help": "",
+                "haptic_feedback_label": "",
                 "privacy_disclose_online_label": "Позволете на другите да ви виждат когато сте на линия",
                 "privacy_heading": "Поверителност",
                 "title": "=> core.ref.settings"
@@ -898,6 +955,7 @@
                 "maintenance_mode_link": "",
                 "maintenance_mode_message": "",
                 "maintenance_mode_title": "",
+                "method_not_allowed": "",
                 "not_authenticated": "Нямате права да достъпите тази страница. Опитайте отново след като влезете в профила си.",
                 "not_found": "Страницата, която търсите, не може да бъде намерена.",
                 "not_found_return_link": "Върнете се към {forum}",

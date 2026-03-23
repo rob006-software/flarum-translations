@@ -53,6 +53,14 @@
                     "config_override": {
                         "label": "",
                         "help": ""
+                    },
+                    "preview": {
+                        "button": "",
+                        "label": "",
+                        "help": "",
+                        "fa5_fa6_label": "",
+                        "fa7_label": "",
+                        "pro_label": ""
                     }
                 },
                 "pgsql": {
@@ -108,6 +116,8 @@
                 "favicon_text": "Tải hình ảnh lên để được hiển thị như là biểu tượng của diễn đàn.",
                 "logo_heading": "Logo",
                 "logo_text": "Tải hình ảnh lên để hiển thị thay cho tiêu đề diễn đàn.",
+                "logo_dark_mode_heading": "",
+                "logo_dark_mode_text": "",
                 "title": "Giao diện",
                 "color_scheme_label": "",
                 "color_schemes": {
@@ -127,6 +137,11 @@
                 },
                 "display_name_heading": "Tên hiển thị của người dùng",
                 "display_name_text": "Chọn trình điều khiển để hiển thị tên người dùng. Mặc định, tên người dùng sẽ được hiển thị.",
+                "avatar_driver_options": {
+                    "default": ""
+                },
+                "avatar_driver_heading": "",
+                "avatar_driver_text": "",
                 "forum_description_heading": "Mô tả diễn đàn",
                 "forum_description_text": "Nhập một hoặc hai câu ngắn mô tả cộng đồng của bạn. Nội dung này sẽ xuất hiện trong thẻ meta và hiển thị trong các công cụ tìm kiếm.",
                 "forum_title_heading": "Tiêu đề diễn đàn",
@@ -140,7 +155,8 @@
                     },
                     "users": {
                         "default": "",
-                        "id": ""
+                        "id": "",
+                        "id_with_display_name": ""
                     }
                 },
                 "slug_driver_heading": "Trình điểu khiển Slug: {model}",
@@ -158,6 +174,20 @@
                 "title": "Tạo người dùng mới",
                 "use_random_password": "Tạo mật khẩu ngẫu nhiên",
                 "username_placeholder": "=> core.ref.username"
+            },
+            "announcements": {
+                "comments_label": "",
+                "description": "",
+                "empty": "",
+                "load_error": "",
+                "about": "",
+                "hide": "",
+                "read_more": "",
+                "refresh": "",
+                "retry": "",
+                "show": "",
+                "title": "",
+                "view_all": ""
             },
             "dashboard": {
                 "clear_cache_button": "Xóa bộ nhớ đệm",
@@ -185,6 +215,22 @@
                 "title": "Trang tổng quan",
                 "toggle_advanced_page_button": "",
                 "tools_button": "Công cụ"
+            },
+            "extensions-health-widget": {
+                "abandoned_no_replacement": "",
+                "abandoned_with_replacement": "",
+                "all_healthy": "",
+                "section_abandoned_empty": "",
+                "section_suggested_empty": "",
+                "section_disabled_empty": "",
+                "title": "",
+                "section_abandoned_heading": "",
+                "section_abandoned_help": "",
+                "section_suggested_heading": "",
+                "section_suggested_help": "",
+                "section_disabled_heading": "",
+                "section_disabled_help": "",
+                "suggested_by": ""
             },
             "debug-warning": {
                 "detail": "Khi chế độ <code>debug</code> được bật, Flarum sẽ xây dựng lại code <code>JavaScript</code> và <code>CSS</code> mỗi lượt request và cũng có thể làm rò rỉ thông tin khác, chẳng hạn như cơ sở dữ liệu bí mật, biến môi trường, v.v.\n\nBạn rất nên tắt <code>debug</code> trong tệp <code>config.php</code> của mình khi sử dụng chính thức. Xem <link>Flarum docs</link> để biết thêm thông tin.\n",
@@ -241,8 +287,14 @@
                 "mail_mailgun_secret_label": "Mã khoá bí mật",
                 "mail_password_label": "=> core.ref.password",
                 "mail_port_label": "Cổng",
+                "mail_postmark_message_stream_label": "",
+                "mail_postmark_token_label": "",
+                "mail_smtp_verify_peer_label": "",
+                "mail_smtp_verify_peer_help": "",
                 "mail_username_label": "=> core.ref.username",
                 "mailgun_heading": "Thiết lập Mailgun",
+                "postmark_heading": "",
+                "postmark_description": "",
                 "not_sending_message": "Flarum hiện không gửi được email. Điều này có thể là do trình điều khiển đã chọn, hoặc lỗi do cấu hình.",
                 "send_test_mail_button": "Gửi",
                 "send_test_mail_heading": "Gửi mail thử nghiệm",
@@ -305,11 +357,13 @@
                 "basics_button": "=> core.admin.basics.title",
                 "basics_title": "=> core.admin.basics.description",
                 "categories": {
+                    "analytics": "",
                     "authentication": "Xác thực",
                     "core": "Cấu hình",
                     "discussion": "Cuộc thảo luận",
                     "feature": "Tính năng",
                     "formatting": "Định dạng",
+                    "infrastructure": "",
                     "language": "Ngôn ngữ",
                     "moderation": "Kiểm duyệt",
                     "other": "Tiện ích mở rộng khác",
@@ -649,6 +703,9 @@
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "Web",
                 "notify_discussion_renamed_label": "Ai đó đổi tên cuộc thảo luận mà tôi đã đăng",
+                "device_heading": "",
+                "haptic_feedback_help": "",
+                "haptic_feedback_label": "",
                 "privacy_disclose_online_label": "Cho phép người khác xem khi tôi trực tuyến",
                 "privacy_heading": "Riêng tư",
                 "title": "=> core.ref.settings"
@@ -898,6 +955,7 @@
                 "maintenance_mode_link": "",
                 "maintenance_mode_message": "",
                 "maintenance_mode_title": "",
+                "method_not_allowed": "",
                 "not_authenticated": "Bạn không có quyền truy cập vào trang này. Hãy thử lại sau khi đăng nhập.",
                 "not_found": "Trang bạn yêu cầu không thể được tìm thấy.",
                 "not_found_return_link": "Quay lại {forum}",

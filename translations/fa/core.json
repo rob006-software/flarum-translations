@@ -53,6 +53,14 @@
                     "config_override": {
                         "label": "",
                         "help": ""
+                    },
+                    "preview": {
+                        "button": "",
+                        "label": "",
+                        "help": "",
+                        "fa5_fa6_label": "",
+                        "fa7_label": "",
+                        "pro_label": ""
                     }
                 },
                 "pgsql": {
@@ -108,6 +116,8 @@
                 "favicon_text": "یک تصویر را برای نمایش به عنوان آیکون میانبر آپلود کنید.",
                 "logo_heading": "لوگو",
                 "logo_text": "تصویری برای نمایش در محل عنوان انجمن آپلود کنید.",
+                "logo_dark_mode_heading": "",
+                "logo_dark_mode_text": "",
                 "title": "ظاهر",
                 "color_scheme_label": "",
                 "color_schemes": {
@@ -127,6 +137,11 @@
                 },
                 "display_name_heading": "نام نمایشی کاربر",
                 "display_name_text": "درایوری را که باید برای نام‌های نمایشی کاربران استفاده شود انتخاب کنید. به طور پیش فرض ، نام کاربری نشان داده می شود.",
+                "avatar_driver_options": {
+                    "default": ""
+                },
+                "avatar_driver_heading": "",
+                "avatar_driver_text": "",
                 "forum_description_heading": "توضیحات انجمن",
                 "forum_description_text": "یک یا دو جمله کوتاه وارد کنید که انجمن شما را توصیف کند. این در تگ متا ظاهر می شود و در موتورهای جستجو نشان داده می شود.",
                 "forum_title_heading": "عنوان انجمن",
@@ -140,7 +155,8 @@
                     },
                     "users": {
                         "default": "",
-                        "id": ""
+                        "id": "",
+                        "id_with_display_name": ""
                     }
                 },
                 "slug_driver_heading": "درایور اسلاگ : {model}",
@@ -158,6 +174,20 @@
                 "title": "ایجاد کاربر جدید",
                 "use_random_password": "ایجاد رمز عبور تصادفی",
                 "username_placeholder": "=> core.ref.username"
+            },
+            "announcements": {
+                "comments_label": "",
+                "description": "",
+                "empty": "",
+                "load_error": "",
+                "about": "",
+                "hide": "",
+                "read_more": "",
+                "refresh": "",
+                "retry": "",
+                "show": "",
+                "title": "",
+                "view_all": ""
             },
             "dashboard": {
                 "clear_cache_button": "پاک کردن cache",
@@ -185,6 +215,22 @@
                 "title": "داشبورد",
                 "toggle_advanced_page_button": "",
                 "tools_button": "ابزارها"
+            },
+            "extensions-health-widget": {
+                "abandoned_no_replacement": "",
+                "abandoned_with_replacement": "",
+                "all_healthy": "",
+                "section_abandoned_empty": "",
+                "section_suggested_empty": "",
+                "section_disabled_empty": "",
+                "title": "",
+                "section_abandoned_heading": "",
+                "section_abandoned_help": "",
+                "section_suggested_heading": "",
+                "section_suggested_help": "",
+                "section_disabled_heading": "",
+                "section_disabled_help": "",
+                "suggested_by": ""
             },
             "debug-warning": {
                 "detail": "وقتی حالت <code>اشکال‌زدایی</code> فعال است، Flarum دارایی‌های <code>JavaScript</code> و <code>CSS</code> خود را در هر درخواست بازسازی می‌کند، و همچنین ممکن است اطلاعات دیگری مانند پایگاه داده را به بیرون درز کند. اسرار، متغیرهای محیطی و غیره\n\nبه شدت توصیه می شود که <code>debug</code> را در فایل <code>config.php</code> خود در حال تولید غیرفعال کنید. برای اطلاعات بیشتر به <link>اسناد فلاروم</link> مراجعه کنید.\n",
@@ -241,8 +287,14 @@
                 "mail_mailgun_secret_label": "کلید مخفی",
                 "mail_password_label": "=> core.ref.password",
                 "mail_port_label": "پورت",
+                "mail_postmark_message_stream_label": "",
+                "mail_postmark_token_label": "",
+                "mail_smtp_verify_peer_label": "",
+                "mail_smtp_verify_peer_help": "",
                 "mail_username_label": "=> core.ref.username",
                 "mailgun_heading": "تنظیمات میل گان",
+                "postmark_heading": "",
+                "postmark_description": "",
                 "not_sending_message": "Flarum در حال حاضر ایمیل ارسال نمی کند . این می تواند به دلیل درایور انتخاب شده یا خطا در پیکربندی آن باشد .",
                 "send_test_mail_button": "ارسال",
                 "send_test_mail_heading": "ارسال ایمیل تست",
@@ -305,11 +357,13 @@
                 "basics_button": "تنظیمات اصلی",
                 "basics_title": "=> core.admin.basics.description",
                 "categories": {
+                    "analytics": "",
                     "authentication": "احراز هویت",
                     "core": "تنظیمات",
                     "discussion": "بحث",
                     "feature": "امکانات",
                     "formatting": "قالب بندی",
+                    "infrastructure": "",
                     "language": "زبان ها",
                     "moderation": "مدیریت",
                     "other": "سایر افزونه ها",
@@ -649,6 +703,9 @@
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "وب‌سایت",
                 "notify_discussion_renamed_label": "اگر کسی نام مباحث من را تغییر داد",
+                "device_heading": "",
+                "haptic_feedback_help": "",
+                "haptic_feedback_label": "",
                 "privacy_disclose_online_label": "اگر آنلاین بودم به دیگران نمایش بده",
                 "privacy_heading": "حریم شخصی",
                 "title": "=> core.ref.settings"
@@ -898,6 +955,7 @@
                 "maintenance_mode_link": "",
                 "maintenance_mode_message": "",
                 "maintenance_mode_title": "",
+                "method_not_allowed": "",
                 "not_authenticated": "شما اجازه دسترسی به این صفحه را ندارید. بعد از ورود دوباره امتحان کنید.",
                 "not_found": "صفحه مورد نظر شما یافت نشد.",
                 "not_found_return_link": "بازگشت به {forum}",

@@ -53,6 +53,14 @@
                     "config_override": {
                         "label": "",
                         "help": ""
+                    },
+                    "preview": {
+                        "button": "",
+                        "label": "",
+                        "help": "",
+                        "fa5_fa6_label": "",
+                        "fa7_label": "",
+                        "pro_label": ""
                     }
                 },
                 "pgsql": {
@@ -108,6 +116,8 @@
                 "favicon_text": "jan li lukin e lipu sina la ilo lukin lipu li ken pana e sitelen ni lon poka pi nimi lipu.",
                 "logo_heading": "nimi lipu la sitelen suli",
                 "logo_text": "o pana e sitelen. sewi lipu la nimi pi lipu sina li weka li kama sitelen ni.",
+                "logo_dark_mode_heading": "",
+                "logo_dark_mode_text": "",
                 "title": "selo",
                 "color_scheme_label": "",
                 "color_schemes": {
@@ -127,6 +137,11 @@
                 },
                 "display_name_heading": "lukin pi nimi jan",
                 "display_name_text": "lipu li pana e nimi jan la ona li kepeken nasin seme? sina ante ala e ni la lipu li kepeken nimi ilo.",
+                "avatar_driver_options": {
+                    "default": ""
+                },
+                "avatar_driver_heading": "",
+                "avatar_driver_text": "",
                 "forum_description_heading": "lipu sina la toki sona lili",
                 "forum_description_text": "seme li lon kulupu sina? o pana e toki lili. toki ni li kama lon poki lili lon lipu sina la ilo mute li ken lukin e ona. ilo alasa lipu en ilo toki li pana e lipu sina la ona li ken pana e toki ni lon poka.",
                 "forum_title_heading": "nimi pi lipu sina",
@@ -140,7 +155,8 @@
                     },
                     "users": {
                         "default": "",
-                        "id": ""
+                        "id": "",
+                        "id_with_display_name": ""
                     }
                 },
                 "slug_driver_heading": "nasin ijo {model} la ilo nimi",
@@ -158,6 +174,20 @@
                 "title": "o pali e sijelo jan sin",
                 "use_random_password": "o pali e nimi len kepeken nasa taso",
                 "username_placeholder": "=> core.ref.username"
+            },
+            "announcements": {
+                "comments_label": "",
+                "description": "",
+                "empty": "",
+                "load_error": "",
+                "about": "",
+                "hide": "",
+                "read_more": "",
+                "refresh": "",
+                "retry": "",
+                "show": "",
+                "title": "",
+                "view_all": ""
             },
             "dashboard": {
                 "clear_cache_button": "o weka e sona awen pi tenpo lili",
@@ -185,6 +215,22 @@
                 "title": "lukin ale",
                 "toggle_advanced_page_button": "",
                 "tools_button": "ilo"
+            },
+            "extensions-health-widget": {
+                "abandoned_no_replacement": "",
+                "abandoned_with_replacement": "",
+                "all_healthy": "",
+                "section_abandoned_empty": "",
+                "section_suggested_empty": "",
+                "section_disabled_empty": "",
+                "title": "",
+                "section_abandoned_heading": "",
+                "section_abandoned_help": "",
+                "section_suggested_heading": "",
+                "section_suggested_help": "",
+                "section_disabled_heading": "",
+                "section_disabled_help": "",
+                "suggested_by": ""
             },
             "debug-warning": {
                 "detail": "nasin <code>debug</code> li lon la, ilo Flarum li pali sin e ijo <code>JavaScript</code> e ijo <code>CSS</code> tawa lukin sin ale. ken kin la ona li kama pana ike e sona ante len tan insa pi ilo sina. ni li ken sona len pi poki sona, li ken sona len pi lawa ilo, li ken ante.\n\nale li ken lukin e lipu sina la sina o weka e nasin <code>debug</code> lon lipu <code>config.php</code>. o kama sona mute lon <link>lipu sona pi ilo Flarum</link>.\n",
@@ -241,8 +287,14 @@
                 "mail_mailgun_secret_label": "nanpa len",
                 "mail_password_label": "=> core.ref.password",
                 "mail_port_label": "nanpa pi toki ilo",
+                "mail_postmark_message_stream_label": "",
+                "mail_postmark_token_label": "",
+                "mail_smtp_verify_peer_label": "",
+                "mail_smtp_verify_peer_help": "",
                 "mail_username_label": "=> core.ref.username",
                 "mailgun_heading": "wile pi ilo Mailgun",
+                "postmark_heading": "",
+                "postmark_description": "",
                 "not_sending_message": "ilo Flarum li pana ala e lipu toki lon tenpo ni. ni li ken tan wile sina pi ilo pana li ken tan pakala pi nasin ona.",
                 "send_test_mail_button": "o pana",
                 "send_test_mail_heading": "o pana e lipu toki o alasa e pakala",
@@ -305,11 +357,13 @@
                 "basics_button": "=> core.admin.basics.title",
                 "basics_title": "=> core.admin.basics.description",
                 "categories": {
+                    "analytics": "",
                     "authentication": "",
                     "core": "",
                     "discussion": "toki suli",
                     "feature": "ijo ken",
                     "formatting": "namako toki",
+                    "infrastructure": "",
                     "language": "toki",
                     "moderation": "",
                     "other": "ilo namako ante",
@@ -649,6 +703,9 @@
                 "notify_by_email_heading": "",
                 "notify_by_web_heading": "",
                 "notify_discussion_renamed_label": "jan li ante e toki suli mi",
+                "device_heading": "",
+                "haptic_feedback_help": "",
+                "haptic_feedback_label": "",
                 "privacy_disclose_online_label": "o ken e ni: jan ante li ken lukin e lon mi",
                 "privacy_heading": "",
                 "title": "=> core.ref.settings"
@@ -898,6 +955,7 @@
                 "maintenance_mode_link": "",
                 "maintenance_mode_message": "",
                 "maintenance_mode_title": "",
+                "method_not_allowed": "",
                 "not_authenticated": "",
                 "not_found": "",
                 "not_found_return_link": "",
