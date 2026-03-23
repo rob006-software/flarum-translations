@@ -19,9 +19,19 @@
                     "extension_settings_button": "GDPR Ayarları"
                 },
                 "user_table_data": {
-                    "not_yet_implemented": "Henüz hayata geçirilmedi",
                     "title": "Kullanıcı Tablo Verisi",
-                    "help_text": "Çoğunlukla, <code>kullanıcı</code> tablosuna eklenen tüm sütunlar hem verileri dışa aktarmak hem de silmek amacıyla otomatik olarak işlenecektir.\nAncak aşağıda sıralanan bazı özel durumlar vardır.\n"
+                    "help_text": "Çoğunlukla, <code>kullanıcı</code> tablosuna eklenen tüm sütunlar hem verileri dışa aktarmak hem de silmek amacıyla otomatik olarak işlenecektir.\nAncak aşağıda sıralanan bazı özel durumlar vardır.\n",
+                    "column": "",
+                    "type": "",
+                    "nullable": "",
+                    "pii": "",
+                    "redacted_on_export": "",
+                    "extension": "",
+                    "yes": "",
+                    "no": "",
+                    "pii_tooltip": "",
+                    "redacted_on_export_tooltip": "",
+                    "not_yet_implemented": "Henüz hayata geçirilmedi"
                 }
             },
             "nav": {
@@ -74,6 +84,7 @@
                 "forum": {
                     "export_description": "Forum başlığını, bağlantıyı, kullanıcı adını, e-postayı ve geçerli tarihi dışa aktarır."
                 },
+                "default_user_action": "",
                 "no_action": "Hiçbir işlem yapılmadı.",
                 "posts": {
                     "anonymize_description": "Kullanıcının yaptığı tüm paylaşımlardan IP adresini kaldırır.",
@@ -152,7 +163,10 @@
                 "text": "{name} hesabının silinmesini talep etti.",
                 "comments_label": "Yorumlar (isteğe bağlı)",
                 "anonymization_button": "Kullanıcıyı anonimleştir",
-                "deletion_button": "Kullanıcıyı sil"
+                "deletion_button": "Kullanıcıyı sil",
+                "requested_at": "",
+                "confirmed_at": "",
+                "eligible_at": ""
             },
             "request_erasure": {
                 "title": "Hesap silme talebi",

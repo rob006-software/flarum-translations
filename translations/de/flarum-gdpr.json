@@ -19,9 +19,19 @@
                     "extension_settings_button": "DSGVO-Einstellungen"
                 },
                 "user_table_data": {
-                    "not_yet_implemented": "Noch nicht implementiert",
                     "title": "Daten der Benutzertabelle",
-                    "help_text": "In den meisten Fällen werden alle Spalten, die der <code>Benutzer</code>-Tabelle hinzugefügt werden, automatisch behandelt, sowohl für den Export von Daten als auch für das Löschen.\nEs gibt jedoch einige Sonderfälle, die im Folgenden aufgeführt sind.\n"
+                    "help_text": "In den meisten Fällen werden alle Spalten, die der <code>Benutzer</code>-Tabelle hinzugefügt werden, automatisch behandelt, sowohl für den Export von Daten als auch für das Löschen.\nEs gibt jedoch einige Sonderfälle, die im Folgenden aufgeführt sind.\n",
+                    "column": "",
+                    "type": "",
+                    "nullable": "",
+                    "pii": "",
+                    "redacted_on_export": "",
+                    "extension": "",
+                    "yes": "",
+                    "no": "",
+                    "pii_tooltip": "",
+                    "redacted_on_export_tooltip": "",
+                    "not_yet_implemented": "Noch nicht implementiert"
                 }
             },
             "nav": {
@@ -74,6 +84,7 @@
                 "forum": {
                     "export_description": "Exportiert den Titel des Forums, die URL, den Benutzernamen, die E-Mail und das aktuelle Datum."
                 },
+                "default_user_action": "",
                 "no_action": "Es wurden keine Maßnahmen getroffen.",
                 "posts": {
                     "anonymize_description": "Entfernt die IP-Adresse aus allen Beiträgen, die der Benutzer verfasst hat.",
@@ -152,7 +163,10 @@
                 "text": "{name} hat die Löschung seines Kontos beantragt.",
                 "comments_label": "Kommentare (optional)",
                 "anonymization_button": "Benutzer anonymisieren",
-                "deletion_button": "Benutzer löschen"
+                "deletion_button": "Benutzer löschen",
+                "requested_at": "",
+                "confirmed_at": "",
+                "eligible_at": ""
             },
             "request_erasure": {
                 "title": "Kontolöschung beantragen",

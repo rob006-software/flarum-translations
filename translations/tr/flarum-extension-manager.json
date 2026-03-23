@@ -107,21 +107,21 @@
                     "empty_results": "Görünüşe göre kullanılabilir uzantı yok.",
                     "extension": {
                         "badges": {
-                            "compatible": "Uyumlu",
+                            "abandoned": "",
                             "fof": "Friends Of Flarum",
                             "flarum": "Flarum",
+                            "compatible": "Uyumlu",
                             "incompatible": "Uyumlu değil",
                             "premium": "Premium",
                             "unstable": "Kararsız"
                         },
                         "downloads": "{count, plural, one {{formattedCount} indirme} other {{formattedCount} indirme}}"
                     },
-                    "premium_extension_terms": "Premium uzantı şartları",
                     "search": "Arayın...",
                     "server_error": "Hizmet şu anda kullanılamıyor, lütfen daha sonra tekrar deneyin.",
                     "sort": {
-                        "toggle_dropdown_accessible_label": "Sıralama seçeneklerini değiştir",
                         "top": "En Çok İndirilenler",
+                        "toggle_dropdown_accessible_label": "Sıralama seçeneklerini değiştir",
                         "latest": "En son"
                     },
                     "tabs": {
@@ -131,6 +131,7 @@
                         "themes": "Temalar"
                     },
                     "title": "Uzantılar",
+                    "premium_extension_terms": "Premium uzantı şartları",
                     "party_filter": {
                         "all": "Tümü",
                         "premium": "Premium",

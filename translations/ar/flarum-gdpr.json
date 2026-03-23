@@ -19,9 +19,18 @@
                     "extension_settings_button": ""
                 },
                 "user_table_data": {
-                    "not_yet_implemented": "",
                     "title": "",
-                    "help_text": ""
+                    "help_text": "",
+                    "column": "",
+                    "type": "",
+                    "nullable": "",
+                    "pii": "",
+                    "redacted_on_export": "",
+                    "extension": "",
+                    "yes": "",
+                    "no": "",
+                    "pii_tooltip": "",
+                    "redacted_on_export_tooltip": ""
                 }
             },
             "nav": {
@@ -74,6 +83,7 @@
                 "forum": {
                     "export_description": "يقوم بتصدير عنوان المنتدى، وعنوان URL، واسم المستخدم، والبريد الإلكتروني، والتاريخ الحالي."
                 },
+                "default_user_action": "",
                 "no_action": "لم يتم اتخاذ أي إجراء.",
                 "posts": {
                     "anonymize_description": "يقوم بإزالة عنوان IP من جميع المشاركات التي قام بها المستخدم.",
@@ -152,7 +162,10 @@
                 "text": "طلب {name} مسح الحساب.",
                 "comments_label": "التعليقات (اختياري)",
                 "anonymization_button": "إخفاء هوية المستخدم",
-                "deletion_button": "حذف المستخدم"
+                "deletion_button": "حذف المستخدم",
+                "requested_at": "",
+                "confirmed_at": "",
+                "eligible_at": ""
             },
             "request_erasure": {
                 "title": "طلب مسح الحساب",

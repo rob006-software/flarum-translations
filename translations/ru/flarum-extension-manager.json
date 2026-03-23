@@ -107,21 +107,21 @@
                     "empty_results": "Похоже, доступных расширений нет.",
                     "extension": {
                         "badges": {
-                            "compatible": "Совместимо",
+                            "abandoned": "",
                             "fof": "Friends of Flarum",
                             "flarum": "Flarum",
+                            "compatible": "Совместимо",
                             "incompatible": "Несовместимо",
                             "premium": "Премиум",
                             "unstable": "Нестабильно"
                         },
                         "downloads": "{count, plural, one {{formattedCount} загрузка} few {{formattedCount} загрузки} many {{formattedCount} загрузок} other {{formattedCount} загрузки}}"
                     },
-                    "premium_extension_terms": "Условия премиум-расширения",
                     "search": "Поиск…",
                     "server_error": "Сервис временно недоступен. Попробуйте позже.",
                     "sort": {
-                        "toggle_dropdown_accessible_label": "Переключить параметры сортировки",
                         "top": "Самые скачиваемые",
+                        "toggle_dropdown_accessible_label": "Переключить параметры сортировки",
                         "latest": "Новые"
                     },
                     "tabs": {
@@ -131,6 +131,7 @@
                         "themes": "Темы"
                     },
                     "title": "Расширения",
+                    "premium_extension_terms": "Условия премиум-расширения",
                     "party_filter": {
                         "all": "Все",
                         "premium": "Премиум",

@@ -19,9 +19,19 @@
                     "extension_settings_button": "Paramètres du RGPD"
                 },
                 "user_table_data": {
-                    "not_yet_implemented": "Pas encore mis en œuvre",
                     "title": "Données de la table des utilisateurs",
-                    "help_text": "Dans la plupart des cas, toutes les colonnes ajoutées à la table <code>user</code> seront traitées automatiquement, tant pour l'exportation des données que pour l'effacement.\nIl existe cependant quelques cas particuliers qui sont énumérés ci-dessous.\n"
+                    "help_text": "Dans la plupart des cas, toutes les colonnes ajoutées à la table <code>user</code> seront traitées automatiquement, tant pour l'exportation des données que pour l'effacement.\nIl existe cependant quelques cas particuliers qui sont énumérés ci-dessous.\n",
+                    "column": "",
+                    "type": "",
+                    "nullable": "",
+                    "pii": "",
+                    "redacted_on_export": "",
+                    "extension": "",
+                    "yes": "",
+                    "no": "",
+                    "pii_tooltip": "",
+                    "redacted_on_export_tooltip": "",
+                    "not_yet_implemented": "Pas encore mis en œuvre"
                 }
             },
             "nav": {
@@ -74,6 +84,7 @@
                 "forum": {
                     "export_description": "Exporte le titre du forum, l'URL, le nom d'utilisateur, l'adresse de courriel et la date du jour."
                 },
+                "default_user_action": "",
                 "no_action": "Aucune action n'a été entreprise.",
                 "posts": {
                     "anonymize_description": "Supprime l'adresse IP de tous les messages publiés par l'utilisateur.",
@@ -152,7 +163,10 @@
                 "text": "{name} a demandé l'effacement de son compte.",
                 "comments_label": "Commentaires (facultatif)",
                 "anonymization_button": "Anonymiser l'utilisateur",
-                "deletion_button": "Supprimer l'utilisateur"
+                "deletion_button": "Supprimer l'utilisateur",
+                "requested_at": "",
+                "confirmed_at": "",
+                "eligible_at": ""
             },
             "request_erasure": {
                 "title": "Demander l'effacement du compte",

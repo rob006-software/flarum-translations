@@ -19,9 +19,18 @@
                     "extension_settings_button": "GDPR 设置"
                 },
                 "user_table_data": {
-                    "not_yet_implemented": "",
                     "title": "用户表数据",
-                    "help_text": "多数情况下，我们会自动处理导出和抹除时的 <code>用户</code>表数据。\n然而，会存在一些特殊情况，如下。\n"
+                    "help_text": "多数情况下，我们会自动处理导出和抹除时的 <code>用户</code>表数据。\n然而，会存在一些特殊情况，如下。\n",
+                    "column": "",
+                    "type": "",
+                    "nullable": "",
+                    "pii": "",
+                    "redacted_on_export": "",
+                    "extension": "",
+                    "yes": "",
+                    "no": "",
+                    "pii_tooltip": "",
+                    "redacted_on_export_tooltip": ""
                 }
             },
             "nav": {
@@ -74,6 +83,7 @@
                 "forum": {
                     "export_description": "导出论坛名称、URL、用户名、邮箱和当前日期。"
                 },
+                "default_user_action": "",
                 "no_action": "不采取操作。",
                 "posts": {
                     "anonymize_description": "删除用户发布的所有帖子中的 IP 地址信息。",
@@ -152,7 +162,10 @@
                 "text": "{name} 申请抹除帐号。",
                 "comments_label": "回复（可选）",
                 "anonymization_button": "匿名化用户",
-                "deletion_button": "删除用户"
+                "deletion_button": "删除用户",
+                "requested_at": "",
+                "confirmed_at": "",
+                "eligible_at": ""
             },
             "request_erasure": {
                 "title": "申请抹除账号",

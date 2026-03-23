@@ -19,9 +19,18 @@
                     "extension_settings_button": "GDPR Settings"
                 },
                 "user_table_data": {
-                    "not_yet_implemented": "Not yet implemented",
                     "title": "User Table Data",
-                    "help_text": "On the most part, any columns added to the <code>user</code> table will be handled automatically, both for exporting data and for erasure.\nHowever, there are some special cases, which are listed below.\n"
+                    "help_text": "On the most part, any columns added to the <code>user</code> table will be handled automatically, both for exporting data and for erasure.\nHowever, there are some special cases, which are listed below.\n",
+                    "column": "Column",
+                    "type": "Type",
+                    "nullable": "Nullable",
+                    "pii": "PII",
+                    "redacted_on_export": "Redacted on export",
+                    "extension": "Extension",
+                    "yes": "Yes",
+                    "no": "No",
+                    "pii_tooltip": "This column is considered personally identifiable information and will be redacted in anonymized contexts (e.g. anonymized event payloads).",
+                    "redacted_on_export_tooltip": "This column's value is blanked (set to null) when generating a user data export. The column still appears in the export with a null value."
                 }
             },
             "nav": {
@@ -74,6 +83,7 @@
                 "forum": {
                     "export_description": "Exports the forum title, url, username, email and the current date."
                 },
+                "default_user_action": "No action, handled by default user table data handling.",
                 "no_action": "No action taken.",
                 "posts": {
                     "anonymize_description": "Removes the IP address from all posts the user has made.",
@@ -152,7 +162,10 @@
                 "text": "{name} has requested account erasure.",
                 "comments_label": "Comments (optional)",
                 "anonymization_button": "Anonymize user",
-                "deletion_button": "Delete user"
+                "deletion_button": "Delete user",
+                "requested_at": "Requested: {date}",
+                "confirmed_at": "Confirmed: {date}",
+                "eligible_at": "Eligible for auto-processing: {date}"
             },
             "request_erasure": {
                 "title": "Request account erasure",

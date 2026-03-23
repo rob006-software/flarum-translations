@@ -19,9 +19,18 @@
                     "extension_settings_button": "Pengaturan GDPR"
                 },
                 "user_table_data": {
-                    "not_yet_implemented": "",
                     "title": "Data Tabel Pengguna",
-                    "help_text": "Pada umumnya, setiap kolom yang ditambahkan ke tabel <code>pengguna</code> akan ditangani secara otomatis, baik untuk mengekspor data maupun untuk penghapusan. \nNamun, ada beberapa kasus khusus, yang tercantum di bawah ini.\n"
+                    "help_text": "Pada umumnya, setiap kolom yang ditambahkan ke tabel <code>pengguna</code> akan ditangani secara otomatis, baik untuk mengekspor data maupun untuk penghapusan. \nNamun, ada beberapa kasus khusus, yang tercantum di bawah ini.\n",
+                    "column": "",
+                    "type": "",
+                    "nullable": "",
+                    "pii": "",
+                    "redacted_on_export": "",
+                    "extension": "",
+                    "yes": "",
+                    "no": "",
+                    "pii_tooltip": "",
+                    "redacted_on_export_tooltip": ""
                 }
             },
             "nav": {
@@ -74,6 +83,7 @@
                 "forum": {
                     "export_description": "Mengekspor judul forum, url, username, email, dan tanggal saat ini."
                 },
+                "default_user_action": "",
                 "no_action": "Tidak ada tindakan yang diambil.",
                 "posts": {
                     "anonymize_description": "Menghapus alamat IP dari semua postingan yang telah dibuat oleh pengguna.",
@@ -152,7 +162,10 @@
                 "text": "{name} telah meminta penghapusan akun.",
                 "comments_label": "Komentar (opsional)",
                 "anonymization_button": "Anonimkan pengguna",
-                "deletion_button": "Hapus pengguna"
+                "deletion_button": "Hapus pengguna",
+                "requested_at": "",
+                "confirmed_at": "",
+                "eligible_at": ""
             },
             "request_erasure": {
                 "title": "Meminta penghapusan akun",

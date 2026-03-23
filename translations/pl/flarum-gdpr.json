@@ -19,9 +19,18 @@
                     "extension_settings_button": "Ustawienia RODO"
                 },
                 "user_table_data": {
-                    "not_yet_implemented": "",
                     "title": "Dane tabeli użytkowników",
-                    "help_text": "W większości przypadków każda kolumna dodana do tabeli <code>user</code> będzie obsługiwana automatycznie, zarówno pod kątem eksportowania danych, jak i usuwania.\nIstnieją jednak pewne specjalne przypadki, które są wymienione poniżej.\n"
+                    "help_text": "W większości przypadków każda kolumna dodana do tabeli <code>user</code> będzie obsługiwana automatycznie, zarówno pod kątem eksportowania danych, jak i usuwania.\nIstnieją jednak pewne specjalne przypadki, które są wymienione poniżej.\n",
+                    "column": "",
+                    "type": "",
+                    "nullable": "",
+                    "pii": "",
+                    "redacted_on_export": "",
+                    "extension": "",
+                    "yes": "",
+                    "no": "",
+                    "pii_tooltip": "",
+                    "redacted_on_export_tooltip": ""
                 }
             },
             "nav": {
@@ -74,6 +83,7 @@
                 "forum": {
                     "export_description": "Eksportuje tytuł forum, URL, nazwę użytkownika, e-mail i bieżącą datę."
                 },
+                "default_user_action": "",
                 "no_action": "Brak podjętych działań.",
                 "posts": {
                     "anonymize_description": "Usuwa adres IP ze wszystkich postów stworzonych przez użytkownika.",
@@ -152,7 +162,10 @@
                 "text": "{name} zażądał usunięcia konta.",
                 "comments_label": "Komentarze (opcjonalnie)",
                 "anonymization_button": "Anonimizuj użytkownika",
-                "deletion_button": "Usuń użytkownika"
+                "deletion_button": "Usuń użytkownika",
+                "requested_at": "",
+                "confirmed_at": "",
+                "eligible_at": ""
             },
             "request_erasure": {
                 "title": "Złóż wniosek o usunięcie konta",

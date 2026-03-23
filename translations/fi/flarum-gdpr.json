@@ -19,9 +19,18 @@
                     "extension_settings_button": "GDPR asetukset"
                 },
                 "user_table_data": {
-                    "not_yet_implemented": "",
                     "title": "Käyttäjä taulun tiedot",
-                    "help_text": "Enimmäkseen kaikki <code>user</code>-tauluun lisätyt sarakkeet käsitellään automaattisesti, sekä tietojen vientiä että poistamista varten.\nKuitenkin on joitain erityistapauksia, jotka on lueteltu alla.\n"
+                    "help_text": "Enimmäkseen kaikki <code>user</code>-tauluun lisätyt sarakkeet käsitellään automaattisesti, sekä tietojen vientiä että poistamista varten.\nKuitenkin on joitain erityistapauksia, jotka on lueteltu alla.\n",
+                    "column": "",
+                    "type": "",
+                    "nullable": "",
+                    "pii": "",
+                    "redacted_on_export": "",
+                    "extension": "",
+                    "yes": "",
+                    "no": "",
+                    "pii_tooltip": "",
+                    "redacted_on_export_tooltip": ""
                 }
             },
             "nav": {
@@ -74,6 +83,7 @@
                 "forum": {
                     "export_description": "Vie foorumin otsikon, osoitteen, käyttäjätunnuksen ja nykyisen päivämäärän."
                 },
+                "default_user_action": "",
                 "no_action": "Ei toimintoja tehty.",
                 "posts": {
                     "anonymize_description": "Poistaa IP osoitteen kaikista käyttäjän viesteistä.",
@@ -152,7 +162,10 @@
                 "text": "{name} on pyytänyt tilin poistoa.",
                 "comments_label": "Kommentit (valinnainen)",
                 "anonymization_button": "Anonymisoi käyttäjä",
-                "deletion_button": "Poista käyttäjä"
+                "deletion_button": "Poista käyttäjä",
+                "requested_at": "",
+                "confirmed_at": "",
+                "eligible_at": ""
             },
             "request_erasure": {
                 "title": "Pyydä tilin poistoa",
