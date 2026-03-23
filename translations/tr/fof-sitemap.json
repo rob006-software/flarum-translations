@@ -55,8 +55,8 @@
                         }
                     }
                 },
-                "column_pruning": "",
-                "column_pruning_help": "",
+                "column_pruning": "Sütun budamasını etkinleştir",
+                "column_pruning_help": "SELECT * yerine yalnızca URL oluşturmak için gereken sütunları (ör. id, slug, kullanıcı adı, tarihler) çeker. Büyük forumlarda model başına bellek kullanımını önemli ölçüde azaltır. Varsayılan olarak etkindir — yalnızca özel bir 'slug driver' veya görünürlük kapsamı (visibility scope) varsayılan seçimde olmayan sütunlara ihtiyaç duyuyorsa devre dışı bırakın.",
                 "mode_help_cache_disk_label": "Önbellek Modu/Disk Modu",
                 "mode_help_cache_disk": "Küçük veya orta ölçekli forumlar için en iyisi, büyük olasılıkla cronjob'lara izin veren ve Flarum zamanlayıcıyı etkinleştiren barındırma ortamlarında (aşağıya bakın) ve 50.000'den az öğe olarak özetlenen tartışmalar, kullanıcılar, etiketler ve sayfalar.",
                 "title": "FoF Site Haritası"
