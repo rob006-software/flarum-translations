@@ -72,7 +72,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/ekumanov/flarum-ext-new-posts-notice/v2.0.0-beta.1/locale/en.yml',
 	],
 	'flarum-akismet' => [
-		'beta' => 'https://raw.githubusercontent.com/flarum/akismet/v2.0.0-beta.7/locale/en.yml',
+		'beta' => 'https://raw.githubusercontent.com/flarum/akismet/v2.0.0-beta.8/locale/en.yml',
 	],
 	'flarum-approval' => [
 		'beta' => 'https://raw.githubusercontent.com/flarum/approval/v2.0.0-beta.7/locale/en.yml',
