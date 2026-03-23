@@ -12,16 +12,16 @@
                 "title": "Реакции",
                 "anonymous_count": "{count, plural, one {# анонимный пользователь} other {# анонимных пользователей}}",
                 "no_reactions": "Пока нет реакций",
-                "load_more": "",
-                "others_count": "",
-                "remove_all_reaction_type": "",
-                "remove_user_reaction": ""
+                "load_more": "Загрузить ещё",
+                "others_count": "+ {count, plural, one {# другой} other {# других}}",
+                "remove_all_reaction_type": "Удалить все реакции {reaction}",
+                "remove_user_reaction": "Удалить реакцию"
             },
             "mod_item": "Смотреть реакции",
             "react_button_label": "Реакция",
-            "unreact_button_label": "",
-            "reaction_button_label": "",
-            "reacted_with_label": ""
+            "unreact_button_label": "Удалить реакцию",
+            "reaction_button_label": "Поставить реакцию {reaction}",
+            "reacted_with_label": "{count, plural, one {{reaction} (# реакция)} other {{reaction} (# реакций)}}"
         },
         "admin": {
             "permissions": {
@@ -32,12 +32,12 @@
             "page": {
                 "cdn": {
                     "title": "CDN",
-                    "help": "По умолчанию, используется CDN сервис CloudFlare. У Вас есть возможность использовать любой другой сервис CDN.\n<code>[codepoint]</code> будет заменён кодом EMOJI.\n\nНапример, чтобы переключиться на Noto Emoji через jsdelivr, введите <code>https://cdn.jsdelivr.net/gh/googlefonts/noto-emoji@v2.040/svg/emoji_u[codepoint].svg</code>. Это поле НИКОГДА не должно оставаться пустым.\n",
+                    "help": "По умолчанию ресурсы реакций загружаются через CDN Cloudflare. Вы также можете указать любой другой адрес CDN при необходимости. <code>[codepoint]</code> будет заменён кодом эмодзи.\n\nНапример, чтобы использовать Noto Emoji через jsDelivr, введите <code>https://cdn.jsdelivr.net/gh/googlefonts/noto-emoji@v2.040/svg/emoji_u[codepoint].svg</code>.\n\nВаш CDN должен поддерживать Emoji/Unicode {emoji|base} или новее. Используйте [twemoji] для подстановки версии Twemoji.\n",
                     "label": "URL",
                     "default-url": "По умолчанию: {url}"
                 },
                 "reactions": {
-                    "title": "Пользовательские реакции",
+                    "title": "Реакции",
                     "reactions": "Текущие реакции",
                     "Helptext": "Введите имя (идентификатор) значка EMOJI или иконки Font Awesome и выберете необходимый тип.",
                     "help": {
@@ -45,16 +45,16 @@
                         "identifier": "Идентификатор"
                     },
                     "delete_confirmation": "Вы уверены, что хотите удалить эту реакцию? Это действие нельзя отменить.",
-                    "delete_reaction_button": "",
-                    "add_reaction_button": "",
-                    "add_reaction_label": "",
+                    "delete_reaction_button": "Удалить реакцию",
+                    "add_reaction_button": "Добавить реакцию",
+                    "add_reaction_label": "Добавить новую реакцию",
                     "header": {
-                        "display": "",
-                        "identifier": "",
-                        "type": "",
-                        "enabled": "",
-                        "action": "",
-                        "preview": ""
+                        "display": "Отображаемый текст",
+                        "identifier": "Идентификатор иконки/эмодзи",
+                        "type": "Тип",
+                        "enabled": "Активно",
+                        "action": "Действие",
+                        "preview": "Превью"
                     }
                 },
                 "convert": {
