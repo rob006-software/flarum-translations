@@ -75,7 +75,7 @@
             "extensions": {
                 "check_why_it_failed_updating": "Показать, почему обновление до актуальной версии не выполнено.",
                 "install": "Установить новое расширение",
-                "install_help": "Введите название пакета расширения. Вы можете указать <semantic_link>семантическую версию</semantic_link>, используя формат <code>vendor/package-name:version</code>. Посетите {link} для обзора расширений.\n",
+                "install_help": "Введите название пакета расширения. Вы можете указать <semantic_link>семантическую версию</semantic_link>, используя формат <code>vendor/package-name:version</code>. Перейдите по ссылке {link}, чтобы просмотреть доступные пакеты.\n",
                 "proceed": "Продолжить",
                 "remove": "Удалить",
                 "successful_install": "{extension} установлено, переадресация...",
@@ -107,7 +107,7 @@
                     "empty_results": "Похоже, доступных расширений нет.",
                     "extension": {
                         "badges": {
-                            "abandoned": "",
+                            "abandoned": "Заброшено",
                             "fof": "Friends of Flarum",
                             "flarum": "Flarum",
                             "compatible": "Совместимо",
