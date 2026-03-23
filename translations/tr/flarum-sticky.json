@@ -2,9 +2,9 @@
     "flarum-sticky": {
         "admin": {
             "settings": {
-                "enable_display_excerpt": "",
-                "only_sticky_unread_discussions_label": "",
-                "only_sticky_unread_discussions_help": ""
+                "enable_display_excerpt": "Sabitlenmiş bir tartışma okunmamış durumdayken ilk gönderinin bir özetini göster",
+                "only_sticky_unread_discussions_label": "Yalnızca okunmamış sabit tartışmalar",
+                "only_sticky_unread_discussions_help": "“Tüm Tartışmalar” sayfasında, okunmamış sabitlenmiş tartışmalar en üste sabitlenirken, okunmuş sabitlenmiş tartışmalar normal sırayla görüntülenir."
             },
             "permissions": {
                 "sticky_discussions_label": "Sabitlenmiş tartışmalar"
@@ -27,7 +27,7 @@
             "gambits": {
                 "discussions": {
                     "sticky": {
-                        "key": ""
+                        "key": "sticky"
                     }
                 }
             }
