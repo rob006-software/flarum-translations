@@ -29,27 +29,27 @@
                 "word_blocklist_label": "Wort-Sperrliste",
                 "word_blocklist_help": "Ein Wort/ein Satz pro Zeile. Beiträge, die diese enthalten, werden sofort blockiert, ohne dass die KI hinzugezogen wird.",
                 "webhook_url_label": "Webhook-URL",
-                "webhook_url_help": "",
-                "webhook_min_action_label": "",
-                "webhook_min_action_help": "",
-                "auto_suspend_threshold_label": "",
-                "auto_suspend_threshold_help": "",
-                "auto_suspend_days_label": "",
-                "auto_suspend_days_help": "",
-                "auto_suspend_window_label": "",
-                "auto_suspend_window_help": "",
-                "rate_limit_label": "",
-                "rate_limit_help": ""
+                "webhook_url_help": "Discord-Webhook oder allgemeine URL, um Benachrichtigungen zu erhalten, wenn Beiträge gemeldet werden. Zum Deaktivieren leer lassen.",
+                "webhook_min_action_label": "Mindestaktion für Webhook",
+                "webhook_min_action_help": "Sende Webhook-Benachrichtigungen nur für diese Aktionsstufe oder höher.",
+                "auto_suspend_threshold_label": "Automatische Sperre nach X Verstößen",
+                "auto_suspend_threshold_help": "Benutzer nach dieser Anzahl von Verstößen innerhalb des Zeitfensters automatisch sperren. Auf 0 setzen, um die Funktion zu deaktivieren.",
+                "auto_suspend_days_label": "Dauer der automatischen Sperrung (Tage)",
+                "auto_suspend_days_help": "Wie viele Tage ein Benutzer gesperrt werden soll. Standard: 3",
+                "auto_suspend_window_label": "Fenster für automatische Sperrung (Tage)",
+                "auto_suspend_window_help": "Anzahl von Tagen innerhalb derer Verstöße gezählt werden. Standard: 7",
+                "rate_limit_label": "API-Aufrufbegrenzung (Aufrufe/Stunde)",
+                "rate_limit_help": "Maximale Anzahl von KI-API-Aufrufen pro Stunde. Beiträge werden ungeprüft weitergeleitet, wenn das Limit erreicht ist. Setze den Wert auf 0, um die Anzahl unbegrenzt zu lassen."
             },
             "permissions": {
-                "bypass_label": ""
+                "bypass_label": "Höflichkeitsfilter umgehen"
             },
             "nav": {
-                "civility_log": "",
+                "civility_log": "Höflichkeitsprotokoll",
                 "stats": "Statistiken"
             },
             "log": {
-                "title": "",
+                "title": "Höflichkeits-Filterprotokoll",
                 "username": "Benutzername",
                 "score": "Bewertung",
                 "action": "Aktion",
@@ -57,7 +57,7 @@
                 "excerpt": "Auszug aus der Nachricht",
                 "date": "Datum",
                 "discussion": "Diskussion",
-                "no_logs": "",
+                "no_logs": "Es wurden keine Einträge im Höflichkeitsprotokoll gefunden.",
                 "clear": "Protokoll löschen",
                 "clear_confirm": "Möchtest du wirklich das gesamte Protokoll löschen?",
                 "export": "CSV exportieren",
@@ -118,9 +118,9 @@
             "user_profile": {
                 "civility_title": "",
                 "total_checks": "",
-                "average_score": "",
-                "violations": "",
-                "no_history": ""
+                "average_score": "Durchschnittliche Bewertung",
+                "violations": "Verstöße",
+                "no_history": "Keine Eintragungen wegen Unhöflichkeit."
             }
         },
         "api": {
