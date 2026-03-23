@@ -78,7 +78,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/flarum/approval/v2.0.0-beta.8/locale/en.yml',
 	],
 	'flarum-bbcode' => [
-		'beta' => 'https://raw.githubusercontent.com/flarum/bbcode/v2.0.0-beta.7/locale/en.yml',
+		'beta' => 'https://raw.githubusercontent.com/flarum/bbcode/v2.0.0-beta.8/locale/en.yml',
 	],
 	'flarum-com-database-queue' => [
 		'beta' => 'https://raw.githubusercontent.com/flarum-com/database-queue/2.0.0-beta.1/resources/locale/en.yml',
