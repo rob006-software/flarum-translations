@@ -2,16 +2,16 @@
     "ralkage-word-censor": {
         "admin": {
             "settings": {
-                "word_list_label": "",
-                "word_list_help": "",
-                "replacement_label": "",
-                "replacement_help": ""
+                "word_list_label": "Sansürlü Kelimeler",
+                "word_list_help": "Her satıra bir kelime veya kelime öbeği girin. Bunlar, kullanıcılara gösterildiğinde değiştirilecektir.",
+                "replacement_label": "Yerine konacak karakter",
+                "replacement_help": "Sansürlenen bir kelimenin her harfini değiştirmek için kullanılan karakter. Varsayılan: *"
             }
         },
         "forum": {
             "settings": {
-                "word_censor_label": "",
-                "word_censor_help": ""
+                "word_censor_label": "Kelime Sansürlemeyi Etkinleştir",
+                "word_censor_help": "Etkinleştirildiğinde, yapılandırılan kelimeler gönderilerde sansürlenir. Sansürlenmemiş içeriği görmek için devre dışı bırakın."
             }
         }
     }
