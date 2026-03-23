@@ -7055,20 +7055,32 @@
                     "export": "dfa1b7ea5b94594ce4353e71d97d28a5 dfa1b7ea5b94594ce4353e71d97d28a5",
                     "filter_action": "5c0e50e36ff06e15d21a369770657af5 5c0e50e36ff06e15d21a369770657af5",
                     "moderated": "fb1b86638afaadb77626e81f5293e8ce fb1b86638afaadb77626e81f5293e8ce",
+                    "no_logs": "e3c216db599d8d4a797c6610483d268e e3c216db599d8d4a797c6610483d268e",
                     "score": "1eb869cbc62e298e310d0b4d40ef819b 1eb869cbc62e298e310d0b4d40ef819b",
                     "suspend": "f317a847a76312111206b7879a20e0ea f317a847a76312111206b7879a20e0ea",
                     "suspended": "3e940d31bcd9ffa9480e1546d1cab179 3e940d31bcd9ffa9480e1546d1cab179",
+                    "title": "a1b1d48b99dc03d0174a28f51f2ee337 a1b1d48b99dc03d0174a28f51f2ee337",
                     "username": "cca8493f6f1bd794b75879a6d8a7bbc7 cca8493f6f1bd794b75879a6d8a7bbc7",
                     "warned": "c13cdb2e4e61a1c6dd9125c65185d7d0 c13cdb2e4e61a1c6dd9125c65185d7d0"
                 },
                 "nav": {
+                    "civility_log": "78fe81a4d33e09d0afc08ebdc93b8552 78fe81a4d33e09d0afc08ebdc93b8552",
                     "stats": "715380d7bcc0b403482990fa332214cc 715380d7bcc0b403482990fa332214cc"
+                },
+                "permissions": {
+                    "bypass_label": "36ed573189b6daa42131537bce206454 36ed573189b6daa42131537bce206454"
                 },
                 "settings": {
                     "ai_provider_help": "72f5b768b8ee325dcceb23def55272c5 72f5b768b8ee325dcceb23def55272c5",
                     "ai_provider_label": "ae90ba6868193029f7e5d283d5842984 ae90ba6868193029f7e5d283d5842984",
                     "api_key_help": "331241a00eb2094ec6763a6195e74ab1 331241a00eb2094ec6763a6195e74ab1",
                     "api_key_label": "ef60baefa8b6e371f74469e8ad586197 ef60baefa8b6e371f74469e8ad586197",
+                    "auto_suspend_days_help": "f96a5d8980b42e7edf4ddb08f6466de9 f96a5d8980b42e7edf4ddb08f6466de9",
+                    "auto_suspend_days_label": "53397acf6a02c69e0448d6edb90af65b 53397acf6a02c69e0448d6edb90af65b",
+                    "auto_suspend_threshold_help": "f96ca763af93d1cb08d79f9148400e99 f96ca763af93d1cb08d79f9148400e99",
+                    "auto_suspend_threshold_label": "6620fe1589acd6669ba2537769d831a8 6620fe1589acd6669ba2537769d831a8",
+                    "auto_suspend_window_help": "d5adcc57c20139a237065d1d02cd4f70 d5adcc57c20139a237065d1d02cd4f70",
+                    "auto_suspend_window_label": "2997eecf14b77e0f1e7f0a7679f2b5e9 2997eecf14b77e0f1e7f0a7679f2b5e9",
                     "block_threshold_help": "9c954694f9c9f0c31d4f5f1ad2c8a571 9c954694f9c9f0c31d4f5f1ad2c8a571",
                     "block_threshold_label": "3ca6521953f81fedc573b84f6bdb129b 3ca6521953f81fedc573b84f6bdb129b",
                     "custom_prompt_help": "33b198bdd674863d54758b5aad21132b 33b198bdd674863d54758b5aad21132b",
@@ -7087,8 +7099,13 @@
                     "openai_api_key_label": "7c49da823d04ce84357337309d4e5c2c 7c49da823d04ce84357337309d4e5c2c",
                     "openrouter_api_key_help": "eec482a70c1314f278800663b9b9ba85 eec482a70c1314f278800663b9b9ba85",
                     "openrouter_api_key_label": "3a5976c176708b082bd92830c49c5b8f 3a5976c176708b082bd92830c49c5b8f",
+                    "rate_limit_help": "d23f8aacdc80345fa5807f93f5f45b12 d23f8aacdc80345fa5807f93f5f45b12",
+                    "rate_limit_label": "17367a2c6475eb13036259b4de753ce5 17367a2c6475eb13036259b4de753ce5",
                     "warn_threshold_help": "45974f989e75f20386ee41b2ca78ab5e 45974f989e75f20386ee41b2ca78ab5e",
                     "warn_threshold_label": "90d565f3400a750a31ef42e931a10cb1 90d565f3400a750a31ef42e931a10cb1",
+                    "webhook_min_action_help": "35d7ecdbbf05289d949d2273f767a547 35d7ecdbbf05289d949d2273f767a547",
+                    "webhook_min_action_label": "9263a6972c8e812912f1ab3fc60b8287 9263a6972c8e812912f1ab3fc60b8287",
+                    "webhook_url_help": "c8f128ca40e029bd21e4ccafbab3bec1 c8f128ca40e029bd21e4ccafbab3bec1",
                     "webhook_url_label": "73f814002f27c6adf54646700027f2fa 73f814002f27c6adf54646700027f2fa",
                     "word_blocklist_help": "1935f0fb5d6b8bd9fa7b4224dc6f5ee8 1935f0fb5d6b8bd9fa7b4224dc6f5ee8",
                     "word_blocklist_label": "3dd97c650a4cccc7de0534185a341940 3dd97c650a4cccc7de0534185a341940"
@@ -7122,6 +7139,13 @@
                     "result_score": "9226291899db2ee8394d1e60a572adae 9226291899db2ee8394d1e60a572adae",
                     "submit": "4e68e1b3c4b23cb4eb8e01929a224617 4e68e1b3c4b23cb4eb8e01929a224617",
                     "title": "f122d8724a4bf1ce0b6fc0d4865bbe6d f122d8724a4bf1ce0b6fc0d4865bbe6d"
+                }
+            },
+            "forum": {
+                "user_profile": {
+                    "average_score": "e1f9872ae99c046cdb93fb1c3b153543 e1f9872ae99c046cdb93fb1c3b153543",
+                    "no_history": "7755962099ca4c9a6467849a2eb18cba 7755962099ca4c9a6467849a2eb18cba",
+                    "violations": "4693052a1bb15054074383370bb58410 4693052a1bb15054074383370bb58410"
                 }
             }
         }
