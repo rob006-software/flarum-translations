@@ -2,8 +2,8 @@
     "core": {
         "forum": {
             "index_sort": {
-                "most_viewed_button": "",
-                "least_viewed_button": ""
+                "most_viewed_button": "En Çok Görüntülenenler",
+                "least_viewed_button": "En Az Görüntülenen"
             }
         }
     },
@@ -13,7 +13,7 @@
                 "title": "Tartışma görüntülenme sayısını sıfırla",
                 "submit": "Onayla",
                 "label": "Görüntülenme sayısını ayarla",
-                "invalid": ""
+                "invalid": "Lütfen 0'dan büyük veya 0'a eşit geçerli bir sayı girin"
             },
             "discussion_controls": {
                 "resetviews_button": "Görüntülenme sayısını ayarla"
@@ -30,7 +30,7 @@
         "lib": {
             "gambits": {
                 "popular": {
-                    "key": ""
+                    "key": "popular"
                 }
             }
         }
