@@ -132,7 +132,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/flarum/suspend/v2.0.0-beta.8/locale/en.yml',
 	],
 	'flarum-tags' => [
-		'beta' => 'https://raw.githubusercontent.com/flarum/tags/v2.0.0-beta.7/locale/en.yml',
+		'beta' => 'https://raw.githubusercontent.com/flarum/tags/v2.0.0-beta.8/locale/en.yml',
 	],
 	'flectar-turnstile' => [
 		'beta' => 'https://raw.githubusercontent.com/flectar/flarum-ext-turnstile/2.0.0-beta.2/locale/en.yml',
