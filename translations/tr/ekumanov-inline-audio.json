@@ -1,14 +1,14 @@
 {
     "ekumanov-inline-audio": {
         "forum": {
-            "bbcode_description": ""
+            "bbcode_description": "Ses oynatıcısını ekleyin: [player]URL[/player]"
         },
         "admin": {
             "settings": {
-                "show_download_button": "",
-                "show_right_click_download": "",
-                "auto_play": "",
-                "strip_upload_prefix": ""
+                "show_download_button": "Oynatıcı çubuğunda indirme düğmesini göster",
+                "show_right_click_download": "Dosya adının üzerine sağ tıklayarak dosyayı kaydetmeye izin ver",
+                "auto_play": "Bir dosya adı tıklandığında hemen oynatmaya başla",
+                "strip_upload_prefix": "Yüklenen dosya adlarındaki sayısal önekleri gizle (ör. “1774205518-685373-song.mp3” → “song.mp3”)"
             }
         }
     }
