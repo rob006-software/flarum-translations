@@ -767,6 +767,7 @@
                     "csrf_token_mismatch": "ea86d023c453c692557c0f926f1a84cf ea86d023c453c692557c0f926f1a84cf",
                     "csrf_token_mismatch_return_link": "2df914e94c041bc94d4060bea41ac427 2df914e94c041bc94d4060bea41ac427",
                     "invalid_confirmation_token": "6679e8fea656eb8e7cb84d6c2c536120 6679e8fea656eb8e7cb84d6c2c536120",
+                    "method_not_allowed": "886ba41dbf3cdebc645a1ef366a2de81 886ba41dbf3cdebc645a1ef366a2de81",
                     "not_authenticated": "3e17fa0c7f3c600b4583f9af2e080606 3e17fa0c7f3c600b4583f9af2e080606",
                     "not_found": "3bcc9126893a520aa84c624ee5bac4a6 3bcc9126893a520aa84c624ee5bac4a6",
                     "not_found_return_link": "537a978df2a4346b06327bcd451fa1ae 537a978df2a4346b06327bcd451fa1ae",
@@ -1228,7 +1229,8 @@
                 "settings": {
                     "auto_play": "d41d8cd98f00b204e9800998ecf8427e 022e0394665d67075d9a78f15ba1c4de",
                     "show_download_button": "d41d8cd98f00b204e9800998ecf8427e bd756b750809b72dae7d39703dd46326",
-                    "show_right_click_download": "d41d8cd98f00b204e9800998ecf8427e 4aa6cfebdbc7b20c8b71de0691ff4c68"
+                    "show_right_click_download": "d41d8cd98f00b204e9800998ecf8427e 4aa6cfebdbc7b20c8b71de0691ff4c68",
+                    "strip_upload_prefix": "d41d8cd98f00b204e9800998ecf8427e d56fedd6d3b93a8a7f7b55475fe65aeb"
                 }
             },
             "forum": {
@@ -3595,6 +3597,7 @@
                 },
                 "modal": {
                     "check": "d41d8cd98f00b204e9800998ecf8427e 2cd71dad942ef838da5182e4b54f167e",
+                    "confirm_move_all_to_new_discussion": "d41d8cd98f00b204e9800998ecf8427e aac424145557b3e92a674147364a79fd",
                     "destination": "d41d8cd98f00b204e9800998ecf8427e d23a2b67d630e9ec55375bf44af986aa",
                     "discussion_help": "d41d8cd98f00b204e9800998ecf8427e ac402078458176a5aea3b3ed97e8498f",
                     "discussion_name": "d41d8cd98f00b204e9800998ecf8427e 5f93b38d28c94e3aa21b8e2066929348",
