@@ -1250,13 +1250,35 @@
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/Ralkage/flarum-ext-word-censor" title="ralkage/flarum-ext-word-censor"><code>ralkage/flarum-ext-word-censor</code></a>
+		</td>
+		<td align="center">112</td>
+		<td align="center"><a href="https://packagist.org/packages/ralkage/flarum-ext-word-censor/stats">4</a></td>
+		<td align="center"><a href="https://packagist.org/packages/ralkage/flarum-ext-word-censor/stats">4</a></td>
+		<td align="center"><a href="https://packagist.org/packages/ralkage/flarum-ext-word-censor/stats">3</a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum2/ralkage-word-censor/sq/"><img src="https://weblate.rob006.net/widgets/flarum2/sq/ralkage-word-censor/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/flarum-com/database-queue" title="flarum-com/database-queue"><code>flarum-com/database-queue</code></a>
 		</td>
-		<td align="center">112<br /><img src="https://img.shields.io/badge/-%2B7-red" alt="+7" title="Change from last week"></td>
+		<td align="center">113<br /><img src="https://img.shields.io/badge/-%2B8-red" alt="+8" title="Change from last week"></td>
 		<td align="center"><a href="https://packagist.org/packages/flarum-com/database-queue/stats">37<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
 		<td align="center"><a href="https://packagist.org/packages/flarum-com/database-queue/stats">1<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
 		<td align="center"><a href="https://packagist.org/packages/flarum-com/database-queue/stats">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum2/flarum-com-database-queue/sq/"><img src="https://weblate.rob006.net/widgets/flarum2/sq/flarum-com-database-queue/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/Ralkage/flarum-ext-civility-filter" title="ralkage/flarum-ext-civility-filter"><code>ralkage/flarum-ext-civility-filter</code></a>
+		</td>
+		<td align="center">114</td>
+		<td align="center"><a href="https://packagist.org/packages/ralkage/flarum-ext-civility-filter/stats">0</a></td>
+		<td align="center"><a href="https://packagist.org/packages/ralkage/flarum-ext-civility-filter/stats">0</a></td>
+		<td align="center"><a href="https://packagist.org/packages/ralkage/flarum-ext-civility-filter/stats">0</a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum2/ralkage-civility-filter/sq/"><img src="https://weblate.rob006.net/widgets/flarum2/sq/ralkage-civility-filter/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 </tbody>
 </table>
