@@ -1119,8 +1119,18 @@
                         "help_text": "a475b18e96e8317d4f1aca89121fdac7 a475b18e96e8317d4f1aca89121fdac7"
                     },
                     "user_table_data": {
+                        "column": "f62c40316211db246538432ee2a47282 f62c40316211db246538432ee2a47282",
+                        "extension": "3b633c002b3d2e7fa94ae348543f7da1 3b633c002b3d2e7fa94ae348543f7da1",
                         "help_text": "b576dfe464c649201c05812e93af88fb b576dfe464c649201c05812e93af88fb",
-                        "title": "f24fe8020af87dc858103bd05d9e5312 f24fe8020af87dc858103bd05d9e5312"
+                        "no": "b1af96d18e834d2f816197dd7bf6eaad b1af96d18e834d2f816197dd7bf6eaad",
+                        "nullable": "d800e2c313fc9e7eebc44b76a0654619 d800e2c313fc9e7eebc44b76a0654619",
+                        "pii": "ee87ad25a38e57058d78e07b7b65bbd3 ee87ad25a38e57058d78e07b7b65bbd3",
+                        "pii_tooltip": "421c8e8459e45307aeabe8f1b52540c8 421c8e8459e45307aeabe8f1b52540c8",
+                        "redacted_on_export": "b37fbb012d8eee1397aa92cbc562ec37 b37fbb012d8eee1397aa92cbc562ec37",
+                        "redacted_on_export_tooltip": "1d30b95829a6392d44ace81d3358facf 1d30b95829a6392d44ace81d3358facf",
+                        "title": "f24fe8020af87dc858103bd05d9e5312 f24fe8020af87dc858103bd05d9e5312",
+                        "type": "c2ea84331318265913c436726c9c4ff3 c2ea84331318265913c436726c9c4ff3",
+                        "yes": "f6c5dc9e87737f27cbffe323def199af f6c5dc9e87737f27cbffe323def199af"
                     }
                 },
                 "nav": {
@@ -1194,7 +1204,10 @@
                     "anonymization_button": "de0b0f5fdc327fdc6885d1213c077c47 de0b0f5fdc327fdc6885d1213c077c47",
                     "comments_label": "145b45cfa20d51ac0a057b1d25cca819 145b45cfa20d51ac0a057b1d25cca819",
                     "confirm": "f75d4fc1cb80cb471ba10cfc56f7981b f75d4fc1cb80cb471ba10cfc56f7981b",
+                    "confirmed_at": "20660aabce996cda4584837aa359ff18 20660aabce996cda4584837aa359ff18",
                     "deletion_button": "6494a3317078ad20d9cab26687808259 6494a3317078ad20d9cab26687808259",
+                    "eligible_at": "b8c99a1ed66ff4af6fd76524cbccf55a b8c99a1ed66ff4af6fd76524cbccf55a",
+                    "requested_at": "6c4876f30dfc69d0f40d4ba6f9e20b3b 6c4876f30dfc69d0f40d4ba6f9e20b3b",
                     "text": "979d0598ed84e5e9947af873e093ff60 979d0598ed84e5e9947af873e093ff60",
                     "title": "e2cf8c2a0ac8f628709f343187d0b46e e2cf8c2a0ac8f628709f343187d0b46e"
                 },
@@ -1227,6 +1240,7 @@
                         "delete_description": "8de5e842a8fba89bd2eb10c526d31bfd 8de5e842a8fba89bd2eb10c526d31bfd",
                         "export_description": "b0acdf3af168aa7a0803c9e80d47988e b0acdf3af168aa7a0803c9e80d47988e"
                     },
+                    "default_user_action": "4319c4d78fd80e856a2f23a3b1ccb99a 4319c4d78fd80e856a2f23a3b1ccb99a",
                     "discussions": {
                         "export_description": "3275d90888e1d8358854103efba4351d 3275d90888e1d8358854103efba4351d"
                     },

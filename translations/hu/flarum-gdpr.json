@@ -21,16 +21,16 @@
                 "user_table_data": {
                     "title": "Felhasználói adatok táblája",
                     "help_text": "A legtöbb esetben a <code>user</code> táblához adott oszlopok automatikusan kezelve lesznek, az adatok exportálása és törlése esetén is.\nViszont vannak speciális esetek, amelyeket alább soroltunk fel.\n",
-                    "column": "",
-                    "type": "",
-                    "nullable": "",
-                    "pii": "",
-                    "redacted_on_export": "",
-                    "extension": "",
-                    "yes": "",
-                    "no": "",
-                    "pii_tooltip": "",
-                    "redacted_on_export_tooltip": ""
+                    "column": "Oszlop",
+                    "type": "Típus",
+                    "nullable": "Lehet null",
+                    "pii": "PII",
+                    "redacted_on_export": "Exportáláskor visszatartva",
+                    "extension": "Bővítmény",
+                    "yes": "Igen",
+                    "no": "Nem",
+                    "pii_tooltip": "Ez az oszlop személyazonosításra alkalmas információnak (PII) van tekintve, és anonimizált környezetekben vissza lesz tartva (például anonimizált eseménytartalmakban).",
+                    "redacted_on_export_tooltip": "Ennek az oszlopnak az értéke ki lesz ürítve (nullra lesz állítva) a felhasználói adatexport előállítása során. Az oszlop megjelenik az exportban, de null értékkel."
                 }
             },
             "nav": {
@@ -83,7 +83,7 @@
                 "forum": {
                     "export_description": "Exportálja a fórum címét, a webcímet, a felhasználónevet, az e-mail-címet és a jelenlegi dátumot."
                 },
-                "default_user_action": "",
+                "default_user_action": "Nincs művelet, az alapértelmezett felhasználói táblakezelés vonatkozik rá.",
                 "no_action": "Nincs teendő.",
                 "posts": {
                     "anonymize_description": "Eltávolítja az IP-címet a felhasználó által készített összes bejegyzésből.",
@@ -163,9 +163,9 @@
                 "comments_label": "Hozzászólások (nem kötelező)",
                 "anonymization_button": "Felhasználó anonimizálása",
                 "deletion_button": "Felhasználó törlése",
-                "requested_at": "",
-                "confirmed_at": "",
-                "eligible_at": ""
+                "requested_at": "Kérve: {date}",
+                "confirmed_at": "Megerősítve: {date}",
+                "eligible_at": "Automatikus feldolgozásra jogosult: {date}"
             },
             "request_erasure": {
                 "title": "Fióktörlés kérése",

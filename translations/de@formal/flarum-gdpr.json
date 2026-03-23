@@ -21,16 +21,16 @@
                 "user_table_data": {
                     "title": "Daten der Benutzertabelle",
                     "help_text": "In den meisten Fällen werden alle Spalten, die der <code>Benutzer</code>-Tabelle hinzugefügt werden, automatisch behandelt, sowohl für den Export von Daten als auch für das Löschen.\nEs gibt jedoch einige Sonderfälle, die im Folgenden aufgeführt sind.\n",
-                    "column": "",
-                    "type": "",
-                    "nullable": "",
-                    "pii": "",
-                    "redacted_on_export": "",
-                    "extension": "",
-                    "yes": "",
-                    "no": "",
-                    "pii_tooltip": "",
-                    "redacted_on_export_tooltip": "",
+                    "column": "Spalte",
+                    "type": "Typ",
+                    "nullable": "Nullbar",
+                    "pii": "personenbezogene Daten",
+                    "redacted_on_export": "Bei Export geschwärzt",
+                    "extension": "Erweiterung",
+                    "yes": "Ja",
+                    "no": "Nein",
+                    "pii_tooltip": "Diese Spalte gilt als personenbezogene Information und wird in anonymisierten Kontexten (z. B. anonymisierten Ereignis-Payloads) unkenntlich gemacht.",
+                    "redacted_on_export_tooltip": "Der Wert dieser Spalte wird beim Generieren eines Benutzerdatenexports gelöscht (auf null gesetzt). Die Spalte erscheint weiterhin im Export mit einem Nullwert.",
                     "not_yet_implemented": "Noch nicht implementiert"
                 }
             },
@@ -84,7 +84,7 @@
                 "forum": {
                     "export_description": "Exportiert den Titel des Forums, die URL, den Benutzernamen, die E-Mail und das aktuelle Datum."
                 },
-                "default_user_action": "",
+                "default_user_action": "Keine Aktion, wird standardmäßig von der Benutzertabellen-Datenverarbeitung behandelt.",
                 "no_action": "Es wurden keine Maßnahmen getroffen.",
                 "posts": {
                     "anonymize_description": "Entfernt die IP-Adresse aus allen Beiträgen, die der Benutzer verfasst hat.",
@@ -164,9 +164,9 @@
                 "comments_label": "Kommentare (optional)",
                 "anonymization_button": "Benutzer anonymisieren",
                 "deletion_button": "Benutzer löschen",
-                "requested_at": "",
-                "confirmed_at": "",
-                "eligible_at": ""
+                "requested_at": "Angefordert: {date}",
+                "confirmed_at": "Bestätigt: {date}",
+                "eligible_at": "Für die automatische Verarbeitung geeignet: {date}"
             },
             "request_erasure": {
                 "title": "Kontolöschung beantragen",
