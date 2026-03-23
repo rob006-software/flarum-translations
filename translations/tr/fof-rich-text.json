@@ -3,7 +3,7 @@
         "admin": {
             "settings": {
                 "toggle_on_editor": "Düzenleyicide zengin metin moduna geçiş gösterilsin mi?",
-                "force_compact_paragraphs": ""
+                "force_compact_paragraphs": "Tüm kullanıcılar için paragrafları sıkıştır (Enter tuşu yeni bir paragraf yerine satır sonu oluşturur)"
             }
         },
         "lib": {
@@ -21,24 +21,24 @@
                     "remove_button": "Kaldır"
                 },
                 "additional_items_tooltip": "Ek Kontroller",
-                "bold_tooltip": "",
-                "code_tooltip": "",
+                "bold_tooltip": "Kalın metin ({modifierKey}-b)",
+                "code_tooltip": "Satır içi kod ({modifierKey}-`)",
                 "code_block_tooltip": "Kod bloğu ekle",
-                "header_tooltip": "",
+                "header_tooltip": "{level}. seviye başlığa dönüştür ({modifierKey}-shift-{level})",
                 "horizontal_rule_tooltip": "Yatay çizgi ekle",
                 "image_tooltip": "Görsel ekle",
-                "italic_tooltip": "",
+                "italic_tooltip": "İtalik metin ({modifierKey}-i)",
                 "link_tooltip": "Bağlantı ekle",
-                "ordered_list_tooltip": "",
-                "paragraph_tooltip": "",
-                "quote_tooltip": "",
+                "ordered_list_tooltip": "Numaralı liste ({modifierKey}-Shift-9)",
+                "paragraph_tooltip": "Paragrafa geç ({modifierKey}-shift-0)",
+                "quote_tooltip": "Alıntı ekle ({modifierKey}-q)",
                 "spoiler_block_tooltip": "Tatkaçıran/Açılır Blok",
-                "spoiler_inline_tooltip": "",
-                "strike_tooltip": "",
-                "sub_tooltip": "",
-                "sup_tooltip": "",
+                "spoiler_inline_tooltip": "Tatkaçıran ({modifierKey}-;)",
+                "strike_tooltip": "Üstü çizili (alt-shift-5)",
+                "sub_tooltip": "Alt simge ({modifierKey}-,)",
+                "sup_tooltip": "Üst simge ({modifierKey}-.)",
                 "text_type_tooltip": "Metin Tipi Seç",
-                "unordered_list_tooltip": ""
+                "unordered_list_tooltip": "Noktalı liste ({modifierKey}-Shift-8)"
             }
         },
         "forum": {
