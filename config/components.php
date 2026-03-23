@@ -14,10 +14,10 @@ declare(strict_types=1);
 return [
 	// do not remove this component - it is used as a main component in the Weblate project
 	'core' => [
-		'https://raw.githubusercontent.com/flarum/flarum-core/v2.0.0-beta.7/locale/core.yml',
+		'https://raw.githubusercontent.com/flarum/flarum-core/v2.0.0-beta.8/locale/core.yml',
 	],
 	'validation' => [
-		'https://raw.githubusercontent.com/flarum/flarum-core/v2.0.0-beta.7/locale/validation.yml',
+		'https://raw.githubusercontent.com/flarum/flarum-core/v2.0.0-beta.8/locale/validation.yml',
 	],
 	/* extensions list begin */
 	'acpl-lscache' => [
