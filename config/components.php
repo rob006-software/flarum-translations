@@ -1556,6 +1556,9 @@ return [
 	'ralkage-hcaptcha' => [
 		'tag' => 'https://raw.githubusercontent.com/Ralkage/flarum-hcaptcha/1.0.0/resources/locale/en.yml',
 	],
+	'ralkage-profile-messages' => [
+		'tag' => 'https://raw.githubusercontent.com/Ralkage/flarum-ext-profile-messages/1.0.0/locale/en.yml',
+	],
 	'ralkage-word-censor' => [
 		'tag' => 'https://raw.githubusercontent.com/Ralkage/flarum-ext-word-censor/1.0.0/locale/en.yml',
 	],
