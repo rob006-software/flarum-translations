@@ -2,13 +2,13 @@
     "ralkage-civility-filter": {
         "admin": {
             "settings": {
-                "enabled_label": "",
-                "enabled_help": "",
-                "ai_provider_label": "",
-                "ai_provider_help": "",
-                "api_key_label": "",
-                "api_key_help": "",
-                "openai_api_key_label": "",
+                "enabled_label": "Nezaket Filtresini Etkinleştir",
+                "enabled_help": "Nezaket filtresini etkinleştirmek veya devre dışı bırakmak için ana anahtar.",
+                "ai_provider_label": "Yapay Zeka Sağlayıcısı",
+                "ai_provider_help": "Hangi AI sağlayıcısını kullanacağınızı seçin. Aşağıya ilgili API anahtarını girin.",
+                "api_key_label": "Anthropic API Anahtarı",
+                "api_key_help": "Claude modelleri için Anthropic API anahtarınız.",
+                "openai_api_key_label": "OpenAI API Anahtarı",
                 "openai_api_key_help": "",
                 "openrouter_api_key_label": "",
                 "openrouter_api_key_help": "",
