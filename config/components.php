@@ -1547,6 +1547,9 @@ return [
 			'zh_Hans',
 		],
 	],
+	'ralkage-cap-captcha' => [
+		'tag' => 'https://raw.githubusercontent.com/Ralkage/flarum-ext-cap-captcha/1.0.1/locale/en.yml',
+	],
 	'ralkage-civility-filter' => [
 		'tag' => 'https://raw.githubusercontent.com/Ralkage/flarum-ext-civility-filter/1.0.1/locale/en.yml',
 	],
