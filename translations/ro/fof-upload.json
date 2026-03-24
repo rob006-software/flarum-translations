@@ -205,41 +205,41 @@
             "upload-shared-file-modal": {
                 "title": "Fișier nou partajat",
                 "dropzone": "Trageți și plasați fișierele aici sau faceți clic pentru a răsfoi",
-                "hide-from-media-gallery": "",
-                "upload": ""
+                "hide-from-media-gallery": "Ascunde din galeria media a utilizatorului",
+                "upload": "Încărcare"
             },
             "file_list": {
-                "loading": "",
-                "empty": "",
-                "release_to_upload": "",
-                "modal_empty_desktop": "",
-                "modal_empty_phone": "",
-                "select_file_a11y_label": "",
-                "confirm_selection_btn": "",
-                "load_more_files_btn": "",
-                "delete_file_a11y_label": "",
-                "delete_confirmation": "",
+                "loading": "Se încarcă fișierele...",
+                "empty": "Nu există fișiere de afișat.",
+                "release_to_upload": "Eliberați pentru a încărca",
+                "modal_empty_desktop": "Lista ta de fișiere este goală. Fă clic pe buton sau trage un fișier aici pentru a-l încărca.",
+                "modal_empty_phone": "Lista ta de fișiere este goală. Atinge butonul de mai sus pentru a încărca un fișier.",
+                "select_file_a11y_label": "Selectează fișierul „{fileName}”",
+                "confirm_selection_btn": "{fileCount, plural, =0 {None selected} one {Select file} other {Select files}}",
+                "load_more_files_btn": "Încarcă mai multe fișiere",
+                "delete_file_a11y_label": "Șterge fișierul „{fileName}”",
+                "delete_confirmation": "Ești sigur că vrei să ștergi „{fileName}”?",
                 "hide_file": {
-                    "btn_a11y_label_hide": "",
-                    "btn_a11y_label_show": "",
-                    "hide_confirmation": "",
-                    "hide_success": "",
-                    "show_confirmation": "",
-                    "show_success": "",
-                    "hide_fail": "",
-                    "show_fail": "",
-                    "loading": ""
+                    "btn_a11y_label_hide": "Ascunde „{fileName}” din managerul media",
+                    "btn_a11y_label_show": "Afișează „{fileName}” în managerul media",
+                    "hide_confirmation": "Ești sigur că vrei să ascunzi „{fileName}”? Ascunderea unui fișier îl va elimina doar din managerul media și nu va afecta postările existente.",
+                    "hide_success": "Fișier ascuns",
+                    "show_confirmation": "Ești sigur că vrei să afișezi „{fileName}”? Afișarea unui fișier îl va face vizibil în managerul tău media.",
+                    "show_success": "Fișier afișat",
+                    "hide_fail": "Nu s-a putut ascunde fișierul „{fileName}”",
+                    "show_fail": "Nu s-a putut afișa fișierul „{fileName}”",
+                    "loading": "Se ascunde fișierul..."
                 },
                 "hide_shared_file": {
-                    "btn_a11y_label_hide": "",
-                    "btn_a11y_label_show": "",
-                    "hide_confirmation": "",
-                    "hide_success": "",
-                    "show_confirmation": "",
-                    "show_success": "",
-                    "hide_fail": "",
-                    "show_fail": "",
-                    "loading": ""
+                    "btn_a11y_label_hide": "Fă „{fileName}” privat (fără URL public)",
+                    "btn_a11y_label_show": "Fă „{fileName}” public (cu URL public)",
+                    "hide_confirmation": "Ești sigur că vrei să faci „{fileName}” privat? Transformarea unui fișier în privat va elimina URL-ul său public, dar nu va afecta postările existente. De asemenea, acesta nu va mai fi vizibil în managerul media pentru utilizatorii neautorizați.",
+                    "hide_success": "Fișier făcut privat",
+                    "show_confirmation": "Ești sigur că vrei să faci „{fileName}” public? Transformarea unui fișier în public îl va face accesibil oricărei persoane care deține un URL public și oricine îl va putea distribui folosind managerul media.",
+                    "show_success": "Fișier făcut public",
+                    "hide_fail": "Nu s-a putut face privat fișierul „{fileName}”",
+                    "show_fail": "Nu s-a putut face public fișierul „{fileName}”",
+                    "loading": "Se face fișierul privat..."
                 }
             }
         }
