@@ -5,23 +5,23 @@
                 "providers": {
                     "envato": {
                         "description": "Registriere dein Forum bei Envato {link}.",
-                        "client_id_label": "",
-                        "client_secret_label": ""
+                        "client_id_label": "Client-ID",
+                        "client_secret_label": "Client-Secret"
                     }
                 }
             }
         },
         "forum": {
             "log_in": {
-                "with_envato_button": ""
+                "with_envato_button": "=> fof-oauth.forum.log_in.with_button"
             },
             "providers": {
-                "envato": ""
+                "envato": "=> fof-oauth.lib.providers.envato"
             }
         },
         "lib": {
             "providers": {
-                "envato": ""
+                "envato": "Envato"
             }
         }
     }
