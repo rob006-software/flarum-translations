@@ -2,65 +2,65 @@
     "ralkage-profile-messages": {
         "admin": {
             "permissions": {
-                "post_label": "",
-                "delete_own_label": "",
-                "edit_any_label": ""
+                "post_label": "Profilnachrichten posten",
+                "delete_own_label": "Eigene Profilnachrichten löschen",
+                "edit_any_label": "Jede Profilnachricht bearbeiten"
             }
         },
         "forum": {
             "user": {
-                "messages_link": "",
-                "messages_empty_text": "",
-                "messages_load_more_button": ""
+                "messages_link": "Profilnachrichten",
+                "messages_empty_text": "Auf diesem Profil wurden noch keine Nachrichten gepostet.",
+                "messages_load_more_button": "Mehr laden"
             },
             "composer": {
-                "placeholder": "",
-                "submit_button": "",
-                "save_button": "",
-                "heading": "",
-                "reply_heading": "",
-                "edit_heading": "",
-                "confirm_exit": "",
-                "posted_message": "",
-                "preview_heading": "",
-                "saved_message": "",
-                "validation_empty": "",
-                "validation_too_long": "",
-                "validation_blocked": ""
+                "placeholder": "Schreibe eine Nachricht auf diesem Profil...",
+                "submit_button": "Nachricht senden",
+                "save_button": "Änderungen speichern",
+                "heading": "Nachricht auf dem Profil von {username}",
+                "reply_heading": "Antwort auf dem Profil von {username}",
+                "edit_heading": "Nachricht bearbeiten",
+                "confirm_exit": "Deine Nachricht wurde nicht veröffentlicht. Möchtest du sie verwerfen?",
+                "posted_message": "Deine Nachricht wurde veröffentlicht.",
+                "preview_heading": "Vorschau",
+                "saved_message": "Deine Nachricht wurde aktualisiert.",
+                "validation_empty": "Nachricht darf nicht leer sein.",
+                "validation_too_long": "Die Nachricht darf nicht länger als 2000 Zeichen sein.",
+                "validation_blocked": "Dieser Nutzer hat Profilnachrichten deaktiviert."
             },
             "message": {
-                "delete_button": "",
-                "delete_confirm": "",
-                "edit_button": "",
-                "reply_button": "",
-                "reply_placeholder": "",
-                "reply_submit": "",
-                "report_button": "",
-                "permalink_button": "",
-                "permalink_copied": "",
-                "show_replies": "",
-                "hide_replies": ""
+                "delete_button": "Löschen",
+                "delete_confirm": "Möchtest du diese Nachricht wirklich löschen?",
+                "edit_button": "Bearbeiten",
+                "reply_button": "Antworten",
+                "reply_placeholder": "Eine Antwort verfassen…",
+                "reply_submit": "Antworten",
+                "report_button": "Melden",
+                "permalink_button": "Permalink",
+                "permalink_copied": "Der Link wurde in die Zwischenablage kopiert.",
+                "show_replies": "{count, plural, one {# Antwort anzeigen} other {# Antworten anzeigen}}",
+                "hide_replies": "Antworten verbergen"
             },
             "report": {
-                "title": "",
-                "reason_inappropriate": "",
-                "reason_spam": "",
-                "reason_harassment": "",
-                "reason_other": "",
-                "detail_placeholder": "",
-                "submit_button": "",
-                "success": "",
-                "cannot_report_own": "",
-                "already_reported": ""
+                "title": "Nachricht melden",
+                "reason_inappropriate": "Unangemessene Inhalte",
+                "reason_spam": "Spam",
+                "reason_harassment": "Belästigung",
+                "reason_other": "Anderes",
+                "detail_placeholder": "Weitere Details (optional)...",
+                "submit_button": "Bericht senden",
+                "success": "Nachricht wurde gemeldet.",
+                "cannot_report_own": "Du kannst deine eigenen Nachrichten nicht melden.",
+                "already_reported": "Du hast diese Nachricht bereits gemeldet."
             },
             "notification": {
-                "new_profile_message_text": ""
+                "new_profile_message_text": "{username} hat eine Nachricht auf deinem Profil veröffentlicht."
             },
             "settings": {
-                "profile_heading": "",
-                "notify_new_profile_message_label": "",
-                "block_profile_messages_label": "",
-                "default_view_label": ""
+                "profile_heading": "Profil",
+                "notify_new_profile_message_label": "Jemand veröffentlicht etwas auf meinem Profil",
+                "block_profile_messages_label": "Profilnachrichten von anderen Nutzern deaktivieren",
+                "default_view_label": "„Profilnachrichten“ als Standardansicht auf dem Profil anzeigen"
             }
         }
     }
