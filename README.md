@@ -927,6 +927,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`migratetoflarum-fake-data`](https://weblate.rob006.net/projects/flarum2/migratetoflarum-fake-data) | [`migratetoflarum/fake-data`](https://github.com/migratetoflarum/fake-data) |
 | [`ralkage-cap-captcha`](https://weblate.rob006.net/projects/flarum2/ralkage-cap-captcha) | [`ralkage/flarum-ext-cap-captcha`](https://github.com/Ralkage/flarum-ext-cap-captcha) |
 | [`ralkage-civility-filter`](https://weblate.rob006.net/projects/flarum2/ralkage-civility-filter) | [`ralkage/flarum-ext-civility-filter`](https://github.com/Ralkage/flarum-ext-civility-filter) |
+| [`ralkage-linked-accounts`](https://weblate.rob006.net/projects/flarum2/ralkage-linked-accounts) | [`ralkage/flarum-ext-linked-accounts`](https://github.com/Ralkage/flarum-ext-linked-accounts) |
 | [`ralkage-profile-messages`](https://weblate.rob006.net/projects/flarum2/ralkage-profile-messages) | [`ralkage/flarum-ext-profile-messages`](https://github.com/Ralkage/flarum-ext-profile-messages) |
 | [`ralkage-word-censor`](https://weblate.rob006.net/projects/flarum2/ralkage-word-censor) | [`ralkage/flarum-ext-word-censor`](https://github.com/Ralkage/flarum-ext-word-censor) |
 | [`ramon-colored`](https://weblate.rob006.net/projects/flarum2/ramon-colored) | [`ramon/colored`](https://github.com/ram0ng1/colored) |
