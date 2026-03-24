@@ -3,7 +3,7 @@
         "admin": {
             "settings": {
                 "database_bin_path_label": "(Optional) Pfad zu den Datenbank-Binärdateien",
-                "database_bin_path_help": "Wenn sich die Binärdateien deiner Datenbank (z. B. mysqldump, pg_dump) nicht im PATH deines Systems befinden, kannst du hier das Verzeichnis angeben, in dem sie sich befinden. Achte darauf, den abschließenden Schrägstrich anzugeben (z. B. <code>/usr/local/mysql/bin/</code>).\n"
+                "database_bin_path_help": "Wenn sich die Binärdateien Ihrer Datenbank (z. B. mysqldump, pg_dump) nicht im PATH Ihres Systems befinden, können Sie hier das Verzeichnis angeben, in dem sie sich befinden. Achten Sie darauf, den abschließenden Schrägstrich anzugeben (z. B. <code>/usr/local/mysql/bin/</code>).\n"
             },
             "adapters": {
                 "local": "Lokaler Speicher",
@@ -17,32 +17,32 @@
             },
             "settings_button": "Konfigurieren",
             "delete_button": "Löschen",
-            "delete_confirmation": "Möchtest du „{name}“ ({adapter}) wirklich löschen?",
+            "delete_confirmation": "Möchten Sie „{name}“ ({adapter}) wirklich löschen?",
             "create_button": "Neuen Adapter hinzufügen",
             "required_package_button": "Einrichten",
             "required-package-modal": {
                 "title": "Für {adapter} wird ein Paket benötigt",
-                "content": "Um diesen Treiber verwenden zu können, musst Du ein bestimmtes Paket installieren. Führe dazu den folgenden Composer-Befehl in deinem Flarum-Installationsverzeichnis aus: <code>composer require {package}</code>.\n"
+                "content": "Um diesen Treiber verwenden zu können, müssen Sie ein bestimmtes Paket installieren. Führen Sie dazu den folgenden Composer-Befehl in Ihrem Flarum-Installationsverzeichnis aus: <code>composer require {package}</code>.\n"
             },
             "adapter-settings-modal": {
                 "title": "{adapter} konfigurieren",
                 "name_label": "Standortname",
                 "timestamp_label": "Format des Zeitstempels bei Dateinamen",
-                "timestamp_help": "Gib das Format für Zeitstempel in Sicherungsdateinamen an. Der Standardwert ist <code>U</code> (Unix-Zeitstempel). Verwendet <a>PHP-Datumsformatierung</a>. Unsichere Dateinamenzeichen werden bereinigt. Der Dateiname hat das Format <code>{forum}-[formatierter Zeitstempel].zip</code>.\n",
+                "timestamp_help": "Geben Sie das Format für Zeitstempel in Sicherungsdateinamen an. Der Standardwert ist <code>U</code> (Unix-Zeitstempel). Verwendet <a>PHP-Datumsformatierung</a>. Unsichere Dateinamenzeichen werden bereinigt. Der Dateiname hat das Format <code>{forum}-[formatierter Zeitstempel].zip</code>.\n",
                 "local": {
                     "target": {
                         "label": "Zielpfad",
-                        "description": "Gebe das lokale Verzeichnis an, in dem Backups gespeichert werden sollen."
+                        "description": "Geben Sie das lokale Verzeichnis an, in dem Backups gespeichert werden sollen."
                     }
                 },
                 "aliyun": {
                     "endpoint": {
                         "label": "Endpunkt",
-                        "description": "Die URL zu Deinem Speicherendpunkt."
+                        "description": "Die URL zu Ihrem Speicherendpunkt."
                     },
                     "access-id": {
                         "label": "Zugangs-ID",
-                        "description": "Deine Authentifizierungs-Zugriffstoken-ID"
+                        "description": "Ihre Authentifizierungs-Zugriffstoken-ID"
                     },
                     "access-key": {
                         "label": "Zugangsschlüssel",
@@ -59,8 +59,8 @@
                 },
                 "azure": {
                     "endpoint": {
-                        "label": "",
-                        "description": ""
+                        "label": "Verbindungszeichenfolge",
+                        "description": "Die Verbindungszeichenfolge für Ihren Azure-Speicher."
                     },
                     "container": {
                         "label": "Container",
@@ -82,11 +82,11 @@
                     },
                     "region": {
                         "label": "Region",
-                        "description": "Region Deines Buckets."
+                        "description": "Region Ihres Buckets."
                     },
                     "version": {
                         "label": "Version",
-                        "description": "Gebe eine Version an oder lasse das Feld für latest leer."
+                        "description": "Geben Sie eine Version an oder lassen Sie das Feld für die neueste leer."
                     },
                     "bucket": {
                         "label": "Bucket",
@@ -106,20 +106,20 @@
                     },
                     "refresh-token": {
                         "label": "Aktualisierungstoken",
-                        "description": "Verwende die folgenden Felder, um das Aktualisierungstoken zu erhalten, oder befolge manuell die Anweisungen unter https://www.codemzy.com/blog/dropbox-long-lived-access-refresh-token#how-can-i-get-a-refresh-token-manually."
+                        "description": "Verwenden Sie die folgenden Felder, um das Aktualisierungstoken zu erhalten, oder befolgen Sie manuell die Anweisungen unter https://www.codemzy.com/blog/dropbox-long-lived-access-refresh-token#how-can-i-get-a-refresh-token-manually."
                     },
                     "help": {
                         "obtain-access-code-label": "Zugangscode erhalten (App-Schlüssel erforderlich)",
                         "obtain-access-code-button": "Dropbox öffnen",
-                        "obtain-refresh-token-label": "Verwende den Zugriffscode, um ein Aktualisierungstoken zu erhalten (erfordert App-Schlüssel und Secret)",
+                        "obtain-refresh-token-label": "Verwenden Sie den Zugriffscode, um ein Aktualisierungstoken zu erhalten (erfordert App-Schlüssel und Secret)",
                         "obtain-refresh-token-button": "Code verwenden",
-                        "obtain-refresh-token-success": "Aktualisierungstoken erfolgreich abgerufen und oben aktualisiert! Speichere die Änderungen, um sie zu sichern."
+                        "obtain-refresh-token-success": "Aktualisierungstoken erfolgreich abgerufen und oben aktualisiert! Speichern Sie die Änderungen, um sie zu sichern."
                     }
                 },
                 "gdrive": {
                     "client-id": {
                         "label": "Client-ID",
-                        "description": "Befolge die Anweisungen unter https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md, um ein Google-Projekt zu erstellen und deine Client-ID und deinen geheimen Client-Schlüssel abzurufen.\n"
+                        "description": "Befolgen Sie die Anweisungen unter https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md, um ein Google-Projekt zu erstellen und Ihre Client-ID und Ihren geheimen Client-Schlüssel abzurufen.\n"
                     },
                     "client-secret": {
                         "label": "Client-Secret",
@@ -134,14 +134,14 @@
                         "description": "https://drive.google.com/drive/u/0/folders/ID"
                     },
                     "help": {
-                        "test_success_alert": "Erfolgreich mit Google Drive verbunden! Speichere die Änderungen, um die Einstellungen zu übernehmen.",
+                        "test_success_alert": "Erfolgreich mit Google Drive verbunden! Speichern Sie die Änderungen, um die Einstellungen zu übernehmen.",
                         "test_button": "Verbindung testen"
                     }
                 },
                 "ftp": {
                     "host": {
                         "label": "Remote-Hostname",
-                        "description": "Der Hostname, zu dem Du dich mit FTP verbinden möchtest, zB: <em>ftp.yourdomain.local</em>."
+                        "description": "Der Hostname, zu dem Sie sich mit FTP verbinden möchten, z. B.: <em>ftp.yourdomain.local</em>."
                     },
                     "username": {
                         "label": "Benutzername",
@@ -152,8 +152,8 @@
                         "description": "Das Benutzerkennwort für die Authentifizierung auf dem FTP-Server."
                     },
                     "passive": {
-                        "toggle": "",
-                        "description": ""
+                        "toggle": "Passivmodus",
+                        "description": "Ob für die FTP-Verbindung der passive Modus verwendet werden soll."
                     },
                     "port": {
                         "label": "Port",
@@ -198,7 +198,7 @@
             },
             "nav": {
                 "label": "Backup",
-                "description": "Speicher Kopien Deines Forums."
+                "description": "Speichern Sie Kopien Ihres Forums."
             }
         }
     }
