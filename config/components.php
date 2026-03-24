@@ -302,8 +302,8 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/huseyinfiliz/modern-footer/v2.0.0-beta.1/resources/locale/en.yml',
 	],
 	'huseyinfiliz-stickiest' => [
-		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/stickiest/1.0.1/locale/en.yml',
-		'beta' => 'https://raw.githubusercontent.com/huseyinfiliz/stickiest/2.0.0-beta.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/stickiest/1.0.2/locale/en.yml',
+		'beta' => 'https://raw.githubusercontent.com/huseyinfiliz/stickiest/2.0.0-beta.2/locale/en.yml',
 	],
 	'ianm-boring-avatars' => [
 		'beta' => 'https://raw.githubusercontent.com/imorland/flarum-ext-boring-avatars/2.0.0-beta.1/locale/en.yml',
