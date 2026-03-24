@@ -7,55 +7,55 @@
                     "bisect": {
                         "begin_button_text": "Începe bisecția",
                         "continue_button_text": "Continuă bisecția",
-                        "label": "",
-                        "help": ""
+                        "label": "Bisecție extensii",
+                        "help": "Te ajută să identifici extensia care cauzează problema observată. Această acțiune trece automat forumul în modul mentenanță (scăzut) până la finalizarea procesului."
                     },
                     "bisect_modal": {
-                        "description": "",
-                        "end_button": "",
-                        "issue_question": "",
-                        "issue_question_help": "",
-                        "no_button": "",
-                        "result_description": "",
-                        "start_button": "",
-                        "stop_button": "",
-                        "steps_left": "",
-                        "total_steps": "",
-                        "title": "",
-                        "yes_button": ""
+                        "description": "Această acțiune trece forumul în modul mentenanță (scăzut) până la finalizarea procesului. În fiecare etapă, anumite extensii vor fi dezactivate până când o vom găsi pe cea care cauzează problema. Prin urmare, nu fiți surprins dacă veți observa funcționalități lipsă sau un design diferit al temei. Păstrați această pagină deschisă și încercați să reproduceți problema după fiecare pas într-o pagină separată. Vă puteți întoarce oricând la această pagină dacă o închideți din greșeală.\n",
+                        "end_button": "Închide și mergi la pagina extensiei",
+                        "issue_question": "Problema încă mai persistă?",
+                        "issue_question_help": "Încearcă să reproduci problema într-o pagină separată și răspunde pe baza rezultatului.",
+                        "no_button": "Nu",
+                        "result_description": "Forumul nu mai este în modul mentenanță. Bisecția extensiilor s-a încheiat. Pe baza răspunsurilor tale pentru fiecare pas, cauza problemei este următoarea extensie:\n",
+                        "start_button": "Pornește bisecția",
+                        "stop_button": "Oprește bisecția",
+                        "steps_left": "Pași rămași: {steps}",
+                        "total_steps": "Acest proces va dura aproximativ {steps} pași.",
+                        "title": "Bisecție extensii",
+                        "yes_button": "Da"
                     },
                     "config_override": {
-                        "label": "",
-                        "help": ""
+                        "label": "Fișierul tău <code>config.php</code> suprascrie aceste setări.",
+                        "help": "Puteți schimba aceste setări aici, dar ele nu vor intra în vigoare până când nu setați <code>offline</code> pe <code>0</code> în fișierul <code>config.php</code>."
                     },
-                    "help": "",
+                    "help": "Pune forumul în modul mentenanță pentru a împiedica accesul utilizatorilor.",
                     "options": {
-                        "none": "",
-                        "high": "",
-                        "low": "",
-                        "safe": ""
+                        "none": "Fără mentenanță.",
+                        "high": "Mod mentenanță ridicat. Nimeni nu poate accesa forumul (poate fi activat doar prin config.php)",
+                        "low": "Mod mentenanță scăzut. Administratorii pot accesa forumul.",
+                        "safe": "Mod de siguranță. Nicio extensie nu este încărcată și doar administratorii pot accesa forumul."
                     },
-                    "safe_mode_extensions": "",
-                    "safe_mode_extensions_override_help": "",
-                    "section_label": ""
+                    "safe_mode_extensions": "Extensii permise să se încarce în modul de siguranță",
+                    "safe_mode_extensions_override_help": "Această setare este suprascrisă de cheia <code>safe_mode_extensions</code> din fișierul tău <code>config.php</code>. (<b>{extensions}</b>)",
+                    "section_label": "Mentenanță"
                 },
                 "fontawesome": {
-                    "section_label": "",
-                    "source_label": "",
-                    "source_help": "",
-                    "source_local": "",
-                    "source_cdn": "",
-                    "source_kit": "",
-                    "cdn_url_label": "",
-                    "cdn_url_help": "",
-                    "kit_url_label": "",
-                    "kit_url_help": "",
+                    "section_label": "Pictograme FontAwesome",
+                    "source_label": "Sursă pictograme",
+                    "source_help": "Alegeți modul în care sunt încărcate pictogramele FontAwesome. „Local” folosește fonturile incluse, „CDN” le încarcă dintr-un CDN, iar „Kit” utilizează FontAwesome Kits cu pictograme personalizate.",
+                    "source_local": "Local (Inclus)",
+                    "source_cdn": "CDN",
+                    "source_kit": "FontAwesome Kit",
+                    "cdn_url_label": "URL CDN",
+                    "cdn_url_help": "URL complet către fișierul CSS FontAwesome de pe un CDN",
+                    "kit_url_label": "URL Kit",
+                    "kit_url_help": "URL-ul scriptului tău FontAwesome Kit (de pe kit.fontawesome.com)",
                     "config_override": {
-                        "label": "",
-                        "help": ""
+                        "label": "Suprascriere Configurare",
+                        "help": "Setările FontAwesome sunt configurate în prezent în fișierul tău config.php și nu pot fi modificate aici."
                     },
                     "preview": {
-                        "button": "",
+                        "button": "Previzualizare pictograme",
                         "label": "",
                         "help": "",
                         "fa5_fa6_label": "",
