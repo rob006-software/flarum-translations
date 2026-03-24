@@ -103,9 +103,9 @@
                 "twitter": "=> fof-oauth.lib.providers.twitter"
             },
             "account_linked": {
-                "title": "",
-                "body": "",
-                "dismiss_button": ""
+                "title": "Аккаунт связан",
+                "body": "Ваш аккаунт {forum} <strong>{username}</strong> связан с {provider}. Теперь вы можете входить с помощью пароля или через {provider}.",
+                "dismiss_button": "Отлично"
             },
             "signup": {
                 "username_help": "Пожалуйста, выберите имя пользователя для регистрации"
@@ -114,7 +114,7 @@
             "error": {
                 "bad_verification_code": "Некорректный или истёкший токен верификации. Пожалуйста, попробуйте ещё раз.",
                 "invalid_state": "Некорректное состояние. Пожалуйста, попробуйте ещё раз.",
-                "already_linked": ""
+                "already_linked": "Этот аккаунт уже используется другим пользователем."
             }
         },
         "lib": {
@@ -129,8 +129,8 @@
             },
             "gambits": {
                 "sso": {
-                    "key": "",
-                    "hint": ""
+                    "key": "sso",
+                    "hint": "провайдер входа"
                 }
             }
         },

@@ -30,7 +30,7 @@
                 "warning_button": "Предупредить"
             },
             "user": {
-                "warnings": ""
+                "warnings": "Предупреждения"
             },
             "settings": {
                 "warning_notification_label": "Предупреждение от модератора"
@@ -51,8 +51,8 @@
                 "warnings_no_strikes": "Предупреждения: Баллы отсутствуют"
             },
             "warning_list_item": {
-                "list_item_heading": "",
-                "list_item_heading_hidden": "",
+                "list_item_heading": "{strikes, plural, one {# предупреждение, {time}} other {# предупреждений, {time}}}",
+                "list_item_heading_hidden": "{strikes, plural, one {# предупреждение, {time} (удалено)} other {# предупреждений, {time} (удалено)}}",
                 "public_comment": "Предупреждение",
                 "private_comment": "Приватный комментарий",
                 "linked_post": "Связанное сообщение"
