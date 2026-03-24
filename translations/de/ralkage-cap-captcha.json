@@ -2,21 +2,21 @@
     "ralkage-cap-captcha": {
         "admin": {
             "settings": {
-                "api_endpoint_label": "",
-                "api_endpoint_help": "",
-                "secret_key_label": "",
-                "secret_key_help": "",
-                "protect_registration_label": "",
-                "protect_registration_help": "",
-                "protect_login_label": "",
-                "protect_login_help": ""
+                "api_endpoint_label": "Cap-API-Endpoint",
+                "api_endpoint_help": "Die URL deiner eigenständigen Cap-Instanz mit Site-Schlüssel, z. B. https://cap.beispiel.de/dein-site-key/",
+                "secret_key_label": "Cap-Secret-Schlüssel",
+                "secret_key_help": "Der geheime Schlüssel deiner Seite aus dem Cap-Dashboard.",
+                "protect_registration_label": "Bei der Registrierung CAPTCHA verlangen",
+                "protect_registration_help": "Das Cap-Widget im Registrierungsformular anzeigen.",
+                "protect_login_label": "Bei der Anmeldung CAPTCHA verlangen",
+                "protect_login_help": "Das Cap-Widget im Anmeldeformular anzeigen."
             }
         },
         "forum": {
-            "captcha_required": ""
+            "captcha_required": "Bitte bestätige, dass du ein Mensch bist, indem du die CAPTCHA-Aufgabe löst."
         },
         "api": {
-            "invalid_captcha": ""
+            "invalid_captcha": "Die CAPTCHA-Überprüfung ist fehlgeschlagen. Bitte schließe die Herausforderung ab und versuche es erneut."
         }
     }
 }
