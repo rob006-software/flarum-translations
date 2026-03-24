@@ -341,6 +341,9 @@ return [
 	'ralkage-civility-filter' => [
 		'beta' => 'https://raw.githubusercontent.com/Ralkage/flarum-ext-civility-filter/v2.0.0-beta.8/locale/en.yml',
 	],
+	'ralkage-linked-accounts' => [
+		'beta' => 'https://raw.githubusercontent.com/Ralkage/flarum-ext-linked-accounts/v2.0.0-beta.8/locale/en.yml',
+	],
 	'ralkage-profile-messages' => [
 		'beta' => 'https://raw.githubusercontent.com/Ralkage/flarum-ext-profile-messages/v2.0.0-beta.8/locale/en.yml',
 	],
