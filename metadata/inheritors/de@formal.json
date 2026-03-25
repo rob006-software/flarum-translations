@@ -977,6 +977,38 @@
             }
         }
     },
+    "blomstra-s3-assets.json": {
+        "blomstra-s3-assets": {
+            "admin": {
+                "settings": {
+                    "configured_by_environment": "924fe624ef6be4eb4dd80ff169c7f5ad 924fe624ef6be4eb4dd80ff169c7f5ad",
+                    "s3bucket": {
+                        "help": "b2c5991672a0f4fb048a2d4d8c2b1d62 b2c5991672a0f4fb048a2d4d8c2b1d62",
+                        "label": "30edf70db68aa84f05d3e72326807b0c 30edf70db68aa84f05d3e72326807b0c"
+                    },
+                    "s3endpoint": {
+                        "help": "52bb87000ccdc36175317a7c323984ff 52bb87000ccdc36175317a7c323984ff",
+                        "label": "9d07bb92a2b5f34f5a53904a0e44f0b1 9d07bb92a2b5f34f5a53904a0e44f0b1"
+                    },
+                    "s3key": {
+                        "help": "57d0632a15db9f99170f6159657cfa66 57d0632a15db9f99170f6159657cfa66",
+                        "label": "0f511d362346c2f658bb594d5b04224e 0f511d362346c2f658bb594d5b04224e"
+                    },
+                    "s3region": {
+                        "help": "0baeb494340db808f1ce779e36e99f42 0baeb494340db808f1ce779e36e99f42",
+                        "label": "f447ac856e7e72435904956e3b15f433 f447ac856e7e72435904956e3b15f433"
+                    },
+                    "s3secret": {
+                        "label": "1e6947ac7fb3a9529a9726eb692c8cc5 1e6947ac7fb3a9529a9726eb692c8cc5"
+                    },
+                    "s3url": {
+                        "help": "8491815c142fcbcb642cd8581d5bb17a 8491815c142fcbcb642cd8581d5bb17a",
+                        "label": "e6b391a8d2c4d45902a23a8b6585703d e6b391a8d2c4d45902a23a8b6585703d"
+                    }
+                }
+            }
+        }
+    },
     "blomstra-search.json": {
         "blomstra-search": {
             "admin": {
@@ -14725,6 +14757,41 @@
             },
             "forum": {
                 "notice_message": "bb1f3e7bf5250798699013f8ae109a46 bb1f3e7bf5250798699013f8ae109a46"
+            }
+        }
+    },
+    "songnguxyz-oauth-mediawiki.json": {
+        "fof-oauth": {
+            "admin": {
+                "settings": {
+                    "providers": {
+                        "mediawiki": {
+                            "base_url_label": "d008e21fe280c3712b9234ead7d0187e d008e21fe280c3712b9234ead7d0187e",
+                            "client_id_label": "d5c644fb66369cb9511c0398a03ff7f9 d5c644fb66369cb9511c0398a03ff7f9",
+                            "client_secret_label": "e99fee4473832f9c0d1990563fcf0bc1 e99fee4473832f9c0d1990563fcf0bc1",
+                            "description": "2f5c45150d262268c059acc856a8a39f 2f5c45150d262268c059acc856a8a39f",
+                            "icon_label": "f028d7a4a112a6f2dd353391ed986c1c f028d7a4a112a6f2dd353391ed986c1c",
+                            "user_agent_label": "7051434798d568c97fe5ec35620a484e 7051434798d568c97fe5ec35620a484e"
+                        }
+                    }
+                }
+            },
+            "forum": {
+                "error": {
+                    "invalid_email": "80172df714db7b66b45620b63c688d96 80172df714db7b66b45620b63c688d96",
+                    "wiki_user_blocked": "2207489251e4f59878b23e96599536c7 2207489251e4f59878b23e96599536c7"
+                },
+                "log_in": {
+                    "with_mediawiki_button": "625db5950e116b42b8d60e995c02ab39 625db5950e116b42b8d60e995c02ab39"
+                },
+                "providers": {
+                    "mediawiki": "f63e5217c0956ab29c332de1955991d5 f63e5217c0956ab29c332de1955991d5"
+                }
+            },
+            "lib": {
+                "providers": {
+                    "mediawiki": "8838c40b936aed222f15413af97cdb76 8838c40b936aed222f15413af97cdb76"
+                }
             }
         }
     },
