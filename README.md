@@ -835,6 +835,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | --- | --- |
 | [`fof-analytics`](https://weblate.rob006.net/projects/flarum2/fof-analytics) | [`fof/analytics`](https://github.com/FriendsOfFlarum/analytics) |
 | [`fof-anti-spam`](https://weblate.rob006.net/projects/flarum2/fof-anti-spam) | [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) |
+| [`fof-badges`](https://weblate.rob006.net/projects/flarum2/fof-badges) | [`fof/badges`](https://github.com/FriendsOfFlarum/badges) |
 | [`fof-best-answer`](https://weblate.rob006.net/projects/flarum2/fof-best-answer) | [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer) |
 | [`fof-byobu`](https://weblate.rob006.net/projects/flarum2/fof-byobu) | [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu) |
 | [`fof-categories`](https://weblate.rob006.net/projects/flarum2/fof-categories) | [`fof/categories`](https://github.com/FriendsOfFlarum/categories) |
