@@ -4,31 +4,31 @@
             "settings": {
                 "providers": {
                     "mediawiki": {
-                        "description": "",
-                        "base_url_label": "",
-                        "client_id_label": "",
-                        "client_secret_label": "",
-                        "user_agent_label": "",
-                        "icon_label": ""
+                        "description": "Konfiguriere deine MediaWiki-OAuth2-Anwendung. Weitere Informationen findest du in der Dokumentation unter {link}",
+                        "base_url_label": "MediaWiki-Basis-URL",
+                        "client_id_label": "Client-Schlüssel",
+                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret",
+                        "user_agent_label": "Benutzeragent",
+                        "icon_label": "Anbieter-Symbol (FontAwesome-Klasse)"
                     }
                 }
             }
         },
         "forum": {
             "log_in": {
-                "with_mediawiki_button": ""
+                "with_mediawiki_button": "=> fof-oauth.forum.log_in.with_button"
             },
             "error": {
-                "wiki_user_blocked": "",
-                "invalid_email": ""
+                "wiki_user_blocked": "Dein MediaWiki-Konto wurde gesperrt, und du kannst dich nicht in diesem Forum anmelden.",
+                "invalid_email": "Die E-Mail-Adresse deines MediaWiki-Kontos konnte nicht abgerufen werden. Bitte verwende eine andere Anmeldemethode."
             },
             "providers": {
-                "mediawiki": ""
+                "mediawiki": "=> fof-oauth.lib.providers.mediawiki"
             }
         },
         "lib": {
             "providers": {
-                "mediawiki": ""
+                "mediawiki": "MediaWiki"
             }
         }
     }
