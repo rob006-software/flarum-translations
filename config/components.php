@@ -1560,7 +1560,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/Ralkage/flarum-ext-linked-accounts/1.0.0/locale/en.yml',
 	],
 	'ralkage-profile-messages' => [
-		'tag' => 'https://raw.githubusercontent.com/Ralkage/flarum-ext-profile-messages/1.0.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/Ralkage/flarum-ext-profile-messages/1.0.1/locale/en.yml',
 	],
 	'ralkage-word-censor' => [
 		'tag' => 'https://raw.githubusercontent.com/Ralkage/flarum-ext-word-censor/1.0.0/locale/en.yml',
