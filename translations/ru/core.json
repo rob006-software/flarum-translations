@@ -176,7 +176,7 @@
                 "username_placeholder": "=> core.ref.username"
             },
             "announcements": {
-                "comments_label": "{count, plural, one {# комментарий} other {# комментариев}}",
+                "comments_label": "{count, plural, one {# комментарий} few {# комментария} many {# комментариев}}",
                 "description": "Последние новости и анонсы от команды Flarum.",
                 "empty": "Анонсы не найдены.",
                 "load_error": "Не удалось загрузить анонсы. Попробуйте позже.",
