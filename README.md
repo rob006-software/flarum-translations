@@ -932,6 +932,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`ralkage-profile-messages`](https://weblate.rob006.net/projects/flarum2/ralkage-profile-messages) | [`ralkage/flarum-ext-profile-messages`](https://github.com/Ralkage/flarum-ext-profile-messages) |
 | [`ralkage-word-censor`](https://weblate.rob006.net/projects/flarum2/ralkage-word-censor) | [`ralkage/flarum-ext-word-censor`](https://github.com/Ralkage/flarum-ext-word-censor) |
 | [`ramon-colored`](https://weblate.rob006.net/projects/flarum2/ramon-colored) | [`ramon/colored`](https://github.com/ram0ng1/colored) |
+| [`resofire-blog-cards`](https://weblate.rob006.net/projects/flarum2/resofire-blog-cards) | [`resofire/blog-cards`](https://github.com/ResofireV2/blog-cards) |
 | [`resofire-discussion-participants`](https://weblate.rob006.net/projects/flarum2/resofire-discussion-participants) | [`resofire/discussion-participants`](https://github.com/ResofireV2/discussion-participants) |
 | [`sycho-advanced-extension-categories`](https://weblate.rob006.net/projects/flarum2/sycho-advanced-extension-categories) | [`sycho/flarum-advanced-extension-categories`](https://github.com/SychO9/flarum-advanced-extension-categories) |
 | [`sycho-github-milestone`](https://weblate.rob006.net/projects/flarum2/sycho-github-milestone) | [`sycho/flarum-github-milestone`](https://github.com/SychO9/flarum-github-milestone) |
