@@ -2,26 +2,26 @@
     "resofire-menu-control": {
         "admin": {
             "nav_order": {
-                "title": "",
-                "description": "",
-                "save_button": "",
-                "save_success": "",
-                "no_items": "",
-                "move_up": "",
-                "icon_input_title": "",
-                "highlight_color_label": "",
-                "highlight_color_help": "",
-                "remove_item": "",
+                "title": "Reihenfolge der Menüpunkte",
+                "description": "Verwende die Pfeiltasten, um die Elemente der Seitenleiste auf der Startseite des Forums neu anzuordnen. Die Änderungen werden sofort nach dem Speichern wirksam.",
+                "save_button": "Reihenfolge speichern",
+                "save_success": "Navigationsreihenfolge gespeichert.",
+                "no_items": "Es wurden noch keine Navigationselemente erkannt. Besuche zunächst die Startseite des Forums als Administrator, um diese Liste zu füllen.",
+                "move_up": "Nach oben",
+                "icon_input_title": "Benutzerdefinierte Font Awesome-Symbolklasse (z. B. fas fa-bolt). Leer lassen, um die Standardklasse zu verwenden.",
+                "highlight_color_label": "Hervorhebungsfarbe",
+                "highlight_color_help": "Hintergrundfarbe für hervorgehobene Navigationselemente. Lasse das Feld leer, um die Standardfarbe des Themes zu verwenden.",
+                "remove_item": "Von Liste entfernen",
                 "add_custom_link": "",
                 "custom_link_label": "",
                 "polls_note": "",
-                "add_highlight": "",
-                "remove_highlight": "",
-                "move_down": "",
-                "flip_label": "",
-                "flip_help": "",
-                "sticky_label": "",
-                "sticky_help": ""
+                "add_highlight": "Dieses Element für Benutzer hervorheben",
+                "remove_highlight": "Hervorhebung entfernen",
+                "move_down": "Nach unten",
+                "flip_label": "Navigation umkehren (Themen oberhalb der Menüpunkte anzeigen)",
+                "flip_help": "Wenn aktiviert, werden die Themen-Links oben in der Seitenleiste angezeigt und die Navigationselemente (Alle Diskussionen, Abonnierte usw.) erscheinen darunter.",
+                "sticky_label": "Feste Seitenleiste (die Seitenleiste bleibt beim Scrollen sichtbar)",
+                "sticky_help": "Wenn aktiviert, bleibt die Seitenleiste einschließlich der Schaltfläche „Diskussion starten“ beim Herunterscrollen oben im Ansichtsbereich fixiert."
             }
         }
     }

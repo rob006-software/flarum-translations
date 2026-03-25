@@ -2,26 +2,26 @@
     "resofire-menu-control": {
         "admin": {
             "nav_order": {
-                "title": "",
-                "description": "",
-                "save_button": "",
-                "save_success": "",
-                "no_items": "",
-                "move_up": "",
-                "icon_input_title": "",
-                "highlight_color_label": "",
-                "highlight_color_help": "",
-                "remove_item": "",
-                "add_custom_link": "",
-                "custom_link_label": "",
-                "polls_note": "",
-                "add_highlight": "",
-                "remove_highlight": "",
-                "move_down": "",
-                "flip_label": "",
-                "flip_help": "",
-                "sticky_label": "",
-                "sticky_help": ""
+                "title": "Menü Öğesi Sırası",
+                "description": "Forum ana sayfasındaki kenar çubuğu gezinme öğelerinin sırasını değiştirmek için ok düğmelerini kullanın. Değişiklikler kaydedildikten hemen sonra geçerli olur.",
+                "save_button": "Sırayı Kaydet",
+                "save_success": "Navigasyon sırası kaydedildi.",
+                "no_items": "Henüz herhangi bir navigasyon öğesi bulunamadı. Bu listeyi doldurmak için önce yönetici olarak forum ana sayfasına gidin.",
+                "move_up": "Yukarı taşı",
+                "icon_input_title": "Özel Font Awesome simge sınıfı (örn. fas fa-bolt). Varsayılanı kullanmak için boş bırakın.",
+                "highlight_color_label": "Vurgulama rengi",
+                "highlight_color_help": "Vurgulanan gezinme öğeleri için arka plan rengi. Varsayılan tema rengini kullanmak için bu alanı boş bırakın.",
+                "remove_item": "Listeden çıkar",
+                "add_custom_link": "Özel Bağlantı Ekle",
+                "custom_link_label": "Bağlantı etiketi",
+                "polls_note": "Not: fof/polls kuruluysa, genel anketler devre dışı bırakılmış olsa bile fof-polls-showcase ve benzeri öğeler bu listede görünebilir. Bunları kalıcı olarak silmek için × düğmesini kullanın.",
+                "add_highlight": "Kullanıcılar için bu öğeyi öne çıkarın",
+                "remove_highlight": "Vurgulamayı kaldır",
+                "move_down": "Aşağı taşı",
+                "flip_label": "Navigasyon düzenini ters çevir (etiketleri menü öğelerinin üstünde göster)",
+                "flip_help": "Bu özellik etkinleştirildiğinde, etiket bağlantıları kenar çubuğunun üst kısmında görünür ve navigasyon öğeleri (Tüm Tartışmalar, Takip Edilenler vb.) bunların altında yer alır.",
+                "sticky_label": "Sabit kenar çubuğu (kaydırma sırasında kenar çubuğu görünür kalır)",
+                "sticky_help": "Etkinleştirildiğinde, “Tartışma Başlat” düğmesini içeren kenar çubuğu, aşağı kaydırdığınızda görüntü alanının üst kısmında sabit kalır."
             }
         }
     }
