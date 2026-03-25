@@ -5,13 +5,13 @@
                 "canonical-urls": "Использовать канонические URL",
                 "plain-copy": "Показать простую копию URL",
                 "default-option": "Способ поделиться по умолчанию",
-                "default-option-help": ""
+                "default-option-help": "При выборе варианта по умолчанию модальное окно заменяется кнопкой с выпадающим списком.\nЕсли выбрано «Поделиться через меню устройства», оно будет показано только при поддержке браузером, иначе отобразится исходное модальное окно.\n"
             }
         },
         "forum": {
             "discussion": {
                 "share_button": "Поделиться",
-                "share_dropdown_accessible_label": ""
+                "share_dropdown_accessible_label": "Переключить меню «Поделиться» для дискуссии"
             },
             "modal": {
                 "title": "Поделиться",
@@ -21,7 +21,7 @@
         "lib": {
             "networks": {
                 "facebook": "Facebook",
-                "twitter": "Twitter",
+                "twitter": "X — бывший Twitter",
                 "linkedin": "LinkedIn",
                 "reddit": "Reddit",
                 "whatsapp": "WhatsApp",
@@ -31,7 +31,7 @@
                 "my_mail": "Мой мир",
                 "qq": "QQ",
                 "qzone": "QZone",
-                "native": "Поделиться оригиналом"
+                "native": "Поделиться через меню устройства"
             }
         }
     }
