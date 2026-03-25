@@ -33,7 +33,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/main/datitisev-backup.yml',
 	],
 	'datlechin-bbcode-hide-content' => [
-		'beta' => 'https://raw.githubusercontent.com/datlechin/flarum-bbcode-hide-content/v2.0.0-beta.1/locale/en.yml',
+		'beta' => 'https://raw.githubusercontent.com/datlechin/flarum-bbcode-hide-content/v2.0.0-beta.2/locale/en.yml',
 	],
 	'datlechin-birthdays' => [
 		'beta' => 'https://raw.githubusercontent.com/datlechin/flarum-birthdays/v3.0.0-beta.1/locale/en.yml',
