@@ -252,10 +252,4 @@
 
 ## Dead branches
 
-| Extension | Pull request |
-| --- | --- |
-| `framiodev-direct-chat` | [![#1564 (open)](https://img.shields.io/badge/PR-%231564-brightgreen)](https://github.com/rob006-software/flarum-translations/pull/1564) |
-| `framiodev-pusher-hub` | [![#1567 (open)](https://img.shields.io/badge/PR-%231567-brightgreen)](https://github.com/rob006-software/flarum-translations/pull/1567) |
-| `resofire-dicebear-avatars` | [![#1538 (open)](https://img.shields.io/badge/PR-%231538-brightgreen)](https://github.com/rob006-software/flarum-translations/pull/1538) |
-| `resofire-mini-blog` | [![#1539 (open)](https://img.shields.io/badge/PR-%231539-brightgreen)](https://github.com/rob006-software/flarum-translations/pull/1539) |
-| `resofire-miniblog` | [![#1537 (open)](https://img.shields.io/badge/PR-%231537-brightgreen)](https://github.com/rob006-software/flarum-translations/pull/1537) |
+There are no dead branches.
