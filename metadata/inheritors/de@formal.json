@@ -4046,9 +4046,24 @@
                 "settings": {
                     "providers": {
                         "spotify": {
+                            "client_id_label": "eeb1efbd26704027efcf2f69b4db01db eeb1efbd26704027efcf2f69b4db01db",
+                            "client_secret_label": "9df5edb40f1affbb1dc0eb646ab7a4fa 9df5edb40f1affbb1dc0eb646ab7a4fa",
                             "description": "5b9bc07d630209c98e4d577beaabeb89 5b9bc07d630209c98e4d577beaabeb89"
                         }
                     }
+                }
+            },
+            "forum": {
+                "log_in": {
+                    "with_spotify_button": "625db5950e116b42b8d60e995c02ab39 625db5950e116b42b8d60e995c02ab39"
+                },
+                "providers": {
+                    "spotify": "48c0b6e556509ef0cb0e0a04d8eb90f1 48c0b6e556509ef0cb0e0a04d8eb90f1"
+                }
+            },
+            "lib": {
+                "providers": {
+                    "spotify": "fd539ca17a17132049c4fef4619df638 fd539ca17a17132049c4fef4619df638"
                 }
             }
         }
@@ -16004,6 +16019,34 @@
                     "maximize": "cb696c314b1929a73e6cc77ffecb4aa7 cb696c314b1929a73e6cc77ffecb4aa7",
                     "minimize": "c7fe6ea3dde96840fbbf2d9081c31964 c7fe6ea3dde96840fbbf2d9081c31964",
                     "title": "55dcdf017b51fc96f7b5f9d63013b95d 55dcdf017b51fc96f7b5f9d63013b95d"
+                }
+            }
+        }
+    },
+    "xrh0905-oauth-microsoft.json": {
+        "fof-oauth": {
+            "admin": {
+                "settings": {
+                    "providers": {
+                        "microsoft": {
+                            "client_id_label": "d47707256e40ecc534633dfeebd1259c d47707256e40ecc534633dfeebd1259c",
+                            "client_secret_label": "e99fee4473832f9c0d1990563fcf0bc1 e99fee4473832f9c0d1990563fcf0bc1",
+                            "description": "56273ab9a8a0ffba186af3c1ddba0c18 56273ab9a8a0ffba186af3c1ddba0c18"
+                        }
+                    }
+                }
+            },
+            "forum": {
+                "log_in": {
+                    "with_microsoft_button": "625db5950e116b42b8d60e995c02ab39 625db5950e116b42b8d60e995c02ab39"
+                },
+                "providers": {
+                    "microsoft": "e11d20b13f2526c98c756bef1cb6f277 e11d20b13f2526c98c756bef1cb6f277"
+                }
+            },
+            "lib": {
+                "providers": {
+                    "microsoft": "140864078aeca1c7c35b4beb33c53c34 140864078aeca1c7c35b4beb33c53c34"
                 }
             }
         }
