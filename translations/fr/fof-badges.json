@@ -67,7 +67,7 @@
                 "default": "Par défaut",
                 "no_revoke_label": "Ne pas révoquer les badges existants",
                 "no_revoke_help": "Si cette option est activée, les utilisateurs qui ne remplissent plus les critères conserveront leurs badges.",
-                "reapply_actions_label": "",
+                "reapply_actions_label": "Réappliquer les actions aux détenteurs de badges existants",
                 "reapply_actions_help": "Si cette option est activée, les actions liées au badge (comme l'ajout à un groupe) seront réappliquées aux utilisateurs qui possèdent déjà ce badge. Cela s'avère utile lorsque vous ajoutez de nouvelles actions à un badge existant.",
                 "total_users": "Nombre total d'utilisateurs",
                 "estimated_chunks": "Blocs estimés",
@@ -78,7 +78,7 @@
                 "jobs_empty": "Aucune tâche de recalcul pour le moment.",
                 "show_more": "Afficher {count} en plus",
                 "sync_counts_title": "Synchroniser le nombre de badges",
-                "sync_counts_info": "",
+                "sync_counts_info": "Recalculer le « nombre d'obtentions » de chaque badge en fonction des enregistrements user_badges réels. Utilisez cette fonction si les chiffres sont erronés après le recalcul.",
                 "sync_counts": "Synchroniser le nombre de badges",
                 "sync_counts_success": "Le nombre de badges a été synchronisé ! {corrected} des {total} badges ont été corrigés.",
                 "sync_counts_error": "Échec de la synchronisation du nombre de badges."
@@ -87,7 +87,7 @@
                 "button": "Tâches",
                 "title": "Tâches de recalcul",
                 "empty": "Aucune tâche de recalcul n'a été trouvée.",
-                "stuck": "",
+                "stuck": "Bloqué",
                 "users": "{processed} / {total} évaluations",
                 "results": "",
                 "cancel": "Annuler",
@@ -323,8 +323,8 @@
             "rarity_legendary": "Légendaire",
             "rarity_epic": "Épique",
             "rarity_rare": "Rare",
-            "rarity_uncommon": "",
-            "rarity_common": "",
+            "rarity_uncommon": "Peu commun",
+            "rarity_common": "Commun",
             "rarity_explain": "{percent}% des utilisateurs possèdent ce badge"
         }
     }
