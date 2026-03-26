@@ -1541,7 +1541,7 @@ return [
 	'quasimo-carousel-grids' => [
 		'tag' => 'https://raw.githubusercontent.com/Quasimo/flarum-ext-carousel-grids/v1.0.0/resources/locale/en.yml',
 		'__builtInLanguages' => [
-			'zh-CN',
+			'zh_Hans',
 		],
 	],
 	'quasimo-llms-txt' => [
