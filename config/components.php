@@ -1538,6 +1538,12 @@ return [
 	'peruguitar-user-portrait' => [
 		'tag' => 'https://raw.githubusercontent.com/Anexsoft/peruguitar-flarum-ext-user-portrait/1.0.4/locale/en.yml',
 	],
+	'quasimo-carousel-grids' => [
+		'tag' => 'https://raw.githubusercontent.com/Quasimo/flarum-ext-carousel-grids/v1.0.0/resources/locale/en.yml',
+		'__builtInLanguages' => [
+			'zh_Hans',
+		],
+	],
 	'quasimo-llms-txt' => [
 		'tag' => 'https://raw.githubusercontent.com/Quasimo/flarum-ext-llms-txt/v1.0.4/resources/locale/en.yml',
 	],
