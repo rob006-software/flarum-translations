@@ -211,7 +211,7 @@
                 "downvotes_received": "Votes négatifs reçus",
                 "downvotes_given": "Votes négatifs distribués"
             },
-            "actions": "",
+            "actions": "Actions sur le badge obtenu",
             "send_notification": "Envoyer une notification à l'utilisateur",
             "add_to_group": "Ajouter l'utilisateur à ce groupe",
             "add_to_group_help": "Ajouter automatiquement l'utilisateur à ce groupe lorsqu'il obtient le badge.",
@@ -287,8 +287,8 @@
                 "hide_badge": "Masquer dans le profil",
                 "favorite_badge": "Badge préféré",
                 "hidden_badge": "Masqué dans le profil",
-                "revoke_badge": "",
-                "revoke_confirm": "Êtes-vous sûr de vouloir révoquer ce « {badge} » à cet utilisateur ?",
+                "revoke_badge": "Révoquer un badge",
+                "revoke_confirm": "Êtes-vous sûr de vouloir révoquer le « {badge} » à cet utilisateur ?",
                 "badge_revoked": "Le badge « {badge} » a été révoqué.",
                 "revoke_error": "Échec de la révocation du badge.",
                 "assign_badge": "Attribuer un badge",
@@ -309,7 +309,7 @@
                     "manual": "manuel",
                     "no_revoke_label": "Ne pas révoquer les badges existants",
                     "no_revoke_help": "Si cette option est activée, l'utilisateur conservera ses badges même s'il ne remplit plus les critères requis.",
-                    "reapply_actions_label": "",
+                    "reapply_actions_label": "Réappliquer les actions aux badges existants",
                     "reapply_actions_help": "",
                     "submit": "Recalculer"
                 }
