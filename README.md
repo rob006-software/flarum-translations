@@ -926,6 +926,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`import-ai-webhook-notification`](https://weblate.rob006.net/projects/flarum2/import-ai-webhook-notification) | [`import-ai/flarum-webhook-notification`](https://github.com/import-ai/flarum-webhook-notification) |
 | [`justoverclock-welcomebox`](https://weblate.rob006.net/projects/flarum2/justoverclock-welcomebox) | [`justoverclock/flarum-ext-welcomebox`](https://github.com/justoverclockl/flarum-ext-welcomebox) |
 | [`migratetoflarum-fake-data`](https://weblate.rob006.net/projects/flarum2/migratetoflarum-fake-data) | [`migratetoflarum/fake-data`](https://github.com/migratetoflarum/fake-data) |
+| [`ralkage-ad-management`](https://weblate.rob006.net/projects/flarum2/ralkage-ad-management) | [`ralkage/flarum-ext-ad-management`](https://github.com/Ralkage/flarum-ext-ad-management) |
 | [`ralkage-cap-captcha`](https://weblate.rob006.net/projects/flarum2/ralkage-cap-captcha) | [`ralkage/flarum-ext-cap-captcha`](https://github.com/Ralkage/flarum-ext-cap-captcha) |
 | [`ralkage-civility-filter`](https://weblate.rob006.net/projects/flarum2/ralkage-civility-filter) | [`ralkage/flarum-ext-civility-filter`](https://github.com/Ralkage/flarum-ext-civility-filter) |
 | [`ralkage-linked-accounts`](https://weblate.rob006.net/projects/flarum2/ralkage-linked-accounts) | [`ralkage/flarum-ext-linked-accounts`](https://github.com/Ralkage/flarum-ext-linked-accounts) |
