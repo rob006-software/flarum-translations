@@ -345,7 +345,7 @@
                 "title": "请稍后……"
             },
             "models": {
-                "discussions": "",
+                "discussions": "=> core.ref.discussions",
                 "posts": "",
                 "users": ""
             },
@@ -463,7 +463,7 @@
                             "title": "操作",
                             "edit_user": {
                                 "button": "",
-                                "tooltip": ""
+                                "tooltip": "编辑 {username}"
                             }
                         },
                         "user_id": {
@@ -864,12 +864,12 @@
                 "mega_text": "百万"
             },
             "pagination": {
-                "back_button": "",
-                "first_button": "",
-                "go_to_page_textbox_a11y_label": "",
-                "last_button": "",
-                "next_button": "",
-                "page_counter": ""
+                "back_button": "上一页",
+                "first_button": "返回首页",
+                "go_to_page_textbox_a11y_label": "翻页到页码",
+                "last_button": "前往最后一页",
+                "next_button": "下一页",
+                "page_counter": "第 {current} 页 / 共 {total} 页"
             },
             "search": {
                 "gambit_plus_button_a11y_label": "",
@@ -880,11 +880,11 @@
                 "options_heading": "",
                 "placeholder": "",
                 "preview_heading": "",
-                "search_clear_button_accessible_label": ""
+                "search_clear_button_accessible_label": "清空搜索"
             },
             "search_source": {
                 "discussions": {
-                    "all_button": "",
+                    "all_button": "搜索“{query}”",
                     "heading": ""
                 },
                 "posts": {
@@ -1056,7 +1056,7 @@
             "custom_header_text": "添加显示于页面顶部、位于 Flarum 默认页眉上方的 HTML 代码。",
             "custom_header_title": "编辑自定义页眉",
             "dark_hc_mode_label": "",
-            "dark_mode_label": "",
+            "dark_mode_label": "夜间模式",
             "delete": "删除",
             "delete_forever": "永久删除",
             "discussions": "主题",
@@ -1067,7 +1067,7 @@
             "generic_confirmation_message": "此操作无法撤销，确定要继续吗？",
             "icon": "图标",
             "icon_text": "输入任意一个 <a>Font Awesome</a> 图标名称。<em>包括</em>前缀，例如 <code>fas fa-</code>",
-            "invalid_login_message": "",
+            "invalid_login_message": "登录信息有误",
             "light_hc_mode_label": "",
             "light_mode_label": "",
             "load_more": "加载更多",
@@ -1077,20 +1077,20 @@
             "mark_all_as_read": "全部已读",
             "never": "无",
             "new_token": "创建令牌",
-            "newest": "",
+            "newest": "新鲜出炉",
             "next_page": "下一页",
             "notifications": "通知中心",
             "okay": "确定",
-            "oldest": "",
+            "oldest": "陈年旧贴",
             "password": "密码",
             "posts": "回复",
             "previous_page": "上一页",
-            "relevance": "",
-            "remember_me_label": "",
+            "relevance": "相关推荐",
+            "remember_me_label": "记住我的登录状态",
             "remove": "移除",
             "rename": "重命名",
             "reply": "回复",
-            "refresh": "",
+            "refresh": "刷新",
             "reset_your_password": "重置密码",
             "restore": "还原",
             "save_changes": "保存",
@@ -1101,7 +1101,7 @@
             "some_others": "{count, plural, one {# 人} other {# 人}}",
             "start_a_discussion": "发布主题",
             "username": "用户名",
-            "username_or_email_placeholder": "",
+            "username_or_email_placeholder": "用户名或邮箱",
             "users": "用户",
             "view": "查看",
             "write_a_reply": "说点什么吧...",
