@@ -1,0 +1,207 @@
+{
+    "ralkage-ad-management": {
+        "admin": {
+            "nav": {
+                "title": "Ad Management"
+            },
+            "tabs": {
+                "ads": "Advertisements",
+                "zones": "Ad Zones",
+                "settings": "Settings",
+                "analytics": "Analytics"
+            },
+            "settings": {
+                "between_posts_interval": "Posts Between Ads",
+                "between_posts_interval_help": "Show an ad after every N posts in discussions. Set to 0 to disable.",
+                "default_max_image_changes": "Default Max Image Changes",
+                "default_max_image_changes_help": "Maximum number of times an ad owner can change their ad image. Set to 0 for unlimited.",
+                "track_impressions": "Track Impressions",
+                "track_impressions_help": "Count how many times each ad is displayed.",
+                "track_clicks": "Track Clicks",
+                "track_clicks_help": "Track when users click on ads.",
+                "hide_ads_for_groups": "Hide Ads for Groups",
+                "hide_ads_for_groups_help": "Comma-separated group IDs that should not see any ads (e.g., premium subscribers).",
+                "adsense_publisher_id": "Google AdSense Publisher ID",
+                "adsense_publisher_id_help": "Your AdSense publisher ID (e.g., ca-pub-1234567890).",
+                "allowed_image_formats": "Allowed Image Formats",
+                "allowed_image_formats_help": "Comma-separated list of allowed image file extensions (e.g., jpg,jpeg,png,webp,gif).",
+                "enable_compression": "Enable Image Compression",
+                "enable_compression_help": "Automatically compress uploaded ad images to reduce file size.",
+                "compression_quality": "Compression Quality",
+                "compression_quality_help": "Image quality after compression (1-100). Lower values = smaller files. Recommended: 80-90.",
+                "compression_method": "Compression Method",
+                "compression_method_help": "PHP GD is built-in. reSmush.it uses an external API for lossless optimization (requires curl).",
+                "require_image_approval": "Require Approval for Image Changes",
+                "require_image_approval_help": "When enabled, image changes submitted by ad owners will be queued for admin review before going live.",
+                "expiration_reminder_days": "Expiration Reminder (Days)",
+                "expiration_reminder_days_help": "Send email reminders to ad owners this many days before their ad expires. Set to 0 to disable.",
+                "send_performance_reports": "Send Performance Reports",
+                "send_performance_reports_help": "Include performance summaries (impressions, clicks, CTR) when sending notification emails.",
+                "notifications_info": "To send notifications, add a cron job: php flarum ad-management:send-notifications",
+                "image_settings_title": "Image Settings",
+                "notifications_title": "Email Notifications",
+                "expiration_templates_title": "Expiration Email Templates",
+                "templates_placeholders_expiry": "Available placeholders: {forum_title}, {forum_url}, {owner_name}, {owner_username}, {ad_name}, {days_left}, {expiry_date}, {impressions}, {clicks}. Leave blank to use the default template.",
+                "expiration_subject_template": "Subject Template",
+                "expiration_body_template": "Body Template",
+                "performance_templates_title": "Performance Report Templates",
+                "templates_placeholders_performance": "Available placeholders: {forum_title}, {forum_url}, {owner_name}, {owner_username}, {ad_count}, {total_impressions}, {total_clicks}, {ctr}, {ad_lines}. Leave blank to use the default template.",
+                "performance_subject_template": "Subject Template",
+                "performance_body_template": "Body Template"
+            },
+            "cancel": "Cancel",
+            "save": "Save",
+            "permissions": {
+                "submit_ad": "Submit Advertisements"
+            },
+            "zones": {
+                "title": "Ad Zones",
+                "create": "Create Zone",
+                "edit": "Edit Zone",
+                "name": "Zone Name",
+                "name_help": "Unique identifier (lowercase, no spaces). Used in zone tags.",
+                "label": "Display Label",
+                "description": "Description",
+                "position": "Position",
+                "is_active": "Active",
+                "sort_order": "Sort Order",
+                "max_width": "Max Width (px)",
+                "max_height": "Max Height (px)",
+                "default_badge": "Default",
+                "ads_count": "Ads",
+                "dimensions": "Dimensions",
+                "confirm_delete": "Are you sure you want to delete this zone? All ads in this zone will also be deleted.",
+                "zone_tag": "Zone Tag: {tag}",
+                "shortcode_title": "Post Shortcode:",
+                "shortcode_help": "Paste this tag in any post or discussion to display ads from a specific zone inline.",
+                "positions": {
+                    "header": "Header",
+                    "below_header": "Below Header",
+                    "between_posts": "Between Posts",
+                    "sidebar": "Sidebar",
+                    "above_footer": "Above Footer",
+                    "footer": "Footer",
+                    "custom": "Custom"
+                }
+            },
+            "ads": {
+                "title": "Advertisements",
+                "create": "Create Ad",
+                "edit": "Edit Ad",
+                "name": "Ad Name",
+                "type": "Ad Type",
+                "zone": "Zone",
+                "select_zone": "Select a zone...",
+                "content": "HTML/JS Content",
+                "content_help": "For HTML and AdSense ad types. Paste your ad code here.",
+                "image_url": "Image URL",
+                "link_url": "Link URL",
+                "alt_text": "Alt Text",
+                "width": "Width (px)",
+                "height": "Height (px)",
+                "is_active": "Active",
+                "start_date": "Start Date",
+                "end_date": "End Date",
+                "priority": "Priority",
+                "priority_help": "Higher priority ads are shown first. Default is 0.",
+                "group_visibility": "Group Visibility",
+                "group_visibility_help": "Comma-separated group IDs. Leave empty to show to all groups.",
+                "max_impressions": "Max Impressions",
+                "max_impressions_help": "Ad will be deactivated after this many views. Leave empty for unlimited.",
+                "max_clicks": "Max Clicks",
+                "max_clicks_help": "Ad will be deactivated after this many clicks. Leave empty for unlimited.",
+                "max_image_changes": "Max Image Changes",
+                "owner": "Ad Owner",
+                "owner_help": "Username of the ad owner. Leave empty for no owner.",
+                "empty": "No advertisements found.",
+                "confirm_delete": "Are you sure you want to delete this ad?",
+                "status": "Status",
+                "pending_badge": "Pending ({count})",
+                "approve": "Approve",
+                "reject": "Reject",
+                "approve_image": "Approve Image Change",
+                "reject_image": "Reject Image Change",
+                "pending_image_badge": "Image Pending",
+                "statuses": {
+                    "active": "Active",
+                    "inactive": "Inactive",
+                    "pending_review": "Pending Review",
+                    "rejected": "Rejected"
+                },
+                "filter": {
+                    "all": "All",
+                    "active": "Active",
+                    "pending_review": "Pending Review",
+                    "inactive": "Inactive",
+                    "rejected": "Rejected"
+                },
+                "types": {
+                    "image": "Image",
+                    "html": "HTML",
+                    "adsense": "Google AdSense"
+                },
+                "stats": {
+                    "impressions": "Impressions",
+                    "clicks": "Clicks",
+                    "ctr": "CTR"
+                }
+            },
+            "analytics": {
+                "title": "Analytics",
+                "select_ad": "Select an advertisement...",
+                "period": "Period",
+                "periods": {
+                    "7d": "Last 7 Days",
+                    "30d": "Last 30 Days",
+                    "90d": "Last 90 Days"
+                },
+                "total_impressions": "Total Impressions (All Time)",
+                "total_clicks": "Total Clicks (All Time)",
+                "period_clicks": "Clicks (Period)",
+                "ctr": "Click-Through Rate",
+                "clicks_by_day": "Clicks by Day",
+                "date": "Date",
+                "clicks_header": "Clicks",
+                "no_data": "No analytics data available for this period."
+            }
+        },
+        "forum": {
+            "nav": {
+                "my_ads": "My Ads"
+            },
+            "ads": {
+                "name": "Ad Name",
+                "zone": "Zone",
+                "select_zone": "Select a zone...",
+                "image_url": "Image URL",
+                "link_url": "Link URL",
+                "alt_text": "Alt Text"
+            },
+            "page": {
+                "title": "My Advertisements",
+                "empty": "You don't have any advertisements yet.",
+                "stats": "Stats",
+                "impressions": "{count} impressions",
+                "clicks": "{count} clicks",
+                "ctr": "{value}% CTR",
+                "edit_image": "Change Image",
+                "image_changes_remaining": "{count} image changes remaining",
+                "no_changes_remaining": "No image changes remaining",
+                "submit_ad": "Submit Ad",
+                "submit_pending_notice": "Your ad will be reviewed by an administrator before going live.",
+                "cancel": "Cancel",
+                "status": {
+                    "active": "Active",
+                    "inactive": "Inactive",
+                    "scheduled": "Scheduled",
+                    "expired": "Expired",
+                    "pending": "Pending Review",
+                    "rejected": "Rejected"
+                }
+            },
+            "ad": {
+                "sponsored": "Sponsored"
+            }
+        }
+    }
+}
