@@ -1547,6 +1547,9 @@ return [
 			'zh_Hans',
 		],
 	],
+	'ralkage-ad-management' => [
+		'tag' => 'https://raw.githubusercontent.com/Ralkage/flarum-ext-ad-management/1.0.3/locale/en.yml',
+	],
 	'ralkage-cap-captcha' => [
 		'tag' => 'https://raw.githubusercontent.com/Ralkage/flarum-ext-cap-captcha/1.0.1/locale/en.yml',
 	],
