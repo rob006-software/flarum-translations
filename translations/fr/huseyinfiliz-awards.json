@@ -15,10 +15,10 @@
             },
             "awards": {
                 "title": "Gérer les récompenses",
-                "create": "Créer un prix",
-                "create_title": "Créer un nouveau prix",
-                "edit_title": "Modifier le prix",
-                "name": "Nom du prix",
+                "create": "Créer une distinction",
+                "create_title": "Créer une nouvelle distinction",
+                "edit_title": "Modifier la distinction",
+                "name": "Nom de la distinction",
                 "year": "Année",
                 "starts_at": "Début du vote",
                 "ends_at": "Fin du vote",
@@ -33,7 +33,7 @@
                 "image_url_help": "Image de couverture affichée dans le bandeau. Transférer ou coller un lien.",
                 "categories": "Catégories",
                 "publish": "Publier les résultats",
-                "delete_confirm": "Êtes-vous sûr de vouloir supprimer ce prix ?",
+                "delete_confirm": "Êtes-vous sûr de vouloir supprimer cette distinction ?",
                 "publish_confirm": "Êtes-vous sûr de vouloir publier les résultats ? Tous les votants en seront informés.",
                 "empty": "Aucun prix créé pour le moment."
             },
@@ -42,7 +42,7 @@
                 "create": "Créer une catégorie",
                 "create_title": "Créer une nouvelle catégorie",
                 "edit_title": "Modifier la catégorie",
-                "select_award": "Sélectionner un prix",
+                "select_award": "Sélectionner une distinction",
                 "name": "Nom de la catégorie",
                 "nominees": "Nominés",
                 "allow_other": "Autoriser les suggestions des utilisateurs",
@@ -123,7 +123,7 @@
                 "voting_ended": "Vote terminé {time}",
                 "voting_starts": "Début du vote {time}",
                 "results_published": "Résultats publiés",
-                "select_award": "Sélectionner un prix",
+                "select_award": "Sélectionner une distinction",
                 "previous_awards": "Récompenses de l'année précédente"
             },
             "voting": {
@@ -209,7 +209,7 @@
             "empty": {
                 "no_awards": "Aucune récompense active",
                 "no_awards_description": "Il n'y a aucun prix disponible actuellement. Revenez plus tard !",
-                "no_categories": "Aucune catégorie dans ce prix pour le moment.",
+                "no_categories": "Aucune catégorie dans cette distinction pour le moment.",
                 "no_nominees": "Aucun nominé dans cette catégorie pour le moment."
             },
             "notification": {
@@ -222,7 +222,7 @@
                 "vote_limit_reached": "Vous ne pouvez voter que pour {limit} nominés dans cette catégorie.",
                 "vote_quota_exhausted": "Vous avez utilisé tous vos votes/suggestions disponibles pour cette catégorie.",
                 "cannot_delete_processed_suggestion": "Seules les suggestions en attente peuvent être annulées.",
-                "not_available": "Ce prix n'est pas encore disponible."
+                "not_available": "Cette distinction n'est pas encore disponible."
             }
         },
         "lib": {
