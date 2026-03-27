@@ -372,6 +372,9 @@ return [
 			'pt_BR',
 		],
 	],
+	'resofire-avatars' => [
+		'tag' => 'https://raw.githubusercontent.com/ResofireV2/avatars/v2.0.1/resources/locale/en.yml',
+	],
 	'resofire-blog-cards' => [
 		'tag' => 'https://raw.githubusercontent.com/ResofireV2/blog-cards/v2.0.4/locale/en.yml',
 	],
