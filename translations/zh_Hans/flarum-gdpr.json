@@ -21,21 +21,21 @@
                 "user_table_data": {
                     "title": "用户表数据",
                     "help_text": "多数情况下，我们会自动处理导出和抹除时的 <code>用户</code>表数据。\n然而，会存在一些特殊情况，如下。\n",
-                    "column": "",
-                    "type": "",
-                    "nullable": "",
-                    "pii": "",
-                    "redacted_on_export": "",
-                    "extension": "",
-                    "yes": "",
-                    "no": "",
-                    "pii_tooltip": "",
-                    "redacted_on_export_tooltip": ""
+                    "column": "列",
+                    "type": "类型",
+                    "nullable": "可为空",
+                    "pii": "个人可识别信息 (PII)",
+                    "redacted_on_export": "导出时脱敏",
+                    "extension": "扩展",
+                    "yes": "是",
+                    "no": "否",
+                    "pii_tooltip": "此列被视为个人可识别信息，并将在匿名上下文（例如匿名的事件负载）中进行脱敏处理。",
+                    "redacted_on_export_tooltip": "生成用户数据导出时，此列的值将被置空（设置为 null）。该列仍会以 null 值的形式出现在导出文件中。"
                 }
             },
             "nav": {
                 "gdpr_button": "GDP 集成",
-                "gdpr_title": ""
+                "gdpr_title": "=> flarum-gdpr.admin.gdpr_page.description"
             },
             "permissions": {
                 "process_erasure": "处理账号抹除请求",
@@ -64,8 +64,8 @@
                 "columns": {
                     "user_actions": {
                         "data_export": {
-                            "button": "",
-                            "tooltip": ""
+                            "button": "导出",
+                            "tooltip": "导出 {username} 的数据"
                         }
                     }
                 }
@@ -83,7 +83,7 @@
                 "forum": {
                     "export_description": "导出论坛名称、URL、用户名、邮箱和当前日期。"
                 },
-                "default_user_action": "",
+                "default_user_action": "无操作，由默认用户表数据处理。",
                 "no_action": "不采取操作。",
                 "posts": {
                     "anonymize_description": "删除用户发布的所有帖子中的 IP 地址信息。",
@@ -109,25 +109,25 @@
         "email": {
             "confirm_erasure": {
                 "subject": "确认抹除你的账号",
-                "body": ""
+                "body": "有人（希望是您本人）刚刚请求注销账号 `{display_name}`。\n\n如需确认此操作，请点击以下链接，之后我们的团队将处理您的请求。\n\n{erasure_confirm_url}\n"
             },
             "erasure_completed": {
                 "deletion": {
                     "subject": "帐号已删除",
-                    "body": ""
+                    "body": "这是关于您的账号已删除的自动最终通知。\n"
                 },
                 "anonymization": {
                     "subject": "帐号匿名化已完成",
-                    "body": ""
+                    "body": "这是关于您的账号已匿名化的自动最终通知。\n"
                 }
             },
             "erasure_cancelled": {
                 "subject": "帐号抹除请求已取消",
-                "body": ""
+                "body": "这是关于您取消账号删除请求已处理的自动通知。\n\n您的账号将不再被删除。\n"
             },
             "export_available": {
                 "subject": "数据导出已就绪",
-                "body": ""
+                "body": "您请求导出 {username} 的账号数据。该导出文件已成功生成，现在可以下载：\n\n{url}\n\n此导出文件将保留至 {destroys_at}。\n"
             }
         },
         "forum": {
@@ -163,9 +163,9 @@
                 "comments_label": "回复（可选）",
                 "anonymization_button": "匿名化用户",
                 "deletion_button": "删除用户",
-                "requested_at": "",
-                "confirmed_at": "",
-                "eligible_at": ""
+                "requested_at": "请求时间：{date}",
+                "confirmed_at": "确认时间：{date}",
+                "eligible_at": "符合自动处理条件：{date}"
             },
             "request_erasure": {
                 "title": "申请抹除账号",
