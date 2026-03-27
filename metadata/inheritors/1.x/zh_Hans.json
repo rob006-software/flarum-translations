@@ -1255,7 +1255,7 @@
         "flarum-bbcode": {
             "forum": {
                 "quote": {
-                    "wrote": "dec8928f8c698032440ce2ecbca10247 dec8928f8c698032440ce2ecbca10247"
+                    "wrote": "dec8928f8c698032440ce2ecbca10247 ddc9d3d10db69cba331ae2403776ee36"
                 }
             }
         }
@@ -1301,7 +1301,7 @@
                 },
                 "composer": {
                     "add_repository_label": "7135236ddc466288d529355dffd4e3e2 7135236ddc466288d529355dffd4e3e2",
-                    "delete_repository_confirmation": "f06eae00a45ee00c85b831c49586cb48 f06eae00a45ee00c85b831c49586cb48",
+                    "delete_repository_confirmation": "f06eae00a45ee00c85b831c49586cb48 b69e3bb90a600430eb0e81ab9a787a66",
                     "delete_repository_label": "fc1ba0e06e8c5d37ce2c65a0f2d83ca4 fc1ba0e06e8c5d37ce2c65a0f2d83ca4",
                     "edit_repository_label": "ed39deafd816b199b455d90a1b09f07d ed39deafd816b199b455d90a1b09f07d",
                     "minimum_stability": {
@@ -1326,7 +1326,7 @@
                         "label": "c270fc6fc944a6686d996ab313a4fe7f c270fc6fc944a6686d996ab313a4fe7f",
                         "types": {
                             "composer": "180b81a58ca6dde990aba761b7299f43 180b81a58ca6dde990aba761b7299f43",
-                            "path": "d6fe1d0be6347b8ef2427fa629c04485 d6fe1d0be6347b8ef2427fa629c04485",
+                            "path": "d6fe1d0be6347b8ef2427fa629c04485 4f35e80da65927f09dd314de120fe5f9",
                             "vcs": "d6bfe3ce1bf5714887f4ffbb7b94feab d6bfe3ce1bf5714887f4ffbb7b94feab"
                         }
                     },
@@ -1344,7 +1344,7 @@
                     }
                 },
                 "extensions": {
-                    "check_why_it_failed_updating": "3511258be65bfd784b1dc0b383eb63a9 3511258be65bfd784b1dc0b383eb63a9",
+                    "check_why_it_failed_updating": "3511258be65bfd784b1dc0b383eb63a9 ef8fc71b9606585774988ec2ee3e55d3",
                     "install": "916a22c496125829c8c17d5b51fa904e 916a22c496125829c8c17d5b51fa904e",
                     "install_help": "816388abc13e34a7c36d487b72f5e1d6 816388abc13e34a7c36d487b72f5e1d6",
                     "proceed": "e655a410ff21cd07e7a0150491e04371 e655a410ff21cd07e7a0150491e04371",
@@ -1356,7 +1356,7 @@
                     "update_hard_label": "08032a12483d797795b0e0a13dc6c7f8 08032a12483d797795b0e0a13dc6c7f8",
                     "update_soft_label": "401696ee7c4a9419b4b68f2d429bde8a 401696ee7c4a9419b4b68f2d429bde8a"
                 },
-                "file_permissions": "0a5d863b17d5ec7216494147c1797f4e 0a5d863b17d5ec7216494147c1797f4e",
+                "file_permissions": "0a5d863b17d5ec7216494147c1797f4e a54fd663e33188b5e689438c554e098f",
                 "major_updater": {
                     "description": "d3524b7aeed924a7ba3b4288dda5d811 d3524b7aeed924a7ba3b4288dda5d811",
                     "dry_run": "84f02c561dc183ee00f4d4410c00d50e 84f02c561dc183ee00f4d4410c00d50e",
@@ -1501,8 +1501,18 @@
                         "help_text": "a38f0fcb4c1e0129d51d88a3de7614ac a38f0fcb4c1e0129d51d88a3de7614ac"
                     },
                     "user_table_data": {
+                        "column": "d41d8cd98f00b204e9800998ecf8427e cb2f68c9c24e85d21e6b090b6e5657d8",
+                        "extension": "d41d8cd98f00b204e9800998ecf8427e 2dc90225b8033d17c41b08f39fa42de2",
                         "help_text": "8b4d4373b74e1e2903660fa6edbd4d8c 8b4d4373b74e1e2903660fa6edbd4d8c",
-                        "title": "4e9409330a6d243658c7300777638114 4e9409330a6d243658c7300777638114"
+                        "no": "d41d8cd98f00b204e9800998ecf8427e c9744f45e76d885ae1c74d4f4a934b2e",
+                        "nullable": "d41d8cd98f00b204e9800998ecf8427e 6cc0605613cd77b0b3802a2d1fcd6f38",
+                        "pii": "d41d8cd98f00b204e9800998ecf8427e 42d23891b2b7872a2ca9bc9b1b2cc1b1",
+                        "pii_tooltip": "d41d8cd98f00b204e9800998ecf8427e b53997643c9458840d4097990d5243b2",
+                        "redacted_on_export": "d41d8cd98f00b204e9800998ecf8427e 3dfbd816a1fe5a7b1ba076b189586da0",
+                        "redacted_on_export_tooltip": "d41d8cd98f00b204e9800998ecf8427e 2ebc64927d66ec87b56981c0003d44d4",
+                        "title": "4e9409330a6d243658c7300777638114 4e9409330a6d243658c7300777638114",
+                        "type": "d41d8cd98f00b204e9800998ecf8427e 226b0912184333c81babf2f1894ec0c1",
+                        "yes": "d41d8cd98f00b204e9800998ecf8427e 0a60ac8f02ccd2cf723f927284877851"
                     }
                 },
                 "nav": {
@@ -1576,7 +1586,10 @@
                     "anonymization_button": "5dac84e8d52f1d1ab6b1f282a210d885 5dac84e8d52f1d1ab6b1f282a210d885",
                     "comments_label": "7598ee130affaa562ca5bd5b61b14f9c 7598ee130affaa562ca5bd5b61b14f9c",
                     "confirm": "37c70036964042b81cfd40672e770205 37c70036964042b81cfd40672e770205",
+                    "confirmed_at": "d41d8cd98f00b204e9800998ecf8427e 7cc7e743315a40af2988a141aed4412b",
                     "deletion_button": "10991ce4202cd387bdf42385e506a13a 10991ce4202cd387bdf42385e506a13a",
+                    "eligible_at": "d41d8cd98f00b204e9800998ecf8427e 6677b59a9e41068e278d69442d21d930",
+                    "requested_at": "d41d8cd98f00b204e9800998ecf8427e fb1dce05f564c54d6f7a88f3974be1ab",
                     "text": "5a254f5d52ce1a8d2a07945d282adeab 5a254f5d52ce1a8d2a07945d282adeab",
                     "title": "aa00155f2002b1938d3213de7b8bafa6 aa00155f2002b1938d3213de7b8bafa6"
                 },
@@ -1609,6 +1622,7 @@
                         "delete_description": "36402ce4f3f685cc1d3a3b9fcc5d9eba 36402ce4f3f685cc1d3a3b9fcc5d9eba",
                         "export_description": "c2dd6623145919f6e6eccb5ab73cd6a7 c2dd6623145919f6e6eccb5ab73cd6a7"
                     },
+                    "default_user_action": "d41d8cd98f00b204e9800998ecf8427e 3a005b8417acd475ae62d8bf635668b9",
                     "discussions": {
                         "export_description": "1352239e6f8650f494a15c63eb2ae0a4 1352239e6f8650f494a15c63eb2ae0a4"
                     },
@@ -1658,7 +1672,7 @@
                 "post": {
                     "like_link": "87f653bc194159ca98776bf8f3c0dca2 87f653bc194159ca98776bf8f3c0dca2",
                     "liked_by_self_text": "4a1444a2f89fff835f4d5ca694dd39b8 4a1444a2f89fff835f4d5ca694dd39b8",
-                    "liked_by_text": "4a1444a2f89fff835f4d5ca694dd39b8 4a1444a2f89fff835f4d5ca694dd39b8",
+                    "liked_by_text": "4a1444a2f89fff835f4d5ca694dd39b8 2adce45b55a6fa32af68568b483d1f02",
                     "others_link": "dae504cea1fdf7bf7bddb02da1aa7ba1 dae504cea1fdf7bf7bddb02da1aa7ba1",
                     "unlike_link": "a592d5ba961cbe54463a3cc9e4fbab04 a592d5ba961cbe54463a3cc9e4fbab04",
                     "you_text": "5c3defc66e2e1f24b87246bce4417683 5c3defc66e2e1f24b87246bce4417683"
