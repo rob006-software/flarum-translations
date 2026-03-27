@@ -65,6 +65,9 @@ return [
 	'datlechin-tag-passwords' => [
 		'beta' => 'https://raw.githubusercontent.com/datlechin/flarum-tag-passwords/v2.0.0-beta.1/locale/en.yml',
 	],
+	'ekumanov-forum-widgets' => [
+		'tag' => 'https://raw.githubusercontent.com/ekumanov/flarum-ext-forum-stats-widget/v1.0.0/locale/en.yml',
+	],
 	'ekumanov-inline-audio' => [
 		'tag' => 'https://raw.githubusercontent.com/ekumanov/flarum-ext-inline-audio/v2.7.1/locale/en.yml',
 	],
