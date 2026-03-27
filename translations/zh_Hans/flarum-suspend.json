@@ -18,10 +18,10 @@
                 "title": "此账号已被封禁"
             },
             "suspend_user": {
-                "display_message": "封禁原因（用户联）",
+                "display_message": "展示给用户的封禁原因",
                 "indefinitely_label": "永久封禁",
                 "limited_time_days_text": " 天",
-                "limited_time_label": "自定义封禁时间",
+                "limited_time_label": "临时封禁……",
                 "not_suspended_label": "不封禁",
                 "placeholder_optional": "可选",
                 "reason": "封禁原因",
@@ -41,19 +41,19 @@
             "suspended": {
                 "subject": "你的账号已被封禁",
                 "plain": {
-                    "body": ""
+                    "body": "您的账号已被封禁，原因如下：\n\n---\n{suspension_message}\n---\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "您已被 {forumTitle} 封禁，原因如下："
                 }
             },
             "unsuspended": {
                 "subject": "你的账号已解封",
                 "plain": {
-                    "body": ""
+                    "body": "您的账号已解除封禁，点击以下链接即可返回论坛：\n\n{forum_url}\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "您的账号已解除封禁，随时欢迎回到 [{forumTitle}]({forum_url})。"
                 }
             }
         },
@@ -61,7 +61,7 @@
             "gambits": {
                 "users": {
                     "suspended": {
-                        "key": ""
+                        "key": "suspended"
                     }
                 }
             }
