@@ -3,9 +3,9 @@
         "lib": {
             "data": {
                 "followuser": {
-                    "export_description": "",
-                    "anonymize_description": "",
-                    "delete_description": ""
+                    "export_description": "导出已关注用户及被关注用户的详细信息。",
+                    "anonymize_description": "=> flarum-gdpr.lib.data.followuser.delete_description",
+                    "delete_description": "删除与关注用户相关的所有数据。"
                 }
             }
         }
@@ -16,7 +16,7 @@
                 "be_followed_label": "允许用户关注他人"
             },
             "settings": {
-                "button-on-profile-label": "在用户资料卡片头部区域展示以下按钮",
+                "button-on-profile-label": "在用户资料卡片头部区域展示关注按钮",
                 "stats-on-profile-label": "在用户资料中展示追随和粉丝数量"
             }
         },
@@ -24,10 +24,10 @@
             "followed": "追随",
             "followers": "粉丝",
             "profile_link": "=> ianm-follow-users.lib.following_link",
-            "followers_link": "",
+            "followers_link": "我的粉丝",
             "profile_page": {
                 "no_following": "您还没有关注任何人。",
-                "no_followers": ""
+                "no_followers": "还没有人关注您。"
             },
             "user_controls": {
                 "follow_button": "=> ianm-follow-users.lib.follow",
@@ -37,7 +37,7 @@
             "settings": {
                 "notify_new_follower_label": "有人关注我",
                 "notify_new_unfollower_label": "有人取关我",
-                "notify_new_discussion_label": "我关注的人发布了新主题",
+                "notify_new_discussion_label": "我关注的人发布了新讨论",
                 "notify_new_post_label": "我关注的人发表了新回复",
                 "block_follow": "禁止他人关注我"
             },
@@ -46,28 +46,28 @@
                 "unfollow_tag_button": "=> ianm-follow-users.lib.change_follow_type"
             },
             "notifications": {
-                "new_discussion_text": "{username} 发布主题",
-                "new_post_text": "{username} 发表回复",
+                "new_discussion_text": "{username} 发布了新讨论",
+                "new_post_text": "{username} 在讨论中发表了回复",
                 "new_follower_text": "{username} 关注了你",
-                "new_unfollower_text": "{username} 取关了你"
+                "new_unfollower_text": "{username} 取消关注了你"
             },
             "badge": {
                 "label": {
-                    "follow": "关注主题",
+                    "follow": "关注讨论",
                     "lurk": "特别关注"
                 }
             },
             "filter": {
-                "following": "我的关注"
+                "following": "已关注的用户"
             },
             "modals": {
                 "select_follow_level": {
-                    "title": "关注 {username}",
-                    "description": "您想要如何关注 <em>{username}</em>？",
+                    "title": "选择对 {username} 的关注方式",
+                    "description": "您想要如何关注 <em>{username}</em>。",
                     "follow_levels_heading": "关注级别",
                     "follow_select_label": "关注类型",
                     "no_user_attr_provided_err": "哎呀，打开弹窗时发生了错误。",
-                    "no_user_attr_provided_err_debug": "创建选择关注级别 (SelectFollowUserLevel) 弹窗时 `user` 用户属性传入，因此弹窗生成失败。",
+                    "no_user_attr_provided_err_debug": "创建选择关注级别 (SelectFollowUserLevel) 弹窗时未传入 `user` 用户属性，因此弹窗无法渲染。",
                     "save_btn": "保存",
                     "cancel_btn": "取消"
                 }
@@ -75,30 +75,30 @@
         },
         "email": {
             "new_discussion_by_user": {
-                "subject": "",
+                "subject": "{user_display_name} 发布了新讨论",
                 "plain": {
-                    "body": ""
+                    "body": "{user_display_name} 发布了新讨论：{discussion_title}\n\n{discussion_url}\n\n---\n\n{post_content}\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{user_display_name} 发布了新讨论：[{discussion_title}]({discussion_url})。"
                 }
             },
             "new_follower": {
-                "subject": "",
+                "subject": "{follower_display_name} 关注了您",
                 "plain": {
-                    "body": ""
+                    "body": "{follower_display_name} 开始关注您，当您发布新讨论时他们将收到通知。\n\n{profile_url}\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{follower_display_name} 开始关注您，当您发布新讨论时他们将收到通知。"
                 }
             },
             "new_post": {
-                "subject": "",
+                "subject": "{user_display_name} 在 {discussion_title} 中发表了回复",
                 "plain": {
-                    "body": ""
+                    "body": "{user_display_name} 在 {discussion_title} 中发表了回复。\n\n{post_url}\n\n---\n\n{post_content}\n\n---\n\n当您跟上该讨论的进度后，将不再收到关于此讨论的通知。\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{user_display_name} 在 [{discussion_title}]({post_url}) 中发表了回复。"
                 }
             }
         },
@@ -113,17 +113,17 @@
                     "description": "不接收 <em>{username}</em> 的任何活动通知。\n"
                 },
                 "follow": {
-                    "name": "关注主题",
-                    "description": "接收 <em>{username}</em> 发布新主题的通知。\n"
+                    "name": "关注讨论",
+                    "description": "当 <em>{username}</em> 发布新讨论时接收通知。\n"
                 },
                 "lurk": {
                     "name": "特别关注",
-                    "description": "接收 <em>{username}</em> 发布新主题和回复的所有通知。\n"
+                    "description": "当 <em>{username}</em> 发布新讨论或在任意讨论中发表回复时接收通知。\n"
                 }
             },
             "gambits": {
                 "followeduser": {
-                    "key": ""
+                    "key": "followeduser"
                 }
             }
         }
