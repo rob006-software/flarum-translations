@@ -366,6 +366,9 @@ return [
 	'ralkage-word-censor' => [
 		'beta' => 'https://raw.githubusercontent.com/Ralkage/flarum-ext-word-censor/v2.0.0-beta.8/locale/en.yml',
 	],
+	'ralkage-word-counter' => [
+		'beta' => 'https://raw.githubusercontent.com/Ralkage/flarum-ext-word-counter/v2.0.0-beta.8/locale/en.yml',
+	],
 	'ramon-avocado' => [
 		'beta' => 'https://raw.githubusercontent.com/ram0ng1/avocado/2.0.0-beta/locale/en.yml',
 		'__builtInLanguages' => [
