@@ -1,14 +1,14 @@
 {
     "ekumanov-inline-audio": {
         "forum": {
-            "bbcode_description": ""
+            "bbcode_description": "嵌入音频播放器：[player]链接地址[/player]"
         },
         "admin": {
             "settings": {
-                "show_download_button": "",
-                "show_right_click_download": "",
-                "auto_play": "",
-                "strip_upload_prefix": ""
+                "show_download_button": "在播放条上显示下载按钮",
+                "show_right_click_download": "允许通过右键点击文件名保存文件",
+                "auto_play": "点击文件名后立即自动播放",
+                "strip_upload_prefix": "隐藏已上传文件名的数字前缀 (例如 \\\"1774205518-685373-song.mp3\\\" → \\\"song.mp3\\\")"
             }
         }
     }
