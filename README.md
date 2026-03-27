@@ -913,6 +913,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`forumaker-magicdice`](https://weblate.rob006.net/projects/flarum2/forumaker-magicdice) | [`forumaker/magicdice`](https://github.com/forumaker/magicdice) |
 | [`forumaker-magicread`](https://weblate.rob006.net/projects/flarum2/forumaker-magicread) | [`forumaker/magicread`](https://github.com/forumaker/magicread) |
 | [`forumaker-magicslider`](https://weblate.rob006.net/projects/flarum2/forumaker-magicslider) | [`forumaker/magicslider`](https://github.com/forumaker/magicslider) |
+| [`forumaker-yandex-oauth`](https://weblate.rob006.net/projects/flarum2/forumaker-yandex-oauth) | [`forumaker/yandex-oauth`](https://github.com/forumaker/Yandex-Oauth) |
 | [`huoxin-relative-url`](https://weblate.rob006.net/projects/flarum2/huoxin-relative-url) | [`huoxin/relative-url`](https://github.com/huoxin233/flarum-ext-relative-url) |
 | [`huseyinfiliz-awards`](https://weblate.rob006.net/projects/flarum2/huseyinfiliz-awards) | [`huseyinfiliz/awards`](https://github.com/huseyinfiliz/awards) |
 | [`huseyinfiliz-diff`](https://weblate.rob006.net/projects/flarum2/huseyinfiliz-diff) | [`huseyinfiliz/flarum-diff`](https://github.com/huseyinfiliz/flarum-diff) |
@@ -933,6 +934,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`ralkage-linked-accounts`](https://weblate.rob006.net/projects/flarum2/ralkage-linked-accounts) | [`ralkage/flarum-ext-linked-accounts`](https://github.com/Ralkage/flarum-ext-linked-accounts) |
 | [`ralkage-profile-messages`](https://weblate.rob006.net/projects/flarum2/ralkage-profile-messages) | [`ralkage/flarum-ext-profile-messages`](https://github.com/Ralkage/flarum-ext-profile-messages) |
 | [`ralkage-word-censor`](https://weblate.rob006.net/projects/flarum2/ralkage-word-censor) | [`ralkage/flarum-ext-word-censor`](https://github.com/Ralkage/flarum-ext-word-censor) |
+| [`ramon-avocado`](https://weblate.rob006.net/projects/flarum2/ramon-avocado) | [`ramon/avocado`](https://github.com/ram0ng1/avocado) |
 | [`ramon-colored`](https://weblate.rob006.net/projects/flarum2/ramon-colored) | [`ramon/colored`](https://github.com/ram0ng1/colored) |
 | [`resofire-blog-cards`](https://weblate.rob006.net/projects/flarum2/resofire-blog-cards) | [`resofire/blog-cards`](https://github.com/ResofireV2/blog-cards) |
 | [`resofire-discussion-participants`](https://weblate.rob006.net/projects/flarum2/resofire-discussion-participants) | [`resofire/discussion-participants`](https://github.com/ResofireV2/discussion-participants) |
