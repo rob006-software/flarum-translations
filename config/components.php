@@ -163,6 +163,12 @@ return [
 			'es@formal',
 		],
 	],
+	'capomod-mobile-tab' => [
+		'tag' => 'https://raw.githubusercontent.com/zhujia18/CapoModMobileTab/0.0.2/locale/en.yml',
+		'__builtInLanguages' => [
+			'zh_Hans',
+		],
+	],
 	'cccyun-clogin-oauth' => [
 		'tag' => 'https://raw.githubusercontent.com/netcccyun/flarum-clogin-oauth/v1.0.2/resources/locale/en.yml',
 	],
