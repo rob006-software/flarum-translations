@@ -1,35 +1,35 @@
 {
     "resofire_blog_cards": {
         "forum": {
-            "replies": "",
-            "unreadReplies": "",
-            "show_all_participants": "",
-            "more_participants": "",
-            "modal_title": "",
-            "load_more": ""
+            "replies": "回复：{count}",
+            "unreadReplies": "未读回复：{count}",
+            "show_all_participants": "显示所有参与者",
+            "more_participants": "{count}+",
+            "modal_title": "{count} 位参与者",
+            "load_more": "加载更多"
         },
         "admin": {
             "settings": {
-                "onIndexPage_label": "",
-                "onIndexPage_help": "",
-                "tagIds_label": "",
-                "tagIds_help": "",
-                "fullWidth_label": "",
-                "fullWidth_help": "",
-                "showParticipants_label": "",
-                "showParticipants_help": ""
+                "onIndexPage_label": "在讨论列表页启用",
+                "onIndexPage_help": "启用后，讨论列表页面将以卡片形式显示。",
+                "tagIds_label": "限制标签",
+                "tagIds_help": "选择要显示卡片的标签。如果未选择，则所有标签页面都会显示卡片。",
+                "fullWidth_label": "全宽卡片",
+                "fullWidth_help": "启用后，每个卡片将占据整行宽度，而不是每行两个。",
+                "showParticipants_label": "显示参与者头像",
+                "showParticipants_help": "启用后，每个卡片底部将显示参与者头像列表。"
             },
-            "tools_heading": "",
-            "recalculate_help": "",
-            "recalculate_button": "",
-            "recalculating_button": "",
-            "recalculate_success": "",
-            "recalculate_error": "",
-            "recalculate_modal_title": "",
-            "recalculate_modal_warning": "",
-            "recalculate_modal_progress": "",
-            "recalculate_modal_complete": "",
-            "recalculate_modal_close": ""
+            "tools_heading": "工具",
+            "recalculate_help": "重新计算所有讨论的参与者头像。在已有论坛安装扩展后首次运行，或当预览数据不同步时运行。",
+            "recalculate_button": "重新计算参与者",
+            "recalculating_button": "正在重新计算…",
+            "recalculate_success": "完成。在 {duration} 秒内重新计算了 {count} 个讨论。",
+            "recalculate_error": "发生错误。请重试或使用 CLI 命令。",
+            "recalculate_modal_title": "正在重新计算参与者",
+            "recalculate_modal_warning": "在处理完成之前，请勿关闭此窗口或离开页面。",
+            "recalculate_modal_progress": "已处理 {processed} / {total} 个讨论",
+            "recalculate_modal_complete": "完成！已重新计算 {total} 个讨论。",
+            "recalculate_modal_close": "关闭"
         }
     }
 }
