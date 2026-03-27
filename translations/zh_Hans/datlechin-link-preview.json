@@ -2,14 +2,14 @@
     "datlechin-link-preview": {
         "admin": {
             "sections": {
-                "general_label": "",
-                "general_description": "",
-                "performance_label": "",
-                "performance_description": "",
-                "url_filtering_label": "",
-                "url_filtering_description": "",
-                "external_api_label": "",
-                "external_api_description": ""
+                "general_label": "常规",
+                "general_description": "链接预览的基本显示偏好。",
+                "performance_label": "性能",
+                "performance_description": "优化链接预览的获取和缓存方式。",
+                "url_filtering_label": "URL 过滤",
+                "url_filtering_description": "控制哪些 URL 会生成链接预览。",
+                "external_api_label": "外部 API 回退",
+                "external_api_description": "当直接获取失败时（例如受机器人保护的站点），使用外部服务。"
             },
             "settings": {
                 "enable_batch_requests_label": "启用批量处理",
@@ -28,10 +28,10 @@
                 "cache_time_help": "设置链接预览的缓存存储时长，设为0则禁用缓存，默认值为60分钟。",
                 "open_links_in_new_tab_label": "在新标签页打开链接",
                 "open_links_in_new_tab_help": "让链接在新标签页中打开。",
-                "external_api_fallback_label": "",
-                "external_api_fallback_help": "",
-                "external_api_url_label": "",
-                "external_api_url_help": ""
+                "external_api_fallback_label": "外部 API 回退",
+                "external_api_fallback_help": "当直接获取失败时（例如像Reuters这样受机器人保护的站点），使用外部 oEmbed API 来检索链接元数据。",
+                "external_api_url_label": "外部 API URL",
+                "external_api_url_help": "自定义 oEmbed API 端点。留空则使用默认值（Iframely 开放 API）。URL 将作为查询参数附加。"
             }
         },
         "forum": {
