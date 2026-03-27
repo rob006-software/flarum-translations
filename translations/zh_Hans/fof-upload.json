@@ -30,10 +30,10 @@
                 "disable-download-logging": "（默认启用）保持开启，以便在将来查看下载记录及其他数据。打开下方的开关，即可停止记录下载日志。\n",
                 "disable-hotlink-protection": "（默认启用）防盗链将通过验证 CSRF TOKEN 和 POST ID 来保护你的文件不会被其他站点调用下载。\n",
                 "download_templates": "启用模板后，您上传的文件将按模板样式显示于帖子中，并增加了“预览”、“下载”等按钮。 当前可用：\n",
-                "mime_types": "",
+                "mime_types": "请在此处配置您的映射。每个 MIME 类型正则表达式将由特定的上传适配器和下载模板处理。\n可选地，为每个条目提供一个权限标签（例如“图片”，“视频”），以在权限网格中创建一个专用权限。\n这允许您限制哪些组可以上传特定文件类型 — 除了始终需要的基本“上传文件”权限之外。\n",
                 "resize": "配置图片缩放功能，以像素为单位，超过最大宽度及高度后会被缩放，图片横纵比不变。\n",
                 "client_extension": "默认情况下，上传器将根据 MIME 类型选择一个安全的文件扩展名。\n对于某些基于 ZIP 或二进制数据的文件类型，这可能导致使用不正确的通用扩展名。\n在这里，您可以输入一个逗号分隔的文件扩展名列表，该列表将被逐字保留。\n",
-                "thumbnails": "",
+                "thumbnails": "在上传时为图片生成缩小尺寸的缩略图。缩略图会内联显示；\n点击它会在新标签页中打开原始全分辨率文件。\n对于包含许多大图片的论坛，缩略图可以显著减少带宽和页面权重。\n",
                 "watermark": "选择上传图片时是否添加水印。水印会根据下面的偏好设置来添加到非 GIF 图片上。\n",
                 "s3_compatible_storage": "填写下方设置以配置 S3 兼容存储模式。如果您使用 AWS，请保持留空。有关 S3 兼容配置详情，请查阅各大云服务商的文档（七牛云：https://iflarum.cn/qiniu-s3）\n",
                 "s3_acl": "应用于上传对象的读写权限 ACL（默认私有读写）。 有关可用的值，请参阅 https://iflarum.cn/aws-s3acl\n",
@@ -71,7 +71,7 @@
                     "cdn_url": "文件链接前缀 / 对象存储 CDN 或访问域名（含 http/https）",
                     "title": "存储设置"
                 },
-                "configured_by_environment": "",
+                "configured_by_environment": "您的存储设置已通过环境变量预先配置。",
                 "qiniu": {
                     "title": "七牛存储设置（需要先安装 composer require overtrue/flysystem-qiniu）",
                     "key": "Key",
@@ -81,9 +81,9 @@
                 "preferences": {
                     "max_file_size": "最大文件大小（单位：KB）",
                     "mime_types": "设置可上传的文件类型及上传方式",
-                    "mime_type_regex_placeholder": "",
-                    "mime_type_regex_invalid": "",
-                    "mime_type_permission_placeholder": "",
+                    "mime_type_regex_placeholder": "例如：^image/(jpeg|png|gif)$",
+                    "mime_type_regex_invalid": "无效的正则表达式（例如：|| 等空替代）",
+                    "mime_type_permission_placeholder": "权限标签（可选，例如 图片）",
                     "title": "偏好设置",
                     "php_ini_values": "当前服务器 <code>php.ini</code> 配置上限为 <code>post_max_size={post}</code>，<code>upload_max_filesize={upload}</code>。请确保上方设置的值小于上限，否则请提高上限。若您使用 <code>Nginx</code> 服务器，请确保 <code>client_max_body_size</code> 高于当前设置的值。"
                 },
@@ -96,25 +96,25 @@
                     "title": "用户自定义文件扩展名"
                 },
                 "thumbnails": {
-                    "title": "",
-                    "toggle": "",
-                    "webp_toggle": "",
-                    "max_width": ""
+                    "title": "图片缩略图",
+                    "toggle": "上传时生成缩略图",
+                    "webp_toggle": "将缩略图编码为 WebP（推荐，约小 30%）",
+                    "max_width": "缩略图最大宽度（像素）"
                 },
                 "watermark": {
                     "file": "上传水印图片",
-                    "opacity": "",
-                    "padding": "",
+                    "opacity": "水印不透明度（0-100）",
+                    "padding": "边距填充（像素）",
                     "position": "水印位置",
-                    "size_percent": "",
+                    "size_percent": "水印大小（占图片宽度的百分比）",
                     "title": "图片水印",
                     "toggle": "开启"
                 },
                 "svg-sanitizer": {
-                    "title": "",
-                    "allow_animate": "",
-                    "help": "",
-                    "allow_animate_help": ""
+                    "title": "SVG 清理器",
+                    "allow_animate": "允许 SVG 动画",
+                    "help": "配置上传时 SVG 文件的处理和清理方式。SVG 文件可能包含潜在有害脚本，应谨慎处理。上传的 SVG 文件在上传时会进行清理，有害脚本和标签会被移除。",
+                    "allow_animate_help": "启用 SVG 动画可能会引入安全漏洞，因为动画 SVG 可能包含恶意代码。请自行承担风险启用此设置，并且仅在您信任用户的情况下启用。"
                 },
                 "composer_buttons": {
                     "title": "编辑器按钮",
@@ -127,12 +127,12 @@
                 "inspect-mime": "测试文件 MIME 类型"
             },
             "warnings": {
-                "fileinfo_missing": ""
+                "fileinfo_missing": "此服务器未加载 PHP <strong>fileinfo</strong> 扩展。FoF Upload 仍可工作，但 MIME 类型交叉验证已禁用，这会降低对伪造文件类型的防护。请在 PHP 配置中启用此扩展以获得最佳安全性。\n"
             },
             "permissions": {
                 "download_label": "允许下载文件",
-                "upload_label": "",
-                "upload_mime_label": "",
+                "upload_label": "上传文件（基本权限，所有上传都需要）",
+                "upload_mime_label": "上传 {label}",
                 "view_user_uploads_label": "查看用户上传的文件",
                 "delete_uploads_of_others_label": "删除用户上传的文件",
                 "upload_shared_label": "上传共享文件",
@@ -197,7 +197,7 @@
             "text_preview": {
                 "expand": "展开全文",
                 "collapse": "收起全文",
-                "download": "",
+                "download": "下载文件",
                 "error": "文件预览无法加载。此文件或已被删除，文件 ID 或已失效。\n",
                 "no_snippet_preview": "<文本文档的预览将会在此处展示>",
                 "no_snippet": "<暂无可用的预览代码片段>"
@@ -206,7 +206,7 @@
         "api": {
             "upload_errors": {
                 "forbidden_type": "不支持此类型文件。",
-                "mime_permission_denied": "",
+                "mime_permission_denied": "您没有上传此文件类型的权限。",
                 "unsupported_type": "您提供的 MIME 类型 {mime} 不受上传适配器支持。",
                 "could_not_detect_mime": "无法检测到该文件的 MIME 类型，请重试。",
                 "max_upload_file_size_ini": "超过 php.ini 允许的最大上传文件大小。",
