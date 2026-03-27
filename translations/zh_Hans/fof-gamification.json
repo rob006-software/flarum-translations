@@ -21,9 +21,9 @@
             },
             "notification": {
                 "upvote": "{username} 赞同了您的帖子",
-                "downvote": "{username} 踩了您的帖子",
+                "downvote": "{username} 反对了您的帖子",
                 "prefrences": {
-                    "vote": "有人赞同或踩我"
+                    "vote": "有人赞同或反对我"
                 }
             },
             "user": {
@@ -46,13 +46,13 @@
             },
             "post": {
                 "upvote_button": "赞同",
-                "downvote_button": "踩"
+                "downvote_button": "反对"
             }
         },
         "admin": {
             "permissions": {
-                "vote_label": "赞同/踩",
-                "see_votes_label": "查看赞同/踩数量",
+                "vote_label": "赞同/反对",
+                "see_votes_label": "查看赞同/反对数量",
                 "see_voters_label": "查看投票详情",
                 "see_ranking_page": "查看排名",
                 "upvote_notifications": "接收赞同票通知",
@@ -85,7 +85,7 @@
                     "alternate_post_layout": "使用仿 Reddit 投票布局（帖子页面）",
                     "title": "投票",
                     "vote_color": "投票颜色",
-                    "icon_name": "赞同/踩图标",
+                    "icon_name": "赞同/反对图标",
                     "icon_help": "输入任何 Font Awesome 图标，后缀为 -up 和 -down。 示例：arrow（箭头），thumbs（拇指），chevron（指向箭头）",
                     "icon_preview_upvote": "赞同",
                     "icon_preview_downvote": "反对",
