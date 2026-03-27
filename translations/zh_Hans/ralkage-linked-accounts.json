@@ -2,74 +2,74 @@
     "ralkage-linked-accounts": {
         "admin": {
             "tabs": {
-                "settings": "",
-                "logs": ""
+                "settings": "设置",
+                "logs": "活动日志"
             },
             "settings": {
-                "max_accounts": "",
-                "max_accounts_help": "",
-                "log_retention_days": "",
-                "log_retention_days_help": ""
+                "max_accounts": "最大关联账号数量",
+                "max_accounts_help": "用户可以关联的最大账号数量。设为 0 表示无限制。",
+                "log_retention_days": "日志保留天数",
+                "log_retention_days_help": "活动日志保留的天数。设为 0 表示永久保留。"
             },
             "permissions": {
-                "use": "",
-                "create": "",
-                "view_any": ""
+                "use": "使用关联账号",
+                "create": "创建新的关联账号",
+                "view_any": "查看任意用户的关联账号"
             },
             "logs": {
-                "title": "",
-                "clear": "",
-                "clear_confirm": "",
-                "empty": "",
-                "parent": "",
-                "child": "",
-                "action": "",
-                "ip": "",
-                "date": "",
-                "load_more": ""
+                "title": "关联账号活动日志",
+                "clear": "清空所有日志",
+                "clear_confirm": "确定要清空所有关联账号日志吗？此操作不可撤销。",
+                "empty": "暂无活动记录。",
+                "parent": "主账号",
+                "child": "关联账号",
+                "action": "操作",
+                "ip": "IP 地址",
+                "date": "日期",
+                "load_more": "加载更多"
             }
         },
         "forum": {
             "nav": {
-                "linked_accounts": ""
+                "linked_accounts": "关联账号"
             },
-            "revert_to": "",
+            "revert_to": "切回至 {name}",
             "composer": {
-                "post_as": ""
+                "post_as": "发布身份："
             },
             "page": {
-                "title": "",
-                "switched_notice": "",
-                "revert": "",
-                "no_accounts": "",
-                "linked_on": "",
-                "switch": "",
-                "current": "",
-                "unlink": "",
-                "unlink_confirm": "",
-                "max_reached": "",
-                "create_new": "",
-                "link_existing": "",
-                "create_title": "",
-                "create_description": "",
-                "link_title": "",
-                "link_description": "",
-                "username": "",
-                "username_placeholder": "",
-                "email": "",
-                "email_placeholder": "",
-                "password": "",
-                "password_placeholder": "",
-                "link_password_placeholder": "",
-                "identification": "",
-                "identification_placeholder": "",
-                "create_submit": "",
-                "link_submit": "",
-                "create_success": "",
-                "link_success": "",
-                "unlink_success": "",
-                "switch_to_parent": "",
-                "child_info": ""
+                "title": "关联账号",
+                "switched_notice": "您当前正在使用关联账号。您的主账号是 {name}。",
+                "revert": "切回主账号",
+                "no_accounts": "您尚未关联任何账号。创建一个新账号或关联一个现有账号来开始吧。",
+                "linked_on": "关联于 {date}",
+                "switch": "切换",
+                "current": "当前",
+                "unlink": "取消关联",
+                "unlink_confirm": "确定要取消关联此账号吗？该账号仍会存在，但不再与您的主账号关联。",
+                "max_reached": "您已达到最大关联账号上限（{max} 个）。",
+                "create_new": "创建新账号",
+                "link_existing": "关联现有账号",
+                "create_title": "创建新的关联账号",
+                "create_description": "创建一个全新的账号并与当前账号关联。",
+                "link_title": "关联现有账号",
+                "link_description": "关联一个已经存在的账号。您需要提供该账号的密码以验证所有权。",
+                "username": "用户名",
+                "username_placeholder": "输入新账号的用户名",
+                "email": "电子邮箱",
+                "email_placeholder": "输入新账号的电子邮箱",
+                "password": "密码",
+                "password_placeholder": "输入新账号的密码（可选）",
+                "link_password_placeholder": "输入该账号的密码进行验证",
+                "identification": "用户名或邮箱",
+                "identification_placeholder": "输入现有账号的用户名或电子邮箱",
+                "create_submit": "创建账号",
+                "link_submit": "关联账号",
+                "create_success": "新的关联账号创建成功！",
+                "link_success": "账号关联成功！",
+                "unlink_success": "账号已成功取消关联。",
+                "switch_to_parent": "切换到主账号",
+                "child_info": "这是一个关联账号。要管理关联账号、创建新账号或关联现有账号，请先切回主账号。"
             }
         }
     }
