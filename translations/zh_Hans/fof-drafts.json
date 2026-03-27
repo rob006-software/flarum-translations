@@ -14,7 +14,7 @@
         },
         "console": {
             "scheduled_drafts_disabled": "定时发布功能已被禁用。",
-            "no_title_error": ""
+            "no_title_error": "已跳过草稿：缺少讨论标题。"
         },
         "ref": {
             "schedule_draft": "定时发布"
@@ -51,12 +51,12 @@
                 "schedule_time_preview": "此草稿将于 <b>{datetime}</b> 自动发布。",
                 "schedule_time_preview_formatter": "llll",
                 "schedule_time_preview_invalid": "无效的日期或时间",
-                "no_title_error": ""
+                "no_title_error": "设定定时发布前，必须填写讨论标题。"
             },
             "user": {
                 "settings": {
                     "drafts_heading": "草稿箱",
-                    "draft_autosave_enable": "自动保存草稿",
+                    "draft_autosave_enable": "开启草稿自动保存？",
                     "draft_autosave_interval_label": "自动保存频率（秒）",
                     "draft_autosave_interval_button": "更新频率",
                     "draft_autosave_interval_invalid": "请输入大于4的整数。"
@@ -67,8 +67,8 @@
     "fof-default-user-preferences": {
         "admin": {
             "settings": {
-                "draftAutosaveEnable": "",
-                "draftAutosaveInterval": ""
+                "draftAutosaveEnable": "默认开启草稿自动保存",
+                "draftAutosaveInterval": "默认自动保存间隔（秒）"
             }
         }
     },
