@@ -26,7 +26,7 @@
             },
             "post": {
                 "mentioned_by_more_text": "等 {count} 个回帖。",
-                "mentioned_by_self_text": "{users} 回复了此帖",
+                "mentioned_by_self_text": "{users} 回复了您的帖子",
                 "mentioned_by_text": "{users} 回复了此帖",
                 "others_text": "=> core.ref.some_others",
                 "quote_button": "引用",
@@ -52,28 +52,28 @@
             "post_mentioned": {
                 "subject": "{replier_display_name} 回复了您【{title}】",
                 "plain": {
-                    "body": ""
+                    "body": "{replier_display_name} 在 {title} 中回复了您的帖子 (#{post_number})。\n\n{url}\n\n---\n\n{content}\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{replier_display_name} 在 [{title}]({url}) 中回复了您的帖子 (#{post_number})。"
                 }
             },
             "user_mentioned": {
                 "subject": "{mentioner_display_name} 提及了您【{title}】",
                 "plain": {
-                    "body": ""
+                    "body": "{mentioner_display_name} 在 {title} 的回复中提及了您。\n\n{url}\n\n---\n\n{content}\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{mentioner_display_name} 在 [{title}]({url}) 的回复中提及了您。"
                 }
             },
             "group_mentioned": {
                 "subject": "{mentioner_display_name} 在 {title} 中提到了您所属的组群",
                 "plain": {
-                    "body": ""
+                    "body": "{mentioner_display_name} 在 {title} 中提及了您所属的用户组。\n\n{url}\n\n---\n\n{content}\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{mentioner_display_name} 在 [{title}]({url}) 中提及了您所属的用户组。"
                 }
             }
         },
@@ -81,8 +81,8 @@
             "gambits": {
                 "posts": {
                     "mentioned": {
-                        "key": "",
-                        "hint": ""
+                        "key": "mentioned",
+                        "hint": "被提及用户的 ID 或用户名"
                     }
                 }
             }
