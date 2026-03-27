@@ -2,65 +2,65 @@
     "ralkage-profile-messages": {
         "admin": {
             "permissions": {
-                "post_label": "",
-                "delete_own_label": "",
-                "edit_any_label": ""
+                "post_label": "发布个人资料页留言",
+                "delete_own_label": "删除自己的留言",
+                "edit_any_label": "编辑任何留言"
             }
         },
         "forum": {
             "user": {
-                "messages_link": "",
-                "messages_empty_text": "",
-                "messages_load_more_button": ""
+                "messages_link": "个人资料留言",
+                "messages_empty_text": "该个人资料页暂无留言。",
+                "messages_load_more_button": "加载更多"
             },
             "composer": {
-                "placeholder": "",
-                "submit_button": "",
-                "save_button": "",
-                "heading": "",
-                "reply_heading": "",
-                "edit_heading": "",
-                "confirm_exit": "",
-                "posted_message": "",
-                "preview_heading": "",
-                "saved_message": "",
-                "validation_empty": "",
-                "validation_too_long": "",
-                "validation_blocked": ""
+                "placeholder": "在此个人资料页留下您的留言...",
+                "submit_button": "发布留言",
+                "save_button": "保存修改",
+                "heading": "在 {username} 的个人资料页留言",
+                "reply_heading": "在 {username} 的个人资料页回复",
+                "edit_heading": "编辑留言",
+                "confirm_exit": "您的留言尚未发布。确定要放弃吗？",
+                "posted_message": "您的留言已发布。",
+                "preview_heading": "预览",
+                "saved_message": "您的留言已更新。",
+                "validation_empty": "留言内容不能为空。",
+                "validation_too_long": "留言内容不能超过 2000 个字符。",
+                "validation_blocked": "该用户已禁用个人资料页留言。"
             },
             "message": {
-                "delete_button": "",
-                "delete_confirm": "",
-                "edit_button": "",
-                "reply_button": "",
-                "reply_placeholder": "",
-                "reply_submit": "",
-                "report_button": "",
-                "permalink_button": "",
-                "permalink_copied": "",
-                "show_replies": "",
-                "hide_replies": ""
+                "delete_button": "删除",
+                "delete_confirm": "确定要删除这条留言吗？",
+                "edit_button": "编辑",
+                "reply_button": "回复",
+                "reply_placeholder": "撰写回复...",
+                "reply_submit": "回复",
+                "report_button": "举报",
+                "permalink_button": "永久链接",
+                "permalink_copied": "链接已复制到剪贴板。",
+                "show_replies": "{count, plural, one {显示 # 条回复} other {显示 # 条回复}}",
+                "hide_replies": "隐藏回复"
             },
             "report": {
-                "title": "",
-                "reason_inappropriate": "",
-                "reason_spam": "",
-                "reason_harassment": "",
-                "reason_other": "",
-                "detail_placeholder": "",
-                "submit_button": "",
-                "success": "",
-                "cannot_report_own": "",
-                "already_reported": ""
+                "title": "举报留言",
+                "reason_inappropriate": "违规内容",
+                "reason_spam": "垃圾信息",
+                "reason_harassment": "骚扰行为",
+                "reason_other": "其他原因",
+                "detail_placeholder": "提供更多详细信息（可选）...",
+                "submit_button": "提交举报",
+                "success": "留言已举报。",
+                "cannot_report_own": "您不能举报自己的留言。",
+                "already_reported": "您已经举报过这条留言了。"
             },
             "notification": {
-                "new_profile_message_text": ""
+                "new_profile_message_text": "{username} 在您的个人资料页发布了留言。"
             },
             "settings": {
-                "profile_heading": "",
-                "notify_new_profile_message_label": "",
-                "block_profile_messages_label": "",
-                "default_view_label": ""
+                "profile_heading": "个人资料",
+                "notify_new_profile_message_label": "有人在我的个人资料页发布留言时",
+                "block_profile_messages_label": "禁止他人在我的个人资料页留言",
+                "default_view_label": "将个人资料留言设为默认展示项"
             }
         }
     }
