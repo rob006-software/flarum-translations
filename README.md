@@ -935,7 +935,6 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`ralkage-profile-messages`](https://weblate.rob006.net/projects/flarum2/ralkage-profile-messages) | [`ralkage/flarum-ext-profile-messages`](https://github.com/Ralkage/flarum-ext-profile-messages) |
 | [`ralkage-word-censor`](https://weblate.rob006.net/projects/flarum2/ralkage-word-censor) | [`ralkage/flarum-ext-word-censor`](https://github.com/Ralkage/flarum-ext-word-censor) |
 | [`ramon-avocado`](https://weblate.rob006.net/projects/flarum2/ramon-avocado) | [`ramon/avocado`](https://github.com/ram0ng1/avocado) |
-| [`ramon-colored`](https://weblate.rob006.net/projects/flarum2/ramon-colored) | [`ramon/colored`](https://github.com/ram0ng1/colored) |
 | [`resofire-blog-cards`](https://weblate.rob006.net/projects/flarum2/resofire-blog-cards) | [`resofire/blog-cards`](https://github.com/ResofireV2/blog-cards) |
 | [`resofire-discussion-participants`](https://weblate.rob006.net/projects/flarum2/resofire-discussion-participants) | [`resofire/discussion-participants`](https://github.com/ResofireV2/discussion-participants) |
 | [`resofire-menu-control`](https://weblate.rob006.net/projects/flarum2/resofire-menu-control) | [`resofire/menu-control`](https://github.com/ResofireV2/menu-control) |
