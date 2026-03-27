@@ -1,7 +1,7 @@
 {
     "fof-reactions": {
         "forum": {
-            "disabled-reaction": "您暂时不能戳表情，请刷新后重试。",
+            "disabled-reaction": "您暂时不能戳表情，请刷新后重试",
             "warning": "您的表情已转换为「赞」",
             "notification": "{username} 戳了一个 {reaction}",
             "settings": {
@@ -12,16 +12,16 @@
                 "title": "表情",
                 "anonymous_count": "{count} 位匿名用户",
                 "no_reactions": "暂无反应",
-                "load_more": "",
-                "others_count": "",
-                "remove_all_reaction_type": "",
-                "remove_user_reaction": ""
+                "load_more": "加载更多",
+                "others_count": "+ {count} 个其他",
+                "remove_all_reaction_type": "移除所有 {reaction} 反应",
+                "remove_user_reaction": "移除反应"
             },
             "mod_item": "查看表情",
             "react_button_label": "戳表情",
-            "unreact_button_label": "",
-            "reaction_button_label": "",
-            "reacted_with_label": ""
+            "unreact_button_label": "移除反应",
+            "reaction_button_label": "使用 {reaction} 反应",
+            "reacted_with_label": "{reaction} ({count} 个反应)"
         },
         "admin": {
             "permissions": {
@@ -32,7 +32,7 @@
             "page": {
                 "cdn": {
                     "title": "CDN",
-                    "help": "默认情况下，我们从 Cloudflare 的 CDN 获取反应的图片资源。如有需要，您也可以指定其它的 CDN 地址。\n<code>[codepoint]</code>为表情代码的占位符。\n\n例如，要使用 jsDelivr 上的 Noto Emoji，请输入<code>https://cdn.jsdelivr.net/gh/googlefonts/noto-emoji@v2.040/svg/emoji_u[codepoint].svg</code>。此设置不得为空。\n",
+                    "help": "默认情况下，我们从 Cloudflare 的 CDN 加载表态表情资源。您也可以根据需要指定其他 CDN 地址\n进行替换。<code>[codepoint]</code> 将会被替换为表情符号的码点（Codepoint）。\n\n例如，若要通过 jsdelivr 切换到 Noto Emoji，请输入 <code>https://cdn.jsdelivr.net/gh/googlefonts/noto-emoji@v2.040/svg/emoji_u[codepoint].svg</code>。\n\n您的 CDN 必须支持 Emoji/Unicode {emojibase} 或更高版本。使用 [twemoji] 可以替换为当前的 Twemoji 版本号。\n",
                     "label": "URL",
                     "default-url": "默认：{url}"
                 },
@@ -45,16 +45,16 @@
                         "identifier": "标识名"
                     },
                     "delete_confirmation": "确定要删除此反应吗？此操作无法撤销。",
-                    "delete_reaction_button": "",
-                    "add_reaction_button": "",
-                    "add_reaction_label": "",
+                    "delete_reaction_button": "删除反应",
+                    "add_reaction_button": "添加反应",
+                    "add_reaction_label": "添加新反应",
                     "header": {
-                        "display": "",
-                        "identifier": "",
-                        "type": "",
-                        "enabled": "",
-                        "action": "",
-                        "preview": ""
+                        "display": "显示文本",
+                        "identifier": "图标/表情符号标识符",
+                        "type": "类型",
+                        "enabled": "已启用",
+                        "action": "操作",
+                        "preview": "预览"
                     }
                 },
                 "convert": {
