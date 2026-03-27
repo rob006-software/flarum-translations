@@ -340,6 +340,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/migratetoflarum/fake-data/2.0.0-beta.1/resources/locale/en.yml',
 	],
 	'ralkage-ad-management' => [
+		'beta' => 'https://raw.githubusercontent.com/Ralkage/flarum-ext-ad-management/v2.0.0-beta.8/locale/en.yml',
 	],
 	'ralkage-cap-captcha' => [
 		'beta' => 'https://raw.githubusercontent.com/Ralkage/flarum-ext-cap-captcha/v2.0.0-beta.8/locale/en.yml',
