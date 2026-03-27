@@ -44,7 +44,7 @@
                         "domain_label": "GitLab 域名"
                     },
                     "google": {
-                        "description": "前往此处创建应用：{link}",
+                        "description": "前往此处创建应用：{link}。",
                         "client_id_label": "=> fof-oauth.ref.settings.client_id",
                         "client_secret_label": "=> fof-oauth.ref.settings.client_secret",
                         "hosted_domain_label": "托管域名（G 套件/Google 企业应用，可选）"
@@ -103,9 +103,9 @@
                 "twitter": "=> fof-oauth.lib.providers.twitter"
             },
             "account_linked": {
-                "title": "",
-                "body": "",
-                "dismiss_button": ""
+                "title": "账号关联成功",
+                "body": "你的 {forum} 账号 <strong>{username}</strong> 现已与 {provider} 关联。今后，你可以使用论坛密码或 {provider} 账号登录。",
+                "dismiss_button": "知道了"
             },
             "signup": {
                 "username_help": "请选择用户名"
@@ -114,7 +114,7 @@
             "error": {
                 "bad_verification_code": "无效或过期的验证令牌，请重试。",
                 "invalid_state": "无效状态，请重试。",
-                "already_linked": ""
+                "already_linked": "该账号已与其他用户关联。"
             }
         },
         "lib": {
@@ -129,8 +129,8 @@
             },
             "gambits": {
                 "sso": {
-                    "key": "",
-                    "hint": ""
+                    "key": "sso",
+                    "hint": "登录方式"
                 }
             }
         },
