@@ -1,0 +1,61 @@
+{
+    "ekumanov-forum-widgets": {
+        "forum": {
+            "online_users": {
+                "title": "Online Users",
+                "empty": "No users currently online.",
+                "hidden_users": "hidden",
+                "overflow_more": "more"
+            },
+            "stats": {
+                "title": "Forum Statistics",
+                "discussions_count": "Discussions: {count}",
+                "posts_count": "Posts: {count}",
+                "users_count": "Users: {count}",
+                "latest_registration": "Latest Registration:",
+                "tooltip_discussions": "Discussions",
+                "tooltip_posts": "Posts",
+                "tooltip_users": "Users",
+                "tooltip_online": "Online users",
+                "tooltip_latest_registration": "Latest Registration: {name}"
+            },
+            "aria": {
+                "expand_details": "Show forum details",
+                "collapse_details": "Hide forum details",
+                "details_panel": "Forum details",
+                "overflow_users": "{count} more online users"
+            }
+        },
+        "admin": {
+            "settings": {
+                "section_online_users": "Online Users",
+                "section_online_users_help": "Configure the online users display in the expanded widget panel.",
+                "show_online_users": "Show online users",
+                "show_online_users_help": "Enable or disable the online users feature entirely. When disabled, online user data will not be collected or displayed.",
+                "max_online_users": "Maximum online users to display",
+                "max_online_users_help": "Maximum avatars shown for regular users. Users beyond this number appear as a \"+N more\" indicator. Higher values increase cache size and API payload. Recommended: 10–20.",
+                "max_online_users_privileged": "Maximum online users to display (privileged)",
+                "max_online_users_privileged_help": "Maximum avatars shown for privileged users (those with the \"Always view user last seen time\" permission — typically admins and moderators). Since this cache serves fewer users, it can safely hold more entries. Recommended: 30–50.",
+                "last_seen_interval": "Last seen interval (minutes)",
+                "last_seen_interval_help": "How many minutes since last activity to consider a user online.",
+                "online_users_cache_ttl": "Online users cache duration (seconds)",
+                "online_users_cache_ttl_help": "How long to cache the online users list. Two separate caches are maintained: one for privileged users (those with the \"Always view user last seen time\" permission, who can also see hidden users) and one for regular users. Each cache respects its own maximum display limit.",
+                "section_statistics": "Forum Statistics",
+                "section_statistics_help": "Configure caching for the discussion count, post count, total users count, and latest registration stats.",
+                "stats_cache_duration": "Statistics cache duration (seconds)",
+                "stats_cache_duration_help": "How long to cache discussion count, post count, total user count, and latest registration. The cache is automatically invalidated when discussions, posts, or users are created or deleted. Set to 0 to disable caching (not recommended for large forums).",
+                "ignore_private_discussions": "Ignore private discussions in count",
+                "section_display": "Widget Display",
+                "widget_position": "Widget sidebar position (priority)",
+                "widget_position_help": "Controls where the widget appears in the sidebar. Lower (more negative) values place it further down. Default: -10."
+            },
+            "permissions": {
+                "view_online_users": "View online users",
+                "view_discussions_count": "View discussions count",
+                "view_posts_count": "View posts count",
+                "view_users_count": "View users count",
+                "view_latest_registration": "View latest registration"
+            }
+        }
+    }
+}
