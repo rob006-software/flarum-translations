@@ -2,25 +2,25 @@
     "forumaker-magic-dice": {
         "admin": {
             "settings": {
-                "section_main": "",
-                "clearOnEdit": ""
+                "section_main": "设置",
+                "clearOnEdit": "编辑帖子时重新生成随机数"
             }
         },
         "forum": {
             "tooltip": {
-                "preview": ""
+                "preview": "保存后随机掷骰"
             },
             "composer": {
-                "rollDie": ""
+                "rollDie": "魔法骰子"
             },
             "settings": {
                 "diceSkin": {
-                    "heading": "",
-                    "classic": "",
-                    "circle": "",
-                    "hc": "",
-                    "gradient": "",
-                    "neon": ""
+                    "heading": "骰子样式",
+                    "classic": "经典",
+                    "circle": "轨道",
+                    "hc": "高对比度",
+                    "gradient": "日落",
+                    "neon": "霓虹"
                 }
             }
         }
