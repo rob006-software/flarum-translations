@@ -1574,6 +1574,9 @@ return [
 	'ralkage-word-censor' => [
 		'tag' => 'https://raw.githubusercontent.com/Ralkage/flarum-ext-word-censor/1.0.0/locale/en.yml',
 	],
+	'ralkage-word-counter' => [
+		'tag' => 'https://raw.githubusercontent.com/Ralkage/flarum-ext-word-counter/1.0.0/locale/en.yml',
+	],
 	'ramesh-dada-gui-image-and-link' => [
 		'tag' => 'https://raw.githubusercontent.com/ramesh-dada/Flarum-GUI-Image-and-Link/1.0/resources/locale/en.yml',
 	],
