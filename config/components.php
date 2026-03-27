@@ -881,6 +881,9 @@ return [
 	'glowingblue-localizd' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/84b06a54d8679050557844666ca9436064cb016b/glowingblue-localizd.yml',
 	],
+	'glowingblue-move-posts' => [
+		'tag' => 'https://raw.githubusercontent.com/glowingblue/flarum-ext-move-posts/1.1.1/locale/en.yml',
+	],
 	'glowingblue-password-strength' => [
 		'tag' => 'https://raw.githubusercontent.com/glowingblue/flarum-ext-password-strength/4.0.0/locale/en.yml',
 		'__builtInLanguages' => [
