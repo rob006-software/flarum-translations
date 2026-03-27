@@ -374,6 +374,9 @@ return [
 	],
 	'ramon-colored' => [
 	],
+	'resofire-aurora' => [
+		'tag' => 'https://raw.githubusercontent.com/ResofireV2/aurora/v0.1.4/locale/en.yml',
+	],
 	'resofire-blog-cards' => [
 		'tag' => 'https://raw.githubusercontent.com/ResofireV2/blog-cards/v2.0.4/locale/en.yml',
 	],
