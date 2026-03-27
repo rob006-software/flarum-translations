@@ -1248,6 +1248,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`ralkage-linked-accounts`](https://weblate.rob006.net/projects/flarum/ralkage-linked-accounts) | [`ralkage/flarum-ext-linked-accounts`](https://github.com/Ralkage/flarum-ext-linked-accounts) |
 | [`ralkage-profile-messages`](https://weblate.rob006.net/projects/flarum/ralkage-profile-messages) | [`ralkage/flarum-ext-profile-messages`](https://github.com/Ralkage/flarum-ext-profile-messages) |
 | [`ralkage-word-censor`](https://weblate.rob006.net/projects/flarum/ralkage-word-censor) | [`ralkage/flarum-ext-word-censor`](https://github.com/Ralkage/flarum-ext-word-censor) |
+| [`ralkage-word-counter`](https://weblate.rob006.net/projects/flarum/ralkage-word-counter) | [`ralkage/flarum-ext-word-counter`](https://github.com/Ralkage/flarum-ext-word-counter) |
 | [`ralkage-hcaptcha`](https://weblate.rob006.net/projects/flarum/ralkage-hcaptcha) | [`ralkage/flarum-hcaptcha`](https://github.com/Ralkage/flarum-hcaptcha) |
 | [`ramesh-dada-gui-image-and-link`](https://weblate.rob006.net/projects/flarum/ramesh-dada-gui-image-and-link) | [`ramesh-dada/flarum-gui-image-and-link`](https://github.com/ramesh-dada/Flarum-GUI-Image-and-Link) |
 | [`ramesh-dada-realtime`](https://weblate.rob006.net/projects/flarum/ramesh-dada-realtime) | [`ramesh-dada/realtime`](https://github.com/ramesh-dada/realtime) |
