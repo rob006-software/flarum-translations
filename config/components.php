@@ -366,7 +366,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ResofireV2/discussion-participants/v2.0.6/locale/en.yml',
 	],
 	'resofire-menu-control' => [
-		'tag' => 'https://raw.githubusercontent.com/ResofireV2/menu-control/v2.2.5/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ResofireV2/menu-control/v2.2.6/resources/locale/en.yml',
 	],
 	'sycho-advanced-extension-categories' => [
 		'tag' => 'https://raw.githubusercontent.com/SychO9/flarum-advanced-extension-categories/v0.2.1/locale/en.yml',
