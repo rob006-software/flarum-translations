@@ -3,8 +3,8 @@
         "admin": {
             "settings": {
                 "help_text": "<a>点击此处</a>，前往 Cloudflare 账号控制台生成 Turnstile 密钥。",
-                "site_key": "站点公钥",
-                "secret_key": "私钥",
+                "site_key": "站点key",
+                "secret_key": "密钥",
                 "signup": "=> core.forum.sign_up.title",
                 "signin": "=> core.forum.log_in.title",
                 "forgot": "=> core.forum.forgot_password.title"
