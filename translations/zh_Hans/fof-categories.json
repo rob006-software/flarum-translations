@@ -2,54 +2,54 @@
     "fof-categories": {
         "admin": {
             "basics": {
-                "categories_label": ""
+                "categories_label": "分类"
             },
             "labels": {
-                "keep_tags_nav": "",
-                "child_bare_icon": "",
-                "compact_mobile_mode": "",
-                "full_page_desktop": "",
-                "parent_remove_icon": "",
-                "parent_remove_description": "",
-                "parent_remove_stats": "",
-                "parent_remove_last_discussion": "",
-                "small_forum_optimized": ""
+                "keep_tags_nav": "在侧边导航栏保留标签页面链接？",
+                "child_bare_icon": "使用无背景的子图标？",
+                "compact_mobile_mode": "移动端紧凑模式",
+                "full_page_desktop": "桌面端全屏显示？",
+                "parent_remove_icon": "隐藏顶级标签图标？",
+                "parent_remove_description": "隐藏顶级标签描述？",
+                "parent_remove_stats": "隐藏顶级标签统计数据？",
+                "parent_remove_last_discussion": "隐藏顶级标签的最新讨论？",
+                "small_forum_optimized": "为小型论坛优化？"
             },
             "help": {
-                "child_bare_icon": "",
-                "full_page_desktop": "",
-                "small_forum_optimized": ""
+                "child_bare_icon": "子分类上的图标是否应在没有圆形背景的情况下显示？",
+                "full_page_desktop": "侧边栏导航菜单是否应折叠为一行（如传统的标签页面）？这还会在分类页面导航栏中隐藏组件（如 Friends of Flarum 论坛统计）。",
+                "small_forum_optimized": "这将提供更准确的讨论/帖子计数，但会大幅降低中大型论坛的速度。"
             },
             "headings": {
-                "nav": "",
-                "layout": "",
-                "parent_display": "",
-                "child_display": "",
-                "performance": ""
+                "nav": "导航",
+                "layout": "布局",
+                "parent_display": "父分类显示",
+                "child_display": "子分类显示",
+                "performance": "性能"
             },
-            "title": ""
+            "title": "分类设置"
         },
         "forum": {
             "all_categories": {
-                "meta_description_text": "",
-                "meta_title_text": ""
+                "meta_description_text": "所有分类",
+                "meta_title_text": "=> fof-categories.ref.categories"
             },
             "header": {
-                "back_to_categories_tooltip": ""
+                "back_to_categories_tooltip": "返回分类"
             },
             "index": {
-                "categories_link": ""
+                "categories_link": "=> fof-categories.ref.categories"
             },
             "stat-widgets": {
-                "discussion_label": "",
-                "post_label": ""
+                "discussion_label": "讨论",
+                "post_label": "帖子"
             },
             "last_discussion_widget": {
-                "no_discussions": ""
+                "no_discussions": "暂无讨论（抢个沙发吧！）"
             }
         },
         "ref": {
-            "categories": ""
+            "categories": "分类"
         }
     }
 }
