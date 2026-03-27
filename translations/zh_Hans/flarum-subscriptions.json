@@ -21,7 +21,7 @@
             },
             "settings": {
                 "follow_after_reply_label": "自动关注我回复的主题",
-                "follow_after_create_label": "",
+                "follow_after_create_label": "自动关注我发布的主题",
                 "notify_for_all_posts_label": "通知每一个新帖，而非仅最后一个",
                 "notify_new_post_label": "我关注的主题有新回复"
             },
@@ -41,10 +41,10 @@
             "new_post": {
                 "subject": "【新帖】{title}",
                 "plain": {
-                    "body": ""
+                    "body": "{poster_display_name} 刚刚在您关注的主题中发表了新内容：{title}。\n\n点击下方链接查看最新动态：\n{url}\n\n---\n\n{content}\n\n---\n\n在您阅读此内容之前，您不会再收到关于此主题的更多通知。\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{poster_display_name} 刚刚在您关注的主题中发表了新内容：{title}。\n\n在您阅读此内容之前，您不会再收到关于此主题的更多通知。\n"
                 }
             }
         },
@@ -52,8 +52,8 @@
             "gambits": {
                 "discussions": {
                     "subscription": {
-                        "following_key": "",
-                        "ignoring_key": ""
+                        "following_key": "following",
+                        "ignoring_key": "ignoring"
                     }
                 }
             }
