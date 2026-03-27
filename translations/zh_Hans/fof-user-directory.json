@@ -13,7 +13,7 @@
                     "placeholder": "搜索用户"
                 },
                 "kinds": {
-                    "group": "用户组",
+                    "group": "群组",
                     "text": "关键词"
                 }
             },
@@ -22,9 +22,9 @@
                 "refresh_tooltip": "=> core.forum.index.refresh_tooltip",
                 "load_more_button": "=> core.ref.load_more",
                 "empty_text": "抱歉，没有找到匹配的用户。",
-                "filter_button": "筛选用户组",
+                "filter_button": "筛选群组",
                 "usercard": {
-                    "discussion-count": "{count, plural, one {主题 {count}} other {主题 {count}}}",
+                    "discussion-count": "{count, plural, one {讨论 {count}} other {讨论 {count}}}",
                     "post-count": "{count, plural, one {回复 {count}} other {回复 {count}}}"
                 }
             }
@@ -38,7 +38,7 @@
                 "default-sort": "默认排序",
                 "use-small-cards": "使用小尺寸卡片",
                 "disable-global-search-source": "不要将会员名录添加到论坛搜索建议中",
-                "link-group-mentions": "将帖子中的组提及链接到用户名录"
+                "link-group-mentions": "将帖子中的群组提及链接到用户名录"
             }
         },
         "lib": {
@@ -51,8 +51,8 @@
                 "oldest": "老用户",
                 "most_posts": "发帖最多",
                 "least_posts": "发帖最少",
-                "most_discussions": "主题最多",
-                "least_discussions": "主题最少"
+                "most_discussions": "讨论最多",
+                "least_discussions": "讨论最少"
             }
         }
     }
