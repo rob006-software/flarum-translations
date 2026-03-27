@@ -138,6 +138,9 @@ return [
 	'blomstra-secondary-tags-toggler' => [
 		'tag' => 'https://raw.githubusercontent.com/blomstra/flarum-ext-secondary-tags-toggler/0.2.3/locale/en.yml',
 	],
+	'blomstra-sendgrid' => [
+		'beta' => 'https://raw.githubusercontent.com/blomstra/flarum-ext-sendgrid/1.0-beta.4/locale/en.yml',
+	],
 	'blomstra-sort-order-toggle' => [
 		'tag' => 'https://raw.githubusercontent.com/blomstra/flarum-ext-sort-order-toggle/0.2.0/locale/en.yml',
 	],
