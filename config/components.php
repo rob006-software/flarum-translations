@@ -372,8 +372,6 @@ return [
 			'pt_BR',
 		],
 	],
-	'ramon-colored' => [
-	],
 	'resofire-blog-cards' => [
 		'tag' => 'https://raw.githubusercontent.com/ResofireV2/blog-cards/v2.0.4/locale/en.yml',
 	],
