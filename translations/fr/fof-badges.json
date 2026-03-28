@@ -143,7 +143,7 @@
             "badge_name": "Nom",
             "badge_name_placeholder": "par exemple, « Maître des 100 messages »",
             "badge_slug": "Slug",
-            "badge_slug_placeholder": "",
+            "badge_slug_placeholder": "par exemple, « maitre-100-messages »",
             "badge_slug_help": "",
             "badge_description": "Description",
             "badge_description_placeholder": "Décrivez comment obtenir ce badge...",
@@ -161,7 +161,7 @@
             "save": "Sauvegarder",
             "cancel": "Annuler",
             "validation": {
-                "tag_required": ""
+                "tag_required": "Vous devez sélectionner une étiquette lorsque vous utilisez le métrique « Messages associés à cette étiquette »."
             },
             "icon_picker": {
                 "expand": "Afficher le sélecteur d'icônes",
@@ -197,7 +197,7 @@
                 "has_avatar": "A un avatar",
                 "has_bio": "A une biographie",
                 "has_nickname": "A un surnom",
-                "tag_posts": "Messages sous l'étiquette",
+                "tag_posts": "Messages associés à cette étiquette",
                 "edit_count": "Messages modifiés",
                 "best_answers_received": "Meilleures réponses reçues",
                 "files_uploaded": "Fichiers transférés",
@@ -266,7 +266,7 @@
             "owned_badge": "Vous possédez ce badge",
             "earned_users": "Obtenu par",
             "no_users_earned": "Personne n'a obtenu ce badge pour le moment. Soyez le premier !",
-            "more_users_earned": "",
+            "more_users_earned": "Et d'autres utilisateurs…",
             "user": {
                 "badges_tab": "Badges",
                 "badges_title": "Les badges de {username}",
