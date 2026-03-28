@@ -294,7 +294,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/forumaker/magicslider/2.1.0/resources/locale/en.yml',
 	],
 	'forumaker-yandex-oauth' => [
-		'tag' => 'https://raw.githubusercontent.com/forumaker/Yandex-Oauth/2.0.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/forumaker/Yandex-Oauth/2.1.0/resources/locale/en.yml',
 		'__builtInLanguages' => [
 			'ru',
 		],
