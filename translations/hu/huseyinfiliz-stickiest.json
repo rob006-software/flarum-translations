@@ -2,16 +2,16 @@
     "huseyinfiliz-stickiest": {
         "admin": {
             "permissions": {
-                "super_sticky_discussions_label": "",
-                "tag_sticky_discussions_label": "",
+                "super_sticky_discussions_label": "Mindenképp kitűzött témák",
+                "tag_sticky_discussions_label": "Címkében kitűzött témák",
                 "stickiest_label": "",
                 "tag_sticky_label": ""
             },
             "settings": {
-                "badge_icon_label": "",
-                "badge_icon_text": "",
-                "display_tag_sticky_label": "",
-                "display_tag_sticky_text": "",
+                "badge_icon_label": "Mindenképp kitűzött témák jelvényikonja",
+                "badge_icon_text": "=> core.ref.icon_text",
+                "display_tag_sticky_label": "Címkében kitűzött témák megjelenítése az „Összes téma” listában",
+                "display_tag_sticky_text": "Szokásos témaként lesznek kezelve, és nem lesznek fentre kitűzve.",
                 "show_tag_sticky_label": "",
                 "show_tag_sticky_help": "",
                 "show_sticky_highlight_label": "",
@@ -22,31 +22,31 @@
         },
         "forum": {
             "badge": {
-                "sticky_tooltip": "",
-                "super_sticky_tooltip": "",
-                "tag_sticky_tooltip": "",
-                "super_tag_sticky_tooltip": "",
+                "sticky_tooltip": "=> huseyinfiliz-stickiest.ref.sticky",
+                "super_sticky_tooltip": "=> huseyinfiliz-stickiest.ref.super_sticky",
+                "tag_sticky_tooltip": "=> huseyinfiliz-stickiest.ref.tag_sticky",
+                "super_tag_sticky_tooltip": "=> huseyinfiliz-stickiest.ref.super_tag_sticky",
                 "stickiest_tooltip": ""
             },
             "stickiest_modal": {
-                "title": "",
-                "sticky_label": "",
-                "sticky_text": "",
-                "super_sticky_label": "",
-                "super_sticky_text": "",
-                "tag_sticky_label": "",
-                "tag_sticky_text": "",
-                "tags_label": "",
-                "submit_button": ""
+                "title": "Kitűzés: {title}",
+                "sticky_label": "=> flarum-sticky.ref.sticky",
+                "sticky_text": "A kitűzött témák az „Összes téma” lista tetejére lesznek kitűzve, ha olvasatlanok. Ha egy konkrét, a témához tartozó címkét néznek meg, akkor mindig az összes elem felett jelenik meg.",
+                "super_sticky_label": "=> huseyinfiliz-stickiest.ref.super_sticky",
+                "super_sticky_text": "A mindenképp kitűzött témák mindentől függetlenül legfelülre kerülnek.",
+                "tag_sticky_label": "=> huseyinfiliz-stickiest.ref.tag_sticky",
+                "tag_sticky_text": "A címkében kitűzött témák alapértelmezés szerint nem jelennek meg az „Összes téma” listában. Csak akkor jelennek meg és lesznek kitűzve, ha az itt kiválasztott címkék egyikét nézik meg. Ez a beállítás kombinálható a „Mindenképp kitűzött” lehetőséggel.",
+                "tags_label": "=> flarum-tags.ref.tags",
+                "submit_button": "=> core.ref.save_changes"
             },
             "discussion_controls": {
-                "sticky_button": ""
+                "sticky_button": "=> flarum-sticky.forum.discussion_controls.sticky_button"
             },
             "post_stream": {
-                "discussion_stickied_text": "",
-                "discussion_unstickied_text": "",
-                "discussion_super_stickied_text": "",
-                "discussion_common_stickied_text": "",
+                "discussion_stickied_text": "=> flarum-sticky.forum.post_stream.discussion_stickied_text",
+                "discussion_unstickied_text": "=> flarum-sticky.forum.post_stream.discussion_unstickied_text",
+                "discussion_super_stickied_text": "{username} mindenképp kitűzöttnek jelölte a témát.",
+                "discussion_common_stickied_text": "{username} megszüntette a téma mindenképp kitűzöttnek jelölését.",
                 "discussion_stickiest_text": "",
                 "discussion_unstickiest_text": ""
             },
@@ -63,10 +63,10 @@
             }
         },
         "ref": {
-            "sticky": "",
-            "super_sticky": "",
-            "tag_sticky": "",
-            "super_tag_sticky": ""
+            "sticky": "=> flarum-sticky.ref.sticky",
+            "super_sticky": "Mindenképp kitűzött",
+            "tag_sticky": "Címkében kitűzött",
+            "super_tag_sticky": "Mindenképp és címkében kitűzött"
         }
     }
 }
