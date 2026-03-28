@@ -902,6 +902,12 @@ return [
 			'zh_Hans',
 		],
 	],
+	'gtdxyz-cookie-consent' => [
+		'tag' => 'https://raw.githubusercontent.com/daocatt/flarum-cookie-consent/1.0/resources/locale/en.yml',
+		'__builtInLanguages' => [
+			'zh_Hans',
+		],
+	],
 	'hehongyuanlove-auth-qq' => [
 		'tag' => 'https://raw.githubusercontent.com/Hehongyuanlove/flarum-auth-qq/2.5.1/resources/locale/en.yml',
 	],
