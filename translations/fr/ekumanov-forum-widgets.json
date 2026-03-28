@@ -2,37 +2,37 @@
     "ekumanov-forum-widgets": {
         "forum": {
             "online_users": {
-                "title": "",
-                "empty": "",
+                "title": "Utilisateurs en ligne",
+                "empty": "Aucun utilisateur n'est actuellement en ligne.",
                 "hidden_users": "",
-                "overflow_more": ""
+                "overflow_more": "plus"
             },
             "stats": {
-                "title": "",
-                "discussions_count": "",
-                "posts_count": "",
-                "users_count": "",
-                "latest_registration": "",
-                "tooltip_discussions": "",
-                "tooltip_posts": "",
-                "tooltip_users": "",
-                "tooltip_online": "",
-                "tooltip_latest_registration": ""
+                "title": "Statistiques du forum",
+                "discussions_count": "Discussions : {count}",
+                "posts_count": "Messages : {count}",
+                "users_count": "Utilisateurs : {count}",
+                "latest_registration": "Dernière inscription :",
+                "tooltip_discussions": "Discussions",
+                "tooltip_posts": "Messages",
+                "tooltip_users": "Utilisateurs",
+                "tooltip_online": "Utilisateurs en ligne",
+                "tooltip_latest_registration": "Dernière inscription : {name}"
             },
             "aria": {
-                "expand_details": "",
-                "collapse_details": "",
-                "details_panel": "",
+                "expand_details": "Afficher les informations du forum",
+                "collapse_details": "Masquer les informations du forum",
+                "details_panel": "Informations du forum",
                 "overflow_users": ""
             }
         },
         "admin": {
             "settings": {
-                "section_online_users": "",
+                "section_online_users": "Utilisateurs en ligne",
                 "section_online_users_help": "",
-                "show_online_users": "",
+                "show_online_users": "Afficher les utilisateurs en ligne",
                 "show_online_users_help": "",
-                "max_online_users": "",
+                "max_online_users": "Nombre maximal d'utilisateurs en ligne à afficher",
                 "max_online_users_help": "",
                 "max_online_users_privileged": "",
                 "max_online_users_privileged_help": "",
@@ -40,21 +40,21 @@
                 "last_seen_interval_help": "",
                 "online_users_cache_ttl": "",
                 "online_users_cache_ttl_help": "",
-                "section_statistics": "",
+                "section_statistics": "Statistiques du forum",
                 "section_statistics_help": "",
                 "stats_cache_duration": "",
                 "stats_cache_duration_help": "",
-                "ignore_private_discussions": "",
-                "section_display": "",
-                "widget_position": "",
+                "ignore_private_discussions": "Ignorer les discussions privées dans le décompte",
+                "section_display": "Affichage du widget",
+                "widget_position": "Position du widget dans la barre latérale (priorité)",
                 "widget_position_help": ""
             },
             "permissions": {
-                "view_online_users": "",
-                "view_discussions_count": "",
-                "view_posts_count": "",
-                "view_users_count": "",
-                "view_latest_registration": ""
+                "view_online_users": "Voir les utilisateurs en ligne",
+                "view_discussions_count": "Voir le nombre de discussions",
+                "view_posts_count": "Voir le nombre de messages",
+                "view_users_count": "Voir le nombre d'utilisateurs",
+                "view_latest_registration": "Voir la dernière inscription"
             }
         }
     }
