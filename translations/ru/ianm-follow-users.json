@@ -24,10 +24,10 @@
             "followed": "Подписан",
             "followers": "{count, plural, one {Подписчик} other {Подписчиков}}",
             "profile_link": "Подписки",
-            "followers_link": "",
+            "followers_link": "Подписчики",
             "profile_page": {
                 "no_following": "Похоже, вы ни на кого не подписаны.",
-                "no_followers": ""
+                "no_followers": "Похоже, у вас пока нет подписчиков."
             },
             "user_controls": {
                 "follow_button": "=> ianm-follow-users.lib.follow",
@@ -75,30 +75,30 @@
         },
         "email": {
             "new_discussion_by_user": {
-                "subject": "",
+                "subject": "{user_display_name} начал(а) дискуссию",
                 "plain": {
-                    "body": ""
+                    "body": "{user_display_name} начал(а) новую дискуссию: {discussion_title}\n\n{discussion_url}\n\n---\n\n{post_content}\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{user_display_name} начал(а) новую дискуссию: [{discussion_title}]({discussion_url})."
                 }
             },
             "new_follower": {
-                "subject": "",
+                "subject": "{follower_display_name} теперь подписан(а) на вас",
                 "plain": {
-                    "body": ""
+                    "body": "{follower_display_name} теперь подписан(а) на вас и будет получать уведомления, когда вы создаёте новую дискуссию.\n\n{profile_url}\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{follower_display_name} теперь подписан(а) на вас и будет получать уведомления, когда вы создаёте новую дискуссию."
                 }
             },
             "new_post": {
-                "subject": "",
+                "subject": "{user_display_name} оставил(а) сообщение в {discussion_title}",
                 "plain": {
-                    "body": ""
+                    "body": "{user_display_name} оставил(а) сообщение в {discussion_title}.\n\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nВы больше не будете получать уведомления об этой дискуссии, пока не просмотрите все новые сообщения.\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{user_display_name} оставил(а) сообщение в [{discussion_title}]({post_url})."
                 }
             }
         },
@@ -123,7 +123,7 @@
             },
             "gambits": {
                 "followeduser": {
-                    "key": ""
+                    "key": "подписан"
                 }
             }
         }
