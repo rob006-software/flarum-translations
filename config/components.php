@@ -1221,6 +1221,9 @@ return [
 	'justoverclock-staff-members-widget' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/staff-member-widget/0.1.3/locale/en.yml',
 	],
+	'justoverclock-stats' => [
+		'tag' => 'https://raw.githubusercontent.com/justoverclockl/stats/1.1.0/locale/en.yml',
+	],
 	'justoverclock-steam-api' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/84b06a54d8679050557844666ca9436064cb016b/justoverclock-steam-api.yml',
 	],
