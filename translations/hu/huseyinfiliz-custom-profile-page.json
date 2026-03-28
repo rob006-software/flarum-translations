@@ -2,50 +2,50 @@
     "huseyinfiliz-custom-profile-page": {
         "admin": {
             "settings": {
-                "tab_title": "",
-                "tab_icon": "",
-                "tab_icon_help": "",
-                "url_slug": "",
-                "url_slug_help": "",
-                "content_format": "",
-                "format_markdown": "",
-                "format_html": "",
-                "format_text": "",
-                "allowed_html_tags": "",
-                "allowed_html_tags_help": "",
-                "default_template": "",
-                "default_template_help": "",
-                "enable_media_embeds": "",
-                "enable_media_embeds_help": ""
+                "tab_title": "Profil lap címe",
+                "tab_icon": "Lapikon (FontAwesome osztály)",
+                "tab_icon_help": "Például: fas fa-file-alt, fas fa-user, fas fa-star",
+                "url_slug": "Keresőbarát webcím",
+                "url_slug_help": "Az egyéni oldal webcíme (például a „customPage”-ből /u/username/customPage lesz). Csak betűt, számot, kötőjelet és aláhúzást használjon.",
+                "content_format": "Tartalomformátum",
+                "format_markdown": "Markdown",
+                "format_html": "HTML",
+                "format_text": "Egyszerű szöveg",
+                "allowed_html_tags": "Engedélyezett HTML-címkék",
+                "allowed_html_tags_help": "Engedélyezett HTML-címkék vesszővel elválasztott listája (például b,i,u,strong,em,a). Csak ezek a címkék lesznek megjelenítve a felhasználók számára.",
+                "default_template": "Alapértelmezett sablon",
+                "default_template_help": "Ez a tartalom automatikusan meg fog jelenni a szerkesztőben, ha a felhasználók létrehozzák az első egyéni oldalukat. Hagyja üresen, hogy üres maradjon a szerkesztő.",
+                "enable_media_embeds": "Médiabeágyazások engedélyezése",
+                "enable_media_embeds_help": "YouTube-hivatkozások automatikus átalakítása beágyazott videólejátszóvá. Ha ki van kapcsolva, akkor a hivatkozások szokásos szöveghivatkozásként jelennek meg."
             },
             "permissions": {
-                "edit_own": "",
-                "view": "",
-                "moderate": ""
+                "edit_own": "Saját egyéni profiloldal szerkesztése",
+                "view": "Egyéni profiloldalak megtekintése",
+                "moderate": "Egyéni profiloldalak moderálása (bármely felhasználó oldalának szerkesztése)"
             }
         },
         "forum": {
             "profile_tab": {
-                "loading": "",
-                "empty_own": "",
-                "empty_other": "",
-                "edit_button": "",
-                "save_button": "",
-                "cancel_button": ""
+                "loading": "Betöltés…",
+                "empty_own": "Úgy tűnik, hogy még nem hozta létre a saját egyéni oldalát.",
+                "empty_other": "Úgy néz ki, hogy itt nincs tartalom.",
+                "edit_button": "Oldal szerkesztése",
+                "save_button": "Mentés",
+                "cancel_button": "Mégse"
             },
             "edit_modal": {
-                "title": "",
-                "content_label": "",
-                "content_placeholder": "",
-                "submit_button": "",
-                "error": "",
-                "markdown_help": "",
-                "html_help": "",
-                "text_help": ""
+                "title": "Egyéni profiloldal szerkesztése",
+                "content_label": "Tartalom",
+                "content_placeholder": "Írja ide a tartalmát…",
+                "submit_button": "Változtatások mentése",
+                "error": "Nem sikerült a változtatások mentése. Próbálja újra.",
+                "markdown_help": "Használhat Markdown formázást: **félkövér**, *dőlt*, [hivatkozás](webcím), `kód` stb.",
+                "html_help": "Használhatja a következő HTML-címkéket: {tags}",
+                "text_help": "Csak egyszerű szöveg. A HTML vagy Markdown formázás nem támogatott."
             },
             "errors": {
-                "permission_denied": "",
-                "load_failed": ""
+                "permission_denied": "Nincs engedélye, hogy megtekintse ezt az oldalt",
+                "load_failed": "Nem sikerült az egyéni lap betöltése"
             }
         }
     }
