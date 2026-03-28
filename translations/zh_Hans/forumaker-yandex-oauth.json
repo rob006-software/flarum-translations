@@ -2,24 +2,24 @@
     "fof-oauth": {
         "lib": {
             "providers": {
-                "yandex": ""
+                "yandex": "Yandex"
             }
         },
         "forum": {
             "providers": {
-                "yandex": ""
+                "yandex": "Yandex"
             },
             "log_in": {
-                "with_yandex_button": ""
+                "with_yandex_button": "通过 Yandex 登录"
             }
         },
         "admin": {
             "settings": {
                 "providers": {
                     "yandex": {
-                        "description": "",
-                        "client_id_label": "",
-                        "client_secret_label": ""
+                        "description": "在 https://oauth.yandex.ru 创建应用",
+                        "client_id_label": "Client ID",
+                        "client_secret_label": "Client Secret"
                     }
                 }
             }
