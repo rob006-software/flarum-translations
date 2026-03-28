@@ -56,21 +56,21 @@
                     },
                     "preview": {
                         "button": "Previzualizare pictograme",
-                        "label": "",
-                        "help": "",
-                        "fa5_fa6_label": "",
-                        "fa7_label": "",
-                        "pro_label": ""
+                        "label": "Previzualizare pictogramă",
+                        "help": "Verifică configurația FontAwesome. O pictogramă redată înseamnă că acel nivel este disponibil; un pătrat gol înseamnă că nu este încărcat.",
+                        "fa5_fa6_label": "Aliasuri FA5/FA6",
+                        "fa7_label": "Clase FA7",
+                        "pro_label": "Doar Pro"
                     }
                 },
                 "pgsql": {
-                    "search_configuration": ""
+                    "search_configuration": "Configurația de căutare de utilizat"
                 },
                 "queue": {
-                    "section_label": "",
-                    "sync_info": "",
-                    "sync_help": "",
-                    "custom_driver": "",
+                    "section_label": "Coadă",
+                    "sync_info": "Forumul tău utilizează driverul de coadă sincron. Joburile sunt procesate imediat în firul principal de execuție.",
+                    "sync_help": "Pentru o performanță și o experiență de utilizare mai bună, ia în considerare utilizarea driverului de coadă prin baza de date. Află mai multe în documentație.",
+                    "custom_driver": "Forumul tău utilizează driverul de coadă {driver}, care este furnizat de o extensie.",
                     "retries_label": "",
                     "retries_help": "",
                     "memory_label": "",
