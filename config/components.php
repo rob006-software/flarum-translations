@@ -1563,7 +1563,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/Ralkage/flarum-ext-civility-filter/1.0.1/locale/en.yml',
 	],
 	'ralkage-hcaptcha' => [
-		'tag' => 'https://raw.githubusercontent.com/Ralkage/flarum-hcaptcha/1.1.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/Ralkage/flarum-hcaptcha/1.3.0/resources/locale/en.yml',
 	],
 	'ralkage-linked-accounts' => [
 		'tag' => 'https://raw.githubusercontent.com/Ralkage/flarum-ext-linked-accounts/1.0.0/locale/en.yml',
