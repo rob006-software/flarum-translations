@@ -1,35 +1,35 @@
 {
     "resofire_blog_cards": {
         "forum": {
-            "replies": "",
-            "unreadReplies": "",
-            "show_all_participants": "",
-            "more_participants": "",
-            "modal_title": "",
-            "load_more": ""
+            "replies": "Ответы: {count}",
+            "unreadReplies": "Непрочитанные ответы: {count}",
+            "show_all_participants": "Показать всех участников",
+            "more_participants": "{count}+",
+            "modal_title": "Участники: {count}",
+            "load_more": "Показать ещё"
         },
         "admin": {
             "settings": {
-                "onIndexPage_label": "",
-                "onIndexPage_help": "",
-                "tagIds_label": "",
-                "tagIds_help": "",
-                "fullWidth_label": "",
-                "fullWidth_help": "",
-                "showParticipants_label": "",
-                "showParticipants_help": ""
+                "onIndexPage_label": "Использовать в списке дискуссий",
+                "onIndexPage_help": "Если включено, список дискуссий будет отображаться в виде карточек.",
+                "tagIds_label": "Ограничить по тегам",
+                "tagIds_help": "Выберите теги, для которых будут отображаться карточки. Если ничего не выбрано, карточки будут показаны на всех страницах тегов.",
+                "fullWidth_label": "Карточки во всю ширину",
+                "fullWidth_help": "Если включено, каждая карточка будет занимать всю ширину вместо отображения по две в ряд.",
+                "showParticipants_label": "Показывать аватары участников",
+                "showParticipants_help": "Если включено, внизу каждой карточки будет отображаться полоса с аватарами участников."
             },
-            "tools_heading": "",
-            "recalculate_help": "",
-            "recalculate_button": "",
-            "recalculating_button": "",
-            "recalculate_success": "",
-            "recalculate_error": "",
-            "recalculate_modal_title": "",
-            "recalculate_modal_warning": "",
-            "recalculate_modal_progress": "",
-            "recalculate_modal_complete": "",
-            "recalculate_modal_close": ""
+            "tools_heading": "Инструменты",
+            "recalculate_help": "Пересчитывает аватары участников для всех дискуссий. Запустите после первой установки расширения на существующем форуме или если данные предпросмотра устарелы.",
+            "recalculate_button": "Пересчитать участников",
+            "recalculating_button": "Пересчёт…",
+            "recalculate_success": "Готово. Пересчитано {count} дискуссий за {duration} с.",
+            "recalculate_error": "Произошла ошибка. Попробуйте снова или используйте команду CLI.",
+            "recalculate_modal_title": "Пересчёт участников",
+            "recalculate_modal_warning": "Не закрывайте это окно и не переходите на другие страницы, пока процесс не завершится.",
+            "recalculate_modal_progress": "{processed} из {total} дискуссий",
+            "recalculate_modal_complete": "Готово! Пересчитано {total} дискуссий.",
+            "recalculate_modal_close": "Закрыть"
         }
     }
 }
