@@ -2,21 +2,21 @@
     "ralkage-cap-captcha": {
         "admin": {
             "settings": {
-                "api_endpoint_label": "",
-                "api_endpoint_help": "",
-                "secret_key_label": "",
-                "secret_key_help": "",
-                "protect_registration_label": "",
-                "protect_registration_help": "",
-                "protect_login_label": "",
-                "protect_login_help": ""
+                "api_endpoint_label": "API-адрес Cap",
+                "api_endpoint_help": "URL вашего экземпляра Cap Standalone с ключом сайта, например: https://cap.example.com/your-site-key/",
+                "secret_key_label": "Секретный ключ Cap",
+                "secret_key_help": "Секретный ключ вашего сайта из панели управления Cap.",
+                "protect_registration_label": "Требовать CAPTCHA при регистрации",
+                "protect_registration_help": "Показывать виджет Cap в форме регистрации.",
+                "protect_login_label": "Требовать CAPTCHA при входе",
+                "protect_login_help": "Показывать виджет Cap в форме входа."
             }
         },
         "forum": {
-            "captcha_required": ""
+            "captcha_required": "Подтвердите, что вы человек, пройдя проверку CAPTCHA."
         },
         "api": {
-            "invalid_captcha": ""
+            "invalid_captcha": "Ошибка проверки CAPTCHA. Пройдите её и повторите попытку."
         }
     }
 }
