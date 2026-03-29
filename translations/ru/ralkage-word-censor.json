@@ -2,16 +2,16 @@
     "ralkage-word-censor": {
         "admin": {
             "settings": {
-                "word_list_label": "",
-                "word_list_help": "",
-                "replacement_label": "",
-                "replacement_help": ""
+                "word_list_label": "Цензурируемые слова",
+                "word_list_help": "Введите по одному слову или фразе в строке. Они будут заменены символом замены при отображении пользователям.",
+                "replacement_label": "Символ замены",
+                "replacement_help": "Символ, используемый для замены каждой буквы цензурируемого слова. По умолчанию: *"
             }
         },
         "forum": {
             "settings": {
-                "word_censor_label": "",
-                "word_censor_help": ""
+                "word_censor_label": "Включить цензуру слов",
+                "word_censor_help": "Если включено, указанные слова будут цензурироваться в сообщениях. Отключите, чтобы видеть нецензурированный контент."
             }
         }
     }
