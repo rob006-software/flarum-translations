@@ -889,10 +889,10 @@
                 },
                 "posts": {
                     "all_button": "Căutați în toate postările după „{query}”",
-                    "heading": ""
+                    "heading": "=> core.ref.posts"
                 },
                 "users": {
-                    "heading": ""
+                    "heading": "=> core.ref.users"
                 }
             },
             "series": {
@@ -901,21 +901,21 @@
                 "two_text": "{first} și {second}"
             },
             "user_selection_modal": {
-                "empty_results": "",
-                "max_items_to_select": "",
-                "search_placeholder": "",
-                "submit_button": "",
-                "title": ""
+                "empty_results": "Nu a fost găsit niciun utilizator care să corespundă căutării dumneavoastră.",
+                "max_items_to_select": "{count, plural, one {Selectați maximum # utilizator} other {Selectați maximum # utilizatori}}",
+                "search_placeholder": "=> core.ref.search_users",
+                "submit_button": "=> core.ref.okay",
+                "title": "Selectați utilizatorii relevanți"
             },
             "username": {
                 "deleted_text": "[șters]"
             },
             "datetime_formats": {
-                "fullTime": "",
+                "fullTime": "LLLL",
                 "humanTimeShort": "D MMM",
                 "humanTimeLong": "ll",
                 "scrubber": "MMMM YYYY",
-                "userListJoinDate": ""
+                "userListJoinDate": "LLL"
             }
         },
         "views": {
@@ -952,9 +952,9 @@
                 "csrf_token_mismatch": "Ați fost inactiv de prea mult timp.",
                 "csrf_token_mismatch_return_link": "Mergeți înapoi, pentru a încerca din nou",
                 "invalid_confirmation_token": "Acest link de confirmare a fost deja utilizat sau este nevalid.",
-                "maintenance_mode_link": "",
-                "maintenance_mode_message": "",
-                "maintenance_mode_title": "",
+                "maintenance_mode_link": "Autentificare administrator",
+                "maintenance_mode_message": "Acest forum este momentan închis pentru întreținere. Vă rugăm să reveniți mai târziu.",
+                "maintenance_mode_title": "Mentenanță",
                 "method_not_allowed": "Această pagină nu acceptă acea metodă de solicitare.",
                 "not_authenticated": "Nu aveți permisiunea de a accesa această pagină. Încercați din nou după conectare.",
                 "not_found": "Pagina pe care ați solicitat-o nu a putut fi găsită.",
@@ -968,7 +968,7 @@
                 "previous_page_button": "=> core.ref.previous_page"
             },
             "layout": {
-                "skip_to_content": ""
+                "skip_to_content": "Sari la conținut"
             },
             "log_out": {
                 "log_out_button": "=> core.ref.log_out",
@@ -976,12 +976,12 @@
                 "title": "=> core.ref.log_out"
             },
             "log_in": {
-                "invalid_login_message": "",
-                "username_or_email_placeholder": "",
-                "password_placeholder": "",
-                "remember_me_label": "",
-                "submit_button": "",
-                "title": ""
+                "invalid_login_message": "=> core.ref.invalid_login_message",
+                "username_or_email_placeholder": "=> core.ref.username_or_email_placeholder",
+                "password_placeholder": "=> core.ref.password",
+                "remember_me_label": "=> core.ref.remember_me_label",
+                "submit_button": "=> core.ref.log_in",
+                "title": "=> core.ref.log_in"
             },
             "reset_password": {
                 "confirm_password_label": "Confirmare parolă nouă",
@@ -990,17 +990,17 @@
                 "title": "=> core.ref.reset_your_password"
             },
             "unsubscribe_email": {
-                "title": "",
-                "return_to_forum": "",
-                "confirm_button": "",
-                "immediate_helptext": "",
-                "confirm_message": "",
-                "success_message": "",
-                "invalid_message": ""
+                "title": "Confirmare dezabonare",
+                "return_to_forum": "Înapoi la {forumTitle}",
+                "confirm_button": "Confirmă",
+                "immediate_helptext": "Veți fi dezabonat imediat după ce confirmați.",
+                "confirm_message": "Ați solicitat dezabonarea de la notificările prin e-mail de tip „{type}” de la {forumTitle}.",
+                "success_message": "V-ați dezabonat cu succes de la notificările de tip „{type}” de la {forumTitle}. Dacă doriți să le primiți din nou, vă rugăm să [vă actualizați setările]({settingsLink}).",
+                "invalid_message": "Acest link de dezabonare este nevalid sau a fost deja folosit. Pentru orice modificări ale notificărilor prin e-mail de la {forumTitle}, vă rugăm să [vă verificați setările]({settingsLink})."
             }
         },
         "api": {
-            "invalid_username_message": "",
+            "invalid_username_message": "Numele de utilizator poate conține doar litere, numere și cratime. Trebuie să conțină cel puțin o literă.",
             "invalid_filter_type": {
                 "must_be_numeric_message": "Filtrul {filter} trebuie să fie numeric.",
                 "must_not_be_array_message": "Filtrul {filter} nu trebuie să fie o matrice (array).",
@@ -1008,39 +1008,39 @@
             }
         },
         "email": {
-            "greeting": "",
-            "signoff": "",
+            "greeting": "Salut {displayName},",
+            "signoff": "Echipa {forumTitle}",
             "informational": {
-                "default_title": "",
-                "footer": "",
-                "footer_plain": ""
+                "default_title": "Informații",
+                "footer": "Acest e-mail a fost trimis către {userEmail} ca un serviciu informativ referitor la contul dumneavoastră de pe [{forumTitle}]({forumUrl}).",
+                "footer_plain": "Acest e-mail a fost trimis către {userEmail} ca un serviciu informativ referitor la contul dumneavoastră de pe {forumTitle}."
             },
             "notification": {
-                "default_title": "",
+                "default_title": "Notificare",
                 "footer": {
-                    "main_text": "",
-                    "main_text_plain": "",
-                    "unsubscribe_text": "",
-                    "unsubscribe_text_plain": "",
-                    "settings_text": "",
-                    "settings_text_plain": ""
+                    "main_text": "Acest e-mail a fost trimis către {email} deoarece sunteți abonat la notificările de tip „{type}” de pe [{forumTitle}]({forumUrl}).",
+                    "main_text_plain": "Acest e-mail a fost trimis către {email} deoarece sunteți abonat la notificările de tip „{type}” de pe {forumTitle}.",
+                    "unsubscribe_text": "Dacă doriți să nu mai primiți acest tip de notificare, [dezabonați-vă aici]({unsubscribeLink}).",
+                    "unsubscribe_text_plain": "Dacă doriți să nu mai primiți acest tip de notificare, dezabonați-vă aici: {unsubscribeLink}",
+                    "settings_text": "Gestionați setările de notificare [aici]({settingsLink}).",
+                    "settings_text_plain": "Gestionați setările de notificare aici: {settingsLink}"
                 }
             },
             "activate_account": {
                 "subject": "Activare cont nou",
-                "body": ""
+                "body": "Cineva (sperăm că dumneavoastră!) s-a înregistrat pe {forum} cu această adresă de e-mail.\n\nDacă ați fost dumneavoastră, pur și simplu faceți clic pe următorul link și contul dumneavoastră va fi activat:\n{url}\n\nDacă nu v-ați înregistrat, vă rugăm să ignorați acest e-mail.\n"
             },
             "confirm_email": {
                 "subject": "Modificare adresă de e-mail",
-                "body": ""
+                "body": "Cineva (sperăm că dumneavoastră!) a schimbat adresa de e-mail de pe {forum} cu aceasta.\n\nDacă ați fost dumneavoastră, pur și simplu faceți clic pe următorul link și adresa de e-mail va fi confirmată:\n{url}\n\nDacă nu ați fost dumneavoastră, vă rugăm să ignorați acest e-mail.\n"
             },
             "reset_password": {
                 "subject": "=> core.lib.reset_password.title",
-                "body": ""
+                "body": "Cineva (sperăm că dumneavoastră!) a trimis o cerere de recuperare a parolei pentru contul dumneavoastră de pe {forum}.\n\nDacă ați fost dumneavoastră, faceți clic pe următorul link pentru a vă reseta parola:\n{url}\n\nDacă nu doriți să vă schimbați parola, pur și simplu ignorați acest e-mail și nu se va întâmpla nimic.\n"
             },
             "send_test": {
                 "subject": "E-mail de testare Flarum",
-                "body": ""
+                "body": "Acesta este un e-mail de test pentru a confirma că setările de e-mail Flarum funcționează corect.\n\nDacă ați fost dumneavoastră, acest e-mail înseamnă că setările funcționează!\n\nDacă nu ați fost dumneavoastră, vă rugăm să ignorați acest e-mail.\n"
             }
         },
         "ref": {
@@ -1055,8 +1055,8 @@
             "custom_footer_title": "Redactare subsol",
             "custom_header_text": "HTML personalizat care va fi afișat în partea de sus a paginii.",
             "custom_header_title": "Redactare antet",
-            "dark_hc_mode_label": "",
-            "dark_mode_label": "",
+            "dark_hc_mode_label": "Modul întunecat cu contrast ridicat",
+            "dark_mode_label": "Modul întunecat",
             "delete": "Ștergere",
             "delete_forever": "Ștergere definitivă",
             "discussions": "Discuții",
@@ -1066,10 +1066,10 @@
             "extensions": "Extensii",
             "generic_confirmation_message": "Ești sigur că dorești să continui? Această acțiune nu poate fi anulată.",
             "icon": "Iconiță",
-            "icon_text": "Introduceți numele iconiței <a>Font Awesome</a> <em>împreună</em> cu prefixul <code>fas fa-</code>.",
-            "invalid_login_message": "",
-            "light_hc_mode_label": "",
-            "light_mode_label": "",
+            "icon_text": "Introduceți numele oricărei clase de pictograme <a>FontAwesome</a>, <em>inclusiv</em> prefixul (de ex. <code>fas fa-flag</code> sau <code>fa-solid fa-flag</code>).",
+            "invalid_login_message": "Datele dumneavoastră de autentificare au fost incorecte.",
+            "light_hc_mode_label": "Modul luminos cu contrast ridicat",
+            "light_mode_label": "Modul luminos",
             "load_more": "Încarcă Mai Multe",
             "loading": "Se încarcă...",
             "log_in": "Conectare",
@@ -1077,20 +1077,20 @@
             "mark_all_as_read": "Marcare toate ca citite",
             "never": "Niciodată",
             "new_token": "Token nou",
-            "newest": "",
+            "newest": "Cele mai noi",
             "next_page": "Pagina următoare",
             "notifications": "Notificări",
             "okay": "OK",
-            "oldest": "",
+            "oldest": "Cele mai vechi",
             "password": "Parolă",
             "posts": "Postări",
             "previous_page": "Pagina anterioară",
-            "relevance": "",
-            "remember_me_label": "",
+            "relevance": "Relevanță",
+            "remember_me_label": "Ține-mă minte",
             "remove": "Ștergere",
             "rename": "Redenumire",
             "reply": "Răspunde",
-            "refresh": "",
+            "refresh": "Reîmprospătare",
             "reset_your_password": "Restabilire parolă de access",
             "restore": "Restabilire",
             "save_changes": "Salvare",
@@ -1101,7 +1101,7 @@
             "some_others": "{count, plural, one {# altul} other {# altele}}",
             "start_a_discussion": "Discuție nouă",
             "username": "Nume utilizator",
-            "username_or_email_placeholder": "",
+            "username_or_email_placeholder": "Nume utilizator sau E-mail",
             "users": "Utilizatori",
             "view": "Vizualizare",
             "write_a_reply": "Scrieți un răspuns…",
