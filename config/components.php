@@ -110,6 +110,9 @@ return [
 	'blomstra-fontawesome' => [
 		'tag' => 'https://raw.githubusercontent.com/blomstra/flarum-ext-fontawesome/0.1.5/locale/en.yml',
 	],
+	'blomstra-linear' => [
+		'beta' => 'https://raw.githubusercontent.com/blomstra/flarum-linear/0.1.0-beta.22/resources/locale/en.yml',
+	],
 	'blomstra-mark-unread' => [
 		'tag' => 'https://raw.githubusercontent.com/blomstra/flarum-ext-mark-unread/0.2.0/locale/en.yml',
 	],
