@@ -1,9 +1,9 @@
 {
     "huoxin-relative-url": {
         "admin": {
-            "internal_domains_label": "",
-            "internal_domains_help": "",
-            "internal_domains_placeholder": ""
+            "internal_domains_label": "Внутренние домены",
+            "internal_domains_help": "Ссылки с этих доменов будут преобразованы в относительные пути.",
+            "internal_domains_placeholder": "По одному на строку.\nТолько домен, не указывайте http/https.\nНапример:\nforum1.org\nforum2.org\nforum3.org\n"
         }
     }
 }
