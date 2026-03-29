@@ -2,41 +2,41 @@
     "forumaker-magicbb": {
         "admin": {
             "settings": {
-                "bb_center": "",
-                "bb_justify": "",
-                "bb_color": "",
-                "bb_spoiler": "",
-                "bb_table": "",
-                "bb_info": "",
-                "bb_audio": "",
-                "bb_image": "",
-                "bb_image_help": "",
-                "bb_iframe": "",
-                "bb_iframe_help": "",
-                "toolbar_group": "",
-                "toolbar_group_help": ""
+                "bb_center": "Középre igazítás",
+                "bb_justify": "Sorkizárás",
+                "bb_color": "Szín",
+                "bb_spoiler": "Rejtett szöveg",
+                "bb_table": "Táblázat",
+                "bb_info": "Riasztások",
+                "bb_audio": "Hang",
+                "bb_image": "FoF Upload",
+                "bb_image_help": "Új gombot ad a szerkesztőhöz a képek igazításához. A nagy, középre igazított képek automatikusan a bejegyzés szélességének 60%-ra lesznek átméretezve, az oldalra igazítottak pedig legfeljebb a 40%-ára.",
+                "bb_iframe": "Beágyazott keret",
+                "bb_iframe_help": "Engedélyezi a beágyazott kereteket bármilyen forrásból. Használja óvatosan – a beágyazott tartalom külső parancsfájlokat tartalmazhat. 🧹 A beállítás módosítása után törölje a Flarum gyorsítótárát.",
+                "toolbar_group": "Group MagicBB gombok",
+                "toolbar_group_help": "Ha be van kapcsolva, az összes MagicBB gomb egyetlenbe lesz csoportosítva a szerkesztőben"
             },
             "sections": {
-                "text": "",
-                "content": "",
-                "images": "",
-                "features": ""
+                "text": "Szöveggombok",
+                "content": "Tartalomgombok",
+                "images": "Képgombok",
+                "features": "Funkciók"
             },
             "permissions": {
-                "use_iframe": ""
+                "use_iframe": "Iframe engedélyezése"
             }
         },
         "forum": {
             "composer": {
-                "center_button": "",
-                "justify_button": "",
-                "color_button": "",
-                "spoiler_button": "",
-                "table_button": "",
-                "info_button": "",
-                "audio_button": "",
-                "image_button": "",
-                "more_button": ""
+                "center_button": "Középre igazítás",
+                "justify_button": "Sorkizárás",
+                "color_button": "Szín hozzáadása",
+                "spoiler_button": "Rejtett szöveg hozzáadása",
+                "table_button": "Táblázat hozzáadása",
+                "info_button": "Riasztás hozzáadása",
+                "audio_button": "Hang hozzáadása",
+                "image_button": "Kép hozzáadása",
+                "more_button": "Továbbiak"
             }
         }
     }
