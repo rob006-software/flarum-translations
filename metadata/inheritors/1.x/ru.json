@@ -4839,6 +4839,7 @@
                     "renamed": "3d5825d9907699063ceeb2dca770f20c 3d5825d9907699063ceeb2dca770f20c"
                 },
                 "post": {
+                    "approved": "d41d8cd98f00b204e9800998ecf8427e cc26c23520b48a9b01d51ff86ece8564",
                     "deleted": "fbbda1f6b10d761973c46d19ed40835e fbbda1f6b10d761973c46d19ed40835e",
                     "hidden": "a4717b4e3635b669fd6102550c75ba6e a4717b4e3635b669fd6102550c75ba6e",
                     "posted": "c7076b842142c035c774b762adaa0289 c7076b842142c035c774b762adaa0289",
@@ -4862,6 +4863,7 @@
             "admin": {
                 "errors": {
                     "service_not_found": "163348984707bba5ccf1a84d4164d5f7 163348984707bba5ccf1a84d4164d5f7",
+                    "tag_disabled": "d41d8cd98f00b204e9800998ecf8427e ea311937d7b5499cb40beecab8980503",
                     "tag_invalid": "452f122a7dcb48c85ea1d2858f4688b4 452f122a7dcb48c85ea1d2858f4688b4",
                     "url_invalid": "36b31d7b199313d94f13abf5acbefd11 36b31d7b199313d94f13abf5acbefd11"
                 },
@@ -4871,6 +4873,10 @@
                 "settings": {
                     "actions": {
                         "flarum": {
+                            "approval": {
+                                "postwasapproved": "d41d8cd98f00b204e9800998ecf8427e 9d4826a8d62a9d7f67235140962447dd",
+                                "title": "d41d8cd98f00b204e9800998ecf8427e c492ea7bd88004fa4b994fd5bfe06b2a"
+                            },
                             "discussion": {
                                 "deleted": "b80fdfc2103d3971de9974d50b122667 b80fdfc2103d3971de9974d50b122667",
                                 "hidden": "f0a8bdddbc31ce2572d7e592566cf613 f0a8bdddbc31ce2572d7e592566cf613",
@@ -4906,6 +4912,7 @@
                     "help": {
                         "disabled": "54c158d660175aa7047d748a60348045 54c158d660175aa7047d748a60348045",
                         "general": "24cb81ef74df92c232e246ff0de80044 24cb81ef74df92c232e246ff0de80044",
+                        "tags": "d41d8cd98f00b204e9800998ecf8427e 0dcd05a4828aa3d66591efea871dfbcb",
                         "url": "9db54b4a3e9e1ccfbb979d41165aede8 9db54b4a3e9e1ccfbb979d41165aede8"
                     },
                     "item": {
@@ -4918,8 +4925,11 @@
                         "extra_text_label": "aebfdb96247077f1a6a2c1a9ad06d8d3 aebfdb96247077f1a6a2c1a9ad06d8d3",
                         "group_help": "3a54edd9856d5fb8e26718b4c31783f6 3a54edd9856d5fb8e26718b4c31783f6",
                         "group_label": "99d9901bdd4656a93ffa5f6c1f50cc00 99d9901bdd4656a93ffa5f6c1f50cc00",
+                        "include_matching_tags_label": "d41d8cd98f00b204e9800998ecf8427e a737b78ebbd825545cf878249c89b35a",
                         "max_post_content_length_help": "7a31ad1c8ee082470f4894f024de6a6e 7a31ad1c8ee082470f4894f024de6a6e",
                         "max_post_content_length_label": "12d71781474af7a7742fe19f913dd105 12d71781474af7a7742fe19f913dd105",
+                        "name_help": "d41d8cd98f00b204e9800998ecf8427e 54c21db505687cfdaaf4830028c8ef9f",
+                        "name_label": "d41d8cd98f00b204e9800998ecf8427e 602680ed8916dcc039882172ef089256",
                         "title": "b072418ee0633b3c48a1379b211d5c36 b072418ee0633b3c48a1379b211d5c36",
                         "use_plain_text_label": "368d79ab21a3e037996321d0787eb926 368d79ab21a3e037996321d0787eb926"
                     },
@@ -5489,6 +5499,9 @@
                     "manage_footer_sections": "9f4c83b457b21b8679ec4bfe54b5d8c4 9f4c83b457b21b8679ec4bfe54b5d8c4",
                     "mobile_tab_height": "cff549347bc47cb6d743a91e39e19542 cff549347bc47cb6d743a91e39e19542",
                     "mobile_tab_height_help": "2dc94965b1eb94d2af9290d8aad84ccd 2dc94965b1eb94d2af9290d8aad84ccd",
+                    "show_to_everyone": "d41d8cd98f00b204e9800998ecf8427e cf166a331d2eaa5c6fb4b76f9faeb56e",
+                    "show_to_guests_only": "d41d8cd98f00b204e9800998ecf8427e a7bc54a70ce94964ed1e238ef317d270",
+                    "show_to_members_only": "d41d8cd98f00b204e9800998ecf8427e 46f557cd77c00824f06b636bc248f13e",
                     "social_link": "9797b9494600869ec6a941dae3f2a198 9797b9494600869ec6a941dae3f2a198",
                     "social_media_button": "6d574d71f8bcf0d76ff00305d9b2c205 6d574d71f8bcf0d76ff00305d9b2c205",
                     "text": "8c45d9cf5766a98100df8108d3235247 8c45d9cf5766a98100df8108d3235247",
@@ -5548,6 +5561,17 @@
         }
     },
     "ianm-boring-avatars.json": {
+        "flarum-gdpr": {
+            "lib": {
+                "data": {
+                    "boringavatar": {
+                        "anonymize_description": "d41d8cd98f00b204e9800998ecf8427e f3c22fa92ad76199cca477bf48f0d4ef",
+                        "delete_description": "d41d8cd98f00b204e9800998ecf8427e d4e02f43b8f44555ef9d75c178e21017",
+                        "export_description": "d41d8cd98f00b204e9800998ecf8427e bb65075865d96891522dc899722dd78d"
+                    }
+                }
+            }
+        },
         "ianm-boring-avatars": {
             "admin": {
                 "settings": {
@@ -5562,7 +5586,7 @@
                     "identifier_help": "03eae9cc498434950385aa7d3763f04f 03eae9cc498434950385aa7d3763f04f",
                     "identifier_id": "c5390fbb4096c97b1450e69c07b1e2e3 c5390fbb4096c97b1450e69c07b1e2e3",
                     "theme": "9e26d3c026ab4079d3967e7038b4d948 9e26d3c026ab4079d3967e7038b4d948",
-                    "theme_help": "b84b757c3ca30700d657999e7e8fff22 b84b757c3ca30700d657999e7e8fff22"
+                    "theme_help": "b84b757c3ca30700d657999e7e8fff22 6008b5fa9b5a503bc9b981c7490624fb"
                 }
             }
         }
@@ -5601,6 +5625,7 @@
                 },
                 "followed": "776f7e87fca3cfc00e942d57395fabc5 776f7e87fca3cfc00e942d57395fabc5",
                 "followers": "9173cadeb23a31e47e7d561fe26e721c 9173cadeb23a31e47e7d561fe26e721c",
+                "followers_link": "d41d8cd98f00b204e9800998ecf8427e df22ca2716d00576ecbef7479e4d515b",
                 "index": {
                     "follow_tag_button": "b5b4999286c7a0b2bd349c1a1d3d7b3d b5b4999286c7a0b2bd349c1a1d3d7b3d",
                     "unfollow_tag_button": "460243f2bb10be2ae5b9f488e4eb5825 460243f2bb10be2ae5b9f488e4eb5825"
@@ -5625,6 +5650,7 @@
                 },
                 "profile_link": "7652ce26cf3aa6488af344047286cd53 7652ce26cf3aa6488af344047286cd53",
                 "profile_page": {
+                    "no_followers": "d41d8cd98f00b204e9800998ecf8427e 79b7b930336c7696aeaf0676262d9558",
                     "no_following": "ec1a8aac3215d2e8f9508d40f56d8403 ec1a8aac3215d2e8f9508d40f56d8403"
                 },
                 "settings": {
