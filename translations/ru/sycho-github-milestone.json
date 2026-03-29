@@ -9,13 +9,13 @@
             "all": "=> sycho-github-milestone.ref.all"
         },
         "forum": {
-            "empty_list": "",
+            "empty_list": "Нет задач или pull request’ов для отображения.",
             "title": "Отметка",
             "last_updated": "Последнее обновление {time}",
             "closed": "=> sycho-github-milestone.ref.closed",
             "open": "=> sycho-github-milestone.ref.open",
             "all": "=> sycho-github-milestone.ref.all",
-            "complete": "",
+            "complete": "<strong>{progress}%</strong> завершено",
             "load_more": "=> core.forum.discussion_list.load_more_button",
             "tasks_done": "{number} из {total}"
         },
