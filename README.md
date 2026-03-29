@@ -1242,6 +1242,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`quasimo-carousel-grids`](https://weblate.rob006.net/projects/flarum/quasimo-carousel-grids) | [`quasimo/flarum-ext-carousel-grids`](https://github.com/Quasimo/flarum-ext-carousel-grids) |
 | [`quasimo-llms-txt`](https://weblate.rob006.net/projects/flarum/quasimo-llms-txt) | [`quasimo/flarum-ext-llms-txt`](https://github.com/Quasimo/flarum-ext-llms-txt) |
 | [`quasimo-tag-sidebar`](https://weblate.rob006.net/projects/flarum/quasimo-tag-sidebar) | [`quasimo/flarum-ext-tag-sidebar`](https://github.com/Quasimo/flarum-ext-tag-sidebar) |
+| [`ralkage-account-lockout`](https://weblate.rob006.net/projects/flarum/ralkage-account-lockout) | [`ralkage/flarum-ext-account-lockout`](https://github.com/Ralkage/flarum-ext-account-lockout) |
 | [`ralkage-ad-management`](https://weblate.rob006.net/projects/flarum/ralkage-ad-management) | [`ralkage/flarum-ext-ad-management`](https://github.com/Ralkage/flarum-ext-ad-management) |
 | [`ralkage-cap-captcha`](https://weblate.rob006.net/projects/flarum/ralkage-cap-captcha) | [`ralkage/flarum-ext-cap-captcha`](https://github.com/Ralkage/flarum-ext-cap-captcha) |
 | [`ralkage-civility-filter`](https://weblate.rob006.net/projects/flarum/ralkage-civility-filter) | [`ralkage/flarum-ext-civility-filter`](https://github.com/Ralkage/flarum-ext-civility-filter) |
