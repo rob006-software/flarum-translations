@@ -3,64 +3,64 @@
         "admin": {
             "permissions": {
                 "post_label": "Оставлять сообщения в профиле",
-                "delete_own_label": "",
-                "edit_any_label": ""
+                "delete_own_label": "Удалять свои сообщения в профиле",
+                "edit_any_label": "Редактировать любые сообщения в профиле"
             }
         },
         "forum": {
             "user": {
-                "messages_link": "",
-                "messages_empty_text": "",
-                "messages_load_more_button": ""
+                "messages_link": "Стена",
+                "messages_empty_text": "Пока сообщений нет.",
+                "messages_load_more_button": "Загрузить ещё"
             },
             "composer": {
-                "placeholder": "",
-                "submit_button": "",
-                "save_button": "",
-                "heading": "",
-                "reply_heading": "",
-                "edit_heading": "",
-                "confirm_exit": "",
-                "posted_message": "",
-                "preview_heading": "",
-                "saved_message": "",
-                "validation_empty": "",
-                "validation_too_long": "",
-                "validation_blocked": ""
+                "placeholder": "Оставьте сообщение в этом профиле…",
+                "submit_button": "Отправить",
+                "save_button": "Сохранить",
+                "heading": "Сообщение в профиле {username}",
+                "reply_heading": "Ответ в профиле {username}",
+                "edit_heading": "Редактировать сообщение",
+                "confirm_exit": "Сообщение не опубликовано. Отменить?",
+                "posted_message": "Сообщение отправлено.",
+                "preview_heading": "Предпросмотр",
+                "saved_message": "Сообщение обновлено.",
+                "validation_empty": "Сообщение не может быть пустым.",
+                "validation_too_long": "Сообщение не может быть больше 2000 символов.",
+                "validation_blocked": "Этот пользователь отключил стену."
             },
             "message": {
-                "delete_button": "",
-                "delete_confirm": "",
-                "edit_button": "",
-                "reply_button": "",
-                "reply_placeholder": "",
-                "reply_submit": "",
-                "report_button": "",
-                "permalink_button": "",
-                "permalink_copied": "",
-                "show_replies": "",
-                "hide_replies": ""
+                "delete_button": "Удалить",
+                "delete_confirm": "Удалить сообщение?",
+                "edit_button": "Редактировать",
+                "reply_button": "Ответить",
+                "reply_placeholder": "Написать ответ...",
+                "reply_submit": "Ответить",
+                "report_button": "Пожаловаться",
+                "permalink_button": "Постоянная ссылка",
+                "permalink_copied": "Ссылка скопирована в буфер обмена.",
+                "show_replies": "{count, plural, one {Показать {count} ответ} few {Показать {count} ответа} many {Показать {count} ответов} other {Показать {count} ответа}}",
+                "hide_replies": "Скрыть ответы"
             },
             "report": {
-                "title": "",
-                "reason_inappropriate": "",
-                "reason_spam": "",
-                "reason_harassment": "",
-                "reason_other": "",
-                "detail_placeholder": "",
-                "submit_button": "",
-                "success": "",
-                "cannot_report_own": "",
-                "already_reported": ""
+                "title": "Пожаловаться на сообщение",
+                "reason_inappropriate": "Неприемлемый контент",
+                "reason_spam": "Спам",
+                "reason_harassment": "Оскорбления",
+                "reason_other": "Другое",
+                "detail_placeholder": "Необязательно — расскажите в деталях...",
+                "submit_button": "Отправить",
+                "success": "Жалоба отправлена.",
+                "cannot_report_own": "Нельзя жаловаться на своё сообщение.",
+                "already_reported": "Вы уже пожаловались на это сообщение."
             },
             "notification": {
-                "new_profile_message_text": ""
+                "new_profile_message_text": "{username} оставил(а) сообщение у вас на стене."
             },
             "settings": {
-                "profile_heading": "",
-                "notify_new_profile_message_label": "",
-                "block_profile_messages_label": "",
-                "default_view_label": ""
+                "profile_heading": "Профиль",
+                "notify_new_profile_message_label": "Кто-то оставил сообщения на моей стене",
+                "block_profile_messages_label": "Скрыть стену от других пользователей",
+                "default_view_label": "Показывать стену первой вкладкой при открытии профиля"
             }
         }
     }
