@@ -1347,6 +1347,9 @@ return [
 	'litalino-top-bar' => [
 		'tag' => 'https://raw.githubusercontent.com/Litalino/flarum-top-bar/1.5.1/locale/en.yml',
 	],
+	'litalino-news-feed' => [
+		'tag' => 'https://raw.githubusercontent.com/Litalino/flarum-ext-news-feed/1.0.0/resources/locale/en.yml',
+	],
 	'littlecxm-reply-to-see' => [
 		'tag' => 'https://raw.githubusercontent.com/littlecxm/flarum-reply-to-see/1.0.2/resources/locale/en.yml',
 	],
