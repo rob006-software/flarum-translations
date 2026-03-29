@@ -2,48 +2,48 @@
     "ralkage-account-lockout": {
         "api": {
             "error": {
-                "locked_timed": "",
-                "locked_manual": ""
+                "locked_timed": "Аккаунт заблокирован. Попробуйте снова через {minutes} мин.",
+                "locked_manual": "Аккаунт заблокирован. Обратитесь к администратору."
             }
         },
         "admin": {
             "settings": {
-                "max_attempts_label": "",
-                "max_attempts_help": "",
-                "lockout_mode_label": "",
-                "lockout_mode_help": "",
-                "lockout_duration_label": "",
-                "lockout_duration_help": ""
+                "max_attempts_label": "Максимум неудачных попыток входа",
+                "max_attempts_help": "Количество подряд неудачных попыток входа до блокировки аккаунта.",
+                "lockout_mode_label": "Режим блокировки",
+                "lockout_mode_help": "По времени: автоматически разблокируется через заданный период. Вручную: требуется разблокировка администратором или модератором.",
+                "lockout_duration_label": "Длительность блокировки (в минутах)",
+                "lockout_duration_help": "Как долго аккаунт остаётся заблокированным. Применяется только в режиме «По времени»."
             },
             "permissions": {
-                "unlock_users_label": ""
+                "unlock_users_label": "Разблокировка аккаунтов"
             },
             "users": {
-                "lock_status_column": "",
-                "locked_tooltip": "",
-                "unlock_button": "",
-                "unlock_confirmation": ""
+                "lock_status_column": "Статус блокировки",
+                "locked_tooltip": "Этот аккаунт заблокирован",
+                "unlock_button": "Разблокировать",
+                "unlock_confirmation": "Разблокировать {username}?"
             }
         },
         "forum": {
             "user_controls": {
-                "unlock_button": ""
+                "unlock_button": "Разблокировать"
             },
             "user_badge": {
-                "locked_tooltip": ""
+                "locked_tooltip": "Аккаунт заблокирован"
             },
             "unlock_modal": {
-                "title": "",
-                "locked_since": "",
-                "locked_until": "",
-                "manually_locked": "",
-                "failed_attempts": "",
-                "unlock_button": ""
+                "title": "Разблокировать {username}",
+                "locked_since": "Заблокирован с {date}",
+                "locked_until": "Авторазблокировка {date}",
+                "manually_locked": "Этот аккаунт заблокирован вручную и требует разблокировки администратором или модератором.",
+                "failed_attempts": "{count} неудачных попыток входа",
+                "unlock_button": "Разблокировать аккаунт"
             },
             "log_in": {
-                "locked_timed": "",
-                "locked_manual": "",
-                "attempts_remaining": ""
+                "locked_timed": "Этот аккаунт был заблокирован из-за слишком большого количества неудачных попыток входа. Попробуйте снова через {minutes} мин.",
+                "locked_manual": "Этот аккаунт заблокирован. Обратитесь к администратору.",
+                "attempts_remaining": "Неверные данные. Осталось {remaining} из {max} попыток входа до блокировки аккаунта."
             }
         }
     }
