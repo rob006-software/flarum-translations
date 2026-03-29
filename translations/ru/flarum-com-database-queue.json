@@ -2,29 +2,29 @@
     "blomstra-database-queue": {
         "admin": {
             "settings": {
-                "backoff_label": "",
-                "backoff_help": "",
-                "memory_label": "",
-                "memory_help": "",
-                "rest_label": "",
-                "rest_help": "",
-                "retries_label": "",
-                "retries_help": "",
-                "timeout_label": "",
-                "timeout_help": ""
+                "backoff_label": "Задержка",
+                "backoff_help": "Количество секунд ожидания перед повторной попыткой выполнения задачи, которая завершилась с необработанным исключением.\n",
+                "memory_label": "Память",
+                "memory_help": "Лимит памяти в мегабайтах.\n",
+                "rest_label": "Пауза",
+                "rest_help": "Количество секунд паузы между задачами.\n",
+                "retries_label": "Количество попыток",
+                "retries_help": "Количество попыток выполнения задачи перед тем, как она будет помечена как неудачная.\n",
+                "timeout_label": "Тайм-аут",
+                "timeout_help": "Максимальное время выполнения дочернего процесса в секундах.\n"
             },
             "stats": {
-                "auto_refresh": "",
-                "heading": "",
-                "refresh": "",
+                "auto_refresh": "Автообновление",
+                "heading": "Обзор очереди",
+                "refresh": "Обновить",
                 "data": {
-                    "queue-name": "",
-                    "pending-jobs": "",
-                    "failed-jobs": "",
+                    "queue-name": "Очередь",
+                    "pending-jobs": "Задачи в ожидании",
+                    "failed-jobs": "Неудачные задачи",
                     "status": {
-                        "label": "",
-                        "running": "",
-                        "inactive": ""
+                        "label": "Статус",
+                        "running": "Выполняется",
+                        "inactive": "Неактивно"
                     }
                 }
             }
