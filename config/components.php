@@ -1046,6 +1046,9 @@ return [
 	'irmmr-rtl' => [
 		'tag' => 'https://raw.githubusercontent.com/irmmr/flarum-ext-rtl/V0.2.5/locale/en.yml',
 	],
+	'ivampiresp-blomstra-search' => [
+		'tag' => 'https://raw.githubusercontent.com/iVampireSP/flarum-ext-search/v0.0.1/resources/locale/en.yml',
+	],
 	'jeromegillard-map' => [
 		'tag' => 'https://raw.githubusercontent.com/JeromeGillard/flarum-map/v0.1.9/locale/en.yml',
 	],
