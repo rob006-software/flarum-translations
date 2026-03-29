@@ -1553,6 +1553,9 @@ return [
 			'zh_Hans',
 		],
 	],
+	'ralkage-account-lockout' => [
+		'tag' => 'https://raw.githubusercontent.com/Ralkage/flarum-ext-account-lockout/1.0.0/resources/locale/en.yml',
+	],
 	'ralkage-ad-management' => [
 		'tag' => 'https://raw.githubusercontent.com/Ralkage/flarum-ext-ad-management/1.2.0/locale/en.yml',
 	],
