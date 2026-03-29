@@ -71,30 +71,30 @@
                     "sync_info": "Forumul tău utilizează driverul de coadă sincron. Joburile sunt procesate imediat în firul principal de execuție.",
                     "sync_help": "Pentru o performanță și o experiență de utilizare mai bună, ia în considerare utilizarea driverului de coadă prin baza de date. Află mai multe în documentație.",
                     "custom_driver": "Forumul tău utilizează driverul de coadă {driver}, care este furnizat de o extensie.",
-                    "retries_label": "",
-                    "retries_help": "",
-                    "memory_label": "",
-                    "memory_help": "",
-                    "timeout_label": "",
-                    "timeout_help": "",
-                    "rest_label": "",
-                    "rest_help": "",
-                    "backoff_label": "",
-                    "backoff_help": ""
+                    "retries_label": "Reîncercări joburi",
+                    "retries_help": "Numărul maxim de încercări pentru un job înainte de a fi marcat ca eșuat. Valoarea implicită este 1.",
+                    "memory_label": "Limită de memorie (MB)",
+                    "memory_help": "Memoria maximă pe care o poate utiliza worker-ul de coadă înainte de repornire. Valoarea implicită este 128 MB.",
+                    "timeout_label": "Timpul de expirare a jobului (secunde)",
+                    "timeout_help": "Timpul maxim de rulare pentru un singur job înainte de expirare. Valoarea implicită este 60 de secunde.",
+                    "rest_label": "Timp de repaus (secunde)",
+                    "rest_help": "Timpul de așteptare între procesarea joburilor. Valoarea implicită este 0 secunde.",
+                    "backoff_label": "Backoff (secunde)",
+                    "backoff_help": "Timpul de așteptare înainte de a reîncerca un job eșuat. Valoarea implicită este 0 secunde."
                 },
                 "search": {
-                    "section_label": "",
-                    "driver_heading": "",
-                    "driver_text": "",
+                    "section_label": "Drivere de căutare",
+                    "driver_heading": "Driver de căutare: {model}",
+                    "driver_text": "Selectați un driver care să fie utilizat pentru căutarea acestui model.",
                     "driver_options": {
-                        "default": ""
+                        "default": "Căutare implicită în baza de date"
                     },
-                    "no_other_drivers": ""
+                    "no_other_drivers": "Niciun driver de căutare nu este disponibil încă. Instalați o extensie de driver de căutare pentru a-l putea configura."
                 },
-                "title": ""
+                "title": "Avansat"
             },
             "appearance": {
-                "allow_user_color_scheme_label": "",
+                "allow_user_color_scheme_label": "Permite utilizatorilor să își aleagă propria schemă de culori",
                 "colored_header_label": "Antet Colorat",
                 "colors_heading": "Culori",
                 "colors_primary_label": "Culoarea Principală",
@@ -116,16 +116,16 @@
                 "favicon_text": "Încărcați o imagine care va fi afișată ca și pictograma paginii în navigator.",
                 "logo_heading": "Logo",
                 "logo_text": "Încărcați o imagine care va înlocui titlul forumului.",
-                "logo_dark_mode_heading": "",
-                "logo_dark_mode_text": "",
+                "logo_dark_mode_heading": "Logo pentru modul întunecat",
+                "logo_dark_mode_text": "Încărcați un logo alternativ care să fie afișat atunci când modul întunecat este activat.",
                 "title": "Aspect",
-                "color_scheme_label": "",
+                "color_scheme_label": "Schemă de culori (implicită)",
                 "color_schemes": {
-                    "auto_mode_label": "",
-                    "dark_hc_mode_label": "",
-                    "dark_mode_label": "",
-                    "light_hc_mode_label": "",
-                    "light_mode_label": ""
+                    "auto_mode_label": "Preferința sistemului utilizatorului sau cea configurată",
+                    "dark_hc_mode_label": "=> core.ref.dark_hc_mode_label",
+                    "dark_mode_label": "=> core.ref.dark_mode_label",
+                    "light_hc_mode_label": "=> core.ref.light_hc_mode_label",
+                    "light_mode_label": "=> core.ref.light_mode_label"
                 }
             },
             "basics": {
@@ -133,15 +133,15 @@
                 "default_language_heading": "Limba Implicită",
                 "description": "Setați titlul, limba și alte setări de bază ale forumului Dvs.",
                 "display_name_driver_options": {
-                    "username": ""
+                    "username": "Nume de utilizator"
                 },
                 "display_name_heading": "Numele de Afișare",
                 "display_name_text": "Selectați driver-ul care trebuie utilizat pentru numele de afișare al utilizatorului. Implicit, este afișat numele utilizatorului.",
                 "avatar_driver_options": {
-                    "default": ""
+                    "default": "Implicit"
                 },
-                "avatar_driver_heading": "",
-                "avatar_driver_text": "",
+                "avatar_driver_heading": "Avatar utilizator",
+                "avatar_driver_text": "Selectați un driver care să fie utilizat pentru avatarele utilizatorilor atunci când nu este disponibil niciun avatar încărcat de aceștia. În mod implicit, nu va fi afișat niciun avatar atunci când un utilizator nu a încărcat unul.",
                 "forum_description_heading": "Descrierea Forumului",
                 "forum_description_text": "Introduceți o mică descriere a comunității Dvs. Aceasta va apărea în motoarele de căutare.",
                 "forum_title_heading": "Titlul Forumului",
@@ -150,13 +150,13 @@
                 "show_language_selector_label": "Afișarea selectorul de limbă",
                 "slug_driver_options": {
                     "discussions": {
-                        "default": "",
-                        "utf8": ""
+                        "default": "ID cu slug",
+                        "utf8": "ID cu slug UTF-8"
                     },
                     "users": {
-                        "default": "",
-                        "id": "",
-                        "id_with_display_name": ""
+                        "default": "Nume de utilizator",
+                        "id": "ID",
+                        "id_with_display_name": "ID cu nume de afișat"
                     }
                 },
                 "slug_driver_heading": "Driver-ul de slug pentru {model}",
@@ -176,18 +176,18 @@
                 "username_placeholder": "=> core.ref.username"
             },
             "announcements": {
-                "comments_label": "",
-                "description": "",
-                "empty": "",
-                "load_error": "",
-                "about": "",
-                "hide": "",
-                "read_more": "",
-                "refresh": "",
-                "retry": "",
-                "show": "",
-                "title": "",
-                "view_all": ""
+                "comments_label": "{count, plural, one {# comentariu} other {# comentarii}}",
+                "description": "Ultimele noutăți și anunțuri de la Echipa Flarum.",
+                "empty": "Nu au fost găsite anunțuri.",
+                "load_error": "Nu s-au putut încărca anunțurile. Vă rugăm să încercați din nou mai târziu.",
+                "about": "Ultimele noutăți și anunțuri preluate de pe comunitatea oficială Flarum de la adresa discuss.flarum.org.",
+                "hide": "Ascunde anunțurile",
+                "read_more": "Citește mai mult",
+                "refresh": "Actualizează anunțurile",
+                "retry": "Încearcă din nou",
+                "show": "Afișează anunțurile",
+                "title": "Anunțuri",
+                "view_all": "Vezi toate pe discuss.flarum.org"
             },
             "dashboard": {
                 "clear_cache_button": "Ștergere memoria cache",
@@ -213,24 +213,24 @@
                     }
                 },
                 "title": "Tablou de bord",
-                "toggle_advanced_page_button": "",
+                "toggle_advanced_page_button": "Comută pagina avansată",
                 "tools_button": "Instrumente"
             },
             "extensions-health-widget": {
-                "abandoned_no_replacement": "",
-                "abandoned_with_replacement": "",
-                "all_healthy": "",
-                "section_abandoned_empty": "",
-                "section_suggested_empty": "",
-                "section_disabled_empty": "",
-                "title": "",
-                "section_abandoned_heading": "",
-                "section_abandoned_help": "",
-                "section_suggested_heading": "",
-                "section_suggested_help": "",
-                "section_disabled_heading": "",
-                "section_disabled_help": "",
-                "suggested_by": ""
+                "abandoned_no_replacement": "Nicio înlocuire disponibilă",
+                "abandoned_with_replacement": "Înlocuit de {replacement}",
+                "all_healthy": "Toate extensiile sunt sănătoase.",
+                "section_abandoned_empty": "Nu au fost găsite probleme.",
+                "section_suggested_empty": "Nicio sugestie.",
+                "section_disabled_empty": "Toate extensiile sunt activate.",
+                "title": "Starea de sănătate a extensiilor",
+                "section_abandoned_heading": "Necesită atenție",
+                "section_abandoned_help": "Aceste extensii nu mai sunt întreținute sau pot avea probleme de compatibilitate. Luați în considerare actualizarea, înlocuirea sau eliminarea acestora.",
+                "section_suggested_heading": "Sugerat",
+                "section_suggested_help": "Extensiile Flarum pot adăuga funcții suplimentare opționale prin specificarea altor extensii sau pachete. Acestea pot adăuga mai multe funcții sau integrări.",
+                "section_disabled_heading": "Dezactivat",
+                "section_disabled_help": "Aceste extensii sunt instalate, dar nu sunt activate în prezent. Activați-le din pagina lor de setări sau eliminați-le dacă nu mai sunt necesare.",
+                "suggested_by": "Sugerat de {extension}"
             },
             "debug-warning": {
                 "detail": "Atunci când modul <code>debug</code> este activ, Flarum își va reconstruii fișierele <code>JavaScript</code> și <code>CSS</code> la fiecare cerere, și ar putea probabil să scurgă și alte informații, cum ar fi secrete ale bazei de date, variabile de mediu, etc.\n\nEste foarte recomandat să dezactivezi <code>debug</code> din fișierul tău <code>config.php</code> în modul producție. Vezi <link>documentația Flarum</link> pentru mai multe informații.\n",
@@ -270,38 +270,38 @@
                 "driver_heading": "Alegeți un driver de e-mail",
                 "driver_label": "Driver de e-mail",
                 "format": {
-                    "multipart_option": "",
-                    "plain_option": "",
-                    "html_option": ""
+                    "multipart_option": "Multipart (recomandat)",
+                    "plain_option": "Text simplu",
+                    "html_option": "HTML"
                 },
-                "format_heading": "",
-                "format_help": "",
+                "format_heading": "Format e-mail de ieșire",
+                "format_help": "Alegeți formatul în care vor fi trimise e-mailurile de ieșire. Opțiunea recomandată este <code>multipart</code>, deoarece aceasta va permite clientului de e-mail al utilizatorului să afișeze cel mai adecvat format.",
                 "from_label": "Expeditor",
                 "mail_encryption_label": "Criptare",
-                "mail_encryption_tls_help": "",
-                "mail_encryption_ssl_help": "",
-                "mail_encryption_none_help": "",
+                "mail_encryption_tls_help": "Conexiunea începe necriptată și face upgrade la TLS (STARTTLS). Utilizată de obicei cu portul 587 sau 25.",
+                "mail_encryption_ssl_help": "Conexiunea este criptată de la început (Implicit TLS). Utilizată de obicei cu portul 465.",
+                "mail_encryption_none_help": "Fără criptare. Nu este recomandat pentru utilizarea în producție.",
                 "mail_host_label": "Host",
                 "mail_mailgun_domain_label": "Domeniu",
                 "mail_mailgun_region_label": "Regiune",
                 "mail_mailgun_secret_label": "Cheie secretă",
                 "mail_password_label": "=> core.ref.password",
                 "mail_port_label": "Port",
-                "mail_postmark_message_stream_label": "",
-                "mail_postmark_token_label": "",
-                "mail_smtp_verify_peer_label": "",
-                "mail_smtp_verify_peer_help": "",
+                "mail_postmark_message_stream_label": "Flux de mesaje",
+                "mail_postmark_token_label": "Token server",
+                "mail_smtp_verify_peer_label": "Verifică certificatul SSL",
+                "mail_smtp_verify_peer_help": "Verificați certificatul SSL al serverului atunci când utilizați criptarea TLS sau SSL. Dezactivați această opțiune numai dacă serverul de mail folosește un certificat auto-semnat (self-signed).",
                 "mail_username_label": "=> core.ref.username",
                 "mailgun_heading": "Setări Mailgun",
-                "postmark_heading": "",
-                "postmark_description": "",
+                "postmark_heading": "Setări Postmark",
+                "postmark_description": "Trimiteți e-mailul prin API-ul HTTP al Postmark. Opțional, specificați un flux de mesaje pentru a utiliza un flux care nu este cel implicit.",
                 "not_sending_message": "Flarum în prezent nu trimite e-mailuri. Acest lucru se poate datora driver-ului selectat sau erorilor în configurația acestuia.",
                 "send_test_mail_button": "Trimitere",
                 "send_test_mail_heading": "E-mail de testare",
                 "send_test_mail_success": "E-mailul de testare a fost trimis cu succes!",
                 "send_test_mail_text": "Aceasta va trimite un e-mail utilizând configurația de mai sus către e-mailul Dvs., {email}.",
                 "smtp_heading": "Setări SMTP",
-                "smtp_description": "",
+                "smtp_description": "Configurați setările conexiunii SMTP. Configurații comune: Portul 587 cu TLS sau Portul 465 cu SSL.",
                 "title": "=> core.ref.email"
             },
             "extension": {
@@ -309,7 +309,7 @@
                 "abandoned_with_replacement": "Această extensie a fost înlocuită de {replacement}. Ia în considerare migrarea către pachetul înlocuitor.",
                 "configure_scopes": "Configurați domeniile de aplicare",
                 "confirm_purge": "Curățirea va elimina toate înscrierile din baza de date și activele legate de extensie. Aceasta nu va dezinstala extensia! Dezinstalarea trebuie făcută prin Composer! Sunteți sigur că doriți să continuați?",
-                "database_driver_mismatch": "",
+                "database_driver_mismatch": "Această extensie nu suportă driverul de bază de date configurat.",
                 "deprecated": "Depreciat",
                 "disabled": "Dezactivat",
                 "enable_to_see": "Activați extensia pentru a vizualiza și modifica setările.",
@@ -333,37 +333,37 @@
                     "title": "Documentația {extName}"
                 },
                 "replaced": "Înlocuit",
-                "safe_mode_warning": ""
+                "safe_mode_warning": "Modul de siguranță este activat în prezent. Extensiile nu sunt pornite, iar setările acestora sunt, prin urmare, inaccesibile."
             },
             "header": {
                 "get_help": "Ajutor",
                 "log_out_button": "=> core.ref.log_out",
-                "search_placeholder": "",
-                "search_role_label": ""
+                "search_placeholder": "Căutare...",
+                "search_role_label": "Căutare"
             },
             "loading": {
                 "title": "Vă rugăm, aștepați…"
             },
             "models": {
-                "discussions": "",
-                "posts": "",
-                "users": ""
+                "discussions": "=> core.ref.discussions",
+                "posts": "=> core.ref.posts",
+                "users": "=> core.ref.users"
             },
             "nav": {
-                "advanced_button": "",
-                "advanced_title": "",
+                "advanced_button": "=> core.admin.advanced.title",
+                "advanced_title": "=> core.admin.advanced.description",
                 "appearance_button": "=> core.admin.appearance.title",
                 "appearance_title": "=> core.admin.appearance.description",
                 "basics_button": "=> core.admin.basics.title",
                 "basics_title": "=> core.admin.basics.description",
                 "categories": {
-                    "analytics": "",
+                    "analytics": "Analize",
                     "authentication": "Autentificare",
                     "core": "Configurări de bază",
                     "discussion": "Discuție",
                     "feature": "Caracteristici",
                     "formatting": "Formatare",
-                    "infrastructure": "",
+                    "infrastructure": "Infrastructură",
                     "language": "Limbi",
                     "moderation": "Moderare",
                     "other": "Alte extensii",
@@ -402,7 +402,7 @@
                 "post_without_throttle_label": "Răspunsuri consecutive fără așteptare",
                 "read_heading": "Citire",
                 "remove_scope_label": "Elimină domeniul (scopul) pentru {scope}",
-                "remove_scope_confirmation": "",
+                "remove_scope_confirmation": "Sigur doriți să eliminați scopul {scope}?",
                 "rename_discussions_label": "Redenumirea discuțiilor",
                 "reply_to_discussions_label": "Răspundere la discuții",
                 "search_users_label": "=> core.ref.search_users",
@@ -427,12 +427,12 @@
             },
             "search_source": {
                 "general": {
-                    "heading": ""
+                    "heading": "General"
                 }
             },
             "settings": {
                 "saved_message": "Modificările Dvs. au fost salvate.",
-                "select_dropdown_custom_label": "",
+                "select_dropdown_custom_label": "Personalizat",
                 "submit_button": "=> core.ref.save_changes"
             },
             "upload_image": {
@@ -462,8 +462,8 @@
                         "user_actions": {
                             "title": "Acțiuni",
                             "edit_user": {
-                                "button": "",
-                                "tooltip": ""
+                                "button": "=> core.ref.edit",
+                                "tooltip": "Editare {username}"
                             }
                         },
                         "user_id": {
@@ -539,7 +539,7 @@
                 "empty_text": "Se pare că nu sunt discuții aici.",
                 "load_more_button": "=> core.ref.load_more",
                 "replied_text": "{username} a răspuns {ago}",
-                "skip_discussion_list_pane": "",
+                "skip_discussion_list_pane": "Sari peste panoul cu lista de discuții",
                 "started_text": "{username} a publicat {ago}",
                 "total_replies_a11y_label": "{count, plural, one {# răspuns} other {# răspunsuri}}",
                 "unread_replies_a11y_label": "{count, plural, one {# răspuns necitit} other {# răspunsuri necitite}}. Marcați ca necitit/e {count, plural, one {răspuns} other {răspunsuri}} ca citit/e."
@@ -572,31 +572,31 @@
                 "mark_all_as_read_confirmation": "Sigur doriți ca toate discuțiile să fie marcate ca citite?",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "meta_title_text": "=> core.ref.all_discussions",
-                "refresh_tooltip": "",
+                "refresh_tooltip": "=> core.ref.refresh",
                 "start_discussion_button": "=> core.ref.start_a_discussion",
-                "skip_to_main_content": "",
+                "skip_to_main_content": "Sari la conținutul principal",
                 "toggle_sidenav_dropdown_accessible_label": "Comutare meniul derulant de navigare"
             },
             "index_sort": {
                 "latest_button": "Cele mai actuale",
-                "newest_button": "",
-                "oldest_button": "",
-                "relevance_button": "",
+                "newest_button": "=> core.ref.newest",
+                "oldest_button": "=> core.ref.oldest",
+                "relevance_button": "=> core.ref.relevance",
                 "toggle_dropdown_accessible_label": "Modificare sortarea listei de discuții",
                 "top_button": "Cele mai citite"
             },
             "log_in": {
                 "forgot_password_link": "Ați uitat parola?",
-                "invalid_login_message": "",
+                "invalid_login_message": "=> core.ref.invalid_login_message",
                 "password_placeholder": "=> core.ref.password",
-                "remember_me_label": "",
+                "remember_me_label": "=> core.ref.remember_me_label",
                 "sign_up_text": "Nu aveți cont? <a>Înregistrare</a>",
                 "submit_button": "=> core.ref.log_in",
                 "title": "=> core.ref.log_in",
-                "username_or_email_placeholder": ""
+                "username_or_email_placeholder": "=> core.ref.username_or_email_placeholder"
             },
             "notifications": {
-                "delete_all_confirm": "",
+                "delete_all_confirm": "Sigur doriți să ștergeți toate notificările? Această acțiune este ireversibilă",
                 "delete_all_tooltip": "Șterge toate notificările",
                 "discussion_renamed_text": "{username} a modificat titlul discuției",
                 "empty_text": "Nicio notificare",
@@ -621,9 +621,9 @@
                 "toggle_dropdown_accessible_label": "Comutare meniul derulant cu opțiunile postării"
             },
             "post_list": {
-                "empty_text": "",
-                "in_discussion_text": "",
-                "load_more_button": ""
+                "empty_text": "Se pare că nu există nicio postare aici.",
+                "in_discussion_text": "În {discussion}",
+                "load_more_button": "=> core.ref.load_more"
             },
             "post_scrubber": {
                 "now_link": "Acum",
@@ -639,13 +639,13 @@
                 "time_lapsed_text": "{period} mai târziu"
             },
             "posts_sort": {
-                "newest_button": "",
-                "oldest_button": "",
-                "relevance_button": ""
+                "newest_button": "=> core.ref.newest",
+                "oldest_button": "=> core.ref.oldest",
+                "relevance_button": "=> core.ref.relevance"
             },
             "posts": {
-                "meta_title_text": "",
-                "refresh_tooltip": ""
+                "meta_title_text": "Rezultatele căutării postărilor",
+                "refresh_tooltip": "=> core.ref.refresh"
             },
             "rename_discussion": {
                 "submit_button": "=> core.ref.rename",
@@ -690,22 +690,22 @@
                 "account_heading": "Cont",
                 "change_email_button": "=> core.ref.change_email",
                 "change_password_button": "=> core.ref.change_password",
-                "color_scheme_heading": "",
+                "color_scheme_heading": "Schemă de culori",
                 "color_schemes": {
-                    "auto_mode_label": "",
-                    "dark_hc_mode_label": "",
-                    "dark_mode_label": "",
-                    "light_hc_mode_label": "",
-                    "light_mode_label": ""
+                    "auto_mode_label": "Preferință sistem",
+                    "dark_hc_mode_label": "=> core.ref.dark_hc_mode_label",
+                    "dark_mode_label": "=> core.ref.dark_mode_label",
+                    "light_hc_mode_label": "=> core.ref.light_hc_mode_label",
+                    "light_mode_label": "=> core.ref.light_mode_label"
                 },
                 "notification_checkbox_a11y_label_template": "Primește notificări \"{description}\" via {method}",
                 "notifications_heading": "=> core.ref.notifications",
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "Web",
                 "notify_discussion_renamed_label": "Cineva redenumește o discuție inițiată de mine",
-                "device_heading": "",
-                "haptic_feedback_help": "",
-                "haptic_feedback_label": "",
+                "device_heading": "Dispozitiv",
+                "haptic_feedback_help": "Disponibil doar pe dispozitivele mobile acceptate",
+                "haptic_feedback_label": "Activați feedback-ul haptic",
                 "privacy_disclose_online_label": "Permieți altora să vadă când sunt conectat(ă)",
                 "privacy_heading": "Confidențialitate",
                 "title": "=> core.ref.settings"
@@ -782,10 +782,10 @@
             },
             "error": {
                 "circular_dependencies_message": "S-au detectat dependențe circulare: {extensions}. Se întrerupe operațiunea. Te rugăm să dezactivezi una dintre extensii și să încerci din nou.",
-                "db_error_message": "",
+                "db_error_message": "Interogarea bazei de date a eșuat. Acest lucru poate fi cauzat de o incompatibilitate între o extensie și driver-ul bazei de date.",
                 "dependent_extensions_message": "Extensia {extension} nu poate fi dezactivată până când următoarele extensii dependente sunt activate: {extensions}",
                 "extension_initialiation_failed_message": "{extension} a eșuat să se inițializeze, verifică consola navigatorului pentru mai multe informații.",
-                "extension_runtime_failed_message": "",
+                "extension_runtime_failed_message": "{extension} a întâmpinat o eroare în timpul rulării. Verificați consola browserului pentru informații suplimentare.",
                 "generic_message": "Hopa! Ceva nu a mers. Vă rugăm, încărcați pagina din nou (F5) și încercați din nou.",
                 "generic_cross_origin_message": "Hopa! Ceva nu a funcționat corect în timpul unei solicitări între origini (cross-origin). Te rugăm să reîncarci pagina și să încerci din nou.",
                 "missing_dependencies_message": "Extensia {extension} nu poate fi activată până când următoarele dependențe sunt dezactivate: {extensions}",
@@ -797,45 +797,45 @@
             },
             "gambits": {
                 "group_keys": {
-                    "allows": "",
-                    "has": "",
-                    "is": ""
+                    "allows": "permite",
+                    "has": "are",
+                    "is": "este"
                 },
                 "discussions": {
                     "author": {
-                        "key": "",
-                        "hint": ""
+                        "key": "autor",
+                        "hint": "nume de utilizator sau listă de nume de utilizator separate prin virgulă"
                     },
                     "created": {
-                        "key": "",
-                        "hint": ""
+                        "key": "creat",
+                        "hint": "2020-12-31 sau 2020-12-31..2021-09-30"
                     },
                     "hidden": {
-                        "key": ""
+                        "key": "ascuns"
                     },
                     "unread": {
-                        "key": ""
+                        "key": "necitit"
                     }
                 },
                 "posts": {
                     "discussion": {
-                        "key": "",
-                        "hint": ""
+                        "key": "discuție",
+                        "hint": "ID-ul discuției"
                     }
                 },
                 "users": {
                     "email": {
-                        "key": "",
-                        "hint": ""
+                        "key": "email",
+                        "hint": "example@machine.local"
                     },
                     "group": {
-                        "key": "",
-                        "hint": ""
+                        "key": "grup",
+                        "hint": "nume de grup la singular sau plural"
                     }
                 }
             },
             "input": {
-                "clear_button": ""
+                "clear_button": "Șterge intrarea"
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
@@ -848,47 +848,47 @@
                 "close": "Închide"
             },
             "multi_select": {
-                "placeholder": ""
+                "placeholder": "Selectați mai multe opțiuni"
             },
             "nav": {
                 "drawer_button": "Deschide panoul de navigare"
             },
             "notices": {
-                "bisecting": "",
-                "bisecting_continue": "",
-                "maintenance_mode_low": "",
-                "maintenance_mode_safe": ""
+                "bisecting": "Rularea unui proces de bisectare a extensiilor pentru a determina care extensie cauzează o problemă.",
+                "bisecting_continue": "Continuați bisectarea",
+                "maintenance_mode_low": "Oprit pentru întreținere. Doar administratorii pot accesa forumul.",
+                "maintenance_mode_safe": "Oprit pentru întreținere în modul de siguranță. Doar administratorii pot accesa forumul și nicio extensie nu este încărcată."
             },
             "number_suffix": {
                 "kilo_text": "K",
                 "mega_text": "M"
             },
             "pagination": {
-                "back_button": "",
-                "first_button": "",
-                "go_to_page_textbox_a11y_label": "",
-                "last_button": "",
-                "next_button": "",
-                "page_counter": ""
+                "back_button": "Pagina anterioară",
+                "first_button": "Mergeți la prima pagină",
+                "go_to_page_textbox_a11y_label": "Mergeți direct la pagina numărul",
+                "last_button": "Mergeți la ultima pagină",
+                "next_button": "Pagina următoare",
+                "page_counter": "Pagina {current} din {total}"
             },
             "search": {
-                "gambit_plus_button_a11y_label": "",
-                "gambit_minus_button_a11y_label": "",
-                "title": "",
-                "no_results_text": "",
-                "no_search_text": "",
-                "options_heading": "",
-                "placeholder": "",
-                "preview_heading": "",
-                "search_clear_button_accessible_label": ""
+                "gambit_plus_button_a11y_label": "Adăugați un filtru pozitiv",
+                "gambit_minus_button_a11y_label": "Adăugați un filtru negativ",
+                "title": "Căutare",
+                "no_results_text": "Se pare că nu există niciun rezultat aici.",
+                "no_search_text": "Nu ați căutat nimic încă.",
+                "options_heading": "Opțiuni de căutare",
+                "placeholder": "Căutare...",
+                "preview_heading": "Previzualizare căutare",
+                "search_clear_button_accessible_label": "Ștergeți interogarea de căutare"
             },
             "search_source": {
                 "discussions": {
-                    "all_button": "",
-                    "heading": ""
+                    "all_button": "Căutați în toate discuțiile după „{query}”",
+                    "heading": "=> core.ref.discussions"
                 },
                 "posts": {
-                    "all_button": "",
+                    "all_button": "Căutați în toate postările după „{query}”",
                     "heading": ""
                 },
                 "users": {
