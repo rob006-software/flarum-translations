@@ -17,6 +17,10 @@
                 "tooltip_posts": "Сообщения",
                 "tooltip_users": "Пользователи",
                 "tooltip_online": "Пользователи в сети",
+                "label_discussions": "",
+                "label_posts": "",
+                "label_users": "",
+                "label_online": "",
                 "tooltip_latest_registration": "Последняя регистрация: {name}"
             },
             "aria": {
@@ -28,6 +32,19 @@
         },
         "admin": {
             "settings": {
+                "widget_layout": "",
+                "widget_layout_help": "",
+                "widget_layout_classic": "",
+                "widget_layout_full_width": "",
+                "bar_position_desktop": "",
+                "bar_position_desktop_help": "",
+                "bar_position_mobile": "",
+                "bar_position_mobile_help": "",
+                "bar_position_above": "",
+                "bar_position_inside": "",
+                "bar_position_below": "",
+                "widget_position": "Позиция виджета в сайдбаре по приоритету",
+                "widget_position_help": "Определяет, где виджет будет отображаться в сайдбаре. Меньшие значения размещают его ниже. По умолчанию: -10.",
                 "section_online_users": "Пользователи в сети",
                 "section_online_users_help": "Настройка отображения пользователей в сети в развёрнутой панели виджета.",
                 "show_online_users": "Показывать пользователей в сети",
@@ -42,12 +59,14 @@
                 "online_users_cache_ttl_help": "Как долго кэшировать список пользователей в сети. Используются два отдельных кэша: один для пользователей с разрешением «Смотреть время последнего посещения», которые также могут видеть скрытых пользователей, и один для обычных пользователей. Каждый кэш учитывает своё максимальное ограничение отображения.",
                 "section_statistics": "Статистика форума",
                 "section_statistics_help": "Настройка кэширования количества дискуссий, сообщений, пользователей и последней регистрации.",
+                "show_discussions_count": "",
+                "show_posts_count": "",
+                "show_users_count": "",
+                "show_latest_registration": "",
                 "stats_cache_duration": "Время хранения кэша статистики (в секундах)",
                 "stats_cache_duration_help": "Как долго кэшировать количество дискуссий, сообщений, пользователей и последнюю регистрацию. Кэш автоматически сбрасывается при создании или удалении дискуссий, сообщений или пользователей. Установите 0, чтобы отключить кэширование — не рекомендуется для больших форумов.",
                 "ignore_private_discussions": "Игнорировать приватные дискуссии в подсчёте",
-                "section_display": "Отображение виджета",
-                "widget_position": "Позиция виджета в сайдбаре по приоритету",
-                "widget_position_help": "Определяет, где виджет будет отображаться в сайдбаре. Меньшие значения размещают его ниже. По умолчанию: -10."
+                "section_display": "Отображение виджета"
             },
             "permissions": {
                 "view_online_users": "Видеть пользователей в сети",

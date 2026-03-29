@@ -17,6 +17,10 @@
                 "tooltip_posts": "Messages",
                 "tooltip_users": "Utilisateurs",
                 "tooltip_online": "Utilisateurs en ligne",
+                "label_discussions": "",
+                "label_posts": "",
+                "label_users": "",
+                "label_online": "",
                 "tooltip_latest_registration": "Dernière inscription : {name}"
             },
             "aria": {
@@ -28,6 +32,19 @@
         },
         "admin": {
             "settings": {
+                "widget_layout": "",
+                "widget_layout_help": "",
+                "widget_layout_classic": "",
+                "widget_layout_full_width": "",
+                "bar_position_desktop": "",
+                "bar_position_desktop_help": "",
+                "bar_position_mobile": "",
+                "bar_position_mobile_help": "",
+                "bar_position_above": "",
+                "bar_position_inside": "",
+                "bar_position_below": "",
+                "widget_position": "Position du widget dans la barre latérale (priorité)",
+                "widget_position_help": "Détermine l'emplacement du widget dans la barre latérale. Plus la valeur est faible (plus négative), plus le widget est placé vers le bas. Valeur par défaut : -10.",
                 "section_online_users": "Utilisateurs en ligne",
                 "section_online_users_help": "Configurer l'affichage des utilisateurs en ligne dans le panneau déroulant du widget.",
                 "show_online_users": "Afficher les utilisateurs en ligne",
@@ -42,12 +59,14 @@
                 "online_users_cache_ttl_help": "Combien de temps la liste des utilisateurs en ligne doit-elle être mise en cache ? Deux caches distincts sont gérés : l'un pour les utilisateurs privilégiés (ceux disposant de l'autorisation « Toujours afficher la dernière connexion des utilisateurs », qui peuvent également voir les utilisateurs masqués) et l'autre pour les utilisateurs réguliers. Chaque cache respecte sa propre limite maximale d'affichage.",
                 "section_statistics": "Statistiques du forum",
                 "section_statistics_help": "Configurer la mise en cache pour le nombre de discussions, le nombre de messages, le nombre total d'utilisateurs et la dernière inscription.",
+                "show_discussions_count": "",
+                "show_posts_count": "",
+                "show_users_count": "",
+                "show_latest_registration": "",
                 "stats_cache_duration": "Durée de mise en cache des statistiques (en secondes)",
                 "stats_cache_duration_help": "Durée de mise en cache du nombre de discussions, du nombre de messages, du nombre total d'utilisateurs et de la dernière inscription. La mise en cache est automatiquement invalidée lorsque des discussions, des messages ou des utilisateurs sont créés ou supprimés. Définissez cette valeur sur 0 pour désactiver la mise en cache (non recommandé pour les forums importants).",
                 "ignore_private_discussions": "Ignorer les discussions privées dans le décompte",
-                "section_display": "Affichage du widget",
-                "widget_position": "Position du widget dans la barre latérale (priorité)",
-                "widget_position_help": "Détermine l'emplacement du widget dans la barre latérale. Plus la valeur est faible (plus négative), plus le widget est placé vers le bas. Valeur par défaut : -10."
+                "section_display": "Affichage du widget"
             },
             "permissions": {
                 "view_online_users": "Voir les utilisateurs en ligne",

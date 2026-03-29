@@ -17,6 +17,10 @@
                 "tooltip_posts": "帖子",
                 "tooltip_users": "用户",
                 "tooltip_online": "在线用户",
+                "label_discussions": "",
+                "label_posts": "",
+                "label_users": "",
+                "label_online": "",
                 "tooltip_latest_registration": "最新注册: {name}"
             },
             "aria": {
@@ -28,6 +32,19 @@
         },
         "admin": {
             "settings": {
+                "widget_layout": "",
+                "widget_layout_help": "",
+                "widget_layout_classic": "",
+                "widget_layout_full_width": "",
+                "bar_position_desktop": "",
+                "bar_position_desktop_help": "",
+                "bar_position_mobile": "",
+                "bar_position_mobile_help": "",
+                "bar_position_above": "",
+                "bar_position_inside": "",
+                "bar_position_below": "",
+                "widget_position": "侧边栏显示位置（优先级）",
+                "widget_position_help": "控制小部件在侧边栏中的显示顺序。数值越低（负值越大）位置越靠下。默认值：-10。",
                 "section_online_users": "在线用户",
                 "section_online_users_help": "配置在展开的小部件面板中显示的在线用户设置。",
                 "show_online_users": "显示在线用户",
@@ -42,12 +59,14 @@
                 "online_users_cache_ttl_help": "在线用户列表的缓存时间。系统会维护两个独立的缓存：一个用于特权用户（可见隐藏用户），一个用于普通用户。每个缓存均遵循其各自的最大显示限制。",
                 "section_statistics": "论坛统计",
                 "section_statistics_help": "配置讨论总数、帖子总数、用户总数以及最新注册统计的缓存设置。",
+                "show_discussions_count": "",
+                "show_posts_count": "",
+                "show_users_count": "",
+                "show_latest_registration": "",
                 "stats_cache_duration": "统计数据缓存时长（秒）",
                 "stats_cache_duration_help": "各项统计数据的缓存时间。当有新的讨论、帖子或用户创建/删除时，缓存会自动失效。设为 0 则禁用缓存（不建议大型论坛使用）。",
                 "ignore_private_discussions": "统计总数时忽略私密讨论",
-                "section_display": "小部件显示",
-                "widget_position": "侧边栏显示位置（优先级）",
-                "widget_position_help": "控制小部件在侧边栏中的显示顺序。数值越低（负值越大）位置越靠下。默认值：-10。"
+                "section_display": "小部件显示"
             },
             "permissions": {
                 "view_online_users": "查看在线用户",

@@ -17,6 +17,10 @@
                 "tooltip_posts": "",
                 "tooltip_users": "",
                 "tooltip_online": "",
+                "label_discussions": "",
+                "label_posts": "",
+                "label_users": "",
+                "label_online": "",
                 "tooltip_latest_registration": ""
             },
             "aria": {
@@ -28,6 +32,19 @@
         },
         "admin": {
             "settings": {
+                "widget_layout": "",
+                "widget_layout_help": "",
+                "widget_layout_classic": "",
+                "widget_layout_full_width": "",
+                "bar_position_desktop": "",
+                "bar_position_desktop_help": "",
+                "bar_position_mobile": "",
+                "bar_position_mobile_help": "",
+                "bar_position_above": "",
+                "bar_position_inside": "",
+                "bar_position_below": "",
+                "widget_position": "",
+                "widget_position_help": "",
                 "section_online_users": "",
                 "section_online_users_help": "",
                 "show_online_users": "",
@@ -42,12 +59,13 @@
                 "online_users_cache_ttl_help": "",
                 "section_statistics": "",
                 "section_statistics_help": "",
+                "show_discussions_count": "",
+                "show_posts_count": "",
+                "show_users_count": "",
+                "show_latest_registration": "",
                 "stats_cache_duration": "",
                 "stats_cache_duration_help": "",
-                "ignore_private_discussions": "",
-                "section_display": "",
-                "widget_position": "",
-                "widget_position_help": ""
+                "ignore_private_discussions": ""
             },
             "permissions": {
                 "view_online_users": "",
