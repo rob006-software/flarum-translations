@@ -2,59 +2,59 @@
     "ekumanov-forum-widgets": {
         "forum": {
             "online_users": {
-                "title": "",
-                "empty": "",
-                "hidden_users": "",
-                "overflow_more": ""
+                "title": "В сети",
+                "empty": "Сейчас в сети никого нет.",
+                "hidden_users": "скрытые",
+                "overflow_more": "ещё"
             },
             "stats": {
-                "title": "",
-                "discussions_count": "",
-                "posts_count": "",
-                "users_count": "",
-                "latest_registration": "",
-                "tooltip_discussions": "",
-                "tooltip_posts": "",
-                "tooltip_users": "",
-                "tooltip_online": "",
-                "tooltip_latest_registration": ""
+                "title": "Статистика форума",
+                "discussions_count": "Дискуссии: {count}",
+                "posts_count": "Сообщения: {count}",
+                "users_count": "Пользователи: {count}",
+                "latest_registration": "Последняя регистрация:",
+                "tooltip_discussions": "Дискуссии",
+                "tooltip_posts": "Сообщения",
+                "tooltip_users": "Пользователи",
+                "tooltip_online": "Пользователи в сети",
+                "tooltip_latest_registration": "Последняя регистрация: {name}"
             },
             "aria": {
-                "expand_details": "",
-                "collapse_details": "",
-                "details_panel": "",
-                "overflow_users": ""
+                "expand_details": "Показать информацию о форуме",
+                "collapse_details": "Скрыть информацию о форуме",
+                "details_panel": "Информация о форуме",
+                "overflow_users": "Ещё {count} пользователей в сети"
             }
         },
         "admin": {
             "settings": {
-                "section_online_users": "",
-                "section_online_users_help": "",
-                "show_online_users": "",
-                "show_online_users_help": "",
-                "max_online_users": "",
-                "max_online_users_help": "",
-                "max_online_users_privileged": "",
-                "max_online_users_privileged_help": "",
-                "last_seen_interval": "",
-                "last_seen_interval_help": "",
-                "online_users_cache_ttl": "",
-                "online_users_cache_ttl_help": "",
-                "section_statistics": "",
-                "section_statistics_help": "",
-                "stats_cache_duration": "",
-                "stats_cache_duration_help": "",
-                "ignore_private_discussions": "",
-                "section_display": "",
-                "widget_position": "",
-                "widget_position_help": ""
+                "section_online_users": "Пользователи в сети",
+                "section_online_users_help": "Настройка отображения пользователей в сети в развёрнутой панели виджета.",
+                "show_online_users": "Показывать пользователей в сети",
+                "show_online_users_help": "Включить или отключить отображение пользователей в сети. При отключении данные не будут собираться и отображаться.",
+                "max_online_users": "Максимальное количество отображаемых пользователей в сети",
+                "max_online_users_help": "Максимальное количество аватаров для обычных пользователей. Пользователи сверх этого числа отображаются как «+N ещё». Более высокие значения увеличивают размер кэша и нагрузку на API. Рекомендуется: 10–20.",
+                "max_online_users_privileged": "Максимальное количество отображаемых пользователей в сети с разрешением",
+                "max_online_users_privileged_help": "Максимальное количество аватаров для пользователей с разрешением «Смотреть время последнего посещения» — обычно администраторы и модераторы. Поскольку этот кэш используется реже, он может безопасно хранить больше записей. Рекомендуется: 30–50.",
+                "last_seen_interval": "Интервал последней активности (в минутах)",
+                "last_seen_interval_help": "Через сколько минут после последней активности пользователь считается в сети.",
+                "online_users_cache_ttl": "Время хранения кэша пользователей в сети (в секундах)",
+                "online_users_cache_ttl_help": "Как долго кэшировать список пользователей в сети. Используются два отдельных кэша: один для пользователей с разрешением «Смотреть время последнего посещения», которые также могут видеть скрытых пользователей, и один для обычных пользователей. Каждый кэш учитывает своё максимальное ограничение отображения.",
+                "section_statistics": "Статистика форума",
+                "section_statistics_help": "Настройка кэширования количества дискуссий, сообщений, пользователей и последней регистрации.",
+                "stats_cache_duration": "Время хранения кэша статистики (в секундах)",
+                "stats_cache_duration_help": "Как долго кэшировать количество дискуссий, сообщений, пользователей и последнюю регистрацию. Кэш автоматически сбрасывается при создании или удалении дискуссий, сообщений или пользователей. Установите 0, чтобы отключить кэширование — не рекомендуется для больших форумов.",
+                "ignore_private_discussions": "Игнорировать приватные дискуссии в подсчёте",
+                "section_display": "Отображение виджета",
+                "widget_position": "Позиция виджета в сайдбаре по приоритету",
+                "widget_position_help": "Определяет, где виджет будет отображаться в сайдбаре. Меньшие значения размещают его ниже. По умолчанию: -10."
             },
             "permissions": {
-                "view_online_users": "",
-                "view_discussions_count": "",
-                "view_posts_count": "",
-                "view_users_count": "",
-                "view_latest_registration": ""
+                "view_online_users": "Видеть пользователей в сети",
+                "view_discussions_count": "Видеть количество дискуссий",
+                "view_posts_count": "Видеть количество сообщений",
+                "view_users_count": "Видеть количество пользователей",
+                "view_latest_registration": "Видеть последнюю регистрацию"
             }
         }
     }
