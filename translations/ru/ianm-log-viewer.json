@@ -2,26 +2,26 @@
     "ianm-log-viewer": {
         "admin": {
             "permissions": {
-                "access_logfile_api": "Доступ к данным журнала через API"
+                "access_logfile_api": "Просмотр и управление файлами логов"
             },
             "settings": {
-                "max-file-size": "",
-                "max-file-size-help": "",
-                "purge-days": "",
-                "purge-days-help": ""
+                "max-file-size": "Максимальный размер файла логов (МБ)",
+                "max-file-size-help": "Если файл логов превышает этот размер, он будет разделён на несколько частей. Установите 0, чтобы отключить разделение. По умолчанию — 1 МБ. Максимально допустимый размер — 150 МБ.",
+                "purge-days": "Удалять файлы логов через указанное количество дней",
+                "purge-days-help": "Работает только при активном планировщике. 0 — отключено."
             },
             "viewer": {
                 "available_logs_heading": "Доступные файлы",
                 "file_contents_heading": "Содержимое файла",
                 "last_updated": "Последнее обновление: {updated}",
-                "no_log_files": "",
+                "no_log_files": "Логи не найдены.",
                 "no_file_selected": "Выберите файл журнала для просмотра.",
-                "view_log": "",
-                "download_log": "",
-                "delete_log": "",
-                "confirm_delete": "",
-                "scroll_to_bottom": "",
-                "scroll_to_top": "",
+                "view_log": "Просмотреть файл логов",
+                "download_log": "Скачать файл логов",
+                "delete_log": "Удалить лог-файл",
+                "confirm_delete": "Удалить этот файл логов? Это действие отменить не получится.",
+                "scroll_to_bottom": "Прокрутить вниз",
+                "scroll_to_top": "Прокрутить вверх",
                 "file_size": "Размер (байт): {size}"
             }
         }
