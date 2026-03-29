@@ -4,7 +4,7 @@
             "online_users": {
                 "title": "Utilisateurs en ligne",
                 "empty": "Aucun utilisateur n'est actuellement en ligne.",
-                "hidden_users": "",
+                "hidden_users": "caché(s)",
                 "overflow_more": "plus"
             },
             "stats": {
@@ -23,7 +23,7 @@
                 "expand_details": "Afficher les informations du forum",
                 "collapse_details": "Masquer les informations du forum",
                 "details_panel": "Informations du forum",
-                "overflow_users": ""
+                "overflow_users": "{count} autres utilisateurs en ligne"
             }
         },
         "admin": {
@@ -47,7 +47,7 @@
                 "ignore_private_discussions": "Ignorer les discussions privées dans le décompte",
                 "section_display": "Affichage du widget",
                 "widget_position": "Position du widget dans la barre latérale (priorité)",
-                "widget_position_help": ""
+                "widget_position_help": "Détermine l'emplacement du widget dans la barre latérale. Plus la valeur est faible (plus négative), plus le widget est placé vers le bas. Valeur par défaut : -10."
             },
             "permissions": {
                 "view_online_users": "Voir les utilisateurs en ligne",
