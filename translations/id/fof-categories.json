@@ -2,54 +2,54 @@
     "fof-categories": {
         "admin": {
             "basics": {
-                "categories_label": ""
+                "categories_label": "Kategori"
             },
             "labels": {
-                "keep_tags_nav": "",
+                "keep_tags_nav": "Simpan link halaman tag di bilah navigasi?",
                 "child_bare_icon": "",
-                "compact_mobile_mode": "",
-                "full_page_desktop": "",
+                "compact_mobile_mode": "Mode seluler ringkas",
+                "full_page_desktop": "Halaman penuh untuk desktop?",
                 "parent_remove_icon": "",
                 "parent_remove_description": "",
                 "parent_remove_stats": "",
                 "parent_remove_last_discussion": "",
-                "small_forum_optimized": ""
+                "small_forum_optimized": "Optimalkan untuk forum kecil?"
             },
             "help": {
                 "child_bare_icon": "",
-                "full_page_desktop": "",
-                "small_forum_optimized": ""
+                "full_page_desktop": "Haruskah menu navigasi bilah samping dilipat menjadi satu baris (seperti pada halaman tag tradisional)? Ini juga akan menyembunyikan widget (seperti Friends of Flarum Forum Statistics) dari bilah navigasi halaman kategori.",
+                "small_forum_optimized": "Ini akan memberikan jumlah diskusi/posting yang lebih akurat, tetapi akan memperlambat forum berukuran menengah dan besar secara drastis."
             },
             "headings": {
-                "nav": "",
-                "layout": "",
+                "nav": "Navigasi",
+                "layout": "Tata Letak",
                 "parent_display": "",
                 "child_display": "",
-                "performance": ""
+                "performance": "Kinerja"
             },
-            "title": ""
+            "title": "Pengaturan Kategori"
         },
         "forum": {
             "all_categories": {
-                "meta_description_text": "",
-                "meta_title_text": ""
+                "meta_description_text": "Semua Kategori",
+                "meta_title_text": "=> fof-categories.ref.categories"
             },
             "header": {
-                "back_to_categories_tooltip": ""
+                "back_to_categories_tooltip": "Kembali ke Kategori"
             },
             "index": {
-                "categories_link": ""
+                "categories_link": "=> fof-categories.ref.categories"
             },
             "stat-widgets": {
-                "discussion_label": "",
-                "post_label": ""
+                "discussion_label": "Diskusi",
+                "post_label": "Post"
             },
             "last_discussion_widget": {
-                "no_discussions": ""
+                "no_discussions": "Belum Ada Diskusi (Untuk Saat Ini!)"
             }
         },
         "ref": {
-            "categories": ""
+            "categories": "Kategori"
         }
     }
 }
