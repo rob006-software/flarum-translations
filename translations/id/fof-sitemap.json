@@ -53,8 +53,8 @@
                         }
                     }
                 },
-                "column_pruning": "",
-                "column_pruning_help": ""
+                "column_pruning": "Aktifkan pemangkasan kolom",
+                "column_pruning_help": "Hanya mengambil kolom yang diperlukan untuk menghasilkan URL (contoh: id, slug, username, tanggal) alih-alih SELECT *. Secara signifikan mengurangi penggunaan memori per model pada forum besar. Diaktifkan secara default — nonaktifkan hanya jika driver slug khusus atau scope visibilitas memerlukan kolom yang tidak ada dalam pilihan default."
             }
         }
     }
