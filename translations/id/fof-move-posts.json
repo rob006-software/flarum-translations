@@ -12,56 +12,56 @@
         },
         "forum": {
             "badge": {
-                "first_moved_tooltip": ""
+                "first_moved_tooltip": "Dipindahkan"
             },
             "discussion": {
                 "move_posts": "=> fof-move-posts.ref.move_posts"
             },
             "error": {
                 "move_old_post_to_newer_discussion": "=> fof-move-posts.ref.status.old_to_new_move",
-                "move_posts_to_same_discussion": ""
+                "move_posts_to_same_discussion": "Anda tidak dapat memindahkan post ke diskusi yang sama."
             },
             "modal": {
-                "check": "",
-                "destination": "",
-                "discussion_help": "",
+                "check": "Pilih Jenis Operasi",
+                "destination": "Diskusi Tujuan",
+                "discussion_help": "Tag dari diskusi asal akan digunakan, dan dapat diubah setelah pembuatan.",
                 "discussion_name": "=> core.forum.composer_discussion.title_placeholder",
-                "new_discussion": "",
-                "selected_posts": "",
+                "new_discussion": "Diskusi Baru",
+                "selected_posts": "{count, plural, one {Satu Post Terpilih} other {{count} Post Terpilih}}",
                 "status": {
-                    "complex_move": "",
-                    "old_to_new_move": "",
-                    "simple_move": ""
+                    "complex_move": "Ini akan menjadi proses yang rumit; postingan akan dipindahkan dari satu tempat ke tempat lain, sehingga URL lama dari postingan dalam diskusi tujuan juga akan berubah.",
+                    "old_to_new_move": "=> fof-move-posts.ref.status.old_to_new_move",
+                    "simple_move": "Ini akan menjadi langkah yang sederhana; semua postingan akan ditambahkan di bagian akhir diskusi."
                 },
-                "submit": "",
+                "submit": "Lanjutkan",
                 "title": "=> fof-move-posts.ref.move_posts",
-                "confirm_move_all_to_new_discussion": ""
+                "confirm_move_all_to_new_discussion": "Anda akan memindahkan semua postingan dari diskusi ini ke diskusi baru. Dalam banyak kasus, akan lebih baik jika Anda mengubah diskusi yang sudah ada, misalnya dengan mengubah judul, tag, atau atribut lainnya. Apakah Anda ingin melanjutkan?"
             },
             "alerts": {
-                "posts_moved_to": ""
+                "posts_moved_to": "{count, plural, one {Post dipindahkan ke {target_discussion}.} other {{count} post dipindahkan ke {target_discussion}.}}"
             },
             "notifications": {
-                "post_moved_text": ""
+                "post_moved_text": "Satu atau lebih postingan Anda telah dipindahkan ke {targetDiscussionTitle}."
             },
             "post": {
-                "unmove": "",
-                "move": "",
-                "moving": ""
+                "unmove": "Hapus pilihan untuk memindahkan",
+                "move": "Pilih untuk memindahkan",
+                "moving": "Sedang memindahkan post"
             },
             "post_stream": {
-                "post_moved": ""
+                "post_moved": "{count, plural, one {{username} memindahkan sebuah post ke {target_discussion}.} other {{username} memindahkan {count} post ke {target_discussion}.}}"
             }
         },
         "ref": {
-            "move_posts": "",
+            "move_posts": "Pindahkan Post",
             "status": {
-                "old_to_new_move": ""
+                "old_to_new_move": "Tidak dapat memindahkan postingan lama ke diskusi yang lebih baru."
             }
         },
         "lib": {
             "discussion": {
                 "first_post": {
-                    "default_content": ""
+                    "default_content": "*Post ini telah dipindahkan ke **[%DISCUSSION_NAME%](%POST_LINK%)**.*\n"
                 }
             }
         }

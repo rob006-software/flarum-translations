@@ -3,20 +3,20 @@
         "admin": {
             "settings": {
                 "api_endpoint_label": "",
-                "api_endpoint_help": "",
+                "api_endpoint_help": "URL instance Cap Standalone Anda beserta kunci situs, misalnya https://cap.example.com/your-site-key/",
                 "secret_key_label": "",
                 "secret_key_help": "",
-                "protect_registration_label": "",
-                "protect_registration_help": "",
-                "protect_login_label": "",
-                "protect_login_help": ""
+                "protect_registration_label": "Mengharuskan CAPTCHA saat pendaftaran",
+                "protect_registration_help": "Tampilkan widget Cap pada form pendaftaran.",
+                "protect_login_label": "Mengharuskan CAPTCHA saat login",
+                "protect_login_help": "Tampilkan widget Cap pada form login."
             }
         },
         "forum": {
-            "captcha_required": ""
+            "captcha_required": "Silakan verifikasi bahwa Anda adalah manusia dengan menyelesaikan CAPTCHA."
         },
         "api": {
-            "invalid_captcha": ""
+            "invalid_captcha": "Verifikasi CAPTCHA gagal. Silakan selesaikan CAPTCHA dan coba lagi."
         }
     }
 }
