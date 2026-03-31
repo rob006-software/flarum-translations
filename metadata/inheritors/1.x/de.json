@@ -6221,6 +6221,56 @@
             }
         }
     },
+    "ralkage-account-lockout.json": {
+        "ralkage-account-lockout": {
+            "admin": {
+                "permissions": {
+                    "unlock_users_label": "d41d8cd98f00b204e9800998ecf8427e ea5a57c0c19e4eb3940c7765f0240292"
+                },
+                "settings": {
+                    "lockout_duration_help": "d41d8cd98f00b204e9800998ecf8427e 11ba56bd3dcc90a6f313f71d57480e3a",
+                    "lockout_duration_label": "d41d8cd98f00b204e9800998ecf8427e d344aa8d38ab2b50c1d3ff444fe8dc37",
+                    "lockout_mode_help": "d41d8cd98f00b204e9800998ecf8427e 6bab1d56949e5a86ad1e879541a32b4c",
+                    "lockout_mode_label": "d41d8cd98f00b204e9800998ecf8427e acf76ff2074c0b9ad83aca0dbd9ef3b0",
+                    "max_attempts_help": "d41d8cd98f00b204e9800998ecf8427e cd52cf91aa70a955085861f62c036c81",
+                    "max_attempts_label": "d41d8cd98f00b204e9800998ecf8427e 820e0f2b4cfd11e73d7d397223bd6469"
+                },
+                "users": {
+                    "lock_status_column": "d41d8cd98f00b204e9800998ecf8427e 469ca400a62330d4a626f5320617285f",
+                    "locked_tooltip": "d41d8cd98f00b204e9800998ecf8427e 916c3efa1e447f50dec1a47700dba8c9",
+                    "unlock_button": "d41d8cd98f00b204e9800998ecf8427e a9ab6f84041db6c1e68830d3de4e4213",
+                    "unlock_confirmation": "d41d8cd98f00b204e9800998ecf8427e 87f6bc556994606a082ebdf58fa48b93"
+                }
+            },
+            "api": {
+                "error": {
+                    "locked_manual": "d41d8cd98f00b204e9800998ecf8427e 3778e403a0065121488df43810c05430",
+                    "locked_timed": "d41d8cd98f00b204e9800998ecf8427e 22324ae1a6105f428f0b50378918ba3a"
+                }
+            },
+            "forum": {
+                "log_in": {
+                    "attempts_remaining": "d41d8cd98f00b204e9800998ecf8427e 6d98425ac11605f5a8bfd59c8b068ac3",
+                    "locked_manual": "d41d8cd98f00b204e9800998ecf8427e 2f01ea3105c8c5835639b785b1782ea2",
+                    "locked_timed": "d41d8cd98f00b204e9800998ecf8427e 314b61dcb894b6018d08d834ee2c729c"
+                },
+                "unlock_modal": {
+                    "failed_attempts": "d41d8cd98f00b204e9800998ecf8427e 412c4a1a4fb8699e16fd7d3f4f7f969f",
+                    "locked_since": "d41d8cd98f00b204e9800998ecf8427e 9cc80f73243472d00c4033de2b229285",
+                    "locked_until": "d41d8cd98f00b204e9800998ecf8427e ea8feb6a39d05f0a05ac52191e63af15",
+                    "manually_locked": "d41d8cd98f00b204e9800998ecf8427e 20a1f86ec0a7de2a85cffb2f761011b9",
+                    "title": "d41d8cd98f00b204e9800998ecf8427e a9480e3813948e11b096709e1bd56edd",
+                    "unlock_button": "d41d8cd98f00b204e9800998ecf8427e 7038e152610dbd3a0d81dce2c775ea0a"
+                },
+                "user_badge": {
+                    "locked_tooltip": "d41d8cd98f00b204e9800998ecf8427e 12883314b44e3e58bcc8b3ed47f27f46"
+                },
+                "user_controls": {
+                    "unlock_button": "d41d8cd98f00b204e9800998ecf8427e a9ab6f84041db6c1e68830d3de4e4213"
+                }
+            }
+        }
+    },
     "ralkage-ad-management.json": {
         "ralkage-ad-management": {
             "admin": {
