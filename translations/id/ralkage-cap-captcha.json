@@ -2,10 +2,10 @@
     "ralkage-cap-captcha": {
         "admin": {
             "settings": {
-                "api_endpoint_label": "",
+                "api_endpoint_label": "Cap - API Endpoint",
                 "api_endpoint_help": "URL instance Cap Standalone Anda beserta kunci situs, misalnya https://cap.example.com/your-site-key/",
-                "secret_key_label": "",
-                "secret_key_help": "",
+                "secret_key_label": "Cap - Secret Key",
+                "secret_key_help": "Secret key dari site key Anda yang didapatkan dari dashboard Cap.",
                 "protect_registration_label": "Mengharuskan CAPTCHA saat pendaftaran",
                 "protect_registration_help": "Tampilkan widget Cap pada form pendaftaran.",
                 "protect_login_label": "Mengharuskan CAPTCHA saat login",
