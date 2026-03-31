@@ -6,10 +6,10 @@
                 "secret_key_label": "Secret Key",
                 "site_key_label": "Site Key",
                 "type_label": "Jenis hCaptcha",
-                "dark_mode_label": "",
-                "dark_mode_help": "",
-                "enable_login_label": "",
-                "enable_login_help": ""
+                "dark_mode_label": "Mode Gelap",
+                "dark_mode_help": "Gunakan tema gelap untuk widget hCaptcha. Aktifkan ini jika forum Anda menggunakan tema gelap.",
+                "enable_login_label": "Mengharuskan Saat Login",
+                "enable_login_help": "Mengharuskan hCaptcha saat pengguna login. Membantu melindungi dari serangan brute-force."
             },
             "permissions": {
                 "post_without_hcaptcha": "Membuat post dan diskusi tanpa hCaptcha"
