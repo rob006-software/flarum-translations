@@ -53,8 +53,8 @@
                 "progress": "{processed} / {total} evaluasi ({percentage}%)",
                 "chunks": "",
                 "stats": "Diberikan: {awarded} | Dibatalkan: {revoked}",
-                "auto_refresh_on": "",
-                "auto_refresh_off": ""
+                "auto_refresh_on": "Penyegaran otomatis aktif",
+                "auto_refresh_off": "Penyegaran otomatis"
             },
             "recalculate_tab": {
                 "title": "Mulai Perhitungan Ulang",
@@ -74,8 +74,8 @@
                 "badges_to_check": "Badge yang akan diperiksa",
                 "start": "Mulai Rekalkulasi",
                 "no_automatic_badges": "Belum ada badge otomatis yang dikonfigurasi. Buat badge dengan kondisi pemicu terlebih dahulu.",
-                "jobs_title": "",
-                "jobs_empty": "",
+                "jobs_title": "Riwayat Job",
+                "jobs_empty": "Belum ada job perhitungan ulang.",
                 "show_more": "Tampilkan {count} lagi",
                 "sync_counts_title": "Sinkronkan Jumlah Badge",
                 "sync_counts_info": "Hitung ulang \"jumlah yang didapat\" untuk semua badge berdasarkan data user_badges yang sebenarnya. Gunakan ini jika jumlah badge menjadi tidak akurat setelah rekalkulasi.",
