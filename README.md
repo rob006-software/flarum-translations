@@ -939,6 +939,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`ralkage-profile-messages`](https://weblate.rob006.net/projects/flarum2/ralkage-profile-messages) | [`ralkage/flarum-ext-profile-messages`](https://github.com/Ralkage/flarum-ext-profile-messages) |
 | [`ralkage-word-censor`](https://weblate.rob006.net/projects/flarum2/ralkage-word-censor) | [`ralkage/flarum-ext-word-censor`](https://github.com/Ralkage/flarum-ext-word-censor) |
 | [`ralkage-word-counter`](https://weblate.rob006.net/projects/flarum2/ralkage-word-counter) | [`ralkage/flarum-ext-word-counter`](https://github.com/Ralkage/flarum-ext-word-counter) |
+| [`ralkage-hcaptcha`](https://weblate.rob006.net/projects/flarum2/ralkage-hcaptcha) | [`ralkage/flarum-hcaptcha`](https://github.com/Ralkage/flarum-hcaptcha) |
 | [`ramon-avocado`](https://weblate.rob006.net/projects/flarum2/ramon-avocado) | [`ramon/avocado`](https://github.com/ram0ng1/avocado) |
 | [`resofire-blog-cards`](https://weblate.rob006.net/projects/flarum2/resofire-blog-cards) | [`resofire/blog-cards`](https://github.com/ResofireV2/blog-cards) |
 | [`resofire-discussion-participants`](https://weblate.rob006.net/projects/flarum2/resofire-discussion-participants) | [`resofire/discussion-participants`](https://github.com/ResofireV2/discussion-participants) |
@@ -948,6 +949,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`sycho-move-posts`](https://weblate.rob006.net/projects/flarum2/sycho-move-posts) | [`sycho/flarum-move-posts`](https://github.com/SychO9/flarum-move-posts) |
 | [`sycho-private-facade`](https://weblate.rob006.net/projects/flarum2/sycho-private-facade) | [`sycho/flarum-private-facade`](https://github.com/SychO9/flarum-private-facade) |
 | [`sycho-profile-cover`](https://weblate.rob006.net/projects/flarum2/sycho-profile-cover) | [`sycho/flarum-profile-cover`](https://github.com/SychO9/flarum-profile-cover) |
+| [`vlssu-cravatar`](https://weblate.rob006.net/projects/flarum2/vlssu-cravatar) | [`vlssu/flarum-cravatar`](https://github.com/vlssu/flarum-cravatar) |
 | [`walsgit-recycle-bin`](https://weblate.rob006.net/projects/flarum2/walsgit-recycle-bin) | [`walsgit/recycle-bin`](https://github.com/WalsGit/recycle-bin) |
 | [`yippy-auth-ldap`](https://weblate.rob006.net/projects/flarum2/yippy-auth-ldap) | [`yippy/flarum-ext-auth-ldap`](https://github.com/Yippy/flarum-ext-auth-ldap) |
 | [`yippy-tag-with-themes`](https://weblate.rob006.net/projects/flarum2/yippy-tag-with-themes) | [`yippy/flarum-tag-with-themes`](https://github.com/Yippy/flarum-tag-with-themes) |
