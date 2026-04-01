@@ -5,26 +5,26 @@
                 "default_visibility_label": "Visibilitas Profil Default Global",
                 "default_visibility_help": "Ini adalah tingkat visibilitas default untuk semua profil pengguna. Setiap pengguna dapat mengubah pengaturan ini di pengaturan masing-masing.",
                 "option_everyone": "Semua Orang",
-                "option_members": "",
-                "option_private": ""
+                "option_members": "Hanya Anggota",
+                "option_private": "Pribadi"
             },
             "permissions": {
-                "bypass_profile_visibility": ""
+                "bypass_profile_visibility": "Abaiikan batasan visibilitas profil"
             }
         },
         "forum": {
             "user": {
                 "settings": {
-                    "profile_visibility_heading": "",
-                    "profile_visibility_help": "",
-                    "option_default": "",
-                    "option_everyone": "",
-                    "option_members": "",
-                    "option_private": ""
+                    "profile_visibility_heading": "Visibilitas Profil",
+                    "profile_visibility_help": "Kontrol siapa yang dapat melihat postingan dan diskusi profil Anda.",
+                    "option_default": "Default (Saat ini: {level})",
+                    "option_everyone": "Semua Orang",
+                    "option_members": "Hanya Anggota",
+                    "option_private": "Pribadi"
                 }
             },
-            "profile_private": "",
-            "profile_members_only": ""
+            "profile_private": "Profil ini bersifat pribadi.",
+            "profile_members_only": "Profil ini hanya dapat dilihat oleh anggota. Silakan masuk untuk melihatnya."
         }
     }
 }
