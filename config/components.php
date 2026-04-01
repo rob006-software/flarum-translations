@@ -414,6 +414,12 @@ return [
 	'sycho-profile-cover' => [
 		'tag' => 'https://raw.githubusercontent.com/SychO9/flarum-profile-cover/v2.0.0/resources/locale/en.yml',
 	],
+	'vlssu-cravatar' => [
+		'tag' => 'https://raw.githubusercontent.com/vlssu/flarum-cravatar/v0.3.0/resources/locale/en.yml',
+		'__builtInLanguages' => [
+			'zh_Hans',
+		],
+	],
 	'walsgit-recycle-bin' => [
 		'tag' => 'https://raw.githubusercontent.com/WalsGit/recycle-bin/2.0.1/locale/en.yml',
 	],
