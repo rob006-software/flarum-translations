@@ -260,6 +260,9 @@ return [
 	'fof-split' => [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/split/2.0.0-beta.3/locale/en.yml',
 	],
+	'fof-subscribed' => [
+		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/subscribed/2.0.0-beta.1/resources/locale/en.yml',
+	],
 	'fof-synopsis' => [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/synopsis/2.0.0-beta.2/resources/locale/en.yml',
 	],
