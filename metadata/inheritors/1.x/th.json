@@ -1433,6 +1433,43 @@
             }
         }
     },
+    "fof-subscribed.json": {
+        "fof-subscribed": {
+            "admin": {
+                "permission": {
+                    "subscribe_to_discussion_created": "6bd00a9267d76cf612e490e5b45301ad 6bd00a9267d76cf612e490e5b45301ad",
+                    "subscribe_to_post_unapproved": "90075ac42758428b70099f3d44aadaf0 90075ac42758428b70099f3d44aadaf0",
+                    "subscribe_to_user_created": "36f007cc6b966ea6a969d943102d64e2 36f007cc6b966ea6a969d943102d64e2"
+                }
+            },
+            "email": {
+                "body": {
+                    "newDiscussion": "69957d633475e8ca3234c883297305bd 69957d633475e8ca3234c883297305bd",
+                    "newUser": "ab1b49e36615ee4a35b6a24c61a33db7 ab1b49e36615ee4a35b6a24c61a33db7",
+                    "postUnapproved": "ffc0d1ef46575315f36c18b460b908d0 ffc0d1ef46575315f36c18b460b908d0"
+                },
+                "subject": {
+                    "newDiscussion": "6833e83a878d16365612838d64e0aefa 6833e83a878d16365612838d64e0aefa",
+                    "newUser": "823f6218ffe677c7c0dd4f932c91a157 823f6218ffe677c7c0dd4f932c91a157",
+                    "postUnapproved": "25ea0ce5da3cffe3213562b35cabb7d2 25ea0ce5da3cffe3213562b35cabb7d2"
+                }
+            },
+            "forum": {
+                "notifications": {
+                    "discussion_created_text": "5bbc65a8f9f5ad3ebedbb29ec7c2ceb3 5bbc65a8f9f5ad3ebedbb29ec7c2ceb3",
+                    "post_unapproved_text": "39e155b4c2aa0921427c18977fa89321 39e155b4c2aa0921427c18977fa89321",
+                    "user_created_text": "2c4650a9b7c1cc1ca52d0f1ccbaabbc1 2c4650a9b7c1cc1ca52d0f1ccbaabbc1"
+                },
+                "settings": {
+                    "defaults_label": "0ce66fe05d5b601f21e4b57edd8bae30 0ce66fe05d5b601f21e4b57edd8bae30",
+                    "forced_label": "9ec584c96904c6bdb081a8e68bb6b98b 9ec584c96904c6bdb081a8e68bb6b98b",
+                    "notify_discussion_created_label": "b2b67bdcd4860039d3f48677de546cad b2b67bdcd4860039d3f48677de546cad",
+                    "notify_post_unapproved_label": "4cd9e03393ac763e7490396363ee0c76 4cd9e03393ac763e7490396363ee0c76",
+                    "notify_user_created_label": "9b26109f4995bf2f1ce82e71305408ac 9b26109f4995bf2f1ce82e71305408ac"
+                }
+            }
+        }
+    },
     "fof-upload.json": {
         "fof-upload": {
             "admin": {

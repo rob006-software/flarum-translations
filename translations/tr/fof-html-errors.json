@@ -3,13 +3,13 @@
         "admin": {
             "settings": {
                 "error": {
-                    "403": "",
-                    "404": "",
-                    "500": "",
-                    "503": ""
+                    "403": "403 Yasaklanmış",
+                    "404": "404 Bulunamadı",
+                    "500": "500 Dahili Sunucu Hatası",
+                    "503": "503 Servis Kullanım Dışı (veya Bakımda)"
                 },
                 "placeholder": {
-                    "empty_for_default": ""
+                    "empty_for_default": "Varsayılan Flarum hata sayfası için boş bırakın"
                 }
             }
         }

@@ -3,13 +3,13 @@
         "admin": {
             "settings": {
                 "error": {
-                    "403": "",
-                    "404": "",
-                    "500": "",
-                    "503": ""
+                    "403": "403 Přístup odepřen",
+                    "404": "404 Nenalezeno",
+                    "500": "500 Vnitřní chyba serveru",
+                    "503": "503 Služba je dočasně nedostupná (odstávka z důvodu údržby)"
                 },
                 "placeholder": {
-                    "empty_for_default": ""
+                    "empty_for_default": "Pro výchozí chybovou stránku Flarum ponechte prázdné"
                 }
             }
         }
