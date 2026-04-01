@@ -2436,6 +2436,8 @@
                     "badges_to_check": "19938a4191ee8c5c02ce8f71001d5de5 19938a4191ee8c5c02ce8f71001d5de5",
                     "default": "c21f969b5f03d33d43e04f8f136e7682 c21f969b5f03d33d43e04f8f136e7682",
                     "info": "ed38a0dcc6cbc5e2ae4fa70fd9687572 ed38a0dcc6cbc5e2ae4fa70fd9687572",
+                    "jobs_empty": "6a0b2df77d6510c5f6ff7ff7c2aec91d 6a0b2df77d6510c5f6ff7ff7c2aec91d",
+                    "jobs_title": "4e367db01384e8f58bb32605d3a5cd01 4e367db01384e8f58bb32605d3a5cd01",
                     "no_automatic_badges": "194c569ebd3151132f2e6c7898680929 194c569ebd3151132f2e6c7898680929",
                     "no_revoke_help": "c0768ccdc6c792ab21b477e7b01f6dcd c0768ccdc6c792ab21b477e7b01f6dcd",
                     "no_revoke_label": "c464d1cb4f32b8e649aa2cee81f74642 c464d1cb4f32b8e649aa2cee81f74642",
@@ -2453,6 +2455,8 @@
                 },
                 "recalculation": {
                     "already_running": "189cd33061185d1074c59ef362805dd0 189cd33061185d1074c59ef362805dd0",
+                    "auto_refresh_off": "6b9c7f970cd06c3055366ba001e74346 6b9c7f970cd06c3055366ba001e74346",
+                    "auto_refresh_on": "ec4382d4af0eb181147facf91bed0e9d ec4382d4af0eb181147facf91bed0e9d",
                     "cancel": "fa7c8f6246e916b77181d52e8a403439 fa7c8f6246e916b77181d52e8a403439",
                     "cancel_confirm": "9c50b38c9c0783cb3d9b7ddd32a847b9 9c50b38c9c0783cb3d9b7ddd32a847b9",
                     "cancel_error": "7d3a3a3821818b817d9e0d94fdf39ec9 7d3a3a3821818b817d9e0d94fdf39ec9",
@@ -5208,14 +5212,23 @@
                     "archiveInfo": "8da40fe478efcf96cfd1ec114bcdd536 8da40fe478efcf96cfd1ec114bcdd536",
                     "archiveOlds": "fc6b9dbc52032e16065d8a4ce391c332 fc6b9dbc52032e16065d8a4ce391c332",
                     "archiveOldsInfo": "41eafd79864caf97b1521649b53420a1 41eafd79864caf97b1521649b53420a1",
+                    "charLevel": "40954dac5ea9dc85ca654accdf83019a 40954dac5ea9dc85ca654accdf83019a",
                     "dbOptimisation": "f5ad1d31682b6cb0db4ff3868b86722d f5ad1d31682b6cb0db4ff3868b86722d",
+                    "detailLevel": "99c1406f1ff3a62d73debb231cf28903 99c1406f1ff3a62d73debb231cf28903",
+                    "lineLevel": "47053d54ff0f91171a8b88b9c367fdb7 47053d54ff0f91171a8b88b9c367fdb7",
                     "mainPostOnly": "898dbe40aac22ee3e0514d658e353945 898dbe40aac22ee3e0514d658e353945",
+                    "mergeThreshold": "160c77a95259b5d1e69be64c5c2a816e 160c77a95259b5d1e69be64c5c2a816e",
+                    "mergeThresholdHelp": "940ffc4a41ea1bb973e14251236cb0c8 940ffc4a41ea1bb973e14251236cb0c8",
+                    "neighborLines": "b506a4a3a33ecf8297bc0e9c1774121d b506a4a3a33ecf8297bc0e9c1774121d",
+                    "neighborLinesHelp": "e80c021f61515628b658f83ebe7559b3 e80c021f61515628b658f83ebe7559b3",
+                    "noneLevel": "367726167ea884d5adc49149ea5111da 367726167ea884d5adc49149ea5111da",
                     "onlyUnsigned": "e35b044cf4fa87fbacce35f1ab180872 e35b044cf4fa87fbacce35f1ab180872",
                     "separateBlock": "8a1a32f45faeadcc83abea2ef45e7417 8a1a32f45faeadcc83abea2ef45e7417",
                     "textFormatting": "c206e78b70852948d79cb6abc7d69745 c206e78b70852948d79cb6abc7d69745",
                     "useCrons": "e6176986f8c44d94955e78776a68009f e6176986f8c44d94955e78776a68009f",
                     "useCronsHelp": "a3cfe5b727a42dca8d3f79154acfc9a0 a3cfe5b727a42dca8d3f79154acfc9a0",
-                    "usePoint": "f4db8ed646ccd9f4515a68241ea736dc f4db8ed646ccd9f4515a68241ea736dc"
+                    "usePoint": "f4db8ed646ccd9f4515a68241ea736dc f4db8ed646ccd9f4515a68241ea736dc",
+                    "wordLevel": "2d54fd7dedcaf3ece7e2e34bbdcc5ea8 2d54fd7dedcaf3ece7e2e34bbdcc5ea8"
                 }
             },
             "forum": {
@@ -5251,7 +5264,7 @@
                 "rollbackSuccessMessage": "bf75ff67f43d91f6727d6f226bde24af bf75ff67f43d91f6727d6f226bde24af",
                 "rollbackToOriginalButton": "b72a326200d3b497cb07bfadf37e3e97 b72a326200d3b497cb07bfadf37e3e97",
                 "tooltips": {
-                    "combined": "9e1128a7f0002cd3f8e505d38eac6279 9e1128a7f0002cd3f8e505d38eac6279",
+                    "combined": "deca6d141ef31dbbbf5a11b508765bc1 deca6d141ef31dbbbf5a11b508765bc1",
                     "inline": "f21e62228f6f2a6d32e7ba1bd80479f9 f21e62228f6f2a6d32e7ba1bd80479f9",
                     "mostRecent": "7a9aa0551be4cd1095494c5f1513098f 7a9aa0551be4cd1095494c5f1513098f",
                     "originalContent": "67ac540e796970078d298d67c8c51ec3 67ac540e796970078d298d67c8c51ec3",
