@@ -839,6 +839,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`fof-best-answer`](https://weblate.rob006.net/projects/flarum2/fof-best-answer) | [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer) |
 | [`fof-byobu`](https://weblate.rob006.net/projects/flarum2/fof-byobu) | [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu) |
 | [`fof-categories`](https://weblate.rob006.net/projects/flarum2/fof-categories) | [`fof/categories`](https://github.com/FriendsOfFlarum/categories) |
+| [`fof-clockwork`](https://weblate.rob006.net/projects/flarum2/fof-clockwork) | [`fof/clockwork`](https://github.com/FriendsOfFlarum/clockwork) |
 | [`fof-default-group`](https://weblate.rob006.net/projects/flarum2/fof-default-group) | [`fof/default-group`](https://github.com/FriendsOfFlarum/default-group) |
 | [`fof-default-user-preferences`](https://weblate.rob006.net/projects/flarum2/fof-default-user-preferences) | [`fof/default-user-preferences`](https://github.com/FriendsOfFlarum/default-user-preferences) |
 | [`fof-discussion-templates`](https://weblate.rob006.net/projects/flarum2/fof-discussion-templates) | [`fof/discussion-templates`](https://github.com/FriendsOfFlarum/discussion-templates) |
@@ -853,6 +854,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`fof-geoip`](https://weblate.rob006.net/projects/flarum2/fof-geoip) | [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip) |
 | [`fof-github-sponsors`](https://weblate.rob006.net/projects/flarum2/fof-github-sponsors) | [`fof/github-sponsors`](https://github.com/FriendsOfFlarum/github-sponsors) |
 | [`fof-horizon`](https://weblate.rob006.net/projects/flarum2/fof-horizon) | [`fof/horizon`](https://github.com/FriendsOfFlarum/horizon) |
+| [`fof-html-errors`](https://weblate.rob006.net/projects/flarum2/fof-html-errors) | [`fof/html-errors`](https://github.com/FriendsOfFlarum/html-errors) |
 | [`fof-ignore-users`](https://weblate.rob006.net/projects/flarum2/fof-ignore-users) | [`fof/ignore-users`](https://github.com/FriendsOfFlarum/ignore-users) |
 | [`fof-impersonate`](https://weblate.rob006.net/projects/flarum2/fof-impersonate) | [`fof/impersonate`](https://github.com/FriendsOfFlarum/impersonate) |
 | [`fof-linguist`](https://weblate.rob006.net/projects/flarum2/fof-linguist) | [`fof/linguist`](https://github.com/FriendsOfFlarum/linguist) |
@@ -873,6 +875,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`fof-sitemap`](https://weblate.rob006.net/projects/flarum2/fof-sitemap) | [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap) |
 | [`fof-socialprofile`](https://weblate.rob006.net/projects/flarum2/fof-socialprofile) | [`fof/socialprofile`](https://github.com/FriendsOfFlarum/socialprofile) |
 | [`fof-split`](https://weblate.rob006.net/projects/flarum2/fof-split) | [`fof/split`](https://github.com/FriendsOfFlarum/split) |
+| [`fof-subscribed`](https://weblate.rob006.net/projects/flarum2/fof-subscribed) | [`fof/subscribed`](https://github.com/FriendsOfFlarum/subscribed) |
 | [`fof-synopsis`](https://weblate.rob006.net/projects/flarum2/fof-synopsis) | [`fof/synopsis`](https://github.com/FriendsOfFlarum/synopsis) |
 | [`fof-terms`](https://weblate.rob006.net/projects/flarum2/fof-terms) | [`fof/terms`](https://github.com/FriendsOfFlarum/terms) |
 | [`fof-upload`](https://weblate.rob006.net/projects/flarum2/fof-upload) | [`fof/upload`](https://github.com/FriendsOfFlarum/upload) |
