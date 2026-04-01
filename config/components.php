@@ -360,6 +360,9 @@ return [
 	'ralkage-civility-filter' => [
 		'beta' => 'https://raw.githubusercontent.com/Ralkage/flarum-ext-civility-filter/v2.0.0-beta.8/locale/en.yml',
 	],
+	'ralkage-hcaptcha' => [
+		'beta' => 'https://raw.githubusercontent.com/Ralkage/flarum-hcaptcha/v2.0.0-beta.8/resources/locale/en.yml',
+	],
 	'ralkage-linked-accounts' => [
 		'beta' => 'https://raw.githubusercontent.com/Ralkage/flarum-ext-linked-accounts/v2.0.0-beta.8/locale/en.yml',
 	],
