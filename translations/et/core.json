@@ -192,12 +192,12 @@
             "dashboard": {
                 "clear_cache_button": "Puhasta vahemälu",
                 "description": "Foorumi ülevaade.",
-                "info_button": "",
+                "info_button": "Süsteemi info",
                 "info_modal": {
-                    "title": "",
-                    "copy_button": "",
-                    "copy_success": "",
-                    "copy_error": ""
+                    "title": "Süsteemi info",
+                    "copy_button": "Kopeeri lõikelauale",
+                    "copy_success": "Süsteemi info on kopeeritud lõikelauale",
+                    "copy_error": "Lõikelauale kopeerimine ebaõnnestus"
                 },
                 "io_error_message": "Failisüsteemi kirjutamine ebaõnnestus. Kontrollige oma failisüsteemi õiguseid ja proovige uuesti. Või proovige jooksutada käsurealt.",
                 "status": {
@@ -305,12 +305,12 @@
                 "title": "=> core.ref.email"
             },
             "extension": {
-                "abandoned_no_replacement": "",
-                "abandoned_with_replacement": "",
+                "abandoned_no_replacement": "Selle lisaprogrammi autor ei arendata seda enam ning seega ei pruugi see uuendusi saada.",
+                "abandoned_with_replacement": "{replacement} on asendanud selle lisaprogrammi. Kaalu üle minemist uuemale lisaprogrammile.",
                 "configure_scopes": "Kõik õigused",
                 "confirm_purge": "Eemaldatakse kõik andmebaasi kirjed ja lisad, mis seostuvad selle laiendusega. See ei kustuta laiendust; seda tuleb teha kasutades Composerit. Oled sa kindel, et soovid jätkata?",
                 "database_driver_mismatch": "",
-                "deprecated": "",
+                "deprecated": "Aegunud",
                 "disabled": "Keelatud",
                 "enable_to_see": "Luba laiendusel näha ja muuta seadeid.",
                 "enabled": "Lubatud",
@@ -332,7 +332,7 @@
                     "no_readme": "Sellel laiendusel ei paista LOE MIND faili olevat",
                     "title": "{extName} dokumentatsioon"
                 },
-                "replaced": "",
+                "replaced": "Asendatud",
                 "safe_mode_warning": ""
             },
             "header": {
@@ -401,7 +401,7 @@
                 "participate_heading": "Osalemine",
                 "post_without_throttle_label": "Ilma vahepausita vastamine",
                 "read_heading": "Vaatamine",
-                "remove_scope_label": "",
+                "remove_scope_label": "Eemalda ulatus {scope}",
                 "remove_scope_confirmation": "",
                 "rename_discussions_label": "Vestluste ümbernimetamine",
                 "reply_to_discussions_label": "Vestlustele vastamine",
@@ -955,7 +955,7 @@
                 "maintenance_mode_link": "",
                 "maintenance_mode_message": "",
                 "maintenance_mode_title": "",
-                "method_not_allowed": "",
+                "method_not_allowed": "See lehekülg ei toeta seda nõutud meetodit.",
                 "not_authenticated": "Sul pole selle lehe ligipääsuõigust. Proovi peale sisselogimist uuesti.",
                 "not_found": "Nõutud lehte ei leitud.",
                 "not_found_return_link": "Mine tagasi lehele {forum}",

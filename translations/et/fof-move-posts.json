@@ -7,34 +7,34 @@
                 "group_sequential_posts": ""
             },
             "permissions": {
-                "move_posts": ""
+                "move_posts": "=> fof-move-posts.ref.move_posts"
             }
         },
         "forum": {
             "badge": {
-                "first_moved_tooltip": ""
+                "first_moved_tooltip": "Liigutatud"
             },
             "discussion": {
-                "move_posts": ""
+                "move_posts": "=> fof-move-posts.ref.move_posts"
             },
             "error": {
-                "move_old_post_to_newer_discussion": "",
-                "move_posts_to_same_discussion": ""
+                "move_old_post_to_newer_discussion": "=> fof-move-posts.ref.status.old_to_new_move",
+                "move_posts_to_same_discussion": "Postitusi ei saa liigutada sellessesamasse vestlusesse."
             },
             "modal": {
-                "check": "",
-                "destination": "",
+                "check": "Vali toimingu liik",
+                "destination": "Sihtvestlus",
                 "discussion_help": "",
-                "discussion_name": "",
-                "new_discussion": "",
+                "discussion_name": "=> core.forum.composer_discussion.title_placeholder",
+                "new_discussion": "Uus vestlus",
                 "selected_posts": "",
                 "status": {
                     "complex_move": "",
-                    "old_to_new_move": "",
+                    "old_to_new_move": "=> fof-move-posts.ref.status.old_to_new_move",
                     "simple_move": ""
                 },
-                "submit": "",
-                "title": "",
+                "submit": "Jätka",
+                "title": "=> fof-move-posts.ref.move_posts",
                 "confirm_move_all_to_new_discussion": ""
             },
             "alerts": {
