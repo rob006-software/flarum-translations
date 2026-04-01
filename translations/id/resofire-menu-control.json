@@ -2,26 +2,26 @@
     "resofire-menu-control": {
         "admin": {
             "nav_order": {
-                "title": "",
-                "description": "",
-                "save_button": "",
-                "save_success": "",
-                "no_items": "",
-                "move_up": "",
-                "icon_input_title": "",
-                "highlight_color_label": "",
-                "highlight_color_help": "",
-                "remove_item": "",
-                "add_custom_link": "",
-                "custom_link_label": "",
-                "polls_note": "",
-                "add_highlight": "",
-                "remove_highlight": "",
-                "move_down": "",
-                "flip_label": "",
-                "flip_help": "",
-                "sticky_label": "",
-                "sticky_help": ""
+                "title": "Urutan Item Menu",
+                "description": "Gunakan tombol panah untuk mengatur ulang urutan item navigasi di sidebar pada halaman indeks forum. Perubahan akan langsung berlaku setelah disimpan.",
+                "save_button": "Simpan Urutan",
+                "save_success": "Urutan navigasi telah disimpan.",
+                "no_items": "Belum ada item navigasi yang terdeteksi. Kunjungi halaman indeks forum sebagai admin terlebih dahulu untuk mengisi daftar ini.",
+                "move_up": "Pindahkan ke atas",
+                "icon_input_title": "Kelas ikon Font Awesome khusus (mis. fas fa-bolt). Biarkan kosong untuk menggunakan default.",
+                "highlight_color_label": "Warna highlight",
+                "highlight_color_help": "Warna latar belakang untuk item navigasi yang di-highlight. Biarkan kosong untuk menggunakan warna tema default.",
+                "remove_item": "Hapus dari daftar",
+                "add_custom_link": "Tambahkan Link Khusus",
+                "custom_link_label": "Label link",
+                "polls_note": "Catatan: Jika fof/polls terinstal, fof-polls-showcase dan item serupa mungkin muncul dalam daftar ini meskipun polling global dinonaktifkan. Gunakan tombol × untuk menghapusnya secara permanen.",
+                "add_highlight": "Tandai item ini untuk pengguna",
+                "remove_highlight": "Hapus highlight",
+                "move_down": "Pindahkan ke bawah",
+                "flip_label": "Balikkan navigasi (tampilkan tag di atas item menu)",
+                "flip_help": "Jika diaktifkan, link tag akan muncul di bagian atas sidebar dan item navigasi (Semua Diskusi, Mengikuti, dll.) akan muncul di bawah.",
+                "sticky_label": "Sidebar tetap (sidebar tetap terlihat saat melakukan scrolling)",
+                "sticky_help": "Jika diaktifkan, sidebar termasuk tombol Mulai Diskusi akan tetap berada di bagian atas jendela tampilan saat Anda melakukan scrolling ke bawah."
             }
         }
     }
