@@ -5033,6 +5033,27 @@
             }
         }
     },
+    "ralkage-hcaptcha.json": {
+        "ralkage-hcaptcha": {
+            "admin": {
+                "permissions": {
+                    "post_without_hcaptcha": "c626c7dd89790c7d2b0cdc6868ec1365 c626c7dd89790c7d2b0cdc6868ec1365"
+                },
+                "settings": {
+                    "help_text": "9994670cc93e013233b098909059e71b 9994670cc93e013233b098909059e71b",
+                    "secret_key_label": "e9d80319856ff43edbeb60c6ec118d9d e9d80319856ff43edbeb60c6ec118d9d",
+                    "site_key_label": "927c5cfc1ccb1a2e624dd851d19f62bc 927c5cfc1ccb1a2e624dd851d19f62bc",
+                    "type_label": "b565e98d1709f32a6053fc8da9462ac8 b565e98d1709f32a6053fc8da9462ac8"
+                }
+            },
+            "forum": {
+                "error": "85d4e57cfcf16a5a492cd4b532f1f5d8 85d4e57cfcf16a5a492cd4b532f1f5d8"
+            }
+        },
+        "validation": {
+            "hcaptcha": "9e90a3696d7a8753e380ea84c318e1c2 9e90a3696d7a8753e380ea84c318e1c2"
+        }
+    },
     "ralkage-word-counter.json": {
         "ralkage-word-counter": {
             "forum": {
@@ -5239,6 +5260,45 @@
             "required_without_all": "d9668e1079d99c67163c0bffde7314ca d9668e1079d99c67163c0bffde7314ca",
             "unique": "5d616fdcbc2572f59c8aa2c66c043364 5d616fdcbc2572f59c8aa2c66c043364",
             "uploaded": "a9d922214e9cd955b9d1bf99723a2c75 a9d922214e9cd955b9d1bf99723a2c75"
+        }
+    },
+    "vlssu-cravatar.json": {
+        "vlssu-flarum-cravatar": {
+            "admin": {
+                "settings": {
+                    "defaults": {
+                        "identicon_label": "7fc4d688711a2f1c9144b51b32c6b8f8 7fc4d688711a2f1c9144b51b32c6b8f8",
+                        "monsterid_label": "766242309825560d7ebe58f88d0a7d23 766242309825560d7ebe58f88d0a7d23",
+                        "mp_label": "f3e47b8f20e6e136d6e7cde1cd538828 f3e47b8f20e6e136d6e7cde1cd538828",
+                        "retro_label": "a487efdce0a0eb206638c9123246167b a487efdce0a0eb206638c9123246167b",
+                        "robohash_label": "2d749e09758da1dc844c42eaba715b85 2d749e09758da1dc844c42eaba715b85",
+                        "title": "23929564207f090acde280f166e0cc1b 23929564207f090acde280f166e0cc1b",
+                        "wavatar_label": "3d6291751fddf82e3c8ab76a293ed538 3d6291751fddf82e3c8ab76a293ed538"
+                    },
+                    "force-default": {
+                        "helptext": "edf49b276d5ebf5ab6ad674e87f98ca7 edf49b276d5ebf5ab6ad674e87f98ca7",
+                        "title": "289e830f926e4967bc55da6763fbfc1a 289e830f926e4967bc55da6763fbfc1a"
+                    },
+                    "proxy": {
+                        "title": "d7afd368880b99b28720437d2de08f47 d7afd368880b99b28720437d2de08f47"
+                    },
+                    "rating": {
+                        "g_label": "bfb96e35079beab0d2cdca40217246dd bfb96e35079beab0d2cdca40217246dd",
+                        "pg_label": "34b2c73d073c66817e6191dbdf1d6ac9 34b2c73d073c66817e6191dbdf1d6ac9",
+                        "r_label": "184bafe3537bbafef3588c30d872cba1 184bafe3537bbafef3588c30d872cba1",
+                        "title": "71ce2d614be7812f5b9927f78bc907b0 71ce2d614be7812f5b9927f78bc907b0",
+                        "x_label": "0d69c3508b06fc2c884ae14cd1535acd 0d69c3508b06fc2c884ae14cd1535acd"
+                    },
+                    "replace-flarum-custom": {
+                        "title": "09b70ddf2021dd2753e107637629c41c 09b70ddf2021dd2753e107637629c41c"
+                    }
+                }
+            },
+            "forum": {
+                "settings": {
+                    "edit-cravatar": "57a7996550ba1f05c45fbc07874b69a4 57a7996550ba1f05c45fbc07874b69a4"
+                }
+            }
         }
     },
     "walsgit-recycle-bin.json": {

@@ -5052,6 +5052,27 @@
             }
         }
     },
+    "ralkage-hcaptcha.json": {
+        "ralkage-hcaptcha": {
+            "admin": {
+                "permissions": {
+                    "post_without_hcaptcha": "b8caeff41811ccc14560e9408bd862f8 b8caeff41811ccc14560e9408bd862f8"
+                },
+                "settings": {
+                    "help_text": "ffd3039fc49596555a15f019b8e8783b ffd3039fc49596555a15f019b8e8783b",
+                    "secret_key_label": "1f3412b8a60b1773d24cd3b556731bf3 1f3412b8a60b1773d24cd3b556731bf3",
+                    "site_key_label": "6649767b09195aacd6ad0ccc92d6c455 6649767b09195aacd6ad0ccc92d6c455",
+                    "type_label": "7f297072b31bd205da1c72bf2f3daadc 7f297072b31bd205da1c72bf2f3daadc"
+                }
+            },
+            "forum": {
+                "error": "c31e81efc9976e89eabb6eb2db3c713b c31e81efc9976e89eabb6eb2db3c713b"
+            }
+        },
+        "validation": {
+            "hcaptcha": "aa2f0d9e90eea55ce5f4a1cd1216ab1a aa2f0d9e90eea55ce5f4a1cd1216ab1a"
+        }
+    },
     "sycho-advanced-extension-categories.json": {
         "sycho-ace": {
             "admin": {
@@ -5249,6 +5270,49 @@
             "required_without_all": "0bb52501e712d583fe98674e1698bda8 0bb52501e712d583fe98674e1698bda8",
             "unique": "4686fc082d501f7360f002944a344c67 4686fc082d501f7360f002944a344c67",
             "uploaded": "f7f0bfa1344aaafe518cdc27effb0ce3 f7f0bfa1344aaafe518cdc27effb0ce3"
+        }
+    },
+    "vlssu-cravatar.json": {
+        "vlssu-flarum-cravatar": {
+            "admin": {
+                "settings": {
+                    "defaults": {
+                        "helptext": "02b8cad8b66a0b755311738afa1f320b 02b8cad8b66a0b755311738afa1f320b",
+                        "identicon_label": "c2d365a885a24900b01a1d301ab2eade c2d365a885a24900b01a1d301ab2eade",
+                        "monsterid_label": "6bd99b88b86b4343638f3c179b83ff6b 6bd99b88b86b4343638f3c179b83ff6b",
+                        "mp_label": "d0b9151515d73e2cecbde9e3accc5fcc d0b9151515d73e2cecbde9e3accc5fcc",
+                        "retro_label": "a517f90ce3652746b5eb725cb63169f2 a517f90ce3652746b5eb725cb63169f2",
+                        "robohash_label": "d7b577c4fc44b383f475a5a57113598e d7b577c4fc44b383f475a5a57113598e",
+                        "title": "3ee4f647b2c6d25a466e7fccafa9d656 3ee4f647b2c6d25a466e7fccafa9d656",
+                        "wavatar_label": "a2e629269a49510b728fd4848476a573 a2e629269a49510b728fd4848476a573"
+                    },
+                    "force-default": {
+                        "helptext": "917dd0a2cf30759bcf83d19adece1c3a 917dd0a2cf30759bcf83d19adece1c3a",
+                        "title": "049c5ac65076e36f97f9bb87a9baffdc 049c5ac65076e36f97f9bb87a9baffdc"
+                    },
+                    "proxy": {
+                        "helptext": "6be7a537d48fc7584dfd173a9ce5e7bf 6be7a537d48fc7584dfd173a9ce5e7bf",
+                        "title": "715e55fef852ad9427252ac682b1dcfb 715e55fef852ad9427252ac682b1dcfb"
+                    },
+                    "rating": {
+                        "g_label": "ce9b095d55114cb4a11114c82ae6a5d2 ce9b095d55114cb4a11114c82ae6a5d2",
+                        "helptext": "248336f95c5667a1e5ac1d19a453d554 248336f95c5667a1e5ac1d19a453d554",
+                        "pg_label": "c27445909b8f5670e721bbf673c91db8 c27445909b8f5670e721bbf673c91db8",
+                        "r_label": "c99db429ab5554f1d09e928525747c41 c99db429ab5554f1d09e928525747c41",
+                        "title": "2e1d5a9ff28fbd031b308d2147ea7eda 2e1d5a9ff28fbd031b308d2147ea7eda",
+                        "x_label": "c606bf3c799b05120fb32b097d4f3206 c606bf3c799b05120fb32b097d4f3206"
+                    },
+                    "replace-flarum-custom": {
+                        "helptext": "7595029d09cc6cd1fd204c5382b8115a 7595029d09cc6cd1fd204c5382b8115a",
+                        "title": "fdaff03763b38a9bb17e411e8ac91ebf fdaff03763b38a9bb17e411e8ac91ebf"
+                    }
+                }
+            },
+            "forum": {
+                "settings": {
+                    "edit-cravatar": "b91bf69bd055efd5387620f4f6d75b1f b91bf69bd055efd5387620f4f6d75b1f"
+                }
+            }
         }
     },
     "walsgit-recycle-bin.json": {

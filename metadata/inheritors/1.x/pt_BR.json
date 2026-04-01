@@ -2757,6 +2757,27 @@
             }
         }
     },
+    "ralkage-hcaptcha.json": {
+        "ralkage-hcaptcha": {
+            "admin": {
+                "permissions": {
+                    "post_without_hcaptcha": "50d525d0e4c08b604362f548b19bca82 50d525d0e4c08b604362f548b19bca82"
+                },
+                "settings": {
+                    "help_text": "5fea6b23d24c2b4203c2300e0b4975b9 5fea6b23d24c2b4203c2300e0b4975b9",
+                    "secret_key_label": "f904621c5a33b7efd0eaba499c2289a8 f904621c5a33b7efd0eaba499c2289a8",
+                    "site_key_label": "70ad900a3b64e89b11fa9b35182a8331 70ad900a3b64e89b11fa9b35182a8331",
+                    "type_label": "399e244ad9901a9c4455a43fdf78dcb0 399e244ad9901a9c4455a43fdf78dcb0"
+                }
+            },
+            "forum": {
+                "error": "cc8d48400bca85548983ac484492faed cc8d48400bca85548983ac484492faed"
+            }
+        },
+        "validation": {
+            "hcaptcha": "2f135c9bbae4e42d59a8db2fe1616018 2f135c9bbae4e42d59a8db2fe1616018"
+        }
+    },
     "sycho-profile-cover.json": {
         "sycho-profile-cover": {
             "admin": {

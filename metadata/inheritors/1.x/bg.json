@@ -3486,6 +3486,18 @@
             }
         }
     },
+    "ralkage-hcaptcha.json": {
+        "ralkage-hcaptcha": {
+            "admin": {
+                "permissions": {
+                    "post_without_hcaptcha": "7ce2809dc0264c98e64d5593672bed2e 7ce2809dc0264c98e64d5593672bed2e"
+                },
+                "settings": {
+                    "secret_key_label": "5905e31b0d8e7cf53ef67b5a3a4cd4a9 5905e31b0d8e7cf53ef67b5a3a4cd4a9"
+                }
+            }
+        }
+    },
     "sycho-advanced-extension-categories.json": {
         "sycho-ace": {
             "admin": {
@@ -3595,6 +3607,17 @@
             "required_without_all": "bae3c5fa8e2a4fccea59eb6d5acb5231 bae3c5fa8e2a4fccea59eb6d5acb5231",
             "unique": "5f213199a2f58b56016c68e6e378dd92 5f213199a2f58b56016c68e6e378dd92",
             "uploaded": "5e19228a5ddcc63970fe132529c821ac 5e19228a5ddcc63970fe132529c821ac"
+        }
+    },
+    "vlssu-cravatar.json": {
+        "vlssu-flarum-cravatar": {
+            "admin": {
+                "settings": {
+                    "defaults": {
+                        "title": "597df602f66c019c172117e2ffe103e8 597df602f66c019c172117e2ffe103e8"
+                    }
+                }
+            }
         }
     }
 }

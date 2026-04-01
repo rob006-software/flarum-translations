@@ -6014,6 +6014,27 @@
             }
         }
     },
+    "ralkage-hcaptcha.json": {
+        "ralkage-hcaptcha": {
+            "admin": {
+                "permissions": {
+                    "post_without_hcaptcha": "34d0a0af5f29aa04ab790b4436bca5bb 34d0a0af5f29aa04ab790b4436bca5bb"
+                },
+                "settings": {
+                    "help_text": "97175bf0c7554bea01ccbe9d269463f4 97175bf0c7554bea01ccbe9d269463f4",
+                    "secret_key_label": "93146781d4c808e8ebf7a64da31f5c2e 93146781d4c808e8ebf7a64da31f5c2e",
+                    "site_key_label": "6836f2d7f948c536107d130330b56ce1 6836f2d7f948c536107d130330b56ce1",
+                    "type_label": "82d5784693e1f13e3ac41b0b6e44ccaf 82d5784693e1f13e3ac41b0b6e44ccaf"
+                }
+            },
+            "forum": {
+                "error": "2aac1744ea1c68ee52bc42e72fd4aac7 2aac1744ea1c68ee52bc42e72fd4aac7"
+            }
+        },
+        "validation": {
+            "hcaptcha": "77e7ee9cef14cc9d179f4ab65b5be6fc 77e7ee9cef14cc9d179f4ab65b5be6fc"
+        }
+    },
     "ralkage-word-censor.json": {
         "ralkage-word-censor": {
             "admin": {
@@ -6238,6 +6259,49 @@
             "required_without_all": "e40494b72fdb5004bb90c20186c5ab00 e40494b72fdb5004bb90c20186c5ab00",
             "unique": "029214d356e0526a126921170f4e2ee4 029214d356e0526a126921170f4e2ee4",
             "uploaded": "8d1215c92cecd0ca2d997587454ea01b 8d1215c92cecd0ca2d997587454ea01b"
+        }
+    },
+    "vlssu-cravatar.json": {
+        "vlssu-flarum-cravatar": {
+            "admin": {
+                "settings": {
+                    "defaults": {
+                        "helptext": "8e102c342970c42dbedbe9e8a7a68a98 8e102c342970c42dbedbe9e8a7a68a98",
+                        "identicon_label": "74457efc894853df71dff1fc46f35987 74457efc894853df71dff1fc46f35987",
+                        "monsterid_label": "05555544f891c765acb73ca890837fc6 05555544f891c765acb73ca890837fc6",
+                        "mp_label": "de5de80e8cf70f527e43c6c027ae9a76 de5de80e8cf70f527e43c6c027ae9a76",
+                        "retro_label": "cb03a86efa50ee919532857025dde58a cb03a86efa50ee919532857025dde58a",
+                        "robohash_label": "f614787eac3bc66974140887af9ccb0e f614787eac3bc66974140887af9ccb0e",
+                        "title": "d95e05d512aa01069896bba05fe0dc73 d95e05d512aa01069896bba05fe0dc73",
+                        "wavatar_label": "3d28b8fbe0f2565ccd3b59f58c3ff490 3d28b8fbe0f2565ccd3b59f58c3ff490"
+                    },
+                    "force-default": {
+                        "helptext": "d17813d5772d99ced30e1aafcf8ee00b d17813d5772d99ced30e1aafcf8ee00b",
+                        "title": "07251a5815808a8e6e7b32c8ac606423 07251a5815808a8e6e7b32c8ac606423"
+                    },
+                    "proxy": {
+                        "helptext": "e84617d19c4007316b5468e260eba317 e84617d19c4007316b5468e260eba317",
+                        "title": "1dbccd94af5eb7ea9111ba8fd80bc475 1dbccd94af5eb7ea9111ba8fd80bc475"
+                    },
+                    "rating": {
+                        "g_label": "38ff3f5dfdd31704a15d7ce7d4e89b45 38ff3f5dfdd31704a15d7ce7d4e89b45",
+                        "helptext": "1cb1b901193aa5d4bab5b0c69cdc49b4 1cb1b901193aa5d4bab5b0c69cdc49b4",
+                        "pg_label": "9274a028f248c982d6fffbc81a757f50 9274a028f248c982d6fffbc81a757f50",
+                        "r_label": "122548ae3233ec160200497095adc503 122548ae3233ec160200497095adc503",
+                        "title": "52c2572e015cebe37604281621ad3eca 52c2572e015cebe37604281621ad3eca",
+                        "x_label": "5ef75e91c500c53e4f8dbc95ad3b1c8c 5ef75e91c500c53e4f8dbc95ad3b1c8c"
+                    },
+                    "replace-flarum-custom": {
+                        "helptext": "e194b90fefe7dcb37fee7042aaca4334 e194b90fefe7dcb37fee7042aaca4334",
+                        "title": "0a06efe437227dcec5f668e3803343ae 0a06efe437227dcec5f668e3803343ae"
+                    }
+                }
+            },
+            "forum": {
+                "settings": {
+                    "edit-cravatar": "5fe37f9c10928a8a10ca2fda0d4b58f2 5fe37f9c10928a8a10ca2fda0d4b58f2"
+                }
+            }
         }
     },
     "yippy-auth-ldap.json": {

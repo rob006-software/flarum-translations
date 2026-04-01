@@ -6645,6 +6645,27 @@
             }
         }
     },
+    "ralkage-hcaptcha.json": {
+        "ralkage-hcaptcha": {
+            "admin": {
+                "permissions": {
+                    "post_without_hcaptcha": "80b88d4b705bde7255321ea8593246a5 80b88d4b705bde7255321ea8593246a5"
+                },
+                "settings": {
+                    "help_text": "7b539da1ad4ae39880c2b365a282dc4e 7b539da1ad4ae39880c2b365a282dc4e",
+                    "secret_key_label": "5eb6bb157528b365f84c27bb4784031b 5eb6bb157528b365f84c27bb4784031b",
+                    "site_key_label": "20f4f54341e68e01b853e9483e5fe37f 20f4f54341e68e01b853e9483e5fe37f",
+                    "type_label": "eec11c88062d195e459bb23fe2b21ecc eec11c88062d195e459bb23fe2b21ecc"
+                }
+            },
+            "forum": {
+                "error": "2dbea7587a3182aa8c006a3e80b5304d 2dbea7587a3182aa8c006a3e80b5304d"
+            }
+        },
+        "validation": {
+            "hcaptcha": "8513ea46a7ced41b0ba4f5aeba428670 8513ea46a7ced41b0ba4f5aeba428670"
+        }
+    },
     "ralkage-linked-accounts.json": {
         "ralkage-linked-accounts": {
             "admin": {

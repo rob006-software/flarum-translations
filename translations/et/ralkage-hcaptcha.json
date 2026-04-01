@@ -2,24 +2,24 @@
     "ralkage-hcaptcha": {
         "admin": {
             "settings": {
-                "help_text": "",
-                "secret_key_label": "",
-                "site_key_label": "",
-                "type_label": "",
+                "help_text": "Hangi hCaptcha kasutamiseks vajalikud andmed <a>siit</a>.",
+                "secret_key_label": "Salavõti",
+                "site_key_label": "Saidi võti",
+                "type_label": "hCaptcha liik",
                 "dark_mode_label": "",
                 "dark_mode_help": "",
                 "enable_login_label": "",
                 "enable_login_help": ""
             },
             "permissions": {
-                "post_without_hcaptcha": ""
+                "post_without_hcaptcha": "Loo postitusi ja vestlusi ilma hCaptchata"
             }
         },
         "forum": {
-            "error": ""
+            "error": "hCaptcha sisestamisel tekkis tõrge. Proovi uuesti."
         }
     },
     "validation": {
-        "hcaptcha": ""
+        "hcaptcha": "hCaptcha valideerimine ebaõnnestus."
     }
 }

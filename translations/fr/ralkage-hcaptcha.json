@@ -2,24 +2,24 @@
     "ralkage-hcaptcha": {
         "admin": {
             "settings": {
-                "help_text": "",
-                "secret_key_label": "",
-                "site_key_label": "",
-                "type_label": "",
+                "help_text": "Obtenez <a>ici</a> vos identifiants hCaptcha.",
+                "secret_key_label": "Clé secrète",
+                "site_key_label": "Clé du site",
+                "type_label": "Type de hCaptcha",
                 "dark_mode_label": "",
                 "dark_mode_help": "",
                 "enable_login_label": "",
                 "enable_login_help": ""
             },
             "permissions": {
-                "post_without_hcaptcha": ""
+                "post_without_hcaptcha": "Créez des publications et des discussions sans hCaptcha"
             }
         },
         "forum": {
-            "error": ""
+            "error": "Une erreur s'est produite lors de l'envoi du hCaptcha. Veuillez réessayer."
         }
     },
     "validation": {
-        "hcaptcha": ""
+        "hcaptcha": "La validation hCaptcha a échoué."
     }
 }
