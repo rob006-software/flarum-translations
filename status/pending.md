@@ -251,6 +251,4 @@
 
 ## Dead branches
 
-| Extension | Pull request |
-| --- | --- |
-| `resofire-gamepedia` | [![#1576 (open)](https://img.shields.io/badge/PR-%231576-brightgreen)](https://github.com/rob006-software/flarum-translations/pull/1576) |
+There are no dead branches.
