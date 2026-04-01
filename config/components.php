@@ -758,8 +758,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/share-social/1.2.2/resources/locale/en.yml',
 	],
 	'fof-sitemap' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/sitemap/2.5.0/resources/locale/en.yml',
-		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/sitemap/2.6.0-beta.2/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/sitemap/2.6.0/resources/locale/en.yml',
 	],
 	'fof-socialprofile' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/socialprofile/1.2.0/resources/locale/en.yml',
