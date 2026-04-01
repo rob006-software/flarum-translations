@@ -24,6 +24,8 @@
                 "frequency_label": "Bao lâu thì trình lên lịch nên tạo lại sơ đồ trang được lưu trong bộ nhớ cache?",
                 "risky_performance_improvements": "Bật các cải tiến hiệu suất rủi ro",
                 "risky_performance_improvements_help": "Những cải tiến này làm cho công việc CRON chạy nhanh hơn trên tập dữ liệu hàng triệu hàng nhưng có thể phá vỡ khả năng tương thích với một số tiện ích mở rộng.",
+                "column_pruning": "",
+                "column_pruning_help": "",
                 "include_priority": "Bao gồm các giá trị ưu tiên trong sơ đồ trang web",
                 "include_priority_help": "Các giá trị ưu tiên bị Google bỏ qua nhưng có thể được các công cụ tìm kiếm khác như Bing và Yandex sử dụng",
                 "include_changefreq": "Bao gồm các giá trị tần suất thay đổi trong sơ đồ trang web",
@@ -55,8 +57,6 @@
                         }
                     }
                 },
-                "column_pruning": "",
-                "column_pruning_help": "",
                 "mode_help_cache_disk_label": "Chế độ bộ nhớ đệm/Chế độ đĩa",
                 "mode_help_cache_disk": "Tốt nhất cho các diễn đàn vừa hoặc nhỏ, rất có thể trên các môi trường lưu trữ cho phép cronjobs và bật bộ lập lịch Flarum (xem bên dưới), và với các cuộc thảo luận, người dùng, thẻ và trang được tổng hợp dưới 50.000 mục.",
                 "title": "Sơ đồ trang web"

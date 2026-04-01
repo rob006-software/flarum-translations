@@ -24,6 +24,8 @@
                 "frequency_label": "À quelle fréquence le planificateur doit-il reconstruire le plan du site basé sur le cache ?",
                 "risky_performance_improvements": "Activer l'amélioration des performances à risque",
                 "risky_performance_improvements_help": "Ces améliorations accélèrent l'exécution de la tâche CRON sur des ensembles de données de plusieurs millions de lignes, mais peuvent nuire à la compatibilité avec certaines extensions.",
+                "column_pruning": "",
+                "column_pruning_help": "",
                 "include_priority": "Inclure les valeurs de priorité dans le plan du site",
                 "include_priority_help": "Les valeurs de priorité sont ignorées par Google, mais peuvent être utilisées par d'autres moteurs de recherche tels que Bing et Yandex",
                 "include_changefreq": "Inclure les valeurs de fréquence de modification dans le plan du site",
@@ -52,9 +54,7 @@
                             "minimum_item_threshold_help": "Le nombre minimum de discussions qu'une étiquette doit avoir pour apparaître dans le plan du site."
                         }
                     }
-                },
-                "column_pruning": "",
-                "column_pruning_help": ""
+                }
             }
         }
     }

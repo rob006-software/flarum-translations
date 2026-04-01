@@ -24,6 +24,8 @@
                 "frequency_label": "Kuinka usein pitäisi luoda uudelleen välimuistiin päivitetty sivukartta?",
                 "risky_performance_improvements": "Ota käyttöön kokeelliset suorityskyky parannukset",
                 "risky_performance_improvements_help": "Nämä parannukset tekevät CRON tehtävän nopeammaksi miljonaa rivisissä tietopaketeissa, mutta voivat rikkoa yhteensopivuutta lisäosien kanssa.",
+                "column_pruning": "",
+                "column_pruning_help": "",
                 "include_priority": "Sisällytä prioriteettiarvot sivustokarttaan",
                 "include_priority_help": "Google jättää prioriteettiarvot huomiotta, mutta ne saattavat olla käytössä muissa hakukoneissa, kuten Bingissä ja Yandexissä",
                 "include_changefreq": "Ota käyttöön päivitysvälien arvot sivukartassa",
@@ -55,8 +57,6 @@
                         }
                     }
                 },
-                "column_pruning": "",
-                "column_pruning_help": "",
                 "mode_help_cache_disk_label": "Välimuisti/levy tila",
                 "mode_help_cache_disk": "Paras pienille tai keskisuurille foorumeille. Todennäköisesti webhotelleissa, jotka sallii ajastetut tehtävät ja Flarumin (alhaalla lisää) ja jossa on keskusteluita, käyttäjiä, avainsanoja sekä sivuja alle 50 000.",
                 "title": "FoF Sivukartta"

@@ -24,6 +24,8 @@
                 "frequency_label": "Jak często harmonogram zadań powinien generować ponownie mapę zapisaną w cache?",
                 "risky_performance_improvements": "Włącz ryzykowne optymalizacje wydajności",
                 "risky_performance_improvements_help": "Ryzykowne optymalizacje sprawiają, że zadania cron wykonują się szybciej dla zbiorów danych zawierających miliony rekordów, ale mogą być niekompatybilne z niektórymi rozszerzeniami.",
+                "column_pruning": "",
+                "column_pruning_help": "",
                 "include_priority": "Dołącz wartości priorytetu w mapie witryny",
                 "include_priority_help": "Wartości priorytetu są ignorowane przez Google, ale mogą być używane przez inne wyszukiwarki, takie jak Bing i Yandex",
                 "include_changefreq": "Dołącz wartości częstotliwości zmian w mapie witryny",
@@ -52,9 +54,7 @@
                             "minimum_item_threshold_help": "Minimalna liczba dyskusji, które musi mieć tag, aby kwalifikował się do zawarcia w mapie witryny."
                         }
                     }
-                },
-                "column_pruning": "",
-                "column_pruning_help": ""
+                }
             }
         }
     }
