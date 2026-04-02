@@ -1424,7 +1424,6 @@ return [
 		'__builtInLanguages' => [
 			'es',
 			'tr',
-			'zh-tw',
 			'zh_Hans',
 		],
 	],
