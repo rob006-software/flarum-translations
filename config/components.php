@@ -400,7 +400,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ResofireV2/menu-control/v2.2.6/resources/locale/en.yml',
 	],
 	'resofire-user-cards' => [
-		'tag' => 'https://raw.githubusercontent.com/ResofireV2/user-cards/v0.1.4/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ResofireV2/user-cards/v0.2.8/locale/en.yml',
 	],
 	'sycho-advanced-extension-categories' => [
 		'tag' => 'https://raw.githubusercontent.com/SychO9/flarum-advanced-extension-categories/v0.2.1/locale/en.yml',
