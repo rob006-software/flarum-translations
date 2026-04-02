@@ -6,10 +6,10 @@
                 "secret_key_label": "Clé secrète",
                 "site_key_label": "Clé du site",
                 "type_label": "Type de hCaptcha",
-                "dark_mode_label": "",
-                "dark_mode_help": "",
-                "enable_login_label": "",
-                "enable_login_help": ""
+                "dark_mode_label": "Mode sombre",
+                "dark_mode_help": "Utilisez le thème sombre pour le widget hCaptcha. Activez cette option si votre forum utilise un thème sombre.",
+                "enable_login_label": "Obligatoire lors de la connexion",
+                "enable_login_help": "Exiger l'utilisation de hCaptcha lors de la connexion des utilisateurs. Cela permet de se protéger contre les attaques par force brute."
             },
             "permissions": {
                 "post_without_hcaptcha": "Créez des publications et des discussions sans hCaptcha"
