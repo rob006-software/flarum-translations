@@ -284,6 +284,9 @@ return [
 	'fof-user-directory' => [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/user-directory/2.0.0-beta.5/resources/locale/en.yml',
 	],
+	'fof-usercard-stats' => [
+		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/usercard-stats/2.0.0-beta.1/locale/en.yml',
+	],
 	'fof-username-request' => [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/username-request/2.0.0-beta.1/resources/locale/en.yml',
 	],
