@@ -403,7 +403,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ResofireV2/mobile-search/v0.1.8/locale/en.yml',
 	],
 	'resofire-wrapped' => [
-		'tag' => 'https://raw.githubusercontent.com/ResofireV2/wrapped/v0.3.6/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ResofireV2/wrapped/v0.4.2/locale/en.yml',
 	],
 	'sycho-advanced-extension-categories' => [
 		'tag' => 'https://raw.githubusercontent.com/SychO9/flarum-advanced-extension-categories/v0.2.1/locale/en.yml',
