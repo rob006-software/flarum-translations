@@ -93,6 +93,7 @@
 | [`fof/upload`](https://github.com/FriendsOfFlarum/upload) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/-/fof-upload/multi-auto.svg)](https://weblate.rob006.net/projects/flarum2/fof-upload/) |
 | [`fof/user-bio`](https://github.com/FriendsOfFlarum/user-bio) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/-/fof-user-bio/multi-auto.svg)](https://weblate.rob006.net/projects/flarum2/fof-user-bio/) |
 | [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/-/fof-user-directory/multi-auto.svg)](https://weblate.rob006.net/projects/flarum2/fof-user-directory/) |
+| [`fof/usercard-stats`](https://github.com/FriendsOfFlarum/usercard-stats) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/-/fof-usercard-stats/multi-auto.svg)](https://weblate.rob006.net/projects/flarum2/fof-usercard-stats/) |
 | [`fof/username-request`](https://github.com/FriendsOfFlarum/username-request) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/-/fof-username-request/multi-auto.svg)](https://weblate.rob006.net/projects/flarum2/fof-username-request/) |
 | [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/-/fof-webhooks/multi-auto.svg)](https://weblate.rob006.net/projects/flarum2/fof-webhooks/) |
 

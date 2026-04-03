@@ -881,6 +881,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`fof-upload`](https://weblate.rob006.net/projects/flarum2/fof-upload) | [`fof/upload`](https://github.com/FriendsOfFlarum/upload) |
 | [`fof-user-bio`](https://weblate.rob006.net/projects/flarum2/fof-user-bio) | [`fof/user-bio`](https://github.com/FriendsOfFlarum/user-bio) |
 | [`fof-user-directory`](https://weblate.rob006.net/projects/flarum2/fof-user-directory) | [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory) |
+| [`fof-usercard-stats`](https://weblate.rob006.net/projects/flarum2/fof-usercard-stats) | [`fof/usercard-stats`](https://github.com/FriendsOfFlarum/usercard-stats) |
 | [`fof-username-request`](https://weblate.rob006.net/projects/flarum2/fof-username-request) | [`fof/username-request`](https://github.com/FriendsOfFlarum/username-request) |
 | [`fof-webhooks`](https://weblate.rob006.net/projects/flarum2/fof-webhooks) | [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks) |
 
