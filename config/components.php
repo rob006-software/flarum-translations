@@ -246,7 +246,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/profile-image-crop/2.0.0-beta.1/resources/locale/en.yml',
 	],
 	'fof-reactions' => [
-		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/reactions/2.0.0-beta.5/resources/locale/en.yml',
+		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/reactions/2.0.0-beta.6/resources/locale/en.yml',
 	],
 	'fof-rich-text' => [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/rich-text/2.0.0-beta.4/resources/locale/en.yml',
