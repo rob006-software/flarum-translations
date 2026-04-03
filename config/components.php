@@ -201,7 +201,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/github-sponsors/2.0.0-beta.1/resources/locale/en.yml',
 	],
 	'fof-horizon' => [
-		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/horizon/v2.0.0-beta.8/resources/locale/en.yml',
+		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/horizon/v2.0.0-beta.9/resources/locale/en.yml',
 	],
 	'fof-html-errors' => [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/html-errors/2.0.0-beta.1/locale/en.yml',
