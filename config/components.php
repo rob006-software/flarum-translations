@@ -1636,6 +1636,9 @@ return [
 			'zh_Hans',
 		],
 	],
+	'skynettechnologies-skynet-accessibility-scanner' => [
+		'tag' => 'https://raw.githubusercontent.com/skynettechnologies/flarum-skynet-accessibility-scanner/1.0.0/resources/locale/en.yml',
+	],
 	'songnguxyz-oauth-mediawiki' => [
 		'tag' => 'https://raw.githubusercontent.com/songnguxyz/flarum-ext-oauth-mediawiki/v1.3/locale/en.yml',
 		'__builtInLanguages' => [
