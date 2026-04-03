@@ -853,6 +853,12 @@ return [
 			'zh_Hans',
 		],
 	],
+	'framiodev-upload-exif' => [
+		'tag' => 'https://raw.githubusercontent.com/framiodev/upload-exif/v1.1.1/locale/en.yml',
+		'__builtInLanguages' => [
+			'tr',
+		],
+	],
 	'ganuonglachanh-sonic' => [
 		'tag' => 'https://raw.githubusercontent.com/ganuonglachanh/flarum-sonic/0.1.9/resources/locale/en.yml',
 	],
