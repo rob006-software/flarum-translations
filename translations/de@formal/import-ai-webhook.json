@@ -2,10 +2,10 @@
     "import-ai-webhook": {
         "admin": {
             "settings": {
-                "webhook_url_label": "",
-                "webhook_url_help": "",
-                "bearer_token_label": "",
-                "bearer_token_help": ""
+                "webhook_url_label": "Webhook-URL",
+                "webhook_url_help": "Gib die URL ein, an die POST-Anfragen gesendet werden sollen, wenn Benutzer Beiträge erstellen oder bearbeiten. Die Nutzdaten umfassen den Ereignistyp sowie die vollständigen Modelldaten zu Benutzer, Beitrag, Diskussion und Akteur.",
+                "bearer_token_label": "Bearer-Token",
+                "bearer_token_help": "Optionales Bearer-Token für den Autorisierungs-Header. Das Token wird bei jeder Webhook-Anfrage als „Authorization: Bearer <dein-Token>“ gesendet."
             }
         }
     }

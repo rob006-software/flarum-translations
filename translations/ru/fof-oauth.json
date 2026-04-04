@@ -15,8 +15,8 @@
                 "only_icons_label": "Отображать только иконки на кнопках входа (альтернативный макет)",
                 "update_email_from_provider_label": "Обновлять адрес email от провайдера",
                 "update_email_from_provider_help": "Адрес email пользователя будет обновляться в соответствии с адресом, предоставленным провайдером OAuth при каждом входе на форум. Не все провайдеры предоставляют обновлённый адрес email и, в этом случае, этот параметр не будет иметь никакого влияния на подобных провайдеров.",
-                "disable_avatars_label": "",
-                "disable_avatars_help": "",
+                "disable_avatars_label": "Отключить аватары от провайдера",
+                "disable_avatars_help": "Если включено, при регистрации аватар пользователя не будет заменяться аватаром от провайдера. Это влияет только на будущие регистрации и не изменяет аватары существующих пользователей.\n",
                 "fullscreen_popup_label": "Полноэкранное окно для OAuth",
                 "fullscreen_popup_help": "Вход OAuth откроется в полноэкранном режиме. При включении этого параметра, настройки ширины и высоты будут игнорироваться.",
                 "popup_width_label": "Ширина окна OAuth",
@@ -25,9 +25,9 @@
                 "popup_height_help": "Укажите высоту всплывающего окна OAuth. Этот параметр будет игнорироваться, если включено \"Полноэкранное окно для OAuth\".",
                 "providers": {
                     "callback_url_text": "При необходимости, укажите callback URL в {url}.",
-                    "group_label": "",
-                    "group_help": "",
-                    "no_group_label": "",
+                    "group_label": "Назначить группу",
+                    "group_help": "Выберите группу, которая будет автоматически назначаться пользователям при регистрации через этого провайдера.",
+                    "no_group_label": "Без группы",
                     "discord": {
                         "description": "Создайте приложение по ссылке {link}. Добавьте URL перенаправления на вкладке OAuth2.",
                         "client_id_label": "=> fof-oauth.ref.settings.client_id",
@@ -50,7 +50,7 @@
                         "domain_label": "Домен GitLab"
                     },
                     "twitter": {
-                        "description": "Создайте приложение по ссылке {link}. Вы должны указать ссылку на Terms of Service и ссылку на Privacy Policy. Не забудьте дать разрешение на чтение e-mail пользователя.",
+                        "description": "Создайте приложение по ссылке {link}. Вы должны указать ссылку на Terms of Service и ссылку на Privacy Policy. Не забудьте дать разрешение на чтение email пользователя.",
                         "api_key_label": "Ключ API",
                         "api_secret_label": "Секретный ключ API"
                     },
@@ -58,7 +58,7 @@
                         "description": "Создайте приложение по ссылке {link}.",
                         "client_id_label": "=> fof-oauth.ref.settings.client_id",
                         "client_secret_label": "=> fof-oauth.ref.settings.client_secret",
-                        "hosted_domain_label": "Hosted Domain (G suite/Google Apps for Business, optional)"
+                        "hosted_domain_label": "Домен хостинга (G Suite/Google Apps for Business, необязательно)"
                     },
                     "linkedin": {
                         "description": "Создайте приложение по ссылке {link}.",
@@ -86,8 +86,8 @@
                         "last-used-label": "Последний раз использовался",
                         "link-created-label": "Соединение установлено",
                         "identification-label": "{provider} ID",
-                        "orphaned-account": "Ранее Вы входили через этого провайдера, но форум отключил вход с помощью этого метода.",
-                        "help": "Связанные аккаунты позволяют Вам входить на форум при помощи других провайдеров.",
+                        "orphaned-account": "Ранее вы входили через этого провайдера, но форум отключил вход с помощью этого метода.",
+                        "help": "Связанные аккаунты позволяют вам входить на форум при помощи других провайдеров.",
                         "identifier-label": "{provider} ID",
                         "unlink-confirm": "Вы уверены, что хотите отключить соединение с {provider}? Вы больше не сможете войти на форум, если в будущем не выполните повторную аутентификацию."
                     }

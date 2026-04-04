@@ -1,0 +1,69 @@
+{
+    "fof-move-posts": {
+        "admin": {
+            "settings": {
+                "moved_first_post_content": "Содержимое первого сообщения перенесённой дискуссии",
+                "moved_first_post_content_help": "Если в дискуссии только одно сообщение, при переносе первое сообщение исходной дискуссии изменится и будет содержать ссылку на новую. Здесь можно отредактировать его содержимое.\n",
+                "group_sequential_posts": "Объединять подряд идущие сообщения о переносе."
+            },
+            "permissions": {
+                "move_posts": "=> fof-move-posts.ref.move_posts"
+            }
+        },
+        "forum": {
+            "badge": {
+                "first_moved_tooltip": "Перенесено"
+            },
+            "discussion": {
+                "move_posts": "=> fof-move-posts.ref.move_posts"
+            },
+            "error": {
+                "move_old_post_to_newer_discussion": "=> fof-move-posts.ref.status.old_to_new_move",
+                "move_posts_to_same_discussion": "Нельзя переносить сообщения в ту же дискуссию."
+            },
+            "modal": {
+                "check": "Выберите тип переноса",
+                "destination": "Целевая дискуссия",
+                "discussion_help": "Будут использованы теги исходной дискуссии, их можно изменить после создания.",
+                "discussion_name": "=> core.forum.composer_discussion.title_placeholder",
+                "new_discussion": "Новая дискуссия",
+                "selected_posts": "{count, plural, one {Выбрано 1 сообщение} other {Выбрано {count} сообщений}}",
+                "status": {
+                    "complex_move": "Сложный перенос: сообщения будут вставлены между существующими, из-за чего изменятся старые ссылки на сообщения целевой дискуссии.",
+                    "old_to_new_move": "=> fof-move-posts.ref.status.old_to_new_move",
+                    "simple_move": "Простой перенос: все сообщения будут добавлены в конец дискуссии."
+                },
+                "submit": "Продолжить",
+                "title": "=> fof-move-posts.ref.move_posts",
+                "confirm_move_all_to_new_discussion": ""
+            },
+            "alerts": {
+                "posts_moved_to": ""
+            },
+            "notifications": {
+                "post_moved_text": "Одно или несколько ваших сообщений были перенесены в «{targetDiscussionTitle}»."
+            },
+            "post": {
+                "unmove": "Снять выбор",
+                "move": "Выбрать для переноса",
+                "moving": "Перенос сообщения"
+            },
+            "post_stream": {
+                "post_moved": "{count, plural, one {{username} переместил(а) сообщение в {target_discussion}.} other {{username} переместил(а) {count} сообщений в {target_discussion}.}}"
+            }
+        },
+        "ref": {
+            "move_posts": "Перенести сообщения",
+            "status": {
+                "old_to_new_move": "Нельзя переносить старые сообщения в более новые дискуссии."
+            }
+        },
+        "lib": {
+            "discussion": {
+                "first_post": {
+                    "default_content": "*Это сообщение было перенесено в **[%DISCUSSION_NAME%](%POST_LINK%)**.*\n"
+                }
+            }
+        }
+    }
+}

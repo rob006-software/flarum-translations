@@ -2,40 +2,40 @@
     "afrux-theme-base": {
         "admin": {
             "extensions": {
-                "title": "",
-                "description": ""
+                "title": "Extensii",
+                "description": "Lista tuturor extensiilor instalate."
             },
             "extension": {
                 "sections": {
-                    "content": "",
-                    "permissions": ""
+                    "content": "Setări principale",
+                    "permissions": "Permisiuni"
                 }
             },
             "header": {
-                "go_back": ""
+                "go_back": "Înapoi la forum"
             },
             "users": {
                 "grid": {
                     "columns": {
                         "avatar": {
-                            "title": ""
+                            "title": "Avatar"
                         }
                     }
                 }
             },
             "settings": {
-                "edit_footer_links": "",
-                "footer_description": "",
-                "footer_bottom_line": "",
-                "hero_banner": "",
-                "hero_banner_position": "",
+                "edit_footer_links": "Editare linkuri subsol",
+                "footer_description": "Descriere subsol",
+                "footer_bottom_line": "Rând final subsol",
+                "hero_banner": "Imagine de bun venit",
+                "hero_banner_position": "Poziție CSS imagine de bun venit (exemplu: „center top” sau „center 20%”)",
                 "links_modal": {
-                    "add_group": "",
-                    "group_name": "",
-                    "group_title": "",
-                    "add_link": "",
-                    "link_url": "",
-                    "link_label": ""
+                    "add_group": "Grup nou de linkuri",
+                    "group_name": "Numele grupului {number}",
+                    "group_title": "Titlu grup de linkuri",
+                    "add_link": "Adaugă un link",
+                    "link_url": "URL link",
+                    "link_label": "Etichetă link"
                 }
             }
         }

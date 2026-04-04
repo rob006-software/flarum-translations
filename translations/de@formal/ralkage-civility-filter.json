@@ -1,0 +1,130 @@
+{
+    "ralkage-civility-filter": {
+        "admin": {
+            "settings": {
+                "enabled_label": "Höflichkeitsfilter aktivieren",
+                "enabled_help": "Hauptschalter zum Aktivieren oder Deaktivieren des Höflichkeitsfilters.",
+                "ai_provider_label": "KI-Anbieter",
+                "ai_provider_help": "Wähle den gewünschten KI-Anbieter aus. Gib unten den entsprechenden API-Schlüssel ein.",
+                "api_key_label": "Anthropic-API-Schlüssel",
+                "api_key_help": "Dein Anthropic-API-Schlüssel für Claude-Modelle.",
+                "openai_api_key_label": "OpenAI-API-Schlüssel",
+                "openai_api_key_help": "Dein OpenAI-API-Schlüssel für GPT-Modelle.",
+                "openrouter_api_key_label": "OpenRouter-API-Schlüssel",
+                "openrouter_api_key_help": "Dein OpenRouter-API-Schlüssel. Greife über eine einzige API auf über 200 Modelle zu.",
+                "model_label": "KI-Modell",
+                "model_help": "Wähle ein Modell deines gewählten Anbieters aus.",
+                "warn_threshold_label": "Warnschwelle (0–100)",
+                "warn_threshold_help": "Bei einem Wert auf oder über diesem Niveau wird eine Warnung ausgegeben. Standardwert: 60",
+                "hold_threshold_label": "Schwelle für Zurückhalten/Moderieren (0–100)",
+                "hold_threshold_help": "Bei einem Wert auf oder über diesem Niveau wird der Beitrag zur Moderation zurückgehalten. Standardwert: 80",
+                "block_threshold_label": "Block-Schwellenwert (0–100)",
+                "block_threshold_help": "Bei einem Wert auf oder über diesem Niveau wird der Beitrag komplett blockiert. Standardwert: 95",
+                "log_all_label": "Alle Prüfungen protokollieren",
+                "log_all_help": "Protokolliere alle Höflichkeitsprüfungen, einschließlich der Beiträge, die diese bestehen. Wenn diese Funktion deaktiviert ist, werden nur markierte Beiträge protokolliert.",
+                "monitored_tags_label": "Überwachte Themen",
+                "monitored_tags_help": "Wähle die zu überwachenden Themen aus. Lasse das Feld leer, um alle Themen zu überwachen.",
+                "custom_prompt_label": "Benutzerdefinierter KI-Prompt",
+                "custom_prompt_help": "Standard-Bewertungs-Prompt überschreiben. Die KI muss angewiesen werden, JSON-Daten mit den Feldern „score“, „categories“ und „reason“ zurückzugeben. Für die Standardeinstellung leer lassen.",
+                "word_blocklist_label": "Wort-Sperrliste",
+                "word_blocklist_help": "Ein Wort/ein Satz pro Zeile. Beiträge, die diese enthalten, werden sofort blockiert, ohne dass die KI hinzugezogen wird.",
+                "webhook_url_label": "Webhook-URL",
+                "webhook_url_help": "Discord-Webhook oder allgemeine URL, um Benachrichtigungen zu erhalten, wenn Beiträge gemeldet werden. Zum Deaktivieren leer lassen.",
+                "webhook_min_action_label": "Mindestaktion für Webhook",
+                "webhook_min_action_help": "Sende Webhook-Benachrichtigungen nur für diese Aktionsstufe oder höher.",
+                "auto_suspend_threshold_label": "Automatische Sperre nach X Verstößen",
+                "auto_suspend_threshold_help": "Benutzer nach dieser Anzahl von Verstößen innerhalb des Zeitfensters automatisch sperren. Auf 0 setzen, um die Funktion zu deaktivieren.",
+                "auto_suspend_days_label": "Dauer der automatischen Sperrung (Tage)",
+                "auto_suspend_days_help": "Wie viele Tage ein Benutzer gesperrt werden soll. Standard: 3",
+                "auto_suspend_window_label": "Fenster für automatische Sperrung (Tage)",
+                "auto_suspend_window_help": "Anzahl von Tagen innerhalb derer Verstöße gezählt werden. Standard: 7",
+                "rate_limit_label": "API-Aufrufbegrenzung (Aufrufe/Stunde)",
+                "rate_limit_help": "Maximale Anzahl von KI-API-Aufrufen pro Stunde. Beiträge werden ungeprüft weitergeleitet, wenn das Limit erreicht ist. Setze den Wert auf 0, um die Anzahl unbegrenzt zu lassen."
+            },
+            "permissions": {
+                "bypass_label": "Höflichkeitsfilter umgehen"
+            },
+            "nav": {
+                "civility_log": "Höflichkeitsprotokoll",
+                "stats": "Statistiken"
+            },
+            "log": {
+                "title": "Höflichkeits-Filterprotokoll",
+                "username": "Benutzername",
+                "score": "Bewertung",
+                "action": "Aktion",
+                "categories": "Kategorien",
+                "excerpt": "Auszug aus der Nachricht",
+                "date": "Datum",
+                "discussion": "Diskussion",
+                "no_logs": "Es wurden keine Einträge im Höflichkeitsprotokoll gefunden.",
+                "clear": "Protokoll löschen",
+                "clear_confirm": "Möchtest du wirklich das gesamte Protokoll löschen?",
+                "export": "CSV exportieren",
+                "filter_action": "Nach Aktion filtern",
+                "all_actions": "Alle Aktionen",
+                "allowed": "Erlaubt",
+                "warned": "Verwarnt",
+                "moderated": "Moderiert",
+                "blocked": "Blockiert",
+                "actions_col": "Aktionen",
+                "approve": "Genehmigen",
+                "delete": "Löschen",
+                "suspend": "Aussetzen",
+                "approved": "Genehmigt",
+                "deleted": "Gelöscht",
+                "suspended": "Ausgesetzt"
+            },
+            "test": {
+                "title": "Testbewertung",
+                "message_label": "Zu bewertende Nachricht",
+                "message_placeholder": "Gib eine Testnachricht zur Bewertung ein...",
+                "discussion_title_label": "Diskussionstitel (optionaler Kontext)",
+                "discussion_title_placeholder": "Optionaler Diskussionstitel als Kontext...",
+                "submit": "Bewerten lassen",
+                "result_score": "Höflichkeitsbewertung",
+                "result_action": "Aktion",
+                "result_reason": "Grund",
+                "result_categories": "Kategorien",
+                "result_latency": "API-Latenz",
+                "api_error": "API-Aufruf fehlgeschlagen"
+            },
+            "stats": {
+                "title": "Statistiken zur Höflichkeit",
+                "total_checks": "Gesamtzahl der Prüfungen",
+                "average_score": "Durchschnittliche Bewertung",
+                "action_breakdown": "Aufschlüsselung der Aktionen",
+                "top_categories": "Top-Kategorien",
+                "top_offenders": "Top-Übeltäter",
+                "daily_trend": "Täglicher Trend (30 Tage)",
+                "user": "Benutzer",
+                "violations": "Verstöße",
+                "avg_score": "Durchschnittliche Bewertung",
+                "date": "Datum",
+                "total": "Insgesamt",
+                "flagged": "Markiert",
+                "no_data": "Es liegen noch keine Statistikdaten vor."
+            }
+        },
+        "forum": {
+            "post_notice_warned_author": "Dein Beitrag wurde vom Höflichkeitsfilter markiert. Bitte achte darauf, dass die Diskussionen respektvoll und konstruktiv bleiben.",
+            "post_notice_warned_mod": "Dieser Beitrag wurde vom Höflichkeitsfilter wegen möglicher Unhöflichkeit markiert. (Nur für Moderatoren sichtbar)",
+            "post_notice_moderated": "Dieser Beitrag wurde aufgrund potenziell schädlicher Inhalte durch den Höflichkeitsfilter zur Überprüfung zurückgehalten.",
+            "notification_warned": "Dein letzter Beitrag wurde vom Höflichkeitsfilter markiert. Bitte achte darauf, dass die Diskussionen respektvoll bleiben.",
+            "notification_moderated": "Dein letzter Beitrag wurde vom Höflichkeitsfilter zur Überprüfung zurückgehalten. Ein Moderator wird ihn in Kürze prüfen.",
+            "settings": {
+                "notify_civility_flagged": "Jemand meldet meinen Beitrag wegen Unhöflichkeit"
+            },
+            "user_profile": {
+                "civility_title": "Höflichkeitsprotokoll",
+                "total_checks": "Überprüfungen insgesamt",
+                "average_score": "Durchschnittliche Bewertung",
+                "violations": "Verstöße",
+                "no_history": "Keine Eintragungen wegen Unhöflichkeit."
+            }
+        },
+        "api": {
+            "post_blocked": "Dein Beitrag wurde vom Höflichkeitsfilter blockiert. Bitte formuliere deine Nachricht respektvoller und konstruktiver und versuche es dann erneut."
+        }
+    }
+}

@@ -2,87 +2,87 @@
     "askvortsov-auto-moderator": {
         "admin": {
             "action_drivers": {
-                "activate_email": "",
-                "add_to_group": "",
-                "remove_from_group": "",
-                "suspend": "",
-                "unsuspend": ""
+                "activate_email": "Activare e-mail",
+                "add_to_group": "Adăugare în grup",
+                "remove_from_group": "Eliminare din grup",
+                "suspend": "Suspendare",
+                "unsuspend": "Anulare suspendare"
             },
             "metric_drivers": {
-                "discussions_entered": "",
-                "discussions_participated": "",
-                "discussions_started": "",
-                "posts_made": "",
-                "likes_given": "",
-                "likes_received": "",
-                "best_answers": "",
-                "moderator_strikes": ""
+                "discussions_entered": "Discuții accesate",
+                "discussions_participated": "Discuții la care a participat",
+                "discussions_started": "Discuții începute",
+                "posts_made": "Postări scrise",
+                "likes_given": "Aprecieri oferite",
+                "likes_received": "Aprecieri primite",
+                "best_answers": "Cele mai bune răspunsuri",
+                "moderator_strikes": "Avertismente de moderare"
             },
             "requirement_drivers": {
-                "email_confirmed": "",
-                "in_group": "",
-                "suspended": "",
-                "email_matches_regex": ""
+                "email_confirmed": "E-mail confirmat",
+                "in_group": "În grup",
+                "suspended": "Suspendat",
+                "email_matches_regex": "E-mail corespunde Regex"
             },
             "in_group_settings": {
-                "regex": ""
+                "regex": "Regex pentru e-mailuri valide (fără slash-uri)"
             },
             "group_selector": {
-                "placeholder": ""
+                "placeholder": "Selectare grup"
             },
             "suspend_selector": {
-                "days": "",
-                "indefinitely": ""
+                "days": "Durată suspendare (zile)",
+                "indefinitely": "Suspendare pe perioadă nedeterminată?"
             },
             "criterion_status": {
-                "heading": "",
-                "invalid": "",
-                "no_actions": "",
-                "no_metrics_or_reqs": "",
-                "valid": "",
-                "action_validation_errors": "",
-                "requirement_validation_errors": ""
+                "heading": "Verificare stare",
+                "invalid": "Criteriul este invalid în prezent. Verificare erori în lista de parametri de mai jos.",
+                "no_actions": "Nu există acțiuni definite pentru acest criteriu. Nu se va produce nicio schimbare atunci când utilizatorii obțin sau pierd acest criteriu.",
+                "no_metrics_or_reqs": "Nu există metrici sau cerințe definite pentru acest criteriu. Aceasta înseamnă că TOȚI utilizatorii vor îndeplini condițiile acestui criteriu.",
+                "valid": "Acest criteriu este valid!",
+                "action_validation_errors": "Au fost întâmpinate următoarele erori de validare pentru parametrii de acțiune:",
+                "requirement_validation_errors": "Au fost întâmpinate următoarele erori de validare pentru parametrii de acțiune:"
             },
             "criterion_page": {
-                "driver_missing_ext": "",
-                "back": "",
-                "name_label": "",
-                "icon_label": "",
-                "description_label": "",
-                "new_criterion": "",
-                "negated": "",
-                "loading": "",
-                "delete_button": "",
-                "metrics_and_requirements_label": "",
-                "metrics_and_requirements_help": "",
-                "metrics_heading": "",
-                "requirements_heading": "",
-                "add_metric": "",
-                "actions_label": "",
-                "actions_help": "",
-                "actions_on_gain_heading": "",
-                "actions_on_loss_heading": "",
-                "add_action": ""
+                "driver_missing_ext": "Acest parametru depinde de extensii care nu sunt activate.",
+                "back": "Înapoi la lista de criterii",
+                "name_label": "Nume",
+                "icon_label": "Pictogramă",
+                "description_label": "Descriere",
+                "new_criterion": "Creare criteriu",
+                "negated": "Negat?",
+                "loading": "=> core.ref.loading",
+                "delete_button": "=> core.ref.delete",
+                "metrics_and_requirements_label": "Metrici și cerințe",
+                "metrics_and_requirements_help": "Acestea definesc dacă utilizatorii îndeplinesc condițiile pentru acest criteriu. Metricile reprezintă intervale de valori, iar cerințele sunt condiții logice (adevărat/fals).",
+                "metrics_heading": "Metrici",
+                "requirements_heading": "Cerințe",
+                "add_metric": "Adăugare metrică",
+                "actions_label": "Acțiuni",
+                "actions_help": "Acțiunile la obținere se execută când un utilizator îndeplinește un nou criteriu. Acțiunile la pierdere se execută când un utilizator nu mai îndeplinește un criteriu.",
+                "actions_on_gain_heading": "Acțiuni la obținere",
+                "actions_on_loss_heading": "Acțiuni la pierdere",
+                "add_action": "Adăugare acțiune"
             },
             "undefined_driver_item": {
-                "text": ""
+                "text": "EROARE! Parametrul <strong>{driverName}</strong> nu este definit. Cel mai probabil, acesta a fost adăugat de o extensie care nu este instalată în prezent. Va trebui să reactivezi extensia sau să elimini acest parametru pentru ca acest criteriu să fie valid din nou."
             },
             "automoderator_page": {
-                "criterion_invalid": "",
-                "list_heading": "",
-                "create_criterion_button": ""
+                "criterion_invalid": "Criteriul este momentan invalid. Te rugăm să verifici setările acestuia pentru mai multe informații",
+                "list_heading": "Criterii",
+                "create_criterion_button": "Creare criteriu nou"
             },
             "automoderator_instructions": {
-                "header": "",
-                "text": ""
+                "header": "Instrucțiuni extensie",
+                "text": "<li>Pe scurt: Când un utilizator îndeplinește criteriul X, execută Y. Când un utilizator nu mai îndeplinește criteriul X, execută Z.</li>\n<li><strong>Criterii:</strong> Criteriile reprezintă nucleul acestei extensii. Acestea sunt seturi arbitrare de metrici și cerințe. Când un utilizator îndeplinește un criteriu, orice acțiune „la obținere” (on gain) pentru acel criteriu va fi executată. Când un utilizator pierde un criteriu, orice acțiune „la pierdere” (on loss) pentru acel criteriu va fi executată.</li>\n<ul>\n  <li><strong>Metrică:</strong> O condiție numerică. De exemplu, numărul de postări sau numărul de aprecieri primite. Un criteriu poate solicita un interval, un minim sau un maxim de metrici.</li>\n  <li><strong>Cerință:</strong> O condiție logică (booleană) abstractă. De exemplu, faptul de a nu fi suspendat sau de a avea un e-mail care se potrivește cu o anumită expresie regulată (regex).</li>\n</ul>\n<li><strong>Acțiuni:</strong> Ceva ce se întâmplă automat atunci când un criteriu este îndeplinit sau pierdut. Aceasta poate include orice, de la adăugarea/eliminarea dintr-un grup, până la trimiterea unui e-mail sau suspendarea unui utilizator.</li>\n<li><strong>Declanșator (Trigger):</strong> Un set de evenimente care determină reevaluarea criteriilor de grup ale unui utilizator. Acestea fac parte din definițiile metricilor și cerințelor. Toate criteriile vor fi evaluate la autentificare: acesta este „declanșatorul universal”.</li>\n<li>Acțiunile „la pierdere” vor rula întotdeauna înaintea acțiunilor „la obținere”. În acest fel, acțiunile vor fi menținute atâta timp cât un utilizator îndeplinește cel puțin unul dintre criteriile care execută acea acțiune la obținere.</li>\n<li>Rețineți că acțiunile rulează doar „la pierdere” și „la obținere”. Editările manuale efectuate în timp ce un utilizator îndeplinește un criteriu nu vor declanșa reaplicarea acțiunilor „la obținere” ale acelui criteriu.</li>\n<li>Dacă ștergeți un criteriu, acțiunile „la pierdere” NU vor fi executate pentru utilizatorii care îndeplinesc în prezent criteriul respectiv.</li>\n<li>Dacă folosiți criterii pentru a gestiona grupuri, vă recomandăm să mențineți un set separat de grupuri care să fie gestionate prin criterii. Nu veți putea adăuga sau elimina manual utilizatori din aceste grupuri.</li>\n"
             }
         },
         "lib": {
-            "group_id": "",
+            "group_id": "ID de grup",
             "managed_groups": {
-                "header": "",
-                "group_item": "",
-                "groups_not_editable": ""
+                "header": "Grupuri gestionate:",
+                "group_item": "<badge></badge> {groupName}",
+                "groups_not_editable": "Grupurile gestionate prin criteriile automoderatorului nu pot fi adăugate sau eliminate manual utilizatorilor, pentru a preveni inconsistențele."
             }
         }
     }

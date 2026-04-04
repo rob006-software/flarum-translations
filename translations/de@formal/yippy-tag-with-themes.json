@@ -2,78 +2,78 @@
     "yippy-tag-with-themes": {
         "admin": {
             "labels": {
-                "design_default": "",
-                "display_themes": ""
+                "design_default": "Diskussionsdesigndarstellung",
+                "display_themes": "Berechtigung „Thema für Designs“ aktivieren"
             },
             "helps": {
-                "design_default": "",
-                "display_themes": ""
+                "design_default": "Wähle ein Standard-Layout aus",
+                "display_themes": "Themen nur für bestimmte Gruppen zulassen"
             },
             "options": {
                 "design_options": {
                     "none": "Kein",
                     "sticky_note": "Haftnotiz",
-                    "sticky_note_tag": "Haftnotiz (Haupt-Tag)",
-                    "sticky_note_tab": "Haftnotiz (Haupt-Tab)",
-                    "sticky_note_banner": "Haftnotiz (Haupt-Banner)",
-                    "sticky_note_outline": "",
-                    "sticky_note_outline_tag": "",
-                    "sticky_note_outline_tab": "",
-                    "sticky_note_outline_banner": "",
+                    "sticky_note_tag": "Haftnotiz (Hauptthema)",
+                    "sticky_note_tab": "Haftnotiz (Haupttab)",
+                    "sticky_note_banner": "Haftnotiz (Hauptbanner)",
+                    "sticky_note_outline": "Gliederung der gepinnten Notiz",
+                    "sticky_note_outline_tag": "Gliederung der gepinnten Notiz (Hauptthema)",
+                    "sticky_note_outline_tab": "Gliederung der gepinnten Notiz (Haupttab)",
+                    "sticky_note_outline_banner": "Gliederung der gepinnten Notiz (Hauptbanner)",
                     "basic": "Einfach",
-                    "basic_tag": "Einfach (Haupt-Tag)",
-                    "basic_tab": "Einfach (Haupt-Tab)",
-                    "basic_banner": "Einfach (Haupt-Banner)",
-                    "basic_outline": "",
-                    "basic_outline_tag": "",
-                    "basic_outline_tab": "",
-                    "basic_outline_banner": "",
+                    "basic_tag": "Einfach (Hauptthema)",
+                    "basic_tab": "Einfach (Haupttab)",
+                    "basic_banner": "Einfach (Hauptbanner)",
+                    "basic_outline": "Einfache Gliederung",
+                    "basic_outline_tag": "Einfache Gliederung (Hauptthema)",
+                    "basic_outline_tab": "Einfache Gliederung (Haupttab)",
+                    "basic_outline_banner": "Einfache Gliederung (Hauptbanner)",
                     "flat": "Flach",
-                    "flat_tag": "Flach (Haupt-Tag)",
-                    "flat_tab": "Flach (Haupt-Tab)",
-                    "flat_banner": "Flach (Haupt-Banner)",
-                    "flat_border": "",
-                    "flat_border_tag": "",
-                    "flat_border_tab": "",
-                    "flat_border_banner": "",
-                    "rounded_flat": "",
-                    "rounded_flat_tag": "",
-                    "rounded_flat_tab": "",
-                    "rounded_flat_banner": "",
-                    "rounded_flat_border": "",
-                    "rounded_flat_border_tag": "",
-                    "rounded_flat_border_tab": "",
-                    "rounded_flat_border_banner": ""
+                    "flat_tag": "Flach (Hauptthema)",
+                    "flat_tab": "Flach (Haupttab)",
+                    "flat_banner": "Flach (Hauptbanner)",
+                    "flat_border": "Flacher Rahmen",
+                    "flat_border_tag": "Flacher Rahmen (Hauptthema)",
+                    "flat_border_tab": "Flacher Rahmen (Haupttab)",
+                    "flat_border_banner": "Flacher Rahmen (Hauptbanner)",
+                    "rounded_flat": "Flach abgerundet",
+                    "rounded_flat_tag": "Flach abgerundet (Hauptthema)",
+                    "rounded_flat_tab": "Flach abgerundet (Haupttab)",
+                    "rounded_flat_banner": "Flach abgerundet (Hauptbanner)",
+                    "rounded_flat_border": "Flach abgerundet mit Rand",
+                    "rounded_flat_border_tag": "Flach abgerundet mit Rand (Hauptthema)",
+                    "rounded_flat_border_tab": "Flach abgerundet mit Rand (Haupttab)",
+                    "rounded_flat_border_banner": "Flach abgerundet mit Rand (Hauptbanner)"
                 }
             },
             "designs": {
-                "title": "",
-                "description": "",
-                "add": "",
-                "banner": "",
+                "title": "Individuell gestaltetes Design-Thema für Themen",
+                "description": "Erstelle eine Liste mit Regeln für die Anzeige verschiedener Designs für bestimmte Themen",
+                "add": "Design für Themen hinzufügen",
+                "banner": "Design-Thema {index} - [{isEnabled}]",
                 "is_enabled": {
-                    "enabled": "",
-                    "disabled": ""
+                    "enabled": "Aktivieren",
+                    "disabled": "Deaktiviert"
                 },
                 "header": {
                     "theme": "Benutzerdefiniertes Theme",
-                    "color_theme": ""
+                    "color_theme": "Standard-Farbthema individuell gestalten"
                 },
                 "data": {
                     "themeName": "Theme auswählen",
                     "tags": "Ausgewählte Hauptthemen",
-                    "tags_help": "",
+                    "tags_help": "Wähle eines oder mehrere Themen für dieses benutzerdefinierte Design-Thema aus",
                     "primary_background_color": "Primäre Hintergrundfarbe bearbeiten",
                     "primary_font_class": "Primäre Schriftart bearbeiten",
-                    "child_background_color": "",
-                    "child_font_class": "",
-                    "outline_background_color": "",
+                    "child_background_color": "Hintergrundfarbe des Unterelements bearbeiten",
+                    "child_font_class": "Schriftart des Unterelements bearbeiten",
+                    "outline_background_color": "Farbe der Gliederung bearbeiten",
                     "secondary_font_class": "Sekundäre Schriftart bearbeiten",
-                    "unread_color": "",
-                    "opacity_background": "",
-                    "opacity_footer": "",
-                    "opacity_outline": "",
-                    "is_enabled": ""
+                    "unread_color": "Hintergrundfarbe des ungelesenen Elements bearbeiten",
+                    "opacity_background": "Deckkraft des Hintergrunds",
+                    "opacity_footer": "Deckkraft der Fußzeile",
+                    "opacity_outline": "Deckkraft der Gliederung",
+                    "is_enabled": "Design-Thema aktivieren"
                 }
             }
         }

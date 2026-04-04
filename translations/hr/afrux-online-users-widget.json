@@ -2,18 +2,18 @@
     "afrux-online-users-widget": {
         "admin": {
             "settings": {
-                "cache_ttl": "",
-                "last_seen_interval": "",
-                "max_users": ""
+                "cache_ttl": "Vrijeme pohrane korisničke liste u predmemoriju (u sekundama)",
+                "last_seen_interval": "Interval posljednje aktivnosti za prikaz korisnika kao online (u minutama)",
+                "max_users": "Maksimalan broj prikazanih korisnika"
             },
             "permissions": {
-                "view_online_users_widget": ""
+                "view_online_users_widget": "Pregledaj widget online korisnika"
             }
         },
         "forum": {
             "widget": {
-                "title": "",
-                "empty": ""
+                "title": "Online korisnici",
+                "empty": "Trenutno nema korisnika online."
             }
         }
     }

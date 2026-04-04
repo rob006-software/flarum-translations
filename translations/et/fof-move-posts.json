@@ -1,0 +1,69 @@
+{
+    "fof-move-posts": {
+        "admin": {
+            "settings": {
+                "moved_first_post_content": "",
+                "moved_first_post_content_help": "",
+                "group_sequential_posts": ""
+            },
+            "permissions": {
+                "move_posts": "=> fof-move-posts.ref.move_posts"
+            }
+        },
+        "forum": {
+            "badge": {
+                "first_moved_tooltip": "Liigutatud"
+            },
+            "discussion": {
+                "move_posts": "=> fof-move-posts.ref.move_posts"
+            },
+            "error": {
+                "move_old_post_to_newer_discussion": "=> fof-move-posts.ref.status.old_to_new_move",
+                "move_posts_to_same_discussion": "Postitusi ei saa liigutada sellessesamasse vestlusesse."
+            },
+            "modal": {
+                "check": "Vali toimingu liik",
+                "destination": "Sihtvestlus",
+                "discussion_help": "",
+                "discussion_name": "=> core.forum.composer_discussion.title_placeholder",
+                "new_discussion": "Uus vestlus",
+                "selected_posts": "",
+                "status": {
+                    "complex_move": "",
+                    "old_to_new_move": "=> fof-move-posts.ref.status.old_to_new_move",
+                    "simple_move": ""
+                },
+                "submit": "Jätka",
+                "title": "=> fof-move-posts.ref.move_posts",
+                "confirm_move_all_to_new_discussion": ""
+            },
+            "alerts": {
+                "posts_moved_to": ""
+            },
+            "notifications": {
+                "post_moved_text": ""
+            },
+            "post": {
+                "unmove": "",
+                "move": "",
+                "moving": ""
+            },
+            "post_stream": {
+                "post_moved": ""
+            }
+        },
+        "ref": {
+            "move_posts": "",
+            "status": {
+                "old_to_new_move": ""
+            }
+        },
+        "lib": {
+            "discussion": {
+                "first_post": {
+                    "default_content": ""
+                }
+            }
+        }
+    }
+}

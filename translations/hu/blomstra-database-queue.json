@@ -2,29 +2,29 @@
     "blomstra-database-queue": {
         "admin": {
             "settings": {
-                "backoff_label": "",
-                "backoff_help": "",
-                "memory_label": "",
-                "memory_help": "",
-                "rest_label": "",
-                "rest_help": "",
-                "retries_label": "",
-                "retries_help": "",
-                "timeout_label": "",
-                "timeout_help": ""
+                "backoff_label": "Várakozás",
+                "backoff_help": "Hány másodpercig várakozzon az el nem kapott kivételre futó feladatok újrapróbálkozása előtt.\n",
+                "memory_label": "Memória",
+                "memory_help": "A memóriakorlát megabájtban.\n",
+                "rest_label": "Pihenő",
+                "rest_help": "Hány másodpercig pihenjen a feladatok között.\n",
+                "retries_label": "Újrapóbálkozás",
+                "retries_help": "Hányszor próbálkozhat újra egy feladattal mielőtt az sikertelenként lesz naplózva.\n",
+                "timeout_label": "Időtúllépés",
+                "timeout_help": "Hány másodpercig futhatnak a gyermekfolyamatok.\n"
             },
             "stats": {
-                "auto_refresh": "",
-                "heading": "",
-                "refresh": "",
+                "auto_refresh": "Automatikus frissítés",
+                "heading": "Sor áttekintése",
+                "refresh": "Frissítés",
                 "data": {
-                    "queue-name": "",
-                    "pending-jobs": "",
-                    "failed-jobs": "",
+                    "queue-name": "Sor",
+                    "pending-jobs": "Függőben lévő feladatok",
+                    "failed-jobs": "Sikertelen feladatok",
                     "status": {
-                        "label": "",
-                        "running": "",
-                        "inactive": ""
+                        "label": "Állapot",
+                        "running": "Fut",
+                        "inactive": "Inaktív"
                     }
                 }
             }

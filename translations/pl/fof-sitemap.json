@@ -22,8 +22,10 @@
                 "mode_help_multi": "Najlepszy dla dużych forów, posiadających ponad 10 000 pozycji w mapie witryny. Mapa witryny zostanie rozbita na kilka skompresowanych plików zapisanych w katalogu <code>/public</code>.",
                 "advanced_options_label": "Zaawansowane ustawienia",
                 "frequency_label": "Jak często harmonogram zadań powinien generować ponownie mapę zapisaną w cache?",
-                "risky_performance_improvements": "Włącz ryzykowne optymalizacje wydajności",
-                "risky_performance_improvements_help": "Ryzykowne optymalizacje sprawiają, że zadania cron wykonują się szybciej dla zbiorów danych zawierających miliony rekordów, ale mogą być niekompatybilne z niektórymi rozszerzeniami.",
+                "risky_performance_improvements": "Włącz duży rozmiar porcji danych (ryzykowne)",
+                "risky_performance_improvements_help": "Zwiększa rozmiar porcji danych pobieranej z bazy z 75 000 do 150 000 wierszy. Przyspiesza generowanie dla bardzo dużych zbiorów danych, ale podwaja maksymalne zużycie pamięci RAM na jedną porcję. Włącz tylko wtedy, gdy masz pewność, że serwer ma wystarczającą ilość pamięci. Włącza również opcję ograniczania zakresu danych (patrz powyżej).",
+                "column_pruning": "Włącz ograniczanie zakresu danych",
+                "column_pruning_help": "Pobiera tylko dane potrzebne do generowania adresów URL (np. id, slug, nazwa użytkownika, daty), zamiast wszystkich kolumn. Znacząco zmniejsza zużycie pamięci dla dużych forów. Opcja jest domyślnie włączona — wyłącz ją tylko wtedy, gdy niestandardowy mechanizm slugów lub widoczności wymaga dodatkowych danych spoza standardowego zakresu.",
                 "include_priority": "Dołącz wartości priorytetu w mapie witryny",
                 "include_priority_help": "Wartości priorytetu są ignorowane przez Google, ale mogą być używane przez inne wyszukiwarki, takie jak Bing i Yandex",
                 "include_changefreq": "Dołącz wartości częstotliwości zmian w mapie witryny",
@@ -52,9 +54,7 @@
                             "minimum_item_threshold_help": "Minimalna liczba dyskusji, które musi mieć tag, aby kwalifikował się do zawarcia w mapie witryny."
                         }
                     }
-                },
-                "column_pruning": "",
-                "column_pruning_help": ""
+                }
             }
         }
     }

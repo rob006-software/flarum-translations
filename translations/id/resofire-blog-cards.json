@@ -1,0 +1,35 @@
+{
+    "resofire_blog_cards": {
+        "forum": {
+            "replies": "Balasan: {count}",
+            "unreadReplies": "Balasan belum dibaca: {count}",
+            "show_all_participants": "Tampilkan semua peserta",
+            "more_participants": "{count}+",
+            "modal_title": "{count} Peserta",
+            "load_more": "Muat lebih banyak"
+        },
+        "admin": {
+            "settings": {
+                "onIndexPage_label": "Gunakan di Daftar Diskusi",
+                "onIndexPage_help": "Jika diaktifkan, halaman daftar diskusi akan menampilkan kartu.",
+                "tagIds_label": "Batasi Ke Tag Tertentu",
+                "tagIds_help": "Pilih tag untuk menampilkan kartu. Jika tidak ada yang dipilih, kartu akan muncul di semua halaman tag.",
+                "fullWidth_label": "Kartu Ukuran Penuh",
+                "fullWidth_help": "Jika diaktifkan, setiap kartu akan menempati seluruh lebar halaman, bukan dua kartu per baris.",
+                "showParticipants_label": "Tampilkan Avatar Peserta",
+                "showParticipants_help": "Jika diaktifkan, setiap kartu akan menampilkan deretan avatar peserta di bagian bawah."
+            },
+            "tools_heading": "Peralatan",
+            "recalculate_help": "Menghitung ulang avatar peserta untuk semua diskusi. Jalankan ini setelah pertama kali memasang ekstensi pada forum yang sudah ada, atau kapan pun Anda merasa data pratinjau tidak sinkron.",
+            "recalculate_button": "Hitung Ulang Peserta",
+            "recalculating_button": "Sedang menghitung ulang…",
+            "recalculate_success": "Selesai. {count} diskusi berhasil dihitung ulang dalam {duration} detik.",
+            "recalculate_error": "Terjadi kesalahan. Silakan coba lagi atau gunakan CLI command.",
+            "recalculate_modal_title": "Menghitung Ulang Peserta",
+            "recalculate_modal_warning": "Jangan tutup jendela ini atau berpindah halaman hingga proses selesai.",
+            "recalculate_modal_progress": "{processed} dari {total} diskusi",
+            "recalculate_modal_complete": "Selesai! {total} diskusi telah dihitung ulang.",
+            "recalculate_modal_close": "Tutup"
+        }
+    }
+}

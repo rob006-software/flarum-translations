@@ -40,7 +40,7 @@
             },
             "adapter-settings-modal": {
                 "title": "{adapter} konfigurieren",
-                "name_label": "",
+                "name_label": "Standortname",
                 "local": {
                     "target": {
                         "label": "Zielpfad",
@@ -123,8 +123,8 @@
                         "label": "App-Secret"
                     },
                     "refresh-token": {
-                        "label": "",
-                        "description": ""
+                        "label": "Aktualisierungstoken",
+                        "description": "Verwende die folgenden Felder, um das Aktualisierungstoken zu erhalten, oder befolge manuell die Anweisungen unter https://www.codemzy.com/blog/dropbox-long-lived-access-refresh-token#how-can-i-get-a-refresh-token-manually."
                     },
                     "help": {
                         "obtain-access-code-label": "Zugangscode erhalten (App-Schlüssel erforderlich)",
@@ -141,7 +141,7 @@
                 "gdrive": {
                     "client-id": {
                         "label": "Client-ID",
-                        "description": ""
+                        "description": "Befolge die Anweisungen unter https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md, um ein Google-Projekt zu erstellen und deine Client-ID und deinen geheimen Client-Schlüssel abzurufen.\n"
                     },
                     "client-secret": {
                         "label": "Client-Secret",

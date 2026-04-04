@@ -1,0 +1,76 @@
+{
+    "ralkage-linked-accounts": {
+        "admin": {
+            "tabs": {
+                "settings": "Settings",
+                "logs": "Activity Log"
+            },
+            "settings": {
+                "max_accounts": "Maximum Linked Accounts",
+                "max_accounts_help": "Maximum number of accounts a user can link. Set to 0 for unlimited.",
+                "log_retention_days": "Log Retention (Days)",
+                "log_retention_days_help": "Number of days to keep activity logs. Set to 0 to keep forever."
+            },
+            "permissions": {
+                "use": "Use linked accounts",
+                "create": "Create new linked accounts",
+                "view_any": "View any user's linked accounts"
+            },
+            "logs": {
+                "title": "Linked Account Activity Log",
+                "clear": "Clear All Logs",
+                "clear_confirm": "Are you sure you want to clear all linked account logs? This cannot be undone.",
+                "empty": "No activity logged yet.",
+                "parent": "Parent Account",
+                "child": "Linked Account",
+                "action": "Action",
+                "ip": "IP Address",
+                "date": "Date",
+                "load_more": "Load More"
+            }
+        },
+        "forum": {
+            "nav": {
+                "linked_accounts": "Linked Accounts"
+            },
+            "revert_to": "Revert to {name}",
+            "composer": {
+                "post_as": "Post as:"
+            },
+            "page": {
+                "title": "Linked Accounts",
+                "switched_notice": "You are currently using a linked account. Your parent account is {name}.",
+                "revert": "Revert to Parent",
+                "no_accounts": "You haven't linked any accounts yet. Create a new account or link an existing one to get started.",
+                "linked_on": "Linked {date}",
+                "switch": "Switch",
+                "current": "Current",
+                "unlink": "Unlink",
+                "unlink_confirm": "Are you sure you want to unlink this account? The account will still exist but will no longer be linked.",
+                "max_reached": "You have reached the maximum of {max} linked accounts.",
+                "create_new": "Create New Account",
+                "link_existing": "Link Existing Account",
+                "create_title": "Create a New Linked Account",
+                "create_description": "Create a brand new account that will be linked to your current account.",
+                "link_title": "Link an Existing Account",
+                "link_description": "Link an account that already exists. You'll need to provide the account's password to verify ownership.",
+                "username": "Username",
+                "username_placeholder": "Enter username for the new account",
+                "email": "Email",
+                "email_placeholder": "Enter email for the new account",
+                "password": "Password",
+                "password_placeholder": "Enter password for the new account (optional)",
+                "link_password_placeholder": "Enter the account's password to verify",
+                "identification": "Username or Email",
+                "identification_placeholder": "Enter the username or email of the existing account",
+                "create_submit": "Create Account",
+                "link_submit": "Link Account",
+                "create_success": "New linked account created successfully!",
+                "link_success": "Account linked successfully!",
+                "unlink_success": "Account unlinked successfully.",
+                "switch_to_parent": "Switch to Parent Account",
+                "child_info": "This is a linked account. To manage linked accounts, create new ones, or link existing accounts, switch back to the parent account."
+            }
+        }
+    }
+}

@@ -23,18 +23,18 @@
             },
             "change_dob": {
                 "title": "Geburtsdatum ändern",
-                "date_of_birth_text": "Geburtsdatum",
+                "date_of_birth_text": "=> datlechin-birthdays.ref.date_of_birth",
                 "submit_button": "=> core.ref.save_changes"
             },
             "settings": {
                 "change_dob_label": "Geburtsdatum ändern",
-                "dob_heading": "Geburtsdatum",
+                "dob_heading": "=> datlechin-birthdays.ref.date_of_birth",
                 "show_dob_date_label": "Geburtstag und Monat anzeigen",
                 "show_dob_year_label": "Geburtsjahr anzeigen",
                 "show_dob_year_help": "Dadurch können die Leute Dein Alter sehen."
             },
             "edit_user": {
-                "dob_heading": "Geburtsdatum"
+                "dob_heading": "=> datlechin-birthdays.ref.date_of_birth"
             },
             "nav": {
                 "nav_item": "Heutige Geburtstage"
@@ -44,7 +44,7 @@
                 "post_count": "{count, plural, one {Beitrag: #} other {Beiträge: #}}"
             },
             "sign_up": {
-                "dob_placeholder": ""
+                "dob_placeholder": "=> datlechin-birthdays.ref.date_of_birth"
             },
             "header": {
                 "edit_dob_button": "Geburtsdatum ändern"
@@ -55,7 +55,7 @@
             "invalid_age_message": "Dein Alter muss mindestens {minAge} Jahre betragen."
         },
         "ref": {
-            "date_of_birth": ""
+            "date_of_birth": "Geburtsdatum"
         }
     }
 }

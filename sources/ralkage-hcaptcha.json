@@ -5,14 +5,18 @@
                 "help_text": "Obtain your hCaptcha credentials <a>here</a>.",
                 "secret_key_label": "Secret Key",
                 "site_key_label": "Site Key",
-                "type_label": "hCaptcha Type"
+                "type_label": "hCaptcha Type",
+                "dark_mode_label": "Dark Mode",
+                "dark_mode_help": "Use the dark theme for the hCaptcha widget. Enable this if your forum uses a dark theme.",
+                "enable_login_label": "Require on Login",
+                "enable_login_help": "Require hCaptcha when users log in. Helps protect against brute-force attacks."
             },
             "permissions": {
                 "post_without_hcaptcha": "Create posts and discussions without hCaptcha"
             }
         },
         "forum": {
-            "error": "There was an error submitting h-captcha. Try again."
+            "error": "There was an error submitting hCaptcha. Try again."
         }
     },
     "validation": {

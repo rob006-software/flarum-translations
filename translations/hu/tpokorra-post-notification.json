@@ -2,28 +2,28 @@
     "tpokorra-post-notification": {
         "admin": {
             "settings": {
-                "title": "",
+                "title": "Bejegyzésértesítések beállításai",
                 "recipients": {
                     "post_approval": {
-                        "to": ""
+                        "to": "Az új bejegyzések jóváhagyásához küldött levelek címzettjei e-mail-címének vesszővel elválasztott listája"
                     },
                     "new_discussion": {
-                        "to": "",
-                        "bcc": ""
+                        "to": "Az új témák miatt küldött levelek címzettjei e-mail-címének vesszővel elválasztott listája",
+                        "bcc": "Az új témák miatt küldött levelekről vakmásolatot kapók e-mail-címének vesszővel elválasztott listája"
                     },
                     "new_post": {
-                        "to": "",
-                        "bcc": ""
+                        "to": "Az új bejegyzések miatt küldött levelek címzettjei e-mail-címének vesszővel elválasztott listája",
+                        "bcc": "Az új bejegyzések miatt küldött levelekről vakmásolatot kapók e-mail-címének vesszővel elválasztott listája"
                     },
                     "revised_post": {
-                        "to": "",
-                        "bcc": ""
+                        "to": "A módosított bejegyzések miatt küldött levelek címzettjei e-mail-címének vesszővel elválasztott listája",
+                        "bcc": "A módosított bejegyzések miatt küldött levelekről vakmásolatot kapók e-mail-címének vesszővel elválasztott listája"
                     }
                 },
-                "new_discussion": "",
-                "new_post": "",
-                "revised_post": "",
-                "post_approval": ""
+                "new_discussion": "Címke az új téma leírásához",
+                "new_post": "Címke az új bejegyzés leírásához",
+                "revised_post": "Címke a módosított bejegyzés leírásához",
+                "post_approval": "Címke a jóváhagyást igénylő új bejegyzés leírásához"
             }
         }
     }

@@ -1,103 +1,103 @@
 {
     "walsgit-recycle-bin": {
         "admin": {
-            "discussions_bin": "",
-            "posts_bin": "",
-            "search_placeholder": "",
-            "search_post_placeholder": "",
-            "search_help_text": "",
-            "search_post_help_text": "",
-            "total_hidden_discussions": "",
-            "total_hidden_posts": "",
-            "empty_list": "",
-            "hidden_discussions": "",
-            "discussion_id": "",
-            "discussion_title": "",
-            "discussion_link_tooltip": "",
-            "author": "",
-            "unknownn_user": "",
-            "created_at": "",
-            "hidden_at": "",
-            "unknown_date": "",
-            "actions": "",
-            "restore_tooltip": "",
-            "restore_post_tooltip": "",
+            "discussions_bin": "Diskussions-Papierkorb",
+            "posts_bin": "Beiträge-Papierkorb",
+            "search_placeholder": "Suche nach einer Diskussion",
+            "search_post_placeholder": "Suche nach einem Beitrag",
+            "search_help_text": "Sucht nach Wörtern sowohl in den Titeln als auch in den Beiträgen der Diskussionen",
+            "search_post_help_text": "Sucht nach Wörtern in verborgenen Beiträgen",
+            "total_hidden_discussions": "Verborgene Diskussionen insgesamt",
+            "total_hidden_posts": "Verborgene Beiträge insgesamt",
+            "empty_list": "Keine Diskussionen im Papierkorb.",
+            "hidden_discussions": "Verborgene Diskussionen",
+            "discussion_id": "ID",
+            "discussion_title": "Diskussionstitel",
+            "discussion_link_tooltip": "Diskussion anzeigen",
+            "author": "Autor",
+            "unknownn_user": "Unbekannter Benutzer",
+            "created_at": "Erstellt am",
+            "hidden_at": "Verborgen am",
+            "unknown_date": "Unbekanntes Datum",
+            "actions": "Aktionen",
+            "restore_tooltip": "Diskussion wiederherstellen",
+            "restore_post_tooltip": "Beitrag wiederherstellen",
             "restore_discussion": {
-                "title": "",
-                "confirmation": "",
-                "restore_button": "",
-                "success": ""
+                "title": "Diskussion wiederherstellen",
+                "confirmation": "Möchtest du diese Diskussion wirklich wiederherstellen:",
+                "restore_button": "Diese Diskussion wiederherstellen",
+                "success": "Die Diskussion wurde erfolgreich wiederhergestellt"
             },
             "restore_post": {
-                "title": "",
-                "confirmation": "",
-                "restore_button": "",
-                "success": ""
+                "title": "Beitrag wiederherstellen",
+                "confirmation": "Möchtest du diesen Beitrag aus der Diskussion wirklich wiederherstellen ",
+                "restore_button": "Diesen Beitrag wiederherstellen",
+                "success": "Der Beitrag wurde erfolgreich wiederhergestellt"
             },
             "delete_discussion": {
-                "title": "",
-                "confirmation": "",
-                "delete_button": "",
-                "success": ""
+                "title": "Endgültig löschen",
+                "confirmation": "Möchtest du diese Diskussion wirklich <u>endgültig löschen</u> (nicht rückgängig zu machen):",
+                "delete_button": "Diese Diskussion endgültig löschen",
+                "success": "Die Diskussion wurde erfolgreich gelöscht"
             },
             "delete_post": {
-                "title": "",
-                "confirmation": "",
-                "delete_button": "",
-                "success": ""
+                "title": "Endgültig löschen",
+                "confirmation": "Möchtest du diesen Beitrag wirklich <u>endgültig löschen</u> (nicht rückgängig zu machen):",
+                "delete_button": "Diesen Beitrag endgültig löschen",
+                "success": "Der Beitrag wurde erfolgreich gelöscht"
             },
-            "delete_tooltip": "",
-            "delete_post_tooltip": "",
-            "bulk_actions": "",
-            "bulk_post_actions": "",
-            "bulk_restore_label": "",
-            "bulk_post_restore_label": "",
+            "delete_tooltip": "Diskussion löschen",
+            "delete_post_tooltip": "Beitrag löschen",
+            "bulk_actions": "Aktionen für ausgewählte Diskussionen: ",
+            "bulk_post_actions": "Aktionen für ausgewählte Beiträge: ",
+            "bulk_restore_label": "Ausgewählte Diskussionen wiederherstellen",
+            "bulk_post_restore_label": "Ausgewählte Beiträge wiederherstellen",
             "mass_restore_modal": {
-                "title": "",
-                "text_start": "",
-                "text_end": "",
-                "submit_button": "",
-                "success": ""
+                "title": "Die ausgewählten Diskussionen wiederherstellen",
+                "text_start": "Möchtest du diese wirklich wiederherstellen ",
+                "text_end": " ausgewählte Diskussionen?",
+                "submit_button": "Diese Diskussionen wiederherstellen",
+                "success": "Die ausgewählten Diskussionen wurden erfolgreich wiederhergestellt"
             },
             "mass_restore_post_modal": {
-                "title": "",
-                "text_start": "",
-                "text_end": "",
-                "submit_button": "",
-                "success": ""
+                "title": "Die ausgewählten Beiträge wiederherstellen",
+                "text_start": "Möchtest du diese wirklich wiederherstellen ",
+                "text_end": " ausgewählte Beiträge?",
+                "submit_button": "Diese Beiträge wiederherstellen",
+                "success": "Die ausgewählten Beiträge wurden erfolgreich wiederhergestellt"
             },
             "mass_delete_modal": {
-                "title": "",
-                "text_start": "",
-                "text_end": "",
-                "submit_button": "",
-                "success": ""
+                "title": "Diese Diskussionen endgültig löschen",
+                "text_start": "Möchtest du diese wirklich <u>endgültig löschen</u> ",
+                "text_end": " ausgewählte Diskussionen?",
+                "submit_button": "Diese Diskussionen endgültig löschen",
+                "success": "Die ausgewählten Diskussionen wurden erfolgreich gelöscht"
             },
             "mass_delete_post_modal": {
-                "title": "",
-                "text_start": "",
-                "text_end": "",
-                "submit_button": "",
-                "success": ""
+                "title": "Diese Beiträge endgültig löschen",
+                "text_start": "Möchtest du diese wirklich <u>endgültig löschen</u> ",
+                "text_end": " ausgewählte Beiträge?",
+                "submit_button": "Diese Beiträge endgültig löschen",
+                "success": "Die ausgewählten Beiträge wurden erfolgreich gelöscht"
             },
-            "bulk_delete_label": "",
-            "bulk_post_delete_label": "",
+            "bulk_delete_label": "Ausgewählte Diskussionen löschen",
+            "bulk_post_delete_label": "Ausgewählte Beiträge löschen",
             "pagination": {
-                "first_page_button": "",
-                "back_button": "",
-                "page_counter": "",
-                "go_to_page_textbox_a11y_label": "",
-                "next_button": "",
-                "last_page_button": ""
+                "first_page_button": "Zur Startseite",
+                "back_button": "Zurück zur vorherigen Seite",
+                "page_counter": "Seite {current} von {total}",
+                "go_to_page_textbox_a11y_label": "Direkt zur Seitenzahl springen",
+                "next_button": "Zur nächsten Seite",
+                "last_page_button": "Zur letzten Seite"
             },
-            "mass_help_text": "",
+            "mass_help_text": "Bitte warte, bis die Seite neu geladen wird, nachdem du die Massenwiederherstellung oder das Massenlöschen bestätigt hast",
             "grid": {
-                "invalid_column_content": ""
+                "invalid_column_content": "Ungültiger Inhalt!"
             },
             "post": {
-                "id": "",
-                "title": "",
-                "open_post": ""
+                "id": "ID",
+                "title": "Beitragstext",
+                "open_post": "Beitrag öffnen"
             }
         }
     }

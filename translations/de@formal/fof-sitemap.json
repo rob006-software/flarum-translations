@@ -24,6 +24,8 @@
                 "frequency_label": "Wie oft sollte der Scheduler die gecachte Sitemap neu aufbauen?",
                 "risky_performance_improvements": "Riskante Leistungsverbesserungen aktivieren",
                 "risky_performance_improvements_help": "Durch diese Verbesserungen wird der CRON-Job bei Datensätzen mit Millionen von Zeilen schneller ausgeführt, aber die Kompatibilität mit einigen Erweiterungen kann beeinträchtigt werden.",
+                "column_pruning": "Spaltenbeschneidung aktivieren",
+                "column_pruning_help": "Ruft nur die Spalten ab, die zur Generierung von URLs benötigt werden (z. B. id, slug, username, dates), anstatt SELECT *. Reduziert den Speicherbedarf pro Modell in großen Foren erheblich. Standardmäßig aktiviert – nur deaktivieren, wenn ein benutzerdefinierter Slug-Treiber oder Sichtbarkeitsbereich Spalten erfordert, die nicht in der Standardauswahl enthalten sind.",
                 "include_priority": "Werte zur Priorisierung in Sitemap aufnehmen",
                 "include_priority_help": "Angaben zur Priorisierung werden von Google ignoriert, können aber von anderen Suchmaschinen wie Bing und Yandex genutzt werden",
                 "include_changefreq": "Werte zur Änderungshäufigkeit in Sitemap aufnehmen",
@@ -52,9 +54,7 @@
                             "minimum_item_threshold_help": "Die Mindestanzahl an Diskussionen, über die ein Thema verfügen muss, damit es in die Sitemap aufgenommen wird."
                         }
                     }
-                },
-                "column_pruning": "",
-                "column_pruning_help": ""
+                }
             }
         }
     }

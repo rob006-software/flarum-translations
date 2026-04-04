@@ -131,7 +131,7 @@
             "earned_count": "Получено: {count}",
             "badge_count": "{count, plural, one {# значок} few {# значка} many {# значков} other {# значка}}",
             "rarity": "Редкость: {percent}%",
-            "edit": "Редактировать",
+            "edit": "Править",
             "delete": "Удалить",
             "assign": "Выдать",
             "move_up": "Переместить выше",
@@ -139,7 +139,7 @@
             "delete_badge_confirm": "Удалить значок «{name}»? Он также будет удалён у всех пользователей, которые его получили.",
             "delete_category_confirm": "Удалить категорию «{name}»?",
             "delete_category_confirm_with_badges": "Удалить категорию «{name}»? {count, plural, one {# значок} few {# значка} many {# значков} other {# значка}} останется без категории.",
-            "edit_badge": "Редактировать значок",
+            "edit_badge": "Править значок",
             "badge_name": "Название",
             "badge_name_placeholder": "например, «Герой обсуждений»",
             "badge_slug": "Адрес страницы",
@@ -216,7 +216,7 @@
             "add_to_group": "Добавить пользователя в группу",
             "add_to_group_help": "Автоматически добавлять пользователя в эту группу при получении значка.",
             "no_group": "Не добавлять в группу",
-            "edit_category": "Редактировать категорию",
+            "edit_category": "Править категорию",
             "category_name": "Название",
             "category_name_placeholder": "например, «Значки достижений»",
             "category_slug": "Адрес страницы",
@@ -265,7 +265,7 @@
             "my_badges": "Мои значки",
             "owned_badge": "У вас есть этот значок",
             "earned_users": "Получили",
-            "no_users_earned": "Пока ни у кого нет этого значка. Самое время получить его!",
+            "no_users_earned": "Этого значка пока ни у кого нет. Самое время получить его!",
             "more_users_earned": "И другие пользователи…",
             "user": {
                 "badges_tab": "Значки",
@@ -281,7 +281,7 @@
                 "load_more": "Загрузить ещё",
                 "view_all_badges": "Посмотреть все значки",
                 "badge_actions": "Действия со значком",
-                "set_favorite": "Добавить в избранное",
+                "set_favorite": "Сделать избранным",
                 "remove_favorite": "Убрать из избранного",
                 "show_badge": "Показывать в профиле",
                 "hide_badge": "Скрыть в профиле",
@@ -315,7 +315,7 @@
                 }
             },
             "notification": {
-                "badge_earned": "Вы получили значок «{badge}»",
+                "badge_earned": "Вы получили значок {badge}",
                 "a_badge": "значок"
             }
         },

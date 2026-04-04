@@ -1,0 +1,67 @@
+{
+    "ralkage-profile-messages": {
+        "admin": {
+            "permissions": {
+                "post_label": "Post profile messages",
+                "delete_own_label": "Delete own profile messages",
+                "edit_any_label": "Edit any profile message"
+            }
+        },
+        "forum": {
+            "user": {
+                "messages_link": "Profile Messages",
+                "messages_empty_text": "No messages have been posted on this profile yet.",
+                "messages_load_more_button": "Load More"
+            },
+            "composer": {
+                "placeholder": "Write a message on this profile...",
+                "submit_button": "Post Message",
+                "save_button": "Save Changes",
+                "heading": "Message on {username}'s profile",
+                "reply_heading": "Reply on {username}'s profile",
+                "edit_heading": "Edit Message",
+                "confirm_exit": "Your message has not been posted. Do you wish to discard it?",
+                "posted_message": "Your message has been posted.",
+                "preview_heading": "Preview",
+                "saved_message": "Your message has been updated.",
+                "validation_empty": "Message cannot be empty.",
+                "validation_too_long": "Message cannot exceed 2000 characters.",
+                "validation_blocked": "This user has disabled profile messages."
+            },
+            "message": {
+                "delete_button": "Delete",
+                "delete_confirm": "Are you sure you want to delete this message?",
+                "edit_button": "Edit",
+                "reply_button": "Reply",
+                "reply_placeholder": "Write a reply...",
+                "reply_submit": "Reply",
+                "report_button": "Report",
+                "permalink_button": "Permalink",
+                "permalink_copied": "Link copied to clipboard.",
+                "show_replies": "{count, plural, one {Show # reply} other {Show # replies}}",
+                "hide_replies": "Hide replies"
+            },
+            "report": {
+                "title": "Report Message",
+                "reason_inappropriate": "Inappropriate content",
+                "reason_spam": "Spam",
+                "reason_harassment": "Harassment",
+                "reason_other": "Other",
+                "detail_placeholder": "Provide additional details (optional)...",
+                "submit_button": "Submit Report",
+                "success": "Message has been reported.",
+                "cannot_report_own": "You cannot report your own messages.",
+                "already_reported": "You have already reported this message."
+            },
+            "notification": {
+                "new_profile_message_text": "{username} posted on your profile."
+            },
+            "settings": {
+                "profile_heading": "Profile",
+                "notify_new_profile_message_label": "Someone posts on my profile",
+                "block_profile_messages_label": "Disable profile messages from other users",
+                "default_view_label": "Show Profile Messages as default profile view"
+            }
+        }
+    }
+}

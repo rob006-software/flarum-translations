@@ -1,0 +1,22 @@
+{
+    "ralkage-cap-captcha": {
+        "admin": {
+            "settings": {
+                "api_endpoint_label": "",
+                "api_endpoint_help": "",
+                "secret_key_label": "",
+                "secret_key_help": "",
+                "protect_registration_label": "",
+                "protect_registration_help": "",
+                "protect_login_label": "",
+                "protect_login_help": ""
+            }
+        },
+        "forum": {
+            "captcha_required": ""
+        },
+        "api": {
+            "invalid_captcha": ""
+        }
+    }
+}

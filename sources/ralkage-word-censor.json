@@ -1,0 +1,18 @@
+{
+    "ralkage-word-censor": {
+        "admin": {
+            "settings": {
+                "word_list_label": "Censored Words",
+                "word_list_help": "Enter one word or phrase per line. These will be replaced with the replacement character when displayed to users.",
+                "replacement_label": "Replacement Character",
+                "replacement_help": "Character used to replace each letter of a censored word. Default: *"
+            }
+        },
+        "forum": {
+            "settings": {
+                "word_censor_label": "Enable Word Censoring",
+                "word_censor_help": "When enabled, configured words will be censored in posts. Disable to see uncensored content."
+            }
+        }
+    }
+}

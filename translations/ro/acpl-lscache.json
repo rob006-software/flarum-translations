@@ -1,38 +1,38 @@
 {
     "acpl-lscache": {
         "admin": {
-            "cache_enabled_label": "",
-            "cache_enabled_help": "",
-            "public_cache_ttl_label": "",
-            "public_cache_ttl_help": "",
-            "clearing_cache_listener_label": "",
-            "serve_stale_label": "",
-            "serve_stale_help": "",
-            "purge_on_discussion_update_label": "",
-            "purge_on_discussion_update_help": "",
-            "cache_exclude_label": "",
-            "cache_exclude_help": "",
-            "drop_qs_label": "",
-            "drop_qs_help": "",
-            "status_codes_cache_label": "",
-            "status_codes_cache_help": "",
-            "purge_all": "",
-            "test_failed_alert": "",
+            "cache_enabled_label": "Activează LSCache",
+            "cache_enabled_help": "Consultă <a>pagina de informații</a> despre cum să testezi memoria cache. NOTĂ: La dezactivarea memoriei cache, toate intrările stocate pentru acest site vor fi eliminate.",
+            "public_cache_ttl_label": "TTL (Time-to-Live) implicit pentru cache-ul public",
+            "public_cache_ttl_help": "Definește durata, în secunde, pentru care paginile publice ar trebui să fie stocate în cache. Valoarea implicită este 604800 secunde (o săptămână).",
+            "clearing_cache_listener_label": "Curăță LSCache când memoria cache Flarum este golită",
+            "serve_stale_label": "Servește conținut învechit",
+            "serve_stale_help": "Dacă este activată, o versiune învechită a unei pagini stocate în cache va fi servită vizitatorilor până când este generată o copie nouă în cache. Aceasta reduce sarcina asupra serverului. Dacă este dezactivată, pagina va fi generată dinamic în timpul actualizării cache-ului, ceea ce poate crește timpii de așteptare. Prin natura sa, această opțiune poate servi conținut neactualizat. Te rugăm să nu o activezi dacă consideri acest lucru inacceptabil.",
+            "purge_on_discussion_update_label": "Curăță URL-uri sau etichete (Tags) cache la actualizarea discuției",
+            "purge_on_discussion_update_help": "Introdu URL-urile sau etichetele cache (Tags) pe care dorești să le cureți atunci când o discuție este actualizată, una pe linie. URL-ul trebuie să înceapă cu<code>/</code>, de exemplu <code>/rankings</code>, iar eticheta cache trebuie să înceapă cu <code>tag=</code>, de exemplu <code>tag=rankings</code>. Pentru rute multiple, adăugarea unei reguli în .htaccess cu o expresie regulată care etichetează rutele și introducerea doar a acestei etichete aici este mai rapidă. <a>Află mai multe</a>. În mod implicit, memoria cache pentru pagina principală și pentru discuțiile actualizate este curățată.",
+            "cache_exclude_label": "Exclude căi de la cache (Exclude Paths from Caching)",
+            "cache_exclude_help": "Căile care conțin aceste șiruri de caractere nu vor fi stocate în cache. Pentru <code>/mypath/mypage?aa=bb</code>, puteți folosi <code>mypage?aa=</code>. Pentru a potrivi începutul unei căi, adăugați <code>^</code> la început. Pentru o potrivire exactă, adăugați <code>$</code> la finalul URL-ului. Introduceți o valoare pe linie.",
+            "drop_qs_label": "Elimină șirurile de interogare (Drop Query Strings)",
+            "drop_qs_help": "Utilizați această funcție pentru a elimina șiruri de interogare (query strings) specifice, precum <code>fbclid</code> sau <code>utm*</code>, </br>atunci când stocați paginile în cache. Această setare previne stocarea redundantă în cache a paginilor care conțin șiruri de interogare inutile, cum ar fi codurile UTM, care sunt utilizate pentru monitorizare (tracking), dar care nu modifică conținutul paginii. Această funcționalitate necesită LSWS versiunea 5.2.3 sau mai nouă. Introduceți șirurile de interogare pe care doriți să le eliminați, unul pe linie.<a>Aflați mai multe despre eliminarea șirurilor de interogare</a>.<br>\n</br>\n⚠️ Această setare va modifica fișierul .htaccess\n",
+            "status_codes_cache_label": "TTL (Time-to-Live) implicit pentru codul de stare HTTP",
+            "status_codes_cache_help": "Specificați un cod de stare HTTP și numărul de secunde pentru care doriți să stocați acea pagină în cache, separate printr-un spațiu. Introduceți o valoare pe linie.",
+            "purge_all": "=> acpl-lscache.ref.purge_cache",
+            "test_failed_alert": "Se pare că serverul dumneavoastră nu suportă LSCache. Verificați configurația serverului. Server detectat: {server}, tip LiteSpeed detectat: {type}.",
             "permissions": {
-                "purge": ""
+                "purge": "=> acpl-lscache.ref.purge_cache"
             }
         },
         "forum": {
             "purge": {
-                "discussion": ""
+                "discussion": "=> acpl-lscache.ref.purge_cache"
             }
         },
         "lib": {
-            "purge_success": "",
-            "purge_all_success": ""
+            "purge_success": "Serverul LiteSpeed a fost notificat pentru a curăța intrările din LSCache.",
+            "purge_all_success": "Serverul LiteSpeed a fost notificat pentru a curăța toate intrările din LSCache."
         },
         "ref": {
-            "purge_cache": ""
+            "purge_cache": "Curățare LSCache"
         }
     }
 }

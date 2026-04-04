@@ -1,0 +1,216 @@
+{
+    "ralkage-ad-management": {
+        "admin": {
+            "nav": {
+                "title": "Ad-Verwaltung"
+            },
+            "tabs": {
+                "ads": "Werbebanner",
+                "zones": "Bereiche für Werbebanner",
+                "settings": "Einstellungen",
+                "analytics": "Analytik"
+            },
+            "settings": {
+                "between_posts_interval": "",
+                "between_posts_interval_help": "",
+                "default_max_image_changes": "",
+                "default_max_image_changes_help": "",
+                "show_sponsored_label": "",
+                "show_sponsored_label_help": "",
+                "sponsored_label_text": "",
+                "sponsored_label_text_help": "",
+                "track_impressions": "",
+                "track_impressions_help": "",
+                "track_clicks": "",
+                "track_clicks_help": "",
+                "adsense_publisher_id": "",
+                "adsense_publisher_id_help": "",
+                "allowed_image_formats": "",
+                "allowed_image_formats_help": "",
+                "enable_compression": "",
+                "enable_compression_help": "",
+                "compression_quality": "",
+                "compression_quality_help": "",
+                "compression_method": "",
+                "compression_method_help": "",
+                "require_image_approval": "",
+                "require_image_approval_help": "",
+                "expiration_reminder_days": "",
+                "expiration_reminder_days_help": "",
+                "send_performance_reports": "",
+                "send_performance_reports_help": "",
+                "notifications_info": "",
+                "image_settings_title": "",
+                "notifications_title": "",
+                "expiration_templates_title": "",
+                "templates_placeholders_expiry": "",
+                "expiration_subject_template": "",
+                "expiration_body_template": "",
+                "performance_templates_title": "",
+                "templates_placeholders_performance": "",
+                "performance_subject_template": "",
+                "performance_body_template": ""
+            },
+            "cancel": "",
+            "save": "",
+            "permissions": {
+                "submit_ad": "",
+                "no_ads": ""
+            },
+            "zones": {
+                "title": "",
+                "create": "",
+                "edit": "",
+                "name": "",
+                "name_help": "",
+                "label": "",
+                "description": "",
+                "position": "",
+                "is_active": "",
+                "sort_order": "",
+                "max_width": "",
+                "max_height": "",
+                "display_mode": "",
+                "display_mode_help": "",
+                "display_modes": {
+                    "rotate": "",
+                    "stack": ""
+                },
+                "default_badge": "",
+                "ads_count": "",
+                "dimensions": "",
+                "confirm_delete": "",
+                "zone_tag": "",
+                "shortcode_title": "",
+                "shortcode_help": "",
+                "positions": {
+                    "header": "",
+                    "below_header": "",
+                    "between_posts": "",
+                    "sidebar": "",
+                    "above_footer": "",
+                    "footer": "",
+                    "custom": ""
+                }
+            },
+            "ads": {
+                "title": "",
+                "create": "",
+                "edit": "",
+                "name": "",
+                "type": "",
+                "zone": "",
+                "select_zone": "",
+                "content": "",
+                "content_help": "",
+                "image_url": "",
+                "link_url": "",
+                "alt_text": "",
+                "width": "",
+                "height": "",
+                "is_active": "",
+                "start_date": "",
+                "end_date": "",
+                "priority": "",
+                "priority_help": "",
+                "group_visibility": "",
+                "group_visibility_help": "",
+                "max_impressions": "",
+                "max_impressions_help": "",
+                "max_clicks": "",
+                "max_clicks_help": "",
+                "max_image_changes": "",
+                "owner": "",
+                "owner_help": "",
+                "empty": "",
+                "confirm_delete": "",
+                "status": "",
+                "pending_badge": "",
+                "approve": "",
+                "reject": "",
+                "approve_image": "",
+                "reject_image": "",
+                "pending_image_badge": "",
+                "statuses": {
+                    "active": "",
+                    "inactive": "",
+                    "pending_review": "",
+                    "rejected": ""
+                },
+                "filter": {
+                    "all": "",
+                    "active": "",
+                    "pending_review": "",
+                    "inactive": "",
+                    "rejected": ""
+                },
+                "types": {
+                    "image": "",
+                    "html": "",
+                    "adsense": ""
+                },
+                "stats": {
+                    "impressions": "",
+                    "clicks": "",
+                    "ctr": ""
+                }
+            },
+            "analytics": {
+                "title": "",
+                "select_ad": "",
+                "period": "",
+                "periods": {
+                    "7d": "",
+                    "30d": "",
+                    "90d": ""
+                },
+                "total_impressions": "",
+                "total_clicks": "",
+                "period_clicks": "",
+                "ctr": "",
+                "clicks_by_day": "",
+                "date": "",
+                "clicks_header": "",
+                "no_data": ""
+            }
+        },
+        "forum": {
+            "nav": {
+                "my_ads": ""
+            },
+            "ads": {
+                "name": "",
+                "zone": "",
+                "select_zone": "",
+                "image_url": "",
+                "link_url": "",
+                "alt_text": ""
+            },
+            "page": {
+                "title": "",
+                "empty": "",
+                "stats": "",
+                "impressions": "",
+                "clicks": "",
+                "ctr": "",
+                "edit_image": "",
+                "image_changes_remaining": "",
+                "no_changes_remaining": "",
+                "submit_ad": "",
+                "submit_pending_notice": "",
+                "cancel": "",
+                "status": {
+                    "active": "",
+                    "inactive": "",
+                    "scheduled": "",
+                    "expired": "",
+                    "pending": "",
+                    "rejected": ""
+                }
+            },
+            "ad": {
+                "sponsored": ""
+            }
+        }
+    }
+}

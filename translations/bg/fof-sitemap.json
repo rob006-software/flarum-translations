@@ -24,6 +24,8 @@
                 "frequency_label": "Колко често планировчикът трябва да изгражда отново кешираната карта на сайта?",
                 "risky_performance_improvements": "Активиране на рискови подобрения на производителността",
                 "risky_performance_improvements_help": "Тези подобрения правят CRON да работи по-бързо при набори от данни с милиони редове, но може да наруши съвместимостта с някои разширения.",
+                "column_pruning": "",
+                "column_pruning_help": "",
                 "include_priority": "",
                 "include_priority_help": "",
                 "include_changefreq": "",
@@ -52,9 +54,7 @@
                             "minimum_item_threshold_help": "Минималният брой дискусии, които един таг трябва да има, за да бъде включен в картата на сайта."
                         }
                     }
-                },
-                "column_pruning": "",
-                "column_pruning_help": ""
+                }
             }
         }
     }
