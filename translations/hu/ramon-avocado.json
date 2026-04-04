@@ -34,6 +34,10 @@
                 "show_online_users_help": "",
                 "show_guest_cta_label": "",
                 "show_guest_cta_help": "",
+                "show_post_cta_label": "",
+                "show_post_cta_help": "",
+                "hide_links_for_guests_label": "",
+                "hide_links_for_guests_help": "",
                 "custom_default_avatar_label": "",
                 "custom_default_avatar_help": "",
                 "section_footer": ""
@@ -57,6 +61,15 @@
         "forum": {
             "actions": {
                 "share": ""
+            },
+            "post_cta": {
+                "text": ""
+            },
+            "link_cta": {
+                "placeholder": ""
+            },
+            "header": {
+                "back_home": ""
             },
             "home": {
                 "all_categories": "",

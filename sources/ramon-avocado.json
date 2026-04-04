@@ -34,6 +34,10 @@
                 "show_online_users_help": "Display the number of currently online users.",
                 "show_guest_cta_label": "Show guest call-to-action",
                 "show_guest_cta_help": "Display a call-to-action message for guests.",
+                "show_post_cta_label": "Show Join CTA after first post for guests",
+                "show_post_cta_help": "Display a Log In / Sign Up card after the first post in a discussion, visible only to guests.",
+                "hide_links_for_guests_label": "Hide links for guests",
+                "hide_links_for_guests_help": "Prevent guests from following links in posts. Clicking a link shows a Login / Sign Up prompt instead.",
                 "custom_default_avatar_label": "Custom Default Avatar",
                 "custom_default_avatar_help": "Upload a custom default avatar image for users without an avatar.",
                 "section_footer": "Footer"
@@ -57,6 +61,15 @@
         "forum": {
             "actions": {
                 "share": "Share"
+            },
+            "post_cta": {
+                "text": "Like what you see? Join the discussion!"
+            },
+            "link_cta": {
+                "placeholder": "Login to view link"
+            },
+            "header": {
+                "back_home": "Back to Home"
             },
             "home": {
                 "all_categories": "All categories",

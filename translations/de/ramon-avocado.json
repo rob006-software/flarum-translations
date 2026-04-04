@@ -34,6 +34,10 @@
                 "show_online_users_help": "Zeige die Anzahl der derzeit online befindlichen Benutzer an.",
                 "show_guest_cta_label": "Call-to-Action für Gäste anzeigen",
                 "show_guest_cta_help": "Zeige Gästen einen Call-to-Action an.",
+                "show_post_cta_label": "",
+                "show_post_cta_help": "",
+                "hide_links_for_guests_label": "",
+                "hide_links_for_guests_help": "",
                 "custom_default_avatar_label": "Benutzerdefinierter Standard-Avatar",
                 "custom_default_avatar_help": "Lade ein benutzerdefiniertes Standard-Avatarbild für Benutzer hoch, die keinen Avatar haben.",
                 "section_footer": "Fußzeile"
@@ -57,6 +61,15 @@
         "forum": {
             "actions": {
                 "share": "Teilen"
+            },
+            "post_cta": {
+                "text": ""
+            },
+            "link_cta": {
+                "placeholder": ""
+            },
+            "header": {
+                "back_home": ""
             },
             "home": {
                 "all_categories": "Alle Kategorien",

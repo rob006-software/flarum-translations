@@ -34,6 +34,10 @@
                 "show_online_users_help": "Отображать количество пользователей в сети.",
                 "show_guest_cta_label": "Показывать призыв к действию для гостей",
                 "show_guest_cta_help": "Отображать сообщение с призывом к действию для гостей.",
+                "show_post_cta_label": "",
+                "show_post_cta_help": "",
+                "hide_links_for_guests_label": "",
+                "hide_links_for_guests_help": "",
                 "custom_default_avatar_label": "Пользовательский аватар по умолчанию",
                 "custom_default_avatar_help": "Загрузите пользовательский аватар по умолчанию для пользователей без аватара.",
                 "section_footer": "Подвал"
@@ -57,6 +61,15 @@
         "forum": {
             "actions": {
                 "share": "Поделиться"
+            },
+            "post_cta": {
+                "text": ""
+            },
+            "link_cta": {
+                "placeholder": ""
+            },
+            "header": {
+                "back_home": ""
             },
             "home": {
                 "all_categories": "Все категории",
