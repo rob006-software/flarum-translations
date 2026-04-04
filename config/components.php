@@ -408,6 +408,9 @@ return [
 	'resofire-mobile-search' => [
 		'tag' => 'https://raw.githubusercontent.com/ResofireV2/mobile-search/v0.1.9/locale/en.yml',
 	],
+	'resofire-user-cards' => [
+		'tag' => 'https://raw.githubusercontent.com/ResofireV2/user-cards/v0.4.7/locale/en.yml',
+	],
 	'sycho-advanced-extension-categories' => [
 		'tag' => 'https://raw.githubusercontent.com/SychO9/flarum-advanced-extension-categories/v0.2.1/locale/en.yml',
 	],
