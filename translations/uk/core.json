@@ -192,12 +192,12 @@
             "dashboard": {
                 "clear_cache_button": "Очистити кеш",
                 "description": "Ваш форум з першого погляду.",
-                "info_button": "",
+                "info_button": "Системна інформація",
                 "info_modal": {
-                    "title": "",
-                    "copy_button": "",
-                    "copy_success": "",
-                    "copy_error": ""
+                    "title": "Системна інформація",
+                    "copy_button": "Скопіювати до буфера обміну",
+                    "copy_success": "Інформація про систему скопійована до буфера обміну",
+                    "copy_error": "Не вдалося скопіювати до буфера обміну"
                 },
                 "io_error_message": "Не вдалося записати до файлової системи. Перевірте права доступу до файлової системи та повторіть спробу. Або спробуйте запустити з командного рядка.",
                 "status": {
@@ -305,12 +305,12 @@
                 "title": "=> core.ref.email"
             },
             "extension": {
-                "abandoned_no_replacement": "",
-                "abandoned_with_replacement": "",
+                "abandoned_no_replacement": "Це розширення більше не підтримується його автором і, можливо, не отримуватиме оновлень.",
+                "abandoned_with_replacement": "Це розширення було замінено на {replacement}. Рекомендуємо перейти на пакет-замінник.",
                 "configure_scopes": "Налаштувати області видимості",
                 "confirm_purge": "Очищення видалить усі записи бази та ресурси, пов’язані з розширенням. Це не видалить розширення; це потрібно зробити через Composer. Ви впевнені, що хочете продовжити?",
                 "database_driver_mismatch": "",
-                "deprecated": "",
+                "deprecated": "Застаріле",
                 "disabled": "Вимкнено",
                 "enable_to_see": "Увімкніть розширення для перегляду і зміни налаштувань.",
                 "enabled": "Увімкнено",
@@ -332,7 +332,7 @@
                     "no_readme": "Схоже, це розширення не містить файл інструкції",
                     "title": "Документація {extName}"
                 },
-                "replaced": "",
+                "replaced": "Замінене",
                 "safe_mode_warning": ""
             },
             "header": {
@@ -955,7 +955,7 @@
                 "maintenance_mode_link": "",
                 "maintenance_mode_message": "",
                 "maintenance_mode_title": "",
-                "method_not_allowed": "",
+                "method_not_allowed": "Ця сторінка не підтримує цей метод запиту.",
                 "not_authenticated": "У вас немає прав доступу до цієї сторінки. Спробуйте ще раз після входу в свій аккаунт.",
                 "not_found": "Сторінку за вашим запитом не знайдено.",
                 "not_found_return_link": "Повернутися на {forum}",

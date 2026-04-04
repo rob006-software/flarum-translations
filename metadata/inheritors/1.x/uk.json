@@ -110,6 +110,13 @@
                 "dashboard": {
                     "clear_cache_button": "7504e6f454d0b2636f430685f708e712 7504e6f454d0b2636f430685f708e712",
                     "description": "b775edca31bef6ebcacfe60f8a71f24c b775edca31bef6ebcacfe60f8a71f24c",
+                    "info_button": "0afe4f8c37f97ac6d6fee51e7d8f47e1 0afe4f8c37f97ac6d6fee51e7d8f47e1",
+                    "info_modal": {
+                        "copy_button": "dee951c2c5f0cf40031caa03f5759abf dee951c2c5f0cf40031caa03f5759abf",
+                        "copy_error": "1cb4ce7b4675d328ad2333444539125e 1cb4ce7b4675d328ad2333444539125e",
+                        "copy_success": "356f2366ed28e38a491c8569a84f3cd5 356f2366ed28e38a491c8569a84f3cd5",
+                        "title": "0afe4f8c37f97ac6d6fee51e7d8f47e1 0afe4f8c37f97ac6d6fee51e7d8f47e1"
+                    },
                     "io_error_message": "34464964ddf272e4e99296bee24997e0 34464964ddf272e4e99296bee24997e0",
                     "status": {
                         "headers": {
@@ -182,8 +189,11 @@
                     "title": "7638203591a5ee0b0f5773ae124b708b 7638203591a5ee0b0f5773ae124b708b"
                 },
                 "extension": {
+                    "abandoned_no_replacement": "a252339a12ad84a7cd98d13fc43d53c1 a252339a12ad84a7cd98d13fc43d53c1",
+                    "abandoned_with_replacement": "aee3e31486f54d9d266601ffd6869ae2 aee3e31486f54d9d266601ffd6869ae2",
                     "configure_scopes": "c458e65ef3599ebd12d8ee24501ca227 c458e65ef3599ebd12d8ee24501ca227",
                     "confirm_purge": "e598cf6fe579cd100f0df38b39c094d6 e598cf6fe579cd100f0df38b39c094d6",
+                    "deprecated": "12ef33dc828bc0f5c1081f0985287c17 12ef33dc828bc0f5c1081f0985287c17",
                     "disabled": "7e9d3ee2f5b2b2632b64a4a65e30aae9 7e9d3ee2f5b2b2632b64a4a65e30aae9",
                     "enable_to_see": "565d9460b112d313829ae0c72f321da9 565d9460b112d313829ae0c72f321da9",
                     "enabled": "26841eb4165f3187fdad1d5530a9df96 26841eb4165f3187fdad1d5530a9df96",
@@ -204,7 +214,8 @@
                         "button_label": "ab5206d1a7ff65a97b9325adc8ca072a ab5206d1a7ff65a97b9325adc8ca072a",
                         "no_readme": "c5b78c7f112f122f0765513f35cbb1f8 c5b78c7f112f122f0765513f35cbb1f8",
                         "title": "6affa4ddbeb9a4483c0464101d4dcdd1 6affa4ddbeb9a4483c0464101d4dcdd1"
-                    }
+                    },
+                    "replaced": "c54be478b445bce6ef8d256659bd8d76 c54be478b445bce6ef8d256659bd8d76"
                 },
                 "header": {
                     "get_help": "763a68eeebf222a5465d341e83ca0c9d 763a68eeebf222a5465d341e83ca0c9d",
@@ -756,6 +767,7 @@
                     "csrf_token_mismatch": "b4dbb6a96b677c52a93f5f269308a182 b4dbb6a96b677c52a93f5f269308a182",
                     "csrf_token_mismatch_return_link": "cbaeddf13aeb34992000eb185272c04f cbaeddf13aeb34992000eb185272c04f",
                     "invalid_confirmation_token": "2ec09b3dfaccf37a5a17a8b1367b162c 2ec09b3dfaccf37a5a17a8b1367b162c",
+                    "method_not_allowed": "6978ec206c5f1f3a80bfca4289f7f851 6978ec206c5f1f3a80bfca4289f7f851",
                     "not_authenticated": "be8738684cf3d2bb85933403dea32704 be8738684cf3d2bb85933403dea32704",
                     "not_found": "b79e4a6b878c88f333e98540214f87c8 b79e4a6b878c88f333e98540214f87c8",
                     "not_found_return_link": "9187e2091faefdd819bcd5570de08607 9187e2091faefdd819bcd5570de08607",
@@ -2272,6 +2284,7 @@
                     "reminders": "d0d3c2977efc678734faa4f950cbbb00 d0d3c2977efc678734faa4f950cbbb00"
                 },
                 "permissions": {
+                    "allow_select_own_post": "aafb67e849760ba0b5354c4d5d500134 aafb67e849760ba0b5354c4d5d500134",
                     "best_answer": "71629b324d733249d2c8057593ef39b4 71629b324d733249d2c8057593ef39b4",
                     "best_answer_not_own_discussion": "b6fdaf89d9c15b112ff927be4a0945e2 b6fdaf89d9c15b112ff927be4a0945e2"
                 },
@@ -3831,7 +3844,7 @@
                     "qzone": "5635afd662403a7346cc45e67e91c932 5635afd662403a7346cc45e67e91c932",
                     "reddit": "b632c55a33530d1433e29ffc09ba1151 b632c55a33530d1433e29ffc09ba1151",
                     "telegram": "c915683f3ec888b8edcc7b06bd1428ec c915683f3ec888b8edcc7b06bd1428ec",
-                    "twitter": "2491bc9c7d8731e1ae33124093bc7026 2491bc9c7d8731e1ae33124093bc7026",
+                    "twitter": "e6522551e0cc9ad7dfc18967ab135f70 e6522551e0cc9ad7dfc18967ab135f70",
                     "vkontakte": "6d49757ce2e7f979e8ecaa21fb529265 6d49757ce2e7f979e8ecaa21fb529265",
                     "whatsapp": "8b777ebcc5034ce0fe96dd154bcb370e 8b777ebcc5034ce0fe96dd154bcb370e"
                 }
@@ -4748,6 +4761,7 @@
                 },
                 "followed": "94d688a49f2c83157e49690876265eb2 94d688a49f2c83157e49690876265eb2",
                 "followers": "1c898bf7eb604a2b4b920ccbd5b9af3d 1c898bf7eb604a2b4b920ccbd5b9af3d",
+                "followers_link": "764b58a449998436eb08e84afbaeaa90 764b58a449998436eb08e84afbaeaa90",
                 "index": {
                     "follow_tag_button": "b5b4999286c7a0b2bd349c1a1d3d7b3d b5b4999286c7a0b2bd349c1a1d3d7b3d",
                     "unfollow_tag_button": "460243f2bb10be2ae5b9f488e4eb5825 460243f2bb10be2ae5b9f488e4eb5825"
@@ -4772,6 +4786,7 @@
                 },
                 "profile_link": "16a3715cde4d2a0b5f50275f12553308 16a3715cde4d2a0b5f50275f12553308",
                 "profile_page": {
+                    "no_followers": "99b2937ba532b901ff6b8d3f86299e51 99b2937ba532b901ff6b8d3f86299e51",
                     "no_following": "1e3d68374a0e09e37c72683da32bf798 1e3d68374a0e09e37c72683da32bf798"
                 },
                 "settings": {
