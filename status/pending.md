@@ -74,6 +74,4 @@
 
 ## Dead branches
 
-| Extension | Pull request |
-| --- | --- |
-| `resofire-wrapped` | [![#1608 (open)](https://img.shields.io/badge/PR-%231608-brightgreen)](https://github.com/rob006-software/flarum-translations/pull/1608) |
+There are no dead branches.
