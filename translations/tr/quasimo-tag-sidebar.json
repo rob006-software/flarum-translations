@@ -4,12 +4,12 @@
             "edit_button": "Paneli Düzenle",
             "modal_title": "Paneli Düzenle: {tag}",
             "sidebar_label": "Panel İçeriği (Markdown)",
-            "sidebar_label_html": "Kenar Çubuğu İçeriği (HTML)",
             "sidebar_placeholder": "Markdown kullanarak kenar çubuğu içeriği girin...\n\n## Bağlantılar\n- [Örnek](https://example.com)\n\n**Kalın**, *italik* ve ![alt](https://example.com/image.png) resimler desteklenmektedir.",
-            "sidebar_placeholder_html": "HTML kullanarak kenar çubuğu içeriği girin...\n\n<h2>Bağlantılar</h2>\n<p><a href=\"https://example.com\">Örnek</a></p>\n<img src=\"https://example.com/image.png\" alt=\"example\">",
             "save_button": "Kaydet",
             "cancel_button": "İptal",
-            "sidebar_empty": "(Henüz panel içeriği yok)"
+            "sidebar_empty": "(Henüz panel içeriği yok)",
+            "sidebar_label_html": "Kenar Çubuğu İçeriği (HTML)",
+            "sidebar_placeholder_html": "HTML kullanarak kenar çubuğu içeriği girin...\n\n<h2>Bağlantılar</h2>\n<p><a href=\"https://example.com\">Örnek</a></p>\n<img src=\"https://example.com/image.png\" alt=\"example\">"
         },
         "admin": {
             "instructions_title": "Nasıl kullanılır",
@@ -17,6 +17,7 @@
             "instruction_2": "Yetkili kullanıcılar için “Kenar Çubuğunu Düzenle” düğmesi görünecektir.",
             "instruction_3": "Düğmeyi tıklayarak düzenleyiciyi açın, içeriği yazın ve ardından kaydedin.",
             "instruction_4": "Moderatörlerin kenar çubuğu içeriğini düzenlemesine izin vermek için aşağıdaki izni atayın.",
+            "permission_edit_sidebar": "Etiket kenar çubuğu içeriğini düzenle",
             "setting_position": "Kenar Çubuğu Konumu (Masaüstü)",
             "setting_position_help": "Mobil cihazlarda widget her zaman yazı listesinin altında görünür.",
             "position_left": "Sol — kenar çubuğu gezinme menüsünün yanında (varsayılan)",
@@ -24,8 +25,7 @@
             "setting_content_type": "İçerik Türü",
             "setting_content_type_help": "Güvenli ve yazımı kolay içerik için Markdown'u seçin. Tam kontrol için HTML'yi seçin (sadece güvenilir editörlere izin verilmelidir).",
             "content_type_markdown": "Markdown",
-            "content_type_html": "HTML",
-            "permission_edit_sidebar": "Etiket kenar çubuğu içeriğini düzenle"
+            "content_type_html": "HTML"
         }
     }
 }
