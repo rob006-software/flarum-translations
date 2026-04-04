@@ -839,6 +839,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`fof-best-answer`](https://weblate.rob006.net/projects/flarum2/fof-best-answer) | [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer) |
 | [`fof-byobu`](https://weblate.rob006.net/projects/flarum2/fof-byobu) | [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu) |
 | [`fof-categories`](https://weblate.rob006.net/projects/flarum2/fof-categories) | [`fof/categories`](https://github.com/FriendsOfFlarum/categories) |
+| [`fof-checklist`](https://weblate.rob006.net/projects/flarum2/fof-checklist) | [`fof/checklist`](https://github.com/FriendsOfFlarum/checklist) |
 | [`fof-clockwork`](https://weblate.rob006.net/projects/flarum2/fof-clockwork) | [`fof/clockwork`](https://github.com/FriendsOfFlarum/clockwork) |
 | [`fof-default-group`](https://weblate.rob006.net/projects/flarum2/fof-default-group) | [`fof/default-group`](https://github.com/FriendsOfFlarum/default-group) |
 | [`fof-default-user-preferences`](https://weblate.rob006.net/projects/flarum2/fof-default-user-preferences) | [`fof/default-user-preferences`](https://github.com/FriendsOfFlarum/default-user-preferences) |
