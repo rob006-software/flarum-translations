@@ -944,6 +944,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`ralkage-hcaptcha`](https://weblate.rob006.net/projects/flarum2/ralkage-hcaptcha) | [`ralkage/flarum-hcaptcha`](https://github.com/Ralkage/flarum-hcaptcha) |
 | [`ramon-avocado`](https://weblate.rob006.net/projects/flarum2/ramon-avocado) | [`ramon/avocado`](https://github.com/ram0ng1/avocado) |
 | [`resofire-blog-cards`](https://weblate.rob006.net/projects/flarum2/resofire-blog-cards) | [`resofire/blog-cards`](https://github.com/ResofireV2/blog-cards) |
+| [`resofire-digest-mail`](https://weblate.rob006.net/projects/flarum2/resofire-digest-mail) | [`resofire/digest-mail`](https://github.com/ResofireV2/digest-mail) |
 | [`resofire-discussion-participants`](https://weblate.rob006.net/projects/flarum2/resofire-discussion-participants) | [`resofire/discussion-participants`](https://github.com/ResofireV2/discussion-participants) |
 | [`resofire-menu-control`](https://weblate.rob006.net/projects/flarum2/resofire-menu-control) | [`resofire/menu-control`](https://github.com/ResofireV2/menu-control) |
 | [`resofire-mobile-search`](https://weblate.rob006.net/projects/flarum2/resofire-mobile-search) | [`resofire/mobile-search`](https://github.com/ResofireV2/mobile-search) |
