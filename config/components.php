@@ -400,7 +400,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ResofireV2/discussion-participants/v2.0.7/locale/en.yml',
 	],
 	'resofire-menu-control' => [
-		'tag' => 'https://raw.githubusercontent.com/ResofireV2/menu-control/v2.2.6/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ResofireV2/menu-control/v2.2.7/resources/locale/en.yml',
 	],
 	'resofire-mobile-search' => [
 		'tag' => 'https://raw.githubusercontent.com/ResofireV2/mobile-search/v0.1.8/locale/en.yml',
