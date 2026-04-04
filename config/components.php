@@ -394,7 +394,7 @@ return [
 		],
 	],
 	'resofire-blog-cards' => [
-		'tag' => 'https://raw.githubusercontent.com/ResofireV2/blog-cards/v2.0.4/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ResofireV2/blog-cards/v2.0.5/locale/en.yml',
 	],
 	'resofire-discussion-participants' => [
 		'tag' => 'https://raw.githubusercontent.com/ResofireV2/discussion-participants/v2.0.6/locale/en.yml',
