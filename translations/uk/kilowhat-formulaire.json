@@ -50,14 +50,14 @@
                 "uniformComposerLayoutHelp": "Змінює стиль тегів, заголовка та полів вмісту відповідно до Formulaire. Цей макет займатиме ще більше місця, тому рекомендується встановити та увімкнути розширення <a>Composer Page</a>.\n",
                 "noByobuFields": "Не інтегруйте поля обговорення з приватними обговореннями із розширення Byobu",
                 "noByobuFieldsHelp": "За налаштуванням, поля обговорення, не обмежені тегами, застосовуються до всіх обговорень, включаючи приватні.",
-                "translateManually": "",
-                "translateManuallyHelp": "",
-                "translateWithTranslator": "",
-                "translateWithTranslatorHelp": "",
-                "replacementPatternLocale": "",
-                "replacementPatternLocaleHelp": "",
+                "translateManually": "Увімкнути ручний переклад форм",
+                "translateManuallyHelp": "Якщо цей параметр увімкнено, назви полів можна перекладати в інтерфейсі менеджера форм. На форумі мають бути увімкнені кілька мов.\n",
+                "translateWithTranslator": "Увімкнути переклад форм за допомогою Flarum Translator API",
+                "translateWithTranslatorHelp": "Коли цей параметр увімкнено, назви полів можна налаштовувати за допомогою локальних розширень та мовних пакетів. Інформацію про те, як користуватися цією функцією, див. у документації.\n",
+                "replacementPatternLocale": "Мова, що використовується під час застосування шаблону заміни",
+                "replacementPatternLocaleHelp": "За налаштуванням використовується опція «auto», що означає: якщо черга неактивна, буде використовуватися мова користувача, який надіслав форму. Якщо черга активна, використовується мова форуму за налаштуванням. Це налаштування впливає як на електронні листи з повідомленнями, так і на автоматичне створення обговорень.\n",
                 "replacementPatternLocaleOptions": {
-                    "auto": ""
+                    "auto": "Автоматично"
                 }
             }
         },
@@ -66,8 +66,8 @@
                 "forms": "=> kilowhat-formulaire.ref.manager"
             },
             "require-submission-alert": {
-                "message": "",
-                "action": ""
+                "message": "Ми тимчасово обмежили доступ до вашого облікового запису, доки ви не надішлете форму «{title}».",
+                "action": "Перейти до форуму"
             },
             "form-index": {
                 "header": {
@@ -129,7 +129,7 @@
                 },
                 "tabs": {
                     "template": "Шаблон",
-                    "translate": "",
+                    "translate": "Переклад",
                     "placement": "Розміщення",
                     "access": "Доступ",
                     "notifications": "Сповіщення",
@@ -147,7 +147,7 @@
                 "template-export": "Шаблон імпорту/експорту",
                 "enable-expert-mode": "Увімкнути експертний режим",
                 "disable-expert-mode": "Вимкнути експертний режим",
-                "show-advanced-attributes": "",
+                "show-advanced-attributes": "Показати розширені атрибути...",
                 "restore": "Відновити",
                 "hide": "Видалити",
                 "delete": "Видалити назавжди",
@@ -161,11 +161,11 @@
                 "warnings": {
                     "show-on-signup-invalid-permissions": "Для того, щоб використовувати функцію «показати свої», вам потрібно встановити права «бачити свої» та «редагувати свої» для непідтверджених користувачів.\n",
                     "show-on-composer-invalid-permissions": "Переконайтеся, що права доступу «бачити свої» і «редагувати свої» збігаються з тими, хто може починати обговорення вибраних тегів, щоб використовувати функцію «показувати в композиторі». Якщо ви не впевнені, встановіть значення «учасники». Це повідомлення може з'явитися, навіть якщо ваші налаштування правильні.\n",
-                    "require-submission-invalid-permissions": "",
+                    "require-submission-invalid-permissions": "Щоб використовувати функцію «потрібна реєстрація для доступу до форуму», вам потрібно надати неавторизованим користувачам права «переглядати власні» та «редагувати власні».\n",
                     "linked-form-is-draft": "Наразі ця форма знаходиться в режимі чернетки. Увімкніть у розділі «Доступ», щоб поля з'явилися на форумі.\n",
                     "auto-link-permission-warning": "Форми з опцією «автоматично створювати обговорення» використовують глобальний дозвіл на заповнення при автономному доступі.\n"
                 },
-                "expert-mode-warning": "Експертний режим увімкнено. Це дозволяє вам налаштувати ідентифікатори полів і дозволи для кожного поля. Переконайтеся, що ви прочитали документацію про ці можливості, оскільки ви можете щось зламати!\n",
+                "expert-mode-warning": "Доступні розширені атрибути полів. Обов’язково ознайомтеся з документацією щодо цих функцій, оскільки ви можете спричинити несправності!\n",
                 "section": {
                     "template": "Шаблон",
                     "permissions": "Дозволи"
@@ -179,8 +179,8 @@
                         "user": "Показати у зареєструватися"
                     },
                     "require-submission": {
-                        "switch": "",
-                        "warning": ""
+                        "switch": "Для використання форуму необхідно зареєструватися",
+                        "warning": "Після збереження всі користувачі, які не заповнили форму повністю, не матимуть доступу до форуму, доки не надішлють її знову. Продовжити?"
                     },
                     "automatic-discussion": "Автоматично створювати дискусії після заповнення форми",
                     "automatic-discussion-help": "Якщо цю опцію увімкнено, форма залишатиметься доступною як окрема форма. Надіслані повідомлення автоматично створюватимуться і приєднуватимуться до нових обговорень.\n",
@@ -211,12 +211,12 @@
                 "save-for-preview": "Зберегти для попереднього перегляду"
             },
             "show-advanced-attributes-modal": {
-                "title": "",
-                "toggle": "",
-                "close": "",
+                "title": "Показати розширені атрибути полів",
+                "toggle": "Переглянути все",
+                "close": "Закрити",
                 "attribute": {
-                    "key": "",
-                    "fillPermission": "",
+                    "key": "Ключ",
+                    "fillPermission": "Дозвіл на заповнення",
                     "translationKey": ""
                 }
             },
@@ -397,8 +397,8 @@
                     "user_displayname": "=> kilowhat-formulaire.ref.submission-meta.user_displayname",
                     "user_email": "=> kilowhat-formulaire.ref.submission-meta.user_email",
                     "user_activated": "=> kilowhat-formulaire.ref.submission-meta.user_activated",
-                    "user_joined_at": "",
-                    "user_groups": "",
+                    "user_joined_at": "=> kilowhat-formulaire.ref.submission-meta.user_joined_at",
+                    "user_groups": "=> kilowhat-formulaire.ref.submission-meta.user_groups",
                     "link_id": "=> kilowhat-formulaire.ref.submission-meta.link_id",
                     "locked_at": "=> kilowhat-formulaire.ref.submission-meta.locked_at",
                     "created_at": "=> kilowhat-formulaire.ref.submission-meta.created_at",
@@ -443,8 +443,8 @@
                     "user_displayname": "=> kilowhat-formulaire.ref.submission-meta.user_displayname",
                     "user_email": "=> kilowhat-formulaire.ref.submission-meta.user_email",
                     "user_activated": "=> kilowhat-formulaire.ref.submission-meta.user_activated",
-                    "user_joined_at": "",
-                    "user_groups": "",
+                    "user_joined_at": "=> kilowhat-formulaire.ref.submission-meta.user_joined_at",
+                    "user_groups": "=> kilowhat-formulaire.ref.submission-meta.user_groups",
                     "link_id": "=> kilowhat-formulaire.ref.submission-meta.link_id",
                     "locked_at": "=> kilowhat-formulaire.ref.submission-meta.locked_at",
                     "created_at": "=> kilowhat-formulaire.ref.submission-meta.created_at",
