@@ -613,6 +613,9 @@ return [
 	'fof-categories' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/categories/1.0.0/resources/locale/en.yml',
 	],
+	'fof-checklist' => [
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/checklist/1.0.0/resources/locale/en.yml',
+	],
 	'fof-clockwork' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/clockwork/1.1.1/resources/locale/en.yml',
 	],
