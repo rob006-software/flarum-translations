@@ -1258,6 +1258,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`ramon-colored`](https://weblate.rob006.net/projects/flarum/ramon-colored) | [`ramon/colored`](https://github.com/ram0ng1/colored) |
 | [`rehiy-reply-to-see`](https://weblate.rob006.net/projects/flarum/rehiy-reply-to-see) | [`rehiy/flarum-reply-to-see`](https://github.com/rehiy/flarum-reply-to-see) |
 | [`resofire-blog-cards`](https://weblate.rob006.net/projects/flarum/resofire-blog-cards) | [`resofire/blog-cards`](https://github.com/ResofireV2/blog-cards) |
+| [`resofire-digest-mail`](https://weblate.rob006.net/projects/flarum/resofire-digest-mail) | [`resofire/digest-mail`](https://github.com/ResofireV2/digest-mail) |
 | [`resofire-discussion-participants`](https://weblate.rob006.net/projects/flarum/resofire-discussion-participants) | [`resofire/discussion-participants`](https://github.com/ResofireV2/discussion-participants) |
 | [`resofire-menu-control`](https://weblate.rob006.net/projects/flarum/resofire-menu-control) | [`resofire/menu-control`](https://github.com/ResofireV2/menu-control) |
 | [`rob006-last-post-avatar`](https://weblate.rob006.net/projects/flarum/rob006-last-post-avatar) | [`rob006/flarum-ext-last-post-avatar`](https://github.com/rob006-software/flarum-ext-last-post-avatar) |
