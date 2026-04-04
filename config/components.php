@@ -373,7 +373,7 @@ return [
 		],
 	],
 	'resofire-avatars' => [
-		'tag' => 'https://raw.githubusercontent.com/ResofireV2/avatars/v0.2.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ResofireV2/avatars/v0.2.2/locale/en.yml',
 	],
 	'resofire-blog-cards' => [
 		'tag' => 'https://raw.githubusercontent.com/ResofireV2/blog-cards/v2.0.4/locale/en.yml',
