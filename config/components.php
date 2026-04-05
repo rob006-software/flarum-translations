@@ -364,7 +364,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/migratetoflarum/fake-data/2.0.0-beta.1/resources/locale/en.yml',
 	],
 	'quasimo-llms-txt' => [
-		'tag' => 'https://raw.githubusercontent.com/Quasimo/flarum-ext-llms-txt/v2.0.1/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/Quasimo/flarum-ext-llms-txt/v2.0.4/resources/locale/en.yml',
 	],
 	'ralkage-account-lockout' => [
 		'beta' => 'https://raw.githubusercontent.com/Ralkage/flarum-ext-account-lockout/v2.0.0-beta.8/resources/locale/en.yml',
