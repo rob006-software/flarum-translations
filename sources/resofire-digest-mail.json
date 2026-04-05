@@ -10,6 +10,11 @@
                 "frequency_monthly": "Monthly",
                 "saved": "Saved",
                 "save_error": "Could not save your preference. Please try again."
+            },
+            "onboarding": {
+                "modal_title": "Stay in the loop",
+                "modal_body": "Get a periodic digest of the best discussions, new members, and what's been happening on the forum — delivered straight to your inbox.",
+                "modal_dismiss": "No thanks"
             }
         },
         "admin": {
@@ -79,6 +84,16 @@
                 "theme_hint_light": "Sends with light mode styles applied",
                 "theme_hint_dark": "Sends with dark mode styles applied",
                 "theme_light_only": "Light mode only — install and enable fof/nightmode to unlock dark mode emails"
+            },
+            "onboarding": {
+                "section_heading": "New User Onboarding",
+                "mode_label": "Onboarding mode",
+                "mode_help": "Controls how new users are enrolled in digest emails when their account is activated.",
+                "mode_none": "No default — users choose their own preference",
+                "mode_auto_enroll": "Auto-enroll new users",
+                "mode_opt_in_modal": "Show opt-in modal",
+                "frequency_label": "Auto-enroll frequency",
+                "frequency_help": "The digest frequency new users are automatically enrolled at. Only frequencies enabled in User Frequency Options above are available."
             }
         }
     }
