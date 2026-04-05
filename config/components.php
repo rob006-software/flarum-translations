@@ -364,7 +364,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/migratetoflarum/fake-data/2.0.0-beta.1/resources/locale/en.yml',
 	],
 	'quasimo-tag-sidebar' => [
-		'tag' => 'https://raw.githubusercontent.com/Quasimo/flarum-ext-tag-sidebar/v2.0.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/Quasimo/flarum-ext-tag-sidebar/v2.0.4/resources/locale/en.yml',
 		'__builtInLanguages' => [
 			'zh_Hans',
 		],
