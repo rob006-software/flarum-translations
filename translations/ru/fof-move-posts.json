@@ -35,10 +35,10 @@
                 },
                 "submit": "Продолжить",
                 "title": "=> fof-move-posts.ref.move_posts",
-                "confirm_move_all_to_new_discussion": ""
+                "confirm_move_all_to_new_discussion": "Вы собираетесь переместить все сообщения из этой дискуссии в новую. В большинстве случаев разумнее отредактировать существующую дискуссию, изменить её название, теги или другие параметры. Продолжить?"
             },
             "alerts": {
-                "posts_moved_to": ""
+                "posts_moved_to": "{count, plural, one {Сообщение перемещено в {target_discussion}.} other {Перемещено {count} сообщений в {target_discussion}.}}"
             },
             "notifications": {
                 "post_moved_text": "Одно или несколько ваших сообщений были перенесены в «{targetDiscussionTitle}»."
