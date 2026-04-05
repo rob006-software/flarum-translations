@@ -4,7 +4,9 @@
             "edit_button": "Edit Sidebar",
             "modal_title": "Edit Sidebar: {tag}",
             "sidebar_label": "Sidebar Content (Markdown)",
-            "sidebar_placeholder": "Enter sidebar content using Markdown...\n\n## Links\n- [Example](https://example.com)\n\n**Bold** and *italic* are supported.",
+            "sidebar_label_html": "Sidebar Content (HTML)",
+            "sidebar_placeholder": "Enter sidebar content using Markdown...\n\n## Links\n- [Example](https://example.com)\n\n**Bold**, *italic*, and ![alt](https://example.com/image.png) images are supported.",
+            "sidebar_placeholder_html": "Enter sidebar content using HTML...\n\n<h2>Links</h2>\n<p><a href=\"https://example.com\">Example</a></p>\n<img src=\"https://example.com/image.png\" alt=\"example\">",
             "save_button": "Save",
             "cancel_button": "Cancel",
             "sidebar_empty": "(No sidebar content yet)"
@@ -12,9 +14,17 @@
         "admin": {
             "instructions_title": "How to use",
             "instruction_1": "Navigate to any tag page on the forum.",
-            "instruction_2": "An \"Edit Sidebar\" button will appear in the sidebar for users with permission.",
-            "instruction_3": "Click the button to open the editor, write content in Markdown, then save.",
+            "instruction_2": "An \"Edit Sidebar\" button will appear for users with permission.",
+            "instruction_3": "Click the button to open the editor, write content, then save.",
             "instruction_4": "Assign the permission below to allow moderators to edit sidebar content.",
+            "setting_position": "Sidebar Position (Desktop)",
+            "setting_position_help": "On mobile the widget always appears below the post list.",
+            "position_left": "Left — after the sidebar navigation (default)",
+            "position_right": "Right — next to the post list",
+            "setting_content_type": "Content Type",
+            "setting_content_type_help": "Choose Markdown for safe, easy-to-write content. Choose HTML for full control (only trusted editors should have permission).",
+            "content_type_markdown": "Markdown",
+            "content_type_html": "HTML",
             "permission_edit_sidebar": "Edit tag sidebar content"
         }
     }
