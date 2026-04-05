@@ -27,7 +27,7 @@
                 "discussion_help": "Будут использованы теги исходной дискуссии, их можно изменить после создания.",
                 "discussion_name": "=> core.forum.composer_discussion.title_placeholder",
                 "new_discussion": "Новая дискуссия",
-                "selected_posts": "{count, plural, one {Выбрано 1 сообщение} other {Выбрано {count} сообщений}}",
+                "selected_posts": "{count, plural, one {Выбрано 1 сообщение} few {{count} сообщения} many {{count} сообщений} other {{count} сообщения}}",
                 "status": {
                     "complex_move": "Сложный перенос: сообщения будут вставлены между существующими, из-за чего изменятся старые ссылки на сообщения целевой дискуссии.",
                     "old_to_new_move": "=> fof-move-posts.ref.status.old_to_new_move",
@@ -38,7 +38,7 @@
                 "confirm_move_all_to_new_discussion": "Вы собираетесь переместить все сообщения из этой дискуссии в новую. В большинстве случаев разумнее отредактировать существующую дискуссию, изменить её название, теги или другие параметры. Продолжить?"
             },
             "alerts": {
-                "posts_moved_to": "{count, plural, one {Сообщение перемещено в {target_discussion}.} few {Перемещено # сообщения в {target_discussion}.} many {Перемещено # сообщений в {target_discussion}.}}"
+                "posts_moved_to": "{count, plural, one {Сообщение перемещено в {target_discussion}.} other {Перемещено {count} сообщений в {target_discussion}.}}"
             },
             "notifications": {
                 "post_moved_text": "Одно или несколько ваших сообщений были перенесены в «{targetDiscussionTitle}»."
