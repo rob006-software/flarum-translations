@@ -2,18 +2,18 @@
     "fof-masquerade": {
         "forum": {
             "alerts": {
-                "profile-completion-required": "",
-                "profile-completed": ""
+                "profile-completion-required": "Заполните необходимые поля профиля ниже.\n",
+                "profile-completed": "Профиль заполнен! <a>Перейти на главную</a>"
             },
             "buttons": {
-                "view-profile": "",
-                "edit-profile": "",
+                "view-profile": "Посмотреть профиль",
+                "edit-profile": "Править профиль",
                 "save-profile": "Сохранить"
             },
             "fields": {
                 "select": {
-                    "none-optional": "",
-                    "none-required": ""
+                    "none-optional": "Ничего не выбрано (по желанию)",
+                    "none-required": "Выберите вариант — обязательно"
                 },
                 "boolean": {
                     "yes": "Да",
@@ -29,28 +29,28 @@
                 "delete-field": "Удалить поле"
             },
             "permissions": {
-                "edit-others-profile": "",
-                "have-profile": "",
-                "view-profile": ""
+                "edit-others-profile": "Редактировать профили других пользователей",
+                "have-profile": "Имеет masquerade-профиль",
+                "view-profile": "Просматривать masquerade-профиль"
             },
             "fields": {
                 "title": "Поля",
                 "add": "Добавить поле {field}",
                 "edit": "Редактировать поле {field}",
-                "delete-confirmation": "",
+                "delete-confirmation": "Удалить поле {field}? Это действие нельзя отменить.",
                 "name": "Название поля",
-                "name-help": "",
+                "name-help": "Публичное непереводимое название поля\n",
                 "description": "Описание поля",
                 "description-help": "Необязательное описание использования/необходимости этого поля.\n",
                 "required": "Пометить поле как необходимое",
-                "on_bio": "",
-                "type": "",
-                "validation": "",
-                "validation-help": "",
-                "prefix": "",
-                "prefix-help": "",
-                "icon": "",
-                "icon-help": "",
+                "on_bio": "Показывать ответ на это поле в профиле пользователя",
+                "type": "Тип",
+                "validation": "Валидация",
+                "validation-help": "Проверьте поддерживаемые <a>правила валидации Laravel</a>. Например: string|min:5 или url.\n",
+                "prefix": "Префикс поля",
+                "prefix-help": "Добавляет указанный префикс перед значениями, введёнными пользователем в этом поле.\n",
+                "icon": "Иконка",
+                "icon-help": "Отображает иконку перед значениями, введёнными пользователем. Список доступных иконок смотрите на <a>сайте Font Awesome</a>. Используйте названия с префиксом fa-, например, fas fa-info.\n",
                 "force-user-to-completion": "Требовать от пользователя заполнить профиль",
                 "options": "Опции",
                 "option-new": "Новая опция",
@@ -69,9 +69,9 @@
         "lib": {
             "data": {
                 "masqueradeanswers": {
-                    "export_description": "",
-                    "delete_description": "",
-                    "anonymize_description": ""
+                    "export_description": "Экспортирует ответы пользователя на поля профиля",
+                    "delete_description": "Удаляет все ответы на поля профиля из аккаунта пользователя",
+                    "anonymize_description": "=> flarum-gdpr.lib.data.masqueradeanswers.delete_description"
                 }
             }
         }
