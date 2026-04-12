@@ -372,6 +372,12 @@ return [
 	'migratetoflarum-fake-data' => [
 		'beta' => 'https://raw.githubusercontent.com/migratetoflarum/fake-data/2.0.0-beta.1/resources/locale/en.yml',
 	],
+	'olleksi-uk-slug' => [
+		'tag' => 'https://raw.githubusercontent.com/olleksi/uk-slug/0.0.3/locale/en.yml',
+		'__builtInLanguages' => [
+			'uk',
+		],
+	],
 	'quasimo-carousel-grids' => [
 		'tag' => 'https://raw.githubusercontent.com/Quasimo/flarum-ext-carousel-grids/v2.0.6/resources/locale/en.yml',
 		'__builtInLanguages' => [
