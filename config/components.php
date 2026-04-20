@@ -1832,6 +1832,9 @@ return [
 			'vi',
 		],
 	],
+	'xlt-filter-pro' => [
+		'tag' => 'https://raw.githubusercontent.com/XiaoLuoTian189/filter-pro/v1.0.0/resources/locale/en.yml',
+	],
 	'xrh0905-oauth-microsoft' => [
 		'tag' => 'https://raw.githubusercontent.com/xrh0905/flarum-ext-oauth-microsoft/v2.0.0/locale/en.yml',
 	],
