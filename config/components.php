@@ -358,6 +358,9 @@ return [
 			'fr',
 		],
 	],
+	'cobbz-money-transfer' => [
+		'tag' => 'https://raw.githubusercontent.com/Cobb-Zhang/flarum-ext-money-transfer/v0.1.0/locale/en.yml',
+	],
 	'convo-extensions-guest-posting' => [
 		'tag' => 'https://raw.githubusercontent.com/convo-extensions/flarum-ext-guest-posting/1.1.1/resources/locale/en.yml',
 	],
