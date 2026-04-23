@@ -476,6 +476,9 @@ return [
 	'resofire-mobile-search' => [
 		'tag' => 'https://raw.githubusercontent.com/ResofireV2/mobile-search/v0.1.9/locale/en.yml',
 	],
+	'riclep-lettermint-mail' => [
+		'tag' => 'https://raw.githubusercontent.com/RicLeP/flarum-lettermint-mail/1.0.1/locale/en.yml',
+	],
 	'sycho-advanced-extension-categories' => [
 		'tag' => 'https://raw.githubusercontent.com/SychO9/flarum-advanced-extension-categories/v0.2.1/locale/en.yml',
 	],
