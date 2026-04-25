@@ -1169,6 +1169,9 @@ return [
 	'justoverclock-last-users-posts' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/last-users-posts/0.3.0/locale/en.yml',
 	],
+	'justoverclock-newsletter' => [
+		'tag' => 'https://raw.githubusercontent.com/justoverclockl/newsletter/1.0.1/locale/en.yml',
+	],
 	'justoverclock-og-meta-tag' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/og-meta-tag/0.1.0/resources/locale/en.yml',
 	],
