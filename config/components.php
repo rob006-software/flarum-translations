@@ -31,6 +31,9 @@ return [
 	'acpl-my-tags' => [
 		'tag' => 'https://raw.githubusercontent.com/android-com-pl/my-tags/1.4.0/locale/en.yml',
 	],
+	'afrux-forum-widgets-core' => [
+		'tag' => 'https://raw.githubusercontent.com/afrux/forum-widgets-core/v0.1.7/locale/en.yml',
+	],
 	'akr-chevereto' => [
 		'tag' => 'https://raw.githubusercontent.com/AKR-Developers/flarum-chevereto/1.0.1/resources/locale/en.yml',
 	],
