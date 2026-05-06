@@ -86,6 +86,13 @@
                 "show_tooltip_help": "开启后，鼠标悬浮在勋章上时，将显示认证信息卡片。关闭时，则不会显示该卡片。",
                 "require_document_label": "必须提交认证资料",
                 "require_document_help": "用户提交认证申请时，必须上传认证资料（身份证、税号、护照等）。",
+                "retention_label": "",
+                "retention_help": "",
+                "retention_keep": "",
+                "retention_delete_immediate": "",
+                "retention_delete_after_days": "",
+                "retention_days_label": "",
+                "retention_days_help": "",
                 "lock_avatar_label": "认证后锁定头像",
                 "lock_avatar_help": "已认证账号无法修改头像。他们需要重新提交认证申请，才可以更新头像。",
                 "badge_size_label": "勋章大小",
@@ -110,6 +117,54 @@
                 "request_label": "提交认证申请",
                 "verify_users_label": "直接认证用户",
                 "auto_verified_label": "自动接收认证勋章"
+            },
+            "encryption": {
+                "section_title": "",
+                "section_help": "",
+                "status": {
+                    "unknown": "",
+                    "libsodium_missing": "",
+                    "public_key_label": "",
+                    "private_key_label": "",
+                    "present": "",
+                    "absent": "",
+                    "healthy": "",
+                    "not_setup": "",
+                    "private_missing_title": "",
+                    "private_missing_body": "",
+                    "mismatch_title": "",
+                    "mismatch_body": ""
+                },
+                "public_key": {
+                    "label": "",
+                    "copy_title": "",
+                    "copied": "",
+                    "help_healthy": "",
+                    "help_broken": "",
+                    "remove_button": ""
+                },
+                "actions": {
+                    "generate": ""
+                },
+                "reveal_modal": {
+                    "title": "",
+                    "intro": "",
+                    "warning_title": "",
+                    "warning_body": "",
+                    "snippet_label": "",
+                    "copy_button": "",
+                    "copied": "",
+                    "confirm_saved": "",
+                    "confirm_hint": "",
+                    "close": "",
+                    "orphaned": ""
+                },
+                "regenerate_modal": {
+                    "title": "",
+                    "warning": "",
+                    "acknowledge": "",
+                    "submit": ""
+                }
             },
             "requests": {
                 "title": "认证申请",
@@ -184,7 +239,12 @@
             "revoked_default_note": "管理员撤销的认证。",
             "not_verified": "改用户没有认证。",
             "verified_by_admin_note": "管理员直接操作的认证。",
-            "self_revoked_note": "用户撤销的认证（修改头像申请）。"
+            "self_revoked_note": "用户撤销的认证（修改头像申请）。",
+            "encryption": {
+                "libsodium_missing": "",
+                "acknowledge_loss_required": "",
+                "private_key_missing": ""
+            }
         }
     }
 }

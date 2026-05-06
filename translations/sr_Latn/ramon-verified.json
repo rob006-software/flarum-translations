@@ -86,6 +86,13 @@
                 "show_tooltip_help": "",
                 "require_document_label": "",
                 "require_document_help": "",
+                "retention_label": "",
+                "retention_help": "",
+                "retention_keep": "",
+                "retention_delete_immediate": "",
+                "retention_delete_after_days": "",
+                "retention_days_label": "",
+                "retention_days_help": "",
                 "lock_avatar_label": "",
                 "lock_avatar_help": "",
                 "badge_size_label": "",
@@ -110,6 +117,54 @@
                 "request_label": "",
                 "verify_users_label": "",
                 "auto_verified_label": ""
+            },
+            "encryption": {
+                "section_title": "",
+                "section_help": "",
+                "status": {
+                    "unknown": "",
+                    "libsodium_missing": "",
+                    "public_key_label": "",
+                    "private_key_label": "",
+                    "present": "",
+                    "absent": "",
+                    "healthy": "",
+                    "not_setup": "",
+                    "private_missing_title": "",
+                    "private_missing_body": "",
+                    "mismatch_title": "",
+                    "mismatch_body": ""
+                },
+                "public_key": {
+                    "label": "",
+                    "copy_title": "",
+                    "copied": "",
+                    "help_healthy": "",
+                    "help_broken": "",
+                    "remove_button": ""
+                },
+                "actions": {
+                    "generate": ""
+                },
+                "reveal_modal": {
+                    "title": "",
+                    "intro": "",
+                    "warning_title": "",
+                    "warning_body": "",
+                    "snippet_label": "",
+                    "copy_button": "",
+                    "copied": "",
+                    "confirm_saved": "",
+                    "confirm_hint": "",
+                    "close": "",
+                    "orphaned": ""
+                },
+                "regenerate_modal": {
+                    "title": "",
+                    "warning": "",
+                    "acknowledge": "",
+                    "submit": ""
+                }
             },
             "requests": {
                 "title": "",
@@ -184,7 +239,12 @@
             "revoked_default_note": "",
             "not_verified": "",
             "verified_by_admin_note": "",
-            "self_revoked_note": ""
+            "self_revoked_note": "",
+            "encryption": {
+                "libsodium_missing": "",
+                "acknowledge_loss_required": "",
+                "private_key_missing": ""
+            }
         }
     }
 }

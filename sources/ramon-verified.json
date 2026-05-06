@@ -86,6 +86,13 @@
                 "show_tooltip_help": "When enabled, hovering the badge shows a card with verification details. Disable for a silent badge.",
                 "require_document_label": "Require identity document",
                 "require_document_help": "Users must upload an identity document (RG, CPF, passport, etc.) when requesting verification.",
+                "retention_label": "Document retention",
+                "retention_help": "Choose what happens to uploaded documents once a verification request is approved or rejected. Some communities must keep them for legal/audit reasons; others must delete them to comply with privacy regulations.",
+                "retention_keep": "Keep files indefinitely",
+                "retention_delete_immediate": "Delete files immediately after handling",
+                "retention_delete_after_days": "Delete files after a number of days",
+                "retention_days_label": "Days to retain",
+                "retention_days_help": "Number of days to keep the document after the request is handled. A daily scheduled task purges files older than this. Min 1, max 3650.",
                 "lock_avatar_label": "Lock avatar after verification",
                 "lock_avatar_help": "Verified users cannot change their avatar. They must submit a new verification request to update it.",
                 "badge_size_label": "Badge size",
@@ -110,6 +117,54 @@
                 "request_label": "Request verification",
                 "verify_users_label": "Verify users directly",
                 "auto_verified_label": "Receive the verified badge automatically"
+            },
+            "encryption": {
+                "section_title": "Document encryption",
+                "section_help": "Encrypt uploaded identity documents at rest. The private key is generated here, but you must paste it into config.php manually — the server never stores it. Without the private key in place, encrypted documents cannot be decrypted.",
+                "status": {
+                    "unknown": "Could not load encryption status.",
+                    "libsodium_missing": "libsodium is not available on this PHP installation. Install it to enable document encryption.",
+                    "public_key_label": "Public key",
+                    "private_key_label": "Private key (config.php)",
+                    "present": "configured",
+                    "absent": "missing",
+                    "healthy": "Encryption is active. New uploads are sealed with the configured public key, and downloads decrypt transparently.",
+                    "not_setup": "Encryption is not set up. New uploads will be stored unencrypted.",
+                    "private_missing_title": "Private key missing in config.php",
+                    "private_missing_body": "A public key is configured but the matching private key was not found in config.php. Existing encrypted documents are unreadable until you restore the private key. Add the entry shown below to config.php, or remove the public key below to generate a new keypair (this permanently deletes every encrypted document on disk).",
+                    "mismatch_title": "Public and private keys do not match",
+                    "mismatch_body": "The private key in config.php does not belong to the public key currently saved in settings. Encryption looks set up but every decryption would fail — existing encrypted documents are unreadable. Replace the private key in config.php with the one matching the saved public key, or remove the public key below to generate a fresh pair (this permanently deletes every encrypted document on disk)."
+                },
+                "public_key": {
+                    "label": "Current public key",
+                    "copy_title": "Copy public key",
+                    "copied": "Copied",
+                    "help_healthy": "Encryption is active. New uploads are sealed with this key. Removing it generates a fresh keypair and permanently deletes every encrypted document already on disk.",
+                    "help_broken": "Removing this public key generates a fresh keypair and permanently deletes every encrypted document on disk.",
+                    "remove_button": "Remove and generate new keypair"
+                },
+                "actions": {
+                    "generate": "Generate keypair"
+                },
+                "reveal_modal": {
+                    "title": "Save your private key",
+                    "intro": "This is the only time the private key will be displayed. Paste it into your forum's config.php now — the server does not keep a copy.",
+                    "warning_title": "Do not lose this key.",
+                    "warning_body": "If you lose it before placing it in config.php, every document encrypted with the matching public key becomes unrecoverable.",
+                    "snippet_label": "Add this line to the array in config.php:",
+                    "copy_button": "Copy snippet",
+                    "copied": "Copied!",
+                    "confirm_saved": "I have saved this in config.php and confirmed the file is readable by PHP.",
+                    "confirm_hint": "Please confirm above that you've saved the key before closing.",
+                    "close": "Close",
+                    "orphaned": "{count} previously encrypted document(s) were deleted because their files could no longer be read."
+                },
+                "regenerate_modal": {
+                    "title": "Generate a new keypair?",
+                    "warning": "This will permanently delete every encrypted document currently on disk. The plaintext content cannot be recovered without the original private key. Verification rows for affected requests will keep their audit trail but their document files will be gone.",
+                    "acknowledge": "I understand that all currently encrypted documents will be permanently deleted.",
+                    "submit": "Yes, regenerate"
+                }
             },
             "requests": {
                 "title": "Verification requests",
@@ -184,7 +239,12 @@
             "revoked_default_note": "Verification revoked by administrator.",
             "not_verified": "This user is not verified.",
             "verified_by_admin_note": "Verified directly by an administrator.",
-            "self_revoked_note": "Verification revoked by the user (avatar change request)."
+            "self_revoked_note": "Verification revoked by the user (avatar change request).",
+            "encryption": {
+                "libsodium_missing": "libsodium is not available on this PHP installation.",
+                "acknowledge_loss_required": "You must acknowledge that all existing encrypted documents will be deleted before generating a new keypair.",
+                "private_key_missing": "This document is encrypted, but the private key is not configured in config.php on this server. Add it under the key 'verified-private-key', or regenerate the keypair (which will delete every encrypted document)."
+            }
         }
     }
 }
