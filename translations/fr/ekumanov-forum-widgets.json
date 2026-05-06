@@ -59,7 +59,7 @@
                 "enable_heartbeat": "Activer « Heartbeat » (pouls d'activité)",
                 "enable_heartbeat_help": "Lorsque cette option est activée, chaque onglet du forum ouvert et actif envoie une petite requête en arrière-plan. Pour les utilisateurs connectés, cela permet de maintenir l'indicateur « en ligne » à jour pendant qu'ils lisent ou rédigent un message sans passer d'une page à l'autre (par exemple, lors d'une longue réponse via l'extension Realtime) ; pour les visiteurs (lorsque le comptage est activé), c'est ainsi que le nombre d'invités est enregistré. La charge du serveur est négligeable — les deux chemins limitent leurs écritures côté serveur, quel que soit le nombre d'onglets ouverts. Désactivez cette option si vous ne souhaitez pas de trafic en arrière-plan.",
                 "show_online_guests": "Afficher les invités en ligne",
-                "show_online_guests_help": "",
+                "show_online_guests_help": "Lorsque cette option est activée, un nombre approximatif d'invités s'affiche dans le panneau déroulant sous la forme d'un cercle en pointillés situé sous les utilisateurs masqués.",
                 "include_guests_in_total": "Inclure les invités dans le nombre total des utilisateurs en ligne",
                 "include_guests_in_total_help": "Lorsque cette option est activée, le nombre affiché dans la barre (ainsi que dans l'en-tête à l'intérieur du panneau déroulant) correspond au total des membres connectés et des invités. Les lignes de répartition dans le panneau déroulant continuent de répertorier chaque composant séparément. Désactivez cette option pour que le nombre indiqué dans la barre ne reflète que les membres connectés.",
                 "section_statistics": "Statistiques du forum",
