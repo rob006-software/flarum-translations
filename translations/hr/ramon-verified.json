@@ -7,7 +7,14 @@
                 "pill": "",
                 "headline": "",
                 "verified_on": "",
-                "verified_no_date": ""
+                "verified_no_date": "",
+                "learn_more": ""
+            },
+            "tier_prompt": {
+                "intro": "",
+                "hint": "",
+                "no_tiers": "",
+                "invalid": ""
             }
         },
         "forum": {
@@ -71,6 +78,12 @@
             }
         },
         "admin": {
+            "tabs": {
+                "aria_label": "",
+                "general": "",
+                "tiers": "",
+                "requests": ""
+            },
             "preview": {
                 "helper": "",
                 "meta_sample": ""
@@ -104,6 +117,43 @@
                 "badge_color_reset": "",
                 "custom_svg_label": "",
                 "custom_svg_help": "",
+                "tiers": {
+                    "section_title": "",
+                    "section_help": "",
+                    "empty": "",
+                    "empty_title": "",
+                    "add": "",
+                    "add_first": "",
+                    "collapse": "",
+                    "done": "",
+                    "unnamed": "",
+                    "no_id": "",
+                    "remove": "",
+                    "section_identity": "",
+                    "section_appearance": "",
+                    "section_popover": "",
+                    "section_assignment": "",
+                    "preview_label": "",
+                    "preview_hint": "",
+                    "learn_more_open": "",
+                    "remove_confirm": "",
+                    "id_label": "",
+                    "id_help": "",
+                    "label_label": "",
+                    "label_placeholder": "",
+                    "color_label": "",
+                    "description_label": "",
+                    "description_placeholder": "",
+                    "description_help": "",
+                    "description_bold_title": "",
+                    "description_italic_title": "",
+                    "description_toolbar_hint": "",
+                    "learn_more_label": "",
+                    "learn_more_help": "",
+                    "auto_groups_label": "",
+                    "auto_groups_help": "",
+                    "auto_groups_empty": ""
+                },
                 "section_document_types": "",
                 "section_document_types_help": "",
                 "document_type_id_header": "",
@@ -182,6 +232,8 @@
                 "search_placeholder": "",
                 "search_clear": "",
                 "status_auto": "",
+                "tier_filter_aria": "",
+                "tier_filter_all": "",
                 "auto_via_groups": "",
                 "auto_via_group_unknown": "",
                 "auto_actions_hint": "",

@@ -7,7 +7,14 @@
                 "pill": "已认证",
                 "headline": "该账号具有 <strong>已认证标识</strong>.",
                 "verified_on": "已认证{date}",
-                "verified_no_date": "已自动认证账号"
+                "verified_no_date": "已自动认证账号",
+                "learn_more": ""
+            },
+            "tier_prompt": {
+                "intro": "",
+                "hint": "",
+                "no_tiers": "",
+                "invalid": ""
             }
         },
         "forum": {
@@ -71,6 +78,12 @@
             }
         },
         "admin": {
+            "tabs": {
+                "aria_label": "",
+                "general": "",
+                "tiers": "",
+                "requests": ""
+            },
             "preview": {
                 "helper": "实时预览 - 勋章将出现在用户名旁边。",
                 "meta_sample": "2天前"
@@ -104,6 +117,43 @@
                 "badge_color_reset": "清除",
                 "custom_svg_label": "自定义SVG",
                 "custom_svg_help": "上传SVG替换默认的推特风格勋章。通过fill=\"currentColor\"使用上面设置的颜色。脚本及事件处理器将被自动移除。",
+                "tiers": {
+                    "section_title": "",
+                    "section_help": "",
+                    "empty": "",
+                    "empty_title": "",
+                    "add": "",
+                    "add_first": "",
+                    "collapse": "",
+                    "done": "",
+                    "unnamed": "",
+                    "no_id": "",
+                    "remove": "",
+                    "section_identity": "",
+                    "section_appearance": "",
+                    "section_popover": "",
+                    "section_assignment": "",
+                    "preview_label": "",
+                    "preview_hint": "",
+                    "learn_more_open": "",
+                    "remove_confirm": "",
+                    "id_label": "",
+                    "id_help": "",
+                    "label_label": "",
+                    "label_placeholder": "",
+                    "color_label": "",
+                    "description_label": "",
+                    "description_placeholder": "",
+                    "description_help": "",
+                    "description_bold_title": "",
+                    "description_italic_title": "",
+                    "description_toolbar_hint": "",
+                    "learn_more_label": "",
+                    "learn_more_help": "",
+                    "auto_groups_label": "",
+                    "auto_groups_help": "",
+                    "auto_groups_empty": ""
+                },
                 "section_document_types": "资料类型",
                 "section_document_types_help": "管理用户在提交认证申请时，可以选择的资料类型。默认列表包含（身份证、税号、驾驶证和其它）。你可以修改名称或替换它们。",
                 "document_type_id_header": "身份证",
@@ -182,6 +232,8 @@
                 "search_placeholder": "搜索已认证用户…",
                 "search_clear": "清除搜索",
                 "status_auto": "自动认证的",
+                "tier_filter_aria": "",
+                "tier_filter_all": "",
                 "auto_via_groups": "通过群组认证的：{groups}",
                 "auto_via_group_unknown": "通过群组权限自动完成认证。",
                 "auto_actions_hint": "在权限中进行管理",

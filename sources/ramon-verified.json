@@ -7,7 +7,14 @@
                 "pill": "Verified",
                 "headline": "This account has a <strong>verified identity</strong>.",
                 "verified_on": "Verified {date}",
-                "verified_no_date": "Automatically verified account"
+                "verified_no_date": "Automatically verified account",
+                "learn_more": "Learn more"
+            },
+            "tier_prompt": {
+                "intro": "Select the verification tier:",
+                "hint": "Enter the number or the tier ID (e.g. 1 or blue).",
+                "no_tiers": "No tiers configured. Add tiers in Admin → Verified before verifying users.",
+                "invalid": "Invalid tier. Verification cancelled."
             }
         },
         "forum": {
@@ -71,6 +78,12 @@
             }
         },
         "admin": {
+            "tabs": {
+                "aria_label": "Panel sections",
+                "general": "Settings",
+                "tiers": "Tiers",
+                "requests": "Requests"
+            },
             "preview": {
                 "helper": "Live preview — this is how the badge will appear next to a user's name.",
                 "meta_sample": "2 days ago"
@@ -104,6 +117,43 @@
                 "badge_color_reset": "Clear",
                 "custom_svg_label": "Custom SVG",
                 "custom_svg_help": "Upload an SVG to replace the default Twitter-style badge. Use fill=\"currentColor\" so the color above is honoured. Scripts and event handlers are stripped automatically.",
+                "tiers": {
+                    "section_title": "Verification tiers",
+                    "section_help": "Create and configure the badges available on your forum (blue, gold, partner, etc.). Each tier has its own color, popover description and \"Learn more\" link. Tier order is the priority when multiple auto-grant groups fire at once.",
+                    "empty": "You haven't configured any tiers yet. Create one to start verifying users.",
+                    "empty_title": "No tiers configured",
+                    "add": "Add tier",
+                    "add_first": "Create your first tier",
+                    "collapse": "Collapse",
+                    "done": "Done",
+                    "unnamed": "(no name)",
+                    "no_id": "(no ID)",
+                    "remove": "Remove tier",
+                    "section_identity": "Identity",
+                    "section_appearance": "Appearance",
+                    "section_popover": "Popover content",
+                    "section_assignment": "Auto-assignment",
+                    "preview_label": "Preview",
+                    "preview_hint": "Hover the badge to see the actual popover",
+                    "learn_more_open": "Open link in a new tab",
+                    "remove_confirm": "Remove this tier? Users who held it will fall back to the default tier until reassigned.",
+                    "id_label": "ID",
+                    "id_help": "Slug-style identifier. Lowercase letters, numbers, _ and - only (up to 32 chars). Cannot be changed later without reassigning users.",
+                    "label_label": "Label",
+                    "label_placeholder": "e.g. Verified, Gold, Partner",
+                    "color_label": "Color",
+                    "description_label": "Description (popover)",
+                    "description_placeholder": "e.g. This account has been verified by an administrator.",
+                    "description_help": "Shown in the popover when hovering the badge. Up to 320 characters. Use the buttons to highlight words in the tier color.",
+                    "description_bold_title": "Highlight in bold (tier color)",
+                    "description_italic_title": "Highlight in italics",
+                    "description_toolbar_hint": "Select text and click",
+                    "learn_more_label": "\"Learn more\" link",
+                    "learn_more_help": "https:// URL pointing to your verification policy. Empty = no link is shown in the popover.",
+                    "auto_groups_label": "Groups that auto-receive this tier",
+                    "auto_groups_help": "Members of these groups receive this tier with no manual approval needed. When a user belongs to groups across multiple tiers, the tier listed first wins.",
+                    "auto_groups_empty": "No groups available."
+                },
                 "section_document_types": "Document types",
                 "section_document_types_help": "Manage the document types users can pick when requesting verification. The default list (RG, CPF, Passport, Driver's license, Other) reflects Brazilian context — feel free to rename or replace it for your own forum.",
                 "document_type_id_header": "ID",
@@ -182,6 +232,8 @@
                 "search_placeholder": "Search verified users…",
                 "search_clear": "Clear search",
                 "status_auto": "Auto-verified",
+                "tier_filter_aria": "Filter by tier",
+                "tier_filter_all": "All tiers",
                 "auto_via_groups": "Verified through group: {groups}",
                 "auto_via_group_unknown": "Verified automatically through a group permission.",
                 "auto_actions_hint": "Manage in Permissions",
