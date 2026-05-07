@@ -1223,6 +1223,20 @@
             }
         }
     },
+    "datlechin-title-length.json": {
+        "datlechin-title-length": {
+            "admin": {
+                "settings": {
+                    "limit_help": "d4c64517f66ff8b96cdd720bdebbda6b d4c64517f66ff8b96cdd720bdebbda6b",
+                    "limit_label": "236e30eac2c4bcd7c0e925169906a790 236e30eac2c4bcd7c0e925169906a790",
+                    "max_help": "03ad4f4f6fb13ff4980275c1080cd808 03ad4f4f6fb13ff4980275c1080cd808",
+                    "max_label": "bc613fcf35440f98d5540ca65e491dc0 bc613fcf35440f98d5540ca65e491dc0",
+                    "min_help": "79dca7ab8f59ff7349622b709656ed56 79dca7ab8f59ff7349622b709656ed56",
+                    "min_label": "a19836872751c8bb8f81ee6bfc0e493e a19836872751c8bb8f81ee6bfc0e493e"
+                }
+            }
+        }
+    },
     "ekumanov-inline-audio.json": {
         "ekumanov-inline-audio": {
             "admin": {
@@ -6720,6 +6734,40 @@
                     "user_prompt_badge_label": "f3b5b44fba07171adf645fc290282394 f3b5b44fba07171adf645fc290282394",
                     "user_prompt_help": "eefe393fc292a1e2b0172dde36a23649 eefe393fc292a1e2b0172dde36a23649",
                     "user_prompt_label": "221a60d2dc3207782924e88f3502c0f2 221a60d2dc3207782924e88f3502c0f2"
+                }
+            }
+        }
+    },
+    "michaelbelgium-mybb-to-flarum.json": {
+        "michaelbelgium-mybb-to-flarum": {
+            "admin": {
+                "content": {
+                    "convert_button": "ab998d92cd992d93af7c25771a2572b2 ab998d92cd992d93af7c25771a2572b2",
+                    "description_text": "20df3632a52641092df2196f9f985be6 20df3632a52641092df2196f9f985be6",
+                    "form": {
+                        "general": {
+                            "migrate_categories_label": "a239edd54ec8975b5c270d6faa94277d a239edd54ec8975b5c270d6faa94277d",
+                            "migrate_threadsPosts_label": "43ee569db29d8da7a1f3bd58332aeaa4 43ee569db29d8da7a1f3bd58332aeaa4",
+                            "migrate_userGroups_label": "2558ddec47479afc1651b4d9242cd70f 2558ddec47479afc1651b4d9242cd70f",
+                            "migrate_users_label": "6fa590791375177065f734a0f7bc91d3 6fa590791375177065f734a0f7bc91d3",
+                            "title": "3322e00c68ead4f5d077f5484d1b40c6 3322e00c68ead4f5d077f5484d1b40c6"
+                        },
+                        "mybb": {
+                            "db_label": "c49e686e26c4e3baaf93085294d3ea81 c49e686e26c4e3baaf93085294d3ea81",
+                            "host_label": "5d745e9089444f5f09c8a69953ea7c09 5d745e9089444f5f09c8a69953ea7c09",
+                            "password_label": "9c61dcc750c4b4984bf318fdded1909a 9c61dcc750c4b4984bf318fdded1909a",
+                            "prefix_label": "36d6086cfbb02ce6df252a284e0435c6 36d6086cfbb02ce6df252a284e0435c6",
+                            "title": "28f88e524621de388aff67dd97661254 28f88e524621de388aff67dd97661254",
+                            "user_label": "9c61dcc750c4b4984bf318fdded1909a 9c61dcc750c4b4984bf318fdded1909a"
+                        },
+                        "options": {
+                            "migrate_attachments_label": "28336f2efa709af776ec448fbd363d62 28336f2efa709af776ec448fbd363d62",
+                            "migrate_avatars_label": "ee25d092b447d45c498d8aac42688d99 ee25d092b447d45c498d8aac42688d99",
+                            "migrate_soft_posts_label": "6f23718dc5eb1063ac6a2b0a13e5c096 6f23718dc5eb1063ac6a2b0a13e5c096",
+                            "migrate_soft_threads_label": "4738470282f7888534ee714d770547b0 4738470282f7888534ee714d770547b0",
+                            "title": "13d91d700977e3c9ee5d881d2864df35 13d91d700977e3c9ee5d881d2864df35"
+                        }
+                    }
                 }
             }
         }

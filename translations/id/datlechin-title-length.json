@@ -2,12 +2,12 @@
     "datlechin-title-length": {
         "admin": {
             "settings": {
-                "limit_label": "",
-                "limit_help": "",
-                "min_label": "",
-                "min_help": "",
-                "max_label": "",
-                "max_help": ""
+                "limit_label": "Aktifkan batas panjang judul",
+                "limit_help": "Memungkinkan untuk menggunakan batas panjang judul khusus. Jika dinonaktifkan, batas panjang judul default Flarum akan digunakan.",
+                "min_label": "Panjang minimum",
+                "min_help": "Panjang minimum judul, nilai minimumnya adalah 1.",
+                "max_label": "Panjang maksimum",
+                "max_help": "Panjang maksimum judul, nilai maksimumnya adalah 1000."
             }
         }
     }
