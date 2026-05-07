@@ -74,6 +74,9 @@ return [
 	'datlechin-tag-passwords' => [
 		'beta' => 'https://raw.githubusercontent.com/datlechin/flarum-tag-passwords/v2.0.0-beta.1/locale/en.yml',
 	],
+	'datlechin-title-length' => [
+		'beta' => 'https://raw.githubusercontent.com/datlechin/flarum-title-length/v1.0.0-beta.1/locale/en.yml',
+	],
 	'ekumanov-forum-widgets' => [
 		'tag' => 'https://raw.githubusercontent.com/ekumanov/flarum-ext-forum-stats-widget/v1.6.0/locale/en.yml',
 	],
