@@ -2,33 +2,33 @@
     "linkrobins-referral": {
         "forum": {
             "profile": {
-                "tab": "",
-                "invite_code_title": "",
-                "invite_code_help": "",
-                "copy": "",
-                "total_referrals": "",
-                "no_referrals": ""
+                "tab": "Weiterempfehlungen",
+                "invite_code_title": "Dein Einladungscode",
+                "invite_code_help": "Teile diesen Code mit allen, die du einladen möchtest. Sie geben ihn bei der Anmeldung in das Feld „Einladungscode“ ein.",
+                "copy": "Kopieren",
+                "total_referrals": "Weiterempfehlungen insgesamt",
+                "no_referrals": "Noch keine Weiterempfehlungen. Teile deinen Einladungscode, um loszulegen!"
             },
             "sign_up": {
-                "invite_code_label": "",
-                "invite_code_label_required": "",
-                "invite_code_placeholder": ""
+                "invite_code_label": "Einladungscode",
+                "invite_code_label_required": "Einladungscode *",
+                "invite_code_placeholder": "z.B. K7XM2QNP"
             },
             "notification": {
-                "user_referred": ""
+                "user_referred": "{displayName} hat sich mit deinem Einladungscode registriert!"
             }
         },
         "admin": {
             "settings": {
-                "require_label": "",
-                "require_help": "",
-                "enabled": "",
-                "disabled": ""
+                "require_label": "Einladungscode für die Registrierung erforderlich machen",
+                "require_help": "Wenn aktiviert, müssen Benutzer einen gültigen Einladungscode eingeben, um die Registrierung abzuschließen.",
+                "enabled": "Aktiviert",
+                "disabled": "Deaktiviert"
             }
         },
         "validation": {
-            "required": "",
-            "invalid": ""
+            "required": "Für die Registrierung ist ein Einladungscode erforderlich.",
+            "invalid": "Ungültiger Einladungscode."
         }
     }
 }

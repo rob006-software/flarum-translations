@@ -5,21 +5,21 @@
             "tooltip_with_date": "Verifiziertes Konto · seit {date}",
             "popover": {
                 "pill": "Verifiziert",
-                "headline": "",
-                "verified_on": "",
-                "verified_no_date": ""
+                "headline": "Dieses Konto verfügt über eine <strong>verifizierte Identität</strong>.",
+                "verified_on": "Verifiziert {date}",
+                "verified_no_date": "Automatisch verifiziertes Konto"
             }
         },
         "forum": {
             "settings": {
-                "heading": "",
-                "verified_label": "",
-                "verified_sublabel": "",
-                "pending_label": "",
-                "pending_sublabel": "",
+                "heading": "Verifizierung",
+                "verified_label": "Dein Konto wurde verifiziert",
+                "verified_sublabel": "Deine Identität wurde von einem Administrator bestätigt.",
+                "pending_label": "Verifizierung ausstehend",
+                "pending_sublabel": "Ein Administrator wird sich in Kürze bei dir melden.",
                 "avatar_locked_label": "",
                 "avatar_locked_sublabel": "",
-                "request_button": ""
+                "request_button": "Verifizierung beantragen"
             },
             "avatar": {
                 "locked_tooltip": "",
