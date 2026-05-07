@@ -3,18 +3,18 @@
         "admin": {
             "settings": {
                 "mode": {
-                    "label": "",
-                    "help": "",
+                    "label": "Anzeigemodus für den Avatar des letzten Beitrags",
+                    "help": "Wähle aus, wann und wo der Avatar des Verfassers des letzten Beitrags in der Diskussionsliste angezeigt werden soll. In der README-Datei findest Du eine visuelle Darstellung der einzelnen Optionen.",
                     "options": {
-                        "all-replies": "",
-                        "non-op-replies": "",
-                        "always": "",
-                        "replace-main": ""
+                        "all-replies": "Nur Antworten",
+                        "non-op-replies": "Nur Antworten, ausgenommen Beiträge des Verfassers der Diskussion",
+                        "always": "Immer",
+                        "replace-main": "Avatar für die Hauptdiskussion ersetzen"
                     }
                 },
                 "ignorePrivateDiscussions": {
-                    "label": "",
-                    "help": ""
+                    "label": "Private Diskussionen ignorieren (FoF Byōbu)",
+                    "help": "Aktiviere diese Option, wenn du das Verhalten des Avatars in privaten Diskussionen nicht ändern möchten."
                 }
             }
         }

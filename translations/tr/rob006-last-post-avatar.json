@@ -3,18 +3,18 @@
         "admin": {
             "settings": {
                 "mode": {
-                    "label": "",
-                    "help": "",
+                    "label": "Son gönderi avatar görüntüleme modu",
+                    "help": "Tartışma listesinde son gönderi yazarının avatarının ne zaman ve nerede gösterileceğini seçin. Her seçeneğin görselleştirmesini görmek için BENİOKU'yu kontrol edin.",
                     "options": {
-                        "all-replies": "",
-                        "non-op-replies": "",
-                        "always": "",
-                        "replace-main": ""
+                        "all-replies": "Yalnızca yanıtlar",
+                        "non-op-replies": "Yalnızca tartışma yazarının gönderileri dışında yanıtlar",
+                        "always": "Hepsi",
+                        "replace-main": "Ana tartışma avatarını değiştir"
                     }
                 },
                 "ignorePrivateDiscussions": {
-                    "label": "",
-                    "help": ""
+                    "label": "Özel tartışmaları yoksay (FoF Byōbu)",
+                    "help": "Özel tartışmalar için avatar davranışını değiştirmek istemiyorsanız bu seçeneği işaretleyin."
                 }
             }
         }
