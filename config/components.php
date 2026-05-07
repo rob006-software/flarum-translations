@@ -523,6 +523,12 @@ return [
 	'resofire-mobile-search' => [
 		'tag' => 'https://raw.githubusercontent.com/ResofireV2/mobile-search/v0.1.9/locale/en.yml',
 	],
+	'rob006-last-post-avatar' => [
+		'tag' => 'https://raw.githubusercontent.com/rob006-software/flarum-ext-last-post-avatar/2.0.0/locale/en.yml',
+		'__builtInLanguages' => [
+			'pl',
+		],
+	],
 	'sycho-advanced-extension-categories' => [
 		'tag' => 'https://raw.githubusercontent.com/SychO9/flarum-advanced-extension-categories/v0.2.1/locale/en.yml',
 	],
