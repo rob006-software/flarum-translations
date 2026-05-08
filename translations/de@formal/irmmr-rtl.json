@@ -2,16 +2,16 @@
     "irmmr-rtl": {
         "admin": {
             "settings": {
-                "lang_base_label": "",
-                "lang_base_text": "",
-                "rtl_languages_label": "",
-                "rtl_languages_placeholder": "",
-                "rtl_languages_text": "",
-                "fm_status_label": "",
+                "lang_base_label": "Sprachbasierte linksläufige Schreibrichtung",
+                "lang_base_text": "Wenn aktiviert, wird die linksläufige Schreibrichtung nur angewendet, wenn die aktive Sprache diese Schrift verwendet. Wenn deaktiviert, werden die Einstellungen des Forums bzw. der Administration für die linksläufige Schreibrichtung bedingungslos angewendet.",
+                "rtl_languages_label": "Sprachcode für linksläufige Schreibrichtung",
+                "rtl_languages_placeholder": "ar, fa, he, ur, yi",
+                "rtl_languages_text": "Durch Kommas getrennte Liste von Sprachcodes, die als von rechts nach links geschrieben behandelt werden sollen, wenn die sprachbasierte linksläufige Schreibrichtung aktiviert ist. Beispiel: ar, fa, he, ur, yi\n",
+                "fm_status_label": "Linksläufiges Forum",
                 "fm_status_text": "",
-                "ad_status_label": "",
+                "ad_status_label": "Linksläufige Administration",
                 "ad_status_text": "",
-                "driver_label": "",
+                "driver_label": "CSS-Treiber",
                 "driver_options": {
                     "rtlcss": "",
                     "custom": ""
@@ -27,16 +27,16 @@
                     "help_text": ""
                 },
                 "mappings": {
-                    "pattern_placeholder": "",
-                    "replace_placeholder": "",
+                    "pattern_placeholder": "Muster, z.B. *.css",
+                    "replace_placeholder": "Ersetzung, z.B. *.rtl.css",
                     "type_options": {
-                        "auto": "",
-                        "css": "",
-                        "js": ""
+                        "auto": "Auto",
+                        "css": "CSS",
+                        "js": "JS"
                     },
                     "section_title": "",
                     "empty_text": "",
-                    "add_button": "",
+                    "add_button": "Regel hinzufügen",
                     "help_text": ""
                 }
             }
