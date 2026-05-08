@@ -11,7 +11,7 @@
                         "migrate_soft_threads_label": "Leicht gelöschte Threads migrieren",
                         "migrate_soft_posts_label": "Leicht gelöschte Beiträge migrieren",
                         "migrate_attachments_label": "Anhänge migrieren",
-                        "debug_mode_label": ""
+                        "debug_mode_label": "Protokollierung aktivieren"
                     },
                     "mybb": {
                         "title": "MyBB-Einstellungen",
@@ -21,8 +21,8 @@
                         "db_label": "Name der Datenbank",
                         "prefix_label": "Tabellen Präfix",
                         "path": {
-                            "label": "",
-                            "help_text": ""
+                            "label": "Absoluter MyBB-Pfad",
+                            "help_text": "Absoluter Pfad zur MyBB-Installation, zum Beispiel: /var/www/mybb."
                         }
                     },
                     "general": {
