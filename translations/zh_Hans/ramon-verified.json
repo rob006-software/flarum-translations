@@ -110,11 +110,6 @@
                 "lock_avatar_help": "已认证账号无法修改头像。他们需要重新提交认证申请，才可以更新头像。",
                 "badge_size_label": "勋章大小",
                 "badge_size_help": "相对于周围文本的缩放倍数。1.0 表示与用户名一致；数值越大，徽章越突出。",
-                "custom_color_label": "使用自定义颜色",
-                "custom_color_help": "关闭：勋章使用论坛主色。开启：选择自定义颜色。",
-                "badge_color_label": "勋章颜色",
-                "badge_color_help": "选择颜色，或粘贴十六进制（如#1d9bf0），rgb()，rgba()，hsl()，hsla()值。",
-                "badge_color_reset": "清除",
                 "custom_svg_label": "自定义SVG",
                 "custom_svg_help": "上传SVG替换默认的推特风格勋章。通过fill=\"currentColor\"使用上面设置的颜色。脚本及事件处理器将被自动移除。",
                 "tiers": {
@@ -161,7 +156,12 @@
                 "document_type_label_placeholder": "显示文本",
                 "document_type_add": "添加资料类型",
                 "document_type_remove": "删除资料类型",
-                "document_types_empty": "没有完成配置的资料类型。用户上传资料时，将不会看到任何选项。"
+                "document_types_empty": "没有完成配置的资料类型。用户上传资料时，将不会看到任何选项。",
+                "custom_color_label": "使用自定义颜色",
+                "custom_color_help": "关闭：勋章使用论坛主色。开启：选择自定义颜色。",
+                "badge_color_label": "勋章颜色",
+                "badge_color_help": "选择颜色，或粘贴十六进制（如#1d9bf0），rgb()，rgba()，hsl()，hsla()值。",
+                "badge_color_reset": "清除"
             },
             "permissions": {
                 "request_label": "提交认证申请",
