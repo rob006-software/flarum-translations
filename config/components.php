@@ -56,6 +56,12 @@ return [
 	'datlechin-discussion-overview' => [
 		'beta' => 'https://raw.githubusercontent.com/datlechin/flarum-discussion-overview/v2.0.0-beta.1/locale/en.yml',
 	],
+	'datlechin-link-clicks' => [
+		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-link-clicks/v1.1.0/locale/en.yml',
+		'__builtInLanguages' => [
+			'vi',
+		],
+	],
 	'datlechin-link-preview' => [
 		'beta' => 'https://raw.githubusercontent.com/datlechin/flarum-link-preview/v2.0.0-beta.2/locale/en.yml',
 	],
