@@ -32,6 +32,9 @@ return [
 	'anto0102-mailguard' => [
 		'tag' => 'https://raw.githubusercontent.com/anto0102/MailGuard/v2.0.7/locale/en.yml',
 	],
+	'captchala-flarum' => [
+		'tag' => 'https://raw.githubusercontent.com/Captcha-La/captchala-flarum/v1.0.0/resources/locale/en.yml',
+	],
 	'dashzeveg-ads-manager' => [
 		'tag' => 'https://raw.githubusercontent.com/dashzeveg/flarum-ads-manager/v1.0/locale/en.yml',
 	],
