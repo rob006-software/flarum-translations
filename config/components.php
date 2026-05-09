@@ -514,6 +514,12 @@ return [
 			'pt_BR',
 		],
 	],
+	'ramon-guest-cta' => [
+		'tag' => 'https://raw.githubusercontent.com/ram0ng1/guest-cta/2.0.1/locale/en.yml',
+		'__builtInLanguages' => [
+			'pt_BR',
+		],
+	],
 	'ramon-stickers' => [
 		'tag' => 'https://raw.githubusercontent.com/ram0ng1/stickers/2.0.5/locale/en.yml',
 	],
