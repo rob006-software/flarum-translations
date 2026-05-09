@@ -1,11 +1,42 @@
 {
     "datlechin-posted-on": {
+        "admin": {
+            "settings": {
+                "display_mode_label": "What to show next to a post",
+                "display_mode_help": "Per-post detail. The full breakdown is always available in the tooltip.",
+                "display_mode_os_only": "OS only (e.g. Windows 11)",
+                "display_mode_os_browser": "OS and browser (e.g. Windows 11 · Chrome 121)",
+                "skip_guests_label": "Don't capture for guests",
+                "skip_guests_help": "When on, posts authored by guest accounts get no platform metadata."
+            }
+        },
         "forum": {
             "post": {
-                "posted_on_text": "Posted on {posted_on}"
+                "posted_on_text": "Posted on {posted_on}",
+                "tooltip": {
+                    "os": "Operating system",
+                    "client": "Browser",
+                    "device": "Device"
+                }
             },
             "settings": {
-                "privacy_disclose_posted_on_label": "Allow others to see what devices I am posted on"
+                "privacy_disclose_posted_on_label": "Show others what device I post from"
+            },
+            "device_types": {
+                "desktop": "Desktop",
+                "smartphone": "Phone",
+                "tablet": "Tablet",
+                "feature phone": "Phone",
+                "console": "Console",
+                "tv": "TV",
+                "car browser": "Car",
+                "smart display": "Smart display",
+                "camera": "Camera",
+                "portable media player": "Media player",
+                "phablet": "Phablet",
+                "smart speaker": "Smart speaker",
+                "wearable": "Wearable",
+                "peripheral": "Peripheral"
             }
         }
     }

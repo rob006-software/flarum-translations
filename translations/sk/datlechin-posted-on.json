@@ -1,11 +1,42 @@
 {
     "datlechin-posted-on": {
+        "admin": {
+            "settings": {
+                "display_mode_label": "",
+                "display_mode_help": "",
+                "display_mode_os_only": "",
+                "display_mode_os_browser": "",
+                "skip_guests_label": "",
+                "skip_guests_help": ""
+            }
+        },
         "forum": {
             "post": {
-                "posted_on_text": "Odoslané dňa {posted_on}"
+                "posted_on_text": "Odoslané dňa {posted_on}",
+                "tooltip": {
+                    "os": "",
+                    "client": "",
+                    "device": ""
+                }
             },
             "settings": {
                 "privacy_disclose_posted_on_label": ""
+            },
+            "device_types": {
+                "desktop": "",
+                "smartphone": "",
+                "tablet": "",
+                "feature phone": "",
+                "console": "",
+                "tv": "",
+                "car browser": "",
+                "smart display": "",
+                "camera": "",
+                "portable media player": "",
+                "phablet": "",
+                "smart speaker": "",
+                "wearable": "",
+                "peripheral": ""
             }
         }
     }

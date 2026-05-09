@@ -1,0 +1,166 @@
+{
+    "datlechin-link-clicks": {
+        "forum": {
+            "link_aria_label": "Opened by {count} {count, plural, one{person} other{people}}",
+            "link_tooltip": "{count, plural, one{# person has opened this} other{# people have opened this}}",
+            "popular_links_title": "Popular links",
+            "user_popular_links_title": "Most clicked links",
+            "confirm_external": "You're about to leave the forum. Continue?",
+            "settings": {
+                "opt_out_label": "Don't count my link clicks",
+                "opt_out_help": "Your clicks still go through; we just won't add them to the count.",
+                "opt_out_save_failed": "Couldn't save your preference. Try again."
+            },
+            "post_controls": {
+                "disable_tracking": "Don't count clicks on this post",
+                "enable_tracking": "Count clicks on this post",
+                "toggle_failed": "Couldn't update click tracking for this post."
+            },
+            "discussion_controls": {
+                "click_stats": "Click stats"
+            },
+            "discussion_stats": {
+                "title": "Click stats: {title}",
+                "column_url": "Link",
+                "column_total": "Clicks",
+                "column_unique": "People",
+                "column_last": "Last click",
+                "empty": "No clicks recorded for any link in this discussion yet."
+            }
+        },
+        "admin": {
+            "tabs": {
+                "settings": "Settings",
+                "analytics": "Analytics",
+                "webhook": "Webhook"
+            },
+            "permissions": {
+                "view_analytics_label": "View link click analytics"
+            },
+            "settings": {
+                "enabled_label": "Track link clicks",
+                "enabled_help": "Master switch. When off, no rewriting and no recording.",
+                "track_internal_label": "Track links to this forum",
+                "track_internal_help": "Off keeps counts focused on outbound resources.",
+                "open_new_window_label": "Open links in a new window",
+                "open_new_window_help": "Tracked links get target=\"_blank\" so the destination opens in a new tab. Off keeps the click in the same tab.",
+                "honor_dnt_label": "Honour Do Not Track",
+                "honor_dnt_help": "Skip recording when the request carries DNT: 1.",
+                "skip_guests_label": "Don't track guest visitors",
+                "skip_guests_help": "Only count clicks from logged-in users. Guest clicks still resolve the redirect but no row is written.",
+                "min_display_label": "Minimum count to show the badge",
+                "min_display_help": "Hide the badge below this number.",
+                "dedup_window_label": "Dedup window (hours)",
+                "dedup_window_help": "A given user only counts once per link in this window.",
+                "retention_label": "Event retention (days)",
+                "retention_help": "Daily job purges link_click_events older than this. Set to 0 to keep events forever.",
+                "bot_ua_label": "Extra bot User-Agent fragments",
+                "bot_ua_help": "One fragment per line. A request whose User-Agent contains any of these substrings (case-insensitive) is treated as a bot. Built-in bot detection always runs; entries here add to it.",
+                "bot_ua_placeholder": "Googlebot\nMJ12bot\nAhrefsBot",
+                "tracking_params_label": "Extra tracking query params to strip",
+                "tracking_params_help": "One pattern per line. Stripped from URLs before dedup so utm-tagged variants count toward the same link. Trailing * matches a prefix (e.g. utm_*). Default list already covers utm_*, fbclid, gclid, mc_cid, igshid, _ga and others.",
+                "tracking_params_placeholder": "ref_url\nyclid\ncustom_param",
+                "attachment_prefixes_label": "Extra attachment path prefixes",
+                "attachment_prefixes_help": "URLs on the forum host whose path starts with one of these prefixes are tracked even when internal-link tracking is off. /assets/files/ is built in for Flarum's default uploads disk; add your own when using fof/upload or a custom CDN path.",
+                "domain_blocklist_label": "Block domains",
+                "domain_blocklist_help": "Hosts to skip entirely. One per line. Use *.example.com to match every subdomain. Posts referencing these hosts get no badge and clicks aren't recorded.",
+                "confirm_external_label": "Confirm before leaving the forum",
+                "confirm_external_help": "Show a browser confirm dialog when a reader clicks an external link. Off by default.",
+                "digest_enabled_label": "Email weekly digest to admins",
+                "digest_enabled_help": "Every Monday morning, mail every administrator a plain-text summary of the past week's clicks. Off by default.",
+                "webhook_enabled_label": "Enable webhook",
+                "webhook_enabled_help": "Forward every recorded click as JSON POST to an external URL via the queue.",
+                "webhook_url_label": "Webhook URL",
+                "webhook_url_help": "Where to send the JSON payload.",
+                "webhook_secret_label": "Webhook secret",
+                "webhook_secret_help": "When set, the request body is signed with HMAC-SHA256 and the signature is sent in the X-LinkClicks-Signature header in the form sha256=HEX_DIGEST. Receivers verify by recomputing with the same secret.",
+                "webhook_test_button": "Send test ping",
+                "webhook_test_ok": "Webhook responded with HTTP {status}.",
+                "webhook_test_failed": "Webhook test failed: {detail}"
+            },
+            "tags": {
+                "disable_tracking_label": "Disable link click tracking in this tag",
+                "disable_tracking_help": "Posts in any discussion tagged with this won't have their links tracked. Existing counts are kept."
+            },
+            "analytics": {
+                "title": "Click analytics",
+                "since": "Since",
+                "until": "Until",
+                "scope": "Scope",
+                "scope_all": "All links",
+                "scope_external": "External only",
+                "scope_internal": "Internal only",
+                "scope_attachments": "Attachments only",
+                "tag": "Tag",
+                "tag_placeholder": "tag-slug (optional)",
+                "attachment_label": "Attachment",
+                "internal_label": "Internal",
+                "external_label": "External",
+                "column_url": "Link",
+                "column_total": "Clicks",
+                "column_unique": "Unique people",
+                "column_first": "First click",
+                "column_last": "Last click",
+                "empty": "No clicks in the selected window.",
+                "export_csv": "Export CSV",
+                "drilldown_tooltip": "Click to see who clicked this link"
+            },
+            "clickers": {
+                "title": "Who clicked this link",
+                "column_who": "Who",
+                "column_clicks": "Clicks",
+                "column_first": "First click",
+                "column_last": "Last click",
+                "guest": "Guest",
+                "anonymized": "Anonymized",
+                "empty": "No counted clicks for this link.",
+                "view_trail_tooltip": "Show what this user clicked"
+            },
+            "click_trail": {
+                "title": "{name}'s click trail",
+                "column_link": "Link",
+                "column_when": "When",
+                "empty": "No counted clicks recorded for this user."
+            },
+            "domains": {
+                "title": "Top domains (last 30 days)",
+                "column_domain": "Domain",
+                "column_urls": "URLs"
+            },
+            "devices": {
+                "title": "Where clicks come from (last 30 days)",
+                "devices_label": "By device",
+                "browsers_label": "By browser",
+                "devices": {
+                    "mobile": "Mobile",
+                    "tablet": "Tablet",
+                    "desktop": "Desktop"
+                },
+                "browsers": {
+                    "chrome": "Chrome",
+                    "firefox": "Firefox",
+                    "safari": "Safari",
+                    "edge": "Edge",
+                    "opera": "Opera",
+                    "samsung": "Samsung Internet",
+                    "other": "Other"
+                }
+            },
+            "heatmap": {
+                "title": "Click heatmap (last 30 days)",
+                "lead": "Each cell is one hour of one day. Darker = busier."
+            },
+            "timeseries": {
+                "title": "Daily clicks",
+                "total_clicks": "total",
+                "avg_per_day": "avg / day",
+                "peak_day": "peak day"
+            }
+        },
+        "gdpr": {
+            "export_description": "All recorded link clicks made by this user.",
+            "anonymize_description": "Strip the user_id and ip_address from each link click event for this user.",
+            "delete_description": "Delete every link click event recorded for this user."
+        }
+    }
+}
