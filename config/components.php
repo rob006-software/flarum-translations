@@ -68,6 +68,12 @@ return [
 	'datlechin-more-discussions' => [
 		'beta' => 'https://raw.githubusercontent.com/datlechin/flarum-more-discussions/v2.0.0-beta.1/locale/en.yml',
 	],
+	'datlechin-passkey' => [
+		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-passkey/v1.0.1/locale/en.yml',
+		'__builtInLanguages' => [
+			'vi',
+		],
+	],
 	'datlechin-posted-on' => [
 		'beta' => 'https://raw.githubusercontent.com/datlechin/flarum-posted-on/v2.0.0-beta.2/locale/en.yml',
 	],
