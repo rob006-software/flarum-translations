@@ -509,7 +509,7 @@ return [
 		],
 	],
 	'ramon-guest-cta' => [
-		'tag' => 'https://raw.githubusercontent.com/ram0ng1/guest-cta/2.0.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ram0ng1/guest-cta/2.0.1/locale/en.yml',
 		'__builtInLanguages' => [
 			'pt_BR',
 		],
