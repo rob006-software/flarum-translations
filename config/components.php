@@ -514,6 +514,12 @@ return [
 			'pt_BR',
 		],
 	],
+	'ramon-backup' => [
+		'tag' => 'https://raw.githubusercontent.com/ram0ng1/backup/2.0.7/locale/en.yml',
+		'__builtInLanguages' => [
+			'pt_BR',
+		],
+	],
 	'ramon-classifieds' => [
 		'tag' => 'https://raw.githubusercontent.com/ram0ng1/classifieds/1.0.0/locale/en.yml',
 		'__builtInLanguages' => [
