@@ -1,0 +1,127 @@
+{
+    "datlechin-passkey": {
+        "forum": {
+            "log_in": {
+                "sign_in_with_passkey": "Sign in with passkey",
+                "passkey_unsupported": "This browser does not support passkeys.",
+                "verifying": "Verifying passkey...",
+                "cancelled": "Passkey sign-in was cancelled.",
+                "failed": "Could not verify your passkey. Please try again.",
+                "unsupported": "This device cannot use the passkey type the site requires.",
+                "security_error": "The site origin does not match the configured relying party. Ask an admin to check the Passkey settings.",
+                "throttled": "Too many passkey login attempts. Please wait a minute and try again."
+            },
+            "suggest": {
+                "title": "Set up a passkey",
+                "body": "Sign in faster next time, without having to remember a password. Your device generates a passkey that only works on this site.",
+                "set_up": "Set up a passkey",
+                "not_now": "Not now"
+            },
+            "required": {
+                "body": "Your role requires you to register a passkey before you can continue.",
+                "set_up": "Set up now"
+            },
+            "settings": {
+                "heading": "Passkeys",
+                "description": "Passkeys let you sign in without a password using your device or a hardware key.",
+                "add_button": "Add passkey",
+                "bulk_revoke_button": "Revoke all",
+                "add_modal": {
+                    "title": "Add a passkey",
+                    "device_name_label": "Name this passkey",
+                    "device_name_placeholder": "e.g. iPhone, MacBook, YubiKey",
+                    "register_button": "Register",
+                    "cancel_button": "Cancel"
+                },
+                "bulk_revoke_modal": {
+                    "body": "Revoke all {count} of your passkeys? You will not be able to sign in with any of them afterwards."
+                },
+                "list": {
+                    "empty": "You have not added any passkeys yet.",
+                    "added_label": "Added",
+                    "last_used_label": "Last used",
+                    "never_used": "Never used",
+                    "synced": "Synced",
+                    "device_only": "This device only",
+                    "rename_button": "Rename",
+                    "revoke_button": "Revoke"
+                },
+                "rename_modal": {
+                    "title": "Rename passkey",
+                    "save_button": "Save",
+                    "cancel_button": "Cancel"
+                },
+                "revoke_modal": {
+                    "title": "Revoke passkey",
+                    "body": "Are you sure you want to revoke {device}? You will not be able to sign in with this passkey afterwards.",
+                    "confirm_button": "Revoke",
+                    "cancel_button": "Cancel"
+                },
+                "alerts": {
+                    "registration_succeeded": "Passkey added.",
+                    "registration_failed": "Could not register your passkey. Please try again.",
+                    "registration_already_exists": "This device already has a passkey for your account. Revoke the existing one first, or use a different device.",
+                    "registration_security_error": "The site origin does not match the configured relying party. Ask an admin to check the Passkey settings.",
+                    "registration_unsupported": "This device cannot register a passkey of the type the site requires.",
+                    "rename_succeeded": "Passkey renamed.",
+                    "revoke_succeeded": "Passkey revoked.",
+                    "bulk_revoke_succeeded": "All passkeys revoked."
+                }
+            }
+        },
+        "gdpr": {
+            "export_description": "Includes the device label, last-used timestamp, IP, and authenticator metadata for each registered passkey. Public keys identify a credential but cannot be used to forge a sign-in.",
+            "anonymize_description": "All passkeys belonging to this user are revoked.",
+            "delete_description": "All passkeys belonging to this user are deleted."
+        },
+        "email": {
+            "revoked": {
+                "subject": "A passkey was removed from your {forum} account",
+                "body": "Hi {username},\n\nThe passkey \"{device}\" was just removed from your account on {forum}. {actor}\n\nIf you did not expect this, your account may be at risk. Sign in and review your remaining passkeys at the security tab. If you no longer have access, use the password-reset link on the login screen.\n\n{forum}\n",
+                "actor_self": "You initiated this revoke from the security tab.",
+                "actor_admin": "A site moderator removed it on your behalf."
+            },
+            "counter_regression": {
+                "subject": "Possible passkey clone detected on your {forum} account",
+                "body": "Hi {username},\n\nAn attempt to sign in to {forum} with your passkey \"{device}\" failed because the credential reported a signature counter lower than the one we have on record. This is the canonical signal that the credential may have been copied to a second device.\n\nThe login was rejected. We recommend you sign in with your password, revoke this passkey, and register a fresh one. If you have other devices configured with the same credential, also remove them from your password manager.\n\n{forum}\n"
+            },
+            "backup_state": {
+                "subject": "Sync state changed for a passkey on {forum}",
+                "body": "Hi {username},\n\nYour passkey \"{device}\" on {forum} is now {state}.\n\nIf you triggered this yourself (for example by signing in to iCloud Keychain or a password manager on a new device), you can ignore this message. If not, sign in and review the security tab. The passkey may have been copied to another device.\n\n{forum}\n",
+                "synced": "synced to a cloud password manager",
+                "unsynced": "stored on a single device only"
+            },
+            "bulk_revoked": {
+                "subject": "All passkeys were removed from your {forum} account",
+                "body": "Hi {username},\n\nAll {count} passkeys were just removed from your account on {forum}. {actor}\n\nIf you did not expect this, sign in with your password and check the security tab. If you cannot sign in, use the password-reset link on the login screen.\n\n{forum}\n",
+                "actor_self": "You initiated this revoke from the security tab.",
+                "actor_admin": "A site moderator removed them on your behalf."
+            }
+        },
+        "admin": {
+            "settings": {
+                "title": "Passkey",
+                "description": "Configure passkey authentication for this forum.",
+                "rp_id_label": "Relying Party ID",
+                "rp_id_help": "The DNS name that scopes a passkey. Leave blank to auto-detect from the request host. Changing this invalidates every existing passkey.",
+                "rp_name_label": "Relying Party display name",
+                "rp_name_help": "The name shown to users in the browser passkey prompt. Defaults to the forum title.",
+                "related_origins_label": "Related origins (one per line)",
+                "related_origins_help": "Additional origins permitted to perform passkey ceremonies. Used together with the W3C related-origins document at /.well-known/webauthn.",
+                "user_verification_label": "User verification",
+                "user_verification_required": "Required (always ask for biometric or PIN)",
+                "user_verification_preferred": "Preferred (ask if the device supports it)",
+                "user_verification_discouraged": "Discouraged (touch only, less secure)",
+                "attestation_label": "Attestation conveyance",
+                "attestation_none": "None (recommended)",
+                "attestation_indirect": "Indirect",
+                "attestation_direct": "Direct",
+                "throttle_label": "Login attempts per minute per IP"
+            },
+            "group_modal": {
+                "require_passkey": "Require passkey for this group",
+                "require_passkey_help": "Members will be reminded with a sticky banner until they register at least one passkey."
+            }
+        }
+    }
+}
