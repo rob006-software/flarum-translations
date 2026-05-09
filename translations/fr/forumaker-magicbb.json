@@ -2,35 +2,35 @@
     "forumaker-magicbb": {
         "admin": {
             "settings": {
-                "bb_center": "",
-                "bb_justify": "",
-                "bb_color": "",
-                "bb_spoiler": "",
-                "bb_table": "",
-                "bb_info": "",
-                "bb_audio": "",
-                "bb_image": "",
-                "bb_image_help": "",
-                "bb_iframe": "",
+                "bb_center": "Centrer",
+                "bb_justify": "Justifier",
+                "bb_color": "Couleur",
+                "bb_spoiler": "Divulgâcher",
+                "bb_table": "Tableau",
+                "bb_info": "Alertes",
+                "bb_audio": "Audio",
+                "bb_image": "FoF Upload",
+                "bb_image_help": "Ajoute un nouveau bouton dans le compositeur pour l'alignement des images. Les grandes images centrées sont automatiquement redimensionnées à 60 % de la largeur du message, et celles alignées sur le côté, jusqu'à 40 %",
+                "bb_iframe": "iframe",
                 "bb_iframe_help": "",
-                "bb_hide_login": "",
-                "bb_hide_login_help": "",
-                "bb_hide_reply": "",
-                "bb_hide_reply_help": "",
-                "bb_hide_like": "",
-                "bb_hide_like_help": "",
-                "toolbar_group": "",
-                "toolbar_group_help": ""
+                "bb_hide_login": "Connexion",
+                "bb_hide_login_help": "Le contenu est masqué pour les invités et visible pour tous les utilisateurs connectés",
+                "bb_hide_reply": "Réponse",
+                "bb_hide_reply_help": "Le contenu reste masqué jusqu'à ce que l'utilisateur réponde dans la discussion",
+                "bb_hide_like": "J'aime",
+                "bb_hide_like_help": "Le contenu reste masqué jusqu'à ce que l'utilisateur « aime » le message",
+                "toolbar_group": "Regrouper les boutons MagicBB",
+                "toolbar_group_help": "Si cette option est activée, tous les boutons de MagicBB seront regroupés en un seul bouton dans le compositeur"
             },
             "sections": {
-                "text": "",
-                "content": "",
+                "text": "Boutons de texte",
+                "content": "Boutons de contenu",
                 "images": "",
-                "features": "",
-                "hide": ""
+                "features": "Fonctionnalités",
+                "hide": "Masquer les boutons"
             },
             "permissions": {
-                "use_iframe": "",
+                "use_iframe": "Autoriser les iframes",
                 "bypass_like": "",
                 "bypass_reply": ""
             }
