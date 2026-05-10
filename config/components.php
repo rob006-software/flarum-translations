@@ -586,6 +586,12 @@ return [
 	'sycho-profile-cover' => [
 		'tag' => 'https://raw.githubusercontent.com/SychO9/flarum-profile-cover/v2.0.0/resources/locale/en.yml',
 	],
+	'treeslins-reply-to-see' => [
+		'tag' => 'https://raw.githubusercontent.com/treeslins/flarum-ext-reply-to-see/v1.0.6/locale/en.yml',
+		'__builtInLanguages' => [
+			'zh_Hans',
+		],
+	],
 	'tryhackx-advanced-pages' => [
 		'tag' => 'https://raw.githubusercontent.com/TryHackX/flarum-advanced-pages/2.0.3/resources/locale/en.yml',
 		'__builtInLanguages' => [
