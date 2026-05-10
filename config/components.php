@@ -1720,7 +1720,7 @@ return [
 		],
 	],
 	'walsgit-recycle-bin' => [
-		'tag' => 'https://raw.githubusercontent.com/WalsGit/recycle-bin/0.2.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/WalsGit/recycle-bin/0.2.2/locale/en.yml',
 		'__builtInLanguages' => [
 			'fr',
 		],
