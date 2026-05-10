@@ -920,6 +920,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`datlechin-discussion-overview`](https://weblate.rob006.net/projects/flarum2/datlechin-discussion-overview) | [`datlechin/flarum-discussion-overview`](https://github.com/datlechin/flarum-discussion-overview) |
 | [`datlechin-link-clicks`](https://weblate.rob006.net/projects/flarum2/datlechin-link-clicks) | [`datlechin/flarum-link-clicks`](https://github.com/datlechin/flarum-link-clicks) |
 | [`datlechin-link-preview`](https://weblate.rob006.net/projects/flarum2/datlechin-link-preview) | [`datlechin/flarum-link-preview`](https://github.com/datlechin/flarum-link-preview) |
+| [`datlechin-mermaid`](https://weblate.rob006.net/projects/flarum2/datlechin-mermaid) | [`datlechin/flarum-mermaid`](https://github.com/datlechin/flarum-mermaid) |
 | [`datlechin-more-discussions`](https://weblate.rob006.net/projects/flarum2/datlechin-more-discussions) | [`datlechin/flarum-more-discussions`](https://github.com/datlechin/flarum-more-discussions) |
 | [`datlechin-passkey`](https://weblate.rob006.net/projects/flarum2/datlechin-passkey) | [`datlechin/flarum-passkey`](https://github.com/datlechin/flarum-passkey) |
 | [`datlechin-posted-on`](https://weblate.rob006.net/projects/flarum2/datlechin-posted-on) | [`datlechin/flarum-posted-on`](https://github.com/datlechin/flarum-posted-on) |
@@ -993,6 +994,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`sycho-move-posts`](https://weblate.rob006.net/projects/flarum2/sycho-move-posts) | [`sycho/flarum-move-posts`](https://github.com/SychO9/flarum-move-posts) |
 | [`sycho-private-facade`](https://weblate.rob006.net/projects/flarum2/sycho-private-facade) | [`sycho/flarum-private-facade`](https://github.com/SychO9/flarum-private-facade) |
 | [`sycho-profile-cover`](https://weblate.rob006.net/projects/flarum2/sycho-profile-cover) | [`sycho/flarum-profile-cover`](https://github.com/SychO9/flarum-profile-cover) |
+| [`treeslins-reply-to-see`](https://weblate.rob006.net/projects/flarum2/treeslins-reply-to-see) | [`treeslins/flarum-ext-reply-to-see`](https://github.com/treeslins/flarum-ext-reply-to-see) |
 | [`tryhackx-advanced-pages`](https://weblate.rob006.net/projects/flarum2/tryhackx-advanced-pages) | [`tryhackx/flarum-advanced-pages`](https://github.com/TryHackX/flarum-advanced-pages) |
 | [`tryhackx-homepage-blocks`](https://weblate.rob006.net/projects/flarum2/tryhackx-homepage-blocks) | [`tryhackx/flarum-homepage-blocks`](https://github.com/TryHackX/flarum-homepage-blocks) |
 | [`tryhackx-magnet-link`](https://weblate.rob006.net/projects/flarum2/tryhackx-magnet-link) | [`tryhackx/flarum-magnet-link`](https://github.com/TryHackX/flarum-magnet-link) |
