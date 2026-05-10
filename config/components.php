@@ -632,7 +632,7 @@ return [
 		],
 	],
 	'walsgit-recycle-bin' => [
-		'tag' => 'https://raw.githubusercontent.com/WalsGit/recycle-bin/2.0.3/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/WalsGit/recycle-bin/2.0.4/locale/en.yml',
 	],
 	'yippy-auth-ldap' => [
 		'tag' => 'https://raw.githubusercontent.com/Yippy/flarum-ext-auth-ldap/v2.0.2/locale/en.yml',
