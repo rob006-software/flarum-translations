@@ -110,6 +110,9 @@ return [
 	'ekumanov-post-search' => [
 		'tag' => 'https://raw.githubusercontent.com/ekumanov/flarum-ext-post-search/v1.0.0/locale/en.yml',
 	],
+	'ernestdefoe-facebook-post' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/flarum-facebook-post/2.0/locale/en.yml',
+	],
 	'flarum-akismet' => [
 		'beta' => 'https://raw.githubusercontent.com/flarum/akismet/v2.0.0-beta.8/locale/en.yml',
 	],
