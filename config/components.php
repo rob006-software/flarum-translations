@@ -518,7 +518,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/Ralkage/flarum-ext-word-counter/v2.0.0-beta.8/locale/en.yml',
 	],
 	'ramon-avocado' => [
-		'tag' => 'https://raw.githubusercontent.com/ram0ng1/avocado/v2.0.9/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ram0ng1/avocado/v2.0.10/locale/en.yml',
 		'__builtInLanguages' => [
 			'pt_BR',
 		],
