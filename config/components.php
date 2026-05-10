@@ -542,7 +542,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ram0ng1/stickers/2.0.5/locale/en.yml',
 	],
 	'ramon-verified' => [
-		'tag' => 'https://raw.githubusercontent.com/ram0ng1/verified/2.0.8/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ram0ng1/verified/2.0.9/locale/en.yml',
 		'__builtInLanguages' => [
 			'pt_BR',
 		],
