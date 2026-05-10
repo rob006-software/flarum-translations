@@ -453,7 +453,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-welcomebox/3.0.0/locale/en.yml',
 	],
 	'linkrobins-referral' => [
-		'tag' => 'https://raw.githubusercontent.com/linkrobins/referral/v1.0.3/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/linkrobins/referral/v1.0.4/locale/en.yml',
 		'__builtInLanguages' => [
 			'es',
 			'ko',
