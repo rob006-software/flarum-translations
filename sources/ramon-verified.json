@@ -15,6 +15,11 @@
                 "hint": "Enter the number or the tier ID (e.g. 1 or blue).",
                 "no_tiers": "No tiers configured. Add tiers in Admin → Verified before verifying users.",
                 "invalid": "Invalid tier. Verification cancelled."
+            },
+            "errors": {
+                "generic": "Something went wrong. Please try again.",
+                "network": "Network error. Check your connection and try again.",
+                "clipboard": "Could not copy to clipboard."
             }
         },
         "forum": {
@@ -44,7 +49,9 @@
                 "verify_prompt": "Optional note for the audit log:",
                 "revoke_prompt": "Reason for revocation (visible in the audit log):",
                 "verify_success": "User has been verified.",
-                "revoke_success": "Verification revoked."
+                "revoke_success": "Verification revoked.",
+                "verify_failed": "Could not verify the user. Please try again.",
+                "revoke_failed": "Could not revoke verification. Please try again."
             },
             "request_modal": {
                 "title": "Request verification",
@@ -250,7 +257,13 @@
                 "revoke_prompt": "Reason for revocation (shown in the audit log):",
                 "approve_success": "User has been verified.",
                 "reject_success": "Request rejected.",
-                "revoke_success": "Verification revoked."
+                "revoke_success": "Verification revoked.",
+                "load_failed": "Could not load verification requests. Please try again.",
+                "load_approved_failed": "Could not load approved users. Please try again.",
+                "decide_failed": "Could not save the decision. Please try again.",
+                "revoke_user_failed": "Could not revoke verification. Please try again.",
+                "generate_keypair_failed": "Could not generate keypair. Please try again.",
+                "status_load_failed": "Could not load encryption status."
             }
         },
         "email": {

@@ -15,6 +15,11 @@
                 "hint": "",
                 "no_tiers": "",
                 "invalid": ""
+            },
+            "errors": {
+                "generic": "",
+                "network": "",
+                "clipboard": ""
             }
         },
         "forum": {
@@ -44,7 +49,9 @@
                 "verify_prompt": "",
                 "revoke_prompt": "",
                 "verify_success": "",
-                "revoke_success": ""
+                "revoke_success": "",
+                "verify_failed": "",
+                "revoke_failed": ""
             },
             "request_modal": {
                 "title": "",
@@ -250,7 +257,13 @@
                 "revoke_prompt": "",
                 "approve_success": "",
                 "reject_success": "",
-                "revoke_success": ""
+                "revoke_success": "",
+                "load_failed": "",
+                "load_approved_failed": "",
+                "decide_failed": "",
+                "revoke_user_failed": "",
+                "generate_keypair_failed": "",
+                "status_load_failed": ""
             }
         },
         "email": {

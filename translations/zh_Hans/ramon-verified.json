@@ -15,6 +15,11 @@
                 "hint": "输入认证级别的ID（例如1或blue）。",
                 "no_tiers": "暂未配置级别。从管理后台》Verified插件中添加认证级别后，再进行认证。",
                 "invalid": "认证级别无效。认证已被取消。"
+            },
+            "errors": {
+                "generic": "",
+                "network": "",
+                "clipboard": ""
             }
         },
         "forum": {
@@ -44,7 +49,9 @@
                 "verify_prompt": "可选的审核备注日志：",
                 "revoke_prompt": "撤销理由（审核日志中可见）：",
                 "verify_success": "用户认证已完成。",
-                "revoke_success": "撤销认证成功。"
+                "revoke_success": "撤销认证成功。",
+                "verify_failed": "",
+                "revoke_failed": ""
             },
             "request_modal": {
                 "title": "申请认证",
@@ -255,7 +262,13 @@
                 "revoke_prompt": "撤销理由（将展示在审核日志中）：",
                 "approve_success": "用户已通过认证。",
                 "reject_success": "申请已被拒绝。",
-                "revoke_success": "认证已被撤销。"
+                "revoke_success": "认证已被撤销。",
+                "load_failed": "",
+                "load_approved_failed": "",
+                "decide_failed": "",
+                "revoke_user_failed": "",
+                "generate_keypair_failed": "",
+                "status_load_failed": ""
             }
         },
         "email": {
