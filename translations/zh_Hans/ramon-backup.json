@@ -29,6 +29,8 @@
                 "content_assets": "资产",
                 "content_storage": "存储",
                 "content_extensions": "插件",
+                "target_for": "",
+                "target_tooltip": "",
                 "encrypted": "已加密",
                 "plain": "未加密",
                 "download_title": "下载",
@@ -112,6 +114,13 @@
                 "extensions_tag_workbench": "Workbench",
                 "extensions_tag_vendor": "Vendor",
                 "extensions_tag_unknown": "未知",
+                "target_title": "",
+                "target_help": "",
+                "target_same": "",
+                "target_mysql": "",
+                "target_mariadb": "",
+                "target_postgres": "",
+                "target_sqlite": "",
                 "encryption_title": "加密",
                 "encryption_enable": "加密此备份",
                 "encryption_help": "使用libsodium混合加密。文件包使用每个归档单独生成的对称密钥加密，然后该密钥再用公钥进行打包。",
@@ -130,7 +139,9 @@
                 "phase_finalize": "收尾中…",
                 "phase_done": "完成",
                 "phase_error": "错误",
-                "phase_error_network": "备份过程中与服务器连接中断。任务可能仍在服务器上运行。请稍后检查备份列表。"
+                "phase_error_network": "备份过程中与服务器连接中断。任务可能仍在服务器上运行。请稍后检查备份列表。",
+                "warnings_title": "",
+                "warnings_help": ""
             },
             "import_modal": {
                 "title": "导入备份",

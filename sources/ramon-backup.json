@@ -29,6 +29,8 @@
                 "content_assets": "Assets",
                 "content_storage": "Storage",
                 "content_extensions": "Extensions",
+                "target_for": "for {engine}",
+                "target_tooltip": "This backup's SQL was generated for {engine}. Restore it onto a {engine} install.",
                 "encrypted": "Encrypted",
                 "plain": "Plain",
                 "download_title": "Download",
@@ -112,6 +114,13 @@
                 "extensions_tag_workbench": "workbench",
                 "extensions_tag_vendor": "vendor",
                 "extensions_tag_unknown": "unknown",
+                "target_title": "Target database",
+                "target_help": "Where will this backup be restored? Pick the engine of the destination if it's different from this one — the SQL is generated for that engine, so you can migrate from MySQL to PostgreSQL (or any combination) without manual conversion.",
+                "target_same": "Same as this install (no conversion)",
+                "target_mysql": "MySQL 5.7+ / 8.0.30+",
+                "target_mariadb": "MariaDB 10.3+",
+                "target_postgres": "PostgreSQL 10+",
+                "target_sqlite": "SQLite 3.35+",
                 "encryption_title": "Encryption",
                 "encryption_enable": "Encrypt this backup",
                 "encryption_help": "Uses libsodium hybrid encryption. The body is encrypted with a per-archive symmetric key, which is then sealed with a public key.",
@@ -130,7 +139,9 @@
                 "phase_finalize": "Finalising…",
                 "phase_done": "Done",
                 "phase_error": "Error",
-                "phase_error_network": "Lost connection to the server during the backup. The job may still be running on the server — check the backup list shortly."
+                "phase_error_network": "Lost connection to the server during the backup. The job may still be running on the server — check the backup list shortly.",
+                "warnings_title": "{count} translation warning|{count} translation warnings",
+                "warnings_help": "Some columns use types that don't have a direct equivalent on the chosen target engine. The backup itself completes — but the destination column may not validate or behave identically. Review each note below before relying on this backup for migration."
             },
             "import_modal": {
                 "title": "Import a backup",
