@@ -5,7 +5,7 @@
                 "bb_center": "Centrer",
                 "bb_justify": "Justifier",
                 "bb_color": "Couleur",
-                "bb_spoiler": "Divulgâcher",
+                "bb_spoiler": "Spoiler",
                 "bb_table": "Tableau",
                 "bb_info": "Alertes",
                 "bb_audio": "Audio",
@@ -25,33 +25,33 @@
             "sections": {
                 "text": "Boutons de texte",
                 "content": "Boutons de contenu",
-                "images": "",
+                "images": "Boutons d'image",
                 "features": "Fonctionnalités",
                 "hide": "Masquer les boutons"
             },
             "permissions": {
                 "use_iframe": "Autoriser les iframes",
-                "bypass_like": "",
-                "bypass_reply": ""
+                "bypass_like": "Contourner l'exigence d'aimer",
+                "bypass_reply": "Contourner l'exigence de répondre"
             }
         },
         "forum": {
             "composer": {
-                "center_button": "",
-                "justify_button": "",
-                "color_button": "",
-                "spoiler_button": "",
-                "table_button": "",
-                "info_button": "",
-                "audio_button": "",
-                "image_button": "",
-                "more_button": "",
-                "hide_login_button": "",
-                "hide_reply_button": "",
-                "hide_like_button": ""
+                "center_button": "Centrer",
+                "justify_button": "Justifier",
+                "color_button": "Ajouter une couleur",
+                "spoiler_button": "Ajouter un spoiler",
+                "table_button": "Ajouter un tableau",
+                "info_button": "Ajouter une alerte",
+                "audio_button": "Ajouter un fichier audio",
+                "image_button": "Ajouter une image intelligente",
+                "more_button": "Plus",
+                "hide_login_button": "Masqué - connexion requise",
+                "hide_reply_button": "Masqué - réponse requise",
+                "hide_like_button": "Masqué – « J'aime » requis"
             },
             "hide": {
-                "login_to_see": "",
+                "login_to_see": "Ce contenu est visible après {login}",
                 "like_to_see": "",
                 "reply_to_see": "",
                 "like_link_fallback": "",
