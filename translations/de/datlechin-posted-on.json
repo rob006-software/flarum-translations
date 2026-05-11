@@ -4,9 +4,9 @@
             "settings": {
                 "display_mode_label": "",
                 "display_mode_help": "",
-                "display_mode_os_only": "",
-                "display_mode_os_browser": "",
-                "skip_guests_label": "",
+                "display_mode_os_only": "Nur Betriebssystem (z. B. Windows 11)",
+                "display_mode_os_browser": "Betriebssystem und Browser (z. B. Windows 11 · Chrome 147)",
+                "skip_guests_label": "Nicht für Gäste erfassen",
                 "skip_guests_help": ""
             }
         },
@@ -14,29 +14,29 @@
             "post": {
                 "posted_on_text": "Gepostet auf {posted_on}",
                 "tooltip": {
-                    "os": "",
-                    "client": "",
-                    "device": ""
+                    "os": "Betriebssystem",
+                    "client": "Browser",
+                    "device": "Gerät"
                 }
             },
             "settings": {
-                "privacy_disclose_posted_on_label": "Anderen erlauben zu sehen, auf welchen Geräten ich gepostet werde"
+                "privacy_disclose_posted_on_label": "Anderen anzeigen, von welchem Gerät aus ich poste"
             },
             "device_types": {
-                "desktop": "",
-                "smartphone": "",
-                "tablet": "",
+                "desktop": "Desktop",
+                "smartphone": "Handy",
+                "tablet": "Tablet",
                 "feature phone": "",
-                "console": "",
-                "tv": "",
-                "car browser": "",
+                "console": "Konsole",
+                "tv": "Fernseher",
+                "car browser": "Auto",
                 "smart display": "",
-                "camera": "",
-                "portable media player": "",
-                "phablet": "",
-                "smart speaker": "",
-                "wearable": "",
-                "peripheral": ""
+                "camera": "Kamera",
+                "portable media player": "Mediaplayer",
+                "phablet": "Phablet",
+                "smart speaker": "Smart-Lautsprecher",
+                "wearable": "Wearable",
+                "peripheral": "Peripheral"
             }
         }
     }
