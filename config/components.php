@@ -638,7 +638,7 @@ return [
 		],
 	],
 	'walsgit-discussion-cards' => [
-		'tag' => 'https://raw.githubusercontent.com/WalsGit/flarum-discussion-cards/2.0.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/WalsGit/flarum-discussion-cards/2.0.1/locale/en.yml',
 		'__builtInLanguages' => [
 			'fr',
 		],
