@@ -10,6 +10,15 @@
         "admin": {
             "settings": {
                 "statsToolsBanner": {
+                    "statTotalImagesTitle": "",
+                    "statDiscussionImagesTitle": "",
+                    "statDiscussionsWithoutImagesTitle": "",
+                    "statUnusedImagesTitle": "",
+                    "toolsMenuLabel": "",
+                    "toolsMenuUpdateStats": "",
+                    "toolsMenuPurgeImages": "",
+                    "toolsMenuRegenerateImages": "",
+                    "toolsMenuDebug": "",
                     "refreshStats": "",
                     "purgeImagesModal_title": "",
                     "purgeImagesModal_helpText": "",
@@ -38,7 +47,16 @@
                     "regenerateImagesModal_success": "",
                     "regenerateImagesModal_runningCommand": "",
                     "regenerateImagesModal_error": "",
-                    "regenerateImagesModal_unknownError": ""
+                    "regenerateImagesModal_unknownError": "",
+                    "debugModal_title": "",
+                    "debugModal_copyButton": "",
+                    "debugModal_copySuccess": "",
+                    "debugModal_copyError": "",
+                    "debugModal_discussionDebugTitle": "",
+                    "debugModal_discussionDebugHelpText": "",
+                    "debugModal_discussionDebugLabel": "",
+                    "debugModal_discussionDebugCheckBtn": "",
+                    "debugModal_discussionDebugCheckingMessage": ""
                 },
                 "general": {
                     "where_title": "Nerede?",
@@ -148,7 +166,8 @@
                 "adminImageUnauthorizedMethod": "",
                 "adminImageProcessingError": "",
                 "tagImageNoTagId": "",
-                "tagImageUnsupportedMethod": ""
+                "tagImageUnsupportedMethod": "",
+                "debugModalDiscussionId": ""
             },
             "console": {
                 "migrateImagesStart": "",

@@ -10,6 +10,15 @@
         "admin": {
             "settings": {
                 "statsToolsBanner": {
+                    "statTotalImagesTitle": "Total images",
+                    "statDiscussionImagesTitle": "Discussion images",
+                    "statDiscussionsWithoutImagesTitle": "Discussions without images",
+                    "statUnusedImagesTitle": "Unused images",
+                    "toolsMenuLabel": "Tools",
+                    "toolsMenuUpdateStats": "Update stats",
+                    "toolsMenuPurgeImages": "Purge Images",
+                    "toolsMenuRegenerateImages": "Regenerate images",
+                    "toolsMenuDebug": "Debug information",
                     "refreshStats": "Image statistics have been updated successfully",
                     "purgeImagesModal_title": "Purge images",
                     "purgeImagesModal_helpText": "These options will let you delete discussion card images from your server. You can find more purge options with the CLI command: <code>php flarum discussion-cards:purge-images --help</code>\n<strong>WARNING: these actions are irreversible!</strong> Also, note that default images (general or tag) will not be delete here (to delete them, use the remove button in the dedicated section of the extension settings or tag settings respectively",
@@ -38,7 +47,16 @@
                     "regenerateImagesModal_success": "Images regenerated successfully",
                     "regenerateImagesModal_runningCommand": "Running regenerate command...\n",
                     "regenerateImagesModal_error": "An error occurred while regenerating images.",
-                    "regenerateImagesModal_unknownError": "Unknown error"
+                    "regenerateImagesModal_unknownError": "Unknown error",
+                    "debugModal_title": "Debug information for Discussion Cards",
+                    "debugModal_copyButton": "Copy to clipboard",
+                    "debugModal_copySuccess": "Debug information successfully copied!",
+                    "debugModal_copyError": "Debug information couldn't be copied!",
+                    "debugModal_discussionDebugTitle": "Discussion's card image resolving test",
+                    "debugModal_discussionDebugHelpText": "Use this to check how and why a card image is selected for a specific discussion. Enter that discussion's ID number and click on the check discussion button.",
+                    "debugModal_discussionDebugLabel": "Discussion ID",
+                    "debugModal_discussionDebugCheckBtn": "Check discussion",
+                    "debugModal_discussionDebugCheckingMessage": "Analyzing card image resolution data for discussion #{discussionId}... (waiting for results)"
                 },
                 "general": {
                     "where_title": "Where?",
@@ -148,7 +166,8 @@
                 "adminImageUnauthorizedMethod": "Unauthorized method!",
                 "adminImageProcessingError": "Error while processing image: ",
                 "tagImageNoTagId": "No tagId provided!",
-                "tagImageUnsupportedMethod": "Unsupported method ({method})"
+                "tagImageUnsupportedMethod": "Unsupported method ({method})",
+                "debugModalDiscussionId": "Discussion ID number must be a positive number (1 or greater)"
             },
             "console": {
                 "migrateImagesStart": "➡ Migrating old Discussion Cards default images...",

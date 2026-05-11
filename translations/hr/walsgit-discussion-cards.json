@@ -10,6 +10,15 @@
         "admin": {
             "settings": {
                 "statsToolsBanner": {
+                    "statTotalImagesTitle": "",
+                    "statDiscussionImagesTitle": "",
+                    "statDiscussionsWithoutImagesTitle": "",
+                    "statUnusedImagesTitle": "",
+                    "toolsMenuLabel": "",
+                    "toolsMenuUpdateStats": "",
+                    "toolsMenuPurgeImages": "",
+                    "toolsMenuRegenerateImages": "",
+                    "toolsMenuDebug": "",
                     "refreshStats": "Statistika slika uspješno je ažurirana",
                     "purgeImagesModal_title": "Očisti slike",
                     "purgeImagesModal_helpText": "Ove opcije omogućuju brisanje slika kartica rasprava s vašeg poslužitelja. Dodatne opcije čišćenja možete pronaći pomoću CLI naredbe: <code>php flarum discussion-cards:purge-images --help</code>\n<strong>UPOZORENJE: ove radnje su nepovratne!</strong> Također, imajte na umu da zadane slike (opće ili oznake) ovdje neće biti obrisane (kako biste ih obrisali, upotrijebite gumb za uklanjanje u odgovarajućem odjeljku postavki proširenja ili postavki oznaka)",
@@ -38,7 +47,16 @@
                     "regenerateImagesModal_success": "Slike su uspješno regenerirane",
                     "regenerateImagesModal_runningCommand": "Pokreće se naredba za regeneraciju...\n",
                     "regenerateImagesModal_error": "Došlo je do pogreške prilikom regeneracije slika.",
-                    "regenerateImagesModal_unknownError": "Nepoznata pogreška"
+                    "regenerateImagesModal_unknownError": "Nepoznata pogreška",
+                    "debugModal_title": "",
+                    "debugModal_copyButton": "",
+                    "debugModal_copySuccess": "",
+                    "debugModal_copyError": "",
+                    "debugModal_discussionDebugTitle": "",
+                    "debugModal_discussionDebugHelpText": "",
+                    "debugModal_discussionDebugLabel": "",
+                    "debugModal_discussionDebugCheckBtn": "",
+                    "debugModal_discussionDebugCheckingMessage": ""
                 },
                 "general": {
                     "where_title": "Gdje?",
@@ -148,7 +166,8 @@
                 "adminImageUnauthorizedMethod": "",
                 "adminImageProcessingError": "",
                 "tagImageNoTagId": "",
-                "tagImageUnsupportedMethod": ""
+                "tagImageUnsupportedMethod": "",
+                "debugModalDiscussionId": ""
             },
             "console": {
                 "migrateImagesStart": "",

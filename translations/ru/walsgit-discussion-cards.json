@@ -10,6 +10,15 @@
         "admin": {
             "settings": {
                 "statsToolsBanner": {
+                    "statTotalImagesTitle": "",
+                    "statDiscussionImagesTitle": "",
+                    "statDiscussionsWithoutImagesTitle": "",
+                    "statUnusedImagesTitle": "",
+                    "toolsMenuLabel": "",
+                    "toolsMenuUpdateStats": "",
+                    "toolsMenuPurgeImages": "",
+                    "toolsMenuRegenerateImages": "",
+                    "toolsMenuDebug": "",
                     "refreshStats": "Статистика изображений обновлена",
                     "purgeImagesModal_title": "Очистка изображений",
                     "purgeImagesModal_helpText": "Эти параметры позволяют удалить изображения карточек дискуссий с вашего сервера. Дополнительные параметры доступны через CLI-команду: <code>php flarum discussion-cards:purge-images --help</code>\n<strong>ВНИМАНИЕ: эти действия необратимы.</strong> Также учтите, что изображения по умолчанию — общие или для тегов — здесь не удаляются. Для их удаления используйте кнопку удаления в соответствующем разделе настроек расширения или тегов.",
@@ -38,7 +47,16 @@
                     "regenerateImagesModal_success": "Изображения пересозданы",
                     "regenerateImagesModal_runningCommand": "Выполняется команда...\n",
                     "regenerateImagesModal_error": "Произошла ошибка при пересоздании изображений.",
-                    "regenerateImagesModal_unknownError": "Неизвестная ошибка"
+                    "regenerateImagesModal_unknownError": "Неизвестная ошибка",
+                    "debugModal_title": "",
+                    "debugModal_copyButton": "",
+                    "debugModal_copySuccess": "",
+                    "debugModal_copyError": "",
+                    "debugModal_discussionDebugTitle": "",
+                    "debugModal_discussionDebugHelpText": "",
+                    "debugModal_discussionDebugLabel": "",
+                    "debugModal_discussionDebugCheckBtn": "",
+                    "debugModal_discussionDebugCheckingMessage": ""
                 },
                 "general": {
                     "where_title": "Где?",
@@ -148,7 +166,8 @@
                 "adminImageUnauthorizedMethod": "",
                 "adminImageProcessingError": "",
                 "tagImageNoTagId": "",
-                "tagImageUnsupportedMethod": ""
+                "tagImageUnsupportedMethod": "",
+                "debugModalDiscussionId": ""
             },
             "console": {
                 "migrateImagesStart": "",
