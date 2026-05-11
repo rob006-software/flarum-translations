@@ -10,6 +10,15 @@
         "admin": {
             "settings": {
                 "statsToolsBanner": {
+                    "statTotalImagesTitle": "",
+                    "statDiscussionImagesTitle": "",
+                    "statDiscussionsWithoutImagesTitle": "",
+                    "statUnusedImagesTitle": "",
+                    "toolsMenuLabel": "",
+                    "toolsMenuUpdateStats": "",
+                    "toolsMenuPurgeImages": "",
+                    "toolsMenuRegenerateImages": "",
+                    "toolsMenuDebug": "",
                     "refreshStats": "Bildstatistiken wurden erfolgreich aktualisiert",
                     "purgeImagesModal_title": "Bilder löschen",
                     "purgeImagesModal_helpText": "Mit diesen Optionen kannst du Bilder von Diskussionskarten von deinem Server löschen. Weitere Löschoptionen findest du mit dem folgenden CLI-Befehl: <code>php flarum discussion-cards:purge-images --help</code>\n<strong>WARNUNG: Diese Aktionen sind irreversibel!</strong> Beachte außerdem, dass Standardbilder (allgemein oder nach Tag) hier nicht gelöscht werden (um sie zu löschen, verwende die Schaltfläche „Entfernen“ im entsprechenden Bereich der Erweiterungs- bzw. Tag-Einstellungen).",
@@ -38,7 +47,16 @@
                     "regenerateImagesModal_success": "Bilder erfolgreich neu erstellt",
                     "regenerateImagesModal_runningCommand": "Befehl „regenerate“ wird ausgeführt...\n",
                     "regenerateImagesModal_error": "Beim Neuerstellen der Bilder ist ein Fehler aufgetreten.",
-                    "regenerateImagesModal_unknownError": "Unbekannter Fehler"
+                    "regenerateImagesModal_unknownError": "Unbekannter Fehler",
+                    "debugModal_title": "",
+                    "debugModal_copyButton": "",
+                    "debugModal_copySuccess": "",
+                    "debugModal_copyError": "",
+                    "debugModal_discussionDebugTitle": "",
+                    "debugModal_discussionDebugHelpText": "",
+                    "debugModal_discussionDebugLabel": "",
+                    "debugModal_discussionDebugCheckBtn": "",
+                    "debugModal_discussionDebugCheckingMessage": ""
                 },
                 "general": {
                     "where_title": "Wo?",
@@ -152,7 +170,8 @@
                 "adminImageProcessingError": "",
                 "tagImageNoTagId": "",
                 "tagImageUnsupportedMethod": "",
-                "tagSettingsNoTagId": ""
+                "tagSettingsNoTagId": "",
+                "debugModalDiscussionId": ""
             },
             "console": {
                 "migrateImagesStart": "",
