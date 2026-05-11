@@ -8,6 +8,7 @@
                 "empty_title": "No groups yet",
                 "empty_text": "Be the first to create a group!",
                 "empty_search": "No groups match your search.",
+                "load_error": "Failed to load groups. Please try again.",
                 "members_count": "{count} member|{count} members",
                 "join": "Join",
                 "joined": "Joined",
@@ -76,7 +77,11 @@
                 "demote_member": "Demote to Member",
                 "role_creator": "Creator",
                 "role_admin": "Moderator",
-                "remove_member": "Remove"
+                "remove_member": "Remove",
+                "load_error": "Failed to load group.",
+                "not_found": "Group not found.",
+                "members_load_error": "Could not load members.",
+                "members_empty": "No members yet."
             },
             "requests": {
                 "title": "Join Requests",
