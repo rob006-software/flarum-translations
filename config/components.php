@@ -110,6 +110,9 @@ return [
 	'ekumanov-post-search' => [
 		'tag' => 'https://raw.githubusercontent.com/ekumanov/flarum-ext-post-search/v1.0.0/locale/en.yml',
 	],
+	'ernestdefoe-social-groups' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/social-groups/2.1.2/locale/en.yml',
+	],
 	'flarum-akismet' => [
 		'beta' => 'https://raw.githubusercontent.com/flarum/akismet/v2.0.0-beta.8/locale/en.yml',
 	],
@@ -451,6 +454,9 @@ return [
 	],
 	'justoverclock-welcomebox' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-welcomebox/3.0.0/locale/en.yml',
+	],
+	'linkrobins-html-widget' => [
+		'tag' => 'https://raw.githubusercontent.com/linkrobins/html-widget/v1.0.0/locale/en.yml',
 	],
 	'linkrobins-markdown-widget' => [
 		'tag' => 'https://raw.githubusercontent.com/linkrobins/markdown-widget/v1.0.0/locale/en.yml',
