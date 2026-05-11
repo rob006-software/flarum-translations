@@ -2,12 +2,12 @@
     "linkrobins-markdown-widget": {
         "admin": {
             "settings": {
-                "title_label": "",
-                "title_help": "",
-                "icon_label": "",
-                "icon_help": "",
-                "body_label": "",
-                "body_help": ""
+                "title_label": "Titel",
+                "title_help": "Optional. Wird oberhalb des Texts angezeigt. Für keine Kopfzeile leer lassen.",
+                "icon_label": "Symbolklasse",
+                "icon_help": "Die FontAwesome-Klasse, die neben dem Titel angezeigt wird (z. B. fas fa-bullhorn). Für kein Symbol bitte leer lassen.",
+                "body_label": "Markdown-Body",
+                "body_help": "Standard-Markdown (GitHub-Variante). Überschriften, Listen, Links, Code, Tabellen und Inline-HTML werden unterstützt. Inline-HTML wird unverändert dargestellt, füge daher nur Inhalte ein, denen du vertraust."
             }
         }
     }

@@ -1,29 +1,29 @@
 {
     "linkrobins-countdown-widget": {
         "forum": {
-            "not_configured": "",
+            "not_configured": "Lege im Admin-Bereich ein Endzeitpunkt fest.",
             "unit": {
-                "days": "",
-                "hours": "",
-                "minutes": "",
-                "seconds": ""
+                "days": "T",
+                "hours": "H",
+                "minutes": "M",
+                "seconds": "S"
             }
         },
         "admin": {
             "settings": {
-                "title_label": "",
-                "title_help": "",
-                "icon_label": "",
-                "icon_help": "",
-                "target_label": "",
-                "target_help": "",
-                "timezone_label": "",
-                "timezone_help": "",
-                "use_my_timezone": "",
-                "done_message_label": "",
-                "done_message_help": "",
-                "link_url_label": "",
-                "link_url_help": ""
+                "title_label": "Titel",
+                "title_help": "Optional. Wird oberhalb des Countdowns angezeigt. Für keine Kopfzeile leer lassen.",
+                "icon_label": "Symbolklasse",
+                "icon_help": "Die FontAwesome-Klasse, die neben dem Titel angezeigt wird (z. B. fas fa-bullhorn). Für kein Symbol bitte leer lassen.",
+                "target_label": "Endzeitpunkt",
+                "target_help": "Wähle den Zeitpunkt aus, bis zu dem der Countdown hinunterzählt. Die Datumsauswahl des Browsers zeigt Jahr, Monat, Tag, Stunde und Minute an. Die Zeitzoneneinstellung unten teilt dem Widget mit, in welcher Zeitzone sich diese Uhrzeit befindet.",
+                "timezone_label": "Zeitzone",
+                "timezone_help": "IANA-Zeitzonenname (z. B. UTC, America/New_York, Europe/Berlin, Asia/Tokyo). Der Browser jedes Besuchers zählt bis zum selben aktuellen Zeitpunkt herunter, unabhängig davon, wo er sich befindet.",
+                "use_my_timezone": "Meine Zeitzone verwenden",
+                "done_message_label": "Nachricht nach Ablauf",
+                "done_message_help": "Was soll angezeigt werden, wenn der Countdown bei Null angelangt ist? Wenn das Feld leer bleibt, wird standardmäßig ein Party-Emoji angezeigt.",
+                "link_url_label": "Link-URL",
+                "link_url_help": "Optional. Wenn aktiviert, werden die Countdown-Felder (und die Abschlussmeldung) zu einem anklickbaren Link zu dieser URL."
             }
         }
     }
