@@ -52,7 +52,7 @@
                     "twitter": {
                         "description": "Erstelle eine Applikation unter {link}. Du musst eine Nutzungsbedingungen-, sowie eine Datenschutzrichtlinien-URL festlegen. Weise dann die \"E-Mail anfordern\" Berechtigung deiner Applikation zu.",
                         "api_key_label": "API-Schlüssel",
-                        "api_secret_label": "API Secret"
+                        "api_secret_label": "API-Secret"
                     },
                     "google": {
                         "description": "Erstelle eine Applikation unter {link}.",
@@ -124,10 +124,10 @@
         },
         "ref": {
             "settings": {
-                "app_id": "App ID",
-                "app_secret": "App Secret",
+                "app_id": "App-ID",
+                "app_secret": "App-Secret",
                 "client_id": "Client ID",
-                "client_secret": "Client Secret"
+                "client_secret": "Client-Secret"
             }
         }
     }
