@@ -934,6 +934,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`ekumanov-markdown-tables`](https://weblate.rob006.net/projects/flarum2/ekumanov-markdown-tables) | [`ekumanov/flarum-ext-markdown-tables`](https://github.com/ekumanov/flarum-ext-markdown-tables) |
 | [`ekumanov-new-posts-notice`](https://weblate.rob006.net/projects/flarum2/ekumanov-new-posts-notice) | [`ekumanov/flarum-ext-new-posts-notice`](https://github.com/ekumanov/flarum-ext-new-posts-notice) |
 | [`ekumanov-post-search`](https://weblate.rob006.net/projects/flarum2/ekumanov-post-search) | [`ekumanov/flarum-ext-post-search`](https://github.com/ekumanov/flarum-ext-post-search) |
+| [`ernestdefoe-social-groups`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-social-groups) | [`ernestdefoe/social-groups`](https://github.com/ernestdefoe/social-groups) |
 | [`flectar-turnstile`](https://weblate.rob006.net/projects/flarum2/flectar-turnstile) | [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile) |
 | [`forumaker-magicbb`](https://weblate.rob006.net/projects/flarum2/forumaker-magicbb) | [`forumaker/magicbb`](https://github.com/forumaker/magicbb) |
 | [`forumaker-magicdice`](https://weblate.rob006.net/projects/flarum2/forumaker-magicdice) | [`forumaker/magicdice`](https://github.com/forumaker/magicdice) |
@@ -959,6 +960,9 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`import-ai-webhook-notification`](https://weblate.rob006.net/projects/flarum2/import-ai-webhook-notification) | [`import-ai/flarum-webhook-notification`](https://github.com/import-ai/flarum-webhook-notification) |
 | [`irmmr-rtl`](https://weblate.rob006.net/projects/flarum2/irmmr-rtl) | [`irmmr/flarum-ext-rtl`](https://github.com/irmmr/flarum-ext-rtl) |
 | [`justoverclock-welcomebox`](https://weblate.rob006.net/projects/flarum2/justoverclock-welcomebox) | [`justoverclock/flarum-ext-welcomebox`](https://github.com/justoverclockl/flarum-ext-welcomebox) |
+| [`linkrobins-countdown-widget`](https://weblate.rob006.net/projects/flarum2/linkrobins-countdown-widget) | [`linkrobins/countdown-widget`](https://github.com/linkrobins/countdown-widget) |
+| [`linkrobins-html-widget`](https://weblate.rob006.net/projects/flarum2/linkrobins-html-widget) | [`linkrobins/html-widget`](https://github.com/linkrobins/html-widget) |
+| [`linkrobins-markdown-widget`](https://weblate.rob006.net/projects/flarum2/linkrobins-markdown-widget) | [`linkrobins/markdown-widget`](https://github.com/linkrobins/markdown-widget) |
 | [`linkrobins-referral`](https://weblate.rob006.net/projects/flarum2/linkrobins-referral) | [`linkrobins/referral`](https://github.com/linkrobins/referral) |
 | [`linkrobins-shoutbox`](https://weblate.rob006.net/projects/flarum2/linkrobins-shoutbox) | [`linkrobins/shoutbox`](https://github.com/linkrobins/shoutbox) |
 | [`michaelbelgium-ai-autoreply`](https://weblate.rob006.net/projects/flarum2/michaelbelgium-ai-autoreply) | [`michaelbelgium/flarum-ai-autoreply`](https://github.com/MichaelBelgium/flarum-ai-autoreply) |
