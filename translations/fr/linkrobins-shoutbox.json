@@ -2,18 +2,18 @@
     "linkrobins-shoutbox": {
         "forum": {
             "widget": {
-                "title": "",
-                "placeholder": "",
-                "send": "",
-                "login_to_shout": "",
-                "delete_confirm": "",
-                "load_error": ""
+                "title": "Shoutbox",
+                "placeholder": "Dis quelque chose...",
+                "send": "Envoyer",
+                "login_to_shout": "Connectez-vous pour laisser un message !",
+                "delete_confirm": "Supprimer ce message ?",
+                "load_error": "Impossible de charger les messages."
             }
         },
         "admin": {
             "settings": {
-                "height_label": "",
-                "height_help": ""
+                "height_label": "Hauteur des messages (px)",
+                "height_help": "Hauteur de la zone des messages en pixels. La valeur par défaut est 320."
             }
         }
     }
