@@ -1,29 +1,29 @@
 {
     "linkrobins-countdown-widget": {
         "forum": {
-            "not_configured": "",
+            "not_configured": "Définir une date cible dans le panneau d'administration.",
             "unit": {
-                "days": "",
-                "hours": "",
-                "minutes": "",
-                "seconds": ""
+                "days": "J",
+                "hours": "H",
+                "minutes": "M",
+                "seconds": "S"
             }
         },
         "admin": {
             "settings": {
-                "title_label": "",
-                "title_help": "",
-                "icon_label": "",
-                "icon_help": "",
-                "target_label": "",
+                "title_label": "Titre",
+                "title_help": "Facultatif. S'affiche au-dessus du compte à rebours. Si vous ne souhaitez pas d'en-tête, laissez ce champ vide.",
+                "icon_label": "Classe d'icône",
+                "icon_help": "Classe FontAwesome à afficher à côté du titre (par exemple : fas fa-rocket, fas fa-bullhorn, fas fa-calendar). Si vous ne souhaitez pas d'icône, laissez ce champ vide.",
+                "target_label": "Date et heure cibles",
                 "target_help": "",
-                "timezone_label": "",
+                "timezone_label": "Fuseau horaire",
                 "timezone_help": "",
-                "use_my_timezone": "",
-                "done_message_label": "",
-                "done_message_help": "",
-                "link_url_label": "",
-                "link_url_help": ""
+                "use_my_timezone": "Utiliser mon fuseau horaire",
+                "done_message_label": "Message de fin",
+                "done_message_help": "Ce qu'il faut afficher lorsque le compte à rebours arrive à zéro. Si ce champs est vide, un émoji « fête » s'affiche par défaut.",
+                "link_url_label": "URL du lien",
+                "link_url_help": "Facultatif. Si cette option est activée, les cases du compte à rebours (ainsi que le message de fin) deviennent un lien cliquable vers cette URL."
             }
         }
     }
