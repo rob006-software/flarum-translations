@@ -25,7 +25,7 @@
                     "github-oauth": "GitHub OAuth",
                     "gitlab-oauth": "GitLab OAuth",
                     "gitlab-token": "GitLab Token",
-                    "bearer": "HTTP Bearer"
+                    "bearer": "HTTP-Bearer"
                 }
             },
             "composer": {
@@ -42,7 +42,7 @@
                         "rc": "Release-Kandidat",
                         "beta": "Beta",
                         "alpha": "Alpha",
-                        "dev": "Dev"
+                        "dev": "Entwickler"
                     }
                 },
                 "repositories": {
@@ -75,7 +75,7 @@
             "extensions": {
                 "check_why_it_failed_updating": "Zeige, warum sie nicht auf die neueste Version aktualisiert wurde.",
                 "install": "Installiere eine neue Erweiterung",
-                "install_help": "Geben sie den Paketnamen der Erweiterung ein, um fortzufahren. Sie können mithilfe des Formats <code>vendor/package-name:version</code> eine <semantic_link>semantische Version</semantic_link> angeben. Besuchen sie {extiverse}, um Erweiterungen zu durchsuchen.\n",
+                "install_help": "Geben Sie den Paketnamen der Erweiterung ein, um fortzufahren. Sie können mithilfe des Formats <code>vendor/package-name:version</code> eine <semantic_link>semantische Version</semantic_link> angeben. Besuchen Sie {link}, um Erweiterungen zu durchsuchen.\n",
                 "proceed": "Fortfahren",
                 "remove": "Deinstallieren",
                 "successful_install": "{extension} wurde erfolgreich installiert, leite weiter...",
@@ -157,7 +157,7 @@
                 "global_update_successful": "Alle Pakete erfolgreich aktualisiert.",
                 "last_update_checked_at": "Letzte Überprüfung auf Updates: ",
                 "run_global_update": "Globale Aktualisierung starten",
-                "updater_title": "Updates",
+                "updater_title": "Aktualisierungen",
                 "updater_help": "Führt eine Überprüfung auf neue Erweiterungen und Flarum-Updates durch."
             },
             "update_successful": "Flarum erfolgreich aktualisiert.",
