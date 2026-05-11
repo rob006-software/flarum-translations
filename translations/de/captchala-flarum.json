@@ -2,7 +2,7 @@
     "captchala-flarum": {
         "admin": {
             "settings": {
-                "app_key_label": "",
+                "app_key_label": "App-Schlüssel",
                 "app_key_help": "",
                 "app_secret_label": "",
                 "app_secret_help": "",
@@ -14,19 +14,19 @@
                     "float": "",
                     "embed": ""
                 },
-                "lang_label": "",
+                "lang_label": "Sprache",
                 "lang_help": "",
-                "signup": "",
-                "signin": "",
-                "forgot": "",
+                "signup": "=> core.forum.sign_up.title",
+                "signin": "=> core.forum.log_in.title",
+                "forgot": "=> core.forum.forgot_password.title",
                 "post": ""
             },
             "test": {
-                "title": "",
+                "title": "Verbindung testen",
                 "help_text": "",
-                "button": "",
-                "success": "",
-                "failure": ""
+                "button": "Verbindung testen",
+                "success": "Verbindung OK.",
+                "failure": "Verbindung fehlgeschlagen: {reason}"
             }
         },
         "lib": {
@@ -36,10 +36,10 @@
             "unknown_error": ""
         },
         "forum": {
-            "powered_by": ""
+            "powered_by": "Geschützt durch CaptchaLa"
         }
     },
     "validation": {
-        "captchala": ""
+        "captchala": "CAPTCHA-Verifizierung war nicht erfolgreich."
     }
 }
