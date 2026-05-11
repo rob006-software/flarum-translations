@@ -7,12 +7,12 @@
                 "app_secret_label": "App-Secret",
                 "app_secret_help": "Nur serverseitig. Nicht im Browser zugänglich gemacht.",
                 "product_label": "Widget-Modus",
-                "product_help": "",
+                "product_help": "bind, popup, float oder embed. bind wird an die Absenden-Schaltfläche angehängt.",
                 "product_options": {
-                    "bind": "",
-                    "popup": "",
-                    "float": "",
-                    "embed": ""
+                    "bind": "An die Absenden-Schaltfläche anhängen",
+                    "popup": "Modal-Popup",
+                    "float": "Schwebendes Widget",
+                    "embed": "Inline-Einbettung"
                 },
                 "lang_label": "Sprache",
                 "lang_help": "BCP-47-Tag (z. B. ja, pt-BR) oder „auto“, um die Sprache des Browsers des Besuchers zu übernehmen.",
@@ -31,9 +31,9 @@
         },
         "lib": {
             "not_completed": "Bitte fülle das CAPTCHA aus, bevor du fortfährst.",
-            "error": "",
-            "rejected": "",
-            "unknown_error": ""
+            "error": "Bei der Überprüfung des CAPTCHA ist ein Fehler aufgetreten. Bitte versuche es erneut.",
+            "rejected": "Die CAPTCHA-Prüfung ist fehlgeschlagen. Bitte versuche es erneut.",
+            "unknown_error": "Es ist ein unbekannter Fehler aufgetreten. Bitte versuche es erneut."
         },
         "forum": {
             "powered_by": "Geschützt durch CaptchaLa"
