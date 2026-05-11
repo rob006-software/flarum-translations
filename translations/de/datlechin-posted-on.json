@@ -2,12 +2,12 @@
     "datlechin-posted-on": {
         "admin": {
             "settings": {
-                "display_mode_label": "",
-                "display_mode_help": "",
+                "display_mode_label": "Was neben einem Beitrag angezeigt werden soll",
+                "display_mode_help": "Details pro Beitrag. Die vollständige Aufschlüsselung ist jederzeit im Tooltip einsehbar.",
                 "display_mode_os_only": "Nur Betriebssystem (z. B. Windows 11)",
                 "display_mode_os_browser": "Betriebssystem und Browser (z. B. Windows 11 · Chrome 147)",
                 "skip_guests_label": "Nicht für Gäste erfassen",
-                "skip_guests_help": ""
+                "skip_guests_help": "Wenn aktiviert, erhalten Beiträge, die von Gastkonten verfasst wurden, keine Plattform-Metadaten."
             }
         },
         "forum": {
@@ -26,11 +26,11 @@
                 "desktop": "Desktop",
                 "smartphone": "Handy",
                 "tablet": "Tablet",
-                "feature phone": "",
+                "feature phone": "Telefon",
                 "console": "Konsole",
                 "tv": "Fernseher",
                 "car browser": "Auto",
-                "smart display": "",
+                "smart display": "Smart-Display",
                 "camera": "Kamera",
                 "portable media player": "Mediaplayer",
                 "phablet": "Phablet",
