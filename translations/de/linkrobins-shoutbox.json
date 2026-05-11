@@ -2,18 +2,18 @@
     "linkrobins-shoutbox": {
         "forum": {
             "widget": {
-                "title": "",
+                "title": "Shoutbox",
                 "placeholder": "Sag etwas...",
                 "send": "Senden",
-                "login_to_shout": "",
-                "delete_confirm": "",
-                "load_error": ""
+                "login_to_shout": "Anmelden und mitreden!",
+                "delete_confirm": "Diese Nachricht löschen?",
+                "load_error": "Nachrichten konnten nicht geladen werden."
             }
         },
         "admin": {
             "settings": {
-                "height_label": "",
-                "height_help": ""
+                "height_label": "Höhe der Nachrichten (px)",
+                "height_help": "Höhe des Nachrichtenbereichs in Pixeln. Der Standardwert beträgt 320."
             }
         }
     }
