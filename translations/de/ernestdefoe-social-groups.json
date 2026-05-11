@@ -14,17 +14,17 @@
                 "leave": "Verlassen",
                 "view": "Ansehen",
                 "private": "Privat",
-                "request_to_join": "",
+                "request_to_join": "Beitrittsanfrage stellen",
                 "pending": "Ausstehend…",
-                "cancel_request": ""
+                "cancel_request": "Anfrage abbrechen"
             },
             "create_modal": {
                 "title": "Eine Gruppe erstellen",
                 "name_label": "Gruppenname",
                 "name_placeholder": "z. B. Fotoliebhaber",
                 "description_label": "Beschreibung",
-                "description_placeholder": "",
-                "color_label": "",
+                "description_placeholder": "Worum geht es in dieser Gruppe?",
+                "color_label": "Akzentfarbe",
                 "private_label": "Private Gruppe",
                 "private_help": "Private Gruppen sind nur für Mitglieder sichtbar.",
                 "membership_type_label": "Mitgliedschaft",
@@ -41,22 +41,22 @@
             "discussions": {
                 "title": "Diskussionen",
                 "new_button": "Neue Diskussion",
-                "start_button": "",
-                "empty": "",
+                "start_button": "Starte eine Diskussion",
+                "empty": "Es gibt noch keine Diskussionen. Sei der Erste, der eine startet!",
                 "back": "Zurück zur Gruppe",
-                "create_title": "",
+                "create_title": "Starte eine Diskussion",
                 "title_label": "Titel",
-                "title_placeholder": "",
-                "content_label": "",
-                "content_placeholder": "",
-                "submit": "",
-                "prev_page": "",
-                "next_page": "",
-                "delete": "",
-                "delete_confirm": "",
+                "title_placeholder": "Was beschäftigt dich gerade?",
+                "content_label": "Erster Beitrag",
+                "content_placeholder": "Schreib etwas…",
+                "submit": "Diskussion absenden",
+                "prev_page": "Vorherige Seite",
+                "next_page": "Nächste Seite",
+                "delete": "Diskussion löschen",
+                "delete_confirm": "Diese Diskussion und alle Antworten darauf löschen?",
                 "reply_count": "{count} Antwort|{count} Antworten",
-                "locked": "",
-                "reply_placeholder": "",
+                "locked": "Gesperrt",
+                "reply_placeholder": "Antworten schreiben…",
                 "reply_button": "Antworten",
                 "edited": "(bearbeitet)",
                 "edit": "Bearbeiten",
@@ -69,11 +69,11 @@
                 "about_title": "Über diese Gruppe",
                 "edit": "Gruppe bearbeiten",
                 "delete": "Gruppe löschen",
-                "delete_confirm": "",
+                "delete_confirm": "Möchtest du diese Gruppe wirklich löschen? Dieser Vorgang kann nicht rückgängig gemacht werden.",
                 "members_section": "Mitglieder",
                 "description_placeholder": "Noch keine Beschreibung vorhanden.",
-                "promote_member": "",
-                "demote_member": "",
+                "promote_member": "Zum Moderator befördern",
+                "demote_member": "Zum einfachen Mitglied herabstufen",
                 "role_creator": "Ersteller",
                 "role_admin": "Moderator",
                 "remove_member": "Entfernen"
@@ -87,19 +87,19 @@
                 "title": "Mitglied einladen",
                 "button": "Einladen",
                 "username_label": "Benutzername",
-                "username_placeholder": "",
+                "username_placeholder": "Gib den genauen Benutzernamen ein…",
                 "submit": "Einladung senden",
                 "success": "{username} wurde zur Gruppe hinzugefügt.",
-                "error_generic": ""
+                "error_generic": "Es ist ein Fehler aufgetreten. Bitte versuche es erneut."
             },
             "upload": {
-                "invalid_type": "",
-                "too_large": ""
+                "invalid_type": "Ungültiger Dateityp. Bitte lade ein Bild im Format JPG, PNG, GIF oder WebP hoch.",
+                "too_large": "Die Datei ist zu groß. Die maximale Größe beträgt 5 MB."
             }
         },
         "admin": {
             "permissions": {
-                "create_groups": ""
+                "create_groups": "Soziale Gruppen erstellen"
             }
         }
     }
