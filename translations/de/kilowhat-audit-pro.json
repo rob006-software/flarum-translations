@@ -79,37 +79,37 @@
                 "audit_log_cleared": "",
                 "cache_cleared": "",
                 "discussion": {
-                    "created": "Hat Diskussion {discussion} begonnen",
-                    "create_date_changed": "",
-                    "deleted": "Hat Diskussion {discussion} gelöscht",
-                    "hidden": "",
-                    "locked": "",
-                    "merged_away": "",
+                    "created": "Diskussion {discussion} gestartet",
+                    "create_date_changed": "Das Startdatum von {discussion} wurde von {old_date} auf {new_date} geändert",
+                    "deleted": "Diskussion {discussion} gelöscht",
+                    "hidden": "Diskussion {discussion} wurde verborgen",
+                    "locked": "Diskussion {discussion} geschlossen",
+                    "merged_away": "{discussion} in {new_discussion} zusammengeführt",
                     "merged_into": "",
                     "renamed": "",
-                    "restored": "",
-                    "split_away": "",
-                    "split_into": "",
-                    "stickied": "",
-                    "tagged": "",
-                    "unlocked": "",
+                    "restored": "Diskussion {discussion} wiederhergestellt",
+                    "split_away": "{post_count} Beiträge aus {discussion} in {new_discussion} aufgeteilt",
+                    "split_into": "{post_count} Beiträge in eine neue Diskussion {discussion} aufgeteilt",
+                    "stickied": "Diskussion {discussion} angeheftet",
+                    "tagged": "Themen zu {discussion} von {old_tags} zu {new_tags} geändert",
+                    "unlocked": "Diskussion {discussion} freigegeben",
                     "unstickied": "",
-                    "user_changed": ""
+                    "user_changed": "Autor von {discussion} von {old_user} zu {new_user} geändert"
                 },
                 "extension": {
-                    "disabled": "",
-                    "enabled": ""
+                    "disabled": "Erweiterung {package} deaktiviert",
+                    "enabled": "Erweiterung {package} aktiviert"
                 },
                 "fof_ban_ips": {
-                    "banned": "",
-                    "unbanned": ""
+                    "banned": "IP {ip} gesperrt",
+                    "unbanned": "IP {ip} entsperrt"
                 },
-                "permission_changed": "",
+                "permission_changed": "Berechtigung {permission} von {old_groups} auf {new_groups} geändert",
                 "post": {
-                    "approved": "",
+                    "approved": "{post} von {postuser} in {discussion} genehmigt",
                     "created": "Hat Beitrag {post} in Diskussion {discussion} erstellt",
-                    "create_date_changed": "",
-                    "deleted": "",
+                    "create_date_changed": "Veröffentlichungsdatum von {postuser}s {post} von {old_date} auf {new_date} geändert",
+                    "deleted": "{post} von {postuser} in {discussion} gelöscht",
                     "dismissed_flags": "",
                     "edit_date_changed": "",
                     "flagged": "",
