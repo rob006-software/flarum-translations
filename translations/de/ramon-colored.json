@@ -3,22 +3,22 @@
         "admin": {
             "settings": {
                 "tag_mode_label": "",
-                "tag_mode_first": "",
-                "tag_mode_second": "",
-                "tag_mode_custom": "",
+                "tag_mode_first": "Erstes Thema",
+                "tag_mode_second": "Zweites Thema",
+                "tag_mode_custom": "Benutzerdefniert",
                 "tag_position_label": "",
                 "tag_position_help": "",
-                "custom_css_label": "",
-                "custom_css_help": "",
-                "transition_delay_label": "",
-                "transition_delay_help": "",
+                "custom_css_label": "Benutzerdefiniertes CSS",
+                "custom_css_help": "Füge hier beliebige benutzerdefinierte CSS-Stile ein, die du anwenden möchtest.",
+                "transition_delay_label": "Animationsgeschwindigkeit",
+                "transition_delay_help": "Geschwindigkeit der Farbübergänge auswählen",
                 "transition_speeds": {
-                    "fast": "",
-                    "normal": "",
-                    "slow": ""
+                    "fast": "Schnell (0,1 s)",
+                    "normal": "Normal (0,5 s)",
+                    "slow": "Langsam (1 s)"
                 },
-                "transition_custom_label": "",
-                "transition_custom_help": "",
+                "transition_custom_label": "Benutzerdefinierte Geschwindigkeit",
+                "transition_custom_help": "Benutzerdefinierte Übergangszeit in Sekunden eingeben (z. B. 0,7)",
                 "elements": {
                     "header_label": "",
                     "header_help": "",
@@ -26,7 +26,7 @@
                     "hero_label": "",
                     "hero_help": "",
                     "hero_description": "",
-                    "navigation_label": "",
+                    "navigation_label": "Navigationsleiste",
                     "navigation_help": "",
                     "navigation_description": "",
                     "button_label": "",
