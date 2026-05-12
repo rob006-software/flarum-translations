@@ -17,9 +17,9 @@
                 "invalid": "认证级别无效。认证已被取消。"
             },
             "errors": {
-                "generic": "",
-                "network": "",
-                "clipboard": ""
+                "generic": "发生错误。请重试。",
+                "network": "网络错误。检查网络连接并重试。",
+                "clipboard": "无法复制到粘贴板。"
             }
         },
         "forum": {
@@ -50,8 +50,8 @@
                 "revoke_prompt": "撤销理由（审核日志中可见）：",
                 "verify_success": "用户认证已完成。",
                 "revoke_success": "撤销认证成功。",
-                "verify_failed": "",
-                "revoke_failed": ""
+                "verify_failed": "无法认证用户。请重试。",
+                "revoke_failed": "无法撤销认证。请重试。"
             },
             "request_modal": {
                 "title": "申请认证",
@@ -263,12 +263,12 @@
                 "approve_success": "用户已通过认证。",
                 "reject_success": "申请已被拒绝。",
                 "revoke_success": "认证已被撤销。",
-                "load_failed": "",
-                "load_approved_failed": "",
-                "decide_failed": "",
-                "revoke_user_failed": "",
-                "generate_keypair_failed": "",
-                "status_load_failed": ""
+                "load_failed": "无法加载认证申请。请重试。",
+                "load_approved_failed": "无法加载已认证用户。请重试。",
+                "decide_failed": "无法保存认证操作。请重试。",
+                "revoke_user_failed": "无法撤销认证。请重试。",
+                "generate_keypair_failed": "无法生成密钥对。请重试。",
+                "status_load_failed": "无法加载加密状态。"
             }
         },
         "email": {
