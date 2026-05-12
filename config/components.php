@@ -470,6 +470,12 @@ return [
 	'linkrobins-markdown-widget' => [
 		'tag' => 'https://raw.githubusercontent.com/linkrobins/markdown-widget/v1.0.0/locale/en.yml',
 	],
+	'linkrobins-post-num' => [
+		'tag' => 'https://raw.githubusercontent.com/linkrobins/post-num/v1.0.0/locale/en.yml',
+		'__builtInLanguages' => [
+			'zh_Hans',
+		],
+	],
 	'linkrobins-referral' => [
 		'tag' => 'https://raw.githubusercontent.com/linkrobins/referral/v1.0.4/locale/en.yml',
 		'__builtInLanguages' => [
