@@ -4,39 +4,39 @@
             "settings": {
                 "relying_party": {
                     "name": {
-                        "label": "",
-                        "help": ""
+                        "label": "Name der vertrauenden Partei",
+                        "help": "Der Name der vertrauenden Partei ist ein für Menschen lesbarer Name für deine Website. Wenn dieses Feld leer bleibt, wird der Titel des Forums verwendet."
                     },
                     "id": {
-                        "label": "",
-                        "help": ""
+                        "label": "ID der vertrauenden Partei",
+                        "help": "Die ID der vertrauenden Partei ist eine eindeutige Kennung für deine Website. Sie entspricht der Domain der Website ohne das Schema. Wenn deine Website beispielsweise https://beispiel.de lautet, lautet die VP-ID „beispiel.de“. Wenn das Feld leer bleibt, wird die aktuelle Domain verwendet."
                     }
                 },
                 "timeout": {
-                    "label": "",
-                    "help": ""
+                    "label": "Zeitüberschreitung",
+                    "help": "Die Zeitüberschreitung für die Passkey-Überprüfung in Sekunden. Der Standardwert beträgt 60 Sekunden."
                 }
             }
         },
         "forum": {
             "login": {
-                "with-passkey": ""
+                "with-passkey": "Mit Passkey anmelden"
             },
             "user": {
                 "settings": {
                     "passkeys": {
-                        "title": "",
-                        "label": "",
-                        "add-new-passkey": "",
-                        "error": ""
+                        "title": "Passkey",
+                        "label": "Passkey ist eine Alternative zu Passwörtern, die deine Identität mittels Touch, Gesichtserkennung, einem Gerätepasswort oder einer PIN überprüft.",
+                        "add-new-passkey": "Passkey hinzufügen",
+                        "error": "Es ist ein interner Fehler aufgetreten. Bitte versuche es später erneut."
                     },
                     "alias-modal": {
-                        "title": "",
-                        "label": ""
+                        "title": "Passkey registriert!",
+                        "label": "Und nun geben wir deinem Passkey einen Aliasnamen."
                     },
                     "item": {
-                        "revoke": "",
-                        "revoke_success": ""
+                        "revoke": "=> core.forum.security.revoke_access_token",
+                        "revoke_success": "Passkey wurde erfolgreich widerrufen."
                     }
                 }
             }
