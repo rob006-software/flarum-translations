@@ -9,12 +9,14 @@
                 "empty_text": "Be the first to create a group!",
                 "empty_search": "No groups match your search.",
                 "load_error": "Failed to load groups. Please try again.",
-                "members_count": "{count} member|{count} members",
+                "members_count": "{count, plural, one {# member} other {# members}}",
                 "join": "Join",
                 "joined": "Joined",
                 "leave": "Leave",
                 "view": "View",
                 "private": "Private",
+                "public": "Public",
+                "approval_required": "Approval required",
                 "request_to_join": "Request to Join",
                 "pending": "Pending…",
                 "cancel_request": "Cancel Request"
@@ -33,7 +35,8 @@
                 "membership_type_approval": "Approval required — creator must approve each request",
                 "image_label": "Group Image",
                 "banner_label": "Banner Image",
-                "submit": "Create Group"
+                "submit": "Create Group",
+                "name_required": "Group name is required."
             },
             "edit_modal": {
                 "title": "Edit Group",
@@ -55,7 +58,7 @@
                 "next_page": "Next page",
                 "delete": "Delete discussion",
                 "delete_confirm": "Delete this discussion and all its replies?",
-                "reply_count": "{count} reply|{count} replies",
+                "reply_count": "{count, plural, one {# reply} other {# replies}}",
                 "locked": "Locked",
                 "reply_placeholder": "Write a reply…",
                 "reply_button": "Reply",
@@ -99,6 +102,7 @@
                 "error_generic": "Something went wrong. Please try again."
             },
             "upload": {
+                "change": "Change",
                 "invalid_type": "Invalid file type. Please upload a JPG, PNG, GIF, or WebP image.",
                 "too_large": "File is too large. Maximum size is 5MB."
             }

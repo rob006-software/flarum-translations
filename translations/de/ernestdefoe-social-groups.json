@@ -15,6 +15,8 @@
                 "leave": "Verlassen",
                 "view": "Ansehen",
                 "private": "Privat",
+                "public": "",
+                "approval_required": "",
                 "request_to_join": "Beitrittsanfrage stellen",
                 "pending": "Ausstehend…",
                 "cancel_request": "Anfrage abbrechen"
@@ -33,7 +35,8 @@
                 "membership_type_approval": "Genehmigung erforderlich – der Ersteller muss jede Anfrage genehmigen",
                 "image_label": "Gruppenbild",
                 "banner_label": "Bannerbild",
-                "submit": "Gruppe erstellen"
+                "submit": "Gruppe erstellen",
+                "name_required": ""
             },
             "edit_modal": {
                 "title": "Gruppe bearbeiten",
@@ -99,6 +102,7 @@
                 "error_generic": "Es ist ein Fehler aufgetreten. Bitte versuche es erneut."
             },
             "upload": {
+                "change": "",
                 "invalid_type": "Ungültiger Dateityp. Bitte lade ein Bild im Format JPG, PNG, GIF oder WebP hoch.",
                 "too_large": "Die Datei ist zu groß. Die maximale Größe beträgt 5 MB."
             }
