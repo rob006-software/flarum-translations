@@ -960,9 +960,13 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`import-ai-webhook-notification`](https://weblate.rob006.net/projects/flarum2/import-ai-webhook-notification) | [`import-ai/flarum-webhook-notification`](https://github.com/import-ai/flarum-webhook-notification) |
 | [`irmmr-rtl`](https://weblate.rob006.net/projects/flarum2/irmmr-rtl) | [`irmmr/flarum-ext-rtl`](https://github.com/irmmr/flarum-ext-rtl) |
 | [`justoverclock-welcomebox`](https://weblate.rob006.net/projects/flarum2/justoverclock-welcomebox) | [`justoverclock/flarum-ext-welcomebox`](https://github.com/justoverclockl/flarum-ext-welcomebox) |
+| [`linkrobins-blog`](https://weblate.rob006.net/projects/flarum2/linkrobins-blog) | [`linkrobins/blog`](https://github.com/linkrobins/blog) |
+| [`linkrobins-clipboard`](https://weblate.rob006.net/projects/flarum2/linkrobins-clipboard) | [`linkrobins/clipboard`](https://github.com/linkrobins/clipboard) |
 | [`linkrobins-countdown-widget`](https://weblate.rob006.net/projects/flarum2/linkrobins-countdown-widget) | [`linkrobins/countdown-widget`](https://github.com/linkrobins/countdown-widget) |
 | [`linkrobins-html-widget`](https://weblate.rob006.net/projects/flarum2/linkrobins-html-widget) | [`linkrobins/html-widget`](https://github.com/linkrobins/html-widget) |
 | [`linkrobins-markdown-widget`](https://weblate.rob006.net/projects/flarum2/linkrobins-markdown-widget) | [`linkrobins/markdown-widget`](https://github.com/linkrobins/markdown-widget) |
+| [`linkrobins-op`](https://weblate.rob006.net/projects/flarum2/linkrobins-op) | [`linkrobins/op`](https://github.com/linkrobins/OP) |
+| [`linkrobins-post-num`](https://weblate.rob006.net/projects/flarum2/linkrobins-post-num) | [`linkrobins/post-num`](https://github.com/linkrobins/post-num) |
 | [`linkrobins-referral`](https://weblate.rob006.net/projects/flarum2/linkrobins-referral) | [`linkrobins/referral`](https://github.com/linkrobins/referral) |
 | [`linkrobins-shoutbox`](https://weblate.rob006.net/projects/flarum2/linkrobins-shoutbox) | [`linkrobins/shoutbox`](https://github.com/linkrobins/shoutbox) |
 | [`michaelbelgium-ai-autoreply`](https://weblate.rob006.net/projects/flarum2/michaelbelgium-ai-autoreply) | [`michaelbelgium/flarum-ai-autoreply`](https://github.com/MichaelBelgium/flarum-ai-autoreply) |
