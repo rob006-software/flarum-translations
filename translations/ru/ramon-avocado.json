@@ -12,7 +12,7 @@
                 "section_footer": "Подвал",
                 "section_colored": "Цветная секция",
                 "section_team": "Страница команды",
-                "section_hero_image_tags": "",
+                "section_hero_image_tags": "Hero-изображение в обсуждениях",
                 "featured_tags_label": "Выделенные категории",
                 "featured_tags_help": "Выбранные категории будут выделены значком звезды на главной странице и странице категорий.",
                 "featured_tags_empty": "Теги не найдены.",
@@ -51,7 +51,7 @@
                 "custom_hero_enabled_label": "Использовать пользовательский контент hero — HTML",
                 "custom_hero_enabled_help": "Заменяет стандартный контент hero — иконка, заголовок, описание, кнопки входа/регистрации — вашим HTML. Обёртка баннера hero, фоновое изображение и наложение остаются без изменений. Отображается только для гостей — как и стандартный hero.",
                 "custom_hero_html_label": "Пользовательский HTML для hero",
-                "custom_hero_html_help": "HTML, вставляемый в overlay баннера hero — заменяет AvocadoHome-heroBannerContent. Поддерживаются встроенные теги <style>.",
+                "custom_hero_html_help": "HTML, вставляемый в overlay баннера hero — заменяет AvocadoHome-heroBannerContent. Поддерживаются встроенные теги '<style>' .",
                 "search_v1_label": "Включить стиль поиска V1",
                 "search_v1_help": "Показывать встроенный выпадающий поиск вместо модального окна V2.",
                 "show_share_label": "Показывать кнопку «Поделиться» в сообщениях",
@@ -103,8 +103,8 @@
                 "hide_links_for_guests_help": "Запрещает гостям переходить по ссылкам в сообщениях. При нажатии вместо этого показывается предложение войти или зарегистрироваться.",
                 "custom_default_avatar_label": "Пользовательский аватар по умолчанию",
                 "custom_default_avatar_help": "Загрузите пользовательский аватар по умолчанию для пользователей без аватара.",
-                "hero_image_tags_label": "",
-                "hero_image_tags_help": "",
+                "hero_image_tags_label": "Теги, требующие hero-изображение",
+                "hero_image_tags_help": "Когда пользователь добавляет один из этих тегов в новую дискуссию, в редакторе появляется поле для загрузки изображения. Загруженное изображение используется как фон шапки обсуждения и как первое изображение в блоке на главной странице.",
                 "team_enabled_label": "Включить страницу команды",
                 "team_enabled_help": "Показывать страницу /team со списком участников выбранных групп.",
                 "team_title_label": "Заголовок страницы",
@@ -178,8 +178,8 @@
                 "filtered_by": "Отфильтровано по",
                 "results": "Результаты поиска",
                 "results_for": "Результаты для",
-                "tip": "",
-                "tip_suffix": ""
+                "tip": "Подсказка: добавьте префикс ",
+                "tip_suffix": " чтобы фильтровать по тегу"
             },
             "header": {
                 "back": "Назад",
@@ -192,10 +192,10 @@
                 "post_plural": "сообщения",
                 "participant_singular": "участник",
                 "participant_plural": "участники",
-                "hero_image_add": "",
-                "hero_image_replace": "",
-                "hero_image_remove": "",
-                "hero_image_remove_confirm": ""
+                "hero_image_add": "Добавить изображение",
+                "hero_image_replace": "Заменить изображение",
+                "hero_image_remove": "Удалить изображение",
+                "hero_image_remove_confirm": "Удалить hero-изображение из этой дискуссии?"
             },
             "home": {
                 "all_categories": "Все категории",
@@ -214,10 +214,10 @@
                 "composer_preview_empty": "Нечего показывать.",
                 "composer_submitting": "Публикация…",
                 "composer_title_placeholder": "Заголовок дискуссии…",
-                "composer_hero_image_label": "",
-                "composer_hero_image_picked": "",
-                "composer_hero_image_remove": "",
-                "composer_hero_image_upload_failed": "",
+                "composer_hero_image_label": "Hero-изображение — по желанию",
+                "composer_hero_image_picked": "Изображение выбрано",
+                "composer_hero_image_remove": "Удалить изображение",
+                "composer_hero_image_upload_failed": "Не удалось загрузить hero-изображение. Попробуйте ещё раз на странице дискуссии.",
                 "discussion_singular": "дискуссия",
                 "discussions": "дискуссии",
                 "filter_tags": "Фильтр тегов",
@@ -265,7 +265,7 @@
                 "op_badge": "Автор темы"
             },
             "messages": {
-                "deleted_message": ""
+                "deleted_message": "Сообщение удалено"
             },
             "tags": {
                 "title": "Категории",
