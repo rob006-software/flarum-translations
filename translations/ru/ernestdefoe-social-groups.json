@@ -9,14 +9,14 @@
                 "empty_text": "Время создать первую!",
                 "empty_search": "Нет групп по вашему запросу.",
                 "load_error": "Не удалось загрузить группы. Попробуйте снова.",
-                "members_count": "{count} участник|{count} участников",
+                "members_count": "{count, plural, one {# участник} few {# участника} many {# участников} other {# участников}}",
                 "join": "Вступить",
                 "joined": "Участник",
                 "leave": "Покинуть",
-                "view": "Открыть",
+                "view": "Перейти",
                 "private": "Приватная",
-                "public": "",
-                "approval_required": "",
+                "public": "Публичная",
+                "approval_required": "Требуется одобрение",
                 "request_to_join": "Подать заявку",
                 "pending": "Ожидание…",
                 "cancel_request": "Отменить заявку"
@@ -36,7 +36,7 @@
                 "image_label": "Изображение группы",
                 "banner_label": "Баннер группы",
                 "submit": "Создать группу",
-                "name_required": ""
+                "name_required": "Название группы обязательно."
             },
             "edit_modal": {
                 "title": "Редактирование группы",
@@ -58,7 +58,7 @@
                 "next_page": "Следующая страница",
                 "delete": "Удалить дискуссию",
                 "delete_confirm": "Удалить эту дискуссию и все ответы в ней?",
-                "reply_count": "{count} ответ|{count} ответов",
+                "reply_count": "{count, plural, one {# ответ} few {# ответа} many {# ответов} other {# ответов}}",
                 "locked": "Закрыто",
                 "reply_placeholder": "Напишите ответ…",
                 "reply_button": "Отправить",
@@ -102,7 +102,7 @@
                 "error_generic": "Что-то пошло не так. Попробуйте снова."
             },
             "upload": {
-                "change": "",
+                "change": "Изменить",
                 "invalid_type": "Недопустимый тип файла. Загрузите изображение в формате JPG, PNG, GIF или WebP.",
                 "too_large": "Файл слишком большой. Максимальный размер — 5 МБ."
             }
