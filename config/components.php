@@ -455,6 +455,18 @@ return [
 	'justoverclock-welcomebox' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-welcomebox/3.0.0/locale/en.yml',
 	],
+	'linkrobins-blog' => [
+		'tag' => 'https://raw.githubusercontent.com/linkrobins/blog/v1.0.0/locale/en.yml',
+		'__builtInLanguages' => [
+			'zh_Hans',
+		],
+	],
+	'linkrobins-clipboard' => [
+		'tag' => 'https://raw.githubusercontent.com/linkrobins/clipboard/v1.0.0/locale/en.yml',
+		'__builtInLanguages' => [
+			'zh_Hans',
+		],
+	],
 	'linkrobins-countdown-widget' => [
 		'tag' => 'https://raw.githubusercontent.com/linkrobins/countdown-widget/v1.0.0/locale/en.yml',
 	],
@@ -466,6 +478,12 @@ return [
 	],
 	'linkrobins-op' => [
 		'tag' => 'https://raw.githubusercontent.com/linkrobins/OP/v1.0.1/locale/en.yml',
+	],
+	'linkrobins-post-num' => [
+		'tag' => 'https://raw.githubusercontent.com/linkrobins/post-num/v1.0.0/locale/en.yml',
+		'__builtInLanguages' => [
+			'zh_Hans',
+		],
 	],
 	'linkrobins-referral' => [
 		'tag' => 'https://raw.githubusercontent.com/linkrobins/referral/v1.0.4/locale/en.yml',
