@@ -455,6 +455,12 @@ return [
 	'justoverclock-welcomebox' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-welcomebox/3.0.0/locale/en.yml',
 	],
+	'linkrobins-clipboard' => [
+		'tag' => 'https://raw.githubusercontent.com/linkrobins/clipboard/v1.0.0/locale/en.yml',
+		'__builtInLanguages' => [
+			'zh_Hans',
+		],
+	],
 	'linkrobins-countdown-widget' => [
 		'tag' => 'https://raw.githubusercontent.com/linkrobins/countdown-widget/v1.0.0/locale/en.yml',
 	],
