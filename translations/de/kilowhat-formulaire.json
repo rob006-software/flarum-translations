@@ -174,7 +174,7 @@
                     "link": "Spezielle Formulartypen",
                     "title": "Öffentlicher Titel",
                     "show-on-creation": {
-                        "discussion": "",
+                        "discussion": "Im Diskussions-Composer anzeigen",
                         "discussionHelp": "Der Flarum-Diskussions-Composer ist nicht dafür geeignet, viele Felder zu enthalten. Du solltest die Erweiterung <a>Composer Page</a> installieren und aktivieren, um sicherzustellen, dass alle Felder auf allen Geräten zugänglich bleiben.\n",
                         "user": "Bei der Anmeldung anzeigen"
                     },
@@ -227,7 +227,7 @@
                 "field": {
                     "title": "Diskussionstitel",
                     "tags": "Diskussionsthemen",
-                    "tags-help": "",
+                    "tags-help": "Durch Kommas getrennte Liste von Themen-Slugs. Die ausgewählten Themen werden zusätzlich zu dem Thema hinzugefügt, mit dem dieses Formular verknüpft ist.\n",
                     "content": "Beitragsinhalt"
                 }
             },
@@ -258,20 +258,20 @@
                 "title": "Titel",
                 "titleTranslationKey": "(Expert) Übersetzungsschlüssel für Titel",
                 "description": "Beschreibung",
-                "descriptionTranslationKey": "",
-                "key": "",
+                "descriptionTranslationKey": "(Experte) Übersetzungsschlüssel für Beschreibung",
+                "key": "(Experte) JSON-Schlüssel in der Einreichungs-Nutzlast",
                 "fill-permission": "(Experte) Ausfüllberechtigungen",
-                "contentTranslationKey": "",
+                "contentTranslationKey": "(Experte) Übersetzungsschlüssel für Inhalt",
                 "required": "Erforderlich",
-                "rich": "",
+                "rich": "Rich Text (TextFormatter)",
                 "min": "Minimum",
                 "max": "Maximum",
                 "integer": "Ganzzahl",
                 "email": "E-Mail",
                 "regex": "Regulärer Ausdruck",
-                "mime": "",
-                "other": "",
-                "defaultValue": "",
+                "mime": "MIME-Typ (durch Kommas getrennt, akzeptiert Platzhalter als zweiten Teil)",
+                "other": "Den Wert „anderer“ für Benutzer zulassen",
+                "defaultValue": "Standardwert",
                 "duplicate": "Feld duplizieren",
                 "delete": "Feld löschen",
                 "missing-title": "Feld ohne Titel",
@@ -292,9 +292,9 @@
             "options-editor": {
                 "columns": {
                     "title": "Titel",
-                    "titleTranslationKey": "",
-                    "key": "",
-                    "defaultValue": ""
+                    "titleTranslationKey": "(Experte) Übersetzungsschlüssel",
+                    "key": "(Experte) Eindeutiger Schlüssel",
+                    "defaultValue": "Standardmäßig"
                 },
                 "remove": "Option entfernen",
                 "new-placeholder": "Neue Option..."
@@ -304,32 +304,32 @@
                 "remove": "Zeile entfernen"
             },
             "upload-editor": {
-                "uploading": "",
+                "uploading": "Wird hochgeladen...",
                 "remove": "Datei entfernen"
             },
             "rich-text": {
-                "preview-placeholder": ""
+                "preview-placeholder": "Gib etwas ein, um eine Vorschau anzuzeigen"
             },
             "select": {
-                "choose": ""
+                "choose": "Wähle eine Option"
             },
             "choice": {
-                "other-label": "",
-                "other-placeholder": ""
+                "other-label": "Andere:",
+                "other-placeholder": "Typ..."
             },
             "translate": {
-                "switch-tab-to-edit": "",
+                "switch-tab-to-edit": "Wechsel zur Registerkarte „Vorlage“, um die Feldkonfiguration zu ändern",
                 "option-heading": "Option #{number}"
             },
             "submission": {
                 "form-closed": "Dieses Formular ist geschlossen.",
                 "form-full": "Dieses Formular hat die maximale Anzahl erlaubter Einreichungen erreicht.",
-                "edit-forbidden": "",
-                "submitted-successfully": "",
-                "edit-submission": "",
-                "submit-other": "",
-                "unlock": "",
-                "lock": "",
+                "edit-forbidden": "Du kannst diese Einreichung nicht mehr bearbeiten.",
+                "submitted-successfully": "Deine Einreichung wurde erfolgreich übermittelt.",
+                "edit-submission": "Einreichung bearbeiten",
+                "submit-other": "Noch eine Einreichung",
+                "unlock": "Freigeben",
+                "lock": "Sperren",
                 "restore": "Wiederherstellen",
                 "hide": "Löschen",
                 "delete": "Dauerhaft löschen",
@@ -371,11 +371,11 @@
             "export": {
                 "title": "Einreichungen exportieren",
                 "format": "Format",
-                "heading": "",
+                "heading": "Überschrift / Schlüssel",
                 "fields": "Felder",
                 "meta": "Metadaten",
-                "more-meta": "",
-                "option-keys": "",
+                "more-meta": "Weitere Meta-Optionen",
+                "option-keys": "Optionsschlüssel anstelle von Bezeichnungen für Kontrollkästchen, Optionsfelder und Dropdown-Menüs exportieren",
                 "submit": "Herunterladen",
                 "preview": "Vorschau",
                 "format-options": {
@@ -387,7 +387,7 @@
                 },
                 "heading-options": {
                     "title": "Feldtitel",
-                    "key": "",
+                    "key": "Feldschlüssel",
                     "none": ""
                 },
                 "meta-options": {
