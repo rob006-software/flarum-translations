@@ -476,6 +476,9 @@ return [
 	'linkrobins-markdown-widget' => [
 		'tag' => 'https://raw.githubusercontent.com/linkrobins/markdown-widget/v1.0.0/locale/en.yml',
 	],
+	'linkrobins-op' => [
+		'tag' => 'https://raw.githubusercontent.com/linkrobins/OP/v1.0.1/locale/en.yml',
+	],
 	'linkrobins-post-num' => [
 		'tag' => 'https://raw.githubusercontent.com/linkrobins/post-num/v1.0.0/locale/en.yml',
 		'__builtInLanguages' => [
