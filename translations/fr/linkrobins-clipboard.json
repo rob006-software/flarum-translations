@@ -2,30 +2,30 @@
     "linkrobins-clipboard": {
         "admin": {
             "settings": {
-                "copy_enable_label": "",
-                "copy_enable_help": "",
-                "themes_label": "",
-                "themes_help": "",
+                "copy_enable_label": "Activer le bouton « Copier » sur les blocs de code",
+                "copy_enable_help": "Lorsque cette option est activée, un bouton « Copier » apparaît sur chaque bloc de code dans les messages. Les visiteurs peuvent cliquer dessus pour copier le code dans leur presse-papiers.",
+                "themes_label": "Style du bouton « Copier »",
+                "themes_help": "Choisissez le style visuel du bouton « Copier ». Chaque thème utilise des icônes, des couleurs et un positionnement différents.",
                 "themes": {
-                    "default": "",
-                    "github": "",
-                    "lingcoder": "",
-                    "csdn": "",
-                    "cnblog": "",
-                    "jianshu": "",
-                    "segmentfault": ""
+                    "default": "Par défaut",
+                    "github": "GitHub",
+                    "lingcoder": "LingCoder",
+                    "csdn": "CSDN",
+                    "cnblog": "cnBlogs",
+                    "jianshu": "Jian Shu",
+                    "segmentfault": "SegmentFault"
                 },
-                "codeLang_label": "",
-                "codeLang_help": ""
+                "codeLang_label": "Afficher le libellé de la langue sur les blocs de code",
+                "codeLang_help": "Afficher le langage de programmation détecté en haut à droite de chaque bloc de code (par exemple : Python, Bash, JavaScript). Nécessite une mise en évidence de la syntaxe qui ajoute des classes « language-X » à vos éléments de code."
             }
         },
         "forum": {
-            "action_copy": "",
-            "action_cut": "",
-            "ok_btn": "",
-            "error_btn": "",
-            "no_support": "",
-            "msg": ""
+            "action_copy": "Copier",
+            "action_cut": "Couper",
+            "ok_btn": "Copié",
+            "error_btn": "Erreur",
+            "no_support": "Non pris en charge",
+            "msg": "Appuyer sur {actionKey} pour {action}"
         }
     }
 }
