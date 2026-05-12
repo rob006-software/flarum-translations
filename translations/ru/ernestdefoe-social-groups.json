@@ -93,20 +93,20 @@
                 "title": "Пригласить участника",
                 "button": "Пригласить",
                 "username_label": "Имя пользователя",
-                "username_placeholder": "",
-                "submit": "",
-                "success": "",
-                "error_generic": ""
+                "username_placeholder": "Введите точное имя пользователя…",
+                "submit": "Отправить приглашение",
+                "success": "Пользователь {username} добавлен в группу.",
+                "error_generic": "Что-то пошло не так. Попробуйте снова."
             },
             "upload": {
-                "invalid_type": "",
-                "too_large": ""
+                "invalid_type": "Недопустимый тип файла. Загрузите изображение в формате JPG, PNG, GIF или WebP.",
+                "too_large": "Файл слишком большой. Максимальный размер — 5 МБ."
             }
         },
         "admin": {
             "permissions": {
-                "create_groups": "",
-                "moderate_groups": ""
+                "create_groups": "Создавать социальные группы",
+                "moderate_groups": "Править и удалять социальные группы"
             }
         }
     }
