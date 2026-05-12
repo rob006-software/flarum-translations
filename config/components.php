@@ -398,6 +398,13 @@ return [
 			'ru',
 		],
 	],
+	'gitzaai-v2mobileui' => [
+		'tag' => 'https://raw.githubusercontent.com/gitzaai/v2mobileui/v2.0.0/locale/en.yml',
+		'__builtInLanguages' => [
+			'zh_Hans',
+			'zh_Hant',
+		],
+	],
 	'huoxin-relative-url' => [
 		'beta' => 'https://raw.githubusercontent.com/huoxin233/flarum-ext-relative-url/2.0.0-beta.1/locale/en.yml',
 	],
