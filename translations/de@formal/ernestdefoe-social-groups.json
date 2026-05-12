@@ -8,7 +8,7 @@
                 "empty_title": "Noch keine Gruppen",
                 "empty_text": "Sei der Erste, der eine Gruppe erstellt!",
                 "empty_search": "Es wurden keine Gruppen gefunden, die deiner Suche entsprechen.",
-                "load_error": "",
+                "load_error": "Laden der Gruppen fehlgeschlagen. Bitte versuche es erneut.",
                 "members_count": "{count} Mitglied|{count} Mitglieder",
                 "join": "Beitreten",
                 "joined": "Beigetreten",
@@ -71,7 +71,7 @@
                 "edit": "Gruppe bearbeiten",
                 "delete": "Gruppe löschen",
                 "delete_confirm": "Möchtest du diese Gruppe wirklich löschen? Dieser Vorgang kann nicht rückgängig gemacht werden.",
-                "options": "",
+                "options": "Gruppenoptionen",
                 "members_section": "Mitglieder",
                 "description_placeholder": "Noch keine Beschreibung vorhanden.",
                 "promote_member": "Zum Moderator befördern",
@@ -79,10 +79,10 @@
                 "role_creator": "Ersteller",
                 "role_admin": "Moderator",
                 "remove_member": "Entfernen",
-                "load_error": "",
-                "not_found": "",
-                "members_load_error": "",
-                "members_empty": ""
+                "load_error": "Laden der Gruppe fehlgeschlagen.",
+                "not_found": "Gruppe nicht gefunden.",
+                "members_load_error": "Mitglieder konnten nicht geladen werden.",
+                "members_empty": "Noch keine Mitglieder."
             },
             "requests": {
                 "title": "Beitrittsanfragen",
@@ -106,7 +106,7 @@
         "admin": {
             "permissions": {
                 "create_groups": "Soziale Gruppen erstellen",
-                "moderate_groups": ""
+                "moderate_groups": "Soziale Gruppen bearbeiten und löschen"
             }
         }
     }
