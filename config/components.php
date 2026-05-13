@@ -583,6 +583,12 @@ return [
 			'pt_BR',
 		],
 	],
+	'ramon-point-system' => [
+		'tag' => 'https://raw.githubusercontent.com/ram0ng1/point-system/v2.0.0/locale/en.yml',
+		'__builtInLanguages' => [
+			'pt_BR',
+		],
+	],
 	'ramon-stickers' => [
 		'tag' => 'https://raw.githubusercontent.com/ram0ng1/stickers/2.0.5/locale/en.yml',
 	],
