@@ -991,6 +991,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`ramon-backup`](https://weblate.rob006.net/projects/flarum2/ramon-backup) | [`ramon/backup`](https://github.com/ram0ng1/backup) |
 | [`ramon-classifieds`](https://weblate.rob006.net/projects/flarum2/ramon-classifieds) | [`ramon/classifieds`](https://github.com/ram0ng1/classifieds) |
 | [`ramon-guest-cta`](https://weblate.rob006.net/projects/flarum2/ramon-guest-cta) | [`ramon/guest-cta`](https://github.com/ram0ng1/guest-cta) |
+| [`ramon-point-system`](https://weblate.rob006.net/projects/flarum2/ramon-point-system) | [`ramon/point-system`](https://github.com/ram0ng1/point-system) |
 | [`ramon-stickers`](https://weblate.rob006.net/projects/flarum2/ramon-stickers) | [`ramon/stickers`](https://github.com/ram0ng1/stickers) |
 | [`ramon-verified`](https://weblate.rob006.net/projects/flarum2/ramon-verified) | [`ramon/verified`](https://github.com/ram0ng1/verified) |
 | [`resofire-blog-cards`](https://weblate.rob006.net/projects/flarum2/resofire-blog-cards) | [`resofire/blog-cards`](https://github.com/ResofireV2/blog-cards) |
