@@ -676,6 +676,9 @@ return [
 	'walsgit-recycle-bin' => [
 		'tag' => 'https://raw.githubusercontent.com/WalsGit/recycle-bin/2.0.4/locale/en.yml',
 	],
+	'wyatts97-pwa' => [
+		'tag' => 'https://raw.githubusercontent.com/wyatts97/flarum-pwa-master/v2.0.6/resources/locale/en.yml',
+	],
 	'yippy-auth-ldap' => [
 		'tag' => 'https://raw.githubusercontent.com/Yippy/flarum-ext-auth-ldap/v2.0.2/locale/en.yml',
 	],
