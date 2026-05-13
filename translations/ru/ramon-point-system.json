@@ -2,56 +2,56 @@
     "ramon-point-system": {
         "forum": {
             "notifications": {
-                "points_added": "",
-                "points_removed": "",
-                "admin_fallback": "",
-                "tier_claimed": "",
-                "tier_excerpt": ""
+                "points_added": "Пользователь {admin} начислил вам {amount} очков",
+                "points_removed": "Пользователь {admin} снял с вас {amount} очков",
+                "admin_fallback": "Администратор",
+                "tier_claimed": "Вы присоединились к группе {name}!",
+                "tier_excerpt": "Порог: {points} очков за всё время"
             },
             "user_controls": {
-                "award_points": ""
+                "award_points": "Управление очками"
             },
             "award_modal": {
-                "title": "",
-                "current_balance": "",
-                "current_lifetime": "",
-                "amount_label": "",
-                "amount_help": "",
-                "reason_label": "",
-                "reason_placeholder": "",
-                "add": "",
-                "remove": "",
-                "added": "",
-                "removed": ""
+                "title": "Управление очками для {name}",
+                "current_balance": "Текущий баланс",
+                "current_lifetime": "Всего за всё время",
+                "amount_label": "Количество",
+                "amount_help": "При добавлении увеличивается баланс и общий итог. При снятии уменьшается только баланс, а общий итог сохраняется.",
+                "reason_label": "Причина — по желанию",
+                "reason_placeholder": "например, полезный вклад",
+                "add": "Добавить",
+                "remove": "Снять",
+                "added": "Начислено {amount} очков пользователю {name}.",
+                "removed": "Снято {amount} очков у пользователя {name}."
             },
             "nav": {
-                "shop": ""
+                "shop": "Награды"
             },
             "badge": {
-                "tooltip": ""
+                "tooltip": "{balance} {currency} (всего: {lifetime})"
             },
             "shop": {
-                "title": "",
-                "subtitle": "",
-                "your_balance": "",
-                "lifetime": "",
-                "my_decorations": "",
-                "tab_avatar": "",
-                "tab_name": "",
-                "tab_tiers": "",
-                "tiers_empty": "",
-                "empty": "",
-                "claim": "",
-                "equip": "",
-                "equipped": "",
-                "equipped_label": "",
-                "not_enough": "",
-                "must_login": "",
-                "login_to_claim": "",
-                "claimed": "",
-                "equipped_alert": "",
-                "claim_failed": "",
-                "equip_failed": "",
+                "title": "Награды",
+                "subtitle": "Тратьте свои очки на украшения и привилегии.",
+                "your_balance": "Ваш баланс",
+                "lifetime": "Всего",
+                "my_decorations": "Мои украшения",
+                "tab_avatar": "Рамки аватара",
+                "tab_name": "Стили имени",
+                "tab_tiers": "Уровни групп",
+                "tiers_empty": "Уровни групп ещё не настроены.",
+                "empty": "Сейчас нет доступных элементов.",
+                "claim": "Получить",
+                "equip": "Надеть",
+                "equipped": "Надето",
+                "equipped_label": "НАДЕТО",
+                "not_enough": "Недостаточно очков",
+                "must_login": "Войдите, чтобы получить элементы",
+                "login_to_claim": "Войти",
+                "claimed": "Получено {name}!",
+                "equipped_alert": "{name} надето",
+                "claim_failed": "Не удалось получить элемент.",
+                "equip_failed": "Не удалось надеть элемент.",
                 "not_found": "",
                 "tiers_title": "",
                 "tiers_help": "",
