@@ -2,46 +2,46 @@
     "linkrobins-blog": {
         "forum": {
             "empty_state": "",
-            "not_found": "",
-            "load_more": "",
-            "comments_heading": "",
-            "no_comments_heading": "",
-            "no_comments": "",
-            "leave_comment": "",
-            "login_to_comment": "",
+            "not_found": "Beitrag wurde nicht gefunden.",
+            "load_more": "Mehr laden",
+            "comments_heading": "{count, plural, one {# Kommentar} other {# Kommentare}}",
+            "no_comments_heading": "Kommentare",
+            "no_comments": "Noch keine Kommentare. Schreibe als Erster einen Kommentar.",
+            "leave_comment": "Kommentar hinterlassen",
+            "login_to_comment": "Anmelden, um einen Kommentar zu hinterlassen",
             "actions_label": "",
             "nav": {
-                "blog_link": "",
-                "forum_link": "",
-                "home_link": ""
+                "blog_link": "Blog",
+                "forum_link": "Forum",
+                "home_link": "Startseite"
             }
         },
         "admin": {
             "settings": {
                 "tag_slugs_label": "",
                 "tag_slugs_help": "",
-                "title_label": "",
+                "title_label": "Blogtitel",
                 "title_help": "",
-                "tagline_label": "",
-                "tagline_help": "",
-                "show_featured_label": "",
-                "show_featured_help": "",
-                "nav_label_label": "",
-                "nav_label_help": "",
-                "nav_icon_label": "",
-                "nav_icon_help": "",
+                "tagline_label": "Slogan",
+                "tagline_help": "Optionaler einzeiliger Text, der unter dem Blogtitel angezeigt wird.",
+                "show_featured_label": "Hervorgehobenen Beitrag anzeigen",
+                "show_featured_help": "Wenn aktiviert, wird der neueste Blogbeitrag in einer größeren Highlight-Karte oben auf der Übersichtsseite angezeigt.",
+                "nav_label_label": "Navigationsbeschriftung",
+                "nav_label_help": "Die Bezeichnung für den Blog-Link in der Forennavigation. Lasse das Feld leer, um die Standardbezeichnung („Blog“) zu verwenden.",
+                "nav_icon_label": "Navigationssymbol",
+                "nav_icon_help": "Font Awesome-Klasse für das Symbol des Blog-Links (z. B. fas fa-feather-alt, fas fa-book, fas fa-newspaper, fas fa-pencil-alt). Lasse das Feld leer, um die Standardeinstellung zu verwenden.",
                 "header_mode_label": "",
                 "header_mode_help": "",
                 "header_mode_text": "",
                 "header_mode_logo": "",
-                "header_mode_custom": "",
-                "custom_logo_url_label": "",
+                "header_mode_custom": "URL für benutzerdefiniertes Bild",
+                "custom_logo_url_label": "URL für benutzerdefiniertes Logo",
                 "custom_logo_url_help": "",
                 "homepage_label": "",
                 "homepage_pointer_help": ""
             },
             "basics": {
-                "home_label": ""
+                "home_label": "Blog (Link Robins)"
             }
         }
     }
