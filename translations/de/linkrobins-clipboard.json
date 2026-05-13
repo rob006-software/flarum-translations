@@ -4,19 +4,19 @@
             "settings": {
                 "copy_enable_label": "",
                 "copy_enable_help": "",
-                "themes_label": "",
+                "themes_label": "Stil der Kopieren-Schaltfläche",
                 "themes_help": "",
                 "themes": {
-                    "default": "",
-                    "github": "",
-                    "lingcoder": "",
-                    "csdn": "",
-                    "cnblog": "",
-                    "jianshu": "",
-                    "segmentfault": ""
+                    "default": "Standard",
+                    "github": "GitHub",
+                    "lingcoder": "LingCoder",
+                    "csdn": "CSDN",
+                    "cnblog": "cnBlogs",
+                    "jianshu": "Jian Shu",
+                    "segmentfault": "SegmentFault"
                 },
-                "codeLang_label": "",
-                "codeLang_help": ""
+                "codeLang_label": "Sprachbezeichnung in Codeblöcken anzeigen",
+                "codeLang_help": "Zeige die erkannte Programmiersprache oben rechts in jedem Code-Block an (z. B. Python, Bash, JavaScript). Dazu ist ein Syntax-Highlighter erforderlich, der deinen Code-Elementen „language-X“-Klassen hinzufügt."
             }
         },
         "forum": {
