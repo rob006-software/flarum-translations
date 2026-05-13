@@ -133,7 +133,7 @@
                 "default_language_heading": "Hazırki Dil",
                 "description": "Forumun başlığını, dilini və digər əsas parametrlərinizi təyin edin.",
                 "display_name_driver_options": {
-                    "username": ""
+                    "username": "İstifadəçi adı"
                 },
                 "display_name_heading": "İstifadəçinin Görünən Adı",
                 "display_name_text": "İstifadəçilərin ekran adları üçün istifadə edilməli olan sürücünü seçin. Standart olaraq istifadəçi adı göstərilir.",
@@ -154,7 +154,7 @@
                         "utf8": ""
                     },
                     "users": {
-                        "default": "",
+                        "default": "İstifadəçi adı",
                         "id": "",
                         "id_with_display_name": ""
                     }
@@ -169,7 +169,7 @@
                 "abandoned_extensions_sync_button": "",
                 "abandoned_extensions_sync_success": "",
                 "abandoned_extensions_sync_error": "",
-                "abandoned_extensions_notify_admins_label": ""
+                "abandoned_extensions_notify_admins_label": "Həftəlik yoxlama zamanı yeni tərk edilmiş genişləndirmə aşkar edildikdə adminlərə e-poçt göndərin"
             },
             "create_user": {
                 "email_placeholder": "=> core.ref.email",
@@ -478,7 +478,7 @@
                             "title": "",
                             "edit_user": {
                                 "button": "",
-                                "tooltip": ""
+                                "tooltip": "{username} redaktə edin"
                             }
                         },
                         "user_id": {
@@ -819,7 +819,7 @@
                 "discussions": {
                     "author": {
                         "key": "",
-                        "hint": ""
+                        "hint": "istifadəçi adı və ya istifadəçi adlarının vergüllə ayrılmış siyahısı"
                     },
                     "created": {
                         "key": "",
@@ -840,7 +840,7 @@
                 },
                 "users": {
                     "email": {
-                        "key": "",
+                        "key": "e-poçt",
                         "hint": ""
                     },
                     "group": {
@@ -1009,13 +1009,13 @@
                 "return_to_forum": "",
                 "confirm_button": "",
                 "immediate_helptext": "",
-                "confirm_message": "",
+                "confirm_message": "Siz {forumTitle} saytından \"{type}\" e-poçt bildirişlərinə abunəlikdən çıxmaq üçün sorğu göndərmisiniz.",
                 "success_message": "",
-                "invalid_message": ""
+                "invalid_message": "Bu abunəlikdən çıxmaq linki etibarsızdır və ya artıq istifadə olunub. {forumTitle} saytından e-poçt bildirişlərinizdə hər hansı dəyişiklik üçün [parametrlərinizi yoxlayın]({settingsLink})."
             }
         },
         "api": {
-            "invalid_username_message": "",
+            "invalid_username_message": "İstifadəçi adı yalnız hərflər, rəqəmlər və tirelərdən ibarət ola bilər. Ən azı bir hərflə.",
             "invalid_filter_type": {
                 "must_be_numeric_message": "{filter} filtri rəqəmli olmalıdır.",
                 "must_not_be_array_message": "{filter} filtri massiv olmamalıdır.",
@@ -1023,44 +1023,44 @@
             }
         },
         "email": {
-            "greeting": "",
-            "signoff": "",
+            "greeting": "Salam {displayName},",
+            "signoff": "{forumTitle} komandası",
             "informational": {
-                "default_title": "",
-                "footer": "",
-                "footer_plain": ""
+                "default_title": "Məlumat",
+                "footer": "Bu e-məktub {userEmail} ünvanına [{forumTitle}]({forumUrl}) saytındakı hesabınızla bağlı məlumat xidməti kimi göndərilib.",
+                "footer_plain": "Bu e-poçt {userEmail} ünvanına {forumTitle} saytında hesabınızla bağlı məlumat xidməti kimi göndərilib."
             },
             "notification": {
-                "default_title": "",
+                "default_title": "Bildiriş",
                 "footer": {
-                    "main_text": "",
-                    "main_text_plain": "",
-                    "unsubscribe_text": "",
-                    "unsubscribe_text_plain": "",
-                    "settings_text": "",
-                    "settings_text_plain": ""
+                    "main_text": "Bu e-məktub {email} ünvanına göndərildi, çünki siz [{forumTitle}]({forumUrl}) saytında \"{type}\" bildirişlərinə abunəsiniz.",
+                    "main_text_plain": "Bu e-poçt {email} ünvanına göndərildi, çünki siz {forumTitle} saytında \"{type}\" bildirişlərinə abunəsiniz.",
+                    "unsubscribe_text": "Bu tip bildirişləri almağı dayandırmaq istəyirsinizsə, [burada abunəlikdən çıxın]({unsubscribeLink}).",
+                    "unsubscribe_text_plain": "Bu tip bildirişləri almağı dayandırmaq istəyirsinizsə, burada abunəlikdən çıxın: {unsubscribeLink}",
+                    "settings_text": "Bildiriş ayarlarınızı [burada]({settingsLink}) idarə edin.",
+                    "settings_text_plain": "Bildiriş ayarlarınızı buradan idarə edin: {settingsLink}"
                 }
             },
             "activate_account": {
                 "subject": "Yeni Hesabınızı Aktivləşdirin",
-                "body": ""
+                "body": "Kimsə bu e-poçt ünvanı ilə {forum}-a üzv olub.\n\nƏgər bu siz idinizsə, sadəcə olaraq aşağıdakı linkə klikləyin və hesabınız aktivləşəcək:\n{url}\n\nQeydiyyatdan keçməmisinizsə, lütfən, bu e-məktuba məhəl qoymayın.\n"
             },
             "confirm_email": {
                 "subject": "Yeni E-poçt Ünvanınızı Təsdiqləyin",
-                "body": ""
+                "body": "Kimsə {forum}-dakı e-poçt ünvanını bu ünvana dəyişib.\n\nƏgər bu siz idinizsə, sadəcə olaraq aşağıdakı linkə klikləyin və e-poçtunuz təsdiqlənəcək:\n{url}\n\nƏgər bu siz deyilsinizsə, lütfən, bu e-məktubu blok edin.\n"
             },
             "reset_password": {
                 "subject": "=> core.ref.reset_your_password",
-                "body": ""
+                "body": "Kimsə {forum} saytında hesabınız üçün unudulmuş parol sorğusu göndərib.\n\nƏgər bu siz idinizsə, parolunuzu sıfırlamaq üçün aşağıdakı linkə klikləyin:\n{url}\n\nƏgər parolunuzu dəyişmək istəmirsinizsə, sadəcə olaraq bu e-məktuba məhəl qoymayın və heç nə olmayacaq.\n"
             },
             "send_test": {
                 "subject": "Flarum E-poçt Testi",
-                "body": ""
+                "body": "Bu, Flarum e-poçt konfiqurasiyanızın düzgün işlədiyini təsdiqləyən sınaq e-poçtudur.\n\nƏgər bu siz idinizsə, bu e-poçt o deməkdir ki, konfiqurasiyanız işləyir!\n\nƏgər bu siz deyilsinizsə, lütfən, bu e-məktubu blok edin.\n"
             },
             "abandoned_extensions": {
-                "subject": "",
-                "body_intro": "",
-                "body_outro": "",
+                "subject": "Tədbir tələb olunur: tərk edilmiş genişləndirmə(lər) aşkar edildi",
+                "body_intro": "Aşağıdakı quraşdırılmış artırma(lar) tərk edilmiş kimi işarələnib:",
+                "body_outro": "Lütfən, bu genişləndirmələri nəzərdən keçirin və mümkün olduqda alternativlərə köçməyi düşünün.",
                 "line_with_replacement": "",
                 "line_no_replacement": ""
             }
