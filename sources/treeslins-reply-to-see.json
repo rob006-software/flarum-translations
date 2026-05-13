@@ -1,17 +1,19 @@
 {
     "treeslins-reply-to-see": {
         "admin": {
-            "settings": {
-                "placeholder-text": "Hidden content placeholder text",
-                "placeholder-text-help": "The message shown to users who haven't replied. Leave empty for default."
-            },
             "permissions": {
-                "bypass": "View hidden content without replying"
+                "bypass": "Can view hidden content without replying"
+            },
+            "settings": {
+                "placeholder": "Placeholder Text",
+                "placeholder_help": "Message shown to users who haven't replied yet",
+                "enabled": "Enable Reply To See"
             }
         },
         "forum": {
-            "unlocked-label": "Hidden content:",
-            "insert-button": "Insert reply-to-see tag"
+            "button": "Insert Hidden Content",
+            "unlocked_label": "Hidden content unlocked",
+            "placeholder": "Please reply to view hidden content"
         }
     }
 }
