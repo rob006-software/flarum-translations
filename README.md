@@ -1004,7 +1004,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`sycho-move-posts`](https://weblate.rob006.net/projects/flarum2/sycho-move-posts) | [`sycho/flarum-move-posts`](https://github.com/SychO9/flarum-move-posts) |
 | [`sycho-private-facade`](https://weblate.rob006.net/projects/flarum2/sycho-private-facade) | [`sycho/flarum-private-facade`](https://github.com/SychO9/flarum-private-facade) |
 | [`sycho-profile-cover`](https://weblate.rob006.net/projects/flarum2/sycho-profile-cover) | [`sycho/flarum-profile-cover`](https://github.com/SychO9/flarum-profile-cover) |
-| [`treeslins-reply-to-see`](https://weblate.rob006.net/projects/flarum2/treeslins-reply-to-see) | [`treeslins/flarum-ext-reply-to-see`](https://github.com/treeslins/flarum-ext-reply-to-see) |
+| [`treeslins-reply-to-see`](https://weblate.rob006.net/projects/flarum2/treeslins-reply-to-see) | [`treeslins/reply-to-see`](https://github.com/treeslins/reply-to-see) |
 | [`tryhackx-advanced-pages`](https://weblate.rob006.net/projects/flarum2/tryhackx-advanced-pages) | [`tryhackx/flarum-advanced-pages`](https://github.com/TryHackX/flarum-advanced-pages) |
 | [`tryhackx-homepage-blocks`](https://weblate.rob006.net/projects/flarum2/tryhackx-homepage-blocks) | [`tryhackx/flarum-homepage-blocks`](https://github.com/TryHackX/flarum-homepage-blocks) |
 | [`tryhackx-magnet-link`](https://weblate.rob006.net/projects/flarum2/tryhackx-magnet-link) | [`tryhackx/flarum-magnet-link`](https://github.com/TryHackX/flarum-magnet-link) |
