@@ -1010,7 +1010,7 @@ return [
 		],
 	],
 	'import-ai-oauth-passport' => [
-		'tag' => 'https://raw.githubusercontent.com/import-ai/flarum-oauth-passport/v0.1.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/import-ai/flarum-oauth-passport/v0.1.2/locale/en.yml',
 		'__builtInLanguages' => [
 			'zh_Hans',
 		],
