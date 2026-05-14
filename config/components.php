@@ -509,7 +509,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/migratetoflarum/fake-data/2.0.0-beta.1/resources/locale/en.yml',
 	],
 	'peopleinside-fla-powcaptcha' => [
-		'tag' => 'https://raw.githubusercontent.com/PeopleInside/fla-powcaptcha/1.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/PeopleInside/fla-powcaptcha/1.8/locale/en.yml',
 		'__builtInLanguages' => [
 			'it',
 		],
