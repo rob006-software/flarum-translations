@@ -25,7 +25,18 @@
                 "removed": "移除{name}的{amount}个积分。"
             },
             "nav": {
-                "shop": "荣誉"
+                "shop": "荣誉",
+                "my_decorations": ""
+            },
+            "confirm": {
+                "title": "",
+                "title_tier": "",
+                "title_cover": "",
+                "price": "",
+                "current_balance": "",
+                "after_purchase": "",
+                "cancel": "",
+                "confirm": ""
             },
             "badge": {
                 "tooltip": ""
@@ -38,7 +49,11 @@
                 "my_decorations": "我的装饰",
                 "tab_avatar": "头像边框",
                 "tab_name": "名称样式",
+                "tab_cover": "",
+                "tab_title": "",
+                "tab_post_hl": "",
                 "tab_tiers": "用户组分级",
+                "toggle_nav_label": "",
                 "tiers_empty": "暂无已配置的用户组。",
                 "empty": "暂无可用的内容。",
                 "claim": "",
@@ -69,9 +84,13 @@
                 "preview": "实时预览",
                 "avatar": "头像边框",
                 "name": "名称样式",
+                "cover": "",
+                "custom_title": "",
+                "post_hl": "",
                 "none": "你暂未获得此类装饰。",
                 "equip": "",
-                "unequip": ""
+                "unequip": "",
+                "toggle_nav_label": ""
             }
         },
         "admin": {
@@ -92,8 +111,26 @@
                 "users": "用户",
                 "avatar": "头像边框",
                 "name": "名称样式",
+                "cover": "",
+                "title": "",
+                "post_hl": "",
                 "groups": "自动用户组",
                 "manual": "赠送或扣除"
+            },
+            "cover": {
+                "title": "",
+                "help": "",
+                "upload_title": "",
+                "field_name": "",
+                "field_description": "",
+                "field_price": "",
+                "field_image": "",
+                "field_image_help": "",
+                "replace_image": "",
+                "upload": "",
+                "uploaded": "",
+                "existing": "",
+                "none": ""
             },
             "users": {
                 "title": "用户和积分",
@@ -133,6 +170,12 @@
                 "avatar_deco_enabled_help": "总开关。在所有显示头像的位置，展示用户已佩戴的头像边框。",
                 "name_deco_enabled": "启用用户名装饰",
                 "name_deco_enabled_help": "主开关。在用户名文本上，展示用户已佩戴的样式。",
+                "cover_deco_enabled": "",
+                "cover_deco_enabled_help": "",
+                "title_deco_enabled": "",
+                "title_deco_enabled_help": "",
+                "post_hl_deco_enabled": "",
+                "post_hl_deco_enabled_help": "",
                 "deco_in_posts": "跟帖中展示装饰",
                 "deco_in_posts_help": "在帖子和回帖中展示头像和用户名装饰。",
                 "deco_in_user_card": "用户卡/个人资料中展示装饰",
@@ -212,6 +255,51 @@
                 "preset_hearts": "",
                 "preset_sparkle": "",
                 "preset_wave": "",
+                "preset_custom": "",
+                "existing": "",
+                "none": ""
+            },
+            "title": {
+                "title": "",
+                "help": "",
+                "create_title": "",
+                "create": "",
+                "created": "",
+                "field_name": "",
+                "field_title_text": "",
+                "field_title_text_help": "",
+                "field_description": "",
+                "field_color": "",
+                "field_color_help": "",
+                "field_price": "",
+                "field_css": "",
+                "field_css_help": "",
+                "existing": "",
+                "none": ""
+            },
+            "post_hl": {
+                "title": "",
+                "help": "",
+                "create_title": "",
+                "create": "",
+                "created": "",
+                "field_name": "",
+                "field_description": "",
+                "field_preset": "",
+                "field_price": "",
+                "field_css": "",
+                "field_css_help": "",
+                "preset": "",
+                "preset_gold-border": "",
+                "preset_silver-border": "",
+                "preset_glow-blue": "",
+                "preset_glow-purple": "",
+                "preset_glow-green": "",
+                "preset_ribbon-red": "",
+                "preset_ribbon-gold": "",
+                "preset_dashed-accent": "",
+                "preset_gradient-edge": "",
+                "preset_shadow-soft": "",
                 "preset_custom": "",
                 "existing": "",
                 "none": ""

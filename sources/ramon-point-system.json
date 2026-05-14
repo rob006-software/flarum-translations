@@ -25,7 +25,18 @@
                 "removed": "Removed {amount} points from {name}."
             },
             "nav": {
-                "shop": "Rewards"
+                "shop": "Rewards",
+                "my_decorations": "My decorations"
+            },
+            "confirm": {
+                "title": "Confirm purchase",
+                "title_tier": "Join this group?",
+                "title_cover": "Confirm purchase",
+                "price": "Price",
+                "current_balance": "Current balance",
+                "after_purchase": "After purchase",
+                "cancel": "Cancel",
+                "confirm": "Confirm"
             },
             "badge": {
                 "tooltip": "{balance} {currency} (lifetime: {lifetime})"
@@ -38,7 +49,11 @@
                 "my_decorations": "My decorations",
                 "tab_avatar": "Avatar frames",
                 "tab_name": "Name styles",
+                "tab_cover": "Profile covers",
+                "tab_title": "Custom titles",
+                "tab_post_hl": "Post highlights",
                 "tab_tiers": "Group tiers",
+                "toggle_nav_label": "Toggle rewards section menu",
                 "tiers_empty": "No group tiers configured yet.",
                 "empty": "No items available right now.",
                 "claim": "Claim",
@@ -69,9 +84,13 @@
                 "preview": "Live preview",
                 "avatar": "Avatar frames",
                 "name": "Name styles",
+                "cover": "Profile covers",
+                "custom_title": "Custom titles",
+                "post_hl": "Post highlights",
                 "none": "You don't own any decorations of this kind yet.",
                 "equip": "Equip",
-                "unequip": "Unequip"
+                "unequip": "Unequip",
+                "toggle_nav_label": "Toggle decorations section menu"
             }
         },
         "admin": {
@@ -92,8 +111,26 @@
                 "users": "Users",
                 "avatar": "Avatar frames",
                 "name": "Name styles",
+                "cover": "Profile covers",
+                "title": "Custom titles",
+                "post_hl": "Post highlights",
                 "groups": "Auto-groups",
                 "manual": "Award / Revoke"
+            },
+            "cover": {
+                "title": "Profile covers",
+                "help": "Shop-sold profile banners. Static and animated formats supported (PNG, JPG, GIF, WebP, APNG).",
+                "upload_title": "Add new cover",
+                "field_name": "Name",
+                "field_description": "Description",
+                "field_price": "Price (points)",
+                "field_image": "Image",
+                "field_image_help": "Up to 6MB. Animated formats: GIF, APNG, WebP.",
+                "replace_image": "Replace image",
+                "upload": "Upload",
+                "uploaded": "Cover uploaded",
+                "existing": "Existing covers",
+                "none": "No covers yet."
             },
             "users": {
                 "title": "Users & points",
@@ -133,6 +170,12 @@
                 "avatar_deco_enabled_help": "Master toggle. Wraps avatars with the user's equipped decoration wherever avatars are rendered.",
                 "name_deco_enabled": "Enable username decorations",
                 "name_deco_enabled_help": "Master toggle. Applies the user's equipped style to their displayed name.",
+                "cover_deco_enabled": "Enable profile covers",
+                "cover_deco_enabled_help": "Master toggle. Renders the user's equipped cover banner on their profile and user card.",
+                "title_deco_enabled": "Enable custom titles",
+                "title_deco_enabled_help": "Master toggle. Shows the user's equipped title badge next to their name in posts.",
+                "post_hl_deco_enabled": "Enable post highlights",
+                "post_hl_deco_enabled_help": "Master toggle. Wraps the user's posts with their equipped highlight (border/glow/ribbon).",
                 "deco_in_posts": "Decorations in post stream",
                 "deco_in_posts_help": "Apply avatar/name decorations on posts and replies.",
                 "deco_in_user_card": "Decorations on user card / profile",
@@ -215,6 +258,51 @@
                 "preset_custom": "🛠 Custom (CSS)",
                 "existing": "Existing decorations",
                 "none": "No decorations created yet."
+            },
+            "title": {
+                "title": "Custom titles",
+                "help": "Short badge text shown next to the username (e.g. \"Veteran\", \"Patron\"). Each title can have its own colour and optional custom CSS.",
+                "create_title": "Create a new title",
+                "create": "Create title",
+                "created": "Title created.",
+                "field_name": "Name (admin label)",
+                "field_title_text": "Visible badge text",
+                "field_title_text_help": "What users see (max 60 chars). Keep it short — it sits next to the username.",
+                "field_description": "Description",
+                "field_color": "Accent colour",
+                "field_color_help": "CSS colour value (#hex, rgb(), or named). Drives the badge background tint.",
+                "field_price": "Price",
+                "field_css": "Custom CSS (optional)",
+                "field_css_help": "Same modes as name decorations — property list or full CSS with `&` placeholder.",
+                "existing": "Existing titles",
+                "none": "No titles created yet."
+            },
+            "post_hl": {
+                "title": "Post highlights",
+                "help": "Border / glow / ribbon applied around the user's posts. Choose a built-in preset or write custom CSS.",
+                "create_title": "Create a new highlight",
+                "create": "Create highlight",
+                "created": "Highlight created.",
+                "field_name": "Name",
+                "field_description": "Description",
+                "field_preset": "Preset",
+                "field_price": "Price",
+                "field_css": "Custom CSS (optional)",
+                "field_css_help": "Uses `&` as the selector placeholder (matches the post container).",
+                "preset": "Preset",
+                "preset_gold-border": "🥇 Gold border",
+                "preset_silver-border": "🥈 Silver border",
+                "preset_glow-blue": "💎 Blue glow",
+                "preset_glow-purple": "🔮 Purple glow",
+                "preset_glow-green": "🌿 Green glow",
+                "preset_ribbon-red": "🎀 Red ribbon",
+                "preset_ribbon-gold": "🎗 Gold ribbon",
+                "preset_dashed-accent": "✂ Dashed accent",
+                "preset_gradient-edge": "🌈 Gradient edge",
+                "preset_shadow-soft": "🌫 Soft shadow",
+                "preset_custom": "🛠 Custom (CSS)",
+                "existing": "Existing highlights",
+                "none": "No highlights created yet."
             },
             "groups": {
                 "title": "Auto-group tiers",

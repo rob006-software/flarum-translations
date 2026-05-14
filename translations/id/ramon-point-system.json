@@ -25,7 +25,18 @@
                 "removed": ""
             },
             "nav": {
-                "shop": ""
+                "shop": "",
+                "my_decorations": ""
+            },
+            "confirm": {
+                "title": "",
+                "title_tier": "",
+                "title_cover": "",
+                "price": "",
+                "current_balance": "",
+                "after_purchase": "",
+                "cancel": "",
+                "confirm": ""
             },
             "badge": {
                 "tooltip": ""
@@ -38,7 +49,11 @@
                 "my_decorations": "",
                 "tab_avatar": "",
                 "tab_name": "",
+                "tab_cover": "",
+                "tab_title": "",
+                "tab_post_hl": "",
                 "tab_tiers": "",
+                "toggle_nav_label": "",
                 "tiers_empty": "",
                 "empty": "",
                 "claim": "",
@@ -69,9 +84,13 @@
                 "preview": "",
                 "avatar": "",
                 "name": "",
+                "cover": "",
+                "custom_title": "",
+                "post_hl": "",
                 "none": "",
                 "equip": "",
-                "unequip": ""
+                "unequip": "",
+                "toggle_nav_label": ""
             }
         },
         "admin": {
@@ -92,8 +111,26 @@
                 "users": "",
                 "avatar": "",
                 "name": "",
+                "cover": "",
+                "title": "",
+                "post_hl": "",
                 "groups": "",
                 "manual": ""
+            },
+            "cover": {
+                "title": "",
+                "help": "",
+                "upload_title": "",
+                "field_name": "",
+                "field_description": "",
+                "field_price": "",
+                "field_image": "",
+                "field_image_help": "",
+                "replace_image": "",
+                "upload": "",
+                "uploaded": "",
+                "existing": "",
+                "none": ""
             },
             "users": {
                 "title": "",
@@ -133,6 +170,12 @@
                 "avatar_deco_enabled_help": "",
                 "name_deco_enabled": "",
                 "name_deco_enabled_help": "",
+                "cover_deco_enabled": "",
+                "cover_deco_enabled_help": "",
+                "title_deco_enabled": "",
+                "title_deco_enabled_help": "",
+                "post_hl_deco_enabled": "",
+                "post_hl_deco_enabled_help": "",
                 "deco_in_posts": "",
                 "deco_in_posts_help": "",
                 "deco_in_user_card": "",
@@ -212,6 +255,51 @@
                 "preset_hearts": "",
                 "preset_sparkle": "",
                 "preset_wave": "",
+                "preset_custom": "",
+                "existing": "",
+                "none": ""
+            },
+            "title": {
+                "title": "",
+                "help": "",
+                "create_title": "",
+                "create": "",
+                "created": "",
+                "field_name": "",
+                "field_title_text": "",
+                "field_title_text_help": "",
+                "field_description": "",
+                "field_color": "",
+                "field_color_help": "",
+                "field_price": "",
+                "field_css": "",
+                "field_css_help": "",
+                "existing": "",
+                "none": ""
+            },
+            "post_hl": {
+                "title": "",
+                "help": "",
+                "create_title": "",
+                "create": "",
+                "created": "",
+                "field_name": "",
+                "field_description": "",
+                "field_preset": "",
+                "field_price": "",
+                "field_css": "",
+                "field_css_help": "",
+                "preset": "",
+                "preset_gold-border": "",
+                "preset_silver-border": "",
+                "preset_glow-blue": "",
+                "preset_glow-purple": "",
+                "preset_glow-green": "",
+                "preset_ribbon-red": "",
+                "preset_ribbon-gold": "",
+                "preset_dashed-accent": "",
+                "preset_gradient-edge": "",
+                "preset_shadow-soft": "",
                 "preset_custom": "",
                 "existing": "",
                 "none": ""

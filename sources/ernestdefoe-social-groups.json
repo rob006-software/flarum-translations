@@ -71,8 +71,15 @@
                 "delete_post": "Delete",
                 "delete_post_confirm": "Delete this post?",
                 "like": "Like",
+                "react_like": "Like",
+                "react_heart": "Love",
+                "react_haha": "Haha",
+                "react_wow": "Wow",
+                "react_sad": "Sad",
+                "react_angry": "Angry",
                 "view_comments": "Comments",
-                "feed_placeholder": "What's on your mind?"
+                "feed_placeholder": "What's on your mind?",
+                "comments_count": "{count, plural, one {# comment} other {# comments}}"
             },
             "group": {
                 "about_title": "About this Group",
@@ -87,6 +94,7 @@
                 "role_creator": "Creator",
                 "role_admin": "Moderator",
                 "remove_member": "Remove",
+                "remove_member_confirm": "Remove {displayName} from this group? They will not be able to rejoin.",
                 "load_error": "Failed to load group.",
                 "not_found": "Group not found.",
                 "members_load_error": "Could not load members.",
@@ -110,6 +118,10 @@
                 "change": "Change",
                 "invalid_type": "Invalid file type. Please upload a JPG, PNG, GIF, or WebP image.",
                 "too_large": "File is too large. Maximum size is 5MB."
+            },
+            "notifications": {
+                "new_post": "posted in {discussionTitle}",
+                "new_reply": "replied to your comment in {discussionTitle}"
             }
         },
         "admin": {
