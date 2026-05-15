@@ -2,68 +2,68 @@
     "fof-moderator-warnings": {
         "admin": {
             "permissions": {
-                "manage_warnings": "",
-                "view_warnings": "",
-                "delete_warnings": ""
+                "manage_warnings": "Stvaranje i uklanjanje moderatorskih upozorenja",
+                "view_warnings": "Pregled moderatorskih upozorenja",
+                "delete_warnings": "Trajno brisanje moderatorskih upozorenja"
             }
         },
         "emails": {
             "post_warned": {
-                "subject": "",
-                "body": ""
+                "subject": "{warner_display_name} vas je upozorio s {strikes, plural, one {# upozorenjem} other {# upozorenja}} u temi {discussion_title}",
+                "body": "Bok {warnee_display_name}!\n\n{warner_display_name} vas je upozorio s {strikes, plural, one {# upozorenjem} other {# upozorenja}} u temi {discussion_title}\n\nNaveden je sljedeći razlog:\n\n---\n\n{public_comment}\n"
             },
             "user_warned": {
-                "subject": "",
-                "body": ""
+                "subject": "{warner_display_name} vas je upozorio s {strikes, plural, one {# upozorenjem} other {# upozorenja}}",
+                "body": "Bok {warnee_display_name}!\n\n{warner_display_name} vas je upozorio s {strikes, plural, one {# upozorenjem} other {# upozorenja}}\n\nNaveden je sljedeći razlog:\n\n---\n\n{public_comment}\n"
             }
         },
         "forum": {
             "notifications": {
-                "warning_text": "",
-                "warning_no_strikes_text": ""
+                "warning_text": "{strikes, plural, one {Dodijeljeno vam je # upozorenje od strane korisnika {mod_username}} other {Dodijeljena su vam # upozorenja od strane korisnika {mod_username}}}",
+                "warning_no_strikes_text": "Upozoreni ste od strane korisnika {mod_username} (bez upozorenja)"
             },
             "post": {
-                "warning": "",
-                "warning_no_strikes": ""
+                "warning": "{strikes, plural, one {Dodijeljeno # upozorenje od strane korisnika {mod_username}} other {Dodijeljena # upozorenja od strane korisnika {mod_username}}}",
+                "warning_no_strikes": "Upozorenje bez dodijeljenih upozorenja od strane korisnika {mod_username}"
             },
             "post_controls": {
-                "warning_button": ""
+                "warning_button": "Upozori korisnika"
             },
             "user": {
-                "warnings": ""
+                "warnings": "Moderatorska upozorenja"
             },
             "settings": {
-                "warning_notification_label": ""
+                "warning_notification_label": "Moderator me upozorava"
             },
             "validation": {
-                "public_comment_required": "",
-                "invalid_strike_count": ""
+                "public_comment_required": "Morate unijeti javni komentar.",
+                "invalid_strike_count": "Broj upozorenja mora biti cijeli broj između 0 i 5."
             },
             "warning_controls": {
-                "delete_button": "",
-                "restore_button": "",
-                "delete_forever_button": ""
+                "delete_button": "Ukloni",
+                "restore_button": "Vrati",
+                "delete_forever_button": "Trajno izbriši"
             },
             "warning_list": {
-                "add_button": "",
-                "no_warnings": "",
-                "warnings": "",
-                "warnings_no_strikes": ""
+                "add_button": "Novo upozorenje",
+                "no_warnings": "Izgleda da ovdje nema upozorenja.",
+                "warnings": "{strikes, plural, one {Moderatorska upozorenja: primljeno # upozorenje} other {Moderatorska upozorenja: primljena # upozorenja}}",
+                "warnings_no_strikes": "Moderatorska upozorenja: nema primljenih upozorenja"
             },
             "warning_list_item": {
-                "list_item_heading": "",
-                "list_item_heading_hidden": "",
-                "public_comment": "",
-                "private_comment": "",
-                "linked_post": ""
+                "list_item_heading": "{strikes, plural, one {<strong>#</strong> upozorenje, {time}} other {<strong>#</strong> upozorenja, {time}}}",
+                "list_item_heading_hidden": "{strikes, plural, one {<strong>#</strong> upozorenje, {time} <strong>(uklonjeno)</strong>} other {<strong>#</strong> upozorenja, {time} <strong>(uklonjena)</strong>}}",
+                "public_comment": "Upozorenje",
+                "private_comment": "Komentari vidljivi moderatorima",
+                "linked_post": "Povezana objava"
             },
             "warning_modal": {
-                "confirmation_message": "",
-                "heading": "",
-                "strikes_heading": "",
-                "public_comment_heading": "",
-                "private_comment_heading": "",
-                "submit_button": ""
+                "confirmation_message": "Vaše upozorenje je spremljeno. Možda ćete morati osvježiti stranicu kako biste ga vidjeli.",
+                "heading": "Upozori <strong>{username}</strong>",
+                "strikes_heading": "Koliko upozorenja treba dodijeliti?",
+                "public_comment_heading": "Zašto <strong>{username}</strong> prima ova upozorenja? Ovi komentari bit će vidljivi korisniku i ostalim moderatorima.",
+                "private_comment_heading": "Zašto <strong>{username}</strong> prima ova upozorenja? Ovi komentari bit će vidljivi SAMO ostalim moderatorima.",
+                "submit_button": "Spremi upozorenje"
             }
         }
     }
