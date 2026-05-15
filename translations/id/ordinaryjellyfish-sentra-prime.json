@@ -2,43 +2,43 @@
     "ordinaryjellyfish-sentra": {
         "admin": {
             "permissions": {
-                "undo_post_score": ""
+                "undo_post_score": "=> ordinaryjellyfish-sentra.lib.undo_post_score"
             },
-            "service_account": "",
+            "service_account": "Akun layanan",
             "services": {
-                "language": "",
-                "language_help": ""
+                "language": "Azure AI Language",
+                "language_help": "Azure AI Language adalah layanan yang menggunakan pemrosesan bahasa alami untuk menganalisis teks."
             },
             "modules": {
-                "identity_sentinel": "",
-                "identity_sentinel_help": "",
+                "identity_sentinel": "Identity Sentinel",
+                "identity_sentinel_help": "Identity Sentinel adalah modul untuk mendeteksi informasi yang dapat mengidentifikasi seseorang dalam postingan.",
                 "identity_sentinel_settings": {
-                    "action": "",
-                    "action_help": "",
-                    "action_flag": "",
-                    "action_redact": "",
-                    "confidence": "",
-                    "confidence_help": "",
-                    "pii_threshold": "",
-                    "pii_threshold_help": ""
+                    "action": "Tindakan Deteksi",
+                    "action_help": "Tindakan yang akan diambil ketika kriteria terpenuhi.",
+                    "action_flag": "Tandai Postingan",
+                    "action_redact": "Sembunyikan Informasi",
+                    "confidence": "Ambang Kepercayaan",
+                    "confidence_help": "Ambang batas kepercayaan untuk memicu tindakan, berupa angka desimal antara 0 dan 1.",
+                    "pii_threshold": "Ambang PII umum",
+                    "pii_threshold_help": "Jumlah entitas informasi pribadi umum yang harus terdeteksi sebelum tindakan diambil. PII sensitif akan selalu memicu tindakan, berapa pun jumlah kemunculannya. Atur ke 0 jika Anda tidak ingin mendeteksi PII umum."
                 }
             }
         },
         "forum": {
-            "undo_post_score": "",
-            "pii": ""
+            "undo_post_score": "=> ordinaryjellyfish-sentra.lib.undo_post_score",
+            "pii": "Informasi Yang Dapat Mengidentifikasi Seseorang"
         },
         "lib": {
-            "undo_post_score": ""
+            "undo_post_score": "Batalkan Skor Perilaku Postingan"
         },
         "email": {
-            "suspend_temporary_reason": "",
-            "suspend_permanent_reason": ""
+            "suspend_temporary_reason": "Anda telah otomatis ditangguhkan karena perilaku negatif yang berulang. Penangguhan ini berlaku selama {duration, plural, one {1 hari} plural {# hari}} dan akan dicabut secara otomatis. Jika Anda merasa ini adalah kesalahan, silakan hubungi staf forum.",
+            "suspend_permanent_reason": "Anda telah otomatis ditangguhkan karena perilaku negatif yang berulang. Penangguhan ini bersifat permanen. Jika Anda merasa ini adalah kesalahan, silakan hubungi staf forum."
         }
     },
     "ordinaryjellyfish-sentra-prime": {
         "admin": {
-            "title": ""
+            "title": "Pengaturan untuk ekstensi ini tersedia di <a>halaman ekstensi Sentra</a>. Selamat menggunakan!"
         }
     }
 }

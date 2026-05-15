@@ -26,19 +26,19 @@
                     "title": "ساخت یک رمز فراخوانی جدید",
                     "key": {
                         "label": "کلید",
-                        "help": "رمزی که کاربر در زمان نام‌نویسی وارد می‌کند."
+                        "help": "=> fof-doorman.admin.ref.fields.key.help"
                     },
                     "group": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.group.label",
+                        "help": "=> fof-doorman.admin.ref.fields.group.help"
                     },
                     "max_uses": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.max_uses.label",
+                        "help": "=> fof-doorman.admin.ref.fields.max_uses.help"
                     },
                     "activates_user": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.activates_user.label",
+                        "help": "=> fof-doorman.admin.ref.fields.activates_user.help"
                     },
                     "submit_button": "ساخت رمز فراخوانی",
                     "submit_and_create_another_button": "ساختن و اضافه کرد یکی‌دیگر"
@@ -46,20 +46,20 @@
                 "edit_doorkey": {
                     "title": "ویرایش رمز فراخوانی",
                     "key": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.key.label",
+                        "help": "=> fof-doorman.admin.ref.fields.key.help"
                     },
                     "group": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.group.label",
+                        "help": "=> fof-doorman.admin.ref.fields.group.help"
                     },
                     "max_uses": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.max_uses.label",
+                        "help": "=> fof-doorman.admin.ref.fields.max_uses.help"
                     },
                     "activates_user": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.activates_user.label",
+                        "help": "=> fof-doorman.admin.ref.fields.activates_user.help"
                     },
                     "submit_button": "درج تغییرات"
                 },
@@ -83,17 +83,17 @@
             "list": {
                 "columns": {
                     "id": "کد شناسایی",
-                    "key": "",
-                    "group": "",
-                    "max_uses": "",
-                    "activates_user": "",
+                    "key": "=> fof-doorman.admin.ref.fields.key.label",
+                    "group": "=> fof-doorman.admin.ref.fields.group.label",
+                    "max_uses": "=> fof-doorman.admin.ref.fields.max_uses.label",
+                    "activates_user": "=> fof-doorman.admin.ref.fields.activates_user.label",
                     "manage": "مدیریت",
                     "uses": "بهره‌وری‌ها",
                     "created_by": "ساخته شده توسط"
                 },
                 "content": {
-                    "invalid_column": "",
-                    "no_group": "",
+                    "invalid_column": "=> core.admin.users.grid.invalid_column_content",
+                    "no_group": "=> core.admin.users.grid.columns.group_badges.no_badges",
                     "warning": "این رمز فراخوانی بیشترین دفعات مجاز استفاده شده.",
                     "delete": "از پاک کردن رمز فراخوانی {key} اطمینان دارید؟",
                     "uses": {
@@ -103,12 +103,12 @@
                     "no_created_by": "کاربر ناشناس"
                 },
                 "pagination": {
-                    "first_page_button": "",
-                    "back_button": "",
-                    "page_counter": "",
-                    "go_to_page_textbox_a11y_label": "",
-                    "next_button": "",
-                    "last_page_button": ""
+                    "first_page_button": "=> core.admin.users.pagination.first_page_button",
+                    "back_button": "=> core.admin.users.pagination.back_button",
+                    "page_counter": "=> core.admin.users.pagination.page_counter",
+                    "go_to_page_textbox_a11y_label": "=> core.admin.users.pagination.go_to_page_textbox_a11y_label",
+                    "next_button": "=> core.admin.users.pagination.next_button",
+                    "last_page_button": "=> core.admin.users.pagination.last_page_button"
                 }
             }
         },

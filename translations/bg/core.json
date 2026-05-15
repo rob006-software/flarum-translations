@@ -42,7 +42,13 @@
                 "slug_driver_text": "Изберете драйвър, който да се използва за създаване на Slug за този модел.",
                 "title": "Основни настройки",
                 "welcome_banner_heading": "Банер за посрещане",
-                "welcome_banner_text": "Конфигуриране на текста, който се показва в банера на страницата с всички дискусии. Използвайте това, за да приветствате гостите на вашия форум."
+                "welcome_banner_text": "Конфигуриране на текста, който се показва в банера на страницата с всички дискусии. Използвайте това, за да приветствате гостите на вашия форум.",
+                "abandoned_extensions_heading": "",
+                "abandoned_extensions_text": "",
+                "abandoned_extensions_sync_button": "",
+                "abandoned_extensions_sync_success": "",
+                "abandoned_extensions_sync_error": "",
+                "abandoned_extensions_notify_admins_label": ""
             },
             "create_user": {
                 "email_placeholder": "=> core.ref.email",
@@ -53,6 +59,20 @@
                 "title": "Създай нов потребител",
                 "use_random_password": "Генериране на произволна парола",
                 "username_placeholder": "=> core.ref.username"
+            },
+            "announcements": {
+                "comments_label": "",
+                "description": "",
+                "empty": "",
+                "load_error": "",
+                "about": "",
+                "hide": "",
+                "read_more": "",
+                "refresh": "",
+                "retry": "",
+                "show": "",
+                "title": "",
+                "view_all": ""
             },
             "dashboard": {
                 "clear_cache_button": "Изчисти кеша",
@@ -182,6 +202,7 @@
                     "discussion": "Дискусия",
                     "feature": "Характеристики",
                     "formatting": "Форматиране",
+                    "forum-widget": "",
                     "language": "Езици",
                     "moderation": "Модериране",
                     "other": "Други разширения",
@@ -705,6 +726,12 @@
             "send_test": {
                 "subject": "Flarum имейл тест",
                 "body": "Здравейте {username}!\n\nТова е тестово писмо, за да потвърдим, че конфигурацията на вашия Flarum имейл работи правилно.\n\nАко това сте вие, това писмо означава, че вашата конфигурация работи!\n\nАко това не сте вие, моля, игнорирайте това писмо.\n"
+            },
+            "abandoned_extensions": {
+                "subject": "",
+                "body": "",
+                "line_with_replacement": "",
+                "line_no_replacement": ""
             }
         },
         "ref": {

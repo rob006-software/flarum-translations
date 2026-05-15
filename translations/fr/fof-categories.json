@@ -2,54 +2,54 @@
     "fof-categories": {
         "admin": {
             "basics": {
-                "categories_label": ""
+                "categories_label": "Catégories"
             },
             "labels": {
-                "keep_tags_nav": "",
-                "child_bare_icon": "",
-                "compact_mobile_mode": "",
-                "full_page_desktop": "",
-                "parent_remove_icon": "",
-                "parent_remove_description": "",
-                "parent_remove_stats": "",
-                "parent_remove_last_discussion": "",
-                "small_forum_optimized": ""
+                "keep_tags_nav": "Faut-il conserver le lien vers la page des étiquettes dans la barre de navigation latérale ?",
+                "child_bare_icon": "Des sous-icônes ?",
+                "compact_mobile_mode": "Mode mobile compact",
+                "full_page_desktop": "Plein écran sur ordinateur ?",
+                "parent_remove_icon": "Masquer les icônes des étiquettes de premier niveau ?",
+                "parent_remove_description": "Masquer les descriptions des étiquettes de premier niveau ?",
+                "parent_remove_stats": "Masquer les statistiques des étiquettes de premier niveau ?",
+                "parent_remove_last_discussion": "Masquer les discussions les plus récentes pour les étiquettes de premier niveau ?",
+                "small_forum_optimized": "Optimiser pour les petits forums ?"
             },
             "help": {
-                "child_bare_icon": "",
-                "full_page_desktop": "",
-                "small_forum_optimized": ""
+                "child_bare_icon": "Les icônes des sous-catégories doivent-elles s'afficher sans fond circulaire ?",
+                "full_page_desktop": "Faut-il réduire le menu de navigation latéral à une seule ligne (comme sur la page des étiquettes classique) ? Cela masquera également les widgets (tels que « Friends of Flarum » et « Forum Statistics ») de la barre de navigation de la page des catégories.",
+                "small_forum_optimized": "Cela permettra d'obtenir un décompte plus précis des discussions et des messages, mais ralentira considérablement les forums de taille moyenne et grande."
             },
             "headings": {
-                "nav": "",
-                "layout": "",
-                "parent_display": "",
-                "child_display": "",
-                "performance": ""
+                "nav": "Navigation",
+                "layout": "Mise en page",
+                "parent_display": "Affichage de la catégorie parente",
+                "child_display": "Affichage des sous-catégories",
+                "performance": "Performance"
             },
-            "title": ""
+            "title": "Paramètres des catégories"
         },
         "forum": {
             "all_categories": {
-                "meta_description_text": "",
-                "meta_title_text": ""
+                "meta_description_text": "Toutes les catégories",
+                "meta_title_text": "=> fof-categories.ref.categories"
             },
             "header": {
-                "back_to_categories_tooltip": ""
+                "back_to_categories_tooltip": "Retour aux catégories"
             },
             "index": {
-                "categories_link": ""
+                "categories_link": "=> fof-categories.ref.categories"
             },
             "stat-widgets": {
-                "discussion_label": "",
-                "post_label": ""
+                "discussion_label": "Discussions",
+                "post_label": "Messages"
             },
             "last_discussion_widget": {
-                "no_discussions": ""
+                "no_discussions": "Pas encore de discussions (pour l'instant !)"
             }
         },
         "ref": {
-            "categories": ""
+            "categories": "Categories"
         }
     }
 }

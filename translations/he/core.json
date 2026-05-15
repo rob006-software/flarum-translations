@@ -42,7 +42,13 @@
                 "slug_driver_text": "בחירת driver לשימות במיקום(slug) למודל זה.",
                 "title": "בסיס",
                 "welcome_banner_heading": "קבלת הפנים",
-                "welcome_banner_text": "ערוך את הטקסט שמופיע בחלון קבלת הפנים בדף כל הדיונים. השתמש בו כדי לקבל את פניהם של האורחים לפורום שלך."
+                "welcome_banner_text": "ערוך את הטקסט שמופיע בחלון קבלת הפנים בדף כל הדיונים. השתמש בו כדי לקבל את פניהם של האורחים לפורום שלך.",
+                "abandoned_extensions_heading": "",
+                "abandoned_extensions_text": "",
+                "abandoned_extensions_sync_button": "",
+                "abandoned_extensions_sync_success": "",
+                "abandoned_extensions_sync_error": "",
+                "abandoned_extensions_notify_admins_label": ""
             },
             "create_user": {
                 "email_placeholder": "=> core.ref.email",
@@ -53,6 +59,20 @@
                 "title": "יצירת משתמש חדש",
                 "use_random_password": "יצירת סיסמה אקראית",
                 "username_placeholder": "=> core.ref.username"
+            },
+            "announcements": {
+                "comments_label": "",
+                "description": "",
+                "empty": "",
+                "load_error": "",
+                "about": "",
+                "hide": "",
+                "read_more": "",
+                "refresh": "",
+                "retry": "",
+                "show": "",
+                "title": "",
+                "view_all": ""
             },
             "dashboard": {
                 "clear_cache_button": "ניקוי מטמון",
@@ -182,6 +202,7 @@
                     "discussion": "דיון",
                     "feature": "תכונות",
                     "formatting": "פורמט",
+                    "forum-widget": "",
                     "language": "שפות",
                     "moderation": "ניהול",
                     "other": "הרחבות נוספות",
@@ -705,6 +726,12 @@
             "send_test": {
                 "subject": "בדיקת מייל Flarum",
                 "body": "שלום {username}!\n\nזה הוא מייל בדיקה ונראה שהכל עובד כמו שצריך.\n\nאם שליחת ההודעה בוצעה על ידך, ההגדרות עובדות כמצופה!\n\nאם שליחת ההודעה לא בוצעה על ידיך, התעלם ממייל זה.\n"
+            },
+            "abandoned_extensions": {
+                "subject": "",
+                "body": "",
+                "line_with_replacement": "",
+                "line_no_replacement": ""
             }
         },
         "ref": {

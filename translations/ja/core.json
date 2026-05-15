@@ -42,7 +42,13 @@
                 "slug_driver_text": "上記のURLで使用するスラッグを選択します。",
                 "title": "基本設定",
                 "welcome_banner_heading": "ウェルカムメッセージ",
-                "welcome_banner_text": "スレッド一覧ページの上部に表示されるテキストを設定します。これを使用してゲストを歓迎しましょう。"
+                "welcome_banner_text": "スレッド一覧ページの上部に表示されるテキストを設定します。これを使用してゲストを歓迎しましょう。",
+                "abandoned_extensions_heading": "",
+                "abandoned_extensions_text": "",
+                "abandoned_extensions_sync_button": "",
+                "abandoned_extensions_sync_success": "",
+                "abandoned_extensions_sync_error": "",
+                "abandoned_extensions_notify_admins_label": ""
             },
             "create_user": {
                 "email_placeholder": "=> core.ref.email",
@@ -53,6 +59,20 @@
                 "title": "新しいユーザーを作成",
                 "use_random_password": "ランダムなパスワードを生成",
                 "username_placeholder": "=> core.ref.username"
+            },
+            "announcements": {
+                "comments_label": "",
+                "description": "",
+                "empty": "",
+                "load_error": "",
+                "about": "",
+                "hide": "",
+                "read_more": "",
+                "refresh": "",
+                "retry": "",
+                "show": "",
+                "title": "",
+                "view_all": ""
             },
             "dashboard": {
                 "clear_cache_button": "キャッシュのクリア",
@@ -182,6 +202,7 @@
                     "discussion": "会話",
                     "feature": "機能",
                     "formatting": "書式",
+                    "forum-widget": "",
                     "language": "言語",
                     "moderation": "管理",
                     "other": "その他",
@@ -705,6 +726,12 @@
             "send_test": {
                 "subject": "Flarum テストメール",
                 "body": "{username}さん、こんにちは!\n\nこのメールは、Flarumのメール設定が正しく動作していることを確認するためのものです。\nもしあなたがこのメールを送信した場合、メール設定は正しく動作していることを意味します。\nもしこのメールに覚えがない場合は、このメールを無視してください。\n"
+            },
+            "abandoned_extensions": {
+                "subject": "",
+                "body": "",
+                "line_with_replacement": "",
+                "line_no_replacement": ""
             }
         },
         "ref": {

@@ -14,7 +14,7 @@
                 "type_from_label": "این بحث را در بحث دیگری ادغام کنید",
                 "type_from_help_text": "بحث هدف را برای ادغام <b>{title}</b> در آن انتخاب کنید.",
                 "load_preview_button": "پیش نمایش",
-                "submit_button": ""
+                "submit_button": "=> fof-merge-discussions.ref.merge"
             },
             "notification": {
                 "discussion_merged": "بحث شما <b>{oldTitle}</b> توسط {username} در این بحث ادغام شد.",
@@ -23,7 +23,7 @@
                 }
             },
             "discussion": {
-                "merge": ""
+                "merge": "=> fof-merge-discussions.ref.merge"
             },
             "post": {
                 "merged": "{count, plural, one {پست <b>#</b> ادغام شد از {titles}.} other {پست های <b>#</b> ادغام شدند از {titles}.}}"

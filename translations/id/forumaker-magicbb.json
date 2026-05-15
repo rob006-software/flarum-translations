@@ -2,41 +2,41 @@
     "forumaker-magicbb": {
         "admin": {
             "settings": {
-                "bb_center": "",
-                "bb_justify": "",
-                "bb_color": "",
-                "bb_spoiler": "",
-                "bb_table": "",
-                "bb_info": "",
-                "bb_audio": "",
-                "bb_image": "",
-                "bb_image_help": "",
-                "bb_iframe": "",
-                "bb_iframe_help": "",
-                "toolbar_group": "",
-                "toolbar_group_help": ""
+                "bb_center": "Tengah",
+                "bb_justify": "Rata kiri-kanan",
+                "bb_color": "Warna",
+                "bb_spoiler": "Spoiler",
+                "bb_table": "Tabel",
+                "bb_info": "Peringatan",
+                "bb_audio": "Audio",
+                "bb_image": "FoF Upload",
+                "bb_image_help": "Menambahkan tombol baru di editor untuk pengaturan posisi gambar. Gambar besar yang dipusatkan akan otomatis diubah ukurannya menjadi 60% dari lebar postingan, dan yang disejajarkan ke samping hingga 40%",
+                "bb_iframe": "iframe",
+                "bb_iframe_help": "Memungkinkan penyematan iframe dari sumber mana pun. Gunakan dengan hati-hati — konten yang disematkan dapat mengandung skrip eksternal. 🧹 Setelah mengubah pengaturan ini, harap bersihkan cache Flarum",
+                "toolbar_group": "Kelompokkan tombol MagicBB",
+                "toolbar_group_help": "Jika diaktifkan, semua tombol MagicBB akan dikelompokkan menjadi satu di editor"
             },
             "sections": {
-                "text": "",
-                "content": "",
-                "images": "",
-                "features": ""
+                "text": "Tombol teks",
+                "content": "Tombol konten",
+                "images": "Tombol gambar",
+                "features": "Fitur"
             },
             "permissions": {
-                "use_iframe": ""
+                "use_iframe": "Izinkan iframe"
             }
         },
         "forum": {
             "composer": {
-                "center_button": "",
-                "justify_button": "",
-                "color_button": "",
-                "spoiler_button": "",
-                "table_button": "",
-                "info_button": "",
-                "audio_button": "",
-                "image_button": "",
-                "more_button": ""
+                "center_button": "Rata tengah",
+                "justify_button": "Rata kiri-kanan",
+                "color_button": "Tambahkan warna",
+                "spoiler_button": "Tambahkan spoiler",
+                "table_button": "Tambahkan tabel",
+                "info_button": "Tambahkan peringatan",
+                "audio_button": "Tambahkan audio",
+                "image_button": "Tambahkan gambar",
+                "more_button": "Lainnya"
             }
         }
     }

@@ -10,7 +10,7 @@
                 "identifier": "Идентификатор",
                 "identifier_help": "Используется для генерации уникального аватара для каждого пользователя\n",
                 "identifier_id": "ID пользователя",
-                "identifier_display_name": "Показывать имя",
+                "identifier_display_name": "Отображаемое имя",
                 "identifier_email": "Эл.почта",
                 "theme": "Тема",
                 "theme_help": "Тема для использования со \"скучными аватарами\"\n"
@@ -21,9 +21,9 @@
         "lib": {
             "data": {
                 "boringavatar": {
-                    "export_description": "",
-                    "anonymize_description": "",
-                    "delete_description": ""
+                    "export_description": "Включает аватар в архив экспорта.",
+                    "anonymize_description": "Удаляет текущий аватар и генерирует новый случайный.",
+                    "delete_description": "Удаляет скучный аватар."
                 }
             }
         }

@@ -39,7 +39,18 @@
                 "models_fetched_success": "Model berhasil diambil dari OpenAI: {count}",
                 "fetch_models_error": "Gagal mengambil model. Silakan periksa pengaturan API key dan base URI Anda.",
                 "models_last_fetched": "Terakhir diperbarui: {date}",
-                "models_never_fetched": "Model belum pernah diambil. Klik tombol di atas untuk mengambil model terbaru."
+                "models_never_fetched": "Model belum pernah diambil. Klik tombol di atas untuk mengambil model terbaru.",
+                "apply_recommended_model_button": "",
+                "apply_model_preset_button": "",
+                "recommended_model_help": "",
+                "recommended_model_applied_success": "",
+                "preset_applied_success": "",
+                "custom_model_label": "Nama Model Custom",
+                "custom_model_help": "Masukkan nama model custom untuk mengganti pilihan pada menu dropdown di atas (misalnya: deepseek-chat, llama3). Biarkan kosong untuk menggunakan model yang dipilih.",
+                "gpt5_reasoning_effort_label": "Upaya Penalaran GPT-5",
+                "gpt5_reasoning_effort_help": "Mengontrol tingkat penalaran yang dilakukan GPT-5 sebelum menjawab. (minimal, rendah, sedang, tinggi)",
+                "gpt5_verbosity_label": "Tingkat Detail Output GPT-5",
+                "gpt5_verbosity_help": "Mengontrol panjang dan detail respons GPT-5. (rendah, sedang, tinggi)"
             },
             "permissions": {
                 "use_chatgpt_assistant_label": "Gunakan ChatGPT Assistant"

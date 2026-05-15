@@ -7,12 +7,21 @@
             "elastic-index": "Index",
             "analyzer": {
                 "label": "Elemző nyelve",
-                "help": "Az elemző lehetővé teszi, hogy a kereső megértse a stopszavakat, és nyelvfüggő\nfejlesztéseket biztosít az indexeléshez.\n"
+                "help": "Az elemző lehetővé teszi, hogy a kereső megértse a stopszavakat, és nyelvfüggő\nfejlesztéseket biztosít az indexeléshez. A módosítás érvénybe lépéséhez az indexek teljes újraépítése szükséges.\n"
+            },
+            "index-settings-changed": "A keresési index beállításai megváltoztak. Futtassa ezt: php flarum blomstra:search:index build",
+            "reindex-required": {
+                "title": "A keresési index újraépítése szükséges",
+                "detail": "A keresési index nem kompatibilis a bővítmény ezen verziójával. Futtassa ezt: php flarum blomstra:search:index build"
             },
             "search-discussion-subjects": "Keresés a témacímekben",
             "search-post-bodies": "Keresés a hozzászólásokban",
             "match-sentences": "Teljes mondatok egyezésének vizsgálata",
-            "match-words": "Teljes szavak egyezésének vizsgálata"
+            "match-words": "Teljes szavak egyezésének vizsgálata",
+            "min-search-length": {
+                "label": "Keresési kifejezés legrövidebb hossza",
+                "help": "A karakterek legkisebb száma, amely után a keresés elindul. CJK (kínai, japán, koreai) közösségek\nesetén csökkentse 1-re vagy 2-ra, mert egyetlen karakternek is teljes jelentése lehet.\nA módosítás érvénybe lépéséhez az indexek teljes újraépítése szükséges.\n"
+            }
         }
     }
 }

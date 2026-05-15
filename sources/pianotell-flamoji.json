@@ -1,0 +1,112 @@
+{
+    "pianotell-flamoji": {
+        "admin": {
+            "settings": {
+                "emoji_settings_heading": "Emoji Settings",
+                "category_settings_heading": "Category Settings",
+                "general_ui_settings_heading": "General UI Settings",
+                "show_variants_label": "Show skin-tone variants",
+                "show_variants_text": "Some emojis have skin tone variants. When an emoji is selected in the picker that has variants, a variant popup will appear so the user can select the desired variant.",
+                "auto_hide_label": "Auto hide",
+                "auto_hide_text": "Hide the picker when an emoji is selected.",
+                "show_preview_label": "Show preview section",
+                "show_preview_text": "Show the emoji name, shortcode, and skin-tone selector in a preview pane below the picker grid.",
+                "show_category_buttons_label": "Show category buttons",
+                "show_category_buttons_text": "Show the row of category icons at the top of the picker. Useful to disable when only one or two categories are enabled.",
+                "show_search_label": "Show search input",
+                "show_search_text": "Show the search box at the top of the picker.",
+                "show_recents_label": "Show (and save) frequently used emojis",
+                "show_recents_text": "Show the Frequently Used tab at the top of the picker. Each user's frequents are saved in their own browser only.",
+                "prepopulate_recents_label": "Pre-populate with popular emojis",
+                "prepopulate_recents_text": "When enabled, the Frequently Used section shows a default set of popular emojis before the user has picked any. When disabled, the section starts empty and fills as the user selects emojis.",
+                "frequent_rows_label": "Frequent emoji rows",
+                "frequent_rows_text": "Number of rows of recently/frequently used emojis to display at the top of the picker (1-10).",
+                "picker_set_label": "Emoji style",
+                "picker_set_text": "How emojis appear in the picker. \"Auto\" matches the Flarum Emoji extension — Twemoji when it's enabled, native OS fonts otherwise — so the picker mirrors what posts actually display.",
+                "picker_set_auto": "Auto",
+                "picker_set_twemoji": "Twemoji",
+                "picker_set_native": "Native",
+                "specify_categories_label": "Specify categories",
+                "specify_categories_text": "You can specify a list of categories here, and the picker will only show those categories.",
+                "emoji_categories": {
+                    "people": "=> pianotell-flamoji.ref.emoji_categories.people",
+                    "nature": "=> pianotell-flamoji.ref.emoji_categories.nature",
+                    "foods": "=> pianotell-flamoji.ref.emoji_categories.foods",
+                    "activity": "=> pianotell-flamoji.ref.emoji_categories.activity",
+                    "places": "=> pianotell-flamoji.ref.emoji_categories.places",
+                    "objects": "=> pianotell-flamoji.ref.emoji_categories.objects",
+                    "symbols": "=> pianotell-flamoji.ref.emoji_categories.symbols",
+                    "flags": "=> pianotell-flamoji.ref.emoji_categories.flags"
+                }
+            },
+            "custom_emojis_section": {
+                "heading_title": "Custom Emojis",
+                "import_json_button": "Import JSON",
+                "export_json_button": "Export JSON",
+                "import_emojis_message": "This will import emoji configurations only. You need to upload emoji images manually.",
+                "edit_emoji": {
+                    "modal_title": "Add Emoji",
+                    "emoji_title_label": "Emoji Title",
+                    "delete_emoji_confirmation": "Are you sure you want to delete this emoji?",
+                    "text_to_replace_label": "Text to Replace",
+                    "path_or_url_label": "Path or URL",
+                    "submit_button": "=> core.ref.save_changes",
+                    "delete_emoji_button": "Delete emoji",
+                    "saved_message": "=> core.admin.settings.saved_message"
+                },
+                "emoji_list": {
+                    "load_more_button": "=> core.forum.post_stream.load_more_button"
+                }
+            }
+        },
+        "forum": {
+            "composer": {
+                "emoji_tooltip": "Insert emoji",
+                "picker_loading": "Loading emojis…",
+                "picker_load_error": "Could not load the emoji picker. Please try again.",
+                "picker_load_retry": "Retry"
+            },
+            "emoji-mart": {
+                "search_placeholder": "Search",
+                "no_emojis_found_title": "Oh no!",
+                "no_emojis_found_message": "No emojis found",
+                "pick": "Pick an emoji",
+                "add_custom": "Add custom emoji",
+                "category_search": "Search Results",
+                "skin_tone_choose": "Choose default skin tone",
+                "skin_tone_default": "Default",
+                "skin_tone_light": "Light",
+                "skin_tone_medium_light": "Medium-Light",
+                "skin_tone_medium": "Medium",
+                "skin_tone_medium_dark": "Medium-Dark",
+                "skin_tone_dark": "Dark",
+                "categories": {
+                    "frequent": "=> pianotell-flamoji.ref.emoji_categories.frequent",
+                    "people": "=> pianotell-flamoji.ref.emoji_categories.people",
+                    "nature": "=> pianotell-flamoji.ref.emoji_categories.nature",
+                    "foods": "=> pianotell-flamoji.ref.emoji_categories.foods",
+                    "activity": "=> pianotell-flamoji.ref.emoji_categories.activity",
+                    "places": "=> pianotell-flamoji.ref.emoji_categories.places",
+                    "objects": "=> pianotell-flamoji.ref.emoji_categories.objects",
+                    "symbols": "=> pianotell-flamoji.ref.emoji_categories.symbols",
+                    "flags": "=> pianotell-flamoji.ref.emoji_categories.flags",
+                    "custom": "=> pianotell-flamoji.ref.emoji_categories.custom"
+                }
+            }
+        },
+        "ref": {
+            "emoji_categories": {
+                "frequent": "Frequently Used",
+                "people": "Smileys & People",
+                "nature": "Animals & Nature",
+                "foods": "Food & Drink",
+                "activity": "Activities",
+                "places": "Travel & Places",
+                "objects": "Objects",
+                "symbols": "Symbols",
+                "flags": "Flags",
+                "custom": "Custom"
+            }
+        }
+    }
+}

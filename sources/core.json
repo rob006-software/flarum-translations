@@ -42,7 +42,13 @@
                 "slug_driver_text": "Select a driver to be used for slugging this model.",
                 "title": "Basics",
                 "welcome_banner_heading": "Welcome Banner",
-                "welcome_banner_text": "Configure the text that displays in the banner on the All Discussions page. Use this to welcome guests to your forum."
+                "welcome_banner_text": "Configure the text that displays in the banner on the All Discussions page. Use this to welcome guests to your forum.",
+                "abandoned_extensions_heading": "Abandoned Extensions",
+                "abandoned_extensions_text": "Flarum maintains a <a>community list of abandoned extensions</a>. When an installed extension appears on the list, it will be flagged in the admin panel.",
+                "abandoned_extensions_sync_button": "Check Now",
+                "abandoned_extensions_sync_success": "Abandoned extensions list updated. {count} matching installed extension(s) found.",
+                "abandoned_extensions_sync_error": "Failed to fetch the abandoned extensions list. Please try again later.",
+                "abandoned_extensions_notify_admins_label": "Email admins when a newly abandoned extension is detected during the weekly check"
             },
             "create_user": {
                 "email_placeholder": "=> core.ref.email",
@@ -53,6 +59,20 @@
                 "title": "Create new user",
                 "use_random_password": "Generate random password",
                 "username_placeholder": "=> core.ref.username"
+            },
+            "announcements": {
+                "comments_label": "{count, plural, one {# comment} other {# comments}}",
+                "description": "Latest news and announcements from the Flarum Team.",
+                "empty": "No announcements found.",
+                "load_error": "Could not load announcements. Please try again later.",
+                "about": "Latest news and announcements pulled from the official Flarum community at discuss.flarum.org.",
+                "hide": "Hide announcements",
+                "read_more": "Read more",
+                "refresh": "Refresh announcements",
+                "retry": "Try again",
+                "show": "Show announcements",
+                "title": "Announcements",
+                "view_all": "View all on discuss.flarum.org"
             },
             "dashboard": {
                 "clear_cache_button": "Clear Cache",
@@ -182,6 +202,7 @@
                     "discussion": "Discussion",
                     "feature": "Features",
                     "formatting": "Formatting",
+                    "forum-widget": "Forum Widgets",
                     "language": "Languages",
                     "moderation": "Moderation",
                     "other": "Other Extensions",
@@ -705,6 +726,12 @@
             "send_test": {
                 "subject": "Flarum Email Test",
                 "body": "Hey {username}!\n\nThis is a test email to confirm that your Flarum email configuration is working properly.\n\nIf this was you, this email means that your configuration works!\n\nIf this was not you, please ignore this email.\n"
+            },
+            "abandoned_extensions": {
+                "subject": "Action required: abandoned extension(s) detected",
+                "body": "Hi {username},\n\nThe following installed extension(s) have been flagged as abandoned:\n\n{extensions}\n\nPlease review these extensions and consider migrating to alternatives where available.\n",
+                "line_with_replacement": "- {package} (suggested replacement: {replacement})",
+                "line_no_replacement": "- {package} (no replacement available)"
             }
         },
         "ref": {

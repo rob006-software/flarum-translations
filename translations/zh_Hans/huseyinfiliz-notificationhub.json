@@ -13,7 +13,7 @@
                 "no_data": "尚未设置通知类型。",
                 "delete_confirm": "确定要删除此通知类型及其所有相关通知吗？",
                 "fields": {
-                    "actions": "",
+                    "actions": "操作",
                     "name": "通知类型名称",
                     "excerpt_key": "默认摘要",
                     "description": "通知类型描述",
@@ -24,7 +24,7 @@
                     "default_url": "默认链接",
                     "default_recipients": "默认收件人",
                     "sort_order": "排序顺序",
-                    "active": ""
+                    "active": "启用"
                 },
                 "save": "保存",
                 "edit_notification_type": "编辑消息类型",
@@ -39,27 +39,27 @@
             "modal_notification": {
                 "title_text": "=> huseyinfiliz-notificationhub.forum.links.notification_individual",
                 "recipients_label": "收件人",
-                "recipients_placeholder": "",
-                "message_label": "",
-                "url_label": "",
-                "url_placeholder": "",
-                "submit_button": "",
-                "notification_sent_message": "",
-                "notification_type_label": "",
-                "no_notification_types": "",
-                "preview_title": "",
-                "preview_message_placeholder": ""
+                "recipients_placeholder": "输入用户名或群组名称...",
+                "message_label": "消息",
+                "url_label": "目标链接",
+                "url_placeholder": "https://www.example.com",
+                "submit_button": "发送通知",
+                "notification_sent_message": "通知已发送给 {recipientsCount} 位用户！",
+                "notification_type_label": "通知类型",
+                "no_notification_types": "未找到启用的通知类型。",
+                "preview_title": "通知预览",
+                "preview_message_placeholder": "通知消息.."
             },
             "recipient_kinds": {
-                "user": "",
-                "group": ""
+                "user": "用户",
+                "group": "群组"
             }
         },
         "api": {
-            "message_required": "",
-            "user_ids_required": "",
-            "subject_id_required": "",
-            "no_valid_recipients": ""
+            "message_required": "消息为必填项。",
+            "user_ids_required": "用户ID为必填项。",
+            "subject_id_required": "通知类型为必填项。",
+            "no_valid_recipients": "未找到有效的接收者。"
         }
     }
 }

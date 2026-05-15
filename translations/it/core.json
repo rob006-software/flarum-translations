@@ -42,7 +42,13 @@
                 "slug_driver_text": "Seleziona il driver che verrà utilizzato per creare uno slug di questo modello.",
                 "title": "Impostazioni di base",
                 "welcome_banner_heading": "Banner di benvenuto",
-                "welcome_banner_text": "Configura il testo da visualizzare sul banner. Apparirà nella pagina <b>Tutte le discussioni</b>."
+                "welcome_banner_text": "Configura il testo da visualizzare sul banner. Apparirà nella pagina <b>Tutte le discussioni</b>.",
+                "abandoned_extensions_heading": "",
+                "abandoned_extensions_text": "",
+                "abandoned_extensions_sync_button": "",
+                "abandoned_extensions_sync_success": "",
+                "abandoned_extensions_sync_error": "",
+                "abandoned_extensions_notify_admins_label": ""
             },
             "create_user": {
                 "email_placeholder": "=> core.ref.email",
@@ -53,6 +59,20 @@
                 "title": "Crea nuovo utente",
                 "use_random_password": "Genera password casuale",
                 "username_placeholder": "=> core.ref.username"
+            },
+            "announcements": {
+                "comments_label": "",
+                "description": "",
+                "empty": "",
+                "load_error": "",
+                "about": "",
+                "hide": "",
+                "read_more": "",
+                "refresh": "",
+                "retry": "",
+                "show": "",
+                "title": "",
+                "view_all": ""
             },
             "dashboard": {
                 "clear_cache_button": "Pulisci cache",
@@ -184,6 +204,7 @@
                     "discussion": "Discussione",
                     "feature": "Funzionalità",
                     "formatting": "Formattazione",
+                    "forum-widget": "",
                     "language": "Lingue",
                     "moderation": "Moderazione",
                     "other": "Altre estensioni",
@@ -712,6 +733,12 @@
             "send_test": {
                 "subject": "[Flarum] Email di prova",
                 "body": "Ciao {username}!\n\nQuesta è un'email di prova per confermarti che l'attuale configurazione sta funzionando correttamente.\n"
+            },
+            "abandoned_extensions": {
+                "subject": "",
+                "body": "",
+                "line_with_replacement": "",
+                "line_no_replacement": ""
             }
         },
         "ref": {

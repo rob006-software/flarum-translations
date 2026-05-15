@@ -42,7 +42,13 @@
                 "slug_driver_text": "",
                 "title": "Bazaj agordoj",
                 "welcome_banner_heading": "Bonvena Standardo",
-                "welcome_banner_text": "Agordu la tekston, kiu aperas en la standardo sur la paĝo Ĉiuj Diskutoj. Uzu ĉi tion por bonvenigi gastojn al via forumo."
+                "welcome_banner_text": "Agordu la tekston, kiu aperas en la standardo sur la paĝo Ĉiuj Diskutoj. Uzu ĉi tion por bonvenigi gastojn al via forumo.",
+                "abandoned_extensions_heading": "",
+                "abandoned_extensions_text": "",
+                "abandoned_extensions_sync_button": "",
+                "abandoned_extensions_sync_success": "",
+                "abandoned_extensions_sync_error": "",
+                "abandoned_extensions_notify_admins_label": ""
             },
             "create_user": {
                 "email_placeholder": "=> core.ref.email",
@@ -53,6 +59,20 @@
                 "title": "Krei novan uzanton",
                 "use_random_password": "Generu hazardan pasvorton",
                 "username_placeholder": "=> core.ref.username"
+            },
+            "announcements": {
+                "comments_label": "",
+                "description": "",
+                "empty": "",
+                "load_error": "",
+                "about": "",
+                "hide": "",
+                "read_more": "",
+                "refresh": "",
+                "retry": "",
+                "show": "",
+                "title": "",
+                "view_all": ""
             },
             "dashboard": {
                 "clear_cache_button": "Malplenigi kaŝmemoron",
@@ -182,6 +202,7 @@
                     "discussion": "",
                     "feature": "",
                     "formatting": "",
+                    "forum-widget": "",
                     "language": "",
                     "moderation": "",
                     "other": "",
@@ -705,6 +726,12 @@
             "send_test": {
                 "subject": "",
                 "body": ""
+            },
+            "abandoned_extensions": {
+                "subject": "",
+                "body": "",
+                "line_with_replacement": "",
+                "line_no_replacement": ""
             }
         },
         "ref": {

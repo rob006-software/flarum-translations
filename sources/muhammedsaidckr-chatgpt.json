@@ -39,7 +39,18 @@
                 "models_fetched_success": "Successfully fetched {count} models from OpenAI",
                 "fetch_models_error": "Failed to fetch models. Please check your API key and base URI settings.",
                 "models_last_fetched": "Last updated: {date}",
-                "models_never_fetched": "Models have never been fetched. Click the button above to fetch the latest models."
+                "models_never_fetched": "Models have never been fetched. Click the button above to fetch the latest models.",
+                "apply_recommended_model_button": "Apply Recommended Model",
+                "apply_model_preset_button": "Apply Preset for Selected Model",
+                "recommended_model_help": "Recommended model: {model}",
+                "recommended_model_applied_success": "Recommended model applied: {model}",
+                "preset_applied_success": "Preset applied for {model}",
+                "custom_model_label": "Custom Model Name",
+                "custom_model_help": "Enter a custom model name to override the dropdown above (e.g. deepseek-chat, llama3). Leave empty to use the selected model.",
+                "gpt5_reasoning_effort_label": "GPT-5 Reasoning Effort",
+                "gpt5_reasoning_effort_help": "Controls the amount of reasoning GPT-5 performs before answering. (minimal, low, medium, high)",
+                "gpt5_verbosity_label": "GPT-5 Output Verbosity",
+                "gpt5_verbosity_help": "Controls the length and detail of GPT-5 responses. (low, medium, high)"
             },
             "permissions": {
                 "use_chatgpt_assistant_label": "Use ChatGPT Assistant"

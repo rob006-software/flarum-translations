@@ -26,7 +26,7 @@
                     "dismiss_button": "=> core.ref.okay",
                     "new_name": "Dein Spitzname wurde erfolgreich geändert zu: {name}",
                     "rejected": "Die gewünschte Änderung des Spitznamens wurde abgelehnt",
-                    "reason": "=> fof-username-request.ref.results.reason",
+                    "reason": "Grund für die Ablehnung: <i>„{reason}“</i>.",
                     "resubmit": "=> fof-username-request.ref.results.resubmit"
                 },
                 "request": {
@@ -57,7 +57,7 @@
                     "dismiss_button": "=> core.ref.okay",
                     "new_name": "Dein Benutzername wurde erfolgreich geändert zu: {name}",
                     "rejected": "Deine gewünschte Änderung des Benutzernamens wurde abgelehnt",
-                    "reason": "=> fof-username-request.ref.results.reason",
+                    "reason": "Grund für die Ablehnung: <i>„{reason}“</i>.",
                     "resubmit": "=> fof-username-request.ref.results.resubmit"
                 },
                 "request": {

@@ -2,20 +2,20 @@
     "ffans-geetest": {
         "admin": {
             "settings": {
-                "product_service_label": "",
+                "product_service_label": "CAPTCHA-Produkt",
                 "product_service_help_text": "",
                 "product_service_v4_label": "",
-                "product_service_v3_label": "",
+                "product_service_v3_label": "CAPTCHA (v3)",
                 "context_event_label": "",
                 "context_event_help_text": "",
-                "context_event_login_label": "",
-                "context_event_signup_label": "",
-                "context_event_forgot_label": "",
+                "context_event_login_label": "=> core.ref.log_in",
+                "context_event_signup_label": "=> core.ref.sign_up",
+                "context_event_forgot_label": "=> core.forum.forgot_password.title",
                 "config": {
-                    "title": "",
+                    "title": "Konfiguration für {context}",
                     "standalone_label": "",
                     "standalone_help_text": "",
-                    "product_label": "",
+                    "product_label": "Animationsart",
                     "product_help_text": "",
                     "product_float_label": "",
                     "product_float_help_text": "",

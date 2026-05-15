@@ -1,0 +1,69 @@
+{
+    "fof-move-posts": {
+        "admin": {
+            "settings": {
+                "moved_first_post_content": "Contenu de la discussion déplacée (premier message)",
+                "moved_first_post_content_help": "Lorsque vous participez à une discussion qui ne comporte qu'un seul message, le déplacement de ce message entraînera la modification du premier message de la discussion d'origine afin qu'il renvoie vers la nouvelle discussion. Vous pouvez modifier le contenu de ce message ici.\n",
+                "group_sequential_posts": "Regroupement des messages séquentielle publiés après l'événement en un seul."
+            },
+            "permissions": {
+                "move_posts": "=> fof-move-posts.ref.move_posts"
+            }
+        },
+        "forum": {
+            "badge": {
+                "first_moved_tooltip": "Déplacé"
+            },
+            "discussion": {
+                "move_posts": "=> fof-move-posts.ref.move_posts"
+            },
+            "error": {
+                "move_old_post_to_newer_discussion": "=> fof-move-posts.ref.status.old_to_new_move",
+                "move_posts_to_same_discussion": "Vous ne pouvez pas déplacer des messages vers la même discussion."
+            },
+            "modal": {
+                "check": "Vérifier le type d'opération",
+                "destination": "Discussion de destination",
+                "discussion_help": "Les étiquettes de la discussion d'origine seront utilisées et pourront être modifiées après la création.",
+                "discussion_name": "=> core.forum.composer_discussion.title_placeholder",
+                "new_discussion": "Nouvelle discussion",
+                "selected_posts": "{count, plural, one {Un message sélectionné} other {{count} messages sélectionnés}}",
+                "status": {
+                    "complex_move": "Cela sera une opération complexe : les messages seront déplacés d'un fil de discussion à l'autre, ce qui entraînera également la modification des anciennes URL renvoyant aux messages du fil de discussion cible.",
+                    "old_to_new_move": "=> fof-move-posts.ref.status.old_to_new_move",
+                    "simple_move": "Cela sera une simple opération : tous les messages seront ajoutés à la fin de la discussion."
+                },
+                "submit": "Procéder",
+                "title": "=> fof-move-posts.ref.move_posts",
+                "confirm_move_all_to_new_discussion": "Vous êtes sur le point de déplacer tous les messages de cette discussion vers une nouvelle discussion. Dans la plupart des cas, il est préférable de modifier la discussion existante, par exemple en changeant son titre, ses étiquettes ou d'autres attributs. Voulez-vous continuer ?"
+            },
+            "alerts": {
+                "posts_moved_to": "{count, plural, one {Message déplacé vers {target_discussion}.} other {{count} messages déplacés vers {target_discussion}.}}"
+            },
+            "notifications": {
+                "post_moved_text": "Un ou plusieurs de vos messages ont été déplacés vers {targetDiscussionTitle}."
+            },
+            "post": {
+                "unmove": "Désélectionner pour déplacer",
+                "move": "Sélectionner pour déplacer",
+                "moving": "Déplacer un message"
+            },
+            "post_stream": {
+                "post_moved": "{count, plural, one {{username} a déplacé un message vers {target_discussion}.} other {{username} a déplacé {count} messages vers {target_discussion}.}}"
+            }
+        },
+        "ref": {
+            "move_posts": "Déplacer les messages",
+            "status": {
+                "old_to_new_move": "Il n'est pas possible de déplacer un ancien message vers une discussion plus récente."
+            }
+        },
+        "lib": {
+            "discussion": {
+                "first_post": {
+                    "default_content": "*Ce message a été déplacé vers **[%DISCUSSION_NAME%](%POST_LINK%)**.*\n"
+                }
+            }
+        }
+    }
+}

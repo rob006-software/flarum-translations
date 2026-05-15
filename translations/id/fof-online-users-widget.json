@@ -1,0 +1,20 @@
+{
+    "fof-online-users-widget": {
+        "admin": {
+            "settings": {
+                "cache_ttl": "Waktu penyimpanan daftar pengguna dalam cache (dalam detik)",
+                "last_seen_interval": "Interval waktu terakhir terlihat untuk menganggap pengguna sedang online (dalam menit)",
+                "max_users": "Jumlah pengguna maksimum yang ditampilkan"
+            },
+            "permissions": {
+                "view_online_users_widget": "Lihat Widget Pengguna Online"
+            }
+        },
+        "forum": {
+            "widget": {
+                "title": "Pengguna Online",
+                "empty": "Tidak ada pengguna yang sedang online."
+            }
+        }
+    }
+}

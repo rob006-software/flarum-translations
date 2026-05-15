@@ -1,0 +1,76 @@
+{
+    "ralkage-linked-accounts": {
+        "admin": {
+            "tabs": {
+                "settings": "Einstellungen",
+                "logs": "Aktivitätsprotokoll"
+            },
+            "settings": {
+                "max_accounts": "Maximale Anzahl verknüpfter Konten",
+                "max_accounts_help": "Maximale Anzahl an Konten, die ein Benutzer verknüpfen kann. Setze den Wert auf 0, um die Anzahl unbegrenzt zu lassen.",
+                "log_retention_days": "Aufbewahrungsdauer der Protokolle (Tage)",
+                "log_retention_days_help": "Anzahl der Tage, für die Aktivitätsprotokolle aufbewahrt werden sollen. Setze den Wert auf 0, um sie dauerhaft zu speichern."
+            },
+            "permissions": {
+                "use": "Verknüpfte Konten verwenden",
+                "create": "Neue Kontoverknüpfung erstellen",
+                "view_any": "Kontoverknüpfungen jedes Nutzers anzeigen"
+            },
+            "logs": {
+                "title": "Aktivitätsprotokoll für verknüpfte Konten",
+                "clear": "Alle Protokolle löschen",
+                "clear_confirm": "Möchtest du wirklich alle Protokolle der verknüpften Konten löschen? Dieser Vorgang kann nicht rückgängig gemacht werden.",
+                "empty": "Es wurden noch keine Aktivitäten protokolliert.",
+                "parent": "Übergeordnetes Konto",
+                "child": "Verknüpftes Konto",
+                "action": "Aktion",
+                "ip": "IP-Adresse",
+                "date": "Datum",
+                "load_more": "Mehr laden"
+            }
+        },
+        "forum": {
+            "nav": {
+                "linked_accounts": "Verknüpfte Konten"
+            },
+            "revert_to": "Zurück zu {name}",
+            "composer": {
+                "post_as": "Veröffentlichen als:"
+            },
+            "page": {
+                "title": "Verknüpfte Konten",
+                "switched_notice": "Du nutzt derzeit ein verknüpftes Konto. Dein übergeordnetes Konto ist {name}.",
+                "revert": "Zum übergeordneten Konto wechseln",
+                "no_accounts": "Du hast noch keine Konten verknüpft. Erstelle ein neues Konto oder verknüpfe ein bestehendes, um loszulegen.",
+                "linked_on": "Am {date} verknüpft",
+                "switch": "Wechseln",
+                "current": "Aktuell",
+                "unlink": "Verknüpfung aufheben",
+                "unlink_confirm": "Möchtest du dieses Konto wirklich entkoppeln? Das Konto bleibt weiterhin bestehen, ist aber nicht mehr verknüpft.",
+                "max_reached": "Du hast die maximale Anzahl von {max} verknüpften Konten erreicht.",
+                "create_new": "Neues Konto erstellen",
+                "link_existing": "Bestehendes Konto verknüpfen",
+                "create_title": "Neues verknüpftes Konto erstellen",
+                "create_description": "Erstelle ein neues Konto, das mit deinem bestehenden Konto verknüpft wird.",
+                "link_title": "Bestehendes Konto verknüpfen",
+                "link_description": "Verknüpfe ein bereits bestehendes Konto. Zur Bestätigung der Eigentumsrechte musst du das Passwort des Kontos angeben.",
+                "username": "Benutzername",
+                "username_placeholder": "Gib den Benutzernamen für das neue Konto ein",
+                "email": "E-Mail",
+                "email_placeholder": "Gib die E-Mail-Adresse für das neue Konto ein",
+                "password": "Passwort",
+                "password_placeholder": "Gib das Passwort für das neue Konto ein (optional)",
+                "link_password_placeholder": "Gib das Passwort des Kontos ein, um die Identifizierung zu bestätigen",
+                "identification": "Benutzername oder E-Mail",
+                "identification_placeholder": "Gib den Benutzernamen oder die E-Mail-Adresse des bestehenden Kontos ein",
+                "create_submit": "Konto erstellen",
+                "link_submit": "Konto verknüpfen",
+                "create_success": "Das neue verknüpfte Konto wurde erfolgreich erstellt!",
+                "link_success": "Konto erfolgreich verknüpft!",
+                "unlink_success": "Kontoverknüpfung erfolgreich aufgehoben.",
+                "switch_to_parent": "Zu übergeordnetem Konto wechseln",
+                "child_info": "Dies ist ein verknüpftes Konto. Um verknüpfte Konten zu verwalten, neue Konten anzulegen oder bestehende Konten zu verknüpfen, wechsle zurück zum übergeordneten Konto."
+            }
+        }
+    }
+}

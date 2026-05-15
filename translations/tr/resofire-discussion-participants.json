@@ -1,23 +1,23 @@
 {
     "resofire-discussion-participants": {
         "forum": {
-            "show_all_participants": "",
-            "more_participants": "",
-            "modal_title": "",
-            "load_more": ""
+            "show_all_participants": "Tüm katılımcıları göster",
+            "more_participants": "{count}+",
+            "modal_title": "{count} Katılımcı",
+            "load_more": "Daha fazla yükle"
         },
         "admin": {
-            "tools_heading": "",
-            "recalculate_help": "",
-            "recalculate_button": "",
-            "recalculating_button": "",
-            "recalculate_success": "",
-            "recalculate_error": "",
-            "recalculate_modal_title": "",
-            "recalculate_modal_warning": "",
-            "recalculate_modal_progress": "",
-            "recalculate_modal_complete": "",
-            "recalculate_modal_close": ""
+            "tools_heading": "Araçlar",
+            "recalculate_help": "Tüm tartışmalardaki katılımcı avatarlarını yeniden hesaplar. Bu işlemi, eklentiyi mevcut bir foruma yükledikten sonra ya da önizleme verilerinin senkronizasyonunun bozulduğundan şüphelendiğinizde istediğiniz zaman çalıştırın.",
+            "recalculate_button": "Katılımcıları Yeniden Hesapla",
+            "recalculating_button": "Yeniden hesaplanıyor…",
+            "recalculate_success": "Harika. {count} tartışma, {duration} saniye içinde yeniden hesaplandı.",
+            "recalculate_error": "Bir hata oluştu. Lütfen tekrar deneyin veya CLI komutunu kullanın.",
+            "recalculate_modal_title": "Katılımcı Sayısını Yeniden Hesaplama",
+            "recalculate_modal_warning": "İşlem tamamlanana kadar bu pencereyi kapatmayın veya başka bir sayfaya geçmeyin.",
+            "recalculate_modal_progress": "{processed} / {total} tartışma",
+            "recalculate_modal_complete": "Tamamlandı! {total} tartışma yeniden hesaplandı.",
+            "recalculate_modal_close": "Kapat"
         }
     }
 }

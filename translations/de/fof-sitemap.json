@@ -22,8 +22,10 @@
                 "mode_help_multi": "Am besten für größere Foren ab 10.000 Elementen. Mehrteilige, komprimierte Sitemap-Dateien werden generiert und im /public Ordner gespeichert",
                 "advanced_options_label": "Erweiterte Optionen",
                 "frequency_label": "Wie oft sollte der Scheduler die gecachte Sitemap neu aufbauen?",
-                "risky_performance_improvements": "Riskante Leistungsverbesserungen aktivieren",
-                "risky_performance_improvements_help": "Durch diese Verbesserungen wird der CRON-Job bei Datensätzen mit Millionen von Zeilen schneller ausgeführt, aber die Kompatibilität mit einigen Erweiterungen kann beeinträchtigt werden.",
+                "risky_performance_improvements": "Große Chunk-Größe aktivieren (riskant)",
+                "risky_performance_improvements_help": "Erhöht die Größe der Datenbank-Abrufblöcke von 75.000 auf 150.000 Zeilen. Beschleunigt die Generierung bei Datensätzen mit Millionen von Zeilen, verdoppelt jedoch den Spitzen-RAM-Bedarf des Eloquent-Modells pro Block. Nur aktivieren, wenn du sichergestellt hast, dass ausreichend Server-Speicher vorhanden ist. Aktiviert zudem das Spalten-Pruning (siehe oben).",
+                "column_pruning": "Spaltenbeschneidung aktivieren",
+                "column_pruning_help": "Ruft nur die Spalten ab, die zur Generierung von URLs benötigt werden (z. B. id, slug, username, dates), anstatt SELECT *. Reduziert den Speicherbedarf pro Modell in großen Foren erheblich. Standardmäßig aktiviert – nur deaktivieren, wenn ein benutzerdefinierter Slug-Treiber oder Sichtbarkeitsbereich Spalten erfordert, die nicht in der Standardauswahl enthalten sind.",
                 "include_priority": "Werte zur Priorisierung in Sitemap aufnehmen",
                 "include_priority_help": "Angaben zur Priorisierung werden von Google ignoriert, können aber von anderen Suchmaschinen wie Bing und Yandex genutzt werden",
                 "include_changefreq": "Werte zur Änderungshäufigkeit in Sitemap aufnehmen",
@@ -55,8 +57,6 @@
                         }
                     }
                 },
-                "column_pruning": "",
-                "column_pruning_help": "",
                 "mode_help_cache_disk_label": "Cache-Modus/Disk-Modus",
                 "mode_help_cache_disk": "Am besten geeignet für kleine oder mittelgroße Foren, am ehesten auf Hosting-Umgebungen, die Cronjobs zulassen und den Flarum-Scheduler aktivieren (siehe unten), und mit Diskussionen, Benutzern, Tags und Seiten, die in Summe weniger als 50.000 Einträge umfassen.",
                 "title": "FoF-Sitemap"

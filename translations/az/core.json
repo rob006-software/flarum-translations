@@ -42,7 +42,13 @@
                 "slug_driver_text": "Bu modeldə \"Slugging\" üçün istifadə ediləcək bir sürücü seçin.",
                 "title": "Əsaslar",
                 "welcome_banner_heading": "Xoş gəlmisiniz Banneri",
-                "welcome_banner_text": "\"Bütün Müzakirələr\" səhifəsindəki bannerdə göstərilən mətni redaktə edin. Forumunuza yeni gələnləri qarşılamaq üçün bundan istifadə edin."
+                "welcome_banner_text": "\"Bütün Müzakirələr\" səhifəsindəki bannerdə göstərilən mətni redaktə edin. Forumunuza yeni gələnləri qarşılamaq üçün bundan istifadə edin.",
+                "abandoned_extensions_heading": "",
+                "abandoned_extensions_text": "",
+                "abandoned_extensions_sync_button": "",
+                "abandoned_extensions_sync_success": "",
+                "abandoned_extensions_sync_error": "",
+                "abandoned_extensions_notify_admins_label": ""
             },
             "create_user": {
                 "email_placeholder": "=> core.ref.email",
@@ -53,6 +59,20 @@
                 "title": "Yeni istifadəçi yarat",
                 "use_random_password": "Təsadüfi şifrə yarat",
                 "username_placeholder": "=> core.ref.username"
+            },
+            "announcements": {
+                "comments_label": "",
+                "description": "",
+                "empty": "",
+                "load_error": "",
+                "about": "",
+                "hide": "",
+                "read_more": "",
+                "refresh": "",
+                "retry": "",
+                "show": "",
+                "title": "",
+                "view_all": ""
             },
             "dashboard": {
                 "clear_cache_button": "Keşi Təmizlə",
@@ -184,6 +204,7 @@
                     "discussion": "Müzakirə",
                     "feature": "Xüsusiyyətlər",
                     "formatting": "Formatlama",
+                    "forum-widget": "",
                     "language": "Dillər",
                     "moderation": "Moderasiya",
                     "other": "Digər Uzantılar",
@@ -708,6 +729,12 @@
             "send_test": {
                 "subject": "Flarum E-poçt Testi",
                 "body": "Salam {username}!\n\nBu, Flarum e-poçt konfiqurasiyanızın düzgün işlədiyini təsdiqləyən sınaq e-poçtudur.\n\nƏgər bu siz idinizsə, bu e-poçt o deməkdir ki, konfiqurasiyanız işləyir!\n\nƏgər bu siz deyilsinizsə, bu e-poçtu gözardı edin.\n"
+            },
+            "abandoned_extensions": {
+                "subject": "",
+                "body": "",
+                "line_with_replacement": "",
+                "line_no_replacement": ""
             }
         },
         "ref": {

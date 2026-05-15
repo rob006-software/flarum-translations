@@ -7,28 +7,28 @@
             },
             "settings": {
                 "badge_icon_label": "",
-                "badge_icon_text": "",
+                "badge_icon_text": "=> core.ref.icon_text",
                 "display_tag_sticky_label": "",
                 "display_tag_sticky_text": ""
             }
         },
         "forum": {
             "badge": {
-                "sticky_tooltip": "",
-                "super_sticky_tooltip": "",
-                "tag_sticky_tooltip": "",
-                "super_tag_sticky_tooltip": ""
+                "sticky_tooltip": "=> huseyinfiliz-stickiest.ref.sticky",
+                "super_sticky_tooltip": "=> huseyinfiliz-stickiest.ref.super_sticky",
+                "tag_sticky_tooltip": "=> huseyinfiliz-stickiest.ref.tag_sticky",
+                "super_tag_sticky_tooltip": "=> huseyinfiliz-stickiest.ref.super_tag_sticky"
             },
             "stickiest_modal": {
                 "title": "",
-                "sticky_label": "",
+                "sticky_label": "=> flarum-sticky.ref.sticky",
                 "sticky_text": "",
-                "super_sticky_label": "",
+                "super_sticky_label": "=> huseyinfiliz-stickiest.ref.super_sticky",
                 "super_sticky_text": "",
-                "tag_sticky_label": "",
+                "tag_sticky_label": "=> huseyinfiliz-stickiest.ref.tag_sticky",
                 "tag_sticky_text": "",
-                "tags_label": "",
-                "submit_button": ""
+                "tags_label": "=> flarum-tags.ref.tags",
+                "submit_button": "=> core.ref.save_changes"
             },
             "discussion_controls": {
                 "sticky_button": ""
@@ -41,7 +41,7 @@
             }
         },
         "ref": {
-            "sticky": "",
+            "sticky": "=> flarum-sticky.ref.sticky",
             "super_sticky": "",
             "tag_sticky": "",
             "super_tag_sticky": ""

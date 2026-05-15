@@ -24,6 +24,8 @@
                 "frequency_label": "Con quale frequenza lo scheduler dovrebbe ricostruire la mappa del sito memorizzata nella cache?",
                 "risky_performance_improvements": "Consenti miglioramenti rischiosi delle prestazioni",
                 "risky_performance_improvements_help": "Questi miglioramenti rendono più veloce l'esecuzione del processo CRON su set di dati di milioni di righe, ma potrebbero interrompere la compatibilità con alcune estensioni.",
+                "column_pruning": "",
+                "column_pruning_help": "",
                 "include_priority": "",
                 "include_priority_help": "",
                 "include_changefreq": "",
@@ -55,8 +57,6 @@
                         }
                     }
                 },
-                "column_pruning": "",
-                "column_pruning_help": "",
                 "mode_help_cache_disk_label": "Cache Mode/Disk Mode",
                 "mode_help_cache_disk": "Scelta migliore per piccoli o medi forum, soprattuto quelli in ambienti di hosting con permesso di cronjobs che hanno abilitato la pianificazione di Flarum (vedi sotto), e con un numero di discussioni, utenti, categorie e pagine che in totale è inferiore a 50.000 oggetti.",
                 "title": "FoF Sitemap"

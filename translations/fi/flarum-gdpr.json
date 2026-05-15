@@ -21,16 +21,16 @@
                 "user_table_data": {
                     "title": "Käyttäjä taulun tiedot",
                     "help_text": "Enimmäkseen kaikki <code>user</code>-tauluun lisätyt sarakkeet käsitellään automaattisesti, sekä tietojen vientiä että poistamista varten.\nKuitenkin on joitain erityistapauksia, jotka on lueteltu alla.\n",
-                    "column": "",
-                    "type": "",
-                    "nullable": "",
-                    "pii": "",
-                    "redacted_on_export": "",
-                    "extension": "",
-                    "yes": "",
-                    "no": "",
-                    "pii_tooltip": "",
-                    "redacted_on_export_tooltip": ""
+                    "column": "Sarake",
+                    "type": "Tyyppi",
+                    "nullable": "Nollattava",
+                    "pii": "Henkilötieto",
+                    "redacted_on_export": "Poistettu viennissä",
+                    "extension": "Lisäosa",
+                    "yes": "Kyllä",
+                    "no": "Ei",
+                    "pii_tooltip": "Tämä sarake sisältää henkilötietoja ja se poistetaan anonymisoiduissa yhteyksissä (esim. anonymisoidut tapahtumalähetykset).",
+                    "redacted_on_export_tooltip": "Tämän sarakkeen arvo tyhjennetään (asetetaan null-arvoksi) käyttäjätietojen vientiä luodessa. Sarake näkyy silti viennissä null-arvolla."
                 }
             },
             "nav": {
@@ -73,7 +73,7 @@
                     "delete_description": "Poistaa käyttäjän avatarin järjestelmästä.",
                     "export_description": "Hakee käyttäjän avatarin tiedostojärjestelmästä ja sisällyttää sen vientiin."
                 },
-                "default_user_action": "",
+                "default_user_action": "Ei toimenpiteitä, käsitellään oletuskäyttäjätaulukon tietojenkäsittelyn mukaisesti.",
                 "discussions": {
                     "export_description": "Vie kaikki käyttäjän aloittamat keskustelut. Tieto rajattu otsikkoon ja luontipäivään."
                 },
@@ -156,9 +156,9 @@
                 "confirm": "Haluatko varmasti poistaa käyttäjän {name} tilin käyttäen {mode} tilaa?",
                 "title": "Käsittele poistopyynnöt",
                 "text": "{name} on pyytänyt tilin poistoa.",
-                "requested_at": "",
-                "confirmed_at": "",
-                "eligible_at": "",
+                "requested_at": "Pyydetty: {date}",
+                "confirmed_at": "Vahvistettu: {date}",
+                "eligible_at": "Oikeutettu automaattiseen käsittelyyn: {date}",
                 "comments_label": "Kommentit (valinnainen)",
                 "anonymization_button": "Anonymisoi käyttäjä",
                 "deletion_button": "Poista käyttäjä"

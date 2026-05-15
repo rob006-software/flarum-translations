@@ -2,33 +2,33 @@
     "datlechin-ai-summarize": {
         "admin": {
             "permissions": {
-                "ai_summarize_label": ""
+                "ai_summarize_label": "Sažmi teme pomoću AI-ja"
             },
             "settings": {
-                "title": "",
-                "enabled_label": "",
-                "min_posts_label": "",
-                "min_posts_help": "",
-                "max_posts_label": "",
-                "max_posts_help": "",
-                "system_prompt_label": "",
-                "system_prompt_help": ""
+                "title": "Postavke AI sažimanja",
+                "enabled_label": "Omogući AI sažimanje",
+                "min_posts_label": "Najmanji broj potrebnih objava",
+                "min_posts_help": "Minimalni broj objava u raspravi potreban za sažimanje",
+                "max_posts_label": "Maksimalni broj objava za uključivanje",
+                "max_posts_help": "Maksimalni broj objava koje će biti uključene u proces sažimanja",
+                "system_prompt_label": "Prilagođena sistemska uputa",
+                "system_prompt_help": "Opcionalna prilagođena uputa za AI prilikom generiranja sažetaka. Ostavite prazno za zadane postavke."
             }
         },
         "forum": {
             "discussion_controls": {
-                "summarize_button": "",
-                "regenerate_button": ""
+                "summarize_button": "Sažmi pomoću AI-ja",
+                "regenerate_button": "Ponovno generiraj sažetak"
             },
             "summary": {
-                "title": "",
-                "error": "",
-                "generated_with": "",
-                "generated_at": "",
-                "posts_summarized": "",
-                "regenerate_confirm": "",
-                "not_enough_posts": "",
-                "close": ""
+                "title": "AI sažetak",
+                "error": "Pogreška pri generiranju sažetka. Molimo pokušajte ponovno.",
+                "generated_with": "Generirao {provider} koristeći model {model}",
+                "generated_at": "Generirano u {time}",
+                "posts_summarized": "Sažeto je {count} objava",
+                "regenerate_confirm": "Jeste li sigurni da želite ponovno generirati ovaj sažetak? Postojeći sažetak bit će zamijenjen.",
+                "not_enough_posts": "Ova rasprava nema dovoljno objava za sažimanje.",
+                "close": "Zatvori"
             }
         }
     }

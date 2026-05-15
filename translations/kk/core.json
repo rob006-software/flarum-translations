@@ -42,7 +42,13 @@
                 "slug_driver_text": "",
                 "title": "",
                 "welcome_banner_heading": "",
-                "welcome_banner_text": ""
+                "welcome_banner_text": "",
+                "abandoned_extensions_heading": "",
+                "abandoned_extensions_text": "",
+                "abandoned_extensions_sync_button": "",
+                "abandoned_extensions_sync_success": "",
+                "abandoned_extensions_sync_error": "",
+                "abandoned_extensions_notify_admins_label": ""
             },
             "create_user": {
                 "email_placeholder": "",
@@ -53,6 +59,20 @@
                 "title": "",
                 "use_random_password": "",
                 "username_placeholder": ""
+            },
+            "announcements": {
+                "comments_label": "",
+                "description": "",
+                "empty": "",
+                "load_error": "",
+                "about": "",
+                "hide": "",
+                "read_more": "",
+                "refresh": "",
+                "retry": "",
+                "show": "",
+                "title": "",
+                "view_all": ""
             },
             "dashboard": {
                 "clear_cache_button": "",
@@ -182,6 +202,7 @@
                     "discussion": "",
                     "feature": "Артықшылықтары",
                     "formatting": "",
+                    "forum-widget": "",
                     "language": "Тілдер",
                     "moderation": "Модерация",
                     "other": "",
@@ -705,6 +726,12 @@
             "send_test": {
                 "subject": "Flarum e-mail ын тексеру",
                 "body": "Сәлеметсізбе, {username}!\n\nБұл тексеру хаты, сіздің почтаңыз дұрыс бапталғанын білдіреді.\n\nЕгерде сіз осы тексерісті жасаған болсаңыз, сіз дұрыс электронды почтаңызды дұрыс баптадыңыз.\n\nБұл тексеруді инициализацияламаған болсаңыз, бұл хабарды елемеңіз.\n"
+            },
+            "abandoned_extensions": {
+                "subject": "",
+                "body": "",
+                "line_with_replacement": "",
+                "line_no_replacement": ""
             }
         },
         "ref": {

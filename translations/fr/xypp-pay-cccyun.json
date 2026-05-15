@@ -37,66 +37,66 @@
                 "back": "Retour",
                 "done": "Effectué",
                 "invalid-amount": "Montant non valide (doit être compris entre {min} et {max})",
-                "no-limit": ""
+                "no-limit": "[n'importe lequel]"
             },
-            "pay-done": "",
-            "pay-done-btn": ""
+            "pay-done": "Le paiement a été effectué",
+            "pay-done-btn": "Aller à la page Historique"
         },
         "admin": {
             "permissions": {
-                "can-pay": ""
+                "can-pay": "Peut recharger"
             },
             "settings": {
-                "pay-wxpay": "",
-                "pay-qqpay": "",
-                "pay-alipay": "",
-                "ignore_ssl": "",
-                "money-rate": "",
-                "amount-max": "",
-                "amount-min": "",
-                "expired_minutes": "",
-                "ua-wechat": "",
-                "ua-alipay": "",
-                "ua-qq": "",
-                "ua-mobile": "",
-                "use_proxy": "",
-                "key": "",
-                "public-key": "",
-                "private-key": "",
-                "use-v2": "",
-                "pid": "",
-                "base_url": ""
+                "pay-wxpay": "Activer WeChat Pay",
+                "pay-qqpay": "Activer QQ Pay",
+                "pay-alipay": "Activer Alipay",
+                "ignore_ssl": "Ignorer les erreurs SSL",
+                "money-rate": "Taux de change : 1 CNY -> X Money",
+                "amount-max": "Montant maximal",
+                "amount-min": "Montant minimal",
+                "expired_minutes": "Durée d'expiration (en minutes)",
+                "ua-wechat": "WeChat UA",
+                "ua-alipay": "Alipay UA",
+                "ua-qq": "QQ UA",
+                "ua-mobile": "Mobile UA",
+                "use_proxy": "Utiliser un proxy (l'adresse IP sera extraite de l'en-tête « x-forwarded-for »)",
+                "key": "(V1) Clé MD5",
+                "public-key": "(V2) Clé publique de la plateforme",
+                "private-key": "(V2) Clé privée du partenaire",
+                "use-v2": "Utiliser l'API v2 (version RSA)",
+                "pid": "Identifiant partenaire",
+                "base_url": "URL de base (se terminant par /)"
             },
             "other": {
-                "confirm-delete": "",
-                "add-row": "",
-                "delete-row": "",
-                "pay-type": "",
-                "display": "",
-                "color": "",
-                "icon": ""
+                "confirm-delete": "Êtes-vous sûr de vouloir supprimer cet enregistrement ?",
+                "add-row": "Ajouter une ligne",
+                "delete-row": "Supprimer une ligne",
+                "pay-type": "Mode de paiement",
+                "display": "Nom d'affichage",
+                "color": "Couleur",
+                "icon": "Icône"
             }
         },
         "lib": {
-            "alipay": "",
-            "wxpay": "",
-            "qqpay": "",
+            "alipay": "Alipay",
+            "wxpay": "WeChat Pay",
+            "qqpay": "QQ Pay",
             "status": {
-                "pending": "",
-                "done": "",
-                "expire": ""
+                "pending": "En attente",
+                "done": "Terminé",
+                "expire": "Expiré"
             }
         },
         "api": {
-            "unknown_error": "",
-            "invalid_pay_type": "",
-            "pay_type_disabled": "",
-            "pay_item_name": "",
-            "payment_is_done": "",
-            "payment_is_expired": "",
-            "invalid_amount": "",
-            "verify_failed": "",
-            "unknown_pay_type": ""
+            "unknown_error": "Erreur inconnue",
+            "invalid_pay_type": "Type de paiement invalide",
+            "pay_type_disabled": "Le type de paiement sélectionné a été désactivé",
+            "pay_item_name": "Recharger {money} sur {u}",
+            "payment_is_done": "Le paiement a été effectué",
+            "payment_is_expired": "Le paiement a expiré",
+            "invalid_amount": "Montant non valide",
+            "verify_failed": "Échec de la vérification",
+            "unknown_pay_type": "Type de paiement inconnu"
         }
     }
 }

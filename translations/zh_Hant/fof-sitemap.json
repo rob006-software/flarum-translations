@@ -24,6 +24,8 @@
                 "frequency_label": "Scheduler 多久重構一次緩存或磁盤網站地圖？",
                 "risky_performance_improvements": "改善性能(風險)",
                 "risky_performance_improvements_help": "改善定時任務在數據量達到百萬行時的運行速度，可能不兼容某些擴充套件。",
+                "column_pruning": "",
+                "column_pruning_help": "",
                 "include_priority": "",
                 "include_priority_help": "",
                 "include_changefreq": "",
@@ -52,9 +54,7 @@
                             "minimum_item_threshold_help": "標籤必須包含在網站地圖中的最小討論數。"
                         }
                     }
-                },
-                "column_pruning": "",
-                "column_pruning_help": ""
+                }
             }
         }
     }

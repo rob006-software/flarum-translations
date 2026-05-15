@@ -24,6 +24,8 @@
                 "frequency_label": "¿Con qué frecuencia debe el Programador reconstruir el mapa del sitio almacenado en caché?",
                 "risky_performance_improvements": "Habilitar mejoras de rendimiento arriesgadas",
                 "risky_performance_improvements_help": "Estas mejoras hacen que el trabajo CRON se ejecute más rápido en conjuntos de datos de millones de filas, pero podrían romper la compatibilidad con algunas extensiones.",
+                "column_pruning": "",
+                "column_pruning_help": "",
                 "include_priority": "",
                 "include_priority_help": "",
                 "include_changefreq": "",
@@ -52,9 +54,7 @@
                             "minimum_item_threshold_help": "El número mínimo de discusiones que debe tener una etiqueta para que se incluya en el mapa del sitio."
                         }
                     }
-                },
-                "column_pruning": "",
-                "column_pruning_help": ""
+                }
             }
         }
     }

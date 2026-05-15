@@ -42,7 +42,13 @@
                 "slug_driver_text": "Επίλεξε ένα πρόγραμμα οδήγησης για τα Slugs αυτού του Model.",
                 "title": "Βασικές ρυθμίσεις",
                 "welcome_banner_heading": "Banner καλωσορίσματος",
-                "welcome_banner_text": "Διαμόρφωσε το κείμενο που εμφανίζεται στο Banner στην σελίδα Όλα τα θέματα. Χρησιμοποιήσέ το για να καλωσορίσεις του επισκέπτες του forum σου."
+                "welcome_banner_text": "Διαμόρφωσε το κείμενο που εμφανίζεται στο Banner στην σελίδα Όλα τα θέματα. Χρησιμοποιήσέ το για να καλωσορίσεις του επισκέπτες του forum σου.",
+                "abandoned_extensions_heading": "",
+                "abandoned_extensions_text": "",
+                "abandoned_extensions_sync_button": "",
+                "abandoned_extensions_sync_success": "",
+                "abandoned_extensions_sync_error": "",
+                "abandoned_extensions_notify_admins_label": ""
             },
             "create_user": {
                 "email_placeholder": "",
@@ -53,6 +59,20 @@
                 "title": "",
                 "use_random_password": "",
                 "username_placeholder": ""
+            },
+            "announcements": {
+                "comments_label": "",
+                "description": "",
+                "empty": "",
+                "load_error": "",
+                "about": "",
+                "hide": "",
+                "read_more": "",
+                "refresh": "",
+                "retry": "",
+                "show": "",
+                "title": "",
+                "view_all": ""
             },
             "dashboard": {
                 "clear_cache_button": "Διαγραφή Cache",
@@ -182,6 +202,7 @@
                     "discussion": "Συζήτηση",
                     "feature": "Χαρακτηριστικά",
                     "formatting": "Μορφοποίηση",
+                    "forum-widget": "",
                     "language": "Γλώσσες",
                     "moderation": "Συντονισμός",
                     "other": "Άλλα πρόσθετα",
@@ -705,6 +726,12 @@
             "send_test": {
                 "subject": "Flarum Email Test",
                 "body": "Γειά σας {username}!\nΑυτό είναι ένα δοκιμαστικό email που επιβεβαιώνει ότι η ρυθμίσεις e-mail του Flarum λειτουργούν σωστά.\nΕάν ήσασταν εσείς, η λήψη αυτού του e-mail δείχνει ότι όλα λειτουργούν.\nΕάν δεν ήσασταν εσείς, αγνοήστε αυτό το email.\n"
+            },
+            "abandoned_extensions": {
+                "subject": "",
+                "body": "",
+                "line_with_replacement": "",
+                "line_no_replacement": ""
             }
         },
         "ref": {
@@ -729,7 +756,7 @@
             "generic_confirmation_message": "",
             "icon": "Εικονίδιο",
             "icon_text": "Εισάγετε το όνομα οποιασδήποτε κλάσης εικονιδίου <a>FontAwesome</a>, <em>εισάγοντας</em> επίσης <code>fas fa-</code> μπροστά. Π.χ. <code>fas fa-envelope</code>",
-            "load_more": "Φώρτωσε περισσότερα",
+            "load_more": "Φόρτωσε περισσότερα",
             "loading": "",
             "log_in": "Σύνδεση",
             "log_out": "Αποσύνδεση",

@@ -2,22 +2,22 @@
     "core": {
         "forum": {
             "log_in": {
-                "username_or_email_placeholder": ""
+                "username_or_email_placeholder": "E-Mail"
             }
         }
     },
     "gtdxyz-login": {
         "admin": {
-            "login_identification": "",
-            "login_email": "",
-            "login_username": "",
-            "login_default": ""
+            "login_identification": "Anmeldung",
+            "login_email": "E-Mail",
+            "login_username": "Benutzername",
+            "login_default": "Standard"
         },
         "forum": {
             "error": {
-                "failed": "",
-                "email_failed": "",
-                "useranem_failed": ""
+                "failed": "Überprüfung fehlgeschlagen",
+                "email_failed": "E-Mail-Überprüfung fehlgeschlagen",
+                "useranem_failed": "Überprüfung des Benutzernamens fehlgeschlagen"
             }
         }
     }

@@ -42,7 +42,13 @@
                 "slug_driver_text": "Izvēlieties draiveri, kas tiks izmantots šī modeļa pārtraukšanai.",
                 "title": "Pamati",
                 "welcome_banner_heading": "Laipni lūdzam reklāmkarogs",
-                "welcome_banner_text": "Konfigurējiet tekstu, kas tiek rādīts lapas Visas diskusijas reklāmkarogā. Izmantojiet to, lai uzņemtu viesus savā forumā."
+                "welcome_banner_text": "Konfigurējiet tekstu, kas tiek rādīts lapas Visas diskusijas reklāmkarogā. Izmantojiet to, lai uzņemtu viesus savā forumā.",
+                "abandoned_extensions_heading": "",
+                "abandoned_extensions_text": "",
+                "abandoned_extensions_sync_button": "",
+                "abandoned_extensions_sync_success": "",
+                "abandoned_extensions_sync_error": "",
+                "abandoned_extensions_notify_admins_label": ""
             },
             "create_user": {
                 "email_placeholder": "=> core.ref.email",
@@ -53,6 +59,20 @@
                 "title": "Izveidot lietotāju",
                 "use_random_password": "Ģenerējiet nejaušu paroli",
                 "username_placeholder": "=> core.ref.username"
+            },
+            "announcements": {
+                "comments_label": "",
+                "description": "",
+                "empty": "",
+                "load_error": "",
+                "about": "",
+                "hide": "",
+                "read_more": "",
+                "refresh": "",
+                "retry": "",
+                "show": "",
+                "title": "",
+                "view_all": ""
             },
             "dashboard": {
                 "clear_cache_button": "Iztīrīt kešatmiņu",
@@ -182,6 +202,7 @@
                     "discussion": "Diskusija",
                     "feature": "Iespējas",
                     "formatting": "Formatēšana",
+                    "forum-widget": "",
                     "language": "Valodas",
                     "moderation": "modēracija",
                     "other": "Citi paplašinājumi",
@@ -705,6 +726,12 @@
             "send_test": {
                 "subject": "Flarum E-pasta tests",
                 "body": "Sveiki, {username}!\n\nŠis ir testa e-pasts, lai apstiprinātu, ka jūsu Flarum e-pasta konfigurācija darbojas pareizi.\n\nJa tas bijāt jūs, šis e-pasts nozīmē, ka jūsu konfigurācija darbojas!\n\nJa tas nebijāt jūs, lūdzu, ignorējiet šo e-pasta ziņojumu.\n"
+            },
+            "abandoned_extensions": {
+                "subject": "",
+                "body": "",
+                "line_with_replacement": "",
+                "line_no_replacement": ""
             }
         },
         "ref": {

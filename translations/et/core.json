@@ -42,7 +42,13 @@
                 "slug_driver_text": "Vali draiver, mida kasutatakse selle mudeli sluggimiseks.",
                 "title": "Põhiseaded",
                 "welcome_banner_heading": "Tervitusloosung",
-                "welcome_banner_text": "Sisesta tekst, mida kuvatakse 'Kõikide teemade' lehe päises. Kasuta seda oma foorumi külaliste tervitamiseks."
+                "welcome_banner_text": "Sisesta tekst, mida kuvatakse 'Kõikide teemade' lehe päises. Kasuta seda oma foorumi külaliste tervitamiseks.",
+                "abandoned_extensions_heading": "",
+                "abandoned_extensions_text": "",
+                "abandoned_extensions_sync_button": "",
+                "abandoned_extensions_sync_success": "",
+                "abandoned_extensions_sync_error": "",
+                "abandoned_extensions_notify_admins_label": ""
             },
             "create_user": {
                 "email_placeholder": "E-post",
@@ -54,15 +60,29 @@
                 "use_random_password": "Genereeri parool",
                 "username_placeholder": "Kasutajanimi"
             },
+            "announcements": {
+                "comments_label": "",
+                "description": "",
+                "empty": "",
+                "load_error": "",
+                "about": "",
+                "hide": "",
+                "read_more": "",
+                "refresh": "",
+                "retry": "",
+                "show": "",
+                "title": "",
+                "view_all": ""
+            },
             "dashboard": {
                 "clear_cache_button": "Puhasta vahemälu",
                 "description": "Foorumi ülevaade.",
-                "info_button": "",
+                "info_button": "Süsteemi info",
                 "info_modal": {
-                    "title": "",
-                    "copy_button": "",
-                    "copy_success": "",
-                    "copy_error": ""
+                    "title": "Süsteemi info",
+                    "copy_button": "Kopeeri lõikelauale",
+                    "copy_success": "Süsteemi info on kopeeritud lõikelauale",
+                    "copy_error": "Lõikelauale kopeerimine ebaõnnestus"
                 },
                 "io_error_message": "Failisüsteemi kirjutamine ebaõnnestus. Kontrollige oma failisüsteemi õiguseid ja proovige uuesti. Või proovige jooksutada käsurealt.",
                 "status": {
@@ -136,11 +156,11 @@
                 "title": "=> core.ref.email"
             },
             "extension": {
-                "abandoned_no_replacement": "",
-                "abandoned_with_replacement": "",
+                "abandoned_no_replacement": "Selle lisaprogrammi autor ei arendata seda enam ning seega ei pruugi see uuendusi saada.",
+                "abandoned_with_replacement": "{replacement} on asendanud selle lisaprogrammi. Kaalu üle minemist uuemale lisaprogrammile.",
                 "configure_scopes": "Kõik õigused",
                 "confirm_purge": "Eemaldatakse kõik andmebaasi kirjed ja lisad, mis seostuvad selle laiendusega. See ei kustuta laiendust; seda tuleb teha kasutades Composerit. Oled sa kindel, et soovid jätkata?",
-                "deprecated": "",
+                "deprecated": "Aegunud",
                 "disabled": "Keelatud",
                 "enable_to_see": "Luba laiendusel näha ja muuta seadeid.",
                 "enabled": "Lubatud",
@@ -162,7 +182,7 @@
                     "no_readme": "Sellel laiendusel ei paista LOE MIND faili olevat",
                     "title": "{extName} dokumentatsioon"
                 },
-                "replaced": ""
+                "replaced": "Asendatud"
             },
             "header": {
                 "get_help": "Abi",
@@ -182,6 +202,7 @@
                     "discussion": "Vestlus",
                     "feature": "Funktsioonid",
                     "formatting": "Vormindus",
+                    "forum-widget": "",
                     "language": "Keeled",
                     "moderation": "Modereerimine",
                     "other": "Teised laiendused",
@@ -219,7 +240,7 @@
                 "participate_heading": "Osalemine",
                 "post_without_throttle_label": "Ilma vahepausita vastamine",
                 "read_heading": "Vaatamine",
-                "remove_scope_label": "",
+                "remove_scope_label": "Eemalda ulatus {scope}",
                 "rename_discussions_label": "Vestluste ümbernimetamine",
                 "reply_to_discussions_label": "Vestlustele vastamine",
                 "search_users_label": "Kasutajate otsimine",
@@ -658,7 +679,7 @@
                 "csrf_token_mismatch_return_link": "Mine tagasi, et uuesti proovida",
                 "invalid_confirmation_token": "See kinnituslink pole õige või seda on juba kasutatud.",
                 "not_authenticated": "Sul pole selle lehe ligipääsuõigust. Proovi peale sisselogimist uuesti.",
-                "method_not_allowed": "",
+                "method_not_allowed": "See lehekülg ei toeta seda nõutud meetodit.",
                 "not_found": "Nõutud lehte ei leitud.",
                 "not_found_return_link": "Mine tagasi lehele {forum}",
                 "permission_denied": "Sul pole sellele lehele ligipääsuõigust.",
@@ -705,6 +726,12 @@
             "send_test": {
                 "subject": "Flarumi proovikiri",
                 "body": "Tere {username}!\n\nSee proovikiri on kinnituseks sellele, et teie Flarumi meiliseadistused töötavad korralikult.\n\nKui see olite teie, siis see tähendab, et meiliseadistused töötavad korralikult.\n\nKui see ei olnud teie, siis võite seda kirja ignoreerida.\n"
+            },
+            "abandoned_extensions": {
+                "subject": "",
+                "body": "",
+                "line_with_replacement": "",
+                "line_no_replacement": ""
             }
         },
         "ref": {

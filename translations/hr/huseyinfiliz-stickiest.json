@@ -2,49 +2,49 @@
     "huseyinfiliz-stickiest": {
         "admin": {
             "permissions": {
-                "super_sticky_discussions_label": "",
-                "tag_sticky_discussions_label": ""
+                "super_sticky_discussions_label": "Super ljepljive rasprave",
+                "tag_sticky_discussions_label": "Oznaka ljepljive rasprave"
             },
             "settings": {
-                "badge_icon_label": "",
-                "badge_icon_text": "",
-                "display_tag_sticky_label": "",
-                "display_tag_sticky_text": ""
+                "badge_icon_label": "Ikona oznake super ljepljive rasprave",
+                "badge_icon_text": "=> core.ref.icon_text",
+                "display_tag_sticky_label": "Prikaži ljepljive rasprave oznaka u popisu \"Sve rasprave\"",
+                "display_tag_sticky_text": "Tretirat će se kao obične rasprave i neće ostati prikovane na vrhu."
             }
         },
         "forum": {
             "badge": {
-                "sticky_tooltip": "",
-                "super_sticky_tooltip": "",
-                "tag_sticky_tooltip": "",
-                "super_tag_sticky_tooltip": ""
+                "sticky_tooltip": "=> huseyinfiliz-stickiest.ref.sticky",
+                "super_sticky_tooltip": "=> huseyinfiliz-stickiest.ref.super_sticky",
+                "tag_sticky_tooltip": "=> huseyinfiliz-stickiest.ref.tag_sticky",
+                "super_tag_sticky_tooltip": "=> huseyinfiliz-stickiest.ref.super_tag_sticky"
             },
             "stickiest_modal": {
-                "title": "",
-                "sticky_label": "",
-                "sticky_text": "",
-                "super_sticky_label": "",
-                "super_sticky_text": "",
-                "tag_sticky_label": "",
-                "tag_sticky_text": "",
-                "tags_label": "",
-                "submit_button": ""
+                "title": "Ljepljivo {title}",
+                "sticky_label": "=> flarum-sticky.ref.sticky",
+                "sticky_text": "Ljepljive rasprave bit će prikovane na vrh popisa \"Sve rasprave\" ako su nepročitane. Prilikom pregledavanja specifične oznake kojoj rasprava pripada, bit će prikovane na vrh cijelo vrijeme.",
+                "super_sticky_label": "=> huseyinfiliz-stickiest.ref.super_sticky",
+                "super_sticky_text": "Super ljepljive rasprave bit će prikovane na sam vrh bez obzira na sve.",
+                "tag_sticky_label": "=> huseyinfiliz-stickiest.ref.tag_sticky",
+                "tag_sticky_text": "Ljepljive rasprave oznaka prema zadanim su postavkama skrivene u popisu \"Sve rasprave\". Bit će prikazane i prikovane na vrh samo prilikom pregledavanja specifične oznake, i to one koju ovdje odaberete. Ova se opcija može kombinirati s postavkom \"Super ljepljivo\".",
+                "tags_label": "=> flarum-tags.ref.tags",
+                "submit_button": "=> core.ref.save_changes"
             },
             "discussion_controls": {
-                "sticky_button": ""
+                "sticky_button": "=> flarum-sticky.forum.discussion_controls.sticky_button"
             },
             "post_stream": {
-                "discussion_stickied_text": "",
-                "discussion_unstickied_text": "",
-                "discussion_super_stickied_text": "",
-                "discussion_common_stickied_text": ""
+                "discussion_stickied_text": "=> flarum-sticky.forum.post_stream.discussion_stickied_text",
+                "discussion_unstickied_text": "=> flarum-sticky.forum.post_stream.discussion_unstickied_text",
+                "discussion_super_stickied_text": "{username} je označio raspravu kao super ljepljivu.",
+                "discussion_common_stickied_text": "{username} je uklonio oznaku super ljepljive rasprave."
             }
         },
         "ref": {
-            "sticky": "",
-            "super_sticky": "",
-            "tag_sticky": "",
-            "super_tag_sticky": ""
+            "sticky": "=> flarum-sticky.ref.sticky",
+            "super_sticky": "Super ljepljivo",
+            "tag_sticky": "Ljepljiva oznaka",
+            "super_tag_sticky": "Super ljepljiva oznaka"
         }
     }
 }

@@ -9,10 +9,19 @@
                 "label": "Analyzer language 分析語言",
                 "help": "分析器用於理解語義和分詞，並優化索引。\n"
             },
+            "index-settings-changed": "",
+            "reindex-required": {
+                "title": "",
+                "detail": ""
+            },
             "search-discussion-subjects": "索引標題",
             "search-post-bodies": "索引貼文",
             "match-sentences": "長句匹配",
-            "match-words": "字詞匹配"
+            "match-words": "字詞匹配",
+            "min-search-length": {
+                "label": "",
+                "help": ""
+            }
         }
     }
 }

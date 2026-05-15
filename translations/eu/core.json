@@ -42,7 +42,13 @@
                 "slug_driver_text": "Aukeratu dirver bat Slugerako.",
                 "title": "Basikoak",
                 "welcome_banner_heading": "Ongi etorri bannerra",
-                "welcome_banner_text": "Ezarri eztabaida guztiak orrian erakutsiko den bannerraren testai. Erabili hau ongi etorria emateko."
+                "welcome_banner_text": "Ezarri eztabaida guztiak orrian erakutsiko den bannerraren testai. Erabili hau ongi etorria emateko.",
+                "abandoned_extensions_heading": "",
+                "abandoned_extensions_text": "",
+                "abandoned_extensions_sync_button": "",
+                "abandoned_extensions_sync_success": "",
+                "abandoned_extensions_sync_error": "",
+                "abandoned_extensions_notify_admins_label": ""
             },
             "create_user": {
                 "email_placeholder": "",
@@ -53,6 +59,20 @@
                 "title": "",
                 "use_random_password": "",
                 "username_placeholder": ""
+            },
+            "announcements": {
+                "comments_label": "",
+                "description": "",
+                "empty": "",
+                "load_error": "",
+                "about": "",
+                "hide": "",
+                "read_more": "",
+                "refresh": "",
+                "retry": "",
+                "show": "",
+                "title": "",
+                "view_all": ""
             },
             "dashboard": {
                 "clear_cache_button": "Borratu Cachea",
@@ -182,6 +202,7 @@
                     "discussion": "Eztabaidak",
                     "feature": "Ezaugarrika",
                     "formatting": "Formatua",
+                    "forum-widget": "",
                     "language": "Hizkuntzak",
                     "moderation": "Moderazio",
                     "other": "Beste extentsioak",
@@ -705,6 +726,12 @@
             "send_test": {
                 "subject": "Flarum Email Test",
                 "body": "Aupa {username}!\n\nFlarumek bidalitako email test bat da. Honekin zure ezarpenak konprobatu diara.\n\nZuk izan bazara, zorionak zure ezarpenak ongi funtzionatu dute!\n\nZuk izan ez bazara, ignoratu mezu hau.\n"
+            },
+            "abandoned_extensions": {
+                "subject": "",
+                "body": "",
+                "line_with_replacement": "",
+                "line_no_replacement": ""
             }
         },
         "ref": {

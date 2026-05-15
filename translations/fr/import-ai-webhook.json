@@ -2,10 +2,10 @@
     "import-ai-webhook": {
         "admin": {
             "settings": {
-                "webhook_url_label": "",
-                "webhook_url_help": "",
-                "bearer_token_label": "",
-                "bearer_token_help": ""
+                "webhook_url_label": "URL du webhook",
+                "webhook_url_help": "Saisissez l'URL à laquelle vous souhaitez recevoir les requêtes POST lorsque les utilisateurs créent ou modifient des publications. La charge utile comprend le type d'événement ainsi que l'intégralité des données du modèle utilisateur, publication, discussion et acteur.",
+                "bearer_token_label": "Jeton de Bearer",
+                "bearer_token_help": "Jeton de Bearer facultatif pour l'en-tête Authorization. Le jeton sera envoyé sous la forme « Authorization : Bearer <votre-jeton> » avec chaque requête de webhook."
             }
         }
     }

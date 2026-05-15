@@ -4,25 +4,25 @@
             "glossary": {
                 "button": "Glossaire",
                 "create_button": "Créer un nouveau terme",
-                "refresh_button": "",
-                "edit_term": "",
-                "delete_term": "",
+                "refresh_button": "Actualiser",
+                "edit_term": "Modifier le terme",
+                "delete_term": "Supprimer le terme",
                 "section": {
                     "heading": "Configuration du glossaire",
                     "help": "Les mots ou termes du glossaire sont définis de manière à ce que le service de traduction ne les traduise pas. Ils sont utiles pour les noms propres, les termes techniques ou d'autres mots qui ne doivent pas être traduits."
                 },
                 "terms": {
-                    "current": ""
+                    "current": "{count, plural, one {# terme actuellement défini} other {# termes actuellement définis}}"
                 },
-                "no_terms": "",
-                "extender_info": "",
-                "create_not_implemented": "",
-                "edit_not_available": "",
-                "delete_not_available": "",
+                "no_terms": "Aucun terme du glossaire n'est défini pour le moment.",
+                "extender_info": "Les termes du glossaire peuvent être ajoutés à l'aide de la fonction PHP de l'extension dans votre fichier extend.php.",
+                "create_not_implemented": "La création de termes via l'interface utilisateur n'est pas encore disponible. Utilisez l'extension PHP.",
+                "edit_not_available": "Ce terme est défini dans le code et ne peut pas être modifié via l'interface utilisateur",
+                "delete_not_available": "Ce terme est défini dans le code et ne peut pas être supprimé via l'interface utilisateur",
                 "source": {
-                    "code": "",
-                    "database": "",
-                    "default": ""
+                    "code": "Défini dans le code",
+                    "database": "Enregistré dans la base de données",
+                    "default": "Valeur par défaut intégrée"
                 },
                 "glossary": "Glossaire"
             },
@@ -53,8 +53,8 @@
                 "seemless-help": "Fonctionnalité bêta. Lorsqu'elle est activée, tout le contenu des utilisateurs est traduit automatiquement dans toutes les autres langues disponibles sur le forum. Lorsqu'un utilisateur consulte un contenu multilingue, les traductions s'affichent automatiquement.",
                 "multi-lang-search": "Recherche multilingue",
                 "multi-lang-search-help": "Si cette option est activée, la recherche inclura toutes les traductions du contenu.",
-                "short-content-length": "",
-                "short-content-length-help": "",
+                "short-content-length": "Contenu court",
+                "short-content-length-help": "Lorsque cette option est activée, le contenu dont la longueur est inférieure à celle spécifiée sera traduit et considéré comme rédigé dans la langue actuelle de l'interface utilisateur. La valeur 0 désactive cette fonctionnalité.",
                 "deepl": {
                     "api_key": {
                         "help": "Enregistrez-vous sur {link}. Le pilote détectera automatiquement le type de clé, gratuite ou professionnelle.",
@@ -78,20 +78,20 @@
                         }
                     },
                     "model_type": {
-                        "help": "",
-                        "label": "",
+                        "help": "Sélectionnez le modèle DeepL à utiliser pour la traduction.",
+                        "label": "Type de modèle",
                         "options": {
-                            "latency_optimized": "",
-                            "prefer_quality_optimized": ""
+                            "latency_optimized": "Optimisé pour la vitesse",
+                            "prefer_quality_optimized": "Privilégier la qualité lorsque c'est possible"
                         }
                     },
                     "glossary": {
                         "options": {
-                            "none": ""
+                            "none": "Pas de glossaire"
                         },
                         "pair": {
-                            "label": "",
-                            "help": ""
+                            "label": "Glossaire {source} vers {target}",
+                            "help": "Sélectionnez un glossaire lorsque vous traduisez {source} vers {target}, ou ne sélectionnez aucun glossaire si aucun n'est nécessaire pour cette combinaison linguistique."
                         }
                     }
                 },
@@ -103,63 +103,63 @@
                 },
                 "openai": {
                     "api_key": {
-                        "help": "",
-                        "label": ""
+                        "help": "Inscrivez-vous pour obtenir une clé API sur {link}. Ce pilote prend en charge les modèles GPT-4o et GPT-4o-mini.",
+                        "label": "=> ianm-translate.lib.settings.api-key"
                     },
                     "translation_model": {
-                        "help": "",
-                        "label": "",
+                        "help": "Choisissez le modèle OpenAI à utiliser pour les traductions. GPT-4o offre la meilleure qualité, GPT-4o-mini présente un bon compromis, et GPT-3.5-turbo est le plus économique.",
+                        "label": "Modèle de traduction",
                         "options": {
-                            "gpt-4o": "",
-                            "gpt-4o-mini": "",
+                            "gpt-4o": "GPT-4o (Premium)",
+                            "gpt-4o-mini": "GPT-4o Mini (Équilibré)",
                             "gpt-3": {
-                                "5-turbo": "",
-                                "5-turbo-0125": ""
+                                "5-turbo": "GPT-3.5 Turbo (Économique)",
+                                "5-turbo-0125": "GPT-3.5 Turbo Latest (Économique +)"
                             }
                         }
                     },
                     "detection_model": {
-                        "help": "",
-                        "label": "",
+                        "help": "Sélectionnez le modèle OpenAI à utiliser pour la détection de la langue. Il est recommandé d'utiliser GPT-3.5-Turbo, car la détection de la langue est une tâche simple qui ne nécessite pas le modèle le plus puissant.",
+                        "label": "Modèle de détection de la langue",
                         "options": {
-                            "gpt-4o": "",
-                            "gpt-4o-mini": "",
+                            "gpt-4o": "GPT-4o (Premium)",
+                            "gpt-4o-mini": "GPT-4o Mini (Équilibré)",
                             "gpt-3": {
-                                "5-turbo": "",
-                                "5-turbo-0125": ""
+                                "5-turbo": "GPT-3.5 Turbo (Économique)",
+                                "5-turbo-0125": "GPT-3.5 Turbo Latest (Économique +)"
                             }
                         }
                     },
                     "de_variant": {
-                        "help": "",
-                        "label": "",
+                        "help": "Lors de la traduction vers l'allemand, sélectionnez la variante à utiliser.",
+                        "label": "Variante allemande",
                         "options": {
-                            "casual": "",
-                            "swiss": ""
+                            "casual": "Allemand courant",
+                            "swiss": "Suisse-allemand"
                         }
                     },
                     "en_variant": {
-                        "help": "",
-                        "label": "",
+                        "help": "Lors de la traduction vers l'anglais, choisissez la variante à utiliser.",
+                        "label": "Variante anglaise",
                         "options": {
-                            "en-GB": "",
-                            "en-US": ""
+                            "en-GB": "Anglais britannique",
+                            "en-US": "Anglais américain"
                         }
                     },
                     "max_tokens": {
-                        "help": "",
-                        "label": "",
+                        "help": "Nombre maximal de jetons pour la traduction. Des valeurs plus élevées permettent d'obtenir des traductions plus longues, mais augmentent les coûts. 1 024 jetons ≈ 750 mots. GPT-4o coûte environ 0,03 $ pour 1 000 jetons de sortie, tandis que GPT-4o-mini coûte environ 0,0006 $ pour 1 000 jetons de sortie.",
+                        "label": "Nombre maximal de jetons",
                         "options": {
-                            "1024": "",
-                            "2048": "",
-                            "4096": "",
-                            "6144": "",
-                            "8192": ""
+                            "1024": "1 024 jetons (environ 750 mots)",
+                            "2048": "2 048 jetons (environ 1 500 mots)",
+                            "4096": "4 096 jetons (environ 3 000 mots)",
+                            "6144": "6 144 jetons (environ 4 500 mots)",
+                            "8192": "8 192 jetons (environ 6 000 mots)"
                         }
                     },
                     "timeout": {
-                        "help": "",
-                        "label": ""
+                        "help": "Délai d'expiration en secondes. Augmentez cette valeur si vous rencontrez des erreurs de délai d'expiration.",
+                        "label": "Délai d'expiration (en secondes)"
                     }
                 },
                 "translate-all-enabled": "Activer toutes les langues de traduction",
@@ -195,7 +195,7 @@
         },
         "forum": {
             "post": {
-                "translation-error": ""
+                "translation-error": "Un problème est survenu lors de l'affichage de la traduction de ce message. L'erreur a été enregistrée sous l'identifiant {uuid}. Veuillez nous le signaler si le problème persiste."
             },
             "unknown-language": "[non détecté]",
             "detected-language": "Ce message est en {postLang}",
@@ -225,8 +225,8 @@
                     "original-title": "Langue d'origine"
                 },
                 "poll-group": {
-                    "title": "",
-                    "name": ""
+                    "title": "Gérer les traductions des groupes de sondages",
+                    "name": "Nom du groupe"
                 },
                 "save-changes": "=> core.ref.save_changes",
                 "quiz": {
@@ -257,7 +257,7 @@
                 }
             },
             "composer_edit": {
-                "language": ""
+                "language": "Mettre à jour le contenu traduit en {language}"
             },
             "composer": {
                 "multi-languages": "Astuce : vous pouvez écrire avec la langue de votre choix, le forum la traduira pour vous."
@@ -268,7 +268,7 @@
                 "deepl": "DeepL",
                 "google-free": "Google Traduction",
                 "google-cloud": "Google Cloud Translate",
-                "openai": "",
+                "openai": "OpenAI",
                 "libre": "Libre Translate"
             },
             "settings": {

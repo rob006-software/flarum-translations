@@ -4,12 +4,12 @@
             "settings": {
                 "providers": {
                     "generic": {
-                        "description": "",
-                        "client_id_label": "",
-                        "client_secret_label": "",
+                        "description": "Richte die Anmeldung basierend auf deinem benutzerdefinierten OAuth2-Anbieter ein.",
+                        "client_id_label": "Client-ID",
+                        "client_secret_label": "Client-Secret",
                         "scopes_label": "",
                         "authorization_endpoint_label": "",
-                        "token_endpoint_label": "",
+                        "token_endpoint_label": "Token-Endpoint",
                         "user_information_endpoint_label": "",
                         "id_parameter_label": "",
                         "display_name_parameter_label": "",
@@ -23,10 +23,10 @@
         },
         "forum": {
             "log_in": {
-                "with_generic_button": ""
+                "with_generic_button": "=> fof-oauth.forum.log_in.with_button"
             },
             "providers": {
-                "generic": ""
+                "generic": "=> fof-oauth.lib.providers.generic"
             }
         },
         "lib": {

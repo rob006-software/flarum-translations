@@ -1,0 +1,20 @@
+{
+    "tryhackx-thumb-sliders": {
+        "admin": {
+            "settings": {
+                "enabled_label": "Enable Thumb Sliders",
+                "enabled_help": "Show thumbnail sliders in the discussion list.",
+                "slider_width_label": "Slider width (px)",
+                "slider_width_help": "Width of the thumbnail slider. Height is auto (poster ratio 2:3).",
+                "autoplay_speed_label": "Autoplay speed (ms)",
+                "autoplay_speed_help": "Time between slide transitions in milliseconds.",
+                "max_images_label": "Maximum images per discussion",
+                "max_images_help": "Maximum number of images to show in the slider (max 20).",
+                "min_img_size_label": "Min image dimension (px)",
+                "min_img_size_help": "Exclude images with width or height smaller than this value.",
+                "max_img_size_label": "Max image dimension (px)",
+                "max_img_size_help": "Exclude images with width or height larger than this value."
+            }
+        }
+    }
+}

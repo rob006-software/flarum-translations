@@ -1,0 +1,20 @@
+{
+    "tryhackx-thumb-sliders": {
+        "admin": {
+            "settings": {
+                "enabled_label": "Miniatur-Schieberegler aktivieren",
+                "enabled_help": "Schieberegler für Miniaturansichten in der Diskussionsliste anzeigen.",
+                "slider_width_label": "Breite des Schiebereglers (px)",
+                "slider_width_help": "Breite des Schiebereglers für Miniaturansichen. Die Höhe wird automatisch angepasst (Bildformat 2:3).",
+                "autoplay_speed_label": "Wiedergabegeschwindigkeit (ms)",
+                "autoplay_speed_help": "Zeit zwischen den Übergängen in Millisekunden.",
+                "max_images_label": "Maximale Anzahl an Bildern pro Diskussion",
+                "max_images_help": "Maximale Anzahl der Bilder, die im Schieberegler angezeigt werden sollen (max. 20).",
+                "min_img_size_label": "Mindestbildgröße (px)",
+                "min_img_size_help": "Bilder, deren Breite oder Höhe kleiner als dieser Wert ist, werden ausgeschlossen.",
+                "max_img_size_label": "Maximalbildgröße (px)",
+                "max_img_size_help": "Bilder, deren Breite oder Höhe größer als dieser Wert ist, werden ausgeschlossen."
+            }
+        }
+    }
+}

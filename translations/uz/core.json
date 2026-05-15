@@ -42,7 +42,13 @@
                 "slug_driver_text": "Ushbu modelni siljitish uchun ishlatiladigan drayverni tanlang.",
                 "title": "Asoslari",
                 "welcome_banner_heading": "Xush kelibsiz banneri",
-                "welcome_banner_text": "Barcha Muhokamalar sahifasidagi bannerda ko'rsatiladigan matnni sozlang. Buni forumingizga mehmonlarni kutib olish uchun foydalaning."
+                "welcome_banner_text": "Barcha Muhokamalar sahifasidagi bannerda ko'rsatiladigan matnni sozlang. Buni forumingizga mehmonlarni kutib olish uchun foydalaning.",
+                "abandoned_extensions_heading": "",
+                "abandoned_extensions_text": "",
+                "abandoned_extensions_sync_button": "",
+                "abandoned_extensions_sync_success": "",
+                "abandoned_extensions_sync_error": "",
+                "abandoned_extensions_notify_admins_label": ""
             },
             "create_user": {
                 "email_placeholder": "",
@@ -53,6 +59,20 @@
                 "title": "",
                 "use_random_password": "",
                 "username_placeholder": ""
+            },
+            "announcements": {
+                "comments_label": "",
+                "description": "",
+                "empty": "",
+                "load_error": "",
+                "about": "",
+                "hide": "",
+                "read_more": "",
+                "refresh": "",
+                "retry": "",
+                "show": "",
+                "title": "",
+                "view_all": ""
             },
             "dashboard": {
                 "clear_cache_button": "Keshni tozalash",
@@ -184,6 +204,7 @@
                     "discussion": "Muhokama",
                     "feature": "Xususiyatlari",
                     "formatting": "O'zgartirish",
+                    "forum-widget": "",
                     "language": "Tillar",
                     "moderation": "Moderatsiya",
                     "other": "Boshqa kengaytmalar",
@@ -708,6 +729,12 @@
             "send_test": {
                 "subject": "Flarum email testi",
                 "body": "Salom {username}!\n\nBu sizning Flarum emailingzi sozlamalari to'g'ri ishlayotganini tekshirish uchun jo'natilgan xabar.\n\nAgar bu siz bo'lsangiz, bu email sozlamalar to'g'ri ishlayotganini bildiradi!\n\nAgar siz bo'lmasangiz, e'tibor bermang.\n"
+            },
+            "abandoned_extensions": {
+                "subject": "",
+                "body": "",
+                "line_with_replacement": "",
+                "line_no_replacement": ""
             }
         },
         "ref": {

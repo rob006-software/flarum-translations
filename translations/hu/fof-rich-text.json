@@ -2,49 +2,49 @@
     "fof-rich-text": {
         "admin": {
             "settings": {
-                "toggle_on_editor": ""
+                "toggle_on_editor": "Formázott szöveges mód kapcsolójának megjelenítése a szerkesztőben?"
             }
         },
         "lib": {
             "composer": {
-                "toggle_button": "",
-                "insert_button": "",
+                "toggle_button": "Formázott szöveges mód be/ki",
+                "insert_button": "Beszúrás",
                 "insert_image": {
-                    "src_placeholder": "",
-                    "title_placeholder": ""
+                    "src_placeholder": "Hivatkozás",
+                    "title_placeholder": "Cím"
                 },
                 "insert_link": {
-                    "text_placeholder": "",
-                    "href_placeholder": "",
-                    "title_placeholder": "",
-                    "remove_button": ""
+                    "text_placeholder": "Szöveg",
+                    "href_placeholder": "Webcím",
+                    "title_placeholder": "Cím (ráhúzáskor jelenik meg)",
+                    "remove_button": "Eltávolítás"
                 },
-                "additional_items_tooltip": "",
-                "bold_tooltip": "",
-                "code_tooltip": "",
-                "code_block_tooltip": "",
-                "header_tooltip": "",
-                "horizontal_rule_tooltip": "",
-                "image_tooltip": "",
-                "italic_tooltip": "",
-                "link_tooltip": "",
-                "ordered_list_tooltip": "",
-                "paragraph_tooltip": "",
-                "quote_tooltip": "",
-                "spoiler_block_tooltip": "",
-                "spoiler_inline_tooltip": "",
-                "strike_tooltip": "",
-                "sub_tooltip": "",
-                "sup_tooltip": "",
-                "text_type_tooltip": "",
-                "unordered_list_tooltip": ""
+                "additional_items_tooltip": "További vezérlők",
+                "bold_tooltip": "Félkövér szöveg <{modifierKey}-b>",
+                "code_tooltip": "Soron belüli kód <{modifierKey}-`>",
+                "code_block_tooltip": "Kódblokk beszúrása",
+                "header_tooltip": "{level}. szintű címsor <shift-{modifierKey}-{level}>",
+                "horizontal_rule_tooltip": "Vízszintes vonal beszúrása",
+                "image_tooltip": "Kép hozzáadása",
+                "italic_tooltip": "Dőlt szöveg <{modifierKey}-b>",
+                "link_tooltip": "Hivatkozás hozzáadása",
+                "ordered_list_tooltip": "Számozott lista <shift-{modifierKey}-9>",
+                "paragraph_tooltip": "Bekezdés <shift-{modifierKey}-0>",
+                "quote_tooltip": "Idézet beszúrása <{modifierKey}-q>",
+                "spoiler_block_tooltip": "Rejtett szöveg/legördülő",
+                "spoiler_inline_tooltip": "Rejtett szöveg <{modifierKey}-;>",
+                "strike_tooltip": "Áthúzott szöveg <alt-shift-5>",
+                "sub_tooltip": "Alsó index <{modifierKey}-,>",
+                "sup_tooltip": "Felső index <{modifierKey}-.>",
+                "text_type_tooltip": "Válasszon szövegtípust",
+                "unordered_list_tooltip": "Felsorolás <shift-{modifierKey}-8>"
             }
         },
         "forum": {
             "settings": {
-                "composer_heading": "",
-                "use_rich_text_editor_label": "",
-                "rich_text_compact_paragraphs_label": ""
+                "composer_heading": "Szerkesztő",
+                "use_rich_text_editor_label": "Formázott szöveges szerkesztő használata?",
+                "rich_text_compact_paragraphs_label": "Ne válassza el a bekezdéseket újsorral."
             }
         }
     }

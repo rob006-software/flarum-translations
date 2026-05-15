@@ -1,0 +1,22 @@
+{
+    "proxytracer-proxytracer": {
+        "admin": {
+            "settings": {
+                "api_key_label": "ProxyTracer API Key",
+                "api_key_help": "Your API token that you can get from <a>proxytracer.com</a>.",
+                "block_all_label": "Block All Site Access",
+                "block_login_label": "Block Logins",
+                "block_signup_label": "Block Signups",
+                "api_timeout_label": "API Timeout (milliseconds)",
+                "cache_expiry_label": "Cache Expiry (hours)",
+                "fail_open_label": "Fail Open on API Error",
+                "fail_open_help": "If enabled, users are allowed through if the ProxyTracer API times out or goes down.",
+                "trust_cloudflare_label": "Extract IPs from Cloudflare Headers",
+                "trust_cloudflare_help": "Required if your site is behind Cloudflare to accurately read user IPs. Do not enable this in other scenarios.",
+                "custom_block_message_label": "Custom Block Message",
+                "ip_whitelist_label": "IP Whitelist",
+                "ip_whitelist_help": "Enter IPs or CIDR ranges to bypass the proxy check, separated by newlines."
+            }
+        }
+    }
+}

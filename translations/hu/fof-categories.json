@@ -2,54 +2,54 @@
     "fof-categories": {
         "admin": {
             "basics": {
-                "categories_label": ""
+                "categories_label": "Kategóriák"
             },
             "labels": {
-                "keep_tags_nav": "",
-                "child_bare_icon": "",
-                "compact_mobile_mode": "",
-                "full_page_desktop": "",
-                "parent_remove_icon": "",
-                "parent_remove_description": "",
-                "parent_remove_stats": "",
-                "parent_remove_last_discussion": "",
-                "small_forum_optimized": ""
+                "keep_tags_nav": "Megtartja a Címkék oldal hivatkozását a navigációs oldalsávban?",
+                "child_bare_icon": "Dekoráció nélküli gyermekikonok?",
+                "compact_mobile_mode": "Kompakt mobilos mód",
+                "full_page_desktop": "Teljes képernyős asztali mód?",
+                "parent_remove_icon": "Ikonok elrejtése a felsőszintű címkéknél?",
+                "parent_remove_description": "Leírások elrejtése a felsőszintű címkéknél?",
+                "parent_remove_stats": "Statisztikák elrejtése a felsőszintű címkéknél?",
+                "parent_remove_last_discussion": "Friss témák elrejtése a felsőszintű címkéknél?",
+                "small_forum_optimized": "Optimalizáció kis fórumokra?"
             },
             "help": {
-                "child_bare_icon": "",
-                "full_page_desktop": "",
-                "small_forum_optimized": ""
+                "child_bare_icon": "A gyermekkategóriák ikonjai kör alakú háttér nélkül jelenjenek meg?",
+                "full_page_desktop": "Az oldalsáv navigációs menüje egy sorba legyen összecsukva (minta hagyományos címkék oldalon)? Ez elrejti a modulokat (mint a Friends of Flarum Fórumstatisztikák) is a kategóriák oldal navigációs sávján.",
+                "small_forum_optimized": "Ez pontosabb téma-/bejegyzésszámot fog adni, de a közepes és nagy fórumokat drámaian lelassítja."
             },
             "headings": {
-                "nav": "",
-                "layout": "",
-                "parent_display": "",
-                "child_display": "",
-                "performance": ""
+                "nav": "Navigáció",
+                "layout": "Elrendezés",
+                "parent_display": "Szülőkategória megjelenítése",
+                "child_display": "Gyermekkategória megjelenítése",
+                "performance": "Teljesítmény"
             },
-            "title": ""
+            "title": "Kategóriák beállításai"
         },
         "forum": {
             "all_categories": {
-                "meta_description_text": "",
-                "meta_title_text": ""
+                "meta_description_text": "Összes kategória",
+                "meta_title_text": "=> fof-categories.ref.categories"
             },
             "header": {
-                "back_to_categories_tooltip": ""
+                "back_to_categories_tooltip": "Vissza a kategóriákhoz"
             },
             "index": {
-                "categories_link": ""
+                "categories_link": "=> fof-categories.ref.categories"
             },
             "stat-widgets": {
-                "discussion_label": "",
-                "post_label": ""
+                "discussion_label": "Témák",
+                "post_label": "Bejegyzések"
             },
             "last_discussion_widget": {
-                "no_discussions": ""
+                "no_discussions": "Nincsenek témák (egyelőre!)"
             }
         },
         "ref": {
-            "categories": ""
+            "categories": "Kategóriák"
         }
     }
 }

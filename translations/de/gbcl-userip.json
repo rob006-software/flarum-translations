@@ -1,22 +1,22 @@
 {
     "gbcl-userip": {
         "forum": {
-            "unknownNotice": ""
+            "unknownNotice": "Unbekannt"
         },
         "admin": {
             "permissions": {
-                "view_ip_info_label": ""
+                "view_ip_info_label": "IP-Info anzeigen"
             },
             "service": {
-                "label": "",
+                "label": "Dienst",
                 "ipsb": {
-                    "label": "",
-                    "description": ""
+                    "label": "IP.SB",
+                    "description": "Verwende <b>https://ip.sb</b>, um kostenlose Informationen zum Standort einer IP-Adresse abzurufen (bitte beachte die Auslastungsbegrenzung)"
                 },
                 "ipinfo": {
-                    "label": "",
-                    "description": "",
-                    "key": ""
+                    "label": "IpInfo",
+                    "description": "Verwende <b>https://ipinfo.io</b>, um genauere IP-Informationen zu erhalten (Token erforderlich)",
+                    "key": "IpInfo-Token (Erforderlich)"
                 }
             }
         }

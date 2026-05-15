@@ -1,0 +1,216 @@
+{
+    "ralkage-ad-management": {
+        "admin": {
+            "nav": {
+                "title": "Управление рекламой"
+            },
+            "tabs": {
+                "ads": "Реклама",
+                "zones": "Рекламные зоны",
+                "settings": "Настройки",
+                "analytics": "Аналитика"
+            },
+            "settings": {
+                "between_posts_interval": "Интервал между рекламой",
+                "between_posts_interval_help": "Показывать рекламу после каждых N сообщений в дискуссиях. Установите 0, чтобы отключить.",
+                "default_max_image_changes": "Лимит изменений изображения по умолчанию",
+                "default_max_image_changes_help": "Максимальное количество раз, которое владелец рекламы может менять изображение. 0 — без ограничений.",
+                "show_sponsored_label": "Показывать метку «Реклама»",
+                "show_sponsored_label_help": "Показывать подпись под рекламой. Снимите флажок, чтобы полностью скрыть.",
+                "sponsored_label_text": "Текст метки «Реклама»",
+                "sponsored_label_text_help": "Пользовательский текст для метки — например, «Реклама». Оставьте пустым, чтобы использовать перевод по умолчанию.",
+                "track_impressions": "Отслеживать показы",
+                "track_impressions_help": "Считать, сколько раз показывается каждая реклама.",
+                "track_clicks": "Отслеживать клики",
+                "track_clicks_help": "Отслеживать клики по рекламе.",
+                "adsense_publisher_id": "ID издателя Google AdSense",
+                "adsense_publisher_id_help": "Ваш ID издателя AdSense — например, ca-pub-1234567890.",
+                "allowed_image_formats": "Разрешённые форматы изображений",
+                "allowed_image_formats_help": "Список допустимых расширений изображений через запятую. Например: jpg, jpeg, png, webp, gif.",
+                "enable_compression": "Включить сжатие изображений",
+                "enable_compression_help": "Автоматически сжимать загруженные изображения рекламы, чтобы уменьшить размер файла.",
+                "compression_quality": "Качество сжатия",
+                "compression_quality_help": "Качество изображения после сжатия (1–100). Меньшее значение — меньше размер файла. Рекомендуется: 80–90.",
+                "compression_method": "Метод сжатия",
+                "compression_method_help": "PHP GD встроен. reSmush использует внешний API для оптимизации без потерь — требуется curl.",
+                "require_image_approval": "Требовать подтверждение изменений изображения",
+                "require_image_approval_help": "Если включено, изменения изображений, отправленные владельцами рекламы, будут отправляться на проверку администратору перед публикацией.",
+                "expiration_reminder_days": "Напоминание об окончании (дни)",
+                "expiration_reminder_days_help": "Отправлять email владельцам рекламы за указанное количество дней до окончания. Установите 0, чтобы отключить.",
+                "send_performance_reports": "Отправлять отчёты об эффективности",
+                "send_performance_reports_help": "Добавлять сводку эффективности — показы, клики, CTR — при отправке email.",
+                "notifications_info": "Чтобы отправлять уведомления, добавьте cron-задачу: php flarum ad-management:send-notifications",
+                "image_settings_title": "Настройки изображений",
+                "notifications_title": "Email-уведомления",
+                "expiration_templates_title": "Шаблоны писем",
+                "templates_placeholders_expiry": "Доступные переменные: {forum_title}, {forum_url}, {owner_name}, {owner_username}, {ad_name}, {days_left}, {expiry_date}, {impressions}, {clicks}. Оставьте пустым, чтобы использовать шаблон по умолчанию.",
+                "expiration_subject_template": "Шаблон темы",
+                "expiration_body_template": "Шаблон письма",
+                "performance_templates_title": "Шаблоны отчётов об эффективности",
+                "templates_placeholders_performance": "Доступные переменные: {forum_title}, {forum_url}, {owner_name}, {owner_username}, {ad_count}, {total_impressions}, {total_clicks}, {ctr}, {ad_lines}. Оставьте пустым, чтобы использовать шаблон по умолчанию.",
+                "performance_subject_template": "Шаблон темы",
+                "performance_body_template": "Шаблон письма"
+            },
+            "cancel": "Отменить",
+            "save": "Сохранить",
+            "permissions": {
+                "submit_ad": "Размещение рекламы",
+                "no_ads": "Без рекламы — скрыть всю рекламу"
+            },
+            "zones": {
+                "title": "Рекламные зоны",
+                "create": "Создать зону",
+                "edit": "Править зону",
+                "name": "Название зоны",
+                "name_help": "Уникальный идентификатор в нижнем регистре, без пробелов. Используется в тегах зоны.",
+                "label": "Отображаемое название",
+                "description": "Описание",
+                "position": "Позиция",
+                "is_active": "Активна",
+                "sort_order": "Порядок сортировки",
+                "max_width": "Максимальная ширина (px)",
+                "max_height": "Максимальная высота (px)",
+                "display_mode": "Режим отображения",
+                "display_mode_help": "«Ротация» — показывает одно случайное объявление при каждой загрузке страницы. «Стопка» — показывает все объявления зоны сразу.",
+                "display_modes": {
+                    "rotate": "Ротация",
+                    "stack": "Показывать все"
+                },
+                "default_badge": "По умолчанию",
+                "ads_count": "Объявления",
+                "dimensions": "Размеры",
+                "confirm_delete": "Удалить эту зону? Все объявления в ней тоже будут удалены.",
+                "zone_tag": "Тег зоны: {tag}",
+                "shortcode_title": "Шорткод для поста:",
+                "shortcode_help": "Вставьте этот тег в сообщение или дискуссию, чтобы вывести рекламу из выбранной зоны прямо в тексте.",
+                "positions": {
+                    "header": "Шапка",
+                    "below_header": "Под шапкой",
+                    "between_posts": "Между сообщениями",
+                    "sidebar": "Боковая панель",
+                    "above_footer": "Над подвалом",
+                    "footer": "Подвал",
+                    "custom": "Произвольно"
+                }
+            },
+            "ads": {
+                "title": "Объявления",
+                "create": "Создать объявление",
+                "edit": "Править объявление",
+                "name": "Название объявления",
+                "type": "Тип объявления",
+                "zone": "Зона",
+                "select_zone": "Выберите зону…",
+                "content": "HTML/JS-контент",
+                "content_help": "Для HTML и AdSense. Вставьте сюда код объявления.",
+                "image_url": "URL изображения",
+                "link_url": "URL ссылки",
+                "alt_text": "Альтернативный текст",
+                "width": "Ширина (px)",
+                "height": "Высота (px)",
+                "is_active": "Активно",
+                "start_date": "Дата начала",
+                "end_date": "Дата окончания",
+                "priority": "Приоритет",
+                "priority_help": "Объявления с более высоким приоритетом показываются первыми. По умолчанию — 0.",
+                "group_visibility": "Видимость по группам",
+                "group_visibility_help": "ID групп через запятую. Оставьте пустым, чтобы показывать всем.",
+                "max_impressions": "Максимальное количество показов",
+                "max_impressions_help": "Объявление отключится после указанного числа показов. Оставьте пустым, чтобы не ограничивать.",
+                "max_clicks": "Максимальное количество кликов",
+                "max_clicks_help": "Объявление будет отключено после указанного числа кликов. Оставьте пустым, чтобы не ограничивать.",
+                "max_image_changes": "Максимальное количество изменений изображения",
+                "owner": "Владелец объявления",
+                "owner_help": "Имя пользователя владельца объявления. Оставьте пустым, если владелец не указан.",
+                "empty": "Объявления не найдены.",
+                "confirm_delete": "Удалить это объявление?",
+                "status": "Статус",
+                "pending_badge": "На проверке ({count})",
+                "approve": "Одобрить",
+                "reject": "Отклонить",
+                "approve_image": "Подтвердить изменение изображения",
+                "reject_image": "Отклонить изменение изображения",
+                "pending_image_badge": "Изображение на проверке",
+                "statuses": {
+                    "active": "Активно",
+                    "inactive": "Неактивно",
+                    "pending_review": "На проверке",
+                    "rejected": "Отклонено"
+                },
+                "filter": {
+                    "all": "Все",
+                    "active": "Активные",
+                    "pending_review": "На проверке",
+                    "inactive": "Неактивные",
+                    "rejected": "Отклонённые"
+                },
+                "types": {
+                    "image": "Изображение",
+                    "html": "HTML",
+                    "adsense": "Google AdSense"
+                },
+                "stats": {
+                    "impressions": "Показы",
+                    "clicks": "Клики",
+                    "ctr": "CTR"
+                }
+            },
+            "analytics": {
+                "title": "Аналитика",
+                "select_ad": "Выберите объявление…",
+                "period": "Период",
+                "periods": {
+                    "7d": "Последние 7 дней",
+                    "30d": "Последние 30 дней",
+                    "90d": "Последние 90 дней"
+                },
+                "total_impressions": "Общее количество показов за всё время",
+                "total_clicks": "Общее количество кликов за всё время",
+                "period_clicks": "Клики за период",
+                "ctr": "Коэффициент кликабельности",
+                "clicks_by_day": "Клики по дням",
+                "date": "Дата",
+                "clicks_header": "Клики",
+                "no_data": "Нет данных за выбранный период."
+            }
+        },
+        "forum": {
+            "nav": {
+                "my_ads": "Мои объявления"
+            },
+            "ads": {
+                "name": "Название объявления",
+                "zone": "Зона",
+                "select_zone": "Выберите зону…",
+                "image_url": "URL изображения",
+                "link_url": "URL ссылки",
+                "alt_text": "Альтернативный текст"
+            },
+            "page": {
+                "title": "Мои объявления",
+                "empty": "У вас пока нет объявлений.",
+                "stats": "Статистика",
+                "impressions": "{count} показов",
+                "clicks": "{count} кликов",
+                "ctr": "{value}% CTR",
+                "edit_image": "Сменить изображение",
+                "image_changes_remaining": "Осталось изменений изображения: {count}",
+                "no_changes_remaining": "Изменения изображения закончились",
+                "submit_ad": "Отправить объявление",
+                "submit_pending_notice": "Объявление будет проверено администратором перед публикацией.",
+                "cancel": "Отменить",
+                "status": {
+                    "active": "Активно",
+                    "inactive": "Неактивно",
+                    "scheduled": "Запланировано",
+                    "expired": "Истекло",
+                    "pending": "На проверке",
+                    "rejected": "Отклонено"
+                }
+            },
+            "ad": {
+                "sponsored": "Реклама"
+            }
+        }
+    }
+}

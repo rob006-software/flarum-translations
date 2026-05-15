@@ -42,7 +42,13 @@
                 "slug_driver_text": "Vælg en driver, der skal bruges til at slugge denne model.",
                 "title": "Grundlæggende",
                 "welcome_banner_heading": "Velkommen banner",
-                "welcome_banner_text": "Vælg den tekst, der vises i banneret på siden Alle diskussioner. Brug dette til at byde gæster velkommen til dit forum."
+                "welcome_banner_text": "Vælg den tekst, der vises i banneret på siden Alle diskussioner. Brug dette til at byde gæster velkommen til dit forum.",
+                "abandoned_extensions_heading": "",
+                "abandoned_extensions_text": "",
+                "abandoned_extensions_sync_button": "",
+                "abandoned_extensions_sync_success": "",
+                "abandoned_extensions_sync_error": "",
+                "abandoned_extensions_notify_admins_label": ""
             },
             "create_user": {
                 "email_placeholder": "",
@@ -53,6 +59,20 @@
                 "title": "",
                 "use_random_password": "",
                 "username_placeholder": ""
+            },
+            "announcements": {
+                "comments_label": "",
+                "description": "",
+                "empty": "",
+                "load_error": "",
+                "about": "",
+                "hide": "",
+                "read_more": "",
+                "refresh": "",
+                "retry": "",
+                "show": "",
+                "title": "",
+                "view_all": ""
             },
             "dashboard": {
                 "clear_cache_button": "Ryd cache",
@@ -182,6 +202,7 @@
                     "discussion": "Diskussion",
                     "feature": "Funktioner",
                     "formatting": "Formatering",
+                    "forum-widget": "",
                     "language": "Sprog",
                     "moderation": "Moderering",
                     "other": "Andre udvidelser",
@@ -705,6 +726,12 @@
             "send_test": {
                 "subject": "Flarum Email Test",
                 "body": "Hej {username}!\n\nDette er en test-e-mail for at bekræfte, at din Flarum-e-mail-konfiguration fungerer korrekt.\n\nHvis dette var dig, betyder denne e-mail, at din konfiguration virker!\n\nHvis dette ikke var dig, bedes du ignorere denne e-mail.\n"
+            },
+            "abandoned_extensions": {
+                "subject": "",
+                "body": "",
+                "line_with_replacement": "",
+                "line_no_replacement": ""
             }
         },
         "ref": {

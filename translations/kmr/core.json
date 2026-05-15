@@ -42,7 +42,13 @@
                 "slug_driver_text": "Vebijêrkek hilbijêre ku ji bo slugging li ser vê modelê bikar bînin.",
                 "title": "zanîna bingehîn",
                 "welcome_banner_heading": "Peyama Ku Hûn Bi Xêr Hatin",
-                "welcome_banner_text": "Nivîsara ku di pankarta li ser rûpela Hemî Nîqaşan de were xuyang kirin mîheng bikin. Vê bikar bînin ku hûn mêvanan li foruma xwe pêşwazî bikin."
+                "welcome_banner_text": "Nivîsara ku di pankarta li ser rûpela Hemî Nîqaşan de were xuyang kirin mîheng bikin. Vê bikar bînin ku hûn mêvanan li foruma xwe pêşwazî bikin.",
+                "abandoned_extensions_heading": "",
+                "abandoned_extensions_text": "",
+                "abandoned_extensions_sync_button": "",
+                "abandoned_extensions_sync_success": "",
+                "abandoned_extensions_sync_error": "",
+                "abandoned_extensions_notify_admins_label": ""
             },
             "create_user": {
                 "email_placeholder": "=> core.ref.email",
@@ -53,6 +59,20 @@
                 "title": "Bikarhênerek nû biafirîne",
                 "use_random_password": "Şîfreya rasthatî biafirîne",
                 "username_placeholder": "=> core.ref.username"
+            },
+            "announcements": {
+                "comments_label": "",
+                "description": "",
+                "empty": "",
+                "load_error": "",
+                "about": "",
+                "hide": "",
+                "read_more": "",
+                "refresh": "",
+                "retry": "",
+                "show": "",
+                "title": "",
+                "view_all": ""
             },
             "dashboard": {
                 "clear_cache_button": "Pêşbîrê paqij bike",
@@ -182,6 +202,7 @@
                     "discussion": "Nîqaş",
                     "feature": "Taybetmendiyên",
                     "formatting": "Sêwandin",
+                    "forum-widget": "",
                     "language": "Ziman",
                     "moderation": "Lihevkirin",
                     "other": "Niçikên din",
@@ -705,6 +726,12 @@
             "send_test": {
                 "subject": "Testa E-nameyê Flarum",
                 "body": "Hey {username}!\n\nEv e-nameyek ceribandinê ye ku piştrast bike ku veavakirina e-nameya Flarum we bi rêkûpêk dixebite.\n\nGer ev hûn bûn, ev e-name tê vê wateyê ku veavakirina we dixebite!\n\nGer ev ne hûn bûn, ji kerema xwe vê e-nameyê paşguh nekin.\n"
+            },
+            "abandoned_extensions": {
+                "subject": "",
+                "body": "",
+                "line_with_replacement": "",
+                "line_no_replacement": ""
             }
         },
         "ref": {

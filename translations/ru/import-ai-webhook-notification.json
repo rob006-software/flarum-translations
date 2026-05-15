@@ -2,29 +2,29 @@
     "import-ai-webhook-notification": {
         "forum": {
             "settings": {
-                "notify_webhook_label": ""
+                "notify_webhook_label": "Вебхук"
             }
         },
         "admin": {
             "settings": {
-                "webhook_url_label": "",
-                "webhook_url_help": "",
-                "webhook_token_label": "",
-                "webhook_token_help": "",
-                "timeout_label": "",
-                "timeout_help": "",
-                "retry_count_label": "",
-                "retry_count_help": "",
-                "channel_icon_label": "",
-                "channel_icon_help": "",
-                "channel_label_label": "",
-                "channel_label_help": ""
+                "webhook_url_label": "URL вебхука",
+                "webhook_url_help": "URL для отправки уведомлений через вебхук. Оставьте пустым, чтобы отключить.",
+                "webhook_token_label": "Токен Bearer",
+                "webhook_token_help": "Необязательный Bearer-токен для заголовка Authorization.",
+                "timeout_label": "Тайм-аут (в секундах)",
+                "timeout_help": "Тайм-аут запроса в секундах. По умолчанию: 30.",
+                "retry_count_label": "Количество повторных попыток",
+                "retry_count_help": "Количество попыток при ошибке. По умолчанию: 3.",
+                "channel_icon_label": "Иконка канала",
+                "channel_icon_help": " Класс иконки. Например, fas fa-globe.",
+                "channel_label_label": "Название канала",
+                "channel_label_help": "Отображаемое имя канала уведомлений в настройках пользователя."
             },
             "validation": {
-                "timeout_invalid": "",
-                "retry_count_invalid": "",
-                "channel_icon_invalid": "",
-                "channel_label_required": ""
+                "timeout_invalid": "Тайм-аут должен быть от 1 до 300 секунд.",
+                "retry_count_invalid": "Количество повторных попыток должно быть от 0 до 10.",
+                "channel_icon_invalid": "Неверный формат иконки. Используйте формат Font Awesome. Например, fas fa-globe.",
+                "channel_label_required": "Название канала обязательно, если указана иконка."
             }
         }
     }

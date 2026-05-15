@@ -2,34 +2,34 @@
     "datlechin-ai": {
         "admin": {
             "settings": {
-                "provider_label": "",
-                "provider_openai": "",
-                "provider_gemini": "",
-                "provider_anthropic": "",
-                "api_key_label": "",
-                "api_key_placeholder": "",
-                "base_url_label": "",
-                "base_url_placeholder": "",
-                "text_model_label": "",
-                "embeddings_model_label": "",
-                "moderation_model_label": "",
-                "custom_model_label": "",
-                "custom_model_placeholder": "",
-                "custom_base_url_label": "",
-                "test_text_button": "",
-                "test_embeddings_button": "",
-                "test_moderation_button": "",
-                "test_success": "",
-                "test_failed": ""
+                "provider_label": "Pružatelj AI usluge",
+                "provider_openai": "OpenAI",
+                "provider_gemini": "Google Gemini",
+                "provider_anthropic": "Anthropic",
+                "api_key_label": "API ključ ({provider})",
+                "api_key_placeholder": "Unesite svoj {provider} API ključ",
+                "base_url_label": "Osnovni URL (opcionalno)",
+                "base_url_placeholder": "Ostavite prazno za zadano",
+                "text_model_label": "Tekstualni / Chat model",
+                "embeddings_model_label": "Model za vektorsko pretraživanje",
+                "moderation_model_label": "Model za moderaciju",
+                "custom_model_label": "Prilagođeni naziv modela",
+                "custom_model_placeholder": "Unesite prilagođeni naziv modela",
+                "custom_base_url_label": "Prilagođeni osnovni URL",
+                "test_text_button": "Isprobaj tekstualni model",
+                "test_embeddings_button": "Isprobaj model za pretraživanje",
+                "test_moderation_button": "Isprobaj moderaciju",
+                "test_success": "Ispitivanje uspješno!",
+                "test_failed": "Ispitivanje neuspješno: {error}"
             }
         },
         "forum": {
-            "ai_search_placeholder": ""
+            "ai_search_placeholder": "Pretraži s AI-jem..."
         },
         "permissions": {
-            "generate": "",
-            "embed": "",
-            "moderate": ""
+            "generate": "Stvori tekst pomoću AI-ja",
+            "embed": "Stvori vektorske zapise",
+            "moderate": "Koristi AI moderaciju"
         }
     }
 }

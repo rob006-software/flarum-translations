@@ -11,8 +11,8 @@
                     "helptext": "Foruma zaten yüklenmiş olan özel avatarları bir Cravatar ile değiştir"
                 },
                 "allow-user-toggle": {
-                    "title": "",
-                    "helptext": ""
+                    "title": "Kullanıcıların Cravatar ile yüklenen avatarlar arasında geçiş yapabilmelerini sağlayın",
+                    "helptext": "Bu özellik etkinleştirildiğinde, kullanıcılar Cravatar resimlerini ya da foruma yükledikleri avatarı kullanmayı seçebilirler."
                 },
                 "defaults": {
                     "title": "Varsayılanlar",
@@ -41,8 +41,8 @@
         "forum": {
             "settings": {
                 "edit-cravatar": "cravatar.cn üzerinde avatar yönetimi",
-                "use-cravatar": "",
-                "use-uploaded": ""
+                "use-cravatar": "Cravatar avatarını kullan",
+                "use-uploaded": "Yüklenen avatarı kullan"
             }
         }
     }

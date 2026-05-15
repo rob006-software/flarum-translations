@@ -44,6 +44,12 @@
                 "title": "Základy",
                 "welcome_banner_heading": "Uvítací Baner",
                 "welcome_banner_text": "Vyberte textové tablo, ktoré sa zobrazí na vrchole stránky \"Všetky Diskusie\". Využite to pre privítanie Vašich používateľov.",
+                "abandoned_extensions_heading": "",
+                "abandoned_extensions_text": "",
+                "abandoned_extensions_sync_button": "",
+                "abandoned_extensions_sync_success": "",
+                "abandoned_extensions_sync_error": "",
+                "abandoned_extensions_notify_admins_label": "",
                 "saved_message": "Tvoje zmeny boli uložené.",
                 "submit_button": "=> core.ref.save_changes"
             },
@@ -56,6 +62,20 @@
                 "title": "Vytvoriť nového používateľa",
                 "use_random_password": "Vygenerovať náhodné heslo",
                 "username_placeholder": "=> core.ref.username"
+            },
+            "announcements": {
+                "comments_label": "",
+                "description": "",
+                "empty": "",
+                "load_error": "",
+                "about": "",
+                "hide": "",
+                "read_more": "",
+                "refresh": "",
+                "retry": "",
+                "show": "",
+                "title": "",
+                "view_all": ""
             },
             "dashboard": {
                 "clear_cache_button": "Vymazať Vyrovnávaciu Pamäť",
@@ -189,6 +209,7 @@
                     "discussion": "Diskusia",
                     "feature": "Funkcie",
                     "formatting": "Formátovanie",
+                    "forum-widget": "",
                     "language": "Jazyky",
                     "moderation": "Moderovanie",
                     "other": "Ostatné Doplnky",
@@ -728,6 +749,12 @@
             "send_test": {
                 "subject": "Flarum Testovací Mail",
                 "body": "Ahoj {username}!\n\nToto je testovací mail od Flarum, aby ste sa uistili že všetko funguje tak ako má.\n\nAk ste to Vy, tak to znamená že Vaše E-mailové nastavenia fungujú správne!\n\nAk ste to neboli Vy, prosím odignorujte tento E-mail.\n"
+            },
+            "abandoned_extensions": {
+                "subject": "",
+                "body": "",
+                "line_with_replacement": "",
+                "line_no_replacement": ""
             }
         },
         "ref": {

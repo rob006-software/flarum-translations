@@ -59,9 +59,9 @@
                 "total_votes": ""
             },
             "poll_controls": {
-                "edit_label": "",
-                "delete_label": "",
-                "view_label": "",
+                "edit_label": "=> core.ref.edit",
+                "delete_label": "=> core.ref.delete",
+                "view_label": "=> core.ref.view",
                 "delete_confirmation": "",
                 "delete_success_message": "",
                 "delete_error_message": ""
@@ -74,7 +74,7 @@
                 "composer": {
                     "add_title": "",
                     "edit_title": "",
-                    "save_changes": "",
+                    "save_changes": "=> core.ref.save_changes",
                     "delete": "",
                     "groups_manager": "",
                     "view_group": "",
@@ -85,15 +85,15 @@
                     "start_poll_group_button": "",
                     "cannot_start_poll_group_button": "",
                     "empty_text": "",
-                    "load_more_button": "",
+                    "load_more_button": "=> core.ref.load_more",
                     "no_polls": "",
                     "add_poll_button": ""
                 },
                 "controls": {
                     "add_poll_label": "",
-                    "edit_label": "",
+                    "edit_label": "=> core.ref.edit",
                     "view_label": "",
-                    "delete_label": "",
+                    "delete_label": "=> core.ref.delete",
                     "delete_confirmation": "",
                     "delete_success_message": "",
                     "delete_error_message": ""
@@ -104,7 +104,7 @@
             },
             "polls_list": {
                 "empty_text": "",
-                "load_more_button": "",
+                "load_more_button": "=> core.ref.load_more",
                 "sort_dropdown": {
                     "newest": "",
                     "oldest": "",
@@ -116,7 +116,7 @@
                 }
             },
             "composer_discussion": {
-                "add_poll": "اضافه کردن نظرسنجی",
+                "add_poll": "=> fof-polls.forum.moderation.add",
                 "edit_poll": "",
                 "no_permission_alert": ""
             },
@@ -150,8 +150,8 @@
                 "question_placeholder": "سوال",
                 "subtitle_placeholder": "",
                 "submit": "ارسال",
-                "delete": "",
-                "error": "",
+                "delete": "=> core.ref.delete",
+                "error": "=> core.lib.error.generic_message",
                 "poll_image": {
                     "label": "",
                     "help": "",

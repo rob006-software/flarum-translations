@@ -42,7 +42,13 @@
                 "slug_driver_text": "Wählen Sie den Treiber, welcher die Foren-URLs mit einem \"Slug\" ausstattet.",
                 "title": "Grundeinstellungen",
                 "welcome_banner_heading": "Willkommensnachricht",
-                "welcome_banner_text": "Legen Sie den Text fest, der auf der Seite \"Alle Diskussionen\" erscheint, um Besucher zu begrüßen."
+                "welcome_banner_text": "Legen Sie den Text fest, der auf der Seite \"Alle Diskussionen\" erscheint, um Besucher zu begrüßen.",
+                "abandoned_extensions_heading": "Verwaiste Erweiterungen",
+                "abandoned_extensions_text": "Flarum führt eine <a>Community-Liste verwaister Erweiterungen</a>. Wenn eine installierte Erweiterung auf dieser Liste erscheint, wird sie im Admin-Panel markiert.",
+                "abandoned_extensions_sync_button": "Jetzt prüfen",
+                "abandoned_extensions_sync_success": "Liste der verwaisten Erweiterungen wurde aktualisiert. {count} installierte Erweiterung(en) wurden gefunden.",
+                "abandoned_extensions_sync_error": "Das Abrufen der Liste verwaister Erweiterungen ist fehlgeschlagen. Bitte versuchen Sie es später erneut.",
+                "abandoned_extensions_notify_admins_label": "Administratoren per E-Mail benachrichtigen, wenn bei der wöchentlichen Prüfung eine neue verwaiste Erweiterung erkannt wird"
             },
             "create_user": {
                 "email_placeholder": "=> core.ref.email",
@@ -53,6 +59,20 @@
                 "title": "Neuen Benutzer anlegen",
                 "use_random_password": "Zufälliges Passwort erzeugen",
                 "username_placeholder": "=> core.ref.username"
+            },
+            "announcements": {
+                "comments_label": "{count, plural, one {# Kommentar} other {# Kommentare}}",
+                "description": "Aktuelle Neuigkeiten und Ankündigungen des Flarum-Teams.",
+                "empty": "Keine Ankündigungen gefunden.",
+                "load_error": "Die Ankündigungen konnten nicht geladen werden. Bitte versuchen Sie es später erneut.",
+                "about": "Aktuelle Nachrichten und Ankündigungen aus der offiziellen Flarum-Community unter discuss.flarum.org.",
+                "hide": "Ankündigungen ausblenden",
+                "read_more": "Weiterlesen",
+                "refresh": "Ankündigungen aktualisieren",
+                "retry": "Erneut versuchen",
+                "show": "Ankündigungen anzeigen",
+                "title": "Ankündigungen",
+                "view_all": "Alle auf discuss.flarum.org anzeigen"
             },
             "dashboard": {
                 "clear_cache_button": "Cache leeren",
@@ -183,6 +203,7 @@
                     "discussion": "Diskussion",
                     "feature": "Funktionen",
                     "formatting": "Formatierung",
+                    "forum-widget": "Forum-Widgets",
                     "language": "Sprachen",
                     "moderation": "Moderation",
                     "other": "Sonstige Erweiterungen",
@@ -659,7 +680,7 @@
                 "csrf_token_mismatch_return_link": "Bitte gehen Sie zurück und versuchen Sie es erneut",
                 "invalid_confirmation_token": "Der Bestätigungslink wurde bereits verwendet oder ist ungültig.",
                 "not_authenticated": "Sie haben keine Berechtigung, auf diese Seite zuzugreifen. Bitte versuchen Sie sich erneut anzumelden.",
-                "method_not_allowed": "",
+                "method_not_allowed": "Diese Seite unterstützt diese Anforderungsmethode nicht.",
                 "not_found": "Die angeforderte Seite konnte nicht gefunden werden.",
                 "not_found_return_link": "Zurück zu {forum}",
                 "permission_denied": "Sie haben keine Berechtigung, auf diese Seite zuzugreifen.",
@@ -706,6 +727,12 @@
             "send_test": {
                 "subject": "Flarum E-Mail Test",
                 "body": "Sehr geehrte/r {username},\n\ndies ist eine Test-E-Mail zur Überprüfung, ob Ihre Flarum-E-Mail-Konfiguration korrekt funktioniert.\n\nFalls Sie es waren, dann zeigt diese E-Mail an, dass Ihre Konfiguration funktioniert.\n\nFalls Sie es nicht waren, ignorieren Sie bitte diese E-Mail.\n"
+            },
+            "abandoned_extensions": {
+                "subject": "Aktion erforderlich: Verwaiste Erweiterung(en) erkannt",
+                "body": "Hallo {username},\n\nDie folgenden installierte(n) Erweiterung(en) wurden als verwaist markiert:\n\n{extensions}\n\nBitte überprüfen Sie diese Erweiterungen und erwägen Sie den Wechsel zu Alternativen, sofern verfügbar.\n",
+                "line_with_replacement": "- {package} (empfohlener Ersatz: {replacement})",
+                "line_no_replacement": "- {package} (kein Ersatz verfügbar)"
             }
         },
         "ref": {

@@ -2,35 +2,35 @@
     "core": {
         "admin": {
             "appearance": {
-                "colored_header_label": "",
-                "colors_heading": "",
-                "colors_primary_label": "",
-                "colors_secondary_label": "",
-                "colors_text": "",
-                "custom_footer_heading": "",
+                "colored_header_label": "Encabezado de Color",
+                "colors_heading": "Colores",
+                "colors_primary_label": "Color Primario",
+                "colors_secondary_label": "Color Secundario",
+                "colors_text": "Elegí dos colores para personalizar la tematica de tu foro. El primero va a ser usado como color de resaltado mientras que el segundo va a ser utilizado para dar estilo a los elementos de fondo.",
+                "custom_footer_heading": "Pie de Pagina Personalizado",
                 "custom_footer_text": "",
-                "custom_header_heading": "",
+                "custom_header_heading": "Encabezado Personalizado",
                 "custom_header_text": "",
                 "custom_styles_cannot_use_less_features": "",
                 "custom_styles_heading": "",
                 "custom_styles_text": "",
-                "dark_mode_label": "",
-                "description": "",
-                "edit_css_button": "",
+                "dark_mode_label": "Modo Oscuro",
+                "description": "Personalizá los colores, logos y otras variables de tu foro.",
+                "edit_css_button": "Editá el CSS personalizado",
                 "edit_footer_button": "",
                 "edit_header_button": "",
-                "enter_hex_message": "",
-                "favicon_heading": "",
-                "favicon_text": "",
+                "enter_hex_message": "Ingresá un color en forma hexadecimal porfavor.",
+                "favicon_heading": "Favicon",
+                "favicon_text": "Subí una imagen para que sea mostrada como el icono de acceso directo del foro.",
                 "logo_heading": "",
-                "logo_text": "",
-                "title": ""
+                "logo_text": "Subí una imagen para que sea mostrada en lugar del titulo del foro.",
+                "title": "Apariencia"
             },
             "basics": {
                 "all_discussions_label": "",
-                "default_language_heading": "",
-                "description": "",
-                "display_name_heading": "",
+                "default_language_heading": "Lenguaje por defecto",
+                "description": "Configurá el título de tu foro, el lenguaje y otras configuraciones básicas.",
+                "display_name_heading": "Nombre visible del usuario",
                 "display_name_text": "",
                 "forum_description_heading": "",
                 "forum_description_text": "",
@@ -42,7 +42,13 @@
                 "slug_driver_text": "",
                 "title": "",
                 "welcome_banner_heading": "",
-                "welcome_banner_text": ""
+                "welcome_banner_text": "",
+                "abandoned_extensions_heading": "",
+                "abandoned_extensions_text": "",
+                "abandoned_extensions_sync_button": "",
+                "abandoned_extensions_sync_success": "",
+                "abandoned_extensions_sync_error": "",
+                "abandoned_extensions_notify_admins_label": ""
             },
             "create_user": {
                 "email_placeholder": "",
@@ -53,6 +59,20 @@
                 "title": "",
                 "use_random_password": "",
                 "username_placeholder": ""
+            },
+            "announcements": {
+                "comments_label": "",
+                "description": "",
+                "empty": "",
+                "load_error": "",
+                "about": "",
+                "hide": "",
+                "read_more": "",
+                "refresh": "",
+                "retry": "",
+                "show": "",
+                "title": "",
+                "view_all": ""
             },
             "dashboard": {
                 "clear_cache_button": "",
@@ -182,6 +202,7 @@
                     "discussion": "",
                     "feature": "",
                     "formatting": "",
+                    "forum-widget": "",
                     "language": "",
                     "moderation": "",
                     "other": "",
@@ -705,6 +726,12 @@
             "send_test": {
                 "subject": "",
                 "body": ""
+            },
+            "abandoned_extensions": {
+                "subject": "",
+                "body": "",
+                "line_with_replacement": "",
+                "line_no_replacement": ""
             }
         },
         "ref": {

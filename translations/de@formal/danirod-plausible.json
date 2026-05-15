@@ -3,7 +3,7 @@
         "admin": {
             "validation": {
                 "domain": {
-                    "required": "",
+                    "required": "Eine Domain muss angegeben werden",
                     "regex": ""
                 },
                 "proxy_domain": {

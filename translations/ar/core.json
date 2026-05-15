@@ -42,7 +42,13 @@
                 "slug_driver_text": "حدد برنامج تشغيل لاستخدامه في تباطؤ هذا النموذج.",
                 "title": "الأساسيّات",
                 "welcome_banner_heading": "بانر ترحيبى",
-                "welcome_banner_text": "قم بتكوين النّص الذي يتمّ عرضه في الشّعار في صفحة \"كافّة المناقشات\". استخدم هذا للتّرحيب بالضّيوف في منتداك."
+                "welcome_banner_text": "قم بتكوين النّص الذي يتمّ عرضه في الشّعار في صفحة \"كافّة المناقشات\". استخدم هذا للتّرحيب بالضّيوف في منتداك.",
+                "abandoned_extensions_heading": "",
+                "abandoned_extensions_text": "",
+                "abandoned_extensions_sync_button": "",
+                "abandoned_extensions_sync_success": "",
+                "abandoned_extensions_sync_error": "",
+                "abandoned_extensions_notify_admins_label": ""
             },
             "create_user": {
                 "email_placeholder": "",
@@ -53,6 +59,20 @@
                 "title": "إنشاء مستخدم جديد",
                 "use_random_password": "إنشاء كلمة سر عشوائية",
                 "username_placeholder": "=> core.ref.username"
+            },
+            "announcements": {
+                "comments_label": "",
+                "description": "",
+                "empty": "",
+                "load_error": "",
+                "about": "",
+                "hide": "",
+                "read_more": "",
+                "refresh": "",
+                "retry": "",
+                "show": "",
+                "title": "",
+                "view_all": ""
             },
             "dashboard": {
                 "clear_cache_button": "مسح ذاكرة التخزين المؤقت",
@@ -182,6 +202,7 @@
                     "discussion": "مناقشة",
                     "feature": "سمات",
                     "formatting": "تنسيق",
+                    "forum-widget": "",
                     "language": "اللغات",
                     "moderation": "الاعتدال",
                     "other": "ملحقات أخرى",
@@ -707,6 +728,12 @@
             "send_test": {
                 "subject": "اختبار البريد الإلكتروني الخاص بفلاروم",
                 "body": "مرحبا {username} ! \n \nهذا بريد إلكتروني تجريبي للتأكد من أن إعدادات فلاروم تعمل بشكل صحيح. \n \nإذا كنت أنت، فهذا البريد الإلكتروني يعني أن الإعداد الخاص بك يعمل بنجاح. \n \nإذا لم تكن أنت، يرجى تجاهل هذا البريد الإلكتروني.\n"
+            },
+            "abandoned_extensions": {
+                "subject": "",
+                "body": "",
+                "line_with_replacement": "",
+                "line_no_replacement": ""
             }
         },
         "ref": {

@@ -42,7 +42,13 @@
                 "slug_driver_text": "選擇此模組的 URL 驅動。",
                 "title": "一般",
                 "welcome_banner_heading": "歡迎橫幅",
-                "welcome_banner_text": "橫幅文字將顯示於「全部貼文」頁面頂部，用以歡迎新到訪的遊客。"
+                "welcome_banner_text": "橫幅文字將顯示於「全部貼文」頁面頂部，用以歡迎新到訪的遊客。",
+                "abandoned_extensions_heading": "",
+                "abandoned_extensions_text": "",
+                "abandoned_extensions_sync_button": "",
+                "abandoned_extensions_sync_success": "",
+                "abandoned_extensions_sync_error": "",
+                "abandoned_extensions_notify_admins_label": ""
             },
             "create_user": {
                 "email_placeholder": "=> core.ref.email",
@@ -53,6 +59,20 @@
                 "title": "建立新用戶",
                 "use_random_password": "產生隨機密碼",
                 "username_placeholder": "=> core.ref.username"
+            },
+            "announcements": {
+                "comments_label": "",
+                "description": "",
+                "empty": "",
+                "load_error": "",
+                "about": "",
+                "hide": "",
+                "read_more": "",
+                "refresh": "",
+                "retry": "",
+                "show": "",
+                "title": "",
+                "view_all": ""
             },
             "dashboard": {
                 "clear_cache_button": "清除快取",
@@ -182,6 +202,7 @@
                     "discussion": "主題",
                     "feature": "功能",
                     "formatting": "格式化",
+                    "forum-widget": "",
                     "language": "語言包",
                     "moderation": "內容審核",
                     "other": "其他",
@@ -705,6 +726,12 @@
             "send_test": {
                 "subject": "Flarum 郵件測試",
                 "body": "{username}，您好！\n\n這是一個測試郵件，用於測試您的郵箱設置是否正確。\n\n若是您本人發送了測試郵件，那麼恭喜，這代表您的設置有正常運作！\n\n若非您本人發送測試郵件，請忽略此內容。\n"
+            },
+            "abandoned_extensions": {
+                "subject": "",
+                "body": "",
+                "line_with_replacement": "",
+                "line_no_replacement": ""
             }
         },
         "ref": {

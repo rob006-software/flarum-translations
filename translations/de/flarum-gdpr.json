@@ -156,9 +156,9 @@
                 "confirm": "Bist du sicher, dass du das Konto von {name} unter dem {mode}-Modus löschen möchtest?",
                 "title": "Löschantrag bearbeiten",
                 "text": "{name} hat die Löschung seines Kontos beantragt.",
-                "requested_at": "",
-                "confirmed_at": "",
-                "eligible_at": "",
+                "requested_at": "Angefordert: {date}",
+                "confirmed_at": "Bestätigt: {date}",
+                "eligible_at": "Für die automatische Verarbeitung geeignet: {date}",
                 "comments_label": "Kommentare (optional)",
                 "anonymization_button": "Benutzer anonymisieren",
                 "deletion_button": "Benutzer löschen"

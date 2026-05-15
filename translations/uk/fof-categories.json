@@ -2,54 +2,54 @@
     "fof-categories": {
         "admin": {
             "basics": {
-                "categories_label": ""
+                "categories_label": "Категорії"
             },
             "labels": {
-                "keep_tags_nav": "",
-                "child_bare_icon": "",
-                "compact_mobile_mode": "",
-                "full_page_desktop": "",
-                "parent_remove_icon": "",
-                "parent_remove_description": "",
-                "parent_remove_stats": "",
-                "parent_remove_last_discussion": "",
-                "small_forum_optimized": ""
+                "keep_tags_nav": "Залишити посилання на сторінку тегів у бічній навігаційній панелі?",
+                "child_bare_icon": "Прості дочірні іконки?",
+                "compact_mobile_mode": "Компактний мобільний режим",
+                "full_page_desktop": "Повна версія для настільних ПК?",
+                "parent_remove_icon": "Приховати іконки для тегів верхнього рівня?",
+                "parent_remove_description": "Приховати описи тегів верхнього рівня?",
+                "parent_remove_stats": "Приховати статистику для тегів верхнього рівня?",
+                "parent_remove_last_discussion": "Приховати найновіші обговорення для тегів верхнього рівня?",
+                "small_forum_optimized": "Оптимізувати для невеликих форумів?"
             },
             "help": {
-                "child_bare_icon": "",
-                "full_page_desktop": "",
-                "small_forum_optimized": ""
+                "child_bare_icon": "Чи слід відображати піктограми підкатегорій без круглого фону?",
+                "full_page_desktop": "Чи слід згорнути бічне навігаційне меню в один рядок (як на традиційній сторінці тегів)? Це також приховає віджети (такі як «Друзі Flarum» та «Статистика форуму») з навігаційної панелі сторінки категорій.",
+                "small_forum_optimized": "Це забезпечить більш точний підрахунок кількості обговорень/повідомлень, але значно уповільнить роботу середніх і великих форумів."
             },
             "headings": {
-                "nav": "",
-                "layout": "",
-                "parent_display": "",
-                "child_display": "",
-                "performance": ""
+                "nav": "Навігація",
+                "layout": "Шар",
+                "parent_display": "Показати батьківську категорію",
+                "child_display": "Показати дочірню категорію",
+                "performance": "Продуктивність"
             },
-            "title": ""
+            "title": "Налаштування категорій"
         },
         "forum": {
             "all_categories": {
-                "meta_description_text": "",
-                "meta_title_text": ""
+                "meta_description_text": "Всі категорії",
+                "meta_title_text": "=> fof-categories.ref.categories"
             },
             "header": {
-                "back_to_categories_tooltip": ""
+                "back_to_categories_tooltip": "До категорій"
             },
             "index": {
-                "categories_link": ""
+                "categories_link": "=> fof-categories.ref.categories"
             },
             "stat-widgets": {
-                "discussion_label": "",
-                "post_label": ""
+                "discussion_label": "Дискусії",
+                "post_label": "Дописи"
             },
             "last_discussion_widget": {
-                "no_discussions": ""
+                "no_discussions": "Поки що немає обговорень!"
             }
         },
         "ref": {
-            "categories": ""
+            "categories": "Категорії"
         }
     }
 }

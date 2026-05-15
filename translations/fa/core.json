@@ -44,6 +44,12 @@
                 "title": "پایه‌ای",
                 "welcome_banner_heading": "بنر خوش‌آمد گویی",
                 "welcome_banner_text": "متن نمایش داده شده در بنر را در صفحه همه بحث ها پیکربندی کنید. برای خوش آمدگویی به میهمانان در انجمن خود از این مورد استفاده کنید.",
+                "abandoned_extensions_heading": "",
+                "abandoned_extensions_text": "",
+                "abandoned_extensions_sync_button": "",
+                "abandoned_extensions_sync_success": "",
+                "abandoned_extensions_sync_error": "",
+                "abandoned_extensions_notify_admins_label": "",
                 "saved_message": "Your changes were saved.",
                 "submit_button": "=> core.ref.save_changes"
             },
@@ -56,6 +62,20 @@
                 "title": "ایجاد کاربر جدید",
                 "use_random_password": "ایجاد رمز عبور تصادفی",
                 "username_placeholder": "=> core.ref.username"
+            },
+            "announcements": {
+                "comments_label": "{count, plural, one {# نظر} other {# نظرات}}",
+                "description": "",
+                "empty": "",
+                "load_error": "",
+                "about": "",
+                "hide": "",
+                "read_more": "",
+                "refresh": "",
+                "retry": "",
+                "show": "",
+                "title": "اعلامیه‌ها",
+                "view_all": ""
             },
             "dashboard": {
                 "clear_cache_button": "پاک کردن cache",
@@ -197,6 +217,7 @@
                     "discussion": "بحث",
                     "feature": "امکانات",
                     "formatting": "قالب بندی",
+                    "forum-widget": "",
                     "language": "زبان ها",
                     "moderation": "مدیریت",
                     "other": "سایر افزونه ها",
@@ -763,6 +784,12 @@
             "send_test": {
                 "subject": "تست ایمیل Flarum",
                 "body": "سلام {username}!\n\nاین ایمیل تستی برای این است که تایید کند تنظیمات و پیکربندی ایمیل Flarum شما به خوبی کار می کند .\n\nاگر این شما هستید ، این ایمیل به معنای آن است که پیکربندی شما به درستی کار می کند !\n\nاگر این شما نیستید ، این ایمیل را نادیده بگیرید.\n"
+            },
+            "abandoned_extensions": {
+                "subject": "",
+                "body": "",
+                "line_with_replacement": "",
+                "line_no_replacement": ""
             }
         },
         "ref": {
@@ -804,7 +831,7 @@
             "rename": "تغییر نام",
             "reply": "پاسخ",
             "reset_your_password": "تنظیم دوباره رمزعبور",
-            "restore": "بازیابی",
+            "restore": "بازنشانی",
             "save_changes": "ذخیره تغییرات",
             "search_users": "جستجوی کاربر",
             "security": "امنیت",

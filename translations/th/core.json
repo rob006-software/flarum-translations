@@ -42,7 +42,13 @@
                 "slug_driver_text": "กรุณาเลือกชุดปฏิบัติงานเพื่อจะใช้คำเเสลงสำหรับโมดูลนี้",
                 "title": "พื้นฐาน",
                 "welcome_banner_heading": "แบรนเนอร์ต้อนรับ",
-                "welcome_banner_text": "ตั้งค่าข้อความที่จะเเสดงในเเบรนเนอร์ที่หน้ากระทู้ทั้งหมด ใช้นี่เพื่อเเสดงข้อความต้อนรับสำหรับผู้เยี่ยมชมพอรั่มของคุณ"
+                "welcome_banner_text": "ตั้งค่าข้อความที่จะเเสดงในเเบรนเนอร์ที่หน้ากระทู้ทั้งหมด ใช้นี่เพื่อเเสดงข้อความต้อนรับสำหรับผู้เยี่ยมชมพอรั่มของคุณ",
+                "abandoned_extensions_heading": "",
+                "abandoned_extensions_text": "",
+                "abandoned_extensions_sync_button": "",
+                "abandoned_extensions_sync_success": "",
+                "abandoned_extensions_sync_error": "",
+                "abandoned_extensions_notify_admins_label": ""
             },
             "create_user": {
                 "email_placeholder": "=> core.ref.email",
@@ -53,6 +59,20 @@
                 "title": "สร้างผู้ใช้ใหม่",
                 "use_random_password": "สร้างรหัสผ่านแบบสุ่ม",
                 "username_placeholder": "=> core.ref.username"
+            },
+            "announcements": {
+                "comments_label": "",
+                "description": "",
+                "empty": "",
+                "load_error": "",
+                "about": "",
+                "hide": "",
+                "read_more": "",
+                "refresh": "",
+                "retry": "",
+                "show": "",
+                "title": "",
+                "view_all": ""
             },
             "dashboard": {
                 "clear_cache_button": "ล้างเเคช",
@@ -182,6 +202,7 @@
                     "discussion": "กระทู้",
                     "feature": "ฟีเจอร์",
                     "formatting": "กำลังจัดเก็บช้อมูล",
+                    "forum-widget": "",
                     "language": "ภาษา",
                     "moderation": "การดูเเล",
                     "other": "ส่วนเสริมอื่นๆ",
@@ -705,6 +726,12 @@
             "send_test": {
                 "subject": "การทดสอบอีเมล์ของ Flarum",
                 "body": "สวัสดี {username}!\n\nนี้คือข้อความที่จะเเจ้งคุณว่าการตั้งค่าอีเมล์ของคุณนั้นสามารถใช้งานได้!\n\nถ้านี้เป็นอีเมล์ของคุณนั้นหมายความว่ามันใช้งานได้!\n\nเเต้ถ้านี่ไม่ใช่คุณโปรดอย่าสนใจอีเมล์นี้\n"
+            },
+            "abandoned_extensions": {
+                "subject": "",
+                "body": "",
+                "line_with_replacement": "",
+                "line_no_replacement": ""
             }
         },
         "ref": {

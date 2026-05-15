@@ -9,10 +9,19 @@
                 "label": "Язык анализа",
                 "help": "Анализатор осуществляет поиск по известным стоп-словам и вносит улучшения\nв индекс (в зависимости от языка).\n"
             },
+            "index-settings-changed": "",
+            "reindex-required": {
+                "title": "",
+                "detail": ""
+            },
             "search-discussion-subjects": "",
             "search-post-bodies": "",
             "match-sentences": "",
-            "match-words": ""
+            "match-words": "",
+            "min-search-length": {
+                "label": "",
+                "help": ""
+            }
         }
     }
 }

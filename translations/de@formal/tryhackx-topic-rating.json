@@ -1,0 +1,53 @@
+{
+    "tryhackx-topic-rating": {
+        "admin": {
+            "settings": {
+                "enabled_label": "Diskussionsbewertung aktivieren",
+                "enabled_help": "Benutzern die Möglichkeit geben, Diskussionen mit einem 5-Sterne-System zu bewerten.",
+                "allow_unactivated_label": "Nicht aktivierten Konten das Bewerten erlauben",
+                "allow_unactivated_help": "Wenn aktiviert, können Benutzer, die ihre E-Mail-Adresse noch nicht bestätigt haben, Diskussionen dennoch bewerten."
+            },
+            "permissions": {
+                "rate_label": "Diskussionen bewerten",
+                "toggle_label": "Bewertung für Diskussionen aktivieren/deaktivieren",
+                "reset_label": "Alle Bewertungen für Diskussionen zurücksetzen"
+            },
+            "support": {
+                "button": "Entwicklung unterstützen",
+                "title": "Diese Erweiterung unterstützen",
+                "description": "Wenn dir diese Erweiterung gefällt, würde ich mich über eine kleine Spende freuen, um die Weiterentwicklung zu unterstützen. Jeder Beitrag hilft dabei, das Projekt am Leben zu erhalten und weiter zu pflegen.",
+                "copy": "Adresse kopieren",
+                "thanks": "Vielen Dank für deine Unterstützung!"
+            }
+        },
+        "forum": {
+            "tooltip": {
+                "login_required": "Du musst angemeldet sein, um eine Bewertung abzugeben.",
+                "activation_required": "Dein Konto muss aktiviert sein, um eine Bewertung abzugeben.",
+                "rate_this": "Diese Diskussion bewerten",
+                "rate_first": "Sei der Erste, der eine Bewertung abgibt!",
+                "your_rating": "Deine Bewertung:"
+            },
+            "rating_count": "Bewertungen: {count}",
+            "last_rated": "Letzte Bewertung:",
+            "controls": {
+                "enable_rating": "Bewerten aktivieren",
+                "disable_rating": "Bewerten deaktivieren",
+                "reset_ratings": "Alle Bewertungen zurücksetzen",
+                "reset_confirm": "Möchtest du wirklich alle Bewertungen für diese Diskussion löschen? Dieser Vorgang kann nicht rückgängig gemacht werden."
+            },
+            "reset_modal": {
+                "title": "Alle Bewertungen zurücksetzen",
+                "message": "Möchtest du wirklich alle {count} Bewertungen für diese Diskussion löschen? Diese Aktion kann nicht rückgängig gemacht werden.",
+                "confirm": "Bewertungen zurücksetzen",
+                "cancel": "Abbrechen"
+            },
+            "ratings_modal": {
+                "title": "Bewertungen ({count})",
+                "empty": "Noch keine Bewertungen.",
+                "deleted_user": "[gelöscht]",
+                "updated_prefix": "aktualisiert "
+            }
+        }
+    }
+}

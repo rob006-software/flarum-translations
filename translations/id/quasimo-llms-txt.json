@@ -2,24 +2,24 @@
     "quasimo-llms-txt": {
         "admin": {
             "settings": {
-                "urls_label": "",
-                "urls_help": "",
-                "open_label": "",
-                "enabled_label": "",
-                "enabled_help": "",
-                "full_enabled_label": "",
-                "full_enabled_help": "",
-                "sort_label": "",
-                "sort_latest": "",
-                "sort_top": "",
-                "sort_help": "",
-                "max_discussions_label": "",
-                "max_discussions_help": "",
-                "max_posts_label": "",
-                "max_posts_help": "",
-                "custom_intro_label": "",
-                "custom_intro_placeholder": "",
-                "custom_intro_help": ""
+                "urls_label": "URL Endpoint",
+                "urls_help": "Setelah diaktifkan, URL berikut akan menyajikan konten forum Anda yang ramah untuk LLM.",
+                "open_label": "Buka di tab baru",
+                "enabled_label": "Aktifkan llms.txt",
+                "enabled_help": "Menyajikan indeks ringkas forum Anda di {url} — berisi link ke kategori dan diskusi terbaru.",
+                "full_enabled_label": "Aktifkan llms-full.txt",
+                "full_enabled_help": "Menyajikan teks lengkap semua diskusi di {url} — mencakup seluruh konten setiap postingan.",
+                "sort_label": "Urutan diskusi",
+                "sort_latest": "Aktivitas terbaru",
+                "sort_top": "Balasan terbanyak",
+                "sort_help": "Menentukan bagaimana diskusi diurutkan dalam kedua file yang dihasilkan.",
+                "max_discussions_label": "Jumlah maksimum diskusi",
+                "max_discussions_help": "Jumlah maksimum diskusi yang ditampilkan (1–1000). Default: 100.",
+                "max_posts_label": "Jumlah maksimum postingan per diskusi (khusus llms-full.txt)",
+                "max_posts_help": "Jumlah maksimum postingan per diskusi dalam file lengkap (1–500). Default: 50.",
+                "custom_intro_label": "Paragraf pengantar khusus",
+                "custom_intro_placeholder": "Masukkan pengantar opsional yang akan ditampilkan di bawah judul forum pada kedua file.",
+                "custom_intro_help": "Kosongkan jika tidak ingin ditampilkan. Mendukung teks biasa atau Markdown."
             }
         }
     }

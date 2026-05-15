@@ -1,0 +1,50 @@
+{
+    "ralkage-account-lockout": {
+        "api": {
+            "error": {
+                "locked_timed": "Account is locked. Try again in {minutes} minute(s).",
+                "locked_manual": "Account is locked. Contact an administrator."
+            }
+        },
+        "admin": {
+            "settings": {
+                "max_attempts_label": "Maximum Failed Login Attempts",
+                "max_attempts_help": "Number of consecutive failed login attempts before an account is locked.",
+                "lockout_mode_label": "Lockout Mode",
+                "lockout_mode_help": "Timed: auto-unlocks after duration. Manual: requires admin/moderator to unlock.",
+                "lockout_duration_label": "Lockout Duration (minutes)",
+                "lockout_duration_help": "How long accounts stay locked. Only applies when lockout mode is set to Timed."
+            },
+            "permissions": {
+                "unlock_users_label": "Unlock locked accounts"
+            },
+            "users": {
+                "lock_status_column": "Lock Status",
+                "locked_tooltip": "This account is locked",
+                "unlock_button": "Unlock",
+                "unlock_confirmation": "Are you sure you want to unlock {username}?"
+            }
+        },
+        "forum": {
+            "user_controls": {
+                "unlock_button": "Unlock"
+            },
+            "user_badge": {
+                "locked_tooltip": "Account Locked"
+            },
+            "unlock_modal": {
+                "title": "Unlock {username}",
+                "locked_since": "Locked since {date}",
+                "locked_until": "Auto-unlock at {date}",
+                "manually_locked": "This account is manually locked and requires an admin or moderator to unlock it.",
+                "failed_attempts": "{count} failed login attempt(s)",
+                "unlock_button": "Unlock Account"
+            },
+            "log_in": {
+                "locked_timed": "This account has been locked due to too many failed login attempts. Please try again in {minutes} minute(s).",
+                "locked_manual": "This account has been locked. Please contact an administrator.",
+                "attempts_remaining": "Invalid credentials. {remaining} of {max} login attempt(s) remaining before your account is locked."
+            }
+        }
+    }
+}

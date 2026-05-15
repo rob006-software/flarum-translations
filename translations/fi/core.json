@@ -42,7 +42,13 @@
                 "slug_driver_text": "Valitse ajuri mitä käytetään polkutunnuksen luomiseen tälle mallille.",
                 "title": "Yleiset",
                 "welcome_banner_heading": "Tervetulobanneri",
-                "welcome_banner_text": "Määritä teksti mikä näkyy keskustelulistauksessa olevassa bannerissa. Käytä tätä toivottaaksesi vieraat tervetulleeksi."
+                "welcome_banner_text": "Määritä teksti mikä näkyy keskustelulistauksessa olevassa bannerissa. Käytä tätä toivottaaksesi vieraat tervetulleeksi.",
+                "abandoned_extensions_heading": "Hylätyt lisäosat",
+                "abandoned_extensions_text": "Flarum ylläpitää <a>yhteisöllistä listaa hylätyistä laajennuksista</a>. Kun asennettu laajennus esiintyy listalla, se merkitään hallintapaneelissa hylätyksi.",
+                "abandoned_extensions_sync_button": "Tarkista nyt",
+                "abandoned_extensions_sync_success": "Hylättyjen lisäosien lista päivitetty {count} lisäosaa löytyi.",
+                "abandoned_extensions_sync_error": "Hylättyjen lisäosien listan haku epäonnistui. Yritä myöhemmin uudelleen.",
+                "abandoned_extensions_notify_admins_label": "Lähetä ylläpitäjille sähköposti, kun hylättyjä lisäosia löytyi viikottaisen tarkastuksen aikana"
             },
             "create_user": {
                 "email_placeholder": "=> core.ref.email",
@@ -53,6 +59,20 @@
                 "title": "Luo uusi käyttäjä",
                 "use_random_password": "Luo satunnainen salasana",
                 "username_placeholder": "=> core.ref.username"
+            },
+            "announcements": {
+                "comments_label": "{count, plural, one {# kommentti} other {# kommenttia}}",
+                "description": "Uusimmat uutiset ja ilmoituksen Flarumin tiimiltä.",
+                "empty": "Ilmoituksia ei löytynyt.",
+                "load_error": "Ilmoituksien lataus epäonnistui. Yritä myöhemmin uudelleen.",
+                "about": "Uusimmat uutiset ja ilmoitukset haetaan automaattisesti Flaurmin yhteisöstä osoitteesta discuss.flarum.org.",
+                "hide": "Piilot ilmoitukset",
+                "read_more": "Lue lisää",
+                "refresh": "Päivitä ilmoitukset",
+                "retry": "Yritä uudelleen",
+                "show": "Näytä ilmoitukset",
+                "title": "Ilmoitukset",
+                "view_all": "Näytä kaikki osoitteessa discuss.flarum.org"
             },
             "dashboard": {
                 "clear_cache_button": "Tyhjennä välimuisti",
@@ -184,6 +204,7 @@
                     "discussion": "Keskustelu",
                     "feature": "Ominaisuudet",
                     "formatting": "Muotoilu",
+                    "forum-widget": "Foorumin vimpaimet",
                     "language": "Kielet",
                     "moderation": "Moderointi",
                     "other": "Muut lisäosat",
@@ -661,7 +682,7 @@
                 "csrf_token_mismatch_return_link": "Mene takaisin yrittääksesi uudelleen",
                 "invalid_confirmation_token": "Vahvistuslinkki on jo käytetty tai on virheellinen.",
                 "not_authenticated": "Sinulla ei ole oikeuksia tälle sivulle. Yritä uudelleen, kun olet kirjautunut sisään.",
-                "method_not_allowed": "",
+                "method_not_allowed": "Tämä sivu ei tue pyydettyä metodia.",
                 "not_found": "Pyydettyä sivua ei löydy.",
                 "not_found_return_link": "Palaa takaisin {forum}",
                 "permission_denied": "Sinulla ei ole oikeuksia tälle sivulle.",
@@ -708,6 +729,12 @@
             "send_test": {
                 "subject": "Flarum foorumin sähköpostitesti",
                 "body": "Hei {username}!\n\nTämä on testiviesti, jotta näet, että toimiiko Flarum foorumin sähköpostiasetukset oikein.\n\nJos sinä teit tämän niin asetukset on oikein!\n\nJos sinä et tehnyt tätä niin voit poistaa tämän viestin.\n"
+            },
+            "abandoned_extensions": {
+                "subject": "Toimintaa vaaditaan: hylättyjä lisäosia havaittu",
+                "body": "Hei {username},\n\nSeuraavat asennetut lisäosat on merkitty hylätyiksi:\n\n{extensions}\n\nTarkista lisäosat ja pohdi siirtoa vastaaviin jos on saatavilla.\n",
+                "line_with_replacement": "- {package} (ehdotettu korvaava: {replacement})",
+                "line_no_replacement": "- {package} (ei korvaavia saatavilla)"
             }
         },
         "ref": {

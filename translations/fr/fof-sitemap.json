@@ -22,8 +22,10 @@
                 "mode_help_multi": "Idéal pour les gros forums, à partir de 10 000 éléments. Des fichiers de plan de site compressés en plusieurs parties seront générés et stockés dans le dossier /public",
                 "advanced_options_label": "Options avancées",
                 "frequency_label": "À quelle fréquence le planificateur doit-il reconstruire le plan du site basé sur le cache ?",
-                "risky_performance_improvements": "Activer l'amélioration des performances à risque",
-                "risky_performance_improvements_help": "Ces améliorations accélèrent l'exécution de la tâche CRON sur des ensembles de données de plusieurs millions de lignes, mais peuvent nuire à la compatibilité avec certaines extensions.",
+                "risky_performance_improvements": "Activer une taille de bloc importante (risqué)",
+                "risky_performance_improvements_help": "Augmente la taille des blocs de données récupérés depuis la base de données de 75 000 à 150 000 lignes. Accélère la génération sur des ensembles de données contenant des millions de lignes, mais double la mémoire RAM maximale utilisée par le modèle Eloquent par bloc. N'activez cette option que si vous avez vérifié que la mémoire du serveur est suffisante. Active également l'élagage des colonnes (voir ci-dessus).",
+                "column_pruning": "Activer la suppression des colonnes",
+                "column_pruning_help": "Récupère uniquement les colonnes nécessaires à la génération d'URL (par exemple : id, slug, username, dates) au lieu d'utiliser SELECT *. Cela réduit considérablement l'utilisation de mémoire par modèle sur les grands forums. Activé par défaut — ne le désactivez que si un pilote de slug personnalisé ou une portée de visibilité nécessite des colonnes qui ne figurent pas dans la sélection par défaut.",
                 "include_priority": "Inclure les valeurs de priorité dans le plan du site",
                 "include_priority_help": "Les valeurs de priorité sont ignorées par Google, mais peuvent être utilisées par d'autres moteurs de recherche tels que Bing et Yandex",
                 "include_changefreq": "Inclure les valeurs de fréquence de modification dans le plan du site",
@@ -52,9 +54,7 @@
                             "minimum_item_threshold_help": "Le nombre minimum de discussions qu'une étiquette doit avoir pour apparaître dans le plan du site."
                         }
                     }
-                },
-                "column_pruning": "",
-                "column_pruning_help": ""
+                }
             }
         }
     }

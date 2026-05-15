@@ -42,7 +42,13 @@
                 "slug_driver_text": "Izberite gonilnik, ki se bo uporabljal za ustvarjanje sluga za ta model.",
                 "title": "Osnove",
                 "welcome_banner_heading": "Pasica dobrodošlice",
-                "welcome_banner_text": "Nastavite besedilo, ki se bo prikazalo na vseh straneh znotraj pasice. Uporabite to za dobrodošlico gostom na vašem forumu."
+                "welcome_banner_text": "Nastavite besedilo, ki se bo prikazalo na vseh straneh znotraj pasice. Uporabite to za dobrodošlico gostom na vašem forumu.",
+                "abandoned_extensions_heading": "",
+                "abandoned_extensions_text": "",
+                "abandoned_extensions_sync_button": "",
+                "abandoned_extensions_sync_success": "",
+                "abandoned_extensions_sync_error": "",
+                "abandoned_extensions_notify_admins_label": ""
             },
             "create_user": {
                 "email_placeholder": "=> core.ref.email",
@@ -53,6 +59,20 @@
                 "title": "Ustvari novega uporabnika",
                 "use_random_password": "Ustvari naključno geslo",
                 "username_placeholder": "=> core.ref.username"
+            },
+            "announcements": {
+                "comments_label": "",
+                "description": "",
+                "empty": "",
+                "load_error": "",
+                "about": "",
+                "hide": "",
+                "read_more": "",
+                "refresh": "",
+                "retry": "",
+                "show": "",
+                "title": "",
+                "view_all": ""
             },
             "dashboard": {
                 "clear_cache_button": "Počisti predpomnilnik",
@@ -182,6 +202,7 @@
                     "discussion": "Razprava",
                     "feature": "Funkcije",
                     "formatting": "Oblikovanje",
+                    "forum-widget": "",
                     "language": "Jeziki",
                     "moderation": "Moderacija",
                     "other": "Druge razširitve",
@@ -705,6 +726,12 @@
             "send_test": {
                 "subject": "Preizkus e-pošte Flarum",
                 "body": "Pozdravljeni {username}!\n\nTo je preizkusno e-poštno sporočilo, da potrdite, da vaša konfiguracija e-pošte Flarum deluje pravilno.\n\nČe ste to vi, to e-poštno sporočilo pomeni, da vaša konfiguracija deluje!\n\nČe to niste vi, ignorirajte to e-pošto.\n"
+            },
+            "abandoned_extensions": {
+                "subject": "",
+                "body": "",
+                "line_with_replacement": "",
+                "line_no_replacement": ""
             }
         },
         "ref": {

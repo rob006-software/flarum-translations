@@ -1,0 +1,70 @@
+{
+    "fof-move-posts": {
+        "admin": {
+            "settings": {
+                "moved_first_post_content": "Inhalt der verschobenen Diskussion (erster Beitrag)",
+                "moved_first_post_content_help": "Wenn eine Diskussion nur aus einem einzigen Beitrag besteht, führt das Verschieben dieses Beitrags dazu, dass der erste Beitrag der ursprünglichen Diskussion so bearbeitet wird, dass er auf die neue Diskussion verweist. Den Inhalt dieses Beitrags kannst du hier bearbeiten.\n",
+                "group_sequential_posts": "Die aufeinanderfolgenden Beiträge nach dem Ereignis wurden zu einem einzigen Beitrag zusammengefasst."
+            },
+            "permissions": {
+                "move_posts": "=> fof-move-posts.ref.move_posts"
+            }
+        },
+        "forum": {
+            "badge": {
+                "first_moved_tooltip": "Verschoben"
+            },
+            "discussion": {
+                "move_posts": "=> fof-move-posts.ref.move_posts"
+            },
+            "error": {
+                "move_old_post_to_newer_discussion": "=> fof-move-posts.ref.status.old_to_new_move",
+                "move_posts_to_same_discussion": "Beiträge können nicht in dieselbe Diskussion verschoben werden."
+            },
+            "modal": {
+                "check": "Operation vorab prüfen",
+                "destination": "Zieldiskussion",
+                "discussion_help": "Es werden die Themen der ursprünglichen Diskussion verwendet. Diese können nach der Erstellung geändert werden.",
+                "discussion_name": "=> core.forum.composer_discussion.title_placeholder",
+                "new_discussion": "Neue Diskussion",
+                "selected_posts": "{count, plural, one {Ein Beitrag ausgewählt} other {{count} Beiträge ausgewählt}}",
+                "status": {
+                    "complex_move": "Das wird ein aufwendiger Vorgang sein, da Beiträge zwischen andere Beiträge verschoben werden, was dazu führt, dass sich auch die vorherigen URL-Verweise auf die Beiträge der Zieldiskussion ändern.",
+                    "old_to_new_move": "=> fof-move-posts.ref.status.old_to_new_move",
+                    "simple_move": "Das wird eine einfache Verschiebung sein. Alle Beiträge werden am Ende der Diskussion hinzugefügt."
+                },
+                "submit": "Fortfahren",
+                "title": "=> fof-move-posts.ref.move_posts",
+                "confirm_move_all_to_new_discussion": "Sie sind dabei, alle Beiträge aus dieser Diskussion in eine neue zu verschieben. In den meisten Fällen ist es sinnvoller, stattdessen die bestehende Diskussion zu bearbeiten, beispielsweise indem Sie den Titel, die Themen oder andere Attribute ändern. Möchten Sie fortfahren?"
+            },
+            "alerts": {
+                "posts_moved_to": "{count, plural, one {Beitrag verschoben nach {target_discussion}.} other {{count} Beiträge verschoben nach {target_discussion}.}}",
+                "posts_moved": "{count, plural, one {Beitrag verschoben.} other {{count} Beiträge verschoben.}}"
+            },
+            "notifications": {
+                "post_moved_text": "Einer oder mehrere deiner Beiträge wurden nach {targetDiscussionTitle} verschoben."
+            },
+            "post": {
+                "unmove": "Vom Verschieben abwählen",
+                "move": "Zum Verschieben auswählen",
+                "moving": "Beitrag verschieben"
+            },
+            "post_stream": {
+                "post_moved": "{count, plural, one {{username} hat einen Beitrag verschoben nach {target_discussion}.} other {{username} hat {count} Beiträge verschoben nach {target_discussion}.}}"
+            }
+        },
+        "ref": {
+            "move_posts": "Beiträge verschieben",
+            "status": {
+                "old_to_new_move": "Ein alter Beitrag kann nicht in eine neuere Diskussion verschoben werden."
+            }
+        },
+        "lib": {
+            "discussion": {
+                "first_post": {
+                    "default_content": "*Dieser Beitrag wurde verschoben nach **[%DISCUSSION_NAME%](%POST_LINK%)**.*\n"
+                }
+            }
+        }
+    }
+}

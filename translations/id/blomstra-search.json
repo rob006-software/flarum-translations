@@ -7,12 +7,21 @@
             "elastic-index": "Index",
             "analyzer": {
                 "label": "Penganalisis bahasa",
-                "help": "Penganalisis membuat pencarian memahami kata henti dan melakukan perbaikan \nkhusus bahasa untuk pengindeksan.\n"
+                "help": "Alat analisis ini membantu mesin pencari mengenali kata-kata penghalang dan melakukan penyempurnaan \nkhusus bahasa untuk proses pengindeksan. Untuk menerapkan perubahan ini, diperlukan proses pembuatan ulang indeks secara penuh.\n"
+            },
+            "index-settings-changed": "Pengaturan indeks pencarian telah berubah. Jalankan: php flarum blomstra:search:index build",
+            "reindex-required": {
+                "title": "Diperlukan pembaruan indeks pencarian",
+                "detail": "Indeks pencarian tidak kompatibel dengan versi ekstensi ini. Jalankan: php flarum blomstra:search:index build"
             },
             "search-discussion-subjects": "Cari di dalam judul diskusi",
             "search-post-bodies": "Cari di dalam komentar",
             "match-sentences": "Cocokkan istilah pencarian dengan kalimat lengkap",
-            "match-words": "Cocokkan istilah pencarian dengan kata-kata yang lengkap"
+            "match-words": "Cocokkan istilah pencarian dengan kata-kata yang lengkap",
+            "min-search-length": {
+                "label": "Panjang kueri pencarian minimum",
+                "help": "Jumlah karakter minimum yang diperlukan agar pencarian dimulai. Kurangi nilai ini menjadi 1 atau 2\nuntuk komunitas CJK (Mandarin, Jepang, Korea) di mana satu karakter sudah memiliki makna lengkap.\nPerubahan ini memerlukan proses pembuatan ulang indeks secara penuh agar berlaku.\n"
+            }
         }
     }
 }

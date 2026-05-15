@@ -2,33 +2,33 @@
     "datlechin-ai-summarize": {
         "admin": {
             "permissions": {
-                "ai_summarize_label": ""
+                "ai_summarize_label": "Diskussionen mit KI zusammenfassen"
             },
             "settings": {
-                "title": "",
-                "enabled_label": "",
-                "min_posts_label": "",
-                "min_posts_help": "",
-                "max_posts_label": "",
-                "max_posts_help": "",
-                "system_prompt_label": "",
-                "system_prompt_help": ""
+                "title": "Einstellungen für KI-Zusammenfassung",
+                "enabled_label": "KI-Zusammenfassung aktivieren",
+                "min_posts_label": "Erforderliche Mindestanzahl an Beiträgen",
+                "min_posts_help": "Mindestanzahl an Beiträgen in einer Diskussion, bevor diese zusammengefasst werden kann",
+                "max_posts_label": "Maximale Anzahl der einzubeziehenden Beiträge",
+                "max_posts_help": "Maximale Anzahl der Beiträge, die in die Zusammenfassung einbezogen werden sollen",
+                "system_prompt_label": "Benutzerdefinierter Prompt",
+                "system_prompt_help": "Optionale benutzerdefinierter Prompt, den die KI bei der Erstellung von Zusammenfassungen verwenden soll. Für die Standardeinstellung leer lassen."
             }
         },
         "forum": {
             "discussion_controls": {
-                "summarize_button": "",
-                "regenerate_button": ""
+                "summarize_button": "Mit KI zusammenfassen",
+                "regenerate_button": "Zusammenfassung neu erstellen"
             },
             "summary": {
-                "title": "",
-                "error": "",
-                "generated_with": "",
-                "generated_at": "",
-                "posts_summarized": "",
-                "regenerate_confirm": "",
-                "not_enough_posts": "",
-                "close": ""
+                "title": "KI-Zusammenfassung",
+                "error": "Zusammenfassung konnte nicht erstellt werden. Bitte versuche es erneut.",
+                "generated_with": "Erstellt von {provider} unter Verwendung von {model}",
+                "generated_at": "Erstellt {time}",
+                "posts_summarized": "Zusammenfassung von {count} Beiträgen",
+                "regenerate_confirm": "Möchtest du diese Zusammenfassung wirklich neu erstellen? Die vorhandene Zusammenfassung wird dabei überschrieben.",
+                "not_enough_posts": "Diese Diskussion enthält nicht genügend Beiträge, um eine Zusammenfassung zu erstellen.",
+                "close": "Schließen"
             }
         }
     }

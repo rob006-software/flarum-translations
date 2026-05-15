@@ -2,27 +2,27 @@
     "nearata-related-discussions": {
         "admin": {
             "settings": {
-                "allow_guests": "",
-                "generator": "",
+                "allow_guests": "Vendégek engedélyezése",
+                "generator": "Előállító",
                 "generator_options": {
-                    "random": "",
-                    "title": ""
+                    "random": "Véletlenszerű",
+                    "title": "Cím szerint"
                 },
-                "max_discussions": "",
-                "max_discussions_help": "",
-                "position": "",
+                "max_discussions": "Témák legnagyobb száma",
+                "max_discussions_help": "Az alapértelmezés <strong>5</strong>.",
+                "position": "Pozíció",
                 "position_options": {
-                    "first_post": "",
-                    "last_post": "",
-                    "reply_block": ""
+                    "first_post": "Első bejegyzés után",
+                    "last_post": "Utolsó bejegyzés után",
+                    "reply_block": "Válaszblokk után"
                 },
-                "cache": "",
-                "cache_help": ""
+                "cache": "Gyorsítótár",
+                "cache_help": "A formátumnak ennek kell lennie: <strong>0-31d0-23h0-59m</strong>"
             }
         },
         "forum": {
-            "discussion_list_title": "",
-            "no_results": ""
+            "discussion_list_title": "Kapcsolódó témák",
+            "no_results": "Nem találhatóak kapcsolódó témák"
         }
     }
 }

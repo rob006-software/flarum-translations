@@ -42,7 +42,13 @@
                 "slug_driver_text": "Pilih driver yang akan digunakan untuk slugging model ini.",
                 "title": "Pengaturan Dasar",
                 "welcome_banner_heading": "Banner Selamat Datang",
-                "welcome_banner_text": "Konfigurasikan teks yang ditampilkan dalam banner di halaman Semua Diskusi. Gunakan ini untuk menyambut tamu yang datang ke forum Anda."
+                "welcome_banner_text": "Konfigurasikan teks yang ditampilkan dalam banner di halaman Semua Diskusi. Gunakan ini untuk menyambut tamu yang datang ke forum Anda.",
+                "abandoned_extensions_heading": "Ekstensi yang Telah Ditinggalkan",
+                "abandoned_extensions_text": "Flarum mengelola <a>daftar ekstensi komunitas yang telah ditinggalkan</a>. Jika sebuah ekstensi yang terpasang muncul dalam daftar tersebut, ekstensi tersebut akan ditandai di panel admin.",
+                "abandoned_extensions_sync_button": "Periksa Sekarang",
+                "abandoned_extensions_sync_success": "Daftar ekstensi yang ditinggalkan telah diperbarui. Ditemukan {count} ekstensi terinstal.",
+                "abandoned_extensions_sync_error": "Gagal mengambil daftar ekstensi yang ditinggalkan. Silakan coba lagi nanti.",
+                "abandoned_extensions_notify_admins_label": "Kirim email ke admin saat ekstensi yang baru ditinggalkan terdeteksi selama pemeriksaan mingguan"
             },
             "create_user": {
                 "email_placeholder": "=> core.ref.email",
@@ -53,6 +59,20 @@
                 "title": "Buat pengguna baru",
                 "use_random_password": "Hasilkan password acak",
                 "username_placeholder": "=> core.ref.username"
+            },
+            "announcements": {
+                "comments_label": "{count, plural, one {# komentar} other {# komentar}}",
+                "description": "Berita dan pengumuman terbaru dari Tim Flarum.",
+                "empty": "Tidak ditemukan pengumuman.",
+                "load_error": "Tidak dapat memuat pengumuman. Silakan coba lagi nanti.",
+                "about": "Berita dan pengumuman terbaru diambil dari komunitas resmi Flarum di discuss.flarum.org.",
+                "hide": "Sembunyikan pengumuman",
+                "read_more": "Baca selengkapnya",
+                "refresh": "Segarkan pengumuman",
+                "retry": "Coba lagi",
+                "show": "Tampilkan pengumuman",
+                "title": "Pengumuman",
+                "view_all": "Lihat semua di discuss.flarum.org"
             },
             "dashboard": {
                 "clear_cache_button": "Hapus Cache",
@@ -182,6 +202,7 @@
                     "discussion": "Diskusi",
                     "feature": "Fitur",
                     "formatting": "Pengaturan format",
+                    "forum-widget": "Widget Forum",
                     "language": "Bahasa",
                     "moderation": "Moderasi",
                     "other": "Ekstensi Lainnya",
@@ -658,7 +679,7 @@
                 "csrf_token_mismatch_return_link": "Kembali, untuk mencoba lagi",
                 "invalid_confirmation_token": "Link konfirmasi ini sudah pernah digunakan atau tidak valid.",
                 "not_authenticated": "Anda tidak memiliki izin untuk mengakses halaman ini. Coba lagi setelah Anda login.",
-                "method_not_allowed": "",
+                "method_not_allowed": "Halaman ini tidak mendukung metode request tersebut.",
                 "not_found": "Halaman yang Anda minta tidak dapat ditemukan.",
                 "not_found_return_link": "Kembali ke {forum}",
                 "permission_denied": "Anda tidak memiliki izin untuk mengakses halaman ini.",
@@ -705,6 +726,12 @@
             "send_test": {
                 "subject": "Tes Email Flarum",
                 "body": "Hai {username}!\n\nIni adalah email percobaan untuk mengonfirmasi bahwa konfigurasi email Flarum Anda berfungsi dengan baik.\n\nJika ini adalah Anda, email ini berarti konfigurasi Anda berhasil!\n\nJika ini bukan Anda, silakan abaikan email ini.\n"
+            },
+            "abandoned_extensions": {
+                "subject": "Tindakan yang diperlukan: terdeteksi ekstensi yang ditinggalkan",
+                "body": "Halo {username},\n\nEkstensi yang terpasang berikut ini telah ditandai sebagai ekstensi yang ditinggalkan:\n\n{extensions}\n\nSilakan periksa ekstensi-ekstensi ini dan pertimbangkan untuk beralih ke alternatif yang tersedia.\n",
+                "line_with_replacement": "- {package} (pengganti yang disarankan: {replacement})",
+                "line_no_replacement": "- {package} (tidak ada pengganti yang tersedia)"
             }
         },
         "ref": {

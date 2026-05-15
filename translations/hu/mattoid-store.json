@@ -17,8 +17,8 @@
                 "goods-discount": "Kedvezmény (%)",
                 "goods-discount-limit": "Kedvezménykorlát",
                 "goods-discount-limit-unit": "Egység",
-                "goods-type": "",
-                "goods-outtime": "",
+                "goods-type": "Vásárlás típusa",
+                "goods-outtime": "Időtúllépés",
                 "goods-icon": "Ikon",
                 "goods-upload-button": "Feltöltés",
                 "goods-hide": "Nincs jogosultsága, hogy korlátozott ideig elrejtse a termékeket",
@@ -37,13 +37,13 @@
             },
             "error": {
                 "invalid-product": "Érvénytelen termék",
-                "validate-fail": ""
+                "validate-fail": "Nem sikerült betölteni a terméket"
             }
         },
         "forum": {
             "tital": "Áruház",
             "button": "Vásárlás",
-            "buy-goods": "",
+            "buy-goods": "Termék: {title}",
             "buy-goods-fail": "Termékvisszatérítés: {title}",
             "auto-deduction": "Termékek költségeinek automatikus kitalálása: {title}",
             "infinite": "Végtelen",
@@ -55,15 +55,15 @@
                 "insufficient-inventory": "Elégtelen raktárkészlet",
                 "user-balance-low": "Elégtelen egyenleg",
                 "store-goods-non-existent": "A termék nem létezik, vagy el lett távolítva",
-                "validate-fail": "",
+                "validate-fail": "Nem sikerült betölteni a terméket",
                 "cannot-Goods-repeatedly": "Az ismételt termékek nem engedélyezettek az érvényességi időszakon belül",
-                "buy-goods-fail": "",
+                "buy-goods-fail": "Az áru nem vásárolható meg [{title}]",
                 "file-exist": "a fájl már létezik",
                 "automatic-renewal": "Az automatikus megújítás nincs engedélyezve",
                 "invalid-product": "Érvénytelen termék",
                 "automatic-renewal-fail": "Az automatikus megújítás sikertelen [{message}]",
-                "goods-invalid-fail": "",
-                "goods-invalid-event-fail": "",
+                "goods-invalid-fail": "Nem sikerült az áru sikertelenségi logikájának végrehajtása [{message}]",
+                "goods-invalid-event-fail": "Nem sikerült az áru sikertelenségi eseményének leküldése [{message}]",
                 "cart-no-use": "Ennek az árunak nincs funkcionalitása",
                 "cart-use-fail": "Az áru használata sikertelen"
             }

@@ -2,34 +2,34 @@
     "huseyinfiliz-sticky-title": {
         "admin": {
             "settings": {
-                "title": "",
-                "mobile_section_title": "",
-                "mobile_scroll_label": "",
-                "mobile_scroll_help": "",
+                "title": "Setări titlu fix (Sticky)",
+                "mobile_section_title": "Setări mobil",
+                "mobile_scroll_label": "Afișare titlu discuție pe mobil",
+                "mobile_scroll_help": "Alege când să fie afișat titlul discuției în antetul pentru mobil",
                 "mobile_scroll_options": {
-                    "always": "",
-                    "scroll_down": "",
-                    "scroll_up": "",
-                    "never": ""
+                    "always": "Afișează întotdeauna",
+                    "scroll_down": "Afișează la derularea în jos",
+                    "scroll_up": "Afișează la derularea în sus",
+                    "never": "Nu afișa niciodată"
                 },
-                "scrubber_section_title": "",
-                "scrubber_replace_original_label": "",
-                "scrubber_replace_original_help": "",
+                "scrubber_section_title": "Setări bară de derulare (Scrubber)",
+                "scrubber_replace_original_label": "Înlocuiește „Postare originală” cu titlul discuției",
+                "scrubber_replace_original_help": "Alege unde să fie afișat titlul discuției în locul textului „Postare originală”",
                 "scrubber_replace_options": {
-                    "never": "",
-                    "mobile": "",
-                    "desktop": "",
-                    "both": ""
+                    "never": "Nu înlocui niciodată",
+                    "mobile": "Doar pe mobil",
+                    "desktop": "Doar pe desktop",
+                    "both": "Atât pe mobil, cât și pe desktop"
                 },
-                "web_section_title": "",
-                "web_scrubber_title_label": "",
-                "web_scrubber_title_help": "",
-                "fof_pages_section_title": "",
-                "fof_pages_header_label": "",
-                "fof_pages_header_help": "",
-                "blog_header_label": "",
-                "blog_header_help": "",
-                "save_settings": ""
+                "web_section_title": "Setări desktop",
+                "web_scrubber_title_label": "Afișează titlul deasupra barei de derulare",
+                "web_scrubber_title_help": "Afișează titlul discuției deasupra barei de derulare pe desktop",
+                "fof_pages_section_title": "Setări Pagini FoF",
+                "fof_pages_header_label": "Afișează titlul paginii în antetul pentru mobil",
+                "fof_pages_header_help": "Afișează titlul paginii în antetul pentru mobil atunci când vizualizezi Pagini FoF",
+                "blog_header_label": "Afișează titlul blogului în antetul pentru mobil",
+                "blog_header_help": "Afișează titlul articolului de blog în antetul pentru mobil atunci când vizualizezi postări de blog",
+                "save_settings": "Salvează setările"
             }
         }
     }

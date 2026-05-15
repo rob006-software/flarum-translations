@@ -7,12 +7,21 @@
             "elastic-index": "Index",
             "analyzer": {
                 "label": "Analyzer language",
-                "help": "The analyzer makes search understand stop words and undertakes language\nspecific improvements for indexing.\n"
+                "help": "The analyzer makes search understand stop words and undertakes language\nspecific improvements for indexing. Changing this requires a full index rebuild to take effect.\n"
+            },
+            "index-settings-changed": "Search index settings have changed. Run: php flarum blomstra:search:index build",
+            "reindex-required": {
+                "title": "Search index rebuild required",
+                "detail": "The search index is not compatible with this version of the extension. Run: php flarum blomstra:search:index build"
             },
             "search-discussion-subjects": "Search inside discussion titles",
             "search-post-bodies": "Search inside comments",
             "match-sentences": "Match search term against full sentence",
-            "match-words": "Match search term against full words"
+            "match-words": "Match search term against full words",
+            "min-search-length": {
+                "label": "Minimum search query length",
+                "help": "Minimum number of characters required before a search is triggered. Lower this to 1 or 2\nfor CJK (Chinese, Japanese, Korean) communities where single characters carry full meaning.\nChanging this requires a full index rebuild to take effect.\n"
+            }
         }
     }
 }

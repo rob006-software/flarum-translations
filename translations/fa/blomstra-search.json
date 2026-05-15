@@ -2,17 +2,26 @@
     "blomstra-search": {
         "admin": {
             "elastic-endpoint": "",
-            "elastic-username": "",
-            "elastic-password": "",
+            "elastic-username": "=> core.ref.username",
+            "elastic-password": "=> core.ref.password",
             "elastic-index": "",
             "analyzer": {
                 "label": "",
                 "help": ""
             },
+            "index-settings-changed": "",
+            "reindex-required": {
+                "title": "",
+                "detail": ""
+            },
             "search-discussion-subjects": "",
             "search-post-bodies": "",
             "match-sentences": "",
-            "match-words": ""
+            "match-words": "",
+            "min-search-length": {
+                "label": "",
+                "help": ""
+            }
         }
     }
 }

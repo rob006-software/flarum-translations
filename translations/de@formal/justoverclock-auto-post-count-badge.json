@@ -2,37 +2,37 @@
     "justoverclock-auto-post-count-badge": {
         "admin": {
             "settings": {
-                "tier": "",
+                "tier": "Stufe {tier} : von {from} bis {to} Beiträge",
                 "icon-manager": {
-                    "title": "",
-                    "help_text": ""
+                    "title": "Symbolverwaltung",
+                    "help_text": "=> core.ref.icon_text"
                 },
                 "label-manager": {
-                    "title": "",
-                    "help": ""
+                    "title": "Beschriftungen verwalten",
+                    "help": "Stufennamen anpassen"
                 }
             },
-            "levelOne": "",
-            "levelOne-help": "",
-            "levelTwo": "",
-            "levelTwo-help": "",
-            "levelThree": "",
-            "levelThree-help": "",
-            "levelFour": "",
-            "levelFour-help": "",
-            "levelFive": "",
-            "levelFive-help": "",
-            "levelSix": "",
-            "levelSix-help": ""
+            "levelOne": "Symbol für Stufe 1 anpassen - „Das Baby“",
+            "levelOne-help": "Füge hier das FontAwesome-Symbol ein, das du für Stufe 1 anzeigen möchtest (z. B. „fas fa-square“)",
+            "levelTwo": "Symbol für Stufe 2 anpassen - „Der Neuling“",
+            "levelTwo-help": "Füge hier das FontAwesome-Symbol ein, das du für Stufe 2 anzeigen möchtest (z. B. „fas fa-square“)",
+            "levelThree": "Symbol für Stufe 3 anpassen - „Der Gesprächige“",
+            "levelThree-help": "Füge hier das FontAwesome-Symbol ein, das du für Stufe 3 anzeigen möchtest (z. B. „fas fa-square“)",
+            "levelFour": "Symbol für Stufe 4 anpassen - „Der Lehrer“",
+            "levelFour-help": "Füge hier das FontAwesome-Symbol ein, das du für Stufe 4 anzeigen möchtest (z. B. „fas fa-square“)",
+            "levelFive": "Symbol für Stufe 5 anpassen - „Das Monster!“",
+            "levelFive-help": "Füge hier das FontAwesome-Symbol ein, das du für Stufe 5 anzeigen möchtest (z. B. „fas fa-square“)",
+            "levelSix": "Symbol für Stufe 6 anpassen - „Der Guru!“",
+            "levelSix-help": "Füge hier das FontAwesome-Symbol ein, das du für Stufe 6 anzeigen möchtest (z. B. „fas fa-square“)"
         },
         "forum": {
-            "less10post": "",
-            "less50post": "",
-            "less100post": "",
-            "less300post": "",
-            "less600post": "",
-            "less1000post": "",
-            "hasWritten": ""
+            "less10post": "Das Baby",
+            "less50post": "Der Neuling",
+            "less100post": "Der Gesprächige",
+            "less300post": "Der Lehrer",
+            "less600post": "Das Monster!",
+            "less1000post": "Der Guru!",
+            "hasWritten": "{count, plural, one {# Beitrag verfasst} other {# Beiträge verfasst}}"
         }
     }
 }

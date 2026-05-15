@@ -24,6 +24,8 @@
                 "frequency_label": "Kui sageli peaks ajastaja vahemälus oleva sisukaardi uuesti looma?",
                 "risky_performance_improvements": "Lülita sisse riskantsemad kiiruse parandamise võimalused",
                 "risky_performance_improvements_help": "Need parandused teevad CRON tööd kiiremaks miljoni reaga andmebaasides, aga võivad lõhkuda ühilduvuse mõningate lisaprogrammidega.",
+                "column_pruning": "",
+                "column_pruning_help": "",
                 "include_priority": "",
                 "include_priority_help": "",
                 "include_changefreq": "",
@@ -52,9 +54,7 @@
                             "minimum_item_threshold_help": "Minimaalne vestluste arv sildi all, et seda saaks lisada sisukaardil."
                         }
                     }
-                },
-                "column_pruning": "",
-                "column_pruning_help": ""
+                }
             }
         }
     }

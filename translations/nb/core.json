@@ -42,7 +42,13 @@
                 "slug_driver_text": "Velg en driver for å forenkle denne modellen.",
                 "title": "Grunnleggende",
                 "welcome_banner_heading": "Velkomstbanner",
-                "welcome_banner_text": "Konfigurer teksten som vises i banneret på Alle Diskusjoner-siden. Bruk denne for å ønske besøkende velkommen til forumet ditt."
+                "welcome_banner_text": "Konfigurer teksten som vises i banneret på Alle Diskusjoner-siden. Bruk denne for å ønske besøkende velkommen til forumet ditt.",
+                "abandoned_extensions_heading": "",
+                "abandoned_extensions_text": "",
+                "abandoned_extensions_sync_button": "",
+                "abandoned_extensions_sync_success": "",
+                "abandoned_extensions_sync_error": "",
+                "abandoned_extensions_notify_admins_label": ""
             },
             "create_user": {
                 "email_placeholder": "=> core.ref.email",
@@ -53,6 +59,20 @@
                 "title": "Opprett ny bruker",
                 "use_random_password": "Generer tilfeldig passord",
                 "username_placeholder": "=> core.ref.username"
+            },
+            "announcements": {
+                "comments_label": "",
+                "description": "",
+                "empty": "",
+                "load_error": "",
+                "about": "",
+                "hide": "",
+                "read_more": "",
+                "refresh": "",
+                "retry": "",
+                "show": "",
+                "title": "",
+                "view_all": ""
             },
             "dashboard": {
                 "clear_cache_button": "Tøm cache",
@@ -182,6 +202,7 @@
                     "discussion": "Diskusjon",
                     "feature": "Funksjoner",
                     "formatting": "Formatering",
+                    "forum-widget": "",
                     "language": "Språk",
                     "moderation": "Moderering",
                     "other": "Andre utvidelser",
@@ -705,6 +726,12 @@
             "send_test": {
                 "subject": "Flarum emailtest",
                 "body": "Hei, {username}!\n\nDette er en test-e-post for å bekrefte at Flarum-e-postkonfigurasjonen din fungerer som den skal.\n\nHvis dette var deg, betyr denne e-posten at konfigurasjonen din fungerer!\n\nHvis dette ikke var deg, vennligst ignorer denne e-posten.\n"
+            },
+            "abandoned_extensions": {
+                "subject": "",
+                "body": "",
+                "line_with_replacement": "",
+                "line_no_replacement": ""
             }
         },
         "ref": {

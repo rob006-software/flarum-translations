@@ -2,49 +2,49 @@
     "fof-rich-text": {
         "admin": {
             "settings": {
-                "toggle_on_editor": ""
+                "toggle_on_editor": "Tampilkan tombol alih mode Rich Text di editor?"
             }
         },
         "lib": {
             "composer": {
-                "toggle_button": "",
-                "insert_button": "",
+                "toggle_button": "Alihkan Mode Rich Text",
+                "insert_button": "Sisipkan",
                 "insert_image": {
-                    "src_placeholder": "",
-                    "title_placeholder": ""
+                    "src_placeholder": "Link",
+                    "title_placeholder": "Judul"
                 },
                 "insert_link": {
-                    "text_placeholder": "",
-                    "href_placeholder": "",
-                    "title_placeholder": "",
-                    "remove_button": ""
+                    "text_placeholder": "Teks",
+                    "href_placeholder": "URL",
+                    "title_placeholder": "Judul (ditampilkan saat hover)",
+                    "remove_button": "Hapus"
                 },
-                "additional_items_tooltip": "",
-                "bold_tooltip": "",
-                "code_tooltip": "",
-                "code_block_tooltip": "",
-                "header_tooltip": "",
-                "horizontal_rule_tooltip": "",
-                "image_tooltip": "",
-                "italic_tooltip": "",
-                "link_tooltip": "",
-                "ordered_list_tooltip": "",
-                "paragraph_tooltip": "",
-                "quote_tooltip": "",
-                "spoiler_block_tooltip": "",
-                "spoiler_inline_tooltip": "",
+                "additional_items_tooltip": "Kontrol Tambahan",
+                "bold_tooltip": "Bold <{modifierKey}-b>",
+                "code_tooltip": "Kode sebaris <{modifierKey}-`>",
+                "code_block_tooltip": "Tambahkan blok kode",
+                "header_tooltip": "Ubah menjadi header level {level} <shift-{modifierKey}-{level}>",
+                "horizontal_rule_tooltip": "Sisipkan garis horizontal",
+                "image_tooltip": "Tambahkan gambar",
+                "italic_tooltip": "Italic <{modifierKey}-i>",
+                "link_tooltip": "Tambahkan link",
+                "ordered_list_tooltip": "Daftar bernomor <shift-{modifierKey}-9>",
+                "paragraph_tooltip": "Ubah menjadi paragraf <shift-{modifierKey}-0>",
+                "quote_tooltip": "Sisipkan kutipan <{modifierKey}-q>",
+                "spoiler_block_tooltip": "Blok Spoiler/Dropdown",
+                "spoiler_inline_tooltip": "Spoiler  <{modifierKey}-;>",
                 "strike_tooltip": "",
-                "sub_tooltip": "",
-                "sup_tooltip": "",
-                "text_type_tooltip": "",
-                "unordered_list_tooltip": ""
+                "sub_tooltip": "Subskrip <{modifierKey}-,>",
+                "sup_tooltip": "Superskrip <{modifierKey}-.>",
+                "text_type_tooltip": "Pilih Jenis Teks",
+                "unordered_list_tooltip": "Daftar berpoin <shift-{modifierKey}-8>"
             }
         },
         "forum": {
             "settings": {
                 "composer_heading": "",
-                "use_rich_text_editor_label": "",
-                "rich_text_compact_paragraphs_label": ""
+                "use_rich_text_editor_label": "Gunakan rich text editor?",
+                "rich_text_compact_paragraphs_label": "Jangan pisahkan paragraf dengan baris baru."
             }
         }
     }

@@ -2,32 +2,32 @@
     "guest-posting": {
         "forum": {
             "alert": {
-                "create-account": "",
-                "create-account-votes-only": "",
-                "create-account-posts-and-votes": "",
-                "signup": ""
+                "create-account": "Hozzon létre most egy fiókot, és importálja a(z) {count} bejegyzését!",
+                "create-account-votes-only": "Hozzon létre most egy fiókot, és importálja a(z) {count} szavazatát!",
+                "create-account-posts-and-votes": "Hozzon létre most egy fiókot, és importálja a(z) {postCount} bejegyzését és a(z) {voteCount} szavazatát!",
+                "signup": "Regisztráció"
             },
             "modal": {
-                "import": "",
-                "import-votes": ""
+                "import": "{count} saját vendégbejegyzés importálása",
+                "import-votes": "{postCount} saját vendégbejegyzés és {voteCount} szavazat importálása"
             },
             "badge": {
-                "guest": ""
+                "guest": "Vendég"
             }
         },
         "admin": {
             "settings": {
-                "title": "",
-                "enableImport": "",
-                "sessionLifetime": "",
-                "usernames": ""
+                "title": "Vendégbejegyzések beállításai",
+                "enableImport": "A meglévő bejegyzések importálásának engedélyezése a regisztráció során",
+                "sessionLifetime": "Vendégmunkamenet élettartama órákban",
+                "usernames": "Véletlenszerű felhasználónevek a vendégekhez"
             }
         }
     },
     "core": {
         "lib": {
             "username": {
-                "deleted_text": ""
+                "deleted_text": "Vendég"
             }
         }
     }

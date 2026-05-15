@@ -21,20 +21,20 @@
                 "user_table_data": {
                     "title": "用户表数据",
                     "help_text": "多数情况下，我们会自动处理导出和抹除时的 <code>用户</code>表数据。\n然而，会存在一些特殊情况，如下。\n",
-                    "column": "",
-                    "type": "",
-                    "nullable": "",
-                    "pii": "",
-                    "redacted_on_export": "",
-                    "extension": "",
-                    "yes": "",
-                    "no": "",
-                    "pii_tooltip": "",
-                    "redacted_on_export_tooltip": ""
+                    "column": "列",
+                    "type": "类型",
+                    "nullable": "可为空",
+                    "pii": "个人身份信息",
+                    "redacted_on_export": "导出时隐藏",
+                    "extension": "扩展程序",
+                    "yes": "是",
+                    "no": "否",
+                    "pii_tooltip": "该列被视为个人身份信息，在匿名化场景（例如匿名化事件载荷）中将被隐藏。",
+                    "redacted_on_export_tooltip": "生成用户数据导出时，该列的值会被清空（设为 null）。该列仍会出现在导出文件中，但值为 null。"
                 }
             },
             "nav": {
-                "gdpr_button": "GDP 集成"
+                "gdpr_button": "GDPR 集成"
             },
             "permissions": {
                 "process_erasure": "处理账号抹除请求",
@@ -73,7 +73,7 @@
                     "delete_description": "从文件系统删除用户头像。",
                     "export_description": "从文件系统获取用户头像，并导出。"
                 },
-                "default_user_action": "",
+                "default_user_action": "无需操作，由默认的用户表数据处理方式自动处理。",
                 "discussions": {
                     "export_description": "导出用户发起的所有主题帖，数据仅限于标题和创建日期。"
                 },
@@ -156,9 +156,9 @@
                 "confirm": "确定要使用 {mode} 模式擦除 {name} 的帐号？",
                 "title": "处理账号抹除请求",
                 "text": "{name} 申请抹除帐号。",
-                "requested_at": "",
-                "confirmed_at": "",
-                "eligible_at": "",
+                "requested_at": "请求时间：{date}",
+                "confirmed_at": "确认时间：{date}",
+                "eligible_at": "符合自动处理条件：{date}",
                 "comments_label": "回复（可选）",
                 "anonymization_button": "匿名化用户",
                 "deletion_button": "删除用户"

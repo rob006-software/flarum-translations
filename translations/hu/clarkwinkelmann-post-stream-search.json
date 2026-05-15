@@ -2,43 +2,43 @@
     "clarkwinkelmann-post-stream-search": {
         "admin": {
             "settings": {
-                "dropdownAccess": "",
-                "dropdownAccessHelp": "",
-                "sideNavAccess": "",
-                "sideNavAccessHelp": "",
-                "authorQuickFilter": "",
-                "authorQuickFilterHelp": "",
-                "originalPosterBadge": "",
-                "originalPosterBadgeHelp": ""
+                "dropdownAccess": "Elérés a téma legördülőjén keresztül",
+                "dropdownAccessHelp": "Ha ki van kapcsolva, akkor az eszköztár csak a gyorsbillentyűn keresztül, vagy a többi alább bekapcsolt módon érhető el.",
+                "sideNavAccess": "Elérés a téma oldalsáv-navigációján keresztül",
+                "sideNavAccessHelp": "Ugyanaz, mint az előző beállítás, de a legördülő helyett a gomb külön bejegyzésként kerül az oldalsávba.",
+                "authorQuickFilter": "Gyors szűrő a bejegyzés szerzőjére",
+                "authorQuickFilterHelp": "Minden egyes bejegyzés legördülőjébe bekerül az arra a felhasználóra való szűrés.",
+                "originalPosterBadge": "Interaktív OP jelvény megjelenítés",
+                "originalPosterBadgeHelp": "Egy jelvény lesz hozzáadva az eredeti szerző (OP) bejegyzési mellé. A gombra kattintás automatikusan arra a felhasználóra szűr."
             }
         },
         "forum": {
             "stream": {
-                "noResults": "",
-                "unmatchedGap": "",
-                "otherAuthorsGap": ""
+                "noResults": "A keresési kifejezésre nem található bejegyzés ebben a témában",
+                "unmatchedGap": "{count, plural, one {Egy nem egyező bejegyzés elrejtve} other {{count} nem egyező bejegyzés elrejtve}}",
+                "otherAuthorsGap": "{count, plural, one {Egy más szerzőtől származó bejegyzés elrejtve} other {{count} más szerzőtől származó bejegyzés elrejtve}}"
             },
             "toolbar": {
-                "searchPlaceholder": "",
-                "authorPlaceholder": "",
-                "summary": "",
-                "pin": "",
-                "close": "",
-                "clear": ""
+                "searchPlaceholder": "Keresés a témában…",
+                "authorPlaceholder": "Szűrés szerző szerint…",
+                "summary": "{matching} / {total} egyezik",
+                "pin": "A témák szűrési eszköztárának megnyitása mindig",
+                "close": "Szűrők törlése és az eszköztár bezárása",
+                "clear": "Szűrők törlése"
             },
             "discussionControls": {
-                "searchInDiscussion": ""
+                "searchInDiscussion": "Téma keresése"
             },
             "postControls": {
-                "authorFilter": ""
+                "authorFilter": "Válaszok megjelenítése csak ettől a szerzőtől"
             },
             "post": {
-                "opBadge": "",
-                "opBadgeTooltip": ""
+                "opBadge": "Témaindító",
+                "opBadgeTooltip": "Kattintson csak a felhasználó válaszai megjelenítéséhez"
             },
             "cannotGoToPost": {
-                "message": "",
-                "action": ""
+                "message": "Nem lehet a bejegyzéshez ugorni",
+                "action": "Próbálja törölni a szűrőket"
             }
         }
     }

@@ -10,7 +10,7 @@
             "search": {
                 "users_heading": "Поиск всех пользователей: \"{query}\"",
                 "field": {
-                    "placeholder": "Найти всех пользователей..."
+                    "placeholder": "Найти пользователей..."
                 },
                 "kinds": {
                     "group": "Группа",
@@ -21,7 +21,7 @@
                 "nav": "Список участников",
                 "refresh_tooltip": "=> core.forum.index.refresh_tooltip",
                 "load_more_button": "=> core.ref.load_more",
-                "empty_text": "Пользователи, соответствующие Вашему запросу, не найдены.",
+                "empty_text": "Пользователи по вашему запросу не найдены.",
                 "filter_button": "Фильтр групп",
                 "usercard": {
                     "discussion-count": "{count, plural, one { {count} дискуссия} other {{count} дискуссий}}",
@@ -34,7 +34,7 @@
                 "view_user_directory": "Смотреть список участников"
             },
             "settings": {
-                "link": "Ссылка на странице форума",
+                "link": "Показывать ссылку в навигации форума",
                 "default-sort": "Сортировка по умолчанию",
                 "use-small-cards": "Маленькие карточки участников",
                 "disable-global-search-source": "Не добавлять каталог участников в поле глобального поиска",

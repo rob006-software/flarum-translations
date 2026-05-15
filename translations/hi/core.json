@@ -42,7 +42,13 @@
                 "slug_driver_text": "इस मॉडल को स्लगिंग करने के लिए उपयोग किए जाने वाले ड्राइवर का चयन करें।",
                 "title": "मूल बातें",
                 "welcome_banner_heading": "स्वागत बैनर",
-                "welcome_banner_text": "सभी चर्चा पन्ने पर बैनर में प्रदर्शित होने वाले पाठ को कॉन्फ़िगर करें। अपने मंच पर मेहमानों का स्वागत करने के लिए इसका इस्तेमाल करें।"
+                "welcome_banner_text": "सभी चर्चा पन्ने पर बैनर में प्रदर्शित होने वाले पाठ को कॉन्फ़िगर करें। अपने मंच पर मेहमानों का स्वागत करने के लिए इसका इस्तेमाल करें।",
+                "abandoned_extensions_heading": "",
+                "abandoned_extensions_text": "",
+                "abandoned_extensions_sync_button": "",
+                "abandoned_extensions_sync_success": "",
+                "abandoned_extensions_sync_error": "",
+                "abandoned_extensions_notify_admins_label": ""
             },
             "create_user": {
                 "email_placeholder": "=> core.ref.email",
@@ -53,6 +59,20 @@
                 "title": "नया उपयोगकर्ता बनाएं",
                 "use_random_password": "यादृच्छिक पासवर्ड जनरेट करें",
                 "username_placeholder": "=> core.ref.username"
+            },
+            "announcements": {
+                "comments_label": "",
+                "description": "",
+                "empty": "",
+                "load_error": "",
+                "about": "",
+                "hide": "",
+                "read_more": "",
+                "refresh": "",
+                "retry": "",
+                "show": "",
+                "title": "",
+                "view_all": ""
             },
             "dashboard": {
                 "clear_cache_button": "कैश को साफ़ करें",
@@ -184,6 +204,7 @@
                     "discussion": "विचार-विमर्श",
                     "feature": "विशेषताएं",
                     "formatting": "स्वरूपण",
+                    "forum-widget": "",
                     "language": "भाषाई",
                     "moderation": "चर्चा नियंत्रण",
                     "other": "अन्य एक्सटेंशन",
@@ -712,6 +733,12 @@
             "send_test": {
                 "subject": "फ्लॉरुम ईमेल परीक्षण",
                 "body": "हे {username}!\n\nयह पुष्टि करने के लिए एक परीक्षण ईमेल है कि आपका फ्लॉरुम ईमेल कॉन्फ़िगरेशन ठीक से काम कर रहा है।\n\nअगर यह आप थे, तो इस ईमेल का मतलब है कि आपका कॉन्फ़िगरेशन काम करता है!\n\nयदि यह आप नहीं थे, तो कृपया इस ईमेल पर ध्यान न दें।\n"
+            },
+            "abandoned_extensions": {
+                "subject": "",
+                "body": "",
+                "line_with_replacement": "",
+                "line_no_replacement": ""
             }
         },
         "ref": {

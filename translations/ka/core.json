@@ -42,7 +42,13 @@
                 "slug_driver_text": "შეარჩიეთ დრაივერი, რომელიც გამოიყენება ამ მოდელის სლუგინგისთვის.",
                 "title": "საფუძვლები",
                 "welcome_banner_heading": "მისალმების ბანერი",
-                "welcome_banner_text": "ტექსტის კონფიგურაცია, რომელიც აჩვენებს ბანერზე ყველა განხილვის გვერდზე. გამოიყენეთ ეს თქვენს ფორუმზე სტუმრების მისასალმებლად."
+                "welcome_banner_text": "ტექსტის კონფიგურაცია, რომელიც აჩვენებს ბანერზე ყველა განხილვის გვერდზე. გამოიყენეთ ეს თქვენს ფორუმზე სტუმრების მისასალმებლად.",
+                "abandoned_extensions_heading": "",
+                "abandoned_extensions_text": "",
+                "abandoned_extensions_sync_button": "",
+                "abandoned_extensions_sync_success": "",
+                "abandoned_extensions_sync_error": "",
+                "abandoned_extensions_notify_admins_label": ""
             },
             "create_user": {
                 "email_placeholder": "",
@@ -53,6 +59,20 @@
                 "title": "",
                 "use_random_password": "",
                 "username_placeholder": ""
+            },
+            "announcements": {
+                "comments_label": "",
+                "description": "",
+                "empty": "",
+                "load_error": "",
+                "about": "",
+                "hide": "",
+                "read_more": "",
+                "refresh": "",
+                "retry": "",
+                "show": "",
+                "title": "",
+                "view_all": ""
             },
             "dashboard": {
                 "clear_cache_button": "ქეშის გასუფთავება",
@@ -182,6 +202,7 @@
                     "discussion": "დისკუსია",
                     "feature": "მახასიათებლები",
                     "formatting": "ფორმატირება",
+                    "forum-widget": "",
                     "language": "ენები",
                     "moderation": "მოდერაცია",
                     "other": "სხვა გაფართოებები",
@@ -705,6 +726,12 @@
             "send_test": {
                 "subject": "Flarum ელ.ფოსტის ტესტი",
                 "body": "ჰეი {username}!\n\nეს არის სატესტო ელ.წერილი, რომ დაადასტუროთ, რომ თქვენი Flarum ელ.ფოსტის კონფიგურაცია მუშაობს სწორად.\n\nთუ ეს თქვენ იყავით, ეს ნიშნავს, რომ ელ.ფოსტის კონფიგურაცია წარმატებით მუშაობს!\n\nთუ ეს თქვენ არ იყავით, გთხოვთ დააიგნორეთ ეს ელ.ფოსტა.\n"
+            },
+            "abandoned_extensions": {
+                "subject": "",
+                "body": "",
+                "line_with_replacement": "",
+                "line_no_replacement": ""
             }
         },
         "ref": {

@@ -13,7 +13,6 @@
 
 declare(strict_types=1);
 
-use app\components\release\PolishReleaseGenerator;
 use app\components\release\ReleaseGenerator;
 
 return [
@@ -350,7 +349,7 @@ return [
 			'class' => ReleaseGenerator::class,
 			'versionTemplate' => 'v4.Minor.Patch',
 		],
-		'maintainers' => ['qiaeru'],
+		'maintainers' => ['Wlork'],
 	],
 	'ga' => [
 		'type' => 'language',
@@ -719,7 +718,7 @@ return [
 		'branch' => 'master',
 		'path' => '/locale',
 		'releaseGenerator' => [
-			'class' => PolishReleaseGenerator::class,
+			'class' => ReleaseGenerator::class,
 			'versionTemplate' => 'v1.Minor.Patch',
 		],
 		'maintainers' => ['rob006'],
