@@ -72,7 +72,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/datlechin/flarum-more-discussions/v2.0.0-beta.1/locale/en.yml',
 	],
 	'datlechin-passkey' => [
-		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-passkey/v1.0.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-passkey/v2.0.0/locale/en.yml',
 		'__builtInLanguages' => [
 			'vi',
 		],
