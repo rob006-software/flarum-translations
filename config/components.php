@@ -599,7 +599,7 @@ return [
 		],
 	],
 	'ramon-stickers' => [
-		'tag' => 'https://raw.githubusercontent.com/ram0ng1/stickers/v2.0.13/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ram0ng1/stickers/v2.0.15/locale/en.yml',
 	],
 	'ramon-verified' => [
 		'tag' => 'https://raw.githubusercontent.com/ram0ng1/verified/v2.0.19/locale/en.yml',
