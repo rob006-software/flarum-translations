@@ -973,6 +973,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`michaelbelgium-profile-views`](https://weblate.rob006.net/projects/flarum2/michaelbelgium-profile-views) | [`michaelbelgium/flarum-profile-views`](https://github.com/MichaelBelgium/flarum-profile-views) |
 | [`michaelbelgium-mybb-to-flarum`](https://weblate.rob006.net/projects/flarum2/michaelbelgium-mybb-to-flarum) | [`michaelbelgium/mybb-to-flarum`](https://github.com/MichaelBelgium/mybb_to_flarum) |
 | [`migratetoflarum-fake-data`](https://weblate.rob006.net/projects/flarum2/migratetoflarum-fake-data) | [`migratetoflarum/fake-data`](https://github.com/migratetoflarum/fake-data) |
+| [`peopleinside-fla-powcaptcha`](https://weblate.rob006.net/projects/flarum2/peopleinside-fla-powcaptcha) | [`peopleinside/fla-powcaptcha`](https://github.com/PeopleInside/fla-powcaptcha) |
 | [`pianotell-flamoji`](https://weblate.rob006.net/projects/flarum2/pianotell-flamoji) | [`pianotell/flarum-ext-flamoji`](https://github.com/PrimateCoder/flarum-flamoji) |
 | [`quasimo-carousel-grids`](https://weblate.rob006.net/projects/flarum2/quasimo-carousel-grids) | [`quasimo/flarum-ext-carousel-grids`](https://github.com/Quasimo/flarum-ext-carousel-grids) |
 | [`quasimo-llms-txt`](https://weblate.rob006.net/projects/flarum2/quasimo-llms-txt) | [`quasimo/flarum-ext-llms-txt`](https://github.com/Quasimo/flarum-ext-llms-txt) |
