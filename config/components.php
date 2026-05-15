@@ -508,6 +508,12 @@ return [
 	'migratetoflarum-fake-data' => [
 		'beta' => 'https://raw.githubusercontent.com/migratetoflarum/fake-data/2.0.0-beta.1/resources/locale/en.yml',
 	],
+	'peopleinside-fla-powcaptcha' => [
+		'tag' => 'https://raw.githubusercontent.com/PeopleInside/fla-powcaptcha/1.9/locale/en.yml',
+		'__builtInLanguages' => [
+			'it',
+		],
+	],
 	'pianotell-flamoji' => [
 		'tag' => 'https://raw.githubusercontent.com/PrimateCoder/flarum-flamoji/v2.1.0/locale/en.yml',
 	],
