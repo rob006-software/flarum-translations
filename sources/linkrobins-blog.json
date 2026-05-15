@@ -1,48 +1,7 @@
 {
     "linkrobins-blog": {
-        "forum": {
-            "empty_state": "No blog posts here yet. Make sure (1) the tag slugs configured in admin match real tags on your forum (lowercase, look at the slug column in Admin → Tags), and (2) at least one discussion exists in one of those tags.",
-            "not_found": "We could not find that post.",
-            "load_more": "Load more",
-            "comments_heading": "{count, plural, one {# Comment} other {# Comments}}",
-            "no_comments_heading": "Comments",
-            "no_comments": "No comments yet. Be the first to share your thoughts.",
-            "leave_comment": "Leave a comment",
-            "login_to_comment": "Log in to leave a comment",
-            "actions_label": "Post actions",
-            "nav": {
-                "blog_link": "Blog",
-                "forum_link": "Forum",
-                "home_link": "Home"
-            }
-        },
         "admin": {
-            "settings": {
-                "tag_slugs_label": "Blog tag slugs",
-                "tag_slugs_help": "One or more tag slugs, one per line or comma-separated. Discussions tagged with any of these are treated as blog posts. Each tag must already exist in your forum's tag list. For example, leave it as `blog` for a single category, or set `news\\ntutorials\\nopinion` for multiple sections.",
-                "title_label": "Blog title",
-                "title_help": "Shown in the hero at the top of the blog index. Leave blank to fall back to your forum title.",
-                "tagline_label": "Tagline",
-                "tagline_help": "Optional one-line description shown under the blog title.",
-                "show_featured_label": "Show featured post",
-                "show_featured_help": "When enabled, the newest blog post is displayed in a larger featured card at the top of the index.",
-                "nav_label_label": "Navigation label",
-                "nav_label_help": "The label for the blog link in the forum navigation. Leave blank to use the default (\"Blog\").",
-                "nav_icon_label": "Navigation icon",
-                "nav_icon_help": "Font Awesome class for the blog link's icon (e.g. fas fa-feather-alt, fas fa-book, fas fa-newspaper, fas fa-pencil-alt). Leave blank to use the default.",
-                "header_mode_label": "Hero header style",
-                "header_mode_help": "Choose what appears at the top of the blog index. Logo uses your forum's site logo (configured under Admin → Appearance). Custom lets you specify your own image URL below.",
-                "header_mode_text": "Text — Blog title",
-                "header_mode_logo": "Logo — Forum site logo",
-                "header_mode_custom": "Custom image URL",
-                "custom_logo_url_label": "Custom logo URL",
-                "custom_logo_url_help": "Used only when \"Hero header style\" is set to Custom. Accepts any image URL. Leave blank to fall back to text.",
-                "homepage_label": "Homepage",
-                "homepage_pointer_help": "To make the blog (or any other page) the default landing page visitors see, use Flarum's standard Home Page picker on the Basics admin page."
-            },
-            "basics": {
-                "home_label": "Blog (Link Robins)"
-            }
+            "placeholder": "Blog backend is installed. Admin UI for managing posts and categories is coming in a follow-up release. Until then, the JSON:API endpoints under /api/linkrobins-blog-posts can be used directly."
         }
     }
 }
