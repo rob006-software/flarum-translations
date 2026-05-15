@@ -1765,6 +1765,71 @@
             }
         }
     },
+    "fof-moderator-warnings.json": {
+        "fof-moderator-warnings": {
+            "admin": {
+                "permissions": {
+                    "delete_warnings": "9003879b4ea7ffd4c1370376bfd02948 9003879b4ea7ffd4c1370376bfd02948",
+                    "manage_warnings": "0d260e7394fbc251c96d30dfa51ce729 0d260e7394fbc251c96d30dfa51ce729",
+                    "view_warnings": "03222ad53f9888cde7f1da2c6889b431 03222ad53f9888cde7f1da2c6889b431"
+                }
+            },
+            "emails": {
+                "post_warned": {
+                    "body": "bf70237b8994372cf246247f559d9a5d bf70237b8994372cf246247f559d9a5d",
+                    "subject": "3a4f899a2b516c970412b77972580cae 3a4f899a2b516c970412b77972580cae"
+                },
+                "user_warned": {
+                    "body": "d239af75f8947841df386ca844d9aa30 d239af75f8947841df386ca844d9aa30",
+                    "subject": "9fb55bd733e118a15763b8747c6ae43d 9fb55bd733e118a15763b8747c6ae43d"
+                }
+            },
+            "forum": {
+                "notifications": {
+                    "warning_no_strikes_text": "25a7153edd5739618b1cedcdbd1b5a5f 25a7153edd5739618b1cedcdbd1b5a5f",
+                    "warning_text": "301e5965363cde2add9426b92f0d142c 301e5965363cde2add9426b92f0d142c"
+                },
+                "post": {
+                    "warning": "4b5928168eb3885be18353edb54dc8b1 4b5928168eb3885be18353edb54dc8b1",
+                    "warning_no_strikes": "755d30dd7b35eecdd65403cce60d414c 755d30dd7b35eecdd65403cce60d414c"
+                },
+                "post_controls": {
+                    "warning_button": "62044993ade48685e3c68a878e1682aa 62044993ade48685e3c68a878e1682aa"
+                },
+                "settings": {
+                    "warning_notification_label": "9d3118dcb32a338c0b24899c883ca1f0 9d3118dcb32a338c0b24899c883ca1f0"
+                },
+                "validation": {
+                    "invalid_strike_count": "0c12e5c139abcb9c5bcfb0d6a764537b 0c12e5c139abcb9c5bcfb0d6a764537b",
+                    "public_comment_required": "e0a504bb0652c31167f2ae7cd178b3c4 e0a504bb0652c31167f2ae7cd178b3c4"
+                },
+                "warning_controls": {
+                    "delete_button": "f97fb0f186225411caa42120def91180 f97fb0f186225411caa42120def91180",
+                    "delete_forever_button": "722bbbd1089b34bbd28a78f25b8f08fe 722bbbd1089b34bbd28a78f25b8f08fe",
+                    "restore_button": "b35e6270d9f6cb16e93cbaf6ccec4da6 b35e6270d9f6cb16e93cbaf6ccec4da6"
+                },
+                "warning_list": {
+                    "add_button": "641d1572189e21963b17ec735c539337 641d1572189e21963b17ec735c539337",
+                    "no_warnings": "e4d491367fd8b566400d580eca8a20d4 e4d491367fd8b566400d580eca8a20d4",
+                    "warnings": "0f43c0d19b26c10c7790c7948901b942 0f43c0d19b26c10c7790c7948901b942",
+                    "warnings_no_strikes": "f7a827d894d53a6447f2bf36dfdbaf26 f7a827d894d53a6447f2bf36dfdbaf26"
+                },
+                "warning_list_item": {
+                    "linked_post": "b35df915d72163b4b8c06c83fad0866d b35df915d72163b4b8c06c83fad0866d",
+                    "private_comment": "bcebf6a504ef069eeef126f7b0f14bf6 bcebf6a504ef069eeef126f7b0f14bf6",
+                    "public_comment": "4fb76d625ff5917c5323e7c59600dee3 4fb76d625ff5917c5323e7c59600dee3"
+                },
+                "warning_modal": {
+                    "confirmation_message": "9186b0b8b58693298ae304a8d916ebcc 9186b0b8b58693298ae304a8d916ebcc",
+                    "heading": "a0cce3c3b8c17ec3a24a2543536349e3 a0cce3c3b8c17ec3a24a2543536349e3",
+                    "private_comment_heading": "df4d9d4e79e822d7d844b2890a594f23 df4d9d4e79e822d7d844b2890a594f23",
+                    "public_comment_heading": "46a2e00fa281b7b40de047e171e6a3a7 46a2e00fa281b7b40de047e171e6a3a7",
+                    "strikes_heading": "d82e76c8e53a6cc0e4a3b6e2bb3aad53 d82e76c8e53a6cc0e4a3b6e2bb3aad53",
+                    "submit_button": "136f992e7d133699f2a09b4428717c6b 136f992e7d133699f2a09b4428717c6b"
+                }
+            }
+        }
+    },
     "fof-polls.json": {
         "fof-polls": {
             "admin": {
