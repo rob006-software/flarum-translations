@@ -16,7 +16,7 @@
                 "current_balance": "当前余额",
                 "current_lifetime": "历史总额",
                 "amount_label": "数量",
-                "amount_help": "",
+                "amount_help": "增加余额和总计积分；扣除余额（总计积分不变）。",
                 "reason_label": "理由（可选）",
                 "reason_placeholder": "例如：论坛贡献",
                 "add": "添加",
@@ -25,7 +25,7 @@
                 "removed": "移除{name}的{amount}个积分。"
             },
             "nav": {
-                "shop": "荣誉",
+                "shop": "道具中心",
                 "my_decorations": "我的装饰"
             },
             "confirm": {
@@ -39,10 +39,10 @@
                 "confirm": "确认"
             },
             "badge": {
-                "tooltip": ""
+                "tooltip": "{balance} {currency} （总计：{lifetime}）"
             },
             "shop": {
-                "title": "荣誉",
+                "title": "道具中心",
                 "subtitle": "消费积分购买装饰和道具。",
                 "your_balance": "你的余额",
                 "lifetime": "总计",
@@ -50,10 +50,10 @@
                 "tab_avatar": "头像边框",
                 "tab_name": "名称样式",
                 "tab_cover": "个人资料封面",
-                "tab_title": "自定义标题",
+                "tab_title": "自定义头衔",
                 "tab_post_hl": "帖子高亮",
                 "tab_tiers": "用户组分级",
-                "toggle_nav_label": "",
+                "toggle_nav_label": "开启或关闭道具中心菜单",
                 "tiers_empty": "暂无已配置的用户组。",
                 "empty": "暂无可用的内容。",
                 "claim": "兑换",
@@ -85,12 +85,12 @@
                 "avatar": "头像边框",
                 "name": "名称样式",
                 "cover": "个人资料封面",
-                "custom_title": "自定义标题",
+                "custom_title": "自定义头衔",
                 "post_hl": "帖子高亮",
                 "none": "你暂未获得此类装饰。",
                 "equip": "佩戴",
                 "unequip": "取消佩戴",
-                "toggle_nav_label": ""
+                "toggle_nav_label": "开启或关闭装饰中心菜单"
             }
         },
         "admin": {
@@ -101,7 +101,7 @@
             "cancel": "取消",
             "confirm_delete": "确定删除吗？该操作无法撤回。",
             "permissions": {
-                "view_shop": "查看荣誉",
+                "view_shop": "查看道具",
                 "view_others": "查看其它用户的积分",
                 "claim": "兑换道具",
                 "manage": "管理积分体系"
@@ -112,14 +112,14 @@
                 "avatar": "头像边框",
                 "name": "名称样式",
                 "cover": "个人资料封面",
-                "title": "自定义标题",
+                "title": "自定义头衔",
                 "post_hl": "帖子高亮",
                 "groups": "自动用户组",
                 "manual": "赠送或扣除"
             },
             "cover": {
                 "title": "个人资料封面",
-                "help": "",
+                "help": "购买用户个人资料横幅装饰。支持静态或动画格式的PNG、JPG、GIF、WebP或APNG。",
                 "upload_title": "添加新封面",
                 "field_name": "名称",
                 "field_description": "描述",
@@ -175,7 +175,7 @@
                 "title_deco_enabled": "启用自定义标题",
                 "title_deco_enabled_help": "主开关。在帖子的用户名旁边，展示已佩戴的标题勋章。",
                 "post_hl_deco_enabled": "启用帖子高亮",
-                "post_hl_deco_enabled_help": "",
+                "post_hl_deco_enabled_help": "主开关。在用户帖子上显示已佩戴的高亮装饰（边框/光晕/彩条）。",
                 "deco_in_posts": "跟帖中展示装饰",
                 "deco_in_posts_help": "在帖子和回帖中展示头像和用户名装饰。",
                 "deco_in_user_card": "用户卡/个人资料中展示装饰",
@@ -185,7 +185,7 @@
                 "hide_badges_with_avatar_deco": "佩戴头像边框时隐藏用户勋章",
                 "hide_badges_with_avatar_deco_help": "开启后，如果用户佩戴了头像装饰，为了保持界面清爽，原本显示在头像旁边的管理员/版主/自定义勋章将被隐藏。",
                 "currency_name": "积分名称",
-                "currency_name_help": "积分的复数文本（中文不适用）",
+                "currency_name_help": "积分的复数文本（中文不适用）。",
                 "currency_icon": "积分图标Class",
                 "currency_icon_help": "FontAwesome的Class，例如fas fa-coins。",
                 "points_per_discussion": "发帖积分",
@@ -218,7 +218,7 @@
             },
             "name": {
                 "title": "用户名装饰",
-                "help": "",
+                "help": "选择烈焰、冰晶、彩虹等预设装饰，或设置自定义CSS。",
                 "create_title": "创建新装饰",
                 "create": "创建装饰",
                 "created": "装饰创建成功。",
@@ -227,7 +227,7 @@
                 "field_preset": "预设",
                 "field_price": "价格",
                 "field_css": "自定义CSS（可选）",
-                "field_css_help": "",
+                "field_css_help": "支持两种模式。模式1：直接将CSS属性应用于用户名（例如「color: gold; font-weight: 700;」）。模式2：将&符号作为选择器占位符的完整CSS，支持 @keyframes、伪元素以及多规则。",
                 "preset": "预设",
                 "preview": "实时预览",
                 "preset_gold": "🥇金牌",
@@ -260,26 +260,26 @@
                 "none": "暂无已创建的装饰。"
             },
             "title": {
-                "title": "自定义标题",
-                "help": "",
-                "create_title": "创建标题",
-                "create": "创建标题",
+                "title": "自定义头衔",
+                "help": "在用户名旁边显示勋章短文本（例如「种子用户」或「水贴能手」）。可为每种头衔设置不同的颜色和可选择的自定义CSS。",
+                "create_title": "创建新头衔",
+                "create": "创建头衔",
                 "created": "标题创建成功。",
                 "field_name": "名称（管理员文本）",
                 "field_title_text": "可见勋章文本",
                 "field_title_text_help": "用户可见内容（最长60字符）。此内容将展示在用户名旁边，需要剪短。",
                 "field_description": "描述",
                 "field_color": "主色",
-                "field_color_help": "",
+                "field_color_help": "用于渲染头衔勋章背景色的CSS颜色值（#hex，rgb()或颜色名称）。",
                 "field_price": "价格",
                 "field_css": "自定义CSS（可选）",
-                "field_css_help": "",
-                "existing": "已有标题",
+                "field_css_help": "与名称装饰相同，支持属性列表和带有「&」占位符的完整CSS。",
+                "existing": "已有头衔",
                 "none": "暂无已创建的标题。"
             },
             "post_hl": {
                 "title": "帖子高亮",
-                "help": "",
+                "help": "在帖子用户旁边，显示边框、光晕或彩带。选择预设或设置自定义CSS。",
                 "create_title": "创建高亮",
                 "create": "创建高亮",
                 "created": "高亮创建成功。",
@@ -288,7 +288,7 @@
                 "field_preset": "预设",
                 "field_price": "价格",
                 "field_css": "自定义CSS（可选）",
-                "field_css_help": "",
+                "field_css_help": "使用「&」选择器占位符（匹配帖子容器）。",
                 "preset": "预设",
                 "preset_gold-border": "🥇金牌边框",
                 "preset_silver-border": "🥈银牌边框",
@@ -309,7 +309,7 @@
                 "help": "根据总计积分赋予用户组，随积分增长自动赋予。",
                 "create": "添加级别",
                 "field_group": "用户组",
-                "field_points": "",
+                "field_points": "所需积分（兑换时从余额扣除）",
                 "choose_group": "–选择一个用户组–",
                 "add": "添加",
                 "existing": "已配置的分级",
