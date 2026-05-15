@@ -5,6 +5,26 @@
                 "pending_limit": "You have too many posts or topics pending approval. Please wait until some are reviewed before creating new content.",
                 "flood_limit": "You are posting too quickly. Please wait {minutes} minutes before posting again."
             }
+        },
+        "admin": {
+            "description": "Prevent topic/reply flooding and limit pending approvals.",
+            "settings": {
+                "max_pending_label": "Maximum pending posts",
+                "max_pending_help": "Maximum number of posts and topics a user can have awaiting approval before being blocked from posting. Default: 6.",
+                "flood_limit_label": "Topic flood limit",
+                "flood_limit_help": "Maximum number of new topics a user can create within the flood interval before being blocked. Default: 3. Note: Flarum already enforces a built-in 10-second cooldown between all posts and topics.",
+                "post_flood_limit_label": "Reply flood limit",
+                "post_flood_limit_help": "Maximum number of new replies a user can post within the flood interval before being blocked. Set to 0 to disable (relies on Flarum's built-in 10-second throttle). Default: 0.",
+                "flood_interval_minutes_label": "Flood interval (minutes)",
+                "flood_interval_minutes_help": "Time window in minutes used to count recent topic or reply creations. Applies to both topic and reply flood limits. Default: 5.",
+                "pending_limit_message_label": "Custom message: pending limit reached",
+                "pending_limit_message_help": "Override the default error message shown when a user hits the pending-posts limit. Leave empty to use the default.",
+                "flood_limit_message_label": "Custom message: flood limit reached",
+                "flood_limit_message_help": "Override the default error message shown when a user posts too quickly. Leave empty to use the default. You can use {minutes} as a placeholder.",
+                "pending_limit_message_suggestion": "You have too many posts or topics pending approval. Please wait until some are reviewed before creating new content.",
+                "flood_limit_message_suggestion": "You are posting too quickly. Please wait {minutes} minutes before posting again.",
+                "reset_button": "Reset"
+            }
         }
     }
 }
