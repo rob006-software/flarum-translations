@@ -1,0 +1,44 @@
+{
+    "fof-recaptcha": {
+        "admin": {
+            "settings": {
+                "help_text": "Ottieni credenziali Google reCAPTCHA  <a>qui</a>.",
+                "secret_key_label": "Chiave segreta",
+                "site_key_label": "Chiave sito",
+                "type_label": "Tipo reCAPTCHA",
+                "type_help": "",
+                "type_options": {
+                    "checkbox": "",
+                    "invisible": "",
+                    "v3": ""
+                },
+                "v3_threshold_label": "",
+                "v3_threshold_help": "",
+                "signup": "=> core.forum.sign_up.title",
+                "signin": "=> core.forum.log_in.title",
+                "forgot": "=> core.forum.forgot_password.title"
+            },
+            "test": {
+                "title": "Testa reCAPTCHA",
+                "help_text": "Questo test utilizzerà i valori correnti immessi sopra. Assicurati di ricaricare il test dopo aver modificato le impostazioni e non dimenticare di salvare una volta che il test è stato superato!\nDi seguito potrebbero non essere riportate le impostazioni salvate.\n",
+                "success_message": "Riuscito! reCAPTCHA è configurato correttamente.",
+                "load_test_button": "Carica",
+                "submit_button": "Invia",
+                "reload_button": "Ricarica"
+            },
+            "permissions": {
+                "post_without_captcha": "Crea post e discussioni senza captcha"
+            }
+        },
+        "lib": {
+            "error": "",
+            "not_completed": "",
+            "rejected": "",
+            "unknown_error": ""
+        }
+    },
+    "validation": {
+        "recaptcha": "Validazione reCAPTCHA fallita.",
+        "recaptcha-unknown": "Si è verificato un errore sconosciuto durante la convalida di reCAPTCHA ({errors})."
+    }
+}

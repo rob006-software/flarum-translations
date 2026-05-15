@@ -1,0 +1,32 @@
+{
+    "linkrobins-referral": {
+        "forum": {
+            "profile": {
+                "tab": "Referrals",
+                "invite_code_title": "Your Invite Code",
+                "invite_code_help": "Share your code or referral link. Anyone who visits your link will have the code pre-filled automatically when they sign up.",
+                "copy": "Copy",
+                "copy_link": "Copy Referral Link",
+                "total_referrals": "Total Referrals",
+                "no_referrals": "No referrals yet. Share your invite code to get started!"
+            },
+            "sign_up": {
+                "invite_code_label": "Invite Code",
+                "invite_code_label_required": "Invite Code *",
+                "invite_code_placeholder": "e.g. K7XM2QNP"
+            }
+        },
+        "admin": {
+            "settings": {
+                "require_label": "Require invite code to register",
+                "require_help": "When enabled, users must enter a valid invite code to complete registration.",
+                "enabled": "Enabled",
+                "disabled": "Disabled"
+            }
+        },
+        "validation": {
+            "required": "An invite code is required to register.",
+            "invalid": "Invalid invite code."
+        }
+    }
+}

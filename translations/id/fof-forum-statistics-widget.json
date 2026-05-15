@@ -1,0 +1,30 @@
+{
+    "fof-forum-statistics-widget": {
+        "forum": {
+            "navbar": {
+                "widget_title": "Statistik Forum",
+                "discussions_count": "Diskusi: {discussionsCount}",
+                "posts_count": "Post: {postsCount}",
+                "users_count": "Anggota: {usersCount}",
+                "latest_member": "Anggota Terbaru: "
+            }
+        },
+        "admin": {
+            "settings": {
+                "cache_duration_label": "Durasi Cache",
+                "cache_duration_help": "Tentukan berapa lama statistik untuk widget harus disimpan dalam cache (dalam detik). <code>0</code> untuk menonaktifkan cache (tidak disarankan).",
+                "flush_cache_on_new_registration_label": "Bersihkan Cache Statistik pada Pendaftaran Baru",
+                "flush_cache_on_new_registration_help": "Jika diaktifkan, cache statistik akan dibersihkan ketika pengguna baru mendaftar di forum.",
+                "widget_ignore_private_discussions_label": "Abaikan Diskusi Pribadi",
+                "classic_look_label": "Tampilan Klasik",
+                "classic_look_help": "Kembalikan tampilan widget asli yang digunakan sebelum integrasi fof/forum-widgets-core."
+            },
+            "permissions": {
+                "view_discussions_count_label": "Melihat widget statistik jumlah diskusi",
+                "view_posts_count_label": "Melihat widget statistik jumlah post",
+                "view_users_count_label": "Melihat widget statistik jumlah pengguna forum",
+                "view_lastest_member_label": "Melihat widget statistik anggota forum terbaru"
+            }
+        }
+    }
+}

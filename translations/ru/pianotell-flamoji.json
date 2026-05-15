@@ -1,0 +1,115 @@
+{
+    "pianotell-flamoji": {
+        "admin": {
+            "settings": {
+                "emoji_settings_heading": "Настройки Emoji",
+                "category_settings_heading": "Настройки категорий",
+                "general_ui_settings_heading": "Основные настройки интерфейса",
+                "show_variants_label": "Показывать варианты тонов кожи",
+                "show_variants_text": "Некоторые эмодзи имеют варианты тонов кожи. Если выбран эмодзи с вариантами, появится дополнительное окно выбора тона кожи.",
+                "auto_hide_label": "Автоскрытие",
+                "auto_hide_text": "Скрывать окно выбора после выбора эмодзи.",
+                "show_preview_label": "Показывать раздел предпросмотра",
+                "show_preview_text": "Показывать имя эмодзи, короткий код и селектор тонов кожи в панели предпросмотра под сеткой окна выбора.",
+                "show_category_buttons_label": "Показывать кнопки категорий",
+                "show_category_buttons_text": "Показывать строку значков категорий. Можно отключить, если активны только одна или две категории эмодзи.",
+                "show_search_label": "Показывать поле поиска",
+                "show_search_text": "Показывать поле поиска в верхней части окна выбора.",
+                "show_recents_label": "Показывать и сохранять часто использованные эмодзи",
+                "show_recents_text": "Показывать вкладку «Часто используемые» в верхней части окна выбора. Часто используемые эмодзи каждого пользователя сохраняются только в его браузере.",
+                "prepopulate_recents_label": "Предзаполнять популярными эмодзи",
+                "prepopulate_recents_text": "Если включено, раздел «Часто используемые» будет показывать набор популярных эмодзи по умолчанию, пока пользователь не начнёт выбирать свои. Если отключено, раздел изначально пуст и заполняется по мере использования эмодзи.",
+                "frequent_rows_label": "Строки часто используемых эмодзи",
+                "frequent_rows_text": "Количество строк недавно/часто используемых эмодзи для отображения в верхней части окна выбора (1-10).",
+                "picker_set_label": "Стиль эмодзи",
+                "picker_set_text": "Как отображаются эмодзи в окне выбора. При «Автоматически» используется Twemoji, если включено, или нативный вариант ОС.",
+                "picker_set_auto": "Автоматически",
+                "picker_set_twemoji": "Twemoji",
+                "picker_set_native": "Нативно",
+                "specify_categories_label": "Укажите категории",
+                "specify_categories_text": "Выберите здесь категории — окно выбора будет показывать только их.",
+                "emoji_categories": {
+                    "people": "=> pianotell-flamoji.ref.emoji_categories.people",
+                    "nature": "=> pianotell-flamoji.ref.emoji_categories.nature",
+                    "foods": "=> pianotell-flamoji.ref.emoji_categories.foods",
+                    "activity": "=> pianotell-flamoji.ref.emoji_categories.activity",
+                    "places": "=> pianotell-flamoji.ref.emoji_categories.places",
+                    "objects": "=> pianotell-flamoji.ref.emoji_categories.objects",
+                    "symbols": "=> pianotell-flamoji.ref.emoji_categories.symbols",
+                    "flags": "=> pianotell-flamoji.ref.emoji_categories.flags"
+                }
+            },
+            "custom_emojis_section": {
+                "heading_title": "Пользовательские эмодзи",
+                "import_json_button": "Импортировать JSON",
+                "export_json_button": "Экспортировать JSON",
+                "import_emojis_message": "Это импортирует только конфигурации эмодзи. Вам нужно загрузить изображения эмодзи вручную.",
+                "edit_emoji": {
+                    "modal_title": "Добавить эмодзи",
+                    "emoji_title_label": "Название эмодзи",
+                    "delete_emoji_confirmation": "Удалить этот эмодзи?",
+                    "text_to_replace_label": "Текст для замены",
+                    "path_or_url_label": "Путь или URL",
+                    "submit_button": "=> core.ref.save_changes",
+                    "delete_emoji_button": "Удалить эмодзи",
+                    "saved_message": "=> core.admin.settings.saved_message"
+                },
+                "emoji_list": {
+                    "edit_button": "Править эмодзи",
+                    "add_button": "Добавить эмодзи",
+                    "load_more_button": "=> core.forum.post_stream.load_more_button"
+                }
+            }
+        },
+        "forum": {
+            "composer": {
+                "emoji_picker_label": "Выбор эмодзи",
+                "emoji_tooltip": "Вставить эмодзи",
+                "picker_loading": "Загрузка эмодзи…",
+                "picker_load_error": "Не удалось загрузить окно выбора эмодзи. Пожалуйста, попробуйте ещё раз.",
+                "picker_load_retry": "Повторить"
+            },
+            "emoji-mart": {
+                "search_placeholder": "Поиск",
+                "no_emojis_found_title": "Ничего не нашлось",
+                "no_emojis_found_message": "Эмодзи не найдены",
+                "pick": "Выберите эмодзи",
+                "add_custom": "Добавить пользовательский эмодзи",
+                "category_search": "Результаты поиска",
+                "skin_tone_choose": "Выберите тон кожи по умолчанию",
+                "skin_tone_default": "По умолчанию",
+                "skin_tone_light": "Светлый",
+                "skin_tone_medium_light": "Светло-средний",
+                "skin_tone_medium": "Средний",
+                "skin_tone_medium_dark": "Тёмно-средний",
+                "skin_tone_dark": "Тёмный",
+                "categories": {
+                    "frequent": "=> pianotell-flamoji.ref.emoji_categories.frequent",
+                    "people": "=> pianotell-flamoji.ref.emoji_categories.people",
+                    "nature": "=> pianotell-flamoji.ref.emoji_categories.nature",
+                    "foods": "=> pianotell-flamoji.ref.emoji_categories.foods",
+                    "activity": "=> pianotell-flamoji.ref.emoji_categories.activity",
+                    "places": "=> pianotell-flamoji.ref.emoji_categories.places",
+                    "objects": "=> pianotell-flamoji.ref.emoji_categories.objects",
+                    "symbols": "=> pianotell-flamoji.ref.emoji_categories.symbols",
+                    "flags": "=> pianotell-flamoji.ref.emoji_categories.flags",
+                    "custom": "=> pianotell-flamoji.ref.emoji_categories.custom"
+                }
+            }
+        },
+        "ref": {
+            "emoji_categories": {
+                "frequent": "Часто используемые",
+                "people": "Смайлы и люди",
+                "nature": "Животные и природа",
+                "foods": "Еда и напитки",
+                "activity": "Активность",
+                "places": "Путешествия и места",
+                "objects": "Предметы",
+                "symbols": "Символы",
+                "flags": "Флаги",
+                "custom": "Пользовательские"
+            }
+        }
+    }
+}

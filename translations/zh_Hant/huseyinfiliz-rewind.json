@@ -1,0 +1,325 @@
+{
+    "huseyinfiliz-rewind": {
+        "admin": {
+            "tabs": {
+                "general": "通用",
+                "slides": "幻燈片",
+                "advanced": "高級"
+            },
+            "settings": {
+                "enabled_label": "啟用年度回顧",
+                "active_year_label": "當前生效的年份",
+                "invalid_active_year": "生效年份必須是2000到2100之間的整數。",
+                "show_menu_link_label": "在用戶選單中顯示\"年度回顧\"連結",
+                "slides_user": "個人幻燈片",
+                "slides_community": "社區幻燈片",
+                "slides_help": "選擇在年度回顧中展示哪些頁面。 所有數據始終都會被收集—只是隱藏的不會被顯示出來。",
+                "section_core": "核心數據",
+                "section_content": "內容",
+                "section_social": "社交互動",
+                "section_people": "人際關係",
+                "section_achievements": "成就",
+                "slide_post_count": "發文數量",
+                "slide_discussion_count": "發起話題數量",
+                "slide_active_days": "發起主題數量",
+                "slide_word_count": "總字數",
+                "slide_most_active_month": "最活躍月份",
+                "slide_top_words": "常用詞",
+                "slide_night_owl": "活躍時段",
+                "slide_best_post": "最佳貼文",
+                "slide_top_emojis": "常用表情",
+                "slide_top_tag": "最常用標籤",
+                "slide_likes_given": "給出的點讚",
+                "slide_likes_received": "收到的點讚",
+                "slide_best_friend": "最佳好友",
+                "slide_best_friend_mentions": "提及",
+                "slide_badges_earned": "獲得的徽章",
+                "slide_best_answers": "最佳答案",
+                "community_slide_year-overview": "年度概覽",
+                "community_slide_busiest_month": "最忙碌的月份",
+                "community_slide_peak_hour": "高峰時段",
+                "community_slide_total_words": "社區總字數",
+                "community_slide_new_members": "新成員",
+                "community_slide_top_contributors": "活躍貢獻者",
+                "community_slide_most_loved": "最受歡迎",
+                "community_slide_most_active_user": "最活躍使用者",
+                "community_slide_star_post": "明星帖子",
+                "community_slide_top_discussion": "熱門話題",
+                "community_slide_top_tag": "熱門標籤",
+                "community_slide_best_answers_leaderboard": "最佳答案榜",
+                "community_slide_badge_leaderboard": "徽章榜",
+                "community_comparison_label": "與社區平均值比較",
+                "community_comparison_help": "啟用后，使用者的年度回顧幻燈片將顯示各項指標與社區平均水平的對比。 需要先生成社區年度回顧。",
+                "generate_community_title": "生成社區回顧",
+                "generate_community_help": "計算當前生效年份的全社區統計數據。 如果啟用了社區對比功能，建議在生成使用者年度回顧之前先執行此操作。",
+                "generate_community_button": "立即生成社區回顧",
+                "generate_users_title": "批量生成用戶回顧",
+                "generate_users_help": "為所有尚未生成年度回顧快照的使用者生成快照。 可選擇年份，並可按用戶組進行篩選。",
+                "generate_users_button": "批量生成用戶回顧",
+                "delete_rewinds_title": "刪除回顧數據",
+                "delete_rewinds_help": "刪除指定年份的所有用戶回顧數據。",
+                "delete_rewinds_button": "刪除回顧數據"
+            },
+            "generate_modal": {
+                "community_title": "生成社區年度回顧",
+                "users_title": "批量生成使用者年度回顧",
+                "delete_title": "刪除年度回顧數據",
+                "year_label": "年份",
+                "group_label": "使用者群組（選擇）",
+                "all_users": "所有使用者",
+                "start": "開始生成",
+                "cancel": "取消",
+                "confirm": "確認",
+                "delete_confirm": "確認刪除",
+                "warning": "警告：此操作不可逆。",
+                "done": "已完成 — 已處理 {count} 項。",
+                "deleted": "已刪除 {count} 條年度回顧數據。",
+                "nothing": "沒有需要處理的內容 — 已是最新狀態。",
+                "invalid_year": "年份必須是 2000 到當前生效年份之間的整數。",
+                "close": "關閉"
+            },
+            "permissions": {
+                "view_forum": "查看年度回顧",
+                "generate": "生成自己的年度回顧",
+                "moderate": "管理所有人的年度回顧（生成/刪除）"
+            }
+        },
+        "forum": {
+            "page": {
+                "title": "年度回顧",
+                "hero_title": "{year} 回顧",
+                "hero_subtitle": "回顧你這一年裡的社區足跡",
+                "generate_button": "生成我的回顧",
+                "generating": "產生，請稍候...",
+                "view_button": "觀看回顧",
+                "personal_title": "我的年度回顧",
+                "my_rewind": "我的年度回顧",
+                "not_available": "當前無法使用年度回顧。",
+                "admin_notice": "年度回顧當前對普通使用者不可見。 請從管理後台啟用，以使其公開。",
+                "no_snapshot": "你尚未生成 {year} 的年度回顧。",
+                "empty_public": "該用戶沒有公開的年度回顧快照。"
+            },
+            "community": {
+                "title": "社區年度回顧",
+                "not_generated": "社區回顧尚未生成。",
+                "generate_button": "生成社區回顧",
+                "regenerate": "重新生成",
+                "regenerate_short": "重新生成",
+                "regenerate_confirm": "確定要重新生成社區年度回顧嗎？",
+                "coming_soon": "社區年度回顧尚未生成，敬請期待！",
+                "no_activity": "本年暫無社區活動數據",
+                "view_slideshow": "觀看投影片",
+                "watch_slideshow": "觀看 {year} 社區年度回顧",
+                "watch_slideshow_desc": "以投影片形式觀看你的年度數據",
+                "new_users": "新加入成員",
+                "total_posts": "總帖數",
+                "total_discussions": "總話題數",
+                "top_discussion": "最熱話題",
+                "most_active_user": "最活躍使用者",
+                "top_tag": "熱門標籤",
+                "post_count_label": "{count} 帖子"
+            },
+            "profile": {
+                "tab": "年度回顧",
+                "year_card": "{year} 回顧",
+                "generate_for_year": "生成 {year} 年度回顧",
+                "tap_to_watch": "點擊觀看",
+                "not_yet_available": "暫未生成",
+                "no_activity": "該年份沒有活動記錄",
+                "public_badge": "公開",
+                "private_badge": "僅自己可見",
+                "controls": {
+                    "make_public": "設為公開",
+                    "make_private": "設為私密",
+                    "regenerate": "重新生成",
+                    "delete": "刪除",
+                    "confirm_delete": "確定要刪除這一年的回顧嗎？"
+                }
+            },
+            "metrics": {
+                "post_count": {
+                    "title": "發帖量",
+                    "description": "在論壇中貢獻了 {count} 篇帖子",
+                    "messages": {
+                        "tier_1": "每個傳奇都有第一篇文章",
+                        "tier_2": "論壇正在傾聽",
+                        "tier_3": "大家都知道你的名字",
+                        "tier_4": "論壇少了你，可就冷清了",
+                        "tier_5": "不眠不休啊？"
+                    }
+                },
+                "discussion_count": {
+                    "title": "發起話題",
+                    "description": "發起了 {count} 個新討論",
+                    "messages": {
+                        "tier_1": "每場對話都從一個勇敢開始的人開始",
+                        "tier_2": "話題製造機，總能帶起節奏",
+                        "tier_3": "真正的社區建設者"
+                    }
+                },
+                "active_days": {
+                    "title": "活躍天數",
+                    "description": "活躍天數共計 {count} 天",
+                    "messages": {
+                        "tier_1": "偶爾來看看",
+                        "tier_2": "從不缺席的存在",
+                        "tier_3": "大半時間都在活躍",
+                        "tier_4": "簡直成了社區的一分子",
+                        "tier_5": "每周必到，雷打不動"
+                    }
+                },
+                "top_tag": {
+                    "title": "最常用標籤",
+                    "description": "最常使用的標籤，共 {count} 篇帖子",
+                    "no_data": "暫無標籤數據"
+                },
+                "most_active_month": {
+                    "title": "最活躍的月份",
+                    "description": "最活躍月份，共 {count} 篇帖子"
+                },
+                "word_count": {
+                    "title": "累計字數",
+                    "description": "累計撰寫了約 {count} 字",
+                    "messages": {
+                        "tier_1": "言簡意賅",
+                        "tier_2": "樂於分享",
+                        "tier_3": "一部短篇的量",
+                        "tier_4": "托爾斯泰看了都沉默",
+                        "tier_5": "托爾斯泰都會為你驕傲"
+                    }
+                },
+                "best_post": {
+                    "title": "最佳帖子",
+                    "description_likes": "在{discussion_title}中獲得 {count} 個讚",
+                    "description_replies": "在{discussion_title}中獲得 {count} 條回復",
+                    "no_data": "今年暫無突出帖子"
+                },
+                "likes_given": {
+                    "title": "給出的點讚",
+                    "description": "在論壇中共送出了 {count} 個讚",
+                    "messages": {
+                        "tier_1": "不吝嗇讚美",
+                        "tier_2": "點讚小天使",
+                        "tier_3": "點讚狂魔，溫暖大使"
+                    }
+                },
+                "likes_received": {
+                    "title": "收到的點讚",
+                    "description": "今年共收穫 {count} 個讚",
+                    "messages": {
+                        "tier_1": "字字入心",
+                        "tier_2": "內容深受歡迎",
+                        "tier_3": "人見人愛"
+                    }
+                },
+                "best_friend": {
+                    "title": "最佳好友",
+                    "description": "{display_name} 給你的帖子點了 {count} 個讚",
+                    "no_data": "暫無最佳好友數據",
+                    "message": "形影不離",
+                    "stat_likes_received": "讚了你",
+                    "stat_likes_given": "你給對方點讚",
+                    "stat_mentions_from": "提及了你",
+                    "stat_mentions_to": "你提及了"
+                },
+                "best_friend_mentions": {
+                    "title": "提及",
+                    "description": "你提及了 {display_name} {count} 次",
+                    "no_data": "暫無互相提及的互動",
+                    "you_mentioned": "你提及對方 {count} 次",
+                    "mentioned_you": "對方提及你 {count} 次"
+                },
+                "badges_earned": {
+                    "title": "獲得的徽章",
+                    "description": "這一年你獲得了 {count} 枚徽章",
+                    "no_data": "今年還沒有獲得任何徽章"
+                },
+                "top_words": {
+                    "title": "常用詞",
+                    "description": "高頻詞"
+                },
+                "top_emojis": {
+                    "title": "常用表情",
+                    "description": "最常使用的表情"
+                },
+                "best_answers": {
+                    "title": "最佳答案",
+                    "description": "{count} 次回答被採納為答案",
+                    "messages": {
+                        "tier_1": "樂於助人",
+                        "tier_2": "答案的首選來源",
+                        "tier_3": "社區大神"
+                    }
+                },
+                "community_compare": {
+                    "above": "是社區平均水準的 {times} 倍",
+                    "above_average": "高於平均",
+                    "average": "與社區平均水準持平",
+                    "below_average": "低於平均水準"
+                },
+                "night_owl": {
+                    "title": "夜貓子時段",
+                    "description": "這個時段發帖最多",
+                    "description_owl": "這個時段發帖最多"
+                }
+            },
+            "slideshow": {
+                "tap_to_start": "點擊開始 →",
+                "not_available": "年度回顧不可用",
+                "summary_title": "{year} 年度回顧",
+                "no_data": "活動數據太少，無法生成回顧",
+                "close": "關閉",
+                "share": "分享",
+                "link_copied": "連結已複製到剪貼簿！",
+                "visibility_status_public": "公開可見",
+                "visibility_status_private": "僅自己可見",
+                "visibility_tap_hide": "輕觸設為私密",
+                "visibility_tap_show": "輕觸設為公開"
+            },
+            "community_slideshow": {
+                "title": "社區年度回顧",
+                "intro_label": "這一年，我們一起走過",
+                "year_in_numbers": "年度數據",
+                "posts": "帖子總數",
+                "discussions": "話題總數",
+                "new_members": "新成員",
+                "busiest_month": "最忙碌的月份",
+                "busiest_month_desc": "{month} 是大家最活躍的一個月",
+                "peak_hours": "高峰時段",
+                "peak_hours_desc": "每天 {hour} 點是大家最常在線的時候",
+                "top_contributors": "貢獻榜",
+                "top_contributors_desc": "感謝這些讓社區保持活力的成員",
+                "star_post": "明星帖子",
+                "star_post_desc": "本年度最受矚目的帖子",
+                "most_loved": "最受歡迎",
+                "most_loved_desc": "獲得最多點讚的內容",
+                "hot_discussion": "熱門話題",
+                "hot_discussion_desc": "討論最激烈的話題",
+                "top_tag": "熱門標籤",
+                "top_tag_desc": "最受討論的標籤，包含 {count} 筆討論",
+                "total_words": "社區總字數",
+                "total_words_desc": "大家一起敲下了無數文字",
+                "total_words_label": "總字數",
+                "avg_per_post": "平均每帖字數",
+                "new_members_slide": "新夥伴",
+                "new_members_desc": "這一年共有 {count} 位新朋友加入",
+                "summary_title": "社區年度回顧",
+                "words": "字",
+                "busiest_month_label": "最忙月份",
+                "peak_hour_label": "高峰時段",
+                "top_contributor_label": "貢獻最多",
+                "top_tag_label": "熱門標籤",
+                "reactions": "互動",
+                "best_answers": "最佳答案",
+                "badges_awarded": "頒發的徽章",
+                "best_answers_leaderboard": "最佳答案榜",
+                "best_answers_leaderboard_desc": "説明他人最多的成員",
+                "badge_leaderboard": "徽章榜",
+                "badge_leaderboard_desc": "徽章最多的活躍成員"
+            },
+            "user_menu": {
+                "rewind_link": "{year} 回顧"
+            }
+        }
+    }
+}

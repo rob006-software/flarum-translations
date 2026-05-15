@@ -1,0 +1,45 @@
+{
+    "captchala-flarum": {
+        "admin": {
+            "settings": {
+                "app_key_label": "App Key",
+                "app_key_help": "Find this in your CaptchaLa dashboard at <a>dash.captcha.la</a>. Required.",
+                "app_secret_label": "App Secret",
+                "app_secret_help": "Server-side only. Never expose to the browser.",
+                "product_label": "Widget mode",
+                "product_help": "bind, popup, float, or embed. bind attaches to the submit button.",
+                "product_options": {
+                    "bind": "Bind to submit button",
+                    "popup": "Modal popup",
+                    "float": "Floating widget",
+                    "embed": "Inline embed"
+                },
+                "lang_label": "Language",
+                "lang_help": "BCP-47 tag (e.g. ja, pt-BR) or 'auto' to follow the visitor's browser.",
+                "signup": "=> core.forum.sign_up.title",
+                "signin": "=> core.forum.log_in.title",
+                "forgot": "=> core.forum.forgot_password.title",
+                "post": "Protect new discussions and replies"
+            },
+            "test": {
+                "title": "Test connection",
+                "help_text": "Verifies the saved App Key / App Secret can reach the CaptchaLa\nbackend. Save your changes before running the test.\n",
+                "button": "Test connection",
+                "success": "Connection OK.",
+                "failure": "Connection failed: {reason}"
+            }
+        },
+        "lib": {
+            "not_completed": "Please complete the CAPTCHA before continuing.",
+            "error": "There was an error verifying CAPTCHA. Please try again.",
+            "rejected": "The CAPTCHA check failed. Please try again.",
+            "unknown_error": "An unknown error occurred. Please try again."
+        },
+        "forum": {
+            "powered_by": "Protected by CaptchaLa"
+        }
+    },
+    "validation": {
+        "captchala": "CAPTCHA verification did not pass."
+    }
+}

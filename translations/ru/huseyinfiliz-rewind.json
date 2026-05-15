@@ -1,0 +1,325 @@
+{
+    "huseyinfiliz-rewind": {
+        "admin": {
+            "tabs": {
+                "general": "Основные",
+                "slides": "Слайды",
+                "advanced": "Расширенные"
+            },
+            "settings": {
+                "enabled_label": "Включить итоги",
+                "active_year_label": "Активный год",
+                "invalid_active_year": "Должен быть целым числом от 2000 до 2100.",
+                "show_menu_link_label": "Показывать итоги в меню пользователя",
+                "slides_user": "Персональные итоги",
+                "slides_community": "Общие итоги",
+                "slides_help": "Выберите, какие слайды показывать в итогах. Собираются все данные — скрытые слайды просто не отображаются.",
+                "section_core": "Основные метрики",
+                "section_content": "Контент",
+                "section_social": "Общение",
+                "section_people": "Участники",
+                "section_achievements": "Достижения",
+                "slide_post_count": "Сообщения",
+                "slide_discussion_count": "Дискуссии",
+                "slide_active_days": "Активные дни",
+                "slide_word_count": "Написано слов",
+                "slide_most_active_month": "Самый активный месяц",
+                "slide_top_words": "Самые популярные слова",
+                "slide_night_owl": "Часы активности",
+                "slide_best_post": "Лучшее сообщение",
+                "slide_top_emojis": "Самые популярные эмодзи",
+                "slide_top_tag": "Самый популярный тег",
+                "slide_likes_given": "Поставлено лайков",
+                "slide_likes_received": "Получено лайков",
+                "slide_best_friend": "Лучший друг",
+                "slide_best_friend_mentions": "Упоминания",
+                "slide_badges_earned": "Значки",
+                "slide_best_answers": "Лучшие ответы",
+                "community_slide_year-overview": "Итоги в цифрах",
+                "community_slide_busiest_month": "Самый активный месяц",
+                "community_slide_peak_hour": "Пиковые часы",
+                "community_slide_total_words": "Написано слов",
+                "community_slide_new_members": "Новые участники",
+                "community_slide_top_contributors": "Самые активные участники",
+                "community_slide_most_loved": "Самые популярные",
+                "community_slide_most_active_user": "Самый активный пользователь",
+                "community_slide_star_post": "Лучшее сообщение",
+                "community_slide_top_discussion": "Популярная дискуссия",
+                "community_slide_top_tag": "Самый популярный тег",
+                "community_slide_best_answers_leaderboard": "Топ лучших ответов",
+                "community_slide_badge_leaderboard": "Топ значков",
+                "community_comparison_label": "Включить сравнение с сообществом в итогах пользователя",
+                "community_comparison_help": "Если включено, в итогах пользователя будет показано сравнение метрик со средними по сообществу. Сначала нужно создать итоги сообщества.",
+                "generate_community_title": "Создать итоги сообщества",
+                "generate_community_help": "Рассчитать статистику по сообществу за выбранный год. Это нужно сделать перед созданием пользовательских итогов, если включено сравнение с сообществом.",
+                "generate_community_button": "Создать итоги сообщества",
+                "generate_users_title": "Создать отсутствующие итоги пользователей",
+                "generate_users_help": "Создать итоги для всех пользователей, у которых их ещё нет. Выберите год и при необходимости отфильтруйте по группам.",
+                "generate_users_button": "Создать отсутствующие итоги",
+                "delete_rewinds_title": "Удалить итоги пользователей",
+                "delete_rewinds_help": "Удалить итоги пользователей по году и при необходимости по группам.",
+                "delete_rewinds_button": "Удалить итоги"
+            },
+            "generate_modal": {
+                "community_title": "Создать итоги сообщества",
+                "users_title": "Создать отсутствующие итоги пользователей",
+                "delete_title": "Удалить итоги пользователей",
+                "year_label": "Год",
+                "group_label": "Группа пользователей",
+                "all_users": "Все пользователи",
+                "start": "Начать",
+                "cancel": "Отменить",
+                "confirm": "Подтвердить",
+                "delete_confirm": "Удалить",
+                "warning": "Не закрывайте эту страницу до завершения подсчёта.",
+                "done": "Завершено — обработано {count} элементов.",
+                "deleted": "Удалено итогов: {count}.",
+                "nothing": "Обрабатывать нечего — всё уже актуально.",
+                "invalid_year": "Год должен быть целым числом между 2000 и текущим годом.",
+                "close": "Закрыть"
+            },
+            "permissions": {
+                "view_forum": "Смотреть страницу итогов",
+                "generate": "Создавать свои итоги",
+                "moderate": "Управлять итогами"
+            }
+        },
+        "forum": {
+            "page": {
+                "title": "Итоги",
+                "hero_title": "Итоги {year}",
+                "hero_subtitle": "Ваш год в цифрах",
+                "generate_button": "Создать мои итоги",
+                "generating": "Создаём ваши итоги…",
+                "view_button": "Посмотреть мои итоги",
+                "personal_title": "Ваши персональные итоги",
+                "my_rewind": "Мои итоги",
+                "not_available": "Итоги сейчас недоступны.",
+                "admin_notice": "Итоги сейчас не видны обычным пользователям. Включите их в админке, чтобы показать всем.",
+                "no_snapshot": "Вы ещё не создали итоги за {year}.",
+                "empty_public": "У этого пользователя нет публичных итогов."
+            },
+            "community": {
+                "title": "Главное в сообществе",
+                "not_generated": "Итоги сообщества ещё не сгенерированы.",
+                "generate_button": "Создать итоги сообщества",
+                "regenerate": "Пересоздать итоги сообщества",
+                "regenerate_short": "Пересоздать",
+                "regenerate_confirm": "Это перепишет текущие данные итогов сообщества за этот год. Продолжить?",
+                "coming_soon": "Итоги сообщества ещё не готовы. Скоро всё будет!",
+                "no_activity": "Недостаточно активности за этот год",
+                "view_slideshow": "Посмотреть итоги",
+                "watch_slideshow": "Посмотрите итоги сообщества за {year}",
+                "watch_slideshow_desc": "Собрали главные моменты года в формате историй",
+                "new_users": "Новых участников",
+                "total_posts": "Всего сообщений",
+                "total_discussions": "Создано дискуссий",
+                "top_discussion": "Самая активная дискуссия",
+                "most_active_user": "Самый активный участник",
+                "top_tag": "Самый популярный тег",
+                "post_count_label": "{count} сообщений"
+            },
+            "profile": {
+                "tab": "Итоги",
+                "year_card": "Итоги за {year}",
+                "generate_for_year": "Сформировать итоги за {year}",
+                "tap_to_watch": "Нажмите, чтобы посмотреть",
+                "not_yet_available": "Пока недоступно",
+                "no_activity": "Недостаточно активности",
+                "public_badge": "Публичные",
+                "private_badge": "Приватные",
+                "controls": {
+                    "make_public": "Сделать публичными",
+                    "make_private": "Сделать приватными",
+                    "regenerate": "Пересоздать",
+                    "delete": "Удалить",
+                    "confirm_delete": "Удалить эти итоги?"
+                }
+            },
+            "metrics": {
+                "post_count": {
+                    "title": "Сообщения",
+                    "description": "Опубликовано {count} сообщений на форуме",
+                    "messages": {
+                        "tier_1": "У каждой легенды есть первое сообщение",
+                        "tier_2": "Форум вас слышит",
+                        "tier_3": "Люди знают ваше имя",
+                        "tier_4": "Без вас форум был бы тише",
+                        "tier_5": "Вы вообще спите?"
+                    }
+                },
+                "discussion_count": {
+                    "title": "Дискуссии",
+                    "description": "Начато {count} новых дискуссий",
+                    "messages": {
+                        "tier_1": "Всё начинается с первого сообщения",
+                        "tier_2": "Вы зажигаете обсуждения тут и там",
+                        "tier_3": "Движущая сила сообщества"
+                    }
+                },
+                "active_days": {
+                    "title": "Активные дни",
+                    "description": "Заходили на форум в течение {count} дней",
+                    "messages": {
+                        "tier_1": "Несколько значимых визитов",
+                        "tier_2": "Стабильны, как никогда",
+                        "tier_3": "Чаще появлялись, чем пропадали на долгое время",
+                        "tier_4": "Уже вписались в сообщество",
+                        "tier_5": "Каждую неделю, без исключений"
+                    }
+                },
+                "top_tag": {
+                    "title": "Самый популярный тег",
+                    "description": "Наиболее активный тег с {count} сообщениями",
+                    "no_data": "Нет данных по тегам"
+                },
+                "most_active_month": {
+                    "title": "Самый активный месяц",
+                    "description": "Пик активности — {count} сообщений"
+                },
+                "word_count": {
+                    "title": "Слова",
+                    "description": "Написано примерно {count} слов",
+                    "messages": {
+                        "tier_1": "Коротко и по делу",
+                        "tier_2": "Было что сказать",
+                        "tier_3": "Можно написать короткий роман",
+                        "tier_4": "Почти как роман",
+                        "tier_5": "Толстой бы гордился"
+                    }
+                },
+                "best_post": {
+                    "title": "Лучшее сообщение",
+                    "description_likes": "{count} лайков в «{discussion_title}»",
+                    "description_replies": "{count} ответов в «{discussion_title}»",
+                    "no_data": "В этом году не было выделяющегося сообщения"
+                },
+                "likes_given": {
+                    "title": "Поставлено лайков",
+                    "description": "Поставили {count} лайков на форуме",
+                    "messages": {
+                        "tier_1": "Всего пару лайков",
+                        "tier_2": "Распространяете позитив",
+                        "tier_3": "Главный фанат форума"
+                    }
+                },
+                "likes_received": {
+                    "title": "Получено лайков",
+                    "description": "Получили {count} лайков в этом году",
+                    "messages": {
+                        "tier_1": "Слова, которые нашли отклик",
+                        "tier_2": "Людям нравится то, что вы пишете",
+                        "tier_3": "Здесь вас любят"
+                    }
+                },
+                "best_friend": {
+                    "title": "Лучший друг",
+                    "description": "{display_name} поставил(а) вам лайк {count} раз",
+                    "no_data": "Нет данных о лучшем друге",
+                    "message": "В этом году вы были неразлучны",
+                    "stat_likes_received": "Лайкал(а) вас",
+                    "stat_likes_given": "Вы лайкали",
+                    "stat_mentions_from": "Упоминал(а) вас",
+                    "stat_mentions_to": "Вы упоминали"
+                },
+                "best_friend_mentions": {
+                    "title": "Упоминания",
+                    "description": "Вы упомянули {display_name} {count} раз",
+                    "no_data": "Нет данных об упоминаниях",
+                    "you_mentioned": "Вы упомянули ×{count}",
+                    "mentioned_you": "Вас упомянули ×{count}"
+                },
+                "badges_earned": {
+                    "title": "Значки",
+                    "description": "Получено {count} значков за этот год",
+                    "no_data": "В этом году значков не было"
+                },
+                "top_words": {
+                    "title": "Самые популярные слова",
+                    "description": "Часто используемые слова"
+                },
+                "top_emojis": {
+                    "title": "Самые популярные эмодзи",
+                    "description": "Часто используемые эмодзи"
+                },
+                "best_answers": {
+                    "title": "Лучшие ответы",
+                    "description": "{count} раз ваш ответ стал решением вопроса",
+                    "messages": {
+                        "tier_1": "Помогли кому-то найти ответ",
+                        "tier_2": "К вам идут за ответами",
+                        "tier_3": "Эксперт форума"
+                    }
+                },
+                "community_compare": {
+                    "above": "В {times} раза выше среднего по сообществу",
+                    "above_average": "Выше среднего по сообществу",
+                    "average": "На уровне среднего по сообществу",
+                    "below_average": "Ниже среднего по сообществу"
+                },
+                "night_owl": {
+                    "title": "Часы активности",
+                    "description": "Больше всего сообщений написано в это время",
+                    "description_owl": "Больше всего сообщений написано в это время"
+                }
+            },
+            "slideshow": {
+                "tap_to_start": "Нажмите, чтобы начать →",
+                "not_available": "Итоги недоступны",
+                "summary_title": "Ваш {year} в цифрах",
+                "no_data": "Недостаточно активности для формирования итогов",
+                "close": "Закрыть",
+                "share": "Поделиться",
+                "link_copied": "Ссылка скопирована в буфер обмена!",
+                "visibility_status_public": "Публичные",
+                "visibility_status_private": "Приватные",
+                "visibility_tap_hide": "Нажмите, чтобы скрыть",
+                "visibility_tap_show": "Нажмите, чтобы сделать публичным"
+            },
+            "community_slideshow": {
+                "title": "Итоги сообщества",
+                "intro_label": "ИТОГИ СООБЩЕСТВА",
+                "year_in_numbers": "Год в цифрах",
+                "posts": "Сообщений",
+                "discussions": "Дискуссий",
+                "new_members": "Новых участников",
+                "busiest_month": "Самый активный месяц",
+                "busiest_month_desc": "Пик активности — {count} сообщений",
+                "peak_hours": "Пиковые часы",
+                "peak_hours_desc": "Больше всего сообщений написано в это время",
+                "top_contributors": "Самые активные участники",
+                "top_contributors_desc": "Главные активисты года",
+                "star_post": "Лучшее сообщение",
+                "star_post_desc": "Самое залайканное сообщение года",
+                "most_loved": "Самые популярные",
+                "most_loved_desc": "Участники, получившие больше всего лайков",
+                "hot_discussion": "Самая активная дискуссия",
+                "hot_discussion_desc": "Целых {count} сообщений в этой теме",
+                "top_tag": "Самый популярный тег",
+                "top_tag_desc": "Наиболее обсуждаемый тег с {count} дискуссиями",
+                "total_words": "Написано слов",
+                "total_words_desc": "Посчитали каждого участника",
+                "total_words_label": "Всего слов",
+                "avg_per_post": "В среднем на сообщение",
+                "new_members_slide": "Новые участники",
+                "new_members_desc": "К сообществу присоединилось {count} человек",
+                "summary_title": "Итоги сообщества за {year}",
+                "words": "Слова",
+                "busiest_month_label": "Самый активный месяц",
+                "peak_hour_label": "Час пик",
+                "top_contributor_label": "Самый активный участник",
+                "top_tag_label": "Самый популярный тег",
+                "reactions": "Реакций",
+                "best_answers": "Лучшие ответы",
+                "badges_awarded": "Выдано значков",
+                "best_answers_leaderboard": "Помощники",
+                "best_answers_leaderboard_desc": "Участники с наибольшим количеством лучших ответов",
+                "badge_leaderboard": "Коллекционеры значков",
+                "badge_leaderboard_desc": "Участники, получившие больше всего значков"
+            },
+            "user_menu": {
+                "rewind_link": "Итоги {year}"
+            }
+        }
+    }
+}

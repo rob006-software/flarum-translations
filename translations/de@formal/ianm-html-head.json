@@ -2,21 +2,97 @@
     "ianm-html-head": {
         "admin": {
             "create_button": "Hinzufügen",
+            "help": {
+                "intro": "Füge benutzerdefinierte Tags hinzu, die in den HTML-Code deines Forums eingebunden werden sollen. Die Elemente werden zwischengespeichert und effizient bereitgestellt – beim Laden der Seite sind keine Datenbankabfragen erforderlich.",
+                "preconnect": "Für Link- und Script-Tags, die auf externe Quellen verweisen, werden automatisch „preconnect“- und „dns-prefetch“-Hinweise generiert, wodurch die Verbindung bereits aufgebaut wird, bevor der Browser sie benötigt.",
+                "cache": "Das gerenderte HTML wird beim Speichern zwischengespeichert. Änderungen werden sofort wirksam, ohne dass der gesamte Forum-Cache geleert werden muss.",
+                "pages": "Jeder Eintrag kann sich auf das Forum-Frontend, das Admin-Panel oder beides beziehen.",
+                "location": "Elemente können am Kopf oder am Ende des Seiten-Bodys eingefügt werden."
+            },
             "table": {
+                "drag_handle": "Zum Neuanordnen ziehen",
                 "description_label": "Beschreibung",
-                "header_label": "Header-Element",
+                "type_label": "Typ",
+                "location_label": "Standort",
+                "pages_label": "Seiten",
                 "active_label": "Aktiv",
-                "empty_text": "Keine Einträge",
+                "empty_text": "Noch keine Einträge. Klicke auf „Hinzufügen“, um deinen ersten Eintrag hinzuzufügen.",
                 "delete_button": "Entfernen",
-                "edit_button": "Bearbeiten"
+                "edit_button": "Bearbeiten",
+                "delete_confirm": "Möchtest du diesen Eintrag wirklich löschen?",
+                "header_label": "Header-Element"
             },
             "modal": {
-                "create_title": "Erstelle ein neues Element",
-                "edit_title": "Element bearbeiten",
-                "text": "Vergewissere dich, dass deine Syntax korrekt ist, da es möglich ist, das Forum zu beschädigen, wenn du falsche Daten im Kopfbereich angibst. Sobald du gespeichert hast, aktiviere dein neues Kopfzeilen-Element mit dem dafür vorgesehenen Kippschalter.",
+                "create_title": "Erstelle ein Kopf-Element",
+                "edit_title": "Kopf-Element bearbeiten",
                 "description_label": "Beschreibung",
-                "header_label": "Benutzerdefiniertes Header-Element",
-                "save_button": "Speichern"
+                "description_help": "Eine Beschriftung zu deiner Orientierung – wird nicht in die Seite eingebunden.",
+                "type_label": "Typ",
+                "location_label": "Einbinden in",
+                "location_help": "Seitenkopf: Wird vor dem Rendern der Seite geladen, am besten geeignet für Stile und wichtige Metadaten. Fußzeile: Wird nach dem Seiteninhalt geladen, am besten geeignet für nicht kritische Skripte.",
+                "pages_label": "Anwenden auf",
+                "save_button": "Speichern",
+                "type": {
+                    "meta": "Meta-Tag",
+                    "link": "Link",
+                    "script": "Script",
+                    "style": "Stil",
+                    "raw": "Reines HTML"
+                },
+                "location": {
+                    "head": "Seitenkopf",
+                    "foot": "Fußzeile"
+                },
+                "pages": {
+                    "forum": "Forum",
+                    "admin": "Admin-Panel"
+                },
+                "meta": {
+                    "variant_label": "Variante",
+                    "name_label": "name=\"\"",
+                    "property_label": "property=\"\" (OpenGraph)",
+                    "content_label": "Inhalt"
+                },
+                "link": {
+                    "rel_label": "rel=\"\"",
+                    "href_label": "href=\"\" (URL)",
+                    "as_label": "as=\"\"",
+                    "as_help": "Teilt dem Browser mit, um welche Art von Ressource es sich bei dem Vorladen handelt, damit er die richtigen Anforderungsheader setzen kann. Erforderlich für rel=preload.",
+                    "crossorigin_label": "crossorigin=\"anonymous\" hinzufügen",
+                    "crossorigin_help": "Erforderlich für Schriftarten und Skripte, die von einer anderen Domain geladen werden, damit der Browser die Verbindung gemeinsam nutzen kann. Aktiviere diese Option, wenn die Ressource von einer anderen Quelle stammt.",
+                    "fetchpriority_label": "fetchpriority=\"\"",
+                    "fetchpriority_default": "Browser-Standard",
+                    "fetchpriority_help": "Hinweis für den Browser zur relativen Priorität dieser Ressource. high: früher laden (z. B. Hero-Bild oder wichtiges Stylesheet). low: später laden (z. B. Ressource unterhalb der Falz). Nicht festlegen, um den Browser selbst entscheiden zu lassen.",
+                    "extras_label": "Zusätzliche Attribute",
+                    "extras_add": "Attribut hinzufügen",
+                    "extras_remove": "Entfernen"
+                },
+                "script": {
+                    "external_label": "Extern (src)",
+                    "inline_label": "Inline",
+                    "src_label": "src=\"\" (URL)",
+                    "inline_content_label": "Script-Inhalt",
+                    "defer_label": "defer",
+                    "defer_help": "Das Skript wird ausgeführt, nachdem die Seite geladen wurde, ohne die Darstellung zu blockieren. Ideal für die meisten Skripte.",
+                    "async_label": "async",
+                    "async_help": "Das Skript wird sofort nach dem Herunterladen ausgeführt, ohne dass die Reihenfolge beachtet wird. Am besten geeignet für eigenständige Skripte wie beispielsweise Analyse-Skripte.",
+                    "module_label": "type=\"module\"",
+                    "module_help": "Aktiviere diese Option, wenn in der Dokumentation des Skriptanbieters die Verwendung von type=\"module\" empfohlen wird. Module werden nach dem Laden der Seite geladen, ohne diese zu blockieren.",
+                    "crossorigin_label": "crossorigin=\"anonymous\"",
+                    "crossorigin_help": "Erforderlich beim Laden von Skripten aus einer anderen Domain, die CORS-Zugriff benötigen."
+                },
+                "style": {
+                    "inline_label": "CSS-Inhalt",
+                    "inline_help": "Wird global auf alle Seiten angewendet, auf die sich dieses Element bezieht. Halte die Regeln spezifisch, um unbeabsichtigte Nebenwirkungen zu vermeiden."
+                },
+                "raw": {
+                    "content_label": "HTML",
+                    "help_text": "Gib reinen HTML-Code ein. Für alle hier gefundenen Cross-Origin-Links oder Skript-Tags werden automatisch Preconnect-Hinweise generiert. Die Sortierreihenfolge und die Umschaltfunktion funktionieren wie gewohnt, aber typspezifische Funktionen (fetchpriority, defer usw.) sind nicht verfügbar – verwende einen strukturierten Typ, wenn diese benötigt werden."
+                },
+                "preview_label": "Vorschau",
+                "preview_empty": "Fülle die obigen Felder aus, um eine Vorschau anzuzeigen.",
+                "text": "Vergewissere dich, dass deine Syntax korrekt ist, da es möglich ist, das Forum zu beschädigen, wenn du falsche Daten im Kopfbereich angibst. Sobald du gespeichert hast, aktiviere dein neues Kopfzeilen-Element mit dem dafür vorgesehenen Kippschalter.",
+                "header_label": "Benutzerdefiniertes Header-Element"
             }
         }
     }

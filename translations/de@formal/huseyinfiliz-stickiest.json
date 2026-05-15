@@ -1,70 +1,72 @@
 {
     "huseyinfiliz-stickiest": {
         "admin": {
-            "permissions": {
-                "super_sticky_discussions_label": "Super sticky Diskussionen",
-                "tag_sticky_discussions_label": "",
-                "stickiest_label": "",
-                "tag_sticky_label": ""
-            },
             "settings": {
-                "badge_icon_label": "",
+                "show_tag_sticky_label": "Angepinnte Themen in „Alle Diskussionen“ anzeigen",
+                "show_tag_sticky_help": "Wenn deaktiviert, werden angepinnte Diskussionen nur angezeigt, wenn man sich das jeweilige Thema ansieht.",
+                "show_sticky_highlight_label": "Hervorhebung für gepinnte Diskussionen anzeigen",
+                "show_sticky_highlight_help": "Wenn aktiviert, werden angeheftete Diskussionen in der Diskussionsliste mit einem farbigen linken Rand und einem farbigen Hintergrund angezeigt.",
+                "stickiest_icon_label": "Symbol für die „besonders wichtig“ Markierung",
+                "stickiest_icon_help": "Font Awesome-Symbolklasse (z. B. fas fa-star)",
+                "badge_icon_label": "Super sticky Symbol",
                 "badge_icon_text": "=> core.ref.icon_text",
-                "display_tag_sticky_label": "",
-                "display_tag_sticky_text": "",
-                "show_tag_sticky_label": "",
-                "show_tag_sticky_help": "",
-                "stickiest_icon_label": "",
-                "stickiest_icon_help": ""
+                "display_tag_sticky_label": "Themen stickies in der Liste „Alle Diskussionen“ anzeigen",
+                "display_tag_sticky_text": "Sie werden wie normale Diskussionen behandelt und bleiben nicht oben angeheftet."
+            },
+            "permissions": {
+                "stickiest_label": "Besonders wichtige Diskussionen",
+                "tag_sticky_label": "Thema angepinnte Diskussionen",
+                "super_sticky_discussions_label": "Besonders wichtige Diskussionen",
+                "tag_sticky_discussions_label": "Thema sticky Diskussionen"
             }
         },
         "forum": {
             "badge": {
-                "sticky_tooltip": "=> huseyinfiliz-stickiest.ref.sticky",
+                "sticky_tooltip": "Angepinnt",
+                "stickiest_tooltip": "Besonders wichtig",
+                "tag_sticky_tooltip": "Angepinnt markieren",
                 "super_sticky_tooltip": "=> huseyinfiliz-stickiest.ref.super_sticky",
-                "tag_sticky_tooltip": "=> huseyinfiliz-stickiest.ref.tag_sticky",
-                "super_tag_sticky_tooltip": "=> huseyinfiliz-stickiest.ref.super_tag_sticky",
-                "stickiest_tooltip": ""
-            },
-            "stickiest_modal": {
-                "title": "Sticky {title}",
-                "sticky_label": "=> flarum-sticky.ref.sticky",
-                "sticky_text": "",
-                "super_sticky_label": "=> huseyinfiliz-stickiest.ref.super_sticky",
-                "super_sticky_text": "",
-                "tag_sticky_label": "=> huseyinfiliz-stickiest.ref.tag_sticky",
-                "tag_sticky_text": "",
-                "tags_label": "=> flarum-tags.ref.tags",
-                "submit_button": "=> core.ref.save_changes"
+                "super_tag_sticky_tooltip": "=> huseyinfiliz-stickiest.ref.super_tag_sticky"
             },
             "discussion_controls": {
-                "sticky_button": "=> flarum-sticky.forum.discussion_controls.sticky_button"
+                "sticky_button": "Anpinnen"
+            },
+            "sticky_modal": {
+                "title": "Angepinnt: {title}",
+                "sticky_label": "Angepinnt",
+                "sticky_help": "In „Alle Diskussionen“ oben anpinnen, wenn ungelesen. In der Themen-Ansicht immer angepinnt.",
+                "stickiest_label": "Besonders wichtig",
+                "stickiest_help": "Immer und überall ganz oben angepinnt.",
+                "tag_sticky_label": "Gepinntes Thema",
+                "tag_sticky_help": "Nur angepinnt bei der Anzeige ausgewählter Themen.",
+                "select_tags": "Themen auswählen",
+                "submit_button": "Änderungen speichern"
             },
             "post_stream": {
+                "discussion_stickiest_text": "{username} hat die Diskussion als besonders wichtig markiert.",
+                "discussion_unstickiest_text": "{username} hat die Markierung „besonders wichtig“ von der Diskussion entfernt.",
                 "discussion_stickied_text": "=> flarum-sticky.forum.post_stream.discussion_stickied_text",
                 "discussion_unstickied_text": "=> flarum-sticky.forum.post_stream.discussion_unstickied_text",
                 "discussion_super_stickied_text": "{username} hat die Diskussion als besonders sticky markiert.",
-                "discussion_common_stickied_text": "{username} hat die Diskussion nocht mehr als besonders sticky markiert.",
-                "discussion_stickiest_text": "",
-                "discussion_unstickiest_text": ""
+                "discussion_common_stickied_text": "{username} hat die Diskussion nocht mehr als besonders sticky markiert."
             },
-            "sticky_modal": {
-                "title": "",
-                "sticky_label": "",
-                "sticky_help": "",
-                "stickiest_label": "",
-                "stickiest_help": "",
-                "tag_sticky_label": "",
-                "tag_sticky_help": "",
-                "select_tags": "",
-                "submit_button": ""
+            "stickiest_modal": {
+                "title": "Angepinnt {title}",
+                "sticky_label": "=> flarum-sticky.ref.sticky",
+                "sticky_text": "Gepinnte Diskussionen bleiben in der Liste „Alle Diskussionen“ ganz oben, solange sie noch nicht gelesen wurden. Wenn man sich ein bestimmtes Thema ansieht, das zu dieser Diskussion gehört, bleiben sie stets ganz oben angeheftet.",
+                "super_sticky_label": "=> huseyinfiliz-stickiest.ref.super_sticky",
+                "super_sticky_text": "Besonders wichtige Themen bleiben auf jeden Fall ganz oben angeheftet.",
+                "tag_sticky_label": "=> huseyinfiliz-stickiest.ref.tag_sticky",
+                "tag_sticky_text": "Gepinnte Themen sind standardmäßig in der Liste „Alle Diskussionen“ ausgeblendet. Sie werden nur angezeigt und bleiben oben angeheftet, wenn man ein bestimmtes Thema aufruft, nämlich eines der Themen, die du hier auswählst. Diese Option kann mit „Besonders wichtig“ kombiniert werden.",
+                "tags_label": "=> flarum-tags.ref.tags",
+                "submit_button": "=> core.ref.save_changes"
             }
         },
         "ref": {
             "sticky": "=> flarum-sticky.ref.sticky",
-            "super_sticky": "Super Sticky",
-            "tag_sticky": "",
-            "super_tag_sticky": ""
+            "super_sticky": "Besonders wichtig",
+            "tag_sticky": "Gepinntes Thema",
+            "super_tag_sticky": "Besonders wichtiges Thema"
         }
     }
 }

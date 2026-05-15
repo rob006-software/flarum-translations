@@ -1,0 +1,20 @@
+{
+    "fof-online-users-widget": {
+        "admin": {
+            "settings": {
+                "cache_ttl": "Dauer des Zwischenspeicherns der Benutzerliste (in Sekunden)",
+                "last_seen_interval": "Zeitintervall nach letzter Aktivität, während dessen ein Benutzer als online gilt (in Minuten)",
+                "max_users": "Maximal angezeigte Benutzer"
+            },
+            "permissions": {
+                "view_online_users_widget": "Widget „Benutzer online“ anzeigen"
+            }
+        },
+        "forum": {
+            "widget": {
+                "title": "Benutzer online",
+                "empty": "Derzeit keine Benutzer online."
+            }
+        }
+    }
+}

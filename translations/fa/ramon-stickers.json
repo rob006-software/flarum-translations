@@ -1,0 +1,57 @@
+{
+    "ramon-stickers": {
+        "admin": {
+            "settings": {
+                "hover_play_label": "",
+                "hover_play_help": "",
+                "show_tooltip_label": "",
+                "show_tooltip_help": ""
+            },
+            "sticker_section": {
+                "heading_title": "",
+                "import_button": "",
+                "export_button": "",
+                "export_error": "",
+                "import_zip_message": "",
+                "import_stickers_message": "",
+                "importing_message": "",
+                "import_result": "",
+                "import_error_message": "",
+                "bulk_upload_button": "",
+                "bulk_upload_category_prompt": "",
+                "bulk_upload_progress": "",
+                "bulk_upload_done": "",
+                "select_button": "",
+                "cancel_select_button": "لغو",
+                "delete_selected_button": "",
+                "delete_selected_confirm": "",
+                "edit_sticker": {
+                    "modal_title": "",
+                    "sticker_category_label": "",
+                    "category_name_label": "",
+                    "sticker_title_label": "",
+                    "text_to_replace_label": "",
+                    "path_or_url_label": "",
+                    "upload_label": "",
+                    "upload_button": "",
+                    "upload_help": "",
+                    "submit_button": "=> core.ref.save_changes",
+                    "delete_sticker_button": "",
+                    "delete_sticker_confirmation": "",
+                    "saved_message": "=> core.admin.settings.saved_message"
+                },
+                "sticker_list": {
+                    "load_more_button": "=> core.forum.post_stream.load_more_button"
+                }
+            }
+        },
+        "forum": {
+            "composer": {
+                "sticker_tooltip": ""
+            },
+            "picker": {
+                "no_stickers": ""
+            }
+        }
+    }
+}

@@ -2,12 +2,12 @@
     "datitisev-backup": {
         "admin": {
             "settings": {
-                "database_bin_path_label": "",
-                "database_bin_path_help": ""
+                "database_bin_path_label": "（可选）数据库二进制文件路径",
+                "database_bin_path_help": "如果您的数据库二进制文件（如 mysqldump, pg_dump）不在系统的 PATH 中，可以在此处指定它们所在的目录。请确保包含末尾的斜杠（例如 <code>/usr/local/mysql/bin/</code>）。\n"
             },
             "adapters": {
                 "local": "本地存储",
-                "aliyun": "阿里云",
+                "aliyun": "阿里云 (Aliyun)",
                 "azure": "微软 Azure",
                 "aws": "亚马逊 AWS S3",
                 "dropbox": "Dropbox",
@@ -17,18 +17,18 @@
             },
             "settings_button": "配置",
             "delete_button": "删除",
-            "delete_confirmation": "确定要删除「{name}」（{adapter}）",
-            "create_button": "新建适配器",
+            "delete_confirmation": "确定要删除“{name}”（{adapter}）吗？",
+            "create_button": "添加新适配器",
             "required_package_button": "安装",
             "required-package-modal": {
                 "title": "{adapter} 所需的软件包",
-                "content": "为了使用这个驱动程序，您需要安装一个特定的软件包。您可以通过 Flarum 安装目录下运行 <code>composer require {package}</code> 命令来安装。\n"
+                "content": "为了使用此驱动程序，您需要安装一个特定的软件包。您可以通过在 Flarum 安装目录下运行以下 composer 命令来安装：<code>composer require {package}</code>。\n"
             },
             "adapter-settings-modal": {
                 "title": "配置 {adapter}",
                 "name_label": "Location 名称",
-                "timestamp_label": "",
-                "timestamp_help": "",
+                "timestamp_label": "文件名时间戳格式",
+                "timestamp_help": "指定备份文件名中时间戳的格式。默认为 <code>U</code>（Unix 时间戳）。使用 <a>PHP 日期格式化</a>。不安全的文件名字符将被清理。文件名格式将为 <code>{forum}-[格式化后的时间戳].zip</code>。\n",
                 "local": {
                     "target": {
                         "label": "目标路径",
@@ -37,7 +37,7 @@
                 },
                 "aliyun": {
                     "endpoint": {
-                        "label": "终端",
+                        "label": "终端 (Endpoint)",
                         "description": "存储终端的 URL。"
                     },
                     "access-id": {
@@ -49,52 +49,52 @@
                         "description": "您的身份认证访问令牌密钥"
                     },
                     "bucket": {
-                        "label": "桶",
+                        "label": "存储桶 (Bucket)",
                         "description": "要使用的存储桶。"
                     },
                     "path-prefix": {
                         "label": "路径前缀",
-                        "description": "可选的默认文件路径前缀。"
+                        "description": "可选的文件默认路径前缀。"
                     }
                 },
                 "azure": {
                     "endpoint": {
-                        "label": "",
-                        "description": ""
+                        "label": "连接字符串",
+                        "description": "您的 Azure 存储连接字符串。"
                     },
                     "container": {
                         "label": "容器",
                         "description": "Azure 容器"
                     },
                     "path-prefix": {
-                        "label": "",
-                        "description": ""
+                        "label": "路径前缀",
+                        "description": "可选的文件默认路径前缀。"
                     }
                 },
                 "aws": {
                     "credentials-key": {
                         "label": "Key",
-                        "description": "AWS 凭据密钥"
+                        "description": "AWS 凭据 Key"
                     },
                     "credentials-secret": {
-                        "label": "私钥",
+                        "label": "私钥 (Secret)",
                         "description": "AWS 凭据私钥"
                     },
                     "region": {
                         "label": "区域",
-                        "description": "存储桶的区域。"
+                        "description": "存储桶所属区域。"
                     },
                     "version": {
                         "label": "版本",
-                        "description": "指定一个版本或留空表示最新版本。"
+                        "description": "指定版本或留空以使用最新版本。"
                     },
                     "bucket": {
-                        "label": "桶",
+                        "label": "存储桶 (Bucket)",
                         "description": "要上传到的 S3 存储桶。"
                     },
                     "path-prefix": {
                         "label": "路径前缀",
-                        "description": "可选的默认文件路径前缀。"
+                        "description": "可选的文件默认路径前缀。"
                     }
                 },
                 "dropbox": {
@@ -105,59 +105,59 @@
                         "label": "App Secret"
                     },
                     "refresh-token": {
-                        "label": "刷新令牌",
-                        "description": "在下方获取刷新令牌，或根据指引手动生成：https://www.codemzy.com/blog/dropbox-long-lived-access-refresh-token#how-can-i-get-a-refresh-token-manually"
+                        "label": "刷新令牌 (Refresh Token)",
+                        "description": "使用下方的字段获取刷新令牌，或手动参考指引：https://www.codemzy.com/blog/dropbox-long-lived-access-refresh-token#how-can-i-get-a-refresh-token-manually。"
                     },
                     "help": {
                         "obtain-access-code-label": "获取访问代码（需要 App Key）",
                         "obtain-access-code-button": "打开 Dropbox",
                         "obtain-refresh-token-label": "使用访问代码获取刷新令牌（需要 App Key 和 Secret）",
                         "obtain-refresh-token-button": "使用代码",
-                        "obtain-refresh-token-success": "刷新令牌获取成功，请保存。"
+                        "obtain-refresh-token-success": "刷新令牌获取成功并已更新至上方！请保存更改以存储它。"
                     }
                 },
                 "gdrive": {
                     "client-id": {
                         "label": "Client ID",
-                        "description": "根据指引创建 Google Project 并获取 Client ID 和 Client Secret：https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md\n"
+                        "description": "按照 https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md 的说明创建 Google 项目并获取 Client ID 和 Client Secret。\n"
                     },
                     "client-secret": {
                         "label": "Client Secret",
                         "description": " "
                     },
                     "refresh-token": {
-                        "label": "刷新令牌",
-                        "description": "按照 @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/2-getting-your-refresh-token.md 的指引，取回您的 Google oAuth 应用程序刷新令牌。\n"
+                        "label": "刷新令牌 (Refresh Token)",
+                        "description": "按照 https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/2-getting-your-refresh-token.md 的说明取回您的 Google oAuth 应用程序刷新令牌。\n"
                     },
                     "folder": {
-                        "label": "Folder ID",
+                        "label": "文件夹 ID",
                         "description": "https://drive.google.com/drive/u/0/folders/ID"
                     },
                     "help": {
-                        "test_success_alert": "成功连接 Google Drive，请保存设置。",
+                        "test_success_alert": "成功连接到 Google Drive！请保存更改以存储设置。",
                         "test_button": "测试连接"
                     }
                 },
                 "ftp": {
                     "host": {
                         "label": "远程主机名",
-                        "description": "要连接到的 FTP 主机名，例如 <em>ftp.yourdomain.local</em>。"
+                        "description": "要连接的 FTP 主机名，例如：<em>ftp.yourdomain.local</em>。"
                     },
                     "username": {
                         "label": "用户名",
-                        "description": "要在 FTP 服务器上进行身份验证的用户名。"
+                        "description": "用于 FTP 服务器身份验证的用户名。"
                     },
                     "password": {
                         "label": "密码",
-                        "description": "要在 FTP 服务器上进行身份验证的密码。"
+                        "description": "用于 FTP 服务器身份验证的密码。"
                     },
                     "passive": {
-                        "toggle": "",
-                        "description": ""
+                        "toggle": "被动模式",
+                        "description": "是否为 FTP 连接使用被动模式。"
                     },
                     "port": {
                         "label": "端口",
-                        "description": "FTP 端口（默认 21）。"
+                        "description": "FTP 端口（默认为 21）。"
                     },
                     "root": {
                         "label": "根路径",
@@ -165,40 +165,40 @@
                     },
                     "ssl": {
                         "toggle": "SSL",
-                        "description": "是否使用加密 SSL 连接到服务器。"
+                        "description": "是否使用加密的 SSL 连接到服务器。"
                     },
                     "timeout": {
                         "label": "超时时间",
-                        "description": "等待与 FTP 服务器连接的秒数。"
+                        "description": "等待 FTP 服务器连接的秒数。"
                     }
                 },
                 "sftp": {
-                    "host": "",
-                    "username": "",
-                    "password": "",
-                    "root": "",
-                    "timeout": "",
+                    "host": "=> datitisev-backup.admin.adapter-settings-modal.ftp.host",
+                    "username": "=> datitisev-backup.admin.adapter-settings-modal.ftp.username",
+                    "password": "=> datitisev-backup.admin.adapter-settings-modal.ftp.password",
+                    "root": "=> datitisev-backup.admin.adapter-settings-modal.ftp.root",
+                    "timeout": "=> datitisev-backup.admin.adapter-settings-modal.ftp.timeout",
                     "port": {
-                        "label": "",
-                        "description": ""
+                        "label": "端口",
+                        "description": "SFTP 端口（默认为 22）。"
                     },
                     "private-key": {
-                        "label": "",
-                        "description": ""
+                        "label": "私钥 (Private Key)",
+                        "description": "验证 SFTP 连接时使用的私钥路径（建议使用绝对路径）。"
                     },
                     "passphrase": {
-                        "label": "",
-                        "description": ""
+                        "label": "密码短语 (Passphrase)",
+                        "description": "私钥的密码短语（如果有）。"
                     },
                     "use-agent": {
-                        "toggle": "",
-                        "description": ""
+                        "toggle": "使用代理 (Agent)",
+                        "description": "是否使用 SSH 代理来验证连接（默认为否）。"
                     }
                 }
             },
             "nav": {
                 "label": "备份",
-                "description": "存储您的论坛副本。"
+                "description": "存储论坛的副本。"
             }
         }
     }

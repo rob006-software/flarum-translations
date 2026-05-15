@@ -12,11 +12,14 @@
                 "title": "Reaktionen",
                 "anonymous_count": "{count, plural, one {# anonymer Benutzer} other {# anonyme Benutzer}}",
                 "no_reactions": "Noch keine Reaktionen",
+                "load_more": "Mehr laden",
+                "others_count": "+ {count, plural, one {# andere} other {# andere}}",
                 "remove_all_reaction_type": "Alle {Reaktion} Reaktionen entfernen",
                 "remove_user_reaction": "Reaktion entfernen"
             },
             "mod_item": "Reaktionen anzeigen",
             "react_button_label": "Reagieren",
+            "unreact_button_label": "Reaktion entfernen",
             "reaction_button_label": "Mit {reaction} reagieren",
             "reacted_with_label": "{count, plural, one {{reaction} (# Reaktion)} other {{reaction} (# Reaktionen)}}"
         },
@@ -29,12 +32,12 @@
             "page": {
                 "cdn": {
                     "title": "CDN",
-                    "help": "In der Standardkonfiguration werden Assets für Reaktionen über Cloudflares CDN ausgeliefert. Es gibt auch die Möglichkeit,\neine andere CDN-Adresse zu verwenden. <code>[codepoint]</code> wird durch den Codepoint des Emojis ersetzt.\n\nUm zum Beispiel auf Noto Emoji per jsdelivr zu wechseln, würde man als URL <code>https://cdn.jsdelivr.net/gh/googlefonts/noto-emoji@v2.040/svg/emoji_u[codepoint].svg</code> verwenden. Dieses Feld darf NIE leer bleiben.\n",
+                    "help": "In der Standardkonfiguration werden Assets für Reaktionen über Cloudflares CDN ausgeliefert. Es gibt auch die Möglichkeit,\neine andere CDN-Adresse zu verwenden. <code>[codepoint]</code> wird durch den Codepoint des Emojis ersetzt.\n\nUm zum Beispiel auf Noto Emoji per jsdelivr zu wechseln, würde man als URL <code>https://cdn.jsdelivr.net/gh/googlefonts/noto-emoji@v2.040/svg/emoji_u[codepoint].svg</code> verwenden.\n\nDein CDN muss Emoji/Unicode {emojibase} oder höher unterstützen. Verwende [twemoji], um durch die Twemoji-Version zu ersetzen.\n",
                     "label": "URL",
                     "default-url": "Standard: {url}"
                 },
                 "reactions": {
-                    "title": "Benutzerdefinierte Reaktionen",
+                    "title": "Reaktionen",
                     "reactions": "Aktuelle Reaktionen",
                     "Helptext": "Gib den Namen (Bezeichner) des Emoji oder Font-Awesome Icons ein und wähle aus, welchen Typ du haben möchtest.",
                     "help": {
@@ -43,7 +46,16 @@
                     },
                     "delete_confirmation": "Soll diese Reaktion wirklich gelöscht werden? Dieser Vorgang kann nicht rückgängig gemacht werden.",
                     "delete_reaction_button": "Reaktion löschen",
-                    "add_reaction_button": "Reaktion hinzufügen"
+                    "add_reaction_button": "Reaktion hinzufügen",
+                    "add_reaction_label": "Neue Reaktion hinzufügen",
+                    "header": {
+                        "display": "Anzeigetext",
+                        "identifier": "Symbol-/Emoji-Kennung",
+                        "type": "Typ",
+                        "enabled": "Aktiviert",
+                        "action": "Aktion",
+                        "preview": "Vorschau"
+                    }
                 },
                 "convert": {
                     "help": "Wenn du deine Erweiterung gerade aktualisiert hast, müssen deine Reaktionen konvertiert werden. Wenn du diese Erweiterung gerade erst installiert hast, kannst du diese Nachricht getrost ignorieren.",
@@ -56,7 +68,6 @@
                     "react_own_posts_label": "Benutzer können auf eigene Beiträge reagieren,",
                     "allow-anonymous": "Anonyme (Gast-)Reaktionen zulassen",
                     "allow-anonymous-help": "Wenn diese Option aktiviert ist, können Gäste und anonyme Nutzer auf Beiträge reagieren. Beachte, dass anonyme Reaktionen nicht mit einem Nutzerprofil verknüpft werden und in der Liste der Reaktionen zusammengefasst werden.",
-                    "save_settings": "Einstellungen speichern",
                     "integrations": {
                         "legend": "Integrationen",
                         "warning": "Die gleiche Reaktion <strong>kann nicht</strong> in ein Gefällt-mir <strong>und</strong> ein Upvote umgewandelt werden",
@@ -72,7 +83,8 @@
                             "Label": "Reaktionen zu Gefällt-mirs konvertieren",
                             "Helptext": "Gebe den Bezeichner der Reaktion ein, die du automatisch in ein Gefällt mir umwandeln möchtest"
                         }
-                    }
+                    },
+                    "save_settings": "Einstellungen speichern"
                 }
             }
         }

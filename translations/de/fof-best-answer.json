@@ -31,10 +31,10 @@
                 "use_alt_ui_help": "Beste Antwortsteuerelemente in der Fußzeile des Beitrags",
                 "documentation": "Dokumentation",
                 "enabled_tags_label": "Aktivierte Tags",
-                "enabled_tags_help": "Wählen Sie aus, für welche Tags (sofern vorhanden) die Option „Beste Antworten“ aktiviert werden soll. Diese Tags werden zu Tags im „Fragen und Antworten“-Format und können die Option „Beste Antworten“ festlegen.",
+                "enabled_tags_help": "Wähle aus, für welche Tags (sofern vorhanden) die Option „Beste Antworten“ aktiviert werden soll. Diese Tags werden zu Tags im „Fragen und Antworten“-Format und können die Option „Beste Antworten“ festlegen.",
                 "remind_tags_label": "Erinnerungs-Tags",
-                "remind_tags_help": "Wählen Sie aus, für welche Tags (sofern vorhanden) Erinnerungen gesendet werden sollen. Erinnerungen werden nur für Diskussionen mit diesen Tags gesendet.",
-                "tags_info": "Wenn ein Tag „Beste Antwort“ aktiviert ist, weisen Sie jeder Benutzergruppe, die Antworten festlegen darf (eigene Diskussion, beliebige Diskussion), Berechtigungen zu. Berechtigungen können global (für jeden Tag mit aktivierter „Beste Antwort“) oder pro Tag zugewiesen werden.\n",
+                "remind_tags_help": "Wähle aus, für welche Tags (sofern vorhanden) Erinnerungen gesendet werden sollen. Erinnerungen werden nur für Diskussionen mit diesen Tags gesendet.",
+                "tags_info": "Wenn ein Tag „Beste Antwort“ aktiviert ist, weise jeder Benutzergruppe, die Antworten festlegen darf (eigene Diskussion, beliebige Diskussion), Berechtigungen zu. Berechtigungen können global (für jeden Tag mit aktivierter „Beste Antwort“) oder pro Tag zugewiesen werden.\n",
                 "discussion_sidebar_jump_button": "Schaltfläche „Zur besten Antwort springen“ in der Diskussionsseitenleiste anzeigen",
                 "discussion_sidebar_jump_button_help": "Fügt der Diskussionsseitenleiste eine Schaltfläche hinzu, die zur besten Antwort im Beitragsstream springt."
             },
@@ -88,7 +88,7 @@
             "subject": {
                 "awarded": "Dein Beitrag wurde von {display_name} als beste Antwort ausgewählt",
                 "ba-set": "{display_name} hat eine beste Antwort gewählt",
-                "select": "Konnten Sie eine Antwort auf Ihre Frage erhalten?"
+                "select": "Konntest du eine Antwort auf deine Frage erhalten?"
             },
             "body": {
                 "awarded": "Hallo {recipient_display_name},\n\nGute Arbeit, {actor_display_name} hat soeben deinen Beitrag als die beste Antwort in der Diskussion „{discussion_title}“ ausgewählt. Danke fürs Mithelfen.\n\nSchau es dir an: {discussion_url}\n",

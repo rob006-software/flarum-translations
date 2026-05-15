@@ -2,66 +2,74 @@
     "core": {
         "admin": {
             "advanced": {
-                "description": "",
+                "description": "Editar ajustes avanzados para tu foro.",
                 "maintenance": {
                     "bisect": {
                         "begin_button_text": "",
                         "continue_button_text": "",
                         "label": "",
-                        "help": ""
+                        "help": "Ayuda a identificar la extensión causante de los problemas. Esto automáticamente coloca el foro en modo mantenimiento (cerrado) hasta que el proceso termine."
                     },
                     "bisect_modal": {
-                        "description": "",
-                        "end_button": "",
-                        "issue_question": "",
-                        "issue_question_help": "",
-                        "no_button": "",
+                        "description": "Esto coloca el foro en mantenimiento (cerrado) hasta que el proceso termine. En cada etapa algunas extensiones serán desactivadas hasta encontrar la que causa problemas. No te sorprendas si falta alguna función o si cambia el tema del diseño. Mantén está página abierta, y trata de reproducir el error luego de cada etapa en una pestaña separada. Siempre podrás regresar a esta página si por error se cierra.\n",
+                        "end_button": "Cerrar e ir a la página de la extensión",
+                        "issue_question": "¿Sigue el error?",
+                        "issue_question_help": "Intentá reproducir el error en una pestaña por separado y respondé basándote en el resultado.",
+                        "no_button": "No",
                         "result_description": "",
                         "start_button": "",
                         "stop_button": "",
-                        "steps_left": "",
-                        "total_steps": "",
+                        "steps_left": "Etapas faltantes: {steps}",
+                        "total_steps": "Esto tomará alrededor de {steps} etapas.",
                         "title": "",
-                        "yes_button": ""
+                        "yes_button": "Sí"
                     },
                     "config_override": {
-                        "label": "",
-                        "help": ""
+                        "label": "Tu archivo <code>config.php</code> está sobre escribiendo estas configuraciones.",
+                        "help": "Aún podés cambiar las configuraciones acá, pero no van a hacer efecto hasta que edites <code>offline</code> a <code>0</code> en tu archivo <code>config.php</code>."
                     },
-                    "help": "",
+                    "help": "Coloca tu foro en modo mantenimiento para evitar que los usuarios accedan.",
                     "options": {
-                        "none": "",
-                        "high": "",
-                        "low": "",
-                        "safe": ""
+                        "none": "Sin mantenimiento.",
+                        "high": "Modo mantenimiento alto. Nadie puede acceder al foro (sólo puede activarse desde config.php)",
+                        "low": "Modo mantenimiento bajo. Administradores pueden acceder al foro.",
+                        "safe": "Modo seguro. Las extensiones no se activan y sólo administradores pueden acceder al foro."
                     },
-                    "safe_mode_extensions": "",
-                    "safe_mode_extensions_override_help": "",
-                    "section_label": ""
+                    "safe_mode_extensions": "Extensiones permitidas para activarse durante el modo seguro",
+                    "safe_mode_extensions_override_help": "Está configuración se sobre escribe con la llave <code>safe_mode_extensions</code> en el archivo <code>config.php</code>. (<b>{extensions}</b>)",
+                    "section_label": "Mantenimiento"
                 },
                 "fontawesome": {
-                    "section_label": "",
-                    "source_label": "",
-                    "source_help": "",
-                    "source_local": "",
-                    "source_cdn": "",
-                    "source_kit": "",
-                    "cdn_url_label": "",
-                    "cdn_url_help": "",
-                    "kit_url_label": "",
-                    "kit_url_help": "",
+                    "section_label": "Íconos FontAwesome",
+                    "source_label": "Origen del Ícono",
+                    "source_help": "Elige como los íconos de FontAwesome se inician. Local utiliza fuentes incluidas en el paquete, CDN carga desde una CDN y Kit utiliza kits de FontAwesome con íconos personalizados.",
+                    "source_local": "Local (Paquete)",
+                    "source_cdn": "CDN",
+                    "source_kit": "FontAwesome Kit",
+                    "cdn_url_label": "CDN URL",
+                    "cdn_url_help": "URL entera hacia el archivo CSS FontAwesome en una CDN",
+                    "kit_url_label": "Kit URL",
+                    "kit_url_help": "Tu URL del script FontAwesome Kit (desde kit.fontawesome.com)",
                     "config_override": {
-                        "label": "",
-                        "help": ""
+                        "label": "Anular configuración",
+                        "help": "Las configuraciones de FontAwesome están en el archivo config.php y no pueden ser cambiadas acá."
+                    },
+                    "preview": {
+                        "button": "Vista previa Íconos",
+                        "label": "Vista previa Ícono",
+                        "help": "Compruebe tu configuración de FontAwesome. Un ícono que carga significa que se encuentran disponible; un cuadrado significa que no cargó.",
+                        "fa5_fa6_label": "Alias FA5/FA6",
+                        "fa7_label": "Clases FA7",
+                        "pro_label": "Sólo Pro"
                     }
                 },
                 "pgsql": {
-                    "search_configuration": ""
+                    "search_configuration": "Buscar configuración para usar"
                 },
                 "queue": {
-                    "section_label": "",
-                    "sync_info": "",
-                    "sync_help": "",
+                    "section_label": "Cola",
+                    "sync_info": "Tu foro está usando controlador de cola síncrono. Jobs se procesan inmediatamente en el hilo principal del proceso.",
+                    "sync_help": "Para un mejor rendimiento y experiencia de usuario, considere usar el controlador de cola de base de datos. Obtenga más información en la documentación.",
                     "custom_driver": "",
                     "retries_label": "",
                     "retries_help": "",
@@ -87,28 +95,30 @@
             },
             "appearance": {
                 "allow_user_color_scheme_label": "",
-                "colored_header_label": "",
-                "colors_heading": "",
-                "colors_primary_label": "",
-                "colors_secondary_label": "",
-                "colors_text": "",
-                "custom_footer_heading": "",
+                "colored_header_label": "Encabezado de Color",
+                "colors_heading": "Colores",
+                "colors_primary_label": "Color Primario",
+                "colors_secondary_label": "Color Secundario",
+                "colors_text": "Elegí dos colores para personalizar la tematica de tu foro. El primero va a ser usado como color de resaltado mientras que el segundo va a ser utilizado para dar estilo a los elementos de fondo.",
+                "custom_footer_heading": "Pie de Pagina Personalizado",
                 "custom_footer_text": "",
-                "custom_header_heading": "",
+                "custom_header_heading": "Encabezado Personalizado",
                 "custom_header_text": "",
                 "custom_styles_cannot_use_less_features": "",
                 "custom_styles_heading": "",
                 "custom_styles_text": "",
-                "description": "",
-                "edit_css_button": "",
+                "description": "Personalizá los colores, logos y otras variables de tu foro.",
+                "edit_css_button": "Editá el CSS personalizado",
                 "edit_footer_button": "",
                 "edit_header_button": "",
-                "enter_hex_message": "",
-                "favicon_heading": "",
-                "favicon_text": "",
+                "enter_hex_message": "Ingresá un color en forma hexadecimal porfavor.",
+                "favicon_heading": "Favicon",
+                "favicon_text": "Subí una imagen para que sea mostrada como el icono de acceso directo del foro.",
                 "logo_heading": "",
-                "logo_text": "",
-                "title": "",
+                "logo_text": "Subí una imagen para que sea mostrada en lugar del titulo del foro.",
+                "logo_dark_mode_heading": "",
+                "logo_dark_mode_text": "",
+                "title": "Apariencia",
                 "color_scheme_label": "",
                 "color_schemes": {
                     "auto_mode_label": "",
@@ -120,13 +130,18 @@
             },
             "basics": {
                 "all_discussions_label": "",
-                "default_language_heading": "",
-                "description": "",
+                "default_language_heading": "Lenguaje por defecto",
+                "description": "Configurá el título de tu foro, el lenguaje y otras configuraciones básicas.",
                 "display_name_driver_options": {
                     "username": ""
                 },
-                "display_name_heading": "",
+                "display_name_heading": "Nombre visible del usuario",
                 "display_name_text": "",
+                "avatar_driver_options": {
+                    "default": ""
+                },
+                "avatar_driver_heading": "",
+                "avatar_driver_text": "",
                 "forum_description_heading": "",
                 "forum_description_text": "",
                 "forum_title_heading": "",
@@ -140,14 +155,21 @@
                     },
                     "users": {
                         "default": "",
-                        "id": ""
+                        "id": "",
+                        "id_with_display_name": ""
                     }
                 },
                 "slug_driver_heading": "",
                 "slug_driver_text": "",
                 "title": "",
                 "welcome_banner_heading": "",
-                "welcome_banner_text": ""
+                "welcome_banner_text": "",
+                "abandoned_extensions_heading": "",
+                "abandoned_extensions_text": "",
+                "abandoned_extensions_sync_button": "",
+                "abandoned_extensions_sync_success": "",
+                "abandoned_extensions_sync_error": "",
+                "abandoned_extensions_notify_admins_label": ""
             },
             "create_user": {
                 "email_placeholder": "",
@@ -158,6 +180,20 @@
                 "title": "",
                 "use_random_password": "",
                 "username_placeholder": ""
+            },
+            "announcements": {
+                "comments_label": "",
+                "description": "",
+                "empty": "",
+                "load_error": "",
+                "about": "",
+                "hide": "",
+                "read_more": "",
+                "refresh": "",
+                "retry": "",
+                "show": "",
+                "title": "",
+                "view_all": ""
             },
             "dashboard": {
                 "clear_cache_button": "",
@@ -185,6 +221,22 @@
                 "title": "",
                 "toggle_advanced_page_button": "",
                 "tools_button": ""
+            },
+            "extensions-health-widget": {
+                "abandoned_no_replacement": "",
+                "abandoned_with_replacement": "",
+                "all_healthy": "",
+                "section_abandoned_empty": "",
+                "section_suggested_empty": "",
+                "section_disabled_empty": "",
+                "title": "",
+                "section_abandoned_heading": "",
+                "section_abandoned_help": "",
+                "section_suggested_heading": "",
+                "section_suggested_help": "",
+                "section_disabled_heading": "",
+                "section_disabled_help": "",
+                "suggested_by": ""
             },
             "debug-warning": {
                 "detail": "",
@@ -241,8 +293,14 @@
                 "mail_mailgun_secret_label": "",
                 "mail_password_label": "",
                 "mail_port_label": "",
+                "mail_postmark_message_stream_label": "",
+                "mail_postmark_token_label": "",
+                "mail_smtp_verify_peer_label": "",
+                "mail_smtp_verify_peer_help": "",
                 "mail_username_label": "",
                 "mailgun_heading": "",
+                "postmark_heading": "",
+                "postmark_description": "",
                 "not_sending_message": "",
                 "send_test_mail_button": "",
                 "send_test_mail_heading": "",
@@ -281,6 +339,14 @@
                     "title": ""
                 },
                 "replaced": "",
+                "reset_settings": {
+                    "button": "",
+                    "cancel_button": "",
+                    "confirm_button": "",
+                    "warning": "",
+                    "title": "",
+                    "title_extension": ""
+                },
                 "safe_mode_warning": ""
             },
             "header": {
@@ -305,11 +371,14 @@
                 "basics_button": "",
                 "basics_title": "",
                 "categories": {
+                    "analytics": "",
                     "authentication": "",
                     "core": "",
                     "discussion": "",
                     "feature": "",
                     "formatting": "",
+                    "forum-widget": "",
+                    "infrastructure": "",
                     "language": "",
                     "moderation": "",
                     "other": "",
@@ -649,6 +718,9 @@
                 "notify_by_email_heading": "",
                 "notify_by_web_heading": "",
                 "notify_discussion_renamed_label": "",
+                "device_heading": "",
+                "haptic_feedback_help": "",
+                "haptic_feedback_label": "",
                 "privacy_disclose_online_label": "",
                 "privacy_heading": "",
                 "title": ""
@@ -898,6 +970,7 @@
                 "maintenance_mode_link": "",
                 "maintenance_mode_message": "",
                 "maintenance_mode_title": "",
+                "method_not_allowed": "",
                 "not_authenticated": "",
                 "not_found": "",
                 "not_found_return_link": "",
@@ -983,6 +1056,13 @@
             "send_test": {
                 "subject": "",
                 "body": ""
+            },
+            "abandoned_extensions": {
+                "subject": "",
+                "body_intro": "",
+                "body_outro": "",
+                "line_with_replacement": "",
+                "line_no_replacement": ""
             }
         },
         "ref": {

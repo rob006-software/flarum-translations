@@ -4,19 +4,19 @@
             "repository": "",
             "milestone": "",
             "default_filter": "",
-            "closed": "",
-            "open": "",
-            "all": ""
+            "closed": "=> sycho-github-milestone.ref.closed",
+            "open": "=> sycho-github-milestone.ref.open",
+            "all": "=> sycho-github-milestone.ref.all"
         },
         "forum": {
             "empty_list": "",
             "title": "",
             "last_updated": "آخرین بروزرسانی {time}",
-            "closed": "",
-            "open": "",
-            "all": "",
+            "closed": "=> sycho-github-milestone.ref.closed",
+            "open": "=> sycho-github-milestone.ref.open",
+            "all": "=> sycho-github-milestone.ref.all",
             "complete": "",
-            "load_more": "",
+            "load_more": "=> core.forum.discussion_list.load_more_button",
             "tasks_done": ""
         },
         "ref": {

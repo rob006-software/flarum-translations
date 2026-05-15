@@ -2,21 +2,97 @@
     "ianm-html-head": {
         "admin": {
             "create_button": "Créer",
+            "help": {
+                "intro": "Ajoutez des balises personnalisées à insérer dans le code HTML de votre forum. Les éléments sont mis en cache et fournis de manière efficace — aucune requête de base de données n'est effectuée lors du chargement de la page.",
+                "preconnect": "Les balises de lien et de script pointant vers des sources externes, génèrent automatiquement des indications « preconnect » et « dns-prefetch », ce qui permet d'établir la connexion avant même que le navigateur n'en ait besoin.",
+                "cache": "Le code HTML généré est mis en cache lors l'enregistrement. Les modifications prennent effet immédiatement sans qu'il soit nécessaire de vider l'intégralité du cache du site.",
+                "pages": "Chaque élément peut concerner le frontend du forum, le panneau d'administration, ou les deux.",
+                "location": "Les éléments peuvent être injectés dans la balise head ou avant la balise de fermeture body."
+            },
             "table": {
+                "drag_handle": "Glisser pour réorganiser",
                 "description_label": "Description",
-                "header_label": "En-tête",
+                "type_label": "Type",
+                "location_label": "Emplacement",
+                "pages_label": "Pages",
                 "active_label": "Actif",
-                "empty_text": "Aucune entrée",
+                "empty_text": "Aucun élément pour le moment. Cliquez sur « Créer » pour ajouter votre premier élément principal.",
                 "delete_button": "Supprimer",
-                "edit_button": "Modifier"
+                "edit_button": "Modifier",
+                "delete_confirm": "Êtes-vous sûr de vouloir supprimer cet élément ?",
+                "header_label": "En-tête"
             },
             "modal": {
-                "create_title": "Créer un nouvel élément",
-                "edit_title": "Modifier un élément",
-                "text": "Assurez-vous que votre syntaxe soit correcte, car il est possible de « casser » le forum en indiquant des données erronées sur l'élément d'en-tête. Une fois sauvegardé, activez votre nouvel élément d'en-tête en utilisant l'interrupteur fourni.",
+                "create_title": "Créer un élément d'en-tête",
+                "edit_title": "Modifier un élément d'en-tête",
                 "description_label": "Description",
-                "header_label": "Élément d'en-tête personnalisé",
-                "save_button": "Enregistrer"
+                "description_help": "Un libellé pour votre propre référence — non injecté dans la page.",
+                "type_label": "Type",
+                "location_label": "Injecter dans",
+                "location_help": "En-tête : chargé avant l'affichage de la page, idéal pour les styles et les métadonnées essentielles. Pied de page : chargé après le contenu de la page, idéal pour les scripts non essentiels.",
+                "pages_label": "Appliquer à",
+                "save_button": "Enregistrer",
+                "type": {
+                    "meta": "Balise Méta",
+                    "link": "Lien",
+                    "script": "Script",
+                    "style": "Style",
+                    "raw": "HTML brut"
+                },
+                "location": {
+                    "head": "En-tête",
+                    "foot": "Pied de page"
+                },
+                "pages": {
+                    "forum": "Forum",
+                    "admin": "Panneau d'administration"
+                },
+                "meta": {
+                    "variant_label": "Variante",
+                    "name_label": "name=\"\"",
+                    "property_label": "property=\"\" (Open Graph)",
+                    "content_label": "Contenu"
+                },
+                "link": {
+                    "rel_label": "rel=\"\"",
+                    "href_label": "href=\"\" (URL)",
+                    "as_label": "as=\"\"",
+                    "as_help": "Indique au navigateur le type de ressource préchargée afin qu'il puisse définir les en-têtes de requête appropriés. Requis pour rel=preload.",
+                    "crossorigin_label": "Ajouter crossorigin=\"anonymous\"",
+                    "crossorigin_help": "Requis pour les polices et les scripts chargés à partir d'un autre domaine, afin que le navigateur puisse partager la connexion. Activez cette option si la ressource provient d'une autre origine.",
+                    "fetchpriority_label": "fetchpriority=\"\"",
+                    "fetchpriority_default": "Par défaut : navigateur",
+                    "fetchpriority_help": "Indication pour le navigateur concernant la priorité relative de cette ressource. haut : charger en priorité (par exemple, une image principale ou une feuille de style critique). bas : charger plus tard (par exemple, une ressource située sous le pli). Ne pas définir pour laisser le navigateur décider lui-même.",
+                    "extras_label": "Attributs supplémentaires",
+                    "extras_add": "Ajouter un attribut",
+                    "extras_remove": "Supprimer"
+                },
+                "script": {
+                    "external_label": "Externe (src)",
+                    "inline_label": "Dans la ligne",
+                    "src_label": "src=\"\" (URL)",
+                    "inline_content_label": "Contenu du script",
+                    "defer_label": "defer",
+                    "defer_help": "Le script s'exécute une fois la page analysée, sans bloquer l'affichage. Idéal pour la plupart des scripts.",
+                    "async_label": "async",
+                    "async_help": "Le script s'exécute dès son téléchargement, sans tenir compte de l'ordre. Idéal pour les scripts autonomes, tels que les scripts d'analyse.",
+                    "module_label": "type=\"module\"",
+                    "module_help": "Activez cette option si la documentation du fournisseur de scripts recommande d'utiliser type=\"module\". Les modules se chargent après la page sans la bloquer.",
+                    "crossorigin_label": "crossorigin=\"anonymous\"",
+                    "crossorigin_help": "Requis lors du chargement de scripts provenant d'un autre domaine nécessitant un accès CORS."
+                },
+                "style": {
+                    "inline_label": "Contenu CSS",
+                    "inline_help": "Appliqué globalement à toutes les pages ciblées par cet élément. Veillez à ce que les règles soient précises afin d'éviter tout effet indésirable."
+                },
+                "raw": {
+                    "content_label": "HTML",
+                    "help_text": "Saisissez du code HTML brut. Des indications « preconnect » sont générées automatiquement pour tous les liens inter-origines ou balises de script détectés ici. L'ordre de tri et l'activation/désactivation fonctionnent normalement, mais les fonctionnalités spécifiques à certains types (fetchpriority, defer, etc.) ne sont pas disponibles — utilisez un type structuré si vous en avez besoin."
+                },
+                "preview_label": "Prévisualiser",
+                "preview_empty": "Remplissez les champs ci-dessus pour obtenir un aperçu.",
+                "text": "Assurez-vous que votre syntaxe soit correcte, car il est possible de « casser » le forum en indiquant des données erronées sur l'élément d'en-tête. Une fois sauvegardé, activez votre nouvel élément d'en-tête en utilisant l'interrupteur fourni.",
+                "header_label": "Élément d'en-tête personnalisé"
             }
         }
     }

@@ -1,0 +1,310 @@
+{
+    "ramon-verified": {
+        "lib": {
+            "tooltip": "",
+            "tooltip_with_date": "",
+            "popover": {
+                "pill": "",
+                "headline": "",
+                "verified_on": "",
+                "verified_no_date": "",
+                "learn_more": ""
+            },
+            "tier_prompt": {
+                "intro": "",
+                "hint": "",
+                "no_tiers": "",
+                "invalid": ""
+            },
+            "errors": {
+                "generic": "",
+                "network": "",
+                "clipboard": ""
+            }
+        },
+        "forum": {
+            "settings": {
+                "heading": "",
+                "verified_label": "",
+                "verified_sublabel": "",
+                "pending_label": "",
+                "pending_sublabel": "",
+                "avatar_locked_label": "",
+                "avatar_locked_sublabel": "",
+                "request_button": ""
+            },
+            "avatar": {
+                "locked_tooltip": "",
+                "locked_label": "",
+                "locked_help": "",
+                "locked_alert": "",
+                "request_change_button": "",
+                "request_change_confirm": "",
+                "request_change_success": "",
+                "request_change_failed": ""
+            },
+            "user_controls": {
+                "verify_button": "",
+                "revoke_button": "",
+                "verify_prompt": "",
+                "revoke_prompt": "",
+                "verify_success": "",
+                "revoke_success": "",
+                "verify_failed": "",
+                "revoke_failed": ""
+            },
+            "request_modal": {
+                "title": "",
+                "intro": "",
+                "reason_label": "",
+                "reason_placeholder": "",
+                "document_type_label": "",
+                "document_type_rg": "",
+                "document_type_cpf": "",
+                "document_type_passport": "",
+                "document_type_driver": "",
+                "document_type_other": "",
+                "document_label": "",
+                "document_help": "",
+                "uploading": "",
+                "uploaded": "",
+                "uploaded_short": "",
+                "choose_file": "",
+                "choose_file_hint": "",
+                "remove_file": "",
+                "file_too_large": "",
+                "bad_type": "",
+                "upload_failed": "",
+                "document_required": "",
+                "submit_button": "",
+                "success": ""
+            },
+            "notifications": {
+                "user_verified_text": "",
+                "user_verified_preference": ""
+            }
+        },
+        "admin": {
+            "tabs": {
+                "aria_label": "",
+                "general": "",
+                "tiers": "",
+                "requests": ""
+            },
+            "preview": {
+                "helper": "",
+                "meta_sample": ""
+            },
+            "settings": {
+                "section_appearance": "",
+                "section_appearance_help": "",
+                "section_behaviour": "",
+                "section_behaviour_help": "",
+                "requests_open_label": "",
+                "requests_open_help": "",
+                "show_tooltip_label": "",
+                "show_tooltip_help": "",
+                "require_document_label": "",
+                "require_document_help": "",
+                "retention_label": "",
+                "retention_help": "",
+                "retention_keep": "",
+                "retention_delete_immediate": "",
+                "retention_delete_after_days": "",
+                "retention_days_label": "",
+                "retention_days_help": "",
+                "lock_avatar_label": "",
+                "lock_avatar_help": "",
+                "badge_size_label": "",
+                "badge_size_help": "",
+                "custom_svg_label": "",
+                "custom_svg_help": "",
+                "tiers": {
+                    "section_title": "",
+                    "section_help": "",
+                    "empty": "",
+                    "empty_title": "",
+                    "add": "",
+                    "add_first": "",
+                    "collapse": "",
+                    "done": "",
+                    "unnamed": "",
+                    "no_id": "",
+                    "remove": "",
+                    "section_identity": "",
+                    "section_appearance": "",
+                    "section_popover": "",
+                    "section_assignment": "",
+                    "preview_label": "",
+                    "preview_hint": "",
+                    "learn_more_open": "",
+                    "remove_confirm": "",
+                    "id_label": "",
+                    "id_help": "",
+                    "label_label": "",
+                    "label_placeholder": "",
+                    "color_label": "",
+                    "description_label": "",
+                    "description_placeholder": "",
+                    "description_help": "",
+                    "description_bold_title": "",
+                    "description_italic_title": "",
+                    "description_toolbar_hint": "",
+                    "learn_more_label": "",
+                    "learn_more_help": "",
+                    "auto_groups_label": "",
+                    "auto_groups_help": "",
+                    "auto_groups_empty": ""
+                },
+                "section_document_types": "",
+                "section_document_types_help": "",
+                "document_type_id_header": "",
+                "document_type_label_header": "",
+                "document_type_label_placeholder": "",
+                "document_type_add": "",
+                "document_type_remove": "",
+                "document_types_empty": ""
+            },
+            "permissions": {
+                "request_label": "",
+                "verify_users_label": "",
+                "auto_verified_label": ""
+            },
+            "encryption": {
+                "section_title": "",
+                "section_help": "",
+                "status": {
+                    "unknown": "",
+                    "libsodium_missing": "",
+                    "public_key_label": "",
+                    "private_key_label": "",
+                    "present": "",
+                    "absent": "",
+                    "healthy": "",
+                    "not_setup": "",
+                    "private_missing_title": "",
+                    "private_missing_body": "",
+                    "mismatch_title": "",
+                    "mismatch_body": ""
+                },
+                "public_key": {
+                    "label": "",
+                    "copy_title": "",
+                    "copied": "",
+                    "help_healthy": "",
+                    "help_broken": "",
+                    "remove_button": ""
+                },
+                "actions": {
+                    "generate": ""
+                },
+                "reveal_modal": {
+                    "title": "",
+                    "intro": "",
+                    "warning_title": "",
+                    "warning_body": "",
+                    "snippet_label": "",
+                    "copy_button": "",
+                    "copied": "",
+                    "confirm_saved": "",
+                    "confirm_hint": "",
+                    "close": "",
+                    "orphaned": ""
+                },
+                "regenerate_modal": {
+                    "title": "",
+                    "warning": "",
+                    "acknowledge": "",
+                    "submit": ""
+                }
+            },
+            "requests": {
+                "title": "",
+                "description": "",
+                "tab_pending": "",
+                "tab_approved": "",
+                "tab_rejected": "",
+                "status_pending": "",
+                "status_approved": "",
+                "status_rejected": "",
+                "empty_pending": "",
+                "empty_approved": "",
+                "empty_rejected": "",
+                "empty_search": "",
+                "search_placeholder": "",
+                "search_clear": "",
+                "status_auto": "",
+                "tier_filter_aria": "",
+                "tier_filter_all": "",
+                "auto_via_groups": "",
+                "auto_via_group_unknown": "",
+                "auto_actions_hint": "",
+                "pagination_prev": "",
+                "pagination_next": "",
+                "pagination_info": "",
+                "document_label": "",
+                "view_document": "",
+                "document_preview_title": "",
+                "preview_unavailable": "",
+                "preview_failed": "",
+                "admin_note_label": "",
+                "handled_by": "",
+                "approve_button": "",
+                "reject_button": "",
+                "revoke_button": "",
+                "approve_prompt": "",
+                "reject_prompt": "",
+                "revoke_prompt": "",
+                "approve_success": "",
+                "reject_success": "",
+                "revoke_success": "",
+                "load_failed": "",
+                "load_approved_failed": "",
+                "decide_failed": "",
+                "revoke_user_failed": "",
+                "generate_keypair_failed": "",
+                "status_load_failed": ""
+            }
+        },
+        "email": {
+            "verified": {
+                "subject": "",
+                "html": {
+                    "body": "",
+                    "preview": ""
+                },
+                "plain": {
+                    "body": ""
+                }
+            }
+        },
+        "gdpr": {
+            "export_description": "",
+            "anonymize_description": "",
+            "delete_description": ""
+        },
+        "api": {
+            "already_verified": "",
+            "already_pending": "",
+            "requests_closed": "",
+            "document_required": "",
+            "no_file": "",
+            "upload_failed": "",
+            "file_too_large": "",
+            "bad_extension": "",
+            "bad_mime": "",
+            "not_found": "",
+            "user_missing": "",
+            "avatar_locked": "",
+            "revoked_default_note": "",
+            "not_verified": "",
+            "verified_by_admin_note": "",
+            "self_revoked_note": "",
+            "encryption": {
+                "libsodium_missing": "",
+                "acknowledge_loss_required": "",
+                "private_key_missing": ""
+            }
+        }
+    }
+}

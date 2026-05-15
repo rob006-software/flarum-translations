@@ -3,7 +3,7 @@
         "forum": {
             "modal": {
                 "title": "Yhdistä keskustelut",
-                "search_discussions_placeholder": "",
+                "search_discussions_placeholder": "Etsi keskusteluita...",
                 "ordering_heading": "Yhdistyksen järjestys",
                 "ordering_date_label": "Yhdistä viestit luontipäivämäärän mukaan",
                 "ordering_date_help": "Viestit keskustelussa on järjestetty yksittäisen viestin luontipäivän mukaan",
@@ -11,14 +11,14 @@
                 "ordering_suffix_help": "Viestit jotka yhdistetään keskusteluun lisätään keskustelun loppuun",
                 "type_heading": "Yhdistämisen tyyppi",
                 "type_target_label": "Yhdistä keskusteluun",
-                "type_target_help_text": "",
+                "type_target_help_text": "Valitse keskustelu(t) mitkä yhdistetään {title}.",
                 "type_from_label": "Yhdistä tämä keskustelu toiseen",
-                "type_from_help_text": "",
+                "type_from_help_text": "Valitse kohde keskustelut, johon {title} yhdistetään.",
                 "load_preview_button": "Esikatselu",
                 "submit_button": "=> fof-merge-discussions.ref.merge"
             },
             "notification": {
-                "discussion_merged": "",
+                "discussion_merged": "Keskustelusi {oldTitle} yhdistettiin tähän keskusteluun käyttäjän {username} toimesta.",
                 "preferences": {
                     "discussion_merged": "Joku yhdisti keskusteluni toiseen"
                 }
@@ -27,7 +27,7 @@
                 "merge": "=> fof-merge-discussions.ref.merge"
             },
             "post": {
-                "merged": ""
+                "merged": "{count, plural, one {Yhdistettiin 1 viesti keskustelusta {titles}.} other {Yhdistettiin {count} viestiä keskustelusta {titles}.}}"
             }
         },
         "admin": {
@@ -53,7 +53,7 @@
         },
         "email": {
             "merged": {
-                "body": "",
+                "body": "Keskustelusi {merged_discussion_title} yhdistettiin keskusteluun {discussion_title} käyttäjän {actor_display_name} toimesta.\n\nKatso se täältä: {discussion_url}\n",
                 "subject": "Sinun keskustelu \"{merged_discussion_title}\" yhdistettiin"
             }
         }

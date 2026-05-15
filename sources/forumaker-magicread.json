@@ -3,15 +3,30 @@
         "admin": {
             "settings": {
                 "section_main": "Settings",
+                "section_pagination": "Pagination",
                 "enable_readmore": "Read more preview on profile page",
-                "enable_pagination": "Pagination inside discussions",
-                "enable_counter": "Live character counter in composer"
+                "enable_readmore_help": "Hides long posts on profile pages and adds a button to expand them",
+                "enable_pagination": "Add page navigation below the scroll bar",
+                "enable_pagination_help": "Keeps the discussion scrubber visible and adds a page picker below it",
+                "enable_counter": "Live character counter in composer",
+                "enable_counter_help": "Adds a character counter to the top-right corner of the message input",
+                "enable_discussion_pager": "Show page navigation instead of scroll bar",
+                "enable_discussion_pager_help": "Removes the discussion scrubber, adds page navigation above and below the page and disables auto-scrolling"
             }
         },
         "forum": {
             "read_more": "Read more",
             "counter": {
                 "label": "Characters"
+            },
+            "pager": {
+                "first": "Return to the beginning",
+                "prev": "Previous page",
+                "next": "Next page",
+                "last": "Go to the last page",
+                "page": "Page",
+                "go": "Go",
+                "input_label": "Jump to page"
             }
         }
     }

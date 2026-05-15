@@ -30,10 +30,10 @@
                 "disable-download-logging": "Ota pois käytöstä jokaisen käyttäjän tekemän siirron lokitus foorumilla. Tämän päällä pito sallii sinun nähdä latausmäärät ja muita tilastoja.\n",
                 "disable-hotlink-protection": "Hotlink suojaus estää latausten avaukset muilta sivuilta. Nykyinen tapa vaatii crsf tunnisteen ja viestin id:n.\n",
                 "download_templates": "Latauspohjat ovat kuinka siirretyt tiedostot näkyy foorumillasi. Esim. esikatselut, napit. Tällä hetkellä saatavilla:\n",
-                "mime_types": "",
+                "mime_types": "Määritä yhdistämisasetukset tässä. Jokainen MIME-tyyppisäännöllinen lauseke käsitellään tietyllä latauskäsittelijällä ja latauspohjamalilla.\nVoit halutessasi antaa kullekin merkinnälle oikeuksien tunnisteen (esim. \"Kuvat\", \"Videot\") luodaksesi erillisen oikeuden oikeusruudukkoon.\nTämän avulla voit rajoittaa, mitkä ryhmät voivat ladata tiettyjä tiedostotyyppejä — sen lisäksi, että perustason \"Lataa tiedostoja\" -oikeus on aina pakollinen.\n",
                 "resize": "Valitse haluatko, että kuvien koko määritetään uudelleen ennen siirtoa. Voit määrittää maksimi leveyden ja korkeuden pikseleissä. Koon muutos säilyttää kuvasuhteen.\n",
                 "client_extension": "Oletuksen siirto valitsee turvalliset päätteet perustuen MIME tyyppiin.\nJotkut tiedostotyypit perustuen ZIP tai binaariseen dataan voi johtaa geneerisen päätteen käyttöön oletetun sijaan.\nTässä voit määrittää pilkuilla erotetun listan päätteistä joita käytetään.\n",
-                "thumbnails": "",
+                "thumbnails": "Luo pienennetty esikatselukuva kuville lataushetkellä. Esikatselukuva näytetään tekstin sisällä;\nnapsauttamalla se avaa alkuperäisen täysresoluutioisen tiedoston uudessa välilehdessä. Esikatselukuvat\nvähentävät merkittävästi kaistanleveyttä ja sivun kokoa foorumeilla, joilla on paljon suuria kuvia.\n",
                 "watermark": "Valitse lisätäänkä kuviin vesileima. Vesileima laitetaan muihin, kuin gif tyyppisiin kuviin alla olevien asetusten mukaan.\n",
                 "s3_compatible_storage": "Seuraavat asetukset ovat vaadittuja vain jos käytetään S3 yhteensopivaa tiedostovarastoa. Jos käytät AWS:ssää, voit jättää ne tyhjäksi.\n",
                 "s3_acl": "ACL mikä asetetaan siirrettyyn objektiin (oletus: private). Mahdolliset arvot: https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
@@ -81,9 +81,9 @@
                 "preferences": {
                     "max_file_size": "Maksimi tiedostokoko (kilotavuina)",
                     "mime_types": "Määritä mime tyypit, siirtoadapterin linkitys",
-                    "mime_type_regex_placeholder": "",
-                    "mime_type_regex_invalid": "",
-                    "mime_type_permission_placeholder": "",
+                    "mime_type_regex_placeholder": "esim. ^image/(jpeg|png|gif)$",
+                    "mime_type_regex_invalid": "Virheellinen säännöllinen lauseke (esim. tyhjät vaihtoehdot kuten ||)",
+                    "mime_type_permission_placeholder": "Oikeuden tunniste (valinnainen, esim. Kuvat)",
                     "title": "Yleiset asetukset",
                     "php_ini_values": "Sinun <code>php.ini</code> määreet ovat <code>post_max_size={post}</code> ja <code>upload_max_filesize={upload}</code>. Vahvista, että tämän osion asetukset ovat näiden vähemmän, kuin nämä määreet tai määritä ne kuntoon. Jos käytät <code>Nginx</code> niin vahvista myösm että määre <code>client_max_body_size</code> on tarpeitasi vastaava."
                 },
@@ -96,17 +96,17 @@
                     "title": "Käyttäjän toimittamat tiedostopäätteet"
                 },
                 "thumbnails": {
-                    "title": "",
-                    "toggle": "",
-                    "webp_toggle": "",
-                    "max_width": ""
+                    "title": "Kuvan esikatselukuvat",
+                    "toggle": "Luo esikatselukuvat siirron yhteydessä",
+                    "webp_toggle": "Muunna esikatselukuvat WebP-muotoon (suositeltu, ~30 % pienempi)",
+                    "max_width": "Esikatselukuvan enimmäisleveys (px)"
                 },
                 "watermark": {
                     "file": "Siirrä vesileiman kuva",
-                    "opacity": "",
-                    "padding": "",
+                    "opacity": "Vesileiman läpinäkyvyys (0-100)",
+                    "padding": "Vesileiman etäisyys reunasta (px)",
                     "position": "Vesileiman sijainti",
-                    "size_percent": "",
+                    "size_percent": "Vesileiman koko (% kuvan leveydestä)",
                     "title": "Kuvien vesileimat",
                     "toggle": "Laita kuviin vesileima"
                 },
@@ -127,12 +127,12 @@
                 "inspect-mime": "Testi tiedoston MIME tyyppi"
             },
             "warnings": {
-                "fileinfo_missing": ""
+                "fileinfo_missing": "PHP:n <strong>fileinfo</strong>-laajennusta ei ole ladattu tällä palvelimella. FoF Upload toimii silti, mutta MIME-tyypin ristiintarkistus on poistettu käytöstä, mikä heikentää suojaa väärennettyjä tiedostotyyppejä vastaan. Ota laajennus käyttöön PHP-asetuksistasi parhaan tietoturvan varmistamiseksi.\n"
             },
             "permissions": {
                 "download_label": "Lataa tiedostot",
-                "upload_label": "",
-                "upload_mime_label": "",
+                "upload_label": "Siirrä tiedostoja (perusoikeus, vaaditaan kaikissa latauksissa)",
+                "upload_mime_label": "Siirrä {label}",
                 "view_user_uploads_label": "Nähdä käyttäjän siirrot",
                 "delete_uploads_of_others_label": "Poistaa käyttäjän siirtoja",
                 "upload_shared_label": "Siirrä jaettuihin tiedostoihin",
@@ -197,7 +197,7 @@
             "text_preview": {
                 "expand": "Laajenna esikatselu",
                 "collapse": "Pienennä esikatselu",
-                "download": "",
+                "download": "Lataa tiedosto",
                 "error": "Virhe tiedoston esikatselussa. Se voi olla poistettu tai annettu tiedoston ID on virheellinen.\n",
                 "no_snippet_preview": "<esikatselu tulee tähän>",
                 "no_snippet": "<ei esikatselua saatavilla>"
@@ -206,7 +206,7 @@
         "api": {
             "upload_errors": {
                 "forbidden_type": "Tämän tyyppisten tiedostojen siirtäminen ei ole sallittua.",
-                "mime_permission_denied": "",
+                "mime_permission_denied": "Sinulla ei ole oikeuksia siirtää tämän tyyppistä tiedostoa.",
                 "unsupported_type": "Siirtoadapteri ei tue tätä tiedostotyyppiä: {mime}.",
                 "could_not_detect_mime": "Tiedoston MIME tyyppia ei voitu tunnistaa. Yritä uudelleen.",
                 "max_upload_file_size_ini": "Siirron maksimi tiedosto koko saavutettu php.inistä.",

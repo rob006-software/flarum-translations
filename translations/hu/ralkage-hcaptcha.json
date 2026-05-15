@@ -1,0 +1,25 @@
+{
+    "ralkage-hcaptcha": {
+        "admin": {
+            "settings": {
+                "help_text": "Szerezze be a hCaptcha hitelesítő adatait <a>itt</a>.",
+                "secret_key_label": "Titkos kulcs",
+                "site_key_label": "Oldalkulcs",
+                "type_label": "hCaptcha típusa",
+                "dark_mode_label": "Sötét mód",
+                "dark_mode_help": "Sötét téma használata a hCaptcha modulhoz. Kapcsolja be, ha a fórum sötét témát használ.",
+                "enable_login_label": "Megkövetelés bejelentkezéskor",
+                "enable_login_help": "A hCaptcha megkövetelése a felhasználók bejelentkezésekor. Segít a nyers erős támadások elleni védekezésben."
+            },
+            "permissions": {
+                "post_without_hcaptcha": "Bejegyzések és témák létrehozása hCaptcha nélkül"
+            }
+        },
+        "forum": {
+            "error": "Hiba történt a hCaptcha beküldése során. Próbálja újra."
+        }
+    },
+    "validation": {
+        "hcaptcha": "A hCaptcha ellenőrzése sikertelen."
+    }
+}

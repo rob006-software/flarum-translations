@@ -1,0 +1,22 @@
+{
+    "rob006-last-post-avatar": {
+        "admin": {
+            "settings": {
+                "mode": {
+                    "label": "Legutolsó bejegyzés profilképének megjelenítési módja",
+                    "help": "Válassza ki, hogy az utolsó bejegyzés szerzőjének profilképe hol jelenjem meg a témalistában. Nézze meg a README fájlt az összes lehetőség vizualizációja megtekintéséhez.",
+                    "options": {
+                        "all-replies": "Csak válaszok",
+                        "non-op-replies": "Csak válaszok, kivéve a témaszerző bejegyzéseit",
+                        "always": "Mindig",
+                        "replace-main": "A téma fő profilképének lecserélése"
+                    }
+                },
+                "ignorePrivateDiscussions": {
+                    "label": "Privát témák figyelmen kívül hagyása (FoF Byōbu)",
+                    "help": "Kapcsolja be ezt a lehetőséget, ha a privát témák esetén nem akarja módosítani a profilkép viselkedését."
+                }
+            }
+        }
+    }
+}

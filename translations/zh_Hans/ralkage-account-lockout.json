@@ -1,0 +1,50 @@
+{
+    "ralkage-account-lockout": {
+        "api": {
+            "error": {
+                "locked_timed": "账户已被临时锁定，请稍后再试。",
+                "locked_manual": "账户已被管理员锁定，无法登录。"
+            }
+        },
+        "admin": {
+            "settings": {
+                "max_attempts_label": "最大尝试次数",
+                "max_attempts_help": "锁定前允许的失败登录次数。",
+                "lockout_mode_label": "锁定模式",
+                "lockout_mode_help": "临时锁定或永久锁定。",
+                "lockout_duration_label": "锁定持续时间（分钟）",
+                "lockout_duration_help": "临时锁定时长，0 表示永久锁定。"
+            },
+            "permissions": {
+                "unlock_users_label": "解锁用户账户"
+            },
+            "users": {
+                "lock_status_column": "锁定状态",
+                "locked_tooltip": "此账户已被锁定",
+                "unlock_button": "解锁",
+                "unlock_confirmation": "确定要解锁 {username}账户吗？"
+            }
+        },
+        "forum": {
+            "user_controls": {
+                "unlock_button": "解锁账户"
+            },
+            "user_badge": {
+                "locked_tooltip": "账户已被锁定"
+            },
+            "unlock_modal": {
+                "title": "账户锁定详情",
+                "locked_since": "锁定时间 {date}",
+                "locked_until": "锁定至 {date}",
+                "manually_locked": "此账户已被手动锁定，需要管理员或版主才能解锁。",
+                "failed_attempts": "登录失败 {count} 次",
+                "unlock_button": "解锁"
+            },
+            "log_in": {
+                "locked_timed": "账户已被临时锁定，请 {minutes} 分钟后重试。",
+                "locked_manual": "账户已被管理员锁定。",
+                "attempts_remaining": "还剩 {attempts} 次尝试机会。"
+            }
+        }
+    }
+}

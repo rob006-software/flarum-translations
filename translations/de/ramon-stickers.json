@@ -1,0 +1,57 @@
+{
+    "ramon-stickers": {
+        "admin": {
+            "settings": {
+                "hover_play_label": "Animationen nur bei Mauszeiger-Überfahrt abspielen",
+                "hover_play_help": "Wenn aktiviert, werden Lottie- und TGS-Animationen in Beiträgen beim Startbild angehalten und erst abgespielt, wenn der Mauszeiger darüber bewegt wird.",
+                "show_tooltip_label": "Stickernamen beim Darüberfahren anzeigen",
+                "show_tooltip_help": "Wenn aktiviert, wird der Name des Stickers als Tooltip angezeigt, sobald du mit der Maus über einen Sticker in Beiträgen oder in der Auswahl fährst."
+            },
+            "sticker_section": {
+                "heading_title": "Sticker",
+                "import_button": "Importieren",
+                "export_button": "Als ZIP exportieren",
+                "export_error": "Export fehlgeschlagen. Bitte versuche es erneut.",
+                "import_zip_message": "Dadurch werden Sticker aus einer ZIP-Datei (die mit dieser Erweiterung exportiert wurde) importiert. Die Sticker-Dateien werden in den Ordner /assets/stickers/ kopiert, wobei vorhandene Einträge NICHT überschrieben werden. Möchtest du fortfahren?",
+                "import_stickers_message": "Dadurch werden die Metadaten der Sticker aus einer JSON-Datei importiert. Die Sticker-Dateien sind NICHT enthalten – diese müssen bereits hochgeladen worden sein. Möchtest du fortfahren?",
+                "importing_message": "Wird importiert, bitte warten...",
+                "import_result": "Abgeschlossen: {imported} importiert, {skipped} waren bereits vorhanden.",
+                "import_error_message": "Import fehlgeschlagen: {error}",
+                "bulk_upload_button": "Mehrere hochladen",
+                "bulk_upload_category_prompt": "Kategoriename für diese Sticker:",
+                "bulk_upload_progress": "Wird hochgeladen {current}/{total}...",
+                "bulk_upload_done": "Abgeschlossen: {uploaded} hochgeladen, {errors} fehlgeschlagen.",
+                "select_button": "Auswählen",
+                "cancel_select_button": "Abbrechen",
+                "delete_selected_button": "Löschen ({count})",
+                "delete_selected_confirm": "{count} Sticker löschen? Dies kann nicht rückgängig gemacht werden.",
+                "edit_sticker": {
+                    "modal_title": "Sticker hinzufügen",
+                    "sticker_category_label": "Kategorie-Code",
+                    "category_name_label": "Kategoriename",
+                    "sticker_title_label": "Stickertitel",
+                    "text_to_replace_label": "Zu ersetzender Text (z. B. :sticker:)",
+                    "path_or_url_label": "Pfad oder URL",
+                    "upload_label": "Datei hochladen",
+                    "upload_button": "Datei auswählen",
+                    "upload_help": "Unterstützt animierte Lottie-JSON-Dateien (.json), Telegram-Sticker (.tgs), PNG, GIF, WebP und JPEG.",
+                    "submit_button": "=> core.ref.save_changes",
+                    "delete_sticker_button": "Sticker löschen",
+                    "delete_sticker_confirmation": "Möchtest du diesen Sticker wirklich löschen?",
+                    "saved_message": "=> core.admin.settings.saved_message"
+                },
+                "sticker_list": {
+                    "load_more_button": "=> core.forum.post_stream.load_more_button"
+                }
+            }
+        },
+        "forum": {
+            "composer": {
+                "sticker_tooltip": "Sticker einfügen"
+            },
+            "picker": {
+                "no_stickers": "Keine Sticker gefunden"
+            }
+        }
+    }
+}

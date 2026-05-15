@@ -19,9 +19,18 @@
                     "extension_settings_button": "Configurações do GDPR"
                 },
                 "user_table_data": {
-                    "not_yet_implemented": "",
                     "title": "Dados da Tabela de Usuários",
-                    "help_text": "Na maioria das vezes, quaisquer colunas adicionadas à tabela <code>user</code> serão tratadas automaticamente, tanto para exportação de dados quanto para exclusão.\nNo entanto, existem alguns casos especiais, que estão listados abaixo.\n"
+                    "help_text": "Na maioria das vezes, quaisquer colunas adicionadas à tabela <code>user</code> serão tratadas automaticamente, tanto para exportação de dados quanto para exclusão.\nNo entanto, existem alguns casos especiais, que estão listados abaixo.\n",
+                    "column": "",
+                    "type": "",
+                    "nullable": "",
+                    "pii": "",
+                    "redacted_on_export": "",
+                    "extension": "",
+                    "yes": "",
+                    "no": "",
+                    "pii_tooltip": "",
+                    "redacted_on_export_tooltip": ""
                 }
             },
             "nav": {
@@ -74,6 +83,7 @@
                 "forum": {
                     "export_description": "Exporta o título do fórum, URL, nome de usuário, e-mail e a data atual."
                 },
+                "default_user_action": "",
                 "no_action": "Nenhuma ação tomada.",
                 "posts": {
                     "anonymize_description": "Remove o endereço IP de todas as postagens feitas pelo usuário.",
@@ -152,7 +162,10 @@
                 "text": "{name} solicitou a exclusão da conta.",
                 "comments_label": "Comentários (opcional)",
                 "anonymization_button": "Anonimizar usuário",
-                "deletion_button": "Excluir usuário"
+                "deletion_button": "Excluir usuário",
+                "requested_at": "",
+                "confirmed_at": "",
+                "eligible_at": ""
             },
             "request_erasure": {
                 "title": "Solicitar exclusão de conta",

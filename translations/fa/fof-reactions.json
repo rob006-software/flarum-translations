@@ -12,11 +12,14 @@
                 "title": "واکنش‌ها",
                 "anonymous_count": "{count, plural, one {# کاربر ناشناس} other {# کاربران ناشناس}}",
                 "no_reactions": "هنوز هیچ واکنش وجود ندارد",
+                "load_more": "",
+                "others_count": "",
                 "remove_all_reaction_type": "",
                 "remove_user_reaction": ""
             },
             "mod_item": "دیدن واکنش‌ها",
             "react_button_label": "واکنش نشان دادن",
+            "unreact_button_label": "",
             "reaction_button_label": "",
             "reacted_with_label": ""
         },
@@ -43,7 +46,16 @@
                     },
                     "delete_confirmation": "مطمئنید می‌خواهید این واکنش را پاک کنید؟ این عمل قابل بازگشت نخواهد بود.",
                     "delete_reaction_button": "",
-                    "add_reaction_button": ""
+                    "add_reaction_button": "",
+                    "add_reaction_label": "",
+                    "header": {
+                        "display": "",
+                        "identifier": "",
+                        "type": "",
+                        "enabled": "",
+                        "action": "",
+                        "preview": ""
+                    }
                 },
                 "convert": {
                     "help": "اگر به تازگی افزونه را به روز کردید، واکنش‌های شما نیاز به تبدیل شدن دارند. اگر تازه این افزونه را نصب کردید، می‌توانید این پیام را نادیده بگیرید.",
@@ -56,7 +68,6 @@
                     "react_own_posts_label": "کاربران می‌توانند به ارسالی‌های خود واکنش نشان دهند",
                     "allow-anonymous": "واکنش ناشناس (به صورت میهمان) مجاز باشد",
                     "allow-anonymous-help": "اگر فعال شود، میهمانان و کاربران ناشناس می‌توانند به ارسالی‌ها عکس‌العمل نشان دهند. توجه داشته باشید واکنش‌های ناشناس به یک کاربر پیوند داده نمی‌شوند و در لیست واکنش‌ها جمع می‌شوند.",
-                    "save_settings": "درج تنظیمات",
                     "integrations": {
                         "legend": "یکپارچه‌سازی",
                         "warning": "یک واکنش <strong>نمی‌تواند</strong>هم زمان هم به یک لایک <strong>و</strong> یک رأی مثبت",
@@ -72,7 +83,8 @@
                             "Label": "تبیدل واکنش‌ها به لایک",
                             "Helptext": "شناسه واکنشی که می‌خواهید به صورت خودکار به لایک تبدیل شود را وارد کنید"
                         }
-                    }
+                    },
+                    "save_settings": "درج تنظیمات"
                 }
             }
         }

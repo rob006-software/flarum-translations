@@ -1,0 +1,23 @@
+{
+    "resofire-discussion-participants": {
+        "forum": {
+            "show_all_participants": "Tampilkan semua peserta",
+            "more_participants": "{count}+",
+            "modal_title": "{count} Peserta",
+            "load_more": "Muat lainnya"
+        },
+        "admin": {
+            "tools_heading": "Alat",
+            "recalculate_help": "Menghitung ulang avatar peserta untuk semua diskusi. Jalankan ini setelah pertama kali menginstal ekstensi pada forum yang sudah ada, atau kapan pun saat Anda merasa data pratinjau tidak sinkron.",
+            "recalculate_button": "Hitung Ulang Peserta",
+            "recalculating_button": "Sedang menghitung ulang…",
+            "recalculate_success": "Selesai. Telah menghitung ulang {count} diskusi dalam {duration} detik.",
+            "recalculate_error": "Terjadi kesalahan. Silakan coba lagi atau gunakan perintah CLI.",
+            "recalculate_modal_title": "Menghitung ulang Peserta",
+            "recalculate_modal_warning": "Jangan tutup jendela ini atau berpindah halaman hingga proses selesai.",
+            "recalculate_modal_progress": "{processed} dari {total} diskusi",
+            "recalculate_modal_complete": "Selesai! {total} diskusi telah dihitung ulang.",
+            "recalculate_modal_close": "Tutup"
+        }
+    }
+}

@@ -36,7 +36,7 @@
 			</a>
 		</td>
 		<td align="right">
-			<a href="https://rob006-software.github.io/flarum-translations/status/af.html" title="Click to see detailed translation status for each extension">
+			<a href="https://rob006-software.github.io/flarum-translations/flarum2/status/af.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum2/af/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
@@ -64,7 +64,7 @@
 			</a>
 		</td>
 		<td align="right">
-			<a href="https://rob006-software.github.io/flarum-translations/status/sq.html" title="Click to see detailed translation status for each extension">
+			<a href="https://rob006-software.github.io/flarum-translations/flarum2/status/sq.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum2/sq/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
@@ -92,7 +92,7 @@
 			</a>
 		</td>
 		<td align="right">
-			<a href="https://rob006-software.github.io/flarum-translations/status/ar.html" title="Click to see detailed translation status for each extension">
+			<a href="https://rob006-software.github.io/flarum-translations/flarum2/status/ar.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum2/ar/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
@@ -120,7 +120,7 @@
 			</a>
 		</td>
 		<td align="right">
-			<a href="https://rob006-software.github.io/flarum-translations/status/hy.html" title="Click to see detailed translation status for each extension">
+			<a href="https://rob006-software.github.io/flarum-translations/flarum2/status/hy.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum2/hy/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
@@ -148,7 +148,7 @@
 			</a>
 		</td>
 		<td align="right">
-			<a href="https://rob006-software.github.io/flarum-translations/status/ast.html" title="Click to see detailed translation status for each extension">
+			<a href="https://rob006-software.github.io/flarum-translations/flarum2/status/ast.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum2/ast/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
@@ -176,7 +176,7 @@
 			</a>
 		</td>
 		<td align="right">
-			<a href="https://rob006-software.github.io/flarum-translations/status/az.html" title="Click to see detailed translation status for each extension">
+			<a href="https://rob006-software.github.io/flarum-translations/flarum2/status/az.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum2/az/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
@@ -204,7 +204,7 @@
 			</a>
 		</td>
 		<td align="right">
-			<a href="https://rob006-software.github.io/flarum-translations/status/eu.html" title="Click to see detailed translation status for each extension">
+			<a href="https://rob006-software.github.io/flarum-translations/flarum2/status/eu.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum2/eu/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
@@ -232,7 +232,7 @@
 			</a>
 		</td>
 		<td align="right">
-			<a href="https://rob006-software.github.io/flarum-translations/status/be.html" title="Click to see detailed translation status for each extension">
+			<a href="https://rob006-software.github.io/flarum-translations/flarum2/status/be.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum2/be/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
@@ -260,7 +260,7 @@
 			</a>
 		</td>
 		<td align="right">
-			<a href="https://rob006-software.github.io/flarum-translations/status/bn.html" title="Click to see detailed translation status for each extension">
+			<a href="https://rob006-software.github.io/flarum-translations/flarum2/status/bn.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum2/bn/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
@@ -288,7 +288,7 @@
 			</a>
 		</td>
 		<td align="right">
-			<a href="https://rob006-software.github.io/flarum-translations/status/bs.html" title="Click to see detailed translation status for each extension">
+			<a href="https://rob006-software.github.io/flarum-translations/flarum2/status/bs.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum2/bs/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
@@ -316,7 +316,7 @@
 			</a>
 		</td>
 		<td align="right">
-			<a href="https://rob006-software.github.io/flarum-translations/status/br.html" title="Click to see detailed translation status for each extension">
+			<a href="https://rob006-software.github.io/flarum-translations/flarum2/status/br.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum2/br/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
@@ -344,7 +344,7 @@
 			</a>
 		</td>
 		<td align="right">
-			<a href="https://rob006-software.github.io/flarum-translations/status/bg.html" title="Click to see detailed translation status for each extension">
+			<a href="https://rob006-software.github.io/flarum-translations/flarum2/status/bg.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum2/bg/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
@@ -372,7 +372,7 @@
 			</a>
 		</td>
 		<td align="right">
-			<a href="https://rob006-software.github.io/flarum-translations/status/my.html" title="Click to see detailed translation status for each extension">
+			<a href="https://rob006-software.github.io/flarum-translations/flarum2/status/my.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum2/my/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
@@ -400,7 +400,7 @@
 			</a>
 		</td>
 		<td align="right">
-			<a href="https://rob006-software.github.io/flarum-translations/status/ca.html" title="Click to see detailed translation status for each extension">
+			<a href="https://rob006-software.github.io/flarum-translations/flarum2/status/ca.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum2/ca/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
@@ -428,7 +428,7 @@
 			</a>
 		</td>
 		<td align="right">
-			<a href="https://rob006-software.github.io/flarum-translations/status/zh_Hans.html" title="Click to see detailed translation status for each extension">
+			<a href="https://rob006-software.github.io/flarum-translations/flarum2/status/zh_Hans.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum2/zh_Hans/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
@@ -456,7 +456,7 @@
 			</a>
 		</td>
 		<td align="right">
-			<a href="https://rob006-software.github.io/flarum-translations/status/zh_Hant.html" title="Click to see detailed translation status for each extension">
+			<a href="https://rob006-software.github.io/flarum-translations/flarum2/status/zh_Hant.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum2/zh_Hant/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
@@ -484,7 +484,7 @@
 			</a>
 		</td>
 		<td align="right">
-			<a href="https://rob006-software.github.io/flarum-translations/status/hr.html" title="Click to see detailed translation status for each extension">
+			<a href="https://rob006-software.github.io/flarum-translations/flarum2/status/hr.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum2/hr/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
@@ -512,7 +512,7 @@
 			</a>
 		</td>
 		<td align="right">
-			<a href="https://rob006-software.github.io/flarum-translations/status/cs.html" title="Click to see detailed translation status for each extension">
+			<a href="https://rob006-software.github.io/flarum-translations/flarum2/status/cs.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum2/cs/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
@@ -540,7 +540,7 @@
 			</a>
 		</td>
 		<td align="right">
-			<a href="https://rob006-software.github.io/flarum-translations/status/da.html" title="Click to see detailed translation status for each extension">
+			<a href="https://rob006-software.github.io/flarum-translations/flarum2/status/da.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum2/da/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
@@ -568,7 +568,7 @@
 			</a>
 		</td>
 		<td align="right">
-			<a href="https://rob006-software.github.io/flarum-translations/status/nl.html" title="Click to see detailed translation status for each extension">
+			<a href="https://rob006-software.github.io/flarum-translations/flarum2/status/nl.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum2/nl/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
@@ -596,7 +596,7 @@
 			</a>
 		</td>
 		<td align="right">
-			<a href="https://rob006-software.github.io/flarum-translations/status/eo.html" title="Click to see detailed translation status for each extension">
+			<a href="https://rob006-software.github.io/flarum-translations/flarum2/status/eo.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum2/eo/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
@@ -624,7 +624,7 @@
 			</a>
 		</td>
 		<td align="right">
-			<a href="https://rob006-software.github.io/flarum-translations/status/et.html" title="Click to see detailed translation status for each extension">
+			<a href="https://rob006-software.github.io/flarum-translations/flarum2/status/et.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum2/et/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
@@ -652,7 +652,7 @@
 			</a>
 		</td>
 		<td align="right">
-			<a href="https://rob006-software.github.io/flarum-translations/status/fil.html" title="Click to see detailed translation status for each extension">
+			<a href="https://rob006-software.github.io/flarum-translations/flarum2/status/fil.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum2/fil/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
@@ -680,7 +680,7 @@
 			</a>
 		</td>
 		<td align="right">
-			<a href="https://rob006-software.github.io/flarum-translations/status/fi.html" title="Click to see detailed translation status for each extension">
+			<a href="https://rob006-software.github.io/flarum-translations/flarum2/status/fi.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum2/fi/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
@@ -708,7 +708,7 @@
 			</a>
 		</td>
 		<td align="right">
-			<a href="https://rob006-software.github.io/flarum-translations/status/fr.html" title="Click to see detailed translation status for each extension">
+			<a href="https://rob006-software.github.io/flarum-translations/flarum2/status/fr.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum2/fr/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
@@ -736,7 +736,7 @@
 			</a>
 		</td>
 		<td align="right">
-			<a href="https://rob006-software.github.io/flarum-translations/status/gl.html" title="Click to see detailed translation status for each extension">
+			<a href="https://rob006-software.github.io/flarum-translations/flarum2/status/gl.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum2/gl/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
@@ -764,7 +764,7 @@
 			</a>
 		</td>
 		<td align="right">
-			<a href="https://rob006-software.github.io/flarum-translations/status/ka.html" title="Click to see detailed translation status for each extension">
+			<a href="https://rob006-software.github.io/flarum-translations/flarum2/status/ka.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum2/ka/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
@@ -792,7 +792,7 @@
 			</a>
 		</td>
 		<td align="right">
-			<a href="https://rob006-software.github.io/flarum-translations/status/de.html" title="Click to see detailed translation status for each extension">
+			<a href="https://rob006-software.github.io/flarum-translations/flarum2/status/de.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum2/de/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
@@ -820,7 +820,7 @@
 			</a>
 		</td>
 		<td align="right">
-			<a href="https://rob006-software.github.io/flarum-translations/status/el.html" title="Click to see detailed translation status for each extension">
+			<a href="https://rob006-software.github.io/flarum-translations/flarum2/status/el.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum2/el/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
@@ -848,7 +848,7 @@
 			</a>
 		</td>
 		<td align="right">
-			<a href="https://rob006-software.github.io/flarum-translations/status/he.html" title="Click to see detailed translation status for each extension">
+			<a href="https://rob006-software.github.io/flarum-translations/flarum2/status/he.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum2/he/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
@@ -876,7 +876,7 @@
 			</a>
 		</td>
 		<td align="right">
-			<a href="https://rob006-software.github.io/flarum-translations/status/hi.html" title="Click to see detailed translation status for each extension">
+			<a href="https://rob006-software.github.io/flarum-translations/flarum2/status/hi.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum2/hi/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
@@ -904,7 +904,7 @@
 			</a>
 		</td>
 		<td align="right">
-			<a href="https://rob006-software.github.io/flarum-translations/status/hu.html" title="Click to see detailed translation status for each extension">
+			<a href="https://rob006-software.github.io/flarum-translations/flarum2/status/hu.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum2/hu/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
@@ -932,7 +932,7 @@
 			</a>
 		</td>
 		<td align="right">
-			<a href="https://rob006-software.github.io/flarum-translations/status/is.html" title="Click to see detailed translation status for each extension">
+			<a href="https://rob006-software.github.io/flarum-translations/flarum2/status/is.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum2/is/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
@@ -960,7 +960,7 @@
 			</a>
 		</td>
 		<td align="right">
-			<a href="https://rob006-software.github.io/flarum-translations/status/id.html" title="Click to see detailed translation status for each extension">
+			<a href="https://rob006-software.github.io/flarum-translations/flarum2/status/id.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum2/id/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
@@ -988,7 +988,7 @@
 			</a>
 		</td>
 		<td align="right">
-			<a href="https://rob006-software.github.io/flarum-translations/status/ga.html" title="Click to see detailed translation status for each extension">
+			<a href="https://rob006-software.github.io/flarum-translations/flarum2/status/ga.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum2/ga/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
@@ -1016,7 +1016,7 @@
 			</a>
 		</td>
 		<td align="right">
-			<a href="https://rob006-software.github.io/flarum-translations/status/it.html" title="Click to see detailed translation status for each extension">
+			<a href="https://rob006-software.github.io/flarum-translations/flarum2/status/it.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum2/it/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
@@ -1044,7 +1044,7 @@
 			</a>
 		</td>
 		<td align="right">
-			<a href="https://rob006-software.github.io/flarum-translations/status/ja.html" title="Click to see detailed translation status for each extension">
+			<a href="https://rob006-software.github.io/flarum-translations/flarum2/status/ja.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum2/ja/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
@@ -1072,7 +1072,7 @@
 			</a>
 		</td>
 		<td align="right">
-			<a href="https://rob006-software.github.io/flarum-translations/status/kab.html" title="Click to see detailed translation status for each extension">
+			<a href="https://rob006-software.github.io/flarum-translations/flarum2/status/kab.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum2/kab/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
@@ -1100,7 +1100,7 @@
 			</a>
 		</td>
 		<td align="right">
-			<a href="https://rob006-software.github.io/flarum-translations/status/kn.html" title="Click to see detailed translation status for each extension">
+			<a href="https://rob006-software.github.io/flarum-translations/flarum2/status/kn.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum2/kn/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
@@ -1128,7 +1128,7 @@
 			</a>
 		</td>
 		<td align="right">
-			<a href="https://rob006-software.github.io/flarum-translations/status/kk.html" title="Click to see detailed translation status for each extension">
+			<a href="https://rob006-software.github.io/flarum-translations/flarum2/status/kk.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum2/kk/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
@@ -1156,7 +1156,7 @@
 			</a>
 		</td>
 		<td align="right">
-			<a href="https://rob006-software.github.io/flarum-translations/status/km.html" title="Click to see detailed translation status for each extension">
+			<a href="https://rob006-software.github.io/flarum-translations/flarum2/status/km.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum2/km/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
@@ -1184,7 +1184,7 @@
 			</a>
 		</td>
 		<td align="right">
-			<a href="https://rob006-software.github.io/flarum-translations/status/ko.html" title="Click to see detailed translation status for each extension">
+			<a href="https://rob006-software.github.io/flarum-translations/flarum2/status/ko.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum2/ko/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
@@ -1212,7 +1212,7 @@
 			</a>
 		</td>
 		<td align="right">
-			<a href="https://rob006-software.github.io/flarum-translations/status/ckb.html" title="Click to see detailed translation status for each extension">
+			<a href="https://rob006-software.github.io/flarum-translations/flarum2/status/ckb.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum2/ckb/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
@@ -1240,7 +1240,7 @@
 			</a>
 		</td>
 		<td align="right">
-			<a href="https://rob006-software.github.io/flarum-translations/status/kmr.html" title="Click to see detailed translation status for each extension">
+			<a href="https://rob006-software.github.io/flarum-translations/flarum2/status/kmr.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum2/kmr/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
@@ -1268,7 +1268,7 @@
 			</a>
 		</td>
 		<td align="right">
-			<a href="https://rob006-software.github.io/flarum-translations/status/lv.html" title="Click to see detailed translation status for each extension">
+			<a href="https://rob006-software.github.io/flarum-translations/flarum2/status/lv.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum2/lv/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
@@ -1296,7 +1296,7 @@
 			</a>
 		</td>
 		<td align="right">
-			<a href="https://rob006-software.github.io/flarum-translations/status/lt.html" title="Click to see detailed translation status for each extension">
+			<a href="https://rob006-software.github.io/flarum-translations/flarum2/status/lt.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum2/lt/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
@@ -1324,7 +1324,7 @@
 			</a>
 		</td>
 		<td align="right">
-			<a href="https://rob006-software.github.io/flarum-translations/status/mk.html" title="Click to see detailed translation status for each extension">
+			<a href="https://rob006-software.github.io/flarum-translations/flarum2/status/mk.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum2/mk/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
@@ -1352,7 +1352,7 @@
 			</a>
 		</td>
 		<td align="right">
-			<a href="https://rob006-software.github.io/flarum-translations/status/ml.html" title="Click to see detailed translation status for each extension">
+			<a href="https://rob006-software.github.io/flarum-translations/flarum2/status/ml.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum2/ml/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
@@ -1380,7 +1380,7 @@
 			</a>
 		</td>
 		<td align="right">
-			<a href="https://rob006-software.github.io/flarum-translations/status/mr.html" title="Click to see detailed translation status for each extension">
+			<a href="https://rob006-software.github.io/flarum-translations/flarum2/status/mr.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum2/mr/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
@@ -1408,7 +1408,7 @@
 			</a>
 		</td>
 		<td align="right">
-			<a href="https://rob006-software.github.io/flarum-translations/status/ne.html" title="Click to see detailed translation status for each extension">
+			<a href="https://rob006-software.github.io/flarum-translations/flarum2/status/ne.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum2/ne/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
@@ -1436,7 +1436,7 @@
 			</a>
 		</td>
 		<td align="right">
-			<a href="https://rob006-software.github.io/flarum-translations/status/nb.html" title="Click to see detailed translation status for each extension">
+			<a href="https://rob006-software.github.io/flarum-translations/flarum2/status/nb.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum2/nb/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
@@ -1464,7 +1464,7 @@
 			</a>
 		</td>
 		<td align="right">
-			<a href="https://rob006-software.github.io/flarum-translations/status/nn.html" title="Click to see detailed translation status for each extension">
+			<a href="https://rob006-software.github.io/flarum-translations/flarum2/status/nn.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum2/nn/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
@@ -1492,7 +1492,7 @@
 			</a>
 		</td>
 		<td align="right">
-			<a href="https://rob006-software.github.io/flarum-translations/status/oc.html" title="Click to see detailed translation status for each extension">
+			<a href="https://rob006-software.github.io/flarum-translations/flarum2/status/oc.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum2/oc/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
@@ -1520,7 +1520,7 @@
 			</a>
 		</td>
 		<td align="right">
-			<a href="https://rob006-software.github.io/flarum-translations/status/fa.html" title="Click to see detailed translation status for each extension">
+			<a href="https://rob006-software.github.io/flarum-translations/flarum2/status/fa.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum2/fa/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
@@ -1548,7 +1548,7 @@
 			</a>
 		</td>
 		<td align="right">
-			<a href="https://rob006-software.github.io/flarum-translations/status/pl.html" title="Click to see detailed translation status for each extension">
+			<a href="https://rob006-software.github.io/flarum-translations/flarum2/status/pl.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum2/pl/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
@@ -1576,7 +1576,7 @@
 			</a>
 		</td>
 		<td align="right">
-			<a href="https://rob006-software.github.io/flarum-translations/status/pt.html" title="Click to see detailed translation status for each extension">
+			<a href="https://rob006-software.github.io/flarum-translations/flarum2/status/pt.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum2/pt/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
@@ -1604,7 +1604,7 @@
 			</a>
 		</td>
 		<td align="right">
-			<a href="https://rob006-software.github.io/flarum-translations/status/pt_BR.html" title="Click to see detailed translation status for each extension">
+			<a href="https://rob006-software.github.io/flarum-translations/flarum2/status/pt_BR.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum2/pt_BR/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
@@ -1632,7 +1632,7 @@
 			</a>
 		</td>
 		<td align="right">
-			<a href="https://rob006-software.github.io/flarum-translations/status/pa.html" title="Click to see detailed translation status for each extension">
+			<a href="https://rob006-software.github.io/flarum-translations/flarum2/status/pa.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum2/pa/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
@@ -1660,7 +1660,7 @@
 			</a>
 		</td>
 		<td align="right">
-			<a href="https://rob006-software.github.io/flarum-translations/status/ro.html" title="Click to see detailed translation status for each extension">
+			<a href="https://rob006-software.github.io/flarum-translations/flarum2/status/ro.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum2/ro/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
@@ -1688,7 +1688,7 @@
 			</a>
 		</td>
 		<td align="right">
-			<a href="https://rob006-software.github.io/flarum-translations/status/ru.html" title="Click to see detailed translation status for each extension">
+			<a href="https://rob006-software.github.io/flarum-translations/flarum2/status/ru.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum2/ru/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
@@ -1716,7 +1716,7 @@
 			</a>
 		</td>
 		<td align="right">
-			<a href="https://rob006-software.github.io/flarum-translations/status/sc.html" title="Click to see detailed translation status for each extension">
+			<a href="https://rob006-software.github.io/flarum-translations/flarum2/status/sc.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum2/sc/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
@@ -1744,7 +1744,7 @@
 			</a>
 		</td>
 		<td align="right">
-			<a href="https://rob006-software.github.io/flarum-translations/status/sr_Cyrl.html" title="Click to see detailed translation status for each extension">
+			<a href="https://rob006-software.github.io/flarum-translations/flarum2/status/sr_Cyrl.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum2/sr_Cyrl/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
@@ -1772,7 +1772,7 @@
 			</a>
 		</td>
 		<td align="right">
-			<a href="https://rob006-software.github.io/flarum-translations/status/sr_Latn.html" title="Click to see detailed translation status for each extension">
+			<a href="https://rob006-software.github.io/flarum-translations/flarum2/status/sr_Latn.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum2/sr_Latn/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
@@ -1800,7 +1800,7 @@
 			</a>
 		</td>
 		<td align="right">
-			<a href="https://rob006-software.github.io/flarum-translations/status/si.html" title="Click to see detailed translation status for each extension">
+			<a href="https://rob006-software.github.io/flarum-translations/flarum2/status/si.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum2/si/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
@@ -1828,7 +1828,7 @@
 			</a>
 		</td>
 		<td align="right">
-			<a href="https://rob006-software.github.io/flarum-translations/status/sk.html" title="Click to see detailed translation status for each extension">
+			<a href="https://rob006-software.github.io/flarum-translations/flarum2/status/sk.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum2/sk/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
@@ -1856,7 +1856,7 @@
 			</a>
 		</td>
 		<td align="right">
-			<a href="https://rob006-software.github.io/flarum-translations/status/sl.html" title="Click to see detailed translation status for each extension">
+			<a href="https://rob006-software.github.io/flarum-translations/flarum2/status/sl.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum2/sl/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
@@ -1884,7 +1884,7 @@
 			</a>
 		</td>
 		<td align="right">
-			<a href="https://rob006-software.github.io/flarum-translations/status/es.html" title="Click to see detailed translation status for each extension">
+			<a href="https://rob006-software.github.io/flarum-translations/flarum2/status/es.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum2/es/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
@@ -1912,7 +1912,7 @@
 			</a>
 		</td>
 		<td align="right">
-			<a href="https://rob006-software.github.io/flarum-translations/status/es_AR.html" title="Click to see detailed translation status for each extension">
+			<a href="https://rob006-software.github.io/flarum-translations/flarum2/status/es_AR.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum2/es_AR/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
@@ -1940,7 +1940,7 @@
 			</a>
 		</td>
 		<td align="right">
-			<a href="https://rob006-software.github.io/flarum-translations/status/es_MX.html" title="Click to see detailed translation status for each extension">
+			<a href="https://rob006-software.github.io/flarum-translations/flarum2/status/es_MX.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum2/es_MX/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
@@ -1968,7 +1968,7 @@
 			</a>
 		</td>
 		<td align="right">
-			<a href="https://rob006-software.github.io/flarum-translations/status/sv.html" title="Click to see detailed translation status for each extension">
+			<a href="https://rob006-software.github.io/flarum-translations/flarum2/status/sv.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum2/sv/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
@@ -1996,7 +1996,7 @@
 			</a>
 		</td>
 		<td align="right">
-			<a href="https://rob006-software.github.io/flarum-translations/status/tl.html" title="Click to see detailed translation status for each extension">
+			<a href="https://rob006-software.github.io/flarum-translations/flarum2/status/tl.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum2/tl/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
@@ -2024,7 +2024,7 @@
 			</a>
 		</td>
 		<td align="right">
-			<a href="https://rob006-software.github.io/flarum-translations/status/tg.html" title="Click to see detailed translation status for each extension">
+			<a href="https://rob006-software.github.io/flarum-translations/flarum2/status/tg.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum2/tg/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
@@ -2052,7 +2052,7 @@
 			</a>
 		</td>
 		<td align="right">
-			<a href="https://rob006-software.github.io/flarum-translations/status/ta.html" title="Click to see detailed translation status for each extension">
+			<a href="https://rob006-software.github.io/flarum-translations/flarum2/status/ta.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum2/ta/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
@@ -2080,7 +2080,7 @@
 			</a>
 		</td>
 		<td align="right">
-			<a href="https://rob006-software.github.io/flarum-translations/status/tt.html" title="Click to see detailed translation status for each extension">
+			<a href="https://rob006-software.github.io/flarum-translations/flarum2/status/tt.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum2/tt/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
@@ -2108,7 +2108,7 @@
 			</a>
 		</td>
 		<td align="right">
-			<a href="https://rob006-software.github.io/flarum-translations/status/te.html" title="Click to see detailed translation status for each extension">
+			<a href="https://rob006-software.github.io/flarum-translations/flarum2/status/te.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum2/te/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
@@ -2136,7 +2136,7 @@
 			</a>
 		</td>
 		<td align="right">
-			<a href="https://rob006-software.github.io/flarum-translations/status/th.html" title="Click to see detailed translation status for each extension">
+			<a href="https://rob006-software.github.io/flarum-translations/flarum2/status/th.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum2/th/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
@@ -2164,7 +2164,7 @@
 			</a>
 		</td>
 		<td align="right">
-			<a href="https://rob006-software.github.io/flarum-translations/status/tok.html" title="Click to see detailed translation status for each extension">
+			<a href="https://rob006-software.github.io/flarum-translations/flarum2/status/tok.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum2/tok/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
@@ -2192,7 +2192,7 @@
 			</a>
 		</td>
 		<td align="right">
-			<a href="https://rob006-software.github.io/flarum-translations/status/tr.html" title="Click to see detailed translation status for each extension">
+			<a href="https://rob006-software.github.io/flarum-translations/flarum2/status/tr.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum2/tr/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
@@ -2220,7 +2220,7 @@
 			</a>
 		</td>
 		<td align="right">
-			<a href="https://rob006-software.github.io/flarum-translations/status/tk.html" title="Click to see detailed translation status for each extension">
+			<a href="https://rob006-software.github.io/flarum-translations/flarum2/status/tk.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum2/tk/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
@@ -2248,7 +2248,7 @@
 			</a>
 		</td>
 		<td align="right">
-			<a href="https://rob006-software.github.io/flarum-translations/status/uk.html" title="Click to see detailed translation status for each extension">
+			<a href="https://rob006-software.github.io/flarum-translations/flarum2/status/uk.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum2/uk/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
@@ -2276,7 +2276,7 @@
 			</a>
 		</td>
 		<td align="right">
-			<a href="https://rob006-software.github.io/flarum-translations/status/ur.html" title="Click to see detailed translation status for each extension">
+			<a href="https://rob006-software.github.io/flarum-translations/flarum2/status/ur.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum2/ur/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
@@ -2304,7 +2304,7 @@
 			</a>
 		</td>
 		<td align="right">
-			<a href="https://rob006-software.github.io/flarum-translations/status/ug.html" title="Click to see detailed translation status for each extension">
+			<a href="https://rob006-software.github.io/flarum-translations/flarum2/status/ug.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum2/ug/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
@@ -2332,7 +2332,7 @@
 			</a>
 		</td>
 		<td align="right">
-			<a href="https://rob006-software.github.io/flarum-translations/status/uz.html" title="Click to see detailed translation status for each extension">
+			<a href="https://rob006-software.github.io/flarum-translations/flarum2/status/uz.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum2/uz/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
@@ -2360,7 +2360,7 @@
 			</a>
 		</td>
 		<td align="right">
-			<a href="https://rob006-software.github.io/flarum-translations/status/vi.html" title="Click to see detailed translation status for each extension">
+			<a href="https://rob006-software.github.io/flarum-translations/flarum2/status/vi.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum2/vi/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
@@ -2388,7 +2388,7 @@
 			</a>
 		</td>
 		<td align="right">
-			<a href="https://rob006-software.github.io/flarum-translations/status/cy.html" title="Click to see detailed translation status for each extension">
+			<a href="https://rob006-software.github.io/flarum-translations/flarum2/status/cy.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum2/cy/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>

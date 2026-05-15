@@ -2,50 +2,50 @@
     "fof-rich-text": {
         "admin": {
             "settings": {
-                "toggle_on_editor": "",
-                "force_compact_paragraphs": ""
+                "toggle_on_editor": "Näytetäänkö muotoilutekstin tilanvaihto editorissa?",
+                "force_compact_paragraphs": "Pakota tiivis kappaletila kaikille käyttäjille (Enter luo rivinvaihdon uuden kappaleen sijaan)"
             }
         },
         "lib": {
             "composer": {
-                "toggle_button": "",
-                "insert_button": "",
+                "toggle_button": "Vaihda muotoilutekstitila",
+                "insert_button": "Lisää",
                 "insert_image": {
-                    "src_placeholder": "",
-                    "title_placeholder": ""
+                    "src_placeholder": "Linkki",
+                    "title_placeholder": "Otsikko"
                 },
                 "insert_link": {
-                    "text_placeholder": "",
-                    "href_placeholder": "",
-                    "title_placeholder": "",
-                    "remove_button": ""
+                    "text_placeholder": "Teksti",
+                    "href_placeholder": "Osoite",
+                    "title_placeholder": "Otsikko (näkyy hoverissa)",
+                    "remove_button": "Poista"
                 },
-                "additional_items_tooltip": "",
-                "bold_tooltip": "",
-                "code_tooltip": "",
-                "code_block_tooltip": "",
-                "header_tooltip": "",
-                "horizontal_rule_tooltip": "",
-                "image_tooltip": "",
-                "italic_tooltip": "",
-                "link_tooltip": "",
-                "ordered_list_tooltip": "",
-                "paragraph_tooltip": "",
-                "quote_tooltip": "",
-                "spoiler_block_tooltip": "",
-                "spoiler_inline_tooltip": "",
-                "strike_tooltip": "",
-                "sub_tooltip": "",
-                "sup_tooltip": "",
-                "text_type_tooltip": "",
-                "unordered_list_tooltip": ""
+                "additional_items_tooltip": "Lisämääritykset",
+                "bold_tooltip": "Lihavoitu teksti ({modifierKey}-b)",
+                "code_tooltip": "Koodinpätkä ({modifierKey}-`)",
+                "code_block_tooltip": "Lisää koodilohko",
+                "header_tooltip": "Vaihda otsikoksi {level} ({modifierKey}-shift-{level})",
+                "horizontal_rule_tooltip": "Lisää vaakaviiva",
+                "image_tooltip": "Lisää kuva",
+                "italic_tooltip": "Kursivoitu teksti ({modifierKey}-i)",
+                "link_tooltip": "Lisää linkki",
+                "ordered_list_tooltip": "Numeroitu lista ({modifierKey}-shift-9)",
+                "paragraph_tooltip": "Muunna kappaleeksi ({modifierKey}-shift-0)",
+                "quote_tooltip": "Lisää lainaus ({modifierKey}-q)",
+                "spoiler_block_tooltip": "Lohkon spoileri/pudotusvalikko",
+                "spoiler_inline_tooltip": "Spoileri ({modifierKey}-;)",
+                "strike_tooltip": "Yliviivaus (alt-shift-5)",
+                "sub_tooltip": "Alaindeksi ({modifierKey}-,)",
+                "sup_tooltip": "Yläindeksi ({modifierKey}-.)",
+                "text_type_tooltip": "Valitse tekstityyppi",
+                "unordered_list_tooltip": "Luettelomerkkilista ({modifierKey}-shift-8)"
             }
         },
         "forum": {
             "settings": {
-                "composer_heading": "",
-                "use_rich_text_editor_label": "",
-                "rich_text_compact_paragraphs_label": ""
+                "composer_heading": "Viestikenttä",
+                "use_rich_text_editor_label": "Käytä rikastettua editoria?",
+                "rich_text_compact_paragraphs_label": "Älä erottele kappaleita uudella rivillä."
             }
         }
     }

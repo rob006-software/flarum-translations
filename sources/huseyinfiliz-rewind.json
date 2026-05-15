@@ -1,0 +1,325 @@
+{
+    "huseyinfiliz-rewind": {
+        "admin": {
+            "tabs": {
+                "general": "General",
+                "slides": "Slides",
+                "advanced": "Advanced"
+            },
+            "settings": {
+                "enabled_label": "Enable Rewind",
+                "active_year_label": "Active Year",
+                "invalid_active_year": "Active year must be a whole number between 2000 and 2100.",
+                "show_menu_link_label": "Show Rewind link in user menu",
+                "slides_user": "User Rewind",
+                "slides_community": "Community Rewind",
+                "slides_help": "Choose which slides to show in the Rewind slideshow. All data is always collected — hidden slides simply won't be displayed.",
+                "section_core": "Core Metrics",
+                "section_content": "Content",
+                "section_social": "Social",
+                "section_people": "People",
+                "section_achievements": "Achievements",
+                "slide_post_count": "Posts",
+                "slide_discussion_count": "Discussions",
+                "slide_active_days": "Active Days",
+                "slide_word_count": "Words Written",
+                "slide_most_active_month": "Busiest Month",
+                "slide_top_words": "Top Words",
+                "slide_night_owl": "Activity Hours",
+                "slide_best_post": "Best Post",
+                "slide_top_emojis": "Top Emojis",
+                "slide_top_tag": "Top Tag",
+                "slide_likes_given": "Likes Given",
+                "slide_likes_received": "Likes Received",
+                "slide_best_friend": "Best Friend",
+                "slide_best_friend_mentions": "Mentions",
+                "slide_badges_earned": "Badges",
+                "slide_best_answers": "Best Answers",
+                "community_slide_year-overview": "Year in Numbers",
+                "community_slide_busiest_month": "Busiest Month",
+                "community_slide_peak_hour": "Peak Hours",
+                "community_slide_total_words": "Words Written",
+                "community_slide_new_members": "New Members",
+                "community_slide_top_contributors": "Top Contributors",
+                "community_slide_most_loved": "Most Loved",
+                "community_slide_most_active_user": "Most Active User",
+                "community_slide_star_post": "Star Post",
+                "community_slide_top_discussion": "Hot Discussion",
+                "community_slide_top_tag": "Top Tag",
+                "community_slide_best_answers_leaderboard": "Best Answers Leaderboard",
+                "community_slide_badge_leaderboard": "Badge Leaderboard",
+                "community_comparison_label": "Enable community comparison in user rewinds",
+                "community_comparison_help": "When enabled, user rewind slides will show how metrics compare to community averages. Community rewind must be generated first.",
+                "generate_community_title": "Generate Community Rewind",
+                "generate_community_help": "Calculate community-wide statistics for the active year. This should be done before generating user rewinds if community comparison is enabled.",
+                "generate_community_button": "Generate Community Rewind",
+                "generate_users_title": "Generate Missing User Rewinds",
+                "generate_users_help": "Generate rewind snapshots for all users who don't have one yet. Choose a year and optionally filter by group.",
+                "generate_users_button": "Generate Missing Rewinds",
+                "delete_rewinds_title": "Delete User Rewinds",
+                "delete_rewinds_help": "Delete user rewind snapshots by year and optionally by group.",
+                "delete_rewinds_button": "Delete Rewinds"
+            },
+            "generate_modal": {
+                "community_title": "Generate Community Rewind",
+                "users_title": "Generate Missing User Rewinds",
+                "delete_title": "Delete User Rewinds",
+                "year_label": "Year",
+                "group_label": "User Group",
+                "all_users": "All Users",
+                "start": "Start",
+                "cancel": "Cancel",
+                "confirm": "Confirm",
+                "delete_confirm": "Delete",
+                "warning": "Do not close this page while this operation is in progress.",
+                "done": "Completed — {count} items processed.",
+                "deleted": "{count} rewinds deleted.",
+                "nothing": "Nothing to process — already up to date.",
+                "invalid_year": "Year must be a whole number between 2000 and the active year.",
+                "close": "Close"
+            },
+            "permissions": {
+                "view_forum": "View Rewind page",
+                "generate": "Generate own Rewind",
+                "moderate": "Manage Rewinds"
+            }
+        },
+        "forum": {
+            "page": {
+                "title": "Rewind",
+                "hero_title": "{year} Rewind",
+                "hero_subtitle": "Your year in review",
+                "generate_button": "Generate My Rewind",
+                "generating": "Generating your Rewind...",
+                "view_button": "View My Rewind",
+                "personal_title": "Your Personal Rewind",
+                "my_rewind": "My Rewind",
+                "not_available": "Rewind is not available at this time.",
+                "admin_notice": "Rewind is currently not visible to regular users. Enable it from the admin panel to make it public.",
+                "no_snapshot": "You haven't generated your {year} Rewind yet.",
+                "empty_public": "This user has no public Rewind snapshots."
+            },
+            "community": {
+                "title": "Community Highlights",
+                "not_generated": "Community Rewind has not been generated yet.",
+                "generate_button": "Generate Community Rewind",
+                "regenerate": "Regenerate Community Rewind",
+                "regenerate_short": "Regenerate",
+                "regenerate_confirm": "This will overwrite the existing community rewind data for this year. Continue?",
+                "coming_soon": "Community Rewind hasn't been generated yet. Stay tuned!",
+                "no_activity": "Not enough activity for this year",
+                "view_slideshow": "View Slideshow",
+                "watch_slideshow": "Watch the {year} Community Rewind",
+                "watch_slideshow_desc": "See the year's highlights in a story format",
+                "new_users": "New Members",
+                "total_posts": "Total Posts",
+                "total_discussions": "Discussions Started",
+                "top_discussion": "Most Active Discussion",
+                "most_active_user": "Most Active Member",
+                "top_tag": "Top Tag",
+                "post_count_label": "{count} posts"
+            },
+            "profile": {
+                "tab": "Rewind",
+                "year_card": "{year} Rewind",
+                "generate_for_year": "Generate {year} Rewind",
+                "tap_to_watch": "Tap to watch",
+                "not_yet_available": "Not yet available",
+                "no_activity": "Not enough activity",
+                "public_badge": "Public",
+                "private_badge": "Private",
+                "controls": {
+                    "make_public": "Make Public",
+                    "make_private": "Make Private",
+                    "regenerate": "Regenerate",
+                    "delete": "Delete",
+                    "confirm_delete": "Are you sure you want to delete this Rewind?"
+                }
+            },
+            "metrics": {
+                "post_count": {
+                    "title": "Posts",
+                    "description": "Shared {count} posts across the forum",
+                    "messages": {
+                        "tier_1": "Every legend has a first post",
+                        "tier_2": "The forum is listening",
+                        "tier_3": "People know your name",
+                        "tier_4": "The forum would be quieter without you",
+                        "tier_5": "Do you even sleep?"
+                    }
+                },
+                "discussion_count": {
+                    "title": "Discussions",
+                    "description": "Started {count} new conversations",
+                    "messages": {
+                        "tier_1": "Every conversation starts with someone brave enough to begin",
+                        "tier_2": "Sparking conversations left and right",
+                        "tier_3": "A true community builder"
+                    }
+                },
+                "active_days": {
+                    "title": "Active Days",
+                    "description": "Contributed on {count} different days",
+                    "messages": {
+                        "tier_1": "A few meaningful visits",
+                        "tier_2": "Consistent presence",
+                        "tier_3": "Showed up more days than not",
+                        "tier_4": "Practically part of the furniture",
+                        "tier_5": "Every single week, without fail"
+                    }
+                },
+                "top_tag": {
+                    "title": "Top Tag",
+                    "description": "Most active tag with {count} posts",
+                    "no_data": "No tag data available"
+                },
+                "most_active_month": {
+                    "title": "Busiest Month",
+                    "description": "Peak month with {count} posts"
+                },
+                "word_count": {
+                    "title": "Words",
+                    "description": "Wrote approximately {count} words",
+                    "messages": {
+                        "tier_1": "Short and sweet",
+                        "tier_2": "Had things to say",
+                        "tier_3": "A short novel's worth",
+                        "tier_4": "War and Peace is shaking",
+                        "tier_5": "Tolstoy would be proud"
+                    }
+                },
+                "best_post": {
+                    "title": "Best Post",
+                    "description_likes": "{count} likes in \"{discussion_title}\"",
+                    "description_replies": "{count} replies in \"{discussion_title}\"",
+                    "no_data": "No standout post this year"
+                },
+                "likes_given": {
+                    "title": "Likes Given",
+                    "description": "Gave {count} likes across the forum",
+                    "messages": {
+                        "tier_1": "A thoughtful like here and there",
+                        "tier_2": "Spreading positivity",
+                        "tier_3": "The forum's biggest cheerleader"
+                    }
+                },
+                "likes_received": {
+                    "title": "Likes Received",
+                    "description": "Earned {count} likes this year",
+                    "messages": {
+                        "tier_1": "Words that resonated",
+                        "tier_2": "People genuinely appreciate what you write",
+                        "tier_3": "Loved around here"
+                    }
+                },
+                "best_friend": {
+                    "title": "Best Friend",
+                    "description": "{display_name} liked your posts {count} times",
+                    "no_data": "No best friend data available",
+                    "message": "Inseparable this year",
+                    "stat_likes_received": "Liked you",
+                    "stat_likes_given": "You liked",
+                    "stat_mentions_from": "Mentioned you",
+                    "stat_mentions_to": "You mentioned"
+                },
+                "best_friend_mentions": {
+                    "title": "Mentions",
+                    "description": "You mentioned {display_name} {count} times",
+                    "no_data": "No mention data available",
+                    "you_mentioned": "You mentioned × {count}",
+                    "mentioned_you": "Mentioned you × {count}"
+                },
+                "badges_earned": {
+                    "title": "Badges",
+                    "description": "Collected {count} badges this year",
+                    "no_data": "No badges earned this year"
+                },
+                "top_words": {
+                    "title": "Top Words",
+                    "description": "Most frequently used words"
+                },
+                "top_emojis": {
+                    "title": "Top Emojis",
+                    "description": "Most frequently used emojis"
+                },
+                "best_answers": {
+                    "title": "Best Answers",
+                    "description": "{count} answers marked as solution",
+                    "messages": {
+                        "tier_1": "Helped someone find their answer",
+                        "tier_2": "The go-to for answers",
+                        "tier_3": "The forum's expert"
+                    }
+                },
+                "community_compare": {
+                    "above": "{times}x the community average",
+                    "above_average": "Above community average",
+                    "average": "Around community average",
+                    "below_average": "Below community average"
+                },
+                "night_owl": {
+                    "title": "Activity Hours",
+                    "description": "Most posts written around this hour",
+                    "description_owl": "Most posts written around this hour"
+                }
+            },
+            "slideshow": {
+                "tap_to_start": "Tap to start →",
+                "not_available": "Rewind not available",
+                "summary_title": "Your {year} in Numbers",
+                "no_data": "Not enough activity to build a Rewind",
+                "close": "Close",
+                "share": "Share",
+                "link_copied": "Link copied to clipboard!",
+                "visibility_status_public": "Public",
+                "visibility_status_private": "Private",
+                "visibility_tap_hide": "Tap to hide",
+                "visibility_tap_show": "Tap to make public"
+            },
+            "community_slideshow": {
+                "title": "Community Rewind",
+                "intro_label": "COMMUNITY REWIND",
+                "year_in_numbers": "Year in Numbers",
+                "posts": "Posts",
+                "discussions": "Discussions",
+                "new_members": "New Members",
+                "busiest_month": "Busiest Month",
+                "busiest_month_desc": "Peak month with {count} posts",
+                "peak_hours": "Peak Hours",
+                "peak_hours_desc": "Most posts written around this hour",
+                "top_contributors": "Top Contributors",
+                "top_contributors_desc": "Most active members this year",
+                "star_post": "Star Post",
+                "star_post_desc": "The most liked post of the year",
+                "most_loved": "Most Loved",
+                "most_loved_desc": "Members who earned the most likes",
+                "hot_discussion": "Hot Discussion",
+                "hot_discussion_desc": "{count} posts in this thread",
+                "top_tag": "Top Tag",
+                "top_tag_desc": "Most discussed tag with {count} discussions",
+                "total_words": "Words Written",
+                "total_words_desc": "By the entire community",
+                "total_words_label": "Total Words",
+                "avg_per_post": "Avg per Post",
+                "new_members_slide": "New Members",
+                "new_members_desc": "{count} people joined the community",
+                "summary_title": "{year} Community Highlights",
+                "words": "Words",
+                "busiest_month_label": "Busiest Month",
+                "peak_hour_label": "Peak Hour",
+                "top_contributor_label": "Top Contributor",
+                "top_tag_label": "Top Tag",
+                "reactions": "Reactions",
+                "best_answers": "Best Answers",
+                "badges_awarded": "Badges Awarded",
+                "best_answers_leaderboard": "Problem Solvers",
+                "best_answers_leaderboard_desc": "Members with the most best answers",
+                "badge_leaderboard": "Badge Collectors",
+                "badge_leaderboard_desc": "Members who earned the most badges"
+            },
+            "user_menu": {
+                "rewind_link": "Rewind {year}"
+            }
+        }
+    }
+}

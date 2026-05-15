@@ -53,6 +53,14 @@
                     "config_override": {
                         "label": "Remplacement de configuration",
                         "help": "Les paramètres FontAwesome sont actuellement définis dans votre fichier config.php et ne peuvent pas être modifiés ici."
+                    },
+                    "preview": {
+                        "button": "Aperçu des icônes",
+                        "label": "Aperçu des icônes",
+                        "help": "Vérifiez la configuration de FontAwesome. Une icône affichée signifie que ce niveau est disponible ; une case vide signifie que l'icône n'a pas pu être chargée.",
+                        "fa5_fa6_label": "Alias FA5/FA6",
+                        "fa7_label": "Classes FA7",
+                        "pro_label": "Pro uniquement"
                     }
                 },
                 "pgsql": {
@@ -108,6 +116,8 @@
                 "favicon_text": "Transférez une image qui sera affichée comme icône de raccourci du forum.",
                 "logo_heading": "Logo",
                 "logo_text": "Transférez une image qui sera affichée à la place du titre du forum.",
+                "logo_dark_mode_heading": "Logo en mode sombre",
+                "logo_dark_mode_text": "Transférez une autre image qui sera affichée lorsque le mode sombre est activé.",
                 "title": "Apparence",
                 "color_scheme_label": "Thème (par défaut)",
                 "color_schemes": {
@@ -127,8 +137,13 @@
                 },
                 "display_name_heading": "Nom d'affichage de l'utilisateur",
                 "display_name_text": "Sélectionnez le pilote qui doit être utilisé pour les noms d'affichage des utilisateurs. Par défaut, le nom d'utilisateur est affiché.",
+                "avatar_driver_options": {
+                    "default": "Par défaut"
+                },
+                "avatar_driver_heading": "Avatar de l'utilisateur",
+                "avatar_driver_text": "Sélectionnez un pilote à utiliser pour les avatars des utilisateurs lorsqu'aucun avatar transféré par l'utilisateur n'est disponible. Par défaut, aucun avatar ne s'affiche si l'utilisateur n'en a pas transféré.",
                 "forum_description_heading": "Description du forum",
-                "forum_description_text": "Saisissez une ou deux courtes phrases qui décrivent votre communauté. Ces phrases apparaîtront dans la balise méta et dans les moteurs de recherche.",
+                "forum_description_text": "Saisissez une ou deux courtes phrases qui décrivent votre forum. Ces phrases apparaîtront dans la balise méta et dans les moteurs de recherche.",
                 "forum_title_heading": "Titre du forum",
                 "home_page_heading": "Page d'accueil",
                 "home_page_text": "Sélectionnez la page que les utilisateurs verront en premier lorsqu'ils visiteront votre forum.",
@@ -140,14 +155,21 @@
                     },
                     "users": {
                         "default": "Nom d'utilisateur",
-                        "id": "Identifiant"
+                        "id": "Identifiant",
+                        "id_with_display_name": "Identifiant avec nom d'affichage"
                     }
                 },
                 "slug_driver_heading": "Pilote de l'identifiant texte unique : {model}",
                 "slug_driver_text": "Sélectionnez un pilote qui sera utilisé pour l'identifiant texte unique de ce modèle.",
                 "title": "Essentiels",
                 "welcome_banner_heading": "Bannière de bienvenue",
-                "welcome_banner_text": "Personnalisez le texte qui s'affiche dans la bannière sur la page de la liste de toutes les discussions. Il vous permet d'accueillir les invités sur votre forum."
+                "welcome_banner_text": "Personnalisez le texte qui s'affiche dans la bannière sur la page de la liste de toutes les discussions. Il vous permet d'accueillir les invités sur votre forum.",
+                "abandoned_extensions_heading": "Extensions abandonnées",
+                "abandoned_extensions_text": "Flarum tient à jour une <a>liste communautaire des extensions abandonnées</a>. Lorsqu'une extension installée figure sur cette liste, elle est signalée dans le panneau d'administration.",
+                "abandoned_extensions_sync_button": "Vérifier maintenant",
+                "abandoned_extensions_sync_success": "La liste des extensions abandonnées a été mise à jour. {count} extension(s) installée(s) correspondante(s) trouvée(s).",
+                "abandoned_extensions_sync_error": "Impossible de récupérer la liste des extensions abandonnées. Veuillez réessayer plus tard.",
+                "abandoned_extensions_notify_admins_label": "Envoyer un courriel aux administrateurs lorsqu'une extension récemment abandonnée est détectée lors de la vérification hebdomadaire"
             },
             "create_user": {
                 "email_placeholder": "=> core.ref.email",
@@ -158,6 +180,20 @@
                 "title": "Créer un nouvel utilisateur",
                 "use_random_password": "Générer un mot de passe aléatoire",
                 "username_placeholder": "=> core.ref.username"
+            },
+            "announcements": {
+                "comments_label": "{count, plural, one {# commentaire} other {# commentaires}}",
+                "description": "Dernières actualités et annonces de l'équipe Flarum.",
+                "empty": "Aucune annonce trouvée.",
+                "load_error": "Impossible de charger les annonces. Veuillez réessayer plus tard.",
+                "about": "Dernières actualités et annonces issues de la communauté officielle de Flarum sur discuss.flarum.org.",
+                "hide": "Masquer les annonces",
+                "read_more": "Lire la suite",
+                "refresh": "Actualiser les annonces",
+                "retry": "Réessayer",
+                "show": "Afficher les annonces",
+                "title": "Annonces",
+                "view_all": "Toutes les annonces sur discuss.flarum.org"
             },
             "dashboard": {
                 "clear_cache_button": "Effacer le cache",
@@ -185,6 +221,22 @@
                 "title": "Tableau de bord",
                 "toggle_advanced_page_button": "Basculer vers la page avancée",
                 "tools_button": "Outils"
+            },
+            "extensions-health-widget": {
+                "abandoned_no_replacement": "Aucun remplacement n'est disponible",
+                "abandoned_with_replacement": "Remplacée par {replacement}",
+                "all_healthy": "Toutes les extensions fonctionnent correctement.",
+                "section_abandoned_empty": "Aucun problème détecté.",
+                "section_suggested_empty": "Aucune suggestion.",
+                "section_disabled_empty": "Toutes les extensions sont activées.",
+                "title": "État des extensions",
+                "section_abandoned_heading": "Cela mérite votre attention",
+                "section_abandoned_help": "Ces extensions ne sont plus mises à jour ou peuvent présenter des problèmes de compatibilité. Envisager de les mettre à jour, de les remplacer ou de les supprimer.",
+                "section_suggested_heading": "Suggérée(s)",
+                "section_suggested_help": "Les extensions Flarum permettent d'ajouter des fonctionnalités supplémentaires facultatives en spécifiant d'autres extensions ou paquets. Celles-ci peuvent apporter des fonctionnalités ou des intégrations supplémentaires.",
+                "section_disabled_heading": "Désactivée(s)",
+                "section_disabled_help": "Ces extensions sont installées mais ne sont pas activées pour le moment. Vous pouvez les activer depuis leur page de paramètres ou les désinstaller si vous n'en avez plus besoin.",
+                "suggested_by": "Suggérée par {extension}"
             },
             "debug-warning": {
                 "detail": "Lorsque le mode <code>débogage</code> est actif, Flarum reconstruit ses ressources <code>JavaScript</code> et <code>CSS</code> à chaque requête, et peut aussi potentiellement divulguer d'autres informations, comme les clés secrètes de la base de données, les variables d'environnement, etc.\n\nIl est fortement recommandé de désactiver le mode <code>débogage</code> dans votre fichier <code>config.php</code> si votre forum est dans un environnement de production. Pour plus d'informations, veuillez consulter <link>la documentation de Flarum</link>.\n",
@@ -241,8 +293,14 @@
                 "mail_mailgun_secret_label": "Clé secrète",
                 "mail_password_label": "=> core.ref.password",
                 "mail_port_label": "Port",
+                "mail_postmark_message_stream_label": "Flux de messages",
+                "mail_postmark_token_label": "Jeton du serveur",
+                "mail_smtp_verify_peer_label": "Vérifier le certificat SSL",
+                "mail_smtp_verify_peer_help": "Vérifiez le certificat SSL du serveur lorsque vous utilisez le chiffrement TLS ou SSL. Ne désactivez cette option que si votre serveur de messagerie utilise un certificat auto-signé.",
                 "mail_username_label": "=> core.ref.username",
                 "mailgun_heading": "Paramètres de Mailgun",
+                "postmark_heading": "Paramètres de Postmark",
+                "postmark_description": "Envoyer un courriel via l'API HTTP de Postmark. Il est possible de spécifier un flux de messages afin d'utiliser un flux autre que celui par défaut.",
                 "not_sending_message": "Flarum n'envoie actuellement pas de courriel. Cela peut être dû au pilote sélectionné ou à une erreur dans sa configuration.",
                 "send_test_mail_button": "Envoyer",
                 "send_test_mail_heading": "Envoyer un courriel de test",
@@ -281,6 +339,14 @@
                     "title": "Documentation de {extName}"
                 },
                 "replaced": "Remplacé",
+                "reset_settings": {
+                    "button": "Réinitialiser les paramètres",
+                    "cancel_button": "Annuler",
+                    "confirm_button": "Réinitialiser",
+                    "warning": "Cette action est irréversible. Les paramètres ci-dessous seront définitivement supprimés de la base de données et reviendront à leurs valeurs par défaut. Les données de cette extension ne seront pas affectées.",
+                    "title": "Réinitialiser les paramètres",
+                    "title_extension": "Réinitialiser les paramètres de {extensionTitle}"
+                },
                 "safe_mode_warning": "Le mode sans échec est actuellement activé. Les extensions ne sont pas démarrées et leurs paramètres sont donc inaccessibles."
             },
             "header": {
@@ -305,11 +371,14 @@
                 "basics_button": "=> core.admin.basics.title",
                 "basics_title": "=> core.admin.basics.description",
                 "categories": {
+                    "analytics": "Analyses",
                     "authentication": "Authentification",
                     "core": "Configuration de base",
                     "discussion": "Discussion",
                     "feature": "Fonctionnalités",
                     "formatting": "Mise en page",
+                    "forum-widget": "Widgets du forum",
+                    "infrastructure": "Infrastructure",
                     "language": "Langues",
                     "moderation": "Modération",
                     "other": "Autres extensions",
@@ -649,6 +718,9 @@
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "Web",
                 "notify_discussion_renamed_label": "Quelqu'un renomme une discussion que j'ai démarrée",
+                "device_heading": "Appareil",
+                "haptic_feedback_help": "Disponible uniquement sur les appareils mobiles pris en charge",
+                "haptic_feedback_label": "Activer le retour haptique",
                 "privacy_disclose_online_label": "Autoriser les autres à voir que je suis en ligne",
                 "privacy_heading": "Confidentialité",
                 "title": "=> core.ref.settings"
@@ -747,7 +819,7 @@
                 "discussions": {
                     "author": {
                         "key": "auteur",
-                        "hint": "nom d'utilisateur ou liste de noms d'utilisateurs séparés par des virgules"
+                        "hint": "nom d'utilisateur ou liste de noms d'utilisateur séparés par des virgules"
                     },
                     "created": {
                         "key": "créée",
@@ -763,7 +835,7 @@
                 "posts": {
                     "discussion": {
                         "key": "discussion",
-                        "hint": "Identifiant de la discussion"
+                        "hint": "identifiant de la discussion"
                     }
                 },
                 "users": {
@@ -773,7 +845,7 @@
                     },
                     "group": {
                         "key": "groupe",
-                        "hint": "les noms des groupes au singulier ou au pluriel"
+                        "hint": "noms de groupe au singulier ou au pluriel"
                     }
                 }
             },
@@ -898,6 +970,7 @@
                 "maintenance_mode_link": "Se connecter en tant qu'administrateur",
                 "maintenance_mode_message": "Ce forum est actuellement indisponible pour cause de maintenance. Veuillez revenir plus tard.",
                 "maintenance_mode_title": "Maintenance",
+                "method_not_allowed": "Cette page ne prend pas en charge cette méthode de requête.",
                 "not_authenticated": "Vous n'avez pas l'autorisation d'accéder à cette page. Veuillez réessayer après vous être connecté.",
                 "not_found": "La page que vous avez demandée est introuvable.",
                 "not_found_return_link": "Revenir à {forum}",
@@ -983,6 +1056,13 @@
             "send_test": {
                 "subject": "Courriel de test de Flarum",
                 "body": "Ceci est un courriel de test destiné à vérifier que la configuration de votre messagerie Flarum fonctionne correctement.\n\nSi vous êtes bien le destinataire, ce courriel signifie que votre configuration fonctionne !\n\nSi vous n'êtes pas le destinataire, veuillez ignorer ce courriel.\n"
+            },
+            "abandoned_extensions": {
+                "subject": "Action requise : extension(s) abandonnée(s) détectée(s)",
+                "body_intro": "Les extensions installées suivantes ont été signalées comme abandonnées :",
+                "body_outro": "Veuillez passer en revue ces extensions et envisager de migrer vers des solutions alternatives lorsqu'elles sont disponibles.",
+                "line_with_replacement": "{package} (remplacement suggéré : {replacement})",
+                "line_no_replacement": "{package} (aucun remplacement disponible)"
             }
         },
         "ref": {
@@ -1008,7 +1088,7 @@
             "extensions": "Extensions",
             "generic_confirmation_message": "Êtes-vous sûr de vouloir continuer ? Cette action est irréversible.",
             "icon": "Icône",
-            "icon_text": "Saisissez le nom de n'importe quelle classe d'icônes de <a>Font Awesome</a> <em>en incluant</em> le préfixe <code>fas fa-</code>.",
+            "icon_text": "Saisissez le nom de n'importe quelle classe d'icônes de <a>Font Awesome</a> <em>en incluant</em> le préfixe (par exemple <code>fas fa-flag</code> ou <code>fa-solid fa-flag</code>).",
             "invalid_login_message": "Vos identifiants de connexion sont incorrects.",
             "light_hc_mode_label": "Mode clair à contraste élevé",
             "light_mode_label": "Mode clair",

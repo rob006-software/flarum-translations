@@ -1,0 +1,44 @@
+{
+    "fof-recaptcha": {
+        "admin": {
+            "settings": {
+                "help_text": "Obtenez vos informations d'identification Google reCAPTCHA <a>ici</a>.",
+                "secret_key_label": "Clé secrète",
+                "site_key_label": "Clé du site",
+                "type_label": "Type de reCAPTCHA",
+                "type_help": "Le type sélectionné doit correspondre au type de vos identifiants reCAPTCHA. Les options « Case à cocher » et « Invisible » correspondent toutes deux à reCAPTCHA v2 ; la version v3 est basée sur un système de score et s'exécute en arrière-plan.",
+                "type_options": {
+                    "checkbox": "Case à cocher (v2)",
+                    "invisible": "Invisible (v2)",
+                    "v3": "v3 (basée sur le score)"
+                },
+                "v3_threshold_label": "Seuil de score reCAPTCHA v3",
+                "v3_threshold_help": "Les soumissions dont le score est inférieur à cette valeur (0,0 = probablement un bot, 1,0 = probablement un humain) seront rejetées. Google recommande de commencer par une valeur de 0,5. Cette option n'est utilisée que lorsque le type est défini sur v3.",
+                "signup": "=> core.forum.sign_up.title",
+                "signin": "=> core.forum.log_in.title",
+                "forgot": "=> core.forum.forgot_password.title"
+            },
+            "test": {
+                "title": "Tester le reCAPTCHA",
+                "help_text": "Ce test utilisera les valeurs actuelles saisies ci-dessus. Veillez à recharger le test après avoir modifié les paramètres, et n'oubliez pas de sauvegarder une fois le test réussi !\nLes résultats ci-dessous peuvent ne pas refléter les paramètres enregistrés.\n",
+                "success_message": "Félicitations ! reCAPTCHA est configuré correctement.",
+                "load_test_button": "Charger",
+                "submit_button": "Envoyer",
+                "reload_button": "Actualiser"
+            },
+            "permissions": {
+                "post_without_captcha": "Créez des messages et des discussions sans CAPTCHA"
+            }
+        },
+        "lib": {
+            "error": "Une erreur est survenue lors de la soumission de reCAPTCHA. Veuillez réessayer.",
+            "not_completed": "Veuillez compléter la vérification reCAPTCHA avant de continuer.",
+            "rejected": "La vérification reCAPTCHA a échoué. Veuillez réessayer.",
+            "unknown_error": "Une erreur inconnue s'est produite. Veuillez réessayer."
+        }
+    },
+    "validation": {
+        "recaptcha": "La validation de reCAPTCHA a échoué.",
+        "recaptcha-unknown": "Une erreur inconnue s'est produite lors de la validation du reCAPTCHA ({errors})."
+    }
+}

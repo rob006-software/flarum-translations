@@ -19,9 +19,18 @@
                     "extension_settings_button": "GDPR Instellingen"
                 },
                 "user_table_data": {
-                    "not_yet_implemented": "",
                     "title": "Gebruikerstabel gegevens",
-                    "help_text": "In de meeste gevallen worden kolommen die zijn toegevoegd aan de <code>user</code> tabel automatisch afgehandeld, zowel voor het exporteren van gegevens als voor het wissen.\nEr zijn echter enkele speciale gevallen, die hieronder worden opgesomd.\n"
+                    "help_text": "In de meeste gevallen worden kolommen die zijn toegevoegd aan de <code>user</code> tabel automatisch afgehandeld, zowel voor het exporteren van gegevens als voor het wissen.\nEr zijn echter enkele speciale gevallen, die hieronder worden opgesomd.\n",
+                    "column": "Kolom",
+                    "type": "Type",
+                    "nullable": "Nullable",
+                    "pii": "PII",
+                    "redacted_on_export": "Afgeschermd bij export",
+                    "extension": "Extensie",
+                    "yes": "Ja",
+                    "no": "Nee",
+                    "pii_tooltip": "Deze kolom wordt beschouwd als persoonlijk identificeerbare informatie en zal worden geanonimiseerd in geanonimiseerde contexten (bijv. geanonimiseerde gebeurtenisgegevens).",
+                    "redacted_on_export_tooltip": "De waarde van deze kolom wordt leeggemaakt (op null gezet) bij het genereren van een gebruikersgegevensexport. De kolom verschijnt echter nog steeds in de export met een null-waarde."
                 }
             },
             "nav": {
@@ -74,6 +83,7 @@
                 "forum": {
                     "export_description": "Exporteert de forumtitel, url, gebruikersnaam, e-mail en de huidige datum."
                 },
+                "default_user_action": "Geen actie nodig, wordt afgehandeld door de standaard gebruikerstabelgegevensverwerking.",
                 "no_action": "Geen actie ondernomen.",
                 "posts": {
                     "anonymize_description": "Verwijdert het IP adres van alle berichten die gebruiker heeft gemaakt.",
@@ -152,7 +162,10 @@
                 "text": "{name} heeft een account verwijderingsverzoek ingediend.",
                 "comments_label": "Commentaar (optioneel)",
                 "anonymization_button": "Anonimiseer gebruiker",
-                "deletion_button": "Verwijder gebruiker"
+                "deletion_button": "Verwijder gebruiker",
+                "requested_at": "Aangevraagd: {date}",
+                "confirmed_at": "Bevestigd: {date}",
+                "eligible_at": "Geschikt voor automatische verwerking: {date}"
             },
             "request_erasure": {
                 "title": "Wisverzoek indienen",

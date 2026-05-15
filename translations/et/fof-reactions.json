@@ -12,11 +12,14 @@
                 "title": "Reaktsioonid",
                 "anonymous_count": "{count, plural, one {# anonüümne kasutaja} other {# anonüümset kasutajat}}",
                 "no_reactions": "Ühtegi reaktsiooni pole veel",
+                "load_more": "",
+                "others_count": "",
                 "remove_all_reaction_type": "",
                 "remove_user_reaction": ""
             },
             "mod_item": "Vaata reaktsioone",
             "react_button_label": "Reageeri",
+            "unreact_button_label": "",
             "reaction_button_label": "",
             "reacted_with_label": ""
         },
@@ -43,7 +46,16 @@
                     },
                     "delete_confirmation": "Oled sa kindel, et soovid seda reaktsiooni kustutada? Seda toimingut ei saa tühistada.",
                     "delete_reaction_button": "",
-                    "add_reaction_button": ""
+                    "add_reaction_button": "",
+                    "add_reaction_label": "",
+                    "header": {
+                        "display": "",
+                        "identifier": "",
+                        "type": "",
+                        "enabled": "",
+                        "action": "",
+                        "preview": ""
+                    }
                 },
                 "convert": {
                     "help": "Kui sa just uuendasid oma laiendust, siis on vaja sinu reaktsioone teisendada. Kui sa just paigaldasid selle lisaprogrammi, siis ignoreeri seda sõnumit.",
@@ -56,7 +68,6 @@
                     "react_own_posts_label": "Kasutajad võivad reageerida omaenda postitustele,",
                     "allow-anonymous": "Luba anonüümsetel kasutajatel (külalistel) reageerida",
                     "allow-anonymous-help": "Kui see on sisse lülitatud, siis saavad anonüümsed kasutajad postitustele reageerida. Pea meeles, et anonüümseid reaktsoone ei seostata kasutajaga ning koondatakse reaktsioonide nimekirjas.",
-                    "save_settings": "Salvesta seaded",
                     "integrations": {
                         "legend": "Integreerimised",
                         "warning": "Sama reaktsiooni <strong>ei saa</strong> teisendada meeldimiseks <strong>ja</strong> ülespoole hääletamiseks",
@@ -72,7 +83,8 @@
                             "Label": "Teisenda reaktsioonid meeldimisteks",
                             "Helptext": "Sisesta reaktsiooni identifikaator, mida sa sooviksid automaatselt meeldimiseks teisendada"
                         }
-                    }
+                    },
+                    "save_settings": "Salvesta seaded"
                 }
             }
         }

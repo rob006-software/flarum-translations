@@ -1,0 +1,42 @@
+{
+    "tryhackx-thumb-sliders": {
+        "admin": {
+            "settings": {
+                "enabled_label": "Enable Thumb Sliders",
+                "enabled_help": "Show thumbnail sliders in the discussion list.",
+                "slider_width_label": "Slider width (px)",
+                "slider_width_help": "Width of the thumbnail slider. Height is auto (poster ratio 2:3).",
+                "autoplay_speed_label": "Autoplay speed (ms)",
+                "autoplay_speed_help": "Time between slide transitions in milliseconds.",
+                "max_images_label": "Maximum images per discussion",
+                "max_images_help": "Maximum number of images to show in the slider (max 20).",
+                "min_img_size_label": "Min image dimension (px)",
+                "min_img_size_help": "Exclude images with width or height smaller than this value.",
+                "max_img_size_label": "Max image dimension (px)",
+                "max_img_size_help": "Exclude images with width or height larger than this value.",
+                "fallback_mode_label": "Fallback when no image is available",
+                "fallback_mode_help": "Choose what to display when a discussion has no usable image, or when the image fails to load.",
+                "fallback_mode_none": "No thumbnail (content shifts left)",
+                "fallback_mode_default": "Built-in placeholder",
+                "fallback_mode_custom": "Custom uploaded image"
+            },
+            "fallback": {
+                "title": "Fallback image library",
+                "upload_button": "Upload image",
+                "uploading": "Uploading…",
+                "no_files": "No images uploaded yet.",
+                "delete": "Delete",
+                "confirm_delete": "Delete this image?",
+                "clear_selection": "Use no selection",
+                "not_active_mode": "These images are only used when fallback mode is set to \"Custom uploaded image\"."
+            },
+            "support": {
+                "button": "Support Development",
+                "title": "Support This Extension",
+                "description": "If you find this extension useful, please consider supporting its development with a small donation. Every contribution helps keep the project alive and maintained.",
+                "copy": "Copy address",
+                "thanks": "Thank you for your support!"
+            }
+        }
+    }
+}

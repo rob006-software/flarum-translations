@@ -2,21 +2,97 @@
     "ianm-html-head": {
         "admin": {
             "create_button": "Loo",
+            "help": {
+                "intro": "",
+                "preconnect": "",
+                "cache": "",
+                "pages": "",
+                "location": ""
+            },
             "table": {
+                "drag_handle": "",
                 "description_label": "Kirjeldus",
-                "header_label": "Päis",
+                "type_label": "",
+                "location_label": "",
+                "pages_label": "",
                 "active_label": "Aktiivne",
                 "empty_text": "Sissekandeid pole",
                 "delete_button": "Kustuta",
-                "edit_button": "Muuda"
+                "edit_button": "Muuda",
+                "delete_confirm": "",
+                "header_label": "Päis"
             },
             "modal": {
                 "create_title": "Loo uus kirje",
                 "edit_title": "Muuda kirjet",
-                "text": "Veendu, et süntaks oleks korrektne, kuna vigase info sisestamisega võid sa oma foorumi lõhkuda. Pärast salvestamist, lülita oma päise kirje lülitiga sisse või välja.",
                 "description_label": "Kirjeldus",
-                "header_label": "Kohandatud päise kirje",
-                "save_button": "Salvesta"
+                "description_help": "",
+                "type_label": "",
+                "location_label": "",
+                "location_help": "",
+                "pages_label": "",
+                "save_button": "Salvesta",
+                "type": {
+                    "meta": "",
+                    "link": "",
+                    "script": "",
+                    "style": "",
+                    "raw": ""
+                },
+                "location": {
+                    "head": "",
+                    "foot": ""
+                },
+                "pages": {
+                    "forum": "",
+                    "admin": ""
+                },
+                "meta": {
+                    "variant_label": "",
+                    "name_label": "",
+                    "property_label": "",
+                    "content_label": ""
+                },
+                "link": {
+                    "rel_label": "",
+                    "href_label": "",
+                    "as_label": "",
+                    "as_help": "",
+                    "crossorigin_label": "",
+                    "crossorigin_help": "",
+                    "fetchpriority_label": "",
+                    "fetchpriority_default": "",
+                    "fetchpriority_help": "",
+                    "extras_label": "",
+                    "extras_add": "",
+                    "extras_remove": ""
+                },
+                "script": {
+                    "external_label": "",
+                    "inline_label": "",
+                    "src_label": "",
+                    "inline_content_label": "",
+                    "defer_label": "",
+                    "defer_help": "",
+                    "async_label": "",
+                    "async_help": "",
+                    "module_label": "",
+                    "module_help": "",
+                    "crossorigin_label": "",
+                    "crossorigin_help": ""
+                },
+                "style": {
+                    "inline_label": "",
+                    "inline_help": ""
+                },
+                "raw": {
+                    "content_label": "",
+                    "help_text": ""
+                },
+                "preview_label": "",
+                "preview_empty": "",
+                "text": "Veendu, et süntaks oleks korrektne, kuna vigase info sisestamisega võid sa oma foorumi lõhkuda. Pärast salvestamist, lülita oma päise kirje lülitiga sisse või välja.",
+                "header_label": "Kohandatud päise kirje"
             }
         }
     }

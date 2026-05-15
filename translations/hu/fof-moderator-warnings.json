@@ -30,7 +30,7 @@
                 "warning_button": "Felhasználó figyelmeztetése"
             },
             "user": {
-                "warnings": ""
+                "warnings": "Figyelmeztetések"
             },
             "settings": {
                 "warning_notification_label": "Egy moderátor figyelmeztetett"
@@ -51,8 +51,8 @@
                 "warnings_no_strikes": "Moderátori figyelmeztetések: nincsenek büntetőpontok"
             },
             "warning_list_item": {
-                "list_item_heading": "",
-                "list_item_heading_hidden": "",
+                "list_item_heading": "{strikes, plural, one {# büntetőpont, {time}} other {# büntetőpont, {time}}}",
+                "list_item_heading_hidden": "{strikes, plural, one {# büntetőpont, {time} (eltávolítva)} other {# büntetőpont, {time} (eltávolítva)}}",
                 "public_comment": "Figyelmeztetés",
                 "private_comment": "Moderátorok számára látható megjegyzések",
                 "linked_post": "Hozzákapcsolt bejegyzés"

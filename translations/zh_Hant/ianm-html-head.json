@@ -2,21 +2,97 @@
     "ianm-html-head": {
         "admin": {
             "create_button": "新建",
+            "help": {
+                "intro": "",
+                "preconnect": "",
+                "cache": "",
+                "pages": "",
+                "location": ""
+            },
             "table": {
+                "drag_handle": "",
                 "description_label": "描述",
-                "header_label": "頭部",
+                "type_label": "",
+                "location_label": "",
+                "pages_label": "",
                 "active_label": "啟用",
                 "empty_text": "尚無條目",
                 "delete_button": "刪除",
-                "edit_button": "編輯"
+                "edit_button": "編輯",
+                "delete_confirm": "",
+                "header_label": "頭部"
             },
             "modal": {
                 "create_title": "創建項目",
                 "edit_title": "編輯元素",
-                "text": "確保您的語法正確，因為在標題項上提供不正確的數據可能會破壞論壇。 儲存後，使用提供的切換開關啟用新的標題項。",
                 "description_label": "描述",
-                "header_label": "自定義頭部元素",
-                "save_button": "儲存"
+                "description_help": "",
+                "type_label": "",
+                "location_label": "",
+                "location_help": "",
+                "pages_label": "",
+                "save_button": "儲存",
+                "type": {
+                    "meta": "",
+                    "link": "",
+                    "script": "",
+                    "style": "",
+                    "raw": ""
+                },
+                "location": {
+                    "head": "",
+                    "foot": ""
+                },
+                "pages": {
+                    "forum": "",
+                    "admin": ""
+                },
+                "meta": {
+                    "variant_label": "",
+                    "name_label": "",
+                    "property_label": "",
+                    "content_label": ""
+                },
+                "link": {
+                    "rel_label": "",
+                    "href_label": "",
+                    "as_label": "",
+                    "as_help": "",
+                    "crossorigin_label": "",
+                    "crossorigin_help": "",
+                    "fetchpriority_label": "",
+                    "fetchpriority_default": "",
+                    "fetchpriority_help": "",
+                    "extras_label": "",
+                    "extras_add": "",
+                    "extras_remove": ""
+                },
+                "script": {
+                    "external_label": "",
+                    "inline_label": "",
+                    "src_label": "",
+                    "inline_content_label": "",
+                    "defer_label": "",
+                    "defer_help": "",
+                    "async_label": "",
+                    "async_help": "",
+                    "module_label": "",
+                    "module_help": "",
+                    "crossorigin_label": "",
+                    "crossorigin_help": ""
+                },
+                "style": {
+                    "inline_label": "",
+                    "inline_help": ""
+                },
+                "raw": {
+                    "content_label": "",
+                    "help_text": ""
+                },
+                "preview_label": "",
+                "preview_empty": "",
+                "text": "確保您的語法正確，因為在標題項上提供不正確的數據可能會破壞論壇。 儲存後，使用提供的切換開關啟用新的標題項。",
+                "header_label": "自定義頭部元素"
             }
         }
     }

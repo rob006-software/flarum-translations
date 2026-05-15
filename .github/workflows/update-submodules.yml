@@ -1,0 +1,60 @@
+name: Update submodules for GitHub Pages
+
+on:
+  push:
+    branches:
+      - master
+      - flarum2
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  update-submodules:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout gh-pages (with submodules)
+        uses: actions/checkout@v6
+        with:
+          ref: gh-pages
+          fetch-depth: 1
+          submodules: recursive
+
+      - name: Init submodules (fast shallow)
+        run: |
+          git submodule sync --recursive
+          git submodule update --init --recursive --depth 1 --jobs 4
+
+      - name: Ensure all remote branches are available
+        run: |
+          git submodule foreach '
+            git remote set-branches origin "*"
+            git fetch --depth 1 origin
+          '
+
+      - name: Update submodules to latest remote
+        run: |
+          git submodule update --remote --recursive --depth 1 --jobs 4
+
+      - name: Configure git
+        run: |
+          git config user.name "Rob Bot"
+          git config user.email "robbot@rob006.net"
+
+      - name: Commit changes if any
+        run: |
+          git add .
+
+          if git diff --cached --quiet; then
+            echo "No changes in submodules"
+            exit 0
+          fi
+
+          git commit -m "Update submodules"
+          git push

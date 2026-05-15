@@ -20,8 +20,8 @@
                 "amount": "Punkte"
             },
             "notification": {
-                "upvote": "{username} hat deinen Beitrag Upgevoted",
-                "downvote": "{username} hat deinen Beitrag Downgevoted",
+                "upvote": "{username} hat deinen Beitrag upgevoted",
+                "downvote": "{username} hat deinen Beitrag downgevoted",
                 "prefrences": {
                     "vote": "Wenn einer meiner Beiträge mit Up/Down bewertet wird"
                 }
@@ -35,14 +35,14 @@
             },
             "modal": {
                 "downvotes_label": "Downvoter:",
-                "title": "Wählende",
+                "title": "Abstimmende",
                 "upvotes_label": "Upvoter:"
             },
             "mod_item": "Wähler anzeigen",
             "voters": {
-                "none": "Noch keine Wähler",
-                "label": "Wählende",
-                "label_none": "Keine Wählenden"
+                "none": "Noch keine Abstimmenden",
+                "label": "Abstimmende",
+                "label_none": "Keine Abstimmenden"
             },
             "post": {
                 "upvote_button": "Beitrag positiv bewerten",
@@ -96,7 +96,7 @@
                 "save_settings": "Einstellungen speichern",
                 "convert": {
                     "button": "Gefällt-mirs in Upvotes konvertieren",
-                    "help": "",
+                    "help": "Wandeln Sie Ihre bisherigen Likes aus flarum/likes in Upvotes um und berechnen Sie die Beliebtheit aller aktuellen Diskussionen.",
                     "converting": "Deine Gefällt-mirs werden nun konvertiert. Aktualisiere die Seite nach ein paar Minuten, um zu sehen, ob der Prozess abgeschlossen ist. (Die Konvertierung kann eine Weile dauern, je nachdem wie viele Gefällt-mirs existieren)",
                     "converted": "Erfolgreich alle {number} Gefällt-mirs konvertiert"
                 },

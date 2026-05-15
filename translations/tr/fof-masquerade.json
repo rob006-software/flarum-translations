@@ -1,0 +1,86 @@
+{
+    "fof-masquerade": {
+        "forum": {
+            "alerts": {
+                "profile-completion-required": "Lütfen aşağıdaki gerekli alanları doldurun.\n",
+                "profile-completed": "Profil tamamlandı! <a>Ana sayfaya gidin</a>"
+            },
+            "buttons": {
+                "view-profile": "Profili görüntüle",
+                "edit-profile": "Profili düzenle",
+                "save-profile": "Kaydet"
+            },
+            "fields": {
+                "select": {
+                    "none-optional": "Hiçbir seçenek seçilmedi (İsteğe bağlı)",
+                    "none-required": "Lütfen bir seçenek seçin (Zorunlu)"
+                },
+                "boolean": {
+                    "yes": "Evet",
+                    "no": "Hayır"
+                }
+            }
+        },
+        "admin": {
+            "buttons": {
+                "add-field": "Alan oluştur",
+                "edit-field": "Değişiklikleri kaydet",
+                "delete-field": "Alanı sil"
+            },
+            "permissions": {
+                "edit-others-profile": "Diğer kullanıcıların profilini düzenle",
+                "have-profile": "Masquerade profili var",
+                "view-profile": "Masquerade profilini görüntüle"
+            },
+            "fields": {
+                "title": "Alanlar",
+                "create": "",
+                "edit": "Alan düzenle {field}",
+                "delete-confirmation": "",
+                "name": "Alan adı",
+                "name-help": "Herkes tarafından görülebilen (çevrilmeyen) alan.\n",
+                "description": "Alan açıklaması",
+                "description-help": "Bu alanın kullanımı için isteğe bağlı açıklama.\n",
+                "required": "Alanı zorunlu tut",
+                "on_bio": "Kullanıcı biyografisinde bu alana cevabı göster",
+                "type": "Tip",
+                "validation": "Doğrulama",
+                "validation-help": "Desteklenen <a>Laravel doğrulama kurallarını</a> kontrol edin. Çrn: \"string|min:5\" ya da \"url\".\n",
+                "icon": "Simge",
+                "icon-help": "Kullanıcının girdiği değerlerin önünde simge gösterir. Mevcut simgeler için <a>FontAwesome</a> websitesini ziyaret edin. Simgeleri \"fa-\" ön eki ile kullanın Örn: \"fas fa-info\".\n",
+                "force-user-to-completion": "Kullanıcıyı profilini tamamlamaya zorla",
+                "hide-empty-fields": "",
+                "options": "Seçenekler",
+                "option-new": "Yeni seçenek",
+                "option-comma-warning": "Bir seçeneğin etiketi herhangi bir virgül (\",\") içeremez.",
+                "add": "Alan ekle {field}"
+            },
+            "types": {
+                "advanced": "Gelişmiş",
+                "boolean": "Seçim listesi",
+                "email": "E-posta",
+                "select": "Açılır menü",
+                "url": "Bağlantı"
+            },
+            "general-options": "Genel ayarlar"
+        },
+        "lib": {
+            "gambits": {
+                "answer": {
+                    "key": ""
+                }
+            }
+        }
+    },
+    "flarum-gdpr": {
+        "lib": {
+            "data": {
+                "masqueradeanswers": {
+                    "export_description": "Kullanıcının profil alanı cevaplarını dışa aktar",
+                    "delete_description": "Kullanıcının hesabından tüm profil alanı cevaplarını kaldır",
+                    "anonymize_description": "=> flarum-gdpr.lib.data.masqueradeanswers.delete_description"
+                }
+            }
+        }
+    }
+}

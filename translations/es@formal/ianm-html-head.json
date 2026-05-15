@@ -2,21 +2,97 @@
     "ianm-html-head": {
         "admin": {
             "create_button": "Crear",
+            "help": {
+                "intro": "",
+                "preconnect": "",
+                "cache": "",
+                "pages": "",
+                "location": ""
+            },
             "table": {
+                "drag_handle": "",
                 "description_label": "Descripción",
-                "header_label": "Cabecera",
+                "type_label": "",
+                "location_label": "",
+                "pages_label": "",
                 "active_label": "Activo",
                 "empty_text": "No hay registros",
                 "delete_button": "Eliminar",
-                "edit_button": "Editar"
+                "edit_button": "Editar",
+                "delete_confirm": "",
+                "header_label": "Cabecera"
             },
             "modal": {
                 "create_title": "Crear un nuevo elemento",
                 "edit_title": "Editar elemento",
-                "text": "Asegúrese de que la sintaxis es correcta, ya que es posible romper el foro si se suministran datos incorrectos en el elemento de cabecera. Una vez guardado, habilite su nuevo elemento de cabecera utilizando el interruptor proporcionado.",
                 "description_label": "Descripción",
-                "header_label": "Elemento de cabecera personalizado",
-                "save_button": "Guardar"
+                "description_help": "",
+                "type_label": "",
+                "location_label": "",
+                "location_help": "",
+                "pages_label": "",
+                "save_button": "Guardar",
+                "type": {
+                    "meta": "",
+                    "link": "",
+                    "script": "",
+                    "style": "",
+                    "raw": ""
+                },
+                "location": {
+                    "head": "",
+                    "foot": ""
+                },
+                "pages": {
+                    "forum": "",
+                    "admin": ""
+                },
+                "meta": {
+                    "variant_label": "",
+                    "name_label": "",
+                    "property_label": "",
+                    "content_label": ""
+                },
+                "link": {
+                    "rel_label": "",
+                    "href_label": "",
+                    "as_label": "",
+                    "as_help": "",
+                    "crossorigin_label": "",
+                    "crossorigin_help": "",
+                    "fetchpriority_label": "",
+                    "fetchpriority_default": "",
+                    "fetchpriority_help": "",
+                    "extras_label": "",
+                    "extras_add": "",
+                    "extras_remove": ""
+                },
+                "script": {
+                    "external_label": "",
+                    "inline_label": "",
+                    "src_label": "",
+                    "inline_content_label": "",
+                    "defer_label": "",
+                    "defer_help": "",
+                    "async_label": "",
+                    "async_help": "",
+                    "module_label": "",
+                    "module_help": "",
+                    "crossorigin_label": "",
+                    "crossorigin_help": ""
+                },
+                "style": {
+                    "inline_label": "",
+                    "inline_help": ""
+                },
+                "raw": {
+                    "content_label": "",
+                    "help_text": ""
+                },
+                "preview_label": "",
+                "preview_empty": "",
+                "text": "Asegúrese de que la sintaxis es correcta, ya que es posible romper el foro si se suministran datos incorrectos en el elemento de cabecera. Una vez guardado, habilite su nuevo elemento de cabecera utilizando el interruptor proporcionado.",
+                "header_label": "Elemento de cabecera personalizado"
             }
         }
     }

@@ -1,0 +1,16 @@
+{
+    "fof-clockwork": {
+        "admin": {
+            "dashboard": {
+                "section_label": "Clockwork",
+                "button_label": "Abrir Clockwork"
+            },
+            "settings": {
+                "section_label": "Ajustes",
+                "disable_auth_label": "Deshabilitar la autenticación",
+                "disable_auth_help": "Cuando está habilitada, todas las solicitudes se analizan y se puede acceder al visor de Clockwork sin necesidad de iniciar sesión. Habilítela solo temporalmente para debugging.",
+                "disable_auth_warning": "Advertencia: la autenticación está desactivada. El visor de Clockwork y todos los datos de perfilado son de acceso público. Desactive esta opción cuando haya terminado el debugging."
+            }
+        }
+    }
+}

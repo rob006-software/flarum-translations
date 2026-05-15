@@ -7,7 +7,7 @@
                 "group_sequential_posts": ""
             },
             "permissions": {
-                "move_posts": ""
+                "move_posts": "=> sycho-move-posts.ref.move_posts"
             }
         },
         "forum": {
@@ -15,25 +15,25 @@
                 "first_moved_tooltip": ""
             },
             "discussion": {
-                "move_posts": ""
+                "move_posts": "=> sycho-move-posts.ref.move_posts"
             },
             "error": {
-                "move_old_post_to_newer_discussion": ""
+                "move_old_post_to_newer_discussion": "=> sycho-move-posts.ref.status.old_to_new_move"
             },
             "modal": {
                 "check": "",
                 "destination": "",
                 "discussion_help": "",
-                "discussion_name": "",
+                "discussion_name": "=> core.forum.composer_discussion.title_placeholder",
                 "new_discussion": "",
                 "selected_posts": "",
                 "status": {
                     "complex_move": "",
-                    "old_to_new_move": "",
+                    "old_to_new_move": "=> sycho-move-posts.ref.status.old_to_new_move",
                     "simple_move": ""
                 },
                 "submit": "",
-                "title": ""
+                "title": "=> sycho-move-posts.ref.move_posts"
             },
             "notifications": {
                 "post_moved_text": ""

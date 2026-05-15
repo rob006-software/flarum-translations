@@ -1,42 +1,42 @@
 {
     "acpl-mobile-tab": {
         "admin": {
-            "available_items": "",
-            "active_items": "",
-            "create_new_item_button": "",
+            "available_items": "可用项目",
+            "active_items": "已启用项目",
+            "create_new_item_button": "创建新项目",
             "edit_item": {
-                "modal_title": "",
-                "label": "",
-                "label_placeholder": "",
-                "path": "",
-                "url": "",
-                "icon": "",
-                "icon_help": "",
-                "is_internal_checkbox": "",
-                "open_new_tab_checkbox": "",
-                "submit_button": "",
-                "delete_button": "",
-                "delete_item_confirmation": ""
+                "modal_title": "编辑项目",
+                "label": "标签",
+                "label_placeholder": "我的自定义项目",
+                "path": "路径",
+                "url": "URL",
+                "icon": "图标",
+                "icon_help": "输入任何 <a>FontAwesome</a> 图标类的名称，包括 <code>fas fa-</code> 前缀。",
+                "is_internal_checkbox": "是否为内部链接？",
+                "open_new_tab_checkbox": "在新标签页中打开链接",
+                "submit_button": "保存",
+                "delete_button": "删除",
+                "delete_item_confirmation": "您确定要删除此项目吗？"
             },
             "scroll_settings": {
-                "toggle_label": "",
-                "threshold_label": "",
-                "threshold_help": ""
+                "toggle_label": "滚动时切换显示状态",
+                "threshold_label": "滚动阈值 (px)",
+                "threshold_help": "从当前位置滚动以切换显示状态的距离。"
             }
         },
         "lib": {
             "item": {
-                "home": "",
-                "all_discussions": "",
-                "categories": "",
-                "notifications": "",
-                "session": "",
-                "search": "",
-                "log_in": "",
-                "profile": "",
-                "tags": "",
-                "messages": "",
-                "fof-byobu": ""
+                "home": "首页",
+                "all_discussions": "讨论",
+                "categories": "分类",
+                "notifications": "通知",
+                "session": "会话",
+                "search": "搜索",
+                "log_in": "登录",
+                "profile": "个人资料",
+                "tags": "标签",
+                "messages": "消息",
+                "fof-byobu": "私密"
             }
         }
     }

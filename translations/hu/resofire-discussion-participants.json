@@ -1,0 +1,23 @@
+{
+    "resofire-discussion-participants": {
+        "forum": {
+            "show_all_participants": "Összes résztvevő megjelenítése",
+            "more_participants": "{count}+",
+            "modal_title": "{count} résztvevő",
+            "load_more": "Továbbiak betöltése"
+        },
+        "admin": {
+            "tools_heading": "Eszközök",
+            "recalculate_help": "Újraszámítja a résztvevők profilképeit az összes témánál. Azután futtassa, ha a bővítményt egy meglévő fórumra telepítette, vagy akkor, ha azt gondolja, hogy az előnézeti adatok nincsenek szinkronban.",
+            "recalculate_button": "Résztvevők újraszámítása",
+            "recalculating_button": "Újraszámítás…",
+            "recalculate_success": "Kész. {count} téma {duration} másodperc alatt újraszámítva.",
+            "recalculate_error": "Hiba történt. Próbálja újra, vagy használja a CLI parancsot.",
+            "recalculate_modal_title": "Résztvevők újraszámítása",
+            "recalculate_modal_warning": "Amíg a folyamat be nem fejeződik, ne zárja be ezt az ablakot vagy navigáljon el.",
+            "recalculate_modal_progress": "{processed} / {total} téma",
+            "recalculate_modal_complete": "Kész! {total} téma újraszámítva.",
+            "recalculate_modal_close": "Bezárás"
+        }
+    }
+}

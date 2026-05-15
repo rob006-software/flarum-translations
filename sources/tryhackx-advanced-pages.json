@@ -1,0 +1,81 @@
+{
+    "tryhackx-advanced-pages": {
+        "admin": {
+            "permissions": {
+                "manage_pages_label": "Manage Advanced Pages",
+                "view_spoilers_label": "View spoiler content"
+            },
+            "pages": {
+                "create_button": "Create Page",
+                "title_column": "Title",
+                "slug_column": "URL",
+                "type_column": "Type",
+                "status_column": "Status",
+                "groups_column": "Groups",
+                "actions_column": "Actions",
+                "everyone": "Everyone",
+                "edit_button": "Edit",
+                "published": "Published",
+                "draft": "Draft",
+                "hidden": "Hidden",
+                "restricted": "Login Required",
+                "empty": "No pages have been created yet."
+            },
+            "settings": {
+                "title": "BBCode Settings",
+                "bbcode_help": "Enable or disable custom BBCode tags for page rendering. Changes require clearing the formatter cache (php flarum cache:clear).",
+                "bbcode_table": "[table] [tr] [th] [td] — Tables",
+                "bbcode_spoiler": "[spoiler] — Spoiler/Details",
+                "bbcode_center": "[center] — Center text",
+                "bbcode_url": "[url] — Extended URL parser (accepts URLs rejected by Flarum)",
+                "forum_title": "Forum Integration",
+                "forum_help": "Override how spoilers are displayed in regular forum posts. Requires clearing the formatter cache (php flarum cache:clear).",
+                "replace_forum_spoiler": "Replace Flarum's default spoiler with Advanced Pages spoiler style (details/summary)"
+            },
+            "edit_page": {
+                "create_title": "Create Page",
+                "edit_title": "Edit Page",
+                "title_label": "Title",
+                "slug_label": "URL Slug",
+                "content_type_label": "Content Type",
+                "type_text": "Plain Text",
+                "content_label": "Content",
+                "is_published_label": "Published",
+                "is_hidden_label": "Hidden (visible only to admins)",
+                "is_restricted_label": "Restricted (requires login)",
+                "visible_groups_label": "Visible to Groups",
+                "visible_groups_help": "Leave all checked to make the page visible to everyone. Uncheck groups to restrict access. Admins always have access.",
+                "raw": "Raw",
+                "preview": "Preview",
+                "meta_description_label": "Meta Description (SEO)",
+                "submit_button": "Save Page",
+                "delete_button": "Delete",
+                "delete_title": "Delete Page",
+                "delete_confirmation": "Are you sure you want to delete this page? This action cannot be undone.",
+                "cancel_button": "Cancel",
+                "unsaved_title": "Unsaved Changes",
+                "unsaved_message": "You have unsaved changes. Are you sure you want to close without saving?",
+                "discard_button": "Discard",
+                "keep_editing_button": "Keep Editing",
+                "newline_mode_label": "Newline Mode",
+                "newline_flarum": "Flarum (vanilla — multiple newlines = single break)",
+                "newline_preserve": "Preserve (respect all newlines)",
+                "php_warning": "PHP pages execute server-side code. Only create PHP pages if you understand the security implications. Errors are logged but never displayed to visitors."
+            },
+            "support": {
+                "button": "Support Development",
+                "title": "Support This Extension",
+                "description": "If you find this extension useful, please consider supporting its development with a small donation. Every contribution helps keep the project alive and maintained.",
+                "copy": "Copy address",
+                "thanks": "Thank you for your support!"
+            }
+        },
+        "forum": {
+            "page": {
+                "loading": "Loading...",
+                "not_found_title": "Page Not Found",
+                "not_found_message": "The page you are looking for does not exist or you do not have permission to view it."
+            }
+        }
+    }
+}

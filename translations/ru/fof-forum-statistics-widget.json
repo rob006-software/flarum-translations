@@ -1,0 +1,30 @@
+{
+    "fof-forum-statistics-widget": {
+        "forum": {
+            "navbar": {
+                "widget_title": "Статистика",
+                "discussions_count": "Дискуссий: {discussionsCount}",
+                "posts_count": "Сообщений: {postsCount}",
+                "users_count": "Пользователей: {usersCount}",
+                "latest_member": "Новый пользователь: "
+            }
+        },
+        "admin": {
+            "settings": {
+                "cache_duration_label": "Срок хранения кэша",
+                "cache_duration_help": "Укажите, как долго должна храниться статистика виджета (в секундах). Значение <code>0</code> отключает кэширование (не рекомендуется).",
+                "flush_cache_on_new_registration_label": "Очищать кэш статистики при новой регистрации",
+                "flush_cache_on_new_registration_help": "Кэш статистика будет очищаться при регистрации нового пользователя на форуме.",
+                "widget_ignore_private_discussions_label": "Игнорировать переписки",
+                "classic_look_label": "Классический вид",
+                "classic_look_help": "Вернуть оригинальный внешний вид виджетов, который был до интеграции fof/forum-widgets-core."
+            },
+            "permissions": {
+                "view_discussions_count_label": "(Виджет статистики) Смотреть счётчик обсуждений",
+                "view_posts_count_label": "(Виджет статистики) Смотреть счётчик сообщений",
+                "view_users_count_label": "(Виджет статистики) Смотреть счётчик пользователей",
+                "view_lastest_member_label": "(Виджет статистики) Смотреть нового зарегистрированного пользователя"
+            }
+        }
+    }
+}

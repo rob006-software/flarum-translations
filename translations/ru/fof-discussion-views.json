@@ -2,8 +2,8 @@
     "core": {
         "forum": {
             "index_sort": {
-                "most_viewed_button": "",
-                "least_viewed_button": ""
+                "most_viewed_button": "Самые просматриваемые",
+                "least_viewed_button": "Наименее просматриваемые"
             }
         }
     },
@@ -13,7 +13,7 @@
                 "title": "Сбросить счетчик просмотров дискуссии",
                 "submit": "Отправить",
                 "label": "Установить на счетчик просмотров",
-                "invalid": ""
+                "invalid": "Введите допустимое число ≥ 0"
             },
             "discussion_controls": {
                 "resetviews_button": "Установить счетчик просмотров"
@@ -30,7 +30,7 @@
         "lib": {
             "gambits": {
                 "popular": {
-                    "key": ""
+                    "key": "популярная"
                 }
             }
         }

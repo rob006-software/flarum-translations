@@ -1,0 +1,22 @@
+{
+    "ralkage-cap-captcha": {
+        "admin": {
+            "settings": {
+                "api_endpoint_label": "Cap API Endpoint",
+                "api_endpoint_help": "Your Cap Standalone instance URL with site key, e.g. https://cap.example.com/your-site-key/",
+                "secret_key_label": "Cap Secret Key",
+                "secret_key_help": "Your site key's secret from the Cap dashboard.",
+                "protect_registration_label": "Require CAPTCHA on registration",
+                "protect_registration_help": "Show Cap widget on the sign-up form.",
+                "protect_login_label": "Require CAPTCHA on login",
+                "protect_login_help": "Show Cap widget on the login form."
+            }
+        },
+        "forum": {
+            "captcha_required": "Please verify you're human by completing the CAPTCHA challenge."
+        },
+        "api": {
+            "invalid_captcha": "CAPTCHA verification failed. Please complete the challenge and try again."
+        }
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "ralkage-word-censor": {
+        "admin": {
+            "settings": {
+                "word_list_label": "Kata-kata yang Disensor",
+                "word_list_help": "Masukkan satu kata atau frasa per baris. Kata-kata ini akan diganti dengan karakter pengganti saat ditampilkan kepada pengguna.",
+                "replacement_label": "Karakter Pengganti",
+                "replacement_help": "Karakter yang digunakan untuk menggantikan setiap huruf dari kata yang disensor. Default: *"
+            }
+        },
+        "forum": {
+            "settings": {
+                "word_censor_label": "Aktifkan Penyensoran Kata",
+                "word_censor_help": "Jika diaktifkan, kata-kata yang dikonfigurasi akan disensor dalam postingan. Nonaktifkan untuk melihat konten yang tidak disensor."
+            }
+        }
+    }
+}

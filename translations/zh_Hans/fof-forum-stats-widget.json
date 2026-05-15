@@ -1,0 +1,22 @@
+{
+    "fof-forum-stats-widget": {
+        "admin": {
+            "settings": {
+                "decimal_places": {
+                    "label": "小数位数",
+                    "help": "对于大数字（0-2）显示的小数点位数。"
+                }
+            }
+        },
+        "forum": {
+            "widget": {
+                "stats": {
+                    "comment_post_count": "帖子",
+                    "discussion_count": "讨论",
+                    "user_count": "用户"
+                },
+                "title": "论坛统计"
+            }
+        }
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "fof-forum-statistics-widget": {
+        "forum": {
+            "navbar": {
+                "widget_title": "Foorumin tilastot",
+                "discussions_count": "Keskustelut: {discussionsCount}",
+                "posts_count": "Viestit: {postsCount}",
+                "users_count": "Jäsenet: {usersCount}",
+                "latest_member": "Uusin jäsen: "
+            }
+        },
+        "admin": {
+            "settings": {
+                "cache_duration_label": "Välimuistin kesto",
+                "cache_duration_help": "Määritä kuinka kauan vimpaimen tilastoja pidetään välimuistissa (sekunneissa). <code>0</code> ottaa välimuistin pois käytöstä (ei suositella).",
+                "flush_cache_on_new_registration_label": "Nollaa tilastojen välimuisti uuden käyttäjän rekisteröityessä",
+                "flush_cache_on_new_registration_help": "Jos käytössä niin tilastojen välimuisti nollataan, kun uusi käyttäjä rekisteröityy foorumille.",
+                "widget_ignore_private_discussions_label": "Älä huomioi yksityisiä keskusteluita",
+                "classic_look_label": "Klassinen ulkonäkö",
+                "classic_look_help": "Palauttaa alkuperäisin vimpaimen ulkoasun ennen, kuin fof/forum-widgets-core integroitiin coreen."
+            },
+            "permissions": {
+                "view_discussions_count_label": "Nähdä foorumin tilasto vimpaimen keskustelumäärän",
+                "view_posts_count_label": "Nähdä foorumin tilasto vimpaimen viestimäärän",
+                "view_users_count_label": "Nähdä foorumin tilasto vimpaimen käyttäjämäärän",
+                "view_lastest_member_label": "Nähdä foorumin tilasto vimpaimen uusimman jäsenen"
+            }
+        }
+    }
+}

@@ -1,0 +1,86 @@
+{
+    "fof-masquerade": {
+        "forum": {
+            "alerts": {
+                "profile-completion-required": "Bitte fülle die notwendigen Profilfelder unten aus.\n",
+                "profile-completed": "Profil vervollständigt! <a>Weiter zur Startseite</a>"
+            },
+            "buttons": {
+                "view-profile": "Profil ansehen",
+                "edit-profile": "Profil bearbeiten",
+                "save-profile": "Speichern"
+            },
+            "fields": {
+                "select": {
+                    "none-optional": "Keine Option ausgewählt (optional)",
+                    "none-required": "Bitte wähle eine Option (erforderlich)"
+                },
+                "boolean": {
+                    "yes": "Ja",
+                    "no": "Nein"
+                }
+            }
+        },
+        "admin": {
+            "buttons": {
+                "add-field": "Feld anlegen",
+                "edit-field": "Änderungen speichern",
+                "delete-field": "Feld löschen"
+            },
+            "permissions": {
+                "edit-others-profile": "Profil anderer Benutzer bearbeiten",
+                "have-profile": "Masquerade-Profil anlegen",
+                "view-profile": "Masquerade-Profile ansehen"
+            },
+            "fields": {
+                "title": "Felder",
+                "create": "Feld erstellen",
+                "edit": "Feld „{field}“ bearbeiten",
+                "delete-confirmation": "Möchtest du das Feld {field} wirklich löschen? Dieser Vorgang kann nicht rückgängig gemacht werden.",
+                "name": "Name des Feldes",
+                "name-help": "Die öffentlich sichtbare (nicht übersetzbare) Feldbezeichnung.\n",
+                "description": "Feld-Beschreibung",
+                "description-help": "Eine optionale Beschreibung, um die Verwendung/Notwendigkeit dieses Feldes zu erklären.\n",
+                "required": "Als Pflichtfeld festlegen",
+                "on_bio": "Inhalt dieses Feldes in der Nutzerbio anzeigen",
+                "type": "Typ",
+                "validation": "Validierung",
+                "validation-help": "Überprüfe die unterstützten <a>Laravel-Validierungsregeln</a>. Z. B.: \"string|min:5\" oder \"url\".\n",
+                "icon": "Symbol",
+                "icon-help": "Zeigt ein Symbol vor den von den Nutzern eingegebenen Werten an. Eine Liste aller verfügbaren Symbole ist auf der <a>FontAwesome Webseite</a> zu finden. Verwende Symbolnamen mit dem „fa-“ Prefix, zum Beispiel „fas fa-info“.\n",
+                "force-user-to-completion": "Ausfüllen des Profils verpflichtend machen",
+                "hide-empty-fields": "Leere Felder verbergen",
+                "options": "Optionen",
+                "option-new": "Neue Option",
+                "option-comma-warning": "Die Bezeichnung einer Option darf kein Komma enthalten (\",\").",
+                "add": "Feld {field} hinzufügen"
+            },
+            "types": {
+                "advanced": "Erweitert",
+                "boolean": "Kontrollkästchen",
+                "email": "E-Mail",
+                "select": "Auswahlliste",
+                "url": "URL"
+            },
+            "general-options": "Allgemeine Optionen"
+        },
+        "lib": {
+            "gambits": {
+                "answer": {
+                    "key": "antwort"
+                }
+            }
+        }
+    },
+    "flarum-gdpr": {
+        "lib": {
+            "data": {
+                "masqueradeanswers": {
+                    "export_description": "Exportiert die Antworten auf Felder im Nutzerprofil",
+                    "delete_description": "Entfernt alle Antworten auf Felder im Nutzerprofil",
+                    "anonymize_description": "=> flarum-gdpr.lib.data.masqueradeanswers.delete_description"
+                }
+            }
+        }
+    }
+}

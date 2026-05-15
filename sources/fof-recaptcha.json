@@ -1,0 +1,44 @@
+{
+    "fof-recaptcha": {
+        "admin": {
+            "settings": {
+                "help_text": "Obtain your Google reCAPTCHA credentials <a>here</a>.",
+                "secret_key_label": "Secret Key",
+                "site_key_label": "Site Key",
+                "type_label": "reCAPTCHA Type",
+                "type_help": "The selected type must match the type of your reCAPTCHA credentials. Checkbox and Invisible are both reCAPTCHA v2; v3 is score-based and runs silently.",
+                "type_options": {
+                    "checkbox": "v2 Checkbox",
+                    "invisible": "v2 Invisible",
+                    "v3": "v3 (score-based)"
+                },
+                "v3_threshold_label": "reCAPTCHA v3 score threshold",
+                "v3_threshold_help": "Submissions scoring below this value (0.0 = likely bot, 1.0 = likely human) will be rejected. Google suggests 0.5 as a starting point. Only used when the type is set to v3.",
+                "signup": "=> core.forum.sign_up.title",
+                "signin": "=> core.forum.log_in.title",
+                "forgot": "=> core.forum.forgot_password.title"
+            },
+            "test": {
+                "title": "Test reCAPTCHA",
+                "help_text": "This test will use the current values entered above. Make sure to reload the test after modifying settings, and don't forget to save once the test passes!\nBelow may not reflect the saved settings.\n",
+                "success_message": "Success! reCAPTCHA is configured correctly.",
+                "load_test_button": "Load",
+                "submit_button": "Submit",
+                "reload_button": "Reload"
+            },
+            "permissions": {
+                "post_without_captcha": "Create posts and discussions without captcha"
+            }
+        },
+        "lib": {
+            "error": "There was an error submitting reCAPTCHA. Try again.",
+            "not_completed": "Please complete the reCAPTCHA check before continuing.",
+            "rejected": "The reCAPTCHA check failed. Please try again.",
+            "unknown_error": "An unknown error occurred. Please try again."
+        }
+    },
+    "validation": {
+        "recaptcha": "reCAPTCHA validation failed.",
+        "recaptcha-unknown": "An unknown error occurred while validating reCAPTCHA ({errors})."
+    }
+}

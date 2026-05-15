@@ -2,54 +2,54 @@
     "fof-categories": {
         "admin": {
             "basics": {
-                "categories_label": ""
+                "categories_label": "Categorías"
             },
             "labels": {
-                "keep_tags_nav": "",
-                "child_bare_icon": "",
-                "compact_mobile_mode": "",
-                "full_page_desktop": "",
-                "parent_remove_icon": "",
-                "parent_remove_description": "",
-                "parent_remove_stats": "",
-                "parent_remove_last_discussion": "",
-                "small_forum_optimized": ""
+                "keep_tags_nav": "¿Mantener el enlace a la página de etiquetas en la barra lateral de navegación?",
+                "child_bare_icon": "¿Sólo íconos hijos?",
+                "compact_mobile_mode": "Modo móvil compacto",
+                "full_page_desktop": "¿Pantalla completa en PC?",
+                "parent_remove_icon": "¿Ocultar iconos para las etiquetas de nivel superior?",
+                "parent_remove_description": "¿Ocultar las descripciones de las etiquetas de nivel superior?",
+                "parent_remove_stats": "¿Ocultar las estadísticas de las etiquetas de nivel superior?",
+                "parent_remove_last_discussion": "¿Ocultar las discusiones más recientes para las etiquetas de nivel superior?",
+                "small_forum_optimized": "¿Optimizar para foros pequeños?"
             },
             "help": {
-                "child_bare_icon": "",
-                "full_page_desktop": "",
-                "small_forum_optimized": ""
+                "child_bare_icon": "¿Deben mostrarse los iconos de las subcategorías sin fondo circular?",
+                "full_page_desktop": "¿Debería minimizarse el menú de navegación lateral a una sola fila (como en la página de etiquetas tradicional)? Esto también ocultará los widgets (como las estadísticas del foro Friends of Flarum) de la barra de navegación de la página de categorías.",
+                "small_forum_optimized": "Esto proporcionará recuentos de discusiones/publicaciones más precisos, pero ralentizará drásticamente los foros medianos y grandes."
             },
             "headings": {
-                "nav": "",
-                "layout": "",
-                "parent_display": "",
-                "child_display": "",
-                "performance": ""
+                "nav": "Navegación",
+                "layout": "Disposición",
+                "parent_display": "Mostrar Categoría Padre",
+                "child_display": "Mostrar Subcategoría",
+                "performance": "Performance"
             },
-            "title": ""
+            "title": "Ajustes de Categorías"
         },
         "forum": {
             "all_categories": {
-                "meta_description_text": "",
-                "meta_title_text": ""
+                "meta_description_text": "Todas las Categorías",
+                "meta_title_text": "=> fof-categories.ref.categories"
             },
             "header": {
-                "back_to_categories_tooltip": ""
+                "back_to_categories_tooltip": "Volver a Categorías"
             },
             "index": {
-                "categories_link": ""
+                "categories_link": "=> fof-categories.ref.categories"
             },
             "stat-widgets": {
-                "discussion_label": "",
-                "post_label": ""
+                "discussion_label": "Discusiones",
+                "post_label": "Publicaciones"
             },
             "last_discussion_widget": {
-                "no_discussions": ""
+                "no_discussions": "Sin discusiones (¡todavía!)"
             }
         },
         "ref": {
-            "categories": ""
+            "categories": "Categorías"
         }
     }
 }

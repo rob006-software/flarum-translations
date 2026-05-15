@@ -4,7 +4,7 @@
             "title": "Auszeichnungs-Verwaltung",
             "nav": {
                 "title": "Auszeichnungen",
-                "description": ""
+                "description": "Community-Auszeichnungen und Abstimmung verwalten"
             },
             "tabs": {
                 "awards": "Auszeichnungen",
@@ -60,18 +60,18 @@
                 "description_help": "Kurzbeschreibung unter dem Namen (optional)",
                 "image": "Bild",
                 "image_url": "Bild-URL",
-                "image_url_help": "",
-                "adjust_votes": "",
-                "vote_adjustment_title": "",
-                "real_votes": "",
-                "adjustment": "",
-                "adjustment_help": "",
+                "image_url_help": "URL zum Bild des Vorschlags (z. B. Spielcover, Porträtfoto)",
+                "adjust_votes": "Stimmen anpassen",
+                "vote_adjustment_title": "Stimmenanpassung",
+                "real_votes": "Echte Stimmen",
+                "adjustment": "Anpassung",
+                "adjustment_help": "Gib eine positive oder negative Zahl ein, um die angezeigte Stimmenzahl anzupassen.",
                 "displayed_votes": "Angezeigte Stimmen",
                 "reset": "Zurücksetzen",
                 "reset_adjustment": "Anpassung auf 0 zurücksetzen",
                 "delete_confirm": "Möchtest du diesen Kandidaten wirklich löschen?",
                 "empty": "Keine Kandidaten gefunden.",
-                "load_more": ""
+                "load_more": "Mehr laden"
             },
             "suggestions": {
                 "title": "Ausstehende Vorschläge",
@@ -85,9 +85,9 @@
                 "merge": "Zusammenführen",
                 "approve_confirm": "Als neuen Kandidaten vorschlagen? Der Benutzer wird automatisch dafür stimmen.",
                 "reject_confirm": "Diesen Vorschlag ablehnen?",
-                "merge_title": "",
-                "merge_info": "",
-                "select_nominee_label": "Nominierten auswählen",
+                "merge_title": "Vorschlag zusammenführen",
+                "merge_info": "„{name}“ mit einem bestehenden Kandidaten zusammenführen. Die Stimme des Benutzers werden zu diesem Kandidaten hinzugefügt.",
+                "select_nominee_label": "Kandidaten auswählen",
                 "select_nominee_placeholder": "-- Wähle einen Kandidaten aus --",
                 "no_nominees": "In dieser Kategorie sind keine Kandidaten vorhanden, die zusammengeführt werden könnten."
             },
@@ -101,15 +101,15 @@
                 "votes_per_category_help": "0 für unbegrenzte Stimmen, 1 für eine Stimme (ersetzen), >1 für mehrere Stimmen."
             },
             "permissions": {
-                "view": "",
-                "vote": "",
-                "view_results": "",
-                "manage": ""
+                "view": "Auszeichnungen ansehen",
+                "vote": "Für die Auszeichnungen abstimmen",
+                "view_results": "Ergebnisse vorzeitig ansehen",
+                "manage": "Auszeichnungen verwalten"
             }
         },
         "forum": {
             "nav": {
-                "title": "",
+                "title": "Auszeichnungen",
                 "categories": "Kategorien",
                 "all_categories": "Alle Kategorien"
             },
@@ -123,8 +123,8 @@
                 "voting_ended": "Abstimmung endete um {time}",
                 "voting_starts": "Abstimmung beginnt um {time}",
                 "results_published": "Ergebnisse veröffentlicht",
-                "select_award": "",
-                "previous_awards": ""
+                "select_award": "Auszeichnung auswählen",
+                "previous_awards": "Auszeichnungen des Vorjahres"
             },
             "voting": {
                 "select": "Auswählen",
@@ -159,14 +159,14 @@
                 "next": "Weiter"
             },
             "hero": {
-                "countdown": "",
-                "voting_ended": "",
-                "results_published": "",
-                "draft_preview": "",
-                "results_preview": ""
+                "countdown": "Abstimmung endet in: {days}d {hours}h {minutes}m {seconds}s",
+                "voting_ended": "Abstimmung ist beendet",
+                "results_published": "Ergebnisse veröffentlicht",
+                "draft_preview": "Vorschau auf den Entwurf",
+                "results_preview": "Vorschau der Ergebnisse"
             },
             "preview": {
-                "admin_only": ""
+                "admin_only": "Vorschau-Modus – Nur für autorisierte Benutzer sichtbar"
             },
             "results": {
                 "winner": "Gewinner",
@@ -177,8 +177,8 @@
                 "full_results": "Alle Ergebnisse"
             },
             "prediction": {
-                "title": "",
-                "score": "",
+                "title": "Dein Vorhersage-Ergebnis",
+                "score": "{correct}/{total} richtige Vorhersagen!",
                 "correct": "Korrekt:",
                 "wrong": "Falsch:"
             },
@@ -189,44 +189,44 @@
             },
             "other": {
                 "suggest": "Andere vorschlagen",
-                "click_to_suggest": "",
-                "placeholder": "",
+                "click_to_suggest": "Klicken, um einen Kandidaten vorzuschlagen",
+                "placeholder": "Namen des Nominierten eingeben...",
                 "submit": "Kandidaten vorschlagen",
-                "success": "",
-                "already_submitted": "",
-                "pending_count": "",
-                "remaining": "",
-                "no_remaining": "",
-                "my_suggestions": "",
-                "no_suggestions": "",
+                "success": "Vorschlag eingereicht! Er wird von den Moderatoren geprüft.",
+                "already_submitted": "Du hast bereits einen Vorschlag für diese Kategorie eingereicht.",
+                "pending_count": "{count} ausstehende Vorschläge",
+                "remaining": "{count} verbleibende Vorschläge",
+                "no_remaining": "Es sind keine Plätze für Vorschläge mehr verfügbar",
+                "my_suggestions": "Meine Vorschläge",
+                "no_suggestions": "Du hast noch keine Vorschläge eingereicht.",
                 "cancel": "Abbrechen",
                 "status_pending": "Ausstehend",
                 "status_approved": "Angenommen",
                 "status_rejected": "Abgelehnt",
                 "status_merged": "Zusammengeführt",
-                "cancel_confirm": ""
+                "cancel_confirm": "Diesen Vorschlag verwerfen?"
             },
             "empty": {
-                "no_awards": "",
-                "no_awards_description": "",
-                "no_categories": "",
-                "no_nominees": ""
+                "no_awards": "Keine aktiven Auszeichnungen",
+                "no_awards_description": "Derzeit sind keine Auszeichnungen verfügbar. Schaue später noch einmal vorbei!",
+                "no_categories": "In dieser Auszeichnung gibt es noch keine Kategorien.",
+                "no_nominees": "In dieser Kategorie gibt es noch keine Kandidaten."
             },
             "notification": {
-                "results_published": ""
+                "results_published": "Die Ergebnisse für {awardName} wurden veröffentlicht!"
             },
             "error": {
                 "voting_closed": "Abstimmung ist beendet.",
-                "rate_limit": "",
-                "other_not_allowed": "",
-                "vote_limit_reached": "",
-                "vote_quota_exhausted": "",
-                "cannot_delete_processed_suggestion": "",
-                "not_available": ""
+                "rate_limit": "Zu viele Stimmen. Bitte einen Moment warten.",
+                "other_not_allowed": "In dieser Kategorie werden keine Vorschläge angenommen.",
+                "vote_limit_reached": "In dieser Kategorie kannst du nur für {limit} Nominierte stimmen.",
+                "vote_quota_exhausted": "Du hast alle deine verfügbaren Stimmen/Vorschläge für diese Kategorie bereits abgegeben.",
+                "cannot_delete_processed_suggestion": "Es können nur ausstehende Vorschläge storniert werden.",
+                "not_available": "Diese Auszeichnung ist noch nicht verfügbar."
             }
         },
         "lib": {
-            "success_message": "",
+            "success_message": "Änderungen erfolgreich gespeichert!",
             "actions": "Aktionen",
             "votes": "Stimmen",
             "slug": "Slug",
@@ -236,7 +236,7 @@
             "move_down": "Nach unten",
             "upload_image": "Bild hochladen",
             "upload_success": "Bild erfolgreich hochgeladen",
-            "upload_error": "",
+            "upload_error": "Das Hochladen des Bildes ist fehlgeschlagen",
             "save": "Änderungen speichern"
         }
     }

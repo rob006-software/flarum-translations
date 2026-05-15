@@ -2,18 +2,18 @@
     "fof-default-user-preferences": {
         "admin": {
             "settings": {
-                "discloseOnline": "",
-                "discloseOnline-help": "",
-                "indexProfile": "",
-                "indexProfile-help": "",
-                "followAfterReply": "",
-                "followAfterReply-help": "",
-                "postMentioned": "",
-                "postMentioned-help": "",
-                "userMentioned": "",
-                "userMentioned-help": "",
-                "groupMentioned": "",
-                "groupMentioned-help": ""
+                "discloseOnline": "Mostrar el estado Online",
+                "discloseOnline-help": "Cuando está habilitada, los nuevos usuarios permitirán que otros vean cuándo están en línea. Los administradores y otros usuarios con permiso podrán seguir viendo el estado en línea independientemente de esta configuración.",
+                "indexProfile": "Perfil Indexado",
+                "indexProfile-help": "Cuando está habilitada, los nuevos usuarios permitirán que los motores de búsqueda indexen su página de perfil, a menos que lo bloqueen otras configuraciones del sitio o de la extensión.",
+                "followAfterReply": "Seguir después de responder",
+                "followAfterReply-help": "Cuando está activada, los nuevos usuarios seguirán automáticamente las discusiones en las que respondan o comenten.",
+                "postMentioned": "Email al ser etiquetada la publicación",
+                "postMentioned-help": "Cuando esta opción esté activada, los nuevos usuarios aceptarán automáticamente recibir una notificación por email cuando se mencione una de sus publicaciones.",
+                "userMentioned": "Email al ser etiquetado el usuario",
+                "userMentioned-help": "Cuando está habilitada, los nuevos usuarios optarán automáticamente por recibir una notificación por email cuando se les mencione con @ejemplo.",
+                "groupMentioned": "Email al etiquetar un grupo",
+                "groupMentioned-help": "Cuando esta opción esté activada, los nuevos usuarios aceptarán automáticamente recibir una notificación por email cuando se mencione un grupo al que pertenecen."
             }
         }
     }

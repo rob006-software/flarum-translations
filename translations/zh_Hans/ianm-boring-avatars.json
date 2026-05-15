@@ -12,6 +12,8 @@
                 "identifier_id": "用户 ID",
                 "identifier_display_name": "外显昵称",
                 "identifier_email": "电子邮箱",
+                "driver_not_active_warning": "Boring Avatars不是当前激活的头像驱动。",
+                "driver_not_active_warning_link": "前往常规设置去激活。",
                 "theme": "风格",
                 "theme_help": "选择要生成的头像风格。\n"
             }
@@ -21,9 +23,9 @@
         "lib": {
             "data": {
                 "boringavatar": {
-                    "export_description": "",
-                    "anonymize_description": "",
-                    "delete_description": ""
+                    "export_description": "将 Boring Avatar 头像添加至导出的压缩包中。",
+                    "anonymize_description": "删除现有的 Boring Avatar，并重新随机生成一个新的。",
+                    "delete_description": "删除 Boring Avatar。"
                 }
             }
         }

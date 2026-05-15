@@ -1,0 +1,45 @@
+{
+    "irmmr-rtl": {
+        "admin": {
+            "settings": {
+                "lang_base_label": "Language-based RTL",
+                "lang_base_text": "When enabled, RTL is applied only if the active interface language supports RTL. When disabled, forum/admin RTL settings are applied unconditionally.",
+                "rtl_languages_label": "RTL Language Codes",
+                "rtl_languages_placeholder": "fa, ar, he, ur",
+                "rtl_languages_text": "Comma-separated list of language codes that should be treated as right-to-left when Language-based RTL is enabled. Example: fa, ar, he, ur\n",
+                "fm_status_label": "Forum RTL",
+                "fm_status_text": "Enables RTL layout for the forum frontend. If Language-based RTL is enabled, this applies only when the selected language is RTL.",
+                "ad_status_label": "Admin RTL",
+                "ad_status_text": "Enables RTL layout for the admin panel. If Language-based RTL is enabled, this applies only when the selected language is RTL.",
+                "driver_label": "CSS Driver",
+                "driver_options": {
+                    "rtlcss": "RTL CSS Compiler",
+                    "custom": "Custom Assets"
+                },
+                "driver_text": "Select how RTL styles should be handled. \"rtlcss\" will automatically generate an RTL version of your compiled CSS using RTL transformation rules. \"custom\" disables automatic RTL generation so you can manage RTL styles manually via asset rules or a custom build process. After changing this setting, please clear the Flarum cache so assets can be rebuilt.\n",
+                "minify_label": "Minify Compiled CSS",
+                "minify_text": "When enabled, compiled CSS files (including LESS → CSS output and generated RTL CSS) will be minified to reduce file size and improve performance. This process requires at least 512M of PHP memory and runs only once during the build process, not on every request. After changing this setting, please clear the Flarum cache to regenerate the compiled assets.\n",
+                "payloads": {
+                    "placeholder": "Payload key, e.g. fof-nightmode.assets.day",
+                    "section_title": "Payload Overrides",
+                    "empty_text": "No payloads added yet",
+                    "add_button": "Add Payload",
+                    "help_text": "Payloads represent CSS/JS assets injected into the page through Flarum’s frontend payload system. When a payload is added here, the extension checks if it matches a CSS or JS asset and replaces it with its RTL-friendly version based on the selected driver and asset mapping rules.\n"
+                },
+                "mappings": {
+                    "pattern_placeholder": "Pattern, e.g. *.css",
+                    "replace_placeholder": "Replacement, e.g. *.rtl.css",
+                    "type_options": {
+                        "auto": "Auto",
+                        "css": "CSS",
+                        "js": "JS"
+                    },
+                    "section_title": "Asset Mapping Rules",
+                    "empty_text": "No mapping rules defined",
+                    "add_button": "Add Rule",
+                    "help_text": "Define how original CSS or JS files should map to their RTL versions. Patterns can include wildcards such as \"*.css\". Examples:\n    bootstrap*.css  → bootstrap*.rtl.css\n    app.css         → app-rtl.css\nThese mappings are applied when transforming payloads or when generating RTL CSS with the rtlcss driver. Remember to clear the Flarum cache after making changes."
+                }
+            }
+        }
+    }
+}

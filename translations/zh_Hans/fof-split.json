@@ -2,7 +2,7 @@
     "fof-split": {
         "admin": {
             "permissions": {
-                "split_discussion_label": "拆分主题"
+                "split_discussion_label": "拆分讨论"
             }
         },
         "forum": {
@@ -12,12 +12,12 @@
             },
             "split": {
                 "from": "开始拆分主题",
-                "to": "结束拆分主题",
+                "to": "结束拆分",
                 "cancel": "取消拆分"
             },
             "modal": {
-                "title": "拆分主题",
-                "new_discussion_label": "输入新主题标题",
+                "title": "拆分讨论",
+                "new_discussion_label": "输入新讨论标题",
                 "submit_button": "确认"
             }
         }

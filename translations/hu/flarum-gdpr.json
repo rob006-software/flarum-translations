@@ -19,14 +19,23 @@
                     "extension_settings_button": "GDPR beállítások"
                 },
                 "user_table_data": {
-                    "not_yet_implemented": "",
                     "title": "Felhasználói adatok táblája",
-                    "help_text": "A legtöbb esetben a <code>user</code> táblához adott oszlopok automatikusan kezelve lesznek, az adatok exportálása és törlése esetén is.\nViszont vannak speciális esetek, amelyeket alább soroltunk fel.\n"
+                    "help_text": "A legtöbb esetben a <code>user</code> táblához adott oszlopok automatikusan kezelve lesznek, az adatok exportálása és törlése esetén is.\nViszont vannak speciális esetek, amelyeket alább soroltunk fel.\n",
+                    "column": "Oszlop",
+                    "type": "Típus",
+                    "nullable": "Lehet null",
+                    "pii": "PII",
+                    "redacted_on_export": "Exportáláskor visszatartva",
+                    "extension": "Bővítmény",
+                    "yes": "Igen",
+                    "no": "Nem",
+                    "pii_tooltip": "Ez az oszlop személyazonosításra alkalmas információnak (PII) van tekintve, és anonimizált környezetekben vissza lesz tartva (például anonimizált eseménytartalmakban).",
+                    "redacted_on_export_tooltip": "Ennek az oszlopnak az értéke ki lesz ürítve (nullra lesz állítva) a felhasználói adatexport előállítása során. Az oszlop megjelenik az exportban, de null értékkel."
                 }
             },
             "nav": {
                 "gdpr_button": "GDPR integrációk",
-                "gdpr_title": ""
+                "gdpr_title": "=> flarum-gdpr.admin.gdpr_page.description"
             },
             "permissions": {
                 "process_erasure": "Törlési kérések feldolgozása",
@@ -55,8 +64,8 @@
                 "columns": {
                     "user_actions": {
                         "data_export": {
-                            "button": "",
-                            "tooltip": ""
+                            "button": "Exportálás",
+                            "tooltip": "{username} adatainak exportálása"
                         }
                     }
                 }
@@ -74,6 +83,7 @@
                 "forum": {
                     "export_description": "Exportálja a fórum címét, a webcímet, a felhasználónevet, az e-mail-címet és a jelenlegi dátumot."
                 },
+                "default_user_action": "Nincs művelet, az alapértelmezett felhasználói táblakezelés vonatkozik rá.",
                 "no_action": "Nincs teendő.",
                 "posts": {
                     "anonymize_description": "Eltávolítja az IP-címet a felhasználó által készített összes bejegyzésből.",
@@ -99,25 +109,25 @@
         "email": {
             "confirm_erasure": {
                 "subject": "Erősítse meg a fióktörlési kérését",
-                "body": ""
+                "body": "Valaki (remélhetőleg Ön) a(z) `{display_name}` fiók törlését kérte.\n\nA művelet megerősítéséhez kövesse a következő hivatkozást, ezután a kérést fel fogja dolgozni a csapatunk.\n\n{erasure_confirm_url}\n"
             },
             "erasure_completed": {
                 "deletion": {
                     "subject": "A fiók törlése befejeződött",
-                    "body": ""
+                    "body": "Ez egy automatikus, végső értesítés arról, hogy a fiókját törölték.\n"
                 },
                 "anonymization": {
                     "subject": "A fiók anonimizálása befejeződött",
-                    "body": ""
+                    "body": "Ez egy automatikus, végső értesítés arról, hogy a fiókját anonimizálták.\n"
                 }
             },
             "erasure_cancelled": {
                 "subject": "A fióktörlési kérés lemondva",
-                "body": ""
+                "body": "Ez egy automatikus, végső értesítés arról, hogy a fióktörlési kérése visszavonását feldolgozták.\n\nA fiókja már nem lesz törölve.\n"
             },
             "export_available": {
                 "subject": "Az adatexport elérhető",
-                "body": ""
+                "body": "{username} fiókadatainak exportálását kérte. Az export elő lett állítva, és most már elérhető:\n\n{url}\n\nEz az export eddig marad elérhető: {destroys_at}.\n"
             }
         },
         "forum": {
@@ -152,7 +162,10 @@
                 "text": "{name} a fiókja törlését kérte.",
                 "comments_label": "Hozzászólások (nem kötelező)",
                 "anonymization_button": "Felhasználó anonimizálása",
-                "deletion_button": "Felhasználó törlése"
+                "deletion_button": "Felhasználó törlése",
+                "requested_at": "Kérve: {date}",
+                "confirmed_at": "Megerősítve: {date}",
+                "eligible_at": "Automatikus feldolgozásra jogosult: {date}"
             },
             "request_erasure": {
                 "title": "Fióktörlés kérése",

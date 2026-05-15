@@ -75,30 +75,30 @@
         },
         "email": {
             "new_discussion_by_user": {
-                "subject": "",
+                "subject": "{user_display_name} aloitti keskustelun",
                 "plain": {
-                    "body": ""
+                    "body": "{user_display_name} aloitti keskustelun: {discussion_title}\n\n{discussion_url}\n\n---\n\n{post_content}\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{user_display_name} aloitti uuden keskustelun: [{discussion_title}]({discussion_url})."
                 }
             },
             "new_follower": {
-                "subject": "",
+                "subject": "{follower_display_name} seurasi sinua",
                 "plain": {
-                    "body": ""
+                    "body": "{follower_display_name} aloitti seuraamaan sinua, joten he saa ilmoituksen, kun aloitat uuden keskustelun.\n\n{profile_url}\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{follower_display_name} alkoi seuraamaan sinua ja hän saa ilmoituksen, kun aloitat uuden keskustelun."
                 }
             },
             "new_post": {
-                "subject": "",
+                "subject": "{user_display_name} kirjoitti keskusteluun {discussion_title}",
                 "plain": {
-                    "body": ""
+                    "body": "{user_display_name} kirjoitti keskusteluun {discussion_title}.\n\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nEt saa muita ilmoituksia tästä keskustelusta ennen kuin olet ajantasalla.\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{user_display_name} kirjoitti keskusteluun [{discussion_title}]({post_url})."
                 }
             }
         },
@@ -123,7 +123,7 @@
             },
             "gambits": {
                 "followeduser": {
-                    "key": ""
+                    "key": "seurattukäyttäjä"
                 }
             }
         }

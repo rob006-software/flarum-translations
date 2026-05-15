@@ -4,22 +4,22 @@
             "permissions": {
                 "best_answer": "Seleccionar la Mejor Respuesta (discusión propia)",
                 "best_answer_not_own_discussion": "Seleccionar la Mejor Respuesta (discusión ajena)",
-                "allow_select_own_post": ""
+                "allow_select_own_post": "Selecciona tu propia publicación como Mejor Respuesta"
             },
             "settings": {
                 "label": {
-                    "tags": "",
+                    "tags": "Etiquetas de Mejor Respuesta",
                     "general": "General",
                     "reminders": "Recordatorios",
                     "advanced": "Avanzado",
                     "reminders_notice": "Para que los recordatorios funcionen, el planificador de Flarum debe estar configurado correctamente."
                 },
-                "show_max_lines_label": "",
-                "show_max_lines_help": "",
+                "show_max_lines_label": "Máximo de líneas que se mostrarán en la vista previa de la publicación",
+                "show_max_lines_help": "Establezca valor 0 para desactivarlo. Si una publicación es más larga que la cantidad de líneas configurada, se truncará en la vista previa con un efecto de desvanecimiento.",
                 "select_best_answer_reminder_days": "Frecuencia de recordatorios",
                 "select_best_answer_reminder_days_help": "Enviar un recordatorio después de una cantidad determinable de días al usuario para seleccionar la Mejor Respuesta, 0 = desactivar recordatorios.",
-                "select_best_answer_tags_label": "",
-                "select_best_answer_tags_help": "",
+                "select_best_answer_tags_label": "Etiquetas para discusiones con Mejores Respuestas",
+                "select_best_answer_tags_help": "Seleccione las etiquetas que desee agregar a las discusiones cuando se marque la Mejor Respuesta. Solo se permiten etiquetas secundarias. Estas etiquetas se eliminarán si se elimina la Mejor Respuesta.",
                 "schedule_on_one_server": "Usa la directiva 'onOneServer()' para el planificador",
                 "schedule_on_one_server_help": "Requiere Redis/Memcache",
                 "schedule_stop_overnight": "Impedir que las notificaciones de recordatorios sean enviadas en horarios inadecuados",
@@ -30,13 +30,13 @@
                 "use_alt_ui": "Diseño alternativo",
                 "use_alt_ui_help": "Controles de Mejor Respuesta en el pie del mensaje",
                 "documentation": "Documentación",
-                "enabled_tags_label": "",
-                "enabled_tags_help": "",
-                "remind_tags_label": "",
-                "remind_tags_help": "",
-                "tags_info": "",
-                "discussion_sidebar_jump_button": "",
-                "discussion_sidebar_jump_button_help": ""
+                "enabled_tags_label": "Etiquetas Habilitadas",
+                "enabled_tags_help": "Seleccione que etiquetas desea habilitar para mostrar las Mejores Respuestas. Estas etiquetas tendrán formato de \"Preguntas y Respuestas\" y podrán configurarse para mostrar las Mejores Respuestas.",
+                "remind_tags_label": "Etiquetas de Recordatorio",
+                "remind_tags_help": "Seleccione las etiquetas para las que desea recibir recordatorios. Solo se enviarán recordatorios para las conversaciones que contengan estas etiquetas.",
+                "tags_info": "Cuando una etiqueta tiene habilitada la opción \"Mejor Respuesta\", asigne permisos a cada grupo de usuarios que pueda establecer respuestas (su propia discusión, cualquier discusión). Los permisos se pueden asignar globalmente (para cualquier etiqueta con la opción \"Mejor respuesta\" habilitada) o individualmente para cada etiqueta.\n",
+                "discussion_sidebar_jump_button": "Mostrar el botón \"Saltar a la mejor respuesta\" en la barra lateral de la discusión",
+                "discussion_sidebar_jump_button_help": "Agrega un botón a la barra lateral de discusión que permite acceder directamente a la Mejor Respuesta en el flujo de publicaciones."
             },
             "edit_tag": {
                 "qna_label": "Permitir escoger la mejor respuesta en esta etiqueta",
@@ -59,7 +59,7 @@
                 "preferences": {
                     "awarded_best_answer": "Cuando alguien asigne mi mensaje como la mejor respuesta",
                     "best_answer_in_discussion": "Cuando la mejor respuesta sea asignada en un discusión en la que participé",
-                    "select_best_answer": ""
+                    "select_best_answer": "Un recordatorio automático para seleccionar la mejor respuesta en una discusión que inicié"
                 }
             },
             "index": {
@@ -78,10 +78,10 @@
                 "titlePlaceholder": "Título de la pregunta"
             },
             "user": {
-                "best-answer-count": ""
+                "best-answer-count": "{count, plural, one { {count} best answer} other {{count} best answers}}"
             },
             "discussion": {
-                "jump_to_best_answer_button": ""
+                "jump_to_best_answer_button": "Ver Mejor Respuesta"
             }
         },
         "email": {
@@ -99,7 +99,7 @@
         "lib": {
             "gambits": {
                 "solved-discussions": {
-                    "key": ""
+                    "key": "resuelto"
                 }
             }
         }
@@ -107,8 +107,8 @@
     "fof-user-directory": {
         "lib": {
             "sort": {
-                "most_best_answers": "",
-                "least_best_answers": ""
+                "most_best_answers": "Las más mejores respuestas",
+                "least_best_answers": "Las menos mejores respuestas"
             }
         }
     }

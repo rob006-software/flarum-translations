@@ -1,0 +1,20 @@
+{
+    "fof-online-users-widget": {
+        "admin": {
+            "settings": {
+                "cache_ttl": "Doba setrvání seznamu online uživatelů v mezipaměti (v sekundách)",
+                "last_seen_interval": "Interval od poslední aktivity pro považování uživatele za online (v minutách)",
+                "max_users": "Maximální počet zobrazených uživatelů"
+            },
+            "permissions": {
+                "view_online_users_widget": "Zobrazit widget online uživatelů"
+            }
+        },
+        "forum": {
+            "widget": {
+                "title": "Online uživatelé",
+                "empty": "Aktuálně není nikdo online."
+            }
+        }
+    }
+}

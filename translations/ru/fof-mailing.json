@@ -1,0 +1,43 @@
+{
+    "fof-mailing": {
+        "admin": {
+            "permissions": {
+                "mail_individual": "Отправлять письма отдельным пользователям",
+                "mail_all": "Отправлять письма группам или всем пользователям"
+            }
+        },
+        "forum": {
+            "links": {
+                "mail_individual": "Написать пользователю",
+                "mail_all": "Отправить письмо"
+            },
+            "modal_mail": {
+                "title_text": "Письмо",
+                "recipients_label": "Получатели",
+                "recipients_placeholder": "Добавьте получателей…",
+                "subject_label": "Тема",
+                "default_subject": "=> fof-mailing.ref.default_subject",
+                "message_label": "Сообщение",
+                "submit_button": "Отправить"
+            },
+            "modal_sent": {
+                "title_text": "Письмо отправлено!",
+                "on_its_way": "Отлично! Ваше письмо отправлено {recipientsCount} получателям!"
+            },
+            "recipient_kinds": {
+                "user": "Пользователь",
+                "group": "Группа",
+                "email": "Email"
+            }
+        },
+        "api": {
+            "no_recipients": "Не найдено ни одного получателя"
+        },
+        "email": {
+            "default_subject": "=> fof-mailing.ref.default_subject"
+        },
+        "ref": {
+            "default_subject": "Сообщение от администрации форума"
+        }
+    }
+}

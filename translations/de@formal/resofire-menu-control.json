@@ -1,0 +1,28 @@
+{
+    "resofire-menu-control": {
+        "admin": {
+            "nav_order": {
+                "title": "Reihenfolge der Menüpunkte",
+                "description": "Verwende die Pfeiltasten, um die Elemente der Seitenleiste auf der Startseite des Forums neu anzuordnen. Die Änderungen werden sofort nach dem Speichern wirksam.",
+                "save_button": "Reihenfolge speichern",
+                "save_success": "Navigationsreihenfolge gespeichert.",
+                "no_items": "Es wurden noch keine Navigationselemente erkannt. Besuche zunächst die Startseite des Forums als Administrator, um diese Liste zu füllen.",
+                "move_up": "Nach oben",
+                "icon_input_title": "Benutzerdefinierte Font Awesome-Symbolklasse (z. B. fas fa-bolt). Leer lassen, um die Standardklasse zu verwenden.",
+                "highlight_color_label": "Hervorhebungsfarbe",
+                "highlight_color_help": "Hintergrundfarbe für hervorgehobene Navigationselemente. Lasse das Feld leer, um die Standardfarbe des Themes zu verwenden.",
+                "remove_item": "Von Liste entfernen",
+                "add_custom_link": "Benutzerdefinierten Link hinzufügen",
+                "custom_link_label": "Linkbeschriftung",
+                "polls_note": "Hinweis: Wenn „fof/polls“ installiert ist, können „fof-polls-showcase“ und ähnliche Einträge in dieser Liste erscheinen, auch wenn globale Umfragen deaktiviert sind. Verwende die Schaltfläche „×“, um sie dauerhaft zu entfernen.",
+                "add_highlight": "Dieses Element für Benutzer hervorheben",
+                "remove_highlight": "Hervorhebung entfernen",
+                "move_down": "Nach unten",
+                "flip_label": "Navigation umkehren (Themen oberhalb der Menüpunkte anzeigen)",
+                "flip_help": "Wenn aktiviert, werden die Themen-Links oben in der Seitenleiste angezeigt und die Navigationselemente (Alle Diskussionen, Abonnierte usw.) erscheinen darunter.",
+                "sticky_label": "Feste Seitenleiste (die Seitenleiste bleibt beim Scrollen sichtbar)",
+                "sticky_help": "Wenn aktiviert, bleibt die Seitenleiste einschließlich der Schaltfläche „Diskussion starten“ beim Herunterscrollen oben im Ansichtsbereich fixiert."
+            }
+        }
+    }
+}

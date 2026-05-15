@@ -1,0 +1,22 @@
+{
+    "fof-forum-stats-widget": {
+        "admin": {
+            "settings": {
+                "decimal_places": {
+                    "label": "Знаки после запятой",
+                    "help": "Количество знаков после запятой для отображения больших чисел (0–2)."
+                }
+            }
+        },
+        "forum": {
+            "widget": {
+                "stats": {
+                    "comment_post_count": "Сообщения",
+                    "discussion_count": "Дискуссии",
+                    "user_count": "Пользователи"
+                },
+                "title": "Статистика форума"
+            }
+        }
+    }
+}

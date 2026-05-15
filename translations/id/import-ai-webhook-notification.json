@@ -2,29 +2,29 @@
     "import-ai-webhook-notification": {
         "forum": {
             "settings": {
-                "notify_webhook_label": ""
+                "notify_webhook_label": "Webhook"
             }
         },
         "admin": {
             "settings": {
-                "webhook_url_label": "",
-                "webhook_url_help": "",
-                "webhook_token_label": "",
-                "webhook_token_help": "",
-                "timeout_label": "",
-                "timeout_help": "",
-                "retry_count_label": "",
-                "retry_count_help": "",
-                "channel_icon_label": "",
-                "channel_icon_help": "",
-                "channel_label_label": "",
-                "channel_label_help": ""
+                "webhook_url_label": "URL Webhook",
+                "webhook_url_help": "URL tujuan untuk mengirim webhook notifikasi. Kosongkan untuk menonaktifkan.",
+                "webhook_token_label": "Token Bearer",
+                "webhook_token_help": "Token Bearer opsional untuk header Authorization.",
+                "timeout_label": "Batas waktu (detik)",
+                "timeout_help": "Batas waktu permintaan dalam detik. Default: 30.",
+                "retry_count_label": "Jumlah percobaan ulang",
+                "retry_count_help": "Jumlah percobaan ulang saat terjadi kegagalan. Default: 3.",
+                "channel_icon_label": "Ikon kanal",
+                "channel_icon_help": " Kelas ikon (misalnya: fas fa-globe).",
+                "channel_label_label": "Label kanal",
+                "channel_label_help": "Nama tampilan untuk kanal notifikasi yang ditampilkan di pengaturan pengguna."
             },
             "validation": {
-                "timeout_invalid": "",
-                "retry_count_invalid": "",
-                "channel_icon_invalid": "",
-                "channel_label_required": ""
+                "timeout_invalid": "Batas waktu harus antara 1 hingga 300 detik.",
+                "retry_count_invalid": "Jumlah percobaan ulang harus antara 0 hingga 10.",
+                "channel_icon_invalid": "Format ikon tidak valid. Gunakan format Font Awesome (misalnya: fas fa-globe).",
+                "channel_label_required": "Label kanal harus diisi jika ikon ditentukan."
             }
         }
     }

@@ -1,0 +1,16 @@
+{
+    "fof-clockwork": {
+        "admin": {
+            "dashboard": {
+                "section_label": "Clockwork",
+                "button_label": "Open Clockwork"
+            },
+            "settings": {
+                "section_label": "Settings",
+                "disable_auth_label": "Disable authentication",
+                "disable_auth_help": "When enabled, all requests are profiled and the Clockwork viewer is accessible without logging in. Only enable this temporarily for debugging.",
+                "disable_auth_warning": "Warning: authentication is disabled. The Clockwork viewer and all profiling data are publicly accessible. Disable this when you are done debugging."
+            }
+        }
+    }
+}

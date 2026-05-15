@@ -19,9 +19,18 @@
                     "extension_settings_button": "GDPR 設置"
                 },
                 "user_table_data": {
-                    "not_yet_implemented": "",
                     "title": "使用者表數據",
-                    "help_text": "大多數情況下，新增至 <code>user</code> 表中的任何欄位都會自動處理，以匯出資料和刪除資料。\n但是，也有一些特殊情況，如下圖所示。\n"
+                    "help_text": "大多數情況下，新增至 <code>user</code> 表中的任何欄位都會自動處理，以匯出資料和刪除資料。\n但是，也有一些特殊情況，如下圖所示。\n",
+                    "column": "",
+                    "type": "",
+                    "nullable": "",
+                    "pii": "",
+                    "redacted_on_export": "",
+                    "extension": "",
+                    "yes": "",
+                    "no": "",
+                    "pii_tooltip": "",
+                    "redacted_on_export_tooltip": ""
                 }
             },
             "nav": {
@@ -74,6 +83,7 @@
                 "forum": {
                     "export_description": "匯出論壇標題、網址、使用者名稱、電子郵件和目前日期。"
                 },
+                "default_user_action": "",
                 "no_action": "不採取行動。",
                 "posts": {
                     "anonymize_description": "從用戶發布的所有貼文中刪除 IP 位址。",
@@ -152,7 +162,10 @@
                 "text": "{name} 已要求刪除帳號。",
                 "comments_label": "評論（可選）",
                 "anonymization_button": "匿名用戶",
-                "deletion_button": "刪除用戶"
+                "deletion_button": "刪除用戶",
+                "requested_at": "",
+                "confirmed_at": "",
+                "eligible_at": ""
             },
             "request_erasure": {
                 "title": "請求刪除帳戶",

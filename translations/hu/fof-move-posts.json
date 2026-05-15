@@ -1,0 +1,69 @@
+{
+    "fof-move-posts": {
+        "admin": {
+            "settings": {
+                "moved_first_post_content": "Téma (első bejegyzés) tartalma áthelyezve",
+                "moved_first_post_content_help": "Ha olyan témája van, amely csak egy bejegyzéssel rendelkezik, akkor a bejegyzés áthelyezése azt eredményezi, hogy az eredeti téma első bejegyzése úgy lesz átszerkesztve, hogy az új témára hivatkozzon. A bejegyzés tartalmát itt szerkesztheti.\n",
+                "group_sequential_posts": "Egymás követő bejegyzések összevonása egybe."
+            },
+            "permissions": {
+                "move_posts": "=> fof-move-posts.ref.move_posts"
+            }
+        },
+        "forum": {
+            "badge": {
+                "first_moved_tooltip": "Áthelyezve"
+            },
+            "discussion": {
+                "move_posts": "=> fof-move-posts.ref.move_posts"
+            },
+            "error": {
+                "move_old_post_to_newer_discussion": "=> fof-move-posts.ref.status.old_to_new_move",
+                "move_posts_to_same_discussion": "Nem helyezheti át a bejegyzéseket ugyanabba a témába."
+            },
+            "modal": {
+                "check": "Művelettípus ellenőrzése",
+                "destination": "Céltéma",
+                "discussion_help": "A forrástéma címkéi lesznek használva, a létrehozás után változtathatók meg.",
+                "discussion_name": "=> core.forum.composer_discussion.title_placeholder",
+                "new_discussion": "Új téma",
+                "selected_posts": "{count, plural, one {Egy bejegyzés kijelölve} other {{count} bejegyzés kijelölve}}",
+                "status": {
+                    "complex_move": "Összetett áthelyezés lesz, a bejegyzések meglévő bejegyzések közé fognak kerülni, ezért a céltéma bejegyzéseire mutató hivatkozásokat is módosítani kell.",
+                    "old_to_new_move": "=> fof-move-posts.ref.status.old_to_new_move",
+                    "simple_move": "Egyszerű áthelyezés lesz, a bejegyzések a téma végéhez lesznek hozzáadva."
+                },
+                "submit": "Folytatás",
+                "title": "=> fof-move-posts.ref.move_posts",
+                "confirm_move_all_to_new_discussion": "Arra készül, hogy a téma összes bejegyzését egy újba helyezze át. A legtöbb esetben több értelme van a meglévő téma szerkesztésének, például a cím, a címkék vagy más tulajdonságok módosításának. Biztos, hogy folytatja?"
+            },
+            "alerts": {
+                "posts_moved_to": "{count, plural, one {Bejegyzés áthelyezve ide: {target_discussion}.} other {{count} bejegyzés áthelyezve ide: {target_discussion}.}}"
+            },
+            "notifications": {
+                "post_moved_text": "Egy vagy több bejegyzés át lett helyezve ide: {targetDiscussionTitle}."
+            },
+            "post": {
+                "unmove": "Eltávolítás az áthelyezésből",
+                "move": "Kijelölés az áthelyezéshez",
+                "moving": "Bejegyzés áthelyezése"
+            },
+            "post_stream": {
+                "post_moved": "{count, plural, one {{username} áthelyezett egy bejegyzést ide: {target_discussion}.} other {{username} áthelyezett {count} bejegyzést ide: {target_discussion}.}}"
+            }
+        },
+        "ref": {
+            "move_posts": "Bejegyzések áthelyezése",
+            "status": {
+                "old_to_new_move": "Nem lehet régi bejegyzést új témába áthelyezni."
+            }
+        },
+        "lib": {
+            "discussion": {
+                "first_post": {
+                    "default_content": "*Ez a bejegyzés ide lett áthelyezve: **[%DISCUSSION_NAME%](%POST_LINK%)**.*\n"
+                }
+            }
+        }
+    }
+}

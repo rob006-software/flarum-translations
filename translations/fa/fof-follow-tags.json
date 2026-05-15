@@ -10,8 +10,8 @@
                 "follow_tag_button": "دنبال کردن",
                 "unfollow_tag_button": "پایان دنبال کردن",
                 "following": {
-                    "following_none_label": "",
-                    "following_tags_label": ""
+                    "following_none_label": "=> fof-follow-tags.ref.filtering_options.none",
+                    "following_tags_label": "=> fof-follow-tags.ref.filtering_options.tags"
                 }
             },
             "badge": {
@@ -21,14 +21,14 @@
             "sub_controls": {
                 "header": "اشتراک برای {tagName}",
                 "subscription_label": "میزان اشتراک خود را برای {tagName} انتخاب کنید",
-                "follow_button": "",
-                "following_button": "",
+                "follow_button": "=> fof-follow-tags.ref.follow",
+                "following_button": "=> fof-follow-tags.ref.following",
                 "following_text": "از همه گفت‌وگوهای جدید باخبرم کن.",
-                "hiding_button": "",
+                "hiding_button": "=> fof-follow-tags.ref.hiding",
                 "hiding_text": "مخفی کردن گفت‌وگو از صفحه تمام گفت‌وگوها.",
-                "ignoring_button": "",
+                "ignoring_button": "=> fof-follow-tags.ref.ignoring",
                 "ignoring_text": "هیچوقت باخبر نشو.",
-                "lurking_button": "",
+                "lurking_button": "=> fof-follow-tags.ref.lurking",
                 "lurking_text": "از همه گفت‌وگوهای جدید و پاسخ‌ها باخبر شو.",
                 "not_following_button": "دنبال نمی‌کند",
                 "not_following_text": "فقط زمانی که با @ به تو اشاره شد باخبر شو.",
@@ -37,7 +37,7 @@
                 "submit_button": "تأیید اشتراک"
             },
             "hero": {
-                "title": ""
+                "title": "=> flarum-subscriptions.forum.index.following_link"
             },
             "notifications": {
                 "new_discussion_text": "{username} شروع کرد",
@@ -54,8 +54,8 @@
         "admin": {
             "settings": {
                 "following_page_default_label": "محدود کننده پیش‌فرض برای صفحه دنبال‌ کردن‌ها",
-                "following_none_label": "",
-                "following_tags_label": ""
+                "following_none_label": "=> fof-follow-tags.ref.filtering_options.none",
+                "following_tags_label": "=> fof-follow-tags.ref.filtering_options.tags"
             }
         },
         "email": {

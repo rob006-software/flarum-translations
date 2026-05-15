@@ -1,0 +1,28 @@
+{
+    "fof-oauth": {
+        "lib": {
+            "providers": {
+                "yandex": "Yandex"
+            }
+        },
+        "forum": {
+            "providers": {
+                "yandex": "Yandex"
+            },
+            "log_in": {
+                "with_yandex_button": "Mit Yandex anmelden"
+            }
+        },
+        "admin": {
+            "settings": {
+                "providers": {
+                    "yandex": {
+                        "description": "Erstelle eine App auf https://oauth.yandex.ru",
+                        "client_id_label": "Client-ID",
+                        "client_secret_label": "Client-Secret"
+                    }
+                }
+            }
+        }
+    }
+}

@@ -13,6 +13,12 @@
                 "bb_image_help": "Yazı editörüne görsel hizalama için yeni bir buton ekler. Büyük ortalanmış görseller otomatik olarak gönderi genişliğinin %60'ına, yan hizalanmış olanlar ise %40'ına kadar yeniden boyutlandırılır",
                 "bb_iframe": "çerçeve",
                 "bb_iframe_help": "Herhangi bir kaynaktan iframe yerleştirilmesine izin verir. Dikkatli kullanın — gömülü içerik harici komut dosyaları içerebilir. 🧹 Bu ayarı değiştirdikten sonra lütfen Flarum önbelleğini temizleyin",
+                "bb_hide_login": "",
+                "bb_hide_login_help": "",
+                "bb_hide_reply": "",
+                "bb_hide_reply_help": "",
+                "bb_hide_like": "",
+                "bb_hide_like_help": "",
                 "toolbar_group": "MagicBB düğmelerini grupla",
                 "toolbar_group_help": "Etkinleştirildiğinde, düzenleyicideki tüm MagicBB düğmeleri tek bir düğme halinde gruplanacaktır"
             },
@@ -20,10 +26,13 @@
                 "text": "Metin düğmeleri",
                 "content": "İçerik düğmeleri",
                 "images": "Görsel düğmeleri",
-                "features": "Özellikler"
+                "features": "Özellikler",
+                "hide": ""
             },
             "permissions": {
-                "use_iframe": "iframe'e izin ver"
+                "use_iframe": "iframe'e izin ver",
+                "bypass_like": "",
+                "bypass_reply": ""
             }
         },
         "forum": {
@@ -36,7 +45,19 @@
                 "info_button": "Uyarı ekle",
                 "audio_button": "Ses ekle",
                 "image_button": "Akıllı görsel ekle",
-                "more_button": "Devamı"
+                "more_button": "Devamı",
+                "hide_login_button": "",
+                "hide_reply_button": "",
+                "hide_like_button": ""
+            },
+            "hide": {
+                "login_to_see": "",
+                "like_to_see": "",
+                "reply_to_see": "",
+                "like_link_fallback": "",
+                "login_to_see_simple": "",
+                "like_to_see_simple": "",
+                "reply_to_see_simple": ""
             }
         }
     }

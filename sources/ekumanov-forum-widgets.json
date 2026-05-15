@@ -1,0 +1,90 @@
+{
+    "ekumanov-forum-widgets": {
+        "forum": {
+            "online_users": {
+                "title": "Online Users",
+                "empty": "No users currently online.",
+                "hidden_users": "hidden",
+                "overflow_more": "more",
+                "guests": "{count, plural, one {guest} other {guests}}"
+            },
+            "stats": {
+                "title": "Forum Statistics",
+                "discussions_count": "Discussions: {count}",
+                "posts_count": "Posts: {count}",
+                "users_count": "Users: {count}",
+                "latest_registration": "Latest Registration:",
+                "tooltip_discussions": "Discussions",
+                "tooltip_posts": "Posts",
+                "tooltip_users": "Users",
+                "tooltip_online": "Online Users",
+                "label_discussions": "{count, plural, one {discussion} other {discussions}}",
+                "label_posts": "{count, plural, one {post} other {posts}}",
+                "label_users": "{count, plural, one {user} other {users}}",
+                "label_online": "{count, plural, one {online user} other {online users}}",
+                "label_online_over_total": "{online} online out of {total} total users",
+                "tooltip_latest_registration": "Latest Registration: {name}"
+            },
+            "aria": {
+                "expand_details": "Show forum details",
+                "collapse_details": "Hide forum details",
+                "details_panel": "Forum details",
+                "overflow_users": "{count} more online users"
+            }
+        },
+        "admin": {
+            "settings": {
+                "widget_layout": "Widget layout",
+                "widget_layout_help": "Classic: compact widget in the sidebar. Full width: single-row bar above the discussion list.",
+                "widget_layout_classic": "Sidebar (classic)",
+                "widget_layout_full_width": "Full width (above discussions)",
+                "bar_position_desktop": "Bar position (desktop)",
+                "bar_position_desktop_help": "Where to place the stats bar on desktop relative to the toolbar. Only applies to the full-width layout.",
+                "bar_position_mobile": "Bar position (mobile)",
+                "bar_position_mobile_help": "Where to place the stats bar on mobile relative to the toolbar.",
+                "bar_position_above": "Above the toolbar",
+                "bar_position_inside": "Inside the toolbar",
+                "bar_position_below": "Below the toolbar",
+                "bar_position_above_footer": "Above the footer",
+                "widget_position": "Widget sidebar position (priority)",
+                "widget_position_help": "Controls where the widget appears in the sidebar. Lower (more negative) values place it further down. Default: -10. Only applies to the sidebar layout.",
+                "section_online_users": "Online Users",
+                "section_online_users_help": "Configure the online users display in the expanded widget panel.",
+                "show_online_users": "Show online users",
+                "show_online_users_help": "Enable or disable the online users feature entirely. When disabled, no online user queries will be executed.",
+                "last_seen_interval": "Last seen interval (minutes)",
+                "last_seen_interval_help": "How many minutes since last activity to consider a user online. Default: 5, which pairs with the presence heartbeat (enabled by default) — the heartbeat keeps activity fresh for users with a focused tab open, so active users won't drop off. If you disable the heartbeat, raise this to 10 or higher to avoid users blinking offline mid-session.",
+                "online_users_cache_ttl": "Online users cache duration (seconds)",
+                "online_users_cache_ttl_help": "How long to cache the online users list. Two separate caches are maintained: one for privileged users (those with the \"Always view user last seen time\" permission, who can also see hidden users) and one for everyone else.",
+                "enable_heartbeat": "Enable presence heartbeat",
+                "enable_heartbeat_help": "When enabled, each open and focused forum tab sends a small background ping. For logged-in users it keeps the \"online\" indicator fresh while they read or compose without navigating between pages (for example, during a long reply via the realtime extension); for guests (when guest counting is on) it's how the guest count is collected. Server load is negligible — both paths throttle their writes server-side, regardless of how many tabs are open. Disable if you do not want any background traffic.",
+                "show_online_guests": "Show online guests",
+                "show_online_guests_help": "When enabled, an approximate count of unauthenticated visitors is shown in the expanded panel as a dotted circle below the hidden users. Each guest tab pings a small endpoint that records a hash of the visitor's IP and User-Agent into a short-lived presence map; the count is the number of unique fingerprints seen within the \"last seen interval\". Counting is approximate — visitors behind a shared NAT collapse into one, mobile users on rotating IPs may be over-counted. No persistent identifier is stored on the visitor's browser.",
+                "include_guests_in_total": "Include guests in main online count",
+                "include_guests_in_total_help": "When enabled, the number shown in the bar (and in the section header inside the expanded panel) sums logged-in members and guests. The breakdown rows in the expanded panel still list each component separately. Disable to make the bar number reflect logged-in members only.",
+                "section_statistics": "Forum Statistics",
+                "section_statistics_help": "Configure caching for the discussion count, post count, total users count, and latest registration stats.",
+                "show_discussions_count": "Show discussions count",
+                "show_posts_count": "Show posts count",
+                "show_users_count": "Show users count",
+                "show_latest_registration": "Show latest registration",
+                "stats_cache_duration": "Statistics cache duration (seconds)",
+                "stats_cache_duration_help": "How long to cache discussion count, post count, total user count, and latest registration. The cache is automatically invalidated when discussions, posts, or users are created or deleted. Set to 0 to disable caching (not recommended for large forums).",
+                "ignore_private_discussions": "Ignore private discussions in count",
+                "show_toggle": "Show expand/collapse toggle button",
+                "show_toggle_help": "Whether to show the chevron button that expands/collapses the details panel. When disabled, the panel can still be opened by clicking the bar (full-bar mode) or the online users cell (online-cell mode).",
+                "expanded_panel_width": "Expanded panel width (desktop)",
+                "expanded_panel_width_help": "Full bar: panel spans the full bar width, clicking anywhere on bar expands. Online cell: panel appears below the online users count only, clicking the online users cell expands.",
+                "expanded_panel_width_full_bar": "Full bar width",
+                "expanded_panel_width_online_cell": "Online users cell only"
+            },
+            "permissions": {
+                "view_online_users": "View online users",
+                "view_discussions_count": "View discussions count",
+                "view_posts_count": "View posts count",
+                "view_users_count": "View users count",
+                "view_latest_registration": "View latest registration"
+            }
+        }
+    }
+}

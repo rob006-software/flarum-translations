@@ -1,0 +1,44 @@
+{
+    "fof-recaptcha": {
+        "admin": {
+            "settings": {
+                "help_text": "Отримайте свої облікові дані Google reCAPTCHA <a>тут</a>.",
+                "secret_key_label": "Секретний ключ",
+                "site_key_label": "Site Key",
+                "type_label": "Тип reCAPTCHA",
+                "type_help": "",
+                "type_options": {
+                    "checkbox": "",
+                    "invisible": "",
+                    "v3": ""
+                },
+                "v3_threshold_label": "",
+                "v3_threshold_help": "",
+                "signup": "=> core.forum.sign_up.title",
+                "signin": "=> core.forum.log_in.title",
+                "forgot": "=> core.forum.forgot_password.title"
+            },
+            "test": {
+                "title": "Тест reCAPTCHA",
+                "help_text": "Цей тест буде використовувати поточні значення, введені вище. Не забудьте перезавантажити тест після зміни налаштувань і не забудьте зберегти їх після проходження тесту!\nНижче можуть не відображатися збережені налаштування.\n",
+                "success_message": "Успішно! reCAPTCHA налаштовано правильно.",
+                "load_test_button": "Завантажити",
+                "submit_button": "Надіслати",
+                "reload_button": "Перезавантажити"
+            },
+            "permissions": {
+                "post_without_captcha": "Створювати дописи та дискусії без CAPTCHA"
+            }
+        },
+        "lib": {
+            "error": "",
+            "not_completed": "",
+            "rejected": "",
+            "unknown_error": ""
+        }
+    },
+    "validation": {
+        "recaptcha": "Помилка перевірки reCAPTCHA.",
+        "recaptcha-unknown": "Під час перевірки reCAPTCHA сталася невідома помилка ({errors})."
+    }
+}

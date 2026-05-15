@@ -15,14 +15,14 @@
                         "end_button": "",
                         "issue_question": "",
                         "issue_question_help": "",
-                        "no_button": "",
+                        "no_button": "خیر",
                         "result_description": "",
                         "start_button": "",
                         "stop_button": "",
                         "steps_left": "",
                         "total_steps": "",
                         "title": "",
-                        "yes_button": ""
+                        "yes_button": "بله"
                     },
                     "config_override": {
                         "label": "",
@@ -44,7 +44,7 @@
                     "source_label": "",
                     "source_help": "",
                     "source_local": "",
-                    "source_cdn": "",
+                    "source_cdn": "CDN",
                     "source_kit": "",
                     "cdn_url_label": "",
                     "cdn_url_help": "",
@@ -53,6 +53,14 @@
                     "config_override": {
                         "label": "",
                         "help": ""
+                    },
+                    "preview": {
+                        "button": "",
+                        "label": "",
+                        "help": "",
+                        "fa5_fa6_label": "",
+                        "fa7_label": "",
+                        "pro_label": "فقط Pro"
                     }
                 },
                 "pgsql": {
@@ -75,15 +83,15 @@
                     "backoff_help": ""
                 },
                 "search": {
-                    "section_label": "",
-                    "driver_heading": "",
+                    "section_label": "جستجوی درایورها",
+                    "driver_heading": "جستجوی درایور: {model}",
                     "driver_text": "",
                     "driver_options": {
                         "default": ""
                     },
                     "no_other_drivers": ""
                 },
-                "title": ""
+                "title": "پیشرفته"
             },
             "appearance": {
                 "allow_user_color_scheme_label": "",
@@ -108,14 +116,16 @@
                 "favicon_text": "یک تصویر را برای نمایش به عنوان آیکون میانبر آپلود کنید.",
                 "logo_heading": "لوگو",
                 "logo_text": "تصویری برای نمایش در محل عنوان انجمن آپلود کنید.",
+                "logo_dark_mode_heading": "",
+                "logo_dark_mode_text": "",
                 "title": "ظاهر",
                 "color_scheme_label": "",
                 "color_schemes": {
                     "auto_mode_label": "",
-                    "dark_hc_mode_label": "",
-                    "dark_mode_label": "",
-                    "light_hc_mode_label": "",
-                    "light_mode_label": ""
+                    "dark_hc_mode_label": "=> core.ref.dark_hc_mode_label",
+                    "dark_mode_label": "=> core.ref.dark_mode_label",
+                    "light_hc_mode_label": "=> core.ref.light_hc_mode_label",
+                    "light_mode_label": "=> core.ref.light_mode_label"
                 }
             },
             "basics": {
@@ -123,10 +133,15 @@
                 "default_language_heading": "زبان پیشفرض",
                 "description": "عنوان انجمن ، زبان و سایر تنظیمات اساسی خود را تنظیم کنید.",
                 "display_name_driver_options": {
-                    "username": ""
+                    "username": "نام کاربری"
                 },
                 "display_name_heading": "نام نمایشی کاربر",
                 "display_name_text": "درایوری را که باید برای نام‌های نمایشی کاربران استفاده شود انتخاب کنید. به طور پیش فرض ، نام کاربری نشان داده می شود.",
+                "avatar_driver_options": {
+                    "default": ""
+                },
+                "avatar_driver_heading": "",
+                "avatar_driver_text": "",
                 "forum_description_heading": "توضیحات انجمن",
                 "forum_description_text": "یک یا دو جمله کوتاه وارد کنید که انجمن شما را توصیف کند. این در تگ متا ظاهر می شود و در موتورهای جستجو نشان داده می شود.",
                 "forum_title_heading": "عنوان انجمن",
@@ -139,15 +154,22 @@
                         "utf8": ""
                     },
                     "users": {
-                        "default": "",
-                        "id": ""
+                        "default": "نام کاربری",
+                        "id": "شناسه",
+                        "id_with_display_name": ""
                     }
                 },
                 "slug_driver_heading": "درایور اسلاگ : {model}",
                 "slug_driver_text": "درایوری را انتخاب کنید که برای slugging این مدل استفاده شود .",
                 "title": "پایه‌ای",
                 "welcome_banner_heading": "بنر خوش‌آمد گویی",
-                "welcome_banner_text": "متن نمایش داده شده در بنر را در صفحه همه بحث ها پیکربندی کنید. برای خوش آمدگویی به میهمانان در انجمن خود از این مورد استفاده کنید."
+                "welcome_banner_text": "متن نمایش داده شده در بنر را در صفحه همه بحث ها پیکربندی کنید. برای خوش آمدگویی به میهمانان در انجمن خود از این مورد استفاده کنید.",
+                "abandoned_extensions_heading": "",
+                "abandoned_extensions_text": "",
+                "abandoned_extensions_sync_button": "",
+                "abandoned_extensions_sync_success": "",
+                "abandoned_extensions_sync_error": "",
+                "abandoned_extensions_notify_admins_label": ""
             },
             "create_user": {
                 "email_placeholder": "=> core.ref.email",
@@ -159,9 +181,23 @@
                 "use_random_password": "ایجاد رمز عبور تصادفی",
                 "username_placeholder": "=> core.ref.username"
             },
+            "announcements": {
+                "comments_label": "{count, plural, one {# نظر} other {# نظرات}}",
+                "description": "",
+                "empty": "",
+                "load_error": "",
+                "about": "",
+                "hide": "",
+                "read_more": "",
+                "refresh": "",
+                "retry": "",
+                "show": "",
+                "title": "اعلامیه‌ها",
+                "view_all": ""
+            },
             "dashboard": {
                 "clear_cache_button": "پاک کردن cache",
-                "description": "انجمن شما در یک نگاه",
+                "description": "انجمن شما در یک نگاه.",
                 "info_button": "",
                 "info_modal": {
                     "title": "",
@@ -186,6 +222,22 @@
                 "toggle_advanced_page_button": "",
                 "tools_button": "ابزارها"
             },
+            "extensions-health-widget": {
+                "abandoned_no_replacement": "",
+                "abandoned_with_replacement": "",
+                "all_healthy": "",
+                "section_abandoned_empty": "",
+                "section_suggested_empty": "",
+                "section_disabled_empty": "",
+                "title": "",
+                "section_abandoned_heading": "",
+                "section_abandoned_help": "",
+                "section_suggested_heading": "",
+                "section_suggested_help": "",
+                "section_disabled_heading": "",
+                "section_disabled_help": "",
+                "suggested_by": ""
+            },
             "debug-warning": {
                 "detail": "وقتی حالت <code>اشکال‌زدایی</code> فعال است، Flarum دارایی‌های <code>JavaScript</code> و <code>CSS</code> خود را در هر درخواست بازسازی می‌کند، و همچنین ممکن است اطلاعات دیگری مانند پایگاه داده را به بیرون درز کند. اسرار، متغیرهای محیطی و غیره\n\nبه شدت توصیه می شود که <code>debug</code> را در فایل <code>config.php</code> خود در حال تولید غیرفعال کنید. برای اطلاعات بیشتر به <link>اسناد فلاروم</link> مراجعه کنید.\n",
                 "label": "حالت اشکال‌زدایی فعال است"
@@ -205,7 +257,7 @@
                 "delete_button": "حذف گروه",
                 "delete_confirmation": "آیا اطمینان دارید که می خواهید این گروه را حذف کنید ؟ اعضای این گروه حذف نخواهند شد .",
                 "hide_label": "پنهان کردن در انجمن",
-                "icon_label": "آیکون",
+                "icon_label": "=> core.ref.icon",
                 "icon_text": "=> core.ref.icon_text",
                 "name_label": "نام",
                 "plural_placeholder": "جمع (برای مثال: مد ها)",
@@ -241,8 +293,14 @@
                 "mail_mailgun_secret_label": "کلید مخفی",
                 "mail_password_label": "=> core.ref.password",
                 "mail_port_label": "پورت",
+                "mail_postmark_message_stream_label": "",
+                "mail_postmark_token_label": "",
+                "mail_smtp_verify_peer_label": "",
+                "mail_smtp_verify_peer_help": "",
                 "mail_username_label": "=> core.ref.username",
                 "mailgun_heading": "تنظیمات میل گان",
+                "postmark_heading": "",
+                "postmark_description": "",
                 "not_sending_message": "Flarum در حال حاضر ایمیل ارسال نمی کند . این می تواند به دلیل درایور انتخاب شده یا خطا در پیکربندی آن باشد .",
                 "send_test_mail_button": "ارسال",
                 "send_test_mail_heading": "ارسال ایمیل تست",
@@ -281,35 +339,46 @@
                     "title": "مستندات {extName}"
                 },
                 "replaced": "",
+                "reset_settings": {
+                    "button": "",
+                    "cancel_button": "لغو",
+                    "confirm_button": "",
+                    "warning": "",
+                    "title": "",
+                    "title_extension": ""
+                },
                 "safe_mode_warning": ""
             },
             "header": {
                 "get_help": "کمک بگیرید",
                 "log_out_button": "=> core.ref.log_out",
-                "search_placeholder": "",
-                "search_role_label": ""
+                "search_placeholder": "جستجو...",
+                "search_role_label": "جستجو"
             },
             "loading": {
                 "title": "لطفا صبر کنید ..."
             },
             "models": {
-                "discussions": "",
-                "posts": "",
-                "users": ""
+                "discussions": "=> core.ref.discussions",
+                "posts": "=> core.ref.posts",
+                "users": "=> core.ref.users"
             },
             "nav": {
-                "advanced_button": "",
-                "advanced_title": "",
+                "advanced_button": "=> core.admin.advanced.title",
+                "advanced_title": "=> core.admin.advanced.description",
                 "appearance_button": "ظاهر",
                 "appearance_title": "=> core.admin.appearance.description",
                 "basics_button": "تنظیمات اصلی",
                 "basics_title": "=> core.admin.basics.description",
                 "categories": {
+                    "analytics": "",
                     "authentication": "احراز هویت",
                     "core": "تنظیمات",
                     "discussion": "بحث",
                     "feature": "امکانات",
                     "formatting": "قالب بندی",
+                    "forum-widget": "",
+                    "infrastructure": "زیرساخت",
                     "language": "زبان ها",
                     "moderation": "مدیریت",
                     "other": "سایر افزونه ها",
@@ -408,7 +477,7 @@
                         "user_actions": {
                             "title": "اجرا",
                             "edit_user": {
-                                "button": "",
+                                "button": "=> core.ref.edit",
                                 "tooltip": ""
                             }
                         },
@@ -518,28 +587,28 @@
                 "mark_all_as_read_confirmation": "برای علامت تمامی مباحث به‌عنوان خوانده‌شده اطمینان دارید؟",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "meta_title_text": "=> core.ref.all_discussions",
-                "refresh_tooltip": "",
+                "refresh_tooltip": "=> core.ref.refresh",
                 "start_discussion_button": "=> core.ref.start_a_discussion",
                 "skip_to_main_content": "",
                 "toggle_sidenav_dropdown_accessible_label": "تغییر منوی کشویی پیمایش"
             },
             "index_sort": {
                 "latest_button": "آخرین",
-                "newest_button": "",
-                "oldest_button": "",
-                "relevance_button": "",
+                "newest_button": "=> core.ref.newest",
+                "oldest_button": "=> core.ref.oldest",
+                "relevance_button": "=> core.ref.relevance",
                 "toggle_dropdown_accessible_label": "تغییر مرتب‌سازی فهرست بحث",
                 "top_button": "بالا"
             },
             "log_in": {
                 "forgot_password_link": "رمزعبورتان را فراموش کردید؟",
-                "invalid_login_message": "",
+                "invalid_login_message": "=> core.ref.invalid_login_message",
                 "password_placeholder": "=> core.ref.password",
-                "remember_me_label": "",
-                "sign_up_text": "حساب کاربری ندارید؟ <a>ثبت‌نام</a> کنید.",
+                "remember_me_label": "=> core.ref.remember_me_label",
+                "sign_up_text": "حساب کاربری ندارید؟ <a>ثبت‌نام کنید</a>",
                 "submit_button": "=> core.ref.log_in",
                 "title": "=> core.ref.log_in",
-                "username_or_email_placeholder": ""
+                "username_or_email_placeholder": "=> core.ref.username_or_email_placeholder"
             },
             "notifications": {
                 "delete_all_confirm": "",
@@ -569,7 +638,7 @@
             "post_list": {
                 "empty_text": "",
                 "in_discussion_text": "",
-                "load_more_button": ""
+                "load_more_button": "=> core.ref.load_more"
             },
             "post_scrubber": {
                 "now_link": "هم‌اکنون",
@@ -585,13 +654,13 @@
                 "time_lapsed_text": "{period} بعد"
             },
             "posts_sort": {
-                "newest_button": "",
-                "oldest_button": "",
-                "relevance_button": ""
+                "newest_button": "=> core.ref.newest",
+                "oldest_button": "=> core.ref.oldest",
+                "relevance_button": "=> core.ref.relevance"
             },
             "posts": {
                 "meta_title_text": "",
-                "refresh_tooltip": ""
+                "refresh_tooltip": "=> core.ref.refresh"
             },
             "rename_discussion": {
                 "submit_button": "=> core.ref.rename",
@@ -639,16 +708,19 @@
                 "color_scheme_heading": "",
                 "color_schemes": {
                     "auto_mode_label": "",
-                    "dark_hc_mode_label": "",
-                    "dark_mode_label": "",
-                    "light_hc_mode_label": "",
-                    "light_mode_label": ""
+                    "dark_hc_mode_label": "=> core.ref.dark_hc_mode_label",
+                    "dark_mode_label": "=> core.ref.dark_mode_label",
+                    "light_hc_mode_label": "=> core.ref.light_hc_mode_label",
+                    "light_mode_label": "=> core.ref.light_mode_label"
                 },
                 "notification_checkbox_a11y_label_template": "دریافت آگاهی‌های \"{description}\" از طریق {method}",
                 "notifications_heading": "=> core.ref.notifications",
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "وب‌سایت",
                 "notify_discussion_renamed_label": "اگر کسی نام مباحث من را تغییر داد",
+                "device_heading": "",
+                "haptic_feedback_help": "",
+                "haptic_feedback_label": "",
                 "privacy_disclose_online_label": "اگر آنلاین بودم به دیگران نمایش بده",
                 "privacy_heading": "حریم شخصی",
                 "title": "=> core.ref.settings"
@@ -762,17 +834,17 @@
                 },
                 "posts": {
                     "discussion": {
-                        "key": "",
+                        "key": "بحث",
                         "hint": ""
                     }
                 },
                 "users": {
                     "email": {
-                        "key": "",
+                        "key": "ایمیل",
                         "hint": ""
                     },
                     "group": {
-                        "key": "",
+                        "key": "گروه",
                         "hint": ""
                     }
                 }
@@ -784,8 +856,8 @@
                 "accessible_label": "=> core.ref.loading"
             },
             "meta_titles": {
-                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Page # - {forumName}}}",
-                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {Page # - {forumName}}}"
+                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: صفحه # - {forumName}}}",
+                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {صفحه # - {forumName}}}"
             },
             "modal": {
                 "close": "بستن"
@@ -807,35 +879,35 @@
                 "mega_text": "M"
             },
             "pagination": {
-                "back_button": "",
+                "back_button": "صفحه قبل",
                 "first_button": "",
                 "go_to_page_textbox_a11y_label": "",
                 "last_button": "",
-                "next_button": "",
-                "page_counter": ""
+                "next_button": "صفحه بعد",
+                "page_counter": "صفحه {current} از {total}"
             },
             "search": {
                 "gambit_plus_button_a11y_label": "",
                 "gambit_minus_button_a11y_label": "",
-                "title": "",
+                "title": "جستجو",
                 "no_results_text": "",
                 "no_search_text": "",
-                "options_heading": "",
-                "placeholder": "",
-                "preview_heading": "",
+                "options_heading": "گزینه‌های جستجو",
+                "placeholder": "جستجو...",
+                "preview_heading": "پیش‌نمایش جستجو",
                 "search_clear_button_accessible_label": ""
             },
             "search_source": {
                 "discussions": {
                     "all_button": "",
-                    "heading": ""
+                    "heading": "=> core.ref.discussions"
                 },
                 "posts": {
                     "all_button": "",
-                    "heading": ""
+                    "heading": "=> core.ref.posts"
                 },
                 "users": {
-                    "heading": ""
+                    "heading": "=> core.ref.users"
                 }
             },
             "series": {
@@ -846,8 +918,8 @@
             "user_selection_modal": {
                 "empty_results": "",
                 "max_items_to_select": "",
-                "search_placeholder": "",
-                "submit_button": "",
+                "search_placeholder": "=> core.ref.search_users",
+                "submit_button": "=> core.ref.okay",
                 "title": ""
             },
             "username": {
@@ -898,6 +970,7 @@
                 "maintenance_mode_link": "",
                 "maintenance_mode_message": "",
                 "maintenance_mode_title": "",
+                "method_not_allowed": "",
                 "not_authenticated": "شما اجازه دسترسی به این صفحه را ندارید. بعد از ورود دوباره امتحان کنید.",
                 "not_found": "صفحه مورد نظر شما یافت نشد.",
                 "not_found_return_link": "بازگشت به {forum}",
@@ -918,12 +991,12 @@
                 "title": "=> core.ref.log_out"
             },
             "log_in": {
-                "invalid_login_message": "",
-                "username_or_email_placeholder": "",
-                "password_placeholder": "",
-                "remember_me_label": "",
-                "submit_button": "",
-                "title": ""
+                "invalid_login_message": "=> core.ref.invalid_login_message",
+                "username_or_email_placeholder": "=> core.ref.username_or_email_placeholder",
+                "password_placeholder": "=> core.ref.password",
+                "remember_me_label": "=> core.ref.remember_me_label",
+                "submit_button": "=> core.ref.log_in",
+                "title": "=> core.ref.log_in"
             },
             "reset_password": {
                 "confirm_password_label": "تائید رمزعبور جدید",
@@ -933,7 +1006,7 @@
             },
             "unsubscribe_email": {
                 "title": "",
-                "return_to_forum": "",
+                "return_to_forum": "بازگشت به {forumTitle}",
                 "confirm_button": "",
                 "immediate_helptext": "",
                 "confirm_message": "",
@@ -950,15 +1023,15 @@
             }
         },
         "email": {
-            "greeting": "",
-            "signoff": "",
+            "greeting": "سلام {displayName}،",
+            "signoff": "تیم {forumTitle}",
             "informational": {
                 "default_title": "",
                 "footer": "",
                 "footer_plain": ""
             },
             "notification": {
-                "default_title": "",
+                "default_title": "اطلاعیه",
                 "footer": {
                     "main_text": "",
                     "main_text_plain": "",
@@ -983,6 +1056,13 @@
             "send_test": {
                 "subject": "تست ایمیل Flarum",
                 "body": ""
+            },
+            "abandoned_extensions": {
+                "subject": "",
+                "body_intro": "",
+                "body_outro": "",
+                "line_with_replacement": "",
+                "line_no_replacement": ""
             }
         },
         "ref": {
@@ -1008,7 +1088,7 @@
             "extensions": "افزونه ها",
             "generic_confirmation_message": "آیا مطمئن هستید که می خواهید ادامه دهید؟ این عمل قابل لغو نیست.",
             "icon": "آیکون",
-            "icon_text": "نام هر یک از کلاس آیکون های <a>FontAwesome</a> را وارد کنید که <em>شامل</em> پیشوند <code>fas fa-</code> باشد.",
+            "icon_text": "نام هر یک از کلاس آیکون های <a>FontAwesome</a> را وارد کنید که <em>شامل</em> پیشوند <code>fas fa-flag</code> یا <code>fa-solid fa-flag</code> باشد.",
             "invalid_login_message": "",
             "light_hc_mode_label": "",
             "light_mode_label": "",
@@ -1019,11 +1099,11 @@
             "mark_all_as_read": "علامت همه به‌عنوان خوانده‌شده",
             "never": "هرگز",
             "new_token": "توکن جدید",
-            "newest": "",
+            "newest": "جدیدترین",
             "next_page": "صفحه بعد",
             "notifications": "اعلان‌ها",
             "okay": "باشه",
-            "oldest": "",
+            "oldest": "قدیمی‌ترین",
             "password": "رمزعبور",
             "posts": "نوشته‌ها",
             "previous_page": "صفحه قبل",
@@ -1032,9 +1112,9 @@
             "remove": "حذف",
             "rename": "تغییر نام",
             "reply": "پاسخ",
-            "refresh": "",
+            "refresh": "تازه کردن",
             "reset_your_password": "تنظیم دوباره رمزعبور",
-            "restore": "بازیابی",
+            "restore": "بازنشانی",
             "save_changes": "ذخیره تغییرات",
             "search_users": "جستجوی کاربر",
             "security": "امنیت",
@@ -1043,7 +1123,7 @@
             "some_others": "{count, plural, one {# دیگر} other {# دیگر}}",
             "start_a_discussion": "شروع بحث جدید",
             "username": "نام کاربری",
-            "username_or_email_placeholder": "",
+            "username_or_email_placeholder": "نام کاربری یا ایمیل",
             "users": "کاربران",
             "view": "دیدن",
             "write_a_reply": "نوشتن پاسخ ...",

@@ -1,0 +1,44 @@
+{
+    "fof-recaptcha": {
+        "admin": {
+            "settings": {
+                "help_text": "Nhận thông tin chứng chỉ reCAPTCHA của Google của bạn <a>tại đây</a>.",
+                "secret_key_label": "Mã khoá bí mật",
+                "site_key_label": "Mã khoá trang",
+                "type_label": "Loại reCAPTCHA",
+                "type_help": "",
+                "type_options": {
+                    "checkbox": "",
+                    "invisible": "",
+                    "v3": ""
+                },
+                "v3_threshold_label": "",
+                "v3_threshold_help": "",
+                "signup": "=> core.forum.sign_up.title",
+                "signin": "=> core.forum.log_in.title",
+                "forgot": "=> core.forum.forgot_password.title"
+            },
+            "test": {
+                "title": "Kiểm tra reCAPTCHA",
+                "help_text": "Bài kiểm tra này sẽ sử dụng các giá trị hiện tại đã nhập ở trên. Hãy chắc chắn tải lại bài kiểm tra sau khi thay đổi cài đặt, và đừng quên lưu sau khi bài kiểm tra thành công!\nBên dưới có thể không phản ánh các cài đặt đã lưu.\n",
+                "success_message": "Thành công! reCAPTCHA đã được cấu hình chính xác.",
+                "load_test_button": "Tải",
+                "submit_button": "Đồng ý",
+                "reload_button": "Tải lại"
+            },
+            "permissions": {
+                "post_without_captcha": "Tạo bài viết và cuộc thảo luận không có captcha"
+            }
+        },
+        "lib": {
+            "error": "",
+            "not_completed": "",
+            "rejected": "",
+            "unknown_error": ""
+        }
+    },
+    "validation": {
+        "recaptcha": "Xác thực reCAPTCHA không thành công.",
+        "recaptcha-unknown": "Đã xảy ra lỗi không xác định khi xác thực reCAPTCHA ({errors})."
+    }
+}

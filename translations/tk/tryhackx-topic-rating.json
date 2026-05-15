@@ -1,0 +1,53 @@
+{
+    "tryhackx-topic-rating": {
+        "admin": {
+            "settings": {
+                "enabled_label": "",
+                "enabled_help": "",
+                "allow_unactivated_label": "",
+                "allow_unactivated_help": ""
+            },
+            "permissions": {
+                "rate_label": "",
+                "toggle_label": "",
+                "reset_label": ""
+            },
+            "support": {
+                "button": "",
+                "title": "",
+                "description": "",
+                "copy": "",
+                "thanks": ""
+            }
+        },
+        "forum": {
+            "tooltip": {
+                "login_required": "",
+                "activation_required": "",
+                "rate_this": "",
+                "rate_first": "",
+                "your_rating": ""
+            },
+            "rating_count": "",
+            "last_rated": "",
+            "controls": {
+                "enable_rating": "",
+                "disable_rating": "",
+                "reset_ratings": "",
+                "reset_confirm": ""
+            },
+            "reset_modal": {
+                "title": "",
+                "message": "",
+                "confirm": "",
+                "cancel": ""
+            },
+            "ratings_modal": {
+                "title": "",
+                "empty": "",
+                "deleted_user": "",
+                "updated_prefix": ""
+            }
+        }
+    }
+}

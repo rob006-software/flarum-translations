@@ -19,9 +19,18 @@
                     "extension_settings_button": "Pengaturan GDPR"
                 },
                 "user_table_data": {
-                    "not_yet_implemented": "",
                     "title": "Data Tabel Pengguna",
-                    "help_text": "Pada umumnya, setiap kolom yang ditambahkan ke tabel <code>pengguna</code> akan ditangani secara otomatis, baik untuk mengekspor data maupun untuk penghapusan. \nNamun, ada beberapa kasus khusus, yang tercantum di bawah ini.\n"
+                    "help_text": "Pada umumnya, setiap kolom yang ditambahkan ke tabel <code>pengguna</code> akan ditangani secara otomatis, baik untuk mengekspor data maupun untuk penghapusan. \nNamun, ada beberapa kasus khusus, yang tercantum di bawah ini.\n",
+                    "column": "Kolom",
+                    "type": "Tipe",
+                    "nullable": "Dapat bernilai null",
+                    "pii": "PII",
+                    "redacted_on_export": "Diedit saat ekspor",
+                    "extension": "Ekstensi",
+                    "yes": "Ya",
+                    "no": "Tidak",
+                    "pii_tooltip": "Kolom ini dianggap sebagai informasi yang dapat diidentifikasi secara pribadi dan akan diedit dalam konteks yang dianonimkan (misalnya, anonymized event payloads).",
+                    "redacted_on_export_tooltip": "Nilai kolom ini akan dikosongkan (disetel menjadi null) saat membuat ekspor data pengguna. Kolom tetap muncul dalam file ekspor, tetapi dengan nilai null."
                 }
             },
             "nav": {
@@ -74,6 +83,7 @@
                 "forum": {
                     "export_description": "Mengekspor judul forum, url, username, email, dan tanggal saat ini."
                 },
+                "default_user_action": "Tidak ada tindakan, ditangani secara default oleh tabel data pengguna.",
                 "no_action": "Tidak ada tindakan yang diambil.",
                 "posts": {
                     "anonymize_description": "Menghapus alamat IP dari semua postingan yang telah dibuat oleh pengguna.",
@@ -152,7 +162,10 @@
                 "text": "{name} telah meminta penghapusan akun.",
                 "comments_label": "Komentar (opsional)",
                 "anonymization_button": "Anonimkan pengguna",
-                "deletion_button": "Hapus pengguna"
+                "deletion_button": "Hapus pengguna",
+                "requested_at": "Diminta: {date}",
+                "confirmed_at": "Dikonfirmasi: {date}",
+                "eligible_at": "Layak untuk pemrosesan otomatis: {date}"
             },
             "request_erasure": {
                 "title": "Meminta penghapusan akun",

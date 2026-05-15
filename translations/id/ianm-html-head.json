@@ -2,21 +2,97 @@
     "ianm-html-head": {
         "admin": {
             "create_button": "Buat",
+            "help": {
+                "intro": "",
+                "preconnect": "",
+                "cache": "",
+                "pages": "",
+                "location": ""
+            },
             "table": {
+                "drag_handle": "",
                 "description_label": "Deskripsi",
-                "header_label": "Header",
+                "type_label": "",
+                "location_label": "",
+                "pages_label": "",
                 "active_label": "Aktif",
                 "empty_text": "Tidak ada entri",
                 "delete_button": "Hapus",
-                "edit_button": "Edit"
+                "edit_button": "Edit",
+                "delete_confirm": "",
+                "header_label": "Header"
             },
             "modal": {
                 "create_title": "Membuat item baru",
                 "edit_title": "Edit item",
-                "text": "Pastikan sintaksis Anda benar, karena mungkin saja forum akan rusak jika Anda memasukkan data yang salah pada item header. Setelah disimpan, aktifkan item header baru Anda menggunakan tombol sakelar (toggle switch) yang tersedia.",
                 "description_label": "Deskripsi",
-                "header_label": "Item header khusus",
-                "save_button": "Simpan"
+                "description_help": "",
+                "type_label": "",
+                "location_label": "",
+                "location_help": "",
+                "pages_label": "",
+                "save_button": "Simpan",
+                "type": {
+                    "meta": "",
+                    "link": "",
+                    "script": "",
+                    "style": "",
+                    "raw": ""
+                },
+                "location": {
+                    "head": "",
+                    "foot": ""
+                },
+                "pages": {
+                    "forum": "",
+                    "admin": ""
+                },
+                "meta": {
+                    "variant_label": "",
+                    "name_label": "",
+                    "property_label": "",
+                    "content_label": ""
+                },
+                "link": {
+                    "rel_label": "",
+                    "href_label": "",
+                    "as_label": "",
+                    "as_help": "",
+                    "crossorigin_label": "",
+                    "crossorigin_help": "",
+                    "fetchpriority_label": "",
+                    "fetchpriority_default": "",
+                    "fetchpriority_help": "",
+                    "extras_label": "",
+                    "extras_add": "",
+                    "extras_remove": ""
+                },
+                "script": {
+                    "external_label": "",
+                    "inline_label": "",
+                    "src_label": "",
+                    "inline_content_label": "",
+                    "defer_label": "",
+                    "defer_help": "",
+                    "async_label": "",
+                    "async_help": "",
+                    "module_label": "",
+                    "module_help": "",
+                    "crossorigin_label": "",
+                    "crossorigin_help": ""
+                },
+                "style": {
+                    "inline_label": "",
+                    "inline_help": ""
+                },
+                "raw": {
+                    "content_label": "",
+                    "help_text": ""
+                },
+                "preview_label": "",
+                "preview_empty": "",
+                "text": "Pastikan sintaksis Anda benar, karena mungkin saja forum akan rusak jika Anda memasukkan data yang salah pada item header. Setelah disimpan, aktifkan item header baru Anda menggunakan tombol sakelar (toggle switch) yang tersedia.",
+                "header_label": "Item header khusus"
             }
         }
     }

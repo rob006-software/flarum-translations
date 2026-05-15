@@ -1,0 +1,20 @@
+{
+    "fof-online-users-widget": {
+        "admin": {
+            "settings": {
+                "cache_ttl": "Käyttäjälistan välimuistiaika (sekunteina)",
+                "last_seen_interval": "Viimeinen nähty -aikaväli, jonka perusteella käyttäjä katsotaan paikalla olevaksi (minuuteissa)",
+                "max_users": "Enimmäismäärä näytettäviä käyttäjiä"
+            },
+            "permissions": {
+                "view_online_users_widget": "Paikalla olevat käyttäjät -pienoissovellus"
+            }
+        },
+        "forum": {
+            "widget": {
+                "title": "Paikalla olevat käyttäjät",
+                "empty": "Ei käyttäjiä paikalla."
+            }
+        }
+    }
+}

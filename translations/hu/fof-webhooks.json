@@ -53,11 +53,11 @@
                 "debug_help": "További naplók hozzáadása a Flarum naplófájljához a webhookok és az események helytelen működésének hibakeresése érdekében.",
                 "item": {
                     "tag_any_label": "Bármely címke",
-                    "edit_tooltip": "",
-                    "delete_tooltip": "",
-                    "delete_confirm_alert": "",
-                    "create_button": "",
-                    "edit_tags_button": ""
+                    "edit_tooltip": "Webhook beállításainak szerkesztése",
+                    "delete_tooltip": "Webhook törlése",
+                    "delete_confirm_alert": "Biztos, hogy törli ezt a webhookot: {service}?",
+                    "create_button": "Létrehozás",
+                    "edit_tags_button": "Címkék szerkesztése"
                 },
                 "help": {
                     "disabled": "Ez a webhook le van tiltva, mert egyetlen eseménye sincs engedélyezve.",

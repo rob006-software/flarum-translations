@@ -27,10 +27,10 @@
                 "warning_no_strikes": "收到管理员 {mod_username} 的警告"
             },
             "post_controls": {
-                "warning_button": "警告"
+                "warning_button": "警告用户"
             },
             "user": {
-                "warnings": ""
+                "warnings": "警告"
             },
             "settings": {
                 "warning_notification_label": "收到站务警告"
@@ -51,8 +51,8 @@
                 "warnings_no_strikes": "站务警告"
             },
             "warning_list_item": {
-                "list_item_heading": "",
-                "list_item_heading_hidden": "",
+                "list_item_heading": "{strikes, plural, one {# 次警告，{time}} other {# 次警告，{time}}}",
+                "list_item_heading_hidden": "{strikes, plural, one {# 次警告，{time}（已撤销）} other {# 次警告，{time}（已撤销）}}",
                 "public_comment": "警告",
                 "private_comment": "管理员备注",
                 "linked_post": "关联帖子"

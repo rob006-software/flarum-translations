@@ -53,11 +53,11 @@
                 "debug_help": "Lisää ylimääräinen loki Flarumin omaan lokitiedostoon debugataksesi ongelmia webhookkien ja/tai tapahtumien toiminnassa.",
                 "item": {
                     "tag_any_label": "Mikä tahansa avainsana",
-                    "edit_tooltip": "",
-                    "delete_tooltip": "",
-                    "delete_confirm_alert": "",
-                    "create_button": "",
-                    "edit_tags_button": ""
+                    "edit_tooltip": "Muokkaa webhookin asetuksia",
+                    "delete_tooltip": "Poista webhook",
+                    "delete_confirm_alert": "Haluatko varmasti poistaa tämän palvelun {service} webhookin?",
+                    "create_button": "Luo",
+                    "edit_tags_button": "Muokkaa avainsanoja"
                 },
                 "help": {
                     "disabled": "Tämä webhook on poistettu käytöstä, koska siinä ei ole tapahtumia käytössä.",

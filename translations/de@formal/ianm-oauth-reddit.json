@@ -1,0 +1,28 @@
+{
+    "fof-oauth": {
+        "admin": {
+            "settings": {
+                "providers": {
+                    "reddit": {
+                        "description": "Registriere dein Forum bei Reddit {link}",
+                        "client_id_label": "Client-ID",
+                        "client_secret_label": "Client Secret"
+                    }
+                }
+            }
+        },
+        "forum": {
+            "log_in": {
+                "with_reddit_button": "=> fof-oauth.forum.log_in.with_button"
+            },
+            "providers": {
+                "reddit": "=> fof-oauth.lib.providers.reddit"
+            }
+        },
+        "lib": {
+            "providers": {
+                "reddit": "Reddit"
+            }
+        }
+    }
+}

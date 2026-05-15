@@ -1,0 +1,44 @@
+{
+    "fof-recaptcha": {
+        "admin": {
+            "settings": {
+                "help_text": "Получите данные для подключения Google reCAPTCHA <a>здесь</a>.",
+                "secret_key_label": "Секретный ключ",
+                "site_key_label": "Ключ сайта",
+                "type_label": "Тип reCAPTCHA",
+                "type_help": "Выбранный тип должен соответствовать типу ваших учётных данных reCAPTCHA. Checkbox и Invisible — это reCAPTCHA v2; v3 основана на оценке и работает незаметно.",
+                "type_options": {
+                    "checkbox": "v2 Чекбокс",
+                    "invisible": "v2 Невидимая",
+                    "v3": "v3 Оценка"
+                },
+                "v3_threshold_label": "Порог оценки reCAPTCHA v3",
+                "v3_threshold_help": "Оценки ниже этого значения будут отклонены (0.0 — скорее бот, 1.0 — скорее человек). Google рекомендует 0.5 как начальное значение. Используется только для v3.",
+                "signup": "=> core.forum.sign_up.title",
+                "signin": "=> core.forum.log_in.title",
+                "forgot": "=> core.forum.forgot_password.title"
+            },
+            "test": {
+                "title": "Тест reCAPTCHA",
+                "help_text": "В этом тесте используются значения параметров, указанные выше. Обязательно обновите тест после изменения настроек и не забудьте сохранить результат после успешного прохождения теста!\nНиже могут не отображаться сохранённые настройки.\n",
+                "success_message": "Успешно! reCAPTCHA настроена правильно.",
+                "load_test_button": "Загрузка",
+                "submit_button": "Отправить",
+                "reload_button": "Обновить"
+            },
+            "permissions": {
+                "post_without_captcha": "Публиковать сообщения и дискуссии без reCAPTCHA"
+            }
+        },
+        "lib": {
+            "error": "Ошибка при отправке reCAPTCHA. Попробуйте ещё раз.",
+            "not_completed": "Пройдите проверку reCAPTCHA, чтобы продолжить.",
+            "rejected": "Проверка reCAPTCHA не пройдена. Попробуйте ещё раз.",
+            "unknown_error": "Неизвестная ошибка. Попробуйте ещё раз."
+        }
+    },
+    "validation": {
+        "recaptcha": "Проверка reCAPTCHA не пройдена.",
+        "recaptcha-unknown": "Произошла неизвестная ошибка при проверке reCAPTCHA ({errors})."
+    }
+}

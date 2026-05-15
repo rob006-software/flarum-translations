@@ -1,0 +1,50 @@
+{
+    "ralkage-account-lockout": {
+        "api": {
+            "error": {
+                "locked_timed": "Akun terkunci. Silakan coba lagi dalam {minutes} menit.",
+                "locked_manual": "Akun terkunci. Silakan hubungi administrator."
+            }
+        },
+        "admin": {
+            "settings": {
+                "max_attempts_label": "Jumlah Maksimum Percobaan Login Gagal",
+                "max_attempts_help": "Jumlah percobaan login gagal berturut-turut sebelum akun dikunci.",
+                "lockout_mode_label": "Mode Penguncian",
+                "lockout_mode_help": "Berbasis waktu: otomatis terbuka setelah jangka waktu tertentu. Manual: harus dibuka oleh admin/moderator.",
+                "lockout_duration_label": "Durasi Penguncian (menit)",
+                "lockout_duration_help": "Berapa lama akun tetap terkunci. Hanya berlaku jika mode penguncian diatur ke Berbasis waktu."
+            },
+            "permissions": {
+                "unlock_users_label": "Buka kunci akun yang terkunci"
+            },
+            "users": {
+                "lock_status_column": "Status Penguncian",
+                "locked_tooltip": "Akun ini terkunci",
+                "unlock_button": "Buka Kunci",
+                "unlock_confirmation": "Apakah Anda yakin ingin membuka kunci {username}?"
+            }
+        },
+        "forum": {
+            "user_controls": {
+                "unlock_button": "Buka Kunci"
+            },
+            "user_badge": {
+                "locked_tooltip": "Akun Terkunci"
+            },
+            "unlock_modal": {
+                "title": "Buka Kunci {username}",
+                "locked_since": "Terkunci sejak {date}",
+                "locked_until": "Otomatis terbuka pada {date}",
+                "manually_locked": "Akun ini dikunci secara manual dan memerlukan admin atau moderator untuk membukanya.",
+                "failed_attempts": "{count} percobaan login gagal",
+                "unlock_button": "Buka Kunci Akun"
+            },
+            "log_in": {
+                "locked_timed": "Akun ini telah dikunci karena terlalu banyak percobaan login gagal. Silakan coba lagi dalam {minutes} menit.",
+                "locked_manual": "Akun ini telah dikunci. Silakan hubungi administrator.",
+                "attempts_remaining": "Kredensial tidak valid. Tersisa {remaining} dari {max} percobaan login sebelum akun Anda dikunci."
+            }
+        }
+    }
+}

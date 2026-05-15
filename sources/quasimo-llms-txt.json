@@ -1,0 +1,26 @@
+{
+    "quasimo-llms-txt": {
+        "admin": {
+            "settings": {
+                "urls_label": "Endpoint URLs",
+                "urls_help": "Once enabled, the following URLs will serve LLM-friendly content about your forum.",
+                "open_label": "Open in new tab",
+                "enabled_label": "Enable llms.txt",
+                "enabled_help": "Serve a concise index of your forum at {url} — links to categories and recent discussions.",
+                "full_enabled_label": "Enable llms-full.txt",
+                "full_enabled_help": "Serve the full text of all discussions at {url} — includes every post's content.",
+                "sort_label": "Discussion sort order",
+                "sort_latest": "Latest activity",
+                "sort_top": "Most replies",
+                "sort_help": "How discussions are sorted in both generated files.",
+                "max_discussions_label": "Max discussions to include",
+                "max_discussions_help": "Maximum number of discussions to list (1–1000). Default: 100.",
+                "max_posts_label": "Max posts per discussion (llms-full.txt only)",
+                "max_posts_help": "Maximum number of posts to include per discussion in the full file (1–500). Default: 50.",
+                "custom_intro_label": "Custom introduction paragraph",
+                "custom_intro_placeholder": "Enter an optional introduction that will appear below the forum title in both files.",
+                "custom_intro_help": "Leave blank to omit. Plain text or Markdown supported."
+            }
+        }
+    }
+}

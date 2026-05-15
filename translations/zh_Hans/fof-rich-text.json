@@ -2,50 +2,50 @@
     "fof-rich-text": {
         "admin": {
             "settings": {
-                "toggle_on_editor": "",
-                "force_compact_paragraphs": ""
+                "toggle_on_editor": "在编辑器上显示富文本模式切换按钮？",
+                "force_compact_paragraphs": "为所有用户强制使用紧凑段落（回车键创建换行而不是新段落）"
             }
         },
         "lib": {
             "composer": {
-                "toggle_button": "",
-                "insert_button": "",
+                "toggle_button": "切换富文本模式",
+                "insert_button": "插入",
                 "insert_image": {
-                    "src_placeholder": "",
-                    "title_placeholder": ""
+                    "src_placeholder": "链接",
+                    "title_placeholder": "标题"
                 },
                 "insert_link": {
-                    "text_placeholder": "",
-                    "href_placeholder": "",
-                    "title_placeholder": "",
-                    "remove_button": ""
+                    "text_placeholder": "文本",
+                    "href_placeholder": "网址",
+                    "title_placeholder": "标题（悬停时显示）",
+                    "remove_button": "删除"
                 },
-                "additional_items_tooltip": "",
-                "bold_tooltip": "",
-                "code_tooltip": "",
-                "code_block_tooltip": "",
-                "header_tooltip": "",
-                "horizontal_rule_tooltip": "",
-                "image_tooltip": "",
-                "italic_tooltip": "",
-                "link_tooltip": "",
-                "ordered_list_tooltip": "",
-                "paragraph_tooltip": "",
-                "quote_tooltip": "",
-                "spoiler_block_tooltip": "",
-                "spoiler_inline_tooltip": "",
-                "strike_tooltip": "",
-                "sub_tooltip": "",
-                "sup_tooltip": "",
-                "text_type_tooltip": "",
-                "unordered_list_tooltip": ""
+                "additional_items_tooltip": "附加控件",
+                "bold_tooltip": "粗体文本 ({modifierKey}-b)",
+                "code_tooltip": "行内代码 ({modifierKey}-`)",
+                "code_block_tooltip": "插入代码块",
+                "header_tooltip": "更改为标题 {level} ({modifierKey}-shift-{level})",
+                "horizontal_rule_tooltip": "插入水平线",
+                "image_tooltip": "添加图片",
+                "italic_tooltip": "斜体文本 ({modifierKey}-i)",
+                "link_tooltip": "添加链接",
+                "ordered_list_tooltip": "编号列表 ({modifierKey}-shift-9)",
+                "paragraph_tooltip": "更改为段落 ({modifierKey}-shift-0)",
+                "quote_tooltip": "插入引用 ({modifierKey}-q)",
+                "spoiler_block_tooltip": "块剧透/下拉菜单",
+                "spoiler_inline_tooltip": "剧透 ({modifierKey}-;)",
+                "strike_tooltip": "删除线 (alt-shift-5)",
+                "sub_tooltip": "下标 ({modifierKey}-,)",
+                "sup_tooltip": "上标 ({modifierKey}-.)",
+                "text_type_tooltip": "选择文本类型",
+                "unordered_list_tooltip": "项目符号列表 ({modifierKey}-shift-8)"
             }
         },
         "forum": {
             "settings": {
-                "composer_heading": "",
-                "use_rich_text_editor_label": "",
-                "rich_text_compact_paragraphs_label": ""
+                "composer_heading": "编辑器",
+                "use_rich_text_editor_label": "使用富文本编辑器？",
+                "rich_text_compact_paragraphs_label": "不要用换行符分隔段落。"
             }
         }
     }

@@ -2,19 +2,19 @@
     "fof-webhooks": {
         "actions": {
             "discussion": {
-                "started": "发布主题 `{1}`",
+                "started": "发布讨论 `{1}`",
                 "renamed": {
-                    "title": "重命名主题 `{1}`",
+                    "title": "重命名讨论 `{1}`",
                     "description": "新标题：{1}"
                 },
-                "hidden": "隐藏主题 `{1}`",
-                "restored": "恢复主题 `{1}`",
-                "deleted": "删除主题 `{1}`"
+                "hidden": "隐藏讨论 `{1}`",
+                "restored": "恢复讨论 `{1}`",
+                "deleted": "删除讨论 `{1}`"
             },
             "group": {
-                "created": "创建用户组 `{1}`",
-                "renamed": "重命名用户组为 `{1}`",
-                "deleted": "删除用户组`{1}`"
+                "created": "创建群组 `{1}`",
+                "renamed": "重命名群组为 `{1}`",
+                "deleted": "删除群组`{1}`"
             },
             "post": {
                 "posted": "新回复于 `{1}`",
@@ -53,11 +53,11 @@
                 "debug_help": "当 Webhook 或事件工作不正常时，你可以启用此项。更多日志信息会输出到 Flarum 日志文件，以帮助你调试问题。",
                 "item": {
                     "tag_any_label": "任一标签",
-                    "edit_tooltip": "",
-                    "delete_tooltip": "",
-                    "delete_confirm_alert": "",
-                    "create_button": "",
-                    "edit_tags_button": ""
+                    "edit_tooltip": "编辑 webhook 设置",
+                    "delete_tooltip": "删除 webhook",
+                    "delete_confirm_alert": "您确定要删除此 {service} webhook 吗？",
+                    "create_button": "创建",
+                    "edit_tags_button": "编辑标签"
                 },
                 "help": {
                     "disabled": "此 Webhook 已被禁用，因为它没有启用事件。",
@@ -72,13 +72,13 @@
                     "max_post_content_length_label": "最大贴子内容长度",
                     "max_post_content_length_help": "设置所有与帖子相关事件的最大帖子内容长度。0 或不填表示无限制。",
                     "extra_text_label": "附加文本",
-                    "extra_text_help": "附加文本到发送的 Webhook 中",
+                    "extra_text_help": "附加文本到发送的 Webhook 中。",
                     "group_label": "组群",
                     "group_help": "发送该组群可见的资源",
-                    "name_label": "",
-                    "name_help": "",
+                    "name_label": "名称",
+                    "name_help": "webhook 的名称。这将用于 Discord 用户名、Slack 机器人名称等。",
                     "events_label": "事件",
-                    "include_matching_tags_label": ""
+                    "include_matching_tags_label": "包含匹配标签 -- 对于限制为特定标签的 webhook，显示事件匹配了哪些标签"
                 },
                 "services": {
                     "discord": "Discord",
@@ -88,7 +88,7 @@
                 "actions": {
                     "flarum": {
                         "discussion": {
-                            "title": "Flarum 主题",
+                            "title": "Flarum 讨论",
                             "started": "已发布",
                             "renamed": "=> fof-webhooks.ref.renamed",
                             "hidden": "=> fof-webhooks.ref.hidden",
@@ -96,7 +96,7 @@
                             "deleted": "=> fof-webhooks.ref.deleted"
                         },
                         "group": {
-                            "title": "Flarum 用户组",
+                            "title": "Flarum 群组",
                             "created": "创建",
                             "renamed": "=> fof-webhooks.ref.renamed",
                             "deleted": "=> fof-webhooks.ref.deleted"

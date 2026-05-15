@@ -1,0 +1,134 @@
+{
+    "ernestdefoe-social-groups": {
+        "forum": {
+            "groups": {
+                "title": "Группы",
+                "create_button": "Создать группу",
+                "search_placeholder": "Поиск групп…",
+                "empty_title": "Пока нет групп",
+                "empty_text": "Время создать первую!",
+                "empty_search": "Нет групп по вашему запросу.",
+                "load_error": "Не удалось загрузить группы. Попробуйте снова.",
+                "members_count": "{count, plural, one {# участник} few {# участника} many {# участников} other {# участников}}",
+                "join": "Вступить",
+                "joined": "Участник",
+                "leave": "Покинуть",
+                "view": "Перейти",
+                "private": "Приватная",
+                "public": "Публичная",
+                "approval_required": "Требуется одобрение",
+                "request_to_join": "Подать заявку",
+                "pending": "Ожидание…",
+                "cancel_request": "Отменить заявку"
+            },
+            "create_modal": {
+                "title": "Создать группу",
+                "name_label": "Название группы",
+                "name_placeholder": "Например, «Любители фотографии»",
+                "description_label": "Описание",
+                "description_placeholder": "О чём эта группа?",
+                "color_label": "Акцентный цвет",
+                "private_label": "Приватная группа",
+                "private_help": "Приватные группы видны только участникам.",
+                "membership_type_label": "Тип",
+                "membership_type_open": "Открытая — любой может вступить",
+                "membership_type_approval": "Требуется одобрение — создатель должен одобрить каждую заявку",
+                "image_label": "Изображение группы",
+                "banner_label": "Баннер группы",
+                "submit": "Создать группу",
+                "name_required": "Название группы обязательно."
+            },
+            "edit_modal": {
+                "title": "Редактирование группы",
+                "submit": "Сохранить изменения"
+            },
+            "discussions": {
+                "title": "Дискуссии",
+                "new_button": "Новая дискуссия",
+                "start_button": "Создать дискуссию",
+                "empty": "Пока нет дискуссий. Создайте первую!",
+                "back": "Назад к группе",
+                "create_title": "Создать дискуссию",
+                "title_label": "Заголовок",
+                "title_placeholder": "Что у вас на уме?",
+                "content_label": "Первое сообщение",
+                "content_placeholder": "Напишите что-нибудь…",
+                "submit": "Создать",
+                "prev_page": "Предыдущая страница",
+                "next_page": "Следующая страница",
+                "delete": "Удалить дискуссию",
+                "delete_confirm": "Удалить эту дискуссию и все ответы в ней?",
+                "reply_count": "{count, plural, one {# ответ} few {# ответа} many {# ответов} other {# ответов}}",
+                "locked": "Закрыто",
+                "reply_placeholder": "Напишите ответ…",
+                "reply_button": "Отправить",
+                "upload_image": "",
+                "upload_remove": "",
+                "edited": "(отредактировано)",
+                "edit": "Править",
+                "save_edit": "Сохранить",
+                "cancel_edit": "Отменить",
+                "delete_post": "Удалить",
+                "delete_post_confirm": "Удалить это сообщение?",
+                "like": "",
+                "react_like": "",
+                "react_heart": "",
+                "react_haha": "",
+                "react_wow": "",
+                "react_sad": "",
+                "react_angry": "",
+                "view_comments": "",
+                "feed_placeholder": "",
+                "comments_count": ""
+            },
+            "group": {
+                "about_title": "О группе",
+                "edit": "Править группу",
+                "delete": "Удалить группу",
+                "delete_confirm": "Удалить эту группу? Это действие нельзя отменить.",
+                "options": "Настройки группы",
+                "members_section": "Участники",
+                "description_placeholder": "Описания пока нет.",
+                "promote_member": "Назначить модератором",
+                "demote_member": "Понизить до участника",
+                "role_creator": "Создатель",
+                "role_admin": "Модератор",
+                "remove_member": "Удалить",
+                "remove_member_confirm": "",
+                "load_error": "Не удалось загрузить группу.",
+                "not_found": "Группа не найдена.",
+                "members_load_error": "Не удалось загрузить участников.",
+                "members_empty": "Участников пока нет."
+            },
+            "requests": {
+                "title": "Заявки на вступление",
+                "approve": "Одобрить",
+                "reject": "Отклонить"
+            },
+            "invite": {
+                "title": "Пригласить участника",
+                "button": "Пригласить",
+                "username_label": "Имя пользователя",
+                "username_placeholder": "Введите точное имя пользователя…",
+                "submit": "Отправить приглашение",
+                "success": "Пользователь {username} добавлен в группу.",
+                "error_generic": "Что-то пошло не так. Попробуйте снова."
+            },
+            "upload": {
+                "change": "Изменить",
+                "invalid_type": "Недопустимый тип файла. Загрузите изображение в формате JPG, PNG, GIF или WebP.",
+                "too_large": "Файл слишком большой. Максимальный размер — 5 МБ."
+            },
+            "notifications": {
+                "new_post": "",
+                "new_reply": ""
+            }
+        },
+        "admin": {
+            "permissions": {
+                "create_groups": "Создавать социальные группы",
+                "moderate_groups": "Править и удалять социальные группы"
+            }
+        }
+    }
+}

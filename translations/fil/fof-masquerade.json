@@ -1,0 +1,84 @@
+{
+    "fof-masquerade": {
+        "forum": {
+            "alerts": {
+                "profile-completion-required": "",
+                "profile-completed": ""
+            },
+            "buttons": {
+                "view-profile": "",
+                "edit-profile": "",
+                "save-profile": ""
+            },
+            "fields": {
+                "select": {
+                    "none-optional": "",
+                    "none-required": ""
+                },
+                "boolean": {
+                    "yes": "",
+                    "no": ""
+                }
+            }
+        },
+        "admin": {
+            "buttons": {
+                "add-field": "",
+                "edit-field": "",
+                "delete-field": ""
+            },
+            "permissions": {
+                "edit-others-profile": "",
+                "have-profile": "",
+                "view-profile": ""
+            },
+            "fields": {
+                "title": "",
+                "create": "",
+                "edit": "",
+                "delete-confirmation": "",
+                "name": "",
+                "name-help": "",
+                "description": "",
+                "description-help": "",
+                "required": "",
+                "on_bio": "",
+                "type": "",
+                "validation": "",
+                "validation-help": "",
+                "icon": "",
+                "icon-help": "",
+                "force-user-to-completion": "",
+                "hide-empty-fields": "",
+                "options": "",
+                "option-new": "",
+                "option-comma-warning": ""
+            },
+            "types": {
+                "advanced": "",
+                "boolean": "",
+                "email": "",
+                "select": "",
+                "url": ""
+            }
+        },
+        "lib": {
+            "gambits": {
+                "answer": {
+                    "key": ""
+                }
+            }
+        }
+    },
+    "flarum-gdpr": {
+        "lib": {
+            "data": {
+                "masqueradeanswers": {
+                    "export_description": "",
+                    "delete_description": "",
+                    "anonymize_description": ""
+                }
+            }
+        }
+    }
+}

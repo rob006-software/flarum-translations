@@ -1,0 +1,25 @@
+{
+    "ralkage-hcaptcha": {
+        "admin": {
+            "settings": {
+                "help_text": "Получите учетные данные для использования hCaptcha <a>здесь</a>.",
+                "secret_key_label": "Секретный ключ",
+                "site_key_label": "Ключ для сайта",
+                "type_label": "Тип hCaptcha",
+                "dark_mode_label": "Тёмная тема",
+                "dark_mode_help": "Использовать тёмную тему для виджета hCaptcha. Включите, если на форуме используется тёмная тема.",
+                "enable_login_label": "Требовать при входе",
+                "enable_login_help": "Требовать hCaptcha при входе пользователей. Помогает защититься от атак перебора."
+            },
+            "permissions": {
+                "post_without_hcaptcha": "Создавать сообщения и дискуссии без использования hCaptcha"
+            }
+        },
+        "forum": {
+            "error": "При отправке hCaptcha произошла ошибка. Попробуйте еще раз."
+        }
+    },
+    "validation": {
+        "hcaptcha": "Проверка через hCaptcha не прошла."
+    }
+}

@@ -53,11 +53,11 @@
                 "debug_help": "Agrega registros adicionales al archivo de registro de Flarum para depurar problemas con webhooks y/o eventos que no funcionan correctamente.",
                 "item": {
                     "tag_any_label": "Cualquiera",
-                    "edit_tooltip": "",
-                    "delete_tooltip": "",
-                    "delete_confirm_alert": "",
-                    "create_button": "",
-                    "edit_tags_button": ""
+                    "edit_tooltip": "Editar la configuración del webhook",
+                    "delete_tooltip": "Borrar webhook",
+                    "delete_confirm_alert": "¿Estás seguro que quieres eliminar este webhook {service}?",
+                    "create_button": "Crear",
+                    "edit_tags_button": "Editar etiquetas"
                 },
                 "help": {
                     "disabled": "El webhook está deshabilitado porque no tiene ningún evento activo.",

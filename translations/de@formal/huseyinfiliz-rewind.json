@@ -1,0 +1,325 @@
+{
+    "huseyinfiliz-rewind": {
+        "admin": {
+            "tabs": {
+                "general": "Allgemein",
+                "slides": "Folien",
+                "advanced": "Erweitert"
+            },
+            "settings": {
+                "enabled_label": "Rückblick aktivieren",
+                "active_year_label": "Aktives Jahr",
+                "invalid_active_year": "Das aktive Jahr muss eine ganze Zahl zwischen 2000 und 2100 sein.",
+                "show_menu_link_label": "Rückblick-Link im Benutzermenü anzeigen",
+                "slides_user": "Benutzer-Rückblick",
+                "slides_community": "Community-Rückblick",
+                "slides_help": "Wähle aus, welche Folien in der „Rückblick“-Diashow angezeigt werden sollen. Es werden immer alle Daten erfasst – ausgeblendete Folien werden lediglich nicht angezeigt.",
+                "section_core": "Kernmetriken",
+                "section_content": "Inhalt",
+                "section_social": "Social",
+                "section_people": "Leute",
+                "section_achievements": "Errungenschaften",
+                "slide_post_count": "Beiträge",
+                "slide_discussion_count": "Diskussionen",
+                "slide_active_days": "Tage aktiv",
+                "slide_word_count": "Wörter geschrieben",
+                "slide_most_active_month": "Geschäftigster Monat",
+                "slide_top_words": "Häufigste Wörter",
+                "slide_night_owl": "Aktivste Stunden",
+                "slide_best_post": "Bester Beitrag",
+                "slide_top_emojis": "Beliebteste Emojis",
+                "slide_top_tag": "Beliebtestes Thema",
+                "slide_likes_given": "Likes gegeben",
+                "slide_likes_received": "Likes erhalten",
+                "slide_best_friend": "Engste Freunde",
+                "slide_best_friend_mentions": "Erwähnungen",
+                "slide_badges_earned": "Abzeichen",
+                "slide_best_answers": "Beste Antworten",
+                "community_slide_year-overview": "Das Jahr in Zahlen",
+                "community_slide_busiest_month": "Geschäftigster Monat",
+                "community_slide_peak_hour": "Aktivste Tageszeit",
+                "community_slide_total_words": "Wörter geschrieben",
+                "community_slide_new_members": "Neue Mitglieder",
+                "community_slide_top_contributors": "Aktivste Mitglieder",
+                "community_slide_most_loved": "Meistgeliebt",
+                "community_slide_most_active_user": "Aktivster Benutzer",
+                "community_slide_star_post": "Star-Beitrag",
+                "community_slide_top_discussion": "Heiß diskutiertes Thema",
+                "community_slide_top_tag": "Beliebtestes Thema",
+                "community_slide_best_answers_leaderboard": "Rangliste für Beste Antworten",
+                "community_slide_badge_leaderboard": "Abzeichen-Rangliste",
+                "community_comparison_label": "Community-Vergleich in Benutzer-Rückblick aktivieren",
+                "community_comparison_help": "Wenn aktiviert, wird in Benutzer-Rückblicken angezeigt, wie die Kennzahlen im Vergleich zu den Durchschnittswerten der Community ausfallen. Der Community-Rückblick muss zuvor erstellt werden.",
+                "generate_community_title": "Community-Rückblick erstellen",
+                "generate_community_help": "Berechne die community-weiten Statistiken für das aktive Jahr. Dies sollte erfolgen, bevor Benutzer-Rückblicke generiert werden, sofern der Community-Vergleich aktiviert ist.",
+                "generate_community_button": "Community-Rückblick erstellen",
+                "generate_users_title": "Fehlende Benutzer-Rückblicke erstellen",
+                "generate_users_help": "Erstelle „Rückblick“-Snapshots für alle Benutzer, die noch keinen haben. Wähle ein Jahr aus und filtere optional nach Gruppe.",
+                "generate_users_button": "Fehlende Rückblicke erstellen",
+                "delete_rewinds_title": "Benutzer-Rückblicke löschen",
+                "delete_rewinds_help": "Benutzer-Rückblick-Snapshots nach Jahr und optional nach Gruppe löschen.",
+                "delete_rewinds_button": "Rückblicke löschen"
+            },
+            "generate_modal": {
+                "community_title": "Community-Rückblick erstellen",
+                "users_title": "Fehlende Benutzer-Rückblicke erstellen",
+                "delete_title": "Benutzer-Rückblicke löschen",
+                "year_label": "Jahr",
+                "group_label": "Benutzergruppe",
+                "all_users": "Alle Benutzer",
+                "start": "Beginnen",
+                "cancel": "Abbrechen",
+                "confirm": "Bestätigen",
+                "delete_confirm": "Löschen",
+                "warning": "Schließe diese Seite nicht, solange dieser Vorgang läuft.",
+                "done": "Abgeschlossen — {count} Elemente verarbeitet.",
+                "deleted": "{count} Rückblicke gelöscht.",
+                "nothing": "Es gibt nichts zu verarbeiten — alles auf dem neuesten Stand.",
+                "invalid_year": "Das Jahr muss eine ganze Zahl zwischen 2000 und dem aktuellen Jahr sein.",
+                "close": "Schließen"
+            },
+            "permissions": {
+                "view_forum": "Rückblick-Seite anzeigen",
+                "generate": "Eigenen Rückblick erstellen",
+                "moderate": "Rückblicke verwalten"
+            }
+        },
+        "forum": {
+            "page": {
+                "title": "Rückblick",
+                "hero_title": "{year} Rückblick",
+                "hero_subtitle": "Dein Jahresrückblick",
+                "generate_button": "Mein Rückblick erstellen",
+                "generating": "Dein Rückblick wird erstellt...",
+                "view_button": "Mein Rückblick anzeigen",
+                "personal_title": "Dein persönlicher Rückblick",
+                "my_rewind": "Mein Rückblick",
+                "not_available": "Rückblick ist derzeit nicht verfügbar.",
+                "admin_notice": "„Rückblick“ ist derzeit für normale Benutzer nicht sichtbar. Aktiviere die Funktion im Admin-Bereich, um sie öffentlich zugänglich zu machen.",
+                "no_snapshot": "Du hast dein {year} Rückblick noch nicht erstellt.",
+                "empty_public": "Dieser Nutzer hat keine öffentlichen Rückblick-Schnappschüsse."
+            },
+            "community": {
+                "title": "Community-Höhepunkte",
+                "not_generated": "Community-Rückblick wurde noch nicht erstellt.",
+                "generate_button": "Community-Rückblick erstellen",
+                "regenerate": "Community-Rückblick neu erstellen",
+                "regenerate_short": "Neu erstellen",
+                "regenerate_confirm": "Dadurch werden die vorhandenen Community-Rückblick-Daten für dieses Jahr überschrieben. Möchtest du fortfahren?",
+                "coming_soon": "Community-Rückblick wurde noch nicht erstellt. Bleib dran!",
+                "no_activity": "Für dieses Jahr gibt es nicht genug Aktivitäten",
+                "view_slideshow": "Diashow anzeigen",
+                "watch_slideshow": "Sieh dir den Community-Rückblick für {Jahr} an",
+                "watch_slideshow_desc": "Die Höhepunkte des Jahres im Story-Format",
+                "new_users": "Neue Mitglieder",
+                "total_posts": "Beiträge insgesamt",
+                "total_discussions": "Diskussionen begonnen",
+                "top_discussion": "Aktivste Diskussion",
+                "most_active_user": "Aktivstes Mitglied",
+                "top_tag": "Beliebtestes Thema",
+                "post_count_label": "{count} Beiträge"
+            },
+            "profile": {
+                "tab": "Rückblick",
+                "year_card": "{year} Rückblick",
+                "generate_for_year": "{year} Rückblick erstellen",
+                "tap_to_watch": "Zum Anschauen antippen",
+                "not_yet_available": "Noch nicht verfügbar",
+                "no_activity": "Zu wenig Aktivität",
+                "public_badge": "Öffentlich",
+                "private_badge": "Privat",
+                "controls": {
+                    "make_public": "Öffentlich machen",
+                    "make_private": "Privat machen",
+                    "regenerate": "Neu erstellen",
+                    "delete": "Löschen",
+                    "confirm_delete": "Möchtest du diesen Rückblick wirklich löschen?"
+                }
+            },
+            "metrics": {
+                "post_count": {
+                    "title": "Beiträge",
+                    "description": "Hat {count} Beiträge im Forum beigetragen",
+                    "messages": {
+                        "tier_1": "Jede Legende fängt mit dem ersten Beitrag an",
+                        "tier_2": "Das Forum hört aufmerksam zu",
+                        "tier_3": "Leute kennen deinen Namen",
+                        "tier_4": "Das Forum wäre um Einiges stiller ohne dich",
+                        "tier_5": "Schläfst du überhaupt irgendwann?"
+                    }
+                },
+                "discussion_count": {
+                    "title": "Diskussionen",
+                    "description": "{count} neue Konversationen begonnen",
+                    "messages": {
+                        "tier_1": "Jedes Gespräch beginnt mit jemandem, der mutig genug für den ersten Schritt ist",
+                        "tier_2": "Regt überall Gespräche an",
+                        "tier_3": "Ein echter Gemeinschaftsbildner"
+                    }
+                },
+                "active_days": {
+                    "title": "Aktive Tage",
+                    "description": "An {count} verschiedenen Tagen beigetragen",
+                    "messages": {
+                        "tier_1": "Wenige bedeutungsvolle Besuche",
+                        "tier_2": "Ständige Anwesenheit",
+                        "tier_3": "War an den meisten Tagen anwesend",
+                        "tier_4": "Praktisch schon Teil der Einrichtung",
+                        "tier_5": "Jede Woche, ohne Ausnahme"
+                    }
+                },
+                "top_tag": {
+                    "title": "Beliebtestes Thema",
+                    "description": "Das aktivste Thema mit {count} Beiträgen",
+                    "no_data": "Keine Themendaten verfügbar"
+                },
+                "most_active_month": {
+                    "title": "Geschäftigster Monat",
+                    "description": "Spitzenmonat mit {count} Beiträgen"
+                },
+                "word_count": {
+                    "title": "Wörter",
+                    "description": "Hat ungefähr {count} Wörter geschrieben",
+                    "messages": {
+                        "tier_1": "Kurz und bündig",
+                        "tier_2": "Hatte etwas zu sagen",
+                        "tier_3": "Der Umfang eines Kurzromans",
+                        "tier_4": "„Krieg und Frieden“ zittert vor Angst",
+                        "tier_5": "Thomas Mann wäre stolz"
+                    }
+                },
+                "best_post": {
+                    "title": "Bester Beitrag",
+                    "description_likes": "{count} Likes in „{discussion_title}“",
+                    "description_replies": "{count} Antworten in „{discussion_title}“",
+                    "no_data": "Kein herausragender Beitrag in diesem Jahr"
+                },
+                "likes_given": {
+                    "title": "Likes vergeben",
+                    "description": "Hat {count} Likes im Forum vergeben",
+                    "messages": {
+                        "tier_1": "Ein aufmerksames Like hier und da",
+                        "tier_2": "Verbreitet positive Stimmung",
+                        "tier_3": "Größter Anfeurer des Forums"
+                    }
+                },
+                "likes_received": {
+                    "title": "Likes empfangen",
+                    "description": "In diesem Jahr {count} Likes erhalten",
+                    "messages": {
+                        "tier_1": "Worte, die nachhallten",
+                        "tier_2": "Die Leute wissen wirklich zu schätzen, was du schreibst",
+                        "tier_3": "Sehr beliebt hier"
+                    }
+                },
+                "best_friend": {
+                    "title": "Bester Freund",
+                    "description": "{display_name} hat deinen Beiträgen {count} Likes gegeben",
+                    "no_data": "Es liegen keine Daten zu besten Freunden vor",
+                    "message": "Unzertrennlich in diesem Jahr",
+                    "stat_likes_received": "Mag dich",
+                    "stat_likes_given": "Magst du",
+                    "stat_mentions_from": "Hat dich erwähnt",
+                    "stat_mentions_to": "Hast du erwähnt"
+                },
+                "best_friend_mentions": {
+                    "title": "Erwähnungen",
+                    "description": "Du hast {display_name} {count} Mal erwähnt",
+                    "no_data": "Es liegen kein Daten zu Erwähnungen vor",
+                    "you_mentioned": "Du hast erwähnt × {count}",
+                    "mentioned_you": "Du wurdest erwähnt × {count}"
+                },
+                "badges_earned": {
+                    "title": "Abzeichen",
+                    "description": "Hat dieses Jahr {count} Abzeichen gesammelt",
+                    "no_data": "Dieses Jahr keine Abzeichen gesammelt"
+                },
+                "top_words": {
+                    "title": "Häufigste Wörter",
+                    "description": "Am häufigsten verwendete Wörter"
+                },
+                "top_emojis": {
+                    "title": "Beliebteste Emojis",
+                    "description": "Die am häufigsten verwendeten Emojis"
+                },
+                "best_answers": {
+                    "title": "Beste Antworten",
+                    "description": "{count} Antworten als Lösung markiert",
+                    "messages": {
+                        "tier_1": "Hat jemandem geholfen, eine Antwort zu finden",
+                        "tier_2": "Die erste Anlaufstelle für Antworten",
+                        "tier_3": "Der Experte des Forums"
+                    }
+                },
+                "community_compare": {
+                    "above": "{times}x der Durchschnittswert der Community",
+                    "above_average": "Über dem Community-Durchschnitt",
+                    "average": "Etwa der Community-Durchschnitt",
+                    "below_average": "Unter dem Community-Durchschnitt"
+                },
+                "night_owl": {
+                    "title": "Aktive Stunden",
+                    "description": "Die meisten Beiträge wurden um diese Uhrzeit verfasst",
+                    "description_owl": "Die meisten Beiträge wurden um diese Uhrzeit verfasst"
+                }
+            },
+            "slideshow": {
+                "tap_to_start": "Zum Starten antippen →",
+                "not_available": "Rückblick nicht verfügbar",
+                "summary_title": "Dein Jahr {Jahr} in Zahlen",
+                "no_data": "Zu wenig Aktivität, um einen Rückblick zu erstellen",
+                "close": "Schließen",
+                "share": "Teilen",
+                "link_copied": "Link in die Zwischenablage kopiert!",
+                "visibility_status_public": "Öffentlich",
+                "visibility_status_private": "Privat",
+                "visibility_tap_hide": "Zum Ausblenden antippen",
+                "visibility_tap_show": "Zum Veröffentlichen antippen"
+            },
+            "community_slideshow": {
+                "title": "Community-Rückblick",
+                "intro_label": "COMMUNITY RÜCKBLICK",
+                "year_in_numbers": "Das Jahr in Zahlen",
+                "posts": "Beiträge",
+                "discussions": "Diskussionen",
+                "new_members": "Neue Mitglieder",
+                "busiest_month": "Geschäftigster Monat",
+                "busiest_month_desc": "Spitzenmonat mit {count} Beiträgen",
+                "peak_hours": "Aktivste Tageszeit",
+                "peak_hours_desc": "Die meisten Beiträge wurden um diese Uhrzeit verfasst",
+                "top_contributors": "Top-Beitragende",
+                "top_contributors_desc": "Aktivste Mitglieder in diesem Jahr",
+                "star_post": "Star-Beitrag",
+                "star_post_desc": "Beliebtester Beitrag des Jahres",
+                "most_loved": "Am beliebtesten",
+                "most_loved_desc": "Mitglieder, die die meisten Likes erhalten haben",
+                "hot_discussion": "Heiß diskutiert",
+                "hot_discussion_desc": "{count} Beiträge in dieser Diskussion",
+                "top_tag": "Beliebtestes Thema",
+                "top_tag_desc": "Meistdiskutiertes Thema mit {count} Diskussionen",
+                "total_words": "Geschriebene Wörter",
+                "total_words_desc": "Von der gesamten Community",
+                "total_words_label": "Wörter insgesamt",
+                "avg_per_post": "Durchschnitt pro Beitrag",
+                "new_members_slide": "Neue Mitglieder",
+                "new_members_desc": "{count} sind der Community beigetreten",
+                "summary_title": "{year} Community-Höhepunkte",
+                "words": "Wörter",
+                "busiest_month_label": "Geschäftigster Monat",
+                "peak_hour_label": "Aktivste Stunde",
+                "top_contributor_label": "Top-Beitragender",
+                "top_tag_label": "Beliebtestes Thema",
+                "reactions": "Reaktionen",
+                "best_answers": "Beste Antworten",
+                "badges_awarded": "Abzeichen vergeben",
+                "best_answers_leaderboard": "Problemlöser",
+                "best_answers_leaderboard_desc": "Mitglieder mit den meisten besten Antworten",
+                "badge_leaderboard": "Abzeichensammler",
+                "badge_leaderboard_desc": "Mitglieder mit den meisten Abzeichen"
+            },
+            "user_menu": {
+                "rewind_link": "Rückblick {year}"
+            }
+        }
+    }
+}

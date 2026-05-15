@@ -8,10 +8,10 @@
                         "begin_button_text": "Bisect starten",
                         "continue_button_text": "Bisect fortsetzen",
                         "label": "Erweiterungs-Bisect",
-                        "help": "Hilft dabei, diejenige Erweiterung zu identifizieren, die das von dir beobachtete Problem verursacht. Dadurch wird das Forum automatisch in den Wartungsmodus (niedrig) versetzt, bis der Vorgang abgeschlossen ist."
+                        "help": "Hilft dabei, diejenige Erweiterung zu identifizieren, die das von dir beobachtete Problem verursacht. Dadurch wird das Forum automatisch in den einfachen Wartungsmodus versetzt, bis der Vorgang abgeschlossen ist."
                     },
                     "bisect_modal": {
-                        "description": "Dadurch wird das Forum bis zum Abschluss des Vorgangs in den Wartungsmodus (niedrig) versetzt. In jedem Schritt werden einige Erweiterungen deaktiviert, bis diejenige gefunden wurde, die das Problem verursacht. Sei also nicht überrascht, wenn Funktionen fehlen oder das Design des Themes anders ist. Lass diese Seite geöffnet und versuche, das Problem nach jedem Schritt auf einer separaten Seite zu reproduzieren. Du kannst jederzeit zu dieser Seite zurückkehren, wenn du sie versehentlich geschlossen hast.\n",
+                        "description": "Dadurch wird das Forum bis zum Abschluss des Vorgangs in den einfache Wartungsmodus versetzt. In jedem Schritt werden einige Erweiterungen deaktiviert, bis diejenige gefunden wurde, die das Problem verursacht. Sei also nicht überrascht, wenn Funktionen fehlen oder das Design des Themes anders ist. Lass diese Seite geöffnet und versuche, das Problem nach jedem Schritt auf einer separaten Seite zu reproduzieren. Du kannst jederzeit zu dieser Seite zurückkehren, wenn du sie versehentlich geschlossen hast.\n",
                         "end_button": "Schließen und zur Erweiterungsseite gehen",
                         "issue_question": "Tritt das Problem weiterhin auf?",
                         "issue_question_help": "Versuche, das Problem auf einer separaten Seite zu reproduzieren, und antworte anhand des Ergebnisses.",
@@ -53,6 +53,14 @@
                     "config_override": {
                         "label": "Konfigurationsüberschreibung",
                         "help": "Die FontAwesome-Einstellungen sind derzeit in deiner config.php-Datei festgelegt und können hier nicht geändert werden."
+                    },
+                    "preview": {
+                        "button": "Symbolvorschau",
+                        "label": "Symbolvorschau",
+                        "help": "Überprüfe deine FontAwesome-Konfiguration. Ein gerendertes Symbol bedeutet, dass diese Stufe verfügbar ist; ein durchgestrichenes Kästchen bedeutet, dass sie nicht geladen wurde.",
+                        "fa5_fa6_label": "FA5/FA6-Aliasse",
+                        "fa7_label": "FA7-Klassen",
+                        "pro_label": "Nur Pro"
                     }
                 },
                 "pgsql": {
@@ -64,7 +72,7 @@
                     "sync_help": "Für eine bessere Leistung und Benutzererfahrung solltest du die Verwendung des Datenbank-Warteschlangentreibers in Betracht ziehen. Weitere Informationen findest du in der Dokumentation.",
                     "custom_driver": "Dein Forum verwendet den {driver} Queue-Treiber, der von einer Erweiterung bereitgestellt wird.",
                     "retries_label": "Job-Wiederholungsversuche",
-                    "retries_help": "Maximale Anzahl von Versuchen, einen Auftrag auszuführen, bevor er als fehlgeschlagen markiert wird. Der Standardwert ist 1.",
+                    "retries_help": "Maximale Anzahl von Versuchen, einen Job auszuführen, bevor er als fehlgeschlagen markiert wird. Der Standardwert ist 1.",
                     "memory_label": "Speicherlimit (MB)",
                     "memory_help": "Maximaler Speicher, den der Queue-Worker vor dem Neustart verwenden kann. Der Standardwert beträgt 128 MB.",
                     "timeout_label": "Zeitlimit für Jobs (Sekunden)",
@@ -75,7 +83,7 @@
                     "backoff_help": "Zeit, die vor dem erneuten Versuch eines fehlgeschlagenen Jobs gewartet werden soll. Der Standardwert ist 0 Sekunden."
                 },
                 "search": {
-                    "section_label": "Treiber suchen",
+                    "section_label": "Suchtreiber",
                     "driver_heading": "Treiber suchen: {model}",
                     "driver_text": "Wähle einen Treiber, der für die Suche nach diesem Modell verwendet werden soll.",
                     "driver_options": {
@@ -108,6 +116,8 @@
                 "favicon_text": "Lade ein Bild hoch, welches als Favicon für das Forum verwendet wird.",
                 "logo_heading": "Logo",
                 "logo_text": "Lade ein Logo hoch, welches anstelle des Forum-Titels angezeigt wird.",
+                "logo_dark_mode_heading": "Logo für dunklen Modus",
+                "logo_dark_mode_text": "Lade ein alternatives Logo hoch, das angezeigt werden soll, wenn der Dunkle Modus aktiviert ist.",
                 "title": "Erscheinungsbild",
                 "color_scheme_label": "Farbschema (Standard)",
                 "color_schemes": {
@@ -127,9 +137,14 @@
                 },
                 "display_name_heading": "Anzeigename",
                 "display_name_text": "Wähle den Treiber, der verwendet wird, um den Anzeigenamen der Benutzer zu bestimmen. Standardmäßig wird der Benutzername angezeigt.",
-                "forum_description_heading": "Beschreibung des Forums",
-                "forum_description_text": "Kurze Beschreibung des Forums. Diese erscheint in den Meta-Tags für Suchmaschinen.",
-                "forum_title_heading": "Titel des Forums",
+                "avatar_driver_options": {
+                    "default": "Standard"
+                },
+                "avatar_driver_heading": "Benutzeravatar",
+                "avatar_driver_text": "Wähle einen Treiber aus, der für die Avatare der Benutzer verwendet werden soll, wenn kein vom Benutzer hochgeladener Avatar verfügbar ist. Standardmäßig wird kein Avatar angezeigt, wenn ein Benutzer keinen hochgeladen hat.",
+                "forum_description_heading": "Forumbeschreibung",
+                "forum_description_text": "Kurze Beschreibung des Forums. Diese erscheint in den Meta-Tags und wird in Suchmaschinen angezeigt.",
+                "forum_title_heading": "Forumtitel",
                 "home_page_heading": "Startseite",
                 "home_page_text": "Wähle die Seite aus, die Benutzer beim Besuch des Forums zuerst sehen.",
                 "show_language_selector_label": "Sprachauswahlmenü zeigen",
@@ -140,14 +155,21 @@
                     },
                     "users": {
                         "default": "Benutzername",
-                        "id": "ID"
+                        "id": "ID",
+                        "id_with_display_name": "ID mit Anzeigename"
                     }
                 },
                 "slug_driver_heading": "Slug-Treiber: {model}",
                 "slug_driver_text": "Wähle den Treiber, welcher die Foren-URLs mit einem \"Slug\" ausstattet.",
                 "title": "Grundeinstellungen",
                 "welcome_banner_heading": "Willkommensnachricht",
-                "welcome_banner_text": "Lege den Text fest, der auf der Seite \"Alle Diskussionen\" erscheint, um Besucher zu begrüßen."
+                "welcome_banner_text": "Lege den Text fest, der auf der Seite \"Alle Diskussionen\" erscheint, um Besucher zu begrüßen.",
+                "abandoned_extensions_heading": "Verwaiste Erweiterungen",
+                "abandoned_extensions_text": "Flarum führt eine <a>Community-Liste verwaister Erweiterungen</a>. Wenn eine installierte Erweiterung auf dieser Liste erscheint, wird sie im Admin-Panel markiert.",
+                "abandoned_extensions_sync_button": "Jetzt prüfen",
+                "abandoned_extensions_sync_success": "Liste der verwaisten Erweiterungen wurde aktualisiert. {count} installierte Erweiterung(en) wurden gefunden.",
+                "abandoned_extensions_sync_error": "Das Abrufen der Liste verwaister Erweiterungen ist fehlgeschlagen. Bitte versuche es später erneut.",
+                "abandoned_extensions_notify_admins_label": "Administratoren per E-Mail benachrichtigen, wenn bei der wöchentlichen Prüfung eine neue verwaiste Erweiterung erkannt wird"
             },
             "create_user": {
                 "email_placeholder": "=> core.ref.email",
@@ -158,6 +180,20 @@
                 "title": "Neuen Benutzer anlegen",
                 "use_random_password": "Zufälliges Passwort erzeugen",
                 "username_placeholder": "=> core.ref.username"
+            },
+            "announcements": {
+                "comments_label": "{count, plural, one {# Kommentar} other {# Kommentare}}",
+                "description": "Aktuelle Neuigkeiten und Ankündigungen des Flarum-Teams.",
+                "empty": "Keine Ankündigungen gefunden.",
+                "load_error": "Die Ankündigungen konnten nicht geladen werden. Bitte versuche es später erneut.",
+                "about": "Aktuelle Nachrichten und Ankündigungen aus der offiziellen Flarum-Community unter discuss.flarum.org.",
+                "hide": "Ankündigungen ausblenden",
+                "read_more": "Weiterlesen",
+                "refresh": "Ankündigungen aktualisieren",
+                "retry": "Erneut versuchen",
+                "show": "Ankündigungen anzeigen",
+                "title": "Ankündigungen",
+                "view_all": "Alle auf discuss.flarum.org anzeigen"
             },
             "dashboard": {
                 "clear_cache_button": "Cache leeren",
@@ -185,6 +221,22 @@
                 "title": "Dashboard",
                 "toggle_advanced_page_button": "Erweiterte Seite umschalten",
                 "tools_button": "Werkzeuge"
+            },
+            "extensions-health-widget": {
+                "abandoned_no_replacement": "Kein Ersatz verfügbar",
+                "abandoned_with_replacement": "Ersetzt durch {replacement}",
+                "all_healthy": "Alle Erweiterungen sind in Ordnung.",
+                "section_abandoned_empty": "Es wurden keine Probleme festgestellt.",
+                "section_suggested_empty": "Keine Vorschläge.",
+                "section_disabled_empty": "Alle Erweiterungen sind aktiviert.",
+                "title": "Status der Erweiterungen",
+                "section_abandoned_heading": "Erfordern deine Aufmerksamkeit",
+                "section_abandoned_help": "Diese Erweiterungen werden nicht mehr gepflegt oder weisen möglicherweise Kompatibilitätsprobleme auf. Du solltest erwägen, sie zu aktualisieren, zu ersetzen oder zu entfernen.",
+                "section_suggested_heading": "Vorschläge für Erweiterungen",
+                "section_suggested_help": "Flarum-Erweiterungen können durch das Hinzufügen weiterer Erweiterungen oder Pakete optionale Zusatzfunktionen erhalten. Diese können zusätzliche Funktionen oder Integrationen ergänzen.",
+                "section_disabled_heading": "Deaktiviert",
+                "section_disabled_help": "Diese Erweiterungen sind installiert, aber derzeit nicht aktiviert. Aktiviere sie über die jeweilige Einstellungsseite oder entferne sie, wenn sie nicht mehr benötigt werden.",
+                "suggested_by": "Vorgeschlagen von {extension}"
             },
             "debug-warning": {
                 "detail": "Sofern der <code>Debugmodus</code> aktiv ist, wird Flarum seine <code>JavaScript</code> und <code>CSS</code> Ressourcen bei jedem Seitenabruf neu generieren und könnte zudem potenziell weitere Informationen preisgeben, etwa Datenbankgeheimnisse, Umgebungsvariablen usw.\n\nEs wird dringend empfohlen, den <code>debug</code> in deiner <code>config.php</code> Datei in einem Produktionskontext zu deaktivieren. Konsultiere die <link>Flarum Dokumentation</link> für zusätzliche Informationen.\n",
@@ -241,8 +293,14 @@
                 "mail_mailgun_secret_label": "Geheimer Schlüssel",
                 "mail_password_label": "=> core.ref.password",
                 "mail_port_label": "Port",
+                "mail_postmark_message_stream_label": "Nachrichtenstream",
+                "mail_postmark_token_label": "Server-Token",
+                "mail_smtp_verify_peer_label": "SSL-Zertifikat überprüfen",
+                "mail_smtp_verify_peer_help": "Überprüfe das SSL-Zertifikat des Servers, wenn du TLS- oder SSL-Verschlüsselung verwendest. Deaktiviere diese Option nur, wenn dein Mailserver ein selbstsigniertes Zertifikat verwendet.",
                 "mail_username_label": "=> core.ref.username",
                 "mailgun_heading": "Mailgun Einstellungen",
+                "postmark_heading": "Postmark-Einstellungen",
+                "postmark_description": "E-Mails über die HTTP-API von Postmark versenden. Optional kann ein Nachrichtenstream angegeben werden, um einen anderen als den Standardstream zu verwenden.",
                 "not_sending_message": "Flarum sendet derzeit keine E-Mails. Bitte überprüfe die Korrektheit deiner E-Mail-Konfiguration.",
                 "send_test_mail_button": "Absenden",
                 "send_test_mail_heading": "Test-E-Mail senden",
@@ -281,6 +339,14 @@
                     "title": "Dokumentation von {extName}"
                 },
                 "replaced": "Ersetzt",
+                "reset_settings": {
+                    "button": "Einstellungen zurücksetzen",
+                    "cancel_button": "Abbrechen",
+                    "confirm_button": "Zurücksetzen",
+                    "warning": "Dieser Vorgang ist unwiderruflich. Die folgenden Einstellungen werden dauerhaft aus der Datenbank gelöscht und auf ihre Standardwerte zurückgesetzt. Die Daten dieser Erweiterung sind davon nicht betroffen.",
+                    "title": "Einstellungen zurücksetzen",
+                    "title_extension": "Einstellungen für {extensionTitle} zurücksetzen"
+                },
                 "safe_mode_warning": "Der abgesicherte Modus ist derzeit aktiviert. Erweiterungen werden nicht gestartet, sodass auf ihre Einstellungen nicht zugegriffen werden kann."
             },
             "header": {
@@ -305,11 +371,14 @@
                 "basics_button": "=> core.admin.basics.title",
                 "basics_title": "=> core.admin.basics.description",
                 "categories": {
+                    "analytics": "Analytik",
                     "authentication": "Authentifizierung",
                     "core": "Kernkonfiguration",
                     "discussion": "Diskussion",
                     "feature": "Funktionen",
                     "formatting": "Formatierung",
+                    "forum-widget": "Forum-Widgets",
+                    "infrastructure": "Infrastruktur",
                     "language": "Sprachen",
                     "moderation": "Moderation",
                     "other": "Sonstige Erweiterungen",
@@ -649,6 +718,9 @@
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "Web",
                 "notify_discussion_renamed_label": "Wenn jemand eine Diskussion ändert, die du gestartet hast",
+                "device_heading": "Geräte",
+                "haptic_feedback_help": "Nur auf unterstützten Mobilgeräten verfügbar",
+                "haptic_feedback_label": "Haptisches Feedback aktivieren",
                 "privacy_disclose_online_label": "Meinen Online-Status anzeigen",
                 "privacy_heading": "Privatsphäre",
                 "title": "=> core.ref.settings"
@@ -821,7 +893,7 @@
                 "no_results_text": "Es sieht so aus, als gäbe es hier keine Ergebnisse.",
                 "no_search_text": "Du hast noch nicht nach etwas gesucht.",
                 "options_heading": "Suchoptionen",
-                "placeholder": "Suche...",
+                "placeholder": "Suchen...",
                 "preview_heading": "Suchvorschau",
                 "search_clear_button_accessible_label": "Suchanfrage löschen"
             },
@@ -898,6 +970,7 @@
                 "maintenance_mode_link": "Administrator-Anmeldung",
                 "maintenance_mode_message": "Dieses Forum ist derzeit wegen Wartungsarbeiten nicht verfügbar. Bitte versuche es später erneut.",
                 "maintenance_mode_title": "Wartung",
+                "method_not_allowed": "Diese Seite unterstützt diese Anforderungsmethode nicht.",
                 "not_authenticated": "Du hast keine Berechtigung, auf diese Seite zuzugreifen. Versuche dich erneut anzumelden.",
                 "not_found": "Die angeforderte Seite konnte nicht gefunden werden.",
                 "not_found_return_link": "Zurück zu {forum}",
@@ -983,6 +1056,13 @@
             "send_test": {
                 "subject": "Flarum E-Mail Test",
                 "body": "Dies ist eine Test-E-Mail, um zu überprüfen, ob deine Flarum-E-Mail-Konfiguration ordnungsgemäß funktioniert.\n\nWenn du der Absender warst, bedeutet diese E-Mail, dass deine Konfiguration funktioniert!\n\nWenn du nicht der Absender warst, ignoriere diese E-Mail bitte.\n"
+            },
+            "abandoned_extensions": {
+                "subject": "Aktion erforderlich: Verwaiste Erweiterung(en) erkannt",
+                "body_intro": "Folgende installierte Erweiterung(en) wurde(n) als veraltet markiert:",
+                "body_outro": "Bitte prüfe diese Erweiterungen und erwäge gegebenenfalls eine Umstellung auf Alternativen, sofern diese verfügbar sind.",
+                "line_with_replacement": "{package} (vorgeschlagener Ersatz: {replacement})",
+                "line_no_replacement": "{package} (Kein Ersatz verfügbar)"
             }
         },
         "ref": {
@@ -1008,7 +1088,7 @@
             "extensions": "Erweiterungen",
             "generic_confirmation_message": "Bist du sicher, dass du fortfahren willst? Diese Aktion kann nicht rückgängig gemacht werden.",
             "icon": "Symbol",
-            "icon_text": "Gebe den Namen des <a>FontAwesome</a>-Symbols ein, aber <em>mit</em> dem Prefix <code>fas fa-</code>.",
+            "icon_text": "Gebe den Namen der <a>FontAwesome</a>-Symbolklasse ein, aber <em>mit</em> dem Präfix (z. B. <code>fas fa-flag</code> oder <code>fa-solid fa-flag</code>).",
             "invalid_login_message": "Deine Anmeldedaten waren falsch.",
             "light_hc_mode_label": "Heller Modus mit hohem Kontrast",
             "light_mode_label": "Heller Modus",

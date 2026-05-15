@@ -6,16 +6,16 @@
                 "delete_link_confirmation": "",
                 "internal_link": "",
                 "open_newtab": "",
-                "submit_button": "",
-                "title": "",
-                "title_label": "",
-                "title_placeholder": "",
-                "icon_label": "",
-                "icon_text": "",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> fof-links.ref.create_link",
+                "title_label": "=> fof-links.ref.title",
+                "title_placeholder": "=> fof-links.ref.title",
+                "icon_label": "=> core.ref.icon",
+                "icon_text": "=> core.ref.icon_text",
                 "icon_additional_text": "",
                 "url_description": "",
-                "url_label": "",
-                "url_placeholder": "",
+                "url_label": "=> fof-links.ref.url",
+                "url_placeholder": "=> fof-links.ref.url",
                 "use_rel_me": "",
                 "visibility": {
                     "help": "",
@@ -28,8 +28,8 @@
                 }
             },
             "links": {
-                "create_button": "",
-                "links": "",
+                "create_button": "=> fof-links.ref.create_link",
+                "links": "=> fof-links.ref.links",
                 "preconfigured": ""
             },
             "settings": {

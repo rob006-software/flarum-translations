@@ -53,6 +53,14 @@
                     "config_override": {
                         "label": "",
                         "help": ""
+                    },
+                    "preview": {
+                        "button": "",
+                        "label": "",
+                        "help": "",
+                        "fa5_fa6_label": "",
+                        "fa7_label": "",
+                        "pro_label": ""
                     }
                 },
                 "pgsql": {
@@ -108,6 +116,8 @@
                 "favicon_text": "Wyślij obrazek, który będzie wyświetlany jako ikona forum.",
                 "logo_heading": "Logo",
                 "logo_text": "Wyślij obrazek, który będzie wyświetlany jako logo w miejscu nazwy forum.",
+                "logo_dark_mode_heading": "",
+                "logo_dark_mode_text": "",
                 "title": "Wygląd forum",
                 "color_scheme_label": "",
                 "color_schemes": {
@@ -127,8 +137,13 @@
                 },
                 "display_name_heading": "Wyświetlana nazwa użytkownika",
                 "display_name_text": "Wybierz sterownik, który powinien być używany do wyświetlania nazw użytkowników. Domyślnie wyświetlana jest nazwa użytkownika.",
+                "avatar_driver_options": {
+                    "default": ""
+                },
+                "avatar_driver_heading": "",
+                "avatar_driver_text": "",
                 "forum_description_heading": "Opis forum",
-                "forum_description_text": "Wpisz 1-2 krótkie zdania, które opisują Twoją społeczność. Ten tekst pojawi się w meta tagu i będzie się pokazywał w wyszukiwarkach.",
+                "forum_description_text": "Wpisz 1-2 krótkie zdania, które opisują Twoje forum. Ten tekst pojawi się w meta tagu i będzie się pokazywał w wyszukiwarkach.",
                 "forum_title_heading": "Nazwa forum",
                 "home_page_heading": "Strona domowa",
                 "home_page_text": "Wybierz stronę, którą użytkownicy zobaczą jako pierwszą, gdy odwiedzą Twoje forum.",
@@ -140,14 +155,21 @@
                     },
                     "users": {
                         "default": "",
-                        "id": ""
+                        "id": "",
+                        "id_with_display_name": ""
                     }
                 },
                 "slug_driver_heading": "Generator slugów: {model}",
                 "slug_driver_text": "Wybierz generator slugów dla tego modelu.",
                 "title": "Podstawowe",
                 "welcome_banner_heading": "Baner powitalny",
-                "welcome_banner_text": "Skonfiguruj tekst, który wyświetla się w banerze na stronie \"Wszystkie dyskusje\". Użyj go, aby powitać gości na swoim forum."
+                "welcome_banner_text": "Skonfiguruj tekst, który wyświetla się w banerze na stronie \"Wszystkie dyskusje\". Użyj go, aby powitać gości na swoim forum.",
+                "abandoned_extensions_heading": "",
+                "abandoned_extensions_text": "",
+                "abandoned_extensions_sync_button": "",
+                "abandoned_extensions_sync_success": "",
+                "abandoned_extensions_sync_error": "",
+                "abandoned_extensions_notify_admins_label": ""
             },
             "create_user": {
                 "email_placeholder": "=> core.ref.email",
@@ -158,6 +180,20 @@
                 "title": "Utwórz nowego użytkownika",
                 "use_random_password": "Wygeneruj losowe hasło",
                 "username_placeholder": "=> core.ref.username"
+            },
+            "announcements": {
+                "comments_label": "{count, plural, one {# komentarz} few {# komentarze} other {# komentarzy}}",
+                "description": "Ostatnie wiadomości i ogłoszenia od zespołu Flarum.",
+                "empty": "Nie znaleziono ogłoszeń.",
+                "load_error": "Nie można załadować ogłoszeń. Spróbuj ponownie później.",
+                "about": "Najnowsze wiadomości i ogłoszenia pochodzące z oficjalnej społeczności Flarum na stronie discuss.flarum.org.",
+                "hide": "Ukryj ogłoszenia",
+                "read_more": "Czytaj więcej",
+                "refresh": "Odśwież ogłoszenia",
+                "retry": "Spróbuj ponownie",
+                "show": "Pokaż ogłoszenia",
+                "title": "Ogłoszenia",
+                "view_all": "Zobacz wszystkie na discuss.flarum.org"
             },
             "dashboard": {
                 "clear_cache_button": "Wyczyść cache",
@@ -185,6 +221,22 @@
                 "title": "Kokpit",
                 "toggle_advanced_page_button": "",
                 "tools_button": "Narzędzia"
+            },
+            "extensions-health-widget": {
+                "abandoned_no_replacement": "",
+                "abandoned_with_replacement": "",
+                "all_healthy": "",
+                "section_abandoned_empty": "",
+                "section_suggested_empty": "",
+                "section_disabled_empty": "",
+                "title": "",
+                "section_abandoned_heading": "",
+                "section_abandoned_help": "",
+                "section_suggested_heading": "",
+                "section_suggested_help": "",
+                "section_disabled_heading": "",
+                "section_disabled_help": "",
+                "suggested_by": ""
             },
             "debug-warning": {
                 "detail": "Gdy tryb <code>debug</code> jest aktywny, Flarum będzie odświeżać pliki <code>JavaScript</code> i <code>CSS</code> przy każdym wczytaniu strony, a także może ujawnić poufne informacje, jak na przykład dane dostępowe do bazy danych, zmienne środowiskowe itp.\n\nZalecane jest wyłączenie trybu <code>debug</code> w pliku <code>config.php</code> dla środowisk produkcyjnych. Sprawdź <link>dokumentację Flarum</link> aby uzyskać więcej informacji.\n",
@@ -241,8 +293,14 @@
                 "mail_mailgun_secret_label": "Secret key",
                 "mail_password_label": "=> core.ref.password",
                 "mail_port_label": "Port",
+                "mail_postmark_message_stream_label": "",
+                "mail_postmark_token_label": "",
+                "mail_smtp_verify_peer_label": "",
+                "mail_smtp_verify_peer_help": "",
                 "mail_username_label": "=> core.ref.username",
                 "mailgun_heading": "Ustawienia Mailguna",
+                "postmark_heading": "",
+                "postmark_description": "",
                 "not_sending_message": "Obecnie Flarum nie wysyła żadnych wiadomości e-mail. Może to być skutek wybranego sterownika lub błędów w konfiguracji.",
                 "send_test_mail_button": "Wyślij",
                 "send_test_mail_heading": "Wyślij testowy e-mail",
@@ -281,6 +339,14 @@
                     "title": "Dokumentacja {extName}"
                 },
                 "replaced": "Zastąpione",
+                "reset_settings": {
+                    "button": "",
+                    "cancel_button": "",
+                    "confirm_button": "",
+                    "warning": "",
+                    "title": "",
+                    "title_extension": ""
+                },
                 "safe_mode_warning": ""
             },
             "header": {
@@ -305,11 +371,14 @@
                 "basics_button": "=> core.admin.basics.title",
                 "basics_title": "=> core.admin.basics.description",
                 "categories": {
+                    "analytics": "",
                     "authentication": "Uwierzytelnianie",
                     "core": "Główne ustawienia",
                     "discussion": "Dyskusja",
                     "feature": "Funkcje",
                     "formatting": "Formatowanie",
+                    "forum-widget": "",
+                    "infrastructure": "",
                     "language": "Języki",
                     "moderation": "Moderacja",
                     "other": "Inne rozszerzenia",
@@ -649,6 +718,9 @@
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "Web",
                 "notify_discussion_renamed_label": "Ktoś zmienił tytuł dyskusji, którą rozpocząłem",
+                "device_heading": "",
+                "haptic_feedback_help": "",
+                "haptic_feedback_label": "",
                 "privacy_disclose_online_label": "Pozwól innym widzieć, kiedy jestem online",
                 "privacy_heading": "Prywatność",
                 "title": "=> core.ref.settings"
@@ -898,6 +970,7 @@
                 "maintenance_mode_link": "",
                 "maintenance_mode_message": "",
                 "maintenance_mode_title": "",
+                "method_not_allowed": "Ta strona nie obsługuje tej metody żądania.",
                 "not_authenticated": "Nie masz uprawnień, aby przeglądać tę stronę. Spróbuj ponownie po zalogowaniu.",
                 "not_found": "Podana strona nie istnieje.",
                 "not_found_return_link": "Wróć na {forum}",
@@ -983,6 +1056,13 @@
             "send_test": {
                 "subject": "Testowa wiadomość z Flarum",
                 "body": ""
+            },
+            "abandoned_extensions": {
+                "subject": "",
+                "body_intro": "",
+                "body_outro": "",
+                "line_with_replacement": "",
+                "line_no_replacement": ""
             }
         },
         "ref": {
@@ -1008,7 +1088,7 @@
             "extensions": "Rozszerzenia",
             "generic_confirmation_message": "Czy jesteś pewien, że chcesz kontynuować? Ta operacje nie może zostać cofnięta.",
             "icon": "Ikona",
-            "icon_text": "Wpisz nazwę dowolnej klasy z <a>Font Awesome</a>, <em>włącznie</em> z prefiksem <code>fas fa-</code>.",
+            "icon_text": "Wpisz nazwę dowolnej klasy z <a>Font Awesome</a>, <em>włącznie</em> z prefiksem (np. <code>fas fa-flag</code> lub <code>fa-solid fa-flag</code>).",
             "invalid_login_message": "",
             "light_hc_mode_label": "",
             "light_mode_label": "",

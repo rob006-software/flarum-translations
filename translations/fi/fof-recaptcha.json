@@ -1,0 +1,44 @@
+{
+    "fof-recaptcha": {
+        "admin": {
+            "settings": {
+                "help_text": "Hanki Google reCAPTCHA tunnukset <a>täältä</a>.",
+                "secret_key_label": "Salainen avain (secret key)",
+                "site_key_label": "Sivuston avain (site key)",
+                "type_label": "reCAPTCHAn tyyppi",
+                "type_help": "Valitun tyypin on vastattava reCAPTCHA-tunnisteidesi tyyppiä. Valintaruutu ja Näkymätön ovat molemmat reCAPTCHA v2; v3 on pistepohjainen ja toimii hiljaisesti.",
+                "type_options": {
+                    "checkbox": "v2 valintalaatikko",
+                    "invisible": "v2 näkymätön",
+                    "v3": "v3 (piste perusteinen)"
+                },
+                "v3_threshold_label": "reCAPTCHA v3 -pistemääräkynnys",
+                "v3_threshold_help": "Lähetykset, joiden pistemäärä alittaa tämän arvon (0,0 = todennäköisesti botti, 1,0 = todennäköisesti ihminen), hylätään. Google suosittelee 0,5 lähtöpisteeksi. Käytetään vain, kun tyypiksi on asetettu v3.",
+                "signup": "=> core.forum.sign_up.title",
+                "signin": "=> core.forum.log_in.title",
+                "forgot": "=> core.forum.forgot_password.title"
+            },
+            "test": {
+                "title": "Testaa reCAPTCHAa",
+                "help_text": "Tämä testi käyttää syötettyjä arvoja. Lataathan testin uudelleen, jos muokkaat asetuksia ja älä unohda tallentaa asetuksia, kunnes testi onnistuu.\nAlla olevat eivät välttämättä vaikuta tallennettuihin asetuksiin.\n",
+                "success_message": "Onnistui! reCAPTCHA on oikein määritetty.",
+                "load_test_button": "Lataa",
+                "submit_button": "Lähetä",
+                "reload_button": "Lataa uudelleen"
+            },
+            "permissions": {
+                "post_without_captcha": "Luo viestejä ja keskusteluita ilman captchaa"
+            }
+        },
+        "lib": {
+            "error": "reCAPTCHA-lähetyksen aikana tapahtui virhe. Yritä uudelleen.",
+            "not_completed": "Suorita reCAPTCHA-tarkistus ennen jatkamista.",
+            "rejected": "reCAPTCHA-tarkistus epäonnistui. Yritä uudelleen.",
+            "unknown_error": "Tapahtui tuntematon virhe. Yritä uudelleen."
+        }
+    },
+    "validation": {
+        "recaptcha": "reCAPTCHA tarkastus epäonnistui.",
+        "recaptcha-unknown": "Tuntematon virhe tapahtui reCAPTCHA validoidessa ({errors})."
+    }
+}

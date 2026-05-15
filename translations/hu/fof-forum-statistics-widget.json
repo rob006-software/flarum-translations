@@ -1,0 +1,30 @@
+{
+    "fof-forum-statistics-widget": {
+        "forum": {
+            "navbar": {
+                "widget_title": "Fórumstatisztika",
+                "discussions_count": "Témák: {discussionsCount}",
+                "posts_count": "Bejegyzések: {postsCount}",
+                "users_count": "Tagok: {usersCount}",
+                "latest_member": "Legújabb tag: "
+            }
+        },
+        "admin": {
+            "settings": {
+                "cache_duration_label": "Gyorsítótárazás hossza",
+                "cache_duration_help": "Adja meg, hogy a modul statisztikai mennyi ideig legyenek gyorsítótárazva (másodpercben). A <code>0</code> kikapcsolja a gyorsítótárazást (nem javasolt).",
+                "flush_cache_on_new_registration_label": "Statisztika gyorsítótárának ürítése új regisztráció során",
+                "flush_cache_on_new_registration_help": "Ha be van kapcsolva, akkor a statisztika gyorsítótára ki lesz ürítve, ha egy új felhasználó regisztrál a fórumon.",
+                "widget_ignore_private_discussions_label": "Privát témák mellőzése",
+                "classic_look_label": "Klasszikus kinézet",
+                "classic_look_help": "A modul eredeti, a fof/forum-widgets-core integráció előtti, kinézetének helyreállítása."
+            },
+            "permissions": {
+                "view_discussions_count_label": "Témák számának megjelenítése",
+                "view_posts_count_label": "Bejegyzések számának megjelenítése",
+                "view_users_count_label": "Felhasználók számának megjelenítése",
+                "view_lastest_member_label": "Legújabb tag megjelenítése"
+            }
+        }
+    }
+}

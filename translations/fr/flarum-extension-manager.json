@@ -75,7 +75,7 @@
             "extensions": {
                 "check_why_it_failed_updating": "Montrer pourquoi elle n'a pas été mise à jour.",
                 "install": "Installer une nouvelle extension",
-                "install_help": "Remplissez le nom du paquet d'extension pour continuer. Vous pouvez spécifier une <semantic_link>version sémantique</semantic_link> en utilisant le format <code>fournisseur/nom-du-paquet:version</code>. Rendez-vous sur {link} pour parcourir les extensions.\n",
+                "install_help": "Remplissez le nom du paquet d'extension pour continuer. Vous pouvez spécifier une <semantic_link>version sémantique</semantic_link> en utilisant le format <code>fournisseur/nom-du-paquet:version</code>. Rendez-vous sur {link} pour parcourir les paquets disponibles.\n",
                 "proceed": "Procéder",
                 "remove": "Désinstaller",
                 "successful_install": "L'extension {extension} a été installée, redirection en cours…",
@@ -107,21 +107,21 @@
                     "empty_results": "Il semble qu'aucune extension ne soit disponible.",
                     "extension": {
                         "badges": {
-                            "compatible": "Compatible",
+                            "abandoned": "Abandonné",
                             "fof": "Friends Of Flarum",
                             "flarum": "Flarum",
+                            "compatible": "Compatible",
                             "incompatible": "Incompatible",
                             "premium": "Premium",
                             "unstable": "Instable"
                         },
                         "downloads": "{count, plural, one {{formattedCount} téléchargement} other {{formattedCount} téléchargements}}"
                     },
-                    "premium_extension_terms": "Conditions d'utilisation des extension premium",
                     "search": "Rechercher…",
                     "server_error": "Le service est actuellement indisponible, veuillez réessayer plus tard.",
                     "sort": {
-                        "toggle_dropdown_accessible_label": "Activer ou désactiver les options de tri",
                         "top": "Plus téléchargées",
+                        "toggle_dropdown_accessible_label": "Activer ou désactiver les options de tri",
                         "latest": "Plus récentes"
                     },
                     "tabs": {
@@ -131,6 +131,7 @@
                         "themes": "Thèmes"
                     },
                     "title": "Extensions",
+                    "premium_extension_terms": "Conditions d'utilisation des extension premium",
                     "party_filter": {
                         "all": "Toutes",
                         "premium": "Premium",

@@ -1,0 +1,127 @@
+{
+    "datlechin-passkey": {
+        "forum": {
+            "log_in": {
+                "sign_in_with_passkey": "",
+                "passkey_unsupported": "",
+                "verifying": "",
+                "cancelled": "",
+                "failed": "",
+                "unsupported": "",
+                "security_error": "",
+                "throttled": ""
+            },
+            "suggest": {
+                "title": "",
+                "body": "",
+                "set_up": "",
+                "not_now": ""
+            },
+            "required": {
+                "body": "",
+                "set_up": ""
+            },
+            "settings": {
+                "heading": "",
+                "description": "",
+                "add_button": "",
+                "bulk_revoke_button": "",
+                "add_modal": {
+                    "title": "",
+                    "device_name_label": "",
+                    "device_name_placeholder": "",
+                    "register_button": "",
+                    "cancel_button": ""
+                },
+                "bulk_revoke_modal": {
+                    "body": ""
+                },
+                "list": {
+                    "empty": "",
+                    "added_label": "",
+                    "last_used_label": "",
+                    "never_used": "",
+                    "synced": "",
+                    "device_only": "",
+                    "rename_button": "",
+                    "revoke_button": ""
+                },
+                "rename_modal": {
+                    "title": "",
+                    "save_button": "",
+                    "cancel_button": ""
+                },
+                "revoke_modal": {
+                    "title": "",
+                    "body": "",
+                    "confirm_button": "",
+                    "cancel_button": ""
+                },
+                "alerts": {
+                    "registration_succeeded": "",
+                    "registration_failed": "",
+                    "registration_already_exists": "",
+                    "registration_security_error": "",
+                    "registration_unsupported": "",
+                    "rename_succeeded": "",
+                    "revoke_succeeded": "",
+                    "bulk_revoke_succeeded": ""
+                }
+            }
+        },
+        "gdpr": {
+            "export_description": "",
+            "anonymize_description": "",
+            "delete_description": ""
+        },
+        "email": {
+            "revoked": {
+                "subject": "",
+                "body": "",
+                "actor_self": "",
+                "actor_admin": ""
+            },
+            "counter_regression": {
+                "subject": "",
+                "body": ""
+            },
+            "backup_state": {
+                "subject": "",
+                "body": "",
+                "synced": "",
+                "unsynced": ""
+            },
+            "bulk_revoked": {
+                "subject": "",
+                "body": "",
+                "actor_self": "",
+                "actor_admin": ""
+            }
+        },
+        "admin": {
+            "settings": {
+                "title": "",
+                "description": "",
+                "rp_id_label": "",
+                "rp_id_help": "",
+                "rp_name_label": "",
+                "rp_name_help": "",
+                "related_origins_label": "",
+                "related_origins_help": "",
+                "user_verification_label": "",
+                "user_verification_required": "",
+                "user_verification_preferred": "",
+                "user_verification_discouraged": "",
+                "attestation_label": "",
+                "attestation_none": "",
+                "attestation_indirect": "",
+                "attestation_direct": "",
+                "throttle_label": ""
+            },
+            "group_modal": {
+                "require_passkey": "",
+                "require_passkey_help": ""
+            }
+        }
+    }
+}

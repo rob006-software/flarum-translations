@@ -2,9 +2,9 @@
     "flarum-sticky": {
         "admin": {
             "settings": {
-                "enable_display_excerpt": "",
-                "only_sticky_unread_discussions_label": "",
-                "only_sticky_unread_discussions_help": ""
+                "enable_display_excerpt": "Показывать часть первого сообщения у непрочитанных закреплённых дискуссий",
+                "only_sticky_unread_discussions_label": "Закреплять только непрочитанные дискуссии",
+                "only_sticky_unread_discussions_help": "На странице всех дискуссий непрочитанные закреплённые дискуссии отображаются сверху, а прочитанные — в обычном порядке."
             },
             "permissions": {
                 "sticky_discussions_label": "Закреплять дискуссии"
@@ -27,7 +27,7 @@
             "gambits": {
                 "discussions": {
                     "sticky": {
-                        "key": ""
+                        "key": "закреплённая"
                     }
                 }
             }

@@ -1,0 +1,44 @@
+{
+    "fof-recaptcha": {
+        "admin": {
+            "settings": {
+                "help_text": "於<a>此處</a>取得 Google reCAPTCHA 證書。",
+                "secret_key_label": "金鑰",
+                "site_key_label": "網站金鑰",
+                "type_label": "reCAPTCHA 類型",
+                "type_help": "",
+                "type_options": {
+                    "checkbox": "",
+                    "invisible": "",
+                    "v3": ""
+                },
+                "v3_threshold_label": "",
+                "v3_threshold_help": "",
+                "signup": "=> core.forum.sign_up.title",
+                "signin": "=> core.forum.log_in.title",
+                "forgot": "=> core.forum.forgot_password.title"
+            },
+            "test": {
+                "title": "測試驗證碼",
+                "help_text": "此測試將使用上面輸入的目前值。 確保修改設置後重新載入測試，並且測試通過後不要忘記儲存！\n以下可能不會反映已儲存的設置。\n",
+                "success_message": "成功！ reCAPTCHA 配置正確。",
+                "load_test_button": "載入",
+                "submit_button": "送出",
+                "reload_button": "重新載入"
+            },
+            "permissions": {
+                "post_without_captcha": "發文不需要驗證碼"
+            }
+        },
+        "lib": {
+            "error": "",
+            "not_completed": "",
+            "rejected": "",
+            "unknown_error": ""
+        }
+    },
+    "validation": {
+        "recaptcha": "reCAPTCHA 驗證失敗。",
+        "recaptcha-unknown": "驗證 reCAPTCHA 時發生未知錯誤 ({errors})。"
+    }
+}

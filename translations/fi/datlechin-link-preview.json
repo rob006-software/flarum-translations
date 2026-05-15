@@ -2,14 +2,14 @@
     "datlechin-link-preview": {
         "admin": {
             "sections": {
-                "general_label": "",
-                "general_description": "",
-                "performance_label": "",
-                "performance_description": "",
-                "url_filtering_label": "",
-                "url_filtering_description": "",
-                "external_api_label": "",
-                "external_api_description": ""
+                "general_label": "Yleiset",
+                "general_description": "Perus näyttöasetukset linkkien esikatselua varten.",
+                "performance_label": "Suorituskyky",
+                "performance_description": "Optimoi linkkien esikatselujen hakeminen ja välimuistitus.",
+                "url_filtering_label": "URL suodatus",
+                "url_filtering_description": "Hallitsee mille osoitteille luodaan linkin esikatselu.",
+                "external_api_label": "Ulkoinen rajapinta varmuus",
+                "external_api_description": "Käytä ulkoista palvelua kun suorahaku epäonnistuu (esim. boteilta suojatut sivut)."
             },
             "settings": {
                 "enable_batch_requests_label": "Ota eräajojen käsittely käyttöön",
@@ -28,10 +28,10 @@
                 "cache_time_help": "Kuinka kauan linkin esikatseluja säilytetään ennen päivitystä. Aseta arvoksi 0 poistaaksesi välimuistin käytön. Oletus: 60 minuuttia.",
                 "open_links_in_new_tab_label": "Avaa linkit uuteen välilehteen",
                 "open_links_in_new_tab_help": "Avaa aina linkit uuteen selaimen välilehteen.",
-                "external_api_fallback_label": "",
-                "external_api_fallback_help": "",
-                "external_api_url_label": "",
-                "external_api_url_help": ""
+                "external_api_fallback_label": "Ulkoisen rajapinnan varmuus",
+                "external_api_fallback_help": "Kun suorahaku epäonnistuu (esim. bottisuojatut sivut kuten Reuters), käytä ulkoista oEmbed rajapintaa linkin metatiedon hakuun.",
+                "external_api_url_label": "Ulkoisen rajapinnan osoite",
+                "external_api_url_help": "Mukautettu oEmbed rajapinnan piste. Jätä tyhjäksi käyttääksesi oletusta (Iframely avoin rajapinta). Osoite lisätään parametreihin."
             }
         },
         "forum": {

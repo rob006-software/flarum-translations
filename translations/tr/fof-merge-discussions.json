@@ -3,7 +3,7 @@
         "forum": {
             "modal": {
                 "title": "Tartışmaları Birleştir",
-                "search_discussions_placeholder": "",
+                "search_discussions_placeholder": "Tartışmaları ara...",
                 "ordering_heading": "Sıralamayı birleştir",
                 "ordering_date_label": "Gönderileri oluşturma tarihine göre birleştir",
                 "ordering_date_help": "Ortaya çıkan tartışmadaki gönderiler, bireysel oluşturulma tarihlerine göre yeniden sıralanır",
@@ -11,14 +11,14 @@
                 "ordering_suffix_help": "Hayatta kalan tartışmayla birleştirilen gönderiler, tartışmanın sonuna eklenecektir",
                 "type_heading": "Birleştirme türü",
                 "type_target_label": "Bu tartışmaya birleştir",
-                "type_target_help_text": "",
+                "type_target_help_text": "{title} ile birleştirilecek tartışmaları seçin.",
                 "type_from_label": "Bu tartışmayı başka bir tartışmayla birleştir",
-                "type_from_help_text": "",
+                "type_from_help_text": "{title} öğesini birleştirmek istediğiniz hedef tartışmayı seçin.",
                 "load_preview_button": "Önizleme",
                 "submit_button": "=> fof-merge-discussions.ref.merge"
             },
             "notification": {
-                "discussion_merged": "",
+                "discussion_merged": "{oldTitle} başlıklı tartışmanız, {username} tarafından bu tartışmaya birleştirildi.",
                 "preferences": {
                     "discussion_merged": "Birisi tartışmalarımdan birini başka biriyle birleştiriyor"
                 }
@@ -27,7 +27,7 @@
                 "merge": "=> fof-merge-discussions.ref.merge"
             },
             "post": {
-                "merged": ""
+                "merged": "{count, plural, one {{titles} öğesinden 1 gönderi birleştirildi.} other {{titles} öğesinden {count} gönderi birleştirildi.}}"
             }
         },
         "admin": {
@@ -53,7 +53,7 @@
         },
         "email": {
             "merged": {
-                "body": "",
+                "body": "Tartışmanız {merged_discussion_title}, {actor_display_name} tarafından {discussion_title} ile birleştirildi.\n\nBuradan görüntüleyin: {discussion_url} .\n",
                 "subject": "\"{merged_discussion_title}\" tartışmanız birleştirildi"
             }
         }

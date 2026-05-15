@@ -2,26 +2,26 @@
     "datlechin-more-discussions": {
         "admin": {
             "settings": {
-                "block_name_label": "",
-                "block_name_help": "",
-                "discussion_limit_label": "",
-                "discussion_limit_help": "",
-                "discussion_related_label": "",
-                "discussion_related_help": "",
-                "filter_by_label": "",
-                "filter_by_help": "",
+                "block_name_label": "Abschnittsname",
+                "block_name_help": "Name des Abschnitts (Standard <code>Neueste Diskussionen</code>)",
+                "discussion_limit_label": "Diskussionsanzahl",
+                "discussion_limit_help": "Die Anzahl der anzuzeigenden Diskussionen (Standard <code>5</code>)",
+                "discussion_related_label": "Verwandte Ergebnisse",
+                "discussion_related_help": "Suche nach verwandten Ergebnissen anhand des Diskussionstitels. <b>Achtung:</b> Dies kann die Leistung deiner Website erheblich beeinträchtigen, insbesondere wenn es sich um eine großes Forum handelt. Um dieses Problem zu beheben, verwende diese Option in Kombination mit der Erweiterung <b>clarkwinkelmann/flarum-ext-scout</b>.",
+                "filter_by_label": "Filtern nach",
+                "filter_by_help": "Diskussionen filtern (Standard: <code>aktuellste</code>)",
                 "filter_dropdown": {
-                    "latest": "",
-                    "top": "",
-                    "newest": "",
-                    "oldest": "",
-                    "hot": "",
-                    "votes": ""
+                    "latest": "Aktuellste",
+                    "top": "Populärste",
+                    "newest": "Neueste",
+                    "oldest": "Älteste",
+                    "hot": "Im Aufwärtstrend (erfordert fof/Gamification)",
+                    "votes": "Upvotes erhalten (erfordert fof/gamification)"
                 }
             }
         },
         "forum": {
-            "block_default_name": ""
+            "block_default_name": "Neueste Diskussionen"
         }
     }
 }

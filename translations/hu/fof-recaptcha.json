@@ -1,0 +1,44 @@
+{
+    "fof-recaptcha": {
+        "admin": {
+            "settings": {
+                "help_text": "Szerezze meg a Google reCAPTCHA hitelesítő adatait <a>itt</a>.",
+                "secret_key_label": "Titkos kulcs",
+                "site_key_label": "Oldal kulcsa",
+                "type_label": "A reCAPTCHA típusa",
+                "type_help": "",
+                "type_options": {
+                    "checkbox": "",
+                    "invisible": "",
+                    "v3": ""
+                },
+                "v3_threshold_label": "",
+                "v3_threshold_help": "",
+                "signup": "=> core.forum.sign_up.title",
+                "signin": "=> core.forum.log_in.title",
+                "forgot": "=> core.forum.forgot_password.title"
+            },
+            "test": {
+                "title": "A reCAPTCHA tesztelése",
+                "help_text": "Ez a teszt a fent megadott értékeket fogja használni. Győződjön meg róla, hogy újratöltötte az oldalt a beállítások módosítása után, és ne felejtse el menteni, ha átmegy a teszten.\nA lentiek nem biztos, hogy a mentett beállításokat tükrözik.\n",
+                "success_message": "Sikeres! A reCAPTCHA helyesen van beállítva.",
+                "load_test_button": "Betöltés",
+                "submit_button": "Elküldés",
+                "reload_button": "Újratöltés"
+            },
+            "permissions": {
+                "post_without_captcha": "Téma és hozzászólás létrehozása captcha nélkül"
+            }
+        },
+        "lib": {
+            "error": "",
+            "not_completed": "",
+            "rejected": "",
+            "unknown_error": ""
+        }
+    },
+    "validation": {
+        "recaptcha": "reCAPTCHA ellenőrzési hiba.",
+        "recaptcha-unknown": "Ismeretlen hiba történt a reCAPTCHA ellenőrzése során ({errors})."
+    }
+}

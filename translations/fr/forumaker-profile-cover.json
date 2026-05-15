@@ -1,0 +1,37 @@
+{
+    "forumaker-profile-cover": {
+        "admin": {
+            "sections": {
+                "thumbnails": "Miniatures",
+                "general": "Général"
+            },
+            "thumbnails": "Créer des miniatures",
+            "thumbnails_help": "Crée une version réduite de la couverture utilisée dans les affichages compacts tels que les cartes utilisateur et les listes de répertoires. Lorsque cette option est désactivée, ce sont les couvertures en taille réelle qui sont utilisées à la place",
+            "thumbnail_width": "Largeur maximale des miniatures (px)",
+            "thumbnail_width_help": "La couverture est redimensionnée proportionnellement afin que sa largeur corresponde à cette valeur. Par défaut, la valeur est 500",
+            "recreate_thumbnails": "Recréer les miniatures",
+            "delete_thumbnails": "Supprimer les miniatures",
+            "recreate_success": "Les miniatures ont été recréées avec succès",
+            "delete_success": "Toutes les miniatures ont été supprimées",
+            "recreate_error": "Échec de la recréation des miniatures",
+            "delete_error": "Échec de la suppression des miniatures",
+            "max_size": "Taille maximale de l'image de couverture du profil (en kilo-octets)",
+            "permission": {
+                "set_cover": "Définir la couverture du profil"
+            }
+        },
+        "forum": {
+            "cover": "Couverture",
+            "edit_cover": "Modifier la couverture",
+            "notice": "Taille maximale : {size}",
+            "added": {
+                "success": "La couverture de profil a été mise à jour",
+                "error": "L'image n'a pas pu être transférée"
+            },
+            "removed": {
+                "success": "La couverture de profil a été supprimée",
+                "error": "Échec de la suppression de la couverture, veuillez réessayer"
+            }
+        }
+    }
+}

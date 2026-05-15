@@ -1,0 +1,97 @@
+{
+    "tryhackx-magnet-link": {
+        "admin": {
+            "settings": {
+                "guest_visible_label": "Visible to Guests",
+                "guest_visible_help": "Allow guests to view magnet links. If disabled, guests will see a message asking them to register or login.",
+                "activated_only_label": "Activated Users Only",
+                "activated_only_help": "Only users with confirmed email can view magnet links. This setting applies to logged-in users only.",
+                "scraper_enabled_label": "Enable Tracker Scraping",
+                "scraper_enabled_help": "When enabled, the extension will query trackers to get seed/leech/download statistics. When disabled, only the torrent name and click count will be displayed.",
+                "http_only_label": "HTTP(S) Trackers Only",
+                "http_only_help": "Only query HTTP and HTTPS trackers. Enable this if your hosting provider doesn't allow UDP connections.",
+                "check_all_label": "Check All Trackers",
+                "check_all_help": "Query all available trackers and aggregate results based on the display type setting.",
+                "display_type_label": "Display Type",
+                "display_type_help": "How to aggregate statistics when checking multiple trackers.",
+                "display_type_average": "Average for all values",
+                "display_type_average_max": "Average for seeds/leeches, max for downloads",
+                "display_type_max_all": "Maximum values for all",
+                "tracker_timeout_label": "Tracker Timeout (seconds)",
+                "tracker_timeout_help": "Maximum time to wait for a tracker response. Set to 0 for default (2 seconds).",
+                "max_trackers_label": "Maximum Trackers to Query",
+                "max_trackers_help": "Maximum number of trackers to query. Set to 0 for unlimited. When 'Check All' is enabled, this limits successful responses.",
+                "click_tracking_label": "Enable Click Tracking",
+                "click_tracking_help": "Track and display the number of times each magnet link has been clicked.",
+                "tooltip_enabled_label": "Enable Discussion Tooltip",
+                "tooltip_enabled_help": "Show magnet link stats when hovering over discussions in the discussion list.",
+                "tooltip_max_magnets_label": "Max Magnets in Tooltip",
+                "tooltip_max_magnets_help": "Maximum number of magnet links displayed in the discussion tooltip. Set to 0 for unlimited.",
+                "rename_enabled_label": "Enable Custom Torrent Names",
+                "rename_enabled_help": "Allow post authors to rename magnet link display names within their own posts.",
+                "ban_enabled_label": "Enable Spam Protection",
+                "ban_enabled_help": "Temporarily ban IPs that click too many magnet links in a short time to prevent click count manipulation.",
+                "ban_time_label": "Ban Duration (minutes)",
+                "ban_time_help": "How long an IP is banned after exceeding the click limit.",
+                "ban_interval_label": "Ban Interval (minutes)",
+                "ban_interval_help": "Time window for counting clicks to determine if an IP should be banned.",
+                "ban_interval_count_label": "Ban Threshold",
+                "ban_interval_count_help": "Number of clicks within the interval that triggers a ban.",
+                "self_interval_label": "Self-Click Interval (days)",
+                "self_interval_help": "How long before the same IP can increment the click count for the same magnet link again."
+            },
+            "support": {
+                "button": "Support Development",
+                "title": "Support This Extension",
+                "description": "If you find this extension useful, please consider supporting its development with a small donation. Every contribution helps keep the project alive and maintained.",
+                "copy": "Copy address",
+                "thanks": "Thank you for your support!"
+            }
+        },
+        "forum": {
+            "loading": "Loading magnet info...",
+            "seeds": "Seeds:",
+            "leeches": "Leeches:",
+            "completed": "Downloaded:",
+            "clicks": "Clicks:",
+            "size": "Size:",
+            "refresh": "Refresh tracker data",
+            "copy_link": "Copy magnet link to clipboard",
+            "guest_not_allowed": "You must be logged in to view magnet links.",
+            "email_not_confirmed": "Please confirm your email to view magnet links.",
+            "permission_denied": "You do not have permission to view magnet links.",
+            "login": "Login",
+            "register": "Register",
+            "or": "or",
+            "editor": {
+                "tooltip": "Insert Magnet Link",
+                "prompt": "Enter the magnet link:",
+                "invalid": "Invalid magnet link. The link must start with 'magnet:'"
+            },
+            "tooltip": {
+                "header": "Magnet Links",
+                "loading": "Loading magnet info...",
+                "no_magnets": "No magnet links in this discussion"
+            },
+            "rename": {
+                "tooltip": "Rename torrent",
+                "modal_title": "Rename Torrent",
+                "label": "Custom name:",
+                "save": "Save",
+                "cancel": "Cancel",
+                "restore": "Restore original name"
+            },
+            "errors": {
+                "invalid_magnet": "Invalid magnet link format",
+                "no_trackers": "Magnet link contains no trackers",
+                "no_http_trackers": "No HTTP(S) trackers available",
+                "no_response": "No tracker responded",
+                "scraper_error": "Failed to contact trackers",
+                "load_failed": "Failed to load magnet info"
+            }
+        },
+        "permissions": {
+            "viewMagnetLinks": "View magnet links"
+        }
+    }
+}

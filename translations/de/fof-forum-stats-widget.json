@@ -1,0 +1,22 @@
+{
+    "fof-forum-stats-widget": {
+        "admin": {
+            "settings": {
+                "decimal_places": {
+                    "label": "Dezimalstellen",
+                    "help": "Die Anzahl der anzuzeigenden Dezimalstellen bei großen Zahlen (0–2)."
+                }
+            }
+        },
+        "forum": {
+            "widget": {
+                "stats": {
+                    "comment_post_count": "Beiträge",
+                    "discussion_count": "Diskussionen",
+                    "user_count": "Benutzer"
+                },
+                "title": "Forum-Statistiken"
+            }
+        }
+    }
+}

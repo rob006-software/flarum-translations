@@ -1,0 +1,16 @@
+{
+    "fof-clockwork": {
+        "admin": {
+            "dashboard": {
+                "section_label": "Clockwork",
+                "button_label": "Buka Clockwork"
+            },
+            "settings": {
+                "section_label": "Pengaturan",
+                "disable_auth_label": "Nonaktifkan otentikasi",
+                "disable_auth_help": "Jika diaktifkan, semua permintaan akan diprofilkan dan Clockwork viewer dapat diakses tanpa perlu login. Aktifkan opsi ini hanya untuk sementara saat melakukan debugging.",
+                "disable_auth_warning": "Peringatan: otentikasi dinonaktifkan. Clockwork viewer dan semua data profil dapat diakses publik. Nonaktifkan ini setelah Anda selesai melakukan debugging."
+            }
+        }
+    }
+}

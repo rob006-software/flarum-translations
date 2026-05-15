@@ -3,15 +3,30 @@
         "admin": {
             "settings": {
                 "section_main": "設置",
+                "section_pagination": "",
                 "enable_readmore": "更多預覽請見個人檔案頁面",
+                "enable_readmore_help": "",
                 "enable_pagination": "討論區內分頁功能",
-                "enable_counter": "編輯器中即時字元計數器"
+                "enable_pagination_help": "",
+                "enable_counter": "編輯器中即時字元計數器",
+                "enable_counter_help": "",
+                "enable_discussion_pager": "",
+                "enable_discussion_pager_help": ""
             }
         },
         "forum": {
             "read_more": "閱讀更多",
             "counter": {
                 "label": ""
+            },
+            "pager": {
+                "first": "",
+                "prev": "",
+                "next": "",
+                "last": "",
+                "page": "",
+                "go": "",
+                "input_label": ""
             }
         }
     }

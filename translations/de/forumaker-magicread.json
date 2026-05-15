@@ -3,15 +3,30 @@
         "admin": {
             "settings": {
                 "section_main": "Einstellungen",
+                "section_pagination": "Paginierung",
                 "enable_readmore": "Weitere Vorschau auf der Profilseite lesen",
-                "enable_pagination": "Paginierung innerhalb von Diskussionen",
-                "enable_counter": "Live-Zeichenzähler im Composer"
+                "enable_readmore_help": "Blendet lange Beiträge auf Profilseiten aus und fügt eine Schaltfläche hinzu, um sie zu erweitern",
+                "enable_pagination": "Fügt Seitennavigation unterhalb der Scrollleiste hinzu",
+                "enable_pagination_help": "Hält den Diskussions-Scrubber sichtbar und fügt darunter eine Seitenauswahl hinzu",
+                "enable_counter": "Live-Zeichenzähler im Composer",
+                "enable_counter_help": "Fügt oben rechts im Eingabefeld für Nachrichten einen Zeichen-Zähler hinzu",
+                "enable_discussion_pager": "Seitennavigation anstelle der Bildlaufleiste anzeigen",
+                "enable_discussion_pager_help": "Entfernt den Diskussions-Scrubber, fügt oben und unten auf der Seite eine Seitennavigation hinzu und deaktiviert das automatische Scrollen"
             }
         },
         "forum": {
             "read_more": "Mehr lesen",
             "counter": {
                 "label": "Zeichen"
+            },
+            "pager": {
+                "first": "Zurück zum Anfang",
+                "prev": "Vorherige Seite",
+                "next": "Nächste Seite",
+                "last": "Gehe zur letzten Seite",
+                "page": "Seite",
+                "go": "Los",
+                "input_label": "Zu Seite wechseln"
             }
         }
     }

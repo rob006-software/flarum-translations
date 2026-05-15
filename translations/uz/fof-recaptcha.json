@@ -1,0 +1,44 @@
+{
+    "fof-recaptcha": {
+        "admin": {
+            "settings": {
+                "help_text": "Google reCAPTCHA hisob ma'lumotlarini <a> bu yerda </a> oling.",
+                "secret_key_label": "Yashirin kalit",
+                "site_key_label": "Sayt kaliti",
+                "type_label": "reCAPTCHA turi",
+                "type_help": "",
+                "type_options": {
+                    "checkbox": "",
+                    "invisible": "",
+                    "v3": ""
+                },
+                "v3_threshold_label": "",
+                "v3_threshold_help": "",
+                "signup": "",
+                "signin": "",
+                "forgot": ""
+            },
+            "test": {
+                "title": "",
+                "help_text": "",
+                "success_message": "",
+                "load_test_button": "",
+                "submit_button": "",
+                "reload_button": ""
+            },
+            "permissions": {
+                "post_without_captcha": "Captchasiz postlar va muhokamalar yarating"
+            }
+        },
+        "lib": {
+            "error": "",
+            "not_completed": "",
+            "rejected": "",
+            "unknown_error": ""
+        }
+    },
+    "validation": {
+        "recaptcha": "reCAPTCHA tekshiruvi amalga oshmadi.",
+        "recaptcha-unknown": ""
+    }
+}

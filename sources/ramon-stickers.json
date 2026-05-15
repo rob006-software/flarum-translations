@@ -1,0 +1,57 @@
+{
+    "ramon-stickers": {
+        "admin": {
+            "settings": {
+                "hover_play_label": "Play animations on hover only",
+                "hover_play_help": "When enabled, Lottie and TGS animations in posts will be paused on the first frame and only play when the mouse moves over them.",
+                "show_tooltip_label": "Show sticker name on hover",
+                "show_tooltip_help": "When enabled, the sticker name appears as a tooltip when you hover over a sticker in posts or in the picker."
+            },
+            "sticker_section": {
+                "heading_title": "Stickers",
+                "import_button": "Import",
+                "export_button": "Export ZIP",
+                "export_error": "Export failed. Please try again.",
+                "import_zip_message": "This will import stickers from a ZIP file (exported by this extension). Sticker files will be copied to /assets/stickers/ and existing records will NOT be overwritten. Continue?",
+                "import_stickers_message": "This will import sticker metadata from a JSON file. Sticker files are NOT included — you need to have them already uploaded. Continue?",
+                "importing_message": "Importing, please wait...",
+                "import_result": "Done: {imported} imported, {skipped} already existed.",
+                "import_error_message": "Import failed: {error}",
+                "bulk_upload_button": "Upload Multiple",
+                "bulk_upload_category_prompt": "Category name for these stickers:",
+                "bulk_upload_progress": "Uploading {current}/{total}...",
+                "bulk_upload_done": "Done: {uploaded} uploaded, {errors} failed.",
+                "select_button": "Select",
+                "cancel_select_button": "Cancel",
+                "delete_selected_button": "Delete ({count})",
+                "delete_selected_confirm": "Delete {count} sticker(s)? This cannot be undone.",
+                "edit_sticker": {
+                    "modal_title": "Add Sticker",
+                    "sticker_category_label": "Category code",
+                    "category_name_label": "Category name",
+                    "sticker_title_label": "Sticker title",
+                    "text_to_replace_label": "Text to replace (e.g. :sticker:)",
+                    "path_or_url_label": "Path or URL",
+                    "upload_label": "Upload file",
+                    "upload_button": "Choose file",
+                    "upload_help": "Supports animated Lottie JSON (.json), Telegram stickers (.tgs), PNG, GIF, WebP, JPEG.",
+                    "submit_button": "=> core.ref.save_changes",
+                    "delete_sticker_button": "Delete sticker",
+                    "delete_sticker_confirmation": "Are you sure you want to delete this sticker?",
+                    "saved_message": "=> core.admin.settings.saved_message"
+                },
+                "sticker_list": {
+                    "load_more_button": "=> core.forum.post_stream.load_more_button"
+                }
+            }
+        },
+        "forum": {
+            "composer": {
+                "sticker_tooltip": "Insert sticker"
+            },
+            "picker": {
+                "no_stickers": "No stickers found"
+            }
+        }
+    }
+}

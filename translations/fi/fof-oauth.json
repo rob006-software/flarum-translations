@@ -103,9 +103,9 @@
                 "twitter": "=> fof-oauth.lib.providers.twitter"
             },
             "account_linked": {
-                "title": "",
-                "body": "",
-                "dismiss_button": ""
+                "title": "Tili yhdistetty",
+                "body": "{forum}-tilisi <strong>{username}</strong> on nyt yhdistetty palveluun {provider}. Voit jatkossa kirjautua sisään joko foorumisalasanallasi tai {provider}-tunnuksellasi.",
+                "dismiss_button": "Selvä"
             },
             "signup": {
                 "username_help": "Valitse käyttäjätunnus mitä käytetään täällä foorumilla"
@@ -114,7 +114,7 @@
             "error": {
                 "bad_verification_code": "Virheellinen tai vanhentunut token. Yritä uudelleen.",
                 "invalid_state": "Virhellinen tila. Yritä uudelleen.",
-                "already_linked": ""
+                "already_linked": "Tämä tili on jo yhdistetty toiseen käyttäjään."
             }
         },
         "lib": {
@@ -129,8 +129,8 @@
             },
             "gambits": {
                 "sso": {
-                    "key": "",
-                    "hint": ""
+                    "key": "sso",
+                    "hint": "kirjautumispalvelu"
                 }
             }
         },

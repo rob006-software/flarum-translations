@@ -1,11 +1,42 @@
 {
     "datlechin-posted-on": {
+        "admin": {
+            "settings": {
+                "display_mode_label": "Ce qui doit s'afficher à côté d'un message",
+                "display_mode_help": "Détails par publication. Le détail complet est toujours disponible dans l'info-bulle.",
+                "display_mode_os_only": "Système d'exploitation uniquement (par exemple Windows 11)",
+                "display_mode_os_browser": "Système d'exploitation et navigateur (par exemple Windows 11 · Chrome 121)",
+                "skip_guests_label": "Ne pas collecter pour les invités",
+                "skip_guests_help": "Lorsque cette option est activée, les messages rédigées par des comptes invités ne contiennent aucune métadonnée de la plateforme."
+            }
+        },
         "forum": {
             "post": {
-                "posted_on_text": "Publier sur {posted_on}"
+                "posted_on_text": "Publier sur {posted_on}",
+                "tooltip": {
+                    "os": "Système d'exploitation",
+                    "client": "Navigateur",
+                    "device": "Appareil"
+                }
             },
             "settings": {
-                "privacy_disclose_posted_on_label": "Autoriser aux autres de voir les appareils sur lesquels je suis posté"
+                "privacy_disclose_posted_on_label": "Indiquer aux autres depuis quel appareil je publie"
+            },
+            "device_types": {
+                "desktop": "Ordinateur de bureau",
+                "smartphone": "Téléphone",
+                "tablet": "Tablette",
+                "feature phone": "Téléphone",
+                "console": "Console",
+                "tv": "TV",
+                "car browser": "Voiture",
+                "smart display": "Écran connecté",
+                "camera": "Caméra",
+                "portable media player": "Lecteur multimédia",
+                "phablet": "Phablette",
+                "smart speaker": "Enceinte connectée",
+                "wearable": "Portable",
+                "peripheral": "Périphérique"
             }
         }
     }

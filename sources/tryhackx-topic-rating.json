@@ -1,0 +1,53 @@
+{
+    "tryhackx-topic-rating": {
+        "admin": {
+            "settings": {
+                "enabled_label": "Enable Topic Rating",
+                "enabled_help": "Allow users to rate discussions with a 5-star system.",
+                "allow_unactivated_label": "Allow unactivated accounts to rate",
+                "allow_unactivated_help": "When enabled, users who haven't confirmed their email can still rate discussions."
+            },
+            "permissions": {
+                "rate_label": "Rate discussions",
+                "toggle_label": "Enable/Disable rating on discussions",
+                "reset_label": "Reset all ratings on discussions"
+            },
+            "support": {
+                "button": "Support Development",
+                "title": "Support This Extension",
+                "description": "If you find this extension useful, please consider supporting its development with a small donation. Every contribution helps keep the project alive and maintained.",
+                "copy": "Copy address",
+                "thanks": "Thank you for your support!"
+            }
+        },
+        "forum": {
+            "tooltip": {
+                "login_required": "You must be logged in to rate.",
+                "activation_required": "You must activate your account to rate.",
+                "rate_this": "Rate this topic",
+                "rate_first": "Be the first to rate!",
+                "your_rating": "Your rating:"
+            },
+            "rating_count": "Ratings: {count}",
+            "last_rated": "Last Rate:",
+            "controls": {
+                "enable_rating": "Enable Rating",
+                "disable_rating": "Disable Rating",
+                "reset_ratings": "Reset All Ratings",
+                "reset_confirm": "Are you sure you want to delete all ratings for this discussion? This cannot be undone."
+            },
+            "reset_modal": {
+                "title": "Reset All Ratings",
+                "message": "Are you sure you want to delete all {count} rating(s) for this discussion? This action cannot be undone.",
+                "confirm": "Reset Ratings",
+                "cancel": "Cancel"
+            },
+            "ratings_modal": {
+                "title": "Ratings ({count})",
+                "empty": "No ratings yet.",
+                "deleted_user": "[deleted]",
+                "updated_prefix": "updated "
+            }
+        }
+    }
+}

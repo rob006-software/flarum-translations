@@ -100,42 +100,31 @@
             "minor_update_confirmation": {
                 "content": ""
             },
-            "required_php_functions": "",
+            "required_php_functions": "El gestor de extensiones requiere que se habiliten las siguientes funciones de PHP: <code>{functions}</code>. Si no tiene acceso a la configuración de PHP, póngase en contacto con su proveedor de hosting.\n",
             "sections": {
                 "discover": {
-                    "description": "",
-                    "empty_results": "",
+                    "description": "Añade nuevas funciones e integraciones a tu foro Flarum con extensiones.",
+                    "empty_results": "Parece que no hay extensiones disponibles.",
                     "extension": {
                         "badges": {
-                            "compatible": "",
-                            "fof": "",
-                            "flarum": "",
-                            "incompatible": "",
-                            "premium": "",
-                            "unstable": ""
+                            "abandoned": "Abandonadas",
+                            "fof": "Friends Of Flarum",
+                            "flarum": "Flarum"
                         },
-                        "downloads": ""
+                        "downloads": "{count, plural, one {{formattedCount} download} other {{formattedCount} downloads}}"
                     },
-                    "premium_extension_terms": "",
-                    "search": "",
-                    "server_error": "",
+                    "search": "Buscar...",
+                    "server_error": "El servicio no está disponible actualmente. Inténtelo de nuevo más tarde.",
                     "sort": {
-                        "toggle_dropdown_accessible_label": "",
-                        "top": "",
-                        "latest": ""
+                        "top": "Más descargado"
                     },
                     "tabs": {
-                        "discover": "",
-                        "extensions": "",
-                        "languages": "",
-                        "themes": ""
+                        "discover": "Descubre",
+                        "extensions": "Extensiones",
+                        "languages": "Idiomas",
+                        "themes": "Temas"
                     },
-                    "title": "",
-                    "party_filter": {
-                        "all": "",
-                        "premium": "",
-                        "toggle_dropdown_accessible_label": ""
-                    }
+                    "title": "Extensiones"
                 },
                 "queue": {
                     "columns": {
@@ -174,8 +163,8 @@
                     "title": "Cola"
                 },
                 "settings": {
-                    "title": "",
-                    "description": ""
+                    "title": "Opciones y cola",
+                    "description": "Configure el gestor de extensiones y compruebe las operaciones en la cola."
                 }
             },
             "settings": {

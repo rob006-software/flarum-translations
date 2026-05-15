@@ -1,0 +1,28 @@
+{
+    "forumaker-yandex-smart-captcha": {
+        "admin": {
+            "sections": {
+                "keys": "Keys",
+                "protection": "Protection"
+            },
+            "settings": {
+                "site_key": "Site key",
+                "site_key_help": "Public key",
+                "server_key": "Server key",
+                "server_key_help": "Secret key",
+                "signup": "Show on sign up",
+                "signup_help": "Require captcha when creating an account",
+                "signin": "Show on sign in",
+                "signin_help": "Require captcha when logging in",
+                "create_here": "Create a captcha {link} to get your keys",
+                "here": "here"
+            }
+        },
+        "forum": {
+            "validation": {
+                "captcha_required": "Please verify that you are not a robot",
+                "captcha_invalid": "Please verify that you are not a robot"
+            }
+        }
+    }
+}

@@ -1,0 +1,95 @@
+{
+    "ekumanov-forum-widgets": {
+        "forum": {
+            "online_users": {
+                "title": "Utilisateurs en ligne",
+                "empty": "Aucun utilisateur n'est actuellement en ligne.",
+                "hidden_users": "caché(s)",
+                "overflow_more": "plus",
+                "guests": "{count, plural, one {invité} other {invités}}"
+            },
+            "stats": {
+                "title": "Statistiques du forum",
+                "discussions_count": "Discussions : {count}",
+                "posts_count": "Messages : {count}",
+                "users_count": "Utilisateurs : {count}",
+                "latest_registration": "Dernière inscription :",
+                "tooltip_discussions": "Discussions",
+                "tooltip_posts": "Messages",
+                "tooltip_users": "Utilisateurs",
+                "tooltip_online": "Utilisateurs en ligne",
+                "label_discussions": "{count, plural, one {discussion} other {discussions}}",
+                "label_posts": "{count, plural, one {message} other {messages}}",
+                "label_users": "{count, plural, one {utilisateur} other {utilisateurs}}",
+                "label_online": "{count, plural, one {utilisateur en ligne} other {utilisateurs en ligne}}",
+                "label_online_over_total": "{en ligne} utilisateurs en ligne sur {total} utilisateurs au total",
+                "tooltip_latest_registration": "Dernière inscription : {name}"
+            },
+            "aria": {
+                "expand_details": "Afficher les informations du forum",
+                "collapse_details": "Masquer les informations du forum",
+                "details_panel": "Informations du forum",
+                "overflow_users": "{count} autres utilisateurs en ligne"
+            }
+        },
+        "admin": {
+            "settings": {
+                "widget_layout": "Disposition du widget",
+                "widget_layout_help": "Classique : widget compact dans la barre latérale. Pleine largeur : barre à une seule ligne au-dessus de la liste des discussions.",
+                "widget_layout_classic": "Barre latérale (classique)",
+                "widget_layout_full_width": "Pleine largeur (au-dessus de la liste des discussions)",
+                "bar_position_desktop": "Position de la barre (ordinateur de bureau)",
+                "bar_position_desktop_help": "Où placer la barre des statistiques sur le bureau par rapport à la barre d'outils. Ne s'applique qu'à la mise en page en pleine largeur.",
+                "bar_position_mobile": "Position de la barre (mobile)",
+                "bar_position_mobile_help": "Où placer la barre des statistiques sur mobile par rapport à la barre d'outils.",
+                "bar_position_above": "Au-dessus de la barre d'outils",
+                "bar_position_inside": "Dans la barre d'outils",
+                "bar_position_below": "Sous la barre d'outils",
+                "bar_position_above_footer": "Au-dessus du pied de page",
+                "widget_position": "Position du widget dans la barre latérale (priorité)",
+                "widget_position_help": "Détermine l'emplacement du widget dans la barre latérale. Plus la valeur est faible (plus négative), plus le widget est placé vers le bas. Valeur par défaut : -10. Ne s'applique qu'à la disposition de la barre latérale.",
+                "section_online_users": "Utilisateurs en ligne",
+                "section_online_users_help": "Configurer l'affichage des utilisateurs en ligne dans le panneau déroulant du widget.",
+                "show_online_users": "Afficher les utilisateurs en ligne",
+                "show_online_users_help": "Activer ou désactiver complètement la fonctionnalité « Utilisateurs en ligne ». Lorsque cette option est désactivée, aucune requête relative aux utilisateurs en ligne ne sera exécutée.",
+                "last_seen_interval": "Intervalle depuis la dernière connexion (en minutes)",
+                "last_seen_interval_help": "Combien de minutes doivent s'être écoulées depuis la dernière activité pour qu'un utilisateur soit considéré comme étant en ligne. Valeur par défaut : 5, qui correspond à celle de « Heartbeat » (activé par défaut) — « Heartbeat » maintient l'activité à jour pour les utilisateurs ayant un onglet ouvert et actif, afin que les utilisateurs actifs ne disparaissent pas de la liste. Si vous désactivez « Heartbeat », augmentez cette valeur à 10 ou plus pour éviter que les utilisateurs ne soient brièvement déconnectés en cours de session.",
+                "online_users_cache_ttl": "Durée de mise en cache pour les utilisateurs en ligne (en secondes)",
+                "online_users_cache_ttl_help": "Combien de temps la liste des utilisateurs en ligne doit-elle être mise en cache ? Deux caches distincts sont gérés : l'un pour les utilisateurs privilégiés (ceux disposant de l'autorisation « Toujours afficher la dernière connexion des utilisateurs », qui peuvent également voir les utilisateurs masqués) et l'autre pour tous les autres.",
+                "enable_heartbeat": "Activer « Heartbeat » (pouls d'activité)",
+                "enable_heartbeat_help": "Lorsque cette option est activée, chaque onglet du forum ouvert et actif envoie une petite requête en arrière-plan. Pour les utilisateurs connectés, cela permet de maintenir l'indicateur « en ligne » à jour pendant qu'ils lisent ou rédigent un message sans passer d'une page à l'autre (par exemple, lors d'une longue réponse via l'extension Realtime) ; pour les visiteurs (lorsque le comptage est activé), c'est ainsi que le nombre d'invités est enregistré. La charge du serveur est négligeable — les deux chemins limitent leurs écritures côté serveur, quel que soit le nombre d'onglets ouverts. Désactivez cette option si vous ne souhaitez pas de trafic en arrière-plan.",
+                "show_online_guests": "Afficher les invités en ligne",
+                "show_online_guests_help": "Lorsque cette option est activée, un nombre approximatif d'invités s'affiche dans le panneau déroulant sous la forme d'un cercle en pointillés situé sous les utilisateurs masqués.",
+                "include_guests_in_total": "Inclure les invités dans le nombre total des utilisateurs en ligne",
+                "include_guests_in_total_help": "Lorsque cette option est activée, le nombre affiché dans la barre (ainsi que dans l'en-tête à l'intérieur du panneau déroulant) correspond au total des membres connectés et des invités. Les lignes de répartition dans le panneau déroulant continuent de répertorier chaque composant séparément. Désactivez cette option pour que le nombre indiqué dans la barre ne reflète que les membres connectés.",
+                "section_statistics": "Statistiques du forum",
+                "section_statistics_help": "Configurer la mise en cache pour le nombre de discussions, le nombre de messages, le nombre total d'utilisateurs et la dernière inscription.",
+                "show_discussions_count": "Afficher le nombre de discussions",
+                "show_posts_count": "Afficher le nombre de messages",
+                "show_users_count": "Afficher le nombre d'utilisateurs",
+                "show_latest_registration": "Afficher la dernière inscription",
+                "stats_cache_duration": "Durée de mise en cache des statistiques (en secondes)",
+                "stats_cache_duration_help": "Durée de mise en cache du nombre de discussions, du nombre de messages, du nombre total d'utilisateurs et de la dernière inscription. La mise en cache est automatiquement invalidée lorsque des discussions, des messages ou des utilisateurs sont créés ou supprimés. Définissez cette valeur sur 0 pour désactiver la mise en cache (non recommandé pour les forums importants).",
+                "ignore_private_discussions": "Ignorer les discussions privées dans le décompte",
+                "show_toggle": "Afficher le bouton d'affichage/masquage",
+                "show_toggle_help": "Afficher ou non le bouton en forme de chevron qui permet de développer ou de réduire le panneau. Lorsqu'il est désactivé, le panneau peut toujours être ouvert en cliquant sur la barre (mode « barre ») ou sur la cellule des utilisateurs en ligne (mode « cellule en ligne »).",
+                "expanded_panel_width": "Largeur du panneau étendue (ordinateur de bureau)",
+                "expanded_panel_width_help": "Barre : le panneau s'étend sur toute la largeur de la barre ; un clic n'importe où sur la barre permet de le développer. Cellule « En ligne » : le panneau n'apparaît qu'en dessous du nombre d'utilisateurs en ligne ; un clic sur la cellule « En ligne » permet de le développer.",
+                "expanded_panel_width_full_bar": "Toute la largeur de la barre",
+                "expanded_panel_width_online_cell": "Cellule « utilisateurs en ligne » uniquement",
+                "max_online_users": "Nombre maximal d'utilisateurs en ligne à afficher",
+                "max_online_users_help": "Nombre maximal d'avatars affichés pour les utilisateurs réguliers. Les utilisateurs au-delà de ce nombre apparaissent sous la forme d'un indicateur « +N plus ». Des valeurs plus élevées augmentent la taille du cache et la charge de l'API. Recommandé : 10 à 20.",
+                "max_online_users_privileged": "Nombre maximal d'utilisateurs en ligne à afficher (privilégiés)",
+                "max_online_users_privileged_help": "Nombre maximal d'avatars affichés pour les utilisateurs privilégiés (ceux disposant de l'autorisation « Toujours afficher la dernière connexion de l'utilisateur » — généralement les administrateurs et les modérateurs). Étant donné que ce cache dessert moins d'utilisateurs, il peut contenir davantage d'entrées sans risque. Recommandation : 30 à 50.",
+                "section_display": "Affichage du widget"
+            },
+            "permissions": {
+                "view_online_users": "Voir les utilisateurs en ligne",
+                "view_discussions_count": "Voir le nombre de discussions",
+                "view_posts_count": "Voir le nombre de messages",
+                "view_users_count": "Voir le nombre d'utilisateurs",
+                "view_latest_registration": "Voir la dernière inscription"
+            }
+        }
+    }
+}

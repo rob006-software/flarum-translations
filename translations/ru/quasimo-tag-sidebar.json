@@ -1,0 +1,31 @@
+{
+    "quasimo-tag-sidebar": {
+        "forum": {
+            "edit_button": "Править сайдбар",
+            "modal_title": "Править сайдбар: {tag}",
+            "sidebar_label": "Содержимое сайдбара (Markdown)",
+            "sidebar_label_html": "Содержимое сайдбара (HTML)",
+            "sidebar_placeholder": "Введите содержимое сайдбара с использованием Markdown...\n\n## Ссылки\n- [Пример](https://example.com)\n\nПоддерживаются **жирный**, *курсив* и изображения ![alt](https://example.com/image.png).",
+            "sidebar_placeholder_html": "Введите содержимое сайдбара с использованием HTML…\n\n<h2>Ссылки</h2>\n<p><a href=\"https://example.com\">Пример</a></p>\n<img src=\"https://example.com/image.png\" alt=\"пример\">",
+            "save_button": "Сохранить",
+            "cancel_button": "Отменить",
+            "sidebar_empty": "(Содержимое сайдбара пока не задано)"
+        },
+        "admin": {
+            "instructions_title": "Как использовать",
+            "instruction_1": "Перейдите на любую страницу тега на форуме.",
+            "instruction_2": "Кнопка «Править сайдбар» появится у пользователей с соответствующим правом.",
+            "instruction_3": "Нажмите кнопку, чтобы открыть редактор, введите содержимое и сохраните.",
+            "instruction_4": "Выдайте разрешение, чтобы модераторы могли править содержимое сайдбара.",
+            "setting_position": "Положение сайдбара на десктопе",
+            "setting_position_help": "На мобильных устройствах виджет всегда отображается под списком сообщений.",
+            "position_left": "Слева — после навигации сайдбара (по умолчанию)",
+            "position_right": "Справа — рядом со списком сообщений",
+            "setting_content_type": "Тип содержимого",
+            "setting_content_type_help": "Выберите Markdown для безопасного и простого ввода. Выберите HTML для полного контроля — доступно только доверенным редакторам.",
+            "content_type_markdown": "Markdown",
+            "content_type_html": "HTML",
+            "permission_edit_sidebar": "Править содержимое сайдбара"
+        }
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "fof-forum-statistics-widget": {
+        "forum": {
+            "navbar": {
+                "widget_title": "Foruma statistika",
+                "discussions_count": "Diskusijas: {discussionsCount}",
+                "posts_count": "Ziņas: {postsCount}",
+                "users_count": "Dalībnieki: {usersCount}",
+                "latest_member": "Jaunākais dalībnieks: "
+            }
+        },
+        "admin": {
+            "settings": {
+                "cache_duration_label": "Kešatmiņas ilgums",
+                "cache_duration_help": "Norādiet, cik ilgi logrīka statistika ir jāsaglabā kešatmiņā (sekundēs). <code>0</code>, lai atspējotu saglabāšanu kešatmiņā (nav ieteicams).",
+                "flush_cache_on_new_registration_label": "Izskalojiet statistikas kešatmiņu jaunai reģistrācijai",
+                "flush_cache_on_new_registration_help": "Ja tas ir iespējots, statistikas kešatmiņa tiks izskalota, kad forumā reģistrēsies jauns lietotājs.",
+                "widget_ignore_private_discussions_label": "Ignorējiet privātās diskusijas",
+                "classic_look_label": "",
+                "classic_look_help": ""
+            },
+            "permissions": {
+                "view_discussions_count_label": "Skatīt foruma statistikas logrīku diskusiju skaitu",
+                "view_posts_count_label": "Skatīt foruma statistikas logrīku ziņu skaitu",
+                "view_users_count_label": "Skatīt foruma statistikas logrīku lietotāju skaitu",
+                "view_lastest_member_label": "Skatīt foruma statistikas logrīku jaunākais dalībnieks"
+            }
+        }
+    }
+}

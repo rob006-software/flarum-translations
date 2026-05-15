@@ -103,9 +103,9 @@
                 "twitter": "=> fof-oauth.lib.providers.twitter"
             },
             "account_linked": {
-                "title": "",
-                "body": "",
-                "dismiss_button": ""
+                "title": "Compte associé",
+                "body": "Votre compte {forum} <strong>{username}</strong> est désormais associé à {provider}. Vous pouvez désormais vous connecter soit avec votre mot de passe du forum, soit avec celui de {provider}.",
+                "dismiss_button": "J'ai compris"
             },
             "signup": {
                 "username_help": "Veuillez sélectionner un nom d'utilisateur pour être connu ici"

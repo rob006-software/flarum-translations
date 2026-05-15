@@ -2,21 +2,97 @@
     "ianm-html-head": {
         "admin": {
             "create_button": "Luo",
+            "help": {
+                "intro": "",
+                "preconnect": "",
+                "cache": "",
+                "pages": "",
+                "location": ""
+            },
             "table": {
+                "drag_handle": "",
                 "description_label": "Kuvaus",
-                "header_label": "Yläosa",
+                "type_label": "",
+                "location_label": "",
+                "pages_label": "",
                 "active_label": "Aktiivinen",
                 "empty_text": "Ei merkintöjä",
                 "delete_button": "Poista",
-                "edit_button": "Muokkaa"
+                "edit_button": "Muokkaa",
+                "delete_confirm": "",
+                "header_label": "Yläosa"
             },
             "modal": {
                 "create_title": "Luo uusi",
                 "edit_title": "Muokkaa",
-                "text": "Pidä huolta, että syntaksisi on oikein sillä on mahdollista, että rikot foorumia virheellisellä syntaksilla. Tallennuksen jälkeen ota uusi yläosa käyttöön aktivoimalla se.",
                 "description_label": "Kuvaus",
-                "header_label": "Räätälöity yläosa",
-                "save_button": "Tallenna"
+                "description_help": "",
+                "type_label": "",
+                "location_label": "",
+                "location_help": "",
+                "pages_label": "",
+                "save_button": "Tallenna",
+                "type": {
+                    "meta": "",
+                    "link": "",
+                    "script": "",
+                    "style": "",
+                    "raw": ""
+                },
+                "location": {
+                    "head": "",
+                    "foot": ""
+                },
+                "pages": {
+                    "forum": "",
+                    "admin": ""
+                },
+                "meta": {
+                    "variant_label": "",
+                    "name_label": "",
+                    "property_label": "",
+                    "content_label": ""
+                },
+                "link": {
+                    "rel_label": "",
+                    "href_label": "",
+                    "as_label": "",
+                    "as_help": "",
+                    "crossorigin_label": "",
+                    "crossorigin_help": "",
+                    "fetchpriority_label": "",
+                    "fetchpriority_default": "",
+                    "fetchpriority_help": "",
+                    "extras_label": "",
+                    "extras_add": "",
+                    "extras_remove": ""
+                },
+                "script": {
+                    "external_label": "",
+                    "inline_label": "",
+                    "src_label": "",
+                    "inline_content_label": "",
+                    "defer_label": "",
+                    "defer_help": "",
+                    "async_label": "",
+                    "async_help": "",
+                    "module_label": "",
+                    "module_help": "",
+                    "crossorigin_label": "",
+                    "crossorigin_help": ""
+                },
+                "style": {
+                    "inline_label": "",
+                    "inline_help": ""
+                },
+                "raw": {
+                    "content_label": "",
+                    "help_text": ""
+                },
+                "preview_label": "",
+                "preview_empty": "",
+                "text": "Pidä huolta, että syntaksisi on oikein sillä on mahdollista, että rikot foorumia virheellisellä syntaksilla. Tallennuksen jälkeen ota uusi yläosa käyttöön aktivoimalla se.",
+                "header_label": "Räätälöity yläosa"
             }
         }
     }

@@ -2,21 +2,97 @@
     "ianm-html-head": {
         "admin": {
             "create_button": "Létrehozás",
+            "help": {
+                "intro": "",
+                "preconnect": "",
+                "cache": "",
+                "pages": "",
+                "location": ""
+            },
             "table": {
+                "drag_handle": "",
                 "description_label": "Leírás",
-                "header_label": "Fejléc",
+                "type_label": "",
+                "location_label": "",
+                "pages_label": "",
                 "active_label": "Aktív",
                 "empty_text": "Nincs bejegyzés",
                 "delete_button": "Törlés",
-                "edit_button": "Szerkesztés"
+                "edit_button": "Szerkesztés",
+                "delete_confirm": "",
+                "header_label": "Fejléc"
             },
             "modal": {
                 "create_title": "Új elem létrehozása",
                 "edit_title": "Elem szerkesztése",
-                "text": "Győződjön meg róla, hogy a szintaxis helyes, mivel meghibásodhat a fórum, ha helytelen adatokat ad meg a fejlécelemben. Ha elmentette, engedélyezze az új fejlécelemet a megadott kapcsolóval.",
                 "description_label": "Leírás",
-                "header_label": "Egyéni fejlécelem",
-                "save_button": "Mentés"
+                "description_help": "",
+                "type_label": "",
+                "location_label": "",
+                "location_help": "",
+                "pages_label": "",
+                "save_button": "Mentés",
+                "type": {
+                    "meta": "",
+                    "link": "",
+                    "script": "",
+                    "style": "",
+                    "raw": ""
+                },
+                "location": {
+                    "head": "",
+                    "foot": ""
+                },
+                "pages": {
+                    "forum": "",
+                    "admin": ""
+                },
+                "meta": {
+                    "variant_label": "",
+                    "name_label": "",
+                    "property_label": "",
+                    "content_label": ""
+                },
+                "link": {
+                    "rel_label": "",
+                    "href_label": "",
+                    "as_label": "",
+                    "as_help": "",
+                    "crossorigin_label": "",
+                    "crossorigin_help": "",
+                    "fetchpriority_label": "",
+                    "fetchpriority_default": "",
+                    "fetchpriority_help": "",
+                    "extras_label": "",
+                    "extras_add": "",
+                    "extras_remove": ""
+                },
+                "script": {
+                    "external_label": "",
+                    "inline_label": "",
+                    "src_label": "",
+                    "inline_content_label": "",
+                    "defer_label": "",
+                    "defer_help": "",
+                    "async_label": "",
+                    "async_help": "",
+                    "module_label": "",
+                    "module_help": "",
+                    "crossorigin_label": "",
+                    "crossorigin_help": ""
+                },
+                "style": {
+                    "inline_label": "",
+                    "inline_help": ""
+                },
+                "raw": {
+                    "content_label": "",
+                    "help_text": ""
+                },
+                "preview_label": "",
+                "preview_empty": "",
+                "text": "Győződjön meg róla, hogy a szintaxis helyes, mivel meghibásodhat a fórum, ha helytelen adatokat ad meg a fejlécelemben. Ha elmentette, engedélyezze az új fejlécelemet a megadott kapcsolóval.",
+                "header_label": "Egyéni fejlécelem"
             }
         }
     }

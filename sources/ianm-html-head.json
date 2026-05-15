@@ -2,21 +2,94 @@
     "ianm-html-head": {
         "admin": {
             "create_button": "Create",
+            "help": {
+                "intro": "Add custom tags to inject into your forum's HTML. Items are cached and served efficiently — no database queries on page load.",
+                "preconnect": "Link and script tags pointing to external origins automatically get preconnect and dns-prefetch hints generated, warming the connection before the browser needs it.",
+                "cache": "The rendered HTML is cached at save time. Changes take effect immediately without clearing the full site cache.",
+                "pages": "Each item can target the forum frontend, the admin panel, or both.",
+                "location": "Items can be injected into the head or at the end of the body."
+            },
             "table": {
+                "drag_handle": "Drag to reorder",
                 "description_label": "Description",
-                "header_label": "Header",
+                "type_label": "Type",
+                "location_label": "Location",
+                "pages_label": "Pages",
                 "active_label": "Active",
-                "empty_text": "No entries",
+                "empty_text": "No items yet. Click Create to add your first head item.",
                 "delete_button": "Delete",
-                "edit_button": "Edit"
+                "edit_button": "Edit",
+                "delete_confirm": "Are you sure you want to delete this item?"
             },
             "modal": {
-                "create_title": "Create new item",
-                "edit_title": "Edit item",
-                "text": "Ensure your syntax is correct, as it's possible to break the forum by supplying incorrect data on the head item. Once saved, enable your new header item using the toggle switch provided.",
+                "create_title": "Create Head Item",
+                "edit_title": "Edit Head Item",
                 "description_label": "Description",
-                "header_label": "Custom head item",
-                "save_button": "Save"
+                "description_help": "A label for your own reference — not injected into the page.",
+                "type_label": "Type",
+                "location_label": "Inject into",
+                "location_help": "Head: loaded before page renders, best for styles and critical meta. Footer: loaded after page content, best for non-critical scripts.",
+                "pages_label": "Apply to",
+                "save_button": "Save",
+                "type": {
+                    "meta": "Meta Tag",
+                    "link": "Link",
+                    "script": "Script",
+                    "style": "Style",
+                    "raw": "Raw HTML"
+                },
+                "location": {
+                    "head": "Head",
+                    "foot": "Footer"
+                },
+                "pages": {
+                    "forum": "Forum",
+                    "admin": "Admin Panel"
+                },
+                "meta": {
+                    "variant_label": "Variant",
+                    "name_label": "name=\"\"",
+                    "property_label": "property=\"\" (Open Graph)",
+                    "content_label": "Content"
+                },
+                "link": {
+                    "rel_label": "rel=\"\"",
+                    "href_label": "href=\"\" (URL)",
+                    "as_label": "as=\"\"",
+                    "as_help": "Tells the browser what type of resource is being preloaded so it can set the correct request headers. Required for rel=preload.",
+                    "crossorigin_label": "Add crossorigin=\"anonymous\"",
+                    "crossorigin_help": "Required for fonts and scripts loaded from another domain so the browser can share the connection. Enable this if the resource is on a different origin.",
+                    "fetchpriority_label": "fetchpriority=\"\"",
+                    "fetchpriority_default": "browser default",
+                    "fetchpriority_help": "Hint to the browser about the relative priority of this resource. high: load sooner (e.g. hero image or critical stylesheet). low: load later (e.g. below-fold resource). Leave unset to let the browser decide.",
+                    "extras_label": "Additional attributes",
+                    "extras_add": "Add attribute",
+                    "extras_remove": "Remove"
+                },
+                "script": {
+                    "external_label": "External (src)",
+                    "inline_label": "Inline",
+                    "src_label": "src=\"\" (URL)",
+                    "inline_content_label": "Script content",
+                    "defer_label": "defer",
+                    "defer_help": "Script runs after the page has parsed, without blocking rendering. Best for most scripts.",
+                    "async_label": "async",
+                    "async_help": "Script runs as soon as it downloads, out of order. Best for independent scripts like analytics.",
+                    "module_label": "type=\"module\"",
+                    "module_help": "Enable this if the script provider's docs say to use type=\"module\". Modules load after the page without blocking it.",
+                    "crossorigin_label": "crossorigin=\"anonymous\"",
+                    "crossorigin_help": "Required when loading scripts from another domain that need CORS access."
+                },
+                "style": {
+                    "inline_label": "CSS content",
+                    "inline_help": "Applied globally to every page this item targets. Keep rules specific to avoid unintended side effects."
+                },
+                "raw": {
+                    "content_label": "HTML",
+                    "help_text": "Enter raw HTML. Preconnect hints are automatically generated for any cross-origin link or script tags found here. Sort order and active toggle work as normal, but type-specific features (fetchpriority, defer, etc.) are not available — use a structured type if you need those."
+                },
+                "preview_label": "Preview",
+                "preview_empty": "Fill in the fields above to see a preview."
             }
         }
     }

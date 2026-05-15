@@ -1,0 +1,28 @@
+{
+    "resofire-menu-control": {
+        "admin": {
+            "nav_order": {
+                "title": "Menüelemek sorrendje",
+                "description": "Használja a nyílgombokat a fórum kezdőoldalán található oldalsáv-navigációs elemek átrendezéséhez. A változtatások mentés után azonnal érvényesülnek.",
+                "save_button": "Sorrend mentése",
+                "save_success": "Navigációs sorrend mentve.",
+                "no_items": "Nem észlelhetők nagivációs elemek. Először keresse fel a fórum kezdőoldalát adminisztrátorként, hogy feltöltse ezt a listát.",
+                "move_up": "Fentebb helyezés",
+                "icon_input_title": "Egyéni Font Awesome ikonosztály (például fas fa-bolt). Az alapértelmezés használatához hagyja üresen.",
+                "highlight_color_label": "Kiemelő szín",
+                "highlight_color_help": "Háttérszín a kiemelt navigációs elemekhez. Az alapértelmezett témaszín használatához hagyja üresen.",
+                "remove_item": "Eltávolítás a listából",
+                "add_custom_link": "Egyéni hivatkozás hozzáadása",
+                "custom_link_label": "Hivatkozás címkéje",
+                "polls_note": "Megjegyzés: Ha a fof/polls telepítve van, akkor a fof-polls-showcase és hasonló elemek akkor is megjelenhetnek a listában, ha a globális szavazások le vannak tiltva. Használja a × gombot a végleges eltávolításukhoz.",
+                "add_highlight": "Elem kiemelése a felhasználók számára",
+                "remove_highlight": "Kiemelés eltávolítása",
+                "move_down": "Lentebb helyezés",
+                "flip_label": "Navigáció megfordítása (címkék megjelenítése a menüelemek felett)",
+                "flip_help": "Ha be van kapcsolva, a címkehivatkozások az oldalsáv felett, a navigációs elemek (Összes téma, Követve stb.) pedig az alatt jelennek meg.",
+                "sticky_label": "Rögzített oldalsáv (az oldalsáv görgetés során mindig látható)",
+                "sticky_help": "Ha be van kapcsolva, akkor az oldalsáv, köztük a Téma indítása gomb, rögzítve marad a látómező felső részén legörgetéskor."
+            }
+        }
+    }
+}

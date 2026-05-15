@@ -1,0 +1,97 @@
+{
+    "tryhackx-magnet-link": {
+        "admin": {
+            "settings": {
+                "guest_visible_label": "Sichtbar für Gäste",
+                "guest_visible_help": "Gästen das Anzeigen von Magnet-Links ermöglichen. Wenn deaktiviert, wird den Gästen eine Meldung angezeigt, in der sie aufgefordert werden, sich zu registrieren oder anzumelden.",
+                "activated_only_label": "Nur aktivierte Benutzer",
+                "activated_only_help": "Nur Benutzer mit einer bestätigten E-Mail-Adresse können Magnet-Links anzeigen. Diese Einstellung gilt nur für angemeldete Nutzer.",
+                "scraper_enabled_label": "Tracker-Statistiken abrufen",
+                "scraper_enabled_help": "Wenn aktiviert, fragt die Erweiterung Tracker ab, um Statistiken zu Seedern, Leechern und Downloads abzurufen. Wenn deaktiviert, werden nur der Torrent-Name und die Anzahl der Klicks angezeigt.",
+                "http_only_label": "Nur HTTP(S)-Trackers",
+                "http_only_help": "Nur HTTP- und HTTPS-Tracker abfragen. Aktiviere diese Option, wenn dein Hosting-Anbieter keine UDP-Verbindungen zulässt.",
+                "check_all_label": "Alle Tracker abfragen",
+                "check_all_help": "Alle verfügbaren Tracker abfragen und die Ergebnisse entsprechend der Einstellung für den Anzeigetyp zusammenfassen.",
+                "display_type_label": "Anzeigetyp",
+                "display_type_help": "So werden Statistiken bei der Abfrage mehrerer Tracker zusammengefasst.",
+                "display_type_average": "Durchschnitt aller Werte",
+                "display_type_average_max": "Durchschnitt für Seeds/Leeches, Höchstwert für Downloads",
+                "display_type_max_all": "Höchstwerte für alles",
+                "tracker_timeout_label": "Zeitüberschreitung für Tracker (Sekunden)",
+                "tracker_timeout_help": "Maximale Wartezeit auf eine Antwort des Trackers. Auf 0 setzen, um die Standardeinstellung (2 Sekunden) zu verwenden.",
+                "max_trackers_label": "Maximale Anzahl von Trackern für die Abfrage",
+                "max_trackers_help": "Maximale Anzahl der abzufragenden Tracker. Setze den Wert auf 0, um die Anzahl nicht zu begrenzen. Wenn „Alle auswählen“ aktiviert ist, begrenzt dies die Anzahl der erfolgreichen Antworten.",
+                "click_tracking_label": "Klickverfolgung aktivieren",
+                "click_tracking_help": "Erfassen und anzeigen, wie oft auf jeden Magnet-Link geklickt wurde.",
+                "tooltip_enabled_label": "Tooltip für Diskussion aktivieren",
+                "tooltip_enabled_help": "Statistiken zu Magnet-Links anzeigen, wenn man mit der Maus über Beiträge in der Diskussionsliste fährt.",
+                "tooltip_max_magnets_label": "Maximale Anzahl von Magnets im Tooltip",
+                "tooltip_max_magnets_help": "Maximale Anzahl der Magnet-Links, die im Tooltip der Diskussion angezeigt werden. Setze den Wert auf 0, um die Anzahl nicht zu begrenzen.",
+                "rename_enabled_label": "Benutzerdefinierte Torrent-Namen aktivieren",
+                "rename_enabled_help": "Erlaube den Autoren von Beiträgen, die Anzeigenamen von Magnet-Links in ihren eigenen Beiträgen umzubenennen.",
+                "ban_enabled_label": "Spamschutz aktivieren",
+                "ban_enabled_help": "Sperre IP-Adressen vorübergehend, die innerhalb kurzer Zeit zu viele Magnet-Links anklicken, um Manipulationen der Klickzahlen zu verhindern.",
+                "ban_time_label": "Sperrdauer (Minuten)",
+                "ban_time_help": "Wie lange eine IP-Adresse gesperrt wird, nachdem das Klicklimit überschritten wurde.",
+                "ban_interval_label": "Zeitfenster für Sperraktivität (Minuten)",
+                "ban_interval_help": "Zeitfenster für die Zählung der Klicks, um festzustellen, ob eine IP-Adresse gesperrt werden soll.",
+                "ban_interval_count_label": "Sperrschwelle",
+                "ban_interval_count_help": "Anzahl der Klicks innerhalb des Zeitfensters, die eine Sperre auslösen.",
+                "self_interval_label": "Intervall zwischen Selbstklicks (Tage)",
+                "self_interval_help": "Wie lange es dauert, bis dieselbe IP-Adresse die Klickzahl für denselben Magnet-Link erneut erhöhen kann."
+            },
+            "support": {
+                "button": "Unterstütze die Entwicklung",
+                "title": "Unterstütze diese Erweiterung",
+                "description": "Wenn dir diese Erweiterung gefällt, würde ich mich über eine kleine Spende freuen, um die Weiterentwicklung zu unterstützen. Jeder Beitrag hilft dabei, das Projekt am Leben zu erhalten und weiter zu pflegen.",
+                "copy": "Adresse kopieren",
+                "thanks": "Vielen Dank für deine Unterstützung!"
+            }
+        },
+        "forum": {
+            "loading": "Magnetdaten werden geladen...",
+            "seeds": "Seeds:",
+            "leeches": "Leeches:",
+            "completed": "Heruntergeladen:",
+            "clicks": "Klicks:",
+            "size": "Größe:",
+            "refresh": "Tracker-Daten aktualisieren",
+            "copy_link": "Magnet-Link in die Zwischenablage kopieren",
+            "guest_not_allowed": "Du musst angemeldet sein, um Magnet-Links anzuzeigen.",
+            "email_not_confirmed": "Bitte bestätige deine E-Mail-Adresse, um Magnet-Links anzuzeigen.",
+            "permission_denied": "Du hast keine Berechtigung, Magnet-Links anzuzeigen.",
+            "login": "Anmelden",
+            "register": "Registrieren",
+            "or": "oder",
+            "editor": {
+                "tooltip": "Magnet-Link einfügen",
+                "prompt": "Magnet-Link eingeben:",
+                "invalid": "Ungültiger Magnet-Link. Der Link muss mit „magnet:“ beginnen."
+            },
+            "tooltip": {
+                "header": "Magnet-Links",
+                "loading": "Magnetdaten werden geladen...",
+                "no_magnets": "In dieser Diskussion gibt es keine Magnet-Links"
+            },
+            "rename": {
+                "tooltip": "Torrent umbenennen",
+                "modal_title": "Torrent umbenennen",
+                "label": "Benutzerdefinierter Name:",
+                "save": "Speichern",
+                "cancel": "Abbrechen",
+                "restore": "Ursprünglichen Namen wiederherstellen"
+            },
+            "errors": {
+                "invalid_magnet": "Ungültiges Magnet-Link-Format",
+                "no_trackers": "Der Magnet-Link enthält keine Tracker",
+                "no_http_trackers": "Es sind keine HTTP(S)-Tracker verfügbar",
+                "no_response": "Kein Tracker hat geantwortet",
+                "scraper_error": "Es konnte keine Verbindung zu den Trackern hergestellt werden",
+                "load_failed": "Magnetdaten konnten nicht geladen werden"
+            }
+        },
+        "permissions": {
+            "viewMagnetLinks": "Magnet-Links anzeigen"
+        }
+    }
+}

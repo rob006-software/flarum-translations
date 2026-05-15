@@ -1,0 +1,130 @@
+{
+    "ralkage-civility-filter": {
+        "admin": {
+            "settings": {
+                "enabled_label": "Enable Civility Filter",
+                "enabled_help": "Master switch to enable or disable the civility filter.",
+                "ai_provider_label": "AI Provider",
+                "ai_provider_help": "Select which AI provider to use. Set the corresponding API key below.",
+                "api_key_label": "Anthropic API Key",
+                "api_key_help": "Your Anthropic API key for Claude models.",
+                "openai_api_key_label": "OpenAI API Key",
+                "openai_api_key_help": "Your OpenAI API key for GPT models.",
+                "openrouter_api_key_label": "OpenRouter API Key",
+                "openrouter_api_key_help": "Your OpenRouter API key. Access 200+ models from one API.",
+                "model_label": "AI Model",
+                "model_help": "Select a model matching your chosen provider.",
+                "warn_threshold_label": "Warn Threshold (0-100)",
+                "warn_threshold_help": "Score at or above this level will log a warning. Default: 60",
+                "hold_threshold_label": "Hold/Moderate Threshold (0-100)",
+                "hold_threshold_help": "Score at or above this level will hold the post for moderation. Default: 80",
+                "block_threshold_label": "Block Threshold (0-100)",
+                "block_threshold_help": "Score at or above this level will block the post entirely. Default: 95",
+                "log_all_label": "Log All Checks",
+                "log_all_help": "Log all civility checks, including posts that pass. When disabled, only flagged posts are logged.",
+                "monitored_tags_label": "Monitored Tags",
+                "monitored_tags_help": "Select tags to monitor. Leave empty to monitor all tags.",
+                "custom_prompt_label": "Custom AI Prompt",
+                "custom_prompt_help": "Override the default analysis prompt. Must instruct the AI to return JSON with score, categories, and reason fields. Leave empty for default.",
+                "word_blocklist_label": "Word Blocklist",
+                "word_blocklist_help": "One word/phrase per line. Posts containing these will be instantly blocked without calling the AI.",
+                "webhook_url_label": "Webhook URL",
+                "webhook_url_help": "Discord webhook or generic URL to receive alerts when posts are flagged. Leave empty to disable.",
+                "webhook_min_action_label": "Webhook Minimum Action",
+                "webhook_min_action_help": "Only send webhook alerts for this action level or higher.",
+                "auto_suspend_threshold_label": "Auto-Suspend After X Violations",
+                "auto_suspend_threshold_help": "Automatically suspend a user after this many violations within the window. Set to 0 to disable.",
+                "auto_suspend_days_label": "Auto-Suspend Duration (days)",
+                "auto_suspend_days_help": "How many days to suspend a user. Default: 3",
+                "auto_suspend_window_label": "Auto-Suspend Window (days)",
+                "auto_suspend_window_help": "Count violations within this many days. Default: 7",
+                "rate_limit_label": "API Rate Limit (calls/hour)",
+                "rate_limit_help": "Maximum AI API calls per hour. Posts will pass through unchecked if limit is reached. Set to 0 for unlimited."
+            },
+            "permissions": {
+                "bypass_label": "Bypass Civility Filter"
+            },
+            "nav": {
+                "civility_log": "Civility Log",
+                "stats": "Statistics"
+            },
+            "log": {
+                "title": "Civility Filter Log",
+                "username": "Username",
+                "score": "Score",
+                "action": "Action",
+                "categories": "Categories",
+                "excerpt": "Message Excerpt",
+                "date": "Date",
+                "discussion": "Discussion",
+                "no_logs": "No civility log entries found.",
+                "clear": "Clear Log",
+                "clear_confirm": "Are you sure you want to clear the entire civility log?",
+                "export": "Export CSV",
+                "filter_action": "Filter by action",
+                "all_actions": "All Actions",
+                "allowed": "Allowed",
+                "warned": "Warned",
+                "moderated": "Moderated",
+                "blocked": "Blocked",
+                "actions_col": "Actions",
+                "approve": "Approve",
+                "delete": "Delete",
+                "suspend": "Suspend",
+                "approved": "Approved",
+                "deleted": "Deleted",
+                "suspended": "Suspended"
+            },
+            "test": {
+                "title": "Test Analyzer",
+                "message_label": "Message to analyze",
+                "message_placeholder": "Enter a test message to analyze...",
+                "discussion_title_label": "Discussion title (optional context)",
+                "discussion_title_placeholder": "Optional discussion title for context...",
+                "submit": "Analyze",
+                "result_score": "Civility Score",
+                "result_action": "Action",
+                "result_reason": "Reason",
+                "result_categories": "Categories",
+                "result_latency": "API Latency",
+                "api_error": "API call failed"
+            },
+            "stats": {
+                "title": "Civility Statistics",
+                "total_checks": "Total Checks",
+                "average_score": "Average Score",
+                "action_breakdown": "Action Breakdown",
+                "top_categories": "Top Categories",
+                "top_offenders": "Top Offenders",
+                "daily_trend": "Daily Trend (30 days)",
+                "user": "User",
+                "violations": "Violations",
+                "avg_score": "Avg Score",
+                "date": "Date",
+                "total": "Total",
+                "flagged": "Flagged",
+                "no_data": "No statistics data available yet."
+            }
+        },
+        "forum": {
+            "post_notice_warned_author": "Your post was flagged by the civility filter. Please keep discussions respectful and constructive.",
+            "post_notice_warned_mod": "This post was flagged by the civility filter for potential incivility. (Only visible to staff)",
+            "post_notice_moderated": "This post was held for moderation by the civility filter due to potentially harmful content.",
+            "notification_warned": "Your recent post was flagged by the civility filter. Please keep discussions respectful.",
+            "notification_moderated": "Your recent post was held for moderation by the civility filter. A moderator will review it shortly.",
+            "settings": {
+                "notify_civility_flagged": "Someone flags my post for civility"
+            },
+            "user_profile": {
+                "civility_title": "Civility History",
+                "total_checks": "Total Checks",
+                "average_score": "Average Score",
+                "violations": "Violations",
+                "no_history": "No civility history."
+            }
+        },
+        "api": {
+            "post_blocked": "Your post was blocked by the civility filter. Please revise your message to be more respectful and constructive, then try again."
+        }
+    }
+}

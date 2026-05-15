@@ -2,27 +2,27 @@
     "core": {
         "forum": {
             "index_sort": {
-                "front_button": "Halaman Depan"
+                "front_button": "Halaman Utama"
             },
             "badge": {
-                "frontpage_tooltip": ""
+                "frontpage_tooltip": "Ditandai sebagai Halaman Utama"
             },
             "post_controls": {
-                "push_to_front_button": "",
-                "pull_from_front_button": ""
+                "push_to_front_button": "Pindahkan ke Halaman Utama",
+                "pull_from_front_button": "Hapus dari Halaman Utama"
             }
         }
     },
     "fof-frontpage": {
         "admin": {
             "permissions": {
-                "can_push_to_frontpage_label": ""
+                "can_push_to_frontpage_label": "Dapat Dipindahkan ke Halaman Utama"
             }
         },
         "lib": {
             "gambits": {
                 "frontpage": {
-                    "key": ""
+                    "key": "frontpage"
                 }
             }
         }

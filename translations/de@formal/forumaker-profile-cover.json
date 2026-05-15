@@ -1,0 +1,37 @@
+{
+    "forumaker-profile-cover": {
+        "admin": {
+            "sections": {
+                "thumbnails": "Miniaturansichten",
+                "general": "Allgemein"
+            },
+            "thumbnails": "Miniaturansichten erstellen",
+            "thumbnails_help": "Erstellt eine verkleinerte Version des Profiltitelbildes, das in kompakten Ansichten wie Benutzerkarten und Verzeichnislisten verwendet wird. Wenn deaktiviert, werden stattdessen Cover in voller Größe verwendet.",
+            "thumbnail_width": "Maximale Breite der Miniaturansicht (px)",
+            "thumbnail_width_help": "Das Cover wird proportional skaliert, sodass seine Breite diesem Wert entspricht. Der Standardwert beträgt 500.",
+            "recreate_thumbnails": "Miniaturansichten neu erstellen",
+            "delete_thumbnails": "Miniaturansichten löschen",
+            "recreate_success": "Miniaturansichten erfolgreich neu erstellst",
+            "delete_success": "Alle Miniaturansichten gelöscht",
+            "recreate_error": "Miniaturansichten konnten nicht neu erstellt werden",
+            "delete_error": "Miniaturansichten konnten nicht gelöscht werden",
+            "max_size": "Maximale Größe des Profiltitelbilds (in KB)",
+            "permission": {
+                "set_cover": "Profiltitelbild festlegen"
+            }
+        },
+        "forum": {
+            "cover": "Profiltitelbild",
+            "edit_cover": "Profiltitelbild bearbeiten",
+            "notice": "Maximale Größe: {size}",
+            "added": {
+                "success": "Profiltitelbild aktualisiert",
+                "error": "Bild konnte nicht hochgeladen werden"
+            },
+            "removed": {
+                "success": "Profiltitelbild entfernt",
+                "error": "Entfernen des Profiltitelbild fehlgeschlagen. Bitte versuche es erneut."
+            }
+        }
+    }
+}

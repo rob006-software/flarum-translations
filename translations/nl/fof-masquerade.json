@@ -1,0 +1,86 @@
+{
+    "fof-masquerade": {
+        "forum": {
+            "alerts": {
+                "profile-completion-required": "Vul alstublieft onderstaande verplichte profielvelden in.\n",
+                "profile-completed": "Profiel voltooid. <a>Verder naar home pagina</a>"
+            },
+            "buttons": {
+                "view-profile": "Bekijk profiel",
+                "edit-profile": "Bewerk profiel",
+                "save-profile": "Opslaan"
+            },
+            "fields": {
+                "select": {
+                    "none-optional": "Geen optie geselecteerd (optioneel)",
+                    "none-required": "Selecteer a.u.b. een optie (verplicht)"
+                },
+                "boolean": {
+                    "yes": "Ja",
+                    "no": "Nee"
+                }
+            }
+        },
+        "admin": {
+            "buttons": {
+                "add-field": "Maak veld",
+                "edit-field": "Wijzigingen opslaan",
+                "delete-field": "Verwijder veld"
+            },
+            "permissions": {
+                "edit-others-profile": "Het profiel van anderen bewerken",
+                "have-profile": "Een masquerade profiel hebben",
+                "view-profile": "Masquerade profiel bekijken"
+            },
+            "fields": {
+                "title": "Velden",
+                "create": "",
+                "edit": "Veld {field} bewerken",
+                "delete-confirmation": "Weet je zeker dat je het veld {field} wilt verwijderen? Deze actie kan niet ongedaan worden gemaakt.",
+                "name": "Veld naam",
+                "name-help": "Het openbare (niet-vertaalbare) veld label.\n",
+                "description": "Veld beschrijving",
+                "description-help": "Een optionele beschrijving waarmee het nut van dit veld wordt uitgelegd.\n",
+                "required": "Maak veld verplicht",
+                "on_bio": "Laat waarde van dit veld zien in de bio van de gebruiker",
+                "type": "Type",
+                "validation": "Validatie",
+                "validation-help": "Check de ondersteunde <a>Laravel validatieregels</a>. Bijv: \"string|min:5\" of \"url\".\n",
+                "icon": "Icoon",
+                "icon-help": "Toont een icoon vóór de waarden die in dit veld zijn ingevoerd door de gebruiker. Voor een overzicht van beschikbare iconen, check de <a>FontAwesome website</a>. Gebruik namen van iconen met de \"fa-\" prefix, bijv. \"fas fa-info\".\n",
+                "force-user-to-completion": "Verplicht de gebruiker om het profiel volledig in te vullen",
+                "hide-empty-fields": "",
+                "options": "Opties",
+                "option-new": "Nieuwe optie",
+                "option-comma-warning": "Het label van een optie mag geen komma (\",\") bevatten.",
+                "add": "Veld {field} toevoegen"
+            },
+            "types": {
+                "advanced": "Geavanceerd",
+                "boolean": "Vinkje",
+                "email": "E-mail",
+                "select": "Keuze-menu",
+                "url": "Link"
+            },
+            "general-options": "Algemene instellingen"
+        },
+        "lib": {
+            "gambits": {
+                "answer": {
+                    "key": ""
+                }
+            }
+        }
+    },
+    "flarum-gdpr": {
+        "lib": {
+            "data": {
+                "masqueradeanswers": {
+                    "export_description": "Exporteert de antwoorden op het profielveld van de gebruiker",
+                    "delete_description": "Verwijdert alle antwoorden op profielvelden uit het account van de gebruiker",
+                    "anonymize_description": "=> flarum-gdpr.lib.data.masqueradeanswers.delete_description"
+                }
+            }
+        }
+    }
+}

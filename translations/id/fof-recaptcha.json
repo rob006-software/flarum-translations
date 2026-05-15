@@ -1,0 +1,44 @@
+{
+    "fof-recaptcha": {
+        "admin": {
+            "settings": {
+                "help_text": "Dapatkan kredensial Google reCAPTCHA Anda <a>di sini</a>.",
+                "secret_key_label": "Secret Key",
+                "site_key_label": "Site Key",
+                "type_label": "Jenis reCAPTCHA",
+                "type_help": "Jenis yang dipilih harus sesuai dengan jenis kredensial reCAPTCHA Anda. Checkbox dan Invisible keduanya merupakan reCAPTCHA v2; v3 berbasis skor dan berjalan secara otomatis.",
+                "type_options": {
+                    "checkbox": "v2 Checkbox",
+                    "invisible": "v2 Invisible",
+                    "v3": "v3 (berbasis skor)"
+                },
+                "v3_threshold_label": "ambang batas skor reCAPTCHA v3",
+                "v3_threshold_help": "Entri yang nilainya di bawah nilai ini (0.0 = kemungkinan bot, 1.0 = kemungkinan manusia) akan ditolak. Google menyarankan 0.5 sebagai titik awal. Hanya digunakan jika jenisnya diatur ke v3.",
+                "signup": "=> core.forum.sign_up.title",
+                "signin": "=> core.forum.log_in.title",
+                "forgot": "=> core.forum.forgot_password.title"
+            },
+            "test": {
+                "title": "Tes reCAPTCHA",
+                "help_text": "Tes ini akan menggunakan nilai saat ini yang dimasukkan di atas. Pastikan untuk memuat ulang tes setelah memodifikasi pengaturan, dan jangan lupa untuk menyimpannya setelah tes selesai!\nDi bawah ini mungkin tidak mencerminkan pengaturan yang disimpan.\n",
+                "success_message": "Berhasil! reCAPTCHA telah dikonfigurasi dengan benar.",
+                "load_test_button": "Memuat",
+                "submit_button": "Submit",
+                "reload_button": "Muat ulang"
+            },
+            "permissions": {
+                "post_without_captcha": "Membuat post dan diskusi tanpa captcha"
+            }
+        },
+        "lib": {
+            "error": "Terjadi error saat mengirimkan reCAPTCHA. Silakan coba lagi.",
+            "not_completed": "Silakan selesaikan verifikasi reCAPTCHA sebelum melanjutkan.",
+            "rejected": "Verifikasi reCAPTCHA gagal. Silakan coba lagi.",
+            "unknown_error": "Terjadi error yang tidak diketahui. Silakan coba lagi."
+        }
+    },
+    "validation": {
+        "recaptcha": "Validasi reCAPTCHA gagal.",
+        "recaptcha-unknown": "Terjadi error yang tidak diketahui saat memvalidasi reCAPTCHA ({errors})."
+    }
+}

@@ -19,9 +19,18 @@
                     "extension_settings_button": "Ustawienia RODO"
                 },
                 "user_table_data": {
-                    "not_yet_implemented": "",
                     "title": "Dane tabeli użytkowników",
-                    "help_text": "W większości przypadków każda kolumna dodana do tabeli <code>user</code> będzie obsługiwana automatycznie, zarówno pod kątem eksportowania danych, jak i usuwania.\nIstnieją jednak pewne specjalne przypadki, które są wymienione poniżej.\n"
+                    "help_text": "W większości przypadków każda kolumna dodana do tabeli <code>user</code> będzie obsługiwana automatycznie, zarówno pod kątem eksportowania danych, jak i usuwania.\nIstnieją jednak pewne specjalne przypadki, które są wymienione poniżej.\n",
+                    "column": "Kolumna",
+                    "type": "Typ",
+                    "nullable": "Dopuszcza null",
+                    "pii": "Dane osobowe",
+                    "redacted_on_export": "Redagowane przy eksporcie",
+                    "extension": "Rozszerzenie",
+                    "yes": "Tak",
+                    "no": "Nie",
+                    "pii_tooltip": "Ta kolumna jest uznawana za dane osobowe i będzie redagowana w kontekstach anonimizacji (np. anonimizowane ładunki zdarzeń).",
+                    "redacted_on_export_tooltip": "Wartość tej kolumny jest zerowana (ustawiana na null) podczas generowania eksportu danych użytkownika. Kolumna nadal pojawia się w eksporcie z wartością null."
                 }
             },
             "nav": {
@@ -74,6 +83,7 @@
                 "forum": {
                     "export_description": "Eksportuje tytuł forum, URL, nazwę użytkownika, e-mail i bieżącą datę."
                 },
+                "default_user_action": "Brak akcji – obsługiwane przez domyślną obsługę danych tabeli użytkowników.",
                 "no_action": "Brak podjętych działań.",
                 "posts": {
                     "anonymize_description": "Usuwa adres IP ze wszystkich postów stworzonych przez użytkownika.",
@@ -152,7 +162,10 @@
                 "text": "{name} zażądał usunięcia konta.",
                 "comments_label": "Komentarze (opcjonalnie)",
                 "anonymization_button": "Anonimizuj użytkownika",
-                "deletion_button": "Usuń użytkownika"
+                "deletion_button": "Usuń użytkownika",
+                "requested_at": "Złożono: {date}",
+                "confirmed_at": "Potwierdzono: {date}",
+                "eligible_at": "Automatyczne przetworzenie: {date}"
             },
             "request_erasure": {
                 "title": "Złóż wniosek o usunięcie konta",

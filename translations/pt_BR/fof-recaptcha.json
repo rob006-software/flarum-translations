@@ -1,0 +1,44 @@
+{
+    "fof-recaptcha": {
+        "admin": {
+            "settings": {
+                "help_text": "Obtenha suas credenciais do Google reCAPTCHA <a>aqui</a>.",
+                "secret_key_label": "Chave Secreta",
+                "site_key_label": "Chave do Site",
+                "type_label": "Tipo reCAPTCHA",
+                "type_help": "",
+                "type_options": {
+                    "checkbox": "",
+                    "invisible": "",
+                    "v3": ""
+                },
+                "v3_threshold_label": "",
+                "v3_threshold_help": "",
+                "signup": "",
+                "signin": "",
+                "forgot": ""
+            },
+            "test": {
+                "title": "",
+                "help_text": "",
+                "success_message": "",
+                "load_test_button": "",
+                "submit_button": "",
+                "reload_button": "Recarregar"
+            },
+            "permissions": {
+                "post_without_captcha": "Crie postagens e discussões sem captcha"
+            }
+        },
+        "lib": {
+            "error": "",
+            "not_completed": "",
+            "rejected": "",
+            "unknown_error": ""
+        }
+    },
+    "validation": {
+        "recaptcha": "Falha na validação do reCAPTCHA.",
+        "recaptcha-unknown": ""
+    }
+}

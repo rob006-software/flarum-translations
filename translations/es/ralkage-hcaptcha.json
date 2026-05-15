@@ -1,0 +1,25 @@
+{
+    "ralkage-hcaptcha": {
+        "admin": {
+            "settings": {
+                "help_text": "Obtenga sus credenciales hCaptcha <a>aquí</a>.",
+                "secret_key_label": "Clave Secreta",
+                "site_key_label": "Clave del Sitio",
+                "type_label": "Tipo de hCaptcha",
+                "dark_mode_label": "Modo Oscuro",
+                "dark_mode_help": "Utiliza el tema oscuro para el widget hCaptcha. Habilítalo si tu foro utiliza un tema oscuro.",
+                "enable_login_label": "Requerido al Iniciar Sesión",
+                "enable_login_help": "Exigir hCaptcha al iniciar sesión. Esto ayuda a proteger contra ataques de fuerza bruta."
+            },
+            "permissions": {
+                "post_without_hcaptcha": "Crear mensajes y debates sin hCaptcha"
+            }
+        },
+        "forum": {
+            "error": "Se ha producido un error al enviar h-captcha. Inténtelo de nuevo."
+        }
+    },
+    "validation": {
+        "hcaptcha": "Ha fallado la validación de hCaptcha."
+    }
+}

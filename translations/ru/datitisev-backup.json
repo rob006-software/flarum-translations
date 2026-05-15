@@ -2,8 +2,8 @@
     "datitisev-backup": {
         "admin": {
             "settings": {
-                "database_bin_path_label": "",
-                "database_bin_path_help": ""
+                "database_bin_path_label": "Необязательно — путь к исполняемым файлам базы данных",
+                "database_bin_path_help": "Если исполняемые файлы базы данных, например, mysqldump, pg_dump, не находятся в системной переменной PATH, укажите здесь каталог, в котором они расположены. Не забудьте указать завершающий слеш, например, <code>/usr/local/mysql/bin/</code>.\n"
             },
             "adapters": {
                 "local": "Локальное хранилище",
@@ -16,9 +16,9 @@
                 "sftp": "SFTP"
             },
             "settings_button": "Конфигурировать",
-            "delete_button": "",
-            "delete_confirmation": "",
-            "create_button": "",
+            "delete_button": "Удалить",
+            "delete_confirmation": "Удалить «{name}» ({adapter})?",
+            "create_button": "Добавить новый адаптер",
             "required_package_button": "Установить",
             "required-package-modal": {
                 "title": "Для {adapter} необходим соответствующий пакет",
@@ -26,9 +26,9 @@
             },
             "adapter-settings-modal": {
                 "title": "Конфигурировать {adapter}",
-                "name_label": "",
-                "timestamp_label": "",
-                "timestamp_help": "",
+                "name_label": "Название расположения",
+                "timestamp_label": "Формат временной метки в имени файла",
+                "timestamp_help": "Укажите формат временной метки в именах файлов резервных копий. По умолчанию — <code>U</code> (Unix-временная метка). Используется <a>формат даты PHP</a>. Недопустимые символы в имени файла будут заменены. Имя файла будет иметь вид <code>{forum}-[форматированная временная метка].zip</code>.\n",
                 "local": {
                     "target": {
                         "label": "Путь назначения",
@@ -42,163 +42,163 @@
                     },
                     "access-id": {
                         "label": "ID доступа",
-                        "description": ""
+                        "description": "ID вашего токена доступа"
                     },
                     "access-key": {
-                        "label": "",
-                        "description": ""
+                        "label": "Ключ доступа",
+                        "description": "Ключ вашего токена доступа"
                     },
                     "bucket": {
-                        "label": "",
-                        "description": ""
+                        "label": "Бакет",
+                        "description": "Бакет хранилища для использования."
                     },
                     "path-prefix": {
-                        "label": "",
-                        "description": ""
+                        "label": "Префикс пути",
+                        "description": "Необязательный префикс пути по умолчанию для файлов."
                     }
                 },
                 "azure": {
                     "endpoint": {
-                        "label": "",
-                        "description": ""
+                        "label": "Строка подключения",
+                        "description": "Строка подключения для хранилища Azure."
                     },
                     "container": {
                         "label": "Контейнер",
                         "description": "Контейнер Azure"
                     },
                     "path-prefix": {
-                        "label": "",
-                        "description": ""
+                        "label": "Префикс пути",
+                        "description": "Необязательный префикс пути по умолчанию для файлов."
                     }
                 },
                 "aws": {
                     "credentials-key": {
-                        "label": "",
-                        "description": ""
+                        "label": "Ключ",
+                        "description": "Ключ доступа AWS"
                     },
                     "credentials-secret": {
-                        "label": "",
-                        "description": ""
+                        "label": "Секретный ключ",
+                        "description": "Секретный ключ AWS"
                     },
                     "region": {
-                        "label": "",
-                        "description": ""
+                        "label": "Регион",
+                        "description": "Регион вашего бакета."
                     },
                     "version": {
                         "label": "Версия",
                         "description": "Укажите версию или оставьте пустой для использования самой последней."
                     },
                     "bucket": {
-                        "label": "",
-                        "description": ""
+                        "label": "Бакет",
+                        "description": "Бакет S3 для загрузки."
                     },
                     "path-prefix": {
-                        "label": "",
-                        "description": ""
+                        "label": "Префикс пути",
+                        "description": "Необязательный префикс пути по умолчанию для файлов."
                     }
                 },
                 "dropbox": {
                     "key": {
-                        "label": ""
+                        "label": "Ключ приложения"
                     },
                     "secret": {
-                        "label": ""
+                        "label": "Секретный ключ приложения"
                     },
                     "refresh-token": {
-                        "label": "",
-                        "description": ""
+                        "label": "Токен обновления",
+                        "description": "Используйте поля ниже, чтобы получить токен обновления, или следуйте инструкциям вручную: https://www.codemzy.com/blog/dropbox-long-lived-access-refresh-token#how-can-i-get-a-refresh-token-manually."
                     },
                     "help": {
-                        "obtain-access-code-label": "",
-                        "obtain-access-code-button": "",
-                        "obtain-refresh-token-label": "",
-                        "obtain-refresh-token-button": "",
-                        "obtain-refresh-token-success": ""
+                        "obtain-access-code-label": "Получить код доступа — требуется ключ приложения",
+                        "obtain-access-code-button": "Открыть Dropbox",
+                        "obtain-refresh-token-label": "Использовать код доступа для получения токена обновления — требуются ключ и секретный ключ приложения",
+                        "obtain-refresh-token-button": "Использовать код",
+                        "obtain-refresh-token-success": "Токен обновления получен и обновлён выше. Сохраните изменения, чтобы запомнить его."
                     }
                 },
                 "gdrive": {
                     "client-id": {
-                        "label": "",
-                        "description": ""
+                        "label": "ID клиента",
+                        "description": "Следуйте инструкциям: https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md, чтобы создать проект в Google и получить ID клиента и секретный ключ клиента.\n"
                     },
                     "client-secret": {
-                        "label": "",
-                        "description": ""
+                        "label": "Секретный ключ клиента",
+                        "description": " "
                     },
                     "refresh-token": {
-                        "label": "",
-                        "description": ""
+                        "label": "Токен обновления",
+                        "description": "Следуйте инструкциям: https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/2-getting-your-refresh-token.md, чтобы получить токен обновления для вашего приложения Google OAuth.\n"
                     },
                     "folder": {
-                        "label": "",
-                        "description": ""
+                        "label": "ID папки",
+                        "description": "https://drive.google.com/drive/u/0/folders/ID"
                     },
                     "help": {
-                        "test_success_alert": "",
-                        "test_button": ""
+                        "test_success_alert": "Подключено к Google Drive. Сохраните изменения, чтобы запомнить настройки.",
+                        "test_button": "Проверить подключение"
                     }
                 },
                 "ftp": {
                     "host": {
-                        "label": "",
-                        "description": ""
+                        "label": "Удалённый хост",
+                        "description": "Хост для подключения по FTP, например: <em>ftp.yourdomain.local</em>."
                     },
                     "username": {
-                        "label": "",
-                        "description": ""
+                        "label": "Имя пользователя",
+                        "description": "Имя пользователя для аутентификации на FTP-сервере."
                     },
                     "password": {
-                        "label": "",
-                        "description": ""
+                        "label": "Пароль",
+                        "description": "Пароль пользователя для аутентификации на FTP-сервере."
                     },
                     "passive": {
-                        "toggle": "",
-                        "description": ""
+                        "toggle": "Пассивный режим",
+                        "description": "Использовать ли пассивный режим для FTP-подключения."
                     },
                     "port": {
-                        "label": "",
-                        "description": ""
+                        "label": "Порт",
+                        "description": "Порт FTP — по умолчанию — 21."
                     },
                     "root": {
-                        "label": "",
-                        "description": ""
+                        "label": "Корневой путь",
+                        "description": "Удалённый корневой путь (подкаталог) для хранения резервных копий."
                     },
                     "ssl": {
-                        "toggle": "",
-                        "description": ""
+                        "toggle": "SSL",
+                        "description": "Использовать ли зашифрованное SSL-подключение к серверу."
                     },
                     "timeout": {
-                        "label": "",
-                        "description": ""
+                        "label": "Тайм-аут",
+                        "description": "Время ожидания подключения к FTP-серверу в секундах."
                     }
                 },
                 "sftp": {
-                    "host": "",
-                    "username": "",
-                    "password": "",
-                    "root": "",
-                    "timeout": "",
+                    "host": "=> datitisev-backup.admin.adapter-settings-modal.ftp.host",
+                    "username": "=> datitisev-backup.admin.adapter-settings-modal.ftp.username",
+                    "password": "=> datitisev-backup.admin.adapter-settings-modal.ftp.password",
+                    "root": "=> datitisev-backup.admin.adapter-settings-modal.ftp.root",
+                    "timeout": "=> datitisev-backup.admin.adapter-settings-modal.ftp.timeout",
                     "port": {
-                        "label": "",
-                        "description": ""
+                        "label": "Порт",
+                        "description": "Порт SFTP — по умолчанию — 22."
                     },
                     "private-key": {
-                        "label": "",
-                        "description": ""
+                        "label": "Закрытый ключ",
+                        "description": "Путь (желательно абсолютный) к закрытому ключу, используемому для аутентификации SFTP-подключения."
                     },
                     "passphrase": {
-                        "label": "",
-                        "description": ""
+                        "label": "Парольная фраза",
+                        "description": "Парольная фраза для закрытого ключа, если используется."
                     },
                     "use-agent": {
-                        "toggle": "",
-                        "description": ""
+                        "toggle": "Использовать агент",
+                        "description": "Использовать ли SSH-агент для аутентификации подключения, по умолчанию — нет."
                     }
                 }
             },
             "nav": {
-                "label": "",
-                "description": ""
+                "label": "Резервное копирование",
+                "description": "Создавайте резервные копии вашего форума."
             }
         }
     }

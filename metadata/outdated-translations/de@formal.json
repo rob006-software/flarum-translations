@@ -1,5 +1,96 @@
 {
+    "ekumanov-forum-widgets": {
+        "ekumanov-forum-widgets.admin.settings.max_online_users": "2026-05-10",
+        "ekumanov-forum-widgets.admin.settings.max_online_users_help": "2026-05-10",
+        "ekumanov-forum-widgets.admin.settings.max_online_users_privileged": "2026-05-10",
+        "ekumanov-forum-widgets.admin.settings.max_online_users_privileged_help": "2026-05-10"
+    },
+    "flarum-extension-manager": {
+        "flarum-extension-manager.admin.sections.discover.extension.badges.compatible": "2026-03-29",
+        "flarum-extension-manager.admin.sections.discover.extension.badges.incompatible": "2026-03-29",
+        "flarum-extension-manager.admin.sections.discover.extension.badges.premium": "2026-03-29",
+        "flarum-extension-manager.admin.sections.discover.extension.badges.unstable": "2026-03-29",
+        "flarum-extension-manager.admin.sections.discover.party_filter.all": "2026-03-29",
+        "flarum-extension-manager.admin.sections.discover.party_filter.premium": "2026-03-29",
+        "flarum-extension-manager.admin.sections.discover.party_filter.toggle_dropdown_accessible_label": "2026-03-29",
+        "flarum-extension-manager.admin.sections.discover.premium_extension_terms": "2026-03-29",
+        "flarum-extension-manager.admin.sections.discover.sort.latest": "2026-03-29",
+        "flarum-extension-manager.admin.sections.discover.sort.toggle_dropdown_accessible_label": "2026-03-29"
+    },
+    "flarum-gdpr": {
+        "flarum-gdpr.admin.gdpr_page.user_table_data.not_yet_implemented": "2026-03-29"
+    },
+    "fof-masquerade": {
+        "fof-masquerade.admin.fields.add": "2026-04-12",
+        "fof-masquerade.admin.general-options": "2026-04-26"
+    },
+    "fof-move-posts": {
+        "fof-move-posts.forum.alerts.posts_moved": "2026-03-29"
+    },
+    "fof-oauth": {
+        "fof-oauth.admin.settings.fullscreen_popup_help": "2026-03-22",
+        "fof-oauth.admin.settings.fullscreen_popup_label": "2026-03-22",
+        "fof-oauth.admin.settings.popup_height_help": "2026-03-22",
+        "fof-oauth.admin.settings.popup_height_label": "2026-03-22",
+        "fof-oauth.admin.settings.popup_width_help": "2026-03-22",
+        "fof-oauth.admin.settings.popup_width_label": "2026-03-22",
+        "fof-oauth.admin.settings.providers.twitter.api_key_label": "2026-03-22",
+        "fof-oauth.admin.settings.providers.twitter.api_secret_label": "2026-03-22",
+        "fof-oauth.admin.settings.providers.twitter.description": "2026-03-22",
+        "fof-oauth.forum.log_in.with_twitter_button": "2026-03-22",
+        "fof-oauth.forum.providers.twitter": "2026-03-22",
+        "fof-oauth.lib.providers.twitter": "2026-03-22"
+    },
+    "fof-reactions": {
+        "fof-reactions.admin.page.settings.save_settings": "2026-03-29"
+    },
+    "huseyinfiliz-stickiest": {
+        "huseyinfiliz-stickiest.admin.permissions.super_sticky_discussions_label": "2026-04-19",
+        "huseyinfiliz-stickiest.admin.permissions.tag_sticky_discussions_label": "2026-04-19",
+        "huseyinfiliz-stickiest.admin.settings.badge_icon_label": "2026-04-19",
+        "huseyinfiliz-stickiest.admin.settings.badge_icon_text": "2026-04-19",
+        "huseyinfiliz-stickiest.admin.settings.display_tag_sticky_label": "2026-04-19",
+        "huseyinfiliz-stickiest.admin.settings.display_tag_sticky_text": "2026-04-19",
+        "huseyinfiliz-stickiest.forum.badge.super_sticky_tooltip": "2026-04-19",
+        "huseyinfiliz-stickiest.forum.badge.super_tag_sticky_tooltip": "2026-04-19",
+        "huseyinfiliz-stickiest.forum.post_stream.discussion_common_stickied_text": "2026-04-19",
+        "huseyinfiliz-stickiest.forum.post_stream.discussion_stickied_text": "2026-04-19",
+        "huseyinfiliz-stickiest.forum.post_stream.discussion_super_stickied_text": "2026-04-19",
+        "huseyinfiliz-stickiest.forum.post_stream.discussion_unstickied_text": "2026-04-19",
+        "huseyinfiliz-stickiest.forum.stickiest_modal.sticky_label": "2026-04-19",
+        "huseyinfiliz-stickiest.forum.stickiest_modal.sticky_text": "2026-04-19",
+        "huseyinfiliz-stickiest.forum.stickiest_modal.submit_button": "2026-04-19",
+        "huseyinfiliz-stickiest.forum.stickiest_modal.super_sticky_label": "2026-04-19",
+        "huseyinfiliz-stickiest.forum.stickiest_modal.super_sticky_text": "2026-04-19",
+        "huseyinfiliz-stickiest.forum.stickiest_modal.tag_sticky_label": "2026-04-19",
+        "huseyinfiliz-stickiest.forum.stickiest_modal.tag_sticky_text": "2026-04-19",
+        "huseyinfiliz-stickiest.forum.stickiest_modal.tags_label": "2026-04-19",
+        "huseyinfiliz-stickiest.forum.stickiest_modal.title": "2026-04-19",
+        "huseyinfiliz-stickiest.ref.sticky": "2026-04-19",
+        "huseyinfiliz-stickiest.ref.super_sticky": "2026-04-19",
+        "huseyinfiliz-stickiest.ref.super_tag_sticky": "2026-04-19",
+        "huseyinfiliz-stickiest.ref.tag_sticky": "2026-04-19"
+    },
+    "ianm-html-head": {
+        "ianm-html-head.admin.modal.header_label": "2026-04-19",
+        "ianm-html-head.admin.modal.text": "2026-04-19",
+        "ianm-html-head.admin.table.header_label": "2026-04-19"
+    },
     "ianm-log-viewer": {
         "ianm-log-viewer.admin.viewer.file_size": "2026-03-15"
+    },
+    "linkrobins-referral": {
+        "linkrobins-referral.forum.notification.user_referred": "2026-05-10"
+    },
+    "ramon-avocado": {
+        "ramon-avocado.admin.footer_settings.section_team": "2026-05-10",
+        "ramon-avocado.admin.footer_settings.team_desc_label": "2026-05-10",
+        "ramon-avocado.admin.footer_settings.team_desc_placeholder": "2026-05-10",
+        "ramon-avocado.admin.footer_settings.team_enabled_help": "2026-05-10",
+        "ramon-avocado.admin.footer_settings.team_enabled_label": "2026-05-10",
+        "ramon-avocado.admin.footer_settings.team_groups_empty": "2026-05-10",
+        "ramon-avocado.admin.footer_settings.team_groups_help": "2026-05-10",
+        "ramon-avocado.admin.footer_settings.team_groups_label": "2026-05-10",
+        "ramon-avocado.admin.footer_settings.team_title_label": "2026-05-10"
     }
 }

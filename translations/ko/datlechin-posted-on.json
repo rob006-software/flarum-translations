@@ -1,11 +1,42 @@
 {
     "datlechin-posted-on": {
+        "admin": {
+            "settings": {
+                "display_mode_label": "",
+                "display_mode_help": "",
+                "display_mode_os_only": "",
+                "display_mode_os_browser": "",
+                "skip_guests_label": "",
+                "skip_guests_help": ""
+            }
+        },
         "forum": {
             "post": {
-                "posted_on_text": ""
+                "posted_on_text": "{posted_on}에서 배포됨",
+                "tooltip": {
+                    "os": "",
+                    "client": "",
+                    "device": ""
+                }
             },
             "settings": {
-                "privacy_disclose_posted_on_label": ""
+                "privacy_disclose_posted_on_label": "제가 배폰하는 장치를 다른 사용자한테 보여 줍니다"
+            },
+            "device_types": {
+                "desktop": "",
+                "smartphone": "",
+                "tablet": "",
+                "feature phone": "",
+                "console": "",
+                "tv": "",
+                "car browser": "",
+                "smart display": "",
+                "camera": "",
+                "portable media player": "",
+                "phablet": "",
+                "smart speaker": "",
+                "wearable": "",
+                "peripheral": ""
             }
         }
     }
