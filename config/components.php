@@ -496,6 +496,9 @@ return [
 	'linkrobins-shoutbox' => [
 		'tag' => 'https://raw.githubusercontent.com/linkrobins/shoutbox/v1.0.1/locale/en.yml',
 	],
+	'linkrobins-support' => [
+		'tag' => 'https://raw.githubusercontent.com/linkrobins/support/v1.0.0/locale/en.yml',
+	],
 	'michaelbelgium-ai-autoreply' => [
 		'tag' => 'https://raw.githubusercontent.com/MichaelBelgium/flarum-ai-autoreply/v2.0.0/locale/en.yml',
 	],
