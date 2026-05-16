@@ -2,43 +2,43 @@
     "clarkwinkelmann-post-stream-search": {
         "admin": {
             "settings": {
-                "dropdownAccess": "",
-                "dropdownAccessHelp": "",
-                "sideNavAccess": "",
-                "sideNavAccessHelp": "",
-                "authorQuickFilter": "",
-                "authorQuickFilterHelp": "",
-                "originalPosterBadge": "",
-                "originalPosterBadgeHelp": ""
+                "dropdownAccess": "Pristup putem padajućeg izbornika rasprave",
+                "dropdownAccessHelp": "Ako je onemogućeno, alatna traka bit će dostupna samo putem tipkovničkog prečaca ili nekog od drugih omogućenih prečaca ispod.",
+                "sideNavAccess": "Pristup putem bočne navigacije rasprave",
+                "sideNavAccessHelp": "Isto kao prethodna postavka, ali će gumb biti dodan kao zaseban unos u bočnoj traci umjesto u padajućem izborniku.",
+                "authorQuickFilter": "Brzi filter za autora objave",
+                "authorQuickFilterHelp": "U padajući izbornik svake objave bit će dodan prečac za filtriranje prema tom korisniku.",
+                "originalPosterBadge": "Prikaži interaktivnu oznaku autora teme",
+                "originalPosterBadgeHelp": "Oznaka će biti prikazana pored objava autora teme. Klikom na oznaku automatski će se aktivirati filtriranje prema tom korisniku."
             }
         },
         "forum": {
             "stream": {
-                "noResults": "",
-                "unmatchedGap": "",
-                "otherAuthorsGap": ""
+                "noResults": "Nijedna objava u ovoj raspravi ne odgovara pretraživanom pojmu",
+                "unmatchedGap": "{count, plural, one {Jedna nepodudarajuća objava skrivena} other {{count} nepodudarajućih objava skriveno}}",
+                "otherAuthorsGap": "{count, plural, one {Jedna objava drugog autora skrivena} other {{count} objava drugih autora skriveno}}"
             },
             "toolbar": {
-                "searchPlaceholder": "",
-                "authorPlaceholder": "",
-                "summary": "",
-                "pin": "",
-                "close": "",
-                "clear": ""
+                "searchPlaceholder": "Pretraži raspravu...",
+                "authorPlaceholder": "Filtriraj prema autoru...",
+                "summary": "{matching} od {total} odgovarajućih",
+                "pin": "Uvijek otvori alatnu traku filtera u raspravama",
+                "close": "Očisti filtere i zatvori alatnu traku",
+                "clear": "Očisti filtere"
             },
             "discussionControls": {
-                "searchInDiscussion": ""
+                "searchInDiscussion": "Pretraži raspravu"
             },
             "postControls": {
-                "authorFilter": ""
+                "authorFilter": "Prikaži samo odgovore ovog autora"
             },
             "post": {
-                "opBadge": "",
-                "opBadgeTooltip": ""
+                "opBadge": "Pokretač rasprave",
+                "opBadgeTooltip": "Kliknite za prikaz samo odgovora ovog korisnika"
             },
             "cannotGoToPost": {
-                "message": "",
-                "action": ""
+                "message": "Nije moguće otvoriti objavu",
+                "action": "Pokušajte očistiti filtere"
             }
         }
     }
