@@ -1029,6 +1029,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`datlechin-oauth-envato`](https://weblate.rob006.net/projects/flarum/datlechin-oauth-envato) | [`datlechin/flarum-oauth-envato`](https://github.com/datlechin/flarum-oauth-envato) |
 | [`datlechin-oauth-spotify`](https://weblate.rob006.net/projects/flarum/datlechin-oauth-spotify) | [`datlechin/flarum-oauth-spotify`](https://github.com/datlechin/flarum-oauth-spotify) |
 | [`datlechin-offline-indicator`](https://weblate.rob006.net/projects/flarum/datlechin-offline-indicator) | [`datlechin/flarum-offline-indicator`](https://github.com/datlechin/flarum-offline-indicator) |
+| [`datlechin-passkey`](https://weblate.rob006.net/projects/flarum/datlechin-passkey) | [`datlechin/flarum-passkey`](https://github.com/datlechin/flarum-passkey) |
 | [`datlechin-posted-on`](https://weblate.rob006.net/projects/flarum/datlechin-posted-on) | [`datlechin/flarum-posted-on`](https://github.com/datlechin/flarum-posted-on) |
 | [`datlechin-pronouns`](https://weblate.rob006.net/projects/flarum/datlechin-pronouns) | [`datlechin/flarum-pronouns`](https://github.com/datlechin/flarum-pronouns) |
 | [`datlechin-remove-sidenav`](https://weblate.rob006.net/projects/flarum/datlechin-remove-sidenav) | [`datlechin/flarum-remove-sidenav`](https://github.com/datlechin/flarum-remove-sidenav) |
