@@ -398,6 +398,12 @@ return [
 			'ru',
 		],
 	],
+	'gitzaai-cnsearch' => [
+		'tag' => 'https://raw.githubusercontent.com/gitzaai/cnsearch/v0.1.21/locale/en.yml',
+		'__builtInLanguages' => [
+			'zh_Hans',
+		],
+	],
 	'huoxin-relative-url' => [
 		'beta' => 'https://raw.githubusercontent.com/huoxin233/flarum-ext-relative-url/2.0.0-beta.1/locale/en.yml',
 	],
