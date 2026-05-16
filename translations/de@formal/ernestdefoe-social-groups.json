@@ -16,10 +16,15 @@
                 "view": "Ansehen",
                 "private": "Privat",
                 "public": "",
+                "approval": "",
                 "approval_required": "",
                 "request_to_join": "Beitrittsanfrage stellen",
                 "pending": "Ausstehend…",
-                "cancel_request": "Anfrage abbrechen"
+                "cancel_request": "Anfrage abbrechen",
+                "featured": "",
+                "featured_heading": "",
+                "feature": "",
+                "unfeature": ""
             },
             "create_modal": {
                 "title": "Eine Gruppe erstellen",
@@ -62,6 +67,9 @@
                 "locked": "Gesperrt",
                 "reply_placeholder": "Antworten schreiben…",
                 "reply_button": "Antworten",
+                "post_reply": "",
+                "post_comment": "",
+                "more_options": "",
                 "upload_image": "",
                 "upload_remove": "",
                 "edited": "(bearbeitet)",
@@ -71,6 +79,8 @@
                 "delete_post": "Löschen",
                 "delete_post_confirm": "Diesen Beitrag löschen?",
                 "like": "",
+                "react": "",
+                "remove_reaction": "",
                 "react_like": "",
                 "react_heart": "",
                 "react_haha": "",
@@ -78,8 +88,22 @@
                 "react_sad": "",
                 "react_angry": "",
                 "view_comments": "",
+                "hide_comments": "",
+                "view_all_comments": "",
                 "feed_placeholder": "",
-                "comments_count": ""
+                "comments_count": "",
+                "comments_empty": "",
+                "load_error": "",
+                "pinned": "",
+                "poll_label": "",
+                "poll_votes": "",
+                "poll_ended": "",
+                "poll_add": "",
+                "poll_remove": "",
+                "poll_allow_multiple": "",
+                "poll_question_placeholder": "",
+                "poll_option_placeholder": "",
+                "poll_add_option": ""
             },
             "group": {
                 "about_title": "Über diese Gruppe",
@@ -98,7 +122,10 @@
                 "load_error": "Laden der Gruppe fehlgeschlagen.",
                 "not_found": "Gruppe nicht gefunden.",
                 "members_load_error": "Mitglieder konnten nicht geladen werden.",
-                "members_empty": "Noch keine Mitglieder."
+                "members_empty": "Noch keine Mitglieder.",
+                "rss_feed": "",
+                "tab_posts": "",
+                "tab_media": ""
             },
             "requests": {
                 "title": "Beitrittsanfragen",
@@ -118,6 +145,33 @@
                 "change": "",
                 "invalid_type": "Ungültiger Dateityp. Bitte lade ein Bild im Format JPG, PNG, GIF oder WebP hoch.",
                 "too_large": "Die Datei ist zu groß. Die maximale Größe beträgt 5 MB."
+            },
+            "media": {
+                "upload_button": "",
+                "upload_tooltip": "",
+                "uploading": "",
+                "empty": "",
+                "view_post": "",
+                "close": "",
+                "previous": "",
+                "next": ""
+            },
+            "analytics": {
+                "title": "",
+                "error": "",
+                "stat_members": "",
+                "stat_posts": "",
+                "stat_reactions": "",
+                "member_growth": "",
+                "post_volume": "",
+                "top_posts": ""
+            },
+            "primary_group": {
+                "title": "",
+                "help": "",
+                "empty": "",
+                "none": "",
+                "saving": ""
             },
             "notifications": {
                 "new_post": "",

@@ -16,10 +16,15 @@
                 "view": "Перейти",
                 "private": "Приватная",
                 "public": "Публичная",
+                "approval": "",
                 "approval_required": "Требуется одобрение",
                 "request_to_join": "Подать заявку",
                 "pending": "Ожидание…",
-                "cancel_request": "Отменить заявку"
+                "cancel_request": "Отменить заявку",
+                "featured": "",
+                "featured_heading": "",
+                "feature": "",
+                "unfeature": ""
             },
             "create_modal": {
                 "title": "Создать группу",
@@ -62,6 +67,9 @@
                 "locked": "Закрыто",
                 "reply_placeholder": "Напишите ответ…",
                 "reply_button": "Отправить",
+                "post_reply": "",
+                "post_comment": "",
+                "more_options": "",
                 "upload_image": "",
                 "upload_remove": "",
                 "edited": "(отредактировано)",
@@ -71,6 +79,8 @@
                 "delete_post": "Удалить",
                 "delete_post_confirm": "Удалить это сообщение?",
                 "like": "",
+                "react": "",
+                "remove_reaction": "",
                 "react_like": "",
                 "react_heart": "",
                 "react_haha": "",
@@ -78,8 +88,22 @@
                 "react_sad": "",
                 "react_angry": "",
                 "view_comments": "",
+                "hide_comments": "",
+                "view_all_comments": "",
                 "feed_placeholder": "",
-                "comments_count": ""
+                "comments_count": "",
+                "comments_empty": "",
+                "load_error": "",
+                "pinned": "",
+                "poll_label": "",
+                "poll_votes": "",
+                "poll_ended": "",
+                "poll_add": "",
+                "poll_remove": "",
+                "poll_allow_multiple": "",
+                "poll_question_placeholder": "",
+                "poll_option_placeholder": "",
+                "poll_add_option": ""
             },
             "group": {
                 "about_title": "О группе",
@@ -98,7 +122,10 @@
                 "load_error": "Не удалось загрузить группу.",
                 "not_found": "Группа не найдена.",
                 "members_load_error": "Не удалось загрузить участников.",
-                "members_empty": "Участников пока нет."
+                "members_empty": "Участников пока нет.",
+                "rss_feed": "",
+                "tab_posts": "",
+                "tab_media": ""
             },
             "requests": {
                 "title": "Заявки на вступление",
@@ -118,6 +145,33 @@
                 "change": "Изменить",
                 "invalid_type": "Недопустимый тип файла. Загрузите изображение в формате JPG, PNG, GIF или WebP.",
                 "too_large": "Файл слишком большой. Максимальный размер — 5 МБ."
+            },
+            "media": {
+                "upload_button": "",
+                "upload_tooltip": "",
+                "uploading": "",
+                "empty": "",
+                "view_post": "",
+                "close": "",
+                "previous": "",
+                "next": ""
+            },
+            "analytics": {
+                "title": "",
+                "error": "",
+                "stat_members": "",
+                "stat_posts": "",
+                "stat_reactions": "",
+                "member_growth": "",
+                "post_volume": "",
+                "top_posts": ""
+            },
+            "primary_group": {
+                "title": "",
+                "help": "",
+                "empty": "",
+                "none": "",
+                "saving": ""
             },
             "notifications": {
                 "new_post": "",

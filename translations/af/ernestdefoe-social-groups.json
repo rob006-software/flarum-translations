@@ -16,10 +16,15 @@
                 "view": "",
                 "private": "",
                 "public": "",
+                "approval": "",
                 "approval_required": "",
                 "request_to_join": "",
                 "pending": "",
-                "cancel_request": ""
+                "cancel_request": "",
+                "featured": "",
+                "featured_heading": "",
+                "feature": "",
+                "unfeature": ""
             },
             "create_modal": {
                 "title": "",
@@ -62,6 +67,9 @@
                 "locked": "",
                 "reply_placeholder": "",
                 "reply_button": "",
+                "post_reply": "",
+                "post_comment": "",
+                "more_options": "",
                 "upload_image": "",
                 "upload_remove": "",
                 "edited": "",
@@ -71,6 +79,8 @@
                 "delete_post": "",
                 "delete_post_confirm": "",
                 "like": "",
+                "react": "",
+                "remove_reaction": "",
                 "react_like": "",
                 "react_heart": "",
                 "react_haha": "",
@@ -78,8 +88,22 @@
                 "react_sad": "",
                 "react_angry": "",
                 "view_comments": "",
+                "hide_comments": "",
+                "view_all_comments": "",
                 "feed_placeholder": "",
-                "comments_count": ""
+                "comments_count": "",
+                "comments_empty": "",
+                "load_error": "",
+                "pinned": "",
+                "poll_label": "",
+                "poll_votes": "",
+                "poll_ended": "",
+                "poll_add": "",
+                "poll_remove": "",
+                "poll_allow_multiple": "",
+                "poll_question_placeholder": "",
+                "poll_option_placeholder": "",
+                "poll_add_option": ""
             },
             "group": {
                 "about_title": "",
@@ -98,7 +122,10 @@
                 "load_error": "",
                 "not_found": "",
                 "members_load_error": "",
-                "members_empty": ""
+                "members_empty": "",
+                "rss_feed": "",
+                "tab_posts": "",
+                "tab_media": ""
             },
             "requests": {
                 "title": "",
@@ -118,6 +145,33 @@
                 "change": "",
                 "invalid_type": "",
                 "too_large": ""
+            },
+            "media": {
+                "upload_button": "",
+                "upload_tooltip": "",
+                "uploading": "",
+                "empty": "",
+                "view_post": "",
+                "close": "",
+                "previous": "",
+                "next": ""
+            },
+            "analytics": {
+                "title": "",
+                "error": "",
+                "stat_members": "",
+                "stat_posts": "",
+                "stat_reactions": "",
+                "member_growth": "",
+                "post_volume": "",
+                "top_posts": ""
+            },
+            "primary_group": {
+                "title": "",
+                "help": "",
+                "empty": "",
+                "none": "",
+                "saving": ""
             },
             "notifications": {
                 "new_post": "",

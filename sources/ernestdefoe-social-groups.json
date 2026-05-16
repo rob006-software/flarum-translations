@@ -16,10 +16,15 @@
                 "view": "View",
                 "private": "Private",
                 "public": "Public",
+                "approval": "Approval",
                 "approval_required": "Approval required",
                 "request_to_join": "Request to Join",
                 "pending": "Pending…",
-                "cancel_request": "Cancel Request"
+                "cancel_request": "Cancel Request",
+                "featured": "Featured",
+                "featured_heading": "Featured Groups",
+                "feature": "Feature group",
+                "unfeature": "Unfeature group"
             },
             "create_modal": {
                 "title": "Create a Group",
@@ -62,6 +67,9 @@
                 "locked": "Locked",
                 "reply_placeholder": "Write a reply…",
                 "reply_button": "Reply",
+                "post_reply": "Post reply",
+                "post_comment": "Post comment",
+                "more_options": "More options",
                 "upload_image": "Attach file",
                 "upload_remove": "Remove attachment",
                 "edited": "(edited)",
@@ -71,6 +79,8 @@
                 "delete_post": "Delete",
                 "delete_post_confirm": "Delete this post?",
                 "like": "Like",
+                "react": "React",
+                "remove_reaction": "Remove {emoji}",
                 "react_like": "Like",
                 "react_heart": "Love",
                 "react_haha": "Haha",
@@ -78,8 +88,22 @@
                 "react_sad": "Sad",
                 "react_angry": "Angry",
                 "view_comments": "Comments",
+                "hide_comments": "Hide Comments",
+                "view_all_comments": "View all {count, plural, one {# comment} other {# comments}} in thread",
                 "feed_placeholder": "What's on your mind?",
-                "comments_count": "{count, plural, one {# comment} other {# comments}}"
+                "comments_count": "{count, plural, one {# comment} other {# comments}}",
+                "comments_empty": "No comments yet. Be the first!",
+                "load_error": "Failed to load posts. Please try refreshing the page.",
+                "pinned": "Pinned",
+                "poll_label": "Poll",
+                "poll_votes": "{count, plural, one {# vote} other {# votes}}",
+                "poll_ended": "Ended",
+                "poll_add": "Add poll",
+                "poll_remove": "Remove poll",
+                "poll_allow_multiple": "Allow multiple choices",
+                "poll_question_placeholder": "Ask a question…",
+                "poll_option_placeholder": "Option {number}",
+                "poll_add_option": "Add option"
             },
             "group": {
                 "about_title": "About this Group",
@@ -98,7 +122,10 @@
                 "load_error": "Failed to load group.",
                 "not_found": "Group not found.",
                 "members_load_error": "Could not load members.",
-                "members_empty": "No members yet."
+                "members_empty": "No members yet.",
+                "rss_feed": "RSS feed",
+                "tab_posts": "Posts",
+                "tab_media": "Media"
             },
             "requests": {
                 "title": "Join Requests",
@@ -118,6 +145,33 @@
                 "change": "Change",
                 "invalid_type": "Invalid file type. Please upload a JPG, PNG, GIF, or WebP image.",
                 "too_large": "File is too large. Maximum size is 5MB."
+            },
+            "media": {
+                "upload_button": "Upload Images",
+                "upload_tooltip": "Upload images to gallery",
+                "uploading": "Uploading…",
+                "empty": "No media found in this group yet.",
+                "view_post": "View post",
+                "close": "Close",
+                "previous": "Previous",
+                "next": "Next"
+            },
+            "analytics": {
+                "title": "Analytics",
+                "error": "Failed to load analytics.",
+                "stat_members": "Members",
+                "stat_posts": "Posts",
+                "stat_reactions": "Reactions",
+                "member_growth": "New Members — Last 30 Days",
+                "post_volume": "Posts — Last 8 Weeks",
+                "top_posts": "Top Reacted Posts"
+            },
+            "primary_group": {
+                "title": "Profile Group Badge",
+                "help": "Choose which group displays on your profile card.",
+                "empty": "You haven't joined any groups yet.",
+                "none": "None",
+                "saving": "Saving…"
             },
             "notifications": {
                 "new_post": "posted in {discussionTitle}",
