@@ -602,7 +602,7 @@ return [
 		],
 	],
 	'ramon-point-system' => [
-		'tag' => 'https://raw.githubusercontent.com/ram0ng1/point-system/v2.0.5/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ram0ng1/point-system/v2.0.6/locale/en.yml',
 		'__builtInLanguages' => [
 			'pt_BR',
 		],
