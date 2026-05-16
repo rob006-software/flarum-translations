@@ -1,0 +1,41 @@
+{
+    "cnsearch": {
+        "meili": {
+            "host": "Meilisearch Host",
+            "key": "Meilisearch API Key",
+            "index": "Meilisearch Index Name"
+        }
+    },
+    "gitzaai-cnsearch": {
+        "admin": {
+            "settings": {
+                "meili_host_label": "Meilisearch Host",
+                "meili_host_help": "Required before testing or indexing. Example: http://127.0.0.1:7700",
+                "meili_key_label": "Meilisearch API Key",
+                "meili_key_help": "Enter your Meilisearch API key only if your Meilisearch instance requires one.",
+                "meili_index_label": "Meilisearch Index Name",
+                "meili_index_help": "The Meilisearch index used for discussion search."
+            },
+            "buttons": {
+                "title": "Meilisearch Operations",
+                "reindex": "Rebuild Index",
+                "test_connection": "Test Connection",
+                "help": "Use these controls to verify and rebuild the Meilisearch discussion index.",
+                "status_label": "Connection Status",
+                "status_last_checked": "Last checked: {time}",
+                "status_connected": "Connected",
+                "status_disconnected": "Not connected",
+                "status_unknown": "Connection not checked yet",
+                "indexed_count": "Meilisearch documents: {count}",
+                "source_discussions": "Source discussions: {count}",
+                "source_posts": "Indexed source posts: {count}",
+                "last_sync": "Last reindex: {time}",
+                "not_synced": "Never synced",
+                "reindex_success": "Reindex request submitted successfully.",
+                "reindex_failed": "Reindex failed. Please check the logs.",
+                "test_connection_success": "Meilisearch connection successful.",
+                "test_connection_failed": "Meilisearch connection failed."
+            }
+        }
+    }
+}

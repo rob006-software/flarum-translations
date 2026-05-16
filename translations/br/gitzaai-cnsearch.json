@@ -1,0 +1,41 @@
+{
+    "cnsearch": {
+        "meili": {
+            "host": "",
+            "key": "",
+            "index": ""
+        }
+    },
+    "gitzaai-cnsearch": {
+        "admin": {
+            "settings": {
+                "meili_host_label": "",
+                "meili_host_help": "",
+                "meili_key_label": "",
+                "meili_key_help": "",
+                "meili_index_label": "",
+                "meili_index_help": ""
+            },
+            "buttons": {
+                "title": "",
+                "reindex": "",
+                "test_connection": "",
+                "help": "",
+                "status_label": "",
+                "status_last_checked": "",
+                "status_connected": "",
+                "status_disconnected": "",
+                "status_unknown": "",
+                "indexed_count": "",
+                "source_discussions": "",
+                "source_posts": "",
+                "last_sync": "",
+                "not_synced": "",
+                "reindex_success": "",
+                "reindex_failed": "",
+                "test_connection_success": "",
+                "test_connection_failed": ""
+            }
+        }
+    }
+}
