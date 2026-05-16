@@ -447,7 +447,7 @@ return [
 		],
 	],
 	'irmmr-rtl' => [
-		'tag' => 'https://raw.githubusercontent.com/irmmr/flarum-ext-rtl/v1.0.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/irmmr/flarum-ext-rtl/v1.0.2/locale/en.yml',
 	],
 	'justoverclock-related-discussions' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/main/justoverclock-related-discussions.yml',
