@@ -418,6 +418,12 @@ return [
 	'datlechin-offline-indicator' => [
 		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-offline-indicator/v0.1.0/locale/en.yml',
 	],
+	'datlechin-passkey' => [
+		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-passkey/v1.1.0/locale/en.yml',
+		'__builtInLanguages' => [
+			'vi',
+		],
+	],
 	'datlechin-posted-on' => [
 		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-posted-on/v0.2.1/locale/en.yml',
 	],
