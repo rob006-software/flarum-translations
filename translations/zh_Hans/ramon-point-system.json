@@ -67,7 +67,8 @@
                 "start_username_placeholder": "例如：zizaime",
                 "start_submit": "进入交易页面",
                 "start_cancel": "取消",
-                "start_not_found": "没有找到此用户。"
+                "start_not_found": "没有找到此用户。",
+                "start_search_failed": ""
             },
             "confirm": {
                 "title": "确认购买",
@@ -224,6 +225,7 @@
             "edit": "编辑",
             "save": "保存",
             "cancel": "取消",
+            "delete": "",
             "confirm_delete": "确定删除吗？该操作无法撤回。",
             "permissions": {
                 "view_shop": "查看道具",
@@ -249,6 +251,7 @@
                 "title": "个人资料封面",
                 "help": "购买用户个人资料横幅装饰。支持静态或动画格式的PNG、JPG、GIF、WebP或APNG。",
                 "upload_title": "添加新封面",
+                "edit_title": "",
                 "field_name": "名称",
                 "field_description": "描述",
                 "field_price": "价格（积分）",
@@ -331,6 +334,8 @@
                 "currency_name_help": "积分的复数文本（中文不适用）。",
                 "currency_icon": "积分图标Class",
                 "currency_icon_help": "FontAwesome的Class，例如fas fa-coins。",
+                "points_short": "",
+                "points_short_help": "",
                 "points_per_discussion": "发帖积分",
                 "points_per_discussion_help": "每发表一个话题所赚取的积分。",
                 "points_per_post": "回帖积分",
@@ -348,6 +353,7 @@
                 "title": "头像边框装饰",
                 "help": "上传PNG/GIF/WebP/APNG头像框，可悬浮覆盖在用户头像上（Discord风格）。",
                 "upload_title": "上传新边框",
+                "edit_title": "",
                 "source_label": "图片来源",
                 "source_file": "上传文件",
                 "source_url": "使用图片URL",
@@ -397,6 +403,7 @@
                 "title": "用户名装饰",
                 "help": "选择烈焰、冰晶、彩虹等预设装饰，或设置自定义CSS。",
                 "create_title": "创建新装饰",
+                "edit_title": "",
                 "create": "创建装饰",
                 "created": "装饰创建成功。",
                 "field_name": "名称",
@@ -458,6 +465,7 @@
                 "title": "帖子高亮",
                 "help": "在帖子用户旁边，显示边框、光晕或彩带。选择预设或设置自定义CSS。",
                 "create_title": "创建高亮",
+                "edit_title": "",
                 "create": "创建高亮",
                 "created": "高亮创建成功。",
                 "field_name": "名称",

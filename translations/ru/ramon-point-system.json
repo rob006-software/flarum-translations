@@ -67,7 +67,8 @@
                 "start_username_placeholder": "",
                 "start_submit": "",
                 "start_cancel": "",
-                "start_not_found": ""
+                "start_not_found": "",
+                "start_search_failed": ""
             },
             "confirm": {
                 "title": "",
@@ -224,6 +225,7 @@
             "edit": "Править",
             "save": "Сохранить",
             "cancel": "Отменить",
+            "delete": "",
             "confirm_delete": "Удалить этот элемент? Это действие нельзя отменить.",
             "permissions": {
                 "view_shop": "Смотреть награды оформления",
@@ -249,6 +251,7 @@
                 "title": "",
                 "help": "",
                 "upload_title": "",
+                "edit_title": "",
                 "field_name": "",
                 "field_description": "",
                 "field_price": "",
@@ -331,6 +334,8 @@
                 "currency_name_help": "Множественное название очков. Например, «Монеты», «Кристаллы».",
                 "currency_icon": "Класс иконки валюты",
                 "currency_icon_help": "Класс FontAwesome — например, fas fa-coins.",
+                "points_short": "",
+                "points_short_help": "",
                 "points_per_discussion": "Очки за новую дискуссию",
                 "points_per_discussion_help": "Начисляется автору при создании новой дискуссии.",
                 "points_per_post": "Очки за сообщение",
@@ -348,6 +353,7 @@
                 "title": "Украшения рамок аватара",
                 "help": "Загрузите рамки PNG, GIF, WebP, APNG, которые отображаются поверх аватара пользователя — как в Discord.",
                 "upload_title": "Загрузить новую рамку",
+                "edit_title": "",
                 "source_label": "",
                 "source_file": "",
                 "source_url": "",
@@ -397,6 +403,7 @@
                 "title": "Украшения имени пользователя",
                 "help": "Выберите готовый пресет — огонь, лёд, неон, градиент и т.д. — или создайте собственный CSS.",
                 "create_title": "Создать новое украшение",
+                "edit_title": "",
                 "create": "Создать украшение",
                 "created": "Украшение создано.",
                 "field_name": "Название",
@@ -458,6 +465,7 @@
                 "title": "",
                 "help": "",
                 "create_title": "",
+                "edit_title": "",
                 "create": "",
                 "created": "",
                 "field_name": "",
