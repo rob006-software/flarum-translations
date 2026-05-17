@@ -110,6 +110,9 @@ return [
 	'ekumanov-post-search' => [
 		'tag' => 'https://raw.githubusercontent.com/ekumanov/flarum-ext-post-search/v1.0.0/locale/en.yml',
 	],
+	'ernestdefoe-cross-references' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/cross-references/2.0.0/locale/en.yml',
+	],
 	'ernestdefoe-social-groups' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/social-groups/2.3.47/locale/en.yml',
 	],
