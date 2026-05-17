@@ -38,7 +38,7 @@
                 "removed": "移除{name}的{amount}个积分。"
             },
             "nav": {
-                "shop": "道具中心",
+                "shop": "道具商店",
                 "my_decorations": "我的装饰"
             },
             "session_dropdown": {
@@ -84,7 +84,7 @@
                 "tooltip": "{balance} {currency} （总计：{lifetime}）"
             },
             "shop": {
-                "title": "道具中心",
+                "title": "道具商店",
                 "subtitle": "消费积分购买装饰和道具。",
                 "your_balance": "你的余额",
                 "lifetime": "总计",
@@ -114,7 +114,7 @@
                 "tiers_help": "当你的总计积分达到阈值时，将自动加入该用户组。你也可以直接使用余额购买此用户组。",
                 "tier_points": "总计积分",
                 "tier_cost": "加入所需的积分",
-                "tier_threshold": "总计积分",
+                "tier_threshold": "解锁所需总计积分",
                 "tier_buy_cost": "余额积分",
                 "tier_claim": "加入用户组",
                 "tier_buy": "购买用户组",
@@ -302,7 +302,7 @@
                 "auto_group_enabled": "启用自动用户组分级",
                 "auto_group_enabled_help": "当用户总计积分达到预定值时，将自动升级到指定的用户组。",
                 "lifetime_enabled": "追踪和展示总计积分",
-                "lifetime_enabled_help": "总计积分是用户获得积分的累计数量。总计积分不回像余额那样，因为使用或扣除而减少。它代表用户的贡献总和。关闭后，总计积分仅在后台运行，以保障自动用户组分级功能可用），但是不会在赠送页面、个人资料和头部展示。",
+                "lifetime_enabled_help": "总计积分是用户获得积分的累计数量。总计积分不会像余额那样，因为使用或扣除而减少。它代表用户的贡献总和。关闭后，总计积分仅在后台运行，以保障积分体系中的自动用户组功能可用），但是不会在道具商店、个人资料和头部展示。",
                 "show_in_post_header": "在帖子头部展示积分",
                 "show_in_post_header_help": "在帖子的用户名旁边展示积分小勋章。",
                 "show_in_user_profile": "在用户个人资料展示积分",
