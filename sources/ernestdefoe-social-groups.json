@@ -24,7 +24,8 @@
                 "featured": "Featured",
                 "featured_heading": "Featured Groups",
                 "feature": "Feature group",
-                "unfeature": "Unfeature group"
+                "unfeature": "Unfeature group",
+                "pending_requests_badge": "{count, plural, one {# pending request — review} other {# pending requests — review}}"
             },
             "create_modal": {
                 "title": "Create a Group",
@@ -95,6 +96,9 @@
                 "comments_empty": "No comments yet. Be the first!",
                 "load_error": "Failed to load posts. Please try refreshing the page.",
                 "pinned": "Pinned",
+                "pinned_reply": "Pinned by a group moderator",
+                "pin_reply": "Pin this reply",
+                "unpin_reply": "Unpin this reply",
                 "poll_label": "Poll",
                 "poll_votes": "{count, plural, one {# vote} other {# votes}}",
                 "poll_ended": "Ended",
