@@ -2,41 +2,41 @@
     "datlechin-posted-on": {
         "admin": {
             "settings": {
-                "display_mode_label": "",
-                "display_mode_help": "",
-                "display_mode_os_only": "",
-                "display_mode_os_browser": "",
-                "skip_guests_label": "",
-                "skip_guests_help": ""
+                "display_mode_label": "포스트 옆에 전시할 내용",
+                "display_mode_help": "포스트마다의 상세 내용. 툴팁 창에서 항상 전부 내용을 표시됩니다.",
+                "display_mode_os_only": "운영체제만(예: 윈도우11)",
+                "display_mode_os_browser": "운영체제와 브라우저(예: 윈도부11 · 크롬121)",
+                "skip_guests_label": "게스트 사용자 정보 수집 않음",
+                "skip_guests_help": "허용되면 게스트 사용자가 발표한 포스트는 플랫폼 정보 수집하지 안겠습니다."
             }
         },
         "forum": {
             "post": {
                 "posted_on_text": "{posted_on}에서 배포됨",
                 "tooltip": {
-                    "os": "",
-                    "client": "",
-                    "device": ""
+                    "os": "운영체제",
+                    "client": "브라우저",
+                    "device": "장치"
                 }
             },
             "settings": {
-                "privacy_disclose_posted_on_label": "제가 배폰하는 장치를 다른 사용자한테 보여 줍니다"
+                "privacy_disclose_posted_on_label": "제가 사용하는 장치를 전시하기"
             },
             "device_types": {
-                "desktop": "",
-                "smartphone": "",
-                "tablet": "",
-                "feature phone": "",
-                "console": "",
-                "tv": "",
-                "car browser": "",
-                "smart display": "",
-                "camera": "",
-                "portable media player": "",
-                "phablet": "",
-                "smart speaker": "",
-                "wearable": "",
-                "peripheral": ""
+                "desktop": "데스크톱",
+                "smartphone": "폰",
+                "tablet": "태블릿",
+                "feature phone": "폰",
+                "console": "콘솔",
+                "tv": "티비",
+                "car browser": "자동차",
+                "smart display": "스마트 디스플레이",
+                "camera": "카메라",
+                "portable media player": "미디어 플레이어",
+                "phablet": "패블릿",
+                "smart speaker": "스마트 스피커",
+                "wearable": "웨어러블 기기",
+                "peripheral": "주변기기"
             }
         }
     }
