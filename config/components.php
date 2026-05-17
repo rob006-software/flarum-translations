@@ -677,7 +677,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/WalsGit/recycle-bin/2.0.4/locale/en.yml',
 	],
 	'wyatts97-forum-member-map' => [
-		'tag' => 'https://raw.githubusercontent.com/wyatts97/forum-member-map/v1.0.5/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/wyatts97/forum-member-map/v1.0.9/locale/en.yml',
 	],
 	'yippy-auth-ldap' => [
 		'tag' => 'https://raw.githubusercontent.com/Yippy/flarum-ext-auth-ldap/v2.0.2/locale/en.yml',
