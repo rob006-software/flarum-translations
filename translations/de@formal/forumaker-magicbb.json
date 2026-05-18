@@ -13,6 +13,14 @@
                 "bb_image_help": "Fügt dem Editor eine neue Schaltfläche für die Bildausrichtung hinzu. Große, zentrierte Bilder werden automatisch auf 60 % der Beitragsbreite verkleinert, seitlich ausgerichtete Bilder auf bis zu 40 %.",
                 "bb_iframe": "iFrame",
                 "bb_iframe_help": "Ermöglicht das Einbetten von iFrames aus beliebigen Quellen. Mit Vorsicht verwenden – eingebettete Inhalte können externe Skripte enthalten. 🧹 Bitte leeren Sie nach dem Ändern dieser Einstellung den Flarum-Cache.",
+                "bb_hide_login": "",
+                "bb_hide_login_help": "",
+                "bb_hide_reply": "",
+                "bb_hide_reply_help": "",
+                "bb_hide_like": "",
+                "bb_hide_like_help": "",
+                "bb_anchor": "",
+                "bb_anchor_help": "",
                 "toolbar_group": "MagicBB-Schaltflächen zusammenfassen",
                 "toolbar_group_help": "Wenn aktiviert, werden alle MagicBB-Schaltflächen im Editor zu einer einzigen Schaltfläche zusammengefasst."
             },
@@ -20,10 +28,13 @@
                 "text": "Text-Formatierungen",
                 "content": "Inhalts-Formatierungen",
                 "images": "Bild-Formatierungen",
-                "features": "Funktionen"
+                "features": "Funktionen",
+                "hide": ""
             },
             "permissions": {
-                "use_iframe": "iFrame erlauben"
+                "use_iframe": "iFrame erlauben",
+                "bypass_like": "",
+                "bypass_reply": ""
             }
         },
         "forum": {
@@ -36,7 +47,17 @@
                 "info_button": "Warnung hinzufügen",
                 "audio_button": "Audio hinzufügen",
                 "image_button": "Bild hinzufügen",
-                "more_button": "Mehr"
+                "more_button": "Mehr",
+                "hide_login_button": "",
+                "hide_reply_button": "",
+                "hide_like_button": "",
+                "anchor_button": "",
+                "jump_button": ""
+            },
+            "hide": {
+                "login_to_see_simple": "",
+                "like_to_see_simple": "",
+                "reply_to_see_simple": ""
             }
         }
     }

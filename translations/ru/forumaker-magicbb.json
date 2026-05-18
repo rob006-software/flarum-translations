@@ -13,6 +13,14 @@
                 "bb_image_help": "Добавляет кнопку для изменения размера картинок. Изображения по центру уменьшаются до 60% ширины поста, а выровненные по сторонам — до 40%",
                 "bb_iframe": "iframe",
                 "bb_iframe_help": "Разрешает вставку iframe из любого источника. Используйте осторожно — встроенный контент может содержать внешние скрипты. 🧹 После изменения этой настройки очистите кэш Flarum",
+                "bb_hide_login": "",
+                "bb_hide_login_help": "",
+                "bb_hide_reply": "",
+                "bb_hide_reply_help": "",
+                "bb_hide_like": "",
+                "bb_hide_like_help": "",
+                "bb_anchor": "",
+                "bb_anchor_help": "",
                 "toolbar_group": "Группировать кнопки MagicBB",
                 "toolbar_group_help": "Если включено, все кнопки MagicBB будут объединены внутри одной"
             },
@@ -20,10 +28,13 @@
                 "text": "Кнопки текста",
                 "content": "Кнопки контента",
                 "images": "Кнопки изображений",
-                "features": "Возможности"
+                "features": "Возможности",
+                "hide": ""
             },
             "permissions": {
-                "use_iframe": "Разрешить iframe"
+                "use_iframe": "Разрешить iframe",
+                "bypass_like": "",
+                "bypass_reply": ""
             }
         },
         "forum": {
@@ -36,7 +47,17 @@
                 "info_button": "Добавить оповещение",
                 "audio_button": "Добавить аудио",
                 "image_button": "Добавить изображение",
-                "more_button": "Больше"
+                "more_button": "Больше",
+                "hide_login_button": "",
+                "hide_reply_button": "",
+                "hide_like_button": "",
+                "anchor_button": "",
+                "jump_button": ""
+            },
+            "hide": {
+                "login_to_see_simple": "",
+                "like_to_see_simple": "",
+                "reply_to_see_simple": ""
             }
         }
     }
