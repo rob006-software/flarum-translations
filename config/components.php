@@ -481,6 +481,19 @@ return [
 	'ekumanov-new-posts-notice' => [
 		'tag' => 'https://raw.githubusercontent.com/ekumanov/flarum-ext-new-posts-notice/v1.0.4/locale/en.yml',
 	],
+	'ernestdefoe-seo' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/seo/2.0.1/locale/en.yml',
+		'__builtInLanguages' => [
+			'ar',
+			'de',
+			'es',
+			'fr',
+			'fy',
+			'my',
+			'nl',
+			'ro',
+		],
+	],
 	'ffans-clipboardjs' => [
 		'tag' => 'https://raw.githubusercontent.com/FFans/clipboardjs/v1.0.0/resources/locale/en.yml',
 	],
