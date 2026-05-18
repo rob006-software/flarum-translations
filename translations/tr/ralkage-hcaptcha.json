@@ -6,10 +6,10 @@
                 "secret_key_label": "Gizli Anahtar",
                 "site_key_label": "Site Anahtarı",
                 "type_label": "hCaptcha Türü",
-                "dark_mode_label": "",
-                "dark_mode_help": "",
-                "enable_login_label": "",
-                "enable_login_help": ""
+                "dark_mode_label": "Karanlık Mod",
+                "dark_mode_help": "hCaptcha bileşeni için koyu temayı kullanın. Forumunuz koyu bir tema kullanıyorsa bunu etkinleştirin.",
+                "enable_login_label": "Girişte Zorunlu Tut",
+                "enable_login_help": "Kullanıcı girişinde hCaptcha'yı zorunlu tutar. Kaba kuvvet saldırılarına karşı koruma sağlar."
             },
             "permissions": {
                 "post_without_hcaptcha": "hCaptcha olmadan gönderi ve tartışma oluştur"
