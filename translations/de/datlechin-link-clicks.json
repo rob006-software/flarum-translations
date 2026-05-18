@@ -1,51 +1,51 @@
 {
     "datlechin-link-clicks": {
         "forum": {
-            "link_aria_label": "",
-            "link_tooltip": "",
-            "popular_links_title": "",
-            "user_popular_links_title": "",
-            "confirm_external": "",
+            "link_aria_label": "Eröffnet von {count} {count, plural, one{Person} other{Personen}}",
+            "link_tooltip": "{count, plural, one{# Person hat dies geöffnet} other{# Personen haben dies geöffnet}}",
+            "popular_links_title": "Beliebte Links",
+            "user_popular_links_title": "Meistgeklickte Links",
+            "confirm_external": "Du bist dabei, das Forum zu verlassen. Möchtest du fortfahren?",
             "settings": {
-                "opt_out_label": "",
-                "opt_out_help": "",
-                "opt_out_save_failed": ""
+                "opt_out_label": "Meine Link-Klicks nicht mitzählen",
+                "opt_out_help": "Deine Klicks werden weiterhin erfasst; wir zählen sie nur nicht mit.",
+                "opt_out_save_failed": "Deine Einstellung konnte nicht gespeichert werden. Bitte versuche es erneut."
             },
             "post_controls": {
-                "disable_tracking": "",
-                "enable_tracking": "",
-                "toggle_failed": ""
+                "disable_tracking": "Zähle die Klicks auf diesen Beitrag nicht",
+                "enable_tracking": "Zähle die Klicks auf diesen Beitrag",
+                "toggle_failed": "Das Klick-Tracking für diesen Beitrag konnte nicht aktualisiert werden."
             },
             "discussion_controls": {
-                "click_stats": ""
+                "click_stats": "Klickstatistiken"
             },
             "discussion_stats": {
-                "title": "",
-                "column_url": "",
-                "column_total": "",
-                "column_unique": "",
-                "column_last": "",
-                "empty": ""
+                "title": "Klickstatistiken: {title}",
+                "column_url": "Link",
+                "column_total": "Klicks",
+                "column_unique": "Personen",
+                "column_last": "Letzter Klick",
+                "empty": "Bisher wurden für keinen Link in dieser Diskussion Klicks verzeichnet."
             }
         },
         "admin": {
             "tabs": {
-                "settings": "",
-                "analytics": "",
-                "webhook": ""
+                "settings": "Einstellungen",
+                "analytics": "Analytics",
+                "webhook": "Webhook"
             },
             "permissions": {
-                "view_analytics_label": ""
+                "view_analytics_label": "Link-Klick-Analysen anzeigen"
             },
             "settings": {
-                "enabled_label": "",
-                "enabled_help": "",
-                "track_internal_label": "",
-                "track_internal_help": "",
-                "open_new_window_label": "",
+                "enabled_label": "Link-Klicks erfassen",
+                "enabled_help": "Hauptschalter. Wenn ausgeschaltet, findet weder ein Überschreiben noch eine Aufzeichnung statt.",
+                "track_internal_label": "Links zu diesem Forum erfassen",
+                "track_internal_help": "„Aus“ sorgt dafür, dass die Zählung auf ausgehende Ressourcen konzentriert bleibt.",
+                "open_new_window_label": "Links in einem neuen Fenster öffnen",
                 "open_new_window_help": "",
-                "honor_dnt_label": "",
-                "honor_dnt_help": "",
+                "honor_dnt_label": "„Do Not Track“ beachten",
+                "honor_dnt_help": "Aufzeichnung überspringen, wenn die Anfrage DNT: 1 enthält.",
                 "skip_guests_label": "",
                 "skip_guests_help": "",
                 "min_display_label": "",
@@ -56,21 +56,21 @@
                 "retention_help": "",
                 "bot_ua_label": "",
                 "bot_ua_help": "",
-                "bot_ua_placeholder": "",
+                "bot_ua_placeholder": "Googlebot\nMJ12bot\nAhrefsBot",
                 "tracking_params_label": "",
                 "tracking_params_help": "",
                 "tracking_params_placeholder": "",
                 "attachment_prefixes_label": "",
                 "attachment_prefixes_help": "",
-                "domain_blocklist_label": "",
+                "domain_blocklist_label": "Domains blockieren",
                 "domain_blocklist_help": "",
                 "confirm_external_label": "",
                 "confirm_external_help": "",
                 "digest_enabled_label": "",
                 "digest_enabled_help": "",
-                "webhook_enabled_label": "",
+                "webhook_enabled_label": "Webhook aktivieren",
                 "webhook_enabled_help": "",
-                "webhook_url_label": "",
+                "webhook_url_label": "Webhook-URL",
                 "webhook_url_help": "",
                 "webhook_secret_label": "",
                 "webhook_secret_help": "",
@@ -84,42 +84,42 @@
             },
             "analytics": {
                 "title": "",
-                "since": "",
-                "until": "",
+                "since": "Seit",
+                "until": "Bis",
                 "scope": "",
-                "scope_all": "",
-                "scope_external": "",
-                "scope_internal": "",
-                "scope_attachments": "",
-                "tag": "",
-                "tag_placeholder": "",
-                "attachment_label": "",
-                "internal_label": "",
-                "external_label": "",
-                "column_url": "",
-                "column_total": "",
+                "scope_all": "Alle Links",
+                "scope_external": "Nur externe",
+                "scope_internal": "Nur interne",
+                "scope_attachments": "Nur Anhänge",
+                "tag": "Themen",
+                "tag_placeholder": "tag-slug (optional)",
+                "attachment_label": "Anhang",
+                "internal_label": "Intern",
+                "external_label": "Extern",
+                "column_url": "Link",
+                "column_total": "Klicks",
                 "column_unique": "",
-                "column_first": "",
-                "column_last": "",
+                "column_first": "Erster Klick",
+                "column_last": "Letzter Klick",
                 "empty": "",
-                "export_csv": "",
+                "export_csv": "CSV exportieren",
                 "drilldown_tooltip": ""
             },
             "clickers": {
                 "title": "",
-                "column_who": "",
-                "column_clicks": "",
-                "column_first": "",
-                "column_last": "",
-                "guest": "",
-                "anonymized": "",
+                "column_who": "Wer",
+                "column_clicks": "Klicks",
+                "column_first": "Erster Klick",
+                "column_last": "Letzter Klick",
+                "guest": "Gast",
+                "anonymized": "Anonymisiert",
                 "empty": "",
                 "view_trail_tooltip": ""
             },
             "click_trail": {
                 "title": "",
-                "column_link": "",
-                "column_when": "",
+                "column_link": "Link",
+                "column_when": "Wann",
                 "empty": ""
             },
             "domains": {
@@ -132,33 +132,33 @@
                 "devices_label": "",
                 "browsers_label": "",
                 "devices": {
-                    "mobile": "",
-                    "tablet": "",
-                    "desktop": ""
+                    "mobile": "Handy",
+                    "tablet": "Tablet",
+                    "desktop": "Desktop"
                 },
                 "browsers": {
-                    "chrome": "",
-                    "firefox": "",
-                    "safari": "",
-                    "edge": "",
-                    "opera": "",
-                    "samsung": "",
-                    "other": ""
+                    "chrome": "Chrome",
+                    "firefox": "Firefox",
+                    "safari": "Safari",
+                    "edge": "Edge",
+                    "opera": "Opera",
+                    "samsung": "Samsung Internet",
+                    "other": "Andere"
                 }
             },
             "heatmap": {
-                "title": "",
-                "lead": ""
+                "title": "Klick-Heatmap (letzte 30 Tage)",
+                "lead": "Jede Zelle entspricht einer Stunde eines Tages. Je dunkler, desto mehr los."
             },
             "timeseries": {
-                "title": "",
-                "total_clicks": "",
+                "title": "Tägliche Klicks",
+                "total_clicks": "insgesamt",
                 "avg_per_day": "",
                 "peak_day": ""
             }
         },
         "gdpr": {
-            "export_description": "",
+            "export_description": "Alle registrierten Link-Klicks dieses Benutzers.",
             "anonymize_description": "",
             "delete_description": ""
         }
