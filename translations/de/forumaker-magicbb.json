@@ -19,6 +19,8 @@
                 "bb_hide_reply_help": "Der Inhalt ist so lange verborgen bis der Benutzer in der Diskussion antwortet",
                 "bb_hide_like": "Like",
                 "bb_hide_like_help": "Der Inhalt ist so lange verborgen bis der Benutzer den Beitrag liked",
+                "bb_anchor": "",
+                "bb_anchor_help": "",
                 "toolbar_group": "MagicBB-Schaltflächen zusammenfassen",
                 "toolbar_group_help": "Wenn aktiviert, werden alle MagicBB-Schaltflächen im Editor zu einer einzigen Schaltfläche zusammengefasst."
             },
@@ -48,16 +50,18 @@
                 "more_button": "Mehr",
                 "hide_login_button": "Verborgen – Anmeldung erforderlich",
                 "hide_reply_button": "Verborgen – Antwort erforderlich",
-                "hide_like_button": "Verborgen – Like erforderlich"
+                "hide_like_button": "Verborgen – Like erforderlich",
+                "anchor_button": "",
+                "jump_button": ""
             },
             "hide": {
+                "login_to_see_simple": "Melde dich an, um diesen Inhalt anzuzeigen",
+                "like_to_see_simple": "Vergib einen Like an diesen Beitrag, um diesen Inhalt anzuzeigen",
+                "reply_to_see_simple": "Antworte in dieser Diskussion, um diesen Inhalt anzuzeigen",
                 "login_to_see": "Dieser Inhalt ist nach der {login} sichtbar",
                 "like_to_see": "Dieser Inhalt ist nach dem {like} des Beitrags sichtbar",
                 "reply_to_see": "Dieser Inhalt ist nach der {reply} sichtbar",
-                "like_link_fallback": "Like",
-                "login_to_see_simple": "Melde dich an, um diesen Inhalt anzuzeigen",
-                "like_to_see_simple": "Vergib einen Like an diesen Beitrag, um diesen Inhalt anzuzeigen",
-                "reply_to_see_simple": "Antworte in dieser Diskussion, um diesen Inhalt anzuzeigen"
+                "like_link_fallback": "Like"
             }
         }
     }
