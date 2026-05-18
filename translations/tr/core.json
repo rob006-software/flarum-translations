@@ -164,12 +164,12 @@
                 "title": "Temel Öğeler",
                 "welcome_banner_heading": "Hoşgeldiniz Mesajı",
                 "welcome_banner_text": "Tüm Tartışmalar sayfasında görünecek karşılama yazısını ayarla. Ziyaretçileri karşılamak için bunu kullan.",
-                "abandoned_extensions_heading": "",
-                "abandoned_extensions_text": "",
-                "abandoned_extensions_sync_button": "",
-                "abandoned_extensions_sync_success": "",
-                "abandoned_extensions_sync_error": "",
-                "abandoned_extensions_notify_admins_label": ""
+                "abandoned_extensions_heading": "Terk Edilmiş Uzantılar",
+                "abandoned_extensions_text": "Flarum, <a>terk edilmiş uzantıların bir topluluk listesini</a> tutar. Yüklü bir uzantı listede göründüğünde yönetim panelinde işaretlenir.",
+                "abandoned_extensions_sync_button": "Şimdi Kontrol Et",
+                "abandoned_extensions_sync_success": "Terk edilmiş uzantılar listesi güncellendi. Eşleşen {count} yüklü uzantı bulundu.",
+                "abandoned_extensions_sync_error": "Terk edilmiş uzantılar listesi alınamadı. Lütfen daha sonra tekrar deneyin.",
+                "abandoned_extensions_notify_admins_label": "Haftalık kontrol sırasında yeni terk edilmiş bir uzantı tespit edildiğinde yöneticilere e-posta gönder"
             },
             "create_user": {
                 "email_placeholder": "=> core.ref.email",
@@ -182,18 +182,18 @@
                 "username_placeholder": "=> core.ref.username"
             },
             "announcements": {
-                "comments_label": "",
-                "description": "",
-                "empty": "",
-                "load_error": "",
-                "about": "",
-                "hide": "",
-                "read_more": "",
-                "refresh": "",
-                "retry": "",
-                "show": "",
-                "title": "",
-                "view_all": ""
+                "comments_label": "{count, plural, one {# yorum} other {# yorum}}",
+                "description": "Flarum Ekibi'nden en son haberler ve duyurular.",
+                "empty": "Duyuru bulunamadı.",
+                "load_error": "Duyurular yüklenemedi. Lütfen daha sonra tekrar deneyin.",
+                "about": "discuss.flarum.org adresindeki resmi Flarum topluluğundan çekilen en son haberler ve duyurular.",
+                "hide": "Duyuruları gizle",
+                "read_more": "Daha fazla oku",
+                "refresh": "Duyuruları yenile",
+                "retry": "Tekrar dene",
+                "show": "Duyuruları göster",
+                "title": "Duyurular",
+                "view_all": "Tümünü discuss.flarum.org üzerinde görüntüle"
             },
             "dashboard": {
                 "clear_cache_button": "Önbelleği Temizle",
@@ -377,7 +377,7 @@
                     "discussion": "Tartışma",
                     "feature": "Özellikler",
                     "formatting": "Biçimlendirme",
-                    "forum-widget": "",
+                    "forum-widget": "Forum Bileşenleri",
                     "infrastructure": "",
                     "language": "Diller",
                     "moderation": "Moderasyon",
@@ -1058,7 +1058,7 @@
                 "body": "Bu, Flarum e-posta yapılandırmanızın düzgün çalıştığını doğrulamak için gönderilmiş bir test e-postasıdır.\n\nBu işlemi siz yaptıysanız yapılandırmanız doğru çalışıyor demektir.\n\nBu siz değilseniz lütfen bu e-postayı dikkate almayın.\n"
             },
             "abandoned_extensions": {
-                "subject": "",
+                "subject": "İşlem gerekiyor: terk edilmiş uzantı tespit edildi",
                 "body_intro": "",
                 "body_outro": "",
                 "line_with_replacement": "",
