@@ -1,40 +1,40 @@
 {
     "cnsearch": {
         "meili": {
-            "host": "",
-            "key": "",
-            "index": ""
+            "host": "Meilisearch-Host",
+            "key": "Meilisearch-API-Schlüssel",
+            "index": "Meilisearch Indexname"
         }
     },
     "gitzaai-cnsearch": {
         "admin": {
             "settings": {
-                "meili_host_label": "",
-                "meili_host_help": "",
-                "meili_key_label": "",
-                "meili_key_help": "",
-                "meili_index_label": "",
-                "meili_index_help": ""
+                "meili_host_label": "Meilisearch-Host",
+                "meili_host_help": "Vor dem Testen oder Indizieren erforderlich. Beispiel: http://127.0.0.1:7700",
+                "meili_key_label": "Meilisearch-API-Schlüssel",
+                "meili_key_help": "Gib deinen Meilisearch-API-Schlüssel nur ein, wenn deine Meilisearch-Instanz einen solchen erfordert.",
+                "meili_index_label": "Meilisearch-Indexname",
+                "meili_index_help": "Der Meilisearch-Index, der für die Suche nach Diskussionen verwendet wird."
             },
             "buttons": {
-                "title": "",
-                "reindex": "",
-                "test_connection": "",
-                "help": "",
-                "status_label": "",
-                "status_last_checked": "",
-                "status_connected": "",
-                "status_disconnected": "",
-                "status_unknown": "",
-                "indexed_count": "",
-                "source_discussions": "",
-                "source_posts": "",
-                "last_sync": "",
-                "not_synced": "",
-                "reindex_success": "",
-                "reindex_failed": "",
-                "test_connection_success": "",
-                "test_connection_failed": ""
+                "title": "Meilisearch-Operationen",
+                "reindex": "Index neu erstellen",
+                "test_connection": "Verbindung testen",
+                "help": "Verwende diese Steuerelemente, um den Meilisearch-Diskussionsindex zu überprüfen und neu zu erstellen.",
+                "status_label": "Verbindungsstatus",
+                "status_last_checked": "Zuletzt überprüft: {time}",
+                "status_connected": "Verbunden",
+                "status_disconnected": "Nicht verbunden",
+                "status_unknown": "Verbindung noch nicht überprüft",
+                "indexed_count": "Meilisearch-Dokumente: {count}",
+                "source_discussions": "Quelldiskussionen: {count}",
+                "source_posts": "Indizierte Quellbeiträge: {count}",
+                "last_sync": "Letzte Neuindizierung: {time}",
+                "not_synced": "Noch nie synchronisiert",
+                "reindex_success": "Die Anfrage zur Neuindizierung wurde erfolgreich übermittelt.",
+                "reindex_failed": "Die Neuindizierung ist fehlgeschlagen. Bitte überprüfe die Protokolle.",
+                "test_connection_success": "Verbindung zu Meilisearch erfolgreich hergestellt.",
+                "test_connection_failed": "Die Verbindung zu Meilisearch ist fehlgeschlagen."
             }
         }
     }
