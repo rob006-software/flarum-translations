@@ -9,18 +9,18 @@
                 "bb_table": "Таблица",
                 "bb_info": "Оповещения",
                 "bb_audio": "Аудио",
-                "bb_image": "FoF Upload",
-                "bb_image_help": "Добавляет кнопку для изменения размера картинок. Изображения по центру уменьшаются до 60% ширины поста, а выровненные по сторонам — до 40%",
+                "bb_image": "Выравнивание изображений",
+                "bb_image_help": "Оборачивает изображения и другие медиа в контейнер выравнивания. Центрированные элементы масштабируются до 60% ширины сообщения, а выровненные по бокам — до 40%",
                 "bb_iframe": "iframe",
                 "bb_iframe_help": "Разрешает вставку iframe из любого источника. Используйте осторожно — встроенный контент может содержать внешние скрипты. 🧹 После изменения этой настройки очистите кэш Flarum",
-                "bb_hide_login": "",
-                "bb_hide_login_help": "",
-                "bb_hide_reply": "",
-                "bb_hide_reply_help": "",
-                "bb_hide_like": "",
-                "bb_hide_like_help": "",
-                "bb_anchor": "",
-                "bb_anchor_help": "",
+                "bb_hide_login": "Вход",
+                "bb_hide_login_help": "Контент скрыт от гостей и виден только пользователям",
+                "bb_hide_reply": "Ответ",
+                "bb_hide_reply_help": "Нужно ответить в дискуссии, чтобы увидеть скрытый контент",
+                "bb_hide_like": "Лайк",
+                "bb_hide_like_help": "Нужно лайкнуть сообщение, чтобы увидеть скрытый контент",
+                "bb_anchor": "Якорь",
+                "bb_anchor_help": "Именованные якоря и ссылки для перехода внутри сообщения",
                 "toolbar_group": "Группировать кнопки MagicBB",
                 "toolbar_group_help": "Если включено, все кнопки MagicBB будут объединены внутри одной"
             },
@@ -29,12 +29,12 @@
                 "content": "Кнопки контента",
                 "images": "Кнопки изображений",
                 "features": "Возможности",
-                "hide": ""
+                "hide": "Кнопки скрытия"
             },
             "permissions": {
                 "use_iframe": "Разрешить iframe",
-                "bypass_like": "",
-                "bypass_reply": ""
+                "bypass_like": "Обходить требование лайка",
+                "bypass_reply": "Обходить требование ответа"
             }
         },
         "forum": {
@@ -46,18 +46,18 @@
                 "table_button": "Добавить таблицу",
                 "info_button": "Добавить оповещение",
                 "audio_button": "Добавить аудио",
-                "image_button": "Добавить изображение",
+                "image_button": "Выравнять изображение",
                 "more_button": "Больше",
-                "hide_login_button": "",
-                "hide_reply_button": "",
-                "hide_like_button": "",
-                "anchor_button": "",
-                "jump_button": ""
+                "hide_login_button": "Скрыто — видно только пользователям",
+                "hide_reply_button": "Скрыто — нужно ответить",
+                "hide_like_button": "Скрыто — нужно лайкнуть",
+                "anchor_button": "Добавить якорь",
+                "jump_button": "Добавить якорную ссылку"
             },
             "hide": {
-                "login_to_see_simple": "",
-                "like_to_see_simple": "",
-                "reply_to_see_simple": ""
+                "login_to_see_simple": "Войдите, чтобы увидеть скрытый контент",
+                "like_to_see_simple": "Поставьте лайк, чтобы увидеть скрытый контент",
+                "reply_to_see_simple": "Ответьте, чтобы увидеть скрытый контент"
             }
         }
     }
