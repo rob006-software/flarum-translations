@@ -1,0 +1,37 @@
+{
+    "ernestdefoe-cross-references": {
+        "forum": {
+            "sidebar": {
+                "heading": "Referenced from {count, plural, one {# discussion} other {# discussions}}",
+                "load_error": "Couldn't load references.",
+                "by_user": "by {username}",
+                "capped_notice": "Showing the most recent 50."
+            },
+            "event_post": {
+                "text": "{username} referenced this from {ref}",
+                "post_specific": " (specific post)"
+            },
+            "notification": {
+                "text": "Referenced your discussion from {discussion}"
+            },
+            "post_number": {
+                "tooltip": "Post # — click to copy the cross-reference ({ref})",
+                "copied": "Copied {ref} to clipboard.",
+                "copy_failed": "Couldn't copy. The reference is {ref}."
+            }
+        },
+        "admin": {
+            "settings": {
+                "show_inline_label": "Show inline references in posts",
+                "show_inline_help": "When enabled, `#42` and pasted forum-discussion URLs render as rich cross-reference chips with the discussion title.",
+                "create_backlinks_label": "Create backlink event-posts in target discussions",
+                "create_backlinks_help": "When a post references another discussion, insert a small system post in the target showing the referrer. Disable for forums that prefer quiet target threads.",
+                "notify_author_label": "Notify the target discussion's author",
+                "notify_author_help": "Send an in-app alert to the author of the referenced discussion. The actor's own posts never notify themselves."
+            },
+            "permissions": {
+                "create_cross_references": "Use cross-references in posts"
+            }
+        }
+    }
+}
