@@ -22,7 +22,6 @@
             }
         },
         "admin": {
-            "general-options": "Algemene instellingen",
             "buttons": {
                 "add-field": "Maak veld",
                 "edit-field": "Wijzigingen opslaan",
@@ -50,6 +49,7 @@
                 "icon": "Icoon",
                 "icon-help": "Toont een icoon vóór de waarden die in dit veld zijn ingevoerd door de gebruiker. Voor een overzicht van beschikbare iconen, check de <a>FontAwesome website</a>. Gebruik namen van iconen met de \"fa-\" prefix, bijv. \"fas fa-info\".\n",
                 "force-user-to-completion": "Verplicht de gebruiker om het profiel volledig in te vullen",
+                "hide-empty-fields": "",
                 "options": "Opties",
                 "option-new": "Nieuwe optie",
                 "option-comma-warning": "Het label van een optie mag geen komma (\",\") bevatten.",
@@ -61,7 +61,8 @@
                 "email": "E-mail",
                 "select": "Keuze-menu",
                 "url": "Link"
-            }
+            },
+            "general-options": "Algemene instellingen"
         },
         "lib": {
             "gambits": {

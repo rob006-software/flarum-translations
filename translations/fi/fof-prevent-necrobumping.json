@@ -3,25 +3,25 @@
         "forum": {
             "composer": {
                 "inactive_discussion_alert": {
-                    "title": "",
-                    "description": "",
-                    "cta": "",
-                    "cta_button": "",
-                    "confirmation": ""
+                    "title": "Viimeisin vastaus tähän keskusteluun oli {time}.",
+                    "description": "Pohdi, tuoko vastauksesi uutta arvoa vai onko aihe jo ratkaistu.",
+                    "cta": "Pohdi uuden keskustelun aloittamista, jos sinulla on uusi kysymys tai näkökulma.",
+                    "cta_button": "=> core.ref.start_a_discussion",
+                    "confirmation": "Ymmärrän, että tämä keskustelu on epäaktiivinen, mutta vastaukseni on asiaankuuluva."
                 },
-                "error": ""
+                "error": "Tämä keskustelu on liian vanha vastattavaksi."
             }
         },
         "admin": {
             "settings": {
-                "general_heading": "",
-                "days_label": "",
-                "days_help": "",
-                "show_discussion_cta_label": "",
-                "show_discussion_cta_help": "",
-                "tags_title": "",
-                "tags_help": "",
-                "tags_placeholder": ""
+                "general_heading": "Yleiset asetukset",
+                "days_label": "Päiviä ennen kuin keskustelu katsotaan epäaktiiviseksi",
+                "days_help": "Merkitse keskustelut epäaktiivisiksi, kun viimeisestä viestistä on kulunut tämän verran päiviä. Aseta arvoksi <code>0</code> poistaaksesi oletuksena käytöstä.",
+                "show_discussion_cta_label": "Näytä \"Aloita uusi kekustelu\" ilmoitus",
+                "show_discussion_cta_help": "Näytä ehdotus uuden keskustelun aloittamisesta, kun käyttäjät yrittävät vastata epäaktiivisiin keskusteluihin.",
+                "tags_title": "Avainsana spesifit asetukset",
+                "tags_help": "Ohita yleinen epäaktiivisuuskynnys tietyille avainsanoille. Jätä tyhjäksi käyttääksesi oletusarvoa. Kun useilla avainsanoilla on eri arvot, lyhin jakso on voimassa.",
+                "tags_placeholder": "Oletus"
             }
         }
     }

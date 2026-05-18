@@ -22,7 +22,6 @@
             }
         },
         "admin": {
-            "general-options": "Általános beállítások",
             "buttons": {
                 "add-field": "Mező létrehozása",
                 "edit-field": "Módosítások mentése",
@@ -35,7 +34,7 @@
             },
             "fields": {
                 "title": "Mezők",
-                "create": "",
+                "create": "Mező létrehozása",
                 "edit": "{field} mező szerkesztése",
                 "delete-confirmation": "Biztos, hogy törli a(z) {field} mezőt? Ez nem vonható vissza.",
                 "name": "Mező neve",
@@ -50,6 +49,7 @@
                 "icon": "Ikon",
                 "icon-help": "Egy ikont jelenít meg a felhasználó által megadott értékek előtt. Az elérhető ikonok referenciájához nézze meg a <a>Fontawesome weboldalát</a>. A „fa-” előtagú ikonneveket használja, például „fas fa-info”.\n",
                 "force-user-to-completion": "Felhasználó kötelezése hogy kitöltse a profil adatokat",
+                "hide-empty-fields": "Üres mezők elrejtése",
                 "options": "Lehetőségek",
                 "option-new": "Új lehetőség",
                 "option-comma-warning": "A lehetőség címkéje nem tartalmazhat vesszőt („,”).",
@@ -61,12 +61,13 @@
                 "email": "E-mail",
                 "select": "Legördülő",
                 "url": "Webcím"
-            }
+            },
+            "general-options": "Általános beállítások"
         },
         "lib": {
             "gambits": {
                 "answer": {
-                    "key": ""
+                    "key": "válasz"
                 }
             }
         }

@@ -22,7 +22,6 @@
             }
         },
         "admin": {
-            "general-options": "一般的なオプション",
             "buttons": {
                 "add-field": "フィールドを作成",
                 "edit-field": "変更内容を保存",
@@ -50,6 +49,7 @@
                 "icon": "Icon",
                 "icon-help": "このフィールドの前に小さなアイコンが表示されます。 利用可能なアイコンは <a>FontAwesome</a> をご覧ください，接頭辞を含む完全なチャートクラス名を使用します。例：「fas fa-bolt」。\n",
                 "force-user-to-completion": "ユーザーにプロファイルの完了を強制する",
+                "hide-empty-fields": "",
                 "options": "オプション",
                 "option-new": "新しいオプション",
                 "option-comma-warning": "オプションのラベルにコンマ（ \",\"）を含めることはできません。",
@@ -61,7 +61,8 @@
                 "email": "電子メール",
                 "select": "落ちる",
                 "url": "URL"
-            }
+            },
+            "general-options": "一般的なオプション"
         },
         "lib": {
             "gambits": {

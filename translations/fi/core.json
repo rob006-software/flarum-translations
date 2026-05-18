@@ -2,99 +2,99 @@
     "core": {
         "admin": {
             "advanced": {
-                "description": "",
+                "description": "Määritä foorumisi lisäasetukset.",
                 "maintenance": {
                     "bisect": {
-                        "begin_button_text": "",
-                        "continue_button_text": "",
-                        "label": "",
-                        "help": ""
+                        "begin_button_text": "Aloita vianhaku",
+                        "continue_button_text": "Jatka vianhakua",
+                        "label": "Lisäosan vianhaku",
+                        "help": "Auttaa tunnistamaan ongelman aiheuttavan laajennuksen. Tämä asettaa foorumin automaattisesti ylläpitotilaan (matala) prosessin ajaksi."
                     },
                     "bisect_modal": {
-                        "description": "",
-                        "end_button": "",
-                        "issue_question": "",
-                        "issue_question_help": "",
-                        "no_button": "",
-                        "result_description": "",
-                        "start_button": "",
-                        "stop_button": "",
-                        "steps_left": "",
-                        "total_steps": "",
-                        "title": "",
-                        "yes_button": ""
+                        "description": "Tämä asettaa foorumin ylläpitotilaan (matala) prosessin ajaksi. Jokaisessa vaiheessa osa laajennuksista poistetaan käytöstä, kunnes ongelman aiheuttaja löytyy. Älä siis hämmästy, jos joitain toimintoja puuttuu tai teeman ulkoasu on erilainen. Pidä tämä sivu auki ja yritä toistaa ongelma jokaisen vaiheen jälkeen erillisellä sivulla. Voit aina palata tälle sivulle, vaikka sulkisit sen vahingossa.\n",
+                        "end_button": "Sulje ja mene lisäosan sivulle",
+                        "issue_question": "Toistuuko tämä ongelma?",
+                        "issue_question_help": "Koita toistaa ongelma eri sivulla ja vastaa perustuen tuloksiin.",
+                        "no_button": "Ei",
+                        "result_description": "Foorumi ei ole enää ylläpitotilassa. Laajennusten vianhaku on päättynyt. Vastaustesi perusteella ongelman aiheuttaja on seuraava laajennus:\n",
+                        "start_button": "Aloita vianhaku",
+                        "stop_button": "Pysäytä vianhaku",
+                        "steps_left": "Vaihetta jäljellä: {steps}",
+                        "total_steps": "Tämä sisältää {steps} vaihetta.",
+                        "title": "Lisäosan vianhaku",
+                        "yes_button": "Kyllä"
                     },
                     "config_override": {
-                        "label": "",
-                        "help": ""
+                        "label": "Sinun <code>config.php</code> tiedosto yliajaa nämä asetukset.",
+                        "help": "Voit edelleen muuttaa näitä asetuksia täällä, mutta ne eivät tule voimaan ennen kuin asetat <code>config.php</code>-tiedostossa arvon <code>offline</code> muotoon <code>0</code>."
                     },
-                    "help": "",
+                    "help": "Aseta foorumisi huoltotilaan, jotta käyttäjät eivät pääse sinne.",
                     "options": {
-                        "none": "",
-                        "high": "",
-                        "low": "",
-                        "safe": ""
+                        "none": "Ei huoltotilaa.",
+                        "high": "Korkea huoltotila. Kukaan ei voi päästä foorumille (voi vain pistää päälle config.php tiedostossa)",
+                        "low": "Matala huoltotila. Ylläpito pääsee foorumille.",
+                        "safe": "Vikasietotila. Laajennuksia ei ladata ja vain ylläpitäjät voivat käyttää foorumia."
                     },
-                    "safe_mode_extensions": "",
-                    "safe_mode_extensions_override_help": "",
-                    "section_label": ""
+                    "safe_mode_extensions": "Vikasietotilassa ladattavat laajennukset",
+                    "safe_mode_extensions_override_help": "Tämä asetus on ohitettu <code>config.php</code>-tiedoston <code>safe_mode_extensions</code>-avaimella. (<b>{extensions}</b>)",
+                    "section_label": "Huolto"
                 },
                 "fontawesome": {
-                    "section_label": "",
-                    "source_label": "",
-                    "source_help": "",
-                    "source_local": "",
-                    "source_cdn": "",
-                    "source_kit": "",
-                    "cdn_url_label": "",
-                    "cdn_url_help": "",
-                    "kit_url_label": "",
-                    "kit_url_help": "",
+                    "section_label": "FontAwesome ikonit",
+                    "source_label": "Ikonin lähde",
+                    "source_help": "Valitse, miten FontAwesome-kuvakkeet ladataan. Paikallinen käyttää pakettiin sisältyviä fontteja, CDN lataa sisällönjakeluverkosta ja Kit käyttää FontAwesome Kit -paketteja mukautetuilla kuvakkeilla.",
+                    "source_local": "Paikallinen (sisällytetty)",
+                    "source_cdn": "CDN",
+                    "source_kit": "FontAwesome Kit",
+                    "cdn_url_label": "CDN osoite",
+                    "cdn_url_help": "Täysi osoite FontAwesome CSS tiedostoon CDN:ssä",
+                    "kit_url_label": "Kitin osoite",
+                    "kit_url_help": "Sinun FontAwesome kitin skriptin osoite (kit.fontawesome.com sivulta)",
                     "config_override": {
-                        "label": "",
-                        "help": ""
+                        "label": "Määrityksen yliajo",
+                        "help": "FontAwesome-asetukset on määritetty config.php-tiedostossa eikä niitä voi muuttaa täällä."
                     },
                     "preview": {
-                        "button": "",
-                        "label": "",
-                        "help": "",
-                        "fa5_fa6_label": "",
-                        "fa7_label": "",
-                        "pro_label": ""
+                        "button": "Esikatsele ikoneita",
+                        "label": "Ikonin esikatselu",
+                        "help": "Tarkista FontAwesome-asetuksesi. Näkyvä kuvake tarkoittaa, että kyseinen taso on käytettävissä; rikkinäinen ruutu tarkoittaa, että sitä ei ole ladattu.",
+                        "fa5_fa6_label": "FA5/FA6-aliakset",
+                        "fa7_label": "FA7 luokat",
+                        "pro_label": "Vain Pro"
                     }
                 },
                 "pgsql": {
-                    "search_configuration": ""
+                    "search_configuration": "Etsi käytettäviä asetuksia"
                 },
                 "queue": {
-                    "section_label": "",
-                    "sync_info": "",
-                    "sync_help": "",
-                    "custom_driver": "",
-                    "retries_label": "",
-                    "retries_help": "",
-                    "memory_label": "",
-                    "memory_help": "",
-                    "timeout_label": "",
-                    "timeout_help": "",
-                    "rest_label": "",
-                    "rest_help": "",
-                    "backoff_label": "",
-                    "backoff_help": ""
+                    "section_label": "Jono",
+                    "sync_info": "Foorumisi käyttää synkronista jonoajuria. Tehtävät käsitellään välittömästi pääprosessin säikeessä.",
+                    "sync_help": "Paremman suorituskyvyn ja käyttäjäkokemuksen saavuttamiseksi harkitse tietokantajonoajurin käyttöä. Lue lisää dokumentaatiosta.",
+                    "custom_driver": "Foorumisi käyttää {driver}-jonoajuria, jonka tarjoaa laajennus.",
+                    "retries_label": "Jonon työn uudelleenyritykset",
+                    "retries_help": "Kuinka monta kertaa jonon työ yrittää uudelleen ennen kuin se merkataan epäonnistunseeksi. Oletus on 1.",
+                    "memory_label": "Muisti raja (MB)",
+                    "memory_help": "Maksimimäärä muistia minkä jonon työntekijä voi käyttää ennen kuin se uudelleenkäynnistetään. Oletus on 128 MB.",
+                    "timeout_label": "Työn aikakatkaisu (sekuntia)",
+                    "timeout_help": "Maksimi aika kauanko yksittäinen jonon työ voi olla käynnissä ennen aikakatkaisua. Oletus on 60 sekuntia.",
+                    "rest_label": "Lepo aika (sekuntia)",
+                    "rest_help": "Aika mikä odotetaan ennen työn aloitusta. Oletus on 0 sekuntia.",
+                    "backoff_label": "Uudelleenyrityksen viive (sekuntia)",
+                    "backoff_help": "Aika ennen epäonnistuneen tehtävän uudelleenyritystä. Oletus on 0 sekuntia."
                 },
                 "search": {
-                    "section_label": "",
-                    "driver_heading": "",
-                    "driver_text": "",
+                    "section_label": "Haun ajurit",
+                    "driver_heading": "Haun ajuri: {model}",
+                    "driver_text": "Valitse tämän mallin haulle ajuri jota käytetään.",
                     "driver_options": {
-                        "default": ""
+                        "default": "Oletus tietokantahaku"
                     },
-                    "no_other_drivers": ""
+                    "no_other_drivers": "Hakuajureita ei ole vielä saatavilla. Asenna hakuajurilaajennus voidaksesi määrittää sen."
                 },
-                "title": ""
+                "title": "Lisäasetukset"
             },
             "appearance": {
-                "allow_user_color_scheme_label": "",
+                "allow_user_color_scheme_label": "Salli käyttäjien määrittää oma väriteema",
                 "colored_header_label": "Värillinen yläosa",
                 "colors_heading": "Värit",
                 "colors_primary_label": "Ensisijainen väri",
@@ -116,16 +116,16 @@
                 "favicon_text": "Siirrä kuva, jota käytetään foorumin faviconina.",
                 "logo_heading": "Logo",
                 "logo_text": "Siirrä kuva, jota käytetään foorumin logona tekstin sijaan.",
-                "logo_dark_mode_heading": "",
-                "logo_dark_mode_text": "",
+                "logo_dark_mode_heading": "Tumman teeman logo",
+                "logo_dark_mode_text": "Siirrä toissijainen logo, jota käytetään, kun tumma teema on käytössä.",
                 "title": "Ulkoasu",
-                "color_scheme_label": "",
+                "color_scheme_label": "Väriteema (oletus)",
                 "color_schemes": {
-                    "auto_mode_label": "",
-                    "dark_hc_mode_label": "",
-                    "dark_mode_label": "",
-                    "light_hc_mode_label": "",
-                    "light_mode_label": ""
+                    "auto_mode_label": "Järjestelmän tai määritetty käyttäjäasetus",
+                    "dark_hc_mode_label": "=> core.ref.dark_hc_mode_label",
+                    "dark_mode_label": "=> core.ref.dark_mode_label",
+                    "light_hc_mode_label": "=> core.ref.light_hc_mode_label",
+                    "light_mode_label": "=> core.ref.light_mode_label"
                 }
             },
             "basics": {
@@ -133,30 +133,30 @@
                 "default_language_heading": "Oletuskieli",
                 "description": "Määritä foorumin otsikko, kieli ja muita perusasetuksia.",
                 "display_name_driver_options": {
-                    "username": ""
+                    "username": "Käyttäjätunnus"
                 },
                 "display_name_heading": "Käyttäjän näyttönimi",
                 "display_name_text": "Valitse ajuri mitä käytetään käyttäjän nimen näyttämiseen. Oletuksena näytetään käyttäjätunnus.",
                 "avatar_driver_options": {
-                    "default": ""
+                    "default": "Oletus"
                 },
-                "avatar_driver_heading": "",
-                "avatar_driver_text": "",
+                "avatar_driver_heading": "Käyttäjän avatar",
+                "avatar_driver_text": "Valitse ajuri, jota käytetään käyttäjien avatareille, kun käyttäjän itse lataamaa avataria ei ole saatavilla. Oletuksena avataria ei näytetä, jos käyttäjä ei ole ladannut sellaista.",
                 "forum_description_heading": "Foorumin kuvaus",
-                "forum_description_text": "Syötä lyhyt lause tai kaksi, joka kuvaa yhteisöäsi. Tätä käytetään meta kuvauksessa ja näkyy hakukoneille.",
+                "forum_description_text": "Syötä lyhyt lause tai kaksi, joka kuvaa foorumiasi. Tätä käytetään meta kuvauksessa ja näkyy hakukoneille.",
                 "forum_title_heading": "Foorumin otsikko",
                 "home_page_heading": "Kotisivu",
                 "home_page_text": "Valitse sivu minkä käyttäjät näkevät, kun he vierailevat foorumillasi.",
                 "show_language_selector_label": "Näytä kielivalikko",
                 "slug_driver_options": {
                     "discussions": {
-                        "default": "",
-                        "utf8": ""
+                        "default": "ID slugin kanssa",
+                        "utf8": "ID UTF-8 slugin kanssa"
                     },
                     "users": {
-                        "default": "",
-                        "id": "",
-                        "id_with_display_name": ""
+                        "default": "Käyttäjätunnus",
+                        "id": "ID",
+                        "id_with_display_name": "ID näyttönimen kanssa"
                     }
                 },
                 "slug_driver_heading": "Polkutunnunnuksen ajuri: {model}",
@@ -164,12 +164,12 @@
                 "title": "Yleiset",
                 "welcome_banner_heading": "Tervetulobanneri",
                 "welcome_banner_text": "Määritä teksti mikä näkyy keskustelulistauksessa olevassa bannerissa. Käytä tätä toivottaaksesi vieraat tervetulleeksi.",
-                "abandoned_extensions_heading": "",
-                "abandoned_extensions_text": "",
-                "abandoned_extensions_sync_button": "",
-                "abandoned_extensions_sync_success": "",
-                "abandoned_extensions_sync_error": "",
-                "abandoned_extensions_notify_admins_label": ""
+                "abandoned_extensions_heading": "Hylätyt lisäosat",
+                "abandoned_extensions_text": "Flarum ylläpitää <a>yhteisöllistä listaa hylätyistä laajennuksista</a>. Kun asennettu laajennus esiintyy listalla, se merkitään hallintapaneelissa.",
+                "abandoned_extensions_sync_button": "Tarkista nyt",
+                "abandoned_extensions_sync_success": "Hylättyjen laajennusten lista päivitetty. {count} vastaava asennettu laajennus löydetty.",
+                "abandoned_extensions_sync_error": "Hylättyjen laajennusten listan hakeminen epäonnistui. Yritä myöhemmin uudelleen.",
+                "abandoned_extensions_notify_admins_label": "Lähetä sähköposti ylläpitäjille, kun viikoittaisen tarkistuksen aikana havaitaan uusi hylätty laajennus"
             },
             "create_user": {
                 "email_placeholder": "=> core.ref.email",
@@ -182,18 +182,18 @@
                 "username_placeholder": "=> core.ref.username"
             },
             "announcements": {
-                "comments_label": "",
-                "description": "",
-                "empty": "",
-                "load_error": "",
-                "about": "",
-                "hide": "",
-                "read_more": "",
-                "refresh": "",
-                "retry": "",
-                "show": "",
-                "title": "",
-                "view_all": ""
+                "comments_label": "{count, plural, one {# kommentti} other {# kommenttia}}",
+                "description": "Uusimmat uutiset ja ilmoituksen Flarumin tiimiltä.",
+                "empty": "Ilmoituksia ei löytynyt.",
+                "load_error": "Ilmoituksien lataus epäonnistui. Yritä myöhemmin uudelleen.",
+                "about": "Uusimmat uutiset ja ilmoitukset haetaan automaattisesti Flaurmin yhteisöstä osoitteesta discuss.flarum.org.",
+                "hide": "Piilot ilmoitukset",
+                "read_more": "Lue lisää",
+                "refresh": "Päivitä ilmoitukset",
+                "retry": "Yritä uudelleen",
+                "show": "Näytä ilmoitukset",
+                "title": "Ilmoitukset",
+                "view_all": "Näytä kaikki osoitteessa discuss.flarum.org"
             },
             "dashboard": {
                 "clear_cache_button": "Tyhjennä välimuisti",
@@ -219,24 +219,24 @@
                     }
                 },
                 "title": "Kojelauta",
-                "toggle_advanced_page_button": "",
+                "toggle_advanced_page_button": "Näytä/piilota lisäasetukset",
                 "tools_button": "Työkalut"
             },
             "extensions-health-widget": {
-                "abandoned_no_replacement": "",
-                "abandoned_with_replacement": "",
-                "all_healthy": "",
-                "section_abandoned_empty": "",
-                "section_suggested_empty": "",
-                "section_disabled_empty": "",
-                "title": "",
-                "section_abandoned_heading": "",
-                "section_abandoned_help": "",
-                "section_suggested_heading": "",
-                "section_suggested_help": "",
-                "section_disabled_heading": "",
-                "section_disabled_help": "",
-                "suggested_by": ""
+                "abandoned_no_replacement": "Ei korvaavaa saatavilla",
+                "abandoned_with_replacement": "Korvattu: {replacement}",
+                "all_healthy": "Kaikki lisäosat ovat terveitä.",
+                "section_abandoned_empty": "Ongelmia ei löytynyt.",
+                "section_suggested_empty": "Ei ehdotuksia.",
+                "section_disabled_empty": "Kaikki lisäosat ovat käytössä.",
+                "title": "Lisäosan tila",
+                "section_abandoned_heading": "Tarvitsee huomiota",
+                "section_abandoned_help": "Näitä lisäosia ei enää ylläpidetä tai niissä saattaa olla yhteensopivuusongelmia. Harkitse niiden päivittämistä, korvaamista tai poistamista.",
+                "section_suggested_heading": "Ehdotettu",
+                "section_suggested_help": "Flarum-lisäosat voivat lisätä valinnaisia lisäominaisuuksia määrittelemällä muita lisäosia tai paketteja. Nämä voivat tuoda lisää toimintoja tai integraatioita.",
+                "section_disabled_heading": "Poistettu käytöstä",
+                "section_disabled_help": "Nämä lisäosat on asennettu, mutta ne eivät ole tällä hetkellä käytössä. Ota ne käyttöön asetussivulta tai poista ne, jos niitä ei enää tarvita.",
+                "suggested_by": "Ehdotti {extension}"
             },
             "debug-warning": {
                 "detail": "Kun <code>debug</code> tila on aktiivisena Flarum luo uudelleen sen <code>JavaScript</code> ja <code>CSS</code> koodit joka pyynnöllä ja voi mahdollisesti vuotaa joitain tietoja kuten tietokanta salaisuuksia, ympäristön määreitä yms.\n\nSuosittelemme, että otat <code>debug</code> tilan pois päältä <code>config.php</code> tiedostosta tuotannossa. Katso <link>Flarumin dokumentoinnista</link> lisää tietoa.\n",
@@ -276,38 +276,38 @@
                 "driver_heading": "Valitse ajuri",
                 "driver_label": "Ajuri",
                 "format": {
-                    "multipart_option": "",
-                    "plain_option": "",
-                    "html_option": ""
+                    "multipart_option": "Moniosainen (suositeltu)",
+                    "plain_option": "Pelkkä teksti",
+                    "html_option": "HTML"
                 },
-                "format_heading": "",
-                "format_help": "",
+                "format_heading": "Lähtevien sähköpostien muoto",
+                "format_help": "Valitse muoto, jossa lähtevät sähköpostit lähetetään. Suositeltu vaihtoehto on <code>moniosainen</code>, sillä se antaa käyttäjän sähköpostiohjelman näyttää sopivimman muodon.",
                 "from_label": "Lähettäjä",
                 "mail_encryption_label": "Salaus",
-                "mail_encryption_tls_help": "",
-                "mail_encryption_ssl_help": "",
-                "mail_encryption_none_help": "",
+                "mail_encryption_tls_help": "Yhteys alkaa salaamattomana ja päivittyy TLS-salaukseen (STARTTLS). Käytetään tyypillisesti porttien 587 tai 25 kanssa.",
+                "mail_encryption_ssl_help": "Yhteys on salattu alusta alkaen (implisiittinen TLS). Käytetään tyypillisesti portin 465 kanssa.",
+                "mail_encryption_none_help": "Ei salausta. Ei suositella tuotantokäyttöön.",
                 "mail_host_label": "Palvelin",
                 "mail_mailgun_domain_label": "Verkkotunnus (domain)",
                 "mail_mailgun_region_label": "Alue (region)",
                 "mail_mailgun_secret_label": "Salainen avain (secret key)",
                 "mail_password_label": "=> core.ref.password",
                 "mail_port_label": "Portti",
-                "mail_postmark_message_stream_label": "",
-                "mail_postmark_token_label": "",
-                "mail_smtp_verify_peer_label": "",
-                "mail_smtp_verify_peer_help": "",
+                "mail_postmark_message_stream_label": "Viestivirta",
+                "mail_postmark_token_label": "Palvelintunnus",
+                "mail_smtp_verify_peer_label": "Tarkista SSL-varmenne",
+                "mail_smtp_verify_peer_help": "Tarkistaa palvelimen SSL-varmenteen TLS- tai SSL-salausta käytettäessä. Poista käytöstä vain, jos sähköpostipalvelimesi käyttää itse allekirjoitettua varmennetta.",
                 "mail_username_label": "=> core.ref.username",
                 "mailgun_heading": "Mailgunin asetukset",
-                "postmark_heading": "",
-                "postmark_description": "",
+                "postmark_heading": "Postmark asetukset",
+                "postmark_description": "Lähetä sähköpostia Postmarkin HTTP-rajapinnan kautta. Voit halutessasi määrittää viestivirran muun kuin oletusvirran käyttämiseksi.",
                 "not_sending_message": "Flarum ei tällä hetkellä lähetä sähköpostia. Tämä voi johtua valitusta ajurista tai virheistä sen määrityksessä.",
                 "send_test_mail_button": "Lähetä",
                 "send_test_mail_heading": "Lähetä testisähköposti",
                 "send_test_mail_success": "Testisähköposti lähetetty onnistuneesti!",
                 "send_test_mail_text": "Tämä lähettää sähköpostin käyttäen ylläolevia määreitä sähköpostiisi: {email}.",
                 "smtp_heading": "SMTP asetukset",
-                "smtp_description": "",
+                "smtp_description": "Määritä SMTP-yhteysasetukset. Yleisiä määrityksiä: portti 587 TLS:llä tai portti 465 SSL:llä.",
                 "title": "=> core.ref.email"
             },
             "extension": {
@@ -315,7 +315,7 @@
                 "abandoned_with_replacement": "Tämä laajennus on korvattu paketilla {replacement}. Harkitse siirtymistä korvaavaan pakettiin.",
                 "configure_scopes": "Määritä laajuudet (scopes)",
                 "confirm_purge": "Puhdistus poistaa kaikki tietokantamerkinnät ja liittyvät tiedostot tähän lisäosaan liittyen. Se ei poista lisäosan asennusta; se pitää tehdä Composerin kautta. Haluatko varmasti jatkaa?",
-                "database_driver_mismatch": "",
+                "database_driver_mismatch": "Tämä lisäosa ei tue määritettyä tietokanta-ajuriasi.",
                 "deprecated": "Käytöstä poistettu",
                 "disabled": "Poistettu käytöstä",
                 "enable_to_see": "Ota tämä lisäosa käyttää nähdäksesi ja muuttaaksesi asetuksia.",
@@ -340,45 +340,45 @@
                 },
                 "replaced": "Korvattu",
                 "reset_settings": {
-                    "button": "",
-                    "cancel_button": "",
-                    "confirm_button": "",
-                    "warning": "",
-                    "title": "",
-                    "title_extension": ""
+                    "button": "Nollaa asetukset",
+                    "cancel_button": "Peruuta",
+                    "confirm_button": "Nollaa",
+                    "warning": "Tämä toiminto on peruuttamaton. Alla olevat asetukset poistetaan pysyvästi tietokannasta ja palautetaan oletusarvoihinsa. Tämän lisäosan tietoja ei poisteta.",
+                    "title": "Nollaa asetukset",
+                    "title_extension": "Nollaa {extensionTitle} asetukset"
                 },
-                "safe_mode_warning": ""
+                "safe_mode_warning": "Vikasietotila on tällä hetkellä käytössä. Lisäosia ei ladata, joten niiden asetukset eivät ole käytettävissä."
             },
             "header": {
                 "get_help": "Apua",
                 "log_out_button": "=> core.ref.log_out",
-                "search_placeholder": "",
-                "search_role_label": ""
+                "search_placeholder": "Etsi...",
+                "search_role_label": "Etsi"
             },
             "loading": {
                 "title": "Odota hetki..."
             },
             "models": {
-                "discussions": "",
-                "posts": "",
-                "users": ""
+                "discussions": "=> core.ref.discussions",
+                "posts": "=> core.ref.posts",
+                "users": "=> core.ref.users"
             },
             "nav": {
-                "advanced_button": "",
-                "advanced_title": "",
+                "advanced_button": "=> core.admin.advanced.title",
+                "advanced_title": "=> core.admin.advanced.description",
                 "appearance_button": "=> core.admin.appearance.title",
                 "appearance_title": "=> core.admin.appearance.description",
                 "basics_button": "=> core.admin.basics.title",
                 "basics_title": "=> core.admin.basics.description",
                 "categories": {
-                    "analytics": "",
+                    "analytics": "Tilastot",
                     "authentication": "Autentikointi",
                     "core": "Foorumin asetukset",
                     "discussion": "Keskustelu",
                     "feature": "Ominaisuudet",
                     "formatting": "Muotoilu",
-                    "forum-widget": "",
-                    "infrastructure": "",
+                    "forum-widget": "Foorumin vimpaimet",
+                    "infrastructure": "Infrastruktuuri",
                     "language": "Kielet",
                     "moderation": "Moderointi",
                     "other": "Muut lisäosat",
@@ -417,7 +417,7 @@
                 "post_without_throttle_label": "Vastata useasti ilman odottamista",
                 "read_heading": "Lukea",
                 "remove_scope_label": "Poista {scope} laajuus",
-                "remove_scope_confirmation": "",
+                "remove_scope_confirmation": "Haluatko varmasti poistaa laajuuden {scope}?",
                 "rename_discussions_label": "Uudelleennimetä keskusteluita",
                 "reply_to_discussions_label": "Vastata keskusteluihin",
                 "search_users_label": "=> core.ref.search_users",
@@ -442,12 +442,12 @@
             },
             "search_source": {
                 "general": {
-                    "heading": ""
+                    "heading": "Yleinen"
                 }
             },
             "settings": {
                 "saved_message": "Muutokset tallennettu.",
-                "select_dropdown_custom_label": "",
+                "select_dropdown_custom_label": "Mukautettu",
                 "submit_button": "=> core.ref.save_changes"
             },
             "upload_image": {
@@ -477,8 +477,8 @@
                         "user_actions": {
                             "title": "Toiminnot",
                             "edit_user": {
-                                "button": "",
-                                "tooltip": ""
+                                "button": "=> core.ref.edit",
+                                "tooltip": "Muokkaa {username}"
                             }
                         },
                         "user_id": {
@@ -554,7 +554,7 @@
                 "empty_text": "Näyttää siltä, että täällä ei ole keskustelua.",
                 "load_more_button": "=> core.ref.load_more",
                 "replied_text": "{username} vastasi {ago}",
-                "skip_discussion_list_pane": "",
+                "skip_discussion_list_pane": "Ohita keskustelulistaruutu",
                 "started_text": "{username} aloitti {ago}",
                 "total_replies_a11y_label": "{count, plural, one {# vastaus} other {# vastausta}}",
                 "unread_replies_a11y_label": "{count, plural, one {# lukematon vastaus} other {# Lukematonta vastausta}}. Merkitse {count, plural, one {lukematon vastaus} other {lukemattomat vastaukset}} luetuksi."
@@ -587,31 +587,31 @@
                 "mark_all_as_read_confirmation": "Oletko varma, että haluat merkitä kaikki keskustelut luetuksi?",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "meta_title_text": "=> core.ref.all_discussions",
-                "refresh_tooltip": "",
+                "refresh_tooltip": "=> core.ref.refresh",
                 "start_discussion_button": "=> core.ref.start_a_discussion",
-                "skip_to_main_content": "",
+                "skip_to_main_content": "Siirry sisältöön",
                 "toggle_sidenav_dropdown_accessible_label": "Vaihda valikon alasvetovalikkoa"
             },
             "index_sort": {
                 "latest_button": "Viimeisin",
-                "newest_button": "",
-                "oldest_button": "",
-                "relevance_button": "",
+                "newest_button": "=> core.ref.newest",
+                "oldest_button": "=> core.ref.oldest",
+                "relevance_button": "=> core.ref.relevance",
                 "toggle_dropdown_accessible_label": "Vaihda keskustelulistan järjestystä",
                 "top_button": "Parhaat"
             },
             "log_in": {
                 "forgot_password_link": "Unohtuiko salasana?",
-                "invalid_login_message": "",
+                "invalid_login_message": "=> core.ref.invalid_login_message",
                 "password_placeholder": "=> core.ref.password",
-                "remember_me_label": "",
+                "remember_me_label": "=> core.ref.remember_me_label",
                 "sign_up_text": "Etkö ole vielä rekisteröitynyt? <a>Rekisteröidy</a>",
                 "submit_button": "=> core.ref.log_in",
                 "title": "=> core.ref.log_in",
-                "username_or_email_placeholder": ""
+                "username_or_email_placeholder": "=> core.ref.username_or_email_placeholder"
             },
             "notifications": {
-                "delete_all_confirm": "",
+                "delete_all_confirm": "Haluatko varmasti poistaa kaikki ilmoitukset? Tätä toimintoa ei voi peruuttaa",
                 "delete_all_tooltip": "Poista kaikki ilmoitukset",
                 "discussion_renamed_text": "{username} vaihtoi otsikon",
                 "empty_text": "Ei ilmoituksia",
@@ -636,9 +636,9 @@
                 "toggle_dropdown_accessible_label": "Vaihda viestin toimien valikkoa"
             },
             "post_list": {
-                "empty_text": "",
-                "in_discussion_text": "",
-                "load_more_button": ""
+                "empty_text": "Näyttää siltä, että täällä ei ole viestejä.",
+                "in_discussion_text": "Keskustelussa {discussion}",
+                "load_more_button": "=> core.ref.load_more"
             },
             "post_scrubber": {
                 "now_link": "Nyt",
@@ -654,13 +654,13 @@
                 "time_lapsed_text": "{period} myöhemmin"
             },
             "posts_sort": {
-                "newest_button": "",
-                "oldest_button": "",
-                "relevance_button": ""
+                "newest_button": "=> core.ref.newest",
+                "oldest_button": "=> core.ref.oldest",
+                "relevance_button": "=> core.ref.relevance"
             },
             "posts": {
-                "meta_title_text": "",
-                "refresh_tooltip": ""
+                "meta_title_text": "Viestihaun tulokset",
+                "refresh_tooltip": "=> core.ref.refresh"
             },
             "rename_discussion": {
                 "submit_button": "=> core.ref.rename",
@@ -705,22 +705,22 @@
                 "account_heading": "Tili",
                 "change_email_button": "=> core.ref.change_email",
                 "change_password_button": "=> core.ref.change_password",
-                "color_scheme_heading": "",
+                "color_scheme_heading": "Väriteema",
                 "color_schemes": {
-                    "auto_mode_label": "",
-                    "dark_hc_mode_label": "",
-                    "dark_mode_label": "",
-                    "light_hc_mode_label": "",
-                    "light_mode_label": ""
+                    "auto_mode_label": "Järjestelmän oletus",
+                    "dark_hc_mode_label": "=> core.ref.dark_hc_mode_label",
+                    "dark_mode_label": "=> core.ref.dark_mode_label",
+                    "light_hc_mode_label": "=> core.ref.light_hc_mode_label",
+                    "light_mode_label": "=> core.ref.light_mode_label"
                 },
                 "notification_checkbox_a11y_label_template": "Vastaanota \"{description}\" ilmoituksia {method} kautta",
                 "notifications_heading": "=> core.ref.notifications",
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "Web",
                 "notify_discussion_renamed_label": "Joku nimeää uudelleen keskustelun jonka aloitin",
-                "device_heading": "",
-                "haptic_feedback_help": "",
-                "haptic_feedback_label": "",
+                "device_heading": "Laite",
+                "haptic_feedback_help": "Saatavilla vain tuetuissa mobiililaitteissa",
+                "haptic_feedback_label": "Ota haptinen palaute käyttöön",
                 "privacy_disclose_online_label": "Näytä muille, että olen paikalla",
                 "privacy_heading": "Yksityisyys",
                 "title": "=> core.ref.settings"
@@ -797,10 +797,10 @@
             },
             "error": {
                 "circular_dependencies_message": "Poikkeavia vaatimuksia havaittu: {extensions}. Peruutetaan. Ole hyvä ja ota jokin lisäosista pois käytöstä ja yritä uudelleen.",
-                "db_error_message": "",
+                "db_error_message": "Tietokantakysely epäonnistui. Tämä voi johtua lisäosan ja tietokanta-ajurin yhteensopimattomuudesta.",
                 "dependent_extensions_message": "{extension} lisäosaa ei voida ottaa pois käytöstä ennen kuin seuraavat lisäosat on poistettu käytöstä: {extensions}",
                 "extension_initialiation_failed_message": "{extension} alustus epäonnistui. Tarkista selaimen konsolista lisätietoja.",
-                "extension_runtime_failed_message": "",
+                "extension_runtime_failed_message": "{extension} kohtasi virheen suorituksen aikana. Tarkista lisätiedot selaimen konsolista.",
                 "generic_message": "Hups! Jotain meni pieleen. Päivitä sivu ja yritä uudelleen.",
                 "generic_cross_origin_message": "Hups! Jotain meni pieleen cross-origin pyynnössä. Päivitä sivu ja yritä uudelleen.",
                 "missing_dependencies_message": "Lisäosaa {extension} ei voida ottaa käyttöön ennen kuin seuraavat lisäosat on otettu käyttöön: {extensions}",
@@ -812,45 +812,45 @@
             },
             "gambits": {
                 "group_keys": {
-                    "allows": "",
-                    "has": "",
-                    "is": ""
+                    "allows": "sallii",
+                    "has": "on",
+                    "is": "on"
                 },
                 "discussions": {
                     "author": {
-                        "key": "",
-                        "hint": ""
+                        "key": "kirjoittaja",
+                        "hint": "käyttäjätunnus tai pilkulla eroteltu lista käyttäjätunnuksista"
                     },
                     "created": {
-                        "key": "",
-                        "hint": ""
+                        "key": "luotu",
+                        "hint": "2020-12-31 tai 2020-12-31..2021-09-30"
                     },
                     "hidden": {
-                        "key": ""
+                        "key": "piilotettu"
                     },
                     "unread": {
-                        "key": ""
+                        "key": "lukematon"
                     }
                 },
                 "posts": {
                     "discussion": {
-                        "key": "",
-                        "hint": ""
+                        "key": "keskustelu",
+                        "hint": "keskustelun ID"
                     }
                 },
                 "users": {
                     "email": {
-                        "key": "",
-                        "hint": ""
+                        "key": "sähköposti",
+                        "hint": "esimerkki@kone.local"
                     },
                     "group": {
-                        "key": "",
-                        "hint": ""
+                        "key": "ryhmä",
+                        "hint": "yksikön tai monikon ryhmänimi"
                     }
                 }
             },
             "input": {
-                "clear_button": ""
+                "clear_button": "Tyhjennä"
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
@@ -863,51 +863,51 @@
                 "close": "Sulje"
             },
             "multi_select": {
-                "placeholder": ""
+                "placeholder": "Valitse useita vaihtoehtoja"
             },
             "nav": {
                 "drawer_button": "Avaa navigointi lokero"
             },
             "notices": {
-                "bisecting": "",
-                "bisecting_continue": "",
-                "maintenance_mode_low": "",
-                "maintenance_mode_safe": ""
+                "bisecting": "Suoritetaan lisäosan vianhakuprosessia ongelman aiheuttavan lisäosan selvittämiseksi.",
+                "bisecting_continue": "Jatka vianhakua",
+                "maintenance_mode_low": "Huoltokatkos. Vain ylläpitäjät voivat käyttää foorumia.",
+                "maintenance_mode_safe": "Huoltokatkos vikasietotilassa. Vain ylläpitäjät voivat käyttää foorumia eikä lisäosia ladata."
             },
             "number_suffix": {
                 "kilo_text": "K",
                 "mega_text": "M"
             },
             "pagination": {
-                "back_button": "",
-                "first_button": "",
-                "go_to_page_textbox_a11y_label": "",
-                "last_button": "",
-                "next_button": "",
-                "page_counter": ""
+                "back_button": "Edellinen sivu",
+                "first_button": "Mene ensimmäiselle sivulle",
+                "go_to_page_textbox_a11y_label": "Mene suoraan sivulle numero",
+                "last_button": "Mene viimeiselle sivulle",
+                "next_button": "Seuraava sivu",
+                "page_counter": "Sivu {current} / {total}"
             },
             "search": {
-                "gambit_plus_button_a11y_label": "",
-                "gambit_minus_button_a11y_label": "",
-                "title": "",
-                "no_results_text": "",
-                "no_search_text": "",
-                "options_heading": "",
-                "placeholder": "",
-                "preview_heading": "",
-                "search_clear_button_accessible_label": ""
+                "gambit_plus_button_a11y_label": "Lisää positiivinen suodatin",
+                "gambit_minus_button_a11y_label": "Lisää negatiivinen suodatin",
+                "title": "Etsi",
+                "no_results_text": "Näyttää siltä, että täällä ei ole hakutuloksia.",
+                "no_search_text": "Et ole etsinyt vielä mitään.",
+                "options_heading": "Hakuasetukset",
+                "placeholder": "Etsi...",
+                "preview_heading": "Haun esikatselu",
+                "search_clear_button_accessible_label": "Nollaa hakukysely"
             },
             "search_source": {
                 "discussions": {
-                    "all_button": "",
-                    "heading": ""
+                    "all_button": "Hae kaikista keskusteluista: \"{query}\"",
+                    "heading": "=> core.ref.discussions"
                 },
                 "posts": {
-                    "all_button": "",
-                    "heading": ""
+                    "all_button": "Hae kaikista viesteistä: \"{query}\"",
+                    "heading": "=> core.ref.posts"
                 },
                 "users": {
-                    "heading": ""
+                    "heading": "=> core.ref.users"
                 }
             },
             "series": {
@@ -916,21 +916,21 @@
                 "two_text": "{first} ja {second}"
             },
             "user_selection_modal": {
-                "empty_results": "",
-                "max_items_to_select": "",
-                "search_placeholder": "",
-                "submit_button": "",
-                "title": ""
+                "empty_results": "Hakuasi vastaavia käyttäjiä ei löydy.",
+                "max_items_to_select": "{count, plural, one {Valitse # käyttäjä} other {Valitse # käyttäjää}}",
+                "search_placeholder": "=> core.ref.search_users",
+                "submit_button": "=> core.ref.okay",
+                "title": "Valitse asiaankuuluvat käyttäjät"
             },
             "username": {
                 "deleted_text": "[poistettu]"
             },
             "datetime_formats": {
-                "fullTime": "",
+                "fullTime": "LLLL",
                 "humanTimeShort": "D MMM",
                 "humanTimeLong": "ll",
                 "scrubber": "MMMM YYYY",
-                "userListJoinDate": ""
+                "userListJoinDate": "LLL"
             }
         },
         "views": {
@@ -967,10 +967,10 @@
                 "csrf_token_mismatch": "Olet ollat inaktiivinen liian pitkään.",
                 "csrf_token_mismatch_return_link": "Mene takaisin yrittääksesi uudelleen",
                 "invalid_confirmation_token": "Vahvistuslinkki on jo käytetty tai on virheellinen.",
-                "maintenance_mode_link": "",
-                "maintenance_mode_message": "",
-                "maintenance_mode_title": "",
-                "method_not_allowed": "",
+                "maintenance_mode_link": "Ylläpitäjän kirjautuminen",
+                "maintenance_mode_message": "Foorumia huolletaan parhaillaan. Yritä myöhemmin uudelleen.",
+                "maintenance_mode_title": "Huolto",
+                "method_not_allowed": "Tämä sivu ei tue pyydettyä metodia.",
                 "not_authenticated": "Sinulla ei ole oikeuksia tälle sivulle. Yritä uudelleen, kun olet kirjautunut sisään.",
                 "not_found": "Pyydettyä sivua ei löydy.",
                 "not_found_return_link": "Palaa takaisin {forum}",
@@ -983,7 +983,7 @@
                 "previous_page_button": "=> core.ref.previous_page"
             },
             "layout": {
-                "skip_to_content": ""
+                "skip_to_content": "Siirry sisältöön"
             },
             "log_out": {
                 "log_out_button": "=> core.ref.log_out",
@@ -991,12 +991,12 @@
                 "title": "=> core.ref.log_out"
             },
             "log_in": {
-                "invalid_login_message": "",
-                "username_or_email_placeholder": "",
-                "password_placeholder": "",
-                "remember_me_label": "",
-                "submit_button": "",
-                "title": ""
+                "invalid_login_message": "=> core.ref.invalid_login_message",
+                "username_or_email_placeholder": "=> core.ref.username_or_email_placeholder",
+                "password_placeholder": "=> core.ref.password",
+                "remember_me_label": "=> core.ref.remember_me_label",
+                "submit_button": "=> core.ref.log_in",
+                "title": "=> core.ref.log_in"
             },
             "reset_password": {
                 "confirm_password_label": "Vahvista uusi salasana",
@@ -1005,17 +1005,17 @@
                 "title": "=> core.ref.reset_your_password"
             },
             "unsubscribe_email": {
-                "title": "",
-                "return_to_forum": "",
-                "confirm_button": "",
-                "immediate_helptext": "",
-                "confirm_message": "",
-                "success_message": "",
-                "invalid_message": ""
+                "title": "Tilauksen peruutuksen vahvistus",
+                "return_to_forum": "Takaisin {forumTitle}",
+                "confirm_button": "Vahvista",
+                "immediate_helptext": "Tilauksen peruutus tapahtuu heti, kun vahvistat.",
+                "confirm_message": "Olet pyytänyt peruuttaa \"{type}\"-sähköposti-ilmoitusten tilauksen foorumilta {forumTitle}.",
+                "success_message": "Olet onnistuneesti peruuttanut \"{type}\"-ilmoitusten tilauksen foorumilta {forumTitle}. Jos haluat vastaanottaa niitä uudelleen, [päivitä asetuksesi]({settingsLink}).",
+                "invalid_message": "Tämä peruutuslinkki on virheellinen tai se on jo käytetty. Jos haluat muuttaa sähköposti-ilmoitusasetuksiasi foorumilla {forumTitle}, [tarkista asetuksesi]({settingsLink})."
             }
         },
         "api": {
-            "invalid_username_message": "",
+            "invalid_username_message": "Käyttäjätunnus saa sisältää vain kirjaimia, numeroita ja väliviivoja. Siinä on oltava vähintään yksi kirjain.",
             "invalid_filter_type": {
                 "must_be_numeric_message": "Suodatin {filter} pitää olla numeerinen.",
                 "must_not_be_array_message": "Suodatin {filter} ei saa olla taulukko.",
@@ -1023,46 +1023,46 @@
             }
         },
         "email": {
-            "greeting": "",
-            "signoff": "",
+            "greeting": "Hei {displayName},",
+            "signoff": "{forumTitle} tiimi",
             "informational": {
-                "default_title": "",
-                "footer": "",
-                "footer_plain": ""
+                "default_title": "Informaatio",
+                "footer": "Tämä sähköposti lähetettiin osoitteeseen {userEmail} tiliisi liittyvänä tiedotuspalveluna foorumilla [{forumTitle}]({forumUrl}).",
+                "footer_plain": "Tämä sähköposti lähetettiin osoitteeseen {userEmail} tiliisi liittyvänä tiedotuspalveluna foorumilla {forumTitle}."
             },
             "notification": {
-                "default_title": "",
+                "default_title": "Ilmoitus",
                 "footer": {
-                    "main_text": "",
-                    "main_text_plain": "",
-                    "unsubscribe_text": "",
-                    "unsubscribe_text_plain": "",
-                    "settings_text": "",
-                    "settings_text_plain": ""
+                    "main_text": "Tämä sähköposti lähetettiin osoitteeseen {email}, koska olet tilannut \"{type}\"-ilmoitukset foorumilla [{forumTitle}]({forumUrl}).",
+                    "main_text_plain": "Tämä sähköposti lähetettiin osoitteeseen {email}, koska olet tilannut \"{type}\"-ilmoitukset foorumilla {forumTitle}.",
+                    "unsubscribe_text": "Jos et halua enää vastaanottaa tämän tyyppisiä ilmoituksia, [peruuta tilaus tästä]({unsubscribeLink}).",
+                    "unsubscribe_text_plain": "Jos et halua enää vastaanottaa tämän tyyppisiä ilmoituksia, peruuta tilaus tästä: {unsubscribeLink}",
+                    "settings_text": "Hallitse ilmoitusasetuksiasi [täältä]({settingsLink}).",
+                    "settings_text_plain": "Hallitse ilmoitusasetuksiasi täältä: {settingsLink}"
                 }
             },
             "activate_account": {
                 "subject": "Aktivoi tilisi",
-                "body": ""
+                "body": "Joku (toivottavasti sinä!) on rekisteröitynyt foorumille {forum} tällä sähköpostiosoitteella.\n\nJos tämä olit sinä, napsauta seuraavaa linkkiä ja tilisi aktivoidaan:\n{url}\n\nJos et rekisteröitynyt, jätä tämä sähköposti huomiotta.\n"
             },
             "confirm_email": {
                 "subject": "Vahvista uusi sähköpostiosoitteesi",
-                "body": ""
+                "body": "Joku (toivottavasti sinä!) on vaihtanut sähköpostiosoitteensa foorumilla {forum} tähän osoitteeseen.\n\nJos tämä olit sinä, napsauta seuraavaa linkkiä ja sähköpostiosoitteesi vahvistetaan:\n{url}\n\nJos tämä et ollut sinä, jätä tämä sähköposti huomiotta.\n"
             },
             "reset_password": {
                 "subject": "=> core.ref.reset_your_password",
-                "body": ""
+                "body": "Joku (toivottavasti sinä!) on lähettänyt unohdetun salasanan palautuspyynnön tilillesi foorumilla {forum}.\n\nJos tämä olit sinä, napsauta seuraavaa linkkiä nollataksesi salasanasi:\n{url}\n\nJos et halua vaihtaa salasanaasi, jätä tämä sähköposti huomiotta eikä mitään tapahdu.\n"
             },
             "send_test": {
                 "subject": "Flarum foorumin sähköpostitesti",
-                "body": ""
+                "body": "Tämä on testisähköposti, jolla varmistetaan, että Flarumin sähköpostiasetuksesi toimivat oikein.\n\nJos tämä olit sinä, tämä sähköposti tarkoittaa, että asetuksesi toimivat!\n\nJos tämä et ollut sinä, jätä tämä sähköposti huomiotta.\n"
             },
             "abandoned_extensions": {
-                "subject": "",
-                "body_intro": "",
-                "body_outro": "",
-                "line_with_replacement": "",
-                "line_no_replacement": ""
+                "subject": "Toimintaa vaaditaan: hylättyjä lisäosia havaittu",
+                "body_intro": "Seuraavat asennetut lisäosat on merkitty hylätyiksi:",
+                "body_outro": "Tarkista nämä lisäosat ja harkitse siirtymistä vaihtoehtoisiin ratkaisuihin, jos sellaisia on saatavilla.",
+                "line_with_replacement": "{package} (ehdotettu korvaava lisäosa: {replacement})",
+                "line_no_replacement": "{package} (korvaavaa lisäosaa ei saatavilla)"
             }
         },
         "ref": {
@@ -1077,8 +1077,8 @@
             "custom_footer_title": "Muokkaa mukautettua alaosaa",
             "custom_header_text": "Lisää HTML koodia näytettäväksi sivun yläreunaan Flarumin oman yläosan yläpuolelle.",
             "custom_header_title": "Muokkaa mukautettua yläosaa",
-            "dark_hc_mode_label": "",
-            "dark_mode_label": "",
+            "dark_hc_mode_label": "Tumma korkean kontrastin tila",
+            "dark_mode_label": "Tumma tila",
             "delete": "Poista",
             "delete_forever": "Poista pysyvästi",
             "discussions": "Keskustelut",
@@ -1088,10 +1088,10 @@
             "extensions": "Lisäosat",
             "generic_confirmation_message": "Haluatko varmasti jatkaa? Tätä ei voi peruuttaa.",
             "icon": "Ikoni",
-            "icon_text": "Syötä minkä tahansa <a>FontAwesome</a> ikonin luokka (class), <em>sisällyttäen</em> <code>fas fa-</code> etuliitteen.",
-            "invalid_login_message": "",
-            "light_hc_mode_label": "",
-            "light_mode_label": "",
+            "icon_text": "Syötä minkä tahansa <a>FontAwesome</a>-kuvakkeluokan nimi <em>prefixeineen</em> (esim. <code>fas fa-flag</code> tai <code>fa-solid fa-flag</code>).",
+            "invalid_login_message": "Kirjautumistietosi olivat virheelliset.",
+            "light_hc_mode_label": "Vaalea korkean kontrastin tila",
+            "light_mode_label": "Vaalea tila",
             "load_more": "Lataa lisää",
             "loading": "Ladataan...",
             "log_in": "Kirjaudu sisään",
@@ -1099,20 +1099,20 @@
             "mark_all_as_read": "Merkitse kaikki luetuksi",
             "never": "Ei koskaan",
             "new_token": "Uusi tunniste",
-            "newest": "",
+            "newest": "Uusimmat",
             "next_page": "Seuraava sivu",
             "notifications": "Ilmoitukset",
             "okay": "OK",
-            "oldest": "",
+            "oldest": "Vanhemmat",
             "password": "Salasana",
             "posts": "Viestit",
             "previous_page": "Edellinen sivu",
-            "relevance": "",
-            "remember_me_label": "",
+            "relevance": "Osuvuus",
+            "remember_me_label": "Muista minut",
             "remove": "Poista",
             "rename": "Uudelleennimeä",
             "reply": "Vastaa",
-            "refresh": "",
+            "refresh": "Päivitä",
             "reset_your_password": "Nollaa salasanasi",
             "restore": "Palauta",
             "save_changes": "Tallenna muutokset",
@@ -1123,7 +1123,7 @@
             "some_others": "{count, plural, one {# muu} other {# muuta}}",
             "start_a_discussion": "Aloita keskustelu",
             "username": "Käyttäjätunnus",
-            "username_or_email_placeholder": "",
+            "username_or_email_placeholder": "Käyttäjätunnus tai sähköposti",
             "users": "Käyttäjät",
             "view": "Näytä",
             "write_a_reply": "Kirjoita vastaus...",

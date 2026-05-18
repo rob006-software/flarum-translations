@@ -2,9 +2,9 @@
     "flarum-sticky": {
         "admin": {
             "settings": {
-                "enable_display_excerpt": "",
-                "only_sticky_unread_discussions_label": "",
-                "only_sticky_unread_discussions_help": ""
+                "enable_display_excerpt": "Mostrar un extracto de la primera publicación cuando una discusión fijada no está leída",
+                "only_sticky_unread_discussions_label": "Solo discusiones fijadas sin leer",
+                "only_sticky_unread_discussions_help": "En la página \"Todas las discusiones\", las discusiones fijadas no leídas se mantienen en la parte superior, mientras que las discusiones fijadas leídas siguen el orden habitual."
             },
             "permissions": {
                 "sticky_discussions_label": "Poner la chincheta a discusiones"
@@ -27,7 +27,7 @@
             "gambits": {
                 "discussions": {
                     "sticky": {
-                        "key": ""
+                        "key": "fijada"
                     }
                 }
             }

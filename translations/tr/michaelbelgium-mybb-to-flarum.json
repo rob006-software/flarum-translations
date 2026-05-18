@@ -1,0 +1,39 @@
+{
+    "michaelbelgium-mybb-to-flarum": {
+        "admin": {
+            "content": {
+                "description_text": "Bir MyBB forumunu bu Flarum örneğine taşıyın. Gerekli verileri doldurun, ardından \"taşı\" düğmesine tıklayın.",
+                "convert_button": "İçe Aktar",
+                "form": {
+                    "options": {
+                        "title": "Diğer seçenekler",
+                        "migrate_avatars_label": "Avatarları taşı",
+                        "migrate_soft_threads_label": "Geçici olarak silinen konuları taşıyın",
+                        "migrate_soft_posts_label": "Geçici olarak silinen gönderileri taşıyın",
+                        "migrate_attachments_label": "Ekleri taşı",
+                        "debug_mode_label": ""
+                    },
+                    "mybb": {
+                        "title": "MyBB ayarları",
+                        "host_label": "Veritabanı barındırıcısı",
+                        "user_label": "Veritabanı kullanıcısı",
+                        "password_label": "Veritabanı kullanıcısı",
+                        "db_label": "Veri tabanı ismi",
+                        "prefix_label": "Tablo öneki",
+                        "path": {
+                            "label": "",
+                            "help_text": ""
+                        }
+                    },
+                    "general": {
+                        "title": "Genel seçenekler",
+                        "migrate_users_label": "Kullanıcıları taşı",
+                        "migrate_threadsPosts_label": "İleti dizilerini ve gönderileri taşıyın",
+                        "migrate_userGroups_label": "Kullanıcı gruplarını taşı",
+                        "migrate_categories_label": "Kategorileri taşı"
+                    }
+                }
+            }
+        }
+    }
+}

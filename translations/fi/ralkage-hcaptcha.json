@@ -6,17 +6,17 @@
                 "secret_key_label": "Salainen avain",
                 "site_key_label": "Sivun avain",
                 "type_label": "hCaptcha tyyppi",
-                "dark_mode_label": "",
-                "dark_mode_help": "",
-                "enable_login_label": "",
-                "enable_login_help": ""
+                "dark_mode_label": "Tumma tila",
+                "dark_mode_help": "Käytä tummaa tilaa hCaptcha vimpaimessa. Ota tämä käyttöön, jos foorumisi käyttää tummaa teemaa.",
+                "enable_login_label": "Vaadi kirjautumisessa",
+                "enable_login_help": "Vaadi hCaptcha, kun käyttäjä kirjautuu. Auttaa suojelemaan ns. brute-force hyökkäyksessä."
             },
             "permissions": {
                 "post_without_hcaptcha": "Luo viestejä ja keskusteluita ilman hCaptchaa"
             }
         },
         "forum": {
-            "error": "Virhe hCaptcha lähetyksessä. Yritä uudelleen."
+            "error": "Virhe hCaptchan lähetyksessä. Yritä uudelleen."
         }
     },
     "validation": {

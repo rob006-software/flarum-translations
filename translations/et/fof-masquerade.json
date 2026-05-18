@@ -22,7 +22,6 @@
             }
         },
         "admin": {
-            "general-options": "Üldised valikud",
             "buttons": {
                 "add-field": "Loo väli",
                 "edit-field": "Salvesta muudatused",
@@ -50,6 +49,7 @@
                 "icon": "Ikoon",
                 "icon-help": "Näita ikoonina kasutaja sisestatud väärtuse ees. Ikoone näed <a>FontAwesome veebisaidilt</a>. Kasuta ikooninimesid eesliitega \"fa-\" näiteks nii \"fas fa-info\".\n",
                 "force-user-to-completion": "Sunni kasutaja profiil täitma",
+                "hide-empty-fields": "",
                 "options": "Valikud",
                 "option-new": "Uus valik",
                 "option-comma-warning": "Valiku sildis ei tohi olla koma (\",\").",
@@ -61,7 +61,8 @@
                 "email": "E-post",
                 "select": "Rippmenüü",
                 "url": "URL"
-            }
+            },
+            "general-options": "Üldised valikud"
         },
         "lib": {
             "gambits": {

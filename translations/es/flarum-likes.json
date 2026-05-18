@@ -16,7 +16,7 @@
             },
             "post": {
                 "like_link": "Me gusta",
-                "liked_by_self_text": "{count, plural, one {A ti te gusta esto} other {A {users} os gusta esto}}",
+                "liked_by_self_text": "{users} les gusta esto.",
                 "liked_by_text": "{count, plural, one {A {users} le gusta esto} other {A {users} les gusta esto}}.",
                 "others_link": "=> core.ref.some_others",
                 "unlike_link": "Ya no me gusta",
@@ -37,8 +37,8 @@
             "gambits": {
                 "posts": {
                     "likedBy": {
-                        "key": "",
-                        "hint": ""
+                        "key": "le gusta a",
+                        "hint": "ID o nombre de usuario del usuario"
                     }
                 }
             }

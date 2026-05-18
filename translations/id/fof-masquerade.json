@@ -22,7 +22,6 @@
             }
         },
         "admin": {
-            "general-options": "Pilihan umum",
             "buttons": {
                 "add-field": "Buat kolom",
                 "edit-field": "Simpan perubahan",
@@ -37,7 +36,7 @@
                 "title": "Kolom",
                 "create": "",
                 "edit": "Edit kolom {field}",
-                "delete-confirmation": "",
+                "delete-confirmation": "Apakah Anda yakin ingin menghapus kolom {field}? Tindakan ini tidak dapat dibatalkan.",
                 "name": "Nama kolom",
                 "name-help": "Label kolom yang dapat dilihat oleh publik (tidak dapat diterjemahkan).\n",
                 "description": "Deskripsi kolom",
@@ -50,6 +49,7 @@
                 "icon": "Ikon",
                 "icon-help": "Menampilkan ikon di depan nilai yang dimasukkan oleh pengguna. Untuk referensi ikon yang tersedia, kunjungi situs web <a>FontAwesome</a>. Gunakan nama ikon dengan awalan \"fa-\", seperti \"fas fa-info\".\n",
                 "force-user-to-completion": "Paksa pengguna untuk melengkapi profil",
+                "hide-empty-fields": "",
                 "options": "Pilihan",
                 "option-new": "Pilihan baru",
                 "option-comma-warning": "Label opsi tidak boleh mengandung koma (\",\").",
@@ -61,7 +61,8 @@
                 "email": "Email",
                 "select": "Dropdown",
                 "url": "URL"
-            }
+            },
+            "general-options": "Pilihan umum"
         },
         "lib": {
             "gambits": {

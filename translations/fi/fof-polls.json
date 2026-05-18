@@ -7,18 +7,18 @@
                     "help": "Nämä asetukset hallitsee Kyselyt lisäosan yleisiä ominaisuuksia."
                 },
                 "discussion_polls": {
-                    "heading": "",
-                    "help": ""
+                    "heading": "Keskustelun kyselyt",
+                    "help": "Nämä asetukset määrittää kyseslyt, jotka on liitetty keskustelun viestiin."
                 },
-                "enable_discussion_polls": "",
-                "enable_discussion_polls_help": "",
+                "enable_discussion_polls": "Ota käyttöön keskustelun kyseslyt",
+                "enable_discussion_polls_help": "Kun käytössä, käyttäjät voivat luoda kyselyitä keskusteluviesteissä. Poista käytöstä, jos haluat käyttää vain globaaleja kyselyitä.",
                 "global_polls": {
                     "heading": "Yleiset kyselyt",
                     "help": "Nämä asetukset määrittää yleiset kyselyt ominaisuuden."
                 },
                 "image": {
                     "heading": "Kuva-asetukset",
-                    "help": ""
+                    "help": "Määritä kuvan latausrajoitukset ja mitat. Kuvat muunnetaan automaattisesti WebP-muotoon ja niistä luodaan responsiiviset variantit."
                 },
                 "enable_global_polls": "Ota käyttöön yleiset kyselyt",
                 "enable_global_polls_help": "Yleiset kyselyt eivät ole kiinnitettyjä johonkin tiettyyn viestiin ja ne näkyy määritetyllä kyselyt sivulla.",
@@ -27,11 +27,11 @@
                 "max_options": "Maksimi määrä vaihtoehtoja per kysely",
                 "options_color_blend": "Värimuunnos teksti viestin vaihtoehdoista",
                 "options_color_blend_help": "Käytä tätä tehdäksesi kyselyn vaihtoehdoista luettavampia. Ota pois käytöstä jos tämä tuottaa ongelmia foorumin ulkoasun kanssa.",
-                "max_image_upload_size": "",
-                "max_image_upload_size_help": "",
-                "image_height": "",
-                "image_width": "",
-                "image_dimensions_help": ""
+                "max_image_upload_size": "Kuvan enimmäislatauskoko (kt)",
+                "max_image_upload_size_help": "Kuvien enimmäistiedostokoko kilotavuina. Kuvat muunnetaan automaattisesti WebP-muotoon ja niiden kokoa pienennetään latauksen jälkeen, joten lopullinen tallennettu koko on yleensä paljon pienempi. Oletus on 10240 kt (10 Mt).",
+                "image_height": "Muuta kuvan korkeutta (px)",
+                "image_width": "Muuta kuvan leveyttä (px)",
+                "image_dimensions_help": "Tallennettujen kuvien perusmitat. HiDPI-variantit (@2x, @3x) luodaan automaattisesti, kun lähdekuva on riittävän suuri."
             },
             "permissions": {
                 "view_results_without_voting": "Näytä tulokset ilman vastaamista",
@@ -65,7 +65,7 @@
                 "total_votes": "{count, plural, one {# ääni annettu} other {# ääntä annettu}}"
             },
             "poll_controls": {
-                "toggle_dropdown_accessible_label": "",
+                "toggle_dropdown_accessible_label": "Näytä/piilota kyselyn hallinta valikko",
                 "edit_label": "=> core.ref.edit",
                 "delete_label": "=> core.ref.delete",
                 "view_label": "=> core.ref.view",
@@ -164,17 +164,17 @@
                     "help": "Siirrä kuva, joka näytetään kyselyn rinnalla (valinnainen).",
                     "alt_label": "Kuvan Alt teksti",
                     "alt_help_text": "Tämä teksti vaaditaan, kun kuva on asetettu. Se näytetään, jos kuvan lataaminen epäonnistuu.",
-                    "url_deprecated": ""
+                    "url_deprecated": "Tämä kysely käyttää ulkoista kuva-URL-osoitetta. Ulkoiset URL-osoitteet ovat vanhentuneita ja ne poistetaan tulevassa versiossa. Lataa kuva uudelleen käyttämällä latauspainiketta."
                 },
                 "poll_option_image": {
                     "label": "Kyselyn vastauksen kuva",
                     "help": "Siirrä kuva, joka näytetään vastauksen rinnalla (valinnainen)."
                 },
-                "date_clear": "",
+                "date_clear": "Nollaa päättymispäivä",
                 "tooltip": {
                     "options": {
                         "add-button": "Lisää vastaus",
-                        "remove-button": ""
+                        "remove-button": "Poista vastaus"
                     }
                 }
             },

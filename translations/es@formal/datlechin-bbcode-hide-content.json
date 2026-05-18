@@ -2,18 +2,18 @@
     "datlechin-bbcode-hide-content": {
         "admin": {
             "permissions": {
-                "bypass_like_label": "",
-                "bypass_reply_label": ""
+                "bypass_like_label": "Saltear etiqueta Me Gusta",
+                "bypass_reply_label": "Saltear requerimiento respuesta"
             }
         },
         "forum": {
-            "must_be_logged_in": "",
-            "must_liked": "",
-            "must_replied": "",
+            "must_be_logged_in": "Debes iniciar sesión para ver este contenido",
+            "must_liked": "Debes dar \"Me gusta\" a este contenido para poder verlo",
+            "must_replied": "Debes responder a este contenido para verlo",
             "composer": {
-                "hide_login_tooltip": "",
-                "hide_like_tooltip": "",
-                "hide_reply_tooltip": ""
+                "hide_login_tooltip": "Esconder de los invitados",
+                "hide_like_tooltip": "Esconder hasta que le den \"Me Gusta\"",
+                "hide_reply_tooltip": "Esconder hasta que sea respondido"
             }
         }
     }

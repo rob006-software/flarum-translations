@@ -13,6 +13,12 @@
                 "bb_image_help": "Adds a new button to the composer for image alignment. Large centered images are automatically resized to 60% of the post width, and side-aligned ones — up to 40%",
                 "bb_iframe": "iframe",
                 "bb_iframe_help": "Allows embedding iframes from any source. Use with caution — embedded content may include external scripts. 🧹 After changing this setting, please clear the Flarum cache",
+                "bb_hide_login": "Login",
+                "bb_hide_login_help": "Content is hidden from guests and visible to all logged-in users",
+                "bb_hide_reply": "Reply",
+                "bb_hide_reply_help": "Content is hidden until the user replies in the discussion",
+                "bb_hide_like": "Like",
+                "bb_hide_like_help": "Content is hidden until the user likes the post",
                 "toolbar_group": "Group MagicBB buttons",
                 "toolbar_group_help": "If enabled, all MagicBB buttons will be grouped into a single one in the composer"
             },
@@ -20,10 +26,13 @@
                 "text": "Text buttons",
                 "content": "Content buttons",
                 "images": "Image buttons",
-                "features": "Features"
+                "features": "Features",
+                "hide": "Hide buttons"
             },
             "permissions": {
-                "use_iframe": "Allow iframe"
+                "use_iframe": "Allow iframe",
+                "bypass_like": "Bypass like requirement",
+                "bypass_reply": "Bypass reply requirement"
             }
         },
         "forum": {
@@ -36,7 +45,19 @@
                 "info_button": "Add alert",
                 "audio_button": "Add audio",
                 "image_button": "Add smart-image",
-                "more_button": "More"
+                "more_button": "More",
+                "hide_login_button": "Hidden - login required",
+                "hide_reply_button": "Hidden - reply required",
+                "hide_like_button": "Hidden - like required"
+            },
+            "hide": {
+                "login_to_see": "This content is visible after {login}",
+                "like_to_see": "This content is visible after {like} the post",
+                "reply_to_see": "This content is visible after {reply} in the discussion",
+                "like_link_fallback": "Like",
+                "login_to_see_simple": "Log in to see this content",
+                "like_to_see_simple": "Like this post to see this content",
+                "reply_to_see_simple": "Reply in this discussion to see this content"
             }
         }
     }

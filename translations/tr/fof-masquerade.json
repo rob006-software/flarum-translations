@@ -22,7 +22,6 @@
             }
         },
         "admin": {
-            "general-options": "Genel ayarlar",
             "buttons": {
                 "add-field": "Alan oluştur",
                 "edit-field": "Değişiklikleri kaydet",
@@ -50,6 +49,7 @@
                 "icon": "Simge",
                 "icon-help": "Kullanıcının girdiği değerlerin önünde simge gösterir. Mevcut simgeler için <a>FontAwesome</a> websitesini ziyaret edin. Simgeleri \"fa-\" ön eki ile kullanın Örn: \"fas fa-info\".\n",
                 "force-user-to-completion": "Kullanıcıyı profilini tamamlamaya zorla",
+                "hide-empty-fields": "",
                 "options": "Seçenekler",
                 "option-new": "Yeni seçenek",
                 "option-comma-warning": "Bir seçeneğin etiketi herhangi bir virgül (\",\") içeremez.",
@@ -61,7 +61,8 @@
                 "email": "E-posta",
                 "select": "Açılır menü",
                 "url": "Bağlantı"
-            }
+            },
+            "general-options": "Genel ayarlar"
         },
         "lib": {
             "gambits": {

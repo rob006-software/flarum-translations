@@ -1,0 +1,28 @@
+{
+    "ramon-guest-cta": {
+        "admin": {
+            "settings": {
+                "hide_links_label": "Masquer les liens pour les invités",
+                "hide_links_help": "Empêcher les invités de cliquer sur les liens dans les messages. Lorsqu'ils cliquent sur un lien, une fenêtre de connexion ou d'inscription s'affiche à la place.",
+                "show_post_cta_label": "Afficher une invitation à s'inscrire après un certain nombre de messages pour les invités",
+                "show_post_cta_help": "Afficher une carte « Se connecter » / « S'inscrire » entre les messages d'une discussion, visible uniquement par les invités. Utiliser le paramètre de position pour choisir après combien de messages elle doit apparaitre.",
+                "position_label": "Position de l'invitation (après quel numéro de message)",
+                "position_help": "Insérer la bannière d'invitation entre ce numéro de message et le suivant.",
+                "position_1": "Après le message #1",
+                "position_2": "Après le message #2",
+                "position_3": "Après le message #3",
+                "position_4": "Après le message #4",
+                "position_5": "Après le message #5"
+            }
+        },
+        "forum": {
+            "post_cta": {
+                "text": "Cela vous plait ? Rejoignez la discussion !",
+                "or": "ou"
+            },
+            "link_cta": {
+                "placeholder": "Se connecter pour voir le lien"
+            }
+        }
+    }
+}

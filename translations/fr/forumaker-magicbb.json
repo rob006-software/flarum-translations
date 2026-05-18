@@ -2,41 +2,62 @@
     "forumaker-magicbb": {
         "admin": {
             "settings": {
-                "bb_center": "",
-                "bb_justify": "",
-                "bb_color": "",
-                "bb_spoiler": "",
-                "bb_table": "",
-                "bb_info": "",
-                "bb_audio": "",
-                "bb_image": "",
-                "bb_image_help": "",
-                "bb_iframe": "",
-                "bb_iframe_help": "",
-                "toolbar_group": "",
-                "toolbar_group_help": ""
+                "bb_center": "Centrer",
+                "bb_justify": "Justifier",
+                "bb_color": "Couleur",
+                "bb_spoiler": "Spoiler",
+                "bb_table": "Tableau",
+                "bb_info": "Alertes",
+                "bb_audio": "Audio",
+                "bb_image": "FoF Upload",
+                "bb_image_help": "Ajoute un nouveau bouton dans le compositeur pour l'alignement des images. Les grandes images centrées sont automatiquement redimensionnées à 60 % de la largeur du message, et celles alignées sur le côté, jusqu'à 40 %",
+                "bb_iframe": "iframe",
+                "bb_iframe_help": "Permet d'intégrer des iframes provenant de n'importe quelle source. À utiliser avec prudence — le contenu intégré peut contenir des scripts externes. 🧹 Après avoir modifié ce paramètre, veuillez vider le cache de Flarum",
+                "bb_hide_login": "Connexion",
+                "bb_hide_login_help": "Le contenu est masqué pour les invités et visible pour tous les utilisateurs connectés",
+                "bb_hide_reply": "Réponse",
+                "bb_hide_reply_help": "Le contenu reste masqué jusqu'à ce que l'utilisateur réponde dans la discussion",
+                "bb_hide_like": "J'aime",
+                "bb_hide_like_help": "Le contenu reste masqué jusqu'à ce que l'utilisateur « aime » le message",
+                "toolbar_group": "Regrouper les boutons MagicBB",
+                "toolbar_group_help": "Si cette option est activée, tous les boutons de MagicBB seront regroupés en un seul bouton dans le compositeur"
             },
             "sections": {
-                "text": "",
-                "content": "",
-                "images": "",
-                "features": ""
+                "text": "Boutons de texte",
+                "content": "Boutons de contenu",
+                "images": "Boutons d'image",
+                "features": "Fonctionnalités",
+                "hide": "Masquer les boutons"
             },
             "permissions": {
-                "use_iframe": ""
+                "use_iframe": "Autoriser les iframes",
+                "bypass_like": "Contourner l'exigence d'aimer",
+                "bypass_reply": "Contourner l'exigence de répondre"
             }
         },
         "forum": {
             "composer": {
-                "center_button": "",
-                "justify_button": "",
-                "color_button": "",
-                "spoiler_button": "",
-                "table_button": "",
-                "info_button": "",
-                "audio_button": "",
-                "image_button": "",
-                "more_button": ""
+                "center_button": "Centrer",
+                "justify_button": "Justifier",
+                "color_button": "Ajouter une couleur",
+                "spoiler_button": "Ajouter un spoiler",
+                "table_button": "Ajouter un tableau",
+                "info_button": "Ajouter une alerte",
+                "audio_button": "Ajouter un fichier audio",
+                "image_button": "Ajouter une image intelligente",
+                "more_button": "Plus",
+                "hide_login_button": "Masqué - connexion requise",
+                "hide_reply_button": "Masqué - réponse requise",
+                "hide_like_button": "Masqué – « J'aime » requis"
+            },
+            "hide": {
+                "login_to_see": "Ce contenu est visible après {login}",
+                "like_to_see": "Ce contenu est visible après {like} le message",
+                "reply_to_see": "Ce contenu est visible après {reply} dans la discussion",
+                "like_link_fallback": "J'aime",
+                "login_to_see_simple": "Vous devez vous connecter pour voir ce contenu",
+                "like_to_see_simple": "Vous devez aimer ce message pour voir le contenu",
+                "reply_to_see_simple": "Vous devez répondre à cette discussion pour voir le contenu"
             }
         }
     }

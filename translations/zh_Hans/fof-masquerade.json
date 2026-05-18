@@ -22,7 +22,6 @@
             }
         },
         "admin": {
-            "general-options": "常规选项",
             "buttons": {
                 "add-field": "创建字段",
                 "edit-field": "保存更改",
@@ -50,6 +49,7 @@
                 "icon": "图标",
                 "icon-help": "在字段名称前显示一个图标。可用的图标请查阅 <a>FontAwesome 官网</a>。图标名称需包含前缀 \"fa-\"，例如 \"fas fa-info\"。\n",
                 "force-user-to-completion": "强制用户填写资料",
+                "hide-empty-fields": "",
                 "options": "选项",
                 "option-new": "添加选项",
                 "option-comma-warning": "选项名称不能包含半角逗号（,）。",
@@ -61,7 +61,8 @@
                 "email": "电子邮件",
                 "select": "下拉列表",
                 "url": "网址"
-            }
+            },
+            "general-options": "常规选项"
         },
         "lib": {
             "gambits": {

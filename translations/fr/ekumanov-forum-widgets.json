@@ -5,7 +5,8 @@
                 "title": "Utilisateurs en ligne",
                 "empty": "Aucun utilisateur n'est actuellement en ligne.",
                 "hidden_users": "caché(s)",
-                "overflow_more": "plus"
+                "overflow_more": "plus",
+                "guests": "{count, plural, one {invité} other {invités}}"
             },
             "stats": {
                 "title": "Statistiques du forum",
@@ -51,14 +52,16 @@
                 "section_online_users_help": "Configurer l'affichage des utilisateurs en ligne dans le panneau déroulant du widget.",
                 "show_online_users": "Afficher les utilisateurs en ligne",
                 "show_online_users_help": "Activer ou désactiver complètement la fonctionnalité « Utilisateurs en ligne ». Lorsque cette option est désactivée, aucune requête relative aux utilisateurs en ligne ne sera exécutée.",
-                "max_online_users": "Nombre maximal d'utilisateurs en ligne à afficher",
-                "max_online_users_help": "Nombre maximal d'avatars affichés pour les utilisateurs réguliers. Les utilisateurs au-delà de ce nombre apparaissent sous la forme d'un indicateur « +N plus ». Des valeurs plus élevées augmentent la taille du cache et la charge de l'API. Recommandé : 10 à 20.",
-                "max_online_users_privileged": "Nombre maximal d'utilisateurs en ligne à afficher (privilégiés)",
-                "max_online_users_privileged_help": "Nombre maximal d'avatars affichés pour les utilisateurs privilégiés (ceux disposant de l'autorisation « Toujours afficher la dernière connexion de l'utilisateur » — généralement les administrateurs et les modérateurs). Étant donné que ce cache dessert moins d'utilisateurs, il peut contenir davantage d'entrées sans risque. Recommandation : 30 à 50.",
                 "last_seen_interval": "Intervalle depuis la dernière connexion (en minutes)",
-                "last_seen_interval_help": "Combien de minutes doivent s'être écoulées depuis la dernière activité pour qu'un utilisateur soit considéré comme étant en ligne.",
+                "last_seen_interval_help": "Combien de minutes doivent s'être écoulées depuis la dernière activité pour qu'un utilisateur soit considéré comme étant en ligne. Valeur par défaut : 5, qui correspond à celle de « Heartbeat » (activé par défaut) — « Heartbeat » maintient l'activité à jour pour les utilisateurs ayant un onglet ouvert et actif, afin que les utilisateurs actifs ne disparaissent pas de la liste. Si vous désactivez « Heartbeat », augmentez cette valeur à 10 ou plus pour éviter que les utilisateurs ne soient brièvement déconnectés en cours de session.",
                 "online_users_cache_ttl": "Durée de mise en cache pour les utilisateurs en ligne (en secondes)",
-                "online_users_cache_ttl_help": "Combien de temps la liste des utilisateurs en ligne doit-elle être mise en cache ? Deux caches distincts sont gérés : l'un pour les utilisateurs privilégiés (ceux disposant de l'autorisation « Toujours afficher la dernière connexion des utilisateurs », qui peuvent également voir les utilisateurs masqués) et l'autre pour les utilisateurs réguliers. Chaque cache respecte sa propre limite maximale d'affichage.",
+                "online_users_cache_ttl_help": "Combien de temps la liste des utilisateurs en ligne doit-elle être mise en cache ? Deux caches distincts sont gérés : l'un pour les utilisateurs privilégiés (ceux disposant de l'autorisation « Toujours afficher la dernière connexion des utilisateurs », qui peuvent également voir les utilisateurs masqués) et l'autre pour tous les autres.",
+                "enable_heartbeat": "Activer « Heartbeat » (pouls d'activité)",
+                "enable_heartbeat_help": "Lorsque cette option est activée, chaque onglet du forum ouvert et actif envoie une petite requête en arrière-plan. Pour les utilisateurs connectés, cela permet de maintenir l'indicateur « en ligne » à jour pendant qu'ils lisent ou rédigent un message sans passer d'une page à l'autre (par exemple, lors d'une longue réponse via l'extension Realtime) ; pour les visiteurs (lorsque le comptage est activé), c'est ainsi que le nombre d'invités est enregistré. La charge du serveur est négligeable — les deux chemins limitent leurs écritures côté serveur, quel que soit le nombre d'onglets ouverts. Désactivez cette option si vous ne souhaitez pas de trafic en arrière-plan.",
+                "show_online_guests": "Afficher les invités en ligne",
+                "show_online_guests_help": "Lorsque cette option est activée, un nombre approximatif d'invités s'affiche dans le panneau déroulant sous la forme d'un cercle en pointillés situé sous les utilisateurs masqués.",
+                "include_guests_in_total": "Inclure les invités dans le nombre total des utilisateurs en ligne",
+                "include_guests_in_total_help": "Lorsque cette option est activée, le nombre affiché dans la barre (ainsi que dans l'en-tête à l'intérieur du panneau déroulant) correspond au total des membres connectés et des invités. Les lignes de répartition dans le panneau déroulant continuent de répertorier chaque composant séparément. Désactivez cette option pour que le nombre indiqué dans la barre ne reflète que les membres connectés.",
                 "section_statistics": "Statistiques du forum",
                 "section_statistics_help": "Configurer la mise en cache pour le nombre de discussions, le nombre de messages, le nombre total d'utilisateurs et la dernière inscription.",
                 "show_discussions_count": "Afficher le nombre de discussions",
@@ -74,6 +77,10 @@
                 "expanded_panel_width_help": "Barre : le panneau s'étend sur toute la largeur de la barre ; un clic n'importe où sur la barre permet de le développer. Cellule « En ligne » : le panneau n'apparaît qu'en dessous du nombre d'utilisateurs en ligne ; un clic sur la cellule « En ligne » permet de le développer.",
                 "expanded_panel_width_full_bar": "Toute la largeur de la barre",
                 "expanded_panel_width_online_cell": "Cellule « utilisateurs en ligne » uniquement",
+                "max_online_users": "Nombre maximal d'utilisateurs en ligne à afficher",
+                "max_online_users_help": "Nombre maximal d'avatars affichés pour les utilisateurs réguliers. Les utilisateurs au-delà de ce nombre apparaissent sous la forme d'un indicateur « +N plus ». Des valeurs plus élevées augmentent la taille du cache et la charge de l'API. Recommandé : 10 à 20.",
+                "max_online_users_privileged": "Nombre maximal d'utilisateurs en ligne à afficher (privilégiés)",
+                "max_online_users_privileged_help": "Nombre maximal d'avatars affichés pour les utilisateurs privilégiés (ceux disposant de l'autorisation « Toujours afficher la dernière connexion de l'utilisateur » — généralement les administrateurs et les modérateurs). Étant donné que ce cache dessert moins d'utilisateurs, il peut contenir davantage d'entrées sans risque. Recommandation : 30 à 50.",
                 "section_display": "Affichage du widget"
             },
             "permissions": {

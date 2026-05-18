@@ -2,38 +2,38 @@
     "flarum-realtime": {
         "forum": {
             "push": {
-                "discussion-list-new-activity": "",
-                "discussion-list-new-activity-with-auto-release": ""
+                "discussion-list-new-activity": "{count, plural, one {Näytä # päivitetty keskustelu} other {Näytä # päivitettyä keskustelua}}",
+                "discussion-list-new-activity-with-auto-release": "{count, plural, one {# keskustelulla on} other {# keskustelulla on}} päivitettyä toimintaa ja se julkaistaan {releaseTimeout} sekunnin kuluttua. Napsauta näyttääksesi nyt."
             },
             "typing-indicator": {
-                "anonymous-user": "",
-                "people-are-typing": "",
-                "users-are-typing": "",
-                "no-activity": ""
+                "anonymous-user": "[Anonyymi]",
+                "people-are-typing": "{number, plural, one {# henkilö kirjoittaa} other {# henkilöä kirjoittaa}}",
+                "users-are-typing": "{count, plural, one {{users} kirjoittaa} other {{users}{others, plural, =1 { & # muu} =0 {} other { & # muuta}} kirjoittavat}}",
+                "no-activity": "Kukaan ei kirjoita"
             },
             "user": {
                 "settings": {
-                    "heading": "",
+                    "heading": "Reaaliaikainen",
                     "typing-indicator-type": {
-                        "help": "",
-                        "label": ""
+                        "help": "Kun käytössä, kirjoitusilmaisin näyttää käyttäjät, jotka kirjoittavat parhaillaan. Poista käytöstä näyttääksesi vain kirjoittavien käyttäjien lukumäärän.",
+                        "label": "Näytä kuka kirjoittaa"
                     }
                 }
             }
         },
         "admin": {
             "permission": {
-                "view-who-types": ""
+                "view-who-types": "Näe kuka kirjoittaa"
             },
             "settings": {
-                "release-discussion-updates": "",
-                "release-discussion-updates-help": "",
-                "release-discussion-updates-interval": "",
-                "release-discussion-updates-interval-help": "",
-                "notification-toast-dismiss-after": "",
-                "notification-toast-dismiss-after-help": "",
-                "typing-indicator": "",
-                "typing-indicator-help": ""
+                "release-discussion-updates": "Keskusteluluettelon päivitykset",
+                "release-discussion-updates-help": "Kun käytössä, uudet keskustelut työnnetään <code>DiscussionList</code>-luetteloon alla määritellyin väliajoin.",
+                "release-discussion-updates-interval": "Aikaväli uuden keskustelutoiminnan automaattiseen päivittämiseen",
+                "release-discussion-updates-interval-help": "Sekunteina. 0 tarkoittaa, että automaattista päivitystä ei tehdä.",
+                "notification-toast-dismiss-after": "Ilmoitusponnahduksen kesto",
+                "notification-toast-dismiss-after-help": "Kuinka kauan (sekunteina) reaaliaikainen ilmoitusponnahdus pysyy näytöllä ennen automaattista sulkemista. Aseta arvoksi 0 poistaaksesi ponnahdusikkunailmoitukset käytöstä.",
+                "typing-indicator": "Kirjoitus indikaattori",
+                "typing-indicator-help": "Kun käytössä, käyttäjät voivat oikeuksien mukaan nähdä muiden käyttäjien kirjoitusaktiivisuuden määrän keskustelussa. Kun poistettu käytöstä, kirjoitusaktiivisuus poistetaan sekä käyttöliittymästä että WebSocket-viestistä."
             }
         }
     }

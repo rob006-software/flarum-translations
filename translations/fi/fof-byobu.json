@@ -121,23 +121,23 @@
                 "private_discussion_added": "[Private Discussion] {display_name} lisäsi sinut yksityiseen keskusteluun"
             },
             "body": {
-                "private_discussion_created": "",
-                "private_discussion_replied": "",
-                "recipient_removed": "",
-                "private_discussion_added": "",
-                "made_public": ""
+                "private_discussion_created": "{actor_display_name} aloitti uuden yksityisen keskustelun, johon sinut on lisätty vastaanottajaksi: {discussion_title}.\n\nKatso se täältä:\n{discussion_url}\n\nSinun on ehkä kirjauduttava sisään ensin ennen kuin pääset käyttämään tätä linkkiä.\n",
+                "private_discussion_replied": "{actor_display_name} kirjoitti viestin yksityiseen keskusteluun, johon sinut on lisätty vastaanottajaksi: {discussion_title}.\n\nKatso se täältä:\n{post_url}\n\nSinun on ehkä kirjauduttava sisään ensin ennen kuin pääset käyttämään tätä linkkiä.\n",
+                "recipient_removed": "{actor_display_name} poistui yksityisestä keskustelusta: {discussion_title}. He eivät enää pysty näkemään sen sisältöä.\n\nKatso se täältä:\n{discussion_url}\n\nSinun on ehkä kirjauduttava sisään ensin ennen kuin pääset käyttämään tätä linkkiä.\n",
+                "private_discussion_added": "{actor_display_name} lisäsi sinut olemassa olevaan yksityiseen keskusteluun: {discussion_title}.\n\nKatso se täältä:\n{discussion_url}\n\nSinun on ehkä kirjauduttava sisään ensin ennen kuin pääset käyttämään tätä linkkiä.\n",
+                "made_public": "{actor_display_name} poisti kaikki vastaanottajat ja teki keskustelusta julkisen: {discussion_title}.\n\nKatso se täältä:\n{discussion_url}\n\nSinun on ehkä kirjauduttava sisään ensin ennen kuin pääset käyttämään tätä linkkiä.\n"
             }
         },
         "lib": {
             "gambits": {
                 "byobu": {
-                    "key": ""
+                    "key": "byobu"
                 },
                 "private": {
-                    "key": ""
+                    "key": "yksityinen"
                 },
                 "allows-pd": {
-                    "key": ""
+                    "key": "sallii-pd"
                 }
             }
         }

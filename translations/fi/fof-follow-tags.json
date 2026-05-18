@@ -60,30 +60,30 @@
         },
         "email": {
             "newDiscussionInTag": {
-                "subject": "",
+                "subject": "[Avainsana | Uusi keskustelu] {title}",
                 "plain": {
-                    "body": ""
+                    "body": "{actor_display_name} aloitti keskustelun seuraamassasi avainsanassa: {discussion_title}\n\nKatso uusi keskustelu seuraavasta linkistä:\n{discussion_url}\n\n---\n\n{content}\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{actor_display_name} aloitti keskustelun seuraamassasi avainsanassa: [{discussion_title}]({discussion_url})\n"
                 }
             },
             "newPostInTag": {
-                "subject": "",
+                "subject": "[Avainsana | Uusi viesti] {title}",
                 "plain": {
-                    "body": ""
+                    "body": "{actor_display_name} kirjoitti viestin seuraamassasi avainsanassa: {discussion_title}\n\nKatso uusi toiminta seuraavasta linkistä:\n{post_url}\n\n---\n\n{content}\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{actor_display_name} kirjoitti viestin keskusteluun seuraamassasi avainsanassa: [{discussion_title}]({post_url})\n"
                 }
             },
             "newDiscussionTag": {
-                "subject": "",
+                "subject": "[Avainsana | Muutettu avainsana] {title}",
                 "plain": {
-                    "body": ""
+                    "body": "{actor_display_name} muutti avainsanan keskustelussa, jonka kirjoitti {author_display_name}, seuraamaasi avainsanaan: {discussion_title}\n\nKatso keskustelu seuraavasta linkistä:\n{discussion_url}\n\n---\n\n{content}\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{actor_display_name} muutti avainsanan keskustelussa, jonka kirjoitti {author_display_name}, seuraamaasi avainsanaan: [{discussion_title}]({discussion_url})\n"
                 }
             }
         },

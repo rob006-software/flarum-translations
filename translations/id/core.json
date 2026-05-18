@@ -2,99 +2,99 @@
     "core": {
         "admin": {
             "advanced": {
-                "description": "",
+                "description": "Konfigurasikan pengaturan lanjutan untuk forum Anda.",
                 "maintenance": {
                     "bisect": {
                         "begin_button_text": "",
                         "continue_button_text": "",
                         "label": "",
-                        "help": ""
+                        "help": "Membantu mengidentifikasi ekstensi yang menyebabkan masalah yang Anda temukan. Ini secara otomatis akan menempatkan forum dalam mode pemeliharaan (rendah) hingga proses selesai."
                     },
                     "bisect_modal": {
-                        "description": "",
-                        "end_button": "",
-                        "issue_question": "",
-                        "issue_question_help": "",
-                        "no_button": "",
+                        "description": "Ini akan menempatkan forum dalam mode pemeliharaan (rendah) hingga proses selesai. Pada setiap langkah, beberapa ekstensi akan dinonaktifkan hingga kami menemukan yang menyebabkan masalah. Jadi jangan kaget jika melihat fitur yang hilang atau desain tema yang berbeda. Biarkan halaman ini tetap terbuka, dan coba buat ulang masalah tersebut setelah setiap langkah di halaman terpisah. Anda selalu bisa kembali ke halaman ini jika tidak sengaja menutupnya.\n",
+                        "end_button": "Tutup dan buka halaman ekstensi",
+                        "issue_question": "Apakah masalah masih terjadi?",
+                        "issue_question_help": "Coba ulangi masalah tersebut di halaman terpisah dan jawab berdasarkan hasilnya.",
+                        "no_button": "Tidak",
                         "result_description": "",
                         "start_button": "",
                         "stop_button": "",
-                        "steps_left": "",
-                        "total_steps": "",
+                        "steps_left": "Langkah yang tersisa: {steps}",
+                        "total_steps": "Proses ini akan memakan waktu sekitar {steps} langkah.",
                         "title": "",
-                        "yes_button": ""
+                        "yes_button": "Ya"
                     },
                     "config_override": {
-                        "label": "",
-                        "help": ""
+                        "label": "File <code>config.php</code> Anda menggantikan pengaturan ini.",
+                        "help": "Anda masih dapat mengubah pengaturan ini di sini, tetapi pengaturan tersebut tidak akan berlaku sampai Anda mengatur <code>offline</code> menjadi <code>0</code> di file <code>config.php</code> Anda."
                     },
-                    "help": "",
+                    "help": "Atur forum Anda ke mode pemeliharaan untuk mencegah pengguna mengaksesnya.",
                     "options": {
-                        "none": "",
-                        "high": "",
-                        "low": "",
-                        "safe": ""
+                        "none": "Tanpa pemeliharaan.",
+                        "high": "Mode pemeliharaan tinggi. Tidak ada yang dapat mengakses forum (hanya dapat diaktifkan melalui config.php)",
+                        "low": "Mode pemeliharaan rendah. Admin dapat mengakses forum.",
+                        "safe": "Mode aman. Tidak ada ekstensi yang dijalankan dan hanya admin yang dapat mengakses forum."
                     },
-                    "safe_mode_extensions": "",
-                    "safe_mode_extensions_override_help": "",
-                    "section_label": ""
+                    "safe_mode_extensions": "Ekstensi yang diizinkan untuk dijalankan selama mode aman",
+                    "safe_mode_extensions_override_help": "Pengaturan ini digantikan oleh <code>safe_mode_extensions</code> di berkas <code>config.php</code> Anda. (<b>{extensions}</b>)",
+                    "section_label": "Pemeliharaan"
                 },
                 "fontawesome": {
-                    "section_label": "",
-                    "source_label": "",
-                    "source_help": "",
-                    "source_local": "",
-                    "source_cdn": "",
-                    "source_kit": "",
-                    "cdn_url_label": "",
-                    "cdn_url_help": "",
-                    "kit_url_label": "",
-                    "kit_url_help": "",
+                    "section_label": "Ikon FontAwesome",
+                    "source_label": "Sumber Ikon",
+                    "source_help": "Pilih cara pemuatan ikon FontAwesome. Lokal menggunakan font yang disertakan, CDN dimuat dari CDN, dan Kit menggunakan FontAwesome Kits dengan ikon custom.",
+                    "source_local": "Lokal (Disertakan)",
+                    "source_cdn": "CDN",
+                    "source_kit": "FontAwesome Kit",
+                    "cdn_url_label": "URL CDN",
+                    "cdn_url_help": "URL lengkap ke berkas CSS FontAwesome di CDN",
+                    "kit_url_label": "URL Kit",
+                    "kit_url_help": "URL script FontAwesome Kit Anda (dari kit.fontawesome.com)",
                     "config_override": {
-                        "label": "",
-                        "help": ""
+                        "label": "Konfigurasi Pengganti",
+                        "help": "Pengaturan FontAwesome saat ini ditetapkan dalam file config.php Anda dan tidak dapat diubah di sini."
                     },
                     "preview": {
                         "button": "",
                         "label": "",
-                        "help": "",
-                        "fa5_fa6_label": "",
+                        "help": "Verifikasi pengaturan FontAwesome Anda. Ikon yang ditampilkan berarti tingkatan tersebut tersedia; kotak yang rusak berarti ikon tersebut tidak dimuat.",
+                        "fa5_fa6_label": "Alias FA5/FA6",
                         "fa7_label": "",
-                        "pro_label": ""
+                        "pro_label": "Hanya untuk Pro"
                     }
                 },
                 "pgsql": {
-                    "search_configuration": ""
+                    "search_configuration": "Konfigurasi pencarian yang akan digunakan"
                 },
                 "queue": {
                     "section_label": "",
-                    "sync_info": "",
-                    "sync_help": "",
-                    "custom_driver": "",
+                    "sync_info": "Forum Anda menggunakan driver synchronous queue. Pekerjaan diproses segera di main process thread.",
+                    "sync_help": "Untuk kinerja dan pengalaman pengguna yang lebih baik, pertimbangkan untuk menggunakan driver database queue. Pelajari lebih lanjut di dokumentasi.",
+                    "custom_driver": "Forum Anda menggunakan driver queue {driver}, yang disediakan oleh ekstensi.",
                     "retries_label": "",
                     "retries_help": "",
-                    "memory_label": "",
+                    "memory_label": "Batas Memori (MB)",
                     "memory_help": "",
                     "timeout_label": "",
                     "timeout_help": "",
-                    "rest_label": "",
+                    "rest_label": "Jeda Waktu (detik)",
                     "rest_help": "",
                     "backoff_label": "",
                     "backoff_help": ""
                 },
                 "search": {
-                    "section_label": "",
-                    "driver_heading": "",
-                    "driver_text": "",
+                    "section_label": "Driver Pencarian",
+                    "driver_heading": "Driver Pencarian: {model}",
+                    "driver_text": "Pilih driver yang akan digunakan untuk mencari model ini.",
                     "driver_options": {
-                        "default": ""
+                        "default": "Pencarian basis data default"
                     },
-                    "no_other_drivers": ""
+                    "no_other_drivers": "Belum ada driver pencarian yang tersedia. Instal ekstensi driver pencarian agar dapat mengonfigurasinya."
                 },
-                "title": ""
+                "title": "Lanjutan"
             },
             "appearance": {
-                "allow_user_color_scheme_label": "",
+                "allow_user_color_scheme_label": "Izinkan pengguna memilih skema warna mereka sendiri",
                 "colored_header_label": "Header Berwarna",
                 "colors_heading": "Warna",
                 "colors_primary_label": "Warna Primer",
@@ -116,16 +116,16 @@
                 "favicon_text": "Upload gambar untuk ditampilkan sebagai forum shortcut icon.",
                 "logo_heading": "Logo",
                 "logo_text": "Upload gambar untuk ditampilkan sebagai pengganti judul forum.",
-                "logo_dark_mode_heading": "",
-                "logo_dark_mode_text": "",
+                "logo_dark_mode_heading": "Logo mode gelap",
+                "logo_dark_mode_text": "Upload logo alternatif untuk ditampilkan saat mode gelap diaktifkan.",
                 "title": "Tampilan",
-                "color_scheme_label": "",
+                "color_scheme_label": "Skema Warna (default)",
                 "color_schemes": {
-                    "auto_mode_label": "",
-                    "dark_hc_mode_label": "",
-                    "dark_mode_label": "",
-                    "light_hc_mode_label": "",
-                    "light_mode_label": ""
+                    "auto_mode_label": "Sistem pengguna atau preferensi yang dikonfigurasi",
+                    "dark_hc_mode_label": "=> core.ref.dark_hc_mode_label",
+                    "dark_mode_label": "=> core.ref.dark_mode_label",
+                    "light_hc_mode_label": "=> core.ref.light_hc_mode_label",
+                    "light_mode_label": "=> core.ref.light_mode_label"
                 }
             },
             "basics": {
@@ -133,30 +133,30 @@
                 "default_language_heading": "Bahasa Default",
                 "description": "Tetapkan judul forum, bahasa, dan pengaturan dasar lainnya.",
                 "display_name_driver_options": {
-                    "username": ""
+                    "username": "Username"
                 },
                 "display_name_heading": "Nama Tampilan Pengguna",
                 "display_name_text": "Pilih driver yang akan digunakan untuk nama tampilan pengguna. Secara default, username akan ditampilkan.",
                 "avatar_driver_options": {
-                    "default": ""
+                    "default": "Default"
                 },
-                "avatar_driver_heading": "",
-                "avatar_driver_text": "",
+                "avatar_driver_heading": "Avatar Pengguna",
+                "avatar_driver_text": "Pilih driver yang akan digunakan untuk avatar pengguna jika tidak ada avatar yang diunggah oleh pengguna. Secara default, avatar tidak akan ditampilkan jika pengguna belum mengunggah avatar.",
                 "forum_description_heading": "Deskripsi Forum",
-                "forum_description_text": "Masukkan satu atau dua kalimat pendek yang menggambarkan komunitas Anda. Ini akan muncul di tag meta dan muncul di mesin pencari.",
+                "forum_description_text": "Masukkan satu atau dua kalimat singkat yang menggambarkan forum Anda. Teks ini akan dimasukkan ke dalam tag meta dan muncul di mesin pencari.",
                 "forum_title_heading": "Judul Forum",
                 "home_page_heading": "Beranda",
                 "home_page_text": "Pilih halaman yang pertama kali dilihat pengguna ketika mereka mengunjungi forum Anda.",
                 "show_language_selector_label": "Tampilkan pilihan bahasa",
                 "slug_driver_options": {
                     "discussions": {
-                        "default": "",
-                        "utf8": ""
+                        "default": "ID dengan slug",
+                        "utf8": "ID dengan slug UTF-8"
                     },
                     "users": {
-                        "default": "",
-                        "id": "",
-                        "id_with_display_name": ""
+                        "default": "Username",
+                        "id": "ID",
+                        "id_with_display_name": "ID dengan Nama Tampilan"
                     }
                 },
                 "slug_driver_heading": "Slug Driver: {model}",
@@ -223,20 +223,20 @@
                 "tools_button": "Peralatan"
             },
             "extensions-health-widget": {
-                "abandoned_no_replacement": "",
-                "abandoned_with_replacement": "",
-                "all_healthy": "",
-                "section_abandoned_empty": "",
-                "section_suggested_empty": "",
-                "section_disabled_empty": "",
-                "title": "",
-                "section_abandoned_heading": "",
-                "section_abandoned_help": "",
-                "section_suggested_heading": "",
-                "section_suggested_help": "",
-                "section_disabled_heading": "",
-                "section_disabled_help": "",
-                "suggested_by": ""
+                "abandoned_no_replacement": "Tidak ada pengganti yang tersedia",
+                "abandoned_with_replacement": "Digantikan oleh {replacement}",
+                "all_healthy": "Semua ekstensi dalam kondisi baik.",
+                "section_abandoned_empty": "Tidak ditemukan masalah.",
+                "section_suggested_empty": "Tidak ada saran.",
+                "section_disabled_empty": "Semua ekstensi diaktifkan.",
+                "title": "Kesehatan Ekstensi",
+                "section_abandoned_heading": "Perlu Perhatian",
+                "section_abandoned_help": "Ekstensi ini tidak lagi dipelihara atau mungkin memiliki masalah kompatibilitas. Pertimbangkan untuk memperbarui, mengganti, atau menghapusnya.",
+                "section_suggested_heading": "Disarankan",
+                "section_suggested_help": "Ekstensi Flarum dapat menambahkan fitur tambahan opsional dengan menentukan ekstensi atau paket lain. Hal ini mungkin akan menambah lebih banyak fitur atau integrasi.",
+                "section_disabled_heading": "Dinonaktifkan",
+                "section_disabled_help": "Ekstensi ini telah diinstal tetapi saat ini tidak diaktifkan. Aktifkan dari halaman pengaturannya, atau hapus jika tidak lagi diperlukan.",
+                "suggested_by": "Disarankan oleh {extension}"
             },
             "debug-warning": {
                 "detail": "Saat mode <code>debug</code> aktif, Flarum akan membangun kembali aset <code>JavaScript</code> dan <code>CSS</code> pada setiap request yang dijalankan, dan juga berpotensi membocorkan informasi lain, seperti rahasia di dalam database, environment variable, dll.\n\nKetika Anda siap untuk masuk ke dalam tahap produksi, sangat disarankan untuk menonaktifkan <code>debug</code> pada file <code>config.php</code> Anda. Lihat <link>Flarum docs</link> untuk informasi lebih lanjut.\n",
@@ -276,38 +276,38 @@
                 "driver_heading": "Pilih Driver",
                 "driver_label": "Driver",
                 "format": {
-                    "multipart_option": "",
-                    "plain_option": "",
-                    "html_option": ""
+                    "multipart_option": "Multipart (disarankan)",
+                    "plain_option": "Teks Biasa",
+                    "html_option": "HTML"
                 },
-                "format_heading": "",
-                "format_help": "",
+                "format_heading": "Format Email Keluar",
+                "format_help": "Pilih format yang akan digunakan untuk mengirim email keluar. Opsi yang disarankan adalah <code>multipart</code>, karena hal ini akan memungkinkan klien email pengguna Anda menampilkan format yang paling sesuai.",
                 "from_label": "Pengirim",
                 "mail_encryption_label": "Enkripsi",
-                "mail_encryption_tls_help": "",
-                "mail_encryption_ssl_help": "",
-                "mail_encryption_none_help": "",
+                "mail_encryption_tls_help": "Koneksi dimulai tanpa enkripsi dan ditingkatkan ke TLS (STARTTLS). Biasanya digunakan dengan port 587 atau 25.",
+                "mail_encryption_ssl_help": "Koneksi dienkripsi sejak awal (Implicit TLS). Biasanya digunakan dengan port 465.",
+                "mail_encryption_none_help": "Tanpa enkripsi. Tidak disarankan untuk penggunaan produksi.",
                 "mail_host_label": "Host",
                 "mail_mailgun_domain_label": "Domain",
                 "mail_mailgun_region_label": "Wilayah",
                 "mail_mailgun_secret_label": "Secret key",
                 "mail_password_label": "=> core.ref.password",
                 "mail_port_label": "Port",
-                "mail_postmark_message_stream_label": "",
-                "mail_postmark_token_label": "",
-                "mail_smtp_verify_peer_label": "",
-                "mail_smtp_verify_peer_help": "",
+                "mail_postmark_message_stream_label": "Aliran pesan",
+                "mail_postmark_token_label": "Token server",
+                "mail_smtp_verify_peer_label": "Verifikasi Sertifikat SSL",
+                "mail_smtp_verify_peer_help": "Verifikasi sertifikat SSL server saat menggunakan enkripsi TLS atau SSL. Nonaktifkan hanya jika server email Anda menggunakan sertifikat yang ditandatangani sendiri.",
                 "mail_username_label": "=> core.ref.username",
                 "mailgun_heading": "Pengaturan Mailgun",
-                "postmark_heading": "",
-                "postmark_description": "",
+                "postmark_heading": "Pengaturan Postmark",
+                "postmark_description": "Kirim email melalui Postmark HTTP API. Anda juga dapat menentukan aliran pesan untuk menggunakan aliran non-default.",
                 "not_sending_message": "Flarum saat ini tidak dapat mengirim email. Hal ini dapat disebabkan oleh driver yang dipilih, atau kesalahan dalam konfigurasinya.",
                 "send_test_mail_button": "Kirim",
                 "send_test_mail_heading": "Kirim Test Mail",
                 "send_test_mail_success": "Email percobaan berhasil terkirim!",
                 "send_test_mail_text": "Email akan dikirim menggunakan konfigurasi di atas ke email Anda, {email}.",
                 "smtp_heading": "Pengaturan SMTP",
-                "smtp_description": "",
+                "smtp_description": "Konfigurasikan pengaturan koneksi SMTP. Konfigurasi umum: Port 587 dengan TLS, atau Port 465 dengan SSL.",
                 "title": "=> core.ref.email"
             },
             "extension": {
@@ -315,7 +315,7 @@
                 "abandoned_with_replacement": "Extensi ini telah digantikan oleh {replacement}. Pertimbangkan untuk beralih ke paket pengganti.",
                 "configure_scopes": "Konfigurasi Cakupan",
                 "confirm_purge": "Pembersihan akan menghapus semua entri database dan aset yang terkait dengan ekstensi. Hal ini tidak akan menghapus ekstensi; serta harus dilakukan melalui Composer. Apakah Anda yakin ingin melanjutkan?",
-                "database_driver_mismatch": "",
+                "database_driver_mismatch": "Ekstensi ini tidak mendukung driver basis data yang Anda gunakan.",
                 "deprecated": "Tidak lagi didukung",
                 "disabled": "Tidak Aktif",
                 "enable_to_see": "Aktifkan ekstensi untuk melihat dan mengubah pengaturan.",
@@ -340,45 +340,45 @@
                 },
                 "replaced": "Diganti",
                 "reset_settings": {
-                    "button": "",
-                    "cancel_button": "",
-                    "confirm_button": "",
-                    "warning": "",
-                    "title": "",
-                    "title_extension": ""
+                    "button": "Atur Ulang Pengaturan",
+                    "cancel_button": "Batal",
+                    "confirm_button": "Atur Ulang",
+                    "warning": "Tindakan ini tidak dapat dibatalkan. Pengaturan di bawah ini akan dihapus secara permanen dari basis data dan dikembalikan ke pengaturan default. Data ekstensi ini tidak akan terpengaruh.",
+                    "title": "Atur Ulang Pengaturan",
+                    "title_extension": "Atur Ulang Pengaturan {extensionTitle}"
                 },
-                "safe_mode_warning": ""
+                "safe_mode_warning": "Mode aman saat ini diaktifkan. Ekstensi tidak dimuat dan pengaturannya tidak dapat diakses."
             },
             "header": {
                 "get_help": "Bantuan",
                 "log_out_button": "=> core.ref.log_out",
-                "search_placeholder": "",
-                "search_role_label": ""
+                "search_placeholder": "Cari...",
+                "search_role_label": "Cari"
             },
             "loading": {
                 "title": "Mohon Menunggu..."
             },
             "models": {
-                "discussions": "",
-                "posts": "",
-                "users": ""
+                "discussions": "=> core.ref.discussions",
+                "posts": "=> core.ref.posts",
+                "users": "=> core.ref.users"
             },
             "nav": {
-                "advanced_button": "",
-                "advanced_title": "",
+                "advanced_button": "=> core.admin.advanced.title",
+                "advanced_title": "=> core.admin.advanced.description",
                 "appearance_button": "=> core.admin.appearance.title",
                 "appearance_title": "=> core.admin.appearance.description",
                 "basics_button": "=> core.admin.basics.title",
                 "basics_title": "=> core.admin.basics.description",
                 "categories": {
-                    "analytics": "",
+                    "analytics": "Analitik",
                     "authentication": "Autentikasi",
                     "core": "Konfigurasi Dasar",
                     "discussion": "Diskusi",
                     "feature": "Fitur",
                     "formatting": "Pengaturan format",
                     "forum-widget": "Widget Forum",
-                    "infrastructure": "",
+                    "infrastructure": "Infrastruktur",
                     "language": "Bahasa",
                     "moderation": "Moderasi",
                     "other": "Ekstensi Lainnya",
@@ -442,12 +442,12 @@
             },
             "search_source": {
                 "general": {
-                    "heading": ""
+                    "heading": "Umum"
                 }
             },
             "settings": {
                 "saved_message": "Perubahan Anda telah disimpan.",
-                "select_dropdown_custom_label": "",
+                "select_dropdown_custom_label": "Custom",
                 "submit_button": "=> core.ref.save_changes"
             },
             "upload_image": {
@@ -477,8 +477,8 @@
                         "user_actions": {
                             "title": "Tindakan",
                             "edit_user": {
-                                "button": "",
-                                "tooltip": ""
+                                "button": "=> core.ref.edit",
+                                "tooltip": "Edit {username}"
                             }
                         },
                         "user_id": {
@@ -554,7 +554,7 @@
                 "empty_text": "Sepertinya tidak ada diskusi di sini.",
                 "load_more_button": "=> core.ref.load_more",
                 "replied_text": "{username} membalas {ago}",
-                "skip_discussion_list_pane": "",
+                "skip_discussion_list_pane": "Lewati panel daftar diskusi",
                 "started_text": "{username} memulai {ago}",
                 "total_replies_a11y_label": "{count, plural, one {# balasan} other {# balasan}}",
                 "unread_replies_a11y_label": "{count, plural, one {# balasan belum dibaca} other {# balasan belum dibaca}}. Tandai {count, plural, one {balasan} other {balasan}} yang belum dibaca sebagai sudah dibaca."
@@ -587,31 +587,31 @@
                 "mark_all_as_read_confirmation": "Anda yakin ingin menandai semua diskusi sebagai telah dibaca?",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "meta_title_text": "=> core.ref.all_discussions",
-                "refresh_tooltip": "",
+                "refresh_tooltip": "=> core.ref.refresh",
                 "start_discussion_button": "=> core.ref.start_a_discussion",
-                "skip_to_main_content": "",
+                "skip_to_main_content": "Langsung ke konten utama",
                 "toggle_sidenav_dropdown_accessible_label": "Tampilkan/Sembunyikan menu dropdown navigasi"
             },
             "index_sort": {
                 "latest_button": "Terkini",
-                "newest_button": "",
-                "oldest_button": "",
-                "relevance_button": "",
+                "newest_button": "=> core.ref.newest",
+                "oldest_button": "=> core.ref.oldest",
+                "relevance_button": "=> core.ref.relevance",
                 "toggle_dropdown_accessible_label": "Ubah pengurutan daftar diskusi",
                 "top_button": "Top"
             },
             "log_in": {
                 "forgot_password_link": "Lupa password?",
-                "invalid_login_message": "",
+                "invalid_login_message": "=> core.ref.invalid_login_message",
                 "password_placeholder": "=> core.ref.password",
-                "remember_me_label": "",
+                "remember_me_label": "=> core.ref.remember_me_label",
                 "sign_up_text": "Tidak memiliki akun? <a>Daftar</a>",
                 "submit_button": "=> core.ref.log_in",
                 "title": "=> core.ref.log_in",
-                "username_or_email_placeholder": ""
+                "username_or_email_placeholder": "=> core.ref.username_or_email_placeholder"
             },
             "notifications": {
-                "delete_all_confirm": "",
+                "delete_all_confirm": "Apakah Anda yakin ingin menghapus semua notifikasi? Tindakan ini tidak dapat dibatalkan",
                 "delete_all_tooltip": "Hapus semua notifikasi",
                 "discussion_renamed_text": "{username} mengubah judul",
                 "empty_text": "Tidak Ada Notifikasi",
@@ -636,9 +636,9 @@
                 "toggle_dropdown_accessible_label": "Tampilkan/Sembunyikan menu dropdown kontrol postingan"
             },
             "post_list": {
-                "empty_text": "",
-                "in_discussion_text": "",
-                "load_more_button": ""
+                "empty_text": "Sepertinya tidak ada postingan di sini.",
+                "in_discussion_text": "Di {discussion}",
+                "load_more_button": "=> core.ref.load_more"
             },
             "post_scrubber": {
                 "now_link": "Saat ini",
@@ -654,13 +654,13 @@
                 "time_lapsed_text": "{period} kemudian"
             },
             "posts_sort": {
-                "newest_button": "",
-                "oldest_button": "",
-                "relevance_button": ""
+                "newest_button": "=> core.ref.newest",
+                "oldest_button": "=> core.ref.oldest",
+                "relevance_button": "=> core.ref.relevance"
             },
             "posts": {
-                "meta_title_text": "",
-                "refresh_tooltip": ""
+                "meta_title_text": "Tampilkan hasil pencarian",
+                "refresh_tooltip": "=> core.ref.refresh"
             },
             "rename_discussion": {
                 "submit_button": "=> core.ref.rename",
@@ -705,22 +705,22 @@
                 "account_heading": "Akun",
                 "change_email_button": "=> core.ref.change_email",
                 "change_password_button": "=> core.ref.change_password",
-                "color_scheme_heading": "",
+                "color_scheme_heading": "Skema Warna",
                 "color_schemes": {
-                    "auto_mode_label": "",
-                    "dark_hc_mode_label": "",
-                    "dark_mode_label": "",
-                    "light_hc_mode_label": "",
-                    "light_mode_label": ""
+                    "auto_mode_label": "Preferensi sistem",
+                    "dark_hc_mode_label": "=> core.ref.dark_hc_mode_label",
+                    "dark_mode_label": "=> core.ref.dark_mode_label",
+                    "light_hc_mode_label": "=> core.ref.light_hc_mode_label",
+                    "light_mode_label": "=> core.ref.light_mode_label"
                 },
                 "notification_checkbox_a11y_label_template": "Terima notifikasi \"{description}\" via {method}",
                 "notifications_heading": "=> core.ref.notifications",
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "Web",
                 "notify_discussion_renamed_label": "Seseorang mengganti nama diskusi yang Saya buat",
-                "device_heading": "",
-                "haptic_feedback_help": "",
-                "haptic_feedback_label": "",
+                "device_heading": "Perangkat",
+                "haptic_feedback_help": "Hanya tersedia di perangkat seluler yang didukung",
+                "haptic_feedback_label": "Aktifkan umpan balik haptic",
                 "privacy_disclose_online_label": "Izinkan orang lain untuk melihat ketika Saya sedang online",
                 "privacy_heading": "Privasi",
                 "title": "=> core.ref.settings"
@@ -797,10 +797,10 @@
             },
             "error": {
                 "circular_dependencies_message": "Circular dependencies terdeteksi: {extensions}. Membatalkan. Nonaktifkan salah satu ekstensi dan coba lagi.",
-                "db_error_message": "",
+                "db_error_message": "Kueri basis data gagal. Hal ini mungkin disebabkan oleh ketidakcocokan antara ekstensi dan driver basis data Anda.",
                 "dependent_extensions_message": "Tidak dapat menonaktifkan {extension} sebelum ekstensi dependen berikut dinonaktifkan: {extensions}",
                 "extension_initialiation_failed_message": "{extension} gagal untuk menginisialisasi, periksa konsol browser untuk informasi lebih lanjut.",
-                "extension_runtime_failed_message": "",
+                "extension_runtime_failed_message": "{extension} mengalami error saat dijalankan. Silakan periksa console browser untuk informasi lebih lanjut.",
                 "generic_message": "Ups! Ada yang tidak beres. Silakan muat ulang halaman dan coba lagi.",
                 "generic_cross_origin_message": "Ups! Terjadi kesalahan saat melakukan cross-origin request. Silakan muat ulang halaman dan coba lagi.",
                 "missing_dependencies_message": "Tidak dapat mengaktifkan {extension} sebelum dependensi berikut diaktifkan: {extensions}",
@@ -819,11 +819,11 @@
                 "discussions": {
                     "author": {
                         "key": "",
-                        "hint": ""
+                        "hint": "username atau daftar username yang dipisahkan dengan koma"
                     },
                     "created": {
-                        "key": "",
-                        "hint": ""
+                        "key": "dibuat",
+                        "hint": "2020-12-31 or 2020-12-31..2021-09-30"
                     },
                     "hidden": {
                         "key": ""
@@ -834,23 +834,23 @@
                 },
                 "posts": {
                     "discussion": {
-                        "key": "",
-                        "hint": ""
+                        "key": "diskusi",
+                        "hint": "ID diskusi"
                     }
                 },
                 "users": {
                     "email": {
-                        "key": "",
-                        "hint": ""
+                        "key": "email",
+                        "hint": "example@machine.local"
                     },
                     "group": {
-                        "key": "",
-                        "hint": ""
+                        "key": "grup",
+                        "hint": "nama kelompok tunggal atau jamak"
                     }
                 }
             },
             "input": {
-                "clear_button": ""
+                "clear_button": "Bersihkan input"
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
@@ -863,7 +863,7 @@
                 "close": "Tutup"
             },
             "multi_select": {
-                "placeholder": ""
+                "placeholder": "Pilih beberapa opsi"
             },
             "nav": {
                 "drawer_button": "Buka Drawer Navigasi"
@@ -871,43 +871,43 @@
             "notices": {
                 "bisecting": "",
                 "bisecting_continue": "",
-                "maintenance_mode_low": "",
-                "maintenance_mode_safe": ""
+                "maintenance_mode_low": "Sedang dalam pemeliharaan. Hanya administrator yang dapat mengakses forum.",
+                "maintenance_mode_safe": "Sedang dalam pemeliharaan dengan mode aman. Hanya administrator yang dapat mengakses forum dan tidak ada ekstensi yang dijalankan."
             },
             "number_suffix": {
                 "kilo_text": "K",
                 "mega_text": "M"
             },
             "pagination": {
-                "back_button": "",
-                "first_button": "",
-                "go_to_page_textbox_a11y_label": "",
-                "last_button": "",
-                "next_button": "",
-                "page_counter": ""
+                "back_button": "Halaman sebelumnya",
+                "first_button": "Buka halaman pertama",
+                "go_to_page_textbox_a11y_label": "Langsung ke nomor halaman",
+                "last_button": "Buka halaman terakhir",
+                "next_button": "Halaman berikutnya",
+                "page_counter": "Halaman {current} dari {total}"
             },
             "search": {
-                "gambit_plus_button_a11y_label": "",
-                "gambit_minus_button_a11y_label": "",
-                "title": "",
-                "no_results_text": "",
-                "no_search_text": "",
-                "options_heading": "",
-                "placeholder": "",
-                "preview_heading": "",
-                "search_clear_button_accessible_label": ""
+                "gambit_plus_button_a11y_label": "Tambahkan filter positif",
+                "gambit_minus_button_a11y_label": "Tambahkan filter negatif",
+                "title": "Cari",
+                "no_results_text": "Sepertinya tidak ada hasil di sini.",
+                "no_search_text": "Anda belum mencari apa pun.",
+                "options_heading": "Opsi pencarian",
+                "placeholder": "Cari...",
+                "preview_heading": "Pratinjau pencarian",
+                "search_clear_button_accessible_label": "Hapus kueri pencarian"
             },
             "search_source": {
                 "discussions": {
-                    "all_button": "",
-                    "heading": ""
+                    "all_button": "Cari semua diskusi untuk \"{query}\"",
+                    "heading": "=> core.ref.discussions"
                 },
                 "posts": {
-                    "all_button": "",
-                    "heading": ""
+                    "all_button": "Cari semua post untuk \"{query}\"",
+                    "heading": "=> core.ref.posts"
                 },
                 "users": {
-                    "heading": ""
+                    "heading": "=> core.ref.users"
                 }
             },
             "series": {
@@ -916,21 +916,21 @@
                 "two_text": "{first} dan {second}"
             },
             "user_selection_modal": {
-                "empty_results": "",
-                "max_items_to_select": "",
-                "search_placeholder": "",
-                "submit_button": "",
-                "title": ""
+                "empty_results": "Tidak ada pengguna yang sesuai dengan pencarian Anda.",
+                "max_items_to_select": "{count, plural, one {Pilih hingga to # pengguna} other {Pilih hingga to # pengguna}}",
+                "search_placeholder": "=> core.ref.search_users",
+                "submit_button": "=> core.ref.okay",
+                "title": "Pilih pengguna yang relevan"
             },
             "username": {
                 "deleted_text": "[dihapus]"
             },
             "datetime_formats": {
-                "fullTime": "",
+                "fullTime": "LLLL",
                 "humanTimeShort": "D MMM",
                 "humanTimeLong": "ll",
                 "scrubber": "MMMM YYYY",
-                "userListJoinDate": ""
+                "userListJoinDate": "LLL"
             }
         },
         "views": {
@@ -967,9 +967,9 @@
                 "csrf_token_mismatch": "Anda sudah terlalu lama tidak aktif.",
                 "csrf_token_mismatch_return_link": "Kembali, untuk mencoba lagi",
                 "invalid_confirmation_token": "Link konfirmasi ini sudah pernah digunakan atau tidak valid.",
-                "maintenance_mode_link": "",
-                "maintenance_mode_message": "",
-                "maintenance_mode_title": "",
+                "maintenance_mode_link": "Masuk sebagai administrator",
+                "maintenance_mode_message": "Forum ini sedang dalam pemeliharaan. Silakan coba lagi nanti.",
+                "maintenance_mode_title": "Pemeliharaan",
                 "method_not_allowed": "Halaman ini tidak mendukung metode request tersebut.",
                 "not_authenticated": "Anda tidak memiliki izin untuk mengakses halaman ini. Coba lagi setelah Anda login.",
                 "not_found": "Halaman yang Anda minta tidak dapat ditemukan.",
@@ -983,7 +983,7 @@
                 "previous_page_button": "=> core.ref.previous_page"
             },
             "layout": {
-                "skip_to_content": ""
+                "skip_to_content": "Langsung ke konten"
             },
             "log_out": {
                 "log_out_button": "=> core.ref.log_out",
@@ -991,12 +991,12 @@
                 "title": "=> core.ref.log_out"
             },
             "log_in": {
-                "invalid_login_message": "",
-                "username_or_email_placeholder": "",
-                "password_placeholder": "",
-                "remember_me_label": "",
-                "submit_button": "",
-                "title": ""
+                "invalid_login_message": "=> core.ref.invalid_login_message",
+                "username_or_email_placeholder": "=> core.ref.username_or_email_placeholder",
+                "password_placeholder": "=> core.ref.password",
+                "remember_me_label": "=> core.ref.remember_me_label",
+                "submit_button": "=> core.ref.log_in",
+                "title": "=> core.ref.log_in"
             },
             "reset_password": {
                 "confirm_password_label": "Konfirmasi Password Baru",
@@ -1005,17 +1005,17 @@
                 "title": "=> core.ref.reset_your_password"
             },
             "unsubscribe_email": {
-                "title": "",
-                "return_to_forum": "",
-                "confirm_button": "",
-                "immediate_helptext": "",
-                "confirm_message": "",
-                "success_message": "",
-                "invalid_message": ""
+                "title": "Konfirmasi Berhenti Berlangganan",
+                "return_to_forum": "Kembali ke {forumTitle}",
+                "confirm_button": "Konfirmasi",
+                "immediate_helptext": "Anda akan segera berhenti berlangganan setelah mengonfirmasi.",
+                "confirm_message": "Anda telah meminta untuk berhenti berlangganan pemberitahuan email \"{type}\" dari {forumTitle}.",
+                "success_message": "Anda telah berhasil berhenti berlangganan pemberitahuan \"{type}\" dari {forumTitle}. Jika Anda ingin menerimanya kembali, silakan [perbarui pengaturan Anda]({settingsLink}).",
+                "invalid_message": "Link berhenti berlangganan ini tidak valid atau sudah pernah digunakan. Untuk perubahan apa pun pada notifikasi email Anda dari {forumTitle}, silakan [periksa pengaturan Anda]({settingsLink})."
             }
         },
         "api": {
-            "invalid_username_message": "",
+            "invalid_username_message": "Username hanya boleh berisi huruf, angka, dan tanda hubung. Dengan setidaknya satu huruf.",
             "invalid_filter_type": {
                 "must_be_numeric_message": "Filter {filter} harus berupa angka.",
                 "must_not_be_array_message": "Filter {filter} tidak boleh berupa array.",
@@ -1023,46 +1023,46 @@
             }
         },
         "email": {
-            "greeting": "",
-            "signoff": "",
+            "greeting": "Halo {displayName},",
+            "signoff": "Tim {forumTitle}",
             "informational": {
-                "default_title": "",
-                "footer": "",
-                "footer_plain": ""
+                "default_title": "Informasi",
+                "footer": "Email ini dikirimkan ke {userEmail} sebagai layanan informasi terkait akun Anda di [{forumTitle}]({forumUrl}).",
+                "footer_plain": "Email ini dikirim ke {userEmail} sebagai layanan informasi terkait akun Anda di {forumTitle}."
             },
             "notification": {
-                "default_title": "",
+                "default_title": "Notifikasi",
                 "footer": {
-                    "main_text": "",
-                    "main_text_plain": "",
-                    "unsubscribe_text": "",
-                    "unsubscribe_text_plain": "",
-                    "settings_text": "",
-                    "settings_text_plain": ""
+                    "main_text": "Email ini dikirim ke {email} karena Anda berlangganan notifikasi \"{type}\" di [{forumTitle}]({forumUrl}).",
+                    "main_text_plain": "Email ini dikirim ke {email} karena Anda berlangganan notifikasi \"{type}\" di {forumTitle}.",
+                    "unsubscribe_text": "Jika Anda ingin berhenti menerima jenis notifikasi ini, [unsubscribe here]({unsubscribeLink}).",
+                    "unsubscribe_text_plain": "Jika Anda ingin berhenti menerima notifikasi jenis ini, berhenti berlangganan di sini: {unsubscribeLink}",
+                    "settings_text": "Kelola pengaturan notifikasi Anda [di sini]({settingsLink}).",
+                    "settings_text_plain": "Kelola pengaturan notifikasi Anda di sini: {settingsLink}"
                 }
             },
             "activate_account": {
                 "subject": "Aktifkan Akun Baru Anda",
-                "body": ""
+                "body": "Seseorang (semoga Anda!) telah mendaftar di {forum} menggunakan alamat email ini.\n\nJika itu Anda, cukup klik link berikut dan akun Anda akan diaktifkan:\n{url}\n\nJika Anda tidak mendaftar, silakan abaikan email ini.\n"
             },
             "confirm_email": {
                 "subject": "Konfirmasi Alamat Email Baru Anda",
-                "body": ""
+                "body": "Seseorang (semoga Anda!) telah mengubah alamat emailnya di {forum} menjadi alamat ini.\n\nJika itu Anda, cukup klik link berikut dan alamat email Anda akan terkonfirmasi:\n{url}\n\nJika bukan Anda, silakan abaikan email ini.\n"
             },
             "reset_password": {
                 "subject": "=> core.ref.reset_your_password",
-                "body": ""
+                "body": "Seseorang (semoga Anda!) telah mengajukan permintaan pemulihan password untuk akun Anda di {forum}.\n\nJika itu Anda, klik link berikut untuk mengatur ulang password Anda:\n{url}\n\nJika Anda tidak ingin mengubah password Anda, abaikan saja email ini dan semuanya akan tetap seperti semula.\n"
             },
             "send_test": {
                 "subject": "Tes Email Flarum",
-                "body": ""
+                "body": "Ini adalah email uji coba untuk memastikan bahwa konfigurasi email Flarum Anda berfungsi dengan baik.\n\nJika Anda yang menerima email ini, berarti konfigurasi Anda berfungsi dengan baik!\n\nJika bukan Anda yang seharusnya menerima email ini, silakan abaikan saja.\n"
             },
             "abandoned_extensions": {
                 "subject": "Tindakan yang diperlukan: terdeteksi ekstensi yang ditinggalkan",
-                "body_intro": "",
-                "body_outro": "",
-                "line_with_replacement": "",
-                "line_no_replacement": ""
+                "body_intro": "Ekstensi yang terpasang berikut ini telah ditandai sebagai ekstensi yang telah ditinggalkan:",
+                "body_outro": "Silakan periksa ekstensi-ekstensi ini dan pertimbangkan untuk beralih ke alternatif yang tersedia.",
+                "line_with_replacement": "{package} (pengganti yang disarankan: {replacement})",
+                "line_no_replacement": "{package} (tidak ada pengganti yang tersedia)"
             }
         },
         "ref": {
@@ -1077,8 +1077,8 @@
             "custom_footer_title": "Edit Footer Khusus",
             "custom_header_text": "Tambahkan HTML untuk ditampilkan di bagian paling atas halaman, di atas header Flarum.",
             "custom_header_title": "Edit Header Khusus",
-            "dark_hc_mode_label": "",
-            "dark_mode_label": "",
+            "dark_hc_mode_label": "Mode Gelap Kontras Tinggi",
+            "dark_mode_label": "Mode Gelap",
             "delete": "Hapus",
             "delete_forever": "Hapus Permanen",
             "discussions": "Diskusi",
@@ -1088,10 +1088,10 @@
             "extensions": "Ekstensi",
             "generic_confirmation_message": "Apakah Anda yakin ingin melanjutkan? Tindakan ini tidak dapat dibatalkan.",
             "icon": "Ikon",
-            "icon_text": "Masukkan nama kelas ikon <a>FontAwesome</a> apa pun, <em>termasuk</em> prefiks <code>fas fa-</code>.",
-            "invalid_login_message": "",
-            "light_hc_mode_label": "",
-            "light_mode_label": "",
+            "icon_text": "Masukkan nama kelas ikon <a>FontAwesome</a> apa pun, <em>termasuk</em> prefiksnya (misalnya <code>fas fa-flag</code> atau <code>fa-solid fa-flag</code>).",
+            "invalid_login_message": "Detail login Anda salah.",
+            "light_hc_mode_label": "Mode Terang Kontras Tinggi",
+            "light_mode_label": "Mode Terang",
             "load_more": "Muat Lainnya",
             "loading": "Memuat...",
             "log_in": "Login",
@@ -1099,20 +1099,20 @@
             "mark_all_as_read": "Tandai Semua telah Dibaca",
             "never": "Tidak pernah",
             "new_token": "Token Baru",
-            "newest": "",
+            "newest": "Terbaru",
             "next_page": "Halaman Selanjutnya",
             "notifications": "Notifikasi",
             "okay": "OK",
-            "oldest": "",
+            "oldest": "Terlama",
             "password": "Password",
             "posts": "Post",
             "previous_page": "Halaman Sebelumnya",
-            "relevance": "",
-            "remember_me_label": "",
+            "relevance": "Relevansi",
+            "remember_me_label": "Ingat Saya",
             "remove": "Hapus",
             "rename": "Ganti nama",
             "reply": "Balas",
-            "refresh": "",
+            "refresh": "Segarkan",
             "reset_your_password": "Reset Password Anda",
             "restore": "Pulihkan",
             "save_changes": "Simpan Perubahan",
@@ -1123,7 +1123,7 @@
             "some_others": "{count, plural, one {# lainnya} other {# lainnya}}",
             "start_a_discussion": "Mulai Diskusi",
             "username": "Username",
-            "username_or_email_placeholder": "",
+            "username_or_email_placeholder": "Username atau Email",
             "users": "Pengguna",
             "view": "Lihat",
             "write_a_reply": "Tulis Balasan...",

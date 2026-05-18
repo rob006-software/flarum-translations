@@ -1,0 +1,39 @@
+{
+    "michaelbelgium-mybb-to-flarum": {
+        "admin": {
+            "content": {
+                "description_text": "Chuyển diễn đàn Mybb thành Flarum. Điền vào các dữ liệu cần thiết, sau đó nhấp vào \"di chuyển\".",
+                "convert_button": "Di chuyển",
+                "form": {
+                    "options": {
+                        "title": "Tùy chọn khác",
+                        "migrate_avatars_label": "Chuyển ảnh đại diện",
+                        "migrate_soft_threads_label": "Chuyển các chủ đề xóa tạm thời",
+                        "migrate_soft_posts_label": "Chuyển các bài viết xóa tạm thời",
+                        "migrate_attachments_label": "Chuyển các tệp đính kèm",
+                        "debug_mode_label": ""
+                    },
+                    "mybb": {
+                        "title": "Thiết lập MyBB",
+                        "host_label": "Host cơ sở dữ liệu",
+                        "user_label": "User cơ sở dữ liệu",
+                        "password_label": "Mật khẩu cơ sở dữ liệu",
+                        "db_label": "Tên cơ sở dữ liệu",
+                        "prefix_label": "Tiền tố bảng",
+                        "path": {
+                            "label": "",
+                            "help_text": ""
+                        }
+                    },
+                    "general": {
+                        "title": "Các tùy chọn chung",
+                        "migrate_users_label": "Chuyển người dùng",
+                        "migrate_threadsPosts_label": "Chuyển chủ đề và bài viết",
+                        "migrate_userGroups_label": "Chuyển nhóm người dùng",
+                        "migrate_categories_label": "Chuyển danh mục"
+                    }
+                }
+            }
+        }
+    }
+}

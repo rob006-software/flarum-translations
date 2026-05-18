@@ -2,26 +2,26 @@
     "ianm-log-viewer": {
         "admin": {
             "permissions": {
-                "access_logfile_api": ""
+                "access_logfile_api": "Visualice y gestione los archivos de registro"
             },
             "settings": {
-                "max-file-size": "",
-                "max-file-size-help": "",
-                "purge-days": "",
-                "purge-days-help": ""
+                "max-file-size": "Tamaño máximo del archivo de registro (MB)",
+                "max-file-size-help": "Si un archivo de registro supera este tamaño, se dividirá en varias partes. Establezca el valor en 0 para desactivar la división. El valor predeterminado es 1 MB. El tamaño máximo permitido es de 150 MB.",
+                "purge-days": "Elimine los archivos de registro después de unos días",
+                "purge-days-help": "Requiere que el planificador Flarum esté activo. 0 para deshabilitado."
             },
             "viewer": {
-                "available_logs_heading": "",
-                "file_contents_heading": "",
-                "last_updated": "",
-                "no_log_files": "",
-                "no_file_selected": "",
-                "view_log": "",
-                "download_log": "",
-                "delete_log": "",
-                "confirm_delete": "",
-                "scroll_to_bottom": "",
-                "scroll_to_top": ""
+                "available_logs_heading": "Archivos disponibles",
+                "file_contents_heading": "Contenido del archivo",
+                "last_updated": "Última actualización: {updated}",
+                "no_log_files": "No se encontraron archivos de registro.",
+                "no_file_selected": "Seleccione un archivo de registro para ver su contenido.",
+                "view_log": "Ver archivo de registro",
+                "download_log": "Descargar archivo de registro",
+                "delete_log": "Eliminar archivo de registro",
+                "confirm_delete": "¿Está seguro de que desea eliminar este archivo de registro? Esta acción no se puede deshacer.",
+                "scroll_to_bottom": "Desplácese hacia abajo",
+                "scroll_to_top": "Desplácese hacia arriba"
             }
         }
     }

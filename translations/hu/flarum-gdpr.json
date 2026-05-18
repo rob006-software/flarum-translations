@@ -35,7 +35,7 @@
             },
             "nav": {
                 "gdpr_button": "GDPR integrációk",
-                "gdpr_title": ""
+                "gdpr_title": "=> flarum-gdpr.admin.gdpr_page.description"
             },
             "permissions": {
                 "process_erasure": "Törlési kérések feldolgozása",
@@ -64,8 +64,8 @@
                 "columns": {
                     "user_actions": {
                         "data_export": {
-                            "button": "",
-                            "tooltip": ""
+                            "button": "Exportálás",
+                            "tooltip": "{username} adatainak exportálása"
                         }
                     }
                 }
@@ -109,25 +109,25 @@
         "email": {
             "confirm_erasure": {
                 "subject": "Erősítse meg a fióktörlési kérését",
-                "body": ""
+                "body": "Valaki (remélhetőleg Ön) a(z) `{display_name}` fiók törlését kérte.\n\nA művelet megerősítéséhez kövesse a következő hivatkozást, ezután a kérést fel fogja dolgozni a csapatunk.\n\n{erasure_confirm_url}\n"
             },
             "erasure_completed": {
                 "deletion": {
                     "subject": "A fiók törlése befejeződött",
-                    "body": ""
+                    "body": "Ez egy automatikus, végső értesítés arról, hogy a fiókját törölték.\n"
                 },
                 "anonymization": {
                     "subject": "A fiók anonimizálása befejeződött",
-                    "body": ""
+                    "body": "Ez egy automatikus, végső értesítés arról, hogy a fiókját anonimizálták.\n"
                 }
             },
             "erasure_cancelled": {
                 "subject": "A fióktörlési kérés lemondva",
-                "body": ""
+                "body": "Ez egy automatikus, végső értesítés arról, hogy a fióktörlési kérése visszavonását feldolgozták.\n\nA fiókja már nem lesz törölve.\n"
             },
             "export_available": {
                 "subject": "Az adatexport elérhető",
-                "body": ""
+                "body": "{username} fiókadatainak exportálását kérte. Az export elő lett állítva, és most már elérhető:\n\n{url}\n\nEz az export eddig marad elérhető: {destroys_at}.\n"
             }
         },
         "forum": {

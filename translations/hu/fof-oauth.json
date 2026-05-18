@@ -103,9 +103,9 @@
                 "twitter": "=> fof-oauth.lib.providers.twitter"
             },
             "account_linked": {
-                "title": "",
-                "body": "",
-                "dismiss_button": ""
+                "title": "Fiók hozzákötve",
+                "body": "A(z) <strong>{username}</strong> {forum}-fiókja most már össze van kötve ezzel: {provider}. Most már a fórumjelszavával és a(z) {provider} segítségével is bejelentkezhet.",
+                "dismiss_button": "Rendben"
             },
             "signup": {
                 "username_help": "Válasszon egy itt használandó felhasználónevet"
@@ -114,7 +114,7 @@
             "error": {
                 "bad_verification_code": "Hibás vagy lejárt ellenőrzőtoken. Próbálja újra.",
                 "invalid_state": "Érvénytelen állapot. Próbálja újra.",
-                "already_linked": ""
+                "already_linked": "Ez a fiók már hozzá van kapcsolva egy másik felhasználóhoz."
             }
         },
         "lib": {
@@ -129,8 +129,8 @@
             },
             "gambits": {
                 "sso": {
-                    "key": "",
-                    "hint": ""
+                    "key": "sso",
+                    "hint": "egy bejelentkezési szolgáltató"
                 }
             }
         },

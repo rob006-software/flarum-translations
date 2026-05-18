@@ -1,0 +1,14 @@
+{
+    "anto0102-mailguard": {
+        "admin": {
+            "mode_label": "Domain filtering mode",
+            "mode_help": "Allow = only listed domains can register. Deny = listed domains are blocked.",
+            "domains_label": "Email domains (one per line)",
+            "domains_help": "Enter domains without @. Example: gmail.com",
+            "message_label": "Rejection message",
+            "message_help": "Message shown to users who try to register with a blocked email domain.",
+            "check_mx_label": "Validate MX/DNS Records",
+            "check_mx_help": "If enabled, blocks domains that do not exist or cannot receive emails (regardless of allow/deny lists)."
+        }
+    }
+}

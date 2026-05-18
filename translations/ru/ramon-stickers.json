@@ -2,55 +2,56 @@
     "ramon-stickers": {
         "admin": {
             "settings": {
-                "hover_play_label": "",
-                "hover_play_help": "",
-                "show_tooltip_label": "",
-                "show_tooltip_help": ""
+                "hover_play_label": "Воспроизводить анимации только при наведении",
+                "hover_play_help": "Если включено, анимации Lottie и TGS в сообщениях будут остановлены на первом кадре и воспроизводиться только при наведении курсора.",
+                "show_tooltip_label": "Показывать название стикера при наведении",
+                "show_tooltip_help": "Если включено, название стикера будет отображаться во всплывающей подсказке при наведении в сообщениях или в панели выбора."
             },
             "sticker_section": {
-                "heading_title": "",
-                "import_button": "",
-                "export_button": "",
-                "export_error": "",
-                "import_zip_message": "",
-                "import_stickers_message": "",
-                "importing_message": "",
-                "import_result": "",
-                "import_error_message": "",
-                "bulk_upload_button": "",
-                "bulk_upload_category_prompt": "",
-                "bulk_upload_progress": "",
-                "bulk_upload_done": "",
-                "select_button": "",
-                "cancel_select_button": "",
-                "delete_selected_button": "",
-                "delete_selected_confirm": "",
+                "heading_title": "Стикеры",
+                "import_button": "Импорт",
+                "export_button": "Экспорт ZIP",
+                "export_error": "Ошибка экспорта. Попробуйте снова.",
+                "import_zip_message": "Это импортирует стикеры из ZIP-файла. Файлы стикеров будут скопированы в /assets/stickers/, существующие записи не будут перезаписаны. Продолжить?",
+                "import_stickers_message": "Это импортирует метаданные стикеров из JSON-файла. Файлы стикеров не включены — они должны быть уже загружены. Продолжить?",
+                "importing_message": "Идёт импорт...",
+                "import_result": "Готово: импортировано {imported}, пропущено {skipped} — уже есть.",
+                "import_error_message": "Ошибка импорта: {error}",
+                "bulk_upload_button": "Загрузить несколько",
+                "bulk_upload_category_prompt": "Название категории для этих стикеров:",
+                "bulk_upload_progress": "Загрузка {current}/{total}...",
+                "bulk_upload_done": "Готово: загружено {uploaded}, ошибок {errors}.",
+                "select_button": "Выбрать",
+                "cancel_select_button": "Отменить",
+                "delete_selected_button": "Удалить ({count})",
+                "delete_selected_confirm": "Удалить {count} стикеров? Это действие нельзя отменить.",
                 "edit_sticker": {
-                    "modal_title": "",
-                    "sticker_category_label": "",
-                    "category_name_label": "",
-                    "sticker_title_label": "",
-                    "text_to_replace_label": "",
-                    "path_or_url_label": "",
-                    "upload_label": "",
-                    "upload_button": "",
-                    "upload_help": "",
-                    "submit_button": "",
-                    "delete_sticker_button": "",
-                    "delete_sticker_confirmation": "",
-                    "saved_message": ""
+                    "modal_title": "Добавить стикер",
+                    "sticker_category_label": "Код категории",
+                    "category_name_label": "Название категории",
+                    "sticker_title_label": "Название стикера",
+                    "text_to_replace_label": "Текст для замены. Например, :sticker:",
+                    "path_or_url_label": "Путь или URL",
+                    "upload_label": "Загрузить файл",
+                    "upload_button": "Выбрать файл",
+                    "upload_help": "Поддерживаются анимированные Lottie JSON (.json), стикеры Telegram (.tgs), PNG, GIF, WebP, JPEG.",
+                    "submit_button": "=> core.ref.save_changes",
+                    "delete_sticker_button": "Удалить стикер",
+                    "delete_sticker_confirmation": "Удалить этот стикер?",
+                    "saved_message": "=> core.admin.settings.saved_message",
+                    "save_error": ""
                 },
                 "sticker_list": {
-                    "load_more_button": ""
+                    "load_more_button": "=> core.forum.post_stream.load_more_button"
                 }
             }
         },
         "forum": {
             "composer": {
-                "sticker_tooltip": ""
+                "sticker_tooltip": "Вставить стикер"
             },
             "picker": {
-                "no_stickers": ""
+                "no_stickers": "Стикеры не найдены"
             }
         }
     }

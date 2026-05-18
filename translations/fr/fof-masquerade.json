@@ -22,7 +22,6 @@
             }
         },
         "admin": {
-            "general-options": "Options générales",
             "buttons": {
                 "add-field": "Créer un champ",
                 "edit-field": "Enregistrer les modifications",
@@ -50,6 +49,7 @@
                 "icon": "Icône",
                 "icon-help": "Affiche une icône devant les valeurs saisies par l'utilisateur. Pour une référence des icônes disponibles, consultez <a>site de Font Awesome</a>. Utilisez des noms d'icônes avec le préfixe « fa- », comme « fas fa-info ».\n",
                 "force-user-to-completion": "Obliger l'utilisateur à compléter son profil",
+                "hide-empty-fields": "Masquer les champs vides",
                 "options": "Options",
                 "option-new": "Nouvelle option",
                 "option-comma-warning": "Le libellé d'une option ne peut pas contenir de virgule (« , »).",
@@ -61,7 +61,8 @@
                 "email": "Courriel",
                 "select": "Menu déroulant",
                 "url": "URL"
-            }
+            },
+            "general-options": "Options générales"
         },
         "lib": {
             "gambits": {

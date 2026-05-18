@@ -1,0 +1,32 @@
+{
+    "michaelbelgium-ai-autoreply": {
+        "admin": {
+            "settings": {
+                "platform_label": "Plattform",
+                "platform_help": "Wähle die gewünschte KI-Plattform aus.",
+                "api_key_label": "API-Schlüssel",
+                "api_key_help": "Den API-Schlüssel erhältst du unter <a>{platform}</a>.",
+                "model_label": "Modell",
+                "model_help": "Erfahre mehr über <a>{platform} Modelle</a> (Standard: <code>{model}</code>)..",
+                "max_tokens_label": "Maximale Tokens",
+                "max_tokens_help": "<a>Was sind Tokens und wie werden sie gezählt?</a>",
+                "temperature_label": "Temperatur",
+                "temperature_help": "Steuert den Zufallsgrad. Der Wertebereich liegt normalerweise zwischen 0 und 2, bei einigen Plattformen sind jedoch andere Wertebereiche möglich.",
+                "user_prompt_label": "Benutzer für Assistenten-Antworten",
+                "user_prompt_help": "Gib die Benutzer-ID ein, die zur Generierung von KI-Antworten verwendet werden soll.",
+                "system_prompt_label": "System-Prompt",
+                "system_prompt_help": "Gib dem Assistenten Hintergrundinformationen und Anweisungen, beispielsweise indem du ein bestimmtes Ziel oder eine bestimmte Rolle festlegst.",
+                "system_prompt_placeholder": "Du bist ein hilfsbereiter Assistent in einem Flarum-Forum.",
+                "user_prompt_badge_label": "Markierung für Assistenten-Benutzer",
+                "user_prompt_badge_help": "Text, der unterhalb des Assistenten angezeigt wird.",
+                "enable_on_discussion_started_label": "Bei Diskussionsbeginn aktivieren",
+                "enable_on_discussion_started_help": "Wenn aktiviert, antwortet die KI nur zu Beginn einer Diskussion. Wenn sie deaktiviert ist, wird die Diskussion zu einem Chat zwischen dem Verfasser des Beitrags und dem Assistenten; der Assistent antwortet auf jeden Beitrag des Verfassers.",
+                "enabled_tags_label": "Themen",
+                "enabled_tags_help": "Wähle aus, bei welchen Themen der Assistent antworten soll."
+            },
+            "permissions": {
+                "use_chatgpt_assistant_label": "KI-Assistenten verwenden"
+            }
+        }
+    }
+}

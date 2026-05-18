@@ -1,0 +1,130 @@
+{
+    "flarum-classifieds": {
+        "admin": {
+            "settings": {
+                "tag_ids_label": "",
+                "tag_ids_help": "",
+                "default_currency_label": "",
+                "default_currency_help": "",
+                "allowed_labels_label": "",
+                "allowed_labels_help": "",
+                "allow_price_range_label": "",
+                "allow_price_range_help": "",
+                "show_currency_symbol_label": "",
+                "show_currency_symbol_help": "",
+                "require_label_label": "",
+                "require_price_label": "",
+                "require_location_label": "",
+                "auto_prune_days_label": "",
+                "auto_prune_days_help": "",
+                "auto_prune_sold_label": "",
+                "auto_prune_sold_help": ""
+            },
+            "permissions": {
+                "mark_listing_sold_label": "",
+                "bump_listing_label": "",
+                "edit_listing_label": ""
+            },
+            "edit_tag": {
+                "is_classifieds_label": "",
+                "is_classifieds_help": ""
+            }
+        },
+        "forum": {
+            "composer": {
+                "section_title": "",
+                "label_label": "",
+                "label_placeholder": "",
+                "price_label": "",
+                "price_max_label": "",
+                "currency_label": "",
+                "location_label": "",
+                "location_placeholder": "",
+                "configure_listing_button": ""
+            },
+            "start_listing": {
+                "title": "",
+                "help": "",
+                "continue_button": ""
+            },
+            "classifieds_composer": {
+                "title_placeholder": "",
+                "body_placeholder": "",
+                "label_required": "",
+                "price_required": "",
+                "location_required": ""
+            },
+            "create_listing": {
+                "title": "",
+                "title_label": "",
+                "description_label": "",
+                "submit_button": "",
+                "title_required": "",
+                "description_required": ""
+            },
+            "edit_listing": {
+                "title": "",
+                "save_button": ""
+            },
+            "discussion_controls": {
+                "mark_sold_button": "",
+                "mark_active_button": "",
+                "bump_button": "",
+                "edit_listing_button": ""
+            },
+            "post_stream": {
+                "status_changed_sold_text": "",
+                "status_changed_active_text": "",
+                "status_changed_completed_text": "",
+                "listing_bumped_text": ""
+            },
+            "uploader": {
+                "title": "",
+                "hint": "",
+                "add": "",
+                "remove": "",
+                "invalid_type": "",
+                "too_large": ""
+            },
+            "landing": {
+                "title": "",
+                "greeting": "",
+                "greeting_guest": "",
+                "prompt": "",
+                "select_category": "",
+                "empty": "",
+                "discussion_count": ""
+            },
+            "breadcrumb": {
+                "classifieds": ""
+            },
+            "actions": {
+                "contact_seller": "",
+                "login_to_contact": "",
+                "share": "",
+                "copy_link": "",
+                "link_copied": "",
+                "copy_failed": ""
+            },
+            "seller": {
+                "title": "",
+                "member_since": "",
+                "listings": "",
+                "last_seen": ""
+            }
+        },
+        "lib": {
+            "labels": {
+                "iso": "",
+                "wtb": "",
+                "wts": "",
+                "trade": ""
+            },
+            "statuses": {
+                "active": "",
+                "sold": "",
+                "completed": ""
+            }
+        }
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "forumaker-profile-cover": {
+        "admin": {
+            "sections": {
+                "thumbnails": "Thumbnails",
+                "general": "General"
+            },
+            "thumbnails": "Create thumbnails",
+            "thumbnails_help": "Creates a scaled-down version of the cover used in compact views like user cards and directory listings. When disabled, full-size covers are used instead",
+            "thumbnail_width": "Maximum thumbnail width (px)",
+            "thumbnail_width_help": "The cover is scaled proportionally so its width equals this value. Default is 500",
+            "recreate_thumbnails": "Recreate thumbnails",
+            "delete_thumbnails": "Delete thumbnails",
+            "recreate_success": "Thumbnails recreated successfully",
+            "delete_success": "All thumbnails deleted",
+            "recreate_error": "Failed to recreate thumbnails",
+            "delete_error": "Failed to delete thumbnails",
+            "max_size": "Maximum profile cover image size (KB)",
+            "permission": {
+                "set_cover": "Set Profile Cover"
+            }
+        },
+        "forum": {
+            "cover": "Cover",
+            "edit_cover": "Edit Cover",
+            "notice": "Maximum size: {size}",
+            "added": {
+                "success": "Profile cover updated",
+                "error": "Image could not be uploaded"
+            },
+            "removed": {
+                "success": "Profile cover removed",
+                "error": "Failed to remove cover, try again"
+            }
+        }
+    }
+}

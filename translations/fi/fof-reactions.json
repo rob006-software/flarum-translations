@@ -12,16 +12,16 @@
                 "title": "Reaktiot",
                 "anonymous_count": "{count, plural, one {# tuntematon käyttäjä} other {# tuntematonta käyttäjää}}",
                 "no_reactions": "Ei vielä reaktioita",
-                "load_more": "",
-                "others_count": "",
-                "remove_all_reaction_type": "",
-                "remove_user_reaction": ""
+                "load_more": "Lataa lisää",
+                "others_count": "+ {count, plural, one {# muu} other {# muuta}}",
+                "remove_all_reaction_type": "Poista kaikki {reaction} reaktiot",
+                "remove_user_reaction": "Poista reaktio"
             },
             "mod_item": "Näytä reaktiot",
             "react_button_label": "Reagoi",
-            "unreact_button_label": "",
-            "reaction_button_label": "",
-            "reacted_with_label": ""
+            "unreact_button_label": "Poista reaktio",
+            "reaction_button_label": "Reagoi reaktiolla {reaction}",
+            "reacted_with_label": "{count, plural, one {{reaction} (# reaktio)} other {{reaction} (# reaktiota)}}"
         },
         "admin": {
             "permissions": {
@@ -32,12 +32,12 @@
             "page": {
                 "cdn": {
                     "title": "CDN",
-                    "help": "Oletuksena reaktioiden tiedostot jaetaan Cloudflaren CDN:n kautta. Voit myös asettaa minkä tahansa muun CDN:n osoitteen\nmikäli on tarve. <code>[codepoint]</code> korvataan emojin koodilla.\n\nEsimerkiksi jos käytetään Noto Emojia jsdelivr kautta, syötä <code>https://cdn.jsdelivr.net/gh/googlefonts/noto-emoji@v2.040/svg/emoji_u[codepoint].svg</code>. Tätä kentää EI SAA koskaan jättää tyhjäksi.\n",
+                    "help": "Oletuksena reaktioresurssit tarjoillaan Cloudflaren CDN:stä. Voit myös määrittää minkä tahansa muun CDN-osoitteen\ntarpeen mukaan. <code>[codepoint]</code> korvataan emojin koodipisteellä.\n\nEsimerkiksi vaihtaaksesi Noto Emojiin jsdelivr:n kautta, syötä <code>https://cdn.jsdelivr.net/gh/googlefonts/noto-emoji@v2.040/svg/emoji_u[codepoint].svg</code>.\n\nCDN:si on tuettava Emoji/Unicode {emojibase} tai uudempaa. Käytä [twemoji] Twemoji-version lisäämiseksi.\n",
                     "label": "URL",
                     "default-url": "Oletus: {url}"
                 },
                 "reactions": {
-                    "title": "Muokatut reaktiot",
+                    "title": "Reaktiot",
                     "reactions": "Nykyiset reaktiot",
                     "Helptext": "Syötä emojin nimi (tunniste) tai font-awesome ikonin luokka ja valitse minkä tyyppisen haluat.",
                     "help": {
@@ -45,16 +45,16 @@
                         "identifier": "Tunniste"
                     },
                     "delete_confirmation": "Haluatko varmasti poistaa tämän reaktion? Tätä ei voi peruuttaa.",
-                    "delete_reaction_button": "",
-                    "add_reaction_button": "",
-                    "add_reaction_label": "",
+                    "delete_reaction_button": "Poista reaktio",
+                    "add_reaction_button": "Lisää reaktio",
+                    "add_reaction_label": "Lisää uusi reaktio",
                     "header": {
-                        "display": "",
-                        "identifier": "",
-                        "type": "",
-                        "enabled": "",
-                        "action": "",
-                        "preview": ""
+                        "display": "Näytä teksti",
+                        "identifier": "Ikoni/Emoji tunniste",
+                        "type": "Tyyppi",
+                        "enabled": "Käytössä",
+                        "action": "Toiminto",
+                        "preview": "Esikatselu"
                     }
                 },
                 "convert": {

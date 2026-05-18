@@ -14,7 +14,7 @@
         },
         "console": {
             "scheduled_drafts_disabled": "Los borradores programados están actualmente desactivados en los ajustes.",
-            "no_title_error": ""
+            "no_title_error": "Borrador omitido: falta el título de la discusión."
         },
         "ref": {
             "schedule_draft": "Programar borrador"
@@ -51,7 +51,7 @@
                 "schedule_time_preview": "Este borrador se publicará automáticamente el <b>{datetime}</b>.",
                 "schedule_time_preview_formatter": "LLLL",
                 "schedule_time_preview_invalid": "Fecha y/o hora no válidas",
-                "no_title_error": ""
+                "no_title_error": "Es necesario un título para la discusión antes de programarla."
             },
             "user": {
                 "settings": {
@@ -67,8 +67,8 @@
     "fof-default-user-preferences": {
         "admin": {
             "settings": {
-                "draftAutosaveEnable": "",
-                "draftAutosaveInterval": ""
+                "draftAutosaveEnable": "Habilitar el autoguardado de borradores por defecto",
+                "draftAutosaveInterval": "Intervalo de autoguardado predeterminado (segundos)"
             }
         }
     },

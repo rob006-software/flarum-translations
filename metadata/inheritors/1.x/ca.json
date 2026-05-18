@@ -3039,66 +3039,21 @@
             }
         }
     },
-    "sycho-move-posts.json": {
-        "sycho-move-posts": {
+    "michaelbelgium-profile-views.json": {
+        "michaelbelgium-flarum-profile-views": {
             "admin": {
-                "permissions": {
-                    "move_posts": "138659e3b776e89f9be91923e23291fd 138659e3b776e89f9be91923e23291fd"
-                },
                 "settings": {
-                    "group_sequential_posts": "415b75fd4876a9de3fa4291bc8e51373 415b75fd4876a9de3fa4291bc8e51373",
-                    "moved_first_post_content": "23b3ab67e78178d4d9958e2e9741d3cd 23b3ab67e78178d4d9958e2e9741d3cd",
-                    "moved_first_post_content_help": "51bea29468efc9e377b611530d1f79a5 51bea29468efc9e377b611530d1f79a5"
+                    "max_viewcount_label": "44015fd39b925e92ea0748cf4ba427e5 44015fd39b925e92ea0748cf4ba427e5",
+                    "track_guests_label": "717bddf3e488df552e8de915d97617ae 717bddf3e488df552e8de915d97617ae"
                 }
             },
             "forum": {
-                "badge": {
-                    "first_moved_tooltip": "7d8082ae8ef5c79f1becd86978bf1e50 7d8082ae8ef5c79f1becd86978bf1e50"
-                },
-                "discussion": {
-                    "move_posts": "138659e3b776e89f9be91923e23291fd 138659e3b776e89f9be91923e23291fd"
-                },
-                "error": {
-                    "move_old_post_to_newer_discussion": "28534ab94e1d9b48401a2831e4ba2d74 28534ab94e1d9b48401a2831e4ba2d74"
-                },
-                "modal": {
-                    "check": "0b9fdc57c7bef319bf27ced451019baa 0b9fdc57c7bef319bf27ced451019baa",
-                    "destination": "e27eea92569af20c3afb1c25fde402b5 e27eea92569af20c3afb1c25fde402b5",
-                    "discussion_help": "59fee5dd0778ffe0596f36a0ea69384d 59fee5dd0778ffe0596f36a0ea69384d",
-                    "discussion_name": "5f93b38d28c94e3aa21b8e2066929348 5f93b38d28c94e3aa21b8e2066929348",
-                    "new_discussion": "160474ed4e81d3e8e94b2bd3dc0911dd 160474ed4e81d3e8e94b2bd3dc0911dd",
-                    "selected_posts": "16b7392803c717beb8bc8bbe17d248b6 16b7392803c717beb8bc8bbe17d248b6",
-                    "status": {
-                        "complex_move": "0dd58c83ac5e6137d7f9f322bf9d3b17 0dd58c83ac5e6137d7f9f322bf9d3b17",
-                        "old_to_new_move": "28534ab94e1d9b48401a2831e4ba2d74 28534ab94e1d9b48401a2831e4ba2d74",
-                        "simple_move": "8691f25a90dec8bb53ca45dca544e461 8691f25a90dec8bb53ca45dca544e461"
-                    },
-                    "submit": "32afd899d84e69143f34b15fb1690c38 32afd899d84e69143f34b15fb1690c38",
-                    "title": "138659e3b776e89f9be91923e23291fd 138659e3b776e89f9be91923e23291fd"
-                },
-                "notifications": {
-                    "post_moved_text": "31df38b08ae30956a4a8abab4b4cf93f 31df38b08ae30956a4a8abab4b4cf93f"
-                },
-                "post": {
-                    "move": "3afdfa8522fa27fa36ab943957de972e 3afdfa8522fa27fa36ab943957de972e",
-                    "moving": "36d7f5beb726781f4bbf1142857b4942 36d7f5beb726781f4bbf1142857b4942",
-                    "unmove": "54b00e8f89e65094989e0c3d01964931 54b00e8f89e65094989e0c3d01964931"
-                },
-                "post_stream": {
-                    "post_moved": "4cb2c3001d597b2fe21c4a862cd2ab0e 4cb2c3001d597b2fe21c4a862cd2ab0e"
-                }
-            },
-            "lib": {
-                "discussion": {
-                    "first_post": {
-                        "default_content": "a20f54baf753f9c5a759118ba09def5b a20f54baf753f9c5a759118ba09def5b"
+                "user": {
+                    "view_count_text": "5e1290cbd6d77895508327dee7e889f7 5e1290cbd6d77895508327dee7e889f7",
+                    "viewlist": {
+                        "guest": "5be5bfdb743fc2ef3f59495ec24e1c4b 5be5bfdb743fc2ef3f59495ec24e1c4b",
+                        "title": "648f5d74d860b68f08bfa8e7ed71201a 648f5d74d860b68f08bfa8e7ed71201a"
                     }
-                }
-            },
-            "ref": {
-                "move_posts": "f8412be21493323c0537d8a2a834d85e f8412be21493323c0537d8a2a834d85e",
-                "status": {
-                    "old_to_new_move": "f0d2eb10c4d2962268660894e4957cc8 f0d2eb10c4d2962268660894e4957cc8"
                 }
             }
         }

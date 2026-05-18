@@ -1,42 +1,42 @@
 {
     "acpl-mobile-tab": {
         "admin": {
-            "available_items": "",
-            "active_items": "",
-            "create_new_item_button": "",
+            "available_items": "Ítems disponibles",
+            "active_items": "Ítems activos",
+            "create_new_item_button": "Crear nuevo ítem",
             "edit_item": {
-                "modal_title": "",
-                "label": "",
-                "label_placeholder": "",
-                "path": "",
-                "url": "",
-                "icon": "",
-                "icon_help": "",
-                "is_internal_checkbox": "",
-                "open_new_tab_checkbox": "",
-                "submit_button": "",
-                "delete_button": "",
-                "delete_item_confirmation": ""
+                "modal_title": "Editar ítem",
+                "label": "Etiqueta",
+                "label_placeholder": "Mí ítem personalizado",
+                "path": "Path",
+                "url": "URL",
+                "icon": "Ícono",
+                "icon_help": "Escribe el nombre de la clase de un ícono <a>FontAwesome</a> incluyendo el prefijo <code>fas fa-</code>.",
+                "is_internal_checkbox": "¿Es un enlace interno?",
+                "open_new_tab_checkbox": "Abrir en nueva pestaña",
+                "submit_button": "Grabar",
+                "delete_button": "Borrar",
+                "delete_item_confirmation": "¿Seguro que deseas borrar este ítem?"
             },
             "scroll_settings": {
-                "toggle_label": "",
-                "threshold_label": "",
-                "threshold_help": ""
+                "toggle_label": "Alternar la visibilidad al desplazarse",
+                "threshold_label": "Umbral de desplazamiento (px)",
+                "threshold_help": "Distancia de desplazamiento desde la posición actual para alternar la visibilidad."
             }
         },
         "lib": {
             "item": {
-                "home": "",
-                "all_discussions": "",
-                "categories": "",
-                "notifications": "",
-                "session": "",
-                "search": "",
-                "log_in": "",
-                "profile": "",
-                "tags": "",
-                "messages": "",
-                "fof-byobu": ""
+                "home": "Inicio",
+                "all_discussions": "Discusiones",
+                "categories": "Categorías",
+                "notifications": "Notificaciones",
+                "session": "Sesión",
+                "search": "Buscar",
+                "log_in": "Ingresar",
+                "profile": "Perfil",
+                "tags": "Etiquetas",
+                "messages": "Mensajes",
+                "fof-byobu": "Privado"
             }
         }
     }

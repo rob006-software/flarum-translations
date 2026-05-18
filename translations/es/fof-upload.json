@@ -30,10 +30,10 @@
                 "disable-download-logging": "Deshabilite el registro de cada descarga realizada por los usuarios de su foro. Mantenerlo habilitado le permite ver la cantidad de descargas y otras métricas en un futuro próximo.\n",
                 "disable-hotlink-protection": "La protección Hotlink evita que se abran descargas de otros sitios. El método actual requiere un token csrf y un ID de publicación.\n",
                 "download_templates": "Las plantillas de descarga son la forma en que se muestran las subidas en su foro, por ejemplo: Vistas previas, botones. Actualmente disponible:\n",
-                "mime_types": "",
+                "mime_types": "Configure aquí su mapeado. Cada expresión regular de tipo MIME será gestionada por un adaptador de carga y una plantilla de descarga específicos.\nOpcionalmente, asigne a cada entrada una etiqueta de permiso (ej. \"Imágenes\", \"Vídeos\") para crear un permiso específico en la cuadrícula de permisos.\nEsto le permite restringir qué grupos pueden cargar tipos de archivo específicos, además del permiso básico \"Cargar archivos\", que siempre es obligatorio.\n",
                 "resize": "Elija si desea cambiar el tamaño de sus imágenes antes de que se carguen. Puede elegir un ancho y alto máximo, en píxeles. El proceso de cambio de tamaño mantiene la relación de aspecto de las imágenes.\n",
                 "client_extension": "Por defecto, Upload elegirá una extensión de archivo segura basada en el tipo MIME.\nPara algunos tipos de archivos basados en ZIP o datos binarios, esto puede resultar en el uso de extensiones genéricas en lugar de la esperada. \nAquí puede ingresar una lista separada por comas de extensiones de archivo que se mantendrán palabra por palabra.\n",
-                "thumbnails": "",
+                "thumbnails": "Genera una miniatura reducida para las imágenes al subirlas. La miniatura se muestra integrada;\nal hacer clic en ella, abre el archivo original en alta resolución en una nueva pestaña. Las miniaturas\nreducen mucho el ancho de banda y el peso de la página en foros con muchas imágenes grandes.\n",
                 "watermark": "Elija si las imágenes tendrán una marca de agua añadida durante la subida. Las marcas de agua se agregan a los no gifs según sus preferencias a continuación.\n",
                 "s3_compatible_storage": "Los siguientes ajustes solo son necesarios cuando se utiliza almacenamiento compatible con S3. Si usa AWS, puede dejarlos en blanco.\n",
                 "s3_acl": "La ACL que debe aplicarse al objeto subido (predeterminado: privado). Para conocer los valores posibles, consulte https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
@@ -71,7 +71,7 @@
                     "cdn_url": "URL de entrega de contenido (archivos de prefijos)",
                     "title": "Configuración de almacenamiento local"
                 },
-                "configured_by_environment": "",
+                "configured_by_environment": "La configuración de almacenamiento se ha preconfigurado mediante vía Environment Variables.",
                 "qiniu": {
                     "title": "Configuración de almacenamiento Qiniu",
                     "key": "Key",
@@ -81,9 +81,9 @@
                 "preferences": {
                     "max_file_size": "Tamaño máximo de archivo (en kilobytes)",
                     "mime_types": "Configure su tipo mime, mapeo del adaptador de subida",
-                    "mime_type_regex_placeholder": "",
-                    "mime_type_regex_invalid": "",
-                    "mime_type_permission_placeholder": "",
+                    "mime_type_regex_placeholder": "ej. ^image/(jpeg|png|gif)$",
+                    "mime_type_regex_invalid": "Expresión inválida (ej. Espacios vacíos ||)",
+                    "mime_type_permission_placeholder": "Etiqueta de permisos (opcional, ej. Imágenes)",
                     "title": "Preferencias generales",
                     "php_ini_values": "Los valores de <code>php.ini</code> son <code>post_max_size={post}</code> y <code>upload_max_filesize={upload}</code>. Asegúrese de que el valor establecido aquí esté por debajo de estos umbrales o ajústelos en consecuencia. Si usa <code>Nginx</code>, también asegúrese de que <code>client_max_body_size</code> tenga el tamaño suficiente para el límite máximo elegido."
                 },
@@ -96,25 +96,25 @@
                     "title": "Extensiones de archivo proporcionadas por el usuario"
                 },
                 "thumbnails": {
-                    "title": "",
-                    "toggle": "",
-                    "webp_toggle": "",
-                    "max_width": ""
+                    "title": "Miniaturas de imágenes",
+                    "toggle": "Generar miniaturas al subir archivos",
+                    "webp_toggle": "Codificar miniaturas como WebP (recomendado, ~30% se reduce)",
+                    "max_width": "Ancho max de la miniatura (px)"
                 },
                 "watermark": {
                     "file": "Sube tu imagen de marca de agua",
-                    "opacity": "",
-                    "padding": "",
+                    "opacity": "Opacidad de la marca de agua (0–100)",
+                    "padding": "Relleno desde el borde (px)",
                     "position": "Posición de marca de agua",
-                    "size_percent": "",
+                    "size_percent": "Tamaño de la marca de agua (% ancho de la imagen)",
                     "title": "Imágenes de marca de agua",
                     "toggle": "Imágenes de marca de agua"
                 },
                 "svg-sanitizer": {
-                    "title": "",
-                    "allow_animate": "",
-                    "help": "",
-                    "allow_animate_help": ""
+                    "title": "Desinfección SVG",
+                    "allow_animate": "Permitir animaciones SVG",
+                    "help": "Configure cómo se procesan y desinfectan los archivos SVG al subirlos. Los archivos SVG pueden contener scripts potencialmente dañinos y deben manejarse con cuidado. Los archivos SVG subidos se desinfectan al cargarlos y se eliminan los scripts y etiquetas dañinos.",
+                    "allow_animate_help": "Habilitar animaciones SVG puede introducir vulnerabilidades de seguridad, ya que los SVG animados pueden contener código malicioso. Habilite esta configuración bajo su propia responsabilidad y sólo si confía en sus usuarios."
                 },
                 "composer_buttons": {
                     "title": "Botones del compositor",
@@ -127,12 +127,12 @@
                 "inspect-mime": "Archivo de prueba tipo MIME"
             },
             "warnings": {
-                "fileinfo_missing": ""
+                "fileinfo_missing": "La extensión de PHP <strong>fileinfo</strong> no está cargada en este servidor. FoF Upload seguirá funcionando, pero la validación cruzada del tipo MIME está desactivada, lo que reduce la protección contra tipos de archivo falsificados. Para una mayor seguridad, habilite la extensión en su configuración de PHP.\n"
             },
             "permissions": {
                 "download_label": "Descargar archivos",
-                "upload_label": "",
-                "upload_mime_label": "",
+                "upload_label": "Subir archivos (permiso base, necesario para todas las subidas)",
+                "upload_mime_label": "Subir {label}",
                 "view_user_uploads_label": "Ver las subidas de los usuarios",
                 "delete_uploads_of_others_label": "Eliminar las subidas de los usuarios",
                 "upload_shared_label": "Subir archivos compartidos",
@@ -197,7 +197,7 @@
             "text_preview": {
                 "expand": "Ampliar vista previa",
                 "collapse": "Ocultar vista previa",
-                "download": "",
+                "download": "Descargar archivo",
                 "error": "Error al previsualizar el archivo. Es posible que se haya eliminado o que el ID de archivo proporcionado no sea válido.\n",
                 "no_snippet_preview": "<la vista previa aparecerá aquí después de la publicación>",
                 "no_snippet": "<no hay fragmento de vista previa disponible>"
@@ -206,7 +206,7 @@
         "api": {
             "upload_errors": {
                 "forbidden_type": "No se permite subir archivos de este tipo.",
-                "mime_permission_denied": "",
+                "mime_permission_denied": "No tienes permiso para subir este tipo de archivo.",
                 "unsupported_type": "El adaptador de carga no admite el tipo mime proporcionado: {mime}.",
                 "could_not_detect_mime": "No se pudo detectar el tipo MIME de este archivo, intente nuevamente.",
                 "max_upload_file_size_ini": "Se alcanzó el límite máximo de tamaño de archivo cargado desde php.ini.",

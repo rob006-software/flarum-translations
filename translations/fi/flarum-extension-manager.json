@@ -5,7 +5,7 @@
                 "add_label": "Uusi autentikointi tapa",
                 "add_modal": {
                     "host_label": "Isäntä",
-                    "host_placeholder": "",
+                    "host_placeholder": "esimerkki: bearer.flarum.org",
                     "submit_button": "Lähetä",
                     "token_label": "Tunniste (token)",
                     "type_label": "Tyyppi",
@@ -75,7 +75,7 @@
             "extensions": {
                 "check_why_it_failed_updating": "Näytä miksi sitä ei päivitetty viimeisimpään.",
                 "install": "Asenna uusi lisäosa",
-                "install_help": "Syötä lisäosan paketin nimi jatkaaksesi. Voit määrittää <semantic_link>semanttisen version</semantic_link> käyttäen muotoa <code>vendor/package-name:version</code>. Vieraile {extiverse} selataksesi lisäosia.\n",
+                "install_help": "Syötä lisäosan paketin nimi jatkaaksesi. Voit määrittää <semantic_link>semanttisen version</semantic_link> käyttäen muotoa <code>vendor/package-name:version</code>. Vieraile {extiverse} selataksesi saatavilla olevia lisäosia.\n",
                 "proceed": "Jatka",
                 "remove": "Poista lisäosa",
                 "successful_install": "{extension} asennettiin onnistuneesti, ohjataan..",
@@ -98,33 +98,33 @@
                 "update": "Päivitä"
             },
             "minor_update_confirmation": {
-                "content": ""
+                "content": "Tämä päivättää myös muut lisäosat/paketit millä on päivityksiä."
             },
-            "required_php_functions": "",
+            "required_php_functions": "Lisäosan hallinta työkalu vaatii, että seuraavat PHP funktiot ovat käytössä <code>{functions</code>, jos sinulla ei ole pääsyä PHP määrityksiin, ota yhteyttä palveluntarjoajaasi.\n",
             "sections": {
                 "discover": {
-                    "description": "",
-                    "empty_results": "",
+                    "description": "Lisää uusia toimintoja ja integraatioita Flarum foorumisi lisäosien avulla.",
+                    "empty_results": "Näyttää siltä, että lisäosa ei ole saatavilla.",
                     "extension": {
                         "badges": {
-                            "abandoned": "",
-                            "fof": "",
-                            "flarum": ""
+                            "abandoned": "Hylätty",
+                            "fof": "Friends Of Flarum",
+                            "flarum": "Flarum"
                         },
-                        "downloads": ""
+                        "downloads": "{count, plural, one {{formattedCount} lataus} other {{formattedCount} latausta}}"
                     },
-                    "search": "",
-                    "server_error": "",
+                    "search": "Etsi...",
+                    "server_error": "Palvelu ei ole tällä hetkellä saatavilla, yritä myöhemmin uudelleen.",
                     "sort": {
-                        "top": ""
+                        "top": "Eniten latauksia"
                     },
                     "tabs": {
-                        "discover": "",
-                        "extensions": "",
-                        "languages": "",
-                        "themes": ""
+                        "discover": "Löydä",
+                        "extensions": "Lisäosat",
+                        "languages": "Kielet",
+                        "themes": "Teemat"
                     },
-                    "title": ""
+                    "title": "Lisäosat"
                 },
                 "queue": {
                     "columns": {
@@ -163,8 +163,8 @@
                     "title": "Jono"
                 },
                 "settings": {
-                    "title": "",
-                    "description": ""
+                    "title": "Asetukset ja jono",
+                    "description": "Määritä lisäosan hallinta työkalu ja tarkista jonon operaatiot."
                 }
             },
             "settings": {
@@ -172,12 +172,12 @@
                 "access_warning": "Ole varovainen, kenelle myönnät pääsyn ylläpitoalueelle. Lisäosahallintaa voivat väärinkäyttää huonot tahot asentaakseen paketteja, jotka voivat johtaa turvallisuusongelmiin.",
                 "debug_mode_warning": "Ajaessasi debug-tilassa, lisäosahallinta ei voi oikein asentaa tai päivittää paikallisia kehityspaketteja. Käytä sen sijaan komentoriviliittymää tällaisten tehtävien suorittamiseen.",
                 "queue_jobs": "Suorita toimintoja taustajonoa käyttäen",
-                "queue_jobs_help": "",
+                "queue_jobs_help": "Voit lukea <basic_impl_link>tavallisesta jonosta</basic_impl_link> tai <adv_impl_link>edistyneestä jonosta</adv_impl_link>. Pidä huolta, että PHP versio, jota käytetään jonoissa on {php_version}. Huoletsi myös että <folder_perms_link>kansion oikeudet</folder_perms_link> on oikein määritetty.\n",
                 "task_retention_days": "Tehtävien säilytyspäivät",
                 "task_retention_days_help": "Päivien määrä, jonka aikana suoritettuja tehtäviä säilytetään tietokannassa. Tätä vanhemmat tehtävät poistetaan. Aseta arvoksi 0 säilyttääksesi kaikki tehtävät.\n"
             },
             "updater": {
-                "up_to_date": "",
+                "up_to_date": "Ei odottavia päivityksiä.",
                 "check_for_updates": "Tarkista päivitykset",
                 "flarum": "Flarum ydin",
                 "global_update_successful": "Kaikki paketit päivitettiin onnistuneesti.",

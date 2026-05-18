@@ -2,98 +2,98 @@
     "flarum-messages": {
         "admin": {
             "permissions": {
-                "send_messages_label": "",
-                "delete_own_messages_label": ""
+                "send_messages_label": "Enviar mensajes privados",
+                "delete_own_messages_label": "Borrar mensajes propios"
             }
         },
         "forum": {
             "composer": {
-                "discard_confirmation": "",
-                "placeholder": "",
-                "recipients": "",
-                "submit_button": "",
-                "to": ""
+                "discard_confirmation": "No enviaste tu mensaje. ¿Seguro que lo vas a descartar?",
+                "placeholder": "Escribe un mensaje...",
+                "recipients": "Destinatarios",
+                "submit_button": "Enviar mensaje",
+                "to": "Para:"
             },
             "dialog_list": {
-                "load_more_button": "",
-                "mark_as_read_tooltip": "",
-                "title": "",
-                "view_all": ""
+                "load_more_button": "=> core.ref.load_more",
+                "mark_as_read_tooltip": "Marcar como leído",
+                "title": "Mensajes",
+                "view_all": "Ver todos los mensajes"
             },
             "dialog_section": {
-                "back_label": "",
-                "cannot_reply_text": "",
+                "back_label": "Volver",
+                "cannot_reply_text": "Este usuario no puede responder",
                 "controls": {
-                    "details_button": ""
+                    "details_button": "Detalles"
                 },
-                "controls_toggle_label": "",
+                "controls_toggle_label": "Acciones de control de diálogo",
                 "details_modal": {
-                    "created_at": "",
-                    "recipients": "",
-                    "title": ""
+                    "created_at": "Fecha de creación",
+                    "recipients": "Participantes",
+                    "title": "Detalles de la conversación"
                 }
             },
             "header": {
-                "dropdown_tooltip": ""
+                "dropdown_tooltip": "Mensajes"
             },
             "index": {
-                "messages_link": ""
+                "messages_link": "Mensajes"
             },
             "index_sort": {
-                "latest_button": "",
-                "newest_button": "",
-                "oldest_button": ""
+                "latest_button": "Últimos",
+                "newest_button": "Nuevos",
+                "oldest_button": "Viejos"
             },
             "message_controls": {
-                "delete_button": "",
-                "delete_confirmation": ""
+                "delete_button": "Borrar",
+                "delete_confirmation": "¿Seguro que quieres eliminar este mensaje? Esta acción no se puede deshacer."
             },
             "messages_page": {
-                "cannot_send_message_button": "",
-                "empty_text": "",
+                "cannot_send_message_button": "No se puede enviar un mensaje",
+                "empty_text": "Sin nuevos mensajes",
                 "hero": {
-                    "title": "",
-                    "subtitle": ""
+                    "title": "Mensajes",
+                    "subtitle": "Tus conversaciones privadas con otros usuarios"
                 },
-                "mark_all_as_read_tooltip": "",
-                "refresh_tooltip": "",
-                "send_message_button": "",
+                "mark_all_as_read_tooltip": "Marcar todo como leído",
+                "refresh_tooltip": "Refezcar",
+                "send_message_button": "Enviar un Mensaje",
                 "stream": {
-                    "load_previous_button": "",
-                    "load_next_button": "",
-                    "start_of_the_conversation": "",
-                    "time_lapsed_text": ""
+                    "load_previous_button": "Cargar mensajes previos",
+                    "load_next_button": "Cargar próximos mensajes",
+                    "start_of_the_conversation": "Comienzo de la conversación",
+                    "time_lapsed_text": "=> core.forum.post_stream.time_lapsed_text"
                 },
-                "title": ""
+                "title": "Mensajes"
             },
             "recipient_selection_modal": {
-                "title": ""
+                "title": "Seleccione los destinatarios de este mensaje"
             },
             "settings": {
-                "notify_message_received_label": ""
+                "notify_message_received_label": "Alguien me envía un mensaje"
             },
             "user_controls": {
-                "send_message_button": "",
-                "cannot_reply_text": ""
+                "send_message_button": "Enviar un mensaje",
+                "cannot_reply_text": "Este usuario no puede contestar"
             },
             "notifications": {
-                "message_received_text": ""
+                "message_received_text": "Notificación de Mensaje Recibido de {user}"
             }
         },
         "email": {
             "message_received": {
-                "subject": "",
+                "subject": "{user_display_name} te envió un mensaje",
                 "plain": {
-                    "body": ""
+                    "body": "{user_display_name} te envió un mensaje.\n\n{url}\n\n---\n\n{content}\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{user_display_name} te envió un [new message]({url})."
                 }
             }
         },
         "lib": {
             "dialog": {
-                "title": ""
+                "title": "Mensajería {username}"
             }
         }
     }

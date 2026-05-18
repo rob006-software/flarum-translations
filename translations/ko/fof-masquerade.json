@@ -22,7 +22,6 @@
             }
         },
         "admin": {
-            "general-options": "일반 설정",
             "buttons": {
                 "add-field": "항목 생성",
                 "edit-field": "항목 저장",
@@ -50,6 +49,7 @@
                 "icon": "아이콘",
                 "icon-help": "사용자가 입력한 값 앞이 이 아이콘을 표시합니다. 사용 가능한 아이콘 참조를 위해 <a>FontAwesome 웹사이트</a>를 확인하세요. 아이콘을 \"fas fa-info\"와 같이 \"fa-\" 접두사와 사용하세요.\n",
                 "force-user-to-completion": "사용자가 프로필을 무조건 완성하게 하기",
+                "hide-empty-fields": "",
                 "options": "설정들",
                 "option-new": "새로운 설정",
                 "option-comma-warning": "설정의 이름에는 쉼표(\",\")가 있을 수 없습니다.",
@@ -61,7 +61,8 @@
                 "email": "이메일",
                 "select": "드롭다운",
                 "url": "URL"
-            }
+            },
+            "general-options": "일반 설정"
         },
         "lib": {
             "gambits": {

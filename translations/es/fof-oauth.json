@@ -15,13 +15,13 @@
                 "only_icons_label": "Mostrar sólo los iconos del botón de inicio de sesión (diseño alternativo)",
                 "update_email_from_provider_label": "Actualizar la dirección de correo electrónico del proveedor",
                 "update_email_from_provider_help": "Si se habilita, la dirección de correo electrónico del usuario se actualizará para que coincida con la proporcionada a través de OAuth en cada inicio de sesión en el foro. No todos los proveedores proporcionan la dirección de correo electrónico actualizada, en cuyo caso esta configuración no tendrá ningún efecto con esos proveedores.",
-                "disable_avatars_label": "",
-                "disable_avatars_help": "",
+                "disable_avatars_label": "Deshabilitar avatares del proveedor",
+                "disable_avatars_help": "Si está habilitada, el avatar del usuario no se actualizará para coincidir con el del proveedor al registrarse. Tenga en cuenta que esto solo afecta a los registros futuros y no modificará el avatar de los usuarios existentes.\n",
                 "providers": {
                     "callback_url_text": "Si es necesario, establezca la URL de devolución de llamada como {url}.",
-                    "group_label": "",
-                    "group_help": "",
-                    "no_group_label": "",
+                    "group_label": "Asignar Grupo",
+                    "group_help": "Seleccione un grupo para asignar automáticamente a los usuarios que se registren utilizando este proveedor.",
+                    "no_group_label": "Sin asignación de grupo",
                     "discord": {
                         "description": "Cree una aplicación en {link}. Añade la URL de redirección en la pestaña OAuth2.",
                         "client_id_label": "=> fof-oauth.ref.settings.client_id",
@@ -103,9 +103,9 @@
                 "twitter": "=> fof-oauth.lib.providers.twitter"
             },
             "account_linked": {
-                "title": "",
-                "body": "",
-                "dismiss_button": ""
+                "title": "Cuenta vinculada",
+                "body": "Tu cuenta de {forum} <strong>{username}</strong> ahora está vinculada con {provider}. A partir de ahora, puedes iniciar sesión con tu contraseña del foro o con {provider}.",
+                "dismiss_button": "Entendido"
             },
             "signup": {
                 "username_help": "Por favor, elija un nombre de usuario para ser identificado aquí"
@@ -114,7 +114,7 @@
             "error": {
                 "bad_verification_code": "Token de verificación inválido o caducado. Por favor, inténtelo de nuevo.",
                 "invalid_state": "Estado inválido. Por favor, inténtelo de nuevo.",
-                "already_linked": ""
+                "already_linked": "Esta cuenta ya está vinculada a otro usuario."
             }
         },
         "lib": {
@@ -129,8 +129,8 @@
             },
             "gambits": {
                 "sso": {
-                    "key": "",
-                    "hint": ""
+                    "key": "sso",
+                    "hint": "un proveedor de inicio de sesión"
                 }
             }
         },

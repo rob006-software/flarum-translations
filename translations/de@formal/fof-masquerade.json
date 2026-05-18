@@ -22,7 +22,6 @@
             }
         },
         "admin": {
-            "general-options": "Allgemeine Optionen",
             "buttons": {
                 "add-field": "Feld anlegen",
                 "edit-field": "Änderungen speichern",
@@ -50,6 +49,7 @@
                 "icon": "Symbol",
                 "icon-help": "Zeigt ein Symbol vor den von den Nutzern eingegebenen Werten an. Eine Liste aller verfügbaren Symbole ist auf der <a>FontAwesome Webseite</a> zu finden. Verwende Symbolnamen mit dem „fa-“ Prefix, zum Beispiel „fas fa-info“.\n",
                 "force-user-to-completion": "Ausfüllen des Profils verpflichtend machen",
+                "hide-empty-fields": "Leere Felder verbergen",
                 "options": "Optionen",
                 "option-new": "Neue Option",
                 "option-comma-warning": "Die Bezeichnung einer Option darf kein Komma enthalten (\",\").",
@@ -61,7 +61,8 @@
                 "email": "E-Mail",
                 "select": "Auswahlliste",
                 "url": "URL"
-            }
+            },
+            "general-options": "Allgemeine Optionen"
         },
         "lib": {
             "gambits": {

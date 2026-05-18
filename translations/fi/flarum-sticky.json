@@ -2,9 +2,9 @@
     "flarum-sticky": {
         "admin": {
             "settings": {
-                "enable_display_excerpt": "",
-                "only_sticky_unread_discussions_label": "",
-                "only_sticky_unread_discussions_help": ""
+                "enable_display_excerpt": "Näytä ensimmäisen viestin katkelma, kun kiinnitetty keskustelu on lukematta",
+                "only_sticky_unread_discussions_label": "Vain kiinnitetyt lukemattomat keskustelut",
+                "only_sticky_unread_discussions_help": "Kaikki keskustelut -sivulla lukemattomat kiinnitetyt keskustelut nousevat ylös, kun taas luetut kiinnitetyt keskustelut noudattavat tavallista järjestystä."
             },
             "permissions": {
                 "sticky_discussions_label": "Kiinnitetyt keskustelut"
@@ -27,7 +27,7 @@
             "gambits": {
                 "discussions": {
                     "sticky": {
-                        "key": ""
+                        "key": "kiinnitetty"
                     }
                 }
             }

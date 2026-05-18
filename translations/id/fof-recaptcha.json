@@ -5,15 +5,15 @@
                 "help_text": "Dapatkan kredensial Google reCAPTCHA Anda <a>di sini</a>.",
                 "secret_key_label": "Secret Key",
                 "site_key_label": "Site Key",
-                "type_label": "Tipe reCAPTCHA",
-                "type_help": "",
+                "type_label": "Jenis reCAPTCHA",
+                "type_help": "Jenis yang dipilih harus sesuai dengan jenis kredensial reCAPTCHA Anda. Checkbox dan Invisible keduanya merupakan reCAPTCHA v2; v3 berbasis skor dan berjalan secara otomatis.",
                 "type_options": {
-                    "checkbox": "",
-                    "invisible": "",
-                    "v3": ""
+                    "checkbox": "v2 Checkbox",
+                    "invisible": "v2 Invisible",
+                    "v3": "v3 (berbasis skor)"
                 },
-                "v3_threshold_label": "",
-                "v3_threshold_help": "",
+                "v3_threshold_label": "ambang batas skor reCAPTCHA v3",
+                "v3_threshold_help": "Entri yang nilainya di bawah nilai ini (0.0 = kemungkinan bot, 1.0 = kemungkinan manusia) akan ditolak. Google menyarankan 0.5 sebagai titik awal. Hanya digunakan jika jenisnya diatur ke v3.",
                 "signup": "=> core.forum.sign_up.title",
                 "signin": "=> core.forum.log_in.title",
                 "forgot": "=> core.forum.forgot_password.title"
@@ -31,10 +31,10 @@
             }
         },
         "lib": {
-            "error": "",
-            "not_completed": "",
-            "rejected": "",
-            "unknown_error": ""
+            "error": "Terjadi error saat mengirimkan reCAPTCHA. Silakan coba lagi.",
+            "not_completed": "Silakan selesaikan verifikasi reCAPTCHA sebelum melanjutkan.",
+            "rejected": "Verifikasi reCAPTCHA gagal. Silakan coba lagi.",
+            "unknown_error": "Terjadi error yang tidak diketahui. Silakan coba lagi."
         }
     },
     "validation": {

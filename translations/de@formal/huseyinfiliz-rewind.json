@@ -28,7 +28,7 @@
                 "slide_night_owl": "Aktivste Stunden",
                 "slide_best_post": "Bester Beitrag",
                 "slide_top_emojis": "Beliebteste Emojis",
-                "slide_top_tag": "Beliebteste Themen",
+                "slide_top_tag": "Beliebtestes Thema",
                 "slide_likes_given": "Likes gegeben",
                 "slide_likes_received": "Likes erhalten",
                 "slide_best_friend": "Engste Freunde",
@@ -37,7 +37,7 @@
                 "slide_best_answers": "Beste Antworten",
                 "community_slide_year-overview": "Das Jahr in Zahlen",
                 "community_slide_busiest_month": "Geschäftigster Monat",
-                "community_slide_peak_hour": "Stoßzeiten",
+                "community_slide_peak_hour": "Aktivste Tageszeit",
                 "community_slide_total_words": "Wörter geschrieben",
                 "community_slide_new_members": "Neue Mitglieder",
                 "community_slide_top_contributors": "Aktivste Mitglieder",
@@ -45,7 +45,7 @@
                 "community_slide_most_active_user": "Aktivster Benutzer",
                 "community_slide_star_post": "Star-Beitrag",
                 "community_slide_top_discussion": "Heiß diskutiertes Thema",
-                "community_slide_top_tag": "Top-Thema",
+                "community_slide_top_tag": "Beliebtestes Thema",
                 "community_slide_best_answers_leaderboard": "Rangliste für Beste Antworten",
                 "community_slide_badge_leaderboard": "Abzeichen-Rangliste",
                 "community_comparison_label": "Community-Vergleich in Benutzer-Rückblick aktivieren",
@@ -116,7 +116,7 @@
                 "total_discussions": "Diskussionen begonnen",
                 "top_discussion": "Aktivste Diskussion",
                 "most_active_user": "Aktivstes Mitglied",
-                "top_tag": "Top-Thema",
+                "top_tag": "Beliebtestes Thema",
                 "post_count_label": "{count} Beiträge"
             },
             "profile": {
@@ -169,7 +169,7 @@
                     }
                 },
                 "top_tag": {
-                    "title": "Topthema",
+                    "title": "Beliebtestes Thema",
                     "description": "Das aktivste Thema mit {count} Beiträgen",
                     "no_data": "Keine Themendaten verfügbar"
                 },
@@ -198,25 +198,25 @@
                     "title": "Likes vergeben",
                     "description": "Hat {count} Likes im Forum vergeben",
                     "messages": {
-                        "tier_1": "",
-                        "tier_2": "",
-                        "tier_3": ""
+                        "tier_1": "Ein aufmerksames Like hier und da",
+                        "tier_2": "Verbreitet positive Stimmung",
+                        "tier_3": "Größter Anfeurer des Forums"
                     }
                 },
                 "likes_received": {
                     "title": "Likes empfangen",
                     "description": "In diesem Jahr {count} Likes erhalten",
                     "messages": {
-                        "tier_1": "",
-                        "tier_2": "",
-                        "tier_3": ""
+                        "tier_1": "Worte, die nachhallten",
+                        "tier_2": "Die Leute wissen wirklich zu schätzen, was du schreibst",
+                        "tier_3": "Sehr beliebt hier"
                     }
                 },
                 "best_friend": {
-                    "title": "",
+                    "title": "Bester Freund",
                     "description": "{display_name} hat deinen Beiträgen {count} Likes gegeben",
-                    "no_data": "",
-                    "message": "",
+                    "no_data": "Es liegen keine Daten zu besten Freunden vor",
+                    "message": "Unzertrennlich in diesem Jahr",
                     "stat_likes_received": "Mag dich",
                     "stat_likes_given": "Magst du",
                     "stat_mentions_from": "Hat dich erwähnt",
@@ -225,9 +225,9 @@
                 "best_friend_mentions": {
                     "title": "Erwähnungen",
                     "description": "Du hast {display_name} {count} Mal erwähnt",
-                    "no_data": "",
-                    "you_mentioned": "",
-                    "mentioned_you": ""
+                    "no_data": "Es liegen kein Daten zu Erwähnungen vor",
+                    "you_mentioned": "Du hast erwähnt × {count}",
+                    "mentioned_you": "Du wurdest erwähnt × {count}"
                 },
                 "badges_earned": {
                     "title": "Abzeichen",
@@ -239,28 +239,28 @@
                     "description": "Am häufigsten verwendete Wörter"
                 },
                 "top_emojis": {
-                    "title": "",
-                    "description": ""
+                    "title": "Beliebteste Emojis",
+                    "description": "Die am häufigsten verwendeten Emojis"
                 },
                 "best_answers": {
-                    "title": "",
+                    "title": "Beste Antworten",
                     "description": "{count} Antworten als Lösung markiert",
                     "messages": {
-                        "tier_1": "",
-                        "tier_2": "",
-                        "tier_3": ""
+                        "tier_1": "Hat jemandem geholfen, eine Antwort zu finden",
+                        "tier_2": "Die erste Anlaufstelle für Antworten",
+                        "tier_3": "Der Experte des Forums"
                     }
                 },
                 "community_compare": {
-                    "above": "",
+                    "above": "{times}x der Durchschnittswert der Community",
                     "above_average": "Über dem Community-Durchschnitt",
                     "average": "Etwa der Community-Durchschnitt",
                     "below_average": "Unter dem Community-Durchschnitt"
                 },
                 "night_owl": {
-                    "title": "",
-                    "description": "",
-                    "description_owl": ""
+                    "title": "Aktive Stunden",
+                    "description": "Die meisten Beiträge wurden um diese Uhrzeit verfasst",
+                    "description_owl": "Die meisten Beiträge wurden um diese Uhrzeit verfasst"
                 }
             },
             "slideshow": {
@@ -273,8 +273,8 @@
                 "link_copied": "Link in die Zwischenablage kopiert!",
                 "visibility_status_public": "Öffentlich",
                 "visibility_status_private": "Privat",
-                "visibility_tap_hide": "",
-                "visibility_tap_show": ""
+                "visibility_tap_hide": "Zum Ausblenden antippen",
+                "visibility_tap_show": "Zum Veröffentlichen antippen"
             },
             "community_slideshow": {
                 "title": "Community-Rückblick",
@@ -283,35 +283,35 @@
                 "posts": "Beiträge",
                 "discussions": "Diskussionen",
                 "new_members": "Neue Mitglieder",
-                "busiest_month": "",
-                "busiest_month_desc": "",
-                "peak_hours": "",
-                "peak_hours_desc": "",
+                "busiest_month": "Geschäftigster Monat",
+                "busiest_month_desc": "Spitzenmonat mit {count} Beiträgen",
+                "peak_hours": "Aktivste Tageszeit",
+                "peak_hours_desc": "Die meisten Beiträge wurden um diese Uhrzeit verfasst",
                 "top_contributors": "Top-Beitragende",
                 "top_contributors_desc": "Aktivste Mitglieder in diesem Jahr",
-                "star_post": "",
-                "star_post_desc": "",
-                "most_loved": "",
-                "most_loved_desc": "",
-                "hot_discussion": "",
+                "star_post": "Star-Beitrag",
+                "star_post_desc": "Beliebtester Beitrag des Jahres",
+                "most_loved": "Am beliebtesten",
+                "most_loved_desc": "Mitglieder, die die meisten Likes erhalten haben",
+                "hot_discussion": "Heiß diskutiert",
                 "hot_discussion_desc": "{count} Beiträge in dieser Diskussion",
-                "top_tag": "Top-Thema",
-                "top_tag_desc": "",
+                "top_tag": "Beliebtestes Thema",
+                "top_tag_desc": "Meistdiskutiertes Thema mit {count} Diskussionen",
                 "total_words": "Geschriebene Wörter",
                 "total_words_desc": "Von der gesamten Community",
                 "total_words_label": "Wörter insgesamt",
-                "avg_per_post": "",
+                "avg_per_post": "Durchschnitt pro Beitrag",
                 "new_members_slide": "Neue Mitglieder",
                 "new_members_desc": "{count} sind der Community beigetreten",
                 "summary_title": "{year} Community-Höhepunkte",
                 "words": "Wörter",
-                "busiest_month_label": "",
-                "peak_hour_label": "",
-                "top_contributor_label": "",
-                "top_tag_label": "",
+                "busiest_month_label": "Geschäftigster Monat",
+                "peak_hour_label": "Aktivste Stunde",
+                "top_contributor_label": "Top-Beitragender",
+                "top_tag_label": "Beliebtestes Thema",
                 "reactions": "Reaktionen",
                 "best_answers": "Beste Antworten",
-                "badges_awarded": "",
+                "badges_awarded": "Abzeichen vergeben",
                 "best_answers_leaderboard": "Problemlöser",
                 "best_answers_leaderboard_desc": "Mitglieder mit den meisten besten Antworten",
                 "badge_leaderboard": "Abzeichensammler",

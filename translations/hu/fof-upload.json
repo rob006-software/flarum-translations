@@ -30,10 +30,10 @@
                 "disable-download-logging": "A fórum felhasználóinak letöltéseinek naplózásának letiltása. Az engedélyezve tartás lehetővé teszi, hogy a közeljövőben megtekintse a letöltések számát, és más metrikákat.\n",
                 "disable-hotlink-protection": "A hivatkozásvédelem megakadályozza a más oldalakon lévő letöltések megnyitását. A jelenlegi módszer CSRF tokent és bejegyzésazonosítót igényel.\n",
                 "download_templates": "A letöltési sablonok kezelik, hogy a feltöltések hogyan jelennek meg a fórumban, például milyen előnézet vagy gombok jelennek meg. Jelenleg elérhető:\n",
-                "mime_types": "",
+                "mime_types": "Itt állítsa be a hozzárendeléseit. Minden egyes MIME-típus reguláris kifejezését egy konkrét feltöltési adapter és letöltési sablon fogja kezelni.\nMinden egyes bejegyzéshez engedélycímke (például „Képek”, „Videók”) adható, melyek dedikált engedélyt adnak az engedélyrácshoz.\nEzzel csoportokra korlátozhatók az egyes fájltípusok feltöltése – az alapvető „Fájlok feltöltése” engedély mindig szükséges.\n",
                 "resize": "Válassza ki, hogy átméretezi-e a képeket a feltöltésük előtt. Képpontokban megadhat egy szélesség- és magasságkorlátot. Az átméretezési folyamat megtartja a képek képarányát.\n",
                 "client_extension": "Alapértelmezés szerinte a Feltöltés a MIME-típus alapján választ egy biztonságos fájlkiterjesztést.\nEgyes ZIP vagy bináris adatokat tartalmazó fájltípusoknál ez általános fájlkiterjesztéseket eredményezhet a várt helyett.\nItt megadhatja a fájlkiterjesztések vesszőkkel elválasztott listáját, amelyeknél az eredeti formában marad meg a kiterjesztés.\n",
-                "thumbnails": "",
+                "thumbnails": "Kis méretű bélyegképek létrehozása a képekhez a feltöltés idején. A bélyegkép jelenik meg soron belül;\nrákattintással nyitható meg új lapon a teljes felbontású kép. A bélyegképek jelentősen\ncsökkentik a sok nagy képpel rendelkező fórumok forgalmát és lapméretét.\n",
                 "watermark": "Válasszon, hogy a képek vízjelet kapjanak-e feltöltéskor. A vízjelek a nem GIF képekhez lesznek adva, a lenti beállítások alapján.\n",
                 "s3_compatible_storage": "A következő beállítások csak akkor szükségesek, ha S3-mal kompatibilis tárolót használ. Ha AWS-t használt, akkor üresen hagyhatja.\n",
                 "s3_acl": "A feltöltött objektumra alkalmazandó ACL (alapértelmezett: privát). A lehetséges értékekhez lásd: https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
@@ -81,9 +81,9 @@
                 "preferences": {
                     "max_file_size": "Legnagyobb fájlméret (kilobájtban)",
                     "mime_types": "Állítsa be a MIME-típust, és a feltöltési adapter hozzárendelését",
-                    "mime_type_regex_placeholder": "",
-                    "mime_type_regex_invalid": "",
-                    "mime_type_permission_placeholder": "",
+                    "mime_type_regex_placeholder": "például ^image/(jpeg|png|gif)$",
+                    "mime_type_regex_invalid": "Érvénytelen regex (például üres alternatívák, mint a ||)",
+                    "mime_type_permission_placeholder": "Engedélycímke (nem kötelező, például Képek)",
                     "title": "Általános beállítások",
                     "php_ini_values": "A <code>php.ini</code> fájlban a <code>post_max_size={post}</code> és <code>upload_max_filesize={upload}</code> van beállítva. Győződjön meg róla, hogy az itt beállított értékek ezeknél kisebb, vagy állítsa be őket megfelelően. Ha <code>Nginx</code>-et használ, akkor győződjön meg arról is, hogy a <code>client_max_body_size</code> elégséges méretű a választott felső korláthoz képest."
                 },
@@ -96,17 +96,17 @@
                     "title": "Felhasználó által megadott fájlkiterjesztések"
                 },
                 "thumbnails": {
-                    "title": "",
-                    "toggle": "",
-                    "webp_toggle": "",
-                    "max_width": ""
+                    "title": "Bélyegképek",
+                    "toggle": "Bélyegképek előállítása feltöltés során",
+                    "webp_toggle": "Bélyegképek kódolása WebP-ként (javasolt, ~30%-kal kisebb)",
+                    "max_width": "Bélyegképek legnagyobb szélessége (px)"
                 },
                 "watermark": {
                     "file": "Töltse fel a vízjelképet",
-                    "opacity": "",
-                    "padding": "",
+                    "opacity": "Vízjel átlátszatlansága (0-100)",
+                    "padding": "Kitöltés a szélétől (px)",
                     "position": "Vízjel helyzete",
-                    "size_percent": "",
+                    "size_percent": "Vízjel mérete (a kép szélességének %-ában)",
                     "title": "Képek vízjelezése",
                     "toggle": "Képek vízjelezése"
                 },
@@ -127,12 +127,12 @@
                 "inspect-mime": "Fájl MIME-típusának tesztelése"
             },
             "warnings": {
-                "fileinfo_missing": ""
+                "fileinfo_missing": "A PHP <strong>fileinfo</strong> kiterjesztés nincs betöltve ezen a kiszolgálón. A FoF Upload továbbra is fog működni, de a MIME-típusok keresztellenőrzése ki van kapcsova, ez csökkenti a meghamisított fájltípusok elleni védelmet. A legjobb biztonság érdekében kapcsolja be a kiterjesztést a PHP beállításaiban.\n"
             },
             "permissions": {
                 "download_label": "Fájlok letöltése",
-                "upload_label": "",
-                "upload_mime_label": "",
+                "upload_label": "Fájlok feltöltése (alapvető engedély, az összes feltöltéshez szükséges)",
+                "upload_mime_label": "{label} feltöltése",
                 "view_user_uploads_label": "Felhasználói feltöltések megtekintése",
                 "delete_uploads_of_others_label": "Felhasználói feltöltések törlése",
                 "upload_shared_label": "Megosztott fájlok feltöltése",
@@ -150,7 +150,7 @@
                 "bbcode-image": "BBCode képsablon",
                 "bbcode-image_description": "A teljes kép megjelenítése soron belül, BBCode használatával. <strong>A működéséhez telepíteni kell a flarum/bbcode csomagot, és engedélyeznie kell azt.</strong>Nincs letöltési funkció, nincs statisztikagyűjtés, és a hivatkozásvédelem figyelmen kívül lesz hagyva.\n",
                 "just-url": "Csak a webcím",
-                "just-url_description": "Csak az URL-t illeszti be. A megjelenítést más, automatikus hivatkozásra képes kiegészítők kezelhetik. Nincs letöltési funkció, és statisztika sem keletkezik, valamint a hivatkozásvédelem is figyelmen kívül lesz hagyva.\n",
+                "just-url_description": "Csak a webcímet illeszti be. A megjelenítést más, automatikus hivatkozásra képes kiegészítők kezelhetik. Nincs letöltési funkció, és statisztika sem keletkezik, valamint a hivatkozásvédelem is figyelmen kívül lesz hagyva.\n",
                 "text-preview": "Szöveg előnézete",
                 "text-preview_description": "A szöveges fájl előnézetének (első 5 sorának) beszúrása, amely kibontható, hogy a fájl teljes tartalmát megjelenítse.\n"
             },
@@ -197,7 +197,7 @@
             "text_preview": {
                 "expand": "Előnézet kibontása",
                 "collapse": "Előnézet összecsukása",
-                "download": "",
+                "download": "Fájl letöltése",
                 "error": "Hiba a fájl előnézetekor. Lehet hogy törölték, vagy a megadott fájlazonosító érvénytelen.\n",
                 "no_snippet_preview": "<az előnézet itt fog megjelenni a közzététel után>",
                 "no_snippet": "<nem érhető el előnézeti kódrészlet>"
@@ -206,7 +206,7 @@
         "api": {
             "upload_errors": {
                 "forbidden_type": "Az ilyen típusú fájlok feltöltése nem engedélyezett.",
-                "mime_permission_denied": "",
+                "mime_permission_denied": "Nincs engedélye, hogy ilyen típusú fájlt töltsön fel.",
                 "unsupported_type": "A feltöltési adapter nem támogatja a megadott MIME-típust: {mime}.",
                 "could_not_detect_mime": "A fájl MIME-típusa nem észlelhető, próbálja újra.",
                 "max_upload_file_size_ini": "A php.ini-ben szereplő legnagyobb fájlfeltöltési korlát elérve.",

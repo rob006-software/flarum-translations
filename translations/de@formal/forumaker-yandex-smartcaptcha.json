@@ -1,0 +1,28 @@
+{
+    "forumaker-yandex-smart-captcha": {
+        "admin": {
+            "sections": {
+                "keys": "Schlüssel",
+                "protection": "Schutz"
+            },
+            "settings": {
+                "site_key": "Seitenschlüssel",
+                "site_key_help": "Öffentlicher Schlüssel",
+                "server_key": "Serverschlüssel",
+                "server_key_help": "Geheimer Schlüssel",
+                "signup": "Bei der Registrierung anzeigen",
+                "signup_help": "Bei der Registrierung eines Kontos Captcha anfordern",
+                "signin": "Bei der Anmeldung anzeigen",
+                "signin_help": "Bei der Anmeldung Captcha anfordern",
+                "create_here": "Erstelle ein Captcha {link}, um deine Schlüssel zu erhalten",
+                "here": "hier"
+            }
+        },
+        "forum": {
+            "validation": {
+                "captcha_required": "Bitte bestätige, dass du kein Roboter bist",
+                "captcha_invalid": "Bitte bestätige, dass du kein Roboter bist"
+            }
+        }
+    }
+}

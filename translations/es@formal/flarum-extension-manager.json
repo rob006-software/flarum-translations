@@ -100,31 +100,31 @@
             "minor_update_confirmation": {
                 "content": ""
             },
-            "required_php_functions": "",
+            "required_php_functions": "El gestor de extensiones requiere que se habiliten las siguientes funciones de PHP: <code>{functions}</code>. Si no tiene acceso a la configuración de PHP, póngase en contacto con su proveedor de hosting.\n",
             "sections": {
                 "discover": {
-                    "description": "",
-                    "empty_results": "",
+                    "description": "Añade nuevas funciones e integraciones a tu foro Flarum con extensiones.",
+                    "empty_results": "Parece que no hay extensiones disponibles.",
                     "extension": {
                         "badges": {
-                            "abandoned": "",
-                            "fof": "",
-                            "flarum": ""
+                            "abandoned": "Abandonadas",
+                            "fof": "Friends Of Flarum",
+                            "flarum": "Flarum"
                         },
-                        "downloads": ""
+                        "downloads": "{count, plural, one {{formattedCount} download} other {{formattedCount} downloads}}"
                     },
-                    "search": "",
-                    "server_error": "",
+                    "search": "Buscar...",
+                    "server_error": "El servicio no está disponible actualmente. Inténtelo de nuevo más tarde.",
                     "sort": {
-                        "top": ""
+                        "top": "Más descargado"
                     },
                     "tabs": {
-                        "discover": "",
-                        "extensions": "",
-                        "languages": "",
-                        "themes": ""
+                        "discover": "Descubre",
+                        "extensions": "Extensiones",
+                        "languages": "Idiomas",
+                        "themes": "Temas"
                     },
-                    "title": ""
+                    "title": "Extensiones"
                 },
                 "queue": {
                     "columns": {
@@ -163,8 +163,8 @@
                     "title": "Cola"
                 },
                 "settings": {
-                    "title": "",
-                    "description": ""
+                    "title": "Opciones y cola",
+                    "description": "Configure el gestor de extensiones y compruebe las operaciones en la cola."
                 }
             },
             "settings": {

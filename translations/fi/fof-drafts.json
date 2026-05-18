@@ -14,7 +14,7 @@
         },
         "console": {
             "scheduled_drafts_disabled": "Ajastetut luonnokset on pois käytöstä.",
-            "no_title_error": ""
+            "no_title_error": "Luonnos ohitettu: keskustelun otsikko puuttuu."
         },
         "ref": {
             "schedule_draft": "Ajastettu luonnos"
@@ -51,7 +51,7 @@
                 "schedule_time_preview": "Tämä luonnos julkaistaan automaattisesti <b>{datetime}</b>.",
                 "schedule_time_preview_formatter": "LLLL",
                 "schedule_time_preview_invalid": "Virheellinen päivä ja/tai aika",
-                "no_title_error": ""
+                "no_title_error": "Keskustelun otsikko on pakollinen ennen ajatusta."
             },
             "user": {
                 "settings": {
@@ -67,8 +67,8 @@
     "fof-default-user-preferences": {
         "admin": {
             "settings": {
-                "draftAutosaveEnable": "",
-                "draftAutosaveInterval": ""
+                "draftAutosaveEnable": "Ota käyttöön luonnoksen automaatti tallennus oletuksena",
+                "draftAutosaveInterval": "Automaattisen tallennuksen intervalli (sekuntia)"
             }
         }
     },

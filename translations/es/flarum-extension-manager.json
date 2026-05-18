@@ -5,7 +5,7 @@
                 "add_label": "Nuevo método de autenticación",
                 "add_modal": {
                     "host_label": "Host",
-                    "host_placeholder": "",
+                    "host_placeholder": "ejemplo: bearer.flarum.org",
                     "submit_button": "Enviar",
                     "token_label": "Token",
                     "type_label": "Tipo",
@@ -75,7 +75,7 @@
             "extensions": {
                 "check_why_it_failed_updating": "Mostrar por qué no se actualizó a la última.",
                 "install": "Instalar una nueva extensión",
-                "install_help": "Completa el nombre del paquete de extensión para continuar. Puedes especificar una <semantic_link>versión semántica</semantic_link> utilizando el formato <code>vendor/nombre-del-paquete:versión</code>. Visita {extiverse} para explorar extensiones.\n",
+                "install_help": "Completa el nombre del paquete de extensión para continuar. Puedes especificar una <semantic_link>versión semántica</semantic_link> utilizando el formato <code>vendor/package-name:version</code>. Visita {link} para explorar extensiones disponibles.\n",
                 "proceed": "Proceder",
                 "remove": "Desinstalar",
                 "successful_install": "{extension} fue instalada con éxito, redirigiendo..",
@@ -98,33 +98,33 @@
                 "update": "Actualizar"
             },
             "minor_update_confirmation": {
-                "content": ""
+                "content": "Esto también actualizará cualquier otra extensión o paquete con las actualizaciones disponibles."
             },
-            "required_php_functions": "",
+            "required_php_functions": "El gestor de extensiones requiere que se habiliten las siguientes funciones de PHP: <code>{functions}</code>. Si no tiene acceso a la configuración de PHP, póngase en contacto con su proveedor de hosting.\n",
             "sections": {
                 "discover": {
-                    "description": "",
-                    "empty_results": "",
+                    "description": "Añade nuevas funciones e integraciones a tu foro Flarum con extensiones.",
+                    "empty_results": "Parece que no hay extensiones disponibles.",
                     "extension": {
                         "badges": {
-                            "abandoned": "",
-                            "fof": "",
-                            "flarum": ""
+                            "abandoned": "Abandonadas",
+                            "fof": "Friends Of Flarum",
+                            "flarum": "Flarum"
                         },
-                        "downloads": ""
+                        "downloads": "{count, plural, one {{formattedCount} download} other {{formattedCount} downloads}}"
                     },
-                    "search": "",
-                    "server_error": "",
+                    "search": "Buscar...",
+                    "server_error": "El servicio no está disponible actualmente. Inténtelo de nuevo más tarde.",
                     "sort": {
-                        "top": ""
+                        "top": "Más descargado"
                     },
                     "tabs": {
-                        "discover": "",
-                        "extensions": "",
-                        "languages": "",
-                        "themes": ""
+                        "discover": "Descubre",
+                        "extensions": "Extensiones",
+                        "languages": "Idiomas",
+                        "themes": "Temas"
                     },
-                    "title": ""
+                    "title": "Extensiones"
                 },
                 "queue": {
                     "columns": {
@@ -163,8 +163,8 @@
                     "title": "Cola"
                 },
                 "settings": {
-                    "title": "",
-                    "description": ""
+                    "title": "Opciones y cola",
+                    "description": "Configure el gestor de extensiones y compruebe las operaciones en la cola."
                 }
             },
             "settings": {
@@ -172,12 +172,12 @@
                 "access_warning": "Por favor, ten cuidado a quién le das acceso al área de administración, el gestor de extensiones podría ser mal utilizado por personas malintencionadas para instalar paquetes que pueden conducir a brechas de seguridad.",
                 "debug_mode_warning": "Estás ejecutando en modo de depuración, el gestor de extensiones no puede instalar y actualizar correctamente los paquetes de desarrollo locales. Para ello, utiliza la interfaz de línea de comandos.",
                 "queue_jobs": "Ejecutar operaciones en la cola de fondo",
-                "queue_jobs_help": "",
+                "queue_jobs_help": "Puedes leer sobre la implementación <basic_impl_link>basic queue</basic_impl_link> o una <adv_impl_link>más avanzada</adv_impl_link>. Asegurate que tu versión de PHP usadas en que es {php_version}. Asegurate que los <folder_perms_link>permisos de la carpeta</folder_perms_link> fueron correctamente configurados.\n",
                 "task_retention_days": "Días de retención de la tarea",
                 "task_retention_days_help": "El número de días para mantener las tareas completadas en la base de datos. Las tareas más antiguas se eliminarán. Establezca 0 para mantener todas las tareas.\n"
             },
             "updater": {
-                "up_to_date": "",
+                "up_to_date": "Sin actualizaciones pendientes.",
                 "check_for_updates": "Buscar actualizaciones",
                 "flarum": "Flarum Core",
                 "global_update_successful": "Actualizados correctamente todos los paquetes.",

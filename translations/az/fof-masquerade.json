@@ -22,7 +22,6 @@
             }
         },
         "admin": {
-            "general-options": "Ümumi seçimlər",
             "buttons": {
                 "add-field": "Sahəni yarat",
                 "edit-field": "Dəyişiklikləri yadda saxla",
@@ -50,6 +49,7 @@
                 "icon": "İkon",
                 "icon-help": "İstifadəçi tərəfindən daxil edilmiş dəyərlərin qarşısında göstərilən işarə. Əlçatan ikonalara istinad üçün <a>FontAwesome veb saytına</a> baxın. \"fas fa-info\" kimi \"fa-\" prefiksi olan ikon adlarından istifadə edin.\n",
                 "force-user-to-completion": "İstifadəçini profili tamamlamağa məcbur et",
+                "hide-empty-fields": "",
                 "options": "Seçimlər",
                 "option-new": "Yeni seçim",
                 "option-comma-warning": "Seçim başlığında vergül (\",\") ola bilməz.",
@@ -61,7 +61,8 @@
                 "email": "E-poçt",
                 "select": "Açılan siyahı",
                 "url": "URL"
-            }
+            },
+            "general-options": "Ümumi seçimlər"
         },
         "lib": {
             "gambits": {

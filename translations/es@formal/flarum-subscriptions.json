@@ -21,7 +21,7 @@
             },
             "settings": {
                 "follow_after_reply_label": "Seguir automáticamente las discusiones en las que usted participe",
-                "follow_after_create_label": "",
+                "follow_after_create_label": "Seguir automáticamente discusiones creadas por mi",
                 "notify_for_all_posts_label": "Notificar sobre cada nueva publicación en lugar de sólo la última en una discusión",
                 "notify_new_post_label": "Alguién publicó en una discusión que usted sigue"
             },
@@ -41,10 +41,10 @@
             "new_post": {
                 "subject": "[Nueva publicación] {title}",
                 "plain": {
-                    "body": ""
+                    "body": "{poster_display_name} acaba de publicar en una discusión que estás siguiendo: {title}.\n\nPara ver la nueva actividad, consulta el siguiente enlace:\n{url}\n\n---\n\n{content}\n\n---\n\nNo recibirás más notificaciones sobre esta discusión hasta que leas lo viejo.\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{poster_display_name} acaba de publicar en una discusión que estás siguiendo: [{title}]({url}).\n\nNo recibirás más notificaciones sobre esta discusión hasta que estés al día.\n"
                 }
             }
         },
@@ -52,8 +52,8 @@
             "gambits": {
                 "discussions": {
                     "subscription": {
-                        "following_key": "",
-                        "ignoring_key": ""
+                        "following_key": "siguiendo",
+                        "ignoring_key": "ignorando"
                     }
                 }
             }

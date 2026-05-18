@@ -22,7 +22,6 @@
             }
         },
         "admin": {
-            "general-options": "Tùy chọn chung",
             "buttons": {
                 "add-field": "Tạo trường",
                 "edit-field": "Lưu thay đổi",
@@ -50,6 +49,7 @@
                 "icon": "Icon",
                 "icon-help": "Hiển thị biểu tượng phía trước các giá trị do người dùng nhập. Để tham khảo các biểu tượng có sẵn, hãy xem <a>trang web FontAwesome</a>. Sử dụng tên biểu tượng với tiền tố \"fa-\", như \"fas fa-info\".\n",
                 "force-user-to-completion": "Buộc người dùng hoàn thành hồ sơ",
+                "hide-empty-fields": "",
                 "options": "Tùy chọn",
                 "option-new": "Tùy chọn mới",
                 "option-comma-warning": "Nhãn của một tùy chọn không được chứa bất kỳ dấu phẩy nào (\",\").",
@@ -61,7 +61,8 @@
                 "email": "Email",
                 "select": "Dropdown",
                 "url": "URL"
-            }
+            },
+            "general-options": "Tùy chọn chung"
         },
         "lib": {
             "gambits": {

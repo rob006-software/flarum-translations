@@ -13,6 +13,12 @@
                 "bb_image_help": "",
                 "bb_iframe": "",
                 "bb_iframe_help": "",
+                "bb_hide_login": "",
+                "bb_hide_login_help": "",
+                "bb_hide_reply": "",
+                "bb_hide_reply_help": "",
+                "bb_hide_like": "",
+                "bb_hide_like_help": "",
                 "toolbar_group": "",
                 "toolbar_group_help": ""
             },
@@ -20,10 +26,13 @@
                 "text": "",
                 "content": "",
                 "images": "",
-                "features": ""
+                "features": "",
+                "hide": ""
             },
             "permissions": {
-                "use_iframe": ""
+                "use_iframe": "",
+                "bypass_like": "",
+                "bypass_reply": ""
             }
         },
         "forum": {
@@ -36,7 +45,19 @@
                 "info_button": "",
                 "audio_button": "",
                 "image_button": "",
-                "more_button": ""
+                "more_button": "",
+                "hide_login_button": "",
+                "hide_reply_button": "",
+                "hide_like_button": ""
+            },
+            "hide": {
+                "login_to_see": "",
+                "like_to_see": "",
+                "reply_to_see": "",
+                "like_link_fallback": "",
+                "login_to_see_simple": "",
+                "like_to_see_simple": "",
+                "reply_to_see_simple": ""
             }
         }
     }

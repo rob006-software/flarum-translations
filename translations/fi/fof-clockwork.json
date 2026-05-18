@@ -2,14 +2,14 @@
     "fof-clockwork": {
         "admin": {
             "dashboard": {
-                "section_label": "",
+                "section_label": "Clockwork",
                 "button_label": "Avaa Clockwork"
             },
             "settings": {
-                "section_label": "",
-                "disable_auth_label": "",
-                "disable_auth_help": "",
-                "disable_auth_warning": ""
+                "section_label": "Asetukset",
+                "disable_auth_label": "Ota autentikaatio pois käytöstä",
+                "disable_auth_help": "Kun käytössä, kaikki pyynnöt profiloidaan ja Clockwork-näkymä on käytettävissä ilman kirjautumista. Ota käyttöön vain väliaikaisesti virheenkorjausta varten.",
+                "disable_auth_warning": "Varoitus: todennus on poistettu käytöstä. Clockwork-näkymä ja kaikki profilointidata ovat julkisesti saatavilla. Poista tämä käytöstä, kun virheenkorjaus on valmis."
             }
         }
     }

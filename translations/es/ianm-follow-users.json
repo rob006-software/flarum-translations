@@ -24,10 +24,10 @@
             "followed": "Seguidos",
             "followers": "{count, plural, one {Seguidor} other {Seguidores}}",
             "profile_link": "=> ianm-follow-users.lib.following_link",
-            "followers_link": "",
+            "followers_link": "Seguidores",
             "profile_page": {
                 "no_following": "Parece que no sigues a nadie.",
-                "no_followers": ""
+                "no_followers": "Parece que aún no tienes seguidores."
             },
             "user_controls": {
                 "follow_button": "=> ianm-follow-users.lib.follow",
@@ -75,30 +75,30 @@
         },
         "email": {
             "new_discussion_by_user": {
-                "subject": "",
+                "subject": "{user_display_name} comenzó una discusión",
                 "plain": {
-                    "body": ""
+                    "body": "{user_display_name} comenzó una discusión: {discussion_title}\n\n{discussion_url}\n\n---\n\n{post_content}\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{user_display_name} comenzó una discusión: [{discussion_title}]({discussion_url})."
                 }
             },
             "new_follower": {
-                "subject": "",
+                "subject": "{follower_display_name} te sigue",
                 "plain": {
-                    "body": ""
+                    "body": "{follower_display_name} te sigue, así que será notificado cuando inicies una discusión nueva.\n\n{profile_url}\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{follower_display_name} te siguió, entonces será notificado cuando inicies una discusión nueva."
                 }
             },
             "new_post": {
-                "subject": "",
+                "subject": "{user_display_name} publicó en {discussion_title}",
                 "plain": {
-                    "body": ""
+                    "body": "{user_display_name} publicó en {discussion_title}.\n\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nNo vas a recibir más notificaciones acerca de esta discusión a menos que entres a leer lo viejo.\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{user_display_name} publicó en [{discussion_title}]({post_url})."
                 }
             }
         },
@@ -123,7 +123,7 @@
             },
             "gambits": {
                 "followeduser": {
-                    "key": ""
+                    "key": "usuario seguido"
                 }
             }
         }

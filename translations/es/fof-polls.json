@@ -7,31 +7,31 @@
                     "help": "Estos ajustes controlan las características básicas de la extensión Encuestas."
                 },
                 "discussion_polls": {
-                    "heading": "",
-                    "help": ""
+                    "heading": "Encuestas de Discusión",
+                    "help": "Estos ajustes controlan las encuestas que se adjuntan a las publicaciones de los foros de discusión."
                 },
-                "enable_discussion_polls": "",
-                "enable_discussion_polls_help": "",
+                "enable_discussion_polls": "Habilitar encuestas de discusiones",
+                "enable_discussion_polls_help": "Cuando está habilitada, los usuarios pueden crear encuestas dentro de las publicaciones de discusión. Desactive esta opción si solo desea utilizar encuestas globales.",
                 "global_polls": {
                     "heading": "Encuestas Globales",
                     "help": "Estos ajustes controlan la función de sondeo global."
                 },
                 "image": {
                     "heading": "Ajustes de Imagen",
-                    "help": ""
+                    "help": "Configure los límites y las dimensiones de la carga de imágenes. Las imágenes se convierten automáticamente a WebP y se generan variantes responsive."
                 },
                 "enable_global_polls": "Activar encuestas globales",
                 "enable_global_polls_help": "Las encuestas globales no están vinculadas a una entrada específica, y se puede acceder a ellas desde una página dedicada a las encuestas.",
-                "enabled_poll_groups": "",
-                "enabled_poll_groups_help": "",
+                "enabled_poll_groups": "Habilitar grupos de encuestas",
+                "enabled_poll_groups_help": "Los grupos de encuestas permiten agrupar encuestas globales y mostrarlas en una página dedicada.",
                 "max_options": "Número máximo de opciones por encuesta",
                 "options_color_blend": "Texto con mezcla de colores en las opciones de la encuesta",
                 "options_color_blend_help": "Use esta opción para mezclar colores y hacer las opciones de la encuesta más legibles. Desactivar si esta función causa problemas con la apariencia de su foro, reduciendo la legibilidad.",
-                "max_image_upload_size": "",
-                "max_image_upload_size_help": "",
-                "image_height": "",
-                "image_width": "",
-                "image_dimensions_help": ""
+                "max_image_upload_size": "Tamaño máximo de imagen a subir (KB)",
+                "max_image_upload_size_help": "Tamaño máximo de archivo para las imágenes en kilobytes. Las imágenes se convierten automáticamente a WebP y se redimensionan después de la carga, por lo que el tamaño final almacenado suele ser mucho menor. El valor predeterminado es 10240 KB (10 MB).",
+                "image_height": "Cambiar el tamaño de la altura de la imagen (px)",
+                "image_width": "Cambiar el tamaño del ancho de la imagen (px)",
+                "image_dimensions_help": "Dimensiones base para las imágenes almacenadas. Las variantes HiDPI (@2x, @3x) se generan automáticamente cuando la imagen original tiene el tamaño suficiente."
             },
             "permissions": {
                 "view_results_without_voting": "Ver los resultados sin votar",
@@ -43,9 +43,9 @@
                 "vote": "Votar en las encuestas",
                 "change_vote": "Cambiar el voto",
                 "moderate": "Editar y eliminar encuestas",
-                "view_group": "",
-                "start_group": "",
-                "moderate_group": ""
+                "view_group": "Ver grupos de encuestas",
+                "start_group": "Crear grupos de encuesta",
+                "moderate_group": "Editar & eliminar grupos de encuestas"
             }
         },
         "forum": {
@@ -65,7 +65,7 @@
                 "total_votes": "{count, plural, one {# vote was given} other {# votes were given}}"
             },
             "poll_controls": {
-                "toggle_dropdown_accessible_label": "",
+                "toggle_dropdown_accessible_label": "Menú de controles de encuesta",
                 "edit_label": "=> core.ref.edit",
                 "delete_label": "=> core.ref.delete",
                 "view_label": "=> core.ref.view",
@@ -79,11 +79,11 @@
             },
             "poll_groups": {
                 "composer": {
-                    "add_title": "",
-                    "edit_title": "",
-                    "save_changes": "",
-                    "delete": "",
-                    "groups_manager": "",
+                    "add_title": "Agregar grupo de encuesta",
+                    "edit_title": "Editar grupo de encuesta",
+                    "save_changes": "=> core.ref.save_changes",
+                    "delete": "Eliminar grupo de encuesta",
+                    "groups_manager": "Administrador de grupos de encuestas",
                     "view_group": "",
                     "success": ""
                 },
@@ -164,17 +164,17 @@
                     "help": "Cargue una imagen que se mostrará junto a la encuesta (opcional).",
                     "alt_label": "Texto alternativo de la imagen",
                     "alt_help_text": "Este texto es necesario cuando se establece una imagen, se mostrará si la imagen no se carga.",
-                    "url_deprecated": ""
+                    "url_deprecated": "Esta encuesta utiliza una URL de imagen externa. Las URL externas están obsoletas y se eliminarán en una versión futura. Por favor, vuelva a subir la imagen usando el botón de carga."
                 },
                 "poll_option_image": {
                     "label": "Imagen de respuesta a la encuesta",
                     "help": "Suba una imagen para que aparezca junto a la respuesta de la encuesta (opcional)."
                 },
-                "date_clear": "",
+                "date_clear": "Borrar fecha de finalización",
                 "tooltip": {
                     "options": {
                         "add-button": "Añadir respuesta",
-                        "remove-button": ""
+                        "remove-button": "Eliminar respuesta"
                     }
                 }
             },
@@ -187,7 +187,7 @@
             "page": {
                 "nav": "Encuestas",
                 "nav-all": "Todas las encuestas globales",
-                "nav-groups": ""
+                "nav-groups": "Grupos de encuesta"
             },
             "showcase": {
                 "active-polls": "Encuestas activas",

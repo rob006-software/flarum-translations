@@ -13,6 +13,12 @@
                 "bb_image_help": "Új gombot ad a szerkesztőhöz a képek igazításához. A nagy, középre igazított képek automatikusan a bejegyzés szélességének 60%-ra lesznek átméretezve, az oldalra igazítottak pedig legfeljebb a 40%-ára.",
                 "bb_iframe": "Beágyazott keret",
                 "bb_iframe_help": "Engedélyezi a beágyazott kereteket bármilyen forrásból. Használja óvatosan – a beágyazott tartalom külső parancsfájlokat tartalmazhat. 🧹 A beállítás módosítása után törölje a Flarum gyorsítótárát.",
+                "bb_hide_login": "",
+                "bb_hide_login_help": "",
+                "bb_hide_reply": "",
+                "bb_hide_reply_help": "",
+                "bb_hide_like": "",
+                "bb_hide_like_help": "",
                 "toolbar_group": "Group MagicBB gombok",
                 "toolbar_group_help": "Ha be van kapcsolva, az összes MagicBB gomb egyetlenbe lesz csoportosítva a szerkesztőben"
             },
@@ -20,10 +26,13 @@
                 "text": "Szöveggombok",
                 "content": "Tartalomgombok",
                 "images": "Képgombok",
-                "features": "Funkciók"
+                "features": "Funkciók",
+                "hide": ""
             },
             "permissions": {
-                "use_iframe": "Iframe engedélyezése"
+                "use_iframe": "Iframe engedélyezése",
+                "bypass_like": "",
+                "bypass_reply": ""
             }
         },
         "forum": {
@@ -36,7 +45,19 @@
                 "info_button": "Riasztás hozzáadása",
                 "audio_button": "Hang hozzáadása",
                 "image_button": "",
-                "more_button": "Továbbiak"
+                "more_button": "Továbbiak",
+                "hide_login_button": "",
+                "hide_reply_button": "",
+                "hide_like_button": ""
+            },
+            "hide": {
+                "login_to_see": "",
+                "like_to_see": "",
+                "reply_to_see": "",
+                "like_link_fallback": "",
+                "login_to_see_simple": "",
+                "like_to_see_simple": "",
+                "reply_to_see_simple": ""
             }
         }
     }

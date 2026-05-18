@@ -1,0 +1,130 @@
+{
+    "flarum-classifieds": {
+        "admin": {
+            "settings": {
+                "tag_ids_label": "Classifieds tags",
+                "tag_ids_help": "Pick the tags whose discussions should behave as classified ads. Discussions in any of the selected tags will get listing fields, status controls and pricing.",
+                "default_currency_label": "Default currency code",
+                "default_currency_help": "3-letter ISO currency code (e.g. USD, EUR, BRL).",
+                "allowed_labels_label": "Allowed listing labels",
+                "allowed_labels_help": "Comma-separated list (e.g. iso,wtb,wts,trade).",
+                "allow_price_range_label": "Allow price ranges",
+                "allow_price_range_help": "Let users provide a minimum and maximum price.",
+                "show_currency_symbol_label": "Show currency symbol",
+                "show_currency_symbol_help": "Display $/€/etc. instead of the raw currency code.",
+                "require_label_label": "Require a listing label",
+                "require_price_label": "Require a price",
+                "require_location_label": "Require a location",
+                "auto_prune_days_label": "Auto-prune after N days",
+                "auto_prune_days_help": "Delete listings older than this many days. 0 disables.",
+                "auto_prune_sold_label": "Auto-prune sold listings",
+                "auto_prune_sold_help": "When pruning runs, also remove sold/completed listings."
+            },
+            "permissions": {
+                "mark_listing_sold_label": "Mark listings as sold/active",
+                "bump_listing_label": "Bump own listing",
+                "edit_listing_label": "Edit own listing fields"
+            },
+            "edit_tag": {
+                "is_classifieds_label": "This tag is a classifieds tag",
+                "is_classifieds_help": "Discussions in this tag will require classifieds metadata."
+            }
+        },
+        "forum": {
+            "composer": {
+                "section_title": "Classifieds details",
+                "label_label": "Listing type",
+                "label_placeholder": "Choose a label…",
+                "price_label": "Price",
+                "price_max_label": "Max price (range)",
+                "currency_label": "Currency",
+                "location_label": "Location",
+                "location_placeholder": "City, state, country…",
+                "configure_listing_button": "Configure listing details"
+            },
+            "start_listing": {
+                "title": "New classifieds listing",
+                "help": "This discussion is in a classifieds tag. Fill the details for your listing — you can edit them later.",
+                "continue_button": "Continue"
+            },
+            "classifieds_composer": {
+                "title_placeholder": "Listing title (e.g. iPhone 15 Pro 256GB)",
+                "body_placeholder": "Describe your listing: condition, details, contact preference…",
+                "label_required": "Please pick a listing label.",
+                "price_required": "Please enter a price for the listing.",
+                "location_required": "Please enter a location."
+            },
+            "create_listing": {
+                "title": "New classifieds listing",
+                "title_label": "Title",
+                "description_label": "Description",
+                "submit_button": "Publish listing",
+                "title_required": "Please enter a title.",
+                "description_required": "Please enter a description."
+            },
+            "edit_listing": {
+                "title": "Edit listing",
+                "save_button": "Save listing"
+            },
+            "discussion_controls": {
+                "mark_sold_button": "Mark as sold",
+                "mark_active_button": "Mark as active",
+                "bump_button": "Bump listing",
+                "edit_listing_button": "Edit listing"
+            },
+            "post_stream": {
+                "status_changed_sold_text": "{username} marked the listing as sold {time}.",
+                "status_changed_active_text": "{username} reopened the listing {time}.",
+                "status_changed_completed_text": "{username} completed the listing {time}.",
+                "listing_bumped_text": "{username} bumped the listing {time}."
+            },
+            "uploader": {
+                "title": "Drag photos here or click to browse",
+                "hint": "Up to {max} photos, JPG/PNG/GIF/WEBP up to 5MB each.",
+                "add": "Add",
+                "remove": "Remove",
+                "invalid_type": "Some files were rejected — only image files are accepted.",
+                "too_large": "Some files were rejected for being larger than 5MB."
+            },
+            "landing": {
+                "title": "Classifieds",
+                "greeting": "Hello, {username}!",
+                "greeting_guest": "Welcome!",
+                "prompt": "What would you like to advertise today?",
+                "select_category": "Select category {name}",
+                "empty": "No classifieds tags configured yet.",
+                "discussion_count": "{count, plural, =0{No listings yet} one {1 listing} other {# listings}}"
+            },
+            "breadcrumb": {
+                "classifieds": "Classifieds"
+            },
+            "actions": {
+                "contact_seller": "Message seller",
+                "login_to_contact": "Log in to message seller",
+                "share": "Share",
+                "copy_link": "Copy link",
+                "link_copied": "Link copied to clipboard.",
+                "copy_failed": "Could not copy the link."
+            },
+            "seller": {
+                "title": "Seller",
+                "member_since": "Member since {time}",
+                "listings": "{count, plural, =0{No listings} one {1 listing} other {# listings}}",
+                "last_seen": "Last seen {time}"
+            }
+        },
+        "lib": {
+            "labels": {
+                "iso": "ISO",
+                "wtb": "WTB",
+                "wts": "WTS",
+                "trade": "TRADE"
+            },
+            "statuses": {
+                "active": "Active",
+                "sold": "Sold",
+                "completed": "Completed"
+            }
+        }
+    }
+}

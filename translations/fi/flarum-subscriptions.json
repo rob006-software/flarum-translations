@@ -21,7 +21,7 @@
             },
             "settings": {
                 "follow_after_reply_label": "Automaattisesti seuraa keskusteluita joihin osallistun",
-                "follow_after_create_label": "",
+                "follow_after_create_label": "Automaattisesti seuraa keskusteluita jotka luon",
                 "notify_for_all_posts_label": "Ilmoita jokaisesta uudesta viestistä keskustelussa vain viimeisen viestin sijaan",
                 "notify_new_post_label": "Joku kirjoitti keskusteluun, jota seuraan"
             },
@@ -41,10 +41,10 @@
             "new_post": {
                 "subject": "[Uusi viesti] {title}",
                 "plain": {
-                    "body": ""
+                    "body": "{poster_display_name} vastasi juuri keskusteluun jota seuraat: {title}.\n\nNähdäksesi tämän klikkaa seuraavaa linkkiä:\n{url}\n\n---\n\n{content}\n\n---\n\nEt saa muita ilmoituksia tästä keskustelusta ennen kuin olet ajantasalla.\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{poster_display_name} vastasi keskusteluun jota seuraat: [{title}]({url}).\n\nEt saa muita ilmoituksia tästä keskustelusta ennen kuin olet ajantasalla.\n"
                 }
             }
         },
@@ -52,8 +52,8 @@
             "gambits": {
                 "discussions": {
                     "subscription": {
-                        "following_key": "",
-                        "ignoring_key": ""
+                        "following_key": "seurataan",
+                        "ignoring_key": "ohitetaan"
                     }
                 }
             }

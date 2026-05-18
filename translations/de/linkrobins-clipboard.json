@@ -1,0 +1,31 @@
+{
+    "linkrobins-clipboard": {
+        "admin": {
+            "settings": {
+                "copy_enable_label": "Schaltfläche „Kopieren“ in Code-Blöcken aktivieren",
+                "copy_enable_help": "Wenn aktiviert, erscheint bei jedem Code-Block in Beiträgen eine Schaltfläche zum Kopieren. Besucher können darauf klicken, um den Code in ihre Zwischenablage zu kopieren.",
+                "themes_label": "Stil der Kopieren-Schaltfläche",
+                "themes_help": "Wähle das Erscheinungsbild der Kopieren-Schaltfläche aus. Jedes Design verwendet unterschiedliche Symbole, Farben und Anordnungen.",
+                "themes": {
+                    "default": "Standard",
+                    "github": "GitHub",
+                    "lingcoder": "LingCoder",
+                    "csdn": "CSDN",
+                    "cnblog": "cnBlogs",
+                    "jianshu": "Jian Shu",
+                    "segmentfault": "SegmentFault"
+                },
+                "codeLang_label": "Sprachbezeichnung in Codeblöcken anzeigen",
+                "codeLang_help": "Zeige die erkannte Programmiersprache oben rechts in jedem Code-Block an (z. B. Python, Bash, JavaScript). Dazu ist ein Syntax-Highlighter erforderlich, der deinen Code-Elementen „language-X“-Klassen hinzufügt."
+            }
+        },
+        "forum": {
+            "action_copy": "Kopieren",
+            "action_cut": "Ausschneiden",
+            "ok_btn": "Kopiert",
+            "error_btn": "Fehler",
+            "no_support": "Nicht unterstützt",
+            "msg": "Drücke {actionKey}, um {action} auszuführen"
+        }
+    }
+}

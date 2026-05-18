@@ -4,7 +4,7 @@
             "permissions": {
                 "manage_warnings": "Создавать и удалять предупреждения от модератора",
                 "view_warnings": "Смотреть предупреждения от модератора",
-                "delete_warnings": "Удалять предупреждения от модератора (навсегда)"
+                "delete_warnings": "Удалять предупреждения от модератора навсегда"
             }
         },
         "emails": {
@@ -36,13 +36,13 @@
                 "warning_notification_label": "Предупреждение от модератора"
             },
             "validation": {
-                "public_comment_required": "Вы должны дать публичный комментарий.",
+                "public_comment_required": "Вы должны оставить публичный комментарий.",
                 "invalid_strike_count": "Количество баллов должно представлять собой целое число от 0 до 5."
             },
             "warning_controls": {
                 "delete_button": "Удалить",
                 "restore_button": "Восстановить",
-                "delete_forever_button": "Удалить (навсегда)"
+                "delete_forever_button": "Удалить навсегда"
             },
             "warning_list": {
                 "add_button": "Новое предупреждение",

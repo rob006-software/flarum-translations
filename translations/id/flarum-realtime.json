@@ -2,38 +2,38 @@
     "flarum-realtime": {
         "forum": {
             "push": {
-                "discussion-list-new-activity": "",
-                "discussion-list-new-activity-with-auto-release": ""
+                "discussion-list-new-activity": "{count, plural, one {Tampilkan # diskusi yang diperbarui} other {Tampilkan # diskusi yang diperbarui}}",
+                "discussion-list-new-activity-with-auto-release": "{count, plural, one {# diskusi memiliki} other {# diskusi memiliki}} aktivitas yang diperbarui dan akan dirilis dalam {releaseTimeout} detik. Klik untuk menampilkan sekarang."
             },
             "typing-indicator": {
                 "anonymous-user": "",
-                "people-are-typing": "",
-                "users-are-typing": "",
-                "no-activity": ""
+                "people-are-typing": "{number, plural, one {# orang sedang mengetik} other {# orang sedang mengetik}}",
+                "users-are-typing": "{count, plural, one {{users} sedang mengetik} other {{users}{others, plural, =1 { & # other} =0 {} other { & # others}} sedang mengetik}}",
+                "no-activity": "Tidak ada yang sedang mengetik"
             },
             "user": {
                 "settings": {
-                    "heading": "",
+                    "heading": "Waktu Nyata",
                     "typing-indicator-type": {
-                        "help": "",
-                        "label": ""
+                        "help": "Jika diaktifkan, indikator pengetikan akan menampilkan pengguna yang sedang mengetik. Nonaktifkan ini untuk hanya menampilkan jumlah pengguna yang sedang mengetik.",
+                        "label": "Tampilkan siapa yang sedang mengetik"
                     }
                 }
             }
         },
         "admin": {
             "permission": {
-                "view-who-types": ""
+                "view-who-types": "Lihat siapa yang sedang mengetik"
             },
             "settings": {
                 "release-discussion-updates": "",
                 "release-discussion-updates-help": "",
-                "release-discussion-updates-interval": "",
-                "release-discussion-updates-interval-help": "",
+                "release-discussion-updates-interval": "Interval untuk secara otomatis mengirimkan aktivitas diskusi baru",
+                "release-discussion-updates-interval-help": "Dalam detik. 0 berarti tidak ada pengiriman otomatis.",
                 "notification-toast-dismiss-after": "",
                 "notification-toast-dismiss-after-help": "",
-                "typing-indicator": "",
-                "typing-indicator-help": ""
+                "typing-indicator": "Indikator sedang mengetik",
+                "typing-indicator-help": "Jika diaktifkan, tergantung pada hak akses, pengguna dapat melihat jumlah pengguna lain yang sedang mengetik dalam sebuah diskusi. Jika dinonaktifkan, aktivitas mengetik dihapus baik dari UI maupun dari websocket payload."
             }
         }
     }

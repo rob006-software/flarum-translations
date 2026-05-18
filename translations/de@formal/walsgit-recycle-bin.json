@@ -15,13 +15,13 @@
             "discussion_title": "Diskussionstitel",
             "discussion_link_tooltip": "Diskussion anzeigen",
             "author": "Autor",
-            "unknownn_user": "Unbekannter Benutzer",
+            "unknown_user": "Unbekannter Benutzer",
             "created_at": "Erstellt am",
             "hidden_at": "Verborgen am",
             "unknown_date": "Unbekanntes Datum",
             "actions": "Aktionen",
-            "restore_tooltip": "Diskussion wiederherstellen",
-            "restore_post_tooltip": "Beitrag wiederherstellen",
+            "restore_tooltip": "Diskussion #{discussionId} wiederherstellen",
+            "restore_post_tooltip": "Beitrag #{postId} wiederherstellen",
             "restore_discussion": {
                 "title": "Diskussion wiederherstellen",
                 "confirmation": "Möchtest du diese Diskussion wirklich wiederherstellen:",
@@ -46,8 +46,8 @@
                 "delete_button": "Diesen Beitrag endgültig löschen",
                 "success": "Der Beitrag wurde erfolgreich gelöscht"
             },
-            "delete_tooltip": "Diskussion löschen",
-            "delete_post_tooltip": "Beitrag löschen",
+            "delete_tooltip": "Diskussion #{discussionId} löschen",
+            "delete_post_tooltip": "Beitrag #{postId} löschen",
             "bulk_actions": "Aktionen für ausgewählte Diskussionen: ",
             "bulk_post_actions": "Aktionen für ausgewählte Beiträge: ",
             "bulk_restore_label": "Ausgewählte Diskussionen wiederherstellen",
@@ -98,7 +98,8 @@
                 "id": "ID",
                 "title": "Beitragstext",
                 "open_post": "Beitrag öffnen"
-            }
+            },
+            "unknownn_user": "Unbekannter Benutzer"
         }
     }
 }

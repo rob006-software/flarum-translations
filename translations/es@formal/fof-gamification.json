@@ -87,8 +87,8 @@
                     "vote_color": "Color votado",
                     "icon_name": "Icono de voto positivo/negativo",
                     "icon_help": "Coloca cualquier icono de Font-Awesome con el sufijo -up y -down. Ejemplos: arrow, thumbs, chevron",
-                    "icon_preview_upvote": "",
-                    "icon_preview_downvote": "",
+                    "icon_preview_upvote": "Voto Positivo",
+                    "icon_preview_downvote": "Voto Negativo",
                     "upvotes_only": "Permitir solo votos positivos",
                     "first_post_only": "Permitir votos positivos/negativos únicamente en la primera publicación de una discusión",
                     "allow_self_votes": "Los usuarios pueden votar en sus propias publicaciones"
@@ -136,7 +136,7 @@
     "lib": {
         "gambits": {
             "hot": {
-                "key": ""
+                "key": "tendencia"
             }
         }
     }

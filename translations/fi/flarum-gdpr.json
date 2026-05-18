@@ -21,21 +21,21 @@
                 "user_table_data": {
                     "title": "Käyttäjä taulun tiedot",
                     "help_text": "Enimmäkseen kaikki <code>user</code>-tauluun lisätyt sarakkeet käsitellään automaattisesti, sekä tietojen vientiä että poistamista varten.\nKuitenkin on joitain erityistapauksia, jotka on lueteltu alla.\n",
-                    "column": "",
-                    "type": "",
-                    "nullable": "",
-                    "pii": "",
-                    "redacted_on_export": "",
-                    "extension": "",
-                    "yes": "",
-                    "no": "",
-                    "pii_tooltip": "",
-                    "redacted_on_export_tooltip": ""
+                    "column": "Sarake",
+                    "type": "Tyyppi",
+                    "nullable": "Nollattava",
+                    "pii": "Henkilötieto",
+                    "redacted_on_export": "Poistettu viennissä",
+                    "extension": "Lisäosa",
+                    "yes": "Kyllä",
+                    "no": "Ei",
+                    "pii_tooltip": "Tämä sarake sisältää henkilötietoja ja se poistetaan anonymisoiduissa yhteyksissä (esim. anonymisoidut tapahtumalähetykset).",
+                    "redacted_on_export_tooltip": "Tämän sarakkeen arvo tyhjennetään (asetetaan null-arvoksi) käyttäjätietojen vientiä luodessa. Sarake näkyy silti viennissä null-arvolla."
                 }
             },
             "nav": {
                 "gdpr_button": "GDPR integraatiot",
-                "gdpr_title": ""
+                "gdpr_title": "=> flarum-gdpr.admin.gdpr_page.description"
             },
             "permissions": {
                 "process_erasure": "Käsittele tyhjennys pyynnöt",
@@ -64,8 +64,8 @@
                 "columns": {
                     "user_actions": {
                         "data_export": {
-                            "button": "",
-                            "tooltip": ""
+                            "button": "Vienti",
+                            "tooltip": "Vienti käyttäjälle {username}"
                         }
                     }
                 }
@@ -83,7 +83,7 @@
                 "forum": {
                     "export_description": "Vie foorumin otsikon, osoitteen, käyttäjätunnuksen ja nykyisen päivämäärän."
                 },
-                "default_user_action": "",
+                "default_user_action": "Ei toimenpiteitä, käsitellään oletuskäyttäjätaulukon tietojenkäsittelyn mukaisesti.",
                 "no_action": "Ei toimintoja tehty.",
                 "posts": {
                     "anonymize_description": "Poistaa IP osoitteen kaikista käyttäjän viesteistä.",
@@ -109,25 +109,25 @@
         "email": {
             "confirm_erasure": {
                 "subject": "Vahvista tilisi tyhjennys pyyntö",
-                "body": ""
+                "body": "Joku (toivottavasti sinä) on juuri pyytänyt tilin `{display_name}` poistamista.\n\nVahvistaaksesi toiminnon, seuraa alla olevaa linkkiä, jonka jälkeen pyyntösi käsitellään tiimimme toimesta.\n\n{erasure_confirm_url}\n"
             },
             "erasure_completed": {
                 "deletion": {
                     "subject": "Tilin poisto suoritettu",
-                    "body": ""
+                    "body": "Tämä on automaattinen, lopullinen ilmoitus siitä, että tilisi on poistettu.\n"
                 },
                 "anonymization": {
                     "subject": "Tilin anonymisointi suoritettu",
-                    "body": ""
+                    "body": "Tämä on automaattinen, lopullinen ilmoitus siitä, että tilisi on anonymisoitu.\n"
                 }
             },
             "erasure_cancelled": {
                 "subject": "Tilin tyhjennyspyyntö peruttu",
-                "body": ""
+                "body": "Tämä on automaattinen ilmoitus siitä, että pyyntösi peruuttaa tilin poistaminen on käsitelty.\n\nTiliäsi ei enää poisteta.\n"
             },
             "export_available": {
                 "subject": "Datan vienti on saatavilla",
-                "body": ""
+                "body": "Pyysit tilitietojen vientiä käyttäjälle {username}. Vienti on luotu onnistuneesti ja on nyt saatavilla:\n\n{url}\n\nVienti on saatavilla {destroys_at} asti.\n"
             }
         },
         "forum": {
@@ -163,9 +163,9 @@
                 "comments_label": "Kommentit (valinnainen)",
                 "anonymization_button": "Anonymisoi käyttäjä",
                 "deletion_button": "Poista käyttäjä",
-                "requested_at": "",
-                "confirmed_at": "",
-                "eligible_at": ""
+                "requested_at": "Pyydetty: {date}",
+                "confirmed_at": "Vahvistettu: {date}",
+                "eligible_at": "Oikeutettu automaattiseen käsittelyyn: {date}"
             },
             "request_erasure": {
                 "title": "Pyydä tilin poistoa",

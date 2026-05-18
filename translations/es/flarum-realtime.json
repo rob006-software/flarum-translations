@@ -2,38 +2,38 @@
     "flarum-realtime": {
         "forum": {
             "push": {
-                "discussion-list-new-activity": "",
-                "discussion-list-new-activity-with-auto-release": ""
+                "discussion-list-new-activity": "{count, plural, one {Show # updated discussion} other {Show # updated discussions}}",
+                "discussion-list-new-activity-with-auto-release": "{count, plural, one {# discussion has} otro {# discussions have}} actualizó la actividad y será mostrada en {releaseTimeout} segundo. Click para mostrar ahora."
             },
             "typing-indicator": {
-                "anonymous-user": "",
-                "people-are-typing": "",
-                "users-are-typing": "",
-                "no-activity": ""
+                "anonymous-user": "[Anónimo]",
+                "people-are-typing": "{number, plural, one {# persona está escribiendo} otra {# persona está escribiendo}}",
+                "users-are-typing": "{count, plural, one {{users} is typing} other {{users}{others, plural, =1 { & # other} =0 {} otra { & # otras}} están escribiendo}}",
+                "no-activity": "Nadie está escribiendo"
             },
             "user": {
                 "settings": {
-                    "heading": "",
+                    "heading": "Tiempo Real",
                     "typing-indicator-type": {
-                        "help": "",
-                        "label": ""
+                        "help": "Cuando está activada, la opción Indicador de escritura muestra los usuarios que están escribiendo. Desactívala para mostrar solo el número de usuarios que están escribiendo.",
+                        "label": "Mostrar quién está escribiendo"
                     }
                 }
             }
         },
         "admin": {
             "permission": {
-                "view-who-types": ""
+                "view-who-types": "Ver quién está escribiendo"
             },
             "settings": {
-                "release-discussion-updates": "",
-                "release-discussion-updates-help": "",
-                "release-discussion-updates-interval": "",
-                "release-discussion-updates-interval-help": "",
-                "notification-toast-dismiss-after": "",
-                "notification-toast-dismiss-after-help": "",
-                "typing-indicator": "",
-                "typing-indicator-help": ""
+                "release-discussion-updates": "Actualizaciones de DiscussionList",
+                "release-discussion-updates-help": "Cuando se habilita, nuevas discusiones serán enviadas hacia el <code>DiscussionList</code> en el intervalo definido a continuación.",
+                "release-discussion-updates-interval": "Intervalo para enviar automáticamente nuevas actividades de discusión",
+                "release-discussion-updates-interval-help": "En segundos. 0 significa que no hay envío automático.",
+                "notification-toast-dismiss-after": "Duración de la notificación emergente",
+                "notification-toast-dismiss-after-help": "Cuánto tiempo (en segundos) permanece en pantalla una notificación emergente en tiempo real antes de que se descarte automáticamente. Establezca el valor en 0 para desactivar las notificaciones emergentes.",
+                "typing-indicator": "Indicador de escritura",
+                "typing-indicator-help": "Cuando está habilitada, sujeto a permisos, los usuarios pueden ver el número de otros usuarios que están escribiendo en una conversación. Cuando está deshabilitada, la actividad de escritura se elimina tanto de la interfaz de usuario como de la carga útil del websocket."
             }
         }
     }

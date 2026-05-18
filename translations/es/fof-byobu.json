@@ -121,23 +121,23 @@
                 "private_discussion_added": "[Discusión privada] {display_name} te agregó a una discusión privada"
             },
             "body": {
-                "private_discussion_created": "",
-                "private_discussion_replied": "",
-                "recipient_removed": "",
-                "private_discussion_added": "",
-                "made_public": ""
+                "private_discussion_created": "{actor_display_name} inició una nueva discusión privada contigo como destinatario: {discussion_title}.\n\nPuedes verla aquí:\n{discussion_url}\n\nEs posible que debas iniciar sesión para acceder a este enlace.\n",
+                "private_discussion_replied": "{actor_display_name} publicó en una discusión privada contigo como destinatario: {discussion_title}.\n\nVer aquí:\n{post_url}\n\nEs posible que debas iniciar sesión para acceder a este enlace.\n",
+                "recipient_removed": "{actor_display_name} abandonó la discusión privada: {discussion_title}. Ya no podrá ver su contenido.\n\nPuedes verla aquí:\n{discussion_url}\n\nEs posible que debas iniciar sesión para acceder a este enlace.\n",
+                "private_discussion_added": "{actor_display_name} te agregó a una discusión privada existente: {discussion_title}.\n\nPuedes verla aquí:\n{discussion_url}\n\nEs posible que debas iniciar sesión para acceder a este enlace.\n",
+                "made_public": "{actor_display_name} eliminó a todos los destinatarios e hizo pública la discusión: {discussion_title}.\n\nVerlo aquí:\n{discussion_url}\n\nEs posible que deba iniciar sesión para acceder a este enlace.\n"
             }
         },
         "lib": {
             "gambits": {
                 "byobu": {
-                    "key": ""
+                    "key": "byobu"
                 },
                 "private": {
-                    "key": ""
+                    "key": "privada"
                 },
                 "allows-pd": {
-                    "key": ""
+                    "key": "allows-pd"
                 }
             }
         }

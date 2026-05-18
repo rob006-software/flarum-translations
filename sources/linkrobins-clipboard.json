@@ -1,0 +1,31 @@
+{
+    "linkrobins-clipboard": {
+        "admin": {
+            "settings": {
+                "copy_enable_label": "Enable copy button on code blocks",
+                "copy_enable_help": "When enabled, a copy button appears on each code block in posts. Visitors can click it to copy the code to their clipboard.",
+                "themes_label": "Copy button style",
+                "themes_help": "Choose the visual style of the copy button. Each theme uses different icons, colors, and positioning.",
+                "themes": {
+                    "default": "Default",
+                    "github": "GitHub",
+                    "lingcoder": "LingCoder",
+                    "csdn": "CSDN",
+                    "cnblog": "cnBlogs",
+                    "jianshu": "Jian Shu",
+                    "segmentfault": "SegmentFault"
+                },
+                "codeLang_label": "Show language label on code blocks",
+                "codeLang_help": "Display the detected programming language in the top-right of each code block (e.g. python, bash, javascript). Requires a syntax highlighter that adds language-X classes to your code elements."
+            }
+        },
+        "forum": {
+            "action_copy": "Copy",
+            "action_cut": "Cut",
+            "ok_btn": "Copied",
+            "error_btn": "Error",
+            "no_support": "Not supported",
+            "msg": "Press {actionKey} to {action}"
+        }
+    }
+}

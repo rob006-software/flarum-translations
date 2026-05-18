@@ -5,24 +5,24 @@
                 "front_button": "Etusivu"
             },
             "badge": {
-                "frontpage_tooltip": ""
+                "frontpage_tooltip": "Asetettu etusivuksi"
             },
             "post_controls": {
-                "push_to_front_button": "",
-                "pull_from_front_button": ""
+                "push_to_front_button": "Siirrä etusivulle",
+                "pull_from_front_button": "Hae etusivulta"
             }
         }
     },
     "fof-frontpage": {
         "admin": {
             "permissions": {
-                "can_push_to_frontpage_label": ""
+                "can_push_to_frontpage_label": "Voi siirtää etusivulle"
             }
         },
         "lib": {
             "gambits": {
                 "frontpage": {
-                    "key": ""
+                    "key": "etusivu"
                 }
             }
         }

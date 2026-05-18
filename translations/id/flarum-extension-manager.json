@@ -5,7 +5,7 @@
                 "add_label": "Metode autentikasi baru",
                 "add_modal": {
                     "host_label": "Host",
-                    "host_placeholder": "",
+                    "host_placeholder": "example: bearer.flarum.org",
                     "submit_button": "Submit",
                     "token_label": "Token",
                     "type_label": "Tipe",
@@ -75,7 +75,7 @@
             "extensions": {
                 "check_why_it_failed_updating": "Tunjukkan mengapa tidak memperbarui ke versi terbaru.",
                 "install": "Pasang ekstensi baru",
-                "install_help": "Isi nama paket ekstensi untuk melanjutkan. Anda dapat menentukan <semantic_link>versi semantik</semantic_link> menggunakan format <code>vendor/package-name:version</code>. Kunjungi {extiverse} untuk melihat-lihat ekstensi.\n",
+                "install_help": "Isi nama paket ekstensi untuk melanjutkan. Anda dapat menentukan <semantic_link>versi semantik</semantic_link> dengan format <code>vendor/package-name:version</code>. Kunjungi {link} untuk melihat paket yang tersedia.\n",
                 "proceed": "Memproses",
                 "remove": "Hapus pemasangan",
                 "successful_install": "{extension} berhasil dipasang, mengalihkan..",
@@ -98,33 +98,33 @@
                 "update": "Update"
             },
             "minor_update_confirmation": {
-                "content": ""
+                "content": "Hal ini juga akan memperbarui semua ekstensi/paket lain yang memiliki pembaruan yang tersedia."
             },
-            "required_php_functions": "",
+            "required_php_functions": "Manajer ekstensi mengharuskan fungsi-fungsi PHP berikut diaktifkan: <code>{functions}</code>. Jika Anda tidak memiliki akses ke konfigurasi PHP, silakan hubungi penyedia layanan hosting Anda.\n",
             "sections": {
                 "discover": {
-                    "description": "",
-                    "empty_results": "",
+                    "description": "Tambahkan fitur dan integrasi baru ke forum Flarum Anda dengan ekstensi.",
+                    "empty_results": "Sepertinya tidak ada ekstensi yang tersedia.",
                     "extension": {
                         "badges": {
                             "abandoned": "",
-                            "fof": "",
-                            "flarum": ""
+                            "fof": "Friends Of Flarum",
+                            "flarum": "Flarum"
                         },
-                        "downloads": ""
+                        "downloads": "{count, plural, one {{formattedCount} download} other {{formattedCount} download}}"
                     },
-                    "search": "",
-                    "server_error": "",
+                    "search": "Cari...",
+                    "server_error": "Layanan saat ini tidak tersedia, silakan coba lagi nanti.",
                     "sort": {
-                        "top": ""
+                        "top": "Paling Banyak Didownload"
                     },
                     "tabs": {
                         "discover": "",
-                        "extensions": "",
-                        "languages": "",
-                        "themes": ""
+                        "extensions": "Ekstensi",
+                        "languages": "Bahasa",
+                        "themes": "Tema"
                     },
-                    "title": ""
+                    "title": "Ekstensi"
                 },
                 "queue": {
                     "columns": {
@@ -177,7 +177,7 @@
                 "task_retention_days_help": "Jumlah hari untuk menyimpan task yang telah selesai di database. Task yang lebih lama dari ini akan dihapus. Atur ke 0 untuk menyimpan semua task.\n"
             },
             "updater": {
-                "up_to_date": "",
+                "up_to_date": "Tidak ada pembaruan yang tertunda.",
                 "check_for_updates": "Periksa pembaruan",
                 "flarum": "Flarum Core",
                 "global_update_successful": "Berhasil memperbarui semua paket.",

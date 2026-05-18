@@ -11,13 +11,13 @@
         },
         "admin": {
             "settings": {
-                "cache_duration_label": "",
-                "cache_duration_help": "",
-                "flush_cache_on_new_registration_label": "",
-                "flush_cache_on_new_registration_help": "",
+                "cache_duration_label": "Duración de Caché",
+                "cache_duration_help": "Especifique cuánto tiempo deben almacenarse en caché las estadísticas del widget (en segundos). <code>0</code> para deshabilitar el almacenamiento en caché (no recomendado).",
+                "flush_cache_on_new_registration_label": "Vaciar la caché de estadísticas al registrarse",
+                "flush_cache_on_new_registration_help": "Si está habilitada, la caché de estadísticas se vaciará cuando un nuevo usuario se registre en el foro.",
                 "widget_ignore_private_discussions_label": "Ignorar discusiones privadas",
-                "classic_look_label": "",
-                "classic_look_help": ""
+                "classic_look_label": "Vista Clásica",
+                "classic_look_help": "Restaurar la apariencia original del widget utilizada antes de la integración de fof/forum-widgets-core."
             },
             "permissions": {
                 "view_discussions_count_label": "Ver recuento de discusiones del widget de estadísticas del foro",

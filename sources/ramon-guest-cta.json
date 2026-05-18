@@ -1,0 +1,28 @@
+{
+    "ramon-guest-cta": {
+        "admin": {
+            "settings": {
+                "hide_links_label": "Hide links for guests",
+                "hide_links_help": "Prevent guests from following links in posts. Clicking a link shows a Login / Sign Up prompt instead.",
+                "show_post_cta_label": "Show Join CTA after a certain number of posts for guests",
+                "show_post_cta_help": "Display a Log In / Sign Up card between posts in a discussion, visible only to guests. Use the position setting to choose after which post it appears.",
+                "position_label": "CTA position (after which post number)",
+                "position_help": "Insert the CTA banner between this post number and the next one.",
+                "position_1": "After post #1",
+                "position_2": "After post #2",
+                "position_3": "After post #3",
+                "position_4": "After post #4",
+                "position_5": "After post #5"
+            }
+        },
+        "forum": {
+            "post_cta": {
+                "text": "Like what you see? Join the discussion!",
+                "or": "or"
+            },
+            "link_cta": {
+                "placeholder": "Login to view link"
+            }
+        }
+    }
+}

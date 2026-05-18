@@ -1,11 +1,42 @@
 {
     "datlechin-posted-on": {
+        "admin": {
+            "settings": {
+                "display_mode_label": "Что показывать рядом с сообщением",
+                "display_mode_help": "Детализация на уровне каждого сообщения. Полная информация всегда доступна в подсказке.",
+                "display_mode_os_only": "Только ОС. Например, Windows 11",
+                "display_mode_os_browser": "ОС и браузер. Например, Windows 11 · Chrome 121",
+                "skip_guests_label": "Не собирать данные для гостей",
+                "skip_guests_help": "Если включено, для сообщений от гостей не сохраняются данные о платформе."
+            }
+        },
         "forum": {
             "post": {
-                "posted_on_text": "Отправлено с {posted_on}"
+                "posted_on_text": "Отправлено с {posted_on}",
+                "tooltip": {
+                    "os": "Операционная система",
+                    "client": "Браузер",
+                    "device": "Устройство"
+                }
             },
             "settings": {
                 "privacy_disclose_posted_on_label": "Показывать другим устройства, с которых я отправляю сообщения"
+            },
+            "device_types": {
+                "desktop": "Десктоп",
+                "smartphone": "Смартфон",
+                "tablet": "Планшет",
+                "feature phone": "Кнопочный телефон",
+                "console": "Игровая консоль",
+                "tv": "Телевизор",
+                "car browser": "Автомобиль",
+                "smart display": "Умный дисплей",
+                "camera": "Камера",
+                "portable media player": "",
+                "phablet": "",
+                "smart speaker": "",
+                "wearable": "",
+                "peripheral": ""
             }
         }
     }

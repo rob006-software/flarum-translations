@@ -2,98 +2,98 @@
     "flarum-messages": {
         "admin": {
             "permissions": {
-                "send_messages_label": "",
-                "delete_own_messages_label": ""
+                "send_messages_label": "Lähetä yksityisviestejä",
+                "delete_own_messages_label": "Poista omia viestejä"
             }
         },
         "forum": {
             "composer": {
-                "discard_confirmation": "",
-                "placeholder": "",
-                "recipients": "",
-                "submit_button": "",
-                "to": ""
+                "discard_confirmation": "Et ole vielä lähettänyt viestiä. Haluatko varmasti peruuttaa sen?",
+                "placeholder": "Kirjoita viesti...",
+                "recipients": "Vastaanottajat",
+                "submit_button": "Lähetä viesti",
+                "to": "Vastaanottaja:"
             },
             "dialog_list": {
-                "load_more_button": "",
-                "mark_as_read_tooltip": "",
-                "title": "",
-                "view_all": ""
+                "load_more_button": "=> core.ref.load_more",
+                "mark_as_read_tooltip": "Merkitse luetuksi",
+                "title": "Viestit",
+                "view_all": "Näytä kaikki viestit"
             },
             "dialog_section": {
-                "back_label": "",
-                "cannot_reply_text": "",
+                "back_label": "Mene takaisin",
+                "cannot_reply_text": "Käyttäjä ei voi vastata",
                 "controls": {
-                    "details_button": ""
+                    "details_button": "Tiedot"
                 },
-                "controls_toggle_label": "",
+                "controls_toggle_label": "Dialogin toiminnot",
                 "details_modal": {
-                    "created_at": "",
-                    "recipients": "",
-                    "title": ""
+                    "created_at": "Luontipäivä",
+                    "recipients": "Osallistujat",
+                    "title": "Keskustelun tiedot"
                 }
             },
             "header": {
-                "dropdown_tooltip": ""
+                "dropdown_tooltip": "Viestit"
             },
             "index": {
-                "messages_link": ""
+                "messages_link": "Viestit"
             },
             "index_sort": {
-                "latest_button": "",
-                "newest_button": "",
-                "oldest_button": ""
+                "latest_button": "Viimeisin",
+                "newest_button": "Uusin",
+                "oldest_button": "Vanhin"
             },
             "message_controls": {
-                "delete_button": "",
-                "delete_confirmation": ""
+                "delete_button": "Poista",
+                "delete_confirmation": "Haluatko varmasti poistaa tämän viestin? Tätä ei voi peruuttaa."
             },
             "messages_page": {
-                "cannot_send_message_button": "",
-                "empty_text": "",
+                "cannot_send_message_button": "Viestiä ei voi lähettää",
+                "empty_text": "Ei uusia viestejä",
                 "hero": {
-                    "title": "",
-                    "subtitle": ""
+                    "title": "Viestit",
+                    "subtitle": "Sinun yksityiset keskustelut muiden käyttäjien kanssa"
                 },
-                "mark_all_as_read_tooltip": "",
-                "refresh_tooltip": "",
-                "send_message_button": "",
+                "mark_all_as_read_tooltip": "Merkitse kaikki luetuksi",
+                "refresh_tooltip": "Päivitä",
+                "send_message_button": "Lähetä viesti",
                 "stream": {
-                    "load_previous_button": "",
-                    "load_next_button": "",
-                    "start_of_the_conversation": "",
-                    "time_lapsed_text": ""
+                    "load_previous_button": "Lataa aiemmat viestit",
+                    "load_next_button": "Lataa seuraavat viestit",
+                    "start_of_the_conversation": "Keskustelun alku",
+                    "time_lapsed_text": "=> core.forum.post_stream.time_lapsed_text"
                 },
-                "title": ""
+                "title": "Viestit"
             },
             "recipient_selection_modal": {
-                "title": ""
+                "title": "Valitse tämän viestin vastaanottaja"
             },
             "settings": {
-                "notify_message_received_label": ""
+                "notify_message_received_label": "Joku lähettää minulle viestin"
             },
             "user_controls": {
-                "send_message_button": "",
-                "cannot_reply_text": ""
+                "send_message_button": "Lähetä viesti",
+                "cannot_reply_text": "Tämä käyttäjä ei voi vastata"
             },
             "notifications": {
-                "message_received_text": ""
+                "message_received_text": "Viesti vastaanotettu käyttäjältä {user}"
             }
         },
         "email": {
             "message_received": {
-                "subject": "",
+                "subject": "{user_display_name} lähetti sinulle viestin",
                 "plain": {
-                    "body": ""
+                    "body": "{user_display_name} lähetti sinulle viestin.\n\n{url}\n\n---\n\n{content}\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{user_display_name} lähetti sinulle [uuden viestin]({url})."
                 }
             }
         },
         "lib": {
             "dialog": {
-                "title": ""
+                "title": "Viestitään käyttäjälle {username}"
             }
         }
     }

@@ -15,13 +15,13 @@
             "discussion_title": "Заголовок дискуссии",
             "discussion_link_tooltip": "Просмотреть дискуссию",
             "author": "Автор",
-            "unknownn_user": "Неизвестный пользователь",
+            "unknown_user": "Неизвестный пользователь",
             "created_at": "Создано",
             "hidden_at": "Скрыто",
             "unknown_date": "Неизвестная дата",
             "actions": "Действия",
-            "restore_tooltip": "Восстановить дискуссию",
-            "restore_post_tooltip": "Восстановить сообщение",
+            "restore_tooltip": "Восстановить дискуссию #{discussionId}",
+            "restore_post_tooltip": "Восстановить сообщение #{postId}",
             "restore_discussion": {
                 "title": "Восстановить дискуссию",
                 "confirmation": "Вы уверены, что хотите восстановить дискуссию:",
@@ -46,8 +46,8 @@
                 "delete_button": "Навсегда удалить это сообщение",
                 "success": "Сообщение успешно удалено"
             },
-            "delete_tooltip": "Удалить дискуссию",
-            "delete_post_tooltip": "Удалить сообщение",
+            "delete_tooltip": "Удалить дискуссию #{discussionId}",
+            "delete_post_tooltip": "Удалить сообщение #{postId}",
             "bulk_actions": "Действия для выбранных дискуссий: ",
             "bulk_post_actions": "Действия для выбранных сообщений: ",
             "bulk_restore_label": "Восстановить выбранные дискуссии",
@@ -98,7 +98,8 @@
                 "id": "ID",
                 "title": "Текст сообщения",
                 "open_post": "Открыть сообщение"
-            }
+            },
+            "unknownn_user": "Неизвестный пользователь"
         }
     }
 }

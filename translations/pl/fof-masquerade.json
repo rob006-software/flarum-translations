@@ -22,7 +22,6 @@
             }
         },
         "admin": {
-            "general-options": "Opcje ogólne",
             "buttons": {
                 "add-field": "Utwórz pole",
                 "edit-field": "Zapisz zmiany",
@@ -50,6 +49,7 @@
                 "icon": "Ikona",
                 "icon-help": "Wyświetla ikonę przed wartościami podanymi przez użytkownika. Listę dostępnych ikon możesz znaleźć na <a>stronie Font Awesome</a>. Użyj nazw ikon w prefiksem \"fa-\", np. \"fas fa-info\".\n",
                 "force-user-to-completion": "Wymuś uzupełnienie tego pola przez użytkownika",
+                "hide-empty-fields": "",
                 "options": "Opcje",
                 "option-new": "Nowa opcja",
                 "option-comma-warning": "Etykieta opcji nie może zawierać przecinka (\",\").",
@@ -61,7 +61,8 @@
                 "email": "E-mail",
                 "select": "Lista rozwijana",
                 "url": "URL"
-            }
+            },
+            "general-options": "Opcje ogólne"
         },
         "lib": {
             "gambits": {

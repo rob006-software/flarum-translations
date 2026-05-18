@@ -3,25 +3,25 @@
         "forum": {
             "composer": {
                 "inactive_discussion_alert": {
-                    "title": "",
-                    "description": "",
-                    "cta": "",
-                    "cta_button": "",
-                    "confirmation": ""
+                    "title": "Balasan terakhir pada diskusi ini adalah {time}.",
+                    "description": "Pertimbangkan apakah balasan Anda memberikan nilai tambah baru atau apakah topik tersebut sudah terselesaikan.",
+                    "cta": "Pertimbangkan untuk memulai diskusi baru jika Anda memiliki pertanyaan atau sudut pandang baru.",
+                    "cta_button": "=> core.ref.start_a_discussion",
+                    "confirmation": "Saya mengerti bahwa diskusi ini tidak aktif, tetapi balasan saya relevan."
                 },
-                "error": ""
+                "error": "Diskusi ini sudah terlalu lama untuk dibalas."
             }
         },
         "admin": {
             "settings": {
-                "general_heading": "",
-                "days_label": "",
-                "days_help": "",
-                "show_discussion_cta_label": "",
-                "show_discussion_cta_help": "",
-                "tags_title": "",
-                "tags_help": "",
-                "tags_placeholder": ""
+                "general_heading": "Pengaturan Umum",
+                "days_label": "Hari Hingga Diskusi Dianggap Tidak Aktif",
+                "days_help": "Tandai diskusi sebagai tidak aktif setelah sekian hari sejak posting terakhir. Atur ke <code>0</code> untuk menonaktifkan secara default.",
+                "show_discussion_cta_label": "Tampilkan Prompt \"Mulai Diskusi Baru\"",
+                "show_discussion_cta_help": "Tampilkan saran untuk memulai diskusi baru saat pengguna mencoba membalas diskusi yang tidak aktif.",
+                "tags_title": "Pengaturan Tag Tertentu",
+                "tags_help": "Ganti ambang batas ketidakaktifan global untuk tag tertentu. Biarkan kosong untuk menggunakan default. Jika beberapa tag memiliki nilai yang berbeda, periode terpendeklah yang berlaku.",
+                "tags_placeholder": "Default"
             }
         }
     }

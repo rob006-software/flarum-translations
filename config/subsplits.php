@@ -13,7 +13,6 @@
 
 declare(strict_types=1);
 
-use app\components\release\PolishReleaseGenerator;
 use app\components\release\ReleaseGenerator;
 
 return [
@@ -376,7 +375,7 @@ return [
 			'versionTemplate' => 'v5.Minor.Patch',
 			'ignoredVersionsConstraints' => ['^4.29.2'],
 		],
-		'maintainers' => ['qiaeru'],
+		'maintainers' => ['Wlork'],
 	],
 	'ga' => [
 		'type' => 'language',
@@ -775,7 +774,7 @@ return [
 		'branch' => '2.x',
 		'path' => '/locale',
 		'releaseGenerator' => [
-			'class' => PolishReleaseGenerator::class,
+			'class' => ReleaseGenerator::class,
 			'versionTemplate' => 'v2.Minor.Patch',
 			'ignoredVersionsConstraints' => ['^1.10.6'],
 		],

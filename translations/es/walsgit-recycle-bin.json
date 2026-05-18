@@ -1,62 +1,62 @@
 {
     "walsgit-recycle-bin": {
         "admin": {
-            "discussions_bin": "",
-            "posts_bin": "",
-            "search_placeholder": "",
-            "search_post_placeholder": "",
-            "search_help_text": "",
-            "search_post_help_text": "",
-            "total_hidden_discussions": "",
-            "total_hidden_posts": "",
-            "empty_list": "",
-            "hidden_discussions": "",
-            "discussion_id": "",
-            "discussion_title": "",
-            "discussion_link_tooltip": "",
-            "author": "",
-            "unknownn_user": "",
-            "created_at": "",
-            "hidden_at": "",
-            "unknown_date": "",
-            "actions": "",
-            "restore_tooltip": "",
-            "restore_post_tooltip": "",
+            "discussions_bin": "Papelera de discusiones",
+            "posts_bin": "Papelera de Publicaciones",
+            "search_placeholder": "Buscar una discusión",
+            "search_post_placeholder": "Buscar una publicación",
+            "search_help_text": "Búsquedas de palabras en los títulos y en los mensajes de las discusiones",
+            "search_post_help_text": "Búsquedas de palabras en las publicaciones ocultas",
+            "total_hidden_discussions": "Total de discusiones ocultas",
+            "total_hidden_posts": "Total de publicaciones ocultas",
+            "empty_list": "No hay discusiones en la papelera de reciclaje.",
+            "hidden_discussions": "Discusiones ocultas",
+            "discussion_id": "ID",
+            "discussion_title": "Título de la discusión",
+            "discussion_link_tooltip": "Ver discusión",
+            "author": "Autor",
+            "unknown_user": "",
+            "created_at": "Creada el",
+            "hidden_at": "Oculta el",
+            "unknown_date": "Fecha desconocida",
+            "actions": "Acciones",
+            "restore_tooltip": "Restaurar discusión",
+            "restore_post_tooltip": "Restaurar publicación",
             "restore_discussion": {
-                "title": "",
-                "confirmation": "",
-                "restore_button": "",
-                "success": ""
+                "title": "Restaurar discusión",
+                "confirmation": "¿Estás seguro de que quieres restaurar esta discusión?",
+                "restore_button": "Restaurar esta discusión",
+                "success": "Se restableció la discusión con éxito"
             },
             "restore_post": {
-                "title": "",
-                "confirmation": "",
-                "restore_button": "",
-                "success": ""
+                "title": "Restaurar publicación",
+                "confirmation": "¿Estás seguro de que quieres restaurar esta publicación de la discusión? ",
+                "restore_button": "Restaurar esta publicación",
+                "success": "Se restauró la publicación con éxito"
             },
             "delete_discussion": {
-                "title": "",
-                "confirmation": "",
-                "delete_button": "",
-                "success": ""
+                "title": "Eliminar para siempre",
+                "confirmation": "¿Estás seguro de que quieres <u>eliminar para siempre</u> esta discusión? (es irreversible)",
+                "delete_button": "Eliminar esta discusión para siempre",
+                "success": "Se eliminó la discusión con éxito"
             },
             "delete_post": {
-                "title": "",
-                "confirmation": "",
-                "delete_button": "",
-                "success": ""
+                "title": "Eliminar para siempre",
+                "confirmation": "¿Estás seguro de que quieres <u>eliminar para siempre</u> esta publicación? (es irreversible)",
+                "delete_button": "Eliminar esta publicación para siempre",
+                "success": "Se eliminó la publicación correctamente"
             },
-            "delete_tooltip": "",
-            "delete_post_tooltip": "",
-            "bulk_actions": "",
-            "bulk_post_actions": "",
-            "bulk_restore_label": "",
-            "bulk_post_restore_label": "",
+            "delete_tooltip": "Eliminar discusión",
+            "delete_post_tooltip": "Eliminar publicación",
+            "bulk_actions": "Acciones para discusiones seleccionadas: ",
+            "bulk_post_actions": "Acciones para publicaciones seleccionadas: ",
+            "bulk_restore_label": "Restaurar discusiones seleccionadas",
+            "bulk_post_restore_label": "Restaurar publicaciones seleccionadas",
             "mass_restore_modal": {
-                "title": "",
-                "text_start": "",
-                "text_end": "",
-                "submit_button": "",
+                "title": "Restaurar las discusiones seleccionadas",
+                "text_start": "¿Estás seguro de que quieres restaurar estas? ",
+                "text_end": " discusiones seleccionadas?",
+                "submit_button": "Restaurar estas discusiones",
                 "success": ""
             },
             "mass_restore_post_modal": {
@@ -97,8 +97,9 @@
             "post": {
                 "id": "",
                 "title": "",
-                "open_post": ""
-            }
+                "open_post": "Abrir publicación"
+            },
+            "unknownn_user": "Usuario desconocido"
         }
     }
 }

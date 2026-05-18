@@ -14,7 +14,7 @@
         },
         "console": {
             "scheduled_drafts_disabled": "Jelenleg az időzítés ki van kapcsolva a beállításokban.",
-            "no_title_error": ""
+            "no_title_error": "Vázlat kihagyva: a téma címe hiányzik."
         },
         "ref": {
             "schedule_draft": "Vázlat időzítése"
@@ -51,7 +51,7 @@
                 "schedule_time_preview": "Ez a vázlat ekkor automatikusan közzé lesz téve: <b>{datetime}</b>.",
                 "schedule_time_preview_formatter": "LLLL",
                 "schedule_time_preview_invalid": "Érvénytelen dátum vagy idő",
-                "no_title_error": ""
+                "no_title_error": "A téma címének megadása kötelező az ütemezés előtt."
             },
             "user": {
                 "settings": {
@@ -67,8 +67,8 @@
     "fof-default-user-preferences": {
         "admin": {
             "settings": {
-                "draftAutosaveEnable": "",
-                "draftAutosaveInterval": ""
+                "draftAutosaveEnable": "Vázlatok automatikus mentések engedélyezése alapértelmezés szerint",
+                "draftAutosaveInterval": "Alapértelmezett automatikus mentés időköze (másodpercben)"
             }
         }
     },
