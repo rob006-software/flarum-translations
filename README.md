@@ -934,6 +934,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`ekumanov-markdown-tables`](https://weblate.rob006.net/projects/flarum2/ekumanov-markdown-tables) | [`ekumanov/flarum-ext-markdown-tables`](https://github.com/ekumanov/flarum-ext-markdown-tables) |
 | [`ekumanov-new-posts-notice`](https://weblate.rob006.net/projects/flarum2/ekumanov-new-posts-notice) | [`ekumanov/flarum-ext-new-posts-notice`](https://github.com/ekumanov/flarum-ext-new-posts-notice) |
 | [`ekumanov-post-search`](https://weblate.rob006.net/projects/flarum2/ekumanov-post-search) | [`ekumanov/flarum-ext-post-search`](https://github.com/ekumanov/flarum-ext-post-search) |
+| [`ernestdefoe-cross-references`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-cross-references) | [`ernestdefoe/cross-references`](https://github.com/ernestdefoe/cross-references) |
 | [`ernestdefoe-social-groups`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-social-groups) | [`ernestdefoe/social-groups`](https://github.com/ernestdefoe/social-groups) |
 | [`flectar-turnstile`](https://weblate.rob006.net/projects/flarum2/flectar-turnstile) | [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile) |
 | [`forumaker-magicbb`](https://weblate.rob006.net/projects/flarum2/forumaker-magicbb) | [`forumaker/magicbb`](https://github.com/forumaker/magicbb) |
@@ -995,6 +996,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`ramon-backup`](https://weblate.rob006.net/projects/flarum2/ramon-backup) | [`ramon/backup`](https://github.com/ram0ng1/backup) |
 | [`ramon-classifieds`](https://weblate.rob006.net/projects/flarum2/ramon-classifieds) | [`ramon/classifieds`](https://github.com/ram0ng1/classifieds) |
 | [`ramon-guest-cta`](https://weblate.rob006.net/projects/flarum2/ramon-guest-cta) | [`ramon/guest-cta`](https://github.com/ram0ng1/guest-cta) |
+| [`ramon-mail-reply`](https://weblate.rob006.net/projects/flarum2/ramon-mail-reply) | [`ramon/mail-reply`](https://github.com/ram0ng1/mail-reply) |
 | [`ramon-point-system`](https://weblate.rob006.net/projects/flarum2/ramon-point-system) | [`ramon/point-system`](https://github.com/ram0ng1/point-system) |
 | [`ramon-stickers`](https://weblate.rob006.net/projects/flarum2/ramon-stickers) | [`ramon/stickers`](https://github.com/ram0ng1/stickers) |
 | [`ramon-verified`](https://weblate.rob006.net/projects/flarum2/ramon-verified) | [`ramon/verified`](https://github.com/ram0ng1/verified) |
