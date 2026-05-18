@@ -7,20 +7,20 @@
             "elastic-index": "Index",
             "analyzer": {
                 "label": "Çözümleyici dili",
-                "help": "Çözümleyici, aramanın durma sözcüklerini anlamasını sağlar ve dizin\noluşturma için dile özgü iyileştirmeler gerçekleştirir.\n"
+                "help": "Çözümleyici, aramanın işlevsiz sözcüklerini anlamasını sağlar ve dizin\noluşturma için dile özgü iyileştirmeler gerçekleştirir. İndeks yeniden oluşturulmalıdır.\n"
             },
-            "index-settings-changed": "",
+            "index-settings-changed": "Arama indeks ayarları değişti. Şu komutu çalıştırın: php flarum blomstra:search:index build",
             "reindex-required": {
-                "title": "",
-                "detail": ""
+                "title": "Arama indeksinin yeniden oluşturulması gerekiyor",
+                "detail": "Arama indeksi bu uzantı sürümüyle uyumlu değil. Şu komutu çalıştırın: php flarum blomstra:search:index build"
             },
             "search-discussion-subjects": "Tartışma başlıklarında ara",
             "search-post-bodies": "Yorumların içinde ara",
             "match-sentences": "Arama terimini tam cümleyle eşleştir",
             "match-words": "Arama terimini tam kelimelerle eşleştir",
             "min-search-length": {
-                "label": "",
-                "help": ""
+                "label": "Minimum arama sorgusu uzunluğu",
+                "help": "Aramanın tetiklenmesi için gereken minimum karakter sayısı. Tek bir karakterin tam bir anlam\ntaşıyabildiği CJK (Çince, Japonca, Korece) toplulukları için bu değeri 1 veya 2'ye düşürün.\nDeğişikliğin geçerli olması için indeksin tamamen yeniden oluşturulmasını gerektirir.\n"
             }
         }
     }
