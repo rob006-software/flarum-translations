@@ -5826,11 +5826,14 @@
         "forumaker-magicbb": {
             "admin": {
                 "permissions": {
+                    "bypass_like": "d41d8cd98f00b204e9800998ecf8427e 25573dac1410c9d307c46f4ab0aca7e7",
+                    "bypass_reply": "d41d8cd98f00b204e9800998ecf8427e a492f0c894138b6c717f8774e73be9f5",
                     "use_iframe": "d41d8cd98f00b204e9800998ecf8427e c14c45fdd4c1943dcea89b6573bd6edc"
                 },
                 "sections": {
                     "content": "d41d8cd98f00b204e9800998ecf8427e bedb8536f2c583816c4876eec20927ec",
                     "features": "d41d8cd98f00b204e9800998ecf8427e 440c8e210dd353075f67f38bca2dbe2c",
+                    "hide": "d41d8cd98f00b204e9800998ecf8427e 48f6597a48ca6c23ec808153328d122c",
                     "images": "d41d8cd98f00b204e9800998ecf8427e 3bf6d9bc435038daaea809da5d10b155",
                     "text": "d41d8cd98f00b204e9800998ecf8427e 54faedb7cff5c520f9c95e60b98a8827"
                 },
@@ -5838,6 +5841,12 @@
                     "bb_audio": "d41d8cd98f00b204e9800998ecf8427e b22f0418e8ac915eb66f829d262d14a2",
                     "bb_center": "d41d8cd98f00b204e9800998ecf8427e 72bd35e25e66dd322434940f7c2fa87f",
                     "bb_color": "d41d8cd98f00b204e9800998ecf8427e a7796c561c033735a2eb6c733459c379",
+                    "bb_hide_like": "d41d8cd98f00b204e9800998ecf8427e 17b222f03d962fb4d8eb59d1149d0ad6",
+                    "bb_hide_like_help": "d41d8cd98f00b204e9800998ecf8427e 73d7410e0f02796ca4b45a67bb8b1cb5",
+                    "bb_hide_login": "d41d8cd98f00b204e9800998ecf8427e 0afbbf2f70d39364971ef07f8fa0790e",
+                    "bb_hide_login_help": "d41d8cd98f00b204e9800998ecf8427e 2d906e9d06d0ca8029fceda696939dfd",
+                    "bb_hide_reply": "d41d8cd98f00b204e9800998ecf8427e ac7df576866dc8d98aa580b8e44f07ef",
+                    "bb_hide_reply_help": "d41d8cd98f00b204e9800998ecf8427e 049364ba5f87521199648e9fc3cf832a",
                     "bb_iframe": "d41d8cd98f00b204e9800998ecf8427e a598e4f2afad9df861fdc476f67ef252",
                     "bb_iframe_help": "d41d8cd98f00b204e9800998ecf8427e ce7bc5aca27eca8caf37bb5f8845a1ff",
                     "bb_image": "d41d8cd98f00b204e9800998ecf8427e 2de1eca32c5aa87247a472c313b13901",
@@ -5855,12 +5864,20 @@
                     "audio_button": "d41d8cd98f00b204e9800998ecf8427e 6c42d87c39f8eb2154cae4de62bdc4d5",
                     "center_button": "d41d8cd98f00b204e9800998ecf8427e 72bd35e25e66dd322434940f7c2fa87f",
                     "color_button": "d41d8cd98f00b204e9800998ecf8427e 739644736e29ac7df72dc9510461a796",
+                    "hide_like_button": "d41d8cd98f00b204e9800998ecf8427e e16dfd94e6edc4e4a771ecd7fe73c385",
+                    "hide_login_button": "d41d8cd98f00b204e9800998ecf8427e 49286ba905329824734ffc7d16f6abb0",
+                    "hide_reply_button": "d41d8cd98f00b204e9800998ecf8427e ab44efa8ff1f1e5db074403ab8e8b56e",
                     "image_button": "d41d8cd98f00b204e9800998ecf8427e 4313cb33c7c6a2097eddf9a6d2e231bf",
                     "info_button": "d41d8cd98f00b204e9800998ecf8427e 2b8c2553bf77c0f550c1805bdfa0a4a8",
                     "justify_button": "d41d8cd98f00b204e9800998ecf8427e 12ad119d8981e095b06f207360bade31",
                     "more_button": "d41d8cd98f00b204e9800998ecf8427e 32ba78fe43257d3e7f88e3935a8ea0d4",
                     "spoiler_button": "d41d8cd98f00b204e9800998ecf8427e 57c699821a8cde6d6eac313d02b4f678",
                     "table_button": "d41d8cd98f00b204e9800998ecf8427e 608546499070c1bc7728ffc6268524e9"
+                },
+                "hide": {
+                    "like_to_see_simple": "d41d8cd98f00b204e9800998ecf8427e 1ad086d7bc597bdac1b65e5a95839ab5",
+                    "login_to_see_simple": "d41d8cd98f00b204e9800998ecf8427e 201d185b13a4290724cc030eb2934de3",
+                    "reply_to_see_simple": "d41d8cd98f00b204e9800998ecf8427e 3fbe6770dc83c0f1351bac3c18c9238a"
                 }
             }
         }

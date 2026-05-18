@@ -5814,11 +5814,14 @@
         "forumaker-magicbb": {
             "admin": {
                 "permissions": {
+                    "bypass_like": "d41d8cd98f00b204e9800998ecf8427e 77f3693ba775db88a452791709063dc4",
+                    "bypass_reply": "d41d8cd98f00b204e9800998ecf8427e 0b66462de6f5eca1ae1d74210ed2c1fe",
                     "use_iframe": "852620968a2e7a647a5e1236442cc621 852620968a2e7a647a5e1236442cc621"
                 },
                 "sections": {
                     "content": "e33b942e1b9a21bd68ecc81091e2041c e33b942e1b9a21bd68ecc81091e2041c",
                     "features": "8f96b9007880dcd8b15648ced9350869 8f96b9007880dcd8b15648ced9350869",
+                    "hide": "d41d8cd98f00b204e9800998ecf8427e 9db851d91c9d705c7af09825cf447609",
                     "images": "a56961575f1a0a8aecc562ec877cb669 a56961575f1a0a8aecc562ec877cb669",
                     "text": "2196c8398bd4e3e18050b0d21d464cd5 2196c8398bd4e3e18050b0d21d464cd5"
                 },
@@ -5826,6 +5829,12 @@
                     "bb_audio": "b22f0418e8ac915eb66f829d262d14a2 b22f0418e8ac915eb66f829d262d14a2",
                     "bb_center": "5e01b7daaa336273ec03c11da780ae0e 5e01b7daaa336273ec03c11da780ae0e",
                     "bb_color": "16fd55d02a23f31097ca58eccfeec97c 16fd55d02a23f31097ca58eccfeec97c",
+                    "bb_hide_like": "d41d8cd98f00b204e9800998ecf8427e 98b82c200a2e309b24cb481970f3fcc4",
+                    "bb_hide_like_help": "d41d8cd98f00b204e9800998ecf8427e 4a62dc193c6904da8d34d05c8ec1b07c",
+                    "bb_hide_login": "d41d8cd98f00b204e9800998ecf8427e 05d316097eb9d1289765b00d23b6aba8",
+                    "bb_hide_login_help": "d41d8cd98f00b204e9800998ecf8427e a77473080c835676cce13df061765c0c",
+                    "bb_hide_reply": "d41d8cd98f00b204e9800998ecf8427e e1874c4c3623fb7cae62903a2d96b378",
+                    "bb_hide_reply_help": "d41d8cd98f00b204e9800998ecf8427e 7f72d8ad890fa64cc03aaa2a30225fd8",
                     "bb_iframe": "f5ab0f82d3c5556baa773b78de397f35 f5ab0f82d3c5556baa773b78de397f35",
                     "bb_iframe_help": "94e736d0d387ec901bae1a97eb7801f5 94e736d0d387ec901bae1a97eb7801f5",
                     "bb_image": "2de1eca32c5aa87247a472c313b13901 2de1eca32c5aa87247a472c313b13901",
@@ -5843,11 +5852,19 @@
                     "audio_button": "20974512e033aa4c78371303c93fa943 20974512e033aa4c78371303c93fa943",
                     "center_button": "5e01b7daaa336273ec03c11da780ae0e 5e01b7daaa336273ec03c11da780ae0e",
                     "color_button": "3357e98130f7cc3b934e17383f890c2a 3357e98130f7cc3b934e17383f890c2a",
+                    "hide_like_button": "d41d8cd98f00b204e9800998ecf8427e 085dae878090745823355369af654762",
+                    "hide_login_button": "d41d8cd98f00b204e9800998ecf8427e 573b20c665428ddbfe8f453d40e92622",
+                    "hide_reply_button": "d41d8cd98f00b204e9800998ecf8427e 1cb5717d70eb2c51f4ca85fc21a44741",
                     "info_button": "1eba4ed9ebffb06b11a62053d9592e7b 1eba4ed9ebffb06b11a62053d9592e7b",
                     "justify_button": "839313f4f2ddf184cc8b7ba10ed16129 839313f4f2ddf184cc8b7ba10ed16129",
                     "more_button": "7bb2046a9d1157eb64f7445140d0d61a 7bb2046a9d1157eb64f7445140d0d61a",
                     "spoiler_button": "8c8032ae3d045475b80487673b800a33 8c8032ae3d045475b80487673b800a33",
                     "table_button": "306fa36eb497e6684bb5c16faf3bfa54 306fa36eb497e6684bb5c16faf3bfa54"
+                },
+                "hide": {
+                    "like_to_see_simple": "d41d8cd98f00b204e9800998ecf8427e 9e960b4f4699d3b5a5279fc0a78c2cef",
+                    "login_to_see_simple": "d41d8cd98f00b204e9800998ecf8427e ed2d5e886186ed2ac7a83878e97fddc6",
+                    "reply_to_see_simple": "d41d8cd98f00b204e9800998ecf8427e ca40ac61063c0f2b61bb2911517bb4b4"
                 }
             }
         }
