@@ -113,6 +113,9 @@ return [
 	'ernestdefoe-cross-references' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/cross-references/2.0.1/locale/en.yml',
 	],
+	'ernestdefoe-github-release-bot' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/github-release-bot/2.0.2/locale/en.yml',
+	],
 	'ernestdefoe-social-groups' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/social-groups/2.3.51/locale/en.yml',
 	],
