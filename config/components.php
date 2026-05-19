@@ -114,7 +114,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/cross-references/2.0.1/locale/en.yml',
 	],
 	'ernestdefoe-social-groups' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/social-groups/2.3.47/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/social-groups/2.3.51/locale/en.yml',
 	],
 	'flarum-akismet' => [
 		'beta' => 'https://raw.githubusercontent.com/flarum/akismet/v2.0.0-beta.8/locale/en.yml',
