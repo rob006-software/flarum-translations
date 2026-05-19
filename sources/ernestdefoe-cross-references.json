@@ -22,15 +22,10 @@
         },
         "admin": {
             "settings": {
-                "show_inline_label": "Show inline references in posts",
-                "show_inline_help": "When enabled, `#42` and pasted forum-discussion URLs render as rich cross-reference chips with the discussion title.",
                 "create_backlinks_label": "Create backlink event-posts in target discussions",
                 "create_backlinks_help": "When a post references another discussion, insert a small system post in the target showing the referrer. Disable for forums that prefer quiet target threads.",
                 "notify_author_label": "Notify the target discussion's author",
                 "notify_author_help": "Send an in-app alert to the author of the referenced discussion. The actor's own posts never notify themselves."
-            },
-            "permissions": {
-                "create_cross_references": "Use cross-references in posts"
             }
         }
     }
