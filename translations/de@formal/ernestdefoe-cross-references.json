@@ -2,21 +2,21 @@
     "ernestdefoe-cross-references": {
         "forum": {
             "sidebar": {
-                "heading": "",
-                "load_error": "",
-                "by_user": "",
-                "capped_notice": ""
+                "heading": "Referenziert von {count, plural, one {einer Diskussion} other {# Diskussionen}}",
+                "load_error": "Referenzen konnten nicht geladen werden.",
+                "by_user": "von {username}",
+                "capped_notice": "Die letzten 50 anzeigen."
             },
             "event_post": {
-                "text": "",
-                "post_specific": ""
+                "text": "{username} hat dies von {ref} referenziert",
+                "post_specific": " (bestimmter Beitrag)"
             },
             "notification": {
-                "text": ""
+                "text": "Hat deine Diskussion von {discussion} referenziert"
             },
             "post_number": {
-                "tooltip": "",
-                "copied": "",
+                "tooltip": "Beitrag # — Zum Kopieren des Querverweises hier klicken ({ref})",
+                "copied": "{ref} in die Zwischenablage kopiert.",
                 "copy_failed": ""
             }
         },
