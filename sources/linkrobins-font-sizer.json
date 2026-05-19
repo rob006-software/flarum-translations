@@ -1,0 +1,34 @@
+{
+    "linkrobins-font-sizer": {
+        "forum": {
+            "header_button": {
+                "label": "Font Size",
+                "title": "Font Size"
+            },
+            "modal": {
+                "title": "Text & UI Size",
+                "close_button_label": "Close",
+                "reading_text_heading": "Reading Text",
+                "reading_text_hint": "Affects post body and discussion titles.",
+                "reading_text_value": "{percent}%",
+                "interface_size_heading": "Interface Size",
+                "interface_size_hint": "Affects navigation, buttons, and other UI elements.",
+                "ui_default": "Default",
+                "ui_large": "Large",
+                "reset_button": "Reset to site default"
+            }
+        },
+        "admin": {
+            "settings": {
+                "text_size_label": "Default Reading Text Size",
+                "text_size_help": "Sets the sitewide default for post body and title text. Users can override this with the Font Size button in the header.",
+                "text_size_value": "{percent}%",
+                "reset_button": "Reset to 100%",
+                "ui_size_label": "Default Interface Size",
+                "ui_size_help": "Sets the sitewide default for navigation, buttons, and UI elements. Users can override this with the Font Size button in the header.",
+                "ui_default": "Default",
+                "ui_large": "Large"
+            }
+        }
+    }
+}
