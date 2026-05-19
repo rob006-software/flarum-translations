@@ -111,7 +111,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ekumanov/flarum-ext-post-search/v1.0.0/locale/en.yml',
 	],
 	'ernestdefoe-seo' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/seo/2.0.4/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/seo/2.0.5/locale/en.yml',
 		'__builtInLanguages' => [
 			'ar',
 			'de',
