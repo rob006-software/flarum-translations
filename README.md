@@ -965,6 +965,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`linkrobins-blog`](https://weblate.rob006.net/projects/flarum2/linkrobins-blog) | [`linkrobins/blog`](https://github.com/linkrobins/blog) |
 | [`linkrobins-clipboard`](https://weblate.rob006.net/projects/flarum2/linkrobins-clipboard) | [`linkrobins/clipboard`](https://github.com/linkrobins/clipboard) |
 | [`linkrobins-countdown-widget`](https://weblate.rob006.net/projects/flarum2/linkrobins-countdown-widget) | [`linkrobins/countdown-widget`](https://github.com/linkrobins/countdown-widget) |
+| [`linkrobins-font-sizer`](https://weblate.rob006.net/projects/flarum2/linkrobins-font-sizer) | [`linkrobins/font-sizer`](https://github.com/linkrobins/font-sizer) |
 | [`linkrobins-html-widget`](https://weblate.rob006.net/projects/flarum2/linkrobins-html-widget) | [`linkrobins/html-widget`](https://github.com/linkrobins/html-widget) |
 | [`linkrobins-markdown-widget`](https://weblate.rob006.net/projects/flarum2/linkrobins-markdown-widget) | [`linkrobins/markdown-widget`](https://github.com/linkrobins/markdown-widget) |
 | [`linkrobins-op`](https://weblate.rob006.net/projects/flarum2/linkrobins-op) | [`linkrobins/op`](https://github.com/linkrobins/OP) |
