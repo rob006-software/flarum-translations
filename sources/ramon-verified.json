@@ -11,10 +11,11 @@
                 "learn_more": "Learn more"
             },
             "tier_prompt": {
-                "intro": "Select the verification tier:",
-                "hint": "Enter the number or the tier ID (e.g. 1 or blue).",
-                "no_tiers": "No tiers configured. Add tiers in Admin → Verified before verifying users.",
-                "invalid": "Invalid tier. Verification cancelled."
+                "no_tiers": "No tiers configured. Add tiers in Admin → Verified before verifying users."
+            },
+            "verification_prompt": {
+                "tier_label": "Verification tier",
+                "note_placeholder": "Optional — recorded in the audit log"
             },
             "errors": {
                 "generic": "Something went wrong. Please try again.",
@@ -308,7 +309,6 @@
             "file_too_large": "The document is too large (8 MB maximum).",
             "bad_extension": "Unsupported file extension.",
             "bad_mime": "Unsupported file type.",
-            "not_found": "Verification request not found.",
             "user_missing": "The associated user no longer exists.",
             "avatar_locked": "Your avatar is locked because your account is verified. Submit a new verification request to update it.",
             "revoked_default_note": "Verification revoked by administrator.",

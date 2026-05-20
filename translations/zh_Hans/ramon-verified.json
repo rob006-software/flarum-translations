@@ -11,10 +11,14 @@
                 "learn_more": "了解更多"
             },
             "tier_prompt": {
+                "no_tiers": "暂未配置级别。从管理后台》Verified插件中添加认证级别后，再进行认证。",
                 "intro": "选择认证级别：",
                 "hint": "输入认证级别的ID（例如1或blue）。",
-                "no_tiers": "暂未配置级别。从管理后台》Verified插件中添加认证级别后，再进行认证。",
                 "invalid": "认证级别无效。认证已被取消。"
+            },
+            "verification_prompt": {
+                "tier_label": "",
+                "note_placeholder": ""
             },
             "errors": {
                 "generic": "发生错误。请重试。",
@@ -313,7 +317,6 @@
             "file_too_large": "资料过大（最大8MB）。",
             "bad_extension": "不支持的文件扩展名。",
             "bad_mime": "不支持的文件类型。",
-            "not_found": "没有认证申请。",
             "user_missing": "关联用户已不存在。",
             "avatar_locked": "你的账号是已认证账号，头像已被锁定。重新提交认证申请可更新头像。",
             "revoked_default_note": "管理员撤销的认证。",
@@ -331,7 +334,8 @@
                 "bad_extension": "",
                 "bad_mime": "",
                 "too_large": ""
-            }
+            },
+            "not_found": "没有认证申请。"
         }
     }
 }

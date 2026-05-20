@@ -25,6 +25,7 @@
                 "cancel_select_button": "Отменить",
                 "delete_selected_button": "Удалить ({count})",
                 "delete_selected_confirm": "Удалить {count} стикеров? Это действие нельзя отменить.",
+                "delete_selected_error": "",
                 "edit_sticker": {
                     "modal_title": "Добавить стикер",
                     "sticker_category_label": "Код категории",
@@ -32,6 +33,7 @@
                     "sticker_title_label": "Название стикера",
                     "text_to_replace_label": "Текст для замены. Например, :sticker:",
                     "path_or_url_label": "Путь или URL",
+                    "category_help": "",
                     "upload_label": "Загрузить файл",
                     "upload_button": "Выбрать файл",
                     "upload_help": "Поддерживаются анимированные Lottie JSON (.json), стикеры Telegram (.tgs), PNG, GIF, WebP, JPEG.",
@@ -39,10 +41,15 @@
                     "delete_sticker_button": "Удалить стикер",
                     "delete_sticker_confirmation": "Удалить этот стикер?",
                     "saved_message": "=> core.admin.settings.saved_message",
-                    "save_error": ""
+                    "save_error": "",
+                    "tgs_notice_title": "",
+                    "tgs_notice_body": "",
+                    "external_anim_notice_title": "",
+                    "external_anim_notice_body": ""
                 },
                 "sticker_list": {
-                    "load_more_button": "=> core.forum.post_stream.load_more_button"
+                    "load_more_button": "=> core.forum.post_stream.load_more_button",
+                    "move_category_error": ""
                 }
             }
         },

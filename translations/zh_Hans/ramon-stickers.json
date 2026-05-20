@@ -25,6 +25,7 @@
                 "cancel_select_button": "取消",
                 "delete_selected_button": "删除（{count}个）",
                 "delete_selected_confirm": "删除{count}个贴纸？该操作无法撤销。",
+                "delete_selected_error": "",
                 "edit_sticker": {
                     "modal_title": "添加贴纸",
                     "sticker_category_label": "分类编码",
@@ -32,6 +33,7 @@
                     "sticker_title_label": "贴纸名称",
                     "text_to_replace_label": "替换问题 （例如:sticker:）",
                     "path_or_url_label": "路径或URL",
+                    "category_help": "",
                     "upload_label": "上传文件",
                     "upload_button": "选择文件",
                     "upload_help": "支持Lottie动画JSON（.json），Telegram贴纸（.tgs），PNG，GIF，WebP，JPEG。",
@@ -39,10 +41,15 @@
                     "delete_sticker_button": "删除贴纸",
                     "delete_sticker_confirmation": "确定删除这个贴纸？",
                     "saved_message": "=> core.admin.settings.saved_message",
-                    "save_error": "保存表情失败。请检查输入内容后重试。"
+                    "save_error": "保存表情失败。请检查输入内容后重试。",
+                    "tgs_notice_title": "",
+                    "tgs_notice_body": "",
+                    "external_anim_notice_title": "",
+                    "external_anim_notice_body": ""
                 },
                 "sticker_list": {
-                    "load_more_button": "=> core.forum.post_stream.load_more_button"
+                    "load_more_button": "=> core.forum.post_stream.load_more_button",
+                    "move_category_error": ""
                 }
             }
         },

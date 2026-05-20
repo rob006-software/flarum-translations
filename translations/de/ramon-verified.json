@@ -11,10 +11,11 @@
                 "learn_more": ""
             },
             "tier_prompt": {
-                "intro": "",
-                "hint": "",
-                "no_tiers": "",
-                "invalid": ""
+                "no_tiers": ""
+            },
+            "verification_prompt": {
+                "tier_label": "",
+                "note_placeholder": ""
             },
             "errors": {
                 "generic": "",
@@ -308,7 +309,6 @@
             "file_too_large": "",
             "bad_extension": "",
             "bad_mime": "",
-            "not_found": "",
             "user_missing": "",
             "avatar_locked": "",
             "revoked_default_note": "",
