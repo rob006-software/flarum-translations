@@ -1,0 +1,32 @@
+{
+    "ernestdefoe-respawn": {
+        "admin": {
+            "settings": {
+                "mode_label": "Theme Mode",
+                "mode_help": "Default colour mode. Users can toggle with the moon/sun icon in the header.",
+                "tagline_label": "Hero Tagline",
+                "tagline_help": "Subtitle shown under the welcome line. Leave blank to hide.",
+                "eyebrow_label": "Hero Eyebrow",
+                "eyebrow_help": "Small accent line above the headline (e.g. ▸ Player Connected).",
+                "chips_label": "Hero Tag Chips",
+                "chips_help": "Comma-separated list of tag slugs to feature as quick-jump chips (e.g. halo, elden-ring, deals). Leave blank to hide."
+            }
+        },
+        "forum": {
+            "hero": {
+                "welcome": "Welcome to {forum}",
+                "new_discussion": "+ New Discussion",
+                "search_placeholder": "Search discussions, players, tags…"
+            },
+            "stats": {
+                "title": "Server Status",
+                "posts": "Posts",
+                "discussions": "Discussions",
+                "members": "Members",
+                "online": "Online Now",
+                "live": "LIVE",
+                "empty": "—"
+            }
+        }
+    }
+}
