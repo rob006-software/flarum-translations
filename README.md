@@ -935,6 +935,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`ekumanov-new-posts-notice`](https://weblate.rob006.net/projects/flarum2/ekumanov-new-posts-notice) | [`ekumanov/flarum-ext-new-posts-notice`](https://github.com/ekumanov/flarum-ext-new-posts-notice) |
 | [`ekumanov-post-search`](https://weblate.rob006.net/projects/flarum2/ekumanov-post-search) | [`ekumanov/flarum-ext-post-search`](https://github.com/ekumanov/flarum-ext-post-search) |
 | [`ernestdefoe-cross-references`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-cross-references) | [`ernestdefoe/cross-references`](https://github.com/ernestdefoe/cross-references) |
+| [`ernestdefoe-respawn`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-respawn) | [`ernestdefoe/respawn`](https://github.com/ernestdefoe/respawn) |
 | [`ernestdefoe-social-groups`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-social-groups) | [`ernestdefoe/social-groups`](https://github.com/ernestdefoe/social-groups) |
 | [`flectar-turnstile`](https://weblate.rob006.net/projects/flarum2/flectar-turnstile) | [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile) |
 | [`forumaker-magicbb`](https://weblate.rob006.net/projects/flarum2/forumaker-magicbb) | [`forumaker/magicbb`](https://github.com/forumaker/magicbb) |
