@@ -2,32 +2,32 @@
     "linkrobins-font-sizer": {
         "forum": {
             "header_button": {
-                "label": "",
-                "title": ""
+                "label": "Taille de la police",
+                "title": "Taille de la police"
             },
             "modal": {
-                "title": "",
-                "close_button_label": "",
-                "reading_text_heading": "",
-                "reading_text_hint": "",
-                "reading_text_value": "",
-                "interface_size_heading": "",
-                "interface_size_hint": "",
-                "ui_default": "",
-                "ui_large": "",
-                "reset_button": ""
+                "title": "Taille du texte et de l'interface utilisateur",
+                "close_button_label": "Fermer",
+                "reading_text_heading": "Texte",
+                "reading_text_hint": "Cela affecte les messages et les titres des discussions.",
+                "reading_text_value": "{percent}%",
+                "interface_size_heading": "Taille de l'interface",
+                "interface_size_hint": "Cela affecte la navigation, les boutons et d'autres éléments de l'interface utilisateur.",
+                "ui_default": "Par défaut",
+                "ui_large": "Grande",
+                "reset_button": "Réinitialiser les paramètres du site par défaut"
             }
         },
         "admin": {
             "settings": {
-                "text_size_label": "",
-                "text_size_help": "",
-                "text_size_value": "",
-                "reset_button": "",
-                "ui_size_label": "",
-                "ui_size_help": "",
-                "ui_default": "",
-                "ui_large": ""
+                "text_size_label": "Taille du texte par défaut",
+                "text_size_help": "Définit les paramètres par défaut pour les messages et les titres sur l'ensemble du site. Les utilisateurs peuvent modifier ces paramètres à l'aide du bouton « Taille de la police » situé dans l'en-tête.",
+                "text_size_value": "{percent}%",
+                "reset_button": "Réinitialiser à 100 %",
+                "ui_size_label": "Taille de l'interface par défaut",
+                "ui_size_help": "Définit les paramètres par défaut pour la navigation, les boutons et d'autres éléments de l'interface utilisateur sur l'ensemble du site. Les utilisateurs peuvent modifier ces paramètres à l'aide du bouton « Taille de la police » situé dans l'en-tête.",
+                "ui_default": "Par défaut",
+                "ui_large": "Grande"
             }
         }
     }
