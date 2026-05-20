@@ -117,7 +117,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/social-groups/2.3.51/locale/en.yml',
 	],
 	'ernestdefoe-theme-toggle' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/theme-toggle/2.0.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/theme-toggle/2.0.1/locale/en.yml',
 	],
 	'flarum-akismet' => [
 		'beta' => 'https://raw.githubusercontent.com/flarum/akismet/v2.0.0-beta.8/locale/en.yml',
