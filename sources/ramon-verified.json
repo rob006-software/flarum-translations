@@ -222,7 +222,7 @@
                     "confirm_saved": "I have saved this in config.php and confirmed the file is readable by PHP.",
                     "confirm_hint": "Please confirm above that you've saved the key before closing.",
                     "close": "Close",
-                    "orphaned": "{count} previously encrypted document(s) were deleted because their files could no longer be read."
+                    "orphaned": "{count} previously encrypted document(s) are being deleted in the background."
                 },
                 "regenerate_modal": {
                     "title": "Generate a new keypair?",
@@ -319,6 +319,13 @@
                 "libsodium_missing": "libsodium is not available on this PHP installation.",
                 "acknowledge_loss_required": "You must acknowledge that all existing encrypted documents will be deleted before generating a new keypair.",
                 "private_key_missing": "This document is encrypted, but the private key is not configured in config.php on this server. Add it under the key 'verified-private-key', or regenerate the keypair (which will delete every encrypted document)."
+            },
+            "badge_svg": {
+                "missing": "No SVG file was uploaded in the \"verified-badge\" field.",
+                "upload_failed": "The SVG upload failed. Please try again.",
+                "bad_extension": "The uploaded file must have an .svg extension.",
+                "bad_mime": "Unsupported MIME type for SVG upload.",
+                "too_large": "The SVG file is too large (256 KB maximum)."
             }
         }
     }
