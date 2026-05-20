@@ -1,12 +1,11 @@
 {
-    "capy-magic-slider": {
+    "forumaker-magicslider": {
         "admin": {
             "settings": {
-                "section_display": "顯示器",
-                "section_desktop": "桌面",
-                "section_mobile": "行動裝置",
-                "section_behavior": "特徵",
-                "section_slides": "幻燈片",
+                "section_desktop": "",
+                "section_mobile": "",
+                "section_behavior": "",
+                "section_slides": "",
                 "height": "",
                 "height_help": "",
                 "padding": "",
@@ -27,7 +26,22 @@
                 "image_placeholder": "",
                 "link_placeholder": "",
                 "new_tab": "",
-                "delete": ""
+                "delete": "",
+                "drag": "",
+                "upload": "",
+                "uploading": "",
+                "upload_error": ""
+            }
+        }
+    },
+    "capy-magic-slider": {
+        "admin": {
+            "settings": {
+                "section_display": "顯示器",
+                "section_desktop": "桌面",
+                "section_mobile": "行動裝置",
+                "section_behavior": "特徵",
+                "section_slides": "幻燈片"
             }
         }
     }
