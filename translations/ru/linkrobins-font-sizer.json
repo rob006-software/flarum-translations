@@ -2,32 +2,32 @@
     "linkrobins-font-sizer": {
         "forum": {
             "header_button": {
-                "label": "",
-                "title": ""
+                "label": "Размер шрифта",
+                "title": "Размер шрифта"
             },
             "modal": {
-                "title": "",
-                "close_button_label": "",
-                "reading_text_heading": "",
-                "reading_text_hint": "",
-                "reading_text_value": "",
-                "interface_size_heading": "",
-                "interface_size_hint": "",
-                "ui_default": "",
-                "ui_large": "",
-                "reset_button": ""
+                "title": "Размер текста и интерфейса",
+                "close_button_label": "Закрыть",
+                "reading_text_heading": "Текст для чтения",
+                "reading_text_hint": "Влияет на текст сообщений и заголовки дискуссий.",
+                "reading_text_value": "{percent}%",
+                "interface_size_heading": "Размер интерфейса",
+                "interface_size_hint": "Влияет на навигацию, кнопки и другие элементы интерфейса.",
+                "ui_default": "По умолчанию",
+                "ui_large": "Крупный",
+                "reset_button": "Сбросить"
             }
         },
         "admin": {
             "settings": {
-                "text_size_label": "",
-                "text_size_help": "",
-                "text_size_value": "",
-                "reset_button": "",
-                "ui_size_label": "",
-                "ui_size_help": "",
-                "ui_default": "",
-                "ui_large": ""
+                "text_size_label": "Размер текста по умолчанию",
+                "text_size_help": "Устанавливает значение по умолчанию для текста сообщений и заголовков. Пользователи могут изменить его с помощью кнопки «Размер шрифта» в шапке.",
+                "text_size_value": "{percent}%",
+                "reset_button": "Сбросить до 100%",
+                "ui_size_label": "Размер интерфейса по умолчанию",
+                "ui_size_help": "Устанавливает значение по умолчанию для навигации, кнопок и элементов интерфейса. Пользователи могут изменить его с помощью кнопки «Размер шрифта» в шапке.",
+                "ui_default": "По умолчанию",
+                "ui_large": "Крупный"
             }
         }
     }
