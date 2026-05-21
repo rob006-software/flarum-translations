@@ -56,7 +56,10 @@
                 "submit_button": "",
                 "start_poll_button": "",
                 "cannot_start_poll_button": "",
-                "total_votes": ""
+                "total_votes": "",
+                "draft_label": "",
+                "scheduled_label": "",
+                "scheduled_error_tooltip": ""
             },
             "poll_controls": {
                 "edit_label": "",
@@ -64,7 +67,17 @@
                 "view_label": "",
                 "delete_confirmation": "",
                 "delete_success_message": "",
-                "delete_error_message": ""
+                "delete_error_message": "",
+                "publish_label": "",
+                "publish_success": "",
+                "schedule_publish_label": "",
+                "edit_schedule_publish_label": "",
+                "cancel_schedule_label": "",
+                "cancel_schedule_success": "",
+                "unpublish_label": "",
+                "unpublish_confirmation": "",
+                "unpublish_success": "",
+                "unpublish_error_has_votes": ""
             },
             "poll_form": {
                 "delete": "",
@@ -113,6 +126,11 @@
                     "sort_dropdown": {
                         "default": ""
                     }
+                },
+                "status_filter": {
+                    "all": "",
+                    "published": "",
+                    "draft": ""
                 }
             },
             "composer_discussion": {
@@ -126,7 +144,17 @@
                 "polls_manager": "",
                 "polls_preview": "",
                 "continue_editing": "",
-                "success": ""
+                "success": "",
+                "submit": "",
+                "save_as_draft": "",
+                "update_draft": "",
+                "draft_saved": "",
+                "publish": "",
+                "schedule_publication": "",
+                "schedule_publication_edit": "",
+                "schedule_datetime_label": "",
+                "schedule_submit": "",
+                "schedule": ""
             },
             "modal": {
                 "add_title": "Προσθήκη δημοσκόπησης",
@@ -136,6 +164,7 @@
                 "include_question": "Πρέπει να συμπεριλάβετε μια ερώτηση",
                 "max": "Μπορείτε να έχετε έως και 10 απαντήσεις",
                 "min": "Πρέπει να συμπεριλάβετε τουλάχιστον 2 απαντήσεις",
+                "empty_answers": "",
                 "no_voters": "Καμία ψήφο",
                 "option_placeholder": "Απάντηση",
                 "image_option_placeholder": "",

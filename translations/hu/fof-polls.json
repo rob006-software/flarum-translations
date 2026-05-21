@@ -56,7 +56,10 @@
                 "submit_button": "Szavazás",
                 "start_poll_button": "Globális szavazás indítása",
                 "cannot_start_poll_button": "A szavazás nem indítható el",
-                "total_votes": "{count, plural, one {# szavazat lett leadva} other {# szavazat lett leadva}}"
+                "total_votes": "{count, plural, one {# szavazat lett leadva} other {# szavazat lett leadva}}",
+                "draft_label": "",
+                "scheduled_label": "",
+                "scheduled_error_tooltip": ""
             },
             "poll_controls": {
                 "edit_label": "=> core.ref.edit",
@@ -64,7 +67,17 @@
                 "view_label": "=> core.ref.view",
                 "delete_confirmation": "Biztos, hogy törli ezt a szavazást?",
                 "delete_success_message": "A szavazás sikeresen törölve.",
-                "delete_error_message": "Hiba történt a szavazás törlése során."
+                "delete_error_message": "Hiba történt a szavazás törlése során.",
+                "publish_label": "",
+                "publish_success": "",
+                "schedule_publish_label": "",
+                "edit_schedule_publish_label": "",
+                "cancel_schedule_label": "",
+                "cancel_schedule_success": "",
+                "unpublish_label": "",
+                "unpublish_confirmation": "",
+                "unpublish_success": "",
+                "unpublish_error_has_votes": ""
             },
             "poll_form": {
                 "delete": "Szavazás törlése",
@@ -113,6 +126,11 @@
                     "sort_dropdown": {
                         "default": "=> fof-polls.forum.polls_list.sort_dropdown.newest"
                     }
+                },
+                "status_filter": {
+                    "all": "",
+                    "published": "",
+                    "draft": ""
                 }
             },
             "composer_discussion": {
@@ -126,7 +144,17 @@
                 "polls_manager": "Szavazások kezelése",
                 "polls_preview": "Szavazás megtekintése",
                 "continue_editing": "Szerkesztés folytatása",
-                "success": "Szavazás sikeresen mentve."
+                "success": "Szavazás sikeresen mentve.",
+                "submit": "",
+                "save_as_draft": "",
+                "update_draft": "",
+                "draft_saved": "",
+                "publish": "",
+                "schedule_publication": "",
+                "schedule_publication_edit": "",
+                "schedule_datetime_label": "",
+                "schedule_submit": "",
+                "schedule": ""
             },
             "modal": {
                 "add_title": "Szavazás hozzáadása",
@@ -136,6 +164,7 @@
                 "include_question": "Lennie kell egy kérdésnek",
                 "max": "Legfeljebb {max} válasz lehet",
                 "min": "Legalább 2 választ meg kell adni",
+                "empty_answers": "",
                 "no_voters": "Nincs szavazat",
                 "option_placeholder": "Válasz",
                 "image_option_placeholder": "Kép webcíme (nem kötelező)",

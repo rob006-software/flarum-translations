@@ -56,7 +56,10 @@
                 "submit_button": "投票",
                 "start_poll_button": "開始民意調查",
                 "cannot_start_poll_button": "無法開始投票",
-                "total_votes": ""
+                "total_votes": "",
+                "draft_label": "",
+                "scheduled_label": "",
+                "scheduled_error_tooltip": ""
             },
             "poll_controls": {
                 "edit_label": "=> core.ref.edit",
@@ -64,7 +67,17 @@
                 "view_label": "=> core.ref.view",
                 "delete_confirmation": "您確定要刪除此投票嗎？",
                 "delete_success_message": "投票刪除成功。",
-                "delete_error_message": "刪除投票時出現問題。"
+                "delete_error_message": "刪除投票時出現問題。",
+                "publish_label": "",
+                "publish_success": "",
+                "schedule_publish_label": "",
+                "edit_schedule_publish_label": "",
+                "cancel_schedule_label": "",
+                "cancel_schedule_success": "",
+                "unpublish_label": "",
+                "unpublish_confirmation": "",
+                "unpublish_success": "",
+                "unpublish_error_has_votes": ""
             },
             "poll_form": {
                 "delete": "刪除投票",
@@ -113,6 +126,11 @@
                     "sort_dropdown": {
                         "default": ""
                     }
+                },
+                "status_filter": {
+                    "all": "",
+                    "published": "",
+                    "draft": ""
                 }
             },
             "composer_discussion": {
@@ -126,7 +144,17 @@
                 "polls_manager": "民調管理員",
                 "polls_preview": "查看投票",
                 "continue_editing": "繼續編輯",
-                "success": "投票保存成功。"
+                "success": "投票保存成功。",
+                "submit": "",
+                "save_as_draft": "",
+                "update_draft": "",
+                "draft_saved": "",
+                "publish": "",
+                "schedule_publication": "",
+                "schedule_publication_edit": "",
+                "schedule_datetime_label": "",
+                "schedule_submit": "",
+                "schedule": ""
             },
             "modal": {
                 "add_title": "新增投票",
@@ -136,6 +164,7 @@
                 "include_question": "必須包含至少一個問題",
                 "max": "最多 {max} 個選項",
                 "min": "最少只能有 2 個選項",
+                "empty_answers": "",
                 "no_voters": "暫無投票",
                 "option_placeholder": "選項",
                 "image_option_placeholder": "圖面連結(可選)",

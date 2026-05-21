@@ -56,7 +56,10 @@
                 "submit_button": "投票",
                 "start_poll_button": "发起全站投票",
                 "cannot_start_poll_button": "无法发起投票",
-                "total_votes": ""
+                "total_votes": "",
+                "draft_label": "",
+                "scheduled_label": "",
+                "scheduled_error_tooltip": ""
             },
             "poll_controls": {
                 "edit_label": "=> core.ref.edit",
@@ -64,7 +67,17 @@
                 "view_label": "=> core.ref.view",
                 "delete_confirmation": "确定要删除这个投票吗？",
                 "delete_success_message": "投票已删除。",
-                "delete_error_message": "删除投票时出错。"
+                "delete_error_message": "删除投票时出错。",
+                "publish_label": "",
+                "publish_success": "",
+                "schedule_publish_label": "",
+                "edit_schedule_publish_label": "",
+                "cancel_schedule_label": "",
+                "cancel_schedule_success": "",
+                "unpublish_label": "",
+                "unpublish_confirmation": "",
+                "unpublish_success": "",
+                "unpublish_error_has_votes": ""
             },
             "poll_form": {
                 "delete": "删除投票",
@@ -113,6 +126,11 @@
                     "sort_dropdown": {
                         "default": ""
                     }
+                },
+                "status_filter": {
+                    "all": "",
+                    "published": "",
+                    "draft": ""
                 }
             },
             "composer_discussion": {
@@ -126,7 +144,17 @@
                 "polls_manager": "投票管理器",
                 "polls_preview": "查看投票",
                 "continue_editing": "继续编辑",
-                "success": "投票保存成功。"
+                "success": "投票保存成功。",
+                "submit": "",
+                "save_as_draft": "",
+                "update_draft": "",
+                "draft_saved": "",
+                "publish": "",
+                "schedule_publication": "",
+                "schedule_publication_edit": "",
+                "schedule_datetime_label": "",
+                "schedule_submit": "",
+                "schedule": ""
             },
             "modal": {
                 "add_title": "发起投票",
@@ -136,6 +164,7 @@
                 "include_question": "至少要有一个议题",
                 "max": "最多 {max} 个选项",
                 "min": "最少 2 个选项",
+                "empty_answers": "",
                 "no_voters": "零票",
                 "option_placeholder": "选项",
                 "image_option_placeholder": "图片链接（可选）",
