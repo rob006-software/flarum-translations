@@ -517,6 +517,9 @@ return [
 	'michaelbelgium-ai-autoreply' => [
 		'tag' => 'https://raw.githubusercontent.com/MichaelBelgium/flarum-ai-autoreply/v2.0.0/locale/en.yml',
 	],
+	'michaelbelgium-discussion-views' => [
+		'tag' => 'https://raw.githubusercontent.com/MichaelBelgium/flarum-discussion-views/v8.0.0/locale/en.yml',
+	],
 	'michaelbelgium-mybb-to-flarum' => [
 		'tag' => 'https://raw.githubusercontent.com/MichaelBelgium/mybb_to_flarum/v9.0.0/locale/en.yml',
 	],
