@@ -1048,6 +1048,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`dem13n-topic-starter-label`](https://weblate.rob006.net/projects/flarum/dem13n-topic-starter-label) | [`dem13n/topic-starter-label`](https://github.com/Dem13n/topic-starter-label) |
 | [`ekumanov-inline-audio`](https://weblate.rob006.net/projects/flarum/ekumanov-inline-audio) | [`ekumanov/flarum-ext-inline-audio`](https://github.com/ekumanov/flarum-ext-inline-audio) |
 | [`ekumanov-new-posts-notice`](https://weblate.rob006.net/projects/flarum/ekumanov-new-posts-notice) | [`ekumanov/flarum-ext-new-posts-notice`](https://github.com/ekumanov/flarum-ext-new-posts-notice) |
+| [`ernestdefoe-aurora`](https://weblate.rob006.net/projects/flarum/ernestdefoe-aurora) | [`ernestdefoe/aurora`](https://github.com/ernestdefoe/aurora) |
 | [`ffans-clipboardjs`](https://weblate.rob006.net/projects/flarum/ffans-clipboardjs) | [`ffans/clipboardjs`](https://github.com/FFans/clipboardjs) |
 | [`ffans-geetest`](https://weblate.rob006.net/projects/flarum/ffans-geetest) | [`ffans/geetest`](https://github.com/FFans/geetest) |
 | [`flamarkt-backoffice`](https://weblate.rob006.net/projects/flarum/flamarkt-backoffice) | [`flamarkt/backoffice`](https://github.com/flamarkt/backoffice) |
