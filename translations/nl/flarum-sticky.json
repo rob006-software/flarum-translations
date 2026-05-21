@@ -2,9 +2,9 @@
     "flarum-sticky": {
         "admin": {
             "settings": {
-                "enable_display_excerpt": "",
-                "only_sticky_unread_discussions_label": "",
-                "only_sticky_unread_discussions_help": ""
+                "enable_display_excerpt": "Toon een fragment van het eerste bericht wanneer een vastgepind discussie niet is gelezen",
+                "only_sticky_unread_discussions_label": "Alleen vastgemaakte, ongelezen discussies",
+                "only_sticky_unread_discussions_help": "Op de pagina 'Alle discussies' worden ongelezen vastgezette discussies bovenaan weergegeven, terwijl gelezen vastgezette discussies in de normale volgorde staan."
             },
             "permissions": {
                 "sticky_discussions_label": "Vastgezette discussies"
@@ -27,7 +27,7 @@
             "gambits": {
                 "discussions": {
                     "sticky": {
-                        "key": ""
+                        "key": "sticky"
                     }
                 }
             }
