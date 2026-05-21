@@ -2,30 +2,30 @@
     "ernestdefoe-cross-references": {
         "forum": {
             "sidebar": {
-                "heading": "",
-                "load_error": "",
-                "by_user": "",
-                "capped_notice": ""
+                "heading": "Référencée dans {count, plural, one {# discussion} other {# discussions}}",
+                "load_error": "Impossible de charger les références.",
+                "by_user": "par {username}",
+                "capped_notice": "Afficher les 50 plus récentes."
             },
             "event_post": {
-                "text": "",
-                "post_specific": ""
+                "text": "{username} a référencé cette discussion depuis {ref}",
+                "post_specific": " (message spécifique)"
             },
             "notification": {
-                "text": ""
+                "text": "A référencé votre discussion depuis {discussion}"
             },
             "post_number": {
-                "tooltip": "",
-                "copied": "",
-                "copy_failed": ""
+                "tooltip": "Message # — Cliquez ici pour copier la référence croisée ({ref})",
+                "copied": "{ref} a été copiée dans le presse-papiers.",
+                "copy_failed": "Impossible de copier. La référence est {ref}."
             }
         },
         "admin": {
             "settings": {
-                "create_backlinks_label": "",
-                "create_backlinks_help": "",
-                "notify_author_label": "",
-                "notify_author_help": ""
+                "create_backlinks_label": "Créer des publications contenant des liens retour dans les discussions cibles",
+                "create_backlinks_help": "Lorsqu'un message fait référence à une autre discussion, un petit message système s'affiche dans la discussion cible indiquant la source de la référence. Désactivez cette option pour que les discussions cibles restent calmes.",
+                "notify_author_label": "Notifier l'auteur de la discussion cible",
+                "notify_author_help": "Envoyer une alerte dans l'application à l'auteur de la discussion référencée. Les auteurs ne reçoivent jamais de notification pour leurs propres messages."
             }
         }
     }
