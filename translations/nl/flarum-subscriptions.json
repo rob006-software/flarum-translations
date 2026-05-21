@@ -21,7 +21,7 @@
             },
             "settings": {
                 "follow_after_reply_label": "Automatisch discussies volgen als ik reageer",
-                "follow_after_create_label": "",
+                "follow_after_create_label": "Volg automatisch discussies die ik start",
                 "notify_for_all_posts_label": "Geef een melding over elke nieuwe post in plaats van alleen de laatste in een discussie",
                 "notify_new_post_label": "Iemand heeft gereageerd in een discussie die je volgt"
             },
@@ -41,10 +41,10 @@
             "new_post": {
                 "subject": "[Nieuwe discussie] {title}",
                 "plain": {
-                    "body": ""
+                    "body": "{poster_display_name} heeft zojuist een bericht geplaatst in een discussie die je volgt: {title}.\n\nOm de nieuwe activiteit te bekijken, ga naar de volgende link:\n{url}\n\n---\n\n{content}\n\n---\n\nJe ontvangt geen meldingen meer over deze discussie totdat je op de hoogte bent.\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{poster_display_name} heeft zojuist een bericht geplaatst in een discussie die je volgt: [{title}]({url}).\n\nJe ontvangt geen meldingen meer over deze discussie totdat je op de hoogte bent.\n"
                 }
             }
         },
@@ -52,8 +52,8 @@
             "gambits": {
                 "discussions": {
                     "subscription": {
-                        "following_key": "",
-                        "ignoring_key": ""
+                        "following_key": "following",
+                        "ignoring_key": "ignoring"
                     }
                 }
             }
