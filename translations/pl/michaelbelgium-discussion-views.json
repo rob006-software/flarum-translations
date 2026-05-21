@@ -2,53 +2,53 @@
     "core": {
         "forum": {
             "index_sort": {
-                "popular_button": "",
-                "unpopular_button": ""
+                "popular_button": "Najczęściej wyświetlane",
+                "unpopular_button": "Najrzadziej wyświetlane"
             }
         }
     },
     "michaelbelgium-discussion-views": {
         "forum": {
             "modal_resetviews": {
-                "title": "",
-                "submit_button": "",
-                "label": ""
+                "title": "Zresetuj liczbę wyświetleń dyskusji",
+                "submit_button": "Tak, usuń wszystkie",
+                "label": "{count, plural, one {Czy jesteś pewien, że chcesz usunąć {count} wyświetlenie tej dyskusji?} few {Czy jesteś pewien, że chcesz usunąć {count} wyświetlenia tej dyskusji?} other {Czy jesteś pewien, że chcesz usunąć {count} wyświetleń tej dyskusji?}}"
             },
             "discussion_controls": {
-                "resetviews_button": ""
+                "resetviews_button": "Zresetuj wyświetlenia"
             },
             "viewlist": {
-                "title": "",
-                "guest": ""
+                "title": "Ostatnio oglądający",
+                "guest": "Gość"
             },
             "post": {
-                "viewed_by": "",
-                "you": "",
-                "others_link": "",
-                "modal_title_text": ""
+                "viewed_by": "Wyświetlone przez: {users}.",
+                "you": "=> core.ref.you",
+                "others_link": "=> core.ref.some_others",
+                "modal_title_text": "Użytkownicy, którzy ostatnio przeglądali tę dyskusję"
             }
         },
         "admin": {
             "permissions": {
-                "reset_views_label": "",
-                "view_number_label": ""
+                "reset_views_label": "Resetowanie liczby wyświetleń",
+                "view_number_label": "Dostęp do liczby wyświetleń"
             },
             "settings": {
-                "title": "",
-                "track_unique_label": "",
-                "track_unique_text": "",
-                "track_guests_label": "",
-                "abbr_numbers_label": "",
-                "abbr_numbers_text": "",
-                "show_filter_label": "",
-                "max_viewcount_label": "",
-                "max_viewcount_text": "",
-                "show_viewlist_label": "",
-                "show_viewlist_text": "",
-                "show_footer_viewlist_label": "",
-                "show_footer_viewlist_text": "",
-                "ignore_crawlers_label": "",
-                "ignore_crawlers_text": ""
+                "title": "Ustawienia liczby wyświetleń dyskusji",
+                "track_unique_label": "Zliczaj unikalne wyświetlania",
+                "track_unique_text": "Zliczaj tylko pierwsze wyświetlenie dla danego adresu IP",
+                "track_guests_label": "Zliczaj wyświetlenia gości",
+                "abbr_numbers_label": "Skróć liczbę wyświetleń (\"1k\" zamiast \"1000\")",
+                "abbr_numbers_text": "Jeśli włączone, duże liczby zostaną skrócone (np. 1000 = 1K)",
+                "show_filter_label": "Włącz sortowanie dyskusji na podstawie liczby wyświetleń",
+                "max_viewcount_label": "Liczba ostatnio oglądających wyświetlanych na liście",
+                "max_viewcount_text": "Ustaw liczbę wyświetlanych użytkowników na liście (dotyczy zarówno listy w sidebarze jak i stopce)",
+                "show_viewlist_label": "Włącz listę ostatnio oglądających",
+                "show_viewlist_text": "Włącz listę ostatnio oglądających w sidebarze dyskusji",
+                "show_footer_viewlist_label": "Włącz listę ostatnio oglądających w stopce",
+                "show_footer_viewlist_text": "Włącz listę ostatnio oglądających w stopce pierwszego posta w dyskusji",
+                "ignore_crawlers_label": "Ignoruj boty indeksujące",
+                "ignore_crawlers_text": "Zapobiega zliczaniu wyświetleń generowanych przez boty"
             }
         }
     }

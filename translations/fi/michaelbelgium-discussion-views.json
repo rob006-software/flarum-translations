@@ -2,53 +2,53 @@
     "core": {
         "forum": {
             "index_sort": {
-                "popular_button": "",
-                "unpopular_button": ""
+                "popular_button": "Suositut",
+                "unpopular_button": "Epäsuosittu"
             }
         }
     },
     "michaelbelgium-discussion-views": {
         "forum": {
             "modal_resetviews": {
-                "title": "",
-                "submit_button": "",
-                "label": ""
+                "title": "Nollaa keskustelun katstelukertojen määrä",
+                "submit_button": "Kyllä, poista kaikki",
+                "label": "{count, plural, one {Tämä poistaa {count} katselukerran tästä keskustelusta. Jatka?} other {Tämä poistaa {count} katselukertaa tästä keskustelusta. Jatka?}}"
             },
             "discussion_controls": {
-                "resetviews_button": ""
+                "resetviews_button": "Nollaa katselukerrat"
             },
             "viewlist": {
-                "title": "",
-                "guest": ""
+                "title": "Viimeisimmät katselijat",
+                "guest": "Vieras"
             },
             "post": {
-                "viewed_by": "",
-                "you": "",
-                "others_link": "",
-                "modal_title_text": ""
+                "viewed_by": "{users} katsoi tätä.",
+                "you": "=> core.ref.you",
+                "others_link": "=> core.ref.some_others",
+                "modal_title_text": "Käyttäjät jotka viimeksi katsoivat tätä keskustelua"
             }
         },
         "admin": {
             "permissions": {
-                "reset_views_label": "",
-                "view_number_label": ""
+                "reset_views_label": "Nollaa keskustelun katselut",
+                "view_number_label": "Nähdä keskustelun katselukerrat"
             },
             "settings": {
-                "title": "",
-                "track_unique_label": "",
-                "track_unique_text": "",
-                "track_guests_label": "",
-                "abbr_numbers_label": "",
-                "abbr_numbers_text": "",
-                "show_filter_label": "",
-                "max_viewcount_label": "",
-                "max_viewcount_text": "",
-                "show_viewlist_label": "",
-                "show_viewlist_text": "",
-                "show_footer_viewlist_label": "",
-                "show_footer_viewlist_text": "",
-                "ignore_crawlers_label": "",
-                "ignore_crawlers_text": ""
+                "title": "Katselukertojen asetukset",
+                "track_unique_label": "Seuraa uniikkeja katselukertoja",
+                "track_unique_text": "Kasvata katseluita IP-osoitteen perusteella",
+                "track_guests_label": "Seuraa vieraita",
+                "abbr_numbers_label": "Lyhennä katselukertojen numeroita",
+                "abbr_numbers_text": "Jos käytössä, isommat katselumäärät lyhennetään (esim. 1000 = 1K)",
+                "show_filter_label": "Ota käyttöön (epä)suosittu järjestys valinta",
+                "max_viewcount_label": "Maksimimäärä katselulistan kohtaa",
+                "max_viewcount_text": "Aseta maksimimäärä käyttäjiä näkymälistaan (vaikuttaa alaosan ja sivupalkin listaan)",
+                "show_viewlist_label": "Ota katselulista käyttöön",
+                "show_viewlist_text": "Ota käyttään lista viimeisimmistä katsojista keskustelun sivupalkkiin",
+                "show_footer_viewlist_label": "Ota käyttöön alaosan listaus",
+                "show_footer_viewlist_text": "Ota käyttöön lista viimeisimmistä katselijoista keskustelun ensimmäisen viestin alaosaan",
+                "ignore_crawlers_label": "Älä huomioi botteja/crawlereita",
+                "ignore_crawlers_text": "Estä bottien ja crawlereiden näyttökertojen nostaminen"
             }
         }
     }
