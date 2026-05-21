@@ -375,7 +375,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/username-request/2.0.0-beta.2/resources/locale/en.yml',
 	],
 	'fof-webhooks' => [
-		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/webhooks/2.0.0-beta.1/resources/locale/en.yml',
+		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/webhooks/2.0.0-beta.2/resources/locale/en.yml',
 	],
 	'forumaker-magicbb' => [
 		'tag' => 'https://raw.githubusercontent.com/forumaker/magicbb/2.4.4/resources/locale/en.yml',
