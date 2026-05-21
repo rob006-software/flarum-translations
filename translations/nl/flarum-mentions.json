@@ -52,28 +52,28 @@
             "post_mentioned": {
                 "subject": "{replier_display_name} heeft gereageerd op je bericht in {title}",
                 "plain": {
-                    "body": ""
+                    "body": "{replier_display_name} heeft gereageerd op je bericht (#{post_number}) in {title}.\n\n{url}\n\n---\n\n{content}\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{replier_display_name} heeft gereageerd op jouw bericht (#{post_number}) in [{title}]({url})."
                 }
             },
             "user_mentioned": {
                 "subject": "{mentioner_display_name} heeft je genoemd in {title}",
                 "plain": {
-                    "body": ""
+                    "body": "{mentioner_display_name} heeft je genoemd in een bericht in {title}.\n\n{url}\n\n---\n\n{content}\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{mentioner_display_name} heeft je genoemd in een bericht in [{title}]({url})."
                 }
             },
             "group_mentioned": {
                 "subject": "{mentioner_display_name} vermelde een groep waarvan je lid bent in {title}",
                 "plain": {
-                    "body": ""
+                    "body": "{mentioner_display_name} heeft een groep genoemd waarvan jij lid bent in {title}.\n\n{url}\n\n---\n\n{content}\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{mentioner_display_name} heeft een groep genoemd waarvan jij lid bent in [{title}]({url})."
                 }
             }
         },
@@ -81,8 +81,8 @@
             "gambits": {
                 "posts": {
                     "mentioned": {
-                        "key": "",
-                        "hint": ""
+                        "key": "mentioned",
+                        "hint": "De ID of gebruikersnaam van de genoemde gebruiker"
                     }
                 }
             }
