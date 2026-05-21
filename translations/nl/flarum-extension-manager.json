@@ -5,7 +5,7 @@
                 "add_label": "Nieuwe authenticatiemethode",
                 "add_modal": {
                     "host_label": "Host",
-                    "host_placeholder": "",
+                    "host_placeholder": "voorbeeld: bearer.flarum.org",
                     "submit_button": "Opslaan",
                     "token_label": "Token",
                     "type_label": "Type",
@@ -75,7 +75,7 @@
             "extensions": {
                 "check_why_it_failed_updating": "Laat zien waarom de update niet naar de nieuwste versie is uitgevoerd.",
                 "install": "Installeer een nieuwe extensie",
-                "install_help": "Vul de naam van het extensiepakket in om door te gaan. U kunt een <semantic_link>semantische versie</semantic_link> opgeven met de notatie <code>vendor/package-name:version</code>. Bezoek {extiverse} om door extensies te bladeren.\n",
+                "install_help": "Vul de naam van het extensiepakket in om door te gaan. U kunt een <semantic_link>semantische versie</semantic_link> opgeven met de notatie <code>vendor/package-name:version</code>. Bezoek {link} om door extensies te bladeren.\n",
                 "proceed": "Doorgaan",
                 "remove": "Deînstalleren",
                 "successful_install": "{extension} is succesvol geïnstalleerd, omleiden..",
@@ -98,33 +98,33 @@
                 "update": "Update"
             },
             "minor_update_confirmation": {
-                "content": ""
+                "content": "Dit zal ook alle andere extensies/pakketten met beschikbare updates bijwerken."
             },
-            "required_php_functions": "",
+            "required_php_functions": "De extensiebeheerder vereist dat de volgende PHP-functies zijn ingeschakeld: <code>{functions}</code>. Als u geen toegang heeft tot de PHP-configuratie, neem dan contact op met uw hostingprovider.\n",
             "sections": {
                 "discover": {
-                    "description": "",
-                    "empty_results": "",
+                    "description": "Voeg nieuwe functies en integraties toe aan uw Flarum-forum met extensies.",
+                    "empty_results": "Het lijkt erop dat er geen extensies beschikbaar zijn.",
                     "extension": {
                         "badges": {
-                            "abandoned": "",
-                            "fof": "",
-                            "flarum": ""
+                            "abandoned": "Verlaten",
+                            "fof": "Friends Of Flarum",
+                            "flarum": "Flarum"
                         },
-                        "downloads": ""
+                        "downloads": "{count, plural, one {{formattedCount} download} other {{formattedCount} downloads}}"
                     },
-                    "search": "",
-                    "server_error": "",
+                    "search": "Zoeken...",
+                    "server_error": "Service is momenteel niet beschikbaar, probeer het later opnieuw.",
                     "sort": {
-                        "top": ""
+                        "top": "Meeste downloads"
                     },
                     "tabs": {
-                        "discover": "",
-                        "extensions": "",
-                        "languages": "",
-                        "themes": ""
+                        "discover": "Ontdekken",
+                        "extensions": "Extensies",
+                        "languages": "Talen",
+                        "themes": "Thema's"
                     },
-                    "title": ""
+                    "title": "Extensies"
                 },
                 "queue": {
                     "columns": {
@@ -163,8 +163,8 @@
                     "title": "Wachtrij"
                 },
                 "settings": {
-                    "title": "",
-                    "description": ""
+                    "title": "Extensies",
+                    "description": "Configureer de extensiebeheerder en controleer bewerkingen in de wachtrij."
                 }
             },
             "settings": {
@@ -172,12 +172,12 @@
                 "access_warning": "Wees voorzichtig met wie u toegang geeft tot het beheerdersgedeelte. De extensiebeheerder kan door slechte actoren worden misbruikt om pakketten te installeren die tot beveiligingsinbreuken kunnen leiden.",
                 "debug_mode_warning": "U werkt in de debugmodus, de extensiemanager kan lokale ontwikkelingspakketten niet correct installeren en bijwerken. Gebruik voor dergelijke doeleinden in plaats daarvan de opdrachtregelinterface.",
                 "queue_jobs": "Voer bewerkingen uit in de achtergrondwachtrij",
-                "queue_jobs_help": "",
+                "queue_jobs_help": "U kunt meer lezen over een <basic_impl_link>eenvoudige wachtrij</basic_impl_link>-implementatie of een <adv_impl_link>meer geavanceerde</adv_impl_link>. Zorg ervoor dat de PHP-versie die voor de wachtrij wordt gebruikt {php_version} is. Zorg ervoor dat de <folder_perms_link>mapmachtigingen</folder_perms_link> correct zijn geconfigureerd.\n",
                 "task_retention_days": "Dagen voor het bewaren van taken",
                 "task_retention_days_help": "Het aantal dagen dat voltooide taken in de database moeten worden bewaard. Taken ouder dan dit worden verwijderd. Stel deze in op 0 om alle taken te behouden.\n"
             },
             "updater": {
-                "up_to_date": "",
+                "up_to_date": "Geen openstaande updates.",
                 "check_for_updates": "Controleer op updates",
                 "flarum": "Flarum Core",
                 "global_update_successful": "Alle pakketten zijn succesvol bijgewerkt.",
