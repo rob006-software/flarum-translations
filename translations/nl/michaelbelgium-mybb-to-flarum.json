@@ -11,7 +11,7 @@
                         "migrate_soft_threads_label": "Migreer voorlopig verwijderde discussies",
                         "migrate_soft_posts_label": "Migreer voorlopig verwijderde berichten",
                         "migrate_attachments_label": "Migreer bijlagen",
-                        "debug_mode_label": ""
+                        "debug_mode_label": "Log inschakelen"
                     },
                     "mybb": {
                         "title": "MyBB instellingen",
@@ -21,8 +21,8 @@
                         "db_label": "Database naam",
                         "prefix_label": "Tabel prefix",
                         "path": {
-                            "label": "",
-                            "help_text": ""
+                            "label": "Absoluut MyBB-pad",
+                            "help_text": "Het absolute pad naar de MyBB-installatie, bijvoorbeeld: /var/www/mybb."
                         }
                     },
                     "general": {
