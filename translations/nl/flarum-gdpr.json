@@ -35,7 +35,7 @@
             },
             "nav": {
                 "gdpr_button": "GDPR Integraties",
-                "gdpr_title": ""
+                "gdpr_title": "=> flarum-gdpr.admin.gdpr_page.description"
             },
             "permissions": {
                 "process_erasure": "Verwerk wisverzoeken",
@@ -64,8 +64,8 @@
                 "columns": {
                     "user_actions": {
                         "data_export": {
-                            "button": "",
-                            "tooltip": ""
+                            "button": "Exporteren",
+                            "tooltip": "Exporteer data voor {username}"
                         }
                     }
                 }
@@ -109,25 +109,25 @@
         "email": {
             "confirm_erasure": {
                 "subject": "Bevestig je account wisverzoek",
-                "body": ""
+                "body": "Iemand (hopelijk jij) heeft zojuist een verzoek ingediend om het account `{display_name}` te verwijderen.\n\nOm deze actie te bevestigen, klik je op de volgende link. Je verzoek wordt vervolgens door ons team verwerkt.\n\n{erasure_confirm_url}\n"
             },
             "erasure_completed": {
                 "deletion": {
                     "subject": "Account verwijderen is voltooid",
-                    "body": ""
+                    "body": "Dit is een automatische, definitieve melding dat uw account is verwijderd.\n"
                 },
                 "anonymization": {
                     "subject": "Accountanonimisering is voltooid",
-                    "body": ""
+                    "body": "Dit is een automatische, definitieve melding dat uw account is geanonimiseerd.\n"
                 }
             },
             "erasure_cancelled": {
                 "subject": "Account wisverzoek is geannuleerd",
-                "body": ""
+                "body": "Dit is een automatische melding dat uw verzoek tot annulering van de accountverwijdering is verwerkt.\n\nUw account wordt niet langer verwijderd.\n"
             },
             "export_available": {
                 "subject": "Gegevensexport beschikbaar",
-                "body": ""
+                "body": "U hebt een export van de accountgegevens voor {username} aangevraagd. Deze export is succesvol gegenereerd en is nu beschikbaar:\n\n{url}\n\nDeze export blijft beschikbaar tot {destroys_at}.\n"
             }
         },
         "forum": {
