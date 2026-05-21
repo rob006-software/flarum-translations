@@ -8,14 +8,14 @@
         },
         "forum": {
             "composer": {
-                "discard_confirmation": "",
+                "discard_confirmation": "Je hebt je bericht nog niet verzonden. Weet je zeker dat je het wilt verwijderen?",
                 "placeholder": "Schrijf een bericht...",
-                "recipients": "",
+                "recipients": "Ontvangers",
                 "submit_button": "Verzend bericht",
                 "to": "Aan:"
             },
             "dialog_list": {
-                "load_more_button": "",
+                "load_more_button": "=> core.ref.load_more",
                 "mark_as_read_tooltip": "Markeer als gelezen",
                 "title": "Berichten",
                 "view_all": "Bekijk alle berichten"
@@ -26,7 +26,7 @@
                 "controls": {
                     "details_button": "Details"
                 },
-                "controls_toggle_label": "",
+                "controls_toggle_label": "Dialoogbesturingsacties",
                 "details_modal": {
                     "created_at": "Aanmaakdatum",
                     "recipients": "Deelnemers",
@@ -77,17 +77,17 @@
                 "cannot_reply_text": "Deze gebruiker kan niet antwoorden"
             },
             "notifications": {
-                "message_received_text": ""
+                "message_received_text": "Bericht ontvangen melding van {user}"
             }
         },
         "email": {
             "message_received": {
                 "subject": "{user_display_name} heeft je een bericht gestuurd",
                 "plain": {
-                    "body": ""
+                    "body": "{user_display_name} heeft je een nieuw bericht gestuurd.\n\n{url}\n\n---\n\n{content}\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{user_display_name} heeft je een [nieuw bericht]({url}) gestuurd."
                 }
             }
         },
