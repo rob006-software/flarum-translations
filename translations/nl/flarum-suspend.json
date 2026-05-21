@@ -41,19 +41,19 @@
             "suspended": {
                 "subject": "Uw account is opgeschort",
                 "plain": {
-                    "body": ""
+                    "body": "Je bent geschorst om de volgende reden:\n\n---\n{suspension_message}\n---\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "Je bent geschorst van {forumTitle} om de volgende reden:"
                 }
             },
             "unsuspended": {
                 "subject": "Uw account is niet meer opgeschort",
                 "plain": {
-                    "body": ""
+                    "body": "Je account is weer toegankelijk. Je kunt terugkeren naar het forum door op de volgende link te klikken:\n\n{forum_url}\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "Je account is weer toegankelijk. Je kunt terugkeren naar [{forumTitle}]({forum_url}) wanneer je er klaar voor bent."
                 }
             }
         },
@@ -61,7 +61,7 @@
             "gambits": {
                 "users": {
                     "suspended": {
-                        "key": ""
+                        "key": "suspended"
                     }
                 }
             }
