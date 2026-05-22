@@ -63,9 +63,9 @@
                 "start_poll_button": "Démarrer un sondage global",
                 "cannot_start_poll_button": "Impossible de démarrer le sondage",
                 "total_votes": "{count, plural, one {# vote a été attribué} other {# votes ont été attribués}}",
-                "draft_label": "",
-                "scheduled_label": "",
-                "scheduled_error_tooltip": ""
+                "draft_label": "Brouillon",
+                "scheduled_label": "Planifié pour {date}",
+                "scheduled_error_tooltip": "La planification de cette publication a échoué. Ouvrez le sondage pour découvrir pourquoi."
             },
             "poll_controls": {
                 "toggle_dropdown_accessible_label": "Afficher le menu des contrôles du sondage",
@@ -75,16 +75,16 @@
                 "delete_confirmation": "Êtes-vous sûr de vouloir supprimer ce sondage ?",
                 "delete_success_message": "Le sondage a été supprimé.",
                 "delete_error_message": "Un problème est survenu lors de la suppression du sondage.",
-                "publish_label": "",
-                "publish_success": "",
-                "schedule_publish_label": "",
-                "edit_schedule_publish_label": "",
-                "cancel_schedule_label": "",
-                "cancel_schedule_success": "",
-                "unpublish_label": "",
-                "unpublish_confirmation": "",
-                "unpublish_success": "",
-                "unpublish_error_has_votes": ""
+                "publish_label": "Publier maintenant",
+                "publish_success": "Sondage publié.",
+                "schedule_publish_label": "Planifier la publication",
+                "edit_schedule_publish_label": "Modifier la publication planifiée",
+                "cancel_schedule_label": "Annuler la publication planifiée",
+                "cancel_schedule_success": "La publication planifiée a été annulée.",
+                "unpublish_label": "Remettre en brouillon",
+                "unpublish_confirmation": "Remettre ce sondage en brouillon ? Il disparaîtra de la page d'accueil.",
+                "unpublish_success": "Sondage remis en brouillon.",
+                "unpublish_error_has_votes": "Impossible de désactiver la publication — le sondage a déjà recueilli des votes. Supprimez-le plutôt."
             },
             "poll_form": {
                 "delete": "Supprimer le sondage",
@@ -135,9 +135,9 @@
                     }
                 },
                 "status_filter": {
-                    "all": "",
-                    "published": "",
-                    "draft": ""
+                    "all": "Tous",
+                    "published": "Publiés",
+                    "draft": "Brouillons"
                 }
             },
             "composer_discussion": {
@@ -152,16 +152,16 @@
                 "polls_preview": "Voir le sondage",
                 "continue_editing": "Continuer la modification",
                 "success": "Le sondage a été enregistré.",
-                "submit": "",
-                "save_as_draft": "",
-                "update_draft": "",
-                "draft_saved": "",
-                "publish": "",
-                "schedule_publication": "",
-                "schedule_publication_edit": "",
-                "schedule_datetime_label": "",
-                "schedule_submit": "",
-                "schedule": ""
+                "submit": "Envoyer",
+                "save_as_draft": "Enregistrer comme brouillon",
+                "update_draft": "Mettre à jour le brouillon",
+                "draft_saved": "Brouillon enregistré",
+                "publish": "Publier",
+                "schedule_publication": "Planifier la publication",
+                "schedule_publication_edit": "Modifier la publication planifiée",
+                "schedule_datetime_label": "Publier sur",
+                "schedule_submit": "Planifier",
+                "schedule": "Planifier"
             },
             "modal": {
                 "add_title": "Ajouter un sondage",
@@ -171,7 +171,7 @@
                 "include_question": "Vous devez ajouter une question",
                 "max": "Vous pouvez avoir un maximum de {max} réponses",
                 "min": "Vous devez ajouter au moins 2 réponses",
-                "empty_answers": "",
+                "empty_answers": "{count, plural, one {# le champs est vide — veuillez la remplir ou la supprimer.} other {# les champs sont vides — veuillez les remplir ou les supprimer.}}",
                 "no_voters": "Aucun vote",
                 "option_placeholder": "Répondre",
                 "image_option_placeholder": "URL de l'image (facultatif)",
