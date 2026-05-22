@@ -326,7 +326,8 @@
             "encryption": {
                 "libsodium_missing": "libsodium模块在当前PHP环境中不可用。",
                 "acknowledge_loss_required": "我已确认：在生成新的密钥对之前，所有现有的加密文档将被删除。",
-                "private_key_missing": "该文档已加密，但本服务器的config.php配置文件中未配置对应的私钥。请将其添加到「verified-private-key」项下，或重新生成密钥对（该操作将删除所有已加密的文档）。"
+                "private_key_missing": "该文档已加密，但本服务器的config.php配置文件中未配置对应的私钥。请将其添加到「verified-private-key」项下，或重新生成密钥对（该操作将删除所有已加密的文档）。",
+                "decryption_failed": ""
             },
             "badge_svg": {
                 "missing": "已认证勋章信息中，没有已上传的SVG文件。",

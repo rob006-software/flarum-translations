@@ -318,7 +318,8 @@
             "encryption": {
                 "libsodium_missing": "libsodium is not available on this PHP installation.",
                 "acknowledge_loss_required": "You must acknowledge that all existing encrypted documents will be deleted before generating a new keypair.",
-                "private_key_missing": "This document is encrypted, but the private key is not configured in config.php on this server. Add it under the key 'verified-private-key', or regenerate the keypair (which will delete every encrypted document)."
+                "private_key_missing": "This document is encrypted, but the private key is not configured in config.php on this server. Add it under the key 'verified-private-key', or regenerate the keypair (which will delete every encrypted document).",
+                "decryption_failed": "This document is encrypted and could not be decrypted. The private key in config.php may not match the saved public key, or the file is corrupted."
             },
             "badge_svg": {
                 "missing": "No SVG file was uploaded in the \"verified-badge\" field.",
