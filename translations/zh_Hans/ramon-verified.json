@@ -17,8 +17,8 @@
                 "invalid": "认证级别无效。认证已被取消。"
             },
             "verification_prompt": {
-                "tier_label": "",
-                "note_placeholder": ""
+                "tier_label": "认证级别",
+                "note_placeholder": "可选（记载于审核日志中）"
             },
             "errors": {
                 "generic": "发生错误。请重试。",
@@ -231,7 +231,7 @@
                     "confirm_saved": "我已将其保存到config.php，并确认该文件可被PHP正常读取。",
                     "confirm_hint": "请在关闭之前确认你已成功保存上述密钥。",
                     "close": "关闭",
-                    "orphaned": "{count}份之前已加密的资料，文件无法读取，已被删除。"
+                    "orphaned": "{count}份之前已加密的资料，将在后台执行删除操作。"
                 },
                 "regenerate_modal": {
                     "title": "是否生成新的密钥对？",
@@ -329,11 +329,11 @@
                 "private_key_missing": "该文档已加密，但本服务器的config.php配置文件中未配置对应的私钥。请将其添加到「verified-private-key」项下，或重新生成密钥对（该操作将删除所有已加密的文档）。"
             },
             "badge_svg": {
-                "missing": "",
-                "upload_failed": "",
-                "bad_extension": "",
-                "bad_mime": "",
-                "too_large": ""
+                "missing": "已认证勋章信息中，没有已上传的SVG文件。",
+                "upload_failed": "SVG文件上传失败。请重试。",
+                "bad_extension": "上传的文件必须为SVG扩展名。",
+                "bad_mime": "此MIME类型不是SVG上传所支持的。",
+                "too_large": "SVG文件体积过大（最大256KB）。"
             },
             "not_found": "没有认证申请。"
         }
