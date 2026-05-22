@@ -2,30 +2,30 @@
     "ernestdefoe-respawn": {
         "admin": {
             "settings": {
-                "mode_label": "",
-                "mode_help": "",
-                "tagline_label": "",
-                "tagline_help": "",
-                "eyebrow_label": "",
-                "eyebrow_help": "",
-                "chips_label": "",
-                "chips_help": ""
+                "mode_label": "Designmodus",
+                "mode_help": "Standardfarbmodus. Benutzer können über das Mond-/Sonnen-Symbol in der Kopfzeile zwischen den Modi wechseln.",
+                "tagline_label": "Hero Slogan",
+                "tagline_help": "Untertitel, der unter der Begrüßungszeile angezeigt wird. Zum Ausblenden leer lassen.",
+                "eyebrow_label": "Hero Augenbraue",
+                "eyebrow_help": "Kleine Akzentlinie über der Überschrift (z. B. ▸ Spieler verbunden).",
+                "chips_label": "Hero Themen-Chips",
+                "chips_help": "Durch Kommas getrennte Liste von Tag-Slugs, die als Schnellzugriff-Kacheln angezeigt werden sollen (z. B. halo, elden-ring, deals). Leer lassen, um sie auszublenden."
             }
         },
         "forum": {
             "hero": {
-                "welcome": "",
-                "new_discussion": "",
-                "search_placeholder": ""
+                "welcome": "Willkommen im {forum}",
+                "new_discussion": "+ Neue Diskussion",
+                "search_placeholder": "Diskussionen, Spieler, Themen suchen…"
             },
             "stats": {
-                "title": "",
-                "posts": "",
-                "discussions": "",
-                "members": "",
-                "online": "",
-                "live": "",
-                "empty": ""
+                "title": "Serverstatus",
+                "posts": "Beiträge",
+                "discussions": "Diskussionen",
+                "members": "Mitglieder",
+                "online": "Jetzt online",
+                "live": "LIVE",
+                "empty": "—"
             }
         }
     }
