@@ -63,9 +63,9 @@
                 "start_poll_button": "Начать общий опрос",
                 "cannot_start_poll_button": "Невозможно начть опрос",
                 "total_votes": "{count, plural, one {# голос получен} other {# голосов получено}}",
-                "draft_label": "",
-                "scheduled_label": "",
-                "scheduled_error_tooltip": ""
+                "draft_label": "Черновик",
+                "scheduled_label": "Запланировано на {date}",
+                "scheduled_error_tooltip": "Ошибка запланированной публикации. Откройте опрос, чтобы узнать причину."
             },
             "poll_controls": {
                 "toggle_dropdown_accessible_label": "Меню управления опросом",
@@ -75,13 +75,13 @@
                 "delete_confirmation": "Удалить опрос?",
                 "delete_success_message": "Опрос удалён.",
                 "delete_error_message": "Что-то пошло не так при удалении опроса.",
-                "publish_label": "",
-                "publish_success": "",
-                "schedule_publish_label": "",
-                "edit_schedule_publish_label": "",
-                "cancel_schedule_label": "",
-                "cancel_schedule_success": "",
-                "unpublish_label": "",
+                "publish_label": "Опубликовать сейчас",
+                "publish_success": "Опрос опубликован.",
+                "schedule_publish_label": "Запланировать публикацию",
+                "edit_schedule_publish_label": "Изменить запланированную публикацию",
+                "cancel_schedule_label": "Отменить запланированную публикацию",
+                "cancel_schedule_success": "Запланированная публикация отменена.",
+                "unpublish_label": "Вернуть в черновик",
                 "unpublish_confirmation": "",
                 "unpublish_success": "",
                 "unpublish_error_has_votes": ""
