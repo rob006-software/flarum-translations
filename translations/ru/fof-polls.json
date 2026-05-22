@@ -36,7 +36,7 @@
                 "upload_images": "Разрешить пользователям загружать изображения для опросов",
                 "vote": "Голосовать в опросах",
                 "change_vote": "Изменять голос",
-                "moderate": "Редактировать / удалять опросы",
+                "moderate": "Править и удалять опросы",
                 "view_group": "Смотреть группы опросов",
                 "start_group": "Создавать группы опросов",
                 "moderate_group": "Править и удалять группы опросов"
@@ -75,9 +75,9 @@
                 "cancel_schedule_label": "Отменить запланированную публикацию",
                 "cancel_schedule_success": "Запланированная публикация отменена.",
                 "unpublish_label": "Вернуть в черновик",
-                "unpublish_confirmation": "",
-                "unpublish_success": "",
-                "unpublish_error_has_votes": ""
+                "unpublish_confirmation": "Вернуть этот опрос в черновик? Для других он станет недоступным.",
+                "unpublish_success": "Опрос возвращён в черновик.",
+                "unpublish_error_has_votes": "Нельзя снять с публикации — в опросе уже есть голоса. Лучше его удалить."
             },
             "poll_form": {
                 "delete": "Удалить опрос",
@@ -128,9 +128,9 @@
                     }
                 },
                 "status_filter": {
-                    "all": "",
-                    "published": "",
-                    "draft": ""
+                    "all": "Все",
+                    "published": "Опубликованные",
+                    "draft": "Черновики"
                 }
             },
             "composer_discussion": {
@@ -145,16 +145,16 @@
                 "polls_preview": "Смотреть опрос",
                 "continue_editing": "Продолжить редактирование",
                 "success": "Опрос успешно сохранён.",
-                "submit": "",
-                "save_as_draft": "",
-                "update_draft": "",
-                "draft_saved": "",
-                "publish": "",
-                "schedule_publication": "",
-                "schedule_publication_edit": "",
-                "schedule_datetime_label": "",
-                "schedule_submit": "",
-                "schedule": ""
+                "submit": "Отправить",
+                "save_as_draft": "Сохранить как черновик",
+                "update_draft": "Обновить черновик",
+                "draft_saved": "Черновик сохранён",
+                "publish": "Опубликовать",
+                "schedule_publication": "Запланировать публикацию",
+                "schedule_publication_edit": "Изменить запланированную публикацию",
+                "schedule_datetime_label": "Опубликовать в",
+                "schedule_submit": "Запланировать",
+                "schedule": "Запланировать"
             },
             "modal": {
                 "add_title": "Добавить опрос",
@@ -164,7 +164,7 @@
                 "include_question": "Вы должны указать вопрос",
                 "max": "Вы можете добавить максимум 10 вариантов",
                 "min": "Вы должны добавить минимум 2 варианта",
-                "empty_answers": "",
+                "empty_answers": "{count, plural, one {# вариант не заполнен — заполните его или удалите.} other {# вариантов не заполнены — заполните их или удалите.}}",
                 "no_voters": "Голоса отсутствуют",
                 "option_placeholder": "Вариант",
                 "image_option_placeholder": "URL изображения (опционально)",
