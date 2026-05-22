@@ -62,7 +62,10 @@
                 "submit_button": "Voter",
                 "start_poll_button": "Démarrer un sondage global",
                 "cannot_start_poll_button": "Impossible de démarrer le sondage",
-                "total_votes": "{count, plural, one {# vote a été attribué} other {# votes ont été attribués}}"
+                "total_votes": "{count, plural, one {# vote a été attribué} other {# votes ont été attribués}}",
+                "draft_label": "",
+                "scheduled_label": "",
+                "scheduled_error_tooltip": ""
             },
             "poll_controls": {
                 "toggle_dropdown_accessible_label": "Afficher le menu des contrôles du sondage",
@@ -71,7 +74,17 @@
                 "view_label": "=> core.ref.view",
                 "delete_confirmation": "Êtes-vous sûr de vouloir supprimer ce sondage ?",
                 "delete_success_message": "Le sondage a été supprimé.",
-                "delete_error_message": "Un problème est survenu lors de la suppression du sondage."
+                "delete_error_message": "Un problème est survenu lors de la suppression du sondage.",
+                "publish_label": "",
+                "publish_success": "",
+                "schedule_publish_label": "",
+                "edit_schedule_publish_label": "",
+                "cancel_schedule_label": "",
+                "cancel_schedule_success": "",
+                "unpublish_label": "",
+                "unpublish_confirmation": "",
+                "unpublish_success": "",
+                "unpublish_error_has_votes": ""
             },
             "poll_form": {
                 "delete": "Supprimer le sondage",
@@ -120,6 +133,11 @@
                     "sort_dropdown": {
                         "default": "=> fof-polls.forum.polls_list.sort_dropdown.newest"
                     }
+                },
+                "status_filter": {
+                    "all": "",
+                    "published": "",
+                    "draft": ""
                 }
             },
             "composer_discussion": {
@@ -133,7 +151,17 @@
                 "polls_manager": "Gestionnaire de sondages",
                 "polls_preview": "Voir le sondage",
                 "continue_editing": "Continuer la modification",
-                "success": "Le sondage a été enregistré."
+                "success": "Le sondage a été enregistré.",
+                "submit": "",
+                "save_as_draft": "",
+                "update_draft": "",
+                "draft_saved": "",
+                "publish": "",
+                "schedule_publication": "",
+                "schedule_publication_edit": "",
+                "schedule_datetime_label": "",
+                "schedule_submit": "",
+                "schedule": ""
             },
             "modal": {
                 "add_title": "Ajouter un sondage",
@@ -143,6 +171,7 @@
                 "include_question": "Vous devez ajouter une question",
                 "max": "Vous pouvez avoir un maximum de {max} réponses",
                 "min": "Vous devez ajouter au moins 2 réponses",
+                "empty_answers": "",
                 "no_voters": "Aucun vote",
                 "option_placeholder": "Répondre",
                 "image_option_placeholder": "URL de l'image (facultatif)",

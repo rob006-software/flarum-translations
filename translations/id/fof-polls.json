@@ -62,7 +62,10 @@
                 "submit_button": "Vote",
                 "start_poll_button": "Mulai Polling Global",
                 "cannot_start_poll_button": "Tidak Dapat Memulai Polling",
-                "total_votes": "{count, plural, one {# voting telah diberikan} other {# voting telah diberikan}}"
+                "total_votes": "{count, plural, one {# voting telah diberikan} other {# voting telah diberikan}}",
+                "draft_label": "",
+                "scheduled_label": "",
+                "scheduled_error_tooltip": ""
             },
             "poll_controls": {
                 "toggle_dropdown_accessible_label": "",
@@ -71,7 +74,17 @@
                 "view_label": "=> core.ref.view",
                 "delete_confirmation": "Apakah Anda yakin ingin menghapus polling ini?",
                 "delete_success_message": "Polling berhasil dihapus.",
-                "delete_error_message": "Terjadi kesalahan saat menghapus polling."
+                "delete_error_message": "Terjadi kesalahan saat menghapus polling.",
+                "publish_label": "",
+                "publish_success": "",
+                "schedule_publish_label": "",
+                "edit_schedule_publish_label": "",
+                "cancel_schedule_label": "",
+                "cancel_schedule_success": "",
+                "unpublish_label": "",
+                "unpublish_confirmation": "",
+                "unpublish_success": "",
+                "unpublish_error_has_votes": ""
             },
             "poll_form": {
                 "delete": "Hapus Polling",
@@ -120,6 +133,11 @@
                     "sort_dropdown": {
                         "default": "=> fof-polls.forum.polls_list.sort_dropdown.newest"
                     }
+                },
+                "status_filter": {
+                    "all": "",
+                    "published": "",
+                    "draft": ""
                 }
             },
             "composer_discussion": {
@@ -133,7 +151,17 @@
                 "polls_manager": "Manajer Polling",
                 "polls_preview": "Lihat Polling",
                 "continue_editing": "Lanjutkan Pengeditan",
-                "success": "Polling berhasil disimpan."
+                "success": "Polling berhasil disimpan.",
+                "submit": "",
+                "save_as_draft": "",
+                "update_draft": "",
+                "draft_saved": "",
+                "publish": "",
+                "schedule_publication": "",
+                "schedule_publication_edit": "",
+                "schedule_datetime_label": "",
+                "schedule_submit": "",
+                "schedule": ""
             },
             "modal": {
                 "add_title": "Membuat Polling",
@@ -143,6 +171,7 @@
                 "include_question": "Anda harus memasukkan pertanyaan",
                 "max": "Anda dapat memiliki maksimum {max} jawaban",
                 "min": "Memasukkan minimal 2 jawaban",
+                "empty_answers": "",
                 "no_voters": "Belum Ada Suara",
                 "option_placeholder": "Jawaban",
                 "image_option_placeholder": "URL Gambar (optional)",

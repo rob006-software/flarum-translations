@@ -62,7 +62,10 @@
                 "submit_button": "Abstimmen",
                 "start_poll_button": "Globale Umfrage starten",
                 "cannot_start_poll_button": "Umfrage kann nicht gestartet werden",
-                "total_votes": "{count, plural, one {# Stimme wurde abgegeben} other {# Stimmen wurden abgegeben}}"
+                "total_votes": "{count, plural, one {# Stimme wurde abgegeben} other {# Stimmen wurden abgegeben}}",
+                "draft_label": "",
+                "scheduled_label": "",
+                "scheduled_error_tooltip": ""
             },
             "poll_controls": {
                 "toggle_dropdown_accessible_label": "Menü für die Umfrageeinstellungen umschalten",
@@ -71,7 +74,17 @@
                 "view_label": "Anzeigen",
                 "delete_confirmation": "Bist du sicher, dass du diese Umfrage löschen möchtest?",
                 "delete_success_message": "Umfrage erfolgreich gelöscht.",
-                "delete_error_message": "Beim Löschen der Umfrage ist etwas schiefgelaufen."
+                "delete_error_message": "Beim Löschen der Umfrage ist etwas schiefgelaufen.",
+                "publish_label": "",
+                "publish_success": "",
+                "schedule_publish_label": "",
+                "edit_schedule_publish_label": "",
+                "cancel_schedule_label": "",
+                "cancel_schedule_success": "",
+                "unpublish_label": "",
+                "unpublish_confirmation": "",
+                "unpublish_success": "",
+                "unpublish_error_has_votes": ""
             },
             "poll_form": {
                 "delete": "Umfrage löschen",
@@ -120,6 +133,11 @@
                     "sort_dropdown": {
                         "default": "=> fof-polls.forum.polls_list.sort_dropdown.newest"
                     }
+                },
+                "status_filter": {
+                    "all": "",
+                    "published": "",
+                    "draft": ""
                 }
             },
             "composer_discussion": {
@@ -133,7 +151,17 @@
                 "polls_manager": "Umfragenmanager",
                 "polls_preview": "Umfrage ansehen",
                 "continue_editing": "Bearbeitung fortsetzen",
-                "success": "Umfrage erfolgreich gespeichert."
+                "success": "Umfrage erfolgreich gespeichert.",
+                "submit": "",
+                "save_as_draft": "",
+                "update_draft": "",
+                "draft_saved": "",
+                "publish": "",
+                "schedule_publication": "",
+                "schedule_publication_edit": "",
+                "schedule_datetime_label": "",
+                "schedule_submit": "",
+                "schedule": ""
             },
             "modal": {
                 "add_title": "Umfrage hinzufügen",
@@ -143,6 +171,7 @@
                 "include_question": "Du musst eine Frage stellen",
                 "max": "Du kannst maximal {max} Antworten haben",
                 "min": "Du musst mindestens zwei Antworten erstellen",
+                "empty_answers": "",
                 "no_voters": "Keine Stimmen",
                 "option_placeholder": "Antwort",
                 "image_option_placeholder": "Bild-URL (optional)",

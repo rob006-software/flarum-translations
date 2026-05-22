@@ -62,7 +62,10 @@
                 "submit_button": "Vasta",
                 "start_poll_button": "Alusta üldist küsitlust",
                 "cannot_start_poll_button": "Küsitluse käivitamine ebaõnnestus",
-                "total_votes": "Anti {count, plural, one {# hääl} other {# häält}}"
+                "total_votes": "Anti {count, plural, one {# hääl} other {# häält}}",
+                "draft_label": "",
+                "scheduled_label": "",
+                "scheduled_error_tooltip": ""
             },
             "poll_controls": {
                 "toggle_dropdown_accessible_label": "",
@@ -71,7 +74,17 @@
                 "view_label": "Vaata",
                 "delete_confirmation": "Oled sa kindel, et soovid seda küsitlust kustutada?",
                 "delete_success_message": "Küsitlus on kustutatud.",
-                "delete_error_message": "Küsitluse kustutamisel läks midagi valesti."
+                "delete_error_message": "Küsitluse kustutamisel läks midagi valesti.",
+                "publish_label": "",
+                "publish_success": "",
+                "schedule_publish_label": "",
+                "edit_schedule_publish_label": "",
+                "cancel_schedule_label": "",
+                "cancel_schedule_success": "",
+                "unpublish_label": "",
+                "unpublish_confirmation": "",
+                "unpublish_success": "",
+                "unpublish_error_has_votes": ""
             },
             "poll_form": {
                 "delete": "Kustuta küsitlus",
@@ -120,6 +133,11 @@
                     "sort_dropdown": {
                         "default": ""
                     }
+                },
+                "status_filter": {
+                    "all": "",
+                    "published": "",
+                    "draft": ""
                 }
             },
             "composer_discussion": {
@@ -133,7 +151,17 @@
                 "polls_manager": "Küsitluste haldamine",
                 "polls_preview": "Vaata küsitlust",
                 "continue_editing": "Jätka muutmist",
-                "success": "Küsitlus on salvestatud."
+                "success": "Küsitlus on salvestatud.",
+                "submit": "",
+                "save_as_draft": "",
+                "update_draft": "",
+                "draft_saved": "",
+                "publish": "",
+                "schedule_publication": "",
+                "schedule_publication_edit": "",
+                "schedule_datetime_label": "",
+                "schedule_submit": "",
+                "schedule": ""
             },
             "modal": {
                 "add_title": "Lisa küsitlus",
@@ -143,6 +171,7 @@
                 "include_question": "Sa pead lisama ka küsimuse",
                 "max": "Sul võib olla maksimaalselt {max} vastusevarianti",
                 "min": "Sa pead lisama vähemalt 2 vastusevarianti",
+                "empty_answers": "",
                 "no_voters": "Vastuseid pole",
                 "option_placeholder": "Vastus",
                 "image_option_placeholder": "Link pildile (valikuline)",

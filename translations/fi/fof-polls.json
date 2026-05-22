@@ -62,7 +62,10 @@
                 "submit_button": "Äänestä",
                 "start_poll_button": "Aloita yleinen kysely",
                 "cannot_start_poll_button": "Kyselyä ei voi aloittaa",
-                "total_votes": "{count, plural, one {# ääni annettu} other {# ääntä annettu}}"
+                "total_votes": "{count, plural, one {# ääni annettu} other {# ääntä annettu}}",
+                "draft_label": "",
+                "scheduled_label": "",
+                "scheduled_error_tooltip": ""
             },
             "poll_controls": {
                 "toggle_dropdown_accessible_label": "Näytä/piilota kyselyn hallinta valikko",
@@ -71,7 +74,17 @@
                 "view_label": "=> core.ref.view",
                 "delete_confirmation": "Haluatko varmasti poistaa tämän kyselyn?",
                 "delete_success_message": "Kysely poistettu onnistuneesti.",
-                "delete_error_message": "Jotain meni pieleen, kun poistimme kyselyä."
+                "delete_error_message": "Jotain meni pieleen, kun poistimme kyselyä.",
+                "publish_label": "",
+                "publish_success": "",
+                "schedule_publish_label": "",
+                "edit_schedule_publish_label": "",
+                "cancel_schedule_label": "",
+                "cancel_schedule_success": "",
+                "unpublish_label": "",
+                "unpublish_confirmation": "",
+                "unpublish_success": "",
+                "unpublish_error_has_votes": ""
             },
             "poll_form": {
                 "delete": "Poista kysely",
@@ -120,6 +133,11 @@
                     "sort_dropdown": {
                         "default": "=> fof-polls.forum.polls_list.sort_dropdown.newest"
                     }
+                },
+                "status_filter": {
+                    "all": "",
+                    "published": "",
+                    "draft": ""
                 }
             },
             "composer_discussion": {
@@ -133,7 +151,17 @@
                 "polls_manager": "Kyselyiden hallinta",
                 "polls_preview": "Näytä kysely",
                 "continue_editing": "Jatka muokkausta",
-                "success": "Kysely tallennettu onnistuneesti."
+                "success": "Kysely tallennettu onnistuneesti.",
+                "submit": "",
+                "save_as_draft": "",
+                "update_draft": "",
+                "draft_saved": "",
+                "publish": "",
+                "schedule_publication": "",
+                "schedule_publication_edit": "",
+                "schedule_datetime_label": "",
+                "schedule_submit": "",
+                "schedule": ""
             },
             "modal": {
                 "add_title": "Lisää kysely",
@@ -143,6 +171,7 @@
                 "include_question": "SInun pitää sisällyttää kysymys",
                 "max": "Sinulla voi olla enintään {max} vastausta",
                 "min": "Sinulla pitää olla vähintään 2 vastausta",
+                "empty_answers": "",
                 "no_voters": "Ei vastauksia",
                 "option_placeholder": "Vastaa",
                 "image_option_placeholder": "Kuvan osoite (valinnainen)",

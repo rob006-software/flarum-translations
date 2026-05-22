@@ -62,7 +62,10 @@
                 "submit_button": "Votar",
                 "start_poll_button": "Començar enquesta global",
                 "cannot_start_poll_button": "No es pot començar l'enquesta",
-                "total_votes": ""
+                "total_votes": "",
+                "draft_label": "",
+                "scheduled_label": "",
+                "scheduled_error_tooltip": ""
             },
             "poll_controls": {
                 "toggle_dropdown_accessible_label": "",
@@ -71,7 +74,17 @@
                 "view_label": "Veure",
                 "delete_confirmation": "Segur que vols esborrar aquesta enquesta?",
                 "delete_success_message": "Enquesta esborrada satisfactòriament.",
-                "delete_error_message": "Hi ha hagut algun problema quan s'ha esborrat l'enquesta."
+                "delete_error_message": "Hi ha hagut algun problema quan s'ha esborrat l'enquesta.",
+                "publish_label": "",
+                "publish_success": "",
+                "schedule_publish_label": "",
+                "edit_schedule_publish_label": "",
+                "cancel_schedule_label": "",
+                "cancel_schedule_success": "",
+                "unpublish_label": "",
+                "unpublish_confirmation": "",
+                "unpublish_success": "",
+                "unpublish_error_has_votes": ""
             },
             "poll_form": {
                 "delete": "Esborrar enquesta",
@@ -120,6 +133,11 @@
                     "sort_dropdown": {
                         "default": ""
                     }
+                },
+                "status_filter": {
+                    "all": "",
+                    "published": "",
+                    "draft": ""
                 }
             },
             "composer_discussion": {
@@ -133,7 +151,17 @@
                 "polls_manager": "Gestor d'enquestes",
                 "polls_preview": "Veure enquesta",
                 "continue_editing": "Seguir editant",
-                "success": "Enquesta gravada satisfactòriament."
+                "success": "Enquesta gravada satisfactòriament.",
+                "submit": "",
+                "save_as_draft": "",
+                "update_draft": "",
+                "draft_saved": "",
+                "publish": "",
+                "schedule_publication": "",
+                "schedule_publication_edit": "",
+                "schedule_datetime_label": "",
+                "schedule_submit": "",
+                "schedule": ""
             },
             "modal": {
                 "add_title": "Afegir una enquesta",
@@ -143,6 +171,7 @@
                 "include_question": "Has d'incloure una pregunta",
                 "max": "La llista d'opcions pot tenir un màxim de {max} possibles respostes",
                 "min": "Has d'incloure un mínim de 2 possibles respostes",
+                "empty_answers": "",
                 "no_voters": "Cap vot",
                 "option_placeholder": "Resposta",
                 "image_option_placeholder": "Adreça web de la imatge (opcional)",

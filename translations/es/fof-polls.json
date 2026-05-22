@@ -62,7 +62,10 @@
                 "submit_button": "Votar",
                 "start_poll_button": "Iniciar encuesta global",
                 "cannot_start_poll_button": "No se puede iniciar la encuesta",
-                "total_votes": "{count, plural, one {# vote was given} other {# votes were given}}"
+                "total_votes": "{count, plural, one {# vote was given} other {# votes were given}}",
+                "draft_label": "",
+                "scheduled_label": "",
+                "scheduled_error_tooltip": ""
             },
             "poll_controls": {
                 "toggle_dropdown_accessible_label": "Menú de controles de encuesta",
@@ -71,7 +74,17 @@
                 "view_label": "=> core.ref.view",
                 "delete_confirmation": "¿Seguro que quieres borrar esta encuesta?",
                 "delete_success_message": "Encuesta borrada con éxito.",
-                "delete_error_message": "Algo ha ido mal al borrar la encuesta."
+                "delete_error_message": "Algo ha ido mal al borrar la encuesta.",
+                "publish_label": "",
+                "publish_success": "",
+                "schedule_publish_label": "",
+                "edit_schedule_publish_label": "",
+                "cancel_schedule_label": "",
+                "cancel_schedule_success": "",
+                "unpublish_label": "",
+                "unpublish_confirmation": "",
+                "unpublish_success": "",
+                "unpublish_error_has_votes": ""
             },
             "poll_form": {
                 "delete": "Borrar encuesta",
@@ -120,6 +133,11 @@
                     "sort_dropdown": {
                         "default": ""
                     }
+                },
+                "status_filter": {
+                    "all": "",
+                    "published": "",
+                    "draft": ""
                 }
             },
             "composer_discussion": {
@@ -133,7 +151,17 @@
                 "polls_manager": "Gestor de encuestas",
                 "polls_preview": "Ver encuesta",
                 "continue_editing": "Seguir editando",
-                "success": "Encuesta guardada correctamente."
+                "success": "Encuesta guardada correctamente.",
+                "submit": "",
+                "save_as_draft": "",
+                "update_draft": "",
+                "draft_saved": "",
+                "publish": "",
+                "schedule_publication": "",
+                "schedule_publication_edit": "",
+                "schedule_datetime_label": "",
+                "schedule_submit": "",
+                "schedule": ""
             },
             "modal": {
                 "add_title": "Añadir una encuesta",
@@ -143,6 +171,7 @@
                 "include_question": "Debe incluir una pregunta",
                 "max": "Puede tener un máximo de {max} respuestas",
                 "min": "Debe incluir un mínimo de 2 respuestas",
+                "empty_answers": "",
                 "no_voters": "Sin votos",
                 "option_placeholder": "Respuesta",
                 "image_option_placeholder": "URL de la imagen (opcional)",

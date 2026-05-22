@@ -62,7 +62,10 @@
                 "submit_button": "Bỏ phiếu",
                 "start_poll_button": "Bắt đầu cuộc thăm dò toàn cục",
                 "cannot_start_poll_button": "Không thể bắt đầu cuộc thăm dò",
-                "total_votes": "{count, plural, one {# phiếu bầu đã bỏ} other {# phiếu bầu đã bỏ}}"
+                "total_votes": "{count, plural, one {# phiếu bầu đã bỏ} other {# phiếu bầu đã bỏ}}",
+                "draft_label": "",
+                "scheduled_label": "",
+                "scheduled_error_tooltip": ""
             },
             "poll_controls": {
                 "toggle_dropdown_accessible_label": "",
@@ -71,7 +74,17 @@
                 "view_label": "=> core.ref.view",
                 "delete_confirmation": "Bạn có chắc chắn muốn xóa cuộc thăm dò ý kiến này không?",
                 "delete_success_message": "Đã xóa cuộc thăm dò thành công.",
-                "delete_error_message": "Đã xảy ra lỗi khi xóa cuộc thăm dò."
+                "delete_error_message": "Đã xảy ra lỗi khi xóa cuộc thăm dò.",
+                "publish_label": "",
+                "publish_success": "",
+                "schedule_publish_label": "",
+                "edit_schedule_publish_label": "",
+                "cancel_schedule_label": "",
+                "cancel_schedule_success": "",
+                "unpublish_label": "",
+                "unpublish_confirmation": "",
+                "unpublish_success": "",
+                "unpublish_error_has_votes": ""
             },
             "poll_form": {
                 "delete": "Xóa cuộc thăm dò",
@@ -120,6 +133,11 @@
                     "sort_dropdown": {
                         "default": ""
                     }
+                },
+                "status_filter": {
+                    "all": "",
+                    "published": "",
+                    "draft": ""
                 }
             },
             "composer_discussion": {
@@ -133,7 +151,17 @@
                 "polls_manager": "Quản lý thăm dò",
                 "polls_preview": "Xem cuộc thăm dò",
                 "continue_editing": "Tiếp tục chỉnh sửa",
-                "success": "Đã lưu cuộc thăm dò thành công."
+                "success": "Đã lưu cuộc thăm dò thành công.",
+                "submit": "",
+                "save_as_draft": "",
+                "update_draft": "",
+                "draft_saved": "",
+                "publish": "",
+                "schedule_publication": "",
+                "schedule_publication_edit": "",
+                "schedule_datetime_label": "",
+                "schedule_submit": "",
+                "schedule": ""
             },
             "modal": {
                 "add_title": "Thêm cuộc thăm dò",
@@ -143,6 +171,7 @@
                 "include_question": "Bạn phải bao gồm một câu hỏi",
                 "max": "Bạn có thể có tối đa {max} câu trả lời",
                 "min": "Bạn phải bao gồm tối thiểu 2 câu trả lời",
+                "empty_answers": "",
                 "no_voters": "Không có bình chọn",
                 "option_placeholder": "Câu trả lời",
                 "image_option_placeholder": "URL ảnh (tuỳ chọn)",
