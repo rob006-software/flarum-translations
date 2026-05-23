@@ -398,6 +398,12 @@ return [
 			'ru',
 		],
 	],
+	'forumaker-steam-oauth' => [
+		'tag' => 'https://raw.githubusercontent.com/forumaker/Steam-Oauth/2.0.0/resources/locale/en.yml',
+		'__builtInLanguages' => [
+			'ru',
+		],
+	],
 	'forumaker-yandex-oauth' => [
 		'tag' => 'https://raw.githubusercontent.com/forumaker/Yandex-Oauth/2.2.0/resources/locale/en.yml',
 		'__builtInLanguages' => [
