@@ -913,6 +913,12 @@ return [
 			'zh_Hans',
 		],
 	],
+	'huoxin-money-with-history' => [
+		'tag' => 'https://raw.githubusercontent.com/huoxin233/flarum-ext-money-with-history/1.0.0/locale/en.yml',
+		'__builtInLanguages' => [
+			'zh_Hans',
+		],
+	],
 	'huoxin-relative-url' => [
 		'tag' => 'https://raw.githubusercontent.com/huoxin233/flarum-ext-relative-url/1.0.0/locale/en.yml',
 		'__builtInLanguages' => [
