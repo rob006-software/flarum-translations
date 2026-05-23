@@ -1,0 +1,27 @@
+{
+    "fof-oauth": {
+        "lib": {
+            "providers": {
+                "steam": "Steam"
+            }
+        },
+        "forum": {
+            "providers": {
+                "steam": "Steam"
+            },
+            "log_in": {
+                "with_steam_button": "Log In with Steam"
+            }
+        },
+        "admin": {
+            "settings": {
+                "providers": {
+                    "steam": {
+                        "description": "Get your Web API key at https://steamcommunity.com/dev/apikey",
+                        "api_key_label": "Steam Web API Key"
+                    }
+                }
+            }
+        }
+    }
+}
