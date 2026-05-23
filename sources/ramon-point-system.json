@@ -201,7 +201,8 @@
                 "error_not_owned": "You don't own that item.",
                 "error_duplicate_with_other_side": "The other side already added that item.",
                 "error_too_many": "Too many items in the offer.",
-                "error_cannot_trade_with_self": "You cannot trade with yourself."
+                "error_cannot_trade_with_self": "You cannot trade with yourself.",
+                "error_item_equipped": "You can't trade an item that is currently equipped. Unequip it from My decorations and try again."
             },
             "my_decorations": {
                 "title": "My decorations",
@@ -326,6 +327,8 @@
                 "deco_in_user_card_help": "Apply decorations on the user profile card and hovering.",
                 "deco_in_lists": "Decorations in discussion lists",
                 "deco_in_lists_help": "Apply decorations on the username inside discussion list items.",
+                "avatar_deco_in_lists": "Avatar frames in discussion lists",
+                "avatar_deco_in_lists_help": "Apply avatar frames on avatars inside discussion lists. Turn off to keep the list visually cleaner.",
                 "hide_badges_with_avatar_deco": "Hide user badges when avatar frame is equipped",
                 "hide_badges_with_avatar_deco_help": "When on, the moderator / admin / custom badges next to the avatar are hidden for users who have an avatar decoration equipped, so the frame stays visually clean.",
                 "trade_enabled": "Enable user-to-user trading",
