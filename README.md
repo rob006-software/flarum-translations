@@ -1080,6 +1080,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`hehongyuanlove-auth-qq`](https://weblate.rob006.net/projects/flarum/hehongyuanlove-auth-qq) | [`hehongyuanlove/flarum-auth-qq`](https://github.com/Hehongyuanlove/flarum-auth-qq) |
 | [`hikarilan-passkey-login`](https://weblate.rob006.net/projects/flarum/hikarilan-passkey-login) | [`hikarilan/flarum-passkey-login`](https://github.com/shaokeyibb/flarum-passkey-login) |
 | [`huoxin-auto-follow-discussion`](https://weblate.rob006.net/projects/flarum/huoxin-auto-follow-discussion) | [`huoxin/auto-follow-discussion`](https://github.com/huoxin233/flarum-ext-auto-follow-discussion) |
+| [`huoxin-money-with-history`](https://weblate.rob006.net/projects/flarum/huoxin-money-with-history) | [`huoxin/money-with-history`](https://github.com/huoxin233/flarum-ext-money-with-history) |
 | [`huoxin-relative-url`](https://weblate.rob006.net/projects/flarum/huoxin-relative-url) | [`huoxin/relative-url`](https://github.com/huoxin233/flarum-ext-relative-url) |
 | [`huseyinfiliz-awards`](https://weblate.rob006.net/projects/flarum/huseyinfiliz-awards) | [`huseyinfiliz/awards`](https://github.com/huseyinfiliz/awards) |
 | [`huseyinfiliz-bump`](https://weblate.rob006.net/projects/flarum/huseyinfiliz-bump) | [`huseyinfiliz/bump`](https://github.com/huseyinfiliz/bump) |
