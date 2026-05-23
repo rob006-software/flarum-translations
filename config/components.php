@@ -590,7 +590,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/Ralkage/flarum-ext-word-counter/v2.0.0-beta.8/locale/en.yml',
 	],
 	'ramon-auth-modals' => [
-		'tag' => 'https://raw.githubusercontent.com/ram0ng1/auth-modals/v2.0.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ram0ng1/auth-modals/2.0.2/locale/en.yml',
 		'__builtInLanguages' => [
 			'pt_BR',
 		],
