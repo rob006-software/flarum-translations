@@ -120,7 +120,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/respawn/2.0.0/locale/en.yml',
 	],
 	'ernestdefoe-social-groups' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/social-groups/v2.3.52/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/social-groups/v2.3.54/locale/en.yml',
 	],
 	'ernestdefoe-theme-toggle' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/theme-toggle/3.0.3/locale/en.yml',
