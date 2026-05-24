@@ -725,7 +725,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/WalsGit/recycle-bin/2.0.4/locale/en.yml',
 	],
 	'wyatts97-chatroom' => [
-		'tag' => 'https://raw.githubusercontent.com/wyatts97/flarum-chatroom/v1.2.3/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/wyatts97/flarum-chatroom/v1.3.7/resources/locale/en.yml',
 	],
 	'yippy-auth-ldap' => [
 		'tag' => 'https://raw.githubusercontent.com/Yippy/flarum-ext-auth-ldap/v2.0.2/locale/en.yml',
