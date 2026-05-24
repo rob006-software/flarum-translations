@@ -7,31 +7,31 @@
                     "help": "这些设置控制投票扩展的基本功能。"
                 },
                 "discussion_polls": {
-                    "heading": "",
-                    "help": ""
+                    "heading": "话题投票",
+                    "help": "配置话题投票的相关设置。"
                 },
-                "enable_discussion_polls": "",
-                "enable_discussion_polls_help": "",
+                "enable_discussion_polls": "启用话题投票",
+                "enable_discussion_polls_help": "开启后，用户可以在话题帖子中创建投票。如果你只想用全局投票，关闭此设置。",
                 "global_polls": {
                     "heading": "全站投票",
                     "help": "这些设置控制全局投票功能。"
                 },
                 "image": {
                     "heading": "图片设置",
-                    "help": ""
+                    "help": "配置上传图片的体积和尺寸。图片会自动转换成WebP格式，并自动生成多个变体。"
                 },
                 "enable_global_polls": "启用全站投票",
                 "enable_global_polls_help": "全站投票不与任何帖子绑定，可以从专门的投票页面访问。",
-                "enabled_poll_groups": "",
-                "enabled_poll_groups_help": "",
+                "enabled_poll_groups": "启用投票分组",
+                "enabled_poll_groups_help": "投票分组可以将所有全局投票分为一个组，并在一个固定页面中显示。",
                 "max_options": "每个投票可设置的最大选项数量",
                 "options_color_blend": "混合文本色",
                 "options_color_blend_help": "启用此项，改善选项文本样式的可读性。如果此功能影响论坛样式，请禁用。",
-                "max_image_upload_size": "",
-                "max_image_upload_size_help": "",
-                "image_height": "",
-                "image_width": "",
-                "image_dimensions_help": ""
+                "max_image_upload_size": "上传图片最大体积（KB）",
+                "max_image_upload_size_help": "上传图片的最大体积，以KB为单位。图片上传后，会自动转换成WebP格式并缩放，因此最终保存的文件体积一般会小于上传文件。默认10240KB（10MB）。",
+                "image_height": "缩放图片高度（px）",
+                "image_width": "缩放图片宽度（px）",
+                "image_dimensions_help": "存储图片的基础尺寸。如果原图够大，将自动生成高分辨率变体（@2x，@3x）。"
             },
             "permissions": {
                 "view_results_without_voting": "无需参与投票即可查看结果",
@@ -43,9 +43,9 @@
                 "vote": "参与投票",
                 "change_vote": "修改投票",
                 "moderate": "编辑或删除投票",
-                "view_group": "",
-                "start_group": "",
-                "moderate_group": ""
+                "view_group": "查看所有投票分组",
+                "start_group": "创建投票分组",
+                "moderate_group": "编辑或删除投票分组"
             }
         },
         "forum": {
@@ -62,29 +62,29 @@
                 "submit_button": "投票",
                 "start_poll_button": "发起全站投票",
                 "cannot_start_poll_button": "无法发起投票",
-                "total_votes": "",
-                "draft_label": "",
-                "scheduled_label": "",
-                "scheduled_error_tooltip": ""
+                "total_votes": "{count, plural, one {获得#票} other {获得#票}}",
+                "draft_label": "草稿",
+                "scheduled_label": "计划于{date}发布",
+                "scheduled_error_tooltip": "定时发布失败。打开投票查看原因。"
             },
             "poll_controls": {
-                "toggle_dropdown_accessible_label": "",
+                "toggle_dropdown_accessible_label": "开启或关闭投票控制菜单",
                 "edit_label": "=> core.ref.edit",
                 "delete_label": "=> core.ref.delete",
                 "view_label": "=> core.ref.view",
                 "delete_confirmation": "确定要删除这个投票吗？",
                 "delete_success_message": "投票已删除。",
                 "delete_error_message": "删除投票时出错。",
-                "publish_label": "",
-                "publish_success": "",
-                "schedule_publish_label": "",
-                "edit_schedule_publish_label": "",
-                "cancel_schedule_label": "",
-                "cancel_schedule_success": "",
-                "unpublish_label": "",
-                "unpublish_confirmation": "",
-                "unpublish_success": "",
-                "unpublish_error_has_votes": ""
+                "publish_label": "立即发布",
+                "publish_success": "投票发布成功。",
+                "schedule_publish_label": "定时发布",
+                "edit_schedule_publish_label": "编辑定时发布",
+                "cancel_schedule_label": "取消定时发布",
+                "cancel_schedule_success": "定时发布已取消。",
+                "unpublish_label": "移回草稿",
+                "unpublish_confirmation": "确认将此投票移回草稿？它将不再公开展示。",
+                "unpublish_success": "投票已移回草稿。",
+                "unpublish_error_has_votes": "无法取消发布。该投票已有投票记录。可以删除。"
             },
             "poll_form": {
                 "delete": "删除投票",
@@ -92,31 +92,31 @@
             },
             "poll_groups": {
                 "composer": {
-                    "add_title": "",
-                    "edit_title": "",
-                    "save_changes": "",
-                    "delete": "",
-                    "groups_manager": "",
-                    "view_group": "",
-                    "success": ""
+                    "add_title": "添加投票分组",
+                    "edit_title": "编辑投票分组",
+                    "save_changes": "=> core.ref.save_changes",
+                    "delete": "删除投票分组",
+                    "groups_manager": "投票分组管理",
+                    "view_group": "查看投票分组",
+                    "success": "投票分组保存成功。"
                 },
                 "list_page": {
-                    "title": "",
-                    "start_poll_group_button": "",
-                    "cannot_start_poll_group_button": "",
-                    "empty_text": "",
-                    "load_more_button": "",
-                    "no_polls": "",
-                    "add_poll_button": ""
+                    "title": "投票分组",
+                    "start_poll_group_button": "创建投票分组",
+                    "cannot_start_poll_group_button": "无法创建投票分组",
+                    "empty_text": "暂无投票分组。",
+                    "load_more_button": "=> core.ref.load_more",
+                    "no_polls": "此分组中暂无投票。",
+                    "add_poll_button": "添加投票到分组"
                 },
                 "controls": {
-                    "add_poll_label": "",
-                    "edit_label": "",
-                    "view_label": "",
-                    "delete_label": "",
-                    "delete_confirmation": "",
-                    "delete_success_message": "",
-                    "delete_error_message": ""
+                    "add_poll_label": "添加投票",
+                    "edit_label": "=> core.ref.edit",
+                    "view_label": "查看投票分组",
+                    "delete_label": "=> core.ref.delete",
+                    "delete_confirmation": "确认删除此投票分组？",
+                    "delete_success_message": "投票分组删除成功。",
+                    "delete_error_message": "删除投票分组时发生错误。"
                 }
             },
             "polls_page": {
@@ -126,18 +126,18 @@
                 "empty_text": "暂无全站投票。",
                 "load_more_button": "=> core.ref.load_more",
                 "sort_dropdown": {
-                    "newest": "",
-                    "oldest": "",
-                    "most_voted": "",
-                    "least_voted": "",
+                    "newest": "最新",
+                    "oldest": "最早",
+                    "most_voted": "投票最多",
+                    "least_voted": "投票最少",
                     "sort_dropdown": {
-                        "default": ""
+                        "default": "=> fof-polls.forum.polls_list.sort_dropdown.newest"
                     }
                 },
                 "status_filter": {
-                    "all": "",
-                    "published": "",
-                    "draft": ""
+                    "all": "所有",
+                    "published": "已发布",
+                    "draft": "草稿"
                 }
             },
             "composer_discussion": {
@@ -152,16 +152,16 @@
                 "polls_preview": "查看投票",
                 "continue_editing": "继续编辑",
                 "success": "投票保存成功。",
-                "submit": "",
-                "save_as_draft": "",
-                "update_draft": "",
-                "draft_saved": "",
-                "publish": "",
-                "schedule_publication": "",
-                "schedule_publication_edit": "",
-                "schedule_datetime_label": "",
-                "schedule_submit": "",
-                "schedule": ""
+                "submit": "提交",
+                "save_as_draft": "保存草稿",
+                "update_draft": "更新草稿",
+                "draft_saved": "草稿保存成功",
+                "publish": "发布",
+                "schedule_publication": "定时发布",
+                "schedule_publication_edit": "编辑定时发布",
+                "schedule_datetime_label": "发布于",
+                "schedule_submit": "计划",
+                "schedule": "计划"
             },
             "modal": {
                 "add_title": "发起投票",
@@ -171,7 +171,7 @@
                 "include_question": "至少要有一个议题",
                 "max": "最多 {max} 个选项",
                 "min": "最少 2 个选项",
-                "empty_answers": "",
+                "empty_answers": "{count, plural, one {#个答案为空，填写内容或删除该答案。} other {#个答案为空，填写内容或删除这些答案。}}",
                 "no_voters": "零票",
                 "option_placeholder": "选项",
                 "image_option_placeholder": "图片链接（可选）",
@@ -193,17 +193,17 @@
                     "help": "为投票添加介绍图（可选）。",
                     "alt_label": "图片替代文本",
                     "alt_help_text": "图片加载失败时，展示的替代文本。",
-                    "url_deprecated": ""
+                    "url_deprecated": "该投票使用了外部图片网址。外部网址功能已弃用，未来新版本中将被移除。使用上传图片按钮，重新上传图片。"
                 },
                 "poll_option_image": {
                     "label": "选项图片",
                     "help": "为选项添加配图（可选）。"
                 },
-                "date_clear": "",
+                "date_clear": "清除结束日期",
                 "tooltip": {
                     "options": {
                         "add-button": "添加选项",
-                        "remove-button": ""
+                        "remove-button": "移除答案"
                     }
                 }
             },
@@ -216,7 +216,7 @@
             "page": {
                 "nav": "投票",
                 "nav-all": "全站投票",
-                "nav-groups": ""
+                "nav-groups": "投票分组"
             },
             "showcase": {
                 "active-polls": "进行中",
