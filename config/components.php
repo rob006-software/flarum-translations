@@ -119,6 +119,9 @@ return [
 	'ernestdefoe-respawn' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/respawn/2.0.0/locale/en.yml',
 	],
+	'ernestdefoe-showcase' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/flarum-showcase/2.0.2/locale/en.yml',
+	],
 	'ernestdefoe-social-groups' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/social-groups/v2.3.52/locale/en.yml',
 	],
