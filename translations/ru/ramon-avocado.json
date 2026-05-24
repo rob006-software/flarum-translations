@@ -206,11 +206,11 @@
                 "badge_unread_tooltip": "{count} непрочитанных сообщений",
                 "categories_heading": "Категории",
                 "choose_tags": "Выберите теги",
-                "bypass_tag_requirements": "",
-                "choose_primary_tag_singular": "",
-                "choose_primary_tag_plural": "",
-                "choose_secondary_tag_singular": "",
-                "choose_secondary_tag_plural": "",
+                "bypass_tag_requirements": "Игнорировать требования по тегам",
+                "choose_primary_tag_singular": "Выберите 1 основной тег",
+                "choose_primary_tag_plural": "Выберите {count} основных тегов",
+                "choose_secondary_tag_singular": "Выберите 1 дополнительный тег",
+                "choose_secondary_tag_plural": "Выберите {count} дополнительных тегов",
                 "composer_body_placeholder": "Поделитесь мыслями…",
                 "composer_close": "Закрыть",
                 "composer_edit": "Править",
@@ -280,9 +280,9 @@
                 "other_tags_label": "Другие теги",
                 "featured": "Избранные",
                 "all_discussions": "Все дискуссии",
-                "empty": "",
-                "not_found": "",
-                "load_more": "",
+                "empty": "В этой категории пока нет дискуссий.",
+                "not_found": "Тег не найден.",
+                "load_more": "Загрузить ещё",
                 "login_to_view": "Войдите, чтобы открыть ссылку"
             },
             "team": {
@@ -300,12 +300,12 @@
                 "login_to_view": "Войдите, чтобы увидеть ссылку"
             },
             "user": {
-                "posts_empty": "",
-                "discussions_empty": "",
-                "likes_empty": "",
-                "mentions_empty": "",
-                "load_more": "",
-                "online": ""
+                "posts_empty": "Пока нет сообщений.",
+                "discussions_empty": "Пока нет дискуссий.",
+                "likes_empty": "Пока нет понравившихся сообщений.",
+                "mentions_empty": "Пока нет упоминаний.",
+                "load_more": "Загрузить ещё",
+                "online": "В сети"
             }
         }
     }
