@@ -7,31 +7,31 @@
                     "bisect": {
                         "begin_button_text": "Yarıya bölməyə başlayırıq",
                         "continue_button_text": "Yarıya bölünməyə davam edin",
-                        "label": "",
-                        "help": ""
+                        "label": "Xətalı Uzantının Tapılması",
+                        "help": "Müşahidə etdiyiniz xətaya səbəb olan uzantını (modulu) tapmağa kömək edir. Bu proses başa çatana qədər forum avtomatik olaraq texniki xidmət rejiminə (aşağı səviyyəli) keçir."
                     },
                     "bisect_modal": {
-                        "description": "",
-                        "end_button": "",
-                        "issue_question": "",
-                        "issue_question_help": "",
-                        "no_button": "",
-                        "result_description": "",
-                        "start_button": "",
-                        "stop_button": "",
-                        "steps_left": "",
-                        "total_steps": "",
-                        "title": "",
-                        "yes_button": ""
+                        "description": "Bu proses başa çatana qədər forum avtomatik olaraq texniki xidmət rejiminə (aşağı səviyyəli) keçir. Hər addımda xətaya səbəb olan modulu tapana qədər bəzi uzantılar sıradan çıxarılacaq. Buna görə də bəzi funksiyaların itməsini və ya mövzunun (dizaynın) dəyişməsini normal qarşılayın. Bu səhifəni açıq saxlayın və hər addımdan sonra ayrıca səhifədə xətanın yenidən baş verib-vermədiyini yoxlayın. Səhifəni səhvən bağlasanız belə, istənilən vaxt bura yenidən qayıda bilərsiniz.\n",
+                        "end_button": "Bağla və uzantı səhifəsinə keç",
+                        "issue_question": "Xəta hələ də davam edir?",
+                        "issue_question_help": "Xətanı ayrıca səhifədə yenidən yoxlayın və nəticəyə uyğun cavab verin.",
+                        "no_button": "Xeyr",
+                        "result_description": "Forum artıq texniki xidmət rejimində deyil. Uzantı diaqnostikası başa çatdı. Hər addımda verdiyiniz cavablara əsasən, xətaya səbəb olan uzantı aşağıdakıdır:\n",
+                        "start_button": "Diaqnostikanı başlat",
+                        "stop_button": "Diaqnostikanı dayandır",
+                        "steps_left": "Qalan addımlar: {steps}",
+                        "total_steps": "Bu proses təxminən {steps} addım çəkəcək.",
+                        "title": "Uzantı Diaqnostikası",
+                        "yes_button": "Bəli"
                     },
                     "config_override": {
-                        "label": "",
-                        "help": ""
+                        "label": "Sizin \"config.php\" faylınız bu tənzimləmələri ləğv edir (üstələyir).",
+                        "help": "Bu parametrləri burada dəyişə bilərsiniz, lakin <code>config.php</code> faylınızda <code>offline</code> parametrini <code>0</code> olaraq təyin edənə qədər onlar qüvvəyə minməyəcək."
                     },
-                    "help": "",
+                    "help": "İstifadəçilərin girişini məhdudlaşdırmaq üçün forumunuzu texniki xidmət rejiminə keçirin.",
                     "options": {
-                        "none": "",
-                        "high": "",
+                        "none": "Texniki xidmət yoxdur",
+                        "high": "Yüksək səviyyəli texniki xidmət rejimi. Heç kim foruma daxil ola bilməz (yalnız config.php faylı vasitəsilə aktiv edilə bilər)",
                         "low": "",
                         "safe": ""
                     },
