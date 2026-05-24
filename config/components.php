@@ -602,7 +602,7 @@ return [
 		],
 	],
 	'ramon-avocado' => [
-		'tag' => 'https://raw.githubusercontent.com/ram0ng1/avocado/v2.0.28/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ram0ng1/avocado/v2.0.29/locale/en.yml',
 		'__builtInLanguages' => [
 			'pt_BR',
 		],
