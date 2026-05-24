@@ -2,23 +2,23 @@
     "fof-oauth": {
         "lib": {
             "providers": {
-                "steam": ""
+                "steam": "Steam"
             }
         },
         "forum": {
             "providers": {
-                "steam": ""
+                "steam": "Steam"
             },
             "log_in": {
-                "with_steam_button": ""
+                "with_steam_button": "Se connecter avec Steam"
             }
         },
         "admin": {
             "settings": {
                 "providers": {
                     "steam": {
-                        "description": "",
-                        "api_key_label": ""
+                        "description": "Obtenez votre clé api sur https://steamcommunity.com/dev/apikey",
+                        "api_key_label": "Clé API Steam"
                     }
                 }
             }
