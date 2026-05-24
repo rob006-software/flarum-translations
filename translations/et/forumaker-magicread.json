@@ -3,15 +3,30 @@
         "admin": {
             "settings": {
                 "section_main": "Seaded",
+                "section_pagination": "",
                 "enable_readmore": "Loe lisa eelvaade profiili lehel",
+                "enable_readmore_help": "",
                 "enable_pagination": "Lehekülgedeks jagmine vestluse sees",
-                "enable_counter": "Redaktoris kasutatud märkide arvu näitamine"
+                "enable_pagination_help": "",
+                "enable_counter": "Redaktoris kasutatud märkide arvu näitamine",
+                "enable_counter_help": "",
+                "enable_discussion_pager": "",
+                "enable_discussion_pager_help": ""
             }
         },
         "forum": {
             "read_more": "Loe lisa",
             "counter": {
                 "label": "Kirjamärke"
+            },
+            "pager": {
+                "first": "",
+                "prev": "",
+                "next": "",
+                "last": "",
+                "page": "",
+                "go": "",
+                "input_label": ""
             }
         }
     }
