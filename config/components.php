@@ -387,7 +387,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/forumaker/magicdice/2.0.0/resources/locale/en.yml',
 	],
 	'forumaker-magicread' => [
-		'tag' => 'https://raw.githubusercontent.com/forumaker/magicread/2.2.2/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/forumaker/magicread/2.3.0/resources/locale/en.yml',
 	],
 	'forumaker-magicslider' => [
 		'tag' => 'https://raw.githubusercontent.com/forumaker/magicslider/2.4.0/resources/locale/en.yml',
