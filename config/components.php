@@ -788,7 +788,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/username-request/1.2.5/resources/locale/en.yml',
 	],
 	'fof-webhooks' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/webhooks/1.3.4/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/webhooks/1.3.5/resources/locale/en.yml',
 	],
 	'forumaker-magicbb' => [
 		'tag' => 'https://raw.githubusercontent.com/forumaker/magicbb/1.4.4/resources/locale/en.yml',
