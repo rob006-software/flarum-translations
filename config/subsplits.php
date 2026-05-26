@@ -193,7 +193,7 @@ return [
 			'class' => ReleaseGenerator::class,
 			'versionTemplate' => '1.Minor.Patch',
 		],
-		'maintainers' => ['Kakifrucht'],
+		'maintainers' => ['Kakifrucht', 'claudiush'],
 		'variants' => [
 			'informal' => [
 				'name' => 'Standard',
