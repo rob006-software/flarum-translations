@@ -2,125 +2,125 @@
     "datlechin-passkey": {
         "forum": {
             "log_in": {
-                "sign_in_with_passkey": "",
-                "passkey_unsupported": "",
-                "verifying": "",
-                "cancelled": "",
-                "failed": "",
-                "unsupported": "",
-                "security_error": "",
-                "throttled": ""
+                "sign_in_with_passkey": "Войти с помощью passkey",
+                "passkey_unsupported": "Этот браузер не поддерживает passkey.",
+                "verifying": "Проверка passkey…",
+                "cancelled": "Вход с помощью passkey был отменён.",
+                "failed": "Не удалось проверить ваш passkey. Попробуйте снова.",
+                "unsupported": "Это устройство не поддерживает тип passkey, требуемый форумом.",
+                "security_error": "Источник форума не совпадает с настроенным relying party. Попросите администратора проверить настройки passkey.",
+                "throttled": "Слишком много попыток входа с passkey. Подождите минуту и попробуйте снова."
             },
             "suggest": {
-                "title": "",
-                "body": "",
-                "set_up": "",
-                "not_now": ""
+                "title": "Настройте passkey",
+                "body": "В следующий раз входите быстрее — без пароля. Ваше устройство создаст passkey, который работает только на этом форуме.",
+                "set_up": "Настроить passkey",
+                "not_now": "Не сейчас"
             },
             "required": {
-                "body": "",
-                "set_up": ""
+                "body": "Ваша роль требует зарегистрировать passkey перед продолжением.",
+                "set_up": "Настроить сейчас"
             },
             "settings": {
-                "heading": "",
-                "description": "",
-                "add_button": "",
-                "bulk_revoke_button": "",
+                "heading": "Passkey",
+                "description": "Passkey позволяют входить без пароля с помощью устройства или аппаратного ключа.",
+                "add_button": "Добавить passkey",
+                "bulk_revoke_button": "Отозвать все",
                 "add_modal": {
-                    "title": "",
-                    "device_name_label": "",
-                    "device_name_placeholder": "",
-                    "register_button": "",
-                    "cancel_button": ""
+                    "title": "Добавить passkey",
+                    "device_name_label": "Назовите этот passkey",
+                    "device_name_placeholder": "например: iPhone, MacBook, YubiKey",
+                    "register_button": "Зарегистрировать",
+                    "cancel_button": "Отменить"
                 },
                 "bulk_revoke_modal": {
-                    "body": ""
+                    "body": "Отозвать все {count} passkey? После этого вы не сможете входить с их помощью."
                 },
                 "list": {
-                    "empty": "",
-                    "added_label": "",
-                    "last_used_label": "",
-                    "never_used": "",
-                    "synced": "",
-                    "device_only": "",
-                    "rename_button": "",
-                    "revoke_button": ""
+                    "empty": "Вы ещё не добавили ни одного passkey.",
+                    "added_label": "Добавлен",
+                    "last_used_label": "Последнее использование",
+                    "never_used": "Никогда не использовался",
+                    "synced": "Синхронизирован",
+                    "device_only": "Только на этом устройстве",
+                    "rename_button": "Переименовать",
+                    "revoke_button": "Отозвать"
                 },
                 "rename_modal": {
-                    "title": "",
-                    "save_button": "",
-                    "cancel_button": ""
+                    "title": "Переименовать passkey",
+                    "save_button": "Сохранить",
+                    "cancel_button": "Отменить"
                 },
                 "revoke_modal": {
-                    "title": "",
-                    "body": "",
-                    "confirm_button": "",
-                    "cancel_button": ""
+                    "title": "Отозвать passkey",
+                    "body": "Отозвать {device}? После этого вы не сможете входить с его помощью.",
+                    "confirm_button": "Отозвать",
+                    "cancel_button": "Отменить"
                 },
                 "alerts": {
-                    "registration_succeeded": "",
-                    "registration_failed": "",
-                    "registration_already_exists": "",
-                    "registration_security_error": "",
-                    "registration_unsupported": "",
-                    "rename_succeeded": "",
-                    "revoke_succeeded": "",
-                    "bulk_revoke_succeeded": ""
+                    "registration_succeeded": "Passkey добавлен.",
+                    "registration_failed": "Не удалось зарегистрировать passkey. Попробуйте снова.",
+                    "registration_already_exists": "На этом устройстве уже есть passkey для вашего аккаунта. Сначала отзовите его или используйте другое устройство.",
+                    "registration_security_error": "Источник форума не совпадает с настроенным relying party. Попросите администратора проверить настройки passkey.",
+                    "registration_unsupported": "Это устройство не может зарегистрировать passkey требуемого типа.",
+                    "rename_succeeded": "Passkey переименован.",
+                    "revoke_succeeded": "Passkey отозван.",
+                    "bulk_revoke_succeeded": "Все passkey отозваны."
                 }
             }
         },
         "gdpr": {
-            "export_description": "",
-            "anonymize_description": "",
-            "delete_description": ""
+            "export_description": "Включает имя устройства, время последнего использования, IP и метаданные аутентификатора для каждого passkey. Публичные ключи идентифицируют учётные данные, но не могут использоваться для подделки входа.",
+            "anonymize_description": "Все passkey этого пользователя отозваны.",
+            "delete_description": "Все passkey этого пользователя удалены."
         },
         "email": {
             "revoked": {
-                "subject": "",
-                "body": "",
-                "actor_self": "",
-                "actor_admin": ""
+                "subject": "Один из passkey был удалён из вашего аккаунта на {forum}",
+                "body": "Здравствуйте, {username},\n\nPasskey «{device}» был только что удалён из вашего аккаунта на {forum}. {actor}\n\nЕсли это не вы, аккаунт может быть под угрозой. Войдите и проверьте оставшиеся passkey во вкладке безопасности. Если вы потеряли доступ, используйте ссылку восстановления пароля на экране входа.\n\n{forum}\n",
+                "actor_self": "Вы инициировали это действие во вкладке безопасности.",
+                "actor_admin": "Модератор удалил его от вашего имени."
             },
             "counter_regression": {
-                "subject": "",
-                "body": ""
+                "subject": "Возможно, существует копия passkey в аккаунте на {forum}",
+                "body": "Здравствуйте, {username},\n\nПопытка входа на {forum} с вашим passkey «{device}» не удалась — счётчик подписи оказался меньше ожидаемого. Ключ мог быть скопирован на другое устройство.\n\nВход был отклонён. Рекомендуем войти с паролем, отозвать этот passkey и зарегистрировать новый. Если есть другие устройства с этим ключом, удалите их из менеджера паролей.\n\n{forum}\n"
             },
             "backup_state": {
-                "subject": "",
-                "body": "",
-                "synced": "",
-                "unsynced": ""
+                "subject": "Состояние синхронизации passkey изменилось на {forum}",
+                "body": "Здравствуйте, {username},\n\nВаш passkey «{device}» на {forum} теперь {state}.\n\nЕсли вы сделали это сами, например, войдя в iCloud Keychain или менеджер паролей на новом устройстве, можно игнорировать это сообщение. Если нет — проверьте вкладку безопасности. Ключ мог быть скопирован.\n\n{forum}\n",
+                "synced": "синхронизирован с облачным менеджером паролей",
+                "unsynced": "сохранён только на одном устройстве"
             },
             "bulk_revoked": {
-                "subject": "",
-                "body": "",
-                "actor_self": "",
-                "actor_admin": ""
+                "subject": "Все passkey были удалены из вашего аккаунта на {forum}",
+                "body": "Здравствуйте, {username},\n\nВсе {count} passkey были удалены из вашего аккаунта на {forum}. {actor}\n\nЕсли это не вы, войдите с паролем и проверьте вкладку безопасности. Если не можете войти — используйте восстановление пароля.\n\n{forum}\n",
+                "actor_self": "Вы инициировали это действие во вкладке безопасности.",
+                "actor_admin": "Модератор удалил их от вашего имени."
             }
         },
         "admin": {
             "settings": {
-                "title": "",
-                "description": "",
-                "rp_id_label": "",
-                "rp_id_help": "",
-                "rp_name_label": "",
-                "rp_name_help": "",
-                "related_origins_label": "",
-                "related_origins_help": "",
-                "user_verification_label": "",
-                "user_verification_required": "",
-                "user_verification_preferred": "",
-                "user_verification_discouraged": "",
-                "attestation_label": "",
-                "attestation_none": "",
-                "attestation_indirect": "",
-                "attestation_direct": "",
-                "throttle_label": ""
+                "title": "Passkey",
+                "description": "Настройка аутентификации passkey для этого форума.",
+                "rp_id_label": "ID relying party",
+                "rp_id_help": "DNS-имя, ограничивающее passkey. Оставьте пустым для автоопределения. Изменение сделает существующие passkey недействительными.",
+                "rp_name_label": "Отображаемое имя relying party",
+                "rp_name_help": "Имя, которое показывается пользователям в браузере. По умолчанию — название форума.",
+                "related_origins_label": "Связанные источники — по одному на строку",
+                "related_origins_help": "Дополнительные источники, которым разрешено выполнять операции passkey. Используется вместе с документом W3C related-origins по пути /.well-known/webauthn.",
+                "user_verification_label": "Проверка пользователя",
+                "user_verification_required": "Обязательно — всегда запрашивать биометрию или PIN",
+                "user_verification_preferred": "Предпочтительно — запрашивать, если устройство поддерживает",
+                "user_verification_discouraged": "Не рекомендуется — только касание, менее безопасно",
+                "attestation_label": "Аттестация",
+                "attestation_none": "Нет — рекомендуется",
+                "attestation_indirect": "Косвенная",
+                "attestation_direct": "Прямая",
+                "throttle_label": "Попытки входа в минуту с одного IP"
             },
             "group_modal": {
-                "require_passkey": "",
-                "require_passkey_help": ""
+                "require_passkey": "Требовать passkey для этой группы",
+                "require_passkey_help": "Участникам будет показываться закреплённое уведомление, пока они не зарегистрируют хотя бы один passkey."
             }
         }
     }
