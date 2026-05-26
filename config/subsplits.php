@@ -208,7 +208,7 @@ return [
 			'versionTemplate' => '2.Minor.Patch',
 			'ignoredVersionsConstraints' => ['^1.25.10'],
 		],
-		'maintainers' => ['Kakifrucht'],
+		'maintainers' => ['Kakifrucht', 'claudiush'],
 		'variants' => [
 			'informal' => [
 				'name' => 'Standard',
