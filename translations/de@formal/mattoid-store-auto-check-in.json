@@ -2,13 +2,13 @@
     "mattoid-store-auto-check-in": {
         "admin": {
             "settings": {
-                "group-view": ""
+                "group-view": "Produkte den Benutzern anzeigen"
             }
         },
         "forum": {
-            "title": "",
+            "title": "Auto-CheckIn-Karte",
             "error": {
-                "auto-check-in-fail": ""
+                "auto-check-in-fail": "Der automatische Check-in des Benutzers [{username}] ist fehlgeschlagen. Grund: {message}"
             }
         }
     }
