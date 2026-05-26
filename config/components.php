@@ -914,7 +914,7 @@ return [
 		],
 	],
 	'huoxin-money-with-history' => [
-		'tag' => 'https://raw.githubusercontent.com/huoxin233/flarum-ext-money-with-history/1.1.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/huoxin233/flarum-ext-money-with-history/1.1.1/locale/en.yml',
 		'__builtInLanguages' => [
 			'zh_Hans',
 		],
