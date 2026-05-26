@@ -123,7 +123,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/social-groups/v2.3.57/locale/en.yml',
 	],
 	'ernestdefoe-theme-toggle' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/theme-toggle/3.0.4/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/theme-toggle/3.0.6/locale/en.yml',
 	],
 	'flarum-akismet' => [
 		'beta' => 'https://raw.githubusercontent.com/flarum/akismet/v2.0.0-beta.8/locale/en.yml',
