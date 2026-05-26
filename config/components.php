@@ -125,9 +125,6 @@ return [
 	'ernestdefoe-theme-toggle' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/theme-toggle/3.0.6/locale/en.yml',
 	],
-	'ernestdefoe-facebook-post' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/flarum-facebook-post/v2.1.5/locale/en.yml',
-	],
 	'flarum-akismet' => [
 		'beta' => 'https://raw.githubusercontent.com/flarum/akismet/v2.0.0-beta.8/locale/en.yml',
 	],
