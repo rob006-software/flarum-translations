@@ -1,0 +1,33 @@
+{
+    "ernestdefoe-facebook-post": {
+        "admin": {
+            "settings": {
+                "enabled_label": "Enable Facebook Auto-Post",
+                "enabled_help": "When enabled, new discussions will be automatically posted to your chosen Facebook destination.",
+                "destination_type_label": "Destination Type",
+                "destination_type_help": "Choose whether to post new discussions to a Facebook Page or a Facebook Group.",
+                "destination_type_page": "Facebook Page",
+                "destination_type_group": "Facebook Group",
+                "page_id_label": "Facebook Page ID",
+                "page_id_help": "The numeric ID of your Facebook Page (e.g. 123456789012345). Required when Destination Type is Facebook Page.",
+                "page_id_placeholder": "123456789012345",
+                "page_access_token_label": "Page Access Token",
+                "page_access_token_help": "Never-expiring Page Access Token from Meta for Developers (requires pages_manage_posts permission). Used when Destination Type is Facebook Page.",
+                "group_id_label": "Facebook Group ID",
+                "group_id_help": "The numeric ID of your Facebook Group. Required when Destination Type is Facebook Group.",
+                "group_id_placeholder": "123456789012345",
+                "group_access_token_label": "Group Access Token",
+                "group_access_token_help": "User Access Token with the publish_to_groups permission. Used when Destination Type is Facebook Group.",
+                "graph_api_version_label": "Graph API Version",
+                "graph_api_version_help": "The Facebook Graph API version this extension calls (e.g. v19.0, v20.0). Bump this when Meta announces deprecation of the current version — see https://developers.facebook.com/docs/graph-api/changelog for the changelog and EOL schedule."
+            },
+            "tag_selector": {
+                "title": "Post to Facebook for Primary Tags",
+                "help": "Select which primary tags trigger a Facebook post.",
+                "help_all": "Leave all unchecked to post every new discussion regardless of tag.",
+                "no_tags": "No primary tags found. Install and configure the Flarum Tags extension first.",
+                "saving": "Saving…"
+            }
+        }
+    }
+}
