@@ -262,7 +262,7 @@ This repository contains raw translations data used by [Weblate](https://weblate
 	</tr>
 	<tr>
 		<td><a href="https://github.com/flarum-lang/german">German</a></td>
-		<td><a href="https://github.com/Kakifrucht">Kakifrucht</a></td>
+		<td><a href="https://github.com/Kakifrucht">Kakifrucht</a>, <a href="https://github.com/claudiush">claudiush</a></td>
 		<td align="right">
 			<a href="https://rob006-software.github.io/flarum-translations/flarum2/status/de.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum2/de/svg-badge.svg" alt="detailed translation status" />
@@ -936,6 +936,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`ekumanov-post-search`](https://weblate.rob006.net/projects/flarum2/ekumanov-post-search) | [`ekumanov/flarum-ext-post-search`](https://github.com/ekumanov/flarum-ext-post-search) |
 | [`ernestdefoe-aurora`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-aurora) | [`ernestdefoe/aurora`](https://github.com/ernestdefoe/aurora) |
 | [`ernestdefoe-cross-references`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-cross-references) | [`ernestdefoe/cross-references`](https://github.com/ernestdefoe/cross-references) |
+| [`ernestdefoe-facebook-post`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-facebook-post) | [`ernestdefoe/flarum-facebook-post`](https://github.com/ernestdefoe/flarum-facebook-post) |
 | [`ernestdefoe-respawn`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-respawn) | [`ernestdefoe/respawn`](https://github.com/ernestdefoe/respawn) |
 | [`ernestdefoe-social-groups`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-social-groups) | [`ernestdefoe/social-groups`](https://github.com/ernestdefoe/social-groups) |
 | [`ernestdefoe-theme-toggle`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-theme-toggle) | [`ernestdefoe/theme-toggle`](https://github.com/ernestdefoe/theme-toggle) |
