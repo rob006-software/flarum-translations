@@ -116,6 +116,9 @@ return [
 	'ernestdefoe-cross-references' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/cross-references/3.0.0/locale/en.yml',
 	],
+	'ernestdefoe-facebook-post' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/flarum-facebook-post/v2.1.5/locale/en.yml',
+	],
 	'ernestdefoe-respawn' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/respawn/2.0.0/locale/en.yml',
 	],
