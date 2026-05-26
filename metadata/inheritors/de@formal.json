@@ -10690,7 +10690,9 @@
             "admin": {
                 "permissions": {
                     "deleteEditHistory": "faea96d043812a1778f6bc4834ae5ac6 faea96d043812a1778f6bc4834ae5ac6",
+                    "rollbackEditHistory": "c4a8f400e884faf0b5e583fadd121908 c4a8f400e884faf0b5e583fadd121908",
                     "selfDeleteEditHistory": "ec5362ff71e868d8ecf1ef503df9ef15 ec5362ff71e868d8ecf1ef503df9ef15",
+                    "selfRollbackEditHistory": "fdc59d912f0939635fc6b64e97d91f88 fdc59d912f0939635fc6b64e97d91f88",
                     "viewEditHistory": "697e68004154fc6eeb634182d7bdda3a 697e68004154fc6eeb634182d7bdda3a"
                 },
                 "settings": {
@@ -10761,6 +10763,8 @@
                 }
             },
             "ref": {
+                "currentContent": "a5c7e38b4f3eaf0024835acf83a570e1 a5c7e38b4f3eaf0024835acf83a570e1",
+                "originalContent": "db47f05f95a59d27228170d65c5718e8 db47f05f95a59d27228170d65c5718e8",
                 "revisionWithNumber": "09c74a11d62847e5e6acd92ac117c505 09c74a11d62847e5e6acd92ac117c505"
             }
         }
@@ -10777,14 +10781,18 @@
     "huseyinfiliz-guest.json": {
         "huseyinfiliz-guest": {
             "admin": {
+                "max_posts_help": "48411336bb876e0b8a7bbb91c0b25dbd 48411336bb876e0b8a7bbb91c0b25dbd",
                 "max_posts_label": "25c1f7165f18edc210ac4c421f41ef17 25c1f7165f18edc210ac4c421f41ef17",
                 "username_help": "08950bf4e8fd1c7464f6d4d224ef7535 08950bf4e8fd1c7464f6d4d224ef7535",
                 "username_label": "c3c1bb74c117be790a4fd20ebead11cc c3c1bb74c117be790a4fd20ebead11cc"
             },
             "forum": {
                 "login_button": "8c4c4c4409acc9991892c9f9fe397f4d 8c4c4c4409acc9991892c9f9fe397f4d",
+                "login_error": "742995c58fcf2e4b8c7d224926d6b8da 742995c58fcf2e4b8c7d224926d6b8da",
+                "max_posts_reached": "696563f27936f8e972773d97e4f61af5 696563f27936f8e972773d97e4f61af5",
                 "modal_title": "039052dd605dfa9c29d4731bced6d59c 039052dd605dfa9c29d4731bced6d59c",
                 "modal_understood": "c42ad0924339bd2ef5290c4dd5bbfb4e c42ad0924339bd2ef5290c4dd5bbfb4e",
+                "rate_limit_error": "5af139e74bdb71ea5964b7d1dea3b7f4 5af139e74bdb71ea5964b7d1dea3b7f4",
                 "welcome_message": "3a6a299530c07f4ff6d2e89d887c8222 3a6a299530c07f4ff6d2e89d887c8222"
             }
         }
