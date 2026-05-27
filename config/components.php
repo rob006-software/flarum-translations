@@ -122,6 +122,9 @@ return [
 	'ernestdefoe-respawn' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/respawn/2.0.0/locale/en.yml',
 	],
+	'ernestdefoe-seo' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/seo/2.0.8/locale/en.yml',
+	],
 	'ernestdefoe-social-groups' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/social-groups/v2.3.57/locale/en.yml',
 	],
