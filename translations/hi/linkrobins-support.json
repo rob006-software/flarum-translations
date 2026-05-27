@@ -1,9 +1,95 @@
 {
     "linkrobins-support": {
         "admin": {
+            "nav": {
+                "categories": "",
+                "appeal_bans": "",
+                "rate_limits": ""
+            },
             "settings": {
                 "title": "",
                 "description": ""
+            },
+            "common": {
+                "loading": "",
+                "unknown_error": ""
+            },
+            "permissions": {
+                "handle_tickets": ""
+            },
+            "categories": {
+                "heading": "",
+                "intro": "",
+                "new_button": "",
+                "edit_button": "",
+                "delete_button": "",
+                "empty": "",
+                "column_name": "",
+                "column_slug": "",
+                "column_type": "",
+                "column_tickets": "",
+                "general_badge": "",
+                "appeal_badge": "",
+                "this_category": "",
+                "delete_confirm_named": "",
+                "delete_confirm_with_tickets": ""
+            },
+            "category_editor": {
+                "title_new": "",
+                "title_edit": "",
+                "field_name": "",
+                "field_slug": "",
+                "field_slug_help": "",
+                "field_slug_placeholder": "",
+                "field_description": "",
+                "field_color": "",
+                "field_color_help": "",
+                "field_icon": "",
+                "field_icon_help": "",
+                "field_position": "",
+                "field_position_help": "",
+                "field_is_appeal": "",
+                "field_is_appeal_help": "",
+                "submit_create": "",
+                "submit_update": "",
+                "saving": "",
+                "error_load": "",
+                "error_save": "",
+                "error_delete": ""
+            },
+            "appeal_bans": {
+                "heading_alt": "",
+                "intro": "",
+                "search_heading": "",
+                "search_help": "",
+                "search_placeholder": "",
+                "search_button": "",
+                "search_results_heading": "",
+                "search_error": "",
+                "banned_heading": "",
+                "banned_empty": "",
+                "column_username": "",
+                "column_email": "",
+                "column_action": "",
+                "ban_button": "",
+                "unban_button": "",
+                "saving": "",
+                "error_toggle": ""
+            },
+            "rate_limits": {
+                "heading": "",
+                "intro": "",
+                "max_general_per_window": "",
+                "max_general_per_window_help": "",
+                "general_window_hours": "",
+                "general_window_hours_help": "",
+                "max_appeals_per_window": "",
+                "max_appeals_per_window_help": "",
+                "appeal_window_days": "",
+                "appeal_window_days_help": "",
+                "max_concurrent_appeals": "",
+                "max_concurrent_appeals_help": "",
+                "error_save": ""
             }
         },
         "forum": {
@@ -14,6 +100,12 @@
                 "notify_new_reply_label": "",
                 "notify_new_ticket_label": ""
             }
+        },
+        "email": {
+            "new_reply_subject": "",
+            "new_ticket_subject": "",
+            "new_appeal_subject": "",
+            "fallback_ticket": ""
         }
     }
 }

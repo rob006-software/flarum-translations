@@ -1,9 +1,95 @@
 {
     "linkrobins-support": {
         "admin": {
+            "nav": {
+                "categories": "Categories",
+                "appeal_bans": "Appeal bans",
+                "rate_limits": "Rate limits"
+            },
             "settings": {
                 "title": "Support",
                 "description": "Configure support categories and rate limits for the ticket system."
+            },
+            "common": {
+                "loading": "Loading…",
+                "unknown_error": "Something went wrong. Please try again."
+            },
+            "permissions": {
+                "handle_tickets": "Handle support tickets"
+            },
+            "categories": {
+                "heading": "Support categories",
+                "intro": "Create and organize the categories users choose from when opening a support ticket.",
+                "new_button": "New category",
+                "edit_button": "Edit",
+                "delete_button": "Delete",
+                "empty": "No categories yet. Create one to get started.",
+                "column_name": "Name",
+                "column_slug": "Slug",
+                "column_type": "Type",
+                "column_tickets": "Tickets",
+                "general_badge": "General",
+                "appeal_badge": "Appeal",
+                "this_category": "this category",
+                "delete_confirm_named": "Delete the category “{name}”? This can't be undone.",
+                "delete_confirm_with_tickets": "This category still has {count} ticket(s). Deleting it will also delete those tickets. Continue?"
+            },
+            "category_editor": {
+                "title_new": "New category",
+                "title_edit": "Edit category",
+                "field_name": "Name",
+                "field_slug": "Slug",
+                "field_slug_help": "Used in the category's URL. Leave blank to generate it from the name.",
+                "field_slug_placeholder": "e.g. billing",
+                "field_description": "Description",
+                "field_color": "Color",
+                "field_color_help": "Hex color (e.g. #3b82f6) used for the category's badge.",
+                "field_icon": "Icon",
+                "field_icon_help": "A Font Awesome class, e.g. fas fa-life-ring.",
+                "field_position": "Position",
+                "field_position_help": "Categories are ordered by this value, lowest first.",
+                "field_is_appeal": "Appeal category",
+                "field_is_appeal_help": "Tickets opened in this category are treated as ban appeals.",
+                "submit_create": "Create category",
+                "submit_update": "Save changes",
+                "saving": "Saving…",
+                "error_load": "Couldn't load this category.",
+                "error_save": "Couldn't save the category. Please check the fields and try again.",
+                "error_delete": "Couldn't delete the category."
+            },
+            "appeal_bans": {
+                "heading_alt": "Appeal bans",
+                "intro": "Control which users are blocked from filing ban appeals.",
+                "search_heading": "Find a user",
+                "search_help": "Search by username or email to ban or unban them from filing appeals.",
+                "search_placeholder": "Username or email…",
+                "search_button": "Search",
+                "search_results_heading": "Search results",
+                "search_error": "Search failed. Please try again.",
+                "banned_heading": "Appeal-banned users",
+                "banned_empty": "No users are currently banned from filing appeals.",
+                "column_username": "Username",
+                "column_email": "Email",
+                "column_action": "Action",
+                "ban_button": "Ban from appeals",
+                "unban_button": "Remove appeal ban",
+                "saving": "Saving…",
+                "error_toggle": "Couldn't update the user's appeal-ban status."
+            },
+            "rate_limits": {
+                "heading": "Rate limits",
+                "intro": "Limit how often users can open support tickets and ban appeals.",
+                "max_general_per_window": "Max general tickets per window",
+                "max_general_per_window_help": "How many general support tickets a user may open within the window below.",
+                "general_window_hours": "General window (hours)",
+                "general_window_hours_help": "The rolling time window, in hours, for the general ticket limit.",
+                "max_appeals_per_window": "Max appeals per window",
+                "max_appeals_per_window_help": "How many ban-appeal tickets a user may open within the appeal window.",
+                "appeal_window_days": "Appeal window (days)",
+                "appeal_window_days_help": "The rolling time window, in days, for the appeal limit.",
+                "max_concurrent_appeals": "Max concurrent open appeals",
+                "max_concurrent_appeals_help": "How many appeal tickets a user may have open at the same time.",
+                "error_save": "Couldn't save the rate limits."
             }
         },
         "forum": {
@@ -14,6 +100,12 @@
                 "notify_new_reply_label": "Someone replies to my support ticket",
                 "notify_new_ticket_label": "A new support ticket is opened (staff)"
             }
+        },
+        "email": {
+            "new_reply_subject": "[Support] New reply on: {subject}",
+            "new_ticket_subject": "[Support] New ticket: {subject}",
+            "new_appeal_subject": "[Support / Appeal] New ticket: {subject}",
+            "fallback_ticket": "your support ticket"
         }
     }
 }
