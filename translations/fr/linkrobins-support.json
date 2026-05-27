@@ -7,19 +7,19 @@
                 "rate_limits": "Limites de fréquence"
             },
             "settings": {
-                "title": "Assistance",
+                "title": "Support",
                 "description": "Configurer les catégories et les limites de fréquence pour le système de tickets."
             },
             "common": {
-                "loading": "Chargement…",
+                "loading": "Chargement en cours…",
                 "unknown_error": "Quelque chose s'est mal passé. Veuillez réessayer."
             },
             "permissions": {
-                "handle_tickets": "Gérer les tickets d'assistance"
+                "handle_tickets": "Gérer les tickets"
             },
             "categories": {
-                "heading": "Catégories d'assistance",
-                "intro": "Créer et organiser les catégories parmi lesquelles les utilisateurs peuvent choisir lorsqu'ils ouvrent un ticket d'assistance.",
+                "heading": "Catégories",
+                "intro": "Créer et organiser les catégories parmi lesquelles les utilisateurs peuvent choisir lorsqu'ils ouvrent un ticket.",
                 "new_button": "Nouvelle catégorie",
                 "edit_button": "Modifier",
                 "delete_button": "Supprimer",
@@ -52,43 +52,43 @@
                 "field_is_appeal_help": "Les tickets ouverts dans cette catégorie sont traités comme des recours contre une suspension.",
                 "submit_create": "Créer une catégorie",
                 "submit_update": "Sauvegarder les modifications",
-                "saving": "Enregistrement…",
+                "saving": "Enregistrement en cours…",
                 "error_load": "Impossible de charger cette catégorie.",
                 "error_save": "Impossible d'enregistrer la catégorie. Veuillez vérifier les champs et réessayer.",
                 "error_delete": "Impossible de supprimer la catégorie."
             },
             "appeal_bans": {
                 "heading_alt": "Recours contre les suspensions",
-                "intro": "",
+                "intro": "Définir quels utilisateurs ne peuvent pas déposer des recours contre une suspension.",
                 "search_heading": "Rechercher un utilisateur",
                 "search_help": "Recherchez un utilisateur par son nom d'utilisateur ou son adresse de courriel pour l'empêcher ou l'autoriser à déposer des recours.",
                 "search_placeholder": "Nom d'utilisateur ou adresse de courriel…",
                 "search_button": "Rechercher",
                 "search_results_heading": "Résultats de la recherche",
                 "search_error": "Échec de la recherche. Veuillez réessayer.",
-                "banned_heading": "",
-                "banned_empty": "",
+                "banned_heading": "Utilisateurs dont le droit de déposer un recours a été suspendu",
+                "banned_empty": "Aucun utilisateur n'est actuellement privé du droit de déposer des recours.",
                 "column_username": "Nom d'utilisateur",
                 "column_email": "Adresse de courriel",
                 "column_action": "Action",
-                "ban_button": "",
-                "unban_button": "",
-                "saving": "Enregistrement…",
-                "error_toggle": ""
+                "ban_button": "Interdiction de déposer un recours",
+                "unban_button": "Lever l'interdiction de déposer un recours",
+                "saving": "Enregistrement en cours…",
+                "error_toggle": "Impossible de mettre à jour le statut de l'utilisateur."
             },
             "rate_limits": {
                 "heading": "Limites de fréquence",
-                "intro": "Limiter la fréquence à laquelle les utilisateurs peuvent ouvrir des tickets d'assistance et des recours contre une suspension.",
+                "intro": "Limiter la fréquence à laquelle les utilisateurs peuvent ouvrir des tickets et des recours contre une suspension.",
                 "max_general_per_window": "Nombre maximal de tickets par période",
-                "max_general_per_window_help": "Combien de tickets d'assistance un utilisateur peut-il ouvrir pendant la période indiquée ci-dessous.",
+                "max_general_per_window_help": "Combien de tickets un utilisateur peut-il ouvrir pendant la période indiquée ci-dessous.",
                 "general_window_hours": "Période (en heures)",
-                "general_window_hours_help": "",
-                "max_appeals_per_window": "",
-                "max_appeals_per_window_help": "",
+                "general_window_hours_help": "La période de temps, en heures, pour la limite de tickets.",
+                "max_appeals_per_window": "Nombre maximal de recours par période",
+                "max_appeals_per_window_help": "Combien de recours contre une suspension un utilisateur peut-il ouvrir pendant la période indiquée ci-dessous.",
                 "appeal_window_days": "Délai de recours (en jours)",
-                "appeal_window_days_help": "",
+                "appeal_window_days_help": "La période de temps, en jours, pour la limite de recours.",
                 "max_concurrent_appeals": "Nombre maximal de recours ouverts simultanément",
-                "max_concurrent_appeals_help": "Combien de tickets de recours un utilisateur peut-il ouvrir en même temps.",
+                "max_concurrent_appeals_help": "Combien de recours un utilisateur peut-il ouvrir en même temps.",
                 "error_save": "Impossible d'enregistrer les limites de fréquence."
             }
         },
@@ -102,10 +102,10 @@
             }
         },
         "email": {
-            "new_reply_subject": "[Assistance] Nouvelle réponse à : {objet}",
-            "new_ticket_subject": "[Assistance] Nouveau ticket : {objet}",
-            "new_appeal_subject": "[Assistance / Recours] Nouveau ticket : {objet}",
-            "fallback_ticket": "votre ticket d'assistance"
+            "new_reply_subject": "[Assistance] Nouvelle réponse à : {subject}",
+            "new_ticket_subject": "[Assistance] Nouveau ticket : {subject}",
+            "new_appeal_subject": "[Assistance / Recours] Nouveau ticket : {subject}",
+            "fallback_ticket": "votre ticket"
         }
     }
 }
