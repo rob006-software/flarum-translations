@@ -200,11 +200,11 @@
                 "regenerateImagesCancelled": "❌ Aktion abgebrochen",
                 "regenerateImagesInvalidTagOption": "--tag muss von einer oder mehreren (durch Kommas getrennten) Tag-IDs (Zahlen) und/oder in Anführungszeichen gesetzten Themen-Slugs (z. B.: „slug-1“, „slug-2“) gefolgt werden.",
                 "regenerateImagesNothingToDo": "Es sind keine Diskussionen zu bearbeiten",
-                "regenerateImagesStart": "",
-                "regenerateImagesError": "",
-                "regenerateImagesStartAll": "",
-                "regenerateImagesStartAllWithout": "",
-                "regenerateImagesSummary": ""
+                "regenerateImagesStart": "➡ Die Verarbeitung von {count} Diskussionen wird gestartet...",
+                "regenerateImagesError": "❌ Fehler bei der Bearbeitung der Diskussion #{id}: {message}",
+                "regenerateImagesStartAll": "➡ Die Verarbeitung ALLER [{count}] Diskussionen wird gestartet...",
+                "regenerateImagesStartAllWithout": "➡ Die Verarbeitung von [{count}] Diskussionen ohne Bilder wird gestartet...",
+                "regenerateImagesSummary": "➡ Zusammenfassung der Regeneration{mode}: {total} verarbeitet, {success} erfolgreich & {errors} Fehler."
             }
         }
     }
