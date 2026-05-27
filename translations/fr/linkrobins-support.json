@@ -61,19 +61,19 @@
                 "heading_alt": "Recours contre les suspensions",
                 "intro": "",
                 "search_heading": "Rechercher un utilisateur",
-                "search_help": "Rechercher par son nom d'utilisateur ou par son adresse courriel pour l'empêcher ou l'autoriser à déposer des recours.",
-                "search_placeholder": "",
-                "search_button": "",
-                "search_results_heading": "",
-                "search_error": "",
+                "search_help": "Recherchez un utilisateur par son nom d'utilisateur ou son adresse de courriel pour l'empêcher ou l'autoriser à déposer des recours.",
+                "search_placeholder": "Nom d'utilisateur ou adresse de courriel…",
+                "search_button": "Rechercher",
+                "search_results_heading": "Résultats de la recherche",
+                "search_error": "Échec de la recherche. Veuillez réessayer.",
                 "banned_heading": "",
                 "banned_empty": "",
-                "column_username": "",
-                "column_email": "",
-                "column_action": "",
+                "column_username": "Nom d'utilisateur",
+                "column_email": "Adresse de courriel",
+                "column_action": "Action",
                 "ban_button": "",
                 "unban_button": "",
-                "saving": "",
+                "saving": "Enregistrement…",
                 "error_toggle": ""
             },
             "rate_limits": {
@@ -103,9 +103,9 @@
         },
         "email": {
             "new_reply_subject": "",
-            "new_ticket_subject": "",
-            "new_appeal_subject": "",
-            "fallback_ticket": ""
+            "new_ticket_subject": "[Assistance] Nouveau ticket : {objet}",
+            "new_appeal_subject": "[Assistance / Recours] Nouveau ticket : {objet}",
+            "fallback_ticket": "votre ticket d'assistance"
         }
     }
 }
