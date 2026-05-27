@@ -2350,12 +2350,14 @@
             },
             "forum": {
                 "palette": {
+                    "apply": "0ee3e6e62e8d5eaca58bf1e7ac8b7325 0ee3e6e62e8d5eaca58bf1e7ac8b7325",
                     "aurora": "509e0895bd82e3315e79018a6ce02181 509e0895bd82e3315e79018a6ce02181",
                     "button_label": "e1928ea534a7037e11a7a6e6d611f47f e1928ea534a7037e11a7a6e6d611f47f",
                     "ember": "fda9314a84feeb75d68b8c473d178011 fda9314a84feeb75d68b8c473d178011",
                     "forest": "d86f0abd633e6e9b67ac7fa574e258b4 d86f0abd633e6e9b67ac7fa574e258b4",
                     "nebula": "f0ce2009247148c5d2551adab4b05c0a f0ce2009247148c5d2551adab4b05c0a",
                     "ocean": "5976d43de1528ed2e867f9e3407cbb65 5976d43de1528ed2e867f9e3407cbb65",
+                    "palette": "278f9a3d3077c522e71022e302b9e0e4 278f9a3d3077c522e71022e302b9e0e4",
                     "sunset": "1ce97db430afa87c52308c7faafdb799 1ce97db430afa87c52308c7faafdb799",
                     "title": "05179369b0ac4b19c15ac6435e398992 05179369b0ac4b19c15ac6435e398992"
                 },
@@ -7980,6 +7982,33 @@
                 "removed": {
                     "error": "e4e9246be4626ad2c438e089bbf2a0cd e4e9246be4626ad2c438e089bbf2a0cd",
                     "success": "73860d96f043df66b9f87f6212c79353 73860d96f043df66b9f87f6212c79353"
+                }
+            }
+        }
+    },
+    "forumaker-steam-oauth.json": {
+        "fof-oauth": {
+            "admin": {
+                "settings": {
+                    "providers": {
+                        "steam": {
+                            "api_key_label": "0dd27eedc1a0cf224851b56b5f39e793 0dd27eedc1a0cf224851b56b5f39e793",
+                            "description": "f83ab30d1825033d631e7ed37f470d51 f83ab30d1825033d631e7ed37f470d51"
+                        }
+                    }
+                }
+            },
+            "forum": {
+                "log_in": {
+                    "with_steam_button": "3b5bc95ac06546021821ef70bf17b294 3b5bc95ac06546021821ef70bf17b294"
+                },
+                "providers": {
+                    "steam": "4db4563826bad0eb2f60ee6e42d0ea4b 4db4563826bad0eb2f60ee6e42d0ea4b"
+                }
+            },
+            "lib": {
+                "providers": {
+                    "steam": "4db4563826bad0eb2f60ee6e42d0ea4b 4db4563826bad0eb2f60ee6e42d0ea4b"
                 }
             }
         }
