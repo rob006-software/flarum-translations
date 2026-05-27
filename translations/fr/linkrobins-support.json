@@ -4,10 +4,10 @@
             "nav": {
                 "categories": "Catégories",
                 "appeal_bans": "Recours contre les suspensions",
-                "rate_limits": ""
+                "rate_limits": "Limites de fréquence"
             },
             "settings": {
-                "title": "Support",
+                "title": "Assistance",
                 "description": "Configurer les catégories et les limites de fréquence pour le système de tickets."
             },
             "common": {
@@ -15,7 +15,7 @@
                 "unknown_error": "Quelque chose s'est mal passé. Veuillez réessayer."
             },
             "permissions": {
-                "handle_tickets": "Gérer les demandes d'assistance"
+                "handle_tickets": "Gérer les tickets d'assistance"
             },
             "categories": {
                 "heading": "Catégories d'assistance",
@@ -77,19 +77,19 @@
                 "error_toggle": ""
             },
             "rate_limits": {
-                "heading": "",
-                "intro": "",
-                "max_general_per_window": "",
-                "max_general_per_window_help": "",
+                "heading": "Limites de fréquence",
+                "intro": "Limiter la fréquence à laquelle les utilisateurs peuvent ouvrir des tickets d'assistance et des recours contre une suspension.",
+                "max_general_per_window": "Nombre maximal de tickets par période",
+                "max_general_per_window_help": "Combien de tickets d'assistance un utilisateur peut-il ouvrir pendant la période indiquée ci-dessous.",
                 "general_window_hours": "",
                 "general_window_hours_help": "",
                 "max_appeals_per_window": "",
                 "max_appeals_per_window_help": "",
-                "appeal_window_days": "",
+                "appeal_window_days": "Délai de recours (en jours)",
                 "appeal_window_days_help": "",
-                "max_concurrent_appeals": "",
-                "max_concurrent_appeals_help": "",
-                "error_save": ""
+                "max_concurrent_appeals": "Nombre maximal de recours ouverts simultanément",
+                "max_concurrent_appeals_help": "Combien de tickets de recours un utilisateur peut-il ouvrir en même temps.",
+                "error_save": "Impossible d'enregistrer les limites de fréquence."
             }
         },
         "forum": {
