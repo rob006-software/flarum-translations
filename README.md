@@ -262,7 +262,7 @@ This repository contains raw translations data used by [Weblate](https://weblate
 	</tr>
 	<tr>
 		<td><a href="https://github.com/flarum-lang/german">German</a></td>
-		<td><a href="https://github.com/Kakifrucht">Kakifrucht</a></td>
+		<td><a href="https://github.com/Kakifrucht">Kakifrucht</a>, <a href="https://github.com/claudiush">claudiush</a></td>
 		<td align="right">
 			<a href="https://rob006-software.github.io/flarum-translations/master/status/de.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum/de/svg-badge.svg" alt="detailed translation status" />
@@ -1048,6 +1048,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`dem13n-topic-starter-label`](https://weblate.rob006.net/projects/flarum/dem13n-topic-starter-label) | [`dem13n/topic-starter-label`](https://github.com/Dem13n/topic-starter-label) |
 | [`ekumanov-inline-audio`](https://weblate.rob006.net/projects/flarum/ekumanov-inline-audio) | [`ekumanov/flarum-ext-inline-audio`](https://github.com/ekumanov/flarum-ext-inline-audio) |
 | [`ekumanov-new-posts-notice`](https://weblate.rob006.net/projects/flarum/ekumanov-new-posts-notice) | [`ekumanov/flarum-ext-new-posts-notice`](https://github.com/ekumanov/flarum-ext-new-posts-notice) |
+| [`ernestdefoe-aurora`](https://weblate.rob006.net/projects/flarum/ernestdefoe-aurora) | [`ernestdefoe/aurora`](https://github.com/ernestdefoe/aurora) |
 | [`ffans-clipboardjs`](https://weblate.rob006.net/projects/flarum/ffans-clipboardjs) | [`ffans/clipboardjs`](https://github.com/FFans/clipboardjs) |
 | [`ffans-geetest`](https://weblate.rob006.net/projects/flarum/ffans-geetest) | [`ffans/geetest`](https://github.com/FFans/geetest) |
 | [`flamarkt-backoffice`](https://weblate.rob006.net/projects/flarum/flamarkt-backoffice) | [`flamarkt/backoffice`](https://github.com/flamarkt/backoffice) |
@@ -1079,6 +1080,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`hehongyuanlove-auth-qq`](https://weblate.rob006.net/projects/flarum/hehongyuanlove-auth-qq) | [`hehongyuanlove/flarum-auth-qq`](https://github.com/Hehongyuanlove/flarum-auth-qq) |
 | [`hikarilan-passkey-login`](https://weblate.rob006.net/projects/flarum/hikarilan-passkey-login) | [`hikarilan/flarum-passkey-login`](https://github.com/shaokeyibb/flarum-passkey-login) |
 | [`huoxin-auto-follow-discussion`](https://weblate.rob006.net/projects/flarum/huoxin-auto-follow-discussion) | [`huoxin/auto-follow-discussion`](https://github.com/huoxin233/flarum-ext-auto-follow-discussion) |
+| [`huoxin-money-with-history`](https://weblate.rob006.net/projects/flarum/huoxin-money-with-history) | [`huoxin/money-with-history`](https://github.com/huoxin233/flarum-ext-money-with-history) |
 | [`huoxin-relative-url`](https://weblate.rob006.net/projects/flarum/huoxin-relative-url) | [`huoxin/relative-url`](https://github.com/huoxin233/flarum-ext-relative-url) |
 | [`huseyinfiliz-awards`](https://weblate.rob006.net/projects/flarum/huseyinfiliz-awards) | [`huseyinfiliz/awards`](https://github.com/huseyinfiliz/awards) |
 | [`huseyinfiliz-bump`](https://weblate.rob006.net/projects/flarum/huseyinfiliz-bump) | [`huseyinfiliz/bump`](https://github.com/huseyinfiliz/bump) |

@@ -56,7 +56,10 @@
                 "submit_button": "Glasaj",
                 "start_poll_button": "Pokreni globalnu anketu",
                 "cannot_start_poll_button": "Nije moguće pokrenuti anketu",
-                "total_votes": "{count, plural, one {# glas je dan} other {# glasova je dano}}"
+                "total_votes": "{count, plural, one {# glas je dan} other {# glasova je dano}}",
+                "draft_label": "",
+                "scheduled_label": "",
+                "scheduled_error_tooltip": ""
             },
             "poll_controls": {
                 "edit_label": "=> core.ref.edit",
@@ -64,7 +67,17 @@
                 "view_label": "=> core.ref.view",
                 "delete_confirmation": "Jeste li sigurni da želite izbrisati ovu anketu?",
                 "delete_success_message": "Anketa je uspješno izbrisana.",
-                "delete_error_message": "Došlo je do pogreške prilikom brisanja ankete."
+                "delete_error_message": "Došlo je do pogreške prilikom brisanja ankete.",
+                "publish_label": "",
+                "publish_success": "",
+                "schedule_publish_label": "",
+                "edit_schedule_publish_label": "",
+                "cancel_schedule_label": "",
+                "cancel_schedule_success": "",
+                "unpublish_label": "",
+                "unpublish_confirmation": "",
+                "unpublish_success": "",
+                "unpublish_error_has_votes": ""
             },
             "poll_form": {
                 "delete": "Izbriši anketu",
@@ -113,6 +126,11 @@
                     "sort_dropdown": {
                         "default": "=> fof-polls.forum.polls_list.sort_dropdown.newest"
                     }
+                },
+                "status_filter": {
+                    "all": "",
+                    "published": "",
+                    "draft": ""
                 }
             },
             "composer_discussion": {
@@ -126,7 +144,17 @@
                 "polls_manager": "Upravitelj anketa",
                 "polls_preview": "Pregledaj anketu",
                 "continue_editing": "Nastavi uređivanje",
-                "success": "Anketa je uspješno spremljena."
+                "success": "Anketa je uspješno spremljena.",
+                "submit": "",
+                "save_as_draft": "",
+                "update_draft": "",
+                "draft_saved": "",
+                "publish": "",
+                "schedule_publication": "",
+                "schedule_publication_edit": "",
+                "schedule_datetime_label": "",
+                "schedule_submit": "",
+                "schedule": ""
             },
             "modal": {
                 "add_title": "Dodaj anketu",
@@ -136,6 +164,7 @@
                 "include_question": "Morate uključiti pitanje",
                 "max": "Možete imati najviše {max} odgovora",
                 "min": "Morate uključiti najmanje 2 odgovora",
+                "empty_answers": "",
                 "no_voters": "Nema glasova",
                 "option_placeholder": "Odgovor",
                 "image_option_placeholder": "URL slike (nije obavezno)",

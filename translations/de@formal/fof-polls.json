@@ -56,15 +56,28 @@
                 "submit_button": "Abstimmen",
                 "start_poll_button": "Globale Umfrage starten",
                 "cannot_start_poll_button": "Umfrage kann nicht gestartet werden",
-                "total_votes": "{count, plural, one {# Stimme wurde abgegeben} other {# Stimmen wurden abgegeben}}"
+                "total_votes": "{count, plural, one {# Stimme wurde abgegeben} other {# Stimmen wurden abgegeben}}",
+                "draft_label": "Entwurf",
+                "scheduled_label": "Geplant für {date}",
+                "scheduled_error_tooltip": "Die geplante Veröffentlichung ist fehlgeschlagen. Öffne die Umfrage, um zu erfahren, warum."
             },
             "poll_controls": {
-                "edit_label": "Bearbeiten",
-                "delete_label": "Löschen",
-                "view_label": "Anzeigen",
+                "edit_label": "=> core.ref.edit",
+                "delete_label": "=> core.ref.delete",
+                "view_label": "=> core.ref.view",
                 "delete_confirmation": "Bist du sicher, dass du diese Umfrage löschen möchtest?",
                 "delete_success_message": "Umfrage erfolgreich gelöscht.",
-                "delete_error_message": "Beim Löschen der Umfrage ist etwas schiefgelaufen."
+                "delete_error_message": "Beim Löschen der Umfrage ist etwas schiefgelaufen.",
+                "publish_label": "Jetzt veröffentlichen",
+                "publish_success": "Umfrage veröffentlicht.",
+                "schedule_publish_label": "Veröffentlichung planen",
+                "edit_schedule_publish_label": "Geplante Veröffentlichung bearbeiten",
+                "cancel_schedule_label": "Geplante Veröffentlichung absagen",
+                "cancel_schedule_success": "Geplante Veröffentlichung wurde abgesagt.",
+                "unpublish_label": "Zurück zum Entwurf verschieben",
+                "unpublish_confirmation": "Diese Umfrage wieder in den Entwurfsordner verschieben? Sie wird dann aus der Übersicht verschwinden.",
+                "unpublish_success": "Umfrage zu Entwürfen verschoben.",
+                "unpublish_error_has_votes": "Die Veröffentlichung kann nicht rückgängig gemacht werden – die Umfrage enthält bereits Stimmen. Lösche die Umfrage stattdessen."
             },
             "poll_form": {
                 "delete": "Umfrage löschen",
@@ -113,6 +126,11 @@
                     "sort_dropdown": {
                         "default": "=> fof-polls.forum.polls_list.sort_dropdown.newest"
                     }
+                },
+                "status_filter": {
+                    "all": "Alle",
+                    "published": "Veröffentlicht",
+                    "draft": "Entwürfe"
                 }
             },
             "composer_discussion": {
@@ -126,7 +144,17 @@
                 "polls_manager": "Umfragenmanager",
                 "polls_preview": "Umfrage ansehen",
                 "continue_editing": "Bearbeitung fortsetzen",
-                "success": "Umfrage erfolgreich gespeichert."
+                "success": "Umfrage erfolgreich gespeichert.",
+                "submit": "Absenden",
+                "save_as_draft": "Als Entwurf speichern",
+                "update_draft": "Entwurf aktualisieren",
+                "draft_saved": "Entwurf gespeichert",
+                "publish": "Veröffentlichen",
+                "schedule_publication": "Veröffentlichung planen",
+                "schedule_publication_edit": "Geplante Veröffentlichung bearbeiten",
+                "schedule_datetime_label": "Veröffentlichen am",
+                "schedule_submit": "Planen",
+                "schedule": "Planen"
             },
             "modal": {
                 "add_title": "Umfrage hinzufügen",
@@ -136,6 +164,7 @@
                 "include_question": "Du musst eine Frage stellen",
                 "max": "Du kannst maximal {max} Antworten haben",
                 "min": "Du musst mindestens zwei Antworten erstellen",
+                "empty_answers": "{count, plural, one {# Antwort ist leer — bitte ausfüllen oder entfernen.} other {# Antworten sind leer — bitte ausfüllen oder entfernen.}}",
                 "no_voters": "Keine Stimmen",
                 "option_placeholder": "Antwort",
                 "image_option_placeholder": "Bild-URL (optional)",

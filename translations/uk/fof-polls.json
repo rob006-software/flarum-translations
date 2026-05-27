@@ -56,7 +56,10 @@
                 "submit_button": "Проголосувати",
                 "start_poll_button": "Розпочати глобальне опитування",
                 "cannot_start_poll_button": "Неможливо розпочати опитування",
-                "total_votes": "{count, plural, one {# віддано голосів} other {# було віддано голосів}}"
+                "total_votes": "{count, plural, one {# віддано голосів} other {# було віддано голосів}}",
+                "draft_label": "",
+                "scheduled_label": "",
+                "scheduled_error_tooltip": ""
             },
             "poll_controls": {
                 "edit_label": "=> core.ref.edit",
@@ -64,7 +67,17 @@
                 "view_label": "=> core.ref.view",
                 "delete_confirmation": "Ви дійсно хочете видалити це опитування?",
                 "delete_success_message": "Опитування успішно видалено.",
-                "delete_error_message": "Під час видалення опитування щось пішло не так."
+                "delete_error_message": "Під час видалення опитування щось пішло не так.",
+                "publish_label": "",
+                "publish_success": "",
+                "schedule_publish_label": "",
+                "edit_schedule_publish_label": "",
+                "cancel_schedule_label": "",
+                "cancel_schedule_success": "",
+                "unpublish_label": "",
+                "unpublish_confirmation": "",
+                "unpublish_success": "",
+                "unpublish_error_has_votes": ""
             },
             "poll_form": {
                 "delete": "Видалити опитування",
@@ -113,6 +126,11 @@
                     "sort_dropdown": {
                         "default": "=> fof-polls.forum.polls_list.sort_dropdown.newest"
                     }
+                },
+                "status_filter": {
+                    "all": "",
+                    "published": "",
+                    "draft": ""
                 }
             },
             "composer_discussion": {
@@ -126,7 +144,17 @@
                 "polls_manager": "Менеджер опитувань",
                 "polls_preview": "Переглянути опитування",
                 "continue_editing": "Продовжити редагування",
-                "success": "Опитування успішно збережено."
+                "success": "Опитування успішно збережено.",
+                "submit": "",
+                "save_as_draft": "",
+                "update_draft": "",
+                "draft_saved": "",
+                "publish": "",
+                "schedule_publication": "",
+                "schedule_publication_edit": "",
+                "schedule_datetime_label": "",
+                "schedule_submit": "",
+                "schedule": ""
             },
             "modal": {
                 "add_title": "Додати опитування",
@@ -136,6 +164,7 @@
                 "include_question": "Ви повинні включити питання",
                 "max": "Ви можете мати максимум {max} відповідей",
                 "min": "Ви повинні вказати мінімум 2 відповіді",
+                "empty_answers": "",
                 "no_voters": "Немає голосів",
                 "option_placeholder": "Відповідь",
                 "image_option_placeholder": "URL-адреса зображення (необов'язково)",

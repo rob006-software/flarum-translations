@@ -4,16 +4,16 @@
             "username_label": "Präfix für Gast-Benutzernamen",
             "username_help": "Präfix für Gast-Benutzernamen (z. B. „Gast“)",
             "max_posts_label": "Maximale Anzahl an Gastbeiträgen",
-            "max_posts_help": ""
+            "max_posts_help": "Maximal zulässige Anzahl von Beiträgen für Gastnutzer"
         },
         "forum": {
             "login_button": "Gast-Anmeldung",
             "modal_title": "Willkommen Gast",
             "welcome_message": "Willkommen, Gast! Gäste dürfen maximal drei Beiträge verfassen.",
             "modal_understood": "Verstanden!",
-            "max_posts_reached": "",
-            "login_error": "",
-            "rate_limit_error": ""
+            "max_posts_reached": "Du hast die maximale Anzahl von {max} Beiträgen für Gastnutzer erreicht. Bitte erstelle ein Konto, um fortzufahren.",
+            "login_error": "Die Anmeldung ist fehlgeschlagen. Bitte versuche es erneut.",
+            "rate_limit_error": "Bitte warte einen Moment, bevor du es erneut versuchst."
         }
     }
 }
