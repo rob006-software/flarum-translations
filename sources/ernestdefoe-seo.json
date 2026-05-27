@@ -1,0 +1,118 @@
+{
+    "ernestdefoe-seo": {
+        "admin": {
+            "permissions": {
+                "configure_seo": "Allow configuring SEO"
+            },
+            "settings_page": {
+                "menu": {
+                    "health_check": "Health check",
+                    "seo_settings": "SEO settings",
+                    "sitemap_information": "Sitemap information",
+                    "search_engine_information": "Search engine information",
+                    "set_up_ssl": "Set up SSL"
+                }
+            },
+            "meta_seo_modal": {
+                "title": "SEO settings - Meta",
+                "managed_label": "Managed",
+                "upload_button": "Upload file",
+                "not_supported": {
+                    "alert_title": "This object is not a supported SeoMeta object",
+                    "alert_body": "Please open this dialog using the objectType and objectId properties or register the object relationship instead.",
+                    "documentation_link": "Documentation"
+                },
+                "auto_update": {
+                    "title": "Auto update meta tags",
+                    "help": "When enabled, this item's meta tags are automatically updated when the object changes.",
+                    "switch_label": "Update object SEO on change"
+                },
+                "meta_title": {
+                    "title": "Meta title",
+                    "help": "Title in search engines.",
+                    "placeholder": "Enter page title"
+                },
+                "meta_description": {
+                    "title": "Meta description",
+                    "help": "Describes the item and shown in search engines.",
+                    "placeholder": "Add a description"
+                },
+                "keywords": {
+                    "title": "Keywords",
+                    "help": "Enter one or more keywords that describes this item.",
+                    "placeholder": "Add a few keywords",
+                    "note": "Note: Separate keywords with a comma.",
+                    "example_prefix": "Example:",
+                    "example": "flarum, web development, forum, apples, security"
+                },
+                "meta_image": {
+                    "title": "Meta image",
+                    "help": "Displays an image.",
+                    "placeholder": "Enter image URL",
+                    "managed_by": "Image source managed by {source}"
+                },
+                "robots": {
+                    "title": "Robots",
+                    "help": "Robot-crawling settings for this item.",
+                    "tag_index_allowed": "Allow indexing page",
+                    "tag_index_disallowed": "Page indexing not allowed",
+                    "tag_follow_allowed": "Allow follow links",
+                    "tag_follow_disallowed": "Link following not allowed",
+                    "tag_noarchive": "Archiving pages not allowed",
+                    "tag_noimageindex": "Image indexing not allowed",
+                    "tag_nosnippet": "Taking text-snippets not allowed",
+                    "switch_noindex": "Allow indexing page",
+                    "switch_nofollow": "Allow following links to different pages",
+                    "switch_noarchive": "Disable archiving page (noarchive)",
+                    "switch_noimageindex": "Disable indexing images on this page (noimageindex)",
+                    "switch_nosnippet": "Disable text snippets on page (nosnippet)"
+                },
+                "reading_time": {
+                    "title": "Estimated reading time",
+                    "help": "Estimated reading time in seconds.",
+                    "placeholder": "Reading time in seconds"
+                },
+                "twitter": {
+                    "card_title": "Twitter card",
+                    "switch_auto": "Auto generate Twitter card",
+                    "title": "Twitter title",
+                    "description": "Twitter description",
+                    "image_title": "Twitter image",
+                    "image_help": "Displays an image on Twitter.",
+                    "image_placeholder": "Enter image URL",
+                    "image_managed_by": "Image source managed by {source}",
+                    "reset_image": "Reset image"
+                },
+                "open_graph": {
+                    "tags_title": "Open Graph tags",
+                    "switch_auto": "Auto generate Open Graph tags",
+                    "title": "Open Graph title",
+                    "description": "Open Graph description",
+                    "description_placeholder": "Custom Open Graph description"
+                },
+                "footer": {
+                    "note_prefix": "Note:",
+                    "revert_warning": "This change will revert custom changes and fill the meta-tags with item-data."
+                },
+                "buttons": {
+                    "close": "Close",
+                    "save": "Save",
+                    "save_and_autofill": "Save & auto-fill"
+                },
+                "alerts": {
+                    "saved": "Saved!",
+                    "save_error": "Could not save SEO settings. Please try again or check the server log."
+                }
+            }
+        },
+        "forum": {
+            "profile_title": "Profile of {username}",
+            "profile_description": "Profile of {username} | {discussion_count} discussions | {comment_count} posts",
+            "controls": {
+                "configure_seo": "Configure SEO",
+                "update_seo": "Update SEO",
+                "reset_seo": "Reset SEO"
+            }
+        }
+    }
+}
