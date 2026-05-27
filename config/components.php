@@ -112,16 +112,6 @@ return [
 	],
 	'ernestdefoe-seo' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/seo/2.0.8/locale/en.yml',
-		'__builtInLanguages' => [
-			'ar',
-			'de',
-			'es',
-			'fr',
-			'fy',
-			'my',
-			'nl',
-			'ro',
-		],
 	],
 	'ernestdefoe-social-groups' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/social-groups/2.3.47/locale/en.yml',
