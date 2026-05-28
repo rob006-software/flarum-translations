@@ -12,7 +12,7 @@
             },
             "permissions": {
                 "handle_tickets": "Gérer les tickets",
-                "manage_appeal_bans": ""
+                "manage_appeal_bans": "Gérer les recours contre les suspensions"
             },
             "categories": {
                 "heading": "Catégories",
@@ -96,89 +96,89 @@
         "forum": {
             "nav": "Support",
             "new_ticket": "Nouveau ticket",
-            "submit_ticket": "Soumettre un ticket",
+            "submit_ticket": "Envoyer le ticket",
             "settings": {
                 "notify_new_reply_label": "Quelqu'un répond à mon ticket",
                 "notify_new_ticket_label": "Un nouveau ticket est créé (par l'équipe)"
             },
             "status": {
-                "in_progress": "",
-                "awaiting_response": ""
+                "in_progress": "En cours",
+                "awaiting_response": "En attente"
             },
             "index": {
-                "my_tickets": "",
-                "new_ticket": "",
-                "new_ticket_tooltip": "",
-                "empty_own": "",
-                "empty": ""
+                "my_tickets": "Mes tickets",
+                "new_ticket": "Nouveau ticket",
+                "new_ticket_tooltip": "Ouvrir un nouveau ticket",
+                "empty_own": "Aucun ticket pour le moment. Cliquez sur « Nouveau ticket » pour en ouvrir un.",
+                "empty": "Aucun ticket à afficher."
             },
             "errors": {
-                "load_tickets": "",
-                "unknown": "",
-                "submit": "",
-                "submit_ticket": "",
-                "upload": "",
-                "upload_no_files": "",
-                "load_ticket": "",
-                "update_assignment": "",
-                "update_status": "",
-                "save_edit": "",
-                "delete_reply": "",
-                "restore_reply": "",
-                "delete_reply_forever": "",
-                "delete_ticket": "",
-                "restore_ticket": "",
-                "delete_ticket_forever": "",
-                "post_reply": ""
+                "load_tickets": "Impossible de charger les tickets.",
+                "unknown": "Erreur inconnue.",
+                "submit": "Impossible d'envoyer.",
+                "submit_ticket": "Impossible d'envoyer le ticket.",
+                "upload": "Impossible de transférer le fichier.",
+                "upload_no_files": "Aucun fichier n'a été transféré. Veuillez réessayer.",
+                "load_ticket": "Impossible de charger ce ticket. Il a peut-être été supprimé, ou vous ne disposez peut-être pas des autorisations nécessaires pour le consulter.",
+                "update_assignment": "Impossible de mettre à jour l'affectation.",
+                "update_status": "Impossible de mettre à jour le status.",
+                "save_edit": "Impossible d'enregistrer les modifications.",
+                "delete_reply": "Impossible de supprimer la réponse.",
+                "restore_reply": "Impossible de restaurer la réponse.",
+                "delete_reply_forever": "Impossible de supprimer définitivement la réponse.",
+                "delete_ticket": "Impossible de supprimer le ticket.",
+                "restore_ticket": "Impossible de restaurer le ticket.",
+                "delete_ticket_forever": "Impossible de supprimer définitivement le ticket.",
+                "post_reply": "Impossible de publier la réponse."
             },
             "compose": {
-                "appeal_banned": "",
-                "no_appeal_categories": "",
-                "no_categories": "",
-                "title_appeal": "",
-                "title": "",
-                "subject_placeholder": "",
-                "body_placeholder": "",
-                "submit": ""
+                "appeal_banned": "Vous n'êtes pas autorisé à déposer un recours. Veuillez contacter l'administrateur par un autre moyen.",
+                "no_appeal_categories": "Aucune catégorie de recours n'est actuellement disponible.",
+                "no_categories": "Aucune catégorie n'a encore été créée. Veuillez contacter un administrateur.",
+                "title_appeal": "Déposer un recours",
+                "title": "Nouveau ticket",
+                "subject_placeholder": "Objet",
+                "body_placeholder": "Décrivez le problème en détail...",
+                "submit": "Envoyer le ticket"
             },
             "show": {
-                "closed_notice": "",
-                "cannot_reply": "",
-                "closed_badge": "",
-                "opened_by": "",
-                "assigned_to": "",
-                "unassigned": ""
+                "closed_notice": "Ce ticket a été clôturé et il n'est plus possible d'y répondre.",
+                "cannot_reply": "Vous ne pouvez pas répondre à ce ticket.",
+                "closed_badge": "Ticket clôturé",
+                "opened_by": "Ouvert par",
+                "assigned_to": "Attribué à",
+                "unassigned": "Non attribué"
             },
             "staff": {
-                "set_status": ""
+                "set_status": "Définir le statut :"
             },
             "reply": {
-                "deleted_notice": "",
-                "mod_actions": "",
-                "internal_placeholder": "",
-                "placeholder": "",
-                "edited_by": "",
-                "edited_at": ""
+                "deleted_notice": "Cette réponse a été supprimée.",
+                "mod_actions": "Actions de modération",
+                "internal_placeholder": "Note interne (visible uniquement par l'équipe)…",
+                "placeholder": "Répondre…",
+                "edited_by": "Édité le {date} par {user}",
+                "edited_at": "Édité le {date}"
             },
             "action": {
-                "delete_forever": "",
-                "save_changes": ""
+                "delete_forever": "Supprimer définitivement",
+                "save_changes": "Sauvegarder les modifications"
             },
             "confirm": {
-                "delete_reply_forever": "",
-                "soft_delete_reply": "",
-                "soft_delete_ticket": "",
-                "delete_ticket_forever": ""
+                "delete_reply_forever": "Supprimer définitivement cette réponse ? Cette action est irréversible.",
+                "soft_delete_reply": "Supprimer temporairement cette réponse ? L'équipe pourra la restaurer ultérieurement.",
+                "soft_delete_ticket": "Supprimer temporairement ce ticket ? Il sera masqué de l'index et de son propriétaire ; l'équipe pourra le restaurer ultérieurement.",
+                "delete_ticket_forever": "Supprimer définitivement ce ticket et toutes ses réponses ? Cette action est irréversible."
             },
             "ticket": {
-                "delete": "",
-                "restore": "",
-                "mod_actions": ""
+                "delete": "Supprimer le ticket",
+                "restore": "Restaurer le ticket",
+                "mod_actions": "Actions de modération des tickets"
             },
             "user_controls": {
-                "allow_appeals": "",
-                "disallow_appeals": "",
-                "toggle_failed": ""
+                "allow_appeals": "Autoriser les recours",
+                "disallow_appeals": "Refuser les recours",
+                "toggle_failed": "Impossible de mettre à jour le statut de l'utilisateur."
             }
         },
         "email": {
