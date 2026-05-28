@@ -2,40 +2,40 @@
     "flarum-calendar": {
         "forum": {
             "button": {
-                "landing": "",
-                "create": "",
-                "login": ""
+                "landing": "Kalendar događaja",
+                "create": "Novi događaj",
+                "login": "Dodaj svoj događaj "
             },
             "modal": {
-                "title_create": "",
-                "title_edit": "",
-                "title_label": "",
-                "dates_label": "",
-                "description_label": "",
-                "description_placeholder": "",
-                "requirement_message": "",
-                "submit": ""
+                "title_create": "Stvori novi događaj u kalendaru",
+                "title_edit": "Uredi detalje događaja",
+                "title_label": "Što",
+                "dates_label": "Kada",
+                "description_label": "Detalji",
+                "description_placeholder": "Detalji događaja",
+                "requirement_message": "Događaji zahtijevaju naziv i opis",
+                "submit": "Pošalji"
             },
             "event": {
-                "details": "",
-                "hosted_by": "",
-                "starts": "",
-                "ends": "",
-                "confirm_delete": "",
-                "deleted": ""
+                "details": "Više detalja o ovom događaju",
+                "hosted_by": "Objavio:",
+                "starts": "Početak:",
+                "ends": "Završetak:",
+                "confirm_delete": "Jeste li sigurni da želite obrisati ovaj događaj?",
+                "deleted": "Ovaj događaj je obrisan"
             }
         },
         "admin": {
             "settings": {
-                "hide_host": ""
+                "hide_host": "Sakrij tko je objavio događaj"
             },
             "permissions": {
-                "add": "",
-                "moderate": "",
-                "view": ""
+                "add": "Stvori novi događaj u kalendaru",
+                "moderate": "Uredi ili ukloni događaje iz kalendara (svi korisnici mogu uređivati vlastite događaje)",
+                "view": "Pregled događaja"
             },
             "basics": {
-                "homepage": ""
+                "homepage": "Trenutni mjesec u kalendaru"
             }
         }
     }
