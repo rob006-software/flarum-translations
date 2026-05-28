@@ -6,16 +6,13 @@
                 "appeal_bans": "",
                 "rate_limits": ""
             },
-            "settings": {
-                "title": "",
-                "description": ""
-            },
             "common": {
                 "loading": "",
                 "unknown_error": ""
             },
             "permissions": {
-                "handle_tickets": ""
+                "handle_tickets": "",
+                "manage_appeal_bans": ""
             },
             "categories": {
                 "heading": "",
@@ -52,7 +49,6 @@
                 "field_is_appeal_help": "",
                 "submit_create": "",
                 "submit_update": "",
-                "saving": "",
                 "error_load": "",
                 "error_save": "",
                 "error_delete": ""
@@ -60,21 +56,10 @@
             "appeal_bans": {
                 "heading_alt": "",
                 "intro": "",
-                "search_heading": "",
-                "search_help": "",
-                "search_placeholder": "",
-                "search_button": "",
-                "search_results_heading": "",
-                "search_error": "",
                 "banned_heading": "",
                 "banned_empty": "",
                 "column_username": "",
-                "column_email": "",
-                "column_action": "",
-                "ban_button": "",
-                "unban_button": "",
-                "saving": "",
-                "error_toggle": ""
+                "column_email": ""
             },
             "rate_limits": {
                 "heading": "",
@@ -99,6 +84,85 @@
             "settings": {
                 "notify_new_reply_label": "",
                 "notify_new_ticket_label": ""
+            },
+            "status": {
+                "in_progress": "",
+                "awaiting_response": ""
+            },
+            "index": {
+                "my_tickets": "",
+                "new_ticket": "",
+                "new_ticket_tooltip": "",
+                "empty_own": "",
+                "empty": ""
+            },
+            "errors": {
+                "load_tickets": "",
+                "unknown": "",
+                "submit": "",
+                "submit_ticket": "",
+                "upload": "",
+                "upload_no_files": "",
+                "load_ticket": "",
+                "update_assignment": "",
+                "update_status": "",
+                "save_edit": "",
+                "delete_reply": "",
+                "restore_reply": "",
+                "delete_reply_forever": "",
+                "delete_ticket": "",
+                "restore_ticket": "",
+                "delete_ticket_forever": "",
+                "post_reply": ""
+            },
+            "compose": {
+                "appeal_banned": "",
+                "no_appeal_categories": "",
+                "no_categories": "",
+                "title_appeal": "",
+                "title": "",
+                "subject_placeholder": "",
+                "body_placeholder": "",
+                "submit": ""
+            },
+            "show": {
+                "closed_notice": "",
+                "cannot_reply": "",
+                "closed_badge": "",
+                "opened_by": "",
+                "assigned_to": "",
+                "unassigned": ""
+            },
+            "staff": {
+                "set_status": ""
+            },
+            "reply": {
+                "deleted_notice": "",
+                "mod_actions": "",
+                "internal_placeholder": "",
+                "placeholder": "",
+                "edited_by": "",
+                "edited_at": ""
+            },
+            "action": {
+                "delete_forever": "",
+                "save_changes": ""
+            },
+            "confirm": {
+                "delete_reply_forever": "",
+                "soft_delete_reply": "",
+                "soft_delete_ticket": "",
+                "delete_ticket_forever": ""
+            },
+            "ticket": {
+                "delete": "",
+                "restore": "",
+                "mod_actions": ""
+            },
+            "user_controls": {
+                "allow_appeals": "",
+                "disallow_appeals": "",
+                "toggle_failed": ""
             }
         },
         "email": {

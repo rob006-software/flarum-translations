@@ -4,10 +4,11 @@
             "settings": {
                 "title_label": "Title",
                 "title_help": "Optional. Shown above the body. Leave blank for no header.",
+                "title_placeholder": "Welcome to our community!",
                 "icon_label": "Icon class",
                 "icon_help": "FontAwesome class shown next to the title (e.g. fas fa-bullhorn). Leave blank for no icon.",
                 "body_label": "HTML body",
-                "body_help": "Raw HTML rendered as-is. Be careful and only paste HTML you trust."
+                "body_help": "Raw HTML, sanitised before display -- script tags, event-handler attributes, javascript: URLs, and unsafe elements such as iframes are removed."
             }
         }
     }

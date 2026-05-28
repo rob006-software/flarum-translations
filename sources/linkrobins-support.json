@@ -6,16 +6,13 @@
                 "appeal_bans": "Appeal bans",
                 "rate_limits": "Rate limits"
             },
-            "settings": {
-                "title": "Support",
-                "description": "Configure support categories and rate limits for the ticket system."
-            },
             "common": {
                 "loading": "Loading…",
                 "unknown_error": "Something went wrong. Please try again."
             },
             "permissions": {
-                "handle_tickets": "Handle support tickets"
+                "handle_tickets": "Handle support tickets",
+                "manage_appeal_bans": "Manage support appeal-bans"
             },
             "categories": {
                 "heading": "Support categories",
@@ -52,7 +49,6 @@
                 "field_is_appeal_help": "Tickets opened in this category are treated as ban appeals.",
                 "submit_create": "Create category",
                 "submit_update": "Save changes",
-                "saving": "Saving…",
                 "error_load": "Couldn't load this category.",
                 "error_save": "Couldn't save the category. Please check the fields and try again.",
                 "error_delete": "Couldn't delete the category."
@@ -60,21 +56,10 @@
             "appeal_bans": {
                 "heading_alt": "Appeal bans",
                 "intro": "Control which users are blocked from filing ban appeals.",
-                "search_heading": "Find a user",
-                "search_help": "Search by username or email to ban or unban them from filing appeals.",
-                "search_placeholder": "Username or email…",
-                "search_button": "Search",
-                "search_results_heading": "Search results",
-                "search_error": "Search failed. Please try again.",
                 "banned_heading": "Appeal-banned users",
                 "banned_empty": "No users are currently banned from filing appeals.",
                 "column_username": "Username",
-                "column_email": "Email",
-                "column_action": "Action",
-                "ban_button": "Ban from appeals",
-                "unban_button": "Remove appeal ban",
-                "saving": "Saving…",
-                "error_toggle": "Couldn't update the user's appeal-ban status."
+                "column_email": "Email"
             },
             "rate_limits": {
                 "heading": "Rate limits",
@@ -99,6 +84,85 @@
             "settings": {
                 "notify_new_reply_label": "Someone replies to my support ticket",
                 "notify_new_ticket_label": "A new support ticket is opened (staff)"
+            },
+            "status": {
+                "in_progress": "In progress",
+                "awaiting_response": "Awaiting response"
+            },
+            "index": {
+                "my_tickets": "My tickets",
+                "new_ticket": "New ticket",
+                "new_ticket_tooltip": "Open a new support ticket",
+                "empty_own": "No tickets yet. Click \"New ticket\" to open one.",
+                "empty": "No tickets to show."
+            },
+            "errors": {
+                "load_tickets": "Could not load tickets.",
+                "unknown": "Unknown error.",
+                "submit": "Could not submit.",
+                "submit_ticket": "Could not submit the ticket.",
+                "upload": "Could not upload file.",
+                "upload_no_files": "Upload returned no files. Please try again.",
+                "load_ticket": "Could not load this ticket. It may have been deleted, or you may not have permission to view it.",
+                "update_assignment": "Could not update assignment.",
+                "update_status": "Could not update status.",
+                "save_edit": "Could not save the edit.",
+                "delete_reply": "Could not delete the reply.",
+                "restore_reply": "Could not restore the reply.",
+                "delete_reply_forever": "Could not permanently delete the reply.",
+                "delete_ticket": "Could not delete the ticket.",
+                "restore_ticket": "Could not restore the ticket.",
+                "delete_ticket_forever": "Could not permanently delete the ticket.",
+                "post_reply": "Could not post reply."
+            },
+            "compose": {
+                "appeal_banned": "You are not permitted to file appeals. Please contact the site owner via another channel.",
+                "no_appeal_categories": "No appeal categories are currently available.",
+                "no_categories": "No support categories have been set up yet. Please contact an admin.",
+                "title_appeal": "File an appeal",
+                "title": "New support ticket",
+                "subject_placeholder": "Short summary of your issue",
+                "body_placeholder": "Describe the issue in detail. Markdown is supported.",
+                "submit": "Submit ticket"
+            },
+            "show": {
+                "closed_notice": "This ticket has been closed and cannot be replied to.",
+                "cannot_reply": "You cannot reply to this ticket.",
+                "closed_badge": "Closed ticket",
+                "opened_by": "Opened by",
+                "assigned_to": "Assigned to",
+                "unassigned": "Unassigned"
+            },
+            "staff": {
+                "set_status": "Set status:"
+            },
+            "reply": {
+                "deleted_notice": "This reply was deleted.",
+                "mod_actions": "Moderation actions",
+                "internal_placeholder": "Internal note (only staff will see this)…",
+                "placeholder": "Write a reply…",
+                "edited_by": "Edited {date} by {user}",
+                "edited_at": "Edited {date}"
+            },
+            "action": {
+                "delete_forever": "Delete forever",
+                "save_changes": "Save changes"
+            },
+            "confirm": {
+                "delete_reply_forever": "Permanently delete this reply? This cannot be undone.",
+                "soft_delete_reply": "Soft-delete this reply? Staff can restore it later.",
+                "soft_delete_ticket": "Soft-delete this ticket? It will be hidden from the index and from the ticket owner; staff can restore it.",
+                "delete_ticket_forever": "Permanently delete this ticket and all its replies? This cannot be undone."
+            },
+            "ticket": {
+                "delete": "Delete ticket",
+                "restore": "Restore ticket",
+                "mod_actions": "Ticket moderation actions"
+            },
+            "user_controls": {
+                "allow_appeals": "Allow support appeals",
+                "disallow_appeals": "Disallow support appeals",
+                "toggle_failed": "Could not update the appeal-ban status."
             }
         },
         "email": {

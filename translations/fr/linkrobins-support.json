@@ -6,16 +6,13 @@
                 "appeal_bans": "Recours contre les suspensions",
                 "rate_limits": "Limites de fréquence"
             },
-            "settings": {
-                "title": "Support",
-                "description": "Configurer les catégories et les limites de fréquence pour le système de tickets."
-            },
             "common": {
                 "loading": "Chargement en cours…",
                 "unknown_error": "Quelque chose s'est mal passé. Veuillez réessayer."
             },
             "permissions": {
-                "handle_tickets": "Gérer les tickets"
+                "handle_tickets": "Gérer les tickets",
+                "manage_appeal_bans": ""
             },
             "categories": {
                 "heading": "Catégories",
@@ -52,24 +49,24 @@
                 "field_is_appeal_help": "Les tickets ouverts dans cette catégorie sont traités comme des recours contre une suspension.",
                 "submit_create": "Créer une catégorie",
                 "submit_update": "Sauvegarder les modifications",
-                "saving": "Enregistrement en cours…",
                 "error_load": "Impossible de charger cette catégorie.",
                 "error_save": "Impossible d'enregistrer la catégorie. Veuillez vérifier les champs et réessayer.",
-                "error_delete": "Impossible de supprimer la catégorie."
+                "error_delete": "Impossible de supprimer la catégorie.",
+                "saving": "Enregistrement en cours…"
             },
             "appeal_bans": {
                 "heading_alt": "Recours contre les suspensions",
                 "intro": "Définir quels utilisateurs ne peuvent pas déposer des recours contre une suspension.",
+                "banned_heading": "Utilisateurs dont le droit de déposer un recours a été suspendu",
+                "banned_empty": "Aucun utilisateur n'est actuellement privé du droit de déposer des recours.",
+                "column_username": "Nom d'utilisateur",
+                "column_email": "Adresse de courriel",
                 "search_heading": "Rechercher un utilisateur",
                 "search_help": "Recherchez un utilisateur par son nom d'utilisateur ou son adresse de courriel pour l'empêcher ou l'autoriser à déposer des recours.",
                 "search_placeholder": "Nom d'utilisateur ou adresse de courriel…",
                 "search_button": "Rechercher",
                 "search_results_heading": "Résultats de la recherche",
                 "search_error": "Échec de la recherche. Veuillez réessayer.",
-                "banned_heading": "Utilisateurs dont le droit de déposer un recours a été suspendu",
-                "banned_empty": "Aucun utilisateur n'est actuellement privé du droit de déposer des recours.",
-                "column_username": "Nom d'utilisateur",
-                "column_email": "Adresse de courriel",
                 "column_action": "Action",
                 "ban_button": "Interdiction de déposer un recours",
                 "unban_button": "Lever l'interdiction de déposer un recours",
@@ -90,6 +87,10 @@
                 "max_concurrent_appeals": "Nombre maximal de recours ouverts simultanément",
                 "max_concurrent_appeals_help": "Combien de recours un utilisateur peut-il ouvrir en même temps.",
                 "error_save": "Impossible d'enregistrer les limites de fréquence."
+            },
+            "settings": {
+                "title": "Support",
+                "description": "Configurer les catégories et les limites de fréquence pour le système de tickets."
             }
         },
         "forum": {
@@ -99,6 +100,85 @@
             "settings": {
                 "notify_new_reply_label": "Quelqu'un répond à mon ticket",
                 "notify_new_ticket_label": "Un nouveau ticket est créé (par l'équipe)"
+            },
+            "status": {
+                "in_progress": "",
+                "awaiting_response": ""
+            },
+            "index": {
+                "my_tickets": "",
+                "new_ticket": "",
+                "new_ticket_tooltip": "",
+                "empty_own": "",
+                "empty": ""
+            },
+            "errors": {
+                "load_tickets": "",
+                "unknown": "",
+                "submit": "",
+                "submit_ticket": "",
+                "upload": "",
+                "upload_no_files": "",
+                "load_ticket": "",
+                "update_assignment": "",
+                "update_status": "",
+                "save_edit": "",
+                "delete_reply": "",
+                "restore_reply": "",
+                "delete_reply_forever": "",
+                "delete_ticket": "",
+                "restore_ticket": "",
+                "delete_ticket_forever": "",
+                "post_reply": ""
+            },
+            "compose": {
+                "appeal_banned": "",
+                "no_appeal_categories": "",
+                "no_categories": "",
+                "title_appeal": "",
+                "title": "",
+                "subject_placeholder": "",
+                "body_placeholder": "",
+                "submit": ""
+            },
+            "show": {
+                "closed_notice": "",
+                "cannot_reply": "",
+                "closed_badge": "",
+                "opened_by": "",
+                "assigned_to": "",
+                "unassigned": ""
+            },
+            "staff": {
+                "set_status": ""
+            },
+            "reply": {
+                "deleted_notice": "",
+                "mod_actions": "",
+                "internal_placeholder": "",
+                "placeholder": "",
+                "edited_by": "",
+                "edited_at": ""
+            },
+            "action": {
+                "delete_forever": "",
+                "save_changes": ""
+            },
+            "confirm": {
+                "delete_reply_forever": "",
+                "soft_delete_reply": "",
+                "soft_delete_ticket": "",
+                "delete_ticket_forever": ""
+            },
+            "ticket": {
+                "delete": "",
+                "restore": "",
+                "mod_actions": ""
+            },
+            "user_controls": {
+                "allow_appeals": "",
+                "disallow_appeals": "",
+                "toggle_failed": ""
             }
         },
         "email": {

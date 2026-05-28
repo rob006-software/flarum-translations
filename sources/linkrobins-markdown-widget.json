@@ -4,10 +4,11 @@
             "settings": {
                 "title_label": "Title",
                 "title_help": "Optional. Shown above the body. Leave blank for no header.",
+                "title_placeholder": "Welcome to our community!",
                 "icon_label": "Icon class",
                 "icon_help": "FontAwesome class shown next to the title (e.g. fab fa-markdown). Leave blank for no icon.",
                 "body_label": "Markdown body",
-                "body_help": "Standard Markdown (GitHub-flavored). Headings, lists, links, code, tables, and inline HTML are all supported. Inline HTML is rendered as-is, so only paste content you trust."
+                "body_help": "Standard Markdown (GitHub-flavored). Headings, lists, links, code, and tables are supported. Inline HTML is allowed but sanitised -- script tags, event handlers, and other unsafe markup are removed before display."
             }
         }
     }
