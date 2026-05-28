@@ -17,15 +17,15 @@
             "post_number": {
                 "tooltip": "Beitrag # — Zum Kopieren des Querverweises hier klicken ({ref})",
                 "copied": "{ref} in die Zwischenablage kopiert.",
-                "copy_failed": ""
+                "copy_failed": "Konnte nicht kopiert werden. Die Referenz lautet {ref}."
             }
         },
         "admin": {
             "settings": {
-                "create_backlinks_label": "",
-                "create_backlinks_help": "",
-                "notify_author_label": "",
-                "notify_author_help": ""
+                "create_backlinks_label": "Backlink-Beiträge zu Veranstaltungen in den entsprechenden Diskussionen erstellen",
+                "create_backlinks_help": "Wenn ein Beitrag auf eine andere Diskussion verweist, füge im Ziel-Thread einen kurzen Systembeitrag ein, der den Verweis anzeigt. Deaktiviere diese Funktion für Foren, in denen ruhige Ziel-Threads bevorzugt werden.",
+                "notify_author_label": "Den Verfasser der betreffenden Diskussion benachrichtigen",
+                "notify_author_help": "Sende eine Benachrichtigung innerhalb der App an den Verfasser der genannten Diskussion. Der Verfasser wird nicht über eigene Beiträge benachrichtigt."
             }
         }
     }
