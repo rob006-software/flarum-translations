@@ -333,7 +333,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/pwned-passwords/2.0.0-beta.1/locale/en.yml',
 	],
 	'fof-reactions' => [
-		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/reactions/2.0.0-beta.6/resources/locale/en.yml',
+		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/reactions/2.0.0-beta.7/resources/locale/en.yml',
 	],
 	'fof-recaptcha' => [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/recaptcha/2.0.0-beta.1/resources/locale/en.yml',
