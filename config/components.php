@@ -498,7 +498,7 @@ return [
 		],
 	],
 	'linkrobins-countdown-widget' => [
-		'tag' => 'https://raw.githubusercontent.com/linkrobins/countdown-widget/v1.0.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/linkrobins/countdown-widget/v1.1.0/locale/en.yml',
 	],
 	'linkrobins-font-sizer' => [
 		'tag' => 'https://raw.githubusercontent.com/linkrobins/font-sizer/v1.1.1/locale/en.yml',
