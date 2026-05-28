@@ -111,7 +111,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ekumanov/flarum-ext-post-search/v1.0.0/locale/en.yml',
 	],
 	'ernestdefoe-fbsfb' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/gridiron-nation/2.1.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/gridiron-nation/2.1.2/locale/en.yml',
 	],
 	'ernestdefoe-social-groups' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/social-groups/2.3.37/locale/en.yml',
