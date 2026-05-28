@@ -507,7 +507,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/linkrobins/html-widget/v1.1.0/locale/en.yml',
 	],
 	'linkrobins-markdown-widget' => [
-		'tag' => 'https://raw.githubusercontent.com/linkrobins/markdown-widget/v1.0.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/linkrobins/markdown-widget/v1.1.0/locale/en.yml',
 	],
 	'linkrobins-op' => [
 		'tag' => 'https://raw.githubusercontent.com/linkrobins/OP/v1.0.1/locale/en.yml',
