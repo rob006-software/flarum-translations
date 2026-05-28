@@ -103,8 +103,8 @@
                 "hide_links_for_guests_help": "Verhindert, dass Gäste Links in Beiträgen anklicken können. Beim Anklicken eines Links wird stattdessen eine Aufforderung zum Anmelden oder Registrieren angezeigt.",
                 "custom_default_avatar_label": "Benutzerdefinierter Standard-Avatar",
                 "custom_default_avatar_help": "Lade ein benutzerdefiniertes Standard-Avatarbild für Benutzer hoch, die keinen Avatar haben.",
-                "hero_image_tags_label": "",
-                "hero_image_tags_help": "",
+                "hero_image_tags_label": "Themen, die ein Hero-Bild erfordern",
+                "hero_image_tags_help": "Wenn der Benutzer einem neuen Beitrag eines dieser Themen hinzufügt, wird im Editor ein optionales Feld zum Hochladen von Bildern angezeigt. Das hochgeladene Bild wird als Hintergrund für die Beitragsüberschrift und als erstes Bild in der Vorschau auf der Startseite angezeigt.",
                 "team_enabled_label": "Teamseite aktivieren",
                 "team_enabled_help": "Zeige eine /team-Seite an, auf der die Mitglieder der ausgewählten Gruppen aufgelistet sind.",
                 "team_title_label": "Seitentitel",
@@ -169,20 +169,20 @@
                 "no_posts_found": "Keine Beiträge gefunden für „{q}“.",
                 "no_posts_match": "Keine Beiträge entsprechen diesen Filtern.",
                 "no_users_found": "Keine Benutzer gefunden für „{q}“.",
-                "no_discussions_query": "",
-                "no_discussions_filter": "",
+                "no_discussions_query": "Es wurden keine Diskussionen zu „{q}“ gefunden.",
+                "no_discussions_filter": "Es wurden keine Diskussionen gefunden, die diesen Filtern entsprechen.",
                 "enter_search_term": "Gib einen Suchbegriff ein, um Benutzer zu finden.",
                 "posts_for": "Beiträge für",
                 "posts_filtered_by": "Beiträge gefiltert nach",
                 "posts_title": "Beitragssuche",
-                "filtered_by": "",
-                "results": "",
-                "results_for": "",
-                "tip": "",
-                "tip_suffix": ""
+                "filtered_by": "Gefiltert nach",
+                "results": "Suchergebnisse",
+                "results_for": "Ergebnisse für",
+                "tip": "Tipp: Präfix ",
+                "tip_suffix": " um nach Themen zu filtern"
             },
             "header": {
-                "back": "",
+                "back": "Zurück",
                 "back_home": "Zurück zur Startseite",
                 "search": "Suche",
                 "or": "oder"
@@ -192,10 +192,10 @@
                 "post_plural": "Beiträge",
                 "participant_singular": "Teilnehmer",
                 "participant_plural": "Teilnehmer",
-                "hero_image_add": "",
-                "hero_image_replace": "",
-                "hero_image_remove": "",
-                "hero_image_remove_confirm": ""
+                "hero_image_add": "Bild hinzufügen",
+                "hero_image_replace": "Bild ersetzen",
+                "hero_image_remove": "Bild entfernen",
+                "hero_image_remove_confirm": "Soll das Titelbild aus dieser Diskussion entfernt werden?"
             },
             "home": {
                 "all_categories": "Alle Kategorien",
@@ -203,26 +203,26 @@
                 "back_home": "Startseite",
                 "badge_following": "Folgend",
                 "badge_sticky": "Angeheftet",
-                "badge_unread_tooltip": "",
+                "badge_unread_tooltip": "{count} ungelesene Beiträge",
                 "categories_heading": "Kategorien",
                 "choose_tags": "Themen wählen",
-                "bypass_tag_requirements": "",
-                "choose_primary_tag_singular": "",
-                "choose_primary_tag_plural": "",
-                "choose_secondary_tag_singular": "",
-                "choose_secondary_tag_plural": "",
+                "bypass_tag_requirements": "Themenanforderung umgehen",
+                "choose_primary_tag_singular": "1 Hauptthema auswählen",
+                "choose_primary_tag_plural": "{count} Hauptthemen auswählen",
+                "choose_secondary_tag_singular": "1 Unterthema auswählen",
+                "choose_secondary_tag_plural": "{count} Unterthemen auswählen",
                 "composer_body_placeholder": "Teile deine Meinung…",
                 "composer_close": "Schließen",
-                "composer_edit": "",
+                "composer_edit": "Bearbeiten",
                 "composer_post": "Diskussion veröffentlichen",
-                "composer_preview": "",
-                "composer_preview_empty": "",
+                "composer_preview": "Vorschau",
+                "composer_preview_empty": "Keine Vorschau verfügbar.",
                 "composer_submitting": "Wird veröffentlicht…",
                 "composer_title_placeholder": "Diskussionstitel…",
-                "composer_hero_image_label": "",
-                "composer_hero_image_picked": "",
-                "composer_hero_image_remove": "",
-                "composer_hero_image_upload_failed": "",
+                "composer_hero_image_label": "Titelbild (optional)",
+                "composer_hero_image_picked": "Bild ausgewählt",
+                "composer_hero_image_remove": "Bild entfernen",
+                "composer_hero_image_upload_failed": "Das Titelbild konnte nicht hochgeladen werden. Du kannst es auf der Diskussionsseite erneut versuchen.",
                 "discussion_singular": "Diskussion",
                 "discussions": "Diskussionen",
                 "filter_tags": "Themen filtern",
@@ -264,25 +264,25 @@
                 "title": "Alle Diskussionen",
                 "home": "Zurück zur Startseite",
                 "load_more": "Mehr laden",
-                "empty": ""
+                "empty": "Keine Diskussionen gefunden."
             },
             "post": {
                 "op_badge": "Verfasser"
             },
             "messages": {
-                "deleted_message": ""
+                "deleted_message": "Nachricht gelöscht"
             },
             "tags": {
                 "title": "Kategorien",
-                "home": "",
+                "home": "Start",
                 "discussion_singular": "Diskussion",
                 "discussion_plural": "Diskussionen",
                 "other_tags_label": "Andere Themen",
                 "featured": "Hervorgehoben",
                 "all_discussions": "Alle Diskussionen",
-                "empty": "",
-                "not_found": "",
-                "load_more": ""
+                "empty": "In dieser Kategorie gibt es noch keine Diskussionen.",
+                "not_found": "Thema nicht gefunden.",
+                "load_more": "Mehr laden"
             },
             "team": {
                 "title": "Unser Team",
@@ -299,12 +299,12 @@
                 "login_to_view": "Bitte melde dich an, um den Link anzuzeigen"
             },
             "user": {
-                "posts_empty": "",
-                "discussions_empty": "",
-                "likes_empty": "",
-                "mentions_empty": "",
-                "load_more": "",
-                "online": ""
+                "posts_empty": "Noch keine Beiträge.",
+                "discussions_empty": "Noch keine Diskussionen.",
+                "likes_empty": "Es gibt noch keine Beiträge mit Likes.",
+                "mentions_empty": "Noch keine Erwähnungen.",
+                "load_more": "Mehr laden",
+                "online": "Online"
             }
         }
     }
