@@ -99,9 +99,9 @@
                     "markReadCards_help": "Wenn aktiviert, werden die Titel und Texte gelesener Diskussionen in einer helleren Schriftfarbe angezeigt.",
                     "otherOptions_title": "Optionen erfordern andere Erweiterungen",
                     "otherOptions_info": "Für die folgenden Optionen müssen weitere Erweiterungen installiert und aktiviert werden, damit sie funktionieren. <strong>WICHTIG: Bitte lies <u>alle</u> Informationen zu den einzelnen Optionen und führe die erforderlichen Schritte durch, bevor du diese aktivierst</strong>.",
-                    "otherOptions_warningLabel": "",
-                    "otherOptions_warningText": "",
-                    "tempExtension_Message": "",
+                    "otherOptions_warningLabel": "Warnung: Erweiterungen sind nicht mit Flarum V2 kompatibel",
+                    "otherOptions_warningText": "Die meisten der folgenden Erweiterungen wurden noch nicht für Flarum 2.x portiert, sodass sie mit Discussion Cards nicht funktionieren. Zum Zeitpunkt dieser Version von Discussion Cards wurde nur <strong>fof/discussion-views</strong> für Flarum 2.x portiert und <em>wird von dieser Version von Discussion Cards unterstützt</em>. Bei den anderen Erweiterungen solltest du, selbst wenn eine 2.x-kompatible Version erscheint, auf zukünftige Releases von Discussion Cards warten, um deren vollständige Unterstützung zu überprüfen, bevor du die unten aufgeführten Optionen aktivierst. Diese Meldung wird entsprechend angepasst, sobald dies geschieht, und <em>dieser Hinweis verschwindet, sobald alle Erweiterungen von Drittanbietern auf Flarum 2.x portiert wurden und von Discussion Cards</em> vollständig unterstützt werden. Beachte, dass die Unterstützung für einige davon eingestellt werden könnte, wenn sie nicht auf Flarum 2.x portiert werden oder keine Alternative existiert.",
+                    "tempExtension_Message": "{icon} Diese Erweiterung wird von Discussion Cards noch nicht vollständig unterstützt (bitte warte auf zukünftige Versionen von Discussion Cards)",
                     "showViews_title_start": "Entweder mit ",
                     "showViews_title_or": " ODER ",
                     "showViews_title_end": " Erweiterung installiert und aktiviert kannst du die folgende (1) Option einstellen:",
@@ -170,7 +170,7 @@
                 "adminImageProcessingError": "Fehler bei der Bildverarbeitung: ",
                 "tagImageNoTagId": "Es wurde keine tag-ID angegeben!",
                 "tagImageUnsupportedMethod": "Nicht unterstützte Methode ({method})",
-                "tagSettingsNoTagId": "",
+                "tagSettingsNoTagId": "Es wurde keine tag-ID angegeben!",
                 "debugModalDiscussionId": "Die Diskussions-ID muss eine positive Zahl sein (1 oder größer)"
             },
             "console": {
