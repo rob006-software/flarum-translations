@@ -2,56 +2,56 @@
     "core": {
         "admin": {
             "advanced": {
-                "description": "",
+                "description": "Skonfiguruj zaawansowane ustawienia swojego forum.",
                 "maintenance": {
                     "bisect": {
-                        "begin_button_text": "",
-                        "continue_button_text": "",
-                        "label": "",
-                        "help": ""
+                        "begin_button_text": "Rozpocznij Podział",
+                        "continue_button_text": "Kontynuuj Podział",
+                        "label": "Rozszerzenie Podziału",
+                        "help": "Pomaga zidentyfikować rozszerzenie powodujące zaobserwowany problem. Automatycznie przełącza forum w tryb konserwacji (niski poziom) aż do zakończenia procesu."
                     },
                     "bisect_modal": {
-                        "description": "",
-                        "end_button": "",
-                        "issue_question": "",
-                        "issue_question_help": "",
-                        "no_button": "",
-                        "result_description": "",
-                        "start_button": "",
-                        "stop_button": "",
-                        "steps_left": "",
-                        "total_steps": "",
-                        "title": "",
-                        "yes_button": ""
+                        "description": "Przełącza forum w tryb konserwacji (niski poziom) do zakończenia procesu. Na każdym etapie niektóre rozszerzenia zostaną wyłączone, aż do znalezienia tego, które powoduje problem. Nie dziw się więc, jeśli zauważysz brakujące funkcje lub zmieniony wygląd motywu. Zachowaj otwartą tę stronę i spróbuj odtworzyć problem po każdym etapie na osobnej stronie. Możesz zawsze wrócić na tę stronę, jeśli przypadkowo ją zamkniesz.\n",
+                        "end_button": "Zamknij i przejdź do strony rozszerzenia",
+                        "issue_question": "Czy problem nadal występuje?",
+                        "issue_question_help": "Spróbuj odtworzyć problem na osobnej stronie i odpowiedz na podstawie wyniku.",
+                        "no_button": "Nie",
+                        "result_description": "Forum nie jest już w trybie konserwacji. Rozszerzenie podziału zostało zakończone. Na podstawie Twoich odpowiedzi na każdy krok, przyczyną problemu jest następujące rozszerzenie:\n",
+                        "start_button": "Rozpocznij podział",
+                        "stop_button": "Zakończ podział",
+                        "steps_left": "Pozostało kroków: {steps}",
+                        "total_steps": "Zajmie to około {steps} kroków.",
+                        "title": "Rozszerzenie Podziału",
+                        "yes_button": "Tak"
                     },
                     "config_override": {
-                        "label": "",
-                        "help": ""
+                        "label": "Twój plik <code>config.php</code> zastępuje te ustawienia.",
+                        "help": "Nadal możesz zmienić te ustawienia, ale nie zaczną one obowiązywać, dopóki nie ustawisz <code>offline</code> na <code>0</code> w pliku <code>config.php</code>."
                     },
-                    "help": "",
+                    "help": "Przełącz forum w tryb konserwacji, aby uniemożliwić użytkownikom dostęp do niego.",
                     "options": {
-                        "none": "",
-                        "high": "",
-                        "low": "",
-                        "safe": ""
+                        "none": "Brak konserwacji.",
+                        "high": "Tryb intensywnej konserwacji. Nikt nie może uzyskać dostępu do forum (można włączyć tylko za pomocą pliku config.php)",
+                        "low": "Tryb niskiej konserwacji. Administratorzy mogą uzyskać dostęp do forum.",
+                        "safe": "Tryb awaryjny. Żadne rozszerzenia nie są uruchamiane, a dostęp do forum mają tylko administratorzy."
                     },
-                    "safe_mode_extensions": "",
-                    "safe_mode_extensions_override_help": "",
-                    "section_label": ""
+                    "safe_mode_extensions": "Rozszerzenia, które mogą się uruchamiać w trybie awaryjnym",
+                    "safe_mode_extensions_override_help": "To ustawienie jest zastępowane przez klucz <code>safe_mode_extensions</code> w pliku <code>config.php</code>. (<b>{extensions}</b>)",
+                    "section_label": "Konserwacja"
                 },
                 "fontawesome": {
-                    "section_label": "",
-                    "source_label": "",
-                    "source_help": "",
-                    "source_local": "",
-                    "source_cdn": "",
-                    "source_kit": "",
-                    "cdn_url_label": "",
-                    "cdn_url_help": "",
-                    "kit_url_label": "",
-                    "kit_url_help": "",
+                    "section_label": "Ikony FontAwesome",
+                    "source_label": "Źródło ikony",
+                    "source_help": "Wybierz sposób wczytywania ikon FontAwesome. Local korzysta z dołączonych czcionek, CDN ładuje się z CDN, a Kit korzysta z zestawów FontAwesome z niestandardowymi ikonami.",
+                    "source_local": "Lokalny (pakiet)",
+                    "source_cdn": "CDN",
+                    "source_kit": "Zestaw FontAwesome",
+                    "cdn_url_label": "Adres URL CDN'a",
+                    "cdn_url_help": "Pełny adres URL pliku CSS FontAwesome w sieci CDN",
+                    "kit_url_label": "Adres URL zestawu",
+                    "kit_url_help": "Adres URL skryptu zestawu FontAwesome (z kit.fontawesome.com)",
                     "config_override": {
-                        "label": "",
+                        "label": "Nadpisanie konfiguracji",
                         "help": ""
                     },
                     "preview": {
