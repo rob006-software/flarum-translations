@@ -98,16 +98,16 @@
             "new_ticket": "Nouveau ticket",
             "submit_ticket": "Envoyer le ticket",
             "common": {
-                "loading": "",
-                "uploading_one": "",
-                "uploading_many": ""
+                "loading": "Chargement en cours…",
+                "uploading_one": "Transfert d'un fichier en cours…",
+                "uploading_many": "Transfert de {count} fichiers en cours…"
             },
             "notifications": {
-                "someone": "",
-                "reply_from": "",
-                "reply_generic": "",
-                "new_ticket": "",
-                "new_appeal": ""
+                "someone": "Un utilisateur",
+                "reply_from": "{user} a répondu à votre ticket",
+                "reply_generic": "L'équipe a répondu à votre ticket",
+                "new_ticket": "{user} a ouvert un nouveau ticket",
+                "new_appeal": "{user} a ouvert un nouveau recours"
             },
             "settings": {
                 "notify_new_reply_label": "Quelqu'un répond à mon ticket",
@@ -116,13 +116,13 @@
             "status": {
                 "in_progress": "En cours",
                 "awaiting_response": "En attente",
-                "open": "",
-                "resolved": "",
-                "closed": ""
+                "open": "Ouvert",
+                "resolved": "Résolu",
+                "closed": "Clôturé"
             },
             "index": {
                 "my_tickets": "Mes tickets",
-                "filter_all": "",
+                "filter_all": "Tous",
                 "new_ticket": "Nouveau ticket",
                 "new_ticket_tooltip": "Ouvrir un nouveau ticket",
                 "empty_own": "Aucun ticket pour le moment. Cliquez sur « Nouveau ticket » pour en ouvrir un.",
@@ -153,25 +153,25 @@
                 "no_categories": "Aucune catégorie n'a encore été créée. Veuillez contacter un administrateur.",
                 "title_appeal": "Déposer un recours",
                 "title": "Nouveau ticket",
-                "choose_category": "",
-                "choose_category_appeal": "",
-                "back_to_categories": "",
-                "subject_label": "",
-                "message_label": "",
-                "submitting": "",
+                "choose_category": "Choisissez une catégorie pour commencer.",
+                "choose_category_appeal": "Choisissez une catégorie de recours pour commencer.",
+                "back_to_categories": "Retour aux catégories",
+                "subject_label": "Sujet",
+                "message_label": "Message",
+                "submitting": "Envoi en cours…",
                 "subject_placeholder": "Décrivez votre problème en quelques mots",
                 "body_placeholder": "Décrivez votre problème en détail...",
                 "submit": "Envoyer le ticket"
             },
             "show": {
-                "title": "",
+                "title": "Ticket",
                 "closed_notice": "Ce ticket a été clôturé et il n'est plus possible d'y répondre.",
                 "cannot_reply": "Vous ne pouvez pas répondre à ce ticket.",
                 "closed_badge": "Ticket clôturé",
                 "opened_by": "Ouvert par",
                 "assigned_to": "Attribué à",
                 "unassigned": "Non attribué",
-                "decision": ""
+                "decision": "Décision :"
             },
             "staff": {
                 "set_status": "Définir le statut :"
@@ -180,9 +180,9 @@
                 "deleted_notice": "Cette réponse a été supprimée.",
                 "mod_actions": "Actions de modération",
                 "internal_placeholder": "Note interne (visible uniquement par l'équipe)…",
-                "internal_note": "",
-                "post_reply": "",
-                "posting": "",
+                "internal_note": "Note interne",
+                "post_reply": "Publier la réponse",
+                "posting": "Publication en cours…",
                 "placeholder": "Répondre…",
                 "edited_by": "Édité le {date} par {user}",
                 "edited_at": "Édité le {date}"
@@ -190,14 +190,14 @@
             "action": {
                 "delete_forever": "Supprimer définitivement",
                 "save_changes": "Sauvegarder les modifications",
-                "saving": "",
-                "attach_files": "",
-                "claim": "",
-                "unassign": "",
-                "edit": "",
-                "delete": "",
-                "restore": "",
-                "cancel": ""
+                "saving": "Enregistrement en cours…",
+                "attach_files": "Joindre des fichiers",
+                "claim": "Réclamer",
+                "unassign": "Désassigner",
+                "edit": "Modifier",
+                "delete": "Supprimer",
+                "restore": "Restaurer",
+                "cancel": "Annuler"
             },
             "confirm": {
                 "delete_reply_forever": "Supprimer définitivement cette réponse ? Cette action est irréversible.",
