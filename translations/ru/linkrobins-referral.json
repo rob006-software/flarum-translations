@@ -2,31 +2,31 @@
     "linkrobins-referral": {
         "forum": {
             "profile": {
-                "tab": "",
-                "invite_code_title": "",
-                "invite_code_help": "",
-                "copy": "",
-                "copy_link": "",
-                "total_referrals": "",
-                "no_referrals": ""
+                "tab": "Приглашения",
+                "invite_code_title": "Ваш пригласительный код",
+                "invite_code_help": "Поделитесь своим кодом или реферальной ссылкой. Любой пользователь, открывший вашу ссылку, автоматически получит этот код в форме регистрации.",
+                "copy": "Копировать",
+                "copy_link": "Копировать реферальную ссылку",
+                "total_referrals": "Всего приглашённых",
+                "no_referrals": "Пока никто не зарегистрировался. Поделитесь своим кодом, чтобы кого-нибудь пригласить!"
             },
             "sign_up": {
-                "invite_code_label": "",
-                "invite_code_label_required": "",
-                "invite_code_placeholder": ""
+                "invite_code_label": "Пригласительный код",
+                "invite_code_label_required": "Пригласительный код *",
+                "invite_code_placeholder": "Например: K7XM2QNP"
             }
         },
         "admin": {
             "settings": {
-                "require_label": "",
-                "require_help": "",
-                "enabled": "",
-                "disabled": ""
+                "require_label": "Требовать пригласительный код для регистрации",
+                "require_help": "Если включено, пользователи должны указать действительный пригласительный код для завершения регистрации.",
+                "enabled": "Включено",
+                "disabled": "Отключено"
             }
         },
         "validation": {
-            "required": "",
-            "invalid": ""
+            "required": "Укажите пригласительный код.",
+            "invalid": "Недействительный пригласительный код."
         }
     }
 }
