@@ -1,28 +1,28 @@
 {
     "linkrobins-shoutbox": {
         "forum": {
-            "nav": "",
-            "page_title": "",
+            "nav": "Мини-чат",
+            "page_title": "Мини-чат",
             "widget": {
-                "title": "",
-                "placeholder": "",
-                "send": "",
-                "login_to_shout": "",
-                "delete": "",
-                "delete_confirm": "",
-                "delete_error": "",
-                "load_error": "",
-                "rate_limited": ""
+                "title": "Мини-чат",
+                "placeholder": "Написать сообщение...",
+                "send": "Отправить",
+                "login_to_shout": "Войдите, чтобы присоединиться к чату!",
+                "delete": "Удалить",
+                "delete_confirm": "Удалить это сообщение?",
+                "delete_error": "Не удалось удалить сообщение. Попробуйте ещё раз.",
+                "load_error": "Не удалось загрузить сообщения.",
+                "rate_limited": "Вы отправляете сообщения слишком быстро. Немного подождите."
             }
         },
         "admin": {
             "settings": {
-                "height_label": "",
-                "height_help": ""
+                "height_label": "Высота области сообщений (px)",
+                "height_help": "Высота области сообщений в пикселях. По умолчанию — 320."
             },
             "permissions": {
-                "shout": "",
-                "moderate": ""
+                "shout": "Отправлять сообщения в мини-чат",
+                "moderate": "Удалять чужие сообщения в мини-чате"
             }
         }
     }
