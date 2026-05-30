@@ -119,6 +119,9 @@ return [
 	'ernestdefoe-facebook-post' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/flarum-facebook-post/v2.1.5/locale/en.yml',
 	],
+	'ernestdefoe-picks' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/picks/2.0.2/resources/locale/en.yml',
+	],
 	'ernestdefoe-respawn' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/respawn/3.0.0/locale/en.yml',
 	],
