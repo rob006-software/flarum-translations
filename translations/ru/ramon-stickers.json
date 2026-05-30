@@ -25,7 +25,7 @@
                 "cancel_select_button": "Отменить",
                 "delete_selected_button": "Удалить ({count})",
                 "delete_selected_confirm": "Удалить {count} стикеров? Это действие нельзя отменить.",
-                "delete_selected_error": "",
+                "delete_selected_error": "Некоторые стикеры не удалось удалить. Попробуйте снова.",
                 "edit_sticker": {
                     "modal_title": "Добавить стикер",
                     "sticker_category_label": "Код категории",
@@ -33,7 +33,7 @@
                     "sticker_title_label": "Название стикера",
                     "text_to_replace_label": "Текст для замены. Например, :sticker:",
                     "path_or_url_label": "Путь или URL",
-                    "category_help": "",
+                    "category_help": "Только строчные буквы, цифры и символы подчёркивания. Специальные символы очищаются автоматически.",
                     "upload_label": "Загрузить файл",
                     "upload_button": "Выбрать файл",
                     "upload_help": "Поддерживаются анимированные Lottie JSON (.json), стикеры Telegram (.tgs), PNG, GIF, WebP, JPEG.",
@@ -41,15 +41,15 @@
                     "delete_sticker_button": "Удалить стикер",
                     "delete_sticker_confirmation": "Удалить этот стикер?",
                     "saved_message": "=> core.admin.settings.saved_message",
-                    "save_error": "",
-                    "tgs_notice_title": "",
-                    "tgs_notice_body": "",
-                    "external_anim_notice_title": "",
-                    "external_anim_notice_body": ""
+                    "save_error": "Не удалось сохранить стикер. Проверьте данные и попробуйте снова.",
+                    "tgs_notice_title": "Уведомление о лицензии — файл TGS",
+                    "tgs_notice_body": "Файлы TGS представляют собой анимированные стикеры Telegram и могут подпадать под ограничения авторских прав или распространения, установленные их авторами. Сохраняя этот стикер, вы подтверждаете, что имеете право использовать и распространять данный контент, а также принимаете на себя полную юридическую ответственность за это.",
+                    "external_anim_notice_title": "Анимированный стикер по внешнему URL",
+                    "external_anim_notice_body": "Анимированные стикеры (.json / .tgs) должны размещаться на домене этого форума для корректного отображения. Файлы, загружаемые с внешнего URL, не будут анимироваться у посетителей — загрузите файл на форум или используйте путь с того же домена."
                 },
                 "sticker_list": {
                     "load_more_button": "=> core.forum.post_stream.load_more_button",
-                    "move_category_error": ""
+                    "move_category_error": "Не удалось сохранить порядок категорий. Попробуйте снова."
                 }
             }
         },
