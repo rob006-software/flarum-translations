@@ -2,30 +2,30 @@
     "linkrobins-clipboard": {
         "admin": {
             "settings": {
-                "copy_enable_label": "",
-                "copy_enable_help": "",
-                "themes_label": "",
-                "themes_help": "",
+                "copy_enable_label": "Включить кнопку копирования для блоков кода",
+                "copy_enable_help": "Если включено, в каждом блоке кода в сообщениях будет отображаться кнопка копирования. Пользователи смогут нажать её, чтобы скопировать код в буфер обмена.",
+                "themes_label": "Стиль кнопки копирования",
+                "themes_help": "Выберите внешний вид кнопки копирования. Каждая тема использует разные иконки, цвета и расположение.",
                 "themes": {
-                    "default": "",
-                    "github": "",
-                    "lingcoder": "",
-                    "csdn": "",
-                    "cnblog": "",
-                    "jianshu": "",
-                    "segmentfault": ""
+                    "default": "По умолчанию",
+                    "github": "GitHub",
+                    "lingcoder": "LingCoder",
+                    "csdn": "CSDN",
+                    "cnblog": "cnBlogs",
+                    "jianshu": "Jian Shu",
+                    "segmentfault": "SegmentFault"
                 },
-                "codeLang_label": "",
-                "codeLang_help": ""
+                "codeLang_label": "Показывать метку языка в блоках кода",
+                "codeLang_help": "Отображать определённый язык программирования в правом верхнем углу каждого блока кода, например, python, bash, javascript. Требуется подсветка синтаксиса, добавляющая классы language-X к элементам кода."
             }
         },
         "forum": {
-            "action_copy": "",
-            "action_cut": "",
-            "ok_btn": "",
-            "error_btn": "",
-            "no_support": "",
-            "msg": ""
+            "action_copy": "Копировать",
+            "action_cut": "Вырезать",
+            "ok_btn": "Скопировано",
+            "error_btn": "Ошибка",
+            "no_support": "Не поддерживается",
+            "msg": "Нажмите {actionKey}, чтобы {action}"
         }
     }
 }
