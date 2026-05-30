@@ -2,31 +2,31 @@
     "ernestdefoe-facebook-post": {
         "admin": {
             "settings": {
-                "enabled_label": "",
-                "enabled_help": "",
-                "destination_type_label": "",
-                "destination_type_help": "",
-                "destination_type_page": "",
-                "destination_type_group": "",
-                "page_id_label": "",
-                "page_id_help": "",
-                "page_id_placeholder": "",
-                "page_access_token_label": "",
-                "page_access_token_help": "",
-                "group_id_label": "",
-                "group_id_help": "",
-                "group_id_placeholder": "",
-                "group_access_token_label": "",
-                "group_access_token_help": "",
-                "graph_api_version_label": "",
-                "graph_api_version_help": ""
+                "enabled_label": "Включить автопубликацию в Facebook",
+                "enabled_help": "Если включено, новые дискуссии будут автоматически публиковаться в выбранном месте назначения Facebook.",
+                "destination_type_label": "Тип назначения",
+                "destination_type_help": "Выберите, куда публиковать новые дискуссии: на страницу Facebook или в группу Facebook.",
+                "destination_type_page": "Страница Facebook",
+                "destination_type_group": "Группа Facebook",
+                "page_id_label": "ID страницы Facebook",
+                "page_id_help": "Числовой идентификатор вашей страницы Facebook, например, 123456789012345. Обязательно, если в качестве места назначения выбрана страница Facebook.",
+                "page_id_placeholder": "123456789012345",
+                "page_access_token_label": "Токен доступа страницы",
+                "page_access_token_help": "Бессрочный токен доступа страницы из Meta for Developers — требуется разрешение pages_manage_posts. Используется, если в качестве места назначения выбрана страница Facebook.",
+                "group_id_label": "ID группы Facebook",
+                "group_id_help": "Числовой идентификатор вашей группы Facebook. Обязательно, если в качестве места назначения выбрана группа Facebook.",
+                "group_id_placeholder": "123456789012345",
+                "group_access_token_label": "Токен доступа группы",
+                "group_access_token_help": "Токен доступа пользователя с разрешением publish_to_groups. Используется, если в качестве места назначения выбрана группа Facebook.",
+                "graph_api_version_label": "Версия Graph API",
+                "graph_api_version_help": "Версия Facebook Graph API, используемая расширением, например, v19.0, v20.0. Обновляйте её, когда Meta объявляет о прекращении поддержки текущей версии — журнал изменений и график окончания поддержки доступны по адресу https://developers.facebook.com/docs/graph-api/changelog."
             },
             "tag_selector": {
-                "title": "",
-                "help": "",
-                "help_all": "",
-                "no_tags": "",
-                "saving": ""
+                "title": "Публиковать в Facebook из основных тегов",
+                "help": "Выберите основные теги, публикация дискуссий в которых будет запускать отправку в Facebook.",
+                "help_all": "Оставьте всё неотмеченным, чтобы публиковать каждую новую дискуссию независимо от тега.",
+                "no_tags": "Основные теги не найдены. Сначала установите и настройте расширение Flarum Tags.",
+                "saving": "Сохранение…"
             }
         }
     }
