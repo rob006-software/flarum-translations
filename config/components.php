@@ -123,7 +123,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/respawn/3.0.0/locale/en.yml',
 	],
 	'ernestdefoe-seo' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/seo/2.0.8/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/seo/2.0.9/locale/en.yml',
 	],
 	'ernestdefoe-social-groups' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/social-groups/v2.3.61/locale/en.yml',
