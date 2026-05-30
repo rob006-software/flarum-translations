@@ -2,13 +2,13 @@
     "linkrobins-markdown-widget": {
         "admin": {
             "settings": {
-                "title_label": "",
-                "title_help": "",
-                "title_placeholder": "",
-                "icon_label": "",
-                "icon_help": "",
-                "body_label": "",
-                "body_help": ""
+                "title_label": "Заголовок",
+                "title_help": "Необязательно. Отображается над содержимым. Оставьте пустым, если заголовок не нужен.",
+                "title_placeholder": "Добро пожаловать в наше сообщество!",
+                "icon_label": "Класс иконки",
+                "icon_help": "Класс Font Awesome, отображаемый рядом с заголовком, например, fab fa-markdown. Оставьте пустым, если иконка не нужна.",
+                "body_label": "Содержимое Markdown",
+                "body_help": "Стандартный Markdown — GitHub Flavored Markdown. Поддерживаются заголовки, списки, ссылки, код и таблицы. Встроенный HTML разрешён, но проходит очистку — теги script, обработчики событий и другая небезопасная разметка удаляются перед отображением."
             }
         }
     }
