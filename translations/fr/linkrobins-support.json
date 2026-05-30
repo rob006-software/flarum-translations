@@ -44,7 +44,7 @@
                 "field_icon": "Icône",
                 "field_icon_help": "Une classe Font Awesome, par exemple fas fa-life-ring.",
                 "field_position": "Position",
-                "field_position_help": "Les catégories sont classées par ordre croissant en fonction de cette valeur.",
+                "field_position_help": "Les catégories sont classées selon cette valeur, par ordre croissant.",
                 "field_is_appeal": "Catégorie de recours",
                 "field_is_appeal_help": "Les tickets ouverts dans cette catégorie sont traités comme des recours contre une suspension.",
                 "submit_create": "Créer une catégorie",
@@ -155,12 +155,12 @@
                 "title": "Nouveau ticket",
                 "choose_category": "Choisissez une catégorie pour commencer.",
                 "choose_category_appeal": "Choisissez une catégorie de recours pour commencer.",
-                "back_to_categories": "Retour aux catégories",
+                "back_to_categories": "Retour",
                 "subject_label": "Sujet",
                 "message_label": "Message",
                 "submitting": "Envoi en cours…",
                 "subject_placeholder": "Décrivez votre problème en quelques mots",
-                "body_placeholder": "Décrivez votre problème en détail...",
+                "body_placeholder": "Décrivez votre problème en détail.",
                 "submit": "Envoyer le ticket"
             },
             "show": {
@@ -193,7 +193,7 @@
                 "saving": "Enregistrement en cours…",
                 "attach_files": "Joindre des fichiers",
                 "claim": "Réclamer",
-                "unassign": "Désassigner",
+                "unassign": "Désaffecter",
                 "edit": "Modifier",
                 "delete": "Supprimer",
                 "restore": "Restaurer",
@@ -212,12 +212,12 @@
             },
             "user_controls": {
                 "allow_appeals": "Autoriser les recours",
-                "disallow_appeals": "Refuser les recours",
+                "disallow_appeals": "Ne pas autoriser les recours",
                 "toggle_failed": "Impossible de mettre à jour le statut de l'utilisateur."
             }
         },
         "email": {
-            "new_reply_subject": "[Assistance] Nouvelle réponse à : {subject}",
+            "new_reply_subject": "[Assistance] Nouvelle réponse sur : {subject}",
             "new_ticket_subject": "[Assistance] Nouveau ticket : {subject}",
             "new_appeal_subject": "[Assistance / Recours] Nouveau ticket : {subject}",
             "fallback_ticket": "votre ticket"
