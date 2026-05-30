@@ -1,6 +1,8 @@
 {
     "linkrobins-shoutbox": {
         "forum": {
+            "nav": "Shoutbox",
+            "page_title": "Shoutbox",
             "widget": {
                 "title": "Shoutbox",
                 "placeholder": "Say something...",
@@ -9,13 +11,18 @@
                 "delete": "Delete",
                 "delete_confirm": "Delete this shout?",
                 "delete_error": "Could not delete shout. Please try again.",
-                "load_error": "Could not load shouts."
+                "load_error": "Could not load shouts.",
+                "rate_limited": "You're posting too fast. Please wait a moment."
             }
         },
         "admin": {
             "settings": {
                 "height_label": "Messages height (px)",
                 "height_help": "Height of the messages area in pixels. Default is 320."
+            },
+            "permissions": {
+                "shout": "Post shouts",
+                "moderate": "Delete others' shouts"
             }
         }
     }

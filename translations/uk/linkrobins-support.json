@@ -81,16 +81,32 @@
             "nav": "",
             "new_ticket": "",
             "submit_ticket": "",
+            "common": {
+                "loading": "",
+                "uploading_one": "",
+                "uploading_many": ""
+            },
+            "notifications": {
+                "someone": "",
+                "reply_from": "",
+                "reply_generic": "",
+                "new_ticket": "",
+                "new_appeal": ""
+            },
             "settings": {
                 "notify_new_reply_label": "",
                 "notify_new_ticket_label": ""
             },
             "status": {
                 "in_progress": "",
-                "awaiting_response": ""
+                "awaiting_response": "",
+                "open": "",
+                "resolved": "",
+                "closed": ""
             },
             "index": {
                 "my_tickets": "",
+                "filter_all": "",
                 "new_ticket": "",
                 "new_ticket_tooltip": "",
                 "empty_own": "",
@@ -121,17 +137,25 @@
                 "no_categories": "",
                 "title_appeal": "",
                 "title": "",
+                "choose_category": "",
+                "choose_category_appeal": "",
+                "back_to_categories": "",
+                "subject_label": "",
+                "message_label": "",
+                "submitting": "",
                 "subject_placeholder": "",
                 "body_placeholder": "",
                 "submit": ""
             },
             "show": {
+                "title": "",
                 "closed_notice": "",
                 "cannot_reply": "",
                 "closed_badge": "",
                 "opened_by": "",
                 "assigned_to": "",
-                "unassigned": ""
+                "unassigned": "",
+                "decision": ""
             },
             "staff": {
                 "set_status": ""
@@ -140,13 +164,24 @@
                 "deleted_notice": "",
                 "mod_actions": "",
                 "internal_placeholder": "",
+                "internal_note": "",
+                "post_reply": "",
+                "posting": "",
                 "placeholder": "",
                 "edited_by": "",
                 "edited_at": ""
             },
             "action": {
                 "delete_forever": "",
-                "save_changes": ""
+                "save_changes": "",
+                "saving": "",
+                "attach_files": "",
+                "claim": "",
+                "unassign": "",
+                "edit": "",
+                "delete": "",
+                "restore": "",
+                "cancel": ""
             },
             "confirm": {
                 "delete_reply_forever": "",

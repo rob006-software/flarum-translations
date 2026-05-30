@@ -97,16 +97,32 @@
             "nav": "Support",
             "new_ticket": "Nouveau ticket",
             "submit_ticket": "Envoyer le ticket",
+            "common": {
+                "loading": "",
+                "uploading_one": "",
+                "uploading_many": ""
+            },
+            "notifications": {
+                "someone": "",
+                "reply_from": "",
+                "reply_generic": "",
+                "new_ticket": "",
+                "new_appeal": ""
+            },
             "settings": {
                 "notify_new_reply_label": "Quelqu'un répond à mon ticket",
                 "notify_new_ticket_label": "Un nouveau ticket est créé (par l'équipe)"
             },
             "status": {
                 "in_progress": "En cours",
-                "awaiting_response": "En attente"
+                "awaiting_response": "En attente",
+                "open": "",
+                "resolved": "",
+                "closed": ""
             },
             "index": {
                 "my_tickets": "Mes tickets",
+                "filter_all": "",
                 "new_ticket": "Nouveau ticket",
                 "new_ticket_tooltip": "Ouvrir un nouveau ticket",
                 "empty_own": "Aucun ticket pour le moment. Cliquez sur « Nouveau ticket » pour en ouvrir un.",
@@ -137,17 +153,25 @@
                 "no_categories": "Aucune catégorie n'a encore été créée. Veuillez contacter un administrateur.",
                 "title_appeal": "Déposer un recours",
                 "title": "Nouveau ticket",
+                "choose_category": "",
+                "choose_category_appeal": "",
+                "back_to_categories": "",
+                "subject_label": "",
+                "message_label": "",
+                "submitting": "",
                 "subject_placeholder": "Décrivez votre problème en quelques mots",
                 "body_placeholder": "Décrivez votre problème en détail...",
                 "submit": "Envoyer le ticket"
             },
             "show": {
+                "title": "",
                 "closed_notice": "Ce ticket a été clôturé et il n'est plus possible d'y répondre.",
                 "cannot_reply": "Vous ne pouvez pas répondre à ce ticket.",
                 "closed_badge": "Ticket clôturé",
                 "opened_by": "Ouvert par",
                 "assigned_to": "Attribué à",
-                "unassigned": "Non attribué"
+                "unassigned": "Non attribué",
+                "decision": ""
             },
             "staff": {
                 "set_status": "Définir le statut :"
@@ -156,13 +180,24 @@
                 "deleted_notice": "Cette réponse a été supprimée.",
                 "mod_actions": "Actions de modération",
                 "internal_placeholder": "Note interne (visible uniquement par l'équipe)…",
+                "internal_note": "",
+                "post_reply": "",
+                "posting": "",
                 "placeholder": "Répondre…",
                 "edited_by": "Édité le {date} par {user}",
                 "edited_at": "Édité le {date}"
             },
             "action": {
                 "delete_forever": "Supprimer définitivement",
-                "save_changes": "Sauvegarder les modifications"
+                "save_changes": "Sauvegarder les modifications",
+                "saving": "",
+                "attach_files": "",
+                "claim": "",
+                "unassign": "",
+                "edit": "",
+                "delete": "",
+                "restore": "",
+                "cancel": ""
             },
             "confirm": {
                 "delete_reply_forever": "Supprimer définitivement cette réponse ? Cette action est irréversible.",

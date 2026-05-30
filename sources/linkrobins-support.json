@@ -81,16 +81,32 @@
             "nav": "Support",
             "new_ticket": "New ticket",
             "submit_ticket": "Submit ticket",
+            "common": {
+                "loading": "Loading…",
+                "uploading_one": "Uploading 1 file…",
+                "uploading_many": "Uploading {count} files…"
+            },
+            "notifications": {
+                "someone": "A user",
+                "reply_from": "{user} replied to your ticket",
+                "reply_generic": "Support replied to your ticket",
+                "new_ticket": "{user} opened a new support ticket",
+                "new_appeal": "{user} opened a new appeal"
+            },
             "settings": {
                 "notify_new_reply_label": "Someone replies to my support ticket",
                 "notify_new_ticket_label": "A new support ticket is opened (staff)"
             },
             "status": {
                 "in_progress": "In progress",
-                "awaiting_response": "Awaiting response"
+                "awaiting_response": "Awaiting response",
+                "open": "Open",
+                "resolved": "Resolved",
+                "closed": "Closed"
             },
             "index": {
                 "my_tickets": "My tickets",
+                "filter_all": "All",
                 "new_ticket": "New ticket",
                 "new_ticket_tooltip": "Open a new support ticket",
                 "empty_own": "No tickets yet. Click \"New ticket\" to open one.",
@@ -121,17 +137,25 @@
                 "no_categories": "No support categories have been set up yet. Please contact an admin.",
                 "title_appeal": "File an appeal",
                 "title": "New support ticket",
+                "choose_category": "Choose a category to get started.",
+                "choose_category_appeal": "Choose an appeal category to get started.",
+                "back_to_categories": "Back to categories",
+                "subject_label": "Subject",
+                "message_label": "Message",
+                "submitting": "Submitting…",
                 "subject_placeholder": "Short summary of your issue",
                 "body_placeholder": "Describe the issue in detail. Markdown is supported.",
                 "submit": "Submit ticket"
             },
             "show": {
+                "title": "Ticket",
                 "closed_notice": "This ticket has been closed and cannot be replied to.",
                 "cannot_reply": "You cannot reply to this ticket.",
                 "closed_badge": "Closed ticket",
                 "opened_by": "Opened by",
                 "assigned_to": "Assigned to",
-                "unassigned": "Unassigned"
+                "unassigned": "Unassigned",
+                "decision": "Decision:"
             },
             "staff": {
                 "set_status": "Set status:"
@@ -140,13 +164,24 @@
                 "deleted_notice": "This reply was deleted.",
                 "mod_actions": "Moderation actions",
                 "internal_placeholder": "Internal note (only staff will see this)…",
+                "internal_note": "Internal note",
+                "post_reply": "Post reply",
+                "posting": "Posting…",
                 "placeholder": "Write a reply…",
                 "edited_by": "Edited {date} by {user}",
                 "edited_at": "Edited {date}"
             },
             "action": {
                 "delete_forever": "Delete forever",
-                "save_changes": "Save changes"
+                "save_changes": "Save changes",
+                "saving": "Saving…",
+                "attach_files": "Attach files",
+                "claim": "Claim",
+                "unassign": "Unassign",
+                "edit": "Edit",
+                "delete": "Delete",
+                "restore": "Restore",
+                "cancel": "Cancel"
             },
             "confirm": {
                 "delete_reply_forever": "Permanently delete this reply? This cannot be undone.",
