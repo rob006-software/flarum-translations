@@ -737,7 +737,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/reactions/1.4.1/resources/locale/en.yml',
 	],
 	'fof-recaptcha' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/recaptcha/1.3.5/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/recaptcha/1.3.6/resources/locale/en.yml',
 	],
 	'fof-rich-text' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/rich-text/1.0.0/resources/locale/en.yml',
