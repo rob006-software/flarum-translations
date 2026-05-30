@@ -186,6 +186,10 @@
             }
         },
         "admin": {
+            "settings": {
+                "max_image_bytes_label": "",
+                "max_image_bytes_help": ""
+            },
             "permissions": {
                 "create_groups": "Soziale Gruppen erstellen",
                 "moderate_groups": "Soziale Gruppen bearbeiten und löschen"

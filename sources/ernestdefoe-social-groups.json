@@ -186,6 +186,10 @@
             }
         },
         "admin": {
+            "settings": {
+                "max_image_bytes_label": "Maximum group image/banner size (bytes)",
+                "max_image_bytes_help": "Upload size limit for group avatars and banners, in bytes. Leave blank or 0 to use the default of 5242880 (5 MB)."
+            },
             "permissions": {
                 "create_groups": "Create social groups",
                 "moderate_groups": "Edit & delete any social group"
