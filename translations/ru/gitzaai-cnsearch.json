@@ -1,40 +1,40 @@
 {
     "cnsearch": {
         "meili": {
-            "host": "",
-            "key": "",
-            "index": ""
+            "host": "Хост Meilisearch",
+            "key": "API-ключ Meilisearch",
+            "index": "Имя индекса Meilisearch"
         }
     },
     "gitzaai-cnsearch": {
         "admin": {
             "settings": {
-                "meili_host_label": "",
-                "meili_host_help": "",
-                "meili_key_label": "",
-                "meili_key_help": "",
-                "meili_index_label": "",
-                "meili_index_help": ""
+                "meili_host_label": "Хост Meilisearch",
+                "meili_host_help": "Необходимо указать перед проверкой подключения или индексированием. Пример: http://127.0.0.1:7700",
+                "meili_key_label": "API-ключ Meilisearch",
+                "meili_key_help": "Введите API-ключ Meilisearch только в том случае, если ваш экземпляр Meilisearch его требует.",
+                "meili_index_label": "Имя индекса Meilisearch",
+                "meili_index_help": "Индекс Meilisearch, используемый для поиска по дискуссиям."
             },
             "buttons": {
-                "title": "",
-                "reindex": "",
-                "test_connection": "",
-                "help": "",
-                "status_label": "",
-                "status_last_checked": "",
-                "status_connected": "",
-                "status_disconnected": "",
-                "status_unknown": "",
-                "indexed_count": "",
-                "source_discussions": "",
-                "source_posts": "",
-                "last_sync": "",
-                "not_synced": "",
-                "reindex_success": "",
-                "reindex_failed": "",
-                "test_connection_success": "",
-                "test_connection_failed": ""
+                "title": "Операции Meilisearch",
+                "reindex": "Перестроить индекс",
+                "test_connection": "Проверить подключение",
+                "help": "Используйте эти инструменты для проверки подключения и перестроения индекса дискуссий Meilisearch.",
+                "status_label": "Статус подключения",
+                "status_last_checked": "Последняя проверка: {time}",
+                "status_connected": "Подключено",
+                "status_disconnected": "Нет подключения",
+                "status_unknown": "Подключение ещё не проверялось",
+                "indexed_count": "Документов в Meilisearch: {count}",
+                "source_discussions": "Исходных дискуссий: {count}",
+                "source_posts": "Проиндексированных сообщений: {count}",
+                "last_sync": "Последняя переиндексация: {time}",
+                "not_synced": "Синхронизация ещё не выполнялась",
+                "reindex_success": "Запрос на переиндексацию успешно отправлен.",
+                "reindex_failed": "Не удалось выполнить переиндексацию. Проверьте журналы.",
+                "test_connection_success": "Подключение к Meilisearch успешно установлено.",
+                "test_connection_failed": "Не удалось подключиться к Meilisearch."
             }
         }
     }
