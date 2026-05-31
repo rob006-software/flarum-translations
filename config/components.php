@@ -111,7 +111,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ekumanov/flarum-ext-post-search/v1.0.0/locale/en.yml',
 	],
 	'ernestdefoe-og-image' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/og-image/v2.0.5/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/og-image/v2.0.7/locale/en.yml',
 	],
 	'ernestdefoe-social-groups' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/social-groups/2.1.7/locale/en.yml',
