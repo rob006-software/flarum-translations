@@ -273,6 +273,4 @@
 
 ## Dead branches
 
-| Extension | Pull request |
-| --- | --- |
-| `nopj-attachments` | [![#1470 (open)](https://img.shields.io/badge/PR-%231470-brightgreen)](https://github.com/rob006-software/flarum-translations/pull/1470) |
+There are no dead branches.
