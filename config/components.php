@@ -519,7 +519,7 @@ return [
 		],
 	],
 	'linkrobins-referral' => [
-		'tag' => 'https://raw.githubusercontent.com/linkrobins/referral/v1.1.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/linkrobins/referral/v1.2.1/locale/en.yml',
 		'__builtInLanguages' => [
 			'es',
 			'ko',
