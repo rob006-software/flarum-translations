@@ -27,6 +27,8 @@
                 "tooltip_enabled_help": "Show magnet link stats when hovering over discussions in the discussion list.",
                 "tooltip_max_magnets_label": "Max Magnets in Tooltip",
                 "tooltip_max_magnets_help": "Maximum number of magnet links displayed in the discussion tooltip. Set to 0 for unlimited.",
+                "tooltip_show_permission_errors_label": "Show permission message in tooltip",
+                "tooltip_show_permission_errors_help": "When a guest or a user without permission hovers a discussion that has magnet links, show a clear message in the tooltip (\"You must be logged in…\") instead of letting it briefly flash the loading state and disappear. Mirrors the in-post behaviour. Enabled by default.",
                 "rename_enabled_label": "Enable Custom Torrent Names",
                 "rename_enabled_help": "Allow post authors to rename magnet link display names within their own posts.",
                 "ban_enabled_label": "Enable Spam Protection",
@@ -39,6 +41,13 @@
                 "ban_interval_count_help": "Number of clicks within the interval that triggers a ban.",
                 "self_interval_label": "Self-Click Interval (days)",
                 "self_interval_help": "How long before the same IP can increment the click count for the same magnet link again."
+            },
+            "reparse": {
+                "label": "Magnet backfill",
+                "help": "Magnet links posted before this extension was enabled are stored as plain text, so they don't render in posts or show in tooltips. Run this once (after enabling the extension or importing old content) to re-parse them. For very large forums use the CLI instead: php flarum magnet:reparse",
+                "button": "Re-parse old magnet links",
+                "success": "Re-parsed {count} post(s).",
+                "error": "Failed to re-parse magnet links. Check the server logs."
             },
             "support": {
                 "button": "Support Development",

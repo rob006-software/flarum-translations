@@ -4,6 +4,10 @@
             "settings": {
                 "enabled_label": "Enable Topic Rating",
                 "enabled_help": "Allow users to rate discussions with a 5-star system.",
+                "show_on_list_label": "Show rating in discussion list",
+                "show_on_list_help": "Display the star rating on the discussion list (home page). When off, ratings still appear on the discussion page. Enabled by default.",
+                "rate_on_list_label": "Allow rating from the discussion list",
+                "rate_on_list_help": "Let users rate topics directly from the discussion list by clicking the stars (with hover preview), just like on the discussion page. When off, the list shows the rating read-only. Enabled by default.",
                 "allow_unactivated_label": "Allow unactivated accounts to rate",
                 "allow_unactivated_help": "When enabled, users who haven't confirmed their email can still rate discussions."
             },

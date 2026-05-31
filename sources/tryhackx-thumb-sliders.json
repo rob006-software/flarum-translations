@@ -18,7 +18,12 @@
                 "fallback_mode_help": "Choose what to display when a discussion has no usable image, or when the image fails to load.",
                 "fallback_mode_none": "No thumbnail (content shifts left)",
                 "fallback_mode_default": "Built-in placeholder",
-                "fallback_mode_custom": "Custom uploaded image"
+                "fallback_mode_custom": "Custom uploaded image",
+                "avatar_mode_label": "Replace avatar with thumbnail",
+                "avatar_mode_help": "Use the thumbnail in place of the author avatar in the discussion list. \"Always\" needs a fallback (set above) so there is always something to show when a discussion has no image.",
+                "avatar_mode_none": "Off – show both avatar and thumbnail",
+                "avatar_mode_with_image": "Replace only when the discussion has an image",
+                "avatar_mode_always": "Always replace (requires a fallback)"
             },
             "fallback": {
                 "title": "Fallback image library",
