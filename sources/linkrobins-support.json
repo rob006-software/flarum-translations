@@ -88,10 +88,10 @@
             },
             "notifications": {
                 "someone": "A user",
-                "reply_from": "{user} replied to your ticket",
+                "reply_from": "{name} replied to your ticket",
                 "reply_generic": "Support replied to your ticket",
-                "new_ticket": "{user} opened a new support ticket",
-                "new_appeal": "{user} opened a new appeal"
+                "new_ticket": "{name} opened a new support ticket",
+                "new_appeal": "{name} opened a new appeal"
             },
             "settings": {
                 "notify_new_reply_label": "Someone replies to my support ticket",
@@ -168,7 +168,7 @@
                 "post_reply": "Post reply",
                 "posting": "Posting…",
                 "placeholder": "Write a reply…",
-                "edited_by": "Edited {date} by {user}",
+                "edited_by": "Edited {date} by {name}",
                 "edited_at": "Edited {date}"
             },
             "action": {
