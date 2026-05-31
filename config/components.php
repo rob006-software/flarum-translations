@@ -111,7 +111,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ekumanov/flarum-ext-post-search/v1.0.0/locale/en.yml',
 	],
 	'ernestdefoe-mosaic' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/mosaic/3.2.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/mosaic/3.4.0/locale/en.yml',
 	],
 	'ernestdefoe-social-groups' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/social-groups/2.3.42/locale/en.yml',
