@@ -492,7 +492,7 @@ return [
 		],
 	],
 	'linkrobins-clipboard' => [
-		'tag' => 'https://raw.githubusercontent.com/linkrobins/clipboard/v1.1.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/linkrobins/clipboard/v1.1.1/locale/en.yml',
 		'__builtInLanguages' => [
 			'zh_Hans',
 		],
