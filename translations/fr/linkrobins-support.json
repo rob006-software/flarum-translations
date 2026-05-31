@@ -104,10 +104,10 @@
             },
             "notifications": {
                 "someone": "Un utilisateur",
-                "reply_from": "{user} a répondu à votre ticket",
+                "reply_from": "{name} a répondu à votre ticket",
                 "reply_generic": "Le support a répondu à votre ticket",
-                "new_ticket": "{user} a ouvert un nouveau ticket",
-                "new_appeal": "{user} a ouvert un nouveau recours"
+                "new_ticket": "{name} a ouvert un nouveau ticket",
+                "new_appeal": "{name} a ouvert un nouveau recours"
             },
             "settings": {
                 "notify_new_reply_label": "Quelqu'un répond à mon ticket",
@@ -184,7 +184,7 @@
                 "post_reply": "Publier la réponse",
                 "posting": "Publication en cours…",
                 "placeholder": "Répondre…",
-                "edited_by": "Édité le {date} par {user}",
+                "edited_by": "Édité le {date} par {name}",
                 "edited_at": "Édité le {date}"
             },
             "action": {
