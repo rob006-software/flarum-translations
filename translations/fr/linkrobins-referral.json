@@ -8,21 +8,57 @@
                 "copy": "Copier",
                 "copy_link": "Copier le lien d'invitation",
                 "total_referrals": "Nombre total de recommandations",
-                "no_referrals": "Aucune recommandation pour le moment. Partagez votre code d'invitation pour commencer !"
+                "no_referrals": "Aucune recommandation pour le moment. Partagez votre code d'invitation pour commencer !",
+                "not_eligible": ""
             },
             "sign_up": {
                 "invite_code_label": "Code d'invitation",
                 "invite_code_label_required": "Code d'invitation *",
                 "invite_code_placeholder": "par exemple : K7XM2QNP"
+            },
+            "user_card": {
+                "referrals_singular": "",
+                "referrals_plural": ""
             }
         },
         "admin": {
             "settings": {
+                "title": "",
                 "require_label": "Exiger un code d'invitation pour s'inscrire",
                 "require_help": "Lorsque cette option est activée, les utilisateurs doivent saisir un code d'invitation valide pour finaliser leur inscription.",
                 "enabled": "Activé",
                 "disabled": "Désactivé"
+            },
+            "eligibility": {
+                "title": "",
+                "help": "",
+                "groups_label": "",
+                "groups_help": "",
+                "min_posts_label": "",
+                "min_age_label": "",
+                "whitelist_label": "",
+                "whitelist_help": ""
+            },
+            "campaign": {
+                "title": "",
+                "help": "",
+                "label_label": "",
+                "label_placeholder": "",
+                "expiry_label": "",
+                "create": "",
+                "none": "",
+                "col_code": "",
+                "col_label": "",
+                "col_uses": "",
+                "col_expiry": "",
+                "no_expiry": "",
+                "expired": "",
+                "delete": "",
+                "confirm_delete": ""
             }
+        },
+        "api": {
+            "invalid_expiry": ""
         },
         "validation": {
             "required": "Un code d'invitation est requis pour s'inscrire.",

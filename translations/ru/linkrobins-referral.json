@@ -8,21 +8,57 @@
                 "copy": "Копировать",
                 "copy_link": "Копировать реферальную ссылку",
                 "total_referrals": "Всего приглашённых",
-                "no_referrals": "Пока никто не зарегистрировался. Поделитесь своим кодом, чтобы кого-нибудь пригласить!"
+                "no_referrals": "Пока никто не зарегистрировался. Поделитесь своим кодом, чтобы кого-нибудь пригласить!",
+                "not_eligible": ""
             },
             "sign_up": {
                 "invite_code_label": "Пригласительный код",
                 "invite_code_label_required": "Пригласительный код *",
                 "invite_code_placeholder": "Например: K7XM2QNP"
+            },
+            "user_card": {
+                "referrals_singular": "",
+                "referrals_plural": ""
             }
         },
         "admin": {
             "settings": {
+                "title": "",
                 "require_label": "Требовать пригласительный код для регистрации",
                 "require_help": "Если включено, пользователи должны указать действительный пригласительный код для завершения регистрации.",
                 "enabled": "Включено",
                 "disabled": "Отключено"
+            },
+            "eligibility": {
+                "title": "",
+                "help": "",
+                "groups_label": "",
+                "groups_help": "",
+                "min_posts_label": "",
+                "min_age_label": "",
+                "whitelist_label": "",
+                "whitelist_help": ""
+            },
+            "campaign": {
+                "title": "",
+                "help": "",
+                "label_label": "",
+                "label_placeholder": "",
+                "expiry_label": "",
+                "create": "",
+                "none": "",
+                "col_code": "",
+                "col_label": "",
+                "col_uses": "",
+                "col_expiry": "",
+                "no_expiry": "",
+                "expired": "",
+                "delete": "",
+                "confirm_delete": ""
             }
+        },
+        "api": {
+            "invalid_expiry": ""
         },
         "validation": {
             "required": "Укажите пригласительный код.",

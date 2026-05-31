@@ -8,21 +8,57 @@
                 "copy": "复制邀请码",
                 "copy_link": "复制邀请链接",
                 "total_referrals": "总邀请人数",
-                "no_referrals": "暂无邀请记录。快快分享你的邀请链接吧！"
+                "no_referrals": "暂无邀请记录。快快分享你的邀请链接吧！",
+                "not_eligible": ""
             },
             "sign_up": {
                 "invite_code_label": "邀请码",
                 "invite_code_label_required": "邀请码*",
                 "invite_code_placeholder": "例如K7XM2QNP"
+            },
+            "user_card": {
+                "referrals_singular": "",
+                "referrals_plural": ""
             }
         },
         "admin": {
             "settings": {
+                "title": "",
                 "require_label": "注册必须提供邀请码",
                 "require_help": "开启后，用户必须输入有效的邀请码才能完成注册。",
                 "enabled": "已启用",
                 "disabled": "已禁用"
+            },
+            "eligibility": {
+                "title": "",
+                "help": "",
+                "groups_label": "",
+                "groups_help": "",
+                "min_posts_label": "",
+                "min_age_label": "",
+                "whitelist_label": "",
+                "whitelist_help": ""
+            },
+            "campaign": {
+                "title": "",
+                "help": "",
+                "label_label": "",
+                "label_placeholder": "",
+                "expiry_label": "",
+                "create": "",
+                "none": "",
+                "col_code": "",
+                "col_label": "",
+                "col_uses": "",
+                "col_expiry": "",
+                "no_expiry": "",
+                "expired": "",
+                "delete": "",
+                "confirm_delete": ""
             }
+        },
+        "api": {
+            "invalid_expiry": ""
         },
         "validation": {
             "required": "注册必须提供邀请码。",

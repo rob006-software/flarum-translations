@@ -8,21 +8,57 @@
                 "copy": "Copy",
                 "copy_link": "Copy Referral Link",
                 "total_referrals": "Total Referrals",
-                "no_referrals": "No referrals yet. Share your invite code to get started!"
+                "no_referrals": "No referrals yet. Share your invite code to get started!",
+                "not_eligible": "You're not eligible for a personal invite code yet. Keep participating and check back later."
             },
             "sign_up": {
                 "invite_code_label": "Invite Code",
                 "invite_code_label_required": "Invite Code *",
                 "invite_code_placeholder": "e.g. K7XM2QNP"
+            },
+            "user_card": {
+                "referrals_singular": "{count} referral",
+                "referrals_plural": "{count} referrals"
             }
         },
         "admin": {
             "settings": {
+                "title": "General",
                 "require_label": "Require invite code to register",
                 "require_help": "When enabled, users must enter a valid invite code to complete registration.",
                 "enabled": "Enabled",
                 "disabled": "Disabled"
+            },
+            "eligibility": {
+                "title": "Personal invite code eligibility",
+                "help": "Control who gets their own personal invite code. Admins and whitelisted users always qualify. Leave a rule empty or at 0 to skip it; when several rules are set, a user must satisfy all of them.",
+                "groups_label": "Allowed groups",
+                "groups_help": "If any groups are selected, only members of those groups get a personal invite code. Leave all unchecked to allow every group.",
+                "min_posts_label": "Minimum posts",
+                "min_age_label": "Minimum account age (days)",
+                "whitelist_label": "Whitelist",
+                "whitelist_help": "Usernames that always get an invite code, regardless of the rules above. Separate with commas, spaces, or new lines."
+            },
+            "campaign": {
+                "title": "Campaign codes",
+                "help": "Standalone invite codes that aren't tied to any user — ideal for social media or marketing promotions. They don't credit a referrer, but their uses are counted.",
+                "label_label": "Label",
+                "label_placeholder": "e.g. Twitter launch",
+                "expiry_label": "Expires (optional)",
+                "create": "Create code",
+                "none": "No campaign codes yet.",
+                "col_code": "Code",
+                "col_label": "Label",
+                "col_uses": "Uses",
+                "col_expiry": "Expires",
+                "no_expiry": "Never",
+                "expired": "expired",
+                "delete": "Delete",
+                "confirm_delete": "Delete this campaign code? Anyone using it will no longer be able to register with it."
             }
+        },
+        "api": {
+            "invalid_expiry": "Invalid expiry date."
         },
         "validation": {
             "required": "An invite code is required to register.",

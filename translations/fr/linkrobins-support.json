@@ -61,6 +61,7 @@
                 "banned_empty": "Aucun utilisateur n'est actuellement privé du droit de déposer des recours.",
                 "column_username": "Nom d'utilisateur",
                 "column_email": "Adresse de courriel",
+                "load_more": "",
                 "search_heading": "Rechercher un utilisateur",
                 "search_help": "Recherchez un utilisateur par son nom d'utilisateur ou son adresse de courriel pour l'empêcher ou l'autoriser à déposer des recours.",
                 "search_placeholder": "Nom d'utilisateur ou adresse de courriel…",
@@ -100,7 +101,8 @@
             "common": {
                 "loading": "Chargement en cours…",
                 "uploading_one": "Transfert d'un fichier en cours…",
-                "uploading_many": "Transfert de {count} fichiers en cours…"
+                "uploading_many": "Transfert de {count} fichiers en cours…",
+                "date_at_time": ""
             },
             "notifications": {
                 "someone": "Un utilisateur",
@@ -126,7 +128,8 @@
                 "new_ticket": "Nouveau ticket",
                 "new_ticket_tooltip": "Ouvrir un nouveau ticket",
                 "empty_own": "Aucun ticket pour le moment. Cliquez sur « Nouveau ticket » pour en ouvrir un.",
-                "empty": "Aucun ticket à afficher."
+                "empty": "Aucun ticket à afficher.",
+                "untitled": ""
             },
             "errors": {
                 "load_tickets": "Impossible de charger les tickets.",
@@ -145,7 +148,8 @@
                 "delete_ticket": "Impossible de supprimer le ticket.",
                 "restore_ticket": "Impossible de restaurer le ticket.",
                 "delete_ticket_forever": "Impossible de supprimer définitivement le ticket.",
-                "post_reply": "Impossible de publier la réponse."
+                "post_reply": "Impossible de publier la réponse.",
+                "empty_body": ""
             },
             "compose": {
                 "appeal_banned": "Vous n'êtes pas autorisé à déposer un recours. Veuillez contacter l'administrateur par un autre moyen.",
@@ -161,7 +165,10 @@
                 "submitting": "Envoi en cours…",
                 "subject_placeholder": "Résumé succinct de votre problème",
                 "body_placeholder": "Décrire le problème en détail...",
-                "submit": "Envoyer le ticket"
+                "submit": "Envoyer le ticket",
+                "subject_first": "",
+                "discard_confirm": "",
+                "message_placeholder_click": ""
             },
             "show": {
                 "title": "Ticket",
@@ -171,7 +178,13 @@
                 "opened_by": "Ouvert par",
                 "assigned_to": "Affecté à",
                 "unassigned": "Non affecté",
-                "decision": "Décision :"
+                "decision": "Décision :",
+                "deleted_badge": ""
+            },
+            "decision": {
+                "pending": "",
+                "accepted": "",
+                "rejected": ""
             },
             "staff": {
                 "set_status": "Définir le statut :"
@@ -183,14 +196,18 @@
                 "internal_note": "Note interne",
                 "post_reply": "Publier la réponse",
                 "posting": "Publication en cours…",
+                "discard_confirm": "",
                 "placeholder": "Répondre…",
                 "edited_by": "Édité le {date} par {name}",
-                "edited_at": "Édité le {date}"
+                "edited_at": "Édité le {date}",
+                "edited_marker": ""
             },
             "action": {
+                "back": "",
                 "delete_forever": "Supprimer définitivement",
                 "save_changes": "Enregistrer les modifications",
                 "saving": "Enregistrement en cours…",
+                "edit_reply": "",
                 "attach_files": "Joindre des fichiers",
                 "claim": "Affecter",
                 "unassign": "Désaffecter",
@@ -220,7 +237,37 @@
             "new_reply_subject": "[Assistance] Nouvelle réponse sur : {subject}",
             "new_ticket_subject": "[Assistance] Nouveau ticket : {subject}",
             "new_appeal_subject": "[Assistance / Recours] Nouveau ticket : {subject}",
-            "fallback_ticket": "votre ticket"
+            "fallback_ticket": "votre ticket",
+            "from_support": "",
+            "from_a_user": "",
+            "new_reply_body": "",
+            "view_ticket": "",
+            "ticket_type_appeal": "",
+            "ticket_type_general": "",
+            "new_ticket_body": "",
+            "open_ticket": ""
+        },
+        "api": {
+            "assign_staff_only": "",
+            "category_required": "",
+            "ticket_soft_delete_first": "",
+            "login_required_reply": "",
+            "reply_content_required": "",
+            "ticket_required": "",
+            "ticket_not_found": "",
+            "cannot_reply": "",
+            "login_required_edit": "",
+            "no_permission_edit": "",
+            "login_required": "",
+            "no_permission_delete": "",
+            "reply_soft_delete_first": "",
+            "rate_limit": {
+                "appeal_banned": "",
+                "appeal_has_open": "",
+                "appeal_quota": "",
+                "general_quota": "",
+                "generic": ""
+            }
         }
     }
 }

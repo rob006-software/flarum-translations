@@ -59,7 +59,8 @@
                 "banned_heading": "",
                 "banned_empty": "",
                 "column_username": "",
-                "column_email": ""
+                "column_email": "",
+                "load_more": ""
             },
             "rate_limits": {
                 "heading": "",
@@ -88,7 +89,8 @@
             "common": {
                 "loading": "",
                 "uploading_one": "",
-                "uploading_many": ""
+                "uploading_many": "",
+                "date_at_time": ""
             },
             "notifications": {
                 "someone": "",
@@ -114,7 +116,8 @@
                 "new_ticket": "",
                 "new_ticket_tooltip": "",
                 "empty_own": "",
-                "empty": ""
+                "empty": "",
+                "untitled": ""
             },
             "errors": {
                 "load_tickets": "",
@@ -133,7 +136,8 @@
                 "delete_ticket": "",
                 "restore_ticket": "",
                 "delete_ticket_forever": "",
-                "post_reply": ""
+                "post_reply": "",
+                "empty_body": ""
             },
             "compose": {
                 "appeal_banned": "",
@@ -149,7 +153,10 @@
                 "submitting": "",
                 "subject_placeholder": "",
                 "body_placeholder": "",
-                "submit": ""
+                "submit": "",
+                "subject_first": "",
+                "discard_confirm": "",
+                "message_placeholder_click": ""
             },
             "show": {
                 "title": "",
@@ -159,7 +166,13 @@
                 "opened_by": "",
                 "assigned_to": "",
                 "unassigned": "",
-                "decision": ""
+                "decision": "",
+                "deleted_badge": ""
+            },
+            "decision": {
+                "pending": "",
+                "accepted": "",
+                "rejected": ""
             },
             "staff": {
                 "set_status": ""
@@ -171,14 +184,18 @@
                 "internal_note": "",
                 "post_reply": "",
                 "posting": "",
+                "discard_confirm": "",
                 "placeholder": "",
                 "edited_by": "",
-                "edited_at": ""
+                "edited_at": "",
+                "edited_marker": ""
             },
             "action": {
+                "back": "",
                 "delete_forever": "",
                 "save_changes": "",
                 "saving": "",
+                "edit_reply": "",
                 "attach_files": "",
                 "claim": "",
                 "unassign": "",
@@ -208,7 +225,37 @@
             "new_reply_subject": "",
             "new_ticket_subject": "",
             "new_appeal_subject": "",
-            "fallback_ticket": ""
+            "fallback_ticket": "",
+            "from_support": "",
+            "from_a_user": "",
+            "new_reply_body": "",
+            "view_ticket": "",
+            "ticket_type_appeal": "",
+            "ticket_type_general": "",
+            "new_ticket_body": "",
+            "open_ticket": ""
+        },
+        "api": {
+            "assign_staff_only": "",
+            "category_required": "",
+            "ticket_soft_delete_first": "",
+            "login_required_reply": "",
+            "reply_content_required": "",
+            "ticket_required": "",
+            "ticket_not_found": "",
+            "cannot_reply": "",
+            "login_required_edit": "",
+            "no_permission_edit": "",
+            "login_required": "",
+            "no_permission_delete": "",
+            "reply_soft_delete_first": "",
+            "rate_limit": {
+                "appeal_banned": "",
+                "appeal_has_open": "",
+                "appeal_quota": "",
+                "general_quota": "",
+                "generic": ""
+            }
         }
     }
 }

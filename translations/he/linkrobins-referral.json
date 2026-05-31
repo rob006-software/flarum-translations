@@ -8,21 +8,57 @@
                 "copy": "",
                 "copy_link": "",
                 "total_referrals": "",
-                "no_referrals": ""
+                "no_referrals": "",
+                "not_eligible": ""
             },
             "sign_up": {
                 "invite_code_label": "",
                 "invite_code_label_required": "",
                 "invite_code_placeholder": ""
+            },
+            "user_card": {
+                "referrals_singular": "",
+                "referrals_plural": ""
             }
         },
         "admin": {
             "settings": {
+                "title": "",
                 "require_label": "",
                 "require_help": "",
                 "enabled": "",
                 "disabled": ""
+            },
+            "eligibility": {
+                "title": "",
+                "help": "",
+                "groups_label": "",
+                "groups_help": "",
+                "min_posts_label": "",
+                "min_age_label": "",
+                "whitelist_label": "",
+                "whitelist_help": ""
+            },
+            "campaign": {
+                "title": "",
+                "help": "",
+                "label_label": "",
+                "label_placeholder": "",
+                "expiry_label": "",
+                "create": "",
+                "none": "",
+                "col_code": "",
+                "col_label": "",
+                "col_uses": "",
+                "col_expiry": "",
+                "no_expiry": "",
+                "expired": "",
+                "delete": "",
+                "confirm_delete": ""
             }
+        },
+        "api": {
+            "invalid_expiry": ""
         },
         "validation": {
             "required": "",

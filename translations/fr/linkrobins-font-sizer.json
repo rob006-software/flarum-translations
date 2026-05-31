@@ -7,15 +7,16 @@
             },
             "modal": {
                 "title": "Taille du texte et de l'interface utilisateur",
-                "close_button_label": "Fermer",
                 "reading_text_heading": "Texte",
                 "reading_text_hint": "Cela affecte les messages et les titres des discussions.",
                 "reading_text_value": "{percent}%",
-                "interface_size_heading": "Taille de l'interface",
+                "interface_size_label": "",
                 "interface_size_hint": "Cela affecte la navigation, les boutons et d'autres éléments de l'interface utilisateur.",
+                "reset_button": "Réinitialiser les paramètres du site par défaut",
+                "close_button_label": "Fermer",
+                "interface_size_heading": "Taille de l'interface",
                 "ui_default": "Par défaut",
-                "ui_large": "Grande",
-                "reset_button": "Réinitialiser les paramètres du site par défaut"
+                "ui_large": "Grande"
             }
         },
         "admin": {
@@ -26,6 +27,7 @@
                 "reset_button": "Réinitialiser à 100 %",
                 "ui_size_label": "Taille de l'interface par défaut",
                 "ui_size_help": "Définit les paramètres par défaut pour la navigation, les boutons et d'autres éléments de l'interface utilisateur sur l'ensemble du site. Les utilisateurs peuvent modifier ces paramètres à l'aide du bouton « Taille de la police » situé dans l'en-tête.",
+                "ui_toggle_label": "",
                 "ui_default": "Par défaut",
                 "ui_large": "Grande"
             }
