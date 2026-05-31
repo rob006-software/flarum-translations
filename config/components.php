@@ -513,7 +513,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/linkrobins/OP/v1.1.1/locale/en.yml',
 	],
 	'linkrobins-post-num' => [
-		'tag' => 'https://raw.githubusercontent.com/linkrobins/post-num/v1.1.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/linkrobins/post-num/v1.1.1/locale/en.yml',
 		'__builtInLanguages' => [
 			'zh_Hans',
 		],
