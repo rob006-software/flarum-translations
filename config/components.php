@@ -386,6 +386,12 @@ return [
 	'fof-webhooks' => [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/webhooks/2.0.0-beta.3/resources/locale/en.yml',
 	],
+	'forumaker-bento' => [
+		'tag' => 'https://raw.githubusercontent.com/forumaker/Bento/2.1.0/resources/locale/en.yml',
+		'__builtInLanguages' => [
+			'ru',
+		],
+	],
 	'forumaker-magicbb' => [
 		'tag' => 'https://raw.githubusercontent.com/forumaker/magicbb/2.4.4/resources/locale/en.yml',
 	],
