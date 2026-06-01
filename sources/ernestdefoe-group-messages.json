@@ -1,0 +1,58 @@
+{
+    "ernestdefoe-group-messages": {
+        "forum": {
+            "compose": {
+                "group_button": "New group message",
+                "group_title": "New group message",
+                "name_label": "Group name",
+                "name_placeholder": "Name this group (optional)",
+                "recipients_label": "Add people",
+                "message_placeholder": "Write the first message…",
+                "create_button": "Create group",
+                "create_error": "Couldn't create the group. Please try again."
+            },
+            "dialog": {
+                "participants": "{count} participants",
+                "participant_count": "{count, plural, one {# person} other {# people}}",
+                "group_fallback_title": "Group message",
+                "seen_by": "Seen by {names}",
+                "seen_by_count": "Seen by {count}"
+            },
+            "reactions": {
+                "add_label": "Add reaction"
+            },
+            "reply": {
+                "reply_button": "Reply",
+                "replying_to": "Replying to {username}",
+                "cancel": "Cancel reply",
+                "unknown": "In reply to an earlier message"
+            },
+            "quote": {
+                "quote_button": "Quote"
+            },
+            "manage": {
+                "title": "Group settings",
+                "name_label": "Group name & icon",
+                "save_button": "Save",
+                "participants_label": "Participants ({count})",
+                "add_people": "Add people",
+                "leave_button": "Leave group",
+                "remove_tooltip": "Remove from group",
+                "promote_tooltip": "Make moderator",
+                "demote_tooltip": "Remove as moderator",
+                "role_owner": "Owner",
+                "role_moderator": "Moderator",
+                "role_member": "Member",
+                "left_message": "{username} left the group"
+            }
+        },
+        "lib": {
+            "error": {
+                "generic": "Something went wrong. Please try again.",
+                "not_group_member": "You are not a member of this group.",
+                "cannot_manage": "You don't have permission to manage this group.",
+                "min_participants": "A group needs at least two other people."
+            }
+        }
+    }
+}
