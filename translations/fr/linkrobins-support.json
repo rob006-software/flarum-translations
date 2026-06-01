@@ -11,7 +11,7 @@
                 "unknown_error": "Quelque chose s'est mal passé. Veuillez réessayer."
             },
             "permissions": {
-                "handle_tickets": "Gérer les tickets",
+                "handle_tickets": "Gérer les tickets d'assistance",
                 "manage_appeal_bans": "Gérer les recours contre les suspensions"
             },
             "categories": {
@@ -61,7 +61,7 @@
                 "banned_empty": "Aucun utilisateur n'est actuellement privé du droit de déposer des recours.",
                 "column_username": "Nom d'utilisateur",
                 "column_email": "Adresse de courriel",
-                "load_more": "",
+                "load_more": "Charger davantage",
                 "search_heading": "Rechercher un utilisateur",
                 "search_help": "Recherchez un utilisateur par son nom d'utilisateur ou son adresse de courriel pour l'empêcher ou l'autoriser à déposer des recours.",
                 "search_placeholder": "Nom d'utilisateur ou adresse de courriel…",
@@ -76,9 +76,9 @@
             },
             "rate_limits": {
                 "heading": "Limites de fréquence",
-                "intro": "Limiter la fréquence à laquelle les utilisateurs peuvent ouvrir des tickets et des recours contre une suspension.",
+                "intro": "Limiter la fréquence à laquelle les utilisateurs peuvent ouvrir des tickets d'assistance et des recours contre une suspension.",
                 "max_general_per_window": "Nombre maximal de tickets par période",
-                "max_general_per_window_help": "Nombre de tickets qu'un utilisateur peut ouvrir pendant la période indiquée ci-dessous.",
+                "max_general_per_window_help": "Nombre de tickets d'assistance qu'un utilisateur peut ouvrir pendant la période indiquée ci-dessous.",
                 "general_window_hours": "Période générale (en heures)",
                 "general_window_hours_help": "La période glissante, en heures, pour la limite du nombre de tickets.",
                 "max_appeals_per_window": "Nombre maximal de recours par période",
@@ -102,18 +102,18 @@
                 "loading": "Chargement en cours…",
                 "uploading_one": "Transfert d'un fichier en cours…",
                 "uploading_many": "Transfert de {count} fichiers en cours…",
-                "date_at_time": ""
+                "date_at_time": "{date} à {time}"
             },
             "notifications": {
                 "someone": "Un utilisateur",
                 "reply_from": "{name} a répondu à votre ticket",
                 "reply_generic": "Le support a répondu à votre ticket",
-                "new_ticket": "{name} a ouvert un nouveau ticket",
+                "new_ticket": "{name} a ouvert un nouveau ticket d'assistance",
                 "new_appeal": "{name} a ouvert un nouveau recours"
             },
             "settings": {
-                "notify_new_reply_label": "Quelqu'un répond à mon ticket",
-                "notify_new_ticket_label": "Un nouveau ticket est créé (par l'équipe)"
+                "notify_new_reply_label": "Quelqu'un répond à mon ticket d'assistance",
+                "notify_new_ticket_label": "Un nouveau ticket d'assistance est créé (par l'équipe)"
             },
             "status": {
                 "in_progress": "En cours",
@@ -126,10 +126,10 @@
                 "my_tickets": "Mes tickets",
                 "filter_all": "Tous",
                 "new_ticket": "Nouveau ticket",
-                "new_ticket_tooltip": "Ouvrir un nouveau ticket",
+                "new_ticket_tooltip": "Ouvrir un nouveau ticket d'assistance",
                 "empty_own": "Aucun ticket pour le moment. Cliquez sur « Nouveau ticket » pour en ouvrir un.",
                 "empty": "Aucun ticket à afficher.",
-                "untitled": ""
+                "untitled": "Sans titre"
             },
             "errors": {
                 "load_tickets": "Impossible de charger les tickets.",
@@ -149,14 +149,14 @@
                 "restore_ticket": "Impossible de restaurer le ticket.",
                 "delete_ticket_forever": "Impossible de supprimer définitivement le ticket.",
                 "post_reply": "Impossible de publier la réponse.",
-                "empty_body": ""
+                "empty_body": "Veuillez rédiger votre message avant de l'envoyer."
             },
             "compose": {
                 "appeal_banned": "Vous n'êtes pas autorisé à déposer un recours. Veuillez contacter l'administrateur par un autre moyen.",
                 "no_appeal_categories": "Aucune catégorie de recours n'est actuellement disponible.",
                 "no_categories": "Aucune catégorie n'a encore été créée. Veuillez contacter un administrateur.",
                 "title_appeal": "Déposer un recours",
-                "title": "Nouveau ticket",
+                "title": "Nouveau ticket d'assistance",
                 "choose_category": "Choisissez une catégorie pour commencer.",
                 "choose_category_appeal": "Choisissez une catégorie de recours pour commencer.",
                 "back_to_categories": "Retour",
@@ -166,9 +166,9 @@
                 "subject_placeholder": "Résumez votre problème en quelques mots",
                 "body_placeholder": "Rédigez un message...",
                 "submit": "Envoyer le ticket",
-                "subject_first": "",
-                "discard_confirm": "",
-                "message_placeholder_click": ""
+                "subject_first": "Veuillez saisir un objet pour votre ticket.",
+                "discard_confirm": "Vous avez un ticket non envoyé. Souhaitez-vous l'abandonner ?",
+                "message_placeholder_click": "Cliquez pour rédiger votre message…"
             },
             "show": {
                 "title": "Ticket",
@@ -179,12 +179,12 @@
                 "assigned_to": "Affecté à",
                 "unassigned": "Non affecté",
                 "decision": "Décision :",
-                "deleted_badge": ""
+                "deleted_badge": "Supprimé"
             },
             "decision": {
-                "pending": "",
-                "accepted": "",
-                "rejected": ""
+                "pending": "En attente",
+                "accepted": "Accepté",
+                "rejected": "Rejeté"
             },
             "staff": {
                 "set_status": "Définir le statut :"
@@ -196,18 +196,18 @@
                 "internal_note": "Note interne",
                 "post_reply": "Publier la réponse",
                 "posting": "Publication en cours…",
-                "discard_confirm": "",
+                "discard_confirm": "Vous avez des modifications non enregistrées. Souhaitez-vous les abandonner ?",
                 "placeholder": "Répondre…",
-                "edited_by": "Édité le {date} par {name}",
-                "edited_at": "Édité le {date}",
-                "edited_marker": ""
+                "edited_by": "Modifié par {name} le {date}",
+                "edited_at": "Modifié le {date}",
+                "edited_marker": "Modifié"
             },
             "action": {
-                "back": "",
+                "back": "Retour",
                 "delete_forever": "Supprimer définitivement",
                 "save_changes": "Enregistrer les modifications",
                 "saving": "Enregistrement en cours…",
-                "edit_reply": "",
+                "edit_reply": "Modifier la réponse",
                 "attach_files": "Joindre des fichiers",
                 "claim": "Affecter",
                 "unassign": "Désaffecter",
@@ -237,36 +237,36 @@
             "new_reply_subject": "[Assistance] Nouvelle réponse sur : {subject}",
             "new_ticket_subject": "[Assistance] Nouveau ticket : {subject}",
             "new_appeal_subject": "[Assistance / Recours] Nouveau ticket : {subject}",
-            "fallback_ticket": "votre ticket",
-            "from_support": "",
-            "from_a_user": "",
-            "new_reply_body": "",
-            "view_ticket": "",
-            "ticket_type_appeal": "",
-            "ticket_type_general": "",
-            "new_ticket_body": "",
-            "open_ticket": ""
+            "fallback_ticket": "votre ticket d'assistance",
+            "from_support": "Support",
+            "from_a_user": "un utilisateur",
+            "new_reply_body": "{name} a répondu à votre ticket d'assistance :",
+            "view_ticket": "Consulter le ticket",
+            "ticket_type_appeal": "ticket de recours",
+            "ticket_type_general": "ticket d'assistance",
+            "new_ticket_body": "Un nouveau {type} vient d'être ouvert par {name} :",
+            "open_ticket": "Ouvrir le ticket"
         },
         "api": {
-            "assign_staff_only": "",
-            "category_required": "",
-            "ticket_soft_delete_first": "",
-            "login_required_reply": "",
-            "reply_content_required": "",
-            "ticket_required": "",
-            "ticket_not_found": "",
-            "cannot_reply": "",
-            "login_required_edit": "",
-            "no_permission_edit": "",
-            "login_required": "",
-            "no_permission_delete": "",
-            "reply_soft_delete_first": "",
+            "assign_staff_only": "Les tickets ne peuvent être attribués qu'à l'équipe.",
+            "category_required": "Une catégorie est requise.",
+            "ticket_soft_delete_first": "Un ticket doit être supprimé temporairement avant de pouvoir être définitivement supprimé.",
+            "login_required_reply": "Vous devez être connecté pour répondre.",
+            "reply_content_required": "Le contenu de la réponse est requis.",
+            "ticket_required": "Un ticket est requis.",
+            "ticket_not_found": "Ticket introuvable.",
+            "cannot_reply": "Vous ne pouvez pas répondre à ce ticket.",
+            "login_required_edit": "Vous devez être connecté pour modifier une réponse.",
+            "no_permission_edit": "Vous n'avez pas la permission pour modifier les réponses.",
+            "login_required": "Vous devez être connecté.",
+            "no_permission_delete": "Vous n'avez pas la permission pour supprimer les réponses.",
+            "reply_soft_delete_first": "Un réponse doit être supprimée temporairement avant de pouvoir être définitivement supprimée.",
             "rate_limit": {
-                "appeal_banned": "",
-                "appeal_has_open": "",
-                "appeal_quota": "",
-                "general_quota": "",
-                "generic": ""
+                "appeal_banned": "Vous n'êtes pas autorisé à déposer un recours.",
+                "appeal_has_open": "Vous avez déjà déposé un recours. Veuillez attendre qu'il soit résolu avant d'en déposer un autre.",
+                "appeal_quota": "Vous avez déjà déposé {count} recours au cours des {days} derniers jours (limite : {limit}). Veuillez réessayer plus tard.",
+                "general_quota": "Vous avez ouvert {count} tickets au cours des {hours} dernières heures (limite : {limit}). Veuillez patienter avant d'en ouvrir un autre.",
+                "generic": "Impossible de créer un ticket pour le moment."
             }
         }
     }
