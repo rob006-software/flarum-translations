@@ -1046,7 +1046,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/irmmr/flarum-ext-rtl/V0.2.5/locale/en.yml',
 	],
 	'iseekup-oauth-connect' => [
-		'tag' => 'https://raw.githubusercontent.com/gungun88/oauth-connect/v0.1.11/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/gungun88/oauth-connect/v0.1.12/locale/en.yml',
 		'__builtInLanguages' => [
 			'zh_Hans',
 		],
