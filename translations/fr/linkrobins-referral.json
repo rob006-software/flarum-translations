@@ -9,7 +9,7 @@
                 "copy_link": "Copier le lien d'invitation",
                 "total_referrals": "Nombre total de recommandations",
                 "no_referrals": "Aucune recommandation pour le moment. Partagez votre code d'invitation pour commencer !",
-                "not_eligible": ""
+                "not_eligible": "Vous n’êtes pas encore éligible pour recevoir un code d'invitation personnel. Continuez à participer et revenez plus tard."
             },
             "sign_up": {
                 "invite_code_label": "Code d'invitation",
@@ -17,48 +17,48 @@
                 "invite_code_placeholder": "par exemple : K7XM2QNP"
             },
             "user_card": {
-                "referrals_singular": "",
-                "referrals_plural": ""
+                "referrals_singular": "{count} recommandation",
+                "referrals_plural": "{count} recommandations"
             }
         },
         "admin": {
             "settings": {
-                "title": "",
+                "title": "Général",
                 "require_label": "Exiger un code d'invitation pour s'inscrire",
                 "require_help": "Lorsque cette option est activée, les utilisateurs doivent saisir un code d'invitation valide pour finaliser leur inscription.",
                 "enabled": "Activé",
                 "disabled": "Désactivé"
             },
             "eligibility": {
-                "title": "",
-                "help": "",
-                "groups_label": "",
-                "groups_help": "",
-                "min_posts_label": "",
+                "title": "Éligibilité au code d'invitation personnel",
+                "help": "Contrôlez qui reçoit son propre code d'invitation personnel. Les administrateurs et les utilisateurs figurant sur la liste blanche sont toujours éligibles. Pour ignorer une règle, laissez-la vide ou attribuez-lui la valeur 0 ; lorsque plusieurs règles sont définies, l'utilisateur doit toutes les respecter.",
+                "groups_label": "Groupes autorisés",
+                "groups_help": "Si des groupes sont sélectionnés, seuls les membres de ces groupes recevront un code d'invitation personnel. Ne cochez aucune case pour autoriser tous les groupes.",
+                "min_posts_label": "Nombre minimum de messages",
                 "min_age_label": "",
-                "whitelist_label": "",
-                "whitelist_help": ""
+                "whitelist_label": "Liste blanche",
+                "whitelist_help": "Noms d'utilisateur qui reçoivent systématiquement un code d'invitation, quelles que soient les règles ci-dessus. Séparez-les par des virgules, des espaces ou des sauts de ligne."
             },
             "campaign": {
-                "title": "",
-                "help": "",
-                "label_label": "",
-                "label_placeholder": "",
-                "expiry_label": "",
-                "create": "",
-                "none": "",
-                "col_code": "",
-                "col_label": "",
-                "col_uses": "",
-                "col_expiry": "",
-                "no_expiry": "",
-                "expired": "",
-                "delete": "",
-                "confirm_delete": ""
+                "title": "Codes de campagne",
+                "help": "Codes d'invitation autonomes qui ne sont liés à aucun utilisateur — parfaits pour les réseaux sociaux ou les campagnes marketing. Ils ne créditent pas le parrain, mais leurs utilisations sont comptabilisées.",
+                "label_label": "Libellé",
+                "label_placeholder": "par exemple, le lancement de Twitter",
+                "expiry_label": "Expiration (facultatif)",
+                "create": "Créer un code",
+                "none": "Aucun code de campagne pour le moment.",
+                "col_code": "Code",
+                "col_label": "Libellé",
+                "col_uses": "Utilisations",
+                "col_expiry": "Expiration",
+                "no_expiry": "Jamais",
+                "expired": "expiré",
+                "delete": "Supprimer",
+                "confirm_delete": "Supprimer ce code de campagne ? Toute personne qui utilise ce code ne pourra plus s'inscrire avec."
             }
         },
         "api": {
-            "invalid_expiry": ""
+            "invalid_expiry": "Date d'expiration invalide."
         },
         "validation": {
             "required": "Un code d'invitation est requis pour s'inscrire.",
