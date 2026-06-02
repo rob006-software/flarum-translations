@@ -60,7 +60,8 @@
                 "banned_empty": "No users are currently banned from filing appeals.",
                 "column_username": "Username",
                 "column_email": "Email",
-                "load_more": "Load more"
+                "load_more": "Load more",
+                "view_banned_button": "View appeal-banned users"
             },
             "rate_limits": {
                 "heading": "Rate limits",
@@ -125,6 +126,7 @@
                 "load_ticket": "Could not load this ticket. It may have been deleted, or you may not have permission to view it.",
                 "update_assignment": "Could not update assignment.",
                 "update_status": "Could not update status.",
+                "update_decision": "Could not update the appeal decision.",
                 "save_edit": "Could not save the edit.",
                 "delete_reply": "Could not delete the reply.",
                 "restore_reply": "Could not restore the reply.",
@@ -171,7 +173,8 @@
                 "rejected": "Rejected"
             },
             "staff": {
-                "set_status": "Set status:"
+                "set_status": "Set status:",
+                "set_decision": "Appeal decision:"
             },
             "reply": {
                 "deleted_notice": "This reply was deleted.",

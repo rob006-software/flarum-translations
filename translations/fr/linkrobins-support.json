@@ -62,6 +62,7 @@
                 "column_username": "Nom d'utilisateur",
                 "column_email": "Adresse de courriel",
                 "load_more": "Charger davantage",
+                "view_banned_button": "",
                 "search_heading": "Rechercher un utilisateur",
                 "search_help": "Recherchez un utilisateur par son nom d'utilisateur ou son adresse de courriel pour l'empêcher ou l'autoriser à déposer des recours.",
                 "search_placeholder": "Nom d'utilisateur ou adresse de courriel…",
@@ -141,6 +142,7 @@
                 "load_ticket": "Impossible de charger ce ticket. Il a peut-être été supprimé, ou vous ne disposez peut-être pas des autorisations nécessaires pour le consulter.",
                 "update_assignment": "Impossible de mettre à jour l'affectation.",
                 "update_status": "Impossible de mettre à jour le status.",
+                "update_decision": "",
                 "save_edit": "Impossible d'enregistrer les modifications.",
                 "delete_reply": "Impossible de supprimer la réponse.",
                 "restore_reply": "Impossible de restaurer la réponse.",
@@ -187,7 +189,8 @@
                 "rejected": "Rejeté"
             },
             "staff": {
-                "set_status": "Définir le statut :"
+                "set_status": "Définir le statut :",
+                "set_decision": ""
             },
             "reply": {
                 "deleted_notice": "Cette réponse a été supprimée.",
