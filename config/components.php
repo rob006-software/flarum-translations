@@ -594,7 +594,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/Ralkage/flarum-ext-linked-accounts/v2.0.0-beta.8/locale/en.yml',
 	],
 	'ralkage-profile-messages' => [
-		'beta' => 'https://raw.githubusercontent.com/Ralkage/flarum-ext-profile-messages/v2.0.0-beta.8/locale/en.yml',
+		'beta' => 'https://raw.githubusercontent.com/Ralkage/flarum-ext-profile-messages/v2.0.0-rc.1/locale/en.yml',
 	],
 	'ralkage-word-censor' => [
 		'beta' => 'https://raw.githubusercontent.com/Ralkage/flarum-ext-word-censor/v2.0.0-beta.8/locale/en.yml',
