@@ -426,7 +426,7 @@ return [
 		],
 	],
 	'forumaker-yandex-smartcaptcha' => [
-		'tag' => 'https://raw.githubusercontent.com/forumaker/Yandex-SmartCaptcha/2.2.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/forumaker/Yandex-SmartCaptcha/2.2.2/resources/locale/en.yml',
 		'__builtInLanguages' => [
 			'ru',
 		],
