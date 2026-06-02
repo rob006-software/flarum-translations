@@ -11,7 +11,7 @@
                 "unknown_error": "Quelque chose s'est mal passé. Veuillez réessayer."
             },
             "permissions": {
-                "handle_tickets": "Gérer les tickets d'assistance",
+                "handle_tickets": "Gérer les tickets",
                 "manage_appeal_bans": "Gérer les recours contre les suspensions"
             },
             "categories": {
@@ -62,7 +62,7 @@
                 "column_username": "Nom d'utilisateur",
                 "column_email": "Adresse de courriel",
                 "load_more": "Charger davantage",
-                "view_banned_button": "",
+                "view_banned_button": "Afficher les utilisateurs dont le droit de déposer un recours a été suspendu",
                 "search_heading": "Rechercher un utilisateur",
                 "search_help": "Recherchez un utilisateur par son nom d'utilisateur ou son adresse de courriel pour l'empêcher ou l'autoriser à déposer des recours.",
                 "search_placeholder": "Nom d'utilisateur ou adresse de courriel…",
@@ -77,9 +77,9 @@
             },
             "rate_limits": {
                 "heading": "Limites de fréquence",
-                "intro": "Limiter la fréquence à laquelle les utilisateurs peuvent ouvrir des tickets d'assistance et des recours contre une suspension.",
+                "intro": "Limiter la fréquence à laquelle les utilisateurs peuvent ouvrir des tickets et des recours contre une suspension.",
                 "max_general_per_window": "Nombre maximal de tickets par période",
-                "max_general_per_window_help": "Nombre de tickets d'assistance qu'un utilisateur peut ouvrir pendant la période indiquée ci-dessous.",
+                "max_general_per_window_help": "Nombre de tickets qu'un utilisateur peut ouvrir pendant la période indiquée ci-dessous.",
                 "general_window_hours": "Période générale (en heures)",
                 "general_window_hours_help": "La période glissante, en heures, pour la limite du nombre de tickets.",
                 "max_appeals_per_window": "Nombre maximal de recours par période",
@@ -109,12 +109,12 @@
                 "someone": "Un utilisateur",
                 "reply_from": "{name} a répondu à votre ticket",
                 "reply_generic": "Le support a répondu à votre ticket",
-                "new_ticket": "{name} a ouvert un nouveau ticket d'assistance",
+                "new_ticket": "{name} a ouvert un nouveau ticket",
                 "new_appeal": "{name} a ouvert un nouveau recours"
             },
             "settings": {
-                "notify_new_reply_label": "Quelqu'un répond à mon ticket d'assistance",
-                "notify_new_ticket_label": "Un nouveau ticket d'assistance est créé (par l'équipe)"
+                "notify_new_reply_label": "Quelqu'un répond à mon ticket",
+                "notify_new_ticket_label": "Un nouveau ticket est créé (par l'équipe)"
             },
             "status": {
                 "in_progress": "En cours",
@@ -127,7 +127,7 @@
                 "my_tickets": "Mes tickets",
                 "filter_all": "Tous",
                 "new_ticket": "Nouveau ticket",
-                "new_ticket_tooltip": "Ouvrir un nouveau ticket d'assistance",
+                "new_ticket_tooltip": "Ouvrir un nouveau ticket",
                 "empty_own": "Aucun ticket pour le moment. Cliquez sur « Nouveau ticket » pour en ouvrir un.",
                 "empty": "Aucun ticket à afficher.",
                 "untitled": "Sans titre"
@@ -142,7 +142,7 @@
                 "load_ticket": "Impossible de charger ce ticket. Il a peut-être été supprimé, ou vous ne disposez peut-être pas des autorisations nécessaires pour le consulter.",
                 "update_assignment": "Impossible de mettre à jour l'affectation.",
                 "update_status": "Impossible de mettre à jour le status.",
-                "update_decision": "",
+                "update_decision": "Impossible de mettre à jour la décision de recours.",
                 "save_edit": "Impossible d'enregistrer les modifications.",
                 "delete_reply": "Impossible de supprimer la réponse.",
                 "restore_reply": "Impossible de restaurer la réponse.",
@@ -158,7 +158,7 @@
                 "no_appeal_categories": "Aucune catégorie de recours n'est actuellement disponible.",
                 "no_categories": "Aucune catégorie n'a encore été créée. Veuillez contacter un administrateur.",
                 "title_appeal": "Déposer un recours",
-                "title": "Nouveau ticket d'assistance",
+                "title": "Nouveau ticket",
                 "choose_category": "Choisissez une catégorie pour commencer.",
                 "choose_category_appeal": "Choisissez une catégorie de recours pour commencer.",
                 "back_to_categories": "Retour",
@@ -190,7 +190,7 @@
             },
             "staff": {
                 "set_status": "Définir le statut :",
-                "set_decision": ""
+                "set_decision": "Décision :"
             },
             "reply": {
                 "deleted_notice": "Cette réponse a été supprimée.",
@@ -237,16 +237,16 @@
             }
         },
         "email": {
-            "new_reply_subject": "[Assistance] Nouvelle réponse sur : {subject}",
-            "new_ticket_subject": "[Assistance] Nouveau ticket : {subject}",
-            "new_appeal_subject": "[Assistance / Recours] Nouveau ticket : {subject}",
-            "fallback_ticket": "votre ticket d'assistance",
+            "new_reply_subject": "[Support] Nouvelle réponse sur : {subject}",
+            "new_ticket_subject": "[Support] Nouveau ticket : {subject}",
+            "new_appeal_subject": "[Recours] Nouveau ticket : {subject}",
+            "fallback_ticket": "votre ticket",
             "from_support": "Support",
             "from_a_user": "un utilisateur",
-            "new_reply_body": "{name} a répondu à votre ticket d'assistance :",
+            "new_reply_body": "{name} a répondu à votre ticket :",
             "view_ticket": "Consulter le ticket",
             "ticket_type_appeal": "ticket de recours",
-            "ticket_type_general": "ticket d'assistance",
+            "ticket_type_general": "ticket",
             "new_ticket_body": "Un nouveau {type} vient d'être ouvert par {name} :",
             "open_ticket": "Ouvrir le ticket"
         },
