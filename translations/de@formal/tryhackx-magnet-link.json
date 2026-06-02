@@ -27,8 +27,8 @@
                 "tooltip_enabled_help": "Statistiken zu Magnet-Links anzeigen, wenn man mit der Maus über Beiträge in der Diskussionsliste fährt.",
                 "tooltip_max_magnets_label": "Maximale Anzahl von Magnets im Tooltip",
                 "tooltip_max_magnets_help": "Maximale Anzahl der Magnet-Links, die im Tooltip der Diskussion angezeigt werden. Setze den Wert auf 0, um die Anzahl nicht zu begrenzen.",
-                "tooltip_show_permission_errors_label": "",
-                "tooltip_show_permission_errors_help": "",
+                "tooltip_show_permission_errors_label": "Berechtigungsnachricht im Tooltip anzeigen",
+                "tooltip_show_permission_errors_help": "Wenn ein Gast oder ein Nutzer ohne Berechtigung mit der Maus über eine Diskussion mit Magnet-Links fährt, wird im Tooltip eine eindeutige Meldung angezeigt („Du musst angemeldet sein…“), anstatt nur kurz den Ladezustand anzuzeigen und dann zu verschwinden. Dies entspricht dem Verhalten innerhalb von Beiträgen. Standardmäßig aktiviert.",
                 "rename_enabled_label": "Benutzerdefinierte Torrent-Namen aktivieren",
                 "rename_enabled_help": "Erlaube den Autoren von Beiträgen, die Anzeigenamen von Magnet-Links in ihren eigenen Beiträgen umzubenennen.",
                 "ban_enabled_label": "Spamschutz aktivieren",
@@ -43,11 +43,11 @@
                 "self_interval_help": "Wie lange es dauert, bis dieselbe IP-Adresse die Klickzahl für denselben Magnet-Link erneut erhöhen kann."
             },
             "reparse": {
-                "label": "",
-                "help": "",
-                "button": "",
-                "success": "",
-                "error": ""
+                "label": "Magnet Rückfüllung",
+                "help": "Magnet-Links, die vor der Aktivierung dieser Erweiterung gepostet wurden, werden als Klartext gespeichert, sodass sie in Beiträgen nicht dargestellt werden und auch nicht in Tooltips erscheinen. Führe diesen Befehl einmal aus (nach der Aktivierung der Erweiterung oder dem Importieren alter Inhalte), um sie neu zu parsen. Verwende bei sehr großen Foren stattdessen die Befehlszeile: php flarum magnet:reparse",
+                "button": "Ältere Magnet-Links neu analysieren",
+                "success": "{count} Beiträge neu analysiert.",
+                "error": "Das erneute Parsen der Magnet-Links ist fehlgeschlagen. Überprüfe die Serverprotokolle."
             },
             "support": {
                 "button": "Unterstütze die Entwicklung",
