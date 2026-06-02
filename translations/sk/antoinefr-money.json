@@ -2,22 +2,22 @@
     "antoinefr-money": {
         "admin": {
             "settings": {
-                "title": "",
-                "moneyforpost": "",
-                "moneyfordiscussion": "",
+                "title": "Nastavenia",
+                "moneyforpost": "Peniaze za nový príspevok",
+                "moneyfordiscussion": "Peniaze za novú diskusiu",
                 "moneyname": "",
                 "helpmoneyname": "",
                 "postminimumlength": "",
                 "helppostminimumlength": "",
                 "ignore_notifying_users": "",
-                "noshowzero": "",
+                "noshowzero": "Nezobrazovať, pokiaľ je hodnota nulová",
                 "autoremove": "",
                 "cascaderemove": "",
-                "moneyforlike": "",
-                "helpextensionlikes": ""
+                "moneyforlike": "Peniaze za označenie \"páči sa mi\"",
+                "helpextensionlikes": "Je potrebný doplnok <code>flarum/likes</code>"
             },
             "permissions": {
-                "edit_money_label": "",
+                "edit_money_label": "Upraviť peniaze",
                 "disable_money_label": ""
             },
             "autoremove": [
@@ -32,12 +32,12 @@
         },
         "forum": {
             "user_controls": {
-                "money_button": ""
+                "money_button": "Upraviť peniaze"
             },
             "modal": {
-                "title": "",
-                "current": "",
-                "submit_button": ""
+                "title": "Peniaze používateľa {username}",
+                "current": "Teraz:",
+                "submit_button": "=> core.ref.save_changes"
             }
         }
     }

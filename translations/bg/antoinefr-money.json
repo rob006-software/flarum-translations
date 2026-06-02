@@ -2,42 +2,42 @@
     "antoinefr-money": {
         "admin": {
             "settings": {
-                "title": "",
-                "moneyforpost": "",
-                "moneyfordiscussion": "",
+                "title": "Настройки",
+                "moneyforpost": "Пари, предоставени за нова публикация",
+                "moneyfordiscussion": "Пари, предоставени за нова дискусия",
                 "moneyname": "",
                 "helpmoneyname": "",
                 "postminimumlength": "",
                 "helppostminimumlength": "",
                 "ignore_notifying_users": "",
-                "noshowzero": "",
-                "autoremove": "",
+                "noshowzero": "Не показвайте, ако стойността е нула",
+                "autoremove": "Автоматично обновяване на парите",
                 "cascaderemove": "",
-                "moneyforlike": "",
-                "helpextensionlikes": ""
+                "moneyforlike": "Пари, предоставени при харесване на публикацията",
+                "helpextensionlikes": "Изисква разширението <code>flarum/likes</code>"
             },
             "permissions": {
-                "edit_money_label": "",
+                "edit_money_label": "Редакция на парите",
                 "disable_money_label": ""
             },
             "autoremove": [
-                "",
-                "",
-                ""
+                "Никога не премахвайте пари",
+                "Когато дискусията/публикацията е скрита или възстановена (по подразбиране)",
+                "Когато дискусията/публикацията бъде изтрита"
             ],
             "automoderator": {
-                "metric_name": "",
-                "action_name": ""
+                "metric_name": "Пари",
+                "action_name": "Дай пари"
             }
         },
         "forum": {
             "user_controls": {
-                "money_button": ""
+                "money_button": "Редактирай пари"
             },
             "modal": {
-                "title": "",
-                "current": "",
-                "submit_button": ""
+                "title": "Парите на {username}",
+                "current": "Текущо:",
+                "submit_button": "=> core.ref.запази_промени"
             }
         }
     }

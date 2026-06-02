@@ -2,42 +2,42 @@
     "antoinefr-money": {
         "admin": {
             "settings": {
-                "title": "",
-                "moneyforpost": "",
-                "moneyfordiscussion": "",
+                "title": "设置",
+                "moneyforpost": "回帖一次可获得",
+                "moneyfordiscussion": "发贴一次可获得",
                 "moneyname": "",
                 "helpmoneyname": "",
                 "postminimumlength": "",
                 "helppostminimumlength": "",
-                "ignore_notifying_users": "",
-                "noshowzero": "",
-                "autoremove": "",
-                "cascaderemove": "",
-                "moneyforlike": "",
-                "helpextensionlikes": ""
+                "ignore_notifying_users": "当检查回复的字数时，只关注内容部分",
+                "noshowzero": "若值为 0 则不显示",
+                "autoremove": "重算计算财富",
+                "cascaderemove": "当讨论被删除时移除帖子的奖励",
+                "moneyforlike": "获得点赞时可获得",
+                "helpextensionlikes": "需要 <code>flarum/likes</code> 扩展程序"
             },
             "permissions": {
-                "edit_money_label": "",
-                "disable_money_label": ""
+                "edit_money_label": "调整财富",
+                "disable_money_label": "禁用奖励"
             },
             "autoremove": [
-                "",
-                "",
-                ""
+                "财富只增不减",
+                "隐藏或恢复主题/帖子时（默认）",
+                "删除主题/帖子时"
             ],
             "automoderator": {
-                "metric_name": "",
-                "action_name": ""
+                "metric_name": "财富",
+                "action_name": "奖励财富"
             }
         },
         "forum": {
             "user_controls": {
-                "money_button": ""
+                "money_button": "修改财富"
             },
             "modal": {
-                "title": "",
-                "current": "",
-                "submit_button": ""
+                "title": "{username} 的财富",
+                "current": "当前：",
+                "submit_button": "=> core.ref.save_changes"
             }
         }
     }

@@ -2,22 +2,22 @@
     "antoinefr-money": {
         "admin": {
             "settings": {
-                "title": "",
-                "moneyforpost": "",
-                "moneyfordiscussion": "",
+                "title": "Teñşeu",
+                "moneyforpost": "Jaña habarlama üşın moneta alyndy",
+                "moneyfordiscussion": "Jaña talqylau üşın alynğan monetalar",
                 "moneyname": "",
                 "helpmoneyname": "",
                 "postminimumlength": "",
                 "helppostminimumlength": "",
                 "ignore_notifying_users": "",
-                "noshowzero": "",
+                "noshowzero": "Män nölge teñ bolsa, körsetpeñız",
                 "autoremove": "",
                 "cascaderemove": "",
-                "moneyforlike": "",
-                "helpextensionlikes": ""
+                "moneyforlike": "Habarlama maqūldanğan jağdaida monetalar alyndy",
+                "helpextensionlikes": "<code>flarum/likes</code> keñeitımı qajet"
             },
             "permissions": {
-                "edit_money_label": "",
+                "edit_money_label": "Монеталарды өңдеу",
                 "disable_money_label": ""
             },
             "autoremove": [
@@ -26,18 +26,18 @@
                 ""
             ],
             "automoderator": {
-                "metric_name": "",
-                "action_name": ""
+                "metric_name": "Monetalar",
+                "action_name": "Monetany berıñız"
             }
         },
         "forum": {
             "user_controls": {
-                "money_button": ""
+                "money_button": "Monetany öñdeu"
             },
             "modal": {
-                "title": "",
-                "current": "",
-                "submit_button": ""
+                "title": "{username} monetasy",
+                "current": "Ağymdağy:",
+                "submit_button": "=> core.ref.save_changes"
             }
         }
     }

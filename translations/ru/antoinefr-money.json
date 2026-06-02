@@ -2,42 +2,42 @@
     "antoinefr-money": {
         "admin": {
             "settings": {
-                "title": "",
-                "moneyforpost": "",
-                "moneyfordiscussion": "",
+                "title": "Настройки",
+                "moneyforpost": "Монеток получено за новое сообщение",
+                "moneyfordiscussion": "Монеток получено за новую дискуссию",
                 "moneyname": "",
                 "helpmoneyname": "",
                 "postminimumlength": "",
                 "helppostminimumlength": "",
-                "ignore_notifying_users": "",
-                "noshowzero": "",
-                "autoremove": "",
-                "cascaderemove": "",
-                "moneyforlike": "",
-                "helpextensionlikes": ""
+                "ignore_notifying_users": "При проверке количества слов в ответах обращать внимание только на раздел содержимого",
+                "noshowzero": "Не отображать нулевое значение",
+                "autoremove": "Автоматическое обновление монеток",
+                "cascaderemove": "Снимать монетки за публикации при удалении дискуссии",
+                "moneyforlike": "Монеток получено если сообщение одобрили",
+                "helpextensionlikes": "Требуется расширение <code>flarum/likes</code>"
             },
             "permissions": {
-                "edit_money_label": "",
-                "disable_money_label": ""
+                "edit_money_label": "Править монетки",
+                "disable_money_label": "Отключить монетки"
             },
             "autoremove": [
-                "",
-                "",
-                ""
+                "Никогда не снимать монетки",
+                "Когда дискуссия/запись скрыта или восстановлена (по умолчанию)",
+                "Когда дискуссия/сообщение удаляется"
             ],
             "automoderator": {
-                "metric_name": "",
-                "action_name": ""
+                "metric_name": "Монетки",
+                "action_name": "Давайте монетки"
             }
         },
         "forum": {
             "user_controls": {
-                "money_button": ""
+                "money_button": "Править монетки"
             },
             "modal": {
-                "title": "",
-                "current": "",
-                "submit_button": ""
+                "title": "монеток у {username}",
+                "current": "Текущие:",
+                "submit_button": "=> core.ref.save_changes"
             }
         }
     }

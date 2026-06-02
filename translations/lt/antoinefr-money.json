@@ -2,22 +2,22 @@
     "antoinefr-money": {
         "admin": {
             "settings": {
-                "title": "",
-                "moneyforpost": "",
-                "moneyfordiscussion": "",
+                "title": "Nustatymai",
+                "moneyforpost": "Pinigai skirti naujam postui",
+                "moneyfordiscussion": "Pinigai duoti naujai diskusijai",
                 "moneyname": "",
                 "helpmoneyname": "",
                 "postminimumlength": "",
                 "helppostminimumlength": "",
                 "ignore_notifying_users": "",
-                "noshowzero": "",
+                "noshowzero": "Nerodyti, jei reikšmė lygi nuliui",
                 "autoremove": "",
                 "cascaderemove": "",
-                "moneyforlike": "",
-                "helpextensionlikes": ""
+                "moneyforlike": "Pinigai, duodami, kai įrašas patiko",
+                "helpextensionlikes": "Reikia plėtinio <code>flarum/likes</code>"
             },
             "permissions": {
-                "edit_money_label": "",
+                "edit_money_label": "Redaguoti pinigus",
                 "disable_money_label": ""
             },
             "autoremove": [
@@ -26,18 +26,18 @@
                 ""
             ],
             "automoderator": {
-                "metric_name": "",
-                "action_name": ""
+                "metric_name": "Pinigai",
+                "action_name": "Duoti pinigų"
             }
         },
         "forum": {
             "user_controls": {
-                "money_button": ""
+                "money_button": "Redaguoti pinigus"
             },
             "modal": {
-                "title": "",
-                "current": "",
-                "submit_button": ""
+                "title": "{username} pinigai",
+                "current": "Dabartinis:",
+                "submit_button": "=> core.ref.save_changes"
             }
         }
     }

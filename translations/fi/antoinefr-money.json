@@ -2,42 +2,42 @@
     "antoinefr-money": {
         "admin": {
             "settings": {
-                "title": "",
-                "moneyforpost": "",
-                "moneyfordiscussion": "",
+                "title": "Asetukset",
+                "moneyforpost": "Uudesta viestistä annettava raha",
+                "moneyfordiscussion": "Uudesta keskustelusta annettava raha",
                 "moneyname": "",
                 "helpmoneyname": "",
                 "postminimumlength": "",
                 "helppostminimumlength": "",
-                "ignore_notifying_users": "",
-                "noshowzero": "",
-                "autoremove": "",
-                "cascaderemove": "",
-                "moneyforlike": "",
-                "helpextensionlikes": ""
+                "ignore_notifying_users": "Kun lasketaan sanamäärää, keskity vain sisältöosioon",
+                "noshowzero": "Älä näytä arvoa jos se on nolla",
+                "autoremove": "Päivitä raha automaattisesti",
+                "cascaderemove": "Poista raha viesteistä, kun keskustelu poistetaan",
+                "moneyforlike": "Tykätystä viestistä annettava raha",
+                "helpextensionlikes": "Vaatii <code>flarum/likes</code> lisäosan"
             },
             "permissions": {
-                "edit_money_label": "",
-                "disable_money_label": ""
+                "edit_money_label": "Muokkaa rahaa",
+                "disable_money_label": "Ota raha pois käytöstä"
             },
             "autoremove": [
-                "",
-                "",
-                ""
+                "Älä koskaan poista rahaa",
+                "Kun keskustelu/viesti on piilotettu tai palautettu (oletus)",
+                "Kun keskustelu/viesti on poistettu"
             ],
             "automoderator": {
-                "metric_name": "",
-                "action_name": ""
+                "metric_name": "Raha",
+                "action_name": "Anna rahaa"
             }
         },
         "forum": {
             "user_controls": {
-                "money_button": ""
+                "money_button": "Muokkaa rahaa"
             },
             "modal": {
-                "title": "",
-                "current": "",
-                "submit_button": ""
+                "title": "{username} rahat",
+                "current": "Nykyinen:",
+                "submit_button": "=> core.ref.save_changes"
             }
         }
     }

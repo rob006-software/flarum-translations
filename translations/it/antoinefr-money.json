@@ -2,22 +2,22 @@
     "antoinefr-money": {
         "admin": {
             "settings": {
-                "title": "",
-                "moneyforpost": "",
-                "moneyfordiscussion": "",
+                "title": "Impostazioni",
+                "moneyforpost": "Ricompensa per un nuovo post",
+                "moneyfordiscussion": "Ricompensa per una nuova discussione",
                 "moneyname": "",
                 "helpmoneyname": "",
                 "postminimumlength": "",
                 "helppostminimumlength": "",
                 "ignore_notifying_users": "",
-                "noshowzero": "",
+                "noshowzero": "Non mostrare se il valore è zero",
                 "autoremove": "",
                 "cascaderemove": "",
-                "moneyforlike": "",
-                "helpextensionlikes": ""
+                "moneyforlike": "Soldi dati quando un post è piaciuto",
+                "helpextensionlikes": "Richiede l'estensione <code>flarum/likes</code>"
             },
             "permissions": {
-                "edit_money_label": "",
+                "edit_money_label": "Modifica moneta",
                 "disable_money_label": ""
             },
             "autoremove": [
@@ -32,12 +32,12 @@
         },
         "forum": {
             "user_controls": {
-                "money_button": ""
+                "money_button": "Modifica moneta"
             },
             "modal": {
-                "title": "",
-                "current": "",
-                "submit_button": ""
+                "title": "Soldi di {username}",
+                "current": "Attuale:",
+                "submit_button": "=> core.ref.save_changes"
             }
         }
     }
