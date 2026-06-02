@@ -144,7 +144,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/flarum/bbcode/v2.0.0-rc.2/locale/en.yml',
 	],
 	'flarum-emoji' => [
-		'beta' => 'https://raw.githubusercontent.com/flarum/emoji/v2.0.0-beta.8/locale/en.yml',
+		'beta' => 'https://raw.githubusercontent.com/flarum/emoji/v2.0.0-rc.2/locale/en.yml',
 	],
 	'flarum-extension-manager' => [
 		'beta' => 'https://raw.githubusercontent.com/flarum/extension-manager/v2.0.0-beta.8/locale/en.yml',
