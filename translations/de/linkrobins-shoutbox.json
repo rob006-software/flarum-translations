@@ -1,8 +1,8 @@
 {
     "linkrobins-shoutbox": {
         "forum": {
-            "nav": "",
-            "page_title": "",
+            "nav": "Shoutbox",
+            "page_title": "Shoutbox",
             "widget": {
                 "title": "Shoutbox",
                 "placeholder": "Sag etwas...",
@@ -12,7 +12,7 @@
                 "delete_confirm": "Diese Nachricht löschen?",
                 "delete_error": "Shout konnte nicht gelöscht werden. Bitte versuche es erneut.",
                 "load_error": "Nachrichten konnten nicht geladen werden.",
-                "rate_limited": ""
+                "rate_limited": "Du sendest Nachrichten zu schnell hintereinander. Bitte warte einen Moment."
             }
         },
         "admin": {
@@ -21,8 +21,8 @@
                 "height_help": "Höhe des Nachrichtenbereichs in Pixeln. Der Standardwert beträgt 320."
             },
             "permissions": {
-                "shout": "",
-                "moderate": ""
+                "shout": "Shouts veröffentlichen",
+                "moderate": "Shouts anderer Benutzer löschen"
             }
         }
     }
