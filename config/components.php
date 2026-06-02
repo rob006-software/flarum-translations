@@ -962,7 +962,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/stickiest/1.0.3/locale/en.yml',
 	],
 	'huseyinfiliz-sticky-title' => [
-		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/sticky-title/v1.8.2/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/sticky-title/1.8.3/locale/en.yml',
 	],
 	'huseyinfiliz-traderfeedback' => [
 		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/traderfeedback/v2.1/resources/locale/en.yml',
