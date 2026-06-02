@@ -496,15 +496,9 @@ return [
 	],
 	'linkrobins-blog' => [
 		'tag' => 'https://raw.githubusercontent.com/linkrobins/blog/v1.2.0/locale/en.yml',
-		'__builtInLanguages' => [
-			'zh_Hans',
-		],
 	],
 	'linkrobins-clipboard' => [
 		'tag' => 'https://raw.githubusercontent.com/linkrobins/clipboard/v1.1.1/locale/en.yml',
-		'__builtInLanguages' => [
-			'zh_Hans',
-		],
 	],
 	'linkrobins-countdown-widget' => [
 		'tag' => 'https://raw.githubusercontent.com/linkrobins/countdown-widget/v1.1.1/locale/en.yml',
@@ -523,17 +517,9 @@ return [
 	],
 	'linkrobins-post-num' => [
 		'tag' => 'https://raw.githubusercontent.com/linkrobins/post-num/v1.1.1/locale/en.yml',
-		'__builtInLanguages' => [
-			'zh_Hans',
-		],
 	],
 	'linkrobins-referral' => [
 		'tag' => 'https://raw.githubusercontent.com/linkrobins/referral/v1.2.1/locale/en.yml',
-		'__builtInLanguages' => [
-			'es',
-			'ko',
-			'zh_Hans',
-		],
 	],
 	'linkrobins-shoutbox' => [
 		'tag' => 'https://raw.githubusercontent.com/linkrobins/shoutbox/v1.3.0/locale/en.yml',
