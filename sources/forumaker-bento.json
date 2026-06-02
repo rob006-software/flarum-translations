@@ -2,11 +2,20 @@
     "forumaker-bento": {
         "admin": {
             "settings": {
-                "section_grid": "Tiles",
-                "columns_desktop": "Number of tiles per row",
-                "columns_desktop_help": "From 2 to 6 tiles per row on desktop. Mobile uses the standard Flarum navigation",
+                "section_layout": "Appearance",
+                "layout": "Navigation style",
+                "layout_help": "Tiles — cards with icon and label. Pills — compact inline items",
+                "layout_tiles": "Tiles",
+                "layout_pills": "Pills",
+                "pill_shape": "Shape",
+                "pill_shape_help": "Capsule — fully rounded edges. Rectangle — closer to the standard Flarum style",
+                "pill_shape_capsule": "Capsule",
+                "pill_shape_rect": "Rectangle",
+                "section_grid": "Settings",
+                "columns_desktop": "Items per row",
+                "columns_desktop_help": "From 2 to 6 per row on desktop. Mobile uses the standard Flarum navigation",
                 "plain_create_button": "Remove fill from the «New Discussion» button",
-                "plain_create_button_help": "Make it visually identical to the neighbouring tiles — no colored background"
+                "plain_create_button_help": "Make it visually identical to the neighbouring items — no colored background"
             }
         }
     }
