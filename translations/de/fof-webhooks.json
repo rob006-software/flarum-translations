@@ -49,7 +49,7 @@
                 "desc": "Anpassbare ausgehende Webhooks für dein Forum."
             },
             "settings": {
-                "debug_label": "Debuggen",
+                "debug_label": "Debug-Details hinzufügen",
                 "debug_help": "Fügt der Flarum-Protokolldatei zusätzliche Protokolle hinzu, um Probleme mit Webhooks und/oder Ereignissen zu beheben, die nicht richtig funktionieren.",
                 "item": {
                     "tag_any_label": "Beliebiger Tag",
@@ -62,7 +62,7 @@
                 "help": {
                     "disabled": "Dieser Webhook ist deaktiviert, weil keine Ereignisse für ihn aktiviert sind.",
                     "general": "Hier kannst du Webhooks in deinem Forum hinzufügen, bearbeiten und entfernen.",
-                    "tags": "Du kannst Webhooks auf bestimmte Tags beschränken. Wenn du bestimmte Tags auswählst, wird der Webhook nur ausgelöst, wenn die Veranstaltung auf einer Ressource ausgelöst wird, die eines der ausgewählten Tags hat.",
+                    "tags": "Du kannst Webhooks auf bestimmte Themen beschränken. Wenn du bestimmte Themen auswählst, wird der Webhook nur ausgelöst, wenn das Ereignis auf einer Ressource ausgelöst wird, die eines der ausgewählten Thema hat.",
                     "url": "Der Endpunkt des Webhooks, der ausgeführt werden soll"
                 },
                 "modal": {
