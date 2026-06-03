@@ -528,7 +528,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/linkrobins/referral/v1.2.1/locale/en.yml',
 	],
 	'linkrobins-shoutbox' => [
-		'tag' => 'https://raw.githubusercontent.com/linkrobins/shoutbox/v1.3.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/linkrobins/shoutbox/v1.3.4/locale/en.yml',
 	],
 	'linkrobins-support' => [
 		'tag' => 'https://raw.githubusercontent.com/linkrobins/support/v1.4.1/locale/en.yml',
