@@ -2,17 +2,17 @@
     "ramon-auth-modals": {
         "admin": {
             "settings": {
-                "section_image": "",
-                "section_header": "",
-                "image_label": "",
-                "image_help": "",
-                "show_header_buttons_label": "",
-                "show_header_buttons_help": ""
+                "section_image": "Фоновое изображение модального окна",
+                "section_header": "Кнопки в шапке",
+                "image_label": "Изображение для окна входа",
+                "image_help": "Фоновое изображение, отображаемое в правой части окон входа, регистрации и восстановления пароля.",
+                "show_header_buttons_label": "Показывать кнопки «Вход» и «Регистрация» в шапке для гостей",
+                "show_header_buttons_help": "Отображать кнопки «Вход» и «Регистрация» в дополнительной навигации шапки для неавторизованных пользователей."
             }
         },
         "forum": {
             "header": {
-                "or": ""
+                "or": "или"
             }
         }
     }
