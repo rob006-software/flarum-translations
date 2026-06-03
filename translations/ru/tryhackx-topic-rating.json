@@ -33,7 +33,21 @@
                 "display_when_restricted_help": "Выберите, что будут видеть пользователи, которым запрещено оценивать дискуссию из-за ограничений тегов. «Звёзды только для просмотра» сохраняет отображение рейтинга, но отключает возможность голосования. «Скрыть виджет рейтинга» полностью скрывает рейтинг. «Показать сообщение» отображает краткое уведомление вместо рейтинга.",
                 "display_when_restricted_readonly": "Звёзды только для просмотра — по умолчанию",
                 "display_when_restricted_hidden": "Скрыть виджет рейтинга",
-                "display_when_restricted_message": "Показать короткое сообщение"
+                "display_when_restricted_message": "Показать короткое сообщение",
+                "list_display_heading": "",
+                "list_style_desktop_label": "",
+                "list_style_mobile_label": "",
+                "list_style_help": "",
+                "list_style_full_meta": "",
+                "list_style_single_filled_meta": "",
+                "list_style_single_bucket_meta": "",
+                "list_style_full_title": "",
+                "list_style_single_filled_title": "",
+                "list_style_single_bucket_title": "",
+                "single_clickable_label": "",
+                "single_clickable_help": "",
+                "single_modal_rate_label": "",
+                "single_modal_rate_help": ""
             },
             "permissions": {
                 "rate_label": "Оценивать дискуссии",
@@ -76,8 +90,28 @@
                 "title": "Оценки ({count})",
                 "empty": "Пока нет оценок.",
                 "deleted_user": "[удалён]",
-                "updated_prefix": "обновлено "
+                "updated_prefix": "обновлено ",
+                "rate_label": ""
             }
+        }
+    },
+    "tryhackx-avatars": {
+        "admin": {
+            "title": "",
+            "help": "",
+            "thumbs_inactive": "",
+            "save_error": "",
+            "device_desktop": "",
+            "device_mobile": "",
+            "mode_show": "",
+            "mode_with_image": "",
+            "mode_always": "",
+            "mode_hide": "",
+            "hint_show": "",
+            "hint_hide": "",
+            "hint_with_image": "",
+            "hint_always": "",
+            "hint_replace_no_thumbs": ""
         }
     }
 }

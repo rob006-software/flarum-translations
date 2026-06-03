@@ -18,12 +18,7 @@
                 "fallback_mode_help": "Choose what to display when a discussion has no usable image, or when the image fails to load.",
                 "fallback_mode_none": "No thumbnail (content shifts left)",
                 "fallback_mode_default": "Built-in placeholder",
-                "fallback_mode_custom": "Custom uploaded image",
-                "avatar_mode_label": "Replace avatar with thumbnail",
-                "avatar_mode_help": "Use the thumbnail in place of the author avatar in the discussion list. \"Always\" needs a fallback (set above) so there is always something to show when a discussion has no image.",
-                "avatar_mode_none": "Off – show both avatar and thumbnail",
-                "avatar_mode_with_image": "Replace only when the discussion has an image",
-                "avatar_mode_always": "Always replace (requires a fallback)"
+                "fallback_mode_custom": "Custom uploaded image"
             },
             "fallback": {
                 "title": "Fallback image library",
@@ -42,6 +37,25 @@
                 "copy": "Copy address",
                 "thanks": "Thank you for your support!"
             }
+        }
+    },
+    "tryhackx-avatars": {
+        "admin": {
+            "title": "Avatars in the discussion list",
+            "help": "Choose how the author avatar behaves in the discussion list, separately for desktop and mobile. This is a shared setting — changing it here also updates it in Thumb Sliders / Topic Rating, whichever you have installed.",
+            "thumbs_inactive": "Thumb Sliders is not active, so there is no thumbnail to replace the avatar with. The \"replace\" options below behave like \"Show avatar\" — use \"Hide avatar\" to drop avatars (e.g. for a lighter list on mobile).",
+            "save_error": "Could not save the avatar setting. Please try again.",
+            "device_desktop": "Desktop",
+            "device_mobile": "Mobile",
+            "mode_show": "Show avatar",
+            "mode_with_image": "Replace with thumbnail when the topic has an image",
+            "mode_always": "Always replace with thumbnail",
+            "mode_hide": "Hide avatar",
+            "hint_show": "The author avatar is always shown.",
+            "hint_hide": "The avatar is never shown. If a thumbnail is available it stands in for it; otherwise the row simply has no avatar.",
+            "hint_with_image": "The thumbnail replaces the avatar only when the topic has a real image; otherwise the avatar is shown.",
+            "hint_always": "The thumbnail (or its configured fallback) always replaces the avatar; topics with no thumbnail at all keep the avatar.",
+            "hint_replace_no_thumbs": "Thumb Sliders is inactive, so the avatar is shown as usual. Install/enable Thumb Sliders to replace it with a thumbnail, or choose \"Hide avatar\"."
         }
     }
 }
