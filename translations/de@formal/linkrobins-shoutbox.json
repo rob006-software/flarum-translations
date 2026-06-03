@@ -12,11 +12,24 @@
                 "delete_confirm": "Diese Nachricht löschen?",
                 "delete_error": "Shout konnte nicht gelöscht werden. Bitte versuche es erneut.",
                 "load_error": "Nachrichten konnten nicht geladen werden.",
-                "rate_limited": "Du sendest Nachrichten zu schnell hintereinander. Bitte warte einen Moment."
+                "rate_limited": "Du sendest Nachrichten zu schnell hintereinander. Bitte warte einen Moment.",
+                "unknown_user": "",
+                "time_seconds": "",
+                "time_minutes": "",
+                "time_hours": ""
             }
+        },
+        "api": {
+            "empty_content": "",
+            "rate_limited": ""
         },
         "admin": {
             "settings": {
+                "display_mode_label": "",
+                "display_mode_help": "",
+                "display_mode_both": "",
+                "display_mode_widget": "",
+                "display_mode_page": "",
                 "height_label": "Höhe der Nachrichten (px)",
                 "height_help": "Höhe des Nachrichtenbereichs in Pixeln. Der Standardwert beträgt 320."
             },

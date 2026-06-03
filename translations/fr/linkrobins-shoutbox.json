@@ -12,11 +12,24 @@
                 "delete_confirm": "Supprimer ce message ?",
                 "delete_error": "Impossible de supprimer le message. Veuillez réessayer.",
                 "load_error": "Impossible de charger les messages.",
-                "rate_limited": "Vous publiez trop vite. Veuillez patienter un instant."
+                "rate_limited": "Vous publiez trop vite. Veuillez patienter un instant.",
+                "unknown_user": "",
+                "time_seconds": "",
+                "time_minutes": "",
+                "time_hours": ""
             }
+        },
+        "api": {
+            "empty_content": "",
+            "rate_limited": ""
         },
         "admin": {
             "settings": {
+                "display_mode_label": "",
+                "display_mode_help": "",
+                "display_mode_both": "",
+                "display_mode_widget": "",
+                "display_mode_page": "",
                 "height_label": "Hauteur des messages (px)",
                 "height_help": "Hauteur de la zone des messages en pixels. La valeur par défaut est 320."
             },

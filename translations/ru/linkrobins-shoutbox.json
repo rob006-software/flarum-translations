@@ -12,11 +12,24 @@
                 "delete_confirm": "Удалить это сообщение?",
                 "delete_error": "Не удалось удалить сообщение. Попробуйте ещё раз.",
                 "load_error": "Не удалось загрузить сообщения.",
-                "rate_limited": "Вы отправляете сообщения слишком быстро. Немного подождите."
+                "rate_limited": "Вы отправляете сообщения слишком быстро. Немного подождите.",
+                "unknown_user": "",
+                "time_seconds": "",
+                "time_minutes": "",
+                "time_hours": ""
             }
+        },
+        "api": {
+            "empty_content": "",
+            "rate_limited": ""
         },
         "admin": {
             "settings": {
+                "display_mode_label": "",
+                "display_mode_help": "",
+                "display_mode_both": "",
+                "display_mode_widget": "",
+                "display_mode_page": "",
                 "height_label": "Высота области сообщений (px)",
                 "height_help": "Высота области сообщений в пикселях. По умолчанию — 320."
             },
