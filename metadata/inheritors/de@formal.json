@@ -10020,11 +10020,21 @@
         "linkrobins-referral": {
             "admin": {
                 "campaign": {
+                    "col_code": "ca0dbad92a874b2f69b549293387925e ca0dbad92a874b2f69b549293387925e",
+                    "col_expiry": "710da5d84dd2b734d023168c5e50aa82 710da5d84dd2b734d023168c5e50aa82",
+                    "col_label": "6e2ee1c6d1ee1da0c54264077a3bf6b2 6e2ee1c6d1ee1da0c54264077a3bf6b2",
+                    "col_uses": "13dd32097f517f119f60475803c71a73 13dd32097f517f119f60475803c71a73",
+                    "confirm_delete": "5b4fd0cd84f089f01bca0f0fd58154b3 5b4fd0cd84f089f01bca0f0fd58154b3",
+                    "create": "f7de8dee3456a5af0bd75d6285bd2123 f7de8dee3456a5af0bd75d6285bd2123",
+                    "delete": "1010b01ca33474b21dfca7411a13552c 1010b01ca33474b21dfca7411a13552c",
+                    "expired": "c21158db741eef7d05f3e33d7dca4e80 c21158db741eef7d05f3e33d7dca4e80",
                     "expiry_label": "a429641db8dab17dfe272c032a2b78d9 a429641db8dab17dfe272c032a2b78d9",
                     "help": "8ea87317d962b83dd939e61cfc5dd533 8ea87317d962b83dd939e61cfc5dd533",
-                    "label_label": "d4f7294a6720dfdd6fab7083c57a2be2 d4f7294a6720dfdd6fab7083c57a2be2",
+                    "label_label": "6e2ee1c6d1ee1da0c54264077a3bf6b2 6e2ee1c6d1ee1da0c54264077a3bf6b2",
                     "label_placeholder": "c7d08a2718d42f432ab10241bb74069d c7d08a2718d42f432ab10241bb74069d",
-                    "title": "dfd30e2c37a96cb6ec1f68fa93e17985 dfd30e2c37a96cb6ec1f68fa93e17985"
+                    "no_expiry": "b1af96d18e834d2f816197dd7bf6eaad b1af96d18e834d2f816197dd7bf6eaad",
+                    "none": "077475276f45a4d944ff26aaa81c4fd1 077475276f45a4d944ff26aaa81c4fd1",
+                    "title": "e8c78051cc263693e0bf8976a66af70a e8c78051cc263693e0bf8976a66af70a"
                 },
                 "eligibility": {
                     "groups_help": "8afa1c35918d59cbdb44d1ae3e7217b3 8afa1c35918d59cbdb44d1ae3e7217b3",
@@ -10043,6 +10053,9 @@
                     "require_label": "25c068bf9f73fe9c4774348c2be2e14c 25c068bf9f73fe9c4774348c2be2e14c",
                     "title": "0a6892b9c620daf64f6cac8931ecef06 0a6892b9c620daf64f6cac8931ecef06"
                 }
+            },
+            "api": {
+                "invalid_expiry": "ddb733697cd8366abfac6fba32d3e42e ddb733697cd8366abfac6fba32d3e42e"
             },
             "forum": {
                 "notification": {
