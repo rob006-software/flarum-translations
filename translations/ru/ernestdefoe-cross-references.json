@@ -2,30 +2,30 @@
     "ernestdefoe-cross-references": {
         "forum": {
             "sidebar": {
-                "heading": "",
-                "load_error": "",
-                "by_user": "",
-                "capped_notice": ""
+                "heading": "Ссылаются из {count, plural, one {# дискуссии} other {# дискуссий}}",
+                "load_error": "Не удалось загрузить ссылки.",
+                "by_user": "от {username}",
+                "capped_notice": "Показаны последние 50 записей."
             },
             "event_post": {
-                "text": "",
-                "post_specific": ""
+                "text": "{username} упомянул(а) эту дискуссию в {ref}",
+                "post_specific": " (конкретное сообщение)"
             },
             "notification": {
-                "text": ""
+                "text": "Упомянул(а) вашу дискуссию в {discussion}"
             },
             "post_number": {
-                "tooltip": "",
-                "copied": "",
-                "copy_failed": ""
+                "tooltip": "Сообщение № — нажмите, чтобы скопировать перекрёстную ссылку ({ref})",
+                "copied": "Ссылка {ref} скопирована в буфер обмена.",
+                "copy_failed": "Не удалось скопировать. Ссылка: {ref}."
             }
         },
         "admin": {
             "settings": {
-                "create_backlinks_label": "",
-                "create_backlinks_help": "",
-                "notify_author_label": "",
-                "notify_author_help": ""
+                "create_backlinks_label": "Создавать обратные системные сообщения в целевых дискуссиях",
+                "create_backlinks_help": "Когда сообщение содержит ссылку на другую дискуссию, добавлять в целевую дискуссию небольшое системное сообщение с указанием источника ссылки. Отключите эту функцию, если предпочитаете не засорять целевые дискуссии.",
+                "notify_author_label": "Уведомлять автора целевой дискуссии",
+                "notify_author_help": "Отправлять уведомление автору дискуссии, на которую была создана ссылка. Пользователь не получает уведомления о собственных сообщениях."
             }
         }
     }
