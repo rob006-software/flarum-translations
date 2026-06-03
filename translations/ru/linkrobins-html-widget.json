@@ -2,13 +2,13 @@
     "linkrobins-html-widget": {
         "admin": {
             "settings": {
-                "title_label": "",
-                "title_help": "",
-                "title_placeholder": "",
-                "icon_label": "",
-                "icon_help": "",
-                "body_label": "",
-                "body_help": ""
+                "title_label": "Название",
+                "title_help": "Необязательно. Отображается над основным текстом. Если не нужно, оставьте поле пустым.",
+                "title_placeholder": "Добро пожаловать в наше сообщество!",
+                "icon_label": "Класс иконок",
+                "icon_help": "Класс FontAwesome, отображаемый рядом с заголовком (например, fas fa-bullhorn). Если иконка не нужна, оставьте поле пустым.",
+                "body_label": "Тело HTML",
+                "body_help": "Исходный HTML-код, очищенный перед отображением: теги скриптов, атрибуты обработчиков событий, javascript: URL-адреса и небезопасные элементы, такие как iframe, удалены."
             }
         }
     }
