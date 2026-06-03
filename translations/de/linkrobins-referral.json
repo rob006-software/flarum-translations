@@ -43,25 +43,25 @@
                 "whitelist_help": "Benutzernamen, die unabhängig von den oben genannten Regeln immer einen Einladungscode erhalten. Trenne die Namen durch Kommas, Leerzeichen oder Zeilenumbrüche."
             },
             "campaign": {
-                "title": "Kampagnencodes",
+                "title": "Aktionscodes",
                 "help": "Einzelne Einladungscodes, die nicht an einen bestimmten Benutzer gebunden sind – ideal für Social Media oder Marketingaktionen. Sie werden keinem Werber gutgeschrieben, ihre Nutzung wird jedoch gezählt.",
-                "label_label": "Beschriftung",
+                "label_label": "Bezeichnung",
                 "label_placeholder": "z. B. Facebook-Sommeraktion",
                 "expiry_label": "Ablaufdatum (optional)",
-                "create": "",
-                "none": "",
-                "col_code": "",
-                "col_label": "",
-                "col_uses": "",
-                "col_expiry": "",
-                "no_expiry": "",
-                "expired": "",
-                "delete": "",
-                "confirm_delete": ""
+                "create": "Code erstellen",
+                "none": "Es gibt noch keine Aktionscodes.",
+                "col_code": "Code",
+                "col_label": "Bezeichnung",
+                "col_uses": "Verwendungen",
+                "col_expiry": "Läuft ab",
+                "no_expiry": "Nie",
+                "expired": "abgelaufen",
+                "delete": "Löschen",
+                "confirm_delete": "Diesen Aktionscode löschen? Wer ihn verwendet, kann sich damit nicht mehr registrieren."
             }
         },
         "api": {
-            "invalid_expiry": ""
+            "invalid_expiry": "Ungültiges Ablaufdatum."
         },
         "validation": {
             "required": "Für die Registrierung ist ein Einladungscode erforderlich.",
