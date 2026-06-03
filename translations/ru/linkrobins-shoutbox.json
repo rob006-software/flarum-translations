@@ -13,22 +13,22 @@
                 "delete_error": "Не удалось удалить сообщение. Попробуйте ещё раз.",
                 "load_error": "Не удалось загрузить сообщения.",
                 "rate_limited": "Вы отправляете сообщения слишком быстро. Немного подождите.",
-                "unknown_user": "",
-                "time_seconds": "",
-                "time_minutes": "",
-                "time_hours": ""
+                "unknown_user": "Пользователь",
+                "time_seconds": "{count}с",
+                "time_minutes": "{count}м",
+                "time_hours": "{count}ч"
             }
         },
         "api": {
-            "empty_content": "",
-            "rate_limited": ""
+            "empty_content": "Вам необходимо ввести сообщение.",
+            "rate_limited": "Вы отправляете сообщения слишком быстро. Немного подождите."
         },
         "admin": {
             "settings": {
-                "display_mode_label": "",
-                "display_mode_help": "",
-                "display_mode_both": "",
-                "display_mode_widget": "",
+                "display_mode_label": "Режим отображения",
+                "display_mode_help": "Выберите место на форуме для мини-чата.",
+                "display_mode_both": "Страница и виджет",
+                "display_mode_widget": "Только виджет",
                 "display_mode_page": "Только страница",
                 "height_label": "Высота области сообщений (px)",
                 "height_help": "Высота области сообщений в пикселях. По умолчанию — 320."
