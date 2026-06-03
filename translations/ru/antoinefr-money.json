@@ -5,10 +5,10 @@
                 "title": "Настройки",
                 "moneyforpost": "Монеток получено за новое сообщение",
                 "moneyfordiscussion": "Монеток получено за новую дискуссию",
-                "moneyname": "",
-                "helpmoneyname": "",
-                "postminimumlength": "",
-                "helppostminimumlength": "",
+                "moneyname": "Название валюты",
+                "helpmoneyname": "Используйте <code>[money]</code>, чтобы подставить значение",
+                "postminimumlength": "Минимальная длина сообщения для получения валюты",
+                "helppostminimumlength": "Введите 0, чтобы отключить ограничение",
                 "ignore_notifying_users": "При проверке количества слов в ответах обращать внимание только на раздел содержимого",
                 "noshowzero": "Не отображать нулевое значение",
                 "autoremove": "Автоматическое обновление монеток",
@@ -27,7 +27,7 @@
             ],
             "automoderator": {
                 "metric_name": "Монетки",
-                "action_name": "Давайте монетки"
+                "action_name": "Начислить монетки"
             }
         },
         "forum": {
