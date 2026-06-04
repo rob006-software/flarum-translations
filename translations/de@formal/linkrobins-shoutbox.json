@@ -13,23 +13,23 @@
                 "delete_error": "Shout konnte nicht gelöscht werden. Bitte versuche es erneut.",
                 "load_error": "Nachrichten konnten nicht geladen werden.",
                 "rate_limited": "Du sendest Nachrichten zu schnell hintereinander. Bitte warte einen Moment.",
-                "unknown_user": "",
-                "time_seconds": "",
-                "time_minutes": "",
-                "time_hours": ""
+                "unknown_user": "Benutzer",
+                "time_seconds": "{count} s",
+                "time_minutes": "{count} m",
+                "time_hours": "{count} h"
             }
         },
         "api": {
-            "empty_content": "",
-            "rate_limited": ""
+            "empty_content": "Du musst eine Nachricht eingeben.",
+            "rate_limited": "Du schreibst zu schnell. Bitte warte einen Moment."
         },
         "admin": {
             "settings": {
-                "display_mode_label": "",
-                "display_mode_help": "",
-                "display_mode_both": "",
-                "display_mode_widget": "",
-                "display_mode_page": "",
+                "display_mode_label": "Anzeigemodus",
+                "display_mode_help": "Wähle aus, wo die Shoutbox in deinem Forum angezeigt werden soll.",
+                "display_mode_both": "Seite und Widget",
+                "display_mode_widget": "Nur Widget",
+                "display_mode_page": "Nur Seite",
                 "height_label": "Höhe der Nachrichten (px)",
                 "height_help": "Höhe des Nachrichtenbereichs in Pixeln. Der Standardwert beträgt 320."
             },
