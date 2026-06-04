@@ -1,0 +1,54 @@
+{
+    "fof-signature": {
+        "forum": {
+            "buttons": {
+                "signature": "Signature",
+                "save": "Save Signature",
+                "edit": "Edit Signature"
+            },
+            "errors": {
+                "max_char_limit_exceed": "Maximum character limit exceeded.",
+                "max_image_count_exceed": "Maximum image count exceeded.",
+                "remote_images_not_allowed": "Remote images are not allowed in signatures.",
+                "save_failed": "Something went wrong while saving your signature."
+            },
+            "editor": {
+                "placeholder": "Edit your signature here"
+            },
+            "settings": {
+                "heading": "Signature"
+            },
+            "profile": {
+                "click": "Click to write your signature"
+            }
+        },
+        "admin": {
+            "permissions": {
+                "edit_signature_others": "Edit other users' signatures",
+                "allow_signature": "Can have a signature"
+            },
+            "settings": {
+                "maximum_image_count": {
+                    "description": "Maximum inserted images.",
+                    "help": "When the user exceeds the maximum image count in their signature, they will be prevented from saving until the image count is accordingly."
+                },
+                "maximum_char_limit": {
+                    "description": "Maximum character limit of signature.",
+                    "help": "When the user exceeds the maximum character limit in their signature, they will be prevented from saving until the character count is accordingly."
+                },
+                "allow_remote_images": {
+                    "description": "Allow remote images.",
+                    "help": "When disabled, users cannot use images hosted on other websites in their signature. This prevents off-site images from tracking the IP address of everyone who views the signature."
+                },
+                "allowed_image_hosts": {
+                    "description": "Allowed image hosts.",
+                    "help": "When remote images are disabled, images from these hosts are still permitted (in addition to your own forum). Enter one host per line, e.g. your CDN such as cdn.example.com."
+                },
+                "allow_inline_editing": {
+                    "description": "Inline editing of signature.",
+                    "help": "When enabled, users can edit their signature while viewing a post."
+                }
+            }
+        }
+    }
+}
