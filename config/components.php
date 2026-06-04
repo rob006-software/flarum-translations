@@ -751,6 +751,9 @@ return [
 	'fof-share-social' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/share-social/1.2.2/resources/locale/en.yml',
 	],
+	'fof-signature' => [
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/signature/1.0.0/locale/en.yml',
+	],
 	'fof-sitemap' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/sitemap/2.6.1/resources/locale/en.yml',
 	],
