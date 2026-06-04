@@ -13,23 +13,23 @@
                 "delete_error": "Impossible de supprimer le message. Veuillez réessayer.",
                 "load_error": "Impossible de charger les messages.",
                 "rate_limited": "Vous publiez trop vite. Veuillez patienter un instant.",
-                "unknown_user": "",
-                "time_seconds": "",
-                "time_minutes": "",
-                "time_hours": ""
+                "unknown_user": "Utilisateur",
+                "time_seconds": "{count}s",
+                "time_minutes": "{count}m",
+                "time_hours": "{count}h"
             }
         },
         "api": {
-            "empty_content": "",
-            "rate_limited": ""
+            "empty_content": "Vous devez saisir un message.",
+            "rate_limited": "Vous publiez trop vite. Veuillez patienter un instant."
         },
         "admin": {
             "settings": {
-                "display_mode_label": "",
-                "display_mode_help": "",
-                "display_mode_both": "",
-                "display_mode_widget": "",
-                "display_mode_page": "",
+                "display_mode_label": "Mode d'affichage",
+                "display_mode_help": "Choisissez où le shoutbox apparaît sur le forum.",
+                "display_mode_both": "Page et widget",
+                "display_mode_widget": "Widget uniquement",
+                "display_mode_page": "Page uniquement",
                 "height_label": "Hauteur des messages (px)",
                 "height_help": "Hauteur de la zone des messages en pixels. La valeur par défaut est 320."
             },
