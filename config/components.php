@@ -356,6 +356,9 @@ return [
 	'fof-share-social' => [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/share-social/2.0.0-beta.1/resources/locale/en.yml',
 	],
+	'fof-signature' => [
+		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/signature/2.0.0-beta.1/locale/en.yml',
+	],
 	'fof-sitemap' => [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/sitemap/3.0.0-beta.6/resources/locale/en.yml',
 	],
