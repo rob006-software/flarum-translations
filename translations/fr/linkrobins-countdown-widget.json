@@ -12,6 +12,7 @@
         "admin": {
             "settings": {
                 "title_label": "Titre",
+                "title_placeholder": "",
                 "title_help": "Facultatif. S'affiche au-dessus du compte à rebours. Si vous ne souhaitez pas d'en-tête, laissez ce champ vide.",
                 "icon_label": "Classe d'icône",
                 "icon_help": "Classe FontAwesome à afficher à côté du titre (par exemple : fas fa-rocket, fas fa-bullhorn, fas fa-calendar). Si vous ne souhaitez pas d'icône, laissez ce champ vide.",
@@ -21,6 +22,7 @@
                 "timezone_help": "Nom du fuseau horaire IANA (par exemple : UTC, America/New_York, Europe/Paris, Asia/Tokyo). Le compte à rebours du navigateur de chaque visiteur s'arrête au même instant, quel que soit l'endroit où il se trouve.",
                 "use_my_timezone": "Utiliser mon fuseau horaire",
                 "done_message_label": "Message de fin",
+                "done_message_placeholder": "",
                 "done_message_help": "Ce qui doit s'afficher lorsque le compte à rebours arrive à zéro. Si ce champs est vide, un émoji « fête » s'affiche par défaut.",
                 "link_url_label": "URL du lien",
                 "link_url_help": "Facultatif. Si cette option est activée, les cases du compte à rebours (ainsi que le message de fin) deviennent un lien cliquable vers cette URL."
