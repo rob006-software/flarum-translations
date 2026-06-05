@@ -1,32 +1,32 @@
 {
     "fof-ban-ips": {
         "forum": {
-            "ban_ip_button": "",
-            "unban_ip_button": "",
+            "ban_ip_button": "=> fof-ban-ips.ref.ban_ip_button",
+            "unban_ip_button": "=> fof-ban-ips.ref.unban_ip_button",
             "modal": {
-                "ban_options_only_ip": "",
-                "ban_options_all_ip": "",
-                "ban_ip_no_users": ""
+                "ban_options_only_ip": "فقط IP فعلی را ممنوع کنید (<code>{ip}</code>)",
+                "ban_options_all_ip": "همه IP های استفاده شده توسط <i>{username}</i> را ممنوع کنید",
+                "ban_ip_no_users": "هیچ کس دیگری مسدود نخواهد شد"
             },
             "user_badge": {
                 "banned_tooltip": ""
             },
             "user_controls": {
-                "ban_button": "",
-                "unban_button": ""
+                "ban_button": "=> fof-ban-ips.ref.ban_label",
+                "unban_button": "=> fof-ban-ips.ref.unban_label"
             }
         },
         "admin": {
             "permissions": {
-                "ban_ip_label": "",
+                "ban_ip_label": "=> fof-ban-ips.ref.ban_ip_addresses",
                 "view_banned_ip_list_label": ""
             },
             "page": {
-                "create_button": "",
+                "create_button": "=> fof-ban-ips.ref.ban_ip_button",
                 "creator_label": "",
                 "user_label": "",
-                "address_label": "",
-                "reason_label": "",
+                "address_label": "=> fof-ban-ips.ref.address_label",
+                "reason_label": "=> fof-ban-ips.ref.reason_label",
                 "date_label": ""
             },
             "modal": {
@@ -36,38 +36,38 @@
             "empty_text": ""
         },
         "error": {
-            "banned_ip_message": "",
-            "no_ips_found_message": ""
+            "banned_ip_message": "مجوز داده نشد.",
+            "no_ips_found_message": "هیچ IP برای کاربر پیدا نشد."
         },
         "lib": {
             "modal": {
-                "title": "",
-                "unban_title": "",
-                "address_label": "",
-                "reason_label": "",
-                "check_button": "",
-                "save_button": "",
-                "ban_ip_confirmation": "",
-                "ban_ip_users": "",
-                "unban_ip_confirmation": "",
-                "unban_options_only_ip": "",
-                "unban_options_all_ip": "",
-                "unban_ip_no_users": "",
-                "unban_ip_users": "",
-                "unbanned_ips": "",
-                "ban_button": "",
-                "unban_button": ""
+                "title": "=> fof-ban-ips.ref.ban_ip_addresses",
+                "unban_title": "=> fof-ban-ips.ref.unban_ip_addresses",
+                "address_label": "=> fof-ban-ips.ref.address_label",
+                "reason_label": "=> fof-ban-ips.ref.reason_label",
+                "check_button": "بررسی",
+                "save_button": "ذخیره",
+                "ban_ip_confirmation": "آیا مطمئن هستید که می خواهید این آدرس IP را در انجمن مسدود کنید؟ با این کار کاربرانی که این آدرس IP را دارند از ورود و ثبت نام منع می شوند.",
+                "ban_ip_users": "{count, plural, one {کاربر {users} مسدود خواهد شد} other {کاربران {users} مسدود خواهند شد}}",
+                "unban_ip_confirmation": "آیا مطمئن هستید که می خواهید این کاربر و سایر کاربرانی که توسط IP های دیگر مسدود نشده اند را لغو ممنوعیت کنید؟",
+                "unban_options_only_ip": "فقط لغو انسداد IP فعلی (<code>{ip}</code>)",
+                "unban_options_all_ip": "لغو ممنوعیت تمام IP های استفاده شده توسط <i>{username}</i>",
+                "unban_ip_no_users": "هیچ کس دیگری لغو انسداد نخواهد شد",
+                "unban_ip_users": "{count, plural, one {کاربر {users} رفع انسداد خواهد شد} other {کاربران {users} رفع انسداد خواهند شد}}",
+                "unbanned_ips": "<code>{ips}</code> رفع انسداد شده.",
+                "ban_button": "=> fof-ban-ips.ref.ban_label",
+                "unban_button": "=> fof-ban-ips.ref.unban_label"
             }
         },
         "ref": {
             "ban_label": "",
-            "ban_ip_addresses": "",
-            "ban_ip_button": "",
+            "ban_ip_addresses": "مسدود کردن IP(ها)",
+            "ban_ip_button": "مسدود کردن IP",
             "unban_label": "",
-            "unban_ip_addresses": "",
-            "unban_ip_button": "",
-            "address_label": "",
-            "reason_label": ""
+            "unban_ip_addresses": "رفع انسداد IP(ها)",
+            "unban_ip_button": "رفع انسداد IP",
+            "address_label": "آدرس آی پی",
+            "reason_label": "دلیل"
         }
     },
     "flarum-gdpr": {

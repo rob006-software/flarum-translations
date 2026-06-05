@@ -2358,6 +2358,84 @@
             }
         }
     },
+    "fof-ban-ips.json": {
+        "flarum-gdpr": {
+            "lib": {
+                "data": {
+                    "bannedipdata": {
+                        "anonymize_description": "657d149a71b31e7807edb26c95c93b01 657d149a71b31e7807edb26c95c93b01",
+                        "export_description": "1a5b4d6c18b927f219e06b15767db572 1a5b4d6c18b927f219e06b15767db572"
+                    }
+                }
+            }
+        },
+        "fof-ban-ips": {
+            "admin": {
+                "empty_text": "58b3ed7bc253dc5880958871d4136f98 58b3ed7bc253dc5880958871d4136f98",
+                "modal": {
+                    "ban_ip_no_users": "fd5f3283c710a45504e72643d738b71a fd5f3283c710a45504e72643d738b71a",
+                    "update_title": "de935e196547a29510f5472647448972 de935e196547a29510f5472647448972"
+                },
+                "page": {
+                    "address_label": "2e0f196dc94eff20fd241e1c06d9bb5f 2e0f196dc94eff20fd241e1c06d9bb5f",
+                    "create_button": "89360d99aa77bd385f5376ccf3a2a1dd 89360d99aa77bd385f5376ccf3a2a1dd",
+                    "creator_label": "7c7d054bc5ae9c0d93b69431dfdf2264 7c7d054bc5ae9c0d93b69431dfdf2264",
+                    "date_label": "8cdd8bb771bcf038dfb2740fd50b332c 8cdd8bb771bcf038dfb2740fd50b332c",
+                    "reason_label": "7119f389b678151e94ca41ae6b52eb8e 7119f389b678151e94ca41ae6b52eb8e",
+                    "user_label": "8a033870b4e95e46c13dd808ec3a0264 8a033870b4e95e46c13dd808ec3a0264"
+                },
+                "permissions": {
+                    "ban_ip_label": "02589868e646b698ec7b022535ffb46f 02589868e646b698ec7b022535ffb46f",
+                    "view_banned_ip_list_label": "a9d75e26814934f5d7cb5d5e7f2a41a9 a9d75e26814934f5d7cb5d5e7f2a41a9"
+                }
+            },
+            "error": {
+                "banned_ip_message": "b1f1343af57941149a2af1201c00c49b b1f1343af57941149a2af1201c00c49b",
+                "no_ips_found_message": "53f8524dfddfa5db9e981edc0e4af3e3 53f8524dfddfa5db9e981edc0e4af3e3"
+            },
+            "forum": {
+                "ban_ip_button": "89360d99aa77bd385f5376ccf3a2a1dd 89360d99aa77bd385f5376ccf3a2a1dd",
+                "modal": {
+                    "ban_ip_no_users": "656a2c0292c4e742c51111773858b3a1 656a2c0292c4e742c51111773858b3a1",
+                    "ban_options_all_ip": "c3a81b552450a41d003f103f462d706b c3a81b552450a41d003f103f462d706b",
+                    "ban_options_only_ip": "a3eea77a29e6e64698b16af585459dcc a3eea77a29e6e64698b16af585459dcc"
+                },
+                "unban_ip_button": "10ec3d4e73eebe3df4de1ce6daea518a 10ec3d4e73eebe3df4de1ce6daea518a",
+                "user_controls": {
+                    "ban_button": "d186fe63aaf93d84c00ef15165b99cc6 d186fe63aaf93d84c00ef15165b99cc6",
+                    "unban_button": "39f46f58535911fc6e3419056511ce11 39f46f58535911fc6e3419056511ce11"
+                }
+            },
+            "lib": {
+                "modal": {
+                    "address_label": "2e0f196dc94eff20fd241e1c06d9bb5f 2e0f196dc94eff20fd241e1c06d9bb5f",
+                    "ban_button": "d186fe63aaf93d84c00ef15165b99cc6 d186fe63aaf93d84c00ef15165b99cc6",
+                    "ban_ip_confirmation": "23a2bf5f97f74651b227532d185463ea 23a2bf5f97f74651b227532d185463ea",
+                    "ban_ip_users": "6578043e3d8abe3725a9a7904c6e719e 6578043e3d8abe3725a9a7904c6e719e",
+                    "check_button": "5433746a7ada6544c01397d330a1a7ee 5433746a7ada6544c01397d330a1a7ee",
+                    "reason_label": "7119f389b678151e94ca41ae6b52eb8e 7119f389b678151e94ca41ae6b52eb8e",
+                    "save_button": "79d9f1b64ddaa76192487f423f39e5e4 79d9f1b64ddaa76192487f423f39e5e4",
+                    "title": "02589868e646b698ec7b022535ffb46f 02589868e646b698ec7b022535ffb46f",
+                    "unban_button": "39f46f58535911fc6e3419056511ce11 39f46f58535911fc6e3419056511ce11",
+                    "unban_ip_confirmation": "fe5bf5fa577d8ffa824185c53109f798 fe5bf5fa577d8ffa824185c53109f798",
+                    "unban_ip_no_users": "fb47658a4882b6a0e162a6c6e7df8b83 fb47658a4882b6a0e162a6c6e7df8b83",
+                    "unban_ip_users": "125ee2cf639de77696b72e510821aa4c 125ee2cf639de77696b72e510821aa4c",
+                    "unban_options_all_ip": "c0db7c7f7cc37ae5be549d72b1c3883a c0db7c7f7cc37ae5be549d72b1c3883a",
+                    "unban_options_only_ip": "42fb5c2de84033b51c202ab4af0f2b0a 42fb5c2de84033b51c202ab4af0f2b0a",
+                    "unban_title": "f23e75aab8e82e8ee7c3f42c1c7cc9d6 f23e75aab8e82e8ee7c3f42c1c7cc9d6",
+                    "unbanned_ips": "99d547d2a9dff20eff97f86ce3c67b5f 99d547d2a9dff20eff97f86ce3c67b5f"
+                }
+            },
+            "ref": {
+                "address_label": "e1e8dd90798d81cd3b947cd1ef2804ba e1e8dd90798d81cd3b947cd1ef2804ba",
+                "ban_ip_addresses": "b562d8a322e1c41d8ed312df2b9eee3f b562d8a322e1c41d8ed312df2b9eee3f",
+                "ban_ip_button": "e784764979eab25795aa2c508781be88 e784764979eab25795aa2c508781be88",
+                "reason_label": "d88300c7c0b7740f87529906ba91cb7f d88300c7c0b7740f87529906ba91cb7f",
+                "unban_ip_addresses": "25a6996a3558d05441750229f7632abe 25a6996a3558d05441750229f7632abe",
+                "unban_ip_button": "a521e1554d0307fcc9b80c709b6e6506 a521e1554d0307fcc9b80c709b6e6506"
+            }
+        }
+    },
     "fof-best-answer.json": {
         "fof-best-answer": {
             "admin": {
