@@ -525,7 +525,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/linkrobins/OP/v1.1.1/locale/en.yml',
 	],
 	'linkrobins-post-num' => [
-		'tag' => 'https://raw.githubusercontent.com/linkrobins/post-num/v1.1.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/linkrobins/post-num/v1.1.2/locale/en.yml',
 	],
 	'linkrobins-referral' => [
 		'tag' => 'https://raw.githubusercontent.com/linkrobins/referral/v1.2.1/locale/en.yml',
