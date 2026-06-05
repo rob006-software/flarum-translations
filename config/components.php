@@ -539,14 +539,14 @@ return [
 	'linkrobins-support' => [
 		'tag' => 'https://raw.githubusercontent.com/linkrobins/support/v1.4.1/locale/en.yml',
 	],
+	'linkrobins-toc' => [
+		'tag' => 'https://raw.githubusercontent.com/linkrobins/toc/v1.1.2/locale/en.yml',
+	],
 	'maicol07-sso' => [
 		'tag' => 'https://raw.githubusercontent.com/maicol07/flarum-ext-sso/2.0/locale/en.yml',
 		'__builtInLanguages' => [
 			'it',
 		],
-	],
-	'linkrobins-toc' => [
-		'tag' => 'https://raw.githubusercontent.com/linkrobins/toc/v1.1.2/locale/en.yml',
 	],
 	'michaelbelgium-ai-autoreply' => [
 		'tag' => 'https://raw.githubusercontent.com/MichaelBelgium/flarum-ai-autoreply/v2.0.0/locale/en.yml',
