@@ -836,6 +836,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`fof-analytics`](https://weblate.rob006.net/projects/flarum2/fof-analytics) | [`fof/analytics`](https://github.com/FriendsOfFlarum/analytics) |
 | [`fof-anti-spam`](https://weblate.rob006.net/projects/flarum2/fof-anti-spam) | [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) |
 | [`fof-badges`](https://weblate.rob006.net/projects/flarum2/fof-badges) | [`fof/badges`](https://github.com/FriendsOfFlarum/badges) |
+| [`fof-ban-ips`](https://weblate.rob006.net/projects/flarum2/fof-ban-ips) | [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips) |
 | [`fof-best-answer`](https://weblate.rob006.net/projects/flarum2/fof-best-answer) | [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer) |
 | [`fof-byobu`](https://weblate.rob006.net/projects/flarum2/fof-byobu) | [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu) |
 | [`fof-categories`](https://weblate.rob006.net/projects/flarum2/fof-categories) | [`fof/categories`](https://github.com/FriendsOfFlarum/categories) |
@@ -983,6 +984,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`linkrobins-referral`](https://weblate.rob006.net/projects/flarum2/linkrobins-referral) | [`linkrobins/referral`](https://github.com/linkrobins/referral) |
 | [`linkrobins-shoutbox`](https://weblate.rob006.net/projects/flarum2/linkrobins-shoutbox) | [`linkrobins/shoutbox`](https://github.com/linkrobins/shoutbox) |
 | [`linkrobins-support`](https://weblate.rob006.net/projects/flarum2/linkrobins-support) | [`linkrobins/support`](https://github.com/linkrobins/support) |
+| [`linkrobins-toc`](https://weblate.rob006.net/projects/flarum2/linkrobins-toc) | [`linkrobins/toc`](https://github.com/linkrobins/toc) |
 | [`maicol07-sso`](https://weblate.rob006.net/projects/flarum2/maicol07-sso) | [`maicol07/flarum-ext-sso`](https://github.com/maicol07/flarum-ext-sso) |
 | [`michaelbelgium-ai-autoreply`](https://weblate.rob006.net/projects/flarum2/michaelbelgium-ai-autoreply) | [`michaelbelgium/flarum-ai-autoreply`](https://github.com/MichaelBelgium/flarum-ai-autoreply) |
 | [`michaelbelgium-discussion-views`](https://weblate.rob006.net/projects/flarum2/michaelbelgium-discussion-views) | [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views) |
