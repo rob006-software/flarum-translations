@@ -212,6 +212,9 @@ return [
 	'fof-badges' => [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/badges/2.0.0-beta.1/locale/en.yml',
 	],
+	'fof-ban-ips' => [
+		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/ban-ips/2.0.0-beta.1/resources/locale/en.yml',
+	],
 	'fof-best-answer' => [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/best-answer/2.0.0-beta.5/resources/locale/en.yml',
 	],
