@@ -470,6 +470,9 @@ return [
 	'huseyinfiliz-stickiest' => [
 		'beta' => 'https://raw.githubusercontent.com/huseyinfiliz/stickiest/2.0.0-beta.2/locale/en.yml',
 	],
+	'huseyinfiliz-sticky-title' => [
+		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/sticky-title/2.0/locale/en.yml',
+	],
 	'ianm-boring-avatars' => [
 		'beta' => 'https://raw.githubusercontent.com/imorland/flarum-ext-boring-avatars/2.0.0-beta.2/locale/en.yml',
 	],
