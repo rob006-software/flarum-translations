@@ -43,6 +43,7 @@ return [
 	'afrux/online-users-widget',
 	'afrux/top-posters-widget',
 	// migrated to `fof/*`
+	'v17development/flarum-seo',
 	'v17development/flarum-user-badges',
 	// migrated to `fof/*`
 	'clarkwinkelmann/flarum-ext-mailing',
