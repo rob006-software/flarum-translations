@@ -105,6 +105,7 @@
 | [`fof/rich-text`](https://github.com/FriendsOfFlarum/rich-text) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/fof-rich-text/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/fof-rich-text/) |
 | [`fof/secure-https`](https://github.com/FriendsOfFlarum/secure-https) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/fof-secure-https/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/fof-secure-https/) |
 | [`fof/sentry`](https://github.com/FriendsOfFlarum/sentry) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/fof-sentry/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/fof-sentry/) |
+| [`fof/seo`](https://github.com/FriendsOfFlarum/seo) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/fof-seo/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/fof-seo/) |
 | [`fof/share-social`](https://github.com/FriendsOfFlarum/share-social) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/fof-share-social/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/fof-share-social/) |
 | [`fof/signature`](https://github.com/FriendsOfFlarum/signature) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/fof-signature/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/fof-signature/) |
 | [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/fof-sitemap/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/fof-sitemap/) |

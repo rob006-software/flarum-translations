@@ -893,6 +893,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`fof-rich-text`](https://weblate.rob006.net/projects/flarum/fof-rich-text) | [`fof/rich-text`](https://github.com/FriendsOfFlarum/rich-text) |
 | [`fof-secure-https`](https://weblate.rob006.net/projects/flarum/fof-secure-https) | [`fof/secure-https`](https://github.com/FriendsOfFlarum/secure-https) |
 | [`fof-sentry`](https://weblate.rob006.net/projects/flarum/fof-sentry) | [`fof/sentry`](https://github.com/FriendsOfFlarum/sentry) |
+| [`fof-seo`](https://weblate.rob006.net/projects/flarum/fof-seo) | [`fof/seo`](https://github.com/FriendsOfFlarum/seo) |
 | [`fof-share-social`](https://weblate.rob006.net/projects/flarum/fof-share-social) | [`fof/share-social`](https://github.com/FriendsOfFlarum/share-social) |
 | [`fof-signature`](https://weblate.rob006.net/projects/flarum/fof-signature) | [`fof/signature`](https://github.com/FriendsOfFlarum/signature) |
 | [`fof-sitemap`](https://weblate.rob006.net/projects/flarum/fof-sitemap) | [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap) |
