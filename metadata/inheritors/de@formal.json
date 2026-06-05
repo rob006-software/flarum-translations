@@ -9058,6 +9058,51 @@
             }
         }
     },
+    "fof-signature.json": {
+        "fof-signature": {
+            "admin": {
+                "permissions": {
+                    "allow_signature": "e534431b7fa091d3b54246cee7cc78d9 e534431b7fa091d3b54246cee7cc78d9",
+                    "edit_signature_others": "f08441789cc0dc53e9daff1d6f664dfd f08441789cc0dc53e9daff1d6f664dfd"
+                },
+                "settings": {
+                    "allow_inline_editing": {
+                        "description": "e5cd29f8fcfb17cdd33ea2487487e12c e5cd29f8fcfb17cdd33ea2487487e12c",
+                        "help": "5d9cdf2fb206ddfb1790a9470e060326 5d9cdf2fb206ddfb1790a9470e060326"
+                    },
+                    "maximum_char_limit": {
+                        "description": "ea08ca4cde81f370dcff9aca00898b07 ea08ca4cde81f370dcff9aca00898b07",
+                        "help": "7dee8dfa05b1bdf4f935acb2aa983f44 7dee8dfa05b1bdf4f935acb2aa983f44"
+                    },
+                    "maximum_image_count": {
+                        "description": "34933df4d6be0acef3e8860dc51ef162 34933df4d6be0acef3e8860dc51ef162",
+                        "help": "5231f41f1b022eba4a225cba311e2f27 5231f41f1b022eba4a225cba311e2f27"
+                    }
+                }
+            },
+            "forum": {
+                "buttons": {
+                    "edit": "66322e77641796cf88112985f8f3c91c 66322e77641796cf88112985f8f3c91c",
+                    "save": "5750604a8dcdfa23c8c7d0fd290498b8 5750604a8dcdfa23c8c7d0fd290498b8",
+                    "signature": "62d8bdb300a5ee6ba99a16738b18e786 62d8bdb300a5ee6ba99a16738b18e786"
+                },
+                "editor": {
+                    "placeholder": "ab13aeba7f80e179319c20e4934e2cc4 ab13aeba7f80e179319c20e4934e2cc4"
+                },
+                "errors": {
+                    "max_char_limit_exceed": "cd5d7be1c9978845f568c880ec0141fd cd5d7be1c9978845f568c880ec0141fd",
+                    "max_image_count_exceed": "16ddb25025ef8633d2cd1d4727f62feb 16ddb25025ef8633d2cd1d4727f62feb",
+                    "save_failed": "6fc9bbb360dbf2c45864c0470955d9d2 6fc9bbb360dbf2c45864c0470955d9d2"
+                },
+                "profile": {
+                    "click": "895493c903319e0ee48df485f3121990 895493c903319e0ee48df485f3121990"
+                },
+                "settings": {
+                    "heading": "62d8bdb300a5ee6ba99a16738b18e786 62d8bdb300a5ee6ba99a16738b18e786"
+                }
+            }
+        }
+    },
     "fof-sitemap.json": {
         "fof-sitemap": {
             "admin": {
