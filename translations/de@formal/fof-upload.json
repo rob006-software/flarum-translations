@@ -37,7 +37,7 @@
                 "watermark": "Wähle aus, ob Bilder beim Hochladen mit einem Wasserzeichen versehen werden sollen. Wasserzeichen werden basierend auf deinen Einstellungen unten hinzugefügt, jedoch nicht bei GIF's.\n",
                 "s3_compatible_storage": "Die folgenden Einstellungen sind nur erforderlich, wenn du S3 kompatiblen Speicher verwendest. Wenn du AWS verwendest, kannst du sie leer lassen.\n",
                 "s3_acl": "Die Zugriffssteuerungsliste (ACL), die auf das hochgeladene Objekt angewendet werden soll (Standard: private). Für mögliche Werte, siehe https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
-                "custom_s3_url": "Verwende diese Einstellung, wenn du einen S3-kompatiblen Dienst nutzt, der ein bestimmtes URL-Format erfordert (z. B. Backblaze B2) oder wenn du Probleme mit dem Standard-URL-Format hast. In der Regel ist diese Einstellung für die meisten Dienste nicht erforderlich. Achte darauf, dass die URL das Protokoll (https://) enthält und korrekt formatiert ist. Beispiel: https://your-bucket.s3.your-region.backblazeb2.com\n",
+                "custom_s3_url": "Verwende diese Einstellung, wenn Sie einen S3-kompatiblen Dienst nutzen, der ein bestimmtes URL-Format erfordert (z. B. Backblaze B2) oder wenn Sie Probleme mit dem Standard-URL-Format haben. In der Regel ist diese Einstellung für die meisten Dienste nicht erforderlich. Achten Sie darauf, dass die URL das Protokoll (https://) enthält und korrekt formatiert ist. Beispiel: https://your-bucket.s3.your-region.backblazeb2.com\n",
                 "s3_instance_profile": "Schlüssel und Secret leer lassen, um Anmeldeinformationen im Instanzprofil zu verwenden.\n",
                 "composer_buttons": "Standardmäßig sind sowohl die Medienmanager-Schaltfläche als auch die Upload-Schaltfläche sichtbar. Du kannst auch festlegen, dass nur eine Schaltfläche angezeigt wird.\n"
             },
@@ -206,7 +206,7 @@
         "api": {
             "upload_errors": {
                 "forbidden_type": "Das Hochladen von Dateien dieses Typs ist nicht erlaubt.",
-                "mime_permission_denied": "Du hast keine Berechtigung, diesen Dateityp hochzuladen.",
+                "mime_permission_denied": "Sie haben keine Berechtigung, diesen Dateityp hochzuladen.",
                 "unsupported_type": "Upload-Adapter unterstützt den angegebenen MIME-Type nicht: {mime}.",
                 "could_not_detect_mime": "Der MIME-Typ dieser Datei konnte nicht erkannt werden, bitte versuche es erneut.",
                 "max_upload_file_size_ini": "Die maximale Dateigröße für den Upload wurde in der php.ini erreicht.",
