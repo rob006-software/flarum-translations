@@ -4455,7 +4455,7 @@
                 "no_users_earned": "5de11cbab7c2b6b71a320567614b6091 5de11cbab7c2b6b71a320567614b6091",
                 "notification": {
                     "a_badge": "19ac877f7fc2e813e154a8019183ae60 19ac877f7fc2e813e154a8019183ae60",
-                    "badge_earned": "0d2305ef6e5f05e4d94646bb1bc118c2 0d2305ef6e5f05e4d94646bb1bc118c2"
+                    "badge_earned": "0d2305ef6e5f05e4d94646bb1bc118c2 31efab7d601876434304eda9c59f056e"
                 },
                 "other_badges": "8c1f201aed4df008f66068b21587fd4a 8c1f201aed4df008f66068b21587fd4a",
                 "owned_badge": "b73d49d8496d13c107ef6036fbb33c2e b73d49d8496d13c107ef6036fbb33c2e",
@@ -4561,6 +4561,9 @@
                     "ban_options_only_ip": "3bfae1ad2e2ade75cca4ca439f33e969 3bfae1ad2e2ade75cca4ca439f33e969"
                 },
                 "unban_ip_button": "10ec3d4e73eebe3df4de1ce6daea518a 10ec3d4e73eebe3df4de1ce6daea518a",
+                "user_badge": {
+                    "banned_tooltip": "0a7e49ea8d179f5d9984a48e3988ec24 0a7e49ea8d179f5d9984a48e3988ec24"
+                },
                 "user_controls": {
                     "ban_button": "d186fe63aaf93d84c00ef15165b99cc6 d186fe63aaf93d84c00ef15165b99cc6",
                     "unban_button": "39f46f58535911fc6e3419056511ce11 39f46f58535911fc6e3419056511ce11"
@@ -4590,9 +4593,11 @@
                 "address_label": "74d42e1c6e90732ea786638559defbdd 74d42e1c6e90732ea786638559defbdd",
                 "ban_ip_addresses": "5e7359fca5df3f9aad2c37a8711f4e06 5e7359fca5df3f9aad2c37a8711f4e06",
                 "ban_ip_button": "eb67d18859173ff5e935a8f0fde81836 eb67d18859173ff5e935a8f0fde81836",
+                "ban_label": "050679f732482a8938d04f022070ce80 050679f732482a8938d04f022070ce80",
                 "reason_label": "5d649925351bb96e0a9d09ab79e7bf83 5d649925351bb96e0a9d09ab79e7bf83",
                 "unban_ip_addresses": "288d02fa51d59a0593576f9291897689 288d02fa51d59a0593576f9291897689",
-                "unban_ip_button": "b2fbbc70b477cbfc8e88775581e4c3c1 b2fbbc70b477cbfc8e88775581e4c3c1"
+                "unban_ip_button": "b2fbbc70b477cbfc8e88775581e4c3c1 b2fbbc70b477cbfc8e88775581e4c3c1",
+                "unban_label": "3e1020b08c105046d8b1ad07c146f2cb 3e1020b08c105046d8b1ad07c146f2cb"
             }
         }
     },
@@ -5108,7 +5113,7 @@
                     "delete_all_alert": "8b6c4942ca16d692eef5d22e719aa355 8b6c4942ca16d692eef5d22e719aa355",
                     "delete_all_button": "d61aaff7b9e985b605fa4e388bbc03b2 d61aaff7b9e985b605fa4e388bbc03b2",
                     "delete_button": "2572aaf61c9d2c7d66bc30d276052ddb 2572aaf61c9d2c7d66bc30d276052ddb",
-                    "empty_text": "0f74a8f5575fd1d95cf6da465e7b0571 0f74a8f5575fd1d95cf6da465e7b0571",
+                    "empty_text": "0f74a8f5575fd1d95cf6da465e7b0571 5c409a9a9127608acf2932945b23fd31",
                     "schedule_button": "5723f10d8398678d371d192fff6dff2e 5723f10d8398678d371d192fff6dff2e",
                     "scheduled_icon_tooltip": "5a162288a5034741cda3786653313bf5 5a162288a5034741cda3786653313bf5",
                     "scheduled_icon_tooltip_formatter": "1bf02ec3afd40b73e36532e13bf759ae 1bf02ec3afd40b73e36532e13bf759ae",
@@ -6414,7 +6419,7 @@
                             "label": "da8419e841397dc25943148c222b696e da8419e841397dc25943148c222b696e",
                             "last-used-label": "612c8f5c0540f7de310fbc2983fa7628 612c8f5c0540f7de310fbc2983fa7628",
                             "link-created-label": "df427cd46b908fe333448957de1088e7 df427cd46b908fe333448957de1088e7",
-                            "orphaned-account": "caaa4b48dd5e9799c4f9fa4f03523518 caaa4b48dd5e9799c4f9fa4f03523518",
+                            "orphaned-account": "caaa4b48dd5e9799c4f9fa4f03523518 bf309e55f3106d7ee309860943da3ab7",
                             "unlink-confirm": "5b36951eb9e50014699924817701cd68 5b36951eb9e50014699924817701cd68"
                         }
                     }
@@ -6865,7 +6870,7 @@
                         "button": "61ef50bbe7990c4b4cc27ab62e45c5e4 61ef50bbe7990c4b4cc27ab62e45c5e4",
                         "converted": "790e379280c081d65f65f7b9e51b444e 790e379280c081d65f65f7b9e51b444e",
                         "converting": "afae0f9d6334ee7a745c52b7bedd0dfa afae0f9d6334ee7a745c52b7bedd0dfa",
-                        "help": "0c311f20d59ca4e1e5fcfb45b3077e43 0c311f20d59ca4e1e5fcfb45b3077e43"
+                        "help": "0c311f20d59ca4e1e5fcfb45b3077e43 70c61addadb1a4653766c711d0ef984d"
                     },
                     "reactions": {
                         "Helptext": "e5bbccff8436045651cecb3aeb2afc14 e5bbccff8436045651cecb3aeb2afc14",
@@ -7159,7 +7164,7 @@
                     "include_priority_help": "8256d9f48f6813b9d5e93252c1a6bda2 8256d9f48f6813b9d5e93252c1a6bda2",
                     "last_build_time": "0796e8aec8398844b9b166d6224cd170 0796e8aec8398844b9b166d6224cd170",
                     "mode_help": "6a1b1a5a546ca33263369487f3b56d3c 6a1b1a5a546ca33263369487f3b56d3c",
-                    "mode_help_large": "39cc8812223ca69855f0e24ca4c31b3a 39cc8812223ca69855f0e24ca4c31b3a",
+                    "mode_help_large": "39cc8812223ca69855f0e24ca4c31b3a c169efcab8f97921583cfdc9c2e3dc67",
                     "mode_help_multi": "b374232f19db178a34c7772ba5339b36 b374232f19db178a34c7772ba5339b36",
                     "mode_help_multi_label": "ff27f8efd902844728c09dea3c1181ed ff27f8efd902844728c09dea3c1181ed",
                     "mode_help_runtime": "63c0e943eaf3627890ac6ad68c6db3ae 63c0e943eaf3627890ac6ad68c6db3ae",
@@ -7456,7 +7461,7 @@
                 "help_texts": {
                     "client_extension": "ec6b2a14a35b974ad2c097bebd81b0a4 ec6b2a14a35b974ad2c097bebd81b0a4",
                     "composer_buttons": "f832bd8e2c3731e96c39a0a6e9cb7cbc f832bd8e2c3731e96c39a0a6e9cb7cbc",
-                    "custom_s3_url": "12630e16a1cc6818acaf742d3d28f2c8 12630e16a1cc6818acaf742d3d28f2c8",
+                    "custom_s3_url": "12630e16a1cc6818acaf742d3d28f2c8 69caf335c315a9f9983e0337967f0266",
                     "disable-download-logging": "d627534d2483a262b8d1b260879f84b3 d627534d2483a262b8d1b260879f84b3",
                     "disable-hotlink-protection": "4cde804b9dbf54b9c238fdd4e6610965 4cde804b9dbf54b9c238fdd4e6610965",
                     "download_templates": "7d41930f67cb42ba723e189f7454fa5a 7d41930f67cb42ba723e189f7454fa5a",
@@ -7623,7 +7628,7 @@
                     "forbidden_type": "d5c6845af2f1eb2ef86ae3a69751b22c d5c6845af2f1eb2ef86ae3a69751b22c",
                     "max_upload_file_size_form": "49f0f2d27cf24069553e5ba205b0050b 49f0f2d27cf24069553e5ba205b0050b",
                     "max_upload_file_size_ini": "af3b5019e41db71fe194a5653c8602ed af3b5019e41db71fe194a5653c8602ed",
-                    "mime_permission_denied": "87b452261fa0b903b42e656a7c208b81 87b452261fa0b903b42e656a7c208b81",
+                    "mime_permission_denied": "87b452261fa0b903b42e656a7c208b81 ef644435e41e2704098963865b3cdb2c",
                     "no_file_uploaded": "150e868fd9686fc93a900e145f9082c8 150e868fd9686fc93a900e145f9082c8",
                     "no_files_made_it_to_upload": "77de76481ba176894ccfcc34e3e6c679 77de76481ba176894ccfcc34e3e6c679",
                     "no_upload_tmp_folder": "e984b8b161b233c972d67847deb3a898 e984b8b161b233c972d67847deb3a898",
@@ -9319,6 +9324,13 @@
                     "scrubber_replace_original_help": "e9927ac5765cd73c42dfe9898ccd5d76 e9927ac5765cd73c42dfe9898ccd5d76",
                     "scrubber_replace_original_label": "6bf9b78add426aef592c9175c0620956 6bf9b78add426aef592c9175c0620956",
                     "scrubber_section_title": "27bff0fa8979928771ad7bfe262ebc5e 27bff0fa8979928771ad7bfe262ebc5e",
+                    "tag_color_style_help": "656eab5fa35a059369ce620fce75ad76 656eab5fa35a059369ce620fce75ad76",
+                    "tag_color_style_label": "e3d59a7a26a08f17541791a80462cf93 e3d59a7a26a08f17541791a80462cf93",
+                    "tag_color_style_options": {
+                        "background": "be19296264681b9f5f0eaaa73d8a46a2 be19296264681b9f5f0eaaa73d8a46a2",
+                        "border": "2b95d220147efa959a4345869d1a0306 2b95d220147efa959a4345869d1a0306",
+                        "text": "612089a9f5b5377e65205c5dddece466 612089a9f5b5377e65205c5dddece466"
+                    },
                     "title": "44142bd46105c06203cc351ecd17d5cb 44142bd46105c06203cc351ecd17d5cb",
                     "web_scrubber_title_help": "c80258da460135dc4209716752fc4cdb c80258da460135dc4209716752fc4cdb",
                     "web_scrubber_title_label": "433008be3b7dc6ecc5505588b9ab34e5 433008be3b7dc6ecc5505588b9ab34e5",
@@ -10090,6 +10102,7 @@
             "forum": {
                 "action_copy": "668b1e13ff6bf731158f233dfb31671a 668b1e13ff6bf731158f233dfb31671a",
                 "action_cut": "e221334d5a4a13c729d1bd96cd82e817 e221334d5a4a13c729d1bd96cd82e817",
+                "copy_code_aria": "8ebd3fc6d3901aa6afd7b65d88dec6ed 8ebd3fc6d3901aa6afd7b65d88dec6ed",
                 "error_btn": "52e5304c8c7dfe795117f86497f74b8d 52e5304c8c7dfe795117f86497f74b8d",
                 "msg": "d045cc5655ff3a21c735200ebac7b056 d045cc5655ff3a21c735200ebac7b056",
                 "no_support": "2714e1e56bae7730f8d7d7e3106c268b 2714e1e56bae7730f8d7d7e3106c268b",
@@ -10103,6 +10116,7 @@
                 "settings": {
                     "done_message_help": "8e79bd5e9a6f18525a791c4d8ddf6ec7 8e79bd5e9a6f18525a791c4d8ddf6ec7",
                     "done_message_label": "a6c52d3f62756af29057a9559799e842 a6c52d3f62756af29057a9559799e842",
+                    "done_message_placeholder": "7c9d9cb1df3cb0edf6414f2b49275d40 7c9d9cb1df3cb0edf6414f2b49275d40",
                     "icon_help": "7bf1b4834c81470c195dfa616d927bf5 7bf1b4834c81470c195dfa616d927bf5",
                     "icon_label": "0b9d5ab7da6ad273503ade2a6de62e69 0b9d5ab7da6ad273503ade2a6de62e69",
                     "link_url_help": "bc7262fbd159ef8356405082d9a37746 bc7262fbd159ef8356405082d9a37746",
@@ -10113,6 +10127,7 @@
                     "timezone_label": "01f001f10a42f81c99f0b422feb33aa7 01f001f10a42f81c99f0b422feb33aa7",
                     "title_help": "7d157864b9b9338aced8540388efe7b9 7d157864b9b9338aced8540388efe7b9",
                     "title_label": "18a8022569d6ced829f833aa855530ce 18a8022569d6ced829f833aa855530ce",
+                    "title_placeholder": "6c7fbe6ccfcc72beda4b2aa7d12b9079 6c7fbe6ccfcc72beda4b2aa7d12b9079",
                     "use_my_timezone": "c8bcdcc11a8bb2c711436088fa6f5249 c8bcdcc11a8bb2c711436088fa6f5249"
                 }
             },
