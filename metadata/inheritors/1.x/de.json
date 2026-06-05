@@ -5242,6 +5242,51 @@
             }
         }
     },
+    "fof-signature.json": {
+        "fof-signature": {
+            "admin": {
+                "permissions": {
+                    "allow_signature": "d41d8cd98f00b204e9800998ecf8427e e534431b7fa091d3b54246cee7cc78d9",
+                    "edit_signature_others": "d41d8cd98f00b204e9800998ecf8427e f08441789cc0dc53e9daff1d6f664dfd"
+                },
+                "settings": {
+                    "allow_inline_editing": {
+                        "description": "d41d8cd98f00b204e9800998ecf8427e e5cd29f8fcfb17cdd33ea2487487e12c",
+                        "help": "d41d8cd98f00b204e9800998ecf8427e 5d9cdf2fb206ddfb1790a9470e060326"
+                    },
+                    "maximum_char_limit": {
+                        "description": "d41d8cd98f00b204e9800998ecf8427e ea08ca4cde81f370dcff9aca00898b07",
+                        "help": "d41d8cd98f00b204e9800998ecf8427e 7dee8dfa05b1bdf4f935acb2aa983f44"
+                    },
+                    "maximum_image_count": {
+                        "description": "d41d8cd98f00b204e9800998ecf8427e 34933df4d6be0acef3e8860dc51ef162",
+                        "help": "d41d8cd98f00b204e9800998ecf8427e 5231f41f1b022eba4a225cba311e2f27"
+                    }
+                }
+            },
+            "forum": {
+                "buttons": {
+                    "edit": "d41d8cd98f00b204e9800998ecf8427e 66322e77641796cf88112985f8f3c91c",
+                    "save": "d41d8cd98f00b204e9800998ecf8427e 5750604a8dcdfa23c8c7d0fd290498b8",
+                    "signature": "d41d8cd98f00b204e9800998ecf8427e 62d8bdb300a5ee6ba99a16738b18e786"
+                },
+                "editor": {
+                    "placeholder": "d41d8cd98f00b204e9800998ecf8427e ab13aeba7f80e179319c20e4934e2cc4"
+                },
+                "errors": {
+                    "max_char_limit_exceed": "d41d8cd98f00b204e9800998ecf8427e cd5d7be1c9978845f568c880ec0141fd",
+                    "max_image_count_exceed": "d41d8cd98f00b204e9800998ecf8427e 16ddb25025ef8633d2cd1d4727f62feb",
+                    "save_failed": "d41d8cd98f00b204e9800998ecf8427e 6fc9bbb360dbf2c45864c0470955d9d2"
+                },
+                "profile": {
+                    "click": "d41d8cd98f00b204e9800998ecf8427e 895493c903319e0ee48df485f3121990"
+                },
+                "settings": {
+                    "heading": "d41d8cd98f00b204e9800998ecf8427e 62d8bdb300a5ee6ba99a16738b18e786"
+                }
+            }
+        }
+    },
     "fof-sitemap.json": {
         "fof-sitemap": {
             "admin": {
