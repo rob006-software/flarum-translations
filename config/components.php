@@ -507,7 +507,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/linkrobins/blog/v1.2.1/locale/en.yml',
 	],
 	'linkrobins-clipboard' => [
-		'tag' => 'https://raw.githubusercontent.com/linkrobins/clipboard/v1.1.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/linkrobins/clipboard/v1.1.2/locale/en.yml',
 	],
 	'linkrobins-countdown-widget' => [
 		'tag' => 'https://raw.githubusercontent.com/linkrobins/countdown-widget/v1.1.1/locale/en.yml',
