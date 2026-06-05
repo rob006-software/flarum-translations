@@ -1725,6 +1725,9 @@ return [
 	'v17development-blog' => [
 		'tag' => 'https://raw.githubusercontent.com/v17development/flarum-blog/v0.8.0/locale/en.yaml',
 	],
+	'v17development-seo' => [
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/seo/3.0.0/locale/en.yml',
+	],
 	'v17development-support' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/84b06a54d8679050557844666ca9436064cb016b/v17development-support.yml',
 	],
