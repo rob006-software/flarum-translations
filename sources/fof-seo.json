@@ -32,7 +32,7 @@
                     "mode_main_title": "Only index the main post (default)",
                     "mode_main_help": "Search engine will only show the main post in the search results. It won't affect loading speed when you navigate to it via forum links.",
                     "mode_all_title": "Index all posts in a discussion (setting enabled)",
-                    "mode_all_help": "Search engines will understand the discussions and are even able to show some relevant posts underneath the search results. When you have the extension '<a>best answer</a>' installed and enabled on your forum, it will mark the discussion as 'answered' on the search results and redirect the user to that specific post. <b>However, depending on your server settings, this can be heavier</b>. It may cost some performance, so it depends on how fast your server is to enable this feature.",
+                    "mode_all_help": "Search engines will understand the discussions and are even able to show some relevant posts underneath the search results. When you have the extension '<a>best answer</a>' installed and enabled on your forum, it will mark the discussion as 'answered' on the search results and redirect the user to that specific post. Each reply is also exposed with its like and upvote counts, so search engines can identify the most helpful answers even without the best answer extension. <b>However, depending on your server settings, this can be heavier</b>. It may cost some performance, so it depends on how fast your server is to enable this feature.",
                     "question": "Do you want to enable this feature?",
                     "switch_label": "Crawl all posts (it's slower on page refresh, but search results will be better)"
                 },
@@ -72,6 +72,14 @@
                     "heading": "Discussion post crawl settings",
                     "help": "This is an important setting about crawling your discussion posts in search results.",
                     "button": "Setup post crawl settings"
+                },
+                "indexing": {
+                    "heading": "Indexing controls",
+                    "profiles_label": "De-index profile pages",
+                    "profiles_help": "When enabled, user profile pages emit a 'noindex' meta tag so they are kept out of search results. Links on the page are still followed, so crawlers can still reach the content they point to.",
+                    "tags_help": "Discussions in the selected tags (and those tags' own listing pages) will be kept out of search results with a 'noindex' meta tag. Links are still followed. Selecting a parent tag also covers its child tags.",
+                    "tags_button": "Select tags",
+                    "tags_none_selected": "No tags excluded from indexing."
                 },
                 "nofollow": {
                     "heading": "No-follow links",
