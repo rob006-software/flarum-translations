@@ -125,6 +125,12 @@ return [
 	'ernestdefoe-cross-references' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/cross-references/3.0.0/locale/en.yml',
 	],
+	'ernestdefoe-digest-mail' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/digest-mail/2.0.1/locale/en.yml',
+		'__builtInLanguages' => [
+			'fr',
+		],
+	],
 	'ernestdefoe-facebook-post' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/flarum-facebook-post/v2.1.5/locale/en.yml',
 	],
