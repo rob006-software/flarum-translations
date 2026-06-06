@@ -131,6 +131,9 @@ return [
 	'ernestdefoe-group-messages' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/group-messages/2.0.1/locale/en.yml',
 	],
+	'ernestdefoe-mobile-tab' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/mobiletab/2.0.0/resources/locale/en.yml',
+	],
 	'ernestdefoe-respawn' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/respawn/3.0.0/locale/en.yml',
 	],
