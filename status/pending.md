@@ -273,6 +273,4 @@
 
 ## Dead branches
 
-| Extension | Pull request |
-| --- | --- |
-| `iseekup-oauth-connect` | [![#1759 (open)](https://img.shields.io/badge/PR-%231759-brightgreen)](https://github.com/rob006-software/flarum-translations/pull/1759) |
+There are no dead branches.
