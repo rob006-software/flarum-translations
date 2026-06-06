@@ -1,0 +1,241 @@
+{
+    "ernestdefoe-digest-mail": {
+        "forum": {
+            "settings": {
+                "digest_label": "Email Digest",
+                "digest_help": "Receive a periodic summary of new discussions, active threads, and new members.",
+                "frequency_off": "Off — don't send me digests",
+                "frequency_daily": "Daily",
+                "frequency_weekly": "Weekly",
+                "frequency_monthly": "Monthly",
+                "saved": "Saved",
+                "save_error": "Could not save your preference. Please try again."
+            },
+            "onboarding": {
+                "modal_title": "Stay in the loop",
+                "modal_body": "Get a periodic digest of the best discussions, new members, and what's been happening on the forum — delivered straight to your inbox.",
+                "modal_dismiss": "No thanks"
+            }
+        },
+        "admin": {
+            "settings": {
+                "limit_new_label": "New Discussions — max items",
+                "limit_new_help": "Maximum number of new discussions to include in each digest.",
+                "limit_hot_label": "Active Discussions — max items",
+                "limit_hot_help": "Maximum number of active (hot) discussions to include in each digest.",
+                "limit_unread_label": "Unread Discussions — max items",
+                "limit_unread_help": "Maximum number of unread discussions to surface per recipient.",
+                "limit_leaderboard_label": "Leaderboard entries",
+                "limit_leaderboard_help": "Number of leaderboard entries to show in the digest (default 10, min 3). Requires huseyinfiliz-leaderboard.",
+                "limit_badges_label": "Badges — max recent earners",
+                "limit_badges_help": "Maximum number of recent badge earners to list in the digest (default 5, min 3). Requires fof/badges.",
+                "limit_pickem_label": "Pick'em — max items per section",
+                "limit_pickem_help": "Maximum number of upcoming matches, recent results, and leaderboard entries to show in the digest (default 5, min 3). Requires huseyinfiliz/pickem.",
+                "enable_picks_label": "CFB Picks — enable section",
+                "enable_picks_help": "Show upcoming games, recent results, and the picks leaderboard in the digest. Requires ernestdefoe/picks.",
+                "limit_picks_label": "CFB Picks — max items per section",
+                "limit_picks_help": "Maximum number of upcoming games, recent results, and leaderboard entries to show in the digest (default 5, min 3). Requires ernestdefoe/picks.",
+                "picks_leaderboard_scope_label": "CFB Picks — leaderboard scope",
+                "picks_leaderboard_scope_help": "Which leaderboard to show: the most recently completed week, the current season, or all-time standings.",
+                "picks_leaderboard_scope_week": "Most recent week",
+                "picks_leaderboard_scope_season": "Current season",
+                "picks_leaderboard_scope_alltime": "All-time",
+                "limit_gamepedia_label": "Gamepedia — max games per section",
+                "limit_gamepedia_help": "Maximum number of games to show in the Most Discussed and Newly Added sections (default 5, min 3). Requires huseyinfiliz/gamepedia.",
+                "limit_resofire_gamepedia_label": "Resofire Gamepedia — max games per section",
+                "limit_resofire_gamepedia_help": "Maximum number of games to show in the Most Discussed, Newly Added, and Top Genres sections (default 5, min 3). Requires resofire/gamepedia.",
+                "limit_favorites_label": "Favorite Discussions — max items",
+                "limit_favorites_help": "Maximum number of favorite discussions to show, ranked by likes/reactions during the period (default 6, min 3). Set to 0 to disable. Uses fof/reactions if enabled, otherwise flarum/likes.",
+                "enable_awards_label": "Awards",
+                "enable_awards_help": "Show active and upcoming awards in the digest. Requires huseyinfiliz/awards.",
+                "queue_chunk_size_label": "Queue chunk size",
+                "queue_chunk_size_help": "Number of users dispatched per scheduler minute (default 200, min 50, max 10000). Small forums: 200–500. Large forums on dedicated servers: 1000–10000. Higher values finish faster but use more memory per cycle.",
+                "queue_delay_label": "Job delay (seconds)",
+                "queue_delay_help": "Seconds before queued jobs become available to workers (default 0). In window mode this is rarely needed — the window itself spreads load across time. Only useful if using the two-phase digest:enqueue command on very large forums.",
+                "queue_tries_label": "Max retry attempts",
+                "queue_tries_help": "How many times a failed digest job will be retried before being moved to the failed jobs table (default 3). Retries use exponential backoff: 30s, 60s, 120s. Note: if you have blomstra/database-queue installed, it has its own Retries setting — the lower of the two values will effectively apply. Recommended to set both extension settings to the same value.",
+                "queue_name_label": "Queue name",
+                "queue_name_help": "The named queue digest jobs are pushed onto. Must match the --queue argument in your queue:work cron. Default: digest.",
+                "limit_members_label": "New Members — max items",
+                "limit_members_help": "Maximum number of new members to show in each digest.",
+                "hot_reply_weight_label": "Hot score — reply weight",
+                "hot_reply_weight_help": "How much each reply counts toward a discussion's hotness score. Higher = more replies-driven.",
+                "hot_recency_weight_label": "Hot score — recency weight",
+                "hot_recency_weight_help": "How much recency affects hotness. Higher = newer posts score more strongly. Set to 0 to rank by replies only.",
+                "featured_discussion_label": "Featured discussion ID",
+                "featured_discussion_help": "Enter a discussion ID to pin it as a featured discussion at the top of every digest. Leave blank to show no featured discussion.",
+                "send_hour_label": "Send hour",
+                "send_hour_help": "The time of day your digest emails will start sending.",
+                "send_window_start_label": "Send time",
+                "send_window_start_help": "The time of day your digest emails will start sending. Choose a quiet period when your forum has low activity — typically late night or early morning.",
+                "send_window_end_label": "Send time — end (optional)",
+                "send_window_end_help": "Leave this the same as the start time to send all emails at once. Set it later to spread sending across several hours — recommended for larger forums. For example, a 2 a.m. start and 4 a.m. end means emails go out gradually between 2 and 4 a.m.",
+                "timezone_label": "Your timezone",
+                "timezone_help": "Choose your own timezone — not your server's. The send time you set below will fire at that hour in whichever timezone you select here. For example, if you're in Chicago and want emails sent at 8 a.m. your time, select Central Time and set the send time to 8 a.m.",
+                "weekly_day_label": "Weekly digest — send day",
+                "weekly_day_help": "Day of the week on which weekly digests are sent.",
+                "monthly_day_label": "Monthly digest — send day",
+                "monthly_day_help": "Day of the month on which monthly digests are sent. Capped at 28 so February always works."
+            },
+            "test_send": {
+                "heading": "Send Test Email",
+                "help": "Send a live digest email immediately to any address. Uses your account's visibility to build content. Does not affect scheduled sends or unsubscribe tokens.",
+                "email_placeholder": "recipient@example.com",
+                "frequency_label": "Frequency",
+                "send_button": "Send Test Email",
+                "sending_button": "Sending…",
+                "success": "Sent! Check {email} for the {frequency} digest.",
+                "error_empty_email": "Please enter an email address.",
+                "error_generic": "Failed to send. Check your mail settings and try again.",
+                "theme_label": "Preview theme",
+                "theme_light": "Light",
+                "theme_dark": "Dark",
+                "theme_hint_light": "Sends with light mode styles applied",
+                "theme_hint_dark": "Sends with dark mode styles applied",
+                "theme_light_only": "Light mode only — install and enable fof/nightmode to unlock dark mode emails"
+            },
+            "onboarding": {
+                "section_heading": "New User Onboarding",
+                "mode_label": "Onboarding mode",
+                "mode_help": "Controls how new users are enrolled in digest emails when their account is activated.",
+                "mode_none": "No default — users choose their own preference",
+                "mode_auto_enroll": "Auto-enroll new users",
+                "mode_opt_in_modal": "Show opt-in modal",
+                "frequency_label": "Auto-enroll frequency",
+                "frequency_help": "The digest frequency new users are automatically enrolled at. Only frequencies enabled in User Frequency Options above are available."
+            }
+        },
+        "email": {
+            "subject": "{forum} — Your {frequency} Digest",
+            "heading": "What's been happening this {period}",
+            "stats": {
+                "posts": "Posts",
+                "discussions": "Discussions",
+                "new_members": "New Members",
+                "active_users": "Active Users"
+            },
+            "featured": {
+                "author_label": "Discussion author",
+                "badge": "Featured",
+                "cta": "Join the discussion"
+            },
+            "sections": {
+                "new_discussions": "New Discussions",
+                "active_discussions": "Active Discussions",
+                "unread": "You Haven't Seen Yet",
+                "new_members": "New Members",
+                "leaderboard": "Leaderboard",
+                "badges": "Badges",
+                "pickem": "Pick'em",
+                "picks": "CFB Picks",
+                "gamepedia": "Gamepedia",
+                "favorites": "Favorite Discussions"
+            },
+            "members": {
+                "joined": "Joined {time_ago}"
+            },
+            "leaderboard": {
+                "rankings_note": "Rankings based on total points earned through posts, discussions, likes, badges, and daily logins.",
+                "col_rank": "#",
+                "col_member": "Member",
+                "col_move": "Move",
+                "col_score": "Score",
+                "new_badge": "NEW",
+                "biggest_mover": "Biggest Mover This {period}",
+                "spot_singular": "spot",
+                "spot_plural": "spots"
+            },
+            "badges": {
+                "intro": "Members who earned badges this {period}.",
+                "most_earned": "Most Earned This {period}",
+                "earned_count_singular": "Earned {count} time this {period}",
+                "earned_count_plural": "Earned {count} times this {period}",
+                "rarest": "Rarest Badge Awarded",
+                "rarest_count_singular": "Only {count} member holds this badge",
+                "rarest_count_plural": "Only {count} members hold this badge"
+            },
+            "pickem": {
+                "upcoming_heading": "Upcoming Matches",
+                "upcoming_note": "Don't miss your chance to pick — cutoff times below.",
+                "cta": "Submit Your Picks",
+                "results_heading": "Recent Results",
+                "draw": "Draw",
+                "leaderboard_heading": "Pick'em Leaderboard",
+                "col_rank": "#",
+                "col_player": "Player",
+                "col_pts": "Pts",
+                "col_accuracy": "Accuracy"
+            },
+            "picks": {
+                "confidence_note": "Confidence mode is active — points are weighted by each player's confidence rating (1–10) on their picks.",
+                "week_open": "Open for picks",
+                "week_closed": "Picks locked",
+                "upcoming_heading": "Upcoming Games",
+                "upcoming_note": "Picks lock individually at each game's cutoff time.",
+                "neutral_site": "Neutral site",
+                "cta": "Make Your Picks",
+                "results_heading": "Recent Results",
+                "winner": "Winner",
+                "col_rank": "#",
+                "col_player": "Player",
+                "col_pts": "Pts",
+                "col_accuracy": "Acc.",
+                "move_up": "Up {n}",
+                "move_down": "Down {n}",
+                "move_held": "—",
+                "move_new": "New"
+            },
+            "gamepedia": {
+                "most_discussed": "Most Discussed This {period}",
+                "newly_added": "Newly Added",
+                "cta": "Browse Gamepedia"
+            },
+            "resofire_gamepedia": {
+                "most_discussed": "Most Discussed This {period}",
+                "newly_added": "Newly Added",
+                "top_genres": "Top Genres This {period}",
+                "cta": "Browse Gamepedia"
+            },
+            "awards": {
+                "coming_soon": "Coming Soon",
+                "categories": "Categories",
+                "front_runners": "Current Front-Runners",
+                "voting_closed": "Voting has closed",
+                "tallying": "Results are being tallied. Stay tuned for the announcement!",
+                "cta_vote": "Cast Your Vote",
+                "cta_nominees": "View Nominees",
+                "cta_view": "View Awards",
+                "cta_results": "See Full Results"
+            },
+            "footer": {
+                "unsubscribe": "Change frequency or unsubscribe"
+            }
+        },
+        "unsubscribe": {
+            "page_title": "Email Digest Preferences",
+            "heading": "Email Digest Preferences",
+            "greeting": "Hi, {name}. Choose how often you'd like to receive a digest of what's happening in {forum}.",
+            "click_hint": "Click an option to save your preference instantly.",
+            "daily_title": "Daily",
+            "daily_desc": "One email per day with the latest activity.",
+            "weekly_title": "Weekly",
+            "weekly_desc": "A weekly roundup every {day}.",
+            "monthly_title": "Monthly",
+            "monthly_desc": "A monthly summary on the {day} of each month.",
+            "off_title": "Off",
+            "off_desc": "Don't send me any digest emails."
+        },
+        "unsubscribe_saved": {
+            "page_title": "Preferences Saved",
+            "heading": "Preferences saved",
+            "body": "Your digest email preferences have been updated successfully.",
+            "return_link": "Return to {forum}"
+        },
+        "unsubscribe_invalid": {
+            "page_title": "Invalid or Expired Link",
+            "heading": "This link is no longer valid",
+            "body_expired": "This unsubscribe link has either expired (links are valid for 90 days) or has already been used. A fresh link is included in every digest email we send you.",
+            "body_signin": "To manage your digest preferences, sign in to {forum} and visit your notification settings."
+        }
+    }
+}
