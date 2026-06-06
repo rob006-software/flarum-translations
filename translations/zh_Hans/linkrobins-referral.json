@@ -2,67 +2,67 @@
     "linkrobins-referral": {
         "forum": {
             "profile": {
-                "tab": "",
-                "invite_code_title": "",
-                "invite_code_help": "",
-                "copy": "",
-                "copy_link": "",
-                "total_referrals": "",
-                "no_referrals": "",
-                "not_eligible": ""
+                "tab": "邀请",
+                "invite_code_title": "你的邀请码",
+                "invite_code_help": "分享你的邀请码或链接。用户通过你的邀请链接访问本站并注册时，邀请码将自动填入。",
+                "copy": "复制",
+                "copy_link": "复制邀请链接",
+                "total_referrals": "邀请总人数",
+                "no_referrals": "暂无邀请记录。快快分享你的邀请码吧！",
+                "not_eligible": "你尚未获得个人邀请码权限。多在论坛保持活跃，过段时间再来看看吧。"
             },
             "sign_up": {
-                "invite_code_label": "",
-                "invite_code_label_required": "",
-                "invite_code_placeholder": ""
+                "invite_code_label": "邀请码",
+                "invite_code_label_required": "邀请码*",
+                "invite_code_placeholder": "例如：K7XM2QNP"
             },
             "user_card": {
-                "referrals_singular": "",
-                "referrals_plural": ""
+                "referrals_singular": "成功邀请{count}人",
+                "referrals_plural": "成功邀请{count}人"
             }
         },
         "admin": {
             "settings": {
-                "title": "",
-                "require_label": "",
-                "require_help": "",
-                "enabled": "",
-                "disabled": ""
+                "title": "通用",
+                "require_label": "注册时必须填入邀请码",
+                "require_help": "开启后，用户注册时必须输入有效邀请码。",
+                "enabled": "已启用",
+                "disabled": "已禁用"
             },
             "eligibility": {
-                "title": "",
-                "help": "",
-                "groups_label": "",
-                "groups_help": "",
-                "min_posts_label": "",
-                "min_age_label": "",
-                "whitelist_label": "",
-                "whitelist_help": ""
+                "title": "个人邀请码权限",
+                "help": "设置用户生成个人邀请码的权限。管理员和白名单用户始终具有权限。规则留空或填写0视为跳过；具有多条规则时，用户需满足所有规则。",
+                "groups_label": "允许的用户组",
+                "groups_help": "选中任意用户组后，只有这些用户组的用户才能生成个人邀请码。不选代表允许所有用户组。",
+                "min_posts_label": "最低发帖数",
+                "min_age_label": "最少注册时间（天）",
+                "whitelist_label": "白名单",
+                "whitelist_help": "不受上述规则限制，始终可以生成个人邀请码的用户。用英文逗号，空格或新行分隔。"
             },
             "campaign": {
-                "title": "",
-                "help": "",
-                "label_label": "",
-                "label_placeholder": "",
-                "expiry_label": "",
-                "create": "",
-                "none": "",
-                "col_code": "",
-                "col_label": "",
-                "col_uses": "",
-                "col_expiry": "",
-                "no_expiry": "",
-                "expired": "",
-                "delete": "",
-                "confirm_delete": ""
+                "title": "全局邀请码",
+                "help": "独立的邀请码，不绑定用户，适合社交媒体和营销推广使用。不会为推荐人计入奖励，但会统计使用次数。",
+                "label_label": "名称",
+                "label_placeholder": "例如：推特推广",
+                "expiry_label": "有效期（可选）",
+                "create": "创建邀请码",
+                "none": "暂无全局邀请码。",
+                "col_code": "邀请码",
+                "col_label": "名称",
+                "col_uses": "使用次数",
+                "col_expiry": "有效期",
+                "no_expiry": "永久",
+                "expired": "已过期",
+                "delete": "删除",
+                "confirm_delete": "确认删除该全局邀请码？用户将无法继续使用此邀请码注册。"
             }
         },
         "api": {
-            "invalid_expiry": ""
+            "invalid_expiry": "有效期日期无效。"
         },
         "validation": {
-            "required": "",
-            "invalid": ""
+            "required": "注册必须使用邀请码。",
+            "invalid": "邀请码无效。"
         }
     }
 }
