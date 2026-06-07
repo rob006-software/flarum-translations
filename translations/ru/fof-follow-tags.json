@@ -23,13 +23,13 @@
                 "subscription_label": "Выберите уровень подписки для {tagName}",
                 "follow_button": "=> fof-follow-tags.ref.follow",
                 "following_button": "=> fof-follow-tags.ref.following",
-                "following_text": "Получать уведомления обо всех новых дискуссиях.",
+                "following_text": "Получать уведомления обо всех новых темах.",
                 "hiding_button": "=> fof-follow-tags.ref.hiding",
                 "hiding_text": "Скрыть тему со страницы всех тем.",
                 "ignoring_button": "=> fof-follow-tags.ref.ignoring",
                 "ignoring_text": "Никогда не уведомлять.",
                 "lurking_button": "=> fof-follow-tags.ref.lurking",
-                "lurking_text": "Получать уведомления обо всех новых дискуссиях и сообщениях.",
+                "lurking_text": "Получать уведомления обо всех новых темах и сообщениях.",
                 "not_following_button": "Не подписан",
                 "not_following_text": "Уведомить при @упоминании.",
                 "notify_alert_tooltip": "Получать уведомления на форуме, когда появляются темы или сообщения",
@@ -62,10 +62,10 @@
             "newDiscussionInTag": {
                 "subject": "[Тег | Новая дискуссия] {title}",
                 "plain": {
-                    "body": "Пользователь {actor_display_name} начал дискуссию в теге, на который вы подписаны: {discussion_title}\n\nЧтобы просмотреть её, перейдите по ссылке:\n{discussion_url}\n\n---\n\n{content}\n"
+                    "body": "Пользователь {actor_display_name} создал тему в теге, на который вы подписаны: {discussion_title}\n\nЧтобы посмотреть её, перейдите по ссылке:\n{discussion_url}\n\n---\n\n{content}\n"
                 },
                 "html": {
-                    "body": "{actor_display_name} начал(а) дискуссию в теге, на который вы подписаны: [{discussion_title}]({discussion_url})\n"
+                    "body": "Пользователь {actor_display_name} создал тему в теге, на который вы подписаны: [{discussion_title}]({discussion_url})\n"
                 }
             },
             "newPostInTag": {
