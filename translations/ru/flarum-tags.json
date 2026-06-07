@@ -9,7 +9,7 @@
                 "delete_tag_button": "Удалить",
                 "delete_tag_confirmation": "Удалить тег? Темы из этого тега не будут удалены.",
                 "description_label": "Описание",
-                "hide_label": "Скрыть дискуссии с этим тегом из общего списка",
+                "hide_label": "Скрыть темы с этим тегом из общего списка",
                 "icon_label": "=> core.ref.icon",
                 "icon_text": "=> core.ref.icon_text",
                 "name_label": "=> flarum-tags.ref.name",
@@ -56,7 +56,7 @@
             },
             "choose_tags": {
                 "edit_title": "Настройка тегов: {title}",
-                "title": "Укажите теги для Вашей дискуссии"
+                "title": "Укажите теги для вашей темы"
             },
             "composer_discussion": {
                 "choose_tags_link": "Выбрать теги"
@@ -79,7 +79,7 @@
                 "tags_text": "{count, plural, one {{tags} тег} few {{tags} тега} other {{tags} тегов}}"
             },
             "tag": {
-                "meta_description_text": "Все дискуссии с тегом {tag}"
+                "meta_description_text": "Все темы с тегом {tag}"
             }
         },
         "lib": {
