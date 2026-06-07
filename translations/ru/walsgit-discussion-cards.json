@@ -171,7 +171,7 @@
                 "tagImageNoTagId": "Не указан tagId!",
                 "tagImageUnsupportedMethod": "Неподдерживаемый метод ({method})",
                 "tagSettingsNoTagId": "Не указан tagId!",
-                "debugModalDiscussionId": "ID дискуссии должен быть 1 или больше"
+                "debugModalDiscussionId": "ID темы должен быть 1 или больше"
             },
             "console": {
                 "migrateImagesStart": "➡ Перенос старых изображений...",
@@ -205,7 +205,7 @@
                 "regenerateImagesInvalidTagOption": "--tag должен сопровождаться одним или несколькими ID тегов через запятую в виде чисел или slug'ов в кавычках. Например: \"slug-1\", \"slug-2\".",
                 "regenerateImagesNothingToDo": "Нет дискуссий для обработки",
                 "regenerateImagesStart": "➡ Начало обработки {count} дискуссий...",
-                "regenerateImagesError": "❌ Ошибка при обработке дискуссии #{id}: {message}",
+                "regenerateImagesError": "❌ Ошибка при обработке темы #{id}: {message}",
                 "regenerateImagesStartAll": "➡ Начало обработки ВСЕХ [{count}] дискуссий...",
                 "regenerateImagesStartAllWithout": "➡ Начало обработки [{count}] дискуссий без изображений...",
                 "regenerateImagesSummary": "➡ Итоги пересоздания{mode}: обработано: {total}, успешно: {success}, ошибок: {errors}."
