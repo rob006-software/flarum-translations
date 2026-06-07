@@ -18,9 +18,9 @@
                 "submit_button": "=> fof-merge-discussions.ref.merge"
             },
             "notification": {
-                "discussion_merged": "Ваша дискуссия {oldTitle} была объединена с этой дискуссией пользователем {username}.",
+                "discussion_merged": "Ваша тема {oldTitle} была объединена с этой темой пользователем {username}.",
                 "preferences": {
-                    "discussion_merged": "Объединение одной из моих дискуссий с другой"
+                    "discussion_merged": "Кто-то объединил мою тему с другой"
                 }
             },
             "discussion": {
@@ -36,7 +36,7 @@
             },
             "settings": {
                 "search_result_help": "Количество тем для отображения при поиске в модальном окне объединения тем.",
-                "search_result_label": "Ограничение поиска для объединения дискуссий"
+                "search_result_label": "Ограничение поиска для объединения тем"
             }
         },
         "api": {
@@ -53,8 +53,8 @@
         },
         "email": {
             "merged": {
-                "body": "Ваша дискуссия {merged_discussion_title} была объединена с {discussion_title} пользователем {actor_display_name}.\n\nПосмотреть её можно здесь: {discussion_url}\n",
-                "subject": "Ваша дискуссия \"{merged_discussion_title}\" была объединена"
+                "body": "Ваша тема {merged_discussion_title} была объединена с {discussion_title} пользователем {actor_display_name}.\n\nПосмотрите её здесь: {discussion_url}\n",
+                "subject": "Ваша тема «{merged_discussion_title}» была объединена"
             }
         }
     }
