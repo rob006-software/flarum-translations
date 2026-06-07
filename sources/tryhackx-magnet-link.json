@@ -23,6 +23,10 @@
                 "tracker_timeout_help": "Maximum time to wait for a tracker response. Set to 0 for default (2 seconds).",
                 "max_trackers_label": "Maximum Trackers to Query",
                 "max_trackers_help": "Maximum number of trackers to contact per magnet. Set to 0 to use the built-in safety cap (12). A hard time budget also applies so a single magnet can't hang a request.",
+                "scraper_max_redirects_label": "Max Tracker Redirects",
+                "scraper_max_redirects_help": "How many HTTP(S) redirects to follow when scraping a tracker. Default 0 (don't follow). Raise to 1-2 if a tracker is behind Cloudflare or a CDN that redirects http→https. Every redirect hop is still validated by the SSRF guard, so a tracker can't redirect the request to a private/internal address.",
+                "priority_trackers_label": "Priority Trackers",
+                "priority_trackers_help": "Optional. One tracker host per line (e.g. tracker.opentrackr.org). If a magnet contains any of these, they are queried first, in this order — most useful in the default 'stop at first responder' mode so stats come from a tracker you trust, and it improves latency/accuracy. Reorder only: trackers that aren't in the magnet are never added, and the SSRF guard, scheme/HTTP-only filters and limits still apply.",
                 "cache_enabled_label": "Cache Tracker Results",
                 "cache_enabled_help": "Cache seed/leech/download stats so repeated views and tooltip hovers don't re-query the trackers. Strongly recommended — it is also the main protection against hover-driven load. Controls both the server cache and the in-browser cache.",
                 "cache_ttl_label": "Cache Lifetime (seconds)",
@@ -74,6 +78,13 @@
                 "button": "Re-parse old magnet links",
                 "success": "Re-parsed {count} post(s).",
                 "error": "Failed to re-parse magnet links. Check the server logs."
+            },
+            "retokenize": {
+                "label": "Token security",
+                "help": "Magnet tokens keep the link out of the page source so it can only be fetched through the permission-checked API. Older versions derived tokens from a public, constant salt, which let known torrents be reversed offline straight from the HTML. Run this once after upgrading to re-secure every token with a per-site secret. For very large forums use the CLI instead: php flarum magnet:retokenize",
+                "button": "Re-secure magnet tokens",
+                "success": "Re-secured {count} magnet token(s).",
+                "error": "Failed to re-secure tokens. Check the server logs."
             },
             "support": {
                 "button": "Support Development",

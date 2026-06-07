@@ -23,6 +23,10 @@
                 "tracker_timeout_help": "",
                 "max_trackers_label": "",
                 "max_trackers_help": "",
+                "scraper_max_redirects_label": "",
+                "scraper_max_redirects_help": "",
+                "priority_trackers_label": "",
+                "priority_trackers_help": "",
                 "cache_enabled_label": "",
                 "cache_enabled_help": "",
                 "cache_ttl_label": "",
@@ -69,6 +73,13 @@
                 "self_interval_help": ""
             },
             "reparse": {
+                "label": "",
+                "help": "",
+                "button": "",
+                "success": "",
+                "error": ""
+            },
+            "retokenize": {
                 "label": "",
                 "help": "",
                 "button": "",

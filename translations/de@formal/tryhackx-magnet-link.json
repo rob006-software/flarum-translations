@@ -23,6 +23,10 @@
                 "tracker_timeout_help": "Maximale Wartezeit auf eine Antwort des Trackers. Auf 0 setzen, um die Standardeinstellung (2 Sekunden) zu verwenden.",
                 "max_trackers_label": "Maximale Anzahl von Trackern für die Abfrage",
                 "max_trackers_help": "Maximale Anzahl der abzufragenden Tracker. Setze den Wert auf 0, um die Anzahl nicht zu begrenzen. Wenn „Alle auswählen“ aktiviert ist, begrenzt dies die Anzahl der erfolgreichen Antworten.",
+                "scraper_max_redirects_label": "",
+                "scraper_max_redirects_help": "",
+                "priority_trackers_label": "",
+                "priority_trackers_help": "",
                 "cache_enabled_label": "",
                 "cache_enabled_help": "",
                 "cache_ttl_label": "",
@@ -74,6 +78,13 @@
                 "button": "Ältere Magnet-Links neu analysieren",
                 "success": "{count} Beiträge neu analysiert.",
                 "error": "Das erneute Parsen der Magnet-Links ist fehlgeschlagen. Überprüfe die Serverprotokolle."
+            },
+            "retokenize": {
+                "label": "",
+                "help": "",
+                "button": "",
+                "success": "",
+                "error": ""
             },
             "support": {
                 "button": "Unterstütze die Entwicklung",
