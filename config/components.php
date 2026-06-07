@@ -285,7 +285,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/frontpage/2.0.0-beta.1/resources/locale/en.yml',
 	],
 	'fof-gamification' => [
-		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/gamification/2.0.0-beta.3/resources/locale/en.yml',
+		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/gamification/2.0.0-beta.4/resources/locale/en.yml',
 	],
 	'fof-geoip' => [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/geoip/2.0.0-beta.6/resources/locale/en.yml',
