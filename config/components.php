@@ -120,7 +120,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/aurora/3.0.0/resources/locale/en.yml',
 	],
 	'ernestdefoe-calendar' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/calendar/2.0.4/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/calendar/2.0.5/resources/locale/en.yml',
 	],
 	'ernestdefoe-cross-references' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/cross-references/3.0.0/locale/en.yml',
