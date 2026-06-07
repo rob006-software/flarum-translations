@@ -20,7 +20,7 @@
         },
         "admin": {
             "permission": {
-                "subscribe_to_discussion_created": "Получать уведомления о создании дискуссий",
+                "subscribe_to_discussion_created": "Получать уведомления о создании темы",
                 "subscribe_to_post_created": "Получать уведомления о новых сообщениях и ответах",
                 "subscribe_to_post_unapproved": "Получать уведомления о неподтверждённых сообщениях",
                 "subscribe_to_user_created": "Получать уведомления о регистрации пользователей",
@@ -29,7 +29,7 @@
         },
         "email": {
             "subject": {
-                "newDiscussion": "[Подписка | Новая дискуссия] {title}",
+                "newDiscussion": "[Подписка | Новая тема] {title}",
                 "newUser": "[Подписка | Новый пользователь] {username}",
                 "postUnapproved": "[Подписка | Неподтверждённое сообщение] {username} опубликовал(а) в {title}",
                 "postCreated": "[Подписки | Новое сообщение] {username} отправил новое сообщение в {title}",
