@@ -36,7 +36,7 @@
                 "postFlagged": "[Подписки | Новая отметка] {username} отметил сообщение в {title}"
             },
             "body": {
-                "newDiscussion": "Здравствуйте, {recipient_display_name}!\n\n{actor_display_name} опубликовал(а) новую дискуссию: {discussion_title}\n\nЧтобы посмотреть новую дискуссию, пройдите по следующей ссылке:\n{discussion_url}\n\n---\n\n{post_content}\n",
+                "newDiscussion": "Здравствуйте, {recipient_display_name}!\n\nПользователь {actor_display_name} создал тему: {discussion_title}\n\nЧтобы посмотреть её, перейдите по ссылке:\n{discussion_url}\n\n---\n\n{post_content}\n",
                 "newUser": "Здравствуйте, {recipient_display_name}!\n\n{actor_display_name} зарегистрировался на {forum_url}.\n\nЧтобы посмотреть нового пользователя, пройдите по следующей ссылке:\n{user_url}\n",
                 "postUnapproved": "Здравствуйте, {recipient_display_name}!\n\n{actor_display_name} опубликовал(а) сообщение, требующее подтверждения в {discussion_title}\n\nЧтобы посмотреть неподтверждённое сообщение, пройдите по следующей ссылке:\n{post_url}\n\n---\n\n{post_content}\n",
                 "postCreated": "Здравствуйте, {recipient_display_name},\n\n{actor_display_name} отправил(а) новое сообщение в {discussion_title}\n\nЧтобы посмотреть новое сообщение, пройдите по следующей ссылке:\n{post_url}\n---\n\n{post_content}\n",
