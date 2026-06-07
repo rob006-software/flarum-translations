@@ -2,8 +2,8 @@
     "flarum-realtime": {
         "forum": {
             "push": {
-                "discussion-list-new-activity": "{count, plural, one {Показать # обновлённую дискуссию} few {Показать # обновлённые дискуссии} many {Показать # обновлённых дискуссий} other {Показать # обновлённые дискуссии}}",
-                "discussion-list-new-activity-with-auto-release": "{count, plural, one {В # дискуссии появилась активность} few {В # дискуссиях появилась активность} many {В # дискуссиях появилась активность} other {В # дискуссиях появилась активность}}. Обновление через {releaseTimeout} сек. Нажмите, чтобы показать её сейчас."
+                "discussion-list-new-activity": "{count, plural, one {Показать # обновлённую тему} few {Показать # обновлённые темы} many {Показать # обновлённых тем} other {Показать # обновлённые темы}}",
+                "discussion-list-new-activity-with-auto-release": "{count, plural, one {В # теме появилась активность} few {В # темах появилась активность} many {В # темах появилась активность} other {В # темах появилась активность}}. Обновление через {releaseTimeout} сек. Нажмите, чтобы увидеть её сейчас."
             },
             "typing-indicator": {
                 "anonymous-user": "[Аноним]",
