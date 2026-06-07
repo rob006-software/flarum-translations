@@ -61,7 +61,7 @@
             "user_mentioned": {
                 "subject": "{mentioner_display_name} упомянул(а) вас в {title}",
                 "plain": {
-                    "body": "{mentioner_display_name} упомянул(а) вас в сообщении темы «{title}».\n\n{url}\n\n---\n\n{content}\n"
+                    "body": "Пользователь {mentioner_display_name} упомянул вас в сообщении темы «{title}».\n\n{url}\n\n---\n\n{content}\n"
                 },
                 "html": {
                     "body": "{mentioner_display_name} упомянул(а) вас в сообщении в теме [{title}]({url})."
