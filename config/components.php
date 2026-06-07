@@ -135,7 +135,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/giveaways/v0.2.0/locale/en.yml',
 	],
 	'ernestdefoe-google-fonts' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/google-fonts/0.1.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/google-fonts/0.2.1/locale/en.yml',
 	],
 	'ernestdefoe-group-messages' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/group-messages/2.0.1/locale/en.yml',
