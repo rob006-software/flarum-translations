@@ -943,6 +943,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`ernestdefoe-digest-mail`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-digest-mail) | [`ernestdefoe/digest-mail`](https://github.com/ernestdefoe/digest-mail) |
 | [`ernestdefoe-facebook-post`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-facebook-post) | [`ernestdefoe/flarum-facebook-post`](https://github.com/ernestdefoe/flarum-facebook-post) |
 | [`ernestdefoe-giveaways`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-giveaways) | [`ernestdefoe/giveaways`](https://github.com/ernestdefoe/giveaways) |
+| [`ernestdefoe-google-fonts`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-google-fonts) | [`ernestdefoe/google-fonts`](https://github.com/ernestdefoe/google-fonts) |
 | [`ernestdefoe-group-messages`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-group-messages) | [`ernestdefoe/group-messages`](https://github.com/ernestdefoe/group-messages) |
 | [`ernestdefoe-mobile-tab`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-mobile-tab) | [`ernestdefoe/mobile-tab`](https://github.com/ernestdefoe/mobiletab) |
 | [`ernestdefoe-respawn`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-respawn) | [`ernestdefoe/respawn`](https://github.com/ernestdefoe/respawn) |
