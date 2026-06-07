@@ -2,13 +2,24 @@
     "ernestdefoe-google-fonts": {
         "admin": {
             "body_font_label": "Body font",
-            "body_font_help": "The font used for body text across your forum. Start typing to search the Google Fonts library, or paste any Google Font family name exactly.\n",
+            "body_font_help": "The font used for body text across your forum. Start typing to search the Google Fonts library, or upload your own font to self-host it.\n",
             "heading_font_label": "Heading font",
             "heading_font_help": "The font used for headings and titles. Leave blank to keep the body font.",
             "placeholder": "e.g. Inter, Roboto, Poppins…",
             "preview_text": "The quick brown fox jumps over the lazy dog 0123456789",
             "no_font": "No font selected — using the theme default.",
-            "clear": "Clear"
+            "clear": "Clear",
+            "switch_to_upload": "Upload your own font (works where Google is blocked)",
+            "switch_to_google": "Use a Google font instead",
+            "upload_hint": "Self-host the font from your forum so it loads everywhere — including regions where Google Fonts is blocked (e.g. mainland China). Upload one .woff2 file per weight you want; a variable .woff2 covers every weight in one file.\n",
+            "family_name": "Font name",
+            "family_placeholder": "e.g. My Brand Sans",
+            "name_your_font": "Give your font a name to preview it.",
+            "add_weight": "Upload .woff2",
+            "remove_weight": "Remove this weight",
+            "uploading": "Uploading…",
+            "only_woff2": "Only .woff2 files are supported. Convert your font to woff2 first.",
+            "upload_error": "Upload failed. Please try again."
         }
     }
 }
