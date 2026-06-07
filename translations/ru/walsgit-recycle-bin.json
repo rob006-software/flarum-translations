@@ -1,43 +1,43 @@
 {
     "walsgit-recycle-bin": {
         "admin": {
-            "discussions_bin": "Корзина дискуссий",
+            "discussions_bin": "Корзина тем",
             "posts_bin": "Корзина сообщений",
             "search_placeholder": "Поиск темы",
             "search_post_placeholder": "Поиск сообщения",
-            "search_help_text": "Поиск слов в заголовках тем и сообщениях в дискуссиях",
+            "search_help_text": "Поиск слов в заголовках тем и сообщениях в темах",
             "search_post_help_text": "Поиск слов в скрытых сообщениях",
             "total_hidden_discussions": "Полностью скрытые темы",
             "total_hidden_posts": "Всего скрытых сообщений",
-            "empty_list": "В корзине нет дискуссий.",
+            "empty_list": "В корзине нет тем.",
             "hidden_discussions": "Скрытые темы",
             "discussion_id": "ID",
             "discussion_title": "Заголовок темы",
-            "discussion_link_tooltip": "Просмотреть дискуссию",
+            "discussion_link_tooltip": "Просмотреть тему",
             "author": "Автор",
             "unknown_user": "Неизвестный пользователь",
             "created_at": "Создано",
             "hidden_at": "Скрыто",
             "unknown_date": "Неизвестная дата",
             "actions": "Действия",
-            "restore_tooltip": "Восстановить дискуссию #{discussionId}",
+            "restore_tooltip": "Восстановить тему #{discussionId}",
             "restore_post_tooltip": "Восстановить сообщение #{postId}",
             "restore_discussion": {
-                "title": "Восстановить дискуссию",
-                "confirmation": "Вы уверены, что хотите восстановить дискуссию:",
-                "restore_button": "Восстановить эту дискуссию",
+                "title": "Восстановить тему",
+                "confirmation": "Восстановить тему:",
+                "restore_button": "Восстановить эту тему",
                 "success": "Дискуссия успешно восстановлена"
             },
             "restore_post": {
                 "title": "Восстановить сообщение",
                 "confirmation": "Восстановить это сообщение из темы ",
                 "restore_button": "Восстановить это сообщение",
-                "success": "Сообщение успешно восстановлено"
+                "success": "Сообщение восстановлено"
             },
             "delete_discussion": {
-                "title": "Удалить окончательно",
-                "confirmation": "Вы уверены, что хотите <u>окончательно удалить</u> эту дискуссию (действие нельзя отменить):",
-                "delete_button": "Окончательно удалить эту дискуссию",
+                "title": "Удалить навсегда",
+                "confirmation": "<u>Навсегда удалить</u> эту тему — действие нельзя отменить:",
+                "delete_button": "Навсегда удалить эту тему",
                 "success": "Дискуссия успешно удалена"
             },
             "delete_post": {
@@ -46,7 +46,7 @@
                 "delete_button": "Навсегда удалить это сообщение",
                 "success": "Сообщение успешно удалено"
             },
-            "delete_tooltip": "Удалить дискуссию #{discussionId}",
+            "delete_tooltip": "Удалить тему #{discussionId}",
             "delete_post_tooltip": "Удалить сообщение #{postId}",
             "bulk_actions": "Действия для выбранных дискуссий: ",
             "bulk_post_actions": "Действия для выбранных сообщений: ",
@@ -67,10 +67,10 @@
                 "success": "Выбранные сообщения успешно восстановлены"
             },
             "mass_delete_modal": {
-                "title": "Окончательно удалить эти темы",
+                "title": "Навсегда удалить эти темы",
                 "text_start": "Вы уверены, что хотите <u>удалить навсегда</u> эти ",
                 "text_end": " выбранные темы?",
-                "submit_button": "Окончательно удалить эти темы",
+                "submit_button": "Навсегда удалить эти темы",
                 "success": "Выбранные темы удалены"
             },
             "mass_delete_post_modal": {
