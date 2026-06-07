@@ -37,8 +37,8 @@
             "settings": {
                 "notify_new_follower_label": "Кто-то подписался на меня",
                 "notify_new_unfollower_label": "Кто-то отменил подписку на меня",
-                "notify_new_discussion_label": "Кто-то из тех, на кого я подписан, начал новую дискуссию",
-                "notify_new_post_label": "Кто-то из тех, на кого я подписан, отправил сообщение в дискуссию",
+                "notify_new_discussion_label": "Кто-то из моих подписок создал тему",
+                "notify_new_post_label": "Кто-то из моих подписок отправил сообщение в теме",
                 "block_follow": "Не разрешать пользователям подписываться на меня"
             },
             "index": {
@@ -47,7 +47,7 @@
             },
             "notifications": {
                 "new_discussion_text": "{username} начал",
-                "new_post_text": "{username} отправил сообщение в дискуссию",
+                "new_post_text": "{username} отправил(а) сообщение в теме",
                 "new_follower_text": "{username} подписался(ась) на вас",
                 "new_unfollower_text": "{username} отписался(ась) от вас"
             },
@@ -75,27 +75,27 @@
         },
         "email": {
             "new_discussion_by_user": {
-                "subject": "{user_display_name} начал(а) дискуссию",
+                "subject": "Пользователь {user_display_name} создал тему",
                 "plain": {
-                    "body": "{user_display_name} начал(а) новую дискуссию: {discussion_title}\n\n{discussion_url}\n\n---\n\n{post_content}\n"
+                    "body": "Пользователь {user_display_name} создал тему: {discussion_title}\n\n{discussion_url}\n\n---\n\n{post_content}\n"
                 },
                 "html": {
-                    "body": "{user_display_name} начал(а) новую дискуссию: [{discussion_title}]({discussion_url})."
+                    "body": "Пользователь {user_display_name} создал тему: [{discussion_title}]({discussion_url})."
                 }
             },
             "new_follower": {
                 "subject": "{follower_display_name} теперь подписан(а) на вас",
                 "plain": {
-                    "body": "{follower_display_name} теперь подписан(а) на вас и будет получать уведомления, когда вы создаёте новую дискуссию.\n\n{profile_url}\n"
+                    "body": "{follower_display_name} подписался(ась) на вас и теперь будет получать уведомления, когда вы создаёте новые темы.\n\n{profile_url}\n"
                 },
                 "html": {
-                    "body": "{follower_display_name} теперь подписан(а) на вас и будет получать уведомления, когда вы создаёте новую дискуссию."
+                    "body": "{follower_display_name} подписался(ась) на вас и теперь будет получать уведомления о новых темах, которые вы создаёте."
                 }
             },
             "new_post": {
                 "subject": "{user_display_name} оставил(а) сообщение в {discussion_title}",
                 "plain": {
-                    "body": "{user_display_name} оставил(а) сообщение в {discussion_title}.\n\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nВы больше не будете получать уведомления из этой темы, пока не просмотрите все новые сообщения.\n"
+                    "body": "Пользователь {user_display_name} опубликовал сообщение в {discussion_title}.\n\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nВы не будете получать уведомления из этой темы, пока не просмотрите её.\n"
                 },
                 "html": {
                     "body": "{user_display_name} оставил(а) сообщение в [{discussion_title}]({post_url})."
@@ -114,7 +114,7 @@
                 },
                 "follow": {
                     "name": "Подписаться на темы",
-                    "description": "Получать уведомления, когда <em>{username}</em> открывает новую дискуссию.\n"
+                    "description": "Получать уведомление, когда <em>{username}</em> создаёт тему.\n"
                 },
                 "lurk": {
                     "name": "Подписаться на все",
