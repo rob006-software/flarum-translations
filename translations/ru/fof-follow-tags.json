@@ -25,15 +25,15 @@
                 "following_button": "=> fof-follow-tags.ref.following",
                 "following_text": "Получать уведомления обо всех новых дискуссиях.",
                 "hiding_button": "=> fof-follow-tags.ref.hiding",
-                "hiding_text": "Скрыть дискуссию со страницы \"Все дискуссии\".",
+                "hiding_text": "Скрыть тему со страницы всех тем.",
                 "ignoring_button": "=> fof-follow-tags.ref.ignoring",
                 "ignoring_text": "Никогда не уведомлять.",
                 "lurking_button": "=> fof-follow-tags.ref.lurking",
                 "lurking_text": "Получать уведомления обо всех новых дискуссиях и сообщениях.",
                 "not_following_button": "Не подписан",
                 "not_following_text": "Уведомить при @упоминании.",
-                "notify_alert_tooltip": "Получать уведомления на форуме, когда появляются новые дискуссии или сообщения",
-                "notify_email_tooltip": "Получать e-mail, когда появляются новые дискуссии или сообщения",
+                "notify_alert_tooltip": "Получать уведомления на форуме, когда появляются темы или сообщения",
+                "notify_email_tooltip": "Получать email о новых темах и сообщениях",
                 "submit_button": "Подтвердить подписку"
             },
             "hero": {
@@ -71,19 +71,19 @@
             "newPostInTag": {
                 "subject": "[Тег | Новое сообщение] {title}",
                 "plain": {
-                    "body": "Пользователь {actor_display_name} оставил сообщение в дискуссии по тегу, на который вы подписаны: {discussion_title}\n\nЧтобы увидеть новую активность, перейдите по ссылке:\n{post_url}\n\n---\n\n{content}\n"
+                    "body": "Пользователь {actor_display_name} оставил сообщение в теме внутри тега, на который вы подписаны: {discussion_title}\n\nЧтобы увидеть его, перейдите по ссылке:\n{post_url}\n\n---\n\n{content}\n"
                 },
                 "html": {
-                    "body": "{actor_display_name} оставил(а) сообщение в дискуссии по тегу, на который вы подписаны: [{discussion_title}]({post_url})\n"
+                    "body": "{actor_display_name} оставил(а) сообщение в теме внутри тега, на который вы подписаны: [{discussion_title}]({post_url})\n"
                 }
             },
             "newDiscussionTag": {
                 "subject": "[Тег | Изменён тег] {title}",
                 "plain": {
-                    "body": "Пользователь {actor_display_name} изменил тег в дискуссии пользователя {author_display_name} на тег, на который вы подписаны: {discussion_title}\n\nЧтобы просмотреть дискуссию, перейдите по ссылке:\n{discussion_url}\n\n---\n\n{content}\n"
+                    "body": "Пользователь {actor_display_name} изменил тег в теме пользователя {author_display_name} на тег, на который вы подписаны: {discussion_title}\n\nЧтобы открыть тему, перейдите по ссылке:\n{discussion_url}\n\n---\n\n{content}\n"
                 },
                 "html": {
-                    "body": "{actor_display_name} изменил(а) тег в дискуссии пользователя {author_display_name} на тег, на который вы подписаны: [{discussion_title}]({discussion_url})\n"
+                    "body": "{actor_display_name} изменил(а) тег в теме пользователя {author_display_name} на тег, на который вы подписаны: [{discussion_title}]({discussion_url})\n"
                 }
             }
         },
