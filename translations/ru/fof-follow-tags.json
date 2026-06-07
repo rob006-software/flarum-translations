@@ -60,7 +60,7 @@
         },
         "email": {
             "newDiscussionInTag": {
-                "subject": "[Тег | Новая дискуссия] {title}",
+                "subject": "[Тег | Новая тема] {title}",
                 "plain": {
                     "body": "Пользователь {actor_display_name} создал тему в теге, на который вы подписаны: {discussion_title}\n\nЧтобы посмотреть её, перейдите по ссылке:\n{discussion_url}\n\n---\n\n{content}\n"
                 },
