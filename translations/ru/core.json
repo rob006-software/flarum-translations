@@ -418,13 +418,13 @@
                 "read_heading": "Чтение",
                 "remove_scope_label": "Удалить разрешение {scope}",
                 "remove_scope_confirmation": "Удалить разрешение {scope}?",
-                "rename_discussions_label": "Изменять название дискуссий",
+                "rename_discussions_label": "Изменять название тем",
                 "reply_to_discussions_label": "Отвечать в теме",
                 "search_users_label": "Искать пользователей",
                 "sign_up_label": "Регистрация пользователей",
                 "start_discussions_label": "Создавать темы",
                 "title": "Разрешения",
-                "view_forum_label": "Смотреть форум (дискуссий и пользователей)",
+                "view_forum_label": "Смотреть форум — темы и пользователей",
                 "view_hidden_groups_label": "Смотреть скрытые группы",
                 "view_last_seen_at_label": "Смотреть время последнего посещения",
                 "view_post_ips_label": "Смотреть IP адреса"
@@ -519,7 +519,7 @@
             },
             "composer_discussion": {
                 "body_placeholder": "Введите сообщение...",
-                "discard_confirmation": "Вы не создали дискуссию. Вы хотите отменить дискуссию?",
+                "discard_confirmation": "Вы не создали тему. Отменить создание?",
                 "submit_button": "Создать",
                 "title": "=> core.ref.start_a_discussion",
                 "title_placeholder": "Название темы"
@@ -542,7 +542,7 @@
                 "cannot_reply_button": "Нельзя ответить",
                 "cannot_reply_text": "У вас нет разрешения для публикации ответа в этой теме.",
                 "delete_button": "=> core.ref.delete",
-                "delete_confirmation": "Вы уверены, что хотите удалить дискуссию?",
+                "delete_confirmation": "Удалить тему?",
                 "delete_forever_button": "=> core.ref.delete_forever",
                 "log_in_to_reply_button": "Войти для ответа",
                 "rename_button": "=> core.ref.rename",
@@ -551,10 +551,10 @@
                 "toggle_dropdown_accessible_label": "Выпадающее меню управления дискуссией"
             },
             "discussion_list": {
-                "empty_text": "Кажется, здесь нет дискуссий.",
+                "empty_text": "Кажется, здесь нет тем.",
                 "load_more_button": "=> core.ref.load_more",
                 "replied_text": "{username} ответил(а) {ago}",
-                "skip_discussion_list_pane": "Пропустить список дискуссий",
+                "skip_discussion_list_pane": "Пропустить список тем",
                 "started_text": "{username} создал(а) {ago}",
                 "total_replies_a11y_label": "{count, plural, one {# ответ} few {# ответа} other {# ответов}}",
                 "unread_replies_a11y_label": "{count, plural, one {# непрочитанный ответ} few {# непрочитанных ответа} other {# непрочитанных ответов}}. Отметить {count, plural, one {ответ} few {ответа} other {ответов}} как прочитано."
@@ -570,7 +570,7 @@
             },
             "header": {
                 "admin_button": "Управление",
-                "back_to_index_tooltip": "Вернуться к списку дискуссий",
+                "back_to_index_tooltip": "Вернуться к списку тем",
                 "locale_dropdown_accessible_label": "Изменить язык форума",
                 "log_in_link": "=> core.ref.log_in",
                 "log_out_button": "=> core.ref.log_out",
@@ -597,7 +597,7 @@
                 "newest_button": "=> core.ref.newest",
                 "oldest_button": "=> core.ref.oldest",
                 "relevance_button": "=> core.ref.relevance",
-                "toggle_dropdown_accessible_label": "Изменить сортировку списка дискуссий",
+                "toggle_dropdown_accessible_label": "Изменить сортировку списка тем",
                 "top_button": "Популярное"
             },
             "log_in": {
@@ -899,7 +899,7 @@
             },
             "search_source": {
                 "discussions": {
-                    "all_button": "Искать во всех дискуссиях: «{query}»",
+                    "all_button": "Искать во всех темах: «{query}»",
                     "heading": "=> core.ref.discussions"
                 },
                 "posts": {
@@ -1121,7 +1121,7 @@
             "settings": "Настройки",
             "sign_up": "Регистрация",
             "some_others": "{count, plural, one {# другой} other {# других}}",
-            "start_a_discussion": "Создать дискуссию",
+            "start_a_discussion": "Создать тему",
             "username": "Имя пользователя",
             "username_or_email_placeholder": "Имя пользователя или Email",
             "users": "Пользователи",
