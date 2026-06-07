@@ -1,5 +1,17 @@
 {
     "ernestdefoe-giveaways": {
+        "api": {
+            "title_required": "",
+            "prize_required": "",
+            "ends_required": "",
+            "ends_future": "",
+            "category_name_required": "",
+            "enter_login": "",
+            "enter_closed": "",
+            "enter_min_posts": "",
+            "enter_too_new": "",
+            "claim_not_winner": ""
+        },
         "forum": {
             "nav": "",
             "page_title": "",
@@ -40,8 +52,16 @@
             "seed_label": "",
             "hash_label": "",
             "fairness_help": "",
+            "you_won": "",
+            "you_won_sub": "",
+            "claim": "",
+            "claim_success": "",
+            "claimed": "",
+            "unclaimed": "",
+            "claim_next_steps": "",
             "notification": {
-                "won_content": ""
+                "won_content": "",
+                "claimed_content": ""
             },
             "categories": {
                 "manage": "",
@@ -70,6 +90,9 @@
                 "cover_placeholder": "",
                 "category_label": "",
                 "category_none": "",
+                "claim_label": "",
+                "claim_placeholder": "",
+                "claim_help": "",
                 "ends_label": "",
                 "starts_label": "",
                 "winner_count_label": "",

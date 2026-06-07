@@ -108,6 +108,7 @@
                 "team_enabled_label": "Teamseite aktivieren",
                 "team_enabled_help": "Zeige eine /team-Seite an, auf der die Mitglieder der ausgewählten Gruppen aufgelistet sind.",
                 "team_title_label": "Seitentitel",
+                "team_title_placeholder": "",
                 "team_desc_label": "Seitenbeschreibung",
                 "team_desc_placeholder": "Lerne die Menschen hinter der Community kennen.",
                 "team_groups_label": "Anzuzeigende Gruppen",
@@ -140,6 +141,18 @@
             }
         },
         "forum": {
+            "back": "",
+            "profile": {
+                "joined": "",
+                "scroll_left": "",
+                "scroll_right": ""
+            },
+            "online_users": {
+                "online": ""
+            },
+            "tag_picker": {
+                "remove": ""
+            },
             "actions": {
                 "share": "Teilen"
             },
@@ -179,7 +192,8 @@
                 "results": "Suchergebnisse",
                 "results_for": "Ergebnisse für",
                 "tip": "Tipp: Präfix ",
-                "tip_suffix": " um nach Themen zu filtern"
+                "tip_suffix": " um nach Themen zu filtern",
+                "esc_key": ""
             },
             "header": {
                 "back": "Zurück",
@@ -198,6 +212,7 @@
                 "hero_image_remove_confirm": "Soll das Titelbild aus dieser Diskussion entfernt werden?"
             },
             "home": {
+                "nav_label": "",
                 "all_categories": "Alle Kategorien",
                 "all_title": "Alle Diskussionen",
                 "back_home": "Startseite",

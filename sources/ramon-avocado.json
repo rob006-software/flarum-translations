@@ -108,6 +108,7 @@
                 "team_enabled_label": "Enable Team page",
                 "team_enabled_help": "Show a /team page listing members of the selected groups.",
                 "team_title_label": "Page title",
+                "team_title_placeholder": "Our Team",
                 "team_desc_label": "Page description",
                 "team_desc_placeholder": "Meet the people behind the community.",
                 "team_groups_label": "Groups to display",
@@ -131,6 +132,18 @@
             }
         },
         "forum": {
+            "back": "Back",
+            "profile": {
+                "joined": "Joined {date}",
+                "scroll_left": "Scroll left",
+                "scroll_right": "Scroll right"
+            },
+            "online_users": {
+                "online": "online"
+            },
+            "tag_picker": {
+                "remove": "Remove tag"
+            },
             "actions": {
                 "share": "Share"
             },
@@ -170,7 +183,8 @@
                 "results": "Search results",
                 "results_for": "Results for",
                 "tip": "Tip: prefix ",
-                "tip_suffix": " to filter by tag"
+                "tip_suffix": " to filter by tag",
+                "esc_key": "ESC"
             },
             "header": {
                 "back": "Back",
@@ -189,6 +203,7 @@
                 "hero_image_remove_confirm": "Remove the hero image from this discussion?"
             },
             "home": {
+                "nav_label": "Navigation",
                 "all_categories": "All categories",
                 "all_title": "All discussions",
                 "back_home": "Home",

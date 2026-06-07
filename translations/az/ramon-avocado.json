@@ -108,6 +108,7 @@
                 "team_enabled_label": "Komanda səhifəsini aktivləşdirin",
                 "team_enabled_help": "Seçilmiş qrupların üzvlərini siyahıya alan /komanda səhifəsini göstərin.",
                 "team_title_label": "Səhifə başlığı",
+                "team_title_placeholder": "",
                 "team_desc_label": "Səhifənin təsviri",
                 "team_desc_placeholder": "Cəmiyyətin arxasında duran insanlarla tanış olun.",
                 "team_groups_label": "Göstəriləcək qruplar",
@@ -131,6 +132,18 @@
             }
         },
         "forum": {
+            "back": "",
+            "profile": {
+                "joined": "",
+                "scroll_left": "",
+                "scroll_right": ""
+            },
+            "online_users": {
+                "online": ""
+            },
+            "tag_picker": {
+                "remove": ""
+            },
             "actions": {
                 "share": "Paylaş"
             },
@@ -170,7 +183,8 @@
                 "results": "Axtarış nəticəsi",
                 "results_for": "üçün nəticələr",
                 "tip": "İpucu: prefiks ",
-                "tip_suffix": " etiket filtrasiyası üçün"
+                "tip_suffix": " etiket filtrasiyası üçün",
+                "esc_key": ""
             },
             "header": {
                 "back": "Geri",
@@ -189,6 +203,7 @@
                 "hero_image_remove_confirm": "Bu müzakirədən qəhrəman obrazını çıxarın?"
             },
             "home": {
+                "nav_label": "",
                 "all_categories": "Bütün kateqoriyalar",
                 "all_title": "Bütün müzakirələr",
                 "back_home": "Əsas səhifə",

@@ -108,6 +108,7 @@
                 "team_enabled_label": "Включить страницу команды",
                 "team_enabled_help": "Показывать страницу /team со списком участников из выбранных групп.",
                 "team_title_label": "Заголовок страницы",
+                "team_title_placeholder": "",
                 "team_desc_label": "Описание страницы",
                 "team_desc_placeholder": "Познакомьтесь с командой сообщества.",
                 "team_groups_label": "Группы для отображения",
@@ -140,6 +141,18 @@
             }
         },
         "forum": {
+            "back": "",
+            "profile": {
+                "joined": "",
+                "scroll_left": "",
+                "scroll_right": ""
+            },
+            "online_users": {
+                "online": ""
+            },
+            "tag_picker": {
+                "remove": ""
+            },
             "actions": {
                 "share": "Поделиться"
             },
@@ -179,7 +192,8 @@
                 "results": "Результаты поиска",
                 "results_for": "Результаты для",
                 "tip": "Подсказка: добавьте префикс ",
-                "tip_suffix": " чтобы фильтровать по тегу"
+                "tip_suffix": " чтобы фильтровать по тегу",
+                "esc_key": ""
             },
             "header": {
                 "back": "Назад",
@@ -198,6 +212,7 @@
                 "hero_image_remove_confirm": "Удалить обложку из этой дискуссии?"
             },
             "home": {
+                "nav_label": "",
                 "all_categories": "Все категории",
                 "all_title": "Все дискуссии",
                 "back_home": "Главная",
