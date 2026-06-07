@@ -5,7 +5,7 @@
                 "show_tag_sticky_label": "Показывать закреплённые по тегу темы на странице всех тем",
                 "show_tag_sticky_help": "Если отключено, закреплённые по тегу темы будут отображаться только при просмотре соответствующего тега.",
                 "show_sticky_highlight_label": "Выделять закреплённые цветом",
-                "show_sticky_highlight_help": "Если включено, закреплённые дискуссии будут отображаться с цветной полосой слева и фоновым оттенком в списке дискуссий.",
+                "show_sticky_highlight_help": "Если включено, закреплённые темы будут отображаться с цветной полосой слева и фоновым оттенком в списке тем.",
                 "stickiest_icon_label": "Иконка приоритетного закрепления",
                 "stickiest_icon_help": "Класс иконки Font Awesome (например: fas fa-star)",
                 "badge_icon_label": "Иконка приоритетного закрепления",
@@ -14,8 +14,8 @@
                 "display_tag_sticky_text": "Они будут отображаться как обычные дискуссии без закрепления вверху списка."
             },
             "permissions": {
-                "stickiest_label": "Закреплять дискуссии приоритетно",
-                "tag_sticky_label": "Закреплять дискуссии по тегу",
+                "stickiest_label": "Закреплять темы приоритетно",
+                "tag_sticky_label": "Закреплять темы по тегу",
                 "super_sticky_discussions_label": "Закреплять дискуссии приоритетно",
                 "tag_sticky_discussions_label": "Закреплять дискуссии в теге"
             }
@@ -44,7 +44,7 @@
             },
             "post_stream": {
                 "discussion_stickiest_text": "{username} отметил(а) дискуссию приоритетной.",
-                "discussion_unstickiest_text": "{username} снял(а) приоритет с дискуссии.",
+                "discussion_unstickiest_text": "{username} снял(а) приоритет с темы.",
                 "discussion_stickied_text": "=> flarum-sticky.forum.post_stream.discussion_stickied_text",
                 "discussion_unstickied_text": "=> flarum-sticky.forum.post_stream.discussion_unstickied_text",
                 "discussion_super_stickied_text": "{username} отметил(а) дискуссию приоритетной.",
