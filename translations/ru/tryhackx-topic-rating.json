@@ -2,51 +2,51 @@
     "tryhackx-topic-rating": {
         "admin": {
             "settings": {
-                "enabled_label": "",
-                "enabled_help": "",
-                "allow_unactivated_label": "",
-                "allow_unactivated_help": ""
+                "enabled_label": "Включить оценку тем",
+                "enabled_help": "Разрешить пользователям оценивать темы по 5-звёздочной системе.",
+                "allow_unactivated_label": "Разрешить неактивированным аккаунтам оценивать",
+                "allow_unactivated_help": "Если включено, пользователи, не подтвердившие email, всё равно смогут оценивать темы."
             },
             "permissions": {
-                "rate_label": "",
-                "toggle_label": "",
-                "reset_label": ""
+                "rate_label": "Оценивать темы",
+                "toggle_label": "Включить или отключить оценку в темах",
+                "reset_label": "Сбросить все оценки в темах"
             },
             "support": {
-                "button": "",
-                "title": "",
-                "description": "",
-                "copy": "",
-                "thanks": ""
+                "button": "Поддержать разработку",
+                "title": "Поддержать это расширение",
+                "description": "Если это расширение оказалось полезным, пожалуйста, рассмотрите возможность поддержать его развитие небольшим пожертвованием. Каждый вклад помогает улучшать проект и развивать его.",
+                "copy": "Скопировать адрес",
+                "thanks": "Спасибо за вашу поддержку!"
             }
         },
         "forum": {
             "tooltip": {
-                "login_required": "",
-                "activation_required": "",
-                "rate_this": "",
-                "rate_first": "",
-                "your_rating": ""
+                "login_required": "Войдите в систему, чтобы поставить оценку.",
+                "activation_required": "Подтвердите email, чтобы поставить оценку.",
+                "rate_this": "Оценить тему",
+                "rate_first": "Поставьте первую оценку!",
+                "your_rating": "Ваша оценка:"
             },
-            "rating_count": "",
-            "last_rated": "",
+            "rating_count": "Оценки: {count}",
+            "last_rated": "Последняя оценка:",
             "controls": {
-                "enable_rating": "",
-                "disable_rating": "",
-                "reset_ratings": "",
-                "reset_confirm": ""
+                "enable_rating": "Включить оценку",
+                "disable_rating": "Отключить оценку",
+                "reset_ratings": "Сбросить все оценки",
+                "reset_confirm": "Удалить все оценки для этой темы? Это действие нельзя отменить."
             },
             "reset_modal": {
-                "title": "",
-                "message": "",
-                "confirm": "",
-                "cancel": ""
+                "title": "Сброс всех оценок",
+                "message": "Удалить все {count} оценок для этой темы? Это действие нельзя отменить.",
+                "confirm": "Сбросить оценки",
+                "cancel": "Отменить"
             },
             "ratings_modal": {
-                "title": "",
-                "empty": "",
-                "deleted_user": "",
-                "updated_prefix": ""
+                "title": "Оценки ({count})",
+                "empty": "Пока нет оценок.",
+                "deleted_user": "[удалён]",
+                "updated_prefix": "обновлено "
             }
         }
     }
