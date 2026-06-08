@@ -23,17 +23,17 @@
         },
         "admin": {
             "permission": {
-                "view-who-types": ""
+                "view-who-types": "Xem ai đang viết"
             },
             "settings": {
-                "release-discussion-updates": "",
-                "release-discussion-updates-help": "",
-                "release-discussion-updates-interval": "",
-                "release-discussion-updates-interval-help": "",
-                "notification-toast-dismiss-after": "",
-                "notification-toast-dismiss-after-help": "",
-                "typing-indicator": "",
-                "typing-indicator-help": ""
+                "release-discussion-updates": "Cập nhật danh sách thảo luận",
+                "release-discussion-updates-help": "Khi được kích hoạt, các cuộc thảo luận mới sẽ được chuyển vào...<code>Danh sách thảo luận</code>theo khoảng thời gian xác định bên dưới.",
+                "release-discussion-updates-interval": "Khoảng thời gian để tự động cập nhật hoạt động thảo luận mới",
+                "release-discussion-updates-interval-help": "Tính bằng giây. 0 nghĩa là không có thông báo tự động.",
+                "notification-toast-dismiss-after": "Thời gian hiển thị thông báo",
+                "notification-toast-dismiss-after-help": "Thời gian (tính bằng giây) mà thông báo dạng pop-up hiển thị trên màn hình trước khi tự động biến mất. Đặt thành 0 để tắt thông báo pop-up.",
+                "typing-indicator": "Chỉ báo gõ",
+                "typing-indicator-help": "Khi được kích hoạt (và được cấp quyền), người dùng có thể xem số lượng người dùng khác hiện đang gõ trong một cuộc thảo luận. Khi bị vô hiệu hóa, hoạt động gõ phím sẽ bị xóa khỏi cả giao diện người dùng và dữ liệu gửi qua websocket."
             }
         }
     }
