@@ -2,7 +2,7 @@
     "davwheat-virtual-authors": {
         "admin": {
             "permissions": {
-                "set_virtual_authors": "Добавить виртуальных авторов в дискуссии",
+                "set_virtual_authors": "Добавлять виртуальных авторов в темы",
                 "view_virtual_authors_page": "Показывать страницу детализации всех виртуальных авторов"
             },
             "settings": {
@@ -10,7 +10,7 @@
                 "create_new": "Создать нового виртуального автора",
                 "auto_save_message": "Создание новых и редактирование существующих виртуальных авторов сохраняется автоматически.",
                 "search_placeholder": "Поиск по имени",
-                "link_to_va_from_discussion": "Показать ссылку на все дискуссии от виртуального автора в поле \"Автор\"",
+                "link_to_va_from_discussion": "Показать ссылку на все темы виртуального автора в поле автора",
                 "authors_in_sidebar": "Показать авторов в боковой панели, а не над первым сообщением",
                 "authors_in_sidebar_help": "Это не действует в расширении Блог.",
                 "virtual_authors_page_disabled": "Закрыть перечень виртуальных авторов для всех пользователей.",
@@ -45,7 +45,7 @@
         "forum": {
             "virtual_author_page": {
                 "meta_title": "{displayName} - Авторы",
-                "credited_discussions": "Дискуссии, созданные {displayName}",
+                "credited_discussions": "Темы, созданные {displayName}",
                 "discussion_count": "=> davwheat-virtual-authors.ref.discussion_count"
             },
             "virtual_authors_list": {
@@ -60,7 +60,7 @@
             "virtual_authors_panel": {
                 "heading": "Авторы",
                 "error": "Не удалось загрузить авторов.",
-                "item_link_tooltip": "Показать все дискуссии от {displayName}"
+                "item_link_tooltip": "Показать все темы от {displayName}"
             },
             "discussion_controls": {
                 "set_virtual_authors": "Установить виртуальных авторов"
@@ -72,7 +72,7 @@
                 "none_existing": "Виртуальные авторы не выбраны.",
                 "search": "Поиск виртуального автора",
                 "credit_placeholder": "Авторство (опционально)",
-                "delete_confirmation": "Удалить виртуального автора из дискуссии?",
+                "delete_confirmation": "Удалить виртуального автора из темы?",
                 "delete_button": "Удалить",
                 "add_button": "Добавить",
                 "added_button": "Добавлено",
@@ -83,7 +83,7 @@
         },
         "ref": {
             "no_description": "(описание не установлено)",
-            "discussion_count": "{count, plural, one {# дискуссии}, other {# дискуссий}}"
+            "discussion_count": "{count, plural, one {# темы}, other {# тем}}"
         }
     }
 }
