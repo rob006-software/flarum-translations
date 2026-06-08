@@ -197,40 +197,40 @@
                         },
                         "search_engines": {
                             "label": "Registriere dein Forum bei Suchmaschinen",
-                            "reason": "",
-                            "button": ""
+                            "reason": "Du musst das durchgehen, um zu bestehen.",
+                            "button": "Weitere Informationen"
                         },
                         "review": {
-                            "label": "",
-                            "reason": "",
-                            "button": ""
+                            "label": "Überprüfe deine SEO-Einstellungen alle zwei Monate. Die nächste Überprüfung ist am {date} fällig.",
+                            "reason": "Es ist an der Zeit, deine SEO-Einstellungen noch einmal zu überprüfen.",
+                            "button": "Okay! Ich habe sie durchgesehen!"
                         }
                     }
                 }
             }
         },
         "forum": {
-            "profile_title": "",
-            "profile_description": "",
+            "profile_title": "Profil von {username}",
+            "profile_description": "Profil von {username} | {discussion_count} Diskussionen | {comment_count} Beiträge",
             "controls": {
-                "configure_seo": "",
-                "update_seo": "",
-                "reset_seo": ""
+                "configure_seo": "SEO konfigurieren",
+                "update_seo": "SEO aktualisieren",
+                "reset_seo": "SEO zurücksetzen"
             },
             "meta_seo": {
-                "title": "",
-                "note_prefix": "",
-                "managed": "",
-                "saved": "",
+                "title": "SEO-Einstellungen - Meta",
+                "note_prefix": "Hinweis:",
+                "managed": "Verwaltet",
+                "saved": "Gespeichert!",
                 "close": {
-                    "close": "",
-                    "save": "",
-                    "save_autofill": "",
-                    "autofill_info": ""
+                    "close": "Schließen",
+                    "save": "Speichern",
+                    "save_autofill": "Speichern & automatisch ausfüllen",
+                    "autofill_info": "Diese Änderung macht benutzerdefinierte Änderungen rückgängig und füllt die Meta-Tags mit Artikeldaten."
                 },
                 "unsupported_object": {
-                    "title": "",
-                    "docs_link": "",
+                    "title": "Dieses Objekt ist kein unterstütztes SeoMeta-Objekt",
+                    "docs_link": "Dokumentation",
                     "body": ""
                 },
                 "auto_update": {
