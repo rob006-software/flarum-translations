@@ -2,7 +2,7 @@
     "flarum-sticky": {
         "admin": {
             "permissions": {
-                "sticky_discussions_label": "Закреплять дискуссии"
+                "sticky_discussions_label": "Закреплять темы"
             }
         },
         "forum": {
@@ -14,8 +14,8 @@
                 "unsticky_button": "Открепить"
             },
             "post_stream": {
-                "discussion_stickied_text": "{username} закрепил(а) дискуссию {time}.",
-                "discussion_unstickied_text": "{username} открепил(а) дискуссию {time}."
+                "discussion_stickied_text": "{username} закрепил(а) тему {time}.",
+                "discussion_unstickied_text": "{username} открепил(а) тему {time}."
             }
         },
         "ref": {
