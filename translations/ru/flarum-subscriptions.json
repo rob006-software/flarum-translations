@@ -20,19 +20,19 @@
                 "new_post_text": "{username} ответил(а)"
             },
             "settings": {
-                "follow_after_reply_label": "Автоматически подписываться на дискуссии, в которых я участвую",
-                "notify_for_all_posts_label": "Уведомлять о каждом новом сообщении, а не только о последнем в дискуссии",
-                "notify_new_post_label": "Ответ в дискуссиях, на которые я подписан"
+                "follow_after_reply_label": "Автоматически подписываться на темы, в которых я участвую",
+                "notify_for_all_posts_label": "Уведомлять о каждом сообщении в теме, а не только о последнем",
+                "notify_new_post_label": "Кто-то ответил в теме из моих подписок"
             },
             "sub_controls": {
                 "follow_button": "=> flarum-subscriptions.ref.follow",
                 "following_button": "=> flarum-subscriptions.ref.following",
                 "following_text": "Уведомлять обо всех ответах.",
                 "ignoring_button": "=> flarum-subscriptions.ref.ignoring",
-                "ignoring_text": "Отключение уведомлений из этой дискуссии. Скрыть в списке дискуссий.",
+                "ignoring_text": "Отключить уведомления темы и скрыть её из общего списка.",
                 "not_following_button": "Отписка",
-                "not_following_text": "Уведомлять только когда @упоминают.",
-                "notify_alert_tooltip": "Получать уведомления форума при появлении новых сообщений",
+                "not_following_text": "Уведомлять при упоминании.",
+                "notify_alert_tooltip": "Получать уведомления при появлении новых сообщений",
                 "notify_email_tooltip": "Получать письма при появлении новых сообщений"
             }
         },
