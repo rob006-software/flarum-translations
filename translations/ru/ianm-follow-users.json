@@ -37,8 +37,8 @@
             "settings": {
                 "notify_new_follower_label": "Кто-то подписался на меня",
                 "notify_new_unfollower_label": "Кто-то отменил подписку на меня",
-                "notify_new_discussion_label": "Кто-то из тех, на кого я подписан, начал новую дискуссию",
-                "notify_new_post_label": "Кто-то из тех, на кого я подписан, отправил сообщение в дискуссию",
+                "notify_new_discussion_label": "Кто-то из моих подписок создал тему",
+                "notify_new_post_label": "Кто-то из моих подписок отправил сообщение в теме",
                 "block_follow": "Не разрешать пользователям подписываться на меня"
             },
             "index": {
@@ -47,13 +47,13 @@
             },
             "notifications": {
                 "new_discussion_text": "{username} начал",
-                "new_post_text": "{username} отправил сообщение в дискуссию",
+                "new_post_text": "{username} отправил(а) сообщение в теме",
                 "new_follower_text": "{username} подписался(ась) на вас",
                 "new_unfollower_text": "{username} отписался(ась) от вас"
             },
             "badge": {
                 "label": {
-                    "follow": "Отслеживаемые дискуссии",
+                    "follow": "Отслеживаемые темы",
                     "lurk": "Подписаться на всех"
                 }
             },
@@ -77,9 +77,9 @@
             "new_discussion_by_user_subject": "[Подписаться на пользователя] {title}",
             "new_follower_subject": "[Подписка на пользователя] У вас новый подписчик!",
             "new_post_subject": "[Подписка на пользователя] Новое сообщение в теме {title}",
-            "new_discussion_by_user_body": "Привет {recipient_display_name},\n\n{user_display_name} начал новую дискуссию: {discussion_title}\n\nЧтобы посмотреть её, перейдите по следующей ссылке:\n\n{discussion_url}\n\n---\n\n{post_content}\n",
-            "new_follower_body": "Здравствуйте, {recipient_display_name},\n\n{follower_display_name} подписался на вас и получит оповещение, если вы создадите новую дискуссию.\n\nЧтобы посмотреть профиль подписчика, перейдите по ссылке:\n\n{profile_url}\n",
-            "new_post_body": "Привет {recipient_display_name},\n\n{user_display_name} разместил сообщение в дискуссии: {discussion_title}\n\nЧтобы просмотреть его, перейдите по ссылке:\n\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nВы не получите больше уведомлений об этой дискуссии, пока не просмотрите ее обновление.\n"
+            "new_discussion_by_user_body": "Здравствуйте, {recipient_display_name},\n\nПользователь {user_display_name} создал тему: {discussion_title}\n\nЧтобы посмотреть её, перейдите по ссылке:\n\n{discussion_url}\n\n---\n\n{post_content}\n",
+            "new_follower_body": "Здравствуйте, {recipient_display_name}!\n\nПользователь {follower_display_name} подписался на вас и теперь будет получать уведомления о новых темах.\n\nЧтобы посмотреть профиль пользователя, перейдите по ссылке:\n\n{profile_url}\n",
+            "new_post_body": "Здравствуйте, {recipient_display_name},\n\nПользователь {user_display_name} оставил сообщение в теме: {discussion_title}\n\nЧтобы посмотреть его, перейдите по ссылке:\n\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nВы не будете получать уведомления из этой темы, пока не просмотрите её.\n"
         },
         "lib": {
             "following_link": "Пользователи, на которых я подписан",
@@ -92,12 +92,12 @@
                     "description": "Не получать уведомлений о действиях <em>{username}</em>'.\n"
                 },
                 "follow": {
-                    "name": "Подписаться на дискуссии",
-                    "description": "Получать уведомления, когда <em>{username}</em> открывает новую дискуссию.\n"
+                    "name": "Подписаться на темы",
+                    "description": "Получать уведомление, когда <em>{username}</em> создаёт тему.\n"
                 },
                 "lurk": {
                     "name": "Подписаться на все",
-                    "description": "Получать уведомления, когда <em>{username}</em> открывает новую дискуссию или публикует сообщение в любой дискуссии.\n"
+                    "description": "Получать уведомления, когда <em>{username}</em> создаёт тему или публикует сообщение в любой теме.\n"
                 }
             }
         }
