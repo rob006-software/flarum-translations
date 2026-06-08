@@ -8,7 +8,7 @@
         },
         "forum": {
             "composer": {
-                "discard_confirmation": "Bạn chưa gửi tin nhắn \n. Bạn chắc chắn muốn thực hiện điều này không.",
+                "discard_confirmation": "Bạn chưa gửi tin nhắn . Bạn chắc chắn muốn thực hiện điều này không.",
                 "placeholder": "Hãy viết một tin nhắn…",
                 "recipients": "Người nhận",
                 "submit_button": "Gửi tin nhắn",
@@ -56,44 +56,44 @@
                     "subtitle": "Các cuộc trò chuyện riêng tư của bạn với người dùng khác"
                 },
                 "mark_all_as_read_tooltip": "Đánh dấu tất cả là đã đọc",
-                "refresh_tooltip": "",
-                "send_message_button": "",
+                "refresh_tooltip": "Làm mới",
+                "send_message_button": "Gửi một tin nhắn",
                 "stream": {
-                    "load_previous_button": "",
-                    "load_next_button": "",
-                    "start_of_the_conversation": "",
-                    "time_lapsed_text": ""
+                    "load_previous_button": "Tải tin nhắn trước đó",
+                    "load_next_button": "Tải tin nhắn tiếp theo",
+                    "start_of_the_conversation": "Bắt đầu cuộc trò chuyện",
+                    "time_lapsed_text": "=> core.forum.post_stream.time_lapsed_text"
                 },
-                "title": ""
+                "title": "Tin nhắn"
             },
             "recipient_selection_modal": {
-                "title": ""
+                "title": "Chọn người nhận tin nhắn"
             },
             "settings": {
-                "notify_message_received_label": ""
+                "notify_message_received_label": "Nhận thông báo khi có người gửi tin nhắn cho tôi"
             },
             "user_controls": {
-                "send_message_button": "",
-                "cannot_reply_text": ""
+                "send_message_button": "Gửi tin nhắn",
+                "cannot_reply_text": "Người dùng này không thể trả lời"
             },
             "notifications": {
-                "message_received_text": ""
+                "message_received_text": "Thông báo nhận được tin nhắn từ {user}"
             }
         },
         "email": {
             "message_received": {
-                "subject": "",
+                "subject": "{user_display_name} đã gửi cho bạn một tin nhắn",
                 "plain": {
-                    "body": ""
+                    "body": "{user_display_name} gửi cho bạn một tin nhắn mới.\n\n{url}\n\n---\n\n{content}\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{user_display_name} gửi cho bạn [new message]({url})."
                 }
             }
         },
         "lib": {
             "dialog": {
-                "title": ""
+                "title": "Nhắn tin cho {username}"
             }
         }
     }
