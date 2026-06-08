@@ -1,0 +1,54 @@
+{
+    "onair": {
+        "lib": {
+            "live": "LIVE",
+            "live_now": "Live now",
+            "errors": {
+                "url_required": "Paste your YouTube or Twitch stream URL.",
+                "no_provider": "That URL isn't a YouTube or Twitch link OnAir recognises."
+            }
+        },
+        "forum": {
+            "nav": {
+                "live": "Live"
+            },
+            "directory": {
+                "title": "Live now",
+                "empty": "No one is live right now. Be the first — hit “Go live”."
+            },
+            "go_live": {
+                "button": "Go live",
+                "title": "Go live",
+                "provider_label": "Where are you streaming?",
+                "url_label": "Channel or video URL",
+                "title_label": "Stream title",
+                "submit": "Go live",
+                "success": "You're live! Your LIVE badge is now showing."
+            },
+            "viewer": {
+                "unavailable": "This stream can't be embedded right now."
+            },
+            "stream": {
+                "by": "by",
+                "untitled": "Live stream",
+                "not_found": "That stream isn't live anymore.",
+                "end": "End stream",
+                "has_ended": "This stream has ended."
+            }
+        },
+        "admin": {
+            "settings": {
+                "default_provider_label": "Default provider",
+                "default_provider_help": "Pre-selected source in the Go Live dialog.",
+                "poll_interval_label": "Presence poll interval (seconds)",
+                "poll_interval_help": "How often the fallback transport checks who is live, when flarum/realtime is not installed. Minimum 10.",
+                "max_hours_label": "Maximum stream length (hours)",
+                "max_hours_help": "Streams still marked live after this many hours are automatically ended by the hourly reaper. Catches streamers who closed their tab without ending."
+            },
+            "permissions": {
+                "broadcast": "Go live (start a stream)",
+                "manage": "Manage / end others' streams"
+            }
+        }
+    }
+}
