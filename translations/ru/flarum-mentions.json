@@ -34,9 +34,9 @@
                 "you_text": "=> core.ref.you"
             },
             "settings": {
-                "notify_post_mentioned_label": "Ответ на одно из моих сообщений",
-                "notify_user_mentioned_label": "Упоминание меня в сообщении",
-                "notify_group_mentioned_label": "Упоминание моей группы в сообщении"
+                "notify_post_mentioned_label": "Кто-то ответил на моё сообщение",
+                "notify_user_mentioned_label": "Кто-то упомянул меня в сообщении",
+                "notify_group_mentioned_label": "Кто-то упомянул мою группу в сообщении"
             },
             "user": {
                 "mentions_link": "Упоминания"
@@ -50,30 +50,30 @@
         },
         "email": {
             "post_mentioned": {
-                "subject": "{replier_display_name} ответил(а) на Ваше сообщение в {title}",
+                "subject": "Пользователь {replier_display_name} ответил на ваше сообщение в {title}",
                 "plain": {
-                    "body": "{replier_display_name} ответил(а) на ваше сообщение (№{post_number}) в теме {title}.\n\n{url}\n\n---\n\n{content}\n"
+                    "body": "Пользователь {replier_display_name} ответил на ваше сообщение (№{post_number}) в теме {title}.\n\n{url}\n\n---\n\n{content}\n"
                 },
                 "html": {
-                    "body": "{replier_display_name} ответил(а) на ваше сообщение (№{post_number}) в теме [{title}]({url})."
+                    "body": "Пользователь {replier_display_name} ответил на ваше сообщение (№{post_number}) в теме [{title}]({url})."
                 }
             },
             "user_mentioned": {
-                "subject": "{mentioner_display_name} упомянул(а) вас в {title}",
+                "subject": "Пользователь {mentioner_display_name} упомянул вас в {title}",
                 "plain": {
                     "body": "Пользователь {mentioner_display_name} упомянул вас в сообщении темы «{title}».\n\n{url}\n\n---\n\n{content}\n"
                 },
                 "html": {
-                    "body": "{mentioner_display_name} упомянул(а) вас в сообщении в теме [{title}]({url})."
+                    "body": "Пользователь {mentioner_display_name} упомянул вас в сообщении в теме [{title}]({url})."
                 }
             },
             "group_mentioned": {
-                "subject": "{mentioner_display_name} упомянул(а) вашу группу в {title}",
+                "subject": "Пользователь {mentioner_display_name} упомянул вашу группу в {title}",
                 "plain": {
-                    "body": "{mentioner_display_name} упомянул(а) вашу группу в теме {title}.\n\n{url}\n\n---\n\n{content}\n"
+                    "body": "Пользователь {mentioner_display_name} упомянул вашу группу в теме {title}.\n\n{url}\n\n---\n\n{content}\n"
                 },
                 "html": {
-                    "body": "{mentioner_display_name} упомянул(а) вашу группу в теме [{title}]({url})."
+                    "body": "Пользователь {mentioner_display_name} упомянул вашу группу в теме [{title}]({url})."
                 }
             }
         },
