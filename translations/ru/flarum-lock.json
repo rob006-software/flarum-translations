@@ -2,7 +2,7 @@
     "flarum-lock": {
         "admin": {
             "permissions": {
-                "lock_discussions_label": "Закрывать дискуссии"
+                "lock_discussions_label": "Закрывать темы"
             }
         },
         "forum": {
@@ -14,14 +14,14 @@
                 "unlock_button": "Открыть"
             },
             "notifications": {
-                "discussion_locked_text": "{username} закрыл(а) дискуссию"
+                "discussion_locked_text": "{username} закрыл(а) тему"
             },
             "post_stream": {
-                "discussion_locked_text": "{username} закрыл(а) дискуссию {time}.",
-                "discussion_unlocked_text": "{username} открыл(а) дискуссию {time}."
+                "discussion_locked_text": "{username} закрыл(а) тему {time}.",
+                "discussion_unlocked_text": "{username} открыл(а) тему {time}."
             },
             "settings": {
-                "notify_discussion_locked_label": "Закрытие моей дискуссии"
+                "notify_discussion_locked_label": "Кто-то закрыл мою тему"
             }
         }
     }
