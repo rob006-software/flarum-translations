@@ -749,7 +749,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/sentry/1.5.0/resources/locale/en.yml',
 	],
 	'fof-seo' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/seo/3.0.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/seo/3.0.3/locale/en.yml',
 	],
 	'fof-share-social' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/share-social/1.2.2/resources/locale/en.yml',
