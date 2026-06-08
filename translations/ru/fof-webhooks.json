@@ -2,14 +2,14 @@
     "fof-webhooks": {
         "actions": {
             "discussion": {
-                "started": "Создание дискуссии `{1}`",
+                "started": "Создание темы `{1}`",
                 "renamed": {
-                    "title": "Изменение дискуссии `{1}`",
+                    "title": "Изменение темы `{1}`",
                     "description": "Новое название: {1}"
                 },
-                "hidden": "Скрытие дискуссии `{1}`",
-                "restored": "Восстановление дискуссии `{1}`",
-                "deleted": "Удаление дискуссии `{1}`"
+                "hidden": "Скрытие темы `{1}`",
+                "restored": "Восстановление темы `{1}`",
+                "deleted": "Удаление темы `{1}`"
             },
             "group": {
                 "created": "Создание группы `{1}`",
@@ -83,7 +83,7 @@
                 "actions": {
                     "flarum": {
                         "discussion": {
-                            "title": "Дискуссия",
+                            "title": "Тема",
                             "started": "Создание",
                             "renamed": "=> fof-webhooks.ref.renamed",
                             "hidden": "=> fof-webhooks.ref.hidden",
