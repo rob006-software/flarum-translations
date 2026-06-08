@@ -2,9 +2,9 @@
     "fof-follow-tags": {
         "forum": {
             "settings": {
-                "notify_new_discussion_label": "Публикация дискуссии в теге, на который я подписан",
+                "notify_new_discussion_label": "Кто-то создал тему в теге из моих подписок",
                 "notify_new_post_label": "Публикация сообщения в теге, на который я подписан",
-                "notify_new_discussion_tag_label": "Перемещение дискуссии в тег, на который я подписан"
+                "notify_new_discussion_tag_label": "Кто-то переместил тему в тег из моих подписок"
             },
             "index": {
                 "follow_tag_button": "Подписка",
@@ -23,17 +23,17 @@
                 "subscription_label": "Выберите уровень подписки для {tagName}",
                 "follow_button": "=> fof-follow-tags.ref.follow",
                 "following_button": "=> fof-follow-tags.ref.following",
-                "following_text": "Получать уведомления обо всех новых дискуссиях.",
+                "following_text": "Получать уведомления обо всех новых темах.",
                 "hiding_button": "=> fof-follow-tags.ref.hiding",
-                "hiding_text": "Скрыть дискуссию со страницы \"Все дискуссии\".",
+                "hiding_text": "Скрыть тему со страницы всех тем.",
                 "ignoring_button": "=> fof-follow-tags.ref.ignoring",
                 "ignoring_text": "Никогда не уведомлять.",
                 "lurking_button": "=> fof-follow-tags.ref.lurking",
-                "lurking_text": "Получать уведомления обо всех новых дискуссиях и сообщениях.",
+                "lurking_text": "Получать уведомления обо всех новых темах и сообщениях.",
                 "not_following_button": "Не подписан",
                 "not_following_text": "Уведомить при @упоминании.",
-                "notify_alert_tooltip": "Получать уведомления на форуме, когда появляются новые дискуссии или сообщения",
-                "notify_email_tooltip": "Получать e-mail, когда появляются новые дискуссии или сообщения",
+                "notify_alert_tooltip": "Получать уведомления на форуме, когда появляются темы или сообщения",
+                "notify_email_tooltip": "Получать email о новых темах и сообщениях",
                 "submit_button": "Подтвердить подписку"
             },
             "hero": {
