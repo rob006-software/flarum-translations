@@ -2,47 +2,47 @@
     "fof-merge-discussions": {
         "forum": {
             "modal": {
-                "title": "Объединить дискуссии",
+                "title": "Объединить темы",
                 "ordering_heading": "Порядок объединения",
                 "ordering_date_label": "Объединить сообщения по дате создания",
-                "ordering_date_help": "Сообщения в итоговой дискуссии будут упорядочены по дате своего создания.",
-                "ordering_suffix_label": "Добавить сообщения в конец дискуссии",
-                "ordering_suffix_help": "Сообщения в итоговой дискуссии будут добавлены в конец этой дискуссии.",
+                "ordering_date_help": "Сообщения в итоговой теме будут упорядочены по дате своего создания",
+                "ordering_suffix_label": "Добавить сообщения в конец темы",
+                "ordering_suffix_help": "Сообщения в итоговой теме будут добавлены в конец этой темы",
                 "type_heading": "Тип объединения",
                 "type_target_label": "Объединить с этой",
-                "type_target_help_text": "Выберите дискуссии для объединения в <b>{title}</b>.",
-                "type_from_label": "Объединить эту дискуссию с другой",
-                "type_from_help_text": "Выберите дискуссию для объединения с <b>{title}</b>.",
+                "type_target_help_text": "Выберите темы для объединения с {title}.",
+                "type_from_label": "Объединить эту тему с другой",
+                "type_from_help_text": "Выберите тему, с которой нужно объединить тему «{title}».",
                 "load_preview_button": "Пред-просмотр",
                 "submit_button": "=> fof-merge-discussions.ref.merge"
             },
             "notification": {
-                "discussion_merged": "{username} объединил(а) вашу дискуссию <b>{oldTitle}</b> с этой.",
+                "discussion_merged": "Ваша тема {oldTitle} была объединена с этой темой пользователем {username}.",
                 "preferences": {
-                    "discussion_merged": "Объединение одной из моих дискуссий с другой"
+                    "discussion_merged": "Кто-то объединил мою тему с другой"
                 }
             },
             "discussion": {
                 "merge": "=> fof-merge-discussions.ref.merge"
             },
             "post": {
-                "merged": "{count, plural, one {Перемещено <b>#</b> сообщение из {titles}.} other {Перемещено <b>#</b> сообщений из {titles}.}}"
+                "merged": "{count, plural, one {Объединено 1 сообщение из {titles}.} other {Объединено {count} сообщений из {titles}.}}"
             }
         },
         "admin": {
             "permissions": {
-                "merge_discussions_label": "Объединять дискуссии"
+                "merge_discussions_label": "Объединять темы"
             },
             "settings": {
-                "search_result_help": "Количество дискуссий для отображения при поиске в модальном окне `Объединить дискуссии`.",
-                "search_result_label": "Ограничение поиска для объединения дискуссий"
+                "search_result_help": "Количество тем для отображения при поиске в модальном окне объединения тем.",
+                "search_result_label": "Ограничение поиска для объединения тем"
             }
         },
         "api": {
             "error": {
-                "merging_failed": "Не удалось объединить дискуссии.",
-                "updating_failed": "Не удалось обновить информацию о дискуссии.",
-                "deleting_failed": "Не удалось удалить пустые дискуссии.",
+                "merging_failed": "Не удалось объединить темы.",
+                "updating_failed": "Не удалось обновить информацию о теме.",
+                "deleting_failed": "Не удалось удалить пустые темы.",
                 "fixing_posts_number_failed": "Не удалось исправить номера сообщений.",
                 "fixing_posts_number_meta_failed": "Номера сообщений исправить не удалось."
             }
@@ -52,8 +52,8 @@
         },
         "email": {
             "merged": {
-                "body": "Здравствуйте, {recipient_display_name}!\n\n{actor_display_name} объединил(а) вашу дискуссию {merged_discussion_title} с {merged_discussion_title}.\n\nПосмотреть:\n{discussion_url}\n",
-                "subject": "Ваша дискуссия \"{merged_discussion_title}\" была объединена"
+                "body": "Ваша тема {merged_discussion_title} была объединена с {discussion_title} пользователем {actor_display_name}.\n\nПосмотрите её здесь: {discussion_url}\n",
+                "subject": "Ваша тема «{merged_discussion_title}» была объединена"
             }
         }
     }
