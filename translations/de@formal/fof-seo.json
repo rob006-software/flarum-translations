@@ -28,49 +28,49 @@
             "modals": {
                 "crawl_post": {
                     "title": "Einstellungen für das Beitrags-Crawling",
-                    "intro": "",
-                    "mode_main_title": "",
-                    "mode_main_help": "",
-                    "mode_all_title": "",
-                    "mode_all_help": "",
-                    "question": "",
-                    "switch_label": ""
+                    "intro": "<b>Lies diesen Dialog sorgfältig durch.</b> Diese Funktion wird nur bei einer Seitenaktualisierung in einer Diskussion ausgeführt. Du kannst diese Option später jederzeit ändern.",
+                    "mode_main_title": "Nur den Hauptbeitrag indizieren (Standard)",
+                    "mode_main_help": "Die Suchmaschine zeigt in den Suchergebnissen nur den Hauptbeitrag an. Die Ladegeschwindigkeit wird nicht beeinträchtigt, wenn du über Forenlinks dorthin navigierst.",
+                    "mode_all_title": "Alle Beiträge in einer Diskussion indizieren (Einstellung aktiviert)",
+                    "mode_all_help": "Suchmaschinen verstehen die Diskussionen und können sogar einzelne relevante Beiträge unterhalb der Suchergebnisse anzeigen. Wenn du die Erweiterung „<a>best answer</a>“ in deinem Forum installiert und aktiviert hast, wird die Diskussion in den Suchergebnissen als „beantwortet“ gekennzeichnet und der Nutzer zu diesem bestimmten Beitrag weitergeleitet. Jede Antwort wird zudem mit der Anzahl der Likes und Upvotes angezeigt, sodass Suchmaschinen auch ohne die Erweiterung „best answer“ die hilfreichsten Antworten identifizieren können. <b>Je nach deinen Server-Einstellungen kann dies jedoch eine höhere Belastung darstellen</b>. Es kann zu Leistungseinbußen kommen, daher hängt es von der Geschwindigkeit deines Servers ab, ob du diese Funktion aktivieren sollten.",
+                    "question": "Möchtest du diese Funktion aktivieren?",
+                    "switch_label": "Alle Beiträge crawlen (die Seitenaktualisierung dauert zwar länger, aber die Suchergebnisse sind besser)"
                 },
                 "dofollow": {
-                    "title": "",
-                    "intro": "",
-                    "default_note": "",
-                    "learn_more_line": "",
-                    "add_placeholder": "",
-                    "duplicate_error": ""
+                    "title": "Do-Follow-Liste",
+                    "intro": "Gib die <b>Hostnamen</b> der Domänen ein, die du zur Do-Follow-Liste hinzufügen möchten.",
+                    "default_note": "Die Domänen, die du für deine Flarum-Instanz verwendest, wird standardmäßig zur Liste hinzugefügt.",
+                    "learn_more_line": "<a>Erfahre mehr</a> über die Do-Follow-Liste.",
+                    "add_placeholder": "Eine Domäne erlauben",
+                    "duplicate_error": "Diese Domäne ist bereits in deiner Do-Follow-Liste."
                 }
             },
             "settings": {
                 "keywords": {
-                    "heading": "",
-                    "help": "",
-                    "placeholder": "",
-                    "comma_note": "",
-                    "example": ""
+                    "heading": "Forum-Stichwörter",
+                    "help": "Gib ein oder mehrere Stichwörter ein, die dein Forum beschreiben.",
+                    "placeholder": "Ein paar Stichwörter hinzufügen",
+                    "comma_note": "Hinweis: Trenne die Stichwörter durch Kommas.",
+                    "example": "Beispiele: flarum, webentwicklung, forum, obst, sicherheit"
                 },
                 "info": {
-                    "overview": "",
-                    "maintain": ""
+                    "overview": "Diese Seite enthält einige weitere Einstellungen aus dem Admin-Bereich. Es ist jedoch ratsam, sich einen guten Überblick über diese Einstellungen zu verschaffen. Vergiss nicht, die SEO-Prüfung durchzuführen.",
+                    "maintain": "Überprüfe bei der Ersteinrichtung dieser Erweiterung alle deine Einstellungen. Passe diese an, um die besten Suchergebnisse zu erhalten."
                 },
                 "twitter_card": {
                     "heading": "",
                     "help": "",
-                    "option_large": "",
-                    "option_summary": ""
+                    "option_large": "Große Karte (mit großem Bild)",
+                    "option_summary": "Zusammenfassungskarte (mit kleinem Bild)"
                 },
                 "social_media_image": {
-                    "heading": "",
-                    "help_size": "",
-                    "help_usage": ""
+                    "heading": "Social-Media-Bild",
+                    "help_size": "Es wird ein quadratisches Bild erwartet. Die empfohlene Größe beträgt 1200 x 1200 Pixel. Andernfalls verwende bitte ein Bild im Querformat; die empfohlene Größe hierbei beträgt 1200 x 630 Pixel.",
+                    "help_usage": "Dieses Bild wird in den sozialen Medien verwendet, wenn ein Nutzer eine Seite deiner Website teilt (Facebook, X, Reddit)."
                 },
                 "crawl": {
-                    "heading": "",
-                    "help": "",
+                    "heading": "Einstellungen für das Crawling von Diskussionsbeiträgen",
+                    "help": "Dies ist eine wichtige Einstellung, die sich darauf bezieht, wie Diskussionsbeiträge gecrawlt und in den Suchergebnissen dargestellt werden.",
                     "button": ""
                 },
                 "indexing": {
@@ -282,9 +282,9 @@
                     }
                 },
                 "reading_time": {
-                    "label": "",
-                    "help": "",
-                    "placeholder": ""
+                    "label": "Geschätzte Lesezeit",
+                    "help": "Geschätzte Lesezeit in Sekunden.",
+                    "placeholder": "Lesezeit in Sekunden"
                 },
                 "twitter": {
                     "label": "",
@@ -294,15 +294,15 @@
                     "image": {
                         "label": "",
                         "help": "",
-                        "reset": ""
+                        "reset": "Bild zurücksetzen"
                     }
                 },
                 "og": {
-                    "label": "",
-                    "auto_switch": "",
-                    "title": "",
+                    "label": "Open Graph-Tags",
+                    "auto_switch": "Open Graph Tags automatisch erstellen",
+                    "title": "Open Graph-Titel",
                     "description": {
-                        "label": "",
+                        "label": "Open Graph-Beschreibung",
                         "placeholder": ""
                     }
                 }
