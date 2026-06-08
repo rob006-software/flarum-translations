@@ -12,13 +12,13 @@
                 "parent_remove_icon": "Скрыть иконки у тегов верхнего уровня?",
                 "parent_remove_description": "Скрыть описания у тегов верхнего уровня?",
                 "parent_remove_stats": "Скрыть статистику у тегов верхнего уровня?",
-                "parent_remove_last_discussion": "Скрыть последние дискуссии у тегов верхнего уровня?",
+                "parent_remove_last_discussion": "Скрыть последние темы у тегов верхнего уровня?",
                 "small_forum_optimized": "Оптимизировать для небольших форумов?"
             },
             "help": {
                 "child_bare_icon": "Показывать иконки подкатегорий без круглого фона?",
                 "full_page_desktop": "Свернуть меню навигации в боковой панели в одну строку, как на странице тегов? При этом виджеты, например Friends of Flarum Forum Statistics, будут скрыты из навигации категорий.",
-                "small_forum_optimized": "Это обеспечит более точный подсчёт дискуссий и сообщений, но может значительно замедлить работу средних и крупных форумов."
+                "small_forum_optimized": "Это обеспечит более точный подсчёт тем и сообщений, но может значительно замедлить работу средних и крупных форумов."
             },
             "headings": {
                 "nav": "Навигация",
@@ -41,11 +41,11 @@
                 "categories_link": "=> fof-categories.ref.categories"
             },
             "stat-widgets": {
-                "discussion_label": "Дискуссии",
+                "discussion_label": "Темы",
                 "post_label": "Сообщения"
             },
             "last_discussion_widget": {
-                "no_discussions": "Дискуссий пока нет"
+                "no_discussions": "Тем пока нет"
             }
         },
         "ref": {
