@@ -2,56 +2,56 @@
     "ianm-syndication": {
         "forum": {
             "autodiscovery": {
-                "forum_activity": "",
-                "forum_new_discussions": "",
-                "tag_activity": "",
-                "tag_new_discussions": "",
-                "discussion_last_posts": "",
-                "user_last_posts": ""
+                "forum_activity": "Активность форума",
+                "forum_new_discussions": "Новые темы форума",
+                "tag_activity": "Активность для тега {tag}",
+                "tag_new_discussions": "Темы в теге {tag}",
+                "discussion_last_posts": "Эта тема",
+                "user_last_posts": "Посты и комментарии этого пользователя"
             },
             "feeds": {
                 "entries": {
                     "user_posts": {
-                        "title_reply": ""
+                        "title_reply": "Re: {discussion}"
                     }
                 },
                 "titles": {
-                    "main_title": "",
-                    "main_subtitle": "",
-                    "main_d_title": "",
-                    "main_d_subtitle": "",
-                    "tag_title": "",
-                    "tag_subtitle": "",
-                    "tag_d_title": "",
-                    "tag_d_subtitle": "",
-                    "discussion_title": "",
-                    "discussion_subtitle": "",
-                    "user_title": "",
-                    "user_subtitle": ""
+                    "main_title": "{forum_name}",
+                    "main_subtitle": "Последние посты на форуме",
+                    "main_d_title": "Новые темы на форуме {forum_name}",
+                    "main_d_subtitle": "Новейшие темы на форуме",
+                    "tag_title": "Активность в теге {tag}",
+                    "tag_subtitle": "Последние посты в теге {tag}",
+                    "tag_d_title": "Новые темы в теге {tag}",
+                    "tag_d_subtitle": "Самые новые темы в теге {tag}",
+                    "discussion_title": "{discussion_name}",
+                    "discussion_subtitle": "Последние сообщения в этой теме",
+                    "user_title": "{username}",
+                    "user_subtitle": "Последние сообщения и комментарии этого пользователя."
                 }
             },
             "discussion": {
-                "feed_link": ""
+                "feed_link": "Лента"
             }
         },
         "admin": {
             "settings": {
                 "full-text": {
-                    "label": "",
-                    "help": ""
+                    "label": "Полный текст в лентах",
+                    "help": "Если отключено, ленты будут содержать только отрывки сообщений — пользователям придётся переходить на форум, чтобы прочитать всё. Рекомендуется оставить эту опцию включённой, чтобы уважать пользователей, читающих форум через RSS-агрегатор — если такие есть."
                 },
                 "html": {
-                    "label": "",
-                    "help": ""
+                    "label": "Форматирование в лентах",
+                    "help": "Отметьте, чтобы сохранять HTML в сгенерированных лентах. Если отключено, ленты будут в виде простого текста."
                 },
-                "entries-count": "",
+                "entries-count": "Сколько элементов на одну ленту?",
                 "forum-icons": {
-                    "label": "",
-                    "help": ""
+                    "label": "Показывать ссылки на Atom/RSS-ленты на форуме",
+                    "help": "Отображает иконки во всех темах и тегах для удобного доступа к лентам."
                 },
                 "forum-link-format": {
-                    "label": "",
-                    "help": ""
+                    "label": "Формат ленты форума",
+                    "help": "Выберите, какой формат — Atom или RSS — использовать при отображении ссылок на форуме."
                 }
             }
         }
