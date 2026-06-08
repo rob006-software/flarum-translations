@@ -2,60 +2,60 @@
     "flarum-messages": {
         "admin": {
             "permissions": {
-                "send_messages_label": "",
-                "delete_own_messages_label": ""
+                "send_messages_label": "Gửi tin nhắn riêng",
+                "delete_own_messages_label": "Xoá tin nhắn của chính mình"
             }
         },
         "forum": {
             "composer": {
-                "discard_confirmation": "",
-                "placeholder": "",
-                "recipients": "",
-                "submit_button": "",
-                "to": ""
+                "discard_confirmation": "Bạn chưa gửi tin nhắn \n. Bạn chắc chắn muốn thực hiện điều này không.",
+                "placeholder": "Hãy viết một tin nhắn…",
+                "recipients": "Người nhận",
+                "submit_button": "Gửi tin nhắn",
+                "to": "Đến:"
             },
             "dialog_list": {
-                "load_more_button": "",
-                "mark_as_read_tooltip": "",
-                "title": "",
-                "view_all": ""
+                "load_more_button": "=> core.ref.load_more",
+                "mark_as_read_tooltip": "Đánh dấu là đã đọc",
+                "title": "Tin nhắn",
+                "view_all": "Xem tất cả các tin nhắn"
             },
             "dialog_section": {
-                "back_label": "",
-                "cannot_reply_text": "",
+                "back_label": "Quay lại",
+                "cannot_reply_text": "Người dùng không thể trả lời",
                 "controls": {
-                    "details_button": ""
+                    "details_button": "Chi tiết"
                 },
-                "controls_toggle_label": "",
+                "controls_toggle_label": "Các hành động trong hộp thoại",
                 "details_modal": {
-                    "created_at": "",
-                    "recipients": "",
-                    "title": ""
+                    "created_at": "Ngày tạo",
+                    "recipients": "Người tham gia",
+                    "title": "Chi tiết cuộc trò chuyện"
                 }
             },
             "header": {
-                "dropdown_tooltip": ""
+                "dropdown_tooltip": "Tin nhắn"
             },
             "index": {
-                "messages_link": ""
+                "messages_link": "Tin nhắn"
             },
             "index_sort": {
-                "latest_button": "",
-                "newest_button": "",
-                "oldest_button": ""
+                "latest_button": "Mới nhất",
+                "newest_button": "Mới nhất",
+                "oldest_button": "Cũ nhất"
             },
             "message_controls": {
-                "delete_button": "",
-                "delete_confirmation": ""
+                "delete_button": "Xoá",
+                "delete_confirmation": "“Bạn có chắc chắn muốn xóa tin nhắn này không? Hành động này không thể hoàn tác."
             },
             "messages_page": {
-                "cannot_send_message_button": "",
-                "empty_text": "",
+                "cannot_send_message_button": "Không thể gửi tin nhắn",
+                "empty_text": "Không có tin nhắn mới",
                 "hero": {
-                    "title": "",
-                    "subtitle": ""
+                    "title": "Tin nhắn",
+                    "subtitle": "Các cuộc trò chuyện riêng tư của bạn với người dùng khác"
                 },
-                "mark_all_as_read_tooltip": "",
+                "mark_all_as_read_tooltip": "Đánh dấu tất cả là đã đọc",
                 "refresh_tooltip": "",
                 "send_message_button": "",
                 "stream": {
