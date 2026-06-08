@@ -2,7 +2,7 @@
     "fof-user-directory": {
         "forum": {
             "header": {
-                "back_to_user_directory_tooltip": "Назад к списку участников"
+                "back_to_user_directory_tooltip": "К списку участников"
             },
             "hero": {
                 "title": "=> fof-user-directory.forum.page.nav"
@@ -24,7 +24,7 @@
                 "empty_text": "Пользователи по вашему запросу не найдены.",
                 "filter_button": "Фильтр групп",
                 "usercard": {
-                    "discussion-count": "{count, plural, one { {count} дискуссия} other {{count} дискуссий}}",
+                    "discussion-count": "{count, plural, one {{count} тема} few {{count} темы} many {{count} тем} other {{count} тем}}",
                     "post-count": "{count, plural, one { {count} сообщение} other {{count} сообщений}}"
                 }
             }
@@ -43,16 +43,16 @@
         },
         "lib": {
             "sort": {
-                "not_specified": "Как в Flarum",
+                "not_specified": "Стандартный вариант",
                 "default": "По умолчанию",
                 "username_az": "Имя пользователя (a-z)",
                 "username_za": "Имя пользователя (z-a)",
                 "newest": "По убыванию",
                 "oldest": "По возрастанию",
-                "most_posts": "Много сообщений",
-                "least_posts": "Мало сообщений",
-                "most_discussions": "Много дискуссий",
-                "least_discussions": "Мало дискуссий"
+                "most_posts": "Больше всех сообщений",
+                "least_posts": "Меньше всех сообщений",
+                "most_discussions": "Больше всех тем",
+                "least_discussions": "Меньше всех тем"
             }
         }
     }
