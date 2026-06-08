@@ -163,8 +163,8 @@
                             "button": "Beschreibung aktualisieren"
                         },
                         "keywords": {
-                            "label": "",
-                            "reason": "",
+                            "label": "In deinem Forum sind Stichwörter eingerichtet",
+                            "reason": "Du hast noch keine Stichwörter für das Forum festgelegt!",
                             "button": "Stichwörter aktualisieren"
                         },
                         "ssl": {
@@ -173,13 +173,13 @@
                             "button": "So richtest du SSL ein"
                         },
                         "crawl": {
-                            "label": "",
-                            "reason": "",
-                            "button": ""
+                            "label": "Einstellungen für das Crawlen von Diskussionsbeiträgen überprüfen",
+                            "reason": "Du musst diese Einstellung durchgehen, um fortzufahren.",
+                            "button": "Beitragseinstellungen überprüfen"
                         },
                         "social_media": {
-                            "label": "",
-                            "reason": "",
+                            "label": "Ein Social-Media-Bild einrichten",
+                            "reason": "Du hast noch kein Social-Media-Bild für dein Forum festgelegt. Es wird empfohlen, eines festzulegen. Dein Favicon wird nun als Vorschaubild in den sozialen Medien verwendet.",
                             "button": "Bild aktualisieren"
                         },
                         "sitemap": {
@@ -197,7 +197,7 @@
                         },
                         "search_engines": {
                             "label": "Registriere dein Forum bei Suchmaschinen",
-                            "reason": "Du musst das durchgehen, um zu bestehen.",
+                            "reason": "Du musst das durchgehen, um fortzufahren.",
                             "button": "Weitere Informationen"
                         },
                         "review": {
@@ -231,45 +231,45 @@
                 "unsupported_object": {
                     "title": "Dieses Objekt ist kein unterstütztes SeoMeta-Objekt",
                     "docs_link": "Dokumentation",
-                    "body": ""
+                    "body": "Bitte öffne diesen Dialog über die Eigenschaften „objectType“ und „objectId“ oder registriere stattdessen die Objektbeziehung."
                 },
                 "auto_update": {
-                    "label": "",
-                    "help": "",
-                    "switch": ""
+                    "label": "Meta-Tags automatisch aktualisieren",
+                    "help": "Wenn aktiviert, werden die Meta-Tags dieses Elements automatisch aktualisiert, sobald sich das Objekt ändert.",
+                    "switch": "Objekt-SEO bei Änderungen aktualisieren"
                 },
                 "meta_title": {
-                    "label": "",
-                    "help": "",
-                    "placeholder": ""
+                    "label": "Meta-Titel",
+                    "help": "Titel für Suchmaschinen.",
+                    "placeholder": "Seitentitel eingeben"
                 },
                 "meta_description": {
-                    "label": "",
-                    "help": ""
+                    "label": "Meta-Beschreibung",
+                    "help": "Beschreibt den Artikel und wird in Suchmaschinen angezeigt."
                 },
                 "keywords": {
-                    "label": "",
-                    "help": "",
-                    "placeholder": "",
-                    "comma_note": "",
-                    "example": ""
+                    "label": "Stichwörter",
+                    "help": "Gib ein oder mehrere Stichwörter ein, die diesen Artikel beschreiben.",
+                    "placeholder": "Füge ein paar Stichwörter hinzu",
+                    "comma_note": "Hinweis: Trenne die Stichwörter durch Kommas.",
+                    "example": "Beispiel: Flarum, Webentwicklung, Forum, Äpfel, Sicherheit"
                 },
                 "image": {
-                    "label": "",
-                    "help": "",
-                    "placeholder": "",
-                    "managed_by": "",
-                    "upload": ""
+                    "label": "Meta-Bild",
+                    "help": "Zeigt ein Bild an.",
+                    "placeholder": "Bild-URL eingeben",
+                    "managed_by": "Bildquelle verwaltet durch {source}",
+                    "upload": "Datei hochladen"
                 },
                 "robots": {
-                    "label": "",
-                    "help": "",
+                    "label": "Robots",
+                    "help": "Robot-Crawling-Einstellungen für diesen Artikel.",
                     "tags": {
-                        "indexing_allowed": "",
-                        "indexing_not_allowed": "",
-                        "follow_allowed": "",
-                        "follow_not_allowed": "",
-                        "archive_not_allowed": "",
+                        "indexing_allowed": "Indizierung der Seite zulassen",
+                        "indexing_not_allowed": "Seitenindizierung nicht erlauben",
+                        "follow_allowed": "Folgen von Links zulassen",
+                        "follow_not_allowed": "Folgen von Links nicht erlauben",
+                        "archive_not_allowed": "Archivieren von Seiten nicht erlauben",
                         "imageindex_not_allowed": "",
                         "snippet_not_allowed": ""
                     },
@@ -287,13 +287,13 @@
                     "placeholder": "Lesezeit in Sekunden"
                 },
                 "twitter": {
-                    "label": "",
-                    "auto_switch": "",
-                    "title": "",
-                    "description": "",
+                    "label": "𝕏 (ehemals Twitter) Karte",
+                    "auto_switch": "𝕏 (ehemals Twitter) Karte automatisch generieren",
+                    "title": "𝕏 (ehemals Twitter) Titel",
+                    "description": "𝕏 (ehemals Twitter) Beschreibung",
                     "image": {
-                        "label": "",
-                        "help": "",
+                        "label": "𝕏 (ehemals Twitter) Bild",
+                        "help": "Zeigt ein Bild auf 𝕏 (ehemals Twitter) an.",
                         "reset": "Bild zurücksetzen"
                     }
                 },
@@ -303,7 +303,7 @@
                     "title": "Open Graph-Titel",
                     "description": {
                         "label": "Open Graph-Beschreibung",
-                        "placeholder": ""
+                        "placeholder": "Benutzerdefinierte Open Graph-Beschreibung"
                     }
                 }
             }
