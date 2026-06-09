@@ -144,7 +144,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/mobiletab/2.0.0/resources/locale/en.yml',
 	],
 	'ernestdefoe-onair' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/onair/v0.1.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/onair/v0.1.1/locale/en.yml',
 	],
 	'ernestdefoe-respawn' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/respawn/3.0.0/locale/en.yml',
