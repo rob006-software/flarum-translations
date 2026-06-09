@@ -1007,7 +1007,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/imorland/flarum-ext-oauth-twitch/0.1.1/locale/en.yml',
 	],
 	'ianm-online-guests' => [
-		'tag' => 'https://raw.githubusercontent.com/imorland/flarum-ext-online-guests-widget/1.0.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/imorland/flarum-ext-online-guests-widget/1.1.0/locale/en.yml',
 	],
 	'ianm-syndication' => [
 		'tag' => 'https://raw.githubusercontent.com/imorland/syndication/1.3.5/resources/locale/en.yml',
