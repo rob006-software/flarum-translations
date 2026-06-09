@@ -162,7 +162,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/flarum/akismet/v2.0.0-rc.3/locale/en.yml',
 	],
 	'flarum-approval' => [
-		'beta' => 'https://raw.githubusercontent.com/flarum/approval/v2.0.0-rc.2/locale/en.yml',
+		'beta' => 'https://raw.githubusercontent.com/flarum/approval/v2.0.0-rc.3/locale/en.yml',
 	],
 	'flarum-bbcode' => [
 		'beta' => 'https://raw.githubusercontent.com/flarum/bbcode/v2.0.0-rc.2/locale/en.yml',
