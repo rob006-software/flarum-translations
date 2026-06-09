@@ -126,7 +126,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/cross-references/3.0.0/locale/en.yml',
 	],
 	'ernestdefoe-digest-mail' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/digest-mail/2.1.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/digest-mail/2.1.1/locale/en.yml',
 	],
 	'ernestdefoe-facebook-post' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/flarum-facebook-post/v2.1.6/locale/en.yml',
