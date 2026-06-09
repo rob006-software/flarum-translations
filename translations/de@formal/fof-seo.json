@@ -32,7 +32,7 @@
                     "mode_main_title": "Nur den Hauptbeitrag indizieren (Standard)",
                     "mode_main_help": "Die Suchmaschine zeigt in den Suchergebnissen nur den Hauptbeitrag an. Die Ladegeschwindigkeit wird nicht beeinträchtigt, wenn du über Forenlinks dorthin navigierst.",
                     "mode_all_title": "Alle Beiträge in einer Diskussion indizieren (Einstellung aktiviert)",
-                    "mode_all_help": "",
+                    "mode_all_help": "Suchmaschinen verstehen die Diskussionen und können sogar einzelne relevante Beiträge unterhalb der Suchergebnisse anzeigen. Wenn du die Erweiterung „<a>best answer</a>“ in deinem Forum installiert und aktiviert hast, wird die Diskussion in den Suchergebnissen als „beantwortet“ gekennzeichnet und der Nutzer zu diesem bestimmten Beitrag weitergeleitet. Jede Antwort wird zudem mit der Anzahl der Likes und Upvotes angezeigt, sodass Suchmaschinen auch ohne die Erweiterung „best answer“ die hilfreichsten Antworten identifizieren können. <b>Je nach deinen Server-Einstellungen kann dies jedoch eine höhere Belastung darstellen</b>. Es kann zu Leistungseinbußen kommen, daher hängt es von der Geschwindigkeit deines Servers ab, ob du diese Funktion aktivieren sollten.",
                     "question": "Möchtest du diese Funktion aktivieren?",
                     "switch_label": "Alle Beiträge crawlen (die Seitenaktualisierung dauert zwar länger, aber die Suchergebnisse sind besser)"
                 },
@@ -83,7 +83,7 @@
                 },
                 "nofollow": {
                     "heading": "No-Follow-Links",
-                    "help": "",
+                    "help": "Alle Links zu externen Domänen werden standardmäßig mit dem Attribut „<i>nofollow</i>“ versehen. Dadurch wird sichergestellt, dass Nutzer dein Forum nicht mit Links zu anderen Domänen zuspammen, um mehr Verweise zu erhalten.",
                     "help_dofollow": "Mit dieser Einstellung kannst du Domänen zur „Do-Follow“-Liste hinzufügen. Du kannst beispielsweise <i>flarum.org</i> hinzufügen, um sicherzustellen, dass Links zu dieser Website kein „nofollow“-Attribut erhalten.",
                     "button": "Do-Follow-Liste für Domains öffnen"
                 },
@@ -139,7 +139,7 @@
                     "how_heading": "Wie füge ich SSL zu meiner Website hinzu?",
                     "how_body": "Für Nutzer eines Webhostings ist es am gängigsten, sich im Webhosting-Panel anzumelden, zu den Hosting-Einstellungen der Website zu gehen und auf „SSL“ zu klicken. Befolge die dortigen Anweisungen, um SSL für deine Website hinzuzufügen. Die meisten Webhosting-Anbieter unterstützen heutzutage den beliebten Zertifikatsaussteller {link}.",
                     "added_heading": "Okay, ich habe SSL eingerichtet!",
-                    "added_body": "",
+                    "added_body": "Super! Ändere nun deine <b>config.php</b> und setze den Wert von <b>„url“</b> auf <b>https</b>!",
                     "no_ssl_heading": "Was ist, wenn ich kein SSL hinzufügen möchte?",
                     "no_ssl_body": "In diesem Fall kannst du diese Erweiterung deinstallieren, da Suchmaschinen <b>dein Forum nicht indizieren</b> oder es aus Sicherheitsgründen weit hinter anderen Websites platzieren."
                 },
