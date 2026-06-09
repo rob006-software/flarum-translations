@@ -2,37 +2,37 @@
     "fof-seo": {
         "admin": {
             "common": {
-                "close": "",
-                "save_changes": "",
-                "learn_more": ""
+                "close": "Fermer",
+                "save_changes": "Enregistrer les modifications",
+                "learn_more": "En savoir plus"
             },
             "permissions": {
-                "configure_seo": "",
-                "category_label": ""
+                "configure_seo": "Autoriser la configuration du référencement",
+                "category_label": "Référencement"
             },
             "header": {
-                "title": "",
-                "tools": "",
-                "health_check": "",
-                "seo_settings": "",
-                "sitemap_info": "",
-                "search_engines_info": "",
-                "setup_ssl": ""
+                "title": "Optimisation pour les moteurs de recherche (SEO)",
+                "tools": "Outils",
+                "health_check": "Bilan de santé",
+                "seo_settings": "Paramètres SEO",
+                "sitemap_info": "Informations sur le plan du site",
+                "search_engines_info": "Informations sur les moteurs de recherche",
+                "setup_ssl": "Configurer SSL"
             },
             "dashboard": {
                 "widget": {
-                    "review_prompt": "",
-                    "cta": ""
+                    "review_prompt": "Il est temps de revoir vos paramètres SEO !",
+                    "cta": "Faites le bilan de santé !"
                 }
             },
             "modals": {
                 "crawl_post": {
                     "title": "",
-                    "intro": "",
-                    "mode_main_title": "",
-                    "mode_main_help": "",
-                    "mode_all_title": "",
-                    "mode_all_help": "",
+                    "intro": "<b>Lisez attentivement cette boîte de dialogue.</b> Cette fonction ne s'exécutera qu'au moment de l'actualisation de la page d'une discussion. Vous pourrez toujours modifier cette option ultérieurement.",
+                    "mode_main_title": "Indexer uniquement le message principal (par défaut)",
+                    "mode_main_help": "Le moteur de recherche affichera seulement le message principal dans les résultats de recherche. Cela n'aura aucune incidence sur la vitesse de chargement lorsque vous y accéderez via les liens du forum.",
+                    "mode_all_title": "Indexer tous les messages d'une discussion (option activée)",
+                    "mode_all_help": "Les moteurs de recherche comprennent les discussions et sont même capables d'afficher certains messages pertinents sous les résultats de recherche. Lorsque l'extension « <a>meilleure réponse</a> » est installée et activée sur votre forum, elle marquera la discussion comme « résolue » dans les résultats de recherche et redirigera l'utilisateur vers ce message spécifique. Chaque réponse est également affichée avec le nombre de « J'aime » et de votes positifs, ce qui permet aux moteurs de recherche d'identifier les réponses les plus utiles, même sans l'extension « meilleure réponse ». <b>Cependant, selon les paramètres de votre serveur, cela peut alourdir le système</b>. Cela peut nuire aux performances, donc l'activation de cette fonctionnalité dépend de la vitesse de votre serveur.",
                     "question": "",
                     "switch_label": ""
                 },
