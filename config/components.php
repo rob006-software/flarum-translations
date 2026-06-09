@@ -138,7 +138,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/google-fonts/0.2.1/locale/en.yml',
 	],
 	'ernestdefoe-group-messages' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/group-messages/2.0.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/group-messages/2.0.2/locale/en.yml',
 	],
 	'ernestdefoe-mobile-tab' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/mobiletab/2.0.0/resources/locale/en.yml',
