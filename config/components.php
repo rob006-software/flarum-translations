@@ -147,7 +147,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/onair/v0.1.1/locale/en.yml',
 	],
 	'ernestdefoe-respawn' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/respawn/3.0.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/respawn/3.0.1/locale/en.yml',
 	],
 	'ernestdefoe-seo' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/seo/2.0.11/locale/en.yml',
