@@ -115,8 +115,8 @@
                     "back_button": "=> core.lib.pagination.back_button",
                     "page_counter": "=> core.lib.pagination.page_counter",
                     "go_to_page_textbox_a11y_label": "=> core.lib.pagination.go_to_page_textbox_a11y_label",
-                    "next_button": "",
-                    "last_page_button": ""
+                    "next_button": "=> core.lib.pagination.next_button",
+                    "last_page_button": "=> core.lib.pagination.last_button"
                 }
             }
         },
@@ -130,7 +130,7 @@
         },
         "email": {
             "subject": "Einladen zum Beitreten",
-            "body": ""
+            "body": "Sie wurden zum Beitritt für {forum} eingeladen.\n\nWenn Sie bereit sind, Ihr Konto zu erstellen, klicken Sie einfach auf den folgenden Link und geben Sie den Code bei der Registrierung ein:\n\nUrl: {url}\nEinladungscode: {code}\n\nSollten Sie diese E-Mail irrtümlich erhalten haben, ignorieren Sie sie bitte.\n"
         }
     }
 }
