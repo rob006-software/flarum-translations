@@ -4,7 +4,7 @@
             "ref": {
                 "fields": {
                     "key": {
-                        "label": "xSchlüssel",
+                        "label": "Schlüssel",
                         "help": "Code, den Nutzer bei der Registrierung verwenden."
                     },
                     "group": {
@@ -115,8 +115,8 @@
                     "back_button": "=> core.lib.pagination.back_button",
                     "page_counter": "=> core.lib.pagination.page_counter",
                     "go_to_page_textbox_a11y_label": "=> core.lib.pagination.go_to_page_textbox_a11y_label",
-                    "next_button": "",
-                    "last_page_button": ""
+                    "next_button": "=> core.lib.pagination.next_button",
+                    "last_page_button": "=> core.lib.pagination.last_button"
                 }
             }
         },
@@ -130,7 +130,7 @@
         },
         "email": {
             "subject": "Einladen zum Beitreten",
-            "body": ""
+            "body": "Du wurdest zum Beitritt für {forum} eingeladen.\n\nWenn du bereit bist, dein Konto zu erstellen, klicke einfach auf den folgenden Link und gib den Code bei der Registrierung ein:\n\nUrl: {url}\nEinladungscode: {code}\n\nSolltest du diese E-Mail irrtümlich erhalten haben, ignoriere sie bitte.\n"
         }
     }
 }
