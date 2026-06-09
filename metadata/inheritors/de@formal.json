@@ -5093,6 +5093,11 @@
         "fof-doorman": {
             "admin": {
                 "list": {
+                    "actions": {
+                        "delete": "5c6dcdc47f1402064b09192f4e4fa692 5c6dcdc47f1402064b09192f4e4fa692",
+                        "edit": "aadf1b8135752522564e5693b6c62192 aadf1b8135752522564e5693b6c62192",
+                        "notify": "7e3b5b7ea1f5bd024a1e99212d73f609 7e3b5b7ea1f5bd024a1e99212d73f609"
+                    },
                     "columns": {
                         "activates_user": "9bf51db4e0cf437ee0e162b3964cfe80 9bf51db4e0cf437ee0e162b3964cfe80",
                         "created_by": "ea3b0dea4ac5549ae3a961d12df2cbbe ea3b0dea4ac5549ae3a961d12df2cbbe",
@@ -5113,6 +5118,13 @@
                             "used_times": "a06652e58e912edf6e4b1a692d3e4aa4 a06652e58e912edf6e4b1a692d3e4aa4"
                         },
                         "warning": "d5281d7859de01f7f78d0eecfa1a1861 d5281d7859de01f7f78d0eecfa1a1861"
+                    },
+                    "heading": "fa409d9913b08693d074bd117aeedbaa fa409d9913b08693d074bd117aeedbaa",
+                    "pagination": {
+                        "back_button": "e608b71b5f9ec36bb00da03318a24535 e608b71b5f9ec36bb00da03318a24535",
+                        "first_page_button": "c1c5d5419da5b4e5541abc45523cce3a c1c5d5419da5b4e5541abc45523cce3a",
+                        "go_to_page_textbox_a11y_label": "2a4e60258a978337f9e4e5c622d9211e 2a4e60258a978337f9e4e5c622d9211e",
+                        "page_counter": "a64ce21edf660abbe3809d747e9ef11f a64ce21edf660abbe3809d747e9ef11f"
                     }
                 },
                 "modals": {
@@ -5180,7 +5192,7 @@
                         },
                         "key": {
                             "help": "e19c1581f0eb6fec3cd13fc99441d036 e19c1581f0eb6fec3cd13fc99441d036",
-                            "label": "0f511d362346c2f658bb594d5b04224e 0f511d362346c2f658bb594d5b04224e"
+                            "label": "d89ec2ffbd3aec1c26120c40730a723e d89ec2ffbd3aec1c26120c40730a723e"
                         },
                         "max_uses": {
                             "help": "be4cb184d9c361ba2873fa4c0ed6e663 be4cb184d9c361ba2873fa4c0ed6e663",
@@ -5190,7 +5202,9 @@
                 },
                 "settings": {
                     "create_doorkey_button": "5fa2205ce29dbb6a5dda5934dc7adca1 5fa2205ce29dbb6a5dda5934dc7adca1",
+                    "heading": "27014dd1bf5fe7e41ced3bedfc4cd2aa 27014dd1bf5fe7e41ced3bedfc4cd2aa",
                     "optional_usage": "505bf305e9d9a9ea416e33327d4dccc9 505bf305e9d9a9ea416e33327d4dccc9",
+                    "optional_usage_help": "73136bb3e98cf473968f231ef155ba2d 73136bb3e98cf473968f231ef155ba2d",
                     "search": "2fb550475b05b3714226e49ae4676e85 2fb550475b05b3714226e49ae4676e85",
                     "total_doorkeys": "28d0cce0bc83c2d9bd8d3b38650b8294 28d0cce0bc83c2d9bd8d3b38650b8294"
                 }
