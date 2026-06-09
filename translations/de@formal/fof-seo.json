@@ -156,19 +156,19 @@
                     },
                     "checks": {
                         "description": {
-                            "label": "Dein Forum hat eine Beschreibung",
+                            "label": "Prüft, ob dein Forum eine Beschreibung hat",
                             "reason_missing": "Du hast noch keine Forumbeschreibung erstellt!",
                             "reason_default": "Du hast die Standardbeschreibung des Forums nach der Installation nicht geändert!",
                             "reason_too_short": "Die Beschreibung deines Forums ist kürzer als 20 Zeichen. Bitte erweitere sie, um bessere Suchergebnisse zu erzielen.",
                             "button": "Beschreibung aktualisieren"
                         },
                         "keywords": {
-                            "label": "In deinem Forum sind Stichwörter eingerichtet",
+                            "label": "Prüft, ob in deinem Forum Stichwörter eingerichtet sind",
                             "reason": "Du hast noch keine Stichwörter für das Forum festgelegt!",
                             "button": "Stichwörter aktualisieren"
                         },
                         "ssl": {
-                            "label": "Deine Website verfügt über eine sichere Verbindung (SSL/TLS)",
+                            "label": "Prüft, ob deine Website über eine sichere Verbindung (SSL/TLS) verfügt",
                             "reason": "Dein Forum erzwingt keine SSL/TLS-Verbindung (eine sichere Verbindung zu deiner Website). Die meisten Suchmaschinen indexieren deine Website nicht oder stufen ihr Ranking herab, wenn keine sichere Verbindung verfügbar ist.",
                             "button": "So richtest du SSL ein"
                         },
@@ -183,17 +183,17 @@
                             "button": "Bild aktualisieren"
                         },
                         "sitemap": {
-                            "label": "Für dein Forum steht eine Sitemap zur Verfügung",
+                            "label": "Prüft, ob für dein Forum eine Sitemap zur Verfügung steht",
                             "reason": "Es wird dringend empfohlen, die Erweiterung „Sitemap“ von FriendsOfFlarum zu installieren!",
                             "button": "Erfahre mehr über das Hinzufügen einer Sitemap"
                         },
                         "robots": {
-                            "label": "Dein Forum verfügt über eine robots.txt-Datei",
+                            "label": "Prüft, ob dein Forum über eine robots.txt-Datei verfügt",
                             "reason": "Deine robots.txt-Datei wird von der Sitemap-Erweiterung von FriendsOfFlarum bereitgestellt. Installiere und aktiviere sie, um Suchmaschinen eine robots.txt-Datei zur Verfügung zu stellen.",
-                            "button": "Erfahre mehr über das Hinzufügen einer Sitemap"
+                            "button": "Erfahre mehr über das Hinzufügen einer robots.txt"
                         },
                         "meta_tags": {
-                            "label": "Dein Forum verfügt über Meta-Tags (die von diesem Plugin generiert werden)"
+                            "label": "Prüft, ob dein Forum über Meta-Tags (die von diesem Plugin generiert werden) verfügt"
                         },
                         "search_engines": {
                             "label": "Registriere dein Forum bei Suchmaschinen",
@@ -270,15 +270,15 @@
                         "follow_allowed": "Folgen von Links zulassen",
                         "follow_not_allowed": "Folgen von Links nicht erlauben",
                         "archive_not_allowed": "Archivieren von Seiten nicht erlauben",
-                        "imageindex_not_allowed": "",
-                        "snippet_not_allowed": ""
+                        "imageindex_not_allowed": "Bildindizierung nicht erlauben",
+                        "snippet_not_allowed": "Übernahme von Textausschnitten nicht erlauben"
                     },
                     "switch": {
-                        "indexing": "",
-                        "follow": "",
-                        "noarchive": "",
-                        "noimageindex": "",
-                        "nosnippet": ""
+                        "indexing": "Indizierung der Seite erlauben",
+                        "follow": "Linknachverfolgung auf andere Seiten erlauben",
+                        "noarchive": "Seite nicht archivieren (noarchive)",
+                        "noimageindex": "Bildindizierung auf dieser Seite deaktivieren (noimageindex)",
+                        "nosnippet": "Text-Snippets auf der Seite deaktivieren (nosnippet)"
                     }
                 },
                 "reading_time": {
