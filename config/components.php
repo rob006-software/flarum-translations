@@ -482,7 +482,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ekumanov/flarum-ext-new-posts-notice/v1.0.4/locale/en.yml',
 	],
 	'ernestdefoe-aurora' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/aurora/1.0.1/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/aurora/1.0.2/resources/locale/en.yml',
 	],
 	'ffans-clipboardjs' => [
 		'tag' => 'https://raw.githubusercontent.com/FFans/clipboardjs/v1.0.0/resources/locale/en.yml',
