@@ -4,106 +4,106 @@
             "ref": {
                 "fields": {
                     "key": {
-                        "label": "",
-                        "help": ""
+                        "label": "Kunci",
+                        "help": "Kode yang akan digunakan pengguna saat mendaftar."
                     },
                     "group": {
-                        "label": "",
-                        "help": ""
+                        "label": "Grup",
+                        "help": "Grup yang akan ditambahkan pengguna saat mendaftar menggunakan kode undangan."
                     },
                     "max_uses": {
-                        "label": "",
-                        "help": ""
+                        "label": "Penggunaan Maksimum",
+                        "help": "Atur ke 0 untuk penggunaan tak terbatas"
                     },
                     "activates_user": {
-                        "label": "",
-                        "help": ""
+                        "label": "Aktifkan Pengguna",
+                        "help": "Mengaktifkan pengguna secara otomatis saat mereka mendaftar."
                     }
                 }
             },
             "modals": {
                 "create_doorkey": {
-                    "title": "",
+                    "title": "Buat Kode Undangan Baru",
                     "key": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.key.label",
+                        "help": "=> fof-doorman.admin.ref.fields.key.help"
                     },
                     "group": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.group.label",
+                        "help": "=> fof-doorman.admin.ref.fields.group.help"
                     },
                     "max_uses": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.max_uses.label",
+                        "help": "=> fof-doorman.admin.ref.fields.max_uses.help"
                     },
                     "activates_user": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.activates_user.label",
+                        "help": "=> fof-doorman.admin.ref.fields.activates_user.help"
                     },
-                    "submit_button": "",
-                    "submit_and_create_another_button": ""
+                    "submit_button": "Buat Kode Undangan",
+                    "submit_and_create_another_button": "Buat dan tambahkan yang lain"
                 },
                 "edit_doorkey": {
-                    "title": "",
+                    "title": "Edit Kode Undangan",
                     "key": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.key.label",
+                        "help": "=> fof-doorman.admin.ref.fields.key.help"
                     },
                     "group": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.group.label",
+                        "help": "=> fof-doorman.admin.ref.fields.group.help"
                     },
                     "max_uses": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.max_uses.label",
+                        "help": "=> fof-doorman.admin.ref.fields.max_uses.help"
                     },
                     "activates_user": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.activates_user.label",
+                        "help": "=> fof-doorman.admin.ref.fields.activates_user.help"
                     },
-                    "submit_button": ""
+                    "submit_button": "Simpan Perubahan"
                 },
                 "send_invites": {
-                    "title": "",
-                    "group": "",
-                    "help": "",
-                    "placeholder": "",
-                    "invalid_emails": "",
-                    "max_use_conflict": "",
-                    "send": "",
-                    "success": ""
+                    "title": "Kirim Kode Undangan",
+                    "group": "Mengirim undangan untuk grup {group}",
+                    "help": "Menerima sebuah daftar yang dipisahkan dengan koma, spasi, atau spasi. Ketik satu email atau paste daftar tersebut, lalu tekan spasi untuk menambahkannya.",
+                    "placeholder": "Masukkan email di sini",
+                    "invalid_emails": "Email berikut ini tidak valid: {emails}",
+                    "max_use_conflict": "Jumlah email melebihi jumlah maksimum penggunaan kode ini.",
+                    "send": "Kirim Email",
+                    "success": "Email berhasil dikirim"
                 }
             },
             "settings": {
                 "heading": "",
-                "search": "",
-                "total_doorkeys": "",
-                "create_doorkey_button": "",
-                "optional_usage": "",
+                "search": "Cari doorkey",
+                "total_doorkeys": "Total doorkey: {count}",
+                "create_doorkey_button": "Buat Kode Undangan",
+                "optional_usage": "Jadikan kode undangan opsional saat mendaftar",
                 "optional_usage_help": ""
             },
             "list": {
                 "heading": "",
                 "columns": {
-                    "id": "",
-                    "key": "",
-                    "group": "",
-                    "max_uses": "",
-                    "activates_user": "",
-                    "manage": "",
-                    "uses": "",
-                    "created_by": ""
+                    "id": "ID",
+                    "key": "=> fof-doorman.admin.ref.fields.key.label",
+                    "group": "=> fof-doorman.admin.ref.fields.group.label",
+                    "max_uses": "=> fof-doorman.admin.ref.fields.max_uses.label",
+                    "activates_user": "=> fof-doorman.admin.ref.fields.activates_user.label",
+                    "manage": "Kelola",
+                    "uses": "Penggunaan",
+                    "created_by": "Dibuat Oleh"
                 },
                 "content": {
-                    "invalid_column": "",
-                    "no_group": "",
-                    "warning": "",
-                    "delete": "",
+                    "invalid_column": "=> core.admin.users.grid.invalid_column_content",
+                    "no_group": "=> core.admin.users.grid.columns.group_badges.no_badges",
+                    "warning": "Kode undangan ini telah digunakan sebanyak maksimalnya.",
+                    "delete": "Apakah Anda yakin ingin menghapus kode undangan “{key}”?",
                     "uses": {
-                        "used_times": "",
-                        "total_uses": ""
+                        "used_times": "{remaining, plural, =0 {Penggunaan tidak terbatas} one {{remainingUses} kali penggunaan tersisa} other {{remainingUses} kali penggunaan tersisa}}",
+                        "total_uses": "{totalUses, plural, one {Digunakan {totalUses} kali} other {Digunakan {totalUses} kali}}"
                     },
-                    "no_created_by": ""
+                    "no_created_by": "Pengguna Tidak Diketahui"
                 },
                 "actions": {
                     "notify": "",
@@ -122,14 +122,14 @@
         },
         "forum": {
             "sign_up": {
-                "invalid_doorkey": "",
-                "doorkey_required": "",
-                "doorman_placeholder": "",
-                "doorman_placeholder_optional": ""
+                "invalid_doorkey": "Kode undangan yang Anda masukkan tidak valid.",
+                "doorkey_required": "Silakan masukkan kode undangan.",
+                "doorman_placeholder": "Kode Undangan",
+                "doorman_placeholder_optional": "Kode Undangan (opsional)"
             }
         },
         "email": {
-            "subject": "",
+            "subject": "Undangan Untuk Bergabung",
             "body": ""
         }
     }

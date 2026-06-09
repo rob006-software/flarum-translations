@@ -4,12 +4,12 @@
             "ref": {
                 "fields": {
                     "key": {
-                        "label": "",
-                        "help": ""
+                        "label": "金鑰",
+                        "help": "用戶註冊時需要輸入的驗證碼。"
                     },
                     "group": {
-                        "label": "",
-                        "help": ""
+                        "label": "群組",
+                        "help": "使用者註冊時會加入該群組。"
                     },
                     "max_uses": {
                         "label": "",
@@ -122,10 +122,10 @@
         },
         "forum": {
             "sign_up": {
-                "invalid_doorkey": "",
-                "doorkey_required": "",
-                "doorman_placeholder": "",
-                "doorman_placeholder_optional": ""
+                "invalid_doorkey": "邀請碼無效。",
+                "doorkey_required": "請輸入邀請碼。",
+                "doorman_placeholder": "邀請碼",
+                "doorman_placeholder_optional": "邀請碼(可選)"
             }
         },
         "email": {

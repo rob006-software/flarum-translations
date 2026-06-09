@@ -4,106 +4,106 @@
             "ref": {
                 "fields": {
                     "key": {
-                        "label": "",
-                        "help": ""
+                        "label": "Ключ",
+                        "help": "Код, який користувач введе під час реєстрації."
                     },
                     "group": {
-                        "label": "",
-                        "help": ""
+                        "label": "Група",
+                        "help": "Група, до якої користувач буде доданий при реєстрації за допомогою коду запрошення."
                     },
                     "max_uses": {
-                        "label": "",
-                        "help": ""
+                        "label": "Максимальне використання",
+                        "help": "Максимальна кількість разів використання коду. Встановлено на 0 для необмеженого використання"
                     },
                     "activates_user": {
-                        "label": "",
-                        "help": ""
+                        "label": "Активує користувача",
+                        "help": "Автоматично активує користувача при реєстрації."
                     }
                 }
             },
             "modals": {
                 "create_doorkey": {
-                    "title": "",
+                    "title": "Створіть новий код запрошення",
                     "key": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.key.label",
+                        "help": "=> fof-doorman.admin.ref.fields.key.help"
                     },
                     "group": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.group.label",
+                        "help": "=> fof-doorman.admin.ref.fields.group.help"
                     },
                     "max_uses": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.max_uses.label",
+                        "help": "=> fof-doorman.admin.ref.fields.max_uses.help"
                     },
                     "activates_user": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.activates_user.label",
+                        "help": "=> fof-doorman.admin.ref.fields.activates_user.help"
                     },
-                    "submit_button": "",
-                    "submit_and_create_another_button": ""
+                    "submit_button": "Створіть код запрошення",
+                    "submit_and_create_another_button": "Створіть і додайте ще один"
                 },
                 "edit_doorkey": {
-                    "title": "",
+                    "title": "Редагувати код запрошення",
                     "key": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.key.label",
+                        "help": "=> fof-doorman.admin.ref.fields.key.help"
                     },
                     "group": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.group.label",
+                        "help": "=> fof-doorman.admin.ref.fields.group.help"
                     },
                     "max_uses": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.max_uses.label",
+                        "help": "=> fof-doorman.admin.ref.fields.max_uses.help"
                     },
                     "activates_user": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.activates_user.label",
+                        "help": "=> fof-doorman.admin.ref.fields.activates_user.help"
                     },
-                    "submit_button": ""
+                    "submit_button": "Зберегти зміни"
                 },
                 "send_invites": {
-                    "title": "",
-                    "group": "",
-                    "help": "",
-                    "placeholder": "",
-                    "invalid_emails": "",
-                    "max_use_conflict": "",
-                    "send": "",
-                    "success": ""
+                    "title": "Надіслати коди запрошення",
+                    "group": "Надсилання запрошень для групи {group}",
+                    "help": "Приймається список, розділений комами, пробілами або пробілами. Введіть окремий email або вставте список, а потім натисніть пробіл, щоб додати його/їх.",
+                    "placeholder": "Вкажіть електронну пошту тут",
+                    "invalid_emails": "Наступні адреси електронної пошти є недійсними: {emails}",
+                    "max_use_conflict": "Кількість електронних листів перевищує максимальну кількість використань для цього коду.",
+                    "send": "Надіслати листи",
+                    "success": "Електронні листи успішно відправлено"
                 }
             },
             "settings": {
                 "heading": "",
-                "search": "",
-                "total_doorkeys": "",
-                "create_doorkey_button": "",
-                "optional_usage": "",
+                "search": "Пошук кодів",
+                "total_doorkeys": "Усього кодів: {count}",
+                "create_doorkey_button": "Створити код запрошення",
+                "optional_usage": "Зробіть код запрошення необов'язковим при реєстрації",
                 "optional_usage_help": ""
             },
             "list": {
                 "heading": "",
                 "columns": {
-                    "id": "",
-                    "key": "",
-                    "group": "",
-                    "max_uses": "",
-                    "activates_user": "",
-                    "manage": "",
-                    "uses": "",
-                    "created_by": ""
+                    "id": "ID",
+                    "key": "=> fof-doorman.admin.ref.fields.key.label",
+                    "group": "=> fof-doorman.admin.ref.fields.group.label",
+                    "max_uses": "=> fof-doorman.admin.ref.fields.max_uses.label",
+                    "activates_user": "=> fof-doorman.admin.ref.fields.activates_user.label",
+                    "manage": "Керування",
+                    "uses": "Використання",
+                    "created_by": "Створено"
                 },
                 "content": {
-                    "invalid_column": "",
-                    "no_group": "",
-                    "warning": "",
-                    "delete": "",
+                    "invalid_column": "=> core.admin.users.grid.invalid_column_content",
+                    "no_group": "=> core.admin.users.grid.columns.group_badges.no_badges",
+                    "warning": "Цей код запрошення було використано максимальну кількість разів.",
+                    "delete": "Ви впевнені, що хочете видалити код запрошення \"{key}\"?",
                     "uses": {
-                        "used_times": "",
-                        "total_uses": ""
+                        "used_times": "{remaining, plural, =0 {Необмежене використання} one {{remainingUses} використання} other {{remainingUses} використань}}",
+                        "total_uses": "{totalUses, plural, one {Використано разів: {totalUses}} other {Використано разів: {totalUses} }}"
                     },
-                    "no_created_by": ""
+                    "no_created_by": "Невідомий користувач"
                 },
                 "actions": {
                     "notify": "",
@@ -122,14 +122,14 @@
         },
         "forum": {
             "sign_up": {
-                "invalid_doorkey": "",
-                "doorkey_required": "",
-                "doorman_placeholder": "",
-                "doorman_placeholder_optional": ""
+                "invalid_doorkey": "Введений вами код запрошення є недійсним.",
+                "doorkey_required": "Будь ласка, введіть код запрошення.",
+                "doorman_placeholder": "Код запрошення",
+                "doorman_placeholder_optional": "Код запрошення (необов'язково)"
             }
         },
         "email": {
-            "subject": "",
+            "subject": "Запрошення приєднатися",
             "body": ""
         }
     }

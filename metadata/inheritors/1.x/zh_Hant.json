@@ -2730,6 +2730,32 @@
             }
         }
     },
+    "fof-doorman.json": {
+        "fof-doorman": {
+            "admin": {
+                "ref": {
+                    "fields": {
+                        "group": {
+                            "help": "8be62ac0b87925088dbb6dad5a4f1e34 8be62ac0b87925088dbb6dad5a4f1e34",
+                            "label": "74878306e74c7a3664fbde7c5b954e30 74878306e74c7a3664fbde7c5b954e30"
+                        },
+                        "key": {
+                            "help": "fb5041d97a59067f32f21b378beba0de fb5041d97a59067f32f21b378beba0de",
+                            "label": "1f3412b8a60b1773d24cd3b556731bf3 1f3412b8a60b1773d24cd3b556731bf3"
+                        }
+                    }
+                }
+            },
+            "forum": {
+                "sign_up": {
+                    "doorkey_required": "ea2bd1dc719d6f7fcac6e63733cc9c0b ea2bd1dc719d6f7fcac6e63733cc9c0b",
+                    "doorman_placeholder": "cf8a8b74a14d42ebf9608ab99c38a0a1 cf8a8b74a14d42ebf9608ab99c38a0a1",
+                    "doorman_placeholder_optional": "66197acf942f7ee7ac8bb52fa3d1c313 66197acf942f7ee7ac8bb52fa3d1c313",
+                    "invalid_doorkey": "622282753fdb96c7e05364e7ded59b19 622282753fdb96c7e05364e7ded59b19"
+                }
+            }
+        }
+    },
     "fof-drafts.json": {
         "fof-drafts": {
             "admin": {

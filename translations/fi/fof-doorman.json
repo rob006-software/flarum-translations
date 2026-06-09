@@ -4,106 +4,106 @@
             "ref": {
                 "fields": {
                     "key": {
-                        "label": "",
-                        "help": ""
+                        "label": "Avain",
+                        "help": "Koodi, jonka käyttäjä kirjoittaa rekisteröityessä."
                     },
                     "group": {
-                        "label": "",
-                        "help": ""
+                        "label": "Ryhmä",
+                        "help": "Ryhmä johon käyttäjä lisätään, kun koodilla rekisteröidytään."
                     },
                     "max_uses": {
-                        "label": "",
-                        "help": ""
+                        "label": "Maksimi käyttömäärä",
+                        "help": "Kuinka, monta kertaa enintään koodia voidaan käyttää. Aseta arvoon 0, jos haluat loputtomat käytöt"
                     },
                     "activates_user": {
-                        "label": "",
-                        "help": ""
+                        "label": "Aktivoi käyttäjän",
+                        "help": "Automaattisesti aktivoi käyttäjän, kun he rekisteröityy."
                     }
                 }
             },
             "modals": {
                 "create_doorkey": {
-                    "title": "",
+                    "title": "Luo uusi kutsukoodi",
                     "key": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.key.label",
+                        "help": "=> fof-doorman.admin.ref.fields.key.help"
                     },
                     "group": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.group.label",
+                        "help": "=> fof-doorman.admin.ref.fields.group.help"
                     },
                     "max_uses": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.max_uses.label",
+                        "help": "=> fof-doorman.admin.ref.fields.max_uses.help"
                     },
                     "activates_user": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.activates_user.label",
+                        "help": "=> fof-doorman.admin.ref.fields.activates_user.help"
                     },
-                    "submit_button": "",
-                    "submit_and_create_another_button": ""
+                    "submit_button": "Luo kutsukoodi",
+                    "submit_and_create_another_button": "Luo ja lisää uusi"
                 },
                 "edit_doorkey": {
-                    "title": "",
+                    "title": "Muokkaa kutsukoodia",
                     "key": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.key.label",
+                        "help": "=> fof-doorman.admin.ref.fields.key.help"
                     },
                     "group": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.group.label",
+                        "help": "=> fof-doorman.admin.ref.fields.group.help"
                     },
                     "max_uses": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.max_uses.label",
+                        "help": "=> fof-doorman.admin.ref.fields.max_uses.help"
                     },
                     "activates_user": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.activates_user.label",
+                        "help": "=> fof-doorman.admin.ref.fields.activates_user.help"
                     },
-                    "submit_button": ""
+                    "submit_button": "Tallenna asetukset"
                 },
                 "send_invites": {
-                    "title": "",
-                    "group": "",
-                    "help": "",
-                    "placeholder": "",
-                    "invalid_emails": "",
-                    "max_use_conflict": "",
-                    "send": "",
-                    "success": ""
+                    "title": "Lähetä kutsukoodit",
+                    "group": "Lähetä kutsukoodit {group} ryhmälle",
+                    "help": "Hyväksyy pilkulla, välilyönnillä tai pilkku‑välilyönti-erotellun luettelon. Kirjoita yksittäinen sähköpostiosoite tai liitä luettelo ja paina sitten välilyöntiä lisätäksesi sen/ne.",
+                    "placeholder": "Syötä sähköpostit tähän",
+                    "invalid_emails": "Seuraavat sähköpostit ovat virheellisiä: {emails}",
+                    "max_use_conflict": "Sähköpostien määrä ylittää tämän koodin enimmäiskäyttömäärän.",
+                    "send": "Lähetä sähköpostit",
+                    "success": "Sähköpostit lähetetty onnistuneesti"
                 }
             },
             "settings": {
                 "heading": "",
-                "search": "",
-                "total_doorkeys": "",
-                "create_doorkey_button": "",
-                "optional_usage": "",
+                "search": "Etsi koodeja",
+                "total_doorkeys": "Koodeja yhteensä: {count}",
+                "create_doorkey_button": "Luo kutsukoodi",
+                "optional_usage": "Tee kutsukoodista valinnainen rekisteröityessä",
                 "optional_usage_help": ""
             },
             "list": {
                 "heading": "",
                 "columns": {
-                    "id": "",
-                    "key": "",
-                    "group": "",
-                    "max_uses": "",
-                    "activates_user": "",
-                    "manage": "",
-                    "uses": "",
-                    "created_by": ""
+                    "id": "ID",
+                    "key": "=> fof-doorman.admin.ref.fields.key.label",
+                    "group": "=> fof-doorman.admin.ref.fields.group.label",
+                    "max_uses": "=> fof-doorman.admin.ref.fields.max_uses.label",
+                    "activates_user": "=> fof-doorman.admin.ref.fields.activates_user.label",
+                    "manage": "Hallitse",
+                    "uses": "Käytöt",
+                    "created_by": "Luonut"
                 },
                 "content": {
-                    "invalid_column": "",
-                    "no_group": "",
-                    "warning": "",
-                    "delete": "",
+                    "invalid_column": "=> core.admin.users.grid.invalid_column_content",
+                    "no_group": "=> core.admin.users.grid.columns.group_badges.no_badges",
+                    "warning": "Kutsukoodia on jo käytetty enimmäismäärä.",
+                    "delete": "Haluatko varmasti poistaa kutsukoodin \"{key}\"?",
                     "uses": {
-                        "used_times": "",
-                        "total_uses": ""
+                        "used_times": "{remaining, plural, =0 {Loputon käyttö} one {{remainingUses} käyttö jäljellä} other {{remainingUses} käyttöä jäljellä}}",
+                        "total_uses": "{totalUses, plural, one {Käytetty {totalUses} kerran} other {Käytetty {totalUses} kertaa}}"
                     },
-                    "no_created_by": ""
+                    "no_created_by": "Tuntematon käyttäjä"
                 },
                 "actions": {
                     "notify": "",
@@ -122,14 +122,14 @@
         },
         "forum": {
             "sign_up": {
-                "invalid_doorkey": "",
-                "doorkey_required": "",
-                "doorman_placeholder": "",
-                "doorman_placeholder_optional": ""
+                "invalid_doorkey": "Kutsukoodi, jonka syötitte on virheellinen.",
+                "doorkey_required": "Syötä kutsukoodi.",
+                "doorman_placeholder": "Kutsukoodi",
+                "doorman_placeholder_optional": "Kutsukoodi (valinnainen)"
             }
         },
         "email": {
-            "subject": "",
+            "subject": "Kutsu liittymään",
             "body": ""
         }
     }
