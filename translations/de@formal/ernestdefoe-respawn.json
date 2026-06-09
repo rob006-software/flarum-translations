@@ -9,7 +9,12 @@
                 "eyebrow_label": "Hero Augenbraue",
                 "eyebrow_help": "Kleine Akzentlinie über der Überschrift (z. B. ▸ Spieler verbunden).",
                 "chips_label": "Hero Themen-Chips",
-                "chips_help": "Durch Kommas getrennte Liste von Tag-Slugs, die als Schnellzugriff-Kacheln angezeigt werden sollen (z. B. halo, elden-ring, deals). Leer lassen, um sie auszublenden."
+                "chips_help": "Durch Kommas getrennte Liste von Tag-Slugs, die als Schnellzugriff-Kacheln angezeigt werden sollen (z. B. halo, elden-ring, deals). Leer lassen, um sie auszublenden.",
+                "mode_option_dark": "",
+                "mode_option_light": "",
+                "tagline_placeholder": "",
+                "eyebrow_placeholder": "",
+                "chips_placeholder": ""
             }
         },
         "forum": {
@@ -26,6 +31,10 @@
                 "online": "Jetzt online",
                 "live": "LIVE",
                 "empty": "—"
+            },
+            "mode": {
+                "to_light": "",
+                "to_dark": ""
             }
         }
     }

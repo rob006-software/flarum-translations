@@ -9,7 +9,12 @@
                 "eyebrow_label": "Hero Eyebrow",
                 "eyebrow_help": "Small accent line above the headline (e.g. ▸ Player Connected).",
                 "chips_label": "Hero Tag Chips",
-                "chips_help": "Comma-separated list of tag slugs to feature as quick-jump chips (e.g. halo, elden-ring, deals). Leave blank to hide."
+                "chips_help": "Comma-separated list of tag slugs to feature as quick-jump chips (e.g. halo, elden-ring, deals). Leave blank to hide.",
+                "mode_option_dark": "Dark",
+                "mode_option_light": "Light",
+                "tagline_placeholder": "Drop in, level up, and join the discussion.",
+                "eyebrow_placeholder": "▸ Player Connected",
+                "chips_placeholder": "halo, elden-ring, deals"
             }
         },
         "forum": {
@@ -26,6 +31,10 @@
                 "online": "Online Now",
                 "live": "LIVE",
                 "empty": "—"
+            },
+            "mode": {
+                "to_light": "Switch to light mode",
+                "to_dark": "Switch to dark mode"
             }
         }
     }
