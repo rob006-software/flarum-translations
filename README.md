@@ -848,6 +848,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`fof-discussion-thumbnail`](https://weblate.rob006.net/projects/flarum2/fof-discussion-thumbnail) | [`fof/discussion-thumbnail`](https://github.com/FriendsOfFlarum/discussion-thumbnail) |
 | [`fof-discussion-views`](https://weblate.rob006.net/projects/flarum2/fof-discussion-views) | [`fof/discussion-views`](https://github.com/FriendsOfFlarum/discussion-views) |
 | [`fof-disposable-emails`](https://weblate.rob006.net/projects/flarum2/fof-disposable-emails) | [`fof/disposable-emails`](https://github.com/FriendsOfFlarum/disposable-emails) |
+| [`fof-doorman`](https://weblate.rob006.net/projects/flarum2/fof-doorman) | [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman) |
 | [`fof-drafts`](https://weblate.rob006.net/projects/flarum2/fof-drafts) | [`fof/drafts`](https://github.com/FriendsOfFlarum/drafts) |
 | [`fof-follow-tags`](https://weblate.rob006.net/projects/flarum2/fof-follow-tags) | [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags) |
 | [`fof-formatting`](https://weblate.rob006.net/projects/flarum2/fof-formatting) | [`fof/formatting`](https://github.com/FriendsOfFlarum/formatting) |
