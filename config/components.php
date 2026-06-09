@@ -132,7 +132,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/flarum-facebook-post/v2.1.6/locale/en.yml',
 	],
 	'ernestdefoe-giveaways' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/giveaways/v0.2.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/giveaways/v0.2.1/locale/en.yml',
 	],
 	'ernestdefoe-google-fonts' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/google-fonts/0.2.1/locale/en.yml',
