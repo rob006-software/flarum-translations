@@ -960,6 +960,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`forumaker-magicread`](https://weblate.rob006.net/projects/flarum2/forumaker-magicread) | [`forumaker/magicread`](https://github.com/forumaker/magicread) |
 | [`forumaker-magicslider`](https://weblate.rob006.net/projects/flarum2/forumaker-magicslider) | [`forumaker/magicslider`](https://github.com/forumaker/magicslider) |
 | [`forumaker-profile-cover`](https://weblate.rob006.net/projects/flarum2/forumaker-profile-cover) | [`forumaker/profile-cover`](https://github.com/forumaker/Profile-Cover) |
+| [`forumaker-statser`](https://weblate.rob006.net/projects/flarum2/forumaker-statser) | [`forumaker/statser`](https://github.com/forumaker/Statser) |
 | [`forumaker-steam-oauth`](https://weblate.rob006.net/projects/flarum2/forumaker-steam-oauth) | [`forumaker/steam-oauth`](https://github.com/forumaker/Steam-Oauth) |
 | [`forumaker-yandex-oauth`](https://weblate.rob006.net/projects/flarum2/forumaker-yandex-oauth) | [`forumaker/yandex-oauth`](https://github.com/forumaker/Yandex-Oauth) |
 | [`forumaker-yandex-smartcaptcha`](https://weblate.rob006.net/projects/flarum2/forumaker-yandex-smartcaptcha) | [`forumaker/yandex-smartcaptcha`](https://github.com/forumaker/Yandex-SmartCaptcha) |
