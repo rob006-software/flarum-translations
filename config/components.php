@@ -449,6 +449,12 @@ return [
 			'ru',
 		],
 	],
+	'forumaker-statser' => [
+		'tag' => 'https://raw.githubusercontent.com/forumaker/Statser/2.0.0/locale/en.yml',
+		'__builtInLanguages' => [
+			'ru',
+		],
+	],
 	'forumaker-steam-oauth' => [
 		'tag' => 'https://raw.githubusercontent.com/forumaker/Steam-Oauth/2.1.1/resources/locale/en.yml',
 		'__builtInLanguages' => [
