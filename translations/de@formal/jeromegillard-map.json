@@ -2,45 +2,45 @@
     "jeromegillard-map": {
         "admin": {
             "templates": {
-                "map": "",
-                "file_description": ""
+                "map": "Karte",
+                "file_description": "Zeige eine Karte in Flarum an. Die Originaldatei steht zum Herunterladen bereit. Der Kachelanbieter und der Stil entsprechen den in den Einstellungen der Erweiterung festgelegten Werten. <b>Damit dies funktioniert, muss flarum/bbcode installiert und aktiviert sein</b>."
             },
             "settings": {
                 "tiles_provider": {
-                    "label": "",
-                    "help": ""
+                    "label": "Standardanbieter für Kachel-Ebenen",
+                    "help": "Wähle den Anbieter der Kachel-Ebene aus, die im Hintergrund angezeigt wird"
                 },
                 "zoom": {
-                    "label": "",
-                    "help": ""
+                    "label": "Standard-Zoomstufe",
+                    "help": "Eine ganze Zahl zwischen 0 und 18."
                 },
                 "style": {
-                    "label": "",
-                    "help": ""
+                    "label": "Standardstil für {provider}",
+                    "help": "Wähle einen Kartenstil aus. <a>Schau dir die verschiedenen Stile an</a>."
                 },
                 "maptiler": {
-                    "label": "",
-                    "help": ""
+                    "label": "MapTiler-Token",
+                    "help": "Registriere dich kostenlos unter <a>maptiler.com</a>, um einen Token zu erhalten. Bitte beachte die <b>Urheberrechte</b>."
                 },
                 "osm": {
-                    "help": ""
+                    "help": "OpenStreetMap-Kacheln eignen sich gut für die Programmierung deiner Karte, aber lies die <a>Richtlinien zur Kachelnutzung</a> von OpenStreetMap, wenn du die Kacheln in einer Produktionsumgebung einsetzen möchten."
                 },
                 "mapbox": {
-                    "label": "",
-                    "help": ""
+                    "label": "Mapbox-Schlüssel",
+                    "help": "Registriere dich kostenlos unter <a>mapbox.com</a>, um einen Token zu erhalten. Bitte beachte die <b>Urheberrechte</b>."
                 },
                 "thunderforest": {
-                    "label": "",
-                    "help": ""
+                    "label": "Thunderforest API-Schlüssel",
+                    "help": "Registriere dich kostenlos unter <a>thunderforest.com</a>, um einen API-Schlüssel zu erhalten. Bitte beachte die <b>Nutzungsbedingungen</b>."
                 }
             }
         },
         "forum": {
             "text_editor": {
-                "bbcode_tooltip": "",
-                "location_placeholder": "",
-                "marker_title_placeholder": "",
-                "marker_description_placeholder": ""
+                "bbcode_tooltip": "Karte einfügen",
+                "location_placeholder": "WO",
+                "marker_title_placeholder": "Titel des Markers",
+                "marker_description_placeholder": "Inhalt des Marker-Popups. Lasse Titel und Beschreibung leer, um den Marker auszublenden."
             }
         }
     }
