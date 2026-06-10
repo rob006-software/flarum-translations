@@ -1,0 +1,80 @@
+{
+    "forumaker-statser": {
+        "forum": {
+            "widget": {
+                "online_users": "",
+                "online_users_count": "",
+                "online_guests_count": "",
+                "hidden_users_count": "",
+                "total_users": "",
+                "discussions": "",
+                "posts": "",
+                "latest_registration": "",
+                "online_label": "",
+                "guests_label": "",
+                "hidden_label": "",
+                "empty_online": "",
+                "viewing_unknown": "",
+                "viewing_page": ""
+            },
+            "routes": {
+                "index": "",
+                "discussion": "",
+                "tag": "",
+                "user": "",
+                "tags": "",
+                "settings": "",
+                "notifications": "",
+                "flags": "",
+                "search": "",
+                "generic": ""
+            },
+            "aria": {
+                "expand": "",
+                "collapse": ""
+            }
+        },
+        "admin": {
+            "settings": {
+                "section_online": "",
+                "section_stats": "",
+                "section_activity": "",
+                "show_online_users": "",
+                "show_online_users_help": "",
+                "show_online_guests": "",
+                "show_online_guests_help": "",
+                "show_hidden_users": "",
+                "show_hidden_users_help": "",
+                "include_guests_in_total": "",
+                "exclude_bots": "",
+                "exclude_bots_help": "",
+                "last_seen_interval": "",
+                "last_seen_interval_help": "",
+                "online_users_cache_ttl": "",
+                "show_discussions_count": "",
+                "show_posts_count": "",
+                "show_users_count": "",
+                "show_latest_registration": "",
+                "stats_cache_duration": "",
+                "stats_cache_duration_help": "",
+                "ignore_private_discussions": "",
+                "show_current_page": "",
+                "show_current_page_help": "",
+                "enable_heartbeat": "",
+                "enable_heartbeat_help": "",
+                "heartbeat_interval": "",
+                "heartbeat_interval_help": "",
+                "max_avatars": "",
+                "max_avatars_help": ""
+            },
+            "permissions": {
+                "view_online_users": "",
+                "view_discussions_count": "",
+                "view_posts_count": "",
+                "view_users_count": "",
+                "view_latest_registration": "",
+                "view_current_page": ""
+            }
+        }
+    }
+}

@@ -1,0 +1,80 @@
+{
+    "forumaker-statser": {
+        "forum": {
+            "widget": {
+                "online_users": "Online",
+                "online_users_count": "{count, plural, one {# user} other {# users}}",
+                "online_guests_count": "{count, plural, one {# guest} other {# guests}}",
+                "hidden_users_count": "{count, plural, one {# hidden} other {# hidden}}",
+                "total_users": "{count, plural, one {user} other {users}}",
+                "discussions": "{count, plural, one {discussion} other {discussions}}",
+                "posts": "{count, plural, one {post} other {posts}}",
+                "latest_registration": "newest user",
+                "online_label": "Online",
+                "guests_label": "Guests",
+                "hidden_label": "Hidden",
+                "empty_online": "No one online right now",
+                "viewing_unknown": "Browsing the forum",
+                "viewing_page": "Viewing {page}"
+            },
+            "routes": {
+                "index": "all discussions",
+                "discussion": "discussion \"{title}\"",
+                "tag": "tag \"{name}\"",
+                "user": "{name}'s profile",
+                "tags": "home",
+                "settings": "settings",
+                "notifications": "notifications",
+                "flags": "flags",
+                "search": "search",
+                "generic": "the forum"
+            },
+            "aria": {
+                "expand": "Show online users",
+                "collapse": "Hide online users"
+            }
+        },
+        "admin": {
+            "settings": {
+                "section_online": "Online",
+                "section_stats": "Forum counters",
+                "section_activity": "Activity",
+                "show_online_users": "Show online users",
+                "show_online_users_help": "Enables the Online block in the widget",
+                "show_online_guests": "Show guest counter",
+                "show_online_guests_help": "Approximate count of unauthenticated visitors based on IP+User-Agent fingerprint",
+                "show_hidden_users": "Show hidden users counter",
+                "show_hidden_users_help": "Number of hidden users without revealing their identity",
+                "include_guests_in_total": "Include guests in the online count",
+                "exclude_bots": "Exclude bots from guest counter",
+                "exclude_bots_help": "Prevents search engine crawlers from inflating the guest counter",
+                "last_seen_interval": "Online interval — in minutes",
+                "last_seen_interval_help": "Minutes of inactivity before a user is considered offline",
+                "online_users_cache_ttl": "Online users cache — in seconds",
+                "show_discussions_count": "Show discussions count",
+                "show_posts_count": "Show posts count",
+                "show_users_count": "Show total users count",
+                "show_latest_registration": "Show latest registration",
+                "stats_cache_duration": "Stats cache — in seconds",
+                "stats_cache_duration_help": "0 disables caching. Not recommended for large forums",
+                "ignore_private_discussions": "Exclude private discussions from the count",
+                "show_current_page": "Show currently viewed page on avatar hover",
+                "show_current_page_help": "Tracks main forum sections — discussions and profiles. Shows a generic label otherwise",
+                "enable_heartbeat": "Enable activity pulse",
+                "enable_heartbeat_help": "An open tab periodically sends a request that updates the user's active status",
+                "heartbeat_interval": "Activity pulse interval — in seconds",
+                "heartbeat_interval_help": "How often an active tab sends a presence ping. Lower values are more accurate but generate more background requests",
+                "max_avatars": "Max avatars in the widget",
+                "max_avatars_help": "How many avatars to show in the widget. The rest collapse into a \"+N\" counter"
+            },
+            "permissions": {
+                "view_online_users": "View online users in the widget",
+                "view_discussions_count": "View discussions count in the widget",
+                "view_posts_count": "View posts count in the widget",
+                "view_users_count": "View total users count in the widget",
+                "view_latest_registration": "View latest registration in the widget",
+                "view_current_page": "View browsed pages in the widget"
+            }
+        }
+    }
+}
