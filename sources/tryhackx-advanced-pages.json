@@ -3,7 +3,10 @@
         "admin": {
             "permissions": {
                 "manage_pages_label": "Manage Advanced Pages",
-                "view_spoilers_label": "View spoiler content"
+                "view_spoilers_label": "View spoiler content",
+                "create_text_label": "Create pages: Plain Text",
+                "create_bbcode_label": "Create pages: BBCode",
+                "create_markdown_label": "Create pages: Markdown"
             },
             "pages": {
                 "create_button": "Create Page",
@@ -19,7 +22,8 @@
                 "draft": "Draft",
                 "hidden": "Hidden",
                 "restricted": "Login Required",
-                "empty": "No pages have been created yet."
+                "empty": "No pages have been created yet.",
+                "drag_hint": "Drag to reorder — drop onto a page to nest it underneath"
             },
             "settings": {
                 "title": "BBCode Settings",
@@ -37,6 +41,9 @@
                 "edit_title": "Edit Page",
                 "title_label": "Title",
                 "slug_label": "URL Slug",
+                "parent_label": "Parent Page",
+                "parent_none": "— None (top level) —",
+                "parent_help": "Optional. Nest this page under another to build a hierarchy (e.g. /p/docs/getting-started). Choosing a parent suggests a matching slug — you can still edit it.",
                 "content_type_label": "Content Type",
                 "type_text": "Plain Text",
                 "content_label": "Content",
@@ -60,7 +67,11 @@
                 "newline_mode_label": "Newline Mode",
                 "newline_flarum": "Flarum (vanilla — multiple newlines = single break)",
                 "newline_preserve": "Preserve (respect all newlines)",
-                "php_warning": "PHP pages execute server-side code. Only create PHP pages if you understand the security implications. Errors are logged but never displayed to visitors."
+                "php_warning": "PHP pages execute server-side code. Only create PHP pages if you understand the security implications. Errors are logged but never displayed to visitors.",
+                "allow_scripts_label": "Allow script execution in this page",
+                "allow_scripts_help": "Off by default. When enabled, inline and external script tags in this page run in every visitor's browser. Only enable for pages you fully trust.",
+                "custom_breadcrumbs_css_label": "Custom breadcrumbs CSS?",
+                "custom_breadcrumbs_css_help": "Style (or hide) the breadcrumbs for this page and everything nested under it. Target .AdvancedPages-breadcrumbs — e.g. display:none to hide them entirely."
             },
             "support": {
                 "button": "Support Development",
@@ -71,6 +82,9 @@
             }
         },
         "forum": {
+            "spoiler": {
+                "locked": "You do not have permission to view spoiler content."
+            },
             "page": {
                 "loading": "Loading...",
                 "not_found_title": "Page Not Found",

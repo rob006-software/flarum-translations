@@ -3,7 +3,10 @@
         "admin": {
             "permissions": {
                 "manage_pages_label": "管理高级页面",
-                "view_spoilers_label": "查看剧透内容"
+                "view_spoilers_label": "查看剧透内容",
+                "create_text_label": "",
+                "create_bbcode_label": "",
+                "create_markdown_label": ""
             },
             "pages": {
                 "create_button": "创建页面",
@@ -19,7 +22,8 @@
                 "draft": "草稿",
                 "hidden": "隐藏",
                 "restricted": "受限",
-                "empty": "暂未创建页面。"
+                "empty": "暂未创建页面。",
+                "drag_hint": ""
             },
             "settings": {
                 "title": "高级页面设置",
@@ -37,6 +41,9 @@
                 "edit_title": "编辑页面",
                 "title_label": "页面标题",
                 "slug_label": "别名",
+                "parent_label": "",
+                "parent_none": "",
+                "parent_help": "",
                 "content_type_label": "内容类型",
                 "type_text": "富文本",
                 "content_label": "页面内容",
@@ -60,7 +67,11 @@
                 "newline_mode_label": "换行模式",
                 "newline_flarum": "Flarum 模式（两个换行为新段落）",
                 "newline_preserve": "保留换行",
-                "php_warning": "警告：页面内容中可以使用 PHP 代码，请谨慎操作。"
+                "php_warning": "警告：页面内容中可以使用 PHP 代码，请谨慎操作。",
+                "allow_scripts_label": "",
+                "allow_scripts_help": "",
+                "custom_breadcrumbs_css_label": "",
+                "custom_breadcrumbs_css_help": ""
             },
             "support": {
                 "button": "获取支持",
@@ -71,6 +82,9 @@
             }
         },
         "forum": {
+            "spoiler": {
+                "locked": ""
+            },
             "page": {
                 "loading": "加载中...",
                 "not_found_title": "页面不存在",

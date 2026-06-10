@@ -3,7 +3,10 @@
         "admin": {
             "permissions": {
                 "manage_pages_label": "Erweiterte Seiten verwalten",
-                "view_spoilers_label": "Spoilerinhalt anzeigen"
+                "view_spoilers_label": "Spoilerinhalt anzeigen",
+                "create_text_label": "",
+                "create_bbcode_label": "",
+                "create_markdown_label": ""
             },
             "pages": {
                 "create_button": "Seite erstellen",
@@ -19,7 +22,8 @@
                 "draft": "Entwurf",
                 "hidden": "Verborgen",
                 "restricted": "Anmeldung erforderlich",
-                "empty": "Es wurden noch keine Seiten erstellt."
+                "empty": "Es wurden noch keine Seiten erstellt.",
+                "drag_hint": ""
             },
             "settings": {
                 "title": "BBCode-Einstellungen",
@@ -37,6 +41,9 @@
                 "edit_title": "Seite bearbeiten",
                 "title_label": "Titel",
                 "slug_label": "URL-Slug",
+                "parent_label": "",
+                "parent_none": "",
+                "parent_help": "",
                 "content_type_label": "Inhaltstyp",
                 "type_text": "Nur Text",
                 "content_label": "Inhalt",
@@ -60,7 +67,11 @@
                 "newline_mode_label": "Zeilenumbruch-Modus",
                 "newline_flarum": "Flarum (Standardversion – mehrere Zeilenumbrüche = ein Zeilenumbruch)",
                 "newline_preserve": "Beibehalten (alle Zeilenumbrüche beibehalten)",
-                "php_warning": "PHP-Seiten führen serverseitigen Code aus. Erstelle PHP-Seiten nur, wenn du dir der damit verbundenen Sicherheitsrisiken bewusst bist. Fehler werden protokolliert, aber den Besuchern niemals angezeigt."
+                "php_warning": "PHP-Seiten führen serverseitigen Code aus. Erstelle PHP-Seiten nur, wenn du dir der damit verbundenen Sicherheitsrisiken bewusst bist. Fehler werden protokolliert, aber den Besuchern niemals angezeigt.",
+                "allow_scripts_label": "",
+                "allow_scripts_help": "",
+                "custom_breadcrumbs_css_label": "",
+                "custom_breadcrumbs_css_help": ""
             },
             "support": {
                 "button": "Unterstütze die Entwicklung",
@@ -71,6 +82,9 @@
             }
         },
         "forum": {
+            "spoiler": {
+                "locked": ""
+            },
             "page": {
                 "loading": "Wird geladen…",
                 "not_found_title": "Seite nicht gefunden",

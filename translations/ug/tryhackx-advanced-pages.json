@@ -3,7 +3,10 @@
         "admin": {
             "permissions": {
                 "manage_pages_label": "",
-                "view_spoilers_label": ""
+                "view_spoilers_label": "",
+                "create_text_label": "",
+                "create_bbcode_label": "",
+                "create_markdown_label": ""
             },
             "pages": {
                 "create_button": "",
@@ -19,7 +22,8 @@
                 "draft": "",
                 "hidden": "",
                 "restricted": "",
-                "empty": ""
+                "empty": "",
+                "drag_hint": ""
             },
             "settings": {
                 "title": "",
@@ -37,6 +41,9 @@
                 "edit_title": "",
                 "title_label": "",
                 "slug_label": "",
+                "parent_label": "",
+                "parent_none": "",
+                "parent_help": "",
                 "content_type_label": "",
                 "type_text": "",
                 "content_label": "",
@@ -60,7 +67,11 @@
                 "newline_mode_label": "",
                 "newline_flarum": "",
                 "newline_preserve": "",
-                "php_warning": ""
+                "php_warning": "",
+                "allow_scripts_label": "",
+                "allow_scripts_help": "",
+                "custom_breadcrumbs_css_label": "",
+                "custom_breadcrumbs_css_help": ""
             },
             "support": {
                 "button": "",
@@ -71,6 +82,9 @@
             }
         },
         "forum": {
+            "spoiler": {
+                "locked": ""
+            },
             "page": {
                 "loading": "",
                 "not_found_title": "",

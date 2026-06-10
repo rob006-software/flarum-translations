@@ -3,7 +3,10 @@
         "admin": {
             "permissions": {
                 "manage_pages_label": "Управление расширенными страницами",
-                "view_spoilers_label": "Смотреть скрытый контент"
+                "view_spoilers_label": "Смотреть скрытый контент",
+                "create_text_label": "",
+                "create_bbcode_label": "",
+                "create_markdown_label": ""
             },
             "pages": {
                 "create_button": "Создать страницу",
@@ -19,7 +22,8 @@
                 "draft": "Черновик",
                 "hidden": "Скрыто",
                 "restricted": "Требуется вход",
-                "empty": "Пока нет ни одной страницы."
+                "empty": "Пока нет ни одной страницы.",
+                "drag_hint": ""
             },
             "settings": {
                 "title": "Настройки BBCode",
@@ -37,6 +41,9 @@
                 "edit_title": "Править страницу",
                 "title_label": "Заголовок",
                 "slug_label": "URL-идентификатор",
+                "parent_label": "",
+                "parent_none": "",
+                "parent_help": "",
                 "content_type_label": "Тип содержимого",
                 "type_text": "Обычный текст",
                 "content_label": "Содержимое",
@@ -60,7 +67,11 @@
                 "newline_mode_label": "Режим переноса строк",
                 "newline_flarum": "Flarum — по умолчанию: несколько переносов = один",
                 "newline_preserve": "Сохранять — учитывать все переносы строк",
-                "php_warning": "PHP-страницы выполняют код на сервере. Создавайте их только при понимании рисков безопасности. Ошибки записываются в логи и не отображаются пользователям."
+                "php_warning": "PHP-страницы выполняют код на сервере. Создавайте их только при понимании рисков безопасности. Ошибки записываются в логи и не отображаются пользователям.",
+                "allow_scripts_label": "",
+                "allow_scripts_help": "",
+                "custom_breadcrumbs_css_label": "",
+                "custom_breadcrumbs_css_help": ""
             },
             "support": {
                 "button": "Поддержать разработку",
@@ -71,6 +82,9 @@
             }
         },
         "forum": {
+            "spoiler": {
+                "locked": ""
+            },
             "page": {
                 "loading": "Загрузка…",
                 "not_found_title": "Страница не найдена",
