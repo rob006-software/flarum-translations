@@ -820,7 +820,8 @@
                         "cancel_button": "d41d8cd98f00b204e9800998ecf8427e f7c41ff9d4227cccd24d006bff475ec7"
                     },
                     "rename_modal": {
-                        "cancel_button": "d41d8cd98f00b204e9800998ecf8427e f7c41ff9d4227cccd24d006bff475ec7"
+                        "cancel_button": "d41d8cd98f00b204e9800998ecf8427e f7c41ff9d4227cccd24d006bff475ec7",
+                        "save_button": "d41d8cd98f00b204e9800998ecf8427e b128f5d9cb47f0712ea8651eafc259ab"
                     },
                     "revoke_modal": {
                         "cancel_button": "d41d8cd98f00b204e9800998ecf8427e f7c41ff9d4227cccd24d006bff475ec7"
@@ -2665,6 +2666,17 @@
             }
         }
     },
+    "fof-seo.json": {
+        "fof-seo": {
+            "forum": {
+                "meta_seo": {
+                    "close": {
+                        "save": "d41d8cd98f00b204e9800998ecf8427e b128f5d9cb47f0712ea8651eafc259ab"
+                    }
+                }
+            }
+        }
+    },
     "fof-share-social.json": {
         "fof-share-social": {
             "forum": {
@@ -3175,7 +3187,8 @@
         "tryhackx-magnet-link": {
             "forum": {
                 "rename": {
-                    "cancel": "d41d8cd98f00b204e9800998ecf8427e f7c41ff9d4227cccd24d006bff475ec7"
+                    "cancel": "d41d8cd98f00b204e9800998ecf8427e f7c41ff9d4227cccd24d006bff475ec7",
+                    "save": "d41d8cd98f00b204e9800998ecf8427e b128f5d9cb47f0712ea8651eafc259ab"
                 }
             }
         }
@@ -3221,6 +3234,15 @@
             "required_without_all": "f64226f96103bc5d95659bd530f78caf f64226f96103bc5d95659bd530f78caf",
             "unique": "e383693d4530696db00064afedfb4f03 e383693d4530696db00064afedfb4f03",
             "uploaded": "55521bdba7be8627084e66e9555aae1f 55521bdba7be8627084e66e9555aae1f"
+        }
+    },
+    "walsgit-discussion-cards.json": {
+        "walsgit_discussion_cards": {
+            "admin": {
+                "tag_modal": {
+                    "submit_button": "d41d8cd98f00b204e9800998ecf8427e b128f5d9cb47f0712ea8651eafc259ab"
+                }
+            }
         }
     },
     "walsgit-recycle-bin.json": {
