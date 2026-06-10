@@ -2,20 +2,20 @@
     "forumaker-bento": {
         "admin": {
             "settings": {
-                "section_layout": "",
-                "layout": "",
-                "layout_help": "",
-                "layout_tiles": "",
-                "layout_pills": "",
-                "pill_shape": "",
-                "pill_shape_help": "",
-                "pill_shape_capsule": "",
-                "pill_shape_rect": "",
-                "section_grid": "Kacheln",
-                "columns_desktop": "Anzahl der Kacheln pro Reihe",
-                "columns_desktop_help": "Zwischen 2 und 6 Kacheln pro Reihe auf Desktop. Die Mobilversion verwendet weiterhin die Flarum-Standardnavigation.",
+                "section_layout": "Erscheinungsbild",
+                "layout": "Navigationsart",
+                "layout_help": "Kacheln: Karten mit Symbol und Beschriftung. Pillen: kompakte Inline-Elemente",
+                "layout_tiles": "Kacheln",
+                "layout_pills": "Pillen",
+                "pill_shape": "Form",
+                "pill_shape_help": "Kapsel: vollständig abgerundete Kanten. Rechteck: entspricht eher dem Standard-Flarum-Stil",
+                "pill_shape_capsule": "Kapsel",
+                "pill_shape_rect": "Rechteck",
+                "section_grid": "Einstellungen",
+                "columns_desktop": "Elemente pro Reihe",
+                "columns_desktop_help": "Zwischen 2 und 6 pro Reihe auf Desktop. Die Mobilversion verwendet weiterhin die Flarum-Standardnavigation.",
                 "plain_create_button": "Füllung von der Schaltfläche „Neue Diskussion“ entfernen",
-                "plain_create_button_help": "Visuell den Nachbarkacheln angleichen — kein farbiger Hintergrund"
+                "plain_create_button_help": "Visuell den Nachbarelementen angleichen — kein farbiger Hintergrund"
             }
         }
     }
