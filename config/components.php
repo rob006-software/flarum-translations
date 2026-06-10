@@ -758,6 +758,9 @@ return [
 			'pl',
 		],
 	],
+	'v17development-seo' => [
+		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/seo/4.0.0-beta.2/locale/en.yml',
+	],
 	'vlssu-cravatar' => [
 		'tag' => 'https://raw.githubusercontent.com/vlssu/flarum-cravatar/v0.3.0/resources/locale/en.yml',
 		'__builtInLanguages' => [
