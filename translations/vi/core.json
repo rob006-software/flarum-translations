@@ -238,6 +238,10 @@
                 "section_disabled_help": "",
                 "suggested_by": ""
             },
+            "database-driver-mismatch-warning": {
+                "detail": "",
+                "label": ""
+            },
             "debug-warning": {
                 "detail": "Khi chế độ <code>debug</code> được bật, Flarum sẽ xây dựng lại code <code>JavaScript</code> và <code>CSS</code> mỗi lượt request và cũng có thể làm rò rỉ thông tin khác, chẳng hạn như cơ sở dữ liệu bí mật, biến môi trường, v.v.\n\nBạn rất nên tắt <code>debug</code> trong tệp <code>config.php</code> của mình khi sử dụng chính thức. Xem <link>Flarum docs</link> để biết thêm thông tin.\n",
                 "label": "Chế độ gỡ lỗi đang hoạt động"

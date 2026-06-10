@@ -238,6 +238,10 @@
                 "section_disabled_help": "",
                 "suggested_by": ""
             },
+            "database-driver-mismatch-warning": {
+                "detail": "",
+                "label": ""
+            },
             "debug-warning": {
                 "detail": "<code>debug</code> 모드가 활성화되어 있을 때, Flarum은 매 요청마다 자신의 <code>JavaScript</code> 및 <code>CSS</code> 자산을 다시 빌드하고 데이터베이스 비밀번호, 환경 변수 등과 같은 다른 정보가 노출될 수도 있습니다.\n\n운영 환경에서는 <code>config.php</code> 파일에서 <code>debug</code>를 비활성화하는 것이 매우 권장됩니다. 자세한 내용은 <link>Flarum 문서</link>를 참조하세요.\n",
                 "label": "디버그 모드 활성화"

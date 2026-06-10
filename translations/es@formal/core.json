@@ -238,6 +238,10 @@
                 "section_disabled_help": "Estas extensiones están instaladas pero no están habilitadas. Habilítelas desde su página de configuración o elimínelas si ya no las necesita.",
                 "suggested_by": "Sugerido por {extension}"
             },
+            "database-driver-mismatch-warning": {
+                "detail": "",
+                "label": ""
+            },
             "debug-warning": {
                 "detail": "Cuando el modo <code>debug</code> está activo, Flarum reconstruirá sus archivos <code>JavaScript</code> y <code>CSS</code> en cada solicitud, y también podría filtrar potencialmente otra información, como secretos de la base de datos, variables de entorno, etc.\n\nSe recomienda encarecidamente deshabilitar <code>debug</code> en su archivo <code>config.php</code> en producción. Consulte <link>Documentos de Flarum</link> para obtener más información.\n",
                 "label": "Modo de depuración activo"

@@ -238,6 +238,10 @@
                 "section_disabled_help": "",
                 "suggested_by": ""
             },
+            "database-driver-mismatch-warning": {
+                "detail": "",
+                "label": ""
+            },
             "debug-warning": {
                 "detail": "Když je aktivní režim <code>ladění</code>, Flarum při každém požadavku znovu sestaví své prostředky <code>JavaScriptu</code> a <code>CSS</code> a případně může dojít k úniku dalších informací, jako jsou tajné údaje databáze, proměnné prostředí atd.\n\nV produkčním prostředí důrazně doporučujeme zakázat <code>ladění</code> v souboru <code>config.php</code>. Další informace najdete v <link>dokumentaci k Flarum</link>.\n",
                 "label": "Režim ladění je aktivní"

@@ -238,6 +238,10 @@
                 "section_disabled_help": "",
                 "suggested_by": ""
             },
+            "database-driver-mismatch-warning": {
+                "detail": "",
+                "label": ""
+            },
             "debug-warning": {
                 "detail": "<code>debug</code> modu etkin olduğunda, Flarum her istekte <code>JavaScript</code> ve <code>CSS</code> varlıklarını yeniden oluşturur ve ayrıca veritabanı gibi diğer bilgileri de (Secret, ortam değişkenleri vb.) sızdırabilir.\n\nYayındayken <code>config.php</code> dosyanızdaki <code>debug</code>'u devre dışı bırakmanız şiddetle tavsiye edilir. Daha fazla bilgi için <link>Flarum belgelerine</link> bakın.\n",
                 "label": "Hata ayıklama modu etkin"

@@ -238,6 +238,10 @@
                 "section_disabled_help": "Aceste extensii sunt instalate, dar nu sunt activate în prezent. Activați-le din pagina lor de setări sau eliminați-le dacă nu mai sunt necesare.",
                 "suggested_by": "Sugerat de {extension}"
             },
+            "database-driver-mismatch-warning": {
+                "detail": "",
+                "label": ""
+            },
             "debug-warning": {
                 "detail": "Atunci când modul <code>debug</code> este activ, Flarum își va reconstruii fișierele <code>JavaScript</code> și <code>CSS</code> la fiecare cerere, și ar putea probabil să scurgă și alte informații, cum ar fi secrete ale bazei de date, variabile de mediu, etc.\n\nEste foarte recomandat să dezactivezi <code>debug</code> din fișierul tău <code>config.php</code> în modul producție. Vezi <link>documentația Flarum</link> pentru mai multe informații.\n",
                 "label": "Modul Debug este activ"

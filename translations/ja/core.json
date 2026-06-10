@@ -238,6 +238,10 @@
                 "section_disabled_help": "",
                 "suggested_by": ""
             },
+            "database-driver-mismatch-warning": {
+                "detail": "",
+                "label": ""
+            },
             "debug-warning": {
                 "detail": "When <code>デバッグ</code>モードが有効化されている場合、Flarumは<code>JavaScript</code> と <code>CSS</code> のリビルドをリクエスト毎に実行します。また、データベースシークレットや環境変数などのデータが漏洩する可能性があります。\n\n運用環境においては、<code>config.php</code>を開いて<code>debug</code>を無効化することを強く推奨します。詳細は<link>Flarum docs</link>をご確認ください。\n",
                 "label": "デバッグモードが有効"

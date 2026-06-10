@@ -238,6 +238,10 @@
                 "section_disabled_help": "",
                 "suggested_by": ""
             },
+            "database-driver-mismatch-warning": {
+                "detail": "",
+                "label": ""
+            },
             "debug-warning": {
                 "detail": "Quan el mode <code>debug</code> estigui actiu, el fòrum reconstruirà els seus arxius <code>JavaScript</code> i <code>CSS</code> a cada sol·licitud, i també podria filtrar altra informació, com ara la base de dades. secrets, variables d'entorn, etc.\n\nÉs molt recomanable desactivar <code>debug</code> al fitxer <code>config.php</code> en producció. Consulta <link>Flarum docs</link> per obtenir més informació.\n",
                 "label": "Mode de depuració actiu"

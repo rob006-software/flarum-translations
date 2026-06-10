@@ -238,6 +238,10 @@
                 "section_disabled_help": "Diese Erweiterungen sind installiert, aber derzeit nicht aktiviert. Aktiviere sie über die jeweilige Einstellungsseite oder entferne sie, wenn sie nicht mehr benötigt werden.",
                 "suggested_by": "Vorgeschlagen von {extension}"
             },
+            "database-driver-mismatch-warning": {
+                "detail": "",
+                "label": ""
+            },
             "debug-warning": {
                 "detail": "Sofern der <code>Debugmodus</code> aktiv ist, wird Flarum seine <code>JavaScript</code> und <code>CSS</code> Ressourcen bei jedem Seitenabruf neu generieren und könnte zudem potenziell weitere Informationen preisgeben, etwa Datenbankgeheimnisse, Umgebungsvariablen usw.\n\nEs wird dringendst empfohlen, den <code>debug</code> in Ihrer <code>config.php</code> Datei in einem Produktionskontext zu deaktivieren. Konsultieren Sie bitte die <link>Flarum Dokumentation</link> für zusätzliche Informationen.\n",
                 "label": "Debugmodus aktiv"

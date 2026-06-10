@@ -238,6 +238,10 @@
                 "section_disabled_help": "",
                 "suggested_by": ""
             },
+            "database-driver-mismatch-warning": {
+                "detail": "",
+                "label": ""
+            },
             "debug-warning": {
                 "detail": "যখন <code>debug</code> মোড সক্রিয় থাকে, তখন Flarum প্রতিটি অনুরোধে তার <code>JavaScript</code> এবং <code>CSS</code> অ্যাসেটগুলো পুনর্নির্মাণ করে। এছাড়াও, এটি ডেটাবেসের গোপনীয় তথ্য, পরিবেশ ভেরিয়েবল ইত্যাদি মতো সংবেদনশীল তথ্য ফাঁস করতে পারে।\n\nসুরক্ষা এবং কার্যকারিতার জন্য, প্রোডাকশন পরিবেশে <code>debug</code> মোডটি <code>config.php</code> ফাইলে নিষ্ক্রিয় করার পরামর্শ দেওয়া হচ্ছে। আরও বিস্তারিত নির্দেশনার জন্য <link>Flarum ডকুমেন্টেশন</link> দেখুন।\n",
                 "label": "ডিবাগ মোড সক্রিয়"

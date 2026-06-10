@@ -238,6 +238,10 @@
                 "section_disabled_help": "",
                 "suggested_by": ""
             },
+            "database-driver-mismatch-warning": {
+                "detail": "",
+                "label": ""
+            },
             "debug-warning": {
                 "detail": "Коли включено режим <code>debug</code>, Flarum буде перебудовувати свої <code>JavaScript</code> і <code>CSS</code> ресурси при кожному запиті, а також може потенційно витікати інша інформація, така як секрети бази даних, змінні середовища і т.д.\n\nНастійно рекомендується відключити <code>debug</code> у вашому файлі <code>config.php</code> у виробництві. Для отримання додаткової інформації див. <link>Документація Flarum</link>.\n",
                 "label": "Режим налагодження активовано"

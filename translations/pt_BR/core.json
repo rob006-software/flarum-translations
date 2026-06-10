@@ -238,6 +238,10 @@
                 "section_disabled_help": "",
                 "suggested_by": ""
             },
+            "database-driver-mismatch-warning": {
+                "detail": "",
+                "label": ""
+            },
             "debug-warning": {
                 "detail": "Quando o modo <code>debug</code> estiver ativo, o Flarum reconstruirá seus ativos <code>JavaScript</code> e <code>CSS</code> em cada solicitação e também poderá vazar outras informações, como banco de dados, variáveis de ambiente, etc.\n\nÉ altamente recomendado desabilitar <code>debug</code> em seu arquivo <code>config.php</code> em produção. Consulte a <link>Documentação do Flarum</link> para obter mais informações.\n",
                 "label": "Modo Debug ativo"

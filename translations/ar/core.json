@@ -238,6 +238,10 @@
                 "section_disabled_help": "",
                 "suggested_by": ""
             },
+            "database-driver-mismatch-warning": {
+                "detail": "",
+                "label": ""
+            },
             "debug-warning": {
                 "detail": "عندما يكون وضع <code>التّصحيح</code> نشطًا، سيعيد فلاروم إنشاء أصول <code>JavaScript</code> و<code>CSS</code> الخاصّة به عند كل طلب، ويمكن أيضًا أن يؤدّي إلى تسريب معلومات أخرى، مثل أسرار قاعدة البيانات، ومتغيّرات البيئة، وما إلى ذلك.\n\nيوصَى بشدّة بتعطيل <code>التصحيح</code> في ملف <code>config.php</code> في الإنتاج. انظر <link>مستندات فلاروم</link> لمزيد من المعلومات.\n",
                 "label": "وضعُ التّصحيح نشطٌ"

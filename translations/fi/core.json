@@ -238,6 +238,10 @@
                 "section_disabled_help": "Nämä lisäosat on asennettu, mutta ne eivät ole tällä hetkellä käytössä. Ota ne käyttöön asetussivulta tai poista ne, jos niitä ei enää tarvita.",
                 "suggested_by": "Ehdotti {extension}"
             },
+            "database-driver-mismatch-warning": {
+                "detail": "",
+                "label": ""
+            },
             "debug-warning": {
                 "detail": "Kun <code>debug</code> tila on aktiivisena Flarum luo uudelleen sen <code>JavaScript</code> ja <code>CSS</code> koodit joka pyynnöllä ja voi mahdollisesti vuotaa joitain tietoja kuten tietokanta salaisuuksia, ympäristön määreitä yms.\n\nSuosittelemme, että otat <code>debug</code> tilan pois päältä <code>config.php</code> tiedostosta tuotannossa. Katso <link>Flarumin dokumentoinnista</link> lisää tietoa.\n",
                 "label": "Debug tila aktiivisena"

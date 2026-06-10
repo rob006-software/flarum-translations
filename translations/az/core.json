@@ -238,6 +238,10 @@
                 "section_disabled_help": "",
                 "suggested_by": ""
             },
+            "database-driver-mismatch-warning": {
+                "detail": "",
+                "label": ""
+            },
             "debug-warning": {
                 "detail": "<code>debug</code> rejimi aktiv olduqda, Flarum hər sorğuda öz <code>JavaScript</code> və <code>CSS</code> varlıqlarını bərpa edəcək və həmçinin potensial olaraq verilənlər bazası sirləri, mühit dəyişənləri və s. kimi məlumatları sızdıra bilər.\n\nİstehsalda olan <code>config.php</code> faylınızda <code>debug</code>-u deaktiv etmək böyük ölçüdə tövsiyə olunur. Ətraflı məlumat üçün <link>Flarum docs</link>-ə baxın.\n",
                 "label": "Sazlama (Debug) rejimi aktivdir"

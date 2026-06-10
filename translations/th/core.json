@@ -238,6 +238,10 @@
                 "section_disabled_help": "",
                 "suggested_by": ""
             },
+            "database-driver-mismatch-warning": {
+                "detail": "",
+                "label": ""
+            },
             "debug-warning": {
                 "detail": "เมื่อโหมด <code>debug</code> ทำงานอยู่ Flarum จะสร้างทรัพยากร <code>JavaScript</code> และ <code>CSS</code> ใหม่ทุกครั้งที่มีการร้องขอ และข้อมูลอื่น ๆ อาจรั่วไหลได้ เช่น ความลับของฐานข้อมูล ตัวแปรสภาพแวดล้อม เป็นต้น\n\nขอแนะนำอย่างยิ่งให้ปิดใช้งาน <code>debug</code> ในไฟล์ <code>config.php</code> ของคุณในการใช้งานจริง ดู <link>เอกสารของ Flarum</link> เพื่อดูข้อมูลเพิ่มเติม\n",
                 "label": "ใช้งานโหมดดีบั๊ก"

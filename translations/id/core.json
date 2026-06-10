@@ -238,6 +238,10 @@
                 "section_disabled_help": "Ekstensi ini telah diinstal tetapi saat ini tidak diaktifkan. Aktifkan dari halaman pengaturannya, atau hapus jika tidak lagi diperlukan.",
                 "suggested_by": "Disarankan oleh {extension}"
             },
+            "database-driver-mismatch-warning": {
+                "detail": "",
+                "label": ""
+            },
             "debug-warning": {
                 "detail": "Saat mode <code>debug</code> aktif, Flarum akan membangun kembali aset <code>JavaScript</code> dan <code>CSS</code> pada setiap request yang dijalankan, dan juga berpotensi membocorkan informasi lain, seperti rahasia di dalam database, environment variable, dll.\n\nKetika Anda siap untuk masuk ke dalam tahap produksi, sangat disarankan untuk menonaktifkan <code>debug</code> pada file <code>config.php</code> Anda. Lihat <link>Flarum docs</link> untuk informasi lebih lanjut.\n",
                 "label": "Mode debug aktif"

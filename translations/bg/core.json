@@ -238,6 +238,10 @@
                 "section_disabled_help": "",
                 "suggested_by": ""
             },
+            "database-driver-mismatch-warning": {
+                "detail": "",
+                "label": ""
+            },
             "debug-warning": {
                 "detail": "Когато режимът <code>debug</code> е активен, Flarum ще престроява своите <code>JavaScript</code> и <code>CSS</code> ресурси при всеки заявка и може да изтекат друга информация, като например базови пароли, променливи на средата и др.\n\nПрепоръчва се да деактивирате <code>debug</code> във вашия файл <code>config.php</code> в прод средата. Вижте <link>Flarum документацията</link> за повече информация.\n",
                 "label": "Режимът за отстраняване на грешки е активен"

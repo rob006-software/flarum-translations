@@ -238,6 +238,10 @@
                 "section_disabled_help": "",
                 "suggested_by": ""
             },
+            "database-driver-mismatch-warning": {
+                "detail": "",
+                "label": ""
+            },
             "debug-warning": {
                 "detail": "जब <code>डिबग </code> मोड सक्रिय होता है, तो Flarum प्रत्येक अनुरोध पर अपनी <code>JavaScript</code> और <code>CSS</code> संपत्तियों का पुनर्निर्माण करेगा, और इसके परिणाम स्वरुप अन्य जानकारी भी लीक कर सकता है जैसे की डेटाबेस की गोपनीय जानकारी, एनवायरनमेंट वेरिएबल, आदि।\n\nउत्पादन में आपकी <code>config.php</code> फ़ाइल में <code>debug</code> को अक्षम करने की अत्यधिक अनुशंसा की जाती है। अधिक जानकारी के लिए <link>Flarum docs</link> देखें।\n",
                 "label": "डिबग मोड सक्रिय"

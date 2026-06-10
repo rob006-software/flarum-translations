@@ -238,6 +238,10 @@
                 "section_disabled_help": "",
                 "suggested_by": ""
             },
+            "database-driver-mismatch-warning": {
+                "detail": "",
+                "label": ""
+            },
             "debug-warning": {
                 "detail": "Kad ir aktīvs <code>atkļūdošanas</code> režīms, Flarum pēc katra pieprasījuma atjaunos savus <code>JavaScript</code> un <code>CSS</code> līdzekļus, kā arī, iespējams, noplūdīs citu informāciju, piemēram, datu bāzi. noslēpumi, vides mainīgie utt.\n\nĻoti ieteicams produkcijas failā <code>config.php</code> atspējot <code>debug</code>. Papildinformāciju skatiet sadaļā <link>Flarum dokumenti</link>.\n",
                 "label": "Atkļūdošanas režīms ir aktīvs"

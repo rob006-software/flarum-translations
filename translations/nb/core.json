@@ -238,6 +238,10 @@
                 "section_disabled_help": "",
                 "suggested_by": ""
             },
+            "database-driver-mismatch-warning": {
+                "detail": "",
+                "label": ""
+            },
             "debug-warning": {
                 "detail": "Når <code>debug</code>-modus er aktivert vil Flarum bygge <code>JavaScript</code> og <code>CSS</code> på nytt for hver eneste forespørsel, og kan potensielt også lekke annen informasjon slik som databasehemmeligheter, miljøvariabler, ol.\n\nDet er høyst anbefalt å deaktivere <code>debug</code> i din <code>config.php</code>-fil i produksjonsmiljø. See <link>Flarums dokumentasjon</link> for mer informasjon.\n",
                 "label": "Debug-modus aktivert"

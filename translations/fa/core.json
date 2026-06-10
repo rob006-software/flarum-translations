@@ -238,6 +238,10 @@
                 "section_disabled_help": "",
                 "suggested_by": ""
             },
+            "database-driver-mismatch-warning": {
+                "detail": "",
+                "label": ""
+            },
             "debug-warning": {
                 "detail": "وقتی حالت <code>اشکال‌زدایی</code> فعال است، Flarum دارایی‌های <code>JavaScript</code> و <code>CSS</code> خود را در هر درخواست بازسازی می‌کند، و همچنین ممکن است اطلاعات دیگری مانند پایگاه داده را به بیرون درز کند. اسرار، متغیرهای محیطی و غیره\n\nبه شدت توصیه می شود که <code>debug</code> را در فایل <code>config.php</code> خود در حال تولید غیرفعال کنید. برای اطلاعات بیشتر به <link>اسناد فلاروم</link> مراجعه کنید.\n",
                 "label": "حالت اشکال‌زدایی فعال است"

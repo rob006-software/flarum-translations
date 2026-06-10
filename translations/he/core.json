@@ -238,6 +238,10 @@
                 "section_disabled_help": "",
                 "suggested_by": ""
             },
+            "database-driver-mismatch-warning": {
+                "detail": "",
+                "label": ""
+            },
             "debug-warning": {
                 "detail": "כשמצב <code>debug</code> מופעל, Flarum יבנה מחדש את <code>JavaScript</code> ואת ה<code>CSS</code> לכל בקשה, וזה ככל הנראה יגרום לזליגת מידע אחר כגון, סודות של מסד הנתונים, משתני מערכת ועוד.\nמומלץ בחום לבטל את מצב ה<code>debug</code> בקובץ <code>config.php</code> כשהפורום ציבורי. ראו <link>Flarum docs</link> למידע נוסף.\n",
                 "label": "מצב debug מופעל"

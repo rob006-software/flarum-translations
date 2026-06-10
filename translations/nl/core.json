@@ -238,6 +238,10 @@
                 "section_disabled_help": "Deze extensies zijn geïnstalleerd maar momenteel niet ingeschakeld. Schakel ze in via hun instellingenpagina, of verwijder ze als ze niet meer nodig zijn.",
                 "suggested_by": "Voorgesteld door {extension}"
             },
+            "database-driver-mismatch-warning": {
+                "detail": "",
+                "label": ""
+            },
             "debug-warning": {
                 "detail": "Wanneer de <code>debug</code>-modus actief is, zal Flarum zijn <code>JavaScript</code>- en <code>CSS</code>-assets bij elk verzoek opnieuw opbouwen en kan mogelijk ook andere informatie lekken, zoals database geheimen, omgevingsvariabelen, enz.\n\nHet wordt ten sterkste aanbevolen om <code>debug</code> uit te schakelen in uw <code>config.php</code>-bestand in productie. Zie <link>Flarum-documenten</link> voor meer informatie.\n",
                 "label": "Debug modus actief"

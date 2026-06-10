@@ -238,6 +238,10 @@
                 "section_disabled_help": "这些扩展已安装但当前未启用。请从其设置页面启用它们，或者如果不再需要则将其删除。",
                 "suggested_by": "由 {extension} 建议"
             },
+            "database-driver-mismatch-warning": {
+                "detail": "",
+                "label": ""
+            },
             "debug-warning": {
                 "detail": "当 <code>debug</code> 模式处于启用状态时，Flarum 会在每次请求时重新构建其 <code>JavaScript</code> 和 <code>CSS</code> 资源，并且可能导致其他敏感信息的泄露，例如数据库密钥、环境变量等。\n\n强烈建议在生产环境中修改您的 <code>config.php</code> 文件以禁用 <code>debug</code> 模式。欲了解更多信息，请参阅 <link>Flarum 文档</link>。\n",
                 "label": "调试模式已激活"

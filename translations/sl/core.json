@@ -238,6 +238,10 @@
                 "section_disabled_help": "",
                 "suggested_by": ""
             },
+            "database-driver-mismatch-warning": {
+                "detail": "",
+                "label": ""
+            },
             "debug-warning": {
                 "detail": "Ko je <code>debug</code> način aktiven, bo Flarum ob vsaki zahtevi znova sestavil svoje <code>JavaScript</code> in <code>CSS</code> vire ter lahko tudi po nesreči razkril druge podatke, kot so skrivnosti baze podatkov, okoljske spremenljivke itd.\n\nMočno priporočamo, da onemogočite <code>debug</code> v vaši datoteki <code>config.php</code> v produkciji. Za več informacij si oglejte <link>flarum docs</link>.\n",
                 "label": "Debug način aktiven"

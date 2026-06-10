@@ -238,6 +238,10 @@
                 "section_disabled_help": "",
                 "suggested_by": ""
             },
+            "database-driver-mismatch-warning": {
+                "detail": "",
+                "label": ""
+            },
             "debug-warning": {
                 "detail": "Kui <code>silumisrežiim</code> on aktiivne, siis Flarum taasloob <code>Javascripti</code> ja <code>CSS</code> failid igal päringul ning võib potensiaalselt lekkida muud tundlikku informatsiooni - nagu näiteks salastatud andmed andmebaasis, keskkonnamuutujad jne.\n\nRangelt soovituslik on toodangukeskkonnas <code>silumisrežiim</code> välja lülitada <code>config.php</code> konfiguratsioonifailist. Lisainformatsiooni leiab <link>Flarumi dokumentatsioonist</link>.\n",
                 "label": "Silumisrežiim on aktiivne"

@@ -238,6 +238,10 @@
                 "section_disabled_help": "",
                 "suggested_by": ""
             },
+            "database-driver-mismatch-warning": {
+                "detail": "",
+                "label": ""
+            },
             "debug-warning": {
                 "detail": "Keď je aktívny režim <code>debug</code>, Flarum pri každej požiadavke obnoví svoje prostriedky <code>JavaScript</code> a <code>CSS</code> a môže potenciálne vypustiť aj iné informácie, ako sú secrety databázy, premenné prostredia atď.\n\nDôrazne sa odporúča vypnúť <code>debug</code> v súbore <code>config.php</code> v produkčnom prostredí. Viac informácií nájdete v <link>dokumentácií k programu Flarum</link>.\n",
                 "label": "Debug režim aktivovaný"

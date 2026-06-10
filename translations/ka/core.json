@@ -238,6 +238,10 @@
                 "section_disabled_help": "",
                 "suggested_by": ""
             },
+            "database-driver-mismatch-warning": {
+                "detail": "",
+                "label": ""
+            },
             "debug-warning": {
                 "detail": "როდესაც <code>debug</code> რეჟიმი არის აქტიური, ფლარუმი აღადგენს თავის <code>JavaScript</code> და <code>CSS</code> ასეტს ყოველ მოთხოვნაზე და შეიძლება პოტენციურად გასცეს სხვა ინფორმაცია, როგორიცაა მონაცემთა ბაზის საიდუმლოები, env ცვლადები და ა. შ.\n\nრეკომენდირებულია, რომ გამორთოთ <code>debug</code> თქვენს<code>config.php</code> ფაილში. იხილეთ ფლარუმის დოკუმენტაცია</link> მეტი ინფორმაციისთვის.\n",
                 "label": "დებაგ რეჟიმი აქტიურია"
