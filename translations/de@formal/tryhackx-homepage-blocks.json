@@ -1,7 +1,6 @@
 {
     "tryhackx-homepage-blocks": {
         "admin": {
-            "section_general": "Allgemein",
             "section_random": "Zufällige Filme",
             "section_tracker": "Tracker-Informationen",
             "section_stats": "Tracker-Statistiken",
@@ -35,6 +34,20 @@
                 "external_stats_refresh_help": "Wie oft die Statistiken des externen Trackers aktualisiert werden sollen. Standard: 5 Sekunden.",
                 "custom_links": "Benutzerdefinierte Links (JSON)",
                 "custom_links_help": "JSON-Array mit den Eigenschaften „label“, „url“, „color“ und „external“. Entnimm das Format bitte dem Platzhalter.",
+                "custom_links_title": "",
+                "custom_links_title_help": "",
+                "custom_links_name": "",
+                "custom_links_url": "",
+                "custom_links_color": "",
+                "custom_links_newtab": "",
+                "custom_links_add": "",
+                "custom_links_remove": "",
+                "custom_links_move_up": "",
+                "custom_links_move_down": "",
+                "custom_links_class": "",
+                "custom_links_class_placeholder": "",
+                "custom_links_css": "",
+                "custom_links_css_help": "",
                 "recaptcha_enabled": "reCAPTCHA aktivieren",
                 "recaptcha_version": "reCAPTCHA-Version",
                 "recaptcha_site_key": "reCAPTCHA-Seitenschlüssel",
@@ -61,8 +74,17 @@
                 "recaptcha_points_guest_extra_help": "Wird zu den Kosten jeder Aktion für nicht angemeldete Besucher addiert. Standard: +2",
                 "recaptcha_points_cost_random": "Kosten — Zufällige Schaltfläche",
                 "recaptcha_points_cost_search": "Kosten — Suche / Filter",
-                "recaptcha_points_cost_stats": "Kosten — Interne Statistiken",
-                "recaptcha_points_cost_external_stats": "Kosten — Externe Statistiken",
+                "recaptcha_points_enforcement": "",
+                "recaptcha_points_enforcement_captcha": "",
+                "recaptcha_points_enforcement_block": "",
+                "recaptcha_points_enforcement_help": "",
+                "recaptcha_points_block_seconds": "",
+                "recaptcha_points_block_seconds_help": "",
+                "recaptcha_points_block_reset": "",
+                "recaptcha_points_block_reset_full": "",
+                "recaptcha_points_block_reset_empty": "",
+                "recaptcha_points_block_reset_help": "",
+                "points_costs_header": "",
                 "title_length_enabled": "Änderung der Titellänge aktivieren",
                 "title_min_length": "Mindestlänge des Titels",
                 "title_max_length": "Maximallänge des Titels",
@@ -77,7 +99,9 @@
                 "category_label": "Benutzerdefinierte Bezeichnung für den Kategorie-Filter",
                 "category_label_help": "Lasse das Feld leer, um die Standardübersetzung zu verwenden.",
                 "resolution_label": "Benutzerdefinierte Beschriftung für Auflösungsfilter",
-                "resolution_label_help": "Lasse das Feld leer, um die Standardübersetzung zu verwenden."
+                "resolution_label_help": "Lasse das Feld leer, um die Standardübersetzung zu verwenden.",
+                "recaptcha_points_cost_stats": "Kosten — Interne Statistiken",
+                "recaptcha_points_cost_external_stats": "Kosten — Externe Statistiken"
             },
             "support": {
                 "button": "Unterstütze die Entwicklung",
@@ -85,7 +109,8 @@
                 "description": "Wenn dir diese Erweiterung gefällt, würde ich mich über eine kleine Spende freuen, um die Weiterentwicklung zu unterstützen. Jeder Beitrag hilft dabei, das Projekt am Leben zu erhalten und weiter zu pflegen.",
                 "copy": "Adresse kopieren",
                 "thanks": "Vielen Dank für deine Unterstützung!"
-            }
+            },
+            "section_general": "Allgemein"
         },
         "forum": {
             "random_not_found": "In dieser Kategorie wurden keine Diskussionen gefunden.",
@@ -96,9 +121,10 @@
             "captcha_failed": "Die Überprüfung ist fehlgeschlagen. Bitte versuche es erneut.",
             "captcha_close": "Schliessen",
             "captcha_retry": "Erneut versuchen",
+            "rate_limited": "",
+            "rate_limited_ready": "",
             "copy": "Kopieren",
             "copied": "Kopiert!",
-            "stats_error": "Statistiken konnten nicht geladen werden.",
             "stats_torrents": "Torrents",
             "stats_users": "Benutzer",
             "stats_magnets": "Magnets",
@@ -141,7 +167,8 @@
             "sort_magnet_max": "Magnetklicks (Top-Magnet)",
             "sort_recently_clicked": "Kürzlich geklickt",
             "sort_desc": "Absteigend",
-            "sort_asc": "Aufsteigend"
+            "sort_asc": "Aufsteigend",
+            "stats_error": "Statistiken konnten nicht geladen werden."
         }
     }
 }
