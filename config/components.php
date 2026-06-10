@@ -738,7 +738,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/SychO9/flarum-profile-cover/v2.0.0/resources/locale/en.yml',
 	],
 	'tryhackx-advanced-pages' => [
-		'tag' => 'https://raw.githubusercontent.com/TryHackX/flarum-advanced-pages/2.0.4/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/TryHackX/flarum-advanced-pages/2.1.0/resources/locale/en.yml',
 		'__builtInLanguages' => [
 			'pl',
 		],
