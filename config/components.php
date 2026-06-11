@@ -750,7 +750,7 @@ return [
 		],
 	],
 	'tryhackx-magnet-link' => [
-		'tag' => 'https://raw.githubusercontent.com/TryHackX/flarum-magnet-link/2.3.1/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/TryHackX/flarum-magnet-link/2.4.0/resources/locale/en.yml',
 		'__builtInLanguages' => [
 			'pl',
 		],
