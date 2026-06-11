@@ -14,20 +14,20 @@
                 "guests_label": "Invités",
                 "hidden_label": "Masqués",
                 "empty_online": "Il n'y a actuellement personne en ligne",
-                "viewing_unknown": "Consulter le forum",
+                "viewing_unknown": "Consulte le forum",
                 "viewing_page": ""
             },
             "routes": {
                 "index": "toutes les discussions",
-                "discussion": "",
+                "discussion": "discussion « {title} »",
                 "tag": "",
                 "user": "profil de {name}",
-                "tags": "",
-                "settings": "",
-                "notifications": "",
+                "tags": "accueil",
+                "settings": "paramètres",
+                "notifications": "notifications",
                 "flags": "",
                 "search": "",
-                "generic": ""
+                "generic": "le forum"
             },
             "aria": {
                 "expand": "Afficher les utilisateurs en ligne",
@@ -56,23 +56,23 @@
                 "show_users_count": "Afficher le nombre total d'utilisateurs",
                 "show_latest_registration": "Afficher la dernière inscription",
                 "stats_cache_duration": "Cache des statistiques — en secondes",
-                "stats_cache_duration_help": "",
-                "ignore_private_discussions": "",
-                "show_current_page": "",
+                "stats_cache_duration_help": "0 désactive la mise en cache. Non recommandé pour les forums volumineux",
+                "ignore_private_discussions": "Exclure les discussions privées dans le décompte",
+                "show_current_page": "Afficher la page actuellement consultée au survol de l'avatar",
                 "show_current_page_help": "",
-                "enable_heartbeat": "",
-                "enable_heartbeat_help": "",
-                "heartbeat_interval": "",
-                "heartbeat_interval_help": "",
-                "max_avatars": "",
-                "max_avatars_help": ""
+                "enable_heartbeat": "Activer le pouls d'activité",
+                "enable_heartbeat_help": "Un onglet ouvert envoie périodiquement une requête qui met à jour l'état actif de l'utilisateur",
+                "heartbeat_interval": "Intervalle depuis le dernier pouls d'activité — en secondes",
+                "heartbeat_interval_help": "Fréquence à laquelle un onglet actif envoie un signal de présence. Des valeurs plus faibles offrent une meilleure précision, mais génèrent davantage de requêtes en arrière-plan",
+                "max_avatars": "Nombre maximal d'avatars dans le widget",
+                "max_avatars_help": "Nombre d'avatars à afficher dans le widget. Les autres sont masqués et remplacés par un compteur « +N »"
             },
             "permissions": {
-                "view_online_users": "",
-                "view_discussions_count": "",
-                "view_posts_count": "",
-                "view_users_count": "",
-                "view_latest_registration": "",
+                "view_online_users": "Afficher les utilisateurs en ligne dans le widget",
+                "view_discussions_count": "Afficher le nombre de discussions dans le widget",
+                "view_posts_count": "Afficher le nombre de messages dans le widget",
+                "view_users_count": "Afficher le nombre total d'utilisateurs dans le widget",
+                "view_latest_registration": "Afficher la dernière inscription dans le widget",
                 "view_current_page": "Afficher les pages consultées dans le widget"
             }
         }
