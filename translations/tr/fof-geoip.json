@@ -30,6 +30,8 @@
                 "quota_label": "Arama kotası",
                 "show_flag_label": "Her gönderi için ülke bayrağını göster",
                 "show_flag_help": "Kullanıcı tercihleri üzerinden katılım sağladığında, IP adresini açıklamadan, gönderi yazarının IP adresinin ülke bayrağını göster.",
+                "allow_custom_flag_label": "",
+                "allow_custom_flag_help": "",
                 "test": {
                     "heading": "Servis Yapılandırmasını Test Et",
                     "help": "IP sorgulama servisinizin yapılandırmasını örnek bir IP adresiyle test edin. Test etmeden önce ayarlarınızı kaydettiğinizden emin olun."
@@ -65,7 +67,38 @@
                 "service_freegeoip_description": "Saatte 15.000'e kadar IP ülke kodunu ücretsiz olarak almak için <b>https://freegeoip.app/</b> kullanın."
             }
         },
+        "lib": {
+            "alerts": {
+                "ip_copied": ""
+            },
+            "copy_ip_label": "",
+            "map_button_label": "",
+            "map_modal": {
+                "title": "",
+                "ip_address": "",
+                "country_code": "",
+                "zip_code": "",
+                "isp": "",
+                "as": "",
+                "mobile": "",
+                "organization": "",
+                "threat_level": "",
+                "threat_types": "",
+                "error": "",
+                "not_enough_data": ""
+            },
+            "custom_flag": {
+                "none": ""
+            }
+        },
         "forum": {
+            "user": {
+                "settings": {
+                    "ip_country": "IP adresime göre, gönderdiğim ülkenin bayrağını göster",
+                    "custom_flag_label": "",
+                    "custom_flag_help": ""
+                }
+            },
             "alerts": {
                 "ip_copied": "IP Adresi Kopyalandı"
             },
@@ -84,11 +117,6 @@
                 "threat_types": "Tehdit Seviyesi",
                 "error": "Hata",
                 "not_enough_data": "Harita için yeterli veri yok"
-            },
-            "user": {
-                "settings": {
-                    "ip_country": "IP adresime göre, gönderdiğim ülkenin bayrağını göster"
-                }
             }
         }
     },

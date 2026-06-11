@@ -30,6 +30,8 @@
                 "quota_label": "",
                 "show_flag_label": "",
                 "show_flag_help": "",
+                "allow_custom_flag_label": "",
+                "allow_custom_flag_help": "",
                 "test": {
                     "heading": "",
                     "help": ""
@@ -65,9 +67,9 @@
                 "service_freegeoip_description": "<b>https://freegeoip.app/</b>，1 時間ごとに 15,000 の IP 国コードを無料で入手できます。"
             }
         },
-        "forum": {
+        "lib": {
             "alerts": {
-                "ip_copied": "コピーされた IP アドレス"
+                "ip_copied": ""
             },
             "copy_ip_label": "",
             "map_button_label": "",
@@ -85,10 +87,20 @@
                 "error": "",
                 "not_enough_data": ""
             },
+            "custom_flag": {
+                "none": ""
+            }
+        },
+        "forum": {
             "user": {
                 "settings": {
-                    "ip_country": ""
+                    "ip_country": "",
+                    "custom_flag_label": "",
+                    "custom_flag_help": ""
                 }
+            },
+            "alerts": {
+                "ip_copied": "コピーされた IP アドレス"
             }
         }
     },

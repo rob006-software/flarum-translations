@@ -30,6 +30,8 @@
                 "quota_label": "Kontrollimise piirang",
                 "show_flag_label": "Näita iga postituse juures riigi lipu",
                 "show_flag_help": "Näita postituse autori aadressi vastavalt nende IP-le, aga samas ära näita nende IP-aadressi. Kasutaja peab selle valiku ka oma eelistustest sisse lülitama.",
+                "allow_custom_flag_label": "",
+                "allow_custom_flag_help": "",
                 "test": {
                     "heading": "",
                     "help": ""
@@ -59,7 +61,38 @@
                 "error_code_prefix": ""
             }
         },
+        "lib": {
+            "alerts": {
+                "ip_copied": ""
+            },
+            "copy_ip_label": "",
+            "map_button_label": "",
+            "map_modal": {
+                "title": "",
+                "ip_address": "",
+                "country_code": "",
+                "zip_code": "",
+                "isp": "",
+                "as": "",
+                "mobile": "",
+                "organization": "",
+                "threat_level": "",
+                "threat_types": "",
+                "error": "",
+                "not_enough_data": ""
+            },
+            "custom_flag": {
+                "none": ""
+            }
+        },
         "forum": {
+            "user": {
+                "settings": {
+                    "ip_country": "Näita selle riigi lippu vastavalt minu IP aadressile",
+                    "custom_flag_label": "",
+                    "custom_flag_help": ""
+                }
+            },
             "alerts": {
                 "ip_copied": "Kopeeritud IP aadress"
             },
@@ -78,11 +111,6 @@
                 "threat_types": "Ohu liik",
                 "error": "Veateade",
                 "not_enough_data": "Kaardi joonistamiseks pole piisavalt infot"
-            },
-            "user": {
-                "settings": {
-                    "ip_country": "Näita selle riigi lippu vastavalt minu IP aadressile"
-                }
             }
         }
     },

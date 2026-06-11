@@ -30,6 +30,8 @@
                 "quota_label": "Limit zapytań",
                 "show_flag_label": "Pokazuj flagę kraju przy każdym poście",
                 "show_flag_help": "Wyświetla flagę kraju przypisaną do adresu IP autora posta (bez ujawniania samego adresu), jeśli użytkownik włączy tę opcję w swoich preferencjach.",
+                "allow_custom_flag_label": "",
+                "allow_custom_flag_help": "",
                 "test": {
                     "heading": "Test konfiguracji usługi",
                     "help": "Przetestuj konfigurację usługi sprawdzania IP za pomocą przykładowego adresu. Przed wykonaniem testu upewnij się, że zapisałeś ustawienia."
@@ -65,7 +67,38 @@
                 "service_freegeoip_description": "Użyj <b>https://freegeoip.app/</b>, aby sprawdzić kody krajów dla maksymalnie 15 000 IP na godzinę, całkiem za darmo."
             }
         },
+        "lib": {
+            "alerts": {
+                "ip_copied": ""
+            },
+            "copy_ip_label": "",
+            "map_button_label": "",
+            "map_modal": {
+                "title": "",
+                "ip_address": "",
+                "country_code": "",
+                "zip_code": "",
+                "isp": "",
+                "as": "",
+                "mobile": "",
+                "organization": "",
+                "threat_level": "",
+                "threat_types": "",
+                "error": "",
+                "not_enough_data": ""
+            },
+            "custom_flag": {
+                "none": ""
+            }
+        },
         "forum": {
+            "user": {
+                "settings": {
+                    "ip_country": "Pokazuj flagę kraju, z którego piszę, na podstawie mojego adresu IP",
+                    "custom_flag_label": "",
+                    "custom_flag_help": ""
+                }
+            },
             "alerts": {
                 "ip_copied": "Skopiowano adres IP"
             },
@@ -84,11 +117,6 @@
                 "threat_types": "Typy zagrożeń",
                 "error": "Błąd",
                 "not_enough_data": "Za mało danych, aby narysować mapę"
-            },
-            "user": {
-                "settings": {
-                    "ip_country": "Pokazuj flagę kraju, z którego piszę, na podstawie mojego adresu IP"
-                }
             }
         }
     },

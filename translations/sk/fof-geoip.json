@@ -30,6 +30,8 @@
                 "quota_label": "",
                 "show_flag_label": "",
                 "show_flag_help": "",
+                "allow_custom_flag_label": "",
+                "allow_custom_flag_help": "",
                 "test": {
                     "heading": "",
                     "help": ""
@@ -60,7 +62,7 @@
                 "title": "FriendsOFFlarum GeoIP"
             }
         },
-        "forum": {
+        "lib": {
             "alerts": {
                 "ip_copied": ""
             },
@@ -80,9 +82,16 @@
                 "error": "",
                 "not_enough_data": ""
             },
+            "custom_flag": {
+                "none": ""
+            }
+        },
+        "forum": {
             "user": {
                 "settings": {
-                    "ip_country": ""
+                    "ip_country": "",
+                    "custom_flag_label": "",
+                    "custom_flag_help": ""
                 }
             }
         }

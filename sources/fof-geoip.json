@@ -30,6 +30,8 @@
                 "quota_label": "Lookup quota",
                 "show_flag_label": "Show country flag for each post",
                 "show_flag_help": "Without disclosing the IP address, show the country flag of the IP address of the post author, when the user opts in via their preferences.",
+                "allow_custom_flag_label": "Allow users to choose a custom country flag",
+                "allow_custom_flag_help": "When enabled, users can pick a country flag to display on their posts via their profile settings. A user-selected flag is shown to everyone and takes precedence over the IP-based flag. Requires \"Show country flag for each post\" to be enabled.",
                 "test": {
                     "heading": "Test Service Configuration",
                     "help": "Test your IP lookup service configuration with a sample IP address. Make sure to save your settings first before testing."
@@ -59,7 +61,7 @@
                 "error_code_prefix": "Code:"
             }
         },
-        "forum": {
+        "lib": {
             "alerts": {
                 "ip_copied": "Copied IP Address"
             },
@@ -79,9 +81,16 @@
                 "error": "Error",
                 "not_enough_data": "Not enough data to draw a map"
             },
+            "custom_flag": {
+                "none": "No custom flag"
+            }
+        },
+        "forum": {
             "user": {
                 "settings": {
-                    "ip_country": "Show the flag of the country I post from, based on my IP address"
+                    "ip_country": "Show the flag of the country I post from, based on my IP address",
+                    "custom_flag_label": "Custom country flag",
+                    "custom_flag_help": "Choose a country flag to display on your posts. This flag is visible to everyone and is shown instead of the flag based on your IP address."
                 }
             }
         }

@@ -30,6 +30,8 @@
                 "quota_label": "Lookup-Kontingent",
                 "show_flag_label": "Länderflagge für jeden Beitrag anzeigen",
                 "show_flag_help": "Ohne die IP-Adresse preiszugeben, wird die Landesflagge der IP-Adresse des Verfassers des Beitrags angezeigt, wenn der Benutzer dies in seinen Einstellungen aktiviert hat.",
+                "allow_custom_flag_label": "",
+                "allow_custom_flag_help": "",
                 "test": {
                     "heading": "Dienstkonfiguration testen",
                     "help": "Teste die Konfiguration deines IP-Lookup-Dienstes mit einer Beispiel-IP-Adresse. Speichere deine Einstellungen vor dem Testen."
@@ -65,7 +67,38 @@
                 "service_freegeoip_description": "Verwende <b>https://freegeoip.app/</b>, um bis zu 15.000 IP-Ländercodes pro Stunde kostenlos abzurufen."
             }
         },
+        "lib": {
+            "alerts": {
+                "ip_copied": ""
+            },
+            "copy_ip_label": "",
+            "map_button_label": "",
+            "map_modal": {
+                "title": "",
+                "ip_address": "",
+                "country_code": "",
+                "zip_code": "",
+                "isp": "",
+                "as": "",
+                "mobile": "",
+                "organization": "",
+                "threat_level": "",
+                "threat_types": "",
+                "error": "",
+                "not_enough_data": ""
+            },
+            "custom_flag": {
+                "none": ""
+            }
+        },
         "forum": {
+            "user": {
+                "settings": {
+                    "ip_country": "Die Flagge des Landes anzeigen, aus dem ich poste, basierend auf meiner IP-Adresse",
+                    "custom_flag_label": "",
+                    "custom_flag_help": ""
+                }
+            },
             "alerts": {
                 "ip_copied": "Kopierte IP-Adresse"
             },
@@ -84,11 +117,6 @@
                 "threat_types": "Bedrohungsarten",
                 "error": "Fehler",
                 "not_enough_data": "Nicht genügend Daten, um eine Karte zu zeichnen"
-            },
-            "user": {
-                "settings": {
-                    "ip_country": "Die Flagge des Landes anzeigen, aus dem ich poste, basierend auf meiner IP-Adresse"
-                }
             }
         }
     },

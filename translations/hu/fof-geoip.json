@@ -30,6 +30,8 @@
                 "quota_label": "Kvóta lekérdezése",
                 "show_flag_label": "Országzászlók megjelenítése minden bejegyzésnél",
                 "show_flag_help": "A bejegyzés szerzője IP-címéhez tartozó országzászló megjelenítése az IP-cím közzététele nélkül, ha a szerző ezt kérte a beállításaiban.",
+                "allow_custom_flag_label": "",
+                "allow_custom_flag_help": "",
                 "test": {
                     "heading": "Szolgáltatáskonfiguráció tesztelése",
                     "help": "Tesztelje az IP-címlekérési szolgáltatása konfigurációját egy példa IP-címmel. Győződjön meg arról, hogy a teszt előtt mentette a beállításait."
@@ -65,7 +67,38 @@
                 "service_freegeoip_description": "Használja a <b>https://freegeoip.app/</b> szolgáltatást, hogy óránként 15000 IP országkódját kérje le ingyenesen."
             }
         },
+        "lib": {
+            "alerts": {
+                "ip_copied": ""
+            },
+            "copy_ip_label": "",
+            "map_button_label": "",
+            "map_modal": {
+                "title": "",
+                "ip_address": "",
+                "country_code": "",
+                "zip_code": "",
+                "isp": "",
+                "as": "",
+                "mobile": "",
+                "organization": "",
+                "threat_level": "",
+                "threat_types": "",
+                "error": "",
+                "not_enough_data": ""
+            },
+            "custom_flag": {
+                "none": ""
+            }
+        },
         "forum": {
+            "user": {
+                "settings": {
+                    "ip_country": "Az ország zászlajának megjelenítése, ahonnan a bejegyzést közzéteszi (IP-cím alapján)",
+                    "custom_flag_label": "",
+                    "custom_flag_help": ""
+                }
+            },
             "alerts": {
                 "ip_copied": "IP-cím másolva"
             },
@@ -84,11 +117,6 @@
                 "threat_types": "Fenyegetési típusok",
                 "error": "Hiba",
                 "not_enough_data": "Nincs elég adat térkép rajzolásához"
-            },
-            "user": {
-                "settings": {
-                    "ip_country": "Az ország zászlajának megjelenítése, ahonnan a bejegyzést közzéteszi (IP-cím alapján)"
-                }
             }
         }
     },

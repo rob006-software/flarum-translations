@@ -30,6 +30,8 @@
                 "quota_label": "Квота на пошуковий запит",
                 "show_flag_label": "Показати прапор країни для кожної публікації",
                 "show_flag_help": "Не розкриваючи IP-адресу, показувати прапор країни IP-адреси автора допису, коли користувач обирає цей параметр у своїх налаштуваннях.",
+                "allow_custom_flag_label": "",
+                "allow_custom_flag_help": "",
                 "test": {
                     "heading": "Конфігурація тестової служби",
                     "help": "Перевірте конфігурацію служби пошуку IP за допомогою зразка IP-адреси. Обов'язково збережіть свої налаштування перед тестуванням."
@@ -65,7 +67,38 @@
                 "service_freegeoip_description": "Використовуйте <b>https://freegeoip.app/</b> для безкоштовного отримання до 15 000 IP-кодів країн за годину."
             }
         },
+        "lib": {
+            "alerts": {
+                "ip_copied": ""
+            },
+            "copy_ip_label": "",
+            "map_button_label": "",
+            "map_modal": {
+                "title": "",
+                "ip_address": "",
+                "country_code": "",
+                "zip_code": "",
+                "isp": "",
+                "as": "",
+                "mobile": "",
+                "organization": "",
+                "threat_level": "",
+                "threat_types": "",
+                "error": "",
+                "not_enough_data": ""
+            },
+            "custom_flag": {
+                "none": ""
+            }
+        },
         "forum": {
+            "user": {
+                "settings": {
+                    "ip_country": "Показувати прапор країни, з якої я публікую, на основі моєї IP-адреси",
+                    "custom_flag_label": "",
+                    "custom_flag_help": ""
+                }
+            },
             "alerts": {
                 "ip_copied": "Скопійована IP-адреса"
             },
@@ -84,11 +117,6 @@
                 "threat_types": "Типи загроз",
                 "error": "Помилка",
                 "not_enough_data": "Недостатньо даних для створення карти"
-            },
-            "user": {
-                "settings": {
-                    "ip_country": "Показувати прапор країни, з якої я публікую, на основі моєї IP-адреси"
-                }
             }
         }
     },
