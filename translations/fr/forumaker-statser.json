@@ -2,17 +2,17 @@
     "forumaker-statser": {
         "forum": {
             "widget": {
-                "online_users": "",
-                "online_users_count": "",
-                "online_guests_count": "",
-                "hidden_users_count": "",
-                "total_users": "",
-                "discussions": "",
-                "posts": "",
-                "latest_registration": "",
-                "online_label": "",
-                "guests_label": "",
-                "hidden_label": "",
+                "online_users": "En ligne",
+                "online_users_count": "{count, plural, one {# utilisateur} other {# utilisateurs}}",
+                "online_guests_count": "{count, plural, one {# invité} other {# invités}}",
+                "hidden_users_count": "{count, plural, one {# masqué} other {# masqués}}",
+                "total_users": "{count, plural, one {utilisateur} other {utilisateurs}}",
+                "discussions": "{count, plural, one {discussion} other {discussions}}",
+                "posts": "{count, plural, one {message} other {messages}}",
+                "latest_registration": "Utilisateur le plus récent",
+                "online_label": "En ligne",
+                "guests_label": "Invités",
+                "hidden_label": "Masqués",
                 "empty_online": "",
                 "viewing_unknown": "",
                 "viewing_page": ""
