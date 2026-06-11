@@ -2,7 +2,7 @@
     "fof-user-directory": {
         "forum": {
             "header": {
-                "back_to_user_directory_tooltip": "К списку участников"
+                "back_to_user_directory_tooltip": "В каталог участников"
             },
             "hero": {
                 "title": "=> fof-user-directory.forum.page.nav"
@@ -18,7 +18,7 @@
                 }
             },
             "page": {
-                "nav": "Список участников",
+                "nav": "Участники",
                 "refresh_tooltip": "=> core.forum.index.refresh_tooltip",
                 "load_more_button": "=> core.ref.load_more",
                 "empty_text": "Пользователи по вашему запросу не найдены.",
@@ -31,14 +31,14 @@
         },
         "admin": {
             "permissions": {
-                "view_user_directory": "Смотреть список участников"
+                "view_user_directory": "Смотреть каталог участников"
             },
             "settings": {
                 "link": "Показывать ссылку в навигации форума",
                 "default-sort": "Сортировка по умолчанию",
                 "use-small-cards": "Маленькие карточки участников",
                 "disable-global-search-source": "Не добавлять каталог участников в поле глобального поиска",
-                "link-group-mentions": "Ссылка на упоминания группы в сообщениях в Пользовательском каталоге"
+                "link-group-mentions": "Ссылаться на упоминания групп в сообщениях через каталог участников"
             }
         },
         "lib": {
