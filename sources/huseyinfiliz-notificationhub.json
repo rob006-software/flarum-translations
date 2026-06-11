@@ -61,7 +61,11 @@
             "subject_id_required": "Notification Type is required.",
             "no_valid_recipients": "No valid recipients were found.",
             "name_required": "The notification type name is required.",
-            "invalid_url": "Invalid URL protocol detected."
+            "invalid_url": "Invalid URL protocol detected.",
+            "name_too_long": "Name cannot be longer than 255 characters.",
+            "message_too_long": "Message cannot be longer than 5000 characters.",
+            "url_too_long": "URL cannot be longer than 2048 characters.",
+            "invalid_url_scheme": "Invalid URL scheme. Only HTTP, HTTPS, mailto, tel, or relative links are allowed."
         }
     }
 }
