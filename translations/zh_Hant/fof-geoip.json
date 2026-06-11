@@ -30,6 +30,8 @@
                 "quota_label": "尋找配額",
                 "show_flag_label": "",
                 "show_flag_help": "",
+                "allow_custom_flag_label": "",
+                "allow_custom_flag_help": "",
                 "test": {
                     "heading": "",
                     "help": ""
@@ -59,11 +61,42 @@
                 "error_code_prefix": ""
             }
         },
+        "lib": {
+            "alerts": {
+                "ip_copied": ""
+            },
+            "copy_ip_label": "",
+            "map_button_label": "",
+            "map_modal": {
+                "title": "",
+                "ip_address": "",
+                "country_code": "",
+                "zip_code": "",
+                "isp": "",
+                "as": "",
+                "mobile": "",
+                "organization": "",
+                "threat_level": "",
+                "threat_types": "",
+                "error": "",
+                "not_enough_data": ""
+            },
+            "custom_flag": {
+                "none": "",
+                "placeholder": ""
+            }
+        },
         "forum": {
+            "user": {
+                "settings": {
+                    "ip_country": "",
+                    "custom_flag_label": "",
+                    "custom_flag_help": ""
+                }
+            },
             "alerts": {
                 "ip_copied": "已複製 IP 地址"
             },
-            "copy_ip_label": "",
             "map_button_label": "IP 資訊",
             "map_modal": {
                 "title": "IP 訊息",
@@ -78,11 +111,6 @@
                 "threat_types": "威脅類型",
                 "error": "錯誤",
                 "not_enough_data": "數據不足，無法繪製地圖"
-            },
-            "user": {
-                "settings": {
-                    "ip_country": ""
-                }
             }
         }
     },

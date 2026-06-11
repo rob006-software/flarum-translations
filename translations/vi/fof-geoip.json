@@ -30,6 +30,8 @@
                 "quota_label": "Giới hạn tra cứu",
                 "show_flag_label": "Hiển thị cờ quốc gia cho mỗi bài viết",
                 "show_flag_help": "Hiển thị cờ quốc gia của địa chỉ IP của người viết bài mà không tiết lộ địa chỉ IP, khi người dùng cho phép trong cài đặt cá nhân.",
+                "allow_custom_flag_label": "",
+                "allow_custom_flag_help": "",
                 "test": {
                     "heading": "",
                     "help": ""
@@ -59,7 +61,39 @@
                 "error_code_prefix": ""
             }
         },
+        "lib": {
+            "alerts": {
+                "ip_copied": ""
+            },
+            "copy_ip_label": "",
+            "map_button_label": "",
+            "map_modal": {
+                "title": "",
+                "ip_address": "",
+                "country_code": "",
+                "zip_code": "",
+                "isp": "",
+                "as": "",
+                "mobile": "",
+                "organization": "",
+                "threat_level": "",
+                "threat_types": "",
+                "error": "",
+                "not_enough_data": ""
+            },
+            "custom_flag": {
+                "none": "",
+                "placeholder": ""
+            }
+        },
         "forum": {
+            "user": {
+                "settings": {
+                    "ip_country": "Hiển thị cờ quốc gia nơi tôi đăng bài, dựa trên địa chỉ IP của tôi",
+                    "custom_flag_label": "",
+                    "custom_flag_help": ""
+                }
+            },
             "alerts": {
                 "ip_copied": "Đã sao chép địa chỉ IP"
             },
@@ -78,11 +112,6 @@
                 "threat_types": "Loại đe dọa",
                 "error": "Lỗi",
                 "not_enough_data": "Không đủ dữ liệu để vẽ bản đồ"
-            },
-            "user": {
-                "settings": {
-                    "ip_country": "Hiển thị cờ quốc gia nơi tôi đăng bài, dựa trên địa chỉ IP của tôi"
-                }
             }
         }
     },

@@ -30,6 +30,8 @@
                 "quota_label": "Quota di ricerca",
                 "show_flag_label": "Mostra la bandiera del paese per ogni post",
                 "show_flag_help": "Senza rivelare l'indirizzo IP, mostra la bandiera del paese dell'indirizzo IP dell'autore del post, quando l'utente acconsente tramite le sue preferenze.",
+                "allow_custom_flag_label": "",
+                "allow_custom_flag_help": "",
                 "test": {
                     "heading": "",
                     "help": ""
@@ -59,7 +61,39 @@
                 "error_code_prefix": ""
             }
         },
+        "lib": {
+            "alerts": {
+                "ip_copied": ""
+            },
+            "copy_ip_label": "",
+            "map_button_label": "",
+            "map_modal": {
+                "title": "",
+                "ip_address": "",
+                "country_code": "",
+                "zip_code": "",
+                "isp": "",
+                "as": "",
+                "mobile": "",
+                "organization": "",
+                "threat_level": "",
+                "threat_types": "",
+                "error": "",
+                "not_enough_data": ""
+            },
+            "custom_flag": {
+                "none": "",
+                "placeholder": ""
+            }
+        },
         "forum": {
+            "user": {
+                "settings": {
+                    "ip_country": "Mostra la bandiera del paese da cui pubblico, in base al mio indirizzo IP",
+                    "custom_flag_label": "",
+                    "custom_flag_help": ""
+                }
+            },
             "alerts": {
                 "ip_copied": "Indirizzo IP copiato"
             },
@@ -78,11 +112,6 @@
                 "threat_types": "Tipo di minaccia",
                 "error": "Errore",
                 "not_enough_data": "Non ci sono dati sufficienti per disegnare una mappa"
-            },
-            "user": {
-                "settings": {
-                    "ip_country": "Mostra la bandiera del paese da cui pubblico, in base al mio indirizzo IP"
-                }
             }
         }
     },

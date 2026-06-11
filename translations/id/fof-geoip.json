@@ -30,6 +30,8 @@
                 "quota_label": "Kuota pencarian",
                 "show_flag_label": "Tampilkan bendera negara di setiap post",
                 "show_flag_help": "Tanpa mengungkapkan alamat IP, tampilkan bendera negara dari alamat IP penulis post, ketika pengguna memilih melalui preferensi mereka.",
+                "allow_custom_flag_label": "",
+                "allow_custom_flag_help": "",
                 "test": {
                     "heading": "Konfigurasi Layanan Pengujian",
                     "help": "Uji konfigurasi layanan pencarian alamat IP Anda dengan alamat IP contoh. Pastikan untuk menyimpan pengaturan Anda terlebih dahulu sebelum melakukan pengujian."
@@ -59,7 +61,39 @@
                 "error_code_prefix": "Kode:"
             }
         },
+        "lib": {
+            "alerts": {
+                "ip_copied": ""
+            },
+            "copy_ip_label": "",
+            "map_button_label": "",
+            "map_modal": {
+                "title": "",
+                "ip_address": "",
+                "country_code": "",
+                "zip_code": "",
+                "isp": "",
+                "as": "",
+                "mobile": "",
+                "organization": "",
+                "threat_level": "",
+                "threat_types": "",
+                "error": "",
+                "not_enough_data": ""
+            },
+            "custom_flag": {
+                "none": "",
+                "placeholder": ""
+            }
+        },
         "forum": {
+            "user": {
+                "settings": {
+                    "ip_country": "Tampilkan bendera negara tempat Saya memposting, berdasarkan alamat IP Saya",
+                    "custom_flag_label": "",
+                    "custom_flag_help": ""
+                }
+            },
             "alerts": {
                 "ip_copied": "Alamat IP Yang Disalin"
             },
@@ -78,11 +112,6 @@
                 "threat_types": "Jenis Ancaman",
                 "error": "Error",
                 "not_enough_data": "Data tidak cukup untuk menggambar peta"
-            },
-            "user": {
-                "settings": {
-                    "ip_country": "Tampilkan bendera negara tempat Saya memposting, berdasarkan alamat IP Saya"
-                }
             }
         }
     },

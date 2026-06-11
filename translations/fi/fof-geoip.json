@@ -30,6 +30,8 @@
                 "quota_label": "Tarkistus raja",
                 "show_flag_label": "Näytä maan lippu jokaisessa viestissä",
                 "show_flag_help": "Ilman IP-osoitteen paljastamista näytä viestin kirjoittajan IP-osoitteen mukainen maan lippu, kun käyttäjä valitsee tämän asetuksistaan.",
+                "allow_custom_flag_label": "",
+                "allow_custom_flag_help": "",
                 "test": {
                     "heading": "Testaa palvelun asetuksia",
                     "help": "Testaa IP-hakupalvelun määritykset käyttämällä esimerkkiosoitetta. Varmista ensin, että tallennat asetuksesi ennen testausta."
@@ -59,7 +61,39 @@
                 "error_code_prefix": "Koodi:"
             }
         },
+        "lib": {
+            "alerts": {
+                "ip_copied": ""
+            },
+            "copy_ip_label": "",
+            "map_button_label": "",
+            "map_modal": {
+                "title": "",
+                "ip_address": "",
+                "country_code": "",
+                "zip_code": "",
+                "isp": "",
+                "as": "",
+                "mobile": "",
+                "organization": "",
+                "threat_level": "",
+                "threat_types": "",
+                "error": "",
+                "not_enough_data": ""
+            },
+            "custom_flag": {
+                "none": "",
+                "placeholder": ""
+            }
+        },
         "forum": {
+            "user": {
+                "settings": {
+                    "ip_country": "Näytä lippu mistä kirjoitan perustuen IP osoitteeseeni",
+                    "custom_flag_label": "",
+                    "custom_flag_help": ""
+                }
+            },
             "alerts": {
                 "ip_copied": "Kopioitu IP-osoite"
             },
@@ -78,11 +112,6 @@
                 "threat_types": "Uhka tyypit",
                 "error": "Virhe",
                 "not_enough_data": "Ei tarpeeksi tietoa kartan piirtämiseen"
-            },
-            "user": {
-                "settings": {
-                    "ip_country": "Näytä lippu mistä kirjoitan perustuen IP osoitteeseeni"
-                }
             }
         }
     },

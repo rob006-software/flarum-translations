@@ -30,6 +30,8 @@
                 "quota_label": "Cuota de búsqueda",
                 "show_flag_label": "Mostrar la bandera del país para cada publicación",
                 "show_flag_help": "Sin revelar la dirección IP, muestre la bandera del país correspondiente a la dirección IP del autor de la publicación, cuando el usuario lo autorice a través de sus preferencias.",
+                "allow_custom_flag_label": "",
+                "allow_custom_flag_help": "",
                 "test": {
                     "heading": "Probar configuración del servicio",
                     "help": "Pruebe la configuración de su servicio de búsqueda de IP con una dirección IP de ejemplo. Asegúrese de guardar la configuración antes de realizar la prueba."
@@ -59,7 +61,39 @@
                 "error_code_prefix": "Code:"
             }
         },
+        "lib": {
+            "alerts": {
+                "ip_copied": ""
+            },
+            "copy_ip_label": "",
+            "map_button_label": "",
+            "map_modal": {
+                "title": "",
+                "ip_address": "",
+                "country_code": "",
+                "zip_code": "",
+                "isp": "",
+                "as": "",
+                "mobile": "",
+                "organization": "",
+                "threat_level": "",
+                "threat_types": "",
+                "error": "",
+                "not_enough_data": ""
+            },
+            "custom_flag": {
+                "none": "",
+                "placeholder": ""
+            }
+        },
         "forum": {
+            "user": {
+                "settings": {
+                    "ip_country": "Mostrar la bandera del país desde donde publico",
+                    "custom_flag_label": "",
+                    "custom_flag_help": ""
+                }
+            },
             "alerts": {
                 "ip_copied": "Dirección IP copiada"
             },
@@ -78,11 +112,6 @@
                 "threat_types": "Tipos de Amenazas",
                 "error": "Error",
                 "not_enough_data": "No hay suficientes datos para dibujar un mapa"
-            },
-            "user": {
-                "settings": {
-                    "ip_country": "Mostrar la bandera del país desde donde publico"
-                }
             }
         }
     },

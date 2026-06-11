@@ -30,6 +30,8 @@
                 "quota_label": "查询额度",
                 "show_flag_label": "展示发帖地区旗帜",
                 "show_flag_help": "用户发帖勾选后，基于作者的 IP 地址展示国家或地区旗帜，不泄露 IP 地址。",
+                "allow_custom_flag_label": "",
+                "allow_custom_flag_help": "",
                 "test": {
                     "heading": "测试服务配置",
                     "help": "使用示例 IP 地址测试您的 IP 查询服务配置。请确保在测试前先保存设置。"
@@ -59,7 +61,39 @@
                 "error_code_prefix": "代码："
             }
         },
+        "lib": {
+            "alerts": {
+                "ip_copied": ""
+            },
+            "copy_ip_label": "",
+            "map_button_label": "",
+            "map_modal": {
+                "title": "",
+                "ip_address": "",
+                "country_code": "",
+                "zip_code": "",
+                "isp": "",
+                "as": "",
+                "mobile": "",
+                "organization": "",
+                "threat_level": "",
+                "threat_types": "",
+                "error": "",
+                "not_enough_data": ""
+            },
+            "custom_flag": {
+                "none": "",
+                "placeholder": ""
+            }
+        },
         "forum": {
+            "user": {
+                "settings": {
+                    "ip_country": "发帖时基于我的 IP 地址展示国家或地区旗帜",
+                    "custom_flag_label": "",
+                    "custom_flag_help": ""
+                }
+            },
             "alerts": {
                 "ip_copied": "已复制 IP 地址"
             },
@@ -78,11 +112,6 @@
                 "threat_types": "威胁类型",
                 "error": "错误",
                 "not_enough_data": "数据不足，无法绘制地图"
-            },
-            "user": {
-                "settings": {
-                    "ip_country": "发帖时基于我的 IP 地址展示国家或地区旗帜"
-                }
             }
         }
     },
