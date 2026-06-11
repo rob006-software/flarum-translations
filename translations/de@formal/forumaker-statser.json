@@ -25,19 +25,19 @@
                 "tags": "Startseite",
                 "settings": "Einstellungen",
                 "notifications": "Benachrichtigungen",
-                "flags": "",
+                "flags": "Meldungen",
                 "search": "Suche",
                 "generic": "das Forum"
             },
             "aria": {
-                "expand": "",
-                "collapse": ""
+                "expand": "Online-Benutzer anzeigen",
+                "collapse": "Online-Benutzer verbergen"
             }
         },
         "admin": {
             "settings": {
                 "section_online": "Online",
-                "section_stats": "",
+                "section_stats": "Forumzähler",
                 "section_activity": "Aktivität",
                 "show_online_users": "Online-Benutzer anzeigen",
                 "show_online_users_help": "Aktiviert den Online-Block im Widget",
@@ -57,18 +57,18 @@
                 "show_latest_registration": "Neueste Registrierung anzeigen",
                 "stats_cache_duration": "Statistik-Cache – in Sekunden",
                 "stats_cache_duration_help": "0 deaktiviert das Caching. Nicht empfohlen für große Foren",
-                "ignore_private_discussions": "",
-                "show_current_page": "",
-                "show_current_page_help": "",
-                "enable_heartbeat": "",
-                "enable_heartbeat_help": "",
-                "heartbeat_interval": "",
-                "heartbeat_interval_help": "",
-                "max_avatars": "",
-                "max_avatars_help": ""
+                "ignore_private_discussions": "Private Diskussionen aus der Zählung ausschließen",
+                "show_current_page": "Die vom Benutzer aktuell angesehene Seite anzeigen, wenn der Mauszeiger über das Profilbild bewegt wird",
+                "show_current_page_help": "Verfolgt die Hauptbereiche des Forums – Diskussionen und Profile. Zeigt andernfalls eine allgemeine Bezeichnung an",
+                "enable_heartbeat": "Aktivitäts-Herzschlag aktivieren",
+                "enable_heartbeat_help": "Ein geöffneter Tab sendet in regelmäßigen Abständen eine Anfrage, die den aktiven Status des Benutzers aktualisiert",
+                "heartbeat_interval": "Intervall des Aktivitätsherzschlags – in Sekunden",
+                "heartbeat_interval_help": "Wie oft ein aktiver Tab einen Präsenz-Ping sendet. Niedrigere Werte sind genauer, verursachen jedoch mehr Hintergrundanfragen",
+                "max_avatars": "Maximaler Anzahl an Avataren im Widget",
+                "max_avatars_help": "Wie viele Avatare sollen im Widget angezeigt werden? Alle weiteren werden zu einem „+N“-Zähler zusammengefasst."
             },
             "permissions": {
-                "view_online_users": "",
+                "view_online_users": "Aktuelle Online-Benutzer im Widget anzeigen",
                 "view_discussions_count": "",
                 "view_posts_count": "",
                 "view_users_count": "",
