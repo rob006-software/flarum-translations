@@ -75,15 +75,15 @@
                 }
             },
             "settings": {
-                "heading": "",
+                "heading": "Paramètres",
                 "search": "Rechercher des clés de porte",
                 "total_doorkeys": "Nombre total de clés de porte : {count}",
                 "create_doorkey_button": "Créer un code d'invitation",
                 "optional_usage": "Rendre le code d'invitation facultatif lors de l'inscription",
-                "optional_usage_help": ""
+                "optional_usage_help": "Lorsque cette option est activée, les visiteurs peuvent s'inscrire sans avoir à saisir de code d'invitation."
             },
             "list": {
-                "heading": "",
+                "heading": "Codes d'invitation",
                 "columns": {
                     "id": "Identifiant",
                     "key": "=> fof-doorman.admin.ref.fields.key.label",
@@ -106,17 +106,17 @@
                     "no_created_by": "Utilisateur inconnu"
                 },
                 "actions": {
-                    "notify": "",
-                    "edit": "",
-                    "delete": ""
+                    "notify": "Envoyer ce code d'invitation par courriel",
+                    "edit": "Modifier le code d'invitation",
+                    "delete": "Supprimer le code d'invitation"
                 },
                 "pagination": {
-                    "first_page_button": "",
-                    "back_button": "",
-                    "page_counter": "",
-                    "go_to_page_textbox_a11y_label": "",
-                    "next_button": "",
-                    "last_page_button": ""
+                    "first_page_button": "=> core.lib.pagination.first_button",
+                    "back_button": "=> core.lib.pagination.back_button",
+                    "page_counter": "=> core.lib.pagination.page_counter",
+                    "go_to_page_textbox_a11y_label": "=> core.lib.pagination.go_to_page_textbox_a11y_label",
+                    "next_button": "=> core.lib.pagination.next_button",
+                    "last_page_button": "=> core.lib.pagination.last_button"
                 }
             }
         },
