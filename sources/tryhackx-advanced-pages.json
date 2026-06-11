@@ -69,7 +69,7 @@
                 "newline_preserve": "Preserve (respect all newlines)",
                 "php_warning": "PHP pages execute server-side code. Only create PHP pages if you understand the security implications. Errors are logged but never displayed to visitors.",
                 "allow_scripts_label": "Allow script execution in this page",
-                "allow_scripts_help": "Off by default. When enabled, inline and external script tags in this page run in every visitor's browser. Only enable for pages you fully trust.",
+                "allow_scripts_help": "Gates script tags in this page (off by default): when off they don't execute, when on inline and external scripts run in every visitor's browser. This is NOT a sandbox — raw HTML can still run JavaScript by other means (e.g. inline event-handler attributes like onerror), so only publish HTML/PHP pages you fully trust.",
                 "custom_breadcrumbs_css_label": "Custom breadcrumbs CSS?",
                 "custom_breadcrumbs_css_help": "Style (or hide) the breadcrumbs for this page and everything nested under it. Target .AdvancedPages-breadcrumbs — e.g. display:none to hide them entirely."
             },
