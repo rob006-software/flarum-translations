@@ -30,8 +30,8 @@
                 "quota_label": "Lookup-Kontingent",
                 "show_flag_label": "Länderflagge für jeden Beitrag anzeigen",
                 "show_flag_help": "Ohne die IP-Adresse preiszugeben, wird die Landesflagge der IP-Adresse des Verfassers des Beitrags angezeigt, wenn der Benutzer dies in seinen Einstellungen aktiviert hat.",
-                "allow_custom_flag_label": "",
-                "allow_custom_flag_help": "",
+                "allow_custom_flag_label": "Benutzern erlauben, das Land selber auszuwählen",
+                "allow_custom_flag_help": "Wenn aktiviert, können Benutzer in ihren Profileinstellungen ein Land auswählen, das neben ihren Beiträgen angezeigt werden soll. Die vom Benutzer ausgewählte Flagge wird allen angezeigt und hat Vorrang vor der IP-basierten Flagge. Dazu muss die Option „Länderflagge für jeden Beitrag anzeigen“ aktiviert sein.",
                 "test": {
                     "heading": "Dienstkonfiguration testen",
                     "help": "Teste die Konfiguration deines IP-Lookup-Dienstes mit einer Beispiel-IP-Adresse. Speichere deine Einstellungen vor dem Testen."
@@ -63,26 +63,26 @@
         },
         "lib": {
             "alerts": {
-                "ip_copied": ""
+                "ip_copied": "IP-Adresse kopiert"
             },
-            "copy_ip_label": "",
-            "map_button_label": "",
+            "copy_ip_label": "IP-Adresse in die Zwischenablage kopieren",
+            "map_button_label": "IP-Informationen",
             "map_modal": {
-                "title": "",
-                "ip_address": "",
-                "country_code": "",
-                "zip_code": "",
-                "isp": "",
-                "as": "",
-                "mobile": "",
-                "organization": "",
-                "threat_level": "",
-                "threat_types": "",
-                "error": "",
-                "not_enough_data": ""
+                "title": "IP-Informationen",
+                "ip_address": "IP-Adresse",
+                "country_code": "Ländercode",
+                "zip_code": "Postleitzahl",
+                "isp": "Internetanbieter",
+                "as": "ASN",
+                "mobile": "Mobilfunknetz",
+                "organization": "Organisation",
+                "threat_level": "Bedrohungsstufe",
+                "threat_types": "Arten von Bedrohungen",
+                "error": "Fehler",
+                "not_enough_data": "Es liegen nicht genügend Daten vor, um eine Karte zu erstellen"
             },
             "custom_flag": {
-                "none": "",
+                "none": "Keine benutzerdefinierte Flagge",
                 "placeholder": ""
             }
         },
@@ -90,8 +90,8 @@
             "user": {
                 "settings": {
                     "ip_country": "Die Flagge des Landes anzeigen, aus dem ich poste, basierend auf meiner IP-Adresse",
-                    "custom_flag_label": "",
-                    "custom_flag_help": ""
+                    "custom_flag_label": "Flagge eines bestimmten Landes",
+                    "custom_flag_help": "Wähle eine Landesflagge aus, die neben deinen Beiträgen angezeigt werden soll. Diese Flagge ist für alle sichtbar und wird anstelle der Flagge angezeigt, die sich nach deiner IP-Adresse richtet."
                 }
             },
             "alerts": {
