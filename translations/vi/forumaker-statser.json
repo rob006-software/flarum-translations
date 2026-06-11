@@ -2,23 +2,23 @@
     "forumaker-statser": {
         "forum": {
             "widget": {
-                "online_users": "",
-                "online_users_count": "",
+                "online_users": "Trực tuyến",
+                "online_users_count": "{count, plural, one {# user} other {# users}}",
                 "online_guests_count": "",
                 "hidden_users_count": "",
                 "total_users": "",
                 "discussions": "",
                 "posts": "",
-                "latest_registration": "",
-                "online_label": "",
-                "guests_label": "",
-                "hidden_label": "",
-                "empty_online": "",
-                "viewing_unknown": "",
-                "viewing_page": ""
+                "latest_registration": "Người dùng mới nhất",
+                "online_label": "Trực tuyến",
+                "guests_label": "Khách",
+                "hidden_label": "Ẩn",
+                "empty_online": "Hiện không có ai trực tuyến.",
+                "viewing_unknown": "Đang xem diễn đàn",
+                "viewing_page": "Đang xem {page}"
             },
             "routes": {
-                "index": "",
+                "index": "Tất cả các cuộc thảo luận",
                 "discussion": "",
                 "tag": "",
                 "user": "",
