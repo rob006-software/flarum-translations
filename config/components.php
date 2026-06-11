@@ -1650,7 +1650,7 @@ return [
 		],
 	],
 	'spookygames-auth-keycloak' => [
-		'tag' => 'https://raw.githubusercontent.com/spookygames/flarum-ext-auth-keycloak/1.3.0.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/spookygames/flarum-ext-auth-keycloak/1.8.0.0/locale/en.yml',
 	],
 	'startracex-dark' => [
 		'tag' => 'https://raw.githubusercontent.com/startracex/flarum-dark/0.0.1/locale/en.yml',
