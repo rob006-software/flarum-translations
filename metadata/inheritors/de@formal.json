@@ -8879,6 +8879,63 @@
             }
         }
     },
+    "forumaker-statser.json": {
+        "forumaker-statser": {
+            "admin": {
+                "settings": {
+                    "exclude_bots": "48af9f1a425219c638c24b8cc07f8cea 48af9f1a425219c638c24b8cc07f8cea",
+                    "exclude_bots_help": "5de9a7a22f70fede681d79788de6d0a7 5de9a7a22f70fede681d79788de6d0a7",
+                    "include_guests_in_total": "733362338bc75284ad0432dfc823d7f9 733362338bc75284ad0432dfc823d7f9",
+                    "last_seen_interval": "ee7b231d343a7e1b1cfa7bc8f48c0a0b ee7b231d343a7e1b1cfa7bc8f48c0a0b",
+                    "last_seen_interval_help": "7cd649b6f6a6e5dab1da89bb2a0171ce 7cd649b6f6a6e5dab1da89bb2a0171ce",
+                    "online_users_cache_ttl": "ae56d806eccb6702856f4e747c56c49d ae56d806eccb6702856f4e747c56c49d",
+                    "section_activity": "c722be4844973ba3094fee65dd6890ec c722be4844973ba3094fee65dd6890ec",
+                    "section_online": "54f664c70c22054ea0d8d26fc3997ce7 54f664c70c22054ea0d8d26fc3997ce7",
+                    "show_discussions_count": "7508eed9b5a550e50d77bd550c508e85 7508eed9b5a550e50d77bd550c508e85",
+                    "show_hidden_users": "578dad180ac97c5d2b11b26203698258 578dad180ac97c5d2b11b26203698258",
+                    "show_hidden_users_help": "f9ba228ca76c8a533c90aa3f50059061 f9ba228ca76c8a533c90aa3f50059061",
+                    "show_latest_registration": "ce18fb9bd9d4f2c68c49bef3d7c2ff35 ce18fb9bd9d4f2c68c49bef3d7c2ff35",
+                    "show_online_guests": "965213792e8024b06dae0a40e70f9dfb 965213792e8024b06dae0a40e70f9dfb",
+                    "show_online_guests_help": "545af99783dfbe84da4c41a1fae1c1d5 545af99783dfbe84da4c41a1fae1c1d5",
+                    "show_online_users": "5c76aed3e9d5b908503b1b04df26eb0d 5c76aed3e9d5b908503b1b04df26eb0d",
+                    "show_online_users_help": "763aa51d24c45f8432bc16de2c91aaff 763aa51d24c45f8432bc16de2c91aaff",
+                    "show_posts_count": "707eb449cee32e75401aa167860efecb 707eb449cee32e75401aa167860efecb",
+                    "show_users_count": "1e46b8ecfb0fef7adfe96a4c5671bf9c 1e46b8ecfb0fef7adfe96a4c5671bf9c",
+                    "stats_cache_duration": "4233e3f4e7e5b75ce6bc972dfa24ef48 4233e3f4e7e5b75ce6bc972dfa24ef48",
+                    "stats_cache_duration_help": "db4f27d3c646e3ed1a749934ee025545 db4f27d3c646e3ed1a749934ee025545"
+                }
+            },
+            "forum": {
+                "routes": {
+                    "discussion": "378f176157ccc44f3b9f902a44875cf5 378f176157ccc44f3b9f902a44875cf5",
+                    "generic": "6438d2d4de1c2ee2c6fa4e09d5c6d090 6438d2d4de1c2ee2c6fa4e09d5c6d090",
+                    "index": "94ecee71f5133c5705f86ee21dc9e418 94ecee71f5133c5705f86ee21dc9e418",
+                    "notifications": "4ca35318d9013645ba93caa3637996e3 4ca35318d9013645ba93caa3637996e3",
+                    "search": "01a3368548edcbc7ec5914145267e96c 01a3368548edcbc7ec5914145267e96c",
+                    "settings": "27014dd1bf5fe7e41ced3bedfc4cd2aa 27014dd1bf5fe7e41ced3bedfc4cd2aa",
+                    "tag": "f161b3ce3cd19af631d7d9fbf93c1691 f161b3ce3cd19af631d7d9fbf93c1691",
+                    "tags": "c84369cb124912750ac1c1982a7b7e05 c84369cb124912750ac1c1982a7b7e05",
+                    "user": "34fad5bb3dfc5b0ede38533324da2844 34fad5bb3dfc5b0ede38533324da2844"
+                },
+                "widget": {
+                    "discussions": "e1c7551ff996456674353fb3b2e4a702 e1c7551ff996456674353fb3b2e4a702",
+                    "empty_online": "f74d2f75431ea8e1fac01645b682f721 f74d2f75431ea8e1fac01645b682f721",
+                    "guests_label": "6e0a3a1e0ece32ec07dc2eeed2140578 6e0a3a1e0ece32ec07dc2eeed2140578",
+                    "hidden_label": "2d6c7b67391ae6bb5b5930e44791630e 2d6c7b67391ae6bb5b5930e44791630e",
+                    "hidden_users_count": "f5f7017cf4624230436e8e79b4563205 f5f7017cf4624230436e8e79b4563205",
+                    "latest_registration": "257008d25cd4f1e01a23c3f1b2316c71 257008d25cd4f1e01a23c3f1b2316c71",
+                    "online_guests_count": "72325af129f18977d81b4b7b21e7c8aa 72325af129f18977d81b4b7b21e7c8aa",
+                    "online_label": "54f664c70c22054ea0d8d26fc3997ce7 54f664c70c22054ea0d8d26fc3997ce7",
+                    "online_users": "54f664c70c22054ea0d8d26fc3997ce7 54f664c70c22054ea0d8d26fc3997ce7",
+                    "online_users_count": "0b3588b038b1bbcbddb206f9f4f053f1 0b3588b038b1bbcbddb206f9f4f053f1",
+                    "posts": "b3bf0f7cc937a726316bf90e82a657c1 b3bf0f7cc937a726316bf90e82a657c1",
+                    "total_users": "d65584a1d0c583bf6e621c9ea4a668df d65584a1d0c583bf6e621c9ea4a668df",
+                    "viewing_page": "2d88f5ce839c1f1a218dc9d90d7b5478 2d88f5ce839c1f1a218dc9d90d7b5478",
+                    "viewing_unknown": "80c5f8c5ef82426626568c7d812b04af 80c5f8c5ef82426626568c7d812b04af"
+                }
+            }
+        }
+    },
     "forumaker-steam-oauth.json": {
         "fof-oauth": {
             "admin": {
