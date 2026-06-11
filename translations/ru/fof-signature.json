@@ -2,39 +2,39 @@
     "fof-signature": {
         "forum": {
             "buttons": {
-                "signature": "",
-                "save": "",
-                "edit": ""
+                "signature": "Подпись",
+                "save": "Сохранить подпись",
+                "edit": "Править подпись"
             },
             "errors": {
-                "max_char_limit_exceed": "",
-                "max_image_count_exceed": "",
+                "max_char_limit_exceed": "Превышен лимит символов.",
+                "max_image_count_exceed": "Превышен лимит изображений.",
                 "remote_images_not_allowed": "",
-                "save_failed": ""
+                "save_failed": "При сохранении подписи что-то пошло не так."
             },
             "editor": {
-                "placeholder": ""
+                "placeholder": "Отредактируйте свою подпись здесь"
             },
             "settings": {
-                "heading": ""
+                "heading": "Подпись"
             },
             "profile": {
-                "click": ""
+                "click": "Нажмите, чтобы оставить подпись"
             }
         },
         "admin": {
             "permissions": {
-                "edit_signature_others": "",
-                "allow_signature": ""
+                "edit_signature_others": "Править подписи пользователей",
+                "allow_signature": "Использовать подпись"
             },
             "settings": {
                 "maximum_image_count": {
-                    "description": "",
-                    "help": ""
+                    "description": "Лимит вставленных изображений.",
+                    "help": "Если пользователь превысит его, сохранение будет запрещено, пока количество изображений не будет соответствовать ограничению."
                 },
                 "maximum_char_limit": {
-                    "description": "",
-                    "help": ""
+                    "description": "Лимит символов.",
+                    "help": "Если пользователь превысит его, сохранение будет запрещено, пока количество символов не будет соответствовать ограничению."
                 },
                 "allow_remote_images": {
                     "description": "",
@@ -45,8 +45,8 @@
                     "help": ""
                 },
                 "allow_inline_editing": {
-                    "description": "",
-                    "help": ""
+                    "description": "Быстрая правка подписи.",
+                    "help": "Если включено, пользователи смогут править подпись при просмотре сообщения."
                 }
             }
         }
