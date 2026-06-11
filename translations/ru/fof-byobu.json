@@ -33,7 +33,7 @@
                 "nav_item": "Переписки"
             },
             "input": {
-                "search_recipients": "Поиск участников, указав первые три символа..."
+                "search_recipients": "Поиск участников по первым 3 символам..."
             },
             "search": {
                 "headings": {
@@ -110,7 +110,7 @@
                 "delete_on_last_recipient_left": "Удалять переписку, когда её покидает последний участник",
                 "delete_on_last_recipient_left_help": "Переписки будут безвозвратно удалены из базы данных, когда последний участник покидает их. В противном случае, переписка удаляется с возможностью восстановления.",
                 "hide_from_all_discussions_page": "Скрыть переписки на странице всех тем",
-                "hide_from_all_discussions_page_help": "Переписки будут доступны только на странице \"Переписки\" или в профиле пользователя"
+                "hide_from_all_discussions_page_help": "Переписки будут доступны только на странице «Переписки» или в профиле пользователя"
             }
         },
         "email": {
@@ -121,10 +121,10 @@
                 "private_discussion_added": "[Переписка] {display_name} добавил(а) вас в переписку"
             },
             "body": {
-                "private_discussion_created": "Пользователь {actor_display_name} создал переписку с вами: {discussion_title}.\n\nПерейти:\n{discussion_url}\n\nВозможно, сначала нужно войти в аккаунт, чтобы открыть ссылку.\n",
-                "private_discussion_replied": "Пользователь {actor_display_name} ответил в переписке, в которой вы участвуете: {discussion_title}.\n\nПерейти:\n{post_url}\n\nВозможно, сначала нужно войти в аккаунт, чтобы открыть ссылку.\n",
-                "recipient_removed": "Пользователь {actor_display_name} покинул переписку {discussion_title} и больше не сможет просматривать её содержимое.\n\nПерейти:\n{discussion_url}\n\nВозможно, сначала нужно войти в аккаунт, чтобы открыть ссылку.\n",
-                "private_discussion_added": "Пользователь {actor_display_name} добавил вас в существующую тему: {discussion_title}.\n\nПерейти:\n{discussion_url}\n\nВозможно, сначала нужно войти в аккаунт, чтобы открыть ссылку.\n"
+                "private_discussion_created": "Здравствуйте, {recipient_display_name}!\n\n{actor_display_name} создал(а) переписку с вами: {discussion_title}.\n\nОткрыть переписку:\n{discussion_url}\n\nВозможно, понадобится войти в аккаунт, чтобы перейти по ссылке.\n",
+                "private_discussion_replied": "Здравствуйте, {recipient_display_name}!\n\n{actor_display_name} оставил(а) сообщение в переписке {discussion_title}, в которой вы участвуете.\n\nПосмотреть сообщение:\n{post_url}\n\nВозможно, понадобится войти в аккаунт, чтобы перейти по ссылке.\n",
+                "recipient_removed": "Здравствуйте, {recipient_display_name}!\n\n{actor_display_name} покинул(а) переписку: {discussion_title}. Этот пользователь больше не сможет просматривать её содержимое.\n\nОткрыть переписку:\n{discussion_url}\n\nВозможно, понадобится войти в аккаунт, чтобы перейти по ссылке.\n",
+                "private_discussion_added": "Здравствуйте, {recipient_display_name}!\n\n{actor_display_name} добавил(а) вас в переписку: {discussion_title}.\n\nОткрыть переписку:\n{discussion_url}\n\nВозможно, понадобится войти в аккаунт, чтобы перейти по ссылке.\n"
             }
         }
     }
