@@ -14,19 +14,19 @@
                 "guests_label": "Invités",
                 "hidden_label": "Masqués",
                 "empty_online": "Il n'y a actuellement personne en ligne",
-                "viewing_unknown": "Consulte le forum",
-                "viewing_page": ""
+                "viewing_unknown": "Navigue sur le forum",
+                "viewing_page": "Consulte {page}"
             },
             "routes": {
                 "index": "toutes les discussions",
                 "discussion": "discussion « {title} »",
-                "tag": "",
+                "tag": "étiquette « {name} »",
                 "user": "profil de {name}",
                 "tags": "accueil",
                 "settings": "paramètres",
                 "notifications": "notifications",
-                "flags": "",
-                "search": "",
+                "flags": "signalements",
+                "search": "recherche",
                 "generic": "le forum"
             },
             "aria": {
@@ -59,7 +59,7 @@
                 "stats_cache_duration_help": "0 désactive la mise en cache. Non recommandé pour les forums volumineux",
                 "ignore_private_discussions": "Exclure les discussions privées dans le décompte",
                 "show_current_page": "Afficher la page actuellement consultée au survol de l'avatar",
-                "show_current_page_help": "",
+                "show_current_page_help": "Piste les principales sections du forum — discussions et profils. Sinon, affiche un libellé générique",
                 "enable_heartbeat": "Activer le pouls d'activité",
                 "enable_heartbeat_help": "Un onglet ouvert envoie périodiquement une requête qui met à jour l'état actif de l'utilisateur",
                 "heartbeat_interval": "Intervalle depuis le dernier pouls d'activité — en secondes",
