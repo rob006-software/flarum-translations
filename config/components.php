@@ -744,7 +744,7 @@ return [
 		],
 	],
 	'tryhackx-homepage-blocks' => [
-		'tag' => 'https://raw.githubusercontent.com/TryHackX/flarum-homepage-blocks/2.1.2/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/TryHackX/flarum-homepage-blocks/2.1.3/resources/locale/en.yml',
 		'__builtInLanguages' => [
 			'pl',
 		],
