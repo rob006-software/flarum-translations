@@ -3,15 +3,15 @@
         "forum": {
             "modal": {
                 "title": "Hợp nhất cuộc thảo luận",
-                "ordering_heading": "Hợp nhất thứ tự",
-                "ordering_date_label": "Hợp nhất các bài viết theo ngày",
-                "ordering_date_help": "Các bài viêtw trong cuộc thảo luận kết quả được sắp xếp lại theo ngày tạo cá nhân của họ",
+                "ordering_heading": "Thứ tự hợp nhất",
+                "ordering_date_label": "Hợp nhất các bài viết theo ngày tạo",
+                "ordering_date_help": "Các bài viết trong thảo luận sau khi hợp nhất sẽ được sắp xếp lại theo ngày tạo của từng bài",
                 "ordering_suffix_label": "Thêm các bài viết đã hợp nhất vào cuối cuộc thảo luận",
-                "ordering_suffix_help": "Các bài viết được hợp nhất vào cuộc thảo luận còn tồn tại sẽ được thêm vào cuối cuộc thảo luận",
+                "ordering_suffix_help": "Các bài viết được hợp nhất vào thảo luận được giữ lại sẽ được thêm vào cuối thảo luận",
                 "type_heading": "Kiểu hợp nhất",
-                "type_target_label": "Hợp nhất với tôi",
-                "type_target_help_text": "Chọn cuộc thảo luận để hợp nhất thành <b>{title}</b>.",
-                "type_from_label": "Hợp nhất cuộc thảo luận này thành cuộc thảo luận khác",
+                "type_target_label": "Hợp nhất vào thảo luận này",
+                "type_target_help_text": "Chọn (các) thảo luận để hợp nhất vào <b>{title}</b>.",
+                "type_from_label": "Hợp nhất thảo luận này vào một thảo luận khác",
                 "type_from_help_text": "Chọn cuộc thảo luận mục tiêu để hợp nhất <b>{title}</b> vào.",
                 "load_preview_button": "Xem trước",
                 "submit_button": "=> fof-merge-discussions.ref.merge"
@@ -19,14 +19,14 @@
             "notification": {
                 "discussion_merged": "Cuộc thảo luận <b>{oldTitle}</b> của bạn đã được gộp vào cuộc thảo luận này bởi {username}.",
                 "preferences": {
-                    "discussion_merged": "Ai đó gộp cuộc thảo luận của với cuộc thảo luận khác"
+                    "discussion_merged": "Ai đó gộp một thảo luận của tôi với thảo luận khác"
                 }
             },
             "discussion": {
                 "merge": "=> fof-merge-discussions.ref.merge"
             },
             "post": {
-                "merged": "{count, plural, one {Đã hợp nhất <b>#</b> bài viết {titles}.} other {Đã hợp nhất <b>#</b> các bài viết {titles}.}}"
+                "merged": "{count, plural, one {Đã hợp nhất <b>#</b> bài viết từ {titles}.} other {Đã hợp nhất <b>#</b> bài viết từ {titles}.}}"
             }
         },
         "admin": {

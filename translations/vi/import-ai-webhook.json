@@ -2,10 +2,10 @@
     "import-ai-webhook": {
         "admin": {
             "settings": {
-                "webhook_url_label": "",
-                "webhook_url_help": "",
-                "bearer_token_label": "",
-                "bearer_token_help": ""
+                "webhook_url_label": "URL Webhook",
+                "webhook_url_help": "Nhập URL để nhận các yêu cầu POST khi người dùng tạo hoặc chỉnh sửa bài viết. Dữ liệu gửi đi bao gồm loại sự kiện và toàn bộ dữ liệu mô hình của người dùng, bài viết, thảo luận và người thực hiện.",
+                "bearer_token_label": "Bearer Token",
+                "bearer_token_help": "Bearer token tùy chọn cho header Authorization. Token sẽ được gửi dưới dạng 'Authorization: Bearer <your-token>' kèm theo mỗi yêu cầu webhook."
             }
         }
     }

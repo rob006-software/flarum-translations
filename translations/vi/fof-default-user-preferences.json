@@ -2,18 +2,18 @@
     "fof-default-user-preferences": {
         "admin": {
             "settings": {
-                "discloseOnline": "",
-                "discloseOnline-help": "",
-                "indexProfile": "",
-                "indexProfile-help": "",
+                "discloseOnline": "Hiển thị trạng thái trực tuyến",
+                "discloseOnline-help": "Khi được bật, người dùng mới sẽ cho phép người khác thấy khi họ đang trực tuyến. Quản trị viên và những người dùng khác có quyền vẫn có thể thấy trạng thái trực tuyến bất kể cài đặt này.",
+                "indexProfile": "Lập chỉ mục hồ sơ",
+                "indexProfile-help": "Khi được bật, người dùng mới sẽ cho phép các công cụ tìm kiếm lập chỉ mục trang hồ sơ của họ, trừ khi bị chặn bởi cài đặt khác của trang hoặc tiện ích mở rộng.",
                 "followAfterReply": "Theo dõi sau khi trả lời",
-                "followAfterReply-help": "Khi được bật, người dùng mới sẽ tự động theo dõi các cuộc thảo luận mà họ trả lời hoặc nhận xét.",
-                "postMentioned": "Bài viết email được đề cập",
-                "postMentioned-help": "Khi được bật, người dùng mới sẽ tự động chọn nhận thông báo qua email khi một trong các bài đăng của họ được đề cập.",
-                "userMentioned": "Người dùng email được đề cập",
-                "userMentioned-help": "Khi được bật, người dùng mới sẽ tự động chọn nhận thông báo qua email khi họ được @ đề cập.",
-                "groupMentioned": "Gửi email được đề cập trong nhóm",
-                "groupMentioned-help": "Khi được bật, người dùng mới sẽ tự động chọn nhận thông báo qua email khi một nhóm mà họ thuộc về được đề cập."
+                "followAfterReply-help": "Khi được bật, người dùng mới sẽ tự động theo dõi các cuộc thảo luận mà họ trả lời hoặc bình luận.",
+                "postMentioned": "Email khi bài viết được nhắc đến",
+                "postMentioned-help": "Khi được bật, người dùng mới sẽ tự động nhận thông báo qua email khi một trong các bài viết của họ được nhắc đến.",
+                "userMentioned": "Email khi người dùng được nhắc đến",
+                "userMentioned-help": "Khi được bật, người dùng mới sẽ tự động nhận thông báo qua email khi họ được nhắc đến (@).",
+                "groupMentioned": "Email khi nhóm được nhắc đến",
+                "groupMentioned-help": "Khi được bật, người dùng mới sẽ tự động nhận thông báo qua email khi một nhóm mà họ tham gia được nhắc đến."
             }
         }
     }

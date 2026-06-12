@@ -7,17 +7,17 @@
         },
         "forum": {
             "post": {
-                "was_split_to": "{count, plural, one {{count} bài viết đã được tách đến {target}.} other {{count} bài viết đã được tách đến {target}.}}",
+                "was_split_to": "{count, plural, one {{count} bài viết đã được tách sang {target}.} other {{count} bài viết đã được tách sang {target}.}}",
                 "was_split_from": "{count, plural, one {{count} bài viết đã được tách khỏi {target}.} other {{count} bài viết đã được tách khỏi {target}.}}"
             },
             "split": {
                 "from": "Tách ở đây",
                 "to": "Tách đến đây",
-                "cancel": "Huỷ bỏ tách"
+                "cancel": "Hủy tách"
             },
             "modal": {
                 "title": "Tách cuộc thảo luận",
-                "new_discussion_label": "Gán tiêu đề cho cuộc thảo luận mới",
+                "new_discussion_label": "Nhập tiêu đề cho cuộc thảo luận mới",
                 "submit_button": "Tách"
             }
         }

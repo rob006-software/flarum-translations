@@ -2,49 +2,49 @@
     "fof-rich-text": {
         "admin": {
             "settings": {
-                "toggle_on_editor": ""
+                "toggle_on_editor": "Hiển thị nút chuyển chế độ rich text trên trình soạn thảo?"
             }
         },
         "lib": {
             "composer": {
-                "toggle_button": "",
-                "insert_button": "",
+                "toggle_button": "Chuyển đổi chế độ Rich Text",
+                "insert_button": "Chèn",
                 "insert_image": {
-                    "src_placeholder": "",
-                    "title_placeholder": ""
+                    "src_placeholder": "Liên kết",
+                    "title_placeholder": "Tiêu đề"
                 },
                 "insert_link": {
-                    "text_placeholder": "",
-                    "href_placeholder": "",
-                    "title_placeholder": "",
-                    "remove_button": ""
+                    "text_placeholder": "Văn bản",
+                    "href_placeholder": "URL",
+                    "title_placeholder": "Tiêu đề (hiển thị khi di chuột)",
+                    "remove_button": "Gỡ bỏ"
                 },
-                "additional_items_tooltip": "",
-                "bold_tooltip": "",
-                "code_tooltip": "",
-                "code_block_tooltip": "",
-                "header_tooltip": "",
-                "horizontal_rule_tooltip": "",
-                "image_tooltip": "",
-                "italic_tooltip": "",
-                "link_tooltip": "",
-                "ordered_list_tooltip": "",
-                "paragraph_tooltip": "",
-                "quote_tooltip": "",
-                "spoiler_block_tooltip": "",
-                "spoiler_inline_tooltip": "",
-                "strike_tooltip": "",
-                "sub_tooltip": "",
-                "sup_tooltip": "",
-                "text_type_tooltip": "",
-                "unordered_list_tooltip": ""
+                "additional_items_tooltip": "Điều khiển bổ sung",
+                "bold_tooltip": "Chữ đậm <{modifierKey}-b>",
+                "code_tooltip": "Mã trong dòng <{modifierKey}-`>",
+                "code_block_tooltip": "Chèn khối mã",
+                "header_tooltip": "Đổi thành tiêu đề {level} <shift-{modifierKey}-{level}>",
+                "horizontal_rule_tooltip": "Chèn đường kẻ ngang",
+                "image_tooltip": "Thêm hình ảnh",
+                "italic_tooltip": "Chữ nghiêng <{modifierKey}-i>",
+                "link_tooltip": "Thêm liên kết",
+                "ordered_list_tooltip": "Danh sách đánh số <shift-{modifierKey}-9>",
+                "paragraph_tooltip": "Đổi thành đoạn văn <shift-{modifierKey}-0>",
+                "quote_tooltip": "Chèn trích dẫn <{modifierKey}-q>",
+                "spoiler_block_tooltip": "Khối Spoiler/Thả xuống",
+                "spoiler_inline_tooltip": "Spoiler <{modifierKey}-;>",
+                "strike_tooltip": "Gạch ngang chữ <alt-shift-5>",
+                "sub_tooltip": "Chỉ số dưới <{modifierKey}-,>",
+                "sup_tooltip": "Chỉ số trên <{modifierKey}-.>",
+                "text_type_tooltip": "Chọn kiểu văn bản",
+                "unordered_list_tooltip": "Danh sách gạch đầu dòng <shift-{modifierKey}-8>"
             }
         },
         "forum": {
             "settings": {
-                "composer_heading": "",
-                "use_rich_text_editor_label": "",
-                "rich_text_compact_paragraphs_label": ""
+                "composer_heading": "Trình soạn thảo",
+                "use_rich_text_editor_label": "Sử dụng trình soạn thảo rich text?",
+                "rich_text_compact_paragraphs_label": "Không tách các đoạn văn bằng dòng trống."
             }
         }
     }

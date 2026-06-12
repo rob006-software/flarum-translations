@@ -7,11 +7,11 @@
                 "other_options_heading": "Tuỳ chọn khác",
                 "allow_multiple_roles_label": "Cho phép người dùng được gán nhiều vai trò",
                 "force_users_label": "Buộc người dùng gán ít nhất một vai trò cho chính họ",
-                "force_users_text": "Nếu được bật, những người dùng chưa có bất kỳ vai trò nào được chọn ở trên sẽ bị tạm ngưng và sẽ không thể sử dụng diễn đàn cho đến khi họ chỉ định vai trò cho chính họ (những người dùng có quyền chỉnh sửa nhóm người dùng được ngoại trừ)."
+                "force_users_text": "Nếu được bật, những người dùng chưa có vai trò nào được chọn ở trên sẽ bị đình chỉ và không thể sử dụng diễn đàn cho đến khi họ tự gán một vai trò cho mình (ngoại trừ những người dùng có quyền chỉnh sửa nhóm người dùng)."
             }
         },
         "forum": {
-            "suspended_temporarily_message": "Chúng tôi đã tạm thời tạm ngưng tài khoản của bạn cho đến khi bạn chọn một vai trò.",
+            "suspended_temporarily_message": "Chúng tôi đã tạm thời đình chỉ tài khoản của bạn cho đến khi bạn chọn một vai trò.",
             "choose_role_button_label": "=> sas_sam-regrole.ref.choose_a_role",
             "required_role_message": "Bạn phải chọn một vai trò.",
             "choose_role_modal": {

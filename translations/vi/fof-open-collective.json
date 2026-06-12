@@ -4,17 +4,17 @@
             "settings": {
                 "title": "FriendsOfFlarum Open Collective",
                 "use_legacy_api_key_label": "Sử dụng Khóa API Ứng dụng Cũ",
-                "use_legacy_api_key_help": "Nếu bạn có khóa API cũ, bạn có thể tiếp tục sử dụng khóa đó, nhưng bạn nên chuyển sang Mã thông báo cá nhân. Hiện tại, mã thông báo cá nhân có vẻ hoạt động ở chế độ Khóa API (tức là tiêu đề \"API-Key\"), nhưng điều này không được ghi chép lại.\n",
-                "api_key_label": "Mã khóa API ứng dụng (đã lỗi thời)",
-                "api_key_help": "",
-                "personal_token_label": "Mã token báo cá nhân",
-                "personal_token_help": "",
+                "use_legacy_api_key_help": "Nếu bạn có khóa API cũ, bạn có thể tiếp tục sử dụng, nhưng bạn nên chuyển sang mã token cá nhân. Hiện tại, mã token cá nhân có vẻ hoạt động ở chế độ Khóa API (tức là tiêu đề \"API-Key\"), nhưng điều này chưa được ghi trong tài liệu.\n",
+                "api_key_label": "Khóa API ứng dụng (đã lỗi thời)",
+                "api_key_help": "Phương thức xác thực này đã lỗi thời. Vui lòng cân nhắc chuyển sang dùng mã token cá nhân.",
+                "personal_token_label": "Mã token cá nhân",
+                "personal_token_help": "Tạo mã token cá nhân tại <a>https://opencollective.com/applications</a>. Token này được dùng để lấy thông tin người ủng hộ của bạn từ Open Collective.",
                 "slug_label": "Slug Collective",
-                "slug_help": "",
-                "group_label": "Nhóm để gán",
-                "group_help": "",
-                "onetime_group_label": "",
-                "onetime_group_help": "",
+                "slug_help": "Nhập slug của collective trên Open Collective của bạn (phần đứng sau opencollective.com/ trong URL của collective).",
+                "group_label": "Nhóm người ủng hộ định kỳ",
+                "group_help": "Chọn nhóm người dùng Flarum mà những người ủng hộ định kỳ sẽ được thêm vào. Người dùng sẽ được tự động thêm khi họ trở thành người ủng hộ định kỳ và được chuyển sang nhóm ủng hộ một lần (nếu đã cấu hình) khi gói đăng ký của họ kết thúc.",
+                "onetime_group_label": "Nhóm người ủng hộ một lần (Tùy chọn)",
+                "onetime_group_help": "Chọn nhóm người dùng Flarum mà những người ủng hộ một lần sẽ được thêm vào. Nếu không đặt, người ủng hộ một lần sẽ không được quản lý. Khi một người ủng hộ định kỳ hủy gói đăng ký, họ sẽ được chuyển sang nhóm này.",
                 "desc": "Lấy mã token cá nhân của bạn ở <a>https://opencollective.com/applications</a> trong mục Settings > For Developers. Không chọn bất kỳ phạm vi bổ sung nào - giữ nguyên lựa chọn mặc định là trống.\n"
             }
         }

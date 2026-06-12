@@ -13,7 +13,7 @@
         },
         "lib": {
             "browser": {
-                "filterPlaceholder": "Bộ lọc nhật ký",
+                "filterPlaceholder": "Lọc nhật ký",
                 "filterApply": "Áp dụng",
                 "empty": "Không có kết quả",
                 "loadMore": "Tải thêm",
@@ -40,20 +40,20 @@
                     "api_key": "Mã khoá API",
                     "access_token": "Mã token truy cập",
                     "cli": "Dòng lệnh",
-                    "unknown": "Khách hàng không xác định"
+                    "unknown": "Ứng dụng khách không xác định"
                 },
                 "controls": {
                     "hideRaw": "Ẩn nhật ký thô",
                     "showRaw": "Hiện nhật ký thô",
-                    "filterActor": "Hiện nhật ký của người trình bày này",
+                    "filterActor": "Hiện nhật ký của người thực hiện này",
                     "filterIp": "Hiện nhật ký theo IP này",
-                    "filterClient": "Hiện nhật ký theo loại khách hàng này",
+                    "filterClient": "Hiện nhật ký theo loại ứng dụng khách này",
                     "filterAction": "Hiện nhật ký có hành động giống nhau",
-                    "filterUser": "Hiện nhật ký có ảnh hưởng đến một người dùng",
-                    "filterDiscussion": "Hiện nhật ký có ảnh hưởng đến một cuộc thảo luận"
+                    "filterUser": "Hiện nhật ký ảnh hưởng đến cùng một người dùng",
+                    "filterDiscussion": "Hiện nhật ký ảnh hưởng đến cùng một cuộc thảo luận"
                 },
-                "audit_log_cleared": "Đã xóa {deleted_count} mục khỏi nhật ký kiểm tra",
-                "cache_cleared": "Xóa bộ nhớ cache theo cách thủ công",
+                "audit_log_cleared": "Đã xóa {deleted_count} mục khỏi nhật ký hoạt động",
+                "cache_cleared": "Đã xóa bộ nhớ đệm theo cách thủ công",
                 "discussion": {
                     "created": "Đã tạo cuộc thảo luận {discussion}",
                     "create_date_changed": "Đã đổi ngày tạo từ {old_date} thành {new_date} cho {discussion}",
@@ -64,8 +64,8 @@
                     "merged_into": "Đã hợp nhất {post_count} bài viết từ {original_discussion_ids_count} cuộc thảo luận vào {discussion}",
                     "renamed": "Đã đổi tên cuộc thảo luận {old_title} thành {new_title}",
                     "restored": "Đã khôi phục cuộc thảo luận {discussion}",
-                    "split_away": "ách {post_count} bài viết từ {discussion} vào {new_discussion}",
-                    "split_into": "Tách {post_count} bài viết vào cuộc thảo luận mới {discussion}",
+                    "split_away": "Đã tách {post_count} bài viết từ {discussion} sang {new_discussion}",
+                    "split_into": "Đã tách {post_count} bài viết vào cuộc thảo luận mới {discussion}",
                     "stickied": "Đã ghim cuộc thảo luận {discussion}",
                     "tagged": "Đã cập nhật thẻ cho {discussion} từ {old_tags} thành {new_tags}",
                     "unlocked": "Đã mở khoá cuộc thảo luận {discussion}",
@@ -73,8 +73,8 @@
                     "user_changed": "Đã đổi tác giả {old_user} thành {new_user} cho {discussion}"
                 },
                 "extension": {
-                    "disabled": "Tắt tiện ích mở rộng {package}",
-                    "enabled": "Bật tiện ích mở rộng {package}"
+                    "disabled": "Đã tắt tiện ích mở rộng {package}",
+                    "enabled": "Đã bật tiện ích mở rộng {package}"
                 },
                 "fof_ban_ips": {
                     "banned": "Đã cấm IP {ip}",
@@ -86,7 +86,7 @@
                     "created": "Đã đăng {post} trong {discussion}",
                     "create_date_changed": "Đã đổi ngày bắt đầu {post} của {postuser} từ {old_date} thành {new_date}",
                     "deleted": "Đã xóa {post} của {postuser} trong {discussion}",
-                    "dismissed_flags": "Đã gỡ gắn cờ trên {post} của {postuser} trong {discussion}",
+                    "dismissed_flags": "Đã gỡ cờ trên {post} của {postuser} trong {discussion}",
                     "edit_date_changed": "Đã sửa ngày chỉnh sửa {post} của {postuser} từ {old_date} thành {new_date}",
                     "flagged": "Đã gắn cờ {post} của {postuser} vì {reason} trong {discussion}",
                     "hidden": "Đã ẩn {post} của {postuser} trong {discussion}",
@@ -104,18 +104,18 @@
                 "user": {
                     "activated": "Đã kích hoạt thủ công tài khoản {username}",
                     "activated_with_email": "Đã kích hoạt tài khoản {username} bằng liên kết xác nhận",
-                    "avatar_changed": "{username} đã thay đổi ảnh đại diện",
-                    "avatar_removed": "{username} đã xoá ảnh đại diện",
-                    "bio_changed": "{username} đã chỉnh sửa tiểu sử",
-                    "created": "{username} đã tạo tài khoản",
+                    "avatar_changed": "Đã thay đổi ảnh đại diện của {username}",
+                    "avatar_removed": "Đã xoá ảnh đại diện của {username}",
+                    "bio_changed": "Đã chỉnh sửa tiểu sử của {username}",
+                    "created": "Đã tạo tài khoản của {username}",
                     "deleted": "Đã xoá {username}",
-                    "email_changed": "Đã dổi email của {username} từ {old_email} thành {new_email}",
-                    "email_change_requested": "{username} đã yêu cầu đổi email thành {new_email}",
+                    "email_changed": "Đã đổi email của {username} từ {old_email} thành {new_email}",
+                    "email_change_requested": "Đã yêu cầu đổi email của {username} thành {new_email}",
                     "groups_changed": "Đã đổi nhóm của {username} từ {old_groups} thành {new_groups}",
-                    "impersonated": "Mạo danh {username}",
+                    "impersonated": "Đã mạo danh {username}",
                     "logged_in": "Đã đăng nhập vào tài khoản {username}",
                     "logged_in_with_provider": "Đã đăng nhập vào tài khoản {username} bằng {provider}",
-                    "logged_out": "Đăng xuất tài khoản {username}",
+                    "logged_out": "Đã đăng xuất tài khoản {username}",
                     "nickname_changed": "Đã đổi biệt hiệu của {username} từ {old_nickname} thành {new_nickname}",
                     "nickname_requested": "Đã yêu cầu biệt hiệu mới {new_nickname} cho {username}",
                     "nickname_request_approved": "Đã chấp nhận thay đổi biệt hiệu của {username} từ {old_nickname} thành {new_nickname}",
@@ -123,8 +123,8 @@
                     "password_changed": "Đã thay đổi mật khẩu của {username}",
                     "password_change_requested": "Đã yêu cầu thay đổi mật khẩu của {username}",
                     "provider_connected": "Đã kết nối nhà cung cấp {provider} với tài khoản {username}",
-                    "suspended": "Đã cấm {username} cho đến {until}",
-                    "unsuspended": "Đã bỏ cấm {username}",
+                    "suspended": "Đã đình chỉ {username} đến {until}",
+                    "unsuspended": "Đã bỏ đình chỉ {username}",
                     "username_changed": "Đã đổi tên người dùng của {username} từ {old_username} thành {new_username}",
                     "username_requested": "Đã yêu cầu tên người dùng mới {new_username} cho {username}",
                     "username_request_approved": "Đã chấp nhận đổi tên người dùng {username} từ {old_username} thành {new_username}",
@@ -136,12 +136,12 @@
             "link": {
                 "discussion-audit": "Nhật ký hoạt động",
                 "user-audit": "Nhật ký hoạt động (chỉnh sửa tài khoản)",
-                "actor-audit": "Nhật ký hoạt động (người dùng là người trình bày)"
+                "actor-audit": "Nhật ký hoạt động (người dùng là người thực hiện)"
             },
             "modal": {
                 "discussion-title": "Nhật ký hoạt động cuộc thảo luận",
                 "user-title": "Nhật ký hoạt động người dùng",
-                "actor-title": "Nhật ký hoạt động người trình bày"
+                "actor-title": "Nhật ký hoạt động của người thực hiện"
             }
         }
     }

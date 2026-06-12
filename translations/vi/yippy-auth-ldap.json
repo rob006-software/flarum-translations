@@ -13,19 +13,19 @@
                     "no_domains": "Thiết lập quản trị chưa đặt tên miền nào, hãy chỉnh lại cài đặt tiện ích.",
                     "empty_host": "Tên miền {domain_index} chưa đặt Tên miền hoặc địa chỉ IP máy chủ, hãy chỉnh lại cài đặt tiện ích.",
                     "empty_base_dn": "Tên miền {domain_index} chưa đặt Base DN, hãy chỉnh lại cài đặt tiện ích.",
-                    "empty_user_username": "Tên miền {domain_index} để trống Flarum Hồ sơ người dùng - 'Trường tên người dùng', hãy chỉnh lại cài đặt tiện ích.",
-                    "empty_search_field": "Tên miền {domain_index} để trống LDAP Tìm kiếm tài khoản - 'Trường tìm kiếm', hãy chỉnh lại cài đặt tiện ích.",
-                    "username_field_does_not_exist": "Tên miền {domain_index} không tìm thấy tên người dùng cho Flarum Hồ sơ người dùng - `Trường tên người dùng` với `{data}`, hãy chỉnh lại cài đặt tiện ích.",
-                    "mail_field_does_not_exist": "Tên miền {domain_index} không tìm thấy email cho Flarum Hồ sơ người dùng - `Trường Email` với `{data}`, hãy chỉnh lại cài đặt tiện ích."
+                    "empty_user_username": "Tên miền {domain_index} đang để trống mục Hồ sơ người dùng Flarum - 'Trường tên người dùng', hãy chỉnh lại cài đặt tiện ích.",
+                    "empty_search_field": "Tên miền {domain_index} đang để trống mục Tìm kiếm tài khoản LDAP - 'Trường tìm kiếm', hãy chỉnh lại cài đặt tiện ích.",
+                    "username_field_does_not_exist": "Tên miền {domain_index} không tìm thấy tên người dùng cho mục Hồ sơ người dùng Flarum - `Trường tên người dùng` với `{data}`, hãy chỉnh lại cài đặt tiện ích.",
+                    "mail_field_does_not_exist": "Tên miền {domain_index} không tìm thấy email cho mục Hồ sơ người dùng Flarum - `Trường Email` với `{data}`, hãy chỉnh lại cài đặt tiện ích."
                 },
                 "account": {
                     "invalid_inputs": "Các trường nhập không được để trống",
                     "not_found": "Không thể tìm thấy tài khoản của bạn trong {server}.",
                     "incorrect_details": "Mật khẩu nhập không chính xác.",
                     "password_expired": "Mật khẩu của bạn đã hết hạn.",
-                    "disabled": "Tài khoản của bạn đã bị vô hiệu hóa, hãy liên hệ quản trị {server}.",
-                    "expired": "Tài khoản của bạn đã hết hạn, hãy liên hệ quản trị {server}.",
-                    "locked": "Tài khoản của bạn đã bị khóa, hãy liên hệ quản trị {server}."
+                    "disabled": "Tài khoản của bạn đã bị vô hiệu hóa, hãy liên hệ ban quản trị {server}.",
+                    "expired": "Tài khoản của bạn đã hết hạn, hãy liên hệ ban quản trị {server}.",
+                    "locked": "Tài khoản của bạn đã bị khóa, hãy liên hệ ban quản trị {server}."
                 }
             }
         },

@@ -3,7 +3,7 @@
         "admin": {
             "nav": {
                 "pwa_button": "Ứng dụng web hiện đại",
-                "pwa_text": "Định cấu hình Flarum để chạy dưới dạng Ứng dụng web hiện đại, có thể cài đặt trên thiết bị di động."
+                "pwa_text": "Cấu hình Flarum để chạy dưới dạng Ứng dụng web hiện đại, có thể cài đặt trên thiết bị di động."
             },
             "pwa": {
                 "about": {
@@ -18,14 +18,14 @@
                 "colors": {
                     "heading": "Màu sắc",
                     "background_color_label": "Màu nền",
-                    "background_color_text": "Màu này được sử dụng làm màu giữ chỗ cho màn hình giật gân được hiển thị khi PWA của bạn đang được tải. Nó không được sử dụng khi ứng dụng thực sự được tải.",
+                    "background_color_text": "Màu này được dùng làm màu giữ chỗ cho màn hình chờ (splash screen) hiển thị trong khi PWA của bạn đang tải. Nó không được sử dụng khi ứng dụng đã tải xong.",
                     "theme_color_label": "Màu chủ đề",
                     "theme_color_text": "Màu này đôi khi được các thiết bị sử dụng khi hiển thị ứng dụng của bạn, chẳng hạn như trên trình chuyển đổi tác vụ của Android, làm màu bao quanh trang web."
                 },
                 "maintenance": {
                     "heading": "Bảo trì",
                     "debug_label": "Chế độ gỡ lỗi?",
-                    "debug_text": "Thao tác này sẽ ghi thông tin về các thông báo vào `storage/logs`. Nói chung, nó nên được vô hiệu hóa để tránh điền vào nhật ký một cách không cần thiết.",
+                    "debug_text": "Thao tác này sẽ ghi thông tin về các thông báo vào `storage/logs`. Nói chung nên tắt tùy chọn này để tránh làm đầy nhật ký một cách không cần thiết.",
                     "reset_vapid_text": "Thao tác này sẽ tạo lại các khóa VAPID và xóa mọi đăng ký hiện có bằng các khóa VAPID hiện tại.",
                     "reset_vapid_confirm": "Đặt lại khóa VAPID sẽ xóa mọi đăng ký bằng các khóa hiện có, vì vậy người dùng sẽ không nhận được bất kỳ thông báo nào cho đến lần tiếp theo họ truy cập trang web của bạn. Điều này chỉ nên được thực hiện khi thiết lập thông báo đẩy lần đầu tiên hoặc nếu thông báo đẩy hoàn toàn không hoạt động và có cảnh báo về việc thiếu khóa VAPID ở trên.",
                     "reset_vapid_success": "Đặt lại thành công khóa VAPID. {count} đăng ký đã được đặt lại. Tải lại trang để xem báo cáo kiểm tra trạng thái cập nhật."
@@ -39,8 +39,8 @@
                 },
                 "other": {
                     "heading": "Khác",
-                    "force_portrait_text": "Buộc định hướng cổng?",
-                    "push_notif_preference_default_to_email_label": "Tùy chọn đẩy mặc định vào email?",
+                    "force_portrait_text": "Buộc hiển thị theo chiều dọc?",
+                    "push_notif_preference_default_to_email_label": "Mặc định tùy chọn thông báo đẩy theo email?",
                     "push_notif_preference_default_to_email_text": "Nếu bật, người dùng sẽ bật thông báo đẩy theo mặc định cho tất cả các loại thông báo trong đó thông báo email được bật theo mặc định. Nếu tắt, người dùng sẽ tắt thông báo đẩy theo mặc định.",
                     "user_max_subscriptions_label": "Số lượng đăng ký đẩy tối đa cho mỗi người dùng",
                     "user_max_subscriptions_text": "Mỗi người dùng có thể có bao nhiêu đăng ký đẩy tại một thời điểm? Khi người dùng nhận được thông báo đẩy, mỗi đăng ký sẽ dẫn đến lệnh gọi API. Mỗi đăng ký thường tương ứng với một trình duyệt mà người dùng đã sử dụng.",
@@ -48,10 +48,10 @@
                     "window_controls_overlay_text": "Nếu bật, người dùng sẽ có trải nghiệm giống như ứng dụng gốc hơn bằng cách ẩn thanh tiêu đề gốc. Việc bật hoặc không bật Lớp phủ điều khiển cửa sổ phụ thuộc vào sở thích của người dùng và tính tương thích của trình duyệt. Bạn phải tùy chỉnh thanh tiêu đề của mình bằng cách thêm một số CSS/JS sau khi bật, nếu không các điều khiển sẽ chồng lên một số phần tử của thanh điều hướng trên cùng của diễn đàn và cửa sổ hầu như không thể kéo, dẫn đến trải nghiệm tồi tệ.\n\nXem thêm: <compatibilitylink>Tính tương thích của Lớp phủ điều khiển cửa sổ</compatibilitylink> & <learnlink>Về Lớp phủ điều khiển cửa sổ trên Microsoft Learn</learnlink>\n"
                 },
                 "heading": "Cấu hình ứng dụng web hiện đại",
-                "text": "Cấu hình trang web Flarum của bạn để chạy như một ứng dụng web hiện đại! Xin lưu ý rằng điều này không tự động đưa trang web của bạn vào cửa hàng ứng dụng. Thay vào đó, điều này có nghĩa là người dùng có tùy chọn 'Thêm vào Màn hình chính' cho trang web của bạn. Chúng tôi cung cấp một số kiểm tra trạng thái, tuy nhiên, cách tốt nhất để kiểm tra điều này là thử và cài đặt nó (tìm kiếm trên google để biết hướng dẫn về cách cài đặt ứng dụng web hiện đại). Ngoài ra, hãy nhớ rằng cửa sổ bật lên 'cài đặt PWA này' được kiểm soát bởi trình duyệt và không thể được kích hoạt bởi nhà phát triển / quản trị viên / chương trình. Tôi khuyên bạn nên bao gồm các hướng dẫn về cách cài đặt PWA trong tài liệu của trang web của bạn.",
-                "status_check_heading": "Kiểm tra tình trạng",
+                "text": "Cấu hình trang web Flarum của bạn để chạy như một ứng dụng web hiện đại! Xin lưu ý rằng điều này không tự động đưa trang web của bạn lên cửa hàng ứng dụng. Thay vào đó, người dùng sẽ có tùy chọn 'Thêm vào màn hình chính' cho trang web của bạn. Chúng tôi cung cấp một số bước kiểm tra trạng thái, tuy nhiên cách tốt nhất để kiểm tra là thử cài đặt nó (tìm trên Google hướng dẫn cách cài đặt ứng dụng web hiện đại). Ngoài ra, hãy lưu ý rằng cửa sổ bật lên 'cài đặt PWA này' do trình duyệt kiểm soát và không thể được kích hoạt bởi nhà phát triển/quản trị viên/chương trình. Bạn nên đưa hướng dẫn cách cài đặt PWA vào tài liệu của trang web mình.",
+                "status_check_heading": "Kiểm tra trạng thái",
                 "logo_heading": "Logo và Icon",
-                "logo_text": "Bạn phải tải lên ít nhất một logo để có thể cài đặt ứng dụng web hiện đại của mình. Xin lưu ý rằng tất cả các logo phải có hình vuông; nếu không, chúng sẽ được thay đổi kích thước và có thể kéo dài.\n\nCó một số tùy chọn kích thước có sẵn bên dưới. Tôi khuyên bạn nên cố gắng tải logo lên càng nhiều càng tốt: điều này hỗ trợ nhiều thiết bị hơn.\n\nXin lưu ý rằng bạn có thể tải 1 logo lớn lên đầu vào cho các logo nhỏ hơn. Ví dụ: bạn có thể tải lên logo 1000px x 1000px cho TẤT CẢ các đầu vào tệp bên dưới. Tuy nhiên, nếu bạn cố gắng tải logo 50px x 50px lên đầu vào 512x512, nó sẽ bị kéo giãn rất nhiều.\n",
+                "logo_text": "Bạn phải tải lên ít nhất một logo để ứng dụng web hiện đại của bạn có thể cài đặt được. Xin lưu ý rằng tất cả logo phải là hình vuông; nếu không, chúng sẽ bị thay đổi kích thước và có thể bị kéo giãn.\n\nCó một số tùy chọn kích thước bên dưới. Bạn nên cố gắng tải logo lên càng nhiều ô càng tốt: điều này giúp hỗ trợ nhiều thiết bị hơn.\n\nXin lưu ý rằng bạn có thể tải 1 logo lớn vào các ô dành cho logo nhỏ hơn. Ví dụ: bạn có thể tải logo 1000px x 1000px vào TẤT CẢ các ô tải tệp bên dưới. Tuy nhiên, nếu bạn tải logo 50px x 50px vào ô 512x512, nó sẽ bị kéo giãn rất nhiều.\n",
                 "logo_size_text": "Tải lên logo sẽ được chia tỷ lệ thành kích thước {size} pixel x {size} pixel.",
                 "submit_button": "Lưu thiết lập",
                 "refreshed_message": "Đã làm mới cấu hình PWA thành công."
@@ -69,7 +69,7 @@
         },
         "forum": {
             "alerts": {
-                "optin": "Bạn đã bật thông báo đẩy nhưng chưa định cấu hình thiết bị này.",
+                "optin": "Bạn đã bật thông báo đẩy nhưng chưa cấu hình thiết bị này.",
                 "optin_button": "Cấu hình"
             },
             "discussion_controls": {

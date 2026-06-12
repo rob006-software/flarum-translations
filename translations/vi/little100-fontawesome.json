@@ -2,17 +2,17 @@
     "little100-fontawesome": {
         "admin": {
             "settings": {
-                "type": "",
-                "type_free": "",
-                "type_kit": "",
-                "kit_url": "",
-                "kit_url_help": "",
+                "type": "Loại thư viện Font Awesome",
+                "type_free": "Font Awesome 7 Free (CDN)",
+                "type_kit": "Font Awesome 7 Kit (Free/Pro)",
+                "kit_url": "(Nếu đã chọn) URL đến kit Font Awesome của bạn",
+                "kit_url_help": "Hãy đảm bảo kit của bạn được đặt thành 'Web Font', sau đó dán URL của kit vào bên dưới.",
                 "test": {
-                    "heading": "",
-                    "desc": "",
-                    "fa5_compat": "",
-                    "fa6_free": "",
-                    "fa7_free": ""
+                    "heading": "Kiểm tra biểu tượng",
+                    "desc": "Dưới đây là một số bài kiểm tra giúp bạn xác minh các biểu tượng có hoạt động đúng hay không. Bạn có thể cần tải lại trang nếu đã thay đổi cài đặt. Nếu bạn thấy hình vuông/chữ nhật thay vì biểu tượng, nghĩa là bộ này không hoạt động đúng.",
+                    "fa5_compat": "Tương thích FontAwesome 5",
+                    "fa6_free": "FontAwesome 6 Free",
+                    "fa7_free": "FontAwesome 7 Free (openai)"
                 }
             }
         }

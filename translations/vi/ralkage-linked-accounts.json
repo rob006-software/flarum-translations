@@ -2,74 +2,74 @@
     "ralkage-linked-accounts": {
         "admin": {
             "tabs": {
-                "settings": "",
-                "logs": ""
+                "settings": "Cài đặt",
+                "logs": "Nhật ký hoạt động"
             },
             "settings": {
-                "max_accounts": "",
-                "max_accounts_help": "",
-                "log_retention_days": "",
-                "log_retention_days_help": ""
+                "max_accounts": "Số tài khoản liên kết tối đa",
+                "max_accounts_help": "Số tài khoản tối đa mà một người dùng có thể liên kết. Đặt thành 0 để không giới hạn.",
+                "log_retention_days": "Thời gian lưu nhật ký (ngày)",
+                "log_retention_days_help": "Số ngày lưu giữ nhật ký hoạt động. Đặt thành 0 để lưu vĩnh viễn."
             },
             "permissions": {
-                "use": "",
-                "create": "",
-                "view_any": ""
+                "use": "Sử dụng tài khoản liên kết",
+                "create": "Tạo tài khoản liên kết mới",
+                "view_any": "Xem tài khoản liên kết của bất kỳ người dùng nào"
             },
             "logs": {
-                "title": "",
-                "clear": "",
-                "clear_confirm": "",
-                "empty": "",
-                "parent": "",
-                "child": "",
-                "action": "",
-                "ip": "",
-                "date": "",
-                "load_more": ""
+                "title": "Nhật ký hoạt động tài khoản liên kết",
+                "clear": "Xóa tất cả nhật ký",
+                "clear_confirm": "Bạn có chắc chắn muốn xóa tất cả nhật ký tài khoản liên kết không? Thao tác này không thể hoàn tác.",
+                "empty": "Chưa có hoạt động nào được ghi lại.",
+                "parent": "Tài khoản chính",
+                "child": "Tài khoản liên kết",
+                "action": "Hành động",
+                "ip": "Địa chỉ IP",
+                "date": "Ngày",
+                "load_more": "Tải thêm"
             }
         },
         "forum": {
             "nav": {
-                "linked_accounts": ""
+                "linked_accounts": "Tài khoản liên kết"
             },
-            "revert_to": "",
+            "revert_to": "Quay lại {name}",
             "composer": {
-                "post_as": ""
+                "post_as": "Đăng với tư cách:"
             },
             "page": {
-                "title": "",
-                "switched_notice": "",
-                "revert": "",
-                "no_accounts": "",
-                "linked_on": "",
-                "switch": "",
-                "current": "",
-                "unlink": "",
-                "unlink_confirm": "",
-                "max_reached": "",
-                "create_new": "",
-                "link_existing": "",
-                "create_title": "",
-                "create_description": "",
-                "link_title": "",
-                "link_description": "",
-                "username": "",
-                "username_placeholder": "",
-                "email": "",
-                "email_placeholder": "",
-                "password": "",
-                "password_placeholder": "",
-                "link_password_placeholder": "",
-                "identification": "",
-                "identification_placeholder": "",
-                "create_submit": "",
-                "link_submit": "",
-                "create_success": "",
-                "link_success": "",
-                "unlink_success": "",
-                "switch_to_parent": "",
-                "child_info": ""
+                "title": "Tài khoản liên kết",
+                "switched_notice": "Bạn hiện đang sử dụng một tài khoản liên kết. Tài khoản chính của bạn là {name}.",
+                "revert": "Quay lại tài khoản chính",
+                "no_accounts": "Bạn chưa liên kết tài khoản nào. Hãy tạo một tài khoản mới hoặc liên kết một tài khoản hiện có để bắt đầu.",
+                "linked_on": "Đã liên kết {date}",
+                "switch": "Chuyển đổi",
+                "current": "Hiện tại",
+                "unlink": "Hủy liên kết",
+                "unlink_confirm": "Bạn có chắc chắn muốn hủy liên kết tài khoản này không? Tài khoản vẫn sẽ tồn tại nhưng không còn được liên kết nữa.",
+                "max_reached": "Bạn đã đạt giới hạn tối đa {max} tài khoản liên kết.",
+                "create_new": "Tạo tài khoản mới",
+                "link_existing": "Liên kết tài khoản hiện có",
+                "create_title": "Tạo tài khoản liên kết mới",
+                "create_description": "Tạo một tài khoản hoàn toàn mới sẽ được liên kết với tài khoản hiện tại của bạn.",
+                "link_title": "Liên kết một tài khoản hiện có",
+                "link_description": "Liên kết một tài khoản đã tồn tại. Bạn cần cung cấp mật khẩu của tài khoản đó để xác minh quyền sở hữu.",
+                "username": "Tên người dùng",
+                "username_placeholder": "Nhập tên người dùng cho tài khoản mới",
+                "email": "Email",
+                "email_placeholder": "Nhập email cho tài khoản mới",
+                "password": "Mật khẩu",
+                "password_placeholder": "Nhập mật khẩu cho tài khoản mới (không bắt buộc)",
+                "link_password_placeholder": "Nhập mật khẩu của tài khoản để xác minh",
+                "identification": "Tên người dùng hoặc Email",
+                "identification_placeholder": "Nhập tên người dùng hoặc email của tài khoản hiện có",
+                "create_submit": "Tạo tài khoản",
+                "link_submit": "Liên kết tài khoản",
+                "create_success": "Đã tạo tài khoản liên kết mới thành công!",
+                "link_success": "Đã liên kết tài khoản thành công!",
+                "unlink_success": "Đã hủy liên kết tài khoản thành công.",
+                "switch_to_parent": "Chuyển sang tài khoản chính",
+                "child_info": "Đây là một tài khoản liên kết. Để quản lý các tài khoản liên kết, tạo tài khoản mới hoặc liên kết tài khoản hiện có, hãy chuyển về tài khoản chính."
             }
         }
     }

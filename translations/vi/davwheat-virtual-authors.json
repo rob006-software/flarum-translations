@@ -25,8 +25,8 @@
                 "description": "Mô tả",
                 "no_description": "=> davwheat-virtual-authors.ref.no_description",
                 "edit": "Chỉnh sửa tác giả ảo",
-                "delete_confirmation": "Xoá tác giả ảo?",
-                "delete_a11y_tooltip": "Xoá"
+                "delete_confirmation": "Xóa tác giả ảo?",
+                "delete_a11y_tooltip": "Xóa"
             }
         },
         "lib": {
@@ -34,7 +34,7 @@
                 "title_edit": "Chỉnh sửa tác giả ảo",
                 "title_new": "Thêm tác giả ảo",
                 "submit_edit": "Lưu thay đổi",
-                "submit_new": "Tạo tác giả tạo",
+                "submit_new": "Tạo tác giả ảo",
                 "fields": {
                     "name": "Tên hiển thị",
                     "description": "Mô tả (về tác giả)"
@@ -45,7 +45,7 @@
         "forum": {
             "virtual_author_page": {
                 "meta_title": "{displayName} - Tác giả",
-                "credited_discussions": "Cuộc thảo luận được ghi có cho {displayName}",
+                "credited_discussions": "Các thảo luận được ghi nhận cho {displayName}",
                 "discussion_count": "=> davwheat-virtual-authors.ref.discussion_count"
             },
             "virtual_authors_list": {
@@ -55,12 +55,12 @@
                 "meta_title": "Tất cả tác giả",
                 "filter_name_placeholder": "Lọc theo tên",
                 "discussion_count": "=> davwheat-virtual-authors.ref.discussion_count",
-                "no_description": "Tác giả này giữ một bầu không khí bí ẩn về họ."
+                "no_description": "Tác giả này vẫn là một ẩn số."
             },
             "virtual_authors_panel": {
                 "heading": "Tác giả",
                 "error": "Không thể tải các tác giả.",
-                "item_link_tooltip": "Xem tất cả các cuộc thảo luận bởi {displayName}"
+                "item_link_tooltip": "Xem tất cả thảo luận của {displayName}"
             },
             "discussion_controls": {
                 "set_virtual_authors": "Đặt tác giả ảo"
@@ -71,9 +71,9 @@
                 "add_new": "Chọn tác giả ảo mới",
                 "none_existing": "Không có tác giả ảo nào được chọn.",
                 "search": "Tìm kiếm tác giả ảo",
-                "credit_placeholder": "Tín dụng (tùy chọn)",
-                "delete_confirmation": "Xoá tác giả ảo khỏi cuộc thảo luận?",
-                "delete_button": "Xoá",
+                "credit_placeholder": "Ghi nhận (tùy chọn)",
+                "delete_confirmation": "Gỡ tác giả ảo khỏi thảo luận?",
+                "delete_button": "Gỡ bỏ",
                 "add_button": "Thêm",
                 "added_button": "Đã thêm",
                 "no_description": "=> davwheat-virtual-authors.ref.no_description",
@@ -82,7 +82,7 @@
             }
         },
         "ref": {
-            "no_description": "(không có đặt mô tả)",
+            "no_description": "(chưa đặt mô tả)",
             "discussion_count": "{count, plural, one {# cuộc thảo luận} other {# cuộc thảo luận}}"
         }
     }

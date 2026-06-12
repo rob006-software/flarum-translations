@@ -11,7 +11,7 @@
             "nickname_modals": {
                 "action": {
                     "title": "=> fof-username-request.ref.nickname_change_request",
-                    "help_text": "Hãy đảm bảo rằng sự thay đổi biệt hiệu được yêu cầu này tuân theo các nguyên tắc của diễn đàn.",
+                    "help_text": "Hãy đảm bảo rằng yêu cầu thay đổi biệt hiệu này tuân theo các nguyên tắc của diễn đàn.",
                     "decision_title": "Quyết định",
                     "approval_label": "Phê duyệt",
                     "rejected_label": "Từ chối",
@@ -21,7 +21,7 @@
                     "name": "{name} đã yêu cầu thay đổi biệt hiệu của họ thành \"{requestedName}\""
                 },
                 "results": {
-                    "title": "Yêu cầu đổi tên người dùng",
+                    "title": "Yêu cầu thay đổi biệt hiệu",
                     "approved": "Yêu cầu thay đổi biệt hiệu của bạn đã được chấp thuận",
                     "dismiss_button": "=> core.ref.okay",
                     "new_name": "Biệt hiệu của bạn đã được đổi thành công thành: {name}",
@@ -99,7 +99,7 @@
             "body": {
                 "noReasonProvided": "Không có lý do nào được cung cấp.",
                 "approved": "Xin chào {recipient_display_name},\n\nYêu cầu thay đổi tên người dùng của bạn thành \"{new_username}\" đã được chấp nhận bởi {actor_display_name}.\n\nBây giờ bạn có thể đăng nhập bằng tên người dùng mới của bạn: {login_url}\n",
-                "rejected": "Xin chào {recipient_display_name},\n\nYêu cầu của bạn để thay đổi tên người dùng từ \"{old_username}\" thành \"{requested_username}\" đã bị từ chối bởi {actor_display_name}.\n\nLý do: {reason}\n"
+                "rejected": "Xin chào {recipient_display_name},\n\nYêu cầu thay đổi tên người dùng của bạn từ \"{old_username}\" thành \"{requested_username}\" đã bị {actor_display_name} từ chối.\n\nLý do: {reason}\n"
             },
             "subject": {
                 "approved": "{display_name} đã chấp nhận yêu cầu thay đổi tên người dùng của bạn thành {requested_username}",

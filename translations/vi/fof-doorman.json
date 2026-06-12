@@ -68,7 +68,7 @@
                     "group": "Gửi lời mời cho nhóm {group}",
                     "help": "Chấp nhận danh sách phân tách bằng dấu phẩy, dấu cách, hoặc dấu phẩy kèm dấu cách. Nhập từng email hoặc dán một danh sách rồi nhấn phím cách để thêm.",
                     "placeholder": "Nhập email tại đây",
-                    "invalid_emails": "Email không hợp lệ: {emails}",
+                    "invalid_emails": "Các email sau không hợp lệ: {emails}",
                     "max_use_conflict": "Số lượng email vượt quá số lần sử dụng tối đa của mã này.",
                     "send": "Gửi email",
                     "success": "Đã gửi email thành công"
@@ -94,7 +94,7 @@
                 "content": {
                     "invalid_column": "=> core.admin.users.grid.invalid_column_content",
                     "no_group": "=> core.admin.users.grid.columns.group_badges.no_badges",
-                    "warning": "Mã mời này đã được sử dụng tối đa số lần.",
+                    "warning": "Mã mời này đã được sử dụng hết số lần cho phép.",
                     "delete": "Bạn có chắc chắn muốn xóa mã mời \"{key}\" không?",
                     "uses": {
                         "used_times": "{remaining, plural, =0 {Không giới hạn lượt dùng} one {Còn {remainingUses} lượt} other {Còn {remainingUses} lượt}}",
@@ -114,7 +114,7 @@
             "modal": {
                 "title": "Gửi mã mời",
                 "group": "Gửi lời mời cho nhóm {group}",
-                "help": "Chấp nhận danh sách được phân tách bằng dấu phẩy, dấu cách hoặc dấu cách bằng dấu phẩy. Nhập một email riêng lẻ hoặc dán một danh sách, sau đó nhấn dấu cách để thêm chúng.",
+                "help": "Chấp nhận danh sách phân tách bằng dấu phẩy, dấu cách hoặc dấu phẩy kèm dấu cách. Nhập từng email hoặc dán một danh sách rồi nhấn phím cách để thêm.",
                 "placeholder": "Nhập email vào đây",
                 "invalid_emails": "Email sau không hợp lệ: {emails}",
                 "max_use_conflict": "Số lượng email vượt quá số lần sử dụng tối đa cho mã này.",
@@ -122,23 +122,23 @@
                 "success": "Gửi email thành công"
             },
             "invalid_doorkey": "Mã mời bạn cung cấp không hợp lệ.",
-            "doorkey_required": "Bạn phải cung cấp Mã mời",
+            "doorkey_required": "Bạn phải cung cấp mã mời.",
             "nav": {
                 "desc": "Tạo mã mời để người dùng đăng ký và được thêm vào nhóm"
             },
             "page": {
-                "title": "Người gác cửa",
+                "title": "Doorman",
                 "doorkey": {
-                    "used_times": "{remaining, plural, =0 {Không giới hạn lượt sử dụng} one {{remaining} lượt sử dụng còn lại} other {{remaining} lượt sử dụng còn lại}}\"",
+                    "used_times": "{remaining, plural, =0 {Không giới hạn lượt sử dụng} one {Còn {remaining} lượt sử dụng} other {Còn {remaining} lượt sử dụng}}",
                     "total_uses": "{totalUses, plural, one {Đã sử dụng {totalUses} lần} other {Đã sử dụng {totalUses} lần}}",
                     "title": "Mã mời",
                     "help": {
                         "key": "Mã khóa: Mã người dùng sẽ nhập khi đăng ký.",
                         "group": "Nhóm: Nhóm mà người dùng sẽ được thêm vào khi đăng ký.",
-                        "max": "Số lần sử dụng tối đa: Số lần mã tối đa có thể được sử dụng, được đặt thành 0 để sử dụng không giới hạn",
+                        "max": "Số lần sử dụng tối đa: Số lần tối đa mã có thể được sử dụng, đặt 0 để không giới hạn.",
                         "activates": "Kích hoạt người dùng: Tự động kích hoạt người dùng khi họ đăng ký."
                     },
-                    "warning": "Mã mời này đã được sử dụng số lần tối đa.",
+                    "warning": "Mã mời này đã được sử dụng hết số lần cho phép.",
                     "key": "Mã khóa",
                     "max_uses": "Lượt sử dụng tối đa",
                     "heading": {

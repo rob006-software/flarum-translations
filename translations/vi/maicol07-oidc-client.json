@@ -3,10 +3,10 @@
         "admin": {
             "settings": {
                 "client": {
-                    "title": "Thiết lập khách hàng",
-                    "subtitle": "Thêm thông tin khách hàng do nhà cung cấp OpenID Connect của bạn cung cấp. Để được trợ giúp thêm, hãy kiểm tra tài liệu.\n",
-                    "id": "ID khách hàng",
-                    "secret": "Mã bí mật khách hàng",
+                    "title": "Cài đặt ứng dụng khách",
+                    "subtitle": "Thêm thông tin ứng dụng khách (client) do nhà cung cấp OpenID Connect của bạn cung cấp. Để được trợ giúp thêm, hãy xem tài liệu.\n",
+                    "id": "Client ID",
+                    "secret": "Client Secret",
                     "enable_pkce": "Bật PKCE (khuyến nghị)",
                     "enable_nonce": "Bật xác minh nonce (khuyến nghị)",
                     "http_proxy": "HTTP proxy",
@@ -14,7 +14,7 @@
                     "verify_ssl": "Xác minh SSL trong quá trình yêu cầu",
                     "timeout": "Thời gian chờ yêu cầu",
                     "allow_implicit_flow": "Sử dụng implicit flow (không khuyến nghị)",
-                    "skip_email_verified_check": "Bỏ qua kiểm tra xác nhận email (hữu ích cho các nhà cung cấp không tuân thủ không cung cấp xác nhận này, ví dụ: Casdoor)"
+                    "skip_email_verified_check": "Bỏ qua kiểm tra claim email đã xác minh (hữu ích với các nhà cung cấp không tuân thủ chuẩn và không cung cấp claim này, ví dụ: Casdoor)"
                 },
                 "callback_title": "URI gọi lại",
                 "callback_subtitle": "Đây là các URI gọi lại bạn cần đăng ký trên nhà cung cấp của mình để lấy mã ủy quyền ứng dụng khách và đăng xuất khỏi nhà cung cấp, nếu tùy chọn liên quan đã được bật.",
@@ -31,7 +31,7 @@
                         "jwks": "URL điểm cuối JWKS"
                     },
                     "issuer": "URL nhà phát hành",
-                    "code_challenge_method": "Phương thức thách thức mã",
+                    "code_challenge_method": "Phương thức code challenge",
                     "response_type": "Kiểu phản hồi của nhà cung cấp đối với ủy quyền",
                     "id_token_signing_alg": "Thuật toán ký ID token",
                     "authorization_response_iss_parameter_supported": "Hỗ trợ tham số iss trong phản hồi ủy quyền",
@@ -50,10 +50,10 @@
                     "time_drift": "Độ lệch thời gian JWT"
                 },
                 "provider_name": "Tên nhà cung cấp OpenID Connect",
-                "client_settings_title": "Thiết lập khách hàng",
-                "client_settings_subtitle": "Thêm thông tin khách hàng do nhà cung cấp OpenID Connect của bạn cung cấp. Để được trợ giúp thêm, hãy kiểm tra tài liệu.",
-                "client_id": "ID khách hàng",
-                "client_secret": "Mã bí mật khách hàng",
+                "client_settings_title": "Cài đặt ứng dụng khách",
+                "client_settings_subtitle": "Thêm thông tin ứng dụng khách (client) do nhà cung cấp OpenID Connect của bạn cung cấp. Để được trợ giúp thêm, hãy xem tài liệu.",
+                "client_id": "Client ID",
+                "client_secret": "Client Secret",
                 "provider_settings_title": "Cài đặt nhà cung cấp",
                 "provider_url": "URL nhà cung cấp",
                 "endpoints_title": "Điểm cuối nhà cung cấp",
@@ -66,8 +66,8 @@
                 },
                 "other_settings_title": "Thiết lập khác",
                 "issuer": "URL nhà phát hành",
-                "nonce": "Hủy kích hoạt xác minh nonce",
-                "linker_claim": "Người liên kết xác nhận quyền sở hữu",
+                "nonce": "Tắt xác minh nonce",
+                "linker_claim": "Thuộc tính liên kết",
                 "manage_account_url": "URL quản lý tài khoản",
                 "manage_account_btn_open_in_new_tab": "Mở trang quản lý tài khoản trong tab mới",
                 "sso_mode": "Chế độ SSO",

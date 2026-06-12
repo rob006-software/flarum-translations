@@ -2,308 +2,308 @@
     "fof-seo": {
         "admin": {
             "common": {
-                "close": "",
-                "save_changes": "",
-                "learn_more": ""
+                "close": "Đóng",
+                "save_changes": "Lưu thay đổi",
+                "learn_more": "Tìm hiểu thêm"
             },
             "permissions": {
-                "configure_seo": "",
-                "category_label": ""
+                "configure_seo": "Cho phép cấu hình SEO",
+                "category_label": "SEO"
             },
             "header": {
-                "title": "",
-                "tools": "",
-                "health_check": "",
-                "seo_settings": "",
-                "sitemap_info": "",
-                "search_engines_info": "",
-                "setup_ssl": ""
+                "title": "Tối ưu hóa công cụ tìm kiếm",
+                "tools": "Công cụ",
+                "health_check": "Kiểm tra tình trạng",
+                "seo_settings": "Cài đặt SEO",
+                "sitemap_info": "Thông tin sitemap",
+                "search_engines_info": "Thông tin công cụ tìm kiếm",
+                "setup_ssl": "Thiết lập SSL"
             },
             "dashboard": {
                 "widget": {
-                    "review_prompt": "",
-                    "cta": ""
+                    "review_prompt": "Đã đến lúc xem lại cài đặt SEO của bạn!",
+                    "cta": "Thực hiện kiểm tra tình trạng!"
                 }
             },
             "modals": {
                 "crawl_post": {
-                    "title": "",
-                    "intro": "",
-                    "mode_main_title": "",
-                    "mode_main_help": "",
-                    "mode_all_title": "",
-                    "mode_all_help": "",
-                    "question": "",
-                    "switch_label": ""
+                    "title": "Cài đặt thu thập dữ liệu bài viết",
+                    "intro": "<b>Hãy đọc kỹ hộp thoại này.</b> Chức năng này chỉ được thực thi khi tải lại trang trên một thảo luận. Bạn luôn có thể thay đổi tùy chọn này sau.",
+                    "mode_main_title": "Chỉ lập chỉ mục bài viết chính (mặc định)",
+                    "mode_main_help": "Công cụ tìm kiếm sẽ chỉ hiển thị bài viết chính trong kết quả tìm kiếm. Điều này sẽ không ảnh hưởng đến tốc độ tải khi bạn truy cập qua các liên kết trong diễn đàn.",
+                    "mode_all_title": "Lập chỉ mục tất cả bài viết trong một thảo luận (bật cài đặt)",
+                    "mode_all_help": "Công cụ tìm kiếm sẽ hiểu được các thảo luận và thậm chí có thể hiển thị một số bài viết liên quan bên dưới kết quả tìm kiếm. Khi bạn cài đặt và bật tiện ích mở rộng '<a>best answer</a>' trên diễn đàn, nó sẽ đánh dấu thảo luận là 'đã được trả lời' trong kết quả tìm kiếm và chuyển hướng người dùng đến bài viết cụ thể đó. Mỗi trả lời cũng được hiển thị kèm số lượt thích và lượt bình chọn, nhờ đó công cụ tìm kiếm có thể xác định các câu trả lời hữu ích nhất ngay cả khi không có tiện ích mở rộng best answer. <b>Tuy nhiên, tùy thuộc vào cấu hình máy chủ của bạn, tính năng này có thể nặng hơn</b>. Nó có thể tốn một chút hiệu năng, vì vậy việc bật tính năng này phụ thuộc vào tốc độ máy chủ của bạn.",
+                    "question": "Bạn có muốn bật tính năng này không?",
+                    "switch_label": "Thu thập tất cả bài viết (chậm hơn khi tải lại trang, nhưng kết quả tìm kiếm sẽ tốt hơn)"
                 },
                 "dofollow": {
-                    "title": "",
-                    "intro": "",
-                    "default_note": "",
-                    "learn_more_line": "",
-                    "add_placeholder": "",
-                    "duplicate_error": ""
+                    "title": "Danh sách do-follow",
+                    "intro": "Nhập <b>tên máy chủ (hostname)</b> của các tên miền bạn muốn thêm vào danh sách do-follow.",
+                    "default_note": "Tên miền bạn dùng cho trang Flarum của mình được thêm vào danh sách theo mặc định.",
+                    "learn_more_line": "<a>Tìm hiểu thêm</a> về danh sách do-follow.",
+                    "add_placeholder": "Cho phép một tên miền",
+                    "duplicate_error": "Tên miền này đã có trong danh sách do-follow của bạn."
                 }
             },
             "settings": {
                 "keywords": {
-                    "heading": "",
-                    "help": "",
-                    "placeholder": "",
-                    "comma_note": "",
-                    "example": ""
+                    "heading": "Từ khóa diễn đàn",
+                    "help": "Nhập một hoặc nhiều từ khóa mô tả diễn đàn của bạn.",
+                    "placeholder": "Thêm một vài từ khóa",
+                    "comma_note": "Lưu ý: Phân tách các từ khóa bằng dấu phẩy.",
+                    "example": "Ví dụ: flarum, phát triển web, diễn đàn, táo, bảo mật"
                 },
                 "info": {
-                    "overview": "",
-                    "maintain": ""
+                    "overview": "Trang này chứa một số cài đặt khác từ các khu vực trong trang quản trị. Tuy nhiên, việc có cái nhìn tổng quan tốt về các cài đặt này là rất hữu ích. Đừng quên thực hiện kiểm tra SEO.",
+                    "maintain": "Hãy kiểm tra tất cả cài đặt khi bạn thiết lập tiện ích mở rộng này lần đầu. Duy trì chúng để đạt kết quả tìm kiếm tốt nhất."
                 },
                 "twitter_card": {
-                    "heading": "",
-                    "help": "",
-                    "option_large": "",
-                    "option_summary": ""
+                    "heading": "Kích thước thẻ X (trước đây là Twitter)",
+                    "help": "Khi diễn đàn của bạn được chia sẻ trên X (trước đây là Twitter), nó sẽ có một hình ảnh (nếu hình ảnh mạng xã hội đã được thiết lập). Đây có thể là thẻ lớn với hình ảnh lớn, hoặc thẻ nhỏ (tóm tắt) với hình ảnh nhỏ hơn.",
+                    "option_large": "Thẻ lớn (hình ảnh lớn)",
+                    "option_summary": "Thẻ tóm tắt (hình ảnh nhỏ hơn)"
                 },
                 "social_media_image": {
-                    "heading": "",
-                    "help_size": "",
-                    "help_usage": ""
+                    "heading": "Hình ảnh mạng xã hội",
+                    "help_size": "Nên dùng hình ảnh vuông. Kích thước khuyến nghị là 1200x1200 pixel. Nếu không, hãy dùng hình ảnh ngang với kích thước khuyến nghị là 1200x630.",
+                    "help_usage": "Hình ảnh này sẽ được các mạng xã hội sử dụng khi người dùng chia sẻ một trang trên website của bạn (Facebook, X (trước đây là Twitter), Reddit)."
                 },
                 "crawl": {
-                    "heading": "",
-                    "help": "",
-                    "button": ""
+                    "heading": "Cài đặt thu thập dữ liệu bài viết trong thảo luận",
+                    "help": "Đây là cài đặt quan trọng về việc thu thập dữ liệu các bài viết trong thảo luận của bạn trong kết quả tìm kiếm.",
+                    "button": "Thiết lập cài đặt thu thập bài viết"
                 },
                 "indexing": {
-                    "heading": "",
-                    "profiles_label": "",
-                    "profiles_help": "",
-                    "tags_help": "",
-                    "tags_button": "",
-                    "tags_none_selected": ""
+                    "heading": "Kiểm soát lập chỉ mục",
+                    "profiles_label": "Bỏ lập chỉ mục trang hồ sơ",
+                    "profiles_help": "Khi bật, các trang hồ sơ người dùng sẽ phát ra thẻ meta 'noindex' để được giữ ngoài kết quả tìm kiếm. Các liên kết trên trang vẫn được theo dõi, vì vậy trình thu thập dữ liệu vẫn có thể truy cập nội dung mà chúng trỏ đến.",
+                    "tags_help": "Các thảo luận trong những thẻ được chọn (và cả trang danh sách của chính các thẻ đó) sẽ được giữ ngoài kết quả tìm kiếm bằng thẻ meta 'noindex'. Các liên kết vẫn được theo dõi. Chọn thẻ cha cũng bao gồm các thẻ con của nó.",
+                    "tags_button": "Chọn thẻ",
+                    "tags_none_selected": "Không có thẻ nào bị loại khỏi việc lập chỉ mục."
                 },
                 "nofollow": {
-                    "heading": "",
-                    "help": "",
-                    "help_dofollow": "",
-                    "button": ""
+                    "heading": "Liên kết no-follow",
+                    "help": "Tất cả liên kết đến tên miền bên ngoài sẽ nhận thuộc tính '<i>nofollow</i>' theo mặc định. Điều này đảm bảo mọi người không spam diễn đàn của bạn bằng các liên kết đến tên miền khác nhằm kiếm thêm lượt giới thiệu.",
+                    "help_dofollow": "Với cài đặt này, bạn có thể thêm tên miền vào danh sách 'do-follow'. Ví dụ, bạn có thể thêm <i>flarum.org</i> để đảm bảo các liên kết đến website này không nhận thuộc tính 'nofollow'.",
+                    "button": "Mở danh sách tên miền do-follow"
                 },
                 "new_tab": {
-                    "heading": "",
-                    "help": ""
+                    "heading": "Mở liên kết bên ngoài trong tab mới",
+                    "help": "Tiện ích mở rộng này cũng đảm bảo rằng các liên kết bên ngoài (đến tên miền khác) sẽ mở trong tab mới. Hiện tại chưa thể tắt cài đặt này."
                 },
                 "updated": {
-                    "heading": "",
-                    "help": "",
-                    "button": ""
+                    "heading": "Đã cập nhật cài đặt này?",
+                    "help": "Khi bạn nghĩ mình đã sẵn sàng, hãy nhấp vào nút bên dưới để kiểm tra lại trạng thái của cài đặt này.",
+                    "button": "Quay lại tổng quan và kiểm tra lại"
                 }
             },
             "pages": {
                 "search_engines": {
-                    "heading": "",
-                    "intro": "",
-                    "sitemap_tip": "",
-                    "google_heading": "",
-                    "google_visit": "",
-                    "google_www": "",
-                    "google_sitemap": "",
-                    "bing_heading": "",
-                    "bing_visit": "",
-                    "bing_sitemap": "",
-                    "yandex_heading": "",
-                    "yandex_visit": "",
-                    "yandex_sitemap": "",
-                    "yahoo_heading": "",
-                    "yahoo_body": "",
-                    "confirm_button": ""
+                    "heading": "Gửi website của bạn đến các công cụ tìm kiếm",
+                    "intro": "Việc cho các công cụ tìm kiếm biết trang của bạn tồn tại là một thực hành tốt. Trang này sẽ hướng dẫn bạn thực hiện việc đó thành công.",
+                    "sitemap_tip": "Bạn nên chuẩn bị sẵn sitemap trước khi hoàn thành hướng dẫn này. Nếu chưa có sitemap, hãy <a>nhấp vào đây để đọc thêm về chúng</a>.",
+                    "google_heading": "Thêm website của bạn vào kết quả tìm kiếm Google",
+                    "google_visit": "Nếu muốn thêm website của bạn vào kết quả tìm kiếm Google, hãy truy cập {link}. Bạn sẽ cần thêm website và xác minh rằng bạn là chủ sở hữu của tên miền liên kết.",
+                    "google_www": "Khi nhập tên miền, bạn cần tự trả lời câu hỏi sau: Bạn có muốn dùng tên miền phụ 'www' trong kết quả tìm kiếm không? Bạn <strong>không thể</strong> thay đổi điều này sau đó. Việc đăng ký tên miền của bạn trong Google Search Console nhiều lần sẽ không giúp xếp hạng tốt hơn.",
+                    "google_sitemap": "Khi hoàn thành đăng ký trong Google Search Console, hãy truy cập trang <b>Sitemaps</b>. Gửi tệp <b>sitemap.xml</b> của bạn cho Google. Đảm bảo Google có thể thu thập dữ liệu sitemap của bạn và sẽ tiếp tục làm điều đó.",
+                    "bing_heading": "Thêm website của bạn vào kết quả tìm kiếm Bing",
+                    "bing_visit": "Nếu muốn thêm website của bạn vào kết quả tìm kiếm Bing, hãy truy cập {link} và hoàn thành các bước được hướng dẫn. Không phải tất cả các trường đều bắt buộc.",
+                    "bing_sitemap": "Đừng quên cấu hình URL sitemap của bạn. Sau khi xác minh website, mọi thứ đã hoàn tất và Bing sẽ bắt đầu lập chỉ mục website của bạn.",
+                    "yandex_heading": "Thêm website của bạn vào kết quả tìm kiếm Yandex",
+                    "yandex_visit": "Nếu muốn thêm website của bạn vào kết quả tìm kiếm Yandex, hãy truy cập {link} và làm theo các bước được hướng dẫn.",
+                    "yandex_sitemap": "Đừng quên cấu hình sitemap trong Yandex.Webmaster.",
+                    "yahoo_heading": "Thêm website của bạn vào kết quả tìm kiếm Yahoo",
+                    "yahoo_body": "Nếu muốn thêm website của bạn vào kết quả tìm kiếm Yahoo, hãy hoàn thành việc đăng ký với Bing. Yahoo sẽ sử dụng dữ liệu đó.",
+                    "confirm_button": "Tôi đã đọc nội dung này"
                 },
                 "sitemap": {
-                    "why_heading": "",
-                    "why_body": "",
-                    "generated_note": "",
-                    "which_extension_heading": "",
-                    "which_extension_body": "",
-                    "which_extension_details": "",
-                    "robots_heading": "",
-                    "robots_body": "",
-                    "just_installed_heading": "",
-                    "just_installed_body": ""
+                    "why_heading": "Tại sao bạn nên dùng sitemap?",
+                    "why_body": "Sitemap là một tệp XML chứa danh sách tất cả các trang có sẵn trên website của bạn. Nó được trình thu thập dữ liệu và công cụ tìm kiếm sử dụng để tìm các trang trên website của bạn.",
+                    "generated_note": "Tệp sitemap được tạo tự động và không cần bảo trì gì thêm.",
+                    "which_extension_heading": "Tôi nên cài đặt tiện ích mở rộng nào?",
+                    "which_extension_body": "{link} là tiện ích mở rộng được đề xuất cài đặt cho Flarum. Chúng tôi rất khuyến khích bạn cài đặt và kích hoạt tiện ích mở rộng này.",
+                    "which_extension_details": "Tiện ích mở rộng này sẽ đảm bảo trình thu thập dữ liệu tìm thấy các <b>thảo luận</b>, <b>thẻ</b> (khi tiện ích được bật) và tiện ích <b>Pages</b> (khi tiện ích được cài đặt và bật) trên diễn đàn của bạn. Nó sẽ tự động tạo sẵn tệp sitemap.xml.",
+                    "robots_heading": "Còn robots.txt thì sao?",
+                    "robots_body": "Tiện ích mở rộng này cũng tạo tệp <b>robots.txt</b> cho diễn đàn của bạn. Tệp này cho công cụ tìm kiếm biết những khu vực nào chúng có thể thu thập dữ liệu và chỉ dẫn chúng đến sitemap của bạn, vì vậy cài đặt tiện ích này sẽ xử lý cả hai tệp cùng lúc — không cần cấu hình gì thêm.",
+                    "just_installed_heading": "Tôi vừa cài đặt tiện ích mở rộng",
+                    "just_installed_body": "Trong trường hợp đó, hãy kích hoạt nó bằng cách nhấp vào tiện ích mở rộng trong thanh bên trái. Sau đó cảnh báo này sẽ biến mất."
                 },
                 "ssl": {
-                    "intro_heading": "",
-                    "intro_body": "",
-                    "rankings_heading": "",
-                    "rankings_body": "",
-                    "rankings_body_ssl": "",
-                    "what_heading": "",
-                    "what_body": "",
-                    "how_heading": "",
-                    "how_body": "",
-                    "added_heading": "",
-                    "added_body": "",
-                    "no_ssl_heading": "",
-                    "no_ssl_body": ""
+                    "intro_heading": "Tại sao tôi cần kết nối bảo mật?",
+                    "intro_body": "Nhận thức về an toàn và quyền riêng tư trên web đang ngày càng tăng. <b>Hầu hết</b> các nhà phát triển/chủ website đều muốn website của họ an toàn cho khách truy cập, để họ không phải lo sợ dữ liệu của mình bị xâm phạm bởi tin tặc hoặc các trang giả mạo.",
+                    "rankings_heading": "Công cụ tìm kiếm {icon} các kết nối bảo mật",
+                    "rankings_body": "Khi website của bạn không có kết nối bảo mật, công cụ tìm kiếm sẽ xếp hạng trang của bạn thấp hơn nhiều so với các trang khác, hoặc thậm chí không lập chỉ mục.",
+                    "rankings_body_ssl": "Khi bạn có SSL, website của bạn sẽ được xếp hạng cao hơn và sẽ được lập chỉ mục.",
+                    "what_heading": "SSL hay TLS là gì?",
+                    "what_body": "Hầu hết mọi người biết đến <b>https</b> dùng cho kết nối bảo mật với tên gọi SSL: <i>Secure Sockets Layer</i>. Tên gọi chính thức của nó là TLS: <i>Transport Layer Security</i>. Phương thức này được dùng để tạo kết nối bảo mật đến máy chủ web của bạn, ngăn kẻ tấn công hoặc các máy chủ web khác giả mạo website của bạn và giữ an toàn cho khách truy cập. Kết nối SSL sẽ bị ngắt nếu điều đó xảy ra và trình duyệt của khách truy cập sẽ cảnh báo người dùng rằng trang không đáng tin cậy.",
+                    "how_heading": "Cách thêm SSL vào website của bạn?",
+                    "how_body": "Đối với những người dùng dịch vụ lưu trữ web, cách phổ biến nhất là vào bảng điều khiển hosting, đi đến phần cài đặt hosting của website và nhấp vào SSL. Bạn có thể làm theo các bước để thêm SSL vào website. Hầu hết các công ty lưu trữ web ngày nay đều hỗ trợ nhà cung cấp chứng chỉ phổ biến {link}.",
+                    "added_heading": "Được rồi, tôi đã thêm SSL!",
+                    "added_body": "Tuyệt vời! Bây giờ, hãy chỉnh sửa tệp <b>config.php</b> của bạn và đổi <b>'url'</b> sang <b>https</b>!",
+                    "no_ssl_heading": "Nếu tôi không muốn thêm SSL thì sao?",
+                    "no_ssl_body": "Trong trường hợp đó, bạn có thể gỡ cài đặt tiện ích mở rộng này vì các công cụ tìm kiếm <b>sẽ không lập chỉ mục diễn đàn của bạn</b> hoặc xếp hạng nó thấp hơn nhiều so với các trang khác vì lý do an toàn."
                 },
                 "health": {
-                    "legend": "",
-                    "default_button": "",
+                    "legend": "Để có kết quả tối ưu trên công cụ tìm kiếm, hãy đảm bảo tất cả các mục kiểm tra đều xanh.",
+                    "default_button": "Cập nhật cài đặt",
                     "table": {
-                        "technique": "",
-                        "status": ""
+                        "technique": "Kỹ thuật",
+                        "status": "Trạng thái"
                     },
                     "status": {
-                        "warning": "",
-                        "passed": ""
+                        "warning": "Cảnh báo!",
+                        "passed": "Đã hoàn tất!"
                     },
                     "checks": {
                         "description": {
-                            "label": "",
-                            "reason_missing": "",
-                            "reason_default": "",
-                            "reason_too_short": "",
-                            "button": ""
+                            "label": "Kiểm tra xem diễn đàn của bạn có mô tả hay chưa",
+                            "reason_missing": "Bạn chưa thiết lập mô tả cho diễn đàn!",
+                            "reason_default": "Bạn chưa thay đổi mô tả diễn đàn mặc định sau khi cài đặt!",
+                            "reason_too_short": "Mô tả diễn đàn của bạn ngắn hơn 20 ký tự. Vui lòng mở rộng nó để có kết quả tìm kiếm tốt hơn.",
+                            "button": "Cập nhật mô tả"
                         },
                         "keywords": {
-                            "label": "",
-                            "reason": "",
-                            "button": ""
+                            "label": "Kiểm tra xem diễn đàn của bạn đã thiết lập từ khóa hay chưa",
+                            "reason": "Bạn chưa thiết lập từ khóa cho diễn đàn!",
+                            "button": "Cập nhật từ khóa"
                         },
                         "ssl": {
-                            "label": "",
-                            "reason": "",
-                            "button": ""
+                            "label": "Kiểm tra xem trang của bạn có kết nối bảo mật (SSL/TLS) hay không",
+                            "reason": "Diễn đàn của bạn không bắt buộc kết nối SSL/TLS (kết nối bảo mật đến website của bạn). Hầu hết các công cụ tìm kiếm sẽ không lập chỉ mục website hoặc hạ thấp xếp hạng nếu bạn không có kết nối bảo mật.",
+                            "button": "Cách thiết lập SSL"
                         },
                         "crawl": {
-                            "label": "",
-                            "reason": "",
-                            "button": ""
+                            "label": "Xem lại cài đặt thu thập dữ liệu bài viết trong thảo luận",
+                            "reason": "Bạn cần xem lại cài đặt này để đạt yêu cầu.",
+                            "button": "Xem lại cài đặt bài viết"
                         },
                         "social_media": {
-                            "label": "",
-                            "reason": "",
-                            "button": ""
+                            "label": "Thiết lập hình ảnh mạng xã hội",
+                            "reason": "Bạn chưa đặt hình ảnh mạng xã hội cho diễn đàn. Bạn nên thiết lập một hình ảnh. Favicon của bạn hiện sẽ được dùng làm ảnh xem trước trên mạng xã hội.",
+                            "button": "Cập nhật hình ảnh"
                         },
                         "sitemap": {
-                            "label": "",
-                            "reason": "",
-                            "button": ""
+                            "label": "Kiểm tra xem diễn đàn của bạn có sitemap hay không",
+                            "reason": "Rất khuyến khích bạn cài đặt tiện ích mở rộng FriendsOfFlarum Sitemap!",
+                            "button": "Đọc thêm về cách thêm sitemap"
                         },
                         "robots": {
-                            "label": "",
-                            "reason": "",
-                            "button": ""
+                            "label": "Kiểm tra xem diễn đàn của bạn có robots.txt hay không",
+                            "reason": "Tệp robots.txt của bạn được cung cấp bởi tiện ích mở rộng FriendsOfFlarum Sitemap. Hãy cài đặt và bật nó để cung cấp robots.txt cho các công cụ tìm kiếm.",
+                            "button": "Đọc thêm về cách thêm robots.txt"
                         },
                         "meta_tags": {
-                            "label": ""
+                            "label": "Kiểm tra xem diễn đàn của bạn có thẻ meta hay không (do tiện ích này tạo ra)"
                         },
                         "search_engines": {
-                            "label": "",
-                            "reason": "",
-                            "button": ""
+                            "label": "Đăng ký diễn đàn của bạn với các công cụ tìm kiếm",
+                            "reason": "Bạn cần xem lại mục này để đạt yêu cầu.",
+                            "button": "Thông tin thêm"
                         },
                         "review": {
-                            "label": "",
-                            "reason": "",
-                            "button": ""
+                            "label": "Xem lại cài đặt SEO của bạn hai tháng một lần. Lần xem lại tiếp theo vào {date}",
+                            "reason": "Đã đến lúc xem lại cài đặt SEO của bạn.",
+                            "button": "Ok! Tôi đã xem lại chúng!"
                         }
                     }
                 }
             }
         },
         "forum": {
-            "profile_title": "",
-            "profile_description": "",
+            "profile_title": "Hồ sơ của {username}",
+            "profile_description": "Hồ sơ của {username} | {discussion_count} thảo luận | {comment_count} bài viết",
             "controls": {
-                "configure_seo": "",
-                "update_seo": "",
-                "reset_seo": ""
+                "configure_seo": "Cấu hình SEO",
+                "update_seo": "Cập nhật SEO",
+                "reset_seo": "Đặt lại SEO"
             },
             "meta_seo": {
-                "title": "",
-                "note_prefix": "",
-                "managed": "",
-                "saved": "",
+                "title": "Cài đặt SEO - Meta",
+                "note_prefix": "Lưu ý:",
+                "managed": "Được quản lý",
+                "saved": "Đã lưu!",
                 "close": {
-                    "close": "",
-                    "save": "",
-                    "save_autofill": "",
-                    "autofill_info": ""
+                    "close": "Đóng",
+                    "save": "Lưu",
+                    "save_autofill": "Lưu & tự động điền",
+                    "autofill_info": "Thay đổi này sẽ hoàn tác các tùy chỉnh và điền các thẻ meta bằng dữ liệu của mục."
                 },
                 "unsupported_object": {
-                    "title": "",
-                    "docs_link": "",
-                    "body": ""
+                    "title": "Đối tượng này không phải là đối tượng SeoMeta được hỗ trợ",
+                    "docs_link": "Tài liệu",
+                    "body": "Vui lòng mở hộp thoại này bằng các thuộc tính objectType và objectId, hoặc thay vào đó hãy đăng ký quan hệ đối tượng."
                 },
                 "auto_update": {
-                    "label": "",
-                    "help": "",
-                    "switch": ""
+                    "label": "Tự động cập nhật thẻ meta",
+                    "help": "Khi bật, các thẻ meta của mục này sẽ được tự động cập nhật khi đối tượng thay đổi.",
+                    "switch": "Cập nhật SEO của đối tượng khi có thay đổi"
                 },
                 "meta_title": {
-                    "label": "",
-                    "help": "",
-                    "placeholder": ""
+                    "label": "Tiêu đề meta",
+                    "help": "Tiêu đề hiển thị trên công cụ tìm kiếm.",
+                    "placeholder": "Nhập tiêu đề trang"
                 },
                 "meta_description": {
-                    "label": "",
-                    "help": ""
+                    "label": "Mô tả meta",
+                    "help": "Mô tả mục này và được hiển thị trên công cụ tìm kiếm."
                 },
                 "keywords": {
-                    "label": "",
-                    "help": "",
-                    "placeholder": "",
-                    "comma_note": "",
-                    "example": ""
+                    "label": "Từ khóa",
+                    "help": "Nhập một hoặc nhiều từ khóa mô tả mục này.",
+                    "placeholder": "Thêm một vài từ khóa",
+                    "comma_note": "Lưu ý: Phân tách các từ khóa bằng dấu phẩy.",
+                    "example": "Ví dụ: flarum, phát triển web, diễn đàn, táo, bảo mật"
                 },
                 "image": {
-                    "label": "",
-                    "help": "",
-                    "placeholder": "",
-                    "managed_by": "",
-                    "upload": ""
+                    "label": "Hình ảnh meta",
+                    "help": "Hiển thị một hình ảnh.",
+                    "placeholder": "Nhập URL hình ảnh",
+                    "managed_by": "Nguồn hình ảnh được quản lý bởi {source}",
+                    "upload": "Tải tệp lên"
                 },
                 "robots": {
-                    "label": "",
-                    "help": "",
+                    "label": "Robots",
+                    "help": "Cài đặt thu thập dữ liệu của robot cho mục này.",
                     "tags": {
-                        "indexing_allowed": "",
-                        "indexing_not_allowed": "",
-                        "follow_allowed": "",
-                        "follow_not_allowed": "",
-                        "archive_not_allowed": "",
-                        "imageindex_not_allowed": "",
-                        "snippet_not_allowed": ""
+                        "indexing_allowed": "Cho phép lập chỉ mục trang",
+                        "indexing_not_allowed": "Không cho phép lập chỉ mục trang",
+                        "follow_allowed": "Cho phép theo dõi liên kết",
+                        "follow_not_allowed": "Không cho phép theo dõi liên kết",
+                        "archive_not_allowed": "Không cho phép lưu trữ trang",
+                        "imageindex_not_allowed": "Không cho phép lập chỉ mục hình ảnh",
+                        "snippet_not_allowed": "Không cho phép trích đoạn văn bản"
                     },
                     "switch": {
-                        "indexing": "",
-                        "follow": "",
-                        "noarchive": "",
-                        "noimageindex": "",
-                        "nosnippet": ""
+                        "indexing": "Cho phép lập chỉ mục trang",
+                        "follow": "Cho phép theo dõi liên kết đến các trang khác",
+                        "noarchive": "Tắt lưu trữ trang (noarchive)",
+                        "noimageindex": "Tắt lập chỉ mục hình ảnh trên trang này (noimageindex)",
+                        "nosnippet": "Tắt trích đoạn văn bản trên trang (nosnippet)"
                     }
                 },
                 "reading_time": {
-                    "label": "",
-                    "help": "",
-                    "placeholder": ""
+                    "label": "Thời gian đọc ước tính",
+                    "help": "Thời gian đọc ước tính tính bằng giây.",
+                    "placeholder": "Thời gian đọc tính bằng giây"
                 },
                 "twitter": {
-                    "label": "",
-                    "auto_switch": "",
-                    "title": "",
-                    "description": "",
+                    "label": "Thẻ X (trước đây là Twitter)",
+                    "auto_switch": "Tự động tạo thẻ X (trước đây là Twitter)",
+                    "title": "Tiêu đề X (trước đây là Twitter)",
+                    "description": "Mô tả X (trước đây là Twitter)",
                     "image": {
-                        "label": "",
-                        "help": "",
-                        "reset": ""
+                        "label": "Hình ảnh X (trước đây là Twitter)",
+                        "help": "Hiển thị hình ảnh trên X (trước đây là Twitter).",
+                        "reset": "Đặt lại hình ảnh"
                     }
                 },
                 "og": {
-                    "label": "",
-                    "auto_switch": "",
-                    "title": "",
+                    "label": "Thẻ Open Graph",
+                    "auto_switch": "Tự động tạo thẻ Open Graph",
+                    "title": "Tiêu đề Open Graph",
                     "description": {
-                        "label": "",
-                        "placeholder": ""
+                        "label": "Mô tả Open Graph",
+                        "placeholder": "Mô tả Open Graph tùy chỉnh"
                     }
                 }
             }

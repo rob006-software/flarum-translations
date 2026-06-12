@@ -1,10 +1,10 @@
 {
     "fof-forum-widgets-core": {
         "admin": {
-            "cache_not_writable_warning": "",
+            "cache_not_writable_warning": "Hiện không thể ghi vào bộ nhớ đệm, điều này sẽ khiến một số widget không hoạt động. Vui lòng sửa lại quyền của thư mục lưu trữ.",
             "settings": {
-                "prefer_data_with_initial_load": "",
-                "prefer_data_with_initial_load_help": ""
+                "prefer_data_with_initial_load": "Ưu tiên tải toàn bộ dữ liệu widget cùng với phản hồi trang ban đầu.",
+                "prefer_data_with_initial_load_help": "Thay vì tải dữ liệu widget sau khi trang tải xong bằng cách gửi các yêu cầu API, dữ liệu sẽ (khi có thể) được tải cùng với lần tải trang ban đầu."
             }
         }
     }

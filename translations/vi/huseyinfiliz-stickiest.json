@@ -2,49 +2,49 @@
     "huseyinfiliz-stickiest": {
         "admin": {
             "permissions": {
-                "super_sticky_discussions_label": "",
-                "tag_sticky_discussions_label": ""
+                "super_sticky_discussions_label": "Ghim đặc biệt các thảo luận",
+                "tag_sticky_discussions_label": "Ghim thảo luận theo thẻ"
             },
             "settings": {
-                "badge_icon_label": "",
-                "badge_icon_text": "",
-                "display_tag_sticky_label": "",
-                "display_tag_sticky_text": ""
+                "badge_icon_label": "Biểu tượng huy hiệu ghim đặc biệt",
+                "badge_icon_text": "=> core.ref.icon_text",
+                "display_tag_sticky_label": "Hiển thị các bài ghim theo thẻ trong danh sách \"Tất cả thảo luận\"",
+                "display_tag_sticky_text": "Chúng sẽ được xem như các thảo luận thông thường và không được ghim lên đầu."
             }
         },
         "forum": {
             "badge": {
-                "sticky_tooltip": "",
-                "super_sticky_tooltip": "",
-                "tag_sticky_tooltip": "",
-                "super_tag_sticky_tooltip": ""
+                "sticky_tooltip": "=> huseyinfiliz-stickiest.ref.sticky",
+                "super_sticky_tooltip": "=> huseyinfiliz-stickiest.ref.super_sticky",
+                "tag_sticky_tooltip": "=> huseyinfiliz-stickiest.ref.tag_sticky",
+                "super_tag_sticky_tooltip": "=> huseyinfiliz-stickiest.ref.super_tag_sticky"
             },
             "stickiest_modal": {
-                "title": "",
-                "sticky_label": "",
-                "sticky_text": "",
-                "super_sticky_label": "",
-                "super_sticky_text": "",
-                "tag_sticky_label": "",
-                "tag_sticky_text": "",
-                "tags_label": "",
-                "submit_button": ""
+                "title": "Ghim {title}",
+                "sticky_label": "=> flarum-sticky.ref.sticky",
+                "sticky_text": "Thảo luận được ghim sẽ ghim lên đầu trong danh sách \"Tất cả thảo luận\" nếu chúng chưa được đọc. Khi xem một thẻ cụ thể thuộc thảo luận đó, chúng sẽ luôn được ghim lên đầu.",
+                "super_sticky_label": "=> huseyinfiliz-stickiest.ref.super_sticky",
+                "super_sticky_text": "Thảo luận ghim đặc biệt sẽ luôn được ghim trên cùng trong mọi trường hợp.",
+                "tag_sticky_label": "=> huseyinfiliz-stickiest.ref.tag_sticky",
+                "tag_sticky_text": "Các bài ghim theo thẻ được ẩn trong danh sách \"Tất cả thảo luận\" theo mặc định. Chúng chỉ hiển thị và được ghim lên đầu khi xem một thẻ cụ thể, là một trong những thẻ mà bạn sẽ chọn ở đây. Tùy chọn này có thể kết hợp với \"Ghim đặc biệt\".",
+                "tags_label": "=> flarum-tags.ref.tags",
+                "submit_button": "=> core.ref.save_changes"
             },
             "discussion_controls": {
-                "sticky_button": ""
+                "sticky_button": "=> flarum-sticky.forum.discussion_controls.sticky_button"
             },
             "post_stream": {
-                "discussion_stickied_text": "",
-                "discussion_unstickied_text": "",
-                "discussion_super_stickied_text": "",
-                "discussion_common_stickied_text": ""
+                "discussion_stickied_text": "=> flarum-sticky.forum.post_stream.discussion_stickied_text",
+                "discussion_unstickied_text": "=> flarum-sticky.forum.post_stream.discussion_unstickied_text",
+                "discussion_super_stickied_text": "{username} đã đánh dấu thảo luận là ghim đặc biệt.",
+                "discussion_common_stickied_text": "{username} đã bỏ đánh dấu ghim đặc biệt của thảo luận."
             }
         },
         "ref": {
-            "sticky": "",
-            "super_sticky": "",
-            "tag_sticky": "",
-            "super_tag_sticky": ""
+            "sticky": "=> flarum-sticky.ref.sticky",
+            "super_sticky": "Ghim đặc biệt",
+            "tag_sticky": "Ghim theo thẻ",
+            "super_tag_sticky": "Ghim đặc biệt theo thẻ"
         }
     }
 }

@@ -5,10 +5,10 @@
                 "heading": "Tổng quan về dữ liệu GDPR",
                 "description": "Trạng thái của nhiều hành động và tích hợp GDPR khác nhau",
                 "data_types": {
-                    "title": "Kiểu dữ liệu",
+                    "title": "Loại dữ liệu",
                     "help_text": "Đây là những loại dữ liệu hiện được đăng ký. Mỗi loại được liệt kê cùng với các hành động xuất, ẩn danh và xóa liên quan. Nếu tiện ích mở rộng xử lý bất kỳ dữ liệu nào tuân theo quy định của GDPR thì tiện ích đó phải đăng ký loại dữ liệu của mình với <code>flarum/gdpr</code>.\nDữ liệu được lưu trữ trong bảng <code>user</code> được xử lý riêng biệt, xem dữ liệu bảng người dùng bên dưới.\n",
-                    "type": "Kiểu",
-                    "export_description": "Xuất hành động",
+                    "type": "Loại",
+                    "export_description": "Hành động xuất",
                     "anonymize_description": "Hành động ẩn danh",
                     "delete_description": "Hành động xóa",
                     "extension": "Tiện ích mở rộng"
@@ -21,16 +21,16 @@
                 "user_table_data": {
                     "title": "Dữ liệu bảng người dùng",
                     "help_text": "Phần lớn, bất kỳ cột nào được thêm vào bảng <code>user</code> sẽ được xử lý tự động, cho cả việc xuất dữ liệu và xóa.\nTuy nhiên, có một số trường hợp đặc biệt được liệt kê bên dưới.\n",
-                    "column": "",
-                    "type": "",
-                    "nullable": "",
-                    "pii": "",
-                    "redacted_on_export": "",
-                    "extension": "",
-                    "yes": "",
-                    "no": "",
-                    "pii_tooltip": "",
-                    "redacted_on_export_tooltip": ""
+                    "column": "Cột",
+                    "type": "Kiểu",
+                    "nullable": "Có thể null",
+                    "pii": "PII",
+                    "redacted_on_export": "Bị che khi xuất",
+                    "extension": "Tiện ích mở rộng",
+                    "yes": "Có",
+                    "no": "Không",
+                    "pii_tooltip": "Cột này được coi là thông tin định danh cá nhân và sẽ bị che trong các ngữ cảnh ẩn danh (ví dụ: dữ liệu sự kiện đã ẩn danh).",
+                    "redacted_on_export_tooltip": "Giá trị của cột này sẽ bị để trống (đặt thành null) khi tạo bản xuất dữ liệu người dùng. Cột vẫn xuất hiện trong bản xuất với giá trị null."
                 }
             },
             "nav": {
@@ -38,14 +38,14 @@
             },
             "permissions": {
                 "process_erasure": "Xử lý yêu cầu xóa",
-                "process_export_for_others": "Yêu cầu và nhận dữ liệu xuất khẩu cho người dùng khác",
+                "process_export_for_others": "Yêu cầu và nhận bản xuất dữ liệu cho người dùng khác",
                 "see_anonymized_user_badges": "Xem huy hiệu người dùng ẩn danh"
             },
             "settings": {
                 "allow_anonymization": "Cho phép ẩn danh cho các yêu cầu xóa",
-                "allow_anonymization_help": "Tùy chọn mặc định và được khuyến nghị cho hầu hết các cộng đồng. Theo chế độ này, bài đăng/bình luận sẽ được bảo toàn ở mức tối đa theo GDPR cho phép, nhưng mọi thông tin nhận dạng người dùng đều bị xóa.",
+                "allow_anonymization_help": "Tùy chọn mặc định và được khuyến nghị cho hầu hết các cộng đồng. Ở chế độ này, bài viết/bình luận sẽ được giữ lại ở mức tối đa mà GDPR cho phép, nhưng mọi thông tin nhận dạng người dùng đều bị xóa.",
                 "allow_deletion": "Cho phép xóa đối với các yêu cầu xóa",
-                "allow_deletion_help": "Một tùy chọn nghiêm ngặt hơn nhiều. Ở chế độ này, tất cả bài đăng/bình luận sẽ bị xóa và người dùng sẽ bị xóa khỏi cơ sở dữ liệu. Hãy sử dụng thận trọng.",
+                "allow_deletion_help": "Một tùy chọn nghiêm ngặt hơn nhiều. Ở chế độ này, tất cả bài viết/bình luận sẽ bị xóa và người dùng sẽ bị xóa khỏi cơ sở dữ liệu. Hãy sử dụng thận trọng.",
                 "default_anonymous_username": "Tên người dùng mặc định cho người dùng ẩn danh",
                 "default_anonymous_username_help": "Khi người dùng được ẩn danh, tên người dùng của họ sẽ được thay thế bằng giá trị này, cùng với ID của yêu cầu ẩn danh, ví dụ <code>Anonymous123</code>.",
                 "default_erasure": "Hành động mặc định cho yêu cầu xóa",
@@ -62,7 +62,7 @@
             "userlist": {
                 "columns": {
                     "gdpr_actions": {
-                        "export": "Yêu cầu dữ liệu cho {username}"
+                        "export": "Xuất dữ liệu của {username}"
                     }
                 }
             }
@@ -73,7 +73,7 @@
                     "delete_description": "Xóa ảnh đại diện của người dùng khỏi hệ thống tệp.",
                     "export_description": "Lấy ảnh đại diện của người dùng từ hệ thống tệp và đưa vào bản xuất."
                 },
-                "default_user_action": "",
+                "default_user_action": "Không có hành động nào, được xử lý theo cách xử lý dữ liệu bảng người dùng mặc định.",
                 "discussions": {
                     "export_description": "Xuất tất cả cuộc thảo luận mà người dùng đã bắt đầu. Dữ liệu giới hạn ở tiêu đề và ngày tạo."
                 },
@@ -98,8 +98,8 @@
             },
             "request_data": {
                 "title": "Yêu cầu dữ liệu cho {username}",
-                "text": "Một kho lưu trữ zip sẽ được chuẩn bị cho bạn. Khi đã sẵn sàng, bạn sẽ nhận được thông báo có liên kết tải xuống. Liên kết sẽ vẫn hoạt động trong một ngày.\n",
-                "request_button": "Yêu cầu lưu trữ"
+                "text": "Một tệp nén zip sẽ được chuẩn bị cho bạn. Khi đã sẵn sàng, bạn sẽ nhận được thông báo kèm liên kết tải xuống. Liên kết sẽ có hiệu lực trong một ngày.\n",
+                "request_button": "Yêu cầu bản lưu trữ"
             }
         },
         "email": {
@@ -109,12 +109,12 @@
             },
             "erasure_completed": {
                 "deletion": {
-                    "subject": "Đã xóa tài khoản hoàn tất",
-                    "body": "Xin chào {display_name}!\n\nĐây là thông báo tự động, cuối cùng rằng tài khoản của bạn đã bị xóa.\n"
+                    "subject": "Đã hoàn tất xóa tài khoản",
+                    "body": "Xin chào {display_name}!\n\nĐây là thông báo tự động cuối cùng, xác nhận rằng tài khoản của bạn đã bị xóa.\n"
                 },
                 "anonymization": {
                     "subject": "Đã hoàn tất việc ẩn danh tài khoản",
-                    "body": "Xin chào {display_name}!\n\nĐây là thông báo tự động, cuối cùng rằng tài khoản của bạn đã được ẩn danh.\n"
+                    "body": "Xin chào {display_name}!\n\nĐây là thông báo tự động cuối cùng, xác nhận rằng tài khoản của bạn đã được ẩn danh.\n"
                 }
             },
             "erasure_cancelled": {
@@ -122,7 +122,7 @@
                 "body": "Xin chào {display_name}!\n\nĐây là thông báo tự động rằng yêu cầu hủy xóa tài khoản của bạn đã được xử lý.\n\nTài khoản của bạn sẽ không còn bị xóa nữa.\n"
             },
             "export_available": {
-                "subject": "Có thể xuất dữ liệu",
+                "subject": "Bản xuất dữ liệu đã sẵn sàng",
                 "body": "Xin chào {display_name}!\n\nBạn đã yêu cầu xuất dữ liệu tài khoản cho {username}. Bản xuất này đã được tạo thành công và hiện đã sẵn sàng:\n\n{url}\n\nBản xuất này sẽ còn khả dụng cho đến {destroys_at}.\n"
             }
         },
@@ -147,19 +147,19 @@
                 "data": {
                     "heading": "Dữ liệu cá nhân"
                 },
-                "export_data_button": "Xuất Dữ liệu",
+                "export_data_button": "Xuất dữ liệu",
                 "export_data_help": "Yêu cầu xuất dữ liệu sẽ cung cấp cho bạn một bản sao có thể tải xuống của tất cả thông tin liên quan đến tài khoản của bạn. Điều này bao gồm bài viết, bình luận và chi tiết hồ sơ.",
-                "request_erasure_button": "Xóa Tài khoản",
+                "request_erasure_button": "Xóa tài khoản",
                 "request_erasure_help": "Yêu cầu xóa sẽ xóa vĩnh viễn tài khoản của bạn và tất cả dữ liệu liên quan. Hành động này không thể hoàn tác. Trước khi tiếp tục, hãy đảm bảo bạn đã lưu bất kỳ nội dung nào bạn muốn giữ lại."
             },
             "process_erasure": {
                 "confirm": "Bạn có chắc chắn muốn xóa tài khoản của {name} trong chế độ {mode}?",
                 "title": "Xử lý yêu cầu xóa",
                 "text": "{name} đã yêu cầu xóa tài khoản.",
-                "requested_at": "",
-                "confirmed_at": "",
-                "eligible_at": "",
-                "comments_label": "Bình luận (tùy chọn)",
+                "requested_at": "Đã yêu cầu: {date}",
+                "confirmed_at": "Đã xác nhận: {date}",
+                "eligible_at": "Đủ điều kiện xử lý tự động: {date}",
+                "comments_label": "Ghi chú (tùy chọn)",
                 "anonymization_button": "Ẩn danh người dùng",
                 "deletion_button": "Xóa người dùng"
             },
@@ -167,17 +167,17 @@
                 "title": "Yêu cầu xóa tài khoản",
                 "reason": "Bạn đã cung cấp lý do sau: {reason}",
                 "status": {
-                    "awaiting_user_confirmation": "Bạn nên đã nhận được email để xác nhận yêu cầu xóa tài khoản của mình.\n",
+                    "awaiting_user_confirmation": "Chúng tôi đã gửi cho bạn một email để xác nhận yêu cầu xóa tài khoản.\n",
                     "user_confirmed": "Bạn đã xác nhận yêu cầu xóa tài khoản của mình. Hành động sẽ được thực hiện trong vòng 30 ngày, theo yêu cầu của GDPR.\n"
                 },
                 "text": "Sau khi nhận được và xác nhận, một quản trị viên sẽ xem xét yêu cầu của bạn trong vòng 30 ngày, theo yêu cầu của GDPR.",
-                "password_label": "Xác nhận Mật khẩu",
+                "password_label": "Xác nhận mật khẩu",
                 "reason_label": "Lý do (tùy chọn)",
                 "cancel_button": "Hủy yêu cầu",
                 "request_button": "Yêu cầu xóa"
             },
             "notification": {
-                "export-ready": "Dữ liệu xuất của {username} hiện đã sẵn sàng để tải xuống."
+                "export-ready": "Bản xuất dữ liệu của {username} hiện đã sẵn sàng để tải xuống."
             },
             "export_file": "Xuất dữ liệu người dùng cho {username} ({email}) được chuẩn bị vào ngày {date} từ {forumTitle} ({url})"
         }

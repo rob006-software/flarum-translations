@@ -2,24 +2,24 @@
     "clarkwinkelmann-scratchpad": {
         "admin": {
             "settings": {
-                "title": "Thiết lập Scratchpad",
+                "title": "Cài đặt Scratchpad",
                 "single-column": "Gộp trình chỉnh sửa trong một cột duy nhất thay vì 3",
                 "theme": "Chủ đề CodeMirror (phải làm mới để có hiệu lực)",
-                "theme-auto": "Tự động (mặc định là giao diện sáng, darcula là giao diện tối)",
+                "theme-auto": "Tự động (theme mặc định với giao diện sáng, darcula với giao diện tối)",
                 "indent": "Số khoảng trắng cho thụt lề",
                 "npm-install-command": "Lệnh cài đặt NPM",
                 "webpack-command": "Lệnh webpack",
-                "empty-for-default": "Để trống cho lệnh mặc định",
-                "validate-live": "Thực hiện yêu cầu trang chủ để xác thực Less và PHP trước khi lưu",
-                "compile-automatically": "Tự động Biên dịch JS khi lưu"
+                "empty-for-default": "Để trống để dùng lệnh mặc định",
+                "validate-live": "Gửi yêu cầu đến trang chủ để kiểm tra Less và PHP trước khi lưu",
+                "compile-automatically": "Tự động biên dịch JS khi lưu"
             },
             "controls": {
                 "refresh": "Làm mới",
-                "save": "Lưu lại",
-                "compile": "Biên dịch jS",
-                "settings": "Thiết lập trình chỉnh sửa",
+                "save": "Lưu",
+                "compile": "Biên dịch JS",
+                "settings": "Cài đặt trình chỉnh sửa",
                 "new": "Mới",
-                "new-confirmation": "Scratchpad hiện tại chưa được lưu. Bỏ nó và tạo một cái mới?",
+                "new-confirmation": "Scratchpad hiện tại chưa được lưu. Bỏ và tạo mới?",
                 "delete": "Xoá",
                 "delete-confirmation": "Xoá \"{title}\" ?",
                 "enable": "Nhấn để bật",

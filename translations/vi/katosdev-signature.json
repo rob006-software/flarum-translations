@@ -21,7 +21,7 @@
                     "content": "Vui lòng chờ..."
                 },
                 "error": {
-                    "title": "Rất tiếc! Đã gặp một số lỗi khi lưu ...",
+                    "title": "Rất tiếc! Đã xảy ra lỗi khi lưu...",
                     "content": "Danh sách lỗi:"
                 }
             }
@@ -33,13 +33,13 @@
             },
             "settings": {
                 "maximum_image_count": {
-                    "description": "Hình ảnh được chèn tối đa.",
-                    "help": "Khi người dùng vượt quá số lượng hình ảnh tối đa trong chữ ký của họ, họ sẽ bị ngăn không cho lưu trữ cho đến khi số lượng hình ảnh được điều chỉnh.",
+                    "description": "Số hình ảnh được chèn tối đa.",
+                    "help": "Khi người dùng vượt quá số lượng hình ảnh tối đa trong chữ ký, họ sẽ không thể lưu cho đến khi số lượng hình ảnh được điều chỉnh phù hợp.",
                     "placeholder": "5 (mặc định)"
                 },
                 "maximum_char_limit": {
                     "description": "Giới hạn ký tự tối đa của chữ ký.",
-                    "help": "Khi người dùng vượt quá giới hạn số ký tự tối đa trong chữ ký của họ, họ sẽ bị ngăn không cho lưu trữ cho đến khi số ký tự được điều chỉnh.",
+                    "help": "Khi người dùng vượt quá giới hạn số ký tự tối đa trong chữ ký, họ sẽ không thể lưu cho đến khi số ký tự được điều chỉnh phù hợp.",
                     "placeholder": "1000 (mặc định)"
                 },
                 "allow_inline_editing": {
@@ -51,7 +51,7 @@
                     "placeholder": "350 (mặc định)"
                 },
                 "maximum_image_height": {
-                    "description": "Chiều cao tối đa của chiều cao tổng của tổng số hình ảnh được chèn vào trình chỉnh sửa.",
+                    "description": "Chiều cao tổng tối đa của tất cả hình ảnh được chèn vào trình chỉnh sửa.",
                     "placeholder": "500 (mặc định)"
                 }
             },

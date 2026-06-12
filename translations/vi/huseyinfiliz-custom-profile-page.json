@@ -2,50 +2,50 @@
     "huseyinfiliz-custom-profile-page": {
         "admin": {
             "settings": {
-                "tab_title": "",
-                "tab_icon": "",
-                "tab_icon_help": "",
-                "url_slug": "",
-                "url_slug_help": "",
-                "content_format": "",
-                "format_markdown": "",
-                "format_html": "",
-                "format_text": "",
-                "allowed_html_tags": "",
-                "allowed_html_tags_help": "",
-                "default_template": "",
-                "default_template_help": "",
-                "enable_media_embeds": "",
-                "enable_media_embeds_help": ""
+                "tab_title": "Tiêu đề tab hồ sơ",
+                "tab_icon": "Biểu tượng tab (class FontAwesome)",
+                "tab_icon_help": "Ví dụ: fas fa-file-alt, fas fa-user, fas fa-star",
+                "url_slug": "Slug URL",
+                "url_slug_help": "Đường dẫn URL cho trang tùy chỉnh (ví dụ: 'customPage' sẽ tạo /u/username/customPage). Chỉ sử dụng chữ cái, số, dấu gạch ngang và dấu gạch dưới.",
+                "content_format": "Định dạng nội dung",
+                "format_markdown": "Markdown",
+                "format_html": "HTML",
+                "format_text": "Văn bản thuần",
+                "allowed_html_tags": "Thẻ HTML được phép",
+                "allowed_html_tags_help": "Danh sách thẻ HTML được phép, phân tách bằng dấu phẩy (ví dụ: b,i,u,strong,em,a). Chỉ những thẻ này mới được hiển thị cho người dùng.",
+                "default_template": "Mẫu mặc định",
+                "default_template_help": "Nội dung này sẽ tự động xuất hiện trong trình soạn thảo khi người dùng tạo trang tùy chỉnh lần đầu. Để trống nếu muốn trình soạn thảo trống.",
+                "enable_media_embeds": "Bật nhúng đa phương tiện",
+                "enable_media_embeds_help": "Tự động chuyển đổi các liên kết YouTube thành trình phát video nhúng. Nếu tắt, liên kết sẽ hiển thị dưới dạng liên kết văn bản thông thường."
             },
             "permissions": {
-                "edit_own": "",
-                "view": "",
-                "moderate": ""
+                "edit_own": "Chỉnh sửa trang hồ sơ tùy chỉnh của chính mình",
+                "view": "Xem trang hồ sơ tùy chỉnh",
+                "moderate": "Quản lý trang hồ sơ tùy chỉnh (chỉnh sửa trang của bất kỳ người dùng nào)"
             }
         },
         "forum": {
             "profile_tab": {
-                "loading": "",
-                "empty_own": "",
-                "empty_other": "",
-                "edit_button": "",
-                "save_button": "",
-                "cancel_button": ""
+                "loading": "Đang tải...",
+                "empty_own": "Có vẻ như bạn chưa tạo trang tùy chỉnh của mình.",
+                "empty_other": "Có vẻ như chưa có nội dung nào ở đây.",
+                "edit_button": "Chỉnh sửa trang",
+                "save_button": "Lưu",
+                "cancel_button": "Hủy"
             },
             "edit_modal": {
-                "title": "",
-                "content_label": "",
-                "content_placeholder": "",
-                "submit_button": "",
-                "error": "",
-                "markdown_help": "",
-                "html_help": "",
-                "text_help": ""
+                "title": "Chỉnh sửa trang hồ sơ tùy chỉnh",
+                "content_label": "Nội dung",
+                "content_placeholder": "Viết nội dung của bạn ở đây...",
+                "submit_button": "Lưu thay đổi",
+                "error": "Lưu thay đổi thất bại. Vui lòng thử lại.",
+                "markdown_help": "Bạn có thể sử dụng định dạng Markdown: **đậm**, *nghiêng*, [liên kết](url), `mã`, v.v.",
+                "html_help": "Bạn có thể sử dụng các thẻ HTML sau: {tags}",
+                "text_help": "Chỉ văn bản thuần. Không cho phép định dạng HTML hoặc Markdown."
             },
             "errors": {
-                "permission_denied": "",
-                "load_failed": ""
+                "permission_denied": "Bạn không có quyền xem trang này",
+                "load_failed": "Không thể tải trang tùy chỉnh"
             }
         }
     }

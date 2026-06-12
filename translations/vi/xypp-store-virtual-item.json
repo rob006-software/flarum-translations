@@ -2,46 +2,46 @@
     "xypp-store-virtual-item": {
         "admin": {
             "table": {
-                "all": "",
-                "check": "",
-                "id": "",
-                "name": "",
-                "key": "",
-                "assign": "",
-                "operation": "",
-                "delete": "",
-                "create": "",
-                "delete_batch": "",
-                "load_more": "",
-                "remove_confirm": ""
+                "all": "Tất cả",
+                "check": "-",
+                "id": "Id",
+                "name": "Tên",
+                "key": "Khóa",
+                "assign": "Gán",
+                "operation": "Thao tác",
+                "delete": "Xóa",
+                "create": "Tạo",
+                "delete_batch": "Xóa hàng loạt (tổng cộng {count})",
+                "load_more": "Tải thêm",
+                "remove_confirm": "Bạn có chắc chắn muốn xóa không?"
             },
             "create": {
-                "title": "",
-                "name": "",
-                "key": "",
-                "content": "",
-                "fillTip": "",
-                "submit": "",
-                "add": "",
-                "convert": "",
-                "key_required": ""
+                "title": "Tạo vật phẩm ảo",
+                "name": "Tên vật phẩm",
+                "key": "Khóa",
+                "content": "Nội dung",
+                "fillTip": "Nhập khóa/nội dung của bạn bên dưới. ",
+                "submit": "Tạo",
+                "add": "Thêm",
+                "convert": "Chuyển đổi Khóa:Nội dung",
+                "key_required": "Không được để trống khóa"
             }
         },
         "forum": {
             "store": {
-                "name": ""
+                "name": "Vật phẩm ảo"
             },
             "select": {
-                "title": "",
-                "name": "",
-                "icon": "",
-                "desc": "",
-                "rest": "",
-                "submit": ""
+                "title": "Cấu hình",
+                "name": "Tên vật phẩm đang được chọn: {name}",
+                "icon": "Biểu tượng",
+                "desc": "Mô tả",
+                "rest": "Hiển thị số lượng còn lại theo kho.",
+                "submit": "Gửi"
             }
         },
         "api": {
-            "no-available": ""
+            "no-available": "Không có vật phẩm khả dụng"
         }
     }
 }

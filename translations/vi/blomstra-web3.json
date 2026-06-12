@@ -2,21 +2,21 @@
     "blomstra-web3": {
         "admin": {
             "settings": {
-                "allow-sign-up": "Cho phép Đăng ký với web3",
+                "allow-sign-up": "Cho phép đăng ký bằng web3",
                 "ffi-disabled": "Tiện ích mở rộng PHP FFI chưa được bật. Các ví Dotsama sẽ không hoạt động.\n",
                 "infura-project-id": "ID Dự án Infura",
                 "infura-project-id-help": "ID Dự án Infura của bạn. Bạn có thể lấy một ID từ https://infura.io Cần thiết cho các ví sau: Coinbase, WalletConnect.\n",
-                "prioritize-web3-auth-modals": "Mở Đăng nhập/Đăng ký web3 theo mặc định",
-                "signup-with-email": "Đăng ký với Email",
+                "prioritize-web3-auth-modals": "Mở đăng nhập/đăng ký web3 theo mặc định",
+                "signup-with-email": "Đăng ký bằng email",
                 "no-email-signup-message": "Thông báo hiển thị cho người dùng chưa đăng ký bằng địa chỉ email (để trống để tắt).\n",
                 "no-email-signup-message-help": "Sử dụng [link]text[/link] để liên kết đến trang chỉnh sửa email."
             }
         },
         "forum": {
             "connect-wallet-modal": {
-                "could-not-sign": "Không thể ký tên người dùng một cách mật mã trên tài khoản đã chọn.",
+                "could-not-sign": "Không thể ký mật mã tên người dùng bằng tài khoản đã chọn.",
                 "goback": "Quay lại",
-                "title": "Kết nối Ví",
+                "title": "Kết nối ví",
                 "polkadot-wallets": "=> blomstra-web3.ref.polkadot-wallets",
                 "evm-wallets": "Ví EVM",
                 "signature-invalid": "Chữ ký không hợp lệ."
@@ -39,17 +39,17 @@
             },
             "settings": {
                 "wallets_heading": "Ví",
-                "wallet-connect-button": "Kết nối Ví",
+                "wallet-connect-button": "Kết nối ví",
                 "unbind": "=> blomstra-web3.ref.unbind",
                 "unbind_confirm": "Bạn có chắc chắn muốn hủy liên kết địa chỉ này khỏi tài khoản của mình?"
             },
             "log-in": {
-                "basic-login-link": "Chuyển sang Đăng nhập cơ bản",
+                "basic-login-link": "Chuyển sang đăng nhập cơ bản",
                 "with-wallet": "Đăng nhập bằng web3",
                 "select-wallet-account": "=> blomstra-web3.ref.select-wallet-account"
             },
             "sign-up": {
-                "basic-signup-link": "Chuyển sang Đăng ký cơ bản",
+                "basic-signup-link": "Chuyển sang đăng ký cơ bản",
                 "with-wallet": "Đăng ký bằng web3",
                 "select-wallet-account": "=> blomstra-web3.ref.select-wallet-account"
             }

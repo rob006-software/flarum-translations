@@ -24,79 +24,79 @@
                 "service_iplocation_description": "Sử dụng <b>https://www.iplocation.net/</b> để lấy thông tin quốc gia và nhà cung cấp dịch vụ mạng. Chưa rõ giới hạn tần suất tra cứu.",
                 "service_ipsevenex_label": "API Định vị 7x",
                 "service_ipsevenex_description": "Sử dụng <b>https://7x.ax</b> để nhận khóa API miễn phí cho tối đa 20 yêu cầu mỗi phút. Có các gói trả phí cho giới hạn cao hơn.",
-                "service_ipinfo-lite_label": "",
-                "service_ipinfo-lite_description": "",
+                "service_ipinfo-lite_label": "IPInfo Lite",
+                "service_ipinfo-lite_description": "Sử dụng <b>https://ipinfo.io</b> để tra cứu thông tin IP mà không bị giới hạn tần suất hay hạn chế nào. Yêu cầu đăng ký để nhận khóa API miễn phí.",
                 "access_key_label": "Khóa truy cập",
                 "quota_label": "Giới hạn tra cứu",
                 "show_flag_label": "Hiển thị cờ quốc gia cho mỗi bài viết",
                 "show_flag_help": "Hiển thị cờ quốc gia của địa chỉ IP của người viết bài mà không tiết lộ địa chỉ IP, khi người dùng cho phép trong cài đặt cá nhân.",
-                "allow_custom_flag_label": "",
-                "allow_custom_flag_help": "",
+                "allow_custom_flag_label": "Cho phép người dùng chọn cờ quốc gia tùy chỉnh",
+                "allow_custom_flag_help": "Khi được bật, người dùng có thể chọn một cờ quốc gia để hiển thị trên bài viết của họ thông qua cài đặt hồ sơ. Cờ do người dùng chọn sẽ hiển thị với tất cả mọi người và được ưu tiên hơn cờ dựa trên IP. Yêu cầu bật \"Hiển thị cờ quốc gia cho mỗi bài viết\".",
                 "test": {
-                    "heading": "",
-                    "help": ""
+                    "heading": "Kiểm tra cấu hình dịch vụ",
+                    "help": "Kiểm tra cấu hình dịch vụ tra cứu IP của bạn với một địa chỉ IP mẫu. Hãy nhớ lưu cài đặt trước khi kiểm tra."
                 },
-                "test_service_label": "",
-                "test_service_help": "",
-                "test_button": "",
-                "testing": "",
-                "test_result_title": "",
-                "test_ip_required": "",
-                "test_error": "",
-                "test_service_label_result": "",
-                "test_status_label": "",
-                "test_response_time_label": "",
-                "test_timestamp_label": "",
-                "test_http_status_code_label": "",
-                "test_error_details_label": "",
-                "test_processed_service_response_label": "",
-                "status_success": "",
-                "status_error": "",
-                "status_unknown": "",
-                "response_headers_label": "",
-                "raw_http_response_label": "",
-                "request_url_label": "",
-                "request_options_label": "",
-                "error_prefix": "",
-                "error_code_prefix": "",
+                "test_service_label": "Kiểm tra dịch vụ tra cứu IP",
+                "test_service_help": "Nhập một địa chỉ IPv4 hoặc IPv6 để kiểm tra cấu hình dịch vụ hiện tại của bạn.",
+                "test_button": "Kiểm tra dịch vụ",
+                "testing": "Đang kiểm tra...",
+                "test_result_title": "Kết quả kiểm tra",
+                "test_ip_required": "Vui lòng nhập một địa chỉ IP để kiểm tra.",
+                "test_error": "Đã xảy ra lỗi khi kiểm tra dịch vụ.",
+                "test_service_label_result": "Dịch vụ:",
+                "test_status_label": "Trạng thái:",
+                "test_response_time_label": "Thời gian phản hồi:",
+                "test_timestamp_label": "Dấu thời gian:",
+                "test_http_status_code_label": "Mã trạng thái HTTP:",
+                "test_error_details_label": "Chi tiết lỗi:",
+                "test_processed_service_response_label": "Phản hồi dịch vụ đã xử lý:",
+                "status_success": "✓ Thành công",
+                "status_error": "✗ Lỗi",
+                "status_unknown": "Không xác định",
+                "response_headers_label": "Header phản hồi",
+                "raw_http_response_label": "Nội dung phản hồi HTTP thô",
+                "request_url_label": "URL yêu cầu",
+                "request_options_label": "Tùy chọn yêu cầu",
+                "error_prefix": "Lỗi:",
+                "error_code_prefix": "Mã:",
                 "title": "FriendsOfFlarum GeoIP",
                 "service_ipstack_label": "IPStack",
                 "service_ipstack_description": "Sử dụng <b>https://ipstack.com</b> để thực hiện miễn phí tới 10.000 tra cứu mỗi tháng. Các gói trả phí bao gồm thông tin kết nối (ISP, tổ chức) và mức độ nguy hiểm.",
-                "security_label": "Mô-đun bảo mật (yêu cầu chuyên nghiệp cao)",
+                "security_label": "Mô-đun bảo mật (yêu cầu gói Pro)",
                 "service_freegeoip_label": "FreeGeoIP",
-                "service_freegeoip_description": "Sử dụng <b>https://freegeoip.app/</b> để nhận miễn phí tới 15.000 mã IP quốc gia mỗi giờ."
+                "service_freegeoip_description": "Sử dụng <b>https://freegeoip.app/</b> để tra cứu miễn phí tới 15.000 lần mỗi giờ."
             }
         },
         "lib": {
             "alerts": {
-                "ip_copied": ""
+                "ip_copied": "Đã sao chép địa chỉ IP"
             },
-            "copy_ip_label": "",
-            "map_button_label": "",
+            "copy_ip_label": "Sao chép IP vào bộ nhớ tạm",
+            "map_button_label": "Thông tin IP",
             "map_modal": {
-                "title": "",
-                "ip_address": "",
-                "country_code": "",
-                "zip_code": "",
-                "isp": "",
-                "as": "",
-                "mobile": "",
-                "organization": "",
-                "threat_level": "",
-                "threat_types": "",
-                "error": "",
-                "not_enough_data": ""
+                "title": "Thông tin IP",
+                "ip_address": "Địa chỉ IP",
+                "country_code": "Mã quốc gia",
+                "zip_code": "Mã bưu chính",
+                "isp": "ISP",
+                "as": "ASN",
+                "mobile": "Mạng di động",
+                "organization": "Tổ chức",
+                "threat_level": "Mức độ đe dọa",
+                "threat_types": "Loại đe dọa",
+                "error": "Lỗi",
+                "not_enough_data": "Không đủ dữ liệu để vẽ bản đồ"
             },
             "custom_flag": {
-                "none": ""
+                "none": "Không dùng cờ tùy chỉnh"
             }
         },
         "forum": {
             "user": {
                 "settings": {
                     "ip_country": "Hiển thị cờ quốc gia nơi tôi đăng bài, dựa trên địa chỉ IP của tôi",
-                    "custom_flag_label": "",
-                    "custom_flag_help": ""
+                    "custom_flag_label": "Cờ quốc gia tùy chỉnh",
+                    "custom_flag_help": "Chọn một cờ quốc gia để hiển thị trên bài viết của bạn. Cờ này hiển thị với tất cả mọi người và được dùng thay cho cờ dựa trên địa chỉ IP của bạn."
                 }
             },
             "alerts": {

@@ -7,13 +7,13 @@
             },
             "settings": {
                 "api_token_label": "Mã Token API",
-                "api_token_help": "",
+                "api_token_help": "Tạo một personal access token tại <a>https://github.com/settings/tokens/new</a> với các phạm vi <code>user</code> và <code>read:org</code>. Token này được dùng để lấy thông tin nhà tài trợ của bạn từ GitHub.",
                 "account_type_label": "Loại tài khoản",
-                "account_type_help": "",
-                "login_label": "Đăng nhập",
-                "login_help": "",
+                "account_type_help": "Chọn xem bạn đang theo dõi nhà tài trợ cho tài khoản người dùng GitHub cá nhân hay tài khoản tổ chức.",
+                "login_label": "Tên đăng nhập",
+                "login_help": "Nhập tên người dùng GitHub của bạn (với tài khoản cá nhân) hoặc tên tổ chức (với tổ chức). Đây là tài khoản mà các nhà tài trợ của nó sẽ được đồng bộ.",
                 "group_label": "Nhóm để gán",
-                "group_help": "",
+                "group_help": "Chọn nhóm người dùng Flarum mà các nhà tài trợ sẽ được thêm vào. Người dùng sẽ được tự động thêm khi họ trở thành nhà tài trợ và bị xóa khi họ ngừng tài trợ.",
                 "desc": "Nhận mã token API của bạn ở <a>https://github.com/settings/tokens/new</a>. Tiện ích mở rộng này yêu cầu scope <code>user</code> và <code>read:org</code>."
             }
         }

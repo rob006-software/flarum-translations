@@ -2,43 +2,43 @@
     "ordinaryjellyfish-sentra": {
         "admin": {
             "permissions": {
-                "undo_post_score": ""
+                "undo_post_score": "=> ordinaryjellyfish-sentra.lib.undo_post_score"
             },
-            "service_account": "",
+            "service_account": "Tài khoản dịch vụ",
             "services": {
-                "language": "",
-                "language_help": ""
+                "language": "Azure AI Language",
+                "language_help": "Azure AI Language là dịch vụ sử dụng xử lý ngôn ngữ tự nhiên để phân tích văn bản."
             },
             "modules": {
-                "identity_sentinel": "",
-                "identity_sentinel_help": "",
+                "identity_sentinel": "Identity Sentinel",
+                "identity_sentinel_help": "Identity Sentinel là mô-đun phát hiện thông tin định danh cá nhân trong bài viết.",
                 "identity_sentinel_settings": {
-                    "action": "",
-                    "action_help": "",
-                    "action_flag": "",
-                    "action_redact": "",
-                    "confidence": "",
-                    "confidence_help": "",
-                    "pii_threshold": "",
-                    "pii_threshold_help": ""
+                    "action": "Hành động khi phát hiện",
+                    "action_help": "Hành động sẽ được thực hiện khi tiêu chí của bạn được đáp ứng.",
+                    "action_flag": "Gắn cờ bài viết",
+                    "action_redact": "Che thông tin",
+                    "confidence": "Ngưỡng độ tin cậy",
+                    "confidence_help": "Ngưỡng độ tin cậy để kích hoạt hành động, là số thập phân từ 0 đến 1.",
+                    "pii_threshold": "Ngưỡng PII thông thường",
+                    "pii_threshold_help": "Số lượng thực thể định danh cá nhân thông thường cần phát hiện trước khi thực hiện hành động. PII nhạy cảm sẽ luôn kích hoạt hành động, bất kể được phát hiện bao nhiêu lần. Đặt thành 0 nếu bạn không muốn phát hiện PII thông thường."
                 }
             }
         },
         "forum": {
-            "undo_post_score": "",
-            "pii": ""
+            "undo_post_score": "=> ordinaryjellyfish-sentra.lib.undo_post_score",
+            "pii": "Thông tin định danh cá nhân"
         },
         "lib": {
-            "undo_post_score": ""
+            "undo_post_score": "Hoàn tác điểm hành vi bài viết"
         },
         "email": {
-            "suspend_temporary_reason": "",
-            "suspend_permanent_reason": ""
+            "suspend_temporary_reason": "Bạn đã bị tạm đình chỉ tự động do hành vi tiêu cực liên tục. Lần đình chỉ này kéo dài {duration, plural, one {1 ngày} plural {# ngày}} và sẽ được gỡ bỏ tự động. Nếu bạn cho rằng việc đình chỉ này là nhầm lẫn, vui lòng liên hệ với ban quản trị diễn đàn.",
+            "suspend_permanent_reason": "Bạn đã bị đình chỉ tự động do hành vi tiêu cực liên tục. Lần đình chỉ này là vĩnh viễn. Nếu bạn cho rằng việc đình chỉ này là nhầm lẫn, vui lòng liên hệ với ban quản trị diễn đàn."
         }
     },
     "ordinaryjellyfish-sentra-prime": {
         "admin": {
-            "title": ""
+            "title": "Các cài đặt cho tiện ích mở rộng này nằm trong <a>trang tiện ích Sentra tiêu chuẩn</a>. Chúc bạn sử dụng vui vẻ!"
         }
     }
 }

@@ -4,7 +4,7 @@
             "admin": {
                 "settings_page": {
                     "display_options": {
-                        "heading": "Thiết lập hiển thị",
+                        "heading": "Cài đặt hiển thị",
                         "options": {
                             "position": {
                                 "above-tags-link": "Trên nút \"Thẻ\"",
@@ -22,12 +22,12 @@
                         "add_link_btn": "Thêm liên kết mới",
                         "confirm_delete": "Xác nhận xóa liên kết \"{link}\"",
                         "alert": {
-                            "fix_errors": "Bạn cần khắc phục các sự cố ở trên trước khi lưu các thay đổi của mình."
+                            "fix_errors": "Bạn cần khắc phục các lỗi ở trên trước khi lưu thay đổi."
                         },
                         "table": {
                             "header": {
                                 "position": "Vị trí",
-                                "icon": "Icon liên kết",
+                                "icon": "Biểu tượng liên kết",
                                 "text": "Văn bản liên kết",
                                 "url": "URL liên kết",
                                 "internal": "Đây là URL Flarum?",
@@ -41,11 +41,11 @@
                             "tooltips": {
                                 "move_up": "Đưa lên trên",
                                 "move_down": "Đưa xuống dưới",
-                                "icon_preview": "Xem trước Icon"
+                                "icon_preview": "Xem trước biểu tượng"
                             }
                         },
                         "save_btn": {
-                            "dirty": "Lưu thiết lập",
+                            "dirty": "Lưu cài đặt",
                             "saving": "Đang lưu thay đổi...",
                             "saved": "Không có thay đổi để lưu",
                             "fix_errors": "Khắc phục các lỗi trước khi lưu"

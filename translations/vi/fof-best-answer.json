@@ -4,7 +4,7 @@
             "permissions": {
                 "best_answer": "Chọn câu trả lời hay nhất (cuộc thảo luận của riêng mình)",
                 "best_answer_not_own_discussion": "Chọn câu trả lời hay nhất (không phải cuộc thảo luận của riêng mình)",
-                "allow_select_own_post": ""
+                "allow_select_own_post": "Chọn bài viết của chính mình làm Câu trả lời hay nhất"
             },
             "settings": {
                 "label": {
@@ -23,13 +23,13 @@
                 "select_best_answer_tags_help": "Chọn những thẻ nào, nếu có, để thêm vào các cuộc thảo luận khi có Câu trả lời hay nhất được đặt. Chỉ các thẻ phụ được cho phép. Những thẻ này sẽ bị xóa nếu Câu trả lời hay nhất bị xóa.",
                 "schedule_on_one_server": "Sử dụng 'onOneServer()' cho trình lập lịch tác vụ",
                 "schedule_on_one_server_help": "Yêu cầu Redis/Memcache",
-                "schedule_stop_overnight": "Ngăn thông báo nhắc nhở được gửi trong những giờ không liên lạc",
+                "schedule_stop_overnight": "Ngăn gửi thông báo nhắc nhở vào giờ nghỉ ban đêm",
                 "schedule_stop_overnight_help": "9 giờ tối - 8 giờ sáng theo giờ máy chủ",
                 "schedule_log_output": "Nối đầu ra của bộ lập lịch vào bộ nhớ nhật ký",
                 "show_filter_label": "Hiển thị dropdown bộ lọc Câu trả lời hay nhất",
                 "show_filter_help": "Đối với các thẻ đã bật Câu trả lời hay nhất, chọn hiển thị tùy chọn bộ lọc đã giải quyết/chưa giải quyết trong danh sách thảo luận",
                 "use_alt_ui": "Bố cục thay thế",
-                "use_alt_ui_help": "Kiểm soát câu trả lời hay nhất dưới chân trang bài viết",
+                "use_alt_ui_help": "Các nút điều khiển Câu trả lời hay nhất ở chân bài viết",
                 "documentation": "Tài liệu",
                 "enabled_tags_label": "Các thẻ được kích hoạt",
                 "enabled_tags_help": "Chọn những thẻ nào, nếu có, để kích hoạt Câu trả lời hay nhất cho. Những thẻ này sẽ trở thành các thẻ định dạng \"Hỏi & Đáp\" và có khả năng đặt Câu trả lời hay nhất.",
@@ -60,7 +60,7 @@
             "this_best_answer": "Chọn câu trả lời hay nhất",
             "remove_best_answer": "Bỏ chọn câu trả lời hay nhất",
             "best_answer_button": "Câu trả lời hay nhất",
-            "best_answer_label": "chọn bởi <a>{username}</a> {time_set}",
+            "best_answer_label": "do <a>{username}</a> chọn {time_set}",
             "errors": {
                 "mismatch": "Bài viết đã chọn không tồn tại trong cuộc thảo luận này."
             },
@@ -69,8 +69,8 @@
                 "content": "Vui lòng chọn một Câu trả lời hay nhất nếu câu hỏi của bạn đã được trả lời",
                 "awarded": "Bài viết của bạn đã được đặt là câu trả lời hay nhất bởi {username}",
                 "preferences": {
-                    "awarded_best_answer": "Ai đó chọn bài viết của tôi là câu trả hay nhất",
-                    "best_answer_in_discussion": "Câu trả lời hay nhất được đặt trong cuộc thảo luận có tôi",
+                    "awarded_best_answer": "Ai đó chọn bài viết của tôi là câu trả lời hay nhất",
+                    "best_answer_in_discussion": "Câu trả lời hay nhất được chọn trong cuộc thảo luận mà tôi đã tham gia",
                     "select_best_answer": "Lời nhắc tự động để chọn một câu trả lời hay nhất trong một cuộc thảo luận mà tôi đã tạo"
                 }
             },
@@ -107,17 +107,17 @@
                 "select": "Bạn đã có câu trả lời cho câu hỏi của mình chưa?"
             },
             "body": {
-                "awarded": "Chào {recipient_display_name},\n\nRất tốt! {actor_display_name} vừa chọn bài viết của bạn làm câu trả lời hay nhất trong cuộc thảo luận: {discussion_title}. Cảm ơn vì đã giúp đỡ.\n\nXem nó tại đây: {discussion_url}\n",
-                "ba-set": "Chào {recipient_display_name},\n\n{actor_display_name} vừa chọn câu trả lời hay nhất trong cuộc thảo luận: {discussion_title}, bạn đã đăng bài viết\n\nKiểm tra nó: {discussion_url}\n",
-                "select": "Chào {recipient_display_name},\n\nChỉ cần đăng ký; bây giờ bạn sẽ có nhiều câu trả lời cho câu hỏi của mình: {discussion_title}. Hy vọng rằng một trong số họ đã giúp bạn giải quyết vấn đề của bạn.\n\nNếu vậy, sẽ thực sự hữu ích cho các thành viên tương lai nếu bạn có thể đưa ra câu trả lời tốt nhất cho câu hỏi của mình. Nó sẽ giúp những người có cùng vấn đề tìm thấy câu trả lời mà họ cần, đồng thời cũng là lời cảm ơn sâu sắc đến các thành viên đã giúp đỡ bạn. Họ dành thời gian một cách tự nguyện, vì vậy, thật tuyệt khi cho họ biết rằng họ đang làm tốt.\n\nTruy cập cuộc thảo luận tại đây: {discussion_url} và chọn bài đăng thích hợp nhất làm câu trả lời hay nhất.\n\nCảm ơn!\n"
+                "awarded": "Chào {recipient_display_name},\n\nLàm tốt lắm! {actor_display_name} vừa chọn bài viết của bạn làm câu trả lời hay nhất trong cuộc thảo luận: {discussion_title}. Cảm ơn bạn đã giúp đỡ.\n\nXem tại đây: {discussion_url}\n",
+                "ba-set": "Chào {recipient_display_name},\n\n{actor_display_name} vừa chọn câu trả lời hay nhất trong cuộc thảo luận mà bạn đã tham gia: {discussion_title}.\n\nXem tại đây: {discussion_url}\n",
+                "select": "Chào {recipient_display_name},\n\nChúng tôi chỉ muốn hỏi thăm một chút: đến giờ hẳn bạn đã nhận được nhiều trả lời cho câu hỏi của mình: {discussion_title}. Hy vọng một trong số đó đã giúp bạn giải quyết được vấn đề.\n\nNếu vậy, sẽ rất hữu ích cho các thành viên sau này nếu bạn chọn một câu trả lời hay nhất cho câu hỏi của mình. Điều này giúp những người gặp cùng vấn đề tìm thấy câu trả lời họ cần, đồng thời cũng là lời cảm ơn lớn dành cho các thành viên đã giúp đỡ bạn. Họ tự nguyện dành thời gian của mình, vì vậy thật tốt khi cho họ biết rằng họ đang làm tốt.\n\nTruy cập cuộc thảo luận tại đây: {discussion_url} và chọn bài viết phù hợp nhất làm câu trả lời hay nhất.\n\nCảm ơn bạn!\n"
             }
         }
     },
     "fof-user-directory": {
         "lib": {
             "sort": {
-                "most_best_answers": "Các câu trả lời hay nhất",
-                "least_best_answers": "Các câu trả lời ít hay nhất"
+                "most_best_answers": "Nhiều câu trả lời hay nhất",
+                "least_best_answers": "Ít câu trả lời hay nhất"
             }
         }
     }

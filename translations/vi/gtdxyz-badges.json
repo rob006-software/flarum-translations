@@ -15,8 +15,8 @@
                 "badge_detail_users": "Có thể xem người dùng trên trang chi tiết huy hiệu",
                 "give_badge": "Gán huy hiệu cho người dùng",
                 "take_badge": "Gỡ huy hiệu khỏi người dùng",
-                "edit_own_card_badges": "Chỉnh sửa thẻ huy hiệu người dùng của chính mình",
-                "edit_card_badges": "Chỉnh sửa huy hiệu thẻ người dùng"
+                "edit_own_card_badges": "Chỉnh sửa huy hiệu trên thẻ người dùng của chính mình",
+                "edit_card_badges": "Chỉnh sửa huy hiệu trên thẻ người dùng"
             },
             "confirm_dialog": {
                 "title": "Xác nhận",
@@ -44,15 +44,15 @@
             "badge_category": {
                 "name": "Tên danh mục",
                 "description": "Mô tả danh mục",
-                "blockview": "Chế độ xem block",
-                "blockview_description": "Hiển thị danh mục-huy hiệu trong chế độ xem block trên tổng quan về huy hiệu. Khi bị vô hiệu hóa, tất cả các huy hiệu sẽ được hiển thị trong một bảng.",
+                "blockview": "Chế độ xem dạng khối",
+                "blockview_description": "Hiển thị các huy hiệu của danh mục theo dạng khối trên trang tổng quan huy hiệu. Khi tắt, tất cả huy hiệu sẽ được hiển thị trong một bảng.",
                 "enabled": "Đã bật",
                 "enabled_description": "Kích hoạt danh mục này. Khi bị vô hiệu hóa, tất cả các huy hiệu sẽ bị vô hiệu hóa và danh mục sẽ bị ẩn."
             },
             "auto_moderator": {
                 "not_installed": {
                     "title": "Tự động gán huy hiệu cho người dùng",
-                    "content": "Tiện ích mở rộng này cung cấp nhiều chức năng hơn khi <a>Người kiểm duyệt tự động</a> được cài đặt và kích hoạt. Khi bạn cài đặt tiện ích mở rộng này, người dùng có thể tự động được gán huy hiệu mà không cần sự can thiệp của bạn!",
+                    "content": "Tiện ích mở rộng này cung cấp nhiều chức năng hơn khi <a>Auto Moderator</a> được cài đặt và kích hoạt. Khi bạn cài đặt tiện ích mở rộng này, người dùng có thể tự động được gán huy hiệu mà không cần điều hành viên can thiệp!",
                     "install": "Cài đặt",
                     "dismiss": "Không hiện lại"
                 },
@@ -82,7 +82,7 @@
             "select_badge": "Chọn huy hiệu",
             "user_has_badge": "Người dùng đã có huy hiệu này.",
             "user_no_badges": "Người dùng này chưa có bất kỳ huy hiệu nào.",
-            "hidden_badges": "Người dùng này hiện chưa có huy hiệu nào.",
+            "hidden_badges": "Người dùng này chưa hiển thị huy hiệu nào.",
             "no_received": "Không có người dùng nào có huy hiệu này.",
             "uncategorized": "=> gtdxyz-flarum-badges.admin.uncategorized",
             "save_changes": "Lưu thay đổi",

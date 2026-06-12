@@ -2,66 +2,66 @@
     "ralkage-profile-messages": {
         "admin": {
             "permissions": {
-                "post_label": "",
-                "delete_own_label": "",
-                "edit_any_label": ""
+                "post_label": "Đăng tin nhắn trên trang cá nhân",
+                "delete_own_label": "Xóa tin nhắn trang cá nhân của chính mình",
+                "edit_any_label": "Chỉnh sửa bất kỳ tin nhắn trang cá nhân nào"
             }
         },
         "forum": {
             "user": {
-                "messages_link": "",
-                "messages_empty_text": "",
-                "messages_load_more_button": ""
+                "messages_link": "Tin nhắn trang cá nhân",
+                "messages_empty_text": "Chưa có tin nhắn nào được đăng trên trang cá nhân này.",
+                "messages_load_more_button": "Tải thêm"
             },
             "composer": {
-                "placeholder": "",
-                "submit_button": "",
-                "save_button": "",
-                "heading": "",
-                "reply_heading": "",
-                "edit_heading": "",
-                "confirm_exit": "",
-                "posted_message": "",
-                "preview_heading": "",
-                "saved_message": "",
-                "validation_empty": "",
-                "validation_too_long": "",
-                "validation_blocked": ""
+                "placeholder": "Viết một tin nhắn trên trang cá nhân này...",
+                "submit_button": "Đăng tin nhắn",
+                "save_button": "Lưu thay đổi",
+                "heading": "Tin nhắn trên trang cá nhân của {username}",
+                "reply_heading": "Trả lời trên trang cá nhân của {username}",
+                "edit_heading": "Chỉnh sửa tin nhắn",
+                "confirm_exit": "Tin nhắn của bạn chưa được đăng. Bạn có muốn hủy bỏ không?",
+                "posted_message": "Tin nhắn của bạn đã được đăng.",
+                "preview_heading": "Xem trước",
+                "saved_message": "Tin nhắn của bạn đã được cập nhật.",
+                "validation_empty": "Tin nhắn không được để trống.",
+                "validation_too_long": "Tin nhắn không được vượt quá 2000 ký tự.",
+                "validation_blocked": "Người dùng này đã tắt tin nhắn trang cá nhân."
             },
             "message": {
-                "delete_button": "",
-                "delete_confirm": "",
-                "edit_button": "",
-                "reply_button": "",
-                "reply_placeholder": "",
-                "reply_submit": "",
-                "report_button": "",
-                "permalink_button": "",
-                "permalink_copied": "",
-                "show_replies": "",
-                "hide_replies": ""
+                "delete_button": "Xóa",
+                "delete_confirm": "Bạn có chắc chắn muốn xóa tin nhắn này không?",
+                "edit_button": "Chỉnh sửa",
+                "reply_button": "Trả lời",
+                "reply_placeholder": "Viết câu trả lời...",
+                "reply_submit": "Trả lời",
+                "report_button": "Báo cáo",
+                "permalink_button": "Liên kết cố định",
+                "permalink_copied": "Đã sao chép liên kết vào bộ nhớ tạm.",
+                "show_replies": "{count, plural, one {Hiện # câu trả lời} other {Hiện # câu trả lời}}",
+                "hide_replies": "Ẩn câu trả lời"
             },
             "report": {
-                "title": "",
-                "reason_inappropriate": "",
-                "reason_spam": "",
-                "reason_harassment": "",
-                "reason_other": "",
-                "detail_placeholder": "",
-                "submit_button": "",
-                "success": "",
-                "cannot_report_own": "",
-                "already_reported": ""
+                "title": "Báo cáo tin nhắn",
+                "reason_inappropriate": "Nội dung không phù hợp",
+                "reason_spam": "Spam",
+                "reason_harassment": "Quấy rối",
+                "reason_other": "Khác",
+                "detail_placeholder": "Cung cấp thêm chi tiết (không bắt buộc)...",
+                "submit_button": "Gửi báo cáo",
+                "success": "Tin nhắn đã được báo cáo.",
+                "cannot_report_own": "Bạn không thể báo cáo tin nhắn của chính mình.",
+                "already_reported": "Bạn đã báo cáo tin nhắn này rồi."
             },
             "notification": {
-                "new_profile_message_text": "",
-                "new_profile_message_reply_text": ""
+                "new_profile_message_text": "{username} đã đăng trên trang cá nhân của bạn.",
+                "new_profile_message_reply_text": "{username} đã trả lời tin nhắn của bạn trên trang cá nhân của {profileOwner}."
             },
             "settings": {
-                "profile_heading": "",
-                "notify_new_profile_message_label": "",
-                "block_profile_messages_label": "",
-                "default_view_label": ""
+                "profile_heading": "Trang cá nhân",
+                "notify_new_profile_message_label": "Ai đó đăng trên trang cá nhân của tôi",
+                "block_profile_messages_label": "Tắt tin nhắn trang cá nhân từ người dùng khác",
+                "default_view_label": "Hiển thị Tin nhắn trang cá nhân làm chế độ xem mặc định của trang cá nhân"
             }
         }
     }
