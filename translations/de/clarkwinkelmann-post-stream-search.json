@@ -15,13 +15,13 @@
         "forum": {
             "stream": {
                 "noResults": "In dieser Diskussion entsprechen keine Beiträge der Suchanfrage",
-                "unmatchedGap": "",
-                "otherAuthorsGap": ""
+                "unmatchedGap": "{count, plural, one {Ein nicht passender Beitrag wurde ausgeblendet} other {{count} nicht passende Beiträge wurden ausgeblendet}}",
+                "otherAuthorsGap": "{count, plural, one {Ein Beitrag von einem anderen Autor wurde ausgeblendet} other {{count} Beiträge von anderen Autoren wurden ausgeblendet}}"
             },
             "toolbar": {
                 "searchPlaceholder": "Finden Sie in der Diskussion...",
                 "authorPlaceholder": "Nach Autor filtern...",
-                "summary": "",
+                "summary": "{matching} von {total} Treffern",
                 "pin": "Filter-Symbolleiste bei Diskussionen immer öffnen",
                 "close": "Filter löschen und Symbolleiste schließen",
                 "clear": "Filter löschen"
