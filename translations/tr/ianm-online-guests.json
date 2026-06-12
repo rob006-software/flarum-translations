@@ -2,18 +2,18 @@
     "ianm-online-guests": {
         "admin": {
             "permissions": {
-                "view_online_guests_label": ""
+                "view_online_guests_label": "Çevrimiçi misafirleri görüntüle"
             },
             "settings": {
-                "online_duration_label": "",
-                "cache_duration_label": ""
+                "online_duration_label": "Çevrimiçi kalma süresi",
+                "cache_duration_label": "Önbellek süresi"
             }
         },
         "forum": {
             "widget": {
-                "title": "",
-                "description": "",
-                "guests_online": ""
+                "title": "Çevrimiçi Misafirler",
+                "description": "Şu anda forumu görüntüleyen misafirlerin sayısını gösterir",
+                "guests_online": "{count, plural, one {misafir çevrim içi} other {misafir çevrim içi}}"
             }
         }
     }

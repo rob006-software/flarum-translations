@@ -2,18 +2,18 @@
     "ianm-online-guests": {
         "admin": {
             "permissions": {
-                "view_online_guests_label": ""
+                "view_online_guests_label": "Lihat tamu online"
             },
             "settings": {
-                "online_duration_label": "",
-                "cache_duration_label": ""
+                "online_duration_label": "Durasi online",
+                "cache_duration_label": "Durasi cache"
             }
         },
         "forum": {
             "widget": {
-                "title": "",
-                "description": "",
-                "guests_online": ""
+                "title": "Tamu Online",
+                "description": "Tampilkan jumlah tamu yang sedang menjelajahi forum",
+                "guests_online": "{count, plural, one {tamu online} other {tamu online}}"
             }
         }
     }

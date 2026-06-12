@@ -5292,6 +5292,27 @@
             }
         }
     },
+    "glowingblue-password-strength.json": {
+        "glowingblue-password-strength": {
+            "admin": {
+                "settings": {
+                    "colorOptions": "1bec2bf642a0dd21a9ebe3b417641209 1bec2bf642a0dd21a9ebe3b417641209",
+                    "enableInputBorderColor": "98497c66116748bd3be8e9530e06ed3c 98497c66116748bd3be8e9530e06ed3c",
+                    "enableInputColor": "3831ab5e89fc9756b08d86ea905a7fa0 3831ab5e89fc9756b08d86ea905a7fa0",
+                    "enablePasswordToggle": "980529690ca6e7f808b9bdd0569ec967 980529690ca6e7f808b9bdd0569ec967",
+                    "otherOptions": "42c37d7a86dd360bf42628a842546aee 42c37d7a86dd360bf42628a842546aee",
+                    "title": "8af08e42aec6fe781ccc287f48fa2de3 8af08e42aec6fe781ccc287f48fa2de3"
+                }
+            },
+            "forum": {
+                "strengthLabels": {
+                    "medium": "f7f1a99c5be1793a66f4a1df77f6e38e f7f1a99c5be1793a66f4a1df77f6e38e",
+                    "strong": "e7d71c2cbbdc20850d00489e19f725e3 e7d71c2cbbdc20850d00489e19f725e3",
+                    "weak": "9545d4ad1a74de1ab516e41cf2bc17c1 9545d4ad1a74de1ab516e41cf2bc17c1"
+                }
+            }
+        }
+    },
     "ianm-follow-users.json": {
         "flarum-gdpr": {
             "lib": {
@@ -5462,6 +5483,26 @@
             "lib": {
                 "providers": {
                     "reddit": "b632c55a33530d1433e29ffc09ba1151 b632c55a33530d1433e29ffc09ba1151"
+                }
+            }
+        }
+    },
+    "ianm-online-guests.json": {
+        "ianm-online-guests": {
+            "admin": {
+                "permissions": {
+                    "view_online_guests_label": "b88aa10b323d3610afee5e2e022969a9 b88aa10b323d3610afee5e2e022969a9"
+                },
+                "settings": {
+                    "cache_duration_label": "9ee45b1ac6b56e4d28773d5b28799efc 9ee45b1ac6b56e4d28773d5b28799efc",
+                    "online_duration_label": "ba4163857d46a0587666c19e14f28c10 ba4163857d46a0587666c19e14f28c10"
+                }
+            },
+            "forum": {
+                "widget": {
+                    "description": "7fce171235d2748c69638c55b485024a 7fce171235d2748c69638c55b485024a",
+                    "guests_online": "6b8ba67564e1f013dcf55fdd4e03f5d8 6b8ba67564e1f013dcf55fdd4e03f5d8",
+                    "title": "1ffdf0f0c0236f43ce2f02c598ea4381 1ffdf0f0c0236f43ce2f02c598ea4381"
                 }
             }
         }

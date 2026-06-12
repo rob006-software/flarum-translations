@@ -6126,6 +6126,27 @@
             }
         }
     },
+    "glowingblue-password-strength.json": {
+        "glowingblue-password-strength": {
+            "admin": {
+                "settings": {
+                    "colorOptions": "8a4996604c742bebb1ea44f9595b7733 8a4996604c742bebb1ea44f9595b7733",
+                    "enableInputBorderColor": "b31fcbbe8bdde37d2c0573d67abfc12e b31fcbbe8bdde37d2c0573d67abfc12e",
+                    "enableInputColor": "3946359c5a1121995c7780f2ec59dfd7 3946359c5a1121995c7780f2ec59dfd7",
+                    "enablePasswordToggle": "fc82a9e3120be6bee542485ee794aba3 fc82a9e3120be6bee542485ee794aba3",
+                    "otherOptions": "6ffab17e319564bda57ce58f336e7101 6ffab17e319564bda57ce58f336e7101",
+                    "title": "1a7f0fcdf0417bcaa74cc290eb361b2b 1a7f0fcdf0417bcaa74cc290eb361b2b"
+                }
+            },
+            "forum": {
+                "strengthLabels": {
+                    "medium": "4d0c17cb5675e3fe56649c7e135a995e 4d0c17cb5675e3fe56649c7e135a995e",
+                    "strong": "7d00964b53a9c14ef100ad33fd71c743 7d00964b53a9c14ef100ad33fd71c743",
+                    "weak": "5490777b9cec0e60f5ffecda1e31c0a5 5490777b9cec0e60f5ffecda1e31c0a5"
+                }
+            }
+        }
+    },
     "huseyinfiliz-awards.json": {
         "huseyinfiliz-awards": {
             "admin": {
@@ -6880,6 +6901,26 @@
             "lib": {
                 "providers": {
                     "reddit": "b632c55a33530d1433e29ffc09ba1151 b632c55a33530d1433e29ffc09ba1151"
+                }
+            }
+        }
+    },
+    "ianm-online-guests.json": {
+        "ianm-online-guests": {
+            "admin": {
+                "permissions": {
+                    "view_online_guests_label": "0f7ac666e54912a5470c55e85582791a 0f7ac666e54912a5470c55e85582791a"
+                },
+                "settings": {
+                    "cache_duration_label": "5b687e07564198937b9f1a9f1b6319f5 5b687e07564198937b9f1a9f1b6319f5",
+                    "online_duration_label": "89e2f2d51281cb3f8c95245e5dbc34f2 89e2f2d51281cb3f8c95245e5dbc34f2"
+                }
+            },
+            "forum": {
+                "widget": {
+                    "description": "42028dcfe57111ad4ca2660ed3b09cb6 42028dcfe57111ad4ca2660ed3b09cb6",
+                    "guests_online": "8ee8fbc634f6dca4dac8ce6616365509 8ee8fbc634f6dca4dac8ce6616365509",
+                    "title": "853f1ed342402e488fd4638df567eac0 853f1ed342402e488fd4638df567eac0"
                 }
             }
         }

@@ -5216,6 +5216,27 @@
             }
         }
     },
+    "glowingblue-password-strength.json": {
+        "glowingblue-password-strength": {
+            "admin": {
+                "settings": {
+                    "colorOptions": "4b4ddddcc743e88b8c95ed653f826be9 4b4ddddcc743e88b8c95ed653f826be9",
+                    "enableInputBorderColor": "9cb04d3723cd0e108a8d7a2e679139b4 9cb04d3723cd0e108a8d7a2e679139b4",
+                    "enableInputColor": "ced4bbc4191dac7d21635d79527f82ac ced4bbc4191dac7d21635d79527f82ac",
+                    "enablePasswordToggle": "559274114442d922098b2821824f80e2 559274114442d922098b2821824f80e2",
+                    "otherOptions": "44bcbed0051a86d53edc06b97a5fbf29 44bcbed0051a86d53edc06b97a5fbf29",
+                    "title": "b88fb962ae58aa9e41bfb1c0984b6f3d b88fb962ae58aa9e41bfb1c0984b6f3d"
+                }
+            },
+            "forum": {
+                "strengthLabels": {
+                    "medium": "a0a81b818b5f6cfd864a5233b206885b a0a81b818b5f6cfd864a5233b206885b",
+                    "strong": "e49b0b6f59851c8420cf34cee7ea1d30 e49b0b6f59851c8420cf34cee7ea1d30",
+                    "weak": "bfb5905342d7a5aa8eb8bab0b0fe2bcc bfb5905342d7a5aa8eb8bab0b0fe2bcc"
+                }
+            }
+        }
+    },
     "huoxin-relative-url.json": {
         "huoxin-relative-url": {
             "admin": {
@@ -5478,6 +5499,24 @@
             "lib": {
                 "providers": {
                     "reddit": "b632c55a33530d1433e29ffc09ba1151 b632c55a33530d1433e29ffc09ba1151"
+                }
+            }
+        }
+    },
+    "ianm-online-guests.json": {
+        "ianm-online-guests": {
+            "admin": {
+                "permissions": {
+                    "view_online_guests_label": "ad1f64dc23c61df9bd2f8475abc5b4c8 ad1f64dc23c61df9bd2f8475abc5b4c8"
+                },
+                "settings": {
+                    "cache_duration_label": "1ce1e06c8fd99bfcf313388bccd7473b 1ce1e06c8fd99bfcf313388bccd7473b"
+                }
+            },
+            "forum": {
+                "widget": {
+                    "description": "e5bc709958314217f7efd90b4302ceb3 e5bc709958314217f7efd90b4302ceb3",
+                    "title": "80d66c7b150f9f39f1cb0877e26fe3d9 80d66c7b150f9f39f1cb0877e26fe3d9"
                 }
             }
         }
