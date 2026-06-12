@@ -6,17 +6,17 @@
                 "secret_key_label": "Secret-Schlüssel",
                 "site_key_label": "Seiten-Schlüssel",
                 "type_label": "hCaptcha-Typ",
-                "dark_mode_label": "",
-                "dark_mode_help": "",
-                "enable_login_label": "",
-                "enable_login_help": ""
+                "dark_mode_label": "Dunkler Modus",
+                "dark_mode_help": "Verwende das dunkle Design für das hCaptcha-Widget. Aktiviere diese Option, wenn dein Forum ein dunkles Design verwendet.",
+                "enable_login_label": "Bei der Anmeldung erforderlich",
+                "enable_login_help": "Bei der Anmeldung der Benutzer hCaptcha anfordern. Dies trägt zum Schutz vor Brute-Force-Angriffen bei."
             },
             "permissions": {
                 "post_without_hcaptcha": "Beiträge und Diskussionen ohne hCaptcha erstellen"
             }
         },
         "forum": {
-            "error": "Beim Absenden des H-Captchas ist ein Fehler aufgetreten. Versuche es nochmal."
+            "error": "Beim Absenden des hCaptchas ist ein Fehler aufgetreten. Versuche es nochmal."
         }
     },
     "validation": {
