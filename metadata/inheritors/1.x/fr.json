@@ -3684,6 +3684,8 @@
                 },
                 "settings": {
                     "access_key_label": "e95e5de06f797f5a120efba52e77950e e95e5de06f797f5a120efba52e77950e",
+                    "allow_custom_flag_help": "d41d8cd98f00b204e9800998ecf8427e 0a2d5c9ae03664585d0e69f102301729",
+                    "allow_custom_flag_label": "d41d8cd98f00b204e9800998ecf8427e 2c53fb04c60f853c69271c45c1d89649",
                     "error_code_prefix": "ebc601e78e961b93d3ad311575c4a718 ebc601e78e961b93d3ad311575c4a718",
                     "error_prefix": "8a3fcd07432dd794f0ab64b0900d2721 8a3fcd07432dd794f0ab64b0900d2721",
                     "general": {
@@ -3759,8 +3761,34 @@
                 },
                 "user": {
                     "settings": {
+                        "custom_flag_help": "d41d8cd98f00b204e9800998ecf8427e 0c201b203021d80879692c6520509333",
+                        "custom_flag_label": "d41d8cd98f00b204e9800998ecf8427e d49d60b9d654b69376d1f304908bf944",
                         "ip_country": "2d76e2bbc8286dfd8e07cc78d347f124 2d76e2bbc8286dfd8e07cc78d347f124"
                     }
+                }
+            },
+            "lib": {
+                "alerts": {
+                    "ip_copied": "d41d8cd98f00b204e9800998ecf8427e 0b3cf51e28e9b8c1eaabecab32f807d4"
+                },
+                "copy_ip_label": "d41d8cd98f00b204e9800998ecf8427e 0cbdb70caf8045a4a3c2a73eb6d00a51",
+                "custom_flag": {
+                    "none": "d41d8cd98f00b204e9800998ecf8427e 5e851c2bd49a2ede3ad0846069d2393d"
+                },
+                "map_button_label": "d41d8cd98f00b204e9800998ecf8427e 37258489af208b31997dd712bde39303",
+                "map_modal": {
+                    "as": "d41d8cd98f00b204e9800998ecf8427e dec20b35ad94f1a61d9de894338ba93f",
+                    "country_code": "d41d8cd98f00b204e9800998ecf8427e dba26f5a01447b3c022e737e168e87b5",
+                    "error": "d41d8cd98f00b204e9800998ecf8427e fe7d2cb7d4db59ae3c13b1d29aa2515e",
+                    "ip_address": "d41d8cd98f00b204e9800998ecf8427e 4d24aebe827ab184c789616b95f09b05",
+                    "isp": "d41d8cd98f00b204e9800998ecf8427e 58f2f62b0cd18a2eb6f9f1819fda82f8",
+                    "mobile": "d41d8cd98f00b204e9800998ecf8427e d6cdba825c11fadbc13e8830d9e71084",
+                    "not_enough_data": "d41d8cd98f00b204e9800998ecf8427e c756734cbc5bf6d5f542c59d061444b9",
+                    "organization": "d41d8cd98f00b204e9800998ecf8427e 17b83ae34e7863096eadb985ed537870",
+                    "threat_level": "d41d8cd98f00b204e9800998ecf8427e b1cfd8962a7f0a384997e03f5876a013",
+                    "threat_types": "d41d8cd98f00b204e9800998ecf8427e d0f61c0b329ea155e8dd1a7dfff84436",
+                    "title": "d41d8cd98f00b204e9800998ecf8427e 37258489af208b31997dd712bde39303",
+                    "zip_code": "d41d8cd98f00b204e9800998ecf8427e db17b3566c9be74a5dd2eec0852616cd"
                 }
             }
         }
