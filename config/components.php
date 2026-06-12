@@ -956,7 +956,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/modern-footer/v1.1/resources/locale/en.yml',
 	],
 	'huseyinfiliz-notificationhub' => [
-		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/notificationhub/1.1.1/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/notificationhub/1.5/resources/locale/en.yml',
 	],
 	'huseyinfiliz-pickem' => [
 		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/pickem/1.5/resources/locale/en.yml',
