@@ -60,12 +60,12 @@
             "user_ids_required": "Benutzer-IDs sind erforderlich.",
             "subject_id_required": "Benachrichtigungsart ist erforderlich.",
             "no_valid_recipients": "Keine gültigen Empfänger gefunden.",
-            "name_required": "",
-            "invalid_url": "",
-            "name_too_long": "",
-            "message_too_long": "",
-            "url_too_long": "",
-            "invalid_url_scheme": ""
+            "name_required": "Die Angabe des Namens der Benachrichtigungsart ist erforderlich.",
+            "invalid_url": "Ungültiges URL-Protokoll erkannt.",
+            "name_too_long": "Name darf nicht länger als 255 Zeichen sein.",
+            "message_too_long": "Nachricht darf nicht länger als 5000 Zeichen sein.",
+            "url_too_long": "URL darf nicht länger als 2048 Zeichen sein.",
+            "invalid_url_scheme": "Ungültiges URL-Schema. Es sind nur HTTP-, HTTPS-, mailto-, tel- oder relative Links zulässig."
         }
     }
 }
