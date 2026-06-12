@@ -1,0 +1,128 @@
+{
+    "datlechin-passkey": {
+        "forum": {
+            "log_in": {
+                "sign_in_with_passkey": "Đăng nhập bằng khóa truy cập (passkey)",
+                "passkey_unsupported": "Trình duyệt này không hỗ trợ passkey.",
+                "verifying": "Đang xác minh passkey...",
+                "cancelled": "Đăng nhập bằng passkey đã bị hủy.",
+                "failed": "Không thể xác minh passkey của bạn. Vui lòng thử lại.",
+                "unsupported": "Thiết bị này không thể sử dụng loại passkey mà trang web yêu cầu.",
+                "security_error": "Nguồn gốc (origin) của trang web không khớp với relying party đã cấu hình. Hãy đề nghị quản trị viên kiểm tra cài đặt Passkey.",
+                "throttled": "Quá nhiều lần thử đăng nhập bằng passkey. Vui lòng đợi một phút rồi thử lại."
+            },
+            "suggest": {
+                "title": "Thiết lập passkey",
+                "body": "Lần sau đăng nhập nhanh hơn mà không cần nhớ mật khẩu. Thiết bị của bạn sẽ tạo một passkey chỉ hoạt động trên trang web này.",
+                "set_up": "Thiết lập passkey",
+                "not_now": "Để sau"
+            },
+            "required": {
+                "body": "Vai trò của bạn yêu cầu phải đăng ký passkey trước khi có thể tiếp tục.",
+                "set_up": "Thiết lập ngay"
+            },
+            "settings": {
+                "heading": "Khóa truy cập (Passkey)",
+                "description": "Passkey cho phép bạn đăng nhập không cần mật khẩu bằng thiết bị của bạn hoặc khóa phần cứng.",
+                "add_button": "Thêm passkey",
+                "bulk_revoke_button": "Thu hồi tất cả",
+                "invalid_device_name": "Tên passkey phải có từ 1 đến 64 ký tự.",
+                "add_modal": {
+                    "title": "Thêm passkey",
+                    "device_name_label": "Đặt tên cho passkey này",
+                    "device_name_placeholder": "ví dụ: iPhone, MacBook, YubiKey",
+                    "register_button": "Đăng ký",
+                    "cancel_button": "Hủy"
+                },
+                "bulk_revoke_modal": {
+                    "body": "Thu hồi tất cả {count} passkey của bạn? Sau đó bạn sẽ không thể đăng nhập bằng bất kỳ passkey nào trong số đó nữa."
+                },
+                "list": {
+                    "empty": "Bạn chưa thêm passkey nào.",
+                    "added_label": "Đã thêm",
+                    "last_used_label": "Dùng lần cuối",
+                    "never_used": "Chưa từng dùng",
+                    "synced": "Đã đồng bộ",
+                    "device_only": "Chỉ trên thiết bị này",
+                    "rename_button": "Đổi tên",
+                    "revoke_button": "Thu hồi"
+                },
+                "rename_modal": {
+                    "title": "Đổi tên passkey",
+                    "save_button": "Lưu",
+                    "cancel_button": "Hủy"
+                },
+                "revoke_modal": {
+                    "title": "Thu hồi passkey",
+                    "body": "Bạn có chắc muốn thu hồi {device} không? Sau đó bạn sẽ không thể đăng nhập bằng passkey này nữa.",
+                    "confirm_button": "Thu hồi",
+                    "cancel_button": "Hủy"
+                },
+                "alerts": {
+                    "registration_succeeded": "Đã thêm passkey.",
+                    "registration_failed": "Không thể đăng ký passkey của bạn. Vui lòng thử lại.",
+                    "registration_already_exists": "Thiết bị này đã có passkey cho tài khoản của bạn. Hãy thu hồi passkey hiện có trước, hoặc dùng một thiết bị khác.",
+                    "registration_security_error": "Nguồn gốc (origin) của trang web không khớp với relying party đã cấu hình. Hãy đề nghị quản trị viên kiểm tra cài đặt Passkey.",
+                    "registration_unsupported": "Thiết bị này không thể đăng ký loại passkey mà trang web yêu cầu.",
+                    "rename_succeeded": "Đã đổi tên passkey.",
+                    "revoke_succeeded": "Đã thu hồi passkey.",
+                    "bulk_revoke_succeeded": "Đã thu hồi tất cả passkey."
+                }
+            }
+        },
+        "gdpr": {
+            "export_description": "Bao gồm nhãn thiết bị, thời điểm dùng lần cuối, địa chỉ IP và siêu dữ liệu trình xác thực của từng passkey đã đăng ký. Khóa công khai giúp nhận diện một thông tin xác thực nhưng không thể dùng để giả mạo đăng nhập.",
+            "anonymize_description": "Tất cả passkey thuộc về người dùng này sẽ bị thu hồi.",
+            "delete_description": "Tất cả passkey thuộc về người dùng này sẽ bị xóa."
+        },
+        "email": {
+            "revoked": {
+                "subject": "Một passkey đã bị gỡ khỏi tài khoản {forum} của bạn",
+                "body": "Chào {username},\n\nPasskey \"{device}\" vừa bị gỡ khỏi tài khoản của bạn trên {forum}. {actor}\n\nNếu không phải bạn thực hiện việc này, tài khoản của bạn có thể đang gặp nguy hiểm. Hãy đăng nhập và kiểm tra các passkey còn lại trong tab bảo mật. Nếu bạn không còn quyền truy cập, hãy dùng liên kết đặt lại mật khẩu trên màn hình đăng nhập.\n\n{forum}\n",
+                "actor_self": "Bạn đã thực hiện thu hồi này từ tab bảo mật.",
+                "actor_admin": "Một điều hành viên của trang đã gỡ passkey này thay cho bạn."
+            },
+            "counter_regression": {
+                "subject": "Phát hiện passkey có thể đã bị sao chép trên tài khoản {forum} của bạn",
+                "body": "Chào {username},\n\nMột lần thử đăng nhập vào {forum} bằng passkey \"{device}\" của bạn đã thất bại vì thông tin xác thực báo cáo bộ đếm chữ ký thấp hơn giá trị chúng tôi đang lưu. Đây là dấu hiệu điển hình cho thấy thông tin xác thực có thể đã bị sao chép sang một thiết bị thứ hai.\n\nLần đăng nhập đó đã bị từ chối. Chúng tôi khuyên bạn đăng nhập bằng mật khẩu, thu hồi passkey này và đăng ký một passkey mới. Nếu bạn có các thiết bị khác được cấu hình với cùng thông tin xác thực này, hãy xóa chúng khỏi trình quản lý mật khẩu của bạn.\n\n{forum}\n"
+            },
+            "backup_state": {
+                "subject": "Trạng thái đồng bộ của một passkey trên {forum} đã thay đổi",
+                "body": "Chào {username},\n\nPasskey \"{device}\" của bạn trên {forum} hiện đang {state}.\n\nNếu bạn tự thực hiện việc này (ví dụ bằng cách đăng nhập iCloud Keychain hoặc trình quản lý mật khẩu trên một thiết bị mới), bạn có thể bỏ qua thư này. Nếu không, hãy đăng nhập và kiểm tra tab bảo mật. Passkey có thể đã bị sao chép sang một thiết bị khác.\n\n{forum}\n",
+                "synced": "được đồng bộ lên trình quản lý mật khẩu đám mây",
+                "unsynced": "chỉ được lưu trên một thiết bị duy nhất"
+            },
+            "bulk_revoked": {
+                "subject": "Tất cả passkey đã bị gỡ khỏi tài khoản {forum} của bạn",
+                "body": "Chào {username},\n\nToàn bộ {count} passkey vừa bị gỡ khỏi tài khoản của bạn trên {forum}. {actor}\n\nNếu không phải bạn thực hiện việc này, hãy đăng nhập bằng mật khẩu và kiểm tra tab bảo mật. Nếu bạn không thể đăng nhập, hãy dùng liên kết đặt lại mật khẩu trên màn hình đăng nhập.\n\n{forum}\n",
+                "actor_self": "Bạn đã thực hiện thu hồi này từ tab bảo mật.",
+                "actor_admin": "Một điều hành viên của trang đã gỡ chúng thay cho bạn."
+            }
+        },
+        "admin": {
+            "settings": {
+                "title": "Passkey",
+                "description": "Cấu hình xác thực bằng passkey cho diễn đàn này.",
+                "rp_id_label": "Relying Party ID",
+                "rp_id_help": "Tên DNS xác định phạm vi của passkey. Để trống để tự động phát hiện từ host của yêu cầu. Thay đổi giá trị này sẽ làm mất hiệu lực mọi passkey hiện có.",
+                "rp_name_label": "Tên hiển thị của Relying Party",
+                "rp_name_help": "Tên hiển thị cho người dùng trong hộp thoại passkey của trình duyệt. Mặc định là tiêu đề diễn đàn.",
+                "related_origins_label": "Các origin liên quan (mỗi dòng một origin)",
+                "related_origins_help": "Các origin bổ sung được phép thực hiện các quy trình passkey. Được dùng cùng với tài liệu related-origins của W3C tại /.well-known/webauthn.",
+                "user_verification_label": "Xác minh người dùng",
+                "user_verification_required": "Bắt buộc (luôn yêu cầu sinh trắc học hoặc mã PIN)",
+                "user_verification_preferred": "Ưu tiên (yêu cầu nếu thiết bị hỗ trợ)",
+                "user_verification_discouraged": "Không khuyến khích (chỉ chạm, kém an toàn hơn)",
+                "attestation_label": "Truyền tải attestation",
+                "attestation_none": "Không (khuyến nghị)",
+                "attestation_indirect": "Gián tiếp",
+                "attestation_direct": "Trực tiếp",
+                "throttle_label": "Số lần thử đăng nhập mỗi phút trên mỗi IP"
+            },
+            "group_modal": {
+                "require_passkey": "Yêu cầu passkey cho nhóm này",
+                "require_passkey_help": "Thành viên sẽ được nhắc nhở bằng một biểu ngữ cố định cho đến khi họ đăng ký ít nhất một passkey."
+            }
+        }
+    }
+}
