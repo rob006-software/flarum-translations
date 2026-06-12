@@ -479,6 +479,9 @@ return [
 			'zh_Hans',
 		],
 	],
+	'glowingblue-password-strength' => [
+		'beta' => 'https://raw.githubusercontent.com/glowingblue/flarum-ext-password-strength/5.0.0-beta.2/locale/en.yml',
+	],
 	'huoxin-relative-url' => [
 		'beta' => 'https://raw.githubusercontent.com/huoxin233/flarum-ext-relative-url/2.0.0-beta.1/locale/en.yml',
 	],
