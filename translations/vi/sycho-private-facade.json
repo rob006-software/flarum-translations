@@ -2,23 +2,23 @@
     "sycho-private-facade": {
         "admin": {
             "settings": {
-                "force_redirect": "Bắt buộc khách chuyển hướng đến trang Đăng Nhập/Đăng ký",
+                "force_redirect": "Buộc chuyển hướng khách đến trang đăng nhập/đăng ký",
                 "header_layout": {
                     "options": {
-                        "show_header": "Hiển thị Đầu trang",
+                        "show_header": "Hiển thị đầu trang",
                         "show_only_logo": "Chỉ hiển thị Logo",
-                        "hide_secondary_items": "Ẩn các mục phụ (Tìm kiếm, liên kết Đăng Nhập và Đăng ký)"
+                        "hide_secondary_items": "Ẩn các mục phụ (tìm kiếm, liên kết đăng nhập và đăng ký)"
                     },
-                    "title": "Bố cục Đầu trang"
+                    "title": "Bố cục đầu trang"
                 },
                 "illustration_path": "Hình ảnh minh hoạ",
-                "primary_color_bg": "Sử dụng màu nền chính",
-                "route_exclusions": "Các route để loại trừ khỏi việc chuyển hướng đến trang đăng nhập/đăng ký.",
+                "primary_color_bg": "Sử dụng nền màu chủ đạo",
+                "route_exclusions": "Các route được loại trừ khỏi chuyển hướng đến trang đăng nhập/đăng ký.",
                 "url_exclusions": "URL cần loại trừ khỏi chuyển hướng đến trang đăng nhập/đăng ký.",
                 "screen_banner_description": "Thông báo màn hình",
                 "screen_banner_heading": "Biểu ngữ màn hình",
                 "screen_banner_title": "Tiêu đề màn hình",
-                "use_welcome_hero_text": "Sử dụng văn bản Biểu ngữ chào mừng"
+                "use_welcome_hero_text": "Sử dụng văn bản biểu ngữ chào mừng"
             }
         },
         "forum": {

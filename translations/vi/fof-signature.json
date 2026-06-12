@@ -2,42 +2,42 @@
     "fof-signature": {
         "forum": {
             "buttons": {
-                "signature": "",
-                "save": "",
-                "edit": ""
+                "signature": "Chữ ký",
+                "save": "Lưu chữ ký",
+                "edit": "Chỉnh sửa chữ ký"
             },
             "errors": {
-                "max_char_limit_exceed": "",
-                "max_image_count_exceed": "",
-                "save_failed": ""
+                "max_char_limit_exceed": "Đã vượt quá giới hạn ký tự tối đa.",
+                "max_image_count_exceed": "Đã vượt quá số lượng hình ảnh tối đa.",
+                "save_failed": "Đã xảy ra lỗi khi lưu chữ ký của bạn."
             },
             "editor": {
-                "placeholder": ""
+                "placeholder": "Chỉnh sửa chữ ký của bạn tại đây"
             },
             "settings": {
-                "heading": ""
+                "heading": "Chữ ký"
             },
             "profile": {
-                "click": ""
+                "click": "Nhấp để viết chữ ký của bạn"
             }
         },
         "admin": {
             "permissions": {
-                "edit_signature_others": "",
-                "allow_signature": ""
+                "edit_signature_others": "Chỉnh sửa chữ ký của người dùng khác",
+                "allow_signature": "Có thể có chữ ký"
             },
             "settings": {
                 "maximum_image_count": {
-                    "description": "",
-                    "help": ""
+                    "description": "Số hình ảnh chèn tối đa.",
+                    "help": "Khi người dùng vượt quá số lượng hình ảnh tối đa trong chữ ký, họ sẽ không thể lưu cho đến khi số lượng hình ảnh phù hợp với giới hạn."
                 },
                 "maximum_char_limit": {
-                    "description": "",
-                    "help": ""
+                    "description": "Giới hạn ký tự tối đa của chữ ký.",
+                    "help": "Khi người dùng vượt quá giới hạn ký tự tối đa trong chữ ký, họ sẽ không thể lưu cho đến khi số ký tự phù hợp với giới hạn."
                 },
                 "allow_inline_editing": {
-                    "description": "",
-                    "help": ""
+                    "description": "Chỉnh sửa chữ ký trực tiếp.",
+                    "help": "Khi được bật, người dùng có thể chỉnh sửa chữ ký của mình ngay trong lúc xem bài viết."
                 }
             }
         }

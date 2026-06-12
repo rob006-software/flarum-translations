@@ -7,10 +7,10 @@
                 },
                 "settings": {
                     "admin_bypass_warning": "Do bản chất của hệ thống quyền của Flarum, các thành viên của nhóm Quản trị viên sẽ\nkhông thấy bất kỳ quảng cáo nào trên diễn đàn. Nếu bạn muốn kiểm tra quảng cáo của mình, vui lòng truy cập diễn đàn\ntrong cửa sổ Ẩn danh hoặc Riêng tư.\n",
-                    "enabled_locations": "Vị trí quảng cáo",
-                    "script_urls": "Tuỳ chỉnh URL script",
+                    "enabled_locations": "Vị trí quảng cáo được bật",
+                    "script_urls": "URL script tùy chỉnh",
                     "add_script": "Mới",
-                    "script_deletion": "Để xoá script, để trống và nhấn 'Lưu thay đổi'.",
+                    "script_deletion": "Để xóa một script, hãy để trống ô nhập và nhấn 'Lưu thay đổi'.",
                     "code_input": "Mã HTML",
                     "code_input_disabled": "Kích hoạt vị trí này để chỉnh sửa mã HTML.",
                     "js_input": "Mã Javascript",
@@ -18,7 +18,7 @@
                     "use_adsense": "Sử dụng AdSense",
                     "pub_id": "ID nhà xuất bản AdSense",
                     "between_posts_gap": "Giữa các bài viết: khoảng cách giữa các quảng cáo",
-                    "allow_after_placeholder": "Giữa các bài viết: hiển thị quảng cáo sau khi trả lời",
+                    "allow_after_placeholder": "Giữa các bài viết: hiển thị quảng cáo sau ô trả lời",
                     "save_btn": {
                         "dirty": "Lưu thay đổi",
                         "saving": "Đang lưu...",
@@ -27,17 +27,17 @@
                     },
                     "alert": {
                         "fix_errors": "Vui lòng khắc phục các lỗi phía trên trước khi lưu các thay đổi",
-                        "code_has_script": "Một hoặc nhiều quảng cáo của bạn chứa thẻ script, không được phép. Hãy xóa những thứ này và thử lại."
+                        "code_has_script": "Một hoặc nhiều quảng cáo của bạn chứa thẻ script, vốn không được phép. Hãy xóa chúng và thử lại."
                     },
-                    "warning": "<b>Hướng dẫn:</b>\n<br></br>\n<b>HTML</b> - Chèn nội dung HTML cho quảng cáo vào hộp này. Không chèn bất kỳ thẻ {script} vào hộp này. Chúng sẽ không hoạt động.\n<br></br>\n<b>JS</b> - Chèn mã Javascript tùy chỉnh để chèn vào thẻ script. Cái này <b>KHÔNG</b> bao gồm thẻ {script}.\n"
+                    "warning": "<b>Hướng dẫn:</b>\n<br></br>\n<b>HTML</b> - Chèn nội dung HTML cho quảng cáo vào ô này. Không chèn bất kỳ thẻ {script} nào vào ô này. Chúng sẽ không được chạy.\n<br></br>\n<b>JS</b> - Chèn mã Javascript tùy chỉnh sẽ được đưa vào một thẻ script. Phần này <b>KHÔNG</b> được bao gồm chính thẻ {script}.\n"
                 }
             },
             "lib": {
                 "locations": {
                     "discussion_header": "Trang thảo luận (bên dưới đầu trang)",
-                    "discussion_sidebar": "Thanh điều hướng cuộc thảo luận [CHỈ MÁY TÍNH BÀN]",
+                    "discussion_sidebar": "Thanh bên trang thảo luận [CHỈ TRÊN MÁY TÍNH]",
                     "header": "Đầu trang",
-                    "sidebar": "Thanh điều hướng [CHỈ MÁY TÍNH BÀN]",
+                    "sidebar": "Thanh điều hướng bên [CHỈ TRÊN MÁY TÍNH]",
                     "footer": "Chân trang",
                     "between_posts": "Giữa các bài viết"
                 }

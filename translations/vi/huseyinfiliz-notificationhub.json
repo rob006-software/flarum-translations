@@ -15,7 +15,7 @@
                 "fields": {
                     "actions": "Hành động",
                     "name": "Tên loại thông báo",
-                    "excerpt_key": "Trích dẫn mặc định",
+                    "excerpt_key": "Đoạn trích mặc định",
                     "description": "Mô tả loại thông báo",
                     "icon": "Biểu tượng mặc định",
                     "default_message_key": "Tin nhắn mặc định",
@@ -60,12 +60,12 @@
             "user_ids_required": "ID người dùng là bắt buộc.",
             "subject_id_required": "Loại thông báo là bắt buộc.",
             "no_valid_recipients": "Không tìm thấy người nhận hợp lệ.",
-            "name_required": "",
-            "invalid_url": "",
-            "name_too_long": "",
-            "message_too_long": "",
-            "url_too_long": "",
-            "invalid_url_scheme": ""
+            "name_required": "Tên loại thông báo là bắt buộc.",
+            "invalid_url": "Phát hiện giao thức URL không hợp lệ.",
+            "name_too_long": "Tên không được dài quá 255 ký tự.",
+            "message_too_long": "Nội dung không được dài quá 5000 ký tự.",
+            "url_too_long": "URL không được dài quá 2048 ký tự.",
+            "invalid_url_scheme": "Giao thức URL không hợp lệ. Chỉ cho phép HTTP, HTTPS, mailto, tel hoặc liên kết tương đối."
         }
     }
 }

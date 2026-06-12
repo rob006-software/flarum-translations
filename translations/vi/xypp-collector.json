@@ -1,84 +1,84 @@
 {
     "xypp-collector": {
         "forum": {
-            "reward_not_found": "",
-            "condition_not_found": "",
+            "reward_not_found": "Không tìm thấy phần thưởng {reward}",
+            "condition_not_found": "Không tìm thấy điều kiện {condition}",
             "condition": {
-                "condition": "",
-                "format": "",
-                "and": "",
-                "span": ""
+                "condition": "Điều kiện",
+                "format": "<b>{name}:{calculate}</b> {operator}{value} {span} ",
+                "and": " và ",
+                "span": "Trong {span} ngày"
             },
             "reward": {
-                "reward": "",
-                "format": "",
-                "and": ""
+                "reward": "Phần thưởng",
+                "format": "<b>{name}</b>:{value}",
+                "and": " và "
             }
         },
         "admin": {
-            "settings": "",
-            "allow_update": "",
-            "max_keep": "",
-            "use_custom": "",
-            "custom_global_update": "",
-            "custom_normal_update": "",
-            "auto_update": "",
-            "auto_update_hour": "",
-            "limited_accumulation_support": "",
+            "settings": "Cài đặt",
+            "allow_update": "Cho phép người dùng cập nhật thủ công",
+            "max_keep": "Số ngày lưu bản ghi tối đa",
+            "use_custom": "Sử dụng tùy chỉnh",
+            "custom_global_update": "Cập nhật tùy chỉnh cùng với toàn cục",
+            "custom_normal_update": "Cập nhật tùy chỉnh cùng với điều kiện thông thường",
+            "auto_update": "Tự động cập nhật điều kiện tùy chỉnh mỗi ngày",
+            "auto_update_hour": "Giờ thực hiện tự động cập nhật (theo giờ địa phương)",
+            "limited_accumulation_support": "Điều kiện này không thể lấy toàn bộ dữ liệu khi tính toán lại. Hệ thống sẽ hỏi bạn khi chạy lệnh.",
             "emit_control": {
-                "title": "",
-                "event": "",
-                "update": "",
-                "manual": "",
-                "abs": "",
-                "name": ""
+                "title": "Bộ phát cập nhật và tính toán lại",
+                "event": "Sự kiện",
+                "update": "Lệnh cập nhật",
+                "manual": "Thủ công",
+                "abs": "Tính toán lại",
+                "name": "Tên"
             },
             "list": {
-                "condition": "",
-                "reward": "",
-                "condition-name": "",
-                "condition-operator": "",
-                "condition-value": "",
-                "condition-span": "",
-                "condition-calculate": "",
-                "condition-alter_name": "",
-                "reward-name": "",
-                "reward-value": "",
-                "reward-get_value": "",
-                "reward-alter_name": "",
-                "new_item": ""
+                "condition": "Điều kiện",
+                "reward": "Phần thưởng",
+                "condition-name": "Tên điều kiện",
+                "condition-operator": "Toán tử",
+                "condition-value": "Giá trị",
+                "condition-span": "Khoảng thời gian",
+                "condition-calculate": "Cách tính",
+                "condition-alter_name": "Tên hiển thị",
+                "reward-name": "Tên phần thưởng",
+                "reward-value": "Giá trị",
+                "reward-get_value": "Lấy giá trị",
+                "reward-alter_name": "Tên hiển thị",
+                "new_item": "Mục mới"
             },
             "custom": {
-                "title": "",
-                "name": "",
-                "add": "",
-                "display_name": "",
-                "evaluation": "",
-                "button-edit": "",
-                "button": "",
-                "delete-confirm": ""
+                "title": "Điều kiện tùy chỉnh",
+                "name": "Tên",
+                "add": "Mới",
+                "display_name": "Tên hiển thị",
+                "evaluation": "Biểu thức đánh giá",
+                "button-edit": "Chỉnh sửa",
+                "button": "Tạo",
+                "delete-confirm": "Bạn có chắc muốn xóa mục này không?"
             },
             "permissions": {
-                "view-condition": ""
+                "view-condition": "Xem giá trị điều kiện"
             }
         },
         "api": {
-            "condition_not_allow_frontend": "",
-            "no_manual_update": ""
+            "condition_not_allow_frontend": "Điều kiện không thể được kích hoạt từ giao diện người dùng",
+            "no_manual_update": "Không cần cập nhật thủ công"
         },
         "lib": {
             "calculate": {
-                "sum": "",
-                "max": "",
-                "days": ""
+                "sum": "Tổng",
+                "max": "Lớn nhất",
+                "days": "Đếm số ngày"
             },
             "operator": {
-                "ge": "",
-                "gt": "",
-                "le": "",
-                "lt": "",
-                "eq": "",
-                "ne": ""
+                "ge": ">=",
+                "gt": ">",
+                "le": "<=",
+                "lt": "<",
+                "eq": "=",
+                "ne": "!="
             }
         }
     }

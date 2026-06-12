@@ -32,8 +32,8 @@
                 "qr-fail": "Không thể tải mã QR",
                 "window": "Vui lòng hoàn tất thanh toán trong cửa sổ mới",
                 "open_window": "Nếu không có cửa sổ popup, hãy nhấp vào đây.",
-                "wechat": "Gọi WeChat để thanh toán",
-                "open_wechat": "Nếu không có thanh toán nào hiển thị, hãy nhấp vào đây.",
+                "wechat": "Đang mở WeChat để thanh toán",
+                "open_wechat": "Nếu màn hình thanh toán không hiển thị, hãy nhấp vào đây.",
                 "back": "Quay lại",
                 "done": "Xong",
                 "invalid-amount": "Số tiền không hợp lệ (cho phép từ {min} đến {max})",
@@ -68,7 +68,7 @@
                 "base_url": "URL cơ sở (Kết thúc bằng /)"
             },
             "other": {
-                "confirm-delete": "Bạn có chắc chắn xóa bản ghi này?",
+                "confirm-delete": "Bạn có chắc chắn muốn xóa bản ghi này?",
                 "add-row": "Thêm dòng",
                 "delete-row": "Xóa dòng",
                 "pay-type": "Loại thanh toán",
@@ -90,7 +90,7 @@
         "api": {
             "unknown_error": "Lỗi không xác định",
             "invalid_pay_type": "Loại thanh toán không hợp lệ",
-            "pay_type_disabled": "Loại thanh toán đã chọn đã bị vô hiệu hóa",
+            "pay_type_disabled": "Loại thanh toán được chọn đã bị vô hiệu hóa",
             "pay_item_name": "Nạp {money} cho {u}",
             "payment_is_done": "Thanh toán đã hoàn tất",
             "payment_is_expired": "Thanh toán đã hết hạn",

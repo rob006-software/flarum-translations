@@ -1,31 +1,31 @@
 {
     "quasimo-tag-sidebar": {
         "forum": {
-            "edit_button": "",
-            "modal_title": "",
-            "sidebar_label": "",
-            "sidebar_label_html": "",
-            "sidebar_placeholder": "",
-            "sidebar_placeholder_html": "",
-            "save_button": "",
-            "cancel_button": "",
-            "sidebar_empty": ""
+            "edit_button": "Chỉnh sửa thanh bên",
+            "modal_title": "Chỉnh sửa thanh bên: {tag}",
+            "sidebar_label": "Nội dung thanh bên (Markdown)",
+            "sidebar_label_html": "Nội dung thanh bên (HTML)",
+            "sidebar_placeholder": "Nhập nội dung thanh bên bằng Markdown...\n\n## Liên kết\n- [Ví dụ](https://example.com)\n\nHỗ trợ **đậm**, *nghiêng* và hình ảnh ![alt](https://example.com/image.png).",
+            "sidebar_placeholder_html": "Nhập nội dung thanh bên bằng HTML...\n\n<h2>Liên kết</h2>\n<p><a href=\"https://example.com\">Ví dụ</a></p>\n<img src=\"https://example.com/image.png\" alt=\"example\">",
+            "save_button": "Lưu",
+            "cancel_button": "Hủy",
+            "sidebar_empty": "(Chưa có nội dung thanh bên)"
         },
         "admin": {
-            "instructions_title": "",
-            "instruction_1": "",
-            "instruction_2": "",
-            "instruction_3": "",
-            "instruction_4": "",
-            "setting_position": "",
-            "setting_position_help": "",
-            "position_left": "",
-            "position_right": "",
-            "setting_content_type": "",
-            "setting_content_type_help": "",
-            "content_type_markdown": "",
-            "content_type_html": "",
-            "permission_edit_sidebar": ""
+            "instructions_title": "Cách sử dụng",
+            "instruction_1": "Truy cập bất kỳ trang thẻ nào trên diễn đàn.",
+            "instruction_2": "Nút \"Chỉnh sửa thanh bên\" sẽ hiển thị với những người dùng có quyền.",
+            "instruction_3": "Nhấp vào nút để mở trình chỉnh sửa, viết nội dung, sau đó lưu.",
+            "instruction_4": "Gán quyền bên dưới để cho phép điều hành viên chỉnh sửa nội dung thanh bên.",
+            "setting_position": "Vị trí thanh bên (Máy tính)",
+            "setting_position_help": "Trên thiết bị di động, tiện ích luôn hiển thị bên dưới danh sách bài viết.",
+            "position_left": "Trái — sau thanh điều hướng bên (mặc định)",
+            "position_right": "Phải — cạnh danh sách bài viết",
+            "setting_content_type": "Loại nội dung",
+            "setting_content_type_help": "Chọn Markdown cho nội dung an toàn, dễ viết. Chọn HTML để kiểm soát hoàn toàn (chỉ nên cấp quyền cho những người chỉnh sửa đáng tin cậy).",
+            "content_type_markdown": "Markdown",
+            "content_type_html": "HTML",
+            "permission_edit_sidebar": "Chỉnh sửa nội dung thanh bên của thẻ"
         }
     }
 }

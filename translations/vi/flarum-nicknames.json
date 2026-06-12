@@ -7,14 +7,14 @@
             "settings": {
                 "max_label": "Độ dài biệt danh tối đa",
                 "min_label": "Độ dài biệt danh tối thiểu",
-                "random_username_label": "Tên người dùng ngẫu nhiên",
-                "random_username_help": "Thao tác này sẽ ẩn input `username` khi đăng ký và thay vào đó sử dụng một số ngẫu nhiên. Nó cũng sẽ làm cho trường `biệt hiệu` trở thành bắt buộc. Điều này sẽ chỉ có hiệu lực nếu \"Cho phép đặt biệt hiệu khi đăng ký\" được bật.",
+                "random_username_label": "Tạo tên người dùng ngẫu nhiên",
+                "random_username_help": "Thao tác này sẽ ẩn ô nhập `username` khi đăng ký và thay vào đó sử dụng một số ngẫu nhiên. Nó cũng sẽ khiến trường `nickname` trở thành bắt buộc. Điều này chỉ có hiệu lực nếu \"Cho phép đặt biệt danh khi đăng ký\" được bật.",
                 "regex_label": "Biểu thức chính quy để xác thực",
-                "regex_help": "",
-                "set_on_registration_label": "Cho phép thiết lập biệt hiệu khi đăng ký",
+                "regex_help": "Các ký tự sau luôn không được phép dùng trong biệt danh: [ ] ( ) < >",
+                "set_on_registration_label": "Cho phép đặt biệt danh khi đăng ký",
                 "unique_label": "Bắt buộc biệt danh duy nhất"
             },
-            "wrong_driver": "Bạn phải chọn \"biệt danh\" làm trình điều khiển tên hiển thị trên trang <a><strong>Cơ bản</strong></a> để tiện ích mở rộng này có hiệu lực."
+            "wrong_driver": "Bạn phải chọn \"nickname\" làm trình điều khiển tên hiển thị trên trang <a><strong>Cơ bản</strong></a> để tiện ích mở rộng này có hiệu lực."
         },
         "api": {
             "invalid_nickname_message": "Biệt danh này không hợp lệ. Vui lòng liên hệ với quản trị viên diễn đàn của bạn để biết thêm thông tin về quy tắc đặt biệt danh."
@@ -37,7 +37,7 @@
         },
         "ref": {
             "change_nickname": "Thay đổi biệt danh",
-            "nickname": "Biệt hiệu"
+            "nickname": "Biệt danh"
         }
     }
 }

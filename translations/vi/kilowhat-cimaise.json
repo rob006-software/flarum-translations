@@ -46,7 +46,7 @@
                 "processing": "Đang xử lý",
                 "select-file": "Chọn tệp",
                 "drop-file": "hoặc kéo và thả vào đây",
-                "publishSilently": "Xuất bản im lặng",
+                "publishSilently": "Xuất bản âm thầm",
                 "submit": "Gửi",
                 "submitInComposer": "Tiếp tục",
                 "reload": "Tải lại danh sách bản nháp"
@@ -148,8 +148,8 @@
                 "licenseOwnPublishedPicture": "Thay đổi giấy phép hình ảnh của mình sau khi xuất bản",
                 "renameOwnPublishedPicture": "Thay đổi tiêu đề và mô tả hình ảnh của mình sau khi xuất bản",
                 "hideOwnPicture": "Ẩn hình ảnh của mình",
-                "publishSilently": "Xuất bản hình ảnh im lặng (không có bài đăng sự kiện)",
-                "attachCimaiseAlbum": "Thủ công đính kèm album vào thảo luận",
+                "publishSilently": "Xuất bản hình ảnh âm thầm (không tạo bài viết sự kiện)",
+                "attachCimaiseAlbum": "Đính kèm album vào thảo luận theo cách thủ công",
                 "moderate": "Kiểm duyệt"
             },
             "settings": {
@@ -157,16 +157,16 @@
                 "watermarkFileHelp": "Hình ảnh được cung cấp sẽ được áp dụng 1:1 lên trên mỗi lần tải lên ngoại trừ bản xem trước nhỏ nhất.",
                 "watermarkPlacement": "Vị trí đặt watermark",
                 "watermarkPlacementOptions": {
-                    "topLeft": "Trên trái",
-                    "bottomLeft": "Dưới trái",
-                    "topRight": "Trên phải",
-                    "bottomRight": "Dưới phải"
+                    "topLeft": "Góc trên bên trái",
+                    "bottomLeft": "Góc dưới bên trái",
+                    "topRight": "Góc trên bên phải",
+                    "bottomRight": "Góc dưới bên phải"
                 },
                 "autoCreateDiscussionAlbum": "Tự động tạo album cho mỗi thảo luận mới",
                 "autoCreateDiscussionAlbumHelp": "Tự động tạo album mới với cùng tiêu đề như thảo luận và tác giả làm chủ sở hữu. Tính năng này bỏ qua quyền tạo album và áp dụng trong tất cả các thẻ.\n",
                 "neverSyncDiscussionAlbumTitles": "Không bao giờ đồng bộ tiêu đề thảo luận và album",
                 "neverSyncDiscussionAlbumTitlesHelp": "Theo mặc định, các album được liên kết có cùng tiêu đề chính xác với thảo luận sẽ được đổi tên khi tiêu đề thảo luận thay đổi. Nếu album được đổi tên thủ công, nó sẽ không bao giờ được đồng bộ lại với thảo luận.\n",
-                "columnTheme": "Chủ đề Cột",
+                "columnTheme": "Giao diện dạng cột",
                 "columnThemeHelp": "Sử dụng kiểu dáng bảng điều khiển bên khi hiển thị hình ảnh thay vì bảng điều khiển dưới.",
                 "mapboxToken": "Token Mapbox",
                 "mapboxTokenHelp": "Điền token hợp lệ để hiển thị bản đồ vị trí địa lý dưới meta hình ảnh.",
@@ -208,20 +208,20 @@
             },
             "picture-edit": {
                 "unauthorized": {
-                    "title": "Tiêu đề không hợp lệ, chỉnh sửa không được ủy quyền",
-                    "description": "Mô tả không hợp lệ, chỉnh sửa không được ủy quyền",
-                    "license": "Giấy phép không hợp lệ, chỉnh sửa không được ủy quyền",
-                    "author": "Tác giả không hợp lệ, chỉnh sửa không được ủy quyền",
-                    "takenAt": "Ngày chụp không hợp lệ, chỉnh sửa không được ủy quyền",
+                    "title": "Tiêu đề không hợp lệ, không được phép chỉnh sửa",
+                    "description": "Mô tả không hợp lệ, không được phép chỉnh sửa",
+                    "license": "Giấy phép không hợp lệ, không được phép chỉnh sửa",
+                    "author": "Tác giả không hợp lệ, không được phép chỉnh sửa",
+                    "takenAt": "Ngày chụp không hợp lệ, không được phép chỉnh sửa",
                     "isDraftUnSubmit": "Trạng thái bản nháp không hợp lệ, không được phép bỏ gửi",
                     "isDraftSubmit": "Trạng thái bản nháp không hợp lệ, không được phép gửi",
                     "isApprovedUnApprove": "Trạng thái phê duyệt không hợp lệ, không được phép bỏ phê duyệt",
                     "isApprovedApprove": "Trạng thái phê duyệt không hợp lệ, không được phép phê duyệt",
                     "isHiddenRestore": "Trạng thái ẩn không hợp lệ, không được phép khôi phục",
                     "isHiddenHide": "Trạng thái ẩn không hợp lệ, không được phép ẩn",
-                    "isFavorite": "Trạng thái yêu thích không hợp lệ, chỉnh sửa không được ủy quyền",
-                    "stickers": "Nhãn dán không hợp lệ, chỉnh sửa không được ủy quyền",
-                    "crop": "Cắt không hợp lệ, chỉnh sửa không được ủy quyền"
+                    "isFavorite": "Trạng thái yêu thích không hợp lệ, không được phép chỉnh sửa",
+                    "stickers": "Nhãn dán không hợp lệ, không được phép chỉnh sửa",
+                    "crop": "Thông số cắt không hợp lệ, không được phép chỉnh sửa"
                 }
             }
         },

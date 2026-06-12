@@ -2,66 +2,66 @@
     "fof-move-posts": {
         "admin": {
             "settings": {
-                "moved_first_post_content": "",
-                "moved_first_post_content_help": "",
-                "group_sequential_posts": ""
+                "moved_first_post_content": "Nội dung bài viết đầu tiên của thảo luận đã chuyển",
+                "moved_first_post_content_help": "Khi một thảo luận chỉ có duy nhất một bài viết, việc di chuyển bài viết đó sẽ khiến bài viết đầu tiên của thảo luận ban đầu được chỉnh sửa để trỏ đến thảo luận mới. Bạn có thể chỉnh sửa nội dung của bài viết đó tại đây.\n",
+                "group_sequential_posts": "Gộp các bài viết sự kiện di chuyển liên tiếp thành một."
             },
             "permissions": {
-                "move_posts": ""
+                "move_posts": "=> fof-move-posts.ref.move_posts"
             }
         },
         "forum": {
             "badge": {
-                "first_moved_tooltip": ""
+                "first_moved_tooltip": "Đã chuyển"
             },
             "discussion": {
-                "move_posts": ""
+                "move_posts": "=> fof-move-posts.ref.move_posts"
             },
             "error": {
-                "move_old_post_to_newer_discussion": "",
-                "move_posts_to_same_discussion": ""
+                "move_old_post_to_newer_discussion": "=> fof-move-posts.ref.status.old_to_new_move",
+                "move_posts_to_same_discussion": "Bạn không thể chuyển bài viết đến cùng một thảo luận."
             },
             "modal": {
-                "check": "",
-                "destination": "",
-                "discussion_help": "",
-                "discussion_name": "",
-                "new_discussion": "",
-                "selected_posts": "",
+                "check": "Kiểm tra loại thao tác",
+                "destination": "Thảo luận đích",
+                "discussion_help": "Các thẻ của thảo luận nguồn sẽ được sử dụng và có thể thay đổi sau khi tạo.",
+                "discussion_name": "=> core.forum.composer_discussion.title_placeholder",
+                "new_discussion": "Thảo luận mới",
+                "selected_posts": "{count, plural, one {Đã chọn một bài viết} other {Đã chọn {count} bài viết}}",
                 "status": {
-                    "complex_move": "",
-                    "old_to_new_move": "",
-                    "simple_move": ""
+                    "complex_move": "Đây sẽ là một thao tác di chuyển phức tạp, các bài viết sẽ được chèn xen giữa các bài viết khác, khiến các tham chiếu URL cũ đến bài viết của thảo luận đích cũng thay đổi.",
+                    "old_to_new_move": "=> fof-move-posts.ref.status.old_to_new_move",
+                    "simple_move": "Đây sẽ là một thao tác di chuyển đơn giản, tất cả bài viết sẽ được thêm vào cuối thảo luận."
                 },
-                "submit": "",
-                "title": "",
-                "confirm_move_all_to_new_discussion": ""
+                "submit": "Tiếp tục",
+                "title": "=> fof-move-posts.ref.move_posts",
+                "confirm_move_all_to_new_discussion": "Bạn sắp chuyển tất cả bài viết từ thảo luận này sang một thảo luận mới. Trong hầu hết các trường hợp, sẽ hợp lý hơn nếu chỉnh sửa thảo luận hiện có, ví dụ bằng cách thay đổi tiêu đề, thẻ hoặc các thuộc tính khác. Bạn có muốn tiếp tục không?"
             },
             "alerts": {
-                "posts_moved_to": ""
+                "posts_moved_to": "{count, plural, one {Đã chuyển bài viết đến {target_discussion}.} other {Đã chuyển {count} bài viết đến {target_discussion}.}}"
             },
             "notifications": {
-                "post_moved_text": ""
+                "post_moved_text": "Một hoặc nhiều bài viết của bạn đã được chuyển đến {targetDiscussionTitle}."
             },
             "post": {
-                "unmove": "",
-                "move": "",
-                "moving": ""
+                "unmove": "Bỏ chọn để chuyển",
+                "move": "Chọn để chuyển",
+                "moving": "Đang chuyển bài viết"
             },
             "post_stream": {
-                "post_moved": ""
+                "post_moved": "{count, plural, one {{username} đã chuyển một bài viết đến {target_discussion}.} other {{username} đã chuyển {count} bài viết đến {target_discussion}.}}"
             }
         },
         "ref": {
-            "move_posts": "",
+            "move_posts": "Chuyển bài viết",
             "status": {
-                "old_to_new_move": ""
+                "old_to_new_move": "Không thể chuyển một bài viết cũ đến một thảo luận mới hơn."
             }
         },
         "lib": {
             "discussion": {
                 "first_post": {
-                    "default_content": ""
+                    "default_content": "*Bài viết này đã được chuyển đến **[%DISCUSSION_NAME%](%POST_LINK%)**.*\n"
                 }
             }
         }

@@ -8,8 +8,8 @@
             "settings": {
                 "btn-name": "Spam",
                 "btn-name-help": "Tên của nút này hiển thị cho người dùng là \"Spam\" theo mặc định.",
-                "to-folding-number": "Ngưỡng Gấp Tự động",
-                "to-folding-number-help": "Tự động thu gọn nội dung ẩn khi được đánh dấu bởi bao nhiêu người, đặt thành 0 để không tự động thu gọn"
+                "to-folding-number": "Ngưỡng thu gọn tự động",
+                "to-folding-number-help": "Tự động thu gọn nội dung khi bị số người này đánh dấu; đặt thành 0 để không tự động thu gọn"
             }
         },
         "forum": {
@@ -19,11 +19,11 @@
                 "spam-hide-tips": "Spam đã bị ẩn"
             },
             "notification": {
-                "content": "Trả lời đã được gấp vì bị đánh dấu là rác nhiều lần",
-                "excerpt": "Vui lòng tuân thủ quy định của trang, chẳng hạn như liên tục đánh dấu rác có thể bị trừng phạt có hệ thống."
+                "content": "Trả lời đã bị thu gọn vì bị đánh dấu là rác nhiều lần",
+                "excerpt": "Vui lòng tuân thủ quy định của diễn đàn; nội dung liên tục bị đánh dấu là rác có thể bị hệ thống xử phạt."
             },
             "settings": {
-                "notify_post_spam_hide_label": "Rác đã bị ẩn do thẻ"
+                "notify_post_spam_hide_label": "Nội dung rác bị ẩn do bị đánh dấu"
             }
         }
     }

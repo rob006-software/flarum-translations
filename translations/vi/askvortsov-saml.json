@@ -2,29 +2,29 @@
     "askvortsov-saml": {
         "admin": {
             "header": {
-                "text": "Đảm bảo rằng url siêu dữ liệu hoặc siêu dữ liệu không bỏ trống."
+                "text": "Đảm bảo rằng bạn đã điền URL siêu dữ liệu hoặc siêu dữ liệu XML."
             },
             "title": "Cấu hình SAML2 SSO",
             "labels": {
-                "idp_metadata_url": "URL siêu dữ liệu của nhà cung cấp (Thay thế cho XML)",
-                "idp_metadata": "XML siêu dữ liệu của nhà cung cấp (Thay thế cho URL)",
-                "only_option": "Sử dụng SAML2 SSO chỉ để đăng nhập?",
+                "idp_metadata_url": "URL siêu dữ liệu của nhà cung cấp định danh (Thay thế cho XML)",
+                "idp_metadata": "XML siêu dữ liệu của nhà cung cấp định danh (Thay thế cho URL)",
+                "only_option": "Sử dụng SAML2 SSO làm tùy chọn đăng nhập duy nhất?",
                 "nameid_format": "Định dạng NameID",
-                "slo": "Bật SLO? Nếu IDP của bạn không hỗ trợ điều này, điều này sẽ không làm gì.",
-                "authn_requests_signed": "Đăng ký yêu cầu xác thực?",
-                "logout_request_signed": "Đăng xuất yêu cầu?",
-                "logout_response_signed": "Đăng xuất phản hồi?",
+                "slo": "Bật SLO? Nếu IDP của bạn không hỗ trợ, tùy chọn này sẽ không có tác dụng.",
+                "authn_requests_signed": "Ký các yêu cầu xác thực?",
+                "logout_request_signed": "Ký các yêu cầu đăng xuất?",
+                "logout_response_signed": "Ký các phản hồi đăng xuất?",
                 "sign_metadata": "Ký siêu dữ liệu?",
                 "want_assertions_encrypted": "Muốn các khẳng định được mã hóa?",
-                "want_assertions_signed": "Muốn các công việc đã được ký?",
-                "want_messages_signed": "Muốn tin nhắn đã ký?",
+                "want_assertions_signed": "Muốn các khẳng định được ký?",
+                "want_messages_signed": "Muốn các thông điệp được ký?",
                 "x509_cert": "Chứng chỉ x509 (cần thiết để ký, nếu được bật)",
-                "x509_key": "Mã kóa cá nhân x509 (cần thiết để ký, nếu được bật)"
+                "x509_key": "Khóa riêng tư x509 (cần thiết để ký, nếu được bật)"
             },
             "options": {
                 "nameid_format": {
-                    "persistent": "Kiên trì (Được khuyến nghị nếu được hỗ trợ)",
-                    "emailAddress": "Email (Mặc định. Sử dụng nếu Kiên trì không được hỗ trợ)",
+                    "persistent": "Persistent (Khuyến nghị nếu được hỗ trợ)",
+                    "emailAddress": "Email (Mặc định. Dùng nếu Persistent không được hỗ trợ)",
                     "unspecified": "Không xác định"
                 }
             }

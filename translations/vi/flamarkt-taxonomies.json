@@ -39,12 +39,12 @@
                     "showLabel": "Hiển thị nhãn phân loại cùng với thuật ngữ",
                     "showLabelDescription": "Phong cách hiển thị cho danh sách thảo luận và hero. Hiện tại không được sử dụng cho các loại tài nguyên khác.\n",
                     "enableFilter": "Bật bộ lọc query-string/API",
-                    "enableFilterDescription": "Cho phép liên kết sâu bộ lọc phân loại đến thảo luận, người dùng và sản phẩm cho người dùng có quyền \"xem tất cả\" của loại phân loại. Điều này cũng cho phép những người dùng tương tự sử dụng bộ lọc tìm kiếm với REST API. Không có cài đặt \"Hiển thị bộ lọc\", người dùng không có cách rõ ràng nào để có được những liên kết đó cho người dùng và sản phẩm. Đối với thảo luận, liên kết sâu có thể được tìm thấy trong hero ngay cả khi \"Hiển thị bộ lọc\" bị tắt.\n",
+                    "enableFilterDescription": "Cho phép liên kết sâu (deep-link) bộ lọc phân loại đến thảo luận, người dùng và sản phẩm cho những người dùng có quyền \"xem tất cả\" của loại phân loại đó. Điều này cũng cho phép những người dùng này sử dụng bộ lọc tìm kiếm qua REST API. Nếu không bật cài đặt \"Hiển thị bộ lọc\", người dùng không có cách rõ ràng nào để lấy những liên kết đó cho người dùng và sản phẩm. Đối với thảo luận, liên kết sâu vẫn có thể được tìm thấy trong phần hero ngay cả khi \"Hiển thị bộ lọc\" bị tắt.\n",
                     "showFilter": "Hiển thị bộ lọc trên trang danh sách/thư mục",
-                    "showFilterDescription": "Hiển thị bộ lọc cho khách truy cập thông thường trong danh sách thảo luận, thư mục người dùng hoặc chỉ mục cửa hàng. Chỉ hoạt động nếu \"Bật bộ lọc\" được bật. Quản trị viên cửa hàng luôn có thể lọc theo bất kỳ phân loại nào trong văn phòng.\n",
+                    "showFilterDescription": "Hiển thị bộ lọc cho khách truy cập thông thường trong danh sách thảo luận, thư mục người dùng hoặc trang chính cửa hàng. Chỉ hoạt động nếu \"Bật bộ lọc\" được bật. Quản trị viên cửa hàng luôn có thể lọc theo bất kỳ phân loại nào trong khu vực quản trị (backoffice).\n",
                     "enableFulltextSearch": "Lập chỉ mục thuật ngữ cho tìm kiếm toàn văn",
-                    "enableFulltextSearchDescription": "Chỉ có hiệu lực khi tích hợp Scout đang hoạt động. Tên thuật ngữ sẽ trở thành một phần của dữ liệu có sẵn trong tìm kiếm toàn văn cho người dùng thông thường. Dữ liệu sẽ có sẵn để tìm kiếm cho bất kỳ người dùng nào có quyền liệt kê tài nguyên (\"Xem diễn đàn\" cho thảo luận, \"Tìm kiếm người dùng\" cho người dùng và mọi người cho sản phẩm), không phải những người dùng có quyền xem phân loại! Bạn phải thủ công xây dựng lại chỉ mục tìm kiếm Scout cho tài nguyên sau khi thay đổi cài đặt này cho các phân loại hiện có, tương tự nếu bạn xóa phân loại trong khi các thuật ngữ vẫn được gán.\n",
-                    "enableFulltextSearchWarning": "Quyền của bạn để tìm kiếm tài nguyên (\"Xem diễn đàn\" cho thảo luận, \"Tìm kiếm người dùng\" cho người dùng) khác với quyền \"xem tất cả\" của Phân loại. Trước khi bật tùy chọn này, hãy đảm bảo bạn thoải mái khiến dữ liệu có thể tìm kiếm được cho những người dùng đó ngay cả khi họ thường không thể xem các phân loại!\n",
+                    "enableFulltextSearchDescription": "Chỉ có hiệu lực khi tích hợp Scout đang hoạt động. Tên các thuật ngữ sẽ trở thành một phần dữ liệu có thể tìm kiếm toàn văn đối với người dùng thông thường. Dữ liệu sẽ có thể được tìm kiếm bởi bất kỳ người dùng nào có quyền xem danh sách tài nguyên (\"Xem diễn đàn\" cho thảo luận, \"Tìm kiếm người dùng\" cho người dùng và mọi người đối với sản phẩm), chứ không phải những người dùng có quyền xem phân loại! Bạn phải tự xây dựng lại chỉ mục tìm kiếm Scout cho tài nguyên sau khi thay đổi cài đặt này đối với các phân loại hiện có, và tương tự nếu bạn xóa phân loại trong khi các thuật ngữ vẫn đang được gán.\n",
+                    "enableFulltextSearchWarning": "Quyền tìm kiếm tài nguyên (\"Xem diễn đàn\" cho thảo luận, \"Tìm kiếm người dùng\" cho người dùng) của bạn khác với quyền \"xem tất cả\" của Phân loại. Trước khi bật tùy chọn này, hãy chắc chắn rằng bạn chấp nhận để những người dùng đó tìm kiếm được dữ liệu này, ngay cả khi bình thường họ có thể không xem được các phân loại!\n",
                     "allowCustomValues": "Cho phép giá trị tùy chỉnh",
                     "customValueValidation": "Xác thực cho giá trị tùy chỉnh",
                     "customValueSlugger": "Slugger cho giá trị tùy chỉnh",
@@ -111,7 +111,7 @@
                 "seeAnyUser": "Xem phân loại trên bất kỳ người dùng nào",
                 "editOwnUser": "Chỉnh sửa phân loại trên người dùng của mình",
                 "editAnyUser": "Chỉnh sửa phân loại trên bất kỳ người dùng nào",
-                "ownDisabledEveryone": "Thành viên chưa kích hoạt và bị tạm ngưng",
+                "ownDisabledEveryone": "Thành viên chưa kích hoạt và bị đình chỉ",
                 "ownDisabledMembers": "Thành viên đã kích hoạt"
             },
             "settings": {
@@ -150,7 +150,7 @@
         },
         "api": {
             "error": {
-                "invalid_filter_taxonomy": "Khóa bộ lọc phân loại \"{type}\" không hợp lệ \"{slug}\"",
+                "invalid_filter_taxonomy": "Khóa bộ lọc \"{slug}\" của phân loại \"{type}\" không hợp lệ",
                 "discussion_taxonomy_not_in_scope": "Phân loại \"{slug}\" không có sẵn trong kết hợp thẻ hiện tại",
                 "cannot_use_taxonomies_on_model": "Bạn không được phép sử dụng phân loại trong ngữ cảnh này"
             }

@@ -3,33 +3,33 @@
         "admin": {
             "dashboard": {
                 "maintenance-widget": {
-                    "title": "",
-                    "detail": ""
+                    "title": "Chế độ bảo trì đang bật",
+                    "detail": "Diễn đàn hiện đang ở chế độ bảo trì. Chỉ những người dùng có quyền phù hợp mới có thể truy cập diễn đàn."
                 }
             },
             "settings": {
                 "maintenance-mode-enabled": {
-                    "label": ""
+                    "label": "Bật chế độ bảo trì"
                 },
                 "maintenance-mode-title": {
-                    "label": ""
+                    "label": "Tiêu đề trang bảo trì"
                 },
                 "maintenance-mode-message": {
-                    "label": ""
+                    "label": "Thông điệp trang bảo trì"
                 },
                 "maintenance-mode-html-template": {
-                    "label": "",
-                    "help": "",
-                    "reset-btn": "",
-                    "reset-help": ""
+                    "label": "Mẫu HTML trang bảo trì",
+                    "help": "Bạn có thể dùng các biến giữ chỗ như <code>$message</code>, xem tệp README để biết thêm chi tiết.",
+                    "reset-btn": "Đặt lại về mặc định",
+                    "reset-help": "Mẫu được đặt lại sẽ có hiệu lực sau khi lưu."
                 },
                 "maintenance-mode-auth": {
-                    "label": "",
-                    "help": ""
+                    "label": "Bật xác thực bằng token",
+                    "help": "Bạn có thể dùng token nhà phát triển để đăng nhập qua <code>/maintenance/auth/$token</code>."
                 }
             },
             "permissions": {
-                "bypass": ""
+                "bypass": "Có thể bỏ qua chế độ bảo trì"
             }
         }
     }

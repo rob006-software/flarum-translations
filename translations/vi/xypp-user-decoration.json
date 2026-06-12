@@ -5,7 +5,7 @@
             "decorations": "Trang trí",
             "decoration-box": {
                 "error": "Kiểu không xác định",
-                "avatar": "Kiểu avatar",
+                "avatar": "Kiểu ảnh đại diện",
                 "name": "Kiểu tên người dùng",
                 "post": "Kiểu bài viết",
                 "card": "Kiểu thẻ người dùng",
@@ -36,7 +36,7 @@
                 "title": "Tạo trang trí",
                 "type": {
                     "title": "Loại",
-                    "avatar": "Avatar",
+                    "avatar": "Ảnh đại diện",
                     "username": "Tên người dùng",
                     "post": "Bài viết",
                     "usercard": "Thẻ người dùng"
@@ -64,11 +64,11 @@
             },
             "settings": {
                 "username_hijack": {
-                    "title": "Chiếm quyền Tên người dùng",
+                    "title": "Ghi đè tên người dùng",
                     "desc": "Plugin sẽ thử ghi đè phương thức tên người dùng của mô hình user và chèn một số thông tin định danh để nhận diện người dùng. Nếu plugin khác gặp sự cố do việc ghi đè này, bạn có thể tắt chức năng để khắc phục."
                 },
                 "avatar_hijack": {
-                    "title": "Chiếm quyền Avatar",
+                    "title": "Ghi đè ảnh đại diện",
                     "desc": "Plugin sẽ thử ghi đè phương thức avatar của mô hình user và chèn một số thông tin định danh để nhận diện người dùng. Nếu plugin khác gặp sự cố do việc ghi đè này, bạn có thể tắt chức năng để khắc phục."
                 },
                 "view-all": {
@@ -77,7 +77,7 @@
                 },
                 "no_decorate_class_filter": {
                     "title": "Bộ lọc lớp không trang trí",
-                    "desc": "Các tên lớp (class) giúp ngăn avatar/tên người dùng bên trong bị áp dụng trang trí. Mỗi dòng một lớp, không có dấu chấm ở đầu"
+                    "desc": "Các tên lớp (class) giúp ngăn ảnh đại diện/tên người dùng bên trong bị áp dụng trang trí. Mỗi dòng một lớp, không có dấu chấm ở đầu"
                 }
             }
         }

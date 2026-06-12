@@ -13,7 +13,7 @@
                 },
                 "modal": {
                     "always_show_theme_toggle_on_header": "Luôn hiển thị nút chuyển đổi chủ đề trên đầu trang diễn đàn",
-                    "show_theme_toggle_in_solid": "Hiển thị biểu tượng chủ đề trong biểu tượng rắn",
+                    "show_theme_toggle_in_solid": "Hiển thị biểu tượng chủ đề theo kiểu đậm (solid)",
                     "default_theme": "Chủ đề mặc định",
                     "default_theme_helper": "Chủ đề mặc định tự động được đặt cho người dùng mới, khách và những ai chưa đặt.",
                     "theme_auto": "=> fof-nightmode.ref.auto",
@@ -31,10 +31,10 @@
             "user": {
                 "settings": {
                     "heading": "Chủ đề",
-                    "description": "Chọn chế độ cho giao diện bạn muốn sử dụng cho diễn đàn.",
-                    "description2": "Chế độ này liên kết với tài khoản và áp dụng cho tất cả các thiết bị của bạn trừ khi bạn bật nút bên dưới cài cho mỗi thiết bị.",
-                    "device_specific_setting_checkbox": "Sử dụng cho mỗi thiết bị",
-                    "device_specific_setting_checkbox_tooltip": "Lựa chọn chế độ bạn muốn để lưu cho mỗi thiết bị.",
+                    "description": "Chọn chủ đề màu bạn muốn sử dụng trên diễn đàn.",
+                    "description2": "Chủ đề này được liên kết với tài khoản của bạn và áp dụng cho tất cả thiết bị, trừ khi bạn bật công tắc bên dưới để cài đặt riêng cho từng thiết bị.",
+                    "device_specific_setting_checkbox": "Cài đặt riêng cho từng thiết bị",
+                    "device_specific_setting_checkbox_tooltip": "Lựa chọn chủ đề của bạn sẽ được lưu riêng cho từng thiết bị.",
                     "auto_unsupported": "Trình duyệt của bạn không hỗ trợ chế độ tối tự động.",
                     "options": {
                         "auto": "=> fof-nightmode.ref.auto",
@@ -42,8 +42,8 @@
                         "night": "=> fof-nightmode.ref.dark"
                     },
                     "option_descriptions": {
-                        "auto": "Chủ đề của bạn sẽ tự động thay đổi dựa trên chủ đề trên hệ thống của bạn. Ví dụ, nếu bạn đã bật chế độ tối trong iOS, diễn đàn cũng sẽ bật chế độ tối.",
-                        "day": "Trải nghiệm cổ điển mà bạn đã từng làm. Yêu thích và thử nghiệm.",
+                        "auto": "Chủ đề của bạn sẽ được chọn tự động dựa trên cài đặt trình duyệt hoặc thiết bị. Ví dụ, nếu bạn bật chế độ tối trên iOS, diễn đàn cũng sẽ hiển thị tối.",
+                        "day": "Trải nghiệm cổ điển quen thuộc với bạn. Được yêu thích và kiểm chứng.",
                         "night": "Bạn là một con cú đêm. Bạn thích lướt trên diễn đàn vào buổi tối, trong khi những con chim đang ngủ và con cáo đang đi săn. Hoặc bạn chỉ yêu thích chế độ tối hơn!"
                     }
                 }
@@ -54,8 +54,8 @@
         "admin": {
             "settings": {
                 "fofNightMode": "FoF Nightmode: Chủ đề màu để sử dụng theo mặc định",
-                "fofNightMode-help": "- tự động, 1 - chế độ sáng, 2 - chế độ tối",
-                "fofNightMode_perDevice": "FoF Nightmode: Sử dụng cho mỗi cài đặt thiết bị",
+                "fofNightMode-help": "0 - tự động, 1 - chế độ sáng, 2 - chế độ tối",
+                "fofNightMode_perDevice": "FoF Nightmode: Sử dụng cài đặt riêng cho từng thiết bị",
                 "fofNightMode_perDevice-help": "Sử dụng tùy chọn trên từng thiết bị để cài đặt chế độ tối"
             }
         }

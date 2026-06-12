@@ -3,29 +3,29 @@
         "admin": {
             "settings": {
                 "pagination": {
-                    "canUserPref": "",
-                    "paginationOnLoading": "",
-                    "paginationOnLoading-Help": "",
-                    "paginationPosition": "",
-                    "perPage": "",
-                    "perLoadMore": "",
-                    "perIndexInit": "",
+                    "canUserPref": "Cho phép người dùng tự đặt chế độ tải của danh sách thảo luận",
+                    "paginationOnLoading": "Bật chế độ phân trang",
+                    "paginationOnLoading-Help": "Chế độ phân trang sẽ được áp dụng cho cả trang chủ diễn đàn và trang cá nhân của người dùng",
+                    "paginationPosition": "Chọn vị trí của thanh điều hướng phân trang",
+                    "perPage": "Chế độ phân trang: Số thảo luận trong danh sách mỗi trang (1-50)",
+                    "perLoadMore": "Chế độ tải thêm: Số thảo luận mỗi lần tải thêm (1-50)",
+                    "perIndexInit": "Chế độ tải thêm: Số thảo luận ở trang đầu tiên (1-50)",
                     "position": {
-                        "above": "",
-                        "under": "",
-                        "both": ""
+                        "above": "Phía trên",
+                        "under": "Phía dưới",
+                        "both": "Cả hai"
                     },
-                    "cacheDiscussions": "",
-                    "cacheDiscussions-Help": ""
+                    "cacheDiscussions": "Lưu danh sách thảo luận vào bộ nhớ đệm để giảm tải máy chủ",
+                    "cacheDiscussions-Help": "Chỉ áp dụng cho chế độ phân trang, chế độ tải thêm không bị ảnh hưởng. Khuyến nghị sử dụng cùng các plugin thông báo thời gian thực."
                 }
             }
         },
         "forum": {
             "user": {
                 "settings": {
-                    "head": "",
-                    "userCustom": "",
-                    "userPaginationOnLoading": ""
+                    "head": "Danh sách thảo luận - Chế độ tải",
+                    "userCustom": "Bật cá nhân hóa (Khi tắt, tải theo chế độ mặc định của diễn đàn)",
+                    "userPaginationOnLoading": "Bật chế độ phân trang"
                 }
             }
         }

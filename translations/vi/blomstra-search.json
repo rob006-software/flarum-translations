@@ -7,20 +7,20 @@
             "elastic-index": "Index",
             "analyzer": {
                 "label": "Ngôn ngữ trình phân tích",
-                "help": "Bộ phân tích làm cho trình tìm kiếm hiểu các từ dừng và thực hiện ngôn ngữ\ncải tiến cụ thể cho việc lập chỉ mục.\n"
+                "help": "Bộ phân tích giúp tìm kiếm hiểu các từ dừng (stop word) và thực hiện những cải tiến đặc thù theo từng ngôn ngữ cho việc lập chỉ mục. Thay đổi cài đặt này yêu cầu xây dựng lại toàn bộ chỉ mục để có hiệu lực.\n"
             },
-            "index-settings-changed": "",
+            "index-settings-changed": "Cài đặt chỉ mục tìm kiếm đã thay đổi. Hãy chạy: php flarum blomstra:search:index build",
             "reindex-required": {
-                "title": "",
-                "detail": ""
+                "title": "Cần xây dựng lại chỉ mục tìm kiếm",
+                "detail": "Chỉ mục tìm kiếm không tương thích với phiên bản này của tiện ích mở rộng. Hãy chạy: php flarum blomstra:search:index build"
             },
             "search-discussion-subjects": "Tìm kiếm bên trong tiêu đề thảo luận",
             "search-post-bodies": "Tìm kiếm trong bình luận",
             "match-sentences": "Khớp cụm từ tìm kiếm với câu đầy đủ",
             "match-words": "Khớp cụm từ tìm kiếm với các từ đầy đủ",
             "min-search-length": {
-                "label": "",
-                "help": ""
+                "label": "Độ dài tối thiểu của truy vấn tìm kiếm",
+                "help": "Số ký tự tối thiểu cần có trước khi một lượt tìm kiếm được kích hoạt. Hãy giảm xuống 1 hoặc 2\ncho các cộng đồng CJK (tiếng Trung, Nhật, Hàn), nơi một ký tự đơn lẻ đã mang đầy đủ ý nghĩa.\nThay đổi cài đặt này yêu cầu xây dựng lại toàn bộ chỉ mục để có hiệu lực.\n"
             }
         }
     }

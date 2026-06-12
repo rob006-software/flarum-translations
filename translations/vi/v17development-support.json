@@ -1,9 +1,9 @@
 {
     "v17development-flarum-support": {
         "forum": {
-            "knowledge_base": "Kiến thức cơ bản",
-            "ask_a_question_on_forums": "Hỏi một câu trên diễn đàn",
-            "return_to_home": "Quay lại trang kiến thức cơ bản",
+            "knowledge_base": "Cơ sở kiến thức",
+            "ask_a_question_on_forums": "Đặt câu hỏi trên diễn đàn",
+            "return_to_home": "Quay lại trang chủ cơ sở kiến thức",
             "ask_your_question_on_forum": "Đặt câu hỏi trên diễn đàn",
             "or": "hoặc",
             "settings": "=> core.ref.settings",
@@ -11,16 +11,16 @@
             "create": "Tạo",
             "discard": "Huỷ bỏ",
             "reopen": "mở lại",
-            "support_tickets": "Vé hỗ trợ",
-            "admin_overview": "Mở tổng quan về quản trị viên",
+            "support_tickets": "Phiếu hỗ trợ",
+            "admin_overview": "Mở trang tổng quan quản trị",
             "hero": {
                 "help_question": "Chúng tôi có thể giúp gì cho bạn?",
-                "check_forum": "Nếu bạn không thể tìm thấy nơi mình đang tìm kiếm, hãy <a>xem diễn đàn</a>"
+                "check_forum": "Nếu bạn không tìm thấy điều mình đang tìm kiếm, hãy <a>xem diễn đàn của chúng tôi</a>"
             },
             "overview": {
-                "knowledge_base_overview": "Tổng quan về kiến thức cơ bản",
+                "knowledge_base_overview": "Tổng quan cơ sở kiến thức",
                 "back_to": "Quay lại {category}",
-                "back_to_overview": "Quay lại trang tổng quan về kiến thức cơ bản",
+                "back_to_overview": "Quay lại trang tổng quan cơ sở kiến thức",
                 "back_to_main_categories": "Quay lại danh mục chính",
                 "loading_articles": "Đang tải bài viết",
                 "no_categories_found": "Xin lỗi, không có danh mục nào được tìm thấy...",
@@ -45,14 +45,14 @@
                 "search_knowledge_base": "Tìm kiếm trong cơ sở kiến thức",
                 "searching": "Đang tìm kiếm",
                 "searching_for": "Đang tìm kiếm {searchterm}",
-                "searched_for": "Bạn đang tìm kiếm {searchterm}, có {results} kết quả.",
+                "searched_for": "Bạn đã tìm kiếm {searchterm}, có {results} kết quả.",
                 "use_searchbox_below": "Sử dụng hộp tìm kiếm bên dưới để tìm kiếm trong cơ sở kiến thức của chúng tôi.",
                 "no_results": "Chúng tôi không tìm thấy gì cho {searchterm}."
             },
             "not_found": {
                 "title": "Không tìm thấy mục nào",
                 "description": "Xin lỗi, bài viết hoặc danh mục này không còn tồn tại.",
-                "solution": "Bạn có thể sử dụng hộp tìm kiếm ở trên để tìm nơi bạn đang tìm kiếm."
+                "solution": "Bạn có thể dùng hộp tìm kiếm ở trên để tìm nội dung mình cần."
             },
             "article": {
                 "article": "Bài viết",
@@ -82,12 +82,12 @@
                 "score": "Điểm",
                 "helful_article": "Bài viết này có hữu ích không?",
                 "helful_support": "Bạn có hài lòng với cách chúng tôi xử lý phiếu hỗ trợ của bạn không?",
-                "feedback": "Cảm ơn bạn đã xem xét, bạn có bất kỳ phản hồi?",
+                "feedback": "Cảm ơn bạn đã đánh giá, bạn có phản hồi gì không?",
                 "feedback_not_helpful": "Xin lỗi bài viết này không hữu ích, bạn đang tìm gì?",
                 "enter_feedback": "Nhập phản hồi vào đây",
                 "finished": "Cảm ơn! Phản hồi của bạn đã được lưu lại.",
                 "validation": {
-                    "invalid_discussion": "Rất tiếc, đã xảy ra lỗi. Bạn không thể đánh giá bài viết này/vé hỗ trợ.",
+                    "invalid_discussion": "Rất tiếc, đã xảy ra lỗi. Bạn không thể đánh giá bài viết/phiếu hỗ trợ này.",
                     "guest": "Vui lòng đăng nhập trước khi đánh giá bài viết này.",
                     "invalid_points": "Xếp hạng không hợp lệ. Vui lòng thử lại.",
                     "cannot_rate_article": "Bạn không thể xếp hạng bài viết này.",
@@ -115,23 +115,23 @@
                     "feedback": "Phản hồi",
                     "rating": "Xếp hạng",
                     "username": "=> core.ref.username",
-                    "rated_on": "Đã đánh giá trên"
+                    "rated_on": "Đánh giá vào"
                 }
             },
             "utils": {
                 "redirect": {
-                    "title": "Bạn đang chuyển hướng tới bài viết Kiến thức cơ bản...",
+                    "title": "Đang chuyển hướng bạn tới bài viết trong Cơ sở kiến thức...",
                     "link": "<a>Nhấn vào đây</a> nếu trang không chuyển hướng bạn"
                 }
             },
             "composer": {
                 "compose_article": "Viết bài viết",
-                "compose_ticket": "Tạo vé",
-                "new_article_title": "Tiêu đề bài viết",
+                "compose_ticket": "Tạo phiếu",
+                "new_article_title": "Tiêu đề bài viết mới",
                 "enter_message_here": "Nhập tin nhắn của bạn vào đây",
                 "publish_article": "Xuất bản bài viết",
                 "publish_article_hint": "Xuất bản bài viết sau khi đăng.",
-                "manage_tags": "Quàn lý thẻ",
+                "manage_tags": "Quản lý thẻ",
                 "write": "Viết",
                 "view": "Xem",
                 "nothing_to_preview": "Không có gì để xem trước",
@@ -153,9 +153,9 @@
                     "event": "Thảo luận {ticket_title} đã được chuyển đổi thành phiếu hỗ trợ"
                 },
                 "convert_to_discussion": {
-                    "button": "Chuyển đổi thành Cuộc thảo luận",
+                    "button": "Chuyển thành thảo luận",
                     "confirm": "Bạn có chắc chắn muốn chuyển đổi phiếu hỗ trợ này thành một cuộc thảo luận công khai không? Nếu ai đó đã chia sẻ thông tin cá nhân, thông tin này cũng sẽ trở thành công khai.",
-                    "event": "Vé {ticket_title} đã được chuyển thành thảo luận\n\nBạn có muốn tới cuộc thảo luận này ngay bây giờ?\n"
+                    "event": "Phiếu {ticket_title} đã được chuyển thành thảo luận\n\nBạn có muốn tới cuộc thảo luận này ngay bây giờ?\n"
                 },
                 "status": {
                     "new": {
@@ -169,7 +169,7 @@
                     "pending": {
                         "title": "Chờ xử lý",
                         "description": "Phiếu này đang chờ phản hồi từ người dùng.",
-                        "description_user": "Chúng tôi đang chờ phản hồi từ bản hoặc đánh dấu phiếu này đã được giải quyết."
+                        "description_user": "Chúng tôi đang chờ bạn trả lời hoặc đánh dấu phiếu này là đã giải quyết."
                     },
                     "closed": {
                         "title": "Đã đóng",
@@ -179,8 +179,8 @@
                         "is_auto_closed": "Phiếu này đã đóng do không có hoạt động nào."
                     },
                     "on_hold": {
-                        "title": "Đang chờ",
-                        "description": "Phiếu này đã được đặt thành đang chờ."
+                        "title": "Tạm hoãn",
+                        "description": "Phiếu này đã được tạm hoãn."
                     },
                     "duplicate": {
                         "title": "Trùng lặp",
@@ -188,7 +188,7 @@
                     },
                     "solved": {
                         "title": "Đã giải quyết",
-                        "description": "Phiếu này đã được đánh dấu thành đã giải quyết",
+                        "description": "Phiếu này đã được đánh dấu là đã giải quyết",
                         "mark_as_solved": "Đánh dấu phiếu này là đã giải quyết"
                     }
                 },
@@ -212,10 +212,10 @@
                         "title": "Ngôn ngữ",
                         "placeholder": "Chọn ngôn ngữ",
                         "empty": "Chưa chọn ngôn ngữ",
-                        "description": "Phiếu hỗ trợ của bạn sẽ được xử lý trong {language}."
+                        "description": "Phiếu hỗ trợ của bạn sẽ được xử lý bằng {language}."
                     },
                     "subject": {
-                        "title": "Vấn đề",
+                        "title": "Tiêu đề",
                         "placeholder": "Tiêu đề phiếu",
                         "description": "Cố gắng mô tả câu hỏi của bạn trong một câu ngắn gọn."
                     },
@@ -234,14 +234,14 @@
                     "private_note": {
                         "title": "Ghi chú riêng tư",
                         "info": "Các ghi chú riêng tư chỉ hiển thị cho các nhân viên hỗ trợ khác. Nó không được hiển thị cho khách hàng.",
-                        "tip": "MẸO: Nếu bạn đang làm việc với nhiều đại lý trên một vé, hãy thêm tên và ngày tháng của bạn vào ghi chú.",
-                        "placeholder": "Ví dụ: Ngày 1 tháng 1 năm 2022 - Tên đại lý: Đã xóa khách hàng khỏi cơ sở dữ liệu",
+                        "tip": "MẸO: Nếu bạn đang cùng nhiều nhân viên hỗ trợ xử lý một phiếu, hãy thêm tên và ngày của bạn vào ghi chú.",
+                        "placeholder": "Ví dụ: Ngày 1 tháng 1 năm 2022 - Tên nhân viên hỗ trợ: Đã xóa khách hàng khỏi cơ sở dữ liệu",
                         "edit_button": "Chỉnh sửa ghi chú"
                     }
                 },
                 "compose_ticket": {
                     "title": "Viết phiếu mới",
-                    "private_support": "Để được hỗ trợ riêng, bạn có thể sử dụng biểu mẫu này để tạo một vé mới trong nền tảng hỗ trợ của chúng tôi. Đối với các vấn đề hỗ trợ không riêng tư, vui lòng xem <a>diễn đàn của chúng tôi</a>.",
+                    "private_support": "Để được hỗ trợ riêng, bạn có thể sử dụng biểu mẫu này để tạo một phiếu mới trong nền tảng hỗ trợ của chúng tôi. Đối với các vấn đề hỗ trợ không riêng tư, vui lòng xem <a>diễn đàn công khai của chúng tôi</a>.",
                     "not_allowed": "Hiện tại bạn không thể mở phiếu hỗ trợ mới"
                 },
                 "load_more": {
@@ -249,17 +249,17 @@
                 },
                 "my_tickets": {
                     "title": "Phiếu của tôi",
-                    "description": "Trên trang này, bạn sẽ có thể tìm thấy tất cả phiếu của mình.",
-                    "no_tickets": "Bạn không có phiếu nào."
+                    "description": "Trên trang này, bạn có thể tìm thấy tất cả phiếu hỗ trợ riêng tư của mình.",
+                    "no_tickets": "Bạn chưa có phiếu nào."
                 },
                 "overview": {
                     "title": "Tổng quan phiếu",
-                    "description": "Hãy mỉm cười, bạn là người hùng cứu người khác trong ngày của họ.",
-                    "no_tickets": "Không có vé nào phù hợp với tiêu chí của bạn, có lẽ bạn đang làm rất tốt!",
+                    "description": "Hãy mỉm cười, bạn là người hùng giúp người khác có một ngày tốt đẹp hơn.",
+                    "no_tickets": "Không có phiếu nào phù hợp với tiêu chí của bạn, có lẽ bạn đang làm rất tốt!",
                     "all_tickets": "Tất cả phiếu",
-                    "selection_unfiltered": "Huỷ bộ lọc",
-                    "selection_open": "Tạo phiếu hỗ trợ",
-                    "selection_closed": "Phiếu hỗ trợ đã đóng",
+                    "selection_unfiltered": "Không lọc",
+                    "selection_open": "Phiếu đang mở",
+                    "selection_closed": "Phiếu đã đóng",
                     "refresh": "Làm mới",
                     "filter": {
                         "status": {
@@ -276,8 +276,8 @@
                         }
                     },
                     "sort": {
-                        "newest": "Mới nhất đầu tiên",
-                        "oldest": "Cũ nhất đầu tiên",
+                        "newest": "Mới nhất trước",
+                        "oldest": "Cũ nhất trước",
                         "recent_activity": "Hoạt động gần đây",
                         "least_recent": "Hoạt động cũ nhất"
                     }
@@ -285,11 +285,11 @@
             },
             "notifications": {
                 "replied_to_ticket": {
-                    "name": "Ai đó trả lời vé hỗ trợ của tôi",
+                    "name": "Ai đó trả lời phiếu hỗ trợ của tôi",
                     "content": "=> v17development-flarum-support.emails.replied_to_ticket.subject"
                 },
                 "ticket_resolved": {
-                    "name": "Vé hỗ trợ của tôi đã được giải quyết",
+                    "name": "Phiếu hỗ trợ của tôi đã được giải quyết",
                     "content": "=> v17development-flarum-support.emails.ticket_resolved.subject"
                 }
             }
@@ -297,7 +297,7 @@
         "emails": {
             "replied_to_ticket": {
                 "subject": "{replier_display_name} đã trả lời phiếu #{ticket_id} của bạn",
-                "body": "Kính gửi {recipient_display_name},\n\n{replier_display_name} đã trả lời vé #{ticket_id} (chủ đề \"{subject}\") của bạn.\n\nVui lòng sử dụng liên kết dưới đây để xem lại câu trả lời:\n{url}\n\nChúng tôi đang đợi câu trả lời của bạn hoặc cho đến khi bạn đánh dấu rằng vé này đã được giải quyết.\n"
+                "body": "Kính gửi {recipient_display_name},\n\n{replier_display_name} đã trả lời phiếu #{ticket_id} (tiêu đề \"{subject}\") của bạn.\n\nVui lòng sử dụng liên kết dưới đây để xem câu trả lời:\n{url}\n\nChúng tôi đang chờ bạn trả lời hoặc đánh dấu phiếu này là đã giải quyết.\n"
             },
             "ticket_status_update": {
                 "subject": "Phiếu #{ticket_id} được đánh dấu là {new_status}",

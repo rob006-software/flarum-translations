@@ -9,8 +9,8 @@
     "blomstra-flag-duplicates": {
         "admin": {
             "settings": {
-                "event_post_help": "Tạo một bài viết sự kiện trong cuộc thảo luận bị gắn cờ \"trùng lặp\". Để thông báo cho người dùng rằng cuộc thảo luận có khả năng trùng lặp với cuộc thảo luận khác mà không cấp cho họ quyền truy cập vào các bài viết bị gắn cờ.",
-                "event_post_label": "Sự kiện bài viết"
+                "event_post_help": "Tạo một bài viết sự kiện trong cuộc thảo luận bị gắn cờ \"trùng lặp\". Điều này thông báo cho người dùng rằng cuộc thảo luận có khả năng trùng lặp với một cuộc thảo luận khác, mà không cho họ quyền xem toàn bộ các cờ đã được gắn.",
+                "event_post_label": "Bài viết sự kiện"
             }
         },
         "forum": {
@@ -22,7 +22,7 @@
                 "deselect_discussion_a11y_label": "Bỏ chọn cuộc thảo luận"
             },
             "post_stream": {
-                "flagged_duplicate_text": "{username} đã đánh dấu cuộc thảo luận này trùng lặp với {duplicate}. Kiểm duyệt viên sẽ sớm kiểm tra.",
+                "flagged_duplicate_text": "{username} đã đánh dấu cuộc thảo luận này có khả năng trùng lặp với {duplicate}. Điều hành viên sẽ sớm xem xét.",
                 "deleted_discussion": "[cuộc thảo luận đã xóa]",
                 "not_found": "Không tìm thấy bài viết"
             }

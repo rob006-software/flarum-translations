@@ -6,12 +6,12 @@
                 "help": "Thêm số ID thảo luận ở mọi nơi mà một cuộc thảo luận được hiển thị."
             },
             "enable_short_references": {
-                "label": "Bật tài liệu tham khảo ngắn",
-                "help": "Chuyển văn bản #<ID> trong tin nhắn (ví dụ: #42) thành liên kết đến cuộc thảo luận tương ứng."
+                "label": "Bật tham chiếu ngắn",
+                "help": "Chuyển chuỗi #<ID> trong bài viết (ví dụ: #42) thành liên kết đến thảo luận tương ứng."
             },
             "retrofit_links_in_frontend": {
-                "label": "Liên kết trang bị thêm ở frontend",
-                "help": "<p><strong>Không dùng nữa</strong> (sẽ bị xoá khỏi <code>v1.2.0</code>) Cân nhắc sử dụng lệnh <code>chore:reparse</code> của tiện ích <code>club-1/flarum-ext-chore-commands</code>. Xem: <code>https://github.com/club-1/flarum-ext-chore-commands</code></p> <p>Hiển thị tiêu đề của liên kết thảo luận trong thư được gửi khi tiện ích mở rộng này không được bật. Việc này được thực hiện ở giao diện người dùng nên có thể dẫn đến trải nghiệm người dùng kém.</p>\n"
+                "label": "Bổ sung liên kết ở frontend",
+                "help": "<p><strong>Không dùng nữa</strong> (sẽ bị xóa trong <code>v1.2.0</code>) Hãy cân nhắc sử dụng lệnh <code>chore:reparse</code> của tiện ích <code>club-1/flarum-ext-chore-commands</code> thay thế. Xem: <code>https://github.com/club-1/flarum-ext-chore-commands</code></p> <p>Hiển thị tiêu đề của các liên kết thảo luận trong những bài viết được đăng khi tiện ích này chưa được bật. Việc này được thực hiện ở phía giao diện nên có thể làm giảm trải nghiệm người dùng.</p>\n"
             }
         },
         "forum": {

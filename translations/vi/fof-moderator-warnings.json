@@ -2,41 +2,41 @@
     "fof-moderator-warnings": {
         "admin": {
             "permissions": {
-                "manage_warnings": "Tạo và xóa cảnh báo của người kiểm duyệt",
-                "view_warnings": "Xem cảnh báo của người kiểm duyệt",
-                "delete_warnings": "Xóa vĩnh viễn cảnh báo của người kiểm duyệt"
+                "manage_warnings": "Tạo và xóa cảnh báo của điều hành viên",
+                "view_warnings": "Xem cảnh báo của điều hành viên",
+                "delete_warnings": "Xóa vĩnh viễn cảnh báo của điều hành viên"
             }
         },
         "emails": {
             "post_warned": {
-                "subject": "{warner_display_name} cảnh báo bạn với {strikes, plural, one {# cảnh báo} other {# cảnh báo}} trong {discussion_title}",
-                "body": "Chào {warnee_display_name}!\n\n{warner_display_name} cảnh báo bạn với {strikes, plural, one {# strike} other {# cảnh báo}} trong {discussion_title}\n\nLý do sau đây đã đưa ra:\n\n---\n\n{public_comment}\n"
+                "subject": "{warner_display_name} đã cảnh báo bạn với {strikes, plural, one {# cảnh cáo} other {# cảnh cáo}} trong {discussion_title}",
+                "body": "Chào {warnee_display_name}!\n\n{warner_display_name} đã cảnh báo bạn với {strikes, plural, one {# cảnh cáo} other {# cảnh cáo}} trong {discussion_title}\n\nLý do được đưa ra như sau:\n\n---\n\n{public_comment}\n"
             },
             "user_warned": {
-                "subject": "{warner_display_name} cảnh báo bạn với {strikes, plural, one {# cảnh báo} other {# cảnh báo}}",
-                "body": "Chào {warnee_display_name}!\n\n{warner_display_name} cảnh báo bạn với {strikes, plural, one {# cảnh báo} other {# cảnh báo}}\n\nLý do sau đây đã đưa ra:\n\n---\n\n{public_comment}\n"
+                "subject": "{warner_display_name} đã cảnh báo bạn với {strikes, plural, one {# cảnh cáo} other {# cảnh cáo}}",
+                "body": "Chào {warnee_display_name}!\n\n{warner_display_name} đã cảnh báo bạn với {strikes, plural, one {# cảnh cáo} other {# cảnh cáo}}\n\nLý do được đưa ra như sau:\n\n---\n\n{public_comment}\n"
             }
         },
         "forum": {
             "notifications": {
-                "warning_text": "{strikes, plural, one {Bạn đã được cảnh báo với # cảnh báo bởi {mod_username}} other {Bạn đã được cảnh báo với # cảnh báo bởi {mod_username}}}",
-                "warning_no_strikes_text": "Bạn bị cảnh báo bởi {mod_username} (không có cảnh cáo)"
+                "warning_text": "{strikes, plural, one {Bạn đã bị {mod_username} cảnh báo với # cảnh cáo} other {Bạn đã bị {mod_username} cảnh báo với # cảnh cáo}}",
+                "warning_no_strikes_text": "Bạn đã bị {mod_username} cảnh báo (không có cảnh cáo)"
             },
             "post": {
-                "warning": "{strikes, plural, one {Cảnh báo với # cảnh báo bởi {mod_username}} other {Cảnh báo với # cảnh báo bởi {mod_username}}}",
-                "warning_no_strikes": "Cảnh báo không có cảnh báo bởi {mod_username}"
+                "warning": "{strikes, plural, one {Bị {mod_username} cảnh báo với # cảnh cáo} other {Bị {mod_username} cảnh báo với # cảnh cáo}}",
+                "warning_no_strikes": "Bị {mod_username} cảnh báo (không có cảnh cáo)"
             },
             "post_controls": {
                 "warning_button": "Cảnh báo người dùng"
             },
             "user": {
-                "warnings": "Cảnh báo kiểm duyệt"
+                "warnings": "Cảnh báo của điều hành viên"
             },
             "settings": {
-                "warning_notification_label": "Người kiểm duyệt cảnh báo tôi"
+                "warning_notification_label": "Điều hành viên cảnh báo tôi"
             },
             "validation": {
-                "public_comment_required": "Hầu hết bạn cung cấp một bình luận công khai.",
+                "public_comment_required": "Bạn phải cung cấp một nhận xét công khai.",
                 "invalid_strike_count": "Số lượng cảnh cáo phải là một số nguyên từ 0 đến 5."
             },
             "warning_controls": {
@@ -47,22 +47,22 @@
             "warning_list": {
                 "add_button": "Cảnh báo mới",
                 "no_warnings": "Có vẻ như không có cảnh báo nào ở đây.",
-                "warnings": "{strikes, plural, one {Cảnh báo của người kiểm duyệt: # Cảnh báo đã nhận} other {Cảnh báo của người kiểm duyệt: # Cảnh báo đã nhận}}",
-                "warnings_no_strikes": "Cảnh báo của người kiểm duyệt: Không nhận được cảnh cáo nào"
+                "warnings": "{strikes, plural, one {Cảnh báo của điều hành viên: đã nhận # cảnh cáo} other {Cảnh báo của điều hành viên: đã nhận # cảnh cáo}}",
+                "warnings_no_strikes": "Cảnh báo của điều hành viên: Không nhận cảnh cáo nào"
             },
             "warning_list_item": {
-                "list_item_heading": "{strikes, plural, one {<strong>#</strong> cảnh báo, {time}} other {<strong>#</strong> cảnh báo, {time}}}",
-                "list_item_heading_hidden": "{strikes, plural, one {<strong>#</strong> cảnh báo, {time} <strong>(đã xóa)</strong>} other {<strong>#</strong> cảnh báo, {time} <strong>(đã xóa)</strong>}}",
+                "list_item_heading": "{strikes, plural, one {<strong>#</strong> cảnh cáo, {time}} other {<strong>#</strong> cảnh cáo, {time}}}",
+                "list_item_heading_hidden": "{strikes, plural, one {<strong>#</strong> cảnh cáo, {time} <strong>(đã gỡ)</strong>} other {<strong>#</strong> cảnh cáo, {time} <strong>(đã gỡ)</strong>}}",
                 "public_comment": "Cảnh báo",
-                "private_comment": "Người kiểm duyệt-Nhận xét hiển thị",
-                "linked_post": "Bài viết đã Liên kết"
+                "private_comment": "Nhận xét chỉ hiển thị với điều hành viên",
+                "linked_post": "Bài viết được liên kết"
             },
             "warning_modal": {
                 "confirmation_message": "Cảnh báo của bạn đã được lưu. Bạn có thể cần phải làm mới trang để xem nó.",
                 "heading": "Cảnh báo <strong>{username}</strong>",
-                "strikes_heading": "Có bao nhiêu cảnh cáo nên được áp dụng?",
-                "public_comment_heading": "Tại sao <strong>{username}</strong> lại nhận được những cảnh báo này? Những nhận xét này sẽ được hiển thị cho người dùng và những người kiểm duyệt khác.",
-                "private_comment_heading": "Tại sao <strong>{username}</strong> lại nhận được những cảnh báo này? Những nhận xét này sẽ CHỈ hiển thị cho những người kiểm duyệt khác.",
+                "strikes_heading": "Nên áp dụng bao nhiêu cảnh cáo?",
+                "public_comment_heading": "Tại sao <strong>{username}</strong> lại nhận được những cảnh báo này? Những nhận xét này sẽ hiển thị với người dùng và các điều hành viên khác.",
+                "private_comment_heading": "Tại sao <strong>{username}</strong> lại nhận được những cảnh báo này? Những nhận xét này sẽ CHỈ hiển thị với các điều hành viên khác.",
                 "submit_button": "Lưu cảnh báo"
             }
         }

@@ -4,7 +4,7 @@
             "settings": {
                 "schedule": "Lên lịch (cú pháp CRON)",
                 "duration": "Thời lượng mặc định (giây)",
-                "eventPost": "Tạo bài đăng sự kiện khi lịch trình bị thay đổi"
+                "eventPost": "Tạo bài viết sự kiện khi lịch bị thay đổi"
             },
             "permissions": {
                 "feature": "Quản lý cuộc thảo luận nổi bật"
@@ -12,7 +12,7 @@
         },
         "forum": {
             "modal": {
-                "title": "Cuộc thảo luận nổi bật",
+                "title": "Đặt làm thảo luận nổi bật",
                 "fields": {
                     "from": "Từ",
                     "until": "Cho đến"
@@ -32,11 +32,11 @@
                 }
             },
             "controls": {
-                "feature": "Cuộc thảo luận nổi bật"
+                "feature": "Đặt làm thảo luận nổi bật"
             },
             "badge": "Nổi bật",
             "nav": {
-                "schedule": "Lịch trình tính năng"
+                "schedule": "Lịch thảo luận nổi bật"
             },
             "schedule": {
                 "help": "Kéo và thả các cuộc thảo luận trong trang hoặc từ một cửa sổ khác để thay đổi lịch trình của chúng. Để xóa lịch biểu, hãy sử dụng menu 3 chấm.\n",

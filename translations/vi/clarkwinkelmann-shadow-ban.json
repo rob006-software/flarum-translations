@@ -2,24 +2,24 @@
     "clarkwinkelmann-shadow-ban": {
         "admin": {
             "setting": {
-                "hideUsers": "Ẩn hồ sơ người dùng bị cấm ẩn"
+                "hideUsers": "Ẩn hồ sơ của người dùng bị cấm ngầm"
             },
             "permission": {
-                "ban": "Cấm ẩn người dùng",
-                "hide": "Ẩn shadow cuộc thảo luận và bài viết"
+                "ban": "Cấm ngầm (shadow ban) người dùng",
+                "hide": "Ẩn ngầm thảo luận và bài viết"
             }
         },
         "forum": {
             "discussionControl": {
-                "hide": "Ẩn shadow",
-                "restore": "Bỏ ẩn"
+                "hide": "Ẩn ngầm",
+                "restore": "Bỏ ẩn ngầm"
             },
             "postControl": {
-                "hide": "Ẩn shadow",
-                "restore": "Bỏ ẩn"
+                "hide": "Ẩn ngầm",
+                "restore": "Bỏ ẩn ngầm"
             },
             "userControl": {
-                "ban": "Cấm ẩn"
+                "ban": "Cấm ngầm"
             },
             "banUser": {
                 "title": "Đình chỉ {username}",
@@ -27,12 +27,12 @@
                 "quick": "Chọn nhanh",
                 "quickChoiceReset": "Không cấm",
                 "quickChoiceDays": "{count, plural, one {# ngày} other {# ngày}}",
-                "submit": "Lưu lại"
+                "submit": "Lưu"
             },
             "badge": {
-                "user": "Đã cấm ẩn",
-                "discussion": "Bị ẩn",
-                "post": "Bị ẩn"
+                "user": "Bị cấm ngầm",
+                "discussion": "Bị ẩn ngầm",
+                "post": "Bị ẩn ngầm"
             }
         }
     }

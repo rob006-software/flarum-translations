@@ -2,21 +2,21 @@
     "ralkage-cap-captcha": {
         "admin": {
             "settings": {
-                "api_endpoint_label": "",
-                "api_endpoint_help": "",
-                "secret_key_label": "",
-                "secret_key_help": "",
-                "protect_registration_label": "",
-                "protect_registration_help": "",
-                "protect_login_label": "",
-                "protect_login_help": ""
+                "api_endpoint_label": "Điểm cuối API Cap",
+                "api_endpoint_help": "URL của phiên bản Cap Standalone của bạn kèm site key, ví dụ: https://cap.example.com/your-site-key/",
+                "secret_key_label": "Khóa bí mật Cap",
+                "secret_key_help": "Khóa bí mật của site key, lấy từ bảng điều khiển Cap.",
+                "protect_registration_label": "Yêu cầu CAPTCHA khi đăng ký",
+                "protect_registration_help": "Hiển thị tiện ích Cap trên biểu mẫu đăng ký.",
+                "protect_login_label": "Yêu cầu CAPTCHA khi đăng nhập",
+                "protect_login_help": "Hiển thị tiện ích Cap trên biểu mẫu đăng nhập."
             }
         },
         "forum": {
-            "captcha_required": ""
+            "captcha_required": "Vui lòng xác minh bạn là con người bằng cách hoàn thành thử thách CAPTCHA."
         },
         "api": {
-            "invalid_captcha": ""
+            "invalid_captcha": "Xác minh CAPTCHA thất bại. Vui lòng hoàn thành thử thách và thử lại."
         }
     }
 }

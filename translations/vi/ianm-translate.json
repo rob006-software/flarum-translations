@@ -4,25 +4,25 @@
             "glossary": {
                 "button": "Từ điển",
                 "create_button": "Tạo thuật ngữ mới",
-                "refresh_button": "",
-                "edit_term": "",
-                "delete_term": "",
+                "refresh_button": "Làm mới",
+                "edit_term": "Chỉnh sửa thuật ngữ",
+                "delete_term": "Xóa thuật ngữ",
                 "section": {
                     "heading": "Cấu hình từ điển",
                     "help": "Các từ hoặc thuật ngữ từ điển được định nghĩa để dịch vụ dịch thuật sẽ không dịch chúng. Điều này hữu ích cho danh từ riêng, thuật ngữ kỹ thuật hoặc các từ khác không nên được dịch."
                 },
                 "terms": {
-                    "current": ""
+                    "current": "{count, plural, one {# thuật ngữ} other {# thuật ngữ}} hiện đang được định nghĩa"
                 },
-                "no_terms": "",
-                "extender_info": "",
-                "create_not_implemented": "",
-                "edit_not_available": "",
-                "delete_not_available": "",
+                "no_terms": "Hiện chưa có thuật ngữ từ điển nào được định nghĩa.",
+                "extender_info": "Có thể thêm thuật ngữ từ điển bằng PHP extender của tiện ích mở rộng trong tệp extend.php của bạn.",
+                "create_not_implemented": "Việc tạo thuật ngữ qua giao diện chưa được hỗ trợ. Hãy dùng PHP extender.",
+                "edit_not_available": "Thuật ngữ này được định nghĩa trong mã nguồn và không thể chỉnh sửa qua giao diện",
+                "delete_not_available": "Thuật ngữ này được định nghĩa trong mã nguồn và không thể xóa qua giao diện",
                 "source": {
-                    "code": "",
-                    "database": "",
-                    "default": ""
+                    "code": "Định nghĩa trong mã nguồn",
+                    "database": "Lưu trong cơ sở dữ liệu",
+                    "default": "Mặc định tích hợp sẵn"
                 }
             },
             "permission": {
@@ -51,15 +51,15 @@
                 "seemless-help": "Tính năng Beta. Khi được bật, tất cả nội dung người dùng sẽ được dịch tự động sang tất cả các ngôn ngữ diễn đàn có sẵn khác. Khi người dùng xem nội dung đa ngôn ngữ, bản dịch sẽ được hiển thị tự động.",
                 "multi-lang-search": "Tìm kiếm đa ngôn ngữ",
                 "multi-lang-search-help": "Khi được bật, tìm kiếm sẽ bao gồm tất cả các bản dịch của nội dung.",
-                "short-content-length": "",
-                "short-content-length-help": "",
+                "short-content-length": "Nội dung ngắn",
+                "short-content-length-help": "Khi được bật, nội dung ngắn hơn độ dài chỉ định sẽ được dịch và được coi là viết bằng ngôn ngữ hiện tại của giao diện. 0 sẽ tắt tính năng này.",
                 "deepl": {
                     "api_key": {
                         "help": "Đăng ký tại {link}. Trình điều khiển sẽ tự động phát hiện loại khóa miễn phí/pro.",
                         "label": "=> ianm-translate.lib.settings.api-key"
                     },
                     "en_choice": {
-                        "help": "Khi dịch sang tiếng Anh, chọn biến thể nào nên được sử dụng.",
+                        "help": "Khi dịch sang tiếng Anh, hãy chọn biến thể sẽ được sử dụng.",
                         "label": "Biến thể tiếng Anh",
                         "options": {
                             "en-US": "English (US) en-US",
@@ -67,8 +67,8 @@
                         }
                     },
                     "formality": {
-                        "help": "Ở nơi có sẵn, bản dịch có thể sử dụng các mức độ trang trọng khác nhau. Chọn sở thích của bạn ở đây.",
-                        "label": "Trang trọng",
+                        "help": "Khi khả dụng, bản dịch có thể sử dụng các mức độ trang trọng khác nhau. Hãy chọn mức độ bạn muốn ở đây.",
+                        "label": "Mức độ trang trọng",
                         "options": {
                             "default": "Mặc định",
                             "prefer_less": "Ít trang trọng hơn",
@@ -76,20 +76,20 @@
                         }
                     },
                     "model_type": {
-                        "help": "",
-                        "label": "",
+                        "help": "Chọn mô hình DeepL nào sẽ dùng để dịch.",
+                        "label": "Loại mô hình",
                         "options": {
-                            "latency_optimized": "",
-                            "prefer_quality_optimized": ""
+                            "latency_optimized": "Tối ưu cho tốc độ",
+                            "prefer_quality_optimized": "Ưu tiên chất lượng khi khả dụng"
                         }
                     },
                     "glossary": {
                         "options": {
-                            "none": ""
+                            "none": "Không dùng từ điển"
                         },
                         "pair": {
-                            "label": "",
-                            "help": ""
+                            "label": "Từ điển {source} sang {target}",
+                            "help": "Chọn một từ điển khi dịch {source} sang {target}, hoặc chọn \"Không dùng từ điển\" nếu cặp ngôn ngữ này không cần từ điển."
                         }
                     }
                 },
@@ -101,63 +101,63 @@
                 },
                 "openai": {
                     "api_key": {
-                        "help": "",
-                        "label": ""
+                        "help": "Đăng ký khóa API tại {link}. Trình điều khiển này hỗ trợ các mô hình GPT-4o và GPT-4o-mini.",
+                        "label": "=> ianm-translate.lib.settings.api-key"
                     },
                     "translation_model": {
-                        "help": "",
-                        "label": "",
+                        "help": "Chọn mô hình OpenAI nào sẽ dùng để dịch. GPT-4o cho chất lượng cao nhất, GPT-4o-mini cân bằng tốt, còn GPT-3.5-turbo tiết kiệm chi phí nhất.",
+                        "label": "Mô hình dịch",
                         "options": {
-                            "gpt-4o": "",
-                            "gpt-4o-mini": "",
+                            "gpt-4o": "GPT-4o (Cao cấp)",
+                            "gpt-4o-mini": "GPT-4o Mini (Cân bằng)",
                             "gpt-3": {
-                                "5-turbo": "",
-                                "5-turbo-0125": ""
+                                "5-turbo": "GPT-3.5 Turbo (Tiết kiệm)",
+                                "5-turbo-0125": "GPT-3.5 Turbo mới nhất (Tiết kiệm+)"
                             }
                         }
                     },
                     "detection_model": {
-                        "help": "",
-                        "label": "",
+                        "help": "Chọn mô hình OpenAI nào sẽ dùng để phát hiện ngôn ngữ. Khuyến nghị dùng GPT-3.5-turbo vì phát hiện ngôn ngữ là tác vụ đơn giản, không cần mô hình mạnh nhất.",
+                        "label": "Mô hình phát hiện ngôn ngữ",
                         "options": {
-                            "gpt-4o": "",
-                            "gpt-4o-mini": "",
+                            "gpt-4o": "GPT-4o (Cao cấp)",
+                            "gpt-4o-mini": "GPT-4o Mini (Cân bằng)",
                             "gpt-3": {
-                                "5-turbo": "",
-                                "5-turbo-0125": ""
+                                "5-turbo": "GPT-3.5 Turbo (Tiết kiệm)",
+                                "5-turbo-0125": "GPT-3.5 Turbo mới nhất (Tiết kiệm+)"
                             }
                         }
                     },
                     "de_variant": {
-                        "help": "",
-                        "label": "",
+                        "help": "Khi dịch sang tiếng Đức, hãy chọn biến thể sẽ được sử dụng.",
+                        "label": "Biến thể tiếng Đức",
                         "options": {
-                            "casual": "",
-                            "swiss": ""
+                            "casual": "Tiếng Đức thân mật",
+                            "swiss": "Tiếng Đức Thụy Sĩ"
                         }
                     },
                     "en_variant": {
-                        "help": "",
-                        "label": "",
+                        "help": "Khi dịch sang tiếng Anh, hãy chọn biến thể sẽ được sử dụng.",
+                        "label": "Biến thể tiếng Anh",
                         "options": {
-                            "en-GB": "",
-                            "en-US": ""
+                            "en-GB": "Tiếng Anh (Anh)",
+                            "en-US": "Tiếng Anh (Mỹ)"
                         }
                     },
                     "max_tokens": {
-                        "help": "",
-                        "label": "",
+                        "help": "Số token tối đa cho đầu ra bản dịch. Giá trị cao hơn cho phép bản dịch dài hơn nhưng tăng chi phí. 1024 token ≈ 750 từ. GPT-4o tốn ~$0.03 mỗi 1K token đầu ra, GPT-4o-mini tốn ~$0.0006 mỗi 1K token đầu ra.",
+                        "label": "Số token đầu ra tối đa",
                         "options": {
-                            "1024": "",
-                            "2048": "",
-                            "4096": "",
-                            "6144": "",
-                            "8192": ""
+                            "1024": "1.024 token (~750 từ)",
+                            "2048": "2.048 token (~1.500 từ)",
+                            "4096": "4.096 token (~3.000 từ)",
+                            "6144": "6.144 token (~4.500 từ)",
+                            "8192": "8.192 token (~6.000 từ)"
                         }
                     },
                     "timeout": {
-                        "help": "",
-                        "label": ""
+                        "help": "Thời gian chờ của yêu cầu tính bằng giây. Hãy tăng lên nếu bạn gặp lỗi hết thời gian chờ.",
+                        "label": "Thời gian chờ (giây)"
                     }
                 },
                 "translate-all-enabled": "Bật tất cả ngôn ngữ dịch thuật",
@@ -191,10 +191,10 @@
         },
         "forum": {
             "post": {
-                "translation-error": ""
+                "translation-error": "Đã xảy ra sự cố khi hiển thị bản dịch của bài viết này. Lỗi đã được ghi lại với ID {uuid}. Vui lòng báo cáo nếu sự cố vẫn tiếp diễn."
             },
             "unknown-language": "[không phát hiện]",
-            "detected-language": "Bài đăng này bằng {postLang}",
+            "detected-language": "Bài viết này được viết bằng {postLang}",
             "translate-button-label": "Dịch",
             "refresh-translation": "Làm mới bản dịch",
             "original-content": {
@@ -209,7 +209,7 @@
                     "title": "Quản lý bản dịch tiêu đề thảo luận"
                 },
                 "post": {
-                    "title": "Quản lý bản dịch bài đăng"
+                    "title": "Quản lý bản dịch bài viết"
                 },
                 "poll": {
                     "image-alt": "Văn bản ALT hình ảnh (nếu có)",
@@ -220,15 +220,15 @@
                     "question-language": "Câu hỏi thăm dò ý kiến ({language})"
                 },
                 "poll-group": {
-                    "title": "",
-                    "name": ""
+                    "title": "Quản lý bản dịch nhóm thăm dò ý kiến",
+                    "name": "Tên nhóm"
                 },
                 "save-changes": "=> core.ref.save_changes",
                 "quiz": {
                     "title": "Quản lý bản dịch câu đố",
                     "question": "Câu hỏi",
                     "subtitle": "Phụ đề",
-                    "option": "Trả lời {number}",
+                    "option": "Câu trả lời {number}",
                     "answer-additional": "Giải thích câu trả lời đúng"
                 }
             },
@@ -236,7 +236,7 @@
                 "post": {
                     "close-translation": "Đóng bản dịch",
                     "translated-header": "Bản dịch AI từ {from} sang {to}",
-                    "translated-updated": "Bản dịch được cập nhật lần cuối {time} sử dụng {provider}"
+                    "translated-updated": "Bản dịch được cập nhật lần cuối {time} bằng {provider}"
                 },
                 "title": {
                     "detected-language": "{postLang}"
@@ -252,7 +252,7 @@
                 }
             },
             "composer_edit": {
-                "language": ""
+                "language": "Cập nhật nội dung đã dịch bằng {language}"
             }
         },
         "lib": {
@@ -260,7 +260,7 @@
                 "deepl": "DeepL",
                 "google-free": "Google Translate",
                 "google-cloud": "Google Cloud Translate",
-                "openai": "",
+                "openai": "OpenAI",
                 "libre": "Libre Translate"
             },
             "settings": {

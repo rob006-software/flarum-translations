@@ -2,26 +2,26 @@
     "resofire-menu-control": {
         "admin": {
             "nav_order": {
-                "title": "",
-                "description": "",
-                "save_button": "",
-                "save_success": "",
-                "no_items": "",
-                "move_up": "",
-                "icon_input_title": "",
-                "highlight_color_label": "",
-                "highlight_color_help": "",
-                "remove_item": "",
-                "add_custom_link": "",
-                "custom_link_label": "",
-                "polls_note": "",
-                "add_highlight": "",
-                "remove_highlight": "",
-                "move_down": "",
-                "flip_label": "",
-                "flip_help": "",
-                "sticky_label": "",
-                "sticky_help": ""
+                "title": "Thứ tự mục menu",
+                "description": "Dùng các nút mũi tên để sắp xếp lại các mục điều hướng ở thanh bên trên trang chủ diễn đàn. Thay đổi có hiệu lực ngay sau khi lưu.",
+                "save_button": "Lưu thứ tự",
+                "save_success": "Đã lưu thứ tự điều hướng.",
+                "no_items": "Chưa phát hiện mục điều hướng nào. Hãy truy cập trang chủ diễn đàn với tư cách quản trị viên trước để tạo danh sách này.",
+                "move_up": "Di chuyển lên",
+                "icon_input_title": "Lớp biểu tượng Font Awesome tùy chỉnh (ví dụ: fas fa-bolt). Để trống để dùng mặc định.",
+                "highlight_color_label": "Màu nổi bật",
+                "highlight_color_help": "Màu nền cho các mục điều hướng được làm nổi bật. Để trống để dùng màu chủ đề mặc định.",
+                "remove_item": "Xóa khỏi danh sách",
+                "add_custom_link": "Thêm liên kết tùy chỉnh",
+                "custom_link_label": "Nhãn liên kết",
+                "polls_note": "Lưu ý: Nếu fof/polls được cài đặt, fof-polls-showcase và các mục tương tự có thể xuất hiện trong danh sách này ngay cả khi tính năng bình chọn toàn cục đã bị tắt. Hãy dùng nút × để xóa chúng vĩnh viễn.",
+                "add_highlight": "Làm nổi bật mục này cho người dùng",
+                "remove_highlight": "Bỏ nổi bật",
+                "move_down": "Di chuyển xuống",
+                "flip_label": "Đảo ngược điều hướng (hiển thị thẻ phía trên các mục menu)",
+                "flip_help": "Khi được bật, các liên kết thẻ sẽ xuất hiện ở đầu thanh bên và các mục điều hướng (Tất cả thảo luận, Đang theo dõi, v.v.) xuất hiện bên dưới.",
+                "sticky_label": "Thanh bên cố định (thanh bên luôn hiển thị khi cuộn)",
+                "sticky_help": "Khi được bật, thanh bên bao gồm cả nút Tạo cuộc thảo luận sẽ được giữ cố định ở đầu khung nhìn khi bạn cuộn xuống."
             }
         }
     }

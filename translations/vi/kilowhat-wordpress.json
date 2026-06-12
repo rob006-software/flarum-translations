@@ -3,19 +3,19 @@
         "admin": {
             "settings": {
                 "section_general_intro": "Các cài đặt cơ bản cần thiết để tiện ích mở rộng hoạt động.",
-                "api_key": "Mã khoá API Flarum",
+                "api_key": "Mã khóa API chung",
                 "api_key_reset": "Tạo mã khóa API mới",
                 "api_key_reset_confirm": "Bạn có thực sự muốn tạo một mã khóa API chung mới không? Mã cũ sẽ ngừng hoạt động và sẽ phải được cập nhật thủ công trong cài đặt plugin WordPress.\n",
-                "wordpress_url": "URL Wordpress",
+                "wordpress_url": "URL WordPress",
                 "default_actor": "Tác nhân mặc định",
-                "default_actor_placeholder_invalid": "Có thể giá trị không hợp lệ: {value} - Gõ để tìm kiếm người dùng...",
+                "default_actor_placeholder_invalid": "Giá trị có thể không hợp lệ: {value} - Gõ để tìm kiếm người dùng...",
                 "default_actor_placeholder_search": "Gõ để tìm kiếm người dùng...",
-                "default_actor_help": "Người dùng Flarum này sẽ được gán làm tác nhân của tất cả các hành động tạm ngưng, khóa, xóa. Nó cũng sẽ được sử dụng làm chủ sở hữu của các cuộc thảo luận và bài đăng trừ khi \"Gán tác giả thảo luận từ SSO\" được bật.\n",
-                "report_http_errors": "Gửi lỗi HTTP REST API WordPress đến các báo cáo Flarum đã cấu hình",
+                "default_actor_help": "Người dùng Flarum này sẽ được gán làm tác nhân của tất cả các hành động đình chỉ, khóa, xóa. Người dùng này cũng sẽ được dùng làm chủ sở hữu của các thảo luận và bài viết trừ khi bật \"Gán tác giả thảo luận từ SSO\".\n",
+                "report_http_errors": "Gửi lỗi HTTP của WordPress REST API đến các trình báo cáo Flarum đã cấu hình",
                 "report_http_errors_help": "Bất kể giá trị của cài đặt này, các yêu cầu luôn được ghi lại dưới dạng văn bản vào trình ghi mặc định. Tùy chọn này hữu ích nếu bạn muốn gửi lỗi API đến Sentry hoặc các công cụ giám sát khác dưới dạng ngoại lệ với dấu vết ngăn xếp.\n",
-                "section_sso_intro": "Tính năng này sẽ kết nối người dùng Wordpress với Flarum. Một tài khoản sẽ tự động được tạo cho họ và được giữ đồng bộ với Wordpress. Nếu bạn có tài khoản hiện tại trong Flarum, chúng sẽ tự động được đối sánh với email của họ. Nếu bạn xóa một người dùng trong Flarum, nó sẽ được tạo lại vào lần đăng nhập tài khoản Wordpress tiếp theo. Để chặn người dùng Flarum, hãy tạm ngưng tài khoản trong Flarum.\n",
+                "section_sso_intro": "Tính năng này sẽ kết nối liền mạch người dùng WordPress với Flarum. Một tài khoản sẽ tự động được tạo cho họ và được giữ đồng bộ với WordPress. Nếu bạn đã có sẵn tài khoản trong Flarum, chúng sẽ tự động được khớp theo email. Nếu bạn xóa một người dùng trong Flarum, tài khoản đó sẽ được tạo lại vào lần đăng nhập tiếp theo của tài khoản WordPress. Để chặn một người dùng Flarum, hãy đình chỉ tài khoản đó trong Flarum.\n",
                 "enable_sso": "Bật tích hợp SSO",
-                "login_method": "Cơ chế đăng nhập toàn cầu",
+                "login_method": "Cơ chế đăng nhập toàn cục",
                 "login_method_help": "\"Cookie\" chỉ hoạt động nếu WordPress và Flarum chia sẻ một miền cấp cao nhất. \"Redirect\" sẽ gây ra chuyển hướng sau mỗi lần đăng nhập từ WordPress ngay cả khi người dùng không có ý định truy cập diễn đàn. \"Hidden Iframe\" sẽ chỉ kết nối khi truy cập Flarum, gây ra làm mới trang khi tải trang đầu tiên. Kết hợp với \"Iframe delay\" bên dưới, điều này có thể được sử dụng để chỉ đăng nhập theo yêu cầu.\n",
                 "login_method_options": {
                     "cookie": "Cookie",
@@ -23,36 +23,36 @@
                     "iframe": "Iframe ẩn"
                 },
                 "cookie_domain": "Miền cookie",
-                "cookie_domain_help": "Chỉ cần thiết nếu khác với miền Flarum\n",
+                "cookie_domain_help": "Cài đặt này chỉ được sử dụng với cơ chế đăng nhập \"Cookie\". Bạn chỉ cần đặt giá trị này nếu hai trang web nằm trên các tên miền phụ khác nhau.\n",
                 "iframe_redirect_delay": "Độ trễ chuyển hướng Iframe (mili giây)",
                 "iframe_redirect_delay_help": "Cài đặt này chỉ được sử dụng khi sử dụng cơ chế đăng nhập \"Hidden Iframe\". Bao lâu sau khi tải trang Flarum ban đầu, tiện ích mở rộng vẫn sẽ cố gắng đăng nhập và làm mới trang mà không cần tương tác của người dùng. Nếu mất nhiều thời gian hơn giá trị này để nhận được câu trả lời từ WordPress, người dùng sẽ chỉ nhận được gợi ý đăng nhập và làm mới. Đặt thành 0 để luôn gợi ý đăng nhập cho người dùng thay vì tự động làm mới.\n",
-                "wordpress_login_path": "Đường dẫn đăng nhập Wordpress",
+                "wordpress_login_path": "Đường dẫn đăng nhập WordPress",
                 "wordpress_login_path_help": "Chỉ cần thiết nếu bạn đổi đường dẫn đăng nhập của mình theo cách thủ công hoặc thông qua một plugin",
                 "wordpress_login_full_page": "Mở đăng nhập WordPress dưới dạng trang thay vì popup",
                 "wordpress_login_full_page_help": "Theo mặc định, nhấp vào liên kết đăng nhập từ Flarum sẽ mở trang đăng nhập WordPress trong popup, giống như các phương thức OAuth khác. Khi cài đặt này được bật, tab trình duyệt hiện tại sẽ điều hướng đến trang đăng nhập WordPress và chuyển hướng đến Flarum sau đó.\n",
                 "username_strategy": "Tên tài khoản cho người dùng mới",
                 "username_strategy_options": {
-                    "user_login": "Tên tài khoản từ Wordpress",
-                    "first_name": "Họ từ Wordpress",
+                    "user_login": "Tên tài khoản từ WordPress",
+                    "first_name": "Tên từ WordPress",
                     "random": "Tên tài khoản ngẫu nhiên"
                 },
                 "username_strategy_help": "Một số sẽ được thêm vào tên người dùng nếu nó đã tồn tại trong Flarum",
-                "force_username_choice": "Làm cho người dùng chọn tên tài khoản của họ trong lần truy cập đầu tiên",
+                "force_username_choice": "Yêu cầu người dùng chọn tên tài khoản trong lần truy cập đầu tiên",
                 "force_username_choice_help": "Giá trị mặc định sẽ được cung cấp với quy tắc đã chọn ở trên.",
                 "welcome_message": "Thông báo giới thiệu",
                 "welcome_message_help": "Thông báo này sẽ được hiển thị lần đầu tiên người dùng truy cập diễn đàn, cùng với lựa chọn tên người dùng nếu được bật.",
-                "wordpress_login_only": "Chỉ cho phép đăng nhập Wordpress",
-                "wordpress_login_only_help": "Tắt đăng nhập Flarum và mở trực tiếp modal đăng nhập Wordpress khi yêu cầu đăng nhập. Thao tác này sẽ tự động đặt quyền \"Đăng ký\" thành Đã đóng.\n",
-                "user_delete": "Hành động khi người dùng bị xóa trong Wordpress",
+                "wordpress_login_only": "Chỉ cho phép đăng nhập WordPress",
+                "wordpress_login_only_help": "Tắt đăng nhập Flarum và mở trực tiếp modal/trang đăng nhập WordPress khi có yêu cầu đăng nhập. Khi thay đổi cài đặt này, tiện ích mở rộng sẽ cố gắng đặt quyền \"Đăng ký\" thành \"Đã đóng\". Hãy đảm bảo quyền này vẫn là \"Đã đóng\", nếu không khách truy cập sẽ có thể tạo tài khoản Flarum độc lập.\n",
+                "user_delete": "Hành động khi người dùng bị xóa trong WordPress",
                 "user_delete_options": {
                     "ignore": "Bỏ qua (giữ người dùng Flarum)",
                     "delete": "Xoá người dùng Flarum",
-                    "suspend": "Cấm người dùng Flarum vô thời hạn (Tiện ích Suspend phải được bật)"
+                    "suspend": "Đình chỉ người dùng Flarum vô thời hạn (Tiện ích mở rộng Suspend phải được bật)"
                 },
                 "user_delete_desc": "Nếu bạn chọn \"xóa\", chỉ người dùng sẽ bị xóa, không xóa nội dung của họ trên Flarum.",
                 "role_group_sync": "Đồng bộ hóa Vai trò với Nhóm",
-                "role_group_sync_help": "Các nhóm được chọn ở đây sẽ được tiện ích mở rộng tự động thêm vào và loại bỏ khỏi người dùng, vì vậy có lẽ tốt nhất là sử dụng các nhóm Flarum chuyên dụng mà bạn không bao giờ gán thủ công và cũng không được quản lý bởi các tiện ích mở rộng khác. Bạn có thể không nên gán nhóm quản trị theo cách này, cả vì lý do bảo mật và để đảm bảo bạn không bị khóa ngoài ý muốn. Bạn có thể gán nhiều nhóm cho một vai trò và một nhóm có thể được ánh xạ với nhiều vai trò. Bạn có thể tạo thêm nhóm Flarum trên <a>trang Quyền</a> của Flarum.\n",
-                "section_comments_intro": "Tính năng này thay thế các bình luận Wordpress bằng iframe Flarum. Không thể đăng bài của khách được nữa. Các cuộc thảo luận chỉ được tạo cho các bài viết có bật bình luận trong Wordpress. Bật hoặc tắt nhận xét được đồng bộ hóa với khóa thảo luận của Flarum. Nếu blog của bạn đã có các bài viết khi bạn bật tính năng này, bạn cần bật và tắt nhận xét lại trên mỗi bài viết để thảo luận Flarum được tạo.\n",
+                "role_group_sync_help": "Các nhóm được chọn ở đây sẽ được tiện ích mở rộng tự động thêm vào và loại bỏ khỏi người dùng, vì vậy có lẽ tốt nhất là sử dụng các nhóm Flarum chuyên dụng mà bạn không bao giờ gán thủ công và cũng không được quản lý bởi các tiện ích mở rộng khác. Có lẽ bạn không nên gán nhóm quản trị theo cách này, cả vì lý do bảo mật và để đảm bảo bạn không bị khóa ngoài ý muốn. Bạn có thể gán nhiều nhóm cho một vai trò và một nhóm có thể được ánh xạ với nhiều vai trò. Bạn có thể tạo thêm nhóm Flarum trên <a>trang Quyền</a> của Flarum.\n",
+                "section_comments_intro": "Tính năng này thay thế bình luận WordPress bằng một iframe Flarum. Khách sẽ không thể đăng bình luận được nữa. Thảo luận chỉ được tạo cho các bài viết có bật bình luận trong WordPress. Việc bật hoặc tắt bình luận được đồng bộ với tính năng khóa thảo luận của Flarum. Nếu blog của bạn đã có sẵn bài viết khi bật tính năng này, bạn cần bật và tắt bình luận lại trên từng bài viết để thảo luận Flarum được tạo.\n",
                 "enable_comments": "Bật tích hợp bình luận",
                 "excerpt_html_whitelist": "Danh sách trắng các thẻ HTML cần giữ trong đoạn trích (phân tách bằng dấu phẩy)",
                 "excerpt_html_nodes": "Độ dài của đoạn trích nội dung (tính theo số nút HTML)",
@@ -61,32 +61,32 @@
                 "post_thumbnail_list": "Hiển thị hình thu nhỏ bài viết WordPress trong danh sách thảo luận Flarum",
                 "comment_author_sync": "Gán tác giả thảo luận từ SSO",
                 "comment_author_sync_help": "Nếu tác giả WordPress đã tạo tài khoản Flarum thông qua SSO, tài khoản Flarum đó sẽ được đặt làm chủ sở hữu thảo luận bình luận.",
-                "comment_tag": "Gắn thẻ cho các chủ đề bình luận mới",
-                "comment_tag_none": "Không gán một thẻ",
-                "comment_tag_custom": "Tuỳ chỉnh giá trị",
+                "comment_tag": "Thẻ cho các chuỗi bình luận mới",
+                "comment_tag_none": "Không gán thẻ",
+                "comment_tag_custom": "Giá trị tùy chỉnh",
                 "comment_tag_custom_help": "Danh sách ID thẻ được phân tách bằng dấu phẩy",
-                "summary_as_last_post": "Đặt bài đăng tóm tắt làm bài viết cuối cùng của các cuộc thảo luận mới",
-                "summary_as_last_post_help": "Điều này làm cho các cuộc thảo luận bình luận mới tăng lên đầu danh sách thảo luận trong Flarum ngay sau khi bài viết trên Wordpress được xuất bản. Theo mặc định, cuộc thảo luận sẽ chỉ lên đầu khi người dùng đầu tiên viết bình luận.\n",
-                "use_post_date": "Sử dụng ngày đăng Wordpress làm ngày tạo cuộc thảo luận",
-                "use_post_date_help": "Theo mặc định, các cuộc thảo luận Flarum sẽ sử dụng thời gian hiện tại làm ngày tạo. Tùy chọn này cho phép tạo các cuộc thảo luận với một ngày trong quá khứ nếu bài viết trên Wordpress cũng có một ngày trong quá khứ.\n",
-                "post_hide": "Hành động khi một bài viết Wordpress bị ẩn (chuyển vào thùng rác hoặc chuyển sang bản nháp)",
+                "summary_as_last_post": "Đặt bài viết tóm tắt làm bài viết cuối cùng của các thảo luận mới",
+                "summary_as_last_post_help": "Tùy chọn này làm cho các thảo luận bình luận mới được đẩy lên đầu danh sách thảo luận trong Flarum ngay khi bài viết WordPress được xuất bản. Theo mặc định, thảo luận chỉ được đẩy lên đầu khi có người dùng đầu tiên viết bình luận.\n",
+                "use_post_date": "Sử dụng ngày đăng WordPress làm ngày tạo cuộc thảo luận",
+                "use_post_date_help": "Theo mặc định, các cuộc thảo luận Flarum sẽ sử dụng thời gian hiện tại làm ngày tạo. Tùy chọn này cho phép tạo các cuộc thảo luận với một ngày trong quá khứ nếu bài viết trên WordPress cũng có một ngày trong quá khứ.\n",
+                "post_hide": "Hành động khi một bài viết WordPress bị ẩn (chuyển vào thùng rác hoặc chuyển sang bản nháp)",
                 "post_hide_options": {
-                    "ignore": "Bỏ qua (khóa thảo luận theo Cho phép Nhận xét)",
+                    "ignore": "Bỏ qua (khóa thảo luận theo cài đặt Cho phép Bình luận)",
                     "lock": "Khóa cuộc thảo luận trong Flarum",
                     "hide": "Ẩn thảo luận trong Flarum",
                     "delete": "Xóa vĩnh viễn cuộc thảo luận khỏi Flarum"
                 },
-                "post_delete": "Hành động khi một bài viết Wordpress bị xóa vĩnh viễn",
+                "post_delete": "Hành động khi một bài viết WordPress bị xóa vĩnh viễn",
                 "post_delete_options": {
                     "ignore": "Bỏ qua (giữ cuộc thảo luận Flarum ở trạng thái hiện tại)",
-                    "lock": "Giữ thảo luận và khóa Flarum",
+                    "lock": "Giữ thảo luận Flarum và khóa lại",
                     "hide": "Ẩn thảo luận trong Flarum",
                     "delete": "Xóa vĩnh viễn cuộc thảo luận khỏi Flarum"
                 },
-                "wordpress_username": "Tên tài khoản quản trị viên Wordpress"
+                "wordpress_username": "Tên tài khoản quản trị viên WordPress"
             },
             "tabs": {
-                "wizard": "Cài đặt wizard",
+                "wizard": "Trình hướng dẫn cài đặt",
                 "general": "Cài đặt chung",
                 "sso": "Tích hợp SSO",
                 "comments": "Tích hợp Bình luận",
@@ -94,14 +94,14 @@
                 "disabled": "Đã tắt"
             },
             "appearance": {
-                "edit_css_button": "Chỉnh sửa CSS chỉ dành cho nhúng Wordpress"
+                "edit_css_button": "Chỉnh sửa CSS chỉ dành cho nhúng WordPress"
             },
             "edit_css": {
-                "title": "Chỉnh sửa CSS nhúng",
-                "customize_text": "LESS/CSS của riêng bạn chỉ được áp dụng trên <a>kiểu mặc định</a> của Flarum bên trong iframe Wordpress."
+                "title": "Chỉnh sửa CSS nhúng tùy chỉnh",
+                "customize_text": "LESS/CSS của riêng bạn chỉ được áp dụng trên <a>kiểu mặc định</a> của Flarum bên trong iframe WordPress."
             },
             "permissions": {
-                "gambits": "Wordpress Gambits của bên thứ ba (xem tài liệu)"
+                "gambits": "Gambit WordPress của bên thứ ba (xem tài liệu)"
             },
             "save-controls": {
                 "validation-errors": "Chúng tôi đã tìm thấy một số lỗi trong bài gửi của bạn",
@@ -111,19 +111,19 @@
                 "save": "Lưu"
             },
             "health": {
-                "title": "Kiểm tra sức khỏe",
+                "title": "Kiểm tra tình trạng",
                 "check": "Kiểm tra ngay",
                 "errors": "Chúng tôi đã tìm thấy một số vấn đề.",
                 "healthy": "Mọi thứ đều tốt!",
-                "not-run": "Kiểm tra sức khỏe sẽ khả dụng sau khi bạn kết nối Wordpress và Flarum.",
-                "request-error": "Chúng tôi không thể thực hiện kiểm tra sức khỏe."
+                "not-run": "Kiểm tra tình trạng sẽ khả dụng sau khi bạn kết nối WordPress và Flarum.",
+                "request-error": "Chúng tôi không thể thực hiện kiểm tra tình trạng."
             },
             "wizard": {
-                "intro": "Cảm ơn bạn đã mua tiện ích mở rộng Wordpress cao cấp của tôi! Điền thông tin đăng nhập của bạn vào bên dưới để tự động kết nối Flarum và Wordpress của bạn với nhau.\n",
-                "wordpress_url": "URL của Wordpress",
-                "wordpress_url_help": "Một liên kết đến trang chủ Wordpress của bạn",
-                "wordpress_username": "Tên người dùng quản trị Wordpress",
-                "wordpress_password": "Mật khẩu quản trị Wordpress",
+                "intro": "Cảm ơn bạn đã mua tiện ích mở rộng WordPress cao cấp của tôi! Điền thông tin đăng nhập của bạn vào bên dưới để tự động kết nối Flarum và WordPress của bạn với nhau.\n",
+                "wordpress_url": "URL của WordPress",
+                "wordpress_url_help": "Một liên kết đến trang chủ WordPress của bạn",
+                "wordpress_username": "Tên người dùng quản trị WordPress",
+                "wordpress_password": "Mật khẩu quản trị WordPress",
                 "wordpress_password_help": "Mật khẩu chỉ được sử dụng cho cấu hình ban đầu và không được lưu trữ.",
                 "install": "Cài đặt"
             },
@@ -154,7 +154,7 @@
                 "default_message": "Chào mừng bạn đến với diễn đàn. Chọn một tên người dùng và bạn đã sẵn sàng để sử dụng!",
                 "username": "Chọn tên người dùng",
                 "submit": "Kích hoạt tài khoản diễn đàn",
-                "not_now": "Bỏ qua và đọc với tư cách khách ngay bây giờ"
+                "not_now": "Bỏ qua và tạm thời đọc với tư cách khách"
             },
             "instant-login": {
                 "welcome_known_user": "Chào mừng trở lại, {avatar} <strong>{name}</strong>!",
@@ -164,20 +164,20 @@
                 "button": "Đăng nhập ngay và làm mới"
             },
             "edit-user-modal": {
-                "warning": "Người dùng này được giữ đồng bộ với Wordpress. Bạn nên chỉnh sửa email và mật khẩu từ Wordpress.\n",
-                "edit_in_wordpress": "Chỉnh sửa trong Wordpress",
-                "should_not_edit_email": "Bạn nên chỉnh sửa email trong Wordpress. <a>Vẫn chỉnh sửa</a>",
+                "warning": "Người dùng này được giữ đồng bộ với WordPress. Bạn nên chỉnh sửa email và mật khẩu từ WordPress.\n",
+                "edit_in_wordpress": "Chỉnh sửa trong WordPress",
+                "should_not_edit_email": "Bạn nên chỉnh sửa email trong WordPress. <a>Vẫn chỉnh sửa</a>",
                 "unlink": "Hủy liên kết người dùng này khỏi người dùng wordpress",
-                "unlink_help": "Nếu email khớp với người dùng Wordpress, email đó sẽ được liên kết lại vào lần sau khi người dùng đó kết nối trong Wordpress."
+                "unlink_help": "Nếu email khớp với người dùng WordPress, email đó sẽ được liên kết lại vào lần sau khi người dùng đó kết nối trong WordPress."
             },
             "settings": {
                 "edit_on_wordpress": "Thay đổi email và mật khẩu trên trang web chính"
             },
             "log_in": {
-                "with_wordpress_button": "Đăng nhập bằng Wordpress"
+                "with_wordpress_button": "Đăng nhập bằng WordPress"
             },
             "summary-post": {
-                "head_label": "Bài viết trên Wordpress",
+                "head_label": "Bài viết trên WordPress",
                 "blog_link": "Đọc trên blog",
                 "read_more": "Đọc thêm"
             },
@@ -193,20 +193,20 @@
         },
         "api": {
             "blocked_actions": {
-                "login": "Tài khoản này được liên kết với Wordpress. Sử dụng biểu mẫu đăng nhập trang web chính để kết nối.",
-                "password_reset": "Tài khoản này được liên kết với Wordpress. Sử dụng biểu mẫu đăng nhập trang web chính để đặt lại mật khẩu của bạn.",
-                "email_change": "Tài khoản này được liên kết với Wordpress. Sử dụng trang hồ sơ trang web chính để thay đổi email của bạn."
+                "login": "Tài khoản này được liên kết với WordPress. Sử dụng biểu mẫu đăng nhập trang web chính để kết nối.",
+                "password_reset": "Tài khoản này được liên kết với WordPress. Sử dụng biểu mẫu đăng nhập trang web chính để đặt lại mật khẩu của bạn.",
+                "email_change": "Tài khoản này được liên kết với WordPress. Sử dụng trang hồ sơ trang web chính để thay đổi email của bạn."
             },
             "health": {
-                "suspend-extension-required": "Tiện ích mở rộng Suspend phải được bật để sử dụng tùy chọn \"Cấm\" của \"Hành động khi người dùng xóa\"",
+                "suspend-extension-required": "Tiện ích mở rộng Suspend phải được bật để sử dụng tùy chọn \"Đình chỉ\" của \"Hành động khi người dùng bị xóa\"",
                 "cookie-domain-format": "Miền cookie dường như không phải là một miền hợp lệ. Kiểm tra xem đó chỉ là một miền không có bất kỳ giao thức hoặc đường dẫn nào",
-                "login-only-signup-open": "Bạn cần tắt Đăng ký theo quyền Flarum để cài đặt \"Chỉ cho phép đăng nhập Wordpress\" có hiệu lực đầy đủ",
+                "login-only-signup-open": "Bạn cần tắt Đăng ký theo quyền Flarum để cài đặt \"Chỉ cho phép đăng nhập WordPress\" có hiệu lực đầy đủ",
                 "role-group-sync-syntax": "Cài đặt đồng bộ hóa vai trò với nhóm có vấn đề về mã hóa",
                 "role-group-sync-incomplete": "Cài đặt đồng bộ hóa vai trò với nhóm chưa được điền đầy đủ",
                 "role-group-sync-invalid-group": "ID nhóm Flarum không hợp lệ được chọn cho đồng bộ hóa vai trò với nhóm: {id}",
                 "role-group-sync-invalid-role": "Vai trò WordPress không hợp lệ được chọn cho đồng bộ hóa vai trò với nhóm: {role}",
                 "lock-extension-required": "Tiện ích mở rộng Lock phải được bật để sử dụng tích hợp Bình luận",
-                "tags-extension-required": "Tiện ích mở rộng Tags phải được bật để sử dụng tùy chọn \"Gắn thẻ cho chuỗi bình luận mới\"",
+                "tags-extension-required": "Tiện ích mở rộng Tags phải được bật để sử dụng tùy chọn \"Thẻ cho các chuỗi bình luận mới\"",
                 "tag-not-exist": "ID thẻ {id} được chọn cho tùy chọn \"ID thẻ cho chuỗi bình luận mới\" không tồn tại",
                 "debug-mode": "Chế độ gỡ lỗi Flarum đã được bật. Tắt nó khi bạn hoàn thành việc gỡ lỗi",
                 "config-url-trailing-slash": "URL Flarum được định nghĩa trong config.php không nên có dấu gạch chéo ở cuối (giá trị hiện tại: \"{url}\")",
@@ -233,19 +233,19 @@
                 "api-error-other": "Cố gắng truy cập API WordPress dẫn đến lỗi: {message}"
             },
             "wizard": {
-                "already_installed": "Flarum đã được kết nối với Wordpress. Để chạy lại trình hướng dẫn, hãy xóa cài đặt \"URL Wordpress\" trong Flarum và cài đặt \"khóa API Flarum\" trong Wordpress.\n",
+                "already_installed": "Flarum đã được kết nối với WordPress. Để chạy lại trình hướng dẫn, hãy xóa cài đặt \"URL WordPress\" trong Flarum và cài đặt \"Mã khóa API chung của Flarum\" trong WordPress.\n",
                 "api_unauthorized": "Chúng tôi không thể xác thực bằng các thông tin xác thực đã cho. Kiểm tra kỹ URL, tên người dùng và mật khẩu. Kiểm tra tài liệu để biết thêm các bước khắc phục sự cố.\n",
                 "api_error_generic": "Lỗi khi thực hiện yêu cầu POST đến điểm cuối thiết lập plugin WordPress ({exception}). Đảm bảo plugin Tích hợp Flarum WordPress được cài đặt và bật.\n",
-                "invalid_wordpress_url": "Cài đặt \"Địa chỉ WordPress (URL)\" trong Wordpress dường như không phải là một URL hợp lệ ({actual}).",
-                "api_error_get": "Lỗi khi thực hiện yêu cầu GET đối với cài đặt Wordpress ({exception}).",
-                "api_error_post": "Lỗi khi thực hiện yêu cầu ĐĂNG lên cài đặt Wordpress ({exception}).",
-                "plugin_not_installed": "Có vẻ như plugin Wordpress không được cài đặt hoặc kích hoạt trên trang Wordpress đó. Đảm bảo bạn đã cài đặt ít nhất phiên bản 1.2.0.\n"
+                "invalid_wordpress_url": "Cài đặt \"Địa chỉ WordPress (URL)\" trong WordPress dường như không phải là một URL hợp lệ ({actual}).",
+                "api_error_get": "Lỗi khi thực hiện yêu cầu GET đối với cài đặt WordPress ({exception}).",
+                "api_error_post": "Lỗi khi thực hiện yêu cầu POST đến cài đặt WordPress ({exception}).",
+                "plugin_not_installed": "Có vẻ như plugin WordPress không được cài đặt hoặc kích hoạt trên trang WordPress đó. Đảm bảo bạn đã cài đặt ít nhất phiên bản 1.2.0.\n"
             },
             "sync_setting_error": "Lỗi đồng bộ hóa cài đặt với WordPress. Kiểm tra thủ công rằng các hộp kiểm ở phía WordPress được đặt thành cùng giá trị như trong Flarum. Lỗi: {exception}.\n"
         },
         "views": {
             "error": {
-                "missing_wordpress_embed": "Bài viết này chưa có một chủ đề bình luận. Nếu bạn là quản trị viên blog, hãy xuất bản bài đăng hoặc tắt và bật lại nhận xét để bắt đầu một chuỗi.\n"
+                "missing_wordpress_embed": "Bài viết này chưa có chuỗi bình luận. Nếu bạn là quản trị viên blog, hãy xuất bản bài viết, hoặc tắt rồi bật lại bình luận để bắt đầu chuỗi bình luận.\n"
             }
         }
     }

@@ -2,11 +2,11 @@
     "fof-forum-statistics-widget": {
         "forum": {
             "navbar": {
-                "widget_title": "Thống kê",
+                "widget_title": "Thống kê diễn đàn",
                 "discussions_count": "Cuộc thảo luận: {discussionsCount}",
                 "posts_count": "Bài viết: {postsCount}",
                 "users_count": "Thành viên: {usersCount}",
-                "latest_member": "Thành viên mới: "
+                "latest_member": "Thành viên mới nhất: "
             }
         },
         "admin": {
@@ -16,16 +16,16 @@
                 "flush_cache_on_new_registration_label": "Xóa Bộ nhớ đệm Thống kê khi Đăng ký Mới",
                 "flush_cache_on_new_registration_help": "Nếu được kích hoạt, bộ nhớ đệm thống kê sẽ được xóa khi một người dùng mới đăng ký trên diễn đàn.",
                 "widget_ignore_private_discussions_label": "Bỏ qua các cuộc thảo luận riêng tư",
-                "classic_look_label": "",
-                "classic_look_help": "",
+                "classic_look_label": "Giao diện cổ điển",
+                "classic_look_help": "Khôi phục giao diện gốc của widget được sử dụng trước khi tích hợp với fof/forum-widgets-core.",
                 "widget_order_label": "Thứ tự Widget",
                 "widget_helper_text": "Chỉnh sửa cài đặt này để điều chỉnh vị trí của tiện ích này trên phần sidenav của diễn đàn Flarum của bạn. Số càng cao, tiện ích này sẽ càng cao trong danh sách mục sidenav (giá trị này có thể là dương hoặc âm)."
             },
             "permissions": {
-                "view_discussions_count_label": "Xem thống kê diễn đàn widget đếm cuộc thảo luận",
-                "view_posts_count_label": "Xem thống kê diễn đàn widget đếm bài viết",
-                "view_users_count_label": "Xem thống kê diễn đàn widget đếm thành viên",
-                "view_lastest_member_label": "Xem thống kê diễn đàn widget thành viên mới"
+                "view_discussions_count_label": "Xem số thảo luận trong widget thống kê diễn đàn",
+                "view_posts_count_label": "Xem số bài viết trong widget thống kê diễn đàn",
+                "view_users_count_label": "Xem số thành viên trong widget thống kê diễn đàn",
+                "view_lastest_member_label": "Xem thành viên mới nhất trong widget thống kê diễn đàn"
             }
         }
     }
