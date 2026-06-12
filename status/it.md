@@ -2745,7 +2745,7 @@
 	</tr>
 	<tr>
 		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
+			<span title="Compatible with recent Flarum">🟢</span><span title="Extension is abandoned">❗</span>
 			<a href="https://github.com/glowingblue/flarum-ext-redis-setup" title="glowingblue/redis-setup"><code>glowingblue/redis-setup</code></a>
 		</td>
 		<td align="center">248<br /><img src="https://img.shields.io/badge/--4-brightgreen" alt="-4" title="Change from last week"></td>
