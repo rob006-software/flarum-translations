@@ -965,6 +965,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`forumaker-yandex-oauth`](https://weblate.rob006.net/projects/flarum2/forumaker-yandex-oauth) | [`forumaker/yandex-oauth`](https://github.com/forumaker/Yandex-Oauth) |
 | [`forumaker-yandex-smartcaptcha`](https://weblate.rob006.net/projects/flarum2/forumaker-yandex-smartcaptcha) | [`forumaker/yandex-smartcaptcha`](https://github.com/forumaker/Yandex-SmartCaptcha) |
 | [`gitzaai-cnsearch`](https://weblate.rob006.net/projects/flarum2/gitzaai-cnsearch) | [`gitzaai/cnsearch`](https://github.com/gitzaai/cnsearch) |
+| [`glowingblue-password-strength`](https://weblate.rob006.net/projects/flarum2/glowingblue-password-strength) | [`glowingblue/password-strength`](https://github.com/glowingblue/flarum-ext-password-strength) |
 | [`huoxin-relative-url`](https://weblate.rob006.net/projects/flarum2/huoxin-relative-url) | [`huoxin/relative-url`](https://github.com/huoxin233/flarum-ext-relative-url) |
 | [`huseyinfiliz-awards`](https://weblate.rob006.net/projects/flarum2/huseyinfiliz-awards) | [`huseyinfiliz/awards`](https://github.com/huseyinfiliz/awards) |
 | [`huseyinfiliz-diff`](https://weblate.rob006.net/projects/flarum2/huseyinfiliz-diff) | [`huseyinfiliz/flarum-diff`](https://github.com/huseyinfiliz/flarum-diff) |
@@ -978,6 +979,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`ianm-html-head`](https://weblate.rob006.net/projects/flarum2/ianm-html-head) | [`ianm/html-head`](https://github.com/imorland/html-head) |
 | [`ianm-log-viewer`](https://weblate.rob006.net/projects/flarum2/ianm-log-viewer) | [`ianm/log-viewer`](https://github.com/imorland/flarum-ext-log-viewer) |
 | [`ianm-oauth-reddit`](https://weblate.rob006.net/projects/flarum2/ianm-oauth-reddit) | [`ianm/oauth-reddit`](https://github.com/imorland/flarum-ext-oauth-reddit) |
+| [`ianm-online-guests`](https://weblate.rob006.net/projects/flarum2/ianm-online-guests) | [`ianm/online-guests`](https://github.com/imorland/flarum-ext-online-guests-widget) |
 | [`ianm-syndication`](https://weblate.rob006.net/projects/flarum2/ianm-syndication) | [`ianm/syndication`](https://github.com/imorland/syndication) |
 | [`ianm-twofactor`](https://weblate.rob006.net/projects/flarum2/ianm-twofactor) | [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor) |
 | [`import-ai-webhook-notification`](https://weblate.rob006.net/projects/flarum2/import-ai-webhook-notification) | [`import-ai/flarum-webhook-notification`](https://github.com/import-ai/flarum-webhook-notification) |
