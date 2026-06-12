@@ -990,6 +990,7 @@
             },
             "lib": {
                 "userMeta": {
+                    "initials": "d1457b72c3fb323a2671125aef3eab5d d1457b72c3fb323a2671125aef3eab5d",
                     "username": "f8c427fa3c9be2de5ce9b3e50e6cf886 f8c427fa3c9be2de5ce9b3e50e6cf886"
                 }
             }
@@ -2073,14 +2074,17 @@
                     "authorFilter": "b5850e041f0c9061a88a5d2a27968c42 b5850e041f0c9061a88a5d2a27968c42"
                 },
                 "stream": {
-                    "noResults": "742def5b3873d1a9e35a5e13beeb6ba8 742def5b3873d1a9e35a5e13beeb6ba8"
+                    "noResults": "742def5b3873d1a9e35a5e13beeb6ba8 742def5b3873d1a9e35a5e13beeb6ba8",
+                    "otherAuthorsGap": "f65e98350313805a4d391c342aa21fc1 f65e98350313805a4d391c342aa21fc1",
+                    "unmatchedGap": "ea0d7afe15f8b723a7ae092675887c35 ea0d7afe15f8b723a7ae092675887c35"
                 },
                 "toolbar": {
                     "authorPlaceholder": "7a00cd97a80c70c9678594adc3817239 7a00cd97a80c70c9678594adc3817239",
                     "clear": "981c2e7c4ec0ac90560d4115b472dd58 981c2e7c4ec0ac90560d4115b472dd58",
                     "close": "c7a7039f3b841760d38891a6418aaadf c7a7039f3b841760d38891a6418aaadf",
                     "pin": "e41b09d4966216082b371848e5286cc1 e41b09d4966216082b371848e5286cc1",
-                    "searchPlaceholder": "3cf145a3370964e5ae126471310cd8c8 3cf145a3370964e5ae126471310cd8c8"
+                    "searchPlaceholder": "3cf145a3370964e5ae126471310cd8c8 3cf145a3370964e5ae126471310cd8c8",
+                    "summary": "3d8e06228122669eb9a6107173d94414 3d8e06228122669eb9a6107173d94414"
                 }
             }
         }
@@ -11595,9 +11599,15 @@
                 }
             },
             "api": {
+                "invalid_url": "f07b18f2f0a3c10dee9eb8a0593b34a4 f07b18f2f0a3c10dee9eb8a0593b34a4",
+                "invalid_url_scheme": "962e30f9ea31cc90e26d3727ea2094aa 962e30f9ea31cc90e26d3727ea2094aa",
                 "message_required": "c19b4e57f18780e1129d4106f306fd55 c19b4e57f18780e1129d4106f306fd55",
+                "message_too_long": "1082aad1f5ddceae46e7bd051430173c 1082aad1f5ddceae46e7bd051430173c",
+                "name_required": "0d94aaec574570bc62d7246047147242 0d94aaec574570bc62d7246047147242",
+                "name_too_long": "d5f3a66551c044fe74d0ba6070b02a4c d5f3a66551c044fe74d0ba6070b02a4c",
                 "no_valid_recipients": "ee1ed612b3ccfa809f9564c3008248c1 ee1ed612b3ccfa809f9564c3008248c1",
                 "subject_id_required": "02f30982647762a07e2dda725037b737 02f30982647762a07e2dda725037b737",
+                "url_too_long": "3c58e33acac65220beaff2b81326d23d 3c58e33acac65220beaff2b81326d23d",
                 "user_ids_required": "7aa4c5409a54e4ef6123c1b2ec25e059 7aa4c5409a54e4ef6123c1b2ec25e059"
             },
             "forum": {
@@ -13537,6 +13547,8 @@
     "justoverclock-theaudiodb-api.json": {
         "justoverclock-theaudiodb-api": {
             "admin": {
+                "apiKey": "65369c82effaee78dd1824cb96ce47e1 65369c82effaee78dd1824cb96ce47e1",
+                "apiKeyHelp": "fa37a844a669c9fcf0ea97dc34f80287 fa37a844a669c9fcf0ea97dc34f80287",
                 "langcode": "fbea8978876f36c70aa96d5c6ed6a3c6 fbea8978876f36c70aa96d5c6ed6a3c6",
                 "langcode-help": "06a2b8e6b8096ec58e9f129ea69ffd0e 06a2b8e6b8096ec58e9f129ea69ffd0e"
             },
@@ -15866,6 +15878,7 @@
                     "show_replies": "62c192c870992bb5d4632483c9d0e278 62c192c870992bb5d4632483c9d0e278"
                 },
                 "notification": {
+                    "new_profile_message_reply_text": "59c1795a2daf63fa6b3a294e4db0c5d7 59c1795a2daf63fa6b3a294e4db0c5d7",
                     "new_profile_message_text": "e9db700698f5c6f36b4ac091df633ccb e9db700698f5c6f36b4ac091df633ccb"
                 },
                 "report": {
@@ -18078,6 +18091,7 @@
         "ziven-checkin": {
             "admin": {
                 "settings": {
+                    "Alert": "d0080305f525016486c53cdcc818dd62 d0080305f525016486c53cdcc818dd62",
                     "Modal": "6548eb11230edb5e586dc0e9d7c8833b 6548eb11230edb5e586dc0e9d7c8833b",
                     "None": "1b26a8bba6e841f1c375b283db5c1c61 1b26a8bba6e841f1c375b283db5c1c61",
                     "allow-check-in": "5800a8ab84062a9304ff85d452c5eaba 5800a8ab84062a9304ff85d452c5eaba",
@@ -18109,20 +18123,25 @@
                 "permission": {
                     "allow_use_transfer_money": "a9fcd35d87adb857c3bf7cac84cb830b a9fcd35d87adb857c3bf7cac84cb830b"
                 },
+                "transfer-money-client-customization": "70497fd7f70517daa534de3b8c90839a 70497fd7f70517daa534de3b8c90839a",
+                "transfer-money-client-customization-help": "34af574bc32f0fd1ef604c2ebd62619c 34af574bc32f0fd1ef604c2ebd62619c",
                 "transfer-money-timezone": "01f001f10a42f81c99f0b422feb33aa7 01f001f10a42f81c99f0b422feb33aa7",
-                "transfer-money-timezone-default": "fb0700dbdf7347bde7590f0b50fa3bf3 fb0700dbdf7347bde7590f0b50fa3bf3"
+                "transfer-money-timezone-default": "fb0700dbdf7347bde7590f0b50fa3bf3 fb0700dbdf7347bde7590f0b50fa3bf3",
+                "transfer-money-timezone-help": "533233946ec070f675a340b864e96100 533233946ec070f675a340b864e96100"
             },
             "forum": {
                 "cancel": "4b97278b444c0203fc17d7b93a39f5c7 4b97278b444c0203fc17d7b93a39f5c7",
                 "current-money-amount": "d8b52eb9d0601717a8be04d03e1d7549 d8b52eb9d0601717a8be04d03e1d7549",
                 "need-money-amount": "770576ade93d02929035034bf048a543 770576ade93d02929035034bf048a543",
                 "notifications": {
+                    "user-transfer-money-details": "ac6e52405fffcc73e76d117245e516cc ac6e52405fffcc73e76d117245e516cc",
                     "user-transfer-money-to-you": "7f52f05059c58e4c5358790870dfc338 7f52f05059c58e4c5358790870dfc338"
                 },
                 "ok": "a60852f204ed8028c1c58808b746d115 a60852f204ed8028c1c58808b746d115",
                 "receive-transfer-from-user": "6b6997ef5993d9ccedb98551966b9345 6b6997ef5993d9ccedb98551966b9345",
                 "search_user_header": "b15b7b0340f52d448dc6191fc9317f3a b15b7b0340f52d448dc6191fc9317f3a",
                 "transfer-error": "d0f56c0549c071f9800f505894fb464b d0f56c0549c071f9800f505894fb464b",
+                "transfer-error-insufficient-fund": "56c812894962996497c99d523d58762b 56c812894962996497c99d523d58762b",
                 "transfer-error-no-permission": "f93f0e2757f56ba03e6afdbbd3b99c32 f93f0e2757f56ba03e6afdbbd3b99c32",
                 "transfer-error-no-target-user-selected": "bd47ef5ca5b79bf76dbbabbd811135c0 bd47ef5ca5b79bf76dbbabbd811135c0",
                 "transfer-list-assign-at": "b1af77024f649c5e69e054483b7fe4d0 b1af77024f649c5e69e054483b7fe4d0",
