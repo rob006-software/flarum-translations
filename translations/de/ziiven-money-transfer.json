@@ -32,20 +32,20 @@
             "cancel": "Abbrechen",
             "transfer-error": "Überweisungsfehler",
             "transfer-error-no-permission": "Du hast keine Berechtigung",
-            "transfer-error-insufficient-fund": "",
+            "transfer-error-insufficient-fund": "Nicht genügend Guthaben",
             "transfer-error-no-target-user-selected": "Bitte wähle mindestens einen Benutzer zum Überweisen aus",
             "receive-transfer-from-user": "Erhalte Geldüberweisungen von anderen Benutzern",
             "notifications": {
                 "user-transfer-money-to-you": "{username} hat Geld an dich überwiesen",
-                "user-transfer-money-details": ""
+                "user-transfer-money-details": "Du hast {cost} erhalten. Überweisungs-ID: {id}"
             }
         },
         "admin": {
             "transfer-money-timezone": "Zeitzone",
-            "transfer-money-timezone-help": "",
+            "transfer-money-timezone-help": "Stelle die Zeitzone für den Übertragungszeitpunkt ein. Die Standardeinstellung ist „Asia/Shanghai“.",
             "transfer-money-timezone-default": "Asien/Shanghai",
-            "transfer-money-client-customization": "",
-            "transfer-money-client-customization-help": "",
+            "transfer-money-client-customization": "Client-Anpassung",
+            "transfer-money-client-customization-help": "Funktionen, die für einen Kunden entwickelt wurden. Können bei anderen Benutzern zu unerwarteten Fehlern führen.",
             "permission": {
                 "allow_use_transfer_money": "Erlaube Geldüberweisungen"
             }
