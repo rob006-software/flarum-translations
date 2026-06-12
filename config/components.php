@@ -105,7 +105,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ekumanov/flarum-ext-forum-stats-widget/v1.6.3/locale/en.yml',
 	],
 	'ekumanov-inline-audio' => [
-		'tag' => 'https://raw.githubusercontent.com/ekumanov/flarum-ext-inline-audio/v2.10.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ekumanov/flarum-ext-inline-audio/v2.10.2/locale/en.yml',
 	],
 	'ekumanov-markdown-tables' => [
 		'tag' => 'https://raw.githubusercontent.com/ekumanov/flarum-ext-markdown-tables/v1.0.2/locale/en.yml',
