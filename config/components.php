@@ -765,7 +765,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/TryHackX/flarum-thumb-sliders/2.1.4/locale/en.yml',
 	],
 	'tryhackx-topic-rating' => [
-		'tag' => 'https://raw.githubusercontent.com/TryHackX/flarum-topic-rating/2.4.4/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/TryHackX/flarum-topic-rating/2.4.5/locale/en.yml',
 		'__builtInLanguages' => [
 			'pl',
 		],
