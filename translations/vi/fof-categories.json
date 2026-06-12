@@ -2,54 +2,54 @@
     "fof-categories": {
         "admin": {
             "basics": {
-                "categories_label": ""
+                "categories_label": "Chuyên mục"
             },
             "labels": {
-                "keep_tags_nav": "",
-                "child_bare_icon": "",
-                "compact_mobile_mode": "",
-                "full_page_desktop": "",
-                "parent_remove_icon": "",
-                "parent_remove_description": "",
-                "parent_remove_stats": "",
-                "parent_remove_last_discussion": "",
-                "small_forum_optimized": ""
+                "keep_tags_nav": "Giữ liên kết trang thẻ trong thanh điều hướng bên?",
+                "child_bare_icon": "Biểu tượng con không nền?",
+                "compact_mobile_mode": "Chế độ thu gọn trên di động",
+                "full_page_desktop": "Toàn trang trên máy tính?",
+                "parent_remove_icon": "Ẩn biểu tượng của các thẻ cấp cao nhất?",
+                "parent_remove_description": "Ẩn mô tả của các thẻ cấp cao nhất?",
+                "parent_remove_stats": "Ẩn thống kê của các thẻ cấp cao nhất?",
+                "parent_remove_last_discussion": "Ẩn thảo luận gần nhất của các thẻ cấp cao nhất?",
+                "small_forum_optimized": "Tối ưu hóa cho diễn đàn nhỏ?"
             },
             "help": {
-                "child_bare_icon": "",
-                "full_page_desktop": "",
-                "small_forum_optimized": ""
+                "child_bare_icon": "Biểu tượng trên các chuyên mục con có nên hiển thị mà không có nền tròn không?",
+                "full_page_desktop": "Menu điều hướng bên có nên được thu gọn thành một hàng (như trên trang thẻ truyền thống) không? Điều này cũng sẽ ẩn các widget (như Thống kê diễn đàn của Friends of Flarum) khỏi thanh điều hướng của trang chuyên mục.",
+                "small_forum_optimized": "Tùy chọn này sẽ cho số lượng thảo luận/bài viết chính xác hơn, nhưng sẽ làm chậm đáng kể các diễn đàn vừa và lớn."
             },
             "headings": {
-                "nav": "",
-                "layout": "",
-                "parent_display": "",
-                "child_display": "",
-                "performance": ""
+                "nav": "Điều hướng",
+                "layout": "Bố cục",
+                "parent_display": "Hiển thị chuyên mục cha",
+                "child_display": "Hiển thị chuyên mục con",
+                "performance": "Hiệu năng"
             },
-            "title": ""
+            "title": "Cài đặt Chuyên mục"
         },
         "forum": {
             "all_categories": {
-                "meta_description_text": "",
-                "meta_title_text": ""
+                "meta_description_text": "Tất cả chuyên mục",
+                "meta_title_text": "=> fof-categories.ref.categories"
             },
             "header": {
-                "back_to_categories_tooltip": ""
+                "back_to_categories_tooltip": "Quay lại Chuyên mục"
             },
             "index": {
-                "categories_link": ""
+                "categories_link": "=> fof-categories.ref.categories"
             },
             "stat-widgets": {
-                "discussion_label": "",
-                "post_label": ""
+                "discussion_label": "Thảo luận",
+                "post_label": "Bài viết"
             },
             "last_discussion_widget": {
-                "no_discussions": ""
+                "no_discussions": "Chưa có thảo luận nào!"
             }
         },
         "ref": {
-            "categories": ""
+            "categories": "Chuyên mục"
         }
     }
 }

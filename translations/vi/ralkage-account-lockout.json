@@ -2,48 +2,48 @@
     "ralkage-account-lockout": {
         "api": {
             "error": {
-                "locked_timed": "",
-                "locked_manual": ""
+                "locked_timed": "Tài khoản đã bị khóa. Vui lòng thử lại sau {minutes} phút.",
+                "locked_manual": "Tài khoản đã bị khóa. Vui lòng liên hệ quản trị viên."
             }
         },
         "admin": {
             "settings": {
-                "max_attempts_label": "",
-                "max_attempts_help": "",
-                "lockout_mode_label": "",
-                "lockout_mode_help": "",
-                "lockout_duration_label": "",
-                "lockout_duration_help": ""
+                "max_attempts_label": "Số lần đăng nhập thất bại tối đa",
+                "max_attempts_help": "Số lần đăng nhập thất bại liên tiếp trước khi tài khoản bị khóa.",
+                "lockout_mode_label": "Chế độ khóa",
+                "lockout_mode_help": "Theo thời gian: tự động mở khóa sau khoảng thời gian quy định. Thủ công: cần quản trị viên/điều hành viên mở khóa.",
+                "lockout_duration_label": "Thời gian khóa (phút)",
+                "lockout_duration_help": "Thời gian tài khoản bị khóa. Chỉ áp dụng khi chế độ khóa được đặt là Theo thời gian."
             },
             "permissions": {
-                "unlock_users_label": ""
+                "unlock_users_label": "Mở khóa các tài khoản bị khóa"
             },
             "users": {
-                "lock_status_column": "",
-                "locked_tooltip": "",
-                "unlock_button": "",
-                "unlock_confirmation": ""
+                "lock_status_column": "Trạng thái khóa",
+                "locked_tooltip": "Tài khoản này đã bị khóa",
+                "unlock_button": "Mở khóa",
+                "unlock_confirmation": "Bạn có chắc chắn muốn mở khóa {username} không?"
             }
         },
         "forum": {
             "user_controls": {
-                "unlock_button": ""
+                "unlock_button": "Mở khóa"
             },
             "user_badge": {
-                "locked_tooltip": ""
+                "locked_tooltip": "Tài khoản bị khóa"
             },
             "unlock_modal": {
-                "title": "",
-                "locked_since": "",
-                "locked_until": "",
-                "manually_locked": "",
-                "failed_attempts": "",
-                "unlock_button": ""
+                "title": "Mở khóa {username}",
+                "locked_since": "Bị khóa từ {date}",
+                "locked_until": "Tự động mở khóa lúc {date}",
+                "manually_locked": "Tài khoản này bị khóa thủ công và cần quản trị viên hoặc điều hành viên mở khóa.",
+                "failed_attempts": "{count} lần đăng nhập thất bại",
+                "unlock_button": "Mở khóa tài khoản"
             },
             "log_in": {
-                "locked_timed": "",
-                "locked_manual": "",
-                "attempts_remaining": ""
+                "locked_timed": "Tài khoản này đã bị khóa do đăng nhập thất bại quá nhiều lần. Vui lòng thử lại sau {minutes} phút.",
+                "locked_manual": "Tài khoản này đã bị khóa. Vui lòng liên hệ quản trị viên.",
+                "attempts_remaining": "Thông tin đăng nhập không hợp lệ. Bạn còn {remaining} trong số {max} lần đăng nhập trước khi tài khoản bị khóa."
             }
         }
     }

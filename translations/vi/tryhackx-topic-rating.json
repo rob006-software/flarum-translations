@@ -2,16 +2,16 @@
     "tryhackx-topic-rating": {
         "admin": {
             "settings": {
-                "enabled_label": "",
-                "enabled_help": "",
+                "enabled_label": "Bật đánh giá chủ đề",
+                "enabled_help": "Cho phép người dùng đánh giá các thảo luận theo thang 5 sao.",
                 "show_on_list_label": "",
                 "show_on_list_help": "",
                 "rate_on_list_label": "",
                 "rate_on_list_help": "",
                 "hide_empty_for_nonvoters_label": "",
                 "hide_empty_for_nonvoters_help": "",
-                "allow_unactivated_label": "",
-                "allow_unactivated_help": "",
+                "allow_unactivated_label": "Cho phép tài khoản chưa kích hoạt đánh giá",
+                "allow_unactivated_help": "Khi bật, người dùng chưa xác nhận email vẫn có thể đánh giá các thảo luận.",
                 "show_moderation_controls_label": "",
                 "show_moderation_controls_help": "",
                 "tag_config_label": "",
@@ -62,46 +62,46 @@
                 "single_modal_rate_help": ""
             },
             "permissions": {
-                "rate_label": "",
-                "toggle_label": "",
-                "reset_label": ""
+                "rate_label": "Đánh giá thảo luận",
+                "toggle_label": "Bật/Tắt đánh giá trên các thảo luận",
+                "reset_label": "Đặt lại tất cả đánh giá trên các thảo luận"
             },
             "support": {
-                "button": "",
-                "title": "",
-                "description": "",
-                "copy": "",
-                "thanks": ""
+                "button": "Ủng hộ phát triển",
+                "title": "Ủng hộ tiện ích mở rộng này",
+                "description": "Nếu thấy tiện ích mở rộng này hữu ích, bạn hãy cân nhắc ủng hộ việc phát triển bằng một khoản đóng góp nhỏ. Mỗi đóng góp đều giúp dự án tiếp tục tồn tại và được duy trì.",
+                "copy": "Sao chép địa chỉ",
+                "thanks": "Cảm ơn sự ủng hộ của bạn!"
             }
         },
         "forum": {
             "tooltip": {
-                "login_required": "",
-                "activation_required": "",
-                "rate_this": "",
-                "rate_first": "",
-                "your_rating": "",
+                "login_required": "Bạn phải đăng nhập để đánh giá.",
+                "activation_required": "Bạn phải kích hoạt tài khoản để đánh giá.",
+                "rate_this": "Đánh giá chủ đề này",
+                "rate_first": "Hãy là người đầu tiên đánh giá!",
+                "your_rating": "Đánh giá của bạn:",
                 "restricted": ""
             },
-            "rating_count": "",
+            "rating_count": "Lượt đánh giá: {count}",
             "last_rated": "",
             "rating_restricted_message": "",
             "controls": {
-                "enable_rating": "",
-                "disable_rating": "",
-                "reset_ratings": ""
+                "enable_rating": "Bật đánh giá",
+                "disable_rating": "Tắt đánh giá",
+                "reset_ratings": "Đặt lại tất cả đánh giá"
             },
             "reset_modal": {
-                "title": "",
-                "message": "",
-                "confirm": "",
-                "cancel": ""
+                "title": "Đặt lại tất cả đánh giá",
+                "message": "Bạn có chắc chắn muốn xóa tất cả {count} đánh giá của thảo luận này không? Hành động này không thể hoàn tác.",
+                "confirm": "Đặt lại đánh giá",
+                "cancel": "Hủy"
             },
             "ratings_modal": {
-                "title": "",
-                "empty": "",
-                "deleted_user": "",
-                "updated_prefix": ""
+                "title": "Đánh giá ({count})",
+                "empty": "Chưa có đánh giá nào.",
+                "deleted_user": "[đã xóa]",
+                "updated_prefix": "đã cập nhật "
             }
         }
     },

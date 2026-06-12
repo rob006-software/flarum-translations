@@ -6,7 +6,7 @@
             },
             "tabs": {
                 "strings": "Bản dịch",
-                "coverage": "Tiến trình",
+                "coverage": "Độ phủ",
                 "export": "Xuất",
                 "import": "Nhập"
             },
@@ -16,17 +16,17 @@
                 "copy-original": "Sao chép văn bản gốc",
                 "load-more": "Tải thêm",
                 "delete-redundant": "Xóa các bản dịch thừa",
-                "delete-redundant-confirm": "Thao tác này sẽ xóa {count} bản dịch có bản dịch gốc và bản dịch tùy chỉnh giống nhau. Điều này có thể hữu ích để dọn dẹp sau khi cập nhật gói ngôn ngữ.\n",
+                "delete-redundant-confirm": "Thao tác này sẽ xóa {count} bản dịch có giá trị gốc và giá trị tùy chỉnh giống hệt nhau. Điều này có thể hữu ích để dọn dẹp sau khi cập nhật gói ngôn ngữ.\n",
                 "delete-all": "Xóa tất cả các bản dịch",
-                "delete-all-confirm": "Điều này sẽ xóa TẤT CẢ trong số {count} bản dịch tùy chỉnh của bạn. Đảm bảo rằng bạn đã xuất hoặc sao lưu mọi thứ bạn có thể muốn giữ lại.\n"
+                "delete-all-confirm": "Thao tác này sẽ xóa TẤT CẢ {count} bản dịch tùy chỉnh của bạn. Hãy đảm bảo bạn đã xuất hoặc sao lưu mọi thứ muốn giữ lại.\n"
             },
             "locales": {
                 "all": "Tất cả"
             },
             "placeholder": {
-                "not-translated": "Không được dịch",
-                "all-locales": "Một văn bản được xác định ở đây sẽ được hiển thị bằng tất cả các ngôn ngữ",
-                "hint": "Bản dịch ban đầu:"
+                "not-translated": "Chưa dịch",
+                "all-locales": "Văn bản nhập ở đây sẽ được hiển thị ở tất cả các ngôn ngữ",
+                "hint": "Giá trị gốc:"
             },
             "filters": {
                 "search": "Tìm kiếm chuỗi dịch...",
@@ -48,7 +48,7 @@
                 },
                 "for-extension": "Đối với tiện ích mở rộng",
                 "frontend": "Đối với giao diện người dùng",
-                "frontend-all-except-admin": "Tất cả ngoại trừ Quản trị viên",
+                "frontend-all-except-admin": "Tất cả trừ Quản trị",
                 "mass-edit": "Chỉnh sửa hàng loạt",
                 "results": "Hiển thị {shown} trong số {total} bản dịch phù hợp"
             },
@@ -63,11 +63,11 @@
                 },
                 "total-options": {
                     "percent": "Phần trăm",
-                    "count": "Đếm"
+                    "count": "Số lượng"
                 },
                 "columns": {
                     "namespace": "Namespace",
-                    "total": "Toàn bộ",
+                    "total": "Tổng",
                     "all-except-admin": "Diễn đàn và các giao diện người dùng khác",
                     "all-frontends": "Hiển thị tất cả giao diện người dùng"
                 },
@@ -101,8 +101,8 @@
                 "locale-all": "Ngôn ngữ giả \"Tất cả\"",
                 "override-existing": "Ghi đè các bản dịch tùy chỉnh hiện có của tôi",
                 "submit": "Nhập",
-                "results": "Quá trình nhập kết thúc. Các chuỗi {imported} đã được nhập và các chuỗi {identical} giống nhau đã bị bỏ qua. Trang bây giờ sẽ được làm mới để hiển thị các bản dịch mới.\n",
-                "results-with-ignore": "Quá trình nhập đã hoàn tất. chuỗi {imported} đã được nhập, Các chuỗi hiện có {ignored} đã bị bỏ qua và các chuỗi giống nhau {identical} đã bị bỏ qua. Trang bây giờ sẽ được làm mới để hiển thị các bản dịch mới.\n"
+                "results": "Quá trình nhập đã hoàn tất. {imported} chuỗi đã được nhập và {identical} chuỗi giống hệt đã được bỏ qua. Trang sẽ được làm mới để hiển thị các bản dịch mới.\n",
+                "results-with-ignore": "Quá trình nhập đã hoàn tất. {imported} chuỗi đã được nhập, {ignored} chuỗi đã tồn tại đã bị bỏ qua và {identical} chuỗi giống hệt đã được bỏ qua. Trang sẽ được làm mới để hiển thị các bản dịch mới.\n"
             },
             "known-namespace": {
                 "core": "Flarum Core",
@@ -110,8 +110,8 @@
             },
             "known-frontend": {
                 "forum": "Diễn đàn",
-                "admin": "Quản trị viên",
-                "lib": "Lib (được sử dụng trên cả Diễn đàn và Quản trị viên)",
+                "admin": "Quản trị",
+                "lib": "Lib (dùng trên cả Diễn đàn và Quản trị)",
                 "ref": "Ref (được sử dụng lại trong các khóa khác)",
                 "api": "API"
             }

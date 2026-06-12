@@ -4,9 +4,9 @@
             "ban_ip_button": "=> fof-ban-ips.ref.ban_ip_button",
             "unban_ip_button": "=> fof-ban-ips.ref.unban_ip_button",
             "modal": {
-                "ban_options_only_ip": "Chỉ cấm các IP hiện tại (<code>{ip}</code>)",
-                "ban_options_all_ip": "Cấm tất cả IP sử dụng bởi <i>{username}</i>",
-                "ban_ip_no_users": "Không ai sẽ bị cấm"
+                "ban_options_only_ip": "Chỉ cấm IP hiện tại (<code>{ip}</code>)",
+                "ban_options_all_ip": "Cấm tất cả IP được <i>{username}</i> sử dụng",
+                "ban_ip_no_users": "Sẽ không có ai khác bị cấm"
             },
             "user_badge": {
                 "banned_tooltip": ""
@@ -30,13 +30,13 @@
                 "date_label": "Ngày"
             },
             "modal": {
-                "update_title": "Cập nhật IP cấm",
-                "ban_ip_no_users": "Không ai sẽ bị cấm"
+                "update_title": "Cập nhật IP bị cấm",
+                "ban_ip_no_users": "Sẽ không có ai bị cấm"
             },
             "empty_text": "Không tìm thấy IP bị cấm."
         },
         "error": {
-            "banned_ip_message": "Ủy quyền thất bại.",
+            "banned_ip_message": "Không được phép truy cập.",
             "no_ips_found_message": "Không tìm thấy IP cho người dùng."
         },
         "lib": {
@@ -47,14 +47,14 @@
                 "reason_label": "=> fof-ban-ips.ref.reason_label",
                 "check_button": "Kiểm tra",
                 "save_button": "Lưu",
-                "ban_ip_confirmation": "Bạn có chắc chắn muốn chặn địa chỉ IP này sử dụng trên diễn đàn không? Điều này sẽ chặn người dùng có (các) địa chỉ IP này đăng nhập và đăng ký.",
-                "ban_ip_users": "{count, plural, one {Người dùng {users} sẽ bị cấm}; other {Người dùng {users} sẽ bị cấm}}",
-                "unban_ip_confirmation": "Bạn có chắc chắn muốn hủy bỏ người dùng này và tất cả người dùng khác không bị cấm bởi các IP khác không?",
-                "unban_options_only_ip": "Chỉ mở cấm IP hiện tại (<code>{ip}</code>)",
-                "unban_options_all_ip": "Mở cấm tất cả các IP được sử dụng bởi <i>{username}</i>",
-                "unban_ip_no_users": "Không ai sẽ bị cấm",
-                "unban_ip_users": "{count, plural, one {Người dùng {users} sẽ được bỏ cấm}; other {Người dùng {users} sẽ được bỏ cấm}}",
-                "unbanned_ips": "Mở cấm IP <code>{ips}</code>.",
+                "ban_ip_confirmation": "Bạn có chắc muốn chặn địa chỉ IP này trên diễn đàn không? Điều này sẽ chặn những người dùng có (các) địa chỉ IP này đăng nhập và đăng ký.",
+                "ban_ip_users": "{count, plural, one {Người dùng {users} sẽ bị cấm} other {Những người dùng {users} sẽ bị cấm}}",
+                "unban_ip_confirmation": "Bạn có chắc muốn bỏ cấm người dùng này và tất cả những người dùng khác không bị cấm bởi IP nào khác không?",
+                "unban_options_only_ip": "Chỉ bỏ cấm IP hiện tại (<code>{ip}</code>)",
+                "unban_options_all_ip": "Bỏ cấm tất cả IP được <i>{username}</i> sử dụng",
+                "unban_ip_no_users": "Sẽ không có ai khác được bỏ cấm",
+                "unban_ip_users": "{count, plural, one {Người dùng {users} sẽ được bỏ cấm} other {Những người dùng {users} sẽ được bỏ cấm}}",
+                "unbanned_ips": "Đã bỏ cấm <code>{ips}</code>.",
                 "ban_button": "=> fof-ban-ips.ref.ban_label",
                 "unban_button": "=> fof-ban-ips.ref.unban_label"
             }
@@ -64,8 +64,8 @@
             "ban_ip_addresses": "Cấm IP",
             "ban_ip_button": "Cấm IP",
             "unban_label": "",
-            "unban_ip_addresses": "Mở cấm IP",
-            "unban_ip_button": "Mở cấm IP",
+            "unban_ip_addresses": "Bỏ cấm IP",
+            "unban_ip_button": "Bỏ cấm IP",
             "address_label": "Địa chỉ IP",
             "reason_label": "Lý do"
         }

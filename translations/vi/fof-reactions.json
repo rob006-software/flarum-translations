@@ -5,11 +5,11 @@
             "warning": "Biểu cảm của bạn đã được chuyển đổi",
             "notification": "{username} đã bày tỏ cảm xúc {reaction} với bài viết của bạn",
             "settings": {
-                "notify_post_reacted_label": "Ai đó bày tỏ cảm xúc bài viết của tôi"
+                "notify_post_reacted_label": "Ai đó bày tỏ cảm xúc với bài viết của tôi"
             },
             "reacting-own-post": "Bạn không thể bày tỏ cảm xúc bài viết của chính mình",
             "modal": {
-                "title": "Bày tỏ cảm xúc",
+                "title": "Lượt bày tỏ cảm xúc",
                 "anonymous_count": "{count, plural, one {# người dùng ẩn danh} other {# người dùng ẩn danh}}",
                 "no_reactions": "Chưa có lượt bày tỏ cảm xúc nào",
                 "load_more": "",
@@ -19,7 +19,7 @@
                 "confirm_remove_all_reaction_type": "",
                 "confirm_remove_user_reaction": ""
             },
-            "mod_item": "Xem bày tỏ cảm xúc",
+            "mod_item": "Xem lượt bày tỏ cảm xúc",
             "react_button_label": "Cảm xúc",
             "unreact_button_label": "",
             "reaction_button_label": "",
@@ -41,12 +41,12 @@
                 "reactions": {
                     "title": "Tùy chỉnh biểu cảm",
                     "reactions": "Biểu cảm hiện tại",
-                    "Helptext": "Nhập tên (số nhận dạng) của biểu tượng cảm xúc hoặc biểu tượng font awesome và chọn loại bạn muốn.",
+                    "Helptext": "Nhập tên (mã nhận dạng) của biểu tượng cảm xúc hoặc biểu tượng font awesome và chọn loại bạn muốn.",
                     "help": {
                         "display": "Hiển thị",
-                        "identifier": "Số nhận dạng"
+                        "identifier": "Mã nhận dạng"
                     },
-                    "delete_confirmation": "Bạn có chắc chắn muốn xóa phản ứng này không? Thao tác này không thể hoàn tác.",
+                    "delete_confirmation": "Bạn có chắc chắn muốn xóa biểu cảm này không? Thao tác này không thể hoàn tác.",
                     "delete_reaction_button": "",
                     "add_reaction_button": "",
                     "add_reaction_label": "",
@@ -61,29 +61,29 @@
                 },
                 "convert": {
                     "help": "Nếu bạn vừa cập nhật tiện ích mở rộng của mình, biểu cảm của bạn sẽ phải được chuyển đổi. Nếu bạn vừa cài đặt tiện ích mở rộng này, bạn có thể bỏ qua thông báo này một cách an toàn.",
-                    "button": "Chuyển sang biểu cảm cũ",
-                    "converting": "Biểu cảm của bạn hiện đang chuyển đổi. Làm mới trang web của bạn sau vài phút để xem quá trình kết thúc. (Thời gian chuyển đổi có thể mất một lúc tùy thuộc vào tổng số Biểu cảm của bạn)",
+                    "button": "Chuyển đổi biểu cảm cũ",
+                    "converting": "Biểu cảm của bạn hiện đang được chuyển đổi. Hãy làm mới trang web của bạn sau vài phút để xem kết quả. (Thời gian chuyển đổi có thể mất một lúc tùy thuộc vào tổng số biểu cảm của bạn)",
                     "converted": "Đã chuyển đổi thành công tất cả {number} lượt thích"
                 },
                 "settings": {
                     "react_own_posts_help": "Khi được bật, tùy thuộc vào quyền, người dùng có thể bày tỏ cảm xúc với các bài viết của chính họ trên diễn đàn. Để ngăn người dùng bày tỏ cảm xúc bài viết của riêng họ, hãy tắt cài đặt này.",
                     "react_own_posts_label": "Người dùng có thể bày tỏ cảm xúc bài viết của riêng họ,",
                     "allow-anonymous": "Cho phép bày tỏ cảm xúc ẩn danh (khách)",
-                    "allow-anonymous-help": "Nếu được kích hoạt, khách và người dùng ẩn danh sẽ có thể phản hồi bài đăng. Lưu ý rằng các phản hồi ẩn danh sẽ không được liên kết với hồ sơ người dùng và sẽ được tổng hợp trong danh sách phản hồi.",
+                    "allow-anonymous-help": "Nếu được bật, khách và người dùng ẩn danh sẽ có thể bày tỏ cảm xúc với bài viết. Lưu ý rằng các lượt bày tỏ cảm xúc ẩn danh sẽ không được liên kết với hồ sơ người dùng và sẽ được tổng hợp trong danh sách bày tỏ cảm xúc.",
                     "integrations": {
                         "legend": "Tích hợp",
-                        "warning": "Biểu cảm giống nhau <strong>không thể</strong> chuyển thành lượt thích <strong>và</strong> lượt bình chọn",
+                        "warning": "Cùng một biểu cảm <strong>không thể</strong> vừa chuyển thành lượt thích <strong>vừa</strong> thành lượt ủng hộ",
                         "gamification": {
                             "legend": "Gamification",
-                            "upvoteLabel": "Chuyển đổi biểu cảm thành ủng hộ",
-                            "upvoteHelptext": "Nhập mã nhận dạng của biểu cảm bạn muốn tự động chuyển đổi thành ủng hộ",
-                            "downvoteLabel": "Chuyển đổi biểu cảm thành phản đối",
-                            "downvoteHelptext": "Nhập mã nhận dạng của biểu cảm mà bạn muốn tự động chuyển đổi thành phản đối"
+                            "upvoteLabel": "Chuyển đổi biểu cảm thành lượt ủng hộ",
+                            "upvoteHelptext": "Nhập mã nhận dạng của biểu cảm bạn muốn tự động chuyển đổi thành lượt ủng hộ",
+                            "downvoteLabel": "Chuyển đổi biểu cảm thành lượt phản đối",
+                            "downvoteHelptext": "Nhập mã nhận dạng của biểu cảm mà bạn muốn tự động chuyển đổi thành lượt phản đối"
                         },
                         "likes": {
                             "legend": "Thích",
                             "Label": "Chuyển biểu cảm sang lượt thích",
-                            "Helptext": "Nhập mã nhận dạng của biểu cảm bạn muốn tự động chuyển đổi thành biểu cảm tương tự"
+                            "Helptext": "Nhập mã nhận dạng của biểu cảm bạn muốn tự động chuyển đổi thành lượt thích"
                         }
                     },
                     "save_settings": "Lưu thay đổi"

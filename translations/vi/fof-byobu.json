@@ -10,13 +10,13 @@
                 "add_recipients": "Người nhận",
                 "submit": "OK",
                 "edit_recipients": "Sửa người nhận",
-                "send_pd": "Thảo luận với {username}",
+                "send_pd": "Nhắn tin cho {username}",
                 "cancel": "Hủy",
-                "make_public": "Đặt cuộc thảo luận này thành công khai",
+                "make_public": "Đặt cuộc thảo luận này ở chế độ công khai",
                 "remove_from_discussion": "Rời khỏi cuộc thảo luận này"
             },
             "composer_private_discussion": {
-                "submit_button": "Đăng cuộc thảo luận",
+                "submit_button": "Đăng thảo luận riêng tư",
                 "title_placeholder": "Tiêu đề thảo luận riêng tư"
             },
             "confirm": {
@@ -58,7 +58,7 @@
             },
             "post": {
                 "recipients_modified": {
-                    "added_and_removed": "{username} đã thêm người nhận {added} và xóa {remove}.",
+                    "added_and_removed": "{username} đã thêm người nhận {added} và xóa {removed}.",
                     "added": "{username} đã thêm người nhận {added}.",
                     "made_public": "{username} đã xóa tất cả người nhận và đặt cuộc thảo luận ở chế độ công khai",
                     "removed": "{username} đã gỡ người nhận {removed}.",
@@ -88,7 +88,7 @@
                 "create_private_discussions_with_users": "Tạo cuộc thảo luận riêng tư với người dùng",
                 "add_more_than_two_user_recipients": "Thêm nhiều hơn 2 người dùng vào cuộc thảo luận riêng tư",
                 "create_private_discussions_with_groups": "Tạo cuộc thảo luận riêng tư với nhóm",
-                "create_private_discussions_with_blocking_users": "Tạo cuộc thảo luận riêng tư với những người đã chặn",
+                "create_private_discussions_with_blocking_users": "Tạo cuộc thảo luận riêng tư với những người dùng đã chặn tính năng này",
                 "edit_user_recipients": "Thay đổi người dùng tham gia vào cuộc thảo luận riêng tư",
                 "edit_group_recipients": "Thay đổi nhóm tham gia trong cuộc thảo luận riêng tư",
                 "make_private_into_public": "Chuyển thảo luận riêng thành thảo luận công khai",
@@ -101,11 +101,11 @@
                 },
                 "icon": {
                     "heading": "Cài đặt biểu tượng",
-                    "help": "Các thiết lập này kiểm soát các biểu tượng được sử dụng bởi thành viên trên diễn đàn."
+                    "help": "Các thiết lập này kiểm soát các biểu tượng mà byobu sử dụng trên diễn đàn."
                 },
                 "badge-icon": "Huy hiệu thảo luận của Byobu",
                 "enable-make-public-option": "Bật tuỳ chọn \"đặt ở chế độ công khai\"",
-                "enable-make-public-option-help": "Thêm tuỳ chọn cho những người có quyền xóa tất cả người nhận, chỉ định thẻ mới và hiển thị cuộc thảo luận ở chế độ công khai (cộng với cài đặt hiển thị của thẻ đã chọn).",
+                "enable-make-public-option-help": "Thêm tuỳ chọn cho những người có quyền xóa tất cả người nhận, chỉ định thẻ mới và hiển thị cuộc thảo luận ở chế độ công khai (theo cài đặt hiển thị của thẻ đã chọn).",
                 "post-event-icon": "Sự kiện đăng bài của Byobu",
                 "delete_on_last_recipient_left": "Xóa PD khi người dùng cuối cùng rời đi",
                 "delete_on_last_recipient_left_help": "Nếu được bật, các PD sẽ bị xóa vĩnh viễn khỏi cơ sở dữ liệu khi người dùng cuối cùng rời đi. Nếu không, PD sẽ bị xoá tạm/ẩn.",

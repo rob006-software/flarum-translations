@@ -5,7 +5,7 @@
                 "like_posts_label": "Thích bài viết"
             },
             "settings": {
-                "like_own_posts_help": "Khi được bật, tùy thuộc vào sự cho phép, người dùng có thể 'thích' các bài viết của chính họ trên diễn đàn. Để ngăn người dùng đặt 'thích' trên bài viết của họ, hãy tắt cài đặt này.",
+                "like_own_posts_help": "Khi được bật, tùy theo quyền hạn, người dùng có thể 'thích' bài viết của chính mình trên diễn đàn. Để ngăn người dùng tự 'thích' bài viết của mình, hãy tắt cài đặt này.",
                 "like_own_posts_label": "Người dùng có thể thích bài viết của chính họ"
             }
         },
@@ -16,8 +16,8 @@
             },
             "post": {
                 "like_link": "Thích",
-                "liked_by_self_text": "{users} đã thích điều này.",
-                "liked_by_text": "{count, plural, one {{users} đã thích điều này} other {{users} đã thích điều này}}.",
+                "liked_by_self_text": "{users} thích bài viết này.",
+                "liked_by_text": "{count, plural, one {{users} thích bài viết này} other {{users} thích bài viết này}}.",
                 "others_link": "=> core.ref.some_others",
                 "unlike_link": "Bỏ thích",
                 "you_text": "=> core.ref.you"

@@ -7,17 +7,17 @@
                     "helptext": "Theo mặc định, URL cravatar được lấy trực tiếp từ cravatar.cn. Điều này cho phép tất cả các yêu cầu cravatar được phục vụ trực tiếp bởi chính diễn đàn."
                 },
                 "replace-flarum-custom": {
-                    "title": "Thay thế avatar tùy chỉnh đã tải lên diễn đàn",
-                    "helptext": "Thay thế avatar tùy chỉnh đã được tải lên diễn đàn bằng Cravatar"
+                    "title": "Thay thế ảnh đại diện tùy chỉnh đã tải lên diễn đàn",
+                    "helptext": "Thay thế ảnh đại diện tùy chỉnh đã được tải lên diễn đàn bằng Cravatar"
                 },
                 "allow-user-toggle": {
-                    "title": "",
-                    "helptext": ""
+                    "title": "Cho phép người dùng chuyển đổi giữa Cravatar và ảnh đại diện đã tải lên",
+                    "helptext": "Khi bật, người dùng có thể chọn sử dụng hình ảnh Cravatar của họ hoặc ảnh đại diện đã tải lên diễn đàn."
                 },
                 "defaults": {
                     "title": "Mặc định",
                     "helptext": "Điều gì xảy ra khi một địa chỉ email không có hình ảnh Cravatar phù hợp? Cravatar có một số tùy chọn tích hợp sẵn mà bạn có thể sử dụng làm mặc định. Hầu hết các tùy chọn này hoạt động bằng cách lấy hash email được yêu cầu và sử dụng nó để tạo hình ảnh theo chủ đề, độc nhất cho địa chỉ email đó.",
-                    "mp_label": "mp: (mystery-person) một đường viền đơn giản, kiểu hoạt hình của một người (không thay đổi theo hash email)",
+                    "mp_label": "mp: (mystery-person) hình bóng người đơn giản theo phong cách hoạt hình (không thay đổi theo hash email)",
                     "identicon_label": "identicon: một mẫu hình học dựa trên hash email",
                     "monsterid_label": "monsterid: một 'quái vật' được tạo ra với các màu sắc, khuôn mặt khác nhau, v.v.",
                     "wavatar_label": "wavatar: các khuôn mặt được tạo ra với các đặc điểm và nền khác nhau",
@@ -34,15 +34,15 @@
                 },
                 "force-default": {
                     "title": "Buộc sử dụng mặc định",
-                    "helptext": "Buộc sử dụng bộ mặc định, ngay cả khi hash email liên kết với avatar tùy chỉnh do người dùng tải lên"
+                    "helptext": "Buộc sử dụng bộ mặc định, ngay cả khi hash email liên kết với ảnh đại diện tùy chỉnh do người dùng tải lên"
                 }
             }
         },
         "forum": {
             "settings": {
-                "edit-cravatar": "Quản lý avatar trên cravatar.cn",
-                "use-cravatar": "",
-                "use-uploaded": ""
+                "edit-cravatar": "Quản lý ảnh đại diện trên cravatar.cn",
+                "use-cravatar": "Dùng ảnh đại diện Cravatar",
+                "use-uploaded": "Dùng ảnh đại diện đã tải lên"
             }
         }
     }

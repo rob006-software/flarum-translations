@@ -2,18 +2,18 @@
     "fof-online-users-widget": {
         "admin": {
             "settings": {
-                "cache_ttl": "",
-                "last_seen_interval": "",
-                "max_users": ""
+                "cache_ttl": "Thời gian lưu vào bộ nhớ đệm danh sách người dùng (tính bằng giây)",
+                "last_seen_interval": "Khoảng thời gian hoạt động gần nhất để coi một người dùng là trực tuyến (tính bằng phút)",
+                "max_users": "Số người dùng hiển thị tối đa"
             },
             "permissions": {
-                "view_online_users_widget": ""
+                "view_online_users_widget": "Xem widget Người dùng trực tuyến"
             }
         },
         "forum": {
             "widget": {
-                "title": "",
-                "empty": ""
+                "title": "Người dùng trực tuyến",
+                "empty": "Hiện không có người dùng nào trực tuyến."
             }
         }
     }

@@ -2,17 +2,17 @@
     "fof-moderator-notes": {
         "admin": {
             "permissions": {
-                "createnotes": "Người kiểm duyệt tạo ghi chú",
-                "viewnotes": "Xem ghi chú của người kiểm duyệt",
-                "deletenotes": "Xóa ghi chú của người kiểm duyệt"
+                "createnotes": "Tạo ghi chú điều hành viên",
+                "viewnotes": "Xem ghi chú điều hành viên",
+                "deletenotes": "Xóa ghi chú điều hành viên"
             }
         },
         "forum": {
-            "no_content_given": "Một ghi chú trống không được phép.",
+            "no_content_given": "Không được phép tạo ghi chú trống.",
             "moderatorNotes": {
                 "created_text": "{username} đã tạo ghi chú này lúc {date}",
                 "add_button": "Ghi chú mới",
-                "create-heading": "Tạo mới ghi chú",
+                "create-heading": "Tạo ghi chú điều hành viên mới",
                 "dismiss_button": "Xong",
                 "input_heading": "Nhập ghi chú của bạn cho <strong>{username}</strong>, (hỗ trợ markdown)",
                 "noNotes": "Hiện không có ghi chú nào ở đây.",
@@ -22,7 +22,7 @@
                 "filter_by_me": "Chỉ những ghi chú tôi tạo ra"
             },
             "user": {
-                "notes": "Ghi chú của người kiểm duyệt"
+                "notes": "Ghi chú điều hành viên"
             }
         },
         "api": {

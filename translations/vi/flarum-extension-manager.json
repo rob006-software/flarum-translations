@@ -47,11 +47,11 @@
                 },
                 "repositories": {
                     "label": "Kho lưu trữ",
-                    "help": "Thêm kho lữu trư bổ sung để cài đặt các gói từ đó. Đây là tính năng nâng cao, không thêm các kho lưu trữ không đáng tin cậy vì chúng có thể được sử dụng để thực thi mã độc trên máy chủ của bạn.\n",
+                    "help": "Thêm kho lưu trữ bổ sung để cài đặt các gói từ đó. Đây là tính năng nâng cao, không thêm các kho lưu trữ không đáng tin cậy vì chúng có thể được sử dụng để thực thi mã độc trên máy chủ của bạn.\n",
                     "types": {
                         "composer": "composer",
                         "vcs": "vcs",
-                        "path": "đường dẫn"
+                        "path": "path"
                     },
                     "add_modal": {
                         "name_label": "Tên",
@@ -88,7 +88,7 @@
             "file_permissions": "Trình quản lý tiện ích mở rộng yêu cầu quyền đọc và ghi trên các tệp và thư mục sau: composer.json, composer.lock, vendor, storage, storage/.composer\n",
             "major_updater": {
                 "description": "Các bản cập nhật chính của Flarum không tương thích ngược, nghĩa là một số tiện ích mở rộng hiện được cài đặt của bạn và các sửa đổi được thực hiện thủ công có thể không hoạt động với phiên bản mới này. Vui lòng đảm bảo tạo bản sao lưu cơ sở dữ liệu và tệp của bạn trước khi tiếp tục.\n",
-                "dry_run": "Chạy khô",
+                "dry_run": "Chạy thử",
                 "dry_run_help": "Chạy thử mô phỏng bản cập nhật để xem liệu thiết lập hiện tại của bạn có thể cập nhật an toàn hay không, điều này không có nghĩa là các sửa đổi tùy chỉnh được thực hiện thủ công của bạn sẽ hoạt động trong phiên bản mới hơn.",
                 "failure": {
                     "desc": "Bản cập nhật lớn gần đây nhất không thành công, một số tiện ích mở rộng đã cài đặt không tương thích với bản phát hành chính mới.",
@@ -184,11 +184,11 @@
                 "last_update_checked_at": "Lần cuối kiểm tra cập nhật: ",
                 "run_global_update": "Chạy cập nhật toàn cục",
                 "updater_title": "Cập nhật",
-                "updater_help": "Chạy kiểm tra các bản cập nhật cho các tiện ích mở rộng và Flarum mới."
+                "updater_help": "Kiểm tra các bản cập nhật mới cho tiện ích mở rộng và Flarum."
             },
             "update_successful": "Cập nhật Flarum thành công.",
             "why_not_modal": {
-                "title": "Tại sao nó không cập nhật"
+                "title": "Tại sao không thể cập nhật"
             }
         }
     }

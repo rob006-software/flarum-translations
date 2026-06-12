@@ -2,28 +2,28 @@
     "peopleinside-antiflood": {
         "forum": {
             "error": {
-                "pending_limit": "",
-                "flood_limit": ""
+                "pending_limit": "Bạn có quá nhiều bài viết hoặc chủ đề đang chờ phê duyệt. Vui lòng đợi đến khi một số được duyệt trước khi tạo nội dung mới.",
+                "flood_limit": "Bạn đang đăng bài quá nhanh. Vui lòng đợi {minutes} phút trước khi đăng lại."
             }
         },
         "admin": {
-            "description": "",
+            "description": "Ngăn chặn việc đăng chủ đề/trả lời dồn dập và giới hạn số bài chờ phê duyệt.",
             "settings": {
-                "max_pending_label": "",
-                "max_pending_help": "",
-                "flood_limit_label": "",
-                "flood_limit_help": "",
-                "post_flood_limit_label": "",
-                "post_flood_limit_help": "",
-                "flood_interval_minutes_label": "",
-                "flood_interval_minutes_help": "",
-                "pending_limit_message_label": "",
-                "pending_limit_message_help": "",
-                "flood_limit_message_label": "",
-                "flood_limit_message_help": "",
-                "pending_limit_message_suggestion": "",
-                "flood_limit_message_suggestion": "",
-                "reset_button": ""
+                "max_pending_label": "Số bài chờ duyệt tối đa",
+                "max_pending_help": "Số lượng bài viết và chủ đề tối đa mà một người dùng có thể có đang chờ phê duyệt trước khi bị chặn đăng bài. Mặc định: 6.",
+                "flood_limit_label": "Giới hạn đăng chủ đề dồn dập",
+                "flood_limit_help": "Số lượng chủ đề mới tối đa mà một người dùng có thể tạo trong khoảng thời gian giới hạn trước khi bị chặn. Mặc định: 3. Lưu ý: Flarum đã có sẵn thời gian chờ 10 giây giữa tất cả các bài viết và chủ đề.",
+                "post_flood_limit_label": "Giới hạn trả lời dồn dập",
+                "post_flood_limit_help": "Số lượng trả lời mới tối đa mà một người dùng có thể đăng trong khoảng thời gian giới hạn trước khi bị chặn. Đặt là 0 để tắt (dựa vào giới hạn 10 giây có sẵn của Flarum). Mặc định: 0.",
+                "flood_interval_minutes_label": "Khoảng thời gian giới hạn (phút)",
+                "flood_interval_minutes_help": "Khoảng thời gian tính bằng phút dùng để đếm số chủ đề hoặc trả lời được tạo gần đây. Áp dụng cho cả giới hạn chủ đề và trả lời. Mặc định: 5.",
+                "pending_limit_message_label": "Thông báo tùy chỉnh: đạt giới hạn chờ duyệt",
+                "pending_limit_message_help": "Thay thế thông báo lỗi mặc định hiển thị khi người dùng đạt giới hạn bài chờ duyệt. Để trống để dùng mặc định.",
+                "flood_limit_message_label": "Thông báo tùy chỉnh: đạt giới hạn đăng dồn dập",
+                "flood_limit_message_help": "Thay thế thông báo lỗi mặc định hiển thị khi người dùng đăng bài quá nhanh. Để trống để dùng mặc định. Bạn có thể dùng {minutes} làm biến giữ chỗ.",
+                "pending_limit_message_suggestion": "Bạn có quá nhiều bài viết hoặc chủ đề đang chờ phê duyệt. Vui lòng đợi đến khi một số được duyệt trước khi tạo nội dung mới.",
+                "flood_limit_message_suggestion": "Bạn đang đăng bài quá nhanh. Vui lòng đợi {minutes} phút trước khi đăng lại.",
+                "reset_button": "Đặt lại"
             }
         }
     }

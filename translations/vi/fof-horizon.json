@@ -24,27 +24,27 @@
                 "refresh": "Làm mới",
                 "last_refresh": "",
                 "error": {
-                    "title": "",
-                    "fetch_failed": "",
-                    "setup_docs": ""
+                    "title": "Lỗi kết nối",
+                    "fetch_failed": "Không thể lấy số liệu thống kê Horizon. Vui lòng kiểm tra cấu hình Redis của bạn.",
+                    "setup_docs": "Xem tài liệu thiết lập Redis"
                 },
                 "health": {
-                    "excellent": "",
-                    "good": "",
-                    "poor": "",
-                    "critical": "",
-                    "tooltip": ""
+                    "excellent": "Tuyệt vời",
+                    "good": "Tốt",
+                    "poor": "Kém",
+                    "critical": "Nghiêm trọng",
+                    "tooltip": "Điểm sức khỏe hệ thống: {score}/100"
                 },
                 "data": {
                     "redis-used-memory": "Bộ nhớ đã dùng của bộ nhớ đệm",
                     "redis-peak-memory": "Bộ nhớ đỉnh của bộ nhớ đệm",
                     "redis-max-memory": "Bộ nhớ tối đa của bộ nhớ đệm",
-                    "redis-memory-usage": "",
+                    "redis-memory-usage": "Mức sử dụng bộ nhớ của bộ nhớ đệm",
                     "redis-memory-policy": "Chính sách bộ nhớ bộ nhớ đệm",
                     "redis-memory-policy-tooltip": "Chính sách bộ nhớ là cách bộ nhớ đệm chọn mục để loại bỏ khi đạt giới hạn maxmemory. Mặc định là `noeviction`: Giá trị mới sẽ không được lưu khi đạt giới hạn bộ nhớ. Nhấp để xem tài liệu.\n",
                     "redis-ops-per-sec": "Hoạt động mỗi giây",
-                    "redis-connected-clients": "Khách hàng đã kết nối",
-                    "redis-blocked-clients": "Khách hàng bị chặn",
+                    "redis-connected-clients": "Máy khách đã kết nối",
+                    "redis-blocked-clients": "Máy khách bị chặn",
                     "jobs-per-minute": "Công việc mỗi phút",
                     "jobs-past-hour": "Công việc trong giờ qua",
                     "failed-last-seconds": "Công việc thất bại trong vài giây qua",
@@ -55,11 +55,11 @@
                     },
                     "total-processes": "Tổng số tiến trình",
                     "max-wait-time": "Thời gian chờ tối đa",
-                    "max-wait-queue": "",
+                    "max-wait-queue": "Hàng đợi: {queue}",
                     "max-runtime": "Thời gian chạy tối đa",
                     "max-throughput": "Thông lượng tối đa",
-                    "success-rate": "",
-                    "failure-rate": ""
+                    "success-rate": "Tỷ lệ thành công",
+                    "failure-rate": "Tỷ lệ thất bại"
                 }
             }
         }

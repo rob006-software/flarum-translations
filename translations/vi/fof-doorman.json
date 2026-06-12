@@ -68,7 +68,7 @@
                     "group": "Gửi lời mời cho nhóm {group}",
                     "help": "Chấp nhận danh sách phân tách bằng dấu phẩy, dấu cách, hoặc dấu phẩy kèm dấu cách. Nhập từng email hoặc dán một danh sách rồi nhấn phím cách để thêm.",
                     "placeholder": "Nhập email tại đây",
-                    "invalid_emails": "Email không hợp lệ: {emails}",
+                    "invalid_emails": "Các email sau không hợp lệ: {emails}",
                     "max_use_conflict": "Số lượng email vượt quá số lần sử dụng tối đa của mã này.",
                     "send": "Gửi email",
                     "success": "Đã gửi email thành công"
@@ -97,7 +97,7 @@
                 "content": {
                     "invalid_column": "=> core.admin.users.grid.invalid_column_content",
                     "no_group": "=> core.admin.users.grid.columns.group_badges.no_badges",
-                    "warning": "Mã mời này đã được sử dụng tối đa số lần.",
+                    "warning": "Mã mời này đã được sử dụng hết số lần cho phép.",
                     "delete": "Bạn có chắc chắn muốn xóa mã mời \"{key}\" không?",
                     "uses": {
                         "used_times": "{remaining, plural, =0 {Không giới hạn lượt dùng} one {Còn {remainingUses} lượt} other {Còn {remainingUses} lượt}}",

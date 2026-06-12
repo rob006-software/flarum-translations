@@ -2,16 +2,16 @@
     "ralkage-word-censor": {
         "admin": {
             "settings": {
-                "word_list_label": "",
-                "word_list_help": "",
-                "replacement_label": "",
-                "replacement_help": ""
+                "word_list_label": "Từ bị kiểm duyệt",
+                "word_list_help": "Nhập mỗi dòng một từ hoặc cụm từ. Những từ này sẽ được thay bằng ký tự thay thế khi hiển thị cho người dùng.",
+                "replacement_label": "Ký tự thay thế",
+                "replacement_help": "Ký tự dùng để thay thế từng chữ cái của từ bị kiểm duyệt. Mặc định: *"
             }
         },
         "forum": {
             "settings": {
-                "word_censor_label": "",
-                "word_censor_help": ""
+                "word_censor_label": "Bật kiểm duyệt từ ngữ",
+                "word_censor_help": "Khi bật, các từ đã cấu hình sẽ bị kiểm duyệt trong bài viết. Tắt để xem nội dung chưa kiểm duyệt."
             }
         }
     }

@@ -7,7 +7,7 @@
             "edit_tag": {
                 "color_label": "=> core.ref.color",
                 "delete_tag_button": "Xóa thẻ",
-                "delete_tag_confirmation": "Bạn có chắc chắn muốn xóa thẻ này không? Các cuộc thảo luận của tag sẽ KHÔNG bị xóa.",
+                "delete_tag_confirmation": "Bạn có chắc chắn muốn xóa thẻ này không? Các cuộc thảo luận thuộc thẻ này sẽ KHÔNG bị xóa.",
                 "description_label": "Mô tả",
                 "hide_label": "Ẩn khỏi Tất cả các cuộc thảo luận",
                 "icon_label": "=> core.ref.icon",
@@ -20,13 +20,13 @@
             },
             "nav": {
                 "tags_button": "=> flarum-tags.ref.tags",
-                "tags_text": "Quản lý danh sách thẻ có sẵn để tạo các cuộc thảo luận."
+                "tags_text": "Quản lý danh sách thẻ dùng để sắp xếp các cuộc thảo luận."
             },
             "permissions": {
                 "allow_edit_tags_label": "Cho phép chỉnh sửa thẻ",
                 "bypass_tag_counts_label": "Bỏ qua các yêu cầu về thẻ",
-                "restrict_by_tag_heading": "Hạn chế bằng thẻ",
-                "tag_discussions_label": "Thẻ cuộc thảo luận"
+                "restrict_by_tag_heading": "Hạn chế theo thẻ",
+                "tag_discussions_label": "Gắn thẻ cho thảo luận"
             },
             "settings": {
                 "button_text": "=> flarum-tags.ref.choose_tags"
@@ -40,13 +40,13 @@
                 "title": "Cài đặt thẻ"
             },
             "tags": {
-                "about_tags_text": "Thẻ sử dụng để phân loại các cuộc thảo luận. Các thẻ chính giống như các danh mục diễn đàn: chúng có thể được sắp xếp theo hệ thống phân cấp hai cấp. Các thẻ phụ không có thứ bậc hoặc thứ tự và rất hữu ích cho việc phân loại.",
+                "about_tags_text": "Thẻ được dùng để phân loại các cuộc thảo luận. Thẻ chính giống như danh mục diễn đàn truyền thống: chúng có thể được sắp xếp theo phân cấp hai cấp. Thẻ phụ không có thứ bậc hay thứ tự, hữu ích cho việc phân loại chi tiết.",
                 "create_primary_tag_button": "Tạo thẻ chính",
                 "create_secondary_tag_button": "Tạo thẻ phụ",
                 "edit_tag_label": "Chỉnh sửa thẻ {tag}",
                 "primary_heading": "Thẻ chính",
                 "secondary_heading": "Thẻ phụ",
-                "settings_heading": "Thiết lập"
+                "settings_heading": "Cài đặt"
             }
         },
         "forum": {
@@ -93,7 +93,7 @@
                 }
             },
             "tag_selection_modal": {
-                "bypass_requirements": "Yêu cầu bỏ qua thẻ",
+                "bypass_requirements": "Bỏ qua các yêu cầu về thẻ",
                 "choose_primary_placeholder": "{count, plural, one {Chọn một thẻ chính} other {Chọn # thẻ chính}}",
                 "choose_secondary_placeholder": "=> flarum-tags.ref.choose_tags_placeholder",
                 "choose_tags_placeholder": "=> flarum-tags.ref.choose_tags_placeholder",

@@ -95,11 +95,11 @@
             },
             "appearance": {
                 "allow_user_color_scheme_label": "",
-                "colored_header_label": "Màu đầu trang",
+                "colored_header_label": "Đầu trang có màu",
                 "colors_heading": "Màu sắc",
                 "colors_primary_label": "Màu chính",
                 "colors_secondary_label": "Màu phụ",
-                "colors_text": "Chọn hai màu cho giao diện diễn đàn của bạn. Màu thứ nhất làm màu nền, màu thứ hai để làm nền các thành phần.",
+                "colors_text": "Chọn hai màu cho giao diện diễn đàn của bạn. Màu thứ nhất được dùng làm màu nhấn, màu thứ hai dùng để tạo kiểu cho các thành phần nền.",
                 "custom_footer_heading": "Tùy chỉnh chân trang",
                 "custom_footer_text": "=> core.ref.custom_footer_text",
                 "custom_header_heading": "Tùy chỉnh đầu trang",
@@ -113,7 +113,7 @@
                 "edit_header_button": "=> core.ref.custom_header_title",
                 "enter_hex_message": "Vui lòng nhập mã màu thập lục phân.",
                 "favicon_heading": "Biểu tượng",
-                "favicon_text": "Tải hình ảnh lên để được hiển thị như là biểu tượng của diễn đàn.",
+                "favicon_text": "Tải lên hình ảnh để dùng làm biểu tượng của diễn đàn.",
                 "logo_heading": "Logo",
                 "logo_text": "Tải hình ảnh lên để hiển thị thay cho tiêu đề diễn đàn.",
                 "logo_dark_mode_heading": "",
@@ -159,51 +159,51 @@
                         "id_with_display_name": ""
                     }
                 },
-                "slug_driver_heading": "Trình điểu khiển Slug: {model}",
-                "slug_driver_text": "Chọn một trình điều khiển sử dụng để slug mô hình này.",
+                "slug_driver_heading": "Trình điều khiển slug: {model}",
+                "slug_driver_text": "Chọn trình điều khiển dùng để tạo slug cho mô hình này.",
                 "title": "Cơ bản",
                 "welcome_banner_heading": "Biểu ngữ chào mừng",
-                "welcome_banner_text": "Thiết lập nội dung hiển thị trong biểu ngữ trên trang Cuộc thảo luận. Sử dụng cái này để chào mừng khách đến với diễn đàn của bạn.",
-                "abandoned_extensions_heading": "",
-                "abandoned_extensions_text": "",
-                "abandoned_extensions_sync_button": "",
-                "abandoned_extensions_sync_success": "",
-                "abandoned_extensions_sync_error": "",
-                "abandoned_extensions_notify_admins_label": ""
+                "welcome_banner_text": "Thiết lập nội dung hiển thị trong biểu ngữ trên trang Cuộc thảo luận. Dùng nội dung này để chào mừng khách đến với diễn đàn của bạn.",
+                "abandoned_extensions_heading": "Tiện ích mở rộng bị ngừng phát triển",
+                "abandoned_extensions_text": "Flarum duy trì một <a>danh sách cộng đồng về các tiện ích mở rộng bị ngừng phát triển</a>. Khi một tiện ích mở rộng đã cài đặt xuất hiện trong danh sách, nó sẽ được đánh dấu trong bảng quản trị.",
+                "abandoned_extensions_sync_button": "Kiểm tra ngay",
+                "abandoned_extensions_sync_success": "Đã cập nhật danh sách tiện ích mở rộng bị ngừng phát triển. Tìm thấy {count} tiện ích mở rộng đã cài đặt trùng khớp.",
+                "abandoned_extensions_sync_error": "Không thể tải danh sách tiện ích mở rộng bị ngừng phát triển. Vui lòng thử lại sau.",
+                "abandoned_extensions_notify_admins_label": "Gửi email cho quản trị viên khi phát hiện tiện ích mở rộng mới bị ngừng phát triển trong lần kiểm tra hàng tuần"
             },
             "create_user": {
                 "email_placeholder": "=> core.ref.email",
                 "email_confirmed_label": "Yêu cầu người dùng xác thực email này",
                 "password_placeholder": "=> core.ref.password",
-                "submit_and_create_another_button": "Tạo và thêm cái khác",
+                "submit_and_create_another_button": "Tạo và thêm người dùng khác",
                 "submit_button": "Tạo người dùng",
                 "title": "Tạo người dùng mới",
                 "use_random_password": "Tạo mật khẩu ngẫu nhiên",
                 "username_placeholder": "=> core.ref.username"
             },
             "announcements": {
-                "comments_label": "",
-                "description": "",
-                "empty": "",
-                "load_error": "",
-                "about": "",
-                "hide": "",
-                "read_more": "",
-                "refresh": "",
-                "retry": "",
-                "show": "",
-                "title": "",
-                "view_all": ""
+                "comments_label": "{count, plural, one {# bình luận} other {# bình luận}}",
+                "description": "Tin tức và thông báo chung mới nhất từ đội ngũ Flarum.",
+                "empty": "Không tìm thấy thông báo chung nào.",
+                "load_error": "Không thể tải thông báo chung. Vui lòng thử lại sau.",
+                "about": "Tin tức và thông báo chung mới nhất được lấy từ cộng đồng Flarum chính thức tại discuss.flarum.org.",
+                "hide": "Ẩn thông báo chung",
+                "read_more": "Đọc thêm",
+                "refresh": "Làm mới thông báo chung",
+                "retry": "Thử lại",
+                "show": "Hiện thông báo chung",
+                "title": "Thông báo chung",
+                "view_all": "Xem tất cả trên discuss.flarum.org"
             },
             "dashboard": {
                 "clear_cache_button": "Xóa bộ nhớ đệm",
-                "description": "Diễn đàn của bạn trong nháy mắt.",
-                "info_button": "",
+                "description": "Tổng quan nhanh về diễn đàn của bạn.",
+                "info_button": "Thông tin hệ thống",
                 "info_modal": {
-                    "title": "",
-                    "copy_button": "",
-                    "copy_success": "",
-                    "copy_error": ""
+                    "title": "Thông tin hệ thống",
+                    "copy_button": "Sao chép vào bộ nhớ tạm",
+                    "copy_success": "Đã sao chép thông tin hệ thống vào bộ nhớ tạm",
+                    "copy_error": "Không thể sao chép vào bộ nhớ tạm"
                 },
                 "io_error_message": "Không thể ghi vào hệ thống tệp. Kiểm tra quyền đối với hệ thống tệp của bạn và thử lại. Hoặc thử chạy từ dòng lệnh.",
                 "status": {
@@ -243,7 +243,7 @@
                 "label": ""
             },
             "debug-warning": {
-                "detail": "Khi chế độ <code>debug</code> được bật, Flarum sẽ xây dựng lại code <code>JavaScript</code> và <code>CSS</code> mỗi lượt request và cũng có thể làm rò rỉ thông tin khác, chẳng hạn như cơ sở dữ liệu bí mật, biến môi trường, v.v.\n\nBạn rất nên tắt <code>debug</code> trong tệp <code>config.php</code> của mình khi sử dụng chính thức. Xem <link>Flarum docs</link> để biết thêm thông tin.\n",
+                "detail": "Khi chế độ <code>debug</code> được bật, Flarum sẽ xây dựng lại các tài nguyên <code>JavaScript</code> và <code>CSS</code> ở mỗi yêu cầu, và cũng có thể làm rò rỉ các thông tin khác, chẳng hạn như thông tin bí mật của cơ sở dữ liệu, biến môi trường, v.v.\n\nBạn rất nên tắt <code>debug</code> trong tệp <code>config.php</code> khi chạy chính thức. Xem <link>tài liệu Flarum</link> để biết thêm thông tin.\n",
                 "label": "Chế độ gỡ lỗi đang hoạt động"
             },
             "edit_css": {
@@ -315,12 +315,12 @@
                 "title": "=> core.ref.email"
             },
             "extension": {
-                "abandoned_no_replacement": "",
-                "abandoned_with_replacement": "",
+                "abandoned_no_replacement": "Tiện ích mở rộng này không còn được tác giả duy trì và có thể sẽ không nhận được cập nhật.",
+                "abandoned_with_replacement": "Tiện ích mở rộng này đã được thay thế bởi {replacement}. Hãy cân nhắc chuyển sang gói thay thế.",
                 "configure_scopes": "Cấu hình Phạm vi",
                 "confirm_purge": "Dọn dẹp sẽ xóa tất cả các mục nhập trong cơ sở dữ liệu và nội dung liên quan đến tiện ích mở rộng. Nó sẽ không gỡ tiện ích mở rộng; điều đó phải được thực hiện thông qua Composer. Bạn có chắc chắn muốn tiếp tục không?",
                 "database_driver_mismatch": "",
-                "deprecated": "",
+                "deprecated": "Lỗi thời",
                 "disabled": "Đã tắt",
                 "enable_to_see": "Kích hoạt tiện ích mở rộng để xem và thay đổi cài đặt.",
                 "enabled": "Đã bật",
@@ -342,7 +342,7 @@
                     "no_readme": "Tiện ích mở rộng này không có tệp README",
                     "title": "Tài liệu {extName}"
                 },
-                "replaced": "",
+                "replaced": "Đã được thay thế",
                 "reset_settings": {
                     "button": "",
                     "cancel_button": "",
@@ -377,11 +377,11 @@
                 "categories": {
                     "analytics": "",
                     "authentication": "Xác thực",
-                    "core": "Cấu hình",
+                    "core": "Cấu hình cốt lõi",
                     "discussion": "Cuộc thảo luận",
                     "feature": "Tính năng",
                     "formatting": "Định dạng",
-                    "forum-widget": "",
+                    "forum-widget": "Widget diễn đàn",
                     "infrastructure": "",
                     "language": "Ngôn ngữ",
                     "moderation": "Kiểm duyệt",
@@ -408,14 +408,14 @@
                 "delete_discussions_label": "Xóa cuộc thảo luận",
                 "delete_posts_forever_label": "Xóa bài viết vĩnh viễn",
                 "delete_posts_label": "Xóa bài viết",
-                "description": "Cấu hình ai có thể xem hoặc làm điều gì đó.",
+                "description": "Cấu hình ai được xem và làm những gì.",
                 "edit_posts_label": "Chỉnh sửa bài viết",
                 "edit_users_label": "Chỉnh sửa thông tin người dùng",
                 "edit_users_credentials_label": "Chỉnh sửa thông tin đăng nhập người dùng",
                 "edit_users_groups_label": "Chỉnh sửa nhóm người dùng",
                 "global_heading": "Toàn bộ",
                 "moderate_heading": "Kiểm duyệt",
-                "moderate_access_tokens_label": "Kiểm duyệt mã Access Tokens",
+                "moderate_access_tokens_label": "Kiểm duyệt mã access token",
                 "new_group_button": "Nhóm mới",
                 "participate_heading": "Tham dự",
                 "post_without_throttle_label": "Trả lời liên tục không cần chờ đợi",
@@ -430,7 +430,7 @@
                 "title": "Quyền",
                 "view_forum_label": "Xem diễn đàn (cuộc thảo luận và người dùng)",
                 "view_hidden_groups_label": "Xem huy hiệu nhóm bị ẩn",
-                "view_last_seen_at_label": "Luôn xem người dùng trực tuyến lần cuối cùng",
+                "view_last_seen_at_label": "Luôn xem được thời gian truy cập gần nhất của người dùng",
                 "view_post_ips_label": "Xem địa chỉ IP bài viết"
             },
             "permissions_controls": {
@@ -537,7 +537,7 @@
             },
             "composer_reply": {
                 "body_placeholder": "=> core.ref.write_a_reply",
-                "discard_confirmation": "Bạn chưa đăng câu trả lời này. Bạn có muốn huỷ nó?",
+                "discard_confirmation": "Bạn chưa đăng câu trả lời này. Bạn có muốn huỷ không?",
                 "posted_message": "Trả lời của bạn đã được đăng.",
                 "submit_button": "Trả lời",
                 "view_button": "=> core.ref.view"
@@ -602,7 +602,7 @@
                 "oldest_button": "",
                 "relevance_button": "",
                 "toggle_dropdown_accessible_label": "Thay đổi sắp xếp danh sách thảo luận",
-                "top_button": "Hàng đầu"
+                "top_button": "Nổi bật"
             },
             "log_in": {
                 "forgot_password_link": "Quên mật khẩu?",
@@ -627,7 +627,7 @@
             },
             "post": {
                 "edited_text": "Đã chỉnh sửa",
-                "edited_tooltip": "{username} đã chính sửa lúc {ago}",
+                "edited_tooltip": "{username} đã chỉnh sửa {ago}",
                 "number_tooltip": "Bài viết #{number}"
             },
             "post_controls": {
@@ -675,7 +675,7 @@
                 "cannot_terminate_current_session": "Không thể huỷ phiên hoạt động hiện tại. Hãy thử đăng xuất.",
                 "created": "Đã tạo",
                 "current_active_session": "Phiên hoạt động hiện tại",
-                "developer_tokens_heading": "Mã token dành cho Nhà phát triển",
+                "developer_tokens_heading": "Mã token dành cho nhà phát triển",
                 "empty_text": "Có vẻ như không có gì để xem ở đây.",
                 "global_logout": {
                     "heading": "Đăng xuất toàn bộ",
@@ -694,7 +694,7 @@
                 "revoke_access_token": "Thu hồi",
                 "revoke_access_token_confirmation": "=> core.ref.generic_confirmation_message",
                 "sessions_heading": "Các phiên hoạt động",
-                "session_terminated": "{count, plural, one {Đã huỷ phiên} other { Đã huỷ # phiên}}.",
+                "session_terminated": "{count, plural, one {Đã huỷ phiên} other {Đã huỷ # phiên}}.",
                 "session_termination_failed": "Đã xảy ra lỗi khi kết thúc phiên của bạn.",
                 "show_access_token": "Xem token",
                 "terminate_all_other_sessions": "Chấm dứt tất cả các phiên khác",
@@ -742,7 +742,7 @@
             "user": {
                 "avatar_remove_button": "=> core.ref.remove",
                 "avatar_upload_button": "Tải ảnh lên",
-                "avatar_upload_tooltip": "Cập nhật ảnh đại diện",
+                "avatar_upload_tooltip": "Tải lên ảnh đại diện mới",
                 "discussions_link": "=> core.ref.discussions",
                 "in_discussion_text": "Trong {discussion}",
                 "joined_date_text": "Đã tham gia {ago}",
@@ -765,7 +765,7 @@
             "user_email_confirmation": {
                 "alert_message": "=> core.ref.confirmation_email_sent",
                 "resend_button": "Gửi lại email xác nhận",
-                "sent_message": "Gửi"
+                "sent_message": "Đã gửi"
             },
             "welcome_hero": {
                 "hide": "Ẩn thông báo chào mừng"
@@ -805,11 +805,11 @@
                 "dependent_extensions_message": "Không thể vô hiệu hóa {extension} cho đến khi các tiện ích mở rộng phụ thuộc sau bị vô hiệu hóa: {extensions}",
                 "extension_initialiation_failed_message": "Không thể khởi chạy {extension}, hãy kiểm tra console của trình duyệt để biết thêm thông tin.",
                 "extension_runtime_failed_message": "",
-                "generic_message": "Úi! Đã xảy ra lỗi. Hãy tải lại trang và thử lại.",
-                "generic_cross_origin_message": "Ối! Đã xảy ra lỗi trong khi yêu cầu nhiều nguồn gốc. Hãy tải lại trang và thử lại.",
+                "generic_message": "Rất tiếc! Đã xảy ra lỗi. Vui lòng tải lại trang và thử lại.",
+                "generic_cross_origin_message": "Rất tiếc! Đã xảy ra lỗi trong một yêu cầu cross-origin. Vui lòng tải lại trang và thử lại.",
                 "missing_dependencies_message": "Không thể kích hoạt {extension} cho đến khi các tiện ích mở rộng phụ thuộc sau được kích hoạt: {extensions}",
                 "not_found_message": "Không tìm thấy tài nguyên được yêu cầu.",
-                "payload_too_large_message": "Yêu cầu tải trọng quá lớn.",
+                "payload_too_large_message": "Dữ liệu của yêu cầu quá lớn.",
                 "permission_denied_message": "Bạn không có quyền để làm điều này.",
                 "rate_limit_exceeded_message": "Bạn thao tác hơi nhanh quá. Vui lòng thử lại sau vài giây.",
                 "render_failed_message": "Xin lỗi, chúng tôi đã gặp lỗi khi hiển thị nội dung này. Nếu bạn là người dùng, vui lòng thử lại sau. Nếu bạn là quản trị viên, hãy xem các tệp nhật ký Flarum của bạn để biết thêm thông tin."
@@ -951,7 +951,7 @@
                 "info": {
                     "caption": "Thông tin ứng dụng"
                 },
-                "title": "Quản trị viên"
+                "title": "Trang quản trị"
             },
             "confirm_email": {
                 "submit_button": "=> core.ref.confirm_email",
@@ -969,17 +969,17 @@
             },
             "error": {
                 "csrf_token_mismatch": "Bạn đã không hoạt động quá lâu.",
-                "csrf_token_mismatch_return_link": "Quay lại, để thử lại",
+                "csrf_token_mismatch_return_link": "Quay lại để thử lại",
                 "invalid_confirmation_token": "Liên kết xác nhận này đã được sử dụng hoặc không hợp lệ.",
                 "maintenance_mode_link": "",
                 "maintenance_mode_message": "",
                 "maintenance_mode_title": "",
-                "method_not_allowed": "",
+                "method_not_allowed": "Trang này không hỗ trợ phương thức yêu cầu đó.",
                 "not_authenticated": "Bạn không có quyền truy cập vào trang này. Hãy thử lại sau khi đăng nhập.",
                 "not_found": "Trang bạn yêu cầu không thể được tìm thấy.",
                 "not_found_return_link": "Quay lại {forum}",
                 "permission_denied": "Bạn không có quyền truy cập vào trang này.",
-                "unknown": "Có lỗi xảy ra khi đang tải lại trang."
+                "unknown": "Đã xảy ra lỗi khi tải trang này."
             },
             "index": {
                 "all_discussions_heading": "=> core.ref.all_discussions",
@@ -1062,7 +1062,7 @@
                 "body": ""
             },
             "abandoned_extensions": {
-                "subject": "",
+                "subject": "Cần hành động: phát hiện tiện ích mở rộng bị ngừng phát triển",
                 "body_intro": "",
                 "body_outro": "",
                 "line_with_replacement": "",
@@ -1077,9 +1077,9 @@
             "confirm_password": "Xác nhận mật khẩu",
             "confirm_email": "Xác nhận email",
             "confirmation_email_sent": "Chúng tôi đã gửi email xác nhận đến {email}. Nếu không có, hãy kiểm tra trong mục Thư rác.",
-            "custom_footer_text": "Thêm HTML để hiển thị bên dưới trang.",
+            "custom_footer_text": "Thêm HTML để hiển thị ở cuối cùng của trang.",
             "custom_footer_title": "Chỉnh sửa Chân trang",
-            "custom_header_text": "Thêm HTML để hiển thị trên đầu trang.",
+            "custom_header_text": "Thêm HTML để hiển thị trên cùng của trang, phía trên đầu trang của Flarum.",
             "custom_header_title": "Chỉnh sửa Đầu trang",
             "dark_hc_mode_label": "",
             "dark_mode_label": "",
@@ -1126,7 +1126,7 @@
             "sign_up": "Đăng ký",
             "some_others": "{count, plural, one {# người khác} other {# người khác}}",
             "start_a_discussion": "Tạo cuộc thảo luận",
-            "username": "Tên tài khoản",
+            "username": "Tên người dùng",
             "username_or_email_placeholder": "",
             "users": "Người dùng",
             "view": "Xem",
@@ -1140,8 +1140,8 @@
             "guests": "Khách",
             "member": "Thành viên",
             "members": "Thành viên",
-            "mod": "Kiểm duyệt viên",
-            "mods": "Kiểm duyệt viên"
+            "mod": "Điều hành viên",
+            "mods": "Điều hành viên"
         }
     }
 }

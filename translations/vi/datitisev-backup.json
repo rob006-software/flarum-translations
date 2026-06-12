@@ -22,7 +22,7 @@
             "required_package_button": "Thiết lập",
             "required-package-modal": {
                 "title": "Gói cần thiết cho {adapter}",
-                "content": "Để sử dụng trình điều khiển này, bạn cần cài đặt một gói cụ thể. Bạn có thể làm như vậy bằng cách chạy lệnh composer sau: <code>composer request {package}</code> trong thư mục cài đặt Flarum của bạn.\n"
+                "content": "Để sử dụng trình điều khiển này, bạn cần cài đặt một gói cụ thể. Bạn có thể thực hiện bằng cách chạy lệnh composer sau: <code>composer require {package}</code> trong thư mục cài đặt Flarum của bạn.\n"
             },
             "adapter-settings-modal": {
                 "title": "Cấu hình {adapter}",
@@ -42,15 +42,15 @@
                     },
                     "access-id": {
                         "label": "ID truy cập",
-                        "description": "ID mã token truy cập xác thực của bạn"
+                        "description": "ID của access token dùng để xác thực"
                     },
                     "access-key": {
                         "label": "Mã khóa truy cập",
-                        "description": "Mã khóa mã token truy cập xác thực của bạn"
+                        "description": "Khóa của access token dùng để xác thực"
                     },
                     "bucket": {
                         "label": "Bucket",
-                        "description": "Thùng lưu trữ để sử dụng."
+                        "description": "Bucket lưu trữ sẽ sử dụng."
                     },
                     "path-prefix": {
                         "label": "Tiền tố đường dẫn",
@@ -82,7 +82,7 @@
                     },
                     "region": {
                         "label": "Khu vực",
-                        "description": "Khu vực trong nhóm của bạn."
+                        "description": "Khu vực của bucket."
                     },
                     "version": {
                         "label": "Phiên bản",
@@ -90,7 +90,7 @@
                     },
                     "bucket": {
                         "label": "Bucket",
-                        "description": "Nhóm S3 để tải lên."
+                        "description": "Bucket S3 để tải lên."
                     },
                     "path-prefix": {
                         "label": "Tiền tố đường dẫn",
@@ -105,29 +105,29 @@
                         "label": "Mã bí mật ứng dụng"
                     },
                     "refresh-token": {
-                        "label": "Làm mới token",
+                        "label": "Refresh token",
                         "description": "Sử dụng các trường bên dưới để nhận mã refresh token hoặc làm theo hướng dẫn thủ công tại https://www.codemzy.com/blog/dropbox-long-lived-access-refresh-token#how-can-i-get-a-refresh-token-manually."
                     },
                     "help": {
-                        "obtain-access-code-label": "Lấy mã access token (yêu cầu key ứng dụng)",
+                        "obtain-access-code-label": "Lấy mã truy cập (yêu cầu app key)",
                         "obtain-access-code-button": "Mở Dropbox",
-                        "obtain-refresh-token-label": "Sử dụng mã access token để nhận mã refresh token(yêu cầu key ứng dụng & bí mật)",
-                        "obtain-refresh-token-button": "Sử dụng code",
-                        "obtain-refresh-token-success": "Lấy mã refresh token thành công & được cập nhật ở trên! Lưu các thay đổi để lưu trữ nó."
+                        "obtain-refresh-token-label": "Dùng mã truy cập để lấy refresh token (yêu cầu app key và secret)",
+                        "obtain-refresh-token-button": "Dùng mã",
+                        "obtain-refresh-token-success": "Đã lấy refresh token thành công và cập nhật ở trên! Hãy lưu thay đổi để lưu lại."
                     }
                 },
                 "gdrive": {
                     "client-id": {
-                        "label": "ID khách hàng",
-                        "description": "Làm theo hướng dẫn @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md để tạo dự án Google và truy xuất ID khách hàng và bí mật khách hàng của bạn.\n"
+                        "label": "Client ID",
+                        "description": "Làm theo hướng dẫn @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md để tạo dự án Google và lấy Client ID & Client Secret của bạn.\n"
                     },
                     "client-secret": {
-                        "label": "Mã bí mật khách hàng",
+                        "label": "Client Secret",
                         "description": " "
                     },
                     "refresh-token": {
-                        "label": "Làm mới token",
-                        "description": "Làm theo hướng dẫn @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/2-getting-your-refresh-token.md để lấy mã làm mới cho ứng dụng Google oAuth của bạn.\n"
+                        "label": "Refresh token",
+                        "description": "Làm theo hướng dẫn @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/2-getting-your-refresh-token.md để lấy refresh token cho ứng dụng Google OAuth của bạn.\n"
                     },
                     "folder": {
                         "label": "ID thư mục",

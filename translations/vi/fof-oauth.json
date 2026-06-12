@@ -88,7 +88,7 @@
                         "identification-label": "ID {provider}",
                         "orphaned-account": "Bạn đã đăng nhập thông qua nhà cung cấp này trước đây, nhưng diễn đàn này đã vô hiệu hóa đăng nhập bằng phương thức này kể từ đó.",
                         "help": "Các tài khoản được liên kết này cho phép bạn đăng nhập vào diễn đàn bằng cách sử dụng các nhà cung cấp khác.",
-                        "identifier-label": "{provider} ID",
+                        "identifier-label": "ID {provider}",
                         "unlink-confirm": "Bạn có chắc chắn muốn bỏ liên kết với {provider} không? Bạn sẽ không thể đăng nhập vào diễn đàn này nữa trừ khi bạn xác thực lại trong tương lai."
                     }
                 }
@@ -138,8 +138,8 @@
             "settings": {
                 "app_id": "ID ứng dụng",
                 "app_secret": "Mã bí mật ứng dụng",
-                "client_id": "ID khách hàng",
-                "client_secret": "Mã bí mật khách hàng"
+                "client_id": "Client ID",
+                "client_secret": "Client Secret"
             }
         }
     }

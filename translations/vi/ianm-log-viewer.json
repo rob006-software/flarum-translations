@@ -2,24 +2,24 @@
     "ianm-log-viewer": {
         "admin": {
             "permissions": {
-                "access_logfile_api": "Truy cập dữ liệu logfile qua API"
+                "access_logfile_api": "Xem và quản lý tệp log"
             },
             "settings": {
-                "max-file-size": "",
-                "max-file-size-help": "",
-                "purge-days": "Xoá logfile sau nhiều ngày",
-                "purge-days-help": "Dựa vào bộ lập lịch Flarum đang hoạt động, 0 để tắt."
+                "max-file-size": "Kích thước tối đa của tệp log (MB)",
+                "max-file-size-help": "Nếu một tệp log vượt quá kích thước này, nó sẽ được chia thành nhiều phần. Đặt thành 0 để tắt việc chia tệp. Mặc định là 1MB. Kích thước tối đa cho phép là 150MB.",
+                "purge-days": "Xóa tệp log sau số ngày chỉ định",
+                "purge-days-help": "Yêu cầu bộ lập lịch của Flarum đang hoạt động. Đặt 0 để tắt."
             },
             "viewer": {
                 "available_logs_heading": "Các tệp có sẵn",
                 "file_contents_heading": "Nội dung tệp",
                 "last_updated": "Cập nhật lần cuối: {updated}",
                 "no_log_files": "",
-                "no_file_selected": "Chọn một tệp nhật ký để xem nội dung của nó.",
-                "view_log": "",
-                "download_log": "",
-                "delete_log": "",
-                "confirm_delete": "",
+                "no_file_selected": "Chọn một tệp log để xem nội dung.",
+                "view_log": "Xem tệp log",
+                "download_log": "Tải xuống tệp log",
+                "delete_log": "Xóa tệp log",
+                "confirm_delete": "Bạn có chắc chắn muốn xóa tệp log này không? Hành động này không thể hoàn tác.",
                 "scroll_to_bottom": "",
                 "scroll_to_top": "",
                 "file_size": "Kích thước (byte): {size}"

@@ -25,30 +25,30 @@
                 "viewed_by": "{users} đã xem.",
                 "you": "=> core.ref.you",
                 "others_link": "=> core.ref.some_others",
-                "modal_title_text": "Người xem gần đây"
+                "modal_title_text": "Những người xem thảo luận này gần đây"
             }
         },
         "admin": {
             "permissions": {
                 "reset_views_label": "Đặt lại lượt xem",
-                "view_number_label": "Xem lượt xem"
+                "view_number_label": "Xem số lượt xem thảo luận"
             },
             "settings": {
                 "title": "Thiết lập lượt xem cuộc thảo luận",
-                "track_unique_label": "Theo dõi lượt xem",
+                "track_unique_label": "Theo dõi lượt xem duy nhất",
                 "track_unique_text": "Tăng lượt xem dựa trên địa chỉ ip",
                 "track_guests_label": "Theo dõi khách",
                 "abbr_numbers_label": "Viết tắt số lượt xem",
                 "abbr_numbers_text": "Nếu được bật, số lượt xem cao sẽ được viết tắt (ví dụ: 1000 = 1K)",
-                "show_filter_label": "Cho phép (hủy) trường sắp xếp phổ biến",
-                "max_viewcount_label": "Mục danh sách xem tối đa",
+                "show_filter_label": "Bật tùy chọn sắp xếp phổ biến/không phổ biến",
+                "max_viewcount_label": "Số mục tối đa trong danh sách người xem",
                 "max_viewcount_text": "Số lượng người dùng tối đa trong danh sách xem (áp dụng cho danh sách xem chân trang và thanh bên)",
                 "show_viewlist_label": "Bật danh sách xem",
                 "show_viewlist_text": "Bật danh sách người xem mới nhất trong thanh bên của cuộc thảo luận",
                 "show_footer_viewlist_label": "Bật danh sách xem ở chân bài viết",
                 "show_footer_viewlist_text": "Kích hoạt danh sách người xem ở cuối bài đăng đầu tiên của một cuộc thảo luận",
                 "ignore_crawlers_label": "Bỏ qua bot/trình thu thập",
-                "ignore_crawlers_text": "Ngăn chặn bot và trình thu thập thông tin để tăng số lượt xem"
+                "ignore_crawlers_text": "Ngăn bot và trình thu thập dữ liệu làm tăng số lượt xem"
             }
         }
     }

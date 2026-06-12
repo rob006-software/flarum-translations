@@ -16,25 +16,25 @@
             },
             "badge": {
                 "following_tag_tooltip": "Đang theo dõi",
-                "lurking_tag_tooltip": "Ẩn"
+                "lurking_tag_tooltip": "Theo dõi ngầm"
             },
             "sub_controls": {
-                "header": "Gói đăng ký cho {tagName}",
-                "subscription_label": "Chọn cấp độ gói đăng ký của bạn cho {tagName}",
+                "header": "Đăng ký theo dõi {tagName}",
+                "subscription_label": "Chọn mức theo dõi của bạn cho {tagName}",
                 "follow_button": "=> fof-follow-tags.ref.follow",
                 "following_button": "=> fof-follow-tags.ref.following",
                 "following_text": "Được thông báo về tất cả các cuộc thảo luận mới.",
                 "hiding_button": "=> fof-follow-tags.ref.hiding",
-                "hiding_text": "Ẩn các cuộc thảo luận khỏi trang Thảo luận.",
+                "hiding_text": "Ẩn các cuộc thảo luận khỏi trang Tất cả thảo luận.",
                 "ignoring_button": "=> fof-follow-tags.ref.ignoring",
-                "ignoring_text": "Không bao giờ thông báo.",
+                "ignoring_text": "Không bao giờ nhận thông báo.",
                 "lurking_button": "=> fof-follow-tags.ref.lurking",
-                "lurking_text": "Thông báo về tất cả các cuộc thảo luận và trả lời mới.",
+                "lurking_text": "Được thông báo về tất cả các cuộc thảo luận mới và trả lời mới.",
                 "not_following_button": "Không theo dõi",
-                "not_following_text": "Chỉ được thông báo khi @mentioned.",
+                "not_following_text": "Chỉ được thông báo khi có người nhắc đến bạn (@mention).",
                 "notify_alert_tooltip": "Nhận thông báo trên diễn đàn khi có thảo luận hoặc bài đăng mới",
                 "notify_email_tooltip": "Nhận email khi có thảo luận hoặc bài đăng mới",
-                "submit_button": "Xác nhận gói đăng ký"
+                "submit_button": "Xác nhận đăng ký"
             },
             "hero": {
                 "title": "=> flarum-subscriptions.forum.index.following_link"
@@ -53,7 +53,7 @@
         },
         "admin": {
             "settings": {
-                "following_page_default_label": "Bộ lộc mặc định",
+                "following_page_default_label": "Bộ lọc mặc định của trang Đang theo dõi",
                 "following_none_label": "=> fof-follow-tags.ref.filtering_options.none",
                 "following_tags_label": "=> fof-follow-tags.ref.filtering_options.tags"
             }
@@ -92,7 +92,7 @@
             "following": "Đang theo dõi",
             "hiding": "Ẩn",
             "ignoring": "Bỏ qua",
-            "lurking": "Ẩn",
+            "lurking": "Theo dõi ngầm",
             "filtering_options": {
                 "none": "Cuộc thảo luận đang theo dõi",
                 "tags": "Thẻ đang theo dõi"

@@ -27,7 +27,7 @@
                 "description": "Thiết lập các dịch vụ và tùy chọn tải lên."
             },
             "help_texts": {
-                "disable-download-logging": "Tắt ghi nhật ký tải xuống do người dùng diễn đàn của bạn thực hiện. Giữ nó được bật cho phép bạn xem số lượt tải xuống và các chỉ số khác trong tương lai gần.\n",
+                "disable-download-logging": "Tắt ghi nhật ký mỗi lượt tải xuống do người dùng diễn đàn của bạn thực hiện. Nếu giữ tính năng này bật, bạn có thể xem số lượt tải xuống và các chỉ số khác trong tương lai gần.\n",
                 "disable-hotlink-protection": "Bảo vệ hotlink ngăn chặn việc mở các bản tải xuống từ các trang khác. Phương pháp hiện tại yêu cầu mã thông báo csrf và id bài đăng.\n",
                 "download_templates": "Các mẫu tải xuống là cách các nội dung tải lên được hiển thị trên diễn đàn của bạn, ví dụ như các bản xem trước, các nút. Hiện đang có sẵn:\n",
                 "mime_types": "",
@@ -39,7 +39,7 @@
                 "s3_acl": "ACL sẽ được áp dụng cho đối tượng được tải lên (mặc định: private). Để biết các giá trị có thể, hãy xem https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
                 "custom_s3_url": "Sử dụng cài đặt này nếu bạn đang sử dụng dịch vụ tương thích S3 yêu cầu định dạng URL cụ thể (ví dụ như Backblaze B2), hoặc nếu bạn gặp vấn đề với định dạng URL mặc định. Điều này thường không cần thiết đối với hầu hết các dịch vụ. Đảm bảo URL bao gồm giao thức (https://) và được định dạng đúng. Ví dụ: https://your-bucket.s3.your-region.backblazeb2.com\n",
                 "s3_instance_profile": "Để trống khóa và bí mật để sử dụng thông tin đăng nhập trong hồ sơ cá thể.\n",
-                "composer_buttons": "Theo mặc định, cả nút quản lý và nút tải lên đều hiển thị. Bạn cũng có thể chọn chỉ hiển thị một nút.\n"
+                "composer_buttons": "Theo mặc định, cả nút trình quản lý phương tiện và nút tải lên đều hiển thị. Bạn cũng có thể chọn chỉ hiển thị một nút.\n"
             },
             "labels": {
                 "aws-s3": {
@@ -63,7 +63,7 @@
                     "toggle": "Vô hiệu hóa"
                 },
                 "imgur": {
-                    "client_id": "ID khách hàng Imgur",
+                    "client_id": "Client ID của Imgur",
                     "title": "Thiết lập lưu trữ Imgur",
                     "tos": "Bạn có trách nhiệm đảm bảo người dùng diễn đàn của mình tuân thủ <a>Điều khoản dịch vụ</a> của Imgur"
                 },
@@ -71,7 +71,7 @@
                     "cdn_url": "URL phân phối nội dung (tiền tố tệp)",
                     "title": "Thiết lập lưu trữ cục bộ"
                 },
-                "configured_by_environment": "",
+                "configured_by_environment": "Cài đặt lưu trữ của bạn đã được cấu hình sẵn thông qua các biến môi trường.",
                 "qiniu": {
                     "title": "Thiết lập lưu trữ Qiniu",
                     "key": "Mã khoá",
@@ -80,7 +80,7 @@
                 },
                 "preferences": {
                     "max_file_size": "Kích thước tối đa (kilobyte)",
-                    "mime_types": "Cấu hình mine",
+                    "mime_types": "Cấu hình ánh xạ giữa loại MIME và bộ điều hợp tải lên",
                     "mime_type_regex_placeholder": "",
                     "mime_type_regex_invalid": "",
                     "mime_type_permission_placeholder": "",
@@ -113,7 +113,7 @@
                 "svg-sanitizer": {
                     "title": "Trình làm sạch SVG",
                     "allow_animate": "Cho phép SVG chuyển động",
-                    "help": "Cấu hình cách xử lý và khử trùng tệp SVG khi tải lên. Tệp SVG có thể chứa các tập lệnh có khả năng gây hại và cần được xử lý cẩn thận. Các tệp SVG đã tải lên sẽ được khử trùng khi tải lên, đồng thời các tập lệnh và thẻ độc hại sẽ bị xóa.",
+                    "help": "Cấu hình cách xử lý và làm sạch tệp SVG khi tải lên. Tệp SVG có thể chứa các tập lệnh có khả năng gây hại và cần được xử lý cẩn thận. Các tệp SVG tải lên sẽ được làm sạch và các tập lệnh, thẻ độc hại sẽ bị loại bỏ.",
                     "allow_animate_help": "Việc bật hoạt ảnh SVG có thể gây ra lỗ hổng bảo mật vì SVG có thể chứa mã độc. Vui lòng tự chịu rủi ro khi bật cài đặt này và chỉ bật khi bạn tin tưởng người dùng của mình."
                 },
                 "composer_buttons": {
@@ -124,7 +124,7 @@
                         "media-btn": "Chỉ nút quản lý phương tiện"
                     }
                 },
-                "inspect-mime": "Test kiểu tệp MIME"
+                "inspect-mime": "Kiểm tra loại MIME của tệp"
             },
             "warnings": {
                 "fileinfo_missing": ""
@@ -189,7 +189,7 @@
             "states": {
                 "error": "Lỗi",
                 "loading": "Đang tải lên",
-                "unauthorized": "Bạn không được phép tải tập tin"
+                "unauthorized": "Bạn không được phép tải xuống tệp"
             },
             "validation": {
                 "max_size": "Kích thước tệp trên {max} kb không được chấp nhận."
@@ -200,7 +200,7 @@
                 "download": "",
                 "error": "Lỗi khi xem trước tệp. Nó có thể đã bị xóa hoặc ID tệp được cung cấp không hợp lệ.\n",
                 "no_snippet_preview": "<bản xem trước sẽ xuất hiện ở đây sau khi đăng>",
-                "no_snippet": "<không có sẵn đoạn mã xem trước>"
+                "no_snippet": "<không có đoạn xem trước>"
             }
         },
         "api": {

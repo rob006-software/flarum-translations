@@ -2,44 +2,44 @@
     "flarum-suspend": {
         "admin": {
             "permissions": {
-                "suspend_users_label": "Cấm người dùng"
+                "suspend_users_label": "Đình chỉ người dùng"
             }
         },
         "forum": {
             "notifications": {
-                "user_suspended_text": "Bạn đã bị cấm trong {timeReadable}",
-                "user_suspended_indefinite_text": "Bạn đã bị cấm vĩnh viễn",
-                "user_unsuspended_text": "Bạn đã được mở cấm"
+                "user_suspended_text": "Bạn đã bị đình chỉ trong {timeReadable}",
+                "user_suspended_indefinite_text": "Bạn đã bị đình chỉ vô thời hạn",
+                "user_unsuspended_text": "Bạn đã được bỏ đình chỉ"
             },
             "suspension_info": {
                 "dismiss_button": "Bỏ qua",
-                "indefinite": "Đây là cấm vĩnh viễn",
-                "limited": "Thời hạn cấm sẽ có hiệu lực cho đến {date}",
-                "title": "Tài khoản này đã bị cấm"
+                "indefinite": "Đây là lệnh đình chỉ vô thời hạn",
+                "limited": "Lệnh đình chỉ này có hiệu lực đến {date}",
+                "title": "Tài khoản này đang bị đình chỉ"
             },
             "suspend_user": {
                 "display_message": "Hiển thị thông báo cho người dùng",
-                "indefinitely_label": "Cấm vô thời hạn",
+                "indefinitely_label": "Đình chỉ vô thời hạn",
                 "limited_time_days_text": " ngày",
-                "limited_time_label": "Cấm trong một thời gian nhất định...",
-                "not_suspended_label": "Không cấm",
+                "limited_time_label": "Đình chỉ trong thời gian giới hạn...",
+                "not_suspended_label": "Không đình chỉ",
                 "placeholder_optional": "Tuỳ chọn",
-                "reason": "Lý do cấm",
-                "status_heading": "Tình trạng cấm",
+                "reason": "Lý do đình chỉ",
+                "status_heading": "Trạng thái đình chỉ",
                 "submit_button": "=> core.ref.save_changes",
-                "title": "Cấm {username}"
+                "title": "Đình chỉ {username}"
             },
             "user_badge": {
-                "suspended_tooltip": "Bị cấm"
+                "suspended_tooltip": "Bị đình chỉ"
             },
             "user_controls": {
-                "suspend_button": "Cấm"
+                "suspend_button": "Đình chỉ"
             }
         },
         "email": {
-            "no_reason_given": "Không có lý do nào đưa ra cho việc đình chỉ.",
+            "no_reason_given": "Không có lý do nào được đưa ra cho việc đình chỉ này.",
             "suspended": {
-                "subject": "Tài khoản của bạn đã bị cấm",
+                "subject": "Tài khoản của bạn đã bị đình chỉ",
                 "plain": {
                     "body": ""
                 },
@@ -48,7 +48,7 @@
                 }
             },
             "unsuspended": {
-                "subject": "Tài khoản của bạn đã được bỏ cấm",
+                "subject": "Tài khoản của bạn đã được bỏ đình chỉ",
                 "plain": {
                     "body": ""
                 },
