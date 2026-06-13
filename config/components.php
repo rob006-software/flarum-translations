@@ -605,6 +605,12 @@ return [
 	'peopleinside-antiflood' => [
 		'tag' => 'https://raw.githubusercontent.com/PeopleInside/flarum-ext-antiflood/1.1.6/locale/en.yml',
 	],
+	'peopleinside-fla-polling' => [
+		'tag' => 'https://raw.githubusercontent.com/PeopleInside/fla-polling/1.2.1/locale/en.yml',
+		'__builtInLanguages' => [
+			'it',
+		],
+	],
 	'peopleinside-fla-powcaptcha' => [
 		'tag' => 'https://raw.githubusercontent.com/PeopleInside/fla-powcaptcha/2.4.4/locale/en.yml',
 		'__builtInLanguages' => [
