@@ -406,7 +406,7 @@
                 "create_heading": "Создание",
                 "delete_discussions_forever_label": "Удалять темы навсегда",
                 "delete_discussions_label": "Удалять темы",
-                "delete_posts_forever_label": "Удалять сообщения (навсегда)",
+                "delete_posts_forever_label": "Удалять сообщения навсегда",
                 "delete_posts_label": "Удалять сообщения",
                 "description": "Настройка прав доступа к различным местам и функциям форума.",
                 "edit_posts_label": "Редактировать сообщения",
@@ -695,8 +695,8 @@
                 "revoke_access_token_confirmation": "=> core.ref.generic_confirmation_message",
                 "sessions_heading": "Активные сеансы",
                 "session_terminated": "{count, plural, one {Сеанс завершён} few {# сеанса завершено} other {# сеансов завершено}}.",
-                "session_termination_failed": "Произошла ошибка при завершении Ваших сеансов.",
-                "show_access_token": "Смотреть токен",
+                "session_termination_failed": "Произошла ошибка при завершении ваших сеансов.",
+                "show_access_token": "Показать токен",
                 "terminate_all_other_sessions": "Завершить все остальные сеансы",
                 "terminate_all_other_sessions_confirmation": "=> core.ref.generic_confirmation_message",
                 "terminate_session": "Завершено",
@@ -764,7 +764,7 @@
             },
             "user_email_confirmation": {
                 "alert_message": "=> core.ref.confirmation_email_sent",
-                "resend_button": "Повторно отправить подтверждение по email",
+                "resend_button": "Повторно отправить подтверждение на email",
                 "sent_message": "Отправлено"
             },
             "welcome_hero": {
@@ -976,7 +976,7 @@
                 "maintenance_mode_title": "Обслуживание",
                 "method_not_allowed": "Эта страница не поддерживает такой метод запроса.",
                 "not_authenticated": "У вас нет прав доступа к этой странице. Попробуйте ещё раз после входа в свой аккаунт.",
-                "not_found": "Страница по Вашему запросу не найдена.",
+                "not_found": "Страница по вашему запросу не найдена.",
                 "not_found_return_link": "Вернуться на {forum}",
                 "permission_denied": "У вас нет прав доступа к этой странице.",
                 "unknown": "Произошла ошибка при попытке загрузить страницу."
@@ -1046,7 +1046,7 @@
                 }
             },
             "activate_account": {
-                "subject": "Активация Вашего аккаунта",
+                "subject": "Активация вашего аккаунта",
                 "body": "На форуме {forum} кто-то зарегистрировался с этим адресом электронной почты.\n\nЕсли это были вы, перейдите по ссылке, чтобы активировать учётную запись:\n{url}\n\nЕсли вы не регистрировались на {forum}, просто проигнорируйте письмо.\n"
             },
             "confirm_email": {
@@ -1084,7 +1084,7 @@
             "dark_hc_mode_label": "Контрастный тёмный",
             "dark_mode_label": "Тёмный",
             "delete": "Удалить",
-            "delete_forever": "Удалить (навсегда)",
+            "delete_forever": "Удалить навсегда",
             "discussions": "Темы",
             "edit": "Править",
             "edit_user": "Изменить пользователя",
