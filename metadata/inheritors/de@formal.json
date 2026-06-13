@@ -12662,6 +12662,10 @@
                 "permissions": {
                     "view-hide-post": "c83c8f1aa37ea1a140c92099c59702eb c83c8f1aa37ea1a140c92099c59702eb",
                     "view-post": "7fd8d8e86bfd8be0a353ed0946298523 7fd8d8e86bfd8be0a353ed0946298523"
+                },
+                "settings": {
+                    "allow-view-sticky": "01e4e34a6df4cc2ac05e6586e45753ef 01e4e34a6df4cc2ac05e6586e45753ef",
+                    "allow-view-sticky-text": "a3206a9fa34feac9699e9211a4047fdf a3206a9fa34feac9699e9211a4047fdf"
                 }
             },
             "forum": {
@@ -13140,10 +13144,13 @@
                 "copyright": "062c689aba15fd989714ffd8b77d33e7 062c689aba15fd989714ffd8b77d33e7",
                 "copyright-text": "cd0fb8019e1e67897fe743d79e2834ef cd0fb8019e1e67897fe743d79e2834ef",
                 "general-rules": "dd869140db87ebfa8281a1d1c18de23b dd869140db87ebfa8281a1d1c18de23b",
+                "general-rules-text": "63013d76091fad522225d290bccc6359 63013d76091fad522225d290bccc6359",
                 "posting-rules": "e7e17d896084f25a822d43d9a50e032f e7e17d896084f25a822d43d9a50e032f",
+                "posting-rules-text": "974c8519df0951332537608f8a5604be 974c8519df0951332537608f8a5604be",
                 "rule-break": "5610f368b8a91ec950a300cfe401bede 5610f368b8a91ec950a300cfe401bede",
                 "rule-break-text": "47e9f45945f7a2df913f7eb030f716e8 47e9f45945f7a2df913f7eb030f716e8",
                 "spam": "3931caab523cb3cd86958c7641edde40 3931caab523cb3cd86958c7641edde40",
+                "spam-text": "008184755e4cf1821d548265697e5dfa 008184755e4cf1821d548265697e5dfa",
                 "title": "fe291ff1897f9b855b93bf7fa1cd63b8 fe291ff1897f9b855b93bf7fa1cd63b8",
                 "warning-text": "c4b1d30792b76d0ff0bde3c667477487 c4b1d30792b76d0ff0bde3c667477487",
                 "warning-title": "b5dbcb9843dd776056bd27515ea4759c b5dbcb9843dd776056bd27515ea4759c"
@@ -13417,6 +13424,7 @@
     "justoverclock-reputation-score.json": {
         "justoverclock-reputation-score": {
             "admin": {
+                "discussions": "b2cf2ebddfb37e6d1a41978a05531dcd b2cf2ebddfb37e6d1a41978a05531dcd",
                 "fiveYearSeniority": "735340a0442c6f84a7e748d0936db98e 735340a0442c6f84a7e748d0936db98e",
                 "historyBestAnswerSet": "68afaf1e9be814308f3468ba5bb43be3 68afaf1e9be814308f3468ba5bb43be3",
                 "historyBestAnswerUnset": "68b3719a1b36a32e3242af8de75182f6 68b3719a1b36a32e3242af8de75182f6",
@@ -13427,6 +13435,7 @@
                 "historyLikeUnset": "f17da86e388d668fb4cea9e52f2f40b8 f17da86e388d668fb4cea9e52f2f40b8",
                 "historyPostCreated": "cbedf1310d2d13276df88d5a258c3c82 cbedf1310d2d13276df88d5a258c3c82",
                 "historyPostDeleted": "fac3fa1774d8ad137162c750c9c5d51c fac3fa1774d8ad137162c750c9c5d51c",
+                "like": "ea69ec28bcb1952b096267cc88060102 ea69ec28bcb1952b096267cc88060102",
                 "oneYearSeniority": "94d5899051c90a4530374d4b388e4635 94d5899051c90a4530374d4b388e4635",
                 "permission": {
                     "canEarnReputationForDiscussion": "8dbe520f2f82f95e16e07c2d7ac542ca 8dbe520f2f82f95e16e07c2d7ac542ca",
@@ -13436,6 +13445,7 @@
                 },
                 "pointsDecreased": "f03f50f136b4232f674bfb63661ffe10 f03f50f136b4232f674bfb63661ffe10",
                 "pointsIncreased": "9d5f7dd0bf99b16c61664c6959d176b5 9d5f7dd0bf99b16c61664c6959d176b5",
+                "posts": "483d032d9f7f165d86c62eff7de0e2de 483d032d9f7f165d86c62eff7de0e2de",
                 "resetRewardDisclaimer": "26ef89b055028f769f6fdf70f4642e4a 26ef89b055028f769f6fdf70f4642e4a",
                 "resetRewardsButton": "7c00cc522ec2289cdbfef37f4aaa13a4 7c00cc522ec2289cdbfef37f4aaa13a4",
                 "resetRewardsButtonHelp": "ff343c19b0658432d67557df8d7c9598 ff343c19b0658432d67557df8d7c9598",
