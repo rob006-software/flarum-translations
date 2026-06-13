@@ -228,7 +228,7 @@
                 "create_heading": "Создание",
                 "delete_discussions_forever_label": "Удалять темы навсегда",
                 "delete_discussions_label": "Удалять темы",
-                "delete_posts_forever_label": "Удалять сообщения (навсегда)",
+                "delete_posts_forever_label": "Удалять сообщения навсегда",
                 "delete_posts_label": "Удалять сообщения",
                 "description": "Настройка прав доступа к различным местам и функциям форума.",
                 "edit_posts_label": "Редактировать сообщения",
@@ -403,7 +403,7 @@
                 "log_in_link": "=> core.ref.log_in",
                 "log_out_button": "=> core.ref.log_out",
                 "profile_button": "Профиль",
-                "search_clear_button_accessible_label": "Clear search query",
+                "search_clear_button_accessible_label": "Очистить поисковый запрос",
                 "search_placeholder": "Поиск",
                 "search_role_label": "Поиск",
                 "session_dropdown_accessible_label": "Меню опций сеанса",
@@ -430,7 +430,7 @@
             },
             "log_in": {
                 "forgot_password_link": "Забыли пароль?",
-                "invalid_login_message": "=> core.ref.invalid_login_message",
+                "invalid_login_message": "Ваши данные для входа некорректны.",
                 "password_placeholder": "=> core.ref.password",
                 "remember_me_label": "=> core.ref.remember_me_label",
                 "sign_up_text": "У вас нет аккаунта? <a>Регистрация</a>",
@@ -510,8 +510,8 @@
                 "revoke_access_token_confirmation": "=> core.ref.generic_confirmation_message",
                 "sessions_heading": "Активные сеансы",
                 "session_terminated": "{count, plural, one {Сеанс завершён} few {# сеанса завершено} other {# сеансов завершено}}.",
-                "session_termination_failed": "Произошла ошибка при завершении Ваших сеансов.",
-                "show_access_token": "Смотреть токен",
+                "session_termination_failed": "Произошла ошибка при завершении ваших сеансов.",
+                "show_access_token": "Показать токен",
                 "terminate_all_other_sessions": "Завершить все остальные сеансы",
                 "terminate_all_other_sessions_confirmation": "=> core.ref.generic_confirmation_message",
                 "terminate_session": "Завершено",
@@ -568,7 +568,7 @@
             },
             "user_email_confirmation": {
                 "alert_message": "=> core.ref.confirmation_email_sent",
-                "resend_button": "Повторно отправить подтверждение по email",
+                "resend_button": "Повторно отправить подтверждение на email",
                 "sent_message": "Отправлено"
             },
             "welcome_hero": {
@@ -683,7 +683,7 @@
                 "invalid_confirmation_token": "Ссылка для подтверждения недействительна или уже была использована.",
                 "not_authenticated": "У вас нет прав доступа к этой странице. Попробуйте ещё раз после входа в свой аккаунт.",
                 "method_not_allowed": "Эта страница не поддерживает такой метод запроса.",
-                "not_found": "Страница по Вашему запросу не найдена.",
+                "not_found": "Страница по вашему запросу не найдена.",
                 "not_found_return_link": "Вернуться на {forum}",
                 "permission_denied": "У вас нет прав доступа к этой странице.",
                 "unknown": "Произошла ошибка при попытке загрузить страницу."
@@ -719,20 +719,20 @@
         },
         "email": {
             "activate_account": {
-                "subject": "Активация Вашего аккаунта",
-                "body": "На форуме {forum} кто-то зарегистрировался с этим адресом электронной почты.\n\nЕсли это были вы, перейдите по ссылке, чтобы активировать учётную запись:\n{url}\n\nЕсли вы не регистрировались на {forum}, просто проигнорируйте письмо.\n"
+                "subject": "Активация вашего аккаунта",
+                "body": "Здравствуйте, {username}!\n\nНа форуме {forum} кто-то зарегистрировался с этим адресом электронной почты.\n\nЕсли это были вы, перейдите по ссылке, чтобы активировать учётную запись:\n{url}\n\nЕсли вы не регистрировались на {forum}, просто проигнорируйте письмо.\n"
             },
             "confirm_email": {
                 "subject": "Подтверждение нового адреса email",
-                "body": "На форуме {forum} кто-то сменил адрес электронный почты на этот.\n\nЕсли это были вы, перейдите по ссылке для подтверждения нового адреса:\n{url}\n\nЕсли это были не вы, просто проигнорируйте письмо.\n"
+                "body": "Здравствуйте, {username}!\n\nНа форуме {forum} кто-то сменил email на этот.\n\nЕсли это были вы, перейдите по ссылке для подтверждения нового адреса:\n{url}\n\nЕсли это были не вы, просто проигнорируйте письмо.\n"
             },
             "reset_password": {
                 "subject": "=> core.ref.reset_your_password",
-                "body": "На форуме {forum} кто-то отправил запрос на изменение пароля для вашей учётной записи.\n\nЕсли это были вы, перейдите по ссылке для установки нового пароля:\n{url}\n\nЕсли это были не вы, просто проигнорируйте письмо.\n"
+                "body": "Здравствуйте, {username}!\n\nНа форуме {forum} кто-то отправил запрос на изменение пароля для вашей учётной записи.\n\nЕсли это были вы, перейдите по ссылке для установки нового пароля:\n{url}\n\nЕсли это были не вы, просто проигнорируйте письмо.\n"
             },
             "send_test": {
                 "subject": "Проверка email Flarum",
-                "body": "Это тестовое письмо для проверки работы email на форуме Flarum.\n\nЕсли вы отправили его, значит настройки работают корректно.\n\nЕсли это сделали не вы, просто проигнорируйте письмо.\n"
+                "body": "Здравствуйте, {username}!\n\nЭто тестовое письмо для проверки работы email на форуме Flarum.\n\nЕсли вы отправили его, значит настройки работают корректно.\n\nЕсли это сделали не вы, просто проигнорируйте письмо.\n"
             },
             "abandoned_extensions": {
                 "subject": "Обнаружены заброшенные расширения",
@@ -754,7 +754,7 @@
             "custom_header_text": "HTML, который будет отображаться в самой верхней части страницы, над заголовком Flarum.",
             "custom_header_title": "Редактирование верхнего колонтитула",
             "delete": "Удалить",
-            "delete_forever": "Удалить (навсегда)",
+            "delete_forever": "Удалить навсегда",
             "discussions": "Темы",
             "edit": "Править",
             "edit_user": "Изменить пользователя",
@@ -762,7 +762,7 @@
             "extensions": "Расширения",
             "generic_confirmation_message": "Вы уверены, что хотите продолжить? Это действие невозможно отменить.",
             "icon": "Иконка",
-            "icon_text": "Введите название любого класса иконки <a>Font Awesome</a>, <em>включая</em> префикс. Например, <code>fas fa-flag</code> или <code>fa-solid fa-flag</code>.",
+            "icon_text": "Введите название любого класса иконки <a>FontAwesome</a>, <em>включая</em> префикс <code>fas fa-</code>.",
             "load_more": "Показать ещё",
             "loading": "Загрузка...",
             "log_in": "Войти",
