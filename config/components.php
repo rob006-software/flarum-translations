@@ -102,7 +102,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/datlechin/flarum-title-length/v1.0.0-beta.1/locale/en.yml',
 	],
 	'ekumanov-forum-widgets' => [
-		'tag' => 'https://raw.githubusercontent.com/ekumanov/flarum-ext-forum-stats-widget/v1.6.3/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ekumanov/flarum-ext-forum-stats-widget/v1.6.4/locale/en.yml',
 	],
 	'ekumanov-inline-audio' => [
 		'tag' => 'https://raw.githubusercontent.com/ekumanov/flarum-ext-inline-audio/v2.10.2/locale/en.yml',
