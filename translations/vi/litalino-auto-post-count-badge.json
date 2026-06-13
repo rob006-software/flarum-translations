@@ -1,0 +1,44 @@
+{
+    "justoverclock-auto-post-count-badge": {
+        "admin": {
+            "settings": {
+                "tier": "Cấp {tier}: từ {from} đến {to} bài viết",
+                "icon-manager": {
+                    "title": "Trình quản lý biểu tượng",
+                    "help_text": "=> core.ref.icon_text"
+                },
+                "label-manager": {
+                    "title": "Trình quản lý nhãn văn bản",
+                    "help": "Tùy chỉnh tên các cấp"
+                },
+                "color": {
+                    "bg1": "Màu nền 1",
+                    "bg2": "Màu nền 2"
+                }
+            },
+            "levelOne": "Đổi biểu tượng cho cấp 1 - \"Em bé\"",
+            "levelOne-help": "dán vào đây biểu tượng FontAwesome mà bạn muốn hiển thị cho cấp 1 (ví dụ: \"fas fa-square\")",
+            "levelTwo": "Đổi biểu tượng cho cấp 2 - \"Người mới\"",
+            "levelTwo-help": "dán vào đây biểu tượng FontAwesome mà bạn muốn hiển thị cho cấp 2 (ví dụ: \"fas fa-square\")",
+            "levelThree": "Đổi biểu tượng cho cấp 3 - \"Người hoạt ngôn\"",
+            "levelThree-help": "dán vào đây biểu tượng FontAwesome mà bạn muốn hiển thị cho cấp 3 (ví dụ: \"fas fa-square\")",
+            "levelFour": "Đổi biểu tượng cho cấp 4 - \"Người thầy\"",
+            "levelFour-help": "dán vào đây biểu tượng FontAwesome mà bạn muốn hiển thị cho cấp 4 (ví dụ: \"fas fa-square\")",
+            "levelFive": "Đổi biểu tượng cho cấp 5 - \"Quái vật!\"",
+            "levelFive-help": "dán vào đây biểu tượng FontAwesome mà bạn muốn hiển thị cho cấp 5 (ví dụ: \"fas fa-square\")",
+            "levelSix": "Đổi biểu tượng cho cấp 6 - \"Bậc thầy!\"",
+            "levelSix-help": "dán vào đây biểu tượng FontAwesome mà bạn muốn hiển thị cho cấp 6 (ví dụ: \"fas fa-square\")"
+        },
+        "forum": {
+            "less10post": "Em bé",
+            "less50post": "Người mới",
+            "less100post": "Người hoạt ngôn",
+            "less300post": "Người thầy",
+            "less600post": "Quái vật!",
+            "less1000post": "Bậc thầy!",
+            "hasWritten": "Đã viết: {count, plural, one {# bài viết} other {# bài viết}}",
+            "nextBadge": "Huy hiệu tiếp theo còn",
+            "posts": "bài viết"
+        }
+    }
+}
