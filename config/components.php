@@ -378,7 +378,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/sentry/2.0.0-beta.3/resources/locale/en.yml',
 	],
 	'fof-seo' => [
-		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/seo/4.0.0-beta.3/locale/en.yml',
+		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/seo/4.0.0-beta.5/locale/en.yml',
 	],
 	'fof-share-social' => [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/share-social/2.0.0-beta.1/resources/locale/en.yml',
