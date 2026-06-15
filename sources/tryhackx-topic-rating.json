@@ -14,6 +14,8 @@
                 "allow_unactivated_help": "When enabled, users who haven't confirmed their email can still rate discussions.",
                 "show_moderation_controls_label": "Always show rating controls in the discussion menu",
                 "show_moderation_controls_help": "By default, \"Disable Rating\" and \"Reset All Ratings\" appear in the discussion's ⋮ menu only when the rating is shown on that topic — they're hidden when its tags disable rating there (managing a hidden rating does nothing). Turn this on to always show them — e.g. to manage ratings on topics where the widget is hidden. Still requires the matching moderation permissions. Off by default.",
+                "realtime_enabled_label": "Live rating updates",
+                "realtime_enabled_help": "When on, open discussion pages poll in the background so ratings update in near real time. Turn off to disable all background polling — ratings then refresh only on the user's own action or a page reload (lighter on the server). On by default.",
                 "poll_interval_label": "Live update interval (seconds)",
                 "poll_interval_help": "How often an open discussion page checks for new ratings, in seconds (5–300, default 8). Higher values cut background server load on busy forums; the rating average just updates a little less promptly. Applies to the discussion page — the ratings popup keeps its own faster refresh.",
                 "tag_config_label": "Per-tag rating permissions",
