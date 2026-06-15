@@ -1,7 +1,7 @@
 {
-    "v17development-flarum-blog": {
+    "fof-blog": {
         "admin": {
-            "blog": "Blogue",
+            "blog": "",
             "permissions": {
                 "write_articles": "",
                 "auto_approve_posts": "",
@@ -119,6 +119,11 @@
                     }
                 }
             }
+        }
+    },
+    "v17development-flarum-blog": {
+        "admin": {
+            "blog": "Blogue"
         }
     }
 }
