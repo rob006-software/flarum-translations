@@ -1280,7 +1280,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`tryhackx-thumb-sliders`](https://weblate.rob006.net/projects/flarum/tryhackx-thumb-sliders) | [`tryhackx/flarum-thumb-sliders`](https://github.com/TryHackX/flarum-thumb-sliders) |
 | [`tryhackx-topic-rating`](https://weblate.rob006.net/projects/flarum/tryhackx-topic-rating) | [`tryhackx/flarum-topic-rating`](https://github.com/TryHackX/flarum-topic-rating) |
 | [`umhelper-oauth-clerk`](https://weblate.rob006.net/projects/flarum/umhelper-oauth-clerk) | [`umhelper/oauth-clerk`](https://github.com/UMHelper/flarum-ext-oauth-clerk) |
-| [`v17development-blog`](https://weblate.rob006.net/projects/flarum/v17development-blog) | [`v17development/flarum-blog`](https://github.com/v17development/flarum-blog) |
+| [`v17development-blog`](https://weblate.rob006.net/projects/flarum/v17development-blog) | [`v17development/flarum-blog`](https://github.com/FriendsOfFlarum/blog) |
 | [`vlssu-cravatar`](https://weblate.rob006.net/projects/flarum/vlssu-cravatar) | [`vlssu/flarum-cravatar`](https://github.com/vlssu/flarum-cravatar) |
 | [`walsgit-discussion-cards`](https://weblate.rob006.net/projects/flarum/walsgit-discussion-cards) | [`walsgit/flarum-discussion-cards`](https://github.com/WalsGit/flarum-discussion-cards) |
 | [`walsgit-recycle-bin`](https://weblate.rob006.net/projects/flarum/walsgit-recycle-bin) | [`walsgit/recycle-bin`](https://github.com/WalsGit/recycle-bin) |
