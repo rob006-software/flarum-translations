@@ -580,6 +580,9 @@ return [
 	'fof-best-answer' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/best-answer/1.7.1/resources/locale/en.yml',
 	],
+	'fof-blog' => [
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/blog/1.0.0/locale/en.yml',
+	],
 	'fof-byobu' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/byobu/1.4.7/resources/locale/en.yml',
 	],
