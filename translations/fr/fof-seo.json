@@ -74,32 +74,32 @@
                     "button": "Configurer l'indexation des messages"
                 },
                 "indexing": {
-                    "heading": "",
+                    "heading": "Contrôles de l'indexation",
                     "profiles_label": "Désindexer les pages de profil",
-                    "profiles_help": "",
+                    "profiles_help": "Lorsque cette option est activée, les pages de profil utilisateur émettent une balise meta « noindex » afin qu'elles n'apparaissent pas dans les résultats de recherche. Les liens présents sur la page sont toutefois suivis, ce qui permet aux robots d'indexation d'accéder au contenu vers lequel ils renvoient.",
                     "tags_help": "",
-                    "tags_button": "",
-                    "tags_none_selected": ""
+                    "tags_button": "Sélectionnez les étiquettes",
+                    "tags_none_selected": "Aucune étiquette n'est exclue de l'indexation."
                 },
                 "nofollow": {
-                    "heading": "",
-                    "help": "",
-                    "help_dofollow": "",
+                    "heading": "Liens « no-follow »",
+                    "help": "Tous les liens vers des domaines externes recevront par défaut l'attribut « <i>nofollow</i> ». Cela permettra d'éviter que des utilisateurs n'inondent votre forum avec des liens vers d'autres domaines dans le but d'obtenir davantage de visites.",
+                    "help_dofollow": "Ce paramètre vous permet d'ajouter des domaines à la liste « do-follow ». Par exemple, vous pouvez ajouter <i>flarum.org</i> pour vous assurer que les liens vers ce site web ne se voient pas attribuer l'attribut « nofollow ».",
                     "button": ""
                 },
                 "new_tab": {
-                    "heading": "",
-                    "help": ""
+                    "heading": "Ouvrir les liens externes dans un nouvel onglet",
+                    "help": "Cette extension garantira également que les liens externes (vers d'autres domaines) s'ouvrent dans un nouvel onglet. Pour l'instant, il n'est pas possible de désactiver ce paramètre."
                 },
                 "updated": {
-                    "heading": "",
-                    "help": "",
+                    "heading": "Avez-vous mis à jour ce paramètre ?",
+                    "help": "Lorsque vous pensez être prêt, cliquez sur le bouton ci-dessous pour vérifier à nouveau l'état de ce paramètre.",
                     "button": ""
                 }
             },
             "pages": {
                 "search_engines": {
-                    "heading": "",
+                    "heading": "Soumettez votre site web aux moteurs de recherche",
                     "intro": "",
                     "sitemap_tip": "",
                     "google_heading": "",
