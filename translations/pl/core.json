@@ -43,12 +43,12 @@
                 "title": "Podstawowe",
                 "welcome_banner_heading": "Baner powitalny",
                 "welcome_banner_text": "Skonfiguruj tekst, który wyświetla się w banerze na stronie \"Wszystkie dyskusje\". Użyj go, aby powitać gości na swoim forum.",
-                "abandoned_extensions_heading": "",
-                "abandoned_extensions_text": "",
-                "abandoned_extensions_sync_button": "",
-                "abandoned_extensions_sync_success": "",
-                "abandoned_extensions_sync_error": "",
-                "abandoned_extensions_notify_admins_label": ""
+                "abandoned_extensions_heading": "Porzucone rozszerzenia",
+                "abandoned_extensions_text": "Flarum prowadzi <a>społecznościową listę porzuconych rozszerzeń</a>. Gdy zainstalowane rozszerzenie znajdzie się na tej liście, zostanie oznaczone w panelu administracyjnym.",
+                "abandoned_extensions_sync_button": "Sprawdź teraz",
+                "abandoned_extensions_sync_success": "Lista porzuconych rozszerzeń została zaktualizowana. Znaleziono pasujące zainstalowane rozszerzenia: {count}.",
+                "abandoned_extensions_sync_error": "Nie udało się pobrać listy porzuconych rozszerzeń. Spróbuj ponownie później.",
+                "abandoned_extensions_notify_admins_label": "Powiadamiaj administratorów e-mailem, gdy podczas cotygodniowego sprawdzania zostanie wykryte nowo porzucone rozszerzenie"
             },
             "create_user": {
                 "email_placeholder": "=> core.ref.email",
@@ -202,7 +202,7 @@
                     "discussion": "Dyskusja",
                     "feature": "Funkcje",
                     "formatting": "Formatowanie",
-                    "forum-widget": "",
+                    "forum-widget": "Widżety forum",
                     "language": "Języki",
                     "moderation": "Moderacja",
                     "other": "Inne rozszerzenia",
@@ -728,10 +728,10 @@
                 "body": "Witaj {username},\n\nTo jest testowa wiadomość wysłana przez Flarum, aby potwierdzić, że konfiguracja wysyłki e-mail na Twoim forum działa prawidłowo.\n\nJeśli to Ty poprosiłeś o wysłanie tej wiadomości, wszystko działa w porządku!\n\nJeśli to nie Ty, zignoruj tę wiadomość.\n"
             },
             "abandoned_extensions": {
-                "subject": "",
-                "body": "",
-                "line_with_replacement": "",
-                "line_no_replacement": ""
+                "subject": "Wymagane działanie: wykryto porzucone rozszerzenia",
+                "body": "Cześć {username},\n\nNastępujące zainstalowane rozszerzenia zostały oznaczone jako porzucone:\n\n{extensions}\n\nSprawdź te rozszerzenia i rozważ przejście na alternatywy, jeśli są dostępne.\n",
+                "line_with_replacement": "{package} (sugerowany zamiennik: {replacement})",
+                "line_no_replacement": "- {package} (brak dostępnego zamiennika)"
             }
         },
         "ref": {
