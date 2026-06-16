@@ -2,136 +2,136 @@
     "fof-seo": {
         "admin": {
             "common": {
-                "close": "",
-                "save_changes": "",
-                "learn_more": ""
+                "close": "Zamknij",
+                "save_changes": "Zapisz zmiany",
+                "learn_more": "Dowiedz się więcej"
             },
             "permissions": {
-                "configure_seo": "",
-                "category_label": ""
+                "configure_seo": "Konfigurowanie SEO",
+                "category_label": "SEO"
             },
             "header": {
-                "title": "",
-                "tools": "",
-                "health_check": "",
-                "seo_settings": "",
-                "sitemap_info": "",
-                "search_engines_info": "",
-                "setup_ssl": ""
+                "title": "Optymalizacja dla wyszukiwarek",
+                "tools": "Narzędzia",
+                "health_check": "Kontrola SEO",
+                "seo_settings": "Ustawienia SEO",
+                "sitemap_info": "Informacje o mapie witryny",
+                "search_engines_info": "Informacje o wyszukiwarkach",
+                "setup_ssl": "Skonfiguruj SSL"
             },
             "dashboard": {
                 "widget": {
-                    "review_prompt": "",
-                    "cta": ""
+                    "review_prompt": "Czas przejrzeć ustawienia SEO!",
+                    "cta": "Uruchom kontrolę SEO!"
                 }
             },
             "modals": {
                 "crawl_post": {
-                    "title": "",
-                    "intro": "",
-                    "mode_main_title": "",
-                    "mode_main_help": "",
-                    "mode_all_title": "",
+                    "title": "Ustawienia indeksowania postów",
+                    "intro": "<b>Przeczytaj uważnie tę informację.</b> Ta funkcja zostanie wykonana dopiero przy odświeżeniu strony dyskusji. Zawsze możesz później zmienić tę opcję.",
+                    "mode_main_title": "Indeksuj tylko pierwszy post (domyślnie)",
+                    "mode_main_help": "Wyszukiwarki będą pokazywać w wynikach tylko pierwszy post dyskusji. Nie wpłynie to na szybkość ładowania, gdy przejdziesz do dyskusji z linków na forum.",
+                    "mode_all_title": "Indeksuj wszystkie posty w dyskusji (opcja włączona)",
                     "mode_all_help": "",
-                    "question": "",
-                    "switch_label": ""
+                    "question": "Czy chcesz włączyć tę funkcję?",
+                    "switch_label": "Indeksuj wszystkie posty (wolniejsze przy odświeżaniu strony, ale lepsze wyniki wyszukiwania)"
                 },
                 "dofollow": {
-                    "title": "",
-                    "intro": "",
-                    "default_note": "",
-                    "learn_more_line": "",
-                    "add_placeholder": "",
-                    "duplicate_error": ""
+                    "title": "Lista do-follow",
+                    "intro": "Wpisz <b>nazwy hostów</b> domen, które chcesz dodać do listy do-follow.",
+                    "default_note": "Domena używana przez Twoją instancję Flarum jest domyślnie dodana do listy.",
+                    "learn_more_line": "<a>Dowiedz się więcej</a> o liście do-follow.",
+                    "add_placeholder": "Zezwól na domenę",
+                    "duplicate_error": "Ta domena jest już na liście do-follow."
                 }
             },
             "settings": {
                 "keywords": {
-                    "heading": "",
-                    "help": "",
-                    "placeholder": "",
-                    "comma_note": "",
-                    "example": ""
+                    "heading": "Słowa kluczowe forum",
+                    "help": "Wpisz jedno lub więcej słów kluczowych opisujących Twoje forum.",
+                    "placeholder": "Dodaj kilka słów kluczowych",
+                    "comma_note": "Uwaga: oddzielaj słowa kluczowe przecinkami.",
+                    "example": "Przykład: flarum, web development, forum, jabłka, bezpieczeństwo"
                 },
                 "info": {
-                    "overview": "",
-                    "maintain": ""
+                    "overview": "Ta strona zbiera kilka ustawień z różnych miejsc panelu administracyjnego. Dzięki temu masz lepszy przegląd konfiguracji. Nie zapomnij wykonać kontroli SEO.",
+                    "maintain": "Sprawdź wszystkie ustawienia przy pierwszej konfiguracji tego rozszerzenia. Regularnie je aktualizuj, aby uzyskać jak najlepsze wyniki w wyszukiwarkach."
                 },
                 "twitter_card": {
-                    "heading": "",
-                    "help": "",
-                    "option_large": "",
-                    "option_summary": ""
+                    "heading": "Rozmiar karty X (dawniej Twitter)",
+                    "help": "Gdy Twoje forum zostanie udostępnione w X (dawniej Twitter), będzie miało obrazek, jeśli skonfigurowano obraz dla mediów społecznościowych. Może to być duża karta z dużym obrazem albo mała karta (summary) z mniejszym obrazem.",
+                    "option_large": "Duża karta (duży obraz)",
+                    "option_summary": "Karta podsumowania (mniejszy obraz)"
                 },
                 "social_media_image": {
-                    "heading": "",
-                    "help_size": "",
-                    "help_usage": ""
+                    "heading": "Obraz dla mediów społecznościowych",
+                    "help_size": "Oczekiwany jest obraz kwadratowy. Zalecany rozmiar to 1200x1200 pikseli. Możesz też użyć obrazu poziomego — zalecany rozmiar to 1200x630.",
+                    "help_usage": "Ten obraz będzie używany przez media społecznościowe, gdy użytkownik udostępni stronę Twojej witryny (Facebook, X — dawniej Twitter, Reddit)."
                 },
                 "crawl": {
-                    "heading": "",
-                    "help": "",
-                    "button": ""
+                    "heading": "Ustawienia indeksowania postów w dyskusjach",
+                    "help": "To ważne ustawienie dotyczące indeksowania postów z dyskusji w wynikach wyszukiwania.",
+                    "button": "Skonfiguruj indeksowanie postów"
                 },
                 "indexing": {
-                    "heading": "",
-                    "profiles_label": "",
-                    "profiles_help": "",
-                    "tags_help": "",
-                    "tags_button": "",
-                    "tags_none_selected": ""
+                    "heading": "Kontrola indeksowania",
+                    "profiles_label": "Wyklucz strony profili z indeksowania",
+                    "profiles_help": "Po włączeniu strony profili użytkowników będą zawierały meta tag „noindex”, dzięki czemu nie trafią do wyników wyszukiwania. Linki na stronie nadal będą śledzone, więc roboty nadal dotrą do wskazywanych treści.",
+                    "tags_help": "Dyskusje w wybranych tagach oraz strony list tych tagów będą wykluczone z wyników wyszukiwania za pomocą meta tagu „noindex”. Linki nadal będą śledzone. Wybranie tagu nadrzędnego obejmuje również jego tagi podrzędne.",
+                    "tags_button": "Wybierz tagi",
+                    "tags_none_selected": "Żadne tagi nie są wykluczone z indeksowania."
                 },
                 "nofollow": {
-                    "heading": "",
+                    "heading": "Linki no-follow",
                     "help": "",
-                    "help_dofollow": "",
-                    "button": ""
+                    "help_dofollow": "To ustawienie pozwala dodać domeny do listy do-follow. Na przykład możesz dodać <i>flarum.org</i>, aby linki do tej witryny nie otrzymywały atrybutu „nofollow”.",
+                    "button": "Otwórz listę domen do-follow"
                 },
                 "new_tab": {
-                    "heading": "",
-                    "help": ""
+                    "heading": "Otwieranie linków zewnętrznych w nowej karcie",
+                    "help": "To rozszerzenie sprawia również, że linki zewnętrzne (do innych domen) otwierają się w nowej karcie. Obecnie nie można wyłączyć tego ustawienia."
                 },
                 "updated": {
-                    "heading": "",
-                    "help": "",
-                    "button": ""
+                    "heading": "Zaktualizowano to ustawienie?",
+                    "help": "Jeśli uważasz, że wszystko jest gotowe, kliknij poniższy przycisk, aby ponownie sprawdzić status tego ustawienia.",
+                    "button": "Wróć do podsumowania i sprawdź ponownie"
                 }
             },
             "pages": {
                 "search_engines": {
-                    "heading": "",
-                    "intro": "",
-                    "sitemap_tip": "",
-                    "google_heading": "",
-                    "google_visit": "",
-                    "google_www": "",
-                    "google_sitemap": "",
-                    "bing_heading": "",
-                    "bing_visit": "",
-                    "bing_sitemap": "",
-                    "yandex_heading": "",
-                    "yandex_visit": "",
-                    "yandex_sitemap": "",
-                    "yahoo_heading": "",
-                    "yahoo_body": "",
-                    "confirm_button": ""
+                    "heading": "Zgłoś swoją witrynę do wyszukiwarek",
+                    "intro": "Dobrą praktyką jest poinformowanie wyszukiwarek o istnieniu Twojej strony. Ten przewodnik przeprowadzi Cię przez ten proces.",
+                    "sitemap_tip": "Zalecamy przygotowanie mapy witryny przed wykonaniem tych kroków. Jeśli nie masz jeszcze mapy witryny, <a>kliknij tutaj, aby dowiedzieć się więcej</a>.",
+                    "google_heading": "Dodaj swoją witrynę do wyników wyszukiwania Google",
+                    "google_visit": "Jeśli chcesz dodać swoją witrynę do wyników wyszukiwania Google, odwiedź {link}. Musisz dodać witrynę i potwierdzić, że jesteś właścicielem powiązanej domeny.",
+                    "google_www": "Podczas wpisywania domeny musisz zdecydować: czy chcesz używać subdomeny „www” w wynikach wyszukiwania? Tego wyboru <strong>nie można</strong> później zmienić. Wielokrotne dodanie domeny w Google Search Console nie poprawi pozycji w wynikach.",
+                    "google_sitemap": "Po zakończeniu rejestracji w Google Search Console przejdź do strony <b>Mapy witryn</b>. Prześlij do Google swój plik <b>sitemap.xml</b>. Upewnij się, że Google może odczytać mapę witryny i będzie mógł robić to także w przyszłości.",
+                    "bing_heading": "Dodaj swoją witrynę do wyników wyszukiwania Bing",
+                    "bing_visit": "Jeśli chcesz dodać swoją witrynę do wyników wyszukiwania Bing, odwiedź {link} i wykonaj podane kroki. Nie wszystkie pola są wymagane.",
+                    "bing_sitemap": "Nie zapomnij skonfigurować adresu URL mapy witryny. Po zweryfikowaniu witryny wszystko jest gotowe i Bing zacznie ją indeksować.",
+                    "yandex_heading": "Dodaj swoją witrynę do wyników wyszukiwania Yandex",
+                    "yandex_visit": "Jeśli chcesz dodać swoją witrynę do wyników wyszukiwania Yandex, odwiedź {link} i wykonaj podane kroki.",
+                    "yandex_sitemap": "Nie zapomnij skonfigurować mapy witryny w Yandex.Webmaster.",
+                    "yahoo_heading": "Dodaj swoją witrynę do wyników wyszukiwania Yahoo",
+                    "yahoo_body": "Jeśli chcesz dodać swoją witrynę do wyników wyszukiwania Yahoo, dokończ rejestrację w Bing. Yahoo korzysta z tych danych.",
+                    "confirm_button": "Przeczytałem"
                 },
                 "sitemap": {
-                    "why_heading": "",
-                    "why_body": "",
-                    "generated_note": "",
-                    "which_extension_heading": "",
-                    "which_extension_body": "",
-                    "which_extension_details": "",
-                    "robots_heading": "",
-                    "robots_body": "",
-                    "just_installed_heading": "",
-                    "just_installed_body": ""
+                    "why_heading": "Dlaczego warto używać mapy witryny?",
+                    "why_body": "Mapa witryny to plik XML z listą wszystkich dostępnych stron w Twojej witrynie. Roboty i wyszukiwarki używają go do odnajdywania stron.",
+                    "generated_note": "Plik mapy witryny jest generowany automatycznie i nie wymaga utrzymania.",
+                    "which_extension_heading": "Jakie rozszerzenie zainstalować?",
+                    "which_extension_body": "{link} to zalecane rozszerzenie dla Flarum. Zdecydowanie rekomendujemy jego instalację i włączenie.",
+                    "which_extension_details": "To rozszerzenie sprawi, że roboty znajdą <b>dyskusje</b>, <b>tagi</b> (jeśli rozszerzenie tagów jest włączone) oraz strony z rozszerzenia <b>Pages</b> (jeśli jest zainstalowane i włączone). Automatycznie udostępni też plik sitemap.xml.",
+                    "robots_heading": "A co z robots.txt?",
+                    "robots_body": "To samo rozszerzenie generuje też plik <b>robots.txt</b> dla Twojego forum. Plik informuje wyszukiwarki, które obszary mogą indeksować, i wskazuje mapę witryny, więc instalacja rozszerzenia załatwia oba pliki naraz — nie musisz nic dodatkowo konfigurować.",
+                    "just_installed_heading": "Właśnie zainstalowałem rozszerzenie",
+                    "just_installed_body": "W takim razie aktywuj je, klikając rozszerzenie na pasku bocznym po lewej. Po aktywacji to ostrzeżenie zniknie."
                 },
                 "ssl": {
-                    "intro_heading": "",
-                    "intro_body": "",
-                    "rankings_heading": "",
+                    "intro_heading": "Dlaczego potrzebuję bezpiecznego połączenia?",
+                    "intro_body": "Świadomość bezpieczeństwa i prywatności w sieci rośnie. <b>Prawie każdy</b> deweloper lub właściciel strony chce, aby jego witryna była bezpieczna dla odwiedzających, tak aby nie musieli obawiać się kradzieży danych przez hakerów lub podszywania się pod stronę.",
+                    "rankings_heading": "Wyszukiwarki {icon} bezpieczne połączenia",
                     "rankings_body": "",
                     "rankings_body_ssl": "",
                     "what_heading": "",
