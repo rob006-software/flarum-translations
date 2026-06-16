@@ -9,12 +9,10 @@
                 "enabled_forgot_label": "Enable CAPTCHA on Password Reset",
                 "enabled_forgot_help": "Show the PoW security challenge inside the Forgot Password form.",
                 "difficulty_label": "Difficulty",
-                "difficulty_help": "Higher difficulty makes bots work harder. Level 3 is invisible to humans (under 100 ms). Level 5 may take a few seconds on slow devices.",
-                "difficulty_1": "Level 1 – Minimal (~1 ms)",
-                "difficulty_2": "Level 2 – Easy (~10 ms)",
-                "difficulty_3": "Level 3 – Standard (~100 ms)",
-                "difficulty_4": "Level 4 – Hard (~1 s)",
-                "difficulty_5": "Level 5 – Very Hard (~10 s)"
+                "difficulty_help": "Higher difficulty makes bots work harder. Level 1 is invisible to humans (under 100 ms). Level 3 may take a few seconds on slow devices.",
+                "difficulty_3": "Level 1 – Easy (~100 ms)",
+                "difficulty_4": "Level 2 – High (~1 s)",
+                "difficulty_5": "Level 3 – Very High (~10 s)"
             }
         },
         "forum": {
@@ -22,7 +20,8 @@
             "submitting": "Verifying security… completing submission automatically.",
             "verified": "Security check passed",
             "error": "Security check failed. Please try again.",
-            "retry": "Retry"
+            "retry": "Retry",
+            "challenge_not_ready": "The security challenge is still in progress or has not been completed. Please wait."
         },
         "validation": {
             "pow_captcha": "The security challenge could not be verified. Please try again."

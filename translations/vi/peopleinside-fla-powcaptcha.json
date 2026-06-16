@@ -10,11 +10,11 @@
                 "enabled_forgot_help": "Hiển thị thử thách bảo mật PoW trong biểu mẫu Quên mật khẩu.",
                 "difficulty_label": "Độ khó",
                 "difficulty_help": "Độ khó cao hơn khiến bot phải hoạt động vất vả hơn. Cấp 3 gần như vô hình với con người (dưới 100 ms). Cấp 5 có thể mất vài giây trên thiết bị chậm.",
-                "difficulty_1": "Cấp 1 – Tối thiểu (~1 ms)",
-                "difficulty_2": "Cấp 2 – Dễ (~10 ms)",
                 "difficulty_3": "Cấp 3 – Tiêu chuẩn (~100 ms)",
                 "difficulty_4": "Cấp 4 – Khó (~1 giây)",
-                "difficulty_5": "Cấp 5 – Rất khó (~10 giây)"
+                "difficulty_5": "Cấp 5 – Rất khó (~10 giây)",
+                "difficulty_1": "Cấp 1 – Tối thiểu (~1 ms)",
+                "difficulty_2": "Cấp 2 – Dễ (~10 ms)"
             }
         },
         "forum": {
@@ -22,7 +22,8 @@
             "submitting": "",
             "verified": "Đã vượt qua kiểm tra bảo mật",
             "error": "Kiểm tra bảo mật thất bại. Vui lòng thử lại.",
-            "retry": "Thử lại"
+            "retry": "Thử lại",
+            "challenge_not_ready": ""
         },
         "validation": {
             "pow_captcha": "Không thể xác minh thử thách bảo mật. Vui lòng thử lại."
