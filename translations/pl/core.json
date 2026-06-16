@@ -164,12 +164,12 @@
                 "title": "Podstawowe",
                 "welcome_banner_heading": "Baner powitalny",
                 "welcome_banner_text": "Skonfiguruj tekst, który wyświetla się w banerze na stronie \"Wszystkie dyskusje\". Użyj go, aby powitać gości na swoim forum.",
-                "abandoned_extensions_heading": "",
-                "abandoned_extensions_text": "",
-                "abandoned_extensions_sync_button": "",
-                "abandoned_extensions_sync_success": "",
-                "abandoned_extensions_sync_error": "",
-                "abandoned_extensions_notify_admins_label": ""
+                "abandoned_extensions_heading": "Porzucone rozszerzenia",
+                "abandoned_extensions_text": "Flarum prowadzi <a>społecznościową listę porzuconych rozszerzeń</a>. Gdy zainstalowane rozszerzenie znajdzie się na tej liście, zostanie oznaczone w panelu administracyjnym.",
+                "abandoned_extensions_sync_button": "Sprawdź teraz",
+                "abandoned_extensions_sync_success": "Lista porzuconych rozszerzeń została zaktualizowana. Znaleziono pasujące zainstalowane rozszerzenia: {count}.",
+                "abandoned_extensions_sync_error": "Nie udało się pobrać listy porzuconych rozszerzeń. Spróbuj ponownie później.",
+                "abandoned_extensions_notify_admins_label": "Powiadamiaj administratorów e-mailem, gdy podczas cotygodniowego sprawdzania zostanie wykryte nowo porzucone rozszerzenie"
             },
             "create_user": {
                 "email_placeholder": "=> core.ref.email",
@@ -381,7 +381,7 @@
                     "discussion": "Dyskusja",
                     "feature": "Funkcje",
                     "formatting": "Formatowanie",
-                    "forum-widget": "",
+                    "forum-widget": "Widżety forum",
                     "infrastructure": "",
                     "language": "Języki",
                     "moderation": "Moderacja",
@@ -1062,7 +1062,7 @@
                 "body": ""
             },
             "abandoned_extensions": {
-                "subject": "",
+                "subject": "Wymagane działanie: wykryto porzucone rozszerzenia",
                 "body_intro": "",
                 "body_outro": "",
                 "line_with_replacement": "",
