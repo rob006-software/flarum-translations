@@ -27,6 +27,8 @@
                 "scraper_max_redirects_help": "How many HTTP(S) redirects to follow when scraping a tracker. Default 0 (don't follow). Raise to 1-2 if a tracker is behind Cloudflare or a CDN that redirects http→https. Every redirect hop is still validated by the SSRF guard, so a tracker can't redirect the request to a private/internal address.",
                 "priority_trackers_label": "Priority Trackers",
                 "priority_trackers_help": "Optional. One tracker host per line (e.g. tracker.opentrackr.org). If a magnet contains any of these, they are queried first, in this order — most useful in the default 'stop at first responder' mode so stats come from a tracker you trust, and it improves latency/accuracy. Reorder only: trackers that aren't in the magnet are never added, and the SSRF guard, scheme/HTTP-only filters and limits still apply.",
+                "scraper_host_allowlist_label": "Tracker host allowlist (security)",
+                "scraper_host_allowlist_help": "Optional. One trusted tracker host per line. When non-empty, ONLY these hosts are ever contacted — tracker URLs supplied in post content that aren't listed are skipped entirely, closing the SSRF / DNS-rebinding surface for attacker-supplied trackers. Leave empty (default) to scrape any public host (current behaviour). The SSRF guard, scheme / HTTP-only filters and limits still apply on top.",
                 "cache_enabled_label": "Cache Tracker Results",
                 "cache_enabled_help": "Cache seed/leech/download stats so repeated views and tooltip hovers don't re-query the trackers. Strongly recommended — it is also the main protection against hover-driven load. Controls both the server cache and the in-browser cache.",
                 "cache_ttl_label": "Cache Lifetime (seconds)",
@@ -85,6 +87,10 @@
                 "button": "Re-secure magnet tokens",
                 "success": "Re-secured {count} magnet token(s).",
                 "error": "Failed to re-secure tokens. Check the server logs."
+            },
+            "maintenance": {
+                "label": "Table retention (large forums)",
+                "help": "magnet_clicks and magnet_bans can grow large on busy or bot-targeted forums. Pruning is opt-in by design (the topic click sorts read magnet_clicks directly, so the retention window is your call). Wire these into the server's cron, e.g. daily: php flarum magnet:prune-clicks --days=90  and  php flarum magnet:prune-bans"
             },
             "support": {
                 "button": "Support Development",

@@ -128,5 +128,17 @@
                 "spammer_button": "Pengirim Spam"
             }
         }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "user": {
+                    "marked_as_spammer": ""
+                },
+                "registration": {
+                    "blocked": ""
+                }
+            }
+        }
     }
 }

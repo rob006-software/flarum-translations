@@ -128,5 +128,17 @@
                 "spammer_button": "垃圾广告发布者"
             }
         }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "user": {
+                    "marked_as_spammer": ""
+                },
+                "registration": {
+                    "blocked": ""
+                }
+            }
+        }
     }
 }

@@ -93,6 +93,7 @@
                 "content_min_length": "Minimum content length",
                 "content_max_length": "Maximum content length",
                 "content_length_help": "Content column is mediumtext (up to 16 million chars). Set 0 to allow empty posts.",
+                "field_length_reflection_failed_warning": "Heads-up: title / content length limits are currently NOT being enforced. This extension overrides Flarum's built-in validation rules via reflection, and that step failed — most likely a Flarum core update changed the validation internals. Update this extension (or report it) so length enforcement can resume.",
                 "restore_defaults": "Defaults",
                 "theme_mode": "Theme Mode",
                 "theme_mode_help": "Auto detects OS/browser dark mode preference.",
