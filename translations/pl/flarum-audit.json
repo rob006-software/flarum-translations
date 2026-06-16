@@ -159,16 +159,16 @@
                     "nickname_request_approved": "Zatwierdzono zmianę pseudonimu użytkownika {username} z {old_nickname} na {new_nickname}",
                     "nickname_request_rejected": "Odrzucono zmianę pseudonimu użytkownika {username}",
                     "password_changed": "Zmieniono hasło użytkownika {username}",
-                    "password_change_requested": "",
-                    "password_reset_attempted": "",
-                    "password_reset_attempted_unmatched": "",
-                    "provider_connected": "",
-                    "suspended": "",
-                    "unsuspended": "",
-                    "username_changed": "",
-                    "username_requested": "",
-                    "username_request_approved": "",
-                    "username_request_rejected": ""
+                    "password_change_requested": "Poproszono o zmianę hasła użytkownika {username}",
+                    "password_reset_attempted": "Poproszono o reset hasła użytkownika {username}",
+                    "password_reset_attempted_unmatched": "Poproszono o reset hasła dla adresu {email} (brak pasującego konta)",
+                    "provider_connected": "Połączono dostawcę {provider} z kontem użytkownika {username}",
+                    "suspended": "Zbanowano użytkownika {username} do {until}",
+                    "unsuspended": "Odbanowano użytkownika {username}",
+                    "username_changed": "Zmieniono nazwę użytkownika {username} z {old_username} na {new_username}",
+                    "username_requested": "Poproszono o nową nazwę {new_username} dla użytkownika {username}",
+                    "username_request_approved": "Zatwierdzono zmianę nazwy użytkownika {username} z {old_username} na {new_username}",
+                    "username_request_rejected": "Odrzucono zmianę nazwy użytkownika {username}"
                 }
             }
         }
