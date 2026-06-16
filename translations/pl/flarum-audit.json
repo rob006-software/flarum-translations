@@ -2,158 +2,158 @@
     "flarum-audit": {
         "admin": {
             "permissions": {
-                "view": "",
-                "viewLimited": ""
+                "view": "Wyświetlanie dziennika audytu",
+                "viewLimited": "Wyświetlanie ograniczonego dziennika audytu"
             },
             "header": {
-                "title": ""
+                "title": "Audyt"
             },
             "limitedSettings": {
-                "configure": "",
-                "title": "",
-                "introduction": "",
-                "requiresExtension": ""
+                "configure": "Konfiguruj",
+                "title": "Ustawienia ograniczonego dostępu",
+                "introduction": "Skonfiguruj, co mogą widzieć użytkownicy z uprawnieniem ograniczonego dostępu",
+                "requiresExtension": "Wymaga rozszerzenia {extension}"
             },
             "settings": {
-                "limitedIpAddress": ""
+                "limitedIpAddress": "Wyświetlanie adresów IP"
             }
         },
         "forum": {
             "link": {
-                "all-audit": "",
-                "discussion-audit": "",
-                "user-audit": "",
-                "actor-audit": ""
+                "all-audit": "Dziennik audytu",
+                "discussion-audit": "Dziennik audytu",
+                "user-audit": "Dziennik audytu (zmiany konta)",
+                "actor-audit": "Dziennik audytu (działania użytkownika)"
             },
             "modal": {
-                "all-title": "",
-                "discussion-title": "",
-                "user-title": "",
-                "actor-title": ""
+                "all-title": "Dziennik audytu",
+                "discussion-title": "Dziennik audytu dyskusji",
+                "user-title": "Dziennik audytu użytkownika",
+                "actor-title": "Dziennik audytu działań użytkownika"
             }
         },
         "lib": {
             "browser": {
-                "filterPlaceholder": "",
-                "filterApply": "",
-                "filterClear": "",
-                "refresh": "",
-                "filtersHint": "",
+                "filterPlaceholder": "Filtruj logi",
+                "filterApply": "Zastosuj",
+                "filterClear": "Wyczyść filtr",
+                "refresh": "Odśwież",
+                "filtersHint": "Filtry:",
                 "filters": {
-                    "actor": "",
-                    "user": "",
-                    "action": "",
-                    "client": "",
-                    "ip": "",
-                    "discussion": ""
+                    "actor": "Kto wykonał działanie. Użyj actor:guest dla działań systemowych lub nieuwierzytelnionych.",
+                    "user": "Użytkownik, którego dotyczyło działanie, według nazwy użytkownika.",
+                    "action": "Typ działania, np. action:post.created.",
+                    "client": "Sposób wykonania żądania.",
+                    "ip": "Adres IP, z którego wykonano działanie.",
+                    "discussion": "Działania dotyczące konkretnej dyskusji, według ID."
                 },
                 "help": {
-                    "toggle": "",
-                    "multiple": "",
-                    "negate": ""
+                    "toggle": "Pomoc wyszukiwania",
+                    "multiple": "Połącz wartości przecinkami, aby dopasować dowolną z nich, np. action:post.created,post.deleted",
+                    "negate": "Poprzedź filtr minusem, aby wykluczyć dopasowania, np. -client:cli"
                 },
-                "empty": "",
-                "loadMore": "",
-                "withoutActor": "",
+                "empty": "Brak wyników",
+                "loadMore": "Załaduj więcej",
+                "withoutActor": "=> core.group.guest",
                 "deletedResource": {
-                    "discussion": "",
-                    "group": "",
-                    "post": "",
-                    "tag": "",
-                    "user": ""
+                    "discussion": "Dyskusja #{id}",
+                    "group": "Grupa #{id}",
+                    "post": "Post #{id}",
+                    "tag": "Tag #{id}",
+                    "user": "Użytkownik #{id}"
                 },
                 "genericResource": {
-                    "comment": "",
-                    "post": ""
+                    "comment": "Komentarz",
+                    "post": "Post"
                 },
                 "permissionGroup": {
-                    "everyone": "",
-                    "members": ""
+                    "everyone": "=> core.admin.permissions_controls.everyone_button",
+                    "members": "=> core.admin.permissions_controls.members_button"
                 },
-                "noValue": "",
-                "noReason": "",
+                "noValue": "(brak wartości)",
+                "noReason": "(brak powodu)",
                 "client": {
-                    "session": "",
-                    "api_key": "",
-                    "access_token": "",
-                    "cli": "",
-                    "unknown": ""
+                    "session": "Sesja WWW",
+                    "api_key": "Klucz API",
+                    "access_token": "Token dostępu",
+                    "cli": "Wiersz poleceń",
+                    "unknown": "Nieznany klient"
                 },
                 "controls": {
-                    "hideRaw": "",
-                    "showRaw": "",
-                    "filterActor": "",
-                    "filterIp": "",
-                    "filterClient": "",
-                    "filterAction": "",
-                    "filterUser": "",
-                    "filterDiscussion": ""
+                    "hideRaw": "Ukryj surowy log",
+                    "showRaw": "Pokaż surowy log",
+                    "filterActor": "Pokaż logi tego użytkownika",
+                    "filterIp": "Pokaż logi z tego adresu IP",
+                    "filterClient": "Pokaż logi z tego typu klienta",
+                    "filterAction": "Pokaż logi tego samego działania",
+                    "filterUser": "Pokaż logi dotyczące tego samego użytkownika",
+                    "filterDiscussion": "Pokaż logi dotyczące tej samej dyskusji"
                 },
-                "audit_log_cleared": "",
-                "cache_cleared": "",
+                "audit_log_cleared": "Usunięto {deleted_count} wpisów z dziennika audytu",
+                "cache_cleared": "Ręcznie wyczyszczono pamięć podręczną",
                 "discussion": {
-                    "created": "",
-                    "create_date_changed": "",
-                    "deleted": "",
-                    "hidden": "",
-                    "locked": "",
-                    "merged_away": "",
-                    "merged_into": "",
-                    "renamed": "",
-                    "restored": "",
-                    "split_away": "",
-                    "split_into": "",
-                    "stickied": "",
-                    "tagged": "",
-                    "unlocked": "",
-                    "unstickied": "",
-                    "user_changed": ""
+                    "created": "Rozpoczęto dyskusję {discussion}",
+                    "create_date_changed": "Zmieniono datę rozpoczęcia dyskusji {discussion} z {old_date} na {new_date}",
+                    "deleted": "Usunięto dyskusję {discussion}",
+                    "hidden": "Ukryto dyskusję {discussion}",
+                    "locked": "Zamknięto dyskusję {discussion}",
+                    "merged_away": "Scalono dyskusję {discussion} z {new_discussion}",
+                    "merged_into": "Scalono {post_count} postów z {original_discussion_ids_count} dyskusji w dyskusję {discussion}",
+                    "renamed": "Zmieniono tytuł dyskusji z {old_title} na {new_title}",
+                    "restored": "Przywrócono dyskusję {discussion}",
+                    "split_away": "Wydzielono {post_count} postów z dyskusji {discussion} do {new_discussion}",
+                    "split_into": "Wydzielono {post_count} postów do nowej dyskusji {discussion}",
+                    "stickied": "Przypięto dyskusję {discussion}",
+                    "tagged": "Zmieniono tagi dyskusji {discussion} z {old_tags} na {new_tags}",
+                    "unlocked": "Otwarto dyskusję {discussion}",
+                    "unstickied": "Odpięto dyskusję {discussion}",
+                    "user_changed": "Zmieniono autora dyskusji {discussion} z {old_user} na {new_user}"
                 },
                 "extension": {
-                    "disabled": "",
-                    "enabled": "",
-                    "uninstalled": ""
+                    "disabled": "Wyłączono rozszerzenie {package}",
+                    "enabled": "Włączono rozszerzenie {package}",
+                    "uninstalled": "Odinstalowano rozszerzenie {package}"
                 },
                 "fof_ban_ips": {
-                    "banned": "",
-                    "unbanned": ""
+                    "banned": "Zbanowano IP {ip}",
+                    "unbanned": "Odbanowano IP {ip}"
                 },
-                "permission_changed": "",
+                "permission_changed": "Zmieniono uprawnienie {permission} z {old_groups} na {new_groups}",
                 "post": {
-                    "approved": "",
-                    "created": "",
-                    "create_date_changed": "",
-                    "deleted": "",
-                    "dismissed_flags": "",
-                    "edit_date_changed": "",
-                    "flagged": "",
-                    "hidden": "",
-                    "restored": "",
-                    "revised": "",
-                    "user_changed": ""
+                    "approved": "Zatwierdzono {post} użytkownika {postuser} w dyskusji {discussion}",
+                    "created": "Utworzono {post} w dyskusji {discussion}",
+                    "create_date_changed": "Zmieniono datę utworzenia {post} użytkownika {postuser} z {old_date} na {new_date}",
+                    "deleted": "Usunięto {post} użytkownika {postuser} w dyskusji {discussion}",
+                    "dismissed_flags": "Odrzucono zgłoszenia dotyczące {post} użytkownika {postuser} w dyskusji {discussion}",
+                    "edit_date_changed": "Zmieniono datę edycji {post} użytkownika {postuser} z {old_date} na {new_date}",
+                    "flagged": "Zgłoszono {post} użytkownika {postuser} jako {reason} w dyskusji {discussion}",
+                    "hidden": "Ukryto {post} użytkownika {postuser} w dyskusji {discussion}",
+                    "restored": "Przywrócono {post} użytkownika {postuser} w dyskusji {discussion}",
+                    "revised": "Zmieniono {post} użytkownika {postuser} w dyskusji {discussion}",
+                    "user_changed": "Zmieniono autora {post} z {old_user} na {new_user}"
                 },
-                "setting_changed": "",
-                "setting_changed_with_values": "",
+                "setting_changed": "Zmieniono ustawienie {key}",
+                "setting_changed_with_values": "Zmieniono ustawienie {key} z {old_value} na {new_value}",
                 "tag": {
-                    "created": "",
-                    "deleted": "",
-                    "updated": ""
+                    "created": "Utworzono tag {tag}",
+                    "deleted": "Usunięto tag {tag}",
+                    "updated": "Zaktualizowano tag {tag}"
                 },
                 "user": {
-                    "activated": "",
-                    "activated_with_email": "",
-                    "avatar_changed": "",
-                    "avatar_removed": "",
-                    "bio_changed": "",
-                    "created": "",
-                    "deleted": "",
-                    "email_changed": "",
-                    "email_change_requested": "",
-                    "groups_changed": "",
-                    "impersonated": "",
-                    "logged_in": "",
-                    "logged_in_with_provider": "",
-                    "logged_out": "",
+                    "activated": "Ręcznie aktywowano konto użytkownika {username}",
+                    "activated_with_email": "Aktywowano konto użytkownika {username} przez link potwierdzający",
+                    "avatar_changed": "Zmieniono avatar użytkownika {username}",
+                    "avatar_removed": "Usunięto avatar użytkownika {username}",
+                    "bio_changed": "Zmieniono bio użytkownika {username}",
+                    "created": "Utworzono konto użytkownika {username}",
+                    "deleted": "Usunięto użytkownika {username}",
+                    "email_changed": "Zmieniono adres e-mail użytkownika {username} z {old_email} na {new_email}",
+                    "email_change_requested": "Poproszono o zmianę adresu e-mail użytkownika {username} na {new_email}",
+                    "groups_changed": "Zmieniono grupy użytkownika {username} z {old_groups} na {new_groups}",
+                    "impersonated": "Podszyto się pod użytkownika {username}",
+                    "logged_in": "Zalogowano się na konto użytkownika {username}",
+                    "logged_in_with_provider": "Zalogowano się na konto użytkownika {username} przez {provider}",
+                    "logged_out": "Wylogowano się z konta użytkownika {username}",
                     "nickname_changed": "",
                     "nickname_requested": "",
                     "nickname_request_approved": "",
