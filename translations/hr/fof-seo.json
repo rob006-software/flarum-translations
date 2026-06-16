@@ -2,308 +2,308 @@
     "fof-seo": {
         "admin": {
             "common": {
-                "close": "",
-                "save_changes": "",
-                "learn_more": ""
+                "close": "Zatvori",
+                "save_changes": "Spremi promjene",
+                "learn_more": "Saznajte više"
             },
             "permissions": {
-                "configure_seo": "",
-                "category_label": ""
+                "configure_seo": "Dopusti konfiguraciju SEO-a",
+                "category_label": "SEO"
             },
             "header": {
-                "title": "",
-                "tools": "",
-                "health_check": "",
-                "seo_settings": "",
-                "sitemap_info": "",
-                "search_engines_info": "",
-                "setup_ssl": ""
+                "title": "Optimizacija za tražilice (SEO)",
+                "tools": "Alati",
+                "health_check": "Provjera zdravlja",
+                "seo_settings": "SEO postavke",
+                "sitemap_info": "Informacije o mapi web-mjesta (Sitemap)",
+                "search_engines_info": "Informacije o tražilicama",
+                "setup_ssl": "Postavi SSL"
             },
             "dashboard": {
                 "widget": {
-                    "review_prompt": "",
-                    "cta": ""
+                    "review_prompt": "Vrijeme je da pregledate svoje SEO postavke!",
+                    "cta": "Pokreni provjeru zdravlja!"
                 }
             },
             "modals": {
                 "crawl_post": {
-                    "title": "",
-                    "intro": "",
-                    "mode_main_title": "",
-                    "mode_main_help": "",
-                    "mode_all_title": "",
-                    "mode_all_help": "",
-                    "question": "",
-                    "switch_label": ""
+                    "title": "Postavke indeksiranja objava",
+                    "intro": "<b>Pažljivo pročitajte ovaj prozor.</b> Ova će se funkcija izvršiti samo prilikom osvježavanja stranice s raspravom. Ovu opciju uvijek možete naknadno promijeniti.",
+                    "mode_main_title": "Indeksiraj samo prvu objavu (zadano)",
+                    "mode_main_help": "Tražilice će u rezultatima pretraživanja prikazivati samo glavnu (prvu) objavu. To neće utjecati na brzinu učitavanja kada se krećete kroz poveznice na forumu.",
+                    "mode_all_title": "Indeksiraj sve objave u raspravi (opcija omogućena)",
+                    "mode_all_help": "Tražilice će bolje razumjeti rasprave te mogu prikazati relevantne odgovore izravno ispod glavnog rezultata pretraživanja. Ako na forumu imate instalirano i omogućeno proširenje '<a>best answer</a>', rasprava će u rezultatima pretraživanja biti označena kao 'odgovorena', a korisnika će preusmjeriti izravno na taj specifičan odgovor. Svaki odgovor se također prikazuje s brojem oznaka 'sviđa mi se' i glasova, pa tražilice mogu prepoznati najkorisnije odgovore čak i bez tog proširenja. <b>Međutim, ovisno o postavkama vašeg poslužitelja, ovo može stvoriti veće opterećenje</b>. Može utjecati na performanse, stoga omogućavanje ove značajke ovisi o brzini vašeg poslužitelja.",
+                    "question": "Želite li omogućiti ovu značajku?",
+                    "switch_label": "Indeksiraj sve objave (sporije je pri osvježavanju stranice, ali rezultati pretraživanja će biti bolji)"
                 },
                 "dofollow": {
-                    "title": "",
-                    "intro": "",
-                    "default_note": "",
-                    "learn_more_line": "",
-                    "add_placeholder": "",
-                    "duplicate_error": ""
+                    "title": "Do-follow popis",
+                    "intro": "Unesite <b>nazive domaćina (hostnames)</b> za domene koje želite dodati na do-follow popis.",
+                    "default_note": "Domena koju koristite za svoju Flarum instalaciju dodana je na popis po zadanom.",
+                    "learn_more_line": "<a>Saznajte više</a> o do-follow popisu.",
+                    "add_placeholder": "Dopusti domenu",
+                    "duplicate_error": "Ova domena se već nalazi na vašem do-follow popisu."
                 }
             },
             "settings": {
                 "keywords": {
-                    "heading": "",
-                    "help": "",
-                    "placeholder": "",
-                    "comma_note": "",
-                    "example": ""
+                    "heading": "Ključne riječi foruma",
+                    "help": "Unesite jednu ili više ključnih riječi koje opisuju vaš forum.",
+                    "placeholder": "Dodajte nekoliko ključnih riječi",
+                    "comma_note": "Napomena: Ključne riječi odvojite zarezom.",
+                    "example": "Primjer: flarum, web development, forum, jabuke, sigurnost"
                 },
                 "info": {
-                    "overview": "",
-                    "maintain": ""
+                    "overview": "Ova stranica sadrži i neke druge postavke iz administratorskog dijela. Korisno je imati dobar pregled nad njima. Ne zaboravite pokrenuti SEO provjeru.",
+                    "maintain": "Provjerite sve postavke kada prvi put postavljate ovo proširenje. Održavajte ih kako biste postigli najbolje rezultate na tražilicama."
                 },
                 "twitter_card": {
-                    "heading": "",
-                    "help": "",
-                    "option_large": "",
-                    "option_summary": ""
+                    "heading": "Veličina X (bivši Twitter) kartice",
+                    "help": "Kada se poveznica s vašeg foruma dijeli na mreži X (bivši Twitter), prikazat će se slika (ako je postavljena slika za društvene mreže). To može biti velika kartica s velikom slikom ili mala kartica (sažetak) s manjom slikom.",
+                    "option_large": "Velika kartica (velika slika)",
+                    "option_summary": "Kartica sa sažetkom (manja slika)"
                 },
                 "social_media_image": {
-                    "heading": "",
-                    "help_size": "",
-                    "help_usage": ""
+                    "heading": "Slika za društvene mreže",
+                    "help_size": "Očekuje se kvadratna slika. Preporučena veličina je 1200x1200 piksela. U suprotnom koristite vodoravnu (landscape) sliku, gdje je preporučena veličina 1200x630.",
+                    "help_usage": "Ovu će sliku koristiti društvene mreže kada korisnik podijeli stranicu s vašeg web-mjesta (Facebook, X (bivši Twitter), Reddit)."
                 },
                 "crawl": {
-                    "heading": "",
-                    "help": "",
-                    "button": ""
+                    "heading": "Postavke indeksiranja objava u raspravama",
+                    "help": "Ovo je važna postavka za indeksiranje vaših objava u rezultatima pretraživanja.",
+                    "button": "Postavi indeksiranje objava"
                 },
                 "indexing": {
-                    "heading": "",
-                    "profiles_label": "",
-                    "profiles_help": "",
-                    "tags_help": "",
-                    "tags_button": "",
-                    "tags_none_selected": ""
+                    "heading": "Kontrola indeksiranja",
+                    "profiles_label": "Deindeksiraj stranice profila",
+                    "profiles_help": "Kada je omogućeno, stranice korisničkih profila generirat će 'noindex' meta oznaku kako se ne bi pojavljivale u rezultatima pretraživanja. Poveznice na stranici će se i dalje pratiti, pa roboti mogu doći do sadržaja na koji one vode.",
+                    "tags_help": "Rasprave u odabranim oznakama (kao i same stranice tih oznaka) bit će izuzete iz rezultata pretraživanja pomoću 'noindex' meta oznake. Poveznice se i dalje prate. Odabir nadređene oznake obuhvaća i njezine podoznake.",
+                    "tags_button": "Odaberi oznake",
+                    "tags_none_selected": "Nema oznaka izuzetih iz indeksiranja."
                 },
                 "nofollow": {
-                    "heading": "",
-                    "help": "",
-                    "help_dofollow": "",
-                    "button": ""
+                    "heading": "No-follow poveznice",
+                    "help": "Sve poveznice prema vanjskim domenama dobit će atribut '<i>nofollow</i>' po zadanom. To osigurava da korisnici ne šalju neželjeni sadržaj (spam) s poveznicama prema drugim domenama radi prikupljanja posjeta.",
+                    "help_dofollow": "Pomoću ove postavke možete dodati domene na 'do-follow' popis. Na primjer, možete dodati <i>flarum.org</i> kako poveznice prema tom web-mjestu ne bi dobile 'nofollow' atribut.",
+                    "button": "Otvori do-follow popis domena"
                 },
                 "new_tab": {
-                    "heading": "",
-                    "help": ""
+                    "heading": "Otvori vanjske poveznice u novoj kartici",
+                    "help": "Ovo proširenje također osigurava da se vanjske poveznice (prema drugim domenama) otvaraju u novoj kartici. Trenutačno nije moguće onemogućiti ovu postavku."
                 },
                 "updated": {
-                    "heading": "",
-                    "help": "",
-                    "button": ""
+                    "heading": "Ažurirali ste ovu postavku?",
+                    "help": "Kada mislite da ste spremni, kliknite gumb ispod za ponovnu provjeru statusa ove postavke.",
+                    "button": "Povratak na pregled i ponovna provjera"
                 }
             },
             "pages": {
                 "search_engines": {
-                    "heading": "",
-                    "intro": "",
-                    "sitemap_tip": "",
-                    "google_heading": "",
-                    "google_visit": "",
-                    "google_www": "",
-                    "google_sitemap": "",
-                    "bing_heading": "",
-                    "bing_visit": "",
-                    "bing_sitemap": "",
-                    "yandex_heading": "",
-                    "yandex_visit": "",
-                    "yandex_sitemap": "",
-                    "yahoo_heading": "",
-                    "yahoo_body": "",
-                    "confirm_button": ""
+                    "heading": "Prijavite svoje web-mjesto tražilicama",
+                    "intro": "Dobra je praksa obavijestiti tražilice da vaše web-mjesto postoji. Ova stranica će vas voditi kroz taj postupak.",
+                    "sitemap_tip": "Preporučuje se imati spremnu mapu web-mjesta (sitemap) prije završetka ovog vodiča. Ako je još nemate, <a>kliknite ovdje kako biste saznali više o tome</a>.",
+                    "google_heading": "Dodajte svoje web-mjesto u Google rezultate pretraživanja",
+                    "google_visit": "Ako želite dodati svoje web-mjesto u Google rezultate pretraživanja, posjetite {link}. Morat ćete dodati svoje web-mjesto i potvrditi da ste vlasnik povezane domene.",
+                    "google_www": "Prilikom unosa domene morate sami sebi odgovoriti na sljedeće pitanje: Želite li koristiti 'www' poddomenu u rezultatima pretraživanja? To <strong>ne možete</strong> naknadno promijeniti. Višestruka registracija iste domene u Google Search Console neće donijeti bolju poziciju.",
+                    "google_sitemap": "Nakon što dovršite registraciju u Google Search Console, posjetite stranicu <b>Sitemaps</b>. Pošaljite svoj <b>sitemap.xml</b> Googleu. Pobrinite se da Google može indeksirati vašu mapu i da će to nastaviti činiti.",
+                    "bing_heading": "Dodajte svoje web-mjesto u Bing rezultate pretraživanja",
+                    "bing_visit": "Ako želite dodati svoje web-mjesto u Bing rezultate pretraživanja, posjetite {link} i dovršite navedene korake. Nisu sva polja obvezna.",
+                    "bing_sitemap": "Ne zaboravite konfigurirati URL svoje mape web-mjesta. Nakon što potvrdite svoje web-mjesto, sve je spremno i Bing će početi indeksirati vaše stranice.",
+                    "yandex_heading": "Dodajte svoje web-mjesto u Yandex rezultate pretraživanja",
+                    "yandex_visit": "Ako želite dodati svoje web-mjesto u Yandex rezultate pretraživanja, posjetite {link} i slijedite navedene korake.",
+                    "yandex_sitemap": "Ne zaboravite konfigurirati mapu web-mjesta unutar alata Yandex.Webmaster.",
+                    "yahoo_heading": "Dodajte svoje web-mjesto u Yahoo rezultate pretraživanja",
+                    "yahoo_body": "Ako želite dodati svoje web-mjesto u Yahoo rezultate pretraživanja, dovršite registraciju za Bing rezultate pretraživanja. Yahoo koristi te iste podatke.",
+                    "confirm_button": "Pročitao/la sam ovo"
                 },
                 "sitemap": {
-                    "why_heading": "",
-                    "why_body": "",
-                    "generated_note": "",
-                    "which_extension_heading": "",
-                    "which_extension_body": "",
-                    "which_extension_details": "",
-                    "robots_heading": "",
-                    "robots_body": "",
-                    "just_installed_heading": "",
-                    "just_installed_body": ""
+                    "why_heading": "Zašto biste trebali koristiti mapu web-mjesta (sitemap)?",
+                    "why_body": "Mapa web-mjesta je XML datoteka s popisom svih dostupnih stranica na vašem web-mjestu. Koriste je pretraživački roboti i tražilice kako bi lakše pronašli stranice na vašem web-mjestu.",
+                    "generated_note": "Datoteka s mapom web-mjesta generira se automatski i ne zahtijeva nikakvo održavanje.",
+                    "which_extension_heading": "Koje proširenje trebam instalirati?",
+                    "which_extension_body": "{link} je predloženo proširenje za instalaciju na Flarum. Preporučujemo da instalirate i aktivirate ovo proširenje.",
+                    "which_extension_details": "Ovo proširenje osigurava da roboti mogu pronaći <b>rasprave</b> na vašem forumu, <b>oznake</b> (kada je proširenje omogućeno) i stranice iz proširenja <b>Pages</b> (kada je instalirano i omogućeno). Automatski će učiniti sitemap.xml datoteku dostupnom.",
+                    "robots_heading": "Što je s robots.txt datotekom?",
+                    "robots_body": "Isto proširenje također generira <b>robots.txt</b> datoteku za vaš forum. Ova datoteka govori tražilicama koje dijelove smiju indeksirati i upućuje ih na vašu mapu web-mjesta, pa se instalacijom rješavaju obje datoteke odjednom — nema potrebe za dodatnim konfiguriranjem.",
+                    "just_installed_heading": "Upravo sam instalirao/la proširenje",
+                    "just_installed_body": "U tom slučaju, aktivirajte ga klikom na proširenje u lijevom bočnom izborniku. Nakon toga će ovo upozorenje nestati."
                 },
                 "ssl": {
-                    "intro_heading": "",
-                    "intro_body": "",
-                    "rankings_heading": "",
-                    "rankings_body": "",
-                    "rankings_body_ssl": "",
-                    "what_heading": "",
-                    "what_body": "",
-                    "how_heading": "",
-                    "how_body": "",
-                    "added_heading": "",
-                    "added_body": "",
-                    "no_ssl_heading": "",
-                    "no_ssl_body": ""
+                    "intro_heading": "Zašto mi je potrebna sigurna veza?",
+                    "intro_body": "Svijest o sigurnosti i privatnosti na mreži je u porastu. <b>Gotovo svaki</b> razvojni programer ili vlasnik web-mjesta želi da njihova stranica bude sigurna za posjetitelje, kako se oni ne bi morali bojati da će njihove podatke ugroziti hakeri ili lažna web-mjesta.",
+                    "rankings_heading": "Tražilice {icon} sigurne veze",
+                    "rankings_body": "Ako nemate sigurnu vezu na svom web-mjestu, tražilice će vašu stranicu pozicionirati znatno niže od ostalih stranica ili je uopće neće indeksirati.",
+                    "rankings_body_ssl": "Kada imate omogućen SSL, vaše će web-mjesto dobiti bolju poziciju i bit će indeksirano.",
+                    "what_heading": "Što je SSL ili TLS?",
+                    "what_body": "Većina ljudi poznaje <b>https</b>, koji se koristi za sigurne veze, pod nazivom SSL: <i>Secure Sockets Layer</i>. Službeno se zove TLS: <i>Transport Layer Security</i>. Ova se metoda koristi za stvaranje sigurne veze s vašim web-poslužiteljem, što sprječava napadače ili druge poslužitelje da lažno predstavljaju vaše web-mjesto i štiti vaše posjetitelje. SSL veza će se prekinuti ako se to dogodi, a preglednici posjetitelja upozorit će korisnika da stranica nije pouzdana.",
+                    "how_heading": "Kako dodati SSL na svoje web-mjesto?",
+                    "how_body": "Za korisnike koji koriste web-hosting, najčešći način je ulazak u upravljačku ploču hostinga, odlazak na postavke hostinga za vaše web-mjesto i odabir opcije SSL. Možete slijediti korake za dodavanje SSL-a. Većina hosting tvrtki danas podržava popularnog izdavatelja certifikata {link}.",
+                    "added_heading": "U redu, dodao/la sam SSL!",
+                    "added_body": "Odlično! Sada promijenite svoju <b>config.php</b> datoteku i promijenite vrijednost <b>'url'</b> na <b>https</b>!",
+                    "no_ssl_heading": "Što ako ne želim dodati SSL?",
+                    "no_ssl_body": "U tom slučaju možete ukloniti ovo proširenje jer tražilice <b>neće indeksirati vaš forum</b> ili će ga zbog sigurnosnih razloga smjestiti daleko ispod drugih stranica."
                 },
                 "health": {
-                    "legend": "",
-                    "default_button": "",
+                    "legend": "Za optimalne rezultate na tražilicama, pobrinite se da sve provjere budu zelene.",
+                    "default_button": "Ažuriraj postavku",
                     "table": {
-                        "technique": "",
-                        "status": ""
+                        "technique": "Tehnika",
+                        "status": "Status"
                     },
                     "status": {
-                        "warning": "",
-                        "passed": ""
+                        "warning": "Upozorenje!",
+                        "passed": "Sve je spremno!"
                     },
                     "checks": {
                         "description": {
-                            "label": "",
-                            "reason_missing": "",
-                            "reason_default": "",
-                            "reason_too_short": "",
-                            "button": ""
+                            "label": "Provjerava ima li vaš forum opis",
+                            "reason_missing": "Još niste postavili opis foruma!",
+                            "reason_default": "Niste promijenili zadani opis foruma nakon instalacije!",
+                            "reason_too_short": "Opis vašeg foruma ima manje od 20 znakova. Proširite ga radi boljih rezultata na tražilicama.",
+                            "button": "Ažuriraj opis"
                         },
                         "keywords": {
-                            "label": "",
-                            "reason": "",
-                            "button": ""
+                            "label": "Provjerava jesu li postavljene ključne riječi foruma",
+                            "reason": "Još niste postavili ključne riječi foruma!",
+                            "button": "Ažuriraj ključne riječi"
                         },
                         "ssl": {
-                            "label": "",
-                            "reason": "",
-                            "button": ""
+                            "label": "Provjerava ima li vaša stranica dostupnu sigurnu vezu (SSL/TLS)",
+                            "reason": "Vaš forum ne prisiljava SSL/TLS vezu (sigurnu vezu s vašim web-mjestom). Većina tražilica neće indeksirati vašu stranicu ili će vam smanjiti poziciju ako nemate dostupnu sigurnu vezu.",
+                            "button": "Kako postaviti SSL"
                         },
                         "crawl": {
-                            "label": "",
-                            "reason": "",
-                            "button": ""
+                            "label": "Pregledajte postavke indeksiranja objava u raspravama",
+                            "reason": "Morat ćete pregledati ovu postavku kako biste prošli provjeru.",
+                            "button": "Pregledaj postavke objava"
                         },
                         "social_media": {
-                            "label": "",
-                            "reason": "",
-                            "button": ""
+                            "label": "Postavite sliku za društvene mreže",
+                            "reason": "Niste postavili sliku za društvene mreže za svoj forum. Preporučuje se da je postavite. Vaša ikona (favicon) trenutačno se koristi kao pregled na društvenim mrežama.",
+                            "button": "Ažuriraj sliku"
                         },
                         "sitemap": {
-                            "label": "",
-                            "reason": "",
-                            "button": ""
+                            "label": "Provjerava ima li vaš forum dostupnu mapu web-mjesta (sitemap)",
+                            "reason": "Preporučuje se instalacija proširenja FriendsOfFlarum Sitemap!",
+                            "button": "Pročitajte više o dodavanju mape web-mjesta"
                         },
                         "robots": {
-                            "label": "",
-                            "reason": "",
-                            "button": ""
+                            "label": "Provjerava ima li vaš forum dostupnu robots.txt datoteku",
+                            "reason": "Vašu robots.txt datoteku osigurava proširenje FriendsOfFlarum Sitemap. Instalirajte ga i omogućite kako bi robots.txt datoteka bila dostupna tražilicama.",
+                            "button": "Pročitajte više o dodavanju robots.txt datoteke"
                         },
                         "meta_tags": {
-                            "label": ""
+                            "label": "Provjerava ima li vaš forum dostupne meta oznake (koje generira ovaj dodatak)"
                         },
                         "search_engines": {
-                            "label": "",
-                            "reason": "",
-                            "button": ""
+                            "label": "Registrirajte svoj forum na tražilicama",
+                            "reason": "Morat ćete ovo pregledati kako biste prošli provjeru.",
+                            "button": "Više informacija"
                         },
                         "review": {
-                            "label": "",
-                            "reason": "",
-                            "button": ""
+                            "label": "Pregledajte svoje SEO postavke svaka dva mjeseca. Sljedeći pregled potreban je dana {date}",
+                            "reason": "Vrijeme je za ponovni pregled vaših SEO postavki.",
+                            "button": "U redu! Pregledao/la sam ih!"
                         }
                     }
                 }
             }
         },
         "forum": {
-            "profile_title": "",
-            "profile_description": "",
+            "profile_title": "Profil korisnika {username}",
+            "profile_description": "Profil korisnika {username} | {discussion_count} rasprava | {comment_count} objava",
             "controls": {
-                "configure_seo": "",
-                "update_seo": "",
-                "reset_seo": ""
+                "configure_seo": "Konfiguriraj SEO",
+                "update_seo": "Ažuriraj SEO",
+                "reset_seo": "Resetiraj SEO"
             },
             "meta_seo": {
-                "title": "",
-                "note_prefix": "",
-                "managed": "",
-                "saved": "",
+                "title": "SEO postavke - Meta",
+                "note_prefix": "Napomena:",
+                "managed": "Upravljano",
+                "saved": "Spremljeno!",
                 "close": {
-                    "close": "",
-                    "save": "",
-                    "save_autofill": "",
-                    "autofill_info": ""
+                    "close": "Zatvori",
+                    "save": "Spremi",
+                    "save_autofill": "Spremi i automatski popuni",
+                    "autofill_info": "Ova promjena će poništiti prilagođene izmjene i popuniti meta oznake s podacima o stavci."
                 },
                 "unsupported_object": {
-                    "title": "",
-                    "docs_link": "",
-                    "body": ""
+                    "title": "Ovaj objekt nije podržani SeoMeta objekt",
+                    "docs_link": "Dokumentacija",
+                    "body": "Molimo otvorite ovaj prozor koristeći svojstva objectType i objectId ili umjesto toga registrirajte odnos objekta."
                 },
                 "auto_update": {
-                    "label": "",
-                    "help": "",
-                    "switch": ""
+                    "label": "Automatsko ažuriranje meta oznaka",
+                    "help": "Kada je omogućeno, meta oznake ove stavke automatski se ažuriraju kada se objekt promijeni.",
+                    "switch": "Ažuriraj SEO objekta pri promjeni"
                 },
                 "meta_title": {
-                    "label": "",
-                    "help": "",
-                    "placeholder": ""
+                    "label": "Meta naslov",
+                    "help": "Naslov u tražilicama.",
+                    "placeholder": "Unesite naslov stranice"
                 },
                 "meta_description": {
-                    "label": "",
-                    "help": ""
+                    "label": "Meta opis",
+                    "help": "Opisuje stavku i prikazuje se u tražilicama."
                 },
                 "keywords": {
-                    "label": "",
-                    "help": "",
-                    "placeholder": "",
-                    "comma_note": "",
-                    "example": ""
+                    "label": "Ključne riječi",
+                    "help": "Unesite jednu ili više ključnih riječi koje opisuju ovu stavku.",
+                    "placeholder": "Dodajte nekoliko ključnih riječi",
+                    "comma_note": "Napomena: Ključne riječi odvojite zarezom.",
+                    "example": "Primjer: flarum, web development, forum, jabuke, sigurnost"
                 },
                 "image": {
-                    "label": "",
-                    "help": "",
-                    "placeholder": "",
-                    "managed_by": "",
-                    "upload": ""
+                    "label": "Meta slika",
+                    "help": "Prikazuje sliku.",
+                    "placeholder": "Unesite URL slike",
+                    "managed_by": "Izvorom slike upravlja {source}",
+                    "upload": "Prenesi datoteku"
                 },
                 "robots": {
-                    "label": "",
-                    "help": "",
+                    "label": "Roboti (Robots)",
+                    "help": "Postavke indeksiranja robota za ovu stavku.",
                     "tags": {
-                        "indexing_allowed": "",
-                        "indexing_not_allowed": "",
-                        "follow_allowed": "",
-                        "follow_not_allowed": "",
-                        "archive_not_allowed": "",
-                        "imageindex_not_allowed": "",
-                        "snippet_not_allowed": ""
+                        "indexing_allowed": "Dopusti indeksiranje stranice",
+                        "indexing_not_allowed": "Indeksiranje stranice nije dopušteno",
+                        "follow_allowed": "Dopusti praćenje poveznica",
+                        "follow_not_allowed": "Praćenje poveznica nije dopušteno",
+                        "archive_not_allowed": "Arhiviranje stranica nije dopušteno",
+                        "imageindex_not_allowed": "Indeksiranje slika nije dopušteno",
+                        "snippet_not_allowed": "Preuzimanje isječaka teksta nije dopušteno"
                     },
                     "switch": {
-                        "indexing": "",
-                        "follow": "",
-                        "noarchive": "",
-                        "noimageindex": "",
-                        "nosnippet": ""
+                        "indexing": "Dopusti indeksiranje stranice",
+                        "follow": "Dopusti praćenje poveznica na druge stranice",
+                        "noarchive": "Onemogući arhiviranje stranice (noarchive)",
+                        "noimageindex": "Onemogući indeksiranje slika na ovoj stranici (noimageindex)",
+                        "nosnippet": "Onemogući isječke teksta na stranici (nosnippet)"
                     }
                 },
                 "reading_time": {
-                    "label": "",
-                    "help": "",
-                    "placeholder": ""
+                    "label": "Procijenjeno vrijeme čitanja",
+                    "help": "Procijenjeno vrijeme čitanja u sekundama.",
+                    "placeholder": "Vrijeme čitanja u sekundama"
                 },
                 "twitter": {
-                    "label": "",
-                    "auto_switch": "",
-                    "title": "",
-                    "description": "",
+                    "label": "X (bivši Twitter) kartica",
+                    "auto_switch": "Automatski generiraj X (bivši Twitter) karticu",
+                    "title": "X (bivši Twitter) naslov",
+                    "description": "X (bivši Twitter) opis",
                     "image": {
-                        "label": "",
-                        "help": "",
-                        "reset": ""
+                        "label": "X (bivši Twitter) slika",
+                        "help": "Prikazuje sliku na mreži X (bivši Twitter).",
+                        "reset": "Resetiraj sliku"
                     }
                 },
                 "og": {
-                    "label": "",
-                    "auto_switch": "",
-                    "title": "",
+                    "label": "Open Graph oznake",
+                    "auto_switch": "Automatski generiraj Open Graph oznake",
+                    "title": "Open Graph naslov",
                     "description": {
-                        "label": "",
-                        "placeholder": ""
+                        "label": "Open Graph opis",
+                        "placeholder": "Prilagođeni Open Graph opis"
                     }
                 }
             }
