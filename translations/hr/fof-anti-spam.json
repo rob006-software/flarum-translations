@@ -2,10 +2,10 @@
     "fof-anti-spam": {
         "admin": {
             "permissions": {
-                "spamblock_users_label": ""
+                "spamblock_users_label": "Onači korisnika kao spamera"
             },
             "settings": {
-                "button": "",
+                "button": "Postavke",
                 "content-filter": {
                     "heading": "",
                     "introduction": "",
@@ -47,57 +47,57 @@
                     "advanced_block_patterns_help": ""
                 },
                 "default-actions": {
-                    "delete_user_label": "",
-                    "delete_user_help": "",
-                    "delete_discussions_label": "",
-                    "delete_discussions_help": "",
-                    "delete_posts_label": "",
-                    "delete_posts_help": "",
-                    "heading": "",
-                    "introduction": "",
-                    "move_discussions_to_tags_label": "",
-                    "move_discussions_to_tags_help": ""
+                    "delete_user_label": "Obriši korisnika",
+                    "delete_user_help": "Ovo će trajno obrisati korisnika. Kada je onemogućeno, korisnik će umjesto toga biti suspendiran.",
+                    "delete_discussions_label": "Obriši rasprave",
+                    "delete_discussions_help": "Ovo će trajno obrisati sve rasprave koje je pokrenuo ovaj korisnik. Kada je onemogućeno, rasprave će umjesto toga biti privremeno skrivene (soft delete).",
+                    "delete_posts_label": "Obriši objave",
+                    "delete_posts_help": "Ovo će trajno obrisati sve objave ovog korisnika. Kada je onemogućeno, objave će umjesto toga biti privremeno skrivene (soft delete).",
+                    "heading": "Zadane moderatorske akcije",
+                    "introduction": "Kada se korisnik označi kao spamer, moderatori mogu birati između različitih akcija ovisno o konkretnom slučaju. Ove postavke omogućuju vam da unaprijed definirate akcije koje najčešće poduzimate kako biste ubrzali postupak, ali i dalje dopuštaju izmjene prema potrebi.",
+                    "move_discussions_to_tags_label": "Premjesti rasprave u oznaku/oznake",
+                    "move_discussions_to_tags_help": "Ovo će premjestiti sve rasprave koje je pokrenuo ovaj korisnik u odabrane oznake. Očistite odabir oznaka kako biste rasprave ostavili u njihovim izvornim oznakama. Nema učinka ako je omogućena opcija 'Obriši rasprave'."
                 },
                 "stopforumspam": {
-                    "introduction": "",
-                    "username_label": "",
-                    "ip_label": "",
-                    "email_label": "",
-                    "frequency_label": "",
-                    "frequency_help": "",
-                    "api_key_label": "",
-                    "api_key_text": "",
-                    "api_key_instructions_text": "",
-                    "regional_endpoint_label": "",
-                    "regional_endpoint_help": "",
-                    "region_closest_label": "",
-                    "region_europe_label": "",
-                    "region_us_label": "",
-                    "confidence_label": "",
-                    "confidence_help": "",
-                    "email_hash_label": "",
-                    "email_hash_help": "",
+                    "introduction": "Provjerava nove registracije korisnika u bazi podataka <a>StopForumSpam</a>. Ako se dostigne prag za postotak vjerojatnosti (<code>confidence</code>) ili učestalost (<code>frequency</code>), korisniku će biti onemogućeno dovršavanje registracije na vašem forumu.\n\nTakođer je podržana SSO registracija putem proširenja <code>fof/oauth</code> i <code>fof/passport</code>. Ostali SSO pružatelji usluga trebali bi raditi, ali nisu testirani.\n",
+                    "username_label": "Provjera korisničkog imena na spam",
+                    "ip_label": "Provjera IP adrese na spam",
+                    "email_label": "Provjera e-mail adrese na spam",
+                    "frequency_label": "Prag učestalosti",
+                    "frequency_help": "Broj prijava spama kroz sve omogućene provjere koji će aktivirati spam filter.\nPrimjer: Ako e-mail ima 1 pogodak, a IP adresa 2 pogotka, to je ukupno 3 pogotka. Ako je prag postavljen na 3 ili manje, spriječit ćemo registraciju.\n",
+                    "api_key_label": "API ključ",
+                    "api_key_text": "Imate mogućnost prijaviti spamere servisu StopForumSpam kako biste pomogli široj forumskoj zajednici u borbi protiv spama.",
+                    "api_key_instructions_text": "<register>Registrirajte se na StopForumSpam</register>. Nakon toga morat ćete <key>pribaviti API ključ</key>.",
+                    "regional_endpoint_label": "Geografski pristup",
+                    "regional_endpoint_help": "Po zadanom ćemo upit preusmjeriti na najbliži regionalni poslužitelj kako bismo osigurali najbrži odgovor. Ako želite ograničiti promet na određenu regiju, primjerice radi usklađenosti s propisima o privatnosti tvrtke ili države, možete prisiliti povezivanje s određenom regijom.",
+                    "region_closest_label": "Najbliži",
+                    "region_europe_label": "Europa",
+                    "region_us_label": "Sjedinjene Američke Države",
+                    "confidence_label": "Vjerojatnost (Confidence)",
+                    "confidence_help": "Ocjena vjerojatnosti je prilično dobar pokazatelj da bi testirano polje moglo rezultirati neželjenom aktivnošću. Postavite razinu vjerojatnosti u postocima. Ako je polje jednako ili iznad ove vrijednosti, registracija će biti blokirana, bez obzira na gore navedeni test učestalosti.",
+                    "email_hash_label": "Koristi hash e-mail adrese",
+                    "email_hash_help": "Pošaljite MD5 hash e-mail adrese ako ne želite slati samu e-mail adresu. Ova metoda zaobilazi sve crne liste, normalizaciju i provjere zaobilaženja obfuskacije.",
                     "block_tor_exit_nodes_label": "",
                     "block_tor_exit_nodes_help": "",
-                    "sfs_lookup_label": "",
-                    "sfs_lookup_help": "",
-                    "report_blocked_registrations_label": "",
-                    "report_blocked_registrations_help": ""
+                    "sfs_lookup_label": "Provjera registracija",
+                    "sfs_lookup_help": "Ako je omogućeno, provjerit ćemo bazu podataka StopForumSpam kada se novi korisnik registrira na vašem forumu. Ako je korisnik pronađen (korisničko ime, IP adresa, e-mail) i ta je podatkovna točka omogućena, a razina vjerojatnosti SFS-a dosegne definiranu razinu, bit će mu onemogućeno dovršavanje registracije.",
+                    "report_blocked_registrations_label": "Prijavi blokirane registracije",
+                    "report_blocked_registrations_help": "Kada je registracija blokirana značajkom provjere registracija, prijavit ćemo pokušaj servisu StopForumSpam kako bi se aktivnost spamera mogla bolje potvrditi. Zahtijeva postavljen StopForumSpam API ključ (vidi ispod)."
                 }
             },
             "blocked_registrations": {
-                "button": "",
-                "title": "",
-                "no-records": "",
-                "help": "",
-                "attempted-at": "",
-                "ip": "",
-                "email": "",
-                "username": "",
-                "login-provider": "",
-                "login-provider-data": "",
-                "sfs-data": "",
-                "delete_entry": ""
+                "button": "Blokirane registracije",
+                "title": "Blokirane registracije",
+                "no-records": "Nema pronađenih blokiranih registracija.",
+                "help": "Ova stranica prikazuje sve registracije koje je blokirao servis StopForumSpam. Možete pregledati detalje svake registracije i, ako želite, obrisati zapis iz baze podataka.\n",
+                "attempted-at": "Pokušaj u",
+                "ip": "IP adresa",
+                "email": "E-mail adresa",
+                "username": "Korisničko ime",
+                "login-provider": "Pružatelj prijave",
+                "login-provider-data": "Podaci pružatelja prijave",
+                "sfs-data": "StopForumSpam podaci",
+                "delete_entry": "Obriši zapis"
             }
         },
         "forum": {
@@ -106,26 +106,26 @@
             },
             "message": {
                 "stopforumspam": {
-                    "blocked": ""
+                    "blocked": "Podaci iz vaše registracije pronađeni su u bazi podataka za sprječavanje spama, stoga je vaša registracija blokirana."
                 }
             },
             "spammer_modal": {
-                "hard_delete_discussions_label": "",
-                "hard_delete_discussions_help": "",
-                "hard_delete_posts_label": "",
-                "hard_delete_posts_help": "",
-                "hard_delete_user_label": "",
-                "hard_delete_user_help": "",
-                "intro": "",
-                "move_discussions_tag_label": "",
-                "move_discussions_tag_help": "",
-                "process_button": "",
-                "title": "",
-                "report_to_sfs_label": "",
-                "report_to_sfs_help": ""
+                "hard_delete_discussions_label": "Obriši rasprave",
+                "hard_delete_discussions_help": "Ovo će trajno obrisati sve rasprave koje je pokrenuo ovaj korisnik. Kada je onemogućeno, rasprave će umjesto toga biti sakrivene.",
+                "hard_delete_posts_label": "Obriši objave",
+                "hard_delete_posts_help": "Ovo će trajno obrisati sve objave (komentare, odgovore itd.) ovog korisnika. Kada je onemogućeno, objave će umjesto toga biti sakrivene.",
+                "hard_delete_user_label": "Obriši korisnika",
+                "hard_delete_user_help": "Ovo će trajno obrisati korisnika. Kada je onemogućeno, korisnik će umjesto toga biti suspendiran.",
+                "intro": "Prilikom označavanja korisnika kao spamera, poduzet će se nekoliko akcija, što ovisi o proširenjima dostupnima na vašem forumu.",
+                "move_discussions_tag_label": "Premjesti rasprave u karantenu (oznaku)",
+                "move_discussions_tag_help": "Ovo će premjestiti sve rasprave koje je pokrenuo ovaj korisnik u oznaku koju ste odredili u postavkama foruma. Kada je onemogućeno, rasprave će ostati u svojim trenutnim oznakama.",
+                "process_button": "Izvrši",
+                "title": "Onači korisnika {username} kao spamera",
+                "report_to_sfs_label": "Prijavi na StopForumSpam",
+                "report_to_sfs_help": "Ovo će prijaviti osnovne podatke korisnika (korisničko ime, e-mail, IP adresu) servisu StopForumSpam. To će pomoći u sprječavanju registracije tog korisnika na drugim forumima koji koriste StopForumSpam uslugu."
             },
             "user_controls": {
-                "spammer_button": ""
+                "spammer_button": "Spamer"
             }
         }
     }
