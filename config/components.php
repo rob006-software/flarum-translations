@@ -225,7 +225,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/analytics/2.0.0-beta.1/resources/locale/en.yml',
 	],
 	'fof-anti-spam' => [
-		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/anti-spam/2.0.0-beta.2/locale/en.yml',
+		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/anti-spam/2.0.0-beta.3/locale/en.yml',
 	],
 	'fof-badges' => [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/badges/2.0.0-beta.1/locale/en.yml',
