@@ -1712,6 +1712,39 @@
             }
         }
     },
+    "fof-forum-stats-widget.json": {
+        "fof-forum-stats-widget": {
+            "admin": {
+                "settings": {
+                    "decimal_places": {
+                        "help": "ee2058f61c61638b69f39e15c33e1223 ee2058f61c61638b69f39e15c33e1223",
+                        "label": "988dbd47a58fbbb491c4655ea47b410a 988dbd47a58fbbb491c4655ea47b410a"
+                    }
+                }
+            },
+            "forum": {
+                "widget": {
+                    "stats": {
+                        "comment_post_count": "aa4f2c2d9ddaf2eed5842081abe95e6c aa4f2c2d9ddaf2eed5842081abe95e6c",
+                        "discussion_count": "d317691c4f16e90be3861198bff219fd d317691c4f16e90be3861198bff219fd",
+                        "user_count": "773285173435906522e79f418f33d6ff 773285173435906522e79f418f33d6ff"
+                    },
+                    "title": "6a8b879b7a1a3dca220d92c2c25a5e46 6a8b879b7a1a3dca220d92c2c25a5e46"
+                }
+            }
+        }
+    },
+    "fof-forum-widgets-core.json": {
+        "fof-forum-widgets-core": {
+            "admin": {
+                "cache_not_writable_warning": "a5d000fa55bfbb4c692a36e3789db791 a5d000fa55bfbb4c692a36e3789db791",
+                "settings": {
+                    "prefer_data_with_initial_load": "5225330504c9b0317f85301ac076977c 5225330504c9b0317f85301ac076977c",
+                    "prefer_data_with_initial_load_help": "2e736888611493de12a71ceaff92eef9 2e736888611493de12a71ceaff92eef9"
+                }
+            }
+        }
+    },
     "fof-merge-discussions.json": {
         "fof-merge-discussions": {
             "admin": {
@@ -1826,6 +1859,26 @@
                     "public_comment_heading": "46a2e00fa281b7b40de047e171e6a3a7 46a2e00fa281b7b40de047e171e6a3a7",
                     "strikes_heading": "d82e76c8e53a6cc0e4a3b6e2bb3aad53 d82e76c8e53a6cc0e4a3b6e2bb3aad53",
                     "submit_button": "136f992e7d133699f2a09b4428717c6b 136f992e7d133699f2a09b4428717c6b"
+                }
+            }
+        }
+    },
+    "fof-online-users-widget.json": {
+        "fof-online-users-widget": {
+            "admin": {
+                "permissions": {
+                    "view_online_users_widget": "bf9dfcc1a9667958e191361834af7801 bf9dfcc1a9667958e191361834af7801"
+                },
+                "settings": {
+                    "cache_ttl": "7cc69f232966a4777a35c510ced160fb 7cc69f232966a4777a35c510ced160fb",
+                    "last_seen_interval": "3c7c5647bac7d270f7a389325d804412 3c7c5647bac7d270f7a389325d804412",
+                    "max_users": "262cb43b1d959eb5fdce0e646c024eb1 262cb43b1d959eb5fdce0e646c024eb1"
+                }
+            },
+            "forum": {
+                "widget": {
+                    "empty": "993652d89376ddb0a7e43ad48d7c7014 993652d89376ddb0a7e43ad48d7c7014",
+                    "title": "803c20beb0ec84a486f4016d6c3218ce 803c20beb0ec84a486f4016d6c3218ce"
                 }
             }
         }
@@ -2202,6 +2255,26 @@
                 },
                 "following_link": "0b077a3193f43884cf313852cc00df14 0b077a3193f43884cf313852cc00df14",
                 "unfollow": "d9116526d4c20e7a26497cfc6024b601 d9116526d4c20e7a26497cfc6024b601"
+            }
+        }
+    },
+    "ianm-online-guests.json": {
+        "ianm-online-guests": {
+            "admin": {
+                "permissions": {
+                    "view_online_guests_label": "19da0443945ba70502aac900b69323c4 19da0443945ba70502aac900b69323c4"
+                },
+                "settings": {
+                    "cache_duration_label": "961448ed62839c19d19a87f58e9d6efc 961448ed62839c19d19a87f58e9d6efc",
+                    "online_duration_label": "c4c04426bb3399666d3ecb7953cebd59 c4c04426bb3399666d3ecb7953cebd59"
+                }
+            },
+            "forum": {
+                "widget": {
+                    "description": "744967ae921d73605d878bf12c798aa8 744967ae921d73605d878bf12c798aa8",
+                    "guests_online": "1d2bd9c74bfc6b6e8f21d6fa32102727 1d2bd9c74bfc6b6e8f21d6fa32102727",
+                    "title": "d29d37e772e5baa92f00f035664579c0 d29d37e772e5baa92f00f035664579c0"
+                }
             }
         }
     },

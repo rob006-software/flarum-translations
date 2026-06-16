@@ -2,18 +2,18 @@
     "fof-online-users-widget": {
         "admin": {
             "settings": {
-                "cache_ttl": "",
-                "last_seen_interval": "",
-                "max_users": ""
+                "cache_ttl": "Vrijeme predmemoriranja popisa korisnika (u sekundama)",
+                "last_seen_interval": "Interval od zadnje aktivnosti da bi se korisnik smatrao online (u minutama)",
+                "max_users": "Maksimalan broj prikazanih korisnika"
             },
             "permissions": {
-                "view_online_users_widget": ""
+                "view_online_users_widget": "Pregled widgeta s online korisnicima"
             }
         },
         "forum": {
             "widget": {
-                "title": "",
-                "empty": ""
+                "title": "Online korisnici",
+                "empty": "Trenutačno nema online korisnika."
             }
         }
     }
