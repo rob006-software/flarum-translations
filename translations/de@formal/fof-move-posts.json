@@ -71,8 +71,8 @@
         "lib": {
             "browser": {
                 "posts": {
-                    "moved": "",
-                    "moved_to_new_discussion": ""
+                    "moved": "{username} hat {count, plural, one {einen Beitrag} other {{count} Beiträge}} von {discussion} nach {new_discussion} verschoben",
+                    "moved_to_new_discussion": "{username} hat Beiträge von {discussion} in die neue Diskussion {new_discussion} verschoben"
                 }
             }
         }
