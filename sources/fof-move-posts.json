@@ -70,8 +70,8 @@
         "lib": {
             "browser": {
                 "posts": {
-                    "moved": "{username} moved {count, plural, one {one post} other {{count} posts}} from {discussion} to {new_discussion}",
-                    "moved_to_new_discussion": "{username} moved posts from {discussion} into the new discussion {new_discussion}"
+                    "moved": "Moved {post_count, plural, one {one post} other {{post_count} posts}} from {discussion} to {new_discussion}",
+                    "moved_to_new_discussion": "Moved {post_count, plural, one {one post} other {{post_count} posts}} from {discussion} into the new discussion {new_discussion}"
                 }
             }
         }
