@@ -71,8 +71,8 @@
         "lib": {
             "browser": {
                 "posts": {
-                    "moved": "",
-                    "moved_to_new_discussion": ""
+                    "moved": "A déplacé {post_count, plural, one {un message} other {{post_count} messages}} de {discussion} vers {new_discussion}",
+                    "moved_to_new_discussion": "A déplacé {post_count, plural, one {un message} other {{post_count} messages}} de {discussion} vers la nouvelle discussion {new_discussion}"
                 }
             }
         }
