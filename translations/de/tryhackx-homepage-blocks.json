@@ -93,7 +93,6 @@
                 "content_min_length": "Mindestlänge des Inhalts",
                 "content_max_length": "Maximallänge des Inhalts",
                 "content_length_help": "Die Inhaltsspalte ist vom Typ „mediumtext“ (bis zu 16 Millionen Zeichen). Setze den Wert auf 0, um leere Beiträge zuzulassen.",
-                "field_length_reflection_failed_warning": "Hinweis: Die Längenbeschränkungen für Titel und Inhalte werden derzeit NICHT durchgesetzt. Diese Erweiterung überschreibt die integrierten Validierungsregeln von Flarum mittels Reflection, doch dieser Schritt ist fehlgeschlagen – höchstwahrscheinlich hat ein Update des Flarum-Kerns die internen Validierungsmechanismen verändert. Bitte aktualisiere diese Erweiterung (oder melde das Problem), damit die Längenbeschränkungen wieder durchgesetzt werden können.",
                 "restore_defaults": "Standardwerte",
                 "theme_mode": "Themenmodus",
                 "theme_mode_help": "Erkennt automatisch die Einstellungen für den Dunkelmodus des Betriebssystems bzw. Browsers.",
@@ -101,6 +100,7 @@
                 "category_label_help": "Lasse das Feld leer, um die Standardübersetzung zu verwenden.",
                 "resolution_label": "Benutzerdefinierte Beschriftung für Auflösungsfilter",
                 "resolution_label_help": "Lasse das Feld leer, um die Standardübersetzung zu verwenden.",
+                "field_length_reflection_failed_warning": "Hinweis: Die Längenbeschränkungen für Titel und Inhalte werden derzeit NICHT durchgesetzt. Diese Erweiterung überschreibt die integrierten Validierungsregeln von Flarum mittels Reflection, doch dieser Schritt ist fehlgeschlagen – höchstwahrscheinlich hat ein Update des Flarum-Kerns die internen Validierungsmechanismen verändert. Bitte aktualisiere diese Erweiterung (oder melde das Problem), damit die Längenbeschränkungen wieder durchgesetzt werden können.",
                 "recaptcha_points_cost_stats": "Kosten — Interne Statistiken",
                 "recaptcha_points_cost_external_stats": "Kosten — Externe Statistiken"
             },
