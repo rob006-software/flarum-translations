@@ -1610,9 +1610,6 @@ return [
 	'resofire-digest-mail' => [
 		'tag' => 'https://raw.githubusercontent.com/ResofireV2/digest-mail/v0.3.6/locale/en.yml',
 	],
-	'resofire-discussion-participants' => [
-		'tag' => 'https://raw.githubusercontent.com/ResofireV2/discussion-participants/v1.0.4/locale/en.yml',
-	],
 	'resofire-menu-control' => [
 		'tag' => 'https://raw.githubusercontent.com/ResofireV2/menu-control/v2.0.2/resources/locale/en.yml',
 	],
