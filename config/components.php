@@ -713,9 +713,6 @@ return [
 	'resofire-digest-mail' => [
 		'tag' => 'https://raw.githubusercontent.com/ResofireV2/digest-mail/v2.2.9/locale/en.yml',
 	],
-	'resofire-discussion-participants' => [
-		'tag' => 'https://raw.githubusercontent.com/ResofireV2/discussion-participants/v2.1.0/locale/en.yml',
-	],
 	'resofire-menu-control' => [
 		'tag' => 'https://raw.githubusercontent.com/ResofireV2/menu-control/v2.2.7/resources/locale/en.yml',
 	],
