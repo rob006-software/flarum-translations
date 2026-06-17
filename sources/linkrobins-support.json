@@ -12,7 +12,8 @@
             },
             "permissions": {
                 "handle_tickets": "Handle support tickets",
-                "manage_appeal_bans": "Manage support appeal-bans"
+                "manage_appeal_bans": "Manage support appeal-bans",
+                "force_delete_tickets": "Permanently delete support tickets"
             },
             "categories": {
                 "heading": "Support categories",
@@ -114,7 +115,8 @@
                 "new_ticket_tooltip": "Open a new support ticket",
                 "empty_own": "No tickets yet. Click \"New ticket\" to open one.",
                 "empty": "No tickets to show.",
-                "untitled": "Untitled"
+                "untitled": "Untitled",
+                "deleted_badge": "Deleted"
             },
             "errors": {
                 "load_tickets": "Could not load tickets.",
