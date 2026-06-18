@@ -10,17 +10,17 @@
                 "bb_info": "Riasztások",
                 "bb_audio": "Hang",
                 "bb_image": "Kép igazítása",
-                "bb_image_help": "Új gombot ad a szerkesztőhöz a képek igazításához. A nagy, középre igazított képek automatikusan a bejegyzés szélességének 60%-ra lesznek átméretezve, az oldalra igazítottak pedig legfeljebb a 40%-ára.",
+                "bb_image_help": "A képeket és más soron belüli médiát egy igazítási tárolóba helyezi. A középre igazított média automatikusan a bejegyzés szélességének 60%-ára lesz méretezve, az oldalra igazított pedig legfeljebb a 40%-ára.",
                 "bb_iframe": "Beágyazott keret",
                 "bb_iframe_help": "Engedélyezi a beágyazott kereteket bármilyen forrásból. Használja óvatosan – a beágyazott tartalom külső parancsfájlokat tartalmazhat. 🧹 A beállítás módosítása után törölje a Flarum gyorsítótárát.",
-                "bb_hide_login": "",
-                "bb_hide_login_help": "",
-                "bb_hide_reply": "",
-                "bb_hide_reply_help": "",
-                "bb_hide_like": "",
-                "bb_hide_like_help": "",
-                "bb_anchor": "",
-                "bb_anchor_help": "",
+                "bb_hide_login": "Bejelentkezés",
+                "bb_hide_login_help": "A tartalom rejtve van a vendégek elől, és az összes bejelentkezett felhasználó számára látható",
+                "bb_hide_reply": "Válasz",
+                "bb_hide_reply_help": "A tartalom rejtve van addig, amíg a felhasználó nem válaszol a témában",
+                "bb_hide_like": "Kedvelés",
+                "bb_hide_like_help": "A tartalom rejtve van addig, amíg a felhasználó nem kedveli a bejegyzést",
+                "bb_anchor": "Horgony és ugrás",
+                "bb_anchor_help": "Nevesített görgetési célok és ugrási hivatkozások a bejegyzésben",
                 "toolbar_group": "Group MagicBB gombok",
                 "toolbar_group_help": "Ha be van kapcsolva, az összes MagicBB gomb egyetlenbe lesz csoportosítva a szerkesztőben"
             },
@@ -29,12 +29,12 @@
                 "content": "Tartalomgombok",
                 "images": "Képgombok",
                 "features": "Funkciók",
-                "hide": ""
+                "hide": "Gombok elrejtése"
             },
             "permissions": {
                 "use_iframe": "Iframe engedélyezése",
-                "bypass_like": "",
-                "bypass_reply": ""
+                "bypass_like": "Kedvelési követelmény megkerülése",
+                "bypass_reply": "Válaszolási követelmény megkerülése"
             }
         },
         "forum": {
@@ -46,18 +46,18 @@
                 "table_button": "Táblázat hozzáadása",
                 "info_button": "Riasztás hozzáadása",
                 "audio_button": "Hang hozzáadása",
-                "image_button": "Kép hozzáadása",
+                "image_button": "Kép igazítása",
                 "more_button": "Továbbiak",
-                "hide_login_button": "",
-                "hide_reply_button": "",
-                "hide_like_button": "",
-                "anchor_button": "",
-                "jump_button": ""
+                "hide_login_button": "Rejtve – bejelentkezés szükséges",
+                "hide_reply_button": "Rejtve – válasz szükséges",
+                "hide_like_button": "Rejtve – kedvelés szükséges",
+                "anchor_button": "Horgony hozzáadása",
+                "jump_button": "Ugrási hivatkozás hozzáadása"
             },
             "hide": {
-                "login_to_see_simple": "",
-                "like_to_see_simple": "",
-                "reply_to_see_simple": ""
+                "login_to_see_simple": "Jelentkezzen be a tartalom megtekintéséhez",
+                "like_to_see_simple": "Kedvelje a bejegyzést a tartalom megtekintéséhez",
+                "reply_to_see_simple": "Válaszoljon a témában a tartalom megtekintéséhez"
             }
         }
     }
