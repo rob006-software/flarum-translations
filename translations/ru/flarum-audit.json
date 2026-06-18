@@ -22,22 +22,22 @@
             "link": {
                 "all-audit": "Журнал аудита",
                 "discussion-audit": "Журнал аудита",
-                "user-audit": "",
-                "actor-audit": ""
+                "user-audit": "Журнал изменений аккаунта",
+                "actor-audit": "Журнал действий пользователя"
             },
             "modal": {
-                "all-title": "",
-                "discussion-title": "",
-                "user-title": "",
-                "actor-title": ""
+                "all-title": "Журнал аудита",
+                "discussion-title": "Журнал аудита темы",
+                "user-title": "Журнал аудита пользователя",
+                "actor-title": "Журнал аудита действий пользователя"
             }
         },
         "lib": {
             "browser": {
-                "filterPlaceholder": "",
-                "filterApply": "",
-                "filterClear": "",
-                "refresh": "",
+                "filterPlaceholder": "Фильтр журналов",
+                "filterApply": "Применить",
+                "filterClear": "Сбросить фильтр",
+                "refresh": "Обновить",
                 "filtersHint": "",
                 "filters": {
                     "actor": "",
