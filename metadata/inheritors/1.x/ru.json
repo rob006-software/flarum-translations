@@ -1538,6 +1538,58 @@
             }
         }
     },
+    "flarum-audit.json": {
+        "flarum-audit": {
+            "admin": {
+                "header": {
+                    "title": "c5d7c5d635c8c6c5702a7ed09b3b1ee7 c5d7c5d635c8c6c5702a7ed09b3b1ee7"
+                },
+                "limitedSettings": {
+                    "configure": "0b4604e324463c8ab82787bc18671d19 0b4604e324463c8ab82787bc18671d19",
+                    "introduction": "c08b44532f873fcaca653d9c0f303d55 c08b44532f873fcaca653d9c0f303d55",
+                    "requiresExtension": "ac12413d34f7fb959b182777a8bf689c ac12413d34f7fb959b182777a8bf689c",
+                    "title": "2769cbdb7f0c0a1fd74ca60365b4cf2b 2769cbdb7f0c0a1fd74ca60365b4cf2b"
+                },
+                "permissions": {
+                    "view": "f4a6343afe41dc93e7a954be2def3252 f4a6343afe41dc93e7a954be2def3252",
+                    "viewLimited": "5cd1cad6cd2504022be9cfc1315ac24a 5cd1cad6cd2504022be9cfc1315ac24a"
+                },
+                "settings": {
+                    "limitedIpAddress": "42d787b26174e73c396c5bfa1f9e1bd0 42d787b26174e73c396c5bfa1f9e1bd0"
+                }
+            },
+            "forum": {
+                "link": {
+                    "actor-audit": "02d9dd19b527294b5c87d57bdc6ffffe 02d9dd19b527294b5c87d57bdc6ffffe",
+                    "all-audit": "93ab61e19f7ed8d6091e6bea3d760f99 93ab61e19f7ed8d6091e6bea3d760f99",
+                    "discussion-audit": "93ab61e19f7ed8d6091e6bea3d760f99 93ab61e19f7ed8d6091e6bea3d760f99",
+                    "user-audit": "c28173582cc0d6c02bcce34297b0f079 c28173582cc0d6c02bcce34297b0f079"
+                },
+                "modal": {
+                    "actor-title": "b7966049ac416f56942e8e0534acf960 b7966049ac416f56942e8e0534acf960",
+                    "all-title": "93ab61e19f7ed8d6091e6bea3d760f99 93ab61e19f7ed8d6091e6bea3d760f99",
+                    "discussion-title": "6dc2233af5a52e821932894e856852f7 6dc2233af5a52e821932894e856852f7",
+                    "user-title": "766a516316ef2b0003a8c87216d0061f 766a516316ef2b0003a8c87216d0061f"
+                }
+            },
+            "lib": {
+                "browser": {
+                    "filterApply": "2cd844110d28e3bcfa13e55927643a88 2cd844110d28e3bcfa13e55927643a88",
+                    "filterClear": "4c281ff399474b83fd0cbdd4aa8304ca 4c281ff399474b83fd0cbdd4aa8304ca",
+                    "filterPlaceholder": "a418c903e59c223540f7e63ed0ff96bb a418c903e59c223540f7e63ed0ff96bb",
+                    "filters": {
+                        "action": "15367821e5ee0f81577879145faca237 15367821e5ee0f81577879145faca237",
+                        "actor": "69fe2dad8352e2832d8ad1e89681224d 69fe2dad8352e2832d8ad1e89681224d",
+                        "client": "eb759d4f0e1be4496dd41966567a3ace eb759d4f0e1be4496dd41966567a3ace",
+                        "ip": "06db6ca61fbff2faa94de35bf7becf5c 06db6ca61fbff2faa94de35bf7becf5c",
+                        "user": "189c6a6b889dc784b3e3aea0249611b3 189c6a6b889dc784b3e3aea0249611b3"
+                    },
+                    "filtersHint": "aa94312f3bfc64878386fbcb5ce344cf aa94312f3bfc64878386fbcb5ce344cf",
+                    "refresh": "dbe5444a9a2c431188f3f130d668c274 dbe5444a9a2c431188f3f130d668c274"
+                }
+            }
+        }
+    },
     "flarum-bbcode.json": {
         "flarum-bbcode": {
             "forum": {

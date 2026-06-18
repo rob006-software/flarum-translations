@@ -2,49 +2,49 @@
     "flarum-audit": {
         "admin": {
             "permissions": {
-                "view": "",
-                "viewLimited": ""
+                "view": "Смотреть журнал аудита",
+                "viewLimited": "Смотреть ограниченный журнал аудита"
             },
             "header": {
-                "title": ""
+                "title": "Аудит"
             },
             "limitedSettings": {
-                "configure": "",
-                "title": "",
-                "introduction": "",
-                "requiresExtension": ""
+                "configure": "Настроить",
+                "title": "Настройки ограниченного аудита",
+                "introduction": "Укажите данные, которые могут просматривать пользователи в ограниченном аудите",
+                "requiresExtension": "Требуется расширение {extension}"
             },
             "settings": {
-                "limitedIpAddress": ""
+                "limitedIpAddress": "Видеть IP-адреса"
             }
         },
         "forum": {
             "link": {
-                "all-audit": "",
-                "discussion-audit": "",
-                "user-audit": "",
-                "actor-audit": ""
+                "all-audit": "Журнал аудита",
+                "discussion-audit": "Журнал аудита",
+                "user-audit": "Журнал изменений аккаунта",
+                "actor-audit": "Журнал действий пользователя"
             },
             "modal": {
-                "all-title": "",
-                "discussion-title": "",
-                "user-title": "",
-                "actor-title": ""
+                "all-title": "Журнал аудита",
+                "discussion-title": "Журнал аудита темы",
+                "user-title": "Журнал аудита пользователя",
+                "actor-title": "Журнал аудита действий пользователя"
             }
         },
         "lib": {
             "browser": {
-                "filterPlaceholder": "",
-                "filterApply": "",
-                "filterClear": "",
-                "refresh": "",
-                "filtersHint": "",
+                "filterPlaceholder": "Фильтр журналов",
+                "filterApply": "Применить",
+                "filterClear": "Сбросить фильтр",
+                "refresh": "Обновить",
+                "filtersHint": "Фильтры:",
                 "filters": {
-                    "actor": "",
-                    "user": "",
-                    "action": "",
-                    "client": "",
-                    "ip": "",
+                    "actor": "Кто выполнил действие. Используйте actor:guest для системных или неавторизованных действий.",
+                    "user": "Пользователь, на которого повлияло действие.",
+                    "action": "Тип действия, например: action:post.created.",
+                    "client": "Способ выполнения запроса.",
+                    "ip": "IP-адрес, с которого было выполнено действие.",
                     "discussion": ""
                 },
                 "help": {
