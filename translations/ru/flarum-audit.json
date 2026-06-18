@@ -100,19 +100,19 @@
                     "merged_away": "Тема {discussion} объединена с темой {new_discussion}",
                     "merged_into": "В тему {discussion} перенесено {post_count} сообщений из {original_discussion_ids_count} тем",
                     "renamed": "Тема переименована с {old_title} на {new_title}",
-                    "restored": "Тема {discussion} восстановлена",
-                    "split_away": "",
-                    "split_into": "",
-                    "stickied": "",
-                    "tagged": "",
-                    "unlocked": "",
-                    "unstickied": "",
-                    "user_changed": ""
+                    "restored": "Восстановлена тема {discussion}",
+                    "split_away": "Из темы {discussion} перенесено {post_count} сообщений в тему {new_discussion}",
+                    "split_into": "{post_count} сообщений перенесено в тему {discussion}",
+                    "stickied": "Закреплена тема {discussion}",
+                    "tagged": "Теги темы {discussion} изменены с {old_tags} на {new_tags}",
+                    "unlocked": "Открыта тема {discussion}",
+                    "unstickied": "Откреплена тема {discussion}",
+                    "user_changed": "Автор темы {discussion} изменён с {old_user} на {new_user}"
                 },
                 "extension": {
-                    "disabled": "",
-                    "enabled": "",
-                    "uninstalled": ""
+                    "disabled": "Отключено расширение {package}",
+                    "enabled": "Включено расширение {package}",
+                    "uninstalled": "Удалено расширение {package}"
                 },
                 "fof_ban_ips": {
                     "banned": "",
