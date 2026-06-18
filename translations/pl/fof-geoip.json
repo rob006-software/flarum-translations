@@ -30,8 +30,8 @@
                 "quota_label": "Limit zapytań",
                 "show_flag_label": "Pokazuj flagę kraju przy każdym poście",
                 "show_flag_help": "Wyświetla flagę kraju przypisaną do adresu IP autora posta (bez ujawniania samego adresu), jeśli użytkownik włączy tę opcję w swoich preferencjach.",
-                "allow_custom_flag_label": "",
-                "allow_custom_flag_help": "",
+                "allow_custom_flag_label": "Pozwól użytkownikom na wybór własnej flagi kraju",
+                "allow_custom_flag_help": "Jeśli włączone, użytkownicy mogą z poziomu ustawień profilu wybrać flagę, która będzie widoczna przy ich postach. Taka flaga jest widoczna dla wszystkich i ma pierwszeństwo przed flagą wykrytą na podstawie adresu IP. Wymaga włączonej opcji \"Wyświetlaj flagę kraju przy każdym poście\".",
                 "test": {
                     "heading": "Test konfiguracji usługi",
                     "help": "Przetestuj konfigurację usługi sprawdzania IP za pomocą przykładowego adresu. Przed wykonaniem testu upewnij się, że zapisałeś ustawienia."
@@ -63,26 +63,26 @@
         },
         "lib": {
             "alerts": {
-                "ip_copied": ""
+                "ip_copied": "Skopiowano adres IP"
             },
-            "copy_ip_label": "",
-            "map_button_label": "",
+            "copy_ip_label": "Skopiuj IP do schowka",
+            "map_button_label": "Informacje o IP",
             "map_modal": {
-                "title": "",
-                "ip_address": "",
-                "country_code": "",
-                "zip_code": "",
-                "isp": "",
-                "as": "",
-                "mobile": "",
-                "organization": "",
-                "threat_level": "",
-                "threat_types": "",
-                "error": "",
-                "not_enough_data": ""
+                "title": "Informacje o adresie IP",
+                "ip_address": "Adres IP",
+                "country_code": "Kod kraju",
+                "zip_code": "Kod pocztowy",
+                "isp": "Dostawca internetu (ISP)",
+                "as": "ASN",
+                "mobile": "Sieć komórkowa",
+                "organization": "Organizacja",
+                "threat_level": "Poziom zagrożenia",
+                "threat_types": "Rodzaje zagrożeń",
+                "error": "Błąd",
+                "not_enough_data": "Zbyt mało danych, aby wygenerować mapę"
             },
             "custom_flag": {
-                "none": "",
+                "none": "Brak własnej flagi",
                 "placeholder": ""
             }
         },
@@ -90,8 +90,8 @@
             "user": {
                 "settings": {
                     "ip_country": "Pokazuj flagę kraju, z którego piszę, na podstawie mojego adresu IP",
-                    "custom_flag_label": "",
-                    "custom_flag_help": ""
+                    "custom_flag_label": "Własna flaga kraju",
+                    "custom_flag_help": "Wybierz flagę kraju, która będzie widoczna przy Twoich postach. Flaga ta jest widoczna dla wszystkich i zastępuje tę generowaną na podstawie Twojego adresu IP."
                 }
             },
             "alerts": {

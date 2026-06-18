@@ -2799,6 +2799,8 @@
                 },
                 "settings": {
                     "access_key_label": "2e3a68ed5a089edce456e8a3453a470d 2e3a68ed5a089edce456e8a3453a470d",
+                    "allow_custom_flag_help": "76033490a1fa3759cccbf7bd8e98bbb3 76033490a1fa3759cccbf7bd8e98bbb3",
+                    "allow_custom_flag_label": "c7c8cf30914de2e5fac055c8b886564d c7c8cf30914de2e5fac055c8b886564d",
                     "error_code_prefix": "a709f5d50b126ed6c2da5a137f3a51d2 a709f5d50b126ed6c2da5a137f3a51d2",
                     "error_prefix": "195f6c5b9315a09ef780cc3566cd4ba2 195f6c5b9315a09ef780cc3566cd4ba2",
                     "general": {
@@ -2874,8 +2876,34 @@
                 },
                 "user": {
                     "settings": {
+                        "custom_flag_help": "504856fc08d07d9024d1893f97590478 504856fc08d07d9024d1893f97590478",
+                        "custom_flag_label": "6e75da0fcc1a28d0f07ad3299936c8fc 6e75da0fcc1a28d0f07ad3299936c8fc",
                         "ip_country": "b2b1cd7fd730ec86ad0a58e30e4de6f7 b2b1cd7fd730ec86ad0a58e30e4de6f7"
                     }
+                }
+            },
+            "lib": {
+                "alerts": {
+                    "ip_copied": "b8a7982295f51a880dc6413e3177cef4 b8a7982295f51a880dc6413e3177cef4"
+                },
+                "copy_ip_label": "df49234a15a249a90fcb61b6774359a2 df49234a15a249a90fcb61b6774359a2",
+                "custom_flag": {
+                    "none": "ce5458c573310599bb288616b4c726b2 ce5458c573310599bb288616b4c726b2"
+                },
+                "map_button_label": "f5e2051276519e6825b763311eebfb4c f5e2051276519e6825b763311eebfb4c",
+                "map_modal": {
+                    "as": "dec20b35ad94f1a61d9de894338ba93f dec20b35ad94f1a61d9de894338ba93f",
+                    "country_code": "bcf04fae690bebe97b336f5cfd734815 bcf04fae690bebe97b336f5cfd734815",
+                    "error": "e8c93d5cb5681c80dc3aa2f03f7b977d e8c93d5cb5681c80dc3aa2f03f7b977d",
+                    "ip_address": "553cfe739a236c220eee12e7975c0fc4 553cfe739a236c220eee12e7975c0fc4",
+                    "isp": "ec05d084b1d4508cceade366b469a2de ec05d084b1d4508cceade366b469a2de",
+                    "mobile": "fa5e43914584b201e1666dbafa065da9 fa5e43914584b201e1666dbafa065da9",
+                    "not_enough_data": "dceb43e75b90362b43c311082cbb0832 dceb43e75b90362b43c311082cbb0832",
+                    "organization": "77b366c2c739a161315b13b860fbb55d 77b366c2c739a161315b13b860fbb55d",
+                    "threat_level": "20208970f596fdebca5c5452caea975e 20208970f596fdebca5c5452caea975e",
+                    "threat_types": "d2ad9595ed44d4a30db02cc76eb20ea4 d2ad9595ed44d4a30db02cc76eb20ea4",
+                    "title": "f7cdb5df0f557cb50332775ce2964a2b f7cdb5df0f557cb50332775ce2964a2b",
+                    "zip_code": "3f13587bff86fff2fce52173436902b3 3f13587bff86fff2fce52173436902b3"
                 }
             }
         }
