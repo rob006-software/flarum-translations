@@ -119,7 +119,7 @@
                 "group": {
                     "created": "Gruppe {name} erstellt",
                     "deleted": "Gruppe {name} gelöscht",
-                    "renamed": ""
+                    "renamed": "Gruppe von {old_name} nach {new_name} umbenannt"
                 },
                 "permission_changed": "Berechtigung {permission} von {old_groups} auf {new_groups} geändert",
                 "post": {
@@ -134,7 +134,7 @@
                 },
                 "setting_changed": "Hat Einstellung {key} bearbeitet",
                 "setting_changed_with_values": "Einstellung {key} von {old_value} zu {new_value} geändert",
-                "settings_reset": "",
+                "settings_reset": "Einstellungen {keys} für {extension} zurückgesetzt",
                 "user": {
                     "activated": "Konto von {username} manuell aktiviert",
                     "activated_with_email": "Konto von {username} per Bestätigungslink aktiviert",
