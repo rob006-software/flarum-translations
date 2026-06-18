@@ -10,7 +10,7 @@
             },
             "limitedSettings": {
                 "configure": "Настроить",
-                "title": "Настройки ограниченного аудита",
+                "title": "Настройка ограниченного аудита",
                 "introduction": "Укажите данные, которые могут просматривать пользователи в ограниченном аудите",
                 "requiresExtension": "Требуется расширение {extension}"
             },
@@ -166,9 +166,9 @@
                     "suspended": "Пользователь {username} заблокирован до {until}",
                     "unsuspended": "Пользователь {username} разблокирован",
                     "username_changed": "{username} пользователя изменено с {old_username} на {new_username}",
-                    "username_requested": "",
-                    "username_request_approved": "",
-                    "username_request_rejected": ""
+                    "username_requested": "Запрошено новое имя {new_username} для пользователя {username}",
+                    "username_request_approved": "Одобрено изменение имени пользователя {username} с {old_username} на {new_username}",
+                    "username_request_rejected": "Отклонено изменение имени пользователя {username}"
                 }
             }
         }
