@@ -74,29 +74,29 @@
             "copy_ip_label": "IP-cím vágólapra másolása",
             "map_button_label": "IP-információ",
             "map_modal": {
-                "title": "",
-                "ip_address": "",
-                "country_code": "",
-                "zip_code": "",
-                "isp": "",
-                "as": "",
-                "mobile": "",
-                "organization": "",
-                "threat_level": "",
-                "threat_types": "",
-                "error": "",
-                "not_enough_data": ""
+                "title": "IP-információ",
+                "ip_address": "IP-cím",
+                "country_code": "Országkód",
+                "zip_code": "Irányítószám",
+                "isp": "ISP",
+                "as": "ASN",
+                "mobile": "Mobilhálózat",
+                "organization": "Szervezet",
+                "threat_level": "Fenyegetési szint",
+                "threat_types": "Fenyegetéstípusok",
+                "error": "Hiba",
+                "not_enough_data": "Nincs elég adat a térkép rajzolásához"
             },
             "custom_flag": {
-                "none": ""
+                "none": "Nincs egyéni zászló"
             }
         },
         "forum": {
             "user": {
                 "settings": {
                     "ip_country": "Az ország zászlajának megjelenítése, ahonnan a bejegyzést közzéteszi (IP-cím alapján)",
-                    "custom_flag_label": "",
-                    "custom_flag_help": ""
+                    "custom_flag_label": "Egyéni országzászló",
+                    "custom_flag_help": "Válassza ki a bejegyzéseinél megjelenítendő országzászlót. A zászló mindenki számára látható, és ez jelenik meg az IP-cím alapján megállapított helyett."
                 }
             },
             "alerts": {
