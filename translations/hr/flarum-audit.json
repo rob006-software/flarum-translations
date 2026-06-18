@@ -1,0 +1,169 @@
+{
+    "flarum-audit": {
+        "admin": {
+            "permissions": {
+                "view": "",
+                "viewLimited": ""
+            },
+            "header": {
+                "title": ""
+            },
+            "limitedSettings": {
+                "configure": "",
+                "title": "",
+                "introduction": "",
+                "requiresExtension": ""
+            },
+            "settings": {
+                "limitedIpAddress": ""
+            }
+        },
+        "forum": {
+            "link": {
+                "all-audit": "",
+                "discussion-audit": "",
+                "user-audit": "",
+                "actor-audit": ""
+            },
+            "modal": {
+                "all-title": "",
+                "discussion-title": "",
+                "user-title": "",
+                "actor-title": ""
+            }
+        },
+        "lib": {
+            "browser": {
+                "filterPlaceholder": "",
+                "filterApply": "",
+                "filterClear": "",
+                "refresh": "",
+                "filtersHint": "",
+                "filters": {
+                    "actor": "",
+                    "user": "",
+                    "action": "",
+                    "client": "",
+                    "ip": "",
+                    "discussion": ""
+                },
+                "help": {
+                    "toggle": "",
+                    "multiple": "",
+                    "negate": ""
+                },
+                "empty": "",
+                "loadMore": "",
+                "withoutActor": "",
+                "deletedResource": {
+                    "discussion": "",
+                    "group": "",
+                    "post": "",
+                    "tag": "",
+                    "user": ""
+                },
+                "genericResource": {
+                    "comment": "",
+                    "post": ""
+                },
+                "permissionGroup": {
+                    "everyone": "",
+                    "members": ""
+                },
+                "noValue": "",
+                "noReason": "",
+                "core": "",
+                "client": {
+                    "session": "",
+                    "api_key": "",
+                    "access_token": "",
+                    "cli": "",
+                    "unknown": ""
+                },
+                "controls": {
+                    "title": "",
+                    "hideRaw": "",
+                    "showRaw": "",
+                    "filterActor": "",
+                    "filterIp": "",
+                    "filterClient": "",
+                    "filterAction": "",
+                    "filterUser": "",
+                    "filterDiscussion": ""
+                },
+                "audit_log_cleared": "",
+                "cache_cleared": "",
+                "developer_token_created": "",
+                "discussion": {
+                    "created": "",
+                    "create_date_changed": "",
+                    "deleted": "",
+                    "hidden": "",
+                    "merged_away": "",
+                    "merged_into": "",
+                    "renamed": "",
+                    "restored": "",
+                    "split_away": "",
+                    "split_into": "",
+                    "user_changed": ""
+                },
+                "extension": {
+                    "disabled": "",
+                    "enabled": "",
+                    "uninstalled": ""
+                },
+                "fof_ban_ips": {
+                    "banned": "",
+                    "unbanned": ""
+                },
+                "group": {
+                    "created": "",
+                    "deleted": "",
+                    "renamed": ""
+                },
+                "permission_changed": "",
+                "post": {
+                    "created": "",
+                    "create_date_changed": "",
+                    "deleted": "",
+                    "edit_date_changed": "",
+                    "hidden": "",
+                    "restored": "",
+                    "revised": "",
+                    "user_changed": ""
+                },
+                "setting_changed": "",
+                "setting_changed_with_values": "",
+                "settings_reset": "",
+                "user": {
+                    "activated": "",
+                    "activated_with_email": "",
+                    "avatar_changed": "",
+                    "avatar_removed": "",
+                    "bio_changed": "",
+                    "created": "",
+                    "deleted": "",
+                    "email_changed": "",
+                    "email_change_requested": "",
+                    "groups_changed": "",
+                    "impersonated": "",
+                    "logged_in": "",
+                    "logged_in_with_provider": "",
+                    "logged_out": "",
+                    "nickname_requested": "",
+                    "nickname_request_approved": "",
+                    "nickname_request_rejected": "",
+                    "password_changed": "",
+                    "password_change_requested": "",
+                    "password_reset_attempted": "",
+                    "password_reset_attempted_unmatched": "",
+                    "provider_connected": "",
+                    "username_changed": "",
+                    "username_requested": "",
+                    "username_request_approved": "",
+                    "username_request_rejected": ""
+                }
+            }
+        }
+    }
+}
