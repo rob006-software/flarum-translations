@@ -191,12 +191,12 @@
         "lib": {
             "browser": {
                 "user": {
-                    "gdpr_erasure_requested": "",
-                    "gdpr_erasure_confirmed": "",
-                    "gdpr_erasure_cancelled": "",
-                    "gdpr_anonymized": "",
-                    "gdpr_deleted": "",
-                    "gdpr_exported": ""
+                    "gdpr_erasure_requested": "Hat die Löschung der Daten von {username} beantragt",
+                    "gdpr_erasure_confirmed": "Hat die Löschung der Daten von {username} bestätigt",
+                    "gdpr_erasure_cancelled": "Hat den Antrag auf Löschung der Daten von {username} abgebrochen",
+                    "gdpr_anonymized": "Daten von {username} anonymisiert",
+                    "gdpr_deleted": "Daten von {username} gelöscht",
+                    "gdpr_exported": "Daten von {username} exportiert"
                 }
             }
         }

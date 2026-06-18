@@ -2638,6 +2638,18 @@
             }
         }
     },
+    "ernestdefoe-mobile-tab.json": {
+        "ernestdefoe-mobile-tab": {
+            "admin": {
+                "field_center": "4e43130646638c27dadbcf19303b62f2 4e43130646638c27dadbcf19303b62f2",
+                "field_icon": "02c86eb2792f3262c21d030a87e19793 02c86eb2792f3262c21d030a87e19793",
+                "field_label": "d4f7294a6720dfdd6fab7083c57a2be2 d4f7294a6720dfdd6fab7083c57a2be2",
+                "field_type": "978d7d6bde930f0fa9615627a15b2fc1 978d7d6bde930f0fa9615627a15b2fc1",
+                "field_url": "e6b391a8d2c4d45902a23a8b6585703d e6b391a8d2c4d45902a23a8b6585703d",
+                "field_visibility": "9b201bc2507eeb830a7568a3cc5601aa 9b201bc2507eeb830a7568a3cc5601aa"
+            }
+        }
+    },
     "ernestdefoe-respawn.json": {
         "ernestdefoe-respawn": {
             "admin": {
@@ -2873,6 +2885,18 @@
             "ref": {
                 "awaiting_approval": "446a500545fc1ba77151d26027fd99e4 446a500545fc1ba77151d26027fd99e4"
             }
+        },
+        "flarum-audit": {
+            "lib": {
+                "browser": {
+                    "discussion": {
+                        "approved": "fb51b76b10833e5cbf026193896ef550 fb51b76b10833e5cbf026193896ef550"
+                    },
+                    "post": {
+                        "approved": "415734ff1b2d713f31a737192e0ca30a 415734ff1b2d713f31a737192e0ca30a"
+                    }
+                }
+            }
         }
     },
     "flarum-audit.json": {
@@ -2928,7 +2952,8 @@
                         "filterIp": "b0fef571c9fa7e1e25790168bcce5747 b0fef571c9fa7e1e25790168bcce5747",
                         "filterUser": "c5c34c2f853a69a38aa11aba735bcd0e c5c34c2f853a69a38aa11aba735bcd0e",
                         "hideRaw": "e13c4c867a6c9aafc02e4ad20f760b3d e13c4c867a6c9aafc02e4ad20f760b3d",
-                        "showRaw": "084acdcc8ce676557e685be14d3594ff 084acdcc8ce676557e685be14d3594ff"
+                        "showRaw": "084acdcc8ce676557e685be14d3594ff 084acdcc8ce676557e685be14d3594ff",
+                        "title": "78fbac063f5db9c21cc8b198d1d72100 78fbac063f5db9c21cc8b198d1d72100"
                     },
                     "core": "a74ad8dfacd4f985eb3977517615ce25 a74ad8dfacd4f985eb3977517615ce25",
                     "deletedResource": {
@@ -2938,6 +2963,7 @@
                         "tag": "ab4aa3f0d59a245db47edc0c97233f8f ab4aa3f0d59a245db47edc0c97233f8f",
                         "user": "29527f90447fe9531213b0196470a407 29527f90447fe9531213b0196470a407"
                     },
+                    "developer_token_created": "2a47af8def6b8b9214a891413e7a1788 2a47af8def6b8b9214a891413e7a1788",
                     "discussion": {
                         "create_date_changed": "47c0ae8fb1a3c2b7a716b832f86eb5e7 47c0ae8fb1a3c2b7a716b832f86eb5e7",
                         "created": "cd986b473566eaaf860dcc652bdc6cf3 cd986b473566eaaf860dcc652bdc6cf3",
@@ -3275,6 +3301,16 @@
         }
     },
     "flarum-flags.json": {
+        "flarum-audit": {
+            "lib": {
+                "browser": {
+                    "post": {
+                        "dismissed_flags": "a70d6eef6d7044ff4832166a8a1eb810 a70d6eef6d7044ff4832166a8a1eb810",
+                        "flagged": "53f1f162273d64e8cf3e79eefddf7d4c 53f1f162273d64e8cf3e79eefddf7d4c"
+                    }
+                }
+            }
+        },
         "flarum-flags": {
             "admin": {
                 "permissions": {
@@ -3326,6 +3362,20 @@
         }
     },
     "flarum-gdpr.json": {
+        "flarum-audit": {
+            "lib": {
+                "browser": {
+                    "user": {
+                        "gdpr_anonymized": "21eecd3075920b8c38e118e208b77a56 21eecd3075920b8c38e118e208b77a56",
+                        "gdpr_deleted": "c2017102d516e4dab87879285e5f1635 c2017102d516e4dab87879285e5f1635",
+                        "gdpr_erasure_cancelled": "7d3c60e0c0a51fed7790395b782883a7 7d3c60e0c0a51fed7790395b782883a7",
+                        "gdpr_erasure_confirmed": "363a8ff106d423a1991c0980d6db04ac 363a8ff106d423a1991c0980d6db04ac",
+                        "gdpr_erasure_requested": "001ae945d629f16a6dd57c131beb90a8 001ae945d629f16a6dd57c131beb90a8",
+                        "gdpr_exported": "329f24a552cc01132c5d9fac28532a1f 329f24a552cc01132c5d9fac28532a1f"
+                    }
+                }
+            }
+        },
         "flarum-gdpr": {
             "admin": {
                 "gdpr_page": {
@@ -3820,6 +3870,15 @@
         }
     },
     "flarum-nicknames.json": {
+        "flarum-audit": {
+            "lib": {
+                "browser": {
+                    "user": {
+                        "nickname_changed": "df44f47b5048872d0f8dfb6a3c61d4a2 df44f47b5048872d0f8dfb6a3c61d4a2"
+                    }
+                }
+            }
+        },
         "flarum-nicknames": {
             "admin": {
                 "basics": {
@@ -3870,10 +3929,15 @@
         "flarum-pusher": {
             "admin": {
                 "pusher_settings": {
+                    "app_cluster_help": "146d55cf641e6dfb223e61d214d4a823 146d55cf641e6dfb223e61d214d4a823",
                     "app_cluster_label": "249694a485fc5d3289c38986b4f8e887 249694a485fc5d3289c38986b4f8e887",
+                    "app_id_help": "3c1c9a2342c5185d1876d642a52e11c3 3c1c9a2342c5185d1876d642a52e11c3",
                     "app_id_label": "6be37447234a81f282165398a7ea48f4 6be37447234a81f282165398a7ea48f4",
+                    "app_key_help": "e68d3ed1b4a30ce901500efd5d1d52d3 e68d3ed1b4a30ce901500efd5d1d52d3",
                     "app_key_label": "2832d3733d4509fde021394a6503e416 2832d3733d4509fde021394a6503e416",
+                    "app_secret_help": "e13d6c2d2b46dd5c4fbb72c4b86e384b e13d6c2d2b46dd5c4fbb72c4b86e384b",
                     "app_secret_label": "61be046f95cb2ba09bf173f0cbba80d9 20fd904ca6b3fff24dae4c9a987940dc",
+                    "server_hostname_help": "2dc3e59ec0627769068924036f72f449 2dc3e59ec0627769068924036f72f449",
                     "server_hostname_label": "8f544925cdefa07c81a11621c25338bd 8f544925cdefa07c81a11621c25338bd",
                     "title": "5ef8bba66d295362e1e2f0cccbf21aa9 5ef8bba66d295362e1e2f0cccbf21aa9"
                 }
@@ -3892,6 +3956,10 @@
                     "view-who-types": "4a0c2322f84832bcd9655e0d1a13059d 4a0c2322f84832bcd9655e0d1a13059d"
                 },
                 "settings": {
+                    "index-typing-indicator": "ce73d4cbf5e8954739d17af07b66fcb3 ce73d4cbf5e8954739d17af07b66fcb3",
+                    "index-typing-indicator-help": "dea96507d91f6f34de0e648c77f536fb dea96507d91f6f34de0e648c77f536fb",
+                    "index-typing-indicator-restricted": "3ee2576d00c62b0850ad790bf8686937 3ee2576d00c62b0850ad790bf8686937",
+                    "index-typing-indicator-restricted-help": "7c76932b9a4fec996b85e84940171a72 7c76932b9a4fec996b85e84940171a72",
                     "notification-toast-dismiss-after": "bd13d92b6da2af2d65738cecebda7114 bd13d92b6da2af2d65738cecebda7114",
                     "notification-toast-dismiss-after-help": "d3dbe6ade16a8b1fde0e50143b2cdbc6 d3dbe6ade16a8b1fde0e50143b2cdbc6",
                     "release-discussion-updates": "752042c92b8155d1ac5d7b76547f4142 752042c92b8155d1ac5d7b76547f4142",
@@ -4083,6 +4151,16 @@
         }
     },
     "flarum-suspend.json": {
+        "flarum-audit": {
+            "lib": {
+                "browser": {
+                    "user": {
+                        "suspended": "1ded2266e0214348003934867d0668d1 1ded2266e0214348003934867d0668d1",
+                        "unsuspended": "b7ddec341738a1dc37b670c3a4ad4eab b7ddec341738a1dc37b670c3a4ad4eab"
+                    }
+                }
+            }
+        },
         "flarum-suspend": {
             "admin": {
                 "permissions": {
