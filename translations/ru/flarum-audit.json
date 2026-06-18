@@ -115,12 +115,12 @@
                     "uninstalled": "Удалено расширение {package}"
                 },
                 "fof_ban_ips": {
-                    "banned": "",
-                    "unbanned": ""
+                    "banned": "Заблокирован IP-адрес {ip}",
+                    "unbanned": "Разблокирован IP-адрес {ip}"
                 },
-                "permission_changed": "",
+                "permission_changed": "Изменено разрешение {permission}: {old_groups} → {new_groups}",
                 "post": {
-                    "approved": "",
+                    "approved": "Одобрено сообщение пользователя {postuser} ({post}) в теме {discussion}",
                     "created": "",
                     "create_date_changed": "",
                     "deleted": "",
