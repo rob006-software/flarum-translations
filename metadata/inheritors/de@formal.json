@@ -2977,6 +2977,10 @@
                         "comment": "cd05591e8d0d62d2c11ba7421d80cdba cd05591e8d0d62d2c11ba7421d80cdba",
                         "post": "9d5d0cda540bbd56e919e37665fd305d 9d5d0cda540bbd56e919e37665fd305d"
                     },
+                    "group": {
+                        "created": "dfd4674daf02dec648f631d4982e6532 dfd4674daf02dec648f631d4982e6532",
+                        "deleted": "9f018e6c3bb92f78cae27fbf038226a2 9f018e6c3bb92f78cae27fbf038226a2"
+                    },
                     "help": {
                         "multiple": "f361ffa03e769d22e4361c3ea9f1d56d f361ffa03e769d22e4361c3ea9f1d56d",
                         "negate": "e442b0a9ed87a93d7d7cc10e647b0e97 e442b0a9ed87a93d7d7cc10e647b0e97",
@@ -3886,6 +3890,10 @@
                 }
             },
             "forum": {
+                "index-typing": {
+                    "someone-typing": "ebd3cf09745f6dac33fdba9b1962f3b9 ebd3cf09745f6dac33fdba9b1962f3b9",
+                    "someone-typing-tag": "feb7554684b52797d63b810c3f1c0ae7 feb7554684b52797d63b810c3f1c0ae7"
+                },
                 "push": {
                     "discussion-list-new-activity": "a3b8296b856ae55a5ad9c26e8f013b4a a3b8296b856ae55a5ad9c26e8f013b4a",
                     "discussion-list-new-activity-with-auto-release": "ee2d54236cec47ec9f9c8a65a5cdbf07 ee2d54236cec47ec9f9c8a65a5cdbf07"
@@ -4122,9 +4130,27 @@
         }
     },
     "flarum-tags.json": {
+        "flarum-audit": {
+            "lib": {
+                "browser": {
+                    "discussion": {
+                        "tagged": "5b5df13999850bfd83fd6b8598151132 5b5df13999850bfd83fd6b8598151132"
+                    },
+                    "tag": {
+                        "created": "1634d0a340017c22563391f64e8992cc 1634d0a340017c22563391f64e8992cc",
+                        "deleted": "c6130fdc5f8e538a21f7a68b950aec99 c6130fdc5f8e538a21f7a68b950aec99",
+                        "updated": "0f344bb8864de603b9c4156abd5cafd3 0f344bb8864de603b9c4156abd5cafd3"
+                    }
+                }
+            }
+        },
         "flarum-tags": {
             "admin": {
                 "basics": {
+                    "slug_driver_options": {
+                        "default": "eb6d8ae6f20283755b339c0dc273988b eb6d8ae6f20283755b339c0dc273988b",
+                        "id_with_slug": "a55295998251985a99ca4ca050515bec a55295998251985a99ca4ca050515bec"
+                    },
                     "tags_label": "1bafd20aed021e65d59dbdccf273f86c 1bafd20aed021e65d59dbdccf273f86c"
                 },
                 "edit_tag": {
