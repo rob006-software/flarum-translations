@@ -2,16 +2,16 @@
     "askvortsov-auto-moderator": {
         "admin": {
             "action_drivers": {
-                "activate_email": "Активировать эл.почту",
+                "activate_email": "Активировать email",
                 "add_to_group": "Добавить в группу",
                 "remove_from_group": "Удалить из группы",
                 "suspend": "Деактивировать",
                 "unsuspend": "Активировать"
             },
             "metric_drivers": {
-                "discussions_entered": "Прочитано дискуссий",
-                "discussions_participated": "Участие в дискуссиях",
-                "discussions_started": "Открыто дискуссий",
+                "discussions_entered": "Прочитано тем",
+                "discussions_participated": "Участие в темах",
+                "discussions_started": "Открыто тем",
                 "posts_made": "Отправлено сообщений",
                 "likes_given": "Оставлено одобрений",
                 "likes_received": "Получено одобрений",
@@ -19,13 +19,13 @@
                 "moderator_strikes": "Получено предупреждений модератора"
             },
             "requirement_drivers": {
-                "email_confirmed": "Эл.почта подтверждена",
+                "email_confirmed": "Email подтверждён",
                 "in_group": "В группе",
                 "suspended": "Деактивирован",
-                "email_matches_regex": "Шаблон совпадения эл.почты"
+                "email_matches_regex": "Шаблон совпадения email"
             },
             "in_group_settings": {
-                "regex": "Шаблон для корректных эл.почт (без слэшей)"
+                "regex": "Шаблон для корректных email – без слэшей"
             },
             "group_selector": {
                 "placeholder": "Выберите группу"
