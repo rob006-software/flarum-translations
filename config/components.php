@@ -189,7 +189,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/flarum/lock/v2.0.0-rc.4/locale/en.yml',
 	],
 	'flarum-markdown' => [
-		'beta' => 'https://raw.githubusercontent.com/flarum/markdown/v2.0.0-rc.3/locale/en.yml',
+		'beta' => 'https://raw.githubusercontent.com/flarum/markdown/v2.0.0-rc.4/locale/en.yml',
 	],
 	'flarum-mentions' => [
 		'beta' => 'https://raw.githubusercontent.com/flarum/mentions/v2.0.0-rc.3/locale/en.yml',
