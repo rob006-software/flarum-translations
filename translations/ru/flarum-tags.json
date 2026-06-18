@@ -4,8 +4,8 @@
             "basics": {
                 "tags_label": "=> flarum-tags.ref.tags",
                 "slug_driver_options": {
-                    "default": "",
-                    "id_with_slug": ""
+                    "default": "По умолчанию",
+                    "id_with_slug": "ID с slug"
                 }
             },
             "edit_tag": {
@@ -116,12 +116,12 @@
         "lib": {
             "browser": {
                 "discussion": {
-                    "tagged": ""
+                    "tagged": "Обновлены теги {discussion} с {old_tags} на {new_tags}"
                 },
                 "tag": {
-                    "created": "",
-                    "updated": "",
-                    "deleted": ""
+                    "created": "Тег создан {tag}",
+                    "updated": "Тег обновлен {tag}",
+                    "deleted": "Тег удален {tag}"
                 }
             }
         }
