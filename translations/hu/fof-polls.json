@@ -59,7 +59,7 @@
                 "total_votes": "{count, plural, one {# szavazat lett leadva} other {# szavazat lett leadva}}",
                 "draft_label": "Vázlat",
                 "scheduled_label": "Ütemezve: {date}",
-                "scheduled_error_tooltip": ""
+                "scheduled_error_tooltip": "Az ütemezett publikálás sikertelen. Nyissa meg a szavazást, hogy lássa miért."
             },
             "poll_controls": {
                 "edit_label": "=> core.ref.edit",
@@ -68,16 +68,16 @@
                 "delete_confirmation": "Biztos, hogy törli ezt a szavazást?",
                 "delete_success_message": "A szavazás sikeresen törölve.",
                 "delete_error_message": "Hiba történt a szavazás törlése során.",
-                "publish_label": "",
-                "publish_success": "",
-                "schedule_publish_label": "",
-                "edit_schedule_publish_label": "",
-                "cancel_schedule_label": "",
-                "cancel_schedule_success": "",
-                "unpublish_label": "",
-                "unpublish_confirmation": "",
-                "unpublish_success": "",
-                "unpublish_error_has_votes": ""
+                "publish_label": "Közzététel most",
+                "publish_success": "Szavazás közzétéve.",
+                "schedule_publish_label": "Közzététel ütemezése",
+                "edit_schedule_publish_label": "Ütemezett közzététel szerkesztése",
+                "cancel_schedule_label": "Ütemezett közzététel megszakítása",
+                "cancel_schedule_success": "Ütemezett közzététel megszakítva.",
+                "unpublish_label": "Visszaállítás vázlattá",
+                "unpublish_confirmation": "Visszaállítja a szavazást vázlattá? El fogja tüntetni a kiemelésből.",
+                "unpublish_success": "Szavazás visszaállítva vázlattá.",
+                "unpublish_error_has_votes": "A közzététel nem vonható vissza – a szavazáson már vannak szavazatok. Helyette törölje."
             },
             "poll_form": {
                 "delete": "Szavazás törlése",
@@ -128,9 +128,9 @@
                     }
                 },
                 "status_filter": {
-                    "all": "",
-                    "published": "",
-                    "draft": ""
+                    "all": "Összes",
+                    "published": "Közzétéve",
+                    "draft": "Vázlatok"
                 }
             },
             "composer_discussion": {
@@ -145,16 +145,16 @@
                 "polls_preview": "Szavazás megtekintése",
                 "continue_editing": "Szerkesztés folytatása",
                 "success": "Szavazás sikeresen mentve.",
-                "submit": "",
-                "save_as_draft": "",
-                "update_draft": "",
-                "draft_saved": "",
-                "publish": "",
-                "schedule_publication": "",
-                "schedule_publication_edit": "",
-                "schedule_datetime_label": "",
-                "schedule_submit": "",
-                "schedule": ""
+                "submit": "Beküldés",
+                "save_as_draft": "Mentés vázlatként",
+                "update_draft": "Vázlat frissítése",
+                "draft_saved": "Vázlat mentve",
+                "publish": "Közzététel",
+                "schedule_publication": "Közzététel ütemezése",
+                "schedule_publication_edit": "Ütemezett közzététel szerkesztése",
+                "schedule_datetime_label": "Közzététel ideje:",
+                "schedule_submit": "Ütemezés",
+                "schedule": "Ütemezés"
             },
             "modal": {
                 "add_title": "Szavazás hozzáadása",
@@ -164,7 +164,7 @@
                 "include_question": "Lennie kell egy kérdésnek",
                 "max": "Legfeljebb {max} válasz lehet",
                 "min": "Legalább 2 választ meg kell adni",
-                "empty_answers": "",
+                "empty_answers": "{count, plural, one {# válasz üres – töltse ki vagy távolítsa el.} other {# válasz üres – töltse ki vagy távolítsa el őket.}}",
                 "no_voters": "Nincs szavazat",
                 "option_placeholder": "Válasz",
                 "image_option_placeholder": "Kép webcíme (nem kötelező)",
