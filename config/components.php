@@ -180,7 +180,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/flarum/flags/v2.0.0-rc.4/locale/en.yml',
 	],
 	'flarum-gdpr' => [
-		'beta' => 'https://raw.githubusercontent.com/flarum/gdpr/v2.0.0-rc.3/resources/locale/en.yml',
+		'beta' => 'https://raw.githubusercontent.com/flarum/gdpr/v2.0.0-rc.4/resources/locale/en.yml',
 	],
 	'flarum-likes' => [
 		'beta' => 'https://raw.githubusercontent.com/flarum/likes/v2.0.0-rc.3/locale/en.yml',
