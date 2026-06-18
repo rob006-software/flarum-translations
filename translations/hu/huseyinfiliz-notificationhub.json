@@ -49,7 +49,7 @@
                 "no_notification_types": "Még nincsenek aktív értesítéstípusok.",
                 "preview_title": "Értesítés előnézete",
                 "preview_message_placeholder": "Értesítési üzenet…",
-                "preview_all_members": ""
+                "preview_all_members": "Összes tag"
             },
             "recipient_kinds": {
                 "user": "Felhasználó",
@@ -61,14 +61,14 @@
             "user_ids_required": "A felhasználóazonosítók megadása kötelező.",
             "subject_id_required": "Az értesítés típusának megadása kötelező.",
             "no_valid_recipients": "Nem található érvényes címzett.",
-            "name_required": "",
-            "invalid_url": "",
-            "name_too_long": "",
-            "message_too_long": "",
-            "url_too_long": "",
-            "invalid_url_scheme": "",
-            "sort_order_invalid": "",
-            "field_too_long": ""
+            "name_required": "Az értesítés típusának neve kötelező.",
+            "invalid_url": "Érvénytelen webcímprotokoll észlelve.",
+            "name_too_long": "A név nem lehet 255 karakternél hosszabb.",
+            "message_too_long": "Az üzenet nem lehet 5000 karakternél hosszabb.",
+            "url_too_long": "A webcím nem lehet 2048 karakternél hosszabb.",
+            "invalid_url_scheme": "Érvénytelen webcímséma. Csak a HTTP, HTTPS, mailto, tel vagy relatív hivatkozások támogatottak.",
+            "sort_order_invalid": "A rendezési sorrendnek nemnegatív számnak kell lennie.",
+            "field_too_long": "Ez a mező túl hosszú."
         }
     }
 }
