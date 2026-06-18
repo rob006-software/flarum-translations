@@ -185,5 +185,19 @@
             },
             "export_file": "匯出於 {date} 從 {forumTitle} ({url}) 準備的 {username} ({email}) 的使用者數據"
         }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "user": {
+                    "gdpr_erasure_requested": "",
+                    "gdpr_erasure_confirmed": "",
+                    "gdpr_erasure_cancelled": "",
+                    "gdpr_anonymized": "",
+                    "gdpr_deleted": "",
+                    "gdpr_exported": ""
+                }
+            }
+        }
     }
 }

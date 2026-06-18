@@ -11,6 +11,10 @@
                 "users-are-typing": "{count, plural, one {{users} yazıyor} other {{users}{others, plural, =1 { & # other} =0 {} other { & # others}} yazıyorlar}}",
                 "no-activity": "Kimse yazmıyor"
             },
+            "index-typing": {
+                "someone-typing": "",
+                "someone-typing-tag": ""
+            },
             "user": {
                 "settings": {
                     "heading": "Gerçek Zamanlı",
@@ -33,7 +37,11 @@
                 "notification-toast-dismiss-after": "",
                 "notification-toast-dismiss-after-help": "",
                 "typing-indicator": "Yazma göstergesi",
-                "typing-indicator-help": "Etkinleştirildiğinde, izne bağlı olarak kullanıcılar bir tartışmada o anda yazan diğer kullanıcıların sayısını görebilir. Devre dışı bırakıldığında, yazma etkinliği hem arayüzden hem de websocket verisinden kaldırılır."
+                "typing-indicator-help": "Etkinleştirildiğinde, izne bağlı olarak kullanıcılar bir tartışmada o anda yazan diğer kullanıcıların sayısını görebilir. Devre dışı bırakıldığında, yazma etkinliği hem arayüzden hem de websocket verisinden kaldırılır.",
+                "index-typing-indicator": "",
+                "index-typing-indicator-help": "",
+                "index-typing-indicator-restricted": "",
+                "index-typing-indicator-restricted-help": ""
             }
         }
     }

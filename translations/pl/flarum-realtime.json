@@ -11,6 +11,10 @@
                 "users-are-typing": "{count, plural, one {{users} pisze} other {{users}{others, plural, =1 { i # inna osoba} =0 {} few { i # inne osoby} other { i # innych osób}} piszą}}",
                 "no-activity": "Nikt nie pisze"
             },
+            "index-typing": {
+                "someone-typing": "",
+                "someone-typing-tag": ""
+            },
             "user": {
                 "settings": {
                     "heading": "Czas rzeczywisty",
@@ -33,7 +37,11 @@
                 "notification-toast-dismiss-after": "Czas wyświetlania wyskakujących powiadomień",
                 "notification-toast-dismiss-after-help": "Jak długo (w sekundach) wyskakujące powiadomienie pozostaje na ekranie, zanim automatycznie zniknie. Ustaw wartość 0, aby wyłączyć takie powiadomienia.",
                 "typing-indicator": "Wskaźnik pisania",
-                "typing-indicator-help": "Gdy ta opcja jest włączona, użytkownicy z odpowiednimi uprawnieniami będą widzieć liczbę osób aktualnie piszących w dyskusji. Gdy jest wyłączona, aktywność pisania jest całkowicie usuwana – zarówno z interfejsu, jak i z komunikacji websocket."
+                "typing-indicator-help": "Gdy ta opcja jest włączona, użytkownicy z odpowiednimi uprawnieniami będą widzieć liczbę osób aktualnie piszących w dyskusji. Gdy jest wyłączona, aktywność pisania jest całkowicie usuwana – zarówno z interfejsu, jak i z komunikacji websocket.",
+                "index-typing-indicator": "",
+                "index-typing-indicator-help": "",
+                "index-typing-indicator-restricted": "",
+                "index-typing-indicator-restricted-help": ""
             }
         }
     }

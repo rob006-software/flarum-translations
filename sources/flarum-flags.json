@@ -47,5 +47,15 @@
             "flag_post": "Flag Post",
             "flagged_posts": "Flagged Posts"
         }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "post": {
+                    "dismissed_flags": "Dismissed flags on {postuser}'s {post} in {discussion}",
+                    "flagged": "Flagged {postuser}'s {post} as {reason} in {discussion}"
+                }
+            }
+        }
     }
 }

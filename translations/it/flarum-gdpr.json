@@ -185,5 +185,19 @@
             },
             "export_file": "Esporta dati per {username} ({email}) preparata il {date} da {forumTitle} ({url})"
         }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "user": {
+                    "gdpr_erasure_requested": "",
+                    "gdpr_erasure_confirmed": "",
+                    "gdpr_erasure_cancelled": "",
+                    "gdpr_anonymized": "",
+                    "gdpr_deleted": "",
+                    "gdpr_exported": ""
+                }
+            }
+        }
     }
 }

@@ -2,7 +2,11 @@
     "flarum-tags": {
         "admin": {
             "basics": {
-                "tags_label": "الاقسام"
+                "tags_label": "الاقسام",
+                "slug_driver_options": {
+                    "default": "",
+                    "id_with_slug": ""
+                }
             },
             "edit_tag": {
                 "color_label": "=> core.ref.color",
@@ -106,6 +110,20 @@
             "choose_tags_placeholder": "{count, plural, one {اختر علامة واحدة أخرى} other {اختر # علامات أخرى}}",
             "name": "الاسم",
             "tags": "الأقسام"
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "discussion": {
+                    "tagged": ""
+                },
+                "tag": {
+                    "created": "",
+                    "updated": "",
+                    "deleted": ""
+                }
+            }
         }
     }
 }

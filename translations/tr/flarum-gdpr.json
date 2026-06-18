@@ -186,5 +186,19 @@
             },
             "export_file": "{forumTitle}'dan ({url}) {date} tarihinde hazırlanan {username} ({email}) için kullanıcı verilerinin dışa aktarımı"
         }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "user": {
+                    "gdpr_erasure_requested": "",
+                    "gdpr_erasure_confirmed": "",
+                    "gdpr_erasure_cancelled": "",
+                    "gdpr_anonymized": "",
+                    "gdpr_deleted": "",
+                    "gdpr_exported": ""
+                }
+            }
+        }
     }
 }

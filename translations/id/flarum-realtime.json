@@ -11,6 +11,10 @@
                 "users-are-typing": "{count, plural, one {{users} sedang mengetik} other {{users}{others, plural, =1 { & # other} =0 {} other { & # others}} sedang mengetik}}",
                 "no-activity": "Tidak ada yang sedang mengetik"
             },
+            "index-typing": {
+                "someone-typing": "",
+                "someone-typing-tag": ""
+            },
             "user": {
                 "settings": {
                     "heading": "Waktu Nyata",
@@ -33,7 +37,11 @@
                 "notification-toast-dismiss-after": "",
                 "notification-toast-dismiss-after-help": "",
                 "typing-indicator": "Indikator sedang mengetik",
-                "typing-indicator-help": "Jika diaktifkan, tergantung pada hak akses, pengguna dapat melihat jumlah pengguna lain yang sedang mengetik dalam sebuah diskusi. Jika dinonaktifkan, aktivitas mengetik dihapus baik dari UI maupun dari websocket payload."
+                "typing-indicator-help": "Jika diaktifkan, tergantung pada hak akses, pengguna dapat melihat jumlah pengguna lain yang sedang mengetik dalam sebuah diskusi. Jika dinonaktifkan, aktivitas mengetik dihapus baik dari UI maupun dari websocket payload.",
+                "index-typing-indicator": "",
+                "index-typing-indicator-help": "",
+                "index-typing-indicator-restricted": "",
+                "index-typing-indicator-restricted-help": ""
             }
         }
     }

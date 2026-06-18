@@ -2,7 +2,11 @@
     "flarum-tags": {
         "admin": {
             "basics": {
-                "tags_label": "=> flarum-tags.ref.tags"
+                "tags_label": "=> flarum-tags.ref.tags",
+                "slug_driver_options": {
+                    "default": "Default",
+                    "id_with_slug": "ID with slug"
+                }
             },
             "edit_tag": {
                 "color_label": "=> core.ref.color",
@@ -106,6 +110,20 @@
             "choose_tags_placeholder": "{count, plural, one {Choose 1 more tag} other {Choose # more tags}}",
             "name": "Name",
             "tags": "Tags"
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "discussion": {
+                    "tagged": "Updated {discussion} tags from {old_tags} to {new_tags}"
+                },
+                "tag": {
+                    "created": "Created tag {tag}",
+                    "updated": "Updated tag {tag}",
+                    "deleted": "Deleted tag {tag}"
+                }
+            }
         }
     }
 }

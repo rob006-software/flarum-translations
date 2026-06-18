@@ -185,5 +185,19 @@
             },
             "export_file": "Export of user data for {username} ({email}) prepared at {date} from {forumTitle} ({url})"
         }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "user": {
+                    "gdpr_erasure_requested": "Requested erasure of {username}'s data",
+                    "gdpr_erasure_confirmed": "Confirmed the erasure request for {username}'s data",
+                    "gdpr_erasure_cancelled": "Cancelled the erasure request for {username}'s data",
+                    "gdpr_anonymized": "Anonymized {username}'s data",
+                    "gdpr_deleted": "Deleted {username}'s data",
+                    "gdpr_exported": "Exported {username}'s data"
+                }
+            }
+        }
     }
 }

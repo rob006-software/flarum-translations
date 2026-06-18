@@ -11,6 +11,10 @@
                 "users-are-typing": "{count, plural, one {{users} kirjoittaa} other {{users}{others, plural, =1 { & # muu} =0 {} other { & # muuta}} kirjoittavat}}",
                 "no-activity": "Kukaan ei kirjoita"
             },
+            "index-typing": {
+                "someone-typing": "",
+                "someone-typing-tag": ""
+            },
             "user": {
                 "settings": {
                     "heading": "Reaaliaikainen",
@@ -33,7 +37,11 @@
                 "notification-toast-dismiss-after": "Ilmoitusponnahduksen kesto",
                 "notification-toast-dismiss-after-help": "Kuinka kauan (sekunteina) reaaliaikainen ilmoitusponnahdus pysyy näytöllä ennen automaattista sulkemista. Aseta arvoksi 0 poistaaksesi ponnahdusikkunailmoitukset käytöstä.",
                 "typing-indicator": "Kirjoitus indikaattori",
-                "typing-indicator-help": "Kun käytössä, käyttäjät voivat oikeuksien mukaan nähdä muiden käyttäjien kirjoitusaktiivisuuden määrän keskustelussa. Kun poistettu käytöstä, kirjoitusaktiivisuus poistetaan sekä käyttöliittymästä että WebSocket-viestistä."
+                "typing-indicator-help": "Kun käytössä, käyttäjät voivat oikeuksien mukaan nähdä muiden käyttäjien kirjoitusaktiivisuuden määrän keskustelussa. Kun poistettu käytöstä, kirjoitusaktiivisuus poistetaan sekä käyttöliittymästä että WebSocket-viestistä.",
+                "index-typing-indicator": "",
+                "index-typing-indicator-help": "",
+                "index-typing-indicator-restricted": "",
+                "index-typing-indicator-restricted-help": ""
             }
         }
     }

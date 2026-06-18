@@ -11,6 +11,10 @@
                 "users-are-typing": "{count, plural, one {{users} 正在输入} other {{users}{others, plural, =1 { 和另外 # 人} =0 {} other { 和另外 # 人}} 正在输入}}",
                 "no-activity": "没有人正在输入"
             },
+            "index-typing": {
+                "someone-typing": "",
+                "someone-typing-tag": ""
+            },
             "user": {
                 "settings": {
                     "heading": "实时",
@@ -33,7 +37,11 @@
                 "notification-toast-dismiss-after": "通知气泡持续时间",
                 "notification-toast-dismiss-after-help": "实时通知气泡在屏幕上保留多长时间（以秒为单位）后自动消失。设置为 0 以禁用气泡通知。",
                 "typing-indicator": "正在输入指示器",
-                "typing-indicator-help": "启用后（取决于权限），用户可以查看当前正在讨论中输入的其他用户人数。禁用后，输入活动将从界面和 websocket 载荷中移除。"
+                "typing-indicator-help": "启用后（取决于权限），用户可以查看当前正在讨论中输入的其他用户人数。禁用后，输入活动将从界面和 websocket 载荷中移除。",
+                "index-typing-indicator": "",
+                "index-typing-indicator-help": "",
+                "index-typing-indicator-restricted": "",
+                "index-typing-indicator-restricted-help": ""
             }
         }
     }

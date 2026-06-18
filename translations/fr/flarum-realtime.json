@@ -11,6 +11,10 @@
                 "users-are-typing": "{count, plural, one {{users} est en train d'écrire} other {{users}{others, plural, =1 { & # other} =0 {} other { & # others}} sont en train d'écrire}}",
                 "no-activity": "Personne n'est en train d'écrire"
             },
+            "index-typing": {
+                "someone-typing": "",
+                "someone-typing-tag": ""
+            },
             "user": {
                 "settings": {
                     "heading": "Temps réel",
@@ -33,7 +37,11 @@
                 "notification-toast-dismiss-after": "Durée d'affichage des notifications contextuelles",
                 "notification-toast-dismiss-after-help": "Combien de temps (en secondes) une notification contextuelle en temps réel reste-t-elle à l'écran avant d'être automatiquement masquée ? Définissez cette valeur sur 0 pour désactiver les notifications contextuelles.",
                 "typing-indicator": "Indicateur de saisie",
-                "typing-indicator-help": "Lorsque cette option est activée, et sous réserve des permissions accordées, les utilisateurs peuvent voir le nombre d'autres utilisateurs qui sont en train d'écrire dans une discussion. Lorsqu'elle est désactivée, l'activité de saisie est supprimée à la fois de l'interface utilisateur et de la charge utile du websocket."
+                "typing-indicator-help": "Lorsque cette option est activée, et sous réserve des permissions accordées, les utilisateurs peuvent voir le nombre d'autres utilisateurs qui sont en train d'écrire dans une discussion. Lorsqu'elle est désactivée, l'activité de saisie est supprimée à la fois de l'interface utilisateur et de la charge utile du websocket.",
+                "index-typing-indicator": "",
+                "index-typing-indicator-help": "",
+                "index-typing-indicator-restricted": "",
+                "index-typing-indicator-restricted-help": ""
             }
         }
     }

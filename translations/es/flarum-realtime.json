@@ -11,6 +11,10 @@
                 "users-are-typing": "{count, plural, one {{users} is typing} other {{users}{others, plural, =1 { & # other} =0 {} otra { & # otras}} están escribiendo}}",
                 "no-activity": "Nadie está escribiendo"
             },
+            "index-typing": {
+                "someone-typing": "",
+                "someone-typing-tag": ""
+            },
             "user": {
                 "settings": {
                     "heading": "Tiempo Real",
@@ -33,7 +37,11 @@
                 "notification-toast-dismiss-after": "Duración de la notificación emergente",
                 "notification-toast-dismiss-after-help": "Cuánto tiempo (en segundos) permanece en pantalla una notificación emergente en tiempo real antes de que se descarte automáticamente. Establezca el valor en 0 para desactivar las notificaciones emergentes.",
                 "typing-indicator": "Indicador de escritura",
-                "typing-indicator-help": "Cuando está habilitada, sujeto a permisos, los usuarios pueden ver el número de otros usuarios que están escribiendo en una conversación. Cuando está deshabilitada, la actividad de escritura se elimina tanto de la interfaz de usuario como de la carga útil del websocket."
+                "typing-indicator-help": "Cuando está habilitada, sujeto a permisos, los usuarios pueden ver el número de otros usuarios que están escribiendo en una conversación. Cuando está deshabilitada, la actividad de escritura se elimina tanto de la interfaz de usuario como de la carga útil del websocket.",
+                "index-typing-indicator": "",
+                "index-typing-indicator-help": "",
+                "index-typing-indicator-restricted": "",
+                "index-typing-indicator-restricted-help": ""
             }
         }
     }
