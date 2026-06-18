@@ -45,58 +45,58 @@
                     "action": "Тип действия, например: action:post.created.",
                     "client": "Способ выполнения запроса.",
                     "ip": "IP-адрес, с которого было выполнено действие.",
-                    "discussion": ""
+                    "discussion": "Действия в определённой теме."
                 },
                 "help": {
-                    "toggle": "",
-                    "multiple": "",
-                    "negate": ""
+                    "toggle": "Справка по поиску",
+                    "multiple": "Объединяйте значения через запятую, чтобы искать любое из них, например: action:post.created,post.deleted",
+                    "negate": "Добавьте перед фильтром знак минус, чтобы исключить совпадения, например: -client:cli"
                 },
-                "empty": "",
-                "loadMore": "",
-                "withoutActor": "",
+                "empty": "Ничего не найдено",
+                "loadMore": "Загрузить ещё",
+                "withoutActor": "=> core.group.guest",
                 "deletedResource": {
-                    "discussion": "",
-                    "group": "",
-                    "post": "",
-                    "tag": "",
-                    "user": ""
+                    "discussion": "Тема #{id}",
+                    "group": "Группа #{id}",
+                    "post": "Сообщение #{id}",
+                    "tag": "Тег #{id}",
+                    "user": "Пользователь #{id}"
                 },
                 "genericResource": {
-                    "comment": "",
-                    "post": ""
+                    "comment": "Комментарий",
+                    "post": "Сообщение"
                 },
                 "permissionGroup": {
-                    "everyone": "",
-                    "members": ""
+                    "everyone": "=> core.admin.permissions_controls.everyone_button",
+                    "members": "=> core.admin.permissions_controls.members_button"
                 },
-                "noValue": "",
-                "noReason": "",
+                "noValue": "(нет значения)",
+                "noReason": "(причина не указана)",
                 "client": {
-                    "session": "",
-                    "api_key": "",
-                    "access_token": "",
-                    "cli": "",
-                    "unknown": ""
+                    "session": "Сессия",
+                    "api_key": "API-ключ",
+                    "access_token": "Токен доступа",
+                    "cli": "Командная строка",
+                    "unknown": "Неизвестный клиент"
                 },
                 "controls": {
-                    "hideRaw": "",
-                    "showRaw": "",
-                    "filterActor": "",
-                    "filterIp": "",
-                    "filterClient": "",
-                    "filterAction": "",
-                    "filterUser": "",
-                    "filterDiscussion": ""
+                    "hideRaw": "Скрыть сырой журнал",
+                    "showRaw": "Показать сырой журнал",
+                    "filterActor": "Показать действия пользователя",
+                    "filterIp": "Показать действия с этого IP-адреса",
+                    "filterClient": "Показать действия этого типа клиента",
+                    "filterAction": "Показать действия того же типа",
+                    "filterUser": "Показать действия этого пользователя",
+                    "filterDiscussion": "Показать действия в этой теме"
                 },
-                "audit_log_cleared": "",
-                "cache_cleared": "",
+                "audit_log_cleared": "Удалено {deleted_count} записей из журнала аудита",
+                "cache_cleared": "Ручная очистка кэша",
                 "discussion": {
-                    "created": "",
-                    "create_date_changed": "",
-                    "deleted": "",
-                    "hidden": "",
-                    "locked": "",
+                    "created": "Создана тема {discussion}",
+                    "create_date_changed": "Дата создания темы {discussion} изменена с {old_date} на {new_date}",
+                    "deleted": "Удалена тема {discussion}",
+                    "hidden": "Скрыта тема {discussion}",
+                    "locked": "Закрыта тема {discussion}",
                     "merged_away": "",
                     "merged_into": "",
                     "renamed": "",
