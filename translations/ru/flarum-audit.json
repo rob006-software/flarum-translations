@@ -11,17 +11,17 @@
             "limitedSettings": {
                 "configure": "Настроить",
                 "title": "Настройки ограниченного аудита",
-                "introduction": "",
-                "requiresExtension": ""
+                "introduction": "Укажите данные, которые могут просматривать пользователи в ограниченном аудите",
+                "requiresExtension": "Требуется расширение {extension}"
             },
             "settings": {
-                "limitedIpAddress": ""
+                "limitedIpAddress": "Видеть IP-адреса"
             }
         },
         "forum": {
             "link": {
-                "all-audit": "",
-                "discussion-audit": "",
+                "all-audit": "Журнал аудита",
+                "discussion-audit": "Журнал аудита",
                 "user-audit": "",
                 "actor-audit": ""
             },
