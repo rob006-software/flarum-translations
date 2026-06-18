@@ -10,7 +10,7 @@
             },
             "limitedSettings": {
                 "configure": "Настроить",
-                "title": "Настройки ограниченного аудита",
+                "title": "Настройка ограниченного аудита",
                 "introduction": "Укажите данные, которые могут просматривать пользователи в ограниченном аудите",
                 "requiresExtension": "Требуется расширение {extension}"
             },
@@ -22,13 +22,13 @@
             "link": {
                 "all-audit": "Журнал аудита",
                 "discussion-audit": "Журнал аудита",
-                "user-audit": "Журнал изменений аккаунта",
-                "actor-audit": "Журнал действий пользователя"
+                "user-audit": "Изменения аккаунта",
+                "actor-audit": "Действия пользователя"
             },
             "modal": {
                 "all-title": "Журнал аудита",
                 "discussion-title": "Журнал аудита темы",
-                "user-title": "Журнал аудита пользователя",
+                "user-title": "Журнал аудита аккаунта",
                 "actor-title": "Журнал аудита действий пользователя"
             }
         },
@@ -45,123 +45,123 @@
                     "action": "Тип действия, например: action:post.created.",
                     "client": "Способ выполнения запроса.",
                     "ip": "IP-адрес, с которого было выполнено действие.",
-                    "discussion": ""
+                    "discussion": "Действия в определённой теме."
                 },
                 "help": {
-                    "toggle": "",
-                    "multiple": "",
-                    "negate": ""
+                    "toggle": "Справка по поиску",
+                    "multiple": "Объединяйте значения через запятую, чтобы искать любое из них, например: action:post.created,post.deleted",
+                    "negate": "Добавьте перед фильтром знак минус, чтобы исключить совпадения, например: -client:cli"
                 },
-                "empty": "",
-                "loadMore": "",
-                "withoutActor": "",
+                "empty": "Ничего не найдено",
+                "loadMore": "Загрузить ещё",
+                "withoutActor": "=> core.group.guest",
                 "deletedResource": {
-                    "discussion": "",
-                    "group": "",
-                    "post": "",
-                    "tag": "",
-                    "user": ""
+                    "discussion": "Тема #{id}",
+                    "group": "Группа #{id}",
+                    "post": "Сообщение #{id}",
+                    "tag": "Тег #{id}",
+                    "user": "Пользователь #{id}"
                 },
                 "genericResource": {
-                    "comment": "",
-                    "post": ""
+                    "comment": "Комментарий",
+                    "post": "Сообщение"
                 },
                 "permissionGroup": {
-                    "everyone": "",
-                    "members": ""
+                    "everyone": "=> core.admin.permissions_controls.everyone_button",
+                    "members": "=> core.admin.permissions_controls.members_button"
                 },
-                "noValue": "",
-                "noReason": "",
+                "noValue": "(нет значения)",
+                "noReason": "(причина не указана)",
                 "core": "",
                 "client": {
-                    "session": "",
-                    "api_key": "",
-                    "access_token": "",
-                    "cli": "",
-                    "unknown": ""
+                    "session": "Сессия",
+                    "api_key": "API-ключ",
+                    "access_token": "Токен доступа",
+                    "cli": "Командная строка",
+                    "unknown": "Неизвестный клиент"
                 },
                 "controls": {
                     "title": "",
-                    "hideRaw": "",
-                    "showRaw": "",
-                    "filterActor": "",
-                    "filterIp": "",
-                    "filterClient": "",
-                    "filterAction": "",
-                    "filterUser": "",
-                    "filterDiscussion": ""
+                    "hideRaw": "Скрыть сырой журнал",
+                    "showRaw": "Показать сырой журнал",
+                    "filterActor": "Показать действия пользователя",
+                    "filterIp": "Показать действия с этого IP-адреса",
+                    "filterClient": "Показать действия этого типа клиента",
+                    "filterAction": "Показать действия того же типа",
+                    "filterUser": "Показать действия этого пользователя",
+                    "filterDiscussion": "Показать действия в этой теме"
                 },
-                "audit_log_cleared": "",
-                "cache_cleared": "",
+                "audit_log_cleared": "Удалено {deleted_count} записей из журнала аудита",
+                "cache_cleared": "Ручная очистка кэша",
                 "developer_token_created": "",
                 "discussion": {
-                    "created": "",
-                    "create_date_changed": "",
-                    "deleted": "",
-                    "hidden": "",
-                    "merged_away": "",
-                    "merged_into": "",
-                    "renamed": "",
-                    "restored": "",
-                    "split_away": "",
-                    "split_into": "",
-                    "user_changed": ""
+                    "created": "Создана тема {discussion}",
+                    "create_date_changed": "Дата создания темы {discussion} изменена с {old_date} на {new_date}",
+                    "deleted": "Удалена тема {discussion}",
+                    "hidden": "Скрыта тема {discussion}",
+                    "merged_away": "Тема {discussion} объединена с темой {new_discussion}",
+                    "merged_into": "В тему {discussion} перенесено {post_count} сообщений из {original_discussion_ids_count} тем",
+                    "renamed": "Тема переименована с {old_title} на {new_title}",
+                    "restored": "Восстановлена тема {discussion}",
+                    "split_away": "Из темы {discussion} перенесено {post_count} сообщений в тему {new_discussion}",
+                    "split_into": "{post_count} сообщений перенесено в тему {discussion}",
+                    "user_changed": "Автор темы {discussion} изменён с {old_user} на {new_user}"
                 },
                 "extension": {
-                    "disabled": "",
-                    "enabled": "",
-                    "uninstalled": ""
+                    "disabled": "Отключено расширение {package}",
+                    "enabled": "Включено расширение {package}",
+                    "uninstalled": "Удалено расширение {package}"
                 },
                 "fof_ban_ips": {
-                    "banned": "",
-                    "unbanned": ""
+                    "banned": "Заблокирован IP-адрес {ip}",
+                    "unbanned": "Разблокирован IP-адрес {ip}"
                 },
                 "group": {
                     "created": "",
                     "deleted": "",
                     "renamed": ""
                 },
-                "permission_changed": "",
+                "permission_changed": "Изменено разрешение {permission}: {old_groups} → {new_groups}",
                 "post": {
-                    "created": "",
-                    "create_date_changed": "",
-                    "deleted": "",
-                    "edit_date_changed": "",
-                    "hidden": "",
-                    "restored": "",
-                    "revised": "",
-                    "user_changed": ""
+                    "created": "Создано сообщение ({post}) в теме {discussion}",
+                    "create_date_changed": "Дата создания сообщения пользователя {postuser} ({post}) изменена с {old_date} на {new_date}",
+                    "deleted": "Удалено сообщение пользователя {postuser} ({post}) в теме {discussion}",
+                    "edit_date_changed": "Дата изменения сообщения пользователя {postuser} ({post}) изменена с {old_date} на {new_date}",
+                    "hidden": "Скрыто сообщение пользователя {postuser} ({post}) в теме {discussion}",
+                    "restored": "Восстановлено сообщение пользователя {postuser} ({post}) в теме {discussion}",
+                    "revised": "Изменено сообщение пользователя {postuser} ({post}) в теме {discussion}",
+                    "user_changed": "Автор сообщения {post} изменён с {old_user} на {new_user}"
                 },
-                "setting_changed": "",
-                "setting_changed_with_values": "",
+                "setting_changed": "Изменена настройка {key}",
+                "setting_changed_with_values": "Изменена настройка {key}: {old_value} → {new_value}",
                 "settings_reset": "",
                 "user": {
-                    "activated": "",
-                    "activated_with_email": "",
-                    "avatar_changed": "",
-                    "avatar_removed": "",
-                    "bio_changed": "",
-                    "created": "",
-                    "deleted": "",
-                    "email_changed": "",
-                    "email_change_requested": "",
-                    "groups_changed": "",
-                    "impersonated": "",
-                    "logged_in": "",
-                    "logged_in_with_provider": "",
-                    "logged_out": "",
-                    "nickname_requested": "",
-                    "nickname_request_approved": "",
-                    "nickname_request_rejected": "",
-                    "password_changed": "",
-                    "password_change_requested": "",
-                    "password_reset_attempted": "",
-                    "password_reset_attempted_unmatched": "",
-                    "provider_connected": "",
-                    "username_changed": "",
-                    "username_requested": "",
-                    "username_request_approved": "",
-                    "username_request_rejected": ""
+                    "activated": "Аккаунт {username} активирован вручную",
+                    "activated_with_email": "Аккаунт {username} активирован через ссылку подтверждения",
+                    "avatar_changed": "Изменён аватар пользователя {username}",
+                    "avatar_removed": "Удалён аватар пользователя {username}",
+                    "bio_changed": "Изменена биография пользователя {username}",
+                    "created": "Создан аккаунт {username}",
+                    "deleted": "Удалён пользователь {username}",
+                    "email_changed": "Email пользователя {username} изменён с {old_email} на {new_email}",
+                    "email_change_requested": "Запрошено изменение email пользователя {username} на {new_email}",
+                    "groups_changed": "Группы пользователя {username} изменены с {old_groups} на {new_groups}",
+                    "impersonated": "Выполнен вход от имени пользователя {username}",
+                    "logged_in": "Выполнен вход в аккаунт пользователя {username}",
+                    "logged_in_with_provider": "Выполнен вход в аккаунт пользователя {username} через {provider}",
+                    "logged_out": "Выполнен выход из аккаунта пользователя {username}",
+                    "nickname_requested": "Запрошен новый никнейм {new_nickname} для пользователя {username}",
+                    "nickname_request_approved": "Одобрено изменение никнейма пользователя {username} с {old_nickname} на {new_nickname}",
+                    "nickname_request_rejected": "Отклонено изменение никнейма пользователя {username}",
+                    "password_changed": "Изменён пароль пользователя {username}",
+                    "password_change_requested": "Запрошено изменение пароля пользователя {username}",
+                    "password_reset_attempted": "Запрошено изменение пароля пользователя {username}",
+                    "password_reset_attempted_unmatched": "Запрошено изменение пароля для {email} — аккаунт не найден",
+                    "provider_connected": "Провайдер {provider} привязан к аккаунту пользователя {username}",
+                    "username_changed": "{username} пользователя изменено с {old_username} на {new_username}",
+                    "username_requested": "Запрошено новое имя {new_username} для пользователя {username}",
+                    "username_request_approved": "Одобрено изменение имени пользователя {username} с {old_username} на {new_username}",
+                    "username_request_rejected": "Отклонено изменение имени пользователя {username}"
                 }
             }
         }
