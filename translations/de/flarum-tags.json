@@ -4,8 +4,8 @@
             "basics": {
                 "tags_label": "=> flarum-tags.ref.tags",
                 "slug_driver_options": {
-                    "default": "",
-                    "id_with_slug": ""
+                    "default": "Standard",
+                    "id_with_slug": "ID mit Slug"
                 }
             },
             "edit_tag": {
@@ -116,12 +116,12 @@
         "lib": {
             "browser": {
                 "discussion": {
-                    "tagged": ""
+                    "tagged": "Hat die Themen von {discussion} von {old_tags} nach {new_tags} aktualisiert"
                 },
                 "tag": {
-                    "created": "",
-                    "updated": "",
-                    "deleted": ""
+                    "created": "Thema {tag} erstellt",
+                    "updated": "Thema {tag} aktualisiert",
+                    "deleted": "Thema {tag} gelöscht"
                 }
             }
         }
