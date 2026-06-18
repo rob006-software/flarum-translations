@@ -12,8 +12,8 @@
                 "no-activity": "Никто не печатает"
             },
             "index-typing": {
-                "someone-typing": "",
-                "someone-typing-tag": ""
+                "someone-typing": "В этой теме кто-то пишет",
+                "someone-typing-tag": "Кто-то пишет в этом теге"
             },
             "user": {
                 "settings": {
@@ -38,10 +38,10 @@
                 "notification-toast-dismiss-after-help": "Сколько секунд всплывающее уведомление отображается перед автоматическим исчезновением. Установите 0, чтобы отключить такие уведомления.",
                 "typing-indicator": "Индикатор набора текста",
                 "typing-indicator-help": "Если включено, пользователи с разрешением смогут видеть количество других пользователей, которые сейчас печатают в теме. Если отключено, индикатор набора текста будет полностью удалён из интерфейса и из данных WebSocket.",
-                "index-typing-indicator": "",
-                "index-typing-indicator-help": "",
-                "index-typing-indicator-restricted": "",
-                "index-typing-indicator-restricted-help": ""
+                "index-typing-indicator": "Список тем, набираемый точками",
+                "index-typing-indicator-help": "Если эта функция включена, в списке тем появляется значок, указывающий на то, что кто-то в данный момент пишет в общедоступной теме. Имена не отображаются.",
+                "index-typing-indicator-restricted": "Список тем с ограниченным доступом, набираемый точками",
+                "index-typing-indicator-restricted-help": "Отображать точки ввода для тем в закрытых тегах для пользователей, которые могут их видеть. Требует расширения Tags. По умолчанию отключено."
             }
         }
     }
