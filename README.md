@@ -805,6 +805,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | --- | --- |
 | [`flarum-akismet`](https://weblate.rob006.net/projects/flarum2/flarum-akismet) | [`flarum/akismet`](https://github.com/flarum/akismet) |
 | [`flarum-approval`](https://weblate.rob006.net/projects/flarum2/flarum-approval) | [`flarum/approval`](https://github.com/flarum/approval) |
+| [`flarum-audit`](https://weblate.rob006.net/projects/flarum2/flarum-audit) | [`flarum/audit`](https://github.com/flarum/audit) |
 | [`flarum-bbcode`](https://weblate.rob006.net/projects/flarum2/flarum-bbcode) | [`flarum/bbcode`](https://github.com/flarum/bbcode) |
 | [`flarum-emoji`](https://weblate.rob006.net/projects/flarum2/flarum-emoji) | [`flarum/emoji`](https://github.com/flarum/emoji) |
 | [`flarum-extension-manager`](https://weblate.rob006.net/projects/flarum2/flarum-extension-manager) | [`flarum/extension-manager`](https://github.com/flarum/extension-manager) |
