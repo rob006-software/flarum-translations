@@ -7,20 +7,20 @@
                 "only_sticky_unread_discussions_help": "Auf der Seite „Alle Diskussionen“ werden ungelesene angeheftete Diskussionen oben angeheftet, während gelesene angeheftete Diskussionen der regulären Reihenfolge folgen."
             },
             "permissions": {
-                "sticky_discussions_label": "Diskussion anpinnen"
+                "sticky_discussions_label": "Diskussion anheften"
             }
         },
         "forum": {
             "badge": {
-                "sticky_tooltip": "Angepinnt"
+                "sticky_tooltip": "Angeheftet"
             },
             "discussion_controls": {
                 "sticky_button": "=> flarum-sticky.ref.sticky",
-                "unsticky_button": "Anpinnen zurücknehmen"
+                "unsticky_button": "Anheften zurücknehmen"
             },
             "post_stream": {
-                "discussion_stickied_text": "{username} hat die Diskussion angepinnt ({time}).",
-                "discussion_unstickied_text": "{username} hat die Diskussion gelöst ({time})."
+                "discussion_stickied_text": "{username} hat die Diskussion angeheftet ({time}).",
+                "discussion_unstickied_text": "{username} hat die Diskussion abgelöst ({time})."
             }
         },
         "lib": {
@@ -33,15 +33,15 @@
             }
         },
         "ref": {
-            "sticky": "Anpinnen"
+            "sticky": "Anheften"
         }
     },
     "flarum-audit": {
         "lib": {
             "browser": {
                 "discussion": {
-                    "stickied": "",
-                    "unstickied": ""
+                    "stickied": "Hat die Diskussion {discussion} angeheftet",
+                    "unstickied": "Hat die Diskussion {discussion} abgelöst"
                 }
             }
         }

@@ -72,7 +72,7 @@
                 },
                 "noValue": "(нет значения)",
                 "noReason": "(причина не указана)",
-                "core": "",
+                "core": "ядро",
                 "client": {
                     "session": "Сессия",
                     "api_key": "API-ключ",
@@ -81,7 +81,7 @@
                     "unknown": "Неизвестный клиент"
                 },
                 "controls": {
-                    "title": "",
+                    "title": "Управления",
                     "hideRaw": "Скрыть сырой журнал",
                     "showRaw": "Показать сырой журнал",
                     "filterActor": "Показать действия пользователя",
@@ -93,7 +93,7 @@
                 },
                 "audit_log_cleared": "Удалено {deleted_count} записей из журнала аудита",
                 "cache_cleared": "Ручная очистка кэша",
-                "developer_token_created": "",
+                "developer_token_created": "Создан токен доступа для разработчиков \"{title}\" для {username}",
                 "discussion": {
                     "created": "Создана тема {discussion}",
                     "create_date_changed": "Дата создания темы {discussion} изменена с {old_date} на {new_date}",
@@ -117,9 +117,9 @@
                     "unbanned": "Разблокирован IP-адрес {ip}"
                 },
                 "group": {
-                    "created": "",
-                    "deleted": "",
-                    "renamed": ""
+                    "created": "Созданна группа {name}",
+                    "deleted": "Группа удалена {name}",
+                    "renamed": "Группа переименована с {old_name} на {new_name}"
                 },
                 "permission_changed": "Изменено разрешение {permission}: {old_groups} → {new_groups}",
                 "post": {
@@ -134,7 +134,7 @@
                 },
                 "setting_changed": "Изменена настройка {key}",
                 "setting_changed_with_values": "Изменена настройка {key}: {old_value} → {new_value}",
-                "settings_reset": "",
+                "settings_reset": "Сбросить настройки {keys} для {extension}",
                 "user": {
                     "activated": "Аккаунт {username} активирован вручную",
                     "activated_with_email": "Аккаунт {username} активирован через ссылку подтверждения",
