@@ -2,49 +2,49 @@
     "flarum-audit": {
         "admin": {
             "permissions": {
-                "view": "",
-                "viewLimited": ""
+                "view": "Afficher le journal d'audit",
+                "viewLimited": "Voir le journal d'audit limité"
             },
             "header": {
-                "title": ""
+                "title": "Audit"
             },
             "limitedSettings": {
-                "configure": "",
-                "title": "",
-                "introduction": "",
-                "requiresExtension": ""
+                "configure": "Configurer",
+                "title": "Paramètres d'accès limité",
+                "introduction": "Configurer ce que les utilisateurs ayant des droits d'accès limités peuvent voir",
+                "requiresExtension": "Nécessite l'extension {extension}"
             },
             "settings": {
-                "limitedIpAddress": ""
+                "limitedIpAddress": "Afficher l'adresse IP"
             }
         },
         "forum": {
             "link": {
-                "all-audit": "",
-                "discussion-audit": "",
-                "user-audit": "",
-                "actor-audit": ""
+                "all-audit": "Journal d'audit",
+                "discussion-audit": "Journal d'audit",
+                "user-audit": "Journal d'Audit (modifications du compte)",
+                "actor-audit": "Journal d'Audit (utilisateur en tant qu'acteur)"
             },
             "modal": {
-                "all-title": "",
-                "discussion-title": "",
-                "user-title": "",
-                "actor-title": ""
+                "all-title": "Journal d'audit",
+                "discussion-title": "Journal d'Audit de discussion",
+                "user-title": "Journal d'Audit d'utilisateur",
+                "actor-title": "Journal d'Audit d'acteur"
             }
         },
         "lib": {
             "browser": {
-                "filterPlaceholder": "",
-                "filterApply": "",
-                "filterClear": "",
-                "refresh": "",
-                "filtersHint": "",
+                "filterPlaceholder": "Filtrer les journaux",
+                "filterApply": "Appliquer",
+                "filterClear": "Effacer le filtre",
+                "refresh": "Actualiser",
+                "filtersHint": "Filtres :",
                 "filters": {
-                    "actor": "",
-                    "user": "",
-                    "action": "",
-                    "client": "",
-                    "ip": "",
+                    "actor": "Qui a effectué l'action. Utilisez « actor:guest » pour les actions système ou les actions non authentifiées.",
+                    "user": "L'utilisateur affecté par l'action, par nom d'utilisateur.",
+                    "action": "Le type d'action, par exemple action:post.created.",
+                    "client": "Comment la demande a été formulée.",
+                    "ip": "L'adresse IP à l'origine de l'action.",
                     "discussion": ""
                 },
                 "help": {
@@ -52,52 +52,52 @@
                     "multiple": "",
                     "negate": ""
                 },
-                "empty": "",
-                "loadMore": "",
-                "withoutActor": "",
+                "empty": "Aucun résultat",
+                "loadMore": "Charger plus",
+                "withoutActor": "=> core.group.guest",
                 "deletedResource": {
-                    "discussion": "",
-                    "group": "",
-                    "post": "",
-                    "tag": "",
-                    "user": ""
+                    "discussion": "Discussion #{id}",
+                    "group": "Groupe #{id}",
+                    "post": "Message #{id}",
+                    "tag": "Étiquette #{id}",
+                    "user": "Utilisateur #{id}"
                 },
                 "genericResource": {
-                    "comment": "",
-                    "post": ""
+                    "comment": "Commentaire",
+                    "post": "Message"
                 },
                 "permissionGroup": {
-                    "everyone": "",
-                    "members": ""
+                    "everyone": "=> core.admin.permissions_controls.everyone_button",
+                    "members": "=> core.admin.permissions_controls.members_button"
                 },
-                "noValue": "",
-                "noReason": "",
-                "core": "",
+                "noValue": "(aucune valeur)",
+                "noReason": "(aucun motif)",
+                "core": "Noyau",
                 "client": {
-                    "session": "",
-                    "api_key": "",
-                    "access_token": "",
-                    "cli": "",
-                    "unknown": ""
+                    "session": "Session en ligne",
+                    "api_key": "Clé API",
+                    "access_token": "Jeton d'accès",
+                    "cli": "Ligne de commande",
+                    "unknown": "Client inconnu"
                 },
                 "controls": {
-                    "title": "",
-                    "hideRaw": "",
-                    "showRaw": "",
-                    "filterActor": "",
-                    "filterIp": "",
-                    "filterClient": "",
-                    "filterAction": "",
-                    "filterUser": "",
-                    "filterDiscussion": ""
+                    "title": "Commandes",
+                    "hideRaw": "Masquer le journal brut",
+                    "showRaw": "Afficher le journal brut",
+                    "filterActor": "Afficher les journaux de cet acteur",
+                    "filterIp": "Afficher les journaux de cette IP",
+                    "filterClient": "Afficher les journaux de ce type de client",
+                    "filterAction": "Afficher les journaux de la même action",
+                    "filterUser": "Afficher les journaux affectant le même utilisateur",
+                    "filterDiscussion": "Afficher les journaux affectant la même discussion"
                 },
-                "audit_log_cleared": "",
-                "cache_cleared": "",
-                "developer_token_created": "",
+                "audit_log_cleared": "A supprimé {deleted_count} entrées des journaux d'audit",
+                "cache_cleared": "A vidé manuellement le cache",
+                "developer_token_created": "A créé un jeton d'accès développeur « {title} » pour {username}",
                 "discussion": {
-                    "created": "",
+                    "created": "A démarré la discussion {discussion}",
                     "create_date_changed": "",
-                    "deleted": "",
+                    "deleted": "A supprimé la discussion {discussion}",
                     "hidden": "",
                     "merged_away": "",
                     "merged_into": "",
