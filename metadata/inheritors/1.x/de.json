@@ -8254,6 +8254,36 @@
             }
         }
     },
+    "peopleinside-antiflood.json": {
+        "peopleinside-antiflood": {
+            "admin": {
+                "description": "d41d8cd98f00b204e9800998ecf8427e 723648f8de6e37ce6af8ab2eee823b35",
+                "settings": {
+                    "flood_interval_minutes_help": "d41d8cd98f00b204e9800998ecf8427e afc1424630546c1deb808b7442e2baf1",
+                    "flood_interval_minutes_label": "d41d8cd98f00b204e9800998ecf8427e 7a3f6447e0fa63063febec66adf6889c",
+                    "flood_limit_help": "d41d8cd98f00b204e9800998ecf8427e 4426a7190e08a1b425874060f126b2d3",
+                    "flood_limit_label": "d41d8cd98f00b204e9800998ecf8427e 70faf584b90b29a8b9b6c5c87291fe26",
+                    "flood_limit_message_help": "d41d8cd98f00b204e9800998ecf8427e 5877f353e6b607b9a6204e4989ed5786",
+                    "flood_limit_message_label": "d41d8cd98f00b204e9800998ecf8427e 36b5d72d549abb9f8b37cef9c0d5c777",
+                    "flood_limit_message_suggestion": "d41d8cd98f00b204e9800998ecf8427e 637c42f5046788581b16e4c1383f8e91",
+                    "max_pending_help": "d41d8cd98f00b204e9800998ecf8427e cc02544d9c2a29db00cbe920f8e40188",
+                    "max_pending_label": "d41d8cd98f00b204e9800998ecf8427e 1c57329d7149894c61c5604d96b58f82",
+                    "pending_limit_message_help": "d41d8cd98f00b204e9800998ecf8427e 257f6909787de5cd89a2a73dc27466ac",
+                    "pending_limit_message_label": "d41d8cd98f00b204e9800998ecf8427e 482977f7d6832a7e37b78e7825f8ed71",
+                    "pending_limit_message_suggestion": "d41d8cd98f00b204e9800998ecf8427e 33e861653b54d9dd39a034329c1922d4",
+                    "post_flood_limit_help": "d41d8cd98f00b204e9800998ecf8427e cfbe666338c170127f863733e8d91e5f",
+                    "post_flood_limit_label": "d41d8cd98f00b204e9800998ecf8427e dd7c9a4fc2fc60667efa8fdf72ab9522",
+                    "reset_button": "d41d8cd98f00b204e9800998ecf8427e 02fa34697a2d64c5c56aa809d6be3be2"
+                }
+            },
+            "forum": {
+                "error": {
+                    "flood_limit": "d41d8cd98f00b204e9800998ecf8427e 637c42f5046788581b16e4c1383f8e91",
+                    "pending_limit": "d41d8cd98f00b204e9800998ecf8427e 33e861653b54d9dd39a034329c1922d4"
+                }
+            }
+        }
+    },
     "peopleinside-fla-powcaptcha.json": {
         "peopleinside-powcaptcha": {
             "admin": {
