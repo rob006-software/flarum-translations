@@ -46,6 +46,7 @@
 
 | Extension | Status |
 | --- | --- |
+| [`fof/amazon-affiliation`](https://github.com/FriendsOfFlarum/amazon-affiliation) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/-/fof-amazon-affiliation/multi-auto.svg)](https://weblate.rob006.net/projects/flarum2/fof-amazon-affiliation/) |
 | [`fof/analytics`](https://github.com/FriendsOfFlarum/analytics) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/-/fof-analytics/multi-auto.svg)](https://weblate.rob006.net/projects/flarum2/fof-analytics/) |
 | [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/-/fof-anti-spam/multi-auto.svg)](https://weblate.rob006.net/projects/flarum2/fof-anti-spam/) |
 | [`fof/badges`](https://github.com/FriendsOfFlarum/badges) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/-/fof-badges/multi-auto.svg)](https://weblate.rob006.net/projects/flarum2/fof-badges/) |

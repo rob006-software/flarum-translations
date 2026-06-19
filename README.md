@@ -834,6 +834,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 
 | Extension ID | Package name |
 | --- | --- |
+| [`fof-amazon-affiliation`](https://weblate.rob006.net/projects/flarum2/fof-amazon-affiliation) | [`fof/amazon-affiliation`](https://github.com/FriendsOfFlarum/amazon-affiliation) |
 | [`fof-analytics`](https://weblate.rob006.net/projects/flarum2/fof-analytics) | [`fof/analytics`](https://github.com/FriendsOfFlarum/analytics) |
 | [`fof-anti-spam`](https://weblate.rob006.net/projects/flarum2/fof-anti-spam) | [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) |
 | [`fof-badges`](https://weblate.rob006.net/projects/flarum2/fof-badges) | [`fof/badges`](https://github.com/FriendsOfFlarum/badges) |

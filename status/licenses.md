@@ -38,6 +38,7 @@
 
 | Package | GitHub license | Packagist license |
 | --- | --- | --- |
+| [`fof/amazon-affiliation`](https://github.com/FriendsOfFlarum/amazon-affiliation) | [![GitHub license](https://img.shields.io/github/license/FriendsOfFlarum/amazon-affiliation)](https://github.com/FriendsOfFlarum/amazon-affiliation) | [![Packagist license](https://img.shields.io/packagist/l/fof/amazon-affiliation)](https://packagist.org/packages/fof/amazon-affiliation) |
 | [`fof/analytics`](https://github.com/FriendsOfFlarum/analytics) | [![GitHub license](https://img.shields.io/github/license/FriendsOfFlarum/analytics)](https://github.com/FriendsOfFlarum/analytics) | [![Packagist license](https://img.shields.io/packagist/l/fof/analytics)](https://packagist.org/packages/fof/analytics) |
 | [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) | [![GitHub license](https://img.shields.io/github/license/FriendsOfFlarum/anti-spam)](https://github.com/FriendsOfFlarum/anti-spam) | [![Packagist license](https://img.shields.io/packagist/l/fof/anti-spam)](https://packagist.org/packages/fof/anti-spam) |
 | [`fof/badges`](https://github.com/FriendsOfFlarum/badges) | [![GitHub license](https://img.shields.io/github/license/FriendsOfFlarum/badges)](https://github.com/FriendsOfFlarum/badges) | [![Packagist license](https://img.shields.io/packagist/l/fof/badges)](https://packagist.org/packages/fof/badges) |
