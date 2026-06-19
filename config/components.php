@@ -925,6 +925,12 @@ return [
 			'zh_Hans',
 		],
 	],
+	'huoxin-filter-rule-manager' => [
+		'beta' => 'https://raw.githubusercontent.com/huoxin233/flarum-ext-filter-rule-manager/1.0.0-beta.2/locale/en.yml',
+		'__builtInLanguages' => [
+			'zh_Hans',
+		],
+	],
 	'huoxin-money-with-history' => [
 		'tag' => 'https://raw.githubusercontent.com/huoxin233/flarum-ext-money-with-history/1.1.3/locale/en.yml',
 		'__builtInLanguages' => [
