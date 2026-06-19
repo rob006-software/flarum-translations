@@ -52,8 +52,8 @@
         "lib": {
             "browser": {
                 "post": {
-                    "dismissed_flags": "",
-                    "flagged": ""
+                    "dismissed_flags": "Signalements rejetés sur {post} de {postuser} dans {discussion}",
+                    "flagged": "{post} de {postuser} a été signalé comme {reason} dans {discussion}"
                 }
             }
         }
