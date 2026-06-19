@@ -3,20 +3,20 @@
         "admin": {
             "settings": {
                 "title": {
-                    "modal": "",
-                    "tags": "",
+                    "modal": "Pengaturan Amazon Affiliation",
+                    "tags": "Tag Afiliasi",
                     "tags-mediaembed": ""
                 },
                 "field": {
                     "rich-card": "",
                     "rich-card-help": "",
-                    "keep-existing-tag": "",
-                    "keep-existing-tag-help": "",
+                    "keep-existing-tag": "Biarkan Tag Afiliasi Amazon menggunakan link original, alih-alih menggantinya",
+                    "keep-existing-tag-help": "Secara default, setiap tag yang ada di url original akan digantikan oleh tag yang Anda tentukan di bawah ini.",
                     "help-mediaembed": "",
-                    "remove-tag-if-unhandled": "",
-                    "remove-tag-if-unhandled-help": "",
-                    "tag": "",
-                    "tag-placeholder": ""
+                    "remove-tag-if-unhandled": "Hapus Tag Afiliasi Amazon pada link Amazon yang tidak tercakup",
+                    "remove-tag-if-unhandled-help": "Secara default, link yang tidak tercakup akan dibiarkan apa adanya, termasuk tagnya jika ada.",
+                    "tag": "{name} (amazon.{domain})",
+                    "tag-placeholder": "Biarkan kosong untuk tidak menutupi link-link tersebut"
                 }
             }
         }

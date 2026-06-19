@@ -3,20 +3,20 @@
         "admin": {
             "settings": {
                 "title": {
-                    "modal": "",
-                    "tags": "",
+                    "modal": "Amazon aloqasi sozlamalari",
+                    "tags": "Hamkor teglari",
                     "tags-mediaembed": ""
                 },
                 "field": {
                     "rich-card": "",
                     "rich-card-help": "",
-                    "keep-existing-tag": "",
-                    "keep-existing-tag-help": "",
+                    "keep-existing-tag": "Amazon Affiliate teglarini almashtirish o'rniga asl havolalardan saqlang",
+                    "keep-existing-tag-help": "Odatiy bo'lib, asl urldagi har qanday mavjud teg quyida siz belgilagan teg bilan almashtiriladi.",
                     "help-mediaembed": "",
-                    "remove-tag-if-unhandled": "",
-                    "remove-tag-if-unhandled-help": "",
-                    "tag": "",
-                    "tag-placeholder": ""
+                    "remove-tag-if-unhandled": "Qoplanmagan Amazon havolalarida Amazon Affiliate teglarini olib tashlang",
+                    "remove-tag-if-unhandled-help": "Odatiy bo'lib, qamrab olinmagan havolalar, agar mavjud bo'lsa, ularning tegi bilan birga qoladi.",
+                    "tag": "{name} (amazon.{domain})",
+                    "tag-placeholder": "Ushbu havolalarni berkitmaslik uchun bo'sh qoldiring"
                 }
             }
         }

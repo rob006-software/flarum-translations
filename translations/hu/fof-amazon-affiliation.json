@@ -3,20 +3,20 @@
         "admin": {
             "settings": {
                 "title": {
-                    "modal": "",
-                    "tags": "",
+                    "modal": "Amazon partnerprogram beállításai",
+                    "tags": "Partnerprogram címkéi",
                     "tags-mediaembed": ""
                 },
                 "field": {
                     "rich-card": "",
                     "rich-card-help": "",
-                    "keep-existing-tag": "",
-                    "keep-existing-tag-help": "",
+                    "keep-existing-tag": "Az Amazon partnerprogram címkéinek megtartása az eredeti hivatkozásokban a cseréjük helyett",
+                    "keep-existing-tag-help": "Alapértelmezés szerint az eredeti webcímben szereplő címke le lesz cserélve az alább megadottra.",
                     "help-mediaembed": "",
-                    "remove-tag-if-unhandled": "",
-                    "remove-tag-if-unhandled-help": "",
-                    "tag": "",
-                    "tag-placeholder": ""
+                    "remove-tag-if-unhandled": "A nem kezelt amazonos hivatkozások partnerprogram-címkéinek eltávolítása",
+                    "remove-tag-if-unhandled-help": "Alapértelmezés szerint a nem kezelt hivatkozások változatlanok maradnak, megtartva az esetleges címkéjüket.",
+                    "tag": "{name} (amazon.{domain})",
+                    "tag-placeholder": "Hagyja üresen, hogy ne vonatkozzon ezekre a hivatkozásokra"
                 }
             }
         }

@@ -3,20 +3,20 @@
         "admin": {
             "settings": {
                 "title": {
-                    "modal": "",
-                    "tags": "",
+                    "modal": "Paramètres d'affiliation Amazon",
+                    "tags": "Étiquettes d'affiliation",
                     "tags-mediaembed": ""
                 },
                 "field": {
                     "rich-card": "",
                     "rich-card-help": "",
-                    "keep-existing-tag": "",
-                    "keep-existing-tag-help": "",
+                    "keep-existing-tag": "Conserver les étiquettes d'affiliation Amazon des liens d'origines au lieu de les remplacer",
+                    "keep-existing-tag-help": "Par défaut, toute étiquette existante dans le lien d'origine est remplacée par l'étiquette que vous définissez ci-dessous.",
                     "help-mediaembed": "",
-                    "remove-tag-if-unhandled": "",
-                    "remove-tag-if-unhandled-help": "",
-                    "tag": "",
-                    "tag-placeholder": ""
+                    "remove-tag-if-unhandled": "Supprimer les étiquettes d'affiliation Amazon sur les liens Amazon non couverts",
+                    "remove-tag-if-unhandled-help": "Par défaut, les liens non couverts sont laissés tels quels, y compris leur étiquette éventuelle.",
+                    "tag": "{name} (amazon.{domain})",
+                    "tag-placeholder": "Laissez vide pour ne pas couvrir ces liens"
                 }
             }
         }

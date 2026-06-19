@@ -3,20 +3,20 @@
         "admin": {
             "settings": {
                 "title": {
-                    "modal": "",
-                    "tags": "",
+                    "modal": "Thiết lập Amazon Affiliation",
+                    "tags": "Thẻ Affiliate",
                     "tags-mediaembed": ""
                 },
                 "field": {
                     "rich-card": "",
                     "rich-card-help": "",
-                    "keep-existing-tag": "",
-                    "keep-existing-tag-help": "",
+                    "keep-existing-tag": "Giữ thẻ affiliate Amazon từ liên kết gốc thay vì thay thế",
+                    "keep-existing-tag-help": "Theo mặc định, bất kỳ thẻ hiện có nào trong URL gốc đều được thay thế bằng thẻ bạn đặt bên dưới.",
                     "help-mediaembed": "",
-                    "remove-tag-if-unhandled": "",
-                    "remove-tag-if-unhandled-help": "",
-                    "tag": "",
-                    "tag-placeholder": ""
+                    "remove-tag-if-unhandled": "Xóa thẻ affiliate Amazon trên các liên kết Amazon không được xử lý",
+                    "remove-tag-if-unhandled-help": "Theo mặc định, các liên kết không được xử lý sẽ được giữ nguyên, bao gồm cả thẻ của chúng nếu có.",
+                    "tag": "{name} (amazon.{domain})",
+                    "tag-placeholder": "Để trống để không xử lý các liên kết đó"
                 }
             }
         }

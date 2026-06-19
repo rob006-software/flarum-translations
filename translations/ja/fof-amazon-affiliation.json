@@ -3,20 +3,20 @@
         "admin": {
             "settings": {
                 "title": {
-                    "modal": "",
-                    "tags": "",
+                    "modal": "Amazon アフィリエイト設定",
+                    "tags": "アライアンスタグ",
                     "tags-mediaembed": ""
                 },
                 "field": {
                     "rich-card": "",
                     "rich-card-help": "",
-                    "keep-existing-tag": "",
-                    "keep-existing-tag-help": "",
+                    "keep-existing-tag": "アフィリエイトラベルを元のリンクに保持する",
+                    "keep-existing-tag-help": "元のリンクのタグをデフォルトで以下で定義されているタグに置き換えます",
                     "help-mediaembed": "",
-                    "remove-tag-if-unhandled": "",
-                    "remove-tag-if-unhandled-help": "",
-                    "tag": "",
-                    "tag-placeholder": ""
+                    "remove-tag-if-unhandled": "覆われていない Amazon アフィリエイトタグを削除する",
+                    "remove-tag-if-unhandled-help": "リンクでカバーされていない Amazon アフィリエイトタグはデフォルトで保持されます。",
+                    "tag": "{name} (amazon.{domain})",
+                    "tag-placeholder": "これらのリンクをカバーしない場合は空白のままにします"
                 }
             }
         }

@@ -3,20 +3,20 @@
         "admin": {
             "settings": {
                 "title": {
-                    "modal": "",
-                    "tags": "",
+                    "modal": "Impostazioni Affiliazione Amazon",
+                    "tags": "Tag Affiliazione",
                     "tags-mediaembed": ""
                 },
                 "field": {
                     "rich-card": "",
                     "rich-card-help": "",
-                    "keep-existing-tag": "",
-                    "keep-existing-tag-help": "",
+                    "keep-existing-tag": "Tieni il Tag Affiliazione Amazon dei link originali invece di sostituirli",
+                    "keep-existing-tag-help": "Di default, ogni tag esistente nell'url originale viene sostituito dal tag che definisci sotto.",
                     "help-mediaembed": "",
-                    "remove-tag-if-unhandled": "",
-                    "remove-tag-if-unhandled-help": "",
-                    "tag": "",
-                    "tag-placeholder": ""
+                    "remove-tag-if-unhandled": "Rimuovi Tag Affiliazione Amazon dai link Amazon che non sono coperti",
+                    "remove-tag-if-unhandled-help": "Di default, i link che non sono coperti vengono lasciati così come sono, inclusi i loro tag se presenti.",
+                    "tag": "{name} (amazon.{domain})",
+                    "tag-placeholder": "Lascia vuoto per non coprire questi link"
                 }
             }
         }

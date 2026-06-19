@@ -3,20 +3,20 @@
         "admin": {
             "settings": {
                 "title": {
-                    "modal": "",
-                    "tags": "",
+                    "modal": "Налаштування партнерської програми Amazon",
+                    "tags": "Теги партнерської програми",
                     "tags-mediaembed": ""
                 },
                 "field": {
                     "rich-card": "",
                     "rich-card-help": "",
-                    "keep-existing-tag": "",
-                    "keep-existing-tag-help": "",
+                    "keep-existing-tag": "Зберігайте партнерські теги Amazon з оригінальних посилань, а не замінюйте їх",
+                    "keep-existing-tag-help": "За налаштуванням будь-який існуючий тег у вихідному URL-адресі замінюється на тег, який ви визначите нижче.",
                     "help-mediaembed": "",
-                    "remove-tag-if-unhandled": "",
-                    "remove-tag-if-unhandled-help": "",
-                    "tag": "",
-                    "tag-placeholder": ""
+                    "remove-tag-if-unhandled": "Видаліть партнерські теги Amazon на посиланнях Amazon, які не покриваються",
+                    "remove-tag-if-unhandled-help": "За налаштуванням посилання, які не покриваються, залишаються як є, включаючи їх тег, якщо він є.",
+                    "tag": "{name} (amazon.{domain})",
+                    "tag-placeholder": "Залиште порожнім, щоб не показувати ці посилання"
                 }
             }
         }

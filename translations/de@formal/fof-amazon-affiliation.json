@@ -3,20 +3,20 @@
         "admin": {
             "settings": {
                 "title": {
-                    "modal": "",
-                    "tags": "",
+                    "modal": "Amazon Affiliation Einstellungen",
+                    "tags": "Affiliate-Tags",
                     "tags-mediaembed": ""
                 },
                 "field": {
                     "rich-card": "",
                     "rich-card-help": "",
-                    "keep-existing-tag": "",
-                    "keep-existing-tag-help": "",
+                    "keep-existing-tag": "Behalte Amazon Affiliate-Tags von Originallinks, anstatt sie zu ersetzen",
+                    "keep-existing-tag-help": "Standardmäßig wird jedes vorhandene Tag in der ursprünglichen URL durch das unten definierte Tag ersetzt.",
                     "help-mediaembed": "",
-                    "remove-tag-if-unhandled": "",
-                    "remove-tag-if-unhandled-help": "",
-                    "tag": "",
-                    "tag-placeholder": ""
+                    "remove-tag-if-unhandled": "Entferne Amazon-Partner-Tags auf Amazon-Links, die nicht abgedeckt sind",
+                    "remove-tag-if-unhandled-help": "Standardmäßig werden nicht abgedeckte Links unverändert belassen, einschließlich ihres Tags, falls vorhanden.",
+                    "tag": "{name} (amazon.{domain})",
+                    "tag-placeholder": "Leer lassen, um diese Links nicht zu verdecken"
                 }
             }
         }

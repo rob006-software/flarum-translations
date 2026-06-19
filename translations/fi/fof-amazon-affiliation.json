@@ -3,20 +3,20 @@
         "admin": {
             "settings": {
                 "title": {
-                    "modal": "",
-                    "tags": "",
+                    "modal": "Amazon Affiliate asetukset",
+                    "tags": "Affiliate avainsanat",
                     "tags-mediaembed": ""
                 },
                 "field": {
                     "rich-card": "",
                     "rich-card-help": "",
-                    "keep-existing-tag": "",
-                    "keep-existing-tag-help": "",
+                    "keep-existing-tag": "Pidä Amazon Affiliate avainsanat alkueräisissä linkeissä korvaamisen sijaan",
+                    "keep-existing-tag-help": "Oletuksena jokainen olemassa oleva avainsana alkuperäisessä osoitteessa korvataan alla olevalla.",
                     "help-mediaembed": "",
-                    "remove-tag-if-unhandled": "",
-                    "remove-tag-if-unhandled-help": "",
-                    "tag": "",
-                    "tag-placeholder": ""
+                    "remove-tag-if-unhandled": "Poista Amazon Affiliate avainsanat Amazonin linkeistä joita ei ole huomioitu",
+                    "remove-tag-if-unhandled-help": "Oletuksena linkit joita ei ole huomioitu näytetään kuten ne olivat pitäen avainsanan jos siinä oli sellainen.",
+                    "tag": "{name} (amazon.{domain})",
+                    "tag-placeholder": "Jätä tyhjäksi jotta näitä linkkejä ei huomioida"
                 }
             }
         }

@@ -3,20 +3,20 @@
         "admin": {
             "settings": {
                 "title": {
-                    "modal": "",
-                    "tags": "",
+                    "modal": "Amazon Affiliate seaded",
+                    "tags": "Affiliate sildid",
                     "tags-mediaembed": ""
                 },
                 "field": {
                     "rich-card": "",
                     "rich-card-help": "",
-                    "keep-existing-tag": "",
-                    "keep-existing-tag-help": "",
+                    "keep-existing-tag": "Säilita algsed Amazon Affiliate sildid linkides",
+                    "keep-existing-tag-help": "Vaikimisi asendatakse sildid algses URL-is sildiga, mida saad määara allpool.",
                     "help-mediaembed": "",
-                    "remove-tag-if-unhandled": "",
-                    "remove-tag-if-unhandled-help": "",
-                    "tag": "",
-                    "tag-placeholder": ""
+                    "remove-tag-if-unhandled": "Eemalda Amazon Affiliate sildid Amazoni linkidelt, mis pole kaetud",
+                    "remove-tag-if-unhandled-help": "Lingid, mis pole kaetud, jäetakse vaikimisi nii nagu nad on, kaasa arvatud nende sildid, kui seal on mõningaid.",
+                    "tag": "{name} (amazon.{domain})",
+                    "tag-placeholder": "Jäta see tühjaks, kui sa ei soovi neid linke katta"
                 }
             }
         }
