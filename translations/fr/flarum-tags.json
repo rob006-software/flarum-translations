@@ -4,8 +4,8 @@
             "basics": {
                 "tags_label": "=> flarum-tags.ref.tags",
                 "slug_driver_options": {
-                    "default": "",
-                    "id_with_slug": ""
+                    "default": "Par défaut",
+                    "id_with_slug": "Identifiant avec nom générique"
                 }
             },
             "edit_tag": {
@@ -116,12 +116,12 @@
         "lib": {
             "browser": {
                 "discussion": {
-                    "tagged": ""
+                    "tagged": "A mis à jour les étiquettes de {discussion} en remplaçant {old_tags} par {new_tags}"
                 },
                 "tag": {
-                    "created": "",
-                    "updated": "",
-                    "deleted": ""
+                    "created": "A créé l'étiquette {tag}",
+                    "updated": "A mis à jour l'étiquette {tag}",
+                    "deleted": "A supprimé l'étiquette {tag}"
                 }
             }
         }
