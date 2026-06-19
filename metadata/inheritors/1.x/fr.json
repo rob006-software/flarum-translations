@@ -1352,10 +1352,10 @@
             },
             "forum": {
                 "link": {
-                    "actor-audit": "d41d8cd98f00b204e9800998ecf8427e 7f9d42998703a4115c8b708f1ff3a541",
+                    "actor-audit": "d41d8cd98f00b204e9800998ecf8427e 4726edf4e450ee439a27f2ce5107bd9d",
                     "all-audit": "d41d8cd98f00b204e9800998ecf8427e 32cb642ad89f04c28f7b1b9f218a39f8",
                     "discussion-audit": "d41d8cd98f00b204e9800998ecf8427e 32cb642ad89f04c28f7b1b9f218a39f8",
-                    "user-audit": "d41d8cd98f00b204e9800998ecf8427e fa6d5051d7b4fe4a63a5c68d701119e7"
+                    "user-audit": "d41d8cd98f00b204e9800998ecf8427e 39da9ebcb5da4a2b85a9c7094d41366b"
                 },
                 "modal": {
                     "actor-title": "d41d8cd98f00b204e9800998ecf8427e 33aaad36bd7f6fb6bfb587af48b1c062",
@@ -1393,8 +1393,14 @@
                         "user": "d41d8cd98f00b204e9800998ecf8427e dd1db2148e83eca6ca3e54f4f89a26d3"
                     },
                     "discussion": {
+                        "create_date_changed": "d41d8cd98f00b204e9800998ecf8427e baa8b448fd318e83a3f37a9b32190d0a",
                         "created": "d41d8cd98f00b204e9800998ecf8427e e5ea9cdc637faee19430d4ca120bc844",
-                        "deleted": "d41d8cd98f00b204e9800998ecf8427e edd7e1f4f0afc4dc98fd7031acadeabe"
+                        "deleted": "d41d8cd98f00b204e9800998ecf8427e edd7e1f4f0afc4dc98fd7031acadeabe",
+                        "hidden": "d41d8cd98f00b204e9800998ecf8427e 1d2e1c501b4e3aa7351002c23ff60841",
+                        "merged_away": "d41d8cd98f00b204e9800998ecf8427e 8df6df4103d4e3c80b722b725a57b73c",
+                        "merged_into": "d41d8cd98f00b204e9800998ecf8427e 8ab353e81d4a0ce1653da572866b4208",
+                        "renamed": "d41d8cd98f00b204e9800998ecf8427e 92dfc1f5aae732f15e838467d3adf72b",
+                        "restored": "d41d8cd98f00b204e9800998ecf8427e 928f1f32049517a3f7b8bc2ece0487e8"
                     },
                     "empty": "d41d8cd98f00b204e9800998ecf8427e 17e6abcc4dedc0279075ef696d7015f8",
                     "filterApply": "d41d8cd98f00b204e9800998ecf8427e 3d3a50dcf90108f361140d2e05e920e1",
@@ -1402,17 +1408,21 @@
                     "filterPlaceholder": "d41d8cd98f00b204e9800998ecf8427e 1492f3490cda69c171ce75266e2e4248",
                     "filters": {
                         "action": "d41d8cd98f00b204e9800998ecf8427e b1ca28bd8776a44bf1848d7cad1579c5",
-                        "actor": "d41d8cd98f00b204e9800998ecf8427e 40cd12141bea578980acc5dc8cd1e512",
+                        "actor": "d41d8cd98f00b204e9800998ecf8427e e68d4206358acba562ba75d659636fa3",
                         "client": "d41d8cd98f00b204e9800998ecf8427e 9f7e0bc07e380c65af94f179ae281d25",
+                        "discussion": "d41d8cd98f00b204e9800998ecf8427e 3c622a99143bad9600da91bb010c930e",
                         "ip": "d41d8cd98f00b204e9800998ecf8427e 3676396ff50ba401118eafe5862ce8d5",
-                        "user": "d41d8cd98f00b204e9800998ecf8427e ad5303707d126bd384a439d160979150"
+                        "user": "d41d8cd98f00b204e9800998ecf8427e e04dc5cb9db48c948939044d82e707e1"
                     },
                     "filtersHint": "d41d8cd98f00b204e9800998ecf8427e 4eb301ddeffa6a927e4eb5eb01485ac5",
                     "genericResource": {
                         "comment": "d41d8cd98f00b204e9800998ecf8427e 721a8dbd27fcbb90fa6551c25468bcb3",
                         "post": "d41d8cd98f00b204e9800998ecf8427e 4c2a8fe7eaf24721cc7a9f0175115bd4"
                     },
-                    "loadMore": "d41d8cd98f00b204e9800998ecf8427e a1aa50b3fe27471bbd2964fd68a63495",
+                    "help": {
+                        "toggle": "d41d8cd98f00b204e9800998ecf8427e e2a90802db5b08bdc4a6c2e404eda715"
+                    },
+                    "loadMore": "d41d8cd98f00b204e9800998ecf8427e 8fd277885ddfe798b8077a43046f980f",
                     "noReason": "d41d8cd98f00b204e9800998ecf8427e 5903acbdaca65d98afd8fd15fc9774f3",
                     "noValue": "d41d8cd98f00b204e9800998ecf8427e 318c70c52aab3ecee0a4d16b707d7a30",
                     "permissionGroup": {
