@@ -191,12 +191,12 @@
         "lib": {
             "browser": {
                 "user": {
-                    "gdpr_erasure_requested": "",
-                    "gdpr_erasure_confirmed": "",
-                    "gdpr_erasure_cancelled": "",
-                    "gdpr_anonymized": "",
-                    "gdpr_deleted": "",
-                    "gdpr_exported": ""
+                    "gdpr_erasure_requested": "A demandé la suppression des données de {username}",
+                    "gdpr_erasure_confirmed": "A confirmé la demande de suppression des données de {username}",
+                    "gdpr_erasure_cancelled": "A annulé la demande de suppression des données de {username}",
+                    "gdpr_anonymized": "A anonymisé les données de {username}",
+                    "gdpr_deleted": "A supprimé les données de {username}",
+                    "gdpr_exported": "A exporté les données de {username}"
                 }
             }
         }
