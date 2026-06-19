@@ -22,8 +22,8 @@
             "link": {
                 "all-audit": "Journal d'audit",
                 "discussion-audit": "Journal d'audit",
-                "user-audit": "Journal d'Audit (modifications du compte)",
-                "actor-audit": "Journal d'Audit (utilisateur en tant qu'acteur)"
+                "user-audit": "Journal d'audit (modifications du compte)",
+                "actor-audit": "Journal d'audit (utilisateur en tant qu'acteur)"
             },
             "modal": {
                 "all-title": "Journal d'audit",
@@ -40,20 +40,20 @@
                 "refresh": "Actualiser",
                 "filtersHint": "Filtres :",
                 "filters": {
-                    "actor": "Qui a effectué l'action. Utilisez « actor:guest » pour les actions système ou les actions non authentifiées.",
-                    "user": "L'utilisateur affecté par l'action, par nom d'utilisateur.",
+                    "actor": "Qui a effectué l'action. Utilisez « actor:guest » pour les actions système ou non authentifiées.",
+                    "user": "L'utilisateur concerné par l'action, par nom d'utilisateur.",
                     "action": "Le type d'action, par exemple action:post.created.",
                     "client": "Comment la demande a été formulée.",
                     "ip": "L'adresse IP à l'origine de l'action.",
-                    "discussion": ""
+                    "discussion": "Actions affectant une discussion spécifique, par ID."
                 },
                 "help": {
-                    "toggle": "",
+                    "toggle": "Aide à la recherche",
                     "multiple": "",
                     "negate": ""
                 },
                 "empty": "Aucun résultat",
-                "loadMore": "Charger plus",
+                "loadMore": "Charger davantage",
                 "withoutActor": "=> core.group.guest",
                 "deletedResource": {
                     "discussion": "Discussion #{id}",
@@ -96,13 +96,13 @@
                 "developer_token_created": "A créé un jeton d'accès développeur « {title} » pour {username}",
                 "discussion": {
                     "created": "A démarré la discussion {discussion}",
-                    "create_date_changed": "",
+                    "create_date_changed": "A modifié la date de début de {discussion} de {old_date} à {new_date}",
                     "deleted": "A supprimé la discussion {discussion}",
-                    "hidden": "",
-                    "merged_away": "",
-                    "merged_into": "",
-                    "renamed": "",
-                    "restored": "",
+                    "hidden": "A masqué la discussion {discussion}",
+                    "merged_away": "A fusionné {discussion} dans {new_discussion}",
+                    "merged_into": "A fusionné {post_count} messages depuis {original_discussion_ids_count} discussions dans {discussion}",
+                    "renamed": "A renommé la discussion de {old_title} par {new_title}",
+                    "restored": "A restauré la discussion {discussion}",
                     "split_away": "",
                     "split_into": "",
                     "user_changed": ""
