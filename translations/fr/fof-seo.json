@@ -48,7 +48,7 @@
             "settings": {
                 "keywords": {
                     "heading": "Mots-clés du forum",
-                    "help": "Entrez un ou plusieurs mots-clés qui décrivent votre forum.",
+                    "help": "Saisissez un ou plusieurs mots-clés qui décrivent votre forum.",
                     "placeholder": "Ajouter quelques mots-clés",
                     "comma_note": "Remarque : les mots-clés doivent être séparés par une virgule.",
                     "example": "Exemple : flarum, développement web, forum, pommes, sécurité"
@@ -248,21 +248,21 @@
                     "help": ""
                 },
                 "keywords": {
-                    "label": "",
-                    "help": "",
-                    "placeholder": "",
-                    "comma_note": "",
-                    "example": ""
+                    "label": "Mots-clés",
+                    "help": "Saisissez un ou plusieurs mots-clés qui décrivent cet élement.",
+                    "placeholder": "Ajouter quelques mots-clés",
+                    "comma_note": "Remarque : les mots-clés doivent être séparés par une virgule.",
+                    "example": "Exemple : flarum, développement web, forum, pommes, sécurité"
                 },
                 "image": {
-                    "label": "",
-                    "help": "",
-                    "placeholder": "",
+                    "label": "Image Meta",
+                    "help": "Affiche une image.",
+                    "placeholder": "Saisissez l'URL de l'image",
                     "managed_by": "",
-                    "upload": ""
+                    "upload": "Transférer un fichier"
                 },
                 "robots": {
-                    "label": "",
+                    "label": "Robots",
                     "help": "",
                     "tags": {
                         "indexing_allowed": "",
