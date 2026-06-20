@@ -2,18 +2,18 @@
     "fof-online-users-widget": {
         "admin": {
             "settings": {
-                "cache_ttl": "",
-                "last_seen_interval": "",
-                "max_users": ""
+                "cache_ttl": "Время кэширования списка пользователей (в секундах)",
+                "last_seen_interval": "Интервал последней активности для определения пользователя в сети (в минутах)",
+                "max_users": "Максимальное количество отображаемых пользователей"
             },
             "permissions": {
-                "view_online_users_widget": ""
+                "view_online_users_widget": "Видеть виджет «Пользователи в сети»"
             }
         },
         "forum": {
             "widget": {
-                "title": "",
-                "empty": ""
+                "title": "В сети",
+                "empty": "Сейчас никого нет."
             }
         }
     }
