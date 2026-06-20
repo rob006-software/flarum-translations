@@ -2,24 +2,24 @@
     "ernestdefoe-google-fonts": {
         "admin": {
             "body_font_label": "Основной шрифт",
-            "body_font_help": "",
-            "heading_font_label": "",
-            "heading_font_help": "",
-            "placeholder": "",
-            "preview_text": "",
-            "no_font": "",
-            "clear": "",
-            "switch_to_upload": "",
-            "switch_to_google": "",
-            "upload_hint": "",
-            "family_name": "",
-            "family_placeholder": "",
-            "name_your_font": "",
-            "add_weight": "",
-            "remove_weight": "",
-            "uploading": "",
-            "only_woff2": "",
-            "upload_error": ""
+            "body_font_help": "Шрифт, используемый для основного текста на вашем форуме. Начните вводить текст, чтобы найти нужный шрифт в библиотеке Google Fonts, или загрузите свой собственный шрифт.\n",
+            "heading_font_label": "Шрифт заголовка",
+            "heading_font_help": "Шрифт, используемый для заголовков. Оставьте поле пустым, чтобы сохранить основной шрифт.",
+            "placeholder": "например, Inter, Roboto, Poppins…",
+            "preview_text": "Быстрая бурая fox перепрыгивает через ленивую dog 0123456789",
+            "no_font": "Шрифт не выбран — используется шрифт по умолчанию.",
+            "clear": "Очистить",
+            "switch_to_upload": "Загрузите свой собственный шрифт (работает, если Google заблокирован)",
+            "switch_to_google": "Вместо этого используйте шрифт Google",
+            "upload_hint": "Разместите шрифт на своем форуме, чтобы он загружался везде, в том числе в регионах, где Google Fonts заблокирован (например, в материковом Китае). Загрузите по одному файлу .woff2 для каждого начертания, которое вам нужно. Один файл .woff2 с переменными параметрами содержит все начертания.\n",
+            "family_name": "Название шрифта",
+            "family_placeholder": "например, My Brand Sans",
+            "name_your_font": "Чтобы просмотреть шрифт, дайте ему название.",
+            "add_weight": "Загрузить .woff2",
+            "remove_weight": "Удалить это начертание",
+            "uploading": "Загрузка…",
+            "only_woff2": "Поддерживаются только файлы .woff2. Сначала конвертируйте шрифт в формат woff2.",
+            "upload_error": "Не удалось загрузить файл. Пожалуйста, попробуйте снова."
         }
     }
 }
