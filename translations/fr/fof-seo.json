@@ -85,7 +85,7 @@
                     "heading": "Liens « no-follow »",
                     "help": "Tous les liens vers des domaines externes recevront par défaut l'attribut « <i>nofollow</i> ». Cela permettra d'éviter que des utilisateurs n'inondent votre forum avec des liens vers d'autres domaines dans le but d'obtenir davantage de visites.",
                     "help_dofollow": "Ce paramètre vous permet d'ajouter des domaines à la liste « do-follow ». Par exemple, vous pouvez ajouter <i>flarum.org</i> pour vous assurer que les liens vers ce site web ne se voient pas attribuer l'attribut « nofollow ».",
-                    "button": ""
+                    "button": "Ouvrir la liste des domaines « do-follow »"
                 },
                 "new_tab": {
                     "heading": "Ouvrir les liens externes dans un nouvel onglet",
@@ -94,17 +94,17 @@
                 "updated": {
                     "heading": "Avez-vous mis à jour ce paramètre ?",
                     "help": "Lorsque vous pensez être prêt, cliquez sur le bouton ci-dessous pour vérifier à nouveau l'état de ce paramètre.",
-                    "button": ""
+                    "button": "Revenir à la vue d'ensemble et revérifier"
                 }
             },
             "pages": {
                 "search_engines": {
                     "heading": "Soumettez votre site web aux moteurs de recherche",
                     "intro": "",
-                    "sitemap_tip": "",
-                    "google_heading": "",
-                    "google_visit": "",
-                    "google_www": "",
+                    "sitemap_tip": "Il est recommandé de disposer d'un plan du site avant de suivre ce guide. Si vous n'avez pas encore un plan du site, <a>cliquez ici pour en savoir plus à ce sujet</a>.",
+                    "google_heading": "Ajoutez votre site web aux résultats de recherche Google",
+                    "google_visit": "Si vous souhaitez ajouter votre site web aux résultats de recherche Google, rendez-vous sur {link}. Vous devrez ajouter votre site web et confirmer que vous êtes bien le propriétaire du nom de domaine associé.",
+                    "google_www": "Lorsque vous saisissez votre nom de domaine, vous devez vous poser la question suivante : souhaitez-vous utiliser le sous-domaine « www » dans les résultats de recherche ? Vous ne pourrez <strong>pas</strong> modifier ce paramètre ultérieurement. Enregistrer votre nom de domaine plusieurs fois dans Google Search Console n'améliorera pas votre classement.",
                     "google_sitemap": "",
                     "bing_heading": "",
                     "bing_visit": "",
