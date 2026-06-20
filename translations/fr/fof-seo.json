@@ -145,14 +145,14 @@
                 },
                 "health": {
                     "legend": "",
-                    "default_button": "",
+                    "default_button": "Mettre à jour les paramètres",
                     "table": {
-                        "technique": "",
-                        "status": ""
+                        "technique": "Technique",
+                        "status": "Statut"
                     },
                     "status": {
-                        "warning": "",
-                        "passed": ""
+                        "warning": "Attention !",
+                        "passed": "Tout est prêt !"
                     },
                     "checks": {
                         "description": {
@@ -160,12 +160,12 @@
                             "reason_missing": "",
                             "reason_default": "",
                             "reason_too_short": "",
-                            "button": ""
+                            "button": "Mettre à jour la description"
                         },
                         "keywords": {
                             "label": "",
                             "reason": "",
-                            "button": ""
+                            "button": "Mettre à jour les mots-clés"
                         },
                         "ssl": {
                             "label": "",
@@ -180,7 +180,7 @@
                         "social_media": {
                             "label": "",
                             "reason": "",
-                            "button": ""
+                            "button": "Mettre à jour l'image"
                         },
                         "sitemap": {
                             "label": "",
@@ -202,7 +202,7 @@
                         },
                         "review": {
                             "label": "",
-                            "reason": "",
+                            "reason": "Il est temps de revoir vos paramètres SEO.",
                             "button": ""
                         }
                     }
@@ -210,27 +210,27 @@
             }
         },
         "forum": {
-            "profile_title": "",
-            "profile_description": "",
+            "profile_title": "Profil de {username}",
+            "profile_description": "Profil de {username} | {discussion_count} discussions | {comment_count} messages",
             "controls": {
-                "configure_seo": "",
-                "update_seo": "",
-                "reset_seo": ""
+                "configure_seo": "Configurer le référencement",
+                "update_seo": "Mettre à jour le référencement",
+                "reset_seo": "Réinitialiser le référencement"
             },
             "meta_seo": {
                 "title": "",
-                "note_prefix": "",
+                "note_prefix": "Note :",
                 "managed": "",
-                "saved": "",
+                "saved": "Enregistré !",
                 "close": {
-                    "close": "",
-                    "save": "",
-                    "save_autofill": "",
+                    "close": "Fermer",
+                    "save": "Enregistrer",
+                    "save_autofill": "Enregistrer et remplir automatiquement",
                     "autofill_info": ""
                 },
                 "unsupported_object": {
                     "title": "",
-                    "docs_link": "",
+                    "docs_link": "Documentation",
                     "body": ""
                 },
                 "auto_update": {
@@ -239,12 +239,12 @@
                     "switch": ""
                 },
                 "meta_title": {
-                    "label": "",
-                    "help": "",
+                    "label": "Titre Meta",
+                    "help": "Titre dans les moteurs de recherche.",
                     "placeholder": ""
                 },
                 "meta_description": {
-                    "label": "",
+                    "label": "Description Meta",
                     "help": ""
                 },
                 "keywords": {
