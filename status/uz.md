@@ -5416,6 +5416,17 @@
 		<td align="center"><a href="https://packagist.org/packages/songnguxyz/oauth-mediawiki/stats">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/songnguxyz-oauth-mediawiki/uz/"><img src="https://weblate.rob006.net/widgets/flarum/uz/songnguxyz-oauth-mediawiki/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/huoxin233/flarum-ext-filter-rule-manager" title="huoxin/filter-rule-manager"><code>huoxin/filter-rule-manager</code></a>
+		</td>
+		<td align="center">491</td>
+		<td align="center"><a href="https://packagist.org/packages/huoxin/filter-rule-manager/stats">0</a></td>
+		<td align="center"><a href="https://packagist.org/packages/huoxin/filter-rule-manager/stats">0</a></td>
+		<td align="center"><a href="https://packagist.org/packages/huoxin/filter-rule-manager/stats">0</a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/huoxin-filter-rule-manager/uz/"><img src="https://weblate.rob006.net/widgets/flarum/uz/huoxin-filter-rule-manager/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
 </tbody>
 </table>
 
