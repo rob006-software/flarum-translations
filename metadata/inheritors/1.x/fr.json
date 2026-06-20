@@ -5388,6 +5388,31 @@
                     }
                 },
                 "pages": {
+                    "health": {
+                        "checks": {
+                            "description": {
+                                "button": "d41d8cd98f00b204e9800998ecf8427e 7aa7345bf52eb250415c5089cc020cbc"
+                            },
+                            "keywords": {
+                                "button": "d41d8cd98f00b204e9800998ecf8427e 96c50af2a688d3a5dd2803f824caf5d9"
+                            },
+                            "review": {
+                                "reason": "d41d8cd98f00b204e9800998ecf8427e 532e314bc1ffd12d9468a913efeeeeb9"
+                            },
+                            "social_media": {
+                                "button": "d41d8cd98f00b204e9800998ecf8427e 3a31d6c2e0bcaf32cc76b0b437b9ee67"
+                            }
+                        },
+                        "default_button": "d41d8cd98f00b204e9800998ecf8427e d2b9cc6f75560619e1d4c9fac45b279b",
+                        "status": {
+                            "passed": "d41d8cd98f00b204e9800998ecf8427e 43dbc6b5891badb1efc3701c9cea09c8",
+                            "warning": "d41d8cd98f00b204e9800998ecf8427e fd30b1badd167ba5af1ef8946a135a15"
+                        },
+                        "table": {
+                            "status": "d41d8cd98f00b204e9800998ecf8427e 87a831bc99060c55b50dbe91c6aab6e9",
+                            "technique": "d41d8cd98f00b204e9800998ecf8427e 22a70073ad2d57551add52e626af6f9e"
+                        }
+                    },
                     "search_engines": {
                         "heading": "d41d8cd98f00b204e9800998ecf8427e 0fbcd9c976ff77fe89f3b2d79aaa935d"
                     }
@@ -5447,7 +5472,25 @@
                 }
             },
             "forum": {
+                "controls": {
+                    "configure_seo": "d41d8cd98f00b204e9800998ecf8427e 17fba9b84d43b10778d11007e389d8cf",
+                    "reset_seo": "d41d8cd98f00b204e9800998ecf8427e c5efc98bbe59a5b5bac0ae1af78c856b",
+                    "update_seo": "d41d8cd98f00b204e9800998ecf8427e 4b8e363b794756cd7ab109616c2daa2d"
+                },
                 "meta_seo": {
+                    "close": {
+                        "close": "d41d8cd98f00b204e9800998ecf8427e 7d206237f9912ea010005db2c20b60ce",
+                        "save": "d41d8cd98f00b204e9800998ecf8427e aed88202e2432ee2a613f9120ef7486b",
+                        "save_autofill": "d41d8cd98f00b204e9800998ecf8427e 021061fb9ed67db189e6aa6ebcc12432"
+                    },
+                    "meta_description": {
+                        "label": "d41d8cd98f00b204e9800998ecf8427e 8a4ea7732f5d5ad67e5852d132f522ab"
+                    },
+                    "meta_title": {
+                        "help": "d41d8cd98f00b204e9800998ecf8427e f810b97320cbc3ccd7bb56d8938aea1a",
+                        "label": "d41d8cd98f00b204e9800998ecf8427e 39d2a9904e4a6aea7685915fbbf4645a"
+                    },
+                    "note_prefix": "d41d8cd98f00b204e9800998ecf8427e 26db7a5f4d2a05b0cecdd284a68f551d",
                     "og": {
                         "auto_switch": "d41d8cd98f00b204e9800998ecf8427e 47bae09057eff70626597851cf6f959d",
                         "description": {
@@ -5457,6 +5500,7 @@
                         "label": "d41d8cd98f00b204e9800998ecf8427e 7f8045cd2fd6228f7652fc5b9d74fb47",
                         "title": "d41d8cd98f00b204e9800998ecf8427e ff8525b60f7352974ea1804b542b28c3"
                     },
+                    "saved": "d41d8cd98f00b204e9800998ecf8427e a8ac7631fbbe59fc9cd5e41830cdb96e",
                     "twitter": {
                         "auto_switch": "d41d8cd98f00b204e9800998ecf8427e 5fa713686c2e416114fb1106e70e77dc",
                         "description": "d41d8cd98f00b204e9800998ecf8427e b452a07d25d7c622277bf778e086867c",
@@ -5467,8 +5511,13 @@
                         },
                         "label": "d41d8cd98f00b204e9800998ecf8427e 65ea8454795107f23d7d343505a7679a",
                         "title": "d41d8cd98f00b204e9800998ecf8427e eb39f7d1b8d0dd7016c160b55791c3fc"
+                    },
+                    "unsupported_object": {
+                        "docs_link": "d41d8cd98f00b204e9800998ecf8427e 5b6cf869265c13af8566f192b4ab3d2a"
                     }
-                }
+                },
+                "profile_description": "d41d8cd98f00b204e9800998ecf8427e 6eed969263e3d1c573fbc8b3fddd5839",
+                "profile_title": "d41d8cd98f00b204e9800998ecf8427e c05a2ffec417b386a190e90d14e3cdc6"
             }
         }
     },
