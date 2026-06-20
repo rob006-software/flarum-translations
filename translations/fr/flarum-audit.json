@@ -99,33 +99,33 @@
                     "create_date_changed": "A modifié la date de début de {discussion} de {old_date} à {new_date}",
                     "deleted": "A supprimé la discussion {discussion}",
                     "hidden": "A masqué la discussion {discussion}",
-                    "merged_away": "A fusionné {discussion} dans {new_discussion}",
-                    "merged_into": "A fusionné {post_count} messages depuis {original_discussion_ids_count} discussions dans {discussion}",
-                    "renamed": "A renommé la discussion de {old_title} par {new_title}",
+                    "merged_away": "A fusionné {discussion} avec {new_discussion}",
+                    "merged_into": "A regroupé {post_count} messages depuis {original_discussion_ids_count} discussions dans {discussion}",
+                    "renamed": "A renommé la discussion {old_title} par {new_title}",
                     "restored": "A restauré la discussion {discussion}",
-                    "split_away": "",
-                    "split_into": "",
-                    "user_changed": ""
+                    "split_away": "A déplacé {post_count} messages depuis {discussion} vers {new_discussion}",
+                    "split_into": "A déplacé {post_count} messages vers la nouvelle discussion {discussion}",
+                    "user_changed": "A modifié l'auteur de {discussion}, {old_user} par {new_user}"
                 },
                 "extension": {
-                    "disabled": "",
-                    "enabled": "",
-                    "uninstalled": ""
+                    "disabled": "A désactivé l'extension {package}",
+                    "enabled": "A activé l'extension {package}",
+                    "uninstalled": "A désinstallé l'extension {package}"
                 },
                 "fof_ban_ips": {
-                    "banned": "",
-                    "unbanned": ""
+                    "banned": "A banni l'adresse IP {ip}",
+                    "unbanned": "A débanni l'adresse IP {ip}"
                 },
                 "group": {
-                    "created": "",
-                    "deleted": "",
-                    "renamed": ""
+                    "created": "A créé le groupe {name}",
+                    "deleted": "A supprimé le groupe {name}",
+                    "renamed": "A renommé le groupe {old_name} en {new_name}"
                 },
                 "permission_changed": "",
                 "post": {
-                    "created": "",
-                    "create_date_changed": "",
-                    "deleted": "",
+                    "created": "A créé un {post} dans {discussion}",
+                    "create_date_changed": "A modifié la date de début du {post} de {postuser} de {old_date} à {new_date}",
+                    "deleted": "A supprimé {post} de {postuser} dans {discussion}",
                     "edit_date_changed": "",
                     "hidden": "",
                     "restored": "",
