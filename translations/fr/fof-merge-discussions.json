@@ -18,7 +18,7 @@
                 "submit_button": "=> fof-merge-discussions.ref.merge"
             },
             "notification": {
-                "discussion_merged": "Votre discussion {oldTitle} a été fusionnée dans cette discussion par {username}.",
+                "discussion_merged": "Votre discussion {oldTitle} a été fusionnée avec cette discussion par {username}.",
                 "preferences": {
                     "discussion_merged": "Quelqu'un a fusionné une de mes discussions avec une autre"
                 }
@@ -53,7 +53,7 @@
         },
         "email": {
             "merged": {
-                "body": "Votre discussion, {merged_discussion_title}, a été fusionnée dans {discussion_title} par {actor_display_name}.\n\nConsultez-le ici {discussion_url} .\n",
+                "body": "Votre discussion, {merged_discussion_title}, a été fusionnée avec {discussion_title} par {actor_display_name}.\n\nConsultez-le ici {discussion_url} .\n",
                 "subject": "Votre discussion \"{merged_discussion_title}\" a été fusionnée"
             }
         }
