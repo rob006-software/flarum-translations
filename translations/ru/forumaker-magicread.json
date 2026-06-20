@@ -3,15 +3,15 @@
         "admin": {
             "settings": {
                 "section_main": "Настройки",
-                "section_pagination": "",
+                "section_pagination": "Пагинация",
                 "enable_readmore": "«Прочитать всё» на странице постов в профиле",
-                "enable_readmore_help": "",
-                "enable_pagination": "Пагинация в дискуссиях",
-                "enable_pagination_help": "",
+                "enable_readmore_help": "Скрывает длинные сообщения в профиле и добавляет кнопку для их раскрытия",
+                "enable_pagination": "Добавить навигацию по страницам под полосой прокрутки",
+                "enable_pagination_help": "Оставляет полосу прокрутки и добавляет под ней выбор страницы",
                 "enable_counter": "Счётчик символов в редакторе",
-                "enable_counter_help": "",
-                "enable_discussion_pager": "",
-                "enable_discussion_pager_help": ""
+                "enable_counter_help": "Добавляет счётчик символов в правый верхний угол при вводе сообщения",
+                "enable_discussion_pager": "Показывать навигацию по страницам вместо полосы прокрутки",
+                "enable_discussion_pager_help": "Удаляет полосу прокрутки, добавляет постраничную навигацию сверху и снизу страницы и отключает автопрокрутку"
             }
         },
         "forum": {
@@ -20,13 +20,13 @@
                 "label": "Символы"
             },
             "pager": {
-                "first": "",
-                "prev": "",
-                "next": "",
-                "last": "",
-                "page": "",
-                "go": "",
-                "input_label": ""
+                "first": "Вернуться в начало",
+                "prev": "Предыдущая страница",
+                "next": "Следующая страница",
+                "last": "К последней странице",
+                "page": "Страница",
+                "go": "Перейти",
+                "input_label": "Перейти к странице"
             }
         }
     }
