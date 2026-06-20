@@ -39,7 +39,7 @@ return [
 		],
 	],
 	'captchala-flarum' => [
-		'tag' => 'https://raw.githubusercontent.com/Captcha-La/captchala-flarum/v1.0.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/Captcha-La/captchala-flarum/v1.0.1/resources/locale/en.yml',
 	],
 	'dashzeveg-ads-manager' => [
 		'tag' => 'https://raw.githubusercontent.com/dashzeveg/flarum-ads-manager/v1.1/locale/en.yml',
