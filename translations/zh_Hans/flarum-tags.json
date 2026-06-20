@@ -4,8 +4,8 @@
             "basics": {
                 "tags_label": "=> flarum-tags.ref.tags",
                 "slug_driver_options": {
-                    "default": "",
-                    "id_with_slug": ""
+                    "default": "默认",
+                    "id_with_slug": "带slug的ID"
                 }
             },
             "edit_tag": {
@@ -116,12 +116,12 @@
         "lib": {
             "browser": {
                 "discussion": {
-                    "tagged": ""
+                    "tagged": "将{discussion}标签从{old_tags}更新为{new_tags}"
                 },
                 "tag": {
-                    "created": "",
-                    "updated": "",
-                    "deleted": ""
+                    "created": "已创建标签{tag}",
+                    "updated": "已更新标签{tag}",
+                    "deleted": "已删除标签{tag}"
                 }
             }
         }
