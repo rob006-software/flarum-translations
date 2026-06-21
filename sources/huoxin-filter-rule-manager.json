@@ -202,7 +202,8 @@
             "validation": {
                 "name_required": "Please give the ruleset a name.",
                 "tags_required": "Tag scope is selected — list at least one tag ID.",
-                "expression_required": "An expression is required."
+                "expression_required": "An expression is required.",
+                "invalid_ruleset_ids": "One or more ruleset IDs are invalid or do not exist."
             },
             "permissions": {
                 "bypass_all_rules": "Bypass all filter rules"
