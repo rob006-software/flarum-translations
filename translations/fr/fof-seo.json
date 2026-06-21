@@ -27,14 +27,14 @@
             },
             "modals": {
                 "crawl_post": {
-                    "title": "Paramètres d'indexation des messages",
+                    "title": "Paramètres d'exploration des messages",
                     "intro": "<b>Lisez attentivement cette boîte de dialogue.</b> Cette fonction ne s'exécutera qu'au moment de l'actualisation de la page d'une discussion. Vous pourrez toujours modifier cette option ultérieurement.",
                     "mode_main_title": "Indexer uniquement le message principal (par défaut)",
                     "mode_main_help": "Le moteur de recherche affichera seulement le message principal dans les résultats de recherche. Cela n'aura aucune incidence sur la vitesse de chargement lorsque vous y accéderez via les liens du forum.",
                     "mode_all_title": "Indexer tous les messages d'une discussion (option activée)",
                     "mode_all_help": "Les moteurs de recherche comprennent les discussions et sont même capables d'afficher certains messages pertinents sous les résultats de recherche. Lorsque l'extension « <a>meilleure réponse</a> » est installée et activée sur votre forum, elle marquera la discussion comme « résolue » dans les résultats de recherche et redirigera l'utilisateur vers ce message spécifique. Chaque réponse est également affichée avec le nombre de « J'aime » et de votes positifs, ce qui permet aux moteurs de recherche d'identifier les réponses les plus utiles, même sans l'extension « meilleure réponse ». <b>Cependant, selon les paramètres de votre serveur, cela peut alourdir le système</b>. Cela peut nuire aux performances, donc l'activation de cette fonctionnalité dépend de la vitesse de votre serveur.",
                     "question": "Voulez-vous activer cette fonctionnalité ?",
-                    "switch_label": "Analyser tous les messages (le rafraîchissement de la page est plus lent, mais les résultats de recherche seront meilleurs)"
+                    "switch_label": "Explorer tous les messages (le rafraîchissement de la page est plus lent, mais les résultats de recherche seront meilleurs)"
                 },
                 "dofollow": {
                     "title": "Liste des liens « do-follow »",
@@ -69,9 +69,9 @@
                     "help_usage": "Cette image sera utilisée sur les réseaux sociaux lorsqu'un utilisateur partagera une page de votre site web (Facebook, X (anciennement Twitter), Reddit)."
                 },
                 "crawl": {
-                    "heading": "Paramètres d'indexation des messages dans les discussions",
-                    "help": "Il s'agit d'un paramètre important concernant l'indexation de vos messages de discussion dans les résultats de recherche.",
-                    "button": "Configurer l'indexation des messages"
+                    "heading": "Paramètres d’exploration des messages de discussion",
+                    "help": "Il s'agit d'un paramètre important concernant l'exploration de vos messages de discussion dans les résultats de recherche.",
+                    "button": "Configurer l'exploration des messages"
                 },
                 "indexing": {
                     "heading": "Contrôles de l'indexation",
@@ -114,7 +114,7 @@
                     "yandex_sitemap": "N'oubliez pas de configurer le plan du site dans Yandex.Webmaster.",
                     "yahoo_heading": "Ajoutez votre site web aux résultats de recherche Yahoo",
                     "yahoo_body": "Si vous souhaitez ajouter votre site web aux résultats de recherche Yahoo, veuillez finaliser votre inscription aux résultats de recherche Bing. Yahoo utilisera ces données.",
-                    "confirm_button": ""
+                    "confirm_button": "J'ai lu"
                 },
                 "sitemap": {
                     "why_heading": "Pourquoi utiliser un plan du site ?",
@@ -124,14 +124,14 @@
                     "which_extension_body": "{link} est l'extension recommandée à installer pour Flarum. Nous vous recommandons vivement de l'installer et de l'activer.",
                     "which_extension_details": "Cette extension permettra aux robots d'indexation de trouver les <b>discussions</b>, les <b>étiquettes</b> (lorsque l'extension est activée) et les <b>Pages</b> de votre forum (lorsque l'extension est installée et activée). Elle mettra automatiquement à disposition un fichier sitemap.xml.",
                     "robots_heading": "Qu'en est-il du fichier robots.txt ?",
-                    "robots_body": "Cette même extension génère également un fichier <b>robots.txt</b> pour votre forum. Ce fichier indique aux moteurs de recherche les sections qu'ils sont autorisés à indexer et les redirige vers votre plan du site ; son installation permet donc de gérer ces deux fichiers en même temps — aucune configuration supplémentaire n’est nécessaire.",
+                    "robots_body": "Cette même extension génère également un fichier <b>robots.txt</b> pour votre forum. Ce fichier indique aux moteurs de recherche les sections qu'ils sont autorisés à explorer et les redirige vers votre plan du site ; son installation permet donc de gérer ces deux fichiers en même temps — aucune configuration supplémentaire n’est nécessaire.",
                     "just_installed_heading": "Je viens d'installer l'extension",
                     "just_installed_body": "Dans ce cas, activez-la en cliquant sur l'extension dans la barre latérale de gauche. Cet avertissement disparaîtra alors."
                 },
                 "ssl": {
                     "intro_heading": "Pourquoi ai-je besoin d'une connexion sécurisée ?",
                     "intro_body": "La sensibilisation à la sécurité et à la protection des données sur Internet ne cesse de croître. <b>Presque tous les</b> développeurs et propriétaires de sites web souhaitent que leur site soit sécurisé pour leurs visiteurs, afin que ceux-ci n'aient pas à craindre que leurs données soient compromises par des pirates informatiques ou des usurpateurs d'identité.",
-                    "rankings_heading": "",
+                    "rankings_heading": "Moteurs de recherche {icon} connexions sécurisées",
                     "rankings_body": "Lorsque vous ne disposez pas d'une connexion sécurisée vers votre site web, les moteurs de recherche classeront votre site bien plus bas que les autres, voire ne l'indexeront pas.",
                     "rankings_body_ssl": "Lorsque vous disposez d'un certificat SSL, votre site web bénéficiera d'un meilleur classement et sera indexé.",
                     "what_heading": "Qu'est-ce que SSL ou TLS ?",
@@ -140,11 +140,11 @@
                     "how_body": "Pour les utilisateurs d'un hébergement web, la méthode la plus courante consiste à se connecter au panneau d'administration de l'hébergement, à accéder aux paramètres d'hébergement de votre site web, puis à cliquer sur « SSL ». Vous pouvez ensuite suivre les étapes indiquées pour ajouter un certificat SSL à votre site web. La plupart des hébergeurs prennent aujourd'hui en charge l'émetteur de certificats populaire {link}.",
                     "added_heading": "OK, j'ai ajouté le certificat SSL !",
                     "added_body": "Super ! Maintenant, modifiez votre fichier <b>config.php</b> et remplacez <b>« url »</b> par <b>https</b> !",
-                    "no_ssl_heading": "",
-                    "no_ssl_body": ""
+                    "no_ssl_heading": "Et si je ne souhaite pas ajouter un certificat SSL ?",
+                    "no_ssl_body": "Dans ce cas, vous pouvez désinstaller cette extension, car les moteurs de recherche <b> n'indexeront pas votre forum </b> ou le classeront bien en dessous des autres sites pour des raisons de sécurité."
                 },
                 "health": {
-                    "legend": "",
+                    "legend": "Pour obtenir des résultats optimaux sur les moteurs de recherche, assurez-vous que toutes les cases soient cochées en vert.",
                     "default_button": "Mettre à jour les paramètres",
                     "table": {
                         "technique": "Technique",
@@ -156,35 +156,35 @@
                     },
                     "checks": {
                         "description": {
-                            "label": "",
-                            "reason_missing": "",
-                            "reason_default": "",
-                            "reason_too_short": "",
+                            "label": "Vérifie si votre forum comporte une description",
+                            "reason_missing": "Vous n'avez pas encore rédigé la description du forum !",
+                            "reason_default": "Vous n'avez pas modifié la description du forum par défaut après l'installation !",
+                            "reason_too_short": "Votre description du forum comporte moins de 20 caractères. Veuillez la développer pour obtenir de meilleurs résultats de recherche.",
                             "button": "Mettre à jour la description"
                         },
                         "keywords": {
-                            "label": "",
-                            "reason": "",
+                            "label": "Vérifie si votre forum comporte des mots-clés",
+                            "reason": "Vous n'avez pas encore défini de mots-clés pour le forum !",
                             "button": "Mettre à jour les mots-clés"
                         },
                         "ssl": {
-                            "label": "",
-                            "reason": "",
-                            "button": ""
+                            "label": "Vérifie si votre site dispose d'une connexion sécurisée (SSL/TLS)",
+                            "reason": "Votre forum n'impose pas de connexion SSL/TLS (une connexion sécurisée à votre site web). La plupart des moteurs de recherche n'indexeront pas votre site web ou lui attribueront un classement moins favorable si aucune connexion sécurisée n'est disponible.",
+                            "button": "Comment configurer SSL"
                         },
                         "crawl": {
-                            "label": "",
+                            "label": "Vérifier les paramètres d'exploration des messages de discussion",
                             "reason": "",
-                            "button": ""
+                            "button": "Vérifier les paramètres de message"
                         },
                         "social_media": {
-                            "label": "",
-                            "reason": "",
+                            "label": "Configurer une image pour les réseaux sociaux",
+                            "reason": "Vous n'avez pas défini d'image pour votre forum destinée aux réseaux sociaux. Il est recommandé d'en définir une. Votre favicon sera désormais utilisé comme aperçu sur les réseaux sociaux.",
                             "button": "Mettre à jour l'image"
                         },
                         "sitemap": {
-                            "label": "",
-                            "reason": "",
+                            "label": "Vérifie si votre forum dispose d'un plan du site",
+                            "reason": "Il est fortement recommandé d'installer l'extension « FriendsOfFlarum Sitemap » !",
                             "button": ""
                         },
                         "robots": {
@@ -276,15 +276,15 @@
                     "switch": {
                         "indexing": "",
                         "follow": "",
-                        "noarchive": "",
-                        "noimageindex": "",
-                        "nosnippet": ""
+                        "noarchive": "Désactiver l'archivage de la page (noarchive)",
+                        "noimageindex": "Désactiver l'indexation des images sur cette page (noimageindex)",
+                        "nosnippet": "Désactiver les extraits de texte sur la page (nosnippet)"
                     }
                 },
                 "reading_time": {
-                    "label": "",
-                    "help": "",
-                    "placeholder": ""
+                    "label": "Temps de lecture estimé",
+                    "help": "Temps de lecture estimé en secondes.",
+                    "placeholder": "Temps de lecture en secondes"
                 },
                 "twitter": {
                     "label": "Carte X (anciennement Twitter)",
