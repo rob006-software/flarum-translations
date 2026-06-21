@@ -612,7 +612,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/PeopleInside/flarum-ext-antiflood/1.1.6/locale/en.yml',
 	],
 	'peopleinside-automore' => [
-		'tag' => 'https://raw.githubusercontent.com/PeopleInside/automore/2.0.2/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/PeopleInside/automore/2.0.3/locale/en.yml',
 		'__builtInLanguages' => [
 			'it',
 		],
