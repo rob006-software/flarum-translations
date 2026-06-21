@@ -173,9 +173,9 @@
                             "button": "Comment configurer SSL"
                         },
                         "crawl": {
-                            "label": "Vérifier les paramètres d'exploration des messages de discussion",
-                            "reason": "",
-                            "button": "Vérifier les paramètres de message"
+                            "label": "Revoir les paramètres d'exploration des messages de discussion",
+                            "reason": "Vous devrez revoir ce paramètre pour valider.",
+                            "button": "Revoir les paramètres de message"
                         },
                         "social_media": {
                             "label": "Configurer une image pour les réseaux sociaux",
@@ -193,15 +193,15 @@
                             "button": "En savoir plus sur la création d'un fichier robots.txt"
                         },
                         "meta_tags": {
-                            "label": ""
+                            "label": "Vérifie si votre forum comporte des balises meta (générées par ce plugin)"
                         },
                         "search_engines": {
-                            "label": "",
+                            "label": "Enregistrez votre forum auprès des moteurs de recherche",
                             "reason": "",
-                            "button": ""
+                            "button": "Plus d'informations"
                         },
                         "review": {
-                            "label": "",
+                            "label": "Vérifiez vos paramètres SEO tous les deux mois. Prochaine vérification prévue le {date}",
                             "reason": "Il est temps de revoir vos paramètres SEO.",
                             "button": ""
                         }
@@ -218,7 +218,7 @@
                 "reset_seo": "Réinitialiser le référencement"
             },
             "meta_seo": {
-                "title": "",
+                "title": "Paramètres SEO - Meta",
                 "note_prefix": "Note :",
                 "managed": "",
                 "saved": "Enregistré !",
@@ -234,8 +234,8 @@
                     "body": ""
                 },
                 "auto_update": {
-                    "label": "",
-                    "help": "",
+                    "label": "Mise à jour automatique des balises meta",
+                    "help": "Lorsque cette option est activée, les balises meta de cet élément sont automatiquement mises à jour dès que l'objet est modifié.",
                     "switch": ""
                 },
                 "meta_title": {
