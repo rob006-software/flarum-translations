@@ -3546,6 +3546,75 @@
     },
     "fof-doorman.json": {
         "fof-doorman": {
+            "admin": {
+                "list": {
+                    "columns": {
+                        "created_by": "d41d8cd98f00b204e9800998ecf8427e f9616d0a66dee03214c2c77736a7b872",
+                        "id": "d41d8cd98f00b204e9800998ecf8427e b718adec73e04ce3ec720dd11a06a308",
+                        "manage": "d41d8cd98f00b204e9800998ecf8427e cd34779b8ce0f7ab3158c00a3a5d6cc8",
+                        "uses": "d41d8cd98f00b204e9800998ecf8427e 2b0013db8eecc1833afe9383ac6095ac"
+                    },
+                    "content": {
+                        "delete": "d41d8cd98f00b204e9800998ecf8427e f7e171438349c2709d7dc7d3e186d3fa",
+                        "no_created_by": "d41d8cd98f00b204e9800998ecf8427e c611cee1dae85fb631f3ea7682d09ee4",
+                        "uses": {
+                            "total_uses": "d41d8cd98f00b204e9800998ecf8427e d5a8ebdb1b81395650aae6aaecc11974"
+                        },
+                        "warning": "d41d8cd98f00b204e9800998ecf8427e d84425e5277b00b3f4aa71cc0f52fa67"
+                    }
+                },
+                "modals": {
+                    "create_doorkey": {
+                        "submit_and_create_another_button": "d41d8cd98f00b204e9800998ecf8427e e8cf36d7fb65051c67b744cb8b9c062c",
+                        "submit_button": "d41d8cd98f00b204e9800998ecf8427e 8f07f03541f695abbe911475ea0c16e4",
+                        "title": "d41d8cd98f00b204e9800998ecf8427e d1da699073ffae8813b107e4fd771466"
+                    },
+                    "edit_doorkey": {
+                        "submit_button": "d41d8cd98f00b204e9800998ecf8427e 8d0818b8ddb95a3787ce7fd99696d060",
+                        "title": "d41d8cd98f00b204e9800998ecf8427e 1b7c76788701e43b93c680058a77f303"
+                    },
+                    "send_invites": {
+                        "group": "d41d8cd98f00b204e9800998ecf8427e 404c66025927a7d52cde3137248d5e59",
+                        "help": "d41d8cd98f00b204e9800998ecf8427e cfca48fa256fbf50313f3f0202cf45df",
+                        "invalid_emails": "d41d8cd98f00b204e9800998ecf8427e 8721b21364cd7e6b05e416a850ead0b4",
+                        "max_use_conflict": "d41d8cd98f00b204e9800998ecf8427e a8c29c6dcfc3f00c6b930561a1ef9d9e",
+                        "placeholder": "d41d8cd98f00b204e9800998ecf8427e dd6eeb95d37619e10daa7475aba0ab83",
+                        "send": "d41d8cd98f00b204e9800998ecf8427e 27b288be16eb8c4f3d8e25d23f515bd5",
+                        "success": "d41d8cd98f00b204e9800998ecf8427e 3b6d6d47dbd7a4593051b48a2991cdd7",
+                        "title": "d41d8cd98f00b204e9800998ecf8427e 850ef940a30fa4ce0f86b2a18969c104"
+                    }
+                },
+                "ref": {
+                    "fields": {
+                        "activates_user": {
+                            "help": "d41d8cd98f00b204e9800998ecf8427e 0391ee9e78332868a31908c7a3ce7ce9",
+                            "label": "d41d8cd98f00b204e9800998ecf8427e 4ff8c0b39381052add8f8d13b2de88cf"
+                        },
+                        "group": {
+                            "help": "d41d8cd98f00b204e9800998ecf8427e df87e980cede83aa231a550e7c98d36b",
+                            "label": "d41d8cd98f00b204e9800998ecf8427e 99d9901bdd4656a93ffa5f6c1f50cc00"
+                        },
+                        "key": {
+                            "help": "d41d8cd98f00b204e9800998ecf8427e a4ed85d20e99b76b981dda89b61dd2c9",
+                            "label": "d41d8cd98f00b204e9800998ecf8427e 6252727443e5a8de378aba95bd2405c8"
+                        },
+                        "max_uses": {
+                            "help": "d41d8cd98f00b204e9800998ecf8427e b77e75c1abd96abc62fbe38ddf39c694",
+                            "label": "d41d8cd98f00b204e9800998ecf8427e 0d913979ccc76a97badde57bdb4dffd2"
+                        }
+                    }
+                },
+                "settings": {
+                    "create_doorkey_button": "d41d8cd98f00b204e9800998ecf8427e 8f07f03541f695abbe911475ea0c16e4",
+                    "optional_usage": "d41d8cd98f00b204e9800998ecf8427e 3c9095a6865057e8ef7de1c4e3e6ed8d",
+                    "search": "d41d8cd98f00b204e9800998ecf8427e 805aaefafd74096c91a477e0d317a5ed",
+                    "total_doorkeys": "d41d8cd98f00b204e9800998ecf8427e 238bc83dba355070f856cc3298e2b6ff"
+                }
+            },
+            "email": {
+                "body": "d41d8cd98f00b204e9800998ecf8427e eb8ad6babe64f8748f9a595cb98cb3eb",
+                "subject": "d41d8cd98f00b204e9800998ecf8427e 4e0447300ed3bc5f3a20168c3d3b225a"
+            },
             "forum": {
                 "sign_up": {
                     "doorkey_required": "d49db7911ebafed5d0736b5736569236 d49db7911ebafed5d0736b5736569236",
@@ -5470,14 +5539,14 @@
                             "description": {
                                 "button": "84ba0cf5827749406b22fdaa4aadc387 84ba0cf5827749406b22fdaa4aadc387",
                                 "label": "d713d73b2f7deb18256dc6dc88979df8 d713d73b2f7deb18256dc6dc88979df8",
-                                "reason_default": "01b9dcf3b3b0e9ddda07106a72207f1c 01b9dcf3b3b0e9ddda07106a72207f1c",
-                                "reason_missing": "f1a81d577d7fa43584729b46aeed8a66 f1a81d577d7fa43584729b46aeed8a66",
+                                "reason_default": "01b9dcf3b3b0e9ddda07106a72207f1c b1e82239b649e1612d7bd1539b60af14",
+                                "reason_missing": "f1a81d577d7fa43584729b46aeed8a66 9d42c2c7e7c55e1bbe32823b2364aa55",
                                 "reason_too_short": "9414401d95307c236362f3866868326d 9414401d95307c236362f3866868326d"
                             },
                             "keywords": {
                                 "button": "363c6068b7a25a687567542ba70fa705 363c6068b7a25a687567542ba70fa705",
                                 "label": "d129b757100fbb01263ac0d52afac6c3 d129b757100fbb01263ac0d52afac6c3",
-                                "reason": "d2a1beb5044132014c0736ae1113a2fa d2a1beb5044132014c0736ae1113a2fa"
+                                "reason": "d2a1beb5044132014c0736ae1113a2fa cdf6aeda9e25e214f08fac0214aa4968"
                             },
                             "meta_tags": {
                                 "label": "a741985f5943252dc6987fd6a7fc9793 a741985f5943252dc6987fd6a7fc9793"
@@ -5500,7 +5569,7 @@
                             "sitemap": {
                                 "button": "5f401fef0266add4e7036453953f0e99 5f401fef0266add4e7036453953f0e99",
                                 "label": "c9d956618dce5f8bae389976f34815ab c9d956618dce5f8bae389976f34815ab",
-                                "reason": "369e95c161a9bb3533c5f9fd468fd108 369e95c161a9bb3533c5f9fd468fd108"
+                                "reason": "369e95c161a9bb3533c5f9fd468fd108 9b8e85940b8e34a4756313d882e61817"
                             },
                             "social_media": {
                                 "button": "3b111e7b04135e76cb156f5389148317 3b111e7b04135e76cb156f5389148317",
