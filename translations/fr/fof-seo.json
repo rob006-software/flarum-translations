@@ -197,13 +197,13 @@
                         },
                         "search_engines": {
                             "label": "Enregistrez votre forum auprès des moteurs de recherche",
-                            "reason": "",
+                            "reason": "Vous devrez revoir ceci pour valider.",
                             "button": "Plus d'informations"
                         },
                         "review": {
                             "label": "Vérifiez vos paramètres SEO tous les deux mois. Prochaine vérification prévue le {date}",
                             "reason": "Il est temps de revoir vos paramètres SEO.",
-                            "button": ""
+                            "button": "OK ! Je les ai passés en revue !"
                         }
                     }
                 }
@@ -241,7 +241,7 @@
                 "meta_title": {
                     "label": "Titre Meta",
                     "help": "Titre dans les moteurs de recherche.",
-                    "placeholder": ""
+                    "placeholder": "Saisir le titre de la page"
                 },
                 "meta_description": {
                     "label": "Description Meta",
@@ -258,14 +258,14 @@
                     "label": "Image Meta",
                     "help": "Affiche une image.",
                     "placeholder": "Saisissez l'URL de l'image",
-                    "managed_by": "",
+                    "managed_by": "Source de l'image gérée par {source}",
                     "upload": "Transférer un fichier"
                 },
                 "robots": {
                     "label": "Robots",
                     "help": "",
                     "tags": {
-                        "indexing_allowed": "",
+                        "indexing_allowed": "Autoriser l'indexation de la page",
                         "indexing_not_allowed": "",
                         "follow_allowed": "",
                         "follow_not_allowed": "",
@@ -274,7 +274,7 @@
                         "snippet_not_allowed": ""
                     },
                     "switch": {
-                        "indexing": "",
+                        "indexing": "Autoriser l'indexation de la page",
                         "follow": "",
                         "noarchive": "Désactiver l'archivage de la page (noarchive)",
                         "noimageindex": "Désactiver l'indexation des images sur cette page (noimageindex)",
