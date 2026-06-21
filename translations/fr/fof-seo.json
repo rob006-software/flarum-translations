@@ -27,7 +27,7 @@
             },
             "modals": {
                 "crawl_post": {
-                    "title": "Paramètres d'exploration des messages",
+                    "title": "Paramètres d'indexation des messages",
                     "intro": "<b>Lisez attentivement cette boîte de dialogue.</b> Cette fonction ne s'exécutera qu'au moment de l'actualisation de la page d'une discussion. Vous pourrez toujours modifier cette option ultérieurement.",
                     "mode_main_title": "Indexer uniquement le message principal (par défaut)",
                     "mode_main_help": "Le moteur de recherche affichera seulement le message principal dans les résultats de recherche. Cela n'aura aucune incidence sur la vitesse de chargement lorsque vous y accéderez via les liens du forum.",
@@ -69,9 +69,9 @@
                     "help_usage": "Cette image sera utilisée sur les réseaux sociaux lorsqu'un utilisateur partagera une page de votre site web (Facebook, X (anciennement Twitter), Reddit)."
                 },
                 "crawl": {
-                    "heading": "Paramètres d’exploration des messages de discussion",
+                    "heading": "Paramètres d’indexation des messages de discussion",
                     "help": "Il s'agit d'un paramètre important concernant l'exploration de vos messages de discussion dans les résultats de recherche.",
-                    "button": "Configurer l'exploration des messages"
+                    "button": "Configurer les paramètres d'indexation des messages"
                 },
                 "indexing": {
                     "heading": "Contrôles de l'indexation",
@@ -173,9 +173,9 @@
                             "button": "Comment configurer SSL"
                         },
                         "crawl": {
-                            "label": "Revoir les paramètres d'exploration des messages de discussion",
-                            "reason": "Vous devrez revoir ce paramètre pour valider.",
-                            "button": "Revoir les paramètres de message"
+                            "label": "Vérifier les paramètres d'indexation des messages de discussion",
+                            "reason": "Vous devrez vérifier ce paramètre pour valider.",
+                            "button": "Vérifier les paramètres de message"
                         },
                         "social_media": {
                             "label": "Configurer une image pour les réseaux sociaux",
@@ -197,7 +197,7 @@
                         },
                         "search_engines": {
                             "label": "Enregistrez votre forum auprès des moteurs de recherche",
-                            "reason": "Vous devrez revoir ceci pour valider.",
+                            "reason": "Vous devrez vérifier ceci pour valider.",
                             "button": "Plus d'informations"
                         },
                         "review": {
