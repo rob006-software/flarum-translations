@@ -1959,6 +1959,126 @@
             }
         }
     },
+    "fof-oauth.json": {
+        "fof-oauth": {
+            "admin": {
+                "configure_button_label": "c00c407276fd891fe4845a1f50878b20 c00c407276fd891fe4845a1f50878b20",
+                "permissions": {
+                    "moderate_user_providers": "03ccc8b2b7603c17cb07baf9cd6fc17a 03ccc8b2b7603c17cb07baf9cd6fc17a"
+                },
+                "settings": {
+                    "advanced": {
+                        "heading": "0500db901204c7fbadc640cc03cbbd89 0500db901204c7fbadc640cc03cbbd89",
+                        "log-oauth-errors-help": "7efb0fa786148874652c5ad01daa5015 7efb0fa786148874652c5ad01daa5015",
+                        "log-oauth-errors-label": "3464cbe359a9634ebb1593370852e05e 3464cbe359a9634ebb1593370852e05e"
+                    },
+                    "disable_avatars_help": "83c05a7869a7ee6e09e1e9849fa3b67c 83c05a7869a7ee6e09e1e9849fa3b67c",
+                    "disable_avatars_label": "a0859bfed159ab384a52acb8c1199062 a0859bfed159ab384a52acb8c1199062",
+                    "only_icons_label": "d6433cf4bbcfa83221b2f83eaf5d17d9 d6433cf4bbcfa83221b2f83eaf5d17d9",
+                    "providers": {
+                        "callback_url_text": "28cd78e7563b4799364111dbf567ffad 28cd78e7563b4799364111dbf567ffad",
+                        "discord": {
+                            "client_id_label": "d47707256e40ecc534633dfeebd1259c d47707256e40ecc534633dfeebd1259c",
+                            "client_secret_label": "e99fee4473832f9c0d1990563fcf0bc1 e99fee4473832f9c0d1990563fcf0bc1",
+                            "description": "ddc28b5bdd9d13ecef4c921ac748dc65 ddc28b5bdd9d13ecef4c921ac748dc65"
+                        },
+                        "facebook": {
+                            "app_id_label": "107fba2c3198a68228c08fac76fddefe 107fba2c3198a68228c08fac76fddefe",
+                            "app_secret_label": "608fdd42be3fbc0c5970ca5edb1a612a 608fdd42be3fbc0c5970ca5edb1a612a",
+                            "description": "3fdf8c903d9c8c103eb288eafefe4b1b 3fdf8c903d9c8c103eb288eafefe4b1b"
+                        },
+                        "github": {
+                            "client_id_label": "d47707256e40ecc534633dfeebd1259c d47707256e40ecc534633dfeebd1259c",
+                            "client_secret_label": "e99fee4473832f9c0d1990563fcf0bc1 e99fee4473832f9c0d1990563fcf0bc1",
+                            "description": "eb1170a4204156a6efc78a81343b74a4 eb1170a4204156a6efc78a81343b74a4"
+                        },
+                        "gitlab": {
+                            "client_id_label": "107fba2c3198a68228c08fac76fddefe 107fba2c3198a68228c08fac76fddefe",
+                            "client_secret_label": "608fdd42be3fbc0c5970ca5edb1a612a 608fdd42be3fbc0c5970ca5edb1a612a",
+                            "description": "3deeed684ae305f01783d5026e600b25 3deeed684ae305f01783d5026e600b25",
+                            "domain_label": "e547cbc36d5d1cd12bc71f816604b6a0 e547cbc36d5d1cd12bc71f816604b6a0"
+                        },
+                        "google": {
+                            "client_id_label": "d47707256e40ecc534633dfeebd1259c d47707256e40ecc534633dfeebd1259c",
+                            "client_secret_label": "e99fee4473832f9c0d1990563fcf0bc1 e99fee4473832f9c0d1990563fcf0bc1",
+                            "description": "3fdf8c903d9c8c103eb288eafefe4b1b 3fdf8c903d9c8c103eb288eafefe4b1b",
+                            "hosted_domain_label": "da0ea13379f85123d129d87d9636a6e4 da0ea13379f85123d129d87d9636a6e4"
+                        },
+                        "group_help": "d81b6bee2751bfe56dd1ff5f1be09a3a d81b6bee2751bfe56dd1ff5f1be09a3a",
+                        "group_label": "854db038ee24cee97766de7c38dc5ec2 854db038ee24cee97766de7c38dc5ec2",
+                        "linkedin": {
+                            "client_id_label": "d47707256e40ecc534633dfeebd1259c d47707256e40ecc534633dfeebd1259c",
+                            "client_secret_label": "e99fee4473832f9c0d1990563fcf0bc1 e99fee4473832f9c0d1990563fcf0bc1",
+                            "description": "3fdf8c903d9c8c103eb288eafefe4b1b 3fdf8c903d9c8c103eb288eafefe4b1b"
+                        },
+                        "no_group_label": "50e99b59a59819b4c4b9c480ba314512 50e99b59a59819b4c4b9c480ba314512"
+                    },
+                    "update_email_from_provider_help": "bde80ee2ec2528973d97abae15522021 bde80ee2ec2528973d97abae15522021",
+                    "update_email_from_provider_label": "0339f103e7bdc99ec595002d2acce92b 0339f103e7bdc99ec595002d2acce92b"
+                },
+                "settings_accessibility_label": "0fa784dfc32872fb6ee188659fa1b133 0fa784dfc32872fb6ee188659fa1b133"
+            },
+            "forum": {
+                "error": {
+                    "bad_verification_code": "ca1bccd8a06a77a1dd78c4880bf2d121 ca1bccd8a06a77a1dd78c4880bf2d121",
+                    "invalid_state": "939b1ba0feaa6c32ecf8584609c488b0 939b1ba0feaa6c32ecf8584609c488b0"
+                },
+                "log_in": {
+                    "with_button": "4b6aff38b96634b475a25cfcd0c9b4ce 4b6aff38b96634b475a25cfcd0c9b4ce",
+                    "with_discord_button": "625db5950e116b42b8d60e995c02ab39 625db5950e116b42b8d60e995c02ab39",
+                    "with_facebook_button": "625db5950e116b42b8d60e995c02ab39 625db5950e116b42b8d60e995c02ab39",
+                    "with_github_button": "625db5950e116b42b8d60e995c02ab39 625db5950e116b42b8d60e995c02ab39",
+                    "with_gitlab_button": "625db5950e116b42b8d60e995c02ab39 625db5950e116b42b8d60e995c02ab39",
+                    "with_google_button": "625db5950e116b42b8d60e995c02ab39 625db5950e116b42b8d60e995c02ab39",
+                    "with_linkedin_button": "625db5950e116b42b8d60e995c02ab39 625db5950e116b42b8d60e995c02ab39"
+                },
+                "providers": {
+                    "discord": "fd317818ae7f24db5e7a1a77755ebd65 fd317818ae7f24db5e7a1a77755ebd65",
+                    "facebook": "d38c78d07fe9defb5d9a6ff551ed2c28 d38c78d07fe9defb5d9a6ff551ed2c28",
+                    "github": "3b8a84d8d32ed4e6bae6537e1b1b48b5 3b8a84d8d32ed4e6bae6537e1b1b48b5",
+                    "gitlab": "c3f30af293dbac340ec9749351018079 c3f30af293dbac340ec9749351018079",
+                    "google": "4047c26bc68225dc3971575e3158d79d 4047c26bc68225dc3971575e3158d79d",
+                    "linkedin": "db64a3ae99cac5fa7c275d7b0a76c215 db64a3ae99cac5fa7c275d7b0a76c215"
+                },
+                "signup": {
+                    "username_help": "4c113395820a5136ced916b857c53c61 4c113395820a5136ced916b857c53c61"
+                },
+                "unlink": "40793d1f1170faa0d6215137a7e6f02d 40793d1f1170faa0d6215137a7e6f02d",
+                "user": {
+                    "settings": {
+                        "linked-account": {
+                            "help": "a4a8b4ce670e5993d039e336ef535767 a4a8b4ce670e5993d039e336ef535767",
+                            "identification-label": "06eb21f724b89c9e95ba8d307bc62b43 06eb21f724b89c9e95ba8d307bc62b43",
+                            "identifier-label": "06eb21f724b89c9e95ba8d307bc62b43 06eb21f724b89c9e95ba8d307bc62b43",
+                            "label": "2237ad207ce26a427138582a04a3f458 2237ad207ce26a427138582a04a3f458",
+                            "last-used-label": "26a8c9967c2155e2a281447cc2dcd2f3 26a8c9967c2155e2a281447cc2dcd2f3",
+                            "link-created-label": "574f59d2cf85954d53a5ac25631cdfa9 574f59d2cf85954d53a5ac25631cdfa9",
+                            "orphaned-account": "25426eafe5d60dc1801b94e510e556e7 25426eafe5d60dc1801b94e510e556e7",
+                            "unlink-confirm": "4256007ebc9900199f6bc09d77ebdb68 4256007ebc9900199f6bc09d77ebdb68"
+                        }
+                    }
+                }
+            },
+            "lib": {
+                "providers": {
+                    "discord": "8f5cc6430613f1c12f36965050bb7197 8f5cc6430613f1c12f36965050bb7197",
+                    "facebook": "d85544fce402c7a2a96a48078edaf203 d85544fce402c7a2a96a48078edaf203",
+                    "github": "d3b7c913cd04ebfec0e9ec32cb6fd58c d3b7c913cd04ebfec0e9ec32cb6fd58c",
+                    "gitlab": "cf0a6993a4b526850302726c7cca0e7f cf0a6993a4b526850302726c7cca0e7f",
+                    "google": "8b36e9207c24c76e6719268e49201d94 8b36e9207c24c76e6719268e49201d94",
+                    "linkedin": "e884c507c5198a4578a84498f7a323e2 e884c507c5198a4578a84498f7a323e2"
+                }
+            },
+            "ref": {
+                "settings": {
+                    "app_id": "81ee9e44098c26f1fd408be9177f158a 81ee9e44098c26f1fd408be9177f158a",
+                    "app_secret": "61be046f95cb2ba09bf173f0cbba80d9 61be046f95cb2ba09bf173f0cbba80d9",
+                    "client_id": "76525f0f34b48475e5ca33f71d296f3b 76525f0f34b48475e5ca33f71d296f3b",
+                    "client_secret": "734082edf44417dd19cc65943aa65c36 734082edf44417dd19cc65943aa65c36"
+                }
+            }
+        }
+    },
     "fof-online-users-widget.json": {
         "fof-online-users-widget": {
             "admin": {
