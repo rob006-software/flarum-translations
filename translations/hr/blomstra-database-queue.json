@@ -2,29 +2,29 @@
     "blomstra-database-queue": {
         "admin": {
             "settings": {
-                "backoff_label": "",
-                "backoff_help": "",
-                "memory_label": "",
-                "memory_help": "",
-                "rest_label": "",
-                "rest_help": "",
-                "retries_label": "",
-                "retries_help": "",
-                "timeout_label": "",
-                "timeout_help": ""
+                "backoff_label": "Odgoda",
+                "backoff_help": "Broj sekundi čekanja prije ponovnog pokušaja posla koji je naišao na neuhvaćenu iznimku.\n",
+                "memory_label": "Memorija",
+                "memory_help": "Ograničenje memorije u megabajtima.\n",
+                "rest_label": "Pauza",
+                "rest_help": "Broj sekundi odmora između poslova.\n",
+                "retries_label": "Pokušaji",
+                "retries_help": "Broj pokušaja izvršavanja posla prije nego što se zabilježi kao neuspješan.\n",
+                "timeout_label": "Vremensko ograničenje",
+                "timeout_help": "Broj sekundi koliko podproces (child process) može biti aktivan.\n"
             },
             "stats": {
-                "auto_refresh": "",
-                "heading": "",
-                "refresh": "",
+                "auto_refresh": "Automatsko ažuriranje",
+                "heading": "Pregled redova čekanja",
+                "refresh": "Ažuriraj",
                 "data": {
-                    "queue-name": "",
-                    "pending-jobs": "",
-                    "failed-jobs": "",
+                    "queue-name": "Red čekanja",
+                    "pending-jobs": "Poslovi na čekanju",
+                    "failed-jobs": "Neuspjeli poslovi",
                     "status": {
-                        "label": "",
-                        "running": "",
-                        "inactive": ""
+                        "label": "Status",
+                        "running": "Aktivno",
+                        "inactive": "Neaktivno"
                     }
                 }
             }
