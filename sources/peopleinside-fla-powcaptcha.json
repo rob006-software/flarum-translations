@@ -9,10 +9,10 @@
                 "enabled_forgot_label": "Enable CAPTCHA on Password Reset",
                 "enabled_forgot_help": "Show the PoW security challenge inside the Forgot Password form.",
                 "difficulty_label": "Difficulty",
-                "difficulty_help": "Higher difficulty makes bots work harder. Level 1 is invisible to humans (under 100 ms). Level 3 may take a few seconds on slow devices.",
-                "difficulty_3": "Level 1 – Easy (~100 ms)",
-                "difficulty_4": "Level 2 – High (~1 s)",
-                "difficulty_5": "Level 3 – Very High (~10 s)"
+                "difficulty_help": "Higher difficulty makes bots work harder. Level 1 might be bypassed by some bots (~100 ms). Level 2 provides better protection and is the default preference (~1 s). Level 3 tries to guarantee maximum protection and difficulty for bots (~10 s).",
+                "difficulty_3": "Level 1 – Low (~100 ms)",
+                "difficulty_4": "Level 2 – Medium (~1 s)",
+                "difficulty_5": "Level 3 – High (~10 s)"
             }
         },
         "forum": {
