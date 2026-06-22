@@ -7,18 +7,18 @@
                     "help": "Ezek a beállítások vezérlik a Szavazások bővítmény alapvető funkcióit."
                 },
                 "discussion_polls": {
-                    "heading": "",
-                    "help": ""
+                    "heading": "Szavazási bejegyzések",
+                    "help": "Ezek a beállítások a hozzászólásokhoz csatolt szavazásokat szabályozzák."
                 },
-                "enable_discussion_polls": "",
-                "enable_discussion_polls_help": "",
+                "enable_discussion_polls": "Szavazási bejegyzések engedélyezése",
+                "enable_discussion_polls_help": "Ha engedélyezve van, a felhasználók szavazásokat hozhatnak létre a fórumhozzászólásokon belül. Kapcsolja ki ezt a beállítást, ha kizárólag globális szavazásokat használna.",
                 "global_polls": {
                     "heading": "Globális szavazások",
                     "help": "Ezek a beállítások vezérlik a globális szavazási funkciót."
                 },
                 "image": {
                     "heading": "Képbeállítások",
-                    "help": ""
+                    "help": "Képfeltöltési korlátok és méretek beállítása. A képeket a rendszer automatikusan WebP formátumba alakítja át, és reszponzív változatokat állít elő."
                 },
                 "enable_global_polls": "Globális szavazások engedélyezése",
                 "enable_global_polls_help": "A globális szavazások nem kötődnek egy adott bejegyzéshez, és egy dedikált szavazási oldalon érhetők el.",
@@ -27,11 +27,11 @@
                 "max_options": "A lehetőségek legnagyobb száma szavazásonként",
                 "options_color_blend": "Színkeverés használata a szavazási lehetőségek szövegénél",
                 "options_color_blend_help": "Használja ezt, hogy a színkeveréssel olvashatóbbá tegye a szavazási lehetőségeket. Tiltsa le ezt a funkciót, ha problémákat okoz a fórum megjelenésében, csökkentve az olvashatóságot.",
-                "max_image_upload_size": "",
-                "max_image_upload_size_help": "",
-                "image_height": "",
-                "image_width": "",
-                "image_dimensions_help": ""
+                "max_image_upload_size": "A feltölthető képek legnagyobb mérete (kB)",
+                "max_image_upload_size_help": "A feltölthető képek legnagyobb mérete kilobájtban. A képek a feltöltés után automatikusan WebP formátumra lesznek alakítva, és át lesznek méretezve, így a végső tárolási méret általában jóval kisebb lesz. Az alapértelmezett érték 10240 kB (10 MB).",
+                "image_height": "Kép magasságának átméretezése (px)",
+                "image_width": "Kép szélességének átméretezése (px)",
+                "image_dimensions_help": "A tárolt képek alapvető mérete. A HiDPI változatok (@2x, @3x) automatikusan elő lesznek állítva, ha a forráskép elég nagy."
             },
             "permissions": {
                 "view_results_without_voting": "Eredmény megtekintése szavazás nélkül",
@@ -68,7 +68,7 @@
                 "scheduled_error_tooltip": "Az ütemezett publikálás sikertelen. Nyissa meg a szavazást, hogy lássa miért."
             },
             "poll_controls": {
-                "toggle_dropdown_accessible_label": "",
+                "toggle_dropdown_accessible_label": "Szavazásvezérlők menüje be/ki",
                 "edit_label": "=> core.ref.edit",
                 "delete_label": "=> core.ref.delete",
                 "view_label": "=> core.ref.view",
@@ -193,17 +193,17 @@
                     "help": "Töltsön fel egy képet, amely a szavazás mellett jelenik meg (nem kötelező).",
                     "alt_label": "Kép alternatív szövege",
                     "alt_help_text": "Ez a szöveg kép megadása esetén szükséges, ez fog megjelenni, ha a kép betöltése sikertelen.",
-                    "url_deprecated": ""
+                    "url_deprecated": "Egy a bejegyzés külső képwebcímet használ. A külső webcímek elavultak, és el lesznek távolítva a jövőbeli verziókból. Töltse fel újra a képet a feltöltés gomb használatával."
                 },
                 "poll_option_image": {
                     "label": "Szavazás válaszának képe",
                     "help": "Töltsön fel egy képet, amely a szavazásra adott válasz mellett jelenik meg (nem kötelező)."
                 },
-                "date_clear": "",
+                "date_clear": "Befejezési időpont törlése",
                 "tooltip": {
                     "options": {
                         "add-button": "Válasz hozzáadása",
-                        "remove-button": ""
+                        "remove-button": "Válasz eltávolítása"
                     }
                 }
             },
