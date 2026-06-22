@@ -1747,7 +1747,7 @@
                     "set_on_registration_label": "bd48df6449720ef84c11a43baffdddb4 bd48df6449720ef84c11a43baffdddb4",
                     "unique_label": "dc32df8945e2fe86b09ae4ee6c2bd203 dc32df8945e2fe86b09ae4ee6c2bd203"
                 },
-                "wrong_driver": "07f54f3bd6610b49d4ee2f936f306065 07f54f3bd6610b49d4ee2f936f306065"
+                "wrong_driver": "07f54f3bd6610b49d4ee2f936f306065 6b1356c9d25e377a70609c423969d90d"
             },
             "api": {
                 "invalid_nickname_message": "5c3e790431d886ef2994a6e91019315b 5c3e790431d886ef2994a6e91019315b"
@@ -2561,7 +2561,7 @@
                 "data": {
                     "bannedipdata": {
                         "anonymize_description": "5c0e604d60da6b0a329a2d2ca4211625 5c0e604d60da6b0a329a2d2ca4211625",
-                        "export_description": "9293e4bfb8f8600bb71d9c3f0e3c4cdf 9293e4bfb8f8600bb71d9c3f0e3c4cdf"
+                        "export_description": "9293e4bfb8f8600bb71d9c3f0e3c4cdf 7c136fe22cc7b8d4fa7754b44f5a293d"
                     }
                 }
             }
@@ -3940,6 +3940,18 @@
         }
     },
     "fof-masquerade.json": {
+        "flarum-audit": {
+            "lib": {
+                "browser": {
+                    "masquerade": {
+                        "field_created": "d41d8cd98f00b204e9800998ecf8427e 061d1a46e5aac45f14e0387ae4acab6d",
+                        "field_deleted": "d41d8cd98f00b204e9800998ecf8427e 7a6c67400cbb67e6dee2e93e28f5abe3",
+                        "field_updated": "d41d8cd98f00b204e9800998ecf8427e e227f6d618157da9430b7ae0b630d5e5",
+                        "profile_updated": "d41d8cd98f00b204e9800998ecf8427e f49a043273f35ba0d43203160e7e84b5"
+                    }
+                }
+            }
+        },
         "flarum-gdpr": {
             "lib": {
                 "data": {
