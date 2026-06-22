@@ -190,12 +190,12 @@
         "lib": {
             "browser": {
                 "user": {
-                    "gdpr_erasure_requested": "",
-                    "gdpr_erasure_confirmed": "",
-                    "gdpr_erasure_cancelled": "",
-                    "gdpr_anonymized": "",
-                    "gdpr_deleted": "",
-                    "gdpr_exported": ""
+                    "gdpr_erasure_requested": "{username} adatainak törlése kérve",
+                    "gdpr_erasure_confirmed": "{username} adatainak törlése megerősítve",
+                    "gdpr_erasure_cancelled": "{username} adatainak törlése megszakítva",
+                    "gdpr_anonymized": "{username} adatai anonimizálva",
+                    "gdpr_deleted": "{username} adatai törölve",
+                    "gdpr_exported": "{username} adatai exportálva"
                 }
             }
         }
