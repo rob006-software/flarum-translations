@@ -9,13 +9,13 @@
             "all": "=> sycho-github-milestone.ref.all"
         },
         "forum": {
-            "empty_list": "",
+            "empty_list": "Még nincsenek megjeleníthető jegyek vagy beolvasztási kérések",
             "title": "Mérföldkő",
             "last_updated": "Legutóbb frissítve: {time}",
             "closed": "=> sycho-github-milestone.ref.closed",
             "open": "=> sycho-github-milestone.ref.open",
             "all": "=> sycho-github-milestone.ref.all",
-            "complete": "",
+            "complete": "<strong>{progress}%-ban</strong> kész",
             "load_more": "=> core.forum.discussion_list.load_more_button",
             "tasks_done": "{number} / {total}"
         },
