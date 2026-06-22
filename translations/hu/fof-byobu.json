@@ -121,23 +121,23 @@
                 "private_discussion_added": "[Privát téma] {display_name} hozzáadta egy privát témához"
             },
             "body": {
-                "private_discussion_created": "",
-                "private_discussion_replied": "",
-                "recipient_removed": "",
-                "private_discussion_added": "",
-                "made_public": ""
+                "private_discussion_created": "{actor_display_name} új privát témát kezdett, ahol Ön címzett: {discussion_title}.\n\nNézze meg itt:\n{discussion_url}\n\nA hivatkozás elérése előtt lehet, hogy be kell jelentkeznie.\n",
+                "private_discussion_replied": "{actor_display_name} bejegyzést tett közzé egy privát témában, ahol Ön címzett: {discussion_title}.\n\nNézze meg itt:\n{discussion_url}\n\nA hivatkozás elérése előtt lehet, hogy be kell jelentkeznie.\n",
+                "recipient_removed": "{actor_display_name} elhagyta a privát témát: {discussion_title}. Már nem fogja látni a tartalmát.\n\nNézze meg itt:\n{discussion_url}\n\nA hivatkozás elérése előtt lehet, hogy be kell jelentkeznie.\n",
+                "private_discussion_added": "{actor_display_name} hozzáadta egy privát témához: {discussion_title}.\n\nNézze meg itt:\n{discussion_url}\n\nA hivatkozás elérése előtt lehet, hogy be kell jelentkeznie.\n",
+                "made_public": "{actor_display_name} eltávolította egy privát téma összes címzettjét, és nyilvánossá tette: {discussion_title}.\n\nNézze meg itt:\n{discussion_url}\n\nA hivatkozás elérése előtt lehet, hogy be kell jelentkeznie.\n"
             }
         },
         "lib": {
             "gambits": {
                 "byobu": {
-                    "key": ""
+                    "key": "byobu"
                 },
                 "private": {
-                    "key": ""
+                    "key": "privát"
                 },
                 "allows-pd": {
-                    "key": ""
+                    "key": "pt-engedélyezve"
                 }
             }
         }
