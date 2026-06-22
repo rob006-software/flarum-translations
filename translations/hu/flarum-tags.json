@@ -4,8 +4,8 @@
             "basics": {
                 "tags_label": "=> flarum-tags.ref.tags",
                 "slug_driver_options": {
-                    "default": "",
-                    "id_with_slug": ""
+                    "default": "Alapértelmezett",
+                    "id_with_slug": "Azonosító keresőbarát webcímmel"
                 }
             },
             "edit_tag": {
@@ -116,12 +116,12 @@
         "lib": {
             "browser": {
                 "discussion": {
-                    "tagged": ""
+                    "tagged": "A(z) {discussion} címkéi frissítve erről: {old_tags}, erre: {new_tags}"
                 },
                 "tag": {
-                    "created": "",
-                    "updated": "",
-                    "deleted": ""
+                    "created": "{tag} címke létrehozva",
+                    "updated": "{tag} címke frissítve",
+                    "deleted": "{tag} címke törölve"
                 }
             }
         }
