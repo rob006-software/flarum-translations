@@ -18,7 +18,7 @@
                 "set_on_registration_label": "Becenevek beállításának engedélyezése a regisztráció során",
                 "unique_label": "Egyedi becenevek megkövetése"
             },
-            "wrong_driver": "A bővítmény életbe léptetéséhez a „becenevet” kell választania a megjelenítendő név meghajtójaként az <a><strong>Alapok oldalon</strong></a>."
+            "wrong_driver": "A bővítmény életbe léptetéséhez a „becenevet” kell választania a megjelenítendő név illesztőprogramjaként az <a><strong>Alapok oldalon</strong></a>."
         },
         "api": {
             "invalid_nickname_message": "A becenév érvénytelen. Lépjen kapcsolatban a fórum rendszergazdájával, hogy megtudja a becenevek szabályait."
@@ -48,7 +48,7 @@
         "lib": {
             "browser": {
                 "user": {
-                    "nickname_changed": ""
+                    "nickname_changed": "{username} beceneve megváltoztatva erről: {old_nickname}, erre: {new_nickname}"
                 }
             }
         }
