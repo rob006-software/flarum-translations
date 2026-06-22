@@ -1599,6 +1599,9 @@ return [
 	'ralkage-profile-messages' => [
 		'tag' => 'https://raw.githubusercontent.com/Ralkage/flarum-ext-profile-messages/1.0.2/locale/en.yml',
 	],
+	'ralkage-search' => [
+		'tag' => 'https://raw.githubusercontent.com/Ralkage/flarum-ext-search/1.0.2/locale/en.yml',
+	],
 	'ralkage-word-censor' => [
 		'tag' => 'https://raw.githubusercontent.com/Ralkage/flarum-ext-word-censor/1.0.0/locale/en.yml',
 	],
