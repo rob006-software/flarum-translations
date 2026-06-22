@@ -1,38 +1,38 @@
 {
     "acpl-lscache": {
         "admin": {
-            "cache_enabled_label": "",
-            "cache_enabled_help": "",
-            "public_cache_ttl_label": "",
-            "public_cache_ttl_help": "",
-            "clearing_cache_listener_label": "",
-            "serve_stale_label": "",
-            "serve_stale_help": "",
-            "purge_on_discussion_update_label": "",
-            "purge_on_discussion_update_help": "",
-            "cache_exclude_label": "",
-            "cache_exclude_help": "",
-            "drop_qs_label": "",
-            "drop_qs_help": "",
-            "status_codes_cache_label": "",
-            "status_codes_cache_help": "",
-            "purge_all": "",
-            "test_failed_alert": "",
+            "cache_enabled_label": "Omogući LSCache",
+            "cache_enabled_help": "Pogledajte <a>stranicu s informacijama</a> o tome kako testirati predmemoriju. NAPOMENA: Kada onemogućite predmemoriju, svi predmemorirani zapisi za ovu stranicu bit će izbrisani.",
+            "public_cache_ttl_label": "Zadano TTL vrijeme javne predmemorije",
+            "public_cache_ttl_help": "Definirajte koliko dugo, u sekundama, javne stranice trebaju biti predmemorirane. Zadana vrijednost je 604800 sekundi (jedan tjedan).",
+            "clearing_cache_listener_label": "Očisti LSCache kada se čisti Flarum predmemorija",
+            "serve_stale_label": "Posluži zastarjeli sadržaj",
+            "serve_stale_help": "Ako je omogućeno, posjetiteljima će se prikazivati zastarjela verzija predmemorirane stranice sve dok se ne generira nova kopija predmemorije. To smanjuje opterećenje poslužitelja. Ako je onemogućeno, stranica će se dinamički generirati tijekom ažuriranja predmemorije, što može produžiti vrijeme čekanja. Po dizajnu, ova opcija može poslužiti zastarjeli sadržaj. Nemojte je omogućavati ako smatrate da je to neprihvatljivo.",
+            "purge_on_discussion_update_label": "Očisti URL-ove ili oznake predmemorije pri ažuriranju rasprave",
+            "purge_on_discussion_update_help": "Unesite URL-ove ili oznake predmemorije (cache Tags) koje želite očistiti kada se rasprava ažurira, jedan po retku. URL treba počinjati s <code>/</code>, npr. <code>/rankings</code>, a oznaka predmemorije treba počinjati s <code>tag=</code>, npr. <code>tag=rankings</code>. Za više ruta, brže je dodati pravilo u .htaccess s regularnim izrazom koji označava rute i ovdje unijeti samo tu oznaku. <a>Saznajte više</a>. Prema zadanim postavkama, predmemorija za početnu stranicu i ažurirane rasprave se čisti.",
+            "cache_exclude_label": "Izuzmi putanje iz predmemoriranja",
+            "cache_exclude_help": "Putanje koje sadrže ove nizove znakova neće biti predmemorirane. Za <code>/mypath/mypage?aa=bb</code>, možete koristiti <code>mypage?aa=</code>. Za podudaranje s početkom, dodajte <code>^</code> na početak. Za točno podudaranje, dodajte <code>$</code> na kraj URL-a. Jedan po retku.",
+            "drop_qs_label": "Odbaci upitne nizove (Query Strings)",
+            "drop_qs_help": "Koristite ovu značajku za odbacivanje određenih upitnih nizova, poput <code>fbclid</code> ili <code>utm*</code>, prilikom predmemoriranja. Ovo sprječava redundantno predmemoriranje stranica sa \"smećem\" u upitnim nizovima kao što su UTM kodovi, koji se koriste za praćenje, ali ne utječu na sadržaj stranice. Za ovo je potreban LSWS v5.2.3 ili noviji. Navedite upitne nizove koje želite odbaciti, jedan po retku. <a>Saznajte više o odbacivanju upitnih nizova</a>.<br></br>\n⚠️ Ova postavka će izmijeniti .htaccess datoteku.\n",
+            "status_codes_cache_label": "Zadano TTL vrijeme za stranice s HTTP statusnim kodovima",
+            "status_codes_cache_help": "Navedite HTTP statusni kod i broj sekundi za predmemoriranje te stranice, odvojene razmakom. Jedan po retku.",
+            "purge_all": "=> acpl-lscache.ref.purge_cache",
+            "test_failed_alert": "Čini se da vaš poslužitelj ne podržava LSCache. Provjerite konfiguraciju poslužitelja. Otkriveni poslužitelj: <b>{server}</b>, otkrivena LiteSpeed vrsta: <b>{type}</b>.",
             "permissions": {
-                "purge": ""
+                "purge": "=> acpl-lscache.ref.purge_cache"
             }
         },
         "forum": {
             "purge": {
-                "discussion": ""
+                "discussion": "=> acpl-lscache.ref.purge_cache"
             }
         },
         "lib": {
-            "purge_success": "",
-            "purge_all_success": ""
+            "purge_success": "LiteSpeed poslužitelj je obaviješten o čišćenju LSCache zapisa.",
+            "purge_all_success": "LiteSpeed poslužitelj je obaviješten o čišćenju svih LSCache zapisa."
         },
         "ref": {
-            "purge_cache": ""
+            "purge_cache": "Očisti LSCache"
         }
     }
 }
