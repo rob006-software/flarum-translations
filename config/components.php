@@ -246,7 +246,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/byobu/2.0.0-beta.11/resources/locale/en.yml',
 	],
 	'fof-categories' => [
-		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/categories/2.0.0-beta.2/resources/locale/en.yml',
+		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/categories/2.0.0-beta.3/resources/locale/en.yml',
 	],
 	'fof-checklist' => [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/checklist/2.0.0-beta.1/resources/locale/en.yml',
