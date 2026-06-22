@@ -20,8 +20,8 @@
                 "new_post_text": "{username} bejegyzést tett közzé"
             },
             "settings": {
-                "follow_after_reply_label": "Azon témák automatikusan követése, amelyekhez hozzászóltam",
-                "follow_after_create_label": "",
+                "follow_after_reply_label": "Azon témák automatikus követése, amelyekhez hozzászóltam",
+                "follow_after_create_label": "Azon témák automatikus követése, amelyeket létrehoztam",
                 "notify_for_all_posts_label": "Értesítés minden egyes bejegyzésről, nem csak a téma utolsó bejegyzéséről",
                 "notify_new_post_label": "Valaki bejegyzést tesz közzé az általam követett témában"
             },
@@ -41,10 +41,10 @@
             "new_post": {
                 "subject": "[Új bejegyzés] {title}",
                 "plain": {
-                    "body": ""
+                    "body": "{poster_display_name} egy bejegyzést tett közzé egy követett témájában: {title}.\n\nAz új tevékenység megtekintéséhez kövesse a következő hivatkozást:\n{url}\n\n---\n\n{content}\n\n---\n\nNem fog új értesítést kapni erről a témáról, amíg nem lesz naprakész.\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{poster_display_name} egy bejegyzést tett közzé egy követett témájában: [{title}]({url}).\n\nNem fog új értesítést kapni erről a témáról, amíg nem lesz naprakész.\n"
                 }
             }
         },
@@ -52,8 +52,8 @@
             "gambits": {
                 "discussions": {
                     "subscription": {
-                        "following_key": "",
-                        "ignoring_key": ""
+                        "following_key": "követve",
+                        "ignoring_key": "mellőzve"
                     }
                 }
             }
