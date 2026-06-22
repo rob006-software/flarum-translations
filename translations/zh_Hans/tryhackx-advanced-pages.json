@@ -34,7 +34,8 @@
                 "bbcode_url": "[url] — 增强链接解析（支持 Flarum 默认不支持的部分网址格式）",
                 "forum_title": "论坛整合",
                 "forum_help": "覆盖常规论坛帖子中剧透的显示方式。需要清除格式化程序缓存（php-flarum-cache:clear）。",
-                "replace_forum_spoiler": "将Flarum的默认扰流板替换为高级页面扰流板样式（详细信息/摘要）"
+                "replace_forum_spoiler": "将Flarum的默认扰流板替换为高级页面扰流板样式（详细信息/摘要）",
+                "code_buttons_in_posts": ""
             },
             "edit_page": {
                 "create_title": "创建页面",
@@ -82,6 +83,11 @@
             }
         },
         "forum": {
+            "code": {
+                "select": "",
+                "copy": "",
+                "copied": ""
+            },
             "spoiler": {
                 "locked": ""
             },

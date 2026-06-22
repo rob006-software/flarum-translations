@@ -34,7 +34,8 @@
                 "bbcode_url": "[url] — Erweiterter URL-Parser (akzeptiert URLs, die von Flarum abgelehnt werden)",
                 "forum_title": "Forenintegration",
                 "forum_help": "Überschreibt die Darstellung von Spoilern in normalen Forenbeiträgen. Dazu muss der Formatierungs-Cache geleert werden (php flarum cache:clear).",
-                "replace_forum_spoiler": "Den Standard-Spoiler von Flarum durch den Spoiler-Stil von „Advanced Pages“ ersetzen (details/summary)"
+                "replace_forum_spoiler": "Den Standard-Spoiler von Flarum durch den Spoiler-Stil von „Advanced Pages“ ersetzen (details/summary)",
+                "code_buttons_in_posts": ""
             },
             "edit_page": {
                 "create_title": "Seite erstellen",
@@ -82,6 +83,11 @@
             }
         },
         "forum": {
+            "code": {
+                "select": "",
+                "copy": "",
+                "copied": ""
+            },
             "spoiler": {
                 "locked": "Du hast keine Berechtigung, Spoiler-Inhalte anzuzeigen."
             },

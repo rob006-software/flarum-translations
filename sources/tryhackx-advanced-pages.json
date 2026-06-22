@@ -34,7 +34,8 @@
                 "bbcode_url": "[url] — Extended URL parser (accepts URLs rejected by Flarum)",
                 "forum_title": "Forum Integration",
                 "forum_help": "Override how spoilers are displayed in regular forum posts. Requires clearing the formatter cache (php flarum cache:clear).",
-                "replace_forum_spoiler": "Replace Flarum's default spoiler with Advanced Pages spoiler style (details/summary)"
+                "replace_forum_spoiler": "Replace Flarum's default spoiler with Advanced Pages spoiler style (details/summary)",
+                "code_buttons_in_posts": "Show Select / Copy buttons on code blocks in forum posts"
             },
             "edit_page": {
                 "create_title": "Create Page",
@@ -68,7 +69,7 @@
                 "newline_flarum": "Flarum (vanilla — multiple newlines = single break)",
                 "newline_preserve": "Preserve (respect all newlines)",
                 "php_warning": "PHP pages execute server-side code. Only create PHP pages if you understand the security implications. Errors are logged but never displayed to visitors.",
-                "allow_scripts_label": "Allow script execution in this page",
+                "allow_scripts_label": "Allow script tags to run on this page",
                 "allow_scripts_help": "Gates script tags in this page (off by default): when off they don't execute, when on inline and external scripts run in every visitor's browser. This is NOT a sandbox — raw HTML can still run JavaScript by other means (e.g. inline event-handler attributes like onerror), so only publish HTML/PHP pages you fully trust.",
                 "custom_breadcrumbs_css_label": "Custom breadcrumbs CSS?",
                 "custom_breadcrumbs_css_help": "Style (or hide) the breadcrumbs for this page and everything nested under it. Target .AdvancedPages-breadcrumbs — e.g. display:none to hide them entirely."
@@ -82,6 +83,11 @@
             }
         },
         "forum": {
+            "code": {
+                "select": "Select",
+                "copy": "Copy",
+                "copied": "Copied!"
+            },
             "spoiler": {
                 "locked": "You do not have permission to view spoiler content."
             },

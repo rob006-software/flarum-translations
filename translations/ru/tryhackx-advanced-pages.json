@@ -34,7 +34,8 @@
                 "bbcode_url": "[url] — расширенный парсер URL — принимает ссылки, отклоняемые Flarum",
                 "forum_title": "Интеграция с форумом",
                 "forum_help": "Переопределяет отображение спойлеров в обычных сообщениях форума. Требуется очистка кэша.",
-                "replace_forum_spoiler": "Заменить стандартный спойлер Flarum на стиль Advanced Pages"
+                "replace_forum_spoiler": "Заменить стандартный спойлер Flarum на стиль Advanced Pages",
+                "code_buttons_in_posts": ""
             },
             "edit_page": {
                 "create_title": "Создать страницу",
@@ -82,6 +83,11 @@
             }
         },
         "forum": {
+            "code": {
+                "select": "",
+                "copy": "",
+                "copied": ""
+            },
             "spoiler": {
                 "locked": ""
             },
