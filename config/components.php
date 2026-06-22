@@ -330,7 +330,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/masquerade/3.0.0-beta.7/resources/locale/en.yml',
 	],
 	'fof-merge-discussions' => [
-		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/merge-discussions/2.0.0-beta.2/resources/locale/en.yml',
+		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/merge-discussions/2.0.0-beta.3/resources/locale/en.yml',
 	],
 	'fof-moderator-notes' => [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/moderator-notes/2.0.0-beta.4/resources/locale/en.yml',
