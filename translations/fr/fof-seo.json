@@ -77,7 +77,7 @@
                     "heading": "Contrôles de l'indexation",
                     "profiles_label": "Désindexer les pages de profil",
                     "profiles_help": "Lorsque cette option est activée, les pages de profil utilisateur émettent une balise meta « noindex » afin qu'elles n'apparaissent pas dans les résultats de recherche. Les liens présents sur la page sont toutefois suivis, ce qui permet aux robots d'indexation d'accéder au contenu vers lequel ils renvoient.",
-                    "tags_help": "",
+                    "tags_help": "Les discussions dans les étiquettes sélectionnées (ainsi que les pages de ces étiquettes) seront exclues des résultats de recherche grâce à la balise meta « noindex ». Les liens continuent toutefois d'être suivis. La sélection d'une étiquette parente couvre également ses étiquettes enfants.",
                     "tags_button": "Sélectionnez les étiquettes",
                     "tags_none_selected": "Aucune étiquette n'est exclue de l'indexation."
                 },
@@ -226,10 +226,10 @@
                     "close": "Fermer",
                     "save": "Enregistrer",
                     "save_autofill": "Enregistrer et remplir automatiquement",
-                    "autofill_info": "Cette modification annulera les modifications personnalisées et remplira les balises meta avec les données de l'article."
+                    "autofill_info": "Cette modification annulera les modifications personnalisées et remplira les balises meta avec les données de l'élément."
                 },
                 "unsupported_object": {
-                    "title": "",
+                    "title": "Cet objet n'est pas un objet SeoMeta pris en charge",
                     "docs_link": "Documentation",
                     "body": "Veuillez ouvrir cette boîte de dialogue en utilisant les propriétés objectType et objectId ou enregistrez plutôt la relation entre les objets."
                 },
@@ -245,11 +245,11 @@
                 },
                 "meta_description": {
                     "label": "Description Meta",
-                    "help": ""
+                    "help": "Décrit l’élément et s'affiche dans les moteurs de recherche."
                 },
                 "keywords": {
                     "label": "Mots-clés",
-                    "help": "Saisissez un ou plusieurs mots-clés qui décrivent cet élement.",
+                    "help": "Saisissez un ou plusieurs mots-clés qui décrivent cet élément.",
                     "placeholder": "Ajouter quelques mots-clés",
                     "comma_note": "Remarque : les mots-clés doivent être séparés par une virgule.",
                     "example": "Exemple : flarum, développement web, forum, pommes, sécurité"
@@ -263,19 +263,19 @@
                 },
                 "robots": {
                     "label": "Robots",
-                    "help": "",
+                    "help": "Paramètres d'indexation par le robot pour cet élément.",
                     "tags": {
                         "indexing_allowed": "Autoriser l'indexation de la page",
                         "indexing_not_allowed": "",
-                        "follow_allowed": "",
+                        "follow_allowed": "Autoriser le suivi des liens",
                         "follow_not_allowed": "",
-                        "archive_not_allowed": "",
+                        "archive_not_allowed": "L'archivage des pages n'est pas autorisé",
                         "imageindex_not_allowed": "",
                         "snippet_not_allowed": ""
                     },
                     "switch": {
                         "indexing": "Autoriser l'indexation de la page",
-                        "follow": "",
+                        "follow": "Autoriser le suivi des liens vers différentes pages",
                         "noarchive": "Désactiver l'archivage de la page (noarchive)",
                         "noimageindex": "Désactiver l'indexation des images sur cette page (noimageindex)",
                         "nosnippet": "Désactiver les extraits de texte sur la page (nosnippet)"
