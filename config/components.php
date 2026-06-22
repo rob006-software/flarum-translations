@@ -1531,7 +1531,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/PeopleInside/flarum-ext-antiflood/1.1.6/locale/en.yml',
 	],
 	'peopleinside-first-post-approval' => [
-		'tag' => 'https://raw.githubusercontent.com/PeopleInside/flarum-ext-first-post-approval/2.1.3/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/PeopleInside/flarum-ext-first-post-approval/2.1.6/resources/locale/en.yml',
 	],
 	'peopleinside-fla-powcaptcha' => [
 		'tag' => 'https://raw.githubusercontent.com/PeopleInside/fla-powcaptcha/2.4.9/locale/en.yml',
