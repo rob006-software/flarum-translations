@@ -60,30 +60,30 @@
         },
         "email": {
             "newDiscussionInTag": {
-                "subject": "",
+                "subject": "[Címke | Új téma] {title}",
                 "plain": {
-                    "body": ""
+                    "body": "{actor_display_name} témát indított egy címkében, melyet követ: {discussion_title}\n\nA téma megtekintéséhez kövesse a következő hivatkozást:\n{discussion_url}\n\n---\n\n{content}\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{actor_display_name} témát indított egy címkében, melyet követ: [{discussion_title}]({discussion_url})\n"
                 }
             },
             "newPostInTag": {
-                "subject": "",
+                "subject": "[Címke | Új bejegyzés] {title}",
                 "plain": {
-                    "body": ""
+                    "body": "{actor_display_name} bejegyzést tett közzé egy olyan címke témájában, melyet követ: {discussion_title}\n\nA téma megtekintéséhez kövesse a következő hivatkozást:\n{post_url}\n\n---\n\n{content}\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{actor_display_name} bejegyzést tett közzé egy olyan címke témájában, melyet követ: [{discussion_title}]({post_url})\n"
                 }
             },
             "newDiscussionTag": {
-                "subject": "",
+                "subject": "[Címke | Címke megváltoztatva] {title}",
                 "plain": {
-                    "body": ""
+                    "body": "{actor_display_name} olyan címkére változtatta {author_display_name} témáját, melyet követ: {discussion_title}\n\nA téma megtekintéséhez kövesse a következő hivatkozást:\n{post_url}\n\n---\n\n{content}\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{actor_display_name} olyan címkére változtatta {author_display_name} témáját, melyet követ: [{discussion_title}]({discussion_url})\n"
                 }
             }
         },
