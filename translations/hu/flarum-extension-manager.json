@@ -5,7 +5,7 @@
                 "add_label": "Új hitelesítési módszer",
                 "add_modal": {
                     "host_label": "Kiszolgáló",
-                    "host_placeholder": "",
+                    "host_placeholder": "példa: bearer.flarum.org",
                     "submit_button": "Beküldés",
                     "token_label": "Token",
                     "type_label": "Típus",
@@ -98,33 +98,33 @@
                 "update": "Frissítés"
             },
             "minor_update_confirmation": {
-                "content": ""
+                "content": "Ez minden más bővítményt/csomagot is frissít a rendelkezésre álló frissítésekkel."
             },
-            "required_php_functions": "",
+            "required_php_functions": "A bővítménykezelőhöz a következő PHP függvények engedélyezése szükséges: <code>{functions}</code>. Ha nincs hozzáférése a PHP konfigurációhoz, akkor lépjen kapcsolatba a kiszolgáló üzemeltetőjével.\n",
             "sections": {
                 "discover": {
-                    "description": "",
-                    "empty_results": "",
+                    "description": "Új funkciók és integrációk hozzáadása a Flarum fórumhoz bővítményekkel.",
+                    "empty_results": "Úgy tűnik, hogy nem érhetők el bővítmények.",
                     "extension": {
                         "badges": {
-                            "abandoned": "",
-                            "fof": "",
-                            "flarum": ""
+                            "abandoned": "Abbahagyva",
+                            "fof": "Friends Of Flarum",
+                            "flarum": "Flarum"
                         },
-                        "downloads": ""
+                        "downloads": "{count, plural, one {{formattedCount} letöltés} other {{formattedCount} letöltés}}"
                     },
-                    "search": "",
-                    "server_error": "",
+                    "search": "Keresés…",
+                    "server_error": "A szolgáltatás jelenleg nem érhető el, próbálja újra később.",
                     "sort": {
-                        "top": ""
+                        "top": "Legtöbbször letöltve"
                     },
                     "tabs": {
-                        "discover": "",
-                        "extensions": "",
-                        "languages": "",
-                        "themes": ""
+                        "discover": "Felfedezés",
+                        "extensions": "Bővítmények",
+                        "languages": "Nyelvek",
+                        "themes": "Témák"
                     },
-                    "title": ""
+                    "title": "Bővítmények"
                 },
                 "queue": {
                     "columns": {
@@ -163,8 +163,8 @@
                     "title": "Várólista"
                 },
                 "settings": {
-                    "title": "",
-                    "description": ""
+                    "title": "Beállítások és várólista",
+                    "description": "A bővítménykezelő beállítása és a várólistában lévő műveletek ellenőrzése."
                 }
             },
             "settings": {
@@ -172,12 +172,12 @@
                 "access_warning": "Legyen óvatos, hogy kinek ad hozzáférést az admin területhez, a bővítménykezelővel visszaélhetnek, és olyan csomagokat telepíthetnek, melyek biztonsági incidensekhez vezethetnek.",
                 "debug_mode_warning": "Hibakeresési módban futtatja, a bővítménykezelő nem tudja megfelelően telepíteni és frissíteni a helyi fejlesztői csomagokat. Ilyen célokra használja inkább a parancssoros felületet.",
                 "queue_jobs": "Műveletek futtatása a háttérben lévő várólistán",
-                "queue_jobs_help": "",
+                "queue_jobs_help": "Olvashat az <basic_impl_link>alapvető</basic_impl_link> vagy a <adv_impl_link>fejlettebb</adv_impl_link> várólista-megvalósításról. Győződjön meg róla, hogy a várólista ezt a PHP-verziót használja: {php_version}. Biztosítsa, hogy a <folder_perms_link>mappajogosultságok</folder_perms_link> helyesen vannak beállítva.\n",
                 "task_retention_days": "Feladatok megőrzési napjai",
                 "task_retention_days_help": "A befejezett feladatok adatbázisban való tárolásának napjainak száma. Az ennél régebbi feladatok törlésre kerülnek. 0 értékre állítva az összes feladatot megtartja.\n"
             },
             "updater": {
-                "up_to_date": "",
+                "up_to_date": "Nincs függőben lévő frissítés.",
                 "check_for_updates": "Frissítések keresése",
                 "flarum": "Flarum Core",
                 "global_update_successful": "Minden csomag sikeresen frissítve.",
