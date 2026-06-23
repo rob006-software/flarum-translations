@@ -3,23 +3,25 @@
         "admin": {
             "settings": {
                 "title": "",
-                "moneyforpost": "",
-                "moneyfordiscussion": "",
-                "moneyname": "",
-                "postminimumlength": "",
-                "ignore_notifying_users": "",
-                "noshowzero": "",
-                "autoremove": "",
-                "cascaderemove": "",
-                "moneyforlike": "",
-                "helpextensionlikes": ""
+                "post_reward_amount": "",
+                "discussion_reward_amount": "",
+                "money_name": "",
+                "min_post_length": "",
+                "exclude_mentions_from_length": "",
+                "hide_zero_balances": "",
+                "remove_money_trigger": "",
+                "cascade_money_removal": "",
+                "reward_private_discussion": "",
+                "like_reward_amount": "",
+                "help_extension_likes": "",
+                "reward_self_like": ""
             },
             "permissions": {
                 "edit_money_label": "",
                 "disable_money_label": "",
                 "query_others_history": ""
             },
-            "autoremove": [
+            "remove_money_trigger": [
                 "",
                 "",
                 ""

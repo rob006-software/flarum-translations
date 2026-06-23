@@ -3,6 +3,18 @@
         "admin": {
             "settings": {
                 "title": "Cài đặt",
+                "post_reward_amount": "",
+                "discussion_reward_amount": "",
+                "money_name": "",
+                "min_post_length": "",
+                "exclude_mentions_from_length": "",
+                "hide_zero_balances": "",
+                "remove_money_trigger": "",
+                "cascade_money_removal": "",
+                "reward_private_discussion": "",
+                "like_reward_amount": "",
+                "help_extension_likes": "",
+                "reward_self_like": "",
                 "moneyforpost": "Số tiền thưởng cho một bài viết mới",
                 "moneyfordiscussion": "Số tiền thưởng cho một thảo luận mới",
                 "moneyname": "Tên của loại tiền (vd: [money] điểm)",
@@ -19,6 +31,11 @@
                 "disable_money_label": "Tắt thưởng tiền",
                 "query_others_history": "Xem lịch sử tiền của người khác"
             },
+            "remove_money_trigger": [
+                "",
+                "",
+                ""
+            ],
             "autoremove": [
                 "Không bao giờ trừ tiền",
                 "Khi thảo luận/bài viết bị ẩn hoặc được khôi phục (mặc định)",
