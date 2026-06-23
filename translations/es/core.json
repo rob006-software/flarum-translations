@@ -239,8 +239,8 @@
                 "suggested_by": "Sugerido por {extension}"
             },
             "database-driver-mismatch-warning": {
-                "detail": "",
-                "label": ""
+                "detail": "Tu archivo <code>config.php</code> está configurado para utilizar el controlador de base de datos <code>{configured}</code>, pero Flarum ha detectado que el servidor de base de datos real es <code>{actual}</code>.\n\nUsar el controlador incorrecto puede provocar errores sutiles y difíciles de diagnosticar. Configura <code>'driver' => ''{actual}''</code> dentro de la sección <code>database</code> de tu archivo <code>config.php</code>. Consulta la <link>documentación de Flarum</link> para obtener más información.\n",
+                "label": "El controlador de la base de datos no coincide"
             },
             "debug-warning": {
                 "detail": "Cuando el modo <code>debug</code> está activo, Flarum reconstruirá sus archivos <code>JavaScript</code> y <code>CSS</code> en cada solicitud, y también podría filtrar potencialmente otra información, como secretos de la base de datos, variables de entorno, etc.\n\nSe recomienda encarecidamente deshabilitar <code>debug</code> en su archivo <code>config.php</code> en producción. Consulte <link>Documentos de Flarum</link> para obtener más información.\n",
@@ -777,8 +777,8 @@
                 "dismiss_a11y_label": "Descartar la alerta"
             },
             "assets_updated": {
-                "message": "",
-                "reload_button": ""
+                "message": "Hay disponible una versión más reciente de esta página.",
+                "reload_button": "Recargar"
             },
             "badge": {
                 "hidden_tooltip": "Oculto"

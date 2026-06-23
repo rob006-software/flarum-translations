@@ -18,7 +18,7 @@
                 "reason_details_placeholder": "Detalles adicionales (opcional)",
                 "reason_inappropriate_label": "Inapropiado",
                 "reason_inappropriate_text": "Este mensaje es ofensivo, inapropiado o viola las <a>Normas del Foro</a>.",
-                "reason_inappropriate_text_no_guidelines": "",
+                "reason_inappropriate_text_no_guidelines": "Esta publicación es ofensiva o abusiva.",
                 "reason_missing_message": "Proporciona algunos detalles para nuestros moderadores.",
                 "reason_off_topic_label": "Fuera de tema",
                 "reason_off_topic_text": "Este mensaje no es relevante a la discusión.",
@@ -52,8 +52,8 @@
         "lib": {
             "browser": {
                 "post": {
-                    "dismissed_flags": "",
-                    "flagged": ""
+                    "dismissed_flags": "Se descartaron las denuncias del {post} de {postuser} en {discussion}",
+                    "flagged": "Se reportó el {post} de {postuser} por {reason} en {discussion}"
                 }
             }
         }
