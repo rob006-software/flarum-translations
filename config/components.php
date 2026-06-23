@@ -1664,6 +1664,9 @@ return [
 	'startracex-dark' => [
 		'tag' => 'https://raw.githubusercontent.com/startracex/flarum-dark/0.0.1/locale/en.yml',
 	],
+	'ssports-oauth-slack' => [
+		'tag' => 'https://raw.githubusercontent.com/ssangyongsport/flarum-ext-oauth-slack/3/locale/en.yml',
+	],
 	'swaggymacro-only-starter' => [
 		'tag' => 'https://raw.githubusercontent.com/SwaggyMacro/OnlyStarter/0.6.6/resources/locale/en.yml',
 	],
