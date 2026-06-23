@@ -587,6 +587,9 @@ return [
 	'linkrobins-toc' => [
 		'tag' => 'https://raw.githubusercontent.com/linkrobins/toc/v1.1.2/locale/en.yml',
 	],
+	'linkrobins-wiki' => [
+		'tag' => 'https://raw.githubusercontent.com/linkrobins/wiki/v1.0.0/locale/en.yml',
+	],
 	'maicol07-sso' => [
 		'tag' => 'https://raw.githubusercontent.com/maicol07/flarum-ext-sso/2.0/locale/en.yml',
 		'__builtInLanguages' => [
