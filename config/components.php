@@ -152,6 +152,9 @@ return [
 	'ernestdefoe-seo' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/seo/2.0.12/locale/en.yml',
 	],
+	'ernestdefoe-showcase' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/flarum-showcase/2.0.2/locale/en.yml',
+	],
 	'ernestdefoe-social-groups' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/social-groups/v2.4.0/locale/en.yml',
 	],
