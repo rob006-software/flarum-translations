@@ -2,14 +2,14 @@
     "datlechin-link-preview": {
         "admin": {
             "sections": {
-                "general_label": "",
-                "general_description": "",
-                "performance_label": "",
-                "performance_description": "",
-                "url_filtering_label": "",
-                "url_filtering_description": "",
-                "external_api_label": "",
-                "external_api_description": ""
+                "general_label": "Általános",
+                "general_description": "Alapvető megjelenítési beállítások a hivatkozás-előnézetekhez.",
+                "performance_label": "Teljesítmény",
+                "performance_description": "Hivatkozás-előnézetek lekérésének és gyorsítótárazásának optimalizálása.",
+                "url_filtering_label": "Webcímszűrés",
+                "url_filtering_description": "Adja meg, hogy mely webcímekhez készüljön hivatkozás-előnézet.",
+                "external_api_label": "Tartalék külső API",
+                "external_api_description": "Külső szolgáltatás használata, ha a közvetlen lekérés sikertelen (például bottal védett oldalak esetén)."
             },
             "settings": {
                 "enable_batch_requests_label": "Kötegelt feldolgozás engedélyezése",
@@ -28,10 +28,10 @@
                 "cache_time_help": "Meddig legyenek a hivatkozás-előnézetek tárolva frissítés előtt. A gyorsítótárazás kikapcsolásához állítsa 0-ra. Alapértelmezés: 60 perc.",
                 "open_links_in_new_tab_label": "Hivatkozások megnyitása új lapon",
                 "open_links_in_new_tab_help": "Előnézettel rendelkező hivatkozások megnyitása mindig új böngészőlapon.",
-                "external_api_fallback_label": "",
-                "external_api_fallback_help": "",
-                "external_api_url_label": "",
-                "external_api_url_help": ""
+                "external_api_fallback_label": "Tartalék külső API",
+                "external_api_fallback_help": "Ha a közvetlen lekérés sikertelen (például bottal védett oldalak esetén, mint a Reuters), külső oEmbed API használata a hivatkozás metaadatainak lekéréséhez.",
+                "external_api_url_label": "Külső API webcíme",
+                "external_api_url_help": "Egyéni oEmbed API végpont. Hagyja üresen az alapértelmezett használatához (Iframely nyílt API). A webcím lekérdezési paraméterként lesz hozzáfűzve."
             }
         },
         "forum": {
