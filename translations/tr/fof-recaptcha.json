@@ -1,6 +1,7 @@
 {
     "fof-recaptcha": {
         "admin": {
+            "maintenance_mode_warning": "",
             "settings": {
                 "help_text": "Google reCAPTCHA bilgilerinizi <a>buradan</a> alın.",
                 "secret_key_label": "Secret Key",
@@ -39,6 +40,9 @@
     },
     "validation": {
         "recaptcha": "reCAPTCHA doğrulaması başarısız.",
-        "recaptcha-unknown": "reCAPTCHA doğrulanırken bilinmeyen bir hata oluştu ({errors})."
+        "recaptcha-unknown": "reCAPTCHA doğrulanırken bilinmeyen bir hata oluştu ({errors}).",
+        "attributes": {
+            "g-recaptcha-response": ""
+        }
     }
 }

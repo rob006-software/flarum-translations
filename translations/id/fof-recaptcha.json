@@ -1,6 +1,7 @@
 {
     "fof-recaptcha": {
         "admin": {
+            "maintenance_mode_warning": "",
             "settings": {
                 "help_text": "Dapatkan kredensial Google reCAPTCHA Anda <a>di sini</a>.",
                 "secret_key_label": "Secret Key",
@@ -39,6 +40,9 @@
     },
     "validation": {
         "recaptcha": "Validasi reCAPTCHA gagal.",
-        "recaptcha-unknown": "Terjadi error yang tidak diketahui saat memvalidasi reCAPTCHA ({errors})."
+        "recaptcha-unknown": "Terjadi error yang tidak diketahui saat memvalidasi reCAPTCHA ({errors}).",
+        "attributes": {
+            "g-recaptcha-response": ""
+        }
     }
 }

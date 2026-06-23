@@ -1,6 +1,7 @@
 {
     "fof-recaptcha": {
         "admin": {
+            "maintenance_mode_warning": "",
             "settings": {
                 "help_text": "Lấy thông tin xác thực Google reCAPTCHA của bạn <a>tại đây</a>.",
                 "secret_key_label": "Mã khoá bí mật",
@@ -39,6 +40,9 @@
     },
     "validation": {
         "recaptcha": "Xác thực reCAPTCHA không thành công.",
-        "recaptcha-unknown": "Đã xảy ra lỗi không xác định khi xác thực reCAPTCHA ({errors})."
+        "recaptcha-unknown": "Đã xảy ra lỗi không xác định khi xác thực reCAPTCHA ({errors}).",
+        "attributes": {
+            "g-recaptcha-response": ""
+        }
     }
 }

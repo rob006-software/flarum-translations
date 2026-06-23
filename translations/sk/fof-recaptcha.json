@@ -1,6 +1,7 @@
 {
     "fof-recaptcha": {
         "admin": {
+            "maintenance_mode_warning": "",
             "settings": {
                 "help_text": "Získajte vaše Google reCAPTCHA prihlasovacie údaje <a>tu</a>.",
                 "secret_key_label": "Tajný Kľúč",
@@ -39,6 +40,9 @@
     },
     "validation": {
         "recaptcha": "reCAPTCHA validácia zlyhala.",
-        "recaptcha-unknown": ""
+        "recaptcha-unknown": "",
+        "attributes": {
+            "g-recaptcha-response": ""
+        }
     }
 }

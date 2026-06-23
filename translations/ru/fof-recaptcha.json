@@ -1,6 +1,7 @@
 {
     "fof-recaptcha": {
         "admin": {
+            "maintenance_mode_warning": "",
             "settings": {
                 "help_text": "Получите данные для подключения Google reCAPTCHA <a>здесь</a>.",
                 "secret_key_label": "Секретный ключ",
@@ -39,6 +40,9 @@
     },
     "validation": {
         "recaptcha": "Проверка reCAPTCHA не пройдена.",
-        "recaptcha-unknown": "Произошла неизвестная ошибка при проверке reCAPTCHA ({errors})."
+        "recaptcha-unknown": "Произошла неизвестная ошибка при проверке reCAPTCHA ({errors}).",
+        "attributes": {
+            "g-recaptcha-response": ""
+        }
     }
 }

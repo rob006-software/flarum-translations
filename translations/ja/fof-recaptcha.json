@@ -1,6 +1,7 @@
 {
     "fof-recaptcha": {
         "admin": {
+            "maintenance_mode_warning": "",
             "settings": {
                 "help_text": "<a>ここで</a> Google reCAPTCHA 証明書を取得する。",
                 "secret_key_label": "シークレットキー",
@@ -39,6 +40,9 @@
     },
     "validation": {
         "recaptcha": "reCAPTCHA 検証に失敗しました。",
-        "recaptcha-unknown": ""
+        "recaptcha-unknown": "",
+        "attributes": {
+            "g-recaptcha-response": ""
+        }
     }
 }

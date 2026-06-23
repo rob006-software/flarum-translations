@@ -1,6 +1,7 @@
 {
     "fof-recaptcha": {
         "admin": {
+            "maintenance_mode_warning": "",
             "settings": {
                 "help_text": "Uzyskaj dane uwierzytelniające dla Google reCAPTCHA <a>tutaj</a>.",
                 "secret_key_label": "Secret Key",
@@ -39,6 +40,9 @@
     },
     "validation": {
         "recaptcha": "Weryfikacja reCAPTCHA nie powiodła się.",
-        "recaptcha-unknown": ""
+        "recaptcha-unknown": "",
+        "attributes": {
+            "g-recaptcha-response": ""
+        }
     }
 }

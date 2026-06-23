@@ -1,6 +1,7 @@
 {
     "fof-recaptcha": {
         "admin": {
+            "maintenance_mode_warning": "",
             "settings": {
                 "help_text": "Szerezze meg a Google reCAPTCHA hitelesítő adatait <a>itt</a>.",
                 "secret_key_label": "Titkos kulcs",
@@ -39,6 +40,9 @@
     },
     "validation": {
         "recaptcha": "reCAPTCHA ellenőrzési hiba.",
-        "recaptcha-unknown": "Ismeretlen hiba történt a reCAPTCHA ellenőrzése során ({errors})."
+        "recaptcha-unknown": "Ismeretlen hiba történt a reCAPTCHA ellenőrzése során ({errors}).",
+        "attributes": {
+            "g-recaptcha-response": ""
+        }
     }
 }

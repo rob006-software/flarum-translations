@@ -1,6 +1,7 @@
 {
     "fof-recaptcha": {
         "admin": {
+            "maintenance_mode_warning": "",
             "settings": {
                 "help_text": "点击<a>此处</a>获取 Google reCAPTCHA 证书。",
                 "secret_key_label": "密钥",
@@ -39,6 +40,9 @@
     },
     "validation": {
         "recaptcha": "reCAPTCHA 验证失败。",
-        "recaptcha-unknown": "校验验证码时发生了未知错误（{errors}）。"
+        "recaptcha-unknown": "校验验证码时发生了未知错误（{errors}）。",
+        "attributes": {
+            "g-recaptcha-response": ""
+        }
     }
 }

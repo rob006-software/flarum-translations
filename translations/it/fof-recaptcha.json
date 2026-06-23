@@ -1,6 +1,7 @@
 {
     "fof-recaptcha": {
         "admin": {
+            "maintenance_mode_warning": "",
             "settings": {
                 "help_text": "Ottieni credenziali Google reCAPTCHA  <a>qui</a>.",
                 "secret_key_label": "Chiave segreta",
@@ -39,6 +40,9 @@
     },
     "validation": {
         "recaptcha": "Validazione reCAPTCHA fallita.",
-        "recaptcha-unknown": "Si è verificato un errore sconosciuto durante la convalida di reCAPTCHA ({errors})."
+        "recaptcha-unknown": "Si è verificato un errore sconosciuto durante la convalida di reCAPTCHA ({errors}).",
+        "attributes": {
+            "g-recaptcha-response": ""
+        }
     }
 }

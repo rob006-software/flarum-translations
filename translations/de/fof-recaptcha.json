@@ -1,6 +1,7 @@
 {
     "fof-recaptcha": {
         "admin": {
+            "maintenance_mode_warning": "",
             "settings": {
                 "help_text": "Erhalte deine Google reCAPTCHA-Zugangsdaten <a>hier</a>.",
                 "secret_key_label": "Geheimer Schlüssel",
@@ -39,6 +40,9 @@
     },
     "validation": {
         "recaptcha": "reCAPTCHA Validierung fehlgeschlagen.",
-        "recaptcha-unknown": "Bei der Validierung von reCAPTCHA ist ein unbekannter Fehler aufgetreten ({errors})."
+        "recaptcha-unknown": "Bei der Validierung von reCAPTCHA ist ein unbekannter Fehler aufgetreten ({errors}).",
+        "attributes": {
+            "g-recaptcha-response": ""
+        }
     }
 }

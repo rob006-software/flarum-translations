@@ -1,6 +1,7 @@
 {
     "fof-recaptcha": {
         "admin": {
+            "maintenance_mode_warning": "",
             "settings": {
                 "help_text": "Hanki Google reCAPTCHA tunnukset <a>täältä</a>.",
                 "secret_key_label": "Salainen avain (secret key)",
@@ -39,6 +40,9 @@
     },
     "validation": {
         "recaptcha": "reCAPTCHA tarkastus epäonnistui.",
-        "recaptcha-unknown": "Tuntematon virhe tapahtui reCAPTCHA validoidessa ({errors})."
+        "recaptcha-unknown": "Tuntematon virhe tapahtui reCAPTCHA validoidessa ({errors}).",
+        "attributes": {
+            "g-recaptcha-response": ""
+        }
     }
 }

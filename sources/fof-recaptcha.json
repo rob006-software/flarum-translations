@@ -1,6 +1,7 @@
 {
     "fof-recaptcha": {
         "admin": {
+            "maintenance_mode_warning": "reCAPTCHA is disabled in the login page when the forum is in maintenance mode.",
             "settings": {
                 "help_text": "Obtain your Google reCAPTCHA credentials <a>here</a>.",
                 "secret_key_label": "Secret Key",
@@ -39,6 +40,9 @@
     },
     "validation": {
         "recaptcha": "reCAPTCHA validation failed.",
-        "recaptcha-unknown": "An unknown error occurred while validating reCAPTCHA ({errors})."
+        "recaptcha-unknown": "An unknown error occurred while validating reCAPTCHA ({errors}).",
+        "attributes": {
+            "g-recaptcha-response": "reCAPTCHA"
+        }
     }
 }
