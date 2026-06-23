@@ -12,18 +12,18 @@
                 "title": "Reakciók",
                 "anonymous_count": "{count} névtelen felhasználó",
                 "no_reactions": "Még nincsenek reakciók",
-                "load_more": "",
-                "others_count": "",
-                "remove_all_reaction_type": "",
-                "remove_user_reaction": "",
-                "confirm_remove_all_reaction_type": "",
-                "confirm_remove_user_reaction": ""
+                "load_more": "Továbbiak betöltése",
+                "others_count": "+ {count, plural, one {# további} other {# további}}",
+                "remove_all_reaction_type": "Mind a(z) {reaction} reakció eltávolítása",
+                "remove_user_reaction": "Reakció eltávolítása",
+                "confirm_remove_all_reaction_type": "Biztos, hogy eltávolítja mind a(z) {reaction} reakciót erről a bejegyzésről? Ez a művelet nem vonható vissza.",
+                "confirm_remove_user_reaction": "Biztos, hogy eltávolítja {username} {reaction} reakcióját a bejegyzésről? Ez a művelet nem vonható vissza."
             },
             "mod_item": "Reakciók megtekintése",
             "react_button_label": "Reagálás",
-            "unreact_button_label": "",
-            "reaction_button_label": "",
-            "reacted_with_label": ""
+            "unreact_button_label": "Reakció eltávolítása",
+            "reaction_button_label": "Reagálás ezzel: {reaction}",
+            "reacted_with_label": "{count, plural, one {{reaction} (# reakció)} other {{reaction} (# reakció)}}"
         },
         "admin": {
             "permissions": {
@@ -34,12 +34,12 @@
             "page": {
                 "cdn": {
                     "title": "CDN",
-                    "help": "Alapértelmezés szerint a reakciók tartalmait a Cloudflare CDN-jének segítségével szolgáljuk ki. Igény szerint tetszőleges más\nCDN címét is megadhatja. A <code>[codepoint]</code> az emodzsi kódpontjára lesz cserélve.\n\nPéldául a Noto Emoji jsdelivr segítségével történő használatához ezt adná meg: <code>https://cdn.jsdelivr.net/gh/googlefonts/noto-emoji@v2.040/svg/emoji_u[codepoint].svg</code>. Ez a mező SOSEM lehet üres.\n",
+                    "help": "Alapértelmezés szerint a reakciók tartalmait a Cloudflare CDN-jének segítségével szolgáljuk ki. Igény szerint tetszőleges más\nCDN címét is megadhatja. A <code>[codepoint]</code> az emodzsi kódpontjára lesz cserélve.\n\nPéldául a Noto Emoji jsdelivr segítségével történő használatához ezt adná meg: <code>https://cdn.jsdelivr.net/gh/googlefonts/noto-emoji@v2.040/svg/emoji_u[codepoint].svg</code>.\n\nA CDN-jének támogatnia kell Emoji/Unicode {emojibase} vagy későbbi szabványt. Használja a [twemoji] értéket a Twemoji verzióra való cseréhez.\n",
                     "label": "Webcím",
                     "default-url": "Alapértelmezett: {url}"
                 },
                 "reactions": {
-                    "title": "Egyéni reakciók",
+                    "title": "Reakciók",
                     "reactions": "Jelenlegi reakciók",
                     "Helptext": "Adja meg az emodzsi vagy a font-awesome ikon nevét (azonosítóját), és válasszon hogy melyiket szeretné.",
                     "help": {
@@ -47,16 +47,16 @@
                         "identifier": "Azonosító"
                     },
                     "delete_confirmation": "Biztos, hogy törli ezt a reakciót? Ez a művelet nem vonható vissza.",
-                    "delete_reaction_button": "",
-                    "add_reaction_button": "",
-                    "add_reaction_label": "",
+                    "delete_reaction_button": "Reakció törlése",
+                    "add_reaction_button": "Reakció hozzáadása",
+                    "add_reaction_label": "Új reakció hozzáadása",
                     "header": {
-                        "display": "",
-                        "identifier": "",
-                        "type": "",
-                        "enabled": "",
-                        "action": "",
-                        "preview": ""
+                        "display": "Szöveg megjelenítése",
+                        "identifier": "Ikon/emodzsiazonosító",
+                        "type": "Típus",
+                        "enabled": "Engedélyezve",
+                        "action": "Művelet",
+                        "preview": "Előnézet"
                     }
                 },
                 "convert": {
