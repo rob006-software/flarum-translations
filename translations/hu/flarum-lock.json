@@ -11,14 +11,14 @@
             },
             "discussion_controls": {
                 "lock_button": "Lezárás",
-                "unlock_button": "Újranyitás"
+                "unlock_button": "Lezárás feloldása"
             },
             "notifications": {
                 "discussion_locked_text": "{username} lezárta"
             },
             "post_stream": {
                 "discussion_locked_text": "{username} {time} lezárta a témát.",
-                "discussion_unlocked_text": "{username} {time} újranyitotta a témát."
+                "discussion_unlocked_text": "{username} {time} feloldotta a téma lezárását."
             },
             "settings": {
                 "notify_discussion_locked_label": "Valaki lezárta a témámat"
@@ -38,8 +38,8 @@
         "lib": {
             "browser": {
                 "discussion": {
-                    "locked": "",
-                    "unlocked": ""
+                    "locked": "Téma lezárva: {discussion}",
+                    "unlocked": "Téma lezárása feloldva: {discussion}"
                 }
             }
         }
