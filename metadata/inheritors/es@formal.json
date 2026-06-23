@@ -49,6 +49,7 @@
                     "home": "bf89f6756d11a04ddc3bbac67a272020 bf89f6756d11a04ddc3bbac67a272020",
                     "log_in": "33f5491540cc60260c748dfffc281ba1 33f5491540cc60260c748dfffc281ba1",
                     "messages": "efc88d828a8038d29aef619b99394a50 efc88d828a8038d29aef619b99394a50",
+                    "new_discussion": "e8073516e494688edd44132be701b43e e8073516e494688edd44132be701b43e",
                     "notifications": "ad56bdfef5980c9cd3ea007a070213dd ad56bdfef5980c9cd3ea007a070213dd",
                     "profile": "326ffa2886c30eac51d2b3f126866732 326ffa2886c30eac51d2b3f126866732",
                     "search": "113f74280bedb6175d4537bb4270b63c 113f74280bedb6175d4537bb4270b63c",
@@ -321,6 +322,10 @@
                     "title": "b8da6df14bf06283cbf588df6998722e 629e199d421911b329a2909925beeb50",
                     "toggle_advanced_page_button": "e8259467cdd3d2e73afe0f9bf3fc6a35 e8259467cdd3d2e73afe0f9bf3fc6a35",
                     "tools_button": "eb99adcd1e0bfb9da095a0df2814414b eb99adcd1e0bfb9da095a0df2814414b"
+                },
+                "database-driver-mismatch-warning": {
+                    "detail": "79a54055441ee9717f21c94cf8b4cd0b 79a54055441ee9717f21c94cf8b4cd0b",
+                    "label": "4d81f9058b4b7dba40e3f4476cfa8cbd 4d81f9058b4b7dba40e3f4476cfa8cbd"
                 },
                 "debug-warning": {
                     "detail": "f9b0068641202f8900690bbb2653fd01 f9b0068641202f8900690bbb2653fd01",
@@ -931,6 +936,10 @@
             "lib": {
                 "alert": {
                     "dismiss_a11y_label": "2b922573d940c351db4755671e11e281 2b922573d940c351db4755671e11e281"
+                },
+                "assets_updated": {
+                    "message": "b516a0708ea16df8f986a27a266a776b b516a0708ea16df8f986a27a266a776b",
+                    "reload_button": "3a9786718c3e780c873d00dab1bad384 3a9786718c3e780c873d00dab1bad384"
                 },
                 "badge": {
                     "hidden_tooltip": "f1ad04595ab0301a2c3e2a2429a78259 f1ad04595ab0301a2c3e2a2429a78259"
@@ -1859,6 +1868,16 @@
         }
     },
     "flarum-flags.json": {
+        "flarum-audit": {
+            "lib": {
+                "browser": {
+                    "post": {
+                        "dismissed_flags": "99f42710850a809a21f198f6f33f099a 99f42710850a809a21f198f6f33f099a",
+                        "flagged": "dca6de8cbd79d5c06c5b02a911b62f55 dca6de8cbd79d5c06c5b02a911b62f55"
+                    }
+                }
+            }
+        },
         "flarum-flags": {
             "admin": {
                 "permissions": {
@@ -1878,6 +1897,7 @@
                     "reason_details_placeholder": "69ed951c2110c7de84b723ce47d41a57 69ed951c2110c7de84b723ce47d41a57",
                     "reason_inappropriate_label": "0b854359e1f568c92102bb96b3fab7b8 0b854359e1f568c92102bb96b3fab7b8",
                     "reason_inappropriate_text": "3d044c041a273af81553388025adadbc 3d044c041a273af81553388025adadbc",
+                    "reason_inappropriate_text_no_guidelines": "81b82e1fb5fcdef3fc048c5103c5ea91 81b82e1fb5fcdef3fc048c5103c5ea91",
                     "reason_missing_message": "8ad3543ba4ea00e3d291dd08ca537a8a 8ad3543ba4ea00e3d291dd08ca537a8a",
                     "reason_off_topic_label": "20751413f33a95a9ddee853c28643c1f 20751413f33a95a9ddee853c28643c1f",
                     "reason_off_topic_text": "74067bf5a33e6f15bcc7b2f9d4bcbc47 74067bf5a33e6f15bcc7b2f9d4bcbc47",
@@ -1909,6 +1929,20 @@
         }
     },
     "flarum-gdpr.json": {
+        "flarum-audit": {
+            "lib": {
+                "browser": {
+                    "user": {
+                        "gdpr_anonymized": "3f2e1d23378c64b6480419ec1a59dc54 3f2e1d23378c64b6480419ec1a59dc54",
+                        "gdpr_deleted": "1b5b8578f56cac336188063e81d0086e 1b5b8578f56cac336188063e81d0086e",
+                        "gdpr_erasure_cancelled": "7b6f21cba3d29312f3111ba5dbf41f1b 7b6f21cba3d29312f3111ba5dbf41f1b",
+                        "gdpr_erasure_confirmed": "8812abb4f401f2851e39260663eed6d2 8812abb4f401f2851e39260663eed6d2",
+                        "gdpr_erasure_requested": "4c900b400bfe7b21dc74388b9e05a147 4c900b400bfe7b21dc74388b9e05a147",
+                        "gdpr_exported": "c363f7d1379001caada5354ce212eb36 c363f7d1379001caada5354ce212eb36"
+                    }
+                }
+            }
+        },
         "flarum-gdpr": {
             "admin": {
                 "gdpr_page": {
@@ -2145,6 +2179,16 @@
         }
     },
     "flarum-lock.json": {
+        "flarum-audit": {
+            "lib": {
+                "browser": {
+                    "discussion": {
+                        "locked": "d72e5df8d8934f38374efd7ed871eb8b d72e5df8d8934f38374efd7ed871eb8b",
+                        "unlocked": "8b9c23aa2741605c2ea5c26309a5a455 8b9c23aa2741605c2ea5c26309a5a455"
+                    }
+                }
+            }
+        },
         "flarum-lock": {
             "admin": {
                 "permissions": {
@@ -2911,6 +2955,9 @@
                     "ban_options_only_ip": "d3fc31743876a5a353d7454792a7826a d3fc31743876a5a353d7454792a7826a"
                 },
                 "unban_ip_button": "10ec3d4e73eebe3df4de1ce6daea518a 10ec3d4e73eebe3df4de1ce6daea518a",
+                "user_badge": {
+                    "banned_tooltip": "758138693d02cca42d942bb9d3daed95 758138693d02cca42d942bb9d3daed95"
+                },
                 "user_controls": {
                     "ban_button": "d186fe63aaf93d84c00ef15165b99cc6 d186fe63aaf93d84c00ef15165b99cc6",
                     "unban_button": "39f46f58535911fc6e3419056511ce11 39f46f58535911fc6e3419056511ce11"
@@ -2940,9 +2987,11 @@
                 "address_label": "be19e35cb27986a322969e16b5a18a6d be19e35cb27986a322969e16b5a18a6d",
                 "ban_ip_addresses": "21589416313152a989f0aeda4b38c603 21589416313152a989f0aeda4b38c603",
                 "ban_ip_button": "23361c3311a1e6b7fecd08af4807b5dc 23361c3311a1e6b7fecd08af4807b5dc",
+                "ban_label": "a103b7acf97084112df4f5250af2bcb0 a103b7acf97084112df4f5250af2bcb0",
                 "reason_label": "42695aae7ed62040a4df446e3f405fc3 42695aae7ed62040a4df446e3f405fc3",
                 "unban_ip_addresses": "10481ed6552e90aef5025c3b7f73e7be 10481ed6552e90aef5025c3b7f73e7be",
-                "unban_ip_button": "97c6a7b0cc13c1b3c399bba805078bc0 97c6a7b0cc13c1b3c399bba805078bc0"
+                "unban_ip_button": "97c6a7b0cc13c1b3c399bba805078bc0 97c6a7b0cc13c1b3c399bba805078bc0",
+                "unban_label": "f8d2c04b3298bf5c2f33bb2106af5783 f8d2c04b3298bf5c2f33bb2106af5783"
             }
         }
     },
