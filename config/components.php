@@ -132,7 +132,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/flarum-facebook-post/v2.1.6/locale/en.yml',
 	],
 	'ernestdefoe-federation' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/federation/2.0.2/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/federation/2.0.5/resources/locale/en.yml',
 	],
 	'ernestdefoe-giveaways' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/giveaways/v0.2.1/locale/en.yml',
