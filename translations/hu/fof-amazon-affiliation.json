@@ -5,14 +5,14 @@
                 "title": {
                     "modal": "Amazon partnerprogram beállításai",
                     "tags": "Partnerprogram címkéi",
-                    "tags-mediaembed": ""
+                    "tags-mediaembed": "Adjon meg alább egy piacterenkénti partnerprogramcímkét. A beállított piactérhez tartozó termékhivatkozások meg lesznek címkézve az értékével; a kihagyáshoz hagyja üresen a piacteret."
                 },
                 "field": {
-                    "rich-card": "",
-                    "rich-card-help": "",
+                    "rich-card": "Az amazonos termékhivatkozások megjelenítése részletes termékkártyaként",
+                    "rich-card-help": "Ha be van kapcsolva, az amazonos termékhivatkozások (/dp/ és /gp/product/) kompakt kártyaként jelennek meg, és a címkézett termék oldalára hivatkoznak. Ha ki van kapcsolva, akkor egyszerű hivatkozások maradnak, és úgy vannak címkézve, mint bármely más amazonos hivatkozás.",
                     "keep-existing-tag": "Az Amazon partnerprogram címkéinek megtartása az eredeti hivatkozásokban a cseréjük helyett",
                     "keep-existing-tag-help": "Alapértelmezés szerint az eredeti webcímben szereplő címke le lesz cserélve az alább megadottra.",
-                    "help-mediaembed": "",
+                    "help-mediaembed": "A termékkártyák mindig a beállított címkét használják, így a „meglévő címkék megtartása” beállítás csak az egyszerű hivatkozásokra érvényes.",
                     "remove-tag-if-unhandled": "A nem kezelt amazonos hivatkozások partnerprogram-címkéinek eltávolítása",
                     "remove-tag-if-unhandled-help": "Alapértelmezés szerint a nem kezelt hivatkozások változatlanok maradnak, megtartva az esetleges címkéjüket.",
                     "tag": "{name} (amazon.{domain})",
