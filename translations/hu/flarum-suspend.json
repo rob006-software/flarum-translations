@@ -41,19 +41,19 @@
             "suspended": {
                 "subject": "A fiókját felfüggesztették",
                 "plain": {
-                    "body": ""
+                    "body": "A következő okból felfüggesztették:\n\n---\n{suspension_message}\n---\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "A következő okból felfüggesztették a(z) {forumTitle} fórumban:"
                 }
             },
             "unsuspended": {
                 "subject": "A fiókja felfüggesztését visszavonták",
                 "plain": {
-                    "body": ""
+                    "body": "A felfüggesztését feloldották. A következő hivatkozással visszatérhet a fórumhoz:\n\n{forum_url}\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "A felfüggesztését feloldották. Ha készen áll, visszatérhet a(z) [{forumTitle}]({forum_url}) fórumhoz."
                 }
             }
         },
@@ -61,7 +61,7 @@
             "gambits": {
                 "users": {
                     "suspended": {
-                        "key": ""
+                        "key": "felfüggesztve"
                     }
                 }
             }
@@ -71,8 +71,8 @@
         "lib": {
             "browser": {
                 "user": {
-                    "suspended": "",
-                    "unsuspended": ""
+                    "suspended": "{username} felfüggesztve eddig: {until}",
+                    "unsuspended": "{username} felfüggesztése feloldva"
                 }
             }
         }
