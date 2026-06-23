@@ -63,7 +63,7 @@
                     "user": "Пользователь #{id}"
                 },
                 "genericResource": {
-                    "comment": "Комментарий",
+                    "comment": "Сообщение",
                     "post": "Сообщение"
                 },
                 "permissionGroup": {
@@ -84,7 +84,7 @@
                     "showRaw": "Показать сырой журнал",
                     "filterActor": "Показать действия пользователя",
                     "filterIp": "Показать действия с этого IP-адреса",
-                    "filterClient": "Показать действия этого типа клиента",
+                    "filterClient": "Показать действия по клиенту",
                     "filterAction": "Показать действия того же типа",
                     "filterUser": "Показать действия этого пользователя",
                     "filterDiscussion": "Показать действия в этой теме"
@@ -121,7 +121,7 @@
                 "permission_changed": "Изменено разрешение {permission}: {old_groups} → {new_groups}",
                 "post": {
                     "approved": "Одобрено сообщение пользователя {postuser} ({post}) в теме {discussion}",
-                    "created": "Создано сообщение ({post}) в теме {discussion}",
+                    "created": "Отправлено ({post}) в теме {discussion}",
                     "create_date_changed": "Дата создания сообщения пользователя {postuser} ({post}) изменена с {old_date} на {new_date}",
                     "deleted": "Удалено сообщение пользователя {postuser} ({post}) в теме {discussion}",
                     "dismissed_flags": "Жалобы на сообщение пользователя {postuser} ({post}) в теме {discussion} отклонены",
@@ -129,7 +129,7 @@
                     "flagged": "На сообщение пользователя {postuser} ({post}) в теме {discussion} отправлена жалоба: {reason}",
                     "hidden": "Скрыто сообщение пользователя {postuser} ({post}) в теме {discussion}",
                     "restored": "Восстановлено сообщение пользователя {postuser} ({post}) в теме {discussion}",
-                    "revised": "Изменено сообщение пользователя {postuser} ({post}) в теме {discussion}",
+                    "revised": "Изменено {post} пользователя {postuser} в теме {discussion}",
                     "user_changed": "Автор сообщения {post} изменён с {old_user} на {new_user}"
                 },
                 "setting_changed": "Изменена настройка {key}",
@@ -154,7 +154,7 @@
                     "logged_in": "Выполнен вход в аккаунт пользователя {username}",
                     "logged_in_with_provider": "Выполнен вход в аккаунт пользователя {username} через {provider}",
                     "logged_out": "Выполнен выход из аккаунта пользователя {username}",
-                    "nickname_changed": "Никнейм пользователя {username} изменён с {old_nickname} на {new_nickname}",
+                    "nickname_changed": "Изменено прозвище пользователя {username} с {old_nickname} на {new_nickname}",
                     "nickname_requested": "Запрошен новый никнейм {new_nickname} для пользователя {username}",
                     "nickname_request_approved": "Одобрено изменение никнейма пользователя {username} с {old_nickname} на {new_nickname}",
                     "nickname_request_rejected": "Отклонено изменение никнейма пользователя {username}",
@@ -165,7 +165,7 @@
                     "provider_connected": "Провайдер {provider} привязан к аккаунту пользователя {username}",
                     "suspended": "Пользователь {username} заблокирован до {until}",
                     "unsuspended": "Пользователь {username} разблокирован",
-                    "username_changed": "{username} пользователя изменено с {old_username} на {new_username}",
+                    "username_changed": "Изменено имя пользователя {username} с {old_username} на {new_username}",
                     "username_requested": "Запрошено новое имя {new_username} для пользователя {username}",
                     "username_request_approved": "Одобрено изменение имени пользователя {username} с {old_username} на {new_username}",
                     "username_request_rejected": "Отклонено изменение имени пользователя {username}"
