@@ -1024,6 +1024,9 @@ return [
 	'ianm-syndication' => [
 		'tag' => 'https://raw.githubusercontent.com/imorland/syndication/1.3.5/resources/locale/en.yml',
 	],
+	'ianm-top-posters-widget' => [
+		'tag' => 'https://raw.githubusercontent.com/imorland/top-posters-widget/1.0.3/locale/en.yml',
+	],
 	'ianm-translate' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/84b06a54d8679050557844666ca9436064cb016b/ianm-translate.yml',
 	],
