@@ -1658,6 +1658,9 @@ return [
 			'vi',
 		],
 	],
+	'skynettechnologies-all-in-one-accessibility' => [
+		'tag' => 'https://raw.githubusercontent.com/skynettechnologies/flarum-all-in-one-accessibility/1.0.3/resources/locale/en.yml',
+	],
 	'spookygames-auth-keycloak' => [
 		'tag' => 'https://raw.githubusercontent.com/spookygames/flarum-ext-auth-keycloak/1.8.0.1/locale/en.yml',
 	],
