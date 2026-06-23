@@ -152,6 +152,9 @@ return [
 	'ernestdefoe-seo' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/seo/2.0.12/locale/en.yml',
 	],
+	'ernestdefoe-og-image' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/og-image/v2.0.7/locale/en.yml',
+	],
 	'ernestdefoe-social-groups' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/social-groups/v2.4.0/locale/en.yml',
 	],
