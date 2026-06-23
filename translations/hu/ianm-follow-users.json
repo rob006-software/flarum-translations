@@ -75,30 +75,30 @@
         },
         "email": {
             "new_discussion_by_user": {
-                "subject": "",
+                "subject": "{user_display_name} témát indított",
                 "plain": {
-                    "body": ""
+                    "body": "{user_display_name} új témát indított: {discussion_title}\n\n{discussion_url}\n\n---\n\n{post_content}\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{user_display_name} új témát indított: [{discussion_title}]({discussion_url})."
                 }
             },
             "new_follower": {
-                "subject": "",
+                "subject": "{follower_display_name} követi Önt",
                 "plain": {
-                    "body": ""
+                    "body": "{follower_display_name} követni kezdte, így értesítést fog kapni, ha új témát indít.\n\n{profile_url}\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{follower_display_name} követni kezdte, így értesítést fog kapni, ha új témát indít."
                 }
             },
             "new_post": {
-                "subject": "",
+                "subject": "{user_display_name} közzétett ebben: {discussion_title}",
                 "plain": {
-                    "body": ""
+                    "body": "{user_display_name} közzétett ebben: {discussion_title}.\n\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nAddig nem fog több értesítést kapni erről a témáról, amíg naprakész nem lesz.\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{user_display_name} közzétett ebben: [{discussion_title}]({post_url})."
                 }
             }
         },
@@ -123,7 +123,7 @@
             },
             "gambits": {
                 "followeduser": {
-                    "key": ""
+                    "key": "követett"
                 }
             }
         }
