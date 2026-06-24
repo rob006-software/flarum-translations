@@ -149,6 +149,9 @@ return [
 	'ernestdefoe-onair' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/onair/v0.1.1/locale/en.yml',
 	],
+	'ernestdefoe-favorite-team' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/favorite-team/2.0.4/locale/en.yml',
+	],
 	'ernestdefoe-respawn' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/respawn/3.0.2/locale/en.yml',
 	],
