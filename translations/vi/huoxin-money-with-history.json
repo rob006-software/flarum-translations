@@ -2,7 +2,7 @@
     "huoxin-money-with-history": {
         "admin": {
             "settings": {
-                "title": "",
+                "title": "Cài đặt",
                 "post_reward_amount": "",
                 "discussion_reward_amount": "",
                 "money_name": "",
@@ -17,9 +17,9 @@
                 "reward_self_like": ""
             },
             "permissions": {
-                "edit_money_label": "",
-                "disable_money_label": "",
-                "query_others_history": ""
+                "edit_money_label": "Chỉnh sửa tiền",
+                "disable_money_label": "Tắt thưởng tiền",
+                "query_others_history": "Xem lịch sử tiền của người khác"
             },
             "remove_money_trigger": [
                 "",
@@ -28,43 +28,43 @@
             ]
         },
         "forum": {
-            "nav": "",
-            "title": "",
-            "list-empty": "",
-            "money-list-load-more": "",
+            "nav": "Lịch sử tiền",
+            "title": "Lịch sử tiền",
+            "list-empty": "Không tìm thấy bản ghi nào",
+            "money-list-load-more": "Tải thêm",
             "money-history": {
-                "discussion-deleted": "",
-                "discussion-hidden": "",
-                "discussion-restored": "",
-                "discussion-reward": "",
-                "manual-adjustment": "",
-                "post-deleted": "",
-                "post-hidden": "",
-                "post-liked": "",
-                "post-restored": "",
-                "post-reward": "",
-                "post-unliked": ""
+                "discussion-deleted": "Trừ tiền do xóa thảo luận",
+                "discussion-hidden": "Trừ tiền do ẩn thảo luận",
+                "discussion-restored": "Thưởng do khôi phục thảo luận",
+                "discussion-reward": "Thưởng thảo luận",
+                "manual-adjustment": "Điều chỉnh số dư thủ công",
+                "post-deleted": "Trừ tiền do xóa bài viết",
+                "post-hidden": "Trừ tiền do ẩn bài viết",
+                "post-liked": "Thưởng do bài viết được thích",
+                "post-restored": "Thưởng do khôi phục bài viết",
+                "post-reward": "Thưởng bài viết",
+                "post-unliked": "Trừ tiền do bỏ thích bài viết"
             },
             "record": {
-                "from": "",
-                "money-out": "",
-                "money-in": "",
-                "money-list-type": "",
-                "money-list-assign-at": "",
-                "money-list-id": "",
-                "money-list-from-user": "",
-                "money-list-target-user": "",
-                "money-list-amount": "",
-                "money-list-transfer-notes": "",
-                "money-list-balance": ""
+                "from": "từ",
+                "money-out": "Trừ tiền",
+                "money-in": "Thưởng",
+                "money-list-type": "Loại",
+                "money-list-assign-at": "Thời gian",
+                "money-list-id": "ID",
+                "money-list-from-user": "Người thao tác",
+                "money-list-target-user": "Tài khoản được thao tác",
+                "money-list-amount": "Số tiền",
+                "money-list-transfer-notes": "Mục đích",
+                "money-list-balance": "Số dư"
             },
             "user_controls": {
-                "money_button": ""
+                "money_button": "Chỉnh sửa tiền"
             },
             "modal": {
-                "title": "",
-                "current": "",
-                "submit_button": ""
+                "title": "Tiền của {username}",
+                "current": "Hiện tại:",
+                "submit_button": "=> core.ref.save_changes"
             }
         }
     }
