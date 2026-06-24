@@ -1682,6 +1682,12 @@ return [
 	'sycho-profile-cover' => [
 		'tag' => 'https://raw.githubusercontent.com/SychO9/flarum-profile-cover/v1.3.5/resources/locale/en.yml',
 	],
+	'tapao-auto-ai-moderation' => [
+		'tag' => 'https://raw.githubusercontent.com/Tapao-NonSen/Auto-AI-Moderation/v1.0.0/locale/en.yml',
+		'__builtInLanguages' => [
+			'th',
+		],
+	],
 	'therealsujitk-gifs' => [
 		'tag' => 'https://raw.githubusercontent.com/therealsujitk/flarum-ext-gifs/v4.1.1/resources/locale/en.yml',
 	],
