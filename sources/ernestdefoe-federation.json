@@ -1,0 +1,18 @@
+{
+    "ernestdefoe-federation": {
+        "admin": {
+            "settings": {
+                "enabled_label": "Enable federation",
+                "enabled_help": "Make this community discoverable on the fediverse. People on Mastodon, Lemmy and other ActivityPub servers can follow the community (and individual members) and receive every new discussion in their timeline. Inbound replies and likes flow back in as posts. Turn this off to remove the community from the fediverse — all federation endpoints stop responding.\n",
+                "username_label": "Community handle name",
+                "username_help": "The username part of the community's fediverse handle. Leave blank to use a slug of your forum title. Letters, numbers and underscores only.\n",
+                "handle_label": "Your community handle",
+                "handle_help": "Search for this exact handle from any fediverse server to follow the community. Changing the handle name above after people have followed will break existing follows, so pick it once.\n"
+            }
+        },
+        "forum": {
+            "handle_label": "Fediverse:",
+            "handle_tooltip": "Follow this member from Mastodon, Lemmy and other fediverse servers."
+        }
+    }
+}
