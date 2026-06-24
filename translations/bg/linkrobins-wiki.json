@@ -1,0 +1,145 @@
+{
+    "linkrobins-wiki": {
+        "admin": {
+            "permissions": {
+                "create_article": "",
+                "comment": "",
+                "edit_articles": ""
+            },
+            "index_layout": {
+                "heading": "",
+                "intro": "",
+                "label": "",
+                "help": "",
+                "shortcodes_heading": "",
+                "shortcode_articles": "",
+                "shortcode_articles_cat": "",
+                "shortcode_article": "",
+                "shortcode_categories": "",
+                "shortcode_heading": ""
+            },
+            "categories": {
+                "heading": "",
+                "intro": "",
+                "new_button": "",
+                "edit_button": "",
+                "delete_button": "",
+                "empty": "",
+                "this_category": "",
+                "column_name": "",
+                "column_slug": "",
+                "column_articles": "",
+                "delete_confirm_named": ""
+            },
+            "category_editor": {
+                "title_new": "",
+                "title_edit": "",
+                "field_name": "",
+                "field_slug": "",
+                "field_slug_help": "",
+                "field_slug_placeholder": "",
+                "field_description": "",
+                "field_color": "",
+                "field_color_help": "",
+                "field_icon": "",
+                "field_icon_help": "",
+                "field_position": "",
+                "field_position_help": "",
+                "submit_create": "",
+                "submit_update": "",
+                "error_save": "",
+                "error_delete": ""
+            }
+        },
+        "forum": {
+            "nav": "",
+            "common": {
+                "date_at_time": ""
+            },
+            "index": {
+                "new_article": "",
+                "new_article_tooltip": "",
+                "index_label": "",
+                "empty_own": "",
+                "empty": "",
+                "untitled": "",
+                "deleted_badge": "",
+                "no_categories": ""
+            },
+            "compose": {
+                "title": "",
+                "title_edit": "",
+                "title_label": "",
+                "title_placeholder": "",
+                "category_label": "",
+                "no_category": "",
+                "body_label": "",
+                "body_placeholder": "",
+                "body_placeholder_click": "",
+                "body_placeholder_edit": "",
+                "discard_confirm": "",
+                "submit_create": "",
+                "submit_update": ""
+            },
+            "show": {
+                "deleted_notice": "",
+                "by": "",
+                "last_edited": "",
+                "history": "",
+                "no_history": "",
+                "initial_version": "",
+                "diff_from_previous": "",
+                "diff_initial": "",
+                "diff_title": "",
+                "diff_none": ""
+            },
+            "action": {
+                "edit": "",
+                "delete": "",
+                "restore": "",
+                "delete_forever": "",
+                "save_changes": "",
+                "cancel": ""
+            },
+            "comments": {
+                "heading": "",
+                "empty": "",
+                "placeholder": "",
+                "post": "",
+                "deleted": "",
+                "discard_confirm": "",
+                "empty_error": "",
+                "confirm_delete": "",
+                "confirm_delete_forever": "",
+                "error_post": "",
+                "error_edit": "",
+                "error_delete": ""
+            },
+            "confirm": {
+                "soft_delete": "",
+                "delete_forever": ""
+            },
+            "errors": {
+                "load_articles": "",
+                "load_article": "",
+                "title_required": "",
+                "empty_body": "",
+                "submit": "",
+                "delete_article": "",
+                "restore_article": "",
+                "delete_article_forever": "",
+                "upload": "",
+                "upload_no_files": "",
+                "unknown": ""
+            }
+        },
+        "api": {
+            "content_required": "",
+            "article_soft_delete_first": "",
+            "article_required": "",
+            "article_not_found": "",
+            "comment_required": "",
+            "comment_soft_delete_first": ""
+        }
+    }
+}

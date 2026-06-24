@@ -1,0 +1,145 @@
+{
+    "linkrobins-wiki": {
+        "admin": {
+            "permissions": {
+                "create_article": "Create wiki articles",
+                "comment": "Comment on wiki articles",
+                "edit_articles": "Edit and moderate any wiki article"
+            },
+            "index_layout": {
+                "heading": "Wiki home page",
+                "intro": "Compose what the /wiki landing page shows using shortcodes. Leave blank to list all articles.",
+                "label": "Home page layout",
+                "help": "Each shortcode goes on its own line. Lines that are not shortcodes are shown as text; lines starting with #, ## or ### become headings.",
+                "shortcodes_heading": "Available shortcodes",
+                "shortcode_articles": "List all articles.",
+                "shortcode_articles_cat": "List a category (by slug or id), optionally limited to N most-recent. Add title=\"…\" for a heading.",
+                "shortcode_article": "Link a single article by id.",
+                "shortcode_categories": "Show the category list.",
+                "shortcode_heading": "A heading (## and ### for smaller)."
+            },
+            "categories": {
+                "heading": "Wiki categories",
+                "intro": "Create and organize the categories articles can be filed under.",
+                "new_button": "New category",
+                "edit_button": "Edit",
+                "delete_button": "Delete",
+                "empty": "No categories yet. Create one to get started.",
+                "this_category": "this category",
+                "column_name": "Name",
+                "column_slug": "Slug",
+                "column_articles": "Articles",
+                "delete_confirm_named": "Delete the category “{name}”? Articles in it will become uncategorized."
+            },
+            "category_editor": {
+                "title_new": "New category",
+                "title_edit": "Edit category",
+                "field_name": "Name",
+                "field_slug": "Slug",
+                "field_slug_help": "Used in the category's URL. Leave blank to generate it from the name.",
+                "field_slug_placeholder": "e.g. guides",
+                "field_description": "Description",
+                "field_color": "Color",
+                "field_color_help": "Hex color (e.g. #3b82f6) used for the category's badge.",
+                "field_icon": "Icon",
+                "field_icon_help": "A Font Awesome class, e.g. fas fa-book.",
+                "field_position": "Position",
+                "field_position_help": "Categories are ordered by this value, lowest first.",
+                "submit_create": "Create category",
+                "submit_update": "Save changes",
+                "error_save": "Couldn't save the category. Please check the fields and try again.",
+                "error_delete": "Couldn't delete the category."
+            }
+        },
+        "forum": {
+            "nav": "Wiki",
+            "common": {
+                "date_at_time": "{date} at {time}"
+            },
+            "index": {
+                "new_article": "New article",
+                "new_article_tooltip": "Write a new article",
+                "index_label": "Index",
+                "empty_own": "No articles yet. Click \"New article\" to write one.",
+                "empty": "No articles to show.",
+                "untitled": "Untitled",
+                "deleted_badge": "Deleted",
+                "no_categories": "No categories yet."
+            },
+            "compose": {
+                "title": "New article",
+                "title_edit": "Edit article",
+                "title_label": "Title",
+                "title_placeholder": "Article title",
+                "category_label": "Category",
+                "no_category": "No category",
+                "body_label": "Content",
+                "body_placeholder": "Write the article. Markdown is supported.",
+                "body_placeholder_click": "Click to write the article…",
+                "body_placeholder_edit": "Click to continue editing…",
+                "discard_confirm": "You have an unsaved article. Discard it?",
+                "submit_create": "Publish article",
+                "submit_update": "Save changes"
+            },
+            "show": {
+                "deleted_notice": "This article is deleted. Only editors can see it.",
+                "by": "by ",
+                "last_edited": "last edited by ",
+                "history": "History ({count})",
+                "no_history": "No revisions yet.",
+                "initial_version": "created",
+                "diff_from_previous": "Changes from the previous version",
+                "diff_initial": "Initial version",
+                "diff_title": "Title",
+                "diff_none": "No content changes."
+            },
+            "action": {
+                "edit": "Edit",
+                "delete": "Delete",
+                "restore": "Restore",
+                "delete_forever": "Delete forever",
+                "save_changes": "Save changes",
+                "cancel": "Cancel"
+            },
+            "comments": {
+                "heading": "Comments ({count})",
+                "empty": "No comments yet.",
+                "placeholder": "Write a comment…",
+                "post": "Post comment",
+                "deleted": "This comment was deleted.",
+                "discard_confirm": "You have an unsubmitted comment. Discard it?",
+                "empty_error": "Please write something first.",
+                "confirm_delete": "Delete this comment?",
+                "confirm_delete_forever": "Permanently delete this comment? This cannot be undone.",
+                "error_post": "Could not post the comment.",
+                "error_edit": "Could not save the comment.",
+                "error_delete": "Could not delete the comment."
+            },
+            "confirm": {
+                "soft_delete": "Delete this article? Editors can restore it later.",
+                "delete_forever": "Permanently delete this article and its history? This cannot be undone."
+            },
+            "errors": {
+                "load_articles": "Could not load articles.",
+                "load_article": "Could not load this article. It may have been deleted, or you may not have permission to view it.",
+                "title_required": "Please enter a title.",
+                "empty_body": "Please write the article body before submitting.",
+                "submit": "Could not save the article.",
+                "delete_article": "Could not delete the article.",
+                "restore_article": "Could not restore the article.",
+                "delete_article_forever": "Could not permanently delete the article.",
+                "upload": "Could not upload file.",
+                "upload_no_files": "Upload returned no files. Please try again.",
+                "unknown": "Unknown error."
+            }
+        },
+        "api": {
+            "content_required": "Article content is required.",
+            "article_soft_delete_first": "An article must be deleted before it can be permanently removed.",
+            "article_required": "An article is required.",
+            "article_not_found": "Article not found.",
+            "comment_required": "Comment content is required.",
+            "comment_soft_delete_first": "A comment must be deleted before it can be permanently removed."
+        }
+    }
+}
