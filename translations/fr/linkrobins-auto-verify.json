@@ -2,8 +2,8 @@
     "linkrobins-auto-verify": {
         "admin": {
             "settings": {
-                "enabled_label": "",
-                "enabled_help": ""
+                "enabled_label": "Vérification automatique des nouveaux comptes",
+                "enabled_help": "Lorsque cette option est activée, les nouveaux comptes sont activés immédiatement et l'étape de confirmation par courriel est ignorée. Désactivez-la pour revenir à la procédure normale de confirmation par courriel de Flarum (par exemple, en cas de vague de spam) sans désactiver l'extension."
             }
         }
     }
