@@ -1,7 +1,7 @@
 {
     "fof-recaptcha": {
         "admin": {
-            "maintenance_mode_warning": "",
+            "maintenance_mode_warning": "reCAPTCHA ist auf der Anmeldeseite deaktiviert, wenn sich das Forum im Wartungsmodus befindet.",
             "settings": {
                 "help_text": "Erhalte deine Google reCAPTCHA-Zugangsdaten <a>hier</a>.",
                 "secret_key_label": "Geheimer Schlüssel",
@@ -42,7 +42,7 @@
         "recaptcha": "reCAPTCHA Validierung fehlgeschlagen.",
         "recaptcha-unknown": "Bei der Validierung von reCAPTCHA ist ein unbekannter Fehler aufgetreten ({errors}).",
         "attributes": {
-            "g-recaptcha-response": ""
+            "g-recaptcha-response": "reCAPTCHA"
         }
     }
 }
