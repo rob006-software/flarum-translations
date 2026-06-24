@@ -161,6 +161,9 @@ return [
 	'ernestdefoe-theme-toggle' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/theme-toggle/3.0.11/locale/en.yml',
 	],
+	'ernestdefoe-espn-cfb-ticker' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/espn-cfb-ticker/v2.0.7/locale/en.yml',
+	],
 	'flarum-akismet' => [
 		'beta' => 'https://raw.githubusercontent.com/flarum/akismet/v2.0.0-rc.4/locale/en.yml',
 	],
