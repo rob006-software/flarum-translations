@@ -1272,6 +1272,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`sycho-github-milestone`](https://weblate.rob006.net/projects/flarum/sycho-github-milestone) | [`sycho/flarum-github-milestone`](https://github.com/SychO9/flarum-github-milestone) |
 | [`sycho-private-facade`](https://weblate.rob006.net/projects/flarum/sycho-private-facade) | [`sycho/flarum-private-facade`](https://github.com/SychO9/flarum-private-facade) |
 | [`sycho-profile-cover`](https://weblate.rob006.net/projects/flarum/sycho-profile-cover) | [`sycho/flarum-profile-cover`](https://github.com/SychO9/flarum-profile-cover) |
+| [`tapao-auto-ai-moderation`](https://weblate.rob006.net/projects/flarum/tapao-auto-ai-moderation) | [`tapao/auto-ai-moderation`](https://github.com/Tapao-NonSen/Auto-AI-Moderation) |
 | [`therealsujitk-gifs`](https://weblate.rob006.net/projects/flarum/therealsujitk-gifs) | [`therealsujitk/flarum-ext-gifs`](https://github.com/therealsujitk/flarum-ext-gifs) |
 | [`tituspijean-auth-ldap`](https://weblate.rob006.net/projects/flarum/tituspijean-auth-ldap) | [`tituspijean/flarum-ext-auth-ldap`](https://github.com/tituspijean/flarum-ext-auth-ldap) |
 | [`tokenjenny-web3`](https://weblate.rob006.net/projects/flarum/tokenjenny-web3) | [`tokenjenny/flarum-ext-web3`](https://github.com/tokenjenny/flarum-ext-web3) |
