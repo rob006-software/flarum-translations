@@ -149,6 +149,9 @@ return [
 	'ernestdefoe-onair' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/onair/v0.1.1/locale/en.yml',
 	],
+	'ernestdefoe-picks' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/picks/2.1.3/resources/locale/en.yml',
+	],
 	'ernestdefoe-respawn' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/respawn/3.0.2/locale/en.yml',
 	],
