@@ -491,6 +491,12 @@ return [
 	'glowingblue-password-strength' => [
 		'beta' => 'https://raw.githubusercontent.com/glowingblue/flarum-ext-password-strength/5.0.0-beta.3/locale/en.yml',
 	],
+	'huoxin-money-with-history' => [
+		'beta' => 'https://raw.githubusercontent.com/huoxin233/flarum-ext-money-with-history/2.0.0-beta.1/locale/en.yml',
+		'__builtInLanguages' => [
+			'zh_Hans',
+		],
+	],
 	'huoxin-relative-url' => [
 		'beta' => 'https://raw.githubusercontent.com/huoxin233/flarum-ext-relative-url/2.0.0-beta.1/locale/en.yml',
 	],
