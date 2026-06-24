@@ -3,15 +3,15 @@
         "admin": {
             "pusher_settings": {
                 "app_cluster_label": "Fürt",
-                "app_cluster_help": "",
+                "app_cluster_help": "A Pusher alkalmazás kiszolgálásához használt fürt (például <code>eu</code> vagy <code>us2</code>), amely az alkalmazás „Alkalmazáskulcsok” oldalán látható. Hagyja üresen, ha egyéni kiszolgálónevet állított be alább.",
                 "app_id_label": "Alkalmazás azonosítója",
-                "app_id_help": "",
+                "app_id_help": "A Pusher alkalmazás numerikus alkalmazásazonosítója az „Alkalmazáskulcsok” oldalról.",
                 "app_key_label": "Alkalmazás kulcsa",
-                "app_key_help": "",
+                "app_key_help": "A Pusher alkalmazás nyilvános kulcsa az „Alkalmazáskulcsok” oldalról. Elküldésre kerül a böngészőknek, így nem titkos.",
                 "app_secret_label": "Alkalmazás titka",
-                "app_secret_help": "",
-                "server_hostname_label": "",
-                "server_hostname_help": "",
+                "app_secret_help": "A Pusher alkalmazás titkos kulcsa az „Alkalmazáskulcsok” oldalról. Kezelje bizalmasan – ezt csak a kiszolgálóoldal használja.",
+                "server_hostname_label": "Kiszolgáló gépneve",
+                "server_hostname_help": "Nem kötelező. A gépnév felülbírálása, amelyhez a kliens kapcsolódik; saját kiszolgálású Pusher-kompatibilis kiszolgáló (például soketi) esetén. Hagyja üresen, hogy a Pusher szolgáltatást használja a fenti fürttel.",
                 "title": "Pusher beállítások"
             }
         },
