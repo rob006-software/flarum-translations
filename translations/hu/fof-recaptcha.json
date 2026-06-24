@@ -1,20 +1,20 @@
 {
     "fof-recaptcha": {
         "admin": {
-            "maintenance_mode_warning": "",
+            "maintenance_mode_warning": "A reCAPTCHA le van tiltva a bejelentkezési oldalon, ha a fórum karbantartási módban van.",
             "settings": {
-                "help_text": "Szerezze meg a Google reCAPTCHA hitelesítő adatait <a>itt</a>.",
+                "help_text": "Szerezze be a Google reCAPTCHA hitelesítő adatait <a>itt</a>.",
                 "secret_key_label": "Titkos kulcs",
                 "site_key_label": "Oldal kulcsa",
                 "type_label": "A reCAPTCHA típusa",
-                "type_help": "",
+                "type_help": "A kiválasztott típusnak meg kell felelnie a reCAPTCHA hitelesítő adatainak. A Jelölőmező és a Láthatatlan a reCAPTCHA v2 lehetősége; a v3 pontszámalapú, és a háttérben fut.",
                 "type_options": {
-                    "checkbox": "",
-                    "invisible": "",
-                    "v3": ""
+                    "checkbox": "v2 – Jelölőmező",
+                    "invisible": "v2 – Láthatatlan",
+                    "v3": "v3 (pontszám-alapú)"
                 },
-                "v3_threshold_label": "",
-                "v3_threshold_help": "",
+                "v3_threshold_label": "reCAPTCHA v3 pontszámkorlát",
+                "v3_threshold_help": "Az ennél a pontszámnál (0.0 = valószínűleg bot, 1.0 = valószínűleg ember) kisebb beküldések el lesznek utasítva. A Google kezdésnek 0.5-ös értéket javasol. Csak akkor használatos, ha a típus v3-ra van állítva.",
                 "signup": "=> core.forum.sign_up.title",
                 "signin": "=> core.forum.log_in.title",
                 "forgot": "=> core.forum.forgot_password.title"
@@ -32,17 +32,17 @@
             }
         },
         "lib": {
-            "error": "",
-            "not_completed": "",
-            "rejected": "",
-            "unknown_error": ""
+            "error": "Hiba történt a reCAPTCHA beküldésekor. Próbálja újra.",
+            "not_completed": "A folytatás előtt befejezze be a reCAPTCHA ellenőrzést.",
+            "rejected": "A reCAPTCHA-ellenőrzés sikertelen. Próbálja újra.",
+            "unknown_error": "Ismeretlen hiba történt. Próbálja újra."
         }
     },
     "validation": {
         "recaptcha": "reCAPTCHA ellenőrzési hiba.",
         "recaptcha-unknown": "Ismeretlen hiba történt a reCAPTCHA ellenőrzése során ({errors}).",
         "attributes": {
-            "g-recaptcha-response": ""
+            "g-recaptcha-response": "reCAPTCHA"
         }
     }
 }
