@@ -3818,7 +3818,12 @@
         "datlechin-cbox": {
             "admin": {
                 "settings": {
-                    "description": "fbde0f90fc7de6e614c22c331f2e98eb fbde0f90fc7de6e614c22c331f2e98eb"
+                    "box_id": "911b435ab81c3cd3bed8d6a40a6d7802 911b435ab81c3cd3bed8d6a40a6d7802",
+                    "box_tag": "aa19548fad7ae75429f0948e53edb6f2 aa19548fad7ae75429f0948e53edb6f2",
+                    "description": "fbde0f90fc7de6e614c22c331f2e98eb fbde0f90fc7de6e614c22c331f2e98eb",
+                    "secret": "1e6947ac7fb3a9529a9726eb692c8cc5 1e6947ac7fb3a9529a9726eb692c8cc5",
+                    "show_when_user_not_login": "6d6060ff9536162bdf77fc508288b484 6d6060ff9536162bdf77fc508288b484",
+                    "show_when_user_not_login_help": "9723d61b699f5b078e557f93fc3305c6 9723d61b699f5b078e557f93fc3305c6"
                 }
             }
         }
@@ -11198,8 +11203,11 @@
                 "new_badge": "4a7ba225b2ff4e86d70f1f046a8571a7 4a7ba225b2ff4e86d70f1f046a8571a7",
                 "nothing_here_yet": "a58e85fb9755f0e8255dfc8a86ed84c4 a58e85fb9755f0e8255dfc8a86ed84c4",
                 "number_of_badges_on_user_card": "75e9de974003cefb9ef5cfab0c7d9fc6 75e9de974003cefb9ef5cfab0c7d9fc6",
+                "number_of_badges_on_user_card_help": "916b2acbfccf3084835f6b8ed7e70dc7 916b2acbfccf3084835f6b8ed7e70dc7",
                 "permissions": {
                     "badge_detail_users": "30776634e660d219ccc215c5a097529d 30776634e660d219ccc215c5a097529d",
+                    "edit_card_badges": "ed22a957a1fa6705fa3c748541682fd9 ed22a957a1fa6705fa3c748541682fd9",
+                    "edit_own_card_badges": "dd5d0fd504a2bd383e3debc04c1eb280 dd5d0fd504a2bd383e3debc04c1eb280",
                     "give_badge": "b6f94012d6fafd67b90de98855c220ad b6f94012d6fafd67b90de98855c220ad",
                     "take_badge": "912e4c26fb051d8dcb6d3a8784ed2c04 912e4c26fb051d8dcb6d3a8784ed2c04"
                 },
@@ -11223,11 +11231,20 @@
                     "earning_reason": "c389f8a04df30bc9173f4f1e9bc85657 c389f8a04df30bc9173f4f1e9bc85657",
                     "name": "fb7026acd5693320716afb6cd9cb35b1 fb7026acd5693320716afb6cd9cb35b1",
                     "no_earning_reason": "ce261de9636f4eb86b1dc324d65e94f2 ce261de9636f4eb86b1dc324d65e94f2",
+                    "others_link": "fc81bbfe118dced9ffef124003ae133a fc81bbfe118dced9ffef124003ae133a",
                     "received_on": "d705ff4ba5e9b127f68d55f24bd02dee d705ff4ba5e9b127f68d55f24bd02dee",
                     "update_earning_reason": "e705d4cb25de988a7b3d0286158261d1 e705d4cb25de988a7b3d0286158261d1"
                 },
                 "badge_information": "63b0ce34efeb8bebcc2832ddf5f897d6 63b0ce34efeb8bebcc2832ddf5f897d6",
+                "badges_in_card": {
+                    "description": "ed212a2ef8880abb6a8355f667df1cee ed212a2ef8880abb6a8355f667df1cee",
+                    "hit_limit": "dfb9c3e10de14ad65bddc8402164053f dfb9c3e10de14ad65bddc8402164053f",
+                    "manage_badges": "39200ecc09135b8f6e8f7f1c7bd3379a 39200ecc09135b8f6e8f7f1c7bd3379a",
+                    "select_limit": "aa852d8af7bc1b99850285207186c0d9 aa852d8af7bc1b99850285207186c0d9",
+                    "title": "7cd04a99aba32aa410d592e1fb2821c8 7cd04a99aba32aa410d592e1fb2821c8"
+                },
                 "give_badge": "e641fdbab42ca905402e43cf1bfc5509 e641fdbab42ca905402e43cf1bfc5509",
+                "hidden_badges": "bd0783b7c9a4d6788239b4edb67bad40 bd0783b7c9a4d6788239b4edb67bad40",
                 "moderation": {
                     "give_badge": "e641fdbab42ca905402e43cf1bfc5509 e641fdbab42ca905402e43cf1bfc5509",
                     "remove_badge": "bfc9b4461d4a5d585af0252e77898dd4 bfc9b4461d4a5d585af0252e77898dd4",
@@ -11238,6 +11255,7 @@
                     "settings": "866671922ffc2ce00693f8b5f1f57fe4 866671922ffc2ce00693f8b5f1f57fe4",
                     "title": "55b8bea4bb5fa128d9dbe8dbde0556d2 55b8bea4bb5fa128d9dbe8dbde0556d2"
                 },
+                "save_changes": "2aecef96f81b160fed14d90375699a85 2aecef96f81b160fed14d90375699a85",
                 "select_badge": "a2bb6d4cf68e3d7acab53962edb326dc a2bb6d4cf68e3d7acab53962edb326dc",
                 "uncategorized": "8e56bd7318a1a7dc9a681f2762e96b72 8e56bd7318a1a7dc9a681f2762e96b72",
                 "update_badge": "8773b33b9bd5c0d4a558cabae08a8be4 8773b33b9bd5c0d4a558cabae08a8be4",
