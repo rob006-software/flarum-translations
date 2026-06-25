@@ -65,6 +65,7 @@
                 "start_help": "Type the username (or display name) of who you want to trade with.",
                 "start_username_label": "Username",
                 "start_username_placeholder": "e.g. ramon",
+                "start_clear": "Clear search",
                 "start_submit": "Open trade window",
                 "start_cancel": "Cancel",
                 "start_not_found": "No user matches that name.",
@@ -207,6 +208,7 @@
             "my_decorations": {
                 "title": "My decorations",
                 "preview": "Live preview",
+                "back_to_shop": "Back to shop",
                 "submit_cta": "Submit your own",
                 "tab_all": "All",
                 "avatar": "Avatar frames",
@@ -592,7 +594,17 @@
                 "user_not_found": "User not found.",
                 "result": "New balance",
                 "balance": "Balance",
-                "lifetime": "Lifetime"
+                "lifetime": "Lifetime",
+                "bulk_title": "Award to all users",
+                "bulk_help": "Award or revoke points for all registered users. Negative values reduce the balance.",
+                "bulk_submit": "Award to all users",
+                "bulk_confirm": "Are you sure? This will affect all users on the forum.",
+                "bulk_confirm_yes": "Yes, apply to all",
+                "bulk_confirm_no": "Cancel",
+                "bulk_result": "Bulk result",
+                "bulk_awarded": "Users updated",
+                "bulk_errors": "Errors",
+                "bulk_success": "Bulk adjustment applied."
             }
         }
     }

@@ -31,7 +31,11 @@
                 "display_mode_widget": "Widget only",
                 "display_mode_page": "Page only",
                 "height_label": "Messages height (px)",
-                "height_help": "Height of the messages area in pixels. Default is 320."
+                "height_help": "Height of the messages area in pixels. Default is 320.",
+                "cooldown_label": "Cooldown (seconds)",
+                "cooldown_help": "Minimum seconds a user must wait between shouts. Default is 3.",
+                "max_rows_label": "Maximum stored shouts",
+                "max_rows_help": "Older shouts beyond this count are pruned. Default is 500."
             },
             "permissions": {
                 "shout": "Post shouts",
