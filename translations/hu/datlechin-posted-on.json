@@ -2,41 +2,41 @@
     "datlechin-posted-on": {
         "admin": {
             "settings": {
-                "display_mode_label": "",
-                "display_mode_help": "",
-                "display_mode_os_only": "",
-                "display_mode_os_browser": "",
-                "skip_guests_label": "",
-                "skip_guests_help": ""
+                "display_mode_label": "Mi jelenjen meg egy bejegyzés mellett",
+                "display_mode_help": "Bejegyzésenkénti részletek. A teljes bontás mindig elérhető a buboréksúgóban.",
+                "display_mode_os_only": "Csak az operációs rendszer (például Windows 11)",
+                "display_mode_os_browser": "Operációs rendszer és böngésző (például Windows 11 · Chrome 121)",
+                "skip_guests_label": "Ne készítsen adatokat a vendégekről",
+                "skip_guests_help": "Bekapcsolt állapotban a vendégfiókok által írt bejegyzések nem kapnak platform-metaadatokat."
             }
         },
         "forum": {
             "post": {
                 "posted_on_text": "Ezen közzétéve: {posted_on}",
                 "tooltip": {
-                    "os": "",
-                    "client": "",
-                    "device": ""
+                    "os": "Operációs rendszer",
+                    "client": "Böngésző",
+                    "device": "Eszköz"
                 }
             },
             "settings": {
-                "privacy_disclose_posted_on_label": "Mások is láthassák, hogy mely eszközön teszem közzé a bejegyzést"
+                "privacy_disclose_posted_on_label": "Megjelenítés másoknak, hogy mely eszközről teszem közzé a bejegyzést"
             },
             "device_types": {
-                "desktop": "",
-                "smartphone": "",
-                "tablet": "",
-                "feature phone": "",
-                "console": "",
-                "tv": "",
-                "car browser": "",
-                "smart display": "",
-                "camera": "",
-                "portable media player": "",
-                "phablet": "",
-                "smart speaker": "",
-                "wearable": "",
-                "peripheral": ""
+                "desktop": "Asztali számítógép",
+                "smartphone": "Telefon",
+                "tablet": "Táblagép",
+                "feature phone": "Telefon",
+                "console": "Konzol",
+                "tv": "TV",
+                "car browser": "Autó",
+                "smart display": "Intelligens kijelző",
+                "camera": "Fényképezőgép",
+                "portable media player": "Médialejátszó",
+                "phablet": "Phablet",
+                "smart speaker": "Intelligens hangszóró",
+                "wearable": "Viselhető eszköz",
+                "peripheral": "Periféria"
             }
         }
     }
