@@ -12,7 +12,7 @@
                         "help": "Группа, в которую будет добавлен пользователь при регистрации с помощью кода приглашения."
                     },
                     "max_uses": {
-                        "label": "Макс. применений",
+                        "label": "Максимальное количество применений",
                         "help": "Максимальное количество использований кода. Установите значение 0 для неограниченного количества использований"
                     },
                     "activates_user": {
@@ -23,22 +23,22 @@
             },
             "modals": {
                 "create_doorkey": {
-                    "title": "Создайте новый пригласительный код",
+                    "title": "Создайте новый код",
                     "key": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.key.label",
+                        "help": "=> fof-doorman.admin.ref.fields.key.help"
                     },
                     "group": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.group.label",
+                        "help": "=> fof-doorman.admin.ref.fields.group.help"
                     },
                     "max_uses": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.max_uses.label",
+                        "help": "=> fof-doorman.admin.ref.fields.max_uses.help"
                     },
                     "activates_user": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.activates_user.label",
+                        "help": "=> fof-doorman.admin.ref.fields.activates_user.help"
                     },
                     "submit_button": "Создать код",
                     "submit_and_create_another_button": "Создать и добавить еще один"
@@ -46,26 +46,26 @@
                 "edit_doorkey": {
                     "title": "Редактировать код",
                     "key": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.key.label",
+                        "help": "=> fof-doorman.admin.ref.fields.key.help"
                     },
                     "group": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.group.label",
+                        "help": "=> fof-doorman.admin.ref.fields.group.help"
                     },
                     "max_uses": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.max_uses.label",
+                        "help": "=> fof-doorman.admin.ref.fields.max_uses.help"
                     },
                     "activates_user": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.activates_user.label",
+                        "help": "=> fof-doorman.admin.ref.fields.activates_user.help"
                     },
                     "submit_button": "Сохранить изменения"
                 },
                 "send_invites": {
                     "title": "Отправить коды",
-                    "group": "Отправить для {group} группы",
+                    "group": "Отправить для группы \"{group}\"",
                     "help": "Можно использовать список, разделенный запятыми, пробелами или запятыми и пробелами. Введите отдельное электронное письмо или вставьте список, а затем нажмите пробел, чтобы добавить его/их.",
                     "placeholder": "Введите адрес электронной почты",
                     "invalid_emails": "Следующие электронные письма недействительны: {emails}",
@@ -86,21 +86,21 @@
                 "heading": "Пригласительные коды",
                 "columns": {
                     "id": "ID",
-                    "key": "",
-                    "group": "",
-                    "max_uses": "",
-                    "activates_user": "",
-                    "manage": "Управлять",
-                    "uses": "Использует",
-                    "created_by": "Созданный"
+                    "key": "=> fof-doorman.admin.ref.fields.key.label",
+                    "group": "=> fof-doorman.admin.ref.fields.group.label",
+                    "max_uses": "=> fof-doorman.admin.ref.fields.max_uses.label",
+                    "activates_user": "=> fof-doorman.admin.ref.fields.activates_user.label",
+                    "manage": "Управление",
+                    "uses": "Применение",
+                    "created_by": "Кем создан"
                 },
                 "content": {
-                    "invalid_column": "",
-                    "no_group": "",
+                    "invalid_column": "=> core.admin.users.grid.invalid_column_content",
+                    "no_group": "=> core.admin.users.grid.columns.group_badges.no_badges",
                     "warning": "Этот код был использован максимальное количество раз.",
                     "delete": "Вы уверены, что хотите удалить код \"{key}\"?",
                     "uses": {
-                        "used_times": "",
+                        "used_times": "{remaining, plural, =0 {Unlimited uses} one {Осталось {remainingUses} применений} other {Осталось {remainingUses} применений}}",
                         "total_uses": "{totalUses, plural, one {Использовано {totalUses} раз} other {Использовано {totalUses} раз/а}}"
                     },
                     "no_created_by": "Неизвестный пользователь"
@@ -111,12 +111,12 @@
                     "delete": "Удалить код"
                 },
                 "pagination": {
-                    "first_page_button": "",
-                    "back_button": "",
-                    "page_counter": "",
-                    "go_to_page_textbox_a11y_label": "",
-                    "next_button": "",
-                    "last_page_button": ""
+                    "first_page_button": "=> core.lib.pagination.first_button",
+                    "back_button": "=> core.lib.pagination.back_button",
+                    "page_counter": "=> core.lib.pagination.page_counter",
+                    "go_to_page_textbox_a11y_label": "=> core.lib.pagination.go_to_page_textbox_a11y_label",
+                    "next_button": "=> core.lib.pagination.next_button",
+                    "last_page_button": "=> core.lib.pagination.last_button"
                 }
             }
         },
