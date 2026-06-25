@@ -32,10 +32,10 @@
                 "display_mode_page": "Nur Seite",
                 "height_label": "Höhe der Nachrichten (px)",
                 "height_help": "Höhe des Nachrichtenbereichs in Pixeln. Der Standardwert beträgt 320.",
-                "cooldown_label": "",
-                "cooldown_help": "",
-                "max_rows_label": "",
-                "max_rows_help": ""
+                "cooldown_label": "Abklingzeit (Sekunden)",
+                "cooldown_help": "Mindestzeit in Sekunden, die ein Benutzer zwischen zwei Shouts warten muss. Der Standardwert beträgt 3.",
+                "max_rows_label": "Maximale Anzahl gespeicherter Shouts",
+                "max_rows_help": "Ältere Shouts, die über diese Anzahl hinausgehen, werden entfernt. Der Standardwert beträgt 500."
             },
             "permissions": {
                 "shout": "Shouts veröffentlichen",
