@@ -5427,6 +5427,17 @@
 		<td align="center"><a href="https://packagist.org/packages/huoxin/filter-rule-manager/stats">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/huoxin-filter-rule-manager/sr_Latn/"><img src="https://weblate.rob006.net/widgets/flarum/sr_Latn/huoxin-filter-rule-manager/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/Tapao-NonSen/Auto-AI-Moderation" title="tapao/auto-ai-moderation"><code>tapao/auto-ai-moderation</code></a>
+		</td>
+		<td align="center">492</td>
+		<td align="center"><a href="https://packagist.org/packages/tapao/auto-ai-moderation/stats">0</a></td>
+		<td align="center"><a href="https://packagist.org/packages/tapao/auto-ai-moderation/stats">0</a></td>
+		<td align="center"><a href="https://packagist.org/packages/tapao/auto-ai-moderation/stats">0</a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/tapao-auto-ai-moderation/sr_Latn/"><img src="https://weblate.rob006.net/widgets/flarum/sr_Latn/tapao-auto-ai-moderation/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
 </tbody>
 </table>
 
