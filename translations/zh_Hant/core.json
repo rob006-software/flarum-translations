@@ -1023,7 +1023,7 @@
             }
         },
         "api": {
-            "invalid_username_message": "",
+            "invalid_username_message": "用戶名只能包含字母、數字和連字符，且至少包含一個字母。",
             "invalid_filter_type": {
                 "must_be_numeric_message": "{filter} 過濾器必須是數字。",
                 "must_not_be_array_message": "{filter} 過濾器不能是數組。",
@@ -1036,41 +1036,41 @@
             "informational": {
                 "default_title": "信息",
                 "footer": "此電子郵件已發送至 {userEmail}，作為您在 {forumTitle} ({forumUrl}) 帳戶相關資訊通知服務的一部分。",
-                "footer_plain": ""
+                "footer_plain": "發送此郵件至 {userEmail} 是作為與您在 {forumTitle} 上的賬戶相關的通知服務。"
             },
             "notification": {
                 "default_title": "通知",
                 "footer": {
-                    "main_text": "",
-                    "main_text_plain": "",
-                    "unsubscribe_text": "",
-                    "unsubscribe_text_plain": "",
-                    "settings_text": "",
-                    "settings_text_plain": ""
+                    "main_text": "發送此郵件至 {email} 是因為您訂閱了 [{forumTitle}]({forumUrl}) 上的 “{type}” 通知。",
+                    "main_text_plain": "發送此郵件至 {email} 是因為您訂閲了 {forumTitle} 上的 “{type}” 通知。",
+                    "unsubscribe_text": "如果您想停止接收此類通知，請 [在此取消訂閱]({unsubscribeLink})。",
+                    "unsubscribe_text_plain": "如果您想停止接收此類通知，請在此取消訂閱：{unsubscribeLink}",
+                    "settings_text": "[在此]({settingsLink})管理您的通知設置。",
+                    "settings_text_plain": "在此管理您的通知設置：{settingsLink}"
                 }
             },
             "activate_account": {
                 "subject": "啟用帳號",
-                "body": ""
+                "body": "有人（希望是您！）已使用此郵箱注冊了 {forum}。\n\n如果是您本人，只需點擊以下鍵結，您的帳戶即可激活：\n{url}\n\n如果您沒有注冊，請忽略此郵件。\n"
             },
             "confirm_email": {
                 "subject": "郵箱位址驗證",
-                "body": ""
+                "body": "有人（希望就是您！）已將您在 {forum} 的電子郵件地址變更為此電子郵件地址。\n\n如果這是您本人所為，只需點擊下方連結即可完成電子郵件地址驗證：\n{url}\n\n如果這不是您本人所進行的操作，請直接忽略此電子郵件。\n"
             },
             "reset_password": {
                 "subject": "重設密碼",
-                "body": ""
+                "body": "有人（希望就是您！）已提出重設您在 {forum} 帳戶密碼的請求。\n\n若此操作是由您本人進行，請點擊下方連結以重設您的密碼：\n{url}\n\n若您不打算變更密碼，請直接忽略此電子郵件。\n"
             },
             "send_test": {
                 "subject": "Flarum 郵件測試",
-                "body": ""
+                "body": "這是一封測試電子郵件，用於確認您的 Flarum 郵件設定是否正常運作。\n\n若此郵件是由您發送，表示您的郵件設定已正常運作！\n\n若您並未發送此郵件，請直接忽略此電子郵件。\n"
             },
             "abandoned_extensions": {
-                "subject": "",
-                "body_intro": "",
-                "body_outro": "",
-                "line_with_replacement": "",
-                "line_no_replacement": ""
+                "subject": "注意：偵測到已淘汰的擴充套件",
+                "body_intro": "下列擴充套件已棄用：",
+                "body_outro": "請檢查這些擴充套件，並規劃遷移至可用的替代擴充套件。",
+                "line_with_replacement": "{package}（建議改用：{replacement}）",
+                "line_no_replacement": "{package}（暫無可用的替代擴展）"
             }
         },
         "ref": {
@@ -1085,8 +1085,8 @@
             "custom_footer_title": "編輯客製化頁腳",
             "custom_header_text": "新增要顯示在頁面頂部，位於 Flarum 預設頁首之上的 HTML 原始碼。",
             "custom_header_title": "編輯客製化頁首",
-            "dark_hc_mode_label": "",
-            "dark_mode_label": "",
+            "dark_hc_mode_label": "深色高對比度模式",
+            "dark_mode_label": "深色模式",
             "delete": "刪除",
             "delete_forever": "永久刪除",
             "discussions": "主題",
@@ -1097,8 +1097,8 @@
             "generic_confirmation_message": "您確定要繼續嗎？ 此操作無法撤銷。",
             "icon": "圖示",
             "icon_text": "輸入任意一個 <a>FontAwesome</a> 圖示名稱，<em>需要包含</em>前綴 ，例如 <code>fas fa-</code>。",
-            "invalid_login_message": "",
-            "light_hc_mode_label": "",
+            "invalid_login_message": "您的登錄信息不正確。",
+            "light_hc_mode_label": "淺色高對比度模式",
             "light_mode_label": "淺色模式",
             "load_more": "載入更多",
             "loading": "正在載入…",
@@ -1120,7 +1120,7 @@
             "remove": "移除",
             "rename": "重新命名",
             "reply": "回覆",
-            "refresh": "",
+            "refresh": "刷新",
             "reset_your_password": "重設密碼",
             "restore": "還原",
             "save_changes": "儲存更改",
