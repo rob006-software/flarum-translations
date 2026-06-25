@@ -3549,32 +3549,79 @@
             "admin": {
                 "list": {
                     "columns": {
-                        "created_by": "d41d8cd98f00b204e9800998ecf8427e f9616d0a66dee03214c2c77736a7b872",
+                        "activates_user": "d41d8cd98f00b204e9800998ecf8427e 9bf51db4e0cf437ee0e162b3964cfe80",
+                        "created_by": "d41d8cd98f00b204e9800998ecf8427e 6e646d9815c18417f46b42ed5bea8107",
+                        "group": "d41d8cd98f00b204e9800998ecf8427e 10c4225122bb08a7fd7e53dde2ade515",
                         "id": "d41d8cd98f00b204e9800998ecf8427e b718adec73e04ce3ec720dd11a06a308",
-                        "manage": "d41d8cd98f00b204e9800998ecf8427e cd34779b8ce0f7ab3158c00a3a5d6cc8",
-                        "uses": "d41d8cd98f00b204e9800998ecf8427e 2b0013db8eecc1833afe9383ac6095ac"
+                        "key": "d41d8cd98f00b204e9800998ecf8427e 2fae0739e8c2c76890a81035ed3c9f91",
+                        "manage": "d41d8cd98f00b204e9800998ecf8427e 6fdd7d3aa90e5786fa24fb6117f96669",
+                        "max_uses": "d41d8cd98f00b204e9800998ecf8427e 54280460a7d557883c727b4a3160df99",
+                        "uses": "d41d8cd98f00b204e9800998ecf8427e 770eee198c6e6f85e189466dcb8ba9b7"
                     },
                     "content": {
                         "delete": "d41d8cd98f00b204e9800998ecf8427e f7e171438349c2709d7dc7d3e186d3fa",
+                        "invalid_column": "d41d8cd98f00b204e9800998ecf8427e 521e0f913a38ec43477af4490bad4413",
                         "no_created_by": "d41d8cd98f00b204e9800998ecf8427e c611cee1dae85fb631f3ea7682d09ee4",
+                        "no_group": "d41d8cd98f00b204e9800998ecf8427e 8bb8bffc255feb67ac5260e2647c319d",
                         "uses": {
-                            "total_uses": "d41d8cd98f00b204e9800998ecf8427e d5a8ebdb1b81395650aae6aaecc11974"
+                            "total_uses": "d41d8cd98f00b204e9800998ecf8427e d5a8ebdb1b81395650aae6aaecc11974",
+                            "used_times": "d41d8cd98f00b204e9800998ecf8427e 2edfd1850edff18bd456e9650e1553fa"
                         },
                         "warning": "d41d8cd98f00b204e9800998ecf8427e d84425e5277b00b3f4aa71cc0f52fa67"
+                    },
+                    "pagination": {
+                        "back_button": "d41d8cd98f00b204e9800998ecf8427e e608b71b5f9ec36bb00da03318a24535",
+                        "first_page_button": "d41d8cd98f00b204e9800998ecf8427e c1c5d5419da5b4e5541abc45523cce3a",
+                        "go_to_page_textbox_a11y_label": "d41d8cd98f00b204e9800998ecf8427e 2a4e60258a978337f9e4e5c622d9211e",
+                        "last_page_button": "d41d8cd98f00b204e9800998ecf8427e c2924e194f6a9e81ed5f9d9458edba43",
+                        "next_button": "d41d8cd98f00b204e9800998ecf8427e b8a2539ec634da8b2415dfc0295aed20",
+                        "page_counter": "d41d8cd98f00b204e9800998ecf8427e a64ce21edf660abbe3809d747e9ef11f"
                     }
                 },
                 "modals": {
                     "create_doorkey": {
+                        "activates_user": {
+                            "help": "d41d8cd98f00b204e9800998ecf8427e 0094f2e59dcc73f52adf7c583f716c81",
+                            "label": "d41d8cd98f00b204e9800998ecf8427e 9bf51db4e0cf437ee0e162b3964cfe80"
+                        },
+                        "group": {
+                            "help": "d41d8cd98f00b204e9800998ecf8427e 4270f21ee3676d39706c7305c2d341b1",
+                            "label": "d41d8cd98f00b204e9800998ecf8427e 10c4225122bb08a7fd7e53dde2ade515"
+                        },
+                        "key": {
+                            "help": "d41d8cd98f00b204e9800998ecf8427e 214db212318fb62bacb43519350e587a",
+                            "label": "d41d8cd98f00b204e9800998ecf8427e 2fae0739e8c2c76890a81035ed3c9f91"
+                        },
+                        "max_uses": {
+                            "help": "d41d8cd98f00b204e9800998ecf8427e 6e5f3f619e40474fdf353a19e9bffd09",
+                            "label": "d41d8cd98f00b204e9800998ecf8427e 54280460a7d557883c727b4a3160df99"
+                        },
                         "submit_and_create_another_button": "d41d8cd98f00b204e9800998ecf8427e e8cf36d7fb65051c67b744cb8b9c062c",
                         "submit_button": "d41d8cd98f00b204e9800998ecf8427e 8f07f03541f695abbe911475ea0c16e4",
-                        "title": "d41d8cd98f00b204e9800998ecf8427e d1da699073ffae8813b107e4fd771466"
+                        "title": "d41d8cd98f00b204e9800998ecf8427e 91dccad0e2e3ddb98c3ba3f1e1f4d46f"
                     },
                     "edit_doorkey": {
+                        "activates_user": {
+                            "help": "d41d8cd98f00b204e9800998ecf8427e 0094f2e59dcc73f52adf7c583f716c81",
+                            "label": "d41d8cd98f00b204e9800998ecf8427e 9bf51db4e0cf437ee0e162b3964cfe80"
+                        },
+                        "group": {
+                            "help": "d41d8cd98f00b204e9800998ecf8427e 4270f21ee3676d39706c7305c2d341b1",
+                            "label": "d41d8cd98f00b204e9800998ecf8427e 10c4225122bb08a7fd7e53dde2ade515"
+                        },
+                        "key": {
+                            "help": "d41d8cd98f00b204e9800998ecf8427e 214db212318fb62bacb43519350e587a",
+                            "label": "d41d8cd98f00b204e9800998ecf8427e 2fae0739e8c2c76890a81035ed3c9f91"
+                        },
+                        "max_uses": {
+                            "help": "d41d8cd98f00b204e9800998ecf8427e 6e5f3f619e40474fdf353a19e9bffd09",
+                            "label": "d41d8cd98f00b204e9800998ecf8427e 54280460a7d557883c727b4a3160df99"
+                        },
                         "submit_button": "d41d8cd98f00b204e9800998ecf8427e 8d0818b8ddb95a3787ce7fd99696d060",
                         "title": "d41d8cd98f00b204e9800998ecf8427e 1b7c76788701e43b93c680058a77f303"
                     },
                     "send_invites": {
-                        "group": "d41d8cd98f00b204e9800998ecf8427e 404c66025927a7d52cde3137248d5e59",
+                        "group": "d41d8cd98f00b204e9800998ecf8427e 0821de607653cf250164cc61cc7b5e7e",
                         "help": "d41d8cd98f00b204e9800998ecf8427e cfca48fa256fbf50313f3f0202cf45df",
                         "invalid_emails": "d41d8cd98f00b204e9800998ecf8427e 8721b21364cd7e6b05e416a850ead0b4",
                         "max_use_conflict": "d41d8cd98f00b204e9800998ecf8427e a8c29c6dcfc3f00c6b930561a1ef9d9e",
@@ -3600,7 +3647,7 @@
                         },
                         "max_uses": {
                             "help": "d41d8cd98f00b204e9800998ecf8427e b77e75c1abd96abc62fbe38ddf39c694",
-                            "label": "d41d8cd98f00b204e9800998ecf8427e 0d913979ccc76a97badde57bdb4dffd2"
+                            "label": "d41d8cd98f00b204e9800998ecf8427e 8e849fbdc52cbb2d55879a88569586d9"
                         }
                     }
                 },
