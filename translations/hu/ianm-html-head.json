@@ -3,94 +3,94 @@
         "admin": {
             "create_button": "Létrehozás",
             "help": {
-                "intro": "",
-                "preconnect": "",
-                "cache": "",
-                "pages": "",
-                "location": ""
+                "intro": "Adjon hozzá egyéni címkéket, melyek be lesznek szúrva a fórum HTML-jébe. Az elemek gyorsítótárba kerülnek, és hatékonyan vannak kiszolgálva – nem igényel adatbázis-lekérdezést oldalbetöltéskor.",
+                "preconnect": "A külső eredetre mutató hivatkozás- és parancsfájlcímkék automatikusan preconnect és dns-prefetch tippeket kapnak, még azelőtt felmelegítve a kapcsolatot, hogy a böngészőnek szüksége lenne rá.",
+                "cache": "Az előállított HTML mentéskor gyorsítótárazásra kerül. A változtatások az oldal teljes gyorsítótárának törlése nélkül, azonnal életbe lépnek.",
+                "pages": "Minden elem a fórum felületét, az adminisztrátori panelt vagy mindkettőt célozhatja.",
+                "location": "Az elemek a fejlécbe, vagy a törzs végére szúrhatók be."
             },
             "table": {
-                "drag_handle": "",
+                "drag_handle": "Húzza az átrendezéshez",
                 "description_label": "Leírás",
-                "type_label": "",
-                "location_label": "",
-                "pages_label": "",
+                "type_label": "Típus",
+                "location_label": "Hely",
+                "pages_label": "Oldalak",
                 "active_label": "Aktív",
-                "empty_text": "Nincs bejegyzés",
+                "empty_text": "Még nincs elem. Kattintson a „Létrehozás” gombra az első fejlécelem létrehozásához.",
                 "delete_button": "Törlés",
                 "edit_button": "Szerkesztés",
-                "delete_confirm": "",
+                "delete_confirm": "Biztos, hogy törli ezt a tételt?",
                 "header_label": "Fejléc"
             },
             "modal": {
-                "create_title": "Új elem létrehozása",
-                "edit_title": "Elem szerkesztése",
+                "create_title": "Új fejlécelem létrehozása",
+                "edit_title": "Fejlécelem szerkesztése",
                 "description_label": "Leírás",
-                "description_help": "",
-                "type_label": "",
-                "location_label": "",
-                "location_help": "",
-                "pages_label": "",
+                "description_help": "Egy saját magának szóló címke – nem lesz beszúrva az oldalba.",
+                "type_label": "Típus",
+                "location_label": "Beszúrás ide:",
+                "location_help": "Fejléc: az oldal megjelenítése előtt töltődik be, leginkább stílusokhoz és kritikus metaadatokhoz ajánlott. Lábléc: az oldal tartalma után töltődik be, leginkább nem kritikus parancsfájlokhoz ajánlott.",
+                "pages_label": "Alkalmazás erre:",
                 "save_button": "Mentés",
                 "type": {
-                    "meta": "",
-                    "link": "",
-                    "script": "",
-                    "style": "",
-                    "raw": ""
+                    "meta": "Meta címke",
+                    "link": "Hivatkozás",
+                    "script": "Parancsfájl",
+                    "style": "Stílus",
+                    "raw": "Nyers HTML"
                 },
                 "location": {
-                    "head": "",
-                    "foot": ""
+                    "head": "Fejléc",
+                    "foot": "Lábléc"
                 },
                 "pages": {
-                    "forum": "",
-                    "admin": ""
+                    "forum": "Fórum",
+                    "admin": "Adminisztrátori panel"
                 },
                 "meta": {
-                    "variant_label": "",
-                    "name_label": "",
-                    "property_label": "",
-                    "content_label": ""
+                    "variant_label": "Változat",
+                    "name_label": "name=\"\"",
+                    "property_label": "property=\"\" (Open Graph)",
+                    "content_label": "Tartalom"
                 },
                 "link": {
-                    "rel_label": "",
-                    "href_label": "",
-                    "as_label": "",
-                    "as_help": "",
-                    "crossorigin_label": "",
-                    "crossorigin_help": "",
-                    "fetchpriority_label": "",
-                    "fetchpriority_default": "",
-                    "fetchpriority_help": "",
-                    "extras_label": "",
-                    "extras_add": "",
-                    "extras_remove": ""
+                    "rel_label": "rel=\"\"",
+                    "href_label": "href=\"\" (webcím)",
+                    "as_label": "as=\"\"",
+                    "as_help": "Megadja a böngészőnek, hogy milyen típusú erőforrás előtöltése folyik, így a böngésző beállíthatja a megfelelő kérésfejléceket. A rel=preload használatához szükséges.",
+                    "crossorigin_label": "crossorigin=\"anonymous\" hozzáadása",
+                    "crossorigin_help": "A más domainból betöltött betűkészletek és parancsfájlokhoz szükséges, így a böngésző megoszthatja a kapcsolatot. Akkor engedélyezze, ha az erőforrás más eredetű.",
+                    "fetchpriority_label": "fetchpriority=\"\"",
+                    "fetchpriority_default": "böngésző alapértelmezése",
+                    "fetchpriority_help": "Tipp a böngésző számára az erőforrás relatív fontosságáról. Magas: korai betöltés (például kiemelt kép vagy kritikus stíluslap). Alacsony: későbbi betöltés (például legörgetéskor megjelenő erőforrás). Hagyja üresen, hogy a böngésző döntse el.",
+                    "extras_label": "További attribútumok",
+                    "extras_add": "Attribútum hozzáadása",
+                    "extras_remove": "Eltávolítás"
                 },
                 "script": {
-                    "external_label": "",
-                    "inline_label": "",
-                    "src_label": "",
-                    "inline_content_label": "",
-                    "defer_label": "",
-                    "defer_help": "",
-                    "async_label": "",
-                    "async_help": "",
-                    "module_label": "",
-                    "module_help": "",
-                    "crossorigin_label": "",
-                    "crossorigin_help": ""
+                    "external_label": "Külső (src)",
+                    "inline_label": "Beágyazott",
+                    "src_label": "src=\"\" (webcím)",
+                    "inline_content_label": "Parancsfájltartalom",
+                    "defer_label": "defer",
+                    "defer_help": "A parancsfájl az oldal értelmezése után fut, a megjelenítés blokkolása nélkül. A legtöbb parancsfájlhoz megfelelő.",
+                    "async_label": "async",
+                    "async_help": "A parancsfájl a letöltése után azonnal fut, soron kívül. A független parancsfájlokhoz a legjobb, mint az analitika.",
+                    "module_label": "type=\"module\"",
+                    "module_help": "Akkor kapcsolja be, ha a parancsfájl szolgáltatójának dokumentáció azt mondja, hogy használjon type=\"module\" attribútumot. A modulok az oldal után töltődnek be, annak blokkolása nélkül.",
+                    "crossorigin_label": "crossorigin=\"anonymous\"",
+                    "crossorigin_help": "A CORS-hozzáférést igénylő, más domainból betöltött parancsfájlok betöltéséhez szükséges."
                 },
                 "style": {
-                    "inline_label": "",
-                    "inline_help": ""
+                    "inline_label": "CSS-tartalom",
+                    "inline_help": "Az elem által célzott összes oldalra globálisan lesz alkalmazva. A szabályok legyenek kellően specifikusak, hogy elkerülje a nem kívánt mellékhatásokat."
                 },
                 "raw": {
-                    "content_label": "",
-                    "help_text": ""
+                    "content_label": "HTML",
+                    "help_text": "Adjon meg nyers HTML-t. Az itt lévő bármely, különböző eredetű hivatkozás- vagy parancsfájlcímkére automatikusan elő lesznek állítva a preconnect tippek. A rendezés és az aktív kapcsoló a szokásos módon működik, de a típusfüggő funkciók (fetchpriority, defer stb.) nem állnak rendelkezésre — ha ezekre van szüksége, használja a strukturált típust."
                 },
-                "preview_label": "",
-                "preview_empty": "",
+                "preview_label": "Előnézet",
+                "preview_empty": "Az előnézet megtekintéséhez töltse ki a fenti mezőket.",
                 "text": "Győződjön meg róla, hogy a szintaxis helyes, mivel meghibásodhat a fórum, ha helytelen adatokat ad meg a fejlécelemben. Ha elmentette, engedélyezze az új fejlécelemet a megadott kapcsolóval.",
                 "header_label": "Egyéni fejlécelem"
             }
