@@ -74,6 +74,20 @@
     "core.json": {
         "core": {
             "admin": {
+                "announcements": {
+                    "about": "d41d8cd98f00b204e9800998ecf8427e 2156c2293a08f4717837f2ebb6113815",
+                    "comments_label": "d41d8cd98f00b204e9800998ecf8427e d1a1f749e4b3eca58996aade092ba31d",
+                    "description": "d41d8cd98f00b204e9800998ecf8427e 81ab862b528a37a59a9a685eac01c53d",
+                    "empty": "d41d8cd98f00b204e9800998ecf8427e 81f7762478e81732cb358b909aeff98d",
+                    "hide": "d41d8cd98f00b204e9800998ecf8427e bb74910aef16d6e74ca9be75cff54475",
+                    "load_error": "d41d8cd98f00b204e9800998ecf8427e e1cc6cc0033986f89999a4335f8bf2eb",
+                    "read_more": "d41d8cd98f00b204e9800998ecf8427e 905c1a8e7382e8ad997883668a110eb3",
+                    "refresh": "d41d8cd98f00b204e9800998ecf8427e d518d3dbe6f2bafd2bb1d721caa0d517",
+                    "retry": "d41d8cd98f00b204e9800998ecf8427e 3d2b6505a6d8824eb184a6592638f265",
+                    "show": "d41d8cd98f00b204e9800998ecf8427e 4ac4eb064267343f70ab3f195acf222c",
+                    "title": "d41d8cd98f00b204e9800998ecf8427e fa86f1a57d6f758a93cb33b59c015654",
+                    "view_all": "d41d8cd98f00b204e9800998ecf8427e 2a3d6a45384e721701c3a8a28508518a"
+                },
                 "appearance": {
                     "colored_header_label": "36246f70f2a2f43a96b599d4f47a2713 36246f70f2a2f43a96b599d4f47a2713",
                     "colors_heading": "e47c7d0de21277f59b7a9b17fb776792 e47c7d0de21277f59b7a9b17fb776792",
@@ -99,6 +113,12 @@
                     "title": "6a7e4d3f2f4a5844d8f5168c371efc83 6a7e4d3f2f4a5844d8f5168c371efc83"
                 },
                 "basics": {
+                    "abandoned_extensions_heading": "d41d8cd98f00b204e9800998ecf8427e 744b48b80191209ee44e12e73fa38108",
+                    "abandoned_extensions_notify_admins_label": "d41d8cd98f00b204e9800998ecf8427e fb16b676cd772bc9f348e2f72c85963b",
+                    "abandoned_extensions_sync_button": "d41d8cd98f00b204e9800998ecf8427e 3ab47b27e65fc45fca642fdd3d63c288",
+                    "abandoned_extensions_sync_error": "d41d8cd98f00b204e9800998ecf8427e c08dc94a95d1118621d19a6fdfc00d0e",
+                    "abandoned_extensions_sync_success": "d41d8cd98f00b204e9800998ecf8427e 1f96b030940e80ac3f80a25e47d1277b",
+                    "abandoned_extensions_text": "d41d8cd98f00b204e9800998ecf8427e 3277434ed9959b7a5bd1493b18a619b1",
                     "all_discussions_label": "54d2bc1c28875bdc4ccc548f48a1895c 54d2bc1c28875bdc4ccc548f48a1895c",
                     "default_language_heading": "d24945235433fcc781a77f3bc7b13da5 d24945235433fcc781a77f3bc7b13da5",
                     "description": "fdd211f69eb66234d6ee48f3354c7cf3 fdd211f69eb66234d6ee48f3354c7cf3",
@@ -254,6 +274,7 @@
                         "discussion": "3200853f66f6c2be8201b7b70ced12a2 3200853f66f6c2be8201b7b70ced12a2",
                         "feature": "997c7a5d34f6fc628893f509d0df32e0 997c7a5d34f6fc628893f509d0df32e0",
                         "formatting": "b70b53b89a67dbf9d75ede6d96e306fc b70b53b89a67dbf9d75ede6d96e306fc",
+                        "forum-widget": "d41d8cd98f00b204e9800998ecf8427e 03b67664f82fdff1810c77a8389b462c",
                         "language": "0ae2deb61aaa5620989898b584c16d2b 0ae2deb61aaa5620989898b584c16d2b",
                         "moderation": "a8f651df2b4e38916ac1ce9489d2c439 a8f651df2b4e38916ac1ce9489d2c439",
                         "other": "0d98c74797e49d00bcc4c17c9d557a2b 0d98c74797e49d00bcc4c17c9d557a2b",
@@ -786,6 +807,7 @@
                     "csrf_token_mismatch": "85c81cf87805cae4cf92fc70a77d053c 85c81cf87805cae4cf92fc70a77d053c",
                     "csrf_token_mismatch_return_link": "177ed529643f683bda106d68d809e394 177ed529643f683bda106d68d809e394",
                     "invalid_confirmation_token": "6f44b6ca15530a104d9c42fb0e4b1dab 6f44b6ca15530a104d9c42fb0e4b1dab",
+                    "method_not_allowed": "d41d8cd98f00b204e9800998ecf8427e c673e5ac6fc14e89681aac276d5be49f",
                     "not_authenticated": "0a7192aec610883205c56a7c700acbec 0a7192aec610883205c56a7c700acbec",
                     "not_found": "da02ee7a390069b616958bca4cbe2b26 da02ee7a390069b616958bca4cbe2b26",
                     "not_found_return_link": "5416483e1507b8419f155bc64ffc1f97 5416483e1507b8419f155bc64ffc1f97",
