@@ -2,7 +2,7 @@
     "shebaoting-money": {
         "admin": {
             "settings": {
-                "title": "",
+                "title": "Cài đặt",
                 "moneyforpost_label": "",
                 "moneyforpost_help": "",
                 "moneyforpost_type": "",
@@ -18,64 +18,64 @@
                 "deduct": "",
                 "feedback": "",
                 "no_feedback": "",
-                "initialmoney": "",
-                "moneyforpost": "",
-                "moneyfordiscussion": "",
-                "moneyname": "",
-                "postminimumlength": "",
-                "noshowzero": "",
-                "autoremove": "",
-                "moneyforlike": "",
-                "helpextensionlikes": "",
+                "initialmoney": "Tiền ban đầu cho người dùng mới",
+                "moneyforpost": "Tiền được tặng cho bài viết mới",
+                "moneyfordiscussion": "Tiền được tặng cho thảo luận mới",
+                "moneyname": "Tên của tiền (ví dụ: [money] điểm)",
+                "postminimumlength": "Độ dài tối thiểu của bài viết để nhận tiền (0 để tắt)",
+                "noshowzero": "Không hiển thị nếu giá trị bằng không",
+                "autoremove": "Tự động cập nhật tiền",
+                "moneyforlike": "Tiền được tặng khi một bài viết được thích",
+                "helpextensionlikes": "Yêu cầu tiện ích mở rộng <code>flarum/likes</code>",
                 "initialmoney_help": "",
                 "level_names": "",
                 "level_names_help": "",
                 "money_scale": "",
                 "money_scale_help": "",
                 "extra_char_threshold_label": "",
-                "extra_char_threshold_help": "",
+                "extra_char_threshold_help": "Số ký tự tối thiểu trước khi áp dụng điểm thưởng.",
                 "extra_char_increment_label": "",
-                "extra_char_increment_help": "",
+                "extra_char_increment_help": "Mỗi X ký tự vượt quá ngưỡng sẽ kích hoạt thay đổi điểm.",
                 "extra_char_points_label": "",
-                "extra_char_points_help": ""
+                "extra_char_points_help": "Số điểm để thêm hoặc trừ cho mỗi lần tăng."
             },
             "permissions": {
-                "edit_money_label": ""
+                "edit_money_label": "Chỉnh sửa tiền"
             },
             "autoremove": [
-                "",
-                "",
-                ""
+                "Không bao giờ xóa tiền",
+                "Khi thảo luận/bài viết bị ẩn hoặc khôi phục (mặc định)",
+                "Khi thảo luận/bài viết bị xóa"
             ],
             "automoderator": {
-                "metric_name": "",
-                "action_name": ""
+                "metric_name": "Tiền",
+                "action_name": "Tặng tiền"
             }
         },
         "forum": {
             "user_controls": {
-                "money_button": ""
+                "money_button": "Chỉnh sửa tiền"
             },
             "errors": {
                 "not_enough_money": "",
                 "no_money_logs": ""
             },
             "modal": {
-                "title": "",
-                "current": "",
-                "submit_button": ""
+                "title": "Tiền của {username}",
+                "current": "Hiện tại:",
+                "submit_button": "=> core.ref.save_changes"
             },
-            "log_time": "",
-            "log_type": "",
-            "log_amount": "",
-            "log_balance": "",
-            "log_description": "",
-            "log_type_deposit": "",
-            "log_type_withdrawal": "",
-            "log_type_transfer": "",
-            "log_type_reward": "",
-            "no_money_logs": "",
-            "load_more": "",
+            "log_time": "Thời gian",
+            "log_type": "Loại",
+            "log_amount": "Số tiền",
+            "log_balance": "Số dư",
+            "log_description": "Mô tả",
+            "log_type_deposit": "Nạp tiền",
+            "log_type_withdrawal": "Rút tiền",
+            "log_type_transfer": "Chuyển khoản",
+            "log_type_reward": "Thưởng",
+            "no_money_logs": "Không có nhật ký tiền tệ",
+            "load_more": "Tải thêm",
             "logs_description": {
                 "created_discussion": "",
                 "created_reply": "",
@@ -84,8 +84,8 @@
                 "liked_by": "",
                 "unliked_post": "",
                 "unliked_by": "",
-                "initial_registration": "",
-                "admin_updated": "",
+                "initial_registration": "Nhận điểm ban đầu khi đăng ký.",
+                "admin_updated": "Quản trị viên đã cập nhật điểm, thay đổi {amount}.",
                 "discussion_started": "",
                 "discussion_restored": "",
                 "discussion_hidden": "",
@@ -95,40 +95,40 @@
                 "post_restored": "",
                 "post_hidden": "",
                 "post_deleted": "",
-                "extra_characters": "",
+                "extra_characters": "Nội dung vượt quá ngưỡng thêm {extra_chars} ký tự, {points} điểm đã được {action}.",
                 "action_rewarded": "",
                 "action_deducted": "",
-                "no_permission": ""
+                "no_permission": "Bạn không có quyền xem lịch sử điểm của người khác."
             },
             "logs_type": {
-                "discussion_started": "",
-                "post_created": "",
-                "post_restored": "",
-                "post_hidden": "",
-                "post_deleted": "",
-                "discussion_restored": "",
-                "discussion_hidden": "",
-                "discussion_deleted": "",
-                "liked": "",
-                "liked_by_others": "",
-                "admin_updated": "",
-                "registration": "",
-                "discussion_replied": ""
+                "discussion_started": "Bắt đầu thảo luận",
+                "post_created": "Tạo bài viết",
+                "post_restored": "Khôi phục bài viết",
+                "post_hidden": "Ẩn bài viết",
+                "post_deleted": "Xóa bài viết",
+                "discussion_restored": "Khôi phục thảo luận",
+                "discussion_hidden": "Ẩn thảo luận",
+                "discussion_deleted": "Xóa thảo luận",
+                "liked": "Thích bài viết",
+                "liked_by_others": "Bài viết được người dùng khác thích",
+                "admin_updated": "Quản trị viên cập nhật",
+                "registration": "Thưởng đăng ký",
+                "discussion_replied": "Trả lời trong thảo luận"
             },
             "point_log": {
-                "title": "",
-                "link": "",
-                "empty_text": "",
+                "title": "Lịch sử thay đổi điểm",
+                "link": "Lịch sử điểm",
+                "empty_text": "Không tìm thấy bản ghi thay đổi điểm nào.",
                 "table": {
                     "headers": {
-                        "date": "",
-                        "amount": "",
-                        "balance": "",
-                        "reason": ""
+                        "date": "Ngày",
+                        "amount": "Số điểm",
+                        "balance": "Số dư",
+                        "reason": "Lý do"
                     }
                 },
-                "load_more": "",
-                "no_permission": ""
+                "load_more": "Tải thêm",
+                "no_permission": "Bạn không có quyền xem lịch sử điểm của người khác."
             }
         }
     }

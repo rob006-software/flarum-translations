@@ -1,88 +1,88 @@
 {
     "shebaoting-dependency-collector": {
         "forum": {
-            "nav_title": "",
+            "nav_title": "Sõltuvused",
             "list": {
-                "submit_button": "",
+                "submit_button": "Sisesta sõltuvus",
                 "filter_by_tag": "",
                 "all_tags": "",
-                "empty_text": "",
-                "my_favorites_button": "",
+                "empty_text": "Ühtegi sõltuvust ei leitud.",
+                "my_favorites_button": "Minu lemmikud",
                 "search_placeholder": ""
             },
             "item": {
-                "pending_approval": "",
-                "delete_button_label": "",
-                "delete_confirmation_title": "",
-                "delete_confirmation_text": "",
-                "favorite_button_label": "",
-                "unfavorite_button_label": "",
+                "pending_approval": "Ootab heakskiitu",
+                "delete_button_label": "Kustuta",
+                "delete_confirmation_title": "Kustuta sõltuvus",
+                "delete_confirmation_text": "Oled sa kindel, et soovid sõltuvuse kustutada? Seda tegevust ei saa tagasi võtta.",
+                "favorite_button_label": "Lemmik",
+                "unfavorite_button_label": "Eemalda lemmikutest",
                 "approve_button": "",
                 "unapprove_button": ""
             },
             "modal": {
-                "submit_title": "",
+                "submit_title": "Sisesta uus sõltuvus",
                 "edit_title": "",
-                "title_label": "",
-                "title_placeholder": "",
-                "link_label": "",
-                "description_label": "",
-                "description_placeholder": "",
+                "title_label": "Pealkiri",
+                "title_placeholder": "nt. Awesome Library",
+                "link_label": "Link",
+                "description_label": "Kirjeldus",
+                "description_placeholder": "Lühike kirjeldus selle kohta, mida see sõltuvus teeb.",
                 "tags_label": "",
                 "tags_help": "",
-                "submit_button": "",
+                "submit_button": "OK",
                 "save_changes_button": "",
                 "no_tags_available": ""
             }
         },
         "admin": {
             "nav": {
-                "title": "",
+                "title": "Sõltuvuste kollekteerija",
                 "description": ""
             },
             "page": {
-                "pending_items_title": "",
-                "no_pending_items": "",
-                "approved_items_title": "",
-                "no_approved_items": "",
+                "pending_items_title": "Ootel sõltuvused, mis ootavad ülevaatamist",
+                "no_pending_items": "Pole ühtegi sõltuvust, mis ootaksid ülevaatamist.",
+                "approved_items_title": "Heakskiidetud sõltuvused",
+                "no_approved_items": "Praegu pole veel ühtegi heakskiidetud sõltuvust.",
                 "manage_tags_title": "",
                 "no_plugin_tags": ""
             },
             "table": {
-                "title": "",
-                "submitted_by": "",
-                "submitted_at": "",
-                "approved_by": "",
-                "approved_at": "",
+                "title": "Pealkiri",
+                "submitted_by": "Lisas",
+                "submitted_at": "Lisatud",
+                "approved_by": "Heaks kiitis",
+                "approved_at": "Kiideti heaks",
                 "tags": "",
                 "tag_name": "",
-                "tag_slug": "",
-                "tag_color_icon": "",
-                "tag_item_count": "",
-                "actions": "",
-                "tag_color": "",
-                "tag_icon": ""
+                "tag_slug": "Lühinimi",
+                "tag_color_icon": "Värv ja ikoon",
+                "tag_item_count": "Kirjed",
+                "actions": "Tegevused",
+                "tag_color": "Värv",
+                "tag_icon": "Ikoon"
             },
             "actions": {
                 "create_tag": "",
-                "approve": "",
-                "reject": ""
+                "approve": "Kiida heaks",
+                "reject": "Lükka tagasi"
             },
             "confirm": {
-                "approve": "",
-                "reject": "",
-                "delete": "",
+                "approve": "Kiida sõltuvus heaks",
+                "reject": "Lükka sõltuvus tagasi",
+                "delete": "Kustuta sõltuvus",
                 "delete_tag": ""
             },
             "modal": {
                 "edit_tag_title": "",
                 "create_tag_title": "",
-                "tag_name_label": "",
-                "tag_slug_label": "",
-                "tag_description_label": "",
-                "tag_color_label": "",
-                "tag_icon_label": "",
-                "tag_icon_help": "",
+                "tag_name_label": "Nimi",
+                "tag_slug_label": "Lühinimi",
+                "tag_description_label": "Kirjeldus (valikuline)",
+                "tag_color_label": "Värv (nt.,",
+                "tag_icon_label": "Ikoon (nt., fas fa-code)",
+                "tag_icon_help": "Otsi <a>Font Awesome</a> ikoone.",
                 "save_button": "",
                 "icon_options": {
                     "code": "",
@@ -105,11 +105,11 @@
                 }
             },
             "permissions": {
-                "submit_label": "",
-                "moderate_label": "",
+                "submit_label": "Lisa sõltuvusi",
+                "moderate_label": "Halda sõltuvusi (kiida heaks, lükka tagasi, muuda, kustuta)",
                 "manage_tags_label": "",
-                "delete_label": "",
-                "favorite_items_label": ""
+                "delete_label": "Kustuta sõltuvusi",
+                "favorite_items_label": "Lemmiksõltuvused"
             }
         }
     }
