@@ -2,166 +2,166 @@
     "flarum-audit": {
         "admin": {
             "permissions": {
-                "view": "",
-                "viewLimited": ""
+                "view": "檢視稽核日誌",
+                "viewLimited": "檢視受限稽核日誌"
             },
             "header": {
-                "title": ""
+                "title": "稽核"
             },
             "limitedSettings": {
-                "configure": "",
-                "title": "",
-                "introduction": "",
-                "requiresExtension": ""
+                "configure": "設定",
+                "title": "受限稽核設定",
+                "introduction": "指定哪些資料可供使用者於受限稽核中檢視",
+                "requiresExtension": "需要安裝擴充套件 {extension}"
             },
             "settings": {
-                "limitedIpAddress": ""
+                "limitedIpAddress": "允許檢視 IP 位址"
             }
         },
         "forum": {
             "link": {
-                "all-audit": "",
-                "discussion-audit": "",
-                "user-audit": "",
-                "actor-audit": ""
+                "all-audit": "稽核日誌",
+                "discussion-audit": "討論稽核",
+                "user-audit": "帳號變更",
+                "actor-audit": "使用者操作紀錄"
             },
             "modal": {
-                "all-title": "",
-                "discussion-title": "",
-                "user-title": "",
-                "actor-title": ""
+                "all-title": "稽核日誌",
+                "discussion-title": "討論稽核",
+                "user-title": "帳號稽核",
+                "actor-title": "使用者操作紀錄"
             }
         },
         "lib": {
             "browser": {
-                "filterPlaceholder": "",
-                "filterApply": "",
-                "filterClear": "",
-                "refresh": "",
-                "filtersHint": "",
+                "filterPlaceholder": "篩選日誌",
+                "filterApply": "套用",
+                "filterClear": "清除篩選",
+                "refresh": "重新整理",
+                "filtersHint": "篩選條件：",
                 "filters": {
-                    "actor": "",
-                    "user": "",
-                    "action": "",
-                    "client": "",
-                    "ip": "",
-                    "discussion": ""
+                    "actor": "執行操作的使用者。可使用 actor:guest 搜尋系統或未登入使用者的操作。",
+                    "user": "受到此操作影響的使用者。",
+                    "action": "操作類型，例如：action:post.created。",
+                    "client": "提出請求的用戶端。",
+                    "ip": "執行操作的 IP 位址。",
+                    "discussion": "指定討論中的操作。"
                 },
                 "help": {
-                    "toggle": "",
-                    "multiple": "",
-                    "negate": ""
+                    "toggle": "搜尋語法說明",
+                    "multiple": "可使用逗號分隔多個值以符合任一條件，例如：action:post.created,post.deleted",
+                    "negate": "在篩選器前加上減號即可排除，例如：-client:cli"
                 },
-                "empty": "",
-                "loadMore": "",
-                "withoutActor": "",
+                "empty": "沒有符合的紀錄",
+                "loadMore": "載入更多",
+                "withoutActor": "=> core.group.guest",
                 "deletedResource": {
-                    "discussion": "",
-                    "group": "",
-                    "post": "",
-                    "tag": "",
-                    "user": ""
+                    "discussion": "討論 #{id}",
+                    "group": "群組 #{id}",
+                    "post": "貼文 #{id}",
+                    "tag": "標籤 #{id}",
+                    "user": "使用者 #{id}"
                 },
                 "genericResource": {
-                    "comment": "",
-                    "post": ""
+                    "comment": "貼文",
+                    "post": "貼文"
                 },
                 "permissionGroup": {
-                    "everyone": "",
-                    "members": ""
+                    "everyone": "=> core.admin.permissions_controls.everyone_button",
+                    "members": "=> core.admin.permissions_controls.members_button"
                 },
-                "noValue": "",
-                "noReason": "",
-                "core": "",
+                "noValue": "（無）",
+                "noReason": "（未提供原因）",
+                "core": "核心",
                 "client": {
-                    "session": "",
-                    "api_key": "",
-                    "access_token": "",
-                    "cli": "",
-                    "unknown": ""
+                    "session": "工作階段",
+                    "api_key": "API 金鑰",
+                    "access_token": "存取權杖",
+                    "cli": "命令列",
+                    "unknown": "未知用戶端"
                 },
                 "controls": {
-                    "title": "",
-                    "hideRaw": "",
-                    "showRaw": "",
-                    "filterActor": "",
-                    "filterIp": "",
-                    "filterClient": "",
-                    "filterAction": "",
-                    "filterUser": "",
-                    "filterDiscussion": ""
+                    "title": "操作",
+                    "hideRaw": "隱藏原始日誌",
+                    "showRaw": "顯示原始日誌",
+                    "filterActor": "篩選此使用者的操作",
+                    "filterIp": "篩選此 IP 位址的操作",
+                    "filterClient": "篩選此用戶端的操作",
+                    "filterAction": "篩選相同類型的操作",
+                    "filterUser": "篩選此使用者相關操作",
+                    "filterDiscussion": "篩選此討論中的操作"
                 },
-                "audit_log_cleared": "",
-                "cache_cleared": "",
-                "developer_token_created": "",
+                "audit_log_cleared": "已刪除 {deleted_count} 筆稽核日誌",
+                "cache_cleared": "已手動清除快取",
+                "developer_token_created": "已為 {username} 建立開發人員存取權杖「{title}」",
                 "discussion": {
-                    "created": "",
-                    "create_date_changed": "",
-                    "deleted": "",
-                    "hidden": "",
-                    "merged_away": "",
-                    "merged_into": "",
-                    "renamed": "",
-                    "restored": "",
-                    "split_away": "",
-                    "split_into": "",
-                    "user_changed": ""
+                    "created": "建立討論 {discussion}",
+                    "create_date_changed": "討論 {discussion} 的建立時間已由 {old_date} 變更為 {new_date}",
+                    "deleted": "刪除討論 {discussion}",
+                    "hidden": "隱藏討論 {discussion}",
+                    "merged_away": "討論 {discussion} 已合併至 {new_discussion}",
+                    "merged_into": "已將 {original_discussion_ids_count} 個討論中的 {post_count} 篇貼文合併至 {discussion}",
+                    "renamed": "討論標題由 {old_title} 變更為 {new_title}",
+                    "restored": "還原討論 {discussion}",
+                    "split_away": "已從討論 {discussion} 分割 {post_count} 篇貼文至 {new_discussion}",
+                    "split_into": "已將 {post_count} 篇貼文移至討論 {discussion}",
+                    "user_changed": "討論 {discussion} 的作者已由 {old_user} 變更為 {new_user}"
                 },
                 "extension": {
-                    "disabled": "",
-                    "enabled": "",
-                    "uninstalled": ""
+                    "disabled": "已停用擴充套件 {package}",
+                    "enabled": "已啟用擴充套件 {package}",
+                    "uninstalled": "已解除安裝擴充套件 {package}"
                 },
                 "fof_ban_ips": {
-                    "banned": "",
-                    "unbanned": ""
+                    "banned": "已封鎖 IP 位址 {ip}",
+                    "unbanned": "已解除封鎖 IP 位址 {ip}"
                 },
                 "group": {
-                    "created": "",
-                    "deleted": "",
-                    "renamed": ""
+                    "created": "建立群組 {name}",
+                    "deleted": "刪除群組 {name}",
+                    "renamed": "群組名稱由 {old_name} 變更為 {new_name}"
                 },
-                "permission_changed": "",
+                "permission_changed": "權限 {permission} 已由 {old_groups} 變更為 {new_groups}",
                 "post": {
-                    "created": "",
-                    "create_date_changed": "",
-                    "deleted": "",
-                    "edit_date_changed": "",
-                    "hidden": "",
-                    "restored": "",
-                    "revised": "",
-                    "user_changed": ""
+                    "created": "於討論 {discussion} 發表 {post}",
+                    "create_date_changed": "{postuser} 的 {post} 建立時間已由 {old_date} 變更為 {new_date}",
+                    "deleted": "刪除 {postuser} 於討論 {discussion} 的 {post}",
+                    "edit_date_changed": "{postuser} 的 {post} 編輯時間已由 {old_date} 變更為 {new_date}",
+                    "hidden": "隱藏 {postuser} 於討論 {discussion} 的 {post}",
+                    "restored": "還原 {postuser} 於討論 {discussion} 的 {post}",
+                    "revised": "修改 {postuser} 於討論 {discussion} 的 {post}",
+                    "user_changed": "貼文 {post} 的作者已由 {old_user} 變更為 {new_user}"
                 },
-                "setting_changed": "",
-                "setting_changed_with_values": "",
-                "settings_reset": "",
+                "setting_changed": "設定 {key} 已變更",
+                "setting_changed_with_values": "設定 {key} 已由 {old_value} 變更為 {new_value}",
+                "settings_reset": "已重設 {extension} 的設定：{keys}",
                 "user": {
-                    "activated": "",
-                    "activated_with_email": "",
-                    "avatar_changed": "",
-                    "avatar_removed": "",
-                    "bio_changed": "",
-                    "created": "",
-                    "deleted": "",
-                    "email_changed": "",
-                    "email_change_requested": "",
-                    "groups_changed": "",
-                    "impersonated": "",
-                    "logged_in": "",
-                    "logged_in_with_provider": "",
-                    "logged_out": "",
-                    "nickname_requested": "",
-                    "nickname_request_approved": "",
-                    "nickname_request_rejected": "",
-                    "password_changed": "",
-                    "password_change_requested": "",
-                    "password_reset_attempted": "",
-                    "password_reset_attempted_unmatched": "",
-                    "provider_connected": "",
-                    "username_changed": "",
-                    "username_requested": "",
-                    "username_request_approved": "",
-                    "username_request_rejected": ""
+                    "activated": "已手動啟用帳號 {username}",
+                    "activated_with_email": "已透過電子郵件驗證啟用帳號 {username}",
+                    "avatar_changed": "已變更 {username} 的頭像",
+                    "avatar_removed": "已移除 {username} 的頭像",
+                    "bio_changed": "已變更 {username} 的個人簡介",
+                    "created": "建立帳號 {username}",
+                    "deleted": "刪除使用者 {username}",
+                    "email_changed": "{username} 的電子郵件已由 {old_email} 變更為 {new_email}",
+                    "email_change_requested": "{username} 已申請將電子郵件變更為 {new_email}",
+                    "groups_changed": "{username} 的群組已由 {old_groups} 變更為 {new_groups}",
+                    "impersonated": "以 {username} 身分登入",
+                    "logged_in": "{username} 已登入",
+                    "logged_in_with_provider": "{username} 已透過 {provider} 登入",
+                    "logged_out": "{username} 已登出",
+                    "nickname_requested": "{username} 已申請新的暱稱 {new_nickname}",
+                    "nickname_request_approved": "已核准 {username} 的暱稱變更：{old_nickname} → {new_nickname}",
+                    "nickname_request_rejected": "已拒絕 {username} 的暱稱變更申請",
+                    "password_changed": "{username} 已變更密碼",
+                    "password_change_requested": "{username} 已申請變更密碼",
+                    "password_reset_attempted": "{username} 已申請重設密碼",
+                    "password_reset_attempted_unmatched": "收到 {email} 的密碼重設申請，但找不到對應帳號",
+                    "provider_connected": "已將 {provider} 綁定至 {username} 的帳號",
+                    "username_changed": "{username} 已由 {old_username} 變更為 {new_username}",
+                    "username_requested": "{username} 已申請新的使用者名稱 {new_username}",
+                    "username_request_approved": "已核准使用者名稱變更：{old_username} → {new_username}",
+                    "username_request_rejected": "已拒絕使用者名稱變更申請"
                 }
             }
         }
