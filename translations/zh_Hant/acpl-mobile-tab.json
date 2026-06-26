@@ -1,42 +1,42 @@
 {
     "acpl-mobile-tab": {
         "admin": {
-            "available_items": "",
-            "active_items": "",
-            "create_new_item_button": "",
+            "available_items": "可用項目",
+            "active_items": "已啟用項目",
+            "create_new_item_button": "建立新項目",
             "edit_item": {
-                "modal_title": "",
-                "label": "",
-                "label_placeholder": "",
-                "path": "",
-                "url": "",
-                "icon": "",
-                "icon_help": "",
-                "is_internal_checkbox": "",
-                "open_new_tab_checkbox": "",
-                "submit_button": "",
-                "delete_button": "",
-                "delete_item_confirmation": ""
+                "modal_title": "編輯項目",
+                "label": "標籤",
+                "label_placeholder": "我的自訂項目",
+                "path": "路徑",
+                "url": "網址",
+                "icon": "圖示",
+                "icon_help": "輸入任何 <a>FontAwesome</a> 圖示類別名稱，包含 <code>fas fa-</code> 前綴。",
+                "is_internal_checkbox": "是否為內部連結？",
+                "open_new_tab_checkbox": "於新分頁開啟連結",
+                "submit_button": "儲存",
+                "delete_button": "刪除",
+                "delete_item_confirmation": "您確定要刪除此項目嗎？"
             },
             "scroll_settings": {
-                "toggle_label": "",
-                "threshold_label": "",
-                "threshold_help": ""
+                "toggle_label": "捲動時切換顯示狀態",
+                "threshold_label": "捲動閾值 (px)",
+                "threshold_help": "從目前位置捲動超過此距離後，將切換顯示狀態。"
             }
         },
         "lib": {
             "item": {
-                "home": "",
-                "all_discussions": "",
-                "new_discussion": "",
-                "notifications": "",
-                "session": "",
-                "search": "",
-                "log_in": "",
-                "profile": "",
-                "tags": "",
-                "messages": "",
-                "fof-byobu": ""
+                "home": "首頁",
+                "all_discussions": "所有討論",
+                "new_discussion": "新的討論",
+                "notifications": "通知",
+                "session": "帳戶",
+                "search": "搜尋",
+                "log_in": "登入",
+                "profile": "個人資料",
+                "tags": "標籤",
+                "messages": "訊息",
+                "fof-byobu": "私人討論"
             }
         }
     }
