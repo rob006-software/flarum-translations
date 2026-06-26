@@ -746,6 +746,12 @@ return [
 			'pl',
 		],
 	],
+	'shebaoting-dependency-collector' => [
+		'tag' => 'https://raw.githubusercontent.com/shebaoting/flarum-dependency-collector/v2.0.2/locale/en.yml',
+		'__builtInLanguages' => [
+			'zh_Hans',
+		],
+	],
 	'shebaoting-money' => [
 		'tag' => 'https://raw.githubusercontent.com/shebaoting/flarum-money/v2.0.1/locale/en.yml',
 		'__builtInLanguages' => [
