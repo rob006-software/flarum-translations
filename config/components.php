@@ -1308,7 +1308,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/shebaoting/Repost/v0.4.0/locale/en.yml',
 	],
 	'shebaoting-rss' => [
-		'tag' => 'https://raw.githubusercontent.com/shebaoting/rss/0.3.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/shebaoting/flarum-rss/0.3.1/locale/en.yml',
 		'__builtInLanguages' => [
 			'zh_Hans',
 		],
