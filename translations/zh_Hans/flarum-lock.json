@@ -21,14 +21,14 @@
                 "discussion_unlocked_text": "{username} 于 {time} 解锁此帖。"
             },
             "settings": {
-                "notify_discussion_locked_label": "我的讨论帖被锁定"
+                "notify_discussion_locked_label": "有人锁定了我发起的讨论"
             }
         },
         "lib": {
             "gambits": {
                 "discussions": {
                     "locked": {
-                        "key": "locked"
+                        "key": "已锁定"
                     }
                 }
             }
@@ -38,8 +38,8 @@
         "lib": {
             "browser": {
                 "discussion": {
-                    "locked": "",
-                    "unlocked": ""
+                    "locked": "已锁定讨论{discussion}",
+                    "unlocked": "已解锁讨论{discussion}"
                 }
             }
         }
