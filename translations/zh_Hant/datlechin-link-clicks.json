@@ -1,166 +1,166 @@
 {
     "datlechin-link-clicks": {
         "forum": {
-            "link_aria_label": "",
-            "link_tooltip": "",
-            "popular_links_title": "",
-            "user_popular_links_title": "",
-            "confirm_external": "",
+            "link_aria_label": "已有 {count} {count, plural, one{人} other{人}} 開啟",
+            "link_tooltip": "{count, plural, one{# 人已開啟此連結} other{# 人已開啟此連結}}",
+            "popular_links_title": "熱門連結",
+            "user_popular_links_title": "最多人點擊的連結",
+            "confirm_external": "您即將離開論壇。是否繼續？",
             "settings": {
-                "opt_out_label": "",
-                "opt_out_help": "",
-                "opt_out_save_failed": ""
+                "opt_out_label": "不要統計我的連結點擊",
+                "opt_out_help": "您的點擊仍會正常開啟連結；我們只是不會將其計入統計。",
+                "opt_out_save_failed": "無法儲存您的偏好設定，請稍後再試。"
             },
             "post_controls": {
-                "disable_tracking": "",
-                "enable_tracking": "",
-                "toggle_failed": ""
+                "disable_tracking": "不要統計此貼文中的連結點擊",
+                "enable_tracking": "統計此貼文中的連結點擊",
+                "toggle_failed": "無法更新此貼文的連結點擊追蹤設定。"
             },
             "discussion_controls": {
-                "click_stats": ""
+                "click_stats": "點擊統計"
             },
             "discussion_stats": {
-                "title": "",
-                "column_url": "",
-                "column_total": "",
-                "column_unique": "",
-                "column_last": "",
-                "empty": ""
+                "title": "點擊統計：{title}",
+                "column_url": "連結",
+                "column_total": "點擊次數",
+                "column_unique": "人數",
+                "column_last": "最後點擊",
+                "empty": "此討論中的連結尚無任何點擊紀錄。"
             }
         },
         "admin": {
             "tabs": {
-                "settings": "",
-                "analytics": "",
-                "webhook": ""
+                "settings": "設定",
+                "analytics": "分析",
+                "webhook": "Webhook"
             },
             "permissions": {
-                "view_analytics_label": ""
+                "view_analytics_label": "檢視連結點擊分析"
             },
             "settings": {
-                "enabled_label": "",
-                "enabled_help": "",
-                "track_internal_label": "",
-                "track_internal_help": "",
-                "open_new_window_label": "",
-                "open_new_window_help": "",
-                "honor_dnt_label": "",
-                "honor_dnt_help": "",
-                "skip_guests_label": "",
-                "skip_guests_help": "",
-                "min_display_label": "",
-                "min_display_help": "",
-                "dedup_window_label": "",
-                "dedup_window_help": "",
-                "retention_label": "",
-                "retention_help": "",
-                "bot_ua_label": "",
-                "bot_ua_help": "",
-                "bot_ua_placeholder": "",
-                "tracking_params_label": "",
-                "tracking_params_help": "",
-                "tracking_params_placeholder": "",
-                "attachment_prefixes_label": "",
-                "attachment_prefixes_help": "",
-                "domain_blocklist_label": "",
-                "domain_blocklist_help": "",
-                "confirm_external_label": "",
-                "confirm_external_help": "",
-                "digest_enabled_label": "",
-                "digest_enabled_help": "",
-                "webhook_enabled_label": "",
-                "webhook_enabled_help": "",
-                "webhook_url_label": "",
-                "webhook_url_help": "",
-                "webhook_secret_label": "",
-                "webhook_secret_help": "",
-                "webhook_test_button": "",
-                "webhook_test_ok": "",
-                "webhook_test_failed": ""
+                "enabled_label": "追蹤連結點擊",
+                "enabled_help": "總開關。關閉時，不會重寫連結，也不會記錄點擊。",
+                "track_internal_label": "追蹤指向本論壇的連結",
+                "track_internal_help": "關閉後，統計將聚焦於外部資源連結。",
+                "open_new_window_label": "在新視窗開啟連結",
+                "open_new_window_help": "被追蹤的連結會加入 target=\"_blank\"，使目的地在新分頁中開啟。關閉後，點擊將在同一分頁開啟。",
+                "honor_dnt_label": "遵守 Do Not Track",
+                "honor_dnt_help": "當請求帶有 DNT: 1 時，將略過記錄。",
+                "skip_guests_label": "不要追蹤訪客",
+                "skip_guests_help": "只統計已登入使用者的點擊。訪客點擊仍會正常重新導向，但不會寫入紀錄。",
+                "min_display_label": "顯示徽章的最低次數",
+                "min_display_help": "低於此數值時隱藏徽章。",
+                "dedup_window_label": "去重時間範圍（小時）",
+                "dedup_window_help": "在此時間範圍內，同一使用者對同一連結只計算一次。",
+                "retention_label": "事件保留時間（天）",
+                "retention_help": "每日排程會清除早於此天數的 link_click_events。設為 0 則永久保留事件。",
+                "bot_ua_label": "額外的機器人 User-Agent 片段",
+                "bot_ua_help": "每行一個片段。若請求的 User-Agent 包含任一字串（不區分大小寫），即視為機器人。內建機器人偵測會一律執行；此處項目會額外加入判斷。",
+                "bot_ua_placeholder": "Googlebot\nMJ12bot\nAhrefsBot",
+                "tracking_params_label": "額外要移除的追蹤查詢參數",
+                "tracking_params_help": "每行一個規則。會在去重前從 URL 移除，使帶有 utm 標記的變體計入同一連結。結尾的 * 代表前綴比對（例如 utm_*）。預設清單已包含 utm_*、fbclid、gclid、mc_cid、igshid、_ga 等常見參數。",
+                "tracking_params_placeholder": "ref_url\nyclid\ncustom_param",
+                "attachment_prefixes_label": "額外的附件路徑前綴",
+                "attachment_prefixes_help": "論壇主機上，路徑以這些前綴開頭的 URL，即使關閉內部連結追蹤也會被追蹤。/assets/files/ 已內建支援 Flarum 預設上傳磁碟；若使用 fof/upload 或自訂 CDN 路徑，請在此加入。",
+                "domain_blocklist_label": "封鎖網域",
+                "domain_blocklist_help": "要完全略過的主機名稱，每行一個。可使用 *.example.com 比對所有子網域。引用這些主機的貼文不會顯示徽章，也不會記錄點擊。",
+                "confirm_external_label": "離開論壇前確認",
+                "confirm_external_help": "當讀者點擊外部連結時，顯示瀏覽器確認對話框。預設關閉。",
+                "digest_enabled_label": "每週以電子郵件寄送摘要給管理員",
+                "digest_enabled_help": "每週一早上，將過去一週的點擊摘要以純文字電子郵件寄送給所有管理員。預設關閉。",
+                "webhook_enabled_label": "啟用 Webhook",
+                "webhook_enabled_help": "透過佇列將每筆已記錄的點擊以 JSON POST 轉送至外部 URL。",
+                "webhook_url_label": "Webhook URL",
+                "webhook_url_help": "JSON payload 的傳送目的地。",
+                "webhook_secret_label": "Webhook 密鑰",
+                "webhook_secret_help": "設定後，請求本文會使用 HMAC-SHA256 簽署，並以 sha256=HEX_DIGEST 格式將簽章放入 X-LinkClicks-Signature 標頭。接收端可使用相同密鑰重新計算以驗證。",
+                "webhook_test_button": "傳送測試 ping",
+                "webhook_test_ok": "Webhook 已回應 HTTP {status}。",
+                "webhook_test_failed": "Webhook 測試失敗：{detail}"
             },
             "tags": {
-                "disable_tracking_label": "",
-                "disable_tracking_help": ""
+                "disable_tracking_label": "停用此標籤中的連結點擊追蹤",
+                "disable_tracking_help": "標有此標籤的任何討論，其貼文中的連結都不會被追蹤。既有統計會保留。"
             },
             "analytics": {
-                "title": "",
-                "since": "",
-                "until": "",
-                "scope": "",
-                "scope_all": "",
-                "scope_external": "",
-                "scope_internal": "",
-                "scope_attachments": "",
-                "tag": "",
-                "tag_placeholder": "",
-                "attachment_label": "",
-                "internal_label": "",
-                "external_label": "",
-                "column_url": "",
-                "column_total": "",
-                "column_unique": "",
-                "column_first": "",
-                "column_last": "",
-                "empty": "",
-                "export_csv": "",
-                "drilldown_tooltip": ""
+                "title": "點擊分析",
+                "since": "開始時間",
+                "until": "結束時間",
+                "scope": "範圍",
+                "scope_all": "所有連結",
+                "scope_external": "僅外部連結",
+                "scope_internal": "僅內部連結",
+                "scope_attachments": "僅附件",
+                "tag": "標籤",
+                "tag_placeholder": "tag-slug（選填）",
+                "attachment_label": "附件",
+                "internal_label": "內部",
+                "external_label": "外部",
+                "column_url": "連結",
+                "column_total": "點擊次數",
+                "column_unique": "不重複人數",
+                "column_first": "首次點擊",
+                "column_last": "最後點擊",
+                "empty": "所選時間範圍內沒有點擊紀錄。",
+                "export_csv": "匯出 CSV",
+                "drilldown_tooltip": "點擊查看誰點擊了此連結"
             },
             "clickers": {
-                "title": "",
-                "column_who": "",
-                "column_clicks": "",
-                "column_first": "",
-                "column_last": "",
-                "guest": "",
-                "anonymized": "",
-                "empty": "",
-                "view_trail_tooltip": ""
+                "title": "誰點擊了此連結",
+                "column_who": "對象",
+                "column_clicks": "點擊次數",
+                "column_first": "首次點擊",
+                "column_last": "最後點擊",
+                "guest": "訪客",
+                "anonymized": "已匿名化",
+                "empty": "此連結沒有可統計的點擊紀錄。",
+                "view_trail_tooltip": "顯示此使用者點擊過的內容"
             },
             "click_trail": {
-                "title": "",
-                "column_link": "",
-                "column_when": "",
-                "empty": ""
+                "title": "{name} 的點擊軌跡",
+                "column_link": "連結",
+                "column_when": "時間",
+                "empty": "此使用者沒有已記錄的可統計點擊。"
             },
             "domains": {
-                "title": "",
-                "column_domain": "",
-                "column_urls": ""
+                "title": "熱門網域（最近 30 天）",
+                "column_domain": "網域",
+                "column_urls": "URL 數"
             },
             "devices": {
-                "title": "",
-                "devices_label": "",
-                "browsers_label": "",
+                "title": "點擊來源（最近 30 天）",
+                "devices_label": "依裝置",
+                "browsers_label": "依瀏覽器",
                 "devices": {
-                    "mobile": "",
-                    "tablet": "",
-                    "desktop": ""
+                    "mobile": "手機",
+                    "tablet": "平板",
+                    "desktop": "桌面裝置"
                 },
                 "browsers": {
-                    "chrome": "",
-                    "firefox": "",
-                    "safari": "",
-                    "edge": "",
-                    "opera": "",
-                    "samsung": "",
-                    "other": ""
+                    "chrome": "Chrome",
+                    "firefox": "Firefox",
+                    "safari": "Safari",
+                    "edge": "Edge",
+                    "opera": "Opera",
+                    "samsung": "Samsung Internet",
+                    "other": "其他"
                 }
             },
             "heatmap": {
-                "title": "",
-                "lead": ""
+                "title": "點擊熱圖（最近 30 天）",
+                "lead": "每個格子代表一天中的一個小時。顏色越深表示越繁忙。"
             },
             "timeseries": {
-                "title": "",
-                "total_clicks": "",
-                "avg_per_day": "",
-                "peak_day": ""
+                "title": "每日點擊",
+                "total_clicks": "總計",
+                "avg_per_day": "平均／日",
+                "peak_day": "高峰日"
             }
         },
         "gdpr": {
-            "export_description": "",
-            "anonymize_description": "",
-            "delete_description": ""
+            "export_description": "此使用者所有已記錄的連結點擊。",
+            "anonymize_description": "移除此使用者每筆連結點擊事件中的 user_id 與 ip_address。",
+            "delete_description": "刪除此使用者所有已記錄的連結點擊事件。"
         }
     }
 }
