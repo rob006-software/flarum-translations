@@ -581,7 +581,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/ban-ips/1.2.0/resources/locale/en.yml',
 	],
 	'fof-best-answer' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/best-answer/1.7.1/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/best-answer/1.7.3/resources/locale/en.yml',
 	],
 	'fof-blog' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/blog/1.0.1/locale/en.yml',
