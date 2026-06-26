@@ -4,15 +4,15 @@
             "settings": {
                 "enabled_label": "Föderation aktivieren",
                 "enabled_help": "Mache diese Community im Fediversum auffindbar. Nutzer auf Mastodon, Lemmy und anderen ActivityPub-Servern können der Community (und einzelnen Mitgliedern) folgen und jede neue Diskussion in ihrer Timeline erhalten. Eingehende Antworten und Likes werden als Beiträge zurückgesendet. Deaktiviere diese Option, um die Community aus dem Fediversum zu entfernen – alle Föderations-Endpunkte reagieren dann nicht mehr.\n",
-                "username_label": "",
-                "username_help": "",
+                "username_label": "Community-Handle-Name",
+                "username_help": "Der Benutzername als Teil des Fediverse-Handles der Community. Lasse das Feld leer, um einen Slug aus dem Titel deines Forums zu verwenden. Nur Buchstaben, Zahlen und Unterstriche erlaubt.\n",
                 "handle_label": "Dein Community-Handle",
-                "handle_help": ""
+                "handle_help": "Suche auf einem beliebigen Fediverse-Server nach genau diesem Handle, um der Community zu folgen. Wenn du den oben angegebenen Handle-Namen änderst, nachdem dir bereits Nutzer gefolgt sind, werden die bestehenden Follows unterbrochen. Wähle ihn daher einmalig aus.\n"
             }
         },
         "forum": {
-            "handle_label": "",
-            "handle_tooltip": ""
+            "handle_label": "Fediverse:",
+            "handle_tooltip": "Folge diesem Mitglied auf Mastodon, Lemmy und anderen Servern des Fediversums."
         }
     }
 }
