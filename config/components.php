@@ -1641,7 +1641,7 @@ return [
 		],
 	],
 	'shebaoting-money' => [
-		'tag' => 'https://raw.githubusercontent.com/shebaoting/money/v0.8.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/shebaoting/flarum-money/v0.8.0/locale/en.yml',
 		'__builtInLanguages' => [
 			'zh_Hans',
 		],
