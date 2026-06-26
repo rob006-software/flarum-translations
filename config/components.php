@@ -1647,7 +1647,7 @@ return [
 		],
 	],
 	'shebaoting-repost' => [
-		'tag' => 'https://raw.githubusercontent.com/shebaoting/Repost/v0.4.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/shebaoting/flarum-repost/v0.4.0/locale/en.yml',
 		'__builtInLanguages' => [
 			'zh_Hans',
 		],
