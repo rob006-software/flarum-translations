@@ -1,0 +1,135 @@
+{
+    "shebaoting-money": {
+        "admin": {
+            "settings": {
+                "title": "Settings",
+                "moneyforpost_label": "New post amount",
+                "moneyforpost_help": "Amount to add or deduct when a user creates a new post.",
+                "moneyforpost_type": "Point change type",
+                "moneyforreply_label": "Reply amount",
+                "moneyforreply_help": "Amount to add or deduct when a user replies to a discussion.",
+                "moneyforreply_type": "Point change type",
+                "moneyforreply_feedback": "Feedback to discussion author",
+                "moneyforlike_label": "Like amount",
+                "moneyforlike_help": "Amount to add or deduct when a user likes a post.",
+                "moneyforlike_type": "Point change type",
+                "moneyforlike_feedback": "Feedback to post author",
+                "reward": "Reward",
+                "deduct": "Deduct",
+                "feedback": "Feedback",
+                "no_feedback": "No feedback",
+                "initialmoney": "Initial Money for New Users",
+                "moneyforpost": "Money given for a new post",
+                "moneyfordiscussion": "Money given for a new discussion",
+                "moneyname": "Name of the money (ex: [money] points)",
+                "postminimumlength": "Post minimum length to get the money (0 to disable)",
+                "noshowzero": "Do not show if the value is zero",
+                "autoremove": "Automatically update money",
+                "moneyforlike": "Money given when a post is liked",
+                "helpextensionlikes": "Requires the <code>flarum/likes</code> extension",
+                "initialmoney_help": "Initial amount granted when a user registers.",
+                "level_names": "Money level names",
+                "level_names_help": "Separate multiple level names with commas, for example: Gold,Silver,Bronze",
+                "money_scale": "Money scale",
+                "money_scale_help": "Scale used to split point levels, for example 100.",
+                "extra_char_threshold_label": "Character Threshold",
+                "extra_char_threshold_help": "The minimum number of characters before extra points are applied.",
+                "extra_char_increment_label": "Character Increment",
+                "extra_char_increment_help": "Every X characters beyond the threshold will trigger a point change.",
+                "extra_char_points_label": "Points per Increment",
+                "extra_char_points_help": "The number of points to add or deduct for each increment."
+            },
+            "permissions": {
+                "edit_money_label": "Edit money"
+            },
+            "autoremove": [
+                "Never remove money",
+                "When a discussion/post is hidden or restored (default)",
+                "When a discussion/post is deleted"
+            ],
+            "automoderator": {
+                "metric_name": "Money",
+                "action_name": "Give money"
+            }
+        },
+        "forum": {
+            "user_controls": {
+                "money_button": "Edit money"
+            },
+            "errors": {
+                "not_enough_money": "You do not have enough points.",
+                "no_money_logs": "No records"
+            },
+            "modal": {
+                "title": "{username}'s money",
+                "current": "Current:",
+                "submit_button": "=> core.ref.save_changes"
+            },
+            "log_time": "Time",
+            "log_type": "Type",
+            "log_amount": "Amount",
+            "log_balance": "Balance",
+            "log_description": "Description",
+            "log_type_deposit": "Deposit",
+            "log_type_withdrawal": "Withdrawal",
+            "log_type_transfer": "Transfer",
+            "log_type_reward": "Reward",
+            "no_money_logs": "No money logs available",
+            "load_more": "Load more",
+            "logs_description": {
+                "created_discussion": "Created a discussion: {title}",
+                "created_reply": "Created a reply: {title}",
+                "reply_received": "Received a reply from {username}: {title}",
+                "liked": "Liked a post: {title} by {user}",
+                "liked_by": "Post liked by {username}: {title}",
+                "unliked_post": "Unliked a post: {title}",
+                "unliked_by": "Post unliked by {username}: {title}",
+                "initial_registration": "Received initial points upon registration.",
+                "admin_updated": "Admin updated points, amount changed by {amount}.",
+                "discussion_started": "Started a discussion: {title}",
+                "discussion_restored": "Restored a discussion: {title}",
+                "discussion_hidden": "Hidden a discussion: {title}",
+                "discussion_deleted": "Deleted a discussion: {title}",
+                "posted_reply": "Replied to a discussion: {title}",
+                "post_created": "Created a discussion: {title}",
+                "post_restored": "Restored a post: {title}",
+                "post_hidden": "Hidden a post: {title}",
+                "post_deleted": "Deleted a post: {title}",
+                "extra_characters": "Content exceeded the threshold by {extra_chars} characters, {points} points have been {action}.",
+                "action_rewarded": "rewarded",
+                "action_deducted": "deducted",
+                "no_permission": "You do not have permission to view others' point records."
+            },
+            "logs_type": {
+                "discussion_started": "Discussion Started",
+                "post_created": "Post Created",
+                "post_restored": "Post Restored",
+                "post_hidden": "Post Hidden",
+                "post_deleted": "Post Deleted",
+                "discussion_restored": "Discussion Restored",
+                "discussion_hidden": "Discussion Hidden",
+                "discussion_deleted": "Discussion Deleted",
+                "liked": "Liked Post",
+                "liked_by_others": "Post Liked by Another User",
+                "admin_updated": "Admin Updated",
+                "registration": "Registration Bonus",
+                "discussion_replied": "Replied in Discussion"
+            },
+            "point_log": {
+                "title": "Point Change Records",
+                "link": "Point Records",
+                "empty_text": "No point change records found.",
+                "table": {
+                    "headers": {
+                        "date": "Date",
+                        "amount": "Amount",
+                        "balance": "Balance",
+                        "reason": "Reason"
+                    }
+                },
+                "load_more": "Load more",
+                "no_permission": "You do not have permission to view others' point records."
+            }
+        }
+    }
+}
