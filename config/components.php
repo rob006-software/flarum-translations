@@ -143,6 +143,9 @@ return [
 	'ernestdefoe-group-messages' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/group-messages/2.0.2/locale/en.yml',
 	],
+	'ernestdefoe-hero-builder' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/hero-builder/v1.0.0/resources/locale/en.yml',
+	],
 	'ernestdefoe-mobile-tab' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/mobiletab/2.0.0/resources/locale/en.yml',
 	],
