@@ -746,6 +746,12 @@ return [
 			'pl',
 		],
 	],
+	'shebaoting-money' => [
+		'tag' => 'https://raw.githubusercontent.com/shebaoting/flarum-money/v2.0.1/locale/en.yml',
+		'__builtInLanguages' => [
+			'zh_Hans',
+		],
+	],
 	'shebaoting-repost' => [
 		'tag' => 'https://raw.githubusercontent.com/shebaoting/flarum-repost/v2.0.2/locale/en.yml',
 		'__builtInLanguages' => [
