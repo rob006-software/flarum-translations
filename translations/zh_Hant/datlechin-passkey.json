@@ -2,125 +2,125 @@
     "datlechin-passkey": {
         "forum": {
             "log_in": {
-                "sign_in_with_passkey": "",
-                "passkey_unsupported": "",
-                "verifying": "",
-                "cancelled": "",
-                "failed": "",
-                "unsupported": "",
-                "security_error": "",
-                "throttled": ""
+                "sign_in_with_passkey": "使用 Passkey 登入",
+                "passkey_unsupported": "此瀏覽器不支援 Passkey。",
+                "verifying": "正在驗證 Passkey...",
+                "cancelled": "已取消 Passkey 登入。",
+                "failed": "無法驗證您的 Passkey，請稍後再試。",
+                "unsupported": "此裝置無法使用網站所要求的 Passkey 類型。",
+                "security_error": "網站來源與設定的 Relying Party 不符。請聯絡管理員檢查 Passkey 設定。",
+                "throttled": "Passkey 登入嘗試次數過多，請稍候一分鐘後再試。"
             },
             "suggest": {
-                "title": "",
-                "body": "",
-                "set_up": "",
-                "not_now": ""
+                "title": "設定 Passkey",
+                "body": "下次可更快速登入，無需再記住密碼。您的裝置會建立一把僅適用於此網站的 Passkey。",
+                "set_up": "設定 Passkey",
+                "not_now": "稍後再說"
             },
             "required": {
-                "body": "",
-                "set_up": ""
+                "body": "您的身分群組要求必須先註冊 Passkey，才能繼續使用論壇。",
+                "set_up": "立即設定"
             },
             "settings": {
-                "heading": "",
-                "description": "",
-                "add_button": "",
-                "bulk_revoke_button": "",
+                "heading": "Passkey",
+                "description": "Passkey 可讓您使用裝置或硬體安全金鑰登入，而不必輸入密碼。",
+                "add_button": "新增 Passkey",
+                "bulk_revoke_button": "全部撤銷",
                 "add_modal": {
-                    "title": "",
-                    "device_name_label": "",
-                    "device_name_placeholder": "",
-                    "register_button": "",
-                    "cancel_button": ""
+                    "title": "新增 Passkey",
+                    "device_name_label": "為此 Passkey 命名",
+                    "device_name_placeholder": "例如：iPhone、MacBook、YubiKey",
+                    "register_button": "註冊",
+                    "cancel_button": "取消"
                 },
                 "bulk_revoke_modal": {
-                    "body": ""
+                    "body": "確定要撤銷您全部 {count} 個 Passkey 嗎？撤銷後將無法再使用它們登入。"
                 },
                 "list": {
-                    "empty": "",
-                    "added_label": "",
-                    "last_used_label": "",
-                    "never_used": "",
-                    "synced": "",
-                    "device_only": "",
-                    "rename_button": "",
-                    "revoke_button": ""
+                    "empty": "您尚未新增任何 Passkey。",
+                    "added_label": "新增時間",
+                    "last_used_label": "最近使用",
+                    "never_used": "從未使用",
+                    "synced": "已同步",
+                    "device_only": "僅限此裝置",
+                    "rename_button": "重新命名",
+                    "revoke_button": "撤銷"
                 },
                 "rename_modal": {
-                    "title": "",
-                    "save_button": "",
-                    "cancel_button": ""
+                    "title": "重新命名 Passkey",
+                    "save_button": "儲存",
+                    "cancel_button": "取消"
                 },
                 "revoke_modal": {
-                    "title": "",
-                    "body": "",
-                    "confirm_button": "",
-                    "cancel_button": ""
+                    "title": "撤銷 Passkey",
+                    "body": "確定要撤銷 {device} 的 Passkey 嗎？撤銷後將無法再使用此 Passkey 登入。",
+                    "confirm_button": "撤銷",
+                    "cancel_button": "取消"
                 },
                 "alerts": {
-                    "registration_succeeded": "",
-                    "registration_failed": "",
-                    "registration_already_exists": "",
-                    "registration_security_error": "",
-                    "registration_unsupported": "",
-                    "rename_succeeded": "",
-                    "revoke_succeeded": "",
-                    "bulk_revoke_succeeded": ""
+                    "registration_succeeded": "已新增 Passkey。",
+                    "registration_failed": "無法註冊 Passkey，請稍後再試。",
+                    "registration_already_exists": "此裝置已為您的帳號建立 Passkey。請先撤銷既有 Passkey，或改用其他裝置。",
+                    "registration_security_error": "網站來源與設定的 Relying Party 不符。請聯絡管理員檢查 Passkey 設定。",
+                    "registration_unsupported": "此裝置無法註冊網站要求的 Passkey 類型。",
+                    "rename_succeeded": "Passkey 已重新命名。",
+                    "revoke_succeeded": "Passkey 已撤銷。",
+                    "bulk_revoke_succeeded": "所有 Passkey 已撤銷。"
                 }
             }
         },
         "gdpr": {
-            "export_description": "",
-            "anonymize_description": "",
-            "delete_description": ""
+            "export_description": "包含每個已註冊 Passkey 的裝置名稱、最後使用時間、IP 位址及驗證器中繼資料。公開金鑰只能識別憑證，無法用於偽造登入。",
+            "anonymize_description": "撤銷此使用者的所有 Passkey。",
+            "delete_description": "刪除此使用者的所有 Passkey。"
         },
         "email": {
             "revoked": {
-                "subject": "",
-                "body": "",
-                "actor_self": "",
-                "actor_admin": ""
+                "subject": "您的 {forum} 帳號已有一組 Passkey 被移除",
+                "body": "您好，{username}：\n\n您的帳號於 {forum} 的 Passkey「{device}」已被移除。{actor}\n\n若這不是您預期的操作，您的帳號可能存在安全風險。請登入後前往【安全性】頁面檢查剩餘的 Passkey。若已無法登入，請使用登入畫面的密碼重設功能。\n\n{forum}\n",
+                "actor_self": "此操作由您於安全性頁面執行。",
+                "actor_admin": "此操作由論壇管理員代為執行。"
             },
             "counter_regression": {
-                "subject": "",
-                "body": ""
+                "subject": "偵測到您的 {forum} Passkey 可能遭到複製",
+                "body": "您好，{username}：\n\n有人嘗試使用您的 Passkey「{device}」登入 {forum}，但因憑證回報的簽章計數器低於系統紀錄而遭拒絕。這通常表示此憑證可能已被複製到另一部裝置。\n\n此次登入已被拒絕。我們建議您使用密碼登入，撤銷此 Passkey，並重新註冊新的 Passkey。若其他裝置也使用相同憑證，請一併從密碼管理器中移除。\n\n{forum}\n"
             },
             "backup_state": {
-                "subject": "",
-                "body": "",
-                "synced": "",
-                "unsynced": ""
+                "subject": "{forum} 上的 Passkey 同步狀態已變更",
+                "body": "您好，{username}：\n\n您在 {forum} 的 Passkey「{device}」目前已{state}。\n\n若此操作是由您自行觸發（例如登入 iCloud 鑰匙圈或其他密碼管理器），可忽略此通知。否則，請立即登入並檢查【安全性】頁面，此 Passkey 可能已被複製到其他裝置。\n\n{forum}\n",
+                "synced": "同步至雲端密碼管理器",
+                "unsynced": "僅儲存在單一裝置"
             },
             "bulk_revoked": {
-                "subject": "",
-                "body": "",
-                "actor_self": "",
-                "actor_admin": ""
+                "subject": "您的 {forum} 帳號所有 Passkey 已被移除",
+                "body": "您好，{username}：\n\n您的 {count} 組 Passkey 已全部從 {forum} 帳號移除。{actor}\n\n若這不是您預期的操作，請使用密碼登入並檢查【安全性】頁面。若無法登入，請使用登入畫面的密碼重設功能。\n\n{forum}\n",
+                "actor_self": "此操作由您於安全性頁面執行。",
+                "actor_admin": "此操作由論壇管理員代為執行。"
             }
         },
         "admin": {
             "settings": {
-                "title": "",
-                "description": "",
-                "rp_id_label": "",
-                "rp_id_help": "",
-                "rp_name_label": "",
-                "rp_name_help": "",
-                "related_origins_label": "",
-                "related_origins_help": "",
-                "user_verification_label": "",
-                "user_verification_required": "",
-                "user_verification_preferred": "",
-                "user_verification_discouraged": "",
-                "attestation_label": "",
-                "attestation_none": "",
-                "attestation_indirect": "",
-                "attestation_direct": "",
-                "throttle_label": ""
+                "title": "Passkey",
+                "description": "設定論壇的 Passkey 驗證。",
+                "rp_id_label": "Relying Party ID",
+                "rp_id_help": "Passkey 所屬的 DNS 網域名稱。留空將自動依請求主機判斷。修改此設定會使所有既有 Passkey 失效。",
+                "rp_name_label": "Relying Party 顯示名稱",
+                "rp_name_help": "瀏覽器顯示於 Passkey 提示中的名稱。預設為論壇名稱。",
+                "related_origins_label": "相關來源（每行一個）",
+                "related_origins_help": "允許執行 Passkey 驗證流程的其他來源，需搭配 /.well-known/webauthn 的 W3C related-origins 文件使用。",
+                "user_verification_label": "使用者驗證",
+                "user_verification_required": "必要（每次都要求生物辨識或 PIN）",
+                "user_verification_preferred": "建議（裝置支援時要求）",
+                "user_verification_discouraged": "不建議（僅需觸碰裝置，安全性較低）",
+                "attestation_label": "Attestation 模式",
+                "attestation_none": "無（建議）",
+                "attestation_indirect": "間接",
+                "attestation_direct": "直接",
+                "throttle_label": "每個 IP 每分鐘允許登入次數"
             },
             "group_modal": {
-                "require_passkey": "",
-                "require_passkey_help": ""
+                "require_passkey": "此群組必須使用 Passkey",
+                "require_passkey_help": "群組成員在至少註冊一組 Passkey 前，將持續看到提醒橫幅。"
             }
         }
     }
