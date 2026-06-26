@@ -786,7 +786,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/SychO9/flarum-profile-cover/v2.0.0/resources/locale/en.yml',
 	],
 	'tapao-auto-ai-moderation' => [
-		'tag' => 'https://raw.githubusercontent.com/Tapao-NonSen/Auto-AI-Moderation/v1.0.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/Tapao-NonSen/Auto-AI-Moderation/v1.0.5/locale/en.yml',
 		'__builtInLanguages' => [
 			'th',
 		],
