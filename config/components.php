@@ -633,7 +633,7 @@ return [
 		],
 	],
 	'pianotell-flamoji' => [
-		'tag' => 'https://raw.githubusercontent.com/PrimateCoder/flarum-flamoji/v2.1.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/PrimateCoder/flarum-flamoji/v2.2.1/locale/en.yml',
 	],
 	'quasimo-carousel-grids' => [
 		'tag' => 'https://raw.githubusercontent.com/Quasimo/flarum-ext-carousel-grids/v2.0.6/resources/locale/en.yml',
