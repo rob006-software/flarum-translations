@@ -2,44 +2,44 @@
     "captchala-flarum": {
         "admin": {
             "settings": {
-                "app_key_label": "",
-                "app_key_help": "",
-                "app_secret_label": "",
-                "app_secret_help": "",
-                "product_label": "",
-                "product_help": "",
+                "app_key_label": "App Key",
+                "app_key_help": "請至 <a>dash.captcha.la</a> 的 CaptchaLa 控制台取得。此欄位為必填。",
+                "app_secret_label": "App Secret",
+                "app_secret_help": "僅供伺服器端使用，請勿公開或暴露於瀏覽器。",
+                "product_label": "小工具模式",
+                "product_help": "可選擇 bind、popup、float 或 embed。bind 會直接綁定至送出按鈕。",
                 "product_options": {
-                    "bind": "",
-                    "popup": "",
-                    "float": "",
-                    "embed": ""
+                    "bind": "綁定送出按鈕",
+                    "popup": "彈出式視窗",
+                    "float": "浮動小工具",
+                    "embed": "內嵌模式"
                 },
-                "lang_label": "",
-                "lang_help": "",
-                "signup": "",
-                "signin": "",
-                "forgot": "",
-                "post": ""
+                "lang_label": "語言",
+                "lang_help": "輸入 BCP-47 語言代碼（例如 ja、pt-BR），或填入「auto」以自動依照訪客瀏覽器語言。",
+                "signup": "=> core.forum.sign_up.title",
+                "signin": "=> core.forum.log_in.title",
+                "forgot": "=> core.forum.forgot_password.title",
+                "post": "保護新討論與回覆"
             },
             "test": {
-                "title": "",
-                "help_text": "",
-                "button": "",
-                "success": "",
-                "failure": ""
+                "title": "測試連線",
+                "help_text": "驗證已儲存的 App Key 與 App Secret 是否能成功連線至 CaptchaLa 後端服務。執行測試前，請先儲存您的設定。\n",
+                "button": "測試連線",
+                "success": "連線成功。",
+                "failure": "連線失敗：{reason}"
             }
         },
         "lib": {
-            "not_completed": "",
-            "error": "",
-            "rejected": "",
-            "unknown_error": ""
+            "not_completed": "請先完成 CAPTCHA 驗證後再繼續。",
+            "error": "驗證 CAPTCHA 時發生錯誤，請稍後再試。",
+            "rejected": "CAPTCHA 驗證失敗，請重新驗證。",
+            "unknown_error": "發生未知錯誤，請稍後再試。"
         },
         "forum": {
-            "powered_by": ""
+            "powered_by": "由 CaptchaLa 提供保護"
         }
     },
     "validation": {
-        "captchala": ""
+        "captchala": "CAPTCHA 驗證未通過。"
     }
 }
