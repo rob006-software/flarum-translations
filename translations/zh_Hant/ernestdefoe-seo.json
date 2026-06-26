@@ -2,116 +2,116 @@
     "ernestdefoe-seo": {
         "admin": {
             "permissions": {
-                "configure_seo": ""
+                "configure_seo": "允許設定 SEO"
             },
             "settings_page": {
                 "menu": {
-                    "health_check": "",
-                    "seo_settings": "",
-                    "sitemap_information": "",
-                    "search_engine_information": "",
-                    "set_up_ssl": ""
+                    "health_check": "健康檢查",
+                    "seo_settings": "SEO 設定",
+                    "sitemap_information": "網站地圖資訊",
+                    "search_engine_information": "搜尋引擎資訊",
+                    "set_up_ssl": "設定 SSL"
                 }
             },
             "meta_seo_modal": {
-                "title": "",
-                "managed_label": "",
-                "upload_button": "",
+                "title": "SEO 設定 - Meta",
+                "managed_label": "受管理",
+                "upload_button": "上傳檔案",
                 "not_supported": {
-                    "alert_title": "",
-                    "alert_body": "",
-                    "documentation_link": ""
+                    "alert_title": "此物件不是受支援的 SeoMeta 物件",
+                    "alert_body": "請使用 objectType 與 objectId 屬性開啟此對話框，或先註冊物件關聯。",
+                    "documentation_link": "文件"
                 },
                 "auto_update": {
-                    "title": "",
-                    "help": "",
-                    "switch_label": ""
+                    "title": "自動更新 Meta 標籤",
+                    "help": "啟用後，當物件內容變更時，將自動更新此項目的 Meta 標籤。",
+                    "switch_label": "物件變更時更新 SEO"
                 },
                 "meta_title": {
-                    "title": "",
-                    "help": "",
-                    "placeholder": ""
+                    "title": "Meta 標題",
+                    "help": "顯示於搜尋引擎的標題。",
+                    "placeholder": "輸入頁面標題"
                 },
                 "meta_description": {
-                    "title": "",
-                    "help": "",
-                    "placeholder": ""
+                    "title": "Meta 描述",
+                    "help": "描述此項目，並顯示於搜尋引擎結果中。",
+                    "placeholder": "輸入描述"
                 },
                 "keywords": {
-                    "title": "",
-                    "help": "",
-                    "placeholder": "",
-                    "note": "",
-                    "example_prefix": "",
-                    "example": ""
+                    "title": "關鍵字",
+                    "help": "輸入一個或多個描述此項目的關鍵字。",
+                    "placeholder": "新增幾個關鍵字",
+                    "note": "注意：請使用逗號分隔多個關鍵字。",
+                    "example_prefix": "例如：",
+                    "example": "flarum, 網頁開發, 論壇, 蘋果, 資訊安全"
                 },
                 "meta_image": {
-                    "title": "",
-                    "help": "",
-                    "placeholder": "",
-                    "managed_by": ""
+                    "title": "Meta 圖片",
+                    "help": "顯示於分享預覽中的圖片。",
+                    "placeholder": "輸入圖片網址",
+                    "managed_by": "圖片來源由 {source} 管理"
                 },
                 "robots": {
-                    "title": "",
-                    "help": "",
-                    "tag_index_allowed": "",
-                    "tag_index_disallowed": "",
-                    "tag_follow_allowed": "",
-                    "tag_follow_disallowed": "",
-                    "tag_noarchive": "",
-                    "tag_noimageindex": "",
-                    "tag_nosnippet": "",
-                    "switch_noindex": "",
-                    "switch_nofollow": "",
-                    "switch_noarchive": "",
-                    "switch_noimageindex": "",
-                    "switch_nosnippet": ""
+                    "title": "Robots",
+                    "help": "設定此項目的搜尋引擎爬蟲規則。",
+                    "tag_index_allowed": "允許索引頁面",
+                    "tag_index_disallowed": "禁止索引頁面",
+                    "tag_follow_allowed": "允許追蹤連結",
+                    "tag_follow_disallowed": "禁止追蹤連結",
+                    "tag_noarchive": "禁止建立頁面快取",
+                    "tag_noimageindex": "禁止索引圖片",
+                    "tag_nosnippet": "禁止顯示文字摘要",
+                    "switch_noindex": "允許搜尋引擎索引此頁面",
+                    "switch_nofollow": "允許搜尋引擎追蹤頁面中的連結",
+                    "switch_noarchive": "禁止搜尋引擎建立頁面快取（noarchive）",
+                    "switch_noimageindex": "禁止搜尋引擎索引本頁圖片（noimageindex）",
+                    "switch_nosnippet": "禁止搜尋引擎顯示文字摘要（nosnippet）"
                 },
                 "reading_time": {
-                    "title": "",
-                    "help": "",
-                    "placeholder": ""
+                    "title": "預估閱讀時間",
+                    "help": "預估閱讀時間（秒）。",
+                    "placeholder": "輸入閱讀秒數"
                 },
                 "twitter": {
-                    "card_title": "",
-                    "switch_auto": "",
-                    "title": "",
-                    "description": "",
-                    "image_title": "",
-                    "image_help": "",
-                    "image_placeholder": "",
-                    "image_managed_by": "",
-                    "reset_image": ""
+                    "card_title": "Twitter Card",
+                    "switch_auto": "自動產生 Twitter Card",
+                    "title": "Twitter 標題",
+                    "description": "Twitter 描述",
+                    "image_title": "Twitter 圖片",
+                    "image_help": "顯示於 Twitter 分享的圖片。",
+                    "image_placeholder": "輸入圖片網址",
+                    "image_managed_by": "圖片來源由 {source} 管理",
+                    "reset_image": "重設圖片"
                 },
                 "open_graph": {
-                    "tags_title": "",
-                    "switch_auto": "",
-                    "title": "",
-                    "description": "",
-                    "description_placeholder": ""
+                    "tags_title": "Open Graph 標籤",
+                    "switch_auto": "自動產生 Open Graph 標籤",
+                    "title": "Open Graph 標題",
+                    "description": "Open Graph 描述",
+                    "description_placeholder": "自訂 Open Graph 描述"
                 },
                 "footer": {
-                    "note_prefix": "",
-                    "revert_warning": ""
+                    "note_prefix": "注意：",
+                    "revert_warning": "此操作將覆蓋自訂內容，並重新以目前項目資料填入 Meta 標籤。"
                 },
                 "buttons": {
-                    "close": "",
-                    "save": "",
-                    "save_and_autofill": ""
+                    "close": "關閉",
+                    "save": "儲存",
+                    "save_and_autofill": "儲存並自動填入"
                 },
                 "alerts": {
-                    "saved": "",
-                    "save_error": ""
+                    "saved": "已儲存！",
+                    "save_error": "無法儲存 SEO 設定，請稍後再試或檢查伺服器記錄。"
                 }
             }
         },
         "forum": {
-            "profile_title": "",
-            "profile_description": "",
+            "profile_title": "{username} 的個人資料",
+            "profile_description": "{username} 的個人資料｜{discussion_count} 篇討論｜{comment_count} 篇貼文",
             "controls": {
-                "configure_seo": "",
-                "update_seo": "",
-                "reset_seo": ""
+                "configure_seo": "設定 SEO",
+                "update_seo": "更新 SEO",
+                "reset_seo": "重設 SEO"
             }
         }
     }
