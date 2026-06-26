@@ -2,7 +2,7 @@
     "core": {
         "admin": {
             "advanced": {
-                "description": "高級進階設置",
+                "description": "高級進階設置。",
                 "maintenance": {
                     "bisect": {
                         "begin_button_text": "二分法除錯",
@@ -31,7 +31,7 @@
                     "help": "將論壇切換為維護模式，以防止使用者存取。",
                     "options": {
                         "none": "無維護。",
-                        "high": "高階維護模式。所有人都無法存取論壇（僅能透過 <code>config.php</code> 啟用）。",
+                        "high": "高階維護模式。所有人都無法存取論壇（僅能透過 <code>config.php</code> 啟用）",
                         "low": "低階維護模式。管理員仍可存取論壇。",
                         "safe": "安全模式。不載入任何擴充套件，且僅管理員可存取論壇。"
                     },
@@ -94,7 +94,7 @@
                 "title": "進階"
             },
             "appearance": {
-                "allow_user_color_scheme_label": "允許使用者自行選擇配色主題。",
+                "allow_user_color_scheme_label": "允許使用者自行選擇配色主題",
                 "colored_header_label": "導航欄上色",
                 "colors_heading": "顏色",
                 "colors_primary_label": "主色調",
@@ -197,7 +197,7 @@
             },
             "dashboard": {
                 "clear_cache_button": "清除快取",
-                "description": "論壇資訊總覽",
+                "description": "論壇資訊總覽。",
                 "info_button": "系統訊息",
                 "info_modal": {
                     "title": "系統訊息",
@@ -243,7 +243,7 @@
                 "label": "數據庫驅動不匹配"
             },
             "debug-warning": {
-                "detail": "啟用 <code>調適</code> 模式時，<code>JavaScript</code> 和 <code>CSS</code> 檔案將於每次請求時返回全新的編譯版本。調試模式中，所有日誌、警告和錯誤均會以彈窗形式展示在網頁中，資料庫密碼、環境變數等敏感資訊均有可能在此期間洩漏。 \n \n因此我們強烈建議您在生產環境中將 <code>config.php</code> 檔案中的 <code>debug</code> 設置為 <code>false</code> 以禁用調試模式。請查看 <link>Flarum 文件</link>了解更多資訊。\n",
+                "detail": "啟用 <code>debug</code> 模式時，<code>JavaScript</code> 和 <code>CSS</code> 檔案將於每次請求時返回全新的編譯版本。調試模式中，所有日誌、警告和錯誤均會以彈窗形式展示在網頁中，資料庫密碼、環境變數等敏感資訊均有可能在此期間洩漏。 \n \n因此我們強烈建議您在生產環境中將 <code>config.php</code> 檔案中的禁用 <code>debug</code> 模式。請查看 <link>Flarum 文件</link>了解更多資訊。\n",
                 "label": "除錯模式啟動"
             },
             "edit_css": {
@@ -276,7 +276,7 @@
             },
             "email": {
                 "addresses_heading": "郵箱地址",
-                "description": "配置論壇郵件服務",
+                "description": "配置論壇郵件服務。",
                 "driver_heading": "驅動模式",
                 "driver_label": "驅動",
                 "format": {
@@ -294,7 +294,7 @@
                 "mail_host_label": "主機",
                 "mail_mailgun_domain_label": "域名",
                 "mail_mailgun_region_label": "區域",
-                "mail_mailgun_secret_label": "Secret key",
+                "mail_mailgun_secret_label": "密鑰",
                 "mail_password_label": "密碼",
                 "mail_port_label": "通訊埠",
                 "mail_postmark_message_stream_label": "訊息串流",
@@ -309,7 +309,7 @@
                 "send_test_mail_button": "發送",
                 "send_test_mail_heading": "發送測試郵件",
                 "send_test_mail_success": "測試郵件發送成功！",
-                "send_test_mail_text": "使用上述設置發送測試郵件到您的郵箱：{email}",
+                "send_test_mail_text": "使用上述設置發送測試郵件到您的郵箱：{email}。",
                 "smtp_heading": "SMTP 設定",
                 "smtp_description": "設定 SMTP 連線參數。常見設定為連接埠 587（TLS）或連接埠 465（SSL）。",
                 "title": "信箱"
@@ -526,11 +526,11 @@
                 "discard_confirmation": "貼文尚未發佈，是否丟棄？",
                 "submit_button": "發佈",
                 "title": "=> core.ref.start_a_discussion",
-                "title_placeholder": "文章標題 ..."
+                "title_placeholder": "文章標題"
             },
             "composer_edit": {
                 "discard_confirmation": "更改未儲存，是否丟棄？",
-                "edited_message": "編輯成功",
+                "edited_message": "編輯成功。",
                 "post_link": "發佈 #{number} 於 {discussion}",
                 "submit_button": "儲存更改",
                 "view_button": "查看"
@@ -555,7 +555,7 @@
                 "toggle_dropdown_accessible_label": "主題下拉選單開關"
             },
             "discussion_list": {
-                "empty_text": "因為什麼都沒有，所以什麼都做得到",
+                "empty_text": "因為什麼都沒有，所以什麼都做得到。",
                 "load_more_button": "載入更多",
                 "replied_text": "{username} 回覆於 {ago}",
                 "skip_discussion_list_pane": "跳過討論列表面版",
@@ -747,7 +747,7 @@
                 "in_discussion_text": "於 {discussion}",
                 "joined_date_text": "加入於 {ago}",
                 "online_text": "正在線上",
-                "posts_empty_text": "暫無內容",
+                "posts_empty_text": "暫無內容。",
                 "posts_link": "貼文",
                 "posts_load_more_button": "載入更多",
                 "security_link": "=> core.ref.security",
@@ -1096,7 +1096,7 @@
             "extensions": "擴充套件",
             "generic_confirmation_message": "您確定要繼續嗎？ 此操作無法撤銷。",
             "icon": "圖示",
-            "icon_text": "輸入任意一個 <a>FontAwesome</a> 圖示名稱，<em>需要包含</em>前綴 ，例如 <code>fas fa-</code>。",
+            "icon_text": "輸入任意一個 <a>FontAwesome</a> 圖示名稱，<em>需要包含</em>前綴 ，例如 <code>fas fa-</code>或 <code>fa-solid fa-flag</code>。",
             "invalid_login_message": "您的登錄信息不正確。",
             "light_hc_mode_label": "淺色高對比度模式",
             "light_mode_label": "淺色模式",
