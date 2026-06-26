@@ -746,6 +746,12 @@ return [
 			'pl',
 		],
 	],
+	'shebaoting-repost' => [
+		'tag' => 'https://raw.githubusercontent.com/shebaoting/flarum-repost/v2.0.2/locale/en.yml',
+		'__builtInLanguages' => [
+			'zh_Hans',
+		],
+	],
 	'sycho-advanced-extension-categories' => [
 		'tag' => 'https://raw.githubusercontent.com/SychO9/flarum-advanced-extension-categories/v0.2.1/locale/en.yml',
 	],
