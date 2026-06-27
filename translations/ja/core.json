@@ -25,12 +25,12 @@
                         "yes_button": "はい"
                     },
                     "config_override": {
-                        "label": "",
-                        "help": ""
+                        "label": "あなたの<code>config.php</code>ファイルがこれらの設定を上書きしています。",
+                        "help": "ここでこれらの設定を変更することはできますが、<code>config.php</code> ファイルで <code>offline</code> を <code>0</code> に設定するまでは変更は有効になりません。"
                     },
-                    "help": "",
+                    "help": "ユーザーアクセスを防止するため、フォーラムをメンテナンスモードに切り替えてください。",
                     "options": {
-                        "none": "",
+                        "none": "メンテナンス不要。",
                         "high": "",
                         "low": "",
                         "safe": ""
