@@ -2,40 +2,40 @@
     "ernestdefoe-seo": {
         "admin": {
             "permissions": {
-                "configure_seo": ""
+                "configure_seo": "允许配置SEO"
             },
             "settings_page": {
                 "menu": {
-                    "health_check": "",
-                    "seo_settings": "",
-                    "sitemap_information": "",
-                    "search_engine_information": "",
-                    "set_up_ssl": ""
+                    "health_check": "健康检查",
+                    "seo_settings": "SEO设置",
+                    "sitemap_information": "站点地图信息",
+                    "search_engine_information": "搜索引擎信息",
+                    "set_up_ssl": "设置 SSL"
                 }
             },
             "meta_seo_modal": {
-                "title": "",
-                "managed_label": "",
-                "upload_button": "",
+                "title": "SEO 设置 - 元",
+                "managed_label": "管理",
+                "upload_button": "上传文件",
                 "not_supported": {
-                    "alert_title": "",
-                    "alert_body": "",
-                    "documentation_link": ""
+                    "alert_title": "此对象不是受支持的 SEO 元数据对象",
+                    "alert_body": "请使用 objectType 和 objectId 属性打开此对话框，或者改为注册对象关系。",
+                    "documentation_link": "文档"
                 },
                 "auto_update": {
-                    "title": "",
-                    "help": "",
-                    "switch_label": ""
+                    "title": "自动更新元标签",
+                    "help": "如果启用，这些元标签将在对象发生变化时自动更新。",
+                    "switch_label": "更改时更新对象 SEO"
                 },
                 "meta_title": {
-                    "title": "",
-                    "help": "",
-                    "placeholder": ""
+                    "title": "元标题",
+                    "help": "在搜索引擎中的标题。",
+                    "placeholder": "输入页面标题"
                 },
                 "meta_description": {
-                    "title": "",
-                    "help": "",
-                    "placeholder": ""
+                    "title": "元描述",
+                    "help": "描述信息，并在搜索引擎中显示。",
+                    "placeholder": "添加描述"
                 },
                 "keywords": {
                     "title": "",
