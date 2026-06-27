@@ -70,8 +70,8 @@
         "lib": {
             "browser": {
                 "posts": {
-                    "moved": "",
-                    "moved_to_new_discussion": ""
+                    "moved": "将 {post_count, plural, one {one post} other {{post_count} posts}} 从 {discussion} 移动到 {new_discussion}",
+                    "moved_to_new_discussion": "将 {post_count, plural, one {one post} other {{post_count} posts}} 从 {discussion} 移动到新讨论 {new_discussion}"
                 }
             }
         }
