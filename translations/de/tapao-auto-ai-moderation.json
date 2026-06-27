@@ -2,39 +2,39 @@
     "tapao-moderationai": {
         "admin": {
             "settings": {
-                "title": "",
-                "api_key_label": "",
-                "api_key_placeholder": "",
-                "model_label": "",
-                "enabled_label": "",
-                "mode_label": "",
-                "mode_sync": "",
-                "mode_async": "",
-                "scan_images_label": "",
-                "scan_private_messages_label": "",
-                "exempt_groups_label": "",
-                "thresholds_heading": "",
-                "trust_skip_threshold_label": "",
-                "trust_skip_threshold_help": "",
-                "webhook_url_label": "",
-                "webhook_url_help": "",
-                "test_connection": "",
-                "connection_ok": "",
-                "connection_fail": ""
+                "title": "ModerationA-Einstellungen",
+                "api_key_label": "OpenAI-API-Schlüssel",
+                "api_key_placeholder": "sk-...",
+                "model_label": "Moderationsmodell",
+                "enabled_label": "Auto-Moderation aktivieren",
+                "mode_label": "Moderationsmodus",
+                "mode_sync": "Synchron (Blockiert vor dem Speichern)",
+                "mode_async": "Asynchron (Überprüfung nach dem Speichern)",
+                "scan_images_label": "Bilder moderieren (omni-moderation-latest erforderlich)",
+                "scan_private_messages_label": "Private Nachrichten moderieren (fof/byobu)",
+                "exempt_groups_label": "Ausgenommene Benutzergruppen",
+                "thresholds_heading": "Schwellenwerte & Maßnahmen je Kategorie",
+                "trust_skip_threshold_label": "Vertrauenswürdigkeit – Schwellenwert zum Überspringen (0–100)",
+                "trust_skip_threshold_help": "Benutzer, deren Punktzahl darüber liegt, werden nicht moderiert (Vertrauenssystem).",
+                "webhook_url_label": "Webhook-URL (optional)",
+                "webhook_url_help": "JSON für jedes gemeldete Element, das über POST gesendet wird.",
+                "test_connection": "API-Verbindung testen",
+                "connection_ok": "✓ API-Verbindung hergestellt",
+                "connection_fail": "✗ API-Verbindung fehlgeschlagen – API-Schlüssel überprüfen"
             },
             "log": {
-                "title": "",
-                "approve": "",
-                "reject": "",
-                "escalate": "",
-                "pending": "",
-                "decision_approved": "",
-                "decision_rejected": ""
+                "title": "Moderationsprotokoll",
+                "approve": "Genehmigen",
+                "reject": "Ablehnen (Inhalt wiederherstellen)",
+                "escalate": "Eskalieren",
+                "pending": "Wird derzeit geprüft",
+                "decision_approved": "✓ Genehmigt",
+                "decision_rejected": "✗ Abgelehnt (wiederhergestellt)"
             }
         },
         "forum": {
-            "post_under_review": "",
-            "upload_rejected": ""
+            "post_under_review": "Dein Beitrag wird derzeit von unserem Moderationssystem geprüft und wird in Kürze erscheinen.",
+            "upload_rejected": "Diese Datei wurde vom Inhaltsmoderationssystem abgelehnt."
         }
     }
 }

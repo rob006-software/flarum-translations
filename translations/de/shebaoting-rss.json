@@ -6,7 +6,7 @@
                 "heading": {
                     "title": "RSS-Feed-Titel",
                     "url": "RSS-Feed-URL",
-                    "user": "",
+                    "user": "Zugewiesener Benutzer",
                     "status": "Genehmigungsstatus",
                     "actions": "Aktionen"
                 },
@@ -27,10 +27,10 @@
                 "materialized_tag_label": "Thema für RSS-Diskussionen",
                 "materialized_tag_help": "Wenn ein Nutzer zum ersten Mal einen Kommentar zu einem RSS-Artikel hinterlässt, wird eine echte Diskussion erstellt und diesem Flarum-Thema zugeordnet.",
                 "materialized_tag_none": "Kein Thema",
-                "user_select_title": "",
-                "user_bind_tooltip": "",
-                "user_change_tooltip": "",
-                "user_unbind_tooltip": "",
+                "user_select_title": "Zugewiesenen Benutzer auswählen",
+                "user_bind_tooltip": "Benutzer zuweisen",
+                "user_change_tooltip": "Zugewiesenen Benutzer ändern",
+                "user_unbind_tooltip": "Zugewiesenen Benutzer entfernen",
                 "preview_default_title": "RSS-Feed",
                 "preview_title": "RSS-Artikel von {title}",
                 "preview_empty": "Dieser RSS-Feed hat keine Artikel zurückgegeben.",
@@ -49,41 +49,41 @@
             "open_original": "Originalartikel öffnen",
             "unknown_site": "RSS-Feed",
             "index": {
-                "switch_to_native_tooltip": "",
-                "switch_to_rss_tooltip": "",
-                "submit_feed_tooltip": ""
+                "switch_to_native_tooltip": "Zur nativen Diskussionsliste wechseln",
+                "switch_to_rss_tooltip": "Zur RSS-Mischliste wechseln",
+                "submit_feed_tooltip": "RSS-Feed hinzufügen"
             },
             "settings": {
                 "heading": "RSS",
-                "show_on_index_label": "",
-                "show_on_index_help": ""
+                "show_on_index_label": "RSS-Artikel auf der Startseite anzeigen",
+                "show_on_index_help": "Wenn diese Option aktiviert ist, wird standardmäßig die gemischte RSS-Liste als Startseite angezeigt. Ist sie deaktiviert, wird standardmäßig die native Diskussionsliste angezeigt."
             },
             "comment": {
-                "title": "",
-                "placeholder": "",
-                "submit_button": "",
+                "title": "Diskutiere mit",
+                "placeholder": "Schreibe deinen Kommentar...",
+                "submit_button": "Kommentar hinterlassen",
                 "cancel_button": "Abbrechen",
-                "login_button": "",
-                "submit_error": "",
-                "view_comments": "",
+                "login_button": "Anmelden, um zu kommentieren",
+                "submit_error": "Dein Kommentar konnte nicht veröffentlicht werden. Bitte versuche es erneut.",
+                "view_comments": "Kommentare anzeigen",
                 "comment_count": "{count} Kommentare",
-                "validation_required": "",
-                "validation_too_long": "",
-                "source_line": "",
-                "published_line": "",
-                "original_link_line": ""
+                "validation_required": "Ein Kommentartext ist erforderlich.",
+                "validation_too_long": "Der Kommentartext ist zu lang.",
+                "source_line": "Quelle: {site}",
+                "published_line": "Veröffentlicht: {time}",
+                "original_link_line": "Originalartikel: {url}"
             },
             "submit_modal": {
-                "title": "",
-                "site_title_label": "",
-                "site_title_placeholder": "",
+                "title": "RSS-Feed einreichen",
+                "site_title_label": "Titel der Website",
+                "site_title_placeholder": "Titel der Website eingeben",
                 "url_label": "RSS-URL",
-                "url_placeholder": "",
-                "submit_button": "",
-                "validation_error": "",
-                "load_error": "",
-                "submit_error": "",
-                "success_message": ""
+                "url_placeholder": "Gib die URL des RSS-Feeds ein",
+                "submit_button": "Absenden",
+                "validation_error": "Die RSS-URL und der Seitentitel sind erforderlich.",
+                "load_error": "Dein RSS-Feed konnte nicht geladen werden.",
+                "submit_error": "Die Übermittlung ist fehlgeschlagen. Bitte versuche es erneut.",
+                "success_message": "RSS-Feed wurde erfolgreich übermittelt."
             }
         }
     }
