@@ -2,18 +2,18 @@
     "fof-online-users-widget": {
         "admin": {
             "settings": {
-                "cache_ttl": "",
-                "last_seen_interval": "",
-                "max_users": ""
+                "cache_ttl": "用户列表缓存保持时间（秒）",
+                "last_seen_interval": "判断用户是否在线的最后在线时间间隔（以分钟为单位）",
+                "max_users": "最大显示用户数"
             },
             "permissions": {
-                "view_online_users_widget": ""
+                "view_online_users_widget": "查看在线用户小部件"
             }
         },
         "forum": {
             "widget": {
-                "title": "",
-                "empty": ""
+                "title": "在线用户",
+                "empty": "目前没有用户在线。"
             }
         }
     }
