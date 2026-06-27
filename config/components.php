@@ -771,7 +771,7 @@ return [
 		],
 	],
 	'shebaoting-rss' => [
-		'tag' => 'https://raw.githubusercontent.com/shebaoting/flarum-rss/2.0.2/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/shebaoting/flarum-rss/2.0.3/locale/en.yml',
 		'__builtInLanguages' => [
 			'zh_Hans',
 		],
