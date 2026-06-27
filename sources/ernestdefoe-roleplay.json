@@ -41,6 +41,9 @@
             "no_cards": "You haven’t built any cards yet.",
             "shared_cards": "Shared cards",
             "shared": "Shared",
+            "scope_shared": "Shared",
+            "scope_private": "My deck",
+            "icon_preview": "Preview",
             "delete": "Delete",
             "confirm_delete_card": "Delete the card “{name}”? This can’t be undone.",
             "encounter": "Encounter",
@@ -70,6 +73,10 @@
             "crit_toast": "Critical hit with {card}!",
             "outcome_victory": "Victory!",
             "outcome_defeat": "Defeat…"
+        },
+        "admin": {
+            "tags_label": "Role-play tags",
+            "tags_help": "Comma-separated tag slugs where role-play is enabled — the character picker, the deck and combat encounters only appear in discussions with one of these tags. Leave blank to allow role-play in every discussion."
         }
     }
 }
