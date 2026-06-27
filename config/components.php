@@ -753,7 +753,7 @@ return [
 		],
 	],
 	'shebaoting-avatar' => [
-		'tag' => 'https://raw.githubusercontent.com/shebaoting/flarum-avatar/2.0.4/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/shebaoting/flarum-avatar/2.0.8/locale/en.yml',
 		'__builtInLanguages' => [
 			'zh_Hans',
 		],
