@@ -152,6 +152,9 @@ return [
 	'ernestdefoe-respawn' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/respawn/3.0.2/locale/en.yml',
 	],
+	'ernestdefoe-roleplay' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/roleplay/v1.0.1/resources/locale/en.yml',
+	],
 	'ernestdefoe-seo' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/seo/2.0.12/locale/en.yml',
 	],
