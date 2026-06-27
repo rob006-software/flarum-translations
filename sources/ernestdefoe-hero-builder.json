@@ -1,0 +1,33 @@
+{
+    "ernestdefoe-hero-builder": {
+        "admin": {
+            "enabled": "Enable Hero Builder",
+            "enabled_help": "Master switch — show the animated hero on the discussion list and every tag page.",
+            "studio": {
+                "context": "Editing hero for",
+                "home": "Home",
+                "loading_tags": "Loading tags…",
+                "show_hero": "Show the hero here",
+                "title": "Title",
+                "subtitle": "Subtitle",
+                "icon": "Icon (Font Awesome)",
+                "icon_help": "Type any Font Awesome class — e.g. fas fa-dragon, fas fa-fire, fab fa-discord.",
+                "icon_bg": "Show icon (with its background square)",
+                "sharp_corners": "Sharp corners (instead of rounded)",
+                "c1": "Gradient colour 1",
+                "c2": "Gradient colour 2",
+                "image": "Cover image URL",
+                "image_help": "Optional. A full image URL shown instead of the gradient.",
+                "height": "Height (px)",
+                "height_help": "Optional. Banner height in pixels (defaults to 150).",
+                "width": "Max width (px)",
+                "width_ph": "Full width",
+                "show_stats": "Show stats"
+            }
+        },
+        "forum": {
+            "discussions": "Discussions",
+            "posts": "Posts"
+        }
+    }
+}

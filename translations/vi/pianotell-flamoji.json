@@ -19,8 +19,6 @@
                 "show_search_text": "Hiển thị hộp tìm kiếm ở đầu bộ chọn.",
                 "show_recents_label": "Hiển thị (và lưu) các emoji thường dùng",
                 "show_recents_text": "Hiển thị tab Thường dùng ở đầu bộ chọn. Danh sách thường dùng của mỗi người dùng chỉ được lưu trong trình duyệt của riêng họ.",
-                "prepopulate_recents_label": "Điền sẵn các emoji phổ biến",
-                "prepopulate_recents_text": "Khi bật, phần Thường dùng sẽ hiển thị một bộ emoji phổ biến mặc định trước khi người dùng chọn bất kỳ emoji nào. Khi tắt, phần này sẽ trống và dần được lấp đầy khi người dùng chọn emoji.",
                 "frequent_rows_label": "Số hàng emoji thường dùng",
                 "frequent_rows_text": "Số hàng emoji được dùng gần đây/thường xuyên hiển thị ở đầu bộ chọn (1-10).",
                 "picker_set_label": "Kiểu emoji",
@@ -39,7 +37,9 @@
                     "objects": "=> pianotell-flamoji.ref.emoji_categories.objects",
                     "symbols": "=> pianotell-flamoji.ref.emoji_categories.symbols",
                     "flags": "=> pianotell-flamoji.ref.emoji_categories.flags"
-                }
+                },
+                "prepopulate_recents_label": "Điền sẵn các emoji phổ biến",
+                "prepopulate_recents_text": "Khi bật, phần Thường dùng sẽ hiển thị một bộ emoji phổ biến mặc định trước khi người dùng chọn bất kỳ emoji nào. Khi tắt, phần này sẽ trống và dần được lấp đầy khi người dùng chọn emoji."
             },
             "custom_emojis_section": {
                 "heading_title": "Emoji tùy chỉnh",

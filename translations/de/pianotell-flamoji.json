@@ -19,8 +19,6 @@
                 "show_search_text": "Zeige das Suchfeld oben im Auswahlfeld an.",
                 "show_recents_label": "Häufig verwendete Emojis anzeigen (und speichern)",
                 "show_recents_text": "Zeige die Registerkarte „Häufig verwendet“ oben im Auswahlfeld an. Die Favoriten jedes Benutzers werden ausschließlich in seinem eigenen Browser gespeichert.",
-                "prepopulate_recents_label": "Mit beliebten Emojis vorab füllen",
-                "prepopulate_recents_text": "Wenn aktiviert, werden im Bereich „Häufig verwendet“ standardmäßig beliebte Emojis angezeigt, noch bevor der Benutzer welche ausgewählt hat. Wenn deaktiviert, ist der Bereich zunächst leer und füllt sich erst, wenn der Benutzer Emojis auswählt.",
                 "frequent_rows_label": "Reihen häufiger Emojis",
                 "frequent_rows_text": "Anzahl der Zeilen mit zuletzt/häufig verwendeten Emojis, die oben im Auswahlfeld angezeigt werden sollen (1–10).",
                 "picker_set_label": "Emoji-Stil",
@@ -39,7 +37,9 @@
                     "objects": "=> pianotell-flamoji.ref.emoji_categories.objects",
                     "symbols": "=> pianotell-flamoji.ref.emoji_categories.symbols",
                     "flags": "=> pianotell-flamoji.ref.emoji_categories.flags"
-                }
+                },
+                "prepopulate_recents_label": "Mit beliebten Emojis vorab füllen",
+                "prepopulate_recents_text": "Wenn aktiviert, werden im Bereich „Häufig verwendet“ standardmäßig beliebte Emojis angezeigt, noch bevor der Benutzer welche ausgewählt hat. Wenn deaktiviert, ist der Bereich zunächst leer und füllt sich erst, wenn der Benutzer Emojis auswählt."
             },
             "custom_emojis_section": {
                 "heading_title": "Benutzerdefinierte Emojis",

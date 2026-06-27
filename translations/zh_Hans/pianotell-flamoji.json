@@ -19,8 +19,6 @@
                 "show_search_text": "在选择器顶部显示搜索框。",
                 "show_recents_label": "保存并展示常用表情",
                 "show_recents_text": "在选择器顶部，显示常用表情选项卡。用户的常用表情，仅存储在浏览器本地。",
-                "prepopulate_recents_label": "预设常用表情",
-                "prepopulate_recents_text": "启用该设置后，在用户选择任意表情之前，常用表情栏将展示默认的常用表情。如关闭该设置，常用表情栏默认为空，逐渐填充为用户选择的表情。",
                 "frequent_rows_label": "常用表情栏",
                 "frequent_rows_text": "设置显示在选择顶部的最近常用表情行数（1-10）。",
                 "picker_set_label": "表情风格",
@@ -39,7 +37,9 @@
                     "objects": "=> pianotell-flamoji.ref.emoji_categories.objects",
                     "symbols": "=> pianotell-flamoji.ref.emoji_categories.symbols",
                     "flags": "=> pianotell-flamoji.ref.emoji_categories.flags"
-                }
+                },
+                "prepopulate_recents_label": "预设常用表情",
+                "prepopulate_recents_text": "启用该设置后，在用户选择任意表情之前，常用表情栏将展示默认的常用表情。如关闭该设置，常用表情栏默认为空，逐渐填充为用户选择的表情。"
             },
             "custom_emojis_section": {
                 "heading_title": "自定义表情",
