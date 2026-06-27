@@ -71,8 +71,8 @@
         "lib": {
             "browser": {
                 "user": {
-                    "suspended": "",
-                    "unsuspended": ""
+                    "suspended": "用户 {username} 已被封禁，直到 {until}",
+                    "unsuspended": "被封禁的用户{username}"
                 }
             }
         }
