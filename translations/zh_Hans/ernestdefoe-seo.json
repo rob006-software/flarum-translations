@@ -68,50 +68,50 @@
                     "switch_nosnippet": "禁用页面上的文本片段（nosnippet）"
                 },
                 "reading_time": {
-                    "title": "",
-                    "help": "",
-                    "placeholder": ""
+                    "title": "预计阅读时间",
+                    "help": "预计阅读时间（秒）。",
+                    "placeholder": "阅读时间（秒）"
                 },
                 "twitter": {
-                    "card_title": "",
-                    "switch_auto": "",
-                    "title": "",
-                    "description": "",
-                    "image_title": "",
-                    "image_help": "",
-                    "image_placeholder": "",
-                    "image_managed_by": "",
-                    "reset_image": ""
+                    "card_title": "Twitter 卡片",
+                    "switch_auto": "自动生成 Twitter 卡片",
+                    "title": "Twitter标题",
+                    "description": "Twitter简介",
+                    "image_title": "Twitter图片",
+                    "image_help": "在Twitter上显示一张图片。",
+                    "image_placeholder": "输入图片URL",
+                    "image_managed_by": "图片来源由 {source} 管理",
+                    "reset_image": "重置图片"
                 },
                 "open_graph": {
-                    "tags_title": "",
-                    "switch_auto": "",
-                    "title": "",
-                    "description": "",
-                    "description_placeholder": ""
+                    "tags_title": "Open Graph 标签",
+                    "switch_auto": "自动生成Open Graph标签",
+                    "title": "Open Graph 标题",
+                    "description": "Open Graph简介",
+                    "description_placeholder": "自定义 Open Graph 简介"
                 },
                 "footer": {
-                    "note_prefix": "",
-                    "revert_warning": ""
+                    "note_prefix": "笔记：",
+                    "revert_warning": "此更改将撤销自定义更改，并使用项目数据填充元标签。"
                 },
                 "buttons": {
-                    "close": "",
-                    "save": "",
-                    "save_and_autofill": ""
+                    "close": "关闭",
+                    "save": "保存",
+                    "save_and_autofill": "保存并自动填充"
                 },
                 "alerts": {
-                    "saved": "",
-                    "save_error": ""
+                    "saved": "已保存！",
+                    "save_error": "无法保存SEO设置。请稍后重试或检查服务器日志。"
                 }
             }
         },
         "forum": {
-            "profile_title": "",
-            "profile_description": "",
+            "profile_title": "{username} 的个人资料",
+            "profile_description": "用户 {username} 的个人资料 | 讨论数 {discussion_count} 场 | 评论数 {comment_count} 篇",
             "controls": {
-                "configure_seo": "",
-                "update_seo": "",
-                "reset_seo": ""
+                "configure_seo": "配置SEO",
+                "update_seo": "更新SEO",
+                "reset_seo": "重置SEO"
             }
         }
     }
