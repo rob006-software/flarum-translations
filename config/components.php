@@ -1689,7 +1689,7 @@ return [
 		],
 	],
 	'tapao-custom-landing-page' => [
-		'tag' => 'https://raw.githubusercontent.com/Tapao-NonSen/Custom-Landing-Page/1.0.3/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/Tapao-NonSen/Custom-Landing-Page/1.0.4/locale/en.yml',
 	],
 	'therealsujitk-gifs' => [
 		'tag' => 'https://raw.githubusercontent.com/therealsujitk/flarum-ext-gifs/v4.1.1/resources/locale/en.yml',
