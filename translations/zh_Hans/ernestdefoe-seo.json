@@ -38,27 +38,27 @@
                     "placeholder": "添加描述"
                 },
                 "keywords": {
-                    "title": "",
-                    "help": "",
-                    "placeholder": "",
-                    "note": "",
-                    "example_prefix": "",
-                    "example": ""
+                    "title": "关键词",
+                    "help": "请输入一个或多个描述此站点的关键词。",
+                    "placeholder": "添加一些关键词",
+                    "note": "注意：关键词之间用逗号分隔。",
+                    "example_prefix": "例如：",
+                    "example": "Flarum、网站开发、论坛、苹果、安全"
                 },
                 "meta_image": {
-                    "title": "",
-                    "help": "",
-                    "placeholder": "",
-                    "managed_by": ""
+                    "title": "元图片",
+                    "help": "显示图像。",
+                    "placeholder": "输入图片URL地址",
+                    "managed_by": "图片来源由 {source} 管理"
                 },
                 "robots": {
-                    "title": "",
-                    "help": "",
-                    "tag_index_allowed": "",
-                    "tag_index_disallowed": "",
-                    "tag_follow_allowed": "",
-                    "tag_follow_disallowed": "",
-                    "tag_noarchive": "",
+                    "title": "抓取机器人(Robots)",
+                    "help": "此站点在搜索引擎的抓取机器人（Robots）爬取设置。",
+                    "tag_index_allowed": "允许索引的页面",
+                    "tag_index_disallowed": "不被允许索引的页面",
+                    "tag_follow_allowed": "允许关注的链接",
+                    "tag_follow_disallowed": "不被允许关注的链接",
+                    "tag_noarchive": "不被允许存档的页面",
                     "tag_noimageindex": "",
                     "tag_nosnippet": "",
                     "switch_noindex": "",
