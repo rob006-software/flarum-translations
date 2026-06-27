@@ -126,6 +126,7 @@
                 "upload": "Could not upload file.",
                 "upload_no_files": "Upload returned no files. Please try again.",
                 "load_ticket": "Could not load this ticket. It may have been deleted, or you may not have permission to view it.",
+                "load_more_replies": "Could not load more replies.",
                 "update_assignment": "Could not update assignment.",
                 "update_status": "Could not update status.",
                 "update_decision": "Could not update the appeal decision.",
@@ -200,12 +201,16 @@
                 "attach_files": "Attach files",
                 "claim": "Claim",
                 "unassign": "Unassign",
+                "reopen": "Reopen ticket",
                 "edit": "Edit",
                 "delete": "Delete",
                 "restore": "Restore",
-                "cancel": "Cancel"
+                "cancel": "Cancel",
+                "load_more_replies": "Load more replies",
+                "loading_more": "Loading…"
             },
             "confirm": {
+                "close_ticket": "Close this ticket? It cannot be replied to until it is reopened.",
                 "delete_reply_forever": "Permanently delete this reply? This cannot be undone.",
                 "soft_delete_reply": "Soft-delete this reply? Staff can restore it later.",
                 "soft_delete_ticket": "Soft-delete this ticket? It will be hidden from the index and from the ticket owner; staff can restore it.",
@@ -239,6 +244,7 @@
         "api": {
             "assign_staff_only": "Tickets can only be assigned to support staff.",
             "category_required": "A category is required.",
+            "subject_required": "A subject is required.",
             "ticket_soft_delete_first": "A ticket must be soft-deleted before it can be permanently removed.",
             "login_required_reply": "You must be logged in to reply.",
             "reply_content_required": "Reply content is required.",

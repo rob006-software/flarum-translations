@@ -126,6 +126,7 @@
                 "upload": "",
                 "upload_no_files": "",
                 "load_ticket": "",
+                "load_more_replies": "",
                 "update_assignment": "",
                 "update_status": "",
                 "update_decision": "",
@@ -200,12 +201,16 @@
                 "attach_files": "",
                 "claim": "",
                 "unassign": "",
+                "reopen": "",
                 "edit": "",
                 "delete": "",
                 "restore": "",
-                "cancel": ""
+                "cancel": "",
+                "load_more_replies": "",
+                "loading_more": ""
             },
             "confirm": {
+                "close_ticket": "",
                 "delete_reply_forever": "",
                 "soft_delete_reply": "",
                 "soft_delete_ticket": "",
@@ -239,6 +244,7 @@
         "api": {
             "assign_staff_only": "",
             "category_required": "",
+            "subject_required": "",
             "ticket_soft_delete_first": "",
             "login_required_reply": "",
             "reply_content_required": "",

@@ -142,6 +142,7 @@
                 "upload": "Impossible de transférer le fichier.",
                 "upload_no_files": "Aucun fichier n'a été transféré. Veuillez réessayer.",
                 "load_ticket": "Impossible de charger ce ticket. Il a peut-être été supprimé, ou vous ne disposez peut-être pas des autorisations nécessaires pour le consulter.",
+                "load_more_replies": "",
                 "update_assignment": "Impossible de mettre à jour l'affectation.",
                 "update_status": "Impossible de mettre à jour le status.",
                 "update_decision": "Impossible de mettre à jour la décision de recours.",
@@ -216,12 +217,16 @@
                 "attach_files": "Joindre des fichiers",
                 "claim": "Affecter",
                 "unassign": "Désaffecter",
+                "reopen": "",
                 "edit": "Modifier",
                 "delete": "Supprimer",
                 "restore": "Restaurer",
-                "cancel": "Annuler"
+                "cancel": "Annuler",
+                "load_more_replies": "",
+                "loading_more": ""
             },
             "confirm": {
+                "close_ticket": "",
                 "delete_reply_forever": "Supprimer définitivement cette réponse ? Cette action est irréversible.",
                 "soft_delete_reply": "Supprimer temporairement cette réponse ? L'équipe pourra la restaurer ultérieurement.",
                 "soft_delete_ticket": "Supprimer temporairement ce ticket ? Il sera masqué de l'index et de son propriétaire ; l'équipe pourra le restaurer ultérieurement.",
@@ -255,6 +260,7 @@
         "api": {
             "assign_staff_only": "Les tickets ne peuvent être attribués qu'à l'équipe.",
             "category_required": "Une catégorie est requise.",
+            "subject_required": "",
             "ticket_soft_delete_first": "Un ticket doit être supprimé temporairement avant de pouvoir être définitivement supprimé.",
             "login_required_reply": "Vous devez être connecté pour répondre.",
             "reply_content_required": "Le contenu de la réponse est requis.",

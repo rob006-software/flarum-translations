@@ -22,12 +22,20 @@
                 "height_help": "Optional. Banner height in pixels (defaults to 150).",
                 "width": "Max width (px)",
                 "width_ph": "Full width",
-                "show_stats": "Show stats"
+                "show_stats": "Show stats",
+                "stats_custom": "Stats",
+                "stats_custom_help": "Optional — leave empty to show LIVE stats automatically (the home hero shows forum totals: discussions, posts, members; a tag hero shows its discussion count). Add rows here only to override them with your own. Each row: a value, a Font Awesome icon, and a label.",
+                "stat_value": "Value (e.g. 1.2k)",
+                "stat_icon": "Icon (e.g. fas fa-users)",
+                "stat_label": "Label",
+                "stat_add": "Add stat",
+                "stat_remove": "Remove"
             }
         },
         "forum": {
             "discussions": "Discussions",
-            "posts": "Posts"
+            "posts": "Posts",
+            "members": "Members"
         }
     }
 }
