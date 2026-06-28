@@ -1260,9 +1260,9 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`sas_sam-regrole`](https://weblate.rob006.net/projects/flarum/sas_sam-regrole) | [`sas_sam/flarum-regrole`](https://github.com/SasSam/flarum-regrole) |
 | [`serakoi-hideprofile`](https://weblate.rob006.net/projects/flarum/serakoi-hideprofile) | [`serakoi/flarum-hideprofile`](https://github.com/Serakoi/flarum-hideprofile) |
 | [`serakoi-flarumstaffbadge`](https://weblate.rob006.net/projects/flarum/serakoi-flarumstaffbadge) | [`serakoi/flarumstaffbadge`](https://github.com/ThatKoffe/flarumstaffbadge) |
-| [`shebaoting-dependency-collector`](https://weblate.rob006.net/projects/flarum/shebaoting-dependency-collector) | [`shebaoting/dependency-collector`](https://github.com/shebaoting/dependency-collector) |
-| [`shebaoting-money`](https://weblate.rob006.net/projects/flarum/shebaoting-money) | [`shebaoting/money`](https://github.com/shebaoting/money) |
-| [`shebaoting-repost`](https://weblate.rob006.net/projects/flarum/shebaoting-repost) | [`shebaoting/repost`](https://github.com/shebaoting/Repost) |
+| [`shebaoting-dependency-collector`](https://weblate.rob006.net/projects/flarum/shebaoting-dependency-collector) | [`shebaoting/flarum-dependency-collector`](https://github.com/shebaoting/flarum-dependency-collector) |
+| [`shebaoting-money`](https://weblate.rob006.net/projects/flarum/shebaoting-money) | [`shebaoting/flarum-money`](https://github.com/shebaoting/flarum-money) |
+| [`shebaoting-repost`](https://weblate.rob006.net/projects/flarum/shebaoting-repost) | [`shebaoting/flarum-repost`](https://github.com/shebaoting/flarum-repost) |
 | [`songnguxyz-oauth-mediawiki`](https://weblate.rob006.net/projects/flarum/songnguxyz-oauth-mediawiki) | [`songnguxyz/oauth-mediawiki`](https://github.com/songnguxyz/flarum-ext-oauth-mediawiki) |
 | [`spookygames-auth-keycloak`](https://weblate.rob006.net/projects/flarum/spookygames-auth-keycloak) | [`spookygames/flarum-ext-auth-keycloak`](https://github.com/spookygames/flarum-ext-auth-keycloak) |
 | [`startracex-dark`](https://weblate.rob006.net/projects/flarum/startracex-dark) | [`startracex/flarum-dark`](https://github.com/startracex/flarum-dark) |
@@ -1273,6 +1273,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`sycho-private-facade`](https://weblate.rob006.net/projects/flarum/sycho-private-facade) | [`sycho/flarum-private-facade`](https://github.com/SychO9/flarum-private-facade) |
 | [`sycho-profile-cover`](https://weblate.rob006.net/projects/flarum/sycho-profile-cover) | [`sycho/flarum-profile-cover`](https://github.com/SychO9/flarum-profile-cover) |
 | [`tapao-auto-ai-moderation`](https://weblate.rob006.net/projects/flarum/tapao-auto-ai-moderation) | [`tapao/auto-ai-moderation`](https://github.com/Tapao-NonSen/Auto-AI-Moderation) |
+| [`tapao-custom-landing-page`](https://weblate.rob006.net/projects/flarum/tapao-custom-landing-page) | [`tapao/custom-landing-page`](https://github.com/Tapao-NonSen/Custom-Landing-Page) |
 | [`therealsujitk-gifs`](https://weblate.rob006.net/projects/flarum/therealsujitk-gifs) | [`therealsujitk/flarum-ext-gifs`](https://github.com/therealsujitk/flarum-ext-gifs) |
 | [`tituspijean-auth-ldap`](https://weblate.rob006.net/projects/flarum/tituspijean-auth-ldap) | [`tituspijean/flarum-ext-auth-ldap`](https://github.com/tituspijean/flarum-ext-auth-ldap) |
 | [`tokenjenny-web3`](https://weblate.rob006.net/projects/flarum/tokenjenny-web3) | [`tokenjenny/flarum-ext-web3`](https://github.com/tokenjenny/flarum-ext-web3) |
