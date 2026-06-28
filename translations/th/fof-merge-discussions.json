@@ -2,24 +2,24 @@
     "fof-merge-discussions": {
         "forum": {
             "modal": {
-                "title": "รวมกระทู้",
+                "title": "รวมโพสต์",
                 "ordering_heading": "ลำดับการรวม",
                 "ordering_date_label": "รวมโพสต์ตามวันที่สร้าง",
-                "ordering_date_help": "โพสต์ในกระทู้ที่ได้จะถูกเรียงลำดับใหม่ตามวันที่สร้างของแต่ละโพสต์",
-                "ordering_suffix_label": "เพิ่มโพสต์ที่รวมไว้ท้ายกระทู้",
-                "ordering_suffix_help": "โพสต์ที่ถูกรวมเข้ากระทู้หลักจะถูกต่อท้ายกระทู้",
+                "ordering_date_help": "โพสต์ในโพสต์ที่ได้จะถูกเรียงลำดับใหม่ตามวันที่สร้างของแต่ละโพสต์",
+                "ordering_suffix_label": "เพิ่มโพสต์ที่รวมไว้ท้ายโพสต์",
+                "ordering_suffix_help": "โพสต์ที่ถูกรวมเข้าโพสต์หลักจะถูกต่อท้ายโพสต์",
                 "type_heading": "ประเภทการรวม",
-                "type_target_label": "รวมเข้ากระทู้นี้",
-                "type_target_help_text": "เลือกกระทู้ที่ต้องการรวมเข้ากับ <b>{title}</b>",
-                "type_from_label": "รวมกระทู้นี้เข้ากับกระทู้อื่น",
-                "type_from_help_text": "เลือกกระทู้ปลายทางที่จะรวม <b>{title}</b> เข้าไป",
+                "type_target_label": "รวมเข้าโพสต์นี้",
+                "type_target_help_text": "เลือกโพสต์ที่ต้องการรวมเข้ากับ <b>{title}</b>",
+                "type_from_label": "รวมโพสต์นี้เข้ากับโพสต์อื่น",
+                "type_from_help_text": "เลือกโพสต์ปลายทางที่จะรวม <b>{title}</b> เข้าไป",
                 "load_preview_button": "ดูตัวอย่าง",
                 "submit_button": "=> fof-merge-discussions.ref.merge"
             },
             "notification": {
-                "discussion_merged": "กระทู้ <b>{oldTitle}</b> ของคุณถูก {username} รวมเข้ากับกระทู้นี้แล้ว",
+                "discussion_merged": "โพสต์ <b>{oldTitle}</b> ของคุณถูก {username} รวมเข้ากับโพสต์นี้แล้ว",
                 "preferences": {
-                    "discussion_merged": "มีคนรวมกระทู้ของฉันกับกระทู้อื่น"
+                    "discussion_merged": "มีคนรวมโพสต์ของฉันกับโพสต์อื่น"
                 }
             },
             "discussion": {
@@ -31,18 +31,18 @@
         },
         "admin": {
             "permissions": {
-                "merge_discussions_label": "รวมกระทู้"
+                "merge_discussions_label": "รวมโพสต์"
             },
             "settings": {
-                "search_result_help": "จำนวนกระทู้ที่จะแสดงเมื่อค้นหาในหน้าต่าง \"รวมกระทู้\"",
-                "search_result_label": "จำนวนผลการค้นหาในการรวมกระทู้"
+                "search_result_help": "จำนวนโพสต์ที่จะแสดงเมื่อค้นหาในหน้าต่าง \"รวมโพสต์\"",
+                "search_result_label": "จำนวนผลการค้นหาในการรวมโพสต์"
             }
         },
         "api": {
             "error": {
-                "merging_failed": "ไม่สามารถรวมกระทู้ได้",
-                "updating_failed": "ไม่สามารถอัปเดตรายละเอียดกระทู้ได้",
-                "deleting_failed": "ไม่สามารถลบกระทู้ที่ว่างเปล่าได้",
+                "merging_failed": "ไม่สามารถรวมโพสต์ได้",
+                "updating_failed": "ไม่สามารถอัปเดตรายละเอียดโพสต์ได้",
+                "deleting_failed": "ไม่สามารถลบโพสต์ที่ว่างเปล่าได้",
                 "fixing_posts_number_failed": "ไม่สามารถแก้ไขหมายเลขโพสต์ได้",
                 "fixing_posts_number_meta_failed": "ไม่สามารถแก้ไขหมายเลขโพสต์ได้"
             }
@@ -52,8 +52,8 @@
         },
         "email": {
             "merged": {
-                "body": "สวัสดี {recipient_display_name}\n\nกระทู้ {merged_discussion_title} ของคุณถูก {actor_display_name} รวมเข้ากับ {discussion_title} แล้ว\n\nดูได้ที่ {discussion_url}\n",
-                "subject": "กระทู้ \"{merged_discussion_title}\" ของคุณถูกรวมแล้ว"
+                "body": "สวัสดี {recipient_display_name}\n\nโพสต์ {merged_discussion_title} ของคุณถูก {actor_display_name} รวมเข้ากับ {discussion_title} แล้ว\n\nดูได้ที่ {discussion_url}\n",
+                "subject": "โพสต์ \"{merged_discussion_title}\" ของคุณถูกรวมแล้ว"
             }
         }
     }

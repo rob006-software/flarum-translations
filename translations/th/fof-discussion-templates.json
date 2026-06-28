@@ -2,22 +2,22 @@
     "fof-discussion-templates": {
         "admin": {
             "permissions": {
-                "manage_own_discussion_reply_templates": "จัดการเทมเพลตตอบกลับสำหรับกระทู้ของตน",
-                "manage_all_reply_templates": "จัดการเทมเพลตตอบกลับสำหรับกระทู้ทั้งหมด"
+                "manage_own_discussion_reply_templates": "จัดการเทมเพลตตอบกลับสำหรับโพสต์ของตน",
+                "manage_all_reply_templates": "จัดการเทมเพลตตอบกลับสำหรับโพสต์ทั้งหมด"
             },
             "settings": {
-                "no_tag_template": "เทมเพลตเริ่มต้น (ใช้เมื่อเริ่มกระทู้โดยไม่เลือก Tag):",
+                "no_tag_template": "เทมเพลตเริ่มต้น (ใช้เมื่อเริ่มโพสต์โดยไม่เลือก Tag):",
                 "append_template_on_tag_change": "เพิ่มเทมเพลตต่อท้ายเมื่อเปลี่ยน Tag?",
                 "append_template_on_tag_change_help": "เมื่อเปลี่ยน Tag แล้ว ควรเพิ่มเทมเพลตของ Tag ใหม่ต่อท้ายเนื้อหาที่เขียนไว้แล้วหรือไม่? ไม่ว่าจะตั้งค่านี้อย่างไร หากเปลี่ยน Tag และผู้ใช้ยังไม่ได้แก้ไขอะไร เทมเพลตจะถูกแทนที่โดยอัตโนมัติ"
             },
             "tags": {
-                "tag_template_heading": "เทมเพลตกระทู้",
-                "tag_template_text": "จัดการเทมเพลตสำหรับกระทู้ใหม่ใน Tag นี้",
+                "tag_template_heading": "เทมเพลตโพสต์",
+                "tag_template_text": "จัดการเทมเพลตสำหรับโพสต์ใหม่ใน Tag นี้",
                 "tag_template_button": "แก้ไขเทมเพลต"
             },
             "tag_template_modal": {
-                "title": "เทมเพลตกระทู้",
-                "customize_text": "จัดการเทมเพลตสำหรับกระทู้ใหม่ใน Tag นี้",
+                "title": "เทมเพลตโพสต์",
+                "customize_text": "จัดการเทมเพลตสำหรับโพสต์ใหม่ใน Tag นี้",
                 "submit_button": "บันทึกเทมเพลต"
             }
         },

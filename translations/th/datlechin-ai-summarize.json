@@ -2,13 +2,13 @@
     "datlechin-ai-summarize": {
         "admin": {
             "permissions": {
-                "ai_summarize_label": "สรุปกระทู้ด้วย AI"
+                "ai_summarize_label": "สรุปโพสต์ด้วย AI"
             },
             "settings": {
                 "title": "การตั้งค่า AI Summarization",
                 "enabled_label": "เปิดใช้งาน AI Summarization",
                 "min_posts_label": "จำนวน post ขั้นต่ำที่กำหนด",
-                "min_posts_help": "จำนวน post ขั้นต่ำในกระทู้ก่อนที่จะสามารถสรุปได้",
+                "min_posts_help": "จำนวน post ขั้นต่ำในโพสต์ก่อนที่จะสามารถสรุปได้",
                 "max_posts_label": "จำนวน post สูงสุดที่รวมไว้",
                 "max_posts_help": "จำนวน post สูงสุดที่รวมในกระบวนการสรุป",
                 "system_prompt_label": "System Prompt แบบกำหนดเอง",
@@ -27,7 +27,7 @@
                 "generated_at": "สร้างเมื่อ {time}",
                 "posts_summarized": "สรุป {count} post",
                 "regenerate_confirm": "คุณแน่ใจหรือไม่ที่จะสร้างสรุปใหม่? สรุปที่มีอยู่จะถูกแทนที่",
-                "not_enough_posts": "กระทู้นี้มี post ไม่พอสำหรับการสรุป",
+                "not_enough_posts": "โพสต์นี้มี post ไม่พอสำหรับการสรุป",
                 "close": "ปิด"
             }
         }

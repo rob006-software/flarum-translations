@@ -11,7 +11,7 @@
                 "no_available_tags_label": "ไม่มี forum tag ที่ใช้งานได้"
             },
             "permissions": {
-                "add_to_trello": "เชื่อมกระทู้กับ Trello ได้"
+                "add_to_trello": "เชื่อมโพสต์กับ Trello ได้"
             },
             "settings": {
                 "api_key_help": "กรอก API key จาก {link} เพื่อให้ extension นี้เชื่อมต่อกับ Trello",
@@ -27,7 +27,7 @@
                 "default_board_label": "Board เริ่มต้น",
                 "guest_workspace": "Guest Workspace",
                 "in_trello": "ใน Trello",
-                "include_secondary_tags_help": "เมื่อปิด จะส่งเฉพาะ tag หลักของกระทู้ไปยัง Trello เมื่อเปิด จะส่ง tag ทั้งหมดไปยัง Trello",
+                "include_secondary_tags_help": "เมื่อปิด จะส่งเฉพาะ tag หลักของโพสต์ไปยัง Trello เมื่อเปิด จะส่ง tag ทั้งหมดไปยัง Trello",
                 "include_secondary_tags_label": "รวม secondary tags ด้วย",
                 "label": {
                     "general": "ทั่วไป",
@@ -50,7 +50,7 @@
                 "save": "บันทึกการเปลี่ยนแปลง",
                 "tag": "Tag",
                 "unmapped_warning_label": "แจ้งเตือนเมื่อมี tag ที่ยังไม่ได้ map",
-                "unmapped_warning_help": "แสดงคำเตือนเมื่อส่งกระทู้ไปยัง Trello หาก Forum tags ยังไม่ได้ map กับ Trello tags"
+                "unmapped_warning_help": "แสดงคำเตือนเมื่อส่งโพสต์ไปยัง Trello หาก Forum tags ยังไม่ได้ map กับ Trello tags"
             }
         },
         "forum": {

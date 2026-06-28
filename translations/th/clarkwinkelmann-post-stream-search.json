@@ -2,9 +2,9 @@
     "clarkwinkelmann-post-stream-search": {
         "admin": {
             "settings": {
-                "dropdownAccess": "เข้าถึงผ่านเมนู Dropdown ของกระทู้",
+                "dropdownAccess": "เข้าถึงผ่านเมนู Dropdown ของโพสต์",
                 "dropdownAccessHelp": "หากปิดใช้งาน แถบเครื่องมือจะสามารถเข้าถึงได้ผ่านคีย์ลัดหรือปุ่มลัดอื่นที่เปิดใช้งานไว้เท่านั้น",
-                "sideNavAccess": "เข้าถึงผ่าน Navigation แถบข้างของกระทู้",
+                "sideNavAccess": "เข้าถึงผ่าน Navigation แถบข้างของโพสต์",
                 "sideNavAccessHelp": "เหมือนกับการตั้งค่าก่อนหน้า แต่ปุ่มจะถูกเพิ่มเป็นรายการแยกต่างหากในแถบด้านข้างแทน Dropdown",
                 "authorQuickFilter": "ตัวกรองด่วนสำหรับผู้เขียนโพสต์",
                 "authorQuickFilterHelp": "จะมีทางลัดในเมนู Dropdown ของแต่ละโพสต์เพื่อกรองตามผู้ใช้นั้น",
@@ -14,26 +14,26 @@
         },
         "forum": {
             "stream": {
-                "noResults": "ไม่มีโพสต์ที่ตรงกับคำค้นหาในกระทู้นี้",
+                "noResults": "ไม่มีโพสต์ที่ตรงกับคำค้นหาในโพสต์นี้",
                 "unmatchedGap": "{count, plural, one {ซ่อน 1 โพสต์ที่ไม่ตรงกัน} other {ซ่อน {count} โพสต์ที่ไม่ตรงกัน}}",
                 "otherAuthorsGap": "{count, plural, one {ซ่อน 1 โพสต์จากผู้เขียนคนอื่น} other {ซ่อน {count} โพสต์จากผู้เขียนคนอื่น}}"
             },
             "toolbar": {
-                "searchPlaceholder": "ค้นหาในกระทู้...",
+                "searchPlaceholder": "ค้นหาในโพสต์...",
                 "authorPlaceholder": "กรองตามผู้เขียน...",
                 "summary": "{matching} จาก {total} ที่ตรงกัน",
-                "pin": "เปิดแถบกรองเสมอในกระทู้",
+                "pin": "เปิดแถบกรองเสมอในโพสต์",
                 "close": "ล้างตัวกรองและปิดแถบเครื่องมือ",
                 "clear": "ล้างตัวกรอง"
             },
             "discussionControls": {
-                "searchInDiscussion": "ค้นหาในกระทู้"
+                "searchInDiscussion": "ค้นหาในโพสต์"
             },
             "postControls": {
                 "authorFilter": "แสดงเฉพาะตอบกลับจากผู้เขียนคนนี้"
             },
             "post": {
-                "opBadge": "ผู้เริ่มกระทู้",
+                "opBadge": "ผู้เริ่มโพสต์",
                 "opBadgeTooltip": "คลิกเพื่อแสดงเฉพาะตอบกลับจากผู้ใช้คนนี้"
             },
             "cannotGoToPost": {

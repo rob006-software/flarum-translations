@@ -80,21 +80,21 @@
                     "color_holder": "#ffffff",
                     "auto_upvote": "Upvote โพสต์อัตโนมัติเมื่อโพสต์",
                     "rate_limit": "บังคับใช้ขีดจำกัดการโหวต (10 วินาที)",
-                    "discussion_page": "แสดงจำนวนโหวตของโพสต์แรกในรายการกระทู้",
-                    "alternate_layout": "ใช้ Layout สำรองในรายการกระทู้",
+                    "discussion_page": "แสดงจำนวนโหวตของโพสต์แรกในรายการโพสต์",
+                    "alternate_layout": "ใช้ Layout สำรองในรายการโพสต์",
                     "alternate_post_layout": "ใช้ Layout สำรองในโพสต์",
                     "title": "โหวต",
                     "vote_color": "สีเมื่อโหวตแล้ว",
                     "icon_name": "ไอคอน Upvote/Downvote",
                     "icon_help": "กรอกชื่อไอคอน Font-Awesome ที่มี suffix -up และ -down เช่น arrow, thumbs, chevron",
                     "upvotes_only": "อนุญาตเฉพาะ Upvote เท่านั้น",
-                    "first_post_only": "อนุญาต Upvote/Downvote เฉพาะโพสต์แรกในกระทู้",
+                    "first_post_only": "อนุญาต Upvote/Downvote เฉพาะโพสต์แรกในโพสต์",
                     "allow_self_votes": "อนุญาตให้ผู้ใช้โหวตโพสต์ตัวเอง"
                 },
                 "save_settings": "บันทึกการตั้งค่า",
                 "convert": {
                     "button": "แปลง Like เป็น Upvote",
-                    "help": "แปลง Like เดิมจาก flarum-ext-likes เป็น Upvote และคำนวณความนิยมของกระทู้ทั้งหมด",
+                    "help": "แปลง Like เดิมจาก flarum-ext-likes เป็น Upvote และคำนวณความนิยมของโพสต์ทั้งหมด",
                     "converting": "กำลังแปลง Like ของคุณ รีเฟรชเว็บไซต์หลังจากผ่านไปสองสามนาทีเพื่อดูผลลัพธ์ (อาจใช้เวลาสักครู่ขึ้นอยู่กับจำนวน Like ทั้งหมดในฟอรัม)",
                     "converted": "แปลง Like ทั้งหมด {number} รายการสำเร็จแล้ว"
                 },
@@ -124,7 +124,7 @@
         },
         "email": {
             "body": {
-                "postVoted": "สวัสดี {recipient_display_name}\n\n{actor_display_name} เพิ่งโหวตโพสต์ของคุณในกระทู้ {discussion_title}\n\nดูได้ที่: {discussion_url}\n"
+                "postVoted": "สวัสดี {recipient_display_name}\n\n{actor_display_name} เพิ่งโหวตโพสต์ของคุณในโพสต์ {discussion_title}\n\nดูได้ที่: {discussion_url}\n"
             },
             "subject": {
                 "postVoted": "โพสต์ของคุณได้รับการโหวตจาก {display_name}"

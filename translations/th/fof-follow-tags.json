@@ -2,9 +2,9 @@
     "fof-follow-tags": {
         "forum": {
             "settings": {
-                "notify_new_discussion_label": "มีคนสร้างกระทู้ใน Tag ที่ฉันติดตาม",
+                "notify_new_discussion_label": "มีคนสร้างโพสต์ใน Tag ที่ฉันติดตาม",
                 "notify_new_post_label": "มีคนโพสต์ใน Tag ที่ฉันติดตาม",
-                "notify_new_discussion_tag_label": "มีคนเปลี่ยน Tag ของกระทู้มาเป็น Tag ที่ฉันติดตาม"
+                "notify_new_discussion_tag_label": "มีคนเปลี่ยน Tag ของโพสต์มาเป็น Tag ที่ฉันติดตาม"
             },
             "index": {
                 "follow_tag_button": "ติดตาม",
@@ -23,24 +23,24 @@
                 "subscription_label": "เลือกระดับการติดตามสำหรับ {tagName}",
                 "follow_button": "=> fof-follow-tags.ref.follow",
                 "following_button": "=> fof-follow-tags.ref.following",
-                "following_text": "รับแจ้งเตือนกระทู้ใหม่ทั้งหมด",
+                "following_text": "รับแจ้งเตือนโพสต์ใหม่ทั้งหมด",
                 "hiding_button": "=> fof-follow-tags.ref.hiding",
-                "hiding_text": "ซ่อนกระทู้จากหน้ากระทู้ทั้งหมด",
+                "hiding_text": "ซ่อนโพสต์จากหน้าโพสต์ทั้งหมด",
                 "ignoring_button": "=> fof-follow-tags.ref.ignoring",
                 "ignoring_text": "ไม่รับการแจ้งเตือนใด ๆ",
                 "lurking_button": "=> fof-follow-tags.ref.lurking",
-                "lurking_text": "รับแจ้งเตือนกระทู้ใหม่และการตอบกลับทั้งหมด",
+                "lurking_text": "รับแจ้งเตือนโพสต์ใหม่และการตอบกลับทั้งหมด",
                 "not_following_button": "ไม่ได้ติดตาม",
                 "not_following_text": "รับแจ้งเตือนเฉพาะเมื่อมีคน @mention คุณ",
-                "notify_alert_tooltip": "รับการแจ้งเตือนในฟอรัมเมื่อมีกระทู้หรือโพสต์ใหม่",
-                "notify_email_tooltip": "รับ Email เมื่อมีกระทู้หรือโพสต์ใหม่",
+                "notify_alert_tooltip": "รับการแจ้งเตือนในฟอรัมเมื่อมีโพสต์หรือโพสต์ใหม่",
+                "notify_email_tooltip": "รับ Email เมื่อมีโพสต์หรือโพสต์ใหม่",
                 "submit_button": "ยืนยันการสมัครติดตาม"
             },
             "hero": {
                 "title": "=> flarum-subscriptions.forum.index.following_link"
             },
             "notifications": {
-                "new_discussion_text": "{username} สร้างกระทู้ใหม่",
+                "new_discussion_text": "{username} สร้างโพสต์ใหม่",
                 "new_post_text": "{username} โพสต์ใหม่",
                 "new_discussion_tag_text": "{username} เปลี่ยน Tag"
             },
@@ -60,14 +60,14 @@
         },
         "email": {
             "subject": {
-                "newDiscussionInTag": "[Tag | กระทู้ใหม่] {title}",
+                "newDiscussionInTag": "[Tag | โพสต์ใหม่] {title}",
                 "newPostInTag": "[Tag | โพสต์ใหม่] {title}",
                 "newDiscussionTag": "[Tag | เปลี่ยน Tag] {title}"
             },
             "body": {
-                "newDiscussionInTag": "สวัสดี {recipient_display_name}\n\n{actor_display_name} สร้างกระทู้ใน Tag ที่คุณติดตาม: {discussion_title}\n\nดูกระทู้ใหม่ได้ที่:\n{discussion_url}\n\n---\n\n{post_content}\n",
-                "newPostInTag": "สวัสดี {recipient_display_name}\n\n{actor_display_name} โพสต์ในกระทู้ภายใต้ Tag ที่คุณติดตาม: {discussion_title}\n\nดูกิจกรรมใหม่ได้ที่:\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nคุณจะไม่ได้รับการแจ้งเตือนเพิ่มเติมเกี่ยวกับกระทู้นี้จนกว่าคุณจะอ่านล่าสุดแล้ว\n",
-                "newDiscussionTag": "สวัสดี {recipient_display_name}\n\n{actor_display_name} เพิ่งเปลี่ยน Tag ของกระทู้โดย {author_display_name} มาเป็น Tag ที่คุณติดตาม: {discussion_title}\n\nดูกระทู้ได้ที่:\n{discussion_url}\n"
+                "newDiscussionInTag": "สวัสดี {recipient_display_name}\n\n{actor_display_name} สร้างโพสต์ใน Tag ที่คุณติดตาม: {discussion_title}\n\nดูโพสต์ใหม่ได้ที่:\n{discussion_url}\n\n---\n\n{post_content}\n",
+                "newPostInTag": "สวัสดี {recipient_display_name}\n\n{actor_display_name} โพสต์ในโพสต์ภายใต้ Tag ที่คุณติดตาม: {discussion_title}\n\nดูกิจกรรมใหม่ได้ที่:\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nคุณจะไม่ได้รับการแจ้งเตือนเพิ่มเติมเกี่ยวกับโพสต์นี้จนกว่าคุณจะอ่านล่าสุดแล้ว\n",
+                "newDiscussionTag": "สวัสดี {recipient_display_name}\n\n{actor_display_name} เพิ่งเปลี่ยน Tag ของโพสต์โดย {author_display_name} มาเป็น Tag ที่คุณติดตาม: {discussion_title}\n\nดูโพสต์ได้ที่:\n{discussion_url}\n"
             }
         },
         "ref": {
@@ -77,7 +77,7 @@
             "ignoring": "ไม่สนใจ",
             "lurking": "Lurking",
             "filtering_options": {
-                "none": "กระทู้ที่ติดตาม",
+                "none": "โพสต์ที่ติดตาม",
                 "tags": "Tag ที่ติดตาม"
             }
         }

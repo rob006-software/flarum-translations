@@ -25,7 +25,7 @@
                 "loading": "=> kilowhat-cimaise.ref.loading",
                 "personal": "อัลบั้มส่วนตัวของ <a>{username}</a>",
                 "community": "อัลบั้มชุมชน",
-                "discussion": "ไปที่กระทู้"
+                "discussion": "ไปที่โพสต์"
             },
             "picture-show": {
                 "loading": "=> kilowhat-cimaise.ref.loading",
@@ -149,7 +149,7 @@
                 "renameOwnPublishedPicture": "เปลี่ยนชื่อและคำอธิบายภาพของตัวเองหลังเผยแพร่แล้ว",
                 "hideOwnPicture": "ซ่อนภาพของตัวเอง",
                 "publishSilently": "เผยแพร่ภาพโดยไม่แจ้งเตือน (ไม่มีโพสต์กิจกรรม)",
-                "attachCimaiseAlbum": "แนบอัลบั้มกับกระทู้ด้วยตนเอง",
+                "attachCimaiseAlbum": "แนบอัลบั้มกับโพสต์ด้วยตนเอง",
                 "moderate": "กลั่นกรอง"
             },
             "settings": {
@@ -162,10 +162,10 @@
                     "topRight": "บนขวา",
                     "bottomRight": "ล่างขวา"
                 },
-                "autoCreateDiscussionAlbum": "สร้างอัลบั้มอัตโนมัติสำหรับทุกกระทู้ใหม่",
-                "autoCreateDiscussionAlbumHelp": "สร้างอัลบั้มใหม่โดยอัตโนมัติพร้อมชื่อเดียวกับกระทู้และตั้งเจ้าของเป็นผู้เขียน ฟีเจอร์นี้ข้ามสิทธิ์การสร้างอัลบั้มและใช้กับทุกแท็ก\n",
-                "neverSyncDiscussionAlbumTitles": "อย่าซิงค์ชื่อกระทู้และอัลบั้ม",
-                "neverSyncDiscussionAlbumTitlesHelp": "โดยค่าเริ่มต้น อัลบั้มที่เชื่อมกับกระทู้ที่มีชื่อเหมือนกันจะถูกเปลี่ยนชื่อตามเมื่อชื่อกระทู้เปลี่ยน หากอัลบั้มถูกเปลี่ยนชื่อด้วยตนเอง จะไม่ถูกซิงค์กลับไปยังกระทู้อีก\n",
+                "autoCreateDiscussionAlbum": "สร้างอัลบั้มอัตโนมัติสำหรับทุกโพสต์ใหม่",
+                "autoCreateDiscussionAlbumHelp": "สร้างอัลบั้มใหม่โดยอัตโนมัติพร้อมชื่อเดียวกับโพสต์และตั้งเจ้าของเป็นผู้เขียน ฟีเจอร์นี้ข้ามสิทธิ์การสร้างอัลบั้มและใช้กับทุกแท็ก\n",
+                "neverSyncDiscussionAlbumTitles": "อย่าซิงค์ชื่อโพสต์และอัลบั้ม",
+                "neverSyncDiscussionAlbumTitlesHelp": "โดยค่าเริ่มต้น อัลบั้มที่เชื่อมกับโพสต์ที่มีชื่อเหมือนกันจะถูกเปลี่ยนชื่อตามเมื่อชื่อโพสต์เปลี่ยน หากอัลบั้มถูกเปลี่ยนชื่อด้วยตนเอง จะไม่ถูกซิงค์กลับไปยังโพสต์อีก\n",
                 "columnTheme": "Column Theme",
                 "columnThemeHelp": "ใช้รูปแบบแผงด้านข้างแทนแผงด้านล่างเมื่อแสดงภาพ",
                 "mapboxToken": "Mapbox Token",
@@ -201,7 +201,7 @@
             "post-edit": {
                 "cannotAttachToNonComment": "ไม่สามารถแนบภาพกับโพสต์ที่ไม่ใช่ความคิดเห็นได้ด้วยตนเอง",
                 "cannotFindPicturesFromRelation": "ไม่พบภาพที่ร้องขอทั้งหมดในฐานข้อมูล",
-                "cannotAttachHasNoAlbum": "กระทู้นี้ไม่มีอัลบั้มที่แนบ",
+                "cannotAttachHasNoAlbum": "โพสต์นี้ไม่มีอัลบั้มที่แนบ",
                 "cannotAttachAlreadySubmitted": "ไม่สามารถแนบภาพ {id} เนื่องจากถูกส่งแล้ว",
                 "cannotAttachFromExternalAlbum": "ไม่สามารถแนบภาพ {id} เนื่องจากอยู่ในอัลบั้มภายนอก",
                 "cannotAttachUnauthorized": "ไม่สามารถแนบภาพ {id} เนื่องจากไม่ใช่ของคุณ"

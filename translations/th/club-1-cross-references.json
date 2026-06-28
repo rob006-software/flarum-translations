@@ -2,24 +2,24 @@
     "club-1-cross-references": {
         "admin": {
             "show_discussion_id": {
-                "label": "แสดง ID กระทู้",
-                "help": "เพิ่มหมายเลข ID กระทู้ในทุกที่ที่มีการแสดงกระทู้"
+                "label": "แสดง ID โพสต์",
+                "help": "เพิ่มหมายเลข ID โพสต์ในทุกที่ที่มีการแสดงโพสต์"
             },
             "enable_short_references": {
                 "label": "เปิดใช้งาน short references",
-                "help": "แปลงข้อความ #<ID> ในข้อความ (เช่น #42) เป็น link ไปยังกระทู้ที่เกี่ยวข้อง"
+                "help": "แปลงข้อความ #<ID> ในข้อความ (เช่น #42) เป็น link ไปยังโพสต์ที่เกี่ยวข้อง"
             },
             "retrofit_links_in_frontend": {
                 "label": "Retrofit links ใน frontend",
-                "help": "<p><strong>Deprecated</strong> (จะถูกลบออกใน <code>v1.2.0</code>) พิจารณาใช้คำสั่ง <code>chore:reparse</code> ของ extension <code>club-1/flarum-ext-chore-commands</code> แทน ดูที่: <code>https://github.com/club-1/flarum-ext-chore-commands</code></p> <p>แสดง title ของ link กระทู้ในข้อความที่ส่งเมื่อ extension นี้ยังไม่ได้เปิดใช้งาน ทำใน frontend อาจทำให้ประสบการณ์การใช้งานไม่ดี</p>\n"
+                "help": "<p><strong>Deprecated</strong> (จะถูกลบออกใน <code>v1.2.0</code>) พิจารณาใช้คำสั่ง <code>chore:reparse</code> ของ extension <code>club-1/flarum-ext-chore-commands</code> แทน ดูที่: <code>https://github.com/club-1/flarum-ext-chore-commands</code></p> <p>แสดง title ของ link โพสต์ในข้อความที่ส่งเมื่อ extension นี้ยังไม่ได้เปิดใช้งาน ทำใน frontend อาจทำให้ประสบการณ์การใช้งานไม่ดี</p>\n"
             }
         },
         "forum": {
             "post_stream": {
-                "discussion_referenced_text": "{username} อ้างอิงกระทู้นี้จาก {source}",
-                "discussion_referenced_multiple_text": "{username} อ้างอิงกระทู้นี้จากหลายแหล่ง: {sources}"
+                "discussion_referenced_text": "{username} อ้างอิงโพสต์นี้จาก {source}",
+                "discussion_referenced_multiple_text": "{username} อ้างอิงโพสต์นี้จากหลายแหล่ง: {sources}"
             },
-            "unknown_discussion": "[ไม่พบกระทู้]",
+            "unknown_discussion": "[ไม่พบโพสต์]",
             "comment": "ความคิดเห็น"
         }
     }

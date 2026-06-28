@@ -9,21 +9,21 @@
     "blomstra-flag-duplicates": {
         "admin": {
             "settings": {
-                "event_post_help": "สร้างโพสต์เหตุการณ์ในกระทู้ที่มีการแจ้งว่า \"ซ้ำกัน\" เพื่อแจ้งให้ผู้ใช้ทราบว่ากระทู้นี้อาจเป็นสำเนาของกระทู้อื่น โดยไม่เปิดเผยรายละเอียดของการแจ้งทั้งหมด",
+                "event_post_help": "สร้างโพสต์เหตุการณ์ในโพสต์ที่มีการแจ้งว่า \"ซ้ำกัน\" เพื่อแจ้งให้ผู้ใช้ทราบว่าโพสต์นี้อาจเป็นสำเนาของโพสต์อื่น โดยไม่เปิดเผยรายละเอียดของการแจ้งทั้งหมด",
                 "event_post_label": "โพสต์เหตุการณ์"
             }
         },
         "forum": {
             "flags": {
-                "duplicate_discussion": "กระทู้ซ้ำ",
-                "reason_duplicate_label": "กระทู้ซ้ำกัน",
-                "reason_duplicate_text": "กระทู้นี้ซ้ำกับกระทู้อื่น",
-                "reason_discussion_deleted": "[กระทู้ถูกลบ]",
-                "deselect_discussion_a11y_label": "ยกเลิกการเลือกกระทู้"
+                "duplicate_discussion": "โพสต์ซ้ำ",
+                "reason_duplicate_label": "โพสต์ซ้ำกัน",
+                "reason_duplicate_text": "โพสต์นี้ซ้ำกับโพสต์อื่น",
+                "reason_discussion_deleted": "[โพสต์ถูกลบ]",
+                "deselect_discussion_a11y_label": "ยกเลิกการเลือกโพสต์"
             },
             "post_stream": {
-                "flagged_duplicate_text": "{username} ทำเครื่องหมายกระทู้นี้ว่าอาจซ้ำกับ {duplicate} ผู้ดูแลจะตรวจสอบในไม่ช้า",
-                "deleted_discussion": "[กระทู้ถูกลบ]"
+                "flagged_duplicate_text": "{username} ทำเครื่องหมายโพสต์นี้ว่าอาจซ้ำกับ {duplicate} ผู้ดูแลจะตรวจสอบในไม่ช้า",
+                "deleted_discussion": "[โพสต์ถูกลบ]"
             }
         }
     }

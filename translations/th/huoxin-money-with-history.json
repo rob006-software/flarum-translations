@@ -4,14 +4,14 @@
             "settings": {
                 "title": "การตั้งค่า",
                 "post_reward_amount": "เงินที่ได้รับสำหรับการโพสต์ใหม่",
-                "discussion_reward_amount": "เงินที่ได้รับสำหรับการสร้างกระทู้ใหม่",
+                "discussion_reward_amount": "เงินที่ได้รับสำหรับการสร้างโพสต์ใหม่",
                 "money_name": "ชื่อเงิน (เช่น [money] คะแนน)",
                 "min_post_length": "ความยาวขั้นต่ำของโพสต์เพื่อรับเงิน (0 เพื่อปิดการใช้งาน)",
                 "exclude_mentions_from_length": "เมื่อนับจำนวนคำของการตอบกลับ ให้นับเฉพาะส่วนเนื้อหาเท่านั้น",
                 "hide_zero_balances": "ไม่แสดงหากยอดเงินเป็นศูนย์",
                 "remove_money_trigger": "อัปเดตเงินโดยอัตโนมัติ",
-                "cascade_money_removal": "ลบเงินของโพสต์เมื่อกระทู้ถูกลบ",
-                "reward_private_discussion": "อนุญาตให้รับเงินในกระทู้ส่วนตัว",
+                "cascade_money_removal": "ลบเงินของโพสต์เมื่อโพสต์ถูกลบ",
+                "reward_private_discussion": "อนุญาตให้รับเงินในโพสต์ส่วนตัว",
                 "like_reward_amount": "เงินที่ได้รับเมื่อโพสต์ถูก like",
                 "help_extension_likes": "ต้องใช้ extension <code>flarum/likes</code>",
                 "reward_self_like": "อนุญาตให้ผู้ใช้รับเงินจากการ like ตัวเอง"
@@ -23,8 +23,8 @@
             },
             "remove_money_trigger": [
                 "ไม่ลบเงิน",
-                "เมื่อกระทู้/โพสต์ถูกซ่อนหรือกู้คืน (ค่าเริ่มต้น)",
-                "เมื่อกระทู้/โพสต์ถูกลบ"
+                "เมื่อโพสต์/โพสต์ถูกซ่อนหรือกู้คืน (ค่าเริ่มต้น)",
+                "เมื่อโพสต์/โพสต์ถูกลบ"
             ]
         },
         "forum": {
@@ -33,10 +33,10 @@
             "list-empty": "ไม่พบบันทึก",
             "money-list-load-more": "โหลดเพิ่ม",
             "money-history": {
-                "discussion-deleted": "หักเงินจากการลบกระทู้",
-                "discussion-hidden": "หักเงินจากการซ่อนกระทู้",
-                "discussion-restored": "รางวัลจากการกู้คืนกระทู้",
-                "discussion-reward": "รางวัลจากกระทู้",
+                "discussion-deleted": "หักเงินจากการลบโพสต์",
+                "discussion-hidden": "หักเงินจากการซ่อนโพสต์",
+                "discussion-restored": "รางวัลจากการกู้คืนโพสต์",
+                "discussion-reward": "รางวัลจากโพสต์",
                 "manual-adjustment": "ปรับยอดด้วยตนเอง",
                 "post-deleted": "หักเงินจากการลบโพสต์",
                 "post-hidden": "หักเงินจากการซ่อนโพสต์",

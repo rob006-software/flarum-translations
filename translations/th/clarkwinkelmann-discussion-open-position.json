@@ -2,8 +2,8 @@
     "clarkwinkelmann-discussion-open-position": {
         "admin": {
             "settings": {
-                "defaultOpenLastRead": "ค่าเริ่มต้นการเปิดกระทู้ที่โพสต์ที่อ่านล่าสุด",
-                "suggestFirstTime": "แสดงข้อความแจ้งให้ผู้ใช้เปลี่ยนการตั้งค่าในครั้งแรกที่เปิดกระทู้",
+                "defaultOpenLastRead": "ค่าเริ่มต้นการเปิดโพสต์ที่โพสต์ที่อ่านล่าสุด",
+                "suggestFirstTime": "แสดงข้อความแจ้งให้ผู้ใช้เปลี่ยนการตั้งค่าในครั้งแรกที่เปิดโพสต์",
                 "openLastOptions": {
                     "always": "=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.always",
                     "unread": "=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.unread",
@@ -13,8 +13,8 @@
         },
         "forum": {
             "firstTimePrompt": {
-                "fromAlways": "ลิงก์กระทู้จะพาไปยังโพสต์ที่คุณอ่านล่าสุด",
-                "fromNever": "ลิงก์กระทู้จะเปิดที่โพสต์แรก",
+                "fromAlways": "ลิงก์โพสต์จะพาไปยังโพสต์ที่คุณอ่านล่าสุด",
+                "fromNever": "ลิงก์โพสต์จะเปิดที่โพสต์แรก",
                 "openLastOptions": {
                     "always": "เปิดที่โพสต์ล่าสุดที่อ่านแทนทุกครั้ง",
                     "never": "เปิดที่โพสต์แรกแทนทุกครั้ง"
@@ -22,7 +22,7 @@
                 "more": "ตัวเลือกเพิ่มเติม"
             },
             "preferences": {
-                "discussionOpenLastRead": "รายการกระทู้",
+                "discussionOpenLastRead": "รายการโพสต์",
                 "openLastOptions": {
                     "always": "=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.always",
                     "unread": "=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.unread",
@@ -32,9 +32,9 @@
         },
         "ref": {
             "openLastOptions": {
-                "always": "เปิดกระทู้ที่โพสต์ที่อ่านล่าสุดเสมอ",
-                "unread": "เปิดกระทู้ที่โพสต์ล่าสุดที่อ่านเฉพาะเมื่อมีการตอบกลับใหม่",
-                "never": "เปิดกระทู้ที่โพสต์แรกเสมอ"
+                "always": "เปิดโพสต์ที่โพสต์ที่อ่านล่าสุดเสมอ",
+                "unread": "เปิดโพสต์ที่โพสต์ล่าสุดที่อ่านเฉพาะเมื่อมีการตอบกลับใหม่",
+                "never": "เปิดโพสต์ที่โพสต์แรกเสมอ"
             }
         }
     }
