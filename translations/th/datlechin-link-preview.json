@@ -12,22 +12,22 @@
                 "external_api_description": ""
             },
             "settings": {
-                "enable_batch_requests_label": "",
-                "enable_batch_requests_help": "",
-                "blacklist_label": "",
-                "blacklist_help": "",
-                "blacklist_placeholder": "",
-                "whitelist_label": "",
-                "whitelist_help": "",
-                "whitelist_placeholder": "",
-                "convert_media_urls_label": "",
-                "convert_media_urls_help": "",
-                "use_google_favicons_label": "",
-                "use_google_favicons_help": "",
-                "cache_time_label": "",
-                "cache_time_help": "",
-                "open_links_in_new_tab_label": "",
-                "open_links_in_new_tab_help": "",
+                "enable_batch_requests_label": "เปิดใช้ Batch Processing",
+                "enable_batch_requests_help": "เพิ่มประสิทธิภาพด้วยการประมวลผล link preview หลายรายการพร้อมกัน หากปิด ลิงก์จะถูกประมวลผลทีละรายการ",
+                "blacklist_label": "Domain Blacklist",
+                "blacklist_help": "ระบุ domain หรือ URL ที่ไม่ต้องการสร้าง link preview คั่นหลายรายการด้วยเครื่องหมายจุลภาค",
+                "blacklist_placeholder": "ตัวอย่าง: facebook.com, twitter.com/specific-page",
+                "whitelist_label": "Domain Whitelist",
+                "whitelist_help": "สร้าง preview เฉพาะ domain หรือ URL ที่ระบุ ทิ้งว่างไว้เพื่ออนุญาตทุก domain ที่ไม่อยู่ใน blacklist",
+                "whitelist_placeholder": "ตัวอย่าง: trusted-site.com, specific-domain.org/path",
+                "convert_media_urls_label": "Preview URL มีเดีย",
+                "convert_media_urls_help": "สร้าง preview สำหรับ URL ที่ชี้ไปยังไฟล์มีเดีย (รูปภาพ วิดีโอ ฯลฯ)",
+                "use_google_favicons_label": "แสดงไอคอนเว็บไซต์",
+                "use_google_favicons_help": "แสดง favicon ของเว็บไซต์โดยใช้บริการ Favicon ของ Google เพื่อช่วยในการจดจำ",
+                "cache_time_label": "ระยะเวลา cache (นาที)",
+                "cache_time_help": "ระยะเวลาเก็บ link preview ก่อน refresh ใหม่ ตั้งเป็น 0 เพื่อปิด cache ค่าเริ่มต้น: 60 นาที",
+                "open_links_in_new_tab_label": "เปิดลิงก์ใน tab ใหม่",
+                "open_links_in_new_tab_help": "เปิดลิงก์ที่มี preview ใน browser tab ใหม่เสมอ",
                 "external_api_fallback_label": "",
                 "external_api_fallback_help": "",
                 "external_api_url_label": "",
@@ -35,7 +35,7 @@
             }
         },
         "forum": {
-            "site_cannot_be_reached": ""
+            "site_cannot_be_reached": "ไม่สามารถโหลด preview ได้ กรุณาตรวจสอบ URL แล้วลองใหม่"
         }
     }
 }

@@ -2,18 +2,18 @@
     "ianm-online-guests": {
         "admin": {
             "permissions": {
-                "view_online_guests_label": ""
+                "view_online_guests_label": "ดูผู้เยี่ยมชมออนไลน์"
             },
             "settings": {
-                "online_duration_label": "",
-                "cache_duration_label": ""
+                "online_duration_label": "ระยะเวลาออนไลน์",
+                "cache_duration_label": "ระยะเวลา cache"
             }
         },
         "forum": {
             "widget": {
-                "title": "",
-                "description": "",
-                "guests_online": ""
+                "title": "ผู้เยี่ยมชมออนไลน์",
+                "description": "แสดงจำนวนผู้เยี่ยมชมที่กำลังท่องแบบไม่ลงชื่อเข้าใช้ในฟอรัม",
+                "guests_online": "{count, plural, one {ผู้เยี่ยมชมออนไลน์} other {ผู้เยี่ยมชมออนไลน์}}"
             }
         }
     }

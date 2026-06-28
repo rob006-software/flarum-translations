@@ -2,23 +2,23 @@
     "fof-split": {
         "admin": {
             "permissions": {
-                "split_discussion_label": "เเยกโพสต์ออกจากการสนทนานี้"
+                "split_discussion_label": "แยกโพสต์ออกจากโพสต์"
             }
         },
         "forum": {
             "post": {
-                "was_split_to": "{count, plural, one {{count} ไพสต์ได้ถูกเเยกไปยัง {target}.} อื่นๆ {{count} โพสต์ได้ถูกเเยกไปยัง {target}.}}",
-                "was_split_from": "{count, plural, one {{count} โพสต์ถูกเเยกมาจาก {target}.} อื่นๆ {{count} โพสต์ถูกเเยกมาจาก {target}.}}"
+                "was_split_to": "{count, plural, other {{count} โพสต์ถูกแยกไปยัง {target}}}",
+                "was_split_from": "{count, plural, other {{count} โพสต์ถูกแยกมาจาก {target}}}"
             },
             "split": {
-                "from": "เเยกมาที่นี่",
-                "to": "เเยกมาที่นี่",
-                "cancel": ""
+                "from": "แยกจากที่นี่",
+                "to": "แยกมาที่นี่",
+                "cancel": "ยกเลิกการแยก"
             },
             "modal": {
-                "title": "เเยกการสนทนา",
-                "new_discussion_label": "กรุณาระบุหัวข้อสำหรับการสนทนาใหม่นี้",
-                "submit_button": "เเยกออก"
+                "title": "แยกโพสต์",
+                "new_discussion_label": "ระบุหัวข้อสำหรับโพสต์ใหม่",
+                "submit_button": "แยก"
             }
         }
     }

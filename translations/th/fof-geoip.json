@@ -2,96 +2,96 @@
     "fof-geoip": {
         "admin": {
             "permissions": {
-                "see_country": ""
+                "see_country": "แสดงประเทศของ IP address เสมอ"
             },
             "settings": {
                 "general": {
-                    "heading": "",
-                    "help": ""
+                    "heading": "ตั้งค่าทั่วไป",
+                    "help": "การตั้งค่าเหล่านี้ควบคุมพฤติกรรมทั่วไปของ extension"
                 },
                 "providers": {
-                    "heading": "",
-                    "help": ""
+                    "heading": "บริการค้นหา IP",
+                    "help": "เลือกบริการสำหรับการค้นหา IP บางบริการมีข้อจำกัดด้านจำนวนครั้ง กรุณาตรวจสอบเอกสารของบริการนั้นก่อนใช้งาน"
                 },
-                "service_label": "",
-                "service_ipdata_label": "",
-                "service_ipdata_description": "",
-                "service_ipapi_label": "",
-                "service_ipapi_description": "",
-                "service_ipapi-pro_label": "",
-                "service_ipapi-pro_description": "",
-                "service_iplocation_label": "",
-                "service_iplocation_description": "",
-                "service_ipsevenex_label": "",
-                "service_ipsevenex_description": "",
-                "service_ipinfo-lite_label": "",
-                "service_ipinfo-lite_description": "",
-                "access_key_label": "",
-                "quota_label": "",
-                "show_flag_label": "",
-                "show_flag_help": "",
-                "allow_custom_flag_label": "",
-                "allow_custom_flag_help": "",
+                "service_label": "บริการ",
+                "service_ipdata_label": "IPData",
+                "service_ipdata_description": "ใช้ <b>https://ipdata.co</b> เพื่อค้นหาได้สูงสุด 1,500 ครั้งต่อวันฟรี หรือสมัคร plan แบบชำระเงินเพื่อเพิ่มจำนวนครั้ง",
+                "service_ipapi_label": "IP Api",
+                "service_ipapi_description": "ใช้ <b>http://ip-api.com</b> เพื่อค้นหาได้สูงสุด 45 ครั้งต่อนาทีฟรี หากเกินกว่านั้น request จะถูก queue ไว้จนกว่าจะรีเซ็ตช่วงเวลา",
+                "service_ipapi-pro_label": "IP Api Pro",
+                "service_ipapi-pro_description": "ใช้ <b>https://members.ip-api.com/#pricing</b> plan Pro ใช้งานได้ไม่จำกัด",
+                "service_iplocation_label": "IP Location",
+                "service_iplocation_description": "ใช้ <b>https://www.iplocation.net/</b> เพื่อดึงข้อมูลประเทศและ ISP ไม่ทราบข้อจำกัดด้านจำนวนครั้ง",
+                "service_ipsevenex_label": "7x Geolocation API",
+                "service_ipsevenex_description": "ใช้ <b>https://7x.ax</b> เพื่อรับ API key ฟรีสำหรับสูงสุด 20 request ต่อนาที หรือสมัคร plan แบบชำระเงินเพื่อเพิ่มจำนวนครั้ง",
+                "service_ipinfo-lite_label": "IPInfo Lite",
+                "service_ipinfo-lite_description": "ใช้ <b>https://ipinfo.io</b> เพื่อดึงข้อมูล IP โดยไม่มีข้อจำกัดด้านจำนวนครั้ง ต้องลงทะเบียนเพื่อรับ API key ฟรี",
+                "access_key_label": "Access Key",
+                "quota_label": "โควต้าการค้นหา",
+                "show_flag_label": "แสดง flag ของประเทศในแต่ละ post",
+                "show_flag_help": "โดยไม่เปิดเผย IP address แสดง flag ของประเทศตาม IP ของผู้เขียน post เมื่อผู้ใช้เปิดใช้งานในการตั้งค่า",
+                "allow_custom_flag_label": "อนุญาตให้ผู้ใช้เลือก flag ประเทศเอง",
+                "allow_custom_flag_help": "เมื่อเปิดใช้งาน ผู้ใช้สามารถเลือก flag ของประเทศเพื่อแสดงใน post ผ่านการตั้งค่า profile flag ที่ผู้ใช้เลือกจะมองเห็นได้สำหรับทุกคนและจะแทนที่ flag ที่อ้างอิงจาก IP ต้องเปิดใช้งาน \"แสดง flag ของประเทศในแต่ละ post\" ก่อน",
                 "test": {
-                    "heading": "",
-                    "help": ""
+                    "heading": "ทดสอบการตั้งค่าบริการ",
+                    "help": "ทดสอบการตั้งค่าบริการค้นหา IP ด้วย IP address ตัวอย่าง บันทึกการตั้งค่าก่อนทำการทดสอบ"
                 },
-                "test_service_label": "",
-                "test_service_help": "",
-                "test_button": "",
-                "testing": "",
-                "test_result_title": "",
-                "test_ip_required": "",
-                "test_error": "",
-                "test_service_label_result": "",
-                "test_status_label": "",
-                "test_response_time_label": "",
-                "test_timestamp_label": "",
-                "test_http_status_code_label": "",
-                "test_error_details_label": "",
-                "test_processed_service_response_label": "",
-                "status_success": "",
-                "status_error": "",
-                "status_unknown": "",
-                "response_headers_label": "",
-                "raw_http_response_label": "",
-                "request_url_label": "",
-                "request_options_label": "",
-                "error_prefix": "",
-                "error_code_prefix": ""
+                "test_service_label": "ทดสอบบริการค้นหา IP",
+                "test_service_help": "ใส่ IPv4 หรือ IPv6 address เพื่อทดสอบการตั้งค่าบริการปัจจุบัน",
+                "test_button": "ทดสอบบริการ",
+                "testing": "กำลังทดสอบ...",
+                "test_result_title": "ผลการทดสอบ",
+                "test_ip_required": "กรุณาใส่ IP address เพื่อทดสอบ",
+                "test_error": "เกิดข้อผิดพลาดขณะทดสอบบริการ",
+                "test_service_label_result": "บริการ:",
+                "test_status_label": "สถานะ:",
+                "test_response_time_label": "เวลาตอบสนอง:",
+                "test_timestamp_label": "Timestamp:",
+                "test_http_status_code_label": "HTTP Status Code:",
+                "test_error_details_label": "รายละเอียดข้อผิดพลาด:",
+                "test_processed_service_response_label": "ผลลัพธ์จากบริการ:",
+                "status_success": "✓ สำเร็จ",
+                "status_error": "✗ ผิดพลาด",
+                "status_unknown": "ไม่ทราบ",
+                "response_headers_label": "Response Headers",
+                "raw_http_response_label": "Raw HTTP Response Body",
+                "request_url_label": "Request URL",
+                "request_options_label": "Request Options",
+                "error_prefix": "ข้อผิดพลาด:",
+                "error_code_prefix": "รหัส:"
             }
         },
         "lib": {
             "alerts": {
-                "ip_copied": ""
+                "ip_copied": "คัดลอก IP Address แล้ว"
             },
-            "copy_ip_label": "",
-            "map_button_label": "",
+            "copy_ip_label": "คัดลอก IP ไปยัง clipboard",
+            "map_button_label": "ข้อมูล IP",
             "map_modal": {
-                "title": "",
-                "ip_address": "",
-                "country_code": "",
-                "zip_code": "",
-                "isp": "",
-                "as": "",
-                "mobile": "",
-                "organization": "",
-                "threat_level": "",
-                "threat_types": "",
-                "error": "",
-                "not_enough_data": ""
+                "title": "ข้อมูล IP",
+                "ip_address": "IP Address",
+                "country_code": "รหัสประเทศ",
+                "zip_code": "รหัสไปรษณีย์",
+                "isp": "ISP",
+                "as": "ASN",
+                "mobile": "เครือข่ายมือถือ",
+                "organization": "องค์กร",
+                "threat_level": "ระดับภัยคุกคาม",
+                "threat_types": "ประเภทภัยคุกคาม",
+                "error": "ข้อผิดพลาด",
+                "not_enough_data": "ข้อมูลไม่เพียงพอสำหรับการแสดงแผนที่"
             },
             "custom_flag": {
-                "none": "",
+                "none": "ไม่มี flag ที่กำหนดเอง",
                 "placeholder": ""
             }
         },
         "forum": {
             "user": {
                 "settings": {
-                    "ip_country": "",
-                    "custom_flag_label": "",
-                    "custom_flag_help": ""
+                    "ip_country": "แสดง flag ของประเทศที่ฉัน post จาก ตาม IP address",
+                    "custom_flag_label": "Flag ประเทศที่กำหนดเอง",
+                    "custom_flag_help": "เลือก flag ของประเทศเพื่อแสดงใน post ของคุณ flag นี้จะมองเห็นได้สำหรับทุกคนและจะแทนที่ flag ที่อ้างอิงจาก IP address ของคุณ"
                 }
             }
         }
@@ -99,8 +99,8 @@
     "fof-default-user-preferences": {
         "admin": {
             "settings": {
-                "showIPCountry": "",
-                "showIPCountry-help": ""
+                "showIPCountry": "แสดง flag ของประเทศที่ผู้ใช้ post จาก",
+                "showIPCountry-help": "อ้างอิงจาก IP address ณ เวลาที่ post flag ของประเทศ (ถ้าเปิดใช้งาน) จะมองเห็นได้สำหรับผู้ใช้ทุกคน ส่วน admin และ moderator จะเห็น IP address ใน tooltip"
             }
         }
     }

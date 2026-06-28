@@ -2,30 +2,30 @@
     "fof-user-directory": {
         "forum": {
             "header": {
-                "back_to_user_directory_tooltip": "กลับไปที่หน้ารายชื่อผู้ใช้"
+                "back_to_user_directory_tooltip": "กลับไปยังรายชื่อผู้ใช้"
             },
             "hero": {
-                "title": ""
+                "title": "=> fof-user-directory.forum.page.nav"
             },
             "search": {
-                "users_heading": "ค้าหาผู้ใช้ทั้งหมดสำหรับ \"{query}\"",
+                "users_heading": "ค้นหาผู้ใช้ทั้งหมดสำหรับ \"{query}\"",
                 "field": {
-                    "placeholder": "ค้าหาผู้ใช้ทั้งหมด"
+                    "placeholder": "ค้นหาผู้ใช้ทั้งหมด"
                 },
                 "kinds": {
-                    "group": "",
-                    "text": ""
+                    "group": "กลุ่ม",
+                    "text": "ข้อความอิสระ"
                 }
             },
             "page": {
                 "nav": "รายชื่อผู้ใช้",
                 "refresh_tooltip": "=> core.forum.index.refresh_tooltip",
                 "load_more_button": "=> core.ref.load_more",
-                "empty_text": "เราไม่พบผู้ใช้คนไหนที่ตรงกับการค้นหาของคุณ",
-                "filter_button": "กรอกจากกลุ่ม",
+                "empty_text": "ไม่พบผู้ใช้ที่ตรงกับการค้นหาของคุณ",
+                "filter_button": "กรองตามกลุ่ม",
                 "usercard": {
-                    "discussion-count": "",
-                    "post-count": ""
+                    "discussion-count": "{count, plural, other {{count} โพสต์}}",
+                    "post-count": "{count, plural, other {{count} ความคิดเห็น}}"
                 }
             }
         },
@@ -34,25 +34,25 @@
                 "view_user_directory": "ดูรายชื่อผู้ใช้"
             },
             "settings": {
-                "link": "เพิ่มลิ้งที่หน้าหลักสำหรับให้ผู้ใช้ทั่วไปเห็นรายชื่อได้",
-                "default-sort": "เรียบตรมค่าเริ่มต้น",
-                "use-small-cards": "ใช้การ์ดผู้ใช้เเบบเล็ก",
-                "disable-global-search-source": "",
-                "link-group-mentions": ""
+                "link": "เพิ่มลิงก์บนหน้าแรกสำหรับผู้ใช้ที่มีสิทธิ์ดูรายชื่อ",
+                "default-sort": "การเรียงเริ่มต้น",
+                "use-small-cards": "ใช้การ์ดผู้ใช้แบบเล็ก",
+                "disable-global-search-source": "ไม่เพิ่มรายชื่อผู้ใช้ในการค้นหาทั่วไปของ Flarum",
+                "link-group-mentions": "เชื่อมโยงการกล่าวถึงกลุ่มในโพสต์ไปยังรายชื่อผู้ใช้"
             }
         },
         "lib": {
             "sort": {
-                "not_specified": "ใช้ค่าเริ่มต้นตาม Flarum",
+                "not_specified": "ใช้ค่าเริ่มต้นของ Flarum",
                 "default": "ค่าเริ่มต้น",
                 "username_az": "ชื่อผู้ใช้ (a-z)",
                 "username_za": "ชื่อผู้ใช้ (z-a)",
-                "newest": "ล่าสุด",
-                "oldest": "เก่าสุด",
+                "newest": "ใหม่ที่สุด",
+                "oldest": "เก่าที่สุด",
                 "most_posts": "โพสต์มากที่สุด",
                 "least_posts": "โพสต์น้อยที่สุด",
-                "most_discussions": "การสนทนามากที่สุด",
-                "least_discussions": "การสนทนาน้อยที่สุด"
+                "most_discussions": "โพสต์มากที่สุด",
+                "least_discussions": "โพสต์น้อยที่สุด"
             }
         }
     }

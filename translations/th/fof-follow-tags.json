@@ -2,60 +2,60 @@
     "fof-follow-tags": {
         "forum": {
             "settings": {
-                "notify_new_discussion_label": "",
-                "notify_new_post_label": "",
-                "notify_new_discussion_tag_label": ""
+                "notify_new_discussion_label": "มีคนสร้างโพสต์ใน Tag ที่ฉันติดตาม",
+                "notify_new_post_label": "มีคนโพสต์ใน Tag ที่ฉันติดตาม",
+                "notify_new_discussion_tag_label": "มีคนเปลี่ยน Tag ของโพสต์มาเป็น Tag ที่ฉันติดตาม"
             },
             "index": {
-                "follow_tag_button": "",
-                "unfollow_tag_button": "",
+                "follow_tag_button": "ติดตาม",
+                "unfollow_tag_button": "เลิกติดตาม",
                 "following": {
-                    "following_none_label": "",
-                    "following_tags_label": ""
+                    "following_none_label": "=> fof-follow-tags.ref.filtering_options.none",
+                    "following_tags_label": "=> fof-follow-tags.ref.filtering_options.tags"
                 }
             },
             "badge": {
-                "following_tag_tooltip": "",
-                "lurking_tag_tooltip": ""
+                "following_tag_tooltip": "กำลังติดตาม",
+                "lurking_tag_tooltip": "กำลัง Lurk"
             },
             "sub_controls": {
-                "header": "",
-                "subscription_label": "",
-                "follow_button": "",
-                "following_button": "",
-                "following_text": "",
-                "hiding_button": "",
-                "hiding_text": "",
-                "ignoring_button": "",
-                "ignoring_text": "",
-                "lurking_button": "",
-                "lurking_text": "",
-                "not_following_button": "",
-                "not_following_text": "",
-                "notify_alert_tooltip": "",
-                "notify_email_tooltip": "",
-                "submit_button": ""
+                "header": "การสมัครติดตาม {tagName}",
+                "subscription_label": "เลือกระดับการติดตามสำหรับ {tagName}",
+                "follow_button": "=> fof-follow-tags.ref.follow",
+                "following_button": "=> fof-follow-tags.ref.following",
+                "following_text": "รับแจ้งเตือนโพสต์ใหม่ทั้งหมด",
+                "hiding_button": "=> fof-follow-tags.ref.hiding",
+                "hiding_text": "ซ่อนโพสต์จากหน้าโพสต์ทั้งหมด",
+                "ignoring_button": "=> fof-follow-tags.ref.ignoring",
+                "ignoring_text": "ไม่รับการแจ้งเตือนใด ๆ",
+                "lurking_button": "=> fof-follow-tags.ref.lurking",
+                "lurking_text": "รับแจ้งเตือนโพสต์ใหม่และการตอบกลับทั้งหมด",
+                "not_following_button": "ไม่ได้ติดตาม",
+                "not_following_text": "รับแจ้งเตือนเฉพาะเมื่อมีคน @mention คุณ",
+                "notify_alert_tooltip": "รับการแจ้งเตือนในฟอรัมเมื่อมีโพสต์หรือโพสต์ใหม่",
+                "notify_email_tooltip": "รับ Email เมื่อมีโพสต์หรือโพสต์ใหม่",
+                "submit_button": "ยืนยันการสมัครติดตาม"
             },
             "hero": {
-                "title": ""
+                "title": "=> flarum-subscriptions.forum.index.following_link"
             },
             "notifications": {
-                "new_discussion_text": "",
-                "new_post_text": "",
-                "new_discussion_tag_text": ""
+                "new_discussion_text": "{username} สร้างโพสต์ใหม่",
+                "new_post_text": "{username} โพสต์ใหม่",
+                "new_discussion_tag_text": "{username} เปลี่ยน Tag"
             },
             "user": {
                 "settings": {
-                    "heading": "",
-                    "filter_label": ""
+                    "heading": "ติดตาม Tag",
+                    "filter_label": "สิ่งที่จะแสดงโดยค่าเริ่มต้นในหน้าติดตาม"
                 }
             }
         },
         "admin": {
             "settings": {
-                "following_page_default_label": "",
-                "following_none_label": "",
-                "following_tags_label": ""
+                "following_page_default_label": "การกรองเริ่มต้นของหน้าติดตาม",
+                "following_none_label": "=> fof-follow-tags.ref.filtering_options.none",
+                "following_tags_label": "=> fof-follow-tags.ref.filtering_options.tags"
             }
         },
         "email": {
@@ -88,14 +88,14 @@
             }
         },
         "ref": {
-            "follow": "",
-            "following": "",
-            "hiding": "",
-            "ignoring": "",
-            "lurking": "",
+            "follow": "ติดตาม",
+            "following": "กำลังติดตาม",
+            "hiding": "ซ่อน",
+            "ignoring": "ไม่สนใจ",
+            "lurking": "Lurking",
             "filtering_options": {
-                "none": "",
-                "tags": ""
+                "none": "โพสต์ที่ติดตาม",
+                "tags": "Tag ที่ติดตาม"
             }
         }
     },
@@ -103,8 +103,8 @@
         "lib": {
             "data": {
                 "tagsubscription": {
-                    "export_description": "",
-                    "anonymize_description": ""
+                    "export_description": "ส่งออกรายละเอียดระดับการติดตาม Tag หากมี",
+                    "anonymize_description": "ลบการสมัครติดตาม Tag ของผู้ใช้"
                 }
             }
         }

@@ -3,35 +3,35 @@
         "admin": {
             "popup": {
                 "section": {
-                    "googleAnalytics": "",
-                    "piwik": ""
+                    "googleAnalytics": "Google Analytics",
+                    "piwik": "ถึง"
                 },
                 "field": {
-                    "statusGoogle": "",
-                    "optTrackingCode": "",
-                    "googleTrackingCode": "",
-                    "googleGTMCode": "",
-                    "statusPiwik": "",
-                    "piwikUrl": "",
-                    "piwikSiteId": "",
-                    "piwikTrackSubdomain": "",
-                    "piwikPrependDomain": "",
-                    "piwikHideAliasUrl": "",
-                    "piwikAliasUrl": "",
-                    "piwikTrackAccounts": "",
-                    "piwikAuthToken": ""
+                    "statusGoogle": "เปิดใช้งาน",
+                    "optTrackingCode": "ตัวเลือก",
+                    "googleTrackingCode": "Tracking Code ID",
+                    "googleGTMCode": "ตัวเลือก",
+                    "statusPiwik": "เปิดใช้งาน",
+                    "piwikUrl": "URL",
+                    "piwikSiteId": "Site ID",
+                    "piwikTrackSubdomain": "domain",
+                    "piwikPrependDomain": "ชื่อเรื่อง",
+                    "piwikHideAliasUrl": "ซ่อน",
+                    "piwikAliasUrl": "URL",
+                    "piwikTrackAccounts": "ผู้ใช้",
+                    "piwikAuthToken": "ตกลง"
                 },
                 "placeholder": {
-                    "piwikAuthToken": ""
+                    "piwikAuthToken": "เปิดใช้งาน"
                 },
                 "trackAccounts": {
-                    "none": "",
-                    "username": "",
-                    "email": ""
+                    "none": "ไม่",
+                    "username": "ชื่อ",
+                    "email": "email"
                 }
             },
             "matomo-widget": {
-                "title": ""
+                "title": "ถึง"
             }
         }
     }

@@ -11,21 +11,21 @@
         "forum": {
             "modal_resetviews": {
                 "title": "รีเซ็ตจำนวนการเข้าชม",
-                "submit_button": "ใช่ ลบมันให้หมด",
-                "label": "{count, plural, one {จะลบยอดวิวจำนวน {count} ของกระทู้นี้ ต้องการดำเนินการหรือไม่?} other {จะลบยอดวิวจำนวน {count} ของกระทู้นี้ ต้องการดำเนินการหรือไม่?}}"
+                "submit_button": "ใช่ ลบทั้งหมด",
+                "label": "{count, plural, other {จะลบ {count} การเข้าชมของโพสต์นี้ ต้องการดำเนินการต่อหรือไม่?}}"
             },
             "discussion_controls": {
-                "resetviews_button": "รีเซ็ตจำนวนการเข้าชม"
+                "resetviews_button": "รีเซ็ตการเข้าชม"
             },
             "viewlist": {
                 "title": "ผู้ชมล่าสุด",
-                "guest": "ผู้เข้าชม"
+                "guest": "ผู้เยี่ยมชม"
             },
             "post": {
                 "viewed_by": "{users} ดูสิ่งนี้",
                 "you": "=> core.ref.you",
                 "others_link": "=> core.ref.some_others",
-                "modal_title_text": "ผู้ใช้คนสุดท้านที่ดูกระทู้นี้"
+                "modal_title_text": "ผู้ใช้ที่เข้าชมโพสต์นี้ล่าสุด"
             }
         },
         "admin": {
@@ -34,21 +34,21 @@
                 "view_number_label": "ดูจำนวนการเข้าชม"
             },
             "settings": {
-                "title": "ตั้งค่าการนับผู้เข้าชม",
-                "track_unique_label": "นับเพียงครั้งเดียว",
-                "track_unique_text": "",
-                "track_guests_label": "",
-                "abbr_numbers_label": "ย่อจำนวนนับ",
-                "abbr_numbers_text": "",
-                "show_filter_label": "เปิดใช้งานฟิลด์การเรียงลำดับไม่นิยม",
-                "max_viewcount_label": "รายการรับชมสูงสุด",
-                "max_viewcount_text": "สิ่งนี้ใช้กับรายชื่อผู้ชมส่วนท้ายและรายชื่อผู้ชมแถบด้านข้าง",
-                "show_viewlist_label": "เปิดรายการรับชม",
-                "show_viewlist_text": "",
-                "show_footer_viewlist_label": "เปิดรายชื่อผู้ชมส่วนท้าย",
-                "show_footer_viewlist_text": "",
-                "ignore_crawlers_label": "",
-                "ignore_crawlers_text": ""
+                "title": "การตั้งค่าการนับผู้เข้าชม",
+                "track_unique_label": "นับการเข้าชมซ้ำเพียงครั้งเดียว",
+                "track_unique_text": "เพิ่มจำนวนตามที่อยู่ IP",
+                "track_guests_label": "นับผู้เยี่ยมชม",
+                "abbr_numbers_label": "ย่อตัวเลขจำนวนการเข้าชม",
+                "abbr_numbers_text": "เมื่อเปิดใช้งาน ตัวเลขจำนวนมากจะถูกย่อ (เช่น 1000 = 1K)",
+                "show_filter_label": "เปิดใช้งานการเรียงตามความนิยม/ไม่นิยม",
+                "max_viewcount_label": "จำนวนผู้ชมสูงสุดในรายการ",
+                "max_viewcount_text": "กำหนดจำนวนผู้ใช้สูงสุดในรายการผู้ชม (ใช้กับส่วนท้ายและแถบด้านข้าง)",
+                "show_viewlist_label": "เปิดรายการผู้ชม",
+                "show_viewlist_text": "แสดงรายชื่อผู้ชมล่าสุดในแถบด้านข้างของโพสต์",
+                "show_footer_viewlist_label": "เปิดรายการผู้ชมในส่วนท้าย",
+                "show_footer_viewlist_text": "แสดงรายชื่อผู้ชมที่ส่วนท้ายของโพสต์แรก",
+                "ignore_crawlers_label": "ไม่นับบอต/โปรแกรมรวบรวมข้อมูล",
+                "ignore_crawlers_text": "ป้องกันบอตและโปรแกรมรวบรวมข้อมูลเพิ่มจำนวนการเข้าชม"
             }
         }
     }

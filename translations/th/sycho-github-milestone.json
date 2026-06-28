@@ -1,28 +1,28 @@
 {
     "sycho-github-milestone": {
         "admin": {
-            "repository": "",
-            "milestone": "",
-            "default_filter": "",
-            "closed": "",
-            "open": "",
-            "all": ""
+            "repository": "GitHub Repository",
+            "milestone": "Milestone ID",
+            "default_filter": "ตัวกรองเริ่มต้น",
+            "closed": "=> sycho-github-milestone.ref.closed",
+            "open": "=> sycho-github-milestone.ref.open",
+            "all": "=> sycho-github-milestone.ref.all"
         },
         "forum": {
             "empty_list": "",
-            "title": "",
-            "last_updated": "",
-            "closed": "",
-            "open": "",
-            "all": "",
+            "title": "Milestone",
+            "last_updated": "อัปเดตล่าสุด {time}",
+            "closed": "=> sycho-github-milestone.ref.closed",
+            "open": "=> sycho-github-milestone.ref.open",
+            "all": "=> sycho-github-milestone.ref.all",
             "complete": "",
-            "load_more": "",
-            "tasks_done": ""
+            "load_more": "=> core.forum.discussion_list.load_more_button",
+            "tasks_done": "{number} จาก {total}"
         },
         "ref": {
-            "closed": "",
-            "open": "",
-            "all": ""
+            "closed": "ปิดแล้ว",
+            "open": "เปิดอยู่",
+            "all": "ทั้งหมด"
         }
     }
 }

@@ -2,57 +2,57 @@
     "fof-webhooks": {
         "actions": {
             "discussion": {
-                "started": "",
+                "started": "เริ่ม",
                 "renamed": {
-                    "title": "",
-                    "description": ""
+                    "title": "ชื่อ",
+                    "description": "ชื่อเรื่อง"
                 },
-                "hidden": "",
-                "restored": "",
-                "deleted": ""
+                "hidden": "โพสต์",
+                "restored": "คืนค่า",
+                "deleted": "ลบ"
             },
             "group": {
-                "created": "",
-                "renamed": "",
-                "deleted": ""
+                "created": "สร้าง",
+                "renamed": "ชื่อ",
+                "deleted": "ลบ"
             },
             "post": {
-                "posted": "",
-                "revised": "",
-                "hidden": "",
-                "restored": "",
-                "deleted": "",
-                "approved": ""
+                "posted": "post",
+                "revised": "แก้ไข",
+                "hidden": "post",
+                "restored": "คืนค่า",
+                "deleted": "ลบ",
+                "approved": "อนุมัติแล้ว"
             },
             "user": {
-                "registered": "",
+                "registered": "ผู้ใช้",
                 "renamed": {
-                    "title": "",
-                    "description": ""
+                    "title": "ชื่อ",
+                    "description": "ชื่อ"
                 },
-                "deleted": ""
+                "deleted": "ลบ"
             }
         },
         "adapters": {
             "errors": {
-                "404": ""
+                "404": "ไม่"
             }
         },
         "admin": {
             "errors": {
-                "service_not_found": "",
-                "url_invalid": "",
-                "tag_invalid": "",
-                "tag_disabled": ""
+                "service_not_found": "ไม่พบ service \"{service}\"",
+                "url_invalid": "URL ไม่ถูกต้องสำหรับ service ที่เลือก",
+                "tag_invalid": "Webhook นี้ถูกจำกัดไว้ที่ tag ที่ไม่ถูกต้อง การจำกัดจะไม่ถูกนำไปใช้ โปรดตรวจสอบ",
+                "tag_disabled": "Webhook นี้มีการตั้งค่าจำกัด tag แต่ Tags extension ถูกปิดใช้งาน การจำกัดจะไม่ถูกนำไปใช้"
             },
             "nav": {
-                "desc": ""
+                "desc": "Webhook ที่ปรับแต่งได้สำหรับการส่งออกของ forum ของคุณ"
             },
             "settings": {
-                "debug_label": "",
-                "debug_help": "",
+                "debug_label": "Debug",
+                "debug_help": "เพิ่ม log เพิ่มเติมในไฟล์ log ของ Flarum เพื่อ debug ปัญหากับ webhook และ/หรือเหตุการณ์ที่ไม่ทำงานอย่างถูกต้อง",
                 "item": {
-                    "tag_any_label": "",
+                    "tag_any_label": "Tag ใดก็ได้",
                     "edit_tooltip": "",
                     "delete_tooltip": "",
                     "delete_confirm_alert": "",
@@ -60,74 +60,74 @@
                     "edit_tags_button": ""
                 },
                 "help": {
-                    "disabled": "",
-                    "general": "",
-                    "tags": "",
-                    "url": ""
+                    "disabled": "Webhook นี้ถูกปิดใช้งานเพราะไม่มี event ที่เปิดใช้งาน",
+                    "general": "ที่นี่คุณสามารถเพิ่ม แก้ไข และลบ webhook จาก forum ของคุณได้",
+                    "tags": "คุณสามารถจำกัด webhook ไว้เฉพาะ tag ที่เลือก หากคุณเลือก tag ใด webhook จะถูกทำให้ทำงานเฉพาะเมื่อเหตุการณ์ถูกทำให้ทำงานบนทรัพยากรที่มี tag ที่เลือก",
+                    "url": "URL endpoint ของ webhook ที่จะถูกดำเนินการ"
                 },
                 "modal": {
-                    "title": "",
-                    "description": "",
-                    "use_plain_text_label": "",
-                    "max_post_content_length_label": "",
-                    "max_post_content_length_help": "",
-                    "extra_text_label": "",
-                    "extra_text_help": "",
-                    "group_label": "",
-                    "group_help": "",
-                    "name_label": "",
-                    "name_help": "",
-                    "events_label": "",
-                    "include_matching_tags_label": ""
+                    "title": "ตั้งค่า Webhook",
+                    "description": "ที่นี่คุณสามารถแก้ไขเหตุการณ์ที่ webhook จะถูกทำให้ทำงาน",
+                    "use_plain_text_label": "ลดปริมาณการจัดรูปแบบในเนื้อหา post",
+                    "max_post_content_length_label": "ความยาวสูงสุดของเนื้อหา Post",
+                    "max_post_content_length_help": "ตั้งค่าตัวเลขเพื่อจำกัดเนื้อหา post ในเหตุการณ์ที่เกี่ยวข้องกับ post ทั้งหมด เปลี่ยนเป็น 0 หรือว่างไว้เพื่อลบการจำกัด",
+                    "extra_text_label": "ข้อความเพิ่มเติม",
+                    "extra_text_help": "ข้อความพิเศษที่จะรวมไว้ใน webhook ที่ส่ง",
+                    "group_label": "กลุ่ม",
+                    "group_help": "ส่งทรัพยากรที่สามารถมองเห็นได้โดยกลุ่มนี้",
+                    "name_label": "ชื่อ",
+                    "name_help": "ชื่อของ webhook จะใช้สำหรับสิ่งต่างๆ เช่น Discord username, Slack bot name เป็นต้น",
+                    "events_label": "เหตุการณ์",
+                    "include_matching_tags_label": "รวม tag ที่ตรงกัน -- สำหรับ webhook ที่จำกัดไว้ที่ tag เฉพาะ แสดงว่า tag ใดที่เหตุการณ์ตรงกัน"
                 },
                 "services": {
-                    "discord": "",
-                    "slack": "",
-                    "microsoft-teams": ""
+                    "discord": "Discord",
+                    "slack": "Slack",
+                    "microsoft-teams": "Microsoft Teams"
                 },
                 "actions": {
                     "flarum": {
                         "discussion": {
-                            "title": "",
-                            "started": "",
-                            "renamed": "",
-                            "hidden": "",
-                            "restored": "",
-                            "deleted": ""
+                            "title": "โพสต์",
+                            "started": "เริ่ม",
+                            "renamed": "=> fof-webhooks.ref.renamed",
+                            "hidden": "=> fof-webhooks.ref.hidden",
+                            "restored": "=> fof-webhooks.ref.restored",
+                            "deleted": "=> fof-webhooks.ref.deleted"
                         },
                         "group": {
-                            "title": "",
-                            "created": "",
-                            "renamed": "",
-                            "deleted": ""
+                            "title": "กลุ่ม",
+                            "created": "สร้าง",
+                            "renamed": "=> fof-webhooks.ref.renamed",
+                            "deleted": "=> fof-webhooks.ref.deleted"
                         },
                         "post": {
-                            "title": "",
-                            "posted": "",
-                            "revised": "",
-                            "hidden": "",
-                            "restored": "",
-                            "deleted": ""
+                            "title": "post",
+                            "posted": "post",
+                            "revised": "แก้ไข",
+                            "hidden": "=> fof-webhooks.ref.hidden",
+                            "restored": "=> fof-webhooks.ref.restored",
+                            "deleted": "=> fof-webhooks.ref.deleted"
                         },
                         "user": {
-                            "title": "",
-                            "registered": "",
-                            "renamed": "",
-                            "deleted": ""
+                            "title": "Flarum User",
+                            "registered": "ลงทะเบียน",
+                            "renamed": "=> fof-webhooks.ref.renamed",
+                            "deleted": "=> fof-webhooks.ref.deleted"
                         },
                         "approval": {
-                            "title": "",
-                            "postwasapproved": ""
+                            "title": "Flarum Approval",
+                            "postwasapproved": "Post Approved"
                         }
                     }
                 }
             }
         },
         "ref": {
-            "deleted": "",
-            "hidden": "",
-            "renamed": "",
-            "restored": ""
+            "deleted": "ลบแล้ว",
+            "hidden": "ซ่อนแล้ว",
+            "renamed": "เปลี่ยนชื่อแล้ว",
+            "restored": "คืนค่าแล้ว"
         }
     }
 }

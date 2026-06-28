@@ -2,64 +2,64 @@
     "fof-horizon": {
         "admin": {
             "settings": {
-                "trim_title": "",
-                "trim_help": "",
-                "trim_recent": "",
-                "trim_recent_help": "",
-                "trim_pending": "",
-                "trim_pending_help": "",
-                "trim_completed": "",
-                "trim_completed_help": "",
-                "trim_recent_failed": "",
-                "trim_recent_failed_help": "",
-                "trim_failed": "",
-                "trim_failed_help": "",
-                "trim_monitored": "",
-                "trim_monitored_help": ""
+                "trim_title": "ตั้งค่าการล้างข้อมูล",
+                "trim_help": "ตั้งค่าระยะเวลา (เป็นนาที) ที่ต้องการให้ Horizon\nเก็บ job ที่เพิ่งทำเสร็จและ job ที่ล้มเหลวไว้ โดยทั่วไป job ล่าสุดจะเก็บไว้\nหนึ่งชั่วโมง ส่วน job ที่ล้มเหลวทั้งหมดจะเก็บไว้หนึ่งสัปดาห์\n",
+                "trim_recent": "ล้าง Recent Jobs",
+                "trim_recent_help": "ตารางนี้ใช้แสดง job ล่าสุดใน Horizon dashboard\n",
+                "trim_pending": "ล้าง Pending Jobs",
+                "trim_pending_help": "ตารางนี้ใช้แสดง job ที่รอดำเนินการใน Horizon dashboard\n",
+                "trim_completed": "ล้าง Completed Jobs",
+                "trim_completed_help": "ตารางนี้ใช้แสดง job ที่เสร็จสมบูรณ์ใน Horizon dashboard\n",
+                "trim_recent_failed": "ล้าง Recent Failed Jobs",
+                "trim_recent_failed_help": "ตารางนี้ใช้แสดง job ที่ล้มเหลวล่าสุดใน Horizon dashboard\n",
+                "trim_failed": "ล้าง Failed Jobs",
+                "trim_failed_help": "ตารางนี้ใช้แสดง job ที่ล้มเหลวใน Horizon dashboard\n",
+                "trim_monitored": "ล้าง Monitored Jobs",
+                "trim_monitored_help": "ตารางนี้ใช้แสดง job ที่ตรวจสอบอยู่ใน Horizon dashboard\n"
             },
             "stats": {
-                "auto_refresh": "",
-                "heading": "",
-                "full_dashboard": "",
-                "refresh": "",
+                "auto_refresh": "รีเฟรชอัตโนมัติ",
+                "heading": "ภาพรวม Queue",
+                "full_dashboard": "Horizon Dashboard",
+                "refresh": "Refresh",
                 "last_refresh": "",
                 "error": {
-                    "title": "",
-                    "fetch_failed": "",
-                    "setup_docs": ""
+                    "title": "ข้อผิดพลาดการเชื่อมต่อ",
+                    "fetch_failed": "ไม่สามารถดึงสถิติ Horizon ได้ กรุณาตรวจสอบการตั้งค่า Redis",
+                    "setup_docs": "ดูเอกสารการตั้งค่า Redis"
                 },
                 "health": {
-                    "excellent": "",
-                    "good": "",
-                    "poor": "",
-                    "critical": "",
-                    "tooltip": ""
+                    "excellent": "ดีเยี่ยม",
+                    "good": "ดี",
+                    "poor": "ต่ำ",
+                    "critical": "วิกฤต",
+                    "tooltip": "คะแนนสุขภาพระบบ: {score}/100"
                 },
                 "data": {
-                    "redis-used-memory": "",
-                    "redis-peak-memory": "",
-                    "redis-max-memory": "",
-                    "redis-memory-usage": "",
-                    "redis-memory-policy": "",
-                    "redis-memory-policy-tooltip": "",
-                    "redis-ops-per-sec": "",
-                    "redis-connected-clients": "",
-                    "redis-blocked-clients": "",
-                    "jobs-per-minute": "",
-                    "jobs-past-hour": "",
-                    "failed-last-seconds": "",
+                    "redis-used-memory": "หน่วยความจำที่ใช้ใน Cache",
+                    "redis-peak-memory": "หน่วยความจำสูงสุดของ Cache",
+                    "redis-max-memory": "หน่วยความจำสูงสุดที่กำหนดสำหรับ Cache",
+                    "redis-memory-usage": "การใช้หน่วยความจำ Cache",
+                    "redis-memory-policy": "นโยบายหน่วยความจำ Cache",
+                    "redis-memory-policy-tooltip": "นโยบายหน่วยความจำคือวิธีที่ cache จะเลือกลบข้อมูลเมื่อ\nถึงขีดจำกัด maxmemory ค่าเริ่มต้นคือ `noeviction`: ไม่บันทึกค่าใหม่\nเมื่อถึงขีดจำกัดหน่วยความจำ คลิกเพื่อดูเอกสาร\n",
+                    "redis-ops-per-sec": "การดำเนินการต่อวินาที",
+                    "redis-connected-clients": "Client ที่เชื่อมต่ออยู่",
+                    "redis-blocked-clients": "Client ที่ถูก block",
+                    "jobs-per-minute": "Job ต่อนาที",
+                    "jobs-past-hour": "Job ในชั่วโมงที่ผ่านมา",
+                    "failed-last-seconds": "Job ที่ล้มเหลวในช่วงไม่กี่วินาทีที่ผ่านมา",
                     "status": {
-                        "label": "",
-                        "running": "",
-                        "inactive": ""
+                        "label": "สถานะ",
+                        "running": "กำลังทำงาน",
+                        "inactive": "ไม่ได้ใช้งาน"
                     },
-                    "total-processes": "",
-                    "max-wait-time": "",
-                    "max-wait-queue": "",
-                    "max-runtime": "",
-                    "max-throughput": "",
-                    "success-rate": "",
-                    "failure-rate": ""
+                    "total-processes": "จำนวน Process ทั้งหมด",
+                    "max-wait-time": "เวลารอสูงสุด",
+                    "max-wait-queue": "Queue: {queue}",
+                    "max-runtime": "เวลาทำงานสูงสุด",
+                    "max-throughput": "Throughput สูงสุด",
+                    "success-rate": "อัตราสำเร็จ",
+                    "failure-rate": "อัตราล้มเหลว"
                 }
             }
         }

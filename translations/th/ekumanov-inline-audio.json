@@ -1,14 +1,14 @@
 {
     "ekumanov-inline-audio": {
         "forum": {
-            "bbcode_description": ""
+            "bbcode_description": "ฝัง audio player: [player]URL[/player]"
         },
         "admin": {
             "settings": {
-                "show_download_button": "",
-                "show_right_click_download": "",
-                "auto_play": "",
-                "strip_upload_prefix": ""
+                "show_download_button": "แสดงปุ่มดาวน์โหลดบน player bar",
+                "show_right_click_download": "อนุญาตให้คลิกขวาที่ชื่อไฟล์เพื่อบันทึกไฟล์",
+                "auto_play": "เริ่มเล่นทันทีเมื่อคลิกที่ชื่อไฟล์",
+                "strip_upload_prefix": "ซ่อนตัวเลขนำหน้าจากชื่อไฟล์ที่อัปโหลด (เช่น \"1774205518-685373-song.mp3\" → \"song.mp3\")"
             }
         }
     }

@@ -6,55 +6,55 @@
                 "database_bin_path_help": ""
             },
             "adapters": {
-                "local": "",
-                "aliyun": "",
-                "azure": "",
-                "aws": "",
-                "dropbox": "",
-                "gdrive": "",
-                "ftp": "",
-                "sftp": ""
+                "local": "พื้นที่เก็บข้อมูลในเครื่อง",
+                "aliyun": "Alibaba Cloud (Aliyun)",
+                "azure": "Microsoft Azure",
+                "aws": "Amazon AWS S3",
+                "dropbox": "Dropbox",
+                "gdrive": "Google Drive",
+                "ftp": "FTP",
+                "sftp": "SFTP"
             },
-            "settings_button": "",
-            "delete_button": "",
-            "delete_confirmation": "",
-            "create_button": "",
-            "required_package_button": "",
+            "settings_button": "ตั้งค่า",
+            "delete_button": "ลบ",
+            "delete_confirmation": "คุณแน่ใจหรือไม่ที่จะลบ \"{name}\" ({adapter})?",
+            "create_button": "เพิ่ม adapter ใหม่",
+            "required_package_button": "ติดตั้ง",
             "required-package-modal": {
-                "title": "",
-                "content": ""
+                "title": "ต้องการ package สำหรับ {adapter}",
+                "content": "เพื่อใช้งาน driver นี้ คุณต้องติดตั้ง package เฉพาะ ทำได้โดยรันคำสั่ง composer: <code>composer require {package}</code> ในโฟลเดอร์ Flarum ของคุณ\n"
             },
             "adapter-settings-modal": {
-                "title": "",
-                "name_label": "",
+                "title": "ตั้งค่า {adapter}",
+                "name_label": "ชื่อสถานที่จัดเก็บ",
                 "timestamp_label": "",
                 "timestamp_help": "",
                 "local": {
                     "target": {
-                        "label": "",
-                        "description": ""
+                        "label": "Target path",
+                        "description": "ระบุโฟลเดอร์ในเครื่องสำหรับบันทึก backup"
                     }
                 },
                 "aliyun": {
                     "endpoint": {
-                        "label": "",
-                        "description": ""
+                        "label": "Endpoint",
+                        "description": "URL ของ storage endpoint"
                     },
                     "access-id": {
-                        "label": "",
-                        "description": ""
+                        "label": "Access ID",
+                        "description": "Access token ID สำหรับการยืนยันตัวตน"
                     },
                     "access-key": {
-                        "label": "",
-                        "description": ""
+                        "label": "Access Key",
+                        "description": "Access token Key สำหรับการยืนยันตัวตน"
                     },
                     "bucket": {
-                        "label": "",
-                        "description": ""
+                        "label": "Bucket",
+                        "description": "Bucket สำหรับจัดเก็บข้อมูล"
                     },
                     "path-prefix": {
-                        "label": "",
-                        "description": ""
+                        "label": "Path prefix",
+                        "description": "Path prefix เริ่มต้นสำหรับไฟล์ (ไม่บังคับ)"
                     }
                 },
                 "azure": {
@@ -63,8 +63,8 @@
                         "description": ""
                     },
                     "container": {
-                        "label": "",
-                        "description": ""
+                        "label": "Container",
+                        "description": "Azure container"
                     },
                     "path-prefix": {
                         "label": "",
@@ -73,103 +73,103 @@
                 },
                 "aws": {
                     "credentials-key": {
-                        "label": "",
-                        "description": ""
+                        "label": "Key",
+                        "description": "AWS credentials key"
                     },
                     "credentials-secret": {
-                        "label": "",
-                        "description": ""
+                        "label": "Secret",
+                        "description": "AWS credentials secret"
                     },
                     "region": {
-                        "label": "",
-                        "description": ""
+                        "label": "Region",
+                        "description": "Region ของ bucket"
                     },
                     "version": {
-                        "label": "",
-                        "description": ""
+                        "label": "Version",
+                        "description": "ระบุ version หรือปล่อยว่างเพื่อใช้ล่าสุด"
                     },
                     "bucket": {
-                        "label": "",
-                        "description": ""
+                        "label": "Bucket",
+                        "description": "S3 bucket สำหรับ upload"
                     },
                     "path-prefix": {
-                        "label": "",
-                        "description": ""
+                        "label": "Path prefix",
+                        "description": "Path prefix เริ่มต้นสำหรับไฟล์ (ไม่บังคับ)"
                     }
                 },
                 "dropbox": {
                     "key": {
-                        "label": ""
+                        "label": "App Key"
                     },
                     "secret": {
-                        "label": ""
+                        "label": "App Secret"
                     },
                     "refresh-token": {
-                        "label": "",
-                        "description": ""
+                        "label": "Refresh Token",
+                        "description": "ใช้ช่องด้านล่างเพื่อรับ refresh token หรือทำตามขั้นตอนที่ https://www.codemzy.com/blog/dropbox-long-lived-access-refresh-token#how-can-i-get-a-refresh-token-manually ด้วยตนเอง"
                     },
                     "help": {
-                        "obtain-access-code-label": "",
-                        "obtain-access-code-button": "",
-                        "obtain-refresh-token-label": "",
-                        "obtain-refresh-token-button": "",
-                        "obtain-refresh-token-success": ""
+                        "obtain-access-code-label": "รับ access code (ต้องใช้ app key)",
+                        "obtain-access-code-button": "เปิด Dropbox",
+                        "obtain-refresh-token-label": "ใช้ access code เพื่อรับ refresh token (ต้องใช้ app key และ secret)",
+                        "obtain-refresh-token-button": "ใช้ code",
+                        "obtain-refresh-token-success": "ได้รับ refresh token สำเร็จและอัปเดตด้านบนแล้ว! บันทึกการเปลี่ยนแปลงเพื่อเก็บข้อมูล"
                     }
                 },
                 "gdrive": {
                     "client-id": {
-                        "label": "",
-                        "description": ""
+                        "label": "Client ID",
+                        "description": "ทำตามคำแนะนำที่ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md เพื่อสร้าง Google project และรับ Client ID และ Client Secret\n"
                     },
                     "client-secret": {
-                        "label": "",
-                        "description": ""
+                        "label": "Client Secret",
+                        "description": " "
                     },
                     "refresh-token": {
-                        "label": "",
-                        "description": ""
+                        "label": "Refresh Token",
+                        "description": "ทำตามคำแนะนำที่ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/2-getting-your-refresh-token.md เพื่อรับ refresh token สำหรับ Google oAuth app ของคุณ\n"
                     },
                     "folder": {
-                        "label": "",
-                        "description": ""
+                        "label": "Folder ID",
+                        "description": "https://drive.google.com/drive/u/0/folders/ID"
                     },
                     "help": {
-                        "test_success_alert": "",
-                        "test_button": ""
+                        "test_success_alert": "เชื่อมต่อ Google Drive สำเร็จ! บันทึกการเปลี่ยนแปลงเพื่อเก็บการตั้งค่า",
+                        "test_button": "ทดสอบการเชื่อมต่อ"
                     }
                 },
                 "ftp": {
                     "host": {
-                        "label": "",
-                        "description": ""
+                        "label": "Hostname ระยะไกล",
+                        "description": "Hostname สำหรับเชื่อมต่อด้วย FTP เช่น <em>ftp.yourdomain.local</em>"
                     },
                     "username": {
-                        "label": "",
-                        "description": ""
+                        "label": "ชื่อผู้ใช้",
+                        "description": "ชื่อผู้ใช้สำหรับยืนยันตัวตนบน FTP server"
                     },
                     "password": {
-                        "label": "",
-                        "description": ""
+                        "label": "รหัสผ่าน",
+                        "description": "รหัสผ่านผู้ใช้สำหรับยืนยันตัวตนบน FTP server"
                     },
                     "passive": {
                         "toggle": "",
                         "description": ""
                     },
                     "port": {
-                        "label": "",
-                        "description": ""
+                        "label": "Port",
+                        "description": "FTP port (ค่าเริ่มต้นคือ 21)"
                     },
                     "root": {
-                        "label": "",
-                        "description": ""
+                        "label": "Root path",
+                        "description": "Root path ระยะไกล (subdirectory) สำหรับจัดเก็บ backup"
                     },
                     "ssl": {
-                        "toggle": "",
-                        "description": ""
+                        "toggle": "SSL",
+                        "description": "เลือกว่าจะใช้การเชื่อมต่อ SSL แบบเข้ารหัสหรือไม่"
                     },
                     "timeout": {
-                        "label": "",
-                        "description": ""
+                        "label": "Timeout",
+                        "description": "จำนวนวินาทีที่รอการเชื่อมต่อกับ FTP server"
                     }
                 },
                 "sftp": {
@@ -197,8 +197,8 @@
                 }
             },
             "nav": {
-                "label": "",
-                "description": ""
+                "label": "Backup",
+                "description": "จัดเก็บสำเนาของฟอรัมของคุณ"
             }
         }
     }

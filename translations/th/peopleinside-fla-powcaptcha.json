@@ -2,29 +2,29 @@
     "peopleinside-powcaptcha": {
         "admin": {
             "settings": {
-                "enabled_login_label": "",
-                "enabled_login_help": "",
-                "enabled_signup_label": "",
-                "enabled_signup_help": "",
-                "enabled_forgot_label": "",
-                "enabled_forgot_help": "",
-                "difficulty_label": "",
-                "difficulty_help": "",
-                "difficulty_3": "",
-                "difficulty_4": "",
-                "difficulty_5": ""
+                "enabled_login_label": "เปิดใช้งาน CAPTCHA ตอน Login",
+                "enabled_login_help": "แสดงการทดสอบความปลอดภัย PoW ในฟอร์ม Login",
+                "enabled_signup_label": "เปิดใช้งาน CAPTCHA ตอนสมัครสมาชิก",
+                "enabled_signup_help": "แสดงการทดสอบความปลอดภัย PoW ในฟอร์มสมัครสมาชิก",
+                "enabled_forgot_label": "เปิดใช้งาน CAPTCHA ตอนรีเซ็ตรหัสผ่าน",
+                "enabled_forgot_help": "แสดงการทดสอบความปลอดภัย PoW ในฟอร์มลืมรหัสผ่าน",
+                "difficulty_label": "ความยาก",
+                "difficulty_help": "ความยากสูงขึ้นทำให้ bot ทำงานหนักขึ้น ระดับ 1 อาจถูก bot บางตัวข้ามได้ (~100 ms) ระดับ 2 ให้การป้องกันที่ดีกว่าและเป็นค่าแนะนำ (~1 วินาที) ระดับ 3 พยายามรับประกันการป้องกันและความยากสูงสุดสำหรับ bot (~10 วินาที)",
+                "difficulty_3": "ระดับ 1 – ต่ำ (~100 ms)",
+                "difficulty_4": "ระดับ 2 – ปานกลาง (~1 วินาที)",
+                "difficulty_5": "ระดับ 3 – สูง (~10 วินาที)"
             }
         },
         "forum": {
-            "solving": "",
-            "submitting": "",
-            "verified": "",
-            "error": "",
-            "retry": "",
-            "challenge_not_ready": ""
+            "solving": "กำลังแก้การทดสอบความปลอดภัย…",
+            "submitting": "กำลังยืนยันความปลอดภัย… จะส่งข้อมูลโดยอัตโนมัติ",
+            "verified": "ผ่านการตรวจสอบความปลอดภัย",
+            "error": "การตรวจสอบความปลอดภัยล้มเหลว กรุณาลองใหม่อีกครั้ง",
+            "retry": "ลองใหม่",
+            "challenge_not_ready": "การทดสอบความปลอดภัยยังดำเนินอยู่หรือยังไม่เสร็จสมบูรณ์ กรุณารอสักครู่"
         },
         "validation": {
-            "pow_captcha": ""
+            "pow_captcha": "ไม่สามารถยืนยันการทดสอบความปลอดภัยได้ กรุณาลองใหม่อีกครั้ง"
         }
     }
 }

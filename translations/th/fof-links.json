@@ -2,45 +2,45 @@
     "fof-links": {
         "admin": {
             "edit_link": {
-                "delete_link_button": "ลบลิ้ง",
-                "delete_link_confirmation": "คุณเเน่ใจหรือไม่ที่จะลบลิ้งนี้?",
-                "internal_link": "มันเป็นลิ้งภายในไหม?",
-                "open_newtab": "เปิดลิ้งในเเท็บใหม่",
+                "delete_link_button": "ลบลิงก์",
+                "delete_link_confirmation": "คุณแน่ใจหรือไม่ว่าต้องการลบลิงก์นี้?",
+                "internal_link": "เป็นลิงก์ภายในหรือไม่?",
+                "open_newtab": "เปิดลิงก์ในแท็บใหม่",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> fof-links.ref.create_link",
                 "title_label": "=> fof-links.ref.title",
                 "title_placeholder": "=> fof-links.ref.title",
                 "icon_label": "=> core.ref.icon",
                 "icon_text": "=> core.ref.icon_text",
-                "icon_additional_text": "",
-                "url_description": "",
+                "icon_additional_text": "หากต้องการใช้ไอคอนแบรนด์ ให้ใช้คำนำหน้า <code>fab fa-</code> แทน",
+                "url_description": "เว้นว่างเพื่อแสดงเป็นป้ายกำกับ",
                 "url_label": "=> fof-links.ref.url",
                 "url_placeholder": "=> fof-links.ref.url",
-                "use_rel_me": "",
+                "use_rel_me": "เพิ่มแอตทริบิวต์ <code>rel=\"me\"</code> สำหรับยืนยันตัวตนบนเว็บไซต์อื่น",
                 "visibility": {
-                    "help": "",
-                    "help-disabled": "",
-                    "label": "",
+                    "help": "ลิงก์จะมองเห็นได้เฉพาะผู้ใช้ <code>{admin}</code> เป็นค่าเริ่มต้น ปรับสิทธิ์เพื่อกำหนดว่าใครเห็นลิงก์นี้ได้",
+                    "help-disabled": "บันทึกลิงก์ก่อนเปลี่ยนการตั้งค่าการมองเห็น",
+                    "label": "การมองเห็นลิงก์",
                     "guest-only": {
-                        "label": "",
-                        "help": ""
+                        "label": "เฉพาะ {guest} เท่านั้น?",
+                        "help": "เฉพาะ {guest} เท่านั้นที่เห็นลิงก์นี้ สิทธิ์ด้านบนควรตั้งเป็น '{everyone}'"
                     }
                 }
             },
             "links": {
                 "create_button": "=> fof-links.ref.create_link",
                 "links": "=> fof-links.ref.links",
-                "preconfigured": ""
+                "preconfigured": "ลิงก์ในฟอรัมนี้ถูกตั้งค่าไว้ล่วงหน้าและไม่สามารถแก้ไขได้ที่นี่"
             },
             "settings": {
-                "show_icons_only_on_tablet": ""
+                "show_icons_only_on_tablet": "แสดงเฉพาะไอคอนบนหน้าจอแท็บเล็ต"
             }
         },
         "ref": {
-            "create_link": "สร้างลิ้ง",
-            "links": "ลิ้ง",
+            "create_link": "สร้างลิงก์",
+            "links": "ลิงก์",
             "title": "ชื่อ",
-            "url": "ลิ้ง"
+            "url": "URL"
         }
     }
 }

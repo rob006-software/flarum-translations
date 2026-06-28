@@ -2,39 +2,39 @@
     "fof-signature": {
         "forum": {
             "buttons": {
-                "signature": "",
-                "save": "",
-                "edit": ""
+                "signature": "Signature",
+                "save": "บันทึก",
+                "edit": "แก้ไข"
             },
             "errors": {
-                "max_char_limit_exceed": "",
-                "max_image_count_exceed": "",
+                "max_char_limit_exceed": "เกินลิมิตอักขระสูงสุด",
+                "max_image_count_exceed": "จำนวน",
                 "remote_images_not_allowed": "",
-                "save_failed": ""
+                "save_failed": "เกิดข้อผิดพลาดขณะบันทึก signature"
             },
             "editor": {
-                "placeholder": ""
+                "placeholder": "แก้ไข"
             },
             "settings": {
-                "heading": ""
+                "heading": "Signature"
             },
             "profile": {
-                "click": ""
+                "click": "ถึง"
             }
         },
         "admin": {
             "permissions": {
-                "edit_signature_others": "",
-                "allow_signature": ""
+                "edit_signature_others": "แก้ไข signature ของผู้ใช้อื่น",
+                "allow_signature": "สามารถมี signature"
             },
             "settings": {
                 "maximum_image_count": {
-                    "description": "",
-                    "help": ""
+                    "description": "จำนวนภาพที่แทรกสูงสุด",
+                    "help": "เมื่อผู้ใช้เกินจำนวนภาพสูงสุดใน signature จะถูกป้องกันไม่ให้บันทึกจนกว่าจำนวนภาพจะเหมาะสม"
                 },
                 "maximum_char_limit": {
-                    "description": "",
-                    "help": ""
+                    "description": "ลิมิตอักขระสูงสุดของ signature",
+                    "help": "เมื่อผู้ใช้เกินลิมิตอักขระสูงสุดใน signature จะถูกป้องกันไม่ให้บันทึกจนกว่าจำนวนอักขระจะเหมาะสม"
                 },
                 "allow_remote_images": {
                     "description": "",
@@ -45,8 +45,8 @@
                     "help": ""
                 },
                 "allow_inline_editing": {
-                    "description": "",
-                    "help": ""
+                    "description": "แก้ไข",
+                    "help": "แก้ไข"
                 }
             }
         }

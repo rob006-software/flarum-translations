@@ -1,93 +1,93 @@
 {
     "fof-oauth": {
         "admin": {
-            "configure_button_label": "",
-            "settings_accessibility_label": "",
+            "configure_button_label": "ตั้งค่าด้วย FoF OAuth",
+            "settings_accessibility_label": "การตั้งค่า {name}",
             "permissions": {
-                "moderate_user_providers": ""
+                "moderate_user_providers": "จัดการบัญชีที่เชื่อมโยงของผู้ใช้"
             },
             "settings": {
                 "advanced": {
-                    "heading": "",
-                    "log-oauth-errors-label": "",
-                    "log-oauth-errors-help": ""
+                    "heading": "ขั้นสูง",
+                    "log-oauth-errors-label": "บันทึกข้อผิดพลาด OAuth",
+                    "log-oauth-errors-help": "หากเปิดใช้ ข้อผิดพลาด OAuth จะถูกบันทึกในไฟล์ log ของ Flarum ซึ่งอาจช่วยในการแก้ไขปัญหา OAuth แต่อาจมีข้อมูลที่ละเอียดอ่อนด้วย"
                 },
-                "only_icons_label": "",
-                "update_email_from_provider_label": "",
-                "update_email_from_provider_help": "",
-                "disable_avatars_label": "",
-                "disable_avatars_help": "",
+                "only_icons_label": "แสดงเฉพาะไอคอนปุ่ม Login (รูปแบบสลับ)",
+                "update_email_from_provider_label": "อัปเดต Email จาก Provider",
+                "update_email_from_provider_help": "หากเปิดใช้ Email ของผู้ใช้จะถูกอัปเดตตาม Provider OAuth ทุกครั้งที่เข้าสู่ระบบ ไม่ใช่ทุก Provider ที่ให้ Email ที่อัปเดต ในกรณีนั้นการตั้งค่านี้จะไม่มีผล",
+                "disable_avatars_label": "ปิดใช้รูปโปรไฟล์จาก Provider",
+                "disable_avatars_help": "หากเปิดใช้ รูปโปรไฟล์ของผู้ใช้จะไม่ถูกอัปเดตตาม Provider เมื่อสมัครสมาชิก โปรดทราบว่าจะมีผลเฉพาะการสมัครในอนาคต ไม่เปลี่ยนรูปของผู้ใช้ที่มีอยู่\n",
                 "providers": {
-                    "callback_url_text": "",
-                    "group_label": "",
-                    "group_help": "",
-                    "no_group_label": "",
+                    "callback_url_text": "หากจำเป็น ให้กำหนด Callback URL เป็น {url}",
+                    "group_label": "กำหนดกลุ่ม",
+                    "group_help": "เลือกกลุ่มที่จะกำหนดอัตโนมัติให้ผู้ใช้ที่สมัครผ่าน Provider นี้",
+                    "no_group_label": "ไม่กำหนดกลุ่ม",
                     "discord": {
-                        "description": "",
-                        "client_id_label": "",
-                        "client_secret_label": ""
+                        "description": "สร้าง App ได้ที่ {link} เพิ่ม Redirect URL ในแท็บ OAuth2",
+                        "client_id_label": "=> fof-oauth.ref.settings.client_id",
+                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
                     },
                     "facebook": {
-                        "description": "",
-                        "app_id_label": "",
-                        "app_secret_label": ""
+                        "description": "สร้าง App ได้ที่ {link}",
+                        "app_id_label": "=> fof-oauth.ref.settings.app_id",
+                        "app_secret_label": "=> fof-oauth.ref.settings.app_secret"
                     },
                     "github": {
-                        "description": "",
-                        "client_id_label": "",
-                        "client_secret_label": ""
+                        "description": "สร้าง OAuth App ได้ที่ {link}",
+                        "client_id_label": "=> fof-oauth.ref.settings.client_id",
+                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
                     },
                     "gitlab": {
-                        "description": "",
-                        "client_id_label": "",
-                        "client_secret_label": "",
-                        "domain_label": ""
+                        "description": "สร้าง Application ได้ที่ {link} กำหนด Scope <code>read_user</code> ให้กับ Application",
+                        "client_id_label": "=> fof-oauth.ref.settings.app_id",
+                        "client_secret_label": "=> fof-oauth.ref.settings.app_secret",
+                        "domain_label": "GitLab Domain"
                     },
                     "google": {
-                        "description": "",
-                        "client_id_label": "",
-                        "client_secret_label": "",
-                        "hosted_domain_label": ""
+                        "description": "สร้าง Application ได้ที่ {link}",
+                        "client_id_label": "=> fof-oauth.ref.settings.client_id",
+                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret",
+                        "hosted_domain_label": "Hosted Domain (G suite/Google Apps for Business, ไม่บังคับ)"
                     },
                     "linkedin": {
-                        "description": "",
-                        "client_id_label": "",
-                        "client_secret_label": ""
+                        "description": "สร้าง Application ได้ที่ {link}",
+                        "client_id_label": "=> fof-oauth.ref.settings.client_id",
+                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
                     }
                 }
             }
         },
         "forum": {
             "log_in": {
-                "with_button": "",
-                "with_discord_button": "",
-                "with_facebook_button": "",
-                "with_github_button": "",
-                "with_gitlab_button": "",
-                "with_google_button": "",
-                "with_linkedin_button": ""
+                "with_button": "เข้าสู่ระบบด้วย {provider}",
+                "with_discord_button": "=> fof-oauth.forum.log_in.with_button",
+                "with_facebook_button": "=> fof-oauth.forum.log_in.with_button",
+                "with_github_button": "=> fof-oauth.forum.log_in.with_button",
+                "with_gitlab_button": "=> fof-oauth.forum.log_in.with_button",
+                "with_google_button": "=> fof-oauth.forum.log_in.with_button",
+                "with_linkedin_button": "=> fof-oauth.forum.log_in.with_button"
             },
             "user": {
                 "settings": {
                     "linked-account": {
-                        "label": "",
-                        "last-used-label": "",
-                        "link-created-label": "",
-                        "identification-label": "",
-                        "orphaned-account": "",
-                        "help": "",
-                        "identifier-label": "",
-                        "unlink-confirm": ""
+                        "label": "บัญชีที่เชื่อมโยง",
+                        "last-used-label": "ใช้ล่าสุด",
+                        "link-created-label": "สร้างลิงก์เมื่อ",
+                        "identification-label": "{provider} ID",
+                        "orphaned-account": "คุณเคยเข้าสู่ระบบผ่าน Provider นี้ แต่ฟอรัมได้ปิดใช้วิธีการเข้าสู่ระบบนี้แล้ว",
+                        "help": "บัญชีที่เชื่อมโยงเหล่านี้ช่วยให้คุณเข้าสู่ระบบฟอรัมโดยใช้ Provider อื่นได้",
+                        "identifier-label": "{provider} ID",
+                        "unlink-confirm": "คุณแน่ใจหรือไม่ว่าต้องการยกเลิกการเชื่อมโยงกับ {provider}? คุณจะไม่สามารถเข้าสู่ระบบฟอรัมนี้ได้อีกจนกว่าจะเชื่อมโยงใหม่"
                     }
                 }
             },
             "providers": {
-                "discord": "",
-                "facebook": "",
-                "github": "",
-                "gitlab": "",
-                "google": "",
-                "linkedin": ""
+                "discord": "=> fof-oauth.lib.providers.discord",
+                "facebook": "=> fof-oauth.lib.providers.facebook",
+                "github": "=> fof-oauth.lib.providers.github",
+                "gitlab": "=> fof-oauth.lib.providers.gitlab",
+                "google": "=> fof-oauth.lib.providers.google",
+                "linkedin": "=> fof-oauth.lib.providers.linkedin"
             },
             "account_linked": {
                 "title": "",
@@ -95,23 +95,23 @@
                 "dismiss_button": ""
             },
             "signup": {
-                "username_help": ""
+                "username_help": "กรุณาเลือกชื่อผู้ใช้ที่จะแสดงในที่นี้"
             },
-            "unlink": "",
+            "unlink": "ยกเลิกการเชื่อมโยง",
             "error": {
-                "bad_verification_code": "",
-                "invalid_state": "",
+                "bad_verification_code": "Token การยืนยันไม่ถูกต้องหรือหมดอายุแล้ว กรุณาลองใหม่อีกครั้ง",
+                "invalid_state": "State ไม่ถูกต้อง กรุณาลองใหม่อีกครั้ง",
                 "already_linked": ""
             }
         },
         "lib": {
             "providers": {
-                "discord": "",
-                "facebook": "",
-                "github": "",
-                "gitlab": "",
-                "google": "",
-                "linkedin": ""
+                "discord": "Discord",
+                "facebook": "Facebook",
+                "github": "GitHub",
+                "gitlab": "GitLab",
+                "google": "Google",
+                "linkedin": "LinkedIn"
             },
             "gambits": {
                 "sso": {
@@ -122,10 +122,10 @@
         },
         "ref": {
             "settings": {
-                "app_id": "",
-                "app_secret": "",
-                "client_id": "",
-                "client_secret": ""
+                "app_id": "App ID",
+                "app_secret": "App Secret",
+                "client_id": "Client ID",
+                "client_secret": "Client Secret"
             }
         }
     }

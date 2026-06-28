@@ -11,45 +11,45 @@
             "edit_tag": {
                 "color_label": "=> core.ref.color",
                 "delete_tag_button": "ลบแท็ก",
-                "delete_tag_confirmation": "คุณแน่ใจหรือไม่ว่าต้องการลบแท็กนี้ ? กระทู้ภายในแท็กนี้จะไม่ถูกลบตามไปด้วย",
+                "delete_tag_confirmation": "คุณแน่ใจหรือไม่ที่จะลบแท็กนี้? โพสต์ในแท็กนี้จะไม่ถูกลบ",
                 "description_label": "คำอธิบาย",
-                "hide_label": "ซ่อนจากรายการกระทู้ทั้งหมด",
+                "hide_label": "ซ่อนจากรายการโพสต์ทั้งหมด",
                 "icon_label": "=> core.ref.icon",
                 "icon_text": "=> core.ref.icon_text",
                 "name_label": "=> flarum-tags.ref.name",
                 "name_placeholder": "=> flarum-tags.ref.name",
-                "slug_label": "ลิงก์",
+                "slug_label": "Slug",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "สร้างแท็ก"
             },
             "nav": {
                 "tags_button": "=> flarum-tags.ref.tags",
-                "tags_text": "จัดการรายชื่อแท็กที่พร้อมใช้งานเพื่อจัดมวดหมู่ของกระทู้"
+                "tags_text": "จัดการรายการแท็กที่ใช้สำหรับจัดหมวดหมู่โพสต์"
             },
             "permissions": {
-                "allow_edit_tags_label": "อนุญาตการแก้ไขแท็ก",
-                "bypass_tag_counts_label": "บายพาสที่จำเป็นต้องใส่แท็ก",
-                "restrict_by_tag_heading": "แบ่งตามแท็ก",
-                "tag_discussions_label": "ติดแท็กกระทู้"
+                "allow_edit_tags_label": "อนุญาตให้แก้ไขแท็ก",
+                "bypass_tag_counts_label": "ข้ามข้อกำหนดด้านแท็ก",
+                "restrict_by_tag_heading": "จำกัดตามแท็ก",
+                "tag_discussions_label": "ติดแท็กโพสต์"
             },
             "settings": {
-                "button_text": ""
+                "button_text": "=> flarum-tags.ref.choose_tags"
             },
             "tag_settings": {
                 "range_separator_text": " ถึง ",
-                "required_primary_heading": "จำนวนแท็กหลักที่จำเป็นต้องใส่ในกระทู้",
-                "required_primary_text": "กรุณาระบุจำนวนขั้นต่ำเเละสูงสุดของเเท็กหลักที่สามารถใส่ในกระทู้ได้",
-                "required_secondary_heading": "จำนวนเเท็กรองที่จำเป็นต้องใส่ในกระทู้",
-                "required_secondary_text": "กรุณาระบุจำนวนขั้นต่ำเเละสูงสุดที่สามารถใช้เเท็กรองในกระทู้",
-                "title": "การตั้งค่าเเท็ก"
+                "required_primary_heading": "จำนวนแท็กหลักที่จำเป็น",
+                "required_primary_text": "ระบุจำนวนขั้นต่ำและสูงสุดของแท็กหลักที่สามารถใช้ในโพสต์",
+                "required_secondary_heading": "จำนวนแท็กรองที่จำเป็น",
+                "required_secondary_text": "ระบุจำนวนขั้นต่ำและสูงสุดของแท็กรองที่สามารถใช้ในโพสต์",
+                "title": "การตั้งค่าแท็ก"
             },
             "tags": {
-                "about_tags_text": "แท็กใช้เพื่อจัดหมวดหมู่ของกระทู้ แท็กหลักก็เหมือนกับหมวดหมู่ฟอรัมทั่วไป โดยสามารถจัดเรียงเป็นลำดับชั้นสองระดับได้ แท็กรองไม่มีลำดับชั้นหรือลำดับ และมีประโยชน์สำหรับการจัดหมวดหมู่ย่อย",
-                "create_primary_tag_button": "สร้างเเท็กหลัก",
-                "create_secondary_tag_button": "สร้างเเท็กรอง",
-                "edit_tag_label": "",
-                "primary_heading": "เเท็กหลัก",
-                "secondary_heading": "เเท็กรอง",
+                "about_tags_text": "แท็กใช้สำหรับจัดหมวดหมู่โพสต์ แท็กหลักเหมือนกับหมวดหมู่ฟอรัมทั่วไป สามารถจัดเป็นลำดับชั้นสองระดับได้ แท็กรองไม่มีลำดับชั้นและเหมาะสำหรับการจัดหมวดหมู่ย่อย",
+                "create_primary_tag_button": "สร้างแท็กหลัก",
+                "create_secondary_tag_button": "สร้างแท็กรอง",
+                "edit_tag_label": "แก้ไขแท็ก {tag}",
+                "primary_heading": "แท็กหลัก",
+                "secondary_heading": "แท็กรอง",
                 "settings_heading": "การตั้งค่า"
             }
         },
@@ -60,30 +60,30 @@
             },
             "choose_tags": {
                 "edit_title": "แก้ไขแท็กสำหรับ {title}",
-                "title": "เลือกแท็กสำหรับกระทู้ของคุณ"
+                "title": "เลือกแท็กสำหรับโพสต์ของคุณ"
             },
             "composer_discussion": {
-                "choose_tags_link": "เลือกแท็ก"
+                "choose_tags_link": "=> flarum-tags.ref.choose_tags"
             },
             "discussion_controls": {
                 "edit_tags_button": "แก้ไขแท็ก"
             },
             "header": {
-                "back_to_tags_tooltip": "กลับไปที่รายการแท็ก"
+                "back_to_tags_tooltip": "กลับไปยังรายการแท็ก"
             },
             "index": {
-                "more_link": "แสดงแท็กเพิ่มเติม...",
+                "more_link": "เพิ่มเติม...",
                 "tags_link": "=> flarum-tags.ref.tags",
-                "untagged_link": "ไม่ได้ติดแท็ก"
+                "untagged_link": "ไม่มีแท็ก"
             },
             "post_stream": {
-                "added_and_removed_tags_text": "{username} ได้เพิ่มเเท็ก {tagsAdded} เเละลบเเท็ก {tagsRemoved}.",
-                "added_tags_text": "{username} ได้เพิ่มเเท็ก {tagsAdded}.",
-                "removed_tags_text": "{username} ได้ลบเเท็ก {tagsRemoved}.",
-                "tags_text": "{count, plural, one {{tags} tag} other {{tags} tags}}"
+                "added_and_removed_tags_text": "{username} เพิ่มแท็ก {tagsAdded} และลบแท็ก {tagsRemoved} {time}",
+                "added_tags_text": "{username} เพิ่มแท็ก {tagsAdded} {time}",
+                "removed_tags_text": "{username} ลบแท็ก {tagsRemoved} {time}",
+                "tags_text": "{count, plural, one {{tags} แท็ก} other {{tags} แท็ก}}"
             },
             "tag": {
-                "meta_description_text": "กระทู้ทั้งหมดในเเท็ก {tag}"
+                "meta_description_text": "โพสต์ทั้งหมดในแท็ก {tag}"
             }
         },
         "lib": {
@@ -97,18 +97,18 @@
                 }
             },
             "tag_selection_modal": {
-                "bypass_requirements": "",
-                "choose_primary_placeholder": "",
-                "choose_secondary_placeholder": "",
-                "choose_tags_placeholder": "",
-                "submit_button": "",
-                "title": ""
+                "bypass_requirements": "ข้ามข้อกำหนดด้านแท็ก",
+                "choose_primary_placeholder": "{count, plural, one {เลือกแท็กหลัก 1 แท็ก} other {เลือกแท็กหลัก # แท็ก}}",
+                "choose_secondary_placeholder": "=> flarum-tags.ref.choose_tags_placeholder",
+                "choose_tags_placeholder": "=> flarum-tags.ref.choose_tags_placeholder",
+                "submit_button": "=> core.ref.okay",
+                "title": "=> flarum-tags.ref.choose_tags"
             }
         },
         "ref": {
-            "choose_tags": "",
-            "choose_tags_placeholder": "",
-            "name": "ชื่อแท็ก",
+            "choose_tags": "เลือกแท็ก",
+            "choose_tags_placeholder": "{count, plural, one {เลือกอีก 1 แท็ก} other {เลือกอีก # แท็ก}}",
+            "name": "ชื่อ",
             "tags": "แท็ก"
         }
     },

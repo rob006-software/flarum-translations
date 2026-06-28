@@ -2,100 +2,100 @@
     "flarum-extension-manager": {
         "admin": {
             "auth_config": {
-                "add_label": "",
+                "add_label": "Authentication method ใหม่",
                 "add_modal": {
-                    "host_label": "",
+                    "host_label": "host",
                     "host_placeholder": "",
-                    "submit_button": "",
-                    "token_label": "",
-                    "type_label": "",
-                    "unchanged_token_placeholder": ""
+                    "submit_button": "ส่ง",
+                    "token_label": "token",
+                    "type_label": "ประเภท",
+                    "unchanged_token_placeholder": "(ไม่เปลี่ยน)"
                 },
-                "delete_confirmation": "",
-                "delete_label": "",
-                "edit_label": "",
+                "delete_confirmation": "ลบ",
+                "delete_label": "ลบ",
+                "edit_label": "แก้ไข",
                 "fields": {
-                    "host": "",
-                    "token": ""
+                    "host": "host",
+                    "token": "token"
                 },
-                "no_auth_methods_configured": "",
-                "remove_button_label": "",
-                "title": "",
+                "no_auth_methods_configured": "ติดตั้ง",
+                "remove_button_label": "นำออก",
+                "title": "Authentication Methods",
                 "types": {
-                    "github-oauth": "",
-                    "gitlab-oauth": "",
-                    "gitlab-token": "",
-                    "bearer": ""
+                    "github-oauth": "OAuth",
+                    "gitlab-oauth": "OAuth",
+                    "gitlab-token": "ตกลง",
+                    "bearer": "bearer"
                 }
             },
             "composer": {
-                "add_repository_label": "",
-                "delete_repository_confirmation": "",
-                "delete_repository_label": "",
-                "edit_repository_label": "",
-                "title": "",
+                "add_repository_label": "เพิ่ม",
+                "delete_repository_confirmation": "ลบ",
+                "delete_repository_label": "ลบ",
+                "edit_repository_label": "แก้ไข",
+                "title": "composer",
                 "minimum_stability": {
-                    "label": "",
-                    "help": "",
+                    "label": "stability",
+                    "help": "ติดตั้ง",
                     "options": {
-                        "stable": "",
-                        "rc": "",
-                        "beta": "",
-                        "alpha": "",
-                        "dev": ""
+                        "stable": "stable",
+                        "rc": "วันที่",
+                        "beta": "beta",
+                        "alpha": "alpha",
+                        "dev": "dev"
                     }
                 },
                 "repositories": {
-                    "label": "",
-                    "help": "",
+                    "label": "repository",
+                    "help": "เพิ่ม",
                     "types": {
-                        "composer": "",
-                        "vcs": "",
-                        "path": ""
+                        "composer": "composer",
+                        "vcs": "vcs",
+                        "path": "path"
                     },
                     "add_modal": {
-                        "name_label": "",
-                        "type_label": "",
-                        "url": "",
-                        "submit_button": ""
+                        "name_label": "ชื่อ",
+                        "type_label": "ประเภท",
+                        "url": "URL",
+                        "submit_button": "ส่ง"
                     }
                 }
             },
             "exceptions": {
-                "composer_command_failure": "",
-                "extension_already_installed": "",
-                "extension_not_directly_dependency": "",
-                "extension_not_installed": "",
+                "composer_command_failure": "ล้มเหลว",
+                "extension_already_installed": "ติดตั้ง",
+                "extension_not_directly_dependency": "นำออก",
+                "extension_not_installed": "ไม่",
                 "guessed_cause": {
-                    "extension_incompatible_with_instance": "",
-                    "extension_not_found": "",
-                    "extensions_incompatible_with_new_major": ""
+                    "extension_incompatible_with_instance": "extension",
+                    "extension_not_found": "ไม่",
+                    "extensions_incompatible_with_new_major": "นำออก"
                 }
             },
             "extensions": {
-                "check_why_it_failed_updating": "",
-                "install": "",
+                "check_why_it_failed_updating": "แสดง",
+                "install": "ติดตั้ง",
                 "install_help": "",
-                "proceed": "",
-                "remove": "",
-                "successful_install": "",
-                "successful_remove": "",
-                "successful_update": "",
-                "update": "",
-                "update_soft_label": "",
-                "update_hard_label": ""
+                "proceed": "ดำเนินการต่อ",
+                "remove": "ถอนการติดตั้ง",
+                "successful_install": "ติดตั้ง",
+                "successful_remove": "นำออก",
+                "successful_update": "อัปเดต",
+                "update": "อัปเดต",
+                "update_soft_label": "อัปเดต",
+                "update_hard_label": "อัปเดต"
             },
-            "file_permissions": "",
+            "file_permissions": "อ่าน",
             "major_updater": {
-                "description": "",
-                "dry_run": "",
-                "dry_run_help": "",
+                "description": "อัปเดต",
+                "dry_run": "เรียกใช้",
+                "dry_run_help": "อัปเดต",
                 "failure": {
-                    "desc": "",
-                    "why": ""
+                    "desc": "อัปเดต",
+                    "why": "เพิ่มเติม"
                 },
-                "title": "",
-                "update": ""
+                "title": "อัปเดต",
+                "update": "อัปเดต"
             },
             "minor_update_confirmation": {
                 "content": ""
@@ -128,39 +128,39 @@
                 },
                 "queue": {
                     "columns": {
-                        "details": "",
-                        "elapsed_time": "",
-                        "peak_memory_used": "",
-                        "operation": "",
-                        "package": "",
-                        "status": ""
+                        "details": "รายละเอียด",
+                        "elapsed_time": "เสร็จสิ้น",
+                        "peak_memory_used": "Peak Memory Usage",
+                        "operation": "operation",
+                        "package": "package",
+                        "status": "สถานะ"
                     },
-                    "none": "",
+                    "none": "ไม่",
                     "operations": {
-                        "extension_install": "",
-                        "extension_remove": "",
-                        "extension_update": "",
-                        "update_check": "",
-                        "update_global": "",
-                        "update_major": "",
-                        "update_minor": "",
-                        "why_not": ""
+                        "extension_install": "ติดตั้ง",
+                        "extension_remove": "นำออก",
+                        "extension_update": "อัปเดต",
+                        "update_check": "อัปเดต",
+                        "update_global": "อัปเดต",
+                        "update_major": "อัปเดต",
+                        "update_minor": "อัปเดต",
+                        "why_not": "อัปเดต"
                     },
                     "output_modal": {
-                        "cause_unknown": "",
-                        "command": "",
-                        "guessed_cause": "",
-                        "output": ""
+                        "cause_unknown": "ไม่",
+                        "command": "composer",
+                        "guessed_cause": "สาเหตุ",
+                        "output": "output"
                     },
-                    "refresh": "",
+                    "refresh": "รีเฟรช",
                     "statuses": {
-                        "success": "",
-                        "failure": "",
-                        "pending": "",
-                        "running": ""
+                        "success": "สำเร็จ",
+                        "failure": "ล้มเหลว",
+                        "pending": "รอดำเนินการ",
+                        "running": "เรียกใช้"
                     },
-                    "task_just_started": "",
-                    "title": ""
+                    "task_just_started": "เริ่ม",
+                    "title": "queue"
                 },
                 "settings": {
                     "title": "",
@@ -168,27 +168,27 @@
                 }
             },
             "settings": {
-                "title": "",
-                "access_warning": "",
-                "debug_mode_warning": "",
-                "queue_jobs": "",
+                "title": "=> core.ref.settings",
+                "access_warning": "ติดตั้ง",
+                "debug_mode_warning": "อัปเดต",
+                "queue_jobs": "ย้อนกลับ",
                 "queue_jobs_help": "",
-                "task_retention_days": "",
-                "task_retention_days_help": ""
+                "task_retention_days": "task retention days",
+                "task_retention_days_help": "ลบ"
             },
             "updater": {
                 "up_to_date": "",
-                "check_for_updates": "",
-                "flarum": "",
-                "global_update_successful": "",
-                "last_update_checked_at": "",
-                "run_global_update": "",
-                "updater_title": "",
-                "updater_help": ""
+                "check_for_updates": "อัปเดต",
+                "flarum": "Flarum Core",
+                "global_update_successful": "อัปเดต",
+                "last_update_checked_at": "อัปเดต",
+                "run_global_update": "อัปเดต",
+                "updater_title": "อัปเดต",
+                "updater_help": "อัปเดต"
             },
-            "update_successful": "",
+            "update_successful": "อัปเดต",
             "why_not_modal": {
-                "title": ""
+                "title": "อัปเดต"
             }
         }
     }

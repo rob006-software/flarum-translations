@@ -2,166 +2,166 @@
     "flarum-audit": {
         "admin": {
             "permissions": {
-                "view": "",
-                "viewLimited": ""
+                "view": "ดู audit log",
+                "viewLimited": "ดู audit log แบบจำกัด"
             },
             "header": {
-                "title": ""
+                "title": "Audit"
             },
             "limitedSettings": {
-                "configure": "",
-                "title": "",
-                "introduction": "",
-                "requiresExtension": ""
+                "configure": "กำหนดค่า",
+                "title": "การตั้งค่าการเข้าถึงแบบจำกัด",
+                "introduction": "กำหนดค่าสิ่งที่ผู้ใช้ที่มีสิทธิ์เข้าถึงแบบจำกัดสามารถเห็นได้",
+                "requiresExtension": "ต้องติดตั้ง extension {extension}"
             },
             "settings": {
-                "limitedIpAddress": ""
+                "limitedIpAddress": "ดู IP Address"
             }
         },
         "forum": {
             "link": {
-                "all-audit": "",
-                "discussion-audit": "",
-                "user-audit": "",
-                "actor-audit": ""
+                "all-audit": "Audit log",
+                "discussion-audit": "Audit log",
+                "user-audit": "Audit log (การแก้ไขบัญชี)",
+                "actor-audit": "Audit log (ผู้ใช้ในฐานะ actor)"
             },
             "modal": {
-                "all-title": "",
-                "discussion-title": "",
-                "user-title": "",
-                "actor-title": ""
+                "all-title": "Audit Log",
+                "discussion-title": "Audit Log ของ Discussion",
+                "user-title": "Audit Log ของผู้ใช้",
+                "actor-title": "Audit Log ของ Actor"
             }
         },
         "lib": {
             "browser": {
-                "filterPlaceholder": "",
-                "filterApply": "",
-                "filterClear": "",
-                "refresh": "",
-                "filtersHint": "",
+                "filterPlaceholder": "กรอง log",
+                "filterApply": "ใช้ filter",
+                "filterClear": "ล้าง filter",
+                "refresh": "Refresh",
+                "filtersHint": "Filters:",
                 "filters": {
-                    "actor": "",
-                    "user": "",
-                    "action": "",
-                    "client": "",
-                    "ip": "",
-                    "discussion": ""
+                    "actor": "ผู้ดำเนินการ ใช้ actor:guest สำหรับการกระทำของระบบหรือที่ไม่ได้ยืนยันตัวตน",
+                    "user": "ผู้ใช้ที่ได้รับผลกระทบจากการกระทำ ระบุด้วย username",
+                    "action": "ประเภทของการกระทำ เช่น action:post.created",
+                    "client": "วิธีการส่ง request",
+                    "ip": "IP address ที่การกระทำมาจาก",
+                    "discussion": "การกระทำที่ส่งผลต่อ discussion เฉพาะ ระบุด้วย ID"
                 },
                 "help": {
-                    "toggle": "",
-                    "multiple": "",
-                    "negate": ""
+                    "toggle": "ความช่วยเหลือในการค้นหา",
+                    "multiple": "รวมค่าหลายค่าด้วยเครื่องหมายจุลภาคเพื่อจับคู่ค่าใดค่าหนึ่ง เช่น action:post.created,post.deleted",
+                    "negate": "ใส่เครื่องหมายลบนำหน้า filter เพื่อยกเว้น เช่น -client:cli"
                 },
-                "empty": "",
-                "loadMore": "",
-                "withoutActor": "",
+                "empty": "ไม่พบผลลัพธ์",
+                "loadMore": "โหลดเพิ่มเติม",
+                "withoutActor": "=> core.group.guest",
                 "deletedResource": {
-                    "discussion": "",
-                    "group": "",
-                    "post": "",
-                    "tag": "",
-                    "user": ""
+                    "discussion": "Discussion #{id}",
+                    "group": "กลุ่ม #{id}",
+                    "post": "Post #{id}",
+                    "tag": "Tag #{id}",
+                    "user": "ผู้ใช้ #{id}"
                 },
                 "genericResource": {
-                    "comment": "",
-                    "post": ""
+                    "comment": "ความคิดเห็น",
+                    "post": "Post"
                 },
                 "permissionGroup": {
-                    "everyone": "",
-                    "members": ""
+                    "everyone": "=> core.admin.permissions_controls.everyone_button",
+                    "members": "=> core.admin.permissions_controls.members_button"
                 },
-                "noValue": "",
-                "noReason": "",
+                "noValue": "(ไม่มีค่า)",
+                "noReason": "(ไม่มีเหตุผล)",
                 "core": "",
                 "client": {
-                    "session": "",
-                    "api_key": "",
-                    "access_token": "",
-                    "cli": "",
-                    "unknown": ""
+                    "session": "Web session",
+                    "api_key": "API key",
+                    "access_token": "Access token",
+                    "cli": "Command line",
+                    "unknown": "Client ไม่ทราบ"
                 },
                 "controls": {
                     "title": "",
-                    "hideRaw": "",
-                    "showRaw": "",
-                    "filterActor": "",
-                    "filterIp": "",
-                    "filterClient": "",
-                    "filterAction": "",
-                    "filterUser": "",
-                    "filterDiscussion": ""
+                    "hideRaw": "ซ่อน raw log",
+                    "showRaw": "แสดง raw log",
+                    "filterActor": "แสดง log ของ actor นี้",
+                    "filterIp": "แสดง log จาก IP นี้",
+                    "filterClient": "แสดง log ของ client ประเภทนี้",
+                    "filterAction": "แสดง log ของการกระทำประเภทเดียวกัน",
+                    "filterUser": "แสดง log ที่ส่งผลต่อผู้ใช้รายเดียวกัน",
+                    "filterDiscussion": "แสดง log ที่ส่งผลต่อ discussion เดียวกัน"
                 },
-                "audit_log_cleared": "",
-                "cache_cleared": "",
+                "audit_log_cleared": "ลบ {deleted_count} รายการออกจาก audit log แล้ว",
+                "cache_cleared": "ล้าง cache ด้วยตนเองแล้ว",
                 "developer_token_created": "",
                 "discussion": {
-                    "created": "",
-                    "create_date_changed": "",
-                    "deleted": "",
-                    "hidden": "",
-                    "merged_away": "",
-                    "merged_into": "",
-                    "renamed": "",
-                    "restored": "",
-                    "split_away": "",
-                    "split_into": "",
-                    "user_changed": ""
+                    "created": "เริ่ม discussion {discussion}",
+                    "create_date_changed": "เปลี่ยนวันที่เริ่มของ {discussion} จาก {old_date} เป็น {new_date}",
+                    "deleted": "ลบ discussion {discussion} แล้ว",
+                    "hidden": "ซ่อน discussion {discussion} แล้ว",
+                    "merged_away": "รวม {discussion} เข้ากับ {new_discussion} แล้ว",
+                    "merged_into": "รวม {post_count} post จาก {original_discussion_ids_count} discussion เข้าใน {discussion} แล้ว",
+                    "renamed": "เปลี่ยนชื่อ discussion จาก {old_title} เป็น {new_title}",
+                    "restored": "กู้คืน discussion {discussion} แล้ว",
+                    "split_away": "แยก {post_count} post จาก {discussion} ไปยัง {new_discussion} แล้ว",
+                    "split_into": "แยก {post_count} post ไปยัง discussion ใหม่ {discussion} แล้ว",
+                    "user_changed": "เปลี่ยนผู้เขียน {discussion} จาก {old_user} เป็น {new_user}"
                 },
                 "extension": {
-                    "disabled": "",
-                    "enabled": "",
-                    "uninstalled": ""
+                    "disabled": "ปิดการใช้งาน extension {package} แล้ว",
+                    "enabled": "เปิดใช้งาน extension {package} แล้ว",
+                    "uninstalled": "ถอนการติดตั้ง extension {package} แล้ว"
                 },
                 "fof_ban_ips": {
-                    "banned": "",
-                    "unbanned": ""
+                    "banned": "แบน IP {ip} แล้ว",
+                    "unbanned": "ยกเลิกการแบน IP {ip} แล้ว"
                 },
                 "group": {
                     "created": "",
                     "deleted": "",
                     "renamed": ""
                 },
-                "permission_changed": "",
+                "permission_changed": "แก้ไขสิทธิ์ {permission} จาก {old_groups} เป็น {new_groups}",
                 "post": {
-                    "created": "",
-                    "create_date_changed": "",
-                    "deleted": "",
-                    "edit_date_changed": "",
-                    "hidden": "",
-                    "restored": "",
-                    "revised": "",
-                    "user_changed": ""
+                    "created": "สร้าง {post} ใน {discussion} แล้ว",
+                    "create_date_changed": "เปลี่ยนวันที่เริ่มของ {post} ของ {postuser} จาก {old_date} เป็น {new_date}",
+                    "deleted": "ลบ {post} ของ {postuser} ใน {discussion} แล้ว",
+                    "edit_date_changed": "เปลี่ยนวันที่แก้ไขของ {post} ของ {postuser} จาก {old_date} เป็น {new_date}",
+                    "hidden": "ซ่อน {post} ของ {postuser} ใน {discussion} แล้ว",
+                    "restored": "กู้คืน {post} ของ {postuser} ใน {discussion} แล้ว",
+                    "revised": "แก้ไข {post} ของ {postuser} ใน {discussion} แล้ว",
+                    "user_changed": "เปลี่ยนผู้เขียน {post} จาก {old_user} เป็น {new_user}"
                 },
-                "setting_changed": "",
-                "setting_changed_with_values": "",
+                "setting_changed": "แก้ไขการตั้งค่า {key}",
+                "setting_changed_with_values": "แก้ไขการตั้งค่า {key} จาก {old_value} เป็น {new_value}",
                 "settings_reset": "",
                 "user": {
-                    "activated": "",
-                    "activated_with_email": "",
-                    "avatar_changed": "",
-                    "avatar_removed": "",
-                    "bio_changed": "",
-                    "created": "",
-                    "deleted": "",
-                    "email_changed": "",
-                    "email_change_requested": "",
-                    "groups_changed": "",
-                    "impersonated": "",
-                    "logged_in": "",
-                    "logged_in_with_provider": "",
-                    "logged_out": "",
-                    "nickname_requested": "",
-                    "nickname_request_approved": "",
-                    "nickname_request_rejected": "",
-                    "password_changed": "",
-                    "password_change_requested": "",
-                    "password_reset_attempted": "",
-                    "password_reset_attempted_unmatched": "",
-                    "provider_connected": "",
-                    "username_changed": "",
-                    "username_requested": "",
-                    "username_request_approved": "",
-                    "username_request_rejected": ""
+                    "activated": "เปิดใช้งานบัญชี {username} ด้วยตนเองแล้ว",
+                    "activated_with_email": "เปิดใช้งานบัญชี {username} ผ่านลิงก์ยืนยันแล้ว",
+                    "avatar_changed": "เปลี่ยน avatar ของ {username} แล้ว",
+                    "avatar_removed": "ลบ avatar ของ {username} แล้ว",
+                    "bio_changed": "แก้ไข bio ของ {username} แล้ว",
+                    "created": "สร้างบัญชี {username} แล้ว",
+                    "deleted": "ลบ {username} แล้ว",
+                    "email_changed": "เปลี่ยน email ของ {username} จาก {old_email} เป็น {new_email}",
+                    "email_change_requested": "ส่งคำขอเปลี่ยน email ของ {username} เป็น {new_email}",
+                    "groups_changed": "เปลี่ยนกลุ่มของ {username} จาก {old_groups} เป็น {new_groups}",
+                    "impersonated": "แอบอ้างเป็น {username}",
+                    "logged_in": "เข้าสู่ระบบบัญชี {username}",
+                    "logged_in_with_provider": "เข้าสู่ระบบบัญชี {username} ด้วย {provider}",
+                    "logged_out": "ออกจากระบบบัญชี {username}",
+                    "nickname_requested": "ส่งคำขอ nickname ใหม่ {new_nickname} สำหรับผู้ใช้ {username}",
+                    "nickname_request_approved": "อนุมัติการเปลี่ยน nickname ของ {username} จาก {old_nickname} เป็น {new_nickname}",
+                    "nickname_request_rejected": "ปฏิเสธการเปลี่ยน nickname ของ {username}",
+                    "password_changed": "เปลี่ยนรหัสผ่านของ {username} แล้ว",
+                    "password_change_requested": "ส่งคำขอเปลี่ยนรหัสผ่านของ {username}",
+                    "password_reset_attempted": "ส่งคำขอรีเซ็ตรหัสผ่านสำหรับ {username}",
+                    "password_reset_attempted_unmatched": "ส่งคำขอรีเซ็ตรหัสผ่านสำหรับ {email} (ไม่พบบัญชีที่ตรงกัน)",
+                    "provider_connected": "เชื่อมต่อ provider {provider} กับบัญชี {username} แล้ว",
+                    "username_changed": "เปลี่ยน username ของ {username} จาก {old_username} เป็น {new_username}",
+                    "username_requested": "ส่งคำขอ username ใหม่ {new_username} สำหรับผู้ใช้ {username}",
+                    "username_request_approved": "อนุมัติการเปลี่ยน username ของ {username} จาก {old_username} เป็น {new_username}",
+                    "username_request_rejected": "ปฏิเสธการเปลี่ยน username ของ {username}"
                 }
             }
         }

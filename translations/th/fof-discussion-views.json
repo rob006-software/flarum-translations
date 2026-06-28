@@ -10,21 +10,21 @@
     "fof-discussion-views": {
         "forum": {
             "modal_resetviews": {
-                "title": "",
-                "submit": "",
-                "label": "",
+                "title": "รีเซ็ตจำนวนการดูโพสต์",
+                "submit": "ยืนยัน",
+                "label": "ตั้งจำนวนการดูเป็น",
                 "invalid": ""
             },
             "discussion_controls": {
-                "resetviews_button": ""
+                "resetviews_button": "ตั้งจำนวนการดู"
             }
         },
         "admin": {
             "permissions": {
-                "reset_views_label": ""
+                "reset_views_label": "ตั้งจำนวนการดูโพสต์"
             },
             "settings": {
-                "ignore_crawlers": ""
+                "ignore_crawlers": "ไม่นับการเข้าชมจาก Crawler"
             }
         },
         "lib": {

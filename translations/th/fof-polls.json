@@ -3,8 +3,8 @@
         "admin": {
             "settings": {
                 "general": {
-                    "heading": "",
-                    "help": ""
+                    "heading": "ตั้งค่า",
+                    "help": "ตั้งค่า"
                 },
                 "discussion_polls": {
                     "heading": "",
@@ -13,20 +13,20 @@
                 "enable_discussion_polls": "",
                 "enable_discussion_polls_help": "",
                 "global_polls": {
-                    "heading": "",
-                    "help": ""
+                    "heading": "Global Polls",
+                    "help": "ตั้งค่าที่ควบคุมฟีเจอร์ global polls"
                 },
                 "image": {
-                    "heading": "",
+                    "heading": "ตั้งค่า",
                     "help": ""
                 },
-                "enable_global_polls": "",
-                "enable_global_polls_help": "",
-                "enabled_poll_groups": "",
-                "enabled_poll_groups_help": "",
-                "max_options": "",
-                "options_color_blend": "",
-                "options_color_blend_help": "",
+                "enable_global_polls": "เปิดใช้งาน",
+                "enable_global_polls_help": "ไม่",
+                "enabled_poll_groups": "เปิดใช้งาน",
+                "enabled_poll_groups_help": "กลุ่ม",
+                "max_options": "ตัวเลือก",
+                "options_color_blend": "ข้อความ",
+                "options_color_blend_help": "ปิดใช้งาน",
                 "max_image_upload_size": "",
                 "max_image_upload_size_help": "",
                 "image_height": "",
@@ -34,206 +34,206 @@
                 "image_dimensions_help": ""
             },
             "permissions": {
-                "view_results_without_voting": "",
-                "start": "",
-                "start_global": "",
-                "self_edit": "",
-                "self_post_edit": "",
-                "upload_images": "",
-                "vote": "",
-                "change_vote": "",
-                "moderate": "",
-                "view_group": "",
-                "start_group": "",
-                "moderate_group": ""
+                "view_results_without_voting": "ดู",
+                "start": "เริ่ม",
+                "start_global": "เริ่ม",
+                "self_edit": "แก้ไข",
+                "self_post_edit": "แก้ไข",
+                "upload_images": "อัปโหลด",
+                "vote": "โหวต poll",
+                "change_vote": "เปลี่ยนคะแนนโหวต",
+                "moderate": "แก้ไข",
+                "view_group": "ดู",
+                "start_group": "สร้าง",
+                "moderate_group": "แก้ไข"
             }
         },
         "forum": {
-            "days_remaining": "",
-            "no_permission": "",
-            "poll_ended": "",
-            "public_poll": "",
-            "max_votes_allowed": "",
-            "polls_count": "",
-            "poll_never_ends": "",
-            "answers": "",
+            "days_remaining": "เวลา",
+            "no_permission": "สิทธิ์",
+            "poll_ended": "Poll นี้สิ้นสุดแล้ว",
+            "public_poll": "ดู",
+            "max_votes_allowed": "ตัวเลือก",
+            "polls_count": "จำนวน",
+            "poll_never_ends": "Poll ไม่มีวันสิ้นสุด",
+            "answers": "คำตอบ",
             "poll": {
-                "cannot_change_vote": "",
-                "submit_button": "",
-                "start_poll_button": "",
-                "cannot_start_poll_button": "",
-                "total_votes": "",
-                "draft_label": "",
-                "scheduled_label": "",
-                "scheduled_error_tooltip": ""
+                "cannot_change_vote": "คุณไม่สามารถเปลี่ยนคะแนนโหวตหลังจากโหวตแล้ว",
+                "submit_button": "โหวต",
+                "start_poll_button": "เริ่ม",
+                "cannot_start_poll_button": "ไม่",
+                "total_votes": "จำนวน",
+                "draft_label": "ร่าง",
+                "scheduled_label": "วันที่",
+                "scheduled_error_tooltip": "เปิด"
             },
             "poll_controls": {
                 "toggle_dropdown_accessible_label": "",
-                "edit_label": "",
-                "delete_label": "",
-                "view_label": "",
-                "delete_confirmation": "",
-                "delete_success_message": "",
-                "delete_error_message": "",
-                "publish_label": "",
-                "publish_success": "",
-                "schedule_publish_label": "",
-                "edit_schedule_publish_label": "",
-                "cancel_schedule_label": "",
-                "cancel_schedule_success": "",
-                "unpublish_label": "",
-                "unpublish_confirmation": "",
-                "unpublish_success": "",
-                "unpublish_error_has_votes": ""
+                "edit_label": "=> core.ref.edit",
+                "delete_label": "=> core.ref.delete",
+                "view_label": "=> core.ref.view",
+                "delete_confirmation": "ลบ",
+                "delete_success_message": "ลบ",
+                "delete_error_message": "เกิดข้อผิดพลาดขณะลบ poll",
+                "publish_label": "เผยแพร่ตอนนี้",
+                "publish_success": "เผยแพร่แล้ว",
+                "schedule_publish_label": "กำหนดการเผยแพร่",
+                "edit_schedule_publish_label": "แก้ไข",
+                "cancel_schedule_label": "ยกเลิก",
+                "cancel_schedule_success": "ยกเลิก",
+                "unpublish_label": "ย้อนกลับ",
+                "unpublish_confirmation": "แสดง",
+                "unpublish_success": "ร่าง",
+                "unpublish_error_has_votes": "ลบ"
             },
             "poll_form": {
-                "delete": "",
-                "error": ""
+                "delete": "ลบ",
+                "error": "ข้อผิดพลาด"
             },
             "poll_groups": {
                 "composer": {
-                    "add_title": "",
-                    "edit_title": "",
-                    "save_changes": "",
-                    "delete": "",
-                    "groups_manager": "",
-                    "view_group": "",
-                    "success": ""
+                    "add_title": "เพิ่ม",
+                    "edit_title": "แก้ไข",
+                    "save_changes": "=> core.ref.save_changes",
+                    "delete": "ลบ",
+                    "groups_manager": "กลุ่ม",
+                    "view_group": "ดู",
+                    "success": "บันทึก"
                 },
                 "list_page": {
-                    "title": "",
-                    "start_poll_group_button": "",
-                    "cannot_start_poll_group_button": "",
-                    "empty_text": "",
-                    "load_more_button": "",
-                    "no_polls": "",
-                    "add_poll_button": ""
+                    "title": "กลุ่ม",
+                    "start_poll_group_button": "เริ่ม",
+                    "cannot_start_poll_group_button": "ไม่",
+                    "empty_text": "ไม่",
+                    "load_more_button": "=> core.ref.load_more",
+                    "no_polls": "ไม่",
+                    "add_poll_button": "เพิ่ม"
                 },
                 "controls": {
-                    "add_poll_label": "",
-                    "edit_label": "",
-                    "view_label": "",
-                    "delete_label": "",
-                    "delete_confirmation": "",
-                    "delete_success_message": "",
-                    "delete_error_message": ""
+                    "add_poll_label": "เพิ่ม",
+                    "edit_label": "=> core.ref.edit",
+                    "view_label": "ดู",
+                    "delete_label": "=> core.ref.delete",
+                    "delete_confirmation": "ลบ",
+                    "delete_success_message": "ลบ",
+                    "delete_error_message": "กลุ่ม"
                 }
             },
             "polls_page": {
-                "title": ""
+                "title": "Polls"
             },
             "polls_list": {
-                "empty_text": "",
-                "load_more_button": "",
+                "empty_text": "ไม่",
+                "load_more_button": "=> core.ref.load_more",
                 "sort_dropdown": {
-                    "newest": "",
-                    "oldest": "",
-                    "most_voted": "",
-                    "least_voted": "",
+                    "newest": "ใหม่ที่สุด",
+                    "oldest": "เก่าที่สุด",
+                    "most_voted": "โหวตมากที่สุด",
+                    "least_voted": "โหวตน้อยที่สุด",
                     "sort_dropdown": {
-                        "default": ""
+                        "default": "=> fof-polls.forum.polls_list.sort_dropdown.newest"
                     }
                 },
                 "status_filter": {
-                    "all": "",
-                    "published": "",
-                    "draft": ""
+                    "all": "ทั้งหมด",
+                    "published": "เผยแพร่แล้ว",
+                    "draft": "ร่าง"
                 }
             },
             "composer_discussion": {
-                "add_poll": "",
-                "edit_poll": "",
-                "no_permission_alert": ""
+                "add_poll": "=> fof-polls.forum.moderation.add",
+                "edit_poll": "=> fof-polls.forum.moderation.edit",
+                "no_permission_alert": "ไม่"
             },
             "compose": {
-                "add_title": "",
-                "edit_title": "",
-                "polls_manager": "",
-                "polls_preview": "",
-                "continue_editing": "",
-                "success": "",
-                "submit": "",
-                "save_as_draft": "",
-                "update_draft": "",
-                "draft_saved": "",
-                "publish": "",
-                "schedule_publication": "",
-                "schedule_publication_edit": "",
-                "schedule_datetime_label": "",
-                "schedule_submit": "",
-                "schedule": ""
+                "add_title": "เพิ่ม",
+                "edit_title": "แก้ไข",
+                "polls_manager": "Poll Manager",
+                "polls_preview": "ดู",
+                "continue_editing": "แก้ไข",
+                "success": "บันทึก",
+                "submit": "ส่ง",
+                "save_as_draft": "บันทึก",
+                "update_draft": "อัปเดต",
+                "draft_saved": "บันทึก",
+                "publish": "เผยแพร่",
+                "schedule_publication": "กำหนดการเผยแพร่",
+                "schedule_publication_edit": "แก้ไข",
+                "schedule_datetime_label": "เผยแพร่ที่",
+                "schedule_submit": "กำหนดการ",
+                "schedule": "กำหนดการ"
             },
             "modal": {
-                "add_title": "",
-                "add_option_label": "",
-                "date_placeholder": "",
-                "edit_title": "",
-                "include_question": "",
-                "max": "",
-                "min": "",
-                "empty_answers": "",
-                "no_voters": "",
-                "option_placeholder": "",
-                "image_option_placeholder": "",
-                "options_label": "",
-                "public_poll_label": "",
-                "allow_multiple_votes_label": "",
-                "max_votes_label": "",
-                "max_votes_help": "",
-                "hide_votes_label": "",
-                "hide_votes_label_help": "",
-                "allow_change_vote_label": "",
-                "question_placeholder": "",
-                "subtitle_placeholder": "",
-                "submit": "",
-                "delete": "",
-                "error": "",
+                "add_title": "เพิ่ม",
+                "add_option_label": "เพิ่ม",
+                "date_placeholder": "ตัวเลือก",
+                "edit_title": "แก้ไข",
+                "include_question": "ต้องรวมคำถาม",
+                "max": "คุณสามารถมีคำตอบสูงสุด {max} คำตอบ",
+                "min": "ต้องรวมคำตอบอย่างน้อย 2 คำตอบ",
+                "empty_answers": "นำออก",
+                "no_voters": "ไม่",
+                "option_placeholder": "คำตอบ",
+                "image_option_placeholder": "URL",
+                "options_label": "คำตอบ",
+                "public_poll_label": "ทั้งหมด",
+                "allow_multiple_votes_label": "ตัวเลือก",
+                "max_votes_label": "ผู้ใช้",
+                "max_votes_help": "ผู้ใช้",
+                "hide_votes_label": "ซ่อน",
+                "hide_votes_label_help": "เริ่ม",
+                "allow_change_vote_label": "ผู้ใช้",
+                "question_placeholder": "คำถาม",
+                "subtitle_placeholder": "ชื่อเรื่อง",
+                "submit": "ส่ง",
+                "delete": "=> core.ref.delete",
+                "error": "=> core.lib.error.generic_message",
                 "poll_image": {
-                    "label": "",
-                    "help": "",
-                    "alt_label": "",
-                    "alt_help_text": "",
+                    "label": "Poll Image",
+                    "help": "อัปโหลดภาพเพื่อแสดงควบคู่กับ poll (ไม่บังคับ)",
+                    "alt_label": "ข้อความ",
+                    "alt_help_text": "ข้อความ",
                     "url_deprecated": ""
                 },
                 "poll_option_image": {
-                    "label": "",
-                    "help": ""
+                    "label": "Poll Answer Image",
+                    "help": "อัปโหลดภาพเพื่อแสดงควบคู่กับคำตอบ poll (ไม่บังคับ)"
                 },
                 "date_clear": "",
                 "tooltip": {
                     "options": {
-                        "add-button": "",
+                        "add-button": "เพิ่ม",
                         "remove-button": ""
                     }
                 }
             },
             "moderation": {
-                "add": "",
-                "delete": "",
-                "delete_confirm": "",
-                "edit": ""
+                "add": "เพิ่ม",
+                "delete": "นำออก",
+                "delete_confirm": "ลบ",
+                "edit": "แก้ไข"
             },
             "page": {
-                "nav": "",
-                "nav-all": "",
-                "nav-groups": ""
+                "nav": "Polls",
+                "nav-all": "ทั้งหมด",
+                "nav-groups": "กลุ่ม"
             },
             "showcase": {
-                "active-polls": "",
-                "ended-polls": "",
-                "no-active-polls": "",
-                "no-recent-polls": ""
+                "active-polls": "Active Polls",
+                "ended-polls": "Concluded Polls",
+                "no-active-polls": "ไม่มี active polls ในขณะนี้",
+                "no-recent-polls": "ไม่มี recently ended polls ในขณะนี้"
             },
             "tooltip": {
-                "badge": "",
-                "votes": ""
+                "badge": "Poll",
+                "votes": "{count, plural, one {# vote} other {# votes}}"
             },
             "votes_modal": {
-                "title": ""
+                "title": "Voters"
             },
             "upload_image": {
-                "remove_button": "",
-                "upload_button": ""
+                "remove_button": "ลบ",
+                "upload_button": "อัปโหลด"
             }
         }
     }

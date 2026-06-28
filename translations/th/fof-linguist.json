@@ -2,118 +2,118 @@
     "fof-linguist": {
         "admin": {
             "permissions": {
-                "view_string_keys": ""
+                "view_string_keys": "ดู key ของ translation string"
             },
             "tabs": {
-                "strings": "",
-                "coverage": "",
-                "export": "",
-                "import": ""
+                "strings": "การแปล",
+                "coverage": "ความครอบคลุม",
+                "export": "Export",
+                "import": "Import"
             },
             "buttons": {
-                "apply": "",
-                "reset": "",
-                "copy-original": "",
-                "load-more": "",
-                "delete-redundant": "",
-                "delete-redundant-confirm": "",
-                "delete-all": "",
-                "delete-all-confirm": ""
+                "apply": "บันทึก",
+                "reset": "คืนค่าต้นฉบับ",
+                "copy-original": "คัดลอกข้อความต้นฉบับ",
+                "load-more": "โหลดเพิ่มเติม",
+                "delete-redundant": "ลบการแปลที่ซ้ำซ้อน",
+                "delete-redundant-confirm": "การดำเนินการนี้จะลบ {count} การแปลที่มีค่าต้นฉบับและค่าที่กำหนดเองเหมือนกัน ซึ่งเป็นประโยชน์สำหรับการทำความสะอาดหลังอัปเดต language pack\n",
+                "delete-all": "ลบการแปลทั้งหมด",
+                "delete-all-confirm": "การดำเนินการนี้จะลบการแปลที่กำหนดเองของคุณทั้งหมด {count} รายการ กรุณา export หรือสำรองข้อมูลที่ต้องการเก็บไว้ก่อน\n"
             },
             "locales": {
-                "all": ""
+                "all": "ทั้งหมด"
             },
             "placeholder": {
-                "not-translated": "",
-                "all-locales": "",
-                "hint": ""
+                "not-translated": "ยังไม่ได้แปล",
+                "all-locales": "ข้อความที่กำหนดไว้ที่นี่จะแสดงในทุกภาษา",
+                "hint": "ค่าต้นฉบับ:"
             },
             "filters": {
-                "search": "",
-                "with-own-translations": "",
-                "missing": "",
-                "missing-middle-label": "",
+                "search": "ค้นหา translation string...",
+                "with-own-translations": "การแปลของฉัน",
+                "missing": "ค้นหาการแปลที่ขาดหาย",
+                "missing-middle-label": "การแปลใน",
                 "negation-options": {
-                    "with": "",
-                    "without": ""
+                    "with": "มี",
+                    "without": "ไม่มี"
                 },
                 "type-options": {
-                    "any": "",
-                    "original": "",
-                    "own": ""
+                    "any": "ต้นฉบับหรือกำหนดเอง",
+                    "original": "ต้นฉบับ",
+                    "own": "กำหนดเอง"
                 },
                 "operation-options": {
-                    "or": "",
-                    "and": ""
+                    "or": "อย่างใดอย่างหนึ่ง",
+                    "and": "ทั้งหมด"
                 },
-                "for-extension": "",
-                "frontend": "",
-                "frontend-all-except-admin": "",
-                "mass-edit": "",
-                "results": ""
+                "for-extension": "สำหรับ extension",
+                "frontend": "สำหรับ frontend",
+                "frontend-all-except-admin": "ทั้งหมดยกเว้น Admin",
+                "mass-edit": "แก้ไขจำนวนมาก",
+                "results": "แสดง {shown} จาก {total} การแปลที่ตรงกัน"
             },
             "clear-cache": {
-                "text": "",
-                "button": ""
+                "text": "การแปลใหม่ยังไม่ถูกนำไปใช้ หมายเหตุ: การล้าง cache อาจทำให้ forum ช้าลงชั่วคราว\n",
+                "button": "ล้าง cache ตอนนี้"
             },
             "coverage": {
                 "column-options": {
-                    "locale": "",
-                    "namespace": ""
+                    "locale": "ตามภาษา",
+                    "namespace": "ตาม frontend"
                 },
                 "total-options": {
-                    "percent": "",
-                    "count": ""
+                    "percent": "เปอร์เซ็นต์",
+                    "count": "จำนวน"
                 },
                 "columns": {
-                    "namespace": "",
-                    "total": "",
-                    "all-except-admin": "",
-                    "all-frontends": ""
+                    "namespace": "Namespace",
+                    "total": "รวม",
+                    "all-except-admin": "Forum และ frontend อื่นๆ",
+                    "all-frontends": "แสดง frontend ทั้งหมด"
                 },
                 "count": {
-                    "percent": "",
-                    "total": "",
-                    "details": ""
+                    "percent": "{percent} %",
+                    "total": "{translated} / {total}",
+                    "details": "รวม {total} / ต้นฉบับ {original} / กำหนดเอง {custom}"
                 },
-                "all-namespaces": "",
-                "apply-missing-filter": ""
+                "all-namespaces": "ทั้งหมด",
+                "apply-missing-filter": "แสดงการแปลที่ขาดหายที่ตรงกัน"
             },
             "export": {
-                "title": "",
-                "warning": "",
-                "locale": "",
-                "locale-all": "",
-                "namespace": "",
-                "namespace-all": "",
-                "include-originals": "",
-                "include-all": "",
-                "output": "",
-                "output-loading": "",
-                "output-empty": "",
-                "download": ""
+                "title": "Export",
+                "warning": "รูปแบบ export ใช้ไฟล์ translation แบบ Yaml ของ Flarum และออกแบบมาเพื่อแชร์การแปลระหว่าง forum และผู้ดูแล language pack รูปแบบนี้ไม่ได้ออกแบบมาสำหรับย้ายการแปลทั้งหมดไปยัง forum ใหม่ ขึ้นอยู่กับการใช้งาน การ copy ฐานข้อมูลตรงๆ อาจเป็นทางเลือกที่ดีกว่า\n",
+                "locale": "Locale",
+                "locale-all": "Pseudo-locale \"All\"",
+                "namespace": "Namespace",
+                "namespace-all": "ทั้งหมด",
+                "include-originals": "รวมการแปลต้นฉบับ",
+                "include-all": "รวมการแปลที่กำหนดสำหรับภาษา \"ทั้งหมด\"",
+                "output": "Output",
+                "output-loading": "กำลังโหลด output...",
+                "output-empty": "Output ว่างเปล่า",
+                "download": "Download"
             },
             "import": {
-                "title": "",
-                "input": "",
-                "input-placeholder": "",
-                "locale": "",
-                "locale-all": "",
-                "override-existing": "",
-                "submit": "",
-                "results": "",
-                "results-with-ignore": ""
+                "title": "Import",
+                "input": "Input",
+                "input-placeholder": "ลากวางหรือวาง Yaml file ที่นี่",
+                "locale": "Locale",
+                "locale-all": "Pseudo-locale \"All\"",
+                "override-existing": "เขียนทับการแปลที่กำหนดเองที่มีอยู่",
+                "submit": "Import",
+                "results": "การ import เสร็จสมบูรณ์ นำเข้า {imported} string และข้ามไป {identical} string ที่เหมือนกัน หน้าจะ refresh เพื่อแสดงการแปลใหม่\n",
+                "results-with-ignore": "การ import เสร็จสมบูรณ์ นำเข้า {imported} string ข้าม {ignored} string ที่มีอยู่ และข้าม {identical} string ที่เหมือนกัน หน้าจะ refresh เพื่อแสดงการแปลใหม่\n"
             },
             "known-namespace": {
-                "core": "",
-                "validation": ""
+                "core": "Flarum Core",
+                "validation": "ข้อผิดพลาดการตรวจสอบ"
             },
             "known-frontend": {
-                "forum": "",
-                "admin": "",
-                "lib": "",
-                "ref": "",
-                "api": ""
+                "forum": "Forum",
+                "admin": "Admin",
+                "lib": "Lib (ใช้ทั้งใน Forum และ Admin)",
+                "ref": "Ref (ใช้ซ้ำใน key อื่น)",
+                "api": "API"
             }
         }
     }

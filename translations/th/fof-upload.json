@@ -3,9 +3,9 @@
         "lib": {
             "data": {
                 "uploads": {
-                    "export_description": "",
-                    "anonymize_description": "",
-                    "delete_description": ""
+                    "export_description": "ไฟล์ทั้งหมดที่ผู้ใช้อัปโหลด",
+                    "anonymize_description": "ลบข้อมูลการอ้างอิงผู้ใช้ออกจากไฟล์ที่อัปโหลด ไฟล์ยังคงเข้าถึงได้สำหรับผู้ที่มีสิทธิ์ก่อนการทำให้ไม่ระบุตัวตน",
+                    "delete_description": "ลบไฟล์ทั้งหมดที่ผู้ใช้อัปโหลด"
                 }
             }
         }
@@ -13,87 +13,87 @@
     "fof-upload": {
         "admin": {
             "nav": {
-                "shared-uploads-button": ""
+                "shared-uploads-button": "ไฟล์แชร์"
             },
             "shared-uploads": {
-                "description": "",
-                "introduction": "",
-                "no-files": "",
-                "title": "",
-                "upload-new-button": ""
+                "description": "อัปโหลดไฟล์ที่ผู้ใช้ทุกคนในฟอรัมสามารถใช้ได้",
+                "introduction": "ไฟล์แชร์คือไฟล์ที่ผู้ใช้ทุกคนในฟอรัมสามารถใช้ได้ ไม่ได้แนบกับโพสต์ใด แต่สามารถแทรกในโพสต์ผ่าน Media Manager\n\n<strong>คำเตือน:</strong> ไฟล์แชร์ไม่ถูกป้องกันด้วยสิทธิ์ใด ๆ ใครก็ตามที่มี URL สามารถดูได้\n",
+                "no-files": "ยังไม่มีไฟล์แชร์",
+                "title": "ไฟล์แชร์",
+                "upload-new-button": "อัปโหลดไฟล์ใหม่"
             },
             "pane": {
-                "title": "อัพโหลด",
-                "description": "ตั้งค่าบริการสำหรับอัพโหลด"
+                "title": "อัปโหลด",
+                "description": "ตั้งค่าบริการอัปโหลดและค่าตั้งค่าต่าง ๆ"
             },
             "help_texts": {
-                "disable-download-logging": "ปิดการใช้งานบันทึกการดาวโหลดโดยผู้ใช้ในฟอรั่มของคุณ หากคุณเปิดเอาไว้คุณจะสามารุชถตรวจสอบจำนวนการดาวน์โหลดเเละค่าต่างๆ ได้\n",
-                "disable-hotlink-protection": "ป้องกันฮอตลิ้ง ป้องกันการดาวน์โหลดจากเว็บไซต์อื่นในขณะนี้ยังต้องการโทเคน csrf เเละไอดีของโพสต์ในการดาวน์โหลด\n",
-                "download_templates": "เทมเพลตที่โชว์ในฟอรั่มของคุณเช่น การพรีวิว ปุ่มขณะนี้สามารถใช้ได้ตามนี้:\n",
+                "disable-download-logging": "ปิดการบันทึกทุกครั้งที่ผู้ใช้ดาวน์โหลดไฟล์ หากเปิดไว้ คุณจะสามารถดูจำนวนการดาวน์โหลดและตัวชี้วัดอื่น ๆ ได้\n",
+                "disable-hotlink-protection": "การป้องกัน hotlink ป้องกันการดาวน์โหลดจากเว็บไซต์อื่น ปัจจุบันต้องใช้ CSRF token และ ID โพสต์\n",
+                "download_templates": "เทมเพลตดาวน์โหลดกำหนดวิธีแสดงไฟล์ในฟอรัม เช่น ตัวอย่าง ปุ่ม ที่มีให้เลือกปัจจุบัน:\n",
                 "mime_types": "",
-                "resize": "เลือกว่าคุณต้องการปรับขนาดภาพก่อนที่จะอัปโหลดหรือไม่ คุณสามารถเลือกความกว้างและความสูงสูงสุดเป็นพิกเซล กระบวนการปรับขนาดจะรักษาอัตราส่วนของภาพ\n",
-                "client_extension": "โดยค่าเริ่มต้น การอัปโหลดจะเลือกนามสกุลไฟล์ที่ปลอดภัยตามประเภท MIME \nสำหรับไฟล์บางประเภทที่อิงตามข้อมูล ZIP หรือไบนารี อาจส่งผลให้มีการใช้ส่วนขยายทั่วไปแทนนามสกุลที่คาดไว้ ที่นี่ \nคุณสามารถป้อนรายการนามสกุลไฟล์ที่คั่นด้วยเครื่องหมายจุลภาคซึ่งจะถูกเก็บไว้ตามคำต่อคำ\n",
+                "resize": "เลือกว่าต้องการปรับขนาดรูปภาพก่อนอัปโหลดหรือไม่ สามารถกำหนดความกว้างและความสูงสูงสุดเป็นพิกเซล อัตราส่วนภาพจะคงเดิม\n",
+                "client_extension": "โดยค่าเริ่มต้น Upload จะเลือกนามสกุลไฟล์ที่ปลอดภัยตาม MIME type สำหรับไฟล์บางประเภทที่ใช้ ZIP หรือไบนารี อาจได้นามสกุลทั่วไปแทนที่คาดหวัง ที่นี่สามารถใส่รายการนามสกุลคั่นด้วยจุลภาคที่จะถูกเก็บไว้ตรง ๆ\n",
                 "thumbnails": "",
-                "watermark": "เลือกว่ารูปภาพจะมีลายน้ำเพิ่มระหว่างการอัปโหลดหรือไม่ ลายน้ำจะถูกเพิ่มไปยังที่ไม่ใช่ gif ตามการตั้งค่าของคุณด้านล่าง\n",
-                "s3_compatible_storage": "",
-                "s3_acl": "",
-                "custom_s3_url": "",
-                "s3_instance_profile": "",
-                "composer_buttons": ""
+                "watermark": "เลือกว่าต้องการเพิ่มลายน้ำลงในรูปภาพขณะอัปโหลดหรือไม่ ลายน้ำจะถูกเพิ่มในรูปที่ไม่ใช่ GIF ตามการตั้งค่าด้านล่าง\n",
+                "s3_compatible_storage": "การตั้งค่าต่อไปนี้ต้องการเฉพาะเมื่อใช้พื้นที่เก็บข้อมูลที่รองรับ S3 หากใช้ AWS สามารถเว้นว่างได้\n",
+                "s3_acl": "ACL ที่จะใช้กับออบเจกต์ที่อัปโหลด (ค่าเริ่มต้น: private) ดูค่าที่เป็นไปได้ที่ https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
+                "custom_s3_url": "ใช้การตั้งค่านี้หากบริการ S3-compatible ต้องการรูปแบบ URL เฉพาะ (เช่น Backblaze B2) ให้ URL ที่รวม protocol (https://) ตัวอย่าง: https://your-bucket.s3.your-region.backblazeb2.com\n",
+                "s3_instance_profile": "เว้น key และ secret ว่างเพื่อใช้ข้อมูลประจำตัวจาก instance profile\n",
+                "composer_buttons": "โดยค่าเริ่มต้นจะแสดงทั้งปุ่ม Media Manager และปุ่มอัปโหลด สามารถเลือกแสดงเพียงปุ่มเดียวได้\n"
             },
             "labels": {
                 "aws-s3": {
-                    "bucket": "",
-                    "key": "",
-                    "region": "",
-                    "secret": "",
-                    "title": "",
-                    "advanced_title": "",
-                    "endpoint": "",
-                    "use_path_style_endpoint": "",
-                    "acl": "",
-                    "custom_url": ""
+                    "bucket": "Bucket",
+                    "key": "Key",
+                    "region": "Region",
+                    "secret": "Secret",
+                    "title": "การตั้งค่า AWS S3",
+                    "advanced_title": "การตั้งค่า S3 ขั้นสูง",
+                    "endpoint": "Endpoint",
+                    "use_path_style_endpoint": "ใช้ path style endpoint",
+                    "acl": "Access Control List (ACL)",
+                    "custom_url": "URL S3 แบบกำหนดเอง"
                 },
                 "disable-download-logging": {
-                    "title": "",
-                    "toggle": ""
+                    "title": "ปิดการบันทึกการดาวน์โหลด",
+                    "toggle": "ปิด"
                 },
                 "disable-hotlink-protection": {
-                    "title": "",
-                    "toggle": ""
+                    "title": "ปิดการป้องกัน hotlink",
+                    "toggle": "ปิด"
                 },
                 "imgur": {
-                    "client_id": "",
-                    "title": "",
-                    "tos": ""
+                    "client_id": "Imgur Client ID",
+                    "title": "การตั้งค่า Imgur",
+                    "tos": "คุณมีหน้าที่ตรวจสอบให้ผู้ใช้ปฏิบัติตาม <a>ข้อกำหนดการใช้งาน</a> ของ Imgur"
                 },
                 "local": {
-                    "cdn_url": "",
-                    "title": ""
+                    "cdn_url": "Content Delivery URL (นำหน้าไฟล์)",
+                    "title": "การตั้งค่าพื้นที่เก็บข้อมูลในเครื่อง"
                 },
-                "configured_by_environment": "",
+                "configured_by_environment": "การตั้งค่าพื้นที่เก็บข้อมูลถูกกำหนดล่วงหน้าผ่าน environment variables",
                 "qiniu": {
-                    "title": "",
-                    "key": "",
-                    "secret": "",
-                    "bucket": ""
+                    "title": "การตั้งค่า Qiniu",
+                    "key": "Key",
+                    "secret": "Secret",
+                    "bucket": "Bucket"
                 },
                 "preferences": {
-                    "max_file_size": "",
-                    "mime_types": "",
+                    "max_file_size": "ขนาดไฟล์สูงสุด (กิโลไบต์)",
+                    "mime_types": "กำหนดการแมป MIME type และ upload adapter",
                     "mime_type_regex_placeholder": "",
                     "mime_type_regex_invalid": "",
                     "mime_type_permission_placeholder": "",
-                    "title": "",
-                    "php_ini_values": ""
+                    "title": "ค่าตั้งค่าทั่วไป",
+                    "php_ini_values": "ค่า <code>php.ini</code> ของคุณ: <code>post_max_size={post}</code> และ <code>upload_max_filesize={upload}</code> ตรวจสอบให้ค่าที่กำหนดไม่เกินค่าเหล่านี้ หากใช้ <code>Nginx</code> ให้ตรวจสอบ <code>client_max_body_size</code> ด้วย"
                 },
                 "resize": {
-                    "max_width": "",
-                    "title": "",
-                    "toggle": ""
+                    "max_width": "ความกว้าง/ความสูงสูงสุดของรูปภาพ",
+                    "title": "ปรับขนาดรูปภาพ",
+                    "toggle": "ปรับขนาดรูปภาพ"
                 },
                 "client_extension": {
-                    "title": ""
+                    "title": "นามสกุลไฟล์ที่กำหนดเอง"
                 },
                 "thumbnails": {
                     "title": "",
@@ -102,162 +102,162 @@
                     "max_width": ""
                 },
                 "watermark": {
-                    "file": "",
+                    "file": "อัปโหลดรูปภาพลายน้ำ",
                     "opacity": "",
                     "padding": "",
-                    "position": "",
+                    "position": "ตำแหน่งลายน้ำ",
                     "size_percent": "",
-                    "title": "",
-                    "toggle": ""
+                    "title": "เพิ่มลายน้ำ",
+                    "toggle": "เพิ่มลายน้ำในรูปภาพ"
                 },
                 "svg-sanitizer": {
-                    "title": "",
-                    "allow_animate": "",
-                    "help": "",
-                    "allow_animate_help": ""
+                    "title": "SVG Sanitizer",
+                    "allow_animate": "อนุญาต SVG animations",
+                    "help": "กำหนดวิธีประมวลผลและทำความสะอาดไฟล์ SVG เมื่ออัปโหลด ไฟล์ SVG อาจมีสคริปต์อันตรายและควรจัดการอย่างระมัดระวัง",
+                    "allow_animate_help": "การเปิดใช้ SVG animations อาจทำให้เกิดช่องโหว่ด้านความปลอดภัย เนื่องจาก animated SVG อาจมีโค้ดอันตราย เปิดใช้งานด้วยความเสี่ยงของคุณเองและเฉพาะเมื่อไว้วางใจผู้ใช้"
                 },
                 "composer_buttons": {
-                    "title": "",
+                    "title": "ปุ่มในช่องแต่ง",
                     "options": {
-                        "both": "",
-                        "upload-btn": "",
-                        "media-btn": ""
+                        "both": "ทั้งสองปุ่ม",
+                        "upload-btn": "เฉพาะปุ่มอัปโหลด",
+                        "media-btn": "เฉพาะปุ่ม Media Manager"
                     }
                 },
-                "inspect-mime": ""
+                "inspect-mime": "ทดสอบ MIME type ของไฟล์"
             },
             "warnings": {
                 "fileinfo_missing": ""
             },
             "permissions": {
-                "download_label": "",
+                "download_label": "ดาวน์โหลดไฟล์",
                 "upload_label": "",
                 "upload_mime_label": "",
-                "view_user_uploads_label": "",
-                "delete_uploads_of_others_label": "",
-                "upload_shared_label": "",
-                "access_shared_label": ""
+                "view_user_uploads_label": "ดูไฟล์ที่ผู้ใช้อัปโหลด",
+                "delete_uploads_of_others_label": "ลบไฟล์ที่ผู้ใช้อัปโหลด",
+                "upload_shared_label": "อัปโหลดไฟล์แชร์",
+                "access_shared_label": "เข้าถึงไฟล์แชร์ใน Media Manager"
             },
             "templates": {
-                "file": "",
-                "file_description": "",
-                "image": "",
-                "image_description": "",
-                "image-preview": "",
-                "image-preview_description": "",
-                "markdown-image": "",
-                "markdown-image_description": "",
-                "bbcode-image": "",
-                "bbcode-image_description": "",
-                "just-url": "",
-                "just-url_description": "",
-                "text-preview": "",
-                "text-preview_description": ""
+                "file": "เทมเพลตดาวน์โหลดไฟล์เริ่มต้น",
+                "file_description": "แสดงชื่อไฟล์และข้อมูลทั่วไป โหลดผ่าน PHP เพื่อรวบรวมสถิติและป้องกัน hotlink\n",
+                "image": "เทมเพลตดาวน์โหลดรูปภาพเริ่มต้น",
+                "image_description": "แสดงภาพขนาดย่อและโหลดผ่าน PHP เพื่อรวบรวมสถิติและป้องกัน hotlink\n",
+                "image-preview": "เทมเพลตแสดงรูปภาพแบบเต็ม",
+                "image-preview_description": "แสดงรูปภาพขนาดเต็มในบรรทัด ไม่มีการดาวน์โหลด ไม่เก็บสถิติ ไม่ป้องกัน hotlink\n",
+                "markdown-image": "เทมเพลต Markdown Image",
+                "markdown-image_description": "แสดงรูปภาพขนาดเต็มโดยใช้ Markdown <strong>ต้องติดตั้งและเปิดใช้ flarum/markdown</strong> ไม่มีการดาวน์โหลด ไม่เก็บสถิติ ไม่ป้องกัน hotlink\n",
+                "bbcode-image": "เทมเพลต BBCode Image",
+                "bbcode-image_description": "แสดงรูปภาพขนาดเต็มโดยใช้ BBCode <strong>ต้องติดตั้งและเปิดใช้ flarum/bbcode</strong> ไม่มีการดาวน์โหลด ไม่เก็บสถิติ ไม่ป้องกัน hotlink\n",
+                "just-url": "เฉพาะ URL",
+                "just-url_description": "แทรกเฉพาะ URL การแสดงผลจัดการโดยส่วนขยายอื่นที่มี auto-link ไม่มีการดาวน์โหลด ไม่เก็บสถิติ\n",
+                "text-preview": "ตัวอย่างข้อความ",
+                "text-preview_description": "แสดงตัวอย่าง (5 บรรทัดแรก) ของไฟล์ข้อความ พร้อมตัวเลือกขยายเพื่อดูเนื้อหาทั้งหมด\n"
             },
             "upload_methods": {
-                "aws-s3": "",
-                "imgur": "",
-                "local": "",
-                "ovh-svfs": "",
-                "qiniu": ""
+                "aws-s3": "S3 หรือที่รองรับ",
+                "imgur": "Imgur",
+                "local": "เซิร์ฟเวอร์ภายใน",
+                "ovh-svfs": "OVH SVFS",
+                "qiniu": "QiNiu"
             },
             "inspect-mime": {
-                "title": "",
-                "description": "",
-                "select": "",
-                "laravel-validation": "",
-                "no-file-selected": "",
-                "validation-passed": "",
-                "validation-failed": "",
-                "mime-detector": "",
-                "mime-fileinfo": "",
-                "guessed-extension": "",
-                "not-available": ""
+                "title": "ตรวจสอบ MIME",
+                "description": "FoF Upload ใช้ไลบรารี <a>PHP Mime Detector</a> สำหรับ MIME type ทั่วไป และใช้ PHP Fileinfo เป็น fallback\nค่า MIME ที่ Fileinfo คืนมาอาจแตกต่างกันระหว่างเซิร์ฟเวอร์\n",
+                "select": "เลือกไฟล์ด้านล่างเพื่อตรวจสอบค่าที่จะใช้ ไฟล์จะไม่ถูกบันทึก",
+                "laravel-validation": "Laravel File Validation",
+                "no-file-selected": "ยังไม่ได้เลือกไฟล์",
+                "validation-passed": "ผ่าน",
+                "validation-failed": "ล้มเหลว: {error}",
+                "mime-detector": "Mime Detector (หลัก)",
+                "mime-fileinfo": "PHP Fileinfo (สำรอง)",
+                "guessed-extension": "นามสกุลไฟล์เริ่มต้น (หากนามสกุลเดิมไม่อยู่ในรายการอนุญาต)",
+                "not-available": "ไม่มีผลลัพธ์"
             }
         },
         "forum": {
-            "media_manager": "",
+            "media_manager": "จัดการสื่อ",
             "buttons": {
-                "attach": "",
-                "upload": "",
-                "upload_shared": "",
-                "user_uploads": "",
-                "cancel": "",
-                "media": "",
-                "shared_media": ""
+                "attach": "แนบ",
+                "upload": "อัปโหลด",
+                "upload_shared": "แชร์",
+                "user_uploads": "ไฟล์ของฉัน",
+                "cancel": "ยกเลิก",
+                "media": "สื่อของฉัน",
+                "shared_media": "สื่อแชร์"
             },
             "states": {
-                "error": "",
-                "loading": "",
-                "unauthorized": ""
+                "error": "ข้อผิดพลาด",
+                "loading": "กำลังอัปโหลด",
+                "unauthorized": "คุณไม่มีสิทธิ์ดาวน์โหลดไฟล์"
             },
             "validation": {
-                "max_size": ""
+                "max_size": "ไม่รับไฟล์ที่มีขนาดเกิน {max} kb"
             },
             "text_preview": {
-                "expand": "",
-                "collapse": "",
+                "expand": "ขยายตัวอย่าง",
+                "collapse": "ยุบตัวอย่าง",
                 "download": "",
-                "error": "",
-                "no_snippet_preview": "",
-                "no_snippet": ""
+                "error": "เกิดข้อผิดพลาดในการแสดงตัวอย่างไฟล์ อาจถูกลบไปแล้วหรือ ID ไฟล์ไม่ถูกต้อง\n",
+                "no_snippet_preview": "<ตัวอย่างจะแสดงที่นี่หลังจากโพสต์>",
+                "no_snippet": "<ไม่มีตัวอย่างให้แสดง>"
             }
         },
         "api": {
             "upload_errors": {
-                "forbidden_type": "",
+                "forbidden_type": "ไม่อนุญาตให้อัปโหลดไฟล์ประเภทนี้",
                 "mime_permission_denied": "",
-                "unsupported_type": "",
-                "could_not_detect_mime": "",
-                "max_upload_file_size_ini": "",
-                "max_upload_file_size_form": "",
-                "partial_upload": "",
-                "no_file_uploaded": "",
-                "no_upload_tmp_folder": "",
-                "cannot_write_to_disk": "",
-                "upload_blocked_by_php_extension": "",
-                "no_files_made_it_to_upload": ""
+                "unsupported_type": "Upload adapter ไม่รองรับ MIME type: {mime}",
+                "could_not_detect_mime": "ไม่สามารถตรวจสอบ MIME type ของไฟล์ได้ กรุณาลองใหม่",
+                "max_upload_file_size_ini": "ไฟล์เกินขนาดสูงสุดที่กำหนดใน php.ini",
+                "max_upload_file_size_form": "ไฟล์เกินขนาดสูงสุดที่กำหนดในฟอร์ม",
+                "partial_upload": "อัปโหลดไม่สมบูรณ์",
+                "no_file_uploaded": "ไม่มีไฟล์ที่อัปโหลด",
+                "no_upload_tmp_folder": "ไม่พบโฟลเดอร์ temp สำหรับอัปโหลด",
+                "cannot_write_to_disk": "ไม่สามารถเขียนลงดิสก์ได้",
+                "upload_blocked_by_php_extension": "PHP extension บล็อกการอัปโหลด",
+                "no_files_made_it_to_upload": "กรุณาอัปโหลดไฟล์ที่มีขนาดไม่เกิน {max} kb"
             }
         },
         "lib": {
             "upload-shared-file-modal": {
-                "title": "",
-                "dropzone": "",
-                "hide-from-media-gallery": "",
-                "upload": ""
+                "title": "ไฟล์แชร์ใหม่",
+                "dropzone": "ลากและวางไฟล์ที่นี่ หรือคลิกเพื่อเรียกดู",
+                "hide-from-media-gallery": "ซ่อนจากแกลเลอรีสื่อของผู้ใช้",
+                "upload": "อัปโหลด"
             },
             "file_list": {
-                "loading": "",
-                "empty": "",
-                "release_to_upload": "",
-                "modal_empty_desktop": "",
-                "modal_empty_phone": "",
-                "select_file_a11y_label": "",
-                "confirm_selection_btn": "",
-                "load_more_files_btn": "",
-                "delete_file_a11y_label": "",
-                "delete_confirmation": "",
+                "loading": "กำลังโหลดไฟล์...",
+                "empty": "ไม่มีไฟล์ให้แสดง",
+                "release_to_upload": "ปล่อยเพื่ออัปโหลด",
+                "modal_empty_desktop": "รายการไฟล์ว่างเปล่า คลิกปุ่มหรือลากไฟล์มาที่นี่เพื่ออัปโหลด",
+                "modal_empty_phone": "รายการไฟล์ว่างเปล่า แตะปุ่มด้านบนเพื่ออัปโหลด",
+                "select_file_a11y_label": "เลือกไฟล์ \"{fileName}\"",
+                "confirm_selection_btn": "{fileCount, plural, =0 {ยังไม่ได้เลือก} other {เลือก {fileCount} ไฟล์}}",
+                "load_more_files_btn": "โหลดไฟล์เพิ่มเติม",
+                "delete_file_a11y_label": "ลบไฟล์ \"{fileName}\"",
+                "delete_confirmation": "คุณแน่ใจหรือไม่ว่าต้องการลบ \"{fileName}\"?",
                 "hide_file": {
-                    "btn_a11y_label_hide": "",
-                    "btn_a11y_label_show": "",
-                    "hide_confirmation": "",
-                    "hide_success": "",
-                    "show_confirmation": "",
-                    "show_success": "",
-                    "hide_fail": "",
-                    "show_fail": "",
-                    "loading": ""
+                    "btn_a11y_label_hide": "ซ่อน \"{fileName}\" จาก Media Manager",
+                    "btn_a11y_label_show": "แสดง \"{fileName}\" ใน Media Manager",
+                    "hide_confirmation": "คุณแน่ใจหรือไม่ว่าต้องการซ่อน \"{fileName}\"? การซ่อนจะลบออกจาก Media Manager เท่านั้น ไม่ส่งผลต่อโพสต์ที่มีอยู่แล้ว",
+                    "hide_success": "ซ่อนไฟล์แล้ว",
+                    "show_confirmation": "คุณแน่ใจหรือไม่ว่าต้องการแสดง \"{fileName}\"? ไฟล์จะปรากฏใน Media Manager ของคุณ",
+                    "show_success": "แสดงไฟล์แล้ว",
+                    "hide_fail": "ไม่สามารถซ่อนไฟล์ \"{fileName}\" ได้",
+                    "show_fail": "ไม่สามารถแสดงไฟล์ \"{fileName}\" ได้",
+                    "loading": "กำลังซ่อนไฟล์..."
                 },
                 "hide_shared_file": {
-                    "btn_a11y_label_hide": "",
-                    "btn_a11y_label_show": "",
-                    "hide_confirmation": "",
-                    "hide_success": "",
-                    "show_confirmation": "",
-                    "show_success": "",
-                    "hide_fail": "",
-                    "show_fail": "",
-                    "loading": ""
+                    "btn_a11y_label_hide": "ทำให้ \"{fileName}\" เป็นส่วนตัว (ไม่มี URL สาธารณะ)",
+                    "btn_a11y_label_show": "ทำให้ \"{fileName}\" เป็นสาธารณะ (มี URL สาธารณะ)",
+                    "hide_confirmation": "คุณแน่ใจหรือไม่ว่าต้องการทำให้ \"{fileName}\" เป็นส่วนตัว? การทำเช่นนี้จะลบ URL สาธารณะ แต่ไม่ส่งผลต่อโพสต์ที่มีอยู่",
+                    "hide_success": "ทำให้ไฟล์เป็นส่วนตัวแล้ว",
+                    "show_confirmation": "คุณแน่ใจหรือไม่ว่าต้องการทำให้ \"{fileName}\" เป็นสาธารณะ? ทุกคนที่มี URL จะเข้าถึงได้",
+                    "show_success": "ทำให้ไฟล์เป็นสาธารณะแล้ว",
+                    "hide_fail": "ไม่สามารถทำให้ไฟล์ \"{fileName}\" เป็นส่วนตัวได้",
+                    "show_fail": "ไม่สามารถทำให้ไฟล์ \"{fileName}\" เป็นสาธารณะได้",
+                    "loading": "กำลังทำให้ไฟล์เป็นส่วนตัว..."
                 }
             }
         }

@@ -1,88 +1,88 @@
 {
     "shebaoting-dependency-collector": {
         "forum": {
-            "nav_title": "",
+            "nav_title": "Dependencies",
             "list": {
-                "submit_button": "",
+                "submit_button": "ส่ง Dependency",
                 "filter_by_tag": "",
                 "all_tags": "",
-                "empty_text": "",
-                "my_favorites_button": "",
+                "empty_text": "ไม่พบ dependency",
+                "my_favorites_button": "รายการโปรดของฉัน",
                 "search_placeholder": ""
             },
             "item": {
-                "pending_approval": "",
-                "delete_button_label": "",
-                "delete_confirmation_title": "",
-                "delete_confirmation_text": "",
-                "favorite_button_label": "",
-                "unfavorite_button_label": "",
+                "pending_approval": "รอการอนุมัติ",
+                "delete_button_label": "ลบ",
+                "delete_confirmation_title": "ลบ Dependency",
+                "delete_confirmation_text": "คุณแน่ใจหรือไม่ว่าต้องการลบ dependency นี้? การกระทำนี้ไม่สามารถย้อนกลับได้",
+                "favorite_button_label": "บันทึกไว้",
+                "unfavorite_button_label": "ยกเลิกรายการโปรด",
                 "approve_button": "",
                 "unapprove_button": ""
             },
             "modal": {
-                "submit_title": "",
+                "submit_title": "ส่ง Dependency ใหม่",
                 "edit_title": "",
-                "title_label": "",
-                "title_placeholder": "",
-                "link_label": "",
-                "description_label": "",
-                "description_placeholder": "",
+                "title_label": "ชื่อ",
+                "title_placeholder": "เช่น Awesome Library",
+                "link_label": "ลิงก์",
+                "description_label": "คำอธิบาย",
+                "description_placeholder": "สรุปสั้นๆ ว่า dependency นี้ทำอะไร",
                 "tags_label": "",
                 "tags_help": "",
-                "submit_button": "",
+                "submit_button": "ส่ง",
                 "save_changes_button": "",
                 "no_tags_available": ""
             }
         },
         "admin": {
             "nav": {
-                "title": "",
+                "title": "Dependency Collector",
                 "description": ""
             },
             "page": {
-                "pending_items_title": "",
-                "no_pending_items": "",
-                "approved_items_title": "",
-                "no_approved_items": "",
+                "pending_items_title": "Dependency รอการตรวจสอบ",
+                "no_pending_items": "ไม่มี dependency ที่รอการตรวจสอบ",
+                "approved_items_title": "Dependency ที่อนุมัติแล้ว",
+                "no_approved_items": "ยังไม่มี dependency ที่ได้รับการอนุมัติ",
                 "manage_tags_title": "",
                 "no_plugin_tags": ""
             },
             "table": {
-                "title": "",
-                "submitted_by": "",
-                "submitted_at": "",
-                "approved_by": "",
-                "approved_at": "",
+                "title": "ชื่อ",
+                "submitted_by": "ส่งโดย",
+                "submitted_at": "ส่งเมื่อ",
+                "approved_by": "อนุมัติโดย",
+                "approved_at": "อนุมัติเมื่อ",
                 "tags": "",
                 "tag_name": "",
-                "tag_slug": "",
-                "tag_color_icon": "",
-                "tag_item_count": "",
-                "actions": "",
-                "tag_color": "",
-                "tag_icon": ""
+                "tag_slug": "Slug",
+                "tag_color_icon": "สีและ icon",
+                "tag_item_count": "รายการ",
+                "actions": "การดำเนินการ",
+                "tag_color": "สี",
+                "tag_icon": "Icon"
             },
             "actions": {
                 "create_tag": "",
-                "approve": "",
-                "reject": ""
+                "approve": "อนุมัติ",
+                "reject": "ปฏิเสธ"
             },
             "confirm": {
-                "approve": "",
-                "reject": "",
-                "delete": "",
+                "approve": "อนุมัติ dependency",
+                "reject": "ปฏิเสธ dependency",
+                "delete": "ลบ dependency",
                 "delete_tag": ""
             },
             "modal": {
                 "edit_tag_title": "",
                 "create_tag_title": "",
-                "tag_name_label": "",
-                "tag_slug_label": "",
-                "tag_description_label": "",
-                "tag_color_label": "",
-                "tag_icon_label": "",
-                "tag_icon_help": "",
+                "tag_name_label": "ชื่อ",
+                "tag_slug_label": "Slug",
+                "tag_description_label": "คำอธิบาย (ไม่จำเป็น)",
+                "tag_color_label": "สี (เช่น",
+                "tag_icon_label": "Icon (เช่น fas fa-code)",
+                "tag_icon_help": "ค้นหา icon ได้ที่ <a>Font Awesome</a>",
                 "save_button": "",
                 "icon_options": {
                     "code": "",
@@ -105,11 +105,11 @@
                 }
             },
             "permissions": {
-                "submit_label": "",
-                "moderate_label": "",
+                "submit_label": "ส่ง dependency",
+                "moderate_label": "กลั่นกรอง dependency (อนุมัติ ปฏิเสธ แก้ไข ลบ)",
                 "manage_tags_label": "",
-                "delete_label": "",
-                "favorite_items_label": ""
+                "delete_label": "ลบ dependency",
+                "favorite_items_label": "บันทึก dependency ไว้เป็นรายการโปรด"
             }
         }
     }

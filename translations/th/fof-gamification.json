@@ -2,134 +2,134 @@
     "core": {
         "forum": {
             "index_sort": {
-                "hot_button": "",
-                "votes_button": ""
+                "hot_button": "กำลังมาแรง",
+                "votes_button": "Upvote"
             }
         }
     },
     "fof-gamification": {
         "forum": {
-            "votes": "",
-            "vote_title": "",
+            "votes": "โหวต",
+            "vote_title": "ดูว่าใครโหวต",
             "nav": {
-                "name": ""
+                "name": "อันดับ"
             },
             "ranking": {
-                "rank": "",
-                "name": "",
-                "amount": ""
+                "rank": "อันดับ",
+                "name": "ผู้ใช้",
+                "amount": "คะแนน"
             },
             "notification": {
-                "upvote": "",
-                "downvote": "",
+                "upvote": "{username} Upvote โพสต์ของคุณ",
+                "downvote": "{username} Downvote โพสต์ของคุณ",
                 "prefrences": {
-                    "vote": ""
+                    "vote": "เมื่อโพสต์ของฉันได้รับการ Upvote/Downvote"
                 }
             },
             "user": {
                 "card": {
-                    "points": ""
+                    "points": "{count, plural, one {{count} คะแนน} other {{count} คะแนน}}"
                 },
-                "rank": "",
-                "votes_link": ""
+                "rank": "{rank}",
+                "votes_link": "โหวต"
             },
             "modal": {
-                "downvotes_label": "",
-                "title": "",
-                "upvotes_label": ""
+                "downvotes_label": "ผู้ Downvote:",
+                "title": "ผู้โหวต",
+                "upvotes_label": "ผู้ Upvote:"
             },
-            "mod_item": "",
+            "mod_item": "ดูผู้โหวต",
             "voters": {
-                "none": "",
-                "label": "",
-                "label_none": ""
+                "none": "ยังไม่มีผู้โหวต",
+                "label": "ผู้โหวต",
+                "label_none": "ไม่มีผู้โหวต"
             },
             "post": {
-                "upvote_button": "",
-                "downvote_button": ""
+                "upvote_button": "Upvote โพสต์",
+                "downvote_button": "Downvote โพสต์"
             }
         },
         "admin": {
             "permissions": {
-                "vote_label": "",
-                "see_votes_label": "",
-                "see_voters_label": "",
-                "see_ranking_page": "",
-                "upvote_notifications": "",
-                "downvote_notifications": ""
+                "vote_label": "Upvote/Downvote โพสต์",
+                "see_votes_label": "ดูจำนวน Upvote/Downvote",
+                "see_voters_label": "ดูว่าใครโหวต",
+                "see_ranking_page": "ดูหน้าอันดับ",
+                "upvote_notifications": "รับแจ้งเตือนเมื่อได้รับ Upvote",
+                "downvote_notifications": "รับแจ้งเตือนเมื่อได้รับ Downvote"
             },
             "page": {
                 "rankings": {
                     "blocked": {
-                        "placeholder": "",
-                        "title": "",
-                        "help": ""
+                        "placeholder": "admin, user1, user2",
+                        "title": "ผู้ใช้ที่ถูกซ่อน",
+                        "help": "ผู้ใช้เหล่านี้จะไม่แสดงในหน้าอันดับ ชื่อผู้ใช้ควรคั่นด้วยเครื่องหมายจุลภาคตามด้วยช่องว่าง"
                     },
-                    "title": "",
-                    "enable": "",
-                    "custom_image_1": "",
-                    "custom_image_2": "",
-                    "custom_image_3": ""
+                    "title": "หน้าอันดับ",
+                    "enable": "เปิดใช้ภาพกำหนดเอง",
+                    "custom_image_1": "ภาพอันดับ 1",
+                    "custom_image_2": "ภาพอันดับ 2",
+                    "custom_image_3": "ภาพอันดับ 3"
                 },
                 "alt_votes": {
-                    "icon_name": ""
+                    "icon_name": "ชื่อไอคอนสำหรับ Layout สำรอง"
                 },
                 "votes": {
-                    "points_title": "",
-                    "points_placeholder": "",
-                    "color_holder": "",
-                    "auto_upvote": "",
-                    "rate_limit": "",
-                    "discussion_page": "",
-                    "alternate_layout": "",
-                    "alternate_post_layout": "",
-                    "title": "",
-                    "vote_color": "",
-                    "icon_name": "",
-                    "icon_help": "",
+                    "points_title": "ชื่อแทน Points",
+                    "points_placeholder": "คะแนน: ",
+                    "color_holder": "#ffffff",
+                    "auto_upvote": "Upvote โพสต์อัตโนมัติเมื่อโพสต์",
+                    "rate_limit": "บังคับใช้ขีดจำกัดการโหวต (10 วินาที)",
+                    "discussion_page": "แสดงจำนวนโหวตของโพสต์แรกในรายการโพสต์",
+                    "alternate_layout": "ใช้ Layout สำรองในรายการโพสต์",
+                    "alternate_post_layout": "ใช้ Layout สำรองในโพสต์",
+                    "title": "โหวต",
+                    "vote_color": "สีเมื่อโหวตแล้ว",
+                    "icon_name": "ไอคอน Upvote/Downvote",
+                    "icon_help": "กรอกชื่อไอคอน Font-Awesome ที่มี suffix -up และ -down เช่น arrow, thumbs, chevron",
                     "icon_preview_upvote": "",
                     "icon_preview_downvote": "",
-                    "upvotes_only": "",
-                    "first_post_only": "",
-                    "allow_self_votes": ""
+                    "upvotes_only": "อนุญาตเฉพาะ Upvote เท่านั้น",
+                    "first_post_only": "อนุญาต Upvote/Downvote เฉพาะโพสต์แรกในโพสต์",
+                    "allow_self_votes": "อนุญาตให้ผู้ใช้โหวตโพสต์ตัวเอง"
                 },
-                "save_settings": "",
+                "save_settings": "บันทึกการตั้งค่า",
                 "convert": {
-                    "button": "",
+                    "button": "แปลง Like เป็น Upvote",
                     "help": "",
-                    "converting": "",
-                    "converted": ""
+                    "converting": "กำลังแปลง Like ของคุณ รีเฟรชเว็บไซต์หลังจากผ่านไปสองสามนาทีเพื่อดูผลลัพธ์ (อาจใช้เวลาสักครู่ขึ้นอยู่กับจำนวน Like ทั้งหมดในฟอรัม)",
+                    "converted": "แปลง Like ทั้งหมด {number} รายการสำเร็จแล้ว"
                 },
                 "ranks": {
-                    "title": "",
-                    "ranks": "",
-                    "number_title": "",
+                    "title": "ยศ",
+                    "ranks": "ยศกำหนดเอง",
+                    "number_title": "จะแสดงยศกี่อันดับ?",
                     "help": {
-                        "color": "",
-                        "help": "",
-                        "points": "",
-                        "name": ""
+                        "color": "#ffffff",
+                        "help": "กรอกจำนวน Upvote ที่ต้องการ ชื่อยศ และสีในรูปแบบ Hex",
+                        "points": "คะแนน",
+                        "name": "ชื่อ"
                     }
                 },
                 "groups": {
-                    "title": "",
-                    "help": "",
+                    "title": "กลุ่มที่กำหนดอัตโนมัติ",
+                    "help": "กลุ่มที่เลือกจะถูกเพิ่มหรือลบโดยอัตโนมัติตามจำนวนคะแนนของผู้ใช้ หากคุณเปลี่ยนการตั้งค่า ควรรันคำสั่ง <code>php flarum fof:gamification:assign-groups</code> เพื่ออัปเดตผู้ใช้ที่มีอยู่ หากต้องการลบกฎและนำผู้ใช้ออกจากกลุ่ม ให้ตั้งค่าต่ำสุดและสูงสุดเป็นค่าว่าง บันทึก แล้วรันคำสั่ง จากนั้นจึงลบกฎออกจากการตั้งค่าได้\n",
                     "column": {
-                        "group": "",
-                        "minPoints": "",
-                        "maxPoints": ""
+                        "group": "กลุ่ม",
+                        "minPoints": "คะแนนขั้นต่ำ (รวม)",
+                        "maxPoints": "คะแนนสูงสุด (รวม)"
                     },
-                    "add": "",
-                    "delete": ""
+                    "add": "เพิ่มกฎใหม่",
+                    "delete": "ลบกฎ"
                 }
             }
         },
         "email": {
             "body": {
-                "postVoted": ""
+                "postVoted": "สวัสดี {recipient_display_name}\n\n{actor_display_name} เพิ่งโหวตโพสต์ของคุณในโพสต์ {discussion_title}\n\nดูได้ที่: {discussion_url}\n"
             },
             "subject": {
-                "postVoted": ""
+                "postVoted": "โพสต์ของคุณได้รับการโหวตจาก {display_name}"
             }
         }
     },

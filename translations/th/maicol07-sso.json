@@ -2,35 +2,35 @@
     "maicol07-sso": {
         "admin": {
             "settings": {
-                "title": "",
-                "provider_mode": "",
-                "client_name": "",
-                "client_name_help": "",
-                "client_url": "",
-                "client_url_help": "",
-                "client_api_key": "",
-                "client_api_key_help": "",
-                "client_password_token": "",
-                "client_password_token_help": "",
-                "client_verify_ssl": "",
-                "client_verify_ssl_help": "",
-                "signup_url": "",
-                "login_url": "",
-                "logout_url": "",
-                "remove_login_btn": "",
-                "remove_signup_btn": "",
-                "manage_account_url": "",
-                "manage_account_btn_open_in_new_tab": "",
-                "cookies_prefix": "",
-                "jwt_section_subtitle": "",
-                "jwt_iss": "",
-                "jwt_signer_key": "",
-                "jwt_signing_algorithm": ""
+                "title": "ตั้งค่า SSO",
+                "provider_mode": "เปิดใช้งานตัวเลือกนี้เพื่อใช้โหมด provider (SSO ระหว่าง instance Flarum) อนุญาตให้ instance Flarum อื่นๆ login ผู้ใช้ของ instance Flarum นี้ สิ่งนี้จะปิดใช้งานคุณลักษณะ SSO มาตรฐานกับเว็บไซต์อื่นๆ",
+                "client_name": "ชื่อ",
+                "client_name_help": "ชื่อของ instance Flarum",
+                "client_url": "URL",
+                "client_url_help": "URL ของ instance Flarum",
+                "client_api_key": "API key",
+                "client_api_key_help": "API key จาก instance Flarum ของคุณ",
+                "client_password_token": "Password token",
+                "client_password_token_help": "Token รหัสผ่านแบบสุ่มเพื่อใช้กับ Flarum instance signup",
+                "client_verify_ssl": "Verify SSL",
+                "client_verify_ssl_help": "ตรวจสอบสถานะ SSL ของ instance Flarum เมื่อส่งขอไปยังมัน (แนะนำ)",
+                "signup_url": "Signup URL",
+                "login_url": "Login URL",
+                "logout_url": "Logout URL",
+                "remove_login_btn": "ลบปุ่ม login",
+                "remove_signup_btn": "ลบปุ่ม signup",
+                "manage_account_url": "URL สำหรับจัดการบัญชี",
+                "manage_account_btn_open_in_new_tab": "เปิดจัดการบัญชีในแท็บใหม่",
+                "cookies_prefix": "Cookies name prefix",
+                "jwt_section_subtitle": "ตั้งค่า JWT Addon",
+                "jwt_iss": "Issuer Domain",
+                "jwt_signer_key": "Signer key",
+                "jwt_signing_algorithm": "Signing Method"
             }
         },
         "forum": {
-            "manage_account_btn": "",
-            "no_login_url_error": ""
+            "manage_account_btn": "จัดการบัญชี",
+            "no_login_url_error": "ไม่ได้ตั้งค่า Login URL โปรดตรวจสอบตั้งค่า SSO"
         }
     }
 }

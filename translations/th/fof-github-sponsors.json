@@ -2,18 +2,18 @@
     "fof-github-sponsors": {
         "admin": {
             "account_types": {
-                "user": "",
-                "organization": ""
+                "user": "ผู้ใช้",
+                "organization": "องค์กร"
             },
             "settings": {
-                "api_token_label": "",
-                "api_token_help": "",
-                "account_type_label": "",
-                "account_type_help": "",
-                "login_label": "",
-                "login_help": "",
-                "group_label": "",
-                "group_help": ""
+                "api_token_label": "API Token",
+                "api_token_help": "สร้าง personal access token ที่ <a>https://github.com/settings/tokens/new</a> โดยเลือก scope <code>user</code> และ <code>read:org</code> token นี้ใช้สำหรับดึงข้อมูล sponsor จาก GitHub",
+                "account_type_label": "ประเภทบัญชี",
+                "account_type_help": "เลือกว่าคุณต้องการติดตาม sponsor สำหรับบัญชี GitHub ส่วนตัวหรือบัญชีองค์กร",
+                "login_label": "Login",
+                "login_help": "ใส่ชื่อผู้ใช้ GitHub (สำหรับบัญชีส่วนตัว) หรือชื่อองค์กร (สำหรับองค์กร) นี่คือบัญชีที่จะทำการซิงค์ sponsor",
+                "group_label": "กลุ่มที่จะกำหนด",
+                "group_help": "เลือก group ผู้ใช้ใน Flarum ที่จะเพิ่ม sponsor เข้าไป ผู้ใช้จะถูกเพิ่มโดยอัตโนมัติเมื่อเป็น sponsor และถูกลบออกเมื่อหยุด sponsor"
             }
         }
     }

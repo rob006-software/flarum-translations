@@ -2,24 +2,24 @@
     "fof-impersonate": {
         "admin": {
             "permissions": {
-                "login": ""
+                "login": "Login ในนามผู้ใช้คนอื่น"
             },
             "settings": {
-                "title": "",
-                "require_reason": "",
-                "no_settings_available": ""
+                "title": "FoF Impersonate",
+                "require_reason": "ต้องระบุเหตุผลก่อนดำเนินการเข้าสู่ระบบในฐานะผู้ใช้คนอื่น",
+                "no_settings_available": "ขณะนี้ยังไม่มีการตั้งค่าให้ใช้งาน ลองติดตั้ง fof/moderator-notes"
             }
         },
         "lib": {
             "modal": {
-                "title": "",
-                "label": "",
-                "placeholder_optional": "",
-                "placeholder_required": "",
-                "impersonate_username": ""
+                "title": "Login ในนามผู้ใช้คนอื่น",
+                "label": "อำนาจมากย่อมมาพร้อมความรับผิดชอบมาก หากดำเนินการต่อ คุณจะกลายเป็น {username} จนกว่าจะ logout",
+                "placeholder_optional": "(ไม่บังคับ) ระบุเหตุผลในการเปลี่ยนไปใช้บัญชีนี้",
+                "placeholder_required": "คุณต้องระบุเหตุผลในการเปลี่ยนไปใช้บัญชีนี้ก่อนดำเนินการต่อ",
+                "impersonate_username": "Login ในนาม {username}"
             },
             "user_controls": {
-                "impersonate_button": ""
+                "impersonate_button": "Login ในนามผู้ใช้นี้"
             }
         }
     }
