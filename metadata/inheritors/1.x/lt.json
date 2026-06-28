@@ -67,11 +67,14 @@
                 "appearance": {
                     "colored_header_label": "28a0cecfa551f8e63c73aa9f394b8f93 28a0cecfa551f8e63c73aa9f394b8f93",
                     "colors_heading": "dab3804330adf7d9e5555165d90afe93 dab3804330adf7d9e5555165d90afe93",
+                    "colors_primary_label": "f7b0ad2b702a14cc9659792434f4bdfc f7b0ad2b702a14cc9659792434f4bdfc",
+                    "colors_secondary_label": "cfb40b5ba4ae226c0806f9d89b61dd30 cfb40b5ba4ae226c0806f9d89b61dd30",
                     "colors_text": "4305eae89a19fc25679446301afa2a4a 4305eae89a19fc25679446301afa2a4a",
                     "custom_footer_heading": "4ad0f38fb2a3c7c7f48917bf1c4222b9 4ad0f38fb2a3c7c7f48917bf1c4222b9",
                     "custom_footer_text": "a85a9719a53a00353c3df59be9b16f91 a85a9719a53a00353c3df59be9b16f91",
                     "custom_header_heading": "8722c635d81d5c7011d5fb2b1dfb30b6 8722c635d81d5c7011d5fb2b1dfb30b6",
                     "custom_header_text": "4b3b82f45b4c4c5e4097e25bfb201fa5 4b3b82f45b4c4c5e4097e25bfb201fa5",
+                    "custom_styles_cannot_use_less_features": "bff63ba0d87973b9c4bcc20b6a6c6d94 bff63ba0d87973b9c4bcc20b6a6c6d94",
                     "custom_styles_heading": "5453b55b0a620f507e3b3d578dd0a955 5453b55b0a620f507e3b3d578dd0a955",
                     "custom_styles_text": "06465058539b6af882c7e7539089f172 06465058539b6af882c7e7539089f172",
                     "description": "eeea2435396db84068a6eae2d45ba237 eeea2435396db84068a6eae2d45ba237",
@@ -86,6 +89,7 @@
                     "title": "3f4561567f82c92a1a3ff985325db302 3f4561567f82c92a1a3ff985325db302"
                 },
                 "basics": {
+                    "abandoned_extensions_heading": "de60720829528270e4d784328b002e84 de60720829528270e4d784328b002e84",
                     "all_discussions_label": "fa93b126d1b9a3781a8facaff4f045ff fa93b126d1b9a3781a8facaff4f045ff",
                     "default_language_heading": "c633a470512010f7a0914092eab51e79 c633a470512010f7a0914092eab51e79",
                     "description": "468ea7cfd70b580ec69de580b84bfd88 468ea7cfd70b580ec69de580b84bfd88",
@@ -735,6 +739,15 @@
             }
         }
     },
+    "flarum-bbcode.json": {
+        "flarum-bbcode": {
+            "forum": {
+                "quote": {
+                    "wrote": "ee9ba43313af2c8e81077a16f9bf71f3 ee9ba43313af2c8e81077a16f9bf71f3"
+                }
+            }
+        }
+    },
     "flarum-emoji.json": {
         "flarum-emoji": {
             "forum": {
@@ -800,6 +813,10 @@
             "admin": {
                 "permissions": {
                     "like_posts_label": "00eea30e09947b1f0706785fac58dd42 00eea30e09947b1f0706785fac58dd42"
+                },
+                "settings": {
+                    "like_own_posts_help": "6ce8d38b2ca85fe1574e99eff2ee9c94 6ce8d38b2ca85fe1574e99eff2ee9c94",
+                    "like_own_posts_label": "0ccc5e37bfaacf926009857edb676c7e 0ccc5e37bfaacf926009857edb676c7e"
                 }
             },
             "forum": {
@@ -810,16 +827,20 @@
                 "post": {
                     "like_link": "7ade821202848c895cacbca61b658827 7ade821202848c895cacbca61b658827",
                     "liked_by_self_text": "7abd3f2208269a36d6ff29d170a598d7 7abd3f2208269a36d6ff29d170a598d7",
-                    "liked_by_text": "17363c7ba2852694bb112f834eb71beb 17363c7ba2852694bb112f834eb71beb",
+                    "liked_by_text": "0132275f232b10f669286871ad459883 0132275f232b10f669286871ad459883",
                     "others_link": "dae504cea1fdf7bf7bddb02da1aa7ba1 dae504cea1fdf7bf7bddb02da1aa7ba1",
                     "unlike_link": "dc7569b3cc704304f83e37ee2287347c dc7569b3cc704304f83e37ee2287347c",
                     "you_text": "5c3defc66e2e1f24b87246bce4417683 5c3defc66e2e1f24b87246bce4417683"
                 },
                 "post_likes": {
+                    "load_more_button": "aace03f843f7ad259fe0d79dc2e07f43 aace03f843f7ad259fe0d79dc2e07f43",
                     "title": "83cb71f9405bf0f0666e72d15228c5a1 83cb71f9405bf0f0666e72d15228c5a1"
                 },
                 "settings": {
                     "notify_post_liked_label": "e13f191994a5ee5f9ea30fecf1a43527 e13f191994a5ee5f9ea30fecf1a43527"
+                },
+                "user": {
+                    "likes_link": "7ade821202848c895cacbca61b658827 7ade821202848c895cacbca61b658827"
                 }
             }
         }
