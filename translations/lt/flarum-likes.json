@@ -5,8 +5,8 @@
                 "like_posts_label": "Patinka įrašai"
             },
             "settings": {
-                "like_own_posts_help": "",
-                "like_own_posts_label": ""
+                "like_own_posts_help": "Kai ši funkcija įjungta ir gavę leidimą, vartotojai gali „pamėgti“ savo įrašus forume. Kad vartotojai negalėtų pamėgti savo įrašų, išjunkite šį nustatymą.",
+                "like_own_posts_label": "Vartotojams gali patikti jų pačių įrašai"
             }
         },
         "forum": {
@@ -17,20 +17,20 @@
             "post": {
                 "like_link": "Patinka",
                 "liked_by_self_text": "{users} mėgsta šį pranešimą.",
-                "liked_by_text": "{users} mėgstą šį pranešimą.|{users} mėgstą šį pranešimą.",
+                "liked_by_text": "{skaičius, daugiskaita, vienam {{users} tai patinka} kitam {{users} tai patinka}}.",
                 "others_link": "=> core.ref.some_others",
                 "unlike_link": "Nebemėgti",
                 "you_text": "=> core.ref.you"
             },
             "post_likes": {
                 "title": "Nariai kuriems patinka šis pranešimas",
-                "load_more_button": ""
+                "load_more_button": "=> core.ref.load_more"
             },
             "settings": {
                 "notify_post_liked_label": "Kažkam patinka mano pranešimas"
             },
             "user": {
-                "likes_link": ""
+                "likes_link": "Patinka"
             }
         }
     }
