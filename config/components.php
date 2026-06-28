@@ -795,7 +795,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/Yippy/flarum-tag-with-themes/v2.0.3/locale/en.yml',
 	],
 	'zephyrisle-registration-code' => [
-		'tag' => 'https://raw.githubusercontent.com/Zephyr-Isle/flarum-registration-code/v2.1.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/Zephyr-Isle/flarum-registration-code/2.1.1/locale/en.yml',
 		'__builtInLanguages' => [
 			'zh_Hans',
 		],
