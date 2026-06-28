@@ -4,11 +4,11 @@
             "nav_title": "Dépendances",
             "list": {
                 "submit_button": "Envoyer la dépendance",
-                "filter_by_tag": "",
-                "all_tags": "",
+                "filter_by_tag": "Filtrer par catégorie",
+                "all_tags": "Toutes les catégories",
                 "empty_text": "Aucune dépendance n'a été trouvée.",
                 "my_favorites_button": "Mes favoris",
-                "search_placeholder": ""
+                "search_placeholder": "Rechercher des produits"
             },
             "item": {
                 "pending_approval": "En attente d'approbation",
@@ -17,36 +17,36 @@
                 "delete_confirmation_text": "Êtes-vous sûr de vouloir supprimer cette dépendance ? Cette action ne peut être annulée.",
                 "favorite_button_label": "Ajouter aux favoris",
                 "unfavorite_button_label": "Supprimer des favoris",
-                "approve_button": "",
-                "unapprove_button": ""
+                "approve_button": "Approuver",
+                "unapprove_button": "Désapprouver"
             },
             "modal": {
                 "submit_title": "Envoyer une nouvelle dépendance",
-                "edit_title": "",
+                "edit_title": "Modifier la dépendance - {title}",
                 "title_label": "Titre",
                 "title_placeholder": "p.ex. Awesome Library",
                 "link_label": "Lien",
                 "description_label": "Description",
                 "description_placeholder": "Un bref résumé de ce que fait cette dépendance.",
-                "tags_label": "",
-                "tags_help": "",
+                "tags_label": "Catégories",
+                "tags_help": "Sélectionnez au moins une catégorie pertinente.",
                 "submit_button": "Envoyer",
-                "save_changes_button": "",
-                "no_tags_available": ""
+                "save_changes_button": "Enregistrer les modifications",
+                "no_tags_available": "Aucune catégorie n'est disponible."
             }
         },
         "admin": {
             "nav": {
                 "title": "Collecteur de dépendances",
-                "description": ""
+                "description": "Gérer les dépendances soumises et les catégories."
             },
             "page": {
                 "pending_items_title": "Dépendances en attente de révision",
                 "no_pending_items": "Il n'y a pas aucune dépendance en attente de révision.",
                 "approved_items_title": "Dépendances approuvées",
                 "no_approved_items": "Il n'y a pas encore de dépendances approuvées.",
-                "manage_tags_title": "",
-                "no_plugin_tags": ""
+                "manage_tags_title": "Paramètres de catégorie",
+                "no_plugin_tags": "Aucune catégorie n'a encore été créée."
             },
             "table": {
                 "title": "Titre",
@@ -54,8 +54,8 @@
                 "submitted_at": "Envoyé à",
                 "approved_by": "Approuvé par",
                 "approved_at": "Approuvé à",
-                "tags": "",
-                "tag_name": "",
+                "tags": "Catégories",
+                "tag_name": "Nom de la catégorie",
                 "tag_slug": "Identifiant texte unique",
                 "tag_color_icon": "Couleur et icône",
                 "tag_item_count": "Objets",
@@ -64,7 +64,7 @@
                 "tag_icon": "Icône"
             },
             "actions": {
-                "create_tag": "",
+                "create_tag": "Créer une catégorie",
                 "approve": "Approuver",
                 "reject": "Rejeter"
             },
@@ -72,42 +72,42 @@
                 "approve": "Approuver la dépendance",
                 "reject": "Rejeter la dépendance",
                 "delete": "Supprimer la dépendance",
-                "delete_tag": ""
+                "delete_tag": "Supprimer la catégorie « {name} » ? Cela la supprimera de toutes les dépendances associées."
             },
             "modal": {
-                "edit_tag_title": "",
-                "create_tag_title": "",
+                "edit_tag_title": "Modifier la catégorie - {name}",
+                "create_tag_title": "Créer une nouvelle catégorie",
                 "tag_name_label": "Nom",
                 "tag_slug_label": "Identifiant texte unique",
                 "tag_description_label": "Description (facultatif)",
                 "tag_color_label": "Couleur (p. ex.",
                 "tag_icon_label": "Icône (p. ex. fas fa-code)",
                 "tag_icon_help": "Trouvez des icônes sur <a>Font Awesome</a>.",
-                "save_button": "",
+                "save_button": "Enregistrer",
                 "icon_options": {
-                    "code": "",
-                    "cube": "",
-                    "layer_group": "",
-                    "puzzle_piece": "",
-                    "toolbox": "",
-                    "palette": "",
-                    "database": "",
-                    "cloud": "",
-                    "mobile": "",
-                    "shield": "",
-                    "link": "",
-                    "star": "",
-                    "bolt": "",
-                    "rocket": "",
-                    "book": "",
-                    "tags": "",
-                    "current": ""
+                    "code": "Code",
+                    "cube": "Paquet",
+                    "layer_group": "Couches",
+                    "puzzle_piece": "Plugin",
+                    "toolbox": "Outils",
+                    "palette": "Conception",
+                    "database": "Base de données",
+                    "cloud": "Cloud",
+                    "mobile": "Mobile",
+                    "shield": "Sécurité",
+                    "link": "Lien",
+                    "star": "Mis en avant",
+                    "bolt": "Performance",
+                    "rocket": "Lancement",
+                    "book": "Documents",
+                    "tags": "Catégorie",
+                    "current": "Icône actuelle : {icon}"
                 }
             },
             "permissions": {
                 "submit_label": "Envoyer les dépendances",
                 "moderate_label": "Modérer les dépendances (approuver, rejeter, modifier, supprimer)",
-                "manage_tags_label": "",
+                "manage_tags_label": "Gérer les catégories",
                 "delete_label": "Supprimer les dépendances",
                 "favorite_items_label": "Ajouter aux favoris les dépendances"
             }
