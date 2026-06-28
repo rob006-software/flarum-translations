@@ -2,66 +2,66 @@
     "fof-masquerade": {
         "forum": {
             "alerts": {
-                "profile-completion-required": "",
-                "profile-completed": ""
+                "profile-completion-required": "กรุณากรอกข้อมูลโปรไฟล์ที่จำเป็นด้านล่างให้ครบถ้วน\n",
+                "profile-completed": "โปรไฟล์สมบูรณ์แล้ว! <a>กลับไปยังหน้าหลัก</a>"
             },
             "buttons": {
-                "view-profile": "",
-                "edit-profile": "",
-                "save-profile": ""
+                "view-profile": "ดูโปรไฟล์",
+                "edit-profile": "แก้ไขโปรไฟล์",
+                "save-profile": "บันทึก"
             },
             "fields": {
                 "select": {
-                    "none-optional": "",
-                    "none-required": ""
+                    "none-optional": "ไม่ได้เลือก (ไม่บังคับ)",
+                    "none-required": "กรุณาเลือกตัวเลือก (จำเป็น)"
                 },
                 "boolean": {
-                    "yes": "",
-                    "no": ""
+                    "yes": "ใช่",
+                    "no": "ไม่"
                 }
             }
         },
         "admin": {
-            "general-options": "",
+            "general-options": "ตัวเลือกทั่วไป",
             "buttons": {
-                "add-field": "",
-                "edit-field": "",
-                "delete-field": ""
+                "add-field": "สร้างฟิลด์",
+                "edit-field": "บันทึกการเปลี่ยนแปลง",
+                "delete-field": "ลบฟิลด์"
             },
             "permissions": {
-                "edit-others-profile": "",
-                "have-profile": "",
-                "view-profile": ""
+                "edit-others-profile": "แก้ไขโปรไฟล์ของผู้ใช้อื่น",
+                "have-profile": "มีโปรไฟล์ Masquerade",
+                "view-profile": "ดูโปรไฟล์ Masquerade"
             },
             "fields": {
-                "title": "",
-                "add": "",
-                "edit": "",
-                "delete-confirmation": "",
-                "name": "",
-                "name-help": "",
-                "description": "",
-                "description-help": "",
-                "required": "",
-                "on_bio": "",
-                "type": "",
-                "validation": "",
-                "validation-help": "",
-                "prefix": "",
-                "prefix-help": "",
-                "icon": "",
-                "icon-help": "",
-                "force-user-to-completion": "",
-                "options": "",
-                "option-new": "",
-                "option-comma-warning": ""
+                "title": "ฟิลด์",
+                "add": "เพิ่มฟิลด์ {field}",
+                "edit": "แก้ไขฟิลด์ {field}",
+                "delete-confirmation": "คุณแน่ใจหรือไม่ว่าต้องการลบฟิลด์ {field}? การดำเนินการนี้ไม่สามารถยกเลิกได้",
+                "name": "ชื่อฟิลด์",
+                "name-help": "ป้ายชื่อฟิลด์ที่แสดงต่อสาธารณะ (ไม่สามารถแปลได้)\n",
+                "description": "คำอธิบายฟิลด์",
+                "description-help": "คำอธิบายเสริมสำหรับชี้แจงการใช้งานหรือความจำเป็นของฟิลด์นี้\n",
+                "required": "ทำเครื่องหมายว่าจำเป็นต้องกรอก",
+                "on_bio": "แสดงคำตอบของฟิลด์นี้ในประวัติผู้ใช้",
+                "type": "ประเภท",
+                "validation": "การตรวจสอบ",
+                "validation-help": "ดู <a>กฎการตรวจสอบ Laravel</a> ที่รองรับ เช่น: \"string|min:5\" หรือ \"url\"\n",
+                "prefix": "คำนำหน้าฟิลด์",
+                "prefix-help": "แสดงคำนำหน้าของคุณก่อนค่าที่ผู้ใช้กรอกสำหรับฟิลด์นี้\n",
+                "icon": "ไอคอน",
+                "icon-help": "แสดงไอคอนก่อนค่าที่ผู้ใช้กรอก สำหรับรายการไอคอนที่ใช้ได้ ดูที่ <a>เว็บไซต์ FontAwesome</a> ใช้ชื่อไอคอนพร้อมคำนำหน้า \"fa-\" เช่น \"fas fa-info\"\n",
+                "force-user-to-completion": "บังคับให้ผู้ใช้กรอกโปรไฟล์ให้ครบ",
+                "options": "ตัวเลือก",
+                "option-new": "ตัวเลือกใหม่",
+                "option-comma-warning": "ป้ายชื่อของตัวเลือกไม่สามารถมีเครื่องหมายคอมมา (\",\") ได้"
             },
             "types": {
-                "advanced": "",
-                "boolean": "",
-                "email": "",
-                "select": "",
-                "url": ""
+                "advanced": "ขั้นสูง",
+                "boolean": "กล่องกาเครื่องหมาย",
+                "email": "Email",
+                "select": "รายการแบบเลื่อนลง",
+                "url": "URL"
             }
         }
     },
@@ -69,9 +69,9 @@
         "lib": {
             "data": {
                 "masqueradeanswers": {
-                    "export_description": "",
-                    "delete_description": "",
-                    "anonymize_description": ""
+                    "export_description": "ส่งออกคำตอบฟิลด์โปรไฟล์ของผู้ใช้",
+                    "delete_description": "ลบคำตอบฟิลด์โปรไฟล์ทั้งหมดออกจากบัญชีผู้ใช้",
+                    "anonymize_description": "=> flarum-gdpr.lib.data.masqueradeanswers.delete_description"
                 }
             }
         }
@@ -80,10 +80,10 @@
         "lib": {
             "browser": {
                 "masquerade": {
-                    "field_created": "",
-                    "field_updated": "",
-                    "field_deleted": "",
-                    "profile_updated": ""
+                    "field_created": "สร้างฟิลด์โปรไฟล์",
+                    "field_updated": "อัปเดตฟิลด์โปรไฟล์",
+                    "field_deleted": "ลบฟิลด์โปรไฟล์",
+                    "profile_updated": "อัปเดตฟิลด์โปรไฟล์ของ {username}"
                 }
             }
         }

@@ -2,7 +2,7 @@
     "flarum-sticky": {
         "admin": {
             "permissions": {
-                "sticky_discussions_label": "ตรึงการสนทนา"
+                "sticky_discussions_label": "ปักหมุดโพสต์"
             }
         },
         "forum": {
@@ -11,15 +11,15 @@
             },
             "discussion_controls": {
                 "sticky_button": "=> flarum-sticky.ref.sticky",
-                "unsticky_button": "เลิกตรึง"
+                "unsticky_button": "เลิกปักหมุด"
             },
             "post_stream": {
-                "discussion_stickied_text": "{username} ได้ตรึงการสนทนานี้",
-                "discussion_unstickied_text": "{username} เลิกตรึงการสนทนานี้"
+                "discussion_stickied_text": "{username} ปักหมุดโพสต์นี้ {time}",
+                "discussion_unstickied_text": "{username} เลิกปักหมุดโพสต์นี้ {time}"
             }
         },
         "ref": {
-            "sticky": "ตรึง"
+            "sticky": "ปักหมุด"
         }
     }
 }

@@ -2,19 +2,19 @@
     "blessing-oauth-client": {
         "admin": {
             "popup": {
-                "title": "",
+                "title": "เข้าสู่ระบบด้วย Blessing Skin",
                 "field": {
-                    "base-url": "",
-                    "app-id": "",
-                    "app-secret": "",
-                    "button-title": "",
-                    "button-title-placeholder": "",
-                    "button-icon": ""
+                    "base-url": "URL หลักของ Blessing Skin",
+                    "app-id": "OAuth client ID",
+                    "app-secret": "OAuth client secret",
+                    "button-title": "ป้ายกำกับปุ่มเข้าสู่ระบบ",
+                    "button-title-placeholder": "=> blessing-oauth-client.api.default-login-button-title",
+                    "button-icon": "ไอคอนปุ่มเข้าสู่ระบบ"
                 }
             }
         },
         "api": {
-            "default-login-button-title": ""
+            "default-login-button-title": "เข้าสู่ระบบด้วย Blessing Skin"
         }
     }
 }

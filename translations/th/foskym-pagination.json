@@ -3,29 +3,29 @@
         "admin": {
             "settings": {
                 "pagination": {
-                    "canUserPref": "",
-                    "paginationOnLoading": "",
-                    "paginationOnLoading-Help": "",
-                    "paginationPosition": "",
-                    "perPage": "",
-                    "perLoadMore": "",
-                    "perIndexInit": "",
+                    "canUserPref": "อนุญาตให้ผู้ใช้ตั้งโหมดการโหลดของ DiscussionList",
+                    "paginationOnLoading": "เปิดใช้โหมด Pagination",
+                    "paginationOnLoading-Help": "โหมด Pagination จะใช้กับทั้งหน้าหลักและหน้าส่วนตัวของผู้ใช้",
+                    "paginationPosition": "เลือกตำแหน่งของ navigation bar สำหรับ pagination",
+                    "perPage": "โหมด Pagination: จำนวนโพสต์ต่อหน้าของ DiscussionList (1-50)",
+                    "perLoadMore": "โหมด LoadMore: จำนวนโพสต์ต่อการ LoadMore แต่ละครั้ง (1-50)",
+                    "perIndexInit": "โหมด LoadMore: จำนวนโพสต์ในหน้าแรก (1-50)",
                     "position": {
-                        "above": "",
-                        "under": "",
-                        "both": ""
+                        "above": "ด้านบน",
+                        "under": "ด้านล่าง",
+                        "both": "ทั้งสองด้าน"
                     },
-                    "cacheDiscussions": "",
-                    "cacheDiscussions-Help": ""
+                    "cacheDiscussions": "Cache DiscussionList เพื่อลดภาระ server",
+                    "cacheDiscussions-Help": "ใช้ได้เฉพาะโหมด Pagination เท่านั้น ไม่กระทบโหมด LoadMore แนะนำให้ใช้ร่วมกับ plugin แจ้งเตือนแบบ real-time"
                 }
             }
         },
         "forum": {
             "user": {
                 "settings": {
-                    "head": "",
-                    "userCustom": "",
-                    "userPaginationOnLoading": ""
+                    "head": "DiscussionList - โหมดการโหลด",
+                    "userCustom": "เปิดการปรับแต่งส่วนตัว (เมื่อปิด จะโหลดตามโหมดที่ forum กำหนด)",
+                    "userPaginationOnLoading": "เปิดใช้โหมด Pagination"
                 }
             }
         }

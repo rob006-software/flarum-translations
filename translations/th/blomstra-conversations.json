@@ -2,16 +2,16 @@
     "blomstra-conversations": {
         "admin": {
             "permissions": {
-                "view-conversation-source": "",
-                "view-raw-source": ""
+                "view-conversation-source": "ดูซอร์สของโพสต์",
+                "view-raw-source": "ดู HTML ต้นฉบับหรือซอร์ส HTML ของโพสต์ที่รับเข้ามา"
             }
         },
         "forum": {
             "post": {
-                "source-raw-heading": "",
+                "source-raw-heading": "ดู HTML",
                 "controls": {
-                    "view": "",
-                    "view-code": ""
+                    "view": "ดูเวอร์ชัน HTML",
+                    "view-code": "ตรวจสอบซอร์ส HTML"
                 }
             }
         }

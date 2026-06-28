@@ -2,104 +2,104 @@
     "askvortsov-pwa": {
         "admin": {
             "nav": {
-                "pwa_button": "",
-                "pwa_text": ""
+                "pwa_button": "Progressive Web App",
+                "pwa_text": "ตั้งค่า Flarum ให้ทำงานเป็น Progressive Web App ที่ติดตั้งได้บนอุปกรณ์มือถือ"
             },
             "pwa": {
                 "about": {
-                    "description_label": "",
-                    "description_text": "",
-                    "long_name_label": "",
-                    "long_name_text": "",
-                    "heading": "",
-                    "short_name_label": "",
-                    "short_name_text": ""
+                    "description_label": "คำอธิบาย",
+                    "description_text": "คุณสามารถตั้งค่าคำอธิบายได้ที่หน้า 'พื้นฐาน' ใน admin dashboard",
+                    "long_name_label": "ชื่อเต็ม",
+                    "long_name_text": "ชื่อเว็บแอปพลิเคชันที่แสดงให้ผู้ใช้เห็น",
+                    "heading": "เกี่ยวกับ",
+                    "short_name_label": "ชื่อสั้น",
+                    "short_name_text": "ชื่อแอปพลิเคชันที่แสดงเมื่อพื้นที่ไม่พอสำหรับชื่อเต็ม"
                 },
                 "colors": {
-                    "heading": "",
-                    "background_color_label": "",
-                    "background_color_text": "",
-                    "theme_color_label": "",
-                    "theme_color_text": ""
+                    "heading": "สี",
+                    "background_color_label": "สีพื้นหลัง",
+                    "background_color_text": "ใช้เป็นสีพื้นหลังชั่วคราวบน splash screen ขณะโหลด PWA ไม่ได้ใช้เมื่อแอปโหลดเสร็จแล้ว",
+                    "theme_color_label": "สี theme",
+                    "theme_color_text": "สีนี้บางครั้งถูกใช้โดยอุปกรณ์เมื่อแสดงแอปของคุณ เช่น ใน task switcher ของ Android"
                 },
                 "maintenance": {
-                    "heading": "",
-                    "debug_label": "",
-                    "debug_text": "",
-                    "reset_vapid_text": "",
-                    "reset_vapid_confirm": "",
-                    "reset_vapid_success": ""
+                    "heading": "การบำรุงรักษา",
+                    "debug_label": "โหมด Debug?",
+                    "debug_text": "จะบันทึกข้อมูลการแจ้งเตือนไว้ใน `storage/logs` ควรปิดใช้งานเพื่อป้องกัน log เต็ม",
+                    "reset_vapid_text": "จะสร้าง VAPID keys ใหม่ และลบ subscription ที่ใช้ VAPID keys ปัจจุบันทั้งหมด",
+                    "reset_vapid_confirm": "การรีเซ็ต VAPID keys จะลบ subscription ทั้งหมดที่ใช้ keys เดิม ผู้ใช้จะไม่ได้รับการแจ้งเตือนจนกว่าจะเข้าเยี่ยมชมเว็บไซต์ครั้งถัดไป ควรทำเฉพาะเมื่อตั้งค่า push notification ครั้งแรก หรือเมื่อ push notification ไม่ทำงานเลยและมีคำเตือนเรื่อง VAPID keys หายไป",
+                    "reset_vapid_success": "รีเซ็ต VAPID keys สำเร็จ มี {count} subscription ที่ถูกรีเซ็ต โหลดหน้าใหม่เพื่อดูรายงานการตรวจสอบสถานะที่อัปเดต"
                 },
                 "firebase_config": {
-                    "heading": "",
-                    "help_text": "",
-                    "see_documentation_here": "",
-                    "upload_successful": "",
-                    "upload_file": ""
+                    "heading": "Firebase",
+                    "help_text": "หากต้องการรองรับ push notification เมื่อเผยแพร่แอปใน Apple App Store คุณต้องใช้ Firebase โปรดสร้าง Firebase Service Config และอัปโหลดที่นี่",
+                    "see_documentation_here": "ดูเอกสารประกอบที่นี่",
+                    "upload_successful": "อัปโหลด Firebase config เรียบร้อยแล้ว",
+                    "upload_file": "อัปโหลดไฟล์"
                 },
                 "other": {
-                    "heading": "",
-                    "force_portrait_text": "",
-                    "push_notif_preference_default_to_email_label": "",
-                    "push_notif_preference_default_to_email_text": "",
-                    "user_max_subscriptions_label": "",
-                    "user_max_subscriptions_text": "",
-                    "window_controls_overlay_label": "",
-                    "window_controls_overlay_text": ""
+                    "heading": "อื่นๆ",
+                    "force_portrait_text": "บังคับการแสดงผลแนวตั้ง?",
+                    "push_notif_preference_default_to_email_label": "ค่าเริ่มต้น Push Notification ตามอีเมล?",
+                    "push_notif_preference_default_to_email_text": "หากเปิดใช้ ผู้ใช้จะเปิด push notification โดยค่าเริ่มต้นสำหรับประเภทที่เปิด email notification ไว้ หากปิด push notification จะปิดโดยค่าเริ่มต้น",
+                    "user_max_subscriptions_label": "จำนวน Push Subscription สูงสุดต่อผู้ใช้",
+                    "user_max_subscriptions_text": "ผู้ใช้แต่ละคนสามารถมี push subscription ได้กี่รายการในคราวเดียว? แต่ละ subscription จะทำให้เกิด API call เมื่อผู้ใช้ได้รับ push notification โดยทั่วไปแต่ละ subscription สอดคล้องกับเบราว์เซอร์ที่ผู้ใช้เคยใช้",
+                    "window_controls_overlay_label": "เปิดใช้งาน Window Controls Overlay?",
+                    "window_controls_overlay_text": "หากเปิดใช้ ผู้ใช้จะได้รับประสบการณ์ที่ดูเหมือนแอปพลิเคชันจริงมากขึ้นโดยซ่อน titlebar ของเบราว์เซอร์ Window Controls Overlay ขึ้นอยู่กับการตั้งค่าของผู้ใช้และความเข้ากันได้ของเบราว์เซอร์ คุณต้องปรับแต่ง titlebar ด้วย CSS/JS หลังจากเปิดใช้ หรือ controls อาจทับส่วนบนของฟอรัมและหน้าต่างลากได้ยาก\n\nดูเพิ่มเติม: <compatibilitylink>ความเข้ากันได้ของ Window Controls Overlay</compatibilitylink> & <learnlink>เกี่ยวกับ Window Controls Overlay ใน Microsoft Learn</learnlink>\n"
                 },
-                "heading": "",
-                "text": "",
-                "status_check_heading": "",
-                "logo_heading": "",
-                "logo_text": "",
-                "logo_size_text": "",
-                "submit_button": "",
-                "refreshed_message": ""
+                "heading": "การตั้งค่า Progressive Web App",
+                "text": "ตั้งค่าเว็บไซต์ Flarum ให้ทำงานเป็น progressive web app! โปรดทราบว่าการตั้งค่านี้ไม่ได้นำเว็บไซต์ของคุณเข้า app store โดยอัตโนมัติ แต่หมายความว่าผู้ใช้จะมีตัวเลือก 'เพิ่มไปยังหน้าหลัก' สำหรับเว็บไซต์ของคุณ เราให้การตรวจสอบสถานะบางส่วน อย่างไรก็ตามวิธีที่ดีที่สุดในการทดสอบคือลองติดตั้งดู (ค้นหาวิธีการบน Google) นอกจากนี้โปรดทราบว่า popup 'ติดตั้ง PWA' ถูกควบคุมโดยเบราว์เซอร์ นักพัฒนา/ผู้ดูแล/โปรแกรมไม่สามารถเปิดขึ้นมาเองได้",
+                "status_check_heading": "ตรวจสอบสถานะ",
+                "logo_heading": "โลโก้และไอคอน",
+                "logo_text": "คุณต้องอัปโหลดโลโก้อย่างน้อยหนึ่งรายการเพื่อให้ progressive web app สามารถติดตั้งได้ โลโก้ทั้งหมดต้องเป็นรูปสี่เหลี่ยมจัตุรัส หากไม่ใช่จะถูกปรับขนาดและอาจถูกยืด\n\nมีตัวเลือกขนาดหลายแบบด้านล่าง แนะนำให้อัปโหลดโลโก้ให้มากที่สุดเพื่อรองรับอุปกรณ์หลายประเภท\n\nคุณสามารถอัปโหลดโลโก้ขนาดใหญ่ไปยัง input ของขนาดเล็กได้ เช่น อัปโหลดโลโก้ขนาด 1000x1000px ไปยัง input ทั้งหมด แต่ไม่ควรอัปโหลดโลโก้ขนาด 50x50px ไปยัง input ขนาด 512x512 เพราะจะถูกยืดมาก\n",
+                "logo_size_text": "อัปโหลดโลโก้ที่จะถูกปรับขนาดเป็น {size}x{size} pixels",
+                "submit_button": "บันทึกการตั้งค่า",
+                "refreshed_message": "รีเฟรช PWA config สำเร็จ"
             },
             "status": {
-                "config_no_https": "",
-                "possible_https_disabled": "",
-                "no_logo": "",
-                "no_name": "",
-                "no_vapid_keys": "",
-                "key_gen_failed": "",
-                "suggest_gmp": "",
-                "success": ""
+                "config_no_https": "URL ในไฟล์ config.php ของคุณไม่ได้ใช้ HTTPS ซึ่ง HTTPS จำเป็นสำหรับ Progressive Web App",
+                "possible_https_disabled": "เว็บไซต์ของคุณอาจไม่ได้ใช้ HTTPS การล้าง cache (หน้า admin dashboard => ปุ่ม tools) อาจช่วยได้ หากใช้ HTTPS แล้วให้ข้ามข้อนี้ไป",
+                "no_logo": "คุณต้องอัปโหลดโลโก้อย่างน้อยหนึ่งรายการที่มีขนาดอย่างน้อย 144x144px เพื่อให้ PWA ติดตั้งได้",
+                "no_name": "คุณต้องระบุชื่อเต็มเพื่อให้แอปทำงานได้",
+                "no_vapid_keys": "ไม่พบ VAPID keys ซึ่งจำเป็นสำหรับการส่ง push notification คุณสามารถรีเซ็ต VAPID keys ได้ด้านล่าง",
+                "key_gen_failed": "การสร้าง keys สำหรับ push notification ล้มเหลว ข้อความแสดงข้อผิดพลาดเต็ม: {error}",
+                "suggest_gmp": "ดูเหมือนว่า PHP extension gmp ยังไม่ได้เปิดใช้งานบนเซิร์ฟเวอร์ของคุณ ไม่บังคับ แต่ช่วยเพิ่มประสิทธิภาพและแนะนำให้ใช้ บาง shared host อาจไม่รองรับ",
+                "success": "ไม่พบปัญหาที่อาจเกิดขึ้น!"
             }
         },
         "forum": {
             "alerts": {
-                "optin": "",
-                "optin_button": ""
+                "optin": "คุณเปิดใช้งาน push notification แล้ว แต่ยังไม่ได้ตั้งค่าอุปกรณ์นี้",
+                "optin_button": "ตั้งค่า"
             },
             "discussion_controls": {
-                "share_button": ""
+                "share_button": "แชร์"
             },
             "post_controls": {
-                "share_button": "",
+                "share_button": "แชร์",
                 "share_api": {
-                    "title": ""
+                    "title": "การตอบกลับของ {username} ใน {title}"
                 }
             },
             "user_controls": {
-                "share_button": ""
+                "share_button": "แชร์"
             },
             "settings": {
-                "push_header": "",
+                "push_header": "Push",
                 "pwa_notifications": {
-                    "access_default": "",
-                    "access_default_button": "",
-                    "access_denied": "",
-                    "access_denied_button": "",
-                    "no_browser_support": "",
-                    "no_browser_support_button": ""
+                    "access_default": "เนื่องจากข้อจำกัดของเบราว์เซอร์ คุณต้องยืนยันการรับ push notification บนอุปกรณ์นี้",
+                    "access_default_button": "ยืนยัน",
+                    "access_denied": "คุณต้องปรับการตั้งค่าเบราว์เซอร์เพื่อรับ push notification บนอุปกรณ์นี้",
+                    "access_denied_button": "ดูวิธีการ",
+                    "no_browser_support": "เบราว์เซอร์นี้ไม่รองรับ push notification สำหรับ progressive web app",
+                    "no_browser_support_button": "ดูข้อมูลเพิ่มเติม"
                 }
             }
         },
         "views": {
             "offline": {
-                "header": "",
-                "text": ""
+                "header": "ข้อผิดพลาดการเชื่อมต่อเครือข่าย",
+                "text": "แอปนี้ต้องการการเชื่อมต่ออินเทอร์เน็ต ไม่สามารถใช้งานแบบออฟไลน์ได้ กรุณาตรวจสอบการเชื่อมต่อของคุณ"
             }
         }
     }

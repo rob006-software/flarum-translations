@@ -2,13 +2,13 @@
     "flamarkt-matomo": {
         "admin": {
             "settings": {
-                "url": "",
-                "siteId": "",
-                "trackAccounts": "",
+                "url": "โดเมนหรือ URL ของ Matomo server",
+                "siteId": "Site ID",
+                "trackAccounts": "ติดตามบัญชีผู้ใช้รายบุคคล",
                 "trackAccountsOptions": {
-                    "none": "",
-                    "username": "",
-                    "email": ""
+                    "none": "ไม่ติดตาม",
+                    "username": "ติดตามตามชื่อผู้ใช้",
+                    "email": "ติดตามตาม Email"
                 }
             }
         }

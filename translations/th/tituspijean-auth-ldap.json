@@ -1,28 +1,28 @@
 {
     "tituspijean-auth-ldap": {
         "forum": {
-            "log_in_with": "",
-            "log_out": ""
+            "log_in_with": "เข้าสู่ระบบด้วย {server}",
+            "log_out": "=> core.ref.log_out"
         },
         "admin": {
             "settings": {
-                "title": "",
-                "method_name": "",
-                "hosts": "",
-                "base_dn": "",
-                "filter": "",
-                "port": "",
-                "account_prefix": "",
-                "account_suffix": "",
-                "admin_dn": "",
-                "admin_password": "",
-                "search_user_fields": "",
-                "user_mail": "",
-                "user_username": "",
-                "follow_referrals": "",
-                "use_ssl": "",
-                "use_tls": "",
-                "onlyUse": ""
+                "title": "การตั้งค่า LDAP",
+                "method_name": "ชื่อ LDAP server (จะแสดงหลัง \"เข้าสู่ระบบด้วย\")",
+                "hosts": "โดเมน LDAP หรือ IP ของ server (คั่นด้วยเครื่องหมายจุลภาค)",
+                "base_dn": "Base DN (คั่นด้วยเครื่องหมายอัฒภาค)",
+                "filter": "Filter ที่ใช้ (ไม่บังคับ)",
+                "port": "port",
+                "account_prefix": "Account prefix",
+                "account_suffix": "Account suffix",
+                "admin_dn": "Distinguished name ของ LDAP admin (เว้นว่างเพื่อ anonymous binding)",
+                "admin_password": "รหัสผ่าน LDAP admin (เว้นว่างเพื่อ anonymous binding)",
+                "search_user_fields": "ฟิลด์ค้นหาผู้ใช้ LDAP (คั่นด้วยเครื่องหมายจุลภาค)",
+                "user_mail": "ฟิลด์อีเมลผู้ใช้ LDAP",
+                "user_username": "ฟิลด์ชื่อผู้ใช้ LDAP",
+                "follow_referrals": "ติดตาม referral เพื่อ bind กับ LDAP server",
+                "use_ssl": "ใช้ SSL",
+                "use_tls": "ใช้ TLS",
+                "onlyUse": "ซ่อนวิธี login มาตรฐานของ Flarum"
             }
         }
     }

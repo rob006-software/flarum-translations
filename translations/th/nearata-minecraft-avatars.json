@@ -2,19 +2,19 @@
     "nearata-minecraft-avatars": {
         "admin": {
             "retrieve_avatar_on_register": {
-                "label": "",
-                "help": ""
+                "label": "ดึง Avatar เมื่อสมัครสมาชิก",
+                "help": "หากไม่พบบัญชี Minecraft ที่มีชื่อผู้ใช้นั้น จะใช้ Steve หรือ Alex เป็น skin ค่าเริ่มต้น"
             }
         },
         "forum": {
-            "help_text": "",
-            "submit_button": "",
-            "username_uuid_not_valid": "",
-            "username_not_found": "",
-            "placeholder": "",
-            "userpage_nav_button": "",
-            "minotar_enabled": "",
-            "page_title": ""
+            "help_text": "Username จะถูกแปลงเป็น UUID",
+            "submit_button": "บันทึกการเปลี่ยนแปลง",
+            "username_uuid_not_valid": "Username หรือ UUID ไม่ถูกต้อง",
+            "username_not_found": "ไม่พบ Username",
+            "placeholder": "Username หรือ UUID",
+            "userpage_nav_button": "Minecraft Avatars",
+            "minotar_enabled": "เปิดใช้งาน",
+            "page_title": "Minecraft Avatars"
         }
     }
 }

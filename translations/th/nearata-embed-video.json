@@ -3,30 +3,30 @@
         "admin": {
             "settings": {
                 "options": {
-                    "airplay": "",
-                    "hotkey": "",
-                    "lang": "",
-                    "logo": "",
-                    "quality_switching": "",
-                    "theme": ""
+                    "airplay": "Airplay",
+                    "hotkey": "Hotkey",
+                    "lang": "ภาษาของ player",
+                    "logo": "Logo URL",
+                    "quality_switching": "Quality Switching",
+                    "theme": "สีของ theme"
                 },
                 "permissions": {
-                    "can_create_video_player": "",
-                    "can_view_video_player": ""
+                    "can_create_video_player": "สร้าง video player ได้",
+                    "can_view_video_player": "ดู video player ได้"
                 },
                 "video_types": {
-                    "dash": "",
-                    "flv": "",
-                    "hls": "",
-                    "shaka": "",
-                    "webtorrent": ""
+                    "dash": "Dash",
+                    "flv": "Flv",
+                    "hls": "Hls",
+                    "shaka": "Shaka",
+                    "webtorrent": "WebTorrent"
                 }
             }
         },
         "forum": {
-            "button_tooltip_title": "",
-            "cannot_view": "",
-            "cannot_create": ""
+            "button_tooltip_title": "Embed Video",
+            "cannot_view": "ข้อผิดพลาด: คุณไม่ได้รับอนุญาตให้ดูเนื้อหานี้",
+            "cannot_create": "คุณไม่ได้รับอนุญาตให้ embed video"
         }
     }
 }

@@ -2,24 +2,24 @@
     "quasimo-llms-txt": {
         "admin": {
             "settings": {
-                "urls_label": "",
-                "urls_help": "",
-                "open_label": "",
-                "enabled_label": "",
-                "enabled_help": "",
-                "full_enabled_label": "",
-                "full_enabled_help": "",
-                "sort_label": "",
-                "sort_latest": "",
-                "sort_top": "",
-                "sort_help": "",
-                "max_discussions_label": "",
-                "max_discussions_help": "",
-                "max_posts_label": "",
-                "max_posts_help": "",
-                "custom_intro_label": "",
-                "custom_intro_placeholder": "",
-                "custom_intro_help": ""
+                "urls_label": "URL ของ Endpoint",
+                "urls_help": "เมื่อเปิดใช้งาน URL ต่อไปนี้จะให้บริการเนื้อหาที่เหมาะสำหรับ LLM เกี่ยวกับ forum ของคุณ",
+                "open_label": "เปิดในแท็บใหม่",
+                "enabled_label": "เปิดใช้งาน llms.txt",
+                "enabled_help": "ให้บริการดัชนีย่อของ forum ที่ {url} — ลิงก์ไปยังหมวดหมู่และโพสต์ล่าสุด",
+                "full_enabled_label": "เปิดใช้งาน llms-full.txt",
+                "full_enabled_help": "ให้บริการข้อความเต็มของโพสต์ทั้งหมดที่ {url} — รวมเนื้อหาของทุก post",
+                "sort_label": "ลำดับการเรียงโพสต์",
+                "sort_latest": "กิจกรรมล่าสุด",
+                "sort_top": "ตอบมากที่สุด",
+                "sort_help": "วิธีเรียงโพสต์ในไฟล์ที่สร้างทั้งสองไฟล์",
+                "max_discussions_label": "จำนวนโพสต์สูงสุดที่จะรวม",
+                "max_discussions_help": "จำนวนโพสต์สูงสุดที่จะแสดง (1–1000) ค่าเริ่มต้น: 100",
+                "max_posts_label": "จำนวน post สูงสุดต่อโพสต์ (เฉพาะ llms-full.txt)",
+                "max_posts_help": "จำนวน post สูงสุดที่จะรวมต่อโพสต์ในไฟล์เต็ม (1–500) ค่าเริ่มต้น: 50",
+                "custom_intro_label": "ย่อหน้าแนะนำกำหนดเอง",
+                "custom_intro_placeholder": "ใส่คำแนะนำเพิ่มเติม (ไม่บังคับ) ที่จะแสดงใต้ชื่อ forum ในทั้งสองไฟล์",
+                "custom_intro_help": "เว้นว่างเพื่อไม่แสดง รองรับ plain text หรือ Markdown"
             }
         }
     }

@@ -2,43 +2,43 @@
     "justoverclock-auto-post-count-badge": {
         "admin": {
             "settings": {
-                "tier": "",
+                "tier": "Tier {tier} : จาก {from} ถึง {to} posts",
                 "icon-manager": {
-                    "title": "",
-                    "help_text": ""
+                    "title": "Icon Manager",
+                    "help_text": "=> core.ref.icon_text"
                 },
                 "label-manager": {
-                    "title": "",
-                    "help": ""
+                    "title": "Text Label Manager",
+                    "help": "ปรับแต่งชื่อ tier"
                 },
                 "color": {
-                    "bg1": "",
-                    "bg2": ""
+                    "bg1": "Background 1",
+                    "bg2": "Background 2"
                 }
             },
-            "levelOne": "",
-            "levelOne-help": "",
-            "levelTwo": "",
-            "levelTwo-help": "",
-            "levelThree": "",
-            "levelThree-help": "",
-            "levelFour": "",
-            "levelFour-help": "",
-            "levelFive": "",
-            "levelFive-help": "",
-            "levelSix": "",
-            "levelSix-help": ""
+            "levelOne": "เปลี่ยน icon สำหรับ tier 1 - \"The Baby\"",
+            "levelOne-help": "วาง fontawesome icon ที่คุณต้องการแสดงสำหรับ tier 1 ที่นี่ (เช่น \"fas fa-square\")",
+            "levelTwo": "เปลี่ยน icon สำหรับ tier 2 - \"The Newbie\"",
+            "levelTwo-help": "วาง fontawesome icon ที่คุณต้องการแสดงสำหรับ tier 2 ที่นี่ (เช่น \"fas fa-square\")",
+            "levelThree": "เปลี่ยน icon สำหรับ tier 3 - \"The Talker\"",
+            "levelThree-help": "วาง fontawesome icon ที่คุณต้องการแสดงสำหรับ tier 3 ที่นี่ (เช่น \"fas fa-square\")",
+            "levelFour": "เปลี่ยน icon สำหรับ tier 4 - \"The Teacher\"",
+            "levelFour-help": "วาง fontawesome icon ที่คุณต้องการแสดงสำหรับ tier 4 ที่นี่ (เช่น \"fas fa-square\")",
+            "levelFive": "เปลี่ยน icon สำหรับ tier 5 - \"The Monster!\"",
+            "levelFive-help": "วาง fontawesome icon ที่คุณต้องการแสดงสำหรับ tier 5 ที่นี่ (เช่น \"fas fa-square\")",
+            "levelSix": "เปลี่ยน icon สำหรับ tier 6 - \"The Guru!\"",
+            "levelSix-help": "วาง fontawesome icon ที่คุณต้องการแสดงสำหรับ tier 6 ที่นี่ (เช่น \"fas fa-square\")"
         },
         "forum": {
-            "less10post": "",
-            "less50post": "",
-            "less100post": "",
-            "less300post": "",
-            "less600post": "",
-            "less1000post": "",
-            "hasWritten": "",
-            "nextBadge": "",
-            "posts": ""
+            "less10post": "The Baby",
+            "less50post": "The Newbie",
+            "less100post": "The Talker",
+            "less300post": "The Teacher",
+            "less600post": "The Monster!",
+            "less1000post": "The Guru!",
+            "hasWritten": "มี: {count, plural, one {# post written} other {# posts written}}",
+            "nextBadge": "Badge ถัดไปใน",
+            "posts": "posts"
         }
     }
 }

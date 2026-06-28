@@ -2,27 +2,27 @@
     "nearata-related-discussions": {
         "admin": {
             "settings": {
-                "allow_guests": "",
-                "generator": "",
+                "allow_guests": "อนุญาตผู้เยี่ยมชม",
+                "generator": "Generator",
                 "generator_options": {
-                    "random": "",
-                    "title": ""
+                    "random": "สุ่ม",
+                    "title": "ตามชื่อเรื่อง"
                 },
-                "max_discussions": "",
-                "max_discussions_help": "",
-                "position": "",
+                "max_discussions": "จำนวน thread สูงสุด",
+                "max_discussions_help": "ค่าเริ่มต้นคือ <strong>5</strong>",
+                "position": "ตำแหน่ง",
                 "position_options": {
-                    "first_post": "",
-                    "last_post": "",
-                    "reply_block": ""
+                    "first_post": "หลัง post แรก",
+                    "last_post": "หลัง post สุดท้าย",
+                    "reply_block": "หลังส่วนตอบกลับ"
                 },
-                "cache": "",
-                "cache_help": ""
+                "cache": "Cache",
+                "cache_help": "รูปแบบต้องเป็น <strong>0-31d0-23h0-59m</strong>"
             }
         },
         "forum": {
-            "discussion_list_title": "",
-            "no_results": ""
+            "discussion_list_title": "โพสต์ที่เกี่ยวข้อง",
+            "no_results": "ไม่พบโพสต์ที่เกี่ยวข้อง"
         }
     }
 }

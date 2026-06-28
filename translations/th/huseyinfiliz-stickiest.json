@@ -2,49 +2,49 @@
     "huseyinfiliz-stickiest": {
         "admin": {
             "permissions": {
-                "super_sticky_discussions_label": "",
-                "tag_sticky_discussions_label": ""
+                "super_sticky_discussions_label": "Super sticky discussions",
+                "tag_sticky_discussions_label": "Tag sticky discussions"
             },
             "settings": {
-                "badge_icon_label": "",
-                "badge_icon_text": "",
-                "display_tag_sticky_label": "",
-                "display_tag_sticky_text": ""
+                "badge_icon_label": "Super sticky badge icon",
+                "badge_icon_text": "=> core.ref.icon_text",
+                "display_tag_sticky_label": "Show tag stickies in the \"All Discussions\" list",
+                "display_tag_sticky_text": "They will be treated as regular discussions and won't stick to the top."
             }
         },
         "forum": {
             "badge": {
-                "sticky_tooltip": "",
-                "super_sticky_tooltip": "",
-                "tag_sticky_tooltip": "",
-                "super_tag_sticky_tooltip": ""
+                "sticky_tooltip": "=> huseyinfiliz-stickiest.ref.sticky",
+                "super_sticky_tooltip": "=> huseyinfiliz-stickiest.ref.super_sticky",
+                "tag_sticky_tooltip": "=> huseyinfiliz-stickiest.ref.tag_sticky",
+                "super_tag_sticky_tooltip": "=> huseyinfiliz-stickiest.ref.super_tag_sticky"
             },
             "stickiest_modal": {
-                "title": "",
-                "sticky_label": "",
-                "sticky_text": "",
-                "super_sticky_label": "",
-                "super_sticky_text": "",
-                "tag_sticky_label": "",
-                "tag_sticky_text": "",
-                "tags_label": "",
-                "submit_button": ""
+                "title": "Sticky {title}",
+                "sticky_label": "=> flarum-sticky.ref.sticky",
+                "sticky_text": "Sticky discussions จะติดยึดไว้ที่ด้านบนใน \"All Discussions\" list หากอ่านไม่ครบ เมื่อดูหมวดหมู่เฉพาะซึ่งอยู่ใน discussion จะติดยึดไว้ที่ด้านบนทั้งเวลา",
+                "super_sticky_label": "=> huseyinfiliz-stickiest.ref.super_sticky",
+                "super_sticky_text": "Super sticky discussions จะติดยึดไว้ที่ตำแหน่งสูงสุดไม่ว่าจะเป็นอะไร",
+                "tag_sticky_label": "=> huseyinfiliz-stickiest.ref.tag_sticky",
+                "tag_sticky_text": "Tag stickies ซ่อนไว้ใน \"All Discussions\" list โดยค่าเริ่มต้น พวกมันจะแสดงและติดยึดไว้ที่ด้านบนเมื่อดูหมวดหมู่เฉพาะซึ่งเป็นหนึ่งใน tags ที่คุณจะเลือก ตัวเลือกนี้สามารถรวมกับ \"Super Sticky\"",
+                "tags_label": "=> flarum-tags.ref.tags",
+                "submit_button": "=> core.ref.save_changes"
             },
             "discussion_controls": {
-                "sticky_button": ""
+                "sticky_button": "=> flarum-sticky.forum.discussion_controls.sticky_button"
             },
             "post_stream": {
-                "discussion_stickied_text": "",
-                "discussion_unstickied_text": "",
-                "discussion_super_stickied_text": "",
-                "discussion_common_stickied_text": ""
+                "discussion_stickied_text": "=> flarum-sticky.forum.post_stream.discussion_stickied_text",
+                "discussion_unstickied_text": "=> flarum-sticky.forum.post_stream.discussion_unstickied_text",
+                "discussion_super_stickied_text": "{username} ทำเครื่องหมายให้ discussion เป็น super sticky",
+                "discussion_common_stickied_text": "{username} ยกเลิกการทำเครื่องหมายให้ discussion เป็น super sticky"
             }
         },
         "ref": {
-            "sticky": "",
-            "super_sticky": "",
-            "tag_sticky": "",
-            "super_tag_sticky": ""
+            "sticky": "=> flarum-sticky.ref.sticky",
+            "super_sticky": "Super Sticky",
+            "tag_sticky": "Tag Sticky",
+            "super_tag_sticky": "Super Tag Sticky"
         }
     }
 }

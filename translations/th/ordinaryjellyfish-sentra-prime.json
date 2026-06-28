@@ -2,43 +2,43 @@
     "ordinaryjellyfish-sentra": {
         "admin": {
             "permissions": {
-                "undo_post_score": ""
+                "undo_post_score": "=> ordinaryjellyfish-sentra.lib.undo_post_score"
             },
-            "service_account": "",
+            "service_account": "Service Account",
             "services": {
-                "language": "",
-                "language_help": ""
+                "language": "Azure AI Language",
+                "language_help": "Azure AI Language เป็นบริการที่ใช้ natural language processing เพื่อวิเคราะห์ข้อความ"
             },
             "modules": {
-                "identity_sentinel": "",
-                "identity_sentinel_help": "",
+                "identity_sentinel": "Identity Sentinel",
+                "identity_sentinel_help": "Identity Sentinel เป็น module สำหรับตรวจจับข้อมูลที่สามารถระบุตัวตนได้ใน post",
                 "identity_sentinel_settings": {
-                    "action": "",
-                    "action_help": "",
-                    "action_flag": "",
-                    "action_redact": "",
-                    "confidence": "",
-                    "confidence_help": "",
-                    "pii_threshold": "",
-                    "pii_threshold_help": ""
+                    "action": "การดำเนินการเมื่อตรวจพบ",
+                    "action_help": "การดำเนินการที่จะทำเมื่อตรงตามเกณฑ์ที่กำหนด",
+                    "action_flag": "Flag Post",
+                    "action_redact": "ลบข้อมูลออก",
+                    "confidence": "ค่า Confidence Threshold",
+                    "confidence_help": "ค่า confidence threshold ที่จะเรียกให้ดำเนินการ เป็นทศนิยมระหว่าง 0 ถึง 1",
+                    "pii_threshold": "Generic PII Threshold",
+                    "pii_threshold_help": "จำนวน entity ข้อมูลส่วนตัวทั่วไปที่ต้องตรวจพบก่อนดำเนินการ ข้อมูลส่วนตัวที่ละเอียดอ่อนจะเรียกให้ดำเนินการเสมอไม่ว่าจะตรวจพบกี่ครั้ง ตั้งเป็น 0 หากไม่ต้องการตรวจจับ generic PII"
                 }
             }
         },
         "forum": {
-            "undo_post_score": "",
-            "pii": ""
+            "undo_post_score": "=> ordinaryjellyfish-sentra.lib.undo_post_score",
+            "pii": "ข้อมูลที่สามารถระบุตัวตนได้"
         },
         "lib": {
-            "undo_post_score": ""
+            "undo_post_score": "ยกเลิกคะแนนพฤติกรรมของ post"
         },
         "email": {
-            "suspend_temporary_reason": "",
-            "suspend_permanent_reason": ""
+            "suspend_temporary_reason": "คุณถูกระงับการใช้งานโดยอัตโนมัติเนื่องจากพฤติกรรมเชิงลบอย่างต่อเนื่อง การระงับนี้มีระยะเวลา {duration, plural, one {1 วัน} plural {# วัน}} และจะถูกยกเลิกโดยอัตโนมัติ หากคิดว่าเป็นการระงับที่ผิดพลาด กรุณาติดต่อทีมงาน forum",
+            "suspend_permanent_reason": "คุณถูกระงับการใช้งานโดยอัตโนมัติเนื่องจากพฤติกรรมเชิงลบอย่างต่อเนื่อง การระงับนี้เป็นการถาวร หากคิดว่าเป็นการระงับที่ผิดพลาด กรุณาติดต่อทีมงาน forum"
         }
     },
     "ordinaryjellyfish-sentra-prime": {
         "admin": {
-            "title": ""
+            "title": "การตั้งค่าของ extension นี้อยู่ใน<a>หน้า Sentra extension มาตรฐาน</a> ขอให้สนุกกับการใช้งาน!"
         }
     }
 }

@@ -2,126 +2,126 @@
     "datlechin-passkey": {
         "forum": {
             "log_in": {
-                "sign_in_with_passkey": "",
-                "passkey_unsupported": "",
-                "verifying": "",
-                "cancelled": "",
-                "failed": "",
-                "unsupported": "",
-                "security_error": "",
-                "throttled": ""
+                "sign_in_with_passkey": "เข้าสู่ระบบด้วย passkey",
+                "passkey_unsupported": "browser นี้ไม่รองรับ passkey",
+                "verifying": "กำลังยืนยัน passkey...",
+                "cancelled": "การเข้าสู่ระบบด้วย passkey ถูกยกเลิก",
+                "failed": "ไม่สามารถยืนยัน passkey ของคุณได้ กรุณาลองใหม่",
+                "unsupported": "อุปกรณ์นี้ไม่รองรับประเภท passkey ที่เว็บไซต์กำหนด",
+                "security_error": "origin ของเว็บไซต์ไม่ตรงกับ relying party ที่กำหนด กรุณาติดต่อ admin เพื่อตรวจสอบการตั้งค่า Passkey",
+                "throttled": "พยายาม login ด้วย passkey มากเกินไป กรุณารอสักครู่แล้วลองใหม่"
             },
             "suggest": {
-                "title": "",
-                "body": "",
-                "set_up": "",
-                "not_now": ""
+                "title": "ตั้งค่า passkey",
+                "body": "เข้าสู่ระบบได้เร็วขึ้นในครั้งต่อไป โดยไม่ต้องจำรหัสผ่าน อุปกรณ์ของคุณจะสร้าง passkey ที่ใช้ได้เฉพาะเว็บไซต์นี้เท่านั้น",
+                "set_up": "ตั้งค่า passkey",
+                "not_now": "ไม่ใช่ตอนนี้"
             },
             "required": {
-                "body": "",
-                "set_up": ""
+                "body": "บทบาทของคุณกำหนดให้ลงทะเบียน passkey ก่อนจึงจะดำเนินการต่อได้",
+                "set_up": "ตั้งค่าเลย"
             },
             "settings": {
-                "heading": "",
-                "description": "",
-                "add_button": "",
-                "bulk_revoke_button": "",
-                "invalid_device_name": "",
+                "heading": "Passkeys",
+                "description": "Passkey ช่วยให้คุณเข้าสู่ระบบได้โดยไม่ต้องใช้รหัสผ่าน โดยใช้อุปกรณ์หรือ hardware key ของคุณ",
+                "add_button": "เพิ่ม passkey",
+                "bulk_revoke_button": "ยกเลิกทั้งหมด",
+                "invalid_device_name": "ชื่อ passkey ต้องมีความยาว 1 ถึง 64 ตัวอักษร",
                 "add_modal": {
-                    "title": "",
-                    "device_name_label": "",
-                    "device_name_placeholder": "",
-                    "register_button": "",
-                    "cancel_button": ""
+                    "title": "เพิ่ม passkey",
+                    "device_name_label": "ตั้งชื่อ passkey นี้",
+                    "device_name_placeholder": "เช่น iPhone, MacBook, YubiKey",
+                    "register_button": "ลงทะเบียน",
+                    "cancel_button": "ยกเลิก"
                 },
                 "bulk_revoke_modal": {
-                    "body": ""
+                    "body": "ยกเลิก passkey ทั้ง {count} รายการของคุณ? หลังจากนี้คุณจะไม่สามารถเข้าสู่ระบบด้วย passkey เหล่านั้นได้อีก"
                 },
                 "list": {
-                    "empty": "",
-                    "added_label": "",
-                    "last_used_label": "",
-                    "never_used": "",
-                    "synced": "",
-                    "device_only": "",
-                    "rename_button": "",
-                    "revoke_button": ""
+                    "empty": "คุณยังไม่ได้เพิ่ม passkey ใดๆ",
+                    "added_label": "เพิ่มเมื่อ",
+                    "last_used_label": "ใช้ล่าสุดเมื่อ",
+                    "never_used": "ยังไม่เคยใช้",
+                    "synced": "Synced",
+                    "device_only": "เฉพาะอุปกรณ์นี้",
+                    "rename_button": "เปลี่ยนชื่อ",
+                    "revoke_button": "ยกเลิก"
                 },
                 "rename_modal": {
-                    "title": "",
-                    "save_button": "",
-                    "cancel_button": ""
+                    "title": "เปลี่ยนชื่อ passkey",
+                    "save_button": "บันทึก",
+                    "cancel_button": "ยกเลิก"
                 },
                 "revoke_modal": {
-                    "title": "",
-                    "body": "",
-                    "confirm_button": "",
-                    "cancel_button": ""
+                    "title": "ยกเลิก passkey",
+                    "body": "แน่ใจหรือไม่ว่าต้องการยกเลิก {device}? หลังจากนี้คุณจะไม่สามารถเข้าสู่ระบบด้วย passkey นี้ได้อีก",
+                    "confirm_button": "ยกเลิก passkey",
+                    "cancel_button": "ยกเลิก"
                 },
                 "alerts": {
-                    "registration_succeeded": "",
-                    "registration_failed": "",
-                    "registration_already_exists": "",
-                    "registration_security_error": "",
-                    "registration_unsupported": "",
-                    "rename_succeeded": "",
-                    "revoke_succeeded": "",
-                    "bulk_revoke_succeeded": ""
+                    "registration_succeeded": "เพิ่ม passkey แล้ว",
+                    "registration_failed": "ไม่สามารถลงทะเบียน passkey ได้ กรุณาลองใหม่",
+                    "registration_already_exists": "อุปกรณ์นี้มี passkey สำหรับบัญชีของคุณอยู่แล้ว กรุณายกเลิก passkey เดิมก่อน หรือใช้อุปกรณ์อื่น",
+                    "registration_security_error": "origin ของเว็บไซต์ไม่ตรงกับ relying party ที่กำหนด กรุณาติดต่อ admin เพื่อตรวจสอบการตั้งค่า Passkey",
+                    "registration_unsupported": "อุปกรณ์นี้ไม่สามารถลงทะเบียน passkey ประเภทที่เว็บไซต์กำหนดได้",
+                    "rename_succeeded": "เปลี่ยนชื่อ passkey แล้ว",
+                    "revoke_succeeded": "ยกเลิก passkey แล้ว",
+                    "bulk_revoke_succeeded": "ยกเลิก passkey ทั้งหมดแล้ว"
                 }
             }
         },
         "gdpr": {
-            "export_description": "",
-            "anonymize_description": "",
-            "delete_description": ""
+            "export_description": "รวมถึงชื่ออุปกรณ์ เวลาที่ใช้ล่าสุด IP และข้อมูล authenticator metadata ของ passkey ที่ลงทะเบียนไว้แต่ละรายการ public key ระบุ credential ได้แต่ไม่สามารถใช้ปลอมแปลงการเข้าสู่ระบบ",
+            "anonymize_description": "passkey ทั้งหมดของผู้ใช้รายนี้จะถูกยกเลิก",
+            "delete_description": "passkey ทั้งหมดของผู้ใช้รายนี้จะถูกลบ"
         },
         "email": {
             "revoked": {
-                "subject": "",
-                "body": "",
-                "actor_self": "",
-                "actor_admin": ""
+                "subject": "มีการลบ passkey ออกจากบัญชี {forum} ของคุณ",
+                "body": "สวัสดี {username}\n\npasskey \"{device}\" ถูกลบออกจากบัญชีของคุณบน {forum} เมื่อสักครู่ {actor}\n\nหากคุณไม่ได้ดำเนินการนี้ บัญชีของคุณอาจมีความเสี่ยง กรุณาเข้าสู่ระบบและตรวจสอบ passkey ที่เหลืออยู่ในแท็บความปลอดภัย หากคุณไม่สามารถเข้าถึงได้ ให้ใช้ลิงก์รีเซ็ตรหัสผ่านในหน้า login\n\n{forum}\n",
+                "actor_self": "คุณเป็นผู้ดำเนินการยกเลิกนี้จากแท็บความปลอดภัย",
+                "actor_admin": "ผู้ดูแลระบบลบออกให้คุณ"
             },
             "counter_regression": {
-                "subject": "",
-                "body": ""
+                "subject": "ตรวจพบ passkey ที่อาจถูก clone บนบัญชี {forum} ของคุณ",
+                "body": "สวัสดี {username}\n\nการพยายามเข้าสู่ระบบ {forum} ด้วย passkey \"{device}\" ล้มเหลว เนื่องจาก credential รายงาน signature counter ต่ำกว่าที่เราบันทึกไว้ นี่เป็นสัญญาณที่บ่งชี้ว่า credential อาจถูก copy ไปยังอุปกรณ์อื่น\n\nการ login ถูกปฏิเสธ เราแนะนำให้คุณเข้าสู่ระบบด้วยรหัสผ่าน ยกเลิก passkey นี้ และลงทะเบียนใหม่ หากคุณมีอุปกรณ์อื่นที่ใช้ credential เดียวกัน กรุณาลบออกจาก password manager ด้วย\n\n{forum}\n"
             },
             "backup_state": {
-                "subject": "",
-                "body": "",
-                "synced": "",
-                "unsynced": ""
+                "subject": "สถานะ sync ของ passkey บน {forum} เปลี่ยนแปลง",
+                "body": "สวัสดี {username}\n\npasskey \"{device}\" ของคุณบน {forum} ขณะนี้{state}\n\nหากคุณเป็นผู้ดำเนินการเอง (เช่น เข้าสู่ระบบ iCloud Keychain หรือ password manager บนอุปกรณ์ใหม่) คุณสามารถละเว้นข้อความนี้ได้ หากไม่ใช่ กรุณาเข้าสู่ระบบและตรวจสอบแท็บความปลอดภัย passkey อาจถูก copy ไปยังอุปกรณ์อื่น\n\n{forum}\n",
+                "synced": "sync กับ cloud password manager แล้ว",
+                "unsynced": "เก็บไว้บนอุปกรณ์เดียวเท่านั้น"
             },
             "bulk_revoked": {
-                "subject": "",
-                "body": "",
-                "actor_self": "",
-                "actor_admin": ""
+                "subject": "passkey ทั้งหมดถูกลบออกจากบัญชี {forum} ของคุณ",
+                "body": "สวัสดี {username}\n\npasskey ทั้ง {count} รายการถูกลบออกจากบัญชีของคุณบน {forum} เมื่อสักครู่ {actor}\n\nหากคุณไม่ได้ดำเนินการนี้ กรุณาเข้าสู่ระบบด้วยรหัสผ่านและตรวจสอบแท็บความปลอดภัย หากเข้าไม่ได้ ให้ใช้ลิงก์รีเซ็ตรหัสผ่านในหน้า login\n\n{forum}\n",
+                "actor_self": "คุณเป็นผู้ดำเนินการยกเลิกนี้จากแท็บความปลอดภัย",
+                "actor_admin": "ผู้ดูแลระบบลบออกให้คุณ"
             }
         },
         "admin": {
             "settings": {
-                "title": "",
-                "description": "",
-                "rp_id_label": "",
-                "rp_id_help": "",
-                "rp_name_label": "",
-                "rp_name_help": "",
-                "related_origins_label": "",
-                "related_origins_help": "",
-                "user_verification_label": "",
-                "user_verification_required": "",
-                "user_verification_preferred": "",
-                "user_verification_discouraged": "",
-                "attestation_label": "",
-                "attestation_none": "",
-                "attestation_indirect": "",
-                "attestation_direct": "",
-                "throttle_label": ""
+                "title": "Passkey",
+                "description": "กำหนดค่าการยืนยันตัวตนด้วย passkey สำหรับฟอรัมนี้",
+                "rp_id_label": "Relying Party ID",
+                "rp_id_help": "ชื่อ DNS ที่กำหนดขอบเขตของ passkey ทิ้งว่างเพื่อตรวจจับอัตโนมัติจาก request host การเปลี่ยนค่านี้จะทำให้ passkey ที่มีอยู่ทั้งหมดใช้ไม่ได้",
+                "rp_name_label": "Relying Party display name",
+                "rp_name_help": "ชื่อที่แสดงให้ผู้ใช้เห็นใน browser passkey prompt ค่าเริ่มต้นคือชื่อฟอรัม",
+                "related_origins_label": "Related origins (หนึ่งบรรทัดต่อรายการ)",
+                "related_origins_help": "origin เพิ่มเติมที่ได้รับอนุญาตให้ดำเนินการ passkey ceremonies ใช้ร่วมกับ W3C related-origins document ที่ /.well-known/webauthn",
+                "user_verification_label": "การยืนยันผู้ใช้",
+                "user_verification_required": "บังคับ (ขอ biometric หรือ PIN เสมอ)",
+                "user_verification_preferred": "แนะนำ (ขอถ้าอุปกรณ์รองรับ)",
+                "user_verification_discouraged": "ไม่แนะนำ (แตะเท่านั้น ความปลอดภัยต่ำกว่า)",
+                "attestation_label": "Attestation conveyance",
+                "attestation_none": "ไม่มี (แนะนำ)",
+                "attestation_indirect": "Indirect",
+                "attestation_direct": "Direct",
+                "throttle_label": "จำนวนครั้ง login สูงสุดต่อนาทีต่อ IP"
             },
             "group_modal": {
-                "require_passkey": "",
-                "require_passkey_help": ""
+                "require_passkey": "กำหนดให้กลุ่มนี้ต้องใช้ passkey",
+                "require_passkey_help": "สมาชิกจะได้รับการแจ้งเตือนแบบ sticky banner จนกว่าจะลงทะเบียน passkey อย่างน้อยหนึ่งรายการ"
             }
         }
     }

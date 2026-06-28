@@ -2,34 +2,34 @@
     "datlechin-ai": {
         "admin": {
             "settings": {
-                "provider_label": "",
-                "provider_openai": "",
-                "provider_gemini": "",
-                "provider_anthropic": "",
-                "api_key_label": "",
-                "api_key_placeholder": "",
-                "base_url_label": "",
-                "base_url_placeholder": "",
-                "text_model_label": "",
-                "embeddings_model_label": "",
-                "moderation_model_label": "",
-                "custom_model_label": "",
-                "custom_model_placeholder": "",
-                "custom_base_url_label": "",
-                "test_text_button": "",
-                "test_embeddings_button": "",
-                "test_moderation_button": "",
-                "test_success": "",
-                "test_failed": ""
+                "provider_label": "ผู้ให้บริการ AI",
+                "provider_openai": "OpenAI",
+                "provider_gemini": "Google Gemini",
+                "provider_anthropic": "Anthropic",
+                "api_key_label": "API Key ({provider})",
+                "api_key_placeholder": "ใส่ API key ของ {provider}",
+                "base_url_label": "Base URL (ไม่บังคับ)",
+                "base_url_placeholder": "เว้นว่างเพื่อใช้ค่าเริ่มต้น",
+                "text_model_label": "โมเดล Text/Chat",
+                "embeddings_model_label": "โมเดล Embeddings",
+                "moderation_model_label": "โมเดลตรวจสอบเนื้อหา",
+                "custom_model_label": "ชื่อโมเดลแบบกำหนดเอง",
+                "custom_model_placeholder": "ใส่ชื่อโมเดล",
+                "custom_base_url_label": "Base URL แบบกำหนดเอง",
+                "test_text_button": "ทดสอบโมเดล Text",
+                "test_embeddings_button": "ทดสอบ Embeddings",
+                "test_moderation_button": "ทดสอบการตรวจสอบเนื้อหา",
+                "test_success": "ทดสอบสำเร็จ!",
+                "test_failed": "ทดสอบล้มเหลว: {error}"
             }
         },
         "forum": {
-            "ai_search_placeholder": ""
+            "ai_search_placeholder": "ค้นหาด้วย AI..."
         },
         "permissions": {
-            "generate": "",
-            "embed": "",
-            "moderate": ""
+            "generate": "สร้างข้อความด้วย AI",
+            "embed": "สร้าง Embeddings",
+            "moderate": "ใช้ AI ตรวจสอบเนื้อหา"
         }
     }
 }

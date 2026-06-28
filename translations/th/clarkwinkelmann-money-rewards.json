@@ -2,53 +2,53 @@
     "clarkwinkelmann-money-rewards": {
         "admin": {
             "settings": {
-                "preselection": "",
-                "min": "",
-                "max": "",
-                "decimals": ""
+                "preselection": "จำนวนที่เลือกไว้ล่วงหน้า (คั่นด้วยเครื่องหมายจุลภาค, ไม่บังคับ)",
+                "min": "ค่าต่ำสุดสำหรับจำนวนที่กำหนดเอง",
+                "max": "ค่าสูงสุดสำหรับจำนวนที่กำหนดเอง",
+                "decimals": "จำนวนทศนิยมสูงสุดสำหรับจำนวนที่กำหนดเอง"
             },
             "permissions": {
-                "seeMoneyRewardHistory": "",
-                "rewardWithMoney": "",
-                "customAmounts": "",
-                "createMoney": ""
+                "seeMoneyRewardHistory": "ดูประวัติรางวัลของผู้ใช้คนอื่น",
+                "rewardWithMoney": "มอบรางวัลเป็นเงินให้ผู้ใช้คนอื่น",
+                "customAmounts": "เลือกจำนวนเงินที่กำหนดเองสำหรับรางวัล",
+                "createMoney": "สร้างเงินใหม่ในรางวัล"
             }
         },
         "forum": {
             "modal": {
-                "title": "",
-                "target": "",
-                "optionCustom": "",
-                "balance": "",
+                "title": "มอบรางวัลโพสต์",
+                "target": "มอบรางวัลโพสต์ #{number} โดย {username}",
+                "optionCustom": "กำหนดเอง",
+                "balance": "ยอดคงเหลือของคุณ: {amount}",
                 "label": {
-                    "custom": "",
-                    "create": "",
-                    "comment": ""
+                    "custom": "จำนวนที่กำหนดเอง",
+                    "create": "สร้างเงินใหม่แทนที่จะหักจากยอดของฉัน",
+                    "comment": "ความคิดเห็น (สาธารณะ)"
                 },
-                "submit": "",
-                "success": ""
+                "submit": "ส่ง",
+                "success": "ส่งรางวัลให้ผู้เขียนโพสต์แล้ว!"
             },
             "profile": {
-                "nav": "",
-                "title": ""
+                "nav": "รางวัล",
+                "title": "รางวัล"
             },
             "post": {
-                "action": "",
-                "disallowedOwn": "",
-                "disallowedOther": "",
-                "section": ""
+                "action": "มอบรางวัล",
+                "disallowedOwn": "คุณไม่สามารถมอบรางวัลให้โพสต์ของตัวเองได้",
+                "disallowedOther": "คุณไม่สามารถมอบรางวัลให้โพสต์นี้ได้ สาเหตุที่เป็นไปได้มากที่สุดคือผู้เขียนเป็นผู้ไม่ระบุตัวตนหรือลบบัญชีแล้ว",
+                "section": "รางวัล"
             },
             "record": {
-                "from": "",
-                "to": "",
-                "post": "",
-                "comment": ""
+                "from": "จาก",
+                "to": "ถึง",
+                "post": "สำหรับ <a>โพสต์ #{number}</a> ในโพสต์ \"{title}\"",
+                "comment": "ความคิดเห็น:"
             }
         },
         "api": {
             "error": {
-                "decimals": "",
-                "notEnoughFunds": ""
+                "decimals": "จำนวนเงินจำกัดที่ {decimals} ตำแหน่งทศนิยม",
+                "notEnoughFunds": "เงินไม่เพียงพอ"
             }
         }
     }

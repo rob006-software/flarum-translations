@@ -2,88 +2,88 @@
     "davwheat-virtual-authors": {
         "admin": {
             "permissions": {
-                "set_virtual_authors": "",
-                "view_virtual_authors_page": ""
+                "set_virtual_authors": "กำหนดผู้เขียนเสมือนในโพสต์",
+                "view_virtual_authors_page": "ดูหน้าที่แสดงรายชื่อผู้เขียนเสมือนทั้งหมด"
             },
             "settings": {
-                "errored": "",
-                "create_new": "",
-                "auto_save_message": "",
-                "search_placeholder": "",
-                "link_to_va_from_discussion": "",
-                "authors_in_sidebar": "",
-                "authors_in_sidebar_help": "",
-                "virtual_authors_page_disabled": "",
-                "virtual_authors_page_disabled_help": "",
-                "discussion_badge": "",
-                "prev": "",
-                "next": ""
+                "errored": "โหลดผู้เขียนเสมือนจากเซิร์ฟเวอร์ไม่สำเร็จ",
+                "create_new": "สร้างผู้เขียนเสมือนใหม่",
+                "auto_save_message": "การสร้างใหม่และแก้ไขผู้เขียนเสมือนจะถูกบันทึกอัตโนมัติ",
+                "search_placeholder": "ค้นหาตามชื่อ",
+                "link_to_va_from_discussion": "แสดงลิงก์ไปยังโพสต์ทั้งหมดของผู้เขียนเสมือนในกล่อง 'Authors'",
+                "authors_in_sidebar": "แสดงผู้เขียนในแถบด้านข้างแทนที่จะแสดงเหนือโพสต์แรก",
+                "authors_in_sidebar_help": "ตัวเลือกนี้ไม่มีผลกับ Blog extension",
+                "virtual_authors_page_disabled": "ปิดใช้งานรายการผู้เขียนเสมือนสำหรับผู้ใช้ทุกคน",
+                "virtual_authors_page_disabled_help": "ตัวเลือกนี้จะแทนที่การตั้งค่าสิทธิ์ใดๆ ที่กำหนดไว้สำหรับฟีเจอร์นี้",
+                "discussion_badge": "แสดง badge บนโพสต์ที่มีผู้เขียนเสมือน",
+                "prev": "หน้าก่อนหน้า",
+                "next": "หน้าถัดไป"
             },
             "virtual_author_item": {
-                "id": "",
-                "name": "",
-                "description": "",
-                "no_description": "",
-                "edit": "",
-                "delete_confirmation": "",
-                "delete_a11y_tooltip": ""
+                "id": "ID",
+                "name": "ชื่อที่แสดง",
+                "description": "คำอธิบาย",
+                "no_description": "=> davwheat-virtual-authors.ref.no_description",
+                "edit": "แก้ไขผู้เขียนเสมือน",
+                "delete_confirmation": "ลบผู้เขียนเสมือน?",
+                "delete_a11y_tooltip": "ลบ"
             }
         },
         "lib": {
             "edit_modal": {
-                "title_edit": "",
-                "title_new": "",
-                "submit_edit": "",
-                "submit_new": "",
+                "title_edit": "แก้ไขผู้เขียนเสมือน",
+                "title_new": "ผู้เขียนเสมือนใหม่",
+                "submit_edit": "บันทึกการเปลี่ยนแปลง",
+                "submit_new": "สร้างผู้เขียนเสมือน",
                 "fields": {
-                    "name": "",
-                    "description": ""
+                    "name": "ชื่อที่แสดง",
+                    "description": "คำอธิบาย (เกี่ยวกับผู้เขียน)"
                 }
             },
-            "discussion-badge": ""
+            "discussion-badge": "{count, plural, one {มีผู้เขียนเสมือน}, other {มีผู้เขียนเสมือน}}"
         },
         "forum": {
             "virtual_author_page": {
-                "meta_title": "",
-                "credited_discussions": "",
-                "discussion_count": ""
+                "meta_title": "{displayName} - ผู้เขียน",
+                "credited_discussions": "โพสต์ที่เครดิตแก่ {displayName}",
+                "discussion_count": "=> davwheat-virtual-authors.ref.discussion_count"
             },
             "virtual_authors_list": {
-                "sidebar_link": "",
-                "empty_text": "",
-                "title": "",
-                "meta_title": "",
-                "filter_name_placeholder": "",
-                "discussion_count": "",
-                "no_description": ""
+                "sidebar_link": "ผู้เขียน",
+                "empty_text": "ดูเหมือนจะไม่มีผู้เขียนที่นี่",
+                "title": "ผู้เขียนทั้งหมด",
+                "meta_title": "ผู้เขียนทั้งหมด",
+                "filter_name_placeholder": "กรองตามชื่อ",
+                "discussion_count": "=> davwheat-virtual-authors.ref.discussion_count",
+                "no_description": "ผู้เขียนคนนี้ยังคงเป็นปริศนา"
             },
             "virtual_authors_panel": {
-                "heading": "",
-                "error": "",
-                "item_link_tooltip": ""
+                "heading": "ผู้เขียน",
+                "error": "โหลดผู้เขียนไม่สำเร็จ",
+                "item_link_tooltip": "ดูโพสต์ทั้งหมดของ {displayName}"
             },
             "discussion_controls": {
-                "set_virtual_authors": ""
+                "set_virtual_authors": "กำหนดผู้เขียนเสมือน"
             },
             "set_modal": {
-                "title": "",
-                "existing": "",
-                "add_new": "",
-                "none_existing": "",
-                "search": "",
-                "credit_placeholder": "",
-                "delete_confirmation": "",
-                "delete_button": "",
-                "add_button": "",
-                "added_button": "",
-                "no_description": "",
-                "virtual_author_exists": "",
-                "save": ""
+                "title": "กำหนดผู้เขียนเสมือน",
+                "existing": "ผู้เขียนเสมือนปัจจุบัน",
+                "add_new": "เลือกผู้เขียนเสมือนใหม่",
+                "none_existing": "ยังไม่ได้เลือกผู้เขียนเสมือน",
+                "search": "ค้นหาผู้เขียนเสมือน",
+                "credit_placeholder": "เครดิต (ไม่บังคับ)",
+                "delete_confirmation": "ลบผู้เขียนเสมือนออกจากโพสต์?",
+                "delete_button": "ลบ",
+                "add_button": "เพิ่ม",
+                "added_button": "เพิ่มแล้ว",
+                "no_description": "=> davwheat-virtual-authors.ref.no_description",
+                "virtual_author_exists": "เลือกไว้แล้ว!",
+                "save": "บันทึกการเปลี่ยนแปลง"
             }
         },
         "ref": {
-            "no_description": "",
-            "discussion_count": ""
+            "no_description": "(ยังไม่มีคำอธิบาย)",
+            "discussion_count": "{count, plural, one {# โพสต์}, other {# โพสต์}}"
         }
     }
 }

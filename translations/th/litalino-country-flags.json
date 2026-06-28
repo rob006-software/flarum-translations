@@ -1,23 +1,23 @@
 {
     "justoverclock-country-flags": {
         "admin": {
-            "countryColumn": "",
-            "showFlagsOnPosts": "",
-            "showFlagsOnPosts_text": "",
-            "set_on_registration_label": "",
-            "required_label": "",
-            "required_help": "",
-            "bind_label": "",
-            "bind_help": ""
+            "countryColumn": "Country",
+            "showFlagsOnPosts": "แสดง Flags บน Posts",
+            "showFlagsOnPosts_text": "แสดง Flags (Text) บน Posts",
+            "set_on_registration_label": "อนุญาตให้ตั้งค่าประเทศในการสมัคร",
+            "required_label": "ต้องใส่ประเทศ",
+            "required_help": "คุณต้องเปิดใช้งานตัวเลือก Set on country เพื่อให้ตัวเลือกนี้ใช้งานได้",
+            "bind_label": "ผูกการป้อนประเทศที่จำเป็น",
+            "bind_help": "บังคับให้ประเทศไปยังบัญชีที่ไม่ได้ลงทะเบียนประเทศหลังจากเข้าสู่ระบบ"
         },
         "forum": {
-            "inputCountryCode": "",
-            "saveButton": "",
-            "clickToSelectCountry": "",
-            "countrySaved": "",
-            "field_placeholder": "",
-            "binding_country": "",
-            "binding_country_click": ""
+            "inputCountryCode": "Country Code",
+            "saveButton": "บันทึก",
+            "clickToSelectCountry": "เลือกประเทศของคุณ",
+            "countrySaved": "บันทึกประเทศเรียบร้อยแล้ว!",
+            "field_placeholder": "ยืนยัน Country Flags",
+            "binding_country": "เราพบว่าคุณยังไม่ได้ผูกที่อยู่ของคุณ โปรดเชื่อมโยงประเทศของคุณก่อน คุณสามารถโพสต์และส่งข้อความได้หลังจากเชื่อมโยงประเทศของคุณเท่านั้น",
+            "binding_country_click": "คลิกเดี๋ยวนี้"
         }
     }
 }

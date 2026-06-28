@@ -2,116 +2,116 @@
     "core": {
         "forum": {
             "index_sort": {
-                "mostBacked_button": ""
+                "mostBacked_button": "ได้รับการสนับสนุนมากสุด"
             }
         }
     },
     "blomstra-payments": {
         "forum": {
             "accept-terms-modal": {
-                "accept_label": "",
-                "continue_button": "",
-                "title": ""
+                "accept_label": "ฉันได้อ่านและยอมรับ<link>เงื่อนไขการชำระเงิน</link>แล้ว",
+                "continue_button": "ดำเนินการชำระเงิน",
+                "title": "ยอมรับเงื่อนไข"
             },
             "stripe": {
-                "interval_once": ""
+                "interval_once": "ครั้งเดียว"
             },
             "subscription-card": {
-                "bounty": "",
-                "ptv": "",
-                "pta": "",
-                "ptb": "",
-                "ptp": "",
-                "cancel-control": "",
-                "none": ""
+                "bounty": "Bounty",
+                "ptv": "จ่ายเพื่อดู",
+                "pta": "จ่ายเพื่อเข้าถึง",
+                "ptb": "จ่ายเพื่อ bump",
+                "ptp": "จ่ายเพื่อโพสต์",
+                "cancel-control": "ยกเลิก",
+                "none": "ไม่มีการชำระเงินหรือการสมัครสมาชิกที่ใช้งานอยู่"
             },
             "post_stream": {
-                "bounty_added_text": ""
+                "bounty_added_text": "{username} เพิ่ม bounty มูลค่า {amount}"
             },
             "pay-to-view": {
-                "purchase-control": "",
-                "purchase-log-in": "",
-                "purchase-completed": "",
-                "description": ""
+                "purchase-control": "จ่ายเพื่อดู",
+                "purchase-log-in": "เข้าสู่ระบบและจ่ายเพื่อดู",
+                "purchase-completed": "ปลดล็อคแล้ว",
+                "description": "โพสต์ถัดจากนี้ถูกล็อคไว้ คุณสามารถปลดล็อคได้โดยชำระเงินผ่านผู้ให้บริการ Stripe\n"
             },
             "pay-to-post": {
-                "purchase-control": "",
-                "purchase": "",
-                "purchase_required": ""
+                "purchase-control": "จ่ายเพื่อโพสต์",
+                "purchase": "ซื้อเพื่อโพสต์",
+                "purchase_required": "โพสต์นี้จะถูกเผยแพร่เมื่อคุณชำระเงินผ่านผู้ให้บริการ Stripe เรียบร้อยแล้ว คลิกซื้อเพื่อดูราคาและตัวเลือกการชำระเงิน\n"
             },
             "pay-to-bump": {
-                "description": "",
-                "purchase-control": "",
-                "purchase-log-in": ""
+                "description": "{count, plural, one {โพสต์นี้ถูก bump} other {{count} คนได้ bump โพสต์นี้}}",
+                "purchase-control": "จ่ายเพื่อ bump",
+                "purchase-log-in": "เข้าสู่ระบบและจ่ายเพื่อ bump"
             },
             "bounties": {
-                "purchase-control": "",
-                "enable-control": ""
+                "purchase-control": "เพิ่ม Bounty",
+                "enable-control": "เปิดใช้งาน Bounties"
             },
             "choose-bounty-amount-modal": {
-                "title": "",
-                "checkout-control": "",
-                "description": ""
+                "title": "เลือกจำนวน bounty",
+                "checkout-control": "ชำระเงิน",
+                "description": "เลือกจำนวนเงินสำหรับสนับสนุน \"{subject}\" หรือกำหนดจำนวนเองตามต้องการ"
             },
             "backers-widget": {
-                "backers": "",
-                "label": "",
-                "none": "",
-                "pledged": ""
+                "backers": "ผู้สนับสนุน",
+                "label": "สัญญาจะให้ {currency} {sum}",
+                "none": "ยังไม่มีผู้สนับสนุน",
+                "pledged": "สัญญาจะให้"
             },
             "tag": {
-                "require-payment-label": ""
+                "require-payment-label": "ต้องชำระเงิน"
             },
             "payment-options-modal": {
-                "title": "",
-                "description": ""
+                "title": "ตัวเลือกการชำระเงินเพื่อเข้าถึง {group}",
+                "description": "เลือกตัวเลือกใดตัวเลือกหนึ่งเพื่อเริ่มต้นการเข้าถึงกลุ่ม คุณจะถูกนำไปยัง Stripe เพื่อดำเนินการชำระเงิน\n"
             },
             "access-portal": {
-                "options": "",
-                "purchase": "",
-                "subscribed": ""
+                "options": "ตัวเลือก",
+                "purchase": "ซื้อ",
+                "subscribed": "สมัครสมาชิกแล้ว"
             },
             "nav": {
-                "access_portal": "",
-                "user_subscriptions": ""
+                "access_portal": "พอร์ทัลการเข้าถึง",
+                "user_subscriptions": "การสมัครสมาชิก"
             },
             "exceptions": {
                 "out-of-bounds-amount": {
-                    "min": "",
-                    "max": ""
+                    "min": "ไม่อนุญาตให้ชำระ {amount} จำนวนขั้นต่ำคือ {min}",
+                    "max": "ไม่อนุญาตให้ชำระ {amount} จำนวนสูงสุดคือ {max}"
                 }
             }
         },
         "admin": {
             "edit-tag": {
-                "select-ptp-product": "",
-                "select-ptp-product-description": "",
-                "select-ptv-product": "",
-                "select-ptv-product-description": "",
-                "visible-from": "",
-                "visible-from-description": "",
-                "select-ptb-product": "",
-                "select-ptb-product-description": "",
-                "bump-others": "",
-                "bump-others-description": "",
-                "select-bounty-product": "",
-                "select-bounty-product-description": ""
+                "select-ptp-product": "(PTP) สินค้าที่ต้องชำระ",
+                "select-ptp-product-description": "การเลือกสินค้าจะกำหนดให้ต้องชำระเงินสำหรับแต่ละโพสต์ในแท็กนั้น เหมาะสำหรับโพสต์โฆษณา สร้างสินค้าแบบ \"ครั้งเดียว\" ใน Stripe dashboard แล้วคัดลอก ID ที่ขึ้นต้นด้วย <code>prod_</code> ลงในช่องนี้\n",
+                "select-ptv-product": "(PTV) สินค้าที่ต้องชำระ",
+                "select-ptv-product-description": "การเลือกสินค้าจะกำหนดให้ต้องชำระเงินเพื่อเข้าถึงโพสต์ทั้งหมดถัดจากจุดกำหนดอย่างถาวร สร้างสินค้าใน Stripe dashboard แล้วคัดลอก ID ที่ขึ้นต้นด้วย <code>prod_</code> ลงในช่องนี้\n",
+                "visible-from": "ซ่อนโพสต์ที่จุดนี้",
+                "visible-from-description": "ตัวเลขที่กำหนดจะระบุว่าโพสต์จะถูกซ่อนสำหรับผู้ที่ยังไม่ได้ชำระเงิน ใช้ 0 เพื่อซ่อนทั้งหมด หรือ 1 สำหรับโพสต์ถัดจากต้นฉบับ\n",
+                "select-ptb-product": "(PTB) สินค้าที่ต้องชำระ",
+                "select-ptb-product-description": "การเลือกสินค้าจะกำหนดให้ต้องชำระเงินก่อนที่จะ bump โพสต์ได้\n",
+                "bump-others": "(PTB) อนุญาตให้คนอื่น bump โพสต์",
+                "bump-others-description": "เมื่อเปิดใช้งาน ไม่ใช่แค่เจ้าของโพสต์เท่านั้นที่สามารถ bump ด้วยการชำระเงิน\n",
+                "select-bounty-product": "(Bounty) สินค้าที่ต้องชำระ",
+                "select-bounty-product-description": "การเลือกสินค้าจะตั้งค่าสำหรับ bounties สินค้าต้องมีราคาแบบ \"กำหนดเอง\" เพียงแบบเดียว คัดลอก ID ของสินค้าที่ขึ้นต้นด้วย <code>prod_</code> ลงในช่องนี้\n"
             },
             "edit-group": {
-                "select-pta-product": "",
-                "select-pta-product-description": ""
+                "select-pta-product": "(PTA) สินค้าที่ต้องชำระ",
+                "select-pta-product-description": "การเลือกสินค้าจะอนุญาตให้เข้าถึงกลุ่มหลังชำระเงิน ในกรณีสมัครสมาชิก การเข้าถึงจะถูกยกเลิกโดยอัตโนมัติเมื่อยกเลิกการสมัคร สร้างสินค้าใน Stripe dashboard แล้วคัดลอก ID ที่ขึ้นต้นด้วย <code>prod_</code> ลงในช่องนี้\n"
             },
             "settings": {
-                "assign-bounty-tag-id": "",
-                "pk": "",
-                "sk": "",
-                "webhook-secret": "",
-                "link-access-portal": "",
-                "link-to-terms": "",
-                "recount-total-discussion-bounties": ""
+                "assign-bounty-tag-id": "แท็กที่กำหนดให้โพสต์หลังจากมี bounty แรก",
+                "pk": "Publishable (api) key",
+                "sk": "Secret (api) key",
+                "webhook-secret": "Webhook signing secret",
+                "link-access-portal": "แสดงลิงก์พอร์ทัลการเข้าถึงในเมนู dropdown ของผู้ใช้",
+                "link-to-terms": "URL เงื่อนไขการชำระเงิน",
+                "recount-total-discussion-bounties": "นับ bounty ของโพสต์ใหม่"
             },
             "permission": {
-                "enable-bounties": ""
+                "enable-bounties": "เปิดใช้งาน bounties"
             }
         }
     }

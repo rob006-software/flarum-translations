@@ -2,17 +2,17 @@
     "clarkwinkelmann-username-blacklist": {
         "admin": {
             "settings": {
-                "regex": "",
-                "regexHelp": "",
-                "message": "",
-                "blacklist": "",
-                "blacklistHelp": "",
-                "whitelist": "",
-                "whitelistHelp": ""
+                "regex": "Regular Expression",
+                "regexHelp": "สลับจากรายการ domain เป็นการตรวจสอบ regular expression แต่ละบรรทัดในรายการต้องเป็น regular expression ที่ถูกต้องพร้อม delimiter\n",
+                "message": "ข้อความแสดงข้อผิดพลาดแบบกำหนดเอง",
+                "blacklist": "Blacklist",
+                "blacklistHelp": "หนึ่ง expression ต่อบรรทัด หากไม่ได้กำหนด blacklist ไว้ ทุกอย่างที่ไม่อยู่ใน whitelist จะถูกปฏิเสธ\n",
+                "whitelist": "Whitelist",
+                "whitelistHelp": "หนึ่ง expression ต่อบรรทัด มีความสำคัญเหนือกว่า blacklist\n"
             }
         },
         "api": {
-            "fallbackMessage": ""
+            "fallbackMessage": "ชื่อผู้ใช้นี้ไม่อยู่ใน whitelist"
         }
     }
 }

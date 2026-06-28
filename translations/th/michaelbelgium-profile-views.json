@@ -3,16 +3,16 @@
         "forum": {
             "user": {
                 "viewlist": {
-                    "title": "",
-                    "guest": ""
+                    "title": "ผู้เยี่ยมชมล่าสุด",
+                    "guest": "ผู้เยี่ยมชม"
                 },
-                "view_count_text": ""
+                "view_count_text": "{viewcount, plural, one {ดู {viewcount} ครั้ง} other {ดู {viewcount} ครั้ง}}"
             }
         },
         "admin": {
             "settings": {
-                "track_guests_label": "",
-                "max_viewcount_label": ""
+                "track_guests_label": "ติดตาม guest",
+                "max_viewcount_label": "จำนวนรายการสูงสุดในรายการผู้เยี่ยมชม"
             }
         }
     }

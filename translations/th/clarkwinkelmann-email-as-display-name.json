@@ -2,16 +2,16 @@
     "clarkwinkelmann-email-as-display-name": {
         "admin": {
             "permissions": {
-                "view-own": "",
-                "view-all": ""
+                "view-own": "ดู email ใน profile ของตัวเอง",
+                "view-all": "ดู email ใน profile ของทุกคน"
             },
             "settings": {
-                "remove-username-registration": ""
+                "remove-username-registration": "ลบช่อง username ออกจากแบบฟอร์มสมัครสมาชิก"
             }
         },
         "forum": {
             "log_in": {
-                "username_or_email_placeholder": ""
+                "username_or_email_placeholder": "=> core.ref.email"
             }
         }
     }

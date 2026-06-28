@@ -2,67 +2,67 @@
     "fof-webhooks": {
         "actions": {
             "poll": {
-                "voted": "",
-                "created": ""
+                "voted": "โหวตใน poll `{1}`",
+                "created": "สร้าง poll `{1}`"
             },
             "post": {
-                "reacted": "",
-                "unreacted": "",
-                "upvoted": "",
-                "downvoted": ""
+                "reacted": "react ต่อ post ด้วย `{1}`",
+                "unreacted": "ลบ reaction ออกจาก post",
+                "upvoted": "upvote post",
+                "downvoted": "downvote post"
             },
             "user": {
-                "enabled2fa": ""
+                "enabled2fa": "เปิดใช้งาน 2FA"
             },
             "extension": {
-                "installed": "",
-                "updated": ""
+                "installed": "ติดตั้ง extension `{1}`",
+                "updated": "อัปเดต extension `{1}`"
             },
             "ip": {
-                "banned": "",
-                "unbanned": ""
+                "banned": "ban IP `{1}`",
+                "unbanned": "ยกเลิก ban IP `{1}`"
             }
         },
         "admin": {
             "settings": {
                 "services": {
-                    "custom": ""
+                    "custom": "Custom"
                 },
                 "actions": {
                     "extiverse": {
                         "bazaar": {
-                            "title": "",
-                            "extensionwasinstalled": "",
-                            "extensionwasupdated": ""
+                            "title": "Extiverse Bazaar",
+                            "extensionwasinstalled": "ติดตั้ง Extension แล้ว",
+                            "extensionwasupdated": "อัปเดต Extension แล้ว"
                         }
                     },
                     "fof": {
                         "banips": {
-                            "title": "",
-                            "ipwasbanned": "",
-                            "ipwasunbanned": ""
+                            "title": "FriendsOfFlarum Ban IPs",
+                            "ipwasbanned": "ถูก ban",
+                            "ipwasunbanned": "ยกเลิก ban แล้ว"
                         },
                         "byobu": {
-                            "title": "",
-                            "discussionmadepublic": ""
+                            "title": "FriendsOfFlarum Byobu",
+                            "discussionmadepublic": "โพสต์ถูกทำให้เป็นสาธารณะ"
                         },
                         "gamification": {
-                            "title": "",
-                            "postwasvoted": ""
+                            "title": "FriendsOfFlarum Gamification",
+                            "postwasvoted": "Post ถูก Upvote/Downvote"
                         },
                         "polls": {
-                            "title": "",
-                            "pollwasvoted": "",
-                            "pollwascreated": ""
+                            "title": "FriendsOfFlarum Polls",
+                            "pollwasvoted": "โหวตแล้ว",
+                            "pollwascreated": "สร้างแล้ว"
                         },
                         "reactions": {
-                            "title": "",
-                            "postwasreacted": "",
-                            "postwasunreacted": ""
+                            "title": "FriendsOfFlarum Reactions",
+                            "postwasreacted": "Post ถูก React",
+                            "postwasunreacted": "Post ถูกลบ Reaction"
                         },
                         "twofactor": {
-                            "title": "",
-                            "userenabledtwofactor": ""
+                            "title": "FriendsOfFlarum Two Factor",
+                            "userenabledtwofactor": "ผู้ใช้เปิดใช้งาน 2FA"
                         }
                     }
                 }

@@ -2,40 +2,40 @@
     "antoinefr-money": {
         "admin": {
             "settings": {
-                "title": "",
-                "moneyforpost": "",
-                "moneyfordiscussion": "",
-                "moneyname": "",
-                "postminimumlength": "",
-                "ignore_notifying_users": "",
-                "noshowzero": "",
-                "autoremove": "",
-                "cascaderemove": "",
-                "moneyforlike": "",
-                "helpextensionlikes": ""
+                "title": "การตั้งค่า",
+                "moneyforpost": "เงินที่ได้รับเมื่อโพสต์ใหม่",
+                "moneyfordiscussion": "เงินที่ได้รับเมื่อสร้างโพสต์ใหม่",
+                "moneyname": "ชื่อสกุลเงิน (เช่น: [money] คะแนน)",
+                "postminimumlength": "ความยาวขั้นต่ำของโพสต์เพื่อรับเงิน (0 เพื่อปิดใช้งาน)",
+                "ignore_notifying_users": "เมื่อนับจำนวนคำในการตอบกลับ ให้นับเฉพาะส่วนเนื้อหาเท่านั้น",
+                "noshowzero": "ไม่แสดงหากค่าเป็นศูนย์",
+                "autoremove": "อัปเดตเงินอัตโนมัติ",
+                "cascaderemove": "ลบเงินของโพสต์เมื่อโพสต์ถูกลบ",
+                "moneyforlike": "เงินที่ได้รับเมื่อโพสต์ถูกกดถูกใจ",
+                "helpextensionlikes": "ต้องใช้ส่วนขยาย <code>flarum/likes</code>"
             },
             "permissions": {
-                "edit_money_label": "",
-                "disable_money_label": ""
+                "edit_money_label": "แก้ไขเงิน",
+                "disable_money_label": "ปิดใช้งานเงิน"
             },
             "autoremove": [
-                "",
-                "",
-                ""
+                "ไม่ลบเงินเลย",
+                "เมื่อโพสต์/โพสต์ถูกซ่อนหรือกู้คืน (ค่าเริ่มต้น)",
+                "เมื่อโพสต์/โพสต์ถูกลบ"
             ],
             "automoderator": {
-                "metric_name": "",
-                "action_name": ""
+                "metric_name": "เงิน",
+                "action_name": "มอบเงิน"
             }
         },
         "forum": {
             "user_controls": {
-                "money_button": ""
+                "money_button": "แก้ไขเงิน"
             },
             "modal": {
-                "title": "",
-                "current": "",
-                "submit_button": ""
+                "title": "เงินของ {username}",
+                "current": "ปัจจุบัน:",
+                "submit_button": "=> core.ref.save_changes"
             }
         }
     }

@@ -2,34 +2,34 @@
     "clarkwinkelmann-scout": {
         "admin": {
             "setting": {
-                "driver": "",
+                "driver": "Driver",
                 "driverOption": {
-                    "null": "",
-                    "algolia": "",
-                    "meilisearch": "",
-                    "tntsearch": ""
+                    "null": "Null",
+                    "algolia": "Algolia",
+                    "meilisearch": "Meilisearch",
+                    "tntsearch": "TNTSearch"
                 },
-                "prefix": "",
-                "queue": "",
-                "queueHelp": "",
-                "limit": "",
-                "limitPlaceholder": "",
-                "limitHelp": "",
-                "queryMinLength": "",
-                "queryMinLengthPlaceholder": "",
-                "queryMinLengthHelp": "",
-                "algoliaId": "",
-                "algoliaSecret": "",
-                "algoliaConnectTimeout": "",
-                "algoliaReadTimeout": "",
-                "algoliaWriteTimeout": "",
-                "meilisearchHost": "",
-                "meilisearchKey": "",
-                "tntsearchMaxDocs": "",
-                "tntsearchFuzziness": "",
-                "tntsearchFuzzyDistance": "",
-                "tntsearchFuzzyPrefixLength": "",
-                "tntsearchFuzzyMaxExpansions": ""
+                "prefix": "คำนำหน้าชื่อ index (ไม่บังคับ)",
+                "queue": "ประมวลผลการอัปเดต index ใน queue",
+                "queueHelp": "การตั้งค่านี้จะมีผลเฉพาะเมื่อมีการกำหนดค่า asynchronous queue driver ใน Flarum",
+                "limit": "จำนวนผลลัพธ์เริ่มต้น",
+                "limitPlaceholder": "อัตโนมัติ",
+                "limitHelp": "จะ override จำนวนผลลัพธ์ที่ขอจาก search engine และมีผลต่อจำนวนหน้าของผลลัพธ์ (limit นับรวมเนื้อหาที่ผู้ใช้ไม่มีสิทธิ์เห็นด้วย) บาง engine อาจต้องตั้งค่าเพิ่มเติมเพื่อเปลี่ยนค่าสูงสุดที่อนุญาต\n",
+                "queryMinLength": "ความยาวขั้นต่ำของคำค้นสำหรับ suggestions",
+                "queryMinLengthPlaceholder": "อัตโนมัติ",
+                "queryMinLengthHelp": "การตั้งค่านี้ส่งผลต่อ suggestion dropdown ของช่องค้นหาใน header เท่านั้น Flarum มีค่าเริ่มต้น 3 ตัวอักษรก่อนดึง suggestions ซึ่งสามารถ override ได้ที่นี่ หน้าผลลัพธ์ค้นหาเต็มรูปแบบไม่มีความยาวขั้นต่ำ ต้องล้าง cache หลังเปลี่ยนค่านี้\n",
+                "algoliaId": "Algolia ID",
+                "algoliaSecret": "Algolia Secret",
+                "algoliaConnectTimeout": "Algolia Connect Timeout (ไม่บังคับ)",
+                "algoliaReadTimeout": "Algolia Read Timeout (ไม่บังคับ)",
+                "algoliaWriteTimeout": "Algolia Write Timeout (ไม่บังคับ)",
+                "meilisearchHost": "Meilisearch Host",
+                "meilisearchKey": "Meilisearch Key",
+                "tntsearchMaxDocs": "TNT Search Max Docs (ไม่บังคับ จำนวนผลลัพธ์สูงสุด)",
+                "tntsearchFuzziness": "TNT Search Fuzziness (การจับคู่ typo/variation)",
+                "tntsearchFuzzyDistance": "TNT Search Fuzziness Levenshtein Distance (ไม่บังคับ)",
+                "tntsearchFuzzyPrefixLength": "TNT Search Fuzziness Prefix Length (ไม่บังคับ)",
+                "tntsearchFuzzyMaxExpansions": "TNT Search Fuzziness Max Expansions (ไม่บังคับ)"
             }
         }
     }

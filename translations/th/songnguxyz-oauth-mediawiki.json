@@ -4,31 +4,31 @@
             "settings": {
                 "providers": {
                     "mediawiki": {
-                        "description": "",
-                        "base_url_label": "",
-                        "client_id_label": "",
-                        "client_secret_label": "",
-                        "user_agent_label": "",
-                        "icon_label": ""
+                        "description": "ตั้งค่าแอปพลิเคชัน MediaWiki OAuth2 ดูเอกสารได้ที่ {link}",
+                        "base_url_label": "URL หลักของ MediaWiki",
+                        "client_id_label": "Client Key",
+                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret",
+                        "user_agent_label": "User Agent",
+                        "icon_label": "Icon ของ provider (FontAwesome class)"
                     }
                 }
             }
         },
         "forum": {
             "log_in": {
-                "with_mediawiki_button": ""
+                "with_mediawiki_button": "=> fof-oauth.forum.log_in.with_button"
             },
             "error": {
-                "wiki_user_blocked": "",
-                "invalid_email": ""
+                "wiki_user_blocked": "บัญชี MediaWiki ของคุณถูกบล็อกและไม่สามารถ login เข้าฟอรัมนี้ได้",
+                "invalid_email": "ไม่สามารถดึงอีเมลจากบัญชี MediaWiki ของคุณได้ กรุณาใช้วิธี login อื่น"
             },
             "providers": {
-                "mediawiki": ""
+                "mediawiki": "=> fof-oauth.lib.providers.mediawiki"
             }
         },
         "lib": {
             "providers": {
-                "mediawiki": ""
+                "mediawiki": "MediaWiki"
             }
         }
     }

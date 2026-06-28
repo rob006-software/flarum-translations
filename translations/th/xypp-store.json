@@ -1,118 +1,118 @@
 {
     "xypp-store": {
         "forum": {
-            "time_segs": "",
-            "store": "",
-            "purchase-history": "",
-            "create": "",
-            "purchase": "",
-            "edit_button": "",
-            "show_case": "",
-            "price_free": "",
+            "time_segs": "วัน|ชั่วโมง|นาที",
+            "store": "ร้านค้า",
+            "purchase-history": "ซื้อแล้ว",
+            "create": "สร้างไอเทม",
+            "purchase": "ซื้อ",
+            "edit_button": "แก้ไข",
+            "show_case": "Showcase",
+            "price_free": "ฟรี",
             "provider": {
-                "all": "",
+                "all": "ทั้งหมด",
                 "error": {
-                    "title": "",
-                    "no-preview": ""
+                    "title": "ไม่รู้จัก provider",
+                    "no-preview": "ไม่มีตัวอย่าง"
                 }
             },
             "unavailable": {
                 "common": {
-                    "unknown": "",
-                    "no_rest": ""
+                    "unknown": "ไม่สามารถซื้อได้",
+                    "no_rest": "หมดแล้ว"
                 }
             },
             "create-modal": {
-                "title": "",
-                "name": "",
-                "desc": "",
-                "price": "",
-                "provider": "",
-                "provider_data": "",
-                "use_cnt": "",
-                "expire_time": "",
-                "expire_time_tip": "",
-                "rest_cnt": "",
-                "rest_cnt_tip": "",
-                "edit-title": "",
-                "edit-button": "",
-                "button": "",
-                "success": "",
-                "confirm_delete": "",
-                "delete-button": "",
+                "title": "สร้างไอเทม",
+                "name": "ชื่อ",
+                "desc": "คำอธิบาย",
+                "price": "ราคา",
+                "provider": "Provider",
+                "provider_data": "ข้อมูล Provider",
+                "use_cnt": "จำนวนครั้งที่ใช้ได้",
+                "expire_time": "เวลาหมดอายุ",
+                "expire_time_tip": "ปล่อยว่างเพื่อไม่หมดอายุ หรือใส่จำนวนวินาทีเพื่อกำหนดเวลาหมดอายุ",
+                "rest_cnt": "จำนวนคงเหลือ",
+                "rest_cnt_tip": "ปล่อยว่างเพื่อไม่จำกัด หรือใส่ตัวเลขเพื่อจำกัดจำนวน",
+                "edit-title": "แก้ไขไอเทม #{0}",
+                "edit-button": "แก้ไข",
+                "button": "สร้าง",
+                "success": "สร้างไอเทมสำเร็จ",
+                "confirm_delete": "แน่ใจว่าต้องการลบไอเทมนี้?",
+                "delete-button": "ลบ",
                 "providers": {
-                    "unknown": "",
-                    "unknown_data": "",
-                    "no_select_data": "",
-                    "special_data": ""
+                    "unknown": "เลือก Provider",
+                    "unknown_data": "กรุณาเลือก provider ก่อน",
+                    "no_select_data": "เลือกข้อมูล Provider",
+                    "special_data": "เลือกข้อมูลแล้ว"
                 },
-                "provider_data_error": "",
-                "provider_data_default": ""
+                "provider_data_error": "กรุณาเลือก provider และข้อมูล",
+                "provider_data_default": "ข้อมูลเริ่มต้น"
             },
-            "purchase-confirm": "",
+            "purchase-confirm": "ยืนยันการซื้อ?",
             "item": {
-                "rest_cnt": "",
-                "use_cnt": "",
-                "expire": "",
-                "no_available": "",
-                "infinity_count": "",
-                "not_found": ""
+                "rest_cnt": "เหลือ {0}",
+                "use_cnt": "ใช้ได้ {0} ครั้ง",
+                "expire": "ระยะเวลา {0}",
+                "no_available": "ไม่มีไอเทมที่ใช้ได้",
+                "infinity_count": "จำนวนไม่จำกัด",
+                "not_found": "ไม่พบไอเทม"
             },
             "history": {
-                "no_record": "",
-                "delete_button": "",
-                "confirm_delete": "",
-                "title": "",
-                "use": "",
-                "rest_cnt": "",
-                "infinity_use": "",
-                "expire": "",
-                "forever": "",
-                "confirm_use": "",
-                "unable_to_use": "",
-                "not_found": ""
+                "no_record": "ยังไม่มีการซื้อ",
+                "delete_button": "ลบ",
+                "confirm_delete": "แน่ใจว่าต้องการลบไอเทมที่ซื้อไปนี้?",
+                "title": "ประวัติการซื้อ",
+                "use": "ใช้งาน",
+                "rest_cnt": "ใช้ได้อีก {0} ครั้ง",
+                "infinity_use": "ใช้ได้ไม่จำกัด",
+                "expire": "หมดอายุ {0}",
+                "forever": "ใช้ได้ตลอดไป",
+                "confirm_use": "ยืนยันการใช้งาน?",
+                "unable_to_use": "ไม่สามารถใช้ไอเทมนี้ได้",
+                "not_found": "ไม่พบไอเทม"
             },
             "query-modal": {
                 "purchase": {
-                    "title": ""
+                    "title": "ซื้อไอเทม"
                 },
                 "use": {
-                    "title": ""
+                    "title": "ใช้ไอเทม"
                 }
             },
             "use_result": {
-                "success": "",
+                "success": "สำเร็จ",
                 "fail": {
-                    "unknown": "",
-                    "error": "",
-                    "not_enough": "",
-                    "cannot": "",
-                    "fail_expire": "",
-                    "id_not_found": "",
-                    "expired": ""
+                    "unknown": "ข้อผิดพลาดที่ไม่ทราบสาเหตุ",
+                    "error": "เกิดข้อผิดพลาดขณะใช้ไอเทม",
+                    "not_enough": "จำนวนครั้งการใช้งานไม่เพียงพอ",
+                    "cannot": "ไม่สามารถใช้ไอเทมนี้ได้",
+                    "fail_expire": "เกิดข้อผิดพลาดขณะหมดอายุไอเทม",
+                    "id_not_found": "ไม่พบ ID ของไอเทม",
+                    "expired": "ไอเทมหมดอายุแล้ว"
                 }
             },
             "purchase_result": {
-                "success": "",
+                "success": "สำเร็จ",
                 "fail": {
-                    "unknown": "",
-                    "not_enough_item": "",
-                    "cannot": "",
-                    "not_enough_money": ""
+                    "unknown": "ข้อผิดพลาดที่ไม่ทราบสาเหตุ",
+                    "not_enough_item": "ไอเทมไม่เพียงพอ",
+                    "cannot": "ไม่สามารถซื้อไอเทมนี้ได้",
+                    "not_enough_money": "เงินไม่เพียงพอ"
                 }
             },
             "edit-result": {
                 "fail": {
-                    "not-found": ""
+                    "not-found": "ไม่พบไอเทม"
                 }
             }
         },
         "admin": {
             "permissions": {
-                "add-item": "",
-                "remove-item": "",
-                "view-history": "",
-                "remove-history": ""
+                "add-item": "เพิ่มไอเทมใน Store",
+                "remove-item": "ลบไอเทมใน Store",
+                "view-history": "ดูประวัติการซื้อของผู้อื่น",
+                "remove-history": "ลบประวัติการซื้อของผู้อื่น"
             }
         }
     }

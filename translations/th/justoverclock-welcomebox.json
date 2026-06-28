@@ -1,23 +1,23 @@
 {
     "flarum-ext-welcomebox": {
         "forum": {
-            "wback": "",
-            "npost": "",
-            "discussion": "",
-            "welcomeguest": "",
-            "notregistered": "",
-            "goToProfile": "",
-            "SettingsLink": "",
-            "tooltipProfile": "",
-            "tooltipMentions": "",
-            "tooltipDisclist": "",
-            "lastSeen": ""
+            "wback": "ยินดีต้อนรับกลับ,",
+            "npost": "=> core.ref.posts",
+            "discussion": "=> core.ref.discussions",
+            "welcomeguest": "ยินดีต้อนรับ Guest",
+            "notregistered": "คุณยังไม่ได้สมัครสมาชิกในforum นี้",
+            "goToProfile": "โปรไฟล์",
+            "SettingsLink": "การตั้งค่า",
+            "tooltipProfile": "โปรไฟล์",
+            "tooltipMentions": "การกล่าวถึง",
+            "tooltipDisclist": "รายการโพสต์ของฉัน",
+            "lastSeen": "การเยี่ยมชมล่าสุด"
         },
         "admin": {
-            "enablepostbox": "",
-            "img": "",
-            "img-help": "",
-            "UseWidget": ""
+            "enablepostbox": "เปิดใช้งาน Welcome Box สำหรับ guest",
+            "img": "Image url (Guest Box)",
+            "img-help": "ใส่ URL ของภาพ guest box ที่นี่",
+            "UseWidget": "ใช้ Widget Version"
         }
     }
 }

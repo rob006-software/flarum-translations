@@ -2,52 +2,52 @@
     "clarkwinkelmann-scratchpad": {
         "admin": {
             "settings": {
-                "title": "",
-                "single-column": "",
-                "theme": "",
-                "theme-auto": "",
-                "indent": "",
-                "npm-install-command": "",
-                "webpack-command": "",
-                "empty-for-default": "",
-                "validate-live": "",
-                "compile-automatically": ""
+                "title": "การตั้งค่า Scratchpad",
+                "single-column": "จัดกลุ่ม editor ในคอลัมน์เดียวแทนที่จะเป็น 3 คอลัมน์",
+                "theme": "CodeMirror theme (ต้อง refresh เพื่อให้มีผล)",
+                "theme-auto": "อัตโนมัติ (ใช้ default บน light theme และ darcula บน dark theme)",
+                "indent": "จำนวนช่องว่างสำหรับ indent",
+                "npm-install-command": "NPM install command",
+                "webpack-command": "Webpack command",
+                "empty-for-default": "เว้นว่างเพื่อใช้คำสั่งเริ่มต้น",
+                "validate-live": "ส่ง request ไปยัง homepage เพื่อตรวจสอบ Less และ PHP ก่อนบันทึก",
+                "compile-automatically": "Compile JS อัตโนมัติเมื่อบันทึก"
             },
             "controls": {
-                "refresh": "",
-                "save": "",
-                "compile": "",
-                "settings": "",
-                "new": "",
-                "new-confirmation": "",
-                "delete": "",
-                "delete-confirmation": "",
-                "enable": "",
-                "disable": ""
+                "refresh": "รีเฟรช",
+                "save": "บันทึก",
+                "compile": "Compile JS",
+                "settings": "ตั้งค่า Editor",
+                "new": "ใหม่",
+                "new-confirmation": "Scratchpad ปัจจุบันยังไม่ได้บันทึก ทิ้งและสร้างใหม่เลยไหม?",
+                "delete": "ลบ",
+                "delete-confirmation": "ลบ \"{title}\" ?",
+                "enable": "คลิกเพื่อเปิดใช้งาน",
+                "disable": "คลิกเพื่อปิดใช้งาน"
             },
             "fields": {
-                "title": "",
-                "admin_js": "",
-                "forum_js": "",
-                "admin_less": "",
-                "forum_less": "",
-                "php": ""
+                "title": "ชื่อ Scratchpad",
+                "admin_js": "Admin JS",
+                "forum_js": "Forum JS",
+                "admin_less": "Admin Less",
+                "forum_less": "Forum Less",
+                "php": "PHP"
             },
             "placeholders": {
-                "untitled": "",
-                "php-comment": "",
-                "js-log": ""
+                "untitled": "ไม่มีชื่อ",
+                "php-comment": "ลงทะเบียน extenders ที่นี่",
+                "js-log": "Hello, {frontend}!"
             },
             "compilation-alert": {
-                "success": "",
-                "failure": "",
-                "view-output": ""
+                "success": "Compile สำเร็จ!",
+                "failure": "Compile ล้มเหลว!",
+                "view-output": "ดู output"
             },
             "compilation-modal": {
-                "title": "",
-                "webpack": "",
-                "npm": "",
-                "npm-not-run": ""
+                "title": "Compilation output",
+                "webpack": "Webpack output",
+                "npm": "NPM output",
+                "npm-not-run": "NPM ไม่ได้ทำงาน"
             }
         }
     }

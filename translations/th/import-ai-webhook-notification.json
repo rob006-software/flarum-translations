@@ -2,29 +2,29 @@
     "import-ai-webhook-notification": {
         "forum": {
             "settings": {
-                "notify_webhook_label": ""
+                "notify_webhook_label": "Webhook"
             }
         },
         "admin": {
             "settings": {
-                "webhook_url_label": "",
-                "webhook_url_help": "",
-                "webhook_token_label": "",
-                "webhook_token_help": "",
-                "timeout_label": "",
-                "timeout_help": "",
-                "retry_count_label": "",
-                "retry_count_help": "",
-                "channel_icon_label": "",
-                "channel_icon_help": "",
-                "channel_label_label": "",
-                "channel_label_help": ""
+                "webhook_url_label": "Webhook URL",
+                "webhook_url_help": "URL ที่จะส่ง webhook แจ้งเตือนไป ปล่อยว่างเพื่อปิดใช้งาน",
+                "webhook_token_label": "Bearer Token",
+                "webhook_token_help": "Bearer token ที่เป็นทางเลือกสำหรับ Authorization header",
+                "timeout_label": "Timeout (seconds)",
+                "timeout_help": "Request timeout ในหน่วยวินาที ค่าเริ่มต้นคือ 30",
+                "retry_count_label": "Retry Count",
+                "retry_count_help": "จำนวนครั้งในการพยายามอีกครั้งหากล้มเหลว ค่าเริ่มต้นคือ 3",
+                "channel_icon_label": "Channel Icon",
+                "channel_icon_help": " icon class (เช่น fas fa-globe)",
+                "channel_label_label": "Channel Label",
+                "channel_label_help": "ชื่อแสดงผลสำหรับ notification channel ที่แสดงในการตั้งค่าผู้ใช้"
             },
             "validation": {
-                "timeout_invalid": "",
-                "retry_count_invalid": "",
-                "channel_icon_invalid": "",
-                "channel_label_required": ""
+                "timeout_invalid": "Timeout ต้องอยู่ระหว่าง 1 ถึง 300 วินาที",
+                "retry_count_invalid": "Retry count ต้องอยู่ระหว่าง 0 ถึง 10",
+                "channel_icon_invalid": "รูปแบบไอคอนไม่ถูกต้อง ใช้รูปแบบ Font Awesome (เช่น fas fa-globe)",
+                "channel_label_required": "Channel label ต้องการเมื่อตั้งค่าไอคอน"
             }
         }
     }

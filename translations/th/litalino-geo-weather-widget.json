@@ -2,21 +2,21 @@
     "geo-weather": {
         "forum": {
             "widget": {
-                "title": ""
+                "title": "Geo Weather"
             },
-            "unknown": "",
-            "temp": "",
-            "not-supported": "",
-            "wind": "",
-            "rain": "",
-            "clouds": "",
-            "humidity": ""
+            "unknown": "ไม่ทราบ",
+            "temp": "0°",
+            "not-supported": "ไม่รองรับ Geolocation โดยเบราว์เซอร์นี้",
+            "wind": "ความเร็ว",
+            "rain": "ฝน",
+            "clouds": "เมฆ",
+            "humidity": "ความชื้น"
         },
         "admin": {
-            "apiKey": "",
-            "apiKey-help": "",
-            "lang": "",
-            "lang-help": ""
+            "apiKey": "Api Key",
+            "apiKey-help": "วาง API key ฟรีของคุณที่สร้างที่ https://openweathermap.org/api",
+            "lang": "เลือก Output Language (1 prefix เท่านั้น)",
+            "lang-help": "ในช่องนี้จะเป็นคำนำหน้าภาษาของคุณ (เช่น it, fr, en) ตรวจสอบของคุณที่ <strong>https://openweathermap.org/api/one-call-api#multi</strong>"
         }
     }
 }

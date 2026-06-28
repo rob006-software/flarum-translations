@@ -1,29 +1,29 @@
 {
     "ziven-checkin": {
         "forum": {
-            "check-in": "",
-            "checked-in-day": "",
-            "checked-in-days": "",
-            "check-in-success": "",
-            "check-in-failed": "",
-            "try-again-later": ""
+            "check-in": "Check In",
+            "checked-in-day": "Check In แล้ว {count} วัน",
+            "checked-in-days": "Check In แล้ว {count} วัน",
+            "check-in-success": "Check In สำเร็จ",
+            "check-in-failed": "Check In ไม่สำเร็จ",
+            "try-again-later": "กรุณาลองใหม่ภายหลัง"
         },
         "admin": {
             "settings": {
-                "auto-check-in": "",
-                "auto-check-in-delay": "",
-                "timezone": "",
-                "reward-money": "",
-                "reward-money-requirement": "",
-                "check-in-success-prompt-type": "",
-                "check-in-success-prompt-text": "",
-                "check-in-success-prompt-reward-text": "",
-                "check-in-success-prompt-example-text": "",
-                "check-in-success-prompt-example-reward-text": "",
-                "allow-check-in": "",
-                "None": "",
-                "Alert": "",
-                "Modal": ""
+                "auto-check-in": "Check in อัตโนมัติ",
+                "auto-check-in-delay": "หน่วงเวลา Auto Check in (มิลลิวินาที)",
+                "timezone": "Timezone",
+                "reward-money": "รางวัล Check in",
+                "reward-money-requirement": "ต้องใช้ extension <code>antoinefr/flarum-ext-money</code>",
+                "check-in-success-prompt-type": "รูปแบบการแจ้งเตือนเมื่อ Check in สำเร็จ",
+                "check-in-success-prompt-text": "ข้อความแจ้งเตือน",
+                "check-in-success-prompt-reward-text": "ข้อความแจ้งเตือนรางวัล",
+                "check-in-success-prompt-example-text": "ตัวอย่าง: คุณ Check in ครบ [days] วันแล้ว",
+                "check-in-success-prompt-example-reward-text": "ตัวอย่าง: ได้รับรางวัล [reward]",
+                "allow-check-in": "อนุญาตให้ Check in",
+                "None": "None",
+                "Alert": "Alert",
+                "Modal": "Modal"
             }
         }
     }

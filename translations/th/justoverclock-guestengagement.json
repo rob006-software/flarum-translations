@@ -1,25 +1,25 @@
 {
     "flarum-ext-guestengagement": {
         "forum": {
-            "signupbtn": "",
-            "hello": "",
-            "whenucreate": "",
-            "uwillreceive": "",
-            "hellops": "",
-            "whenucreateps": "",
-            "uwillreceiveps": ""
+            "signupbtn": "Signup",
+            "hello": "สวัสดี! ดูเหมือนคุณสนใจฟอรัมนี้ แต่คุณยังไม่ได้ลงทะเบียนบัญชี",
+            "whenucreate": "เมื่อคุณสร้างบัญชี เราจะสามารถจำได้อย่างแม่นยำว่าคุณได้อ่านอะไร เพื่อให้คุณสามารถเลือกตรงจุดที่คุณหยุดไป",
+            "uwillreceive": "คุณจะได้รับการแจ้งเตือน ที่นี่หรือโดยอีเมล เมื่อมีคนตอบคุณ คุณยังสามารถ \"ชอบ\" เพื่อแสดงความชื่นชม",
+            "hellops": "สวัสดี! ดูเหมือนคุณสนใจโพสต์นี้!",
+            "whenucreateps": "เมื่อคุณสร้างบัญชี เราจะสามารถจำได้อย่างแม่นยำว่าคุณได้อ่านและคุณจะได้รับ",
+            "uwillreceiveps": "การแจ้งเตือน ที่นี่หรือโดยอีเมล เมื่อมีคนตอบคุณ คุณยังสามารถ \"ชอบ\" เพื่อแสดงความชื่นชม"
         },
         "admin": {
-            "afterxpost": "",
-            "afterxpostdesc": "",
-            "autohide": "",
-            "autohidedesc": "",
-            "changetextbox": "",
-            "changetextboxdesc": "",
-            "maintitle": "",
-            "maintitledesc": "",
-            "enablealbox": "",
-            "enablepostbox": ""
+            "afterxpost": "แสดงกล่องเตือน หลังจาก X post",
+            "afterxpostdesc": "ยอมรับตัวเลข ค่าเริ่มต้นคือ 0 (กล่องจะแสดงด้านบนของ post streams)",
+            "autohide": "ซ่อนกล่องโดยอัตโนมัติหลังจาก X วินาที",
+            "autohidedesc": "ใช้มิลลิวินาที เช่น สำหรับ 5 วินาที ใช้ 5000",
+            "changetextbox": "เปลี่ยนข้อความสำหรับกล่อง",
+            "changetextboxdesc": "ที่นี่คุณสามารถตั้งค่าข้อความสำหรับ alert box ที่อยู่ระหว่าง POSTS",
+            "maintitle": "เปลี่ยน TITLE สำหรับกล่อง",
+            "maintitledesc": "ที่นี่คุณสามารถตั้งค่า Title สำหรับ alert box ที่อยู่ระหว่าง POSTS",
+            "enablealbox": "เปิด/ปิด Alert Box บน Homepage",
+            "enablepostbox": "เปิด/ปิด \"Between Post\" box"
         }
     }
 }

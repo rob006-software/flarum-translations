@@ -4,71 +4,71 @@
             "admin": {
                 "settings_page": {
                     "display_options": {
-                        "heading": "",
+                        "heading": "การตั้งค่าการแสดงผล",
                         "options": {
                             "position": {
-                                "above-tags-link": "",
-                                "below-tags-link": ""
+                                "above-tags-link": "เหนือปุ่ม \"Tags\"",
+                                "below-tags-link": "ใต้ปุ่ม \"Tags\""
                             }
                         },
                         "labels": {
-                            "position": "",
-                            "top_spacer": "",
-                            "bottom_spacer": ""
+                            "position": "ตำแหน่งลิงก์",
+                            "top_spacer": "แสดงช่องว่างด้านบน",
+                            "bottom_spacer": "แสดงช่องว่างด้านล่าง"
                         }
                     },
                     "link_table": {
-                        "heading": "",
-                        "add_link_btn": "",
-                        "confirm_delete": "",
+                        "heading": "ปรับแต่งลิงก์",
+                        "add_link_btn": "เพิ่มลิงก์ใหม่",
+                        "confirm_delete": "ยืนยันการลบลิงก์ \"{link}\"",
                         "alert": {
-                            "fix_errors": ""
+                            "fix_errors": "คุณต้องแก้ไขปัญหาด้านบนก่อนบันทึกการเปลี่ยนแปลง"
                         },
                         "table": {
                             "header": {
-                                "position": "",
-                                "icon": "",
-                                "text": "",
-                                "url": "",
-                                "internal": "",
-                                "delete": ""
+                                "position": "ตำแหน่ง",
+                                "icon": "ไอคอนลิงก์",
+                                "text": "ข้อความลิงก์",
+                                "url": "URL ลิงก์",
+                                "internal": "เป็น URL ของ Flarum?",
+                                "delete": "ลบ"
                             },
                             "placeholders": {
-                                "icon": "",
-                                "text": "",
-                                "url": ""
+                                "icon": "fas fa-link",
+                                "text": "เว็บไซต์ของฉัน",
+                                "url": "https://flarum.org"
                             },
                             "tooltips": {
-                                "move_up": "",
-                                "move_down": "",
-                                "icon_preview": ""
+                                "move_up": "ย้ายขึ้น",
+                                "move_down": "ย้ายลง",
+                                "icon_preview": "ตัวอย่างไอคอน"
                             }
                         },
                         "save_btn": {
-                            "dirty": "",
-                            "saving": "",
-                            "saved": "",
-                            "fix_errors": ""
+                            "dirty": "บันทึกการตั้งค่า",
+                            "saving": "กำลังบันทึกการเปลี่ยนแปลง...",
+                            "saved": "ไม่มีการเปลี่ยนแปลงที่ต้องบันทึก",
+                            "fix_errors": "แก้ไขข้อผิดพลาดก่อนบันทึก"
                         }
                     },
                     "new_link_modal": {
-                        "title": "",
+                        "title": "เพิ่มลิงก์ใหม่",
                         "submit_btn": {
-                            "add": "",
-                            "loading": "",
-                            "fix_url": "",
-                            "invalid_form": ""
+                            "add": "เพิ่มลิงก์",
+                            "loading": "กำลังเพิ่มลิงก์",
+                            "fix_url": "URL ไม่ถูกต้อง",
+                            "invalid_form": "กรอกข้อมูลทุกช่องให้ครบ"
                         },
                         "labels": {
-                            "icon": "",
-                            "text": "",
-                            "url": "",
-                            "internal": ""
+                            "icon": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.icon",
+                            "text": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.text",
+                            "url": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.url",
+                            "internal": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.internal"
                         },
                         "placeholders": {
-                            "icon": "",
-                            "text": "",
-                            "url": ""
+                            "icon": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.placeholders.icon",
+                            "text": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.placeholders.text",
+                            "url": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.placeholders.url"
                         }
                     }
                 }

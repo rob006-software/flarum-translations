@@ -2,35 +2,35 @@
     "xypp-pay-to-read": {
         "admin": {
             "permission": {
-                "bypass": ""
+                "bypass": "ข้ามการชำระเงิน"
             }
         },
         "forum": {
-            "preview": "",
-            "nopaidTip": "",
-            "haspaidTip": "",
-            "paymentTip": "",
-            "paymentTipMail": "",
-            "payment-notfound": "",
+            "preview": "ตัวอย่างเนื้อหาแบบ Pay-To-Read",
+            "nopaidTip": "ยังไม่มีใครจ่ายเงิน",
+            "haspaidTip": "{0} คนจ่ายเงินแล้ว",
+            "paymentTip": "เนื้อหาแบบ Pay-To-Read",
+            "paymentTipMail": "เนื้อหาแบบ Pay-To-Read ถูกซ่อนไว้ กรุณาดูโพสต์ต้นฉบับ",
+            "payment-notfound": "ไม่พบ Payment ID#{0} ตรวจสอบ ID ใน post หรือลบ 'id={0}' ออก",
             "payment-req": {
-                "text": "",
-                "btn": ""
+                "text": "ผู้เขียนตั้งให้เนื้อหานี้ต้องชำระเงิน ราคา {0} 量见币",
+                "btn": "ชำระเงิน"
             },
             "payment": {
-                "title": "",
-                "tip": "",
-                "btn": "",
-                "loading": ""
+                "title": "ยืนยันการชำระเงิน",
+                "tip": "การเข้าถึงเนื้อหานี้จะใช้ {0} 量见币 คุณมีอยู่ {1} 量见币 ยืนยันหรือไม่?",
+                "btn": "ชำระเงินเพื่ออ่าน",
+                "loading": "กำลังโหลดข้อมูลการชำระเงิน"
             },
             "error": {
-                "paid": "",
-                "missing": "",
-                "no_enough_money": "",
-                "internal_err": ""
+                "paid": "คุณชำระเงินสำหรับเนื้อหานี้แล้ว ลอง refresh หน้าดู",
+                "missing": "ไม่พบเนื้อหานี้",
+                "no_enough_money": "คุณมีเงินไม่เพียงพอ",
+                "internal_err": "เกิดข้อผิดพลาดภายใน"
             },
             "editor": {
-                "help": "",
-                "label": ""
+                "help": "ตั้ง id เป็น 0 หรือว่างเปล่าเพื่อสร้าง pay to read ใหม่ ไม่ใช่แก้ไข id เดิม เพื่อให้ผู้ที่จ่ายเงินไปแล้วยังคงอ่านได้",
+                "label": "แทรกเนื้อหาแบบ Pay to Read"
             }
         }
     }

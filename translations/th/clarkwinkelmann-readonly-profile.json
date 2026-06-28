@@ -2,20 +2,20 @@
     "clarkwinkelmann-readonly-profile": {
         "admin": {
             "settings": {
-                "disableLogin": "",
-                "disableAccessTokens": "",
-                "disableEmailChange": "",
-                "disablePasswordChange": "",
-                "disableAvatarEdit": ""
+                "disableLogin": "ปิดใช้งาน Login",
+                "disableAccessTokens": "ปิดใช้งานการสร้าง Access Token",
+                "disableEmailChange": "ปิดใช้งานการเปลี่ยน Email",
+                "disablePasswordChange": "ปิดใช้งานการเปลี่ยนและรีเซ็ตรหัสผ่าน",
+                "disableAvatarEdit": "ปิดใช้งานการแก้ไข Avatar"
             }
         },
         "api": {
             "blocked_actions": {
-                "login": "",
-                "accessToken": "",
-                "email": "",
-                "password": "",
-                "avatar": ""
+                "login": "ปิดใช้งาน Endpoint การเข้าสู่ระบบแล้ว",
+                "accessToken": "ปิดใช้งานการสร้าง Access Token แล้ว",
+                "email": "ไม่สามารถเปลี่ยน Email จากหน้านี้ได้",
+                "password": "ไม่สามารถเปลี่ยนรหัสผ่านจากหน้านี้ได้",
+                "avatar": "ปิดใช้งานการแก้ไข Avatar จากหน้านี้แล้ว"
             }
         }
     }

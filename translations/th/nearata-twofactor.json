@@ -2,66 +2,66 @@
     "nearata-twofactor": {
         "admin": {
             "settings": {
-                "generate_app_backups": ""
+                "generate_app_backups": "สร้างรหัสสำรองสำหรับ app"
             },
             "permissions": {
-                "can_enable_twofactor": ""
+                "can_enable_twofactor": "เปิดใช้งาน Two Factor ได้"
             }
         },
         "forum": {
             "settings": {
-                "section_title": "",
-                "configured": "",
-                "not_configured": "",
+                "section_title": "Two-Factor Authentication",
+                "configured": "ตั้งค่าแล้ว",
+                "not_configured": "ยังไม่ได้ตั้งค่า",
                 "app": {
-                    "button_label": "",
-                    "button_help": "",
+                    "button_label": "Authentication app",
+                    "button_help": "คุณจะได้รับรหัสเข้าถึงผ่าน authentication app ของคุณ",
                     "setup": {
-                        "title": "",
-                        "password_placeholder": "",
-                        "passcode_placeholder": "",
-                        "close_button_label": "",
-                        "invalid_passcode": "",
+                        "title": "ตั้งค่า Authentication App",
+                        "password_placeholder": "รหัสผ่าน",
+                        "passcode_placeholder": "รหัส 6 หลัก",
+                        "close_button_label": "ปิด",
+                        "invalid_passcode": "รหัสผ่านหรือ passcode ไม่ถูกต้อง",
                         "disable": {
-                            "enter_code_disable": "",
-                            "button_label": "",
-                            "success": ""
+                            "enter_code_disable": "ระบุรหัสเพื่อปิดใช้งาน Two-Factor Authentication App",
+                            "button_label": "ปิดใช้งาน",
+                            "success": "ปิดใช้งาน Authentication APP แล้ว"
                         },
                         "enable": {
-                            "button_label": "",
-                            "success": "",
-                            "scan_qr": "",
-                            "enter_code_manually": "",
+                            "button_label": "เปิดใช้งาน",
+                            "success": "เปิดใช้งาน Authentication APP แล้ว",
+                            "scan_qr": "สแกน QR code นี้ด้วยอุปกรณ์ two factor authentication เพื่อตั้งค่าบัญชีของคุณ",
+                            "enter_code_manually": "ระบุ key ด้วยตนเองแทน",
                             "backups": {
-                                "message": "",
-                                "download_button_label": "",
-                                "download_file_format": "",
-                                "copy_button_label": ""
+                                "message": "เก็บรหัสกู้คืนเหล่านี้ไว้ในที่ปลอดภัย หากคุณสูญเสียอุปกรณ์ที่เปิดใช้ two factor รหัสแบบใช้ครั้งเดียวเหล่านี้สามารถใช้ตามลำดับที่ระบุเพื่อเข้าสู่ระบบบัญชีของคุณได้\n",
+                                "download_button_label": "Download",
+                                "download_file_format": "{website_title} | {website_url}\n\nเก็บรหัสสำรองเหล่านี้ไว้ในที่ปลอดภัยแต่เข้าถึงได้\n\nรายการรหัส\n\n{codes}\n\n* คุณสามารถใช้รหัสสำรองแต่ละรหัสได้เพียงครั้งเดียว\n* รหัสเหล่านี้ต้องใช้ตามลำดับที่ระบุ\n* รหัสเหล่านี้สร้างเมื่อ: {date}\n",
+                                "copy_button_label": "คัดลอก"
                             }
                         }
                     }
                 }
             },
             "login": {
-                "title": "",
-                "placeholder_label": "",
-                "submit_button_label": "",
+                "title": "Two-Factor Authentication",
+                "placeholder_label": "เลือกวิธีการ authentication...",
+                "submit_button_label": "เข้าสู่ระบบ",
                 "auth_buttons": {
-                    "app": ""
+                    "app": "Authentication App"
                 },
                 "app": {
-                    "invalid_passcode": "",
-                    "passcode_placeholder": ""
+                    "invalid_passcode": "Passcode ไม่ถูกต้อง",
+                    "passcode_placeholder": "รหัส 6 หลัก"
                 }
             }
         },
         "lib": {
             "edit_user": {
-                "section_title": "",
-                "disable_confirmation": "",
-                "placeholder_text": "",
+                "section_title": "Two-Factor Authentication",
+                "disable_confirmation": "แน่ใจหรือไม่? คุณกำลังจะปิดใช้งานวิธีการ authentication นี้สำหรับผู้ใช้",
+                "placeholder_text": "ไม่มีอะไรให้ปิดใช้งาน",
                 "app": {
-                    "label": ""
+                    "label": "Authentication App"
                 }
             }
         }

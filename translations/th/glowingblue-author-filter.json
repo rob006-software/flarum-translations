@@ -2,20 +2,20 @@
     "glowingblue-author-filter": {
         "admin": {
             "settings": {
-                "intro": "",
-                "min_length": "",
-                "result_count": ""
+                "intro": "ผู้ใช้ที่ไม่มีสิทธิ์ <code>ค้นหาผู้ใช้</code> จะไม่เห็นช่องค้นหา ตั้งเป็น <code>ทุกคน</code> สำหรับผู้ใช้ทั้งหมด หรือระดับที่คุณต้องการ",
+                "min_length": "จำนวนตัวอักษรขั้นต่ำก่อนเริ่มค้นหา",
+                "result_count": "จำนวนผลลัพธ์สูงสุดใน Dropdown"
             }
         },
         "forum": {
             "index_page": {
                 "filter_user": {
-                    "accessible_label": "",
-                    "all": "",
-                    "label": "",
-                    "search_label": "",
-                    "no_results": "",
-                    "remove_filter": ""
+                    "accessible_label": "กรองตามผู้เขียน",
+                    "all": "ทั้งหมด",
+                    "label": "กรองตามผู้เขียน: {text}",
+                    "search_label": "ค้นหาผู้ใช้...",
+                    "no_results": "ไม่พบผลลัพธ์",
+                    "remove_filter": "ลบตัวกรองผู้เขียน"
                 }
             }
         }

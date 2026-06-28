@@ -2,14 +2,14 @@
     "datlechin-bbcode-hide-content": {
         "admin": {
             "permissions": {
-                "bypass_like_label": "",
-                "bypass_reply_label": ""
+                "bypass_like_label": "Bypass เงื่อนไขการ like",
+                "bypass_reply_label": "Bypass เงื่อนไขการตอบกลับ"
             }
         },
         "forum": {
-            "must_be_logged_in": "",
-            "must_liked": "",
-            "must_replied": ""
+            "must_be_logged_in": "คุณต้อง login เพื่อดูเนื้อหานี้",
+            "must_liked": "คุณต้อง like เนื้อหานี้ก่อนจึงจะดูได้",
+            "must_replied": "คุณต้องตอบกลับเนื้อหานี้ก่อนจึงจะดูได้"
         }
     }
 }

@@ -2,33 +2,33 @@
     "fof-moderator-notes": {
         "admin": {
             "permissions": {
-                "createnotes": "",
-                "viewnotes": "",
-                "deletenotes": ""
+                "createnotes": "สร้างบันทึกของผู้ดูแล",
+                "viewnotes": "ดูบันทึกของผู้ดูแล",
+                "deletenotes": "ลบบันทึกของผู้ดูแล"
             }
         },
         "forum": {
-            "no_content_given": "",
+            "no_content_given": "ไม่อนุญาตให้บันทึกว่างเปล่า",
             "moderatorNotes": {
-                "created_text": "",
-                "add_button": "",
-                "create-heading": "",
-                "dismiss_button": "",
-                "input_heading": "",
-                "noNotes": "",
-                "submit_button": "",
-                "delete": "",
-                "confirm": "",
-                "filter_by_me": ""
+                "created_text": "{username} สร้างบันทึกนี้เมื่อ {date}",
+                "add_button": "บันทึกใหม่",
+                "create-heading": "สร้างบันทึกผู้ดูแลใหม่",
+                "dismiss_button": "เสร็จสิ้น",
+                "input_heading": "กรอกบันทึกสำหรับ <strong>{username}</strong> (รองรับ Markdown)",
+                "noNotes": "ดูเหมือนยังไม่มีบันทึกที่นี่",
+                "submit_button": "บันทึกโน้ต",
+                "delete": "ลบ",
+                "confirm": "คุณแน่ใจหรือไม่ว่าต้องการลบบันทึกนี้?",
+                "filter_by_me": "เฉพาะบันทึกที่ฉันสร้าง"
             },
             "user": {
-                "notes": ""
+                "notes": "บันทึกของผู้ดูแล"
             }
         },
         "api": {
-            "auto_note": "",
-            "auto_note_actor": "",
-            "no_reason_provided": ""
+            "auto_note": "_ฉันเข้าสู่ระบบในฐานะผู้ใช้นี้:_ {reason}",
+            "auto_note_actor": "_เข้าสู่ระบบในฐานะ_ @{username}: {reason}",
+            "no_reason_provided": "ไม่ได้ระบุเหตุผล"
         }
     }
 }

@@ -2,85 +2,85 @@
     "fof-anti-spam": {
         "admin": {
             "permissions": {
-                "spamblock_users_label": ""
+                "spamblock_users_label": "ผู้ใช้"
             },
             "settings": {
-                "button": "",
+                "button": "ตั้งค่า",
                 "default-actions": {
-                    "delete_user_label": "",
-                    "delete_user_help": "",
-                    "delete_discussions_label": "",
-                    "delete_discussions_help": "",
-                    "delete_posts_label": "",
-                    "delete_posts_help": "",
-                    "heading": "",
-                    "introduction": "",
-                    "move_discussions_to_tags_label": "",
-                    "move_discussions_to_tags_help": ""
+                    "delete_user_label": "ลบ",
+                    "delete_user_help": "ลบ",
+                    "delete_discussions_label": "ลบ",
+                    "delete_discussions_help": "ลบ",
+                    "delete_posts_label": "ลบ",
+                    "delete_posts_help": "ลบ",
+                    "heading": "ค่าเริ่มต้น",
+                    "introduction": "ไม่",
+                    "move_discussions_to_tags_label": "โพสต์",
+                    "move_discussions_to_tags_help": "ลบ"
                 },
                 "stopforumspam": {
-                    "introduction": "",
-                    "username_label": "",
-                    "ip_label": "",
-                    "email_label": "",
-                    "frequency_label": "",
-                    "frequency_help": "",
-                    "api_key_label": "",
-                    "api_key_text": "",
-                    "api_key_instructions_text": "",
-                    "regional_endpoint_label": "",
-                    "regional_endpoint_help": "",
-                    "region_closest_label": "",
-                    "region_europe_label": "",
-                    "region_us_label": "",
-                    "confidence_label": "",
-                    "confidence_help": "",
-                    "email_hash_label": "",
-                    "email_hash_help": "",
-                    "sfs_lookup_label": "",
-                    "sfs_lookup_help": "",
-                    "report_blocked_registrations_label": "",
-                    "report_blocked_registrations_help": ""
+                    "introduction": "ทดสอบ",
+                    "username_label": "ชื่อ",
+                    "ip_label": "เพิ่ม",
+                    "email_label": "email",
+                    "frequency_label": "threshold",
+                    "frequency_help": "เปิดใช้งาน",
+                    "api_key_label": "API",
+                    "api_key_text": "หยุด",
+                    "api_key_instructions_text": "หยุด",
+                    "regional_endpoint_label": "Geographic Access",
+                    "regional_endpoint_help": "ปิด",
+                    "region_closest_label": "ปิด",
+                    "region_europe_label": "Europe",
+                    "region_us_label": "United States",
+                    "confidence_label": "confidence",
+                    "confidence_help": "ทดสอบ",
+                    "email_hash_label": "เพิ่ม",
+                    "email_hash_help": "เพิ่ม",
+                    "sfs_lookup_label": "ตกลง",
+                    "sfs_lookup_help": "เพิ่ม",
+                    "report_blocked_registrations_label": "port",
+                    "report_blocked_registrations_help": "ยืนยัน"
                 }
             },
             "blocked_registrations": {
-                "button": "",
-                "title": "",
-                "no-records": "",
-                "help": "",
-                "attempted-at": "",
-                "ip": "",
-                "email": "",
-                "username": "",
-                "login-provider": "",
-                "login-provider-data": "",
-                "sfs-data": "",
-                "delete_entry": ""
+                "button": "ล็อก",
+                "title": "ล็อก",
+                "no-records": "ไม่",
+                "help": "ลบ",
+                "attempted-at": "attempted at",
+                "ip": "เพิ่ม",
+                "email": "เพิ่ม",
+                "username": "username",
+                "login-provider": "login provider",
+                "login-provider-data": "login",
+                "sfs-data": "หยุด",
+                "delete_entry": "ลบ"
             }
         },
         "forum": {
             "message": {
                 "stopforumspam": {
-                    "blocked": ""
+                    "blocked": "ล็อก"
                 }
             },
             "spammer_modal": {
-                "hard_delete_discussions_label": "",
-                "hard_delete_discussions_help": "",
-                "hard_delete_posts_label": "",
-                "hard_delete_posts_help": "",
-                "hard_delete_user_label": "",
-                "hard_delete_user_help": "",
-                "intro": "",
-                "move_discussions_tag_label": "",
-                "move_discussions_tag_help": "",
-                "process_button": "",
-                "title": "",
-                "report_to_sfs_label": "",
-                "report_to_sfs_help": ""
+                "hard_delete_discussions_label": "ลบ",
+                "hard_delete_discussions_help": "ลบ",
+                "hard_delete_posts_label": "ลบ",
+                "hard_delete_posts_help": "ลบ",
+                "hard_delete_user_label": "ลบ",
+                "hard_delete_user_help": "ลบ",
+                "intro": "ผู้ใช้",
+                "move_discussions_tag_label": "โพสต์",
+                "move_discussions_tag_help": "ปิดใช้งาน",
+                "process_button": "ประมวลผล",
+                "title": "ชื่อ",
+                "report_to_sfs_label": "หยุด",
+                "report_to_sfs_help": "เพิ่ม"
             },
             "user_controls": {
-                "spammer_button": ""
+                "spammer_button": "spam"
             }
         }
     }

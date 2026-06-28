@@ -2,28 +2,28 @@
     "fof-forum-statistics-widget": {
         "forum": {
             "navbar": {
-                "widget_title": "",
-                "discussions_count": "",
-                "posts_count": "",
-                "users_count": "",
-                "latest_member": ""
+                "widget_title": "สถิติฟอรัม",
+                "discussions_count": "โพสต์: {discussionsCount}",
+                "posts_count": "โพสต์: {postsCount}",
+                "users_count": "สมาชิก: {usersCount}",
+                "latest_member": "สมาชิกล่าสุด: "
             }
         },
         "admin": {
             "settings": {
-                "cache_duration_label": "",
-                "cache_duration_help": "",
-                "flush_cache_on_new_registration_label": "",
-                "flush_cache_on_new_registration_help": "",
-                "widget_ignore_private_discussions_label": "",
-                "classic_look_label": "",
-                "classic_look_help": ""
+                "cache_duration_label": "ระยะเวลา Cache",
+                "cache_duration_help": "กำหนดระยะเวลาที่สถิติ Widget จะถูก Cache (เป็นวินาที) ใส่ <code>0</code> เพื่อปิดการ Cache (ไม่แนะนำ)",
+                "flush_cache_on_new_registration_label": "ล้าง Cache สถิติเมื่อมีสมาชิกใหม่",
+                "flush_cache_on_new_registration_help": "หากเปิดใช้งาน Cache สถิติจะถูกล้างเมื่อมีผู้ใช้ใหม่สมัครสมาชิก",
+                "widget_ignore_private_discussions_label": "ไม่นับโพสต์ส่วนตัว",
+                "classic_look_label": "รูปแบบ Classic",
+                "classic_look_help": "กู้คืนรูปแบบ Widget เดิมที่ใช้ก่อนการรวม fof/forum-widgets-core"
             },
             "permissions": {
-                "view_discussions_count_label": "",
-                "view_posts_count_label": "",
-                "view_users_count_label": "",
-                "view_lastest_member_label": ""
+                "view_discussions_count_label": "ดูจำนวนโพสต์ใน Widget สถิติฟอรัม",
+                "view_posts_count_label": "ดูจำนวนโพสต์ใน Widget สถิติฟอรัม",
+                "view_users_count_label": "ดูจำนวนผู้ใช้ใน Widget สถิติฟอรัม",
+                "view_lastest_member_label": "ดูสมาชิกล่าสุดใน Widget สถิติฟอรัม"
             }
         }
     }

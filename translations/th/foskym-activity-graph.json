@@ -2,63 +2,63 @@
     "foskym-activity-graph": {
         "admin": {
             "settings": {
-                "count_comments": "",
-                "count_discussions": "",
-                "count_likes": "",
-                "count_custom_levels_exp_logs": "",
-                "count_invite_user_invites": "",
-                "count_store_purchases": "",
-                "count_polls_create_polls": "",
-                "count_polls_votes": "",
-                "count_username_requests_username": "",
-                "count_username_requests_nickname": "",
-                "count_best_answer_marked": "",
-                "count_badges_assigned": "",
-                "count_achievements_achieved": "",
-                "count_quest_done": "",
-                "tooltip_position": "",
+                "count_comments": "นับ ความเห็น",
+                "count_discussions": "นับ โพสต์",
+                "count_likes": "นับ Likes",
+                "count_custom_levels_exp_logs": "Custom Levels Exp Logs (ต้องการ foskym/flarum-custom-levels)",
+                "count_invite_user_invites": "นับ User Invites (ต้องการ xypp/flarum-invite-user)",
+                "count_store_purchases": "นับ Store Purchases (ต้องการ xypp/store)",
+                "count_polls_create_polls": "นับ Polls ที่สร้าง (ต้องการ fof/polls)",
+                "count_polls_votes": "นับ Poll Votes (ต้องการ fof/polls)",
+                "count_username_requests_username": "นับ Change Username Requests (ต้องการ fof/username-requests)",
+                "count_username_requests_nickname": "นับ Change Nickname Requests (ต้องการ fof/username-requests และ flarum-nicknames)",
+                "count_best_answer_marked": "นับ Best Answer ที่ทำเครื่องหมาย (ต้องการ fof/best-answer)",
+                "count_badges_assigned": "นับ Badges ที่กำหนด (ต้องการ v17development/flarum-user-badges)",
+                "count_achievements_achieved": "นับ Achievements ที่ทำได้ (ต้องการ malago/achievements)",
+                "count_quest_done": "นับ Quests ที่ทำเสร็จ (ต้องการ xypp/forum-quests)",
+                "tooltip_position": "ตำแหน่ง Tooltip",
                 "tooltip_position_options": {
-                    "top": "",
-                    "right": "",
-                    "bottom": "",
-                    "left": ""
+                    "top": "ด้านบน",
+                    "right": "ด้านขวา",
+                    "bottom": "ด้านล่าง",
+                    "left": "ด้านซ้าย"
                 },
-                "times_display_format": "",
-                "times_display_format_help": "",
-                "from_year": "",
-                "from_year_help": ""
+                "times_display_format": "รูปแบบการแสดงเวลา",
+                "times_display_format_help": "ใช้เพื่อแสดงเวลาใน activity graph เช่น \"times\", \"[count] times\"",
+                "from_year": "จากปี",
+                "from_year_help": "ปีที่เริ่มต้นของ activity graph"
             },
             "permissons": {
-                "query-others-activity-graph": ""
+                "query-others-activity-graph": "ค้นหา Activity Graph ของผู้อื่น"
             }
         },
         "forum": {
             "label": {
-                "activity_graph": "",
-                "total_times": "",
-                "name_map": "",
+                "activity_graph": "Activity Graph",
+                "total_times": "รวม {total} ในปีนี้",
+                "name_map": "th",
                 "categories": {
-                    "comments": "",
-                    "discussions": "",
-                    "likes": "",
-                    "custom_levels_exp_logs": "",
-                    "invite_user_invites": "",
-                    "store_purchases": "",
-                    "polls_create_polls": "",
-                    "polls_votes": "",
-                    "username_requests_username": "",
-                    "username_requests_nickname": "",
-                    "best_answer_marked": "",
-                    "badges_assigned": "",
-                    "achievements_achieved": "",
-                    "quest_done": ""
+                    "comments": "ความเห็น",
+                    "discussions": "โพสต์",
+                    "likes": "Likes",
+                    "custom_levels_exp_logs": "Exp Changes",
+                    "invite_user_invites": "Invites",
+                    "store_purchases": "Store Purchases",
+                    "polls_create_polls": "Polls ที่สร้าง",
+                    "polls_votes": "Poll Votes",
+                    "username_requests_username": "Username Change Requests",
+                    "username_requests_nickname": "Nickname Change Requests",
+                    "best_answer_marked": "Best Answer ที่ทำเครื่องหมาย",
+                    "badges_assigned": "Badges ที่กำหนด",
+                    "achievements_achieved": "Achievements ที่ทำได้",
+                    "quest_done": "Quests ที่ทำเสร็จ"
                 }
             }
         },
         "lib": {
             "defaults": {
                 "times_display_format": [
-                    ""
+                    "count"
                 ]
             }
         }

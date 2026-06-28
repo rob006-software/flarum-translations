@@ -1,30 +1,30 @@
 {
     "clarkwinkelmann-emojionearea": {
         "forum": {
-            "picker_button": "",
-            "search_placeholder": "",
+            "picker_button": "Emoji Picker",
+            "search_placeholder": "ค้นหา...",
             "filters": {
-                "tones": "",
-                "recent": "",
-                "smileys_people": "",
-                "animals_nature": "",
-                "food_drink": "",
-                "activity": "",
-                "travel_places": "",
-                "objects": "",
-                "symbols": "",
-                "flags": ""
+                "tones": "โทนสีผิว",
+                "recent": "ล่าสุด",
+                "smileys_people": "หน้ายิ้มและผู้คน",
+                "animals_nature": "สัตว์และธรรมชาติ",
+                "food_drink": "อาหารและเครื่องดื่ม",
+                "activity": "กิจกรรม",
+                "travel_places": "การเดินทางและสถานที่",
+                "objects": "สิ่งของ",
+                "symbols": "สัญลักษณ์",
+                "flags": "ธง"
             }
         },
         "admin": {
             "settings": {
-                "enableSearch": "",
-                "enableRecent": "",
-                "enableTones": "",
-                "filtersPosition": "",
-                "searchPosition": "",
-                "closeOnPick": "",
-                "hideFlarumButton": ""
+                "enableSearch": "เปิดใช้งานการค้นหา",
+                "enableRecent": "เปิดใช้งาน recent",
+                "enableTones": "เปิดใช้งาน tones",
+                "filtersPosition": "ย้ายหมวดหมู่ไปด้านล่าง",
+                "searchPosition": "ย้ายช่องค้นหาและ tones ไปด้านล่าง",
+                "closeOnPick": "ปิด picker เมื่อเลือก emoji แล้ว",
+                "hideFlarumButton": "ซ่อนปุ่ม emoji picker ของ Flarum"
             }
         }
     }

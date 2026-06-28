@@ -2,24 +2,24 @@
     "clarkwinkelmann-composer-page": {
         "admin": {
             "settings": {
-                "onlyInTags": "",
-                "onlyInTagsHelp": "",
-                "forPrivateDiscussions": "",
-                "forPrivateDiscussionsHelp": ""
+                "onlyInTags": "เฉพาะในแท็กต่อไปนี้ (ไม่บังคับ)",
+                "onlyInTagsHelp": "รายการ slug ของแท็กคั่นด้วยเครื่องหมายจุลภาค ปล่อยว่างไว้เพื่อใช้หน้าเสมอ แม้ว่าจะยังไม่ได้เลือกแท็ก\n",
+                "forPrivateDiscussions": "ใช้สำหรับโพสต์ส่วนตัว",
+                "forPrivateDiscussionsHelp": "รวม Byobu Discussion Composer เข้ากับหน้านี้"
             }
         },
         "forum": {
             "nav": {
-                "cancel": "",
-                "continue": ""
+                "cancel": "ออกจาก Composer",
+                "continue": "ดำเนินโพสต์ต่อ"
             },
             "page": {
-                "title": "",
-                "heading": ""
+                "title": "เริ่มโพสต์",
+                "heading": "เริ่มโพสต์"
             },
             "page-private": {
-                "title": "",
-                "heading": ""
+                "title": "เริ่มโพสต์ส่วนตัว",
+                "heading": "เริ่มโพสต์ส่วนตัว"
             }
         }
     }

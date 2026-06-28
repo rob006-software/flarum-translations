@@ -3,40 +3,40 @@
         "admin": {
             "settings": {
                 "proxy": {
-                    "title": "",
-                    "helptext": ""
+                    "title": "Proxy gravatar",
+                    "helptext": "โดยค่าเริ่มต้น URL gravatar ดึงมาจาก gravatar.com โดยตรง สิ่งนี้เปิดใช้งานคำขอ gravatar ทั้งหมดให้บริการโดยฟอรั่มเอง"
                 },
                 "replace-flarum-custom": {
-                    "title": "",
-                    "helptext": ""
+                    "title": "แทนที่ avatar ที่ upload ในฟอรั่ม",
+                    "helptext": "แทนที่ avatar ที่อัปโหลดไปยังฟอรั่มด้วย Gravatar"
                 },
                 "defaults": {
-                    "title": "",
-                    "helptext": "",
-                    "mp_label": "",
-                    "identicon_label": "",
-                    "monsterid_label": "",
-                    "wavatar_label": "",
-                    "retro_label": "",
-                    "robohash_label": ""
+                    "title": "ค่าเริ่มต้น",
+                    "helptext": "เกิดอะไรขึ้นเมื่อที่อยู่อีเมลไม่มีรูปภาพ Gravatar ที่ตรงกัน Gravatar มีตัวเลือก built-in จำนวนหนึ่งที่คุณสามารถใช้เป็นค่าเริ่มต้น ส่วนใหญ่ของสิ่งเหล่านี้ทำงานโดยการใช้ hash อีเมลที่ขอมาและใช้เพื่อสร้างรูปภาพที่มีธีมที่ไม่ซ้ำกับที่อยู่อีเมลนั้น",
+                    "mp_label": "mp: (mystery-person) โครงร่างสไตล์การ์ตูนที่ง่ายของบุคคล (ไม่เปลี่ยนแปลงตาม email hash)",
+                    "identicon_label": "identicon: รูปแบบทางเรขาคณิตโดยอิงจาก email hash",
+                    "monsterid_label": "monsterid: 'monster' ที่สร้างขึ้นด้วยสีต่างๆ ใบหน้า ฯลฯ",
+                    "wavatar_label": "wavatar: ใบหน้าที่สร้างขึ้นด้วยคุณลักษณะและพื้นหลังที่แตกต่างกัน",
+                    "retro_label": "retro: ใบหน้าแบบ 8-bit arcade-style pixelated ที่สร้างขึ้นอย่างมหัศจรรย์",
+                    "robohash_label": "robohash: หุ่นยนต์ที่สร้างขึ้นด้วยสีต่างๆ ใบหน้า ฯลฯ"
                 },
                 "rating": {
-                    "title": "",
-                    "helptext": "",
-                    "g_label": "",
-                    "pg_label": "",
-                    "r_label": "",
-                    "x_label": ""
+                    "title": "Rating",
+                    "helptext": "Gravatar อนุญาตให้ผู้ใช้ให้คะแนนรูปภาพของพวกเขาเองเพื่อให้พวกเขาสามารถระบุได้ว่ารูปภาพเหมาะสำหรับผู้ชมบางคน โดยค่าเริ่มต้น จะแสดงเฉพาะรูปภาพที่ได้รับคะแนน 'G' เท่านั้น เว้นแต่คุณจะระบุว่าคุณต้องการเห็น rating ที่สูงกว่า คุณสามารถระบุ rating เพื่อขอรูปภาพจนถึงและรวมถึง rating นั้น",
+                    "g_label": "g: เหมาะสำหรับแสดงผลบนเว็บไซต์ทั้งหมดที่มีประเภทผู้ชมใดๆ",
+                    "pg_label": "pg: อาจมีท่าทาง ชุดเสื้อผ้า คำว่า หรือความรุนแรงเบา",
+                    "r_label": "r: อาจมีสิ่งต่างๆ เช่น ความหยาบคายที่หนัก ความรุนแรงที่รุนแรง ความเป็นกลาง หรือการใช้ยา",
+                    "x_label": "x: อาจมีภาพเซ็กส์ที่หนักแน่น หรือความรุนแรงที่น่ากลัว"
                 },
                 "force-default": {
-                    "title": "",
-                    "helptext": ""
+                    "title": "บังคับค่าเริ่มต้น",
+                    "helptext": "บังคับการใช้ชุด default แม้ว่า email hash จะเชื่อมโยงกับ avatar ที่อัปโหลดโดยผู้ใช้ที่กำหนดเอง"
                 }
             }
         },
         "forum": {
             "settings": {
-                "edit-gravatar": ""
+                "edit-gravatar": "จัดการ avatar บน gravatar.com"
             }
         }
     }

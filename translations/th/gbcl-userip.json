@@ -1,22 +1,22 @@
 {
     "gbcl-userip": {
         "forum": {
-            "unknownNotice": ""
+            "unknownNotice": "ไม่ทราบ"
         },
         "admin": {
             "permissions": {
-                "view_ip_info_label": ""
+                "view_ip_info_label": "แสดงข้อมูล IP"
             },
             "service": {
-                "label": "",
+                "label": "บริการ",
                 "ipsb": {
-                    "label": "",
-                    "description": ""
+                    "label": "IP.SB",
+                    "description": "ใช้ <b>https://ip.sb</b> เพื่อดูข้อมูลตำแหน่ง IP ฟรี (โปรดระวังขีดจำกัดการใช้งาน)"
                 },
                 "ipinfo": {
-                    "label": "",
-                    "description": "",
-                    "key": ""
+                    "label": "IpInfo",
+                    "description": "ใช้ <b>https://ipinfo.io</b> เพื่อดูข้อมูล IP ที่แม่นยำยิ่งขึ้น (ต้องใช้ token)",
+                    "key": "IpInfo Token (จำเป็น)"
                 }
             }
         }

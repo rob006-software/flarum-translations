@@ -2,11 +2,11 @@
     "glowingblue-redis-setup": {
         "admin": {
             "settings": {
-                "enable_cache": "",
-                "enable_redis_sessions": "",
-                "enable_queue": "",
-                "horizon_config": "",
-                "horizon_help_text": ""
+                "enable_cache": "เปิดใช้งาน Redis Cache",
+                "enable_redis_sessions": "เปิดใช้งาน Redis Sessions (ผู้ใช้ทุกคนจะถูกออกจากระบบหลังเปลี่ยนการตั้งค่านี้)",
+                "enable_queue": "เปิดใช้งาน Redis Queue",
+                "horizon_config": "การตั้งค่า Horizon (รูปแบบ: JSON)",
+                "horizon_help_text": "ค่านี้จะถูกส่งไปยัง <code>(new \\FoF\\Horizon\\Extend\\Horizon)->config(...))</code>"
             }
         }
     }

@@ -2,25 +2,25 @@
     "clarkwinkelmann-external-email-validation": {
         "admin": {
             "settings": {
-                "method": "",
-                "uri": "",
-                "uri-help": "",
-                "body": "",
-                "body-help": "",
-                "headers": "",
-                "headers-help": "",
-                "use-response-status": "",
-                "use-response-status-help": "",
-                "response-success-key": "",
-                "response-success-key-help": "",
-                "default-error-message": "",
-                "default-error-message-help": "",
-                "response-error-key": "",
-                "response-error-key-help": ""
+                "method": "Request Method",
+                "uri": "Request URI",
+                "uri-help": "คุณสามารถใส่ shortcode เพื่อแทนค่า email ดูรายละเอียดใน README",
+                "body": "Request Body",
+                "body-help": "คุณสามารถใส่ shortcode เพื่อแทนค่า email ดูรายละเอียดใน README",
+                "headers": "Request Headers",
+                "headers-help": "หนึ่ง header ต่อบรรทัด",
+                "use-response-status": "ใช้ HTTP response status เพื่อตรวจสอบความถูกต้อง",
+                "use-response-status-help": "Response 2xx ถือว่าถูกต้อง Response 4xx ถือว่าไม่ถูกต้อง",
+                "response-success-key": "Path ไปยัง JSON attribute ที่แสดงสถานะความถูกต้อง",
+                "response-success-key-help": "Path ในรูปแบบ <code>key1.key2.key3</code> ดึงข้อมูลด้วย Laravel <code>Arr::get</code> ค่าจะถูก cast เป็น boolean ใช้ได้เฉพาะเมื่อไม่ได้ใช้ HTTP status จะเกิด exception หาก response ไม่ใช่ JSON ที่ถูกต้อง\n",
+                "default-error-message": "ข้อความ error เริ่มต้น",
+                "default-error-message-help": "ข้อความนี้จะแสดงแก่ผู้ใช้เมื่อการตรวจสอบ email ล้มเหลวและไม่พบข้อความอื่น หากต้องการแปลข้อความนี้ ให้เว้นว่างไว้และปรับแต่งข้อความ error เริ่มต้นผ่าน Linguist\n",
+                "response-error-key": "Path ไปยัง JSON attribute ที่มีข้อความ error",
+                "response-error-key-help": "Path ในรูปแบบ <code>key1.key2.key3</code> ดึงข้อมูลด้วย Laravel <code>Arr::get</code> จะแสดงข้อความ error เริ่มต้นหากไม่พบ key นี้\n"
             }
         },
         "api": {
-            "email-validation-error": ""
+            "email-validation-error": "Email ไม่ผ่านการตรวจสอบจากภายนอก"
         }
     }
 }

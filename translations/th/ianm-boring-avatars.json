@@ -2,18 +2,18 @@
     "ianm-boring-avatars": {
         "admin": {
             "settings": {
-                "color1": "",
-                "color2": "",
-                "color3": "",
-                "color4": "",
-                "color5": "",
-                "identifier": "",
-                "identifier_help": "",
-                "identifier_id": "",
-                "identifier_display_name": "",
-                "identifier_email": "",
-                "theme": "",
-                "theme_help": ""
+                "color1": "สี 1",
+                "color2": "สี 2",
+                "color3": "สี 3",
+                "color4": "สี 4",
+                "color5": "สี 5",
+                "identifier": "ตัวระบุ",
+                "identifier_help": "ใช้เพื่อสร้าง avatar ที่ไม่ซ้ำสำหรับแต่ละผู้ใช้",
+                "identifier_id": "ID ผู้ใช้",
+                "identifier_display_name": "ชื่อที่แสดง",
+                "identifier_email": "Email",
+                "theme": "Theme",
+                "theme_help": "theme ที่จะใช้สำหรับ boring avatars"
             }
         }
     },
@@ -21,9 +21,9 @@
         "lib": {
             "data": {
                 "boringavatar": {
-                    "export_description": "",
-                    "anonymize_description": "",
-                    "delete_description": ""
+                    "export_description": "เพิ่ม boring avatar ลงในไฟล์ zip ส่งออก",
+                    "anonymize_description": "ลบ boring avatar และสร้าง avatar แบบสุ่มใหม่",
+                    "delete_description": "ลบ boring avatar"
                 }
             }
         }

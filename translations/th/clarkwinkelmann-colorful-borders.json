@@ -1,34 +1,34 @@
 {
     "clarkwinkelmann-colorful-borders": {
         "forum": {
-            "edit": "",
-            "default": "",
-            "apply": "",
-            "reset": "",
-            "borderColor": "",
-            "backgroundColor": "",
-            "textColor": "",
-            "borderWidth": "",
-            "borderRadius": ""
+            "edit": "แก้ไขสไตล์",
+            "default": "ค่าเริ่มต้น",
+            "apply": "นำไปใช้",
+            "reset": "ลบการตกแต่งกำหนดเอง",
+            "borderColor": "สีเส้นขอบ",
+            "backgroundColor": "สีพื้นหลัง",
+            "textColor": "สีข้อความ",
+            "borderWidth": "ความหนาเส้นขอบ",
+            "borderRadius": "ความโค้งมนเส้นขอบ"
         },
         "admin": {
             "permissions": {
-                "editOwnPost": "",
-                "editAnyPost": ""
+                "editOwnPost": "แก้ไขสไตล์โพสต์ตัวเอง",
+                "editAnyPost": "แก้ไขสไตล์โพสต์ใดก็ได้"
             },
             "settings": {
-                "enableBorderColor": "",
-                "enableBackgroundColor": "",
-                "enableTextColor": "",
-                "enableBorderWidth": "",
-                "enableBorderRadius": "",
-                "min": "",
-                "max": "",
+                "enableBorderColor": "ปรับแต่งสีเส้นขอบได้",
+                "enableBackgroundColor": "ปรับแต่งสีพื้นหลังได้",
+                "enableTextColor": "ปรับแต่งสีข้อความได้",
+                "enableBorderWidth": "ปรับแต่งความหนาเส้นขอบได้",
+                "enableBorderRadius": "ปรับแต่งความโค้งมนเส้นขอบได้",
+                "min": "ต่ำสุด",
+                "max": "สูงสุด",
                 "colors": {
-                    "simple": "",
-                    "all": "",
-                    "custom": "",
-                    "custom-help": ""
+                    "simple": "ชุดสีพื้นฐาน",
+                    "all": "สีใดก็ได้",
+                    "custom": "รายการสีกำหนดเอง",
+                    "custom-help": "รายการค่า #hex หรือ rgb() คั่นด้วยเครื่องหมายจุลภาค"
                 }
             }
         }

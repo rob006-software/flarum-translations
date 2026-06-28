@@ -2,52 +2,52 @@
     "datitisev-maintenance": {
         "admin": {
             "dashboard": {
-                "enable_maintenance_mode_button": "",
-                "disable_maintenance_mode_button": ""
+                "enable_maintenance_mode_button": "เปิดใช้งาน Maintenance Mode",
+                "disable_maintenance_mode_button": "ปิดใช้งาน Maintenance Mode"
             },
             "settings": {
-                "title": "",
-                "status_enabled": "",
-                "status_disabled": "",
-                "status_via_database": "",
-                "status_via_config": "",
-                "status_force_disabled": "",
-                "settings_notice": "",
-                "allow_bypass_label": "",
-                "allow_bypass_hint": "",
-                "prefer_db_label": "",
-                "prefer_db_hint": "",
-                "active_label": "",
-                "force_disable_label": "",
-                "disable_admin_label": "",
-                "disable_api_label": "",
-                "title_label": "",
-                "message_label": "",
-                "error_page_file_label": "",
-                "error_page_file_hint": "",
-                "error_page_label": "",
-                "error_page_hint": ""
+                "title": "Maintenance Mode",
+                "status_enabled": "ขณะนี้ maintenance mode เปิดใช้งานอยู่",
+                "status_disabled": "ขณะนี้ maintenance mode ปิดใช้งานอยู่",
+                "status_via_database": "(ผ่าน database)",
+                "status_via_config": "(ผ่าน <code>config.php</code>)",
+                "status_force_disabled": "(ปิดใช้งานบังคับผ่าน <code>config.php</code>)",
+                "settings_notice": "การตั้งค่าเหล่านี้อาจไม่ใช่ค่าปัจจุบัน ตรวจสอบให้แน่ใจว่าไม่ถูกเขียนทับโดย <code>config.php</code>",
+                "allow_bypass_label": "อนุญาตให้ bypass maintenance ของฟอรัมและ API โดยใช้ permission",
+                "allow_bypass_hint": "จะไม่ bypass หาก DB ไม่สามารถเข้าถึงได้ ใช้กับฟอรัมและ API (ยกเว้น API ถูกปิดทั้งหมดผ่าน <code>config.php</code>) หากปิดใช้งาน admin ยังคงเข้า API ได้ (ยกเว้น API ถูกปิดทั้งหมด) เพื่อป้องกันการล็อคตัวเองออก",
+                "prefer_db_label": "ให้ DB settings มีความสำคัญเหนือ <code>config.php</code>",
+                "prefer_db_hint": "ปกติแล้วค่าใน <code>config.php</code> จะเขียนทับค่าที่เห็นที่นี่ เปิดตัวเลือกนี้เพื่อให้ตัวเลือกเหล่านี้เขียนทับค่าในไฟล์ config แทน โดยค่าในไฟล์ config จะใช้เฉพาะเมื่อ DB ไม่สามารถเข้าถึงได้",
+                "active_label": "สถานะ maintenance mode",
+                "force_disable_label": "ปิดใช้งาน maintenance mode บังคับ ไม่ว่าจะเปิดใช้งานด้วยวิธีใด",
+                "disable_admin_label": "ปิดการเข้าถึง admin",
+                "disable_api_label": "ปิดการเข้าถึง API ทั้งหมด",
+                "title_label": "หัวข้อหน้า Error",
+                "message_label": "ข้อความหน้า Error",
+                "error_page_file_label": "Path ไฟล์หน้า Error",
+                "error_page_file_hint": "Path จาก root ของ Flarum ที่ <code>vendor</code> และ <code>storage</code> อยู่",
+                "error_page_label": "HTML/Blade หน้า Error",
+                "error_page_hint": "คุณสามารถใช้ $app, $translator, $settings, $title และ $message กับ blade ได้"
             },
             "permissions": {
-                "allow_bypass_maintenance_label": ""
+                "allow_bypass_maintenance_label": "Bypass maintenance mode (ต้องเปิดใช้งานการตั้งค่าด้วย)"
             }
         },
         "lib": {
-            "maintenance_active_message": "",
-            "maintenance_active_not_db_message": "",
-            "maintenance_active_disabled_api_message": ""
+            "maintenance_active_message": "ฟอรัมนี้กำลังอยู่ระหว่างการบำรุงรักษา",
+            "maintenance_active_not_db_message": "Maintenance mode เปิดใช้งานผ่าน <code>config.php</code>",
+            "maintenance_active_disabled_api_message": "ขณะนี้ API ถูกปิดใช้งานสำหรับทุกคน"
         },
         "views": {
             "error": {
-                "title": "",
-                "message": ""
+                "title": "Maintenance",
+                "message": "ขณะนี้เรากำลังดำเนินการบำรุงรักษาบางอย่าง เราจะกลับมาออนไลน์ในไม่ช้า!"
             }
         }
     },
     "core": {
         "lib": {
             "error": {
-                "maintenance_message": ""
+                "maintenance_message": "ฟอรัมกำลังอยู่ในโหมด maintenance"
             }
         }
     }

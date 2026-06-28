@@ -2,239 +2,239 @@
     "kilowhat-cimaise": {
         "forum": {
             "nav": {
-                "albums": "",
-                "pictures": "",
-                "user-pictures": ""
+                "albums": "=> kilowhat-cimaise.ref.albums",
+                "pictures": "=> kilowhat-cimaise.ref.pictures",
+                "user-pictures": "=> kilowhat-cimaise.ref.pictures"
             },
             "album-list": {
-                "title": "",
-                "new": "",
-                "empty": "",
-                "loading": "",
-                "load-more": ""
+                "title": "=> kilowhat-cimaise.ref.albums",
+                "new": "สร้างอัลบั้มใหม่",
+                "empty": "ไม่มีอัลบั้ม",
+                "loading": "=> kilowhat-cimaise.ref.loading",
+                "load-more": "=> kilowhat-cimaise.ref.load-more"
             },
             "picture-list": {
-                "title": "",
-                "empty": "",
-                "loading": "",
-                "load-more": ""
+                "title": "ภาพทั้งหมด",
+                "empty": "ไม่มีภาพ",
+                "loading": "=> kilowhat-cimaise.ref.loading",
+                "load-more": "=> kilowhat-cimaise.ref.load-more"
             },
             "album-show": {
-                "upload": "",
-                "empty": "",
-                "loading": "",
-                "personal": "",
-                "community": "",
-                "discussion": ""
+                "upload": "อัปโหลดภาพ",
+                "empty": "ไม่มีภาพ",
+                "loading": "=> kilowhat-cimaise.ref.loading",
+                "personal": "อัลบั้มส่วนตัวของ <a>{username}</a>",
+                "community": "อัลบั้มชุมชน",
+                "discussion": "ไปที่โพสต์"
             },
             "picture-show": {
-                "loading": "",
-                "back-album": "",
-                "download": "",
-                "previous": "",
-                "next": "",
-                "download-cropped": "",
-                "download-original": "",
-                "show-exif": "",
-                "taken-at": "",
-                "published-at": ""
+                "loading": "=> kilowhat-cimaise.ref.loading",
+                "back-album": "กลับไปยังอัลบั้ม",
+                "download": "ดาวน์โหลด",
+                "previous": "ภาพก่อนหน้า",
+                "next": "ภาพถัดไป",
+                "download-cropped": "ครอปแล้ว {size}",
+                "download-original": "ดาวน์โหลดต้นฉบับ",
+                "show-exif": "ข้อมูล EXIF ทั้งหมด",
+                "taken-at": "ถ่ายเมื่อ {ago}",
+                "published-at": "เผยแพร่เมื่อ {ago}"
             },
             "upload-modal": {
-                "title": "",
-                "titleInComposer": "",
-                "uploading": "",
-                "processing": "",
-                "select-file": "",
-                "drop-file": "",
-                "publishSilently": "",
-                "submit": "",
-                "submitInComposer": "",
-                "reload": ""
+                "title": "อัปโหลดภาพในอัลบั้ม \"{title}\"",
+                "titleInComposer": "แก้ไขภาพ",
+                "uploading": "กำลังอัปโหลด",
+                "processing": "กำลังประมวลผล",
+                "select-file": "เลือกไฟล์",
+                "drop-file": "หรือลากและวางที่นี่",
+                "publishSilently": "เผยแพร่โดยไม่แจ้งเตือน",
+                "submit": "ส่ง",
+                "submitInComposer": "ต่อไป",
+                "reload": "โหลดรายการร่างใหม่"
             },
             "new-album-modal": {
-                "title": ""
+                "title": "อัลบั้มใหม่"
             },
             "edit-album-modal": {
-                "title": ""
+                "title": "แก้ไขอัลบั้ม \"{title}\""
             },
             "attach-album-modal": {
-                "title": "",
-                "selected": "",
-                "none-selected": "",
-                "search": "",
-                "no-results": "",
-                "select": "",
-                "unselect": "",
-                "submit": ""
+                "title": "แนบอัลบั้มกับ \"{title}\"",
+                "selected": "ที่เลือก:",
+                "none-selected": "ไม่มี",
+                "search": "ค้นหา",
+                "no-results": "ไม่มีผลลัพธ์",
+                "select": "เลือก",
+                "unselect": "ยกเลิกการเลือก",
+                "submit": "ส่ง"
             },
             "edit-album": {
-                "title": "",
-                "description": "",
-                "isCommunity": "",
-                "create": "",
-                "save": ""
+                "title": "ชื่อ",
+                "description": "คำอธิบาย",
+                "isCommunity": "อัลบั้มชุมชน (ทุกคนสามารถร่วมเพิ่มภาพได้)",
+                "create": "สร้างอัลบั้ม",
+                "save": "บันทึกอัลบั้ม"
             },
             "edit-picture": {
-                "title": "",
-                "description": ""
+                "title": "ชื่อ",
+                "description": "คำอธิบาย"
             },
             "album-thumbnail": {
-                "controls": "",
-                "edit": "",
-                "restore": "",
-                "hide": "",
-                "delete": "",
-                "delete-confirmation": "",
-                "by-user": ""
+                "controls": "=> kilowhat-cimaise.ref.controls",
+                "edit": "แก้ไข",
+                "restore": "=> kilowhat-cimaise.ref.restore",
+                "hide": "=> kilowhat-cimaise.ref.hide",
+                "delete": "=> kilowhat-cimaise.ref.delete",
+                "delete-confirmation": "ลบอัลบั้ม \"{title}\"?",
+                "by-user": "=> kilowhat-cimaise.ref.by-user"
             },
             "picture-thumbnail": {
-                "by-user": "",
-                "in-album": ""
+                "by-user": "=> kilowhat-cimaise.ref.by-user",
+                "in-album": "ใน"
             },
             "picture-controls": {
-                "controls": "",
-                "editor": "",
-                "approve": "",
-                "remove-favorite": "",
-                "set-favorite": "",
-                "restore": "",
-                "hide": "",
-                "delete": "",
-                "delete-confirmation": ""
+                "controls": "=> kilowhat-cimaise.ref.controls",
+                "editor": "แก้ไขการครอปและ Mask",
+                "approve": "อนุมัติ",
+                "remove-favorite": "ลบออกจากรายการโปรด",
+                "set-favorite": "เพิ่มเป็นรายการโปรด",
+                "restore": "=> kilowhat-cimaise.ref.restore",
+                "hide": "=> kilowhat-cimaise.ref.hide",
+                "delete": "=> kilowhat-cimaise.ref.delete",
+                "delete-confirmation": "ลบภาพ \"{title}\"?"
             },
             "editable-attribute": {
-                "title": "",
-                "description": "",
-                "author": ""
+                "title": "คลิกเพื่อเพิ่มชื่อ",
+                "description": "คลิกเพื่อเพิ่มคำอธิบาย",
+                "author": "คลิกเพื่อเพิ่มผู้เขียน"
             },
             "badge": {
-                "hidden": "",
-                "awaiting-approval": "",
-                "favorite": ""
+                "hidden": "ซ่อนอยู่",
+                "awaiting-approval": "รออนุมัติ",
+                "favorite": "รายการโปรด"
             },
             "picture-sort": {
-                "latest": "",
-                "oldest": "",
-                "latestTake": "",
-                "oldestTake": ""
+                "latest": "อัปโหลดล่าสุด",
+                "oldest": "อัปโหลดเก่าสุด",
+                "latestTake": "ถ่ายล่าสุด",
+                "oldestTake": "ถ่ายเก่าสุด"
             },
             "album-search": {
-                "title": ""
+                "title": "=> kilowhat-cimaise.ref.albums"
             },
             "post-stream": {
-                "uploaded": ""
+                "uploaded": "{username} อัปโหลด {count} ภาพ"
             },
             "discussion-controls": {
-                "attach-album": ""
+                "attach-album": "แนบหรือถอดอัลบั้ม"
             },
             "license-label": {
-                "not-specified": "",
-                "not-specified-help": ""
+                "not-specified": "ไม่ได้ระบุ",
+                "not-specified-help": "ดูข้อกำหนดการใช้งานของเว็บไซต์สำหรับลิขสิทธิ์เริ่มต้น"
             }
         },
         "admin": {
             "permissions": {
-                "view": "",
-                "viewExif": "",
-                "createPersonalAlbums": "",
-                "createCommunityAlbums": "",
-                "editOwnAlbum": "",
-                "hideOwnAlbum": "",
-                "uploadPictures": "",
-                "uploadPersonalPicturesWithoutApproval": "",
-                "uploadCommunityPicturesWithoutApproval": "",
-                "editOwnImage": "",
-                "editOwnPublishedImage": "",
-                "licenseOwnPublishedPicture": "",
-                "renameOwnPublishedPicture": "",
-                "hideOwnPicture": "",
-                "publishSilently": "",
-                "attachCimaiseAlbum": "",
-                "moderate": ""
+                "view": "ดู",
+                "viewExif": "ดูข้อมูล Exif (รวมถึงตำแหน่งทางภูมิศาสตร์)",
+                "createPersonalAlbums": "สร้างอัลบั้มส่วนตัว",
+                "createCommunityAlbums": "สร้างอัลบั้มชุมชน",
+                "editOwnAlbum": "เปลี่ยนชื่อและคำอธิบายอัลบั้มของตัวเอง",
+                "hideOwnAlbum": "ซ่อนอัลบั้มของตัวเอง",
+                "uploadPictures": "อัปโหลดภาพ",
+                "uploadPersonalPicturesWithoutApproval": "อัปโหลดภาพในอัลบั้มส่วนตัวโดยไม่ต้องอนุมัติ",
+                "uploadCommunityPicturesWithoutApproval": "อัปโหลดภาพในอัลบั้มชุมชนโดยไม่ต้องอนุมัติ",
+                "editOwnImage": "ใช้ตัวแก้ไขภาพกับภาพของตัวเอง (ครอป, Mask และสติกเกอร์)",
+                "editOwnPublishedImage": "ใช้ตัวแก้ไขภาพกับภาพของตัวเองหลังเผยแพร่แล้ว",
+                "licenseOwnPublishedPicture": "เปลี่ยนลิขสิทธิ์ภาพของตัวเองหลังเผยแพร่แล้ว",
+                "renameOwnPublishedPicture": "เปลี่ยนชื่อและคำอธิบายภาพของตัวเองหลังเผยแพร่แล้ว",
+                "hideOwnPicture": "ซ่อนภาพของตัวเอง",
+                "publishSilently": "เผยแพร่ภาพโดยไม่แจ้งเตือน (ไม่มีโพสต์กิจกรรม)",
+                "attachCimaiseAlbum": "แนบอัลบั้มกับโพสต์ด้วยตนเอง",
+                "moderate": "กลั่นกรอง"
             },
             "settings": {
-                "watermarkFile": "",
-                "watermarkFileHelp": "",
-                "watermarkPlacement": "",
+                "watermarkFile": "ภาพลายน้ำ",
+                "watermarkFileHelp": "ภาพที่ระบุจะถูกนำไปวางทับทุกภาพที่อัปโหลด ยกเว้นภาพตัวอย่างที่เล็กที่สุด",
+                "watermarkPlacement": "ตำแหน่งลายน้ำ",
                 "watermarkPlacementOptions": {
-                    "topLeft": "",
-                    "bottomLeft": "",
-                    "topRight": "",
-                    "bottomRight": ""
+                    "topLeft": "บนซ้าย",
+                    "bottomLeft": "ล่างซ้าย",
+                    "topRight": "บนขวา",
+                    "bottomRight": "ล่างขวา"
                 },
-                "autoCreateDiscussionAlbum": "",
-                "autoCreateDiscussionAlbumHelp": "",
-                "neverSyncDiscussionAlbumTitles": "",
-                "neverSyncDiscussionAlbumTitlesHelp": "",
-                "columnTheme": "",
-                "columnThemeHelp": "",
-                "mapboxToken": "",
-                "mapboxTokenHelp": "",
-                "requireLicense": "",
-                "requireLicenseHelp": "",
-                "licenses": "",
-                "license-key": "",
-                "license-label": "",
-                "license-description": "",
-                "license-add": "",
-                "stickers": "",
-                "sticker-key": "",
-                "sticker-label": "",
-                "sticker-url": "",
-                "sticker-add": ""
+                "autoCreateDiscussionAlbum": "สร้างอัลบั้มอัตโนมัติสำหรับทุกโพสต์ใหม่",
+                "autoCreateDiscussionAlbumHelp": "สร้างอัลบั้มใหม่โดยอัตโนมัติพร้อมชื่อเดียวกับโพสต์และตั้งเจ้าของเป็นผู้เขียน ฟีเจอร์นี้ข้ามสิทธิ์การสร้างอัลบั้มและใช้กับทุกแท็ก\n",
+                "neverSyncDiscussionAlbumTitles": "อย่าซิงค์ชื่อโพสต์และอัลบั้ม",
+                "neverSyncDiscussionAlbumTitlesHelp": "โดยค่าเริ่มต้น อัลบั้มที่เชื่อมกับโพสต์ที่มีชื่อเหมือนกันจะถูกเปลี่ยนชื่อตามเมื่อชื่อโพสต์เปลี่ยน หากอัลบั้มถูกเปลี่ยนชื่อด้วยตนเอง จะไม่ถูกซิงค์กลับไปยังโพสต์อีก\n",
+                "columnTheme": "Column Theme",
+                "columnThemeHelp": "ใช้รูปแบบแผงด้านข้างแทนแผงด้านล่างเมื่อแสดงภาพ",
+                "mapboxToken": "Mapbox Token",
+                "mapboxTokenHelp": "กรอก Token ที่ถูกต้องเพื่อแสดงแผนที่ตำแหน่งภายใต้ข้อมูลภาพ",
+                "requireLicense": "บังคับให้เลือกลิขสิทธิ์จากรายการด้านล่าง",
+                "requireLicenseHelp": "โดยค่าเริ่มต้น ผู้ใช้สามารถข้ามการตั้งค่าลิขสิทธิ์ได้ ตรวจสอบให้แน่ใจว่าข้อกำหนดการใช้งานครอบคลุมสิ่งที่สามารถทำกับสื่อที่ไม่ได้ระบุลิขสิทธิ์\n",
+                "licenses": "ลิขสิทธิ์",
+                "license-key": "Key",
+                "license-label": "ป้ายกำกับ",
+                "license-description": "คำอธิบาย",
+                "license-add": "เพิ่มลิขสิทธิ์",
+                "stickers": "สติกเกอร์",
+                "sticker-key": "Key",
+                "sticker-label": "ป้ายกำกับ",
+                "sticker-url": "URL",
+                "sticker-add": "เพิ่มสติกเกอร์"
             },
             "status": {
                 "pictures": {
-                    "section": "",
-                    "drafts": ""
+                    "section": "ภาพ",
+                    "drafts": "({count} ร่าง)"
                 },
                 "storage": {
-                    "section": "",
-                    "originals": "",
-                    "conversions": ""
+                    "section": "พื้นที่จัดเก็บ (ประมาณการ)",
+                    "originals": "ต้นฉบับ: {size}",
+                    "conversions": "ที่แปลงแล้ว: {size}"
                 },
-                "refresh": "",
-                "loading": ""
+                "refresh": "รีเฟรช",
+                "loading": "กำลังโหลด..."
             }
         },
         "api": {
             "post-edit": {
-                "cannotAttachToNonComment": "",
-                "cannotFindPicturesFromRelation": "",
-                "cannotAttachHasNoAlbum": "",
-                "cannotAttachAlreadySubmitted": "",
-                "cannotAttachFromExternalAlbum": "",
-                "cannotAttachUnauthorized": ""
+                "cannotAttachToNonComment": "ไม่สามารถแนบภาพกับโพสต์ที่ไม่ใช่ความคิดเห็นได้ด้วยตนเอง",
+                "cannotFindPicturesFromRelation": "ไม่พบภาพที่ร้องขอทั้งหมดในฐานข้อมูล",
+                "cannotAttachHasNoAlbum": "โพสต์นี้ไม่มีอัลบั้มที่แนบ",
+                "cannotAttachAlreadySubmitted": "ไม่สามารถแนบภาพ {id} เนื่องจากถูกส่งแล้ว",
+                "cannotAttachFromExternalAlbum": "ไม่สามารถแนบภาพ {id} เนื่องจากอยู่ในอัลบั้มภายนอก",
+                "cannotAttachUnauthorized": "ไม่สามารถแนบภาพ {id} เนื่องจากไม่ใช่ของคุณ"
             },
             "picture-edit": {
                 "unauthorized": {
-                    "title": "",
-                    "description": "",
-                    "license": "",
-                    "author": "",
-                    "takenAt": "",
-                    "isDraftUnSubmit": "",
-                    "isDraftSubmit": "",
-                    "isApprovedUnApprove": "",
-                    "isApprovedApprove": "",
-                    "isHiddenRestore": "",
-                    "isHiddenHide": "",
-                    "isFavorite": "",
-                    "stickers": "",
-                    "crop": ""
+                    "title": "ชื่อไม่ถูกต้อง ไม่ได้รับอนุญาตให้แก้ไข",
+                    "description": "คำอธิบายไม่ถูกต้อง ไม่ได้รับอนุญาตให้แก้ไข",
+                    "license": "ลิขสิทธิ์ไม่ถูกต้อง ไม่ได้รับอนุญาตให้แก้ไข",
+                    "author": "ผู้เขียนไม่ถูกต้อง ไม่ได้รับอนุญาตให้แก้ไข",
+                    "takenAt": "วันที่ถ่ายไม่ถูกต้อง ไม่ได้รับอนุญาตให้แก้ไข",
+                    "isDraftUnSubmit": "สถานะร่างไม่ถูกต้อง ไม่ได้รับอนุญาตให้ยกเลิกการส่ง",
+                    "isDraftSubmit": "สถานะร่างไม่ถูกต้อง ไม่ได้รับอนุญาตให้ส่ง",
+                    "isApprovedUnApprove": "สถานะการอนุมัติไม่ถูกต้อง ไม่ได้รับอนุญาตให้ยกเลิกการอนุมัติ",
+                    "isApprovedApprove": "สถานะการอนุมัติไม่ถูกต้อง ไม่ได้รับอนุญาตให้อนุมัติ",
+                    "isHiddenRestore": "สถานะการซ่อนไม่ถูกต้อง ไม่ได้รับอนุญาตให้กู้คืน",
+                    "isHiddenHide": "สถานะการซ่อนไม่ถูกต้อง ไม่ได้รับอนุญาตให้ซ่อน",
+                    "isFavorite": "สถานะรายการโปรดไม่ถูกต้อง ไม่ได้รับอนุญาตให้แก้ไข",
+                    "stickers": "สติกเกอร์ไม่ถูกต้อง ไม่ได้รับอนุญาตให้แก้ไข",
+                    "crop": "การครอปไม่ถูกต้อง ไม่ได้รับอนุญาตให้แก้ไข"
                 }
             }
         },
         "ref": {
-            "albums": "",
-            "pictures": "",
-            "loading": "",
-            "load-more": "",
-            "controls": "",
-            "restore": "",
-            "hide": "",
-            "delete": "",
-            "by-user": ""
+            "albums": "อัลบั้ม",
+            "pictures": "ภาพ",
+            "loading": "กำลังโหลด...",
+            "load-more": "โหลดเพิ่มเติม",
+            "controls": "ตัวเลือก",
+            "restore": "กู้คืน",
+            "hide": "ซ่อน",
+            "delete": "ลบ",
+            "by-user": "โดย"
         }
     }
 }

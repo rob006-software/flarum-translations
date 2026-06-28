@@ -2,16 +2,16 @@
     "ralkage-word-censor": {
         "admin": {
             "settings": {
-                "word_list_label": "",
-                "word_list_help": "",
-                "replacement_label": "",
-                "replacement_help": ""
+                "word_list_label": "คำที่ถูกเซ็นเซอร์",
+                "word_list_help": "กรอกหนึ่งคำหรือวลีต่อบรรทัด คำเหล่านี้จะถูกแทนที่ด้วยตัวอักษรแทนที่เมื่อแสดงต่อผู้ใช้",
+                "replacement_label": "ตัวอักษรแทนที่",
+                "replacement_help": "ตัวอักษรที่ใช้แทนที่แต่ละตัวอักษรของคำที่ถูกเซ็นเซอร์ ค่าเริ่มต้น: *"
             }
         },
         "forum": {
             "settings": {
-                "word_censor_label": "",
-                "word_censor_help": ""
+                "word_censor_label": "เปิดใช้งานการเซ็นเซอร์คำ",
+                "word_censor_help": "เมื่อเปิดใช้งาน คำที่กำหนดไว้จะถูกเซ็นเซอร์ใน post ปิดใช้งานเพื่อดูเนื้อหาที่ไม่ถูกเซ็นเซอร์"
             }
         }
     }

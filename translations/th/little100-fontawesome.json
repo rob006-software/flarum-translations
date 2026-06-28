@@ -2,17 +2,17 @@
     "little100-fontawesome": {
         "admin": {
             "settings": {
-                "type": "",
-                "type_free": "",
-                "type_kit": "",
-                "kit_url": "",
-                "kit_url_help": "",
+                "type": "Font Awesome library type",
+                "type_free": "Font Awesome 7 Free (CDN)",
+                "type_kit": "Font Awesome 7 Kit (Free/Pro)",
+                "kit_url": "(หากเลือก) URL ไปยัง Font Awesome kit ของคุณ",
+                "kit_url_help": "ตรวจสอบให้แน่ใจว่า kit ของคุณตั้งค่าเป็น 'Web Font' จากนั้นวาง URL ที่นี่",
                 "test": {
-                    "heading": "",
-                    "desc": "",
-                    "fa5_compat": "",
-                    "fa6_free": "",
-                    "fa7_free": ""
+                    "heading": "Icon tests",
+                    "desc": "ด้านล่างเป็นการทดสอบบางส่วนที่คุณสามารถใช้เพื่อตรวจสอบว่า icons ทำงานอย่างถูกต้องหรือไม่ คุณอาจต้องรีเฟรชหน้าหากคุณเปลี่ยนการตั้งค่า หากคุณเห็นสี่เหลี่ยม/สี่เหลี่ยมผืนผ้าแทน icon แสดงว่าชุดนี้ไม่ทำงานอย่างถูกต้อง",
+                    "fa5_compat": "FontAwesome 5 compatibility",
+                    "fa6_free": "FontAwesome 6 Free",
+                    "fa7_free": "FontAwesome 7 Free (openai)"
                 }
             }
         }

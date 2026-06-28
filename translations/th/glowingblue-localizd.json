@@ -2,23 +2,23 @@
     "glowingblue-localizd": {
         "admin": {
             "settings": {
-                "title": "",
-                "redirect_en": "",
-                "redirect_en_help": ""
+                "title": "การตั้งค่า Localizd",
+                "redirect_en": "เปลี่ยนเส้นทางภาษาอังกฤษไปยังภาษาเริ่มต้นของฟอรั่ม",
+                "redirect_en_help": "ช่วยให้คุณไม่ต้องมีเนื้อหาภาษาอังกฤษในฟอรั่ม แต่ยังคงติดตั้ง Language Pack ภาษาอังกฤษได้ (เพื่อให้ <code>fof/linguist</code> รู้จัก key เป็นต้น)"
             },
             "translation_key": {
-                "help": "",
-                "translate": "",
-                "modal_title": ""
+                "help": "ตัวเลือกนี้รองรับหลายภาษาผ่าน <b>Localizd</b> + <a>Linguist</a>",
+                "translate": "แปล",
+                "modal_title": "เพิ่มคำแปลด้วย Linguist"
             }
         },
         "forum": {
             "errors": {
-                "causes": "",
-                "does_not_exist": "",
-                "deleted": "",
-                "logged_in_only": "",
-                "no_permission": ""
+                "causes": "อาจเป็นเพราะสาเหตุใดสาเหตุหนึ่งต่อไปนี้",
+                "does_not_exist": "หน้าเพจนี้อาจไม่มีอยู่",
+                "deleted": "หน้าเพจนี้อาจถูกลบไปแล้ว",
+                "logged_in_only": "หน้าเพจนี้อาจเข้าได้เฉพาะผู้ที่เข้าสู่ระบบแล้วเท่านั้น",
+                "no_permission": "คุณอาจไม่มีสิทธิ์ดูหน้าเพจนี้"
             }
         }
     }

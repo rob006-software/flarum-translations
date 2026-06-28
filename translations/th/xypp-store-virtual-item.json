@@ -2,46 +2,46 @@
     "xypp-store-virtual-item": {
         "admin": {
             "table": {
-                "all": "",
-                "check": "",
-                "id": "",
-                "name": "",
-                "key": "",
-                "assign": "",
-                "operation": "",
-                "delete": "",
-                "create": "",
-                "delete_batch": "",
-                "load_more": "",
-                "remove_confirm": ""
+                "all": "ทั้งหมด",
+                "check": "-",
+                "id": "ID",
+                "name": "ชื่อ",
+                "key": "Key",
+                "assign": "มอบหมาย",
+                "operation": "จัดการ",
+                "delete": "ลบ",
+                "create": "สร้าง",
+                "delete_batch": "ลบเป็นชุด ({count} รายการ)",
+                "load_more": "โหลดเพิ่ม",
+                "remove_confirm": "แน่ใจว่าต้องการลบ?"
             },
             "create": {
-                "title": "",
-                "name": "",
-                "key": "",
-                "content": "",
-                "fillTip": "",
-                "submit": "",
-                "add": "",
-                "convert": "",
-                "key_required": ""
+                "title": "สร้างไอเทมเสมือน",
+                "name": "ชื่อไอเทม",
+                "key": "Key",
+                "content": "เนื้อหา",
+                "fillTip": "ใส่ key/content ด้านล่าง",
+                "submit": "สร้าง",
+                "add": "เพิ่ม",
+                "convert": "แปลง Key:Content",
+                "key_required": "ไม่อนุญาตให้ key ว่างเปล่า"
             }
         },
         "forum": {
             "store": {
-                "name": ""
+                "name": "ไอเทมเสมือน"
             },
             "select": {
-                "title": "",
-                "name": "",
-                "icon": "",
-                "desc": "",
-                "rest": "",
-                "submit": ""
+                "title": "ตั้งค่า",
+                "name": "ไอเทมที่เลือกอยู่: {name}",
+                "icon": "Icon",
+                "desc": "คำอธิบาย",
+                "rest": "แสดงจำนวนคงเหลือตาม storage",
+                "submit": "ยืนยัน"
             }
         },
         "api": {
-            "no-available": ""
+            "no-available": "ไม่มีไอเทมที่ใช้ได้"
         }
     }
 }

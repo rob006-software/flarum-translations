@@ -2,254 +2,254 @@
     "ianm-translate": {
         "admin": {
             "glossary": {
-                "button": "",
-                "create_button": "",
-                "refresh_button": "",
-                "edit_term": "",
-                "delete_term": "",
+                "button": "Glossary",
+                "create_button": "สร้างคำศัพท์ใหม่",
+                "refresh_button": "Refresh",
+                "edit_term": "แก้ไขคำศัพท์",
+                "delete_term": "ลบคำศัพท์",
                 "section": {
-                    "heading": "",
-                    "help": ""
+                    "heading": "การตั้งค่า Glossary",
+                    "help": "คำศัพท์ในพจนานุกรมจะถูกกำหนดให้บริการแปลไม่แปลคำเหล่านั้น มีประโยชน์สำหรับชื่อเฉพาะ เทอมทางเทคนิค หรือคำอื่น ๆ ที่ไม่ควรแปล"
                 },
                 "terms": {
-                    "current": ""
+                    "current": "{count, plural, one {# คำศัพท์} other {# คำศัพท์}} ที่นิยามไว้ในปัจจุบัน"
                 },
-                "no_terms": "",
-                "extender_info": "",
-                "create_not_implemented": "",
-                "edit_not_available": "",
-                "delete_not_available": "",
+                "no_terms": "ไม่มีคำศัพท์ glossary ที่นิยามไว้ในปัจจุบัน",
+                "extender_info": "สามารถเพิ่มคำศัพท์ glossary ได้โดยใช้ PHP extender ของส่วนขยายใน extend.php",
+                "create_not_implemented": "การสร้างคำศัพท์ผ่าน UI ยังไม่ได้ดำเนินการ ใช้ PHP extender แทน",
+                "edit_not_available": "คำศัพท์นี้ถูกนิยามในโค้ดและไม่สามารถแก้ไขผ่าน UI ได้",
+                "delete_not_available": "คำศัพท์นี้ถูกนิยามในโค้ดและไม่สามารถลบผ่าน UI ได้",
                 "source": {
-                    "code": "",
-                    "database": "",
-                    "default": ""
+                    "code": "นิยามในโค้ด",
+                    "database": "เก็บในฐานข้อมูล",
+                    "default": "ค่าเริ่มต้นในตัว"
                 }
             },
             "permission": {
-                "refresh-translation": "",
-                "translate-to-locale": "",
-                "translate-to-all-locales": "",
-                "edit-translation": ""
+                "refresh-translation": "บังคับการแปลใหม่ของการแปลที่แคช",
+                "translate-to-locale": "ดูการแปลในโครงการปัจจุบัน",
+                "translate-to-all-locales": "ดูการแปลในโครงการฟอรัมใด ๆ",
+                "edit-translation": "แก้ไขการแปลด้วยตนเอง"
             },
             "settings": {
                 "general": {
-                    "heading": "",
-                    "help": ""
+                    "heading": "การตั้งค่าทั่วไป",
+                    "help": "การตั้งค่าเหล่านี้ควบคุมพฤติกรรมทั่วไปของระบบแปล"
                 },
                 "seo": {
-                    "heading": "",
-                    "help": "",
-                    "default-lang": "",
-                    "default-lang-help": ""
+                    "heading": "การตั้งค่า SEO",
+                    "help": "การตั้งค่าเหล่านี้ควบคุมพฤติกรรมของระบบแปลเกี่ยวกับการปรับปรุงเครื่องมือค้นหา",
+                    "default-lang": "ตรงกับภาษาเริ่มต้นของฟอรัม",
+                    "default-lang-help": "เมื่อเปิดใช้งาน ภาษาเริ่มต้นของฟอรัมจะถูกเพิ่มไปยังเส้นทางสำหรับแท็ก hreflang <code>x-default</code>"
                 },
                 "providers": {
-                    "heading": "",
-                    "help": ""
+                    "heading": "การตั้งค่าผู้ให้บริการแปล",
+                    "help": "เลือกผู้ให้บริการแปลที่ต้องการและกำหนดค่าการตั้งค่าที่นี่"
                 },
-                "button": "",
-                "seemless": "",
-                "seemless-help": "",
-                "multi-lang-search": "",
-                "multi-lang-search-help": "",
-                "short-content-length": "",
-                "short-content-length-help": "",
+                "button": "Settings",
+                "seemless": "Seamless Translation",
+                "seemless-help": "ลักษณะ Beta เมื่อเปิดใช้งาน เนื้อหาผู้ใช้ทั้งหมดจะถูกแปลโดยอัตโนมัติเป็นภาษาฟอรัมอื่น ๆ ทั้งหมด เมื่อผู้ใช้ดูเนื้อหาหลายภาษา การแปลจะแสดงโดยอัตโนมัติ",
+                "multi-lang-search": "การค้นหาหลายภาษา",
+                "multi-lang-search-help": "เมื่อเปิดใช้งาน การค้นหาจะรวมการแปลทั้งหมดของเนื้อหา",
+                "short-content-length": "เนื้อหาสั้น",
+                "short-content-length-help": "เมื่อเปิดใช้งาน เนื้อหาที่สั้นกว่าความยาวที่ระบุจะถูกแปลและสันนิษฐานว่าเขียนด้วยภาษา UI ปัจจุบัน 0 ปิดใช้งานฟีเจอร์นี้",
                 "deepl": {
                     "api_key": {
-                        "help": "",
-                        "label": ""
+                        "help": "ลงทะเบียนที่ {link} ไดรเวอร์จะตรวจสอบประเภท key ฟรี/โปรแกรมโดยอัตโนมัติ",
+                        "label": "=> ianm-translate.lib.settings.api-key"
                     },
                     "en_choice": {
-                        "help": "",
-                        "label": "",
+                        "help": "เมื่อแปลเป็นภาษาอังกฤษ ให้เลือกรูปแบบที่ควรใช้",
+                        "label": "ตัวเลือกภาษาอังกฤษ",
                         "options": {
-                            "en-US": "",
-                            "en-GB": ""
+                            "en-US": "English (US) en-US",
+                            "en-GB": "English (UK) en-GB"
                         }
                     },
                     "formality": {
-                        "help": "",
-                        "label": "",
+                        "help": "เมื่อมี การแปลสามารถใช้ระดับความเป็นทางการที่แตกต่างกัน เลือกค่ากำหนดของคุณที่นี่",
+                        "label": "Formality",
                         "options": {
-                            "default": "",
-                            "prefer_less": "",
-                            "prefer_more": ""
+                            "default": "ค่าเริ่มต้น",
+                            "prefer_less": "อย่างเป็นทางการน้อยลง",
+                            "prefer_more": "อย่างเป็นทางการมากขึ้น"
                         }
                     },
                     "model_type": {
-                        "help": "",
-                        "label": "",
+                        "help": "เลือก DeepL model ที่จะใช้สำหรับการแปล",
+                        "label": "ประเภท model",
                         "options": {
-                            "latency_optimized": "",
-                            "prefer_quality_optimized": ""
+                            "latency_optimized": "ปรับให้เหมาะสมเพื่อความเร็ว",
+                            "prefer_quality_optimized": "ต้องการคุณภาพเมื่อมี"
                         }
                     },
                     "glossary": {
                         "options": {
-                            "none": ""
+                            "none": "ไม่มี glossary"
                         },
                         "pair": {
-                            "label": "",
-                            "help": ""
+                            "label": "{source} ถึง {target} Glossary",
+                            "help": "เลือก glossary เมื่อแปล {source} เป็น {target} หรือเลือกไม่มีหากไม่ต้องการ glossary สำหรับกลุ่มภาษานี้"
                         }
                     }
                 },
                 "google-cloud": {
                     "api_key": {
-                        "help": "",
-                        "label": ""
+                        "help": "ลงทะเบียน API key ที่ {link} ไดรเวอร์นี้ใช้ V2 API - Basic",
+                        "label": "=> ianm-translate.lib.settings.api-key"
                     }
                 },
                 "openai": {
                     "api_key": {
-                        "help": "",
-                        "label": ""
+                        "help": "ลงทะเบียน API key ที่ {link} ไดรเวอร์นี้รองรับ GPT-4o และ GPT-4o-mini models",
+                        "label": "=> ianm-translate.lib.settings.api-key"
                     },
                     "translation_model": {
-                        "help": "",
-                        "label": "",
+                        "help": "เลือก OpenAI model ที่จะใช้สำหรับการแปล GPT-4o ให้คุณภาพสูงสุด GPT-4o-mini นำเสนอความสมดุลที่ดี และ GPT-3.5-turbo เป็นตัวเลือกประหยัดสุด",
+                        "label": "Translation model",
                         "options": {
-                            "gpt-4o": "",
-                            "gpt-4o-mini": "",
+                            "gpt-4o": "GPT-4o (Premium)",
+                            "gpt-4o-mini": "GPT-4o Mini (Balanced)",
                             "gpt-3": {
-                                "5-turbo": "",
-                                "5-turbo-0125": ""
+                                "5-turbo": "GPT-3.5 Turbo (Budget)",
+                                "5-turbo-0125": "GPT-3.5 Turbo Latest (Budget+)"
                             }
                         }
                     },
                     "detection_model": {
-                        "help": "",
-                        "label": "",
+                        "help": "เลือก OpenAI model ที่จะใช้สำหรับการตรวจสอบภาษา GPT-3.5-turbo มีคำแนะนำเนื่องจากการตรวจสอบภาษาเป็นงานง่าย ๆ ที่ไม่ต้องมี model ที่ทรงพลังที่สุด",
+                        "label": "Language detection model",
                         "options": {
-                            "gpt-4o": "",
-                            "gpt-4o-mini": "",
+                            "gpt-4o": "GPT-4o (Premium)",
+                            "gpt-4o-mini": "GPT-4o Mini (Balanced)",
                             "gpt-3": {
-                                "5-turbo": "",
-                                "5-turbo-0125": ""
+                                "5-turbo": "GPT-3.5 Turbo (Budget)",
+                                "5-turbo-0125": "GPT-3.5 Turbo Latest (Budget+)"
                             }
                         }
                     },
                     "de_variant": {
-                        "help": "",
-                        "label": "",
+                        "help": "เมื่อแปลเป็นภาษาเยอรมัน ให้เลือกรูปแบบที่ควรใช้",
+                        "label": "ตัวเลือกภาษาเยอรมัน",
                         "options": {
-                            "casual": "",
-                            "swiss": ""
+                            "casual": "Casual German",
+                            "swiss": "Swiss German"
                         }
                     },
                     "en_variant": {
-                        "help": "",
-                        "label": "",
+                        "help": "เมื่อแปลเป็นภาษาอังกฤษ ให้เลือกรูปแบบที่ควรใช้",
+                        "label": "ตัวเลือกภาษาอังกฤษ",
                         "options": {
-                            "en-GB": "",
-                            "en-US": ""
+                            "en-GB": "British English",
+                            "en-US": "American English"
                         }
                     },
                     "max_tokens": {
-                        "help": "",
-                        "label": "",
+                        "help": "โทเค็นเอาต์พุตสูงสุดสำหรับการแปล ค่าที่สูงกว่าอนุญาตให้มีการแปลที่ยาวขึ้น แต่เพิ่มต้นทุน โทเค็น 1024 ประมาณ 750 คำ GPT-4o มีค่าใช้จ่ายประมาณ $0.03 ต่อ 1K output tokens GPT-4o-mini มีค่าใช้จ่ายประมาณ $0.0006 ต่อ 1K output tokens",
+                        "label": "Max output tokens",
                         "options": {
-                            "1024": "",
-                            "2048": "",
-                            "4096": "",
-                            "6144": "",
-                            "8192": ""
+                            "1024": "1,024 tokens (~750 words)",
+                            "2048": "2,048 tokens (~1,500 words)",
+                            "4096": "4,096 tokens (~3,000 words)",
+                            "6144": "6,144 tokens (~4,500 words)",
+                            "8192": "8,192 tokens (~6,000 words)"
                         }
                     },
                     "timeout": {
-                        "help": "",
-                        "label": ""
+                        "help": "Request timeout ในหน่วยวินาที เพิ่มหากประสบปัญหา timeout",
+                        "label": "Timeout (seconds)"
                     }
                 },
-                "translate-all-enabled": "",
-                "translate-all-help": "",
-                "bind-browser-language": "",
-                "bind-browser-language-help": "",
-                "use-native-locale-names": "",
-                "use-native-locale-names-help": "",
-                "translate-polls": "",
-                "translate-polls-help": "",
-                "translate-quiz": "",
-                "translate-quiz-help": "",
-                "provider": "",
-                "readme-info": "",
-                "readme-none": ""
+                "translate-all-enabled": "เปิดใช้งานภาษาการแปลทั้งหมด",
+                "translate-all-help": "เมื่อเปิดใช้งาน ผู้ใช้ admin และผู้อื่น ๆ ที่มีสิทธิ์อาจแปลเนื้อหาเป็นภาษาฟอรัมที่ติดตั้งไว้",
+                "bind-browser-language": "เพิ่มภาษา browser",
+                "bind-browser-language-help": "เมื่อเปิดใช้งาน ภาษา browser ของผู้ใช้จะถูกเพิ่มไปยังรายการภาษาที่มีอยู่สำหรับการแปล",
+                "use-native-locale-names": "ใช้ชื่อ locale เนทีฟ",
+                "use-native-locale-names-help": "เมื่อเปิดใช้งาน ชื่อ locale เนทีฟจะถูกใช้แทนชื่อรุ่น locale ปัจจุบัน",
+                "translate-polls": "Translate polls",
+                "translate-polls-help": "เมื่อเปิดใช้งาน ชื่อ poll, subtitle, image alt text และตัวเลือกคำตอบจะถูกแปลโดยอัตโนมัติเมื่อ poll ถูกสร้างหรือแก้ไข",
+                "translate-quiz": "Translate quizzes",
+                "translate-quiz-help": "เมื่อเปิดใช้งาน ชื่อ quiz, subtitle, คำอธิบายคำตอบที่ถูกต้อง และตัวเลือกคำตอบจะถูกแปลโดยอัตโนมัติเมื่อ quiz ถูกสร้างหรือแก้ไข",
+                "provider": "ผู้ให้บริการแปล",
+                "readme-info": "ดูเอกสาร README สำหรับข้อมูลขยาย",
+                "readme-none": "ไม่จำเป็นต้องมีการตั้งค่าเพิ่มเติมสำหรับไดรเวอร์นี้"
             }
         },
         "forum": {
             "post": {
-                "translation-error": ""
+                "translation-error": "มีปัญหาในการแสดงการแปลของโพสต์นี้ ข้อผิดพลาดได้ถูกบันทึกด้วย ID {uuid} โปรดรายงานหากปัญหายังคงมีอยู่"
             },
-            "unknown-language": "",
-            "detected-language": "",
-            "translate-button-label": "",
-            "refresh-translation": "",
+            "unknown-language": "[ไม่ได้ตรวจสอบ]",
+            "detected-language": "โพสต์นี้เขียนด้วย {postLang}",
+            "translate-button-label": "Translate",
+            "refresh-translation": "Refresh translation",
             "original-content": {
-                "title": "",
-                "view": ""
+                "title": "เนื้อหาดั้งเดิม",
+                "view": "ดูเนื้อหาดั้งเดิม"
             },
             "manage-translations": {
-                "translations-label": "",
-                "button-label": "",
-                "original-language": "",
+                "translations-label": "Translations",
+                "button-label": "จัดการการแปล",
+                "original-language": "ภาษาเดิม ({detectedLang})",
                 "discussion": {
-                    "title": ""
+                    "title": "จัดการการแปลชื่อโพสต์"
                 },
                 "post": {
-                    "title": ""
+                    "title": "จัดการการแปลโพสต์"
                 },
                 "poll": {
-                    "image-alt": "",
-                    "option": "",
-                    "subtitle": "",
-                    "title": "",
-                    "question": "",
-                    "question-language": ""
+                    "image-alt": "Image ALT text (ถ้ามี)",
+                    "option": "ตัวเลือก {number}",
+                    "subtitle": "Subtitle",
+                    "title": "จัดการการแปล Poll",
+                    "question": "Question",
+                    "question-language": "Poll question ({language})"
                 },
                 "poll-group": {
-                    "title": "",
-                    "name": ""
+                    "title": "จัดการการแปล Poll Group",
+                    "name": "ชื่อกลุ่ม"
                 },
-                "save-changes": "",
+                "save-changes": "=> core.ref.save_changes",
                 "quiz": {
-                    "title": "",
-                    "question": "",
-                    "subtitle": "",
-                    "option": "",
-                    "answer-additional": ""
+                    "title": "จัดการการแปล Quiz",
+                    "question": "Question",
+                    "subtitle": "Subtitle",
+                    "option": "คำตอบ {number}",
+                    "answer-additional": "คำอธิบายคำตอบที่ถูกต้อง"
                 }
             },
             "discussion": {
                 "post": {
-                    "close-translation": "",
-                    "translated-header": "",
-                    "translated-updated": ""
+                    "close-translation": "ปิดการแปล",
+                    "translated-header": "AI translation จาก {from} เป็น {to}",
+                    "translated-updated": "อัปเดตการแปลเมื่อ {time} โดยใช้ {provider}"
                 },
                 "title": {
-                    "detected-language": ""
+                    "detected-language": "{postLang}"
                 }
             },
             "user": {
                 "settings": {
-                    "heading": "",
+                    "heading": "Translation",
                     "source-language": {
-                        "help": "",
-                        "label": ""
+                        "help": "เมื่อปิดใช้งาน เฉพาะเนื้อหาที่แปลได้ที่เขียนด้วยภาษาอื่นนอกเหนือจากภาษาฟอรัมปัจจุบันจะมีป้ายกำกับ เพื่อป้ายกำกับเนื้อหาทั้งหมดด้วยภาษาที่ตรวจสอบ ให้เปิดใช้งานการตั้งค่านี้",
+                        "label": "แสดงภาษาตลอดเวลา"
                     }
                 }
             },
             "composer_edit": {
-                "language": ""
+                "language": "อัปเดตเนื้อหาที่แปลแล้วใน {language}"
             }
         },
         "lib": {
             "providers": {
-                "deepl": "",
-                "google-free": "",
-                "google-cloud": "",
-                "openai": ""
+                "deepl": "DeepL",
+                "google-free": "Google Translate",
+                "google-cloud": "Google Cloud Translate",
+                "openai": "OpenAI"
             },
             "settings": {
-                "api-key": ""
+                "api-key": "API Key"
             }
         }
     }

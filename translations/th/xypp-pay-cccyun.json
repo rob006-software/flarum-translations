@@ -2,101 +2,101 @@
     "xypp-pay-cccyun": {
         "forum": {
             "add_money": {
-                "button": "",
-                "title": "",
-                "amount": "",
-                "cost": "",
-                "confirm": ""
+                "button": "เติมเงิน",
+                "title": "เติมเงิน",
+                "amount": "จำนวน",
+                "cost": "ราคา ￥{cost} (CNY)",
+                "confirm": "ชำระเงิน"
             },
             "history": {
-                "title": "",
-                "pay": "",
-                "status_pending": "",
-                "status_success": "",
-                "status_expired": "",
-                "amount": "",
-                "create": "",
-                "expire": ""
+                "title": "ประวัติการเติมเงิน",
+                "pay": "ชำระเงิน",
+                "status_pending": "รอดำเนินการ",
+                "status_success": "สำเร็จ",
+                "status_expired": "หมดอายุ",
+                "amount": "￥{amount}",
+                "create": "สร้าง",
+                "expire": "หมดอายุ"
             },
             "recharge-modal": {
-                "title": "",
-                "amount": "",
-                "money": "",
-                "confirm": ""
+                "title": "เติมเงิน",
+                "amount": "จำนวน",
+                "money": "ราคา ￥{amount}",
+                "confirm": "ชำระเงิน"
             },
             "pay-modal": {
-                "title": "",
-                "amount": "",
-                "tip": "",
-                "qr": "",
-                "qr-fail": "",
-                "window": "",
-                "open_window": "",
-                "wechat": "",
-                "open_wechat": "",
-                "back": "",
-                "done": "",
-                "invalid-amount": "",
-                "no-limit": ""
+                "title": "ชำระเงิน",
+                "amount": "￥{amount}",
+                "tip": "คุณกำลังเติม {money} ให้กับ {u}",
+                "qr": "สแกน QR Code เพื่อชำระเงิน",
+                "qr-fail": "โหลด QR Code ไม่สำเร็จ",
+                "window": "กรุณาชำระเงินในหน้าต่างใหม่",
+                "open_window": "หากไม่มีหน้าต่าง popup กรุณากดที่นี่",
+                "wechat": "กำลังเรียก WeChat เพื่อชำระเงิน",
+                "open_wechat": "หากไม่มีการแจ้งเตือนการชำระเงิน กรุณากดที่นี่",
+                "back": "ย้อนกลับ",
+                "done": "เสร็จสิ้น",
+                "invalid-amount": "จำนวนเงินไม่ถูกต้อง (อนุญาตระหว่าง {min} ถึง {max})",
+                "no-limit": "[ไม่จำกัด]"
             },
-            "pay-done": "",
-            "pay-done-btn": ""
+            "pay-done": "ชำระเงินเรียบร้อยแล้ว",
+            "pay-done-btn": "ไปที่หน้าประวัติ"
         },
         "admin": {
             "permissions": {
-                "can-pay": ""
+                "can-pay": "สามารถเติมเงินได้"
             },
             "settings": {
-                "pay-wxpay": "",
-                "pay-qqpay": "",
-                "pay-alipay": "",
-                "ignore_ssl": "",
-                "money-rate": "",
-                "amount-max": "",
-                "amount-min": "",
-                "expired_minutes": "",
-                "ua-wechat": "",
-                "ua-alipay": "",
-                "ua-qq": "",
-                "ua-mobile": "",
-                "use_proxy": "",
-                "key": "",
-                "public-key": "",
-                "private-key": "",
-                "use-v2": "",
-                "pid": "",
-                "base_url": ""
+                "pay-wxpay": "เปิดใช้งาน WeChat Pay",
+                "pay-qqpay": "เปิดใช้งาน QQ Pay",
+                "pay-alipay": "เปิดใช้งาน Alipay",
+                "ignore_ssl": "ละเว้นข้อผิดพลาด SSL",
+                "money-rate": "อัตราแลกเปลี่ยน: 1 CNY -> X เงิน",
+                "amount-max": "จำนวนสูงสุด",
+                "amount-min": "จำนวนต่ำสุด",
+                "expired_minutes": "เวลาหมดอายุ (นาที)",
+                "ua-wechat": "WeChat UA",
+                "ua-alipay": "Alipay UA",
+                "ua-qq": "QQ UA",
+                "ua-mobile": "Mobile UA",
+                "use_proxy": "ใช้ proxy (จะดึง IP จาก x-forwarded-for header)",
+                "key": "(V1) MD5 Key",
+                "public-key": "(V2) Platform Public Key",
+                "private-key": "(V2) Partner Private Key",
+                "use-v2": "ใช้ v2 API (RSA Ver)",
+                "pid": "Partner ID",
+                "base_url": "Base URL (ต้องลงท้ายด้วย /)"
             },
             "other": {
-                "confirm-delete": "",
-                "add-row": "",
-                "delete-row": "",
-                "pay-type": "",
-                "display": "",
-                "color": "",
-                "icon": ""
+                "confirm-delete": "แน่ใจว่าต้องการลบรายการนี้?",
+                "add-row": "เพิ่มแถว",
+                "delete-row": "ลบแถว",
+                "pay-type": "ประเภทการชำระเงิน",
+                "display": "ชื่อที่แสดง",
+                "color": "สี",
+                "icon": "Icon"
             }
         },
         "lib": {
-            "alipay": "",
-            "wxpay": "",
-            "qqpay": "",
+            "alipay": "Alipay",
+            "wxpay": "Wechat Pay",
+            "qqpay": "QQ Pay",
             "status": {
-                "pending": "",
-                "done": "",
-                "expire": ""
+                "pending": "รอดำเนินการ",
+                "done": "เสร็จสิ้น",
+                "expire": "หมดอายุ"
             }
         },
         "api": {
-            "unknown_error": "",
-            "invalid_pay_type": "",
-            "pay_type_disabled": "",
-            "pay_item_name": "",
-            "payment_is_done": "",
-            "payment_is_expired": "",
-            "invalid_amount": "",
-            "verify_failed": "",
-            "unknown_pay_type": ""
+            "unknown_error": "เกิดข้อผิดพลาดที่ไม่ทราบสาเหตุ",
+            "invalid_pay_type": "ประเภทการชำระเงินไม่ถูกต้อง",
+            "pay_type_disabled": "ประเภทการชำระเงินที่เลือกถูกปิดใช้งาน",
+            "pay_item_name": "เติม {money} ให้กับ {u}",
+            "payment_is_done": "ชำระเงินเรียบร้อยแล้ว",
+            "payment_is_expired": "การชำระเงินหมดอายุแล้ว",
+            "invalid_amount": "จำนวนเงินไม่ถูกต้อง",
+            "verify_failed": "การตรวจสอบล้มเหลว",
+            "unknown_pay_type": "ประเภทการชำระเงินไม่ถูกต้อง"
         }
     }
 }

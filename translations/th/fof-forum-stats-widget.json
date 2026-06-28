@@ -3,19 +3,19 @@
         "admin": {
             "settings": {
                 "decimal_places": {
-                    "label": "",
-                    "help": ""
+                    "label": "จำนวนทศนิยม",
+                    "help": "จำนวนตำแหน่งทศนิยมที่จะแสดงสำหรับตัวเลขขนาดใหญ่ (0-2)"
                 }
             }
         },
         "forum": {
             "widget": {
                 "stats": {
-                    "comment_post_count": "",
-                    "discussion_count": "",
-                    "user_count": ""
+                    "comment_post_count": "โพสต์",
+                    "discussion_count": "โพสต์",
+                    "user_count": "ผู้ใช้"
                 },
-                "title": ""
+                "title": "สถิติฟอรัม"
             }
         }
     }

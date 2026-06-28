@@ -2,116 +2,116 @@
     "foskym-custom-levels": {
         "admin": {
             "settings": {
-                "levelText": "",
-                "levelDesc": "",
-                "expText": "",
-                "expDesc": "",
-                "expForPost": "",
-                "expForPostDesc": "",
-                "postMinLength": "",
-                "postMaxTimes": "",
-                "expForDiscussion": "",
-                "expForDiscussionDesc": "",
-                "discussionMaxTimes": "",
-                "expForLike": "",
-                "expForLikeDesc": "",
-                "autoRemove": "",
-                "cascadeRemove": ""
+                "levelText": "ใส่ข้อความที่จะแสดงสำหรับ level (เช่น Rank, Level)",
+                "levelDesc": "ตัวแปรที่ใช้ได้：[level]",
+                "expText": "ใส่ข้อความที่จะแสดงสำหรับ exp（เช่น「[expTotal] Exp」）",
+                "expDesc": "ตัวแปรที่ใช้ได้：[expTotal] [expPercent] [nextLevel] [expToNextLevel]",
+                "expForPost": "Exp ที่ได้รับต่อการโพสต์แต่ละครั้ง",
+                "expForPostDesc": "ตัวเลขล้วนไม่มีทศนิยม หรือช่วง เช่น「[1, 10]」หมายถึงตัวเลขสุ่มระหว่าง 1 ถึง 10",
+                "postMinLength": "ความยาวขั้นต่ำของโพสต์ ใส่ 0 หากไม่ต้องการจำกัด",
+                "postMaxTimes": "จำนวนโพสต์สูงสุดต่อวัน ใส่ 0 หากไม่ต้องการจำกัด",
+                "expForDiscussion": "Exp ที่ได้รับต่อการสร้างโพสต์แต่ละครั้ง",
+                "expForDiscussionDesc": "ตัวเลขล้วนไม่มีทศนิยม หรือช่วง เช่น「[1, 10]」หมายถึงตัวเลขสุ่มระหว่าง 1 ถึง 10",
+                "discussionMaxTimes": "จำนวนโพสต์ที่สร้างได้สูงสุดต่อวัน ใส่ 0 หากไม่ต้องการจำกัด",
+                "expForLike": "Exp ที่ได้รับเมื่อถูก like",
+                "expForLikeDesc": "ต้องใช้ extension flarum/likes ตัวเลขล้วนไม่มีทศนิยม หรือช่วง เช่น「[1, 10]」หมายถึงตัวเลขสุ่มระหว่าง 1 ถึง 10",
+                "autoRemove": "ลบ Exp อัตโนมัติ",
+                "cascadeRemove": "เมื่อโพสต์ถูกลบ ให้ลบ Exp ของการตอบกลับด้วย"
             },
-            "go_to_forum_quests": "",
+            "go_to_forum_quests": "ดูการตั้งค่าเพิ่มเติมใน Forum Quests",
             "auto_remove": [
-                "",
-                "",
-                ""
+                "ไม่ลบ Exp",
+                "เมื่อโพสต์/การตอบกลับถูกซ่อนหรือลบ (ค่าเริ่มต้น)",
+                "เมื่อโพสต์/การตอบกลับถูกลบถาวร"
             ],
-            "preview": "",
+            "preview": "ดูตัวอย่าง",
             "pages": {
-                "index": "",
-                "levels": ""
+                "index": "หน้าหลัก",
+                "levels": "Levels"
             },
             "levels": {
-                "edit_level": "",
-                "delete_confirmation": "",
-                "add_button": "",
-                "name": "",
-                "min_exp_required": ""
+                "edit_level": "แก้ไข Level",
+                "delete_confirmation": "ยืนยันการลบ level นี้?",
+                "add_button": "เพิ่ม Level",
+                "name": "ชื่อ Level",
+                "min_exp_required": "Exp ที่ต้องการ"
             },
             "permissions": {
-                "edit_exp": ""
+                "edit_exp": "แก้ไข Exp ของผู้ใช้"
             }
         },
         "forum": {
             "user_controls": {
-                "edit_exp_button": ""
+                "edit_exp_button": "แก้ไข Exp"
             },
             "modal": {
-                "title": "",
-                "current": "",
-                "submit_button": ""
+                "title": "แก้ไข Exp",
+                "current": "ปัจจุบัน",
+                "submit_button": "บันทึก"
             },
             "notifications": {
-                "level_updated": ""
+                "level_updated": "ยินดีด้วย! คุณขึ้น level {level} แล้ว!"
             },
             "settings": {
-                "notify_level_updated": ""
+                "notify_level_updated": "แจ้งเตือนเมื่อ level เพิ่มขึ้น"
             },
             "label": {
-                "exp_logs": ""
+                "exp_logs": "ประวัติ Exp"
             },
             "log": {
-                "exp": "",
-                "reason": "",
-                "time": "",
-                "view": "",
-                "load_more": "",
-                "no_more": "",
-                "no_records": "",
+                "exp": "การเปลี่ยนแปลง Exp",
+                "reason": "เหตุผล",
+                "time": "เวลา",
+                "view": "ดู",
+                "load_more": "โหลดเพิ่ม",
+                "no_more": "ไม่มีเพิ่มแล้ว",
+                "no_records": "ไม่มีบันทึก",
                 "type": {
-                    "system_clear": "",
-                    "system_refresh": "",
-                    "automoderator": "",
-                    "post_posted": "",
-                    "post_deleted": "",
-                    "post_hidden": "",
-                    "post_restored": "",
-                    "discussion_started": "",
-                    "discussion_deleted": "",
-                    "discussion_hidden": "",
-                    "discussion_restored": "",
-                    "comment_deleted_in_deleted_discussion": "",
-                    "post_liked": "",
-                    "post_unliked": "",
-                    "admin_edit": "",
-                    "forum_quests": "",
-                    "store_purchase": ""
+                    "system_clear": "ระบบล้างข้อมูล",
+                    "system_refresh": "ระบบรีเฟรช",
+                    "automoderator": "Auto moderator",
+                    "post_posted": "โพสต์ถูกเผยแพร่",
+                    "post_deleted": "โพสต์ถูกลบ",
+                    "post_hidden": "โพสต์ถูกซ่อน",
+                    "post_restored": "โพสต์ถูกกู้คืน",
+                    "discussion_started": "โพสต์เริ่มต้นแล้ว {title}",
+                    "discussion_deleted": "โพสต์ถูกลบ {title}",
+                    "discussion_hidden": "โพสต์ถูกซ่อน {title}",
+                    "discussion_restored": "โพสต์ถูกกู้คืน {title}",
+                    "comment_deleted_in_deleted_discussion": "ความคิดเห็นถูกลบในโพสต์ที่ถูกลบ",
+                    "post_liked": "โพสต์ถูก like",
+                    "post_unliked": "โพสต์ถูก unlike",
+                    "admin_edit": "Admin แก้ไข",
+                    "forum_quests": "Forum quests: เสร็จสิ้น {name}",
+                    "store_purchase": "ซื้อจาก store"
                 }
             }
         },
         "lib": {
             "defaults": {
-                "level": "",
-                "exp": ""
+                "level": "Lv.",
+                "exp": "[expTotal] Exp"
             },
             "error": {
-                "calculation": ""
+                "calculation": "การคำนวณ exp level ผิดพลาด"
             },
             "integrations": {
                 "automoderator": {
-                    "metric_name": "",
-                    "action_name": ""
+                    "metric_name": "Exp",
+                    "action_name": "มอบ Exp"
                 },
                 "forum-quests": {
-                    "reward_name": ""
+                    "reward_name": "Exp"
                 },
                 "store": {
-                    "item_name": "",
+                    "item_name": "Exp",
                     "provider_data": {
-                        "same_as_use_cnt": ""
+                        "same_as_use_cnt": "เท่ากับจำนวนครั้งที่ใช้ได้"
                     }
                 },
                 "user-directory": {
-                    "most_exp": "",
-                    "least_exp": ""
+                    "most_exp": "Exp มากที่สุด",
+                    "least_exp": "Exp น้อยที่สุด"
                 }
             }
         }
@@ -119,16 +119,16 @@
     "fof-user-directory": {
         "lib": {
             "sort": {
-                "most_exp": "",
-                "least_exp": ""
+                "most_exp": "=> foskym-custom-levels.lib.integrations.user-directory.most_exp",
+                "least_exp": "=> foskym-custom-levels.lib.integrations.user-directory.least_exp"
             }
         }
     },
     "nodeloc-leaderboard": {
         "lib": {
             "sort": {
-                "most_exp": "",
-                "least_exp": ""
+                "most_exp": "=> foskym-custom-levels.lib.integrations.user-directory.most_exp",
+                "least_exp": "=> foskym-custom-levels.lib.integrations.user-directory.least_exp"
             }
         }
     }

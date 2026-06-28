@@ -2,80 +2,80 @@
     "foskym-oauth-center": {
         "admin": {
             "permission": {
-                "use_oauth": ""
+                "use_oauth": "ใช้งาน OAuth"
             },
             "page": {
-                "index": "",
-                "clients": "",
-                "scopes": "",
-                "tokens": ""
+                "index": "หน้าหลัก",
+                "clients": "จัดการ Clients",
+                "scopes": "จัดการ Scopes",
+                "tokens": "จัดการ Tokens"
             },
             "settings": {
-                "display_mode": "",
-                "access_lifetime": "",
-                "allow_implicit": "",
-                "enforce_state": "",
-                "require_exact_redirect_uri": "",
-                "authorization_method_fetch": "",
-                "allow_delete_records": ""
+                "display_mode": "รูปแบบการแสดงผล",
+                "access_lifetime": "อายุ Access Token (วินาที)",
+                "allow_implicit": "อนุญาต Implicit Grant (response_type=token)",
+                "enforce_state": "บังคับ State Validation (state parameter)",
+                "require_exact_redirect_uri": "ต้องระบุ Redirect URI ที่ตรงกันพอดี",
+                "authorization_method_fetch": "Authorization Method Fetch (ไม่ redirect โดยตรง)",
+                "allow_delete_records": "อนุญาตให้ลบบันทึก Authorization"
             },
             "clients": {
-                "client_id": "",
-                "client_secret": "",
-                "redirect_uri": "",
-                "grant_types": "",
-                "scope": "",
-                "client_name": "",
-                "client_desc": "",
-                "client_icon": "",
-                "client_home": "",
-                "add_button": "",
-                "edit_client": ""
+                "client_id": "Client ID",
+                "client_secret": "Client Secret",
+                "redirect_uri": "Redirect URI",
+                "grant_types": "Grant Types",
+                "scope": "Scope",
+                "client_name": "ชื่อ",
+                "client_desc": "คำอธิบาย",
+                "client_icon": "Icon",
+                "client_home": "Homepage",
+                "add_button": "เพิ่ม Client",
+                "edit_client": "แก้ไข Client"
             },
             "scopes": {
-                "scope": "",
-                "resource_path": "",
-                "method": "",
-                "is_default": "",
-                "scope_name": "",
-                "scope_icon": "",
-                "scope_desc": "",
-                "visible_fields": "",
-                "add_button": "",
-                "edit_scope": ""
+                "scope": "Scope",
+                "resource_path": "Resource Path",
+                "method": "Method",
+                "is_default": "ค่าเริ่มต้น",
+                "scope_name": "ชื่อ",
+                "scope_icon": "Icon",
+                "scope_desc": "คำอธิบาย",
+                "visible_fields": "Fields ที่มองเห็นได้",
+                "add_button": "เพิ่ม Scope",
+                "edit_scope": "แก้ไข Scope"
             },
             "tokens": {
-                "add_token": "",
-                "delete_token": ""
+                "add_token": "เพิ่ม Token",
+                "delete_token": "ลบ Token"
             },
             "action": {
-                "delete_all_records_button": "",
-                "delete_all_records_confirm": "",
-                "delete_all_records_success": ""
+                "delete_all_records_button": "ลบบันทึกทั้งหมด",
+                "delete_all_records_confirm": "ยืนยันการลบบันทึกทั้งหมด",
+                "delete_all_records_success": "ลบบันทึกทั้งหมดสำเร็จ"
             }
         },
         "forum": {
             "page": {
                 "title": {
-                    "authorize": ""
+                    "authorize": "Authorize"
                 },
                 "label": {
-                    "authorized": ""
+                    "authorized": "ประวัติการ Authorize"
                 }
             },
             "authorize": {
-                "require_these_scopes": "",
-                "access": "",
-                "agree": "",
-                "deny": ""
+                "require_these_scopes": "ต้องการ scope เหล่านี้",
+                "access": "เข้าถึง",
+                "agree": "ยอมรับ",
+                "deny": "ปฏิเสธ"
             },
             "authorized": {
-                "no_records": "",
-                "no_more_records": "",
-                "load_more": "",
-                "delete_button": "",
-                "delete_all_button": "",
-                "delete_all_confirm": ""
+                "no_records": "ไม่มีบันทึก",
+                "no_more_records": "ไม่มีบันทึกเพิ่มเติม",
+                "load_more": "โหลดเพิ่ม",
+                "delete_button": "ลบบันทึกนี้",
+                "delete_all_button": "ลบบันทึกทั้งหมด",
+                "delete_all_confirm": "ยืนยันการลบบันทึกทั้งหมด"
             }
         }
     }

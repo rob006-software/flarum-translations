@@ -2,12 +2,12 @@
     "datlechin-cbox": {
         "admin": {
             "settings": {
-                "description": "",
-                "secret": "",
-                "box_id": "",
-                "box_tag": "",
-                "show_when_user_not_login": "",
-                "show_when_user_not_login_help": ""
+                "description": "Cbox ของคุณต้องเป็น Pro version ไปที่ <strong>Users</strong> -> <strong>User Integration</strong> เพื่อเปิดใช้งานการ integrate และรับข้อมูลที่จำเป็น",
+                "secret": "Secret",
+                "box_id": "Box ID",
+                "box_tag": "Box Tag",
+                "show_when_user_not_login": "แสดงเมื่อผู้ใช้ยังไม่ได้ login",
+                "show_when_user_not_login_help": "แสดง chatbox แม้ผู้ใช้ยังไม่ได้ login"
             }
         }
     }

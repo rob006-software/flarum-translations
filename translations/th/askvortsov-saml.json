@@ -2,41 +2,41 @@
     "askvortsov-saml": {
         "admin": {
             "header": {
-                "text": ""
+                "text": "ต้องกรอก metadata URL หรือ metadata XML อย่างใดอย่างหนึ่ง"
             },
-            "title": "",
+            "title": "การตั้งค่า SAML2 SSO",
             "labels": {
-                "idp_metadata_url": "",
-                "idp_metadata": "",
-                "only_option": "",
-                "nameid_format": "",
-                "slo": "",
-                "authn_requests_signed": "",
-                "logout_request_signed": "",
-                "logout_response_signed": "",
-                "sign_metadata": "",
-                "want_assertions_encrypted": "",
-                "want_assertions_signed": "",
-                "want_messages_signed": "",
-                "x509_cert": "",
-                "x509_key": ""
+                "idp_metadata_url": "URL ของ Identity Provider Metadata (แทนที่ XML)",
+                "idp_metadata": "XML ของ Identity Provider Metadata (แทนที่ URL)",
+                "only_option": "ใช้ SAML2 SSO เป็นวิธีเข้าสู่ระบบเดียว?",
+                "nameid_format": "รูปแบบ NameID",
+                "slo": "เปิดใช้งาน SLO? หาก IDP ของคุณไม่รองรับ การตั้งค่านี้จะไม่มีผล",
+                "authn_requests_signed": "เซ็น authn requests?",
+                "logout_request_signed": "เซ็น logout requests?",
+                "logout_response_signed": "เซ็น logout responses?",
+                "sign_metadata": "เซ็น metadata?",
+                "want_assertions_encrypted": "ต้องการ Assertions แบบเข้ารหัส?",
+                "want_assertions_signed": "ต้องการ Assertions แบบเซ็น?",
+                "want_messages_signed": "ต้องการ Messages แบบเซ็น?",
+                "x509_cert": "x509 Certificate (จำเป็นสำหรับการเซ็น หากเปิดใช้งาน)",
+                "x509_key": "x509 Private Key (จำเป็นสำหรับการเซ็น หากเปิดใช้งาน)"
             },
             "options": {
                 "nameid_format": {
-                    "persistent": "",
-                    "emailAddress": "",
-                    "unspecified": ""
+                    "persistent": "Persistent (แนะนำหากรองรับ)",
+                    "emailAddress": "Email (ค่าเริ่มต้น ใช้หาก Persistent ไม่รองรับ)",
+                    "unspecified": "ไม่ระบุ"
                 }
             }
         },
         "forum": {
             "log_in": {
-                "with_saml_button": "",
-                "open_popup": "",
-                "enable_popups": ""
+                "with_saml_button": "SAML2 SSO",
+                "open_popup": "คลิกที่นี่เพื่อเข้าสู่ระบบ",
+                "enable_popups": "เปิดใช้งาน Popup เพื่อเข้าสู่ระบบ / สมัครสมาชิก"
             },
             "sign_up": {
-                "post_saml_title": ""
+                "post_saml_title": "อีกขั้นตอนสุดท้าย..."
             }
         }
     }

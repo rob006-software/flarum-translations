@@ -2,36 +2,36 @@
     "clarkwinkelmann-collapsible-posts": {
         "admin": {
             "settings": {
-                "reasons": "",
+                "reasons": "เหตุผล",
                 "header": {
-                    "key": "",
-                    "label": "",
-                    "explanation": ""
+                    "key": "คีย์ฐานข้อมูลที่ไม่ซ้ำกัน",
+                    "label": "ป้ายกำกับ",
+                    "explanation": "ข้อความอธิบายกำหนดเอง"
                 },
-                "add": "",
-                "explanationUrl": "",
-                "explanationUrlHelp": ""
+                "add": "เพิ่มเหตุผลใหม่",
+                "explanationUrl": "URL คำอธิบาย",
+                "explanationUrlHelp": "ไม่บังคับ จะแสดงใต้โพสต์ที่ถูกยุบ"
             },
             "permission": {
-                "collapse": ""
+                "collapse": "ยุบโพสต์"
             }
         },
         "forum": {
             "postControl": {
-                "collapse": "",
-                "uncollapse": ""
+                "collapse": "ยุบ",
+                "uncollapse": "ยุบ/ขยาย"
             },
             "modal": {
-                "title": "",
-                "uncollapse": ""
+                "title": "ยุบโพสต์",
+                "uncollapse": "ขยาย"
             },
             "badge": {
-                "post": ""
+                "post": "ถูกยุบ"
             },
             "stream": {
-                "hidden": "",
-                "load": "",
-                "explanation": ""
+                "hidden": "{count, plural, one {# โพสต์ถูกซ่อนเป็น {reason}} other {# โพสต์ถูกซ่อนเป็น {reason}}}",
+                "load": "โหลดเพิ่มเติม",
+                "explanation": "ทำไมฉันถึงเห็นสิ่งนี้?"
             }
         }
     }

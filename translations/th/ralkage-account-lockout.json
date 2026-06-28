@@ -2,48 +2,48 @@
     "ralkage-account-lockout": {
         "api": {
             "error": {
-                "locked_timed": "",
-                "locked_manual": ""
+                "locked_timed": "บัญชีถูกล็อก กรุณาลองใหม่อีกครั้งใน {minutes} นาที",
+                "locked_manual": "บัญชีถูกล็อก กรุณาติดต่อ admin"
             }
         },
         "admin": {
             "settings": {
-                "max_attempts_label": "",
-                "max_attempts_help": "",
-                "lockout_mode_label": "",
-                "lockout_mode_help": "",
-                "lockout_duration_label": "",
-                "lockout_duration_help": ""
+                "max_attempts_label": "จำนวนครั้งสูงสุดที่ login ผิดพลาดได้",
+                "max_attempts_help": "จำนวนครั้งที่ login ผิดพลาดติดต่อกันก่อนที่บัญชีจะถูกล็อก",
+                "lockout_mode_label": "โหมดการล็อก",
+                "lockout_mode_help": "Timed: ปลดล็อกอัตโนมัติหลังหมดเวลา / Manual: ต้องให้ admin หรือ moderator ปลดล็อก",
+                "lockout_duration_label": "ระยะเวลาการล็อก (นาที)",
+                "lockout_duration_help": "บัญชีจะถูกล็อกนานเท่าไร ใช้งานเมื่อโหมดการล็อกเป็น Timed เท่านั้น"
             },
             "permissions": {
-                "unlock_users_label": ""
+                "unlock_users_label": "ปลดล็อกบัญชีที่ถูกล็อก"
             },
             "users": {
-                "lock_status_column": "",
-                "locked_tooltip": "",
-                "unlock_button": "",
-                "unlock_confirmation": ""
+                "lock_status_column": "สถานะการล็อก",
+                "locked_tooltip": "บัญชีนี้ถูกล็อกอยู่",
+                "unlock_button": "ปลดล็อก",
+                "unlock_confirmation": "คุณแน่ใจหรือไม่ว่าต้องการปลดล็อก {username}?"
             }
         },
         "forum": {
             "user_controls": {
-                "unlock_button": ""
+                "unlock_button": "ปลดล็อก"
             },
             "user_badge": {
-                "locked_tooltip": ""
+                "locked_tooltip": "บัญชีถูกล็อก"
             },
             "unlock_modal": {
-                "title": "",
-                "locked_since": "",
-                "locked_until": "",
-                "manually_locked": "",
-                "failed_attempts": "",
-                "unlock_button": ""
+                "title": "ปลดล็อก {username}",
+                "locked_since": "ถูกล็อกตั้งแต่ {date}",
+                "locked_until": "จะปลดล็อกอัตโนมัติเมื่อ {date}",
+                "manually_locked": "บัญชีนี้ถูกล็อกแบบ manual ต้องให้ admin หรือ moderator ปลดล็อกให้",
+                "failed_attempts": "login ผิดพลาด {count} ครั้ง",
+                "unlock_button": "ปลดล็อกบัญชี"
             },
             "log_in": {
-                "locked_timed": "",
-                "locked_manual": "",
-                "attempts_remaining": ""
+                "locked_timed": "บัญชีนี้ถูกล็อกเนื่องจาก login ผิดพลาดหลายครั้งเกินไป กรุณาลองใหม่อีกครั้งใน {minutes} นาที",
+                "locked_manual": "บัญชีนี้ถูกล็อก กรุณาติดต่อ admin",
+                "attempts_remaining": "ข้อมูลไม่ถูกต้อง เหลือโอกาส login อีก {remaining} จาก {max} ครั้ง ก่อนบัญชีจะถูกล็อก"
             }
         }
     }

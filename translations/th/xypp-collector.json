@@ -1,84 +1,84 @@
 {
     "xypp-collector": {
         "forum": {
-            "reward_not_found": "",
-            "condition_not_found": "",
+            "reward_not_found": "ไม่พบ reward {reward}",
+            "condition_not_found": "ไม่พบ condition {condition}",
             "condition": {
-                "condition": "",
-                "format": "",
-                "and": "",
-                "span": ""
+                "condition": "เงื่อนไข",
+                "format": "<b>{name}:{calculate}</b> {operator}{value} {span} ",
+                "and": " และ ",
+                "span": "ภายใน {span} วัน"
             },
             "reward": {
-                "reward": "",
-                "format": "",
-                "and": ""
+                "reward": "รางวัล",
+                "format": "<b>{name}</b>:{value}",
+                "and": " และ "
             }
         },
         "admin": {
-            "settings": "",
-            "allow_update": "",
-            "max_keep": "",
-            "use_custom": "",
-            "custom_global_update": "",
-            "custom_normal_update": "",
-            "auto_update": "",
-            "auto_update_hour": "",
-            "limited_accumulation_support": "",
+            "settings": "ตั้งค่า",
+            "allow_update": "อนุญาตให้ผู้ใช้ update ด้วยตัวเอง",
+            "max_keep": "จำนวนวันสูงสุดที่เก็บข้อมูล",
+            "use_custom": "ใช้ Custom",
+            "custom_global_update": "Custom Update แบบ Global",
+            "custom_normal_update": "Custom Update แบบ condition ปกติ",
+            "auto_update": "Auto Update Custom Condition ทุกวัน",
+            "auto_update_hour": "ชั่วโมงที่จะทำ Auto Update (เวลาท้องถิ่น)",
+            "limited_accumulation_support": "condition นี้ไม่สามารถดึงข้อมูลทั้งหมดตอน recalculate ได้ ระบบจะถามเมื่อรันคำสั่ง",
             "emit_control": {
-                "title": "",
-                "event": "",
-                "update": "",
-                "manual": "",
-                "abs": "",
-                "name": ""
+                "title": "Update Emitter และ Recalculate",
+                "event": "Event",
+                "update": "คำสั่ง Update",
+                "manual": "Manual",
+                "abs": "Recalculate",
+                "name": "ชื่อ"
             },
             "list": {
-                "condition": "",
-                "reward": "",
-                "condition-name": "",
-                "condition-operator": "",
-                "condition-value": "",
-                "condition-span": "",
-                "condition-calculate": "",
-                "condition-alter_name": "",
-                "reward-name": "",
-                "reward-value": "",
-                "reward-get_value": "",
-                "reward-alter_name": "",
-                "new_item": ""
+                "condition": "เงื่อนไข",
+                "reward": "รางวัล",
+                "condition-name": "ชื่อเงื่อนไข",
+                "condition-operator": "Operator",
+                "condition-value": "ค่า",
+                "condition-span": "ช่วงเวลา",
+                "condition-calculate": "การคำนวณ",
+                "condition-alter_name": "ชื่อที่แสดง",
+                "reward-name": "ชื่อรางวัล",
+                "reward-value": "ค่า",
+                "reward-get_value": "ค่าที่ได้รับ",
+                "reward-alter_name": "ชื่อที่แสดง",
+                "new_item": "รายการใหม่"
             },
             "custom": {
-                "title": "",
-                "name": "",
-                "add": "",
-                "display_name": "",
-                "evaluation": "",
-                "button-edit": "",
-                "button": "",
-                "delete-confirm": ""
+                "title": "Custom Condition",
+                "name": "ชื่อ",
+                "add": "ใหม่",
+                "display_name": "ชื่อที่แสดง",
+                "evaluation": "การประเมินผล",
+                "button-edit": "แก้ไข",
+                "button": "สร้าง",
+                "delete-confirm": "แน่ใจว่าต้องการลบรายการนี้?"
             },
             "permissions": {
-                "view-condition": ""
+                "view-condition": "ดูค่า Condition"
             }
         },
         "api": {
-            "condition_not_allow_frontend": "",
-            "no_manual_update": ""
+            "condition_not_allow_frontend": "Condition นี้ไม่สามารถ trigger จาก frontend ได้",
+            "no_manual_update": "ไม่จำเป็นต้อง update ด้วยตัวเอง"
         },
         "lib": {
             "calculate": {
-                "sum": "",
-                "max": "",
-                "days": ""
+                "sum": "ผลรวม",
+                "max": "สูงสุด",
+                "days": "นับวัน"
             },
             "operator": {
-                "ge": "",
-                "gt": "",
-                "le": "",
-                "lt": "",
-                "eq": "",
-                "ne": ""
+                "ge": ">=",
+                "gt": ">",
+                "le": "<=",
+                "lt": "<",
+                "eq": "=",
+                "ne": "!="
             }
         }
     }

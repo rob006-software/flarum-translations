@@ -1,29 +1,29 @@
 {
     "nearata-embed-twitch": {
         "admin": {
-            "allowfullscreen": "",
-            "autoplay": "",
+            "allowfullscreen": "อนุญาตเต็มหน้าจอ",
+            "autoplay": "Autoplay",
             "permissions": {
-                "create_twitch": ""
+                "create_twitch": "Embed Twitch"
             }
         },
         "forum": {
             "modal": {
                 "label": {
-                    "collection": "",
-                    "channel": "",
-                    "layout": "",
-                    "type": "",
-                    "video": ""
+                    "collection": "Collection ID",
+                    "channel": "ชื่อ Channel",
+                    "layout": "Layout",
+                    "type": "ประเภทเนื้อหา",
+                    "video": "Video ID"
                 },
-                "save_changes": "",
+                "save_changes": "บันทึกการเปลี่ยนแปลง",
                 "options": {
-                    "channel": "",
-                    "video": "",
-                    "collection": ""
+                    "channel": "Channel",
+                    "video": "Video",
+                    "collection": "Collection"
                 }
             },
-            "button_tooltip_title": ""
+            "button_tooltip_title": "Embed Twitch"
         }
     }
 }

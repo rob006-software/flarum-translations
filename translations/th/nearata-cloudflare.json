@@ -2,41 +2,41 @@
     "nearata-cloudflare": {
         "admin": {
             "development_mode_widget": {
-                "title": ""
+                "title": "Cloudflare Development Mode กำลังทำงาน"
             },
             "settings": {
-                "api_key": "",
-                "api_key_help": "",
-                "refresh_zone_button_label": "",
-                "refresh_zone_help": "",
-                "security_level_label": "",
+                "api_key": "API Key",
+                "api_key_help": "ดูคู่มือ <strong><url>การสร้าง API Tokens</url></strong> เพื่อสร้าง API Token",
+                "refresh_zone_button_label": "Refresh Zone ID",
+                "refresh_zone_help": "คลิกปุ่มด้านบน <strong>เฉพาะ</strong>เมื่อชื่อโดเมนเปลี่ยนแปลง",
+                "security_level_label": "ระดับความปลอดภัย",
                 "security_level_options": {
-                    "off": "",
-                    "essentially_off": "",
-                    "low": "",
-                    "medium": "",
-                    "high": "",
-                    "under_attack": ""
+                    "off": "ปิด",
+                    "essentially_off": "ปิดเกือบสมบูรณ์",
+                    "low": "ต่ำ",
+                    "medium": "กลาง",
+                    "high": "สูง",
+                    "under_attack": "อยู่ภายใต้การโจมตี"
                 },
                 "minify_setting": {
-                    "section_title": "",
-                    "css": "",
-                    "css_help": "",
-                    "html": "",
-                    "html_help": "",
-                    "js": "",
-                    "js_help": ""
+                    "section_title": "การตั้งค่า Minify",
+                    "css": "Minify CSS",
+                    "css_help": "บีบอัดไฟล์ CSS ทั้งหมดสำหรับเว็บไซต์ของคุณโดยอัตโนมัติ",
+                    "html": "Minify HTML",
+                    "html_help": "บีบอัดไฟล์ HTML ทั้งหมดสำหรับเว็บไซต์ของคุณโดยอัตโนมัติ",
+                    "js": "Minify JS",
+                    "js_help": "บีบอัดไฟล์ JavaScript ทั้งหมดสำหรับเว็บไซต์ของคุณโดยอัตโนมัติ"
                 },
                 "r2": {
-                    "section_title": "",
-                    "bucket_name": "",
-                    "access_key_id": "",
-                    "access_key_secret": "",
-                    "public_domain": "",
-                    "s3_api": ""
+                    "section_title": "R2",
+                    "bucket_name": "Bucket Name",
+                    "access_key_id": "Access Key ID",
+                    "access_key_secret": "Access Key Secret",
+                    "public_domain": "โดเมนสาธารณะ",
+                    "s3_api": "S3 API"
                 },
-                "refer_to": "",
-                "confirm_text": ""
+                "refer_to": "ดูข้อมูลเพิ่มเติมที่ <strong><url>หน้านี้</url></strong>",
+                "confirm_text": "แน่ใจหรือไม่?"
             }
         }
     }

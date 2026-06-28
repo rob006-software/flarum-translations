@@ -2,20 +2,20 @@
     "datlechin-pronouns": {
         "admin": {
             "settings": {
-                "prefix_label": "",
-                "prefix_help": "",
-                "icon_label": "",
-                "icon_help": ""
+                "prefix_label": "คำนำหน้า pronouns",
+                "prefix_help": "ข้อความนี้จะแสดงก่อน pronouns ของผู้ใช้ ทิ้งว่างเพื่อไม่แสดงอะไร",
+                "icon_label": "ไอคอน pronouns",
+                "icon_help": "เปิดใช้ตัวเลือกนี้เพื่อแสดงไอคอนแทนข้อความก่อน pronouns ของผู้ใช้"
             }
         },
         "forum": {
             "change_pronouns": {
-                "title": "",
-                "help": "",
-                "submit_button": ""
+                "title": "เปลี่ยน Pronouns",
+                "help": "Pronouns ของคุณจะแสดงในโปรไฟล์และ user card <a>Pronoun คืออะไร และมีความสำคัญอย่างไร?</a>",
+                "submit_button": "=> core.ref.save_changes"
             },
             "settings": {
-                "change_pronouns_button": ""
+                "change_pronouns_button": "เปลี่ยน Pronouns"
             }
         }
     }

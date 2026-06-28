@@ -2,33 +2,33 @@
     "serakoi-flarumstaffbadge": {
         "admin": {
             "staffBadge": {
-                "label": "",
-                "help": ""
+                "label": "ข้อความ Staff Badge",
+                "help": "ข้อความบน Staff Badge (ค่าเริ่มต้นคือ 'STAFF')"
             },
             "staffBadgeTextColor": {
-                "label": "",
-                "help": ""
+                "label": "สี Staff Badge",
+                "help": "สีของ badge (ค่าเริ่มต้นคือ '#fff')"
             },
             "staffBadgeTextBg": {
-                "label": "",
-                "help": ""
+                "label": "สีพื้นหลัง Staff Badge",
+                "help": "สีพื้นหลังของ badge (ค่าเริ่มต้นคือ 'rgb(70, 209, 96)')"
             },
             "permissions": {
                 "canEditStaffBadge": {
-                    "label": ""
+                    "label": "แก้ไข Staff Badge ได้"
                 },
                 "canEditTagList": {
-                    "label": ""
+                    "label": "แก้ไขรายการ tag ได้"
                 }
             }
         },
         "forum": {
             "edit_user": {
-                "heading": "",
-                "placeholder": "",
+                "heading": "เปิดใช้งาน Staff Badge",
+                "placeholder": "ใส่ 'true' เพื่อเปิดใช้ badge",
                 "tagList": {
-                    "heading": "",
-                    "placeholder": ""
+                    "heading": "รายการ tag ของผู้ใช้",
+                    "placeholder": "คั่นด้วย ,"
                 }
             }
         }

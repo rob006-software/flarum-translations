@@ -2,62 +2,62 @@
     "forumaker-magicbb": {
         "admin": {
             "settings": {
-                "bb_center": "",
-                "bb_justify": "",
-                "bb_color": "",
-                "bb_spoiler": "",
-                "bb_table": "",
-                "bb_info": "",
-                "bb_audio": "",
-                "bb_image": "",
-                "bb_image_help": "",
-                "bb_iframe": "",
-                "bb_iframe_help": "",
-                "bb_hide_login": "",
-                "bb_hide_login_help": "",
-                "bb_hide_reply": "",
-                "bb_hide_reply_help": "",
-                "bb_hide_like": "",
-                "bb_hide_like_help": "",
-                "bb_anchor": "",
-                "bb_anchor_help": "",
-                "toolbar_group": "",
-                "toolbar_group_help": ""
+                "bb_center": "กึ่งกลาง",
+                "bb_justify": "ชิดซ้ายและขวา",
+                "bb_color": "สี",
+                "bb_spoiler": "สปอยล์เลอร์",
+                "bb_table": "ตาราง",
+                "bb_info": "เตือน",
+                "bb_audio": "เสียง",
+                "bb_image": "การจัดตำแหน่งรูปภาพ",
+                "bb_image_help": "ห่อรูปภาพและสื่ออื่นๆ ในแบบอินไลน์ในคอนเทนเนอร์การจัดตำแหน่ง สื่อที่จัดตำแหน่งตรงกลางจะปรับขนาดเป็น 60% ของความกว้าง post ที่จัดตำแหน่งด้านข้าง -- ได้ถึง 40%",
+                "bb_iframe": "iframe",
+                "bb_iframe_help": "อนุญาตให้ฝัง iframe จากแหล่งใดก็ได้ ใช้อย่างระมัดระวัง -- เนื้อหาที่ฝังอาจรวม script ภายนอก โปรดล้าง cache ของ Flarum หลังจากเปลี่ยนการตั้งค่านี้",
+                "bb_hide_login": "Login",
+                "bb_hide_login_help": "เนื้อหาถูกซ่อนจากผู้เยี่ยมชมและมองเห็นได้สำหรับผู้ใช้ที่ login ทั้งหมด",
+                "bb_hide_reply": "ตอบกลับ",
+                "bb_hide_reply_help": "เนื้อหาถูกซ่อนจนกว่าผู้ใช้จะตอบในโพสต์",
+                "bb_hide_like": "Like",
+                "bb_hide_like_help": "เนื้อหาถูกซ่อนจนกว่าผู้ใช้จะ like post",
+                "bb_anchor": "Anchor & Jump",
+                "bb_anchor_help": "เป้าหมายเลื่อนที่มีชื่อและ jump link ภายใน post",
+                "toolbar_group": "จัดกลุ่มปุ่ม MagicBB",
+                "toolbar_group_help": "หากเปิดใช้งาน ปุ่ม MagicBB ทั้งหมดจะถูกจัดกลุ่มให้เป็นปุ่มเดียวใน composer"
             },
             "sections": {
-                "text": "",
-                "content": "",
-                "images": "",
-                "features": "",
-                "hide": ""
+                "text": "ปุ่มข้อความ",
+                "content": "ปุ่มเนื้อหา",
+                "images": "ปุ่มรูปภาพ",
+                "features": "ฟีเจอร์",
+                "hide": "ปุ่มซ่อน"
             },
             "permissions": {
-                "use_iframe": "",
-                "bypass_like": "",
-                "bypass_reply": ""
+                "use_iframe": "อนุญาตให้ใช้ iframe",
+                "bypass_like": "ไม่ต้องตอบสนองต่อข้อกำหนด like",
+                "bypass_reply": "ไม่ต้องตอบสนองต่อข้อกำหนดการตอบกลับ"
             }
         },
         "forum": {
             "composer": {
-                "center_button": "",
-                "justify_button": "",
-                "color_button": "",
-                "spoiler_button": "",
-                "table_button": "",
-                "info_button": "",
-                "audio_button": "",
-                "image_button": "",
-                "more_button": "",
-                "hide_login_button": "",
-                "hide_reply_button": "",
-                "hide_like_button": "",
-                "anchor_button": "",
-                "jump_button": ""
+                "center_button": "จัดตำแหน่งตรงกลาง",
+                "justify_button": "จัดตำแหน่งชิดซ้ายและขวา",
+                "color_button": "เพิ่มสี",
+                "spoiler_button": "เพิ่มสปอยล์เลอร์",
+                "table_button": "เพิ่มตาราง",
+                "info_button": "เพิ่มการเตือน",
+                "audio_button": "เพิ่มเสียง",
+                "image_button": "จัดตำแหน่งรูปภาพ",
+                "more_button": "เพิ่มเติม",
+                "hide_login_button": "ซ่อน -- ต้องเข้าสู่ระบบ",
+                "hide_reply_button": "ซ่อน -- ต้องตอบกลับ",
+                "hide_like_button": "ซ่อน -- ต้องกด like",
+                "anchor_button": "เพิ่ม anchor",
+                "jump_button": "เพิ่ม jump link"
             },
             "hide": {
-                "login_to_see_simple": "",
-                "like_to_see_simple": "",
-                "reply_to_see_simple": ""
+                "login_to_see_simple": "เข้าสู่ระบบเพื่อดูเนื้อหานี้",
+                "like_to_see_simple": "กด like บน post นี้เพื่อดูเนื้อหานี้",
+                "reply_to_see_simple": "ตอบในโพสต์นี้เพื่อดูเนื้อหานี้"
             }
         }
     }

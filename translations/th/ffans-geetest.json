@@ -2,50 +2,50 @@
     "ffans-geetest": {
         "admin": {
             "settings": {
-                "product_service_label": "",
-                "product_service_help_text": "",
-                "product_service_v4_label": "",
-                "product_service_v3_label": "",
-                "context_event_label": "",
-                "context_event_help_text": "",
-                "context_event_login_label": "",
-                "context_event_signup_label": "",
-                "context_event_forgot_label": "",
+                "product_service_label": "CAPTCHA Product",
+                "product_service_help_text": "เวอร์ชัน GeeTest CAPTCHA ที่ต้องการใช้",
+                "product_service_v4_label": "Adaptive CAPTCHA (v4)",
+                "product_service_v3_label": "CAPTCHA (v3)",
+                "context_event_label": "Context Event",
+                "context_event_help_text": "เปิดใช้งานเพื่อนำ GeeTest CAPTCHA ไปใช้ในกิจกรรมหรือประเภทธุรกิจต่างๆ คุณสามารถตั้งค่าแบบเฉพาะสำหรับแต่ละ context ได้",
+                "context_event_login_label": "=> core.ref.log_in",
+                "context_event_signup_label": "=> core.ref.sign_up",
+                "context_event_forgot_label": "=> core.forum.forgot_password.title",
                 "config": {
-                    "title": "",
-                    "standalone_label": "",
-                    "standalone_help_text": "",
-                    "product_label": "",
-                    "product_help_text": "",
-                    "product_float_label": "",
-                    "product_float_help_text": "",
-                    "product_popup_label": "",
-                    "product_popup_help_text": "",
-                    "product_bind_label": "",
-                    "product_bind_help_text": "",
-                    "product_learn_more_link": "",
-                    "id_label": "",
-                    "id_help_text": "",
-                    "key_label": "",
-                    "key_help_text": ""
+                    "title": "Config สำหรับ {context}",
+                    "standalone_label": "Standalone",
+                    "standalone_help_text": "เปิดใช้งานเพื่อใช้การตั้งค่าแบบเฉพาะสำหรับสถานการณ์นี้",
+                    "product_label": "รูปแบบแอนิเมชัน",
+                    "product_help_text": "เลือกการแสดงผลของแผงตรวจสอบ",
+                    "product_float_label": "Float",
+                    "product_float_help_text": "สลับจากปุ่มตรวจสอบเป็นแผงตรวจสอบ",
+                    "product_popup_label": "Popup",
+                    "product_popup_help_text": "แสดงแผงตรวจสอบตรงกลาง",
+                    "product_bind_label": "ผูกกับปุ่ม",
+                    "product_bind_help_text": "เปิดแผงตรวจสอบด้วยปุ่มที่กำหนด",
+                    "product_learn_more_link": "เรียนรู้เพิ่มเติมเกี่ยวกับสไตล์ widget",
+                    "id_label": "Verify ID",
+                    "id_help_text": "Verify ID ของ context event ที่คุณสมัครบน <a>GeeTest dashboard</a>",
+                    "key_label": "Verify Key",
+                    "key_help_text": "Verify key ของ context event ที่คุณสมัครบน <a>GeeTest dashboard</a>"
                 }
             },
             "test": {
-                "title": "",
-                "help_text": "",
-                "submit_button": "",
-                "load_button": "",
-                "reload_button": ""
+                "title": "ทดสอบ CAPTCHA",
+                "help_text": "ใช้การตั้งค่าทั่วไปด้านบนเพื่อทดสอบ CAPTCHA",
+                "submit_button": "ส่ง",
+                "load_button": "โหลด",
+                "reload_button": "โหลดใหม่"
             }
         },
         "lib": {
             "verify": {
-                "success_message": "",
-                "error_message": "",
-                "error_retry_message": "",
-                "init_error_message": "",
-                "required_message": "",
-                "not_pass_message": ""
+                "success_message": "ตรวจสอบสำเร็จ",
+                "error_message": "ตรวจสอบไม่สำเร็จ",
+                "error_retry_message": "ตรวจสอบไม่สำเร็จ กรุณาลองใหม่อีกครั้ง",
+                "init_error_message": "เริ่มต้นการตรวจสอบไม่สำเร็จ",
+                "required_message": "กรุณาทำ CAPTCHA ให้เสร็จสิ้น",
+                "not_pass_message": "ยังไม่ผ่านการตรวจสอบ"
             }
         }
     }

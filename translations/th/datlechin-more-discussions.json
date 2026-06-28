@@ -2,26 +2,26 @@
     "datlechin-more-discussions": {
         "admin": {
             "settings": {
-                "block_name_label": "",
-                "block_name_help": "",
-                "discussion_limit_label": "",
-                "discussion_limit_help": "",
-                "discussion_related_label": "",
-                "discussion_related_help": "",
-                "filter_by_label": "",
-                "filter_by_help": "",
+                "block_name_label": "ชื่อบล็อก",
+                "block_name_help": "ชื่อของบล็อก (ค่าเริ่มต้น <code>Latest Discussions</code>)",
+                "discussion_limit_label": "จำนวน discussion สูงสุด",
+                "discussion_limit_help": "จำนวน discussion ที่จะแสดง (ค่าเริ่มต้น <code>5</code>)",
+                "discussion_related_label": "ผลลัพธ์ที่เกี่ยวข้อง",
+                "discussion_related_help": "ค้นหาผลลัพธ์ที่เกี่ยวข้องตามชื่อ discussion <b>คำเตือน:</b> อาจส่งผลกระทบต่อประสิทธิภาพของเว็บไซต์มาก โดยเฉพาะสำหรับเว็บขนาดใหญ่ แนะนำให้ใช้ร่วมกับ extension <b>clarkwinkelmann/flarum-ext-scout</b>",
+                "filter_by_label": "กรองตาม",
+                "filter_by_help": "กรอง discussion (ค่าเริ่มต้น: <code>latest</code>)",
                 "filter_dropdown": {
-                    "latest": "",
-                    "top": "",
-                    "newest": "",
-                    "oldest": "",
-                    "hot": "",
-                    "votes": ""
+                    "latest": "ล่าสุด",
+                    "top": "ยอดนิยม",
+                    "newest": "ใหม่ที่สุด",
+                    "oldest": "เก่าที่สุด",
+                    "hot": "กำลังฮิต (ต้องติดตั้ง fof/gamification)",
+                    "votes": "Upvotes (ต้องติดตั้ง fof/gamification)"
                 }
             }
         },
         "forum": {
-            "block_default_name": ""
+            "block_default_name": "Discussion ล่าสุด"
         }
     }
 }

@@ -2,157 +2,157 @@
     "kilowhat-audit": {
         "admin": {
             "permissions": {
-                "view": "",
-                "viewLimited": ""
+                "view": "ดู Audit Log",
+                "viewLimited": "ดู Audit Log แบบจำกัด"
             },
             "header": {
-                "title": "",
-                "free": "",
-                "pro": "",
-                "upgrade": ""
+                "title": "Audit",
+                "free": "ฟรี",
+                "pro": "Pro",
+                "upgrade": "อัปเกรดเป็น Pro"
             },
             "limitedSettings": {
-                "configure": "",
-                "title": "",
-                "introduction": "",
-                "requiresExtension": ""
+                "configure": "ตั้งค่า",
+                "title": "การตั้งค่าสิทธิ์เข้าถึงแบบจำกัด",
+                "introduction": "กำหนดสิ่งที่ผู้ใช้ที่มีสิทธิ์เข้าถึงแบบจำกัดสามารถมองเห็นได้",
+                "requiresExtension": "ต้องการ Extension {extension}"
             },
             "settings": {
-                "limitedIpAddress": ""
+                "limitedIpAddress": "ดู IP Address"
             }
         },
         "forum": {
             "link": {
-                "all-audit": "",
-                "discussion-audit": "",
-                "user-audit": "",
-                "actor-audit": ""
+                "all-audit": "Audit Log",
+                "discussion-audit": "Audit Log",
+                "user-audit": "Audit Log (การแก้ไขบัญชี)",
+                "actor-audit": "Audit Log (ผู้ใช้ในฐานะผู้ดำเนินการ)"
             },
             "modal": {
-                "all-title": "",
-                "discussion-title": "",
-                "user-title": "",
-                "actor-title": ""
+                "all-title": "Audit Log",
+                "discussion-title": "Audit Log ของโพสต์",
+                "user-title": "Audit Log ของผู้ใช้",
+                "actor-title": "Audit Log ของผู้ดำเนินการ"
             }
         },
         "lib": {
             "browser": {
-                "filterPlaceholder": "",
-                "filterApply": "",
-                "empty": "",
-                "loadMore": "",
-                "withoutActor": "",
+                "filterPlaceholder": "กรองล็อก",
+                "filterApply": "นำไปใช้",
+                "empty": "ไม่มีผลลัพธ์",
+                "loadMore": "โหลดเพิ่มเติม",
+                "withoutActor": "=> core.group.guest",
                 "deletedResource": {
-                    "discussion": "",
-                    "group": "",
-                    "post": "",
-                    "tag": "",
-                    "user": ""
+                    "discussion": "โพสต์ #{id}",
+                    "group": "กลุ่ม #{id}",
+                    "post": "โพสต์ #{id}",
+                    "tag": "แท็ก #{id}",
+                    "user": "ผู้ใช้ #{id}"
                 },
                 "genericResource": {
-                    "comment": "",
-                    "post": ""
+                    "comment": "ความคิดเห็น",
+                    "post": "โพสต์"
                 },
                 "permissionGroup": {
-                    "everyone": "",
-                    "members": ""
+                    "everyone": "=> core.admin.permissions_controls.everyone_button",
+                    "members": "=> core.admin.permissions_controls.members_button"
                 },
-                "noValue": "",
-                "noReason": "",
+                "noValue": "(ไม่มีค่า)",
+                "noReason": "(ไม่มีเหตุผล)",
                 "client": {
-                    "session": "",
-                    "api_key": "",
-                    "access_token": "",
-                    "cli": "",
-                    "unknown": ""
+                    "session": "Web session",
+                    "api_key": "API key",
+                    "access_token": "Access token",
+                    "cli": "Command line",
+                    "unknown": "ไคลเอนต์ไม่ทราบ"
                 },
                 "controls": {
-                    "hideRaw": "",
-                    "showRaw": "",
-                    "filterActor": "",
-                    "filterIp": "",
-                    "filterClient": "",
-                    "filterAction": "",
-                    "filterUser": "",
-                    "filterDiscussion": ""
+                    "hideRaw": "ซ่อนล็อกดิบ",
+                    "showRaw": "แสดงล็อกดิบ",
+                    "filterActor": "แสดงล็อกของผู้ดำเนินการนี้",
+                    "filterIp": "แสดงล็อกของ IP นี้",
+                    "filterClient": "แสดงล็อกของประเภทไคลเอนต์นี้",
+                    "filterAction": "แสดงล็อกของการกระทำเดียวกัน",
+                    "filterUser": "แสดงล็อกที่เกี่ยวข้องกับผู้ใช้คนเดียวกัน",
+                    "filterDiscussion": "แสดงล็อกที่เกี่ยวข้องกับโพสต์เดียวกัน"
                 },
-                "audit_log_cleared": "",
-                "cache_cleared": "",
+                "audit_log_cleared": "ลบ {deleted_count} รายการออกจาก Audit Log แล้ว",
+                "cache_cleared": "ล้าง Cache ด้วยตนเองแล้ว",
                 "discussion": {
-                    "created": "",
-                    "create_date_changed": "",
-                    "deleted": "",
-                    "hidden": "",
-                    "locked": "",
-                    "merged_away": "",
-                    "merged_into": "",
-                    "renamed": "",
-                    "restored": "",
-                    "split_away": "",
-                    "split_into": "",
-                    "stickied": "",
-                    "tagged": "",
-                    "unlocked": "",
-                    "unstickied": "",
-                    "user_changed": ""
+                    "created": "เริ่มโพสต์ {discussion}",
+                    "create_date_changed": "เปลี่ยนวันที่เริ่มต้นของ {discussion} จาก {old_date} เป็น {new_date}",
+                    "deleted": "ลบโพสต์ {discussion} แล้ว",
+                    "hidden": "ซ่อนโพสต์ {discussion} แล้ว",
+                    "locked": "ล็อกโพสต์ {discussion} แล้ว",
+                    "merged_away": "รวม {discussion} เข้ากับ {new_discussion} แล้ว",
+                    "merged_into": "รวม {post_count} โพสต์จาก {original_discussion_ids_count} โพสต์เข้าใน {discussion} แล้ว",
+                    "renamed": "เปลี่ยนชื่อโพสต์จาก {old_title} เป็น {new_title}",
+                    "restored": "กู้คืนโพสต์ {discussion} แล้ว",
+                    "split_away": "แยก {post_count} โพสต์ออกจาก {discussion} ไปยัง {new_discussion} แล้ว",
+                    "split_into": "แยก {post_count} โพสต์ไปยังโพสต์ใหม่ {discussion} แล้ว",
+                    "stickied": "ปักหมุดโพสต์ {discussion} แล้ว",
+                    "tagged": "อัปเดตแท็กของ {discussion} จาก {old_tags} เป็น {new_tags} แล้ว",
+                    "unlocked": "ปลดล็อกโพสต์ {discussion} แล้ว",
+                    "unstickied": "เลิกปักหมุดโพสต์ {discussion} แล้ว",
+                    "user_changed": "เปลี่ยนผู้เขียน {discussion} จาก {old_user} เป็น {new_user} แล้ว"
                 },
                 "extension": {
-                    "disabled": "",
-                    "enabled": ""
+                    "disabled": "ปิดใช้งาน Extension {package} แล้ว",
+                    "enabled": "เปิดใช้งาน Extension {package} แล้ว"
                 },
                 "fof_ban_ips": {
-                    "banned": "",
-                    "unbanned": ""
+                    "banned": "แบน IP {ip} แล้ว",
+                    "unbanned": "ยกเลิกการแบน IP {ip} แล้ว"
                 },
-                "permission_changed": "",
+                "permission_changed": "แก้ไขสิทธิ์ {permission} จาก {old_groups} เป็น {new_groups} แล้ว",
                 "post": {
-                    "approved": "",
-                    "created": "",
-                    "create_date_changed": "",
-                    "deleted": "",
-                    "dismissed_flags": "",
-                    "edit_date_changed": "",
-                    "flagged": "",
-                    "hidden": "",
-                    "restored": "",
-                    "revised": "",
-                    "user_changed": ""
+                    "approved": "อนุมัติ {post} ของ {postuser} ในโพสต์ {discussion} แล้ว",
+                    "created": "สร้าง {post} ในโพสต์ {discussion} แล้ว",
+                    "create_date_changed": "เปลี่ยนวันที่สร้าง {post} ของ {postuser} จาก {old_date} เป็น {new_date} แล้ว",
+                    "deleted": "ลบ {post} ของ {postuser} ในโพสต์ {discussion} แล้ว",
+                    "dismissed_flags": "ยกเลิก Flag ของ {post} ของ {postuser} ในโพสต์ {discussion} แล้ว",
+                    "edit_date_changed": "เปลี่ยนวันที่แก้ไข {post} ของ {postuser} จาก {old_date} เป็น {new_date} แล้ว",
+                    "flagged": "รายงาน {post} ของ {postuser} ด้วยเหตุผล {reason} ในโพสต์ {discussion} แล้ว",
+                    "hidden": "ซ่อน {post} ของ {postuser} ในโพสต์ {discussion} แล้ว",
+                    "restored": "กู้คืน {post} ของ {postuser} ในโพสต์ {discussion} แล้ว",
+                    "revised": "แก้ไข {post} ของ {postuser} ในโพสต์ {discussion} แล้ว",
+                    "user_changed": "เปลี่ยนผู้เขียน {post} จาก {old_user} เป็น {new_user} แล้ว"
                 },
-                "setting_changed": "",
-                "setting_changed_with_values": "",
+                "setting_changed": "แก้ไขการตั้งค่า {key} แล้ว",
+                "setting_changed_with_values": "แก้ไขการตั้งค่า {key} จาก {old_value} เป็น {new_value} แล้ว",
                 "tag": {
-                    "created": "",
-                    "deleted": "",
-                    "updated": ""
+                    "created": "สร้างแท็ก {tag} แล้ว",
+                    "deleted": "ลบแท็ก {tag} แล้ว",
+                    "updated": "อัปเดตแท็ก {tag} แล้ว"
                 },
                 "user": {
-                    "activated": "",
-                    "activated_with_email": "",
-                    "avatar_changed": "",
-                    "avatar_removed": "",
-                    "bio_changed": "",
-                    "created": "",
-                    "deleted": "",
-                    "email_changed": "",
-                    "email_change_requested": "",
-                    "groups_changed": "",
-                    "impersonated": "",
-                    "logged_in": "",
-                    "logged_in_with_provider": "",
-                    "logged_out": "",
-                    "nickname_changed": "",
-                    "nickname_requested": "",
-                    "nickname_request_approved": "",
-                    "nickname_request_rejected": "",
-                    "password_changed": "",
-                    "password_change_requested": "",
-                    "provider_connected": "",
-                    "suspended": "",
-                    "unsuspended": "",
-                    "username_changed": "",
-                    "username_requested": "",
-                    "username_request_approved": "",
-                    "username_request_rejected": ""
+                    "activated": "เปิดใช้งานบัญชีของ {username} ด้วยตนเองแล้ว",
+                    "activated_with_email": "เปิดใช้งานบัญชีของ {username} ผ่านลิงก์ยืนยันแล้ว",
+                    "avatar_changed": "เปลี่ยน Avatar ของ {username} แล้ว",
+                    "avatar_removed": "ลบ Avatar ของ {username} แล้ว",
+                    "bio_changed": "แก้ไขข้อมูลแนะนำตัวของ {username} แล้ว",
+                    "created": "สร้างบัญชีของ {username} แล้ว",
+                    "deleted": "ลบ {username} แล้ว",
+                    "email_changed": "เปลี่ยนอีเมลของ {username} จาก {old_email} เป็น {new_email} แล้ว",
+                    "email_change_requested": "ขอเปลี่ยนอีเมลของ {username} เป็น {new_email} แล้ว",
+                    "groups_changed": "เปลี่ยนกลุ่มของ {username} จาก {old_groups} เป็น {new_groups} แล้ว",
+                    "impersonated": "แอบอ้างเป็น {username} แล้ว",
+                    "logged_in": "เข้าสู่ระบบบัญชี {username} แล้ว",
+                    "logged_in_with_provider": "เข้าสู่ระบบบัญชี {username} ผ่าน {provider} แล้ว",
+                    "logged_out": "ออกจากระบบบัญชี {username} แล้ว",
+                    "nickname_changed": "เปลี่ยนชื่อเล่นของ {username} จาก {old_nickname} เป็น {new_nickname} แล้ว",
+                    "nickname_requested": "ขอเปลี่ยนชื่อเล่นเป็น {new_nickname} สำหรับผู้ใช้ {username} แล้ว",
+                    "nickname_request_approved": "อนุมัติการเปลี่ยนชื่อเล่นของ {username} จาก {old_nickname} เป็น {new_nickname} แล้ว",
+                    "nickname_request_rejected": "ปฏิเสธการเปลี่ยนชื่อเล่นของ {username} แล้ว",
+                    "password_changed": "เปลี่ยนรหัสผ่านของ {username} แล้ว",
+                    "password_change_requested": "ขอเปลี่ยนรหัสผ่านของ {username} แล้ว",
+                    "provider_connected": "เชื่อมต่อ Provider {provider} กับบัญชี {username} แล้ว",
+                    "suspended": "ระงับบัญชี {username} จนถึง {until} แล้ว",
+                    "unsuspended": "ยกเลิกการระงับบัญชี {username} แล้ว",
+                    "username_changed": "เปลี่ยนชื่อผู้ใช้ของ {username} จาก {old_username} เป็น {new_username} แล้ว",
+                    "username_requested": "ขอเปลี่ยนชื่อผู้ใช้เป็น {new_username} สำหรับผู้ใช้ {username} แล้ว",
+                    "username_request_approved": "อนุมัติการเปลี่ยนชื่อผู้ใช้ของ {username} จาก {old_username} เป็น {new_username} แล้ว",
+                    "username_request_rejected": "ปฏิเสธการเปลี่ยนชื่อผู้ใช้ของ {username} แล้ว"
                 }
             }
         }

@@ -2,39 +2,39 @@
     "nomiscz-auth-steam": {
         "forum": {
             "buttons": {
-                "login": "",
-                "link": "",
-                "unlink": ""
+                "login": "เข้าสู่ระบบด้วย Steam",
+                "link": "เชื่อมบัญชี Steam",
+                "unlink": "ยกเลิกการเชื่อมบัญชี Steam"
             },
             "alerts": {
-                "already_linked": "",
-                "already_used": "",
-                "link_success": "",
-                "unlink_success": "",
-                "error": ""
+                "already_linked": "บัญชี Steam นี้ถูกเชื่อมไว้แล้ว!",
+                "already_used": "บัญชี Steam นี้ถูกเชื่อมกับผู้ใช้รายอื่นอยู่แล้ว!",
+                "link_success": "เชื่อมบัญชี Steam สำเร็จ",
+                "unlink_success": "ยกเลิกการเชื่อมบัญชี Steam สำเร็จ",
+                "error": "เกิดข้อผิดพลาดบางอย่าง กรุณาลองใหม่อีกครั้งในภายหลัง!"
             },
             "modals": {
                 "link": {
-                    "title": ""
+                    "title": "เชื่อมบัญชี Steam"
                 },
                 "unlink": {
-                    "title": "",
+                    "title": "ยกเลิกการเชื่อมบัญชี Steam",
                     "info": {
-                        "confirm": "",
-                        "no_providers": ""
+                        "confirm": "แน่ใจไหมว่าต้องการยกเลิกการเชื่อมบัญชี Steam?",
+                        "no_providers": "คุณไม่มีผู้ให้บริการล็อกอินอื่นเลย! คุณอาจต้องรีเซ็ตรหัสผ่านแทน"
                     },
                     "buttons": {
-                        "confirm": "",
-                        "cancel": ""
+                        "confirm": "ใช่ ยกเลิกการเชื่อมบัญชี",
+                        "cancel": "ไม่!"
                     }
                 }
             }
         },
         "admin": {
             "settings": {
-                "title": "",
-                "api_key_label": "",
-                "use_steam_powered_domain": ""
+                "title": "การตั้งค่า Steam Auth",
+                "api_key_label": "API Key",
+                "use_steam_powered_domain": "ใช้โดเมน steampowered.com แทน steamcommunity.com (ถูกบล็อกในจีน)"
             }
         }
     }

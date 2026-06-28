@@ -2,21 +2,21 @@
     "clarkwinkelmann-sudo-mode": {
         "admin": {
             "settings": {
-                "duration": ""
+                "duration": "ระยะเวลาที่ sudo mode ยังคงใช้งานได้ (วินาที)"
             }
         },
         "lib": {
             "sudo": {
-                "title": "",
-                "message": "",
-                "password": "",
-                "submit": ""
+                "title": "ยืนยันการเข้าถึง",
+                "message": "ยืนยันรหัสผ่านเพื่อเข้า sudo mode คุณจะถูกขอให้ยืนยันตัวตนใหม่อีกครั้งหลังจากผ่านไปสองสามชั่วโมง\n",
+                "password": "รหัสผ่าน",
+                "submit": "ยืนยัน"
             }
         },
         "api": {
             "errors": {
-                "cookieOnly": "",
-                "incorrectPassword": ""
+                "cookieOnly": "ใช้งานได้เฉพาะกับ cookie เท่านั้น",
+                "incorrectPassword": "รหัสผ่านไม่ถูกต้อง"
             }
         }
     }

@@ -1,103 +1,103 @@
 {
     "walsgit-recycle-bin": {
         "admin": {
-            "discussions_bin": "",
-            "posts_bin": "",
-            "search_placeholder": "",
-            "search_post_placeholder": "",
-            "search_help_text": "",
-            "search_post_help_text": "",
-            "total_hidden_discussions": "",
-            "total_hidden_posts": "",
-            "empty_list": "",
-            "hidden_discussions": "",
-            "discussion_id": "",
-            "discussion_title": "",
-            "discussion_link_tooltip": "",
-            "author": "",
-            "unknown_user": "",
-            "created_at": "",
-            "hidden_at": "",
-            "unknown_date": "",
-            "actions": "",
-            "restore_tooltip": "",
-            "restore_post_tooltip": "",
+            "discussions_bin": "Discussions Bin",
+            "posts_bin": "Posts Bin",
+            "search_placeholder": "ค้นหาโพสต์",
+            "search_post_placeholder": "ค้นหา post",
+            "search_help_text": "ค้นหาคำในชื่อเรื่องเช่นเดียวกับในข้อความของโพสต์",
+            "search_post_help_text": "ค้นหาคำในโพสต์ที่ซ่อน",
+            "total_hidden_discussions": "โพสต์ที่ซ่อนทั้งหมด",
+            "total_hidden_posts": "โพสต์ที่ซ่อนทั้งหมด",
+            "empty_list": "ไม่มีโพสต์ในถังรีไซเคิล",
+            "hidden_discussions": "โพสต์ที่ซ่อน",
+            "discussion_id": "ID",
+            "discussion_title": "ชื่อเรื่องโพสต์",
+            "discussion_link_tooltip": "ดูโพสต์",
+            "author": "ผู้แต่ง",
+            "unknown_user": "ผู้ใช้ที่ไม่รู้จัก",
+            "created_at": "สร้างเมื่อ",
+            "hidden_at": "ซ่อนเมื่อ",
+            "unknown_date": "วันที่ไม่รู้จัก",
+            "actions": "การดำเนินการ",
+            "restore_tooltip": "คืนค่าโพสต์ #{discussionId}",
+            "restore_post_tooltip": "คืนค่า post #{postId}",
             "restore_discussion": {
-                "title": "",
-                "confirmation": "",
-                "restore_button": "",
-                "success": ""
+                "title": "คืนค่าโพสต์",
+                "confirmation": "คุณแน่ใจหรือว่าต้องการคืนค่าโพสต์นี้:",
+                "restore_button": "คืนค่าโพสต์นี้",
+                "success": "คืนค่าโพสต์สำเร็จ"
             },
             "restore_post": {
-                "title": "",
-                "confirmation": "",
-                "restore_button": "",
-                "success": ""
+                "title": "คืนค่า post",
+                "confirmation": "คุณแน่ใจหรือว่าต้องการคืนค่า post นี้จากโพสต์ ",
+                "restore_button": "คืนค่า post นี้",
+                "success": "คืนค่า post สำเร็จ"
             },
             "delete_discussion": {
-                "title": "",
-                "confirmation": "",
-                "delete_button": "",
-                "success": ""
+                "title": "ลบไปตลอด",
+                "confirmation": "คุณแน่ใจหรือว่าต้องการ <u>ลบไปตลอด</u> โพสต์นี้ (ไม่สามารถเลิกทำได้):",
+                "delete_button": "ลบโพสต์นี้ไปตลอด",
+                "success": "ลบโพสต์สำเร็จ"
             },
             "delete_post": {
-                "title": "",
-                "confirmation": "",
-                "delete_button": "",
-                "success": ""
+                "title": "ลบไปตลอด",
+                "confirmation": "คุณแน่ใจหรือว่าต้องการ <u>ลบไปตลอด</u> post นี้ (ไม่สามารถเลิกทำได้):",
+                "delete_button": "ลบ post นี้ไปตลอด",
+                "success": "ลบ post สำเร็จ"
             },
-            "delete_tooltip": "",
-            "delete_post_tooltip": "",
-            "bulk_actions": "",
-            "bulk_post_actions": "",
-            "bulk_restore_label": "",
-            "bulk_post_restore_label": "",
+            "delete_tooltip": "ลบโพสต์ #{discussionId}",
+            "delete_post_tooltip": "ลบ post #{postId}",
+            "bulk_actions": "การดำเนินการสำหรับโพสต์ที่เลือก: ",
+            "bulk_post_actions": "การดำเนินการสำหรับ post ที่เลือก: ",
+            "bulk_restore_label": "คืนค่าโพสต์ที่เลือก",
+            "bulk_post_restore_label": "คืนค่า post ที่เลือก",
             "mass_restore_modal": {
-                "title": "",
-                "text_start": "",
-                "text_end": "",
-                "submit_button": "",
-                "success": ""
+                "title": "คืนค่าโพสต์ที่เลือก",
+                "text_start": "คุณแน่ใจหรือว่าต้องการคืนค่า ",
+                "text_end": " โพสต์ที่เลือก",
+                "submit_button": "คืนค่าโพสต์เหล่านี้",
+                "success": "คืนค่าโพสต์ที่เลือกสำเร็จ"
             },
             "mass_restore_post_modal": {
-                "title": "",
-                "text_start": "",
-                "text_end": "",
-                "submit_button": "",
-                "success": ""
+                "title": "คืนค่า post ที่เลือก",
+                "text_start": "คุณแน่ใจหรือว่าต้องการคืนค่า ",
+                "text_end": " post ที่เลือก",
+                "submit_button": "คืนค่า post เหล่านี้",
+                "success": "คืนค่า post ที่เลือกสำเร็จ"
             },
             "mass_delete_modal": {
-                "title": "",
-                "text_start": "",
-                "text_end": "",
-                "submit_button": "",
-                "success": ""
+                "title": "ลบโพสต์เหล่านี้ไปตลอด",
+                "text_start": "คุณแน่ใจหรือว่าต้องการ <u>ลบไปตลอด</u> ",
+                "text_end": " โพสต์ที่เลือก",
+                "submit_button": "ลบโพสต์เหล่านี้ไปตลอด",
+                "success": "ลบโพสต์ที่เลือกสำเร็จ"
             },
             "mass_delete_post_modal": {
-                "title": "",
-                "text_start": "",
-                "text_end": "",
-                "submit_button": "",
-                "success": ""
+                "title": "ลบ post เหล่านี้ไปตลอด",
+                "text_start": "คุณแน่ใจหรือว่าต้องการ <u>ลบไปตลอด</u> ",
+                "text_end": " post ที่เลือก",
+                "submit_button": "ลบ post เหล่านี้ไปตลอด",
+                "success": "ลบ post ที่เลือกสำเร็จ"
             },
-            "bulk_delete_label": "",
-            "bulk_post_delete_label": "",
+            "bulk_delete_label": "ลบโพสต์ที่เลือก",
+            "bulk_post_delete_label": "ลบ post ที่เลือก",
             "pagination": {
-                "first_page_button": "",
-                "back_button": "",
-                "page_counter": "",
-                "go_to_page_textbox_a11y_label": "",
-                "next_button": "",
-                "last_page_button": ""
+                "first_page_button": "ไปยังหน้าแรก",
+                "back_button": "กลับไปยังหน้าก่อนหน้า",
+                "page_counter": "หน้า {current} จาก {total}",
+                "go_to_page_textbox_a11y_label": "ไปยังหน้าที่โดยตรง",
+                "next_button": "ไปยังหน้าถัดไป",
+                "last_page_button": "ไปยังหน้าสุดท้าย"
             },
-            "mass_help_text": "",
+            "mass_help_text": "โปรดรอให้หน้าเปลี่ยนปกติหลังจากยืนยันการ bulk restore หรือ delete",
             "grid": {
-                "invalid_column_content": ""
+                "invalid_column_content": "เนื้อหาไม่ถูกต้อง"
             },
             "post": {
-                "id": "",
-                "title": "",
-                "open_post": ""
+                "id": "ID",
+                "title": "ข้อความ Post",
+                "open_post": "เปิด post"
             }
         }
     }

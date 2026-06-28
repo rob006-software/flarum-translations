@@ -2,103 +2,103 @@
     "shebaoting-money": {
         "admin": {
             "settings": {
-                "title": "",
-                "initialmoney": "",
-                "moneyforpost": "",
-                "moneyfordiscussion": "",
-                "moneyname": "",
-                "postminimumlength": "",
-                "noshowzero": "",
-                "autoremove": "",
-                "moneyforlike": "",
-                "helpextensionlikes": "",
-                "extra_char_threshold": "",
-                "extra_char_threshold_help": "",
-                "extra_char_increment": "",
-                "extra_char_increment_help": "",
-                "extra_char_points": "",
-                "extra_char_points_help": ""
+                "title": "การตั้งค่า",
+                "initialmoney": "คะแนนเริ่มต้นสำหรับผู้ใช้ใหม่",
+                "moneyforpost": "คะแนนที่ได้รับเมื่อ post ใหม่",
+                "moneyfordiscussion": "คะแนนที่ได้รับเมื่อเริ่ม thread ใหม่",
+                "moneyname": "ชื่อของคะแนน (เช่น [money] points)",
+                "postminimumlength": "ความยาวขั้นต่ำของ post เพื่อรับคะแนน (0 เพื่อปิดใช้งาน)",
+                "noshowzero": "ไม่แสดงหากค่าเป็นศูนย์",
+                "autoremove": "อัปเดตคะแนนโดยอัตโนมัติ",
+                "moneyforlike": "คะแนนที่ได้รับเมื่อ post ถูก like",
+                "helpextensionlikes": "ต้องใช้ extension <code>flarum/likes</code>",
+                "extra_char_threshold": "จำนวนตัวอักษรขั้นต่ำ",
+                "extra_char_threshold_help": "จำนวนตัวอักษรขั้นต่ำก่อนที่จะเริ่มคำนวณคะแนนพิเศษ",
+                "extra_char_increment": "ช่วงตัวอักษร",
+                "extra_char_increment_help": "ทุกๆ X ตัวอักษรที่เกินขีดจำกัดจะเปลี่ยนคะแนน",
+                "extra_char_points": "คะแนนต่อช่วง",
+                "extra_char_points_help": "จำนวนคะแนนที่จะเพิ่มหรือหักสำหรับแต่ละช่วง"
             },
             "permissions": {
-                "edit_money_label": ""
+                "edit_money_label": "แก้ไขคะแนน"
             },
             "autoremove": [
-                "",
-                "",
-                ""
+                "ไม่หักคะแนนเลย",
+                "เมื่อ thread/post ถูกซ่อนหรือกู้คืน (ค่าเริ่มต้น)",
+                "เมื่อ thread/post ถูกลบ"
             ],
             "automoderator": {
-                "metric_name": "",
-                "action_name": ""
+                "metric_name": "คะแนน",
+                "action_name": "มอบคะแนน"
             }
         },
         "forum": {
             "user_controls": {
-                "money_button": ""
+                "money_button": "แก้ไขคะแนน"
             },
             "modal": {
-                "title": "",
-                "current": "",
-                "submit_button": ""
+                "title": "คะแนนของ {username}",
+                "current": "ปัจจุบัน:",
+                "submit_button": "=> core.ref.save_changes"
             },
-            "log_time": "",
-            "log_type": "",
-            "log_amount": "",
-            "log_balance": "",
-            "log_description": "",
-            "log_type_deposit": "",
-            "log_type_withdrawal": "",
-            "log_type_transfer": "",
-            "log_type_reward": "",
-            "no_money_logs": "",
-            "load_more": "",
+            "log_time": "เวลา",
+            "log_type": "ประเภท",
+            "log_amount": "จำนวน",
+            "log_balance": "ยอดคงเหลือ",
+            "log_description": "รายละเอียด",
+            "log_type_deposit": "ฝาก",
+            "log_type_withdrawal": "ถอน",
+            "log_type_transfer": "โอน",
+            "log_type_reward": "รางวัล",
+            "no_money_logs": "ไม่มีประวัติคะแนน",
+            "load_more": "โหลดเพิ่มเติม",
             "logs_description": {
-                "created_discussion": "",
-                "created_reply": "",
-                "reply_received": "",
-                "liked": "",
-                "liked_by": "",
-                "unliked_post": "",
-                "unliked_by": "",
-                "initial_registration": "",
-                "admin_updated": "",
-                "discussion_started": "",
-                "discussion_restored": "",
-                "discussion_hidden": "",
-                "discussion_deleted": "",
-                "posted_reply": "",
-                "extra_characters": "",
-                "no_permission": ""
+                "created_discussion": "เริ่ม thread › <a href=\"{url}\">{title}</a>",
+                "created_reply": "ตอบกลับ › <a href=\"{url}\">{title}</a>",
+                "reply_received": "ได้รับการตอบกลับจาก {username} › <a href=\"{url}\">{title}</a>",
+                "liked": "กด like post › <a href=\"{url}\">{title}</a> โดย {user}",
+                "liked_by": "Post ถูก like โดย {username} › <a href=\"{url}\">{title}</a>",
+                "unliked_post": "ยกเลิก like post › <a href=\"{url}\">{title}</a>",
+                "unliked_by": "Post ถูกยกเลิก like โดย {username} › <a href=\"{url}\">{title}</a>",
+                "initial_registration": "ได้รับคะแนนเริ่มต้นเมื่อสมัครสมาชิก",
+                "admin_updated": "Admin อัปเดตคะแนน เปลี่ยนแปลง {amount} คะแนน",
+                "discussion_started": "เริ่ม thread › <a href=\"{url}\">{title}</a>",
+                "discussion_restored": "กู้คืน thread › <a href=\"{url}\">{title}</a>",
+                "discussion_hidden": "ซ่อน thread › <a href=\"{url}\">{title}</a>",
+                "discussion_deleted": "ลบ thread › <a href=\"{url}\">{title}</a>",
+                "posted_reply": "ตอบกลับใน thread › <a href=\"{url}\">{title}</a>",
+                "extra_characters": "เนื้อหาเกินขีดจำกัด {extra_chars} ตัวอักษร {points} คะแนนถูก{action}",
+                "no_permission": "คุณไม่มีสิทธิ์ดูประวัติคะแนนของผู้อื่น"
             },
             "logs_type": {
-                "discussion_started": "",
-                "post_created": "",
-                "post_restored": "",
-                "post_hidden": "",
-                "post_deleted": "",
-                "discussion_restored": "",
-                "discussion_hidden": "",
-                "discussion_deleted": "",
-                "liked": "",
-                "liked_by_others": "",
-                "admin_updated": "",
-                "registration": "",
-                "discussion_replied": ""
+                "discussion_started": "เริ่ม thread",
+                "post_created": "สร้าง post",
+                "post_restored": "กู้คืน post",
+                "post_hidden": "ซ่อน post",
+                "post_deleted": "ลบ post",
+                "discussion_restored": "กู้คืน thread",
+                "discussion_hidden": "ซ่อน thread",
+                "discussion_deleted": "ลบ thread",
+                "liked": "กด like post",
+                "liked_by_others": "Post ถูก like โดยผู้ใช้อื่น",
+                "admin_updated": "Admin อัปเดต",
+                "registration": "โบนัสสมัครสมาชิก",
+                "discussion_replied": "ตอบกลับใน thread"
             },
             "point_log": {
-                "title": "",
-                "link": "",
-                "empty_text": "",
+                "title": "ประวัติการเปลี่ยนแปลงคะแนน",
+                "link": "ประวัติคะแนน",
+                "empty_text": "ไม่พบประวัติการเปลี่ยนแปลงคะแนน",
                 "table": {
                     "headers": {
-                        "date": "",
-                        "amount": "",
-                        "balance": "",
-                        "reason": ""
+                        "date": "วันที่",
+                        "amount": "จำนวน",
+                        "balance": "ยอดคงเหลือ",
+                        "reason": "เหตุผล"
                     }
                 },
-                "load_more": "",
-                "no_permission": ""
+                "load_more": "โหลดเพิ่มเติม",
+                "no_permission": "คุณไม่มีสิทธิ์ดูประวัติคะแนนของผู้อื่น"
             }
         }
     }

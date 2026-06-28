@@ -2,12 +2,12 @@
     "miniflar-admin-notepad-widget": {
         "admin": {
             "dashboard": {
-                "notepad_heading": "",
-                "notepad_text": ""
+                "notepad_heading": "Admin Notepad",
+                "notepad_text": "เพิ่มบันทึกให้ Admin คนอื่นดู!"
             },
             "settings": {
-                "widget_order_heading": "",
-                "widget_order_text": ""
+                "widget_order_heading": "ลำดับ Widget",
+                "widget_order_text": "แก้ไขการตั้งค่านี้เพื่อปรับตำแหน่งของ widget นี้ในส่วน Dashboard ของพื้นที่ Admin บนฟอรัม Flarum ของคุณ ยิ่งตัวเลขสูง widget นี้จะยิ่งอยู่สูงขึ้นในรายการ availableWidget ของ DashboardPage (ค่านี้เป็นได้ทั้งบวกและลบ)"
             }
         }
     }

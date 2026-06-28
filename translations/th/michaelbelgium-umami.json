@@ -2,30 +2,30 @@
     "michaelbelgium-umami": {
         "admin": {
             "widget": {
-                "live": "",
-                "views": "",
-                "visits": "",
-                "visitors": ""
+                "live": "สด",
+                "views": "Page views",
+                "visits": "การเข้าชม",
+                "visitors": "ผู้เยี่ยมชม"
             },
             "settings": {
                 "errors": {
-                    "no_connection": ""
+                    "no_connection": "ไม่สามารถดึงข้อมูลสถิติได้ กรุณาตรวจสอบ API credentials ของคุณ"
                 },
                 "site_id": {
-                    "label": "",
-                    "help": ""
+                    "label": "Website ID",
+                    "help": "Website ID ของ Flarum instance นี้บน Umami คุณสามารถค้นหาได้ในรายละเอียดการตั้งค่าเว็บไซต์บน Umami"
                 },
                 "domain": {
-                    "label": "",
-                    "help": ""
+                    "label": "Domain",
+                    "help": "Domain ที่ Umami ติดตั้งอยู่"
                 },
                 "username": {
-                    "label": "",
-                    "help": ""
+                    "label": "ชื่อผู้ใช้ account",
+                    "help": "ไม่บังคับ ชื่อผู้ใช้ของ account umami บน domain ด้านบน (ใช้สำหรับ widget ใน admin dashboard)"
                 },
                 "password": {
-                    "label": "",
-                    "help": ""
+                    "label": "รหัสผ่าน account",
+                    "help": "ไม่บังคับ รหัสผ่านของชื่อผู้ใช้ด้านบน (ใช้สำหรับ widget ใน admin dashboard)"
                 }
             }
         }

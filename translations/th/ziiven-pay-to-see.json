@@ -1,59 +1,59 @@
 {
     "pay-to-see": {
         "lib": {
-            "ok": "",
-            "confirm": "",
-            "save": "",
-            "cancel": ""
+            "ok": "OK",
+            "confirm": "ยืนยัน",
+            "save": "บันทึก",
+            "cancel": "ยกเลิก"
         },
         "forum": {
-            "tag_no_permission_title": "",
-            "tag_no_permission": "",
-            "tag_has_permission": "",
-            "pay_to_see_content": "",
-            "pay_to_see_content_label": "",
-            "purchased_content": "",
-            "purchased_users": "",
-            "purchased_users_empty": "",
-            "pay_to_see_owner_bypass": "",
-            "pay_to_see_content_bypass": "",
-            "toolbar_tooltip": "",
-            "set_pay_to_see_price": "",
-            "set_pay_to_see_price_success": "",
-            "remove_pay_to_see_price_success": "",
-            "modify_pay_to_see_price": "",
-            "remove": "",
-            "need_pay2see_tag": "",
-            "not_support_anonymous": "",
-            "purchase_success": "",
-            "purchase_confirmation": "",
-            "purchase_confirmation_text": "",
-            "purchase_button": "",
-            "purchase_unlocked_button": "",
-            "purchase_error_not_found": "",
-            "purchase_error_insufficient_fund": "",
-            "purchase_error_no_permission": "",
-            "set_error_no_permission": "",
-            "purchase_count": "",
+            "tag_no_permission_title": "Pay To See Content",
+            "tag_no_permission": "คุณไม่สามารถใช้ Pay to See กับ tag ที่เลือกได้",
+            "tag_has_permission": "อนุญาต Pay to See content",
+            "pay_to_see_content": "Pay To See Content",
+            "pay_to_see_content_label": "Pay To See Content",
+            "purchased_content": "Content ที่ซื้อแล้ว",
+            "purchased_users": "ผู้ใช้ที่ซื้อแล้ว",
+            "purchased_users_empty": "ยังไม่มีใครซื้อ",
+            "pay_to_see_owner_bypass": "Pay To See Content [เจ้าของข้ามได้]",
+            "pay_to_see_content_bypass": "Pay To See Content [ข้ามด้วยสิทธิ์]",
+            "toolbar_tooltip": "แทรก Pay to See content",
+            "set_pay_to_see_price": "ตั้งราคา Content",
+            "set_pay_to_see_price_success": "ตั้งราคา Content แล้ว",
+            "remove_pay_to_see_price_success": "ลบ Pay To See Content แล้ว",
+            "modify_pay_to_see_price": "แก้ไขราคา Content",
+            "remove": "ลบ",
+            "need_pay2see_tag": "คุณต้องใส่ tag [pay][/pay] สำหรับ Pay to See content",
+            "not_support_anonymous": "Pay to See content ไม่รองรับการโพสต์แบบไม่ระบุตัวตน",
+            "purchase_success": "ซื้อสำเร็จ",
+            "purchase_confirmation": "ซื้อ Content",
+            "purchase_confirmation_text": "คุณแน่ใจหรือไม่ว่าต้องการจ่าย {costText}?",
+            "purchase_button": "ซื้อ Content",
+            "purchase_unlocked_button": "Content ปลดล็อกแล้ว",
+            "purchase_error_not_found": "ไม่สามารถซื้อ Content ได้",
+            "purchase_error_insufficient_fund": "เงินไม่เพียงพอ",
+            "purchase_error_no_permission": "ไม่มีสิทธิ์",
+            "set_error_no_permission": "คุณไม่มีสิทธิ์ใช้ Pay to See content",
+            "purchase_count": "จำนวนที่ซื้อ: {count}",
             "notifications": {
-                "notification_setting_some_one_purchase_content": "",
-                "discussion_purchased": "",
-                "discussion_purchased_cost": ""
+                "notification_setting_some_one_purchase_content": "มีคนซื้อ content ของฉัน",
+                "discussion_purchased": "{username} ซื้อ content ของคุณแล้ว",
+                "discussion_purchased_cost": "คุณได้รับ {cost}"
             }
         },
         "admin": {
-            "set_permission_tag": "",
-            "set_permission_tag_help": "",
-            "error_need_one_tag": "",
+            "set_permission_tag": "การตั้งค่าสิทธิ์ Tags",
+            "set_permission_tag_help": "เมื่อผู้ใช้เริ่ม discussion สามารถใช้ P2S ได้โดยเลือก tag ที่มีสิทธิ์",
+            "error_need_one_tag": "กรุณาเลือก tag อย่างน้อย 1 รายการ",
             "settings": {
-                "badge_icon": "",
-                "badge_icon_desc": ""
+                "badge_icon": "ไอคอน badge",
+                "badge_icon_desc": "ใส่ชื่อ class ของ FontAwesome icon รวมถึง prefix <code>fas fa-</code> ด้วย เว้นว่างเพื่อลบ badge"
             },
             "permission": {
-                "allow_use_pay2see": "",
-                "allow_purchase_pay2see": "",
-                "allow_bypass_pay2see": "",
-                "allow_set_pay2see": ""
+                "allow_use_pay2see": "อนุญาตให้ใช้ Pay to See",
+                "allow_purchase_pay2see": "อนุญาตให้ซื้อ Pay to See content",
+                "allow_bypass_pay2see": "อนุญาตให้ข้าม Pay to See content",
+                "allow_set_pay2see": "อนุญาตให้ตั้ง Pay to See สำหรับ discussion ของผู้ใช้คนอื่น"
             }
         }
     }

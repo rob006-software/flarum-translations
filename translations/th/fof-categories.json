@@ -2,54 +2,54 @@
     "fof-categories": {
         "admin": {
             "basics": {
-                "categories_label": ""
+                "categories_label": "หมวดหมู่"
             },
             "labels": {
-                "keep_tags_nav": "",
-                "child_bare_icon": "",
-                "compact_mobile_mode": "",
-                "full_page_desktop": "",
-                "parent_remove_icon": "",
-                "parent_remove_description": "",
-                "parent_remove_stats": "",
-                "parent_remove_last_discussion": "",
-                "small_forum_optimized": ""
+                "keep_tags_nav": "แสดงลิงก์หน้า Tags ใน Sidebar?",
+                "child_bare_icon": "แสดงไอคอนแบบไม่มีพื้นหลังสำหรับหมวดหมู่ย่อย?",
+                "compact_mobile_mode": "โหมดกระชับสำหรับมือถือ",
+                "full_page_desktop": "แสดงแบบเต็มหน้าบน Desktop?",
+                "parent_remove_icon": "ซ่อนไอคอนของ Tag หลัก?",
+                "parent_remove_description": "ซ่อนคำอธิบายของ Tag หลัก?",
+                "parent_remove_stats": "ซ่อนสถิติของ Tag หลัก?",
+                "parent_remove_last_discussion": "ซ่อนโพสต์ล่าสุดของ Tag หลัก?",
+                "small_forum_optimized": "ปรับแต่งสำหรับฟอรัมขนาดเล็ก?"
             },
             "help": {
-                "child_bare_icon": "",
-                "full_page_desktop": "",
-                "small_forum_optimized": ""
+                "child_bare_icon": "ไอคอนของหมวดหมู่ย่อยจะแสดงโดยไม่มีพื้นหลังวงกลมหรือไม่?",
+                "full_page_desktop": "ต้องการให้เมนู Sidebar ย่อลงเป็นแถวเดียว (เหมือนหน้า Tags ปกติ) หรือไม่? การเปิดใช้งานนี้จะซ่อน Widget ต่าง ๆ (เช่น Forum Statistics ของ Friends of Flarum) จาก Navbar ของหน้า Categories ด้วย",
+                "small_forum_optimized": "จะแสดงจำนวนโพสต์/โพสต์ที่แม่นยำขึ้น แต่อาจทำให้ฟอรัมขนาดกลางและใหญ่ช้าลงอย่างมาก"
             },
             "headings": {
-                "nav": "",
-                "layout": "",
-                "parent_display": "",
-                "child_display": "",
-                "performance": ""
+                "nav": "การนำทาง",
+                "layout": "Layout",
+                "parent_display": "การแสดงหมวดหมู่หลัก",
+                "child_display": "การแสดงหมวดหมู่ย่อย",
+                "performance": "ประสิทธิภาพ"
             },
-            "title": ""
+            "title": "ตั้งค่า Categories"
         },
         "forum": {
             "all_categories": {
-                "meta_description_text": "",
-                "meta_title_text": ""
+                "meta_description_text": "หมวดหมู่ทั้งหมด",
+                "meta_title_text": "=> fof-categories.ref.categories"
             },
             "header": {
-                "back_to_categories_tooltip": ""
+                "back_to_categories_tooltip": "กลับไปยังหมวดหมู่"
             },
             "index": {
-                "categories_link": ""
+                "categories_link": "=> fof-categories.ref.categories"
             },
             "stat-widgets": {
-                "discussion_label": "",
-                "post_label": ""
+                "discussion_label": "โพสต์",
+                "post_label": "โพสต์"
             },
             "last_discussion_widget": {
-                "no_discussions": ""
+                "no_discussions": "ยังไม่มีโพสต์!"
             }
         },
         "ref": {
-            "categories": ""
+            "categories": "หมวดหมู่"
         }
     }
 }

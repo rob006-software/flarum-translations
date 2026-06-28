@@ -2,61 +2,61 @@
     "neoncube-private-messages": {
         "admin": {
             "settings": {
-                "return_key": "",
-                "return_key_help": "",
-                "show_read_receipts": "",
-                "show_read_receipts_help": "",
-                "sender_background_color": "",
-                "recipient_background_color": "",
-                "sender_text_color": "",
-                "recipient_text_color": "",
-                "enable_custom_colors": ""
+                "return_key": "กด Enter เพื่อส่งข้อความ",
+                "return_key_help": "ทำให้การกดปุ่ม Enter ส่งข้อความได้เลย หากปิดตัวเลือกนี้ การกด Enter จะขึ้นบรรทัดใหม่ และผู้ใช้ต้องคลิกปุ่ม \"ส่งข้อความ\" เอง",
+                "show_read_receipts": "แสดงสถานะการอ่าน",
+                "show_read_receipts_help": "แสดงไอคอนติ๊กถูกข้างข้อความเมื่อผู้รับอ่านแล้ว",
+                "sender_background_color": "สีพื้นหลังของข้อความที่ส่ง:",
+                "recipient_background_color": "สีพื้นหลังของข้อความที่ได้รับ:",
+                "sender_text_color": "สีตัวอักษรของข้อความที่ส่ง:",
+                "recipient_text_color": "สีตัวอักษรของข้อความที่ได้รับ:",
+                "enable_custom_colors": "เปิดใช้งานสีแบบกำหนดเอง"
             },
             "permissions": {
-                "start_label": "",
-                "allow_users_to_receive_email_notifications": ""
+                "start_label": "เริ่มโพสต์ส่วนตัว",
+                "allow_users_to_receive_email_notifications": "อนุญาตให้ผู้ใช้รับการแจ้งเตือนทางอีเมลเมื่อได้รับข้อความส่วนตัว"
             }
         },
         "forum": {
             "dropdown": {
-                "tooltip": ""
+                "tooltip": "โพสต์"
             },
             "modal": {
-                "title": "",
-                "help": "",
-                "help_start": "",
-                "search_recipients": "",
-                "submit": "",
-                "copied": "",
-                "more_users": "",
-                "already": ""
+                "title": "เริ่มโพสต์",
+                "help": "พิมพ์ชื่อผู้ใช้เพื่อเริ่มแชท",
+                "help_start": "พิมพ์ข้อความแรกของคุณ นี่คือข้อความเดียวที่คุณส่งได้จนกว่า {username} จะตอบกลับ คลิกที่ชื่อผู้ใช้เพื่อเปลี่ยนผู้รับ",
+                "search_recipients": "ใส่ชื่อผู้ใช้...",
+                "submit": "ส่งและเริ่มโพสต์",
+                "copied": "ข้อความของคุณถูกคัดลอกไปยังคลิปบอร์ดแล้ว",
+                "more_users": "หากไม่พบผู้ใช้ที่ต้องการ อาจหมายความว่าเขายังไม่ได้ตั้งค่าข้อความส่วนตัว",
+                "already": "คุณมีโพสต์กับ {username} อยู่แล้ว"
             },
             "chat": {
-                "messages_single": "",
-                "messages_multiple": "",
-                "chat_with": "",
-                "start": "",
-                "start_of_conversation": "",
-                "read": "",
-                "cant_start": "",
-                "text_placeholder": "",
-                "send": "",
-                "message_read": ""
+                "messages_single": "โพสต์ใหม่",
+                "messages_multiple": "รวม {count} ข้อความ",
+                "chat_with": "แชทกับ {username}",
+                "start": "เริ่มโพสต์",
+                "start_of_conversation": "เริ่มต้นโพสต์",
+                "read": "อ่านแล้ว",
+                "cant_start": "ไม่สามารถเริ่มโพสต์ได้",
+                "text_placeholder": "พิมพ์ข้อความของคุณ",
+                "send": "ส่งข้อความ",
+                "message_read": "ข้อความถูกอ่านแล้ว"
             },
             "notifications": {
-                "message_received": "",
-                "new_private_message": "",
+                "message_received": "ทดสอบ",
+                "new_private_message": "มีคนส่งข้อความส่วนตัวมาหาฉัน",
                 "web": {
                     "new_private_message": {
-                        "body": ""
+                        "body": "ข้อความจาก {fromUser}"
                     }
                 },
                 "email": {
                     "new_private_message": {
-                        "subject": "",
-                        "youHaveReceivedNewMessage": "",
-                        "viewMessage": "",
-                        "manageEmailSettings": ""
+                        "subject": "ข้อความจาก {user}",
+                        "youHaveReceivedNewMessage": "คุณได้รับข้อความใหม่จาก {user}!",
+                        "viewMessage": "ดูข้อความ",
+                        "manageEmailSettings": "จัดการการตั้งค่าอีเมล"
                     }
                 }
             }

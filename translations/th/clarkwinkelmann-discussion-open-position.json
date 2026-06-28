@@ -2,39 +2,39 @@
     "clarkwinkelmann-discussion-open-position": {
         "admin": {
             "settings": {
-                "defaultOpenLastRead": "",
-                "suggestFirstTime": "",
+                "defaultOpenLastRead": "ค่าเริ่มต้นการเปิดโพสต์ที่โพสต์ที่อ่านล่าสุด",
+                "suggestFirstTime": "แสดงข้อความแจ้งให้ผู้ใช้เปลี่ยนการตั้งค่าในครั้งแรกที่เปิดโพสต์",
                 "openLastOptions": {
-                    "always": "",
-                    "unread": "",
-                    "never": ""
+                    "always": "=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.always",
+                    "unread": "=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.unread",
+                    "never": "=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.never"
                 }
             }
         },
         "forum": {
             "firstTimePrompt": {
-                "fromAlways": "",
-                "fromNever": "",
+                "fromAlways": "ลิงก์โพสต์จะพาไปยังโพสต์ที่คุณอ่านล่าสุด",
+                "fromNever": "ลิงก์โพสต์จะเปิดที่โพสต์แรก",
                 "openLastOptions": {
-                    "always": "",
-                    "never": ""
+                    "always": "เปิดที่โพสต์ล่าสุดที่อ่านแทนทุกครั้ง",
+                    "never": "เปิดที่โพสต์แรกแทนทุกครั้ง"
                 },
-                "more": ""
+                "more": "ตัวเลือกเพิ่มเติม"
             },
             "preferences": {
-                "discussionOpenLastRead": "",
+                "discussionOpenLastRead": "รายการโพสต์",
                 "openLastOptions": {
-                    "always": "",
-                    "unread": "",
-                    "never": ""
+                    "always": "=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.always",
+                    "unread": "=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.unread",
+                    "never": "=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.never"
                 }
             }
         },
         "ref": {
             "openLastOptions": {
-                "always": "",
-                "unread": "",
-                "never": ""
+                "always": "เปิดโพสต์ที่โพสต์ที่อ่านล่าสุดเสมอ",
+                "unread": "เปิดโพสต์ที่โพสต์ล่าสุดที่อ่านเฉพาะเมื่อมีการตอบกลับใหม่",
+                "never": "เปิดโพสต์ที่โพสต์แรกเสมอ"
             }
         }
     }

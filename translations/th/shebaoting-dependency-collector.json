@@ -1,89 +1,89 @@
 {
     "shebaoting-dependency-collector": {
         "forum": {
-            "nav_title": "",
+            "nav_title": "Dependencies",
             "list": {
-                "submit_button": "",
-                "filter_by_tag": "",
-                "all_tags": "",
-                "empty_text": "",
-                "my_favorites_button": ""
+                "submit_button": "ส่ง Dependency",
+                "filter_by_tag": "กรองตาม tag",
+                "all_tags": "ทั้งหมด",
+                "empty_text": "ไม่พบ dependency",
+                "my_favorites_button": "รายการโปรดของฉัน"
             },
             "item": {
-                "pending_approval": "",
-                "delete_button_label": "",
-                "delete_confirmation_title": "",
-                "delete_confirmation_text": "",
-                "favorite_button_label": "",
-                "unfavorite_button_label": ""
+                "pending_approval": "รอการอนุมัติ",
+                "delete_button_label": "ลบ",
+                "delete_confirmation_title": "ลบ Dependency",
+                "delete_confirmation_text": "คุณแน่ใจหรือไม่ว่าต้องการลบ dependency นี้? การกระทำนี้ไม่สามารถย้อนกลับได้",
+                "favorite_button_label": "บันทึกไว้",
+                "unfavorite_button_label": "ยกเลิกรายการโปรด"
             },
             "modal": {
-                "submit_title": "",
-                "title_label": "",
-                "title_placeholder": "",
-                "link_label": "",
-                "description_label": "",
-                "description_placeholder": "",
-                "tags_label": "",
-                "tags_help": "",
-                "submit_button": ""
+                "submit_title": "ส่ง Dependency ใหม่",
+                "title_label": "ชื่อ",
+                "title_placeholder": "เช่น Awesome Library",
+                "link_label": "ลิงก์",
+                "description_label": "คำอธิบาย",
+                "description_placeholder": "สรุปสั้นๆ ว่า dependency นี้ทำอะไร",
+                "tags_label": "Plugin Tags",
+                "tags_help": "เลือก tag ที่เกี่ยวข้องอย่างน้อยหนึ่งอัน",
+                "submit_button": "ส่ง"
             }
         },
         "admin": {
             "nav": {
-                "title": "",
-                "description": ""
+                "title": "Dependency Collector",
+                "description": "จัดการ dependency ที่ส่งมาและ plugin tags"
             },
             "page": {
-                "pending_items_title": "",
-                "no_pending_items": "",
-                "approved_items_title": "",
-                "no_approved_items": "",
-                "manage_tags_title": "",
-                "no_plugin_tags": ""
+                "pending_items_title": "Dependency รอการตรวจสอบ",
+                "no_pending_items": "ไม่มี dependency ที่รอการตรวจสอบ",
+                "approved_items_title": "Dependency ที่อนุมัติแล้ว",
+                "no_approved_items": "ยังไม่มี dependency ที่ได้รับการอนุมัติ",
+                "manage_tags_title": "จัดการ Plugin Tags",
+                "no_plugin_tags": "ยังไม่มี plugin tag ที่สร้างไว้"
             },
             "table": {
-                "title": "",
-                "submitted_by": "",
-                "submitted_at": "",
-                "approved_by": "",
-                "approved_at": "",
-                "tags": "",
-                "tag_name": "",
-                "tag_slug": "",
-                "tag_color_icon": "",
-                "tag_item_count": "",
-                "actions": "",
-                "tag_color": "",
-                "tag_icon": ""
+                "title": "ชื่อ",
+                "submitted_by": "ส่งโดย",
+                "submitted_at": "ส่งเมื่อ",
+                "approved_by": "อนุมัติโดย",
+                "approved_at": "อนุมัติเมื่อ",
+                "tags": "Tags",
+                "tag_name": "ชื่อ",
+                "tag_slug": "Slug",
+                "tag_color_icon": "สีและ icon",
+                "tag_item_count": "รายการ",
+                "actions": "การดำเนินการ",
+                "tag_color": "สี",
+                "tag_icon": "Icon"
             },
             "actions": {
-                "create_tag": "",
-                "approve": "",
-                "reject": ""
+                "create_tag": "สร้าง tag",
+                "approve": "อนุมัติ",
+                "reject": "ปฏิเสธ"
             },
             "confirm": {
-                "approve": "",
-                "reject": "",
-                "delete": "",
-                "delete_tag": ""
+                "approve": "อนุมัติ dependency",
+                "reject": "ปฏิเสธ dependency",
+                "delete": "ลบ dependency",
+                "delete_tag": "ลบ tag \"{name}\"? การกระทำนี้จะลบออกจาก dependency ที่เกี่ยวข้องทั้งหมด"
             },
             "modal": {
-                "edit_tag_title": "",
-                "create_tag_title": "",
-                "tag_name_label": "",
-                "tag_slug_label": "",
-                "tag_description_label": "",
-                "tag_color_label": "",
-                "tag_icon_label": "",
-                "tag_icon_help": ""
+                "edit_tag_title": "แก้ไข tag - {name}",
+                "create_tag_title": "สร้าง tag ใหม่",
+                "tag_name_label": "ชื่อ",
+                "tag_slug_label": "Slug",
+                "tag_description_label": "คำอธิบาย (ไม่จำเป็น)",
+                "tag_color_label": "สี (เช่น",
+                "tag_icon_label": "Icon (เช่น fas fa-code)",
+                "tag_icon_help": "ค้นหา icon ได้ที่ <a>Font Awesome</a>"
             },
             "permissions": {
-                "submit_label": "",
-                "moderate_label": "",
-                "manage_tags_label": "",
-                "delete_label": "",
-                "favorite_items_label": ""
+                "submit_label": "ส่ง dependency",
+                "moderate_label": "กลั่นกรอง dependency (อนุมัติ ปฏิเสธ แก้ไข ลบ)",
+                "manage_tags_label": "จัดการ plugin tags",
+                "delete_label": "ลบ dependency",
+                "favorite_items_label": "บันทึก dependency ไว้เป็นรายการโปรด"
             }
         }
     }

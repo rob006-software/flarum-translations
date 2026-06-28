@@ -2,53 +2,53 @@
     "clarkwinkelmann-featured-discussions": {
         "admin": {
             "settings": {
-                "schedule": "",
-                "duration": "",
-                "eventPost": ""
+                "schedule": "กำหนดเวลา (รูปแบบ CRON)",
+                "duration": "ระยะเวลาเริ่มต้น (วินาที)",
+                "eventPost": "สร้าง event post เมื่อมีการแก้ไขกำหนดเวลา"
             },
             "permissions": {
-                "feature": ""
+                "feature": "จัดการโพสต์ที่ featured"
             }
         },
         "forum": {
             "modal": {
-                "title": "",
+                "title": "Feature โพสต์",
                 "fields": {
-                    "from": "",
-                    "until": ""
+                    "from": "ตั้งแต่",
+                    "until": "ถึง"
                 },
                 "from": {
-                    "not": "",
-                    "next": "",
-                    "manual": ""
+                    "not": "ไม่ได้ featured",
+                    "next": "ช่วงถัดไป",
+                    "manual": "กำหนดวันเอง"
                 },
                 "until": {
-                    "auto": "",
-                    "manual": ""
+                    "auto": "อัตโนมัติ",
+                    "manual": "กำหนดวันเอง"
                 },
                 "action": {
-                    "cancel": "",
-                    "submit": ""
+                    "cancel": "ยกเลิก",
+                    "submit": "ยืนยัน"
                 }
             },
             "controls": {
-                "feature": ""
+                "feature": "Feature โพสต์"
             },
-            "badge": "",
+            "badge": "Featured",
             "nav": {
-                "schedule": ""
+                "schedule": "กำหนดเวลา feature"
             },
             "schedule": {
-                "help": "",
-                "drop-here": "",
-                "drop-error": "",
-                "empty": "",
-                "custom": ""
+                "help": "ลากและวางโพสต์ในหน้านี้หรือจากหน้าต่างอื่นเพื่อเปลี่ยนกำหนดเวลา หากต้องการลบกำหนดเวลา ใช้เมนู 3 จุด\n",
+                "drop-here": "วางที่นี่เพื่อกำหนดเวลา",
+                "drop-error": "ลิงก์โพสต์ไม่ถูกต้อง",
+                "empty": "ไม่มีโพสต์",
+                "custom": "กำหนดเอง"
             },
             "post": {
-                "scheduled": "",
-                "unscheduled": "",
-                "auto": ""
+                "scheduled": "กำหนด featured ตั้งแต่ {from} ถึง {until}",
+                "unscheduled": "ยกเลิกกำหนดการ featured แล้ว",
+                "auto": "(อัตโนมัติ)"
             }
         }
     }

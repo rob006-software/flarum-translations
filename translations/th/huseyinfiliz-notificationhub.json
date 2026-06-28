@@ -2,73 +2,73 @@
     "huseyinfiliz-notificationhub": {
         "admin": {
             "title": {
-                "page_title": ""
+                "page_title": "Notification Types"
             },
             "permissions": {
-                "send_all": "",
-                "send_user": ""
+                "send_all": "ส่ง notifications ไปยังผู้ใช้ทั้งหมด",
+                "send_user": "ส่ง notifications ไปยังผู้ใช้แต่ละคน"
             },
             "settings": {
-                "add_button": "",
-                "no_data": "",
-                "delete_confirm": "",
+                "add_button": "เพิ่ม Notification Type",
+                "no_data": "ยังไม่มี notification types",
+                "delete_confirm": "คุณแน่ใจหรือว่าต้องการลบ notification type นี้และ notifications ที่เกี่ยวข้องทั้งหมด?",
                 "fields": {
-                    "actions": "",
-                    "name": "",
-                    "excerpt_key": "",
-                    "description": "",
-                    "icon": "",
-                    "default_message_key": "",
-                    "permission": "",
-                    "color": "",
-                    "default_url": "",
-                    "default_recipients": "",
-                    "sort_order": "",
-                    "active": ""
+                    "actions": "Actions",
+                    "name": "Notification Type Name",
+                    "excerpt_key": "Default Excerpt",
+                    "description": "Notification Type Description",
+                    "icon": "Default Icon",
+                    "default_message_key": "Default Message",
+                    "permission": "Notification Type Permission",
+                    "color": "Notification Type Color",
+                    "default_url": "Default Link",
+                    "default_recipients": "Default Recipients",
+                    "sort_order": "Sort Order",
+                    "active": "ใช้งาน"
                 },
-                "save": "",
-                "edit_notification_type": "",
-                "add_notification_type": ""
+                "save": "บันทึก",
+                "edit_notification_type": "แก้ไข Notification Type",
+                "add_notification_type": "เพิ่ม Notification Type"
             }
         },
         "forum": {
             "links": {
-                "notification_individual": "",
-                "notification_all": ""
+                "notification_individual": "ส่ง Notification",
+                "notification_all": "ส่ง Notification"
             },
             "modal_notification": {
-                "title_text": "",
-                "recipients_label": "",
-                "recipients_placeholder": "",
-                "message_label": "",
-                "url_label": "",
-                "url_placeholder": "",
-                "submit_button": "",
-                "notification_sent_message": "",
-                "notification_type_label": "",
-                "no_notification_types": "",
-                "preview_title": "",
-                "preview_message_placeholder": "",
-                "preview_all_members": ""
+                "title_text": "ส่ง Notification",
+                "recipients_label": "Recipients",
+                "recipients_placeholder": "พิมพ์ username หรือชื่อกลุ่ม...",
+                "message_label": "ข้อความ",
+                "url_label": "Target Link",
+                "url_placeholder": "https://www.example.com",
+                "submit_button": "ส่ง Notification",
+                "notification_sent_message": "Notifications ส่งไปยัง {recipientsCount} ผู้ใช้!",
+                "notification_type_label": "Notification Type",
+                "no_notification_types": "ไม่พบ active notification types",
+                "preview_title": "Notification Preview",
+                "preview_message_placeholder": "Notification message..",
+                "preview_all_members": "All Members"
             },
             "recipient_kinds": {
-                "user": "",
-                "group": ""
+                "user": "ผู้ใช้",
+                "group": "กลุ่ม"
             }
         },
         "api": {
-            "message_required": "",
-            "user_ids_required": "",
-            "subject_id_required": "",
-            "no_valid_recipients": "",
-            "name_required": "",
-            "invalid_url": "",
-            "name_too_long": "",
-            "message_too_long": "",
-            "url_too_long": "",
-            "invalid_url_scheme": "",
-            "sort_order_invalid": "",
-            "field_too_long": ""
+            "message_required": "ข้อความจำเป็น",
+            "user_ids_required": "User IDs จำเป็น",
+            "subject_id_required": "Notification Type จำเป็น",
+            "no_valid_recipients": "ไม่พบ valid recipients",
+            "name_required": "ชื่อ notification type จำเป็น",
+            "invalid_url": "ตรวจพบ Invalid URL protocol",
+            "name_too_long": "ชื่อไม่สามารถยาวกว่า 255 ตัวอักษร",
+            "message_too_long": "ข้อความไม่สามารถยาวกว่า 5000 ตัวอักษร",
+            "url_too_long": "URL ไม่สามารถยาวกว่า 2048 ตัวอักษร",
+            "invalid_url_scheme": "Invalid URL scheme อนุญาตเฉพาะ HTTP, HTTPS, mailto, tel หรือ relative links",
+            "sort_order_invalid": "Sort order ต้องเป็นตัวเลขไม่เป็นลบ",
+            "field_too_long": "ฟิลด์นี้ยาวเกินไป"
         }
     }
 }

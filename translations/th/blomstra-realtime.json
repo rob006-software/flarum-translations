@@ -2,36 +2,36 @@
     "blomstra-realtime": {
         "forum": {
             "push": {
-                "discussion-list-new-activity": "",
-                "discussion-list-new-activity-with-auto-release": ""
+                "discussion-list-new-activity": "{count, plural, one {แสดง # โพสต์ที่อัปเดต} other {แสดง # โพสต์ที่อัปเดต}}",
+                "discussion-list-new-activity-with-auto-release": "{count, plural, one {# โพสต์} other {# โพสต์}}มีกิจกรรมใหม่ และจะแสดงในอีก {releaseTimeout} วินาที คลิกเพื่อดูทันที"
             },
             "typing-indicator": {
-                "anonymous-user": "",
-                "people-are-typing": "",
-                "users-are-typing": "",
-                "no-activity": ""
+                "anonymous-user": "[ไม่ระบุตัวตน]",
+                "people-are-typing": "{number, plural, one {# คนกำลังพิมพ์} other {# คนกำลังพิมพ์}}",
+                "users-are-typing": "{count, plural, one {{users} กำลังพิมพ์} other {{users}{others, plural, =1 { และ # คนอื่น} =0 {} other { และ # คนอื่น}} กำลังพิมพ์}}",
+                "no-activity": "ไม่มีใครกำลังพิมพ์"
             },
             "user": {
                 "settings": {
-                    "heading": "",
+                    "heading": "Realtime",
                     "typing-indicator-type": {
-                        "help": "",
-                        "label": ""
+                        "help": "เมื่อเปิดใช้งาน ตัวบ่งชี้การพิมพ์จะแสดงชื่อผู้ใช้ที่กำลังพิมพ์อยู่ ปิดใช้งานเพื่อแสดงเพียงจำนวนผู้ใช้ที่กำลังพิมพ์",
+                        "label": "แสดงว่าใครกำลังพิมพ์"
                     }
                 }
             }
         },
         "admin": {
             "permission": {
-                "view-who-types": ""
+                "view-who-types": "ดูว่าใครกำลังพิมพ์"
             },
             "settings": {
-                "release-discussion-updates": "",
-                "release-discussion-updates-help": "",
-                "release-discussion-updates-interval": "",
-                "release-discussion-updates-interval-help": "",
-                "typing-indicator": "",
-                "typing-indicator-help": ""
+                "release-discussion-updates": "การอัปเดต DiscussionList",
+                "release-discussion-updates-help": "เมื่อเปิดใช้งาน โพสต์ใหม่จะถูกส่งเข้า <code>DiscussionList</code> ตามช่วงเวลาที่กำหนดด้านล่าง",
+                "release-discussion-updates-interval": "ช่วงเวลาในการส่งกิจกรรมโพสต์ใหม่โดยอัตโนมัติ",
+                "release-discussion-updates-interval-help": "หน่วยเป็นวินาที 0 หมายความว่าไม่มีการส่งอัตโนมัติ",
+                "typing-indicator": "ตัวบ่งชี้การพิมพ์",
+                "typing-indicator-help": "เมื่อเปิดใช้งาน ผู้ใช้จะสามารถดูจำนวนผู้ใช้ที่กำลังพิมพ์ในโพสต์ได้ (ขึ้นอยู่กับสิทธิ์) เมื่อปิดใช้งาน กิจกรรมการพิมพ์จะถูกลบออกทั้งจาก UI และ websocket"
             }
         }
     }

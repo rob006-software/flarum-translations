@@ -1,37 +1,37 @@
 {
     "nyu8-email-filter": {
         "admin": {
-            "general": "",
-            "custom_failure_message_label": "",
-            "custom_failure_message_hint": "",
-            "rule_settings": "",
-            "name_placeholder": "",
-            "invalid_regular_expression": "",
+            "general": "ทั่วไป",
+            "custom_failure_message_label": "ข้อความแจ้งข้อผิดพลาดแบบกำหนดเอง",
+            "custom_failure_message_hint": "ข้อความแจ้งข้อผิดพลาดที่แสดงเมื่ออีเมลไม่ถูกต้อง หากเว้นว่างไว้จะใช้ข้อความเริ่มต้น",
+            "rule_settings": "ตั้งค่ากฎ",
+            "name_placeholder": "ชื่อกฎ",
+            "invalid_regular_expression": "Regular expression ไม่ถูกต้อง",
             "whitelist_literal": {
-                "label": "",
-                "description": "",
-                "placeholder": ""
+                "label": "Whitelist",
+                "description": "อีเมลที่ต้องการ whitelist แบบระบุตรงๆ",
+                "placeholder": "อีเมลที่จะ whitelist..."
             },
             "whitelist_regex": {
-                "label": "",
-                "description": "",
-                "placeholder": ""
+                "label": "Whitelist regular expression",
+                "description": "Regular expression ของอีเมลที่จะ whitelist",
+                "placeholder": "Regular expression ที่จะ whitelist..."
             },
             "blacklist_literal": {
-                "label": "",
-                "description": "",
-                "placeholder": ""
+                "label": "Blacklist",
+                "description": "อีเมลที่ต้องการ blacklist แบบระบุตรงๆ",
+                "placeholder": "อีเมลที่จะ blacklist..."
             },
             "blacklist_regex": {
-                "label": "",
-                "description": "",
-                "placeholder": ""
+                "label": "Blacklist regular expression",
+                "description": "Regular expression ของอีเมลที่จะ blacklist",
+                "placeholder": "Regular expression ที่จะ blacklist..."
             }
         },
         "forum": {
-            "generic_exception": "",
-            "blacklist_exception": "",
-            "whitelist_exception": ""
+            "generic_exception": "เกิดข้อผิดพลาด กรุณาติดต่อ admin ของชุมชนนี้",
+            "blacklist_exception": "อีเมลหรือโดเมนนี้อยู่ใน blacklist ของชุมชน",
+            "whitelist_exception": "อีเมลหรือโดเมนนี้ไม่ได้อยู่ใน whitelist ของชุมชน"
         }
     }
 }

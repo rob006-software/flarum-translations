@@ -1,50 +1,50 @@
 {
     "fof-nightmode": {
         "ref": {
-            "auto": "",
-            "light": "",
-            "dark": ""
+            "auto": "อัตโนมัติ (ตามการตั้งค่าเบราว์เซอร์หรืออุปกรณ์)",
+            "light": "โหมดกลางวัน",
+            "dark": "โหมดกลางคืน"
         },
         "admin": {
             "settings": {
                 "general": {
-                    "heading": "",
-                    "help": ""
+                    "heading": "การตั้งค่าทั่วไป",
+                    "help": "การตั้งค่าเหล่านี้ควบคุมพฤติกรรมพื้นฐานของส่วนขยาย"
                 },
                 "modal": {
-                    "always_show_theme_toggle_on_header": "",
-                    "show_theme_toggle_in_solid": "",
-                    "default_theme": "",
-                    "default_theme_helper": "",
-                    "theme_auto": "",
-                    "theme_light": "",
-                    "theme_dark": ""
+                    "always_show_theme_toggle_on_header": "แสดงปุ่มสลับธีมในส่วนหัวฟอรัมเสมอ",
+                    "show_theme_toggle_in_solid": "แสดงไอคอนธีมแบบทึบ",
+                    "default_theme": "ธีมฟอรัมเริ่มต้น",
+                    "default_theme_helper": "ธีมเริ่มต้นจะถูกกำหนดให้ผู้ใช้ใหม่ ผู้เยี่ยมชม และผู้ที่ยังไม่ได้ตั้งค่าความชอบ",
+                    "theme_auto": "=> fof-nightmode.ref.auto",
+                    "theme_light": "=> fof-nightmode.ref.light",
+                    "theme_dark": "=> fof-nightmode.ref.dark"
                 }
             }
         },
         "forum": {
-            "day": "",
-            "night": "",
+            "day": "=> fof-nightmode.ref.light",
+            "night": "=> fof-nightmode.ref.dark",
             "header": {
-                "nightmode_button": ""
+                "nightmode_button": "สลับธีมฟอรัม"
             },
             "user": {
                 "settings": {
-                    "heading": "",
-                    "description": "",
-                    "description2": "",
-                    "device_specific_setting_checkbox": "",
-                    "device_specific_setting_checkbox_tooltip": "",
-                    "auto_unsupported": "",
+                    "heading": "ธีม",
+                    "description": "เลือกธีมสีที่ต้องการใช้ในฟอรัม",
+                    "description2": "ธีมนี้จะผูกกับบัญชีของคุณและใช้กับทุกอุปกรณ์ เว้นแต่จะเปิดใช้การตั้งค่าแยกตามอุปกรณ์ด้านล่าง",
+                    "device_specific_setting_checkbox": "ใช้การตั้งค่าแยกตามอุปกรณ์",
+                    "device_specific_setting_checkbox_tooltip": "การเลือกธีมจะถูกบันทึกแยกสำหรับแต่ละอุปกรณ์ของคุณ",
+                    "auto_unsupported": "เบราว์เซอร์ของคุณไม่รองรับโหมดมืดอัตโนมัติ",
                     "options": {
-                        "auto": "",
-                        "day": "",
-                        "night": ""
+                        "auto": "=> fof-nightmode.ref.auto",
+                        "day": "=> fof-nightmode.ref.light",
+                        "night": "=> fof-nightmode.ref.dark"
                     },
                     "option_descriptions": {
-                        "auto": "",
-                        "day": "",
-                        "night": ""
+                        "auto": "ธีมจะถูกเลือกอัตโนมัติตามการตั้งค่าเบราว์เซอร์หรืออุปกรณ์ของคุณ เช่น หากคุณเปิดโหมดมืดใน iOS ฟอรัมก็จะเป็นโหมดมืดด้วย",
+                        "day": "ประสบการณ์แบบคลาสสิกที่คุณคุ้นเคย ผ่านการทดสอบและเป็นที่นิยม",
+                        "night": "คุณชอบเฝ้าฟอรัมในยามค่ำคืน ขณะที่นกกำลังนอนหลับและจิ้งจอกกำลังล่าเหยื่อ หรือแค่ชอบโทนสีเข้มกว่านั้นเอง!"
                     }
                 }
             }
@@ -53,10 +53,10 @@
     "fof-default-user-preferences": {
         "admin": {
             "settings": {
-                "fofNightMode": "",
-                "fofNightMode-help": "",
-                "fofNightMode_perDevice": "",
-                "fofNightMode_perDevice-help": ""
+                "fofNightMode": "FoF Nightmode: ธีมสีที่ใช้เป็นค่าเริ่มต้น",
+                "fofNightMode-help": "0 - อัตโนมัติ, 1 - โหมดสว่าง, 2 - โหมดมืด",
+                "fofNightMode_perDevice": "FoF Nightmode: ใช้การตั้งค่าแยกตามอุปกรณ์",
+                "fofNightMode_perDevice-help": "ใช้การตั้งค่าส่วนตัวแยกตามอุปกรณ์สำหรับ Nightmode"
             }
         }
     }

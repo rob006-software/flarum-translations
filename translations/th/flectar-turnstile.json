@@ -2,22 +2,22 @@
     "flectar-turnstile": {
         "admin": {
             "settings": {
-                "help_text": "",
-                "site_key": "",
-                "secret_key": "",
-                "signup": "",
-                "signin": "",
-                "forgot": ""
+                "help_text": "บัญชี",
+                "site_key": "site key",
+                "secret_key": "secret key",
+                "signup": "=> core.forum.sign_up.title",
+                "signin": "=> core.forum.log_in.title",
+                "forgot": "=> core.forum.forgot_password.title"
             }
         },
         "forum": {
-            "not_loaded_error": "",
-            "validation_error": "",
-            "error": ""
+            "not_loaded_error": "รีเฟรช",
+            "validation_error": "ทั้งหมด",
+            "error": "ยืนยัน"
         }
     },
     "validation": {
-        "turnstile": "",
-        "required": ""
+        "turnstile": "รีเฟรช",
+        "required": "ทั้งหมด"
     }
 }

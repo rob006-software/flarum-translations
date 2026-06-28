@@ -2,32 +2,32 @@
     "guest-posting": {
         "forum": {
             "alert": {
-                "create-account": "",
-                "create-account-votes-only": "",
-                "create-account-posts-and-votes": "",
-                "signup": ""
+                "create-account": "สร้างบัญชีตอนนี้และนำเข้า {count} post ของคุณ!",
+                "create-account-votes-only": "สร้างบัญชีตอนนี้และนำเข้า {count} โหวตของคุณ!",
+                "create-account-posts-and-votes": "สร้างบัญชีตอนนี้และนำเข้า {postCount} post และ {voteCount} โหวตของคุณ!",
+                "signup": "สมัครสมาชิก"
             },
             "modal": {
-                "import": "",
-                "import-votes": ""
+                "import": "นำเข้า {count} guest post ของฉัน",
+                "import-votes": "นำเข้า {postCount} guest post และ {voteCount} โหวตของฉัน"
             },
             "badge": {
-                "guest": ""
+                "guest": "Guest"
             }
         },
         "admin": {
             "settings": {
-                "title": "",
-                "enableImport": "",
-                "sessionLifetime": "",
-                "usernames": ""
+                "title": "ตั้งค่า Guest Posting",
+                "enableImport": "เปิดใช้งานการนำเข้า post เดิมระหว่างการลงทะเบียน",
+                "sessionLifetime": "อายุ session ของ guest (ชั่วโมง)",
+                "usernames": "ชื่อผู้ใช้แบบสุ่มสำหรับ guest"
             }
         }
     },
     "core": {
         "lib": {
             "username": {
-                "deleted_text": ""
+                "deleted_text": "Guest"
             }
         }
     }

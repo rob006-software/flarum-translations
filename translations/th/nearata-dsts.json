@@ -2,43 +2,43 @@
     "nearata-dsts": {
         "admin": {
             "permissions": {
-                "can_bypass_like": "",
-                "can_bypass_reply": "",
-                "can_bypass_login": "",
-                "can_use_bbcode": ""
+                "can_bypass_like": "ข้าม like ได้",
+                "can_bypass_reply": "ข้ามการตอบกลับได้",
+                "can_bypass_login": "ข้าม login ได้",
+                "can_use_bbcode": "ใช้ BBCode ได้"
             },
             "settings": {
-                "enabled": "",
-                "hide_only_first_post": "",
-                "require_like": "",
-                "require_reply": "",
+                "enabled": "เปิดใช้งาน",
+                "hide_only_first_post": "ซ่อนเฉพาะ post แรก",
+                "require_like": "ต้อง like",
+                "require_reply": "ต้องตอบกลับ",
                 "fof_upload": {
-                    "enabled": "",
-                    "section_title": "",
-                    "require_reply": "",
-                    "require_like": ""
+                    "enabled": "เปิดใช้งาน",
+                    "section_title": "FoF Upload",
+                    "require_reply": "ต้องตอบกลับ",
+                    "require_like": "ต้อง like"
                 }
             }
         },
         "forum": {
             "post": {
-                "login_tooltip": "",
-                "reply_tooltip": "",
-                "like_tooltip": "",
+                "login_tooltip": "คุณต้อง login เพื่อดูเนื้อหา",
+                "reply_tooltip": "คุณต้องตอบกลับโพสต์เพื่อดูเนื้อหา",
+                "like_tooltip": "คุณต้อง like post นี้เพื่อดูเนื้อหา",
                 "fof_upload": {
-                    "login_text": "",
-                    "reply_text": "",
-                    "like_text": ""
+                    "login_text": "คุณต้อง login เพื่อดูไฟล์",
+                    "reply_text": "คุณต้องตอบกลับโพสต์เพื่อดูไฟล์",
+                    "like_text": "คุณต้อง like post นี้เพื่อดูไฟล์"
                 },
                 "bbcode": {
-                    "hidden_content": "",
-                    "login_text": "",
-                    "reply_text": "",
-                    "like_text": ""
+                    "hidden_content": "เนื้อหาที่ซ่อนอยู่",
+                    "login_text": "คุณต้อง login เพื่อดูเนื้อหานี้",
+                    "reply_text": "คุณต้องตอบกลับโพสต์เพื่อดูเนื้อหานี้",
+                    "like_text": "คุณต้อง like post นี้เพื่อดูเนื้อหานี้"
                 }
             },
             "composer": {
-                "dsts_tooltip": ""
+                "dsts_tooltip": "DSTS"
             }
         }
     }

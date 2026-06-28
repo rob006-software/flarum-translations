@@ -1,122 +1,122 @@
 {
     "gtdxyz-flarum-badges": {
         "admin": {
-            "uncategorized": "",
-            "new_badge": "",
-            "create_category": "",
-            "update_badge": "",
-            "update_category": "",
-            "edit_category": "",
-            "nothing_here_yet": "",
-            "show_badges_on_user_card": "",
-            "number_of_badges_on_user_card": "",
-            "number_of_badges_on_user_card_help": "",
+            "uncategorized": "ไม่มีหมวดหมู่",
+            "new_badge": "สร้างป้ายรางวัลใหม่",
+            "create_category": "สร้างหมวดหมู่",
+            "update_badge": "อัปเดตป้ายรางวัล",
+            "update_category": "อัปเดตหมวดหมู่",
+            "edit_category": "แก้ไขหมวดหมู่",
+            "nothing_here_yet": "คุณยังไม่ได้สร้างป้ายรางวัลหรือหมวดหมู่ใดเลย",
+            "show_badges_on_user_card": "แสดงป้ายรางวัลบนการ์ดผู้ใช้",
+            "number_of_badges_on_user_card": "จำนวนป้ายรางวัล",
+            "number_of_badges_on_user_card_help": "จำนวนป้ายรางวัลที่แสดงบนการ์ดผู้ใช้",
             "permissions": {
-                "badge_detail_users": "",
-                "give_badge": "",
-                "take_badge": "",
-                "edit_own_card_badges": "",
-                "edit_card_badges": ""
+                "badge_detail_users": "ดูรายชื่อผู้ใช้ในหน้ารายละเอียดป้ายรางวัลได้",
+                "give_badge": "มอบป้ายรางวัลให้ผู้ใช้",
+                "take_badge": "ถอดป้ายรางวัลจากผู้ใช้",
+                "edit_own_card_badges": "แก้ไขป้ายรางวัลบนการ์ดของตัวเอง",
+                "edit_card_badges": "แก้ไขป้ายรางวัลบนการ์ดผู้ใช้"
             },
             "confirm_dialog": {
-                "title": "",
-                "no": "",
-                "yes": ""
+                "title": "ยืนยัน",
+                "no": "ไม่",
+                "yes": "ใช่"
             },
             "confirm_messages": {
-                "delete_badge": "",
-                "delete_category": ""
+                "delete_badge": "คุณแน่ใจหรือไม่ที่จะลบป้ายรางวัลนี้? ป้ายรางวัลจะถูกลบออกจากผู้ใช้ทุกคนและไม่สามารถย้อนกลับได้",
+                "delete_category": "คุณแน่ใจหรือไม่ที่จะลบหมวดหมู่นี้? หากมีป้ายรางวัลในหมวดหมู่นี้ จะถูกทำเครื่องหมายเป็น 'ไม่มีหมวดหมู่'"
             },
             "badge": {
-                "name": "",
-                "icon": "",
-                "description": "",
-                "visible": "",
-                "visible_description": "",
-                "is_image": "",
-                "is_image_description": "",
-                "image": "",
-                "image_placeholder": "",
-                "icon_color": "",
-                "background_color": "",
-                "label_color": ""
+                "name": "ชื่อป้ายรางวัล",
+                "icon": "ไอคอนป้ายรางวัล",
+                "description": "คำอธิบายป้ายรางวัล",
+                "visible": "มองเห็นได้",
+                "visible_description": "เปิดใช้งานป้ายรางวัลนี้ เมื่อปิดใช้งาน ป้ายรางวัลจะไม่แสดง",
+                "is_image": "ป้ายรางวัลเป็นรูปภาพ",
+                "is_image_description": "ใช้รูปภาพแทนป้ายรางวัลค่าเริ่มต้น",
+                "image": "URL รูปภาพป้ายรางวัล",
+                "image_placeholder": "ใส่ URL ของรูปภาพป้ายรางวัล",
+                "icon_color": "สีไอคอน",
+                "background_color": "สีพื้นหลัง",
+                "label_color": "สีตัวอักษร"
             },
             "badge_category": {
-                "name": "",
-                "description": "",
-                "blockview": "",
-                "blockview_description": "",
-                "enabled": "",
-                "enabled_description": ""
+                "name": "ชื่อหมวดหมู่",
+                "description": "คำอธิบายหมวดหมู่",
+                "blockview": "มุมมองแบบบล็อก",
+                "blockview_description": "แสดงป้ายรางวัลในหมวดหมู่เป็นแบบบล็อกในหน้าภาพรวม เมื่อปิดใช้งาน ป้ายรางวัลทั้งหมดจะแสดงเป็นตาราง",
+                "enabled": "เปิดใช้งาน",
+                "enabled_description": "เปิดใช้งานหมวดหมู่นี้ เมื่อปิดใช้งาน ป้ายรางวัลทั้งหมดจะถูกปิดและหมวดหมู่จะถูกซ่อน"
             },
             "auto_moderator": {
                 "not_installed": {
-                    "title": "",
-                    "content": "",
-                    "install": "",
-                    "dismiss": ""
+                    "title": "มอบป้ายรางวัลให้ผู้ใช้โดยอัตโนมัติ",
+                    "content": "Extension นี้มีฟังก์ชันเพิ่มเติมเมื่อติดตั้งและเปิดใช้งาน <a>Auto Moderator</a> เมื่อติดตั้ง Extension นี้แล้ว ผู้ใช้จะได้รับป้ายรางวัลโดยอัตโนมัติโดยไม่ต้องให้ทีมงานดำเนินการ!",
+                    "install": "ติดตั้ง",
+                    "dismiss": "ไม่ต้องแสดงอีก"
                 },
                 "action_drivers": {
-                    "badge_id": "",
-                    "give_badge": "",
-                    "remove_badge": ""
+                    "badge_id": "ID ป้ายรางวัล",
+                    "give_badge": "มอบป้ายรางวัล",
+                    "remove_badge": "ลบป้ายรางวัล"
                 },
                 "requirement_drivers": {
-                    "has_badge": ""
+                    "has_badge": "มีป้ายรางวัล"
                 },
                 "metric_drivers": {
-                    "badges_received": ""
+                    "badges_received": "ป้ายรางวัลที่ได้รับ"
                 },
                 "badge_selector": {
-                    "placeholder": "",
-                    "loading_badges": ""
+                    "placeholder": "เลือกป้ายรางวัล",
+                    "loading_badges": "กำลังโหลดป้ายรางวัล"
                 }
             }
         },
         "forum": {
-            "badge_information": "",
-            "all_badges": "",
-            "all_users": "",
-            "give_badge": "",
-            "update_badge": "",
-            "select_badge": "",
-            "user_has_badge": "",
-            "user_no_badges": "",
-            "hidden_badges": "",
-            "no_received": "",
-            "uncategorized": "",
-            "save_changes": "",
+            "badge_information": "ป้ายรางวัล",
+            "all_badges": "ดูป้ายรางวัลทั้งหมด",
+            "all_users": "ดูผู้ใช้ทั้งหมด",
+            "give_badge": "มอบป้ายรางวัล",
+            "update_badge": "อัปเดตป้ายรางวัล",
+            "select_badge": "เลือกป้ายรางวัล",
+            "user_has_badge": "ผู้ใช้มีป้ายรางวัลนี้แล้ว",
+            "user_no_badges": "ผู้ใช้นี้ยังไม่มีป้ายรางวัลใดเลย",
+            "hidden_badges": "ผู้ใช้นี้ยังไม่แสดงป้ายรางวัล",
+            "no_received": "ยังไม่มีผู้ใช้ได้รับป้ายรางวัลนี้",
+            "uncategorized": "=> gtdxyz-flarum-badges.admin.uncategorized",
+            "save_changes": "บันทึกการเปลี่ยนแปลง",
             "badge": {
-                "badge": "",
-                "badges": "",
-                "name": "",
-                "description": "",
-                "earning_reason": "",
-                "update_earning_reason": "",
-                "no_earning_reason": "",
-                "earned_on": "",
-                "category": "",
-                "received_on": "",
-                "badge_details": "",
-                "earned_count": "",
-                "earned_by_count": "",
-                "others_link": ""
+                "badge": "ป้ายรางวัล",
+                "badges": "ป้ายรางวัล",
+                "name": "ชื่อป้ายรางวัล",
+                "description": "คำอธิบายป้ายรางวัล",
+                "earning_reason": "เหตุผลในการได้รับป้ายรางวัล",
+                "update_earning_reason": "อัปเดตเหตุผลการได้รับ",
+                "no_earning_reason": "ยังไม่มีเหตุผลการได้รับ",
+                "earned_on": "ได้รับป้ายรางวัลเมื่อ",
+                "category": "หมวดหมู่ป้ายรางวัล",
+                "received_on": "ได้รับเมื่อ {date}",
+                "badge_details": "รายละเอียดป้ายรางวัล",
+                "earned_count": "{count, plural, one {<b># ผู้ใช้</b>ได้รับป้ายรางวัลนี้} other {<b># ผู้ใช้</b>ได้รับ}}",
+                "earned_by_count": "{count, plural, one {ได้รับโดย <b># ผู้ใช้</b>} other {ได้รับโดย <b># ผู้ใช้</b>}}",
+                "others_link": "+ อีก {count} คน"
             },
             "badges_in_card": {
-                "title": "",
-                "manage_badges": "",
-                "description": "",
-                "select_limit": "",
-                "hit_limit": ""
+                "title": "ป้ายรางวัลในการ์ดผู้ใช้",
+                "manage_badges": "จัดการป้ายรางวัล",
+                "description": "คุณสามารถเปลี่ยนป้ายรางวัลที่แสดงในการ์ดผู้ใช้ด้วยป้ายรางวัลอื่น ถ้าไม่ได้เลือก ระบบจะเลือกให้อัตโนมัติ",
+                "select_limit": "คุณสามารถเลือก {limit, plural, one {<b>ป้ายรางวัล 1 ชิ้น</b>} other {<b># ชิ้น</b>}} เพื่อแสดงในการ์ดผู้ใช้",
+                "hit_limit": "มีที่ว่างสำหรับ <b> {limit, plural, one {<b>ป้ายรางวัล 1 ชิ้น</b>} other {<b># ชิ้น</b>}}</b> เท่านั้น ยกเลิกการเลือกป้ายรางวัลหนึ่งชิ้นเพื่อเพิ่มพื้นที่"
             },
             "moderation": {
-                "remove_badge": "",
-                "remove_badge_confirm": "",
-                "give_badge": ""
+                "remove_badge": "ลบป้ายรางวัลออกจากผู้ใช้",
+                "remove_badge_confirm": "คุณแน่ใจหรือไม่ที่จะลบป้ายรางวัลนี้ออกจากผู้ใช้?",
+                "give_badge": "มอบป้ายรางวัล"
             },
             "notification": {
-                "title": "",
-                "settings": ""
+                "title": "คุณได้รับป้ายรางวัลใหม่",
+                "settings": "ฉันได้รับป้ายรางวัล"
             }
         }
     }

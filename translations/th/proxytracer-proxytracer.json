@@ -2,20 +2,20 @@
     "proxytracer-proxytracer": {
         "admin": {
             "settings": {
-                "api_key_label": "",
-                "api_key_help": "",
-                "block_all_label": "",
-                "block_login_label": "",
-                "block_signup_label": "",
-                "api_timeout_label": "",
-                "cache_expiry_label": "",
-                "fail_open_label": "",
-                "fail_open_help": "",
-                "trust_cloudflare_label": "",
-                "trust_cloudflare_help": "",
-                "custom_block_message_label": "",
-                "ip_whitelist_label": "",
-                "ip_whitelist_help": ""
+                "api_key_label": "ProxyTracer API Key",
+                "api_key_help": "API token ของคุณที่ได้รับจาก <a>proxytracer.com</a>",
+                "block_all_label": "บล็อกการเข้าถึงไซต์ทั้งหมด",
+                "block_login_label": "บล็อกการ Login",
+                "block_signup_label": "บล็อกการสมัครสมาชิก",
+                "api_timeout_label": "API Timeout (มิลลิวินาที)",
+                "cache_expiry_label": "Cache หมดอายุ (ชั่วโมง)",
+                "fail_open_label": "อนุญาตผ่านเมื่อ API Error",
+                "fail_open_help": "หากเปิดใช้งาน ผู้ใช้จะได้รับอนุญาตผ่านหาก ProxyTracer API timeout หรือล่ม",
+                "trust_cloudflare_label": "ดึง IP จาก Cloudflare Headers",
+                "trust_cloudflare_help": "จำเป็นหากไซต์ของคุณอยู่หลัง Cloudflare เพื่ออ่าน IP ผู้ใช้ได้ถูกต้อง อย่าเปิดใช้งานในสถานการณ์อื่น",
+                "custom_block_message_label": "ข้อความบล็อกกำหนดเอง",
+                "ip_whitelist_label": "IP Whitelist",
+                "ip_whitelist_help": "ใส่ IP หรือช่วง CIDR เพื่อข้ามการตรวจสอบ proxy โดยคั่นด้วยบรรทัดใหม่"
             }
         }
     }

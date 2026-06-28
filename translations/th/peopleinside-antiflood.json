@@ -2,28 +2,28 @@
     "peopleinside-antiflood": {
         "forum": {
             "error": {
-                "pending_limit": "",
-                "flood_limit": ""
+                "pending_limit": "คุณมี post หรือ topic ที่รอการอนุมัติมากเกินไป กรุณารอจนกว่าบางส่วนจะได้รับการตรวจสอบก่อนสร้างเนื้อหาใหม่",
+                "flood_limit": "คุณโพสต์เร็วเกินไป กรุณารอ {minutes} นาทีก่อนโพสต์อีกครั้ง"
             }
         },
         "admin": {
-            "description": "",
+            "description": "ป้องกันการ flood topic/reply และจำกัดจำนวนที่รอการอนุมัติ",
             "settings": {
-                "max_pending_label": "",
-                "max_pending_help": "",
-                "flood_limit_label": "",
-                "flood_limit_help": "",
-                "post_flood_limit_label": "",
-                "post_flood_limit_help": "",
-                "flood_interval_minutes_label": "",
-                "flood_interval_minutes_help": "",
-                "pending_limit_message_label": "",
-                "pending_limit_message_help": "",
-                "flood_limit_message_label": "",
-                "flood_limit_message_help": "",
-                "pending_limit_message_suggestion": "",
-                "flood_limit_message_suggestion": "",
-                "reset_button": ""
+                "max_pending_label": "จำนวน post ที่รอการอนุมัติสูงสุด",
+                "max_pending_help": "จำนวน post และ topic สูงสุดที่ผู้ใช้สามารถรอการอนุมัติได้ก่อนถูกบล็อกไม่ให้โพสต์ ค่าเริ่มต้น: 6",
+                "flood_limit_label": "ขีดจำกัด flood ของ topic",
+                "flood_limit_help": "จำนวน topic ใหม่สูงสุดที่ผู้ใช้สามารถสร้างในช่วง flood interval ก่อนถูกบล็อก ค่าเริ่มต้น: 3 หมายเหตุ: Flarum มีการบังคับ cooldown 10 วินาทีระหว่าง post และ topic ทุกรายการอยู่แล้ว",
+                "post_flood_limit_label": "ขีดจำกัด flood ของ reply",
+                "post_flood_limit_help": "จำนวน reply ใหม่สูงสุดที่ผู้ใช้สามารถโพสต์ในช่วง flood interval ก่อนถูกบล็อก ตั้งเป็น 0 เพื่อปิดใช้งาน (ใช้การ throttle 10 วินาทีของ Flarum) ค่าเริ่มต้น: 0",
+                "flood_interval_minutes_label": "Flood interval (นาที)",
+                "flood_interval_minutes_help": "ช่วงเวลาเป็นนาทีที่ใช้นับการสร้าง topic หรือ reply ล่าสุด ใช้กับทั้งขีดจำกัด flood ของ topic และ reply ค่าเริ่มต้น: 5",
+                "pending_limit_message_label": "ข้อความกำหนดเอง: ถึงขีดจำกัด pending",
+                "pending_limit_message_help": "แทนที่ข้อความแจ้งข้อผิดพลาดเริ่มต้นที่แสดงเมื่อผู้ใช้ถึงขีดจำกัด pending posts เว้นว่างเพื่อใช้ค่าเริ่มต้น",
+                "flood_limit_message_label": "ข้อความกำหนดเอง: ถึงขีดจำกัด flood",
+                "flood_limit_message_help": "แทนที่ข้อความแจ้งข้อผิดพลาดเริ่มต้นที่แสดงเมื่อผู้ใช้โพสต์เร็วเกินไป เว้นว่างเพื่อใช้ค่าเริ่มต้น สามารถใช้ {minutes} เป็น placeholder",
+                "pending_limit_message_suggestion": "คุณมี post หรือ topic ที่รอการอนุมัติมากเกินไป กรุณารอจนกว่าบางส่วนจะได้รับการตรวจสอบก่อนสร้างเนื้อหาใหม่",
+                "flood_limit_message_suggestion": "คุณโพสต์เร็วเกินไป กรุณารอ {minutes} นาทีก่อนโพสต์อีกครั้ง",
+                "reset_button": "รีเซ็ต"
             }
         }
     }

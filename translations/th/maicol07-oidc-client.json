@@ -3,60 +3,60 @@
         "admin": {
             "settings": {
                 "client": {
-                    "title": "",
-                    "subtitle": "",
-                    "id": "",
-                    "secret": "",
-                    "enable_pkce": "",
-                    "enable_nonce": "",
-                    "http_proxy": "",
-                    "cert_path": "",
-                    "verify_ssl": "",
-                    "timeout": "",
-                    "allow_implicit_flow": "",
-                    "skip_email_verified_check": ""
+                    "title": "ตั้งค่า Client",
+                    "subtitle": "เพิ่มรายละเอียด client ของคุณที่ได้รับจาก OpenID Connect provider ของคุณ สำหรับความช่วยเหลือเพิ่มเติม โปรดดูเอกสารประกอบ\n",
+                    "id": "Client ID",
+                    "secret": "Client secret",
+                    "enable_pkce": "เปิดใช้งาน PKCE (แนะนำ)",
+                    "enable_nonce": "เปิดใช้งาน nonce verification (แนะนำ)",
+                    "http_proxy": "HTTP proxy",
+                    "cert_path": "เส้นทาง Certificate (ในกรณีของ self-signed certificate)",
+                    "verify_ssl": "ตรวจสอบ SSL ระหว่างการขอ",
+                    "timeout": "Timeout ของการขอ",
+                    "allow_implicit_flow": "ใช้ implicit flow (ไม่แนะนำ)",
+                    "skip_email_verified_check": "ข้ามการตรวจสอบ email verified claim (มีประโยชน์สำหรับ provider ที่ไม่เป็นไปตามมาตรฐาน เช่น Casdoor)"
                 },
-                "callback_title": "",
-                "callback_subtitle": "",
-                "callback_logout_note": "",
+                "callback_title": "Callback URI",
+                "callback_subtitle": "นี่คือ callback URI ที่คุณต้องลงทะเบียนกับ provider ของคุณเพื่อรับ authorization code ของ client และเพื่อ logout จาก provider ด้วยหากมีการเปิดใช้งานตัวเลือกที่เกี่ยวข้อง",
+                "callback_logout_note": "จำเป็นเฉพาะเมื่อเปิดใช้งานตัวเลือก logout จาก provider (ดูที่ด้านล่างของหน้า)",
                 "provider": {
-                    "title": "",
-                    "subtitle": "",
-                    "url": "",
+                    "title": "ตั้งค่า Provider",
+                    "subtitle": "เพิ่มรายละเอียด provider ของคุณที่นี่ หาก provider ของคุณใช้ autodiscovery คุณไม่จำเป็นต้องเพิ่ม endpoints และบางฟิลด์อื่นๆ (คุณสามารถแทนที่ได้หากต้องการ) หาก provider ของคุณยังไม่ได้ใช้งาน คุณสามารถเพิ่มตั้งค่าที่จำเป็นด้วยตนเองด้านล่าง สำหรับความช่วยเหลือเพิ่มเติม โปรดดูเอกสารประกอบ\n",
+                    "url": "Provider URL",
                     "endpoints": {
-                        "authorize": "",
-                        "token": "",
-                        "userinfo": "",
-                        "logout": "",
-                        "jwks": ""
+                        "authorize": "Authorization endpoint URL",
+                        "token": "Token endpoint URL",
+                        "userinfo": "Userinfo endpoint URL",
+                        "logout": "End session (logout) endpoint URL",
+                        "jwks": "JWKS endpoint URL"
                     },
-                    "issuer": "",
-                    "code_challenge_method": "",
-                    "response_type": "",
-                    "id_token_signing_alg": "",
-                    "authorization_response_iss_parameter_supported": "",
-                    "token_endpoint_auth_method": ""
+                    "issuer": "Issuer URL",
+                    "code_challenge_method": "Code challenge method",
+                    "response_type": "Response type ของ provider ต่อ authorization",
+                    "id_token_signing_alg": "ID token signing algorithm",
+                    "authorization_response_iss_parameter_supported": "Authorization response iss parameter supported",
+                    "token_endpoint_auth_method": "Token endpoint auth method"
                 },
                 "other": {
-                    "title": "",
-                    "provider_name": "",
-                    "linker_claim": "",
-                    "manage_account_url": "",
-                    "manage_account_btn_open_in_new_tab": "",
-                    "sso_mode": "",
-                    "logout_from_provider": "",
-                    "remove_signup_btn": "",
-                    "sync_avatars": "",
-                    "time_drift": ""
+                    "title": "ตั้งค่าอื่นๆ",
+                    "provider_name": "ชื่อของ provider ที่แสดงบนปุ่มที่เกี่ยวข้องกับ OIDC",
+                    "linker_claim": "Linker claim",
+                    "manage_account_url": "URL สำหรับจัดการบัญชี",
+                    "manage_account_btn_open_in_new_tab": "เปิดหน้าจัดการบัญชีในแท็บใหม่",
+                    "sso_mode": "โหมด SSO",
+                    "logout_from_provider": "Logout จาก provider (เมื่อเปิดใช้งานโหมด SSO)",
+                    "remove_signup_btn": "ลบปุ่ม signup",
+                    "sync_avatars": "Sync user avatar",
+                    "time_drift": "JWT Time drift"
                 }
             }
         },
         "forum": {
             "buttons": {
-                "manage_account": "",
-                "login": "",
-                "connect_account": "",
-                "disconnect_account": ""
+                "manage_account": "จัดการบัญชี",
+                "login": "Login ไปยัง {name}",
+                "connect_account": "เชื่อมต่อไปยัง {name}",
+                "disconnect_account": "ยกเลิกการเชื่อมต่อจาก {name}"
             }
         }
     }
