@@ -1,36 +1,36 @@
-{
+﻿{
     "flarum-likes": {
         "admin": {
             "permissions": {
-                "like_posts_label": "ถูกใจโพสต์"
+                "like_posts_label": "กดถูกใจโพสต์"
             },
             "settings": {
-                "like_own_posts_help": "",
-                "like_own_posts_label": ""
+                "like_own_posts_help": "เมื่อเปิดใช้งาน ผู้ใช้จะสามารถกดถูกใจโพสต์ของตัวเองได้ หากต้องการป้องกัน ให้ปิดการตั้งค่านี้",
+                "like_own_posts_label": "ผู้ใช้สามารถกดถูกใจโพสต์ของตัวเองได้"
             }
         },
         "forum": {
             "notifications": {
                 "others_text": "=> core.ref.some_others",
-                "post_liked_text": "{username} ถูกใจโพสต์ของคุณ"
+                "post_liked_text": "{username} กดถูกใจโพสต์ของคุณ"
             },
             "post": {
                 "like_link": "ถูกใจ",
-                "liked_by_self_text": "{users} ถูกใจโพสต์นี้",
-                "liked_by_text": "{count, plural, one {{users} ถูกใจโพสต์นี้} other {{users} คนถูกใจโพสต์นี้}}.",
+                "liked_by_self_text": "{users} ถูกใจสิ่งนี้",
+                "liked_by_text": "{count, plural, one {{users} ถูกใจสิ่งนี้} other {{users} ถูกใจสิ่งนี้}}",
                 "others_link": "=> core.ref.some_others",
                 "unlike_link": "เลิกถูกใจ",
                 "you_text": "=> core.ref.you"
             },
             "post_likes": {
-                "title": "ผู้ที่ถูกใจสิ่งนี้",
-                "load_more_button": ""
+                "title": "ผู้ที่กดถูกใจ",
+                "load_more_button": "=> core.ref.load_more"
             },
             "settings": {
-                "notify_post_liked_label": "เมื่อมีคนถูกใจโพสต์ของฉัน"
+                "notify_post_liked_label": "เมื่อมีคนกดถูกใจโพสต์ของฉัน"
             },
             "user": {
-                "likes_link": ""
+                "likes_link": "ถูกใจ"
             }
         }
     }

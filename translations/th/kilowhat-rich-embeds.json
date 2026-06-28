@@ -2,183 +2,183 @@
     "kilowhat-rich-embeds": {
         "admin": {
             "settings": {
-                "layout": "",
+                "layout": "Layout",
                 "layoutOptions": {
-                    "inline": "",
-                    "block": "",
-                    "separated": ""
+                    "inline": "Inline",
+                    "block": "Block",
+                    "separated": "Separated"
                 },
-                "position": "",
+                "position": "Position",
                 "positionOptions": {
-                    "replace": "",
-                    "above": "",
-                    "below": ""
+                    "replace": "Replace link",
+                    "above": "Above link",
+                    "below": "Below link"
                 },
-                "style": "",
+                "style": "Style",
                 "styleOptions": {
-                    "vertical": "",
-                    "horizontal": ""
+                    "vertical": "Vertical",
+                    "horizontal": "Horizontal"
                 },
-                "maxImageCount": "",
-                "maxImageCountHelp": "",
-                "maxImageCountPlaceholder": "",
-                "imageProxy": "",
-                "imageProxyHelp": "",
-                "cacheProxy": "",
-                "cacheProxyHelp": "",
-                "withoutOpengraph": "",
-                "withoutOpengraphHelp": "",
-                "blacklist": "",
-                "blacklistHelp": "",
-                "whitelist": "",
-                "whitelistHelp": "",
-                "crawlerTimeout": "",
-                "crawlerTimeoutHelp": "",
-                "imageEmbeds": "",
-                "imageEmbedsHelp": "",
-                "flarumApiPreviews": "",
-                "flarumApiPreviewsHelp": "",
-                "githubApiKey": "",
-                "githubApiKeyHelp": "",
-                "githubOrgWhitelist": "",
-                "githubOrgWhitelistHelp": "",
-                "googleApiAuthConfig": "",
-                "googleApiAuthConfigHelp": "",
-                "googleApiKey": "",
-                "googleApiKeyHelp": "",
-                "youtubePlayer": "",
-                "youtubePlayerHelp": "",
-                "youtubeNoCookie": "",
-                "youtubeNoCookieHelp": "",
-                "youtubeSmartFallback": "",
-                "youtubeSmartFallbackHelp": "",
-                "youtubeApiPreviews": "",
-                "youtubeApiPreviewsHelp": "",
-                "googledriveApiPreviews": "",
-                "googledriveApiPreviewsHelp": ""
+                "maxImageCount": "จำนวนรูปภาพสูงสุดในแสดงตัวอย่าง",
+                "maxImageCountHelp": "จำนวนรูปภาพจาก Opengraph หรือ fallback parser ที่จะแสดง URL รูปภาพทั้งหมดจะถูกบันทึกไว้เสมอ ช่วยให้คุณสามารถเปลี่ยนการตั้งค่านี้ได้ในภายหลัง\n",
+                "maxImageCountPlaceholder": "เว้นว่างไว้สำหรับไม่มีขีดจำกัด",
+                "imageProxy": "OpenGraph Image Proxy",
+                "imageProxyHelp": "รูปภาพ OpenGraph และ favicon ทั้งหมดจะถูกส่งผ่าน Flarum แทนการสืบค้นโดยเบราว์เซอร์ของผู้เยี่ยมชม",
+                "cacheProxy": "แคช Proxied Images",
+                "cacheProxyHelp": "รูปภาพจะถูกแคชไปยังดิสก์ตามส่วนหัว HTTP ของรูปภาพ",
+                "withoutOpengraph": "สร้าง rich embeds สำหรับหน้าที่ไม่มีข้อมูล OpenGraph",
+                "withoutOpengraphHelp": "ชื่อเรื่อง คำอธิบาย และรูปภาพจะถูกสก็าปจากโค้ด HTML ของหน้า",
+                "blacklist": "URL Blacklist",
+                "blacklistHelp": "ตรวจสอบเอกสารสำหรับรูปแบบ URLs เหล่านี้จะไม่มีริช embeds และไม่สามารถส่งผ่านได้ผ่าน image proxy",
+                "whitelist": "URL Whitelist",
+                "whitelistHelp": "ตรวจสอบเอกสารสำหรับรูปแบบ หากมีการตั้งค่า URLs อื่นทั้งหมดจะถูกพิจารณาว่าเป็นรายชื่อดำ",
+                "crawlerTimeout": "Crawler request timeout (วินาที)",
+                "crawlerTimeoutHelp": "ระยะเวลาที่งาน crawling ควรรอให้ได้รับการตอบสนองจากเซิร์ฟเวอร์ ค่าไม่ควรตั้งค่าสูงเกินไปเนื่องจากบางเซิร์ฟเวอร์ไม่เคยตอบสนอง เมื่อใช้ queue แบบอะซิงโครนัส คุณควรตั้งค่านี้ต่ำกว่า <code>max_execution_time</code> ของ PHP เพื่อให้ script ยังมีเวลาประมวลผลข้อผิดพลาด\n",
+                "imageEmbeds": "Rich Embeds สำหรับรูปภาพ",
+                "imageEmbedsHelp": "คุณสมบัตินี้ดึงข้อมูลเพิ่มเติมและแสดงในรูปภาพภายนอกที่แทรกในโพสต์ด้วย bbcode หรือ markdown ในขณะนี้มันจะใช้รายชื่อดำ/รายชื่อขาว และสิทธิ์เดียวกับริช links รูปภาพเหล่านี้ไม่ได้ถูกส่งผ่าน OpenGraph image proxy คุณต้องล้าง Flarum cache หลังจากเปลี่ยนการตั้งค่านี้\n",
+                "flarumApiPreviews": "เปิดใช้งาน Flarum previews ขั้นสูง",
+                "flarumApiPreviewsHelp": "คุณสมบัตินี้แยกวิเคราะห์ข้อมูล JSON เพิ่มเติมที่รวมอยู่ใน HTML โดยฟอรัม Flarum ทั้งหมด มันจะใช้งานได้กับฟอรัมใด ๆ ที่เรียกใช้ Flarum 1.4+ และโฆษณา <code>X-Powered-By</code> Flarum header\n",
+                "githubApiKey": "GitHub API Key",
+                "githubApiKeyHelp": "กรอกเพื่อเปิดใช้งาน API-powered rich GitHub previews สำหรับ repos issues และ PRs รวมทั้ง private repositories",
+                "githubOrgWhitelist": "Organization whitelist",
+                "githubOrgWhitelistHelp": "รายชื่อ GitHub organizations แยกด้วยจุลภาค ที่จะใช้ API-powered preview ใช้ฟิลด์นี้เพื่อป้องกันที่จะเปิดเผย private repo ทั้งหมดที่ API key สามารถเข้าถึง เพื่อลด API usage หรือเพียงแค่เปลี่ยน embed style ของ org ของคุณเท่านั้น หากเว้นว่างไว้ repo ใด ๆ ที่ API key สามารถเข้าถึงได้สามารถแสดงตัวอย่างได้\n",
+                "googleApiAuthConfig": "Google SDK Auth Config Path หรือ JSON",
+                "googleApiAuthConfigHelp": "การตั้งค่านี้ใช้ร่วมกับการตั้งค่า YouTube และ Google Drive ด้านล่าง ควรมี absolute path ไปยังไฟล์ JSON authentication บน file system ของเครื่อง หรือเนื้อหาของไฟล์นั้น หากเว้นว่างไว้ API key หรือ service account จะถูกค้นพบโดยอัตโนมัติผ่าน environment variables โดย Google API SDK\n",
+                "googleApiKey": "Google SDK API key",
+                "googleApiKeyHelp": "การตั้งค่านี้ใช้ร่วมกับการตั้งค่า YouTube และ Google Drive ด้านล่าง หากเว้นว่างไว้ API key หรือ service account จะถูกค้นพบโดยอัตโนมัติผ่าน environment variables โดย Google API SDK\n",
+                "youtubePlayer": "อนุญาตให้เล่น YouTube videos จากแสดงตัวอย่าง",
+                "youtubePlayerHelp": "iframe player จะถูกโหลดตามต้องการเมื่อผู้ใช้คลิกปุ่มเล่นในแสดงตัวอย่าง คุณต้องกำหนดค่า CSP และ frame headers เพื่ออนุญาตเฟรมจากโดเมน YouTube คุณสมบัตินี้สามารถใช้ได้โดยไม่ต้องเข้าถึง API\n",
+                "youtubeNoCookie": "ใช้ YouTube no-cookie iframe domain",
+                "youtubeNoCookieHelp": "สลับไปยังโดเมนไม่มีคุกกี้อื่นที่เสนอโดย YouTube บางวิดีโออาจไม่สามารถเล่นในไอเฟรมได้เมื่อเปิดใช้งานตัวเลือกนี้ คุณสมบัตินี้สามารถใช้ได้โดยไม่ต้องเข้าถึง API\n",
+                "youtubeSmartFallback": "Smart YouTube OpenGraph fallback",
+                "youtubeSmartFallbackHelp": "บนโฮสติ้งบางแห่ง เซิร์ฟเวอร์ YouTube ส่งกลับการตอบสนองที่สำเร็จโดยไม่มีข้อมูล OpenGraph เมื่อเปิดใช้งานตัวเลือกนี้ ชื่อไซต์จะถูก hard-coded และ URL thumbnail วิดีโอจะถูกเดาโดยอัตโนมัติ ชื่อหน้าจาก HTML fallback จะถูกใช้แต่ไม่ใช่คำอธิบายหรือรูปภาพอื่น ๆ ในหน้า\n",
+                "youtubeApiPreviews": "เปิดใช้งาน API-powered rich YouTube previews ขั้นสูง",
+                "youtubeApiPreviewsHelp": "Google API SDK ต้องได้รับการกำหนดค่าด้านบน คุณสมบัตินี้จะแสดงสถิติเพิ่มเติมเกี่ยวกับวิดีโอและสามารถแสดงวิดีโอส่วนตัวที่ผู้ใช้ SDK สามารถเข้าถึงได้\n",
+                "googledriveApiPreviews": "เปิดใช้งาน API-powered rich Google Drive previews ขั้นสูง",
+                "googledriveApiPreviewsHelp": "Google API SDK ต้องได้รับการกำหนดค่าด้านบน คุณสมบัตินี้จะแสดงชื่อและตัวอย่าง Google Drive files ใช้ service account ที่มีสิทธิ์เข้าถึงส่วนตัว Drive เพื่อเปิดใช้งาน preview ของไฟล์ส่วนตัว\n"
             },
             "section": {
-                "siteSpecificHelp": "",
-                "flarum": "",
-                "github": "",
-                "google": "",
-                "youtube": "",
-                "googledrive": ""
+                "siteSpecificHelp": "ด้านล่างเป็นการตั้งค่า site-specific ที่ปรับปรุง embeds โดยใช้ข้อมูลที่ไม่พร้อมใช้ผ่าน OpenGraph และ HTML scraping ตัวเลือกทั้งหมดเป็นทางเลือก บางตัวเลือกต้องใช้การเข้าถึง third-party API ซึ่งอาจมีอัตราขีด จำกัด หรือค่าธรรมเนียม\n",
+                "flarum": "Flarum",
+                "github": "GitHub",
+                "google": "Google",
+                "youtube": "YouTube",
+                "googledrive": "Google Drive"
             },
             "permissions": {
-                "viewGoogleDriveThumbnails": "",
-                "useOnOwnPost": "",
-                "disableOnOwnPost": "",
-                "refreshOnOwnPost": "",
-                "disableOnAnyPost": "",
-                "refreshOnAnyPost": ""
+                "viewGoogleDriveThumbnails": "ดู API-powered Google Drive thumbnails",
+                "useOnOwnPost": "ใช้ embeds ในโพสต์ของตัวเอง",
+                "disableOnOwnPost": "ปิดใช้งาน embeds ในโพสต์ของตัวเอง",
+                "refreshOnOwnPost": "รีเฟรช embeds ในโพสต์ของตัวเอง",
+                "disableOnAnyPost": "ปิดใช้งาน embeds ในโพสต์ใด ๆ",
+                "refreshOnAnyPost": "รีเฟรช embeds ในโพสต์ใด ๆ"
             },
             "preview": {
-                "title": "",
-                "refresh": "",
-                "loading": ""
+                "title": "ตัวอย่าง",
+                "refresh": "รีเฟรช",
+                "loading": "กำลังโหลด..."
             }
         },
         "lib": {
             "embed": {
-                "altFavicon": "",
-                "altImageFallback": "",
-                "altAvatar": "",
+                "altFavicon": "{website} Icon",
+                "altImageFallback": "{website} Opengraph Image",
+                "altAvatar": "รูปภาพ avatar ของผู้เขียน",
                 "missing": {
-                    "retrieving": "",
-                    "other": ""
+                    "retrieving": "กำลังสืบค้น...",
+                    "other": "ไม่สามารถสร้างตัวอย่างสำหรับลิงก์นี้ได้"
                 }
             },
             "controls": {
-                "refresh": "",
-                "disable": "",
-                "disableConfirmation": "",
-                "imgCopy": "",
-                "imgCopied": "",
-                "imgOpen": "",
-                "play": "",
-                "expandDescription": ""
+                "refresh": "รีเฟรชข้อมูล",
+                "disable": "ปิดใช้งาน embeds ในโพสต์นี้",
+                "disableConfirmation": "Embeds ทั้งหมดจะถูกลบออกจากโพสต์นี้ ดำเนินการต่อ?",
+                "imgCopy": "คัดลอก image URL",
+                "imgCopied": "คัดลอกแล้ว!",
+                "imgOpen": "เปิดรูปภาพในแท็บใหม่",
+                "play": "คลิกเพื่อเล่นสื่อโดยใช้ embedded player",
+                "expandDescription": "ขยายคำอธิบาย"
             }
         },
         "api": {
             "error": {
-                "blacklistedUrl": "",
-                "invalidUrl": ""
+                "blacklistedUrl": "URL {url} ไม่ได้รับการอนุญาตให้ embed",
+                "invalidUrl": "URL {url} ไม่ถูกต้อง"
             },
             "embed": {
                 "flarum": {
                     "discussion": {
-                        "type": "",
+                        "type": "Discussion",
                         "stats": {
-                            "commentCount": "",
-                            "participantCount": "",
-                            "createdAt": ""
+                            "commentCount": "คำตอบ",
+                            "participantCount": "ผู้เข้าร่วม",
+                            "createdAt": "วันที่เริ่มต้น"
                         }
                     },
                     "user": {
-                        "type": "",
-                        "avatarAlt": "",
+                        "type": "Profile",
+                        "avatarAlt": "Avatar",
                         "stats": {
-                            "discussionCount": "",
-                            "commentCount": "",
-                            "joinTime": ""
+                            "discussionCount": "Discussions",
+                            "commentCount": "ความเห็น",
+                            "joinTime": "วันที่เข้าร่วม"
                         }
                     }
                 },
                 "github": {
-                    "siteName": "",
-                    "privateRepoSuffix": "",
+                    "siteName": "GitHub",
+                    "privateRepoSuffix": "[private]",
                     "issue": {
-                        "type": "",
+                        "type": "Issue",
                         "stats": {
-                            "commentCount": "",
-                            "createdAt": ""
+                            "commentCount": "ความเห็น",
+                            "createdAt": "สร้างเมื่อ"
                         }
                     },
                     "pull": {
-                        "type": "",
+                        "type": "Pull request",
                         "stats": {
-                            "commentCount": "",
-                            "reviewCount": "",
-                            "commitCount": "",
-                            "createdAt": ""
+                            "commentCount": "ความเห็น",
+                            "reviewCount": "Reviews",
+                            "commitCount": "Commits",
+                            "createdAt": "สร้างเมื่อ"
                         }
                     },
                     "repo": {
                         "type": {
-                            "public": "",
-                            "private": ""
+                            "public": "Public repository",
+                            "private": "Private repository"
                         },
                         "stats": {
-                            "openIssueCount": "",
-                            "subscriberCount": "",
-                            "stargazerCount": "",
-                            "forkCount": ""
+                            "openIssueCount": "Open issues",
+                            "subscriberCount": "Watchers",
+                            "stargazerCount": "Stars",
+                            "forkCount": "Forks"
                         }
                     }
                 },
                 "youtube": {
-                    "siteName": "",
+                    "siteName": "YouTube",
                     "video": {
-                        "type": "",
-                        "thumbnailAlt": "",
+                        "type": "Video",
+                        "thumbnailAlt": "Video thumbnail",
                         "stats": {
-                            "viewCount": "",
-                            "likeCount": "",
-                            "commentCount": "",
-                            "publishedAt": ""
+                            "viewCount": "Views",
+                            "likeCount": "Likes",
+                            "commentCount": "ความเห็น",
+                            "publishedAt": "เผยแพร่เมื่อ"
                         }
                     }
                 },
                 "googledrive": {
-                    "siteName": "",
+                    "siteName": "Google Drive",
                     "file": {
-                        "type": "",
-                        "thumbnailAlt": "",
+                        "type": "File",
+                        "thumbnailAlt": "Google Drive file preview",
                         "stats": {
-                            "size": "",
-                            "createdTime": "",
-                            "modifiedTime": ""
+                            "size": "ขนาดไฟล์",
+                            "createdTime": "สร้างเมื่อ",
+                            "modifiedTime": "แก้ไขเมื่อ"
                         }
                     }
                 }

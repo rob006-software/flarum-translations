@@ -1,26 +1,26 @@
 {
     "blomstra-search": {
         "admin": {
-            "elastic-endpoint": "",
-            "elastic-username": "",
-            "elastic-password": "",
-            "elastic-index": "",
+            "elastic-endpoint": "Elastic Endpoint",
+            "elastic-username": "=> core.ref.username",
+            "elastic-password": "=> core.ref.password",
+            "elastic-index": "Index",
             "analyzer": {
-                "label": "",
-                "help": ""
+                "label": "ภาษาของ Analyzer",
+                "help": "Analyzer ช่วยให้ search เข้าใจ stop word และปรับปรุงการ index ให้เหมาะกับแต่ละภาษา\nการเปลี่ยนค่านี้ต้องสร้าง index ใหม่ทั้งหมดจึงจะมีผล\n"
             },
-            "index-settings-changed": "",
+            "index-settings-changed": "การตั้งค่า search index มีการเปลี่ยนแปลง รันคำสั่ง: php flarum blomstra:search:index build",
             "reindex-required": {
-                "title": "",
-                "detail": ""
+                "title": "ต้องสร้าง search index ใหม่",
+                "detail": "Search index ไม่รองรับ extension เวอร์ชันนี้ รันคำสั่ง: php flarum blomstra:search:index build"
             },
-            "search-discussion-subjects": "",
-            "search-post-bodies": "",
-            "match-sentences": "",
-            "match-words": "",
+            "search-discussion-subjects": "ค้นหาภายในชื่อกระทู้",
+            "search-post-bodies": "ค้นหาภายในความคิดเห็น",
+            "match-sentences": "จับคู่คำค้นกับประโยคเต็ม",
+            "match-words": "จับคู่คำค้นกับคำเต็ม",
             "min-search-length": {
-                "label": "",
-                "help": ""
+                "label": "ความยาวขั้นต่ำของคำค้น",
+                "help": "จำนวนตัวอักษรขั้นต่ำก่อนที่จะเริ่มค้นหา ลดเป็น 1 หรือ 2\nสำหรับชุมชนที่ใช้ภาษา CJK (จีน ญี่ปุ่น เกาหลี) ที่ตัวอักษรเดียวมีความหมายครบ\nการเปลี่ยนค่านี้ต้องสร้าง index ใหม่ทั้งหมดจึงจะมีผล\n"
             }
         }
     }

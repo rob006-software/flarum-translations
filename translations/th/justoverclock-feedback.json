@@ -1,60 +1,60 @@
 {
     "justoverclock-feedback": {
         "admin": {
-            "contactmail": "",
-            "feedback1-title": "",
-            "feedback1-title-help": "",
-            "feedback1-icon": "",
-            "feedback1-icon-help": "",
-            "feedback2-title": "",
-            "feedback2-title-help": "",
-            "feedback2-icon": "",
-            "feedback2-icon-help": "",
-            "feedback3-title": "",
-            "feedback3-title-help": "",
-            "feedback3-icon": "",
-            "feedback3-icon-help": "",
-            "contactdesc": "",
-            "collect-email": "",
-            "collect-email-help": "",
-            "position": "",
-            "position-help": "",
-            "right_label": "",
-            "left_label": "",
-            "background-color": "",
-            "background-color-help": "",
-            "font-color": "",
-            "font-color-help": "",
-            "box-title": "",
-            "box-title-help": ""
+            "contactmail": "อีเมลสำหรับรับ Feedback",
+            "feedback1-title": "ประเภท Feedback 1",
+            "feedback1-title-help": "กำหนดชื่อ \"ประเภท feedback\" ของคุณที่นี่",
+            "feedback1-icon": "ไอคอนสำหรับ Feedback ประเภท 1",
+            "feedback1-icon-help": "ใส่ไอคอนข้อความ เช่น \"⚠️, ☎️, ✏️\" - Windows (Win + .) MacOS 🌐",
+            "feedback2-title": "ประเภท Feedback 2",
+            "feedback2-title-help": "กำหนดชื่อ \"ประเภท feedback 2\" ของคุณที่นี่",
+            "feedback2-icon": "ไอคอนสำหรับ Feedback ประเภท 2",
+            "feedback2-icon-help": "ใส่ไอคอนข้อความ เช่น \"⚠️, ☎️, ✏️\" - Windows (Win + .) MacOS 🌐",
+            "feedback3-title": "ประเภท Feedback 3",
+            "feedback3-title-help": "กำหนดชื่อ \"ประเภท feedback 3\" ของคุณที่นี่",
+            "feedback3-icon": "ไอคอนสำหรับ Feedback ประเภท 3",
+            "feedback3-icon-help": "ใส่ไอคอนข้อความ เช่น \"⚠️, ☎️, ✏️\" - Windows (Win + .) MacOS 🌐",
+            "contactdesc": "ต้องกรอกข้อมูลนี้เพื่อเปิดใช้งาน feedback widget อย่างสมบูรณ์",
+            "collect-email": "แสดงช่องกรอกอีเมล (ไม่บังคับ) ให้ผู้ใช้",
+            "collect-email-help": "เมื่อเปิดใช้งาน ผู้ใช้สามารถเพิ่มอีเมลพร้อมกับ feedback ได้",
+            "position": "ตำแหน่ง Widget",
+            "position-help": "เลือกด้านซ้ายหรือขวาล่างสำหรับแสดงปุ่ม feedback",
+            "right_label": "ขวา",
+            "left_label": "ซ้าย",
+            "background-color": "สีพื้นหลัง Widget",
+            "background-color-help": "ใส่รหัสสี hex สำหรับพื้นหลัง เช่น '#fff'",
+            "font-color": "สีตัวอักษร Widget",
+            "font-color-help": "ใส่รหัสสี hex สำหรับตัวอักษร เช่น '#000'",
+            "box-title": "ชื่อหัวข้อกล่อง",
+            "box-title-help": "กำหนดชื่อหัวข้อของ popup feedback widget (เดิมคือ \"Flarum feedback\")"
         },
         "api": {
-            "validation_error": ""
+            "validation_error": "ไม่สามารถส่ง feedback ที่ว่างเปล่าได้"
         },
         "forum": {
-            "button-title": "",
+            "button-title": "Feedback",
             "feedback-widget": {
-                "title": "",
-                "placeholder": "",
-                "email-placeholder": "",
-                "submit": "",
-                "back": "",
-                "contact-text": "",
-                "type-message": "",
-                "success": "",
-                "failed-title": "",
-                "failed-message": "",
-                "email-field-placeholder": "",
+                "title": "Flarum Feedback",
+                "placeholder": "กรอก feedback ของคุณที่นี่",
+                "email-placeholder": "อีเมล (ไม่บังคับ)",
+                "submit": "ส่ง",
+                "back": "ย้อนกลับ",
+                "contact-text": "หรือส่งอีเมลหาเรา!",
+                "type-message": "คุณมี feedback อะไรบ้าง?",
+                "success": "ขอบคุณ!👊",
+                "failed-title": "เกิดข้อผิดพลาด",
+                "failed-message": "กรุณาลองใหม่อีกครั้ง หากยังมีปัญหา ลองส่งอีเมลแทนได้เลย",
+                "email-field-placeholder": "อีเมล (ไม่บังคับ)",
                 "types": {
-                    "general": "",
-                    "idea": "",
-                    "bug": ""
+                    "general": "Feedback ทั่วไป",
+                    "idea": "ฉันมีไอเดีย",
+                    "bug": "รายงานบั๊ก"
                 }
             },
             "email": {
-                "guest": "",
-                "subject": "",
-                "body": ""
+                "guest": "ผู้ใช้ที่ไม่ระบุตัวตน",
+                "subject": "Feedback",
+                "body": "มี {type} feedback ใหม่จาก {user}!\n\n{message}\n\nอีเมล: {email}\nURL: {url}\n"
             }
         }
     }

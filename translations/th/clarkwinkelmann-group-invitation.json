@@ -1,46 +1,46 @@
 {
     "clarkwinkelmann-group-invitation": {
         "forum": {
-            "title": "",
-            "generic-title": "",
+            "title": "คุณได้รับเชิญให้เข้าร่วมกลุ่ม {group}!",
+            "generic-title": "คำเชิญเข้ากลุ่ม",
             "user": {
-                "already-connected": "",
-                "not-connected": "",
-                "not-authorized": "",
-                "already-member": ""
+                "already-connected": "เราจะเพิ่มกลุ่ม {group} ให้กับ {username} ไม่ใช่บัญชีนี้ใช่ไหม? <a>เข้าสู่ระบบด้วยบัญชีอื่น</a>\n",
+                "not-connected": "<a>เข้าสู่ระบบ</a> เพื่อรับคำเชิญ",
+                "not-authorized": "บัญชีปัจจุบัน {username} ไม่มีสิทธิ์เข้าร่วมกลุ่ม <a>เข้าสู่ระบบด้วยบัญชีอื่น</a>",
+                "already-member": "ยินดีด้วย บัญชี {username} ของคุณเป็นสมาชิกกลุ่ม {group} อยู่แล้ว! ต้องการเข้าร่วมกลุ่มด้วยบัญชีอื่นไหม? <a>เข้าสู่ระบบด้วยบัญชีอื่น</a>\n"
             },
             "invitation": {
-                "not-found": "",
-                "no-usages-left": ""
+                "not-found": "ขออภัย ไม่พบคำเชิญกลุ่มนี้",
+                "no-usages-left": "ไม่สามารถใช้คำเชิญกลุ่มนี้ได้อีกต่อไป"
             },
-            "apply": "",
-            "success-alert": ""
+            "apply": "เข้าร่วมกลุ่ม",
+            "success-alert": "คุณเข้าร่วมกลุ่มสำเร็จแล้ว!"
         },
         "admin": {
             "permissions": {
-                "use": ""
+                "use": "ใช้ลิงก์เชิญเข้ากลุ่มได้"
             },
             "settings": {
                 "head": {
-                    "code": "",
-                    "group": "",
-                    "usage": ""
+                    "code": "Code",
+                    "group": "กลุ่ม",
+                    "usage": "การใช้งาน"
                 },
                 "placeholder": {
-                    "code": "",
-                    "group": "",
-                    "usage": ""
+                    "code": "สร้างอัตโนมัติ",
+                    "group": "เลือก...",
+                    "usage": "เว้นว่างสำหรับไม่จำกัด"
                 },
-                "empty": "",
-                "unlimited": "",
-                "create": "",
-                "delete": ""
+                "empty": "ยังไม่มีคำเชิญที่สร้างไว้",
+                "unlimited": "ไม่จำกัด",
+                "create": "สร้าง",
+                "delete": "ลบ"
             }
         },
         "api": {
             "error": {
-                "not-found": "",
-                "no-usages-left": ""
+                "not-found": "ไม่พบ code คำเชิญ",
+                "no-usages-left": "ไม่สามารถใช้คำเชิญนี้ได้อีกต่อไป"
             }
         }
     }

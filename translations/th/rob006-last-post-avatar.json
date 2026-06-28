@@ -3,18 +3,18 @@
         "admin": {
             "settings": {
                 "mode": {
-                    "label": "",
-                    "help": "",
+                    "label": "โหมดแสดง avatar ของ post ล่าสุด",
+                    "help": "เลือกว่าจะแสดง avatar ของผู้เขียน post ล่าสุดในรายการ thread เมื่อไหร่และที่ไหน ดู README เพื่อดูตัวอย่างภาพแต่ละตัวเลือก",
                     "options": {
-                        "all-replies": "",
-                        "non-op-replies": "",
-                        "always": "",
-                        "replace-main": ""
+                        "all-replies": "เฉพาะ reply เท่านั้น",
+                        "non-op-replies": "เฉพาะ reply ที่ไม่ใช่ post ของผู้เริ่ม thread",
+                        "always": "แสดงเสมอ",
+                        "replace-main": "แทนที่ avatar หลักของ thread"
                     }
                 },
                 "ignorePrivateDiscussions": {
-                    "label": "",
-                    "help": ""
+                    "label": "ไม่สนใจ thread ส่วนตัว (FoF Byōbu)",
+                    "help": "เปิดตัวเลือกนี้หากไม่ต้องการเปลี่ยนพฤติกรรม avatar สำหรับ thread ส่วนตัว"
                 }
             }
         }

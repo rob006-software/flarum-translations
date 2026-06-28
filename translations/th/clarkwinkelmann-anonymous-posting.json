@@ -2,60 +2,60 @@
     "clarkwinkelmann-anonymous-posting": {
         "admin": {
             "settings": {
-                "defaultAnonymity": "",
-                "defaultAnonymityWhenAbleToSwitch": "",
-                "alwaysAnonymiseEdits": "",
-                "alwaysAnonymiseEditsHelp": "",
-                "composerHelpTextPosition": "",
-                "composerHelpTextPositionVisible": "",
-                "composerHelpTextPositionTooltip": "",
-                "composerHelpTextPositionHidden": "",
-                "composerHelpTextPositionHelp": "",
-                "avatars": "",
-                "avatarsHelp": "",
-                "avatarFormId": "",
-                "avatarFieldKey": "",
-                "avatarFieldValue": "",
-                "avatarAvatarUrl": "",
-                "avatarAdd": ""
+                "defaultAnonymity": "ตั้งให้เนื้อหาใหม่เป็นนิรนามโดยค่าเริ่มต้น",
+                "defaultAnonymityWhenAbleToSwitch": "ตั้งให้เนื้อหาใหม่เป็นนิรนามโดยค่าเริ่มต้นสำหรับผู้ใช้ที่มีสิทธิ์สลับโหมด",
+                "alwaysAnonymiseEdits": "ทำให้การแก้ไขเป็นนิรนามเสมอ",
+                "alwaysAnonymiseEditsHelp": "โดยค่าเริ่มต้น การแก้ไข/ซ่อนโดยผู้เขียนโพสต์นิรนามจะถูกทำให้ไม่ระบุตัวตน แต่ผู้ดูแลที่แก้ไขโพสต์หรือโพสต์ยังจะแสดงเป็นผู้แก้ไข/ซ่อน เมื่อเปิดใช้ตัวเลือกนี้ จะไม่มีการบันทึกผู้กระทำในการแก้ไข/ซ่อนเนื้อหานิรนามไม่ว่าจะเป็นใคร\n",
+                "composerHelpTextPosition": "ตำแหน่งข้อความช่วยเหลือใน Composer",
+                "composerHelpTextPositionVisible": "แสดงอยู่ (ใต้ label)",
+                "composerHelpTextPositionTooltip": "Tooltip (หลัง label)",
+                "composerHelpTextPositionHidden": "ซ่อนไว้",
+                "composerHelpTextPositionHelp": "กล่องเลือกและข้อความนี้จะแสดงเฉพาะผู้ใช้ที่มีสิทธิ์สลับโหมดเท่านั้น",
+                "avatars": "Avatar นิรนาม",
+                "avatarsHelp": "ฟีเจอร์นี้ต้องการ <a>Formulaire extension</a> แบบ Premium การใช้ฟีเจอร์นี้มีผลต่อประสิทธิภาพเล็กน้อยเนื่องจากต้องใช้คำขอฐานข้อมูลเพิ่มเติม ดู README สำหรับรายละเอียดรูปแบบของแต่ละ input\n",
+                "avatarFormId": "Form ID",
+                "avatarFieldKey": "Field key",
+                "avatarFieldValue": "Field value",
+                "avatarAvatarUrl": "Avatar URL",
+                "avatarAdd": "เพิ่มกฎ Avatar"
             },
             "permissions": {
-                "use": "",
-                "reveal": "",
-                "moderate": ""
+                "use": "สลับตัวเลือกนิรนามระหว่างการเขียน",
+                "reveal": "ดูผู้เขียนจริงของโพสต์และโพสต์นิรนาม",
+                "moderate": "ทำให้โพสต์หรือโพสต์เป็นนิรนามหรือยกเลิกนิรนาม"
             }
         },
         "forum": {
             "composerControls": {
-                "anonymize": "",
-                "anonymizeHelp": ""
+                "anonymize": "โพสต์แบบนิรนาม",
+                "anonymizeHelp": "ผู้ดูแลยังคงรู้ว่าคุณเป็นผู้สร้างเนื้อหานี้"
             },
             "discussionControls": {
-                "anonymize": "",
-                "anonymizeConfirmation": "",
-                "deanonymize": "",
-                "deanonymizeConfirmation": ""
+                "anonymize": "ทำให้เป็นนิรนาม",
+                "anonymizeConfirmation": "การดำเนินการนี้จะทำให้ผู้เขียนโพสต์เป็นนิรนาม โพสต์แรกต้องทำให้เป็นนิรนามแยกต่างหาก ดำเนินการต่อหรือไม่?",
+                "deanonymize": "ยกเลิกนิรนาม",
+                "deanonymizeConfirmation": "การดำเนินการนี้จะเปิดเผยผู้เขียนจริงของโพสต์อีกครั้ง ดำเนินการต่อหรือไม่?"
             },
             "postControls": {
-                "anonymize": "",
-                "firstPostConfirmation": "",
-                "deanonymize": "",
-                "deanonymizeConfirmation": ""
+                "anonymize": "ทำให้เป็นนิรนาม",
+                "firstPostConfirmation": "การดำเนินการนี้จะทำให้ผู้เขียนโพสต์แรกเป็นนิรนาม โพสต์ต้องทำให้เป็นนิรนามแยกต่างหาก ดำเนินการต่อหรือไม่?",
+                "deanonymize": "ยกเลิกนิรนาม",
+                "deanonymizeConfirmation": "การดำเนินการนี้จะเปิดเผยผู้เขียนจริงของโพสต์อีกครั้ง ดำเนินการต่อหรือไม่?"
             },
             "discussionList": {
-                "genericReplyText": ""
+                "genericReplyText": "ตอบล่าสุด {ago}"
             },
             "postPrivacy": {
-                "mine": "",
-                "mineHelp": "",
-                "profile": "",
-                "profileHelp": ""
+                "mine": "ฉัน",
+                "mineHelp": "มีเพียงคุณเท่านั้นที่เห็นข้อมูลนี้",
+                "profile": "มองเห็นเฉพาะคุณ",
+                "profileHelp": "มีเพียงคุณเท่านั้นที่เห็นโพสต์นิรนามของคุณในโปรไฟล์"
             }
         },
         "lib": {
             "userMeta": {
-                "initials": "",
-                "username": ""
+                "initials": "?",
+                "username": "นิรนาม"
             }
         }
     }

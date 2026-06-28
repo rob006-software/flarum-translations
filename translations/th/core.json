@@ -2,57 +2,57 @@
     "core": {
         "admin": {
             "appearance": {
-                "colored_header_label": "สีของส่วนหัว",
+                "colored_header_label": "ส่วนหัวสีสัน",
                 "colors_heading": "สี",
                 "colors_primary_label": "สีหลัก",
                 "colors_secondary_label": "สีรอง",
-                "colors_text": "เลือก 2 สีเพื่อสร้างธีมให้กับฟอรั่มของคุณ สีแรกจะใช้เป็นสีไฮไลต์ ส่วนสีที่สองจะใช้เพื่อตกแต่งองค์ประกอบพื้นหลัง",
-                "custom_footer_heading": "ส่วนท้ายแบบกำหนดเอง",
+                "colors_text": "เลือก 2 สีเพื่อกำหนดธีมให้กับฟอรัมของคุณ สีแรกจะใช้เป็นสีไฮไลต์ และสีที่สองจะใช้ตกแต่งส่วนพื้นหลัง",
+                "custom_footer_heading": "ส่วนท้ายที่กำหนดเอง",
                 "custom_footer_text": "=> core.ref.custom_footer_text",
-                "custom_header_heading": "ส่วนหัวแบบกำหนดเอง",
+                "custom_header_heading": "ส่วนหัวที่กำหนดเอง",
                 "custom_header_text": "=> core.ref.custom_header_text",
-                "custom_styles_cannot_use_less_features": "คุณสมบัติ @import และ data-uri ไม่อนุญาตให้ใช้ใน LESS แบบกำหนดเอง",
-                "custom_styles_heading": "กำหนดสไตล์เอง",
-                "custom_styles_text": "ปรับเเต่งฟอรั่มของคุณเองโดยการใช้ CSS/Less เพื่อปรากฎทับค่าเริ่มต้น",
-                "dark_mode_label": "ธีมมืด",
-                "description": "ปรับเเต่งสี, โลโก้, เเละส่วนอื่นๆ สำหรับฟอรั่มขอบคุณ",
-                "edit_css_button": "เเก้ไข CSS ที่กำหนดเอง",
+                "custom_styles_cannot_use_less_features": "ฟีเจอร์ @import และ data-uri ไม่รองรับใน LESS แบบกำหนดเอง",
+                "custom_styles_heading": "สไตล์ที่กำหนดเอง",
+                "custom_styles_text": "ปรับแต่งหน้าตาฟอรัมโดยเพิ่มโค้ด Less/CSS ของคุณเองเพื่อใช้ทับสไตล์เริ่มต้นของ Flarum",
+                "dark_mode_label": "โหมดมืด",
+                "description": "ปรับแต่งสี โลโก้ และรูปลักษณ์ต่างๆ ของฟอรัม",
+                "edit_css_button": "แก้ไข CSS ที่กำหนดเอง",
                 "edit_footer_button": "=> core.ref.custom_footer_title",
                 "edit_header_button": "=> core.ref.custom_header_title",
-                "enter_hex_message": "กรุณาใส่โค้ดสี Hexadecimal",
-                "favicon_heading": "ไอคอน",
-                "favicon_text": "อัพโหลดภาพขอบคุณเพื่อจะเเสดงในส่วนไอคอนลัด",
+                "enter_hex_message": "กรุณาใส่รหัสสีแบบ Hexadecimal",
+                "favicon_heading": "Favicon",
+                "favicon_text": "อัปโหลดรูปภาพที่จะใช้แสดงเป็นไอคอนในแท็บเบราว์เซอร์",
                 "logo_heading": "โลโก้",
-                "logo_text": "อัพโหลดภาพที่จะเเสดงในส่วนชื่อของฟอรั่ม",
-                "title": "การเเสดงผล"
+                "logo_text": "อัปโหลดรูปภาพที่จะแสดงแทนชื่อฟอรัม",
+                "title": "การแสดงผล"
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
                 "default_language_heading": "ภาษาเริ่มต้น",
-                "description": "ตั้งค่าชื่อ, ภาษา, เเละตั้งพื้นฐานอื่นๆ สำหรับพอรั่มของคุณ",
-                "display_name_heading": "ชื่อเล่นผู้ใช้",
-                "display_name_text": "เลือกสิ่งที่จะใช้เเสดงสำหรับชื่อเล่นของผู้ใช้เป็นค่าเริ่มต้นหรือ ชื่อผู้ใช้ที่เเสดง",
-                "forum_description_heading": "คำอธิบายของฟอรั่ม",
-                "forum_description_text": "กรุณาใส่คำอธิบายสั่นๆ เพื่ออธิบายฟอรั่มของคุณ สิ่งนี้จะเเสดงภายใน Meta Tag เเละโชว์ในผลการค้นหา",
-                "forum_title_heading": "ชื่อฟอรั่ม",
-                "home_page_heading": "หน้าหลัก",
-                "home_page_text": "เลือกหน้าที่คุณต้องพารให้ผู้ใช้งานเห็นเป็นหน้าเเรกเมื่อเข้าฟอรั่มของคุณ",
-                "show_language_selector_label": "โชว์ที่เลือกภาษา",
-                "slug_driver_heading": "ชุดสแลง: {model}",
-                "slug_driver_text": "กรุณาเลือกชุดปฏิบัติงานเพื่อจะใช้คำเเสลงสำหรับโมดูลนี้",
+                "description": "ตั้งชื่อฟอรัม ภาษา และการตั้งค่าพื้นฐานอื่นๆ",
+                "display_name_heading": "ชื่อที่แสดงของผู้ใช้",
+                "display_name_text": "เลือกรูปแบบที่จะใช้แสดงชื่อผู้ใช้ โดยค่าเริ่มต้นจะแสดงชื่อผู้ใช้",
+                "forum_description_heading": "คำอธิบายฟอรัม",
+                "forum_description_text": "เขียนคำอธิบายสั้นๆ เกี่ยวกับชุมชนของคุณ ข้อความนี้จะปรากฏใน meta tag และผลการค้นหา",
+                "forum_title_heading": "ชื่อฟอรัม",
+                "home_page_heading": "หน้าแรก",
+                "home_page_text": "เลือกหน้าที่ผู้ใช้จะเห็นเป็นอันดับแรกเมื่อเข้าฟอรัม",
+                "show_language_selector_label": "แสดงตัวเลือกภาษา",
+                "slug_driver_heading": "Slug Driver: {model}",
+                "slug_driver_text": "เลือก driver ที่จะใช้สร้าง slug สำหรับโมเดลนี้",
                 "title": "พื้นฐาน",
-                "welcome_banner_heading": "แบรนเนอร์ต้อนรับ",
-                "welcome_banner_text": "ตั้งค่าข้อความที่จะเเสดงในเเบรนเนอร์ที่หน้ากระทู้ทั้งหมด ใช้นี่เพื่อเเสดงข้อความต้อนรับสำหรับผู้เยี่ยมชมพอรั่มของคุณ",
-                "abandoned_extensions_heading": "",
-                "abandoned_extensions_text": "",
-                "abandoned_extensions_sync_button": "",
-                "abandoned_extensions_sync_success": "",
-                "abandoned_extensions_sync_error": "",
-                "abandoned_extensions_notify_admins_label": ""
+                "welcome_banner_heading": "แบนเนอร์ต้อนรับ",
+                "welcome_banner_text": "กำหนดข้อความที่แสดงในแบนเนอร์บนหน้าโพสต์ทั้งหมด ใช้เพื่อต้อนรับผู้เยี่ยมชมฟอรัมของคุณ",
+                "abandoned_extensions_heading": "ส่วนขยายที่ถูกทอดทิ้ง",
+                "abandoned_extensions_text": "Flarum ดูแล <a>รายการส่วนขยายที่ถูกทอดทิ้งของชุมชน</a> หากส่วนขยายที่ติดตั้งอยู่ปรากฏในรายการ จะมีการแจ้งเตือนในหน้าผู้ดูแลระบบ",
+                "abandoned_extensions_sync_button": "ตรวจสอบเดี๋ยวนี้",
+                "abandoned_extensions_sync_success": "อัปเดตรายการส่วนขยายที่ถูกทอดทิ้งแล้ว พบส่วนขยายที่ติดตั้งตรงกัน {count} รายการ",
+                "abandoned_extensions_sync_error": "ไม่สามารถดึงรายการส่วนขยายที่ถูกทอดทิ้งได้ กรุณาลองอีกครั้งในภายหลัง",
+                "abandoned_extensions_notify_admins_label": "ส่งอีเมลแจ้งแอดมินเมื่อตรวจพบส่วนขยายที่ถูกทอดทิ้งใหม่ในการตรวจสอบรายสัปดาห์"
             },
             "create_user": {
                 "email_placeholder": "=> core.ref.email",
-                "email_confirmed_label": "ต้องการให้ผู้ใช้ยืนยันอีเมลนี้",
+                "email_confirmed_label": "กำหนดให้ผู้ใช้ยืนยันอีเมลนี้",
                 "password_placeholder": "=> core.ref.password",
                 "submit_and_create_another_button": "สร้างและเพิ่มอีก",
                 "submit_button": "สร้างผู้ใช้",
@@ -61,53 +61,53 @@
                 "username_placeholder": "=> core.ref.username"
             },
             "announcements": {
-                "comments_label": "",
-                "description": "",
-                "empty": "",
-                "load_error": "",
-                "about": "",
-                "hide": "",
-                "read_more": "",
-                "refresh": "",
-                "retry": "",
-                "show": "",
-                "title": "",
-                "view_all": ""
+                "comments_label": "{count, plural, one {# ความคิดเห็น} other {# ความคิดเห็น}}",
+                "description": "ข่าวสารและประกาศล่าสุดจากทีม Flarum",
+                "empty": "ไม่พบประกาศ",
+                "load_error": "ไม่สามารถโหลดประกาศได้ กรุณาลองอีกครั้งในภายหลัง",
+                "about": "ข่าวสารและประกาศล่าสุดจากชุมชน Flarum อย่างเป็นทางการที่ discuss.flarum.org",
+                "hide": "ซ่อนประกาศ",
+                "read_more": "อ่านเพิ่มเติม",
+                "refresh": "รีเฟรชประกาศ",
+                "retry": "ลองอีกครั้ง",
+                "show": "แสดงประกาศ",
+                "title": "ประกาศ",
+                "view_all": "ดูทั้งหมดที่ discuss.flarum.org"
             },
             "dashboard": {
-                "clear_cache_button": "ล้างเเคช",
-                "description": "Your forum at a glance.",
-                "info_button": "",
+                "clear_cache_button": "ล้างแคช",
+                "description": "ภาพรวมฟอรัมของคุณ",
+                "info_button": "ข้อมูลระบบ",
                 "info_modal": {
-                    "title": "",
-                    "copy_button": "",
-                    "copy_success": "",
-                    "copy_error": ""
+                    "title": "ข้อมูลระบบ",
+                    "copy_button": "คัดลอกไปยังคลิปบอร์ด",
+                    "copy_success": "คัดลอกข้อมูลระบบไปยังคลิปบอร์ดแล้ว",
+                    "copy_error": "ไม่สามารถคัดลอกไปยังคลิปบอร์ดได้"
                 },
-                "io_error_message": "ไม่สามารถเขียนลงระบบไฟล์ได้ โปรดตรวจสอบสิทธิ์ของระบบไฟล์ของคุณแล้วลองอีกครั้ง หรือลองเรียกใช้จากหน้าต่างคำสั่ง",
+                "io_error_message": "ไม่สามารถเขียนลงระบบไฟล์ได้ โปรดตรวจสอบสิทธิ์ระบบไฟล์ของคุณแล้วลองอีกครั้ง หรือลองรันจากบรรทัดคำสั่ง",
                 "status": {
                     "headers": {
-                        "scheduler-status": "ตารางเวลา",
-                        "queue-driver": "ไดร์เวอร์คิว",
-                        "session-driver": "ไดร์เวอร์เซสชั่น"
+                        "scheduler-status": "ตัวกำหนดเวลา",
+                        "queue-driver": "Queue Driver",
+                        "session-driver": "Session Driver"
                     },
                     "scheduler": {
-                        "active": "ใช้งาน",
-                        "inactive": "ไม่ใช้งาน",
-                        "never-run": "ไม่เคยทำงาน"
+                        "active": "ทำงานอยู่",
+                        "inactive": "ไม่ได้ทำงาน",
+                        "never-run": "ยังไม่เคยทำงาน"
                     }
                 },
-                "title": "Dashboard",
-                "tools_button": "Tools"
+                "title": "แดชบอร์ด",
+                "tools_button": "เครื่องมือ"
             },
             "debug-warning": {
-                "detail": "เมื่อโหมด <code>debug</code> ทำงานอยู่ Flarum จะสร้างทรัพยากร <code>JavaScript</code> และ <code>CSS</code> ใหม่ทุกครั้งที่มีการร้องขอ และข้อมูลอื่น ๆ อาจรั่วไหลได้ เช่น ความลับของฐานข้อมูล ตัวแปรสภาพแวดล้อม เป็นต้น\n\nขอแนะนำอย่างยิ่งให้ปิดใช้งาน <code>debug</code> ในไฟล์ <code>config.php</code> ของคุณในการใช้งานจริง ดู <link>เอกสารของ Flarum</link> เพื่อดูข้อมูลเพิ่มเติม\n",
-                "label": "ใช้งานโหมดดีบั๊ก"
+                "detail": "เมื่อโหมด <code>debug</code> ทำงานอยู่ Flarum จะสร้างไฟล์ <code>JavaScript</code> และ <code>CSS</code> ใหม่ทุกครั้งที่มีการร้องขอ และอาจรั่วไหลข้อมูลสำคัญ เช่น ข้อมูลลับของฐานข้อมูล ตัวแปรสภาพแวดล้อม เป็นต้น\n\nแนะนำอย่างยิ่งให้ปิดโหมด <code>debug</code> ในไฟล์ <code>config.php</code> ของคุณบนเซิร์ฟเวอร์จริง ดู <link>เอกสาร Flarum</link> เพื่อข้อมูลเพิ่มเติม\n",
+                "label": "โหมด Debug กำลังทำงาน"
             },
             "edit_css": {
-                "customize_text": "Customize your forum's appearance by adding your own Less/CSS code to be applied on top of Flarum's <a>default styles</a>.",
+                "customize_text": "ปรับแต่งหน้าตาฟอรัมโดยเพิ่มโค้ด Less/CSS ของคุณเองเพื่อใช้ทับ<a>สไตล์เริ่มต้น</a>ของ Flarum",
                 "submit_button": "=> core.ref.save_changes",
-                "title": "Edit Custom CSS"
+                "title": "แก้ไข CSS ที่กำหนดเอง"
             },
             "edit_footer": {
                 "customize_text": "=> core.ref.custom_footer_text",
@@ -116,16 +116,16 @@
             },
             "edit_group": {
                 "color_label": "=> core.ref.color",
-                "delete_button": "Delete Group",
-                "delete_confirmation": "Are you sure you want to delete this group? The group members will NOT be deleted.",
-                "hide_label": "Hide on forum",
+                "delete_button": "ลบกลุ่ม",
+                "delete_confirmation": "คุณแน่ใจหรือไม่ที่จะลบกลุ่มนี้? สมาชิกในกลุ่มจะไม่ถูกลบ",
+                "hide_label": "ซ่อนในฟอรัม",
                 "icon_label": "=> core.ref.icon",
                 "icon_text": "=> core.ref.icon_text",
-                "name_label": "Name",
-                "plural_placeholder": "Plural (e.g. Mods)",
-                "singular_placeholder": "Singular (e.g. Mod)",
+                "name_label": "ชื่อ",
+                "plural_placeholder": "พหูพจน์ (เช่น Mods)",
+                "singular_placeholder": "เอกพจน์ (เช่น Mod)",
                 "submit_button": "=> core.ref.save_changes",
-                "title": "Create Group"
+                "title": "สร้างกลุ่ม"
             },
             "edit_header": {
                 "customize_text": "=> core.ref.custom_header_text",
@@ -133,63 +133,63 @@
                 "title": "=> core.ref.custom_header_title"
             },
             "email": {
-                "addresses_heading": "ที่อยู่อีเมล์",
-                "description": "กำหนดค่าไดร์ฟที่ต้องการใช้ส่ง, ตั้งค่าเเละที่อยู่อีเมล์สำหรับฟอรั่มเพิ่งใช้ในการส่งอีเมล์ของคุณ",
-                "driver_heading": "เลือกไดร์ฟ",
-                "driver_label": "ไดร์ฟ",
+                "addresses_heading": "ที่อยู่อีเมล",
+                "description": "กำหนดค่า driver การตั้งค่า และที่อยู่อีเมลที่ฟอรัมจะใช้ในการส่งอีเมล",
+                "driver_heading": "เลือก Driver",
+                "driver_label": "Driver",
                 "from_label": "ผู้ส่ง",
-                "mail_encryption_label": "การเข้าหรัส",
+                "mail_encryption_label": "การเข้ารหัส",
                 "mail_host_label": "โฮสต์",
                 "mail_mailgun_domain_label": "โดเมน",
                 "mail_mailgun_region_label": "ภูมิภาค",
-                "mail_mailgun_secret_label": "คีย์ลับ",
+                "mail_mailgun_secret_label": "Secret Key",
                 "mail_password_label": "=> core.ref.password",
                 "mail_port_label": "พอร์ต",
                 "mail_username_label": "=> core.ref.username",
                 "mailgun_heading": "ตั้งค่า Mailgun",
-                "not_sending_message": "Flarum ไม่ได้ส่งอีเมล์ เเต่สามารถเลือกไดร์ฟอื่นหรือเกิดจากความผิดพลาดที่การกำหนดค่า",
+                "not_sending_message": "Flarum ไม่ได้ส่งอีเมลอยู่ในขณะนี้ อาจเกิดจาก driver ที่เลือก หรือข้อผิดพลาดในการตั้งค่า",
                 "send_test_mail_button": "ส่ง",
-                "send_test_mail_heading": "ส่งเมล์ทดสอบ",
-                "send_test_mail_success": "ส่งเมล์ทดสอบเรียบร้อยเเล้ว",
-                "send_test_mail_text": "เราจะใช้การกำหนดค่าตามข้างต้นสำหรับอีเมล์ฟอรั่มของคุณ {email}",
+                "send_test_mail_heading": "ส่งอีเมลทดสอบ",
+                "send_test_mail_success": "ส่งอีเมลทดสอบสำเร็จแล้ว!",
+                "send_test_mail_text": "ระบบจะส่งอีเมลโดยใช้การตั้งค่าด้านบนไปยังอีเมลของคุณ {email}",
                 "smtp_heading": "ตั้งค่า SMTP",
                 "title": "=> core.ref.email"
             },
             "extension": {
-                "abandoned_no_replacement": "",
-                "abandoned_with_replacement": "",
-                "configure_scopes": "กำหนดขอบเขต",
-                "confirm_purge": "การล้างข้อมูลจะลบรายการฐานข้อมูลและทรัพยากรทั้งหมดที่เกี่ยวข้องกับส่วนขยาย แต่จะไม่ถอนการติดตั้งส่วนขยาย ซึ่งต้องทำผ่าน Composer คุณต้องการดำเนินการต่อหรือไม่?",
-                "deprecated": "",
+                "abandoned_no_replacement": "ส่วนขยายนี้ไม่ได้รับการดูแลจากผู้พัฒนาอีกต่อไป และอาจไม่มีการอัปเดตในอนาคต",
+                "abandoned_with_replacement": "ส่วนขยายนี้ถูกแทนที่โดย {replacement} แล้ว ควรพิจารณาเปลี่ยนไปใช้แพ็คเกจทดแทน",
+                "configure_scopes": "กำหนดค่า Scopes",
+                "confirm_purge": "การล้างข้อมูลจะลบรายการฐานข้อมูลและไฟล์ทั้งหมดที่เกี่ยวข้องกับส่วนขยาย แต่จะไม่ถอนการติดตั้งส่วนขยาย ซึ่งต้องทำผ่าน Composer คุณต้องการดำเนินการต่อหรือไม่?",
+                "deprecated": "เลิกใช้แล้ว",
                 "disabled": "ปิดใช้งาน",
-                "enable_to_see": "เปิดใช้งานส่วนเสริมเพื่อดูเเละเเก้ไขการตั้งค่า",
+                "enable_to_see": "เปิดใช้งานส่วนขยายเพื่อดูและแก้ไขการตั้งค่า",
                 "enabled": "เปิดใช้งาน",
                 "info_links": {
-                    "discuss": "กระทู้",
+                    "discuss": "พูดคุย",
                     "documentation": "เอกสาร",
-                    "donate": "บริจาก",
-                    "source": "ที่มา",
-                    "support": "สนับสนุน",
+                    "donate": "บริจาค",
+                    "source": "ซอร์สโค้ด",
+                    "support": "ช่วยเหลือ",
                     "website": "เว็บไซต์"
                 },
-                "no_permissions": "ส่วนเสริมนี้ไม่มีการอนุญาติ",
-                "no_settings": "ส่วนเสริมนี้ไม่มีการตั้งค่า",
+                "no_permissions": "ส่วนขยายนี้ไม่มีสิทธิ์",
+                "no_settings": "ส่วนขยายนี้ไม่มีการตั้งค่า",
                 "open_modal": "เปิดการตั้งค่า",
-                "permissions_title": "การอนุญาติ",
-                "purge_button": "ล้าง",
+                "permissions_title": "สิทธิ์",
+                "purge_button": "ล้างข้อมูล",
                 "readme": {
                     "button_label": "README",
                     "no_readme": "ส่วนขยายนี้ไม่มีไฟล์ README",
-                    "title": "เอกสารประกอบ {extName}"
+                    "title": "เอกสาร {extName}"
                 },
-                "replaced": ""
+                "replaced": "ถูกแทนที่แล้ว"
             },
             "header": {
-                "get_help": "รับความช่วยเหลือ",
+                "get_help": "ขอความช่วยเหลือ",
                 "log_out_button": "=> core.ref.log_out"
             },
             "loading": {
-                "title": "กรุณารอสักครู่…"
+                "title": "กรุณารอสักครู่..."
             },
             "nav": {
                 "appearance_button": "=> core.admin.appearance.title",
@@ -197,15 +197,15 @@
                 "basics_button": "=> core.admin.basics.title",
                 "basics_title": "=> core.admin.basics.description",
                 "categories": {
-                    "authentication": "การรับรอง",
+                    "authentication": "การยืนยันตัวตน",
                     "core": "การตั้งค่าหลัก",
-                    "discussion": "กระทู้",
+                    "discussion": "โพสต์",
                     "feature": "ฟีเจอร์",
-                    "formatting": "กำลังจัดเก็บช้อมูล",
-                    "forum-widget": "",
+                    "formatting": "การจัดรูปแบบ",
+                    "forum-widget": "วิดเจ็ตฟอรัม",
                     "language": "ภาษา",
-                    "moderation": "การดูเเล",
-                    "other": "ส่วนเสริมอื่นๆ",
+                    "moderation": "การดูแล",
+                    "other": "ส่วนขยายอื่นๆ",
                     "theme": "ธีม"
                 },
                 "dashboard_button": "=> core.admin.dashboard.title",
@@ -216,64 +216,64 @@
                 "permissions_title": "=> core.admin.permissions.description",
                 "userlist_button": "=> core.admin.users.title",
                 "userlist_title": "=> core.admin.users.description",
-                "search_placeholder": "ค้นหาส่วนเสริม"
+                "search_placeholder": "ค้นหาส่วนขยาย"
             },
             "permissions": {
                 "allow_hide_own_posts_label": "อนุญาตให้ลบโพสต์ของตัวเอง",
-                "allow_post_editing_label": "อนุญาติเเก้ไขโพสต์",
-                "allow_renaming_label": "อนุญาติเปลี่ยนชื่อกระทู้",
-                "create_access_token_label": "สร้างโทเค็นการเข้าถึง",
+                "allow_post_editing_label": "อนุญาตให้แก้ไขโพสต์",
+                "allow_renaming_label": "อนุญาตให้เปลี่ยนชื่อ",
+                "create_access_token_label": "สร้าง Access Token",
                 "create_heading": "สร้าง",
-                "delete_discussions_forever_label": "ลบกระทู้ถาวร",
-                "delete_discussions_label": "ลบกระทู้",
-                "delete_posts_forever_label": "ลบโพสต์ถาวร",
+                "delete_discussions_forever_label": "ลบโพสต์อย่างถาวร",
+                "delete_discussions_label": "ลบโพสต์",
+                "delete_posts_forever_label": "ลบโพสต์อย่างถาวร",
                 "delete_posts_label": "ลบโพสต์",
-                "description": "กำหนดค่าใครสามารถเห็นเเละทำอะไร",
-                "edit_posts_label": "เเก้ไขโพสต์",
-                "edit_users_label": "เเก้ไขค่าของผู้ใช้",
-                "edit_users_credentials_label": "เเก้ไขการรับรองของผู้ใช้",
-                "edit_users_groups_label": "เเก้ไขกลุ่มผู้ใช้",
-                "global_heading": "ทั้งหมด",
-                "moderate_heading": "การดูเเล",
-                "moderate_access_tokens_label": "โทเค็นการเข้าถึงแบบปานกลาง",
+                "description": "กำหนดว่าใครสามารถดูและทำสิ่งต่างๆ ได้",
+                "edit_posts_label": "แก้ไขโพสต์",
+                "edit_users_label": "แก้ไขข้อมูลผู้ใช้",
+                "edit_users_credentials_label": "แก้ไขข้อมูลรับรองผู้ใช้",
+                "edit_users_groups_label": "แก้ไขกลุ่มผู้ใช้",
+                "global_heading": "ทั่วไป",
+                "moderate_heading": "การดูแล",
+                "moderate_access_tokens_label": "จัดการ Access Token",
                 "new_group_button": "กลุ่มใหม่",
                 "participate_heading": "การมีส่วนร่วม",
-                "post_without_throttle_label": "ตอบกลับกี่ครั้งก็ได้โดยไม่ต้องรอ",
+                "post_without_throttle_label": "ตอบกลับได้หลายครั้งโดยไม่ต้องรอ",
                 "read_heading": "อ่าน",
-                "remove_scope_label": "",
-                "rename_discussions_label": "เปลี่ยนชื่อกระทู้",
-                "reply_to_discussions_label": "ตอบกลับกระทู้",
-                "search_users_label": "ค้นหาผู้ใช้",
-                "sign_up_label": "เข้าสู่ระบบ",
-                "start_discussions_label": "ตั้งกระทู้",
-                "title": "การอนุญาติ",
-                "view_forum_label": "ดูฟอรั่ม (ผู้ใช้เเละกระทู้)",
-                "view_hidden_groups_label": "ดูกลุ่มที่ถูกซ่อน",
-                "view_last_seen_at_label": "สามารถเห็นการใช้งานล่าสุดได้เสมอ",
-                "view_post_ips_label": "ดูที่อยู่ไอพีของโพสต์"
+                "remove_scope_label": "ลบ scope ของ {scope}",
+                "rename_discussions_label": "เปลี่ยนชื่อโพสต์",
+                "reply_to_discussions_label": "ตอบกลับโพสต์",
+                "search_users_label": "=> core.ref.search_users",
+                "sign_up_label": "สมัครสมาชิก",
+                "start_discussions_label": "ตั้งโพสต์ใหม่",
+                "title": "สิทธิ์",
+                "view_forum_label": "ดูฟอรัม (โพสต์และผู้ใช้)",
+                "view_hidden_groups_label": "ดูป้ายกลุ่มที่ซ่อนอยู่",
+                "view_last_seen_at_label": "ดูเวลาออนไลน์ล่าสุดของผู้ใช้ได้เสมอ",
+                "view_post_ips_label": "ดูที่อยู่ IP ของโพสต์"
             },
             "permissions_controls": {
-                "allow_indefinitely_button": "ตลอดการ",
+                "allow_indefinitely_button": "ไม่จำกัดเวลา",
                 "allow_never_button": "=> core.ref.never",
-                "allow_some_minutes_button": "{count, plural, one {สำหรับ # minute} เเละอื่นๆ {สำหรับ # minutes}}",
-                "allow_ten_minutes_button": "ใน 10 นาที",
-                "allow_until_reply_button": "จนกว่าจะมีการตอบกลับ",
+                "allow_some_minutes_button": "{count, plural, one {ภายใน # นาที} other {ภายใน # นาที}}",
+                "allow_ten_minutes_button": "ภายใน 10 นาที",
+                "allow_until_reply_button": "จนกว่าจะมีการตอบกลับครั้งต่อไป",
                 "everyone_button": "ทุกคน",
                 "members_button": "=> core.group.members",
                 "signup_closed_button": "ปิด",
                 "signup_open_button": "เปิด"
             },
             "settings": {
-                "saved_message": "การเปลี่ยนเเปลงของคุณได้ถูกบันทึกเเล้ว",
+                "saved_message": "บันทึกการเปลี่ยนแปลงของคุณแล้ว",
                 "submit_button": "=> core.ref.save_changes"
             },
             "upload_image": {
                 "remove_button": "=> core.ref.remove",
-                "upload_button": "เลือกรูปภาพ…"
+                "upload_button": "เลือกรูปภาพ..."
             },
             "users": {
                 "create_user_button": "ผู้ใช้ใหม่",
-                "description": "รายชื่อผู้ใช้ทั้งหมดในฟอรั่มของคุณ",
+                "description": "รายการผู้ใช้ทั้งหมดในฟอรัมของคุณ",
                 "grid": {
                     "columns": {
                         "display_name": {
@@ -281,13 +281,13 @@
                         },
                         "edit_user": {
                             "button": "=> core.ref.edit",
-                            "tooltip": "เเก้ไข {username}",
+                            "tooltip": "แก้ไข {username}",
                             "title": "=> core.ref.edit_user"
                         },
                         "email": {
                             "title": "=> core.ref.email",
-                            "visibility_hide": "ซ่อนที่อยู่อีเมล์",
-                            "visibility_show": "เเสดงที่อยู่อีเมล์"
+                            "visibility_hide": "ซ่อนที่อยู่อีเมล",
+                            "visibility_show": "แสดงที่อยู่อีเมล"
                         },
                         "group_badges": {
                             "no_badges": "ไม่มี",
@@ -297,10 +297,10 @@
                             "title": "เข้าร่วมเมื่อ"
                         },
                         "user_actions": {
-                            "title": "การกระทำ"
+                            "title": "การดำเนินการ"
                         },
                         "user_id": {
-                            "title": "ไอดี"
+                            "title": "ID"
                         },
                         "username": {
                             "profile_link_tooltip": "ดูโปรไฟล์ของ {username}",
@@ -311,15 +311,15 @@
                 },
                 "pagination": {
                     "back_button": "หน้าก่อนหน้า",
-                    "first_button": "ไปที่หน้าแรก",
-                    "go_to_page_textbox_a11y_label": "ไปที่เลขหน้าโดยตรง",
-                    "last_button": "ไปยังหน้าสุดท้าย",
+                    "first_button": "ไปหน้าแรก",
+                    "go_to_page_textbox_a11y_label": "ไปที่หน้าหมายเลข",
+                    "last_button": "ไปหน้าสุดท้าย",
                     "next_button": "หน้าถัดไป",
-                    "page_counter": "หน้าที่ {current} จาก {total}"
+                    "page_counter": "หน้า {current} จาก {total}"
                 },
                 "search_placeholder": "=> core.ref.search_users",
                 "title": "=> core.ref.users",
-                "total_users": "ผู้ใช้ทั้งหมด: {count}"
+                "total_users": "ผู้ใช้ทั้งหมด: {count} คน"
             }
         },
         "forum": {
@@ -333,7 +333,7 @@
             },
             "change_password": {
                 "send_button": "ส่งอีเมลรีเซ็ตรหัสผ่าน",
-                "text": "คลิกปุ่มด้านล่างและตรวจสอบอีเมลสำหรับลิงก์เพื่อเปลี่ยนรหัสผ่านของคุณ",
+                "text": "คลิกปุ่มด้านล่างและตรวจสอบอีเมลของคุณเพื่อรับลิงก์เปลี่ยนรหัสผ่าน",
                 "title": "=> core.ref.change_password"
             },
             "composer": {
@@ -344,101 +344,101 @@
                 "preview_tooltip": "ดูตัวอย่าง"
             },
             "composer_discussion": {
-                "body_placeholder": "เขียนรายละเอียดกระทู้...",
-                "discard_confirmation": "กระทู้ของคุณยังไม่ถูกโพสต์ คุณต้องการยกเลิกหรือไม่ ?",
-                "submit_button": "ตั้งกระทู้",
+                "body_placeholder": "เขียนเนื้อหาโพสต์...",
+                "discard_confirmation": "คุณยังไม่ได้โพสต์ข้อความนี้ ต้องการยกเลิกหรือไม่?",
+                "submit_button": "ตั้งโพสต์",
                 "title": "=> core.ref.start_a_discussion",
-                "title_placeholder": "ชื่อกระทู้"
+                "title_placeholder": "หัวข้อโพสต์"
             },
             "composer_edit": {
-                "discard_confirmation": "คุณยังไม่ได้บันทึกการเปลี่ยนแปลงของคุณ คุณต้องการยกเลิกหรือไม่ ?",
-                "edited_message": "คุณได้แก้ไขแล้ว",
-                "post_link": "โพสต์ #{number} จาก {discussion}",
+                "discard_confirmation": "คุณยังไม่ได้บันทึกการเปลี่ยนแปลง ต้องการยกเลิกหรือไม่?",
+                "edited_message": "แก้ไขเรียบร้อยแล้ว",
+                "post_link": "โพสต์ #{number} ใน {discussion}",
                 "submit_button": "=> core.ref.save_changes",
                 "view_button": "=> core.ref.view"
             },
             "composer_reply": {
                 "body_placeholder": "=> core.ref.write_a_reply",
-                "discard_confirmation": "การตอบกลับของคุณยังไม่ถูกโพสต์ คุณต้องการยกเลิกหรือไม่ ?",
-                "posted_message": "การตอบกลับของคุณถูกโพสต์แล้ว",
-                "submit_button": "ตอบโพสต์",
+                "discard_confirmation": "คุณยังไม่ได้โพสต์การตอบกลับ ต้องการยกเลิกหรือไม่?",
+                "posted_message": "โพสต์การตอบกลับของคุณแล้ว",
+                "submit_button": "ตอบกลับ",
                 "view_button": "=> core.ref.view"
             },
             "discussion_controls": {
-                "cannot_reply_button": "ไม่สามารถตอบกลับได้",
-                "cannot_reply_text": "คุณไม่ได้รับอนุญาตให้ตอบกลับกระทู้นี้",
+                "cannot_reply_button": "ไม่สามารถตอบได้",
+                "cannot_reply_text": "คุณไม่มีสิทธิ์ตอบกลับโพสต์นี้",
                 "delete_button": "=> core.ref.delete",
-                "delete_confirmation": "คุณแน่ใจหรือไม่ว่าต้องการลบกระทู้นี้ ?",
+                "delete_confirmation": "คุณแน่ใจหรือไม่ที่จะลบโพสต์นี้?",
                 "delete_forever_button": "=> core.ref.delete_forever",
-                "log_in_to_reply_button": "เข้าสู่ระบบเพื่อตอบ",
+                "log_in_to_reply_button": "เข้าสู่ระบบเพื่อตอบกลับ",
                 "rename_button": "=> core.ref.rename",
                 "reply_button": "=> core.ref.reply",
                 "restore_button": "=> core.ref.restore",
-                "toggle_dropdown_accessible_label": "Toggle discussion actions dropdown menu"
+                "toggle_dropdown_accessible_label": "เปิด/ปิดเมนูการดำเนินการ"
             },
             "discussion_list": {
-                "empty_text": "ดูเหมือนว่าไม่มีกระทู้ที่นี่",
+                "empty_text": "ดูเหมือนว่าไม่มีโพสต์ที่นี่",
                 "load_more_button": "=> core.ref.load_more",
                 "replied_text": "{username} ตอบกลับเมื่อ {ago}",
-                "started_text": "{username} ตั้งกระทู้เมื่อ {ago}",
-                "total_replies_a11y_label": "{count, plural, one {# reply} other {# replies}}",
-                "unread_replies_a11y_label": "{count, plural, one {# unread reply} other {# unread replies}} ทำเครื่องหมาย {count, plural, one {reply} other {replies}} ที่ยังไม่อ่านเป็นอ่านแล้ว"
+                "started_text": "{username} ตั้งโพสต์เมื่อ {ago}",
+                "total_replies_a11y_label": "{count, plural, one {# การตอบกลับ} other {# การตอบกลับ}}",
+                "unread_replies_a11y_label": "{count, plural, one {# การตอบกลับที่ยังไม่อ่าน} other {# การตอบกลับที่ยังไม่อ่าน}} ทำเครื่องหมายว่าอ่านแล้ว"
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
                 "email_placeholder": "=> core.ref.email",
-                "email_sent_message": "เราได้ส่งอีเมลที่มีลิงก์เพื่อรีเซ็ตรหัสผ่านของคุณ ตรวจสอบโฟลเดอร์สแปมของคุณหากคุณไม่ได้รับจดหมายดังกล่าวภายในหนึ่งหรือสองนาทีข้างหน้า",
-                "not_found_message": "ไม่มีผู้ใช้ที่ลงทะเบียนกับที่อยู่อีเมลนั้น",
+                "email_sent_message": "หากอีเมลที่คุณป้อนลงทะเบียนไว้กับเว็บไซต์นี้ เราจะส่งลิงก์รีเซ็ตรหัสผ่านให้คุณ ตรวจสอบโฟลเดอร์สแปมหากไม่ได้รับภายใน 1-2 นาที",
+                "not_found_message": "ไม่มีผู้ใช้ที่ลงทะเบียนด้วยที่อยู่อีเมลนั้น",
                 "submit_button": "กู้คืนรหัสผ่าน",
-                "text": "ใส่ที่อยู่อีเมลของคุณแล้วเราจะส่งลิงค์เพื่อรีเซ็ตรหัสผ่านของคุณ",
+                "text": "ป้อนที่อยู่อีเมลของคุณ แล้วเราจะส่งลิงก์รีเซ็ตรหัสผ่านให้",
                 "title": "ลืมรหัสผ่าน"
             },
             "header": {
-                "admin_button": "ตั้งค่าระบบ",
-                "back_to_index_tooltip": "กลับไปยังรายการกระทู้",
-                "locale_dropdown_accessible_label": "Change forum locale",
+                "admin_button": "ผู้ดูแลระบบ",
+                "back_to_index_tooltip": "กลับไปยังรายการโพสต์",
+                "locale_dropdown_accessible_label": "เปลี่ยนภาษาฟอรัม",
                 "log_in_link": "=> core.ref.log_in",
                 "log_out_button": "=> core.ref.log_out",
                 "profile_button": "โปรไฟล์",
                 "search_clear_button_accessible_label": "ล้างคำค้นหา",
                 "search_placeholder": "ค้นหา",
-                "search_role_label": "ค้นหาฟอรั่ม",
-                "session_dropdown_accessible_label": "Toggle session options dropdown menu",
+                "search_role_label": "ค้นหาในฟอรัม",
+                "session_dropdown_accessible_label": "เปิด/ปิดเมนูเซสชัน",
                 "settings_button": "=> core.ref.settings",
                 "sign_up_link": "=> core.ref.sign_up"
             },
             "index": {
                 "all_discussions_link": "=> core.ref.all_discussions",
-                "cannot_start_discussion_button": "ไม่สามารถสร้างกระทู้ใหม่ได้",
-                "mark_all_as_read_confirmation": "คุณแน่ใจหรือไม่ว่าต้องการทำเครื่องหมายว่าอ่านแล้วทั้งหมดทุกกระทู้ ?",
+                "cannot_start_discussion_button": "ไม่สามารถตั้งโพสต์ได้",
+                "mark_all_as_read_confirmation": "คุณแน่ใจหรือไม่ที่จะทำเครื่องหมายว่าอ่านแล้วทุกโพสต์?",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "meta_title_text": "=> core.ref.all_discussions",
-                "refresh_tooltip": "โหลดใหม่อีกครั้ง",
+                "refresh_tooltip": "รีเฟรช",
                 "start_discussion_button": "=> core.ref.start_a_discussion",
-                "toggle_sidenav_dropdown_accessible_label": "Toggle navigation dropdown menu"
+                "toggle_sidenav_dropdown_accessible_label": "เปิด/ปิดเมนูนำทาง"
             },
             "index_sort": {
-                "latest_button": "อัปเดตล่าสุด",
-                "newest_button": "ใหม่ล่าสุด",
+                "latest_button": "ล่าสุด",
+                "newest_button": "ใหม่ที่สุด",
                 "oldest_button": "เก่าที่สุด",
-                "relevance_button": "สัมพันธ์กัน",
-                "toggle_dropdown_accessible_label": "Change discussion list sorting",
-                "top_button": "ตอบกลับมากที่สุด"
+                "relevance_button": "ความเกี่ยวข้อง",
+                "toggle_dropdown_accessible_label": "เปลี่ยนการเรียงลำดับรายการโพสต์",
+                "top_button": "ยอดนิยม"
             },
             "log_in": {
-                "forgot_password_link": "ลืมรหัสผ่าน ?",
-                "invalid_login_message": "รายละเอียดการเข้าสู่ระบบของคุณไม่ถูกต้อง",
+                "forgot_password_link": "ลืมรหัสผ่าน?",
+                "invalid_login_message": "ข้อมูลเข้าสู่ระบบของคุณไม่ถูกต้อง",
                 "password_placeholder": "=> core.ref.password",
                 "remember_me_label": "จดจำฉัน",
-                "sign_up_text": "ยังไม่มีบัญชี ? <a>สมัครสมาชิก</a>",
+                "sign_up_text": "ยังไม่มีบัญชี? <a>สมัครสมาชิก</a>",
                 "submit_button": "=> core.ref.log_in",
                 "title": "=> core.ref.log_in",
                 "username_or_email_placeholder": "ชื่อผู้ใช้หรืออีเมล"
             },
             "notifications": {
-                "delete_all_confirm": "คุณต้องการลบการแจ้งเตือนทั้งหมดหรือไม่? การกระทำนี้ย้อนกลับไม่ได้",
+                "delete_all_confirm": "คุณแน่ใจหรือไม่ที่จะลบการแจ้งเตือนทั้งหมด? การกระทำนี้ไม่สามารถย้อนกลับได้",
                 "delete_all_tooltip": "ลบการแจ้งเตือนทั้งหมด",
-                "discussion_renamed_text": "{username} ได้ทำการเปลี่ยนชื่อ",
+                "discussion_renamed_text": "{username} ได้เปลี่ยนชื่อโพสต์",
                 "empty_text": "ไม่มีการแจ้งเตือน",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "mark_as_read_tooltip": "ทำเครื่องหมายว่าอ่านแล้ว",
@@ -448,102 +448,102 @@
             },
             "post": {
                 "edited_text": "แก้ไขแล้ว",
-                "edited_tooltip": "{username} แก้ไขแล้ว {ago}",
+                "edited_tooltip": "{username} แก้ไขเมื่อ {ago}",
                 "number_tooltip": "โพสต์ #{number}"
             },
             "post_controls": {
                 "delete_button": "=> core.ref.delete",
-                "delete_confirmation": "Are you sure you want to delete this post forever? This action cannot be undone.",
+                "delete_confirmation": "คุณแน่ใจหรือไม่ที่จะลบโพสต์นี้อย่างถาวร? การกระทำนี้ไม่สามารถย้อนกลับได้",
                 "delete_forever_button": "=> core.ref.delete_forever",
                 "edit_button": "=> core.ref.edit",
-                "hide_confirmation": "Are you sure you want to delete this post?",
+                "hide_confirmation": "คุณแน่ใจหรือไม่ที่จะลบโพสต์นี้?",
                 "restore_button": "=> core.ref.restore",
-                "toggle_dropdown_accessible_label": "Toggle post controls dropdown menu"
+                "toggle_dropdown_accessible_label": "เปิด/ปิดเมนูควบคุมโพสต์"
             },
             "post_scrubber": {
                 "now_link": "ล่าสุด",
                 "original_post_link": "โพสต์ต้นฉบับ",
                 "unread_text": "{count} ยังไม่ได้อ่าน",
-                "viewing_text": "{count, plural, one {{index} of {formattedCount} post} other {{index} ใน {formattedCount} โพสต์}}"
+                "viewing_text": "{count, plural, one {{index} จาก {formattedCount} โพสต์} other {{index} จาก {formattedCount} โพสต์}}"
             },
             "post_stream": {
-                "discussion_renamed_old_tooltip": "ชื่อกระทู้ก่อนหน้านี้: \"{old}\"",
-                "discussion_renamed_text": "{username} เปลี่ยนชื่อกระทู้เป็น {new}.",
+                "discussion_renamed_old_tooltip": "ชื่อเดิมคือ: \"{old}\"",
+                "discussion_renamed_text": "{username} เปลี่ยนชื่อเป็น {new} {time}",
                 "load_more_button": "=> core.ref.load_more",
                 "reply_placeholder": "=> core.ref.write_a_reply",
-                "time_lapsed_text": "{period}ที่แล้ว"
+                "time_lapsed_text": "{period}ต่อมา"
             },
             "rename_discussion": {
                 "submit_button": "=> core.ref.rename",
-                "title": "เปลี่ยนชื่อกระทู้"
+                "title": "เปลี่ยนชื่อโพสต์"
             },
             "search": {
-                "all_discussions_button": "ค้นหาทุกกระทู้ด้วย \"{query}\"",
+                "all_discussions_button": "ค้นหาทุกโพสต์ด้วย \"{query}\"",
                 "discussions_heading": "=> core.ref.discussions",
                 "users_heading": "=> core.ref.users"
             },
             "security": {
                 "browser_on_operating_system": "{browser} บน {os}",
-                "cannot_terminate_current_session": "ไม่สามารถยุติเซสชันที่ใช้งานอยู่ในปัจจุบันได้ กรุณาออกจากระบบแทน",
+                "cannot_terminate_current_session": "ไม่สามารถยุติเซสชันที่กำลังใช้งานอยู่ได้ กรุณาออกจากระบบแทน",
                 "created": "สร้างเมื่อ",
-                "current_active_session": "เซสชั่นที่ใช้งานอยู่ปัจจุบัน",
-                "developer_tokens_heading": "โทเค็นของผู้พัฒนา",
-                "empty_text": "ดูเหมือนว่าจะไม่มีอะไรให้ดูที่นี่",
+                "current_active_session": "เซสชันที่กำลังใช้งาน",
+                "developer_tokens_heading": "Token สำหรับนักพัฒนา",
+                "empty_text": "ดูเหมือนว่าไม่มีอะไรให้แสดงที่นี่",
                 "global_logout": {
-                    "heading": "ออกจากระบบทั้งหมด",
-                    "help_text": "ล้างเซสชั่นคุกกี้ในปัจจุบัน ยุติเซสชั่นทั้งหมด เพิกถอนโทเค็นของนักพัฒนา และทำให้การยืนยันอีเมลหรือการรีเซ็ตรหัสผ่านอีเมลใด ๆ เป็นโมฆะ",
+                    "heading": "ออกจากระบบทุกอุปกรณ์",
+                    "help_text": "ล้างเซสชันคุกกี้ปัจจุบัน ยุติเซสชันทั้งหมด เพิกถอน token ของนักพัฒนา และยกเลิกลิงก์ยืนยันอีเมลหรือรีเซ็ตรหัสผ่านที่ส่งไปทั้งหมด",
                     "log_out_button": "=> core.ref.log_out"
                 },
-                "hide_access_token": "ซ่อนโทเค็น",
+                "hide_access_token": "ซ่อน Token",
                 "last_activity": "กิจกรรมล่าสุด",
                 "never": "=> core.ref.never",
                 "new_access_token_button": "=> core.ref.new_token",
                 "new_access_token_modal": {
-                    "submit_button": "สร้างโทเค็น",
+                    "submit_button": "สร้าง Token",
                     "title": "=> core.ref.new_token",
-                    "title_placeholder": "หัวเรื่อง"
+                    "title_placeholder": "ชื่อ"
                 },
                 "revoke_access_token": "เพิกถอน",
-                "revoke_access_token_confirmation": "",
-                "sessions_heading": "",
-                "session_terminated": "",
-                "session_termination_failed": "",
-                "show_access_token": "",
-                "terminate_all_other_sessions": "",
-                "terminate_all_other_sessions_confirmation": "",
-                "terminate_session": "",
-                "title": "",
-                "token_revoked": "",
-                "token_item_title": "",
-                "token_title_placeholder": ""
+                "revoke_access_token_confirmation": "=> core.ref.generic_confirmation_message",
+                "sessions_heading": "เซสชันที่ใช้งานอยู่",
+                "session_terminated": "{count, plural, one {ยุติเซสชันแล้ว} other {ยุติ # เซสชันแล้ว}}",
+                "session_termination_failed": "เกิดข้อผิดพลาดขณะยุติเซสชันของคุณ",
+                "show_access_token": "ดู Token",
+                "terminate_all_other_sessions": "ยุติเซสชันอื่นทั้งหมด",
+                "terminate_all_other_sessions_confirmation": "=> core.ref.generic_confirmation_message",
+                "terminate_session": "ยุติ",
+                "title": "=> core.ref.security",
+                "token_revoked": "เพิกถอน Token แล้ว",
+                "token_item_title": "{title} - {token}",
+                "token_title_placeholder": "/"
             },
             "settings": {
                 "account_heading": "บัญชี",
                 "change_email_button": "=> core.ref.change_email",
                 "change_password_button": "=> core.ref.change_password",
-                "notification_checkbox_a11y_label_template": "",
+                "notification_checkbox_a11y_label_template": "รับการแจ้งเตือน \"{description}\" ผ่าน {method}",
                 "notifications_heading": "=> core.ref.notifications",
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "เว็บไซต์",
-                "notify_discussion_renamed_label": "เมื่อมีคนเปลี่ยนชื่อกระทู้ของฉัน",
-                "privacy_disclose_online_label": "อนุญาตให้คนอื่นเห็นเมื่อฉันออนไลน์",
+                "notify_discussion_renamed_label": "เมื่อมีคนเปลี่ยนชื่อโพสต์ที่ฉันตั้ง",
+                "privacy_disclose_online_label": "อนุญาตให้ผู้อื่นเห็นเมื่อฉันออนไลน์",
                 "privacy_heading": "ความเป็นส่วนตัว",
                 "title": "=> core.ref.settings"
             },
             "sign_up": {
                 "dismiss_button": "=> core.ref.okay",
                 "email_placeholder": "=> core.ref.email",
-                "log_in_text": "มีบัญชีแล้วหรือยัง ? <a>เข้าสู่ระบบ</a>",
+                "log_in_text": "มีบัญชีอยู่แล้ว? <a>เข้าสู่ระบบ</a>",
                 "password_placeholder": "=> core.ref.password",
                 "submit_button": "=> core.ref.sign_up",
                 "title": "=> core.ref.sign_up",
                 "username_placeholder": "=> core.ref.username",
-                "welcome_text": "ยินดีต้อนรับคุณ {username}!"
+                "welcome_text": "ยินดีต้อนรับ {username}!"
             },
             "user": {
                 "avatar_remove_button": "=> core.ref.remove",
                 "avatar_upload_button": "อัปโหลด",
-                "avatar_upload_tooltip": "อัปโหลดภาพโปรไฟล์ใหม่",
+                "avatar_upload_tooltip": "อัปโหลดรูปโปรไฟล์ใหม่",
                 "discussions_link": "=> core.ref.discussions",
                 "in_discussion_text": "ใน {discussion}",
                 "joined_date_text": "เข้าร่วมเมื่อ {ago}",
@@ -551,17 +551,17 @@
                 "posts_empty_text": "ดูเหมือนว่าไม่มีโพสต์ที่นี่",
                 "posts_link": "=> core.ref.posts",
                 "posts_load_more_button": "=> core.ref.load_more",
-                "security_link": "",
+                "security_link": "=> core.ref.security",
                 "settings_link": "=> core.ref.settings"
             },
             "user_controls": {
                 "button": "การจัดการ",
                 "delete_button": "=> core.ref.delete",
-                "delete_confirmation": "คุณแน่ใจหรือไม่ว่าต้องการลบผู้ใช้คนนี้ ? โพสต์ทั้งหมดของเขาจะไม่ถูกลบ",
-                "delete_error_message": "Deletion of user <i>{username} ({email})</i> failed",
-                "delete_success_message": "User <i>{username} ({email})</i> was deleted",
+                "delete_confirmation": "คุณแน่ใจหรือไม่ที่จะลบผู้ใช้คนนี้? โพสต์ทั้งหมดของเขาจะไม่ถูกลบ",
+                "delete_error_message": "การลบผู้ใช้ <i>{username} ({email})</i> ล้มเหลว",
+                "delete_success_message": "ลบผู้ใช้ <i>{username} ({email})</i> เรียบร้อยแล้ว",
                 "edit_button": "=> core.ref.edit",
-                "toggle_dropdown_accessible_label": "Toggle user controls dropdown menu"
+                "toggle_dropdown_accessible_label": "เปิด/ปิดเมนูจัดการผู้ใช้"
             },
             "user_email_confirmation": {
                 "alert_message": "=> core.ref.confirmation_email_sent",
@@ -569,105 +569,105 @@
                 "sent_message": "ส่งแล้ว"
             },
             "welcome_hero": {
-                "hide": ""
+                "hide": "ซ่อนข้อความต้อนรับ"
             }
         },
         "lib": {
-            "debug_button": "",
+            "debug_button": "Debug",
             "alert": {
-                "dismiss_a11y_label": ""
+                "dismiss_a11y_label": "ปิดการแจ้งเตือน"
             },
             "badge": {
                 "hidden_tooltip": "ซ่อน"
             },
             "dropdown": {
-                "toggle_dropdown_accessible_label": "Toggle dropdown menu"
+                "toggle_dropdown_accessible_label": "เปิด/ปิดเมนูดรอปดาวน์"
             },
             "data_segment": {
-                "label": ""
+                "label": "{label}:"
             },
             "edit_user": {
-                "activate_button": "Activate User",
+                "activate_button": "เปิดใช้งานผู้ใช้",
                 "email_heading": "=> core.ref.email",
                 "email_label": "=> core.ref.email",
-                "groups_heading": "Groups",
+                "groups_heading": "กลุ่ม",
                 "password_heading": "=> core.ref.password",
                 "password_label": "=> core.ref.password",
-                "set_password_label": "Set new password",
+                "set_password_label": "ตั้งรหัสผ่านใหม่",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.edit_user",
                 "username_heading": "=> core.ref.username",
                 "username_label": "=> core.ref.username",
-                "nothing_available": ""
+                "nothing_available": "คุณไม่มีสิทธิ์แก้ไขผู้ใช้นี้"
             },
             "error": {
-                "circular_dependencies_message": "",
-                "dependent_extensions_message": "Cannot disable {extension} until the following dependent extensions are disabled: {extensions}",
-                "extension_initialiation_failed_message": "",
-                "generic_message": "อ๊ะ! บางอย่างผิดพลาด โปรดโหลดหน้าเว็บและลองอีกครั้ง",
-                "generic_cross_origin_message": "",
-                "missing_dependencies_message": "Cannot enable {extension} until the following dependencies are enabled: {extensions}",
-                "not_found_message": "ไม่พบแหล่งข้อมูลที่ร้องขอ",
-                "payload_too_large_message": "คำขอนี้มากเกินไป",
-                "permission_denied_message": "คุณไม่ได้รับอนุญาตให้ทำเช่นนั้น",
-                "rate_limit_exceeded_message": "คุณกำลังทำการอย่างรวดเร็วเกินไป โปรดลองอีกครั้งหลังจากนี้สักครู่",
-                "render_failed_message": ""
+                "circular_dependencies_message": "ตรวจพบ dependency แบบวงกลม: {extensions} กำลังยกเลิก กรุณาปิดใช้งานส่วนขยายหนึ่งรายการแล้วลองอีกครั้ง",
+                "dependent_extensions_message": "ไม่สามารถปิด {extension} ได้จนกว่าจะปิดส่วนขยายที่พึ่งพิงต่อไปนี้: {extensions}",
+                "extension_initialiation_failed_message": "{extension} เริ่มต้นไม่สำเร็จ ดูรายละเอียดเพิ่มเติมได้ที่คอนโซลของเบราว์เซอร์",
+                "generic_message": "อ๊ะ! เกิดข้อผิดพลาดบางอย่าง กรุณาโหลดหน้าใหม่แล้วลองอีกครั้ง",
+                "generic_cross_origin_message": "อ๊ะ! เกิดข้อผิดพลาดในการร้องขอข้ามโดเมน กรุณาโหลดหน้าใหม่แล้วลองอีกครั้ง",
+                "missing_dependencies_message": "ไม่สามารถเปิด {extension} ได้จนกว่าจะเปิด dependency ต่อไปนี้: {extensions}",
+                "not_found_message": "ไม่พบทรัพยากรที่ร้องขอ",
+                "payload_too_large_message": "คำขอมีขนาดใหญ่เกินไป",
+                "permission_denied_message": "คุณไม่มีสิทธิ์ดำเนินการนี้",
+                "rate_limit_exceeded_message": "คุณดำเนินการเร็วเกินไป กรุณาลองอีกครั้งในอีกสักครู่",
+                "render_failed_message": "ขออภัย เกิดข้อผิดพลาดขณะแสดงเนื้อหานี้ หากคุณเป็นผู้ใช้ทั่วไป กรุณาลองอีกครั้งในภายหลัง หากคุณเป็นผู้ดูแลระบบ ตรวจสอบไฟล์ log ของ Flarum"
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
             },
             "meta_titles": {
-                "with_page_title": "",
-                "without_page_title": ""
+                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: หน้า # - {forumName}}}",
+                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {หน้า # - {forumName}}}"
             },
             "modal": {
-                "close": ""
+                "close": "ปิด"
             },
             "nav": {
-                "drawer_button": ""
+                "drawer_button": "เปิดเมนูนำทาง"
             },
             "number_suffix": {
                 "kilo_text": "K",
                 "mega_text": "M"
             },
             "datetime_formats": {
-                "humanTimeShort": "",
-                "humanTimeLong": "",
-                "scrubber": ""
+                "humanTimeShort": "D MMM",
+                "humanTimeLong": "ll",
+                "scrubber": "MMMM YYYY"
             },
             "series": {
                 "glue_text": ", ",
-                "three_text": "{first}, {second} เเละ {third}",
-                "two_text": "{first} เเละ {second}"
+                "three_text": "{first}, {second} และ {third}",
+                "two_text": "{first} และ {second}"
             },
             "username": {
-                "deleted_text": "[deleted]"
+                "deleted_text": "[ลบแล้ว]"
             }
         },
         "views": {
             "admin": {
                 "extensions": {
                     "caption": "=> core.ref.extensions",
-                    "disable": "ปิดการใช้งาน",
+                    "disable": "ปิดใช้งาน",
                     "empty": "ไม่มีส่วนขยายที่ติดตั้ง",
                     "enable": "เปิดใช้งาน",
                     "name": "ชื่อส่วนขยาย",
-                    "package_name": "ชื่อเเพ็คเกจ",
-                    "version": "เวอร์ชั่น"
+                    "package_name": "ชื่อแพ็คเกจ",
+                    "version": "เวอร์ชัน"
                 },
                 "info": {
-                    "caption": "ข้อมูลของแอพพลิเคชั่น"
+                    "caption": "ข้อมูลแอปพลิเคชัน"
                 },
-                "title": "เเอดมิน"
+                "title": "ผู้ดูแลระบบ"
             },
             "confirm_email": {
                 "submit_button": "=> core.ref.confirm_email",
-                "text": "กดปุ่มข้างล่างนี้เพื่อยืนยันอีเมล์ของคุณ",
+                "text": "คลิกปุ่มด้านล่างเพื่อยืนยันอีเมลของบัญชีคุณ",
                 "title": "=> core.ref.confirm_email"
             },
             "content": {
-                "javascript_disabled_message": "เว็บไซต์นี้ดูดีที่สุดในเบราว์เซอร์สมัยใหม่และเปิดใช้งาน JavaScript",
-                "load_error_message": "เกิดข้อผิดพลาดขณะพยายามโหลดเวอร์ชันเต็มของเว็บไซต์นี้ ลองล้างแคชและรีเฟรชหน้านี้เพื่อแก้ไขข้อผิดพลาด",
+                "javascript_disabled_message": "เว็บไซต์นี้แสดงผลได้ดีที่สุดบนเบราว์เซอร์สมัยใหม่ที่เปิดใช้งาน JavaScript",
+                "load_error_message": "เกิดข้อผิดพลาดขณะโหลดเว็บไซต์ ลองกด Ctrl+F5 เพื่อรีเฟรชแบบล้างแคช",
                 "loading_text": "=> core.ref.loading"
             },
             "discussion": {
@@ -676,14 +676,14 @@
             },
             "error": {
                 "csrf_token_mismatch": "คุณไม่ได้ใช้งานนานเกินไป",
-                "csrf_token_mismatch_return_link": "กลับไปเเละลองอีกครั้ง",
-                "invalid_confirmation_token": "ลิ้งสำหรับยืนยันนี้ถูกใช้ไปเเล้วหรือหมดอายุ",
-                "not_authenticated": "คุณไม่ได้รับอนุญาติในการเข้าถึงนี้นี้ โปรดลองอีกครั้งหลังจากล็อคอิน",
-                "method_not_allowed": "",
+                "csrf_token_mismatch_return_link": "กลับไปแล้วลองอีกครั้ง",
+                "invalid_confirmation_token": "ลิงก์ยืนยันนี้ถูกใช้ไปแล้วหรือไม่ถูกต้อง",
+                "not_authenticated": "คุณไม่มีสิทธิ์เข้าถึงหน้านี้ กรุณาเข้าสู่ระบบก่อนแล้วลองอีกครั้ง",
+                "method_not_allowed": "หน้านี้ไม่รองรับวิธีการร้องขอนั้น",
                 "not_found": "ไม่พบหน้าที่คุณร้องขอ",
-                "not_found_return_link": "กลับไปยัง {forum}",
-                "permission_denied": "คุณไม่ได้รับอนุญาติให้เข้าถึงหน้านี้",
-                "unknown": "เกิดข้อผิดพลาดระหว่างที่กำลังโหลดหน้านี้"
+                "not_found_return_link": "กลับไปที่ {forum}",
+                "permission_denied": "คุณไม่มีสิทธิ์เข้าถึงหน้านี้",
+                "unknown": "เกิดข้อผิดพลาดขณะโหลดหน้านี้"
             },
             "index": {
                 "all_discussions_heading": "=> core.ref.all_discussions",
@@ -692,95 +692,95 @@
             },
             "log_out": {
                 "log_out_button": "=> core.ref.log_out",
-                "log_out_confirmation": "คุณต้องการช็อคเอ้าออกจาก {forum} นี้ไหม?",
+                "log_out_confirmation": "คุณต้องการออกจากระบบ {forum} หรือไม่?",
                 "title": "=> core.ref.log_out"
             },
             "reset_password": {
-                "confirm_password_label": "ยืนยันหรัสผ่านใหม่",
-                "new_password_label": "หรัสผ่านใหม่",
+                "confirm_password_label": "ยืนยันรหัสผ่านใหม่",
+                "new_password_label": "รหัสผ่านใหม่",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.reset_your_password"
             }
         },
         "api": {
-            "invalid_username_message": "ชื่อผู้ใช้จะต้องประกอบด้วยตัวอักษรตัวเลขและขีดกลางเท่านั้น",
+            "invalid_username_message": "ชื่อผู้ใช้ต้องประกอบด้วยตัวอักษร ตัวเลข และขีดกลางเท่านั้น",
             "invalid_filter_type": {
-                "must_be_numeric_message": "",
-                "must_not_be_array_message": "",
-                "must_not_be_multidimensional_array_message": ""
+                "must_be_numeric_message": "ตัวกรอง {filter} ต้องเป็นตัวเลข",
+                "must_not_be_array_message": "ตัวกรอง {filter} ต้องไม่เป็น array",
+                "must_not_be_multidimensional_array_message": "ตัวกรอง {filter} ต้องไม่เป็น array แบบหลายมิติ"
             }
         },
         "email": {
             "activate_account": {
                 "subject": "เปิดใช้งานบัญชีใหม่ของคุณ",
-                "body": "สวัสดี {username}!\n\nบางคน (หวังว่าจะเป็นคุณ!) ได้สมัครสมาชิกเพื่อใช้งาน {forum} ด้วยที่อยู่อีเมลนี้\n\nถ้าเป็นคุณเพียงแค่คลิกลิงก์ต่อไปนี้และบัญชีของคุณจะถูกเปิดใช้งาน\n{url}\n\nหากคุณไม่ได้สมัครสมาชิกเพื่อใช้งานเว็บไซต์นี้โปรดไม่ต้องสนใจอีเมลนี้\n"
+                "body": "สวัสดี {username}!\n\nมีผู้สมัครสมาชิก (หวังว่าจะเป็นคุณ!) ที่ {forum} ด้วยที่อยู่อีเมลนี้\n\nหากเป็นคุณ เพียงคลิกลิงก์ด้านล่างเพื่อเปิดใช้งานบัญชีของคุณ:\n{url}\n\nหากคุณไม่ได้สมัครสมาชิก กรุณาเพิกเฉยต่ออีเมลนี้\n"
             },
             "confirm_email": {
                 "subject": "ยืนยันที่อยู่อีเมลใหม่ของคุณ",
-                "body": "สวัสดี {username}!\n\nบางคน(หวังว่าจะเป็นคุณ!) ได้เปลี่ยนที่อยู่อีเมลของเขาใน {forum} เป็นที่อยู่อีเมลนี้\n\nถ้านี่เป็นคุณเพียงแค่คลิกลิงก์ต่อไปนี้และอีเมลของคุณจะได้รับการยืนยัน\n{url}\n\nหากคุณไม่ใช่คุณโปรดไม่ต้องสนใจอีเมลนี้\n"
+                "body": "สวัสดี {username}!\n\nมีผู้เปลี่ยนที่อยู่อีเมลใน {forum} มาเป็นที่อยู่นี้ (หวังว่าจะเป็นคุณ!)\n\nหากเป็นคุณ เพียงคลิกลิงก์ด้านล่างเพื่อยืนยันอีเมลของคุณ:\n{url}\n\nหากไม่ใช่คุณ กรุณาเพิกเฉยต่ออีเมลนี้\n"
             },
             "reset_password": {
                 "subject": "=> core.ref.reset_your_password",
-                "body": "สวัสดี {username}!\n\nบางคน(หวังว่าจะเป็นคุณ!) ได้ส่งคำขอรีเซ็ตรหัสผ่านสำหรับบัญชีของคุณบน {forum}\n\nถ้าเป็นคุณให้คลิกลิงก์ต่อไปนี้เพื่อรีเซ็ตรหัสผ่านของคุณ\n{url}\n\nหากคุณไม่ต้องการเปลี่ยนรหัสผ่าน ไม่ต้องสนใจอีเมลนี้และจะไม่มีอะไรเกิดขึ้น\n"
+                "body": "สวัสดี {username}!\n\nมีผู้ส่งคำขอรีเซ็ตรหัสผ่านสำหรับบัญชีของคุณที่ {forum} (หวังว่าจะเป็นคุณ!)\n\nหากเป็นคุณ คลิกลิงก์ด้านล่างเพื่อรีเซ็ตรหัสผ่าน:\n{url}\n\nหากคุณไม่ต้องการเปลี่ยนรหัสผ่าน เพิกเฉยต่ออีเมลนี้ได้เลย จะไม่มีอะไรเกิดขึ้น\n"
             },
             "send_test": {
-                "subject": "การทดสอบอีเมล์ของ Flarum",
-                "body": "สวัสดี {username}!\n\nนี้คือข้อความที่จะเเจ้งคุณว่าการตั้งค่าอีเมล์ของคุณนั้นสามารถใช้งานได้!\n\nถ้านี้เป็นอีเมล์ของคุณนั้นหมายความว่ามันใช้งานได้!\n\nเเต้ถ้านี่ไม่ใช่คุณโปรดอย่าสนใจอีเมล์นี้\n"
+                "subject": "ทดสอบอีเมล Flarum",
+                "body": "สวัสดี {username}!\n\nนี่คืออีเมลทดสอบเพื่อยืนยันว่าการตั้งค่าอีเมล Flarum ของคุณทำงานได้อย่างถูกต้อง\n\nหากคุณได้รับอีเมลนี้ แสดงว่าการตั้งค่าของคุณใช้งานได้!\n\nหากไม่ใช่คุณ กรุณาเพิกเฉยต่ออีเมลนี้\n"
             },
             "abandoned_extensions": {
-                "subject": "",
-                "body": "",
-                "line_with_replacement": "",
-                "line_no_replacement": ""
+                "subject": "ต้องดำเนินการ: พบส่วนขยายที่ถูกทอดทิ้ง",
+                "body": "สวัสดี {username},\n\nส่วนขยายที่ติดตั้งต่อไปนี้ถูกระบุว่าถูกทอดทิ้ง:\n\n{extensions}\n\nกรุณาตรวจสอบส่วนขยายเหล่านี้และพิจารณาเปลี่ยนไปใช้ทางเลือกอื่นหากมี\n",
+                "line_with_replacement": "- {package} (แนะนำทางเลือก: {replacement})",
+                "line_no_replacement": "- {package} (ไม่มีทางเลือกทดแทน)"
             }
         },
         "ref": {
-            "all_discussions": "กระทู้ทั้งหมด",
+            "all_discussions": "โพสต์ทั้งหมด",
             "change_email": "เปลี่ยนอีเมล",
             "change_password": "เปลี่ยนรหัสผ่าน",
             "color": "สี",
             "confirm_password": "ยืนยันรหัสผ่าน",
-            "confirm_email": "ยืนยันอีเมล์",
-            "confirmation_email_sent": "เราได้ส่งอีเมล์สำหรับยืนยันไปยัง {email}. ถ้าหากยังคงไม่พบโปรดเช็คที่กล่งจดหมายสเเปม",
-            "custom_footer_text": "เพิ่มโค้ด HTML เพื่อเเสดงที่ข้างล่างสุดของหน้า",
-            "custom_footer_title": "เเก้ไขส่วนล่างเอง",
-            "custom_header_text": "เพิ่ม ลโค้ด HTML เพื่อเเสดงที่บนสุดของหน้าเหนือส่วนหัวของ Flarum",
-            "custom_header_title": "เเก้ไขส่วนหัวที่กำหนดเอง",
+            "confirm_email": "ยืนยันอีเมล",
+            "confirmation_email_sent": "เราได้ส่งอีเมลยืนยันไปที่ {email} หากไม่ได้รับในเร็วๆ นี้ กรุณาตรวจสอบโฟลเดอร์สแปม",
+            "custom_footer_text": "เพิ่มโค้ด HTML เพื่อแสดงที่ด้านล่างสุดของหน้า",
+            "custom_footer_title": "แก้ไขส่วนท้ายที่กำหนดเอง",
+            "custom_header_text": "เพิ่มโค้ด HTML เพื่อแสดงที่ด้านบนสุดของหน้า เหนือส่วนหัวของ Flarum",
+            "custom_header_title": "แก้ไขส่วนหัวที่กำหนดเอง",
             "delete": "ลบ",
             "delete_forever": "ลบอย่างถาวร",
-            "discussions": "กระทู้",
+            "discussions": "โพสต์",
             "edit": "แก้ไข",
-            "edit_user": "เเก้ไขผู้ใช้",
+            "edit_user": "แก้ไขผู้ใช้",
             "email": "อีเมล",
-            "extensions": "ส่วนเสริม",
-            "generic_confirmation_message": "",
+            "extensions": "ส่วนขยาย",
+            "generic_confirmation_message": "คุณแน่ใจหรือไม่ที่จะดำเนินการต่อ? การกระทำนี้ไม่สามารถย้อนกลับได้",
             "icon": "ไอคอน",
-            "icon_text": "ใส่ชื่ออะไรก็ได้ของ <a>FontAwesome</a> icon class, <em>ที่ประกอบไปด้วย</em> <code>fas fa-</code> ข้างหน้า",
-            "load_more": "แสดงเพิ่มเติม",
+            "icon_text": "ใส่ชื่อ class ของ <a>FontAwesome</a> icon ใดก็ได้ <em>รวมถึง</em> prefix <code>fas fa-</code> ด้วย",
+            "load_more": "โหลดเพิ่มเติม",
             "loading": "กำลังโหลด...",
             "log_in": "เข้าสู่ระบบ",
             "log_out": "ออกจากระบบ",
             "mark_all_as_read": "ทำเครื่องหมายว่าอ่านแล้วทั้งหมด",
-            "never": "",
-            "new_token": "",
+            "never": "ไม่เคย",
+            "new_token": "Token ใหม่",
             "next_page": "หน้าถัดไป",
             "notifications": "การแจ้งเตือน",
             "okay": "ตกลง",
             "password": "รหัสผ่าน",
             "posts": "โพสต์",
             "previous_page": "หน้าก่อนหน้า",
-            "remove": "ลบ",
+            "remove": "ลบออก",
             "rename": "เปลี่ยนชื่อ",
             "reply": "ตอบกลับ",
-            "reset_your_password": "รีเซ็ตรหัสผ่านของคุณ",
+            "reset_your_password": "รีเซ็ตรหัสผ่าน",
             "restore": "กู้คืน",
             "save_changes": "บันทึกการเปลี่ยนแปลง",
-            "search_users": "",
-            "security": "",
-            "settings": "ตั้งค่า",
+            "search_users": "ค้นหาผู้ใช้",
+            "security": "ความปลอดภัย",
+            "settings": "การตั้งค่า",
             "sign_up": "สมัครสมาชิก",
-            "some_others": "{count, plural, one {# other} other {# others}}",
-            "start_a_discussion": "ตั้งกระทู้ใหม่",
+            "some_others": "{count, plural, one {อีก # คน} other {อีก # คน}}",
+            "start_a_discussion": "ตั้งโพสต์ใหม่",
             "username": "ชื่อผู้ใช้",
             "users": "ผู้ใช้",
             "view": "ดู",
@@ -788,10 +788,10 @@
             "you": "คุณ"
         },
         "group": {
-            "admin": "ผู้ดูแลระบบ",
-            "admins": "ผู้ดูแลระบบ",
-            "guest": "ผู้มาเยือน",
-            "guests": "ผู้มาเยือน",
+            "admin": "แอดมิน",
+            "admins": "แอดมิน",
+            "guest": "แขก",
+            "guests": "แขก",
             "member": "สมาชิก",
             "members": "สมาชิก",
             "mod": "ผู้ดูแล",

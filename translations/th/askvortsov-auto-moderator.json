@@ -2,87 +2,87 @@
     "askvortsov-auto-moderator": {
         "admin": {
             "action_drivers": {
-                "activate_email": "",
-                "add_to_group": "",
-                "remove_from_group": "",
-                "suspend": "",
-                "unsuspend": ""
+                "activate_email": "เปิดใช้งานอีเมล",
+                "add_to_group": "เพิ่มเข้ากลุ่ม",
+                "remove_from_group": "ลบออกจากกลุ่ม",
+                "suspend": "ระงับบัญชี",
+                "unsuspend": "ยกเลิกการระงับบัญชี"
             },
             "metric_drivers": {
-                "discussions_entered": "",
-                "discussions_participated": "",
-                "discussions_started": "",
-                "posts_made": "",
-                "likes_given": "",
-                "likes_received": "",
-                "best_answers": "",
-                "moderator_strikes": ""
+                "discussions_entered": "กระทู้ที่เข้าชม",
+                "discussions_participated": "กระทู้ที่มีส่วนร่วม",
+                "discussions_started": "กระทู้ที่เริ่มต้น",
+                "posts_made": "โพสต์ที่สร้าง",
+                "likes_given": "การกดถูกใจที่ให้",
+                "likes_received": "การกดถูกใจที่ได้รับ",
+                "best_answers": "คำตอบที่ดีที่สุด",
+                "moderator_strikes": "คะแนนเตือนจากผู้ดูแล"
             },
             "requirement_drivers": {
-                "email_confirmed": "",
-                "in_group": "",
-                "suspended": "",
-                "email_matches_regex": ""
+                "email_confirmed": "ยืนยันอีเมลแล้ว",
+                "in_group": "อยู่ในกลุ่ม",
+                "suspended": "ถูกระงับบัญชี",
+                "email_matches_regex": "อีเมลตรงกับ Regex"
             },
             "in_group_settings": {
-                "regex": ""
+                "regex": "Regex สำหรับอีเมลที่ถูกต้อง (ไม่ต้องใส่ slash)"
             },
             "group_selector": {
-                "placeholder": ""
+                "placeholder": "เลือกกลุ่ม"
             },
             "suspend_selector": {
-                "days": "",
-                "indefinitely": ""
+                "days": "จำนวนวันที่ระงับ",
+                "indefinitely": "ระงับบัญชีถาวร?"
             },
             "criterion_status": {
-                "heading": "",
-                "invalid": "",
-                "no_actions": "",
-                "no_metrics_or_reqs": "",
-                "valid": "",
-                "action_validation_errors": "",
-                "requirement_validation_errors": ""
+                "heading": "ตรวจสอบสถานะ",
+                "invalid": "เกณฑ์นี้ไม่ถูกต้องในขณะนี้ กรุณาตรวจสอบ driver ด้านล่างเพื่อดูข้อผิดพลาด",
+                "no_actions": "ไม่มีการกำหนดการกระทำสำหรับเกณฑ์นี้ จะไม่มีอะไรเกิดขึ้นเมื่อผู้ใช้ได้รับหรือสูญเสียเกณฑ์นี้",
+                "no_metrics_or_reqs": "ไม่มีการกำหนด metric หรือเงื่อนไขสำหรับเกณฑ์นี้ หมายความว่าผู้ใช้ทุกคนจะผ่านเกณฑ์นี้",
+                "valid": "เกณฑ์นี้ถูกต้อง!",
+                "action_validation_errors": "พบข้อผิดพลาดในการตรวจสอบ action driver ดังต่อไปนี้:",
+                "requirement_validation_errors": "พบข้อผิดพลาดในการตรวจสอบ requirement driver ดังต่อไปนี้:"
             },
             "criterion_page": {
-                "driver_missing_ext": "",
-                "back": "",
-                "name_label": "",
-                "icon_label": "",
-                "description_label": "",
-                "new_criterion": "",
-                "negated": "",
-                "loading": "",
-                "delete_button": "",
-                "metrics_and_requirements_label": "",
-                "metrics_and_requirements_help": "",
-                "metrics_heading": "",
-                "requirements_heading": "",
-                "add_metric": "",
-                "actions_label": "",
-                "actions_help": "",
-                "actions_on_gain_heading": "",
-                "actions_on_loss_heading": "",
-                "add_action": ""
+                "driver_missing_ext": "Driver นี้ต้องใช้ส่วนขยายที่ยังไม่ได้เปิดใช้งาน",
+                "back": "กลับไปรายการเกณฑ์",
+                "name_label": "ชื่อ",
+                "icon_label": "ไอคอน",
+                "description_label": "คำอธิบาย",
+                "new_criterion": "สร้างเกณฑ์",
+                "negated": "กลับเงื่อนไข?",
+                "loading": "=> core.ref.loading",
+                "delete_button": "=> core.ref.delete",
+                "metrics_and_requirements_label": "Metrics และเงื่อนไข",
+                "metrics_and_requirements_help": "สิ่งเหล่านี้กำหนดว่าผู้ใช้ผ่านเกณฑ์นี้หรือไม่ Metrics แทนช่วงของค่า ส่วนเงื่อนไขเป็นค่า boolean",
+                "metrics_heading": "Metrics",
+                "requirements_heading": "เงื่อนไข",
+                "add_metric": "เพิ่ม Metric",
+                "actions_label": "การกระทำ",
+                "actions_help": "การกระทำเมื่อได้รับจะทำงานเมื่อผู้ใช้ผ่านเกณฑ์ใหม่ การกระทำเมื่อสูญเสียจะทำงานเมื่อผู้ใช้ไม่ผ่านเกณฑ์อีกต่อไป",
+                "actions_on_gain_heading": "การกระทำเมื่อได้รับ",
+                "actions_on_loss_heading": "การกระทำเมื่อสูญเสีย",
+                "add_action": "เพิ่มการกระทำ"
             },
             "undefined_driver_item": {
-                "text": ""
+                "text": "เกิดข้อผิดพลาด! Driver <strong>{driverName}</strong> ไม่ได้ถูกกำหนดไว้ น่าจะถูกเพิ่มโดยส่วนขยายที่ไม่ได้ติดตั้งในขณะนี้ คุณต้องเปิดใช้งานส่วนขยายนั้นอีกครั้งหรือลบ driver นี้ออกเพื่อให้เกณฑ์ถูกต้อง"
             },
             "automoderator_page": {
-                "criterion_invalid": "",
-                "list_heading": "",
-                "create_criterion_button": ""
+                "criterion_invalid": "เกณฑ์นี้ไม่ถูกต้องในขณะนี้ กรุณาตรวจสอบการตั้งค่าเพื่อดูข้อมูลเพิ่มเติม",
+                "list_heading": "เกณฑ์",
+                "create_criterion_button": "สร้างเกณฑ์ใหม่"
             },
             "automoderator_instructions": {
-                "header": "",
-                "text": ""
+                "header": "คำแนะนำการใช้ส่วนขยาย",
+                "text": "<li>สรุปสั้นๆ: เมื่อผู้ใช้ตรงตามเกณฑ์ X ให้ทำ Y เมื่อผู้ใช้ไม่ตรงตามเกณฑ์ X อีกต่อไป ให้ทำ Z</li>\n<li><strong>เกณฑ์:</strong> เกณฑ์คือหัวใจของส่วนขยายนี้ เกณฑ์คือชุดของ metric และเงื่อนไขที่กำหนดเอง เมื่อผู้ใช้ตรงตามเกณฑ์ การกระทำ \"เมื่อได้รับ\" จะถูกดำเนินการ เมื่อผู้ใช้ไม่ตรงตามเกณฑ์อีกต่อไป การกระทำ \"เมื่อสูญเสีย\" จะถูกดำเนินการ</li>\n<ul>\n  <li><strong>Metric:</strong> เงื่อนไขเชิงตัวเลข เช่น จำนวนโพสต์หรือจำนวนการกดถูกใจที่ได้รับ เกณฑ์สามารถกำหนดช่วง/ขั้นต่ำ/ขั้นสูงของ metric ได้</li>\n  <li><strong>เงื่อนไข:</strong> เงื่อนไข boolean แบบนามธรรม เช่น ไม่ถูกระงับบัญชี หรืออีเมลตรงกับ regex ที่กำหนด</li>\n</ul>\n<li><strong>การกระทำ:</strong> สิ่งที่เกิดขึ้นโดยอัตโนมัติเมื่อตรงหรือไม่ตรงตามเกณฑ์ ตัวอย่างเช่น เพิ่ม/ลบกลุ่ม ส่งอีเมล หรือระงับบัญชีผู้ใช้</li>\n<li><strong>Trigger:</strong> ชุดของเหตุการณ์ที่จะทำให้ระบบตรวจสอบเกณฑ์ของผู้ใช้ใหม่ สิ่งเหล่านี้เป็นส่วนหนึ่งของนิยาม metric และเงื่อนไข เกณฑ์ทั้งหมดจะถูกประเมินเมื่อเข้าสู่ระบบ ซึ่งถือเป็น \"universal trigger\"</li>\n<li>การกระทำ \"เมื่อสูญเสีย\" จะทำงานก่อน \"เมื่อได้รับ\" เสมอ เพื่อให้การกระทำถูกดำเนินการตราบใดที่ผู้ใช้ตรงตามเกณฑ์ใดเกณฑ์หนึ่ง</li>\n<li>โปรดทราบว่าการกระทำจะทำงานเฉพาะ \"เมื่อสูญเสีย\" และ \"เมื่อได้รับ\" เท่านั้น การแก้ไขด้วยตนเองขณะที่ผู้ใช้ตรงตามเกณฑ์จะไม่ทำให้การกระทำ \"เมื่อได้รับ\" ถูกนำมาใช้ใหม่</li>\n<li>หากคุณลบเกณฑ์ การกระทำ \"เมื่อสูญเสีย\" จะไม่ถูกดำเนินการสำหรับผู้ใช้ที่ตรงตามเกณฑ์นั้นอยู่</li>\n<li>หากคุณใช้เกณฑ์เพื่อจัดการกลุ่ม เราแนะนำให้รักษากลุ่มแยกต่างหากเพื่อจัดการโดยเกณฑ์ คุณจะไม่สามารถเพิ่ม/ลบผู้ใช้ออกจากกลุ่มเหล่านี้ด้วยตนเองได้</li>\n"
             }
         },
         "lib": {
-            "group_id": "",
+            "group_id": "ID กลุ่ม",
             "managed_groups": {
-                "header": "",
-                "group_item": "",
-                "groups_not_editable": ""
+                "header": "กลุ่มที่จัดการ:",
+                "group_item": "<badge></badge> {groupName}",
+                "groups_not_editable": "กลุ่มที่จัดการโดยเกณฑ์ automoderator ไม่สามารถเพิ่ม/ลบผู้ใช้ด้วยตนเองได้เพื่อป้องกันความไม่สอดคล้อง"
             }
         }
     }

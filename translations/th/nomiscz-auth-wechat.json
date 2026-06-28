@@ -2,39 +2,39 @@
     "nomiscz-auth-wechat": {
         "forum": {
             "buttons": {
-                "login": "",
-                "link": "",
-                "unlink": ""
+                "login": "เข้าสู่ระบบด้วย WeChat",
+                "link": "เชื่อมบัญชี WeChat",
+                "unlink": "ยกเลิกการเชื่อมบัญชี WeChat"
             },
             "alerts": {
-                "already_linked": "",
-                "already_used": "",
-                "link_success": "",
-                "unlink_success": "",
-                "error": ""
+                "already_linked": "บัญชี WeChat นี้ถูกเชื่อมไว้แล้ว!",
+                "already_used": "บัญชี WeChat นี้ถูกเชื่อมกับผู้ใช้รายอื่นอยู่แล้ว!",
+                "link_success": "เชื่อมบัญชี WeChat สำเร็จ",
+                "unlink_success": "ยกเลิกการเชื่อมบัญชี WeChat สำเร็จ",
+                "error": "เกิดข้อผิดพลาดบางอย่าง กรุณาลองใหม่อีกครั้งในภายหลัง!"
             },
             "modals": {
                 "link": {
-                    "title": ""
+                    "title": "เชื่อมบัญชี WeChat"
                 },
                 "unlink": {
-                    "title": "",
+                    "title": "ยกเลิกการเชื่อมบัญชี WeChat",
                     "info": {
-                        "confirm": "",
-                        "no_providers": ""
+                        "confirm": "แน่ใจไหมว่าต้องการยกเลิกการเชื่อมบัญชี WeChat?",
+                        "no_providers": "คุณไม่มีผู้ให้บริการล็อกอินอื่นเลย! คุณอาจต้องรีเซ็ตรหัสผ่านแทน"
                     },
                     "buttons": {
-                        "confirm": "",
-                        "cancel": ""
+                        "confirm": "ใช่ ยกเลิกการเชื่อมบัญชี",
+                        "cancel": "ไม่!"
                     }
                 }
             }
         },
         "admin": {
             "settings": {
-                "title": "",
-                "api_app_id": "",
-                "api_app_secret": ""
+                "title": "การตั้งค่า WeChat Auth",
+                "api_app_id": "API App ID",
+                "api_app_secret": "API App Secret"
             }
         }
     }

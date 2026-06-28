@@ -3,43 +3,43 @@
         "ads": {
             "admin": {
                 "permissions": {
-                    "bypassAds": ""
+                    "bypassAds": "ซ่อนโฆษณาบนฟอรัม"
                 },
                 "settings": {
-                    "admin_bypass_warning": "",
-                    "enabled_locations": "",
-                    "script_urls": "",
-                    "add_script": "",
-                    "script_deletion": "",
-                    "code_input": "",
-                    "code_input_disabled": "",
-                    "js_input": "",
-                    "js_input_disabled": "",
-                    "use_adsense": "",
-                    "pub_id": "",
-                    "between_posts_gap": "",
-                    "allow_after_placeholder": "",
+                    "admin_bypass_warning": "เนื่องจากลักษณะระบบสิทธิ์ของ Flarum สมาชิกในกลุ่ม Admin\nจะไม่เห็นโฆษณาใดๆ บนฟอรัม หากต้องการทดสอบโฆษณา กรุณาเปิดดูฟอรัม\nในโหมด Incognito หรือ Private window\n",
+                    "enabled_locations": "ตำแหน่งที่เปิดใช้งานโฆษณา",
+                    "script_urls": "URL สคริปต์แบบกำหนดเอง",
+                    "add_script": "ใหม่",
+                    "script_deletion": "หากต้องการลบสคริปต์ ให้เว้นช่องว่างไว้แล้วกด 'บันทึกการเปลี่ยนแปลง'",
+                    "code_input": "โค้ด HTML",
+                    "code_input_disabled": "เปิดใช้งานตำแหน่งนี้เพื่อแก้ไขโค้ด HTML",
+                    "js_input": "โค้ด Javascript",
+                    "js_input_disabled": "เปิดใช้งานตำแหน่งนี้เพื่อแก้ไขโค้ด JS",
+                    "use_adsense": "ใช้ AdSense",
+                    "pub_id": "AdSense Publisher ID",
+                    "between_posts_gap": "ระหว่างโพสต์: ระยะห่างระหว่างโฆษณา",
+                    "allow_after_placeholder": "ระหว่างโพสต์: แสดงโฆษณาหลัง placeholder ของการตอบกลับ",
                     "save_btn": {
-                        "dirty": "",
-                        "saving": "",
-                        "saved": "",
-                        "fix_errors": ""
+                        "dirty": "บันทึกการเปลี่ยนแปลง",
+                        "saving": "กำลังบันทึก...",
+                        "saved": "บันทึกทุกอย่างแล้ว",
+                        "fix_errors": "แก้ไขข้อผิดพลาดก่อนบันทึก"
                     },
                     "alert": {
-                        "fix_errors": "",
-                        "code_has_script": ""
+                        "fix_errors": "กรุณาแก้ไขข้อผิดพลาดด้านบนก่อนบันทึกการเปลี่ยนแปลง",
+                        "code_has_script": "หน่วยโฆษณาหนึ่งรายการหรือมากกว่ามี script tag ซึ่งไม่ได้รับอนุญาต กรุณาลบออกแล้วลองใหม่"
                     },
-                    "warning": ""
+                    "warning": "<b>คำแนะนำ:</b>\n<br></br>\n<b>HTML</b> - ใส่เนื้อหา HTML ของโฆษณาในช่องนี้ ห้ามใส่แท็ก {script} ในช่องนี้ เพราะจะไม่ถูกรัน\n<br></br>\n<b>JS</b> - ใส่โค้ด Javascript แบบกำหนดเองเพื่อใส่ใน script tag โดยไม่ต้องรวมแท็ก {script} เอง\n"
                 }
             },
             "lib": {
                 "locations": {
-                    "discussion_header": "",
-                    "discussion_sidebar": "",
-                    "header": "",
-                    "sidebar": "",
-                    "footer": "",
-                    "between_posts": ""
+                    "discussion_header": "หน้าโพสต์ (ใต้ส่วนหัว)",
+                    "discussion_sidebar": "แถบด้านข้างโพสต์ [เฉพาะเดสก์ท็อป]",
+                    "header": "ส่วนหัว",
+                    "sidebar": "แถบนำทางด้านข้าง [เฉพาะเดสก์ท็อป]",
+                    "footer": "ส่วนท้าย",
+                    "between_posts": "ระหว่างโพสต์"
                 }
             }
         }

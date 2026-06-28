@@ -2,64 +2,64 @@
     "ordinaryjellyfish-automod": {
         "admin": {
             "permissions": {
-                "bypass": ""
+                "bypass": "ข้ามตัวกรอง automod"
             },
             "settings": {
-                "threshold": "",
-                "threshold_help": "",
-                "moderate_categories_label": "",
-                "moderate_categories_label_help": "",
-                "moderate_categories_enable": "",
-                "service_account": "",
-                "filter_label": "",
-                "filter_help": "",
-                "filter_enable": "",
+                "threshold": "ค่า Confidence Threshold",
+                "threshold_help": "ค่า confidence threshold อยู่ระหว่าง 0.00 ถึง 1.00 สะท้อนความน่าจะเป็นที่ input หรือ response จะจัดอยู่ในหมวดหมู่ที่กำหนด ค่าต่ำจะลด false positive แต่อาจเพิ่ม false negative ค่าสูงจะเพิ่ม false positive แต่อาจลด false negative",
+                "moderate_categories_label": "หมวดหมู่การกลั่นกรอง",
+                "moderate_categories_label_help": "หมวดหมู่ที่จะ auto-flag เนื้อหาเพื่อกลั่นกรองเมื่อเปิดใช้งานและตรงตามเกณฑ์ confidence",
+                "moderate_categories_enable": "เปิดใช้งานหมวดหมู่การกลั่นกรอง",
+                "service_account": "Service Account",
+                "filter_label": "Pre-built Filters",
+                "filter_help": "ตัวกรองที่สร้างไว้เพื่อช่วยให้ forum ปลอดภัย ตัวกรองที่เปิดใช้จะ auto-flag เหมือนหมวดหมู่การกลั่นกรอง",
+                "filter_enable": "เปิดใช้งาน Pre-built Filters",
                 "filters": {
-                    "doxxing": "",
-                    "doxxing_help": "",
-                    "flag_unsafe_images": "",
-                    "flag_unsafe_images_help": ""
+                    "doxxing": "Doxxing",
+                    "doxxing_help": "การเปิดเผยข้อมูลส่วนตัวที่เคยเป็นความลับของบุคคลหรือองค์กรต่อสาธารณะ มักมีเจตนาร้าย",
+                    "flag_unsafe_images": "รูปภาพที่ไม่ปลอดภัย",
+                    "flag_unsafe_images_help": "ใช้ Google Safe Search ตรวจจับและ flag รูปภาพที่ไม่ปลอดภัย อาจเพิ่ม latency เล็กน้อยเมื่อโพสต์ comment"
                 }
             }
         },
         "lib": {
             "moderate_categories": {
-                "toxic": "",
-                "toxic_help": "",
-                "derogatory": "",
-                "derogatory_help": "",
-                "violent": "",
-                "violent_help": "",
-                "sexual": "",
-                "sexual_help": "",
-                "insult": "",
-                "insult_help": "",
-                "profanity": "",
-                "profanity_help": "",
-                "death": "",
-                "death_help": "",
-                "weapons": "",
-                "weapons_help": "",
-                "public_safety": "",
-                "public_safety_help": "",
-                "health": "",
-                "health_help": "",
-                "religion": "",
-                "religion_help": "",
-                "drugs": "",
-                "drugs_help": "",
-                "war": "",
-                "war_help": "",
-                "finance": "",
-                "finance_help": "",
-                "politics": "",
-                "politics_help": "",
-                "legal": "",
-                "legal_help": ""
+                "toxic": "Toxic",
+                "toxic_help": "เนื้อหาที่หยาบคาย ไม่เคารพผู้อื่น หรือไม่เหมาะสม",
+                "derogatory": "ดูถูกเหยียดหยาม",
+                "derogatory_help": "ความคิดเห็นเชิงลบหรือเป็นอันตรายที่มุ่งเป้าไปที่อัตลักษณ์และ/หรือคุณลักษณะที่ได้รับการคุ้มครอง",
+                "violent": "รุนแรง",
+                "violent_help": "เนื้อหาที่บรรยายเหตุการณ์ความรุนแรงต่อบุคคลหรือกลุ่ม หรือบรรยายความโหดร้ายโดยทั่วไป",
+                "sexual": "เนื้อหาทางเพศ",
+                "sexual_help": "มีการอ้างอิงถึงกิจกรรมทางเพศหรือเนื้อหาลามกอนาจาร",
+                "insult": "การดูถูก",
+                "insult_help": "ความคิดเห็นที่ดูถูก ยั่วยุ หรือเชิงลบต่อบุคคลหรือกลุ่มคน",
+                "profanity": "คำหยาบ",
+                "profanity_help": "ภาษาลามกหรือหยาบคาย เช่น การด่าทอ",
+                "death": "ความตาย ความเสียหาย และโศกนาฏกรรม",
+                "death_help": "การเสียชีวิตของมนุษย์ โศกนาฏกรรม อุบัติเหตุ ภัยพิบัติ และการทำร้ายตัวเอง",
+                "weapons": "อาวุธปืนและอาวุธ",
+                "weapons_help": "เนื้อหาที่กล่าวถึงมีด ปืน อาวุธส่วนตัว และอุปกรณ์เสริม เช่น กระสุน ซองปืน ฯลฯ",
+                "public_safety": "ความปลอดภัยสาธารณะ",
+                "public_safety_help": "บริการและองค์กรที่ให้ความช่วยเหลือและรักษาความปลอดภัยสาธารณะ",
+                "health": "สุขภาพ",
+                "health_help": "สุขภาพของมนุษย์ รวมถึง: โรคและความผิดปกติ การรักษาทางการแพทย์ ยา วัคซีน แนวปฏิบัติทางการแพทย์ และแหล่งข้อมูลสนับสนุนการรักษา",
+                "religion": "ศาสนาและความเชื่อ",
+                "religion_help": "ระบบความเชื่อที่เกี่ยวข้องกับกฎและสิ่งเหนือธรรมชาติ ศาสนา ความศรัทธา การปฏิบัติทางจิตวิญญาณ โบสถ์ และสถานที่สักการะบูชา รวมถึงโหราศาสตร์และสิ่งลึกลับ",
+                "drugs": "ยาเสพติด",
+                "drugs_help": "ยาเสพติดเพื่อความบันเทิงและที่ผิดกฎหมาย อุปกรณ์และการเพาะปลูก รวมถึงการใช้ยาที่ปกติใช้เพื่อความบันเทิงในทางการแพทย์ (เช่น กัญชา)",
+                "war": "สงครามและความขัดแย้ง",
+                "war_help": "สงคราม ความขัดแย้งทางทหาร และการปะทะทางกายภาพครั้งใหญ่ที่มีผู้เกี่ยวข้องจำนวนมาก รวมถึงโพสต์เกี่ยวกับบริการทางทหาร",
+                "finance": "การเงิน",
+                "finance_help": "บริการทางการเงินสำหรับผู้บริโภคและธุรกิจ เช่น ธนาคาร สินเชื่อ เครดิต การลงทุน และประกันภัย",
+                "politics": "การเมือง",
+                "politics_help": "ข่าวและสื่อการเมือง โพสต์นโยบายสังคม รัฐบาล และนโยบายสาธารณะ",
+                "legal": "กฎหมาย",
+                "legal_help": "เนื้อหาที่เกี่ยวข้องกับกฎหมาย รวมถึงสำนักงานกฎหมาย ข้อมูลทางกฎหมาย เอกสารกฎหมายหลัก บริการผู้ช่วยทนายความ สิ่งพิมพ์และเทคโนโลยีทางกฎหมาย และผู้ให้บริการกฎหมายอื่นๆ"
             }
         },
         "forum": {
-            "flag_reason": ""
+            "flag_reason": "Automod ได้ flag post นี้เนื่องจาก {reason}"
         }
     }
 }

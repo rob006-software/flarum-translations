@@ -1,16 +1,16 @@
-{
+﻿{
     "fof-pages": {
         "admin": {
             "edit_page": {
                 "content_label": "=> fof-pages.ref.content",
                 "content_placeholder": "=> fof-pages.ref.content",
                 "delete_page_button": "ลบหน้านี้",
-                "delete_page_confirmation": "คุณเเน่ใจที่ต้องการจะลบหน้านี้ไหม?",
-                "hidden_label": "บันทึกเป็นเเบบร่าง",
-                "restricted_label": "จำกัดการเข้าถึง (สามารถตั้งค่าการเข้าถึงที่เเทบการอนุญาติได้)",
-                "html_label": "เปิดการใช้งาน HTML",
-                "set_as_home_page_confirmation": "คุณเเน่ใจที่ต้องการเซ็ตหน้านี้เป็นหน้าหลักหรือไม่?",
-                "set_as_home_page_done": "อัพเดทหน้าหลักเเล้ว",
+                "delete_page_confirmation": "คุณแน่ใจหรือไม่ว่าต้องการลบหน้านี้?",
+                "hidden_label": "บันทึกเป็นแบบร่าง",
+                "restricted_label": "จำกัดการเข้าถึง (ตั้งค่าในแท็บสิทธิ์)",
+                "html_label": "เปิดใช้งาน HTML",
+                "set_as_home_page_confirmation": "คุณแน่ใจหรือไม่ว่าต้องการตั้งหน้านี้เป็นหน้าแรก?",
+                "set_as_home_page_done": "อัปเดตหน้าแรกเรียบร้อยแล้ว",
                 "slug_label": "=> fof-pages.ref.slug",
                 "slug_placeholder": "=> fof-pages.ref.slug",
                 "submit_button": "=> core.ref.save_changes",
@@ -24,24 +24,24 @@
                 "create_button": "=> fof-pages.ref.create_page"
             },
             "pages_list": {
-                "empty_text": "เหมือนจะไม่มีหน้าที่สร้างเลยนะ",
+                "empty_text": "ดูเหมือนยังไม่มีหน้าใดเลย",
                 "title": "=> fof-pages.ref.title"
             },
             "permissions": {
-                "restricted": "ดูหน้าที่ถูกจำกัด"
+                "restricted": "ดูหน้าที่จำกัดการเข้าถึง"
             },
             "badges": {
-                "hidden": "เเบบร่าง",
-                "restricted": "ถูกจำกัด"
+                "hidden": "แบบร่าง",
+                "restricted": "จำกัดการเข้าถึง"
             }
         },
         "ref": {
-            "content": "คอนเทนท์",
+            "content": "เนื้อหา",
             "create_page": "สร้างหน้าใหม่",
             "pages": "หน้า",
-            "slug": "สเเลง",
+            "slug": "Slug",
             "title": "ชื่อ",
-            "url": "ลิ้ง"
+            "url": "URL"
         }
     }
 }

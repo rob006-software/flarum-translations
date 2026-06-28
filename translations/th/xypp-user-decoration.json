@@ -1,83 +1,83 @@
 {
     "xypp-user-decoration": {
         "forum": {
-            "decoration-no-available": "",
-            "decorations": "",
+            "decoration-no-available": "ไม่มี decoration ที่ใช้ได้",
+            "decorations": "Decorations",
             "decoration-box": {
-                "error": "",
-                "avatar": "",
-                "name": "",
-                "post": "",
-                "card": "",
-                "loading": "",
-                "closed": "",
-                "no-login": ""
+                "error": "ประเภทไม่รู้จัก",
+                "avatar": "สไตล์ Avatar",
+                "name": "สไตล์ชื่อผู้ใช้",
+                "post": "สไตล์ Post",
+                "card": "สไตล์ User Card",
+                "loading": "กำลังโหลด",
+                "closed": "ปิดแล้ว",
+                "no-login": "login เพื่อดูตัวอย่าง"
             },
             "decoration": {
-                "delete_button": "",
-                "remove_button": "",
-                "change_button": "",
-                "delete_confirm": ""
+                "delete_button": "ลบ",
+                "remove_button": "ถอด",
+                "change_button": "เปลี่ยน",
+                "delete_confirm": "แน่ใจว่าต้องการลบ decoration นี้?"
             },
             "page": {
-                "show-decorations": ""
+                "show-decorations": "Decorations"
             },
             "modal": {
-                "title": "",
-                "tip": "",
-                "loading": "",
-                "button": ""
+                "title": "มอบ Decoration",
+                "tip": "กรุณาเลือก decoration",
+                "loading": "กำลังโหลด",
+                "button": "มอบ"
             },
-            "create": "",
-            "create-success": "",
+            "create": "สร้าง",
+            "create-success": "สร้าง decoration สำเร็จ",
             "create-modal": {
-                "edit-title": "",
-                "edit-button": "",
-                "title": "",
+                "edit-title": "แก้ไข Decoration #{0}",
+                "edit-button": "แก้ไข",
+                "title": "สร้าง Decoration",
                 "type": {
-                    "title": "",
-                    "avatar": "",
-                    "username": "",
-                    "post": "",
-                    "usercard": ""
+                    "title": "ประเภท",
+                    "avatar": "Avatar",
+                    "username": "ชื่อผู้ใช้",
+                    "post": "Post",
+                    "usercard": "UserCard"
                 },
-                "name": "",
-                "desc": "",
-                "style": "",
-                "tip": "",
-                "button": "",
-                "delete-button": ""
+                "name": "ชื่อ",
+                "desc": "คำอธิบาย",
+                "style": "Style Sheet",
+                "tip": "ใช้ selector .base เพื่อเลือก target, .element-xxx เพื่อเพิ่ม element ใหม่",
+                "button": "สร้าง",
+                "delete-button": "ลบ"
             },
-            "delete_confirm": "",
-            "delete-success": "",
+            "delete_confirm": "แน่ใจว่าต้องการลบ decoration นี้?",
+            "delete-success": "ลบสำเร็จ",
             "user_controls": {
-                "offer": ""
+                "offer": "มอบ decoration"
             }
         },
         "admin": {
             "permissions": {
-                "view_decoration": "",
-                "delete_decoration": "",
-                "offer_decoration": "",
-                "create_decoration": "",
-                "view-all": ""
+                "view_decoration": "ดู decoration ของผู้อื่น",
+                "delete_decoration": "ลบ decoration ของผู้อื่น",
+                "offer_decoration": "มอบ decoration",
+                "create_decoration": "สร้าง/แก้ไข decoration",
+                "view-all": "ดู decoration ทั้งหมด"
             },
             "settings": {
                 "username_hijack": {
-                    "title": "",
-                    "desc": ""
+                    "title": "Username Hijack",
+                    "desc": "plugin นี้จะพยายาม hijack method username ของ user model เพื่อแทรกข้อมูล identity สำหรับจดจำผู้ใช้ หาก plugin อื่นเกิดปัญหาจากการ hijack นี้ สามารถปิดฟีเจอร์นี้ได้"
                 },
                 "avatar_hijack": {
-                    "title": "",
-                    "desc": ""
+                    "title": "Avatar Hijack",
+                    "desc": "plugin นี้จะพยายาม hijack method avatar ของ user model เพื่อแทรกข้อมูล identity สำหรับจดจำผู้ใช้ หาก plugin อื่นเกิดปัญหาจากการ hijack นี้ สามารถปิดฟีเจอร์นี้ได้"
                 },
                 "view-all": {
-                    "title": "",
-                    "desc": ""
+                    "title": "ดูทั้งหมด",
+                    "desc": "เปิดสิทธิ์ view-all หรือไม่?"
                 },
                 "no_decorate_class_filter": {
-                    "title": "",
-                    "desc": ""
+                    "title": "No Decorate Class Filter",
+                    "desc": "ชื่อ class ที่จะป้องกันไม่ให้ avatar/username ภายในถูกครอบด้วย decoration ใส่หนึ่ง class ต่อบรรทัด โดยไม่ต้องมีจุดนำหน้า"
                 }
             }
         }
@@ -85,16 +85,16 @@
     "xypp-store": {
         "forum": {
             "type": {
-                "decoration": ""
+                "decoration": "Decoration"
             },
             "unavailable": {
                 "decoration": {
-                    "dumplicate": ""
+                    "dumplicate": "มีอยู่แล้ว"
                 }
             },
             "create-modal": {
                 "providers": {
-                    "decoration": ""
+                    "decoration": "Decoration"
                 }
             }
         }

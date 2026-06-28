@@ -2,18 +2,18 @@
     "fof-default-user-preferences": {
         "admin": {
             "settings": {
-                "discloseOnline": "",
-                "discloseOnline-help": "",
-                "indexProfile": "",
-                "indexProfile-help": "",
-                "followAfterReply": "",
-                "followAfterReply-help": "",
-                "postMentioned": "",
-                "postMentioned-help": "",
-                "userMentioned": "",
-                "userMentioned-help": "",
-                "groupMentioned": "",
-                "groupMentioned-help": ""
+                "discloseOnline": "แสดงสถานะออนไลน์",
+                "discloseOnline-help": "เมื่อเปิดใช้งาน ผู้ใช้ใหม่จะอนุญาตให้ผู้อื่นเห็นได้ว่าตนออนไลน์อยู่หรือไม่ ผู้ดูแลระบบและผู้ใช้ที่มีสิทธิ์จะยังคงเห็นสถานะออนไลน์ได้เสมอ ไม่ว่าจะตั้งค่านี้อย่างไร",
+                "indexProfile": "ให้ Search Engine Index โปรไฟล์",
+                "indexProfile-help": "เมื่อเปิดใช้งาน ผู้ใช้ใหม่จะอนุญาตให้ Search Engine จัดทำ Index หน้าโปรไฟล์ของตน เว้นแต่จะถูกบล็อคโดยการตั้งค่าอื่น",
+                "followAfterReply": "ติดตามกระทู้หลังตอบกลับ",
+                "followAfterReply-help": "เมื่อเปิดใช้งาน ผู้ใช้ใหม่จะติดตามกระทู้ที่ตนตอบหรือแสดงความคิดเห็นโดยอัตโนมัติ",
+                "postMentioned": "Email เมื่อมีการอ้างถึงโพสต์",
+                "postMentioned-help": "เมื่อเปิดใช้งาน ผู้ใช้ใหม่จะรับ Email แจ้งเตือนโดยอัตโนมัติเมื่อมีการอ้างถึงโพสต์ของตน",
+                "userMentioned": "Email เมื่อมีการ @mention",
+                "userMentioned-help": "เมื่อเปิดใช้งาน ผู้ใช้ใหม่จะรับ Email แจ้งเตือนโดยอัตโนมัติเมื่อมีคน @mention ตน",
+                "groupMentioned": "Email เมื่อกลุ่มถูก mention",
+                "groupMentioned-help": "เมื่อเปิดใช้งาน ผู้ใช้ใหม่จะรับ Email แจ้งเตือนโดยอัตโนมัติเมื่อมีการ mention กลุ่มที่ตนเป็นสมาชิก"
             }
         }
     }

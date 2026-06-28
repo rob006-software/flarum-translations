@@ -2,33 +2,33 @@
     "migratetoflarum-fake-data": {
         "lib": {
             "generator": {
-                "bulk-mode": "",
-                "bulk-mode-description": "",
-                "user-count": "",
-                "discussion-count": "",
-                "discussion-tags": "",
-                "discussion-tags-none": "",
-                "discussion-tags-random": "",
-                "post-count": "",
-                "date": "",
-                "date-start-placeholder": "",
-                "date-interval-placeholder": "",
-                "send": "",
-                "reset": "",
-                "refresh": ""
+                "bulk-mode": "Bulk mode",
+                "bulk-mode-description": "สร้างค่าสุ่มค่าเดียวและนำไปใช้ซ้ำสำหรับทุก entry",
+                "user-count": "จำนวน user ที่จะสร้าง",
+                "discussion-count": "จำนวน discussion ที่จะสร้าง",
+                "discussion-tags": "Tag สำหรับ discussion ใหม่",
+                "discussion-tags-none": "ไม่มี",
+                "discussion-tags-random": "สุ่ม",
+                "post-count": "จำนวน post ที่จะสร้าง",
+                "date": "วันที่เริ่มต้น",
+                "date-start-placeholder": "วันที่เริ่มต้น (ค่าเริ่มต้น: ตอนนี้)",
+                "date-interval-placeholder": "ช่วงเวลา (ค่าเริ่มต้น: 1 วินาที)",
+                "send": "สร้างข้อมูล",
+                "reset": "สร้างข้อมูลเสร็จแล้ว! คลิกเพื่อรีเซ็ตฟอร์ม",
+                "refresh": "ปิดและ refresh หน้า"
             }
         },
         "forum": {
             "link": {
-                "generate-replies": ""
+                "generate-replies": "สร้างการตอบกลับจำลอง"
             },
             "generator": {
-                "title": ""
+                "title": "สร้างการตอบกลับจำลอง"
             }
         },
         "api": {
-            "no-users-matched": "",
-            "no-discussions-matched": ""
+            "no-users-matched": "ไม่พบ user ที่ตรงกัน",
+            "no-discussions-matched": "ไม่พบ discussion ที่ตรงกัน"
         }
     }
 }

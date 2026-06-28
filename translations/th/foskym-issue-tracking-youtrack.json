@@ -2,19 +2,19 @@
     "foskym-issue-tracking-youtrack": {
         "admin": {
             "fields": {
-                "heading": "",
-                "url_label": "",
-                "token_label": "",
-                "project_label": "",
-                "state_field_label": "",
-                "resolved_state_label": "",
-                "fields_mapping_label": "",
-                "url_help": "",
-                "token_help": "",
-                "project_help": "",
-                "state_field_help": "",
-                "resolved_state_help": "",
-                "fields_mapping_help": ""
+                "heading": "Issue Tracking: YouTrack",
+                "url_label": "YouTrack URL",
+                "token_label": "YouTrack Token",
+                "project_label": "YouTrack Project ID",
+                "state_field_label": "State Field",
+                "resolved_state_label": "Resolved State",
+                "fields_mapping_label": "Fields Mapping",
+                "url_help": "URL ของ YouTrack instance ของคุณ ตัวอย่าง: https://example.youtrack.cloud/",
+                "token_help": "Permanent token สำหรับ YouTrack API สร้างได้ในการตั้งค่า profile ของคุณใน YouTrack",
+                "project_help": "ID ของ project ที่ต้องการติดตาม ดูได้จาก URL ของหน้า project",
+                "state_field_help": "ชื่อ field ใน YouTrack project ที่แสดงสถานะของ issue\nจะใช้เพื่อกำหนดความคืบหน้าของ issue\nตัวแปร [Resolved_State] จะถูกแทนที่ด้วยค่าของ Resolved State field\nตัวอย่าง: Submitted,Open|Reopened,To be discussed,In Progress,[Resolved_State]\n",
+                "resolved_state_help": "ค่าของ state field ที่แสดงว่า issue ได้รับการแก้ไขแล้ว\nตัวอย่าง: Done|Fixed|Resolved\n",
+                "fields_mapping_help": "การ mapping field ใน YouTrack project's SimpleIssueCustomField ไปยัง Normal field\nรูปแบบ: SimpleIssueCustomField Name:Normal Field Name\nตัวอย่าง: Original Author:author.display_name,Original Author Email:author.email,Original Assignee:assignee.display_name\n"
             }
         }
     }

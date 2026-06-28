@@ -1,40 +1,40 @@
 {
     "cccyun-clogin-oauth": {
         "admin": {
-            "appurl_label": "",
-            "appurl_help": "",
-            "appid_label": "",
-            "appkey_label": "",
-            "openqq_label": "",
-            "openwx_label": "",
-            "opensina_label": ""
+            "appurl_label": "API URL",
+            "appurl_help": "ต้องขึ้นต้นด้วย http:// หรือ https:// และลงท้ายด้วย /",
+            "appid_label": "APPID",
+            "appkey_label": "APPKEY",
+            "openqq_label": "เปิดใช้งาน QQ Login",
+            "openwx_label": "เปิดใช้งาน WeChat Login",
+            "opensina_label": "เปิดใช้งาน Weibo Login"
         },
         "forum": {
-            "with_qq_button": "",
-            "with_wx_button": "",
-            "with_sina_button": "",
+            "with_qq_button": "เข้าสู่ระบบด้วย QQ",
+            "with_wx_button": "เข้าสู่ระบบด้วย WeChat",
+            "with_sina_button": "เข้าสู่ระบบด้วย Weibo",
             "alerts": {
-                "already_linked": "",
-                "already_used": "",
-                "link_success": "",
-                "unlink_success": "",
-                "error": "",
-                "unlinked": ""
+                "already_linked": "บัญชีนี้ถูกผูกไว้แล้ว!",
+                "already_used": "บัญชีนี้ถูกผูกกับผู้ใช้รายอื่นแล้ว!",
+                "link_success": "ผูกบัญชีสำเร็จ",
+                "unlink_success": "ยกเลิกการผูกบัญชีสำเร็จ",
+                "error": "เกิดข้อผิดพลาด กรุณาลองใหม่อีกครั้ง!",
+                "unlinked": "บัญชีนี้ยังไม่ได้ผูกกับบัญชีในเว็บไซต์ กรุณาสมัครสมาชิกก่อนแล้วจึงผูกบัญชี"
             },
             "modals": {
-                "link_qq": "",
-                "unlink_qq": "",
-                "confirm_qq": "",
-                "link_wx": "",
-                "unlink_wx": "",
-                "confirm_wx": "",
-                "link_sina": "",
-                "unlink_sina": "",
-                "confirm_sina": "",
-                "no_providers": "",
+                "link_qq": "ผูกบัญชี QQ",
+                "unlink_qq": "ยกเลิกการผูกบัญชี QQ",
+                "confirm_qq": "คุณแน่ใจหรือไม่ว่าต้องการยกเลิกการผูกบัญชี QQ?",
+                "link_wx": "ผูกบัญชี WeChat",
+                "unlink_wx": "ยกเลิกการผูกบัญชี WeChat",
+                "confirm_wx": "คุณแน่ใจหรือไม่ว่าต้องการยกเลิกการผูกบัญชี WeChat?",
+                "link_sina": "ผูกบัญชี Weibo",
+                "unlink_sina": "ยกเลิกการผูกบัญชี Weibo",
+                "confirm_sina": "คุณแน่ใจหรือไม่ว่าต้องการยกเลิกการผูกบัญชี Weibo?",
+                "no_providers": "คุณไม่มีช่องทางเข้าสู่ระบบอื่นแล้ว! คุณอาจต้องรีเซ็ตรหัสผ่านของคุณ",
                 "buttons": {
-                    "confirm": "",
-                    "cancel": ""
+                    "confirm": "ใช่ ยกเลิกการผูกบัญชี",
+                    "cancel": "ไม่!"
                 }
             }
         }

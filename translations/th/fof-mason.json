@@ -2,94 +2,94 @@
     "fof-mason": {
         "forum": {
             "discussion-controls": {
-                "edit-answers": ""
+                "edit-answers": "แก้ไข field"
             },
             "answers-modal": {
-                "edit-title": "",
-                "save": ""
+                "edit-title": "แก้ไข field สำหรับ {title}",
+                "save": "บันทึก field"
             },
             "post-answers": {
-                "no-answer": ""
+                "no-answer": "ไม่มีคำตอบ"
             },
             "answers": {
-                "choose-option": "",
-                "no-option-selected": ""
+                "choose-option": "เลือกตัวเลือก",
+                "no-option-selected": "ยังไม่ได้เลือกตัวเลือก"
             },
             "tags": {
-                "inadequate-settings": "",
-                "tags-label": ""
+                "inadequate-settings": "การตั้งค่า tag ไม่ถูกต้อง อนุญาตให้มี primary tag และ secondary tag ได้อย่างละหนึ่งหรือปิดฟีเจอร์ \"Tags as fields\"\n",
+                "tags-label": "Tags"
             }
         },
         "admin": {
             "buttons": {
-                "new-field": "",
-                "add-field": "",
-                "save-field": "",
-                "delete-field": "",
-                "edit-field": "",
-                "add-answer": "",
-                "save-answer": "",
-                "delete-answer": "",
-                "edit-answer": "",
-                "edit-answer-prompt": "",
-                "show-user-answers": ""
+                "new-field": "field ใหม่",
+                "add-field": "เพิ่ม field",
+                "save-field": "บันทึกการเปลี่ยนแปลง field",
+                "delete-field": "ลบ field",
+                "edit-field": "คลิกเพื่อแก้ไข field",
+                "add-answer": "เพิ่มคำตอบ",
+                "save-answer": "บันทึกการเปลี่ยนแปลงคำตอบ",
+                "delete-answer": "ลบคำตอบ",
+                "edit-answer": "แก้ไขคำตอบ",
+                "edit-answer-prompt": "แก้ไขเนื้อหาในทุกที่ที่ใช้งาน",
+                "show-user-answers": "แสดงคำตอบที่ผู้ใช้เพิ่มเอง ({count})"
             },
             "fields": {
-                "add": "",
-                "edit": "",
-                "required": "",
-                "name": "",
-                "name-help": "",
-                "description": "",
-                "description-help": "",
-                "show_when_empty": "",
-                "show_when_empty-help": "",
-                "validation": "",
-                "user_values_allowed": "",
-                "user_values_allowed-help": "",
-                "validation-help": "",
-                "enable-user-values-for-validation": "",
-                "icon": "",
-                "icon-help": "",
-                "icon-preview": "",
-                "save-field-for-answers": "",
-                "is_suggested": "",
-                "new-answer": "",
-                "new-answer-placeholder": ""
+                "add": "เพิ่ม field {field}",
+                "edit": "แก้ไข field {field}",
+                "required": "จำเป็น",
+                "name": "ชื่อ field",
+                "name-help": "ป้ายชื่อ field ที่มองเห็นได้สาธารณะ (ไม่รองรับการแปล)\n",
+                "description": "คำอธิบาย field",
+                "description-help": "คำอธิบายเพิ่มเติม (ไม่บังคับ) เพื่ออธิบายการใช้งานหรือความจำเป็นของ field นี้\n",
+                "show_when_empty": "แสดงเมื่อว่างเปล่า",
+                "show_when_empty-help": "กำหนดว่าจะแสดง field ใน discussion เมื่อยังไม่มีคำตอบหรือไม่",
+                "validation": "การตรวจสอบค่าที่ผู้ใช้กรอก",
+                "user_values_allowed": "อนุญาตให้ผู้ใช้กรอกค่าเอง",
+                "user_values_allowed-help": "หากเปิดใช้งาน ผู้ใช้สามารถเพิ่มค่าของตนเองแทนค่าที่ admin กำหนด ค่าเหล่านี้จะถูกตรวจสอบด้วยการตั้งค่า \"Validation\" หากปิดใช้งาน ผู้ใช้จะใช้ได้เฉพาะคำตอบที่ \"แนะนำ\" เท่านั้น\n",
+                "validation-help": "ดู <a>Laravel validation rules</a> ที่รองรับ เช่น \"string|min:5\" หรือ \"url\"\n",
+                "enable-user-values-for-validation": "เปิดใช้งาน \"user values\" เพื่อกำหนด validation rules",
+                "icon": "ไอคอน",
+                "icon-help": "แสดงไอคอนหน้าค่าที่ผู้ใช้กรอก ดูไอคอนที่ใช้ได้ที่ <a>FontAwesome website</a> ใช้ชื่อ class เต็ม รวม prefix เช่น \"fas fa-bolt\"\n",
+                "icon-preview": "ตัวอย่าง: {preview}",
+                "save-field-for-answers": "บันทึก field เพื่อเพิ่มคำตอบ",
+                "is_suggested": "แนะนำคำตอบนี้แก่ผู้ใช้",
+                "new-answer": "คำตอบใหม่",
+                "new-answer-placeholder": "ข้อความบางอย่าง"
             },
             "messages": {
-                "delete-answer-confirmation": "",
-                "delete-field-confirmation": ""
+                "delete-answer-confirmation": "คุณแน่ใจหรือไม่ว่าต้องการลบคำตอบ \"{content}\"? คำตอบนี้จะถูกลบออกจาก discussion ทั้งหมดที่ใช้งาน หากต้องการเก็บคำตอบที่มีอยู่แล้ว ให้ปิดการแนะนำคำตอบแทน ลบคำตอบ?\n",
+                "delete-field-confirmation": "คุณแน่ใจหรือไม่ว่าต้องการลบ field \"{name}\"? field และคำตอบทั้งหมดจะถูกลบออกจาก discussion ที่ใช้งาน ลบ field?\n"
             },
             "settings": {
-                "fields-section-title": "",
-                "fields-section-title-placeholder": "",
-                "fields-section-title-help": "",
-                "column-count": "",
-                "n-columns": "",
-                "labels-as-placeholders": "",
-                "labels-as-placeholders-help": "",
-                "fields-in-hero": "",
-                "hide-empty-fields-section": "",
-                "hide-empty-fields-section-help": "",
-                "tags-as-field": "",
-                "tags-as-field-help": "",
-                "tags-field-name": "",
-                "tags-field-name-placeholder": ""
+                "fields-section-title": "หัวข้อของส่วน custom fields",
+                "fields-section-title-placeholder": "ค่าเริ่มต้นจะไม่แสดงหัวข้อ",
+                "fields-section-title-help": "ผู้ใช้จะเห็นข้อความนี้เหนือ custom fields ในตัวเขียนและใน discussion\n",
+                "column-count": "จำนวนคอลัมน์เมื่อแสดง field",
+                "n-columns": "{count} คอลัมน์",
+                "labels-as-placeholders": "แสดง label เป็น placeholder ในฟอร์ม",
+                "labels-as-placeholders-help": "Field จะใช้พื้นที่แนวตั้งน้อยลงและจะไม่แสดงไอคอน โปรดทราบว่าอาจส่งผลต่อการใช้งาน โดยเฉพาะเมื่อแก้ไข field ที่มีอยู่แล้ว\n",
+                "fields-in-hero": "แสดง field ใน banner ของ discussion แทน post แรก",
+                "hide-empty-fields-section": "ซ่อนหัวข้อและตัวควบคุมเมื่อ field ทั้งหมดว่างเปล่าและถูกซ่อน",
+                "hide-empty-fields-section-help": "ค่าเริ่มต้น หากผู้ใช้แก้ไข field ได้หรือมีการตั้งหัวข้อไว้ ส่วนนี้จะแสดงเสมอแม้ field ทั้งหมดจะซ่อนอยู่ เมื่อเปิดตัวเลือกนี้ ส่วนนี้จะซ่อนและปุ่ม \"แก้ไข field\" จะมีเฉพาะในเมนู dropdown ของ reply เมื่อ field ทั้งหมดว่างเปล่า\n",
+                "tags-as-field": "แสดงตัวเลือก tag เป็น field",
+                "tags-as-field-help": "การตั้งค่านี้จะซ่อนตัวเลือก tag เริ่มต้นและแสดง dropdown field แทน ใช้งานได้เฉพาะเมื่ออนุญาต primary tag และ secondary tag ได้อย่างละหนึ่งเท่านั้น!\n",
+                "tags-field-name": "ป้ายชื่อของ field tag",
+                "tags-field-name-placeholder": "=> fof-mason.forum.tags.tags-label"
             },
             "titles": {
-                "settings": "",
-                "fields": "",
-                "field-settings": "",
-                "field-answers": ""
+                "settings": "การตั้งค่า",
+                "fields": "Fields",
+                "field-settings": "การตั้งค่า field",
+                "field-answers": "คำตอบของ field"
             },
             "permissions": {
-                "see-own-fields": "",
-                "see-other-fields": "",
-                "fill-fields": "",
-                "update-own-fields": "",
-                "update-other-fields": "",
-                "skip-required-fields": ""
+                "see-own-fields": "ดู field ใน discussion ของตนเอง",
+                "see-other-fields": "ดู field ใน discussion ทั้งหมด",
+                "fill-fields": "กรอก field เมื่อสร้าง discussion ใหม่",
+                "update-own-fields": "อัปเดต field ใน discussion ของตนเอง",
+                "update-other-fields": "อัปเดต field ใน discussion ใดก็ได้",
+                "skip-required-fields": "ได้รับอนุญาตให้ข้าม field ที่จำเป็น"
             }
         }
     }

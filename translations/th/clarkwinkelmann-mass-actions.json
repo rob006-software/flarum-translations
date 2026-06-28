@@ -2,33 +2,33 @@
     "clarkwinkelmann-mass-actions": {
         "forum": {
             "select": {
-                "all": "",
-                "none": "",
-                "read": "",
-                "unread": "",
-                "visible": "",
-                "hidden": "",
-                "locked": "",
-                "unlocked": ""
+                "all": "ทั้งหมด",
+                "none": "ไม่เลือก",
+                "read": "อ่านแล้ว",
+                "unread": "ยังไม่ได้อ่าน",
+                "visible": "ยังไม่ถูกลบ",
+                "hidden": "ลบแบบ soft delete",
+                "locked": "ล็อกแล้ว",
+                "unlocked": "ยังไม่ได้ล็อก"
             },
             "actions": {
-                "markAsRead": "",
-                "hide": "",
-                "restore": "",
-                "delete": "",
-                "deleteConfirmation": "",
-                "lock": "",
-                "unlock": "",
-                "sticky": "",
-                "unsticky": "",
-                "tags": "",
-                "tags-edit": "",
-                "tags-add": ""
+                "markAsRead": "ทำเครื่องหมายว่าอ่านแล้ว",
+                "hide": "ลบที่เลือก",
+                "restore": "กู้คืนที่เลือก",
+                "delete": "ลบถาวรที่เลือก",
+                "deleteConfirmation": "{count, plural, one {คุณแน่ใจหรือไม่ว่าต้องการลบกระทู้ที่เลือกอย่างถาวร?} other {คุณแน่ใจหรือไม่ว่าต้องการลบ # กระทู้ที่เลือกอย่างถาวร?}}",
+                "lock": "ล็อกที่เลือก",
+                "unlock": "ปลดล็อกที่เลือก",
+                "sticky": "ปักหมุดที่เลือก",
+                "unsticky": "เอาหมุดออกที่เลือก",
+                "tags": "Tags",
+                "tags-edit": "แก้ไข tags",
+                "tags-add": "เพิ่ม <em>{tag}</em>"
             }
         },
         "admin": {
             "permissions": {
-                "controls": ""
+                "controls": "ดูการควบคุมการเลือกหมู่"
             }
         }
     }

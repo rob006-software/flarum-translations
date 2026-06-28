@@ -2,13 +2,13 @@
     "mattoid-store-auto-check-in": {
         "admin": {
             "settings": {
-                "group-view": ""
+                "group-view": "แสดงสินค้าให้ user เห็น"
             }
         },
         "forum": {
-            "title": "",
+            "title": "Auto CheckIn Card",
             "error": {
-                "auto-check-in-fail": ""
+                "auto-check-in-fail": "การ check-in อัตโนมัติของ user [{username}] ล้มเหลว สาเหตุ：{message}"
             }
         }
     }

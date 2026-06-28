@@ -2,27 +2,27 @@
     "clarkwinkelmann-money-to-all": {
         "lib": {
             "modal": {
-                "title": "",
-                "amount": "",
-                "notify": "",
-                "message": "",
-                "messagePlaceholder": "",
-                "messageHelp": "",
-                "suspended": "",
-                "lastActivity": "",
-                "preview": "",
-                "submit": "",
-                "success": ""
+                "title": "ส่งเงินให้ผู้ใช้ทุกคน",
+                "amount": "จำนวนเงิน",
+                "notify": "ส่งการแจ้งเตือนให้ผู้ใช้",
+                "message": "ข้อความ",
+                "messagePlaceholder": "เปิดการแจ้งเตือนเพื่อเพิ่มข้อความ",
+                "messageHelp": "ไม่บังคับ ข้อความนี้จะแทนที่ข้อความการแจ้งเตือนเริ่มต้น ควรระบุจำนวนเงินในข้อความเนื่องจากจะไม่แสดงอีกต่อไป",
+                "suspended": "รวมผู้ใช้ที่ถูกระงับ",
+                "lastActivity": "จำกัดเฉพาะผู้ใช้ที่เคยใช้งานหลังจากวันที่นี้",
+                "preview": "การตั้งค่าปัจจุบันตรงกับผู้ใช้ {count} คน",
+                "submit": "ส่ง",
+                "success": "ส่งเงินให้ผู้ใช้ {count} คนแล้ว!"
             }
         },
         "admin": {
             "settings": {
-                "send": ""
+                "send": "ส่งเงินให้ผู้ใช้ทุกคน"
             }
         },
         "forum": {
             "notification": {
-                "moneyReceived": ""
+                "moneyReceived": "คุณได้รับ {amount}"
             }
         }
     }

@@ -3,23 +3,23 @@
         "admin": {
             "settings": {
                 "step": {
-                    "how_to": "",
-                    "check_config_url": "",
-                    "admin_on_canonical": "",
-                    "enable_temporary": "",
-                    "enable_permanent": "",
-                    "suggestions": "",
-                    "use_https": "",
-                    "use_hsts": ""
+                    "how_to": "วิธีเปิดใช้งานการ redirect แบบ canonical",
+                    "check_config_url": "ตรวจสอบว่า URL ที่กำหนดใน config.php เป็น canonical URL ที่คุณต้องการ (ปัจจุบัน: {url})",
+                    "admin_on_canonical": "เข้าถึง admin panel ผ่าน canonical URL",
+                    "enable_temporary": "เปิดใช้ temporary redirect และตรวจสอบว่าทุกอย่างทำงานได้",
+                    "enable_permanent": "เปิดใช้ permanent redirect",
+                    "suggestions": "คำแนะนำอื่นๆ ที่ extension นี้ไม่ได้บังคับใช้หรือครอบคลุม",
+                    "use_https": "ใช้ canonical URL แบบ HTTPS",
+                    "use_hsts": "ใช้ HSTS เพื่อป้องกันการโจมตีแบบ downgrade"
                 },
                 "field": {
-                    "status": "",
-                    "wrong_url": ""
+                    "status": "ประเภทการ redirect",
+                    "wrong_url": "การตั้งค่า extension จะปรากฏเมื่อคุณเข้าถึงฟอรัมผ่าน canonical URL"
                 },
                 "option": {
-                    "disabled": "",
-                    "302": "",
-                    "301": ""
+                    "disabled": "ปิดใช้งาน (extension จะไม่ทำอะไร)",
+                    "302": "302 (Temporary redirect สำหรับทดสอบ)",
+                    "301": "301 (Permanent redirect สำหรับ production)"
                 }
             }
         }

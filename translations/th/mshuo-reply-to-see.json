@@ -2,27 +2,27 @@
     "mshuo-reply-to-see": {
         "admin": {
             "settings": {
-                "reply-type-lable": "",
-                "reply-type-lable-helpText": "",
-                "theme-type-parse-lable": "",
-                "theme-type-parse-helpText": ""
+                "reply-type-lable": "ตัวเลือกการแสดงผลของการตอบกลับ",
+                "reply-type-lable-helpText": "ตอบกลับ topic: เข้าร่วมโพสต์เพื่อดูเนื้อหาที่ซ่อนอยู่, ตอบกลับ post ที่กำหนด: ต้องตอบกลับ post ที่มีเนื้อหาซ่อนอยู่โดยตรง",
+                "theme-type-parse-lable": "โหมด parse ของ post เมื่อตอบกลับ topic",
+                "theme-type-parse-helpText": "มีผลเฉพาะเมื่อ \"ตัวเลือกการแสดงผลของการตอบกลับ\" ตั้งค่าเป็น \"ตอบกลับ Topic\""
             },
             "permissions": {
-                "reply-to-see-lable": ""
+                "reply-to-see-lable": "ดูเนื้อหาที่ซ่อนอยู่โดยไม่ต้องตอบกลับ"
             },
             "reply-type": [
-                "",
-                ""
+                "ตอบกลับ topic เพื่อเปิดเผยเนื้อหาที่ซ่อน (ค่าเริ่มต้น)",
+                "ตอบกลับ post ที่กำหนดเพื่อเปิดเผยเนื้อหาที่ซ่อน"
             ],
             "theme-type-parse": [
-                "",
-                ""
+                "เฉพาะ post แรกเท่านั้น (ค่าเริ่มต้น ประสิทธิภาพดีที่สุด)",
+                "ทุก post"
             ]
         },
         "forum": {
-            "must-reply-specific": "",
-            "must-reply-theme": "",
-            "insert-reply-to-see": ""
+            "must-reply-specific": "ตอบกลับเพื่อปลดล็อก",
+            "must-reply-theme": "เข้าร่วมโพสต์เพื่อดู",
+            "insert-reply-to-see": "ตอบกลับเพื่อปลดล็อกเนื้อหาที่ซ่อน"
         }
     }
 }

@@ -2,69 +2,69 @@
     "huoxin-money-with-history": {
         "admin": {
             "settings": {
-                "title": "",
-                "post_reward_amount": "",
-                "discussion_reward_amount": "",
-                "money_name": "",
-                "min_post_length": "",
-                "exclude_mentions_from_length": "",
-                "hide_zero_balances": "",
-                "remove_money_trigger": "",
-                "cascade_money_removal": "",
-                "reward_private_discussion": "",
-                "like_reward_amount": "",
-                "help_extension_likes": "",
-                "reward_self_like": ""
+                "title": "การตั้งค่า",
+                "post_reward_amount": "เงินที่ได้รับสำหรับการโพสต์ใหม่",
+                "discussion_reward_amount": "เงินที่ได้รับสำหรับการสร้างกระทู้ใหม่",
+                "money_name": "ชื่อเงิน (เช่น [money] คะแนน)",
+                "min_post_length": "ความยาวขั้นต่ำของโพสต์เพื่อรับเงิน (0 เพื่อปิดการใช้งาน)",
+                "exclude_mentions_from_length": "เมื่อนับจำนวนคำของการตอบกลับ ให้นับเฉพาะส่วนเนื้อหาเท่านั้น",
+                "hide_zero_balances": "ไม่แสดงหากยอดเงินเป็นศูนย์",
+                "remove_money_trigger": "อัปเดตเงินโดยอัตโนมัติ",
+                "cascade_money_removal": "ลบเงินของโพสต์เมื่อกระทู้ถูกลบ",
+                "reward_private_discussion": "อนุญาตให้รับเงินในกระทู้ส่วนตัว",
+                "like_reward_amount": "เงินที่ได้รับเมื่อโพสต์ถูก like",
+                "help_extension_likes": "ต้องใช้ extension <code>flarum/likes</code>",
+                "reward_self_like": "อนุญาตให้ผู้ใช้รับเงินจากการ like ตัวเอง"
             },
             "permissions": {
-                "edit_money_label": "",
-                "disable_money_label": "",
-                "query_others_history": ""
+                "edit_money_label": "แก้ไขเงิน",
+                "disable_money_label": "ปิดรางวัลเงิน",
+                "query_others_history": "ดูประวัติเงินของผู้อื่น"
             },
             "remove_money_trigger": [
-                "",
-                "",
-                ""
+                "ไม่ลบเงิน",
+                "เมื่อกระทู้/โพสต์ถูกซ่อนหรือกู้คืน (ค่าเริ่มต้น)",
+                "เมื่อกระทู้/โพสต์ถูกลบ"
             ]
         },
         "forum": {
-            "nav": "",
-            "title": "",
-            "list-empty": "",
-            "money-list-load-more": "",
+            "nav": "ประวัติเงิน",
+            "title": "ประวัติเงิน",
+            "list-empty": "ไม่พบบันทึก",
+            "money-list-load-more": "โหลดเพิ่ม",
             "money-history": {
-                "discussion-deleted": "",
-                "discussion-hidden": "",
-                "discussion-restored": "",
-                "discussion-reward": "",
-                "manual-adjustment": "",
-                "post-deleted": "",
-                "post-hidden": "",
-                "post-liked": "",
-                "post-restored": "",
-                "post-reward": "",
-                "post-unliked": ""
+                "discussion-deleted": "หักเงินจากการลบกระทู้",
+                "discussion-hidden": "หักเงินจากการซ่อนกระทู้",
+                "discussion-restored": "รางวัลจากการกู้คืนกระทู้",
+                "discussion-reward": "รางวัลจากกระทู้",
+                "manual-adjustment": "ปรับยอดด้วยตนเอง",
+                "post-deleted": "หักเงินจากการลบโพสต์",
+                "post-hidden": "หักเงินจากการซ่อนโพสต์",
+                "post-liked": "รางวัลจากการ like โพสต์",
+                "post-restored": "รางวัลจากการกู้คืนโพสต์",
+                "post-reward": "รางวัลจากโพสต์",
+                "post-unliked": "หักเงินจากการ unlike โพสต์"
             },
             "record": {
-                "from": "",
-                "money-out": "",
-                "money-in": "",
-                "money-list-type": "",
-                "money-list-assign-at": "",
-                "money-list-id": "",
-                "money-list-from-user": "",
-                "money-list-target-user": "",
-                "money-list-amount": "",
-                "money-list-transfer-notes": "",
-                "money-list-balance": ""
+                "from": "จาก",
+                "money-out": "หักเงิน",
+                "money-in": "รางวัล",
+                "money-list-type": "ประเภท",
+                "money-list-assign-at": "เวลา",
+                "money-list-id": "ID",
+                "money-list-from-user": "ผู้ดำเนินการ",
+                "money-list-target-user": "บัญชีที่ดำเนินการ",
+                "money-list-amount": "จำนวน",
+                "money-list-transfer-notes": "วัตถุประสงค์",
+                "money-list-balance": "ยอดคงเหลือ"
             },
             "user_controls": {
-                "money_button": ""
+                "money_button": "แก้ไขเงิน"
             },
             "modal": {
-                "title": "",
-                "current": "",
-                "submit_button": ""
+                "title": "เงินของ {username}",
+                "current": "ปัจจุบัน:",
+                "submit_button": "=> core.ref.save_changes"
             }
         }
     }

@@ -1,4 +1,4 @@
-{
+﻿{
     "flarum-suspend": {
         "admin": {
             "permissions": {
@@ -7,49 +7,49 @@
         },
         "forum": {
             "notifications": {
-                "user_suspended_text": "{username} ได้ระงับการใช้งานคุณเป็นเวลา {timeReadable}",
-                "user_suspended_indefinite_text": "",
-                "user_unsuspended_text": "{username} ได้เลิกระงับการใช้งานคุณ"
+                "user_suspended_text": "คุณถูกระงับการใช้งานเป็นเวลา {timeReadable}",
+                "user_suspended_indefinite_text": "คุณถูกระงับการใช้งานอย่างไม่มีกำหนด",
+                "user_unsuspended_text": "คุณได้รับการยกเลิกการระงับการใช้งานแล้ว"
             },
             "suspension_info": {
-                "dismiss_button": "",
-                "indefinite": "",
-                "limited": "",
-                "title": ""
+                "dismiss_button": "ปิด",
+                "indefinite": "การระงับการใช้งานนี้ไม่มีกำหนดเวลา",
+                "limited": "การระงับการใช้งานนี้จะสิ้นสุดในวันที่ {date}",
+                "title": "บัญชีนี้ถูกระงับการใช้งาน"
             },
             "suspend_user": {
-                "display_message": "",
+                "display_message": "ข้อความแสดงให้ผู้ใช้เห็น",
                 "indefinitely_label": "ระงับการใช้งานถาวร",
                 "limited_time_days_text": " วัน",
-                "limited_time_label": "ระงับการใช้งานเเบบจำกัดเวลา",
-                "not_suspended_label": "ไม่ได้ถูกระงับการใช้งาน",
-                "placeholder_optional": "",
-                "reason": "",
-                "status_heading": "สถานะการระงับการใช้งาน",
+                "limited_time_label": "ระงับการใช้งานชั่วคราว...",
+                "not_suspended_label": "ไม่ได้ถูกระงับ",
+                "placeholder_optional": "ไม่บังคับ",
+                "reason": "เหตุผลในการระงับ",
+                "status_heading": "สถานะการระงับ",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "ระงับการใช้งาน {username}"
             },
             "user_badge": {
-                "suspended_tooltip": "ระงับการใช้งาน"
+                "suspended_tooltip": "ถูกระงับการใช้งาน"
             },
             "user_controls": {
-                "suspend_button": "ระงับกาใช้งาน"
+                "suspend_button": "ระงับการใช้งาน"
             }
         },
         "email": {
-            "no_reason_given": "",
+            "no_reason_given": "ไม่มีการระบุเหตุผลสำหรับการระงับครั้งนี้",
             "suspended": {
-                "subject": "",
-                "body": ""
+                "subject": "บัญชีของคุณถูกระงับการใช้งาน",
+                "body": "สวัสดี {recipient_display_name},\n\nคุณถูกระงับการใช้งานด้วยเหตุผลดังต่อไปนี้:\n\n---\n{suspension_message}\n---\n"
             },
             "unsuspended": {
-                "subject": "",
-                "body": ""
+                "subject": "บัญชีของคุณได้รับการยกเลิกการระงับแล้ว",
+                "body": "สวัสดี {recipient_display_name},\n\nคุณได้รับการยกเลิกการระงับการใช้งานแล้ว กลับไปที่ฟอรัมได้โดยคลิกลิงก์ด้านล่าง:\n\n{forum_url}\n"
             }
         },
         "validation": {
             "attributes": {
-                "suspendedUntil": ""
+                "suspendedUntil": "ระงับจนถึง"
             }
         }
     }

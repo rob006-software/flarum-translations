@@ -1,41 +1,41 @@
 {
     "fof-filter": {
         "forum": {
-            "flagger_name": "",
-            "flag_message": ""
+            "flagger_name": "ระบบตรวจสอบอัตโนมัติ",
+            "flag_message": "มีคำที่ถูกบล็อค"
         },
         "admin": {
-            "title": "",
-            "bad_words_help": "",
-            "help2": "",
-            "email_help": "",
-            "filter_label": "",
-            "countLabel": "",
-            "cooldownLabel": "",
-            "auto_merge_title": "",
+            "title": "Filter",
+            "bad_words_help": "กรอกข้อความหรือคำที่ต้องการกรอง ทีละบรรทัด หากเนื้อหาของโพสต์มีคำที่คุณต้องการกรอง จะถูกส่งให้ตรวจสอบก่อนอนุมัติ รองรับการตรวจจับการสะกดแบบ 133t",
+            "help2": "ช่วงเวลา (เป็นนาที) ที่ระบบจะรวมโพสต์จากผู้ใช้คนเดียวกันในกระทู้เดียวกันโดยอัตโนมัติ",
+            "email_help": "เนื้อหาของ Email แจ้งเตือน รองรับ HTML หรือ Plain Text ใช้ %USERNAME% เพื่อแทรกชื่อผู้ใช้ที่ถูกกรอง\n",
+            "filter_label": "คำที่ต้องการกรอง",
+            "countLabel": "ความอดทนในการเซ็นเซอร์",
+            "cooldownLabel": "ช่วงเวลารวมโพสต์",
+            "auto_merge_title": "รวมโพสต์อัตโนมัติ",
             "input": {
-                "placeholder": "",
-                "filter_title": "",
-                "email_label": "",
-                "email_help": "",
+                "placeholder": "คำที่ต้องการกรอง",
+                "filter_title": "คำที่ต้องการกรอง",
+                "email_label": "ตั้งค่า Email",
+                "email_help": "เว้นว่างเพื่อใช้การแปลภาษา คุณสามารถใช้ FoF Linguist เพื่อแปล Email",
                 "switch": {
-                    "email": "",
-                    "merge": "",
-                    "delete": ""
+                    "email": "ส่ง Email ให้ผู้ใช้เมื่อโพสต์ถูกกรอง",
+                    "merge": "รวมโพสต์ซ้ำอัตโนมัติ",
+                    "delete": "ลบโพสต์ที่ถูกกรองอัตโนมัติ"
                 },
-                "email_subject": "",
-                "email_body": ""
+                "email_subject": "หัวเรื่อง",
+                "email_body": "เนื้อหา"
             },
             "nav": {
-                "text": "",
-                "desc": ""
+                "text": "Filter",
+                "desc": "กรองโพสต์ตามคำ"
             },
             "permission": {
-                "bypass_filter_label": ""
+                "bypass_filter_label": "ข้ามการกรองคำ"
             },
             "email": {
-                "default_subject": "",
-                "default_text": ""
+                "default_subject": "เกี่ยวกับโพสต์ล่าสุดของคุณ",
+                "default_text": "%USERNAME%,\n\nขอบคุณที่โพสต์! แต่อุ๊ปส์ โพสต์ของคุณถูกลบออกเนื่องจากมีเนื้อหาที่เราไม่อนุญาตในฟอรัมนี้\n\nหากคุณคิดว่านี่เป็นความผิดพลาด ไม่ต้องกังวล เพราะโพสต์ที่ถูกลบทุกรายการจะถูกตรวจสอบโดยผู้ดูแล หากพบว่าลบผิดพลาด ทางทีมจะคืนสถานะให้\n\nขอบคุณสำหรับความเข้าใจ\n"
             }
         }
     }

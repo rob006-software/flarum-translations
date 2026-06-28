@@ -1,27 +1,27 @@
 {
     "flarum-ext-toastme": {
         "admin": {
-            "enabletoast": "",
-            "helpenable": "",
-            "offsetyy": "",
-            "offsetydesc": "",
-            "offsetxx": "",
-            "offsetxdesc": "",
-            "dest": "",
-            "destdesc": "",
-            "duration": "",
-            "durdesc": "",
-            "gravity": "",
-            "gravdesc": "",
-            "position": "",
-            "posdesc": "",
-            "background": "",
-            "backgrounddesc": "",
-            "message": "",
-            "messagedesc": ""
+            "enabletoast": "เปิดใช้งาน/ปิดใช้งาน Toast Alert",
+            "helpenable": "ใช้การตั้งค่านี้เพื่อเปิด หรือปิดใช้งาน toast alert",
+            "offsetyy": "Offset Y - margin แกนตั้ง (px) (เว้นไว้สำหรับค่าเริ่มต้น)",
+            "offsetydesc": "margin แกนตั้ง - สามารถเป็นตัวเลขแสดงค่า pixel ได้ ตัวอย่าง 20 (pixel)",
+            "offsetxx": "Offset X - margin แกนนอน (px) (เว้นไว้สำหรับค่าเริ่มต้น)",
+            "offsetxdesc": "margin แกนนอน - สามารถเป็นตัวเลขแสดงค่า pixel ได้ ตัวอย่าง 20 (pixel)",
+            "dest": "URL ปลายทาง",
+            "destdesc": "URL ที่เบราว์เซอร์ควรนำทางไปเมื่อคลิก toast",
+            "duration": "ระยะเวลาแสดง toast -1 สำหรับ toast ถาวร",
+            "durdesc": "ใช้ milliseconds - ตัวอย่าง \"3000\" สำหรับ 3 วินาที",
+            "gravity": "Gravity - สามารถ \"top\" หรือ \"bottom\"",
+            "gravdesc": "ตั้งตำแหน่งของ toast top หรือ bottom ได้รับการยอมรับ",
+            "position": "Position - สามารถ \"left\" \"right\" หรือ \"center\"",
+            "posdesc": "คุณต้องการให้ toast ปรากฏที่ไหน left right หรือ center?",
+            "background": "Background Color (hex format)",
+            "backgrounddesc": "ใส่สีพื้นหลังของคุณในรูปแบบ HEX - เช่น \"#ffcc00\"",
+            "message": "ข้อความของ Toast",
+            "messagedesc": "ที่นี่คุณสามารถใส่ข้อความของ alert toast ของคุณ"
         },
         "forum": {
-            "message1": ""
+            "message1": "เป็นความเป็นจริงที่ได้รับการยอมรับมานานแล้วว่าผู้อ่านจะถูกรบกวนโดยเนื้อหาที่อ่านได้ของหน้าเมื่อดูที่เค้าโครงของมัน"
         }
     }
 }

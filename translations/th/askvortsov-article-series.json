@@ -1,26 +1,26 @@
-{
+﻿{
     "askvortsov-article-series": {
         "admin": {
             "edit_tags": {
-                "is_article_series": "เป็นบทความชุดไหม?"
+                "is_article_series": "เป็นบทความชุดหรือไม่?"
             }
         },
         "forum": {
             "article_item": {
-                "next_article": "",
-                "prev_article": ""
+                "next_article": "บทความถัดไป",
+                "prev_article": "บทความก่อนหน้า"
             },
             "article_list": {
-                "title": "บทความชุดของ {series}"
+                "title": "บทความชุด {series}"
             },
             "article_series_modal": {
                 "title": "ตั้งค่าบทความชุด",
-                "tag_id_label": "เเท็กของบทความชุด",
-                "order_label": "การเรียงลำดับ (เรียงจากน้อยไปมาก)",
-                "submit_button": "ส่ง"
+                "tag_id_label": "แท็กของบทความชุด",
+                "order_label": "ลำดับ (เรียงจากน้อยไปมาก)",
+                "submit_button": "บันทึก"
             },
             "discussion_controls": {
-                "article_series_button": "ตั้งค่าบทความขุด"
+                "article_series_button": "ตั้งค่าบทความชุด"
             }
         }
     }

@@ -1,14 +1,14 @@
 {
     "huoxin-auto-follow-discussion": {
         "admin": {
-            "default-follow-after-create-label": "",
-            "default-follow-after-create-help": "",
-            "default-follow-after-read-label": "",
-            "default-follow-after-read-help": ""
+            "default-follow-after-create-label": "ค่าเริ่มต้นสำหรับการ follow กระทู้ที่ผู้ใช้สร้างโดยอัตโนมัติ",
+            "default-follow-after-create-help": "ค่าเริ่มต้น: เปิด",
+            "default-follow-after-read-label": "ค่าเริ่มต้นสำหรับการ follow กระทู้ที่ผู้ใช้อ่านโดยอัตโนมัติ",
+            "default-follow-after-read-help": "ค่าเริ่มต้น: ปิด"
         },
         "forum": {
-            "default-follow-after-create-label": "",
-            "default-follow-after-read-label": ""
+            "default-follow-after-create-label": "Follow กระทู้ที่ฉันสร้างโดยอัตโนมัติ",
+            "default-follow-after-read-label": "Follow กระทู้ที่ฉันอ่านโดยอัตโนมัติ"
         }
     }
 }

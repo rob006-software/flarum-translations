@@ -2,28 +2,28 @@
     "flarum-flags": {
         "forum": {
             "flag_post": {
-                "reason_duplicate_label": ""
+                "reason_duplicate_label": "ซ้ำกัน"
             }
         }
     },
     "blomstra-flag-duplicates": {
         "admin": {
             "settings": {
-                "event_post_help": "",
-                "event_post_label": ""
+                "event_post_help": "สร้างโพสต์เหตุการณ์ในกระทู้ที่มีการแจ้งว่า \"ซ้ำกัน\" เพื่อแจ้งให้ผู้ใช้ทราบว่ากระทู้นี้อาจเป็นสำเนาของกระทู้อื่น โดยไม่เปิดเผยรายละเอียดของการแจ้งทั้งหมด",
+                "event_post_label": "โพสต์เหตุการณ์"
             }
         },
         "forum": {
             "flags": {
-                "duplicate_discussion": "",
-                "reason_duplicate_label": "",
-                "reason_duplicate_text": "",
-                "reason_discussion_deleted": "",
-                "deselect_discussion_a11y_label": ""
+                "duplicate_discussion": "กระทู้ซ้ำ",
+                "reason_duplicate_label": "กระทู้ซ้ำกัน",
+                "reason_duplicate_text": "กระทู้นี้ซ้ำกับกระทู้อื่น",
+                "reason_discussion_deleted": "[กระทู้ถูกลบ]",
+                "deselect_discussion_a11y_label": "ยกเลิกการเลือกกระทู้"
             },
             "post_stream": {
-                "flagged_duplicate_text": "",
-                "deleted_discussion": ""
+                "flagged_duplicate_text": "{username} ทำเครื่องหมายกระทู้นี้ว่าอาจซ้ำกับ {duplicate} ผู้ดูแลจะตรวจสอบในไม่ช้า",
+                "deleted_discussion": "[กระทู้ถูกลบ]"
             }
         }
     }

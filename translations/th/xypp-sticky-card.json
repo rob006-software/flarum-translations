@@ -1,21 +1,21 @@
 {
     "xypp-sticky-card": {
         "forum": {
-            "use-sticky-card": "",
-            "default": "",
-            "loading": "",
-            "used": "",
-            "not-used": "",
-            "no-card": "",
-            "giveup": "",
-            "success": "",
-            "already": "",
-            "sticky-card": "",
-            "sticky_card_take_effect": "",
-            "sticky_card_expire": ""
+            "use-sticky-card": "ใช้ Sticky Card",
+            "default": "ค่าเริ่มต้น",
+            "loading": "กำลังโหลด...",
+            "used": "ใช้งานเมื่อ {0}",
+            "not-used": "ยังไม่ได้ใช้",
+            "no-card": "ไม่มี card ที่สามารถใช้ได้",
+            "giveup": "ยกเลิกการซื้อ",
+            "success": "ใช้งานสำเร็จ",
+            "already": "กระทู้นี้ถูก sticky ไปแล้ว",
+            "sticky-card": "Sticky Card",
+            "sticky_card_take_effect": "{username} ใช้ Sticky Card แล้ว",
+            "sticky_card_expire": "Sticky Card ของ {username} หมดอายุแล้ว"
         },
         "api": {
-            "already_sticky": ""
+            "already_sticky": "กระทู้นี้ถูก sticky ไปแล้ว"
         }
     }
 }

@@ -3,82 +3,82 @@
         "admin": {
             "modals": {
                 "fields": {
-                    "board": "",
-                    "trello_label": "",
-                    "forum_tags": ""
+                    "board": "เลือก Trello board",
+                    "trello_label": "เลือก Trello label",
+                    "forum_tags": "เลือก Forum tag ที่ต้องการ map"
                 },
-                "no_available_labels_label": "",
-                "no_available_tags_label": ""
+                "no_available_labels_label": "ไม่มี label ที่ใช้งานได้",
+                "no_available_tags_label": "ไม่มี forum tag ที่ใช้งานได้"
             },
             "permissions": {
-                "add_to_trello": ""
+                "add_to_trello": "เชื่อมกระทู้กับ Trello ได้"
             },
             "settings": {
-                "api_key_help": "",
-                "api_key_label": "",
-                "api_token_help": "",
-                "api_token_label": "",
-                "available_boards_label": "",
+                "api_key_help": "กรอก API key จาก {link} เพื่อให้ extension นี้เชื่อมต่อกับ Trello",
+                "api_key_label": "API Key",
+                "api_token_help": "กรอก API token เพื่อให้ extension นี้เชื่อมต่อกับ Trello ไปที่ {link} แล้วคลิก <code>Generate a Token</code>",
+                "api_token_label": "API Token",
+                "available_boards_label": "Board ที่ใช้งานได้",
                 "button": {
-                    "add": "",
-                    "remove": ""
+                    "add": "เพิ่ม",
+                    "remove": "ลบ"
                 },
-                "default_board_help": "",
-                "default_board_label": "",
-                "guest_workspace": "",
-                "in_trello": "",
-                "include_secondary_tags_help": "",
-                "include_secondary_tags_label": "",
+                "default_board_help": "Board เริ่มต้นที่เลือกไว้จะถูก pre-select ใน modal ส่งไป Trello ในฝั่ง forum",
+                "default_board_label": "Board เริ่มต้น",
+                "guest_workspace": "Guest Workspace",
+                "in_trello": "ใน Trello",
+                "include_secondary_tags_help": "เมื่อปิด จะส่งเฉพาะ tag หลักของกระทู้ไปยัง Trello เมื่อเปิด จะส่ง tag ทั้งหมดไปยัง Trello",
+                "include_secondary_tags_label": "รวม secondary tags ด้วย",
                 "label": {
-                    "general": "",
-                    "boards": "",
-                    "labels": ""
+                    "general": "ทั่วไป",
+                    "boards": "ตั้งค่า Boards",
+                    "labels": "ตั้งค่า Labels"
                 },
                 "mapping": {
-                    "add_new": "",
-                    "mapping_description": "",
-                    "modal_title": "",
-                    "no_mappings_for_board": ""
+                    "add_new": "เพิ่ม mapping",
+                    "mapping_description": "จะกลายเป็น",
+                    "modal_title": "Tag mapping ใหม่",
+                    "no_mappings_for_board": "ยังไม่มี tag mapping ที่ใช้งานอยู่สำหรับ board นี้"
                 },
-                "mappings_label": "",
-                "member_id_help": "",
-                "member_id_label": "",
-                "no_available_boards_label": "",
-                "no_label_name": "",
-                "no_selected_boards_label": "",
-                "selected_boards_label": "",
-                "save": "",
-                "tag": "",
-                "unmapped_warning_label": "",
-                "unmapped_warning_help": ""
+                "mappings_label": "การ map Forum tags กับ Trello labels",
+                "member_id_help": "กรอก Trello Member ID เพื่อดึง board ขององค์กรจาก Trello (https://trello.com/your-trello-handle)",
+                "member_id_label": "Member ID",
+                "no_available_boards_label": "ไม่มี board ที่ใช้งานได้",
+                "no_label_name": "ไม่มีชื่อ label",
+                "no_selected_boards_label": "ยังไม่ได้เลือก board",
+                "selected_boards_label": "Board ที่เลือกไว้",
+                "save": "บันทึกการเปลี่ยนแปลง",
+                "tag": "Tag",
+                "unmapped_warning_label": "แจ้งเตือนเมื่อมี tag ที่ยังไม่ได้ map",
+                "unmapped_warning_help": "แสดงคำเตือนเมื่อส่งกระทู้ไปยัง Trello หาก Forum tags ยังไม่ได้ map กับ Trello tags"
             }
         },
         "forum": {
             "badges": {
                 "trello": {
-                    "tooltip": ""
+                    "tooltip": "มีอยู่ใน Trello แล้ว"
                 }
             },
             "controls": {
-                "send_to_trello_button": "",
-                "view_on_trello_button": ""
+                "send_to_trello_button": "ส่งไปยัง Trello",
+                "view_on_trello_button": "ดู Trello card"
             },
             "modals": {
                 "fields": {
-                    "board": "",
-                    "lane": "",
-                    "member": "",
-                    "member_selected": ""
+                    "board": "เลือก Trello board",
+                    "lane": "เลือก Trello lane",
+                    "member": "เลือก Trello member",
+                    "member_selected": "{count, plural, one {# member} other {# members}} ที่เลือก"
                 },
-                "no_available_board_lanes": "",
-                "no_available_board_members": "",
-                "no_available_boards_label": "",
-                "no_mappings_for_board": "",
-                "title": ""
+                "no_available_board_lanes": "ไม่มี board lane ที่ใช้งานได้",
+                "no_available_board_members": "ไม่มี board member ที่ใช้งานได้",
+                "no_available_boards_label": "ไม่มี board ที่ใช้งานได้",
+                "no_mappings_for_board": "Board ที่เลือกอยู่ยังไม่มีการตั้งค่า Trello label mappings สำหรับ forum tags",
+                "title": "ส่งไปยัง Trello"
             }
         },
         "lib": {
-            "original_post": ""
+            "original_post": "โพสต์ต้นฉบับ"
         }
     }
 }

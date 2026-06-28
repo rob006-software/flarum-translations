@@ -1,36 +1,36 @@
-{
+﻿{
     "flarum-statistics": {
         "admin": {
             "date_selection_modal": {
-                "description": "",
-                "end_date": "",
+                "description": "เลือกช่วงวันที่เพื่อดูสถิติ การโหลดข้อมูลอาจใช้เวลาหลายนาทีสำหรับฟอรัมที่มีกิจกรรมมาก\n",
+                "end_date": "วันที่สิ้นสุด (รวมวันนั้นด้วย)",
                 "errors": {
-                    "end_before_start": ""
+                    "end_before_start": "วันที่สิ้นสุดต้องอยู่หลังวันที่เริ่มต้น"
                 },
-                "start_date": "",
-                "submit_button": "",
-                "title": ""
+                "start_date": "วันที่เริ่มต้น (รวมวันนั้นด้วย)",
+                "submit_button": "ยืนยันช่วงวันที่",
+                "title": "เลือกช่วงวันที่"
             },
             "statistics": {
                 "discussions_heading": "=> core.ref.discussions",
-                "export_chart_button": "",
-                "last_12_months_label": "เมื่อ 12 เดือนที่ผ่านมา",
-                "last_28_days_label": "เมื่อ 28 วันที่ผ่านมา",
-                "last_7_days_label": "เมื่อ 7 วันที่ผ่านมา",
-                "mini_heading": "",
-                "previous_28_days_label": "",
-                "previous_7_days_label": "",
-                "custom_label": "",
-                "custom_label_specified": "",
-                "loading": "",
+                "export_chart_button": "ส่งออกกราฟเป็น SVG",
+                "last_12_months_label": "12 เดือนที่ผ่านมา",
+                "last_28_days_label": "28 วันที่ผ่านมา",
+                "last_7_days_label": "7 วันที่ผ่านมา",
+                "mini_heading": "สถิติฟอรัม",
+                "previous_28_days_label": "28 วันก่อนหน้า",
+                "previous_7_days_label": "7 วันก่อนหน้า",
+                "custom_label": "เลือกช่วงวันที่...",
+                "custom_label_specified": "{fromDate} ถึง {toDate}",
+                "loading": "=> core.ref.loading",
                 "posts_heading": "=> core.ref.posts",
                 "today_label": "วันนี้",
                 "total_label": "ทั้งหมด",
                 "users_heading": "=> core.ref.users",
-                "view_full": "",
-                "no_data": "",
-                "current_period": "",
-                "previous_period": ""
+                "view_full": "ดูสถิติเพิ่มเติม",
+                "no_data": "ไม่มีข้อมูลสำหรับช่วงวันที่นี้",
+                "current_period": "ช่วงเวลาปัจจุบัน",
+                "previous_period": "ช่วงเวลาก่อนหน้า"
             }
         }
     }

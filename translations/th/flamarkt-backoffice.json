@@ -1,36 +1,36 @@
 {
     "flamarkt-backoffice": {
         "admin": {
-            "settingsInBackoffice": ""
+            "settingsInBackoffice": "การตั้งค่าใน Backoffice"
         },
         "backoffice": {
-            "settingsNotAvailableForNonAdmin": "",
+            "settingsNotAvailableForNonAdmin": "Extension นี้มีการตั้งค่า แต่เฉพาะบัญชี Admin เท่านั้นที่สามารถดูและแก้ไขได้",
             "nav": {
-                "dashboard": "",
-                "users": "",
-                "searchPlaceholder": ""
+                "dashboard": "Dashboard",
+                "users": "ผู้ใช้",
+                "searchPlaceholder": "=> core.admin.nav.search_placeholder"
             },
             "users": {
-                "title": "",
-                "new": "",
-                "searchPlaceholder": "",
+                "title": "ผู้ใช้",
+                "new": "สร้างผู้ใช้",
+                "searchPlaceholder": "ค้นหาผู้ใช้...",
                 "head": {
-                    "email": ""
+                    "email": "Email"
                 },
                 "field": {
-                    "username": "",
-                    "email": "",
-                    "password": ""
+                    "username": "ชื่อผู้ใช้",
+                    "email": "Email",
+                    "password": "รหัสผ่าน"
                 }
             },
             "permissions": {
-                "backoffice": ""
+                "backoffice": "ใช้งาน Backoffice"
             }
         },
         "lib": {
             "header": {
-                "admin_button": "",
-                "backoffice_button": ""
+                "admin_button": "=> core.forum.header.admin_button",
+                "backoffice_button": "Backoffice"
             }
         }
     }

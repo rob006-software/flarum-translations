@@ -2,32 +2,32 @@
     "clarkwinkelmann-predefined-avatars": {
         "admin": {
             "settings": {
-                "predefinedAvatarsOnly": "",
-                "predefinedAvatarsOnlyHelp": "",
-                "predefinedAvatarsNoRemove": "",
-                "predefinedAvatarsNoRemoveHelp": "",
-                "predefinedAvatarsDefault": "",
-                "predefinedAvatarsDefaultHelp": "",
-                "predefinedAvatars": "",
-                "predefinedAvatarsHelp": "",
+                "predefinedAvatarsOnly": "อนุญาตเฉพาะ Avatar ที่กำหนดไว้ล่วงหน้า",
+                "predefinedAvatarsOnlyHelp": "ลบความสามารถในการอัปโหลด Avatar ที่กำหนดเองได้ ยกเว้นผู้ที่มีสิทธิ์ด้านล่าง",
+                "predefinedAvatarsNoRemove": "ป้องกันการไม่ตั้ง Avatar",
+                "predefinedAvatarsNoRemoveHelp": "ผู้ใช้ที่มี Avatar แบบกำหนดเองหรือกำหนดไว้ล่วงหน้าจะไม่สามารถกลับไปใช้ Avatar เริ่มต้น \"ตัวอักษรย่อ\" ได้ ยกเว้นผู้ที่มีสิทธิ์ด้านล่าง",
+                "predefinedAvatarsDefault": "Avatar เริ่มต้น",
+                "predefinedAvatarsDefaultHelp": "ใช้กับผู้ใช้ใหม่เมื่อสมัครสมาชิก",
+                "predefinedAvatars": "Avatar ที่มีให้เลือก",
+                "predefinedAvatarsHelp": "ไฟล์จะไม่ถูกปรับขนาดหรือแปลงรูปแบบ กรุณาปรับขนาด บีบอัด และ Export ในรูปแบบที่ต้องการก่อนอัปโหลด Flarum ทำงานได้ดีที่สุดกับรูป PNG หรือ JPG ขนาด 100x100 พิกเซลแบบสี่เหลี่ยม แต่สามารถใช้ความละเอียดอื่นได้ด้วย CSS กำหนดเอง\n",
                 "defaultOptions": {
-                    "none": "",
-                    "first": "",
-                    "random": ""
+                    "none": "ไม่มี Avatar",
+                    "first": "Avatar แรกจากรายการ",
+                    "random": "Avatar สุ่มจากรายการ"
                 }
             },
             "permissions": {
-                "setPredefinedAvatar": "",
-                "setCustomAvatarAlways": ""
+                "setPredefinedAvatar": "เลือก Avatar จากรายการที่กำหนดไว้",
+                "setCustomAvatarAlways": "ตั้ง Avatar แบบกำหนดเองได้ตลอดเวลา"
             }
         },
         "forum": {
             "modal": {
-                "title": "",
-                "imageAlt": ""
+                "title": "เลือก Avatar",
+                "imageAlt": "Avatar"
             },
             "editor": {
-                "setPredefinedAvatar": ""
+                "setPredefinedAvatar": "เลือก Avatar ที่กำหนดไว้"
             }
         }
     }

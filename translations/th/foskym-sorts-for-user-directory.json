@@ -2,57 +2,57 @@
     "foskym-sorts-for-user-directory": {
         "admin": {
             "settings": {
-                "sort_by_nickname": "",
-                "sort_by_monthly_posts": "",
-                "sort_by_groups_count": "",
-                "sort_by_money": "",
-                "sort_by_likes_received": "",
-                "sort_by_recently_seen": "",
-                "sort_by_comments": "",
-                "sort_by_ziven_checkin": "",
-                "sort_by_invited_user": "",
-                "sort_by_badges_count": ""
+                "sort_by_nickname": "เรียงตามชื่อเล่น (ต้องใช้ Nicknames)",
+                "sort_by_monthly_posts": "เรียงตามโพสต์/กระทู้รายเดือน (อาจส่งผลต่อประสิทธิภาพ)",
+                "sort_by_groups_count": "เรียงตามจำนวนกลุ่ม",
+                "sort_by_money": "เรียงตามเงิน (ต้องใช้ Antoinefr Money)",
+                "sort_by_likes_received": "เรียงตามจำนวน like ที่ได้รับ (ต้องใช้ Likes Received)",
+                "sort_by_recently_seen": "เรียงตามวันที่เห็นล่าสุด",
+                "sort_by_comments": "เรียงตามจำนวนความคิดเห็น",
+                "sort_by_ziven_checkin": "เรียงตาม check-in (ต้องใช้ Ziven Daily Check In)",
+                "sort_by_invited_user": "เรียงตามจำนวนผู้ใช้ที่เชิญ (ต้องใช้ xypp/invite-user)",
+                "sort_by_badges_count": "เรียงตามจำนวน badge (ต้องใช้ v17development/flarum-user-badges)"
             },
-            "go_to_user_directory_extension": "",
-            "go_to_this_extension": ""
+            "go_to_user_directory_extension": "ไปที่ extension User Directory เพื่อดูการตั้งค่าเพิ่มเติม",
+            "go_to_this_extension": "ไปที่ extension Sorts For User Directory เพื่อดูการตั้งค่าเพิ่มเติม"
         },
         "forum": {
             "user_card": {
-                "monthly_discussions": "",
-                "monthly_comments": ""
+                "monthly_discussions": "กระทู้รายเดือน {count}",
+                "monthly_comments": "ความคิดเห็นรายเดือน {count}"
             }
         },
         "lib": {
             "integrations": {
                 "antoinefr-money": {
-                    "least_money": "",
-                    "most_money": ""
+                    "least_money": "เงินน้อยที่สุด",
+                    "most_money": "เงินมากที่สุด"
                 },
                 "clarkwinkelmann-likes-received": {
-                    "most_likes_received": "",
-                    "least_likes_received": ""
+                    "most_likes_received": "ได้รับ like มากที่สุด",
+                    "least_likes_received": "ได้รับ like น้อยที่สุด"
                 },
                 "core": {
-                    "nickname_az": "",
-                    "nickname_za": "",
-                    "recently_seen": "",
-                    "least_recently_seen": "",
-                    "most_comments": "",
-                    "least_comments": "",
-                    "most_monthly_discussions": "",
-                    "most_monthly_comments": "",
-                    "most_groups_count": ""
+                    "nickname_az": "ชื่อเล่น (a-z)",
+                    "nickname_za": "ชื่อเล่น (z-a)",
+                    "recently_seen": "เห็นล่าสุด",
+                    "least_recently_seen": "ไม่ได้เห็นนานที่สุด",
+                    "most_comments": "ความคิดเห็นมากที่สุด",
+                    "least_comments": "ความคิดเห็นน้อยที่สุด",
+                    "most_monthly_discussions": "กระทู้รายเดือนมากที่สุด",
+                    "most_monthly_comments": "ความคิดเห็นรายเดือนมากที่สุด",
+                    "most_groups_count": "จำนวนกลุ่มมากที่สุด"
                 },
                 "ziven-daily-check-in": {
-                    "recently_checkin": "",
-                    "most_total_checkin": "",
-                    "most_total_continuous_checkin": ""
+                    "recently_checkin": "check-in ล่าสุด",
+                    "most_total_checkin": "check-in รวมมากที่สุด",
+                    "most_total_continuous_checkin": "check-in ต่อเนื่องมากที่สุด"
                 },
                 "xypp-invite-user": {
-                    "most_invited_user": ""
+                    "most_invited_user": "เชิญผู้ใช้มากที่สุด"
                 },
                 "v17development-user-badges": {
-                    "most_badges_count": ""
+                    "most_badges_count": "badge มากที่สุด"
                 }
             }
         }
@@ -60,24 +60,24 @@
     "fof-user-directory": {
         "lib": {
             "sort": {
-                "nickname_az": "",
-                "nickname_za": "",
-                "most_money": "",
-                "least_money": "",
-                "most_likes_received": "",
-                "least_likes_received": "",
-                "recently_seen": "",
-                "least_recently_seen": "",
-                "most_comments": "",
-                "least_comments": "",
-                "recently_checkin": "",
-                "most_total_checkin": "",
-                "most_total_continuous_checkin": "",
-                "most_monthly_discussions": "",
-                "most_monthly_comments": "",
-                "most_groups_count": "",
-                "most_invited_user": "",
-                "most_badges_count": ""
+                "nickname_az": "=> foskym-sorts-for-user-directory.lib.integrations.core.nickname_az",
+                "nickname_za": "=> foskym-sorts-for-user-directory.lib.integrations.core.nickname_za",
+                "most_money": "=> foskym-sorts-for-user-directory.lib.integrations.antoinefr-money.most_money",
+                "least_money": "=> foskym-sorts-for-user-directory.lib.integrations.antoinefr-money.least_money",
+                "most_likes_received": "=> foskym-sorts-for-user-directory.lib.integrations.clarkwinkelmann-likes-received.most_likes_received",
+                "least_likes_received": "=> foskym-sorts-for-user-directory.lib.integrations.clarkwinkelmann-likes-received.least_likes_received",
+                "recently_seen": "=> foskym-sorts-for-user-directory.lib.integrations.core.recently_seen",
+                "least_recently_seen": "=> foskym-sorts-for-user-directory.lib.integrations.core.least_recently_seen",
+                "most_comments": "=> foskym-sorts-for-user-directory.lib.integrations.core.most_comments",
+                "least_comments": "=> foskym-sorts-for-user-directory.lib.integrations.core.least_comments",
+                "recently_checkin": "=> foskym-sorts-for-user-directory.lib.integrations.ziven-daily-check-in.recently_checkin",
+                "most_total_checkin": "=> foskym-sorts-for-user-directory.lib.integrations.ziven-daily-check-in.most_total_checkin",
+                "most_total_continuous_checkin": "=> foskym-sorts-for-user-directory.lib.integrations.ziven-daily-check-in.most_total_continuous_checkin",
+                "most_monthly_discussions": "=> foskym-sorts-for-user-directory.lib.integrations.core.most_monthly_discussions",
+                "most_monthly_comments": "=> foskym-sorts-for-user-directory.lib.integrations.core.most_monthly_comments",
+                "most_groups_count": "=> foskym-sorts-for-user-directory.lib.integrations.core.most_groups_count",
+                "most_invited_user": "=> foskym-sorts-for-user-directory.lib.integrations.xypp-invite-user.most_invited_user",
+                "most_badges_count": "=> foskym-sorts-for-user-directory.lib.integrations.v17development-user-badges.most_badges_count"
             }
         }
     }

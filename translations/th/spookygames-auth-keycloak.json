@@ -2,17 +2,17 @@
     "flarum-ext-auth-keycloak": {
         "admin": {
             "keycloak_settings": {
-                "title": "",
-                "keycloak_version_label": "",
-                "server_url_label": "",
-                "realm_label": "",
-                "client_id_label": "",
-                "client_secret_label": "",
-                "encryption_algorithm_label": "",
-                "encryption_key_label": "",
-                "role_mapping_label": "",
-                "attribute_mapping_label": "",
-                "delegate_avatars_label": ""
+                "title": "การตั้งค่า Keycloak",
+                "keycloak_version_label": "เวอร์ชัน Keycloak",
+                "server_url_label": "Server URL",
+                "realm_label": "Realm",
+                "client_id_label": "Client ID",
+                "client_secret_label": "Client Secret",
+                "encryption_algorithm_label": "อัลกอริทึมการเข้ารหัส",
+                "encryption_key_label": "คีย์เข้ารหัส (หรือ cert)",
+                "role_mapping_label": "การ mapping Role กับกลุ่ม",
+                "attribute_mapping_label": "การ mapping attribute แบบกำหนดเอง",
+                "delegate_avatars_label": "มอบหมายการจัดการ avatar"
             }
         }
     }

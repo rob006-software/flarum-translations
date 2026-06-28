@@ -1,27 +1,27 @@
 {
     "flarum-ext-dontgoaway": {
         "admin": {
-            "modtitle": "",
-            "modtitledesc": "",
-            "modtext": "",
-            "modtextdesc": "",
-            "urltext": "",
-            "urltextdesc": "",
-            "widthtext": "",
-            "widthdesc": "",
-            "heightext": "",
-            "heightdesc": "",
-            "altext": "",
-            "altdesc": "",
-            "btn": "",
-            "btndesc": "",
-            "enableExtLink": ""
+            "modtitle": "ชื่อหัวข้อ Popup",
+            "modtitledesc": "กำหนดชื่อหัวข้อของ popup",
+            "modtext": "ข้อความใน Popup",
+            "modtextdesc": "ใส่ข้อความที่ต้องการแสดงใน popup ที่นี่",
+            "urltext": "URL ของรูปภาพที่กำหนดเอง",
+            "urltextdesc": "วาง URL ของรูปภาพที่ต้องการที่นี่",
+            "widthtext": "ความกว้างของรูปภาพ",
+            "widthdesc": "กำหนดความกว้างของรูปภาพ (เช่น 450)",
+            "heightext": "ความสูงของรูปภาพ",
+            "heightdesc": "กำหนดความสูงของรูปภาพ (เช่น 450)",
+            "altext": "คุณลักษณะ Alt ของรูปภาพ",
+            "altdesc": "กำหนดคุณลักษณะ \"alt\" สำหรับรูปภาพ",
+            "btn": "กำหนดปุ่ม ดูตัวอย่างรูปแบบใน placeholder",
+            "btndesc": "สามารถตั้งค่าไอคอน fontawesome และข้อความสำหรับปุ่มได้",
+            "enableExtLink": "เปิดใช้งาน Popup เมื่อคลิกลิงก์ภายนอก"
         },
         "forum": {
-            "extlinktitle": "",
-            "extlinktext": "",
-            "confbutton": "",
-            "cancelbutton": ""
+            "extlinktitle": "ลิงก์ภายนอก",
+            "extlinktext": "คุณกำลังจะออกจากเว็บไซต์โดยคลิกที่ลิงก์ภายนอก",
+            "confbutton": "ดำเนินการต่อ",
+            "cancelbutton": "อยู่ต่อที่นี่!"
         }
     }
 }

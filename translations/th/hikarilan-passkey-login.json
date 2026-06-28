@@ -4,39 +4,39 @@
             "settings": {
                 "relying_party": {
                     "name": {
-                        "label": "",
-                        "help": ""
+                        "label": "ชื่อ Relying Party",
+                        "help": "ชื่อ Relying Party คือชื่อที่อ่านได้สำหรับเว็บไซต์ของคุณ หากเว้นว่างไว้ จะใช้ชื่อฟอรั่มแทน"
                     },
                     "id": {
-                        "label": "",
-                        "help": ""
+                        "label": "Relying Party ID",
+                        "help": "Relying Party ID คือตัวระบุเฉพาะสำหรับเว็บไซต์ของคุณ ควรเป็นโดเมนของเว็บไซต์โดยไม่มี scheme เช่น ถ้าเว็บไซต์คือ https://example.com ค่า rp ID จะเป็น example.com หากเว้นว่างไว้จะใช้โดเมนปัจจุบัน"
                     }
                 },
                 "timeout": {
-                    "label": "",
-                    "help": ""
+                    "label": "หมดเวลา",
+                    "help": "ระยะเวลาหมดอายุของการยืนยัน Passkey (หน่วยเป็นวินาที) ค่าเริ่มต้นคือ 60 วินาที"
                 }
             }
         },
         "forum": {
             "login": {
-                "with-passkey": ""
+                "with-passkey": "เข้าสู่ระบบด้วย Passkey"
             },
             "user": {
                 "settings": {
                     "passkeys": {
-                        "title": "",
-                        "label": "",
-                        "add-new-passkey": "",
-                        "error": ""
+                        "title": "Passkey",
+                        "label": "Passkey คือตัวแทนรหัสผ่านที่ยืนยันตัวตนด้วยการสัมผัส การจดจำใบหน้า รหัสอุปกรณ์ หรือ PIN",
+                        "add-new-passkey": "เพิ่ม Passkey",
+                        "error": "เกิดข้อผิดพลาดภายใน โปรดลองอีกครั้งในภายหลัง"
                     },
                     "alias-modal": {
-                        "title": "",
-                        "label": ""
+                        "title": "ลงทะเบียน Passkey สำเร็จ!",
+                        "label": "ตอนนี้ ตั้งชื่อเล่นให้ Passkey ของคุณ"
                     },
                     "item": {
-                        "revoke": "",
-                        "revoke_success": ""
+                        "revoke": "=> core.forum.security.revoke_access_token",
+                        "revoke_success": "ยกเลิก Passkey สำเร็จแล้ว"
                     }
                 }
             }

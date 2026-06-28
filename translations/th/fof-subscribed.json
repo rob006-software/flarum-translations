@@ -1,46 +1,46 @@
-{
+﻿{
     "fof-subscribed": {
         "forum": {
             "settings": {
                 "defaults_label": "ตั้งให้ \"{setting}\" เปิดโดยค่าเริ่มต้น",
                 "forced_label": "บังคับเปิด \"{setting}\" สำหรับทุกคน",
-                "notify_discussion_created_label": "มีใครบางคนสร้างกระทู้",
-                "notify_post_created_label": "",
-                "notify_post_unapproved_label": "สร้างโพสต์จำเป็นต้องได้รับการอนุมัติ",
-                "notify_user_created_label": "เมื่อมีคนสมัครสมาชิก",
-                "notify_post_flagged_label": ""
+                "notify_discussion_created_label": "มีคนสร้างโพสต์ใหม่",
+                "notify_post_created_label": "มีคนตอบกลับโพสต์",
+                "notify_post_unapproved_label": "มีโพสต์ที่รอการอนุมัติ",
+                "notify_user_created_label": "มีสมาชิกใหม่สมัครเข้ามา",
+                "notify_post_flagged_label": "มีคนรายงานโพสต์"
             },
             "notifications": {
-                "discussion_created_text": "{username} ได้สร้างกระทู้ใหม่",
-                "post_created_text": "",
-                "post_unapproved_text": "{username} ได้สร้างโพสต์เเต่ต้องได้รับอนุมัติก่อน",
-                "user_created_text": "{username} เพิ่งเข้าเข้าสู่ระบบ",
-                "post_flagged_text": ""
+                "discussion_created_text": "{username} ได้สร้างโพสต์ใหม่",
+                "post_created_text": "{username} ได้เขียนโพสต์ใหม่",
+                "post_unapproved_text": "{username} สร้างโพสต์ที่รอการอนุมัติ",
+                "user_created_text": "{username} เพิ่งสมัครสมาชิก",
+                "post_flagged_text": "{username} รายงานโพสต์"
             }
         },
         "admin": {
             "permission": {
-                "subscribe_to_discussion_created": "อนุญาติให้รับการเเจ้งเตือนเมื่อมรกระทู้ใหม่",
-                "subscribe_to_post_created": "",
-                "subscribe_to_post_unapproved": "อนุญาตเให้รับการเเจ้งเตือนเมื่อมีโพสต์ที่ยังไม่ได้อนุมัติ",
-                "subscribe_to_user_created": "อนุญาติให้รับการเเจ้งเตือนเมื่อมีผู้ใช้ใหม่",
-                "subscribe_to_post_flagged": ""
+                "subscribe_to_discussion_created": "รับการแจ้งเตือนเมื่อมีโพสต์ใหม่",
+                "subscribe_to_post_created": "รับการแจ้งเตือนเมื่อมีการตอบกลับใหม่",
+                "subscribe_to_post_unapproved": "รับการแจ้งเตือนเมื่อมีโพสต์รอการอนุมัติ",
+                "subscribe_to_user_created": "รับการแจ้งเตือนเมื่อมีสมาชิกใหม่",
+                "subscribe_to_post_flagged": "รับการแจ้งเตือนเมื่อมีการรายงานโพสต์"
             }
         },
         "email": {
             "subject": {
-                "newDiscussion": "[การรับสมัครข้อมูล | กระทู้ใหม่] {title}",
-                "newUser": "[การรับสมัครข้อมูล | ผู้ใช้ใหม่] {username}",
-                "postUnapproved": "[การรับสมัครข้อมูล | ยังไม่อนุมัติ] {username} ได้โพสต์ใน {title}",
-                "postCreated": "",
-                "postFlagged": ""
+                "newDiscussion": "[ติดตาม | โพสต์ใหม่] {title}",
+                "newUser": "[ติดตาม | สมาชิกใหม่] {username}",
+                "postUnapproved": "[ติดตาม | รอการอนุมัติ] {username} โพสต์ใน {title}",
+                "postCreated": "[ติดตาม | โพสต์ใหม่] {username} เขียนโพสต์ใหม่ใน {title}",
+                "postFlagged": "[ติดตาม | รายงานโพสต์] {username} รายงานโพสต์ใน {title}"
             },
             "body": {
-                "newDiscussion": "สวัสดี! {recipient_display_name},\n\n{actor_display_name} ได้สร้างกระทู้ใหม่: {discussion_title}\n\nเพื่อดูกระทู้ใหม่นี้โปรดคลิกลิ้งข้างล่าง:\n{discussion_url}\n\n---\n\n{post_content}\n",
-                "newUser": "สวัสดี! {recipient_display_name},\n\n{actor_display_name} เพิ่งเข้าร่วม {forum_url}.\n\nเพื่อดูโปรไฟล์ผู้ใช้ใหม่นี้โปรดคลิกลิ้งข้างล่าง:\n{user_url}\n",
-                "postUnapproved": "สวัสดี! {recipient_display_name},\n\n{actor_display_name} ได้สร้างโพสต์เเต่ยังไม่ได้รับการอนุมัติ: {discussion_title}\n\nเพื่อดูโพสต์นี้โปรดคลิกลิ้งข้างล่าง:\n{post_url}\n\n---\n\n{post_content}\n",
-                "postCreated": "",
-                "postFlagged": ""
+                "newDiscussion": "สวัสดี {recipient_display_name},\n\n{actor_display_name} ได้สร้างโพสต์ใหม่: {discussion_title}\n\nดูโพสต์ได้ที่:\n{discussion_url}\n\n---\n\n{post_content}\n",
+                "newUser": "สวัสดี {recipient_display_name},\n\n{actor_display_name} เพิ่งเข้าร่วม {forum_url}\n\nดูโปรไฟล์ได้ที่:\n{user_url}\n",
+                "postUnapproved": "สวัสดี {recipient_display_name},\n\n{actor_display_name} สร้างโพสต์ที่ยังไม่ได้รับการอนุมัติใน {discussion_title}\n\nดูโพสต์ได้ที่:\n{post_url}\n\n---\n\n{post_content}\n",
+                "postCreated": "สวัสดี {recipient_display_name},\n\n{actor_display_name} เพิ่งเขียนโพสต์ใหม่ใน {discussion_title}\n\nดูโพสต์ได้ที่:\n{post_url}\n\n---\n\n{post_content}\n",
+                "postFlagged": "สวัสดี {recipient_display_name},\n\n{actor_display_name} รายงานโพสต์ใน {discussion_title}\n\nดูโพสต์ได้ที่:\n{post_url}\n"
             }
         }
     }

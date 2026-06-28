@@ -2,79 +2,79 @@
     "fof-terms": {
         "admin": {
             "settings": {
-                "title": "",
+                "title": "ตั้งค่า",
                 "field": {
-                    "signup-legal-text": "",
-                    "hide-updated-at": "",
-                    "date-format": "",
-                    "date-format-help": ""
+                    "signup-legal-text": "เพิ่ม",
+                    "hide-updated-at": "แสดง",
+                    "date-format": "วันที่",
+                    "date-format-help": "ค่าเริ่มต้น"
                 }
             },
             "titles": {
-                "policies": ""
+                "policies": "Policies"
             },
             "buttons": {
-                "new-policy": "",
-                "edit-policy": "",
-                "add-policy": "",
-                "save-policy": "",
-                "delete-policy": "",
-                "set-to-now": ""
+                "new-policy": "New Policy",
+                "edit-policy": "แก้ไข",
+                "add-policy": "เพิ่ม",
+                "save-policy": "บันทึก",
+                "delete-policy": "ลบ",
+                "set-to-now": "ไม่"
             },
             "messages": {
-                "delete-policy-confirmation": ""
+                "delete-policy-confirmation": "ลบ"
             },
             "policies": {
-                "name": "",
-                "name-help": "",
-                "url": "",
-                "url-help": "",
-                "update-message": "",
-                "update-message-help": "",
-                "terms-updated-at": "",
-                "terms-updated-at-placeholder": "",
-                "terms-updated-at-help": "",
-                "export-url": "",
-                "export-url-help": "",
-                "optional": "",
-                "optional-help": ""
+                "name": "ชื่อ",
+                "name-help": "แสดง",
+                "url": "URL",
+                "url-help": "เปิด",
+                "update-message": "อัปเดต",
+                "update-message-help": "แสดง",
+                "terms-updated-at": "อัปเดต",
+                "terms-updated-at-placeholder": "YYYY-MM-DD (hh:mm:ss)",
+                "terms-updated-at-help": "อัปเดต",
+                "export-url": "ส่งออก",
+                "export-url-help": "ดาวน์โหลด",
+                "optional": "ตัวเลือก",
+                "optional-help": "เปิดใช้งาน"
             },
             "permissions": {
-                "see-user-policies-state": "",
-                "postpone-policies-accept": "",
-                "export-policies": ""
+                "see-user-policies-state": "ผู้ใช้",
+                "postpone-policies-accept": "post",
+                "export-policies": "ส่งออก"
             }
         },
         "forum": {
             "signup": {
-                "i-accept": "",
-                "must-accept": ""
+                "i-accept": "ฉันยอมรับ <a>{policy}</a>",
+                "must-accept": "ต้องยอมรับ {policy}"
             },
             "accept-modal": {
-                "title": "",
-                "updated-at": "",
-                "updated-recently": "",
-                "i-accept": "",
-                "accept": "",
-                "close": ""
+                "title": "อัปเดต",
+                "updated-at": "อัปเดต",
+                "updated-recently": "อัปเดต",
+                "i-accept": "ฉันยอมรับ <a>{policy}</a> ใหม่",
+                "accept": "ยืนยัน",
+                "close": "ย้อนกลับ"
             },
             "state-modal": {
-                "title": "",
-                "accepted-at": "",
-                "not-accepted": ""
+                "title": "ชื่อ",
+                "accepted-at": "วันที่",
+                "not-accepted": "ไม่"
             },
             "update-alert": {
-                "must-accept-message": "",
-                "can-accept-message": "",
-                "can-accept-optional-message": "",
-                "review": "",
-                "close": ""
+                "must-accept-message": "บัญชี",
+                "can-accept-message": "อัปเดต",
+                "can-accept-optional-message": "ดู",
+                "review": "ดู",
+                "close": "ปิด"
             },
             "user_settings": {
-                "optional_policies_label": ""
+                "optional_policies_label": "Policies"
             },
             "user_controls": {
-                "state_button": ""
+                "state_button": "Terms accept state"
             }
         }
     },
@@ -82,8 +82,8 @@
         "lib": {
             "data": {
                 "userpolicydata": {
-                    "export_description": "",
-                    "delete_description": ""
+                    "export_description": "ผู้ใช้",
+                    "delete_description": "นำออก"
                 }
             }
         }

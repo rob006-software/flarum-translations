@@ -2,78 +2,78 @@
     "yippy-tag-with-themes": {
         "admin": {
             "labels": {
-                "design_default": "",
-                "display_themes": ""
+                "design_default": "รูปแบบ layout ของ Discussion",
+                "display_themes": "เปิดใช้งานสิทธิ์ Tag สำหรับ Themes"
             },
             "helps": {
-                "design_default": "",
-                "display_themes": ""
+                "design_default": "เลือก layout การออกแบบเริ่มต้น",
+                "display_themes": "อนุญาตให้เฉพาะบาง group ใช้ themes ได้"
             },
             "options": {
                 "design_options": {
-                    "none": "",
-                    "sticky_note": "",
-                    "sticky_note_tag": "",
-                    "sticky_note_tab": "",
-                    "sticky_note_banner": "",
-                    "sticky_note_outline": "",
-                    "sticky_note_outline_tag": "",
-                    "sticky_note_outline_tab": "",
-                    "sticky_note_outline_banner": "",
-                    "basic": "",
-                    "basic_tag": "",
-                    "basic_tab": "",
-                    "basic_banner": "",
-                    "basic_outline": "",
-                    "basic_outline_tag": "",
-                    "basic_outline_tab": "",
-                    "basic_outline_banner": "",
-                    "flat": "",
-                    "flat_tag": "",
-                    "flat_tab": "",
-                    "flat_banner": "",
-                    "flat_border": "",
-                    "flat_border_tag": "",
-                    "flat_border_tab": "",
-                    "flat_border_banner": "",
-                    "rounded_flat": "",
-                    "rounded_flat_tag": "",
-                    "rounded_flat_tab": "",
-                    "rounded_flat_banner": "",
-                    "rounded_flat_border": "",
-                    "rounded_flat_border_tag": "",
-                    "rounded_flat_border_tab": "",
-                    "rounded_flat_border_banner": ""
+                    "none": "ไม่มี",
+                    "sticky_note": "Sticky Note",
+                    "sticky_note_tag": "Sticky Note (Primary Tag)",
+                    "sticky_note_tab": "Sticky Note (Primary Tab)",
+                    "sticky_note_banner": "Sticky Note (Primary Banner)",
+                    "sticky_note_outline": "Sticky Note Outline",
+                    "sticky_note_outline_tag": "Sticky Note Outline (Primary Tag)",
+                    "sticky_note_outline_tab": "Sticky Note Outline (Primary Tab)",
+                    "sticky_note_outline_banner": "Sticky Note Outline (Primary Banner)",
+                    "basic": "Basic",
+                    "basic_tag": "Basic (Primary Tag)",
+                    "basic_tab": "Basic (Primary Tab)",
+                    "basic_banner": "Basic (Primary Banner)",
+                    "basic_outline": "Basic Outline",
+                    "basic_outline_tag": "Basic Outline (Primary Tag)",
+                    "basic_outline_tab": "Basic Outline (Primary Tab)",
+                    "basic_outline_banner": "Basic Outline (Primary Banner)",
+                    "flat": "Flat",
+                    "flat_tag": "Flat (Primary Tag)",
+                    "flat_tab": "Flat (Primary Tab)",
+                    "flat_banner": "Flat (Primary Banner)",
+                    "flat_border": "Flat Border",
+                    "flat_border_tag": "Flat Border (Primary Tag)",
+                    "flat_border_tab": "Flat Border (Primary Tab)",
+                    "flat_border_banner": "Flat Border (Primary Banner)",
+                    "rounded_flat": "Rounded Flat",
+                    "rounded_flat_tag": "Rounded Flat (Primary Tag)",
+                    "rounded_flat_tab": "Rounded Flat (Primary Tab)",
+                    "rounded_flat_banner": "Rounded Flat (Primary Banner)",
+                    "rounded_flat_border": "Rounded Flat Border",
+                    "rounded_flat_border_tag": "Rounded Flat Border (Primary Tag)",
+                    "rounded_flat_border_tab": "Rounded Flat Border (Primary Tab)",
+                    "rounded_flat_border_banner": "Rounded Flat Border (Primary Banner)"
                 }
             },
             "designs": {
-                "title": "",
-                "description": "",
-                "add": "",
-                "banner": "",
+                "title": "Design Theme แบบกำหนดเองสำหรับ Tags",
+                "description": "กำหนดรายการกฎสำหรับแสดง themes ต่างกันตาม tag ที่เลือก",
+                "add": "เพิ่ม Design สำหรับ Tags",
+                "banner": "Design Theme {index} - [{isEnabled}]",
                 "is_enabled": {
-                    "enabled": "",
-                    "disabled": ""
+                    "enabled": "เปิดใช้งาน",
+                    "disabled": "ปิดใช้งาน"
                 },
                 "header": {
-                    "theme": "",
-                    "color_theme": ""
+                    "theme": "Custom Theme",
+                    "color_theme": "ปรับแต่ง Color Scheme เริ่มต้น"
                 },
                 "data": {
-                    "themeName": "",
-                    "tags": "",
-                    "tags_help": "",
-                    "primary_background_color": "",
-                    "primary_font_class": "",
-                    "child_background_color": "",
-                    "child_font_class": "",
-                    "outline_background_color": "",
-                    "secondary_font_class": "",
-                    "unread_color": "",
-                    "opacity_background": "",
-                    "opacity_footer": "",
-                    "opacity_outline": "",
-                    "is_enabled": ""
+                    "themeName": "เลือก Theme",
+                    "tags": "Primary Tags ที่เลือก",
+                    "tags_help": "เลือก tag อย่างน้อยหนึ่งรายการสำหรับ design theme แบบกำหนดเองนี้",
+                    "primary_background_color": "แก้ไขสี Primary Background",
+                    "primary_font_class": "แก้ไข Primary Font",
+                    "child_background_color": "แก้ไขสี Child Background",
+                    "child_font_class": "แก้ไข Child Font",
+                    "outline_background_color": "แก้ไขสี Outline",
+                    "secondary_font_class": "แก้ไข Secondary Font",
+                    "unread_color": "แก้ไขสี Unread Background",
+                    "opacity_background": "ระดับความโปร่งใสของ Background",
+                    "opacity_footer": "ระดับความโปร่งใสของ Footer",
+                    "opacity_outline": "ระดับความโปร่งใสของ Outline",
+                    "is_enabled": "เปิดใช้งาน Design Theme"
                 }
             }
         }

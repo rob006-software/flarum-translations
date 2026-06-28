@@ -2,35 +2,35 @@
     "xypp-answer-bounty": {
         "forum": {
             "modal": {
-                "title": "",
-                "label": "",
-                "submit": "",
-                "clear": ""
+                "title": "ตั้ง Bounty",
+                "label": "จำนวน",
+                "submit": "ยืนยัน",
+                "clear": "ล้าง"
             },
             "composer": {
-                "set": "",
-                "edit": ""
+                "set": "ตั้ง Bounty",
+                "edit": "Bounty({bounty})"
             },
             "discussion": {
-                "edit": "",
-                "set": ""
+                "edit": "แก้ไข Bounty ({bounty})",
+                "set": "ตั้ง Bounty"
             },
-            "tip": "",
-            "tip-ans": "",
-            "badge": ""
+            "tip": "กระทู้นี้กำลังมองหาคำตอบที่ดีที่สุด พร้อม bounty มูลค่า <span>{money}</span>",
+            "tip-ans": "ส่ง Bounty <span>{money}</span> แล้ว",
+            "badge": "Bounty"
         },
         "admin": {
             "permissions": {
-                "moderate": "",
-                "use": ""
+                "moderate": "จัดการ Bounty ของผู้อื่น",
+                "use": "ตั้ง Bounty"
             }
         },
         "api": {
-            "bounty": "",
-            "bounty_clear": "",
-            "bounty_set": "",
-            "not_enough_money": "",
-            "bounty_sent": ""
+            "bounty": "Bounty สำหรับคำตอบที่ดีที่สุดของคุณ",
+            "bounty_clear": "ล้าง Bounty",
+            "bounty_set": "ตั้ง Bounty",
+            "not_enough_money": "คุณมีเงินไม่พอสำหรับการตั้ง bounty",
+            "bounty_sent": "ส่ง Bounty แล้ว กรุณายกเลิกคำตอบที่ดีที่สุดก่อนตั้งใหม่"
         }
     }
 }

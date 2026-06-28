@@ -2,41 +2,41 @@
     "blomstra-s3-assets": {
         "admin": {
             "settings": {
-                "configured_by_environment": "",
-                "aws-section": "",
-                "s3-compatible-section": "",
-                "s3-compatible-section-help": "",
+                "configured_by_environment": "การตั้งค่า bucket ของคุณถูกกำหนดไว้แล้ว ไม่มีอะไรต้องตั้งค่าเพิ่มเติม",
+                "aws-section": "การตั้งค่าเหล่านี้จำเป็นสำหรับทั้ง AWS S3 และ S3-compatible buckets",
+                "s3-compatible-section": "การตั้งค่าเหล่านี้จำเป็นเฉพาะสำหรับ S3-compatible buckets เท่านั้น",
+                "s3-compatible-section-help": "เว้นว่างหากใช้ AWS S3",
                 "s3key": {
-                    "label": "",
-                    "help": ""
+                    "label": "Key",
+                    "help": "คำแนะนำ"
                 },
                 "s3secret": {
-                    "label": "",
-                    "help": ""
+                    "label": "Secret",
+                    "help": "S3 access secret"
                 },
                 "s3region": {
-                    "label": "",
-                    "help": ""
+                    "label": "Region",
+                    "help": "S3 region"
                 },
                 "s3bucket": {
-                    "label": "",
-                    "help": ""
+                    "label": "Bucket",
+                    "help": "S3 bucket"
                 },
                 "s3acl": {
-                    "label": "",
-                    "help": ""
+                    "label": "ACL",
+                    "help": "ระบุ ACL สำหรับ bucket นี้"
                 },
                 "s3url": {
-                    "label": "",
-                    "help": ""
+                    "label": "URL",
+                    "help": "S3 URL"
                 },
                 "s3endpoint": {
-                    "label": "",
-                    "help": ""
+                    "label": "Endpoint",
+                    "help": "S3 Endpoint"
                 },
                 "s3path-style-endpoint": {
-                    "label": "",
-                    "help": ""
+                    "label": "S3 path style endpoint",
+                    "help": "สลับเป็นรูปแบบ path style storage"
                 }
             }
         }

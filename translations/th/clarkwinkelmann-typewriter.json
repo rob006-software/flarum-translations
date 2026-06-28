@@ -2,21 +2,21 @@
     "clarkwinkelmann-typewriter": {
         "admin": {
             "settings": {
-                "muteByDefault": "",
-                "showIntroductionPopup": "",
-                "defaultFile": "",
-                "sounds": "",
+                "muteByDefault": "ปิดเสียงโดยค่าเริ่มต้น",
+                "showIntroductionPopup": "แสดง popup แนะนำในครั้งแรก",
+                "defaultFile": "ไฟล์เสียงเริ่มต้น",
+                "sounds": "เสียงเพิ่มเติม",
                 "head": {
-                    "keys": "",
-                    "file": ""
+                    "keys": "ปุ่ม",
+                    "file": "ไฟล์"
                 },
-                "add": ""
+                "add": "เพิ่มเสียง"
             }
         },
         "forum": {
-            "enable": "",
-            "mute": "",
-            "introductionMessage": ""
+            "enable": "เปิดใช้งานเสียงพิมพ์",
+            "mute": "ปิดเสียงพิมพ์",
+            "introductionMessage": "คลิกเพื่อเปิดหรือปิดเสียงพิมพ์"
         }
     }
 }

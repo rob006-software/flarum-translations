@@ -2,43 +2,43 @@
     "fof-mailing": {
         "admin": {
             "permissions": {
-                "mail_individual": "",
-                "mail_all": ""
+                "mail_individual": "ส่งอีเมลถึงผู้ใช้แต่ละคน",
+                "mail_all": "ส่งอีเมลถึง group หรือผู้ใช้ทั้งหมด"
             }
         },
         "forum": {
             "links": {
-                "mail_individual": "",
-                "mail_all": ""
+                "mail_individual": "ส่งอีเมลถึงผู้ใช้นี้",
+                "mail_all": "ส่งอีเมล"
             },
             "modal_mail": {
-                "title_text": "",
-                "recipients_label": "",
-                "recipients_placeholder": "",
-                "subject_label": "",
-                "default_subject": "",
-                "message_label": "",
-                "as_html_label": "",
-                "submit_button": ""
+                "title_text": "เขียนอีเมล",
+                "recipients_label": "ผู้รับ",
+                "recipients_placeholder": "เพิ่มผู้รับเพิ่มเติม...",
+                "subject_label": "หัวเรื่อง",
+                "default_subject": "=> fof-mailing.ref.default_subject",
+                "message_label": "ข้อความ",
+                "as_html_label": "ส่งเป็น HTML",
+                "submit_button": "ส่ง"
             },
             "modal_sent": {
-                "title_text": "",
-                "on_its_way": ""
+                "title_text": "ส่งอีเมลแล้ว!",
+                "on_its_way": "เยี่ยมเลย! อีเมลของคุณกำลังส่งไปยัง {recipientsCount} ผู้รับ!"
             },
             "recipient_kinds": {
-                "user": "",
-                "group": "",
-                "email": ""
+                "user": "ผู้ใช้",
+                "group": "กลุ่ม",
+                "email": "อีเมล"
             }
         },
         "api": {
-            "no_recipients": ""
+            "no_recipients": "ไม่พบผู้รับที่ตรงกัน"
         },
         "email": {
-            "default_subject": ""
+            "default_subject": "=> fof-mailing.ref.default_subject"
         },
         "ref": {
-            "default_subject": ""
+            "default_subject": "ข้อความจากผู้ดูแล forum"
         }
     }
 }

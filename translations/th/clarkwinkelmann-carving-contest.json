@@ -2,61 +2,61 @@
     "clarkwinkelmann-carving-contest": {
         "forum": {
             "nav": {
-                "contest": ""
+                "contest": "การแข่งขันแกะสลัก"
             },
             "page": {
-                "title": "",
-                "loading": "",
-                "participate": "",
-                "already-participated": "",
-                "delete-confirmation": "",
-                "like": "",
-                "already-liked": "",
-                "unlike": "",
-                "refresh": "",
-                "load-more": "",
+                "title": "การแข่งขันแกะสลักฟักทอง",
+                "loading": "กำลังโหลดผลงาน...",
+                "participate": "เข้าร่วม",
+                "already-participated": "เข้าร่วมแล้ว",
+                "delete-confirmation": "คุณต้องการลบ \"{name}\" ของ {username} จริงหรือไม่?",
+                "like": "ถูกใจ",
+                "already-liked": "ฉันชอบ",
+                "unlike": "เลิกถูกใจ",
+                "refresh": "รีเฟรช",
+                "load-more": "โหลดผลงานเพิ่มเติม",
                 "sort": {
-                    "mostLikes": "",
-                    "fewerLikes": "",
-                    "mostRecent": "",
-                    "leastRecent": ""
+                    "mostLikes": "ถูกใจมากที่สุด",
+                    "fewerLikes": "ถูกใจน้อยที่สุด",
+                    "mostRecent": "โพสต์ล่าสุด",
+                    "leastRecent": "โพสต์เก่าที่สุด"
                 },
                 "likes": {
-                    "you_text": "",
-                    "others_link": "",
-                    "liked_by_self_text": "",
-                    "liked_by_text": ""
+                    "you_text": "=> core.ref.you",
+                    "others_link": "=> core.ref.some_others",
+                    "liked_by_self_text": "{users} ถูกใจสิ่งนี้",
+                    "liked_by_text": "{count, plural, one {{users} ถูกใจสิ่งนี้} other {{users} ถูกใจสิ่งนี้}}"
                 }
             },
             "modal": {
-                "title": "",
-                "name": "",
-                "submit": "",
+                "title": "เข้าร่วม",
+                "name": "ตั้งชื่อผลงานของคุณ",
+                "submit": "ส่งผลงาน",
                 "tools": {
-                    "circle": "",
-                    "square": ""
+                    "circle": "วงกลม",
+                    "square": "สี่เหลี่ยม"
                 }
             },
             "likes_modal": {
-                "title": ""
+                "title": "ผู้ใช้ที่ถูกใจผลงานนี้"
             }
         },
         "admin": {
             "permissions": {
-                "view": "",
-                "like": "",
-                "participate": "",
-                "moderate": ""
+                "view": "ดูผลงาน",
+                "like": "ถูกใจผลงาน",
+                "participate": "เข้าร่วมการแข่งขัน",
+                "moderate": "จัดการการแข่งขัน"
             },
             "settings": {
-                "maxEntriesPerUser": "",
-                "colorMode": ""
+                "maxEntriesPerUser": "จำนวนผลงานสูงสุดต่อผู้ใช้",
+                "colorMode": "ใช้โหมดสีแทนโหมดแกะสลัก"
             },
             "colors": {
-                "simple": "",
-                "all": "",
-                "custom": "",
-                "custom-help": ""
+                "simple": "ชุดสีพื้นฐาน",
+                "all": "สีใดก็ได้",
+                "custom": "รายการสีกำหนดเอง",
+                "custom-help": "รายการค่า #hex หรือ rgb() คั่นด้วยเครื่องหมายจุลภาค"
             }
         }
     }

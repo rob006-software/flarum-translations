@@ -2,30 +2,30 @@
     "clarkwinkelmann-follow-tags-prompt": {
         "forum": {
             "controls": {
-                "choose": ""
+                "choose": "เลือก tag ที่ต้องการ follow"
             },
             "modal": {
-                "title": "",
-                "later": "",
-                "continue": ""
+                "title": "เลือก tag ที่ต้องการ follow",
+                "later": "เตือนฉันทีหลัง",
+                "continue": "ไปยัง forum"
             }
         },
         "admin": {
             "settings": {
-                "buttonOnFollowingPage": "",
-                "allDiscussionsOnFollowingPageForGuests": "",
-                "availableTagStrategy": "",
+                "buttonOnFollowingPage": "แสดงปุ่มในหน้า Following",
+                "allDiscussionsOnFollowingPageForGuests": "แสดงกระทู้ทั้งหมดในหน้า Following สำหรับผู้เยี่ยมชม",
+                "availableTagStrategy": "Tag ที่แสดงใน modal",
                 "tagStrategy": {
-                    "primary": "",
-                    "primaryAndChildren": "",
-                    "primaryAndSecondary": "",
-                    "secondary": "",
-                    "all": "",
-                    "list": ""
+                    "primary": "Tag หลักระดับแรก",
+                    "primaryAndChildren": "Tag หลักทุกระดับ",
+                    "primaryAndSecondary": "Tag หลักระดับแรกและ secondary tags",
+                    "secondary": "เฉพาะ secondary tags",
+                    "all": "Tag ทั้งหมด",
+                    "list": "Tag ที่เลือกด้านล่าง"
                 }
             },
             "homepage": {
-                "following": ""
+                "following": "Following"
             }
         }
     }

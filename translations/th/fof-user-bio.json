@@ -1,26 +1,26 @@
-{
+﻿{
     "fof-user-bio": {
         "admin": {
             "permission": {
-                "view": "ดูประวัติ",
-                "editOwn": "เเก้ไขประวัติของตน",
-                "editAny": "เเก้ไขประวัติไหนก็ได้"
+                "view": "ดูประวัติส่วนตัว",
+                "editOwn": "แก้ไขประวัติส่วนตัวของตนเอง",
+                "editAny": "แก้ไขประวัติส่วนตัวของผู้ใช้คนอื่น"
             },
             "setting": {
                 "bioLimit": "จำนวนตัวอักษรสูงสุดในประวัติ",
-                "maxLines": "",
-                "allowFormatting": "",
-                "allowFormatting_help": ""
+                "maxLines": "จำนวนบรรทัดสูงสุดที่แสดงในครั้งเดียว",
+                "allowFormatting": "อนุญาตการจัดรูปแบบในประวัติ",
+                "allowFormatting_help": "การจัดรูปแบบนี้แยกออกจากการจัดรูปแบบโพสต์ หากเปิดใช้ส่วนขยาย BBCode หรือ Markdown จะสามารถใช้จัดรูปแบบประวัติได้ ไม่อนุญาตรูปภาพหรือการฝัง ส่วนขยายที่เพิ่มฟอร์แมตเตอร์จะต้องรองรับ bio formatter อย่างชัดเจน"
             }
         },
         "forum": {
-            "userbioPlaceholder": "เขียนอธิบายตัวคุณหน่อยสิ",
-            "userbioPlaceholderOtherUser": "เขียนอธิบายให้ {username}",
+            "userbioPlaceholder": "เขียนบางอย่างเกี่ยวกับตัวคุณ",
+            "userbioPlaceholderOtherUser": "เขียนประวัติให้ {username}",
             "profile": {
-                "cancel_confirm": "",
-                "cancel_button": "",
-                "save_button": "",
-                "edit_bio_label": ""
+                "cancel_confirm": "คุณแน่ใจหรือไม่ว่าต้องการยกเลิกการแก้ไขประวัติ? การเปลี่ยนแปลงทั้งหมดจะหายไป",
+                "cancel_button": "ยกเลิก",
+                "save_button": "บันทึก",
+                "edit_bio_label": "แก้ไขประวัติ"
             }
         }
     }

@@ -3,29 +3,29 @@
         "admin": {
             "validation": {
                 "domain": {
-                    "required": "",
-                    "regex": ""
+                    "required": "ต้องระบุ domain",
+                    "regex": "Domain ที่ระบุไม่ถูกต้อง"
                 },
                 "proxy_domain": {
-                    "regex": ""
+                    "regex": "Proxy domain ที่ระบุไม่ถูกต้อง"
                 }
             },
             "settings": {
                 "enable": {
-                    "label": "",
-                    "help": ""
+                    "label": "เปิดใช้งาน",
+                    "help": "เปิดตัวเลือกนี้เพื่อใส่ tracking code จริง"
                 },
                 "domain": {
-                    "label": "",
-                    "help": ""
+                    "label": "Domain",
+                    "help": "Domain ที่ใช้เมื่อส่งข้อมูล analytics"
                 },
                 "proxy_domain": {
-                    "label": "",
-                    "help": ""
+                    "label": "Proxy domain",
+                    "help": "แหล่งที่ใช้ serve โค้ด JS ปล่อยว่างเพื่อใช้ plausible.io ช่วยป้องกัน adblocker ไม่ให้ลบ tracking code ดูเอกสาร Plausible"
                 },
                 "exclude_admin": {
-                    "label": "",
-                    "help": ""
+                    "label": "ยกเว้น admin",
+                    "help": "จะป้องกันไม่ให้การเข้าชมของ admin ถูกนับใน tracking เมื่อ login อยู่"
                 }
             }
         }

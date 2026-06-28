@@ -1,22 +1,22 @@
 {
     "ianm-html-head": {
         "admin": {
-            "create_button": "",
+            "create_button": "สร้าง",
             "table": {
-                "description_label": "",
-                "header_label": "",
-                "active_label": "",
-                "empty_text": "",
-                "delete_button": "",
-                "edit_button": ""
+                "description_label": "คำอธิบาย",
+                "header_label": "Header",
+                "active_label": "ใช้งาน",
+                "empty_text": "ไม่มีรายการ",
+                "delete_button": "ลบ",
+                "edit_button": "แก้ไข"
             },
             "modal": {
-                "create_title": "",
-                "edit_title": "",
-                "text": "",
-                "description_label": "",
-                "header_label": "",
-                "save_button": ""
+                "create_title": "สร้างรายการใหม่",
+                "edit_title": "แก้ไขรายการ",
+                "text": "ตรวจสอบให้แน่ใจว่าไวยากรณ์ของคุณถูกต้อง เป็นไปได้ที่จะทำลายฟอรั่มโดยการจัดหาข้อมูลที่ไม่ถูกต้องในรายการ head เมื่อบันทึกแล้ว ให้เปิดใช้งาน head item ใหม่ของคุณโดยใช้สวิตช์สลับที่ให้ไว้",
+                "description_label": "คำอธิบาย",
+                "header_label": "รายการ head ที่กำหนดเอง",
+                "save_button": "บันทึก"
             }
         }
     }

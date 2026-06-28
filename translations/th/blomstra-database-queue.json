@@ -2,29 +2,29 @@
     "blomstra-database-queue": {
         "admin": {
             "settings": {
-                "backoff_label": "",
-                "backoff_help": "",
-                "memory_label": "",
-                "memory_help": "",
-                "rest_label": "",
-                "rest_help": "",
-                "retries_label": "",
-                "retries_help": "",
-                "timeout_label": "",
-                "timeout_help": ""
+                "backoff_label": "ระยะเวลาพัก (Backoff)",
+                "backoff_help": "จำนวนวินาทีที่รอก่อนลองงานใหม่เมื่อเกิดข้อผิดพลาดที่ไม่ได้จัดการ\n",
+                "memory_label": "หน่วยความจำ",
+                "memory_help": "ขีดจำกัดหน่วยความจำในหน่วยเมกะไบต์\n",
+                "rest_label": "ระยะพักระหว่างงาน",
+                "rest_help": "จำนวนวินาทีที่พักระหว่างงานแต่ละชิ้น\n",
+                "retries_label": "จำนวนครั้งที่ลองใหม่",
+                "retries_help": "จำนวนครั้งที่จะลองทำงานก่อนบันทึกว่าล้มเหลว\n",
+                "timeout_label": "หมดเวลา (Timeout)",
+                "timeout_help": "จำนวนวินาทีที่กระบวนการย่อยสามารถทำงานได้\n"
             },
             "stats": {
-                "auto_refresh": "",
-                "heading": "",
-                "refresh": "",
+                "auto_refresh": "รีเฟรชอัตโนมัติ",
+                "heading": "ภาพรวมคิว",
+                "refresh": "รีเฟรช",
                 "data": {
-                    "queue-name": "",
-                    "pending-jobs": "",
-                    "failed-jobs": "",
+                    "queue-name": "คิว",
+                    "pending-jobs": "งานที่รอดำเนินการ",
+                    "failed-jobs": "งานที่ล้มเหลว",
                     "status": {
-                        "label": "",
-                        "running": "",
-                        "inactive": ""
+                        "label": "สถานะ",
+                        "running": "กำลังทำงาน",
+                        "inactive": "ไม่ได้ใช้งาน"
                     }
                 }
             }

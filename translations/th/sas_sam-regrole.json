@@ -2,29 +2,29 @@
     "sas_sam-regrole": {
         "admin": {
             "settings": {
-                "allowed_roles_label": "",
-                "allowed_roles_text": "",
-                "other_options_heading": "",
-                "allow_multiple_roles_label": "",
-                "force_users_label": "",
-                "force_users_text": ""
+                "allowed_roles_label": "Role ที่อนุญาต",
+                "allowed_roles_text": "เลือก role ที่ผู้ใช้สามารถกำหนดให้ตัวเองได้",
+                "other_options_heading": "ตัวเลือกอื่นๆ",
+                "allow_multiple_roles_label": "อนุญาตให้ผู้ใช้มีหลาย role ได้",
+                "force_users_label": "บังคับให้ผู้ใช้เลือก role อย่างน้อยหนึ่งอัน",
+                "force_users_text": "หากเปิดใช้งาน ผู้ใช้ที่ยังไม่ได้รับ role ใดๆ จากรายการที่เลือกไว้จะถูกระงับบัญชีและไม่สามารถใช้งานฟอรัมได้จนกว่าจะเลือก role ให้ตัวเอง (ผู้ใช้ที่มีสิทธิ์แก้ไขกลุ่มผู้ใช้จะได้รับการยกเว้น)"
             }
         },
         "forum": {
-            "suspended_temporarily_message": "",
-            "choose_role_button_label": "",
-            "required_role_message": "",
+            "suspended_temporarily_message": "บัญชีของคุณถูกระงับชั่วคราวจนกว่าคุณจะเลือก role",
+            "choose_role_button_label": "=> sas_sam-regrole.ref.choose_a_role",
+            "required_role_message": "คุณต้องเลือก role",
             "choose_role_modal": {
-                "choose_role_heading": "",
-                "choose_role_text": "",
-                "save_button": ""
+                "choose_role_heading": "=> sas_sam-regrole.ref.choose_a_role",
+                "choose_role_text": "กรุณาเลือก role เพื่อใช้งานฟอรัมต่อ",
+                "save_button": "=> core.ref.save_changes"
             },
             "sign_up_modal": {
-                "choose_role_heading": ""
+                "choose_role_heading": "=> sas_sam-regrole.ref.choose_a_role"
             }
         },
         "ref": {
-            "choose_a_role": ""
+            "choose_a_role": "เลือก Role"
         }
     }
 }

@@ -2,11 +2,11 @@
     "gpx-preview": {
         "admin": {
             "templates": {
-                "gpx": "",
-                "gpx.file_description": ""
+                "gpx": "GPX Route Preview",
+                "gpx.file_description": "แสดง Google Maps พร้อมซ้อนทับไฟล์ GPX ที่ upload ไว้"
             },
             "settings": {
-                "gkey": ""
+                "gkey": "Google API Key ที่มีสิทธิ์เข้าถึง Maps API"
             }
         }
     }

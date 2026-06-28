@@ -1,15 +1,15 @@
 {
     "geo-weather": {
         "forum": {
-            "unknown": "",
-            "temp": "",
-            "not-supported": ""
+            "unknown": "ไม่รู้จัก",
+            "temp": "0°",
+            "not-supported": "Geolocation ไม่ได้รับการสนับสนุนโดย browser นี้"
         },
         "admin": {
-            "apiKey": "",
-            "apiKey-help": "",
-            "lang": "",
-            "lang-help": ""
+            "apiKey": "Api Key",
+            "apiKey-help": "วางที่นี่ api key ฟรีของคุณที่สร้างที่ https://openweathermap.org/api",
+            "lang": "เลือก Output Language (1 prefix เท่านั้น)",
+            "lang-help": "ในฟิลด์นี้ใส่ language prefix ของคุณ (เช่น it, fr, en) ตรวจสอบของคุณที่ <strong>https://openweathermap.org/api/one-call-api#multi</strong>"
         }
     }
 }

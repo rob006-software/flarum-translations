@@ -1,69 +1,69 @@
-{
+﻿{
     "fof-moderator-warnings": {
         "admin": {
             "permissions": {
                 "manage_warnings": "สร้างและลบคำเตือนของผู้ดูแล",
                 "view_warnings": "ดูคำเตือนของผู้ดูแล",
-                "delete_warnings": "ลบคำเตือนผู้ดูแลอย่างถาวร"
+                "delete_warnings": "ลบคำเตือนของผู้ดูแลอย่างถาวร"
             }
         },
         "emails": {
             "post_warned": {
-                "subject": "{warner_display_name} ได้เตือนคุณจำนวน {strikes, plural, one {# นัด} เเละอื่นๆ อีก {# นัด}} ใน {discussion_title}",
-                "body": "สวัสดี {warnee_display_name}!\n\n{warner_display_name} ได้เตือนคุณจำนวน {strikes, plural, one {# นัด} เเละอื่นๆ อีก {# นัด}} ใน {discussion_title}\n\nตามเหตุผลนี้:\n\n---\n\n{public_comment}\n"
+                "subject": "{warner_display_name} ได้เตือนคุณด้วย {strikes, plural, other {# แต้มโทษ}} ในโพสต์ {discussion_title}",
+                "body": "สวัสดี {warnee_display_name}!\n\n{warner_display_name} ได้เตือนคุณด้วย {strikes, plural, other {# แต้มโทษ}} ในโพสต์ {discussion_title}\n\nเหตุผล:\n\n---\n\n{public_comment}\n"
             },
             "user_warned": {
-                "subject": "",
-                "body": ""
+                "subject": "{warner_display_name} ได้เตือนคุณด้วย {strikes, plural, other {# แต้มโทษ}}",
+                "body": "สวัสดี {warnee_display_name}!\n\n{warner_display_name} ได้เตือนคุณด้วย {strikes, plural, other {# แต้มโทษ}}\n\nเหตุผล:\n\n---\n\n{public_comment}\n"
             }
         },
         "forum": {
             "notifications": {
-                "warning_text": "",
-                "warning_no_strikes_text": ""
+                "warning_text": "{strikes, plural, other {คุณได้รับคำเตือน # แต้มโทษจาก {mod_username}}}",
+                "warning_no_strikes_text": "คุณได้รับคำเตือนจาก {mod_username} (ไม่มีแต้มโทษ)"
             },
             "post": {
-                "warning": "",
-                "warning_no_strikes": ""
+                "warning": "{strikes, plural, other {ได้รับคำเตือน # แต้มโทษจาก {mod_username}}}",
+                "warning_no_strikes": "ได้รับคำเตือนโดยไม่มีแต้มโทษจาก {mod_username}"
             },
             "post_controls": {
-                "warning_button": ""
+                "warning_button": "เตือนผู้ใช้"
             },
             "user": {
-                "warnings": ""
+                "warnings": "คำเตือนจากผู้ดูแล"
             },
             "settings": {
-                "warning_notification_label": ""
+                "warning_notification_label": "ผู้ดูแลเตือนฉัน"
             },
             "validation": {
-                "public_comment_required": "",
-                "invalid_strike_count": ""
+                "public_comment_required": "กรุณาใส่ความคิดเห็นสาธารณะ",
+                "invalid_strike_count": "จำนวนแต้มโทษต้องเป็นจำนวนเต็มระหว่าง 0 ถึง 5"
             },
             "warning_controls": {
-                "delete_button": "",
-                "restore_button": "",
-                "delete_forever_button": ""
+                "delete_button": "ลบออก",
+                "restore_button": "กู้คืน",
+                "delete_forever_button": "ลบถาวร"
             },
             "warning_list": {
-                "add_button": "",
-                "no_warnings": "",
-                "warnings": "",
-                "warnings_no_strikes": ""
+                "add_button": "เพิ่มคำเตือน",
+                "no_warnings": "ยังไม่มีคำเตือน",
+                "warnings": "{strikes, plural, other {คำเตือนจากผู้ดูแล: ได้รับ # แต้มโทษ}}",
+                "warnings_no_strikes": "คำเตือนจากผู้ดูแล: ไม่มีแต้มโทษ"
             },
             "warning_list_item": {
-                "list_item_heading": "",
-                "list_item_heading_hidden": "",
-                "public_comment": "",
-                "private_comment": "",
-                "linked_post": ""
+                "list_item_heading": "{strikes, plural, other {<strong>#</strong> แต้มโทษ, {time}}}",
+                "list_item_heading_hidden": "{strikes, plural, other {<strong>#</strong> แต้มโทษ, {time} <strong>(ถูกลบแล้ว)</strong>}}",
+                "public_comment": "คำเตือน",
+                "private_comment": "หมายเหตุสำหรับผู้ดูแล",
+                "linked_post": "โพสต์ที่เชื่อมโยง"
             },
             "warning_modal": {
-                "confirmation_message": "",
-                "heading": "",
-                "strikes_heading": "",
-                "public_comment_heading": "",
-                "private_comment_heading": "",
-                "submit_button": ""
+                "confirmation_message": "บันทึกคำเตือนเรียบร้อยแล้ว อาจต้องรีเฟรชหน้าเพื่อให้แสดงผล",
+                "heading": "เตือน <strong>{username}</strong>",
+                "strikes_heading": "ควรให้แต้มโทษกี่แต้ม?",
+                "public_comment_heading": "เหตุผลที่เตือน <strong>{username}</strong>? ความคิดเห็นนี้จะมองเห็นได้โดยผู้ใช้และผู้ดูแลคนอื่น",
+                "private_comment_heading": "เหตุผลที่เตือน <strong>{username}</strong>? ความคิดเห็นนี้จะมองเห็นได้เฉพาะผู้ดูแลเท่านั้น",
+                "submit_button": "บันทึกคำเตือน"
             }
         }
     }

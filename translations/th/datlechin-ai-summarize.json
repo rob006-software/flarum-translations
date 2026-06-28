@@ -2,33 +2,33 @@
     "datlechin-ai-summarize": {
         "admin": {
             "permissions": {
-                "ai_summarize_label": ""
+                "ai_summarize_label": "สรุปกระทู้ด้วย AI"
             },
             "settings": {
-                "title": "",
-                "enabled_label": "",
-                "min_posts_label": "",
-                "min_posts_help": "",
-                "max_posts_label": "",
-                "max_posts_help": "",
-                "system_prompt_label": "",
-                "system_prompt_help": ""
+                "title": "การตั้งค่า AI Summarization",
+                "enabled_label": "เปิดใช้งาน AI Summarization",
+                "min_posts_label": "จำนวน post ขั้นต่ำที่กำหนด",
+                "min_posts_help": "จำนวน post ขั้นต่ำในกระทู้ก่อนที่จะสามารถสรุปได้",
+                "max_posts_label": "จำนวน post สูงสุดที่รวมไว้",
+                "max_posts_help": "จำนวน post สูงสุดที่รวมในกระบวนการสรุป",
+                "system_prompt_label": "System Prompt แบบกำหนดเอง",
+                "system_prompt_help": "Prompt กำหนดเองสำหรับ AI ใช้เมื่อสร้างสรุป ปล่อยว่างเพื่อใช้ค่าเริ่มต้น"
             }
         },
         "forum": {
             "discussion_controls": {
-                "summarize_button": "",
-                "regenerate_button": ""
+                "summarize_button": "สรุปด้วย AI",
+                "regenerate_button": "สร้างสรุปใหม่"
             },
             "summary": {
-                "title": "",
-                "error": "",
-                "generated_with": "",
-                "generated_at": "",
-                "posts_summarized": "",
-                "regenerate_confirm": "",
-                "not_enough_posts": "",
-                "close": ""
+                "title": "AI Summary",
+                "error": "สร้างสรุปไม่สำเร็จ กรุณาลองอีกครั้ง",
+                "generated_with": "สร้างโดย {provider} โดยใช้ {model}",
+                "generated_at": "สร้างเมื่อ {time}",
+                "posts_summarized": "สรุป {count} post",
+                "regenerate_confirm": "คุณแน่ใจหรือไม่ที่จะสร้างสรุปใหม่? สรุปที่มีอยู่จะถูกแทนที่",
+                "not_enough_posts": "กระทู้นี้มี post ไม่พอสำหรับการสรุป",
+                "close": "ปิด"
             }
         }
     }

@@ -2,20 +2,20 @@
     "flarum-msemoji": {
         "forum": {
             "composer": {
-                "emoji_tooltip": "",
-                "type_to_search_text": ""
+                "emoji_tooltip": "แทรก emoji",
+                "type_to_search_text": "พิมพ์เพื่อค้นหา emoji"
             }
         },
         "admin": {
             "settings": {
-                "base": "",
-                "folder": "",
-                "ext": "",
-                "basehelp": "",
-                "baseph": "",
-                "folderph": "",
-                "extph": "",
-                "disable_autocomplete": ""
+                "base": "Base",
+                "folder": "Folder",
+                "ext": "Extension",
+                "basehelp": "เคล็ดลับ: พิมพ์ $ จะถูกแทนที่ด้วยหมายเลข version อัตโนมัติ ตัวพิมพ์ใหญ่-เล็กมีความสำคัญ",
+                "baseph": "ตัวอย่าง: https://www.example.com/",
+                "folderph": "ตัวอย่าง: svg",
+                "extph": "ตัวอย่าง: .gif",
+                "disable_autocomplete": "ปิดการเติมอัตโนมัติ"
             }
         }
     }

@@ -2,38 +2,38 @@
     "clarkwinkelmann-jwt-cookie-login": {
         "admin": {
             "settings": {
-                "cookieName": "",
-                "actorId": "",
-                "actorIdHelp": "",
-                "audience": "",
-                "audienceHelp": "",
-                "publicKey": "",
-                "publicKeyHelp": "",
-                "publicKeyAlgorithm": "",
-                "publicKeyAlgorithmHelp": "",
-                "expirationLeeway": "",
-                "expirationLeewayHelp": "",
-                "usernameTemplate": "",
-                "usernameTemplateHelp": "",
-                "emailTemplate": "",
-                "emailTemplateHelp": "",
-                "registrationHook": "",
-                "registrationHookHelp": "",
-                "authorizationHeader": "",
-                "authorizationHeaderHelp": "",
-                "hiddenIframe": "",
-                "hiddenIframeHelp": "",
-                "autoLoginDelay": "",
-                "autoLoginDelayHelp": "",
-                "logoutRedirect": "",
-                "logoutRedirectHelp": ""
+                "cookieName": "ชื่อ Cookie",
+                "actorId": "Flarum User ID สำหรับการดำเนินการของ admin",
+                "actorIdHelp": "ผู้ใช้ Flarum นี้จะถูกใช้เป็น actor สำหรับ REST API request ภายในที่สร้างผู้ใช้ใหม่ ต้องเป็นผู้ใช้ที่เป็น admin\n",
+                "audience": "JWT Audience / Firebase Project ID",
+                "audienceHelp": "ตรวจสอบ attribute <code>aud</code> ของ token ไม่จำเป็นเมื่อไม่ได้ใช้ Firebase",
+                "publicKey": "Public Key",
+                "publicKeyHelp": "เว้นว่างเพื่อใช้ Google Firebase keys",
+                "publicKeyAlgorithm": "Public Key Algorithm",
+                "publicKeyAlgorithmHelp": "จำเป็นเฉพาะเมื่อใช้ Public Key เช่น RS256",
+                "expirationLeeway": "Expiration Leeway (วินาที)",
+                "expirationLeewayHelp": "จำนวนวินาทีเพิ่มเติมหลัง JWT หมดอายุที่ยังอนุญาตให้เริ่ม session ได้ ค่านี้ตั้งใจให้เป็นแค่ไม่กี่นาทีเพื่อชดเชยความต่างของนาฬิการะหว่างเซิร์ฟเวอร์ อย่างไรก็ตาม สามารถตั้งเป็นค่าสูงกว่ามากหาก JWT จากไลบรารีภายนอกมีอายุสั้นเกินไปแก้ไขไม่ได้\n",
+                "usernameTemplate": "Username Template",
+                "usernameTemplateHelp": "ใช้ syntax <code>{sub}</code> เพื่อดึง attribute จาก JWT",
+                "emailTemplate": "Email Template",
+                "emailTemplateHelp": "ใช้ syntax <code>{sub}</code> เพื่อดึง attribute จาก JWT",
+                "registrationHook": "Registration Hook Endpoint",
+                "registrationHookHelp": "URL เต็มรูปแบบที่จะถูกเรียกด้วย POST request เมื่อผู้ใช้เข้า forum เป็นครั้งแรก ต้องส่งคืน JSON:API payload เพื่อสร้างผู้ใช้ใหม่ใน Flarum ใช้ syntax <code>{sub}</code> เพื่อดึง attribute จาก JWT ใน URL JWT ทั้งหมดจะถูกส่งใน header <code>Authorization</code> Username และ Email ไม่จำเป็นถ้ามีการตั้งค่า template\n",
+                "authorizationHeader": "ค่า Authorization header แบบกำหนดเอง",
+                "authorizationHeaderHelp": "ถ้าเว้นว่าง header <code>Authorization</code> จะมีค่าเป็น <code>Token <JWT token></code>",
+                "hiddenIframe": "Hidden Iframe URL",
+                "hiddenIframeHelp": "Iframe นี้จะถูกโหลดแบบซ่อนอยู่ในทุกหน้าของ Flarum single page application สามารถใช้เพื่อ refresh cookie เป็นระยะและใช้ browser messaging เพื่อ trigger การ refresh หน้าสำหรับ auto-login หรือ auto-logout ดูรายละเอียดใน README\n",
+                "autoLoginDelay": "Hidden Iframe Auto Login Delay (มิลลิวินาที)",
+                "autoLoginDelayHelp": "ระยะเวลาที่อนุญาตให้หน้า refresh โดยอัตโนมัติโดยไม่ต้องมีการโต้ตอบจากผู้ใช้ถ้า hidden iframe ส่งสถานะ logged in กลับมา หลังจากระยะเวลานี้ ผู้ใช้จะได้รับการแจ้งเตือนเพื่อถามว่าต้องการ refresh หน้าหรือไม่\n",
+                "logoutRedirect": "Logout Redirect URL",
+                "logoutRedirectHelp": "ระหว่าง JWT stateless session ปุ่ม logout ของ Flarum จะถูกแทนที่ด้วยลิงก์ที่ชี้ไปยัง URL นี้ หากไม่ได้ตั้งค่า ปุ่ม logout จะถูกซ่อน\n"
             }
         },
         "forum": {
             "alert": {
-                "refresh": "",
-                "login": "",
-                "logout": ""
+                "refresh": "รีเฟรชหน้า",
+                "login": "คุณได้เชื่อมต่อโดยอัตโนมัติแล้ว",
+                "logout": "เซสชันของคุณหมดอายุแล้ว"
             }
         }
     }

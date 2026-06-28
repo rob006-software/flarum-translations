@@ -1,31 +1,31 @@
 {
     "ziven-money-leaderboard": {
         "forum": {
-            "leaderboard-name": "",
-            "leaderboard-list-title": "",
-            "leaderboard-list-rank": "",
-            "leaderboard-list-user": "",
-            "leaderboard-list-money": "",
-            "leaderboard-load-more": "",
-            "leaderboard-list-empty": ""
+            "leaderboard-name": "Leaderboard เงิน",
+            "leaderboard-list-title": "Leaderboard เงิน",
+            "leaderboard-list-rank": "Rank",
+            "leaderboard-list-user": "ผู้ใช้",
+            "leaderboard-list-money": "เงินที่มี",
+            "leaderboard-load-more": "โหลดเพิ่มเติม",
+            "leaderboard-list-empty": "ยังไม่มีข้อมูล"
         },
         "admin": {
             "permission": {
-                "allow_view_leaderboard": ""
+                "allow_view_leaderboard": "อนุญาตให้ดู leaderboard"
             },
             "settings": {
-                "leaderboard-icon": "",
-                "leaderboard-icon-help": "",
-                "leaderboard-entry-position": "",
-                "leaderboard-entry-sideNav": "",
-                "leaderboard-hide-money-text": "",
-                "leaderboard-additional-info": "",
-                "leaderboard-additional-info-help": "",
-                "leaderboard-slug": "",
-                "leaderboard-entry-topRightMenu": "",
-                "leaderboard-max-load-count": "",
-                "leaderboard-init-load-count": "",
-                "leaderboard-load-more-count": ""
+                "leaderboard-icon": "ไอคอน Leaderboard",
+                "leaderboard-icon-help": "ใส่ชื่อ class ของ FontAwesome icon รวมถึง prefix <code>fas fa-</code> ด้วย",
+                "leaderboard-entry-position": "ตำแหน่งแสดง Leaderboard",
+                "leaderboard-entry-sideNav": "เมนูนำทางด้านข้าง",
+                "leaderboard-hide-money-text": "ซ่อนชื่อเงินหลัง username",
+                "leaderboard-additional-info": "ข้อมูลเพิ่มเติม",
+                "leaderboard-additional-info-help": "แสดงข้อมูลเพิ่มเติมที่ต้นอันดับ เว้นว่างเพื่อซ่อน",
+                "leaderboard-slug": "Slug",
+                "leaderboard-entry-topRightMenu": "เมนูขวาบน",
+                "leaderboard-max-load-count": "จำนวนโหลดสูงสุด",
+                "leaderboard-init-load-count": "จำนวนโหลดเริ่มต้น",
+                "leaderboard-load-more-count": "จำนวนโหลดเพิ่มเติม"
             }
         }
     }

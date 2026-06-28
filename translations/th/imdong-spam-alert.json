@@ -2,28 +2,28 @@
     "imdong-spam-alert": {
         "admin": {
             "permissions": {
-                "set-spam": "",
-                "see-spam-info": ""
+                "set-spam": "ตั้งค่าเป็น Spam",
+                "see-spam-info": "ดูข้อมูล Spam"
             },
             "settings": {
-                "btn-name": "",
-                "btn-name-help": "",
-                "to-folding-number": "",
-                "to-folding-number-help": ""
+                "btn-name": "Spam",
+                "btn-name-help": "ชื่อของปุ่มนี้ที่แสดงให้ผู้ใช้เห็นคือ \"Spam\" โดยค่าเริ่มต้น",
+                "to-folding-number": "เกณฑ์การพับอัตโนมัติ",
+                "to-folding-number-help": "ยุบเนื้อหาที่ซ่อนไว้โดยอัตโนมัติเมื่อทำเครื่องหมายโดยจำนวนคน ตั้งเป็น 0 เพื่อไม่ยุบโดยอัตโนมัติ"
             }
         },
         "forum": {
             "post": {
-                "btn-set-spam": "",
-                "btn-unset-spam": "",
-                "spam-hide-tips": ""
+                "btn-set-spam": "ตั้งค่าเป็น Spam",
+                "btn-unset-spam": "ยกเลิกการตั้งค่า Spam",
+                "spam-hide-tips": "Spam ซ่อนไว้"
             },
             "notification": {
-                "content": "",
-                "excerpt": ""
+                "content": "ตอบกลับยุบสำหรับถูกทำเครื่องหมายว่าขยะหลายครั้ง",
+                "excerpt": "โปรดปฏิบัติตามข้อบังคับของสถานที่ เช่น การทำเครื่องหมายซ้ำ ๆ ขยะอาจต้องเผชิญกับการลงโทษอย่างเป็นระบบ"
             },
             "settings": {
-                "notify_post_spam_hide_label": ""
+                "notify_post_spam_hide_label": "ขยะถูกซ่อนเนื่องจากแท็ก"
             }
         }
     }

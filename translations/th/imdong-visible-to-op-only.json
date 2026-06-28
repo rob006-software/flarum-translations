@@ -2,19 +2,19 @@
     "imdong-visible-to-op-only": {
         "admin": {
             "permissions": {
-                "view-post": "",
-                "view-hide-post": ""
+                "view-post": "ดูโพสต์",
+                "view-hide-post": "ดูเนื้อหาที่ซ่อนไว้"
             },
             "settings": {
-                "allow-view-sticky": "",
-                "allow-view-sticky-text": ""
+                "allow-view-sticky": "อนุญาตให้ดู Sticky",
+                "allow-view-sticky-text": "ภายใต้ป้ายกำกับที่ห้ามการดู คุณยังสามารถดูเนื้อหาตอบกลับที่โพสต์ไว้ด้านบน ซึ่งต้องใช้ร่วมกับปลั๊กอิน Stickiest && Sticky (ไม่สำคัญ)"
             }
         },
         "forum": {
-            "button_tooltip_only_op_see": "",
-            "hidden_content_only_op_see": "",
-            "only_op_see": "",
-            "editor_empty_tips": ""
+            "button_tooltip_only_op_see": "เฉพาะ OP เห็น",
+            "hidden_content_only_op_see": "เนื้อหานี้มองเห็นได้เฉพาะสำหรับ OP",
+            "only_op_see": "เฉพาะ OP เห็น",
+            "editor_empty_tips": "รหัส [OP][/OP] ว่างเปล่าตรงกลาง"
         }
     }
 }

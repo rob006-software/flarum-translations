@@ -1,20 +1,20 @@
-{
+﻿{
     "flarum-akismet": {
         "admin": {
             "akismet_settings": {
                 "api_key_label": "API Key",
                 "title": "การตั้งค่า Akismet",
-                "delete_blatant_spam_label": "",
-                "delete_blatant_spam_help": ""
+                "delete_blatant_spam_label": "ลบสแปมอัตโนมัติ",
+                "delete_blatant_spam_help": "หาก Akismet ระบุว่าเป็นสแปมชัดเจน ระบบจะลบโพสต์นั้นอัตโนมัติแทนการแจ้งเตือน"
             },
             "permissions": {
-                "bypass_akismet": ""
+                "bypass_akismet": "ข้าม Akismet"
             }
         },
         "forum": {
             "post": {
-                "akismet_flagged_text": "Akismet รายงานว่าเป็นสเเปม",
-                "not_spam_button": "ไม่ใช่สเเปม"
+                "akismet_flagged_text": "Akismet ระบุว่าเป็นสแปม",
+                "not_spam_button": "ไม่ใช่สแปม"
             }
         }
     }

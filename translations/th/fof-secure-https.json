@@ -1,13 +1,13 @@
-{
+﻿{
     "fof-secure-https": {
         "admin": {
             "settings": {
-                "replace": "ภาพพร็อกซี่ผ่าน HTTPS"
+                "replace": "โหลดรูปภาพผ่าน HTTPS (Proxy)"
             }
         },
         "forum": {
-            "removed": "รูปภาพถูกลบเนื่องจากขาดการสนับสนุน HTTPS",
-            "show": "แสดงไม่ว่ายังไงก็ตาม"
+            "removed": "รูปภาพถูกลบออกเนื่องจากไม่รองรับ HTTPS",
+            "show": "แสดงอยู่ดี"
         }
     }
 }

@@ -1,15 +1,15 @@
 {
     "flarum-ext-purify": {
         "forum": {
-            "obscure": ""
+            "obscure": "[ซ่อนเนื้อหา]"
         },
         "admin": {
-            "badWords": "",
-            "additemdesc": "",
-            "hidemail": "",
-            "customreg": "",
-            "customregexp": "",
-            "customregexpdesc": ""
+            "badWords": "เพิ่มคำลงในรายชื่อดำ",
+            "additemdesc": "แยกแต่ละคำด้วยลูกน้ำ (เช่น word1,word2,word3,)",
+            "hidemail": "ซ่อนที่อยู่ email โดยอัตโนมัติ",
+            "customreg": "ใช้ Regular Expression แบบกำหนดเอง",
+            "customregexp": "ใช้ Regexp แบบกำหนดเอง",
+            "customregexpdesc": "ใส่ regular expression ของคุณที่นี่ตรงตามความต้องการของคุณ (เช่น (flarum|best|extension) เพื่อซ่อน 3 คำนี้)"
         }
     }
 }

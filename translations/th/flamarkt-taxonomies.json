@@ -2,171 +2,171 @@
     "flamarkt-taxonomies": {
         "admin": {
             "menu": {
-                "title": "",
-                "discussions": "",
-                "users": "",
-                "products": ""
+                "title": "Taxonomies",
+                "discussions": "Taxonomy โพสต์",
+                "users": "Taxonomy ผู้ใช้",
+                "products": "Taxonomy สินค้า"
             },
             "page": {
-                "title": "",
+                "title": "Taxonomies",
                 "create": {
-                    "taxonomy": "",
-                    "term": ""
+                    "taxonomy": "สร้าง Taxonomy",
+                    "term": "สร้าง Term"
                 },
-                "reset-term-order": ""
+                "reset-term-order": "รีเซ็ตรายการ Term เป็นลำดับตัวอักษร"
             },
             "edit-taxonomy": {
                 "title": {
-                    "new": "",
-                    "edit": ""
+                    "new": "สร้าง Taxonomy",
+                    "edit": "แก้ไข Taxonomy"
                 },
                 "section": {
-                    "info": "",
-                    "filling": "",
-                    "browsing": "",
-                    "scope": ""
+                    "info": "ข้อมูล",
+                    "filling": "การกรอก",
+                    "browsing": "การเรียกดู",
+                    "scope": "ขอบเขต"
                 },
                 "field": {
-                    "type": "",
-                    "typeDescription": "",
-                    "name": "",
-                    "slug": "",
-                    "description": "",
-                    "color": "",
-                    "icon": "",
-                    "iconDescription": "",
-                    "showLabel": "",
-                    "showLabelDescription": "",
-                    "enableFilter": "",
-                    "enableFilterDescription": "",
-                    "showFilter": "",
-                    "showFilterDescription": "",
-                    "enableFulltextSearch": "",
-                    "enableFulltextSearchDescription": "",
-                    "enableFulltextSearchWarning": "",
-                    "allowCustomValues": "",
-                    "customValueValidation": "",
-                    "customValueSlugger": "",
-                    "customValueSluggerDescription": "",
-                    "countRequired": "",
-                    "countRequiredDescription": "",
-                    "rangeSeparatorText": "",
-                    "tagScope": "",
-                    "tagScopeDescription": "",
-                    "tagScopePlaceholder": ""
+                    "type": "ประเภท",
+                    "typeDescription": "Taxonomy สามารถใช้กับ resource ของ Flarum ได้หลายประเภท ประเภทไม่สามารถเปลี่ยนได้หลังจากสร้างแล้ว คุณสามารถใช้ชื่อและ slug เดียวกันสำหรับ taxonomy ของประเภทต่างๆ ได้\n",
+                    "name": "=> flamarkt-taxonomies.ref.field.name",
+                    "slug": "=> flamarkt-taxonomies.ref.field.slug",
+                    "description": "=> flamarkt-taxonomies.ref.field.description",
+                    "color": "=> flamarkt-taxonomies.ref.field.color",
+                    "icon": "=> flamarkt-taxonomies.ref.field.icon",
+                    "iconDescription": "=> flamarkt-taxonomies.ref.field.iconDescription",
+                    "showLabel": "แสดง label ของ taxonomy พร้อมกับ term",
+                    "showLabelDescription": "รูปแบบการแสดงผลสำหรับรายการโพสต์และ hero ปัจจุบันไม่ใช้กับประเภท resource อื่นๆ\n",
+                    "enableFilter": "เปิดใช้งาน query-string/API filters",
+                    "enableFilterDescription": "อนุญาตให้ deep-link taxonomy filters ไปยังโพสต์ ผู้ใช้ และสินค้าสำหรับผู้ใช้ที่มีสิทธิ์ \"see all\" ของประเภท taxonomy นั้น นอกจากนี้ยังให้ผู้ใช้เหล่านั้นสามารถใช้ search filters ผ่าน REST API ได้ด้วย หากไม่มีการตั้งค่า \"Show filters\" ผู้ใช้จะไม่มีวิธีที่ชัดเจนในการรับลิงก์เหล่านั้นสำหรับผู้ใช้และสินค้า สำหรับโพสต์ deep link จะพบได้ใน hero แม้ปิดใช้ \"Show filters\"\n",
+                    "showFilter": "แสดง filters บนหน้ารายการ/directory",
+                    "showFilterDescription": "แสดง filters แก่ผู้เยี่ยมชมทั่วไปในรายการโพสต์ user directory หรือหน้า shop index ใช้งานได้เฉพาะเมื่อเปิด \"Enable filters\" ผู้ดูแล shop สามารถกรองตาม taxonomy ใดก็ได้ใน backoffice เสมอ\n",
+                    "enableFulltextSearch": "จัดทำดัชนี Term สำหรับการค้นหาแบบ fulltext",
+                    "enableFulltextSearchDescription": "มีผลเฉพาะเมื่อ Scout integration ทำงานอยู่เท่านั้น ชื่อ term จะกลายเป็นส่วนหนึ่งของข้อมูลที่ใช้ใน fulltext search สำหรับผู้ใช้ทั่วไป ข้อมูลจะสามารถค้นหาได้สำหรับผู้ใช้ที่มีสิทธิ์แสดงรายการ resource นั้นๆ ไม่ใช่ผู้ใช้ที่มีสิทธิ์ดู taxonomy คุณต้องสร้าง Scout search index สำหรับ resource นั้นใหม่ด้วยตนเองหลังเปลี่ยนการตั้งค่านี้\n",
+                    "enableFulltextSearchWarning": "สิทธิ์การค้นหา resource ของคุณแตกต่างจากสิทธิ์ Taxonomies \"see all\" ก่อนเปิดใช้งานตัวเลือกนี้ ตรวจสอบให้แน่ใจว่าคุณยอมรับที่จะให้ข้อมูลค้นหาได้สำหรับผู้ใช้เหล่านั้นแม้ปกติพวกเขาอาจไม่สามารถดู taxonomy ได้\n",
+                    "allowCustomValues": "อนุญาตให้ใช้ค่าแบบกำหนดเอง",
+                    "customValueValidation": "การตรวจสอบสำหรับค่าแบบกำหนดเอง",
+                    "customValueSlugger": "Slugger สำหรับค่าแบบกำหนดเอง",
+                    "customValueSluggerDescription": "เลือกวิธีสร้าง slug หากมี slug อยู่แล้ว จะมีตัวเลขนำหน้าเพิ่มโดยอัตโนมัติ สำหรับตัวเลือก Transliterator คุณต้องติดตั้งและตั้งค่า extension นั้นก่อน\n",
+                    "countRequired": "จำนวน term ที่จำเป็น",
+                    "countRequiredDescription": "ใส่จำนวนขั้นต่ำและสูงสุดของ term จาก taxonomy นี้ที่สามารถนำไปใช้กับ resource ได้\n",
+                    "rangeSeparatorText": "ถึง",
+                    "tagScope": "เฉพาะใน tags ที่กำหนด",
+                    "tagScopeDescription": "Taxonomy จะใช้งานได้เฉพาะใน tags ที่เลือก หากเลือก tag เดียว filter หน้าหลักจะแสดงเฉพาะบน tag นั้นเท่านั้น\n",
+                    "tagScopePlaceholder": "พิมพ์เพื่อค้นหา tag..."
                 },
-                "delete": "",
-                "deleteConfirmation": "",
+                "delete": "=> flamarkt-taxonomies.ref.delete",
+                "deleteConfirmation": "คุณต้องการลบ taxonomy {name} จริงหรือไม่? term ทั้งหมดใต้ taxonomy นั้นจะถูกลบ โพสต์ที่ใช้ taxonomy จะไม่ถูกลบ\n",
                 "submit": {
-                    "new": "",
-                    "edit": ""
+                    "new": "=> flamarkt-taxonomies.ref.submit.new",
+                    "edit": "=> flamarkt-taxonomies.ref.submit.edit"
                 },
                 "type-options": {
-                    "products": "",
-                    "discussions": "",
-                    "users": ""
+                    "products": "สินค้า",
+                    "discussions": "โพสต์",
+                    "users": "ผู้ใช้"
                 },
                 "validation-options": {
-                    "default": "",
-                    "alpha_num": "",
-                    "alpha_dash": "",
-                    "regex": ""
+                    "default": "ค่าข้อความใดก็ได้",
+                    "alpha_num": "ค่าตัวอักษรและตัวเลข",
+                    "alpha_dash": "ค่าตัวอักษร ตัวเลข และขีดกลาง/ขีดล่าง",
+                    "regex": "Regular expression"
                 },
                 "slugger-options": {
-                    "random": "",
-                    "alpha_dash": "",
-                    "transliterator": ""
+                    "random": "ตัวระบุแบบสุ่ม",
+                    "alpha_dash": "ASCII alpha-numerical slugger",
+                    "transliterator": "ใช้ FoF Transliterator extension"
                 }
             },
             "edit-term": {
                 "title": {
-                    "new": "",
-                    "edit": ""
+                    "new": "สร้าง Term",
+                    "edit": "แก้ไข Term"
                 },
                 "field": {
-                    "name": "",
-                    "slug": "",
-                    "description": "",
-                    "color": "",
-                    "icon": "",
-                    "iconDescription": ""
+                    "name": "=> flamarkt-taxonomies.ref.field.name",
+                    "slug": "=> flamarkt-taxonomies.ref.field.slug",
+                    "description": "=> flamarkt-taxonomies.ref.field.description",
+                    "color": "=> flamarkt-taxonomies.ref.field.color",
+                    "icon": "=> flamarkt-taxonomies.ref.field.icon",
+                    "iconDescription": "=> flamarkt-taxonomies.ref.field.iconDescription"
                 },
-                "delete": "",
-                "deleteConfirmation": "",
+                "delete": "=> flamarkt-taxonomies.ref.delete",
+                "deleteConfirmation": "คุณต้องการลบ term {name} จริงหรือไม่? โพสต์ที่ใช้ term จะไม่ถูกลบ\n",
                 "submit": {
-                    "new": "",
-                    "edit": ""
+                    "new": "=> flamarkt-taxonomies.ref.submit.new",
+                    "edit": "=> flamarkt-taxonomies.ref.submit.edit"
                 }
             },
             "permissions": {
-                "heading": "",
-                "moderate": "",
-                "bypassTermCounts": "",
-                "seeOwnDiscussion": "",
-                "seeAnyDiscussion": "",
-                "editOwnDiscussion": "",
-                "editAnyDiscussion": "",
-                "seeOwnUser": "",
-                "seeAnyUser": "",
-                "editOwnUser": "",
-                "editAnyUser": "",
-                "ownDisabledEveryone": "",
-                "ownDisabledMembers": ""
+                "heading": "Taxonomies",
+                "moderate": "กำหนดค่า Taxonomy ที่ใช้งานได้",
+                "bypassTermCounts": "ข้ามข้อกำหนดจำนวน term",
+                "seeOwnDiscussion": "ดู taxonomy ในโพสต์ของตนเอง",
+                "seeAnyDiscussion": "ดู taxonomy ในโพสต์ทั้งหมด",
+                "editOwnDiscussion": "แก้ไข taxonomy ในโพสต์ของตนเอง",
+                "editAnyDiscussion": "แก้ไข taxonomy ในโพสต์ใดก็ได้",
+                "seeOwnUser": "ดู taxonomy บนโปรไฟล์ตนเอง",
+                "seeAnyUser": "ดู taxonomy บนโปรไฟล์ผู้ใช้ใดก็ได้",
+                "editOwnUser": "แก้ไข taxonomy บนโปรไฟล์ตนเอง",
+                "editAnyUser": "แก้ไข taxonomy บนโปรไฟล์ผู้ใช้ใดก็ได้",
+                "ownDisabledEveryone": "สมาชิกที่ยังไม่ยืนยันและถูกระงับ",
+                "ownDisabledMembers": "สมาชิกที่ยืนยันแล้ว"
             },
             "settings": {
-                "goToPage": ""
+                "goToPage": "ไปยังหน้าการตั้งค่า"
             }
         },
         "forum": {
             "composer": {
-                "choose": ""
+                "choose": "เลือก {taxonomy}"
             },
             "discussion": {
-                "edit": ""
+                "edit": "แก้ไข {taxonomy}"
             },
             "user": {
-                "nav": "",
-                "edit": ""
+                "nav": "Taxonomies",
+                "edit": "แก้ไข {taxonomy}"
             },
             "blog": {
                 "widget": {
-                    "title": ""
+                    "title": "Taxonomies"
                 }
             }
         },
         "lib": {
             "modal": {
                 "title": {
-                    "new": "",
-                    "edit": ""
+                    "new": "เลือก {taxonomy} สำหรับโพสต์ของคุณ",
+                    "edit": "แก้ไข {taxonomy} สำหรับ {title}"
                 },
-                "placeholder": "",
-                "placeholderOptional": "",
-                "custom": "",
-                "bypassTermCounts": "",
-                "submit": ""
+                "placeholder": "{count, plural, one {เลือก term...} other {เลือก # term...}}",
+                "placeholderOptional": "เลือก...",
+                "custom": "ใช้ {value}",
+                "bypassTermCounts": "ข้ามจำนวน term",
+                "submit": "ตกลง"
             }
         },
         "api": {
             "error": {
-                "invalid_filter_taxonomy": "",
-                "discussion_taxonomy_not_in_scope": "",
-                "cannot_use_taxonomies_on_model": ""
+                "invalid_filter_taxonomy": "คีย์ filter taxonomy \"{type}\" ที่ไม่ถูกต้อง \"{slug}\"",
+                "discussion_taxonomy_not_in_scope": "Taxonomy \"{slug}\" ไม่พร้อมใช้งานในการรวม tag ปัจจุบัน",
+                "cannot_use_taxonomies_on_model": "คุณไม่มีสิทธิ์ใช้ taxonomy ในบริบทนี้"
             }
         },
         "ref": {
             "field": {
-                "name": "",
-                "slug": "",
-                "description": "",
-                "color": "",
-                "icon": "",
-                "iconDescription": ""
+                "name": "ชื่อ",
+                "slug": "Slug",
+                "description": "คำอธิบาย",
+                "color": "สี",
+                "icon": "ไอคอน",
+                "iconDescription": "ใส่ชื่อ class ของไอคอน <a>FontAwesome</a> ใดก็ได้ <em>รวมถึง</em> prefix <code>fas fa-</code>"
             },
-            "delete": "",
+            "delete": "ลบ",
             "submit": {
-                "new": "",
-                "edit": ""
+                "new": "สร้าง",
+                "edit": "บันทึก"
             }
         }
     }

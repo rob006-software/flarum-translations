@@ -2,187 +2,187 @@
     "clarkwinkelmann-catch-the-fish": {
         "forum": {
             "moderate": {
-                "add": "",
-                "edit": "",
-                "delete": "",
-                "fishes": "",
-                "rounds": ""
+                "add": "เพิ่ม",
+                "edit": "แก้ไข",
+                "delete": "ลบ",
+                "fishes": "ปลา",
+                "rounds": "รอบ"
             },
             "nav": {
-                "rankings": "",
-                "settings": ""
+                "rankings": "อันดับ Catch The Fish",
+                "settings": "การตั้งค่า Catch The Fish"
             },
             "new-round-modal": {
-                "title": ""
+                "title": "รอบใหม่"
             },
             "new-fish-modal": {
-                "title": ""
+                "title": "ปลาใหม่"
             },
             "edit-round-modal": {
-                "title": ""
+                "title": "แก้ไขรอบ \"{name}\""
             },
             "edit-fish-modal": {
-                "title": ""
+                "title": "แก้ไขปลา \"{name}\""
             },
             "caught-fish-modal": {
-                "title": "",
-                "named-by": "",
-                "placed-by": "",
-                "congratulation": "",
-                "name": "",
-                "name-help": "",
-                "placement-help": "",
-                "submit-name-place-later": "",
-                "submit-name": "",
-                "submit-place-later": "",
-                "submit-continue": "",
-                "submit-name-place-random": "",
-                "submit-place-random": ""
+                "title": "คุณจับปลาได้แล้ว!",
+                "named-by": "ตั้งชื่อโดย",
+                "placed-by": "วางโดย",
+                "congratulation": "ยินดีด้วย คุณจับปลาได้! คุณจับปลาไปแล้ว {catch_count} ตัว",
+                "name": "ชื่อปลา",
+                "name-help": "คุณสามารถตั้งชื่อปลาใหม่ได้ถ้าต้องการ ชื่อต้องเป็นไปตามกฎของฟอรัม",
+                "placement-help": "คุณสามารถซ่อนปลาไว้ที่ไหนก็ได้ในฟอรัม ในโพสต์ล่าสุดหรือโปรไฟล์ผู้ใช้ที่กำลังใช้งาน คุณไม่สามารถจับปลาที่วางเองได้",
+                "submit-name-place-later": "บันทึกชื่อและเลือกที่ซ่อน",
+                "submit-name": "บันทึกชื่อ",
+                "submit-place-later": "โอเค ฉันจะเลือกที่ซ่อนภายหลัง",
+                "submit-continue": "ดำเนินการต่อ",
+                "submit-name-place-random": "บันทึกชื่อและให้ปลาซ่อนตัวเอง",
+                "submit-place-random": "ให้ปลาซ่อนตัวเอง"
             },
             "edit-round": {
-                "name": "",
-                "name-help": "",
-                "starts-at": "",
-                "ends-at": "",
-                "starting-pack": "",
-                "starting-pack-help": "",
-                "create": "",
-                "save": "",
-                "delete": "",
-                "delete-confirmation": ""
+                "name": "ชื่อ",
+                "name-help": "ชื่อที่แสดงต่อสาธารณะสำหรับรอบนี้ จะแสดงในแบนเนอร์และในการจัดอันดับ",
+                "starts-at": "เวลาเริ่มต้น",
+                "ends-at": "เวลาสิ้นสุด",
+                "starting-pack": "ชุดเริ่มต้น",
+                "starting-pack-help": "จะเพิ่มปลาสองสามตัวเพื่อให้คุณเริ่มต้นได้ทันที",
+                "create": "สร้างรอบ",
+                "save": "บันทึกรอบ",
+                "delete": "ลบรอบ",
+                "delete-confirmation": "ลบรอบ \"{name}\" หรือไม่?"
             },
             "edit-fish": {
-                "name": "",
-                "name-help": "",
-                "create": "",
-                "save": "",
-                "delete": "",
-                "delete-confirmation": ""
+                "name": "ชื่อ",
+                "name-help": "ชื่อปัจจุบันของปลา สามารถแก้ไขได้โดยผู้เล่นที่มีสิทธิ์เปลี่ยนชื่อปลา",
+                "create": "สร้างปลา",
+                "save": "บันทึกปลา",
+                "delete": "ลบปลา",
+                "delete-confirmation": "ลบปลา \"{name}\" หรือไม่?"
             },
             "moving-fish": {
-                "login": ""
+                "login": "เข้าสู่ระบบเพื่อจับปลา"
             },
             "fish-image": {
-                "alt": "",
-                "missing": ""
+                "alt": "รูปภาพปลา \"{name}\"",
+                "missing": "ไม่พบรูปภาพปลา"
             },
             "round-alert": {
-                "message": "",
-                "rankings": ""
+                "message": "รอบ \"{name}\" จับปลาให้ได้มากที่สุดก่อน {time}",
+                "rankings": "ดูการจัดอันดับ"
             },
             "basket": {
-                "title": "",
-                "drag-help": "",
-                "time": ""
+                "title": "ตะกร้าปลา",
+                "drag-help": "ลากและวางปลาลงบนโพสต์ โพสต์ หรือโปรไฟล์ผู้ใช้",
+                "time": "วางได้ถึง: {time}"
             },
             "table-round": {
-                "loading": "",
-                "title": "",
-                "new": "",
-                "name": "",
-                "start": "",
-                "end": "",
-                "actions": "",
-                "edit": "",
-                "fishes": ""
+                "loading": "กำลังโหลด...",
+                "title": "รอบ",
+                "new": "รอบใหม่",
+                "name": "ชื่อ",
+                "start": "จาก",
+                "end": "ถึง",
+                "actions": "การดำเนินการ",
+                "edit": "แก้ไข",
+                "fishes": "ปลา"
             },
             "table-fish": {
-                "loading": "",
-                "title": "",
-                "new": "",
-                "image": "",
-                "name": "",
-                "user-name": "",
-                "user-place": "",
-                "placement": "",
-                "actions": "",
-                "edit": "",
-                "no-user-name": "",
-                "no-user-place": "",
-                "upload": "",
-                "new-from-image": ""
+                "loading": "กำลังโหลด...",
+                "title": "ปลาในรอบ {name}",
+                "new": "ปลาใหม่",
+                "image": "รูปภาพ",
+                "name": "ชื่อ",
+                "user-name": "ตั้งชื่อล่าสุดโดย",
+                "user-place": "วางล่าสุดโดย",
+                "placement": "ตำแหน่งปัจจุบัน",
+                "actions": "การดำเนินการ",
+                "edit": "แก้ไข",
+                "no-user-name": "ยังไม่ได้ตั้งชื่อใหม่",
+                "no-user-place": "สุ่ม",
+                "upload": "อัพโหลดรูปภาพใหม่",
+                "new-from-image": "สร้างปลาใหม่โดยนำเข้ารูปภาพหลายภาพพร้อมกัน"
             },
             "table-ranking": {
-                "loading": "",
-                "title": "",
-                "rank": "",
-                "count": "",
-                "user": ""
+                "loading": "กำลังโหลด...",
+                "title": "การจัดอันดับรอบ {name}",
+                "rank": "ชื่อ",
+                "count": "ปลาที่จับได้",
+                "user": "ผู้ใช้"
             },
             "page-ranking": {
-                "title": "",
-                "permission": "",
-                "nothing": ""
+                "title": "การจัดอันดับ",
+                "permission": "คุณไม่มีสิทธิ์ดูการจัดอันดับ",
+                "nothing": "ไม่มีรอบที่กำลังดำเนินอยู่"
             },
             "drop-area": {
-                "message": "",
-                "missing-from-store": ""
+                "message": "คุณสามารถวางปลาที่นี่ได้",
+                "missing-from-store": "ไม่พบปลาในที่เก็บข้อมูล"
             }
         },
         "admin": {
             "settings": {
-                "user": "",
-                "user-age": "",
-                "user-probability": "",
-                "discussion": "",
-                "discussion-age": "",
-                "discussion-tags": "",
-                "discussion-tags-unavailable": "",
-                "discussion-tags-help": "",
+                "user": "ผู้ใช้",
+                "user-age": "จำนวนวันที่ผู้ใช้ต้องใช้งานอยู่เพื่อให้วางปลาบนโปรไฟล์ได้ (วัน)",
+                "user-probability": "ความน่าจะเป็นที่จะวางบนโปรไฟล์ผู้ใช้ (%)",
+                "discussion": "โพสต์",
+                "discussion-age": "อายุของโพสต์ที่สามารถวางปลาได้ (วัน)",
+                "discussion-tags": "รายชื่อแท็กที่อนุญาต",
+                "discussion-tags-unavailable": "การตั้งค่านี้ไม่พร้อมใช้งานเพราะ Tags extension ถูกปิดใช้งาน",
+                "discussion-tags-help": "หากไม่เลือกแท็กใด โพสต์ใดก็ตามที่ตรงกับการตั้งค่าเวลาข้างต้นจะถูกเลือก หากเลือกแท็กอย่างน้อยหนึ่งแท็ก โพสต์ต้องมีแท็กที่เลือกอย่างน้อยหนึ่งแท็ก ความน่าจะเป็นคือโอกาสที่จะถูกเลือกหลังจากทางเลือกก่อนหน้าถูกลองแล้ว แท็กสุดท้ายในรายการจะทำหน้าที่เป็นตัวสำรองเสมอ\n",
                 "tags-header": {
-                    "tag": "",
-                    "probability": ""
+                    "tag": "แท็ก",
+                    "probability": "ความน่าจะเป็น"
                 },
                 "tags-control": {
-                    "choose": "",
-                    "add": "",
-                    "down": "",
-                    "up": "",
-                    "delete": ""
+                    "choose": "เลือกแท็ก",
+                    "add": "เพิ่มในรายชื่อที่อนุญาต",
+                    "down": "เลื่อนลง",
+                    "up": "เลื่อนขึ้น",
+                    "delete": "นำออกจากรายชื่อที่อนุญาต"
                 },
                 "tags-fallback": {
-                    "last-line": "",
-                    "single-line": ""
+                    "last-line": "ตัวสำรอง",
+                    "single-line": "ต้องการอย่างน้อย 2 แท็กสำหรับความน่าจะเป็น"
                 },
-                "post": "",
-                "post-age": "",
-                "post-probability": "",
-                "general": "",
-                "time-to-place": "",
-                "alert-round": "",
-                "animate-flip": ""
+                "post": "โพสต์",
+                "post-age": "อายุของโพสต์ที่สามารถวางปลาได้ (วัน)",
+                "post-probability": "ความน่าจะเป็นที่จะวางบนโพสต์แทนที่จะเป็นโพสต์ (%)",
+                "general": "ทั่วไป",
+                "time-to-place": "เวลาที่อนุญาตให้วางปลาก่อนที่จะถูกวางโดยอัตโนมัติ (นาที)",
+                "alert-round": "แสดงการแจ้งเตือนพร้อมชื่อและระยะเวลาของรอบในหน้าแรก",
+                "animate-flip": "พลิกรูปปลาตามทิศทาง"
             },
             "permissions": {
-                "visible": "",
-                "list-rankings": "",
-                "participate": "",
-                "choose-place": "",
-                "choose-name": "",
-                "moderate": ""
+                "visible": "เห็นปลา",
+                "list-rankings": "เข้าถึงหน้าการจัดอันดับ",
+                "participate": "เข้าร่วมรอบและจับปลา",
+                "choose-place": "เลือกที่วางปลาหลังจับ",
+                "choose-name": "เลือกชื่อปลาหลังจับ",
+                "moderate": "จัดการรอบและปลา"
             }
         },
         "api": {
-            "default-fish-name": "",
-            "wrong-catch-placement": "",
-            "too-many-placement-models": "",
-            "invalid-discussion-id": "",
-            "invalid-post-id": "",
-            "invalid-user-id": "",
-            "model-deleted": "",
-            "model-private": "",
-            "tag-not-allowed": "",
-            "inactive-discussion": "",
-            "inactive-post": "",
-            "inactive-user": "",
-            "non-comment-post": "",
-            "user-suspended": "",
-            "random-error": "",
-            "cannot-catch-own-fish": "",
-            "cannot-catch-hold-fish": "",
-            "fish-update-wrong-user": "",
-            "fish-update-expired": "",
-            "round-not-started": "",
-            "round-finished": ""
+            "default-fish-name": "ปลา #{number}",
+            "wrong-catch-placement": "ไม่มีปลาที่นี่ บางทีคุณอาจช้าเกินไปและคนอื่นจับไปก่อนแล้ว",
+            "too-many-placement-models": "สามารถวางได้ครั้งละหนึ่งตัวเท่านั้น",
+            "invalid-discussion-id": "ดูเหมือนโพสต์นี้ไม่มีอยู่ อาจถูกลบไปเมื่อไม่นานมานี้",
+            "invalid-post-id": "ดูเหมือนโพสต์นี้ไม่มีอยู่ อาจถูกลบไปเมื่อไม่นานมานี้",
+            "invalid-user-id": "ดูเหมือนผู้ใช้นี้ไม่มีอยู่ อาจถูกลบไปเมื่อไม่นานมานี้",
+            "model-deleted": "ไม่สามารถวางปลาในโพสต์หรือโพสต์ที่ถูกลบ",
+            "model-private": "ไม่สามารถวางปลาในโพสต์หรือโพสต์ส่วนตัว",
+            "tag-not-allowed": "คุณไม่สามารถวางปลาในแท็กนี้",
+            "inactive-discussion": "ไม่สามารถวางปลาในโพสต์ที่ไม่มีกิจกรรมมากกว่า {days} วัน",
+            "inactive-post": "ไม่สามารถวางปลาในโพสต์ที่สร้างมากกว่า {days} วันที่ผ่านมา",
+            "inactive-user": "ไม่สามารถวางปลาในโปรไฟล์ผู้ใช้ที่ไม่มีกิจกรรมมากกว่า {days} วัน",
+            "non-comment-post": "สามารถวางปลาในโพสต์คอมเมนต์เท่านั้น",
+            "user-suspended": "ไม่สามารถวางปลาในโปรไฟล์ผู้ใช้ที่ถูกระงับ",
+            "random-error": "ไม่สามารถสร้างที่วางปลาแบบสุ่มได้",
+            "cannot-catch-own-fish": "คุณไม่สามารถจับปลาที่วางเองได้",
+            "cannot-catch-hold-fish": "ผู้จับก่อนหน้าต้องปล่อยปลาก่อนคุณจึงจะจับได้",
+            "fish-update-wrong-user": "คุณไม่สามารถแก้ไขปลาตัวนี้อีกต่อไปแล้ว คนอื่นอาจจับไปแล้ว",
+            "fish-update-expired": "ช้าเกินไป คุณไม่สามารถแก้ไขปลาตัวนี้อีกต่อไปแล้ว มันถูกวางที่ไหนสักแห่งโดยอัตโนมัติแล้ว",
+            "round-not-started": "รอบนี้ยังไม่เริ่ม",
+            "round-finished": "รอบนี้จบแล้ว"
         }
     }
 }

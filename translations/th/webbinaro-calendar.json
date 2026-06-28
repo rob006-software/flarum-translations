@@ -2,40 +2,40 @@
     "flarum-calendar": {
         "forum": {
             "button": {
-                "landing": "",
-                "create": "",
-                "login": ""
+                "landing": "ปฏิทินกิจกรรม",
+                "create": "กิจกรรมใหม่",
+                "login": "เพิ่มกิจกรรมของคุณ"
             },
             "modal": {
-                "title_create": "",
-                "title_edit": "",
-                "title_label": "",
-                "dates_label": "",
-                "description_label": "",
-                "description_placeholder": "",
-                "requirement_message": "",
-                "submit": ""
+                "title_create": "สร้างกิจกรรมปฏิทินใหม่",
+                "title_edit": "แก้ไขรายละเอียดกิจกรรม",
+                "title_label": "ชื่อกิจกรรม",
+                "dates_label": "วันและเวลา",
+                "description_label": "รายละเอียด",
+                "description_placeholder": "รายละเอียดกิจกรรม",
+                "requirement_message": "กิจกรรมต้องมีชื่อและรายละเอียด",
+                "submit": "บันทึก"
             },
             "event": {
-                "details": "",
-                "hosted_by": "",
-                "starts": "",
-                "ends": "",
-                "confirm_delete": "",
-                "deleted": ""
+                "details": "รายละเอียดเพิ่มเติมเกี่ยวกับกิจกรรมนี้",
+                "hosted_by": "จัดโดย:",
+                "starts": "เริ่ม:",
+                "ends": "สิ้นสุด:",
+                "confirm_delete": "คุณแน่ใจหรือไม่ว่าต้องการลบกิจกรรมนี้?",
+                "deleted": "กิจกรรมนี้ถูกลบแล้ว"
             }
         },
         "admin": {
             "settings": {
-                "hide_host": ""
+                "hide_host": "ซ่อนข้อมูลผู้จัด (จัดโดย...)"
             },
             "permissions": {
-                "add": "",
-                "moderate": "",
-                "view": ""
+                "add": "สร้างกิจกรรมปฏิทินใหม่",
+                "moderate": "ลบหรือแก้ไขกิจกรรมปฏิทิน (ผู้ใช้ทุกคนสามารถแก้ไขกิจกรรมของตนเองได้)",
+                "view": "ดูกิจกรรม"
             },
             "basics": {
-                "homepage": ""
+                "homepage": "เดือนปัจจุบันในปฏิทิน"
             }
         }
     }

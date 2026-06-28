@@ -1,52 +1,52 @@
 {
     "ordinaryjellyfish-sentra": {
         "admin": {
-            "view_documentation": "",
-            "api_key": "",
-            "endpoint": "",
-            "enable": "",
+            "view_documentation": "ดูเอกสาร",
+            "api_key": "API Key",
+            "endpoint": "Endpoint",
+            "enable": "เปิดใช้งาน",
             "permissions": {
-                "bypass": ""
+                "bypass": "ข้าม Sentra"
             },
             "services": {
-                "heading": "",
-                "content_safety": "",
-                "content_safety_help": "",
+                "heading": "Services",
+                "content_safety": "Azure AI Content Safety",
+                "content_safety_help": "Azure AI Content Safety เป็นบริการที่ตรวจจับเนื้อหาที่อาจก่อให้เกิดอันตรายหรือไม่เหมาะสมในข้อความและรูปภาพ",
                 "content_safety_settings": {
-                    "analyze_images": ""
+                    "analyze_images": "วิเคราะห์รูปภาพ"
                 }
             },
             "modules": {
-                "heading": "",
-                "requires": "",
-                "requires_error": "",
-                "post_shield": "",
-                "post_shield_help": "",
+                "heading": "Modules",
+                "requires": "ต้องใช้ <b>{services}</b>",
+                "requires_error": "กรุณาเปิดใช้งานและตั้งค่า services ที่จำเป็นทั้งหมดก่อนใช้ module นี้",
+                "post_shield": "Post Shield",
+                "post_shield_help": "Post Shield เป็น module สำหรับตรวจจับเนื้อหาที่อาจก่อให้เกิดอันตรายหรือไม่เหมาะสมใน post วิเคราะห์เนื้อหา post ทั้งหมด รวมถึงรูปภาพหากเปิดใช้งานใน Azure AI Content Safety",
                 "post_shield_settings": {
-                    "harm_categories": "",
-                    "severity_level": "",
-                    "severity_level_low": "",
-                    "severity_level_medium": "",
-                    "severity_level_high": "",
-                    "severity_level_unknown": ""
+                    "harm_categories": "หมวดหมู่อันตราย",
+                    "severity_level": "ระดับความรุนแรงที่เรียกให้ดำเนินการ",
+                    "severity_level_low": "ต่ำ",
+                    "severity_level_medium": "ปานกลาง",
+                    "severity_level_high": "สูง",
+                    "severity_level_unknown": "ไม่ทราบ"
                 }
             }
         },
         "lib": {
             "post_shield": {
-                "Hate": "",
-                "Hate_help": "",
-                "Sexual": "",
-                "Sexual_help": "",
-                "Violence": "",
-                "Violence_help": "",
-                "SelfHarm": "",
-                "SelfHarm_help": ""
+                "Hate": "ความเกลียดชังและความไม่เป็นธรรม",
+                "Hate_help": "เนื้อหาที่โจมตีหรือใช้ภาษาเลือกปฏิบัติต่อบุคคลหรือกลุ่มตามคุณลักษณะที่แตกต่างกัน",
+                "Sexual": "เนื้อหาทางเพศ",
+                "Sexual_help": "ภาษาที่เกี่ยวข้องกับอวัยวะทางร่างกายและอวัยวะเพศ ความสัมพันธ์รักใคร่และกิจกรรมทางเพศ รวมถึงเนื้อหาที่บรรยายในเชิงอีโรติกหรือมีการล่วงละเมิดทางเพศ",
+                "Violence": "ความรุนแรง",
+                "Violence_help": "ภาษาที่เกี่ยวข้องกับการกระทำทางกายภาพที่มีเจตนาทำร้าย บาดเจ็บ หรือสังหาร รวมถึงการกล่าวถึงอาวุธและปืน",
+                "SelfHarm": "การทำร้ายตัวเอง",
+                "SelfHarm_help": "ภาษาที่เกี่ยวข้องกับการกระทำทางกายภาพที่มีเจตนาทำร้าย บาดเจ็บ หรือทำลายร่างกายตัวเอง"
             }
         },
         "forum": {
-            "flag_reason": "",
-            "flag_detail": ""
+            "flag_reason": "Sentra ได้ flag post นี้เนื่องจาก {reason}",
+            "flag_detail": "Post ตรงตามเกณฑ์สำหรับ {categories} โดยมีระดับความรุนแรงเป็น {severities} ตามลำดับ"
         }
     }
 }

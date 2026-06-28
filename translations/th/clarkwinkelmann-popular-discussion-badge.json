@@ -1,37 +1,37 @@
 {
     "clarkwinkelmann-popular-discussion-badge": {
         "forum": {
-            "badge_label": ""
+            "badge_label": "ยอดนิยม"
         },
         "admin": {
             "settings": {
-                "mode": "",
-                "mode_help": "",
+                "mode": "โหมดการทำงาน",
+                "mode_help": "โหมด Frontend เป็นวิธีที่มีประสิทธิภาพและไม่ใช้ฐานข้อมูล โหมด Scheduler ต้องการการตั้งค่า CRON และรองรับการกำหนดช่วงเวลาในเงื่อนไข\n",
                 "mode_options": {
-                    "frontend": "",
-                    "scheduler": ""
+                    "frontend": "Frontend",
+                    "scheduler": "Scheduler (CRON)"
                 },
-                "scheduler_frequency": "",
-                "scheduler_frequency_help": "",
+                "scheduler_frequency": "ความถี่สำหรับโหมด Scheduler",
+                "scheduler_frequency_help": "ความถี่ในการอัปเดตสถานะความนิยมในโหมด Scheduler (CRON) (ในโหมด Frontend สถานะจะอัปเดตทันทีเสมอ)\n",
                 "scheduler_frequency_options": {
-                    "everyFiveMinutes": "",
-                    "everyTenMinutes": "",
-                    "everyFifteenMinutes": "",
-                    "everyThirtyMinutes": "",
-                    "hourly": ""
+                    "everyFiveMinutes": "ทุก 5 นาที",
+                    "everyTenMinutes": "ทุก 10 นาที",
+                    "everyFifteenMinutes": "ทุก 15 นาที",
+                    "everyThirtyMinutes": "ทุก 30 นาที",
+                    "hourly": "ทุก 1 ชั่วโมง"
                 },
-                "conditions": "",
-                "conditions_help": "",
-                "add": "",
-                "comments": "",
-                "comments_placeholder": "",
-                "views": "",
-                "views_placeholder": "",
-                "within": "",
-                "within_placeholder": "",
-                "hours": "",
-                "and": "",
-                "or": ""
+                "conditions": "เงื่อนไขสำหรับ Badge ยอดนิยม",
+                "conditions_help": "ความคิดเห็นคือจำนวนโพสต์ทั้งหมดรวมถึงโพสต์แรก จำนวนการเข้าชมดึงมาจาก Extension MichaelBelgium หรือ Flarumite ช่วงเวลาที่กำหนดจะใช้นับความคิดเห็นหรือการเข้าชมใน n ชั่วโมงที่ผ่านมา รองรับเฉพาะ Extension MichaelBelgium สำหรับการนับการเข้าชมตามช่วงเวลา ปล่อยช่วงเวลาว่างหรือตั้งเป็น 0 ชั่วโมงเพื่อนับทั้งหมด\n",
+                "add": "เพิ่มเงื่อนไขอื่น",
+                "comments": "ความคิดเห็น",
+                "comments_placeholder": "0",
+                "views": "การเข้าชม",
+                "views_placeholder": "0",
+                "within": "ภายใน",
+                "within_placeholder": "ทั้งหมด",
+                "hours": "ชม.",
+                "and": "และ",
+                "or": "หรือ"
             }
         }
     }

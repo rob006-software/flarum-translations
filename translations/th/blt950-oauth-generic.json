@@ -4,34 +4,34 @@
             "settings": {
                 "providers": {
                     "generic": {
-                        "description": "",
-                        "client_id_label": "",
-                        "client_secret_label": "",
-                        "scopes_label": "",
-                        "authorization_endpoint_label": "",
-                        "token_endpoint_label": "",
-                        "user_information_endpoint_label": "",
-                        "id_parameter_label": "",
-                        "display_name_parameter_label": "",
-                        "email_address_parameter_label": "",
-                        "force_userid_label": "",
-                        "force_name_label": "",
-                        "force_email_label": ""
+                        "description": "ตั้งค่า login ด้วย OAuth2 provider ที่กำหนดเอง",
+                        "client_id_label": "Client ID",
+                        "client_secret_label": "Client secret",
+                        "scopes_label": "Scope",
+                        "authorization_endpoint_label": "Authorization Endpoint",
+                        "token_endpoint_label": "Token Endpoint",
+                        "user_information_endpoint_label": "User Information Endpoint",
+                        "id_parameter_label": "User ID Parameter",
+                        "display_name_parameter_label": "Display Name Parameter",
+                        "email_address_parameter_label": "Email Address Parameter",
+                        "force_userid_label": "บังคับ User ID (0 = ไม่, 1 = ใช่)",
+                        "force_name_label": "บังคับ Display Name (0 = ไม่, 1 = ใช่)",
+                        "force_email_label": "บังคับ Email Address (0 = ไม่, 1 = ใช่)"
                     }
                 }
             }
         },
         "forum": {
             "log_in": {
-                "with_generic_button": ""
+                "with_generic_button": "=> fof-oauth.forum.log_in.with_button"
             },
             "providers": {
-                "generic": ""
+                "generic": "=> fof-oauth.lib.providers.generic"
             }
         },
         "lib": {
             "providers": {
-                "generic": ""
+                "generic": "Generic"
             }
         }
     }

@@ -1,30 +1,30 @@
 {
     "justoverclock-frontend-blog": {
         "admin": {
-            "numberOfPost": "",
-            "setBlogIndexPage": "",
-            "numberOfPost-help": "",
-            "sorting": "",
-            "sorting-help": "",
-            "charLim": "",
-            "charLim-help": "",
-            "defaultImage": "",
-            "defaultImage-help": "",
-            "showHeaderHero": "",
-            "showPinnedDiscussions": ""
+            "numberOfPost": "จำนวน Posts",
+            "setBlogIndexPage": "ตั้ง Frontend Blog extension เป็นหน้าหลัก",
+            "numberOfPost-help": "ใส่ที่นี่จำนวน post ที่คุณต้องการแสดง",
+            "sorting": "ล่าสุดหรือ Hot Discussions (ค่าเริ่มต้นคือล่าสุด)",
+            "sorting-help": "หากคุณต้องการแสดงโพสต์ล่าสุด เขียน \"-createdAt\" สำหรับ hot discussions เขียน \"-commentCount\"",
+            "charLim": "Character Limit",
+            "charLim-help": "ใส่ที่นี่จำนวนตัวอักษรสูงสุดเพื่อแสดง",
+            "defaultImage": "Default Post Image",
+            "defaultImage-help": "ที่นี่คุณสามารถกำหนด default image สำหรับโพสต์ที่ไม่มี",
+            "showHeaderHero": "Show Welcome Hero",
+            "showPinnedDiscussions": "Show Last 3 Pinned Discussions"
         },
         "forum": {
-            "recentDiscussions": "",
-            "titlePage": "",
-            "post": "",
-            "linkToDiscussion": "",
-            "postedOn": "",
-            "menuButton": "",
-            "allDiscussions": "",
-            "signupButton": "",
-            "loginButton": "",
-            "stickyTitle": "",
-            "readMore": ""
+            "recentDiscussions": "Recent Discussions:",
+            "titlePage": "Forum Discussions",
+            "post": "{count, plural, one {# POST} other {# POSTS}}",
+            "linkToDiscussion": " Link To Discussion",
+            "postedOn": " Posted On: ",
+            "menuButton": "Menu",
+            "allDiscussions": "Forum",
+            "signupButton": "Signup",
+            "loginButton": "Login",
+            "stickyTitle": "Pinned Discussions",
+            "readMore": "Read More"
         }
     }
 }

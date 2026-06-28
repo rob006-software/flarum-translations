@@ -2,44 +2,44 @@
     "import-ai-oauth-passport": {
         "admin": {
             "settings": {
-                "title": "",
-                "enabled_label": "",
-                "redirect_url_label": "",
-                "redirect_url_help": "",
-                "client_id_label": "",
-                "client_secret_label": "",
-                "scopes_label": "",
-                "authorization_endpoint_label": "",
-                "token_endpoint_label": "",
-                "user_information_endpoint_label": "",
-                "id_parameter_label": "",
-                "display_name_parameter_label": "",
-                "email_address_parameter_label": "",
-                "force_userid_label": "",
-                "force_name_label": "",
-                "force_email_label": "",
-                "update_display_name_label": "",
-                "update_email_label": "",
-                "replace_login_signup_label": "",
-                "button_title_label": "",
-                "button_icon_label": "",
-                "button_color_label": "",
-                "button_text_color_label": "",
-                "fullscreen_popup_label": "",
-                "fullscreen_popup_help": "",
-                "popup_width_label": "",
-                "popup_width_help": "",
-                "popup_height_label": "",
-                "popup_height_help": ""
+                "title": "OAuth Passport Settings",
+                "enabled_label": "เปิดใช้งาน OAuth Passport Login",
+                "redirect_url_label": "Redirect URL (คัดลอกไปยัง OAuth server ของคุณ)",
+                "redirect_url_help": "คัดลอก URL นี้ไปยัง OAuth server ของคุณ allowed redirect URLs",
+                "client_id_label": "Client ID",
+                "client_secret_label": "Client Secret",
+                "scopes_label": "Scopes (แยกด้วยจุลภาค)",
+                "authorization_endpoint_label": "Authorization Endpoint URL",
+                "token_endpoint_label": "Token Endpoint URL",
+                "user_information_endpoint_label": "User Information Endpoint URL",
+                "id_parameter_label": "ชื่อฟิลด์ User ID",
+                "display_name_parameter_label": "ชื่อฟิลด์ Display Name",
+                "email_address_parameter_label": "ชื่อฟิลด์ Email Address",
+                "force_userid_label": "บังคับ User ID เป็น Username",
+                "force_name_label": "บังคับ Display Name",
+                "force_email_label": "บังคับ Email Address (ทำเครื่องหมายว่าตรวจสอบแล้ว)",
+                "update_display_name_label": "อัปเดตชื่อแสดงผลเมื่อเข้าสู่ระบบ",
+                "update_email_label": "อัปเดตที่อยู่อีเมลเมื่อเข้าสู่ระบบ",
+                "replace_login_signup_label": "แทนที่ปุ่ม login/signup ด้วยเฉพาะปุ่ม OAuth",
+                "button_title_label": "ชื่อปุ่ม Login",
+                "button_icon_label": "ไอคอนปุ่ม Login (FontAwesome class)",
+                "button_color_label": "สีพื้นหลังปุ่ม Login",
+                "button_text_color_label": "สีข้อความปุ่ม Login",
+                "fullscreen_popup_label": "ใช้ fullscreen popup สำหรับ OAuth authentication",
+                "fullscreen_popup_help": "เมื่อเปิดใช้งาน OAuth login จะเปิดขึ้นในป๊อปอัปเต็มหน้าจอ หากเปิดใช้งานนี้ การตั้งค่าความกว้างและความสูงจะถูกละเว้น",
+                "popup_width_label": "ความกว้าง OAuth Popup",
+                "popup_width_help": "ตั้งค่าความกว้างของหน้าต่าง OAuth popup การตั้งค่านี้จะถูกละเว้นหาก \"ใช้ fullscreen popup สำหรับ OAuth authentication\" เปิดใช้งาน",
+                "popup_height_label": "ความสูง OAuth Popup",
+                "popup_height_help": "ตั้งค่าความสูงของหน้าต่าง OAuth popup การตั้งค่านี้จะถูกละเว้นหาก \"ใช้ fullscreen popup สำหรับ OAuth authentication\" เปิดใช้งาน"
             }
         },
         "forum": {
             "log_in": {
-                "with_passport_button": ""
+                "with_passport_button": "Login with Passport"
             }
         },
         "api": {
-            "default-login-button-title": ""
+            "default-login-button-title": "Login with Passport"
         }
     }
 }

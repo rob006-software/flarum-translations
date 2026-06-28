@@ -3,28 +3,28 @@
         "admin": {
             "dashboard": {
                 "maintenance_widget": {
-                    "title": "",
-                    "detail": ""
+                    "title": "Maintenance mode กำลังทำงาน",
+                    "detail": "ระหว่างการบำรุงรักษา เฉพาะผู้ใช้ที่ได้รับอนุญาตเท่านั้นที่สามารถดู forum ได้"
                 }
             },
             "permissions": {
-                "bypass": ""
+                "bypass": "ข้าม Maintenance Mode ได้"
             },
             "settings": {
                 "maintenance_mode_enabled": {
-                    "label": ""
+                    "label": "Maintenance Mode"
                 }
             }
         },
         "views": {
             "default": {
-                "title": "",
-                "header": "",
-                "body": ""
+                "title": "บำรุงรักษา",
+                "header": "ขณะนี้ระบบหยุดให้บริการเพื่อบำรุงรักษา",
+                "body": "<p>เรากำลังดำเนินการบำรุงรักษาระบบอยู่ในขณะนี้ กรุณากลับมาใหม่ในภายหลัง</p>\n"
             }
         },
         "api": {
-            "title": ""
+            "title": "ขณะนี้ระบบหยุดให้บริการเพื่อบำรุงรักษา กรุณากลับมาใหม่ในภายหลัง"
         }
     }
 }

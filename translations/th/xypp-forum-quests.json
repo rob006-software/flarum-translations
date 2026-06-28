@@ -1,73 +1,73 @@
 {
     "xypp-forum-quests": {
         "forum": {
-            "reward_not_found": "",
-            "condition_not_found": "",
+            "reward_not_found": "ไม่พบ reward {reward}",
+            "condition_not_found": "ไม่พบ condition {condition}",
             "notification": {
-                "quest_done": "",
-                "quest_done_label": ""
+                "quest_done": "คุณทำ quest {name} สำเร็จแล้ว!",
+                "quest_done_label": "Quest สำเร็จ"
             },
             "quest": {
-                "quest": "",
-                "load_more": "",
-                "done": ""
+                "quest": "Quest",
+                "load_more": "โหลดเพิ่ม",
+                "done": "[สำเร็จแล้ว]"
             },
             "re_available": {
-                "none": "",
-                "day": "",
-                "hour": ""
+                "none": "ครั้งเดียวเท่านั้น",
+                "day": "ทำซ้ำได้อีกครั้งใน {value} วัน",
+                "hour": "ทำซ้ำได้อีกครั้งใน {value} ชั่วโมง"
             },
             "condition_view": {
-                "button": "",
-                "title": "",
-                "name": "",
-                "value": "",
-                "span": "",
-                "set_span": ""
+                "button": "ดูเงื่อนไข",
+                "title": "รายละเอียดเงื่อนไข",
+                "name": "ชื่อ",
+                "value": "ค่า",
+                "span": "ช่วงเวลา",
+                "set_span": "กำหนดช่วงเวลา"
             },
             "quest_done": {
-                "all": "",
-                "true": "",
-                "false": ""
+                "all": "ทั้งหมด",
+                "true": "สำเร็จแล้ว",
+                "false": "ยังไม่สำเร็จ"
             }
         },
         "admin": {
-            "settings": "",
-            "timezone": "",
-            "allow_update": "",
-            "data": "",
+            "settings": "ตั้งค่า",
+            "timezone": "Timezone",
+            "allow_update": "อนุญาตให้ผู้ใช้ update ด้วยตัวเอง",
+            "data": "ข้อมูล",
             "table": {
-                "id": "",
-                "name": "",
-                "description": "",
-                "operation": "",
-                "load_more": "",
-                "remove_confirm": "",
-                "create": ""
+                "id": "#",
+                "name": "ชื่อ",
+                "description": "คำอธิบาย",
+                "operation": "จัดการ",
+                "load_more": "โหลดเพิ่ม",
+                "remove_confirm": "แน่ใจว่าต้องการลบ quest นี้?",
+                "create": "สร้าง"
             },
             "create-modal": {
-                "title": "",
-                "edit": "",
-                "name": "",
-                "description": "",
-                "icon": "",
-                "hidden": "",
-                "condition": "",
-                "reward": "",
-                "button": "",
-                "button-edit": "",
-                "new_item": "",
-                "re_available": ""
+                "title": "สร้าง Quest",
+                "edit": "แก้ไข Quest",
+                "name": "ชื่อ",
+                "description": "คำอธิบาย",
+                "icon": "Icon",
+                "hidden": "ซ่อน",
+                "condition": "เงื่อนไข",
+                "reward": "รางวัล",
+                "button": "สร้าง",
+                "button-edit": "แก้ไข",
+                "new_item": "รายการใหม่",
+                "re_available": "ทำซ้ำได้"
             },
             "re_available": {
-                "none": "",
-                "day": "",
-                "hour": ""
+                "none": "ครั้งเดียว",
+                "day": "ทุก X วัน",
+                "hour": "หลัง X ชั่วโมง"
             }
         },
         "api": {
-            "no_manual_update": "",
-            "manual_condition_cannot_hidden": ""
+            "no_manual_update": "ไม่จำเป็นต้อง update ด้วยตัวเอง",
+            "manual_condition_cannot_hidden": "ไม่สามารถใช้ manual condition กับ task ที่ซ่อนอยู่ได้:{condition}"
         }
     }
 }

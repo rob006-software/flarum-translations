@@ -3,33 +3,33 @@
         "admin": {
             "dashboard": {
                 "maintenance-widget": {
-                    "title": "",
-                    "detail": ""
+                    "title": "Maintenance Mode Active",
+                    "detail": "Forum อยู่ในโหมด maintenance ปัจจุบัน ผู้ใช้ที่มีสิทธิ์เท่านั้นสามารถเข้าถึง forum ได้"
                 }
             },
             "settings": {
                 "maintenance-mode-enabled": {
-                    "label": ""
+                    "label": "เปิดใช้งาน Maintenance Mode"
                 },
                 "maintenance-mode-title": {
-                    "label": ""
+                    "label": "ชื่อเรื่อง Maintenance Page"
                 },
                 "maintenance-mode-message": {
-                    "label": ""
+                    "label": "ข้อความ Maintenance Page"
                 },
                 "maintenance-mode-html-template": {
-                    "label": "",
-                    "help": "",
-                    "reset-btn": "",
-                    "reset-help": ""
+                    "label": "HTML Template Maintenance Page",
+                    "help": "คุณสามารถใช้ placeholders เช่น <code>$message</code> สำหรับรายละเอียดเพิ่มเติม โปรดตรวจสอบไฟล์ README",
+                    "reset-btn": "รีเซ็ตเป็นค่าเริ่มต้น",
+                    "reset-help": "รีเซ็ต template จะมีผลหลังจากบันทึก"
                 },
                 "maintenance-mode-auth": {
-                    "label": "",
-                    "help": ""
+                    "label": "เปิดใช้งาน Token Authentication",
+                    "help": "คุณสามารถใช้ developer tokens เพื่อเข้าสู่ระบบผ่าน <code>/maintenance/auth/$token</code>"
                 }
             },
             "permissions": {
-                "bypass": ""
+                "bypass": "สามารถไม่สนใจ Maintenance Mode"
             }
         }
     }

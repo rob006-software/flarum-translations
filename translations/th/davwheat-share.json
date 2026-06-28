@@ -1,25 +1,25 @@
 {
     "davwheat-share": {
         "admin": {
-            "browser_support_notice": "",
+            "browser_support_notice": "ตัวเลือก \"Share\" จะปรากฏเฉพาะบนอุปกรณ์ที่รองรับ Web Share API เท่านั้น <a>ตรวจสอบการรองรับของเบราว์เซอร์ต่างๆ</a>",
             "display_options": {
-                "icon": "",
-                "text": "",
-                "menu": ""
+                "icon": "ไอคอนเท่านั้น",
+                "text": "ข้อความเท่านั้น",
+                "menu": "อยู่ในเมนูการกระทำ"
             },
-            "display_options_label": "",
-            "button_preview_header": "",
+            "display_options_label": "รูปแบบการแสดงปุ่ม Share",
+            "button_preview_header": "ตัวอย่าง",
             "preview": {
-                "reply": "",
+                "reply": "ตอบกลับ",
                 "dropdown": {
-                    "edit": "",
-                    "delete": ""
+                    "edit": "แก้ไข",
+                    "delete": "ลบ"
                 }
             }
         },
         "lib": {
-            "share": "",
-            "share_a11y_label": ""
+            "share": "แชร์",
+            "share_a11y_label": "แชร์โพสต์"
         }
     }
 }

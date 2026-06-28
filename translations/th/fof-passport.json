@@ -3,20 +3,20 @@
         "admin": {
             "popup": {
                 "field": {
-                    "app-auth-url": "",
-                    "app-token-url": "",
-                    "app-user-url": "",
-                    "app-id": "",
-                    "app-secret": "",
-                    "app-scopes": "",
-                    "button-title": "",
-                    "button-title-placeholder": "",
-                    "button-icon": ""
+                    "app-auth-url": "OAuth authorization URL",
+                    "app-token-url": "OAuth token URL",
+                    "app-user-url": "API URL สำหรับดึงข้อมูลผู้ใช้เมื่อยืนยันตัวตนแล้ว",
+                    "app-id": "OAuth application ID",
+                    "app-secret": "OAuth application secret",
+                    "app-scopes": "OAuth scopes ที่ต้องการขอ",
+                    "button-title": "ป้ายชื่อปุ่ม login",
+                    "button-title-placeholder": "=> fof-passport.api.default-login-button-title",
+                    "button-icon": "ไอคอนปุ่ม login"
                 }
             }
         },
         "api": {
-            "default-login-button-title": ""
+            "default-login-button-title": "=> core.ref.log_in"
         }
     }
 }

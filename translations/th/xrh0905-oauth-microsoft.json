@@ -4,25 +4,25 @@
             "settings": {
                 "providers": {
                     "microsoft": {
-                        "description": "",
-                        "client_id_label": "",
-                        "client_secret_label": "",
-                        "tenant_label": ""
+                        "description": "ลงทะเบียนฟอรัมของคุณกับ Microsoft {link}",
+                        "client_id_label": "=> fof-oauth.ref.settings.client_id",
+                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret",
+                        "tenant_label": "Tenant (ไม่บังคับ)"
                     }
                 }
             }
         },
         "forum": {
             "log_in": {
-                "with_microsoft_button": ""
+                "with_microsoft_button": "=> fof-oauth.forum.log_in.with_button"
             },
             "providers": {
-                "microsoft": ""
+                "microsoft": "=> fof-oauth.lib.providers.microsoft"
             }
         },
         "lib": {
             "providers": {
-                "microsoft": ""
+                "microsoft": "Microsoft"
             }
         }
     }

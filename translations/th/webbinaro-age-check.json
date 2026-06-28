@@ -3,19 +3,19 @@
         "admin": {
             "labels": {
                 "buttons": {
-                    "yes": "",
-                    "yes_help": "",
-                    "yes_default": "",
-                    "no": "",
-                    "no_help": ""
+                    "yes": "ป้ายกำกับปุ่มเข้า",
+                    "yes_help": "โดยทั่วไปใช้ 'Enter' หรือ 'Yes'",
+                    "yes_default": "Yes",
+                    "no": "ป้ายกำกับปุ่มออก",
+                    "no_help": "โดยทั่วไปใช้ 'Exit' หรือ 'No'"
                 },
                 "messages": {
-                    "consent_prompt": "",
-                    "consent_prompt_help": "",
-                    "left_blurb": "",
-                    "left_blurb_help": "",
-                    "left_blurb_background": "",
-                    "left_blurb_background_help": ""
+                    "consent_prompt": "ข้อความแจ้งเพื่อขอความยินยอม",
+                    "consent_prompt_help": "ข้อความที่แสดงเหนือปุ่ม yes/no",
+                    "left_blurb": "คำอธิบายวัตถุประสงค์ของฟอรัม",
+                    "left_blurb_help": "อธิบายให้ผู้ใช้ทราบว่าทำไมไซต์นี้ถึงมีการจำกัดการเข้าถึง",
+                    "left_blurb_background": "URL รูปภาพพื้นหลัง",
+                    "left_blurb_background_help": "ต้องระบุ http(s)://"
                 }
             }
         }

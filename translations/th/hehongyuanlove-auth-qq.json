@@ -2,34 +2,34 @@
     "hehongyuanlove-auth-qq": {
         "admin": {
             "qq_settings": {
-                "client_id_label": "",
-                "client_secret_label": "",
-                "title": ""
+                "client_id_label": "App ID",
+                "client_secret_label": "App Secret",
+                "title": "การตั้งค่า QQ"
             }
         },
         "forum": {
             "log_in": {
-                "with_qq_button": ""
+                "with_qq_button": "QQ"
             },
             "buttons": {
-                "unlink": "",
-                "link": "",
-                "login": ""
+                "unlink": "ยกเลิกการเชื่อมต่อ QQ",
+                "link": "เชื่อมต่อ QQ",
+                "login": "=> hehongyuanlove-auth-qq.forum.log_in.with_qq_button"
             },
             "modals": {
                 "unlink": {
-                    "title": "",
+                    "title": "ยกเลิกการเชื่อมต่อ QQ",
                     "info": {
-                        "confirm": "",
-                        "no_providers": ""
+                        "confirm": "คุณแน่ใจหรือไม่ที่จะยกเลิกการผูกบัญชี QQ?",
+                        "no_providers": "คุณไม่มีวิธีเข้าสู่ระบบอื่น โปรดรีเซ็ตรหัสผ่านบัญชีของคุณก่อน"
                     },
                     "buttons": {
-                        "confirm": "",
-                        "cancel": ""
+                        "confirm": "ยกเลิกการเชื่อมต่อ",
+                        "cancel": "ยกเลิก"
                     }
                 },
                 "link": {
-                    "title": ""
+                    "title": "เชื่อมต่อ QQ"
                 }
             }
         }

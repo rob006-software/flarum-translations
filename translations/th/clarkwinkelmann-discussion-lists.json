@@ -2,67 +2,67 @@
     "clarkwinkelmann-discussion-lists": {
         "admin": {
             "settings": {
-                "collapseSeries": ""
+                "collapseSeries": "ย่อ series index ไว้เป็นค่าเริ่มต้น"
             },
             "permissions": {
-                "viewPublic": "",
-                "createPrivate": "",
-                "createPublic": "",
-                "createSeriesFromOwn": "",
-                "createSeriesFromAny": "",
-                "moderate": "",
-                "viewPrivate": ""
+                "viewPublic": "ดู discussion lists สาธารณะ",
+                "createPrivate": "สร้าง discussion lists ส่วนตัว",
+                "createPublic": "สร้าง discussion lists สาธารณะ",
+                "createSeriesFromOwn": "สร้าง discussion series จากเนื้อหาของตัวเอง",
+                "createSeriesFromAny": "สร้าง discussion series จากเนื้อหาของผู้ใช้ทุกคน",
+                "moderate": "แก้ไขและลบ discussion list ใดก็ได้",
+                "viewPrivate": "ดู discussion lists ส่วนตัวทั้งหมด"
             }
         },
         "forum": {
             "edit": {
-                "title": "",
-                "name": "",
-                "visibility": "",
+                "title": "แก้ไข list",
+                "name": "ชื่อ",
+                "visibility": "การมองเห็น",
                 "visibilityOptions": {
-                    "private": "",
-                    "public": "",
-                    "series": ""
+                    "private": "List ส่วนตัว",
+                    "public": "List สาธารณะ",
+                    "series": "Series สาธารณะ"
                 },
-                "ordering": "",
+                "ordering": "การเรียงลำดับ",
                 "orderingOptions": {
-                    "manual": "",
-                    "createdAsc": "",
-                    "createdDesc": "",
-                    "addedAsc": "",
-                    "addedDesc": ""
+                    "manual": "กำหนดเอง",
+                    "createdAsc": "วันที่สร้างกระทู้ (เก่าสุดไปล่าสุด)",
+                    "createdDesc": "วันที่สร้างกระทู้ (ล่าสุดไปเก่าสุด)",
+                    "addedAsc": "วันที่เพิ่มใน list (เก่าสุดไปล่าสุด)",
+                    "addedDesc": "วันที่เพิ่มใน list (ล่าสุดไปเก่าสุด)"
                 },
-                "save": "",
-                "delete": "",
-                "deleteConfirmation": ""
+                "save": "บันทึก",
+                "delete": "ลบ",
+                "deleteConfirmation": "คุณแน่ใจหรือไม่ว่าต้องการลบ list นี้อย่างถาวร?"
             },
             "discussion": {
-                "add": "",
-                "new": ""
+                "add": "เพิ่มใน list",
+                "new": "List ใหม่"
             },
             "profile": {
-                "link": ""
+                "link": "Lists"
             },
             "badge": {
-                "private": "",
-                "series": ""
+                "private": "List ส่วนตัว",
+                "series": "Series สาธารณะ"
             },
             "series": {
-                "kind": "",
-                "expand": "",
-                "visit": ""
+                "kind": "Series",
+                "expand": "ขยาย",
+                "visit": "ดูทั้งหมด"
             }
         },
         "api": {
-            "manualLimit": "",
-            "seriesAnyAddNotAllowed": "",
-            "seriesAnyConversionNotAllowed": ""
+            "manualLimit": "List ที่เรียงด้วยตนเองไม่สามารถมีกระทู้เกิน 50 รายการ",
+            "seriesAnyAddNotAllowed": "คุณสามารถเพิ่มเฉพาะกระทู้ของตัวเองลงใน series list เท่านั้น",
+            "seriesAnyConversionNotAllowed": "ไม่สามารถแปลง list เป็น series ได้ เนื่องจากมีกระทู้ของผู้ใช้คนอื่นอยู่"
         }
     },
     "core": {
         "forum": {
             "index_sort": {
-                "discussionListDefault_button": ""
+                "discussionListDefault_button": "ลำดับใน list"
             }
         }
     }

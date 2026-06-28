@@ -2,37 +2,37 @@
     "clarkwinkelmann-shadow-ban": {
         "admin": {
             "setting": {
-                "hideUsers": ""
+                "hideUsers": "ซ่อน profile ของผู้ใช้ที่ถูก shadow ban"
             },
             "permission": {
-                "ban": "",
-                "hide": ""
+                "ban": "Shadow ban ผู้ใช้",
+                "hide": "Shadow hide กระทู้และ post"
             }
         },
         "forum": {
             "discussionControl": {
-                "hide": "",
-                "restore": ""
+                "hide": "Shadow hide",
+                "restore": "Shadow restore"
             },
             "postControl": {
-                "hide": "",
-                "restore": ""
+                "hide": "Shadow hide",
+                "restore": "Shadow restore"
             },
             "userControl": {
-                "ban": ""
+                "ban": "Shadow ban"
             },
             "banUser": {
-                "title": "",
-                "until": "",
-                "quick": "",
-                "quickChoiceReset": "",
-                "quickChoiceDays": "",
-                "submit": ""
+                "title": "ระงับ {username}",
+                "until": "ถึงวันที่ (UTC)",
+                "quick": "ตัวเลือกด่วน",
+                "quickChoiceReset": "ไม่ถูก ban",
+                "quickChoiceDays": "{count, plural, one {# วัน} other {# วัน}}",
+                "submit": "บันทึก"
             },
             "badge": {
-                "user": "",
-                "discussion": "",
-                "post": ""
+                "user": "Shadow banned",
+                "discussion": "Shadow hidden",
+                "post": "Shadow hidden"
             }
         }
     }

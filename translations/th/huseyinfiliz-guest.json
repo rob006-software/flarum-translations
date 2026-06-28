@@ -1,19 +1,19 @@
 {
     "huseyinfiliz-guest": {
         "admin": {
-            "username_label": "",
-            "username_help": "",
-            "max_posts_label": "",
-            "max_posts_help": ""
+            "username_label": "Guest Username Prefix",
+            "username_help": "Prefix สำหรับชื่อผู้ใช้ guest (เช่น Guest)",
+            "max_posts_label": "Maximum Guest Posts",
+            "max_posts_help": "จำนวน posts สูงสุดที่อนุญาตสำหรับผู้ใช้ guest"
         },
         "forum": {
-            "login_button": "",
-            "modal_title": "",
-            "welcome_message": "",
-            "modal_understood": "",
-            "max_posts_reached": "",
-            "login_error": "",
-            "rate_limit_error": ""
+            "login_button": "Guest Login",
+            "modal_title": "ยินดีต้อนรับ Guest",
+            "welcome_message": "ยินดีต้อนรับ guest user! Guests จำกัดไว้สามารถ post ได้เพียงสามครั้ง",
+            "modal_understood": "เข้าใจแล้ว!",
+            "max_posts_reached": "คุณถึงจำนวนสูงสุด {max} posts สำหรับผู้ใช้ guest โปรดสร้างบัญชีเพื่อดำเนินการต่อ",
+            "login_error": "Login ล้มเหลว โปรดลองอีกครั้ง",
+            "rate_limit_error": "โปรดรอสักครู่ก่อนลองอีกครั้ง"
         }
     }
 }

@@ -2,21 +2,21 @@
     "ralkage-cap-captcha": {
         "admin": {
             "settings": {
-                "api_endpoint_label": "",
-                "api_endpoint_help": "",
-                "secret_key_label": "",
-                "secret_key_help": "",
-                "protect_registration_label": "",
-                "protect_registration_help": "",
-                "protect_login_label": "",
-                "protect_login_help": ""
+                "api_endpoint_label": "Cap API Endpoint",
+                "api_endpoint_help": "URL ของ Cap Standalone instance พร้อม site key เช่น https://cap.example.com/your-site-key/",
+                "secret_key_label": "Secret Key",
+                "secret_key_help": "Secret ของ site key จาก Cap dashboard",
+                "protect_registration_label": "ต้องผ่าน CAPTCHA เมื่อสมัครสมาชิก",
+                "protect_registration_help": "แสดง Cap widget ในฟอร์มสมัครสมาชิก",
+                "protect_login_label": "ต้องผ่าน CAPTCHA เมื่อ login",
+                "protect_login_help": "แสดง Cap widget ในฟอร์ม login"
             }
         },
         "forum": {
-            "captcha_required": ""
+            "captcha_required": "กรุณายืนยันว่าคุณเป็นมนุษย์โดยทำ CAPTCHA ให้เสร็จก่อน"
         },
         "api": {
-            "invalid_captcha": ""
+            "invalid_captcha": "การตรวจสอบ CAPTCHA ล้มเหลว กรุณาทำ CAPTCHA ให้เสร็จแล้วลองใหม่อีกครั้ง"
         }
     }
 }

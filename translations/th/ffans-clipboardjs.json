@@ -2,27 +2,27 @@
     "ffans-clipboardjs": {
         "admin": {
             "settings": {
-                "codeLang_label": "",
-                "copy_enable_label": "",
-                "themes_label": "",
+                "codeLang_label": "แสดงภาษาของโค้ด",
+                "copy_enable_label": "เปิดใช้งานการคัดลอกโค้ด",
+                "themes_label": "สไตล์ของปุ่มคัดลอก",
                 "themes": {
-                    "cnblog": "",
-                    "csdn": "",
-                    "default": "",
-                    "github": "",
-                    "jianshu": "",
-                    "lingcoder": "",
-                    "segmentfault": ""
+                    "cnblog": "cnBlogs",
+                    "csdn": "CSDN",
+                    "default": "Default Clipboardjs",
+                    "github": "GitHub",
+                    "jianshu": "Jian Shu",
+                    "lingcoder": "LingCoder",
+                    "segmentfault": "SegmentFault"
                 }
             }
         },
         "forum": {
-            "action_copy": "",
-            "action_cut": "",
-            "ok_btn": "",
-            "error_btn": "",
-            "no_support": "",
-            "msg": ""
+            "action_copy": "คัดลอก",
+            "action_cut": "ตัด",
+            "ok_btn": "คัดลอกแล้ว",
+            "error_btn": "ข้อผิดพลาด",
+            "no_support": "ไม่รองรับ",
+            "msg": "กด {actionKey} เพื่อ {action}"
         }
     }
 }

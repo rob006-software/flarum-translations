@@ -2,51 +2,51 @@
     "tryhackx-topic-rating": {
         "admin": {
             "settings": {
-                "enabled_label": "",
-                "enabled_help": "",
-                "allow_unactivated_label": "",
-                "allow_unactivated_help": ""
+                "enabled_label": "เปิดใช้การให้คะแนน Topic",
+                "enabled_help": "อนุญาตให้ผู้ใช้ให้คะแนนโพสต์ด้วยระบบ 5 ดาว",
+                "allow_unactivated_label": "อนุญาตให้บัญชีที่ยังไม่ยืนยันให้คะแนนได้",
+                "allow_unactivated_help": "เมื่อเปิดใช้ ผู้ใช้ที่ยังไม่ยืนยันอีเมลก็สามารถให้คะแนนโพสต์ได้"
             },
             "permissions": {
-                "rate_label": "",
-                "toggle_label": "",
-                "reset_label": ""
+                "rate_label": "ให้คะแนนโพสต์",
+                "toggle_label": "เปิด/ปิดการให้คะแนนในโพสต์",
+                "reset_label": "รีเซ็ตคะแนนทั้งหมดในโพสต์"
             },
             "support": {
-                "button": "",
-                "title": "",
-                "description": "",
-                "copy": "",
-                "thanks": ""
+                "button": "สนับสนุนการพัฒนา",
+                "title": "สนับสนุน Extension นี้",
+                "description": "ถ้า extension นี้มีประโยชน์สำหรับคุณ กรุณาพิจารณาสนับสนุนการพัฒนาด้วยการบริจาคเล็กน้อย ทุกการมีส่วนร่วมช่วยให้โปรเจกต์ดำเนินต่อไปได้",
+                "copy": "คัดลอกที่อยู่",
+                "thanks": "ขอบคุณสำหรับการสนับสนุน!"
             }
         },
         "forum": {
             "tooltip": {
-                "login_required": "",
-                "activation_required": "",
-                "rate_this": "",
-                "rate_first": "",
-                "your_rating": ""
+                "login_required": "คุณต้อง login เพื่อให้คะแนน",
+                "activation_required": "คุณต้องยืนยันบัญชีเพื่อให้คะแนน",
+                "rate_this": "ให้คะแนน topic นี้",
+                "rate_first": "เป็นคนแรกที่ให้คะแนน!",
+                "your_rating": "คะแนนของคุณ:"
             },
-            "rating_count": "",
-            "last_rated": "",
+            "rating_count": "คะแนน: {count}",
+            "last_rated": "ให้คะแนนล่าสุด:",
             "controls": {
-                "enable_rating": "",
-                "disable_rating": "",
-                "reset_ratings": "",
-                "reset_confirm": ""
+                "enable_rating": "เปิดใช้การให้คะแนน",
+                "disable_rating": "ปิดใช้การให้คะแนน",
+                "reset_ratings": "รีเซ็ตคะแนนทั้งหมด",
+                "reset_confirm": "คุณแน่ใจหรือไม่ว่าต้องการลบคะแนนทั้งหมดของโพสต์นี้? การดำเนินการนี้ไม่สามารถยกเลิกได้"
             },
             "reset_modal": {
-                "title": "",
-                "message": "",
-                "confirm": "",
-                "cancel": ""
+                "title": "รีเซ็ตคะแนนทั้งหมด",
+                "message": "คุณแน่ใจหรือไม่ว่าต้องการลบคะแนน {count} รายการของโพสต์นี้? การดำเนินการนี้ไม่สามารถยกเลิกได้",
+                "confirm": "รีเซ็ตคะแนน",
+                "cancel": "ยกเลิก"
             },
             "ratings_modal": {
-                "title": "",
-                "empty": "",
-                "deleted_user": "",
-                "updated_prefix": ""
+                "title": "คะแนน ({count})",
+                "empty": "ยังไม่มีคะแนน",
+                "deleted_user": "[ลบแล้ว]",
+                "updated_prefix": "อัปเดต "
             }
         }
     }

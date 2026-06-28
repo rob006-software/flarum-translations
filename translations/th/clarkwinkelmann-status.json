@@ -1,25 +1,25 @@
-{
+﻿{
     "clarkwinkelmann-status": {
         "admin": {
             "settings": {
-                "only-countries": "เฉพาะธงของเเต่ละประเทศ",
-                "enable-text": "อนุญาติใช้สถานะข้อความ"
+                "only-countries": "แสดงเฉพาะธงประเทศ",
+                "enable-text": "อนุญาตให้ตั้งสถานะเป็นข้อความ"
             },
             "permissions": {
                 "see": "ดูสถานะ",
-                "set": "ความหมายของสถานะ",
-                "mod": ""
+                "set": "ตั้งสถานะ",
+                "mod": "จัดการสถานะผู้ใช้"
             }
         },
         "forum": {
             "menu": {
-                "set-status": "ตั้งค่าสถานะ"
+                "set-status": "ตั้งสถานะ"
             },
             "modal": {
-                "title": "ตั้งค่าสถานะ",
-                "text-placeholder": "เกิดอะไรขึ้น?",
-                "submit": "ส่ง",
-                "clear": "เคลียร์"
+                "title": "ตั้งสถานะ",
+                "text-placeholder": "มีอะไรเกิดขึ้น?",
+                "submit": "บันทึก",
+                "clear": "ล้าง"
             }
         }
     }

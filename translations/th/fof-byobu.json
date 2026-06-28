@@ -3,128 +3,128 @@
         "forum": {
             "badges": {
                 "is_private": {
-                    "tooltip": ""
+                    "tooltip": "โพสต์"
                 }
             },
             "buttons": {
-                "add_recipients": "",
-                "submit": "",
-                "edit_recipients": "",
-                "send_pd": "",
-                "cancel": "",
-                "make_public": "",
-                "remove_from_discussion": ""
+                "add_recipients": "ผู้รับ",
+                "submit": "ตกลง",
+                "edit_recipients": "แก้ไข",
+                "send_pd": "ส่ง",
+                "cancel": "ยกเลิก",
+                "make_public": "ทำให้โพสต์นี้เป็นสาธารณะ",
+                "remove_from_discussion": "ออกจากโพสต์ส่วนตัวนี้"
             },
             "composer_private_discussion": {
-                "submit_button": "",
-                "title_placeholder": ""
+                "submit_button": "โพสต์โพสต์ส่วนตัว",
+                "title_placeholder": "ชื่อเรื่องโพสต์ส่วนตัว"
             },
             "confirm": {
-                "make_public": ""
+                "make_public": "คุณแน่ใจหรือไม่ว่าต้องการนำผู้รับออกและทำให้โพสต์นี้มองเห็นได้สำหรับใครๆ ที่สามารถดู tag ที่กำหนด"
             },
             "hero": {
-                "title": ""
+                "title": "=> fof-byobu.forum.nav.nav_item"
             },
             "labels": {
-                "recipients": ""
+                "recipients": "{count, plural, one {ผู้รับ 1 คน} other {ผู้รับ {count} คน}}"
             },
             "nav": {
-                "start_button": "",
-                "nav_item": ""
+                "start_button": "สนทนาเป็นการส่วนตัว",
+                "nav_item": "โพสต์ส่วนตัว"
             },
             "input": {
-                "search_recipients": ""
+                "search_recipients": "ค้นหาผู้รับโดยพิมพ์สามตัวอักษรแรก..."
             },
             "search": {
                 "headings": {
-                    "groups": ""
+                    "groups": "กลุ่มสิทธิ์"
                 }
             },
             "modal": {
                 "titles": {
-                    "update_recipients": "",
-                    "add_recipients": ""
+                    "update_recipients": "อัปเดตผู้รับของ {title}",
+                    "add_recipients": "เพิ่มผู้รับไปในโพสต์"
                 },
                 "labels": {
-                    "selected_users": "",
-                    "search_field": ""
+                    "selected_users": "ผู้ใช้ที่เลือก",
+                    "search_field": "ค้นหาผู้ใช้"
                 },
                 "help": {
-                    "add_recipients": "",
-                    "update_recipients": "",
-                    "selected_users": "",
-                    "click_user_to_remove_tooltip": ""
+                    "add_recipients": "โพสต์นี้จะมองเห็นได้เฉพาะผู้ใช้ที่คุณเลือกเท่านั้น ต้องมีผู้รับอย่างน้อย 1 คน (นอกเหนือจากตัวคุณเอง)",
+                    "update_recipients": "โพสต์นี้จะมองเห็นได้เฉพาะผู้ใช้ที่คุณเลือกเท่านั้น",
+                    "selected_users": "คลิกชื่อผู้ใช้เพื่อนำออก",
+                    "click_user_to_remove_tooltip": "คลิกเพื่อนำออก"
                 }
             },
             "post": {
                 "recipients_modified": {
-                    "added_and_removed": "",
-                    "added": "",
-                    "made_public": "",
-                    "removed": "",
-                    "removed_self": ""
+                    "added_and_removed": "{username} เพิ่มผู้รับ {added} และนำออก {removed}",
+                    "added": "{username} เพิ่มผู้รับ {added}",
+                    "made_public": "{username} นำผู้รับทั้งหมดออกและทำให้โพสต์เป็นสาธารณะ",
+                    "removed": "{username} นำผู้รับออก {removed}",
+                    "removed_self": "{username} ออกจากโพสต์ส่วนตัว"
                 }
             },
             "user": {
                 "settings": {
-                    "block_pd": ""
+                    "block_pd": "บล็อกโพสต์ส่วนตัว"
                 },
-                "byobu_link": "",
-                "dropdown_label": ""
+                "byobu_link": "โพสต์ส่วนตัว",
+                "dropdown_label": "โพสต์ส่วนตัว"
             },
             "notifications": {
-                "pd_label": "",
-                "pd_reply_label": "",
-                "pd_reply_text": "",
-                "pd_text": "",
-                "pd_user_left_label": "",
-                "pd_user_left_text": "",
-                "pd_added_text": "",
-                "pd_added_label": ""
+                "pd_label": "มีคนใดคนหนึ่งรวมฉันไว้ในโพสต์ส่วนตัวใหม่",
+                "pd_reply_label": "มีคนใดคนหนึ่งโพสต์ในโพสต์ส่วนตัวที่ฉันเป็นผู้รับ",
+                "pd_reply_text": "{username} โพสต์ในโพสต์ส่วนตัวที่คุณอยู่",
+                "pd_text": "{username} เริ่มโพสต์ส่วนตัวใหม่กับคุณ",
+                "pd_user_left_label": "ผู้รับคนใดคนหนึ่งออกจากโพสต์ส่วนตัวที่ฉันเป็นส่วนหนึ่ง",
+                "pd_user_left_text": "{username} ออกจากโพสต์ส่วนตัว",
+                "pd_added_text": "{username} เพิ่มคุณไปในโพสต์ส่วนตัว",
+                "pd_added_label": "มีคนใดคนหนึ่งเพิ่มฉันไปในโพสต์ส่วนตัวที่มีอยู่"
             }
         },
         "admin": {
             "permission": {
-                "create_private_discussions_with_users": "",
-                "add_more_than_two_user_recipients": "",
-                "create_private_discussions_with_groups": "",
-                "create_private_discussions_with_blocking_users": "",
-                "edit_user_recipients": "",
-                "edit_group_recipients": "",
-                "make_private_into_public": "",
-                "view_private_discussions-when-flagged": ""
+                "create_private_discussions_with_users": "สร้างโพสต์ส่วนตัวกับผู้ใช้",
+                "add_more_than_two_user_recipients": "เพิ่มผู้รับมากกว่า 2 คนในโพสต์ส่วนตัว",
+                "create_private_discussions_with_groups": "สร้างโพสต์ส่วนตัวกับกลุ่ม",
+                "create_private_discussions_with_blocking_users": "สร้างโพสต์ส่วนตัวกับผู้ใช้ที่บล็อก",
+                "edit_user_recipients": "แก้ไขผู้ใช้ที่เข้าร่วมในโพสต์ส่วนตัว",
+                "edit_group_recipients": "แก้ไขกลุ่มที่เข้าร่วมในโพสต์ส่วนตัว",
+                "make_private_into_public": "แปลงโพสต์ส่วนตัวเป็นโพสต์สาธารณะ",
+                "view_private_discussions-when-flagged": "ดูโพสต์ส่วนตัวของผู้ใช้อื่นถ้าได้รับการ flag"
             },
             "settings": {
                 "general": {
-                    "heading": "",
-                    "help": ""
+                    "heading": "การตั้งค่าทั่วไป",
+                    "help": "การตั้งค่าเหล่านี้ควบคุมฟีเจอร์พื้นฐานของ byobu"
                 },
                 "icon": {
-                    "heading": "",
-                    "help": ""
+                    "heading": "การตั้งค่าไอคอน",
+                    "help": "การตั้งค่าเหล่านี้ควบคุมไอคอนที่ใช้โดย byobu บนฟอรัม"
                 },
-                "badge-icon": "",
-                "enable-make-public-option": "",
-                "enable-make-public-option-help": "",
-                "post-event-icon": "",
-                "delete_on_last_recipient_left": "",
-                "delete_on_last_recipient_left_help": "",
-                "hide_from_all_discussions_page": "",
-                "hide_from_all_discussions_page_help": ""
+                "badge-icon": "Byobu Discussion Badge",
+                "enable-make-public-option": "เปิดใช้งานความสามารถ \"ทำให้เป็นสาธารณะ\"",
+                "enable-make-public-option-help": "เพิ่มความสามารถสำหรับผู้ที่มีสิทธิ์ในการนำผู้รับทั้งหมดออก กำหนด tag ใหม่ และทำให้โพสต์เป็นสาธารณะ (ตามการตั้งค่าการมองเห็นของ tag ที่เลือก)",
+                "post-event-icon": "Byobu Post Events",
+                "delete_on_last_recipient_left": "ลบโพสต์ส่วนตัวเมื่อผู้รับคนสุดท้ายออกไป",
+                "delete_on_last_recipient_left_help": "ถ้าเปิดใช้งาน โพสต์ส่วนตัวจะถูกลบอย่างถาวรจากฐานข้อมูลเมื่อผู้รับคนสุดท้ายออกไป หรือจะมีการซ่อน/ลบแบบ soft delete",
+                "hide_from_all_discussions_page": "ซ่อนโพสต์ส่วนตัวจากหน้า \"โพสต์ทั้งหมด\"",
+                "hide_from_all_discussions_page_help": "โพสต์ส่วนตัวจะเข้าถึงได้เฉพาะจากหน้า \"โพสต์ส่วนตัว\" หรือจากโปรไฟล์ผู้ใช้เท่านั้น"
             }
         },
         "email": {
             "subject": {
-                "private_discussion_created": "",
-                "private_discussion_replied": "",
-                "recipient_removed": "",
-                "private_discussion_added": ""
+                "private_discussion_created": "[Private Discussion] {display_name} เริ่มโพสต์ส่วนตัวใหม่กับคุณ",
+                "private_discussion_replied": "[Private Discussion] {display_name} โพสต์ในโพสต์ส่วนตัว",
+                "recipient_removed": "[Private Discussion] {display_name} ออกจากโพสต์",
+                "private_discussion_added": "[Private Discussion] {display_name} เพิ่มคุณไปในโพสต์ส่วนตัว"
             },
             "body": {
-                "private_discussion_created": "",
-                "private_discussion_replied": "",
-                "recipient_removed": "",
-                "private_discussion_added": ""
+                "private_discussion_created": "สวัสดี {recipient_display_name},\n\n{actor_display_name} เริ่มโพสต์ส่วนตัวใหม่กับคุณเป็นผู้รับ: {discussion_title}.\n\nดูที่นี่:\n{discussion_url}\n\nคุณอาจต้องเข้าสู่ระบบก่อนที่จะสามารถเข้าถึงลิงก์นี้ได้\n",
+                "private_discussion_replied": "สวัสดี {recipient_display_name},\n\n{actor_display_name} โพสต์ในโพสต์ส่วนตัวกับคุณเป็นผู้รับ: {discussion_title}.\n\nดูที่นี่:\n{post_url}\n\nคุณอาจต้องเข้าสู่ระบบก่อนที่จะสามารถเข้าถึงลิงก์นี้ได้\n",
+                "recipient_removed": "สวัสดี {recipient_display_name},\n\n{actor_display_name} ออกจากโพสต์ส่วนตัว: {discussion_title} พวกเขาจะไม่สามารถดูเนื้อหาใดๆ ได้อีกต่อไป\n\nดูที่นี่:\n{discussion_url}\n\nคุณอาจต้องเข้าสู่ระบบก่อนที่จะสามารถเข้าถึงลิงก์นี้ได้\n",
+                "private_discussion_added": "สวัสดี {recipient_display_name},\n\n{actor_display_name} เพิ่มคุณไปในโพสต์ส่วนตัวที่มีอยู่: {discussion_title}.\n\nดูที่นี่:\n{discussion_url}\n\nคุณอาจต้องเข้าสู่ระบบก่อนที่จะสามารถเข้าถึงลิงก์นี้ได้\n"
             }
         }
     }

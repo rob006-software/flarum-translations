@@ -1,26 +1,26 @@
 {
     "xypp-store-doorman": {
         "forum": {
-            "key-not-found": "",
-            "key": "",
+            "key-not-found": "ไม่พบ key",
+            "key": "รหัสเชิญ",
             "create": {
-                "select": "",
-                "count": "",
-                "group": "",
-                "activate": "",
-                "submit": "",
-                "title": ""
+                "select": "เลือกข้อมูล",
+                "count": "จำนวนครั้งที่ใช้ได้",
+                "group": "กลุ่มหลังสมัครสมาชิก",
+                "activate": "เปิดใช้งานอัตโนมัติ",
+                "submit": "ยืนยัน",
+                "title": "เลือกข้อมูล"
             },
             "send": {
-                "title": "",
-                "cancel": "",
-                "submit": "",
-                "email": "",
-                "url": "",
-                "failed": ""
+                "title": "ส่งอีเมลเชิญ",
+                "cancel": "ยกเลิก",
+                "submit": "ส่ง",
+                "email": "อีเมล",
+                "url": "URL เชิญ",
+                "failed": "ส่งอีเมลไม่สำเร็จ"
             },
-            "showcase": "",
-            "has_used": ""
+            "showcase": "เชิญได้ {count} ครั้ง, กลุ่ม {group} หลังสมัครสมาชิก, เปิดใช้งานอัตโนมัติ: {activate}",
+            "has_used": "ใช้ไปแล้ว {count} ครั้ง"
         }
     }
 }

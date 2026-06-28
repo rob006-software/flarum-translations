@@ -2,65 +2,65 @@
     "blomstra-web3": {
         "admin": {
             "settings": {
-                "allow-sign-up": "",
-                "ffi-disabled": "",
-                "infura-project-id": "",
-                "infura-project-id-help": "",
-                "prioritize-web3-auth-modals": "",
-                "signup-with-email": "",
-                "no-email-signup-message": "",
-                "no-email-signup-message-help": ""
+                "allow-sign-up": "อนุญาตให้สมัครสมาชิกด้วย web3",
+                "ffi-disabled": "PHP FFI extension ยังไม่ได้เปิดใช้งาน Dotsama wallets จะไม่ทำงาน\n",
+                "infura-project-id": "Infura Project ID",
+                "infura-project-id-help": "Infura Project ID ของคุณ รับได้จาก https://infura.io จำเป็นสำหรับ wallet ต่อไปนี้: Coinbase, WalletConnect\n",
+                "prioritize-web3-auth-modals": "เปิด web3 Login/Signup เป็นค่าเริ่มต้น",
+                "signup-with-email": "สมัครสมาชิกด้วย Email",
+                "no-email-signup-message": "ข้อความที่แสดงสำหรับผู้ใช้ที่ไม่ได้สมัครด้วย email (เว้นว่างเพื่อปิดใช้งาน)\n",
+                "no-email-signup-message-help": "ใช้ [link]text[/link] เพื่อลิงก์ไปยังหน้าแก้ไข email"
             }
         },
         "forum": {
             "connect-wallet-modal": {
-                "could-not-sign": "",
-                "goback": "",
-                "title": "",
-                "polkadot-wallets": "",
-                "evm-wallets": "",
-                "signature-invalid": ""
+                "could-not-sign": "ไม่สามารถเซ็นชื่อ username ด้วย cryptography บนบัญชีที่เลือกได้",
+                "goback": "กลับ",
+                "title": "Connect Wallet",
+                "polkadot-wallets": "=> blomstra-web3.ref.polkadot-wallets",
+                "evm-wallets": "EVM Wallets",
+                "signature-invalid": "Signature ไม่ถูกต้อง"
             },
             "evm-connect-wallet-modal": {
-                "title": "",
-                "bind": "",
-                "disconnect": "",
-                "disconnect-and-unbind": "",
-                "select": ""
+                "title": "EVM Wallets",
+                "bind": "=> blomstra-web3.ref.bind",
+                "disconnect": "=> blomstra-web3.ref.disconnect",
+                "disconnect-and-unbind": "Disconnect & Unbind",
+                "select": "=> blomstra-web3.ref.select"
             },
             "polkadot-connect-wallet-modal": {
-                "attach_address": "",
-                "connection-request-rejected": "",
-                "disconnect": "",
-                "goback": "",
-                "title": "",
-                "select": "",
-                "unattach_address": ""
+                "attach_address": "=> blomstra-web3.ref.bind",
+                "connection-request-rejected": "ปฏิเสธคำขอเชื่อมต่อ",
+                "disconnect": "=> blomstra-web3.ref.disconnect",
+                "goback": "กลับไปที่ wallets",
+                "title": "=> blomstra-web3.ref.polkadot-wallets",
+                "select": "=> blomstra-web3.ref.select",
+                "unattach_address": "=> blomstra-web3.ref.unbind"
             },
             "settings": {
-                "wallets_heading": "",
-                "wallet-connect-button": "",
-                "unbind": "",
-                "unbind_confirm": ""
+                "wallets_heading": "Wallets",
+                "wallet-connect-button": "Connect Wallet",
+                "unbind": "=> blomstra-web3.ref.unbind",
+                "unbind_confirm": "คุณแน่ใจหรือไม่ว่าต้องการ unbind address นี้ออกจากบัญชีของคุณ?"
             },
             "log-in": {
-                "basic-login-link": "",
-                "with-wallet": "",
-                "select-wallet-account": ""
+                "basic-login-link": "เปลี่ยนไปใช้ login แบบปกติ",
+                "with-wallet": "เข้าสู่ระบบด้วย web3",
+                "select-wallet-account": "=> blomstra-web3.ref.select-wallet-account"
             },
             "sign-up": {
-                "basic-signup-link": "",
-                "with-wallet": "",
-                "select-wallet-account": ""
+                "basic-signup-link": "เปลี่ยนไปใช้การสมัครแบบปกติ",
+                "with-wallet": "สมัครสมาชิกด้วย web3",
+                "select-wallet-account": "=> blomstra-web3.ref.select-wallet-account"
             }
         },
         "ref": {
-            "select-wallet-account": "",
-            "select": "",
-            "bind": "",
-            "unbind": "",
-            "disconnect": "",
-            "polkadot-wallets": ""
+            "select-wallet-account": "เลือก wallet account {rightArrow}",
+            "select": "เลือก address",
+            "bind": "Bind address",
+            "unbind": "Unbind address ออกจากบัญชี",
+            "disconnect": "Disconnect",
+            "polkadot-wallets": "Polkadot Wallets"
         }
     }
 }

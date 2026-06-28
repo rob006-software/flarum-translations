@@ -2,246 +2,246 @@
     "kilowhat-wordpress": {
         "admin": {
             "settings": {
-                "section_general_intro": "",
-                "api_key": "",
-                "api_key_reset": "",
-                "api_key_reset_confirm": "",
-                "wordpress_url": "",
-                "default_actor": "",
-                "default_actor_placeholder_invalid": "",
-                "default_actor_placeholder_search": "",
-                "default_actor_help": "",
-                "report_http_errors": "",
-                "report_http_errors_help": "",
-                "section_sso_intro": "",
-                "enable_sso": "",
-                "login_method": "",
-                "login_method_help": "",
+                "section_general_intro": "การตั้งค่าพื้นฐานที่จำเป็นสำหรับการทำงานของ extension",
+                "api_key": "Shared API Key",
+                "api_key_reset": "สร้าง Shared API Key ใหม่",
+                "api_key_reset_confirm": "คุณต้องการสร้าง Shared API Key ใหม่จริงหรือ ค่า key เดิมจะหยุดทำงานและต้องอัปเดตด้วยตนเองในการตั้งค่า WordPress plugin\n",
+                "wordpress_url": "WordPress URL",
+                "default_actor": "Default Actor",
+                "default_actor_placeholder_invalid": "ค่าที่เป็นไปได้ไม่ถูกต้อง: {value} - พิมพ์เพื่อค้นหาผู้ใช้...",
+                "default_actor_placeholder_search": "พิมพ์เพื่อค้นหาผู้ใช้...",
+                "default_actor_help": "Flarum user นี้จะถูกกำหนดให้เป็น actor ของการ suspend lock delete actions ทั้งหมด นอกจากนี้จะถูกใช้เป็นเจ้าของของ discussions และ posts เว้นแต่ว่า \"Assign discussion author from SSO\" ถูกเปิดใช้งาน\n",
+                "report_http_errors": "ส่ง WordPress REST API HTTP errors ไปยัง configured Flarum reporters",
+                "report_http_errors_help": "ไม่ว่าค่าของการตั้งค่านี้คืออะไร requests จะถูก log เป็นข้อความไปยัง default logger เสมอ ตัวเลือกนี้มีประโยชน์หากคุณต้องการให้ API errors ถูกส่งไปยัง Sentry หรือเครื่องมือ monitoring อื่น ๆ เป็น exceptions ที่มี stack traces\n",
+                "section_sso_intro": "คุณสมบัตินี้จะเชื่อมต่อ WordPress users กับ Flarum ได้อย่างลงตัว บัญชีจะถูกสร้างโดยอัตโนมัติและรักษาความพร้อมใช้งานกับ WordPress หากคุณมีบัญชีที่มีอยู่ใน Flarum พวกมันจะถูกจับคู่โดยอัตโนมัติตามอีเมล หากคุณลบผู้ใช้ใน Flarum มันจะถูกสร้างใหม่ครั้งต่อไปที่บัญชี WordPress logins ในการบล็อก Flarum user ให้ suspend บัญชีใน Flarum\n",
+                "enable_sso": "เปิดใช้งาน SSO integration",
+                "login_method": "Global Login Mechanism",
+                "login_method_help": "\"Cookie\" ใช้งานได้เฉพาะถ้า WordPress และ Flarum ใช้ top level domain เดียวกัน \"Redirect\" จะทำให้เกิด redirect หลังจากการ login ทั้งหมดจาก WordPress แม้ว่าผู้ใช้ไม่ตั้งใจเยี่ยมชม forum \"Hidden Iframe\" จะเชื่อมต่อเฉพาะเมื่อเยี่ยมชม Flarum ซึ่งทำให้เกิด page refresh บนการโหลดหน้าแรก รวมกับ \"Iframe delay\" ด้านล่าง สิ่งนี้สามารถใช้เพื่อ login เฉพาะตามต้องการ\n",
                 "login_method_options": {
-                    "cookie": "",
-                    "redirect": "",
-                    "iframe": ""
+                    "cookie": "Cookie",
+                    "redirect": "Redirect",
+                    "iframe": "Hidden Iframe"
                 },
-                "cookie_domain": "",
-                "cookie_domain_help": "",
-                "iframe_redirect_delay": "",
-                "iframe_redirect_delay_help": "",
-                "wordpress_login_path": "",
-                "wordpress_login_path_help": "",
-                "wordpress_login_full_page": "",
-                "wordpress_login_full_page_help": "",
-                "username_strategy": "",
+                "cookie_domain": "Cookie Domain",
+                "cookie_domain_help": "การตั้งค่านี้ใช้เฉพาะเมื่อใช้ \"Cookie\" login mechanism คุณจำเป็นต้องตั้งค่านี้เฉพาะในกรณีที่เว็บไซต์ทั้งสองอยู่บน subdomains ที่แตกต่างกัน\n",
+                "iframe_redirect_delay": "Iframe Redirect Delay (milliseconds)",
+                "iframe_redirect_delay_help": "การตั้งค่านี้ใช้เฉพาะเมื่อใช้ \"Hidden Iframe\" login mechanism ระยะเวลาหลังจากการโหลดหน้า Flarum เริ่มต้นที่ extension จะยังพยายามสำหรับ login และ page refresh โดยไม่มีปฏิสัมพันธ์ของผู้ใช้ หากใช้เวลานานกว่าค่านี้เพื่อรับการตอบสนองจาก WordPress ผู้ใช้เพียงจะได้รับการแนะนำให้ login และรีเฟรช ตั้งค่าเป็นศูนย์เพื่อแนะนำ login เสมอแทนการรีเฟรชโดยอัตโนมัติ\n",
+                "wordpress_login_path": "WordPress login path",
+                "wordpress_login_path_help": "จำเป็นเฉพาะในกรณีที่คุณเปลี่ยนชื่อ login endpoint ด้วยตนเองหรือผ่าน plugin",
+                "wordpress_login_full_page": "เปิด WordPress login เป็นหน้าแทนที่จะเป็น popup",
+                "wordpress_login_full_page_help": "โดยค่าเริ่มต้น การคลิก login link จาก Flarum จะเปิด WordPress login page ใน popup เหมือน OAuth methods อื่น ๆ เมื่อเปิดใช้งานการตั้งค่านี้ tab ของเบราว์เซอร์ปัจจุบันจะนำทางไปยัง WordPress login page และ redirect กลับไปยัง Flarum\n",
+                "username_strategy": "ชื่อผู้ใช้สำหรับผู้ใช้ใหม่",
                 "username_strategy_options": {
-                    "user_login": "",
-                    "first_name": "",
-                    "random": ""
+                    "user_login": "Username จาก WordPress",
+                    "first_name": "First name จาก WordPress",
+                    "random": "Random username"
                 },
-                "username_strategy_help": "",
-                "force_username_choice": "",
-                "force_username_choice_help": "",
-                "welcome_message": "",
-                "welcome_message_help": "",
-                "wordpress_login_only": "",
-                "wordpress_login_only_help": "",
-                "user_delete": "",
+                "username_strategy_help": "ตัวเลขจะถูกเพิ่มเข้าไปในชื่อผู้ใช้หากมีอยู่แล้วใน Flarum",
+                "force_username_choice": "บังคับให้ผู้ใช้เลือกชื่อผู้ใช้ของพวกเขาในครั้งแรก",
+                "force_username_choice_help": "ค่า default จะถูกจัดเตรียมพร้อมกับกฎที่เลือกด้านบน",
+                "welcome_message": "Introduction message",
+                "welcome_message_help": "ข้อความนี้จะแสดงครั้งแรกที่ผู้ใช้เยี่ยมชมฟอรัม พร้อมกับตัวเลือก username choice หากเปิดใช้งาน",
+                "wordpress_login_only": "อนุญาตเฉพาะ WordPress login",
+                "wordpress_login_only_help": "ปิดใช้งาน Flarum login และเปิด WordPress login modal/page โดยตรงเมื่อขอ login เมื่อเปลี่ยนการตั้งค่านี้ extension จะพยายาม set \"Sign Up\" permission เป็น \"Closed\" ตรวจสอบให้แน่ใจว่ายังคง \"Closed\" หรือผู้เยี่ยมชมจะสามารถสร้างบัญชี Flarum standalone\n",
+                "user_delete": "Action เมื่อผู้ใช้ถูกลบใน WordPress",
                 "user_delete_options": {
-                    "ignore": "",
-                    "delete": "",
-                    "suspend": ""
+                    "ignore": "ไม่สนใจ (เก็บ Flarum user)",
+                    "delete": "ลบ Flarum user",
+                    "suspend": "Suspend Flarum user indefinitely (Suspend extension ต้องถูกเปิดใช้งาน)"
                 },
-                "user_delete_desc": "",
-                "role_group_sync": "",
-                "role_group_sync_help": "",
-                "section_comments_intro": "",
-                "enable_comments": "",
-                "excerpt_html_whitelist": "",
-                "excerpt_html_nodes": "",
-                "excerpt_length": "",
-                "post_thumbnail_summary": "",
-                "post_thumbnail_list": "",
-                "comment_author_sync": "",
-                "comment_author_sync_help": "",
-                "comment_tag": "",
-                "comment_tag_none": "",
-                "comment_tag_custom": "",
-                "comment_tag_custom_help": "",
-                "summary_as_last_post": "",
-                "summary_as_last_post_help": "",
-                "use_post_date": "",
-                "use_post_date_help": "",
-                "post_hide": "",
+                "user_delete_desc": "หากคุณเลือก \"delete\" เฉพาะผู้ใช้จะถูกลบ ไม่ใช่เนื้อหาของพวกเขาใน Flarum",
+                "role_group_sync": "Role to Group Synchronisation",
+                "role_group_sync_help": "กลุ่มที่เลือกที่นี่จะถูกเพิ่มและลบออกจากผู้ใช้โดย extension โดยอัตโนมัติ ดังนั้นจึงเป็นการดีที่สุดที่จะใช้ Flarum groups ที่อุทิศให้และคุณไม่เคยกำหนดด้วยตนเอง และไม่ได้รับการจัดการโดย extensions อื่น ๆ อย่างน่าจะใช้ไม่ได้ที่กำหนด admin group ด้วยวิธีนี้ ทั้ง security reasons และเพื่อให้แน่ใจว่าคุณไม่ได้โดยไม่ตั้งใจล็อกออก คุณสามารถกำหนด multiple groups ให้เป็น role และ group สามารถ map ไปยัง more than one role คุณสามารถสร้าง additional Flarum groups บน Flarum <a>Permissions page</a>\n",
+                "section_comments_intro": "คุณสมบัตินี้แทนที่ WordPress comments ด้วย Flarum iframe Guest posting ไม่สามารถทำได้อีกต่อไป Discussions ถูกสร้างเฉพาะสำหรับ posts ที่มี comments enabled ใน WordPress การเปิดหรือปิดใช้งาน comments จะถูก sync กับ Flarum's discussion lock หากบล็อกของคุณมี posts อยู่แล้วเมื่อคุณเปิดใช้งานคุณสมบัตินี้ คุณต้องเปิดและปิดใช้งาน comments อีกครั้งในแต่ละบทความเพื่อสร้าง Flarum discussion\n",
+                "enable_comments": "เปิดใช้งาน comments integration",
+                "excerpt_html_whitelist": "Whitelist ของ HTML tags เพื่อให้คงอยู่ใน excerpt (comma separated)",
+                "excerpt_html_nodes": "ความยาวของ content excerpt (ในจำนวน HTML nodes)",
+                "excerpt_length": "ความยาวของ content excerpt (ในตัวอักษร)",
+                "post_thumbnail_summary": "แสดง WordPress post thumbnail เหนือ excerpt",
+                "post_thumbnail_list": "แสดง WordPress post thumbnail ใน Flarum discussion list",
+                "comment_author_sync": "กำหนด discussion author จาก SSO",
+                "comment_author_sync_help": "หากผู้เขียน Wordpress สร้างบัญชี Flarum ผ่าน SSO Flarum account นั้นจะถูกตั้งค่าเป็น comment discussion owner",
+                "comment_tag": "Tag สำหรับ comment threads ใหม่",
+                "comment_tag_none": "อย่ากำหนด tag",
+                "comment_tag_custom": "ค่า custom",
+                "comment_tag_custom_help": "รายชื่อ tag IDs แยกด้วยจุลภาค",
+                "summary_as_last_post": "ตั้งค่า summary post เป็น last post ของ discussions ใหม่",
+                "summary_as_last_post_help": "สิ่งนี้ทำให้ discussions ใหม่เพิ่มขึ้นไปที่ส่วนบนของรายชื่อ discussions ใน Flarum ทันทีที่เผยแพร่ WordPress post โดยค่าเริ่มต้น discussion จะเพิ่มขึ้นไปที่ส่วนบนเฉพาะเมื่อผู้ใช้คนแรกเขียน comment\n",
+                "use_post_date": "ใช้ WordPress post date เป็น discussion creation date",
+                "use_post_date_help": "โดยค่าเริ่มต้น Flarum discussions จะใช้เวลาปัจจุบันเป็น creation date ตัวเลือกนี้ช่วยให้สร้าง discussions ด้วย past date หากWordPress post มี past date ด้วย\n",
+                "post_hide": "Action เมื่อ WordPress post ถูกซ่อน (trashed หรือย้ายไปยัง draft)",
                 "post_hide_options": {
-                    "ignore": "",
-                    "lock": "",
-                    "hide": "",
-                    "delete": ""
+                    "ignore": "ไม่สนใจ (lock discussion ตามความเห็น Allow Comments)",
+                    "lock": "Lock discussion ใน Flarum",
+                    "hide": "ซ่อน discussion ใน Flarum",
+                    "delete": "ลบ discussion อย่างถาวรจาก Flarum"
                 },
-                "post_delete": "",
+                "post_delete": "Action เมื่อ WordPress post ถูกลบอย่างถาวร",
                 "post_delete_options": {
-                    "ignore": "",
-                    "lock": "",
-                    "hide": "",
-                    "delete": ""
+                    "ignore": "ไม่สนใจ (เก็บ Flarum discussion ในสถานะปัจจุบัน)",
+                    "lock": "เก็บ Flarum discussion และ lock",
+                    "hide": "ซ่อน discussion ใน Flarum",
+                    "delete": "ลบ discussion อย่างถาวรจาก Flarum"
                 }
             },
             "tabs": {
-                "wizard": "",
-                "general": "",
-                "sso": "",
-                "comments": "",
-                "enabled": "",
-                "disabled": ""
+                "wizard": "Install wizard",
+                "general": "General Settings",
+                "sso": "SSO Integration",
+                "comments": "Comments Integration",
+                "enabled": "เปิดใช้งาน",
+                "disabled": "ปิดใช้งาน"
             },
             "appearance": {
-                "edit_css_button": ""
+                "edit_css_button": "แก้ไข Custom CSS สำหรับ WordPress Embed เท่านั้น"
             },
             "edit_css": {
-                "title": "",
-                "customize_text": ""
+                "title": "แก้ไข Custom Embed CSS",
+                "customize_text": "LESS/CSS ของคุณเองที่จะนำไปใช้บน <a>default styles</a> ของ Flarum ภายใน WordPress iframe เท่านั้น"
             },
             "permissions": {
-                "gambits": ""
+                "gambits": "WordPress Third-party gambits (ดูเอกสาร)"
             },
             "save-controls": {
-                "validation-errors": "",
-                "unsaved-changes": "",
-                "saved-at": "",
-                "no-unsaved-changes": "",
-                "save": ""
+                "validation-errors": "เราพบข้อผิดพลาดบางประการในการส่งของคุณ",
+                "unsaved-changes": "คุณมีการเปลี่ยนแปลงที่ยังไม่ได้บันทึก",
+                "saved-at": "บันทึกแล้ว {ago}",
+                "no-unsaved-changes": "บันทึกทุกอย่างแล้ว",
+                "save": "บันทึก"
             },
             "health": {
-                "title": "",
-                "check": "",
-                "errors": "",
-                "healthy": "",
-                "not-run": "",
-                "request-error": ""
+                "title": "Health check",
+                "check": "ตรวจสอบตอนนี้",
+                "errors": "เราพบปัญหาบางประการ",
+                "healthy": "ทุกอย่างดูดี!",
+                "not-run": "Health check จะพร้อมใช้งานเมื่อคุณเชื่อมต่อ WordPress และ Flarum",
+                "request-error": "เราไม่สามารถดำเนิน Health check"
             },
             "wizard": {
-                "intro": "",
-                "wordpress_url": "",
-                "wordpress_url_help": "",
-                "wordpress_username": "",
-                "wordpress_password": "",
-                "wordpress_password_help": "",
-                "install": ""
+                "intro": "ขอบคุณที่ซื้อ premium WordPress extension ของฉัน กรอกข้อมูลประจำตัวของคุณด้านล่างเพื่อเชื่อมต่อ Flarum และ WordPress ของคุณโดยอัตโนมัติ\n",
+                "wordpress_url": "WordPress URL",
+                "wordpress_url_help": "ลิงก์ไปยัง WordPress homepage ของคุณ",
+                "wordpress_username": "WordPress admin username",
+                "wordpress_password": "WordPress admin password",
+                "wordpress_password_help": "รหัสผ่านใช้เฉพาะสำหรับการกำหนดค่าเริ่มต้นและไม่ถูกจัดเก็บ",
+                "install": "ติดตั้ง"
             },
             "role-group-sync": {
                 "head": {
-                    "role": "",
-                    "group": ""
+                    "role": "WordPress Role",
+                    "group": "Flarum Group"
                 },
                 "choose": {
-                    "role": "",
-                    "group": ""
+                    "role": "เลือก WordPress Role...",
+                    "group": "เลือก group"
                 },
                 "custom": {
-                    "role": "",
-                    "group": ""
+                    "role": "Custom...",
+                    "group": "Custom..."
                 },
-                "selected-custom-group": "",
-                "delete": "",
+                "selected-custom-group": "Custom",
+                "delete": "ลบ rule",
                 "role-loader": {
-                    "loading": "",
-                    "error": ""
+                    "loading": "กำลังโหลด roles จาก WordPress...",
+                    "error": "เกิดปัญหาในการโหลดรายชื่อ roles จาก WordPress คุณสามารถยังคงป้อน role names ด้วยตนเองได้"
                 }
             }
         },
         "forum": {
             "welcome-modal": {
-                "title": "",
-                "default_message": "",
-                "username": "",
-                "submit": "",
-                "not_now": ""
+                "title": "ยินดีต้อนรับ!",
+                "default_message": "ยินดีต้อนรับสู่ฟอรัม เลือกชื่อผู้ใช้และคุณก็พร้อมแล้ว!",
+                "username": "เลือกชื่อผู้ใช้",
+                "submit": "เปิดใช้งาน forum account",
+                "not_now": "ข้ามไว้และอ่านในฐานะแขกสำหรับตอนนี้"
             },
             "instant-login": {
-                "welcome_known_user": "",
-                "welcome_unknown_user": "",
-                "avatar_alt_text": "",
-                "message": "",
-                "button": ""
+                "welcome_known_user": "ยินดีต้อนรับกลับ, {avatar} <strong>{name}</strong>!",
+                "welcome_unknown_user": "ยินดีต้อนรับกลับ!",
+                "avatar_alt_text": "WordPress Avatar",
+                "message": "คุณสามารถใช้ฟอรัมด้วยบัญชีเว็บไซต์หลักของคุณ",
+                "button": "Login ตอนนี้และรีเฟรช"
             },
             "edit-user-modal": {
-                "warning": "",
-                "edit_in_wordpress": "",
-                "should_not_edit_email": "",
-                "unlink": "",
-                "unlink_help": ""
+                "warning": "ผู้ใช้นี้ถูก sync กับ WordPress คุณควรแก้ไข email และ password จาก WordPress\n",
+                "edit_in_wordpress": "แก้ไขใน WordPress",
+                "should_not_edit_email": "คุณควรแก้ไข email ใน WordPress <a>แก้ไขได้</a>",
+                "unlink": "ยกเลิกการเชื่อมโยง user นี้จากผู้ใช้ wordpress",
+                "unlink_help": "หากอีเมลตรงกับผู้ใช้ WordPress มันจะถูกเชื่อมโยงอีกครั้งในครั้งต่อไปที่ผู้ใช้นั้นเชื่อมต่อใน WordPress"
             },
             "settings": {
-                "edit_on_wordpress": ""
+                "edit_on_wordpress": "เปลี่ยน email และ password บนเว็บไซต์หลัก"
             },
             "log_in": {
-                "with_wordpress_button": ""
+                "with_wordpress_button": "Log In ด้วย WordPress"
             },
             "summary-post": {
-                "head_label": "",
-                "blog_link": "",
-                "read_more": ""
+                "head_label": "WordPress Post",
+                "blog_link": "อ่านบนบล็อก",
+                "read_more": "อ่านต่อ"
             },
             "embed": {
-                "title": ""
+                "title": "ความเห็น"
             },
             "embed-link-modal": {
-                "title": "",
-                "message": "",
-                "open": ""
+                "title": "ออกจาก comment thread",
+                "message": "หน้าพยายามรีไดเรคคุณไปยัง {href}",
+                "open": "เปิดลิงก์"
             },
-            "thumbnail_alt_fallback": ""
+            "thumbnail_alt_fallback": "WordPress post thumbnail"
         },
         "api": {
             "blocked_actions": {
-                "login": "",
-                "password_reset": "",
-                "email_change": ""
+                "login": "บัญชีนี้เชื่อมโยงกับ WordPress ใช้ main website login form เพื่อเชื่อมต่อ",
+                "password_reset": "บัญชีนี้เชื่อมโยงกับ WordPress ใช้ main website login form เพื่อรีเซ็ต password ของคุณ",
+                "email_change": "บัญชีนี้เชื่อมโยงกับ WordPress ใช้ main website profile page เพื่อเปลี่ยน email ของคุณ"
             },
             "health": {
-                "suspend-extension-required": "",
-                "cookie-domain-format": "",
-                "login-only-signup-open": "",
-                "role-group-sync-syntax": "",
-                "role-group-sync-incomplete": "",
-                "role-group-sync-invalid-group": "",
-                "role-group-sync-invalid-role": "",
-                "lock-extension-required": "",
-                "tags-extension-required": "",
-                "tag-not-exist": "",
-                "debug-mode": "",
-                "config-url-trailing-slash": "",
-                "config-url-https": "",
-                "default-actor-not-set": "",
-                "default-actor-not-found": "",
-                "api-key-missing": "",
-                "wordpress-url-missing": "",
-                "wordpress-url-invalid": "",
-                "wordpress-url-index-php": "",
-                "wordpress-url-trailing-slash": "",
-                "wordpress-url-https": "",
-                "wordpress-url-mismatch": "",
-                "flarum-url-mismatch": "",
-                "api-key-mismatch": "",
-                "user-id-not-found": "",
-                "user-id-not-admin": "",
-                "sso-mismatch-flarum": "",
-                "sso-mismatch-wordpress": "",
-                "comments-mismatch-flarum": "",
-                "comments-mismatch-wordpress": "",
-                "api-error-json": "",
-                "api-error-401": "",
-                "api-error-other": ""
+                "suspend-extension-required": "Suspend extension ต้องเปิดใช้งาน เพื่อใช้ตัวเลือก \"Suspend\" ของ \"Action on user delete\"",
+                "cookie-domain-format": "Cookie domain ดูเหมือนจะไม่ใช่โดเมนที่ถูกต้อง ตรวจสอบว่า's เป็นเพียงโดเมนโดยไม่มีโปรโตคอลหรือพาธ",
+                "login-only-signup-open": "คุณต้องปิดใช้งาน Sign Up ภายใต้สิทธิ์ Flarum สำหรับการตั้งค่า \"Only allow WordPress login\" เพื่อให้มีผลอย่างเต็มที่",
+                "role-group-sync-syntax": "Role to group sync settings มีปัญหา encoding",
+                "role-group-sync-incomplete": "Role to group sync settings ไม่ได้เต็มไป",
+                "role-group-sync-invalid-group": "Flarum group ID ไม่ถูกต้องเลือกสำหรับ role to group sync: {id}",
+                "role-group-sync-invalid-role": "WordPress role ไม่ถูกต้องเลือกสำหรับ role to group sync: {role}",
+                "lock-extension-required": "Lock extension ต้องเปิดใช้งาน เพื่อใช้ Comments integration",
+                "tags-extension-required": "Tags extension ต้องเปิดใช้งาน เพื่อใช้ตัวเลือก \"Tag for new comment threads\"",
+                "tag-not-exist": "Tag ID {id} เลือกสำหรับตัวเลือก \"Tag IDs for new comment threads\" ไม่มีอยู่",
+                "debug-mode": "Flarum debug mode ถูกเปิดใช้งาน ปิดใช้งานเมื่อคุณเสร็จสิ้นการแก้จุด",
+                "config-url-trailing-slash": "Flarum URL ที่กำหนดใน config.php ไม่ควรมี trailing slash (ค่าปัจจุบัน: \"{url}\")",
+                "config-url-https": "Flarum URL ที่กำหนดใน config.php ควร HTTPS (ค่าปัจจุบัน: \"{url}\")",
+                "default-actor-not-set": "การตั้งค่า \"Default Actor\" ต้องเติมให้สมบูรณ์",
+                "default-actor-not-found": "การตั้งค่า \"Default Actor\" ไม่ได้อ้างอิงผู้ใช้ที่ถูกต้อง",
+                "api-key-missing": "\"Flarum API Key\" หายไป ลองรีเฟรชแผงผู้ดูแลระบบและตรวจสอบไฟล์บันทึก สำหรับข้อผิดพลาดที่เป็นไปได้",
+                "wordpress-url-missing": "การตั้งค่า \"WordPress URL\" ต้องเติมให้สมบูรณ์",
+                "wordpress-url-invalid": "การตั้งค่า \"WordPress URL\" ดูเหมือนจะไม่ใช่ URL ที่ถูกต้อง (ค่าปัจจุบัน: \"{url}\")",
+                "wordpress-url-index-php": "การตั้งค่า \"WordPress URL\" ต้องไม่รวม \"/index.php\" (ค่าปัจจุบัน: \"{url}\")",
+                "wordpress-url-trailing-slash": "การตั้งค่า \"WordPress URL\" ต้องไม่รวม trailing slash (ค่าปัจจุบัน: \"{url}\")",
+                "wordpress-url-https": "การตั้งค่า \"WordPress URL\" ควร HTTPS (ค่าปัจจุบัน: \"{url}\")",
+                "wordpress-url-mismatch": "การตั้งค่า \"WordPress URL\" ใน Flarum ไม่ตรงกับการตั้งค่า \"WordPress Address (URL)\" จาก WordPress (คาดหวัง: \"{expected}\" จริง: \"{actual}\")",
+                "flarum-url-mismatch": "การตั้งค่า \"Flarum URL\" ใน WordPress ไม่ตรงกับ URL ที่กำหนดใน Flarum config.php (คาดหวัง: \"{expected}\" จริง: \"{actual}\")",
+                "api-key-mismatch": "การตั้งค่า \"Shared API Key\" ใน WordPress ไม่ตรงกับการตั้งค่า \"Shared API Key\" ใน Flarum (คาดหวัง: \"{expected}\" จริง: \"{actual}\")",
+                "user-id-not-found": "การตั้งค่า \"Flarum User ID\" ใน WordPress ไม่ตรงกับผู้ใช้ Flarum ที่รู้จัก (ค่าปัจจุบัน: \"{actual}\") ในการใช้ผู้ใช้ที่เข้าสู่ระบบในปัจจุบัน คุณสามารถใช้ ID \"{suggested}\"\n",
+                "user-id-not-admin": "การตั้งค่า \"Flarum User ID\" ใน WordPress ไม่ตรงกับผู้ดูแลระบบ Flarum (ค่าปัจจุบัน: \"{actual}\") ในการใช้ผู้ใช้ที่เข้าสู่ระบบในปัจจุบัน คุณสามารถใช้ ID \"{suggested}\"\n",
+                "sso-mismatch-flarum": "SSO integration ถูกเปิดใช้งานใน Flarum แต่ไม่ใช่ใน WordPress",
+                "sso-mismatch-wordpress": "SSO integration ถูกเปิดใช้งานใน WordPress แต่ไม่ใช่ใน Flarum",
+                "comments-mismatch-flarum": "Comments integration ถูกเปิดใช้งานใน Flarum แต่ไม่ใช่ใน WordPress",
+                "comments-mismatch-wordpress": "Comments integration ถูกเปิดใช้งานใน WordPress แต่ไม่ใช่ใน Flarum",
+                "api-error-json": "การพยายามเข้าถึง WordPress API ส่งผลให้เกิดข้อผิดพลาด: {message} - Body: {body}",
+                "api-error-401": "การพยายามเข้าถึง WordPress API ส่งผลให้เกิดข้อผิดพลาด 401 ตรวจสอบว่า \"Shared API Key\" ตรงกันระหว่างการตั้งค่า Flarum และ WordPress",
+                "api-error-other": "การพยายามเข้าถึง WordPress API ส่งผลให้เกิดข้อผิดพลาด: {message}"
             },
             "wizard": {
-                "already_installed": "",
-                "api_unauthorized": "",
-                "api_error_generic": "",
-                "invalid_wordpress_url": ""
+                "already_installed": "Flarum เชื่อมต่อกับ WordPress แล้ว ในการเรียกใช้ wizard อีกครั้ง ให้ลบการตั้งค่า \"WordPress URL\" ใน Flarum และการตั้งค่า \"Flarum Shared API Key\" ใน WordPress\n",
+                "api_unauthorized": "เราไม่สามารถตรวจสอบสิทธิ์ด้วยข้อมูลประจำตัวที่ให้มา ตรวจสอบ URL ชื่อผู้ใช้และ password อีกครั้ง ตรวจสอบเอกสารสำหรับขั้นตอนการแก้ปัญหาเพิ่มเติม\n",
+                "api_error_generic": "ข้อผิดพลาดขณะดำเนิน POST request ไปยัง WordPress plugin setup endpoint ({exception}) ตรวจสอบว่า Flarum Integration WordPress plugin ถูกติดตั้งและเปิดใช้งาน\n",
+                "invalid_wordpress_url": "การตั้งค่า \"WordPress Address (URL)\" ใน WordPress ดูเหมือนว่าไม่ใช่ URL ที่ถูกต้อง ({actual})"
             },
-            "sync_setting_error": ""
+            "sync_setting_error": "ข้อผิดพลาดในการซิงค์การตั้งค่ากับ WordPress ตรวจสอบด้วยตนเองว่าช่องทำเครื่องหมายในด้าน WordPress ตั้งค่าเป็นค่าเดียวกับใน Flarum ข้อผิดพลาด: {exception}\n"
         },
         "views": {
             "error": {
-                "missing_wordpress_embed": ""
+                "missing_wordpress_embed": "โพสต์นี้ยังไม่มี comment thread ถ้าคุณเป็นผู้ดูแลบล็อก ให้เผยแพร่โพสต์ หรือปิดใช้งานและเปิดใช้งาน comments อีกครั้งเพื่อเริ่มเธรด\n"
             }
         }
     }

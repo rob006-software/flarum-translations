@@ -2,497 +2,497 @@
     "kilowhat-formulaire": {
         "admin": {
             "permissions": {
-                "heading": "",
-                "heading-advanced": "",
-                "fill": "",
-                "seeOwnUser": "",
-                "seeAnyUser": "",
-                "editOwnUser": "",
-                "editAnyUser": "",
-                "seeOwnDiscussion": "",
-                "seeAnyDiscussion": "",
-                "editOwnDiscussion": "",
-                "editAnyDiscussion": "",
-                "create": "",
-                "moderate": "",
-                "export": "",
-                "exportUserDetails": "",
-                "listForms": "",
-                "listSubmissions": ""
+                "heading": "แบบฟอร์ม",
+                "heading-advanced": "แบบฟอร์ม (ตัวเลือกสำหรับส่วนขยายของบุคคลที่สาม)",
+                "fill": "=> kilowhat-formulaire.ref.permissions.fill",
+                "seeOwnUser": "=> kilowhat-formulaire.ref.permissions.seeOwnUser",
+                "seeAnyUser": "=> kilowhat-formulaire.ref.permissions.seeAnyUser",
+                "editOwnUser": "=> kilowhat-formulaire.ref.permissions.editOwnUser",
+                "editAnyUser": "=> kilowhat-formulaire.ref.permissions.editAnyUser",
+                "seeOwnDiscussion": "=> kilowhat-formulaire.ref.permissions.seeOwnDiscussion",
+                "seeAnyDiscussion": "=> kilowhat-formulaire.ref.permissions.seeAnyDiscussion",
+                "editOwnDiscussion": "=> kilowhat-formulaire.ref.permissions.editOwnDiscussion",
+                "editAnyDiscussion": "=> kilowhat-formulaire.ref.permissions.editAnyDiscussion",
+                "create": "สร้างแบบฟอร์ม (beta)",
+                "moderate": "จัดการแบบฟอร์มทั้งหมด",
+                "export": "ส่งออกข้อมูลการส่งแบบฟอร์ม",
+                "exportUserDetails": "เข้าถึงข้อมูลส่วนตัวของผู้ใช้ในการส่งออก",
+                "listForms": "ดูรายการแบบฟอร์มที่ยังไม่ถูกลบ",
+                "listSubmissions": "ดูรายการการส่งแบบฟอร์ม"
             },
             "settings": {
-                "title": "",
-                "max-file-size": "",
-                "history-controls": "",
-                "side-nav-on-submission": "",
-                "checkbox-style": "",
-                "radio-style": "",
+                "title": "การตั้งค่าแบบฟอร์มทั่วโลก",
+                "max-file-size": "ขนาดไฟล์สูงสุด (kB)",
+                "history-controls": "แสดงปุ่มยกเลิก/ทำซ้ำในหน้าการส่ง",
+                "side-nav-on-submission": "แสดงการนำทางด้านข้างในหน้าการส่ง",
+                "checkbox-style": "สไตล์ checkbox",
+                "radio-style": "สไตล์ radio",
                 "style-options": {
-                    "far-square": "",
-                    "fas-square": "",
-                    "far-circle": "",
-                    "fas-circle": "",
-                    "switch": "",
-                    "native": ""
+                    "far-square": "ไอคอน FontAwesome Regular Square",
+                    "fas-square": "ไอคอน FontAwesome Solid Square",
+                    "far-circle": "ไอคอน FontAwesome Regular Circle",
+                    "fas-circle": "ไอคอน FontAwesome Solid Circle",
+                    "switch": "สวิตช์ Flarum",
+                    "native": "ตัวควบคุมเบราว์เซอร์ดั้งเดิม"
                 },
-                "horizontal-layout": "",
+                "horizontal-layout": "ใช้เลย์เอาต์แบบฟอร์มแนวนอน",
                 "horizontal-layout-locations": {
-                    "standaloneEdit": "",
-                    "standaloneView": "",
-                    "profileEdit": "",
-                    "profileView": "",
-                    "signUp": "",
-                    "discussionEdit": "",
-                    "discussionView": "",
-                    "discussionComposer": ""
+                    "standaloneEdit": "หน้า Standalone Fill/Edit",
+                    "standaloneView": "หน้า Standalone View",
+                    "profileEdit": "หน้า Profile Edit",
+                    "profileView": "หน้า Profile View",
+                    "signUp": "Sign Up Modal (เฉพาะเขตข้อมูล Formulaire)",
+                    "discussionEdit": "Discussion Edit Modal",
+                    "discussionView": "Discussion View Container",
+                    "discussionComposer": "Discussion Composer"
                 },
-                "uniformComposerLayout": "",
-                "uniformComposerLayoutHelp": "",
-                "noByobuFields": "",
-                "noByobuFieldsHelp": "",
-                "translateManually": "",
-                "translateManuallyHelp": "",
-                "translateWithTranslator": "",
-                "translateWithTranslatorHelp": "",
-                "replacementPatternLocale": "",
-                "replacementPatternLocaleHelp": "",
+                "uniformComposerLayout": "เลย์เอาต์ discussion composer ที่สม่ำเสมอ",
+                "uniformComposerLayoutHelp": "เปลี่ยนสไตล์ของเขตข้อมูล tags, title และ content เพื่อให้ตรงกับ Formulaire เลย์เอาต์นี้จะใช้พื้นที่มากขึ้น ดังนั้นแนะนำให้ติดตั้งและเปิดใช้งาน <a>Composer Page</a> extension\n",
+                "noByobuFields": "อย่าบูรณาการเขตข้อมูล discussion กับโพสต์ส่วนตัวจาก Byobu extension",
+                "noByobuFieldsHelp": "ตามค่าเริ่มต้น เขตข้อมูล discussion ที่ไม่มี tag-scoped จะนำไปใช้กับโพสต์ทั้งหมด รวมถึงโพสต์ส่วนตัว",
+                "translateManually": "เปิดใช้งานการแปลแบบฟอร์มด้วยตนเอง",
+                "translateManuallyHelp": "เมื่อตั้งค่านี้ใช้งาน ชื่อเขตข้อมูลสามารถแปลในอินเทอร์เฟซตัวจัดการแบบฟอร์มได้ ต้องมีหลายภาษาที่ใช้งานอยู่ในฟอรัม\n",
+                "translateWithTranslator": "เปิดใช้งานการแปลแบบฟอร์มด้วย Flarum Translator API",
+                "translateWithTranslatorHelp": "เมื่อตั้งค่านี้ใช้งาน ชื่อเขตข้อมูลสามารถปรับแต่งผ่านตัวขยายในเครื่องและแพคเกจภาษา ดูเอกสารประกอบเพื่อทราบวิธีใช้ฟีเจอร์นี้\n",
+                "replacementPatternLocale": "ภาษาที่ใช้เมื่อใช้รูปแบบการแทนที่",
+                "replacementPatternLocaleHelp": "ตัวเลือก \"auto\" เริ่มต้นหมายความว่าภาษาของผู้ใช้ที่ส่งแบบฟอร์มจะถูกใช้เมื่อไม่มี queue ที่ใช้งาน หากมี queue ที่ใช้งาน จะใช้ภาษาฟอรัมเริ่มต้น การตั้งค่านี้ส่งผลต่ออีเมลแจ้งเตือนและการสร้าง discussion อัตโนมัติ\n",
                 "replacementPatternLocaleOptions": {
-                    "auto": ""
+                    "auto": "อัตโนมัติ"
                 }
             }
         },
         "forum": {
             "nav": {
-                "forms": ""
+                "forms": "=> kilowhat-formulaire.ref.manager"
             },
             "require-submission-alert": {
-                "message": "",
-                "action": ""
+                "message": "เราจำกัดการเข้าถึงบัญชีของคุณชั่วคราวจนกว่าคุณจะส่งแบบฟอร์ม \"{title}\"",
+                "action": "ไปยังแบบฟอร์ม"
             },
             "form-index": {
                 "header": {
-                    "title": "",
-                    "documentation": "",
-                    "discuss": ""
+                    "title": "=> kilowhat-formulaire.ref.manager",
+                    "documentation": "เอกสารออนไลน์ฉบับเต็ม",
+                    "discuss": "โพสต์ใน Flarum Discuss"
                 },
                 "tabs": {
-                    "standalone": "",
-                    "discussion": "",
-                    "user": ""
+                    "standalone": "=> kilowhat-formulaire.ref.type.standalone",
+                    "discussion": "=> kilowhat-formulaire.ref.type.discussion",
+                    "user": "=> kilowhat-formulaire.ref.type.user"
                 },
-                "empty": "",
-                "load-more": "",
-                "search": "",
-                "new": "",
-                "edit": "",
-                "show": "",
-                "submissions": "",
+                "empty": "ไม่มีแบบฟอร์ม",
+                "load-more": "โหลดเพิ่มเติม",
+                "search": "ค้นหาแบบฟอร์ม...",
+                "new": "แบบฟอร์มใหม่",
+                "edit": "แก้ไข",
+                "show": "แสดง",
+                "submissions": "การส่ง",
                 "columns": {
-                    "title": "",
-                    "accept-submissions": "",
-                    "allow-modification": "",
-                    "enabled": "",
-                    "submissions": "",
-                    "actions": ""
+                    "title": "ชื่อเรื่อง",
+                    "accept-submissions": "เปิด",
+                    "allow-modification": "การแก้ไข",
+                    "enabled": "เปิดใช้งาน",
+                    "submissions": "การส่ง",
+                    "actions": "การกระทำ"
                 }
             },
             "global-settings": {
-                "title": "",
-                "admin-only": "",
+                "title": "สิทธิ์การเข้าถึงแบบทั่วโลก",
+                "admin-only": "เฉพาะผู้ดูแลระบบฟอรัมเท่านั้นที่สามารถแก้ไขการตั้งค่าแบบทั่วโลก",
                 "permissions": {
-                    "fill": "",
-                    "seeOwnUser": "",
-                    "seeAnyUser": "",
-                    "editOwnUser": "",
-                    "editAnyUser": "",
-                    "seeOwnDiscussion": "",
-                    "seeAnyDiscussion": "",
-                    "editOwnDiscussion": "",
-                    "editAnyDiscussion": ""
+                    "fill": "=> kilowhat-formulaire.ref.permissions.fill",
+                    "seeOwnUser": "=> kilowhat-formulaire.ref.permissions.seeOwnUser",
+                    "seeAnyUser": "=> kilowhat-formulaire.ref.permissions.seeAnyUser",
+                    "editOwnUser": "=> kilowhat-formulaire.ref.permissions.editOwnUser",
+                    "editAnyUser": "=> kilowhat-formulaire.ref.permissions.editAnyUser",
+                    "seeOwnDiscussion": "=> kilowhat-formulaire.ref.permissions.seeOwnDiscussion",
+                    "seeAnyDiscussion": "=> kilowhat-formulaire.ref.permissions.seeAnyDiscussion",
+                    "editOwnDiscussion": "=> kilowhat-formulaire.ref.permissions.editOwnDiscussion",
+                    "editAnyDiscussion": "=> kilowhat-formulaire.ref.permissions.editAnyDiscussion"
                 }
             },
             "form-create": {
-                "title": "",
+                "title": "แบบฟอร์มใหม่",
                 "field": {
-                    "title": ""
+                    "title": "ชื่อเรื่อง"
                 },
                 "button": {
-                    "create": ""
+                    "create": "สร้างแบบฟอร์ม"
                 }
             },
             "form-edit-header": {
-                "back": "",
+                "back": "กลับ",
                 "category": {
-                    "standalone": "",
-                    "discussion": "",
-                    "user": ""
+                    "standalone": "=> kilowhat-formulaire.ref.type.standalone",
+                    "discussion": "=> kilowhat-formulaire.ref.type.discussion",
+                    "user": "=> kilowhat-formulaire.ref.type.user"
                 },
                 "tabs": {
-                    "template": "",
-                    "translate": "",
-                    "placement": "",
-                    "access": "",
-                    "notifications": "",
-                    "submissions": ""
+                    "template": "แม่แบบ",
+                    "translate": "แปล",
+                    "placement": "ตำแหน่ง",
+                    "access": "การเข้าถึง",
+                    "notifications": "การแจ้งเตือน",
+                    "submissions": "การส่ง"
                 },
                 "access-status": {
-                    "closed": "",
-                    "create": "",
-                    "edit": "",
-                    "both": "",
-                    "enabled": "",
-                    "disabled": ""
+                    "closed": "ปิด",
+                    "create": "สร้างเท่านั้น",
+                    "edit": "แก้ไขเท่านั้น",
+                    "both": "สร้างและแก้ไข",
+                    "enabled": "เปิดใช้งาน",
+                    "disabled": "ร่าง"
                 },
-                "controls": "",
-                "template-export": "",
-                "enable-expert-mode": "",
-                "disable-expert-mode": "",
-                "show-advanced-attributes": "",
-                "restore": "",
-                "hide": "",
-                "delete": "",
-                "delete-confirmation": "",
+                "controls": "ตัวควบคุม",
+                "template-export": "นำเข้า/ส่งออกแม่แบบ",
+                "enable-expert-mode": "เปิดใช้งานโหมดผู้เชี่ยวชาญ",
+                "disable-expert-mode": "ปิดใช้งานโหมดผู้เชี่ยวชาญ",
+                "show-advanced-attributes": "แสดงแอตทริบิวต์ขั้นสูง...",
+                "restore": "คืนกลับ",
+                "hide": "ลบ",
+                "delete": "ลบอย่างถาวร",
+                "delete-confirmation": "แบบฟอร์ม \"{title}\" จะถูกลบอย่างถาวร",
                 "fields": {
-                    "private-title": "",
-                    "slug": ""
+                    "private-title": "ชื่อเรื่องส่วนตัว",
+                    "slug": "slug URL ที่กำหนดเอง (ไม่บังคับ)"
                 }
             },
             "form-edit": {
                 "warnings": {
-                    "show-on-signup-invalid-permissions": "",
-                    "show-on-composer-invalid-permissions": "",
-                    "require-submission-invalid-permissions": "",
-                    "linked-form-is-draft": "",
-                    "auto-link-permission-warning": ""
+                    "show-on-signup-invalid-permissions": "คุณต้องตั้งสิทธิ์ \"see own\" และ \"edit own\" ให้กับสมาชิกที่ยังไม่ได้รับการอนุมัติเพื่อใช้ \"show in sign up\"\n",
+                    "show-on-composer-invalid-permissions": "ตรวจสอบให้แน่ใจว่าสิทธิ์ \"see own\" และ \"edit own\" ตรงกับผู้ที่สามารถเริ่มโพสต์ด้วย tag ที่เลือก เพื่อใช้ \"show in composer\" ตั้งค่าเป็น \"members\" หากไม่แน่ใจ ข้อความนี้อาจปรากฏขึ้นแม้ว่าการตั้งค่าของคุณถูกต้อง\n",
+                    "require-submission-invalid-permissions": "คุณต้องตั้งสิทธิ์ \"see own\" และ \"edit own\" ให้กับสมาชิกที่ยังไม่ได้รับการอนุมัติเพื่อใช้ \"require submission to use forum\"\n",
+                    "linked-form-is-draft": "แบบฟอร์มนี้อยู่ในโหมดร่างในปัจจุบัน เปิดใช้งานภายใต้ \"Access\" เพื่อให้เขตข้อมูลปรากฏในฟอรัม\n",
+                    "auto-link-permission-warning": "แบบฟอร์มที่มีตัวเลือก \"automatically create discussions\" ใช้สิทธิ์การกรอกแบบทั่วโลกเมื่อเข้าถึงแบบสแตนด์อโลน\n"
                 },
-                "expert-mode-warning": "",
+                "expert-mode-warning": "มองเห็นแอตทริบิวต์เขตข้อมูลขั้นสูง ตรวจสอบให้แน่ใจว่าคุณได้อ่านเอกสารประกอบเกี่ยวกับคุณลักษณะเหล่านั้น เนื่องจากคุณอาจทำให้สิ่งต่าง ๆ เสียหาย!\n",
                 "section": {
-                    "template": "",
-                    "permissions": ""
+                    "template": "แม่แบบ",
+                    "permissions": "สิทธิ์"
                 },
                 "field": {
-                    "link": "",
-                    "title": "",
+                    "link": "ประเภทแบบฟอร์มพิเศษ",
+                    "title": "ชื่อเรื่องสาธารณะ",
                     "show-on-creation": {
-                        "discussion": "",
-                        "discussionHelp": "",
-                        "user": ""
+                        "discussion": "แสดงใน discussion composer",
+                        "discussionHelp": "Discussion composer ของ Flarum ไม่เหมาะสมที่จะมีเขตข้อมูลจำนวนมาก คุณควรติดตั้งและเปิดใช้งาน <a>Composer Page</a> extension เพื่อให้แน่ใจว่าเขตข้อมูลทั้งหมดยังคงสามารถเข้าถึงได้บนอุปกรณ์ทั้งหมด\n",
+                        "user": "แสดงใน sign up"
                     },
                     "require-submission": {
-                        "switch": "",
-                        "warning": ""
+                        "switch": "ต้องใช้การส่งแบบฟอร์มเพื่อใช้ฟอรัม",
+                        "warning": "หลังจากบันทึก ผู้ใช้ที่มีแบบฟอร์มที่ไม่สมบูรณ์จะถูกล็อคออกจากฟอรัมจนกว่าจะส่งใหม่ ต้องการทำต่อไปหรือไม่"
                     },
-                    "automatic-discussion": "",
-                    "automatic-discussion-help": "",
-                    "accept-submissions": "",
-                    "allow-modification": "",
-                    "enable": "",
-                    "max-submissions": "",
-                    "send-confirmation-to-participants": "",
-                    "notify-emails": "",
-                    "web-confirmation-message": "",
-                    "permission-see-own": "",
-                    "permission-see-any": "",
-                    "permission-edit-own": "",
-                    "permission-edit-any": ""
+                    "automatic-discussion": "สร้าง discussion โดยอัตโนมัติจากการส่งแบบฟอร์ม",
+                    "automatic-discussion-help": "เมื่อเปิดใช้งาน แบบฟอร์มจะยังคงสามารถเข้าถึงได้เหมือนแบบฟอร์มแบบสแตนด์อโลน การส่งจะสร้างและเชื่อมต่อกับ discussion ใหม่โดยอัตโนมัติ\n",
+                    "accept-submissions": "ยอมรับการส่งใหม่",
+                    "allow-modification": "อนุญาตให้ผู้ใช้แก้ไขการส่งที่มีอยู่ของพวกเขา",
+                    "enable": "เปิดใช้งาน",
+                    "max-submissions": "การส่งสูงสุด (ปล่อยว่างไว้สำหรับไม่จำกัด)",
+                    "send-confirmation-to-participants": "ส่งอีเมลยืนยันให้กับผู้เข้าร่วม",
+                    "notify-emails": "ส่งสำเนาของข้อมูลไปยังอีเมลที่คั่นด้วยเครื่องหมายจุลภาค",
+                    "web-confirmation-message": "ข้อความยืนยันบนเว็บ (การจัดรูปแบบเปิดใช้งาน)",
+                    "permission-see-own": "ดูการส่งของตัวเอง",
+                    "permission-see-any": "ดูการส่งใด ๆ",
+                    "permission-edit-own": "แก้ไขการส่งของตัวเอง",
+                    "permission-edit-any": "แก้ไขการส่งใด ๆ"
                 },
                 "link-options": {
-                    "standalone": "",
-                    "groups": "",
-                    "all-groups": "",
-                    "tags": "",
-                    "all-tags": ""
+                    "standalone": "สแตนด์อโลน",
+                    "groups": "โปรไฟล์ผู้ใช้",
+                    "all-groups": "สำหรับกลุ่มใด ๆ",
+                    "tags": "เขตข้อมูล discussion",
+                    "all-tags": "สำหรับ tag ใด ๆ"
                 },
-                "auto-discussion-options": "",
-                "email-confirmation-options": "",
-                "email-notification-options": "",
-                "exiting-with-unsaved-data": "",
-                "preview": "",
-                "save-for-preview": ""
+                "auto-discussion-options": "ตัวเลือกสำหรับ discussion ใหม่",
+                "email-confirmation-options": "แม่แบบอีเมลยืนยัน",
+                "email-notification-options": "แม่แบบอีเมลแจ้งเตือน",
+                "exiting-with-unsaved-data": "คุณมีการเปลี่ยนแปลงที่ยังไม่ได้บันทึก คุณต้องการออกจากหน้านี้จริง ๆ หรือไม่",
+                "preview": "ดูตัวอย่างในแท็บใหม่",
+                "save-for-preview": "บันทึกสำหรับตัวอย่าง"
             },
             "show-advanced-attributes-modal": {
-                "title": "",
-                "toggle": "",
-                "close": "",
+                "title": "แสดงแอตทริบิวต์เขตข้อมูลขั้นสูง",
+                "toggle": "สลับทั้งหมด",
+                "close": "ปิด",
                 "attribute": {
-                    "key": "",
-                    "fillPermission": "",
-                    "translationKey": ""
+                    "key": "คีย์",
+                    "fillPermission": "สิทธิ์การกรอก",
+                    "translationKey": "คีย์การแปล"
                 }
             },
             "auto-discussion-options-modal": {
-                "title": "",
-                "introduction": "",
-                "submit": "",
+                "title": "ตัวเลือก discussion อัตโนมัติ",
+                "introduction": "การตั้งค่าเหล่านี้จะนำไปใช้กับ discussion ใหม่ที่สร้างขึ้นโดยอัตโนมัติโดยการส่งแบบฟอร์มที่เชื่อมต่อกับ tag คุณสามารถใช้ค่าจากการส่งแบบฟอร์มโดยใช้ไวยากรณ์ที่มีเครื่องหมายปีกกา ด้วยเขตข้อมูล slug โดยค่าเริ่มต้น { title } และ { content } จะถูกใช้ตามลำดับ\n",
+                "submit": "ยืนยันการเปลี่ยนแปลง",
                 "field": {
-                    "title": "",
-                    "tags": "",
-                    "tags-help": "",
-                    "content": ""
+                    "title": "ชื่อ discussion",
+                    "tags": "Discussion tags",
+                    "tags-help": "รายการ tag slugs ที่คั่นด้วยเครื่องหมายจุลภาค tag ที่เลือกจะถูกเพิ่มนอกเหนือจาก tag ที่เชื่อมต่อแบบฟอร์มนี้\n",
+                    "content": "เนื้อหาการโพสต์"
                 }
             },
             "confirmation-email-options-modal": {
-                "title": "",
-                "submit": "",
+                "title": "แม่แบบอีเมล",
+                "submit": "ยืนยันการเปลี่ยนแปลง",
                 "field": {
-                    "title": "",
-                    "message": ""
+                    "title": "ชื่อเรื่อง",
+                    "message": "เนื้อหา"
                 }
             },
             "save-controls": {
-                "validation-errors": "",
-                "unsaved-changes": "",
-                "saved-at": "",
-                "undo": "",
-                "redo": "",
-                "save": ""
+                "validation-errors": "เราพบข้อผิดพลาดบางประการในการส่งของคุณ",
+                "unsaved-changes": "คุณมีการเปลี่ยนแปลงที่ยังไม่ได้บันทึก",
+                "saved-at": "บันทึกไว้ {ago}",
+                "undo": "ยกเลิก",
+                "redo": "ทำซ้ำ",
+                "save": "บันทึก"
             },
             "permission-controls": {
-                "inherit": "",
-                "everyone_button": "",
-                "disabled_members_button": "",
-                "members_button": ""
+                "inherit": "ใช้ค่าเริ่มต้น",
+                "everyone_button": "=> core.admin.permissions_controls.everyone_button",
+                "disabled_members_button": "สมาชิกที่ยังไม่ได้เปิดใช้งานและระงับ",
+                "members_button": "สมาชิกที่เปิดใช้งาน"
             },
             "template-editor": {
-                "add-field": "",
-                "title": "",
-                "titleTranslationKey": "",
-                "description": "",
-                "descriptionTranslationKey": "",
-                "key": "",
-                "fill-permission": "",
-                "contentTranslationKey": "",
-                "required": "",
-                "rich": "",
-                "min": "",
-                "max": "",
-                "integer": "",
-                "email": "",
-                "regex": "",
-                "mime": "",
-                "other": "",
-                "defaultValue": "",
-                "duplicate": "",
-                "delete": "",
-                "missing-title": "",
-                "no-answer": "",
+                "add-field": "เพิ่มเขตข้อมูล",
+                "title": "ชื่อเรื่อง",
+                "titleTranslationKey": "(ผู้เชี่ยวชาญ) คีย์การแปลชื่อเรื่อง",
+                "description": "คำอธิบาย",
+                "descriptionTranslationKey": "(ผู้เชี่ยวชาญ) คีย์การแปลคำอธิบาย",
+                "key": "(ผู้เชี่ยวชาญ) คีย์ JSON ในเพย์โหลดการส่ง",
+                "fill-permission": "(ผู้เชี่ยวชาญ) สิทธิ์การกรอก",
+                "contentTranslationKey": "(ผู้เชี่ยวชาญ) คีย์การแปลเนื้อหา",
+                "required": "จำเป็น",
+                "rich": "ข้อความหลากหลาย (TextFormatter)",
+                "min": "ขั้นต่ำ",
+                "max": "สูงสุด",
+                "integer": "จำนวนเต็ม",
+                "email": "Email",
+                "regex": "Regular expression",
+                "mime": "ประเภท MIME (คั่นด้วยเครื่องหมายจุลภาค ยอมรับเป็นตัวแทนเป็นส่วนที่สอง)",
+                "other": "อนุญาต \"other\" ค่าของผู้ใช้",
+                "defaultValue": "ค่าเริ่มต้น",
+                "duplicate": "เขตข้อมูลที่ซ้ำกัน",
+                "delete": "ลบเขตข้อมูล",
+                "missing-title": "เขตข้อมูลที่ไม่มีชื่อเรื่อง",
+                "no-answer": "ไม่มีคำตอบ",
                 "type": {
-                    "short": "",
-                    "long": "",
-                    "number": "",
-                    "date": "",
-                    "checkbox": "",
-                    "radio": "",
-                    "select": "",
-                    "upload": "",
-                    "content": "",
-                    "items": ""
+                    "short": "ข้อความสั้น",
+                    "long": "ข้อความยาว",
+                    "number": "ตัวเลข",
+                    "date": "วันที่",
+                    "checkbox": "Checkboxes",
+                    "radio": "Radio",
+                    "select": "Dropdown",
+                    "upload": "Upload",
+                    "content": "เนื้อหา",
+                    "items": "Multi-entries"
                 }
             },
             "options-editor": {
                 "columns": {
-                    "title": "",
-                    "titleTranslationKey": "",
-                    "key": "",
-                    "defaultValue": ""
+                    "title": "ชื่อเรื่อง",
+                    "titleTranslationKey": "(ผู้เชี่ยวชาญ) คีย์การแปล",
+                    "key": "(ผู้เชี่ยวชาญ) คีย์ที่ไม่ซ้ำกัน",
+                    "defaultValue": "ตามค่าเริ่มต้น"
                 },
-                "remove": "",
-                "new-placeholder": ""
+                "remove": "ลบตัวเลือก",
+                "new-placeholder": "ตัวเลือกใหม่..."
             },
             "items-editor": {
-                "add": "",
-                "remove": ""
+                "add": "เพิ่มแถว",
+                "remove": "ลบแถว"
             },
             "upload-editor": {
-                "uploading": "",
-                "remove": ""
+                "uploading": "กำลังอัพโหลด...",
+                "remove": "ลบไฟล์"
             },
             "rich-text": {
-                "preview-placeholder": ""
+                "preview-placeholder": "เริ่มพิมพ์เพื่อดูตัวอย่าง"
             },
             "select": {
-                "choose": ""
+                "choose": "เลือกตัวเลือก"
             },
             "choice": {
-                "other-label": "",
-                "other-placeholder": ""
+                "other-label": "อื่น ๆ:",
+                "other-placeholder": "พิมพ์..."
             },
             "translate": {
-                "switch-tab-to-edit": "",
-                "option-heading": ""
+                "switch-tab-to-edit": "สลับไปที่แท็บแม่แบบเพื่อเปลี่ยนการกำหนดค่าเขตข้อมูล",
+                "option-heading": "ตัวเลือก #{number}"
             },
             "submission": {
-                "form-closed": "",
-                "form-full": "",
-                "edit-forbidden": "",
-                "submitted-successfully": "",
-                "edit-submission": "",
-                "submit-other": "",
-                "unlock": "",
-                "lock": "",
-                "restore": "",
-                "hide": "",
-                "delete": "",
-                "delete-confirmation": ""
+                "form-closed": "แบบฟอร์มนี้ปิดแล้ว",
+                "form-full": "แบบฟอร์มนี้ถึงจำนวนการส่งสูงสุด",
+                "edit-forbidden": "คุณไม่สามารถแก้ไขการส่งนี้ได้อีกต่อไป",
+                "submitted-successfully": "การส่งของคุณได้รับการส่งอย่างสำเร็จ",
+                "edit-submission": "แก้ไขการส่ง",
+                "submit-other": "ส่งอีกครั้ง",
+                "unlock": "ปลดล็อก",
+                "lock": "ล็อก",
+                "restore": "คืนกลับ",
+                "hide": "ลบ",
+                "delete": "ลบอย่างถาวร",
+                "delete-confirmation": "การส่งจาก {date} จะถูกลบอย่างถาวร"
             },
             "submission-index": {
-                "form-edit": "",
-                "form-show": "",
-                "show": "",
-                "guest": "",
-                "load-more": "",
-                "empty": "",
-                "search": "",
-                "export": "",
+                "form-edit": "แก้ไขแบบฟอร์ม",
+                "form-show": "การส่งใหม่",
+                "show": "แสดง",
+                "guest": "แขก",
+                "load-more": "โหลดเพิ่มเติม",
+                "empty": "ยังไม่มีการส่ง",
+                "search": "ค้นหาการส่ง...",
+                "export": "ส่งออก",
                 "columns": {
-                    "date": "",
-                    "user": "",
-                    "actions": ""
+                    "date": "วันที่",
+                    "user": "ผู้ใช้",
+                    "actions": "การกระทำ"
                 }
             },
             "badge": {
-                "locked": "",
-                "hidden": ""
+                "locked": "ล็อก",
+                "hidden": "ซ่อน"
             },
             "error-page": {
-                "denied-title": "",
-                "denied-description": "",
-                "notfound-title": "",
-                "notfound-description": ""
+                "denied-title": "ปฏิเสธการอนุญาต",
+                "denied-description": "ดูเหมือนว่าคุณไม่มีการเข้าถึงเนื้อหานี้ ลองเข้าสู่ระบบ",
+                "notfound-title": "ไม่พบ",
+                "notfound-description": "เนื้อหานี้ไม่มีอยู่ หรืออาจเป็นเพราะคุณไม่มีการเข้าถึง"
             },
             "submission-sort": {
-                "latest": "",
-                "oldest": ""
+                "latest": "การส่งล่าสุด",
+                "oldest": "การส่งเก่าที่สุด"
             },
             "form-sort": {
-                "latest": "",
-                "oldest": ""
+                "latest": "แบบฟอร์มใหม่",
+                "oldest": "แบบฟอร์มเก่าที่สุด"
             },
             "export": {
-                "title": "",
-                "format": "",
-                "heading": "",
-                "fields": "",
-                "meta": "",
-                "more-meta": "",
-                "option-keys": "",
-                "submit": "",
-                "preview": "",
+                "title": "ส่งออกการส่ง",
+                "format": "รูปแบบ",
+                "heading": "หัวเรื่อง / คีย์",
+                "fields": "เขตข้อมูล",
+                "meta": "ข้อมูลเมตา",
+                "more-meta": "ตัวเลือกข้อมูลเมตาเพิ่มเติม",
+                "option-keys": "ส่งออกคีย์ตัวเลือกแทนชื่อ สำหรับ checkboxes, radio และ select",
+                "submit": "ดาวน์โหลด",
+                "preview": "ตัวอย่าง",
                 "format-options": {
-                    "xlsx": "",
-                    "xls": "",
-                    "ods": "",
-                    "csv": "",
-                    "json": ""
+                    "xlsx": "XLSX",
+                    "xls": "XLS",
+                    "ods": "ODS",
+                    "csv": "CSV",
+                    "json": "JSON"
                 },
                 "heading-options": {
-                    "title": "",
-                    "key": "",
-                    "none": ""
+                    "title": "ชื่อเขตข้อมูล",
+                    "key": "คีย์เขตข้อมูล",
+                    "none": "ไม่มีบรรทัดส่วนหัว"
                 },
                 "meta-options": {
-                    "uid": "",
-                    "user_id": "",
-                    "user_username": "",
-                    "user_displayname": "",
-                    "user_email": "",
-                    "user_activated": "",
-                    "user_joined_at": "",
-                    "user_groups": "",
-                    "link_id": "",
-                    "locked_at": "",
-                    "created_at": "",
-                    "updated_at": "",
-                    "hidden_at": ""
+                    "uid": "=> kilowhat-formulaire.ref.submission-meta.uid",
+                    "user_id": "=> kilowhat-formulaire.ref.submission-meta.user_id",
+                    "user_username": "=> kilowhat-formulaire.ref.submission-meta.user_username",
+                    "user_displayname": "=> kilowhat-formulaire.ref.submission-meta.user_displayname",
+                    "user_email": "=> kilowhat-formulaire.ref.submission-meta.user_email",
+                    "user_activated": "=> kilowhat-formulaire.ref.submission-meta.user_activated",
+                    "user_joined_at": "=> kilowhat-formulaire.ref.submission-meta.user_joined_at",
+                    "user_groups": "=> kilowhat-formulaire.ref.submission-meta.user_groups",
+                    "link_id": "=> kilowhat-formulaire.ref.submission-meta.link_id",
+                    "locked_at": "=> kilowhat-formulaire.ref.submission-meta.locked_at",
+                    "created_at": "=> kilowhat-formulaire.ref.submission-meta.created_at",
+                    "updated_at": "=> kilowhat-formulaire.ref.submission-meta.updated_at",
+                    "hidden_at": "=> kilowhat-formulaire.ref.submission-meta.hidden_at"
                 },
                 "preview-primitives": {
-                    "excel-date": "",
-                    "boolean-true": "",
-                    "boolean-false": ""
+                    "excel-date": "(EXCEL DATE)",
+                    "boolean-true": true,
+                    "boolean-false": false
                 }
             },
             "discussion-submission": {
-                "empty": "",
-                "edit": ""
+                "empty": "ยังไม่มีข้อมูล",
+                "edit": "แก้ไข"
             },
             "discussion-composer": {
                 "field": {
-                    "tags": "",
-                    "poll": "",
-                    "title": "",
-                    "content": ""
+                    "tags": "Tags",
+                    "poll": "Poll",
+                    "title": "ชื่อเรื่อง",
+                    "content": "ข้อความ"
                 }
             }
         },
         "api": {
-            "formatter-parsing-error": "",
-            "not-allowed-to-fill-field": "",
-            "duplicate-field-key": "",
-            "cannot-change-form-type": "",
-            "unknown-form": "",
-            "unauthorized-form": "",
-            "unauthorized-scoped-form": "",
-            "unsupported-discussion-form": "",
-            "file-already-belongs-form": "",
-            "file-already-belongs-submission": "",
+            "formatter-parsing-error": "ไม่สามารถแยกวิเคราะห์เนื้อหา: {message}",
+            "not-allowed-to-fill-field": "คุณไม่ได้รับอนุญาตให้เปลี่ยนค่าของเขตข้อมูลนี้",
+            "duplicate-field-key": "คีย์ควรไม่ซ้ำกัน",
+            "cannot-change-form-type": "คุณไม่สามารถเปลี่ยนประเภทของแบบฟอร์มที่มีการส่งอยู่",
+            "unknown-form": "ไม่รู้จักรหัส form {id}",
+            "unauthorized-form": "คุณไม่มีสิทธิ์ที่จำเป็นในการกรอก form ID {id}",
+            "unauthorized-scoped-form": "คุณไม่สามารถกรอก form ID {id} ด้วยการรวมกัน tag ปัจจุบัน",
+            "unsupported-discussion-form": "คุณไม่สามารถกรอก form ID {id} ในประเภท discussion นี้",
+            "file-already-belongs-form": "ไฟล์ {id} อยู่ในแบบฟอร์มอื่น",
+            "file-already-belongs-submission": "ไฟล์ {id} อยู่ในการส่งอื่น",
             "export": {
                 "meta": {
-                    "uid": "",
-                    "user_id": "",
-                    "user_username": "",
-                    "user_displayname": "",
-                    "user_email": "",
-                    "user_activated": "",
-                    "user_joined_at": "",
-                    "user_groups": "",
-                    "link_id": "",
-                    "locked_at": "",
-                    "created_at": "",
-                    "updated_at": "",
-                    "hidden_at": ""
+                    "uid": "=> kilowhat-formulaire.ref.submission-meta.uid",
+                    "user_id": "=> kilowhat-formulaire.ref.submission-meta.user_id",
+                    "user_username": "=> kilowhat-formulaire.ref.submission-meta.user_username",
+                    "user_displayname": "=> kilowhat-formulaire.ref.submission-meta.user_displayname",
+                    "user_email": "=> kilowhat-formulaire.ref.submission-meta.user_email",
+                    "user_activated": "=> kilowhat-formulaire.ref.submission-meta.user_activated",
+                    "user_joined_at": "=> kilowhat-formulaire.ref.submission-meta.user_joined_at",
+                    "user_groups": "=> kilowhat-formulaire.ref.submission-meta.user_groups",
+                    "link_id": "=> kilowhat-formulaire.ref.submission-meta.link_id",
+                    "locked_at": "=> kilowhat-formulaire.ref.submission-meta.locked_at",
+                    "created_at": "=> kilowhat-formulaire.ref.submission-meta.created_at",
+                    "updated_at": "=> kilowhat-formulaire.ref.submission-meta.updated_at",
+                    "hidden_at": "=> kilowhat-formulaire.ref.submission-meta.hidden_at"
                 }
             }
         },
         "mail": {
-            "title-your-submission": "",
-            "title-new-submission": "",
-            "edit": "",
-            "footer": "",
-            "sub-entries": "",
-            "no-answer": ""
+            "title-your-submission": "การส่งของคุณสำหรับ {title}",
+            "title-new-submission": "การส่งใหม่สำหรับ {title}",
+            "edit": "แก้ไข",
+            "footer": "ส่งจาก {title}",
+            "sub-entries": "{count} รายการ",
+            "no-answer": "ไม่มีคำตอบ"
         },
         "ref": {
-            "manager": "",
+            "manager": "ตัวจัดการแบบฟอร์ม",
             "type": {
-                "standalone": "",
-                "discussion": "",
-                "user": ""
+                "standalone": "แบบฟอร์มแบบสแตนด์อโลน",
+                "discussion": "เขตข้อมูล discussion",
+                "user": "โปรไฟล์ผู้ใช้"
             },
             "permissions": {
-                "fill": "",
-                "seeOwnUser": "",
-                "seeAnyUser": "",
-                "editOwnUser": "",
-                "editAnyUser": "",
-                "seeOwnDiscussion": "",
-                "seeAnyDiscussion": "",
-                "editOwnDiscussion": "",
-                "editAnyDiscussion": ""
+                "fill": "กรอกแบบฟอร์มแบบสแตนด์อโลน",
+                "seeOwnUser": "ดูเขตข้อมูลโปรไฟล์ของตัวเอง",
+                "seeAnyUser": "ดูเขตข้อมูลโปรไฟล์ของใครก็ได้",
+                "editOwnUser": "แก้ไขเขตข้อมูลโปรไฟล์ของตัวเอง",
+                "editAnyUser": "แก้ไขเขตข้อมูลโปรไฟล์ของใครก็ได้",
+                "seeOwnDiscussion": "ดูเขตข้อมูล discussion ของตัวเอง",
+                "seeAnyDiscussion": "ดูเขตข้อมูล discussion ของใครก็ได้",
+                "editOwnDiscussion": "แก้ไขเขตข้อมูล discussion ของตัวเอง",
+                "editAnyDiscussion": "แก้ไขเขตข้อมูล discussion ของใครก็ได้"
             },
             "submission-meta": {
-                "uid": "",
-                "user_id": "",
-                "user_username": "",
-                "user_displayname": "",
-                "user_email": "",
-                "user_activated": "",
-                "user_joined_at": "",
-                "user_groups": "",
-                "link_id": "",
-                "locked_at": "",
-                "created_at": "",
-                "updated_at": "",
-                "hidden_at": ""
+                "uid": "รหัส submission",
+                "user_id": "รหัสผู้ใช้",
+                "user_username": "ชื่อผู้ใช้",
+                "user_displayname": "ชื่อแสดงผู้ใช้",
+                "user_email": "อีเมลผู้ใช้",
+                "user_activated": "บัญชีที่เปิดใช้งาน",
+                "user_joined_at": "วันที่ผู้ใช้เข้าร่วม",
+                "user_groups": "กลุ่มผู้ใช้",
+                "link_id": "รหัสทรัพยากรที่เชื่อมต่อ",
+                "locked_at": "วันที่ล็อก",
+                "created_at": "วันที่สร้าง",
+                "updated_at": "วันที่อัพเดต",
+                "hidden_at": "วันที่ลบแบบ Soft Deletion"
             }
         }
     }

@@ -2,45 +2,45 @@
     "jeromegillard-map": {
         "admin": {
             "templates": {
-                "map": "",
-                "file_description": ""
+                "map": "Map",
+                "file_description": "แสดงแผนที่ใน flarum ไฟล์เดิมจะพร้อมให้ download ผู้ให้บริการ tiles และ style จะเป็นอันที่กำหนดในการตั้งค่าส่วนขยาย <b>คุณต้องติดตั้ง flarum/bbcode และเปิดใช้งานเพื่อให้ทำงาน</b>"
             },
             "settings": {
                 "tiles_provider": {
-                    "label": "",
-                    "help": ""
+                    "label": "ผู้ให้บริการ tiles layer เริ่มต้น",
+                    "help": "เลือกผู้ให้บริการของชั้น tiles ที่ปรากฏในพื้นหลัง"
                 },
                 "zoom": {
-                    "label": "",
-                    "help": ""
+                    "label": "ระดับ zoom เริ่มต้น",
+                    "help": "จำนวนเต็มใด ๆ ตั้งแต่ 0 ถึง 18"
                 },
                 "style": {
-                    "label": "",
-                    "help": ""
+                    "label": "ลักษณะเริ่มต้นสำหรับ {provider}",
+                    "help": "เลือกลักษณะแผนที่ <a>ดูลักษณะของพวกเขา</a>"
                 },
                 "maptiler": {
-                    "label": "",
-                    "help": ""
+                    "label": "MapTiler token",
+                    "help": "ลงทะเบียนฟรีที่ <a>maptiler.com</a> เพื่อรับ token โปรดเคารพ <b>copyrights</b> ของพวกเขา"
                 },
                 "osm": {
-                    "help": ""
+                    "help": "OpenStreetMap tiles เหมาะสำหรับการเขียนโปรแกรมแผนที่ของคุณ แต่อ่าน <a>Tile Usage Policy</a> ของ OpenStreetMap หากคุณจะใช้ tiles ในการผลิต"
                 },
                 "mapbox": {
-                    "label": "",
-                    "help": ""
+                    "label": "Mapbox key",
+                    "help": "ลงทะเบียนฟรีที่ <a>mapbox.com</a> เพื่อรับ token โปรดเคารพ <b>copyrights</b> ของพวกเขา"
                 },
                 "thunderforest": {
-                    "label": "",
-                    "help": ""
+                    "label": "Thunderforest API key",
+                    "help": "ลงทะเบียนฟรีที่ <a>thunderforest.com</a> เพื่อรับ API key โปรดเคารพ <b>terms of usage</b> ของพวกเขา"
                 }
             }
         },
         "forum": {
             "text_editor": {
-                "bbcode_tooltip": "",
-                "location_placeholder": "",
-                "marker_title_placeholder": "",
-                "marker_description_placeholder": ""
+                "bbcode_tooltip": "แทรกแผนที่",
+                "location_placeholder": "ที่อยู่",
+                "marker_title_placeholder": "ชื่อเครื่องหมาย",
+                "marker_description_placeholder": "เนื้อหาป๊อปอัปของเครื่องหมาย ปล่อยชื่อและคำอธิบายให้ว่างเปล่าเพื่อซ่อนเครื่องหมาย"
             }
         }
     }

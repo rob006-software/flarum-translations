@@ -2,23 +2,23 @@
     "clarkwinkelmann-clippy": {
         "admin": {
             "settings": {
-                "cdn": "",
+                "cdn": "CDN",
                 "cdn-options": {
-                    "s3": "",
-                    "jsdelivr": "",
-                    "custom": ""
+                    "s3": "Amazon S3",
+                    "jsdelivr": "jsDelivr",
+                    "custom": "กำหนดเอง"
                 },
-                "path": "",
-                "path-help": "",
-                "agent": "",
-                "agent-help": "",
-                "events": "",
-                "events-help": ""
+                "path": "CDN Path กำหนดเอง",
+                "path-help": "URL แบบเต็มที่ไม่มี trailing slash ชี้ไปยังโฟลเดอร์ที่มีเนื้อหาของ <a>clippy.js repository</a>",
+                "agent": "Agent",
+                "agent-help": "แต่ละ Agent มีชุดแอนิเมชันที่แตกต่างกัน การเปลี่ยน Agent จะลบแอนิเมชันที่เข้ากันไม่ได้ออกจากการตั้งค่าของคุณ",
+                "events": "Events",
+                "events-help": "เลือกแอนิเมชันและกล่องข้อความที่จะแสดงในแต่ละ event"
             },
             "events": {
-                "name": "",
-                "animation": "",
-                "text": ""
+                "name": "Event",
+                "animation": "แอนิเมชัน",
+                "text": "ข้อความ"
             }
         }
     }

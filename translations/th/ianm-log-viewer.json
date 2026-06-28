@@ -2,24 +2,24 @@
     "ianm-log-viewer": {
         "admin": {
             "permissions": {
-                "access_logfile_api": ""
+                "access_logfile_api": "ดู"
             },
             "settings": {
-                "max-file-size": "",
-                "max-file-size-help": "",
-                "purge-days": "",
-                "purge-days-help": ""
+                "max-file-size": "ไฟล์",
+                "max-file-size-help": "ปิดใช้งาน",
+                "purge-days": "ไฟล์",
+                "purge-days-help": "ปิดใช้งาน"
             },
             "viewer": {
-                "available_logs_heading": "",
-                "file_contents_heading": "",
-                "file_size": "",
-                "last_updated": "",
-                "no_file_selected": "",
-                "view_log": "",
-                "download_log": "",
-                "delete_log": "",
-                "confirm_delete": ""
+                "available_logs_heading": "ไฟล์",
+                "file_contents_heading": "เนื้อหา",
+                "file_size": "ขนาด",
+                "last_updated": "อัปเดต",
+                "no_file_selected": "ดู",
+                "view_log": "ดู",
+                "download_log": "ดาวน์โหลด",
+                "delete_log": "ลบ",
+                "confirm_delete": "ลบ"
             }
         }
     }
