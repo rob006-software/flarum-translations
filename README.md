@@ -1040,6 +1040,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`resofire-menu-control`](https://weblate.rob006.net/projects/flarum2/resofire-menu-control) | [`resofire/menu-control`](https://github.com/ResofireV2/menu-control) |
 | [`resofire-mobile-search`](https://weblate.rob006.net/projects/flarum2/resofire-mobile-search) | [`resofire/mobile-search`](https://github.com/ResofireV2/mobile-search) |
 | [`rob006-last-post-avatar`](https://weblate.rob006.net/projects/flarum2/rob006-last-post-avatar) | [`rob006/flarum-ext-last-post-avatar`](https://github.com/rob006-software/flarum-ext-last-post-avatar) |
+| [`shebaoting-avatar`](https://weblate.rob006.net/projects/flarum2/shebaoting-avatar) | [`shebaoting/flarum-avatar`](https://github.com/shebaoting/flarum-avatar) |
 | [`shebaoting-dependency-collector`](https://weblate.rob006.net/projects/flarum2/shebaoting-dependency-collector) | [`shebaoting/flarum-dependency-collector`](https://github.com/shebaoting/flarum-dependency-collector) |
 | [`shebaoting-money`](https://weblate.rob006.net/projects/flarum2/shebaoting-money) | [`shebaoting/flarum-money`](https://github.com/shebaoting/flarum-money) |
 | [`shebaoting-repost`](https://weblate.rob006.net/projects/flarum2/shebaoting-repost) | [`shebaoting/flarum-repost`](https://github.com/shebaoting/flarum-repost) |
