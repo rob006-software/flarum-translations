@@ -849,7 +849,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/Yippy/flarum-tag-with-themes/v2.0.3/locale/en.yml',
 	],
 	'zephyrisle-fof-formatting-pro' => [
-		'tag' => 'https://raw.githubusercontent.com/Zephyr-Isle/fof-formatting-pro/v2.0-dev/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/Zephyr-Isle/fof-formatting-pro/v2.0.2/resources/locale/en.yml',
 		'__builtInLanguages' => [
 			'zh_Hans',
 		],
