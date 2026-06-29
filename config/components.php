@@ -752,6 +752,12 @@ return [
 			'pl',
 		],
 	],
+	'shebaoting-avatar' => [
+		'tag' => 'https://raw.githubusercontent.com/shebaoting/flarum-avatar/2.0.9/locale/en.yml',
+		'__builtInLanguages' => [
+			'zh_Hans',
+		],
+	],
 	'shebaoting-dependency-collector' => [
 		'tag' => 'https://raw.githubusercontent.com/shebaoting/flarum-dependency-collector/v2.0.2/locale/en.yml',
 		'__builtInLanguages' => [
