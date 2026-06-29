@@ -440,6 +440,12 @@ return [
 	'fof-webhooks' => [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/webhooks/2.0.0-beta.3/resources/locale/en.yml',
 	],
+	'forumaker-arena' => [
+		'tag' => 'https://raw.githubusercontent.com/forumaker/Arena/2.0.1/locale/en.yml',
+		'__builtInLanguages' => [
+			'ru',
+		],
+	],
 	'forumaker-bento' => [
 		'tag' => 'https://raw.githubusercontent.com/forumaker/Bento/2.5.5/resources/locale/en.yml',
 		'__builtInLanguages' => [
