@@ -1,0 +1,74 @@
+{
+    "ernestdefoe-janitor": {
+        "admin": {
+            "settings": {
+                "dry_run": "",
+                "dry_run_help": "",
+                "cap": "",
+                "cap_help": ""
+            },
+            "rules": {
+                "title": "",
+                "help": "",
+                "none": "",
+                "add": "",
+                "preview": "",
+                "run": "",
+                "in_tags": "",
+                "in_all": "",
+                "older_than": "",
+                "with_tags": "",
+                "without_tags": "",
+                "ran": "",
+                "ran_dry": "",
+                "capped": "",
+                "confirm_delete": "",
+                "edit": "",
+                "new": "",
+                "name": "",
+                "enabled": "",
+                "scope": "",
+                "scope_help": "",
+                "conditions": "",
+                "action": "",
+                "action_tags": "",
+                "action_tags_help": "",
+                "frequency": "",
+                "save": "",
+                "delete_warn": "",
+                "no_tags": ""
+            },
+            "cond": {
+                "age_days": "",
+                "age_basis": "",
+                "basis_last_post": "",
+                "basis_created": "",
+                "has_tags": "",
+                "lacks_tags": "",
+                "min_replies": "",
+                "max_replies": "",
+                "replies": ""
+            },
+            "action": {
+                "hide": "",
+                "delete": "",
+                "lock": "",
+                "unlock": "",
+                "add_tag": "",
+                "remove_tag": "",
+                "move": ""
+            },
+            "freq": {
+                "every_run": "",
+                "hourly": "",
+                "daily": "",
+                "weekly": ""
+            },
+            "log": {
+                "title": "",
+                "none": "",
+                "dry": ""
+            }
+        }
+    }
+}

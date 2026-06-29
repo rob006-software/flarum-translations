@@ -1,0 +1,74 @@
+{
+    "ernestdefoe-janitor": {
+        "admin": {
+            "settings": {
+                "dry_run": "Global dry-run",
+                "dry_run_help": "When on, all rules (including the scheduler and the Run button) only PREVIEW — they log what they would do but change nothing. Turn off to let rules act for real.",
+                "cap": "Max actions per run",
+                "cap_help": "Safety limit — the most discussions a single rule will act on in one run. Default 100."
+            },
+            "rules": {
+                "title": "Rules",
+                "help": "Each rule periodically looks inside the chosen tags for discussions matching its conditions, then applies an action. The scheduler runs due rules automatically (requires cron: php flarum schedule:run); you can also run any rule on demand below.",
+                "none": "No rules yet. Add one to start automating cleanup.",
+                "add": "New rule",
+                "preview": "Preview",
+                "run": "Run now",
+                "in_tags": "in {tags}",
+                "in_all": "in all tags",
+                "older_than": "inactive {days}d ({basis})",
+                "with_tags": "with {tags}",
+                "without_tags": "without {tags}",
+                "ran": "Done — acted on {n} discussion(s).",
+                "ran_dry": "Preview — {n} discussion(s) matched (nothing changed).",
+                "capped": "Hit the per-run cap; run again to continue.",
+                "confirm_delete": "Delete the rule “{name}”?",
+                "edit": "Edit rule",
+                "new": "New rule",
+                "name": "Rule name",
+                "enabled": "Enabled",
+                "scope": "Look inside tags",
+                "scope_help": "The discussion must carry at least one of these tags. Leave empty to scan every tag.",
+                "conditions": "Match when…",
+                "action": "Then…",
+                "action_tags": "Target tags",
+                "action_tags_help": "For move: discussions get these tags and lose the scope tags above. For add/remove: these tags are added/removed.",
+                "frequency": "Run frequency",
+                "save": "Save rule",
+                "delete_warn": "Permanent deletion can’t be undone. Prefer Hide or Move unless you’re sure. Every action is capped and logged.",
+                "no_tags": "No tags exist yet (install/enable Tags to scope rules)."
+            },
+            "cond": {
+                "age_days": "Inactive for (days)",
+                "age_basis": "Measured by",
+                "basis_last_post": "last activity",
+                "basis_created": "creation date",
+                "has_tags": "Also has tags",
+                "lacks_tags": "Does not have tags",
+                "min_replies": "Min replies",
+                "max_replies": "Max replies",
+                "replies": "replies"
+            },
+            "action": {
+                "hide": "Hide",
+                "delete": "Delete permanently",
+                "lock": "Lock",
+                "unlock": "Unlock",
+                "add_tag": "Add tag",
+                "remove_tag": "Remove tag",
+                "move": "Move (retag)"
+            },
+            "freq": {
+                "every_run": "Every run (~15 min)",
+                "hourly": "Hourly",
+                "daily": "Daily",
+                "weekly": "Weekly"
+            },
+            "log": {
+                "title": "Recent actions",
+                "none": "Nothing logged yet.",
+                "dry": "preview"
+            }
+        }
+    }
+}
