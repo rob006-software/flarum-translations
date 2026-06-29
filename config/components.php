@@ -785,6 +785,18 @@ return [
 			'zh_Hans',
 		],
 	],
+	'stezkoy-noui-tele-notify' => [
+		'tag' => 'https://raw.githubusercontent.com/Stezkoy/noui-tele-notify/1.0.0/locale/en.yml',
+		'__builtInLanguages' => [
+			'de',
+			'fr',
+			'it',
+			'pl',
+			'ru',
+			'tr',
+			'zh_Hans',
+		],
+	],
 	'sycho-advanced-extension-categories' => [
 		'tag' => 'https://raw.githubusercontent.com/SychO9/flarum-advanced-extension-categories/v0.2.1/locale/en.yml',
 	],
