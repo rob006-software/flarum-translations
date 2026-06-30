@@ -722,6 +722,12 @@ return [
 			'pt_BR',
 		],
 	],
+	'ramon-mybb-migrator' => [
+		'tag' => 'https://raw.githubusercontent.com/ram0ng1/mybb-migrator/2.0.19/locale/en.yml',
+		'__builtInLanguages' => [
+			'pt_BR',
+		],
+	],
 	'ramon-point-system' => [
 		'tag' => 'https://raw.githubusercontent.com/ram0ng1/point-system/v2.1.5/locale/en.yml',
 		'__builtInLanguages' => [
