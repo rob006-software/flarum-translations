@@ -973,6 +973,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`forumaker-yandex-smartcaptcha`](https://weblate.rob006.net/projects/flarum2/forumaker-yandex-smartcaptcha) | [`forumaker/yandex-smartcaptcha`](https://github.com/forumaker/Yandex-SmartCaptcha) |
 | [`gitzaai-cnsearch`](https://weblate.rob006.net/projects/flarum2/gitzaai-cnsearch) | [`gitzaai/cnsearch`](https://github.com/gitzaai/cnsearch) |
 | [`glowingblue-password-strength`](https://weblate.rob006.net/projects/flarum2/glowingblue-password-strength) | [`glowingblue/password-strength`](https://github.com/glowingblue/flarum-ext-password-strength) |
+| [`huoxin-filter-rule-manager`](https://weblate.rob006.net/projects/flarum2/huoxin-filter-rule-manager) | [`huoxin/filter-rule-manager`](https://github.com/huoxin233/flarum-ext-filter-rule-manager) |
 | [`huoxin-money-with-history`](https://weblate.rob006.net/projects/flarum2/huoxin-money-with-history) | [`huoxin/money-with-history`](https://github.com/huoxin233/flarum-ext-money-with-history) |
 | [`huoxin-relative-url`](https://weblate.rob006.net/projects/flarum2/huoxin-relative-url) | [`huoxin/relative-url`](https://github.com/huoxin233/flarum-ext-relative-url) |
 | [`huseyinfiliz-awards`](https://weblate.rob006.net/projects/flarum2/huseyinfiliz-awards) | [`huseyinfiliz/awards`](https://github.com/huseyinfiliz/awards) |
