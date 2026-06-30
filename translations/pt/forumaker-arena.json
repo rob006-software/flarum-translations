@@ -1,0 +1,470 @@
+{
+    "forumaker-arena": {
+        "forum": {
+            "challenge": {
+                "btn": ""
+            },
+            "badge": {
+                "tooltip": ""
+            },
+            "settings": {
+                "section_label": "",
+                "show_stats_profile": "",
+                "show_stats_posts": "",
+                "notify_battle_started_label": "",
+                "notify_battle_ended_label": "",
+                "notify_draw_proposed_label": "",
+                "notify_draw_cancelled_label": ""
+            },
+            "how_to_play": {
+                "btn": ""
+            },
+            "surrender": {
+                "btn": "",
+                "title": "",
+                "confirm_text": "",
+                "confirm_btn": "",
+                "cancel_btn": "",
+                "error": ""
+            },
+            "propose_draw": {
+                "btn": "",
+                "title": "",
+                "confirm_text": "",
+                "confirm_btn": "",
+                "cancel_btn": "",
+                "waiting_title": "",
+                "waiting_subtitle": "",
+                "error": "",
+                "cancel_proposal_btn": "",
+                "cancel_error": ""
+            },
+            "respond_draw": {
+                "title": "",
+                "text": "",
+                "pending_title": "",
+                "pending_subtitle": "",
+                "respond_btn": "",
+                "accept_btn": "",
+                "decline_btn": "",
+                "error": "",
+                "player_fallback": ""
+            },
+            "notifications": {
+                "battle_started_text": "",
+                "battle_ended_text": "",
+                "battle_ended_winner_text": "",
+                "draw_proposed_text": "",
+                "draw_cancelled_text": ""
+            },
+            "challenge_modal": {
+                "title": "",
+                "no_deck": "",
+                "build_deck": "",
+                "hp_label": "",
+                "mana_label": "",
+                "turns_label": "",
+                "per_turn_label": "",
+                "turn_time_value": "",
+                "opponent_label": "",
+                "search_placeholder": "",
+                "searching": "",
+                "submit": "",
+                "error_generic": ""
+            },
+            "card_slider": {
+                "timer_title": "",
+                "no_cards": "",
+                "main_card": "",
+                "bonus_card": "",
+                "need_bonus": "",
+                "need_elemental": "",
+                "submit_turn": "",
+                "time_hours": "",
+                "time_minutes": ""
+            },
+            "user": {
+                "arena_tab": ""
+            },
+            "battle": {
+                "player_fallback": "",
+                "turn_heading": ""
+            },
+            "battle_start": {
+                "first_turn": "",
+                "first_turn_subtitle": ""
+            },
+            "battle_wait": {
+                "waiting": "",
+                "played": ""
+            },
+            "battle_turn": {
+                "heading": "",
+                "chip_element": "",
+                "chip_surge": "",
+                "chip_weaken": "",
+                "chip_shield": "",
+                "chip_resonance": "",
+                "chip_sacrifice": "",
+                "win_title": "",
+                "draw_title": "",
+                "hp_out_subtitle": "",
+                "cards_out_subtitle": "",
+                "mana_out_subtitle": "",
+                "mana_deadlock_subtitle": "",
+                "bonus_fallback": "",
+                "bonus_card_label": "",
+                "stat_fraction": "",
+                "atk_label": "",
+                "def_label": "",
+                "effect_result": {
+                    "heal": "",
+                    "shield": "",
+                    "regeneration": "",
+                    "dot_damage": "",
+                    "weaken_tick": "",
+                    "reflect": "",
+                    "power_surge": "",
+                    "debuff_remove": "",
+                    "overload": "",
+                    "mana_steal": "",
+                    "sacrifice_heal": "",
+                    "swap_stats": "",
+                    "amplify_poison": "",
+                    "amplify_weaken": ""
+                }
+            },
+            "battle_surrender": {
+                "title": "",
+                "subtitle": ""
+            },
+            "battle_draw": {
+                "title": "",
+                "subtitle": ""
+            },
+            "battle_expired": {
+                "title": "",
+                "title_generic": "",
+                "subtitle": "",
+                "subtitle_generic": ""
+            },
+            "battle_next": {
+                "whos_turn": ""
+            },
+            "profile": {
+                "stats": {
+                    "wins": "",
+                    "losses": "",
+                    "draws": "",
+                    "winrate": ""
+                },
+                "override": {
+                    "title": "",
+                    "help": "",
+                    "max_hp": "",
+                    "max_mana": "",
+                    "history_btn": "",
+                    "save_btn": "",
+                    "saved": "",
+                    "error": ""
+                },
+                "deck": {
+                    "title": "",
+                    "subtitle": "",
+                    "count_fraction": "",
+                    "elemental_half": "",
+                    "bonus_half": "",
+                    "add_elemental": "",
+                    "add_bonus": "",
+                    "saved": "",
+                    "error": "",
+                    "save_btn": ""
+                },
+                "sections": {
+                    "elemental": "",
+                    "elemental_subtitle": "",
+                    "elemental_subtitle_link": "",
+                    "bonus": "",
+                    "bonus_subtitle": ""
+                },
+                "battle_lock": "",
+                "filter": {
+                    "all_elements": "",
+                    "all_effects": "",
+                    "hide_added": "",
+                    "show_all": ""
+                },
+                "card_backs": {
+                    "title": "",
+                    "subtitle": "",
+                    "none": "",
+                    "slot": "",
+                    "requires_wins": "",
+                    "error": ""
+                }
+            },
+            "override_history": {
+                "title": "",
+                "field_max_hp": "",
+                "field_max_mana": "",
+                "empty": "",
+                "col_date": "",
+                "col_field": "",
+                "col_old": "",
+                "col_new": "",
+                "col_actor": "",
+                "default_value": "",
+                "close_btn": ""
+            },
+            "elements_guide": {
+                "title": "",
+                "intro": ""
+            }
+        },
+        "admin": {
+            "edit": "",
+            "delete": "",
+            "new_card": "",
+            "permissions": {
+                "challenge": "",
+                "build_deck": "",
+                "view_decks": "",
+                "manage_overrides": "",
+                "view_stats": "",
+                "manage_cards": ""
+            },
+            "cards": {
+                "tab": "",
+                "search_placeholder": "",
+                "empty": "",
+                "empty_filtered": "",
+                "filter_all_types": "",
+                "filter_bonus": "",
+                "group_elemental": "",
+                "group_bonus": "",
+                "col_name": "",
+                "col_type": "",
+                "inactive_badge": "",
+                "filter_reset": "",
+                "confirm_delete": "",
+                "error_delete": "",
+                "error_order": ""
+            },
+            "battles": {
+                "tab": "",
+                "refresh": "",
+                "recalculate": "",
+                "open": "",
+                "close": "",
+                "confirm": "",
+                "cancel": "",
+                "empty": "",
+                "winner_label": "",
+                "filter_all_battles": "",
+                "filter_turns_placeholder": "",
+                "col_id": "",
+                "col_players": "",
+                "col_status": "",
+                "col_turn": "",
+                "col_created": "",
+                "outcome_draw": "",
+                "status_active": "",
+                "status_completed": "",
+                "status_expired": "",
+                "status_surrendered": "",
+                "status_draw": "",
+                "closed": "",
+                "already_deleted": "",
+                "already_inactive": "",
+                "error_close": "",
+                "confirm_delete": "",
+                "deleted": "",
+                "error_delete": "",
+                "cannot_delete_active": ""
+            },
+            "card_backs": {
+                "tab": "",
+                "title": "",
+                "help": "",
+                "name_label": "",
+                "name_placeholder": "",
+                "unnamed": "",
+                "upload": "",
+                "uploaded": "",
+                "upload_error": "",
+                "threshold_label": "",
+                "add": "",
+                "added": "",
+                "error_add": "",
+                "error_save": "",
+                "confirm_delete": "",
+                "error_delete": "",
+                "error_load": ""
+            },
+            "settings": {
+                "tab": "",
+                "save": "",
+                "saved": "",
+                "error": "",
+                "battle_tag_title": "",
+                "battle_tag_label": "",
+                "battle_tag_help": "",
+                "battle_tag_none": "",
+                "battle_params_title": "",
+                "battle_params_help": "",
+                "max_hp": "",
+                "max_mana": "",
+                "max_turns": "",
+                "badge_title": "",
+                "badge_help": "",
+                "badge_color": "",
+                "badge_icon": "",
+                "badge_preview": "",
+                "how_to_play_title": "",
+                "how_to_play_help": "",
+                "how_to_play_url": "",
+                "how_to_play_new_tab": "",
+                "allow_draw": "",
+                "style_title": "",
+                "style_help": "",
+                "style_target": "",
+                "style_color": "",
+                "style_icon": "",
+                "style_preview": ""
+            },
+            "card_edit": {
+                "title_new": "",
+                "title_edit": "",
+                "error_no_name": "",
+                "error_save": "",
+                "active_label": "",
+                "inactive_help": "",
+                "type_label": "",
+                "type_elemental": "",
+                "type_bonus": "",
+                "name_label": "",
+                "elemental_name_placeholder": "",
+                "bonus_name_placeholder": "",
+                "description_label": "",
+                "description_placeholder": "",
+                "image_label": "",
+                "image_url_placeholder": "",
+                "file_selected": "",
+                "upload_btn": "",
+                "element_label": "",
+                "attack_label": "",
+                "defense_label": "",
+                "effect_label": "",
+                "effect_value_label": "",
+                "preview_hint": "",
+                "preview_name_placeholder": "",
+                "preview_effect_placeholder": "",
+                "preview_desc_placeholder": "",
+                "create_btn": "",
+                "save_btn": "",
+                "default_prefix": "",
+                "clear_btn": ""
+            },
+            "recalculate": {
+                "title": "",
+                "warning": "",
+                "run_btn": "",
+                "cancel_btn": "",
+                "in_progress_warning": "",
+                "in_progress": "",
+                "progress_label": "",
+                "success": "",
+                "battles_processed": "",
+                "users_affected": "",
+                "close_btn": "",
+                "error": "",
+                "retry_btn": ""
+            }
+        },
+        "lib": {
+            "stats": {
+                "mana": "",
+                "hp": "",
+                "wins": "",
+                "losses": "",
+                "draws": ""
+            },
+            "elements": {
+                "fire": "",
+                "wind": "",
+                "lightning": "",
+                "earth": "",
+                "water": ""
+            },
+            "bonus_effects": {
+                "heal": "",
+                "shield": "",
+                "regeneration": "",
+                "poison": "",
+                "weaken": "",
+                "reflect": "",
+                "mana_steal": "",
+                "power_surge": "",
+                "debuff_remove": "",
+                "overload": "",
+                "resonance": "",
+                "sacrifice": "",
+                "swap_stats": "",
+                "random_effect": "",
+                "amplify": ""
+            },
+            "bonus_effect_descriptions": {
+                "heal": "",
+                "shield": "",
+                "regeneration": "",
+                "poison": "",
+                "weaken": "",
+                "reflect": "",
+                "mana_steal": "",
+                "power_surge": "",
+                "debuff_remove": "",
+                "overload": "",
+                "resonance": "",
+                "sacrifice": "",
+                "swap_stats": "",
+                "random_effect": "",
+                "amplify": ""
+            },
+            "errors": {
+                "battle_not_found": "",
+                "battle_already_finished": "",
+                "not_participant": "",
+                "self_challenge": "",
+                "opponent_not_found": "",
+                "deck_incomplete_self": "",
+                "deck_incomplete_opponent": "",
+                "battle_already_active": "",
+                "card_not_found": "",
+                "file_not_uploaded": "",
+                "invalid_image_type": "",
+                "file_too_large": "",
+                "draw_disabled": "",
+                "draw_already_proposed": "",
+                "draw_not_proposed": "",
+                "cant_respond_own_proposal": "",
+                "cancel_not_own_proposal": "",
+                "deck_size": "",
+                "deck_inactive_cards": "",
+                "deck_composition": "",
+                "deck_locked_active_battle": "",
+                "not_your_turn": "",
+                "cant_play_bonus_as_main": "",
+                "not_enough_mana": "",
+                "card_not_in_deck": "",
+                "card_already_played": "",
+                "need_one_main_one_bonus": "",
+                "bonus_card_not_found": "",
+                "card_not_bonus": "",
+                "bonus_card_not_in_deck": "",
+                "bonus_card_already_played": ""
+            },
+            "battle_title": "",
+            "card_back_default_name": ""
+        }
+    }
+}
