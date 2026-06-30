@@ -720,7 +720,7 @@ return [
 		],
 	],
 	'ramon-mybb-migrator' => [
-		'tag' => 'https://raw.githubusercontent.com/ram0ng1/mybb-migrator/2.0.18/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ram0ng1/mybb-migrator/2.0.19/locale/en.yml',
 		'__builtInLanguages' => [
 			'pt_BR',
 		],
