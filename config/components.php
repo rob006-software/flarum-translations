@@ -784,6 +784,9 @@ return [
 	'fof-top-posters-widget' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/top-posters-widget/1.0.0/locale/en.yml',
 	],
+	'fof-upgrade-advisor' => [
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/upgrade-advisor/1.0.1/locale/en.yml',
+	],
 	'fof-upload' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/upload/1.9.0/resources/locale/en.yml',
 	],
