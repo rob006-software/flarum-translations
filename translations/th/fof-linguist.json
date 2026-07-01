@@ -2,117 +2,117 @@
     "fof-linguist": {
         "admin": {
             "permissions": {
-                "view_string_keys": "ดู key ของ translation string"
+                "view_string_keys": "ดูคีย์ข้อความแปลภาษา (Translation String Keys)"
             },
             "tabs": {
-                "strings": "การแปล",
-                "coverage": "ความครอบคลุม",
-                "export": "Export",
-                "import": "Import"
+                "strings": "ข้อความแปลภาษา",
+                "coverage": "ความครอบคลุมคำแปล",
+                "export": "ส่งออก (Export)",
+                "import": "นำเข้า (Import)"
             },
             "buttons": {
-                "apply": "บันทึก",
-                "reset": "คืนค่าต้นฉบับ",
-                "copy-original": "คัดลอกข้อความต้นฉบับ",
+                "apply": "นำไปใช้",
+                "reset": "คืนค่าข้อความดั้งเดิม",
+                "copy-original": "คัดลอกข้อความดั้งเดิม",
                 "load-more": "โหลดเพิ่มเติม",
-                "delete-redundant": "ลบการแปลที่ซ้ำซ้อน",
-                "delete-redundant-confirm": "การดำเนินการนี้จะลบ {count} การแปลที่มีค่าต้นฉบับและค่าที่กำหนดเองเหมือนกัน ซึ่งเป็นประโยชน์สำหรับการทำความสะอาดหลังอัปเดต language pack\n",
-                "delete-all": "ลบการแปลทั้งหมด",
-                "delete-all-confirm": "การดำเนินการนี้จะลบการแปลที่กำหนดเองของคุณทั้งหมด {count} รายการ กรุณา export หรือสำรองข้อมูลที่ต้องการเก็บไว้ก่อน\n"
+                "delete-redundant": "ลบคำแปลที่ซ้ำซ้อน",
+                "delete-redundant-confirm": "การดำเนินการนี้จะลบคำแปลจำนวน {count} รายการที่มีค่าข้อความดั้งเดิมและค่าที่กำหนดเองตรงกัน ซึ่งมีประโยชน์สำหรับการล้างข้อมูลขยะหลังจากอัปเดตแพ็กเกจภาษา (Language Pack)\n",
+                "delete-all": "ลบคำแปลทั้งหมด",
+                "delete-all-confirm": "การดำเนินการนี้จะลบคำแปลที่กำหนดเองของคุณทั้งหมด {count} รายการ โปรดตรวจสอบให้แน่ใจว่าคุณได้ส่งออก (Export) หรือสำรองข้อมูลคำแปลที่สำคัญเก็บไว้ก่อนแล้ว\n"
             },
             "locales": {
-                "all": "ทั้งหมด"
+                "all": "ทุกภาษา"
             },
             "placeholder": {
                 "not-translated": "ยังไม่ได้แปล",
                 "all-locales": "ข้อความที่กำหนดไว้ที่นี่จะแสดงในทุกภาษา",
-                "hint": "ค่าต้นฉบับ:"
+                "hint": "ข้อความดั้งเดิม:"
             },
             "filters": {
-                "search": "ค้นหา translation string...",
-                "with-own-translations": "การแปลของฉัน",
-                "missing": "ค้นหาการแปลที่ขาดหาย",
-                "missing-middle-label": "การแปลใน",
+                "search": "ค้นหาข้อความแปลภาษา...",
+                "with-own-translations": "คำแปลของฉัน",
+                "missing": "ค้นหาคำแปลที่ขาดหาย",
+                "missing-middle-label": "คำแปลใน",
                 "negation-options": {
                     "with": "มี",
                     "without": "ไม่มี"
                 },
                 "type-options": {
-                    "any": "ต้นฉบับหรือกำหนดเอง",
-                    "original": "ต้นฉบับ",
-                    "own": "กำหนดเอง"
+                    "any": "ดั้งเดิมหรือที่กำหนดเอง",
+                    "original": "ข้อความดั้งเดิม",
+                    "own": "ที่กำหนดเอง"
                 },
                 "operation-options": {
                     "or": "อย่างใดอย่างหนึ่ง",
                     "and": "ทั้งหมด"
                 },
-                "for-extension": "สำหรับ extension",
-                "frontend": "สำหรับ frontend",
-                "frontend-all-except-admin": "ทั้งหมดยกเว้น Admin",
+                "for-extension": "ระบุส่วนขยาย (Extension)",
+                "frontend": "ระบุส่วนหน้า (Frontend)",
+                "frontend-all-except-admin": "ทุกส่วนยกเว้นระบบหลังบ้าน (Admin)",
                 "mass-edit": "แก้ไขจำนวนมาก",
-                "results": "แสดง {shown} จาก {total} การแปลที่ตรงกัน"
+                "results": "แสดงคำแปลที่ตรงกัน {shown} จากทั้งหมด {total} รายการ"
             },
             "clear-cache": {
-                "text": "การแปลใหม่ยังไม่ถูกนำไปใช้ หมายเหตุ: การล้าง cache อาจทำให้ forum ช้าลงชั่วคราว\n",
-                "button": "ล้าง cache ตอนนี้"
+                "text": "ข้อความแปลภาษาใหม่ยังไม่มีผลใช้งานในขณะนี้ หมายเหตุ: การล้างแคช (Cache) อาจทำให้บอร์ดสนทนาโหลดช้าลงชั่วขณะ\n",
+                "button": "ล้างแคชตอนนี้"
             },
             "coverage": {
                 "column-options": {
-                    "locale": "ตามภาษา",
-                    "namespace": "ตาม frontend"
+                    "locale": "จัดกลุ่มตามภาษา",
+                    "namespace": "จัดกลุ่มตามส่วนแสดงผล (Frontend)"
                 },
                 "total-options": {
-                    "percent": "เปอร์เซ็นต์",
-                    "count": "จำนวน"
+                    "percent": "สัดส่วนร้อยละ (%)",
+                    "count": "จำนวนรายการ"
                 },
                 "columns": {
-                    "namespace": "Namespace",
-                    "total": "รวม",
-                    "all-except-admin": "Forum และ frontend อื่นๆ",
-                    "all-frontends": "แสดง frontend ทั้งหมด"
+                    "namespace": "กลุ่มระบบ (Namespace)",
+                    "total": "รวมทั้งหมด",
+                    "all-except-admin": "บอร์ดสนทนาและส่วนแสดงผลทั่วไป",
+                    "all-frontends": "แสดงส่วนหน้าทั้งหมด"
                 },
                 "count": {
                     "percent": "{percent} %",
                     "total": "{translated} / {total}",
-                    "details": "รวม {total} / ต้นฉบับ {original} / กำหนดเอง {custom}"
+                    "details": "ทั้งหมด {total} รายการ / ข้อความดั้งเดิม {original} รายการ / ข้อความกำหนดเอง {custom} รายการ"
                 },
                 "all-namespaces": "ทั้งหมด",
-                "apply-missing-filter": "แสดงการแปลที่ขาดหายที่ตรงกัน"
+                "apply-missing-filter": "แสดงคำแปลที่ตรงกันที่ขาดหายอยู่"
             },
             "export": {
-                "title": "Export",
-                "warning": "รูปแบบ export ใช้ไฟล์ translation แบบ Yaml ของ Flarum และออกแบบมาเพื่อแชร์การแปลระหว่าง forum และผู้ดูแล language pack รูปแบบนี้ไม่ได้ออกแบบมาสำหรับย้ายการแปลทั้งหมดไปยัง forum ใหม่ ขึ้นอยู่กับการใช้งาน การ copy ฐานข้อมูลตรงๆ อาจเป็นทางเลือกที่ดีกว่า\n",
-                "locale": "Locale",
-                "locale-all": "Pseudo-locale \"All\"",
-                "namespace": "Namespace",
+                "title": "ส่งออก (Export)",
+                "warning": "รูปแบบการส่งออก (Export) จะใช้รูปแบบไฟล์ภาษา Yaml ของ Flarum ออกแบบมาสำหรับการแบ่งปันและแลกเปลี่ยนไฟล์ภาษาระหว่างบอร์ดและผู้ดูแลแพ็กเกจภาษา รูปแบบนี้ไม่ได้ออกแบบมาสำหรับการย้ายข้อมูลภาษาทั้งหมดไปยังบอร์ดใหม่ หากต้องการทำเช่นนั้น การคัดลอกฐานข้อมูลโดยตรงอาจเป็นทางเลือกที่ดีกว่า\n",
+                "locale": "ภาษา (Locale)",
+                "locale-all": "ภาษาเสมือน (Pseudo-locale) \"ทั้งหมด\"",
+                "namespace": "กลุ่มระบบ (Namespace)",
                 "namespace-all": "ทั้งหมด",
-                "include-originals": "รวมการแปลต้นฉบับ",
-                "include-all": "รวมการแปลที่กำหนดสำหรับภาษา \"ทั้งหมด\"",
-                "output": "Output",
-                "output-loading": "กำลังโหลด output...",
-                "output-empty": "Output ว่างเปล่า",
-                "download": "Download"
+                "include-originals": "รวมข้อความดั้งเดิมด้วย",
+                "include-all": "รวมข้อความที่กำหนดสำหรับ \"ทุกภาษา\"",
+                "output": "ผลลัพธ์การส่งออก",
+                "output-loading": "กำลังโหลดข้อมูล...",
+                "output-empty": "ผลลัพธ์ว่างเปล่า",
+                "download": "ดาวน์โหลดไฟล์"
             },
             "import": {
-                "title": "Import",
-                "input": "Input",
-                "input-placeholder": "ลากวางหรือวาง Yaml file ที่นี่",
-                "locale": "Locale",
-                "locale-all": "Pseudo-locale \"All\"",
-                "override-existing": "เขียนทับการแปลที่กำหนดเองที่มีอยู่",
-                "submit": "Import",
-                "results": "การ import เสร็จสมบูรณ์ นำเข้า {imported} string และข้ามไป {identical} string ที่เหมือนกัน หน้าจะ refresh เพื่อแสดงการแปลใหม่\n",
-                "results-with-ignore": "การ import เสร็จสมบูรณ์ นำเข้า {imported} string ข้าม {ignored} string ที่มีอยู่ และข้าม {identical} string ที่เหมือนกัน หน้าจะ refresh เพื่อแสดงการแปลใหม่\n"
+                "title": "นำเข้า (Import)",
+                "input": "อินพุต (Input)",
+                "input-placeholder": "ลากไฟล์มาวาง หรือวางโค้ดเนื้อหาของไฟล์ Yaml ที่นี่",
+                "locale": "ภาษา (Locale)",
+                "locale-all": "ภาษาเสมือน (Pseudo-locale) \"ทั้งหมด\"",
+                "override-existing": "เขียนทับข้อความแปลภาษาที่กำหนดเองเดิมที่มีอยู่",
+                "submit": "นำเข้าข้อมูล",
+                "results": "การนำเข้าเสร็จสมบูรณ์เรียบร้อยแล้ว มีข้อความถูกนำเข้าจำนวน {imported} รายการ และได้ข้ามข้อความที่เหมือนกันไป {identical} รายการ หน้าเว็บนี้จะทำการรีเฟรชใหม่โดยอัตโนมัติเพื่อแสดงคำแปลล่าสุด\n",
+                "results-with-ignore": "การนำเข้าเสร็จสมบูรณ์เรียบร้อยแล้ว มีข้อความถูกนำเข้าจำนวน {imported} รายการ ข้ามข้อความเดิม {ignored} รายการ และข้ามข้อความที่เหมือนกันไป {identical} รายการ หน้าเว็บนี้จะทำการรีเฟรชใหม่โดยอัตโนมัติเพื่อแสดงคำแปลล่าสุด\n"
             },
             "known-namespace": {
-                "core": "Flarum Core",
-                "validation": "ข้อผิดพลาดการตรวจสอบ"
+                "core": "ระบบหลัก Flarum (Core)",
+                "validation": "ข้อผิดพลาดการตรวจสอบความถูกต้อง"
             },
             "known-frontend": {
-                "forum": "Forum",
-                "admin": "Admin",
-                "lib": "Lib (ใช้ทั้งใน Forum และ Admin)",
-                "ref": "Ref (ใช้ซ้ำใน key อื่น)",
+                "forum": "บอร์ดสนทนา (Forum)",
+                "admin": "ระบบหลังบ้าน (Admin)",
+                "lib": "คลังร่วม Lib (ใช้ทั้งระบบหลังบ้านและหน้าบอร์ด)",
+                "ref": "คีย์อ้างอิง Ref (ใช้ซ้ำในจุดอื่น)",
                 "api": "API"
             }
         }

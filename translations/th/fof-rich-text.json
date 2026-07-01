@@ -2,49 +2,49 @@
     "fof-rich-text": {
         "admin": {
             "settings": {
-                "toggle_on_editor": "แก้ไข"
+                "toggle_on_editor": "แสดงปุ่มสำหรับสลับโหมดเขียนข้อความแบบ Rich Text บนแถบเครื่องมือเขียนโพสต์หรือไม่?"
             }
         },
         "lib": {
             "composer": {
-                "toggle_button": "ข้อความ",
-                "insert_button": "แทรก",
+                "toggle_button": "สลับโหมดเขียนข้อความแบบ Rich Text",
+                "insert_button": "แทรกข้อมูล",
                 "insert_image": {
-                    "src_placeholder": "link",
-                    "title_placeholder": "ชื่อเรื่อง"
+                    "src_placeholder": "ลิงก์รูปภาพ",
+                    "title_placeholder": "ชื่อรูปภาพ"
                 },
                 "insert_link": {
-                    "text_placeholder": "ข้อความ",
-                    "href_placeholder": "URL",
-                    "title_placeholder": "แสดง",
-                    "remove_button": "นำออก"
+                    "text_placeholder": "ข้อความที่จะแสดงผล",
+                    "href_placeholder": "ที่อยู่ลิงก์ URL",
+                    "title_placeholder": "คำอธิบายลิงก์ (แสดงขึ้นเมื่อวางเมาส์ชี้)",
+                    "remove_button": "ลบลิงก์ออก"
                 },
-                "additional_items_tooltip": "เพิ่ม",
-                "bold_tooltip": "ข้อความ",
-                "code_tooltip": "Inline code <{modifierKey}-`>",
-                "code_block_tooltip": "แทรก",
-                "header_tooltip": "ถึง",
-                "horizontal_rule_tooltip": "แทรก",
-                "image_tooltip": "เพิ่ม",
-                "italic_tooltip": "ข้อความ",
-                "link_tooltip": "เพิ่ม",
-                "ordered_list_tooltip": "Numbered list <shift-{modifierKey}-9>",
-                "paragraph_tooltip": "Change to paragraph <shift-{modifierKey}-0>",
-                "quote_tooltip": "Insert a quote <{modifierKey}-q>",
-                "spoiler_block_tooltip": "Block Spoiler/Dropdown",
-                "spoiler_inline_tooltip": "Spoiler <{modifierKey}-;>",
-                "strike_tooltip": "Strikethrough <alt-shift-5>",
-                "sub_tooltip": "Subscript <{modifierKey}-,>",
-                "sup_tooltip": "Superscript <{modifierKey}-.>",
-                "text_type_tooltip": "เลือก",
-                "unordered_list_tooltip": "Bulleted list <shift-{modifierKey}-8>"
+                "additional_items_tooltip": "เครื่องมือควบคุมเพิ่มเติม",
+                "bold_tooltip": "ทำตัวหนา <{modifierKey}-b>",
+                "code_tooltip": "แทรกโค้ดแบบในบรรทัด (Inline Code) <{modifierKey}-`>",
+                "code_block_tooltip": "แทรกบล็อกโค้ด (Code Block)",
+                "header_tooltip": "เปลี่ยนเป็นหัวข้อขนาดระดับ {level} <shift-{modifierKey}-{level}>",
+                "horizontal_rule_tooltip": "แทรกเส้นแบ่งแนวนอน",
+                "image_tooltip": "แทรกรูปภาพ",
+                "italic_tooltip": "ทำตัวเอียง <{modifierKey}-i>",
+                "link_tooltip": "แทรกหน้าลิงก์เชื่อมโยง",
+                "ordered_list_tooltip": "สร้างรายการแบบระบุลำดับตัวเลข <shift-{modifierKey}-9>",
+                "paragraph_tooltip": "เปลี่ยนกลับเป็นย่อหน้าข้อความธรรมดา <shift-{modifierKey}-0>",
+                "quote_tooltip": "แทรกกล่องอ้างอิงข้อความ <{modifierKey}-q>",
+                "spoiler_block_tooltip": "แทรกสปอยเลอร์แบบกล่องซ่อนเนื้อหา",
+                "spoiler_inline_tooltip": "แทรกสปอยเลอร์ซ่อนคำพูดแบบในบรรทัด <{modifierKey}-;>",
+                "strike_tooltip": "ขีดเส้นทับข้อความ (Strikethrough) <alt-shift-5>",
+                "sub_tooltip": "ทำตัวห้อย (Subscript) <{modifierKey}-,>",
+                "sup_tooltip": "ทำตัวยก (Superscript) <{modifierKey}-.>",
+                "text_type_tooltip": "เลือกรูปแบบข้อความแสดงผล",
+                "unordered_list_tooltip": "สร้างรายการแบบสัญลักษณ์จุดหัวข้อ <shift-{modifierKey}-8>"
             }
         },
         "forum": {
             "settings": {
-                "composer_heading": "Composer",
-                "use_rich_text_editor_label": "ใช้ rich text editor?",
-                "rich_text_compact_paragraphs_label": "ไม่ต้องแยกย่อหน้าด้วย newline"
+                "composer_heading": "กล่องเขียนข้อความ (Composer)",
+                "use_rich_text_editor_label": "ใช้กล่องเขียนข้อความโหมด Rich Text เป็นค่าเริ่มต้น?",
+                "rich_text_compact_paragraphs_label": "ไม่ต้องสร้างเว้นบรรทัดว่างเปล่าขนาดใหญ่เมื่อกดเว้นวรรคขึ้นย่อหน้าใหม่"
             }
         }
     }

@@ -2,45 +2,45 @@
     "fof-subscribed": {
         "forum": {
             "settings": {
-                "defaults_label": "ตั้งให้ \"{setting}\" เปิดโดยค่าเริ่มต้น",
-                "forced_label": "บังคับเปิด \"{setting}\" สำหรับทุกคน",
-                "notify_discussion_created_label": "มีคนสร้างโพสต์ใหม่",
-                "notify_post_created_label": "มีคนตอบกลับโพสต์",
-                "notify_post_unapproved_label": "มีโพสต์ที่รอการอนุมัติ",
-                "notify_user_created_label": "มีสมาชิกใหม่สมัครเข้ามา",
-                "notify_post_flagged_label": "มีคนรายงานโพสต์"
+                "defaults_label": "กำหนดให้เปิดใช้งาน \"{setting}\" เป็นค่าเริ่มต้นสำหรับผู้ใช้ใหม่",
+                "forced_label": "บังคับให้เปิดใช้งาน \"{setting}\" สำหรับผู้ใช้ทุกคน",
+                "notify_discussion_created_label": "เมื่อมีผู้ตั้งโพสต์ใหม่",
+                "notify_post_created_label": "เมื่อมีผู้ตอบโพสต์หรือเขียนตอบกลับใหม่",
+                "notify_post_unapproved_label": "เมื่อมีโพสต์ส่งเข้ามาใหม่ที่ต้องรอการตรวจสอบและอนุมัติ",
+                "notify_user_created_label": "เมื่อมีสมาชิกใหม่ลงทะเบียนเข้าสู่ระบบ",
+                "notify_post_flagged_label": "เมื่อมีผู้อื่นรายงานความไม่เหมาะสมในโพสต์"
             },
             "notifications": {
-                "discussion_created_text": "{username} ได้สร้างโพสต์ใหม่",
+                "discussion_created_text": "{username} ได้ตั้งโพสต์ใหม่",
                 "post_created_text": "{username} ได้เขียนโพสต์ใหม่",
-                "post_unapproved_text": "{username} สร้างโพสต์ที่รอการอนุมัติ",
-                "user_created_text": "{username} เพิ่งสมัครสมาชิก",
-                "post_flagged_text": "{username} รายงานโพสต์"
+                "post_unapproved_text": "{username} ได้เขียนโพสต์ใหม่ที่ต้องตรวจสอบและอนุมัติ",
+                "user_created_text": "{username} เพิ่งลงทะเบียนเป็นสมาชิกใหม่",
+                "post_flagged_text": "{username} ได้รายงานโพสต์ว่าไม่เหมาะสม"
             }
         },
         "admin": {
             "permission": {
-                "subscribe_to_discussion_created": "รับการแจ้งเตือนเมื่อมีโพสต์ใหม่",
-                "subscribe_to_post_created": "รับการแจ้งเตือนเมื่อมีการตอบกลับใหม่",
-                "subscribe_to_post_unapproved": "รับการแจ้งเตือนเมื่อมีโพสต์รอการอนุมัติ",
-                "subscribe_to_user_created": "รับการแจ้งเตือนเมื่อมีสมาชิกใหม่",
-                "subscribe_to_post_flagged": "รับการแจ้งเตือนเมื่อมีการรายงานโพสต์"
+                "subscribe_to_discussion_created": "สิทธิ์ในการรับการแจ้งเตือนเมื่อมีผู้ตั้งโพสต์ใหม่",
+                "subscribe_to_post_created": "สิทธิ์ในการรับการแจ้งเตือนเมื่อมีโพสต์หรือตอบกลับใหม่",
+                "subscribe_to_post_unapproved": "สิทธิ์ในการรับการแจ้งเตือนเมื่อมีโพสต์ที่รอการตรวจสอบอนุมัติ",
+                "subscribe_to_user_created": "สิทธิ์ในการรับการแจ้งเตือนเมื่อมีผู้ใช้ใหม่ลงทะเบียน",
+                "subscribe_to_post_flagged": "สิทธิ์ในการรับการแจ้งเตือนเมื่อมีผู้ส่งรายงานแจ้งลบโพสต์"
             }
         },
         "email": {
             "subject": {
-                "newDiscussion": "[ติดตาม | โพสต์ใหม่] {title}",
-                "newUser": "[ติดตาม | สมาชิกใหม่] {username}",
-                "postUnapproved": "[ติดตาม | รอการอนุมัติ] {username} โพสต์ใน {title}",
-                "postCreated": "[ติดตาม | โพสต์ใหม่] {username} เขียนโพสต์ใหม่ใน {title}",
-                "postFlagged": "[ติดตาม | รายงานโพสต์] {username} รายงานโพสต์ใน {title}"
+                "newDiscussion": "[ติดตามระบบ | โพสต์ใหม่] {title}",
+                "newUser": "[ติดตามระบบ | สมาชิกใหม่] {username}",
+                "postUnapproved": "[ติดตามระบบ | รอการอนุมัติ] {username} โพสต์ในโพสต์ {title}",
+                "postCreated": "[ติดตามระบบ | โพสต์ใหม่] {username} ตอบกลับในโพสต์ {title}",
+                "postFlagged": "[ติดตามระบบ | รายงานโพสต์] {username} รายงานโพสต์ในโพสต์ {title}"
             },
             "body": {
-                "newDiscussion": "สวัสดี {recipient_display_name},\n\n{actor_display_name} ได้สร้างโพสต์ใหม่: {discussion_title}\n\nดูโพสต์ได้ที่:\n{discussion_url}\n\n---\n\n{post_content}\n",
-                "newUser": "สวัสดี {recipient_display_name},\n\n{actor_display_name} เพิ่งเข้าร่วม {forum_url}\n\nดูโปรไฟล์ได้ที่:\n{user_url}\n",
-                "postUnapproved": "สวัสดี {recipient_display_name},\n\n{actor_display_name} สร้างโพสต์ที่ยังไม่ได้รับการอนุมัติใน {discussion_title}\n\nดูโพสต์ได้ที่:\n{post_url}\n\n---\n\n{post_content}\n",
-                "postCreated": "สวัสดี {recipient_display_name},\n\n{actor_display_name} เพิ่งเขียนโพสต์ใหม่ใน {discussion_title}\n\nดูโพสต์ได้ที่:\n{post_url}\n\n---\n\n{post_content}\n",
-                "postFlagged": "สวัสดี {recipient_display_name},\n\n{actor_display_name} รายงานโพสต์ใน {discussion_title}\n\nดูโพสต์ได้ที่:\n{post_url}\n"
+                "newDiscussion": "สวัสดีคุณ {recipient_display_name},\n\n{actor_display_name} ได้เริ่มต้นตั้งโพสต์ใหม่หัวข้อ: {discussion_title}\n\nคุณสามารถเข้าเปิดดูเนื้อหาของโพสต์ใหม่นี้ได้โดยผ่านลิงก์เชื่อมโยงด้านล่างนี้:\n{discussion_url}\n\n---\n\n{post_content}\n",
+                "newUser": "สวัสดีคุณ {recipient_display_name},\n\n{actor_display_name} ได้ลงทะเบียนเข้าเป็นสมาชิกใหม่ของ {forum_url} เรียบร้อยแล้ว\n\nคุณสามารถเข้าเปิดดูข้อมูลโปรไฟล์ของสมาชิกใหม่รายนี้ได้โดยผ่านลิงก์ด้านล่างนี้:\n{user_url}\n",
+                "postUnapproved": "สวัสดีคุณ {recipient_display_name},\n\n{actor_display_name} ได้สร้างโพสต์ใหม่ในโพสต์ {discussion_title} ซึ่งโพสต์นี้ยังไม่ได้รับการอนุมัติระบบในทันทีและต้องรอการตรวจสอบ\n\nคุณสามารถเข้าเปิดดูรายละเอียดเพื่อทำการตรวจสอบและอนุมัติโพสต์นี้ได้โดยคลิกลิงก์อ้างอิงด้านล่างนี้:\n{post_url}\n\n---\n\n{post_content}\n",
+                "postCreated": "สวัสดีคุณ {recipient_display_name},\n\n{actor_display_name} ได้เขียนข้อความตอบกลับใหม่ในโพสต์ {discussion_title}\n\nคุณสามารถเข้าเปิดดูรายละเอียดของโพสต์ตอบกลับใหม่นี้ได้โดยคลิกลิงก์อ้างอิงด้านล่างนี้:\n{post_url}\n\n---\n\n{post_content}\n",
+                "postFlagged": "สวัสดีคุณ {recipient_display_name},\n\n{actor_display_name} ได้ส่งรายงานข้อบกพร่อง/ไม่เหมาะสมของโพสต์ในโพสต์ {discussion_title}\n\nคุณสามารถเข้าเปิดดูรายละเอียดเพื่อตรวจสอบข้อร้องเรียนรายงานนี้ได้โดยคลิกลิงก์อ้างอิงด้านล่างนี้:\n{post_url}\n"
             }
         }
     }

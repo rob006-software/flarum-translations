@@ -1,67 +1,67 @@
 {
     "fof-oauth": {
         "admin": {
-            "configure_button_label": "ตั้งค่าด้วย FoF OAuth",
-            "settings_accessibility_label": "การตั้งค่า {name}",
+            "configure_button_label": "กำหนดค่าผู้ให้บริการด้วย FoF OAuth",
+            "settings_accessibility_label": "การตั้งค่าสำหรับ {name}",
             "permissions": {
-                "moderate_user_providers": "จัดการบัญชีที่เชื่อมโยงของผู้ใช้"
+                "moderate_user_providers": "จัดการบัญชีภายนอกที่เชื่อมโยงอยู่ของผู้ใช้"
             },
             "settings": {
                 "advanced": {
-                    "heading": "ขั้นสูง",
-                    "log-oauth-errors-label": "บันทึกข้อผิดพลาด OAuth",
-                    "log-oauth-errors-help": "หากเปิดใช้ ข้อผิดพลาด OAuth จะถูกบันทึกในไฟล์ log ของ Flarum ซึ่งอาจช่วยในการแก้ไขปัญหา OAuth แต่อาจมีข้อมูลที่ละเอียดอ่อนด้วย"
+                    "heading": "การตั้งค่าขั้นสูง",
+                    "log-oauth-errors-label": "บันทึกข้อมูลข้อผิดพลาดของ OAuth",
+                    "log-oauth-errors-help": "หากเปิดใช้งาน รายละเอียดข้อผิดพลาดของการระบุตัวตน (OAuth Errors) จะถูกบันทึกไว้ในระบบบันทึกของ Flarum ซึ่งช่วยในการดีบั๊กตรวจหาปัญหา แต่อาจมีข้อมูลสำคัญที่เป็นความลับปะปนอยู่ด้วย"
                 },
-                "only_icons_label": "แสดงเฉพาะไอคอนปุ่ม Login (รูปแบบสลับ)",
-                "update_email_from_provider_label": "อัปเดต Email จาก Provider",
-                "update_email_from_provider_help": "หากเปิดใช้ Email ของผู้ใช้จะถูกอัปเดตตาม Provider OAuth ทุกครั้งที่เข้าสู่ระบบ ไม่ใช่ทุก Provider ที่ให้ Email ที่อัปเดต ในกรณีนั้นการตั้งค่านี้จะไม่มีผล",
-                "disable_avatars_label": "ปิดใช้รูปโปรไฟล์จาก Provider",
-                "disable_avatars_help": "หากเปิดใช้ รูปโปรไฟล์ของผู้ใช้จะไม่ถูกอัปเดตตาม Provider เมื่อสมัครสมาชิก โปรดทราบว่าจะมีผลเฉพาะการสมัครในอนาคต ไม่เปลี่ยนรูปของผู้ใช้ที่มีอยู่\n",
-                "fullscreen_popup_label": "ใช้ Popup แบบเต็มหน้าจอสำหรับ OAuth",
-                "fullscreen_popup_help": "เมื่อเปิดใช้ การเข้าสู่ระบบ OAuth จะเปิดในหน้าต่าง Popup แบบเต็มหน้าจอ หากเปิดใช้ การตั้งค่าความกว้างและความสูงจะถูกละเว้น",
-                "popup_width_label": "ความกว้าง Popup OAuth",
-                "popup_width_help": "กำหนดความกว้างของหน้าต่าง Popup OAuth การตั้งค่านี้จะถูกละเว้นหากเปิดใช้ \"ใช้ Popup แบบเต็มหน้าจอ\"",
-                "popup_height_label": "ความสูง Popup OAuth",
-                "popup_height_help": "กำหนดความสูงของหน้าต่าง Popup OAuth การตั้งค่านี้จะถูกละเว้นหากเปิดใช้ \"ใช้ Popup แบบเต็มหน้าจอ\"",
+                "only_icons_label": "แสดงเฉพาะปุ่มรูปไอคอนเท่านั้น (การจัดวางรูปแบบทางเลือก)",
+                "update_email_from_provider_label": "อัปเดตอีเมลของผู้ใช้จากผู้ให้บริการระบบโดยอัตโนมัติ",
+                "update_email_from_provider_help": "หากเปิดใช้งาน ที่อยู่อีเมลของผู้ใช้บนบอร์ดจะได้รับการปรับปรุงตามข้อมูลล่าสุดจากผู้ให้บริการ OAuth ทุกครั้งที่ทำการล็อกอินเข้าสู่ระบบ ทั้งนี้ผู้ให้บริการบางรายอาจไม่ได้ให้ข้อมูลอีเมลที่เปลี่ยนใหม่ ซึ่งการตั้งค่านี้จะไม่มีผลการเปลี่ยนแปลงกับผู้ให้บริการรายนั้นๆ",
+                "disable_avatars_label": "ปิดใช้งานการดึงรูปโปรไฟล์จากผู้ให้บริการระบบ",
+                "disable_avatars_help": "หากเปิดใช้งาน รูปภาพแทนตัว (Avatar) ของผู้ใช้จะไม่ได้รับการอัปเดตตามรูปโปรไฟล์ของผู้ให้บริการระบบเมื่อสมัครสมาชิกใหม่ ทั้งนี้จะส่งผลต่อผู้ที่สมัครสมาชิกใหม่ในอนาคตเท่านั้น โดยไม่เปลี่ยนรูปโปรไฟล์ปัจจุบันของผู้ใช้ที่มีอยู่แล้ว\n",
+                "fullscreen_popup_label": "แสดงหน้าต่างป๊อปอัปแบบเต็มหน้าจอ (Fullscreen Popup)",
+                "fullscreen_popup_help": "เมื่อเปิดใช้งาน หน้าต่างการล็อกอินผ่าน OAuth จะแสดงขึ้นเป็นหน้าต่างป๊อปอัปเต็มหน้าจอ โดยข้อกำหนดความกว้างและความสูงของป๊อปอัปด้านล่างจะถูกละเว้นไป",
+                "popup_width_label": "ความกว้างของหน้าต่างป๊อปอัป OAuth",
+                "popup_width_help": "กำหนดความกว้างของหน้าต่างป๊อปอัป (จะถูกละเว้นหากเปิดใช้งานการแสดงแบบเต็มหน้าจอ)",
+                "popup_height_label": "ความสูงของหน้าต่างป๊อปอัป OAuth",
+                "popup_height_help": "กำหนดความสูงของหน้าต่างป๊อปอัป (จะถูกละเว้นหากเปิดใช้งานการแสดงแบบเต็มหน้าจอ)",
                 "providers": {
-                    "callback_url_text": "หากจำเป็น ให้กำหนด Callback URL เป็น {url}",
-                    "group_label": "กำหนดกลุ่ม",
-                    "group_help": "เลือกกลุ่มที่จะกำหนดอัตโนมัติให้ผู้ใช้ที่สมัครผ่าน Provider นี้",
-                    "no_group_label": "ไม่กำหนดกลุ่ม",
+                    "callback_url_text": "กรุณากำหนดค่าที่อยู่ Callback URL เป็น {url} บนระบบผู้ให้บริการหากจำเป็น",
+                    "group_label": "จัดกลุ่มผู้ใช้อัตโนมัติ",
+                    "group_help": "เลือกกลุ่มผู้ใช้ที่จะกำหนดให้โดยอัตโนมัติแก่ผู้ที่สมัครใช้งานผ่านผู้ให้บริการรายนี้",
+                    "no_group_label": "ไม่ต้องกำหนดกลุ่มผู้ใช้",
                     "discord": {
-                        "description": "สร้าง App ได้ที่ {link} เพิ่ม Redirect URL ในแท็บ OAuth2",
+                        "description": "สร้างแอปพลิเคชันของคุณได้ที่ {link} และระบุ Redirect URL ในหน้าแท็บ OAuth2",
                         "client_id_label": "=> fof-oauth.ref.settings.client_id",
                         "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
                     },
                     "facebook": {
-                        "description": "สร้าง App ได้ที่ {link}",
+                        "description": "สร้างแอปพลิเคชันของคุณได้ที่ {link}",
                         "app_id_label": "=> fof-oauth.ref.settings.app_id",
                         "app_secret_label": "=> fof-oauth.ref.settings.app_secret"
                     },
                     "github": {
-                        "description": "สร้าง OAuth App ได้ที่ {link}",
+                        "description": "สร้างแอปพลิเคชัน OAuth ได้ที่ {link}",
                         "client_id_label": "=> fof-oauth.ref.settings.client_id",
                         "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
                     },
                     "gitlab": {
-                        "description": "สร้าง Application ได้ที่ {link} กำหนด Scope <code>read_user</code> ให้กับ Application",
+                        "description": "สร้างแอปพลิเคชันของคุณได้ที่ {link} โดยกำหนดขอบเขตสิทธิ์การใช้งาน (Scope) เป็น <code>read_user</code>",
                         "client_id_label": "=> fof-oauth.ref.settings.app_id",
                         "client_secret_label": "=> fof-oauth.ref.settings.app_secret",
-                        "domain_label": "GitLab Domain"
+                        "domain_label": "โดเมนระบบ GitLab"
                     },
                     "twitter": {
-                        "description": "สร้าง App ได้ที่ {link} คุณต้องกำหนด URL นโยบายการให้บริการและนโยบายความเป็นส่วนตัว จากนั้นเพิ่มสิทธิ์ขอ Email",
+                        "description": "สร้างแอปพลิเคชันของคุณได้ที่ {link} คุณจำเป็นต้องระบุหน้าข้อตกลงการใช้งาน (Terms of Service) และนโยบายความเป็นส่วนตัว (Privacy Policy) รวมถึงเปิดสิทธิ์ขอข้อมูลอีเมลของผู้ใช้ในแอปด้วย",
                         "api_key_label": "API Key",
                         "api_secret_label": "API Secret"
                     },
                     "google": {
-                        "description": "สร้าง Application ได้ที่ {link}",
+                        "description": "สร้างแอปพลิเคชันของคุณได้ที่ {link}",
                         "client_id_label": "=> fof-oauth.ref.settings.client_id",
                         "client_secret_label": "=> fof-oauth.ref.settings.client_secret",
-                        "hosted_domain_label": "Hosted Domain (G suite/Google Apps for Business, ไม่บังคับ)"
+                        "hosted_domain_label": "โดเมนเฉพาะ Hosted Domain (G Suite / Google Workspace for Business - ระบุหรือไม่ก็ได้)"
                     },
                     "linkedin": {
-                        "description": "สร้าง Application ได้ที่ {link}",
+                        "description": "สร้างแอปพลิเคชันของคุณได้ที่ {link}",
                         "client_id_label": "=> fof-oauth.ref.settings.client_id",
                         "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
                     }
@@ -82,14 +82,14 @@
             "user": {
                 "settings": {
                     "linked-account": {
-                        "label": "บัญชีที่เชื่อมโยง",
-                        "last-used-label": "ใช้ล่าสุด",
-                        "link-created-label": "สร้างลิงก์เมื่อ",
-                        "identification-label": "{provider} ID",
-                        "orphaned-account": "คุณเคยเข้าสู่ระบบผ่าน Provider นี้ แต่ฟอรัมได้ปิดใช้วิธีการเข้าสู่ระบบนี้แล้ว",
-                        "help": "บัญชีที่เชื่อมโยงเหล่านี้ช่วยให้คุณเข้าสู่ระบบฟอรัมโดยใช้ Provider อื่นได้",
-                        "identifier-label": "{provider} ID",
-                        "unlink-confirm": "คุณแน่ใจหรือไม่ว่าต้องการยกเลิกการเชื่อมโยงกับ {provider}? คุณจะไม่สามารถเข้าสู่ระบบฟอรัมนี้ได้อีกจนกว่าจะเชื่อมโยงใหม่"
+                        "label": "บัญชีผู้ใช้ภายนอกที่เชื่อมโยงไว้",
+                        "last-used-label": "ใช้งานล่าสุดเมื่อ",
+                        "link-created-label": "วันเริ่มเชื่อมโยง",
+                        "identification-label": "หมายเลข {provider} ID",
+                        "orphaned-account": "คุณเคยเชื่อมโยงบัญชีด้วยผู้ให้บริการรายนี้ แต่ทางบอร์ดได้ปิดใช้งานสิทธิ์เชื่อมโยงช่องทางนี้ไปแล้ว",
+                        "help": "คุณสามารถเข้าใช้งานบอร์ดสนทนาแห่งนี้ได้อย่างสะดวกโดยผ่านบัญชีผู้ให้บริการภายนอกเหล่านี้ที่เชื่อมโยงอยู่",
+                        "identifier-label": "หมายเลข {provider} ID",
+                        "unlink-confirm": "คุณแน่ใจหรือไม่ว่าต้องการลบการเชื่อมโยงบัญชีกับ {provider}? คุณจะไม่สามารถใช้ช่องทางนี้เพื่อเข้าสู่ระบบบอร์ดได้อีกต่อไป เว้นแต่จะทำการเชื่อมโยงบัญชีใหม่อีกครั้งในภายหลัง"
                     }
                 }
             },
@@ -103,12 +103,12 @@
                 "twitter": "=> fof-oauth.lib.providers.twitter"
             },
             "signup": {
-                "username_help": "กรุณาเลือกชื่อผู้ใช้ที่จะแสดงในที่นี้"
+                "username_help": "โปรดเลือกชื่อผู้ใช้ที่คุณต้องการใช้แสดงตัวตนในบอร์ดสนทนานี้"
             },
-            "unlink": "ยกเลิกการเชื่อมโยง",
+            "unlink": "ลบการเชื่อมโยงบัญชี",
             "error": {
-                "bad_verification_code": "Token การยืนยันไม่ถูกต้องหรือหมดอายุแล้ว กรุณาลองใหม่อีกครั้ง",
-                "invalid_state": "State ไม่ถูกต้อง กรุณาลองใหม่อีกครั้ง"
+                "bad_verification_code": "รหัสโทเค็นสำหรับยืนยันความถูกต้องไม่ถูกต้องหรือหมดอายุการใช้งานแล้ว โปรดลองใหม่อีกครั้ง",
+                "invalid_state": "สถานะคำขอทำงาน (State) ไม่ถูกต้อง โปรดลองใหม่อีกครั้ง"
             }
         },
         "lib": {
