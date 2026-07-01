@@ -14,12 +14,21 @@
                 "notify_battle_started_label": "",
                 "notify_battle_ended_label": "",
                 "notify_draw_proposed_label": "",
-                "notify_draw_cancelled_label": ""
+                "notify_draw_cancelled_label": "",
+                "notify_battle_declined_label": ""
             },
             "how_to_play": {
                 "btn": ""
             },
             "surrender": {
+                "btn": "",
+                "title": "",
+                "confirm_text": "",
+                "confirm_btn": "",
+                "cancel_btn": "",
+                "error": ""
+            },
+            "decline_battle": {
                 "btn": "",
                 "title": "",
                 "confirm_text": "",
@@ -55,7 +64,8 @@
                 "battle_ended_text": "",
                 "battle_ended_winner_text": "",
                 "draw_proposed_text": "",
-                "draw_cancelled_text": ""
+                "draw_cancelled_text": "",
+                "battle_declined_text": ""
             },
             "challenge_modal": {
                 "title": "",
@@ -453,6 +463,7 @@
                 "deck_inactive_cards": "",
                 "deck_composition": "",
                 "deck_locked_active_battle": "",
+                "decline_not_first_move": "",
                 "not_your_turn": "",
                 "cant_play_bonus_as_main": "",
                 "not_enough_mana": "",

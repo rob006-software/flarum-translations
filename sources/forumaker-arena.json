@@ -14,7 +14,8 @@
                 "notify_battle_started_label": "Someone challenges me on Arena",
                 "notify_battle_ended_label": "My Arena battle has ended",
                 "notify_draw_proposed_label": "Opponent proposed a draw on Arena",
-                "notify_draw_cancelled_label": "Opponent cancelled a draw on Arena"
+                "notify_draw_cancelled_label": "Opponent cancelled a draw on Arena",
+                "notify_battle_declined_label": "Opponent declined a battle on Arena"
             },
             "how_to_play": {
                 "btn": "How to play"
@@ -26,6 +27,14 @@
                 "confirm_btn": "Surrender",
                 "cancel_btn": "Continue battle",
                 "error": "Failed to surrender. Please try again"
+            },
+            "decline_battle": {
+                "btn": "Decline battle",
+                "title": "Decline battle",
+                "confirm_text": "You can decline the battle on your first move. The topic will be deleted, and the other player will be notified",
+                "confirm_btn": "Decline",
+                "cancel_btn": "Continue battle",
+                "error": "Failed to decline the battle. Please try again"
             },
             "propose_draw": {
                 "btn": "Propose draw",
@@ -55,7 +64,8 @@
                 "battle_ended_text": "Your Arena battle has ended",
                 "battle_ended_winner_text": "Battle ended — {winner} wins",
                 "draw_proposed_text": "{proposer} proposes a draw in your Arena battle",
-                "draw_cancelled_text": "{canceller} cancelled the draw in your Arena battle"
+                "draw_cancelled_text": "{canceller} cancelled the draw in your Arena battle",
+                "battle_declined_text": "{decliner} declined the battle with you on Arena"
             },
             "challenge_modal": {
                 "title": "Start a battle",
@@ -453,6 +463,7 @@
                 "deck_inactive_cards": "The deck contains inactive cards: {names}",
                 "deck_composition": "The deck must contain 10 elemental and 10 bonus cards. Currently: {elementalCount} elemental, {bonusCount} bonus",
                 "deck_locked_active_battle": "You can't change your deck during an active battle",
+                "decline_not_first_move": "You can only decline the battle on your first move",
                 "not_your_turn": "It's not your turn",
                 "cant_play_bonus_as_main": "You can't play a bonus card as the main card",
                 "not_enough_mana": "Not enough mana",
