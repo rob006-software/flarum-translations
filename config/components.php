@@ -116,6 +116,9 @@ return [
 	'ekumanov-post-search' => [
 		'tag' => 'https://raw.githubusercontent.com/ekumanov/flarum-ext-post-search/v1.0.1/locale/en.yml',
 	],
+	'ernestdefoe-armory' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/armory/v0.4.1/resources/locale/en.yml',
+	],
 	'ernestdefoe-aurora' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/aurora/3.0.1/resources/locale/en.yml',
 	],
