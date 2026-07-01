@@ -65,6 +65,4 @@
 
 ## Dead branches
 
-| Extension | Pull request |
-| --- | --- |
-| `zephyrisle-fof-formatting-pro` | [![#1824 (open)](https://img.shields.io/badge/PR-%231824-brightgreen)](https://github.com/rob006-software/flarum-translations/pull/1824) |
+There are no dead branches.
