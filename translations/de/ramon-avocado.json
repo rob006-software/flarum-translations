@@ -144,7 +144,7 @@
             "back": "Zurück",
             "profile": {
                 "joined": "Beigetreten {date}",
-                "member_since": "",
+                "member_since": "Mitglied seit {date}",
                 "scroll_left": "Nach links scrollen",
                 "scroll_right": "Nach rechts scrollen"
             },
@@ -283,12 +283,12 @@
                 "empty": "Keine Diskussionen gefunden."
             },
             "bookmarks": {
-                "title": "",
-                "save": "",
-                "unsave": "",
-                "empty": "",
-                "guest_prompt": "",
-                "toggle_error": ""
+                "title": "Gespeichert",
+                "save": "Speichern",
+                "unsave": "Aus den Favoriten entfernen",
+                "empty": "Du hast noch keine Diskussionen gespeichert.",
+                "guest_prompt": "Melde dich an, um Diskussionen zu speichern und sie später hier wiederzufinden.",
+                "toggle_error": "Deine gespeicherte Liste konnte nicht aktualisiert werden. Bitte versuche es erneut."
             },
             "post": {
                 "op_badge": "Verfasser"
