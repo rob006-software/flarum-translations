@@ -135,6 +135,7 @@
             "back": "Back",
             "profile": {
                 "joined": "Joined {date}",
+                "member_since": "Member since {date}",
                 "scroll_left": "Scroll left",
                 "scroll_right": "Scroll right"
             },
@@ -271,6 +272,14 @@
                 "home": "Back to Home",
                 "load_more": "Load more",
                 "empty": "No discussions found."
+            },
+            "bookmarks": {
+                "title": "Saved",
+                "save": "Save",
+                "unsave": "Remove from saved",
+                "empty": "You haven't saved any discussions yet.",
+                "guest_prompt": "Log in to save discussions and find them here later.",
+                "toggle_error": "Could not update your saved list. Please try again."
             },
             "post": {
                 "op_badge": "OP"
