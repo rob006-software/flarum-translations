@@ -837,6 +837,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`fof-amazon-affiliation`](https://weblate.rob006.net/projects/flarum2/fof-amazon-affiliation) | [`fof/amazon-affiliation`](https://github.com/FriendsOfFlarum/amazon-affiliation) |
 | [`fof-analytics`](https://weblate.rob006.net/projects/flarum2/fof-analytics) | [`fof/analytics`](https://github.com/FriendsOfFlarum/analytics) |
 | [`fof-anti-spam`](https://weblate.rob006.net/projects/flarum2/fof-anti-spam) | [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) |
+| [`fof-author-change`](https://weblate.rob006.net/projects/flarum2/fof-author-change) | [`fof/author-change`](https://github.com/FriendsOfFlarum/author-change) |
 | [`fof-badges`](https://weblate.rob006.net/projects/flarum2/fof-badges) | [`fof/badges`](https://github.com/FriendsOfFlarum/badges) |
 | [`fof-ban-ips`](https://weblate.rob006.net/projects/flarum2/fof-ban-ips) | [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips) |
 | [`fof-best-answer`](https://weblate.rob006.net/projects/flarum2/fof-best-answer) | [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer) |
