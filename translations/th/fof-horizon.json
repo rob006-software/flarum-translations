@@ -2,64 +2,64 @@
     "fof-horizon": {
         "admin": {
             "settings": {
-                "trim_title": "ตั้งค่าการล้างข้อมูล",
-                "trim_help": "ตั้งค่าระยะเวลา (เป็นนาที) ที่ต้องการให้ Horizon\nเก็บ job ที่เพิ่งทำเสร็จและ job ที่ล้มเหลวไว้ โดยทั่วไป job ล่าสุดจะเก็บไว้\nหนึ่งชั่วโมง ส่วน job ที่ล้มเหลวทั้งหมดจะเก็บไว้หนึ่งสัปดาห์\n",
-                "trim_recent": "ล้าง Recent Jobs",
-                "trim_recent_help": "ตารางนี้ใช้แสดง job ล่าสุดใน Horizon dashboard\n",
-                "trim_pending": "ล้าง Pending Jobs",
-                "trim_pending_help": "ตารางนี้ใช้แสดง job ที่รอดำเนินการใน Horizon dashboard\n",
-                "trim_completed": "ล้าง Completed Jobs",
-                "trim_completed_help": "ตารางนี้ใช้แสดง job ที่เสร็จสมบูรณ์ใน Horizon dashboard\n",
-                "trim_recent_failed": "ล้าง Recent Failed Jobs",
-                "trim_recent_failed_help": "ตารางนี้ใช้แสดง job ที่ล้มเหลวล่าสุดใน Horizon dashboard\n",
-                "trim_failed": "ล้าง Failed Jobs",
-                "trim_failed_help": "ตารางนี้ใช้แสดง job ที่ล้มเหลวใน Horizon dashboard\n",
-                "trim_monitored": "ล้าง Monitored Jobs",
-                "trim_monitored_help": "ตารางนี้ใช้แสดง job ที่ตรวจสอบอยู่ใน Horizon dashboard\n"
+                "trim_title": "ตั้งค่าการเคลียร์ข้อมูลการทำงาน",
+                "trim_help": "คุณสามารถกำหนดระยะเวลา (หน่วยเป็นนาที) ที่ต้องการให้ Horizon\nจัดเก็บประวัติการประมวลผลงานล่าสุดและงานที่ล้มเหลวไว้ โดยปกติงานล่าสุดจะจัดเก็บไว้\nเป็นเวลาหนึ่งชั่วโมง ในขณะที่งานที่ล้มเหลวจะถูกจัดเก็บไว้เป็นเวลาหนึ่งสัปดาห์เต็ม\n",
+                "trim_recent": "เคลียร์งานล่าสุด (Trim Recent Jobs)",
+                "trim_recent_help": "ตารางข้อมูลนี้ใช้แสดงประวัติงานล่าสุดบนแดชบอร์ดของ Horizon\n",
+                "trim_pending": "เคลียร์งานที่รอประมวลผล (Trim Pending Jobs)",
+                "trim_pending_help": "ตารางข้อมูลนี้ใช้แสดงประวัติงานที่รอดำเนินการบนแดชบอร์ดของ Horizon\n",
+                "trim_completed": "เคลียร์งานที่เสร็จสมบูรณ์ (Trim Completed Jobs)",
+                "trim_completed_help": "ตารางข้อมูลนี้ใช้แสดงประวัติงานที่ทำเสร็จสิ้นสมบูรณ์บนแดชบอร์ดของ Horizon\n",
+                "trim_recent_failed": "เคลียร์งานล้มเหลวล่าสุด (Trim Recent Failed Jobs)",
+                "trim_recent_failed_help": "ตารางข้อมูลนี้ใช้แสดงประวัติงานที่ล้มเหลวล่าสุดบนแดชบอร์ดของ Horizon\n",
+                "trim_failed": "เคลียร์งานที่ล้มเหลว (Trim Failed Jobs)",
+                "trim_failed_help": "ตารางข้อมูลนี้ใช้แสดงประวัติงานที่ประมวลผลล้มเหลวทั้งหมดบนแดชบอร์ดของ Horizon\n",
+                "trim_monitored": "เคลียร์งานที่กำลังติดตาม (Trim Monitored Jobs)",
+                "trim_monitored_help": "ตารางข้อมูลนี้ใช้แสดงประวัติงานที่เปิดติดตามตรวจสอบไว้บนแดชบอร์ดของ Horizon\n"
             },
             "stats": {
                 "auto_refresh": "รีเฟรชอัตโนมัติ",
-                "heading": "ภาพรวม Queue",
-                "full_dashboard": "Horizon Dashboard",
-                "refresh": "Refresh",
-                "last_refresh": "อัปเดตเมื่อ {time}",
+                "heading": "ภาพรวมคิวทำงาน (Queue Overview)",
+                "full_dashboard": "แดชบอร์ด Horizon (Horizon Dashboard)",
+                "refresh": "รีเฟรชข้อมูล",
+                "last_refresh": "อัปเดตล่าสุดเมื่อ {time}",
                 "health": {
                     "excellent": "ดีเยี่ยม",
                     "good": "ดี",
-                    "poor": "ต่ำ",
+                    "poor": "แย่",
                     "critical": "วิกฤต",
-                    "tooltip": "คะแนนสุขภาพระบบ: {score}/100"
+                    "tooltip": "คะแนนความสมบูรณ์ของระบบ: {score}/100"
                 },
                 "error": {
-                    "title": "ข้อผิดพลาดการเชื่อมต่อ",
-                    "fetch_failed": "ไม่สามารถดึงสถิติ Horizon ได้ กรุณาตรวจสอบการตั้งค่า Redis",
-                    "setup_docs": "ดูเอกสารการตั้งค่า Redis"
+                    "title": "เกิดข้อผิดพลาดในการเชื่อมต่อ",
+                    "fetch_failed": "ไม่สามารถดึงข้อมูลสถิติจาก Horizon ได้ โปรดตรวจสอบการกำหนดค่า Redis ของคุณให้ถูกต้อง",
+                    "setup_docs": "ดูเอกสารประกอบการตั้งค่า Redis"
                 },
                 "data": {
-                    "redis-used-memory": "หน่วยความจำที่ใช้ใน Cache",
-                    "redis-memory-usage": "การใช้หน่วยความจำ Cache",
-                    "redis-peak-memory": "หน่วยความจำสูงสุดของ Cache",
-                    "redis-max-memory": "หน่วยความจำสูงสุดที่กำหนดสำหรับ Cache",
-                    "redis-memory-policy": "นโยบายหน่วยความจำ Cache",
-                    "redis-memory-policy-tooltip": "นโยบายหน่วยความจำคือวิธีที่ cache จะเลือกลบข้อมูลเมื่อ\nถึงขีดจำกัด maxmemory ค่าเริ่มต้นคือ `noeviction`: ไม่บันทึกค่าใหม่\nเมื่อถึงขีดจำกัดหน่วยความจำ คลิกเพื่อดูเอกสาร\n",
-                    "redis-ops-per-sec": "การดำเนินการต่อวินาที",
-                    "redis-connected-clients": "Client ที่เชื่อมต่ออยู่",
-                    "redis-blocked-clients": "Client ที่ถูก block",
-                    "jobs-per-minute": "Job ต่อนาที",
-                    "jobs-past-hour": "Job ในชั่วโมงที่ผ่านมา",
-                    "failed-last-seconds": "Job ที่ล้มเหลวในช่วงไม่กี่วินาทีที่ผ่านมา",
+                    "redis-used-memory": "หน่วยความจำที่กำลังใช้งานของ Cache",
+                    "redis-memory-usage": "สัดส่วนการใช้งานหน่วยความจำของ Cache",
+                    "redis-peak-memory": "หน่วยความจำที่ใช้งานสูงสุด (Peak Memory) ของ Cache",
+                    "redis-max-memory": "ขีดจำกัดหน่วยความจำสูงสุด (Max Memory) ของ Cache",
+                    "redis-memory-policy": "นโยบายการจัดการหน่วยความจำของ Cache",
+                    "redis-memory-policy-tooltip": "นโยบายหน่วยความจำคือแนวทางที่ Cache จะเลือกข้อมูลเพื่อเคลียร์ทิ้งเมื่อ\nการใช้งานหน่วยความจำถึงขีดจำกัดสูงสุด (maxmemory) ค่าเริ่มต้นคือ `noeviction` หมายถึง\nจะไม่บันทึกข้อมูลใหม่ใดๆ เพิ่มเข้าไปเมื่อเมมโมรี่เต็ม คลิกเพื่อเปิดอ่านเอกสารเพิ่มเติม\n",
+                    "redis-ops-per-sec": "จำนวนการทำงานต่อวินาที (Ops Per Second)",
+                    "redis-connected-clients": "จำนวนไคลเอนต์ที่เชื่อมต่ออยู่ (Connected Clients)",
+                    "redis-blocked-clients": "จำนวนไคลเอนต์ที่ถูกระงับการทำงาน (Blocked Clients)",
+                    "jobs-per-minute": "จำนวนงานต่อนาที (Jobs Per Minute)",
+                    "jobs-past-hour": "จำนวนงานในชั่วโมงที่ผ่านมา",
+                    "failed-last-seconds": "งานที่ประมวลผลล้มเหลวในไม่กี่วินาทีล่าสุด",
                     "status": {
                         "label": "สถานะ",
                         "running": "กำลังทำงาน",
                         "inactive": "ไม่ได้ใช้งาน"
                     },
-                    "total-processes": "จำนวน Process ทั้งหมด",
-                    "max-wait-time": "เวลารอสูงสุด",
-                    "max-wait-queue": "Queue: {queue}",
-                    "max-runtime": "เวลาทำงานสูงสุด",
-                    "max-throughput": "Throughput สูงสุด",
-                    "success-rate": "อัตราสำเร็จ",
-                    "failure-rate": "อัตราล้มเหลว"
+                    "total-processes": "โปรเซสการทำงานทั้งหมด (Total Processes)",
+                    "max-wait-time": "เวลารอคิวสูงสุด",
+                    "max-wait-queue": "คิว (Queue): {queue}",
+                    "max-runtime": "ระยะเวลาประมวลผลสูงสุด (Max Runtime)",
+                    "max-throughput": "ปริมาณงานสูงสุดที่รองรับได้ (Max Throughput)",
+                    "success-rate": "อัตราส่วนการทำงานสำเร็จ",
+                    "failure-rate": "อัตราส่วนการทำงานล้มเหลว"
                 }
             }
         }

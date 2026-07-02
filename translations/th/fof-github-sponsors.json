@@ -2,18 +2,18 @@
     "fof-github-sponsors": {
         "admin": {
             "account_types": {
-                "user": "ผู้ใช้",
-                "organization": "องค์กร"
+                "user": "ผู้ใช้รายบุคคล (User)",
+                "organization": "องค์กร (Organization)"
             },
             "settings": {
                 "api_token_label": "API Token",
-                "api_token_help": "สร้าง personal access token ที่ <a>https://github.com/settings/tokens/new</a> โดยเลือก scope <code>user</code> และ <code>read:org</code> token นี้ใช้สำหรับดึงข้อมูล sponsor จาก GitHub",
-                "account_type_label": "ประเภทบัญชี",
-                "account_type_help": "เลือกว่าคุณต้องการติดตาม sponsor สำหรับบัญชี GitHub ส่วนตัวหรือบัญชีองค์กร",
-                "login_label": "Login",
-                "login_help": "ใส่ชื่อผู้ใช้ GitHub (สำหรับบัญชีส่วนตัว) หรือชื่อองค์กร (สำหรับองค์กร) นี่คือบัญชีที่จะทำการซิงค์ sponsor",
-                "group_label": "กลุ่มที่จะกำหนด",
-                "group_help": "เลือก group ผู้ใช้ใน Flarum ที่จะเพิ่ม sponsor เข้าไป ผู้ใช้จะถูกเพิ่มโดยอัตโนมัติเมื่อเป็น sponsor และถูกลบออกเมื่อหยุด sponsor"
+                "api_token_help": "สร้างรหัสสิทธิ์เข้าถึงส่วนบุคคล (Personal Access Token) ที่ <a>https://github.com/settings/tokens/new</a> โดยเลือกสิทธิ์ (Scopes) เป็น <code>user</code> และ <code>read:org</code> รหัสโทเค็นนี้จะใช้สำหรับดึงข้อมูลผู้สนับสนุนของคุณจาก GitHub",
+                "account_type_label": "ประเภทบัญชีผู้ใช้",
+                "account_type_help": "เลือกว่าคุณต้องการติดตามข้อมูลผู้สนับสนุนสำหรับบัญชีผู้ใช้ GitHub ส่วนตัวหรือบัญชีระดับองค์กร",
+                "login_label": "ชื่อบัญชี (Login)",
+                "login_help": "ระบุชื่อผู้ใช้ GitHub (สำหรับบัญชีส่วนบุคคล) หรือชื่อองค์กร (สำหรับบัญชีองค์กร) ซึ่งบัญชีนี้จะเป็นบัญชีที่ระบบทำการซิงโครไนซ์ข้อมูลผู้สนับสนุน",
+                "group_label": "กลุ่มผู้ใช้ที่จะจัดสรรให้",
+                "group_help": "เลือกกลุ่มผู้ใช้ของ Flarum ที่จะกำหนดให้สำหรับผู้สนับสนุน โดยผู้ใช้จะถูกเพิ่มเข้ากลุ่มนี้โดยอัตโนมัติเมื่อพวกเขาเป็นผู้สนับสนุน และจะถูกนำออกจากกลุ่มเมื่อพวกเขายุติการสนับสนุน"
             }
         }
     }

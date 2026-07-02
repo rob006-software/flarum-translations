@@ -2,94 +2,94 @@
     "fof-mason": {
         "forum": {
             "discussion-controls": {
-                "edit-answers": "แก้ไข field"
+                "edit-answers": "แก้ไขข้อมูลฟิลด์"
             },
             "answers-modal": {
-                "edit-title": "แก้ไข field สำหรับ {title}",
-                "save": "บันทึก field"
+                "edit-title": "แก้ไขข้อมูลฟิลด์สำหรับ {title}",
+                "save": "บันทึกข้อมูลฟิลด์"
             },
             "post-answers": {
-                "no-answer": "ไม่มีคำตอบ"
+                "no-answer": "ไม่มีข้อมูล"
             },
             "answers": {
                 "choose-option": "เลือกตัวเลือก",
                 "no-option-selected": "ยังไม่ได้เลือกตัวเลือก"
             },
             "tags": {
-                "inadequate-settings": "การตั้งค่า tag ไม่ถูกต้อง อนุญาตให้มี primary tag และ secondary tag ได้อย่างละหนึ่งหรือปิดฟีเจอร์ \"Tags as fields\"\n",
-                "tags-label": "Tags"
+                "inadequate-settings": "การตั้งค่าแท็กไม่ถูกต้อง กรุณาตั้งค่าให้อนุญาตแท็กหลัก (Primary Tag) และแท็กหลักรอง (Secondary Tag) ได้อย่างละไม่เกินหนึ่งแท็ก หรือปิดใช้งานฟีเจอร์ \"แท็กเป็นฟิลด์ (Tags as fields)\"\n",
+                "tags-label": "แท็ก"
             }
         },
         "admin": {
             "buttons": {
-                "new-field": "field ใหม่",
-                "add-field": "เพิ่ม field",
-                "save-field": "บันทึกการเปลี่ยนแปลง field",
-                "delete-field": "ลบ field",
-                "edit-field": "คลิกเพื่อแก้ไข field",
-                "add-answer": "เพิ่มคำตอบ",
+                "new-field": "สร้างฟิลด์ใหม่",
+                "add-field": "เพิ่มฟิลด์",
+                "save-field": "บันทึกการเปลี่ยนแปลงฟิลด์",
+                "delete-field": "ลบฟิลด์",
+                "edit-field": "คลิกเพื่อแก้ไขฟิลด์",
+                "add-answer": "เพิ่มตัวเลือกคำตอบ",
                 "save-answer": "บันทึกการเปลี่ยนแปลงคำตอบ",
                 "delete-answer": "ลบคำตอบ",
                 "edit-answer": "แก้ไขคำตอบ",
-                "edit-answer-prompt": "แก้ไขเนื้อหาในทุกที่ที่ใช้งาน",
-                "show-user-answers": "แสดงคำตอบที่ผู้ใช้เพิ่มเอง ({count})"
+                "edit-answer-prompt": "แก้ไขข้อความตัวเลือกคำตอบนี้ในทุกโพสต์ที่มีการเรียกใช้งานอยู่",
+                "show-user-answers": "แสดงคำตอบที่เขียนขึ้นโดยผู้ใช้เอง ({count})"
             },
             "fields": {
-                "add": "เพิ่ม field {field}",
-                "edit": "แก้ไข field {field}",
-                "required": "จำเป็น",
-                "name": "ชื่อ field",
-                "name-help": "ป้ายชื่อ field ที่มองเห็นได้สาธารณะ (ไม่รองรับการแปล)\n",
-                "description": "คำอธิบาย field",
-                "description-help": "คำอธิบายเพิ่มเติม (ไม่บังคับ) เพื่ออธิบายการใช้งานหรือความจำเป็นของ field นี้\n",
-                "show_when_empty": "แสดงเมื่อว่างเปล่า",
-                "show_when_empty-help": "กำหนดว่าจะแสดง field ใน discussion เมื่อยังไม่มีคำตอบหรือไม่",
-                "validation": "การตรวจสอบค่าที่ผู้ใช้กรอก",
-                "user_values_allowed": "อนุญาตให้ผู้ใช้กรอกค่าเอง",
-                "user_values_allowed-help": "หากเปิดใช้งาน ผู้ใช้สามารถเพิ่มค่าของตนเองแทนค่าที่ admin กำหนด ค่าเหล่านี้จะถูกตรวจสอบด้วยการตั้งค่า \"Validation\" หากปิดใช้งาน ผู้ใช้จะใช้ได้เฉพาะคำตอบที่ \"แนะนำ\" เท่านั้น\n",
-                "validation-help": "ดู <a>Laravel validation rules</a> ที่รองรับ เช่น \"string|min:5\" หรือ \"url\"\n",
-                "enable-user-values-for-validation": "เปิดใช้งาน \"user values\" เพื่อกำหนด validation rules",
+                "add": "เพิ่มฟิลด์ {field}",
+                "edit": "แก้ไขฟิลด์ {field}",
+                "required": "จำเป็นต้องกรอก",
+                "name": "ชื่อฟิลด์",
+                "name-help": "ป้ายชื่อของฟิลด์ที่จะแสดงผลแก่สาธารณะ (ไม่รองรับการแปลภาษา)\n",
+                "description": "คำอธิบายฟิลด์",
+                "description-help": "ระบุคำอธิบายสั้นๆ (ระบุหรือไม่ก็ได้) เพื่ออธิบายจุดประสงค์หรือความจำเป็นของฟิลด์นี้\n",
+                "show_when_empty": "แสดงฟิลด์แม้ไม่มีข้อมูล",
+                "show_when_empty-help": "กำหนดว่าจะให้แสดงฟิลด์นี้ในโพสต์หรือไม่เมื่อไม่มีการกรอกข้อมูลใดๆ ไว้",
+                "validation": "การตรวจสอบรูปแบบข้อมูลที่กรอก",
+                "user_values_allowed": "อนุญาตให้ผู้ใช้กรอกข้อความเอง",
+                "user_values_allowed-help": "หากเปิดใช้งาน ผู้ใช้จะสามารถระบุค่าข้อมูลของตนเองได้นอกเหนือจากค่าที่ผู้ดูแลระบบกำหนดไว้ ค่าเหล่านั้นจะถูกตรวจสอบกับกฎในตัวเลือก \"การตรวจสอบรูปแบบข้อมูลที่กรอก\" หากปิดใช้งาน ผู้ใช้จะเลือกใช้ได้เฉพาะคำตอบที่แนะแนวทางไว้เท่านั้น\n",
+                "validation-help": "ตรวจสอบรูปแบบ <a>กฎการตรวจสอบความถูกต้องของ Laravel (Laravel validation rules)</a> ตัวอย่างเช่น: \"string|min:5\" หรือ \"url\"\n",
+                "enable-user-values-for-validation": "เปิดใช้งาน \"ค่าที่ผู้ใช้กำหนด (user values)\" เพื่อกำหนดกฎการตรวจสอบความถูกต้อง",
                 "icon": "ไอคอน",
-                "icon-help": "แสดงไอคอนหน้าค่าที่ผู้ใช้กรอก ดูไอคอนที่ใช้ได้ที่ <a>FontAwesome website</a> ใช้ชื่อ class เต็ม รวม prefix เช่น \"fas fa-bolt\"\n",
-                "icon-preview": "ตัวอย่าง: {preview}",
-                "save-field-for-answers": "บันทึก field เพื่อเพิ่มคำตอบ",
+                "icon-help": "แสดงไอคอนหน้าค่าที่ผู้ใช้กรอก ดูตัวอย่างไอคอนที่สามารถใช้ได้จาก <a>เว็บไซต์ FontAwesome</a> โดยใช้ชื่อคลาสไอคอนเต็มรวมคำนำหน้าคลาส เช่น \"fas fa-bolt\"\n",
+                "icon-preview": "ตัวอย่างการแสดงผล: {preview}",
+                "save-field-for-answers": "กรุณากดบันทึกฟิลด์ก่อนจึงจะสามารถระบุตัวเลือกคำตอบได้",
                 "is_suggested": "แนะนำคำตอบนี้แก่ผู้ใช้",
-                "new-answer": "คำตอบใหม่",
-                "new-answer-placeholder": "ข้อความบางอย่าง"
+                "new-answer": "เพิ่มคำตอบใหม่",
+                "new-answer-placeholder": "ระบุข้อความที่นี่"
             },
             "messages": {
-                "delete-answer-confirmation": "คุณแน่ใจหรือไม่ว่าต้องการลบคำตอบ \"{content}\"? คำตอบนี้จะถูกลบออกจาก discussion ทั้งหมดที่ใช้งาน หากต้องการเก็บคำตอบที่มีอยู่แล้ว ให้ปิดการแนะนำคำตอบแทน ลบคำตอบ?\n",
-                "delete-field-confirmation": "คุณแน่ใจหรือไม่ว่าต้องการลบ field \"{name}\"? field และคำตอบทั้งหมดจะถูกลบออกจาก discussion ที่ใช้งาน ลบ field?\n"
+                "delete-answer-confirmation": "คุณแน่ใจหรือไม่ว่าต้องการลบตัวเลือกคำตอบ \"{content}\"? คำตอบนี้จะถูกลบออกจากทุกโพสต์ที่ใช้งาน หากคุณต้องการเก็บตัวเลือกคำตอบเดิมที่มีอยู่ในโพสต์ต่างๆ ไว้ โปรดเปลี่ยนไปใช้วิธีปิดตัวเลือกแนะนำคำตอบแทน ลบตัวเลือกคำตอบนี้หรือไม่?\n",
+                "delete-field-confirmation": "คุณแน่ใจหรือไม่ว่าต้องการลบฟิลด์ \"{name}\"? ฟิลด์นี้รวมถึงตัวเลือกคำตอบทั้งหมดจะถูกลบออกจากทุกโพสต์ที่ใช้งาน ลบฟิลด์นี้หรือไม่?\n"
             },
             "settings": {
-                "fields-section-title": "หัวข้อของส่วน custom fields",
-                "fields-section-title-placeholder": "ค่าเริ่มต้นจะไม่แสดงหัวข้อ",
-                "fields-section-title-help": "ผู้ใช้จะเห็นข้อความนี้เหนือ custom fields ในตัวเขียนและใน discussion\n",
-                "column-count": "จำนวนคอลัมน์เมื่อแสดง field",
+                "fields-section-title": "ชื่อหัวข้อสำหรับส่วนฟิลด์ข้อมูลกำหนดเอง",
+                "fields-section-title-placeholder": "โดยค่าเริ่มต้นจะไม่แสดงหัวข้อใดๆ",
+                "fields-section-title-help": "ผู้ใช้จะเห็นข้อความนี้ด้านบนส่วนแสดงผลฟิลด์ข้อมูลกำหนดเองในเครื่องมือเขียนโพสต์และบนโพสต์\n",
+                "column-count": "จำนวนคอลัมน์ในการจัดวางฟิลด์ข้อมูล",
                 "n-columns": "{count} คอลัมน์",
-                "labels-as-placeholders": "แสดง label เป็น placeholder ในฟอร์ม",
-                "labels-as-placeholders-help": "Field จะใช้พื้นที่แนวตั้งน้อยลงและจะไม่แสดงไอคอน โปรดทราบว่าอาจส่งผลต่อการใช้งาน โดยเฉพาะเมื่อแก้ไข field ที่มีอยู่แล้ว\n",
-                "fields-in-hero": "แสดง field ใน banner ของ discussion แทน post แรก",
-                "hide-empty-fields-section": "ซ่อนหัวข้อและตัวควบคุมเมื่อ field ทั้งหมดว่างเปล่าและถูกซ่อน",
-                "hide-empty-fields-section-help": "ค่าเริ่มต้น หากผู้ใช้แก้ไข field ได้หรือมีการตั้งหัวข้อไว้ ส่วนนี้จะแสดงเสมอแม้ field ทั้งหมดจะซ่อนอยู่ เมื่อเปิดตัวเลือกนี้ ส่วนนี้จะซ่อนและปุ่ม \"แก้ไข field\" จะมีเฉพาะในเมนู dropdown ของ reply เมื่อ field ทั้งหมดว่างเปล่า\n",
-                "tags-as-field": "แสดงตัวเลือก tag เป็น field",
-                "tags-as-field-help": "การตั้งค่านี้จะซ่อนตัวเลือก tag เริ่มต้นและแสดง dropdown field แทน ใช้งานได้เฉพาะเมื่ออนุญาต primary tag และ secondary tag ได้อย่างละหนึ่งเท่านั้น!\n",
-                "tags-field-name": "ป้ายชื่อของ field tag",
+                "labels-as-placeholders": "แสดงชื่อป้ายฟิลด์เป็นข้อความอธิบายในช่องกรอก (Placeholder)",
+                "labels-as-placeholders-help": "ฟิลด์จะใช้พื้นที่แสดงผลในแนวตั้งน้อยลงและไม่แสดงไอคอน ทั้งนี้การเปิดใช้งานอาจส่งผลกระทบต่อความสะดวกในการใช้งาน โดยเฉพาะเมื่อมีการแก้ไขฟิลด์เดิมที่มีอยู่แล้ว\n",
+                "fields-in-hero": "แสดงฟิลด์ข้อมูลในส่วนหัวโพสต์ (Discussion Banner) แทนที่โพสต์แรก",
+                "hide-empty-fields-section": "ซ่อนหัวข้อและเมนูควบคุมเมื่อฟิลด์ทั้งหมดเป็นค่าว่างหรือถูกซ่อน",
+                "hide-empty-fields-section-help": "ตามปกติ หากผู้ใช้สามารถแก้ไขฟิลด์ได้หรือมีการตั้งชื่อหัวข้อไว้ ส่วนนี้จะถูกแสดงเสมอแม้ว่าจะซ่อนฟิลด์ทั้งหมด หากเปิดใช้งานตัวเลือกนี้ ส่วนดังกล่าวจะถูกซ่อนไว้ และปุ่ม \"แก้ไขฟิลด์\" จะไปแสดงผลอยู่ภายในเมนูแบบเลื่อนลง (Dropdown Menu) ของการตอบโพสต์เมื่อฟิลด์ทั้งหมดเป็นค่าว่าง\n",
+                "tags-as-field": "แสดงตัวเลือกแท็กเป็นฟิลด์ข้อมูลหนึ่ง",
+                "tags-as-field-help": "ตัวเลือกนี้จะซ่อนตัวเลือกแท็กเริ่มต้นของระบบและแทนที่ด้วยเมนูตัวเลือกแบบเลื่อนลงแทน จะทำงานได้เมื่อคุณกำหนดให้อนุญาตให้ระบุแท็กหลัก (Primary Tag) และแท็กหลักรอง (Secondary Tag) ได้ไม่เกินอย่างละหนึ่งแท็กเท่านั้น!\n",
+                "tags-field-name": "ป้ายชื่อของฟิลด์แท็ก",
                 "tags-field-name-placeholder": "=> fof-mason.forum.tags.tags-label"
             },
             "titles": {
-                "settings": "การตั้งค่า",
-                "fields": "Fields",
-                "field-settings": "การตั้งค่า field",
-                "field-answers": "คำตอบของ field"
+                "settings": "การตั้งค่าส่วนขยาย",
+                "fields": "ฟิลด์ข้อมูล",
+                "field-settings": "การตั้งค่าฟิลด์",
+                "field-answers": "คำตอบของฟิลด์"
             },
             "permissions": {
-                "see-own-fields": "ดู field ใน discussion ของตนเอง",
-                "see-other-fields": "ดู field ใน discussion ทั้งหมด",
-                "fill-fields": "กรอก field เมื่อสร้าง discussion ใหม่",
-                "update-own-fields": "อัปเดต field ใน discussion ของตนเอง",
-                "update-other-fields": "อัปเดต field ใน discussion ใดก็ได้",
-                "skip-required-fields": "ได้รับอนุญาตให้ข้าม field ที่จำเป็น"
+                "see-own-fields": "ดูฟิลด์ข้อมูลในโพสต์ของตนเอง",
+                "see-other-fields": "ดูฟิลด์ข้อมูลในโพสต์ทั้งหมด",
+                "fill-fields": "กรอกฟิลด์ข้อมูลเมื่อเริ่มตั้งโพสต์ใหม่",
+                "update-own-fields": "แก้ไขข้อมูลฟิลด์ในโพสต์ของตนเอง",
+                "update-other-fields": "แก้ไขข้อมูลฟิลด์ในโพสต์ใดก็ได้",
+                "skip-required-fields": "ได้รับสิทธิ์ละเว้นไม่ต้องกรอกฟิลด์ข้อมูลที่จำเป็น"
             }
         }
     }

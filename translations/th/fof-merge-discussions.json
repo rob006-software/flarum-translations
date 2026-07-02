@@ -3,30 +3,30 @@
         "forum": {
             "modal": {
                 "title": "รวมโพสต์",
-                "ordering_heading": "ลำดับการรวม",
-                "ordering_date_label": "รวมโพสต์ตามวันที่สร้าง",
-                "ordering_date_help": "โพสต์ในโพสต์ที่ได้จะถูกเรียงลำดับใหม่ตามวันที่สร้างของแต่ละโพสต์",
-                "ordering_suffix_label": "เพิ่มโพสต์ที่รวมไว้ท้ายโพสต์",
-                "ordering_suffix_help": "โพสต์ที่ถูกรวมเข้าโพสต์หลักจะถูกต่อท้ายโพสต์",
-                "type_heading": "ประเภทการรวม",
-                "type_target_label": "รวมเข้าโพสต์นี้",
-                "type_target_help_text": "เลือกโพสต์ที่ต้องการรวมเข้ากับ <b>{title}</b>",
-                "type_from_label": "รวมโพสต์นี้เข้ากับโพสต์อื่น",
-                "type_from_help_text": "เลือกโพสต์ปลายทางที่จะรวม <b>{title}</b> เข้าไป",
-                "load_preview_button": "ดูตัวอย่าง",
+                "ordering_heading": "ลำดับการเรียงโพสต์หลังรวม",
+                "ordering_date_label": "เรียงลำดับโพสต์ตามวันที่เขียนจริง",
+                "ordering_date_help": "โพสต์ทั้งหมดในโพสต์ใหม่จะถูกเรียงลำดับเวลาใหม่ตามวันที่สร้างจริงของแต่ละโพสต์",
+                "ordering_suffix_label": "นำโพสต์ที่ย้ายมารวมไว้ที่ท้ายสุดของโพสต์",
+                "ordering_suffix_help": "โพสต์ที่ถูกย้ายมารวมจะถูกต่อท้ายสุดของโพสต์หลักโดยทันที",
+                "type_heading": "ประเภทการรวมโพสต์",
+                "type_target_label": "รวมโพสต์อื่นเข้ากับโพสต์นี้",
+                "type_target_help_text": "เลือกโพสต์อื่นเพื่อนำมารวมเข้ากับโพสต์ <b>{title}</b> นี้",
+                "type_from_label": "นำโพสต์นี้ไปรวมเข้ากับโพสต์อื่น",
+                "type_from_help_text": "เลือกโพสต์ปลายทางที่ต้องการนำโพสต์ <b>{title}</b> นี้ไปใส่",
+                "load_preview_button": "ดูตัวอย่างผลลัพธ์",
                 "submit_button": "=> fof-merge-discussions.ref.merge"
             },
             "notification": {
-                "discussion_merged": "โพสต์ <b>{oldTitle}</b> ของคุณถูก {username} รวมเข้ากับโพสต์นี้แล้ว",
+                "discussion_merged": "โพสต์ <b>{oldTitle}</b> ของคุณได้รับการรวมเข้ากับโพสต์นี้โดย {username}",
                 "preferences": {
-                    "discussion_merged": "มีคนรวมโพสต์ของฉันกับโพสต์อื่น"
+                    "discussion_merged": "เมื่อมีคนนำโพสต์ของฉันไปรวมเข้ากับโพสต์อื่น"
                 }
             },
             "discussion": {
                 "merge": "=> fof-merge-discussions.ref.merge"
             },
             "post": {
-                "merged": "{count, plural, one {รวม <b>#</b> โพสต์จาก {titles}} other {รวม <b>#</b> โพสต์จาก {titles}}}"
+                "merged": "{count, plural, other {รวม <b>#</b> โพสต์จาก {titles}}}"
             }
         },
         "admin": {
@@ -34,26 +34,26 @@
                 "merge_discussions_label": "รวมโพสต์"
             },
             "settings": {
-                "search_result_help": "จำนวนโพสต์ที่จะแสดงเมื่อค้นหาในหน้าต่าง \"รวมโพสต์\"",
-                "search_result_label": "จำนวนผลการค้นหาในการรวมโพสต์"
+                "search_result_help": "ขีดจำกัดของจำนวนโพสต์ที่จะค้นพบและแสดงผลในตัวเลือกการรวมโพสต์",
+                "search_result_label": "จำนวนจำกัดผลการค้นหาโพสต์เพื่อรวม"
             }
         },
         "api": {
             "error": {
-                "merging_failed": "ไม่สามารถรวมโพสต์ได้",
-                "updating_failed": "ไม่สามารถอัปเดตรายละเอียดโพสต์ได้",
-                "deleting_failed": "ไม่สามารถลบโพสต์ที่ว่างเปล่าได้",
-                "fixing_posts_number_failed": "ไม่สามารถแก้ไขหมายเลขโพสต์ได้",
-                "fixing_posts_number_meta_failed": "ไม่สามารถแก้ไขหมายเลขโพสต์ได้"
+                "merging_failed": "การรวมโพสต์ล้มเหลว",
+                "updating_failed": "ไม่สามารถอัปเดตรายละเอียดของโพสต์ได้",
+                "deleting_failed": "ไม่สามารถลบโพสต์ที่ไม่มีโพสต์เหลืออยู่ได้",
+                "fixing_posts_number_failed": "ไม่สามารถอัปเดตการเรียงลำดับหมายเลขโพสต์ได้",
+                "fixing_posts_number_meta_failed": "ไม่สามารถอัปเดตการเรียงลำดับหมายเลขโพสต์ได้"
             }
         },
         "ref": {
-            "merge": "รวม"
+            "merge": "รวมโพสต์"
         },
         "email": {
             "merged": {
-                "body": "สวัสดี {recipient_display_name}\n\nโพสต์ {merged_discussion_title} ของคุณถูก {actor_display_name} รวมเข้ากับ {discussion_title} แล้ว\n\nดูได้ที่ {discussion_url}\n",
-                "subject": "โพสต์ \"{merged_discussion_title}\" ของคุณถูกรวมแล้ว"
+                "body": "สวัสดีคุณ {recipient_display_name},\n\nโพสต์ {merged_discussion_title} ของคุณถูกนำมารวมเข้ากับโพสต์ {discussion_title} โดย {actor_display_name} เรียบร้อยแล้ว\n\nสามารถเปิดดูโพสต์ได้จากลิงก์ต่อไปนี้:\n{discussion_url}\n",
+                "subject": "โพสต์ \"{merged_discussion_title}\" ของคุณได้รับการรวมโพสต์แล้ว"
             }
         }
     }

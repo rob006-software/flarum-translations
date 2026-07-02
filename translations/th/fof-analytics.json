@@ -4,34 +4,34 @@
             "popup": {
                 "section": {
                     "googleAnalytics": "Google Analytics",
-                    "piwik": "ถึง"
+                    "piwik": "Matomo"
                 },
                 "field": {
-                    "statusGoogle": "เปิดใช้งาน",
-                    "optTrackingCode": "ตัวเลือก",
-                    "googleTrackingCode": "Tracking Code ID",
-                    "googleGTMCode": "ตัวเลือก",
-                    "statusPiwik": "เปิดใช้งาน",
-                    "piwikUrl": "URL",
-                    "piwikSiteId": "Site ID",
-                    "piwikTrackSubdomain": "domain",
-                    "piwikPrependDomain": "ชื่อเรื่อง",
-                    "piwikHideAliasUrl": "ซ่อน",
-                    "piwikAliasUrl": "URL",
-                    "piwikTrackAccounts": "ผู้ใช้",
-                    "piwikAuthToken": "ตกลง"
+                    "statusGoogle": "เปิดใช้งาน Google Analytics (UA/GA4)",
+                    "optTrackingCode": "รหัสการติดตาม Google Optimize (ระบุหรือไม่ก็ได้)",
+                    "googleTrackingCode": "ไอดีรหัสการติดตาม (Tracking Code ID)",
+                    "googleGTMCode": "ไอดีรหัส GTM (GTM Code ID - ระบุหรือไม่ก็ได้)",
+                    "statusPiwik": "เปิดใช้งาน Matomo",
+                    "piwikUrl": "โดเมนหรือ URL ของ Matomo",
+                    "piwikSiteId": "ไอดีเว็บไซต์ (Site ID)",
+                    "piwikTrackSubdomain": "ติดตามผู้เยี่ยมชมในทุกโดเมนย่อย (Subdomain) ของ Flarum",
+                    "piwikPrependDomain": "เพิ่มโดเมนของไซต์ไว้ข้างหน้าชื่อหน้าเว็บเมื่อติดตาม",
+                    "piwikHideAliasUrl": "ซ่อนการคลิกไปยังลิงก์นามแฝง (Alias URL) ที่รู้จักในรายงาน \"ลิงก์ภายนอก\"",
+                    "piwikAliasUrl": "ลิงก์นามแฝง (Alias URL)",
+                    "piwikTrackAccounts": "ติดตามบัญชีผู้ใช้แต่ละคน",
+                    "piwikAuthToken": "โทเค็นการยืนยันตัวตน (Authentication Token)"
                 },
                 "placeholder": {
-                    "piwikAuthToken": "เปิดใช้งาน"
+                    "piwikAuthToken": "ใส่โทเค็นนี้เพื่อเปิดใช้งานวิดเจ็ตสถิติ Matomo ในแผงควบคุมผู้ดูแลระบบ\nคุณสามารถค้นหาโทเค็นนี้ได้ที่การตั้งค่า > ส่วนตัว > โทเค็นยืนยันตัวตน API (API Authentication Token)\n"
                 },
                 "trackAccounts": {
-                    "none": "ไม่",
-                    "username": "ชื่อ",
-                    "email": "email"
+                    "none": "ไม่ติดตาม",
+                    "username": "ติดตามด้วยชื่อผู้ใช้",
+                    "email": "ติดตามด้วยอีเมล"
                 }
             },
             "matomo-widget": {
-                "title": "ถึง"
+                "title": "Matomo"
             }
         }
     }

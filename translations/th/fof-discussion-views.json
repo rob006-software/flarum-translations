@@ -3,27 +3,27 @@
         "forum": {
             "index_sort": {
                 "popular_button": "ยอดนิยม",
-                "unpopular_button": "ไม่เป็นที่นิยม"
+                "unpopular_button": "ยอดเข้าชมน้อยที่สุด"
             }
         }
     },
     "fof-discussion-views": {
         "forum": {
             "modal_resetviews": {
-                "title": "รีเซ็ตจำนวนการดูโพสต์",
-                "submit": "ยืนยัน",
-                "label": "ตั้งจำนวนการดูเป็น"
+                "title": "รีเซ็ตจำนวนยอดเข้าชมโพสต์",
+                "submit": "ส่งข้อมูล",
+                "label": "กำหนดจำนวนยอดเข้าชมเป็น"
             },
             "discussion_controls": {
-                "resetviews_button": "ตั้งจำนวนการดู"
+                "resetviews_button": "กำหนดจำนวนยอดเข้าชม"
             }
         },
         "admin": {
             "permissions": {
-                "reset_views_label": "ตั้งจำนวนการดูโพสต์"
+                "reset_views_label": "กำหนดจำนวนยอดเข้าชมโพสต์"
             },
             "settings": {
-                "ignore_crawlers": "ไม่นับการเข้าชมจาก Crawler"
+                "ignore_crawlers": "ไม่นับการเข้าชมจากบอทเก็บข้อมูล (Crawler)"
             }
         }
     }
