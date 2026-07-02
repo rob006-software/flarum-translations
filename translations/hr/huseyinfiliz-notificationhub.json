@@ -8,6 +8,13 @@
                 "send_all": "Pošalji obavijesti svim korisnicima",
                 "send_user": "Slanje obavijesti pojedinačnim korisnicima"
             },
+            "recipient_kinds": {
+                "user": "",
+                "group": ""
+            },
+            "modal_notification": {
+                "recipients_placeholder": ""
+            },
             "settings": {
                 "add_button": "Dodaj vrstu obavijesti",
                 "no_data": "Još nema vrsta obavijesti.",
@@ -24,7 +31,12 @@
                     "default_url": "Zadana poveznica",
                     "default_recipients": "Zadani primatelji",
                     "sort_order": "Poredak sortiranja",
-                    "active": "Aktivno"
+                    "active": "Aktivno",
+                    "color_invalid": "",
+                    "preview": "",
+                    "preview_placeholder": "",
+                    "permission_help": "",
+                    "permission_placeholder": ""
                 },
                 "save": "Spremi",
                 "edit_notification_type": "Uredi vrstu obavijesti",
@@ -68,7 +80,9 @@
             "url_too_long": "",
             "invalid_url_scheme": "",
             "sort_order_invalid": "",
-            "field_too_long": ""
+            "field_too_long": "",
+            "invalid_color": "",
+            "multiple_recipients_not_allowed": ""
         }
     }
 }

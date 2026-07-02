@@ -8,6 +8,13 @@
                 "send_all": "Üye gruplarına bildirim gönderebilir",
                 "send_user": "Üyelere bildirim gönderebilir"
             },
+            "recipient_kinds": {
+                "user": "",
+                "group": ""
+            },
+            "modal_notification": {
+                "recipients_placeholder": ""
+            },
             "settings": {
                 "add_button": "Bildirim Türü Ekle",
                 "no_data": "Henüz bildirim türü eklenmemiş.",
@@ -24,7 +31,12 @@
                     "default_url": "Varsayılan Bağlantı",
                     "default_recipients": "Varsayılan Alıcılar",
                     "sort_order": "Sıralaması",
-                    "active": "Aktif"
+                    "active": "Aktif",
+                    "color_invalid": "",
+                    "preview": "",
+                    "preview_placeholder": "",
+                    "permission_help": "",
+                    "permission_placeholder": ""
                 },
                 "save": "Kaydet",
                 "edit_notification_type": "Bildirim Türünü Düzenle",
@@ -68,7 +80,9 @@
             "url_too_long": "",
             "invalid_url_scheme": "",
             "sort_order_invalid": "",
-            "field_too_long": ""
+            "field_too_long": "",
+            "invalid_color": "",
+            "multiple_recipients_not_allowed": ""
         }
     }
 }

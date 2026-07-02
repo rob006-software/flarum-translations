@@ -8,6 +8,13 @@
                 "send_all": "Saada teavitused kõigile kasutajatele",
                 "send_user": "Saada teavitused ühksikutele kasutajatele"
             },
+            "recipient_kinds": {
+                "user": "",
+                "group": ""
+            },
+            "modal_notification": {
+                "recipients_placeholder": ""
+            },
             "settings": {
                 "add_button": "Lisa teavituse liik",
                 "no_data": "Ühtegi teavituse liiki pole veel.",
@@ -24,7 +31,12 @@
                     "default_url": "Vaikimisi link",
                     "default_recipients": "Vaikimisi saajad",
                     "sort_order": "Sorteerimise järjekord",
-                    "active": "Aktiivne"
+                    "active": "Aktiivne",
+                    "color_invalid": "",
+                    "preview": "",
+                    "preview_placeholder": "",
+                    "permission_help": "",
+                    "permission_placeholder": ""
                 },
                 "save": "Salvesta",
                 "edit_notification_type": "Muuda teavituse liiki",
@@ -68,7 +80,9 @@
             "url_too_long": "",
             "invalid_url_scheme": "",
             "sort_order_invalid": "",
-            "field_too_long": ""
+            "field_too_long": "",
+            "invalid_color": "",
+            "multiple_recipients_not_allowed": ""
         }
     }
 }

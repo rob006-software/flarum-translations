@@ -8,6 +8,13 @@
                 "send_all": "Benachrichtigungen an alle Benutzer senden",
                 "send_user": "Benachrichtigungen an einzelne Benutzer senden"
             },
+            "recipient_kinds": {
+                "user": "",
+                "group": ""
+            },
+            "modal_notification": {
+                "recipients_placeholder": ""
+            },
             "settings": {
                 "add_button": "Benachrichtigungsart hinzufügen",
                 "no_data": "Noch keine Benachrichtigungsarten.",
@@ -24,7 +31,12 @@
                     "default_url": "Standardlink",
                     "default_recipients": "Standardempfänger",
                     "sort_order": "Sortierreihenfolge",
-                    "active": "Aktiv"
+                    "active": "Aktiv",
+                    "color_invalid": "",
+                    "preview": "",
+                    "preview_placeholder": "",
+                    "permission_help": "",
+                    "permission_placeholder": ""
                 },
                 "save": "Speichern",
                 "edit_notification_type": "Benachrichtigungsart bearbeiten",
@@ -68,7 +80,9 @@
             "url_too_long": "URL darf nicht länger als 2048 Zeichen sein.",
             "invalid_url_scheme": "Ungültiges URL-Schema. Es sind nur HTTP-, HTTPS-, mailto-, tel- oder relative Links zulässig.",
             "sort_order_invalid": "Die Sortierreihenfolge muss eine nicht-negative Zahl sein.",
-            "field_too_long": "Dieses Feld ist zu lang."
+            "field_too_long": "Dieses Feld ist zu lang.",
+            "invalid_color": "",
+            "multiple_recipients_not_allowed": ""
         }
     }
 }
