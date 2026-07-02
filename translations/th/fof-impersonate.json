@@ -2,24 +2,24 @@
     "fof-impersonate": {
         "admin": {
             "permissions": {
-                "login": "Login ในนามผู้ใช้คนอื่น"
+                "login": "เข้าสู่ระบบในฐานะผู้ใช้อื่น (Impersonate)"
             },
             "settings": {
-                "title": "FoF Impersonate",
-                "require_reason": "ต้องระบุเหตุผลก่อนดำเนินการเข้าสู่ระบบในฐานะผู้ใช้คนอื่น",
-                "no_settings_available": "ขณะนี้ยังไม่มีการตั้งค่าให้ใช้งาน ลองติดตั้ง fof/moderator-notes"
+                "title": "สวมบทบาทผู้ใช้ (FoF Impersonate)",
+                "require_reason": "บังคับให้ต้องระบุเหตุผลก่อนเข้าสู่ระบบในฐานะผู้ใช้อื่น",
+                "no_settings_available": "ยังไม่มีการตั้งค่าใดๆ ในขณะนี้ ลองติดตั้งส่วนขยาย fof/moderator-notes"
             }
         },
         "lib": {
             "modal": {
-                "title": "Login ในนามผู้ใช้คนอื่น",
-                "label": "อำนาจมากย่อมมาพร้อมความรับผิดชอบมาก หากดำเนินการต่อ คุณจะกลายเป็น {username} จนกว่าจะ logout",
-                "placeholder_optional": "(ไม่บังคับ) ระบุเหตุผลในการเปลี่ยนไปใช้บัญชีนี้",
-                "placeholder_required": "คุณต้องระบุเหตุผลในการเปลี่ยนไปใช้บัญชีนี้ก่อนดำเนินการต่อ",
-                "impersonate_username": "Login ในนาม {username}"
+                "title": "เข้าสู่ระบบในฐานะผู้ใช้อื่น",
+                "label": "พลังอันยิ่งใหญ่มาพร้อมกับความรับผิดชอบอันใหญ่ยิ่ง หากคุณดำเนินการต่อ คุณจะสวมบทบาทเข้าใช้งานเป็น {username} จนกว่าคุณจะออกจากระบบ",
+                "placeholder_optional": "(ไม่บังคับ) ระบุเหตุผลในการเข้าใช้งานเป็นผู้ใช้นี้",
+                "placeholder_required": "คุณจำเป็นต้องระบุเหตุผลในการเข้าใช้งานเป็นผู้ใช้นี้ก่อนที่จะดำเนินการต่อ",
+                "impersonate_username": "เข้าสู่ระบบในฐานะ {username}"
             },
             "user_controls": {
-                "impersonate_button": "Login ในนามผู้ใช้นี้"
+                "impersonate_button": "สวมบทบาทเป็นผู้ใช้นี้"
             }
         }
     }

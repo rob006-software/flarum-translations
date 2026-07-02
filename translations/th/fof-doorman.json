@@ -4,26 +4,26 @@
             "ref": {
                 "fields": {
                     "key": {
-                        "label": "Key",
-                        "help": "โค้ดที่ผู้ใช้จะต้องกรอกเมื่อสมัครสมาชิก"
+                        "label": "รหัสเชิญ (Key)",
+                        "help": "โค้ดที่ผู้ใช้ต้องกรอกเมื่อสมัครสมาชิก"
                     },
                     "group": {
-                        "label": "กลุ่ม",
-                        "help": "กลุ่มที่ผู้ใช้จะถูกเพิ่มเข้าเมื่อสมัครสมาชิกด้วย Invite Code นี้"
+                        "label": "กลุ่มผู้ใช้",
+                        "help": "กลุ่มที่ผู้ใช้จะถูกเพิ่มเข้าโดยอัตโนมัติเมื่อลงทะเบียนด้วยรหัสเชิญนี้"
                     },
                     "max_uses": {
-                        "label": "จำนวนครั้งสูงสุด",
-                        "help": "จำนวนครั้งสูงสุดที่โค้ดนี้สามารถใช้ได้ ตั้งเป็น 0 เพื่อไม่จำกัด"
+                        "label": "จำนวนครั้งสูงสุดที่ใช้ได้",
+                        "help": "จำนวนครั้งสูงสุดที่รหัสเชิญนี้สามารถนำไปใช้งานได้ กำหนดเป็น 0 เพื่อไม่จำกัดจำนวนครั้ง"
                     },
                     "activates_user": {
                         "label": "เปิดใช้งานบัญชีอัตโนมัติ",
-                        "help": "เปิดใช้งานบัญชีผู้ใช้โดยอัตโนมัติเมื่อสมัครสมาชิก"
+                        "help": "เปิดใช้งานบัญชีผู้ใช้ทันทีเมื่อสมัครสมาชิกสำเร็จ"
                     }
                 }
             },
             "modals": {
                 "create_doorkey": {
-                    "title": "สร้าง Invite Code ใหม่",
+                    "title": "สร้างรหัสเชิญใหม่",
                     "key": {
                         "label": "=> fof-doorman.admin.ref.fields.key.label",
                         "help": "=> fof-doorman.admin.ref.fields.key.help"
@@ -40,11 +40,11 @@
                         "label": "=> fof-doorman.admin.ref.fields.activates_user.label",
                         "help": "=> fof-doorman.admin.ref.fields.activates_user.help"
                     },
-                    "submit_button": "สร้าง Invite Code",
-                    "submit_and_create_another_button": "สร้างและเพิ่มอีก"
+                    "submit_button": "สร้างรหัสเชิญ",
+                    "submit_and_create_another_button": "สร้างและเพิ่มรายการอื่นต่อ"
                 },
                 "edit_doorkey": {
-                    "title": "แก้ไข Invite Code",
+                    "title": "แก้ไขรหัสเชิญ",
                     "key": {
                         "label": "=> fof-doorman.admin.ref.fields.key.label",
                         "help": "=> fof-doorman.admin.ref.fields.key.help"
@@ -64,21 +64,21 @@
                     "submit_button": "บันทึกการเปลี่ยนแปลง"
                 },
                 "send_invites": {
-                    "title": "ส่ง Invite Code",
-                    "group": "กำลังส่งคำเชิญสำหรับกลุ่ม {group}",
-                    "help": "รองรับการคั่นด้วยเครื่องหมายจุลภาค ช่องว่าง หรือทั้งสองอย่าง พิมพ์ Email ทีละรายการหรือวางรายการแล้วกด Space เพื่อเพิ่ม",
-                    "placeholder": "กรอก Email ที่นี่",
-                    "invalid_emails": "Email ต่อไปนี้ไม่ถูกต้อง: {emails}",
-                    "max_use_conflict": "จำนวน Email เกินจำนวนครั้งสูงสุดที่อนุญาตสำหรับโค้ดนี้",
-                    "send": "ส่ง Email",
-                    "success": "ส่ง Email สำเร็จแล้ว"
+                    "title": "ส่งรหัสเชิญ",
+                    "group": "ส่งคำเชิญสำหรับกลุ่ม {group}",
+                    "help": "กรอกอีเมลคั่นด้วยเครื่องหมายจุลภาค (,), เว้นวรรค หรือกด Spacebar หลังจากพิมพ์อีเมลแต่ละตัวเพื่อเพิ่มรายการ",
+                    "placeholder": "ระบุที่อยู่อีเมลที่นี่",
+                    "invalid_emails": "ที่อยู่อีเมลต่อไปนี้ไม่ถูกต้อง: {emails}",
+                    "max_use_conflict": "จำนวนอีเมลที่ระบุเกินจำนวนครั้งการใช้งานสูงสุดที่เหลือสำหรับรหัสเชิญนี้",
+                    "send": "ส่งอีเมลคำเชิญ",
+                    "success": "ส่งอีเมลคำเชิญสำเร็จแล้ว"
                 }
             },
             "settings": {
-                "search": "ค้นหา Doorkey",
-                "total_doorkeys": "Doorkey ทั้งหมด: {count}",
-                "create_doorkey_button": "สร้าง Invite Code",
-                "optional_usage": "ทำให้ Invite Code เป็นตัวเลือก (ไม่บังคับ) เมื่อสมัครสมาชิก"
+                "search": "ค้นหารหัสเชิญ",
+                "total_doorkeys": "รหัสเชิญทั้งหมด: {count}",
+                "create_doorkey_button": "สร้างรหัสเชิญ",
+                "optional_usage": "เปิดให้การกรอกรหัสเชิญเป็นตัวเลือก (ไม่บังคับ) เมื่อลงทะเบียน"
             },
             "list": {
                 "columns": {
@@ -88,17 +88,17 @@
                     "max_uses": "=> fof-doorman.admin.ref.fields.max_uses.label",
                     "activates_user": "=> fof-doorman.admin.ref.fields.activates_user.label",
                     "manage": "จัดการ",
-                    "uses": "ใช้ไปแล้ว",
+                    "uses": "จำนวนครั้งที่ใช้",
                     "created_by": "สร้างโดย"
                 },
                 "content": {
                     "invalid_column": "=> core.admin.users.grid.invalid_column_content",
                     "no_group": "=> core.admin.users.grid.columns.group_badges.no_badges",
-                    "warning": "Invite Code นี้ถูกใช้ครบจำนวนสูงสุดแล้ว",
-                    "delete": "คุณแน่ใจหรือไม่ว่าต้องการลบ Invite Code \"{key}\"?",
+                    "warning": "รหัสเชิญนี้ถูกใช้งานจนครบจำนวนจำกัดสูงสุดแล้ว",
+                    "delete": "คุณแน่ใจหรือไม่ว่าต้องการลบรหัสเชิญ \"{key}\"?",
                     "uses": {
-                        "used_times": "{remaining, plural, =0 {ใช้ได้ไม่จำกัด} one {เหลือ {remainingUses} ครั้ง} other {เหลือ {remainingUses} ครั้ง}}",
-                        "total_uses": "{totalUses, plural, one {ใช้ไปแล้ว {totalUses} ครั้ง} other {ใช้ไปแล้ว {totalUses} ครั้ง}}"
+                        "used_times": "{remaining, plural, =0 {ใช้งานได้ไม่จำกัด} one {เหลือการใช้งานอีก {remainingUses} ครั้ง} other {เหลือการใช้งานอีก {remainingUses} ครั้ง}}",
+                        "total_uses": "{totalUses, plural, other {ใช้งานไปแล้ว {totalUses} ครั้ง}}"
                     },
                     "no_created_by": "ผู้ใช้ที่ไม่รู้จัก"
                 },
@@ -114,15 +114,15 @@
         },
         "forum": {
             "sign_up": {
-                "invalid_doorkey": "Invite Code ที่คุณกรอกไม่ถูกต้อง",
-                "doorkey_required": "กรุณากรอก Invite Code",
-                "doorman_placeholder": "Invite Code",
-                "doorman_placeholder_optional": "Invite Code (ไม่บังคับ)"
+                "invalid_doorkey": "รหัสเชิญที่คุณระบุไม่ถูกต้อง",
+                "doorkey_required": "กรุณาระบุรหัสเชิญ",
+                "doorman_placeholder": "รหัสเชิญ (Invite Code)",
+                "doorman_placeholder_optional": "รหัสเชิญ (Invite Code - ระบุหรือไม่ก็ได้)"
             }
         },
         "email": {
-            "subject": "คำเชิญเข้าร่วม",
-            "body": "สวัสดี\n\nคุณได้รับเชิญให้สมัครสมาชิกที่ {forum}\n\nเมื่อคุณพร้อมสร้างบัญชีแล้ว เพียงคลิกลิงก์ด้านล่างและกรอกโค้ดเมื่อสมัคร:\n\nURL: {url}\nInvite Code: {code}\n\nหากคุณได้รับ Email นี้โดยไม่ได้ตั้งใจ กรุณาเพิกเฉยต่อ Email นี้\n"
+            "subject": "คุณได้รับคำเชิญให้เข้าร่วมชุมชน",
+            "body": "สวัสดี,\n\nคุณได้รับคำเชิญให้สมัครสมาชิกและเข้าร่วมบอร์ด {forum}\n\nเมื่อคุณพร้อมที่จะสร้างบัญชีของคุณ เพียงคลิกที่ลิงก์ต่อไปนี้แล้วกรอกรหัสเชิญด้านล่างในขั้นตอนการสมัครสมาชิก:\n\nURL: {url}\nรหัสเชิญ (Invite Code): {code}\n\nหากคุณได้รับอีเมลนี้ด้วยความผิดพลาด โปรดเพิกเฉยหรือลบอีเมลฉบับนี้ได้ทันที\n"
         }
     }
 }

@@ -3,18 +3,18 @@
         "admin": {
             "settings": {
                 "title": "FriendsOfFlarum Open Collective",
-                "use_legacy_api_key_label": "ใช้ Legacy Application API Key",
-                "use_legacy_api_key_help": "หากคุณมี API key แบบเก่า คุณยังคงใช้ต่อได้ แต่แนะนำให้เปลี่ยนไปใช้ Personal Token ปัจจุบัน personal token ดูเหมือนจะทำงานในโหมด API Key (คือใช้ header \"API-Key\") แต่ยังไม่มีเอกสารยืนยัน\n",
-                "api_key_label": "Application API Key (เลิกใช้แล้ว)",
-                "api_key_help": "วิธีการยืนยันตัวตนนี้เลิกใช้แล้ว กรุณาพิจารณาเปลี่ยนไปใช้ Personal Token",
-                "personal_token_label": "Personal Token",
-                "personal_token_help": "สร้าง personal token ที่ <a>https://opencollective.com/applications</a> token นี้ใช้สำหรับดึงข้อมูล backer จาก Open Collective",
-                "slug_label": "Collective Slug",
-                "slug_help": "ใส่ slug ของ collective บน Open Collective (ส่วนที่อยู่หลัง opencollective.com/ ใน URL ของ collective คุณ)",
-                "group_label": "กลุ่มสมาชิกรายเดือน",
-                "group_help": "เลือก group ผู้ใช้ใน Flarum สำหรับสมาชิกรายเดือน ผู้ใช้จะถูกเพิ่มโดยอัตโนมัติเมื่อเป็นสมาชิกรายเดือน และย้ายไปยัง group ครั้งเดียว (ถ้ากำหนด) เมื่อสมาชิกภาพสิ้นสุด",
-                "onetime_group_label": "กลุ่มสมาชิกครั้งเดียว (ไม่บังคับ)",
-                "onetime_group_help": "เลือก group ผู้ใช้ใน Flarum สำหรับสมาชิกแบบครั้งเดียว หากไม่ได้ตั้งค่า สมาชิกครั้งเดียวจะไม่ถูกจัดการ เมื่อสมาชิกรายเดือนยกเลิกสมาชิกภาพ พวกเขาจะถูกย้ายมายัง group นี้"
+                "use_legacy_api_key_label": "ใช้รหัส API Key ของแอปพลิเคชันแบบดั้งเดิม (Legacy API Key)",
+                "use_legacy_api_key_help": "หากคุณมีรหัส API Key แบบเก่า คุณยังคงสามารถใช้งานต่อได้ แต่แนะนำให้เปลี่ยนไปใช้ Personal Token แทน ในปัจจุบันรหัส Personal Token ดูเหมือนจะทำงานในโหมด API Key ได้เช่นกัน (คือระบุในข้อมูลส่วนหัว \"API-Key\") แต่ไม่มีระบุอย่างเป็นทางการในเอกสารคู่มือ\n",
+                "api_key_label": "รหัส API Key ของแอปพลิเคชัน (เลิกใช้งานแล้ว)",
+                "api_key_help": "วิธีการยืนยันตัวตนรูปแบบนี้เลิกใช้งานแล้ว โปรดพิจารณาเปลี่ยนไปใช้รหัสโทเค็นส่วนบุคคล (Personal Token) แทน",
+                "personal_token_label": "รหัสโทเค็นส่วนบุคคล (Personal Token)",
+                "personal_token_help": "สร้างรหัสโทเค็นส่วนบุคคลของคุณได้ที่ <a>https://opencollective.com/applications</a> รหัสโทเค็นนี้จะใช้สำหรับดึงข้อมูลรายละเอียดผู้สนับสนุนของคุณจาก Open Collective",
+                "slug_label": "ชื่อระบุ Collective (Collective Slug)",
+                "slug_help": "กรอกชื่อระบุ Collective บน Open Collective ของคุณ (ส่วนข้อมูลที่อยู่ตามหลัง opencollective.com/ ในลิงก์ URL ของคุณ)",
+                "group_label": "กลุ่มผู้ใช้สำหรับผู้สนับสนุนแบบรายเดือน (Recurring Backers)",
+                "group_help": "เลือกกลุ่มผู้ใช้ของ Flarum ที่จะใช้จัดเก็บสมาชิกผู้สนับสนุนแบบรายเดือน โดยผู้ใช้จะได้รับการเพิ่มเข้ากลุ่มนี้โดยอัตโนมัติเมื่อพวกเขาเป็นผู้สนับสนุนรายเดือน และจะถูกย้ายไปยังกลุ่มผู้สนับสนุนแบบครั้งเดียว (หากมีการตั้งค่าไว้) เมื่อหมดอายุสิทธิ์สนับสนุนแบบรายเดือน",
+                "onetime_group_label": "กลุ่มผู้ใช้สำหรับผู้สนับสนุนแบบครั้งเดียว (ระบุหรือไม่ก็ได้)",
+                "onetime_group_help": "เลือกกลุ่มผู้ใช้ของ Flarum ที่จะใช้สำหรับกลุ่มสมาชิกผู้สนับสนุนแบบครั้งเดียว หากไม่กำหนดค่าไว้ กลุ่มผู้สนับสนุนแบบครั้งเดียวจะไม่ได้รับการบริหารจัดการระบบ เมื่อสมาชิกผู้สนับสนุนรายเดือนยกเลิกการสมัครใช้งาน พวกเขาจะถูกย้ายมายังกลุ่มผู้ใช้นี้แทน"
             }
         }
     }

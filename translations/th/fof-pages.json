@@ -4,13 +4,13 @@
             "edit_page": {
                 "content_label": "=> fof-pages.ref.content",
                 "content_placeholder": "=> fof-pages.ref.content",
-                "delete_page_button": "ลบหน้านี้",
-                "delete_page_confirmation": "คุณแน่ใจหรือไม่ว่าต้องการลบหน้านี้?",
-                "hidden_label": "บันทึกเป็นแบบร่าง",
-                "restricted_label": "จำกัดการเข้าถึง (ตั้งค่าในแท็บสิทธิ์)",
+                "delete_page_button": "ลบหน้าเพจนี้",
+                "delete_page_confirmation": "คุณแน่ใจหรือไม่ว่าต้องการลบหน้าเพจนี้?",
+                "hidden_label": "บันทึกเป็นแบบร่าง (ซ่อนหน้าเพจ)",
+                "restricted_label": "จำกัดการเข้าถึงหน้าเพจนี้ (สามารถกำหนดผู้มีสิทธิ์ใช้งานได้ในหน้าการตั้งค่าสิทธิ์)",
                 "html_label": "เปิดใช้งาน HTML",
-                "set_as_home_page_confirmation": "คุณแน่ใจหรือไม่ว่าต้องการตั้งหน้านี้เป็นหน้าแรก?",
-                "set_as_home_page_done": "อัปเดตหน้าแรกเรียบร้อยแล้ว",
+                "set_as_home_page_confirmation": "คุณแน่ใจหรือไม่ว่าต้องการระบุหน้าเพจนี้ให้เป็นหน้าแรกของเว็บไซต์?",
+                "set_as_home_page_done": "ปรับเปลี่ยนหน้าแรกของเว็บไซต์เสร็จสิ้น",
                 "slug_label": "=> fof-pages.ref.slug",
                 "slug_placeholder": "=> fof-pages.ref.slug",
                 "submit_button": "=> core.ref.save_changes",
@@ -24,24 +24,24 @@
                 "create_button": "=> fof-pages.ref.create_page"
             },
             "pages_list": {
-                "empty_text": "ดูเหมือนยังไม่มีหน้าใดเลย",
+                "empty_text": "ดูเหมือนว่าจะยังไม่มีหน้าเพจใดถูกสร้างขึ้นในขณะนี้",
                 "title": "=> fof-pages.ref.title"
             },
             "permissions": {
-                "restricted": "ดูหน้าที่จำกัดการเข้าถึง"
+                "restricted": "เข้าดูหน้าเพจที่จำกัดสิทธิ์ไว้"
             },
             "badges": {
                 "hidden": "แบบร่าง",
-                "restricted": "จำกัดการเข้าถึง"
+                "restricted": "จำกัดสิทธิ์เข้าถึง"
             }
         },
         "ref": {
-            "content": "เนื้อหา",
-            "create_page": "สร้างหน้าใหม่",
-            "pages": "หน้า",
-            "slug": "Slug",
-            "title": "ชื่อ",
-            "url": "URL"
+            "content": "เนื้อหาหน้าเพจ",
+            "create_page": "สร้างหน้าเพจใหม่",
+            "pages": "หน้าเพจทั้งหมด",
+            "slug": "ชื่อใน URL (Slug)",
+            "title": "ชื่อหน้าเพจ",
+            "url": "ที่อยู่ลิงก์ URL"
         }
     }
 }
