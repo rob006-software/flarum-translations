@@ -1,0 +1,86 @@
+{
+    "fof-upgrade-advisor": {
+        "admin": {
+            "overall": {
+                "subtitle": "Readiness for upgrading to Flarum {version}.",
+                "pass": "Your forum looks ready for Flarum {version}",
+                "warning": "Your forum is nearly ready for Flarum {version}",
+                "fail": "Your forum is not ready for Flarum {version} yet"
+            },
+            "categories": {
+                "environment": "Server environment",
+                "database": "Database",
+                "extensions": "Extensions"
+            },
+            "checks": {
+                "php-version": {
+                    "title": "PHP version",
+                    "pass": "Running PHP {current}.",
+                    "warning": "Could not determine the PHP version.",
+                    "fail": "PHP {current} is installed, but {required} or newer is required."
+                },
+                "database-version": {
+                    "title": "Database version",
+                    "pass": "Running {current}.",
+                    "warning_unknown": "Could not determine the database server version.",
+                    "warning_below_recommended": "{current} works, but {recommended} or newer is recommended for the best experience.",
+                    "fail": "{current} is installed, but at least {required} is required for Flarum 2.0."
+                },
+                "extension-compatibility": {
+                    "title": "Extension compatibility",
+                    "pass": "All {current} enabled extensions are ready.",
+                    "warning": "{current} enabled extensions could not be checked — they may be premium extensions or from private repositories. Add access under the Repositories tab.",
+                    "fail": "{current} enabled extensions need action before upgrading."
+                }
+            },
+            "extensions": {
+                "name": "Extension",
+                "installed": "Installed",
+                "status": "Status",
+                "compatible": "Compatible ({version})",
+                "incompatible": "No compatible release (latest {version})",
+                "unknown": "Not found — premium or private? Configure repository access",
+                "contact": {
+                    "label": "Ask about 2.0 plans:",
+                    "forum": "Support thread",
+                    "issues": "Issues",
+                    "source": "Source"
+                },
+                "superseded_into_core": "Remove — now built into core",
+                "superseded_replaced": "Remove before upgrading, then install {replacement} once the upgrade completes",
+                "superseded_self": "Remove this advisor as the final upgrade step",
+                "abandoned": "Abandoned — no maintained replacement",
+                "abandoned_replacement": "Abandoned — replaced by {replacement}",
+                "abandoned_replacement_ready": "Abandoned — switch to {replacement}, which has a 2.0-ready release ✓",
+                "abandoned_replacement_not_ready": "Abandoned — replacement {replacement} is not 2.0-ready yet"
+            },
+            "tabs": {
+                "report": "Readiness report",
+                "repositories": "Repositories"
+            },
+            "repositories": {
+                "help": "Add private or marketplace Composer repositories so the advisor can check extensions that aren't on public Packagist. Used only when an extension can't be found on Packagist.\n",
+                "empty": "No additional repositories configured.",
+                "add_floxum": "Add Floxum",
+                "add_composer": "Add repository",
+                "type_floxum": "Floxum",
+                "type_composer": "Private Packagist / Custom",
+                "url": "Repository URL",
+                "username": "Username",
+                "token": "Token",
+                "remove": "Remove repository",
+                "test": "Test connection",
+                "test_ok": "Connected",
+                "test_fail_auth": "Authentication failed — check the token",
+                "test_fail_unreachable": "Could not reach the repository",
+                "test_fail_invalid": "Invalid response — check the URL"
+            },
+            "actions": {
+                "recheck": "Re-run checks"
+            },
+            "errors": {
+                "load_failed": "Could not run the readiness checks. Please try again."
+            }
+        }
+    }
+}
