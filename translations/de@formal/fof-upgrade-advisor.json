@@ -2,84 +2,84 @@
     "fof-upgrade-advisor": {
         "admin": {
             "overall": {
-                "subtitle": "",
-                "pass": "",
-                "warning": "",
-                "fail": ""
+                "subtitle": "Bereitschaft für ein Upgrade auf Flarum {version}.",
+                "pass": "Dein Forum scheint für Flarum {version} bereit zu sein",
+                "warning": "Dein Forum ist fast bereit für Flarum {version}",
+                "fail": "Dein Forum ist noch nicht für Flarum {version} bereit"
             },
             "categories": {
-                "environment": "",
-                "database": "",
-                "extensions": ""
+                "environment": "Serverumgebung",
+                "database": "Datenbank",
+                "extensions": "Erweiterungen"
             },
             "checks": {
                 "php-version": {
-                    "title": "",
-                    "pass": "",
-                    "warning": "",
-                    "fail": ""
+                    "title": "PHP-Version",
+                    "pass": "PHP {current} wird eingesetzt.",
+                    "warning": "Die PHP-Version konnte nicht ermittelt werden.",
+                    "fail": "PHP {current} ist installiert, es wird jedoch {required} oder eine neuere Version benötigt."
                 },
                 "database-version": {
-                    "title": "",
-                    "pass": "",
-                    "warning_unknown": "",
-                    "warning_below_recommended": "",
-                    "fail": ""
+                    "title": "Datenbank-Version",
+                    "pass": "{current} wird eingesetzt.",
+                    "warning_unknown": "Die Version des Datenbankservers konnte nicht ermittelt werden.",
+                    "warning_below_recommended": "{current} funktioniert zwar, für ein optimales Erlebnis wird jedoch {recommended} oder eine neuere Version empfohlen.",
+                    "fail": "{current} ist installiert, aber für Flarum 2.0 ist mindestens {required} erforderlich."
                 },
                 "extension-compatibility": {
-                    "title": "",
-                    "pass": "",
-                    "warning": "",
-                    "fail": ""
+                    "title": "Erweiterungskompatibilität",
+                    "pass": "Alle {current} aktivierten Erweiterungen sind bereit.",
+                    "warning": "{current} aktivierte Erweiterungen konnten nicht überprüft werden – möglicherweise handelt es sich um Premium-Erweiterungen oder um Erweiterungen aus privaten Repositories. Füge den Zugriff auf der Registerkarte „Repositories“ hinzu.",
+                    "fail": "Bei {current} aktivierten Erweiterungen sind vor dem Upgrade Maßnahmen erforderlich."
                 }
             },
             "extensions": {
-                "name": "",
-                "installed": "",
-                "status": "",
-                "compatible": "",
-                "incompatible": "",
-                "unknown": "",
+                "name": "Erweiterung",
+                "installed": "Installiert",
+                "status": "Status",
+                "compatible": "Kompatibel ({version})",
+                "incompatible": "Keine kompatible Version (neueste {version})",
+                "unknown": "Nicht gefunden – Premium oder privat? Konfiguriere den Repository-Zugriff",
                 "contact": {
-                    "label": "",
-                    "forum": "",
-                    "issues": "",
-                    "source": ""
+                    "label": "Frage nach den Plänen für 2.0:",
+                    "forum": "Support-Thread",
+                    "issues": "Issues",
+                    "source": "Quellcode"
                 },
-                "superseded_into_core": "",
-                "superseded_replaced": "",
-                "superseded_self": "",
-                "abandoned": "",
-                "abandoned_replacement": "",
-                "abandoned_replacement_ready": "",
-                "abandoned_replacement_not_ready": ""
+                "superseded_into_core": "Entfernen – ab jetzt in Flarum Core integriert",
+                "superseded_replaced": "Vor dem Upgrade entfernen und nach Abschluss des Upgrades {replacement} installieren",
+                "superseded_self": "Entferne diesen Advisor als letzten Schritt des Upgrades",
+                "abandoned": "Aufgegeben – keine gepflegte Ersatzlösung",
+                "abandoned_replacement": "Aufgegeben – ersetzt durch {replacement}",
+                "abandoned_replacement_ready": "Aufgegeben – Wechsel zu {replacement}, das über eine 2.0-kompatible Version verfügt ✓",
+                "abandoned_replacement_not_ready": "Aufgegeben – der Ersatz {replacement} ist noch nicht 2.0-fähig"
             },
             "tabs": {
-                "report": "",
-                "repositories": ""
+                "report": "Bereitschaftsbericht",
+                "repositories": "Repositorien"
             },
             "repositories": {
-                "help": "",
-                "empty": "",
-                "add_floxum": "",
-                "add_composer": "",
-                "type_floxum": "",
-                "type_composer": "",
-                "url": "",
-                "username": "",
-                "token": "",
-                "remove": "",
-                "test": "",
-                "test_ok": "",
-                "test_fail_auth": "",
-                "test_fail_unreachable": "",
-                "test_fail_invalid": ""
+                "help": "Füge private oder Marktplatz-Composer-Repositorien hinzu, damit der Advisor Erweiterungen überprüfen kann, die nicht im öffentlichen Packagist verfügbar sind. Dies wird nur verwendet, wenn eine Erweiterung nicht auf Packagist gefunden werden kann.\n",
+                "empty": "Es sind keine zusätzlichen Repositorien konfiguriert.",
+                "add_floxum": "Floxum hinzufügen",
+                "add_composer": "Repository hinzufügen",
+                "type_floxum": "Floxum",
+                "type_composer": "Private Packagist / Benutzerdefiniert",
+                "url": "Repository-URL",
+                "username": "Benutzername",
+                "token": "Token",
+                "remove": "Repository entfernen",
+                "test": "Verbindung testen",
+                "test_ok": "Verbunden",
+                "test_fail_auth": "Authentifizierung fehlgeschlagen – bitte überprüfe das Token",
+                "test_fail_unreachable": "Das Repository konnte nicht erreicht werden",
+                "test_fail_invalid": "Ungültige Antwort – bitte überprüfe die URL"
             },
             "actions": {
-                "recheck": ""
+                "recheck": "Prüfungen erneut durchführen"
             },
             "errors": {
-                "load_failed": ""
+                "load_failed": "Die Bereitschaftsprüfungen konnten nicht durchgeführt werden. Bitte versuche es erneut."
             }
         }
     }
