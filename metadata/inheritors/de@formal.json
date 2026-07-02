@@ -4709,6 +4709,38 @@
             }
         }
     },
+    "fof-author-change.json": {
+        "fof-author-change": {
+            "admin": {
+                "permissions": {
+                    "edit-date": "7b5aa57f345a310098f5f836608e59a0 7b5aa57f345a310098f5f836608e59a0",
+                    "edit-user": "26d71793357991ba6c16633a375ee60c 26d71793357991ba6c16633a375ee60c"
+                }
+            },
+            "forum": {
+                "controls": {
+                    "edit": "0621c274819a44c0954fad0cf3d4a0ce 0621c274819a44c0954fad0cf3d4a0ce"
+                },
+                "modal": {
+                    "cancel": "4b97278b444c0203fc17d7b93a39f5c7 4b97278b444c0203fc17d7b93a39f5c7",
+                    "created_at": "4db9298def827bdad01f9dcef264919e 4db9298def827bdad01f9dcef264919e",
+                    "edited_at": "3e4d5f0489f46c75839052cd15d0b993 3e4d5f0489f46c75839052cd15d0b993",
+                    "submit": "b97d23bf800ff592f7afe97a29921271 b97d23bf800ff592f7afe97a29921271",
+                    "sync-impossible": "453005eb1a85ea3209f7d98393fc967e 453005eb1a85ea3209f7d98393fc967e",
+                    "sync-with-discussion": "33a30db1ea34b3869e439a047d06a896 33a30db1ea34b3869e439a047d06a896",
+                    "sync-with-post": "d0d79da62840ff3e89c33cced97f2ab9 d0d79da62840ff3e89c33cced97f2ab9",
+                    "title-discussion": "452e2ae1b498ff27835634783c68f960 452e2ae1b498ff27835634783c68f960",
+                    "title-post": "a5065a5a7426fd2e153ccfb43b2066c9 a5065a5a7426fd2e153ccfb43b2066c9",
+                    "user": "c481b00a606907fd59b4d46623b8d99d c481b00a606907fd59b4d46623b8d99d"
+                },
+                "search": {
+                    "no-results": "db7d2f0b45c10c5bac677d90c4805bc7 db7d2f0b45c10c5bac677d90c4805bc7",
+                    "placeholder": "3e71fe09b25d367ebb068739327d79a3 3e71fe09b25d367ebb068739327d79a3",
+                    "type-more": "e3c70dfc3e019b1e8ddaf8d159dacec4 e3c70dfc3e019b1e8ddaf8d159dacec4"
+                }
+            }
+        }
+    },
     "fof-badges.json": {
         "fof-badges": {
             "admin": {
@@ -11940,6 +11972,11 @@
                     "auto_hide_label": "595fc00d6d9177d078e6cf552322db10 595fc00d6d9177d078e6cf552322db10",
                     "auto_hide_text": "b4b09da4126b781fe0d8c115caab6b69 b4b09da4126b781fe0d8c115caab6b69",
                     "category_settings_heading": "4652acf39375f66fcdc97588714c7413 4652acf39375f66fcdc97588714c7413",
+                    "cdn_advanced_text": "f15c8db47bcac14cbc230204e5637474 f15c8db47bcac14cbc230204e5637474",
+                    "cdn_data_sri_label": "d7f5034dce5e895c09654e61e6d4c905 d7f5034dce5e895c09654e61e6d4c905",
+                    "cdn_data_url_label": "1aeff6caf3599a028cfec5f9138f3cf3 1aeff6caf3599a028cfec5f9138f3cf3",
+                    "cdn_js_sri_label": "1df74e00421512f8afaee3904023b1c6 1df74e00421512f8afaee3904023b1c6",
+                    "cdn_js_url_label": "7cc90f980ac5ac80d890a4ff2b50c652 7cc90f980ac5ac80d890a4ff2b50c652",
                     "emoji_categories": {
                         "activity": "61d19b36454995ba27358f1b2e5b8155 61d19b36454995ba27358f1b2e5b8155",
                         "flags": "698ff4f1241e8bf6ac93a7ad5e2cb184 698ff4f1241e8bf6ac93a7ad5e2cb184",
@@ -11974,7 +12011,9 @@
                     "specify_categories_label": "45112fdcad418089ea48f418bf92b963 45112fdcad418089ea48f418bf92b963",
                     "specify_categories_text": "f0d506b843a3c1925dc71bf41f1e984e f0d506b843a3c1925dc71bf41f1e984e",
                     "sticker_mode_label": "044afd427d81e0e2c40f93871e648b4b 044afd427d81e0e2c40f93871e648b4b",
-                    "sticker_mode_text": "a65fcdf2846df6225c2f12f32da9320f a65fcdf2846df6225c2f12f32da9320f"
+                    "sticker_mode_text": "a65fcdf2846df6225c2f12f32da9320f a65fcdf2846df6225c2f12f32da9320f",
+                    "use_cdn_label": "e77c5b13a0c97ad6bcf0abd008631966 e77c5b13a0c97ad6bcf0abd008631966",
+                    "use_cdn_text": "81c11c0d48ca0965502b67ad27d5efe4 81c11c0d48ca0965502b67ad27d5efe4"
                 }
             },
             "forum": {
