@@ -67,6 +67,11 @@
                 "draw_cancelled_text": "",
                 "battle_declined_text": ""
             },
+            "select_deck_modal": {
+                "title": "",
+                "text": "",
+                "choose_btn": ""
+            },
             "challenge_modal": {
                 "title": "",
                 "no_deck": "",
@@ -76,6 +81,7 @@
                 "turns_label": "",
                 "per_turn_label": "",
                 "turn_time_value": "",
+                "deck_label": "",
                 "opponent_label": "",
                 "search_placeholder": "",
                 "searching": "",
@@ -141,7 +147,9 @@
                     "sacrifice_heal": "",
                     "swap_stats": "",
                     "amplify_poison": "",
-                    "amplify_weaken": ""
+                    "amplify_weaken": "",
+                    "elemental_tide": "",
+                    "elemental_dominance": ""
                 }
             },
             "battle_surrender": {
@@ -188,7 +196,19 @@
                     "add_bonus": "",
                     "saved": "",
                     "error": "",
-                    "save_btn": ""
+                    "save_btn": "",
+                    "default_slot_name": "",
+                    "no_slots": "",
+                    "rename_slot": "",
+                    "save_rename": "",
+                    "delete_slot": "",
+                    "delete_confirm": "",
+                    "discard_confirm": "",
+                    "create_slot": "",
+                    "create_slot_confirm": "",
+                    "new_slot_placeholder": "",
+                    "cancel": "",
+                    "slot_error": ""
                 },
                 "sections": {
                     "elemental": "",
@@ -290,7 +310,8 @@
                 "confirm_delete": "",
                 "deleted": "",
                 "error_delete": "",
-                "cannot_delete_active": ""
+                "cannot_delete_active": "",
+                "load_more": ""
             },
             "card_backs": {
                 "tab": "",
@@ -422,7 +443,10 @@
                 "sacrifice": "",
                 "swap_stats": "",
                 "random_effect": "",
-                "amplify": ""
+                "amplify": "",
+                "copy": "",
+                "elemental_tide": "",
+                "elemental_dominance": ""
             },
             "bonus_effect_descriptions": {
                 "heal": "",
@@ -438,6 +462,9 @@
                 "resonance": "",
                 "sacrifice": "",
                 "swap_stats": "",
+                "copy": "",
+                "elemental_tide": "",
+                "elemental_dominance": "",
                 "random_effect": "",
                 "amplify": ""
             },
@@ -463,6 +490,11 @@
                 "deck_inactive_cards": "",
                 "deck_composition": "",
                 "deck_locked_active_battle": "",
+                "deck_select_locked": "",
+                "deck_slot_name_required": "",
+                "deck_slot_limit": "",
+                "deck_slot_not_found": "",
+                "deck_slot_in_use": "",
                 "decline_not_first_move": "",
                 "not_your_turn": "",
                 "cant_play_bonus_as_main": "",

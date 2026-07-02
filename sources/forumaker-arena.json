@@ -49,7 +49,7 @@
                 "cancel_error": "Failed to cancel the proposal. Please try again"
             },
             "respond_draw": {
-                "title": "Draw proposed",
+                "title": "Draw",
                 "text": "{name} proposes a draw",
                 "pending_title": "Draw",
                 "pending_subtitle": "{name} proposes a draw. Turn timer paused",
@@ -67,6 +67,11 @@
                 "draw_cancelled_text": "{canceller} cancelled the draw in your Arena battle",
                 "battle_declined_text": "{decliner} declined the battle with you on Arena"
             },
+            "select_deck_modal": {
+                "title": "Choose your deck",
+                "text": "Choose the deck for this battle. You won't be able to change it afterward",
+                "choose_btn": "Choose"
+            },
             "challenge_modal": {
                 "title": "Start a battle",
                 "no_deck": "You need to build a deck of 20 cards first.",
@@ -76,6 +81,7 @@
                 "turns_label": "{maxTurns, plural, one {turn} other {turns}}",
                 "per_turn_label": "per turn",
                 "turn_time_value": "24h",
+                "deck_label": "Deck",
                 "opponent_label": "Opponent name",
                 "search_placeholder": "First 3 characters...",
                 "searching": "Searching...",
@@ -141,7 +147,9 @@
                     "sacrifice_heal": "Restored {value} HP",
                     "swap_stats": "Attack and defense swapped",
                     "amplify_poison": "Poison doubled",
-                    "amplify_weaken": "Weaken doubled"
+                    "amplify_weaken": "Weaken doubled",
+                    "elemental_tide": "Elemental advantage doubled for {value, plural, one {{value} turn} other {{value} turns}}",
+                    "elemental_dominance": "Elemental bonus guaranteed"
                 }
             },
             "battle_surrender": {
@@ -179,7 +187,7 @@
                     "error": "Failed to save. Please try again"
                 },
                 "deck": {
-                    "title": "My deck",
+                    "title": "My decks",
                     "subtitle": "Choose 20 cards. You can add only the strongest cards, but then you'll run out of mana fast in battle",
                     "count_fraction": "{value} of {max}",
                     "elemental_half": "Elemental",
@@ -188,7 +196,19 @@
                     "add_bonus": "Add 10 bonus cards",
                     "saved": "Deck saved",
                     "error": "Failed to save the deck. Please try again",
-                    "save_btn": "Save deck"
+                    "save_btn": "Save deck",
+                    "default_slot_name": "Main",
+                    "no_slots": "This player doesn't have any decks yet",
+                    "rename_slot": "Rename deck",
+                    "save_rename": "Save name",
+                    "delete_slot": "Delete deck",
+                    "delete_confirm": "Delete the deck \"{name}\"? This cannot be undone",
+                    "discard_confirm": "You have unsaved changes. Switch and discard them?",
+                    "create_slot": "New deck",
+                    "create_slot_confirm": "Create",
+                    "new_slot_placeholder": "Deck name",
+                    "cancel": "Cancel",
+                    "slot_error": "Action failed. Please try again"
                 },
                 "sections": {
                     "elemental": "Elemental cards",
@@ -197,7 +217,7 @@
                     "bonus": "Bonus cards",
                     "bonus_subtitle": "Various effects. The choice depends on your playstyle — go aggressive or play defensively"
                 },
-                "battle_lock": "A battle is in progress — deck editing is unavailable",
+                "battle_lock": "This deck is currently in a battle — editing is unavailable",
                 "filter": {
                     "all_elements": "All elements",
                     "all_effects": "All effects",
@@ -290,7 +310,8 @@
                 "confirm_delete": "Delete battle #{id}? This action cannot be undone",
                 "deleted": "Battle deleted",
                 "error_delete": "Failed to delete the battle. Please try again",
-                "cannot_delete_active": "Cannot delete an active battle. Close it first"
+                "cannot_delete_active": "Cannot delete an active battle. Close it first",
+                "load_more": "Load more"
             },
             "card_backs": {
                 "tab": "Card backs",
@@ -422,7 +443,10 @@
                 "sacrifice": "Sacrifice",
                 "swap_stats": "Swap",
                 "random_effect": "Random",
-                "amplify": "Amplify"
+                "amplify": "Amplify",
+                "copy": "Copy",
+                "elemental_tide": "Tide",
+                "elemental_dominance": "Dominance"
             },
             "bonus_effect_descriptions": {
                 "heal": "Restores up to {value} HP",
@@ -438,6 +462,9 @@
                 "resonance": "If the element matches the previous turn's card — grants +{value} to attack and defense",
                 "sacrifice": "Reduces your elemental card's attack by {value} and restores up to {value} HP",
                 "swap_stats": "Swaps your elemental card's attack and defense for this turn",
+                "copy": "Plays the bonus your opponent played this turn",
+                "elemental_tide": "Doubles the elemental bonus for 3 turns. Takes effect starting next turn",
+                "elemental_dominance": "Guarantees the elemental bonus, even if your element is weaker",
                 "random_effect": "Triggers a random bonus card effect from your deck",
                 "amplify": "Doubles the strength of an active poison or weaken effect until it ends"
             },
@@ -463,6 +490,11 @@
                 "deck_inactive_cards": "The deck contains inactive cards: {names}",
                 "deck_composition": "The deck must contain 10 elemental and 10 bonus cards. Currently: {elementalCount} elemental, {bonusCount} bonus",
                 "deck_locked_active_battle": "You can't change your deck during an active battle",
+                "deck_select_locked": "You can't change your deck: you've already played a card in this battle",
+                "deck_slot_name_required": "Enter a deck name",
+                "deck_slot_limit": "You can create up to {max} decks",
+                "deck_slot_not_found": "Deck not found",
+                "deck_slot_in_use": "This deck is currently in use in an active battle",
                 "decline_not_first_move": "You can only decline the battle on your first move",
                 "not_your_turn": "It's not your turn",
                 "cant_play_bonus_as_main": "You can't play a bonus card as the main card",
