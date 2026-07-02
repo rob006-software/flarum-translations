@@ -3,16 +3,16 @@
         "forum": {
             "index_sort": {
                 "hot_button": "กำลังมาแรง",
-                "votes_button": "Upvote"
+                "votes_button": "คะแนนโหวต"
             }
         }
     },
     "fof-gamification": {
         "forum": {
-            "votes": "โหวต",
-            "vote_title": "ดูว่าใครโหวต",
+            "votes": "คะแนนโหวต",
+            "vote_title": "แสดงผู้โหวต",
             "nav": {
-                "name": "อันดับ"
+                "name": "ตารางอันดับ"
             },
             "ranking": {
                 "rank": "อันดับ",
@@ -20,116 +20,116 @@
                 "amount": "คะแนน"
             },
             "notification": {
-                "upvote": "{username} Upvote โพสต์ของคุณ",
-                "downvote": "{username} Downvote โพสต์ของคุณ",
+                "upvote": "{username} โหวตขึ้น (Upvote) โพสต์ของคุณ",
+                "downvote": "{username} โหวตลง (Downvote) โพสต์ของคุณ",
                 "prefrences": {
-                    "vote": "เมื่อโพสต์ของฉันได้รับการ Upvote/Downvote"
+                    "vote": "เมื่อโพสต์ของฉันได้รับการโหวตขึ้นหรือโหวตลง"
                 }
             },
             "user": {
                 "card": {
-                    "points": "{count, plural, one {{count} คะแนน} other {{count} คะแนน}}"
+                    "points": "{count, plural, other {{count} คะแนน}}"
                 },
                 "rank": "{rank}",
-                "votes_link": "โหวต"
+                "votes_link": "คะแนนโหวต"
             },
             "modal": {
-                "downvotes_label": "ผู้ Downvote:",
-                "title": "ผู้โหวต",
-                "upvotes_label": "ผู้ Upvote:"
+                "downvotes_label": "ผู้โหวตลง:",
+                "title": "ผู้โหวตทั้งหมด",
+                "upvotes_label": "ผู้โหวตขึ้น:"
             },
-            "mod_item": "ดูผู้โหวต",
+            "mod_item": "ดูรายชื่อผู้โหวต",
             "voters": {
                 "none": "ยังไม่มีผู้โหวต",
                 "label": "ผู้โหวต",
                 "label_none": "ไม่มีผู้โหวต"
             },
             "post": {
-                "upvote_button": "Upvote โพสต์",
-                "downvote_button": "Downvote โพสต์"
+                "upvote_button": "โหวตขึ้นสำหรับโพสต์นี้",
+                "downvote_button": "โหวตลงสำหรับโพสต์นี้"
             }
         },
         "admin": {
             "permissions": {
-                "vote_label": "Upvote/Downvote โพสต์",
-                "see_votes_label": "ดูจำนวน Upvote/Downvote",
-                "see_voters_label": "ดูว่าใครโหวต",
-                "see_ranking_page": "ดูหน้าอันดับ",
-                "upvote_notifications": "รับแจ้งเตือนเมื่อได้รับ Upvote",
-                "downvote_notifications": "รับแจ้งเตือนเมื่อได้รับ Downvote"
+                "vote_label": "โหวตขึ้น/โหวตลง โพสต์ของสมาชิก",
+                "see_votes_label": "ดูจำนวนคะแนนโหวตขึ้น/โหวตลง",
+                "see_voters_label": "ดูรายชื่อผู้โหวต",
+                "see_ranking_page": "ดูหน้าตารางอันดับ",
+                "upvote_notifications": "รับการแจ้งเตือนเมื่อมีคนโหวตขึ้น",
+                "downvote_notifications": "รับการแจ้งเตือนเมื่อมีคนโหวตลง"
             },
             "page": {
                 "rankings": {
                     "blocked": {
                         "placeholder": "admin, user1, user2",
-                        "title": "ผู้ใช้ที่ถูกซ่อน",
-                        "help": "ผู้ใช้เหล่านี้จะไม่แสดงในหน้าอันดับ ชื่อผู้ใช้ควรคั่นด้วยเครื่องหมายจุลภาคตามด้วยช่องว่าง"
+                        "title": "ผู้ใช้ที่ยกเว้น",
+                        "help": "รายชื่อผู้ใช้เหล่านี้จะไม่ถูกแสดงในตารางอันดับ คั่นรายชื่อผู้ใช้ด้วยเครื่องหมายจุลภาคตามด้วยช่องว่าง"
                     },
-                    "title": "หน้าอันดับ",
-                    "enable": "เปิดใช้ภาพกำหนดเอง",
-                    "custom_image_1": "ภาพอันดับ 1",
-                    "custom_image_2": "ภาพอันดับ 2",
-                    "custom_image_3": "ภาพอันดับ 3"
+                    "title": "หน้าตารางอันดับ",
+                    "enable": "เปิดใช้งานรูปภาพตราสัญลักษณ์กำหนดเอง",
+                    "custom_image_1": "ตราสัญลักษณ์อันดับที่ 1",
+                    "custom_image_2": "ตราสัญลักษณ์อันดับที่ 2",
+                    "custom_image_3": "ตราสัญลักษณ์อันดับที่ 3"
                 },
                 "alt_votes": {
-                    "icon_name": "ชื่อไอคอนสำหรับ Layout สำรอง"
+                    "icon_name": "ชื่อไอคอนสำหรับเค้าโครงทางเลือก"
                 },
                 "votes": {
-                    "points_title": "ชื่อแทน Points",
+                    "points_title": "ข้อความแทนคะแนนสะสม",
                     "points_placeholder": "คะแนน: ",
                     "color_holder": "#ffffff",
-                    "auto_upvote": "Upvote โพสต์อัตโนมัติเมื่อโพสต์",
-                    "rate_limit": "บังคับใช้ขีดจำกัดการโหวต (10 วินาที)",
-                    "discussion_page": "แสดงจำนวนโหวตของโพสต์แรกในรายการโพสต์",
-                    "alternate_layout": "ใช้ Layout สำรองในรายการโพสต์",
-                    "alternate_post_layout": "ใช้ Layout สำรองในโพสต์",
-                    "title": "โหวต",
-                    "vote_color": "สีเมื่อโหวตแล้ว",
-                    "icon_name": "ไอคอน Upvote/Downvote",
-                    "icon_help": "กรอกชื่อไอคอน Font-Awesome ที่มี suffix -up และ -down เช่น arrow, thumbs, chevron",
+                    "auto_upvote": "โหวตขึ้นโพสต์โดยอัตโนมัติเมื่อสร้างโพสต์ใหม่",
+                    "rate_limit": "บังคับใช้ข้อจำกัดความถี่ในการโหวต (10 วินาทีต่อการโหวต)",
+                    "discussion_page": "แสดงผลคะแนนโหวตทั้งหมดของโพสต์แรกในรายการโพสต์",
+                    "alternate_layout": "ใช้เค้าโครงปุ่มโหวตรูปแบบอื่นในรายการโพสต์",
+                    "alternate_post_layout": "ใช้เค้าโครงปุ่มโหวตรูปแบบอื่นในโพสต์",
+                    "title": "คะแนนโหวต",
+                    "vote_color": "สีของปุ่มเมื่อโหวตแล้ว",
+                    "icon_name": "ไอคอนโหวตขึ้น/โหวตลง",
+                    "icon_help": "ระบุชื่อไอคอน Font-Awesome ใดๆ ที่ลงท้ายด้วย -up และ -down ตัวอย่างเช่น: arrow, thumbs, chevron",
                     "icon_preview_upvote": "",
                     "icon_preview_downvote": "",
-                    "upvotes_only": "อนุญาตเฉพาะ Upvote เท่านั้น",
-                    "first_post_only": "อนุญาต Upvote/Downvote เฉพาะโพสต์แรกในโพสต์",
-                    "allow_self_votes": "อนุญาตให้ผู้ใช้โหวตโพสต์ตัวเอง"
+                    "upvotes_only": "อนุญาตเฉพาะการโหวตขึ้นเท่านั้น",
+                    "first_post_only": "อนุญาตการโหวตเฉพาะในโพสต์แรกของโพสต์เท่านั้น",
+                    "allow_self_votes": "อนุญาตให้ผู้ใช้โหวตคะแนนให้กับโพสต์ของตนเองได้"
                 },
                 "save_settings": "บันทึกการตั้งค่า",
                 "convert": {
-                    "button": "แปลง Like เป็น Upvote",
+                    "button": "แปลงจำนวนผู้กดถูกใจ (Likes) เป็นคะแนนโหวตขึ้น (Upvotes)",
                     "help": "",
-                    "converting": "กำลังแปลง Like ของคุณ รีเฟรชเว็บไซต์หลังจากผ่านไปสองสามนาทีเพื่อดูผลลัพธ์ (อาจใช้เวลาสักครู่ขึ้นอยู่กับจำนวน Like ทั้งหมดในฟอรัม)",
-                    "converted": "แปลง Like ทั้งหมด {number} รายการสำเร็จแล้ว"
+                    "converting": "ระบบกำลังเริ่มการแปลงค่าการกดถูกใจ โปรดรีเฟรชหน้าเว็บของคุณในอีกไม่กี่นาทีเพื่อตรวจสอบผลลัพธ์ (ระยะเวลาในการแปลงอาจใช้เวลาสักครู่ขึ้นอยู่กับจำนวนการกดถูกใจทั้งหมดของบอร์ดคุณ)",
+                    "converted": "ทำการแปลงจำนวนการกดถูกใจทั้งหมด {number} รายการเรียบร้อยแล้ว"
                 },
                 "ranks": {
-                    "title": "ยศ",
-                    "ranks": "ยศกำหนดเอง",
-                    "number_title": "จะแสดงยศกี่อันดับ?",
+                    "title": "ระดับยศ (Ranks)",
+                    "ranks": "ระดับยศกำหนดเอง",
+                    "number_title": "จำนวนระดับยศสูงสุดที่จะแสดง?",
                     "help": {
                         "color": "#ffffff",
-                        "help": "กรอกจำนวน Upvote ที่ต้องการ ชื่อยศ และสีในรูปแบบ Hex",
-                        "points": "คะแนน",
-                        "name": "ชื่อ"
+                        "help": "ระบุจำนวนคะแนนโหวตขึ้นที่ต้องการเพื่อรับยศ ชื่อของระดับยศ และรหัสสีของระดับยศในรูปแบบรหัสสี Hex",
+                        "points": "คะแนนสะสม",
+                        "name": "ชื่อระดับยศ"
                     }
                 },
                 "groups": {
-                    "title": "กลุ่มที่กำหนดอัตโนมัติ",
-                    "help": "กลุ่มที่เลือกจะถูกเพิ่มหรือลบโดยอัตโนมัติตามจำนวนคะแนนของผู้ใช้ หากคุณเปลี่ยนการตั้งค่า ควรรันคำสั่ง <code>php flarum fof:gamification:assign-groups</code> เพื่ออัปเดตผู้ใช้ที่มีอยู่ หากต้องการลบกฎและนำผู้ใช้ออกจากกลุ่ม ให้ตั้งค่าต่ำสุดและสูงสุดเป็นค่าว่าง บันทึก แล้วรันคำสั่ง จากนั้นจึงลบกฎออกจากการตั้งค่าได้\n",
+                    "title": "การจัดกลุ่มผู้ใช้โดยอัตโนมัติ",
+                    "help": "กลุ่มผู้ใช้ที่เลือกจะถูกเพิ่มเข้าหรือนำออกโดยอัตโนมัติตามการเปลี่ยนแปลงระดับคะแนนสะสมของผู้ใช้ หากคุณทำการแก้ไขเงื่อนไขเหล่านี้ คุณควรเรียกใช้คำสั่ง <code>php flarum fof:gamification:assign-groups</code> บนเซิร์ฟเวอร์เพื่ออัปเดตข้อมูลผู้ใช้ที่มีอยู่เดิม หากต้องการยกเลิกกฎและนำผู้ใช้ออกจากกลุ่ม ให้ตั้งค่าคะแนนขั้นต่ำและคะแนนสูงสุดเป็นค่าว่าง กดบันทึก แล้วเรียกใช้คำสั่งดังกล่าวก่อนลบกฎนี้ออกอย่างถาวร\n",
                     "column": {
-                        "group": "กลุ่ม",
+                        "group": "กลุ่มผู้ใช้",
                         "minPoints": "คะแนนขั้นต่ำ (รวม)",
                         "maxPoints": "คะแนนสูงสุด (รวม)"
                     },
                     "add": "เพิ่มกฎใหม่",
-                    "delete": "ลบกฎ"
+                    "delete": "ลบกฎนี้"
                 }
             }
         },
         "email": {
             "body": {
-                "postVoted": "สวัสดี {recipient_display_name}\n\n{actor_display_name} เพิ่งโหวตโพสต์ของคุณในโพสต์ {discussion_title}\n\nดูได้ที่: {discussion_url}\n"
+                "postVoted": "สวัสดีคุณ {recipient_display_name},\n\n{actor_display_name} ได้โหวตคะแนนให้กับโพสต์ของคุณในโพสต์: {discussion_title}\n\nเปิดดูรายละเอียดได้ที่นี่: {discussion_url}\n"
             },
             "subject": {
-                "postVoted": "โพสต์ของคุณได้รับการโหวตจาก {display_name}"
+                "postVoted": "โพสต์ของคุณได้รับการโหวตคะแนนโดย {display_name}"
             }
         }
     },

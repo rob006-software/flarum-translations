@@ -3,13 +3,13 @@
         "forum": {
             "modal": {
                 "error": {
-                    "failed_to_load_cropper": "ล้มเหลว",
-                    "generic_resize": "เกิดข้อผิดพลาดขณะครอปและปรับขนาดภาพ",
-                    "get_image_data": "ปิดใช้งาน"
+                    "failed_to_load_cropper": "ไม่สามารถเรียกใช้ระบบตัดครอบรูปภาพ (Image Cropper) ได้",
+                    "generic_resize": "เกิดข้อผิดพลาดในการจัดขนาดและตัดครอบรูปภาพ",
+                    "get_image_data": "การตัดครอบรูปภาพล้มเหลว โปรดตรวจสอบและทดลองปิดการทำงานของระบบป้องกันการตามรอยลายนิ้วมือเบราว์เซอร์ (Fingerprinting Protection) ของคุณแล้วทดลองใหม่อีกครั้ง"
                 },
                 "help_text": "",
-                "submit_button": "อัปโหลด",
-                "submit_crop_button": "อัปโหลด"
+                "submit_button": "อัปโหลดตรง",
+                "submit_crop_button": "ตัดครอบและอัปโหลด"
             }
         }
     }

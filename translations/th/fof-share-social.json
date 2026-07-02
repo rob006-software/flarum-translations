@@ -2,36 +2,36 @@
     "fof-share-social": {
         "admin": {
             "settings": {
-                "canonical-urls": "ไม่",
-                "plain-copy": "คัดลอก",
-                "default-option": "ค่าเริ่มต้น",
-                "default-option-help": "แสดง"
+                "canonical-urls": "ใช้ที่อยู่ลิงก์ถาวร (Canonical URLs) สำหรับการแชร์ข้อมูล",
+                "plain-copy": "แสดงผลเมนูกล่องคัดลอกข้อความลิงก์ URL ตรง",
+                "default-option": "รูปแบบตัวเลือกการแชร์เริ่มต้น",
+                "default-option-help": "การเลือกกำหนดค่าเริ่มต้นจะช่วยเปลี่ยนลักษณะปุ่มแชร์ในหน้ารายการให้เป็นแบบปุ่มกดเลือกรายการ (Dropdown Button)\nหากกำหนดตัวเลือกเป็น \"การแชร์ผ่านระบบอุปกรณ์ (Native Share)\" ระบบจะเปิดใช้งานต่อเมื่อเบราว์เซอร์ปลายทางรองรับเท่านั้น มิฉะนั้นพฤติกรรมจะย้อนกลับไปแสดงเมนูแชร์แบบป๊อปอัปดั้งเดิมปกติ\n"
             }
         },
         "forum": {
             "discussion": {
-                "share_button": "share",
-                "share_dropdown_accessible_label": "โพสต์"
+                "share_button": "แชร์",
+                "share_dropdown_accessible_label": "สลับการเปิดปิดเมนูตัวเลือกการแชร์โพสต์"
             },
             "modal": {
-                "title": "share",
-                "copy_button": "คัดลอก"
+                "title": "แชร์หน้าโพสต์นี้",
+                "copy_button": "คัดลอกที่อยู่ลิงก์"
             }
         },
         "lib": {
             "networks": {
-                "facebook": "ตกลง",
-                "twitter": "X (formerly Twitter)",
+                "facebook": "Facebook",
+                "twitter": "X (เดิมคือ Twitter)",
                 "linkedin": "LinkedIn",
                 "reddit": "Reddit",
                 "whatsapp": "WhatsApp",
                 "telegram": "Telegram",
                 "vkontakte": "VKontakte",
-                "odnoklassniki": "ไม่",
+                "odnoklassniki": "Odnoklassniki",
                 "my_mail": "My World",
                 "qq": "QQ",
                 "qzone": "QZone",
-                "native": "share"
+                "native": "แชร์ผ่านระบบอุปกรณ์ (Native Share)"
             }
         }
     }

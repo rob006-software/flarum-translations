@@ -3,122 +3,122 @@
         "forum": {
             "badges": {
                 "is_private": {
-                    "tooltip": "โพสต์"
+                    "tooltip": "โพสต์ส่วนตัว"
                 }
             },
             "buttons": {
                 "add_recipients": "ผู้รับ",
                 "submit": "ตกลง",
-                "edit_recipients": "แก้ไข",
-                "send_pd": "ส่ง",
+                "edit_recipients": "แก้ไขรายชื่อผู้รับ",
+                "send_pd": "ส่งข้อความส่วนตัวหา {username}",
                 "cancel": "ยกเลิก",
-                "make_public": "ทำให้โพสต์นี้เป็นสาธารณะ",
-                "remove_from_discussion": "ออกจากโพสต์ส่วนตัวนี้"
+                "make_public": "เปลี่ยนโพสต์นี้ให้เป็นสาธารณะ",
+                "remove_from_discussion": "ออกจากการสนทนาโพสต์ส่วนตัวนี้"
             },
             "composer_private_discussion": {
-                "submit_button": "โพสต์โพสต์ส่วนตัว",
-                "title_placeholder": "ชื่อเรื่องโพสต์ส่วนตัว"
+                "submit_button": "ตั้งโพสต์ส่วนตัว",
+                "title_placeholder": "หัวข้อโพสต์ส่วนตัว"
             },
             "confirm": {
-                "make_public": "คุณแน่ใจหรือไม่ว่าต้องการนำผู้รับออกและทำให้โพสต์นี้มองเห็นได้สำหรับใครๆ ที่สามารถดู tag ที่กำหนด"
+                "make_public": "คุณแน่ใจหรือไม่ว่าต้องการนำผู้รับออกและเปลี่ยนโพสต์นี้ให้เป็นสาธารณะ ซึ่งจะทำให้ทุกคนที่มีสิทธิ์เห็นแท็กนี้สามารถเปิดดูได้?"
             },
             "hero": {
                 "title": "=> fof-byobu.forum.nav.nav_item"
             },
             "labels": {
-                "recipients": "{count, plural, one {ผู้รับ 1 คน} other {ผู้รับ {count} คน}}"
+                "recipients": "{count, plural, other {ผู้รับ {count} คน}}"
             },
             "nav": {
-                "start_button": "สนทนาเป็นการส่วนตัว",
+                "start_button": "เริ่มสนทนาส่วนตัว",
                 "nav_item": "โพสต์ส่วนตัว"
             },
             "input": {
-                "search_recipients": "ค้นหาผู้รับโดยพิมพ์สามตัวอักษรแรก..."
+                "search_recipients": "พิมพ์ตัวอักษรอย่างน้อย 3 ตัวเพื่อค้นหาผู้รับ..."
             },
             "search": {
                 "headings": {
-                    "groups": "กลุ่มสิทธิ์"
+                    "groups": "กลุ่มผู้ได้รับสิทธิ์"
                 }
             },
             "modal": {
                 "titles": {
-                    "update_recipients": "อัปเดตผู้รับของ {title}",
-                    "add_recipients": "เพิ่มผู้รับไปในโพสต์"
+                    "update_recipients": "อัปเดตผู้รับของโพสต์ {title}",
+                    "add_recipients": "เพิ่มผู้รับในโพสต์ของคุณ"
                 },
                 "labels": {
                     "selected_users": "ผู้ใช้ที่เลือก",
                     "search_field": "ค้นหาผู้ใช้"
                 },
                 "help": {
-                    "add_recipients": "โพสต์นี้จะมองเห็นได้เฉพาะผู้ใช้ที่คุณเลือกเท่านั้น ต้องมีผู้รับอย่างน้อย 1 คน (นอกเหนือจากตัวคุณเอง)",
-                    "update_recipients": "โพสต์นี้จะมองเห็นได้เฉพาะผู้ใช้ที่คุณเลือกเท่านั้น",
-                    "selected_users": "คลิกชื่อผู้ใช้เพื่อนำออก",
+                    "add_recipients": "โพสต์นี้จะปรากฏให้เห็นเฉพาะผู้ใช้ที่คุณเลือกที่นี่เท่านั้น จำเป็นต้องมีผู้รับอย่างน้อย 1 คน (นอกเหนือจากตัวคุณเอง)",
+                    "update_recipients": "โพสต์นี้จะปรากฏให้เห็นเฉพาะผู้ใช้ที่คุณเลือกที่นี่เท่านั้น",
+                    "selected_users": "คลิกที่ชื่อผู้ใช้เพื่อนำออกจากการเลือก",
                     "click_user_to_remove_tooltip": "คลิกเพื่อนำออก"
                 }
             },
             "post": {
                 "recipients_modified": {
-                    "added_and_removed": "{username} เพิ่มผู้รับ {added} และนำออก {removed}",
-                    "added": "{username} เพิ่มผู้รับ {added}",
-                    "made_public": "{username} นำผู้รับทั้งหมดออกและทำให้โพสต์เป็นสาธารณะ",
-                    "removed": "{username} นำผู้รับออก {removed}",
-                    "removed_self": "{username} ออกจากโพสต์ส่วนตัว"
+                    "added_and_removed": "{username} ได้เพิ่มผู้รับ {added} และนำผู้รับ {removed} ออก",
+                    "added": "{username} ได้เพิ่มผู้รับ {added}",
+                    "made_public": "{username} ได้นำผู้รับทั้งหมดออกและเปลี่ยนโพสต์นี้ให้เป็นสาธารณะ",
+                    "removed": "{username} ได้นำผู้รับ {removed} ออก",
+                    "removed_self": "{username} ได้ออกจากการสนทนาโพสต์ส่วนตัวนี้"
                 }
             },
             "user": {
                 "settings": {
-                    "block_pd": "บล็อกโพสต์ส่วนตัว"
+                    "block_pd": "บล็อกโพสต์ส่วนตัว (ไม่รับข้อความส่วนตัว)"
                 },
                 "byobu_link": "โพสต์ส่วนตัว",
                 "dropdown_label": "โพสต์ส่วนตัว"
             },
             "notifications": {
-                "pd_label": "มีคนใดคนหนึ่งรวมฉันไว้ในโพสต์ส่วนตัวใหม่",
-                "pd_reply_label": "มีคนใดคนหนึ่งโพสต์ในโพสต์ส่วนตัวที่ฉันเป็นผู้รับ",
-                "pd_reply_text": "{username} โพสต์ในโพสต์ส่วนตัวที่คุณอยู่",
-                "pd_text": "{username} เริ่มโพสต์ส่วนตัวใหม่กับคุณ",
-                "pd_user_left_label": "ผู้รับคนใดคนหนึ่งออกจากโพสต์ส่วนตัวที่ฉันเป็นส่วนหนึ่ง",
-                "pd_user_left_text": "{username} ออกจากโพสต์ส่วนตัว",
-                "pd_added_text": "{username} เพิ่มคุณไปในโพสต์ส่วนตัว",
-                "pd_added_label": "มีคนใดคนหนึ่งเพิ่มฉันไปในโพสต์ส่วนตัวที่มีอยู่"
+                "pd_label": "เมื่อมีคนเชิญฉันเข้าร่วมโพสต์ส่วนตัวใหม่",
+                "pd_reply_label": "เมื่อมีคนตอบโพสต์ในโพสต์ส่วนตัวที่ฉันเป็นผู้รับ",
+                "pd_reply_text": "{username} ได้โพสต์ในโพสต์ส่วนตัวที่คุณเข้าร่วมอยู่",
+                "pd_text": "{username} ได้เริ่มโพสต์ส่วนตัวใหม่กับคุณ",
+                "pd_user_left_label": "เมื่อผู้รับคนอื่นออกจากโพสต์ส่วนตัวที่ฉันเข้าร่วมอยู่",
+                "pd_user_left_text": "{username} ได้ออกจากการสนทนาโพสต์ส่วนตัวนี้",
+                "pd_added_text": "{username} ได้เพิ่มคุณเข้าร่วมในโพสต์ส่วนตัว",
+                "pd_added_label": "เมื่อมีคนเพิ่มฉันเข้าร่วมในโพสต์ส่วนตัวที่มีอยู่"
             }
         },
         "admin": {
             "permission": {
-                "create_private_discussions_with_users": "สร้างโพสต์ส่วนตัวกับผู้ใช้",
-                "add_more_than_two_user_recipients": "เพิ่มผู้รับมากกว่า 2 คนในโพสต์ส่วนตัว",
-                "create_private_discussions_with_groups": "สร้างโพสต์ส่วนตัวกับกลุ่ม",
-                "create_private_discussions_with_blocking_users": "สร้างโพสต์ส่วนตัวกับผู้ใช้ที่บล็อก",
-                "edit_user_recipients": "แก้ไขผู้ใช้ที่เข้าร่วมในโพสต์ส่วนตัว",
-                "edit_group_recipients": "แก้ไขกลุ่มที่เข้าร่วมในโพสต์ส่วนตัว",
-                "make_private_into_public": "แปลงโพสต์ส่วนตัวเป็นโพสต์สาธารณะ",
-                "view_private_discussions-when-flagged": "ดูโพสต์ส่วนตัวของผู้ใช้อื่นถ้าได้รับการ flag"
+                "create_private_discussions_with_users": "สร้างโพสต์ส่วนตัวกับผู้ใช้รายอื่น",
+                "add_more_than_two_user_recipients": "เพิ่มผู้รับที่เป็นผู้ใช้รายบุคคลมากกว่า 2 คนในโพสต์ส่วนตัว",
+                "create_private_discussions_with_groups": "สร้างโพสต์ส่วนตัวกับกลุ่มผู้ใช้",
+                "create_private_discussions_with_blocking_users": "สร้างโพสต์ส่วนตัวกับผู้ใช้ที่ตั้งค่าบล็อกข้อความส่วนตัวไว้",
+                "edit_user_recipients": "แก้ไขรายชื่อผู้ใช้ที่เข้าร่วมในโพสต์ส่วนตัว",
+                "edit_group_recipients": "แก้ไขรายชื่อกลุ่มที่เข้าร่วมในโพสต์ส่วนตัว",
+                "make_private_into_public": "เปลี่ยนโพสต์ส่วนตัวให้เป็นโพสต์สาธารณะ",
+                "view_private_discussions-when-flagged": "ดูรายละเอียดโพสต์ส่วนตัวของผู้อื่นหากมีการรายงานความประพฤติ (Flagged)"
             },
             "settings": {
                 "general": {
                     "heading": "การตั้งค่าทั่วไป",
-                    "help": "การตั้งค่าเหล่านี้ควบคุมฟีเจอร์พื้นฐานของ byobu"
+                    "help": "การตั้งค่าเหล่านี้ควบคุมฟีเจอร์พื้นฐานของระบบโพสต์ส่วนตัว (Byobu)"
                 },
                 "icon": {
                     "heading": "การตั้งค่าไอคอน",
-                    "help": "การตั้งค่าเหล่านี้ควบคุมไอคอนที่ใช้โดย byobu บนฟอรัม"
+                    "help": "การตั้งค่าเหล่านี้ควบคุมไอคอนที่ใช้สำหรับระบบโพสต์ส่วนตัวบนบอร์ด"
                 },
-                "badge-icon": "Byobu Discussion Badge",
-                "enable-make-public-option": "เปิดใช้งานความสามารถ \"ทำให้เป็นสาธารณะ\"",
-                "enable-make-public-option-help": "เพิ่มความสามารถสำหรับผู้ที่มีสิทธิ์ในการนำผู้รับทั้งหมดออก กำหนด tag ใหม่ และทำให้โพสต์เป็นสาธารณะ (ตามการตั้งค่าการมองเห็นของ tag ที่เลือก)",
-                "post-event-icon": "Byobu Post Events",
-                "delete_on_last_recipient_left": "ลบโพสต์ส่วนตัวเมื่อผู้รับคนสุดท้ายออกไป",
-                "delete_on_last_recipient_left_help": "ถ้าเปิดใช้งาน โพสต์ส่วนตัวจะถูกลบอย่างถาวรจากฐานข้อมูลเมื่อผู้รับคนสุดท้ายออกไป หรือจะมีการซ่อน/ลบแบบ soft delete",
-                "hide_from_all_discussions_page": "ซ่อนโพสต์ส่วนตัวจากหน้า \"โพสต์ทั้งหมด\"",
-                "hide_from_all_discussions_page_help": "โพสต์ส่วนตัวจะเข้าถึงได้เฉพาะจากหน้า \"โพสต์ส่วนตัว\" หรือจากโปรไฟล์ผู้ใช้เท่านั้น"
+                "badge-icon": "ไอคอนสัญลักษณ์โพสต์ส่วนตัว",
+                "enable-make-public-option": "เปิดใช้งานความสามารถ \"เปลี่ยนเป็นโพสต์สาธารณะ\"",
+                "enable-make-public-option-help": "เพิ่มสิทธิ์ให้ผู้ที่ได้รับอนุญาตสามารถนำผู้รับทั้งหมดออก กำหนดแท็กใหม่ และตั้งค่าโพสต์นี้ให้เป็นสาธารณะ (อิงตามการตั้งค่าสิทธิ์การมองเห็นของแท็กที่เลือก)",
+                "post-event-icon": "ไอคอนบันทึกกิจกรรมในโพสต์ส่วนตัว",
+                "delete_on_last_recipient_left": "ลบโพสต์ส่วนตัวถาวรเมื่อผู้รับคนสุดท้ายกดออกจากโพสต์",
+                "delete_on_last_recipient_left_help": "หากเปิดใช้งาน โพสต์ส่วนตัวจะถูกลบออกจากฐานข้อมูลอย่างถาวรเมื่อผู้ใช้คนสุดท้ายออกจากโพสต์ มิฉะนั้นโพสต์จะถูกซ่อน/ลบแบบชั่วคราวแทน",
+                "hide_from_all_discussions_page": "ซ่อนโพสต์ส่วนตัวจากหน้ารวม \"โพสต์ทั้งหมด\"",
+                "hide_from_all_discussions_page_help": "โพสต์ส่วนตัวจะเข้าถึงได้จากหน้า \"โพสต์ส่วนตัว\" หรือจากหน้าโปรไฟล์ของผู้ใช้เท่านั้น"
             }
         },
         "email": {
             "subject": {
-                "private_discussion_created": "[Private Discussion] {display_name} เริ่มโพสต์ส่วนตัวใหม่กับคุณ",
-                "private_discussion_replied": "[Private Discussion] {display_name} โพสต์ในโพสต์ส่วนตัว",
-                "recipient_removed": "[Private Discussion] {display_name} ออกจากโพสต์",
-                "private_discussion_added": "[Private Discussion] {display_name} เพิ่มคุณไปในโพสต์ส่วนตัว"
+                "private_discussion_created": "[โพสต์ส่วนตัว] {display_name} ได้เริ่มโพสต์ส่วนตัวใหม่กับคุณ",
+                "private_discussion_replied": "[โพสต์ส่วนตัว] {display_name} ได้โพสต์ตอบกลับในโพสต์ส่วนตัว",
+                "recipient_removed": "[โพสต์ส่วนตัว] {display_name} ได้ออกจากการสนทนาโพสต์ส่วนตัว",
+                "private_discussion_added": "[โพสต์ส่วนตัว] {display_name} ได้เพิ่มคุณเข้าร่วมในโพสต์ส่วนตัว"
             },
             "body": {
                 "private_discussion_created": "",

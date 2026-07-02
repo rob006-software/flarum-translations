@@ -3,29 +3,29 @@
         "admin": {
             "permissions": {
                 "start": "สร้างแบบร่าง",
-                "schedule": "กำหนดเวลาแบบร่าง"
+                "schedule": "กำหนดเวลาเผยแพร่แบบร่าง"
             },
             "settings": {
-                "title": "FoF Drafts",
-                "enable_scheduled_drafts": "เปิดใช้งานการกำหนดเวลาแบบร่าง",
-                "schedule_on_one_server": "ใช้ 'onOneServer()' สำหรับ Task Scheduler (ต้องการ Redis/Memcache)",
-                "schedule_log_output": "บันทึก Output ของ Scheduler ไปยัง Log"
+                "title": "แบบร่าง (FoF Drafts)",
+                "enable_scheduled_drafts": "เปิดใช้งานการกำหนดเวลาเผยแพร่แบบร่าง",
+                "schedule_on_one_server": "ใช้คำสั่ง 'onOneServer()' สำหรับตัวกำหนดเวลาทำงาน (ต้องมี Redis/Memcache)",
+                "schedule_log_output": "บันทึกผลลัพธ์ของตัวกำหนดเวลาเก็บไว้ในระบบบันทึก (Log)"
             }
         },
         "console": {
-            "scheduled_drafts_disabled": "ขณะนี้การกำหนดเวลาแบบร่างถูกปิดใช้งานในการตั้งค่า",
+            "scheduled_drafts_disabled": "ระบบกำหนดเวลาเผยแพร่แบบร่างถูกปิดใช้งานอยู่ในการตั้งค่า",
             "no_title_error": ""
         },
         "ref": {
-            "schedule_draft": "กำหนดเวลาแบบร่าง"
+            "schedule_draft": "กำหนดเวลาเผยแพร่แบบร่าง"
         },
         "forum": {
             "composer": {
                 "title": "บันทึกแบบร่าง",
                 "saving": "กำลังบันทึก...",
-                "saved": "บันทึกแล้ว!",
-                "exit_alert": "ยกเลิกการแก้ไขแบบร่าง?",
-                "discard_empty_draft_alert": "ยกเลิกแบบร่างที่ว่างเปล่า?"
+                "saved": "บันทึกเรียบร้อย!",
+                "exit_alert": "ละทิ้งการเปลี่ยนแปลงของแบบร่างนี้หรือไหม?",
+                "discard_empty_draft_alert": "ละทิ้งแบบร่างที่ว่างเปล่านี้ไหม?"
             },
             "dropdown": {
                 "empty_text": "คุณยังไม่มีแบบร่างที่บันทึกไว้",
@@ -33,7 +33,7 @@
                 "delete_all_button": "ลบแบบร่างทั้งหมด",
                 "delete_button": "ลบแบบร่าง",
                 "schedule_button": "=> fof-drafts.ref.schedule_draft",
-                "scheduled_icon_tooltip": "กำหนดเวลาไว้: {datetime}",
+                "scheduled_icon_tooltip": "กำหนดเวลาเผยแพร่ไว้ที่: {datetime}",
                 "scheduled_icon_tooltip_formatter": "L [เวลา] LT",
                 "tooltip": "=> fof-drafts.forum.dropdown.title",
                 "alert": "คุณแน่ใจหรือไม่ว่าต้องการลบแบบร่างนี้?",
@@ -41,25 +41,25 @@
             },
             "schedule_draft_modal": {
                 "title": "=> fof-drafts.ref.schedule_draft",
-                "text": "กำหนดเวลาให้แบบร่างโพสต์อัตโนมัติในภายหลัง!",
-                "scheduled_text": "กำหนดให้โพสต์ในวันที่ {datetime}",
-                "scheduled_error": "ไม่สามารถกำหนดเวลาแบบร่างได้: {error}",
+                "text": "กำหนดเวลาเผยแพร่ให้แบบร่างของคุณโดยอัตโนมัติในภายหลัง!",
+                "scheduled_text": "ตั้งกำหนดการเผยแพร่ในวันที่ {datetime}",
+                "scheduled_error": "ไม่สามารถตั้งกำหนดเวลาแบบร่างได้เนื่องจาก: {error}",
                 "unschedule_button": "ยกเลิกกำหนดเวลา",
                 "unschedule_warning": "คุณแน่ใจหรือไม่ว่าต้องการยกเลิกการกำหนดเวลาของแบบร่างนี้?",
-                "reschedule_button": "กำหนดเวลาใหม่",
-                "schedule_button": "กำหนดเวลา",
-                "schedule_time_preview": "แบบร่างนี้จะโพสต์อัตโนมัติในวันที่ <b>{datetime}</b>",
+                "reschedule_button": "ปรับเปลี่ยนกำหนดเวลาใหม่",
+                "schedule_button": "ตั้งกำหนดเวลา",
+                "schedule_time_preview": "แบบร่างนี้จะได้รับการเผยแพร่โดยอัตโนมัติในวันที่ <b>{datetime}</b>",
                 "schedule_time_preview_formatter": "LLLL",
-                "schedule_time_preview_invalid": "วันที่และ/หรือเวลาไม่ถูกต้อง",
+                "schedule_time_preview_invalid": "รูปแบบวันที่และ/หรือเวลาไม่ถูกต้อง",
                 "no_title_error": ""
             },
             "user": {
                 "settings": {
                     "drafts_heading": "แบบร่าง",
                     "draft_autosave_enable": "เปิดใช้งานการบันทึกแบบร่างอัตโนมัติ?",
-                    "draft_autosave_interval_label": "ช่วงเวลาบันทึกอัตโนมัติ (วินาที)",
+                    "draft_autosave_interval_label": "ช่วงเวลาบันทึกอัตโนมัติ (หน่วยเป็นวินาที)",
                     "draft_autosave_interval_button": "อัปเดตช่วงเวลา",
-                    "draft_autosave_interval_invalid": "ช่วงเวลาต้องเป็นจำนวนเต็มที่มากกว่า 4"
+                    "draft_autosave_interval_invalid": "ช่วงเวลาต้องระบุเป็นจำนวนเต็มและมีค่ามากกว่า 4 วินาทีขึ้นไป"
                 }
             }
         }
@@ -76,8 +76,8 @@
         "lib": {
             "data": {
                 "drafts": {
-                    "export_description": "แบบร่างทั้งหมดที่ผู้ใช้สร้างไว้",
-                    "delete_description": "ลบแบบร่างทั้งหมดที่ผู้ใช้สร้างไว้"
+                    "export_description": "แบบร่างทั้งหมดที่สร้างโดยผู้ใช้รายนี้",
+                    "delete_description": "ลบแบบร่างทั้งหมดที่สร้างโดยผู้ใช้รายนี้"
                 }
             }
         }

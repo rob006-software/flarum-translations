@@ -2,33 +2,33 @@
     "fof-moderator-notes": {
         "admin": {
             "permissions": {
-                "createnotes": "สร้างบันทึกของผู้ดูแล",
-                "viewnotes": "ดูบันทึกของผู้ดูแล",
-                "deletenotes": "ลบบันทึกของผู้ดูแล"
+                "createnotes": "สร้างบันทึกบันทึกของผู้ควบคุมบอร์ด (Moderator Notes)",
+                "viewnotes": "เปิดดูบันทึกของผู้ควบคุมบอร์ด",
+                "deletenotes": "ลบบันทึกของผู้ควบคุมบอร์ด"
             }
         },
         "forum": {
-            "no_content_given": "ไม่อนุญาตให้บันทึกว่างเปล่า",
+            "no_content_given": "ไม่อนุญาตให้สร้างบันทึกที่มีเนื้อหาว่างเปล่า",
             "moderatorNotes": {
-                "created_text": "{username} สร้างบันทึกนี้เมื่อ {date}",
-                "add_button": "บันทึกใหม่",
-                "create-heading": "สร้างบันทึกผู้ดูแลใหม่",
+                "created_text": "{username} ได้เขียนบันทึกนี้ไว้เมื่อ {date}",
+                "add_button": "สร้างบันทึกใหม่",
+                "create-heading": "สร้างบันทึกของผู้ควบคุมบอร์ดฉบับใหม่",
                 "dismiss_button": "เสร็จสิ้น",
-                "input_heading": "กรอกบันทึกสำหรับ <strong>{username}</strong> (รองรับ Markdown)",
-                "noNotes": "ดูเหมือนยังไม่มีบันทึกที่นี่",
-                "submit_button": "บันทึกโน้ต",
-                "delete": "ลบ",
-                "confirm": "คุณแน่ใจหรือไม่ว่าต้องการลบบันทึกนี้?",
-                "filter_by_me": "เฉพาะบันทึกที่ฉันสร้าง"
+                "input_heading": "กรอกบันทึกของคุณเกี่ยวกับ <strong>{username}</strong> (รองรับการจัดรูปแบบด้วย Markdown)",
+                "noNotes": "ดูเหมือนว่าจะยังไม่มีบันทึกข้อมูลใดๆ ที่นี่",
+                "submit_button": "บันทึกข้อมูล",
+                "delete": "ลบออก",
+                "confirm": "คุณแน่ใจหรือไม่ว่าต้องการลบบันทึกข้อความนี้?",
+                "filter_by_me": "แสดงเฉพาะบันทึกที่ฉันเขียนขึ้นเอง"
             },
             "user": {
-                "notes": "บันทึกของผู้ดูแล"
+                "notes": "บันทึกของผู้ควบคุมบอร์ด"
             }
         },
         "api": {
-            "auto_note": "_ฉันเข้าสู่ระบบในฐานะผู้ใช้นี้:_ {reason}",
-            "auto_note_actor": "_เข้าสู่ระบบในฐานะ_ @{username}: {reason}",
-            "no_reason_provided": "ไม่ได้ระบุเหตุผล"
+            "auto_note": "_ฉันได้สวมบทบาทเข้าใช้งานเป็นผู้ใช้นี้เนื่องจาก:_ {reason}",
+            "auto_note_actor": "_สวมบทบาทเข้าใช้งานเป็น_ @{username} _เนื่องจาก:_ {reason}",
+            "no_reason_provided": "ไม่มีการระบุเหตุผลประกอบ"
         }
     }
 }

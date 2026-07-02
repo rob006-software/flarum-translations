@@ -5,29 +5,29 @@
                 "categories_label": "หมวดหมู่"
             },
             "labels": {
-                "keep_tags_nav": "แสดงลิงก์หน้า Tags ใน Sidebar?",
+                "keep_tags_nav": "แสดงลิงก์หน้าแท็ก (Tags) ในแถบนำทางด้านข้าง?",
                 "child_bare_icon": "แสดงไอคอนแบบไม่มีพื้นหลังสำหรับหมวดหมู่ย่อย?",
                 "compact_mobile_mode": "โหมดกระชับสำหรับมือถือ",
-                "full_page_desktop": "แสดงแบบเต็มหน้าบน Desktop?",
-                "parent_remove_icon": "ซ่อนไอคอนของ Tag หลัก?",
-                "parent_remove_description": "ซ่อนคำอธิบายของ Tag หลัก?",
-                "parent_remove_stats": "ซ่อนสถิติของ Tag หลัก?",
-                "parent_remove_last_discussion": "ซ่อนโพสต์ล่าสุดของ Tag หลัก?",
-                "small_forum_optimized": "ปรับแต่งสำหรับฟอรัมขนาดเล็ก?"
+                "full_page_desktop": "แสดงผลเต็มหน้าสำหรับเดสก์ท็อป?",
+                "parent_remove_icon": "ซ่อนไอคอนสำหรับแท็กระดับบนสุด?",
+                "parent_remove_description": "ซ่อนคำอธิบายสำหรับแท็กระดับบนสุด?",
+                "parent_remove_stats": "ซ่อนสถิติสำหรับแท็กระดับบนสุด?",
+                "parent_remove_last_discussion": "ซ่อนโพสต์ล่าสุดสำหรับแท็กระดับบนสุด?",
+                "small_forum_optimized": "ปรับแต่งความเหมาะสมสำหรับบอร์ดขนาดเล็ก?"
             },
             "help": {
                 "child_bare_icon": "ไอคอนของหมวดหมู่ย่อยจะแสดงโดยไม่มีพื้นหลังวงกลมหรือไม่?",
-                "full_page_desktop": "ต้องการให้เมนู Sidebar ย่อลงเป็นแถวเดียว (เหมือนหน้า Tags ปกติ) หรือไม่? การเปิดใช้งานนี้จะซ่อน Widget ต่าง ๆ (เช่น Forum Statistics ของ Friends of Flarum) จาก Navbar ของหน้า Categories ด้วย",
-                "small_forum_optimized": "จะแสดงจำนวนโพสต์/โพสต์ที่แม่นยำขึ้น แต่อาจทำให้ฟอรัมขนาดกลางและใหญ่ช้าลงอย่างมาก"
+                "full_page_desktop": "ต้องการยุบแถบเมนูนำทางด้านข้างให้เป็นแถวแนวนอน (เหมือนหน้าแท็กแบบดั้งเดิม) หรือไม่? การเปิดใช้งานนี้จะซ่อนวิดเจ็ตต่างๆ (เช่น สถิติบอร์ด Friends of Flarum) ออกจากแถบเมนูหน้าหมวดหมู่ด้วย",
+                "small_forum_optimized": "การเปิดใช้งานนี้จะนับจำนวนโพสต์และโพสต์ได้แม่นยำขึ้น แต่อาจส่งผลให้บอร์ดขนาดกลางและขนาดใหญ่ทำงานช้าลงอย่างมาก"
             },
             "headings": {
-                "nav": "การนำทาง",
-                "layout": "Layout",
+                "nav": "แท็ปนำทาง",
+                "layout": "เค้าโครง (Layout)",
                 "parent_display": "การแสดงหมวดหมู่หลัก",
                 "child_display": "การแสดงหมวดหมู่ย่อย",
                 "performance": "ประสิทธิภาพ"
             },
-            "title": "ตั้งค่า Categories"
+            "title": "ตั้งค่าหมวดหมู่ (Categories)"
         },
         "forum": {
             "all_categories": {
@@ -45,7 +45,7 @@
                 "post_label": "โพสต์"
             },
             "last_discussion_widget": {
-                "no_discussions": "ยังไม่มีโพสต์!"
+                "no_discussions": "ยังไม่มีโพสต์ในขณะนี้"
             }
         },
         "ref": {

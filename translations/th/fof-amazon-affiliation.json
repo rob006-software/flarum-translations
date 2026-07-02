@@ -3,20 +3,20 @@
         "admin": {
             "settings": {
                 "title": {
-                    "modal": "ตั้งค่า",
-                    "tags": "tag",
+                    "modal": "การตั้งค่า Amazon Affiliate",
+                    "tags": "แท็ก Affiliate",
                     "tags-mediaembed": ""
                 },
                 "field": {
                     "rich-card": "",
                     "rich-card-help": "",
-                    "keep-existing-tag": "tag",
-                    "keep-existing-tag-help": "URL",
+                    "keep-existing-tag": "คงแท็ก Amazon Affiliate เดิมจากลิงก์ต้นทางแทนการแทนที่",
+                    "keep-existing-tag-help": "โดยปกติแล้ว แท็กใดๆ ที่มีอยู่แล้วใน URL ต้นทางจะถูกแทนที่ด้วยแท็กที่คุณกำหนดไว้ด้านล่าง",
                     "help-mediaembed": "",
-                    "remove-tag-if-unhandled": "นำออก",
-                    "remove-tag-if-unhandled-help": "ค่าเริ่มต้น",
-                    "tag": "ชื่อ",
-                    "tag-placeholder": "ไม่"
+                    "remove-tag-if-unhandled": "ลบแท็ก Amazon Affiliate บนลิงก์ Amazon ที่ไม่อยู่ในเงื่อนไขการทำงาน",
+                    "remove-tag-if-unhandled-help": "โดยปกติ ลิงก์ที่ไม่อยู่ในเงื่อนไขจะถูกปล่อยไว้ตามเดิม รวมถึงแท็กที่มีอยู่ด้วย (ถ้ามี)",
+                    "tag": "{name} (amazon.{domain})",
+                    "tag-placeholder": "เว้นว่างไว้หากไม่ต้องการจัดการลิงก์เหล่านี้"
                 }
             }
         }

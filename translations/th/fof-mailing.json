@@ -2,42 +2,42 @@
     "fof-mailing": {
         "admin": {
             "permissions": {
-                "mail_individual": "ส่งอีเมลถึงผู้ใช้แต่ละคน",
-                "mail_all": "ส่งอีเมลถึง group หรือผู้ใช้ทั้งหมด"
+                "mail_individual": "ส่งอีเมลถึงผู้ใช้รายบุคคล",
+                "mail_all": "ส่งอีเมลถึงกลุ่มผู้ใช้หรือผู้ใช้ทั้งหมด"
             }
         },
         "forum": {
             "links": {
                 "mail_individual": "ส่งอีเมลถึงผู้ใช้นี้",
-                "mail_all": "ส่งอีเมล"
+                "mail_all": "ส่งอีเมลส่วนกลาง"
             },
             "modal_mail": {
                 "title_text": "เขียนอีเมล",
                 "recipients_label": "ผู้รับ",
-                "recipients_placeholder": "เพิ่มผู้รับเพิ่มเติม...",
+                "recipients_placeholder": "เพิ่มผู้รับ...",
                 "subject_label": "หัวเรื่อง",
                 "default_subject": "=> fof-mailing.ref.default_subject",
                 "message_label": "ข้อความ",
-                "submit_button": "ส่ง"
+                "submit_button": "ส่งอีเมล"
             },
             "modal_sent": {
-                "title_text": "ส่งอีเมลแล้ว!",
-                "on_its_way": "เยี่ยมเลย! อีเมลของคุณกำลังส่งไปยัง {recipientsCount} ผู้รับ!"
+                "title_text": "ส่งอีเมลเรียบร้อยแล้ว!",
+                "on_its_way": "เยี่ยมเลย! อีเมลของคุณอยู่ระหว่างดำเนินการส่งไปยังผู้รับจำนวน {recipientsCount} ราย!"
             },
             "recipient_kinds": {
-                "user": "ผู้ใช้",
-                "group": "กลุ่ม",
-                "email": "อีเมล"
+                "user": "ผู้ใช้รายบุคคล",
+                "group": "กลุ่มผู้ใช้",
+                "email": "ที่อยู่อีเมล"
             }
         },
         "api": {
-            "no_recipients": "ไม่พบผู้รับที่ตรงกัน"
+            "no_recipients": "ไม่พบผู้รับที่ตรงกับเงื่อนไข"
         },
         "email": {
             "default_subject": "=> fof-mailing.ref.default_subject"
         },
         "ref": {
-            "default_subject": "ข้อความจากผู้ดูแล forum"
+            "default_subject": "ข้อความจากผู้ดูแลระบบบอร์ดสนทนา"
         }
     }
 }

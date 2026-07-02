@@ -2,19 +2,19 @@
     "fof-ignore-users": {
         "admin": {
             "permissions": {
-                "can_not_be_ignored_label": "ไม่สามารถถูก ignore ได้"
+                "can_not_be_ignored_label": "ไม่สามารถถูกละเลย (Ignore) ได้"
             }
         },
         "forum": {
-            "profile_link": "ผู้ใช้ที่ถูก Ignore",
+            "profile_link": "ผู้ใช้ที่ละเลย",
             "profile_page": {
-                "no_ignored": "ดูเหมือนคุณยังไม่ได้ ignore ใครเลย"
+                "no_ignored": "ดูเหมือนว่าคุณไม่ได้ละเลยผู้ใช้คนใดเลยในขณะนี้"
             },
             "user_controls": {
-                "ignore_button": "Ignore",
-                "ignore_confirmation": "คุณแน่ใจหรือไม่ว่าต้องการ ignore ผู้ใช้นี้?",
-                "unignore_button": "ยกเลิก Ignore",
-                "unignore_confirmation": "คุณแน่ใจหรือไม่ว่าต้องการยกเลิก ignore ผู้ใช้นี้?"
+                "ignore_button": "ละเลย (Ignore)",
+                "ignore_confirmation": "คุณแน่ใจหรือไม่ว่าต้องการละเลยผู้ใช้รายนี้? (คุณจะไม่เห็นโพสต์หรือโพสต์จากผู้ใช้รายนี้)",
+                "unignore_button": "เลิกละเลย",
+                "unignore_confirmation": "คุณแน่ใจหรือไม่ว่าต้องการยกเลิกการละเลยผู้ใช้รายนี้?"
             },
             "badge": {
                 "user_label": "ผู้ใช้ที่ถูก ignore",

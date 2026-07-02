@@ -2,10 +2,10 @@
     "fof-anti-spam": {
         "admin": {
             "permissions": {
-                "spamblock_users_label": "ผู้ใช้"
+                "spamblock_users_label": "ทำเครื่องหมายผู้ใช้เป็นผู้ส่งสแปม (Spammer)"
             },
             "settings": {
-                "button": "ตั้งค่า",
+                "button": "การตั้งค่า",
                 "content-filter": {
                     "heading": "",
                     "introduction": "",
@@ -47,57 +47,57 @@
                     "advanced_block_patterns_help": ""
                 },
                 "default-actions": {
-                    "delete_user_label": "ลบ",
-                    "delete_user_help": "ลบ",
-                    "delete_discussions_label": "ลบ",
-                    "delete_discussions_help": "ลบ",
-                    "delete_posts_label": "ลบ",
-                    "delete_posts_help": "ลบ",
-                    "heading": "ค่าเริ่มต้น",
-                    "introduction": "ไม่",
-                    "move_discussions_to_tags_label": "โพสต์",
-                    "move_discussions_to_tags_help": "ลบ"
+                    "delete_user_label": "ลบผู้ใช้",
+                    "delete_user_help": "การดำเนินการนี้จะลบผู้ใช้รายนี้อย่างถาวร หากปิดใช้งาน ผู้ใช้จะถูกระงับการใช้งานแทน",
+                    "delete_discussions_label": "ลบโพสต์",
+                    "delete_discussions_help": "การดำเนินการนี้จะลบโพสต์ทั้งหมดที่เริ่มโดยผู้ใช้รายนี้อย่างถาวร หากปิดใช้งาน โพสต์จะถูกซ่อนไว้ชั่วคราว (Soft Delete) แทน",
+                    "delete_posts_label": "ลบโพสต์",
+                    "delete_posts_help": "การดำเนินการนี้จะลบโพสต์ทั้งหมดของผู้ใช้รายนี้อย่างถาวร หากปิดใช้งาน โพสต์จะถูกซ่อนไว้ชั่วคราว (Soft Delete) แทน",
+                    "heading": "การดำเนินการดูแลระบบเริ่มต้น",
+                    "introduction": "เมื่อผู้ใช้ถูกทำเครื่องหมายว่าเป็นผู้ส่งสแปม ผู้ดูแลระบบสามารถเลือกดำเนินการต่างๆ ตามกรณีเฉพาะได้ การตั้งค่าเหล่านี้ช่วยให้คุณสามารถกำหนดการดำเนินการที่จะใช้ตามปกติไว้ล่วงหน้าเพื่อความรวดเร็ว แต่ยังคงปรับเปลี่ยนได้ตามความจำเป็น",
+                    "move_discussions_to_tags_label": "ย้ายโพสต์ไปยังแท็ก",
+                    "move_discussions_to_tags_help": "การดำเนินการนี้จะย้ายโพสต์ทั้งหมดที่สร้างโดยผู้ใช้รายนี้ไปยังแท็กที่คุณระบุ ล้างแท็กที่เลือกหากต้องการปล่อยให้โพสต์คงอยู่ในแท็กเดิม จะไม่มีผลใดๆ หากเปิดใช้งานตัวเลือก 'ลบโพสต์'"
                 },
                 "stopforumspam": {
-                    "introduction": "ทดสอบ",
-                    "username_label": "ชื่อ",
-                    "ip_label": "เพิ่ม",
-                    "email_label": "email",
-                    "frequency_label": "threshold",
-                    "frequency_help": "เปิดใช้งาน",
-                    "api_key_label": "API",
-                    "api_key_text": "หยุด",
-                    "api_key_instructions_text": "หยุด",
-                    "regional_endpoint_label": "Geographic Access",
-                    "regional_endpoint_help": "ปิด",
-                    "region_closest_label": "ปิด",
-                    "region_europe_label": "Europe",
-                    "region_us_label": "United States",
-                    "confidence_label": "confidence",
-                    "confidence_help": "ทดสอบ",
-                    "email_hash_label": "เพิ่ม",
-                    "email_hash_help": "เพิ่ม",
+                    "introduction": "ตรวจสอบการลงทะเบียนผู้ใช้ใหม่กับฐานข้อมูล <a>StopForumSpam</a> หากค่า <code>confidence</code> (ความมั่นใจ) หรือ <code>frequency</code> (ความถี่) ถึงเกณฑ์ที่กำหนด ผู้ใช้จะไม่สามารถลงทะเบียนในบอร์ดนี้ได้สำเร็จ\n\nรองรับการลงทะเบียนผ่าน SSO ของ <code>fof/oauth</code> และ <code>fof/passport</code> ด้วย ส่วนผู้ให้บริการ SSO รายอื่นน่าจะใช้งานได้เช่นกันแต่ยังไม่ผ่านการทดสอบ\n",
+                    "username_label": "ตรวจสอบสแปมจากชื่อผู้ใช้",
+                    "ip_label": "ตรวจสอบสแปมจาก IP address",
+                    "email_label": "ตรวจสอบสแปมจากอีเมล",
+                    "frequency_label": "เกณฑ์การทำงาน",
+                    "frequency_help": "จำนวนการรายงานสแปมรวมจากการตรวจสอบทั้งหมดที่เปิดใช้งานที่จะกระตุ้นตัวกรองสแปม\nตัวอย่างเช่น หากอีเมลพบ 1 ครั้ง และ IP พบ 2 ครั้ง จะนับรวมเป็น 3 ครั้ง หากตั้งเกณฑ์ไว้ที่ 3 หรือน้อยกว่า ระบบจะบล็อกการลงทะเบียนนั้น\n",
+                    "api_key_label": "API Key",
+                    "api_key_text": "คุณสามารถเลือกรายงานผู้ส่งสแปมไปยัง StopForumSpam เพื่อช่วยให้ชุมชนบอร์ดส่วนใหญ่ปลอดสแปม",
+                    "api_key_instructions_text": "<register>สมัครใช้งาน StopForumSpam</register> จากนั้นคุณจำเป็นต้อง <key>รับสิทธิ์ API Key</key>",
+                    "regional_endpoint_label": "การเข้าถึงตามภูมิศาสตร์",
+                    "regional_endpoint_help": "โดยปกติเราจะส่งการค้นหาไปยังเซิร์ฟเวอร์ภูมิภาคที่ใกล้ที่สุดเพื่อการตอบสนองที่เร็วที่สุด หากคุณต้องการจำกัดการส่งข้อมูลไปยังบางภูมิภาค เช่น เพื่อให้เป็นไปตามข้อบังคับความเป็นส่วนตัวของบริษัทหรือประเทศ คุณสามารถบังคับการเชื่อมต่อเฉพาะภูมิภาคได้",
+                    "region_closest_label": "ใกล้ที่สุด",
+                    "region_europe_label": "ยุโรป",
+                    "region_us_label": "สหรัฐอเมริกา",
+                    "confidence_label": "ความมั่นใจ (Confidence)",
+                    "confidence_help": "คะแนนความมั่นใจเป็นตัวชี้วัดที่ค่อนข้างดีว่าข้อมูลที่กำลังทดสอบจะทำให้เกิดสแปม กำหนดระดับความมั่นใจของคุณเป็นเปอร์เซ็นต์ หากมีค่าเท่ากับหรือสูงกว่าระดับนี้ การลงทะเบียนจะถูกบล็อก โดยไม่ขึ้นกับการตรวจสอบ 'ความถี่' ข้างต้น",
+                    "email_hash_label": "ใช้ที่อยู่อีเมลแบบเข้ารหัสแฮช (Hashed Email)",
+                    "email_hash_help": "ส่งค่าแฮช MD5 ของอีเมลแทนที่จะส่งตัวอีเมลจริง วิธีนี้จะข้ามรายการแบล็กลิสต์ทั้งหมด การแปลงค่าให้เป็นมาตรฐาน และการตรวจสอบการอำพรางค่าต่างๆ",
                     "block_tor_exit_nodes_label": "",
                     "block_tor_exit_nodes_help": "",
-                    "sfs_lookup_label": "ตกลง",
-                    "sfs_lookup_help": "เพิ่ม",
-                    "report_blocked_registrations_label": "port",
-                    "report_blocked_registrations_help": "ยืนยัน"
+                    "sfs_lookup_label": "ตรวจสอบการลงทะเบียน",
+                    "sfs_lookup_help": "หากเปิดใช้งาน เราจะตรวจสอบฐานข้อมูล StopForumSpam เมื่อมีผู้ใช้รายใหม่ลงทะเบียนในบอร์ดของคุณ หากพบข้อมูล (ชื่อผู้ใช้, IP address, อีเมล) และตัวเลือกที่เกี่ยวข้องถูกเปิดใช้งาน พร้อมกับระดับความมั่นใจของ SFS ถึงตามที่ระบุ ระบบจะบล็อกไม่ให้ลงทะเบียนสำเร็จ",
+                    "report_blocked_registrations_label": "รายงานการลงทะเบียนที่ถูกบล็อก",
+                    "report_blocked_registrations_help": "เมื่อการลงทะเบียนถูกบล็อกโดยฟีเจอร์ตรวจสอบการลงทะเบียน เราจะส่งรายงานความพยายามนั้นกลับไปยัง StopForumSpam เพื่อช่วยยืนยันพฤติกรรมของผู้ส่งสแปม จำเป็นต้องตั้งค่า StopForumSpam API key ก่อน (ดูด้านล่าง)"
                 }
             },
             "blocked_registrations": {
-                "button": "ล็อก",
-                "title": "ล็อก",
-                "no-records": "ไม่",
-                "help": "ลบ",
-                "attempted-at": "attempted at",
-                "ip": "เพิ่ม",
-                "email": "เพิ่ม",
-                "username": "username",
-                "login-provider": "login provider",
-                "login-provider-data": "login",
-                "sfs-data": "หยุด",
-                "delete_entry": "ลบ"
+                "button": "การลงทะเบียนที่ถูกบล็อก",
+                "title": "การลงทะเบียนที่ถูกบล็อก",
+                "no-records": "ไม่พบประวัติการลงทะเบียนที่ถูกบล็อก",
+                "help": "หน้านี้แสดงประวัติการลงทะเบียนทั้งหมดที่ถูกบล็อกโดยบริการ StopForumSpam คุณสามารถดูรายละเอียดของการลงทะเบียนแต่ละรายการ และลบประวัตินั้นออกจากฐานข้อมูลได้หากต้องการ\n",
+                "attempted-at": "เวลาที่พยายาม",
+                "ip": "IP Address",
+                "email": "อีเมล",
+                "username": "ชื่อผู้ใช้",
+                "login-provider": "ผู้ให้บริการเข้าระบบ",
+                "login-provider-data": "ข้อมูลผู้ให้บริการเข้าระบบ",
+                "sfs-data": "ข้อมูล StopForumSpam",
+                "delete_entry": "ลบรายการ"
             }
         },
         "forum": {
@@ -106,26 +106,26 @@
             },
             "message": {
                 "stopforumspam": {
-                    "blocked": "ล็อก"
+                    "blocked": "พบข้อมูลรายละเอียดการลงทะเบียนของคุณในฐานข้อมูลป้องกันสแปม ดังนั้นการลงทะเบียนของคุณจึงถูกบล็อก"
                 }
             },
             "spammer_modal": {
-                "hard_delete_discussions_label": "ลบ",
-                "hard_delete_discussions_help": "ลบ",
-                "hard_delete_posts_label": "ลบ",
-                "hard_delete_posts_help": "ลบ",
-                "hard_delete_user_label": "ลบ",
-                "hard_delete_user_help": "ลบ",
-                "intro": "ผู้ใช้",
-                "move_discussions_tag_label": "โพสต์",
-                "move_discussions_tag_help": "ปิดใช้งาน",
-                "process_button": "ประมวลผล",
-                "title": "ชื่อ",
-                "report_to_sfs_label": "หยุด",
-                "report_to_sfs_help": "เพิ่ม"
+                "hard_delete_discussions_label": "ลบโพสต์",
+                "hard_delete_discussions_help": "การดำเนินการนี้จะลบโพสต์ทั้งหมดที่เริ่มโดยผู้ใช้รายนี้อย่างถาวร หากปิดใช้งาน โพสต์จะถูกซ่อนแทน",
+                "hard_delete_posts_label": "ลบโพสต์",
+                "hard_delete_posts_help": "การดำเนินการนี้จะลบโพสต์ทั้งหมด (ความคิดเห็น, การตอบกลับ ฯลฯ) ที่เขียนโดยผู้ใช้รายนี้อย่างถาวร หากปิดใช้งาน โพสต์จะถูกซ่อนแทน",
+                "hard_delete_user_label": "ลบผู้ใช้",
+                "hard_delete_user_help": "การดำเนินการนี้จะลบผู้ใช้รายนี้อย่างถาวร หากปิดใช้งาน ผู้ใช้จะถูกระงับการใช้งานแทน",
+                "intro": "เมื่อทำเครื่องหมายผู้ใช้เป็นผู้ส่งสแปม จะมีขั้นตอนการดำเนินการหลายอย่างเกิดขึ้น ขึ้นอยู่กับส่วนขยาย (Extension) ที่มีอยู่ในบอร์ดของคุณ",
+                "move_discussions_tag_label": "ย้ายโพสต์ไปยังแท็กกักกัน (Quarantined Tag)",
+                "move_discussions_tag_help": "การดำเนินการนี้จะย้ายโพสต์ทั้งหมดที่สร้างโดยผู้ใช้รายนี้ไปยังแท็กที่คุณระบุในการตั้งค่าบอร์ด หากปิดใช้งาน โพสต์จะยังคงอยู่ในแท็กปัจจุบัน",
+                "process_button": "ดำเนินการ",
+                "title": "ทำเครื่องหมาย {username} เป็นผู้ส่งสแปม",
+                "report_to_sfs_label": "รายงานไปยัง StopForumSpam",
+                "report_to_sfs_help": "การดำเนินการนี้จะส่งรายงานข้อมูลเบื้องต้นของผู้ใช้ (ชื่อผู้ใช้, อีเมล, IP address) ไปยัง StopForumSpam ซึ่งจะช่วยป้องกันไม่ให้ผู้ใช้รายนี้ลงทะเบียนในบอร์ดอื่นๆ ที่ใช้บริการ StopForumSpam"
             },
             "user_controls": {
-                "spammer_button": "spam"
+                "spammer_button": "ผู้ส่งสแปม"
             }
         }
     },

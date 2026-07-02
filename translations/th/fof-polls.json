@@ -3,8 +3,8 @@
         "admin": {
             "settings": {
                 "general": {
-                    "heading": "ตั้งค่า",
-                    "help": "ตั้งค่า"
+                    "heading": "การตั้งค่าทั่วไป",
+                    "help": "การตั้งค่าเหล่านี้ควบคุมคุณลักษณะพื้นฐานของส่วนขยายระบบแบบสำรวจ (Polls)"
                 },
                 "discussion_polls": {
                     "heading": "",
@@ -13,20 +13,20 @@
                 "enable_discussion_polls": "",
                 "enable_discussion_polls_help": "",
                 "global_polls": {
-                    "heading": "Global Polls",
-                    "help": "ตั้งค่าที่ควบคุมฟีเจอร์ global polls"
+                    "heading": "แบบสำรวจส่วนกลาง",
+                    "help": "การตั้งค่าควบคุมคุณลักษณะสำหรับการตั้งแบบสำรวจส่วนกลางของบอร์ด"
                 },
                 "image": {
-                    "heading": "ตั้งค่า",
+                    "heading": "การตั้งค่ารูปภาพประกอบ",
                     "help": ""
                 },
-                "enable_global_polls": "เปิดใช้งาน",
-                "enable_global_polls_help": "ไม่",
-                "enabled_poll_groups": "เปิดใช้งาน",
-                "enabled_poll_groups_help": "กลุ่ม",
-                "max_options": "ตัวเลือก",
-                "options_color_blend": "ข้อความ",
-                "options_color_blend_help": "ปิดใช้งาน",
+                "enable_global_polls": "เปิดใช้งานระบบแบบสำรวจส่วนกลาง (Global Polls)",
+                "enable_global_polls_help": "แบบสำรวจส่วนกลางจะไม่เชื่อมโยงกับโพสต์ใดโพสต์หนึ่งเป็นการเฉพาะ โดยสมาชิกสามารถเข้าใช้งานผ่านหน้าเมนูแบบสำรวจหลักของชุมชน",
+                "enabled_poll_groups": "เปิดใช้งานระบบกลุ่มแบบสำรวจ (Poll Groups)",
+                "enabled_poll_groups_help": "กลุ่มแบบสำรวจช่วยให้สามารถจัดรวบรวมแบบสำรวจส่วนกลางหลายๆ รายการมาแสดงผลร่วมกันในหน้าเพจที่แบ่งหมวดหมู่ไว้เฉพาะ",
+                "max_options": "จำนวนตัวเลือกคำตอบสูงสุดต่อหนึ่งแบบสำรวจ",
+                "options_color_blend": "ผสมผสานโทนสีของข้อความในตัวเลือกแบบสำรวจ",
+                "options_color_blend_help": "ใช้การประสมโทนสีพื้นหลังเพื่อให้ข้อความคำตอบของแบบสำรวจสามารถอ่านได้ง่ายขึ้น โปรดปิดตัวเลือกนี้หากฟีเจอร์ส่งผลกระทบต่อสไตล์การแสดงผลของสกินบอร์ดจนทำให้อ่านยากกว่าเดิม",
                 "max_image_upload_size": "",
                 "max_image_upload_size_help": "",
                 "image_height": "",
@@ -34,102 +34,102 @@
                 "image_dimensions_help": ""
             },
             "permissions": {
-                "view_results_without_voting": "ดู",
-                "start": "เริ่ม",
-                "start_global": "เริ่ม",
-                "self_edit": "แก้ไข",
-                "self_post_edit": "แก้ไข",
-                "upload_images": "อัปโหลด",
-                "vote": "โหวต poll",
-                "change_vote": "เปลี่ยนคะแนนโหวต",
-                "moderate": "แก้ไข",
-                "view_group": "ดู",
-                "start_group": "สร้าง",
-                "moderate_group": "แก้ไข"
+                "view_results_without_voting": "เปิดดูผลลัพธ์คะแนนได้โดยไม่ต้องลงคะแนนโหวต",
+                "start": "เริ่มตั้งแบบสำรวจภายในโพสต์",
+                "start_global": "เริ่มสร้างแบบสำรวจส่วนกลาง",
+                "self_edit": "แก้ไขแบบสำรวจที่ตนเองเป็นผู้สร้าง (จำเป็นต้องมีสิทธิ์แก้ไขโพสต์)",
+                "self_post_edit": "แก้ไขแบบสำรวจทั้งหมดในโพสต์ของตนเอง (จำเป็นต้องมีสิทธิ์แก้ไขโพสต์)",
+                "upload_images": "อนุญาตให้ผู้ใช้อัปโหลดรูปภาพประกอบแบบสำรวจ",
+                "vote": "โหวตลงคะแนนในแบบสำรวจ",
+                "change_vote": "ปรับเปลี่ยนสิทธิ์แก้คะแนนโหวตใหม่",
+                "moderate": "แก้ไขและสั่งลบแบบสำรวจใดๆ",
+                "view_group": "เข้าดูหน้ากลุ่มแบบสำรวจ",
+                "start_group": "สร้างกลุ่มแบบสำรวจใหม่",
+                "moderate_group": "แก้ไขและลบข้อมูลกลุ่มแบบสำรวจ"
             }
         },
         "forum": {
-            "days_remaining": "เวลา",
-            "no_permission": "สิทธิ์",
-            "poll_ended": "Poll นี้สิ้นสุดแล้ว",
-            "public_poll": "ดู",
-            "max_votes_allowed": "ตัวเลือก",
-            "polls_count": "จำนวน",
-            "poll_never_ends": "Poll ไม่มีวันสิ้นสุด",
-            "answers": "คำตอบ",
+            "days_remaining": "แบบสำรวจนี้จะสิ้นสุดลงใน {time}",
+            "no_permission": "คุณไม่มีสิทธิ์การเข้าถึงในการลงคะแนนโหวต",
+            "poll_ended": "แบบสำรวจนี้ปิดรับคะแนนแล้ว",
+            "public_poll": "ดูรายชื่อผู้ลงคะแนน",
+            "max_votes_allowed": "แบบสำรวจนี้อนุญาตให้ลงคะแนนได้สูงสุด {max, plural, other {# ตัวเลือก}}",
+            "polls_count": "{count, plural, other {{count} คะแนนโหวต}}",
+            "poll_never_ends": "แบบสำรวจนี้ไม่มีกำหนดวันสิ้นสุด",
+            "answers": "ตัวเลือกคำตอบ",
             "poll": {
-                "cannot_change_vote": "คุณไม่สามารถเปลี่ยนคะแนนโหวตหลังจากโหวตแล้ว",
-                "submit_button": "โหวต",
-                "start_poll_button": "เริ่ม",
-                "cannot_start_poll_button": "ไม่",
-                "total_votes": "จำนวน",
-                "draft_label": "ร่าง",
-                "scheduled_label": "วันที่",
-                "scheduled_error_tooltip": "เปิด"
+                "cannot_change_vote": "คุณไม่สามารถเปลี่ยนแปลงแก้ไขคะแนนโหวตได้อีกหลังจากลงคะแนนไปแล้ว",
+                "submit_button": "ส่งคะแนนโหวต",
+                "start_poll_button": "สร้างแบบสำรวจส่วนกลาง",
+                "cannot_start_poll_button": "ไม่สามารถสร้างแบบสำรวจได้",
+                "total_votes": "{count, plural, other {คะแนนโหวตรวมทั้งหมด # คะแนน}}",
+                "draft_label": "แบบร่าง",
+                "scheduled_label": "ตั้งกำหนดการเผยแพร่ในวันที่ {date}",
+                "scheduled_error_tooltip": "การจัดพิมพ์เผยแพร่ตามกำหนดเวลาล้มเหลว กรุณาเปิดแบบสำรวจเพื่อตรวจสอบเหตุผลรายละเอียด"
             },
             "poll_controls": {
                 "toggle_dropdown_accessible_label": "",
                 "edit_label": "=> core.ref.edit",
                 "delete_label": "=> core.ref.delete",
                 "view_label": "=> core.ref.view",
-                "delete_confirmation": "ลบ",
-                "delete_success_message": "ลบ",
-                "delete_error_message": "เกิดข้อผิดพลาดขณะลบ poll",
-                "publish_label": "เผยแพร่ตอนนี้",
-                "publish_success": "เผยแพร่แล้ว",
-                "schedule_publish_label": "กำหนดการเผยแพร่",
-                "edit_schedule_publish_label": "แก้ไข",
-                "cancel_schedule_label": "ยกเลิก",
-                "cancel_schedule_success": "ยกเลิก",
-                "unpublish_label": "ย้อนกลับ",
-                "unpublish_confirmation": "แสดง",
-                "unpublish_success": "ร่าง",
-                "unpublish_error_has_votes": "ลบ"
+                "delete_confirmation": "คุณแน่ใจหรือไม่ว่าต้องการลบแบบสำรวจนี้อย่างถาวร?",
+                "delete_success_message": "ลบแบบสำรวจเสร็จสิ้นเรียบร้อย",
+                "delete_error_message": "เกิดข้อผิดพลาดในการพยายามลบแบบสำรวจ",
+                "publish_label": "เผยแพร่ทันที",
+                "publish_success": "แบบสำรวจได้รับการเผยแพร่แล้ว",
+                "schedule_publish_label": "กำหนดเวลาสำหรับการเผยแพร่",
+                "edit_schedule_publish_label": "แก้ไขกำหนดเวลาการเผยแพร่",
+                "cancel_schedule_label": "ยกเลิกกำหนดเวลาเผยแพร่",
+                "cancel_schedule_success": "ยกเลิกกำหนดการเผยแพร่เสร็จเรียบร้อย",
+                "unpublish_label": "ย้ายกลับไปยังสถานะแบบร่าง",
+                "unpublish_confirmation": "ต้องการย้ายแบบสำรวจนี้กลับเป็นแบบร่างหรือไม่? รายการนี้จะหายไปจากหน้าตู้โชว์แสดงผล",
+                "unpublish_success": "ย้ายแบบสำรวจกลับไปยังกล่องเก็บแบบร่างเรียบร้อยแล้ว",
+                "unpublish_error_has_votes": "ไม่สามารถยกเลิกการเผยแพร่ได้เนื่องจากมีการลงคะแนนโหวตในระบบแล้ว โปรดลบแบบสำรวจนี้ทิ้งแทนหากต้องการยกเลิก"
             },
             "poll_form": {
-                "delete": "ลบ",
-                "error": "ข้อผิดพลาด"
+                "delete": "ลบแบบสำรวจ",
+                "error": "เกิดข้อผิดพลาดในการบันทึกแบบสำรวจ โปรดติดต่อผู้ดูแลระบบบอร์ดเพื่อขอความช่วยเหลือ"
             },
             "poll_groups": {
                 "composer": {
-                    "add_title": "เพิ่ม",
-                    "edit_title": "แก้ไข",
+                    "add_title": "สร้างกลุ่มแบบสำรวจ",
+                    "edit_title": "แก้ไขกลุ่มแบบสำรวจ",
                     "save_changes": "=> core.ref.save_changes",
-                    "delete": "ลบ",
-                    "groups_manager": "กลุ่ม",
-                    "view_group": "ดู",
-                    "success": "บันทึก"
+                    "delete": "ลบกลุ่มแบบสำรวจนี้",
+                    "groups_manager": "หน้าจัดการกลุ่มแบบสำรวจ",
+                    "view_group": "แสดงผลกลุ่มแบบสำรวจ",
+                    "success": "บันทึกข้อมูลกลุ่มแบบสำรวจเสร็จสมบูรณ์"
                 },
                 "list_page": {
-                    "title": "กลุ่ม",
-                    "start_poll_group_button": "เริ่ม",
-                    "cannot_start_poll_group_button": "ไม่",
-                    "empty_text": "ไม่",
+                    "title": "กลุ่มแบบสำรวจ",
+                    "start_poll_group_button": "สร้างกลุ่มแบบสำรวจใหม่",
+                    "cannot_start_poll_group_button": "ไม่สามารถสร้างกลุ่มแบบสำรวจได้",
+                    "empty_text": "ดูเหมือนว่าจะยังไม่มีกลุ่มแบบสำรวจปรากฏอยู่ที่นี่ในขณะนี้",
                     "load_more_button": "=> core.ref.load_more",
-                    "no_polls": "ไม่",
-                    "add_poll_button": "เพิ่ม"
+                    "no_polls": "ไม่มีแบบสำรวจในกลุ่มนี้",
+                    "add_poll_button": "นำแบบสำรวจเข้ากลุ่ม"
                 },
                 "controls": {
-                    "add_poll_label": "เพิ่ม",
+                    "add_poll_label": "เพิ่มแบบสำรวจ",
                     "edit_label": "=> core.ref.edit",
-                    "view_label": "ดู",
+                    "view_label": "ดูรายละเอียดกลุ่มแบบสำรวจ",
                     "delete_label": "=> core.ref.delete",
-                    "delete_confirmation": "ลบ",
-                    "delete_success_message": "ลบ",
-                    "delete_error_message": "กลุ่ม"
+                    "delete_confirmation": "คุณแน่ใจหรือไม่ว่าต้องการลบกลุ่มแบบสำรวจนี้?",
+                    "delete_success_message": "ลบกลุ่มแบบสำรวจเรียบร้อยแล้ว",
+                    "delete_error_message": "เกิดความผิดพลาดในการดำเนินการลบกลุ่มแบบสำรวจ"
                 }
             },
             "polls_page": {
-                "title": "Polls"
+                "title": "แบบสำรวจความคิดเห็น"
             },
             "polls_list": {
-                "empty_text": "ไม่",
+                "empty_text": "ดูเหมือนว่าในขณะนี้ยังไม่มีแบบสำรวจของชุมชนปรากฏอยู่เลย",
                 "load_more_button": "=> core.ref.load_more",
                 "sort_dropdown": {
-                    "newest": "ใหม่ที่สุด",
+                    "newest": "ใหม่ล่าสุด",
                     "oldest": "เก่าที่สุด",
-                    "most_voted": "โหวตมากที่สุด",
-                    "least_voted": "โหวตน้อยที่สุด",
+                    "most_voted": "ได้รับการโหวตสูงสุด",
+                    "least_voted": "ได้รับการโหวตต่ำสุด",
                     "sort_dropdown": {
                         "default": "=> fof-polls.forum.polls_list.sort_dropdown.newest"
                     }
@@ -137,103 +137,103 @@
                 "status_filter": {
                     "all": "ทั้งหมด",
                     "published": "เผยแพร่แล้ว",
-                    "draft": "ร่าง"
+                    "draft": "แบบร่าง"
                 }
             },
             "composer_discussion": {
                 "add_poll": "=> fof-polls.forum.moderation.add",
                 "edit_poll": "=> fof-polls.forum.moderation.edit",
-                "no_permission_alert": "ไม่"
+                "no_permission_alert": "คุณไม่มีสิทธิ์ในการเริ่มจัดตั้งแบบสำรวจ"
             },
             "compose": {
-                "add_title": "เพิ่ม",
-                "edit_title": "แก้ไข",
-                "polls_manager": "Poll Manager",
-                "polls_preview": "ดู",
-                "continue_editing": "แก้ไข",
-                "success": "บันทึก",
-                "submit": "ส่ง",
-                "save_as_draft": "บันทึก",
-                "update_draft": "อัปเดต",
-                "draft_saved": "บันทึก",
-                "publish": "เผยแพร่",
-                "schedule_publication": "กำหนดการเผยแพร่",
-                "schedule_publication_edit": "แก้ไข",
-                "schedule_datetime_label": "เผยแพร่ที่",
+                "add_title": "สร้างแบบสำรวจใหม่",
+                "edit_title": "แก้ไขแบบสำรวจ",
+                "polls_manager": "ระบบจัดการแบบสำรวจ",
+                "polls_preview": "เปิดแสดงแบบสำรวจ",
+                "continue_editing": "เขียนต่อข้อมูลแบบสำรวจ",
+                "success": "บันทึกข้อมูลแบบสำรวจสำเร็จ",
+                "submit": "ส่งข้อมูล",
+                "save_as_draft": "บันทึกเก็บเป็นแบบร่าง",
+                "update_draft": "ปรับปรุงข้อมูลแบบร่าง",
+                "draft_saved": "บันทึกแบบร่างสำเร็จแล้ว",
+                "publish": "เผยแพร่ทันที",
+                "schedule_publication": "กำหนดกำหนดการเผยแพร่",
+                "schedule_publication_edit": "แก้ไขวันกำหนดการเผยแพร่",
+                "schedule_datetime_label": "เริ่มเผยแพร่ที่เวลา",
                 "schedule_submit": "กำหนดการ",
-                "schedule": "กำหนดการ"
+                "schedule": "บันทึกเวลา"
             },
             "modal": {
-                "add_title": "เพิ่ม",
-                "add_option_label": "เพิ่ม",
-                "date_placeholder": "ตัวเลือก",
-                "edit_title": "แก้ไข",
-                "include_question": "ต้องรวมคำถาม",
-                "max": "คุณสามารถมีคำตอบสูงสุด {max} คำตอบ",
-                "min": "ต้องรวมคำตอบอย่างน้อย 2 คำตอบ",
-                "empty_answers": "นำออก",
-                "no_voters": "ไม่",
-                "option_placeholder": "คำตอบ",
-                "image_option_placeholder": "URL",
-                "options_label": "คำตอบ",
-                "public_poll_label": "ทั้งหมด",
-                "allow_multiple_votes_label": "ตัวเลือก",
-                "max_votes_label": "ผู้ใช้",
-                "max_votes_help": "ผู้ใช้",
-                "hide_votes_label": "ซ่อน",
-                "hide_votes_label_help": "เริ่ม",
-                "allow_change_vote_label": "ผู้ใช้",
-                "question_placeholder": "คำถาม",
-                "subtitle_placeholder": "ชื่อเรื่อง",
-                "submit": "ส่ง",
+                "add_title": "สร้างแบบสำรวจใหม่",
+                "add_option_label": "เพิ่มตัวเลือกคำตอบ",
+                "date_placeholder": "กำหนดวันสิ้นสุดโพล (ระบุหรือไม่ก็ได้)",
+                "edit_title": "แก้ไขแบบสำรวจ",
+                "include_question": "คุณจำเป็นต้องกำหนดชื่อคำถามแบบสำรวจ",
+                "max": "คุณสามารถใส่คำตอบได้สูงสุดไม่เกิน {max} ตัวเลือก",
+                "min": "คุณจำเป็นต้องระบุตัวเลือกคำตอบอย่างน้อย 2 ข้อขึ้นไป",
+                "empty_answers": "{count, plural, other {มีช่องตัวเลือกคำตอบว่างเปล่าอยู่ # จุด — โปรดกรอกข้อมูลให้ครบหรือกดนำออก}}",
+                "no_voters": "ยังไม่มีคะแนนลงโหวต",
+                "option_placeholder": "ระบุตัวเลือกคำตอบที่นี่",
+                "image_option_placeholder": "ลิงก์ภาพประกอบตัวเลือก (ระบุหรือไม่ก็ได้)",
+                "options_label": "ตัวเลือกคำตอบทั้งหมด",
+                "public_poll_label": "อนุญาตให้ทุกคนตรวจสอบผู้ที่ลงคะแนนโหวตในแต่ละหัวข้อได้",
+                "allow_multiple_votes_label": "อนุญาตให้ผู้ใช้ลงคะแนนโหวตเลือกได้มากกว่าหนึ่งคำตอบ",
+                "max_votes_label": "คะแนนโหวตเลือกสูงสุดต่อผู้ใช้หนึ่งคน",
+                "max_votes_help": "กำหนดเป็น 0 เพื่อเปิดให้ผู้ใช้โหวตเลือกตอบกี่ตัวเลือกก็ได้ตามความต้องการ",
+                "hide_votes_label": "ซ่อนจำนวนคะแนนผลโหวตไว้จนกว่าแบบสำรวจนี้จะปิดตัวลง",
+                "hide_votes_label_help": "ผู้ตั้งแบบสำรวจจะยังคงมีสิทธิ์มองเห็นความคืบหน้าของคะแนนอยู่เสมอ",
+                "allow_change_vote_label": "อนุญาตให้ผู้ใช้แก้ไขเปลี่ยนคะแนนโหวตของตนเองภายหลังได้",
+                "question_placeholder": "ระบุข้อความคำถาม",
+                "subtitle_placeholder": "ระบุหัวข้อย่อยหรือข้อชี้แจงเพิ่มเติม (ระบุหรือไม่ก็ได้)",
+                "submit": "บันทึกข้อมูล",
                 "delete": "=> core.ref.delete",
                 "error": "=> core.lib.error.generic_message",
                 "poll_image": {
-                    "label": "Poll Image",
-                    "help": "อัปโหลดภาพเพื่อแสดงควบคู่กับ poll (ไม่บังคับ)",
-                    "alt_label": "ข้อความ",
-                    "alt_help_text": "ข้อความ",
+                    "label": "รูปภาพหลักของแบบสำรวจ",
+                    "help": "อัปโหลดรูปภาพเพื่อแสดงคู่กับหัวข้อแบบสำรวจ (ระบุหรือไม่ก็ได้)",
+                    "alt_label": "ข้อความคำอธิบายรูปภาพ (Alt Text)",
+                    "alt_help_text": "จำเป็นต้องระบุข้อความนี้หากใส่รูปภาพ โดยจะใช้แสดงเมื่อเบราว์เซอร์ไม่สามารถโหลดรูปภาพได้สำเร็จ",
                     "url_deprecated": ""
                 },
                 "poll_option_image": {
-                    "label": "Poll Answer Image",
-                    "help": "อัปโหลดภาพเพื่อแสดงควบคู่กับคำตอบ poll (ไม่บังคับ)"
+                    "label": "รูปภาพประกอบตัวเลือกคำตอบ",
+                    "help": "อัปโหลดรูปภาพเพื่อนำมาแสดงคู่กับคำตอบข้อนี้ (ระบุหรือไม่ก็ได้)"
                 },
                 "date_clear": "",
                 "tooltip": {
                     "options": {
-                        "add-button": "เพิ่ม",
+                        "add-button": "เพิ่มตัวเลือก",
                         "remove-button": ""
                     }
                 }
             },
             "moderation": {
-                "add": "เพิ่ม",
-                "delete": "นำออก",
-                "delete_confirm": "ลบ",
-                "edit": "แก้ไข"
+                "add": "เพิ่มแบบสำรวจ",
+                "delete": "ลบแบบสำรวจออก",
+                "delete_confirm": "คุณแน่ใจหรือไม่ว่าต้องการลบแบบสำรวจนี้?",
+                "edit": "แก้ไขแบบสำรวจ"
             },
             "page": {
-                "nav": "Polls",
-                "nav-all": "ทั้งหมด",
-                "nav-groups": "กลุ่ม"
+                "nav": "แบบสำรวจ",
+                "nav-all": "แบบสำรวจส่วนกลางทั้งหมด",
+                "nav-groups": "กลุ่มแบบสำรวจ"
             },
             "showcase": {
-                "active-polls": "Active Polls",
-                "ended-polls": "Concluded Polls",
-                "no-active-polls": "ไม่มี active polls ในขณะนี้",
-                "no-recent-polls": "ไม่มี recently ended polls ในขณะนี้"
+                "active-polls": "แบบสำรวจความคิดเห็นที่เปิดอยู่",
+                "ended-polls": "แบบสำรวจที่ปิดการโหวตไปแล้ว",
+                "no-active-polls": "ไม่มีแบบสำรวจที่เปิดรับโหวตอยู่ในขณะนี้",
+                "no-recent-polls": "ไม่มีแบบสำรวจที่เพิ่งปิดทำการโหวตในช่วงนี้"
             },
             "tooltip": {
-                "badge": "Poll",
-                "votes": "{count, plural, one {# vote} other {# votes}}"
+                "badge": "แบบสำรวจ",
+                "votes": "{count, plural, other {# คะแนนโหวต}}"
             },
             "votes_modal": {
-                "title": "Voters"
+                "title": "ผู้ลงคะแนนทั้งหมด"
             },
             "upload_image": {
-                "remove_button": "ลบ",
-                "upload_button": "อัปโหลด"
+                "remove_button": "ลบรูปภาพประกอบทิ้ง",
+                "upload_button": "อัปโหลดรูปภาพประกอบ"
             }
         }
     }

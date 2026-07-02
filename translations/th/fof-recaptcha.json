@@ -3,10 +3,10 @@
         "admin": {
             "maintenance_mode_warning": "",
             "settings": {
-                "help_text": "รับข้อมูลประจำตัว Google reCAPTCHA ได้<a>ที่นี่</a>",
-                "secret_key_label": "Secret Key",
-                "site_key_label": "Site Key",
-                "type_label": "ประเภท reCAPTCHA",
+                "help_text": "รับรหัสตรวจสอบยืนยันตัวตน Google reCAPTCHA ของคุณได้ที่ <a>ลิงก์นี้</a>",
+                "secret_key_label": "รหัสลับ Secret Key",
+                "site_key_label": "รหัสไซต์ Site Key",
+                "type_label": "ประเภทของ reCAPTCHA",
                 "type_help": "",
                 "type_options": {
                     "checkbox": "",
@@ -20,15 +20,15 @@
                 "forgot": "=> core.forum.forgot_password.title"
             },
             "test": {
-                "title": "ทดสอบ reCAPTCHA",
-                "help_text": "การทดสอบนี้จะใช้ค่าที่ป้อนด้านบน ตรวจสอบให้แน่ใจว่าโหลดการทดสอบใหม่หลังจากเปลี่ยนการตั้งค่า และอย่าลืมบันทึกเมื่อการทดสอบผ่าน!\nผลด้านล่างอาจไม่สะท้อนการตั้งค่าที่บันทึกไว้\n",
-                "success_message": "สำเร็จ! ตั้งค่า reCAPTCHA ถูกต้องแล้ว",
-                "load_test_button": "โหลด",
-                "submit_button": "ส่ง",
+                "title": "ทดสอบระบบ reCAPTCHA",
+                "help_text": "การทดสอบนี้จะอ้างอิงค่าข้อมูลที่คุณกรอกไว้ข้างต้น โปรดโหลดหน้าต่างทดสอบใหม่หลังจากเปลี่ยนการตั้งค่า และอย่าลืมกดบันทึกเมื่อการทดสอบระบบผ่านแล้ว!\n(ผลลัพธ์การแสดงด้านล่างอาจจะยังไม่สะท้อนค่าที่เพิ่งบันทึกไป)\n",
+                "success_message": "สำเร็จ! ระบบ reCAPTCHA ได้รับการกำหนดค่าอย่างถูกต้องแล้ว",
+                "load_test_button": "โหลดหน้าต่างทดสอบ",
+                "submit_button": "ส่งข้อมูล",
                 "reload_button": "โหลดใหม่"
             },
             "permissions": {
-                "post_without_captcha": "สร้างโพสต์โดยไม่ต้องผ่าน captcha"
+                "post_without_captcha": "เขียนโพสต์และตั้งโพสต์ได้โดยไม่ต้องผ่านระบบป้องกัน captcha"
             }
         },
         "lib": {
@@ -39,8 +39,8 @@
         }
     },
     "validation": {
-        "recaptcha": "การยืนยัน reCAPTCHA ล้มเหลว",
-        "recaptcha-unknown": "เกิดข้อผิดพลาดที่ไม่ทราบสาเหตุขณะยืนยัน reCAPTCHA ({errors})",
+        "recaptcha": "การยืนยันความถูกต้องผ่านระบบ reCAPTCHA ล้มเหลว",
+        "recaptcha-unknown": "เกิดข้อผิดพลาดที่ไม่ทราบสาเหตุขณะประเมินความถูกต้องของ reCAPTCHA ({errors})",
         "attributes": {
             "g-recaptcha-response": ""
         }
