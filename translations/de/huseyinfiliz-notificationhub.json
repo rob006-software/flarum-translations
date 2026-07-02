@@ -9,11 +9,11 @@
                 "send_user": "Benachrichtigungen an einzelne Benutzer senden"
             },
             "recipient_kinds": {
-                "user": "",
-                "group": ""
+                "user": "=> huseyinfiliz-notificationhub.forum.recipient_kinds.user",
+                "group": "=> huseyinfiliz-notificationhub.forum.recipient_kinds.group"
             },
             "modal_notification": {
-                "recipients_placeholder": ""
+                "recipients_placeholder": "=> huseyinfiliz-notificationhub.forum.modal_notification.recipients_placeholder"
             },
             "settings": {
                 "add_button": "Benachrichtigungsart hinzufügen",
@@ -32,11 +32,11 @@
                     "default_recipients": "Standardempfänger",
                     "sort_order": "Sortierreihenfolge",
                     "active": "Aktiv",
-                    "color_invalid": "",
-                    "preview": "",
-                    "preview_placeholder": "",
-                    "permission_help": "",
-                    "permission_placeholder": ""
+                    "color_invalid": "Die Farbe muss ein gültiger Hex-Code sein, z. B. #ff0000 oder #f00.",
+                    "preview": "Vorschau",
+                    "preview_placeholder": "Name des Benachrichtigungstyps",
+                    "permission_help": "Wähle die Mitgliedergruppen aus, die zum Versenden dieser Benachrichtigung berechtigt sind. Wenn dieses Feld leer bleibt, können alle berechtigten Moderatoren/Administratoren die Benachrichtigung versenden.",
+                    "permission_placeholder": "Gib einen Gruppennamen ein..."
                 },
                 "save": "Speichern",
                 "edit_notification_type": "Benachrichtigungsart bearbeiten",
@@ -81,8 +81,8 @@
             "invalid_url_scheme": "Ungültiges URL-Schema. Es sind nur HTTP-, HTTPS-, mailto-, tel- oder relative Links zulässig.",
             "sort_order_invalid": "Die Sortierreihenfolge muss eine nicht-negative Zahl sein.",
             "field_too_long": "Dieses Feld ist zu lang.",
-            "invalid_color": "",
-            "multiple_recipients_not_allowed": ""
+            "invalid_color": "Die Farbe muss ein gültiger Hex-Code sein (z. B. #ff0000 oder #f00).",
+            "multiple_recipients_not_allowed": "Du hast keine Berechtigung, eine Nachricht an mehrere Empfänger gleichzeitig zu senden."
         }
     }
 }
