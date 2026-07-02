@@ -574,6 +574,9 @@ return [
 	'fof-anti-spam' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/anti-spam/1.1.4/locale/en.yml',
 	],
+	'fof-author-change' => [
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/author-change/1.0.0/resources/locale/en.yml',
+	],
 	'fof-badges' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/badges/1.0.5/locale/en.yml',
 	],
