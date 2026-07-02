@@ -8,6 +8,13 @@
                 "send_all": "Gửi thông báo đến tất cả người dùng",
                 "send_user": "Gửi thông báo đến từng người dùng"
             },
+            "recipient_kinds": {
+                "user": "",
+                "group": ""
+            },
+            "modal_notification": {
+                "recipients_placeholder": ""
+            },
             "settings": {
                 "add_button": "Thêm loại thông báo",
                 "no_data": "Chưa có loại thông báo nào.",
@@ -24,7 +31,12 @@
                     "default_url": "Liên kết mặc định",
                     "default_recipients": "Người nhận mặc định",
                     "sort_order": "Thứ tự sắp xếp",
-                    "active": "Kích hoạt"
+                    "active": "Kích hoạt",
+                    "color_invalid": "",
+                    "preview": "",
+                    "preview_placeholder": "",
+                    "permission_help": "",
+                    "permission_placeholder": ""
                 },
                 "save": "Lưu",
                 "edit_notification_type": "Chỉnh sửa loại thông báo",
@@ -68,7 +80,9 @@
             "url_too_long": "URL không được dài quá 2048 ký tự.",
             "invalid_url_scheme": "Giao thức URL không hợp lệ. Chỉ cho phép HTTP, HTTPS, mailto, tel hoặc liên kết tương đối.",
             "sort_order_invalid": "",
-            "field_too_long": ""
+            "field_too_long": "",
+            "invalid_color": "",
+            "multiple_recipients_not_allowed": ""
         }
     }
 }

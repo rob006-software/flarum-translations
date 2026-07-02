@@ -8,6 +8,13 @@
                 "send_all": "Értesítések küldése az összes felhasználónak",
                 "send_user": "Értesítések küldése egyes felhasználónak"
             },
+            "recipient_kinds": {
+                "user": "",
+                "group": ""
+            },
+            "modal_notification": {
+                "recipients_placeholder": ""
+            },
             "settings": {
                 "add_button": "Értesítéstípus hozzáadása",
                 "no_data": "Még nincsenek értesítéstípusok.",
@@ -24,7 +31,12 @@
                     "default_url": "Alapértelmezett hivatkozás",
                     "default_recipients": "Alapértelmezett címzettek",
                     "sort_order": "Rendezési sorrend",
-                    "active": "Aktív"
+                    "active": "Aktív",
+                    "color_invalid": "",
+                    "preview": "",
+                    "preview_placeholder": "",
+                    "permission_help": "",
+                    "permission_placeholder": ""
                 },
                 "save": "Mentés",
                 "edit_notification_type": "Értesítéstípus szerkesztése",
@@ -68,7 +80,9 @@
             "url_too_long": "A webcím nem lehet 2048 karakternél hosszabb.",
             "invalid_url_scheme": "Érvénytelen webcímséma. Csak a HTTP, HTTPS, mailto, tel vagy relatív hivatkozások támogatottak.",
             "sort_order_invalid": "A rendezési sorrendnek nemnegatív számnak kell lennie.",
-            "field_too_long": "Ez a mező túl hosszú."
+            "field_too_long": "Ez a mező túl hosszú.",
+            "invalid_color": "",
+            "multiple_recipients_not_allowed": ""
         }
     }
 }

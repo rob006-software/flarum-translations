@@ -8,6 +8,13 @@
                 "send_all": "Kirim notifikasi ke semua pengguna",
                 "send_user": "Kirim notifikasi ke masing-masing pengguna"
             },
+            "recipient_kinds": {
+                "user": "",
+                "group": ""
+            },
+            "modal_notification": {
+                "recipients_placeholder": ""
+            },
             "settings": {
                 "add_button": "Tambah Jenis Notifikasi",
                 "no_data": "Belum ada jenis notifikasi.",
@@ -24,7 +31,12 @@
                     "default_url": "Link Default",
                     "default_recipients": "Penerima Default",
                     "sort_order": "Urutan Sortir",
-                    "active": "Aktif"
+                    "active": "Aktif",
+                    "color_invalid": "",
+                    "preview": "",
+                    "preview_placeholder": "",
+                    "permission_help": "",
+                    "permission_placeholder": ""
                 },
                 "save": "Simpan",
                 "edit_notification_type": "Edit Jenis Notifikasi",
@@ -68,7 +80,9 @@
             "url_too_long": "",
             "invalid_url_scheme": "",
             "sort_order_invalid": "",
-            "field_too_long": ""
+            "field_too_long": "",
+            "invalid_color": "",
+            "multiple_recipients_not_allowed": ""
         }
     }
 }

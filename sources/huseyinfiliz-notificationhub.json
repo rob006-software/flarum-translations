@@ -8,6 +8,13 @@
                 "send_all": "Send notifications to all users",
                 "send_user": "Send notifications to individual users"
             },
+            "recipient_kinds": {
+                "user": "=> huseyinfiliz-notificationhub.forum.recipient_kinds.user",
+                "group": "=> huseyinfiliz-notificationhub.forum.recipient_kinds.group"
+            },
+            "modal_notification": {
+                "recipients_placeholder": "=> huseyinfiliz-notificationhub.forum.modal_notification.recipients_placeholder"
+            },
             "settings": {
                 "add_button": "Add Notification Type",
                 "no_data": "No notification types yet.",
@@ -24,7 +31,12 @@
                     "default_url": "Default Link",
                     "default_recipients": "Default Recipients",
                     "sort_order": "Sort Order",
-                    "active": "Active"
+                    "active": "Active",
+                    "color_invalid": "Color must be a valid hex code, e.g. #ff0000 or #f00.",
+                    "preview": "Preview",
+                    "preview_placeholder": "Notification type name",
+                    "permission_help": "Select member groups authorized to send this notification. If left empty, all authorized moderators/admins can send it.",
+                    "permission_placeholder": "Type a group name..."
                 },
                 "save": "Save",
                 "edit_notification_type": "Edit Notification Type",
@@ -68,7 +80,9 @@
             "url_too_long": "URL cannot be longer than 2048 characters.",
             "invalid_url_scheme": "Invalid URL scheme. Only HTTP, HTTPS, mailto, tel, or relative links are allowed.",
             "sort_order_invalid": "Sort order must be a non-negative number.",
-            "field_too_long": "This field is too long."
+            "field_too_long": "This field is too long.",
+            "invalid_color": "Color must be a valid hex code (e.g. #ff0000 or #f00).",
+            "multiple_recipients_not_allowed": "You do not have permission to send to multiple recipients at once."
         }
     }
 }

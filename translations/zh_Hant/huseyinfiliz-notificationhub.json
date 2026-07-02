@@ -8,6 +8,13 @@
                 "send_all": "向所有用戶發送通知",
                 "send_user": "向特定用戶發送通知"
             },
+            "recipient_kinds": {
+                "user": "",
+                "group": ""
+            },
+            "modal_notification": {
+                "recipients_placeholder": ""
+            },
             "settings": {
                 "add_button": "添加通知類型",
                 "no_data": "尚未設置通知類型。",
@@ -24,7 +31,12 @@
                     "default_url": "默認連結",
                     "default_recipients": "默認收件人",
                     "sort_order": "順序排序",
-                    "active": "啟用"
+                    "active": "啟用",
+                    "color_invalid": "",
+                    "preview": "",
+                    "preview_placeholder": "",
+                    "permission_help": "",
+                    "permission_placeholder": ""
                 },
                 "save": "保存",
                 "edit_notification_type": "編輯消息類型",
@@ -68,7 +80,9 @@
             "url_too_long": "",
             "invalid_url_scheme": "",
             "sort_order_invalid": "",
-            "field_too_long": ""
+            "field_too_long": "",
+            "invalid_color": "",
+            "multiple_recipients_not_allowed": ""
         }
     }
 }

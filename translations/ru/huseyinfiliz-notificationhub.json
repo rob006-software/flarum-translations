@@ -8,6 +8,13 @@
                 "send_all": "Отправлять уведомления всем пользователям",
                 "send_user": "Отправлять уведомления отдельным пользователям"
             },
+            "recipient_kinds": {
+                "user": "",
+                "group": ""
+            },
+            "modal_notification": {
+                "recipients_placeholder": ""
+            },
             "settings": {
                 "add_button": "Добавить тип уведомления",
                 "no_data": "Пока что ничего нет.",
@@ -24,7 +31,12 @@
                     "default_url": "Ссылка по умолчанию",
                     "default_recipients": "Получатели по умолчанию",
                     "sort_order": "Порядок сортировки",
-                    "active": "Активно"
+                    "active": "Активно",
+                    "color_invalid": "",
+                    "preview": "",
+                    "preview_placeholder": "",
+                    "permission_help": "",
+                    "permission_placeholder": ""
                 },
                 "save": "Сохранить",
                 "edit_notification_type": "Редактировать",
@@ -68,7 +80,9 @@
             "url_too_long": "",
             "invalid_url_scheme": "",
             "sort_order_invalid": "",
-            "field_too_long": ""
+            "field_too_long": "",
+            "invalid_color": "",
+            "multiple_recipients_not_allowed": ""
         }
     }
 }

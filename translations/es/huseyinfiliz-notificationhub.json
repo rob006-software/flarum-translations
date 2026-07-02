@@ -8,6 +8,13 @@
                 "send_all": "Enviar notificaciones a todos los usuarios",
                 "send_user": "Enviar notificaciones a usuarios individuales"
             },
+            "recipient_kinds": {
+                "user": "",
+                "group": ""
+            },
+            "modal_notification": {
+                "recipients_placeholder": ""
+            },
             "settings": {
                 "add_button": "Añadir tipo de notificación",
                 "no_data": "Todavía no hay ningún tipo de notificación.",
@@ -24,7 +31,12 @@
                     "default_url": "Enlace por defecto",
                     "default_recipients": "Destinatarios por defecto",
                     "sort_order": "Ordenar por",
-                    "active": "Activo"
+                    "active": "Activo",
+                    "color_invalid": "",
+                    "preview": "",
+                    "preview_placeholder": "",
+                    "permission_help": "",
+                    "permission_placeholder": ""
                 },
                 "save": "Guardar",
                 "edit_notification_type": "Editar tipo de notificación",
@@ -68,7 +80,9 @@
             "url_too_long": "",
             "invalid_url_scheme": "",
             "sort_order_invalid": "",
-            "field_too_long": ""
+            "field_too_long": "",
+            "invalid_color": "",
+            "multiple_recipients_not_allowed": ""
         }
     }
 }

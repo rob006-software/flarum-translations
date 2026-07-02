@@ -770,6 +770,14 @@
             "admin": {
                 "permission": {
                     "view-who-types": "58d6cbfef488c2e9561cbaffd4e801b4 58d6cbfef488c2e9561cbaffd4e801b4"
+                },
+                "settings": {
+                    "release-discussion-updates": "752042c92b8155d1ac5d7b76547f4142 752042c92b8155d1ac5d7b76547f4142",
+                    "release-discussion-updates-help": "6fe7393170188af78d1e470a6b3e9558 6fe7393170188af78d1e470a6b3e9558",
+                    "release-discussion-updates-interval": "06e6fee69de45f64d9d40cb7924b0b8e 06e6fee69de45f64d9d40cb7924b0b8e",
+                    "release-discussion-updates-interval-help": "456a2ec490be100762c8c4ec1387eefa 456a2ec490be100762c8c4ec1387eefa",
+                    "typing-indicator": "99ea99695036c45aa4f2bdcf3cdbf6d9 99ea99695036c45aa4f2bdcf3cdbf6d9",
+                    "typing-indicator-help": "0659589db7d487fd37c82c9df585026f 0659589db7d487fd37c82c9df585026f"
                 }
             },
             "forum": {
@@ -6452,6 +6460,16 @@
         }
     },
     "fof-best-answer.json": {
+        "flarum-audit": {
+            "lib": {
+                "browser": {
+                    "discussion": {
+                        "best_answer_set": "5f818b87f2b032595b8b8df657451baa 5f818b87f2b032595b8b8df657451baa",
+                        "best_answer_unset": "3a51857f6a8731c955dd2b656da10a18 3a51857f6a8731c955dd2b656da10a18"
+                    }
+                }
+            }
+        },
         "fof-best-answer": {
             "admin": {
                 "edit_tag": {

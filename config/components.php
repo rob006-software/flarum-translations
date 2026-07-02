@@ -574,6 +574,9 @@ return [
 	'fof-anti-spam' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/anti-spam/1.1.4/locale/en.yml',
 	],
+	'fof-author-change' => [
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/author-change/1.0.0/resources/locale/en.yml',
+	],
 	'fof-badges' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/badges/1.0.5/locale/en.yml',
 	],
@@ -784,6 +787,9 @@ return [
 	'fof-top-posters-widget' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/top-posters-widget/1.0.0/locale/en.yml',
 	],
+	'fof-upgrade-advisor' => [
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/upgrade-advisor/1.0.1/locale/en.yml',
+	],
 	'fof-upload' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/upload/1.9.0/resources/locale/en.yml',
 	],
@@ -932,7 +938,7 @@ return [
 		],
 	],
 	'huoxin-money-with-history' => [
-		'tag' => 'https://raw.githubusercontent.com/huoxin233/flarum-ext-money-with-history/1.2.2/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/huoxin233/flarum-ext-money-with-history/1.2.4/locale/en.yml',
 		'__builtInLanguages' => [
 			'zh_Hans',
 		],
@@ -968,7 +974,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/modern-footer/v1.1/resources/locale/en.yml',
 	],
 	'huseyinfiliz-notificationhub' => [
-		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/notificationhub/1.5/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/notificationhub/1.6/resources/locale/en.yml',
 	],
 	'huseyinfiliz-pickem' => [
 		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/pickem/1.5/resources/locale/en.yml',
@@ -1540,7 +1546,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/Anexsoft/peruguitar-flarum-ext-user-portrait/1.0.4/locale/en.yml',
 	],
 	'pianotell-flamoji' => [
-		'tag' => 'https://raw.githubusercontent.com/PrimateCoder/flarum-flamoji/v1.3.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/PrimateCoder/flarum-flamoji/v1.4.0/locale/en.yml',
 	],
 	'proxytracer-proxytracer' => [
 		'tag' => 'https://raw.githubusercontent.com/ProxyTracer/flarum-proxytracer/v1.0.0/locale/en.yml',

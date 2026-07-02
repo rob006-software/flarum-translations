@@ -8,6 +8,13 @@
                 "send_all": "Bütün istifadəçilərə bildiriş göndərin",
                 "send_user": "Fərdi istifadəçilərə bildiriş göndərin"
             },
+            "recipient_kinds": {
+                "user": "",
+                "group": ""
+            },
+            "modal_notification": {
+                "recipients_placeholder": ""
+            },
             "settings": {
                 "add_button": "Bildiriş növü əlavə edin",
                 "no_data": "Hələ bildiriş növləri yoxdur.",
@@ -24,7 +31,12 @@
                     "default_url": "Defolt Link",
                     "default_recipients": "Defolt Alıcılar",
                     "sort_order": "Sırala",
-                    "active": ""
+                    "active": "",
+                    "color_invalid": "",
+                    "preview": "",
+                    "preview_placeholder": "",
+                    "permission_help": "",
+                    "permission_placeholder": ""
                 },
                 "save": "",
                 "edit_notification_type": "",
@@ -68,7 +80,9 @@
             "url_too_long": "",
             "invalid_url_scheme": "",
             "sort_order_invalid": "",
-            "field_too_long": ""
+            "field_too_long": "",
+            "invalid_color": "",
+            "multiple_recipients_not_allowed": ""
         }
     }
 }

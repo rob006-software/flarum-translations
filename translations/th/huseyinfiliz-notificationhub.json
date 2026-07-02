@@ -8,6 +8,13 @@
                 "send_all": "ส่ง notifications ไปยังผู้ใช้ทั้งหมด",
                 "send_user": "ส่ง notifications ไปยังผู้ใช้แต่ละคน"
             },
+            "recipient_kinds": {
+                "user": "",
+                "group": ""
+            },
+            "modal_notification": {
+                "recipients_placeholder": ""
+            },
             "settings": {
                 "add_button": "เพิ่ม Notification Type",
                 "no_data": "ยังไม่มี notification types",
@@ -24,7 +31,12 @@
                     "default_url": "Default Link",
                     "default_recipients": "Default Recipients",
                     "sort_order": "Sort Order",
-                    "active": "ใช้งาน"
+                    "active": "ใช้งาน",
+                    "color_invalid": "",
+                    "preview": "",
+                    "preview_placeholder": "",
+                    "permission_help": "",
+                    "permission_placeholder": ""
                 },
                 "save": "บันทึก",
                 "edit_notification_type": "แก้ไข Notification Type",
@@ -68,7 +80,9 @@
             "url_too_long": "URL ไม่สามารถยาวกว่า 2048 ตัวอักษร",
             "invalid_url_scheme": "Invalid URL scheme อนุญาตเฉพาะ HTTP, HTTPS, mailto, tel หรือ relative links",
             "sort_order_invalid": "Sort order ต้องเป็นตัวเลขไม่เป็นลบ",
-            "field_too_long": "ฟิลด์นี้ยาวเกินไป"
+            "field_too_long": "ฟิลด์นี้ยาวเกินไป",
+            "invalid_color": "",
+            "multiple_recipients_not_allowed": ""
         }
     }
 }

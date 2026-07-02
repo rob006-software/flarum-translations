@@ -1,0 +1,86 @@
+{
+    "fof-upgrade-advisor": {
+        "admin": {
+            "overall": {
+                "subtitle": "",
+                "pass": "",
+                "warning": "",
+                "fail": ""
+            },
+            "categories": {
+                "environment": "",
+                "database": "",
+                "extensions": ""
+            },
+            "checks": {
+                "php-version": {
+                    "title": "",
+                    "pass": "",
+                    "warning": "",
+                    "fail": ""
+                },
+                "database-version": {
+                    "title": "",
+                    "pass": "",
+                    "warning_unknown": "",
+                    "warning_below_recommended": "",
+                    "fail": ""
+                },
+                "extension-compatibility": {
+                    "title": "",
+                    "pass": "",
+                    "warning": "",
+                    "fail": ""
+                }
+            },
+            "extensions": {
+                "name": "",
+                "installed": "",
+                "status": "",
+                "compatible": "",
+                "incompatible": "",
+                "unknown": "",
+                "contact": {
+                    "label": "",
+                    "forum": "",
+                    "issues": "",
+                    "source": ""
+                },
+                "superseded_into_core": "",
+                "superseded_replaced": "",
+                "superseded_self": "",
+                "abandoned": "",
+                "abandoned_replacement": "",
+                "abandoned_replacement_ready": "",
+                "abandoned_replacement_not_ready": ""
+            },
+            "tabs": {
+                "report": "",
+                "repositories": ""
+            },
+            "repositories": {
+                "help": "",
+                "empty": "",
+                "add_floxum": "",
+                "add_composer": "",
+                "type_floxum": "",
+                "type_composer": "",
+                "url": "",
+                "username": "",
+                "token": "",
+                "remove": "",
+                "test": "",
+                "test_ok": "",
+                "test_fail_auth": "",
+                "test_fail_unreachable": "",
+                "test_fail_invalid": ""
+            },
+            "actions": {
+                "recheck": ""
+            },
+            "errors": {
+                "load_failed": ""
+            }
+        }
+    }
+}
