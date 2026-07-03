@@ -1,0 +1,27 @@
+{
+    "ernestdefoe-typesense": {
+        "admin": {
+            "intro": "Point Flarum at a Typesense server for fast, typo-tolerant search across discussions, users and posts. Enter your server details, save, then rebuild the index. Your API key is stored on the server and is never exposed to visitors.\n",
+            "host_label": "Host",
+            "port_label": "Port",
+            "protocol_label": "Protocol",
+            "api_key_label": "API key",
+            "collection_prefix_label": "Collection prefix",
+            "prefix_help": "Optional. Keeps collections separate when several forums share one Typesense server. Leave blank to derive one from your forum URL automatically.\n",
+            "drivers_label": "Use Typesense for…",
+            "drivers_help": "Choose which searches Typesense answers. For each one, text searches go to Typesense while filtering and browsing without a search term keep using the database. Permissions are always enforced by Flarum — Typesense only ranks results.\n",
+            "use_for_discussions": "Discussion search",
+            "use_for_users": "User search",
+            "use_for_posts": "Post search",
+            "connection_label": "Connection",
+            "test_button": "Test connection",
+            "test_ok": "Connected",
+            "test_fail": "Could not reach Typesense",
+            "rebuild_label": "Search index",
+            "rebuild_help": "Build or refresh every Typesense index (discussions, users, posts) from your existing content. Run this once after entering your server details, and any time you suspect the index has drifted. On large forums, configure a real queue worker so this runs in the background.\n",
+            "rebuild_button": "Rebuild index",
+            "rebuild_queued": "Reindex queued. It will run in the background via your queue worker.",
+            "rebuild_failed": "Could not start the reindex. Check your connection settings."
+        }
+    }
+}
