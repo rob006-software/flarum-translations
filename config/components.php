@@ -623,6 +623,9 @@ return [
 	'linkrobins-toc' => [
 		'tag' => 'https://raw.githubusercontent.com/linkrobins/toc/v1.1.2/locale/en.yml',
 	],
+	'linkrobins-warble' => [
+		'tag' => 'https://raw.githubusercontent.com/linkrobins/flarum-warble/v0.3/locale/en.yml',
+	],
 	'linkrobins-wiki' => [
 		'tag' => 'https://raw.githubusercontent.com/linkrobins/wiki/v1.0.0/locale/en.yml',
 	],
