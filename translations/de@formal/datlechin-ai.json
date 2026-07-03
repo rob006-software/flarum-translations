@@ -9,16 +9,16 @@
                 "api_key_label": "API-Schlüssel ({provider})",
                 "api_key_placeholder": "Gib deinen API-Schlüssel von {provider} ein",
                 "base_url_label": "Basis-URL (optional)",
-                "base_url_placeholder": "",
-                "text_model_label": "",
-                "embeddings_model_label": "",
-                "moderation_model_label": "",
-                "custom_model_label": "",
-                "custom_model_placeholder": "",
-                "custom_base_url_label": "",
-                "test_text_button": "",
-                "test_embeddings_button": "",
-                "test_moderation_button": "",
+                "base_url_placeholder": "Leer lassen, um den Standardwert zu verwenden",
+                "text_model_label": "Text/Chat-Modell",
+                "embeddings_model_label": "Embeddings-Modell",
+                "moderation_model_label": "Moderations-Modell",
+                "custom_model_label": "Name für benutzerdefiniertes Modell",
+                "custom_model_placeholder": "Namen für benutzerdefiniertes Modell eingeben",
+                "custom_base_url_label": "Benutzerdefinierte Basis-URL",
+                "test_text_button": "Text-Modell testen",
+                "test_embeddings_button": "Embeddings testen",
+                "test_moderation_button": "Moderation testen",
                 "test_success": "Test bestanden!",
                 "test_failed": "Test fehlgeschlagen: {error}"
             }
@@ -28,7 +28,7 @@
         },
         "permissions": {
             "generate": "Text mit KI erstellen",
-            "embed": "",
+            "embed": "Embeddings erstellen",
             "moderate": "KI-Moderation verwenden"
         }
     }
