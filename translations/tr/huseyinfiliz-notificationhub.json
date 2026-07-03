@@ -9,11 +9,11 @@
                 "send_user": "Üyelere bildirim gönderebilir"
             },
             "recipient_kinds": {
-                "user": "",
-                "group": ""
+                "user": "=> huseyinfiliz-notificationhub.forum.recipient_kinds.user",
+                "group": "=> huseyinfiliz-notificationhub.forum.recipient_kinds.group"
             },
             "modal_notification": {
-                "recipients_placeholder": ""
+                "recipients_placeholder": "=> huseyinfiliz-notificationhub.forum.modal_notification.recipients_placeholder"
             },
             "settings": {
                 "add_button": "Bildirim Türü Ekle",
@@ -32,11 +32,11 @@
                     "default_recipients": "Varsayılan Alıcılar",
                     "sort_order": "Sıralaması",
                     "active": "Aktif",
-                    "color_invalid": "",
-                    "preview": "",
-                    "preview_placeholder": "",
-                    "permission_help": "",
-                    "permission_placeholder": ""
+                    "color_invalid": "Renk, geçerli bir HEX kodu olmalıdır. Örneğin: #ff0000 veya #f00.",
+                    "preview": "Önizleme",
+                    "preview_placeholder": "Bildirim türü adı",
+                    "permission_help": "Bu bildirimi göndermeye yetkili üye gruplarını seçin. Boş bırakılırsa yetkili tüm moderatörler ve yöneticiler gönderebilir.",
+                    "permission_placeholder": "Bir grup adı yazın..."
                 },
                 "save": "Kaydet",
                 "edit_notification_type": "Bildirim Türünü Düzenle",
@@ -61,7 +61,7 @@
                 "no_notification_types": "Aktif bildirim türü bulunamadı.",
                 "preview_title": "Bildirim Önizlemesi",
                 "preview_message_placeholder": "Bildirim mesajı..",
-                "preview_all_members": ""
+                "preview_all_members": "Tüm Üyeler"
             },
             "recipient_kinds": {
                 "user": "Kullanıcı",
@@ -73,16 +73,16 @@
             "user_ids_required": "Kullanıcı kimlikleri gereklidir.",
             "subject_id_required": "Bildirim Türü gereklidir.",
             "no_valid_recipients": "Geçerli alıcı bulunamadı.",
-            "name_required": "",
-            "invalid_url": "",
-            "name_too_long": "",
-            "message_too_long": "",
-            "url_too_long": "",
-            "invalid_url_scheme": "",
-            "sort_order_invalid": "",
-            "field_too_long": "",
-            "invalid_color": "",
-            "multiple_recipients_not_allowed": ""
+            "name_required": "Bildirim türü adı zorunludur.",
+            "invalid_url": "Geçersiz bağlantı protokolü algılandı.",
+            "name_too_long": "Adı 255 karakterden uzun olamaz.",
+            "message_too_long": "Mesaj 5000 karakterden uzun olamaz.",
+            "url_too_long": "Bağlantı 2048 karakterden uzun olamaz.",
+            "invalid_url_scheme": "Geçersiz bağlantı şeması. Yalnızca HTTP, HTTPS, mailto, tel veya göreli bağlantılara izin verilir.",
+            "sort_order_invalid": "Sıralama değeri negatif olmayan bir sayı olmalıdır.",
+            "field_too_long": "Bu alan çok uzun.",
+            "invalid_color": "Renk, geçerli bir HEX kodu olmalıdır (ör. #ff0000 veya #f00).",
+            "multiple_recipients_not_allowed": "Aynı anda birden fazla alıcıya bildirim gönderme yetkiniz yok."
         }
     }
 }
