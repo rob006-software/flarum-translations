@@ -2,30 +2,30 @@
     "fof-author-change": {
         "forum": {
             "controls": {
-                "edit": ""
+                "edit": "Zmień autora i datę"
             },
             "modal": {
-                "title-post": "",
-                "title-discussion": "",
-                "user": "",
-                "created_at": "",
-                "edited_at": "",
-                "sync-with-discussion": "",
-                "sync-with-post": "",
-                "sync-impossible": "",
-                "submit": "",
-                "cancel": ""
+                "title-post": "Edycja autora i daty posta",
+                "title-discussion": "Edycja autora i daty dyskusji",
+                "user": "Autor",
+                "created_at": "Data utworzenia",
+                "edited_at": "Data edycji",
+                "sync-with-discussion": "Zsynchronizuj z dyskusją",
+                "sync-with-post": "Zsynchronizuj z pierwszym postem",
+                "sync-impossible": "Nie znaleziono pierwszego posta. Spróbuj przewinąć do początku dyskusji.",
+                "submit": "Zapisz",
+                "cancel": "Anuluj"
             },
             "search": {
-                "placeholder": "",
-                "type-more": "",
-                "no-results": ""
+                "placeholder": "Szukaj użytkowników",
+                "type-more": "Wpisz 3 znaki, aby wyszukać w bazie danych",
+                "no-results": "Brak wyników"
             }
         },
         "admin": {
             "permissions": {
-                "edit-user": "",
-                "edit-date": ""
+                "edit-user": "Edytowanie autora dyskusji i postów",
+                "edit-date": "Edytowanie daty dyskusji i postów"
             }
         }
     }
