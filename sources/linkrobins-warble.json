@@ -1,0 +1,12 @@
+{
+    "linkrobins-warble": {
+        "admin": {
+            "key_label": "Warble key",
+            "key_help": "Paste the key from your linkrobins.com dashboard → Warble. That's it — Warble sets up the Realtime extension's connection for you automatically. Leave it blank to disconnect.\n",
+            "paste_key": "Paste your Warble key below to turn on realtime. Get it from your linkrobins.com dashboard → Warble.",
+            "connected": "✓ Connected — realtime is live on your forum. Tip: open the Realtime extension's settings to tune typing indicators, discussion-list updates, and notification toasts for your community.\n",
+            "need_realtime": "Warble needs the \"Realtime\" extension. Install and enable flarum/realtime, then paste your Warble key below — Warble does the rest.\n",
+            "write_failed": "Warble couldn't save the connection to your forum's config.php — it isn't writable by the web server. Make config.php writable (or ask your host), then save your key again.\n"
+        }
+    }
+}
