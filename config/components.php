@@ -837,7 +837,7 @@ return [
 		],
 	],
 	'tryhackx-cover-studio' => [
-		'tag' => 'https://raw.githubusercontent.com/TryHackX/flarum-cover-studio/v2.0.2/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/TryHackX/flarum-cover-studio/v2.1.0/locale/en.yml',
 		'__builtInLanguages' => [
 			'pl',
 		],
