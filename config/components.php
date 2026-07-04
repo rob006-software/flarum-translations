@@ -603,7 +603,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/linkrobins/font-sizer/v1.4.1/locale/en.yml',
 	],
 	'linkrobins-html-widget' => [
-		'tag' => 'https://raw.githubusercontent.com/linkrobins/html-widget/v1.1.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/linkrobins/html-widget/v1.1.2/locale/en.yml',
 	],
 	'linkrobins-markdown-widget' => [
 		'tag' => 'https://raw.githubusercontent.com/linkrobins/markdown-widget/v1.1.1/locale/en.yml',
