@@ -25,7 +25,8 @@
                 "featured_heading": "Featured Groups",
                 "feature": "Feature group",
                 "unfeature": "Unfeature group",
-                "pending_requests_badge": "{count, plural, one {# pending request — review} other {# pending requests — review}}"
+                "pending_requests_badge": "{count, plural, one {# pending request — review} other {# pending requests — review}}",
+                "generic_error": "Something went wrong. Please try again."
             },
             "create_modal": {
                 "title": "Create a Group",
@@ -59,6 +60,7 @@
             },
             "discussions": {
                 "title": "Discussions",
+                "search_placeholder": "Search posts…",
                 "new_button": "New Discussion",
                 "start_button": "Start a Discussion",
                 "empty": "No discussions yet. Be the first to start one!",
@@ -162,7 +164,9 @@
             "upload": {
                 "change": "Change",
                 "invalid_type": "Invalid file type. Please upload a JPG, PNG, GIF, or WebP image.",
-                "too_large": "File is too large. Maximum size is 5MB."
+                "too_large": "File is too large. Maximum size is 5MB.",
+                "failed": "Upload failed.",
+                "no_url": "Upload succeeded but no file URL was returned."
             },
             "media": {
                 "upload_button": "Upload Images",
@@ -189,11 +193,78 @@
                 "help": "Choose which group displays on your profile card.",
                 "empty": "You haven't joined any groups yet.",
                 "none": "None",
-                "saving": "Saving…"
+                "saving": "Saving…",
+                "save_failed": "Failed to save."
+            },
+            "share_modal": {
+                "title": "Share Post",
+                "group_label": "Share to which group?",
+                "empty": "You are not a member of any other groups.",
+                "comment_placeholder": "Add a comment… (optional)",
+                "submit": "Share",
+                "cancel": "Cancel"
+            },
+            "reactions": {
+                "like": "Like",
+                "love": "Love",
+                "haha": "Haha",
+                "wow": "Wow",
+                "sad": "Sad",
+                "angry": "Angry"
             },
             "notifications": {
                 "new_post": "posted in {discussionTitle}",
                 "new_reply": "replied to your comment in {discussionTitle}"
+            }
+        },
+        "lib": {
+            "shared_from": "Shared from {name}",
+            "another_group": "another group",
+            "errors": {
+                "unexpected": "An unexpected error occurred.",
+                "request_not_pending": "This join request has already been handled.",
+                "not_active_member": "That user is not an active member of this group.",
+                "cannot_promote_creator": "The group creator already has full permissions.",
+                "cannot_demote_creator": "The group creator cannot be demoted.",
+                "group_not_found": "Group not found.",
+                "user_not_found": "User not found.",
+                "discussion_not_found": "Discussion not found.",
+                "no_file": "No valid file uploaded",
+                "invalid_file_type": "Invalid file type. Allowed: jpg, jpeg, png, gif, webp",
+                "file_too_large": "File too large. Maximum size is {max}MB",
+                "invalid_file_content": "Invalid file content. Only image files are allowed.",
+                "invalid_url": "Invalid URL.",
+                "url_host_not_allowed": "URL host is not allowed.",
+                "fetch_failed": "Could not fetch URL.",
+                "analytics_forbidden": "Only group moderators and admins can view analytics.",
+                "invite_required_fields": "Group ID and username are required.",
+                "invite_forbidden": "Only group moderators can invite users.",
+                "already_member": "That user is already a member of this group.",
+                "group_private": "This group is private.",
+                "removed_from_group": "You have been removed from this group.",
+                "invite_only": "This group is invite-only.",
+                "poll_not_found": "Poll not found.",
+                "poll_member_required": "You must be a member of this group to vote.",
+                "poll_ended": "This poll has ended.",
+                "poll_invalid_option": "Invalid option.",
+                "poll_single_choice": "This poll only allows one choice.",
+                "not_member": "You are not a member of this group.",
+                "target_group_required": "targetGroupId is required.",
+                "sharing_unavailable": "Sharing not available on this install.",
+                "target_group_not_found": "Target group not found.",
+                "content_too_long": "Content may not exceed 20 000 characters.",
+                "post_content_too_long": "Post content may not exceed 20 000 characters.",
+                "post_required_fields": "discussionId and content are required.",
+                "parent_post_not_found": "Parent post not found.",
+                "content_empty": "Content cannot be empty.",
+                "pinning_unavailable": "Pinning not available on this install.",
+                "invalid_reaction": "Invalid reaction type.",
+                "group_id_required": "groupId is required.",
+                "media_required_fields": "groupId and content are required.",
+                "media_member_required": "You must be a member to upload media.",
+                "content_or_poll_required": "Content or a poll is required.",
+                "title_too_long": "Title may not exceed 255 characters.",
+                "slug_conflict": "Could not generate a unique slug for this group name. Please try a different name."
             }
         },
         "admin": {

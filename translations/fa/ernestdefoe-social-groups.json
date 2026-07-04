@@ -25,7 +25,8 @@
                 "featured_heading": "",
                 "feature": "",
                 "unfeature": "",
-                "pending_requests_badge": ""
+                "pending_requests_badge": "",
+                "generic_error": ""
             },
             "create_modal": {
                 "title": "",
@@ -59,6 +60,7 @@
             },
             "discussions": {
                 "title": "",
+                "search_placeholder": "",
                 "new_button": "",
                 "start_button": "",
                 "empty": "",
@@ -162,7 +164,9 @@
             "upload": {
                 "change": "",
                 "invalid_type": "",
-                "too_large": ""
+                "too_large": "",
+                "failed": "",
+                "no_url": ""
             },
             "media": {
                 "upload_button": "",
@@ -189,11 +193,78 @@
                 "help": "",
                 "empty": "",
                 "none": "",
-                "saving": ""
+                "saving": "",
+                "save_failed": ""
+            },
+            "share_modal": {
+                "title": "",
+                "group_label": "",
+                "empty": "",
+                "comment_placeholder": "",
+                "submit": "",
+                "cancel": ""
+            },
+            "reactions": {
+                "like": "",
+                "love": "",
+                "haha": "",
+                "wow": "",
+                "sad": "",
+                "angry": ""
             },
             "notifications": {
                 "new_post": "",
                 "new_reply": ""
+            }
+        },
+        "lib": {
+            "shared_from": "",
+            "another_group": "",
+            "errors": {
+                "unexpected": "",
+                "request_not_pending": "",
+                "not_active_member": "",
+                "cannot_promote_creator": "",
+                "cannot_demote_creator": "",
+                "group_not_found": "",
+                "user_not_found": "",
+                "discussion_not_found": "",
+                "no_file": "",
+                "invalid_file_type": "",
+                "file_too_large": "",
+                "invalid_file_content": "",
+                "invalid_url": "",
+                "url_host_not_allowed": "",
+                "fetch_failed": "",
+                "analytics_forbidden": "",
+                "invite_required_fields": "",
+                "invite_forbidden": "",
+                "already_member": "",
+                "group_private": "",
+                "removed_from_group": "",
+                "invite_only": "",
+                "poll_not_found": "",
+                "poll_member_required": "",
+                "poll_ended": "",
+                "poll_invalid_option": "",
+                "poll_single_choice": "",
+                "not_member": "",
+                "target_group_required": "",
+                "sharing_unavailable": "",
+                "target_group_not_found": "",
+                "content_too_long": "",
+                "post_content_too_long": "",
+                "post_required_fields": "",
+                "parent_post_not_found": "",
+                "content_empty": "",
+                "pinning_unavailable": "",
+                "invalid_reaction": "",
+                "group_id_required": "",
+                "media_required_fields": "",
+                "media_member_required": "",
+                "content_or_poll_required": "",
+                "title_too_long": "",
+                "slug_conflict": ""
             }
         },
         "admin": {

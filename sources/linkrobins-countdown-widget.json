@@ -16,6 +16,7 @@
                 "title_help": "Optional. Shown above the countdown. Leave blank for no header.",
                 "icon_label": "Icon class",
                 "icon_help": "FontAwesome class shown next to the title (e.g. fas fa-rocket, fas fa-bullhorn, fas fa-calendar). Leave blank for no icon.",
+                "icon_placeholder": "fas fa-rocket",
                 "target_label": "Target date and time",
                 "target_help": "Pick the moment the countdown counts down to. The browser's date picker shows year, month, day, hour, and minute. The timezone setting below tells the widget which zone this time is in.",
                 "timezone_label": "Timezone",
@@ -25,7 +26,8 @@
                 "done_message_placeholder": "🎉 We are live!",
                 "done_message_help": "What to display once the countdown hits zero. Defaults to a party emoji if blank.",
                 "link_url_label": "Link URL",
-                "link_url_help": "Optional. If set, the countdown boxes (and the done message) become a clickable link to this URL."
+                "link_url_help": "Optional. If set, the countdown boxes (and the done message) become a clickable link to this URL.",
+                "link_url_placeholder": "https://example.com/launch"
             }
         }
     }

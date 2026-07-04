@@ -87,6 +87,7 @@
                 "last_edited": "last edited by ",
                 "history": "History ({count})",
                 "no_history": "No revisions yet.",
+                "load_more_history": "Load older revisions",
                 "initial_version": "created",
                 "diff_from_previous": "Changes from the previous version",
                 "diff_initial": "Initial version",
@@ -104,6 +105,7 @@
             "comments": {
                 "heading": "Comments ({count})",
                 "empty": "No comments yet.",
+                "load_more": "Load more comments",
                 "placeholder": "Write a comment…",
                 "post": "Post comment",
                 "deleted": "This comment was deleted.",
@@ -134,6 +136,7 @@
             }
         },
         "api": {
+            "title_required": "An article title is required.",
             "content_required": "Article content is required.",
             "article_soft_delete_first": "An article must be deleted before it can be permanently removed.",
             "article_required": "An article is required.",
