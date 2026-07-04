@@ -830,6 +830,12 @@ return [
 	'tapao-custom-landing-page' => [
 		'tag' => 'https://raw.githubusercontent.com/Tapao-NonSen/Custom-Landing-Page/1.0.4/locale/en.yml',
 	],
+	'tapao-line-notification' => [
+		'tag' => 'https://raw.githubusercontent.com/Tapao-NonSen/LINE-Notification/v1.1.6/locale/en.yml',
+		'__builtInLanguages' => [
+			'th',
+		],
+	],
 	'tryhackx-advanced-pages' => [
 		'tag' => 'https://raw.githubusercontent.com/TryHackX/flarum-advanced-pages/2.2.0/resources/locale/en.yml',
 		'__builtInLanguages' => [
