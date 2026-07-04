@@ -30,6 +30,7 @@
                 "scope": "Look inside tags",
                 "scope_help": "The discussion must carry at least one of these tags. Leave empty to scan every tag.",
                 "conditions": "Match when…",
+                "conditions_help": "Every condition is optional — leave anything blank to skip it. A rule with only tag conditions (and no inactivity) works fine.",
                 "action": "Then…",
                 "action_tags": "Target tags",
                 "action_tags_help": "For move: discussions get these tags and lose the scope tags above. For add/remove: these tags are added/removed.",
@@ -47,7 +48,10 @@
                 "lacks_tags": "Does not have tags",
                 "min_replies": "Min replies",
                 "max_replies": "Max replies",
-                "replies": "replies"
+                "replies": "replies",
+                "include_locked": "Include locked discussions",
+                "include_locked_help": "Normally locked discussions are protected from every rule. Turn this on when the rule should handle them — e.g. archiving closed-and-locked sale threads. The Unlock action always includes them.",
+                "include_sticky": "Include stickied discussions"
             },
             "action": {
                 "hide": "Hide",

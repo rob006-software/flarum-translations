@@ -329,5 +329,19 @@
                 "too_large": "The SVG file is too large (256 KB maximum)."
             }
         }
+    },
+    "ramon-audit": {
+        "admin": {
+            "activity": {
+                "types": {
+                    "verified": {
+                        "user": {
+                            "verified": "User verified",
+                            "unverified": "Verification revoked"
+                        }
+                    }
+                }
+            }
+        }
     }
 }
