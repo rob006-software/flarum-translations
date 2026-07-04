@@ -474,7 +474,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/forumaker/magicslider/2.4.0/resources/locale/en.yml',
 	],
 	'forumaker-profile-cover' => [
-		'tag' => 'https://raw.githubusercontent.com/forumaker/Profile-Cover/2.4.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/forumaker/Profile-Cover/2.4.4/resources/locale/en.yml',
 		'__builtInLanguages' => [
 			'ru',
 		],
