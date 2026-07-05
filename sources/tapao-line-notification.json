@@ -1,0 +1,67 @@
+{
+    "tapao-line-notification": {
+        "forum": {
+            "settings": {
+                "line_section_heading": "LINE Notification",
+                "line_connect_button": "Connect LINE",
+                "line_disconnect_button": "Disconnect LINE",
+                "line_connected_as": "Connected as {name}",
+                "line_linking_description": "Connect your LINE account to receive forum notifications via LINE.",
+                "line_disconnect_confirm": "Are you sure you want to disconnect your LINE account?",
+                "line_link_success": "LINE account connected successfully.",
+                "line_disconnect_success": "LINE account disconnected successfully.",
+                "line_error": "Failed to connect LINE: {error}"
+            }
+        },
+        "admin": {
+            "settings": {
+                "line_heading": "LINE Notification",
+                "line_login_channel_id_label": "LINE Login Channel ID",
+                "line_login_channel_id_help": "The Channel ID of your LINE Login Channel from LINE Developers Console.",
+                "line_login_channel_secret_label": "LINE Login Channel Secret",
+                "line_login_channel_secret_help": "The Channel Secret of your LINE Login Channel.",
+                "line_messaging_token_label": "Messaging API Channel Access Token",
+                "line_messaging_token_help": "The Long-lived Channel Access Token of your Messaging API Channel.",
+                "line_messaging_channel_secret_label": "Messaging API Channel Secret",
+                "line_messaging_channel_secret_help": "The Channel Secret of your Messaging API Channel (used for Webhook signature verification).",
+                "flex_header_color_label": "Flex Message Header Color",
+                "flex_header_color_help": "Background color of the notification header bar. Default: #06C755 (LINE Green).",
+                "flex_button_color_label": "Flex Message Button Color",
+                "flex_button_color_help": "Color of the action button in the notification. Default: #06C755 (LINE Green).",
+                "flex_title_color_label": "Flex Message Title Color",
+                "flex_title_color_help": "Text color of the discussion title in the notification body. Default: #111111.",
+                "use_first_image_as_thumbnail_label": "Use First Image as Thumbnail",
+                "use_first_image_as_thumbnail_help": "If the post contains an image, use the first image as the Flex Message hero thumbnail.",
+                "disabled_notification_types_label": "Disabled Notification Types",
+                "disabled_notification_types_help": "Enter a comma-separated list of notification types you want to prevent from being sent via LINE (e.g., <code>postMentioned, postLiked, newPost, discussionCreated</code>). This will also hide the toggle for these types on the user's settings page."
+            }
+        },
+        "lib": {
+            "notification": {
+                "line_driver_label": "LINE"
+            },
+            "line_message": {
+                "notification_postMentioned": "💬 Someone mentioned your post",
+                "notification_userMentioned": "📣 Someone mentioned you",
+                "notification_postLiked": "❤️ Someone liked your post",
+                "notification_newPost": "🔔 New post in a discussion you follow",
+                "notification_privateDiscussion": "✉️ You received a private message",
+                "notification_default": "🔔 New notification from {forum}",
+                "view_post_button": "View Post",
+                "fallback_title": "New Notification",
+                "connection_success_header": "✅ Connection Successful",
+                "connection_success_greeting_name": "Hello {name}!",
+                "connection_success_greeting": "Hello!",
+                "connection_success_body": "Your LINE account has been connected to {forum} (username: {username}).",
+                "connection_success_features_intro": "You will receive forum notifications via LINE when someone:",
+                "connection_success_feature_mention": "💬 Mentions your post",
+                "connection_success_feature_user_mention": "📣 Mentions you",
+                "connection_success_feature_like": "❤️ Likes your post",
+                "connection_success_feature_new_post": "🔔 Posts in a discussion you follow",
+                "connection_success_settings_hint": "You can manage your notification preferences in the forum Settings page.",
+                "connection_success_open_forum": "Open {forum}",
+                "connection_success_alt_text": "✅ LINE account connected to {forum}"
+            }
+        }
+    }
+}
