@@ -633,7 +633,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/linkrobins/flarum-warble/v0.5/locale/en.yml',
 	],
 	'linkrobins-wiki' => [
-		'tag' => 'https://raw.githubusercontent.com/linkrobins/wiki/v1.1.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/linkrobins/wiki/v1.2.0/locale/en.yml',
 	],
 	'maicol07-sso' => [
 		'tag' => 'https://raw.githubusercontent.com/maicol07/flarum-ext-sso/2.0/locale/en.yml',
