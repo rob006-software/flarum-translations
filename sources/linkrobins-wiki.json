@@ -18,6 +18,14 @@
                 "shortcode_categories": "Show the category list.",
                 "shortcode_heading": "A heading (## and ### for smaller)."
             },
+            "toc": {
+                "heading": "Table of contents",
+                "intro": "Show an automatic table of contents beside each article, built from its headings.",
+                "enabled_label": "Show a table of contents on articles",
+                "enabled_help": "When on, each article shows a contents list built from its #, ## and ### headings in a sticky side panel. It follows along as the reader scrolls.",
+                "min_headings_label": "Minimum headings",
+                "min_headings_help": "Only show the contents panel when an article has at least this many headings."
+            },
             "categories": {
                 "heading": "Wiki categories",
                 "intro": "Create and organize the categories articles can be filed under.",
@@ -83,6 +91,7 @@
             },
             "show": {
                 "deleted_notice": "This article is deleted. Only editors can see it.",
+                "toc_heading": "Contents",
                 "by": "by ",
                 "last_edited": "last edited by ",
                 "history": "History ({count})",

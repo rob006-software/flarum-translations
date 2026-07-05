@@ -142,6 +142,10 @@
                 "role_admin": "",
                 "remove_member": "",
                 "remove_member_confirm": "",
+                "mute_member": "",
+                "unmute_member": "",
+                "muted_badge": "",
+                "muted_notice": "",
                 "load_error": "",
                 "not_found": "",
                 "members_load_error": "",
@@ -149,6 +153,10 @@
                 "rss_feed": "",
                 "tab_posts": "",
                 "tab_media": ""
+            },
+            "profile_groups": {
+                "nav": "",
+                "empty": ""
             },
             "requests": {
                 "title": "",
@@ -217,7 +225,13 @@
             },
             "notifications": {
                 "new_post": "",
-                "new_reply": ""
+                "new_reply": "",
+                "join_request": ""
+            },
+            "settings": {
+                "notify_social_group_new_post_label": "",
+                "notify_social_group_new_reply_label": "",
+                "notify_social_group_join_request_label": ""
             }
         },
         "lib": {

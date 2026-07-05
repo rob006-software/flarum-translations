@@ -142,6 +142,10 @@
                 "role_admin": "Модератор",
                 "remove_member": "Удалить",
                 "remove_member_confirm": "Удалить участника {displayName} из этой группы? Он не сможет снова вступить.",
+                "mute_member": "",
+                "unmute_member": "",
+                "muted_badge": "",
+                "muted_notice": "",
                 "load_error": "Не удалось загрузить группу.",
                 "not_found": "Группа не найдена.",
                 "members_load_error": "Не удалось загрузить участников.",
@@ -149,6 +153,10 @@
                 "rss_feed": "RSS-лента",
                 "tab_posts": "Сообщения",
                 "tab_media": "Медиа"
+            },
+            "profile_groups": {
+                "nav": "",
+                "empty": ""
             },
             "requests": {
                 "title": "Заявки на вступление",
@@ -217,7 +225,13 @@
             },
             "notifications": {
                 "new_post": "опубликовано в {discussionTitle}",
-                "new_reply": "ответил на ваш комментарий в {discussionTitle}"
+                "new_reply": "ответил на ваш комментарий в {discussionTitle}",
+                "join_request": ""
+            },
+            "settings": {
+                "notify_social_group_new_post_label": "",
+                "notify_social_group_new_reply_label": "",
+                "notify_social_group_join_request_label": ""
             }
         },
         "lib": {
