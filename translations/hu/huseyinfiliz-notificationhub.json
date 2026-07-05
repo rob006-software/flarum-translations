@@ -9,11 +9,11 @@
                 "send_user": "Értesítések küldése egyes felhasználónak"
             },
             "recipient_kinds": {
-                "user": "",
-                "group": ""
+                "user": "=> huseyinfiliz-notificationhub.forum.recipient_kinds.user",
+                "group": "=> huseyinfiliz-notificationhub.forum.recipient_kinds.group"
             },
             "modal_notification": {
-                "recipients_placeholder": ""
+                "recipients_placeholder": "=> huseyinfiliz-notificationhub.forum.modal_notification.recipients_placeholder"
             },
             "settings": {
                 "add_button": "Értesítéstípus hozzáadása",
@@ -32,11 +32,11 @@
                     "default_recipients": "Alapértelmezett címzettek",
                     "sort_order": "Rendezési sorrend",
                     "active": "Aktív",
-                    "color_invalid": "",
-                    "preview": "",
-                    "preview_placeholder": "",
-                    "permission_help": "",
-                    "permission_placeholder": ""
+                    "color_invalid": "A színnek érvényes hexadecimális kódnak kell lennie, például #ff0000 vagy #f00.",
+                    "preview": "Előnézet",
+                    "preview_placeholder": "Értesítéstípus neve",
+                    "permission_help": "Válassza ki a tagcsoportokat, akik elküldhetik ezt az értesítést. Ha üresen hagyja, akkor az összes jogosult moderátor/adminisztátor elküldheti.",
+                    "permission_placeholder": "Adja meg a csoport nevét…"
                 },
                 "save": "Mentés",
                 "edit_notification_type": "Értesítéstípus szerkesztése",
@@ -81,8 +81,8 @@
             "invalid_url_scheme": "Érvénytelen webcímséma. Csak a HTTP, HTTPS, mailto, tel vagy relatív hivatkozások támogatottak.",
             "sort_order_invalid": "A rendezési sorrendnek nemnegatív számnak kell lennie.",
             "field_too_long": "Ez a mező túl hosszú.",
-            "invalid_color": "",
-            "multiple_recipients_not_allowed": ""
+            "invalid_color": "A színnek érvényes hexadecimális kódnak kell lennie (például #ff0000 vagy #f00).",
+            "multiple_recipients_not_allowed": "Nincs jogosultsága, hogy egyszerre több címzettnek küldje el."
         }
     }
 }
