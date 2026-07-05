@@ -12,6 +12,7 @@
                 "show_stats_profile": "Show stats next to avatar in profile",
                 "show_stats_posts": "Show stats next to avatar in posts",
                 "notify_battle_started_label": "Someone challenges me on Arena",
+                "notify_battle_joined_label": "Someone accepted my battle",
                 "notify_battle_ended_label": "My Arena battle has ended",
                 "notify_draw_proposed_label": "Opponent proposed a draw on Arena",
                 "notify_draw_cancelled_label": "Opponent cancelled a draw on Arena",
@@ -61,6 +62,7 @@
             },
             "notifications": {
                 "battle_started_text": "{challenger} challenges you on Arena",
+                "battle_joined_text": "An opponent was found for your battle",
                 "battle_ended_text": "Your Arena battle has ended",
                 "battle_ended_winner_text": "Battle ended — {winner} wins",
                 "draw_proposed_text": "{proposer} proposes a draw in your Arena battle",
@@ -83,10 +85,17 @@
                 "turn_time_value": "24h",
                 "deck_label": "Deck",
                 "opponent_label": "Opponent name",
+                "opponent_hint": "Optional. You can create an open battle and wait for an opponent inside the topic",
                 "search_placeholder": "First 3 characters...",
                 "searching": "Searching...",
                 "submit": "Challenge",
                 "error_generic": "Failed to send the challenge. Please try again"
+            },
+            "join_modal": {
+                "title": "Battle challenge",
+                "text": "Ready to fight {name}?",
+                "submit": "Accept challenge",
+                "error_generic": "Failed to join the battle. Please try again"
             },
             "card_slider": {
                 "timer_title": "Time left for this turn",
@@ -109,6 +118,16 @@
             "battle_start": {
                 "first_turn": "{name} goes first",
                 "first_turn_subtitle": "The card deck is only visible during your turn"
+            },
+            "battle_open": {
+                "title": "{name} is looking for an opponent",
+                "join_btn": "Accept challenge",
+                "cancel_btn": "Decline battle",
+                "cancel_title": "Decline battle",
+                "cancel_confirm_text": "The battle will be deleted — no one will be able to join it, even with the link",
+                "cancel_confirm_btn": "Decline",
+                "cancel_cancel_btn": "Wait for an opponent",
+                "cancel_error": "Failed to cancel the battle. Please try again"
             },
             "battle_wait": {
                 "waiting": "Waiting for {name}…",
@@ -175,6 +194,20 @@
                     "losses": "{n, plural, one {Loss} other {Losses}}",
                     "draws": "{n, plural, one {Draw} other {Draws}}",
                     "winrate": "Win rate"
+                },
+                "stats_overview": {
+                    "btn": "Overall statistics",
+                    "title": "Arena statistics",
+                    "tab_top": "Leaderboard",
+                    "tab_recent": "Recent matches",
+                    "tab_streaks": "Win streaks",
+                    "col_player": "Player",
+                    "col_match": "Battle",
+                    "col_result": "Result",
+                    "col_date": "Started",
+                    "col_streak": "Streak",
+                    "empty": "Nothing here yet",
+                    "error": "Failed to load statistics. Please try again"
                 },
                 "override": {
                     "title": "Player parameters",
@@ -298,11 +331,13 @@
                 "col_turn": "Turn",
                 "col_created": "Created",
                 "outcome_draw": "Draw",
+                "status_waiting": "Open lobby",
                 "status_active": "Active",
                 "status_completed": "Completed",
                 "status_expired": "Expired",
                 "status_surrendered": "Surrender",
                 "status_draw": "Draw",
+                "waiting_for_opponent": "Waiting for an opponent",
                 "closed": "Battle closed.",
                 "already_deleted": "The battle has already been deleted",
                 "already_inactive": "The battle is no longer active. Refresh the list",
@@ -477,6 +512,7 @@
                 "deck_incomplete_self": "Your deck isn't complete",
                 "deck_incomplete_opponent": "The opponent hasn't built their deck yet",
                 "battle_already_active": "You already have an active battle with this player",
+                "battle_no_longer_open": "This battle is no longer open to join",
                 "card_not_found": "Card not found",
                 "file_not_uploaded": "File not uploaded",
                 "invalid_image_type": "Only jpg, png, gif, webp images are allowed",
@@ -508,6 +544,7 @@
                 "bonus_card_already_played": "This card has already been played in this battle"
             },
             "battle_title": "Battle: {challenger} vs {opponent}",
+            "battle_title_open": "Battle: {challenger} is looking for an opponent",
             "card_back_default_name": "Back {n}"
         }
     }

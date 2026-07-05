@@ -12,6 +12,7 @@
                 "show_stats_profile": "",
                 "show_stats_posts": "",
                 "notify_battle_started_label": "",
+                "notify_battle_joined_label": "",
                 "notify_battle_ended_label": "",
                 "notify_draw_proposed_label": "",
                 "notify_draw_cancelled_label": "",
@@ -61,6 +62,7 @@
             },
             "notifications": {
                 "battle_started_text": "",
+                "battle_joined_text": "",
                 "battle_ended_text": "",
                 "battle_ended_winner_text": "",
                 "draw_proposed_text": "",
@@ -83,8 +85,15 @@
                 "turn_time_value": "",
                 "deck_label": "",
                 "opponent_label": "",
+                "opponent_hint": "",
                 "search_placeholder": "",
                 "searching": "",
+                "submit": "",
+                "error_generic": ""
+            },
+            "join_modal": {
+                "title": "",
+                "text": "",
                 "submit": "",
                 "error_generic": ""
             },
@@ -109,6 +118,16 @@
             "battle_start": {
                 "first_turn": "",
                 "first_turn_subtitle": ""
+            },
+            "battle_open": {
+                "title": "",
+                "join_btn": "",
+                "cancel_btn": "",
+                "cancel_title": "",
+                "cancel_confirm_text": "",
+                "cancel_confirm_btn": "",
+                "cancel_cancel_btn": "",
+                "cancel_error": ""
             },
             "battle_wait": {
                 "waiting": "",
@@ -175,6 +194,20 @@
                     "losses": "",
                     "draws": "",
                     "winrate": ""
+                },
+                "stats_overview": {
+                    "btn": "",
+                    "title": "",
+                    "tab_top": "",
+                    "tab_recent": "",
+                    "tab_streaks": "",
+                    "col_player": "",
+                    "col_match": "",
+                    "col_result": "",
+                    "col_date": "",
+                    "col_streak": "",
+                    "empty": "",
+                    "error": ""
                 },
                 "override": {
                     "title": "",
@@ -298,11 +331,13 @@
                 "col_turn": "",
                 "col_created": "",
                 "outcome_draw": "",
+                "status_waiting": "",
                 "status_active": "",
                 "status_completed": "",
                 "status_expired": "",
                 "status_surrendered": "",
                 "status_draw": "",
+                "waiting_for_opponent": "",
                 "closed": "",
                 "already_deleted": "",
                 "already_inactive": "",
@@ -477,6 +512,7 @@
                 "deck_incomplete_self": "",
                 "deck_incomplete_opponent": "",
                 "battle_already_active": "",
+                "battle_no_longer_open": "",
                 "card_not_found": "",
                 "file_not_uploaded": "",
                 "invalid_image_type": "",
@@ -508,6 +544,7 @@
                 "bonus_card_already_played": ""
             },
             "battle_title": "",
+            "battle_title_open": "",
             "card_back_default_name": ""
         }
     }
