@@ -6,7 +6,7 @@
                 "guests_only_label": "Show to guests only",
                 "guests_only_help": "When enabled, logged-in users bypass the landing page and see the normal forum. Install fof/direct-links for dedicated /login and /register pages, or use the '{{ login_url }}' and '{{ register_url }}' template variables in your HTML.\n",
                 "html_label": "Landing Page HTML",
-                "html_help": "Paste your full HTML document here (including <!DOCTYPE html> and <html> tags). Available template variables: '{{ forum_title }}', '{{ forum_url }}', '{{ login_url }}', '{{ register_url }}', '{{ year }}'.\n"
+                "html_help": "Paste your full HTML document here (including DOCTYPE html and html tags). Available template variables: '{{ forum_title }}', '{{ forum_url }}', '{{ login_url }}', '{{ register_url }}', '{{ year }}'.\n"
             }
         }
     }

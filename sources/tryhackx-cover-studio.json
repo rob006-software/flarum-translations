@@ -1,0 +1,102 @@
+{
+    "tryhackx-cover-studio": {
+        "admin": {
+            "max_size_label": "Maximum upload size (KB)",
+            "max_size_help": "Upper limit for cover and avatar-original uploads, in kilobytes. Note: the global FoF Upload maximum file size also applies — the lower of the two limits wins.",
+            "cover_height_label": "Cover height on profiles (px)",
+            "cover_height_help": "Height of the profile hero when a cover is set.",
+            "cover_height_mobile_label": "Cover height on mobile (px)",
+            "overlay_label": "Readability overlay",
+            "overlay_help": "A dark layer rendered over covers so usernames and stats stay legible on bright images.",
+            "overlay_gradient": "Gradient (recommended)",
+            "overlay_darken": "Uniform darken",
+            "overlay_none": "None",
+            "show_on_popover_label": "Show covers on user hover cards",
+            "show_on_popover_help": "Displays the cover (lightweight thumbnail) in the card that appears when hovering a poster's name.",
+            "show_on_directory_label": "Show covers in the user directory",
+            "show_on_directory_help": "Applies when the FoF User Directory extension is enabled.",
+            "media_picker_label": "Allow choosing a cover from My Media",
+            "media_picker_help": "Adds a \"Choose from My Media\" button so users can reuse images they already uploaded.",
+            "avatar_focus_label": "Enable avatar focal point (pos-crop)",
+            "avatar_focus_help": "Avatar uploads keep the original image in the user's media manager, and users can re-position the crop at any time without re-uploading. The avatar itself remains a standard Flarum avatar everywhere.",
+            "default_cover_label": "Default cover",
+            "default_cover_help": "Optional image shown for users without a cover of their own. Uploads go to your shared media. Leave empty for the classic solid color.",
+            "default_avatar_label": "Default avatar",
+            "default_avatar_help": "Optional image shown for users without an avatar. Uploads go to your shared media. Leave empty for Flarum's letter avatars.",
+            "default": {
+                "not_set": "Not set",
+                "set_button": "Set image",
+                "change_button": "Change image",
+                "remove_button": "Remove",
+                "upload_button": "Upload image",
+                "media_button": "Choose from shared media",
+                "save_position_button": "Save position",
+                "zoom_label": "Zoom",
+                "zoom_reset": "Reset zoom to 1×",
+                "cover_title": "Default cover",
+                "avatar_title": "Default avatar",
+                "cover_empty": "No default cover yet — upload an image or choose one from your shared media.",
+                "avatar_empty": "No default avatar yet — upload an image or choose one from your shared media.",
+                "size_hint": "Maximum size: {max}. The full-resolution image is kept; drag to choose the visible area.",
+                "remove_confirm": "Remove this default image? The file will stay in your shared media.",
+                "picker_back": "Back",
+                "picker_empty": "No shared images yet. Upload one to your shared media first.",
+                "saved": "Saved.",
+                "generic_error": "Something went wrong. Please try again."
+            },
+            "permission": {
+                "set_cover": "Set own profile cover"
+            },
+            "support": {
+                "button": "Support Development",
+                "title": "Support This Extension",
+                "description": "If you find this extension useful, please consider supporting its development with a small donation. Every contribution helps keep the project alive and maintained.",
+                "copy": "Copy address",
+                "thanks": "Thank you for your support!"
+            }
+        },
+        "api": {
+            "invalid_focus": "The focal point must be a number between 0 and 100.",
+            "invalid_zoom": "The zoom must be a number between 0.5 and 4.",
+            "no_file": "No image was uploaded.",
+            "unsupported_type": "This file type is not supported. Allowed formats — JPEG, PNG, WebP, GIF.",
+            "no_adapter": "Image uploads are not configured on this forum (FoF Upload mime settings).",
+            "upload_failed": "The file could not be stored. Please try again.",
+            "too_many_uploads": "You are uploading too quickly. Please wait a minute and try again.",
+            "file_not_eligible": "This file cannot be used as a cover.",
+            "no_default_image": "There is no default image to re-position.",
+            "unknown_default_kind": "Unknown default image type.",
+            "no_cover": "There is no cover to re-position.",
+            "no_original": "The original avatar image is unavailable — upload a new avatar first.",
+            "original_unreadable": "The original image could not be read. Upload a new avatar instead.",
+            "avatar_focus_disabled": "Avatar focal-point editing is disabled on this forum."
+        },
+        "forum": {
+            "controls": {
+                "edit_cover": "Edit cover"
+            },
+            "editor": {
+                "title": "Profile cover",
+                "empty_hint": "No cover yet — upload an image or pick one from your media.",
+                "size_hint": "Maximum size: {max}. The full-resolution image is kept; drag to choose the visible area.",
+                "drag_hint": "Drag to re-position, scroll to zoom",
+                "drag_aria": "Image position editor. Use arrow keys to move the focal point, plus and minus to zoom.",
+                "zoom_label": "Zoom",
+                "zoom_reset": "Reset zoom to 1×",
+                "upload_button": "Upload image",
+                "media_button": "Choose from My Media",
+                "remove_button": "Remove",
+                "remove_confirm": "Remove this cover? The image will stay in your media manager.",
+                "save_position_button": "Save position",
+                "saved": "Saved.",
+                "generic_error": "Something went wrong. Please try again."
+            },
+            "avatar": {
+                "title": "Avatar position",
+                "adjust_button": "Adjust position",
+                "hint": "Drag the image to choose the visible circle. The avatar is re-cropped from the original in full quality.",
+                "no_original": "No source image yet — upload one or pick it from your media to position your avatar."
+            }
+        }
+    }
+}
