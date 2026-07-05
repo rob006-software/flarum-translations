@@ -831,7 +831,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/Tapao-NonSen/Custom-Landing-Page/1.0.4/locale/en.yml',
 	],
 	'tapao-line-notification' => [
-		'tag' => 'https://raw.githubusercontent.com/Tapao-NonSen/LINE-Notification/v1.1.6/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/Tapao-NonSen/LINE-Notification/v2.0.4/locale/en.yml',
 		'__builtInLanguages' => [
 			'th',
 		],
