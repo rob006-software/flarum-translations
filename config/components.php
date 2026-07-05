@@ -1697,6 +1697,12 @@ return [
 	'tapao-custom-landing-page' => [
 		'tag' => 'https://raw.githubusercontent.com/Tapao-NonSen/Custom-Landing-Page/1.0.4/locale/en.yml',
 	],
+	'tapao-line-notification' => [
+		'tag' => 'https://raw.githubusercontent.com/Tapao-NonSen/LINE-Notification/v1.1.6/locale/en.yml',
+		'__builtInLanguages' => [
+			'th',
+		],
+	],
 	'therealsujitk-gifs' => [
 		'tag' => 'https://raw.githubusercontent.com/therealsujitk/flarum-ext-gifs/v4.1.1/resources/locale/en.yml',
 	],
