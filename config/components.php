@@ -147,7 +147,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/hero-builder/v1.3.1/resources/locale/en.yml',
 	],
 	'ernestdefoe-janitor' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/janitor/v1.2.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/janitor/v1.3.1/resources/locale/en.yml',
 	],
 	'ernestdefoe-mobile-tab' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/mobiletab/2.0.0/resources/locale/en.yml',
