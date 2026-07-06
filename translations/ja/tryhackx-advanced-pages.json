@@ -6,7 +6,8 @@
                 "view_spoilers_label": "",
                 "create_text_label": "",
                 "create_bbcode_label": "",
-                "create_markdown_label": ""
+                "create_markdown_label": "",
+                "create_redirect_label": ""
             },
             "pages": {
                 "create_button": "",
@@ -15,6 +16,7 @@
                 "type_column": "",
                 "status_column": "",
                 "groups_column": "",
+                "views_column": "",
                 "actions_column": "",
                 "everyone": "",
                 "edit_button": "",
@@ -47,7 +49,12 @@
                 "parent_help": "",
                 "content_type_label": "",
                 "type_text": "",
+                "type_redirect": "",
                 "content_label": "",
+                "redirect_url_label": "",
+                "redirect_url_help": "",
+                "redirect_immediate_label": "",
+                "redirect_immediate_help": "",
                 "is_published_label": "",
                 "is_hidden_label": "",
                 "is_restricted_label": "",
@@ -72,7 +79,13 @@
                 "allow_scripts_label": "",
                 "allow_scripts_help": "",
                 "custom_breadcrumbs_css_label": "",
-                "custom_breadcrumbs_css_help": ""
+                "custom_breadcrumbs_css_help": "",
+                "pin_to_nav_label": "",
+                "pin_to_nav_help": "",
+                "pin_icon_label": "",
+                "pin_icon_help": "",
+                "pin_short_name_label": "",
+                "pin_short_name_help": ""
             },
             "support": {
                 "button": "",
@@ -87,6 +100,10 @@
                 "select": "",
                 "copy": "",
                 "copied": ""
+            },
+            "redirect": {
+                "countdown": "",
+                "invalid": ""
             },
             "spoiler": {
                 "locked": ""

@@ -6,7 +6,8 @@
                 "view_spoilers_label": "Xem nội dung spoiler",
                 "create_text_label": "",
                 "create_bbcode_label": "",
-                "create_markdown_label": ""
+                "create_markdown_label": "",
+                "create_redirect_label": ""
             },
             "pages": {
                 "create_button": "Tạo trang",
@@ -15,6 +16,7 @@
                 "type_column": "Loại",
                 "status_column": "Trạng thái",
                 "groups_column": "Nhóm",
+                "views_column": "",
                 "actions_column": "Hành động",
                 "everyone": "Mọi người",
                 "edit_button": "Chỉnh sửa",
@@ -47,7 +49,12 @@
                 "parent_help": "",
                 "content_type_label": "Loại nội dung",
                 "type_text": "Văn bản thuần",
+                "type_redirect": "",
                 "content_label": "Nội dung",
+                "redirect_url_label": "",
+                "redirect_url_help": "",
+                "redirect_immediate_label": "",
+                "redirect_immediate_help": "",
                 "is_published_label": "Đã xuất bản",
                 "is_hidden_label": "Ẩn (chỉ quản trị viên nhìn thấy)",
                 "is_restricted_label": "Hạn chế (yêu cầu đăng nhập)",
@@ -72,7 +79,13 @@
                 "allow_scripts_label": "",
                 "allow_scripts_help": "",
                 "custom_breadcrumbs_css_label": "",
-                "custom_breadcrumbs_css_help": ""
+                "custom_breadcrumbs_css_help": "",
+                "pin_to_nav_label": "",
+                "pin_to_nav_help": "",
+                "pin_icon_label": "",
+                "pin_icon_help": "",
+                "pin_short_name_label": "",
+                "pin_short_name_help": ""
             },
             "support": {
                 "button": "Hỗ trợ phát triển",
@@ -87,6 +100,10 @@
                 "select": "",
                 "copy": "",
                 "copied": ""
+            },
+            "redirect": {
+                "countdown": "",
+                "invalid": ""
             },
             "spoiler": {
                 "locked": ""

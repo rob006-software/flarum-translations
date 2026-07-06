@@ -6,7 +6,8 @@
                 "view_spoilers_label": "View spoiler content",
                 "create_text_label": "Create pages: Plain Text",
                 "create_bbcode_label": "Create pages: BBCode",
-                "create_markdown_label": "Create pages: Markdown"
+                "create_markdown_label": "Create pages: Markdown",
+                "create_redirect_label": "Create pages: Redirection"
             },
             "pages": {
                 "create_button": "Create Page",
@@ -15,6 +16,7 @@
                 "type_column": "Type",
                 "status_column": "Status",
                 "groups_column": "Groups",
+                "views_column": "Views",
                 "actions_column": "Actions",
                 "everyone": "Everyone",
                 "edit_button": "Edit",
@@ -47,7 +49,12 @@
                 "parent_help": "Optional. Nest this page under another to build a hierarchy (e.g. /p/docs/getting-started). Choosing a parent suggests a matching slug — you can still edit it.",
                 "content_type_label": "Content Type",
                 "type_text": "Plain Text",
+                "type_redirect": "Redirection",
                 "content_label": "Content",
+                "redirect_url_label": "Redirect URL",
+                "redirect_url_help": "Where visitors to this page are sent. Use a full https:// address (e.g. https://example.com) or a root-relative path on this forum (e.g. /tags). Pin the page to add it as a link in the navigation menu — clicks are counted.",
+                "redirect_immediate_label": "Redirect immediately",
+                "redirect_immediate_help": "On: visitors are forwarded to the target right away (a real HTTP redirect). Off: the page shows briefly, then forwards automatically after about a second. Either way the visit is counted first.",
                 "is_published_label": "Published",
                 "is_hidden_label": "Hidden (visible only to admins)",
                 "is_restricted_label": "Restricted (requires login)",
@@ -72,7 +79,13 @@
                 "allow_scripts_label": "Allow script tags to run on this page",
                 "allow_scripts_help": "Gates script tags in this page (off by default): when off they don't execute, when on inline and external scripts run in every visitor's browser. This is NOT a sandbox — raw HTML can still run JavaScript by other means (e.g. inline event-handler attributes like onerror), so only publish HTML/PHP pages you fully trust.",
                 "custom_breadcrumbs_css_label": "Custom breadcrumbs CSS?",
-                "custom_breadcrumbs_css_help": "Style (or hide) the breadcrumbs for this page and everything nested under it. Target .AdvancedPages-breadcrumbs — e.g. display:none to hide them entirely."
+                "custom_breadcrumbs_css_help": "Style (or hide) the breadcrumbs for this page and everything nested under it. Target .AdvancedPages-breadcrumbs — e.g. display:none to hide them entirely.",
+                "pin_to_nav_label": "Pin to navigation menu",
+                "pin_to_nav_help": "Show this page as a link in the forum's sidebar navigation (alongside All Discussions, Members, etc.). Pinned pages follow the same order as the page list and respect each page's visibility.",
+                "pin_icon_label": "Menu icon (optional)",
+                "pin_icon_help": "FontAwesome class for the menu link, e.g. \"fas fa-book\" or \"far fa-file-alt\". Leave blank for a default icon.",
+                "pin_short_name_label": "Short Name (Not required)",
+                "pin_short_name_help": "A shorter label for the menu, in case the page title is too long. Leave blank to use the page title."
             },
             "support": {
                 "button": "Support Development",
@@ -87,6 +100,10 @@
                 "select": "Select",
                 "copy": "Copy",
                 "copied": "Copied!"
+            },
+            "redirect": {
+                "countdown": "You will be redirected in {seconds} s…",
+                "invalid": "This redirect is not configured with a valid destination."
             },
             "spoiler": {
                 "locked": "You do not have permission to view spoiler content."
