@@ -453,7 +453,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/webhooks/2.0.0-beta.3/resources/locale/en.yml',
 	],
 	'forumaker-arena' => [
-		'tag' => 'https://raw.githubusercontent.com/forumaker/Arena/2.3.4/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/forumaker/Arena/2.3.5/locale/en.yml',
 		'__builtInLanguages' => [
 			'ru',
 		],
