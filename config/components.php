@@ -482,6 +482,9 @@ return [
 			'ru',
 		],
 	],
+	'forumaker-rolevaya' => [
+		'tag' => 'https://raw.githubusercontent.com/forumaker/Rolevaya/2.0.0/resources/locale/en.yml',
+	],
 	'forumaker-statser' => [
 		'tag' => 'https://raw.githubusercontent.com/forumaker/Statser/2.1.0/locale/en.yml',
 		'__builtInLanguages' => [
