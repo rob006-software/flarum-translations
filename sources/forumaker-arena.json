@@ -16,7 +16,9 @@
                 "notify_battle_ended_label": "My Arena battle has ended",
                 "notify_draw_proposed_label": "Opponent proposed a draw on Arena",
                 "notify_draw_cancelled_label": "Opponent cancelled a draw on Arena",
-                "notify_battle_declined_label": "Opponent declined a battle on Arena"
+                "notify_battle_declined_label": "Opponent declined a battle on Arena",
+                "notify_item_granted_label": "Someone granted me a card or a card back",
+                "notify_custom_card_back_requested_label": "Someone requested a custom card back"
             },
             "how_to_play": {
                 "btn": "How to play"
@@ -67,7 +69,10 @@
                 "battle_ended_winner_text": "Battle ended — {winner} wins",
                 "draw_proposed_text": "{proposer} proposes a draw in your Arena battle",
                 "draw_cancelled_text": "{canceller} cancelled the draw in your Arena battle",
-                "battle_declined_text": "{decliner} declined the battle with you on Arena"
+                "battle_declined_text": "{decliner} declined the battle with you on Arena",
+                "card_granted_text": "You received the card \"{name}\"",
+                "card_back_granted_text": "You received the card back \"{name}\"",
+                "custom_card_back_requested_text": "Custom card back requested by {name}"
             },
             "select_deck_modal": {
                 "title": "Choose your deck",
@@ -141,6 +146,7 @@
                 "chip_shield": "Defense increased by {value}",
                 "chip_resonance": "+{value} to attack and defense",
                 "chip_sacrifice": "Attack reduced by {value}",
+                "chip_involution": "Attack and defense reduced by {value}",
                 "win_title": "{name} wins",
                 "draw_title": "Draw",
                 "hp_out_subtitle": "{name} ran out of health",
@@ -168,7 +174,9 @@
                     "amplify_poison": "Poison doubled",
                     "amplify_weaken": "Weaken doubled",
                     "elemental_tide": "Elemental advantage doubled for {value, plural, one {{value} turn} other {{value} turns}}",
-                    "elemental_dominance": "Elemental bonus guaranteed"
+                    "elemental_dominance": "Elemental bonus guaranteed",
+                    "preparation": "Next turn is free",
+                    "resonance_failed": "Resonance didn't trigger"
                 }
             },
             "battle_surrender": {
@@ -263,7 +271,19 @@
                     "none": "No card back",
                     "slot": "Back {n}",
                     "requires_wins": "Requires {n, plural, one {{n} win} other {{n} wins}}",
-                    "error": "Failed to select the card back. Please try again"
+                    "error": "Failed to select the card back. Please try again",
+                    "custom": {
+                        "label": "Custom",
+                        "pending": "Under review",
+                        "already_pending": "You've already sent a request — please wait for a response",
+                        "modal_title": "Custom card back",
+                        "textarea_placeholder": "Describe the card back in detail. Remember it shouldn't cover the card's colors",
+                        "submit_btn": "Send request",
+                        "price_note": "Card back price — 1500 ₽",
+                        "success": "Request sent! Your idea is under review — please wait for a response",
+                        "close_btn": "Close",
+                        "error": "Failed to send the request. Please try again"
+                    }
                 }
             },
             "override_history": {
@@ -302,16 +322,47 @@
                 "empty": "No cards yet. Create the first one!",
                 "empty_filtered": "Nothing found",
                 "filter_all_types": "All types",
+                "filter_active": "Active",
+                "filter_inactive": "Inactive",
+                "filter_all_elements": "All elements",
                 "filter_bonus": "Bonus",
                 "group_elemental": "Elemental",
                 "group_bonus": "Bonus",
                 "col_name": "Name",
-                "col_type": "Type",
+                "col_status": "Type",
+                "col_type": "Element",
+                "status_public": "Public",
+                "status_personal": "Personal",
                 "inactive_badge": "Inactive",
                 "filter_reset": "Reset",
                 "confirm_delete": "Delete card «{name}»? This action cannot be undone",
                 "error_delete": "Failed to delete the card. Please try again",
-                "error_order": "Failed to change the order. Please try again"
+                "error_order": "Failed to change the order. Please try again",
+                "grant": {
+                    "btn": "Grant",
+                    "title": "Grant card \"{card}\"",
+                    "tab_assign": "Grant",
+                    "tab_holders": "Holders ({count})",
+                    "select_user": "Select a player",
+                    "search_user_placeholder": "Search by name...",
+                    "no_users_found": "No users found",
+                    "clear_selection": "Clear selection",
+                    "submit": "Grant",
+                    "granted": "Card \"{card}\" granted to {username}",
+                    "already_granted": "This player already has this card",
+                    "error": "Failed to grant the card. Please try again",
+                    "search_holders_placeholder": "Search holders...",
+                    "no_holders": "Not granted to anyone yet",
+                    "no_holders_found": "No one found",
+                    "granted_by": "Granted by: {name}",
+                    "revoke": "Revoke",
+                    "revoke_confirm": "Revoke card \"{card}\" from {username}?",
+                    "revoked": "Card revoked",
+                    "revoke_error": "Failed to revoke the card. Please try again",
+                    "previous": "Previous",
+                    "next": "Next",
+                    "showing_holders": "{from}–{to} of {total}"
+                }
             },
             "battles": {
                 "tab": "Battles",
@@ -346,7 +397,8 @@
                 "deleted": "Battle deleted",
                 "error_delete": "Failed to delete the battle. Please try again",
                 "cannot_delete_active": "Cannot delete an active battle. Close it first",
-                "load_more": "Load more"
+                "load_more": "Load more",
+                "error_load": "Failed to load battles. Please try again"
             },
             "card_backs": {
                 "tab": "Card backs",
@@ -359,13 +411,48 @@
                 "uploaded": "Card back image uploaded",
                 "upload_error": "Failed to upload the image. Please try again",
                 "threshold_label": "Wins to unlock",
+                "empty": "No card backs yet. Add the first one!",
                 "add": "Add card back",
                 "added": "Card back added",
                 "error_add": "Failed to add the card back. Please try again",
                 "error_save": "Failed to save the card back. Please try again",
                 "confirm_delete": "Delete card back «{name}»? This action cannot be undone",
                 "error_delete": "Failed to delete the card back. Please try again",
-                "error_load": "Failed to load battles. Please try again"
+                "error_load": "Failed to load battles. Please try again",
+                "grant": {
+                    "title": "Grant card back \"{card}\"",
+                    "tab_assign": "Grant",
+                    "tab_holders": "Holders ({count})",
+                    "select_user": "Select a player",
+                    "search_user_placeholder": "Search by name...",
+                    "no_users_found": "No users found",
+                    "clear_selection": "Clear selection",
+                    "submit": "Grant",
+                    "granted": "Card back \"{card}\" granted to {username}",
+                    "already_granted": "This player already has this card back",
+                    "error": "Failed to grant the card back. Please try again",
+                    "search_holders_placeholder": "Search holders...",
+                    "no_holders": "Not granted to anyone yet",
+                    "no_holders_found": "No one found",
+                    "granted_by": "Granted by: {name}",
+                    "revoke": "Revoke",
+                    "revoke_confirm": "Revoke card back \"{card}\" from {username}?",
+                    "revoked": "Card back revoked",
+                    "revoke_error": "Failed to revoke the card back. Please try again",
+                    "previous": "Previous",
+                    "next": "Next",
+                    "showing_holders": "{from}–{to} of {total}"
+                },
+                "requests": {
+                    "empty": "No requests yet",
+                    "col_from": "From",
+                    "col_message": "Message",
+                    "col_date": "Date",
+                    "confirm_delete": "Delete this request? This action cannot be undone",
+                    "deleted": "Request deleted",
+                    "error_delete": "Failed to delete the request. Please try again",
+                    "error_load": "Failed to load requests. Please try again"
+                }
             },
             "settings": {
                 "tab": "Settings",
@@ -392,6 +479,10 @@
                 "how_to_play_url": "Link",
                 "how_to_play_new_tab": "Open in a new tab",
                 "allow_draw": "Allow proposing a draw",
+                "custom_card_back_title": "Custom card back",
+                "custom_card_back_help": "Players will be able to request a custom design and describe their idea in a text field. Requests will be listed here.",
+                "custom_card_back_enabled": "Show the custom card back",
+                "custom_card_back_notify_enabled": "Get notified about new requests",
                 "style_title": "Element and bonus colors and icons",
                 "style_help": "Overrides the color and FontAwesome icon for the selected element or bonus",
                 "style_target": "Element or bonus",
@@ -404,8 +495,12 @@
                 "title_edit": "Edit card",
                 "error_no_name": "Enter a card name",
                 "error_save": "Failed to save. Please try again",
-                "active_label": "Active",
+                "active_label": "Status",
                 "inactive_help": "Inactive cards are unavailable when building decks",
+                "status_label": "Type",
+                "visibility_label": "Visibility",
+                "status_public_help": "Available to every player when building a deck",
+                "status_personal_help": "Available only to players you've manually granted it to",
                 "type_label": "Card type",
                 "type_elemental": "Elemental",
                 "type_bonus": "Bonus",
@@ -481,7 +576,9 @@
                 "amplify": "Amplify",
                 "copy": "Copy",
                 "elemental_tide": "Tide",
-                "elemental_dominance": "Dominance"
+                "elemental_dominance": "Dominance",
+                "preparation": "Preparation",
+                "involution": "Involution"
             },
             "bonus_effect_descriptions": {
                 "heal": "Restores up to {value} HP",
@@ -501,7 +598,9 @@
                 "elemental_tide": "Doubles the elemental bonus for 3 turns. Takes effect starting next turn",
                 "elemental_dominance": "Guarantees the elemental bonus, even if your element is weaker",
                 "random_effect": "Triggers a random bonus card effect from your deck",
-                "amplify": "Doubles the strength of an active poison or weaken effect until it ends"
+                "amplify": "Doubles the strength of an active poison or weaken effect until it ends",
+                "preparation": "Removes the mana cost of your next turn",
+                "involution": "Reduces the opponent's elemental card's attack and defense by {value}"
             },
             "errors": {
                 "battle_not_found": "Battle not found",
@@ -514,6 +613,8 @@
                 "battle_already_active": "You already have an active battle with this player",
                 "battle_no_longer_open": "This battle is no longer open to join",
                 "card_not_found": "Card not found",
+                "user_not_found": "User not found",
+                "deck_personal_cards_not_granted": "These personal cards haven't been granted to you: {names}",
                 "file_not_uploaded": "File not uploaded",
                 "invalid_image_type": "Only jpg, png, gif, webp images are allowed",
                 "file_too_large": "The file is too large (5 MB max)",
@@ -541,7 +642,10 @@
                 "bonus_card_not_found": "No such card",
                 "card_not_bonus": "This card is not a bonus card",
                 "bonus_card_not_in_deck": "No such card in your deck",
-                "bonus_card_already_played": "This card has already been played in this battle"
+                "bonus_card_already_played": "This card has already been played in this battle",
+                "custom_card_back_disabled": "Custom card backs aren't available right now",
+                "custom_card_back_message_required": "Describe your card back idea",
+                "custom_card_back_already_pending": "You've already sent a request — please wait for a response"
             },
             "battle_title": "Battle: {challenger} vs {opponent}",
             "battle_title_open": "Battle: {challenger} is looking for an opponent",

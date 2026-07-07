@@ -16,7 +16,9 @@
                 "notify_battle_ended_label": "",
                 "notify_draw_proposed_label": "",
                 "notify_draw_cancelled_label": "",
-                "notify_battle_declined_label": ""
+                "notify_battle_declined_label": "",
+                "notify_item_granted_label": "",
+                "notify_custom_card_back_requested_label": ""
             },
             "how_to_play": {
                 "btn": ""
@@ -67,7 +69,10 @@
                 "battle_ended_winner_text": "",
                 "draw_proposed_text": "",
                 "draw_cancelled_text": "",
-                "battle_declined_text": ""
+                "battle_declined_text": "",
+                "card_granted_text": "",
+                "card_back_granted_text": "",
+                "custom_card_back_requested_text": ""
             },
             "select_deck_modal": {
                 "title": "",
@@ -141,6 +146,7 @@
                 "chip_shield": "",
                 "chip_resonance": "",
                 "chip_sacrifice": "",
+                "chip_involution": "",
                 "win_title": "",
                 "draw_title": "",
                 "hp_out_subtitle": "",
@@ -168,7 +174,9 @@
                     "amplify_poison": "",
                     "amplify_weaken": "",
                     "elemental_tide": "",
-                    "elemental_dominance": ""
+                    "elemental_dominance": "",
+                    "preparation": "",
+                    "resonance_failed": ""
                 }
             },
             "battle_surrender": {
@@ -263,7 +271,19 @@
                     "none": "",
                     "slot": "",
                     "requires_wins": "",
-                    "error": ""
+                    "error": "",
+                    "custom": {
+                        "label": "",
+                        "pending": "",
+                        "already_pending": "",
+                        "modal_title": "",
+                        "textarea_placeholder": "",
+                        "submit_btn": "",
+                        "price_note": "",
+                        "success": "",
+                        "close_btn": "",
+                        "error": ""
+                    }
                 }
             },
             "override_history": {
@@ -302,16 +322,47 @@
                 "empty": "",
                 "empty_filtered": "",
                 "filter_all_types": "",
+                "filter_active": "",
+                "filter_inactive": "",
+                "filter_all_elements": "",
                 "filter_bonus": "",
                 "group_elemental": "",
                 "group_bonus": "",
                 "col_name": "",
+                "col_status": "",
                 "col_type": "",
+                "status_public": "",
+                "status_personal": "",
                 "inactive_badge": "",
                 "filter_reset": "",
                 "confirm_delete": "",
                 "error_delete": "",
-                "error_order": ""
+                "error_order": "",
+                "grant": {
+                    "btn": "",
+                    "title": "",
+                    "tab_assign": "",
+                    "tab_holders": "",
+                    "select_user": "",
+                    "search_user_placeholder": "",
+                    "no_users_found": "",
+                    "clear_selection": "",
+                    "submit": "",
+                    "granted": "",
+                    "already_granted": "",
+                    "error": "",
+                    "search_holders_placeholder": "",
+                    "no_holders": "",
+                    "no_holders_found": "",
+                    "granted_by": "",
+                    "revoke": "",
+                    "revoke_confirm": "",
+                    "revoked": "",
+                    "revoke_error": "",
+                    "previous": "",
+                    "next": "",
+                    "showing_holders": ""
+                }
             },
             "battles": {
                 "tab": "",
@@ -346,7 +397,8 @@
                 "deleted": "",
                 "error_delete": "",
                 "cannot_delete_active": "",
-                "load_more": ""
+                "load_more": "",
+                "error_load": ""
             },
             "card_backs": {
                 "tab": "",
@@ -359,13 +411,48 @@
                 "uploaded": "",
                 "upload_error": "",
                 "threshold_label": "",
+                "empty": "",
                 "add": "",
                 "added": "",
                 "error_add": "",
                 "error_save": "",
                 "confirm_delete": "",
                 "error_delete": "",
-                "error_load": ""
+                "error_load": "",
+                "grant": {
+                    "title": "",
+                    "tab_assign": "",
+                    "tab_holders": "",
+                    "select_user": "",
+                    "search_user_placeholder": "",
+                    "no_users_found": "",
+                    "clear_selection": "",
+                    "submit": "",
+                    "granted": "",
+                    "already_granted": "",
+                    "error": "",
+                    "search_holders_placeholder": "",
+                    "no_holders": "",
+                    "no_holders_found": "",
+                    "granted_by": "",
+                    "revoke": "",
+                    "revoke_confirm": "",
+                    "revoked": "",
+                    "revoke_error": "",
+                    "previous": "",
+                    "next": "",
+                    "showing_holders": ""
+                },
+                "requests": {
+                    "empty": "",
+                    "col_from": "",
+                    "col_message": "",
+                    "col_date": "",
+                    "confirm_delete": "",
+                    "deleted": "",
+                    "error_delete": "",
+                    "error_load": ""
+                }
             },
             "settings": {
                 "tab": "",
@@ -392,6 +479,10 @@
                 "how_to_play_url": "",
                 "how_to_play_new_tab": "",
                 "allow_draw": "",
+                "custom_card_back_title": "",
+                "custom_card_back_help": "",
+                "custom_card_back_enabled": "",
+                "custom_card_back_notify_enabled": "",
                 "style_title": "",
                 "style_help": "",
                 "style_target": "",
@@ -406,6 +497,10 @@
                 "error_save": "",
                 "active_label": "",
                 "inactive_help": "",
+                "status_label": "",
+                "visibility_label": "",
+                "status_public_help": "",
+                "status_personal_help": "",
                 "type_label": "",
                 "type_elemental": "",
                 "type_bonus": "",
@@ -481,7 +576,9 @@
                 "amplify": "",
                 "copy": "",
                 "elemental_tide": "",
-                "elemental_dominance": ""
+                "elemental_dominance": "",
+                "preparation": "",
+                "involution": ""
             },
             "bonus_effect_descriptions": {
                 "heal": "",
@@ -501,7 +598,9 @@
                 "elemental_tide": "",
                 "elemental_dominance": "",
                 "random_effect": "",
-                "amplify": ""
+                "amplify": "",
+                "preparation": "",
+                "involution": ""
             },
             "errors": {
                 "battle_not_found": "",
@@ -514,6 +613,8 @@
                 "battle_already_active": "",
                 "battle_no_longer_open": "",
                 "card_not_found": "",
+                "user_not_found": "",
+                "deck_personal_cards_not_granted": "",
                 "file_not_uploaded": "",
                 "invalid_image_type": "",
                 "file_too_large": "",
@@ -541,7 +642,10 @@
                 "bonus_card_not_found": "",
                 "card_not_bonus": "",
                 "bonus_card_not_in_deck": "",
-                "bonus_card_already_played": ""
+                "bonus_card_already_played": "",
+                "custom_card_back_disabled": "",
+                "custom_card_back_message_required": "",
+                "custom_card_back_already_pending": ""
             },
             "battle_title": "",
             "battle_title_open": "",
