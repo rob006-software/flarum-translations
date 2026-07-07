@@ -149,6 +149,9 @@ return [
 	'ernestdefoe-janitor' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/janitor/v1.3.1/resources/locale/en.yml',
 	],
+	'ernestdefoe-maintenance' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/maintenance/v1.0.0/resources/locale/en.yml',
+	],
 	'ernestdefoe-mobile-tab' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/mobiletab/2.0.0/resources/locale/en.yml',
 	],
