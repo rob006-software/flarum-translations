@@ -207,7 +207,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/flarum/gdpr/v2.0.0-rc.5/resources/locale/en.yml',
 	],
 	'flarum-likes' => [
-		'beta' => 'https://raw.githubusercontent.com/flarum/likes/v2.0.0-rc.4/locale/en.yml',
+		'beta' => 'https://raw.githubusercontent.com/flarum/likes/v2.0.0-rc.5/locale/en.yml',
 	],
 	'flarum-lock' => [
 		'beta' => 'https://raw.githubusercontent.com/flarum/lock/v2.0.0-rc.4/locale/en.yml',
