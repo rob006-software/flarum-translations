@@ -107,5 +107,19 @@
                 "rejected": "用户名更改申请已驳回"
             }
         }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "user": {
+                    "nickname_requested": "",
+                    "nickname_request_approved": "",
+                    "nickname_request_rejected": "",
+                    "username_requested": "",
+                    "username_request_approved": "",
+                    "username_request_rejected": ""
+                }
+            }
+        }
     }
 }

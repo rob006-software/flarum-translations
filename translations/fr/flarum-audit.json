@@ -96,13 +96,13 @@
                 "developer_token_created": "A créé un jeton d'accès développeur « {title} » pour {username}",
                 "discussion": {
                     "created": "A démarré la discussion {discussion}",
-                    "create_date_changed": "A modifié la date de début de {discussion}, {old_date} par {new_date}",
                     "deleted": "A supprimé la discussion {discussion}",
                     "hidden": "A masqué la discussion {discussion}",
-                    "merged_away": "A fusionné {discussion} avec {new_discussion}",
-                    "merged_into": "A regroupé {post_count} messages depuis {original_discussion_ids_count} discussions dans {discussion}",
                     "renamed": "A renommé la discussion {old_title} par {new_title}",
                     "restored": "A restauré la discussion {discussion}",
+                    "create_date_changed": "A modifié la date de début de {discussion}, {old_date} par {new_date}",
+                    "merged_away": "A fusionné {discussion} avec {new_discussion}",
+                    "merged_into": "A regroupé {post_count} messages depuis {original_discussion_ids_count} discussions dans {discussion}",
                     "split_away": "A déplacé {post_count} messages depuis {discussion} vers {new_discussion}",
                     "split_into": "A déplacé {post_count} messages vers la nouvelle discussion {discussion}",
                     "user_changed": "A modifié l'auteur de {discussion}, {old_user} par {new_user}"
@@ -112,10 +112,6 @@
                     "enabled": "A activé l'extension {package}",
                     "uninstalled": "A désinstallé l'extension {package}"
                 },
-                "fof_ban_ips": {
-                    "banned": "A banni l'adresse IP {ip}",
-                    "unbanned": "A débanni l'adresse IP {ip}"
-                },
                 "group": {
                     "created": "A créé le groupe {name}",
                     "deleted": "A supprimé le groupe {name}",
@@ -124,12 +120,12 @@
                 "permission_changed": "A modifié l'autorisation {permission} de {old_groups} vers {new_groups}",
                 "post": {
                     "created": "A créé un {post} dans {discussion}",
-                    "create_date_changed": "A modifié la date de début du {post} de {postuser}, {old_date} par {new_date}",
                     "deleted": "A supprimé {post} de {postuser} dans {discussion}",
-                    "edit_date_changed": "A modifié la date de modification du {post} de {postuser}, {old_date} par {new_date}",
                     "hidden": "A masqué {post} de {postuser} dans {discussion}",
                     "restored": "A restauré {post} de {postuser} dans {discussion}",
                     "revised": "A révisé {post} de {postuser} dans {discussion}",
+                    "create_date_changed": "A modifié la date de début du {post} de {postuser}, {old_date} par {new_date}",
+                    "edit_date_changed": "A modifié la date de modification du {post} de {postuser}, {old_date} par {new_date}",
                     "user_changed": "A modifié l'auteur du {post}, {old_user} par {new_user}"
                 },
                 "setting_changed": "A modifié le paramètre {key}",
@@ -140,28 +136,32 @@
                     "activated_with_email": "A activé le compte de {username} par lien de confirmation",
                     "avatar_changed": "A modifié l'avatar de {username}",
                     "avatar_removed": "A supprimé l'avatar de {username}",
-                    "bio_changed": "A modifié la biographie de {username}",
                     "created": "A créé le compte de {username}",
                     "deleted": "A supprimé {username}",
                     "email_changed": "A modifié l'adresse de courriel de {username}, {old_email} par {new_email}",
                     "email_change_requested": "A demandé à modifier l'adresse de courriel de {username} par {new_email}",
                     "groups_changed": "A modifié les groupes de {username}, {old_groups} par {new_groups}",
-                    "impersonated": "A usurpé l'identité de {username}",
                     "logged_in": "S'est connecté au compte de {username}",
                     "logged_in_with_provider": "S'est connecté au compte de {username} en utilisant {provider}",
                     "logged_out": "S'est déconnecté au compte de {username}",
-                    "nickname_requested": "A demandé un nouveau pseudonyme {new_nickname} pour l'utilisateur {username}",
-                    "nickname_request_approved": "A approuvé la demande de modification de pseudonyme de {username} de {old_nickname} en {new_nickname}",
-                    "nickname_request_rejected": "A refusé la demande de modification de pseudonyme de {username}",
                     "password_changed": "A modifié le mot de passe de {username}",
                     "password_change_requested": "A demandé la modification du mot de passe de {username}",
                     "password_reset_attempted": "A demandé la réinitialisation du mot de passe pour {username}",
                     "password_reset_attempted_unmatched": "A demandé une réinitialisation du mot de passe pour {email} (aucun compte correspondant)",
                     "provider_connected": "A connecté le fournisseur {provider} au compte de {username}",
                     "username_changed": "A modifié le nom d'utilisateur de {username}, {old_username} en {new_username}",
+                    "bio_changed": "A modifié la biographie de {username}",
+                    "impersonated": "A usurpé l'identité de {username}",
+                    "nickname_requested": "A demandé un nouveau pseudonyme {new_nickname} pour l'utilisateur {username}",
+                    "nickname_request_approved": "A approuvé la demande de modification de pseudonyme de {username} de {old_nickname} en {new_nickname}",
+                    "nickname_request_rejected": "A refusé la demande de modification de pseudonyme de {username}",
                     "username_requested": "A demandé un nouveau nom d'utilisateur {new_nickname} pour l'utilisateur {username}",
                     "username_request_approved": "A approuvé la demande de modification du nom d'utilisateur de {username} de {old_username} en {new_username}",
                     "username_request_rejected": "A refusé la demande de modification du nom d'utilisateur de {username}"
+                },
+                "fof_ban_ips": {
+                    "banned": "A banni l'adresse IP {ip}",
+                    "unbanned": "A débanni l'adresse IP {ip}"
                 }
             }
         }

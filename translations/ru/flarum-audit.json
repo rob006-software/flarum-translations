@@ -96,13 +96,13 @@
                 "developer_token_created": "Создан токен доступа для разработчиков \"{title}\" для {username}",
                 "discussion": {
                     "created": "Создана тема {discussion}",
-                    "create_date_changed": "Дата создания темы {discussion} изменена с {old_date} на {new_date}",
                     "deleted": "Удалена тема {discussion}",
                     "hidden": "Скрыта тема {discussion}",
-                    "merged_away": "Тема {discussion} объединена с темой {new_discussion}",
-                    "merged_into": "В тему {discussion} перенесено {post_count} сообщений из {original_discussion_ids_count} тем",
                     "renamed": "Переименована тема с {old_title} на {new_title}",
                     "restored": "Восстановлена тема {discussion}",
+                    "create_date_changed": "Дата создания темы {discussion} изменена с {old_date} на {new_date}",
+                    "merged_away": "Тема {discussion} объединена с темой {new_discussion}",
+                    "merged_into": "В тему {discussion} перенесено {post_count} сообщений из {original_discussion_ids_count} тем",
                     "split_away": "Из темы {discussion} перенесено {post_count} сообщений в тему {new_discussion}",
                     "split_into": "{post_count} сообщений перенесено в тему {discussion}",
                     "user_changed": "Автор темы {discussion} изменён с {old_user} на {new_user}"
@@ -112,10 +112,6 @@
                     "enabled": "Включено расширение {package}",
                     "uninstalled": "Удалено расширение {package}"
                 },
-                "fof_ban_ips": {
-                    "banned": "Заблокирован IP-адрес {ip}",
-                    "unbanned": "Разблокирован IP-адрес {ip}"
-                },
                 "group": {
                     "created": "Созданна группа {name}",
                     "deleted": "Группа удалена {name}",
@@ -124,12 +120,12 @@
                 "permission_changed": "Изменено разрешение {permission}: {old_groups} → {new_groups}",
                 "post": {
                     "created": "Отправлено {post} в теме {discussion}",
-                    "create_date_changed": "Изменена дата создания {post} пользователя {postuser} с {old_date} на {new_date}",
                     "deleted": "Удалено {post} пользователя {postuser} в теме {discussion}",
-                    "edit_date_changed": "Изменена дата редактирования {post} пользователя {postuser} с {old_date} на {new_date}",
                     "hidden": "Скрыто {post} пользователя {postuser} в теме {discussion}",
                     "restored": "Восстановлено {post} пользователя {postuser} в теме {discussion}",
                     "revised": "Изменено {post} пользователя {postuser} в теме {discussion}",
+                    "create_date_changed": "Изменена дата создания {post} пользователя {postuser} с {old_date} на {new_date}",
+                    "edit_date_changed": "Изменена дата редактирования {post} пользователя {postuser} с {old_date} на {new_date}",
                     "user_changed": "Автор сообщения {post} изменён с {old_user} на {new_user}"
                 },
                 "setting_changed": "Изменена настройка {key}",
@@ -140,28 +136,32 @@
                     "activated_with_email": "Аккаунт {username} активирован через ссылку подтверждения",
                     "avatar_changed": "Изменён аватар пользователя {username}",
                     "avatar_removed": "Удалён аватар пользователя {username}",
-                    "bio_changed": "Изменена биография пользователя {username}",
                     "created": "Создан аккаунт {username}",
                     "deleted": "Удалён пользователь {username}",
                     "email_changed": "Изменён email пользователя {username} с {old_email} на {new_email}",
                     "email_change_requested": "Запрошено изменение email пользователя {username} на {new_email}",
                     "groups_changed": "Группы пользователя {username} изменены с {old_groups} на {new_groups}",
-                    "impersonated": "Выполнен вход от имени пользователя {username}",
                     "logged_in": "Выполнен вход в аккаунт пользователя {username}",
                     "logged_in_with_provider": "Выполнен вход в аккаунт пользователя {username} через {provider}",
                     "logged_out": "Выполнен выход из аккаунта пользователя {username}",
-                    "nickname_requested": "Запрошен новый псевдоним {new_nickname} для пользователя {username}",
-                    "nickname_request_approved": "Одобрено изменение псевдонима пользователя {username} с {old_nickname} на {new_nickname}",
-                    "nickname_request_rejected": "Отклонено изменение псевдонима пользователя {username}",
                     "password_changed": "Изменён пароль пользователя {username}",
                     "password_change_requested": "Запрошено изменение пароля пользователя {username}",
                     "password_reset_attempted": "Запрошено изменение пароля пользователя {username}",
                     "password_reset_attempted_unmatched": "Запрошено изменение пароля для {email} — аккаунт не найден",
                     "provider_connected": "Провайдер {provider} привязан к аккаунту пользователя {username}",
                     "username_changed": "Изменено имя пользователя {username} с {old_username} на {new_username}",
+                    "bio_changed": "Изменена биография пользователя {username}",
+                    "impersonated": "Выполнен вход от имени пользователя {username}",
+                    "nickname_requested": "Запрошен новый псевдоним {new_nickname} для пользователя {username}",
+                    "nickname_request_approved": "Одобрено изменение псевдонима пользователя {username} с {old_nickname} на {new_nickname}",
+                    "nickname_request_rejected": "Отклонено изменение псевдонима пользователя {username}",
                     "username_requested": "Запрошено новое имя {new_username} для пользователя {username}",
                     "username_request_approved": "Одобрено изменение имени пользователя {username} с {old_username} на {new_username}",
                     "username_request_rejected": "Отклонено изменение имени пользователя {username}"
+                },
+                "fof_ban_ips": {
+                    "banned": "Заблокирован IP-адрес {ip}",
+                    "unbanned": "Разблокирован IP-адрес {ip}"
                 }
             }
         }

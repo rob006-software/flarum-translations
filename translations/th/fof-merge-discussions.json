@@ -57,5 +57,15 @@
                 "subject": "โพสต์ \"{merged_discussion_title}\" ของคุณได้รับการรวมโพสต์แล้ว"
             }
         }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "discussion": {
+                    "merged_away": "",
+                    "merged_into": ""
+                }
+            }
+        }
     }
 }

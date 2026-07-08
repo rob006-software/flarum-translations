@@ -107,5 +107,19 @@
                 "rejected": "{display_name} ปฏิเสธการเปลี่ยนชื่อผู้ใช้ของคุณเป็น {requested_username}"
             }
         }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "user": {
+                    "nickname_requested": "",
+                    "nickname_request_approved": "",
+                    "nickname_request_rejected": "",
+                    "username_requested": "",
+                    "username_request_approved": "",
+                    "username_request_rejected": ""
+                }
+            }
+        }
     }
 }

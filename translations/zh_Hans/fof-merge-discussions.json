@@ -57,5 +57,15 @@
                 "subject": "讨论合并「{merged_discussion_title}」"
             }
         }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "discussion": {
+                    "merged_away": "",
+                    "merged_into": ""
+                }
+            }
+        }
     }
 }

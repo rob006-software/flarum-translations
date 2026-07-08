@@ -57,5 +57,15 @@
                 "subject": "Votre discussion \"{merged_discussion_title}\" a été fusionnée"
             }
         }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "discussion": {
+                    "merged_away": "",
+                    "merged_into": ""
+                }
+            }
+        }
     }
 }

@@ -57,5 +57,15 @@
                 "subject": "A(z) „{merged_discussion_title}” témáját beolvasztották"
             }
         }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "discussion": {
+                    "merged_away": "",
+                    "merged_into": ""
+                }
+            }
+        }
     }
 }

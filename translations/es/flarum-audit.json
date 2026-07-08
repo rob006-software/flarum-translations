@@ -96,13 +96,13 @@
                 "developer_token_created": "Se creó el token de acceso de desarrollador \"{title}\" para {username}",
                 "discussion": {
                     "created": "Inició la discusión {discussion}",
-                    "create_date_changed": "Cambió la fecha de inicio de {discussion} de {old_date} a {new_date}",
                     "deleted": "Eliminó la discusión {discussion}",
                     "hidden": "Ocultó la discusión {discussion}",
-                    "merged_away": "Fusionó {discussion} en {new_discussion}",
-                    "merged_into": "Fusionó {post_count} publicaciones de {original_discussion_ids_count} discusiones en {discussion}",
                     "renamed": "Renombró la discusión de {old_title} a {new_title}",
                     "restored": "Restauró la discusión {discussion}",
+                    "create_date_changed": "Cambió la fecha de inicio de {discussion} de {old_date} a {new_date}",
+                    "merged_away": "Fusionó {discussion} en {new_discussion}",
+                    "merged_into": "Fusionó {post_count} publicaciones de {original_discussion_ids_count} discusiones en {discussion}",
                     "split_away": "Separó {post_count} publicaciones de {discussion} en {new_discussion}",
                     "split_into": "Separó {post_count} publicaciones en la nueva discusión {discussion}",
                     "user_changed": "Cambió el autor de {discussion} de {old_user} a {new_user}"
@@ -112,10 +112,6 @@
                     "enabled": "Activó la extensión {package}",
                     "uninstalled": "Desinstaló la extensión {package}"
                 },
-                "fof_ban_ips": {
-                    "banned": "Bloqueó la IP {ip}",
-                    "unbanned": "Desbloqueó la IP {ip}"
-                },
                 "group": {
                     "created": "Creó el grupo {name}",
                     "deleted": "Eliminó el grupo {name}",
@@ -124,12 +120,12 @@
                 "permission_changed": "Editó el permiso {permission} de {old_groups} a {new_groups}",
                 "post": {
                     "created": "Creó una {post} en {discussion}",
-                    "create_date_changed": "Cambió la fecha de inicio de la {post} de {postuser} de {old_date} a {new_date}",
                     "deleted": "Eliminó la {post} de {postuser} en {discussion}",
-                    "edit_date_changed": "Cambió la fecha de edición de la {post} de {postuser} de {old_date} a {new_date}",
                     "hidden": "Ocultó la {post} de {postuser} en {discussion}",
                     "restored": "Restauró la {post} de {postuser} en {discussion}",
                     "revised": "Revisó la {post} de {postuser} en {discussion}",
+                    "create_date_changed": "Cambió la fecha de inicio de la {post} de {postuser} de {old_date} a {new_date}",
+                    "edit_date_changed": "Cambió la fecha de edición de la {post} de {postuser} de {old_date} a {new_date}",
                     "user_changed": "Cambió el autor de la {post} de {old_user} a {new_user}"
                 },
                 "setting_changed": "Editó el ajuste {key}",
@@ -140,28 +136,32 @@
                     "activated_with_email": "Activó la cuenta de {username} mediante enlace de confirmación",
                     "avatar_changed": "Cambió el avatar de {username}",
                     "avatar_removed": "Eliminó el avatar de {username}",
-                    "bio_changed": "Editó la biografía de {username}",
                     "created": "Creó la cuenta de {username}",
                     "deleted": "Eliminó a {username}",
                     "email_changed": "Cambió el correo electrónico de {username} de {old_email} a {new_email}",
                     "email_change_requested": "Solicitó cambiar el correo electrónico de {username} a {new_email}",
                     "groups_changed": "Cambió los grupos de {username} de {old_groups} a {new_groups}",
-                    "impersonated": "Suplantó a {username}",
                     "logged_in": "Inició sesión en la cuenta de {username}",
                     "logged_in_with_provider": "Inició sesión en la cuenta de {username} usando {provider}",
                     "logged_out": "Cerró sesión en la cuenta de {username}",
-                    "nickname_requested": "Solicitó un nuevo apodo {new_nickname} para el usuario {username}",
-                    "nickname_request_approved": "Aprobó el cambio de apodo de {username} de {old_nickname} a {new_nickname}",
-                    "nickname_request_rejected": "Rechazó el cambio de apodo de {username}",
                     "password_changed": "Cambió la contraseña de {username}",
                     "password_change_requested": "Solicitó cambiar la contraseña de {username}",
                     "password_reset_attempted": "Solicitó un restablecimiento de contraseña para {username}",
                     "password_reset_attempted_unmatched": "Solicitó un restablecimiento de contraseña para {email} (sin cuenta coincidente)",
                     "provider_connected": "Conectó el proveedor {provider} a la cuenta de {username}",
                     "username_changed": "Cambió el nombre de usuario de {username} de {old_username} a {new_username}",
+                    "bio_changed": "Editó la biografía de {username}",
+                    "impersonated": "Suplantó a {username}",
+                    "nickname_requested": "Solicitó un nuevo apodo {new_nickname} para el usuario {username}",
+                    "nickname_request_approved": "Aprobó el cambio de apodo de {username} de {old_nickname} a {new_nickname}",
+                    "nickname_request_rejected": "Rechazó el cambio de apodo de {username}",
                     "username_requested": "Solicitó un nuevo nombre de usuario {new_username} para el usuario {username}",
                     "username_request_approved": "Aprobó el cambio de nombre de usuario de {username} de {old_username} a {new_username}",
                     "username_request_rejected": "Rechazó el cambio de nombre de usuario de {username}"
+                },
+                "fof_ban_ips": {
+                    "banned": "Bloqueó la IP {ip}",
+                    "unbanned": "Desbloqueó la IP {ip}"
                 }
             }
         }

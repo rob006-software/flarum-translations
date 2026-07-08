@@ -57,5 +57,15 @@
                 "subject": "Twoja dyskusja \"{merged_discussion_title}\" została scalona"
             }
         }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "discussion": {
+                    "merged_away": "",
+                    "merged_into": ""
+                }
+            }
+        }
     }
 }

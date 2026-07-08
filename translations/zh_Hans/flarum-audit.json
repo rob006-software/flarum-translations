@@ -96,13 +96,13 @@
                 "developer_token_created": "为 {username} 创建了开发者访问令牌 \"{title}\"",
                 "discussion": {
                     "created": "开始的讨论{discussion}",
-                    "create_date_changed": "将{discussion}开始日期从 {old_date} 更改为 {new_date}",
                     "deleted": "删除讨论{discussion}",
                     "hidden": "隐藏讨论{discussion}",
-                    "merged_away": "将 {discussion} 合并到 {new_discussion}",
-                    "merged_into": "将来自 {original_discussion_ids_count} 的讨论中的 {post_count} 帖子合并到 {discussion} 中",
                     "renamed": "讨论标题已从 {old_title} 更改为 {new_title}",
                     "restored": "恢复讨论 {discussion}",
+                    "create_date_changed": "将{discussion}开始日期从 {old_date} 更改为 {new_date}",
+                    "merged_away": "将 {discussion} 合并到 {new_discussion}",
+                    "merged_into": "将来自 {original_discussion_ids_count} 的讨论中的 {post_count} 帖子合并到 {discussion} 中",
                     "split_away": "将 {discussion} 中的 {post_count} 帖子拆分为 {new_discussion}",
                     "split_into": "将 {post_count} 篇帖子拆分成新的讨论 {discussion}",
                     "user_changed": "将 {discussion} 的所有者从 {old_user} 更改为 {new_user}"
@@ -112,10 +112,6 @@
                     "enabled": "启用扩展{package}",
                     "uninstalled": "卸载扩展{package}"
                 },
-                "fof_ban_ips": {
-                    "banned": "封禁IP{ip}",
-                    "unbanned": "解封IP{ip}"
-                },
                 "group": {
                     "created": "新建群组{name}",
                     "deleted": "删除群组{name}",
@@ -124,12 +120,12 @@
                 "permission_changed": "已将权限 {permission} 从 {old_groups} 修改为 {new_groups}",
                 "post": {
                     "created": "已在 {discussion} 中创建了 {post}",
-                    "create_date_changed": "已将 {postuser} 的 {post} 的开始日期从 {old_date} 更改为 {new_date}",
                     "deleted": "已删除 {postuser} 在 {discussion} 中的 {post}",
-                    "edit_date_changed": "已将 {postuser} 的 {post} 编辑日期从 {old_date} 更改为 {new_date}",
                     "hidden": "隐藏了 {postuser} 在 {discussion} 中的 {post}",
                     "restored": "已恢复 {postuser} 在 {discussion} 中的 {post}",
                     "revised": "修改了{postuser}在{discussion}中的{post}",
+                    "create_date_changed": "已将 {postuser} 的 {post} 的开始日期从 {old_date} 更改为 {new_date}",
+                    "edit_date_changed": "已将 {postuser} 的 {post} 编辑日期从 {old_date} 更改为 {new_date}",
                     "user_changed": "已将{post}的所有者从{old_user}更改为了 {new_user}"
                 },
                 "setting_changed": "已更改设置{key}",
@@ -140,28 +136,32 @@
                     "activated_with_email": "已通过确认链接激活 {username} 的帐户",
                     "avatar_changed": "更改了{username}的头像",
                     "avatar_removed": "移除了{username}的头像",
-                    "bio_changed": "已编辑{username}的个人简介",
                     "created": "已创建{username}的账户",
                     "deleted": "删除了用户{username}",
                     "email_changed": "已将 {username} 的电子邮件地址从 {old_email} 更改为 {new_email}",
                     "email_change_requested": "已请求将 {username} 的电子邮件地址更改为 {new_email}",
                     "groups_changed": "已将 {username} 所在群组从 {old_groups} 更改为 {new_groups}",
-                    "impersonated": "作为 {username} 登录",
                     "logged_in": "已登录 {username} 帐户",
                     "logged_in_with_provider": "已使用 {provider} 登录帐户 {username}",
                     "logged_out": "已登出帐户 {username}",
-                    "nickname_requested": "已为用户 {username} 请求为新昵称 {new_nickname}",
-                    "nickname_request_approved": "已通过 {username} 将昵称从 {old_nickname} 更改为 {new_nickname}",
-                    "nickname_request_rejected": "已驳回{username}的昵称更改请求",
                     "password_changed": "已更改{username}的密码",
                     "password_change_requested": "请求更改 {username} 的密码",
                     "password_reset_attempted": "用户 {username} 已请求重置密码",
                     "password_reset_attempted_unmatched": "请求重置 {email} 的密码（没有匹配的帐户）",
                     "provider_connected": "已将认证方式 {provider} 连接到 {username} 帐户",
                     "username_changed": "已将 {username} 的用户名从 {old_username} 更改为 {new_username}",
+                    "bio_changed": "已编辑{username}的个人简介",
+                    "impersonated": "作为 {username} 登录",
+                    "nickname_requested": "已为用户 {username} 请求为新昵称 {new_nickname}",
+                    "nickname_request_approved": "已通过 {username} 将昵称从 {old_nickname} 更改为 {new_nickname}",
+                    "nickname_request_rejected": "已驳回{username}的昵称更改请求",
                     "username_requested": "已为用户 {username} 请求新的用户名 {new_username}",
                     "username_request_approved": "已批准 {username} 的用户名从 {old_username} 更改为 {new_username}",
                     "username_request_rejected": "已驳回{username}的用户名更改请求"
+                },
+                "fof_ban_ips": {
+                    "banned": "封禁IP{ip}",
+                    "unbanned": "解封IP{ip}"
                 }
             }
         }

@@ -57,5 +57,15 @@
                 "subject": "Cuộc thảo luận \"{merged_discussion_title}\" của bạn đã được hợp nhất"
             }
         }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "discussion": {
+                    "merged_away": "",
+                    "merged_into": ""
+                }
+            }
+        }
     }
 }

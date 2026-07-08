@@ -57,5 +57,15 @@
                 "subject": "Vaše diskuze \"{merged_discussion_title}\" byla sloučena"
             }
         }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "discussion": {
+                    "merged_away": "",
+                    "merged_into": ""
+                }
+            }
+        }
     }
 }

@@ -96,13 +96,13 @@
                 "developer_token_created": "已為 {username} 建立開發人員存取權杖「{title}」",
                 "discussion": {
                     "created": "建立討論 {discussion}",
-                    "create_date_changed": "討論 {discussion} 的建立時間已由 {old_date} 變更為 {new_date}",
                     "deleted": "刪除討論 {discussion}",
                     "hidden": "隱藏討論 {discussion}",
-                    "merged_away": "討論 {discussion} 已合併至 {new_discussion}",
-                    "merged_into": "已將 {original_discussion_ids_count} 個討論中的 {post_count} 篇貼文合併至 {discussion}",
                     "renamed": "討論標題由 {old_title} 變更為 {new_title}",
                     "restored": "還原討論 {discussion}",
+                    "create_date_changed": "討論 {discussion} 的建立時間已由 {old_date} 變更為 {new_date}",
+                    "merged_away": "討論 {discussion} 已合併至 {new_discussion}",
+                    "merged_into": "已將 {original_discussion_ids_count} 個討論中的 {post_count} 篇貼文合併至 {discussion}",
                     "split_away": "已從討論 {discussion} 分割 {post_count} 篇貼文至 {new_discussion}",
                     "split_into": "已將 {post_count} 篇貼文移至討論 {discussion}",
                     "user_changed": "討論 {discussion} 的作者已由 {old_user} 變更為 {new_user}"
@@ -112,10 +112,6 @@
                     "enabled": "已啟用擴充套件 {package}",
                     "uninstalled": "已解除安裝擴充套件 {package}"
                 },
-                "fof_ban_ips": {
-                    "banned": "已封鎖 IP 位址 {ip}",
-                    "unbanned": "已解除封鎖 IP 位址 {ip}"
-                },
                 "group": {
                     "created": "建立群組 {name}",
                     "deleted": "刪除群組 {name}",
@@ -124,12 +120,12 @@
                 "permission_changed": "權限 {permission} 已由 {old_groups} 變更為 {new_groups}",
                 "post": {
                     "created": "於討論 {discussion} 發表 {post}",
-                    "create_date_changed": "{postuser} 的 {post} 建立時間已由 {old_date} 變更為 {new_date}",
                     "deleted": "刪除 {postuser} 於討論 {discussion} 的 {post}",
-                    "edit_date_changed": "{postuser} 的 {post} 編輯時間已由 {old_date} 變更為 {new_date}",
                     "hidden": "隱藏 {postuser} 於討論 {discussion} 的 {post}",
                     "restored": "還原 {postuser} 於討論 {discussion} 的 {post}",
                     "revised": "修改 {postuser} 於討論 {discussion} 的 {post}",
+                    "create_date_changed": "{postuser} 的 {post} 建立時間已由 {old_date} 變更為 {new_date}",
+                    "edit_date_changed": "{postuser} 的 {post} 編輯時間已由 {old_date} 變更為 {new_date}",
                     "user_changed": "貼文 {post} 的作者已由 {old_user} 變更為 {new_user}"
                 },
                 "setting_changed": "設定 {key} 已變更",
@@ -140,28 +136,32 @@
                     "activated_with_email": "已透過電子郵件驗證啟用帳號 {username}",
                     "avatar_changed": "已變更 {username} 的頭像",
                     "avatar_removed": "已移除 {username} 的頭像",
-                    "bio_changed": "已變更 {username} 的個人簡介",
                     "created": "建立帳號 {username}",
                     "deleted": "刪除使用者 {username}",
                     "email_changed": "{username} 的電子郵件已由 {old_email} 變更為 {new_email}",
                     "email_change_requested": "{username} 已申請將電子郵件變更為 {new_email}",
                     "groups_changed": "{username} 的群組已由 {old_groups} 變更為 {new_groups}",
-                    "impersonated": "以 {username} 身分登入",
                     "logged_in": "{username} 已登入",
                     "logged_in_with_provider": "{username} 已透過 {provider} 登入",
                     "logged_out": "{username} 已登出",
-                    "nickname_requested": "{username} 已申請新的暱稱 {new_nickname}",
-                    "nickname_request_approved": "已核准 {username} 的暱稱變更：{old_nickname} → {new_nickname}",
-                    "nickname_request_rejected": "已拒絕 {username} 的暱稱變更申請",
                     "password_changed": "{username} 已變更密碼",
                     "password_change_requested": "{username} 已申請變更密碼",
                     "password_reset_attempted": "{username} 已申請重設密碼",
                     "password_reset_attempted_unmatched": "收到 {email} 的密碼重設申請，但找不到對應帳號",
                     "provider_connected": "已將 {provider} 綁定至 {username} 的帳號",
                     "username_changed": "{username} 已由 {old_username} 變更為 {new_username}",
+                    "bio_changed": "已變更 {username} 的個人簡介",
+                    "impersonated": "以 {username} 身分登入",
+                    "nickname_requested": "{username} 已申請新的暱稱 {new_nickname}",
+                    "nickname_request_approved": "已核准 {username} 的暱稱變更：{old_nickname} → {new_nickname}",
+                    "nickname_request_rejected": "已拒絕 {username} 的暱稱變更申請",
                     "username_requested": "{username} 已申請新的使用者名稱 {new_username}",
                     "username_request_approved": "已核准使用者名稱變更：{old_username} → {new_username}",
                     "username_request_rejected": "已拒絕使用者名稱變更申請"
+                },
+                "fof_ban_ips": {
+                    "banned": "已封鎖 IP 位址 {ip}",
+                    "unbanned": "已解除封鎖 IP 位址 {ip}"
                 }
             }
         }

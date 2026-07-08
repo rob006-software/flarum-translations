@@ -57,5 +57,15 @@
                 "subject": "Deine Diskussion „{merged_discussion_title}“ wurde zusammengeführt"
             }
         }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "discussion": {
+                    "merged_away": "",
+                    "merged_into": ""
+                }
+            }
+        }
     }
 }

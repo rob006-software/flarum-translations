@@ -57,5 +57,15 @@
                 "subject": "你的主題 \"{merged_discussion_title}\" 已被合併"
             }
         }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "discussion": {
+                    "merged_away": "",
+                    "merged_into": ""
+                }
+            }
+        }
     }
 }

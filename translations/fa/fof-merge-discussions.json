@@ -57,5 +57,15 @@
                 "subject": "بحث شما \"{merged_discussion_title}\" ادغام شد"
             }
         }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "discussion": {
+                    "merged_away": "",
+                    "merged_into": ""
+                }
+            }
+        }
     }
 }

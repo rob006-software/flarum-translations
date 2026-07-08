@@ -57,5 +57,15 @@
                 "subject": "Vaša tema \"{merged_discussion_title}\" je spojena"
             }
         }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "discussion": {
+                    "merged_away": "",
+                    "merged_into": ""
+                }
+            }
+        }
     }
 }
