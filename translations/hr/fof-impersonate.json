@@ -7,6 +7,7 @@
             "settings": {
                 "title": "",
                 "require_reason": "",
+                "require_reason_help": "",
                 "no_settings_available": ""
             }
         },
@@ -21,13 +22,22 @@
             "user_controls": {
                 "impersonate_button": ""
             }
+        },
+        "forum": {
+            "notice": {
+                "message": ""
+            },
+            "return": {
+                "button": ""
+            }
         }
     },
     "flarum-audit": {
         "lib": {
             "browser": {
                 "user": {
-                    "impersonated": ""
+                    "impersonated": "",
+                    "impersonation_ended": ""
                 }
             }
         }

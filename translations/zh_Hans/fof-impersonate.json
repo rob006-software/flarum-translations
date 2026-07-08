@@ -7,6 +7,7 @@
             "settings": {
                 "title": "FoF 身份模拟",
                 "require_reason": "登陆他人账户前必须填写理由。",
+                "require_reason_help": "",
                 "no_settings_available": "当前没有更多选项可用。请尝试安装插件 fof/moderator-notes"
             }
         },
@@ -21,13 +22,22 @@
             "user_controls": {
                 "impersonate_button": "以用户身份登录"
             }
+        },
+        "forum": {
+            "notice": {
+                "message": ""
+            },
+            "return": {
+                "button": ""
+            }
         }
     },
     "flarum-audit": {
         "lib": {
             "browser": {
                 "user": {
-                    "impersonated": ""
+                    "impersonated": "",
+                    "impersonation_ended": ""
                 }
             }
         }

@@ -7,6 +7,7 @@
             "settings": {
                 "title": "FoF Impersonate",
                 "require_reason": "Başka bir kullanıcının kimliğine bürünmeye devam etmeden önce bir neden girilmesini zorunlu kılın.",
+                "require_reason_help": "",
                 "no_settings_available": "Şu anda hiçbir ayar mevcut değil. fof/moderator-notes yüklemeyi deneyin"
             }
         },
@@ -21,13 +22,22 @@
             "user_controls": {
                 "impersonate_button": "Kullanıcı olarak giriş yap"
             }
+        },
+        "forum": {
+            "notice": {
+                "message": ""
+            },
+            "return": {
+                "button": ""
+            }
         }
     },
     "flarum-audit": {
         "lib": {
             "browser": {
                 "user": {
-                    "impersonated": ""
+                    "impersonated": "",
+                    "impersonation_ended": ""
                 }
             }
         }

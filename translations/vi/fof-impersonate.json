@@ -7,6 +7,7 @@
             "settings": {
                 "title": "FoF Impersonate",
                 "require_reason": "Yêu cầu nhập lý do trước khi tiếp tục mạo danh người dùng khác.",
+                "require_reason_help": "",
                 "no_settings_available": "Hiện không có cài đặt nào khả dụng. Thử cài đặt fof/moderator-notes"
             }
         },
@@ -21,13 +22,22 @@
             "user_controls": {
                 "impersonate_button": "Đăng nhập với tư cách là người dùng"
             }
+        },
+        "forum": {
+            "notice": {
+                "message": ""
+            },
+            "return": {
+                "button": ""
+            }
         }
     },
     "flarum-audit": {
         "lib": {
             "browser": {
                 "user": {
-                    "impersonated": ""
+                    "impersonated": "",
+                    "impersonation_ended": ""
                 }
             }
         }

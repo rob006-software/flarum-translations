@@ -7,6 +7,7 @@
             "settings": {
                 "title": "Перевоплощение",
                 "require_reason": "Требовать указать причину прежде, чем входить под аккаунтом другого пользователя.",
+                "require_reason_help": "",
                 "no_settings_available": "В настоящее время настройки недоступны. Попробуйте установить \"fof/moderator-notes\""
             }
         },
@@ -21,13 +22,22 @@
             "user_controls": {
                 "impersonate_button": "Войти как пользователь"
             }
+        },
+        "forum": {
+            "notice": {
+                "message": ""
+            },
+            "return": {
+                "button": ""
+            }
         }
     },
     "flarum-audit": {
         "lib": {
             "browser": {
                 "user": {
-                    "impersonated": ""
+                    "impersonated": "",
+                    "impersonation_ended": ""
                 }
             }
         }

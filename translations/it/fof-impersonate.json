@@ -7,6 +7,7 @@
             "settings": {
                 "title": "FoF Impersonate",
                 "require_reason": "Richiedi l'inserimento di un motivo prima di impersonare un altro utente.",
+                "require_reason_help": "",
                 "no_settings_available": "Al momento non sono disponibili impostazioni. Prova a installare fof/moderator-notes"
             }
         },
@@ -21,13 +22,22 @@
             "user_controls": {
                 "impersonate_button": "Connessione come utente"
             }
+        },
+        "forum": {
+            "notice": {
+                "message": ""
+            },
+            "return": {
+                "button": ""
+            }
         }
     },
     "flarum-audit": {
         "lib": {
             "browser": {
                 "user": {
-                    "impersonated": ""
+                    "impersonated": "",
+                    "impersonation_ended": ""
                 }
             }
         }

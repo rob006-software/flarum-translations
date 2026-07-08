@@ -7,6 +7,7 @@
             "settings": {
                 "title": "FoF 身份模擬",
                 "require_reason": "要求在登入他人帳戶前輸入理由",
+                "require_reason_help": "",
                 "no_settings_available": "目前沒有更多選項可用。請嘗試安裝擴充套件 fof/moderator-notes"
             }
         },
@@ -21,13 +22,22 @@
             "user_controls": {
                 "impersonate_button": "以用戶身份登入"
             }
+        },
+        "forum": {
+            "notice": {
+                "message": ""
+            },
+            "return": {
+                "button": ""
+            }
         }
     },
     "flarum-audit": {
         "lib": {
             "browser": {
                 "user": {
-                    "impersonated": ""
+                    "impersonated": "",
+                    "impersonation_ended": ""
                 }
             }
         }

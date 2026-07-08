@@ -7,6 +7,7 @@
             "settings": {
                 "title": "Имитиране на FoF",
                 "require_reason": "Изискай за въвеждане на причина, преди да се представиш за друг потребител.",
+                "require_reason_help": "",
                 "no_settings_available": "В момента няма налични настройки. Опитай да инсталираш fof/moderator-notes"
             }
         },
@@ -21,13 +22,22 @@
             "user_controls": {
                 "impersonate_button": ""
             }
+        },
+        "forum": {
+            "notice": {
+                "message": ""
+            },
+            "return": {
+                "button": ""
+            }
         }
     },
     "flarum-audit": {
         "lib": {
             "browser": {
                 "user": {
-                    "impersonated": ""
+                    "impersonated": "",
+                    "impersonation_ended": ""
                 }
             }
         }

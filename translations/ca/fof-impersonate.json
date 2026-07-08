@@ -7,6 +7,7 @@
             "settings": {
                 "title": "FoF Impersonate",
                 "require_reason": "Cal escriure una justificació per utilitzar la identitat d'un altre usuari.",
+                "require_reason_help": "",
                 "no_settings_available": "No hi ha cap configuració actualment disponible. Prova instal·lant fof/moderator-notes"
             }
         },
@@ -21,13 +22,22 @@
             "user_controls": {
                 "impersonate_button": ""
             }
+        },
+        "forum": {
+            "notice": {
+                "message": ""
+            },
+            "return": {
+                "button": ""
+            }
         }
     },
     "flarum-audit": {
         "lib": {
             "browser": {
                 "user": {
-                    "impersonated": ""
+                    "impersonated": "",
+                    "impersonation_ended": ""
                 }
             }
         }

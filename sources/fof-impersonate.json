@@ -7,13 +7,14 @@
             "settings": {
                 "title": "FoF Impersonate",
                 "require_reason": "Require a reason to be entered before proceeding to impersonate another user.",
-                "no_settings_available": "No settings are currently available. Try installing fof/moderator-notes"
+                "require_reason_help": "The reason is recorded in the audit log (flarum/audit) and/or as moderator notes on both accounts (fof/moderator-notes), whichever is enabled.",
+                "no_settings_available": "No settings are currently available. Try installing fof/moderator-notes or flarum/audit"
             }
         },
         "lib": {
             "modal": {
                 "title": "Login as another user",
-                "label": "With great power comes great responsibility. By continuing, you will become {username} until you log out.",
+                "label": "With great power comes great responsibility. By continuing, you will become {username} until you switch back.",
                 "placeholder_optional": "(Optional) Provide your reason for switching to this user",
                 "placeholder_required": "You must provide your reason for switching to this user before proceeding",
                 "impersonate_username": "Login as {username}"
@@ -21,13 +22,22 @@
             "user_controls": {
                 "impersonate_button": "Login as user"
             }
+        },
+        "forum": {
+            "notice": {
+                "message": "You are currently impersonating {username}."
+            },
+            "return": {
+                "button": "Return to {username}"
+            }
         }
     },
     "flarum-audit": {
         "lib": {
             "browser": {
                 "user": {
-                    "impersonated": "Impersonated {username}"
+                    "impersonated": "Impersonated {username}",
+                    "impersonation_ended": "Returned to {username}"
                 }
             }
         }

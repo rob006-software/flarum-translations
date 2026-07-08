@@ -7,6 +7,7 @@
             "settings": {
                 "title": "Impersonate de FoF",
                 "require_reason": "Exiger la saisie d'un motif avant la prise de contrôle d'un autre utilisateur.",
+                "require_reason_help": "",
                 "no_settings_available": "Aucun paramètre n'est actuellement disponible. Essayez d'installer l'extension fof/moderator-notes"
             }
         },
@@ -21,13 +22,22 @@
             "user_controls": {
                 "impersonate_button": "Se connecter en tant qu'utilisateur"
             }
+        },
+        "forum": {
+            "notice": {
+                "message": ""
+            },
+            "return": {
+                "button": ""
+            }
         }
     },
     "flarum-audit": {
         "lib": {
             "browser": {
                 "user": {
-                    "impersonated": ""
+                    "impersonated": "",
+                    "impersonation_ended": ""
                 }
             }
         }

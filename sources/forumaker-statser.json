@@ -15,19 +15,22 @@
                 "hidden_label": "Hidden",
                 "empty_online": "No one online right now",
                 "viewing_unknown": "Browsing the forum",
-                "viewing_page": "Viewing {page}"
+                "viewing_page": "Viewing {page}",
+                "title": "Online stats"
             },
             "routes": {
                 "index": "all discussions",
-                "discussion": "discussion \"{title}\"",
-                "tag": "tag \"{name}\"",
+                "discussion": "discussion «{title}»",
+                "tag": "tag «{name}»",
                 "user": "{name}'s profile",
                 "tags": "home",
                 "settings": "settings",
                 "notifications": "notifications",
                 "flags": "flags",
                 "search": "search",
-                "generic": "the forum"
+                "generic": "the forum",
+                "private_discussion": "a private conversation",
+                "arena": "Fighting in the Arena"
             },
             "aria": {
                 "expand": "Show online users",
