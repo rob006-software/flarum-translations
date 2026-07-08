@@ -2,87 +2,87 @@
     "huseyinfiliz-notificationhub": {
         "admin": {
             "title": {
-                "page_title": ""
+                "page_title": "Bildirim Türleri"
             },
             "permissions": {
-                "send_all": "",
-                "send_user": ""
+                "send_all": "Üye gruplarına bildirim gönderebilir",
+                "send_user": "Üyelere bildirim gönderebilir"
             },
             "recipient_kinds": {
-                "user": "",
-                "group": ""
+                "user": "=> huseyinfiliz-notificationhub.forum.recipient_kinds.user",
+                "group": "=> huseyinfiliz-notificationhub.forum.recipient_kinds.group"
             },
             "modal_notification": {
-                "recipients_placeholder": ""
+                "recipients_placeholder": "=> huseyinfiliz-notificationhub.forum.modal_notification.recipients_placeholder"
             },
             "settings": {
-                "add_button": "",
-                "no_data": "",
-                "delete_confirm": "",
+                "add_button": "Bildirim Türü Ekle",
+                "no_data": "Henüz bildirim türü eklenmemiş.",
+                "delete_confirm": "Bildirim türünü ve ilişkili tüm bildirimleri silmek istediğinizden emin misiniz?",
                 "fields": {
-                    "actions": "",
-                    "name": "",
-                    "excerpt_key": "",
-                    "description": "",
-                    "icon": "",
-                    "default_message_key": "",
-                    "permission": "",
-                    "color": "",
-                    "default_url": "",
-                    "default_recipients": "",
-                    "sort_order": "",
-                    "active": "",
-                    "color_invalid": "",
-                    "preview": "",
-                    "preview_placeholder": "",
-                    "permission_help": "",
-                    "permission_placeholder": ""
+                    "actions": "Eylemler",
+                    "name": "Bildirim Türünün Adı",
+                    "excerpt_key": "Varsayılan Alıntı",
+                    "description": "Bildirim Türünün Açıklaması",
+                    "icon": "Varsayılan Simge",
+                    "default_message_key": "Varsayılan Mesaj",
+                    "permission": "Bildirim Türünün İzinleri",
+                    "color": "Bildirim Türünün Rengi",
+                    "default_url": "Varsayılan Bağlantı",
+                    "default_recipients": "Varsayılan Alıcılar",
+                    "sort_order": "Sıralaması",
+                    "active": "Aktif",
+                    "color_invalid": "Renk, geçerli bir HEX kodu olmalıdır. Örneğin: #ff0000 veya #f00.",
+                    "preview": "Önizleme",
+                    "preview_placeholder": "Bildirim türü adı",
+                    "permission_help": "Bu bildirimi göndermeye yetkili üye gruplarını seçin. Boş bırakılırsa yetkili tüm moderatörler ve yöneticiler gönderebilir.",
+                    "permission_placeholder": "Bir grup adı yazın..."
                 },
-                "save": "",
-                "edit_notification_type": "",
-                "add_notification_type": ""
+                "save": "Kaydet",
+                "edit_notification_type": "Bildirim Türünü Düzenle",
+                "add_notification_type": "Bildirim Türü Ekle"
             }
         },
         "forum": {
             "links": {
-                "notification_individual": "",
-                "notification_all": ""
+                "notification_individual": "Bildirim Gönder",
+                "notification_all": "Bildirim Gönder"
             },
             "modal_notification": {
-                "title_text": "",
-                "recipients_label": "",
-                "recipients_placeholder": "",
-                "message_label": "",
-                "url_label": "",
-                "url_placeholder": "",
-                "submit_button": "",
-                "notification_sent_message": "",
-                "notification_type_label": "",
-                "no_notification_types": "",
-                "preview_title": "",
-                "preview_message_placeholder": "",
-                "preview_all_members": ""
+                "title_text": "Bildirim Gönder",
+                "recipients_label": "Alıcılar",
+                "recipients_placeholder": "Kullanıcı adı veya grup adı yazın...",
+                "message_label": "Mesaj",
+                "url_label": "Hedef Bağlantı",
+                "url_placeholder": "https://www.ornek.com",
+                "submit_button": "Bildirim Gönder",
+                "notification_sent_message": "{recipientsCount} kullanıcıya bildirim gönderildi!",
+                "notification_type_label": "Bildirim Türü",
+                "no_notification_types": "Aktif bildirim türü bulunamadı.",
+                "preview_title": "Bildirim Önizlemesi",
+                "preview_message_placeholder": "Bildirim mesajı..",
+                "preview_all_members": "Tüm Üyeler"
             },
             "recipient_kinds": {
-                "user": "",
-                "group": ""
+                "user": "Kullanıcı",
+                "group": "Grup"
             }
         },
         "api": {
-            "message_required": "",
-            "user_ids_required": "",
-            "subject_id_required": "",
-            "no_valid_recipients": "",
-            "name_required": "",
-            "invalid_url": "",
-            "name_too_long": "",
-            "message_too_long": "",
-            "url_too_long": "",
-            "invalid_url_scheme": "",
-            "sort_order_invalid": "",
-            "field_too_long": "",
-            "invalid_color": "",
-            "multiple_recipients_not_allowed": ""
+            "message_required": "Mesaj gereklidir.",
+            "user_ids_required": "Kullanıcı kimlikleri gereklidir.",
+            "subject_id_required": "Bildirim Türü gereklidir.",
+            "no_valid_recipients": "Geçerli alıcı bulunamadı.",
+            "name_required": "Bildirim türü adı zorunludur.",
+            "invalid_url": "Geçersiz bağlantı protokolü algılandı.",
+            "name_too_long": "Adı 255 karakterden uzun olamaz.",
+            "message_too_long": "Mesaj 5000 karakterden uzun olamaz.",
+            "url_too_long": "Bağlantı 2048 karakterden uzun olamaz.",
+            "invalid_url_scheme": "Geçersiz bağlantı şeması. Yalnızca HTTP, HTTPS, mailto, tel veya göreli bağlantılara izin verilir.",
+            "sort_order_invalid": "Sıralama değeri negatif olmayan bir sayı olmalıdır.",
+            "field_too_long": "Bu alan çok uzun.",
+            "invalid_color": "Renk, geçerli bir HEX kodu olmalıdır (ör. #ff0000 veya #f00).",
+            "multiple_recipients_not_allowed": "Aynı anda birden fazla alıcıya bildirim gönderme yetkiniz yok."
         }
     }
 }

@@ -2,87 +2,87 @@
     "huseyinfiliz-notificationhub": {
         "admin": {
             "title": {
-                "page_title": ""
+                "page_title": "Benachrichtigungsarten"
             },
             "permissions": {
-                "send_all": "",
-                "send_user": ""
+                "send_all": "Benachrichtigungen an alle Benutzer senden",
+                "send_user": "Benachrichtigungen an einzelne Benutzer senden"
             },
             "recipient_kinds": {
-                "user": "",
-                "group": ""
+                "user": "=> huseyinfiliz-notificationhub.forum.recipient_kinds.user",
+                "group": "=> huseyinfiliz-notificationhub.forum.recipient_kinds.group"
             },
             "modal_notification": {
-                "recipients_placeholder": ""
+                "recipients_placeholder": "=> huseyinfiliz-notificationhub.forum.modal_notification.recipients_placeholder"
             },
             "settings": {
-                "add_button": "",
-                "no_data": "",
-                "delete_confirm": "",
+                "add_button": "Benachrichtigungsart hinzufügen",
+                "no_data": "Noch keine Benachrichtigungsarten.",
+                "delete_confirm": "Möchtest du diese Benachrichtigungsart und alle zugehörigen Benachrichtigungen wirklich löschen?",
                 "fields": {
-                    "actions": "",
-                    "name": "",
-                    "excerpt_key": "",
-                    "description": "",
-                    "icon": "",
-                    "default_message_key": "",
-                    "permission": "",
-                    "color": "",
-                    "default_url": "",
-                    "default_recipients": "",
-                    "sort_order": "",
-                    "active": "",
-                    "color_invalid": "",
-                    "preview": "",
-                    "preview_placeholder": "",
-                    "permission_help": "",
-                    "permission_placeholder": ""
+                    "actions": "Aktionen",
+                    "name": "Name der Benachrichtigungsart",
+                    "excerpt_key": "Standardauszug",
+                    "description": "Beschreibung der Benachrichtigungsart",
+                    "icon": "Standardsymbol",
+                    "default_message_key": "Standardnachricht",
+                    "permission": "Berechtigung der Benachrichtigungsart",
+                    "color": "Farbe der Benachrichtigungsart",
+                    "default_url": "Standardlink",
+                    "default_recipients": "Standardempfänger",
+                    "sort_order": "Sortierreihenfolge",
+                    "active": "Aktiv",
+                    "color_invalid": "Die Farbe muss ein gültiger Hex-Code sein, z. B. #ff0000 oder #f00.",
+                    "preview": "Vorschau",
+                    "preview_placeholder": "Name des Benachrichtigungstyps",
+                    "permission_help": "Wähle die Mitgliedergruppen aus, die zum Versenden dieser Benachrichtigung berechtigt sind. Wenn dieses Feld leer bleibt, können alle berechtigten Moderatoren/Administratoren die Benachrichtigung versenden.",
+                    "permission_placeholder": "Gib einen Gruppennamen ein..."
                 },
-                "save": "",
-                "edit_notification_type": "",
-                "add_notification_type": ""
+                "save": "Speichern",
+                "edit_notification_type": "Benachrichtigungsart bearbeiten",
+                "add_notification_type": "Benachrichtigungsart hinzufügen"
             }
         },
         "forum": {
             "links": {
-                "notification_individual": "",
-                "notification_all": ""
+                "notification_individual": "Benachrichtigung senden",
+                "notification_all": "Benachrichtigung senden"
             },
             "modal_notification": {
-                "title_text": "",
-                "recipients_label": "",
-                "recipients_placeholder": "",
-                "message_label": "",
-                "url_label": "",
-                "url_placeholder": "",
-                "submit_button": "",
-                "notification_sent_message": "",
-                "notification_type_label": "",
-                "no_notification_types": "",
-                "preview_title": "",
-                "preview_message_placeholder": "",
-                "preview_all_members": ""
+                "title_text": "Benachrichtigung senden",
+                "recipients_label": "Empfänger",
+                "recipients_placeholder": "Gib einen Benutzernamen oder Gruppennamen ein...",
+                "message_label": "Nachricht",
+                "url_label": "Ziellink",
+                "url_placeholder": "https://www.beispiel.de",
+                "submit_button": "Benachrichtigung senden",
+                "notification_sent_message": "Benachrichtigungen wurden an {recipientsCount} Benutzer gesendet!",
+                "notification_type_label": "Benachrichtigungsart",
+                "no_notification_types": "Keine aktiven Benachrichtigungsarten gefunden.",
+                "preview_title": "Benachrichtigungsvorschau",
+                "preview_message_placeholder": "Benachrichtigungsnachricht...",
+                "preview_all_members": "Alle Mitglieder"
             },
             "recipient_kinds": {
-                "user": "",
-                "group": ""
+                "user": "Benutzer",
+                "group": "Gruppe"
             }
         },
         "api": {
-            "message_required": "",
-            "user_ids_required": "",
-            "subject_id_required": "",
-            "no_valid_recipients": "",
-            "name_required": "",
-            "invalid_url": "",
-            "name_too_long": "",
-            "message_too_long": "",
-            "url_too_long": "",
-            "invalid_url_scheme": "",
-            "sort_order_invalid": "",
-            "field_too_long": "",
-            "invalid_color": "",
-            "multiple_recipients_not_allowed": ""
+            "message_required": "Nachricht ist erforderlich.",
+            "user_ids_required": "Benutzer-IDs sind erforderlich.",
+            "subject_id_required": "Benachrichtigungsart ist erforderlich.",
+            "no_valid_recipients": "Keine gültigen Empfänger gefunden.",
+            "name_required": "Die Angabe des Namens der Benachrichtigungsart ist erforderlich.",
+            "invalid_url": "Ungültiges URL-Protokoll erkannt.",
+            "name_too_long": "Name darf nicht länger als 255 Zeichen sein.",
+            "message_too_long": "Nachricht darf nicht länger als 5000 Zeichen sein.",
+            "url_too_long": "URL darf nicht länger als 2048 Zeichen sein.",
+            "invalid_url_scheme": "Ungültiges URL-Schema. Es sind nur HTTP-, HTTPS-, mailto-, tel- oder relative Links zulässig.",
+            "sort_order_invalid": "Die Sortierreihenfolge muss eine nicht-negative Zahl sein.",
+            "field_too_long": "Dieses Feld ist zu lang.",
+            "invalid_color": "Die Farbe muss ein gültiger Hex-Code sein (z. B. #ff0000 oder #f00).",
+            "multiple_recipients_not_allowed": "Du hast keine Berechtigung, eine Nachricht an mehrere Empfänger gleichzeitig zu senden."
         }
     }
 }

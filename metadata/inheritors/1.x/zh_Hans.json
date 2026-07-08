@@ -7291,6 +7291,87 @@
             }
         }
     },
+    "huseyinfiliz-notificationhub.json": {
+        "huseyinfiliz-notificationhub": {
+            "admin": {
+                "permissions": {
+                    "send_all": "4c917175578a6fadda7df02dd02b90a9 4c917175578a6fadda7df02dd02b90a9",
+                    "send_user": "cdd8f100efbffd52cd0fa43f18dc9a6b cdd8f100efbffd52cd0fa43f18dc9a6b"
+                },
+                "settings": {
+                    "add_button": "7a8f75cdfed2bf69b15ce95d1a267340 7a8f75cdfed2bf69b15ce95d1a267340",
+                    "add_notification_type": "31737dfe1f3291234a1a7504919c71a1 31737dfe1f3291234a1a7504919c71a1",
+                    "delete_confirm": "a64927bf6732af929957aa33df5c988f a64927bf6732af929957aa33df5c988f",
+                    "edit_notification_type": "88271716478f213856b3d4266101d288 88271716478f213856b3d4266101d288",
+                    "fields": {
+                        "actions": "2b6bc0f293f5ca01b006206c2535ccbc 2b6bc0f293f5ca01b006206c2535ccbc",
+                        "active": "7854b52a889b3ef0590d9f542efeb4c8 7854b52a889b3ef0590d9f542efeb4c8",
+                        "color": "525ba56b7be6d2a73b03b19c35b414ae 525ba56b7be6d2a73b03b19c35b414ae",
+                        "color_invalid": "6d9238ad3bf547ea65ad36d67c52d21a 6d9238ad3bf547ea65ad36d67c52d21a",
+                        "default_message_key": "11789107212bdf5ba780eeb89f7ff823 11789107212bdf5ba780eeb89f7ff823",
+                        "default_recipients": "175e131fa11bc1d668101d33d686db82 175e131fa11bc1d668101d33d686db82",
+                        "default_url": "1208ada35f13f86b0dd47ecddec32ee7 1208ada35f13f86b0dd47ecddec32ee7",
+                        "description": "53c2d2e46f255242dd5b98216498ba9e 53c2d2e46f255242dd5b98216498ba9e",
+                        "excerpt_key": "cb418920b40549d05cbd6f0203738315 cb418920b40549d05cbd6f0203738315",
+                        "icon": "d5719f71ae4fc97d70a4b60f7a872fd7 d5719f71ae4fc97d70a4b60f7a872fd7",
+                        "name": "6c0e907b69f973cdb1e1122ba1417e67 6c0e907b69f973cdb1e1122ba1417e67",
+                        "permission": "38e2f886f84417316bb3eab5c089f658 38e2f886f84417316bb3eab5c089f658",
+                        "permission_help": "5ffe1665695926667b2c869ffef87529 5ffe1665695926667b2c869ffef87529",
+                        "permission_placeholder": "6fbf0a7c35273f5f9d7c42d2aad77e28 6fbf0a7c35273f5f9d7c42d2aad77e28",
+                        "preview": "645dbc5504e722a30896486085a06b32 645dbc5504e722a30896486085a06b32",
+                        "preview_placeholder": "6c0e907b69f973cdb1e1122ba1417e67 6c0e907b69f973cdb1e1122ba1417e67",
+                        "sort_order": "3e1afdf932526a18103c4d02cbae6d03 3e1afdf932526a18103c4d02cbae6d03"
+                    },
+                    "no_data": "1abbda44a14111b6f05b9c4b259f9547 1abbda44a14111b6f05b9c4b259f9547",
+                    "save": "be5fbbe34ce9979bfb6576d9eddc5612 be5fbbe34ce9979bfb6576d9eddc5612"
+                },
+                "title": {
+                    "page_title": "cd82d2bb25af830918dc50523d06ca65 cd82d2bb25af830918dc50523d06ca65"
+                }
+            },
+            "api": {
+                "field_too_long": "cad67473557a291a2ae08ada9f543cb7 cad67473557a291a2ae08ada9f543cb7",
+                "invalid_color": "0494662d0a8b424e5b533549eaf0fc07 0494662d0a8b424e5b533549eaf0fc07",
+                "invalid_url": "c7e0c356eb3b49e15445d165fba81f3b c7e0c356eb3b49e15445d165fba81f3b",
+                "invalid_url_scheme": "bf84a81d1d069aa9ea2d9c17ce3a7a57 bf84a81d1d069aa9ea2d9c17ce3a7a57",
+                "message_required": "46b7d1189aeb414379f5cfe1cf9eca66 46b7d1189aeb414379f5cfe1cf9eca66",
+                "message_too_long": "cee023d9f11cc442b09731672bd8624e cee023d9f11cc442b09731672bd8624e",
+                "multiple_recipients_not_allowed": "394ac506a8d9831d72288d887c6d9d98 394ac506a8d9831d72288d887c6d9d98",
+                "name_required": "bdf6bd5150d361b2aa27281ba77d6c47 bdf6bd5150d361b2aa27281ba77d6c47",
+                "name_too_long": "39226458e9bd14a14d0d5f7f6a5c42eb 39226458e9bd14a14d0d5f7f6a5c42eb",
+                "no_valid_recipients": "108c714a8b343582d7ea5abf5970fa7b 108c714a8b343582d7ea5abf5970fa7b",
+                "sort_order_invalid": "ba1a1026595db8c4867233d89cc851d1 ba1a1026595db8c4867233d89cc851d1",
+                "subject_id_required": "9c72d75f9445f2e0d56bc35a6b709da1 9c72d75f9445f2e0d56bc35a6b709da1",
+                "url_too_long": "53f0629dcde08cf5698dc6611576551a 53f0629dcde08cf5698dc6611576551a",
+                "user_ids_required": "b193f2b833ec805e898dee6a42cf343d b193f2b833ec805e898dee6a42cf343d"
+            },
+            "forum": {
+                "links": {
+                    "notification_all": "b3f04fc2da58a364537069e69448d1fb b3f04fc2da58a364537069e69448d1fb",
+                    "notification_individual": "fd6d4c582b51b511490d49b1f1b77e20 fd6d4c582b51b511490d49b1f1b77e20"
+                },
+                "modal_notification": {
+                    "message_label": "ff692f04ace012504bc529e0a75f2bb4 ff692f04ace012504bc529e0a75f2bb4",
+                    "no_notification_types": "c949301166a807883e74d92cf5c4076a c949301166a807883e74d92cf5c4076a",
+                    "notification_sent_message": "97f8417d724da26a4144c8ef2defcee2 97f8417d724da26a4144c8ef2defcee2",
+                    "notification_type_label": "cd82d2bb25af830918dc50523d06ca65 cd82d2bb25af830918dc50523d06ca65",
+                    "preview_all_members": "fc2f4ab85d455c6ab4e9de78eb1b1b50 fc2f4ab85d455c6ab4e9de78eb1b1b50",
+                    "preview_message_placeholder": "9ab4c4ca5019095630fa1216fcdb3905 9ab4c4ca5019095630fa1216fcdb3905",
+                    "preview_title": "18a47a5774cdc6cd8878f5af3353e05e 18a47a5774cdc6cd8878f5af3353e05e",
+                    "recipients_label": "fb5bf1f1ab3ce045a4241cb06944f0fc fb5bf1f1ab3ce045a4241cb06944f0fc",
+                    "recipients_placeholder": "a42ebe5bcd39cedbbac178f7a17e355b a42ebe5bcd39cedbbac178f7a17e355b",
+                    "submit_button": "fd6d4c582b51b511490d49b1f1b77e20 fd6d4c582b51b511490d49b1f1b77e20",
+                    "title_text": "b3f04fc2da58a364537069e69448d1fb b3f04fc2da58a364537069e69448d1fb",
+                    "url_label": "d82dce625d4031e8e5ea79f26419036f d82dce625d4031e8e5ea79f26419036f",
+                    "url_placeholder": "e149be135a8b6803951f75776d589aaa e149be135a8b6803951f75776d589aaa"
+                },
+                "recipient_kinds": {
+                    "group": "4b0ab7babd5f07e75bd97386e8dab658 4b0ab7babd5f07e75bd97386e8dab658",
+                    "user": "1fd02a90c38333badc226309fea6fecb 1fd02a90c38333badc226309fea6fecb"
+                }
+            }
+        }
+    },
     "huseyinfiliz-stickiest.json": {
         "huseyinfiliz-stickiest": {
             "admin": {

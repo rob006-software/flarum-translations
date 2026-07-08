@@ -2,11 +2,11 @@
     "huseyinfiliz-notificationhub": {
         "admin": {
             "title": {
-                "page_title": ""
+                "page_title": "通知类型"
             },
             "permissions": {
-                "send_all": "",
-                "send_user": ""
+                "send_all": "向所有用户发送通知",
+                "send_user": "向特定用户发送通知"
             },
             "recipient_kinds": {
                 "user": "",
@@ -16,73 +16,73 @@
                 "recipients_placeholder": ""
             },
             "settings": {
-                "add_button": "",
-                "no_data": "",
-                "delete_confirm": "",
+                "add_button": "添加通知类型",
+                "no_data": "尚未设置通知类型。",
+                "delete_confirm": "确定要删除此通知类型及其所有相关通知吗？",
                 "fields": {
-                    "actions": "",
-                    "name": "",
-                    "excerpt_key": "",
-                    "description": "",
-                    "icon": "",
-                    "default_message_key": "",
-                    "permission": "",
-                    "color": "",
-                    "default_url": "",
-                    "default_recipients": "",
-                    "sort_order": "",
-                    "active": "",
-                    "color_invalid": "",
-                    "preview": "",
-                    "preview_placeholder": "",
-                    "permission_help": "",
-                    "permission_placeholder": ""
+                    "actions": "操作",
+                    "name": "通知类型名称",
+                    "excerpt_key": "默认摘要",
+                    "description": "通知类型描述",
+                    "icon": "默认图标",
+                    "default_message_key": "默认消息",
+                    "permission": "通知类型权限",
+                    "color": "通知类型颜色",
+                    "default_url": "默认链接",
+                    "default_recipients": "默认收件人",
+                    "sort_order": "排序顺序",
+                    "active": "启用",
+                    "color_invalid": "颜色必须是有效的十六进制颜色代码，例如 #ff0000 或 #f00。",
+                    "preview": "预览",
+                    "preview_placeholder": "通知类型名称",
+                    "permission_help": "选择有权发送此通知的会员组。如果留空，则所有有权限的版主/管理员均可发送。",
+                    "permission_placeholder": "输入组名称..."
                 },
-                "save": "",
-                "edit_notification_type": "",
-                "add_notification_type": ""
+                "save": "保存",
+                "edit_notification_type": "编辑消息类型",
+                "add_notification_type": "=> huseyinfiliz-notificationhub.admin.settings.add_button"
             }
         },
         "forum": {
             "links": {
-                "notification_individual": "",
-                "notification_all": ""
+                "notification_individual": "发送通知",
+                "notification_all": "=> huseyinfiliz-notificationhub.forum.links.notification_individual"
             },
             "modal_notification": {
-                "title_text": "",
-                "recipients_label": "",
-                "recipients_placeholder": "",
-                "message_label": "",
-                "url_label": "",
-                "url_placeholder": "",
-                "submit_button": "",
-                "notification_sent_message": "",
-                "notification_type_label": "",
-                "no_notification_types": "",
-                "preview_title": "",
-                "preview_message_placeholder": "",
-                "preview_all_members": ""
+                "title_text": "=> huseyinfiliz-notificationhub.forum.links.notification_individual",
+                "recipients_label": "收件人",
+                "recipients_placeholder": "输入用户名或群组名称...",
+                "message_label": "消息",
+                "url_label": "目标链接",
+                "url_placeholder": "https://www.example.com",
+                "submit_button": "发送通知",
+                "notification_sent_message": "通知已发送给 {recipientsCount} 位用户！",
+                "notification_type_label": "通知类型",
+                "no_notification_types": "未找到启用的通知类型。",
+                "preview_title": "通知预览",
+                "preview_message_placeholder": "通知消息..",
+                "preview_all_members": "所有成员"
             },
             "recipient_kinds": {
-                "user": "",
-                "group": ""
+                "user": "用户",
+                "group": "群组"
             }
         },
         "api": {
-            "message_required": "",
-            "user_ids_required": "",
-            "subject_id_required": "",
-            "no_valid_recipients": "",
-            "name_required": "",
-            "invalid_url": "",
-            "name_too_long": "",
-            "message_too_long": "",
-            "url_too_long": "",
-            "invalid_url_scheme": "",
-            "sort_order_invalid": "",
-            "field_too_long": "",
-            "invalid_color": "",
-            "multiple_recipients_not_allowed": ""
+            "message_required": "消息为必填项。",
+            "user_ids_required": "用户ID为必填项。",
+            "subject_id_required": "通知类型为必填项。",
+            "no_valid_recipients": "未找到有效的接收者。",
+            "name_required": "通知类型名称为必填项。",
+            "invalid_url": "检测到无效的 URL 协议。",
+            "name_too_long": "名称不能超过 255 个字符。",
+            "message_too_long": "消息不能超过 5000 个字符。",
+            "url_too_long": "URL 不能超过 2048 个字符。",
+            "invalid_url_scheme": "无效的 URL 方案。仅允许 HTTP、HTTPS、mailto、tel 或相对链接。",
+            "sort_order_invalid": "排序顺序必须为非负数。",
+            "field_too_long": "此字段内容过长。",
+            "invalid_color": "颜色必须是有效的十六进制颜色代码（例如 #ff0000 或 #f00）。",
+            "multiple_recipients_not_allowed": "您没有权限同时向多个接收者发送通知。"
         }
     }
 }
