@@ -342,7 +342,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/ignore-users/2.0.0-beta.3/resources/locale/en.yml',
 	],
 	'fof-impersonate' => [
-		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/impersonate/2.0.0-beta.3/resources/locale/en.yml',
+		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/impersonate/2.0.0-beta.4/resources/locale/en.yml',
 	],
 	'fof-linguist' => [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/linguist/2.0.0-beta.1/resources/locale/en.yml',
