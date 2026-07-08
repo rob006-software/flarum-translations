@@ -554,6 +554,9 @@ return [
 	'huseyinfiliz-rewind' => [
 		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/rewind/2.0.0/locale/en.yml',
 	],
+	'huseyinfiliz-simple-dark-mode' => [
+		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/simple-dark-mode/1.0/locale/en.yml',
+	],
 	'huseyinfiliz-stickiest' => [
 		'beta' => 'https://raw.githubusercontent.com/huseyinfiliz/stickiest/2.0.0-beta.2/locale/en.yml',
 	],
