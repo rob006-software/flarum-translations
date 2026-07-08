@@ -985,7 +985,9 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`huseyinfiliz-diff`](https://weblate.rob006.net/projects/flarum2/huseyinfiliz-diff) | [`huseyinfiliz/flarum-diff`](https://github.com/huseyinfiliz/flarum-diff) |
 | [`huseyinfiliz-leaderboard`](https://weblate.rob006.net/projects/flarum2/huseyinfiliz-leaderboard) | [`huseyinfiliz/leaderboard`](https://github.com/huseyinfiliz/leaderboard) |
 | [`huseyinfiliz-modern-footer`](https://weblate.rob006.net/projects/flarum2/huseyinfiliz-modern-footer) | [`huseyinfiliz/modern-footer`](https://github.com/huseyinfiliz/modern-footer) |
+| [`huseyinfiliz-notificationhub`](https://weblate.rob006.net/projects/flarum2/huseyinfiliz-notificationhub) | [`huseyinfiliz/notificationhub`](https://github.com/huseyinfiliz/notificationhub) |
 | [`huseyinfiliz-rewind`](https://weblate.rob006.net/projects/flarum2/huseyinfiliz-rewind) | [`huseyinfiliz/rewind`](https://github.com/huseyinfiliz/rewind) |
+| [`huseyinfiliz-simple-dark-mode`](https://weblate.rob006.net/projects/flarum2/huseyinfiliz-simple-dark-mode) | [`huseyinfiliz/simple-dark-mode`](https://github.com/huseyinfiliz/simple-dark-mode) |
 | [`huseyinfiliz-stickiest`](https://weblate.rob006.net/projects/flarum2/huseyinfiliz-stickiest) | [`huseyinfiliz/stickiest`](https://github.com/huseyinfiliz/stickiest) |
 | [`huseyinfiliz-sticky-title`](https://weblate.rob006.net/projects/flarum2/huseyinfiliz-sticky-title) | [`huseyinfiliz/sticky-title`](https://github.com/huseyinfiliz/sticky-title) |
 | [`ianm-boring-avatars`](https://weblate.rob006.net/projects/flarum2/ianm-boring-avatars) | [`ianm/boring-avatars`](https://github.com/imorland/flarum-ext-boring-avatars) |
