@@ -453,7 +453,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/usercard-stats/2.0.0-beta.1/locale/en.yml',
 	],
 	'fof-username-request' => [
-		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/username-request/2.0.0-beta.2/resources/locale/en.yml',
+		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/username-request/2.0.0-beta.3/resources/locale/en.yml',
 	],
 	'fof-webhooks' => [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/webhooks/2.0.0-beta.3/resources/locale/en.yml',
