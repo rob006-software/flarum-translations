@@ -183,7 +183,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/typesense/v0.2.0/locale/en.yml',
 	],
 	'flarum-akismet' => [
-		'beta' => 'https://raw.githubusercontent.com/flarum/akismet/v2.0.0-rc.4/locale/en.yml',
+		'beta' => 'https://raw.githubusercontent.com/flarum/akismet/v2.0.0-rc.5/locale/en.yml',
 	],
 	'flarum-approval' => [
 		'beta' => 'https://raw.githubusercontent.com/flarum/approval/v2.0.0-rc.4/locale/en.yml',
