@@ -1,0 +1,88 @@
+{
+    "huseyinfiliz-notificationhub": {
+        "admin": {
+            "title": {
+                "page_title": ""
+            },
+            "permissions": {
+                "send_all": "",
+                "send_user": ""
+            },
+            "recipient_kinds": {
+                "user": "",
+                "group": ""
+            },
+            "modal_notification": {
+                "recipients_placeholder": ""
+            },
+            "settings": {
+                "add_button": "",
+                "no_data": "",
+                "delete_confirm": "",
+                "fields": {
+                    "actions": "",
+                    "name": "",
+                    "excerpt_key": "",
+                    "description": "",
+                    "icon": "",
+                    "default_message_key": "",
+                    "permission": "",
+                    "color": "",
+                    "default_url": "",
+                    "default_recipients": "",
+                    "sort_order": "",
+                    "active": "",
+                    "color_invalid": "",
+                    "preview": "",
+                    "preview_placeholder": "",
+                    "permission_help": "",
+                    "permission_placeholder": ""
+                },
+                "save": "",
+                "edit_notification_type": "",
+                "add_notification_type": ""
+            }
+        },
+        "forum": {
+            "links": {
+                "notification_individual": "",
+                "notification_all": ""
+            },
+            "modal_notification": {
+                "title_text": "",
+                "recipients_label": "",
+                "recipients_placeholder": "",
+                "message_label": "",
+                "url_label": "",
+                "url_placeholder": "",
+                "submit_button": "",
+                "notification_sent_message": "",
+                "notification_type_label": "",
+                "no_notification_types": "",
+                "preview_title": "",
+                "preview_message_placeholder": "",
+                "preview_all_members": ""
+            },
+            "recipient_kinds": {
+                "user": "",
+                "group": ""
+            }
+        },
+        "api": {
+            "message_required": "",
+            "user_ids_required": "",
+            "subject_id_required": "",
+            "no_valid_recipients": "",
+            "name_required": "",
+            "invalid_url": "",
+            "name_too_long": "",
+            "message_too_long": "",
+            "url_too_long": "",
+            "invalid_url_scheme": "",
+            "sort_order_invalid": "",
+            "field_too_long": "",
+            "invalid_color": "",
+            "multiple_recipients_not_allowed": ""
+        }
+    }
+}
