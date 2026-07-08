@@ -228,7 +228,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/flarum/pusher/v2.0.0-rc.5/locale/en.yml',
 	],
 	'flarum-realtime' => [
-		'beta' => 'https://raw.githubusercontent.com/flarum/realtime/v2.0.0-rc.4/resources/locale/en.yml',
+		'beta' => 'https://raw.githubusercontent.com/flarum/realtime/v2.0.0-rc.5/resources/locale/en.yml',
 	],
 	'flarum-statistics' => [
 		'beta' => 'https://raw.githubusercontent.com/flarum/statistics/v2.0.0-rc.4/locale/en.yml',
