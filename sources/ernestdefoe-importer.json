@@ -1,0 +1,34 @@
+{
+    "ernestdefoe-importer": {
+        "admin": {
+            "title": "Import a forum",
+            "intro": "Migrate an existing forum into Flarum. Pick your source platform, connect to its database, test it, then run the import in the background — it processes in batches with a live progress bar, so even large forums won't time out.",
+            "source": "Source platform",
+            "mode_connect": "Connect to a database",
+            "mode_upload": "Upload a database file",
+            "dump_file": "Database dump",
+            "dump_help": "A mysqldump .sql (optionally gzipped) or a SQLite file. Very large forums may exceed your host's upload limit — use the live connection instead, or gzip the dump first.",
+            "upload": "Upload & check",
+            "upload_failed": "Upload failed — the file may be too large for this server's upload limit.",
+            "host": "Database host",
+            "port": "Port",
+            "database": "Database name",
+            "database_redis": "Redis database number",
+            "username": "Database username",
+            "password": "Database password",
+            "prefix": "Table prefix",
+            "test": "Test connection",
+            "start": "Start import",
+            "test_ok": "Connected. Here's what we found:",
+            "test_failed": "Connection failed.",
+            "start_failed": "Could not start the import.",
+            "confirm_start": "Start importing now? This writes discussions, posts and members into this forum. Import into a fresh forum for best results.",
+            "starting": "Starting…",
+            "running": "Import running",
+            "complete": "Import complete",
+            "failed": "Import failed",
+            "shared_note": "Runs in small batches straight from your browser — no queue worker or SSH needed, so it works on shared hosting. Keep this tab open; if it's interrupted, reopen this page and it resumes where it left off.",
+            "import_another": "Import another"
+        }
+    }
+}
