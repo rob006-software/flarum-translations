@@ -483,7 +483,7 @@ return [
 		],
 	],
 	'forumaker-rolevaya' => [
-		'tag' => 'https://raw.githubusercontent.com/forumaker/Rolevaya/2.4.1/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/forumaker/Rolevaya/2.4.2/resources/locale/en.yml',
 	],
 	'forumaker-statser' => [
 		'tag' => 'https://raw.githubusercontent.com/forumaker/Statser/2.1.0/locale/en.yml',
