@@ -546,7 +546,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/huseyinfiliz/leaderboard/2.0.0-beta.1/locale/en.yml',
 	],
 	'huseyinfiliz-modern-footer' => [
-		'beta' => 'https://raw.githubusercontent.com/huseyinfiliz/modern-footer/v2.0.0-beta.1/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/modern-footer/2.0.0/resources/locale/en.yml',
 	],
 	'huseyinfiliz-rewind' => [
 		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/rewind/2.0.0/locale/en.yml',
