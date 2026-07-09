@@ -871,6 +871,9 @@ return [
 			'zh_Hans',
 		],
 	],
+	'foumtaro-image-optimizer' => [
+		'tag' => 'https://raw.githubusercontent.com/forumtaro/flarum-image-optimizer/0.0.2/resources/locale/en.yml',
+	],
 	'ganuonglachanh-sonic' => [
 		'tag' => 'https://raw.githubusercontent.com/ganuonglachanh/flarum-sonic/0.1.9/resources/locale/en.yml',
 	],
