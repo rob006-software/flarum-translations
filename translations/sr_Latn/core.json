@@ -31,24 +31,24 @@
                 "default_language_heading": "Podrazumevani jezik",
                 "description": "Podesite naslov foruma, jezik i druga osnovna podešavanja.",
                 "display_name_heading": "Korisničko ime za prikaz",
-                "display_name_text": "Izaberite upravljački program koji treba da se koristi za prikazana imena korisnika. Podrazumevano je prikazano korisničko ime.",
+                "display_name_text": "Izaberite mehanizam koji treba da se koristi za prikazana imena korisnika. Podrazumevano je prikazano korisničko ime.",
                 "forum_description_heading": "Opis foruma",
                 "forum_description_text": "Ukratko opišite Vašu zajednicu. Ovo će biti prikazano u meta podacima i u pretraživačima.",
                 "forum_title_heading": "Naslov foruma",
                 "home_page_heading": "Početna stranica",
                 "home_page_text": "Izaberite stranicu koju će korisnici prvo videti kada posete Vaš forum.",
                 "show_language_selector_label": "Prikaži opciju za odabir jezika",
-                "slug_driver_heading": "Slug Driver: {model}",
-                "slug_driver_text": "Izaberite upravljački program koji će se koristiti za spajanje ovog modela.",
+                "slug_driver_heading": "Mehanizam za slug: {model}",
+                "slug_driver_text": "Izaberite mehanizam koji će se koristiti za spajanje ovog modela.",
                 "title": "Osnovno",
-                "welcome_banner_heading": "Natpis dobrodošlice",
-                "welcome_banner_text": "Podesite tekst koji se prikazuje u natpisu na stranici Sve diskusije. Koristite ovo za dobrodošlicu gostima na Vaš forum.",
-                "abandoned_extensions_heading": "",
-                "abandoned_extensions_text": "",
-                "abandoned_extensions_sync_button": "",
-                "abandoned_extensions_sync_success": "",
-                "abandoned_extensions_sync_error": "",
-                "abandoned_extensions_notify_admins_label": ""
+                "welcome_banner_heading": "Baner dobrodošlice",
+                "welcome_banner_text": "Podesite tekst koji se prikazuje na baneru na stranici Sve diskusije. Koristite ovo za dobrodošlicu gostima na Vaš forum.",
+                "abandoned_extensions_heading": "Napušteni dodaci",
+                "abandoned_extensions_text": "Flarum održava <a>listu napuštenih dodataka zajednice</a>. Kada se već instalirani dodatak prikaže na listi, biće označen u upravljačkom panelu.",
+                "abandoned_extensions_sync_button": "Proveri sada",
+                "abandoned_extensions_sync_success": "Lista napuštenih dodataka je ažurirana. Broj pronađenih instaliranih dodataka je {count}.",
+                "abandoned_extensions_sync_error": "Učitavanje liste napuštenih dodataka je neuspešno. Pokušajte kasnije.",
+                "abandoned_extensions_notify_admins_label": "Pošalji e-poštu adminima kada novi napušteni dodatak bude otkriven tokom nedeljne provere"
             },
             "create_user": {
                 "email_placeholder": "=> core.ref.email",
@@ -57,51 +57,51 @@
                 "submit_and_create_another_button": "Napravi i dodaj još jedan",
                 "submit_button": "Napravi korisnika",
                 "title": "Napravi novog korisnika",
-                "use_random_password": "Generiši nasumičnu šifru",
+                "use_random_password": "Generiši nasumičnu lozinku",
                 "username_placeholder": "=> core.ref.username"
             },
             "announcements": {
-                "comments_label": "",
-                "description": "",
-                "empty": "",
-                "load_error": "",
-                "about": "",
-                "hide": "",
-                "read_more": "",
-                "refresh": "",
-                "retry": "",
-                "show": "",
-                "title": "",
-                "view_all": ""
+                "comments_label": "{count, plural, one {# komentar} other {# komentar(a)}}",
+                "description": "Novosti i obaveštenja Flarum tima.",
+                "empty": "Obaveštenja nisu pronađena.",
+                "load_error": "Nije moguće učitati obaveštenja. Pokušajte kasnije.",
+                "about": "Novosti i obaveštenja preuzeti sa zvanične Flarum zajednica na discuss.flarum.org.",
+                "hide": "Sakrij obaveštenja",
+                "read_more": "Pročitaj više",
+                "refresh": "Osveži obaveštenja",
+                "retry": "Pokuštaj ponovo",
+                "show": "Prikaži obaveštenja",
+                "title": "Obaveštenja",
+                "view_all": "Pogledaj sve na discuss.flarum.org"
             },
             "dashboard": {
                 "clear_cache_button": "Obriši keš",
                 "description": "Pregled vašeg foruma.",
-                "info_button": "",
+                "info_button": "Informacije o sistemu",
                 "info_modal": {
-                    "title": "",
-                    "copy_button": "",
-                    "copy_success": "",
-                    "copy_error": ""
+                    "title": "Sistemske informacije",
+                    "copy_button": "Kopiraj u privremenu memoriju",
+                    "copy_success": "Sistemske informacije su kopirane u privremenoj memoriji",
+                    "copy_error": "Neuspešno kopiranje u privremenu memoriju"
                 },
                 "io_error_message": "Nije moguće pisati po disku. Proverite dozvole i probajte ponovo. Takođe, možete pokušati da izvršite operaciju iz komandne linije.",
                 "status": {
                     "headers": {
                         "scheduler-status": "Planer",
-                        "queue-driver": "Upravljački program za red",
-                        "session-driver": "Upravljački program za sesiju"
+                        "queue-driver": "Mehanizam za red",
+                        "session-driver": "Mehanizam za sesiju"
                     },
                     "scheduler": {
-                        "active": "Aktivno",
-                        "inactive": "Neaktivno",
-                        "never-run": "Nikad ne pokreći"
+                        "active": "Aktivan",
+                        "inactive": "Neaktivan",
+                        "never-run": "Nikad nije pokrenut"
                     }
                 },
                 "title": "Kontrolna tabla",
                 "tools_button": "Alati"
             },
             "debug-warning": {
-                "detail": "",
+                "detail": "Kada je režim za <code>otklanjanje grešaka</code> aktivan, Flarum će obnoviti njegove <code>Javascript</code> i <code>CSS</code> resurse pri svakom zahtevu, a takođe potencijalno može otkriti i druge informacije kao što su tajne baze podataka, promenjive okruženja itd.\n\nPreporučljivo je da onemogućite <code>režim za otklanjanje grešaka</code> u vašem config.php fajlu na aktivnom sajtu. Pogledajte <link>Flarum dokumentaciju</link> za više informacija.\n",
                 "label": "Režim za otklanjanje grešaka je uključen"
             },
             "edit_css": {
@@ -573,7 +573,7 @@
             }
         },
         "lib": {
-            "debug_button": "Debagiraj",
+            "debug_button": "Otklanjanje grešaka",
             "alert": {
                 "dismiss_a11y_label": "Odbaci upozorenje"
             },
