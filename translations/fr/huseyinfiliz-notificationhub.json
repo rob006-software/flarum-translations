@@ -9,11 +9,11 @@
                 "send_user": "Envoyer des notifications à des utilisateurs individuels"
             },
             "recipient_kinds": {
-                "user": "",
-                "group": ""
+                "user": "=> huseyinfiliz-notificationhub.forum.recipient_kinds.user",
+                "group": "=> huseyinfiliz-notificationhub.forum.recipient_kinds.group"
             },
             "modal_notification": {
-                "recipients_placeholder": ""
+                "recipients_placeholder": "=> huseyinfiliz-notificationhub.forum.modal_notification.recipients_placeholder"
             },
             "settings": {
                 "add_button": "Ajouter un type de notification",
@@ -32,11 +32,11 @@
                     "default_recipients": "Destinataires par défaut",
                     "sort_order": "Ordre de tri",
                     "active": "Actif",
-                    "color_invalid": "",
-                    "preview": "",
-                    "preview_placeholder": "",
-                    "permission_help": "",
-                    "permission_placeholder": ""
+                    "color_invalid": "La couleur doit être un code hexadécimal valide, p. ex. #ff0000 ou #f00.",
+                    "preview": "Prévisualiser",
+                    "preview_placeholder": "Nom du type de notification",
+                    "permission_help": "Sélectionnez les groupes de membres autorisés à envoyer cette notification. Si ce champ est laissé vide, tous les modérateurs/administrateurs autorisés pourront l'envoyer.",
+                    "permission_placeholder": "Saisissez un nom de groupe..."
                 },
                 "save": "Enregistrer",
                 "edit_notification_type": "Modifier le type de notification",
@@ -60,8 +60,8 @@
                 "notification_type_label": "Type de notification",
                 "no_notification_types": "Aucun type de notification active n'a été trouvé.",
                 "preview_title": "Prévisualisation de la notification",
-                "preview_message_placeholder": "Message de notification",
-                "preview_all_members": ""
+                "preview_message_placeholder": "Message de notification...",
+                "preview_all_members": "Tous les membres"
             },
             "recipient_kinds": {
                 "user": "Utilisateur",
@@ -73,16 +73,16 @@
             "user_ids_required": "Des identifiants d'utilisateur sont requis.",
             "subject_id_required": "Le type de notification est requis.",
             "no_valid_recipients": "Aucun destinataire valide n'a été trouvé.",
-            "name_required": "",
-            "invalid_url": "",
-            "name_too_long": "",
-            "message_too_long": "",
-            "url_too_long": "",
-            "invalid_url_scheme": "",
-            "sort_order_invalid": "",
-            "field_too_long": "",
-            "invalid_color": "",
-            "multiple_recipients_not_allowed": ""
+            "name_required": "Le nom du type de notification est requis.",
+            "invalid_url": "Protocole URL invalide détecté.",
+            "name_too_long": "Le nom ne doit pas dépasser 255 caractères.",
+            "message_too_long": "Le message ne doit pas dépasser 5 000 caractères.",
+            "url_too_long": "L'URL ne doit pas dépasser 2 048 caractères.",
+            "invalid_url_scheme": "Schéma URL invalide. Seuls les liens HTTP, HTTPS, « mailto », « tel » ou relatifs sont autorisés.",
+            "sort_order_invalid": "L'ordre de tri doit être un nombre non négatif.",
+            "field_too_long": "Ce champ est trop long.",
+            "invalid_color": "La couleur doit être un code hexadécimal valide (p. ex. #ff0000 ou #f00).",
+            "multiple_recipients_not_allowed": "Vous n'êtes pas autorisé à envoyer un message à plusieurs destinataires à la fois."
         }
     }
 }
