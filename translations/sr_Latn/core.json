@@ -101,7 +101,7 @@
                 "tools_button": "Alati"
             },
             "debug-warning": {
-                "detail": "Kada je režim za <code>otklanjanje grešaka</code> aktivan, Flarum će obnoviti njegove <code>Javascript</code> i <code>CSS</code> resurse pri svakom zahtevu, a takođe potencijalno može otkriti i druge informacije kao što su tajne baze podataka, promenjive okruženja itd.\n\nPreporučljivo je da onemogućite <code>režim za otklanjanje grešaka</code> u vašem config.php fajlu na aktivnom sajtu. Pogledajte <link>Flarum dokumentaciju</link> za više informacija.\n",
+                "detail": "Kada je režim za <code>otklanjanje grešaka</code> aktivan, Flarum će obnoviti njegove <code>Javascript</code> i <code>CSS</code> resurse pri svakom zahtevu, a takođe potencijalno može otkriti i druge informacije kao što su tajne baze podataka, promenjive okruženja itd.\n\nPreporučljivo je da onemogućite <code>režim za otklanjanje grešaka</code> u vašoj <code>config.php</code> datoteci na aktivnom sajtu. Pogledajte <link>Flarum dokumentaciju</link> za više informacija.\n",
                 "label": "Režim za otklanjanje grešaka je uključen"
             },
             "edit_css": {
@@ -116,8 +116,8 @@
             },
             "edit_group": {
                 "color_label": "=> core.ref.color",
-                "delete_button": "Ukloni grupu",
-                "delete_confirmation": "Da li ste sigurni da želite da uklonite ovu grupu? Članovi grupe NEĆE biti uklonjeni.",
+                "delete_button": "Izbriši grupu",
+                "delete_confirmation": "Da li ste sigurni da želite da izbrišete ovu grupu? Članovi grupe NEĆE biti izbrisani.",
                 "hide_label": "Sakrij na forumu",
                 "icon_label": "=> core.ref.icon",
                 "icon_text": "=> core.ref.icon_text",
@@ -134,12 +134,12 @@
             },
             "email": {
                 "addresses_heading": "Adrese",
-                "description": "Konfigurišite upravljački program, postavke i adrese koje će Vaš forum koristiti za slanje email poruka.",
-                "driver_heading": "Izaberite upravljački program",
-                "driver_label": "Drajver",
-                "from_label": "Email",
+                "description": "Podesite mehanizam, podešavanja i adrese koje će Vaš forum koristiti za slanje e-pošte.",
+                "driver_heading": "Izaberite mehanizam",
+                "driver_label": "Mehanizam",
+                "from_label": "Pošiljalac",
                 "mail_encryption_label": "Enkripcija",
-                "mail_host_label": "Host",
+                "mail_host_label": "Server",
                 "mail_mailgun_domain_label": "Domen",
                 "mail_mailgun_region_label": "Region",
                 "mail_mailgun_secret_label": "Tajni ključ",
@@ -147,49 +147,49 @@
                 "mail_port_label": "Port",
                 "mail_username_label": "=> core.ref.username",
                 "mailgun_heading": "Mailgun podešavanja",
-                "not_sending_message": "Flarum trenutno ne može da pošalje email poruku. To može biti zbog izabranog upravljačkog programa ili greške u konfiguraciji tog programa.",
+                "not_sending_message": "Flarum trenutno ne može da pošalje e-poštu. To može biti zbog izabranog mehanizma ili greške u podešavanjima istog.",
                 "send_test_mail_button": "Pošalji",
-                "send_test_mail_heading": "Pošaljite probni email",
-                "send_test_mail_success": "Probni email je uspešno poslat!",
-                "send_test_mail_text": "Ovo će poslati probni email koristeći gornju konfiguraciju na Vašu email adresu, {email}.",
+                "send_test_mail_heading": "Pošalji probnu e-poštu",
+                "send_test_mail_success": "Probna e-pošta je uspešno poslata!",
+                "send_test_mail_text": "Ovo će poslati probnu e-poštu koristeći gornja podešavanja na Vašu e-poštu, {email}.",
                 "smtp_heading": "SMTP podešavanja",
                 "title": "=> core.ref.email"
             },
             "extension": {
-                "abandoned_no_replacement": "",
-                "abandoned_with_replacement": "",
-                "configure_scopes": "Konfigurišite opsege",
-                "confirm_purge": "Uklanjanje će izbrisati sve unose baze podataka i sredstva u vezi sa ekstenzijom. Neće deinstalirati ekstenziju; to se mora uraditi preko Composera. Da li ste sigurni da želite da nastavite?",
-                "deprecated": "",
+                "abandoned_no_replacement": "Ovaj dodatak više nije održavan od strane autora i možda neće primati ažuriranja.",
+                "abandoned_with_replacement": "Ovaj dodatak je zamenjen dodatkom {replacement}. Razmotrite prelazak na zamenski paket.",
+                "configure_scopes": "Podesite opsege",
+                "confirm_purge": "Čišćenje će ukloniti sve unose baze podataka i resurse koji su povezani sa dodatkom. Neće deinstalirati dodatak; to se mora uraditi preko Composera. Da li ste sigurni da želite da nastavite?",
+                "deprecated": "Zastarelo",
                 "disabled": "Onemogućeno",
-                "enable_to_see": "Omogućite ekstenziju za pregled i promenu podešavanja.",
+                "enable_to_see": "Omogućite dodatak za pregled i promenu podešavanja.",
                 "enabled": "Omogućeno",
                 "info_links": {
-                    "discuss": "Raspravite",
+                    "discuss": "Rasprava",
                     "documentation": "Dokumentacija",
                     "donate": "Doniraj",
                     "source": "Izvor",
                     "support": "Podrška",
-                    "website": "Veb stranica"
+                    "website": "Veb sajt"
                 },
                 "no_permissions": "Ovaj dodatak nema dozvole.",
                 "no_settings": "Ovaj dodatak nema podešavanja.",
                 "open_modal": "Otvori podešavanja",
                 "permissions_title": "Dozvole",
-                "purge_button": "Ukloni",
+                "purge_button": "Očisti",
                 "readme": {
-                    "button_label": "Pročitaj me",
-                    "no_readme": "Ovaj dodatak nema pročitaj me datoteku",
+                    "button_label": "README",
+                    "no_readme": "Ovaj dodatak nema README datoteku",
                     "title": "{extName} dokumentacija"
                 },
-                "replaced": ""
+                "replaced": "Zamenjeno"
             },
             "header": {
-                "get_help": "Traži pomoć",
+                "get_help": "Pomoć",
                 "log_out_button": "=> core.ref.log_out"
             },
             "loading": {
-                "title": "Sačekajte.."
+                "title": "Sačekajte..."
             },
             "nav": {
                 "appearance_button": "=> core.admin.appearance.title",
@@ -199,12 +199,12 @@
                 "categories": {
                     "authentication": "Potvrda identiteta",
                     "core": "Osnovna podešavanja",
-                    "discussion": "Diskusije",
-                    "feature": "Mogućnosti",
+                    "discussion": "Diskusija",
+                    "feature": "Karakteristike",
                     "formatting": "Formatiranje",
-                    "forum-widget": "",
+                    "forum-widget": "Forum vidžeti",
                     "language": "Jezici",
-                    "moderation": "Uređivanje",
+                    "moderation": "",
                     "other": "Drugi dodaci",
                     "theme": "Teme"
                 },
@@ -219,8 +219,8 @@
                 "search_placeholder": "Pretraži dodatke"
             },
             "permissions": {
-                "allow_hide_own_posts_label": "Dozvoli brisanje sopstvenih poruka",
-                "allow_post_editing_label": "Dozvoli izmenu odgovora",
+                "allow_hide_own_posts_label": "Dozvoli brisanje sopstvenih odgovora",
+                "allow_post_editing_label": "Dozvoli uređivanje odgovora",
                 "allow_renaming_label": "Dozvoli preimenovanje",
                 "create_access_token_label": "Napravi token za pristup",
                 "create_heading": "Kreiranje",
