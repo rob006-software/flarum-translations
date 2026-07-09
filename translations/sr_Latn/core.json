@@ -4,19 +4,19 @@
             "appearance": {
                 "colored_header_label": "Zaglavlje u boji",
                 "colors_heading": "Boje",
-                "colors_primary_label": "Osnovna boja",
-                "colors_secondary_label": "Sporedna boja",
+                "colors_primary_label": "Primarna boja",
+                "colors_secondary_label": "Sekundarna boja",
                 "colors_text": "Izaberite dve boje za temu Vašeg foruma. Prva će se koristiti kao istaknuta boja, dok će se druga koristiti za oblikovanje elemenata pozadine.",
                 "custom_footer_heading": "Prilagođeno podnožje",
                 "custom_footer_text": "=> core.ref.custom_footer_text",
                 "custom_header_heading": "Prilagođeno zaglavlje",
                 "custom_header_text": "=> core.ref.custom_header_text",
-                "custom_styles_cannot_use_less_features": "",
+                "custom_styles_cannot_use_less_features": "@import i data-uri funkcije nisu dozvoljene u prilagođenom LESS kodu.",
                 "custom_styles_heading": "Prilagođeni stilovi",
-                "custom_styles_text": "Prilagodite izgled svog foruma dodavanjem sopstvenog Less/CSS koda koji će se primeniti povrh zadatih stilova Flaruma.",
-                "dark_mode_label": "Noćni režim",
+                "custom_styles_text": "Prilagodite izgled svog foruma dodavanjem sopstvenog LESS/CSS koda koji će se primeniti povrh uobičajenih stilova Flaruma.",
+                "dark_mode_label": "Tamni režim",
                 "description": "Prilagodite boje, logotipe i druge promenljive na forumu.",
-                "edit_css_button": "Izmenite prilagođeni CSS",
+                "edit_css_button": "Izmeni prilagođeni CSS",
                 "edit_footer_button": "=> core.ref.custom_footer_title",
                 "edit_header_button": "=> core.ref.custom_header_title",
                 "enter_hex_message": "Unesite heksadecimalni kod boje.",
@@ -29,20 +29,20 @@
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
                 "default_language_heading": "Podrazumevani jezik",
-                "description": "Postavite naslov foruma, jezik i druga osnovna podešavanja.",
+                "description": "Podesite naslov foruma, jezik i druga osnovna podešavanja.",
                 "display_name_heading": "Korisničko ime za prikaz",
                 "display_name_text": "Izaberite upravljački program koji treba da se koristi za prikazana imena korisnika. Podrazumevano je prikazano korisničko ime.",
                 "forum_description_heading": "Opis foruma",
                 "forum_description_text": "Ukratko opišite Vašu zajednicu. Ovo će biti prikazano u meta podacima i u pretraživačima.",
-                "forum_title_heading": "Naziv foruma",
+                "forum_title_heading": "Naslov foruma",
                 "home_page_heading": "Početna stranica",
                 "home_page_text": "Izaberite stranicu koju će korisnici prvo videti kada posete Vaš forum.",
                 "show_language_selector_label": "Prikaži opciju za odabir jezika",
                 "slug_driver_heading": "Slug Driver: {model}",
                 "slug_driver_text": "Izaberite upravljački program koji će se koristiti za spajanje ovog modela.",
                 "title": "Osnovno",
-                "welcome_banner_heading": "Baner dobrodošlice",
-                "welcome_banner_text": "Konfigurišite tekst koji se prikazuje u natpisu na stranici Sve diskusije. Koristite ovo za dobrodošlicu gostima na Vaš forum.",
+                "welcome_banner_heading": "Natpis dobrodošlice",
+                "welcome_banner_text": "Podesite tekst koji se prikazuje u natpisu na stranici Sve diskusije. Koristite ovo za dobrodošlicu gostima na Vaš forum.",
                 "abandoned_extensions_heading": "",
                 "abandoned_extensions_text": "",
                 "abandoned_extensions_sync_button": "",
@@ -52,11 +52,11 @@
             },
             "create_user": {
                 "email_placeholder": "=> core.ref.email",
-                "email_confirmed_label": "Korisnik mora da potvrdi ovaj imejl",
+                "email_confirmed_label": "Zahtevaj da korisnik potvrdi ovu e-poštu",
                 "password_placeholder": "=> core.ref.password",
                 "submit_and_create_another_button": "Napravi i dodaj još jedan",
                 "submit_button": "Napravi korisnika",
-                "title": "Novi korisnik",
+                "title": "Napravi novog korisnika",
                 "use_random_password": "Generiši nasumičnu šifru",
                 "username_placeholder": "=> core.ref.username"
             },
@@ -88,8 +88,8 @@
                 "status": {
                     "headers": {
                         "scheduler-status": "Planer",
-                        "queue-driver": "Mehanizam za red",
-                        "session-driver": "Mehanizam za sesiju"
+                        "queue-driver": "Upravljački program za red",
+                        "session-driver": "Upravljački program za sesiju"
                     },
                     "scheduler": {
                         "active": "Aktivno",
@@ -102,12 +102,12 @@
             },
             "debug-warning": {
                 "detail": "",
-                "label": "Debag mod je uključen"
+                "label": "Režim za otklanjanje grešaka je uključen"
             },
             "edit_css": {
-                "customize_text": "Prilagodite izgled svog foruma dodavanjem sopstvenog Less/CSS koda koji će se primeniti povrh Flarumovih <a>podrazumevanih stilova</a>.",
+                "customize_text": "Prilagodite izgled svog foruma dodavanjem sopstvenog LESS/CSS koda koji će se primeniti povrh Flarumovih <a>podrazumevanih stilova</a>.",
                 "submit_button": "=> core.ref.save_changes",
-                "title": "Izmenite prilagođeni CSS"
+                "title": "Uredite prilagođeni CSS"
             },
             "edit_footer": {
                 "customize_text": "=> core.ref.custom_footer_text",
@@ -116,8 +116,8 @@
             },
             "edit_group": {
                 "color_label": "=> core.ref.color",
-                "delete_button": "Izbriši grupu",
-                "delete_confirmation": "Da li ste sigurni da želite da izbrišete ovu grupu? Članovi grupe NEĆE biti izbrisani.",
+                "delete_button": "Ukloni grupu",
+                "delete_confirmation": "Da li ste sigurni da želite da uklonite ovu grupu? Članovi grupe NEĆE biti uklonjeni.",
                 "hide_label": "Sakrij na forumu",
                 "icon_label": "=> core.ref.icon",
                 "icon_text": "=> core.ref.icon_text",
