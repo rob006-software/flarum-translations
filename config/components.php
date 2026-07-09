@@ -899,6 +899,12 @@ return [
 	'walsgit-recycle-bin' => [
 		'tag' => 'https://raw.githubusercontent.com/WalsGit/recycle-bin/2.0.5/locale/en.yml',
 	],
+	'yannisme-melon' => [
+		'tag' => 'https://raw.githubusercontent.com/yannisme/melon/0.1.3/locale/en.yml',
+		'__builtInLanguages' => [
+			'zh_Hans',
+		],
+	],
 	'yippy-auth-ldap' => [
 		'tag' => 'https://raw.githubusercontent.com/Yippy/flarum-ext-auth-ldap/v2.0.2/locale/en.yml',
 	],
