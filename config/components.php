@@ -1885,6 +1885,12 @@ return [
 	'yippy-tag-with-themes' => [
 		'tag' => 'https://raw.githubusercontent.com/Yippy/flarum-tag-with-themes/v1.0.16/locale/en.yml',
 	],
+	'yuyuko233-vfxskill-daily-check-in-streak' => [
+		'tag' => 'https://raw.githubusercontent.com/popoopendoor/vfxskill-daily-check-in-streak/v1.0.0/locale/en.yml',
+		'__builtInLanguages' => [
+			'zh_Hans',
+		],
+	],
 	'zhihe-primary-posts' => [
 		'tag' => 'https://raw.githubusercontent.com/echolocked/zhihe-primary-posts/v1.0.4/locale/en.yml',
 		'__builtInLanguages' => [
