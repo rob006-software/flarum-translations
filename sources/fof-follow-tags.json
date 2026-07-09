@@ -44,6 +44,12 @@
                 "new_post_text": "{username} posted",
                 "new_discussion_tag_text": "{username} changed the tag"
             },
+            "prompt": {
+                "choose_button": "Choose tags to follow",
+                "modal_title": "Choose tags to follow",
+                "later_button": "Remind me later",
+                "continue_button": "Continue to forum"
+            },
             "user": {
                 "settings": {
                     "heading": "Follow Tags",
@@ -55,7 +61,24 @@
             "settings": {
                 "following_page_default_label": "Default Following Page Filtering",
                 "following_none_label": "=> fof-follow-tags.ref.filtering_options.none",
-                "following_tags_label": "=> fof-follow-tags.ref.filtering_options.tags"
+                "following_tags_label": "=> fof-follow-tags.ref.filtering_options.tags",
+                "prompt_new_users_label": "Prompt new users to choose tags to follow",
+                "prompt_new_users_help": "Users who have not confirmed their choice yet will be shown a modal asking them to follow tags. The modal will keep coming back on each visit until they press \"Continue to forum\".\n",
+                "prompt_button_on_following_page_label": "Show a \"Choose tags to follow\" button on the Following page",
+                "prompt_tag_strategy_label": "Tags to offer in the prompt",
+                "prompt_tag_strategy_options": {
+                    "primary": "First-level primary tags",
+                    "primaryAndChildren": "All primary tags of any level",
+                    "primaryAndSecondary": "First-level primary tags and secondary tags",
+                    "secondary": "Only secondary tags",
+                    "all": "All tags",
+                    "list": "Tags selected below"
+                },
+                "prompt_tag_ids_label": "Tags to offer",
+                "all_discussions_on_following_page_for_guests_label": "Show all discussions on the Following page for guests"
+            },
+            "basics": {
+                "following_label": "=> flarum-subscriptions.forum.index.following_link"
             }
         },
         "email": {
