@@ -565,6 +565,9 @@ return [
 	'flectar-turnstile' => [
 		'tag' => 'https://raw.githubusercontent.com/flectar/flarum-ext-turnstile/1.1.0/locale/en.yml',
 	],
+	'floxum-shrinkearn' => [
+		'tag' => 'https://gitlab.com/floxum/commissions/flarum-ext-shrinkearn/raw/1.3/resources/locale/en.yml',
+	],
 	'fof-amazon-affiliation' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/amazon-affiliation/1.1.1/resources/locale/en.yml',
 	],
