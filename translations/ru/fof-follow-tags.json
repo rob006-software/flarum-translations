@@ -44,6 +44,12 @@
                 "new_post_text": "{username} ответил(а)",
                 "new_discussion_tag_text": "{username} изменил(а) тег"
             },
+            "prompt": {
+                "choose_button": "",
+                "modal_title": "",
+                "later_button": "",
+                "continue_button": ""
+            },
             "user": {
                 "settings": {
                     "heading": "Подписка на теги",
@@ -55,7 +61,24 @@
             "settings": {
                 "following_page_default_label": "Фильтр страницы подписок по умолчанию",
                 "following_none_label": "=> fof-follow-tags.ref.filtering_options.none",
-                "following_tags_label": "=> fof-follow-tags.ref.filtering_options.tags"
+                "following_tags_label": "=> fof-follow-tags.ref.filtering_options.tags",
+                "prompt_new_users_label": "",
+                "prompt_new_users_help": "",
+                "prompt_button_on_following_page_label": "",
+                "prompt_tag_strategy_label": "",
+                "prompt_tag_strategy_options": {
+                    "primary": "",
+                    "primaryAndChildren": "",
+                    "primaryAndSecondary": "",
+                    "secondary": "",
+                    "all": "",
+                    "list": ""
+                },
+                "prompt_tag_ids_label": "",
+                "all_discussions_on_following_page_for_guests_label": ""
+            },
+            "basics": {
+                "following_label": ""
             }
         },
         "email": {

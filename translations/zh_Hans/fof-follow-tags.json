@@ -44,6 +44,12 @@
                 "new_post_text": "{username} 发布了新回复",
                 "new_discussion_tag_text": "{username} 修改了标签"
             },
+            "prompt": {
+                "choose_button": "",
+                "modal_title": "",
+                "later_button": "",
+                "continue_button": ""
+            },
             "user": {
                 "settings": {
                     "heading": "关注标签",
@@ -55,7 +61,24 @@
             "settings": {
                 "following_page_default_label": "「我的关注」默认内容",
                 "following_none_label": "=> fof-follow-tags.ref.filtering_options.none",
-                "following_tags_label": "=> fof-follow-tags.ref.filtering_options.tags"
+                "following_tags_label": "=> fof-follow-tags.ref.filtering_options.tags",
+                "prompt_new_users_label": "",
+                "prompt_new_users_help": "",
+                "prompt_button_on_following_page_label": "",
+                "prompt_tag_strategy_label": "",
+                "prompt_tag_strategy_options": {
+                    "primary": "",
+                    "primaryAndChildren": "",
+                    "primaryAndSecondary": "",
+                    "secondary": "",
+                    "all": "",
+                    "list": ""
+                },
+                "prompt_tag_ids_label": "",
+                "all_discussions_on_following_page_for_guests_label": ""
+            },
+            "basics": {
+                "following_label": ""
             }
         },
         "email": {
