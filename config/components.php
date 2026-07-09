@@ -306,7 +306,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/drafts/2.0.0-beta.7/resources/locale/en.yml',
 	],
 	'fof-follow-tags' => [
-		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/follow-tags/2.0.0-beta.6/resources/locale/en.yml',
+		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/follow-tags/2.0.0-beta.7/resources/locale/en.yml',
 	],
 	'fof-formatting' => [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/formatting/2.0.0-beta.2/resources/locale/en.yml',
