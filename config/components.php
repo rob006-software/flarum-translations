@@ -905,5 +905,8 @@ return [
 	'yippy-tag-with-themes' => [
 		'tag' => 'https://raw.githubusercontent.com/Yippy/flarum-tag-with-themes/v2.0.3/locale/en.yml',
 	],
+	'zephyrisle-latex-pro' => [
+		'tag' => 'https://raw.githubusercontent.com/Zephyr-Isle/flarum-latex-pro/v2.0.0/locale/en.yml',
+	],
 	/* extensions list end */
 ];
