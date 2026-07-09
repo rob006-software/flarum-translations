@@ -932,7 +932,7 @@ return [
 		],
 	],
 	'huoxin-auto-image-dimensions' => [
-		'beta' => 'https://raw.githubusercontent.com/huoxin233/flarum-ext-auto-image-dimensions/1.0.0-beta.3/locale/en.yml',
+		'beta' => 'https://raw.githubusercontent.com/huoxin233/flarum-ext-auto-image-dimensions/1.0.0-beta.4/locale/en.yml',
 		'__builtInLanguages' => [
 			'zh_Hans',
 		],
