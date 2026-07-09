@@ -9,11 +9,11 @@
                 "send_user": "Отправлять уведомления отдельным пользователям"
             },
             "recipient_kinds": {
-                "user": "",
-                "group": ""
+                "user": "huseyinfiliz-notificationhub.forum.recipient_kinds.user",
+                "group": "huseyinfiliz-notificationhub.forum.recipient_kinds.group"
             },
             "modal_notification": {
-                "recipients_placeholder": ""
+                "recipients_placeholder": "huseyinfiliz-notificationhub.forum.modal_notification.recipients_placeholder"
             },
             "settings": {
                 "add_button": "Добавить тип уведомления",
@@ -32,11 +32,11 @@
                     "default_recipients": "Получатели по умолчанию",
                     "sort_order": "Порядок сортировки",
                     "active": "Активно",
-                    "color_invalid": "",
-                    "preview": "",
-                    "preview_placeholder": "",
-                    "permission_help": "",
-                    "permission_placeholder": ""
+                    "color_invalid": "Цвет должен быть корректным hex-кодом, например #ff0000 или #f00.",
+                    "preview": "Предпросмотр",
+                    "preview_placeholder": "Название типа уведомления",
+                    "permission_help": "Выберите группы, которым разрешено отправлять это уведомление. Если не выбрать, его смогут отправлять все модераторы и администраторы.",
+                    "permission_placeholder": "Введите название группы..."
                 },
                 "save": "Сохранить",
                 "edit_notification_type": "Редактировать",
@@ -61,7 +61,7 @@
                 "no_notification_types": "Нет активных типов уведомлений.",
                 "preview_title": "Превью",
                 "preview_message_placeholder": "Сообщение...",
-                "preview_all_members": ""
+                "preview_all_members": "Все участники"
             },
             "recipient_kinds": {
                 "user": "Пользователь",
@@ -73,16 +73,16 @@
             "user_ids_required": "Укажите ID пользователей.",
             "subject_id_required": "Укажите тип уведомления.",
             "no_valid_recipients": "Нет подходящих получателей.",
-            "name_required": "",
-            "invalid_url": "",
-            "name_too_long": "",
-            "message_too_long": "",
-            "url_too_long": "",
-            "invalid_url_scheme": "",
-            "sort_order_invalid": "",
-            "field_too_long": "",
-            "invalid_color": "",
-            "multiple_recipients_not_allowed": ""
+            "name_required": "Требуется название типа уведомления.",
+            "invalid_url": "Обнаружен некорректный протокол URL.",
+            "name_too_long": "Название не может быть длиннее 255 символов.",
+            "message_too_long": "Сообщение не может быть длиннее 5000 символов.",
+            "url_too_long": "URL не может быть длиннее 2048 символов.",
+            "invalid_url_scheme": "Некорректная схема URL. Разрешены только HTTP, HTTPS, mailto, tel или относительные ссылки.",
+            "sort_order_invalid": "Порядок сортировки должен быть неотрицательным числом.",
+            "field_too_long": "Это поле слишком длинное.",
+            "invalid_color": "Цвет должен быть корректным hex-кодом — например #ff0000 или #f00.",
+            "multiple_recipients_not_allowed": "У вас нет прав отправлять уведомления сразу нескольким получателям."
         }
     }
 }
