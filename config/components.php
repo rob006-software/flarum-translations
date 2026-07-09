@@ -1664,6 +1664,12 @@ return [
 			'vi',
 		],
 	],
+	'sonsuzus-engagement-money' => [
+		'tag' => 'https://raw.githubusercontent.com/sonsuzus/flarum-ext-engagement-money/v1.3.1/locale/en.yml',
+		'__builtInLanguages' => [
+			'tr',
+		],
+	],
 	'spookygames-auth-keycloak' => [
 		'tag' => 'https://raw.githubusercontent.com/spookygames/flarum-ext-auth-keycloak/1.8.0.1/locale/en.yml',
 	],
