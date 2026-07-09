@@ -182,6 +182,9 @@ return [
 	'ernestdefoe-typesense' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/typesense/v0.2.0/locale/en.yml',
 	],
+	'ernestdefoe-espn-cfb-ticker' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/espn-cfb-ticker/v2.0.7/locale/en.yml',
+	],
 	'flarum-akismet' => [
 		'beta' => 'https://raw.githubusercontent.com/flarum/akismet/v2.0.0-rc.5/locale/en.yml',
 	],
