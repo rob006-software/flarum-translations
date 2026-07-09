@@ -899,6 +899,9 @@ return [
 	'walsgit-recycle-bin' => [
 		'tag' => 'https://raw.githubusercontent.com/WalsGit/recycle-bin/2.0.5/locale/en.yml',
 	],
+	'wyatts97-ad-management' => [
+		'tag' => 'https://raw.githubusercontent.com/wyatts97/flarum-ext-ad-management/v1.6.2/locale/en.yml',
+	],
 	'yippy-auth-ldap' => [
 		'tag' => 'https://raw.githubusercontent.com/Yippy/flarum-ext-auth-ldap/v2.0.2/locale/en.yml',
 	],
