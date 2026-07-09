@@ -170,6 +170,9 @@ return [
 	'ernestdefoe-seo' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/seo/2.0.12/locale/en.yml',
 	],
+	'ernestdefoe-recruiting' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/recruiting/3.1.1/locale/en.yml',
+	],
 	'ernestdefoe-social-groups' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/social-groups/v2.4.11/locale/en.yml',
 	],
