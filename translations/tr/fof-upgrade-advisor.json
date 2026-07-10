@@ -2,84 +2,84 @@
     "fof-upgrade-advisor": {
         "admin": {
             "overall": {
-                "subtitle": "",
-                "pass": "",
-                "warning": "",
-                "fail": ""
+                "subtitle": "Flarum {version} sürümüne yükseltme hazırlığı.",
+                "pass": "Forumunuz Flarum {version} sürümü için hazır görünüyor",
+                "warning": "Forumunuz Flarum {version} sürümü için neredeyse hazır görünüyor",
+                "fail": "Forumunuz henüz Flarum {version} sürümü için hazır değil"
             },
             "categories": {
-                "environment": "",
-                "database": "",
-                "extensions": ""
+                "environment": "Sunucu ortamı",
+                "database": "Veritabanı",
+                "extensions": "Uzantılar"
             },
             "checks": {
                 "php-version": {
-                    "title": "",
-                    "pass": "",
-                    "warning": "",
-                    "fail": ""
+                    "title": "PHP sürümü",
+                    "pass": "PHP {current} ile çalıştırılıyor.",
+                    "warning": "PHP sürümü belirlenemedi.",
+                    "fail": "PHP {current} sürümü kurulu, ancak {required} veya daha yeni bir sürüm gerekiyor."
                 },
                 "database-version": {
-                    "title": "",
-                    "pass": "",
-                    "warning_unknown": "",
-                    "warning_below_recommended": "",
-                    "fail": ""
+                    "title": "Veritabanı sürümü",
+                    "pass": "{current} ile çalıştırılıyor.",
+                    "warning_unknown": "Veritabanı sunucusu sürümü belirlenemedi.",
+                    "warning_below_recommended": "{current} çalışıyor, ancak en iyi deneyim için {recommended} veya daha yeni bir sürüm önerilir.",
+                    "fail": "{current} sürümü kurulu, ancak Flarum 2.0 için en az {required} sürümü gerekiyor."
                 },
                 "extension-compatibility": {
-                    "title": "",
-                    "pass": "",
-                    "warning": "",
-                    "fail": ""
+                    "title": "Uzantı uyumluluğu",
+                    "pass": "Etkin durumdaki tüm ({current}) uzantılar hazır.",
+                    "warning": "Etkin durumdaki {current} uzantı kontrol edilemedi, bunlar premium uzantılar olabilir veya özel depolardan alınmış olabilir. Depolar sekmesinden erişim ekleyin.",
+                    "fail": "Etkin durumdaki {current} uzantı için yükseltme öncesinde işlem yapılması gerekiyor."
                 }
             },
             "extensions": {
-                "name": "",
-                "installed": "",
-                "status": "",
-                "compatible": "",
-                "incompatible": "",
-                "unknown": "",
+                "name": "Uzantı",
+                "installed": "Kurulu",
+                "status": "Durum",
+                "compatible": "Uyumlu ({version})",
+                "incompatible": "Uyumlu sürüm yok (en son {version})",
+                "unknown": "Bulunamadı, premium veya özel mi? Depo erişimini yapılandırın",
                 "contact": {
-                    "label": "",
-                    "forum": "",
-                    "issues": "",
-                    "source": ""
+                    "label": "2.0 planları hakkında sorun:",
+                    "forum": "Destek tartışması",
+                    "issues": "Sorun Kayıtları",
+                    "source": "Kaynak"
                 },
-                "superseded_into_core": "",
-                "superseded_replaced": "",
-                "superseded_self": "",
-                "abandoned": "",
-                "abandoned_replacement": "",
-                "abandoned_replacement_ready": "",
-                "abandoned_replacement_not_ready": ""
+                "superseded_into_core": "Çekirdeğe dahil edildi, kaldırın",
+                "superseded_replaced": "Yükseltmeden önce kaldırın, yükseltme tamamlandığında {replacement} uzantısını kurun",
+                "superseded_self": "Son yükseltme adımı olarak bu uzantıyı kaldırın",
+                "abandoned": "Terk edilmiş, önerilen bir alternatifi yok",
+                "abandoned_replacement": "Terk edilmiş, yerini {replacement} aldı",
+                "abandoned_replacement_ready": "Terk edilmiş, 2.0 sürümünde çalışan {replacement} uzantısına geçin ✓",
+                "abandoned_replacement_not_ready": "Terk edilmiş, önerilen {replacement} uzantısı henüz 2.0'a hazır değil"
             },
             "tabs": {
-                "report": "",
-                "repositories": ""
+                "report": "Hazırlık raporu",
+                "repositories": "Depolar"
             },
             "repositories": {
-                "help": "",
-                "empty": "",
-                "add_floxum": "",
-                "add_composer": "",
-                "type_floxum": "",
-                "type_composer": "",
-                "url": "",
-                "username": "",
-                "token": "",
-                "remove": "",
-                "test": "",
-                "test_ok": "",
-                "test_fail_auth": "",
-                "test_fail_unreachable": "",
-                "test_fail_invalid": ""
+                "help": "Bu uzantının herkese açık Packagist'te bulunmayan uzantıları kontrol edebilmesi için özel veya pazar yeri Composer depolarını ekleyin. Yalnızca bir uzantı Packagist'te bulunamadığında kullanılır.\n",
+                "empty": "Yapılandırılmış ek depo yok.",
+                "add_floxum": "Floxum'u ekle",
+                "add_composer": "Depo ekle",
+                "type_floxum": "Floxum",
+                "type_composer": "Private Packagist / Özel",
+                "url": "Depo bağlantısı",
+                "username": "Kullanıcı adı",
+                "token": "Jeton",
+                "remove": "Depoyu kaldır",
+                "test": "Bağlantıyı test et",
+                "test_ok": "Bağlantı kuruldu",
+                "test_fail_auth": "Kimlik doğrulama başarısız, jetonu kontrol edin",
+                "test_fail_unreachable": "Depoya ulaşılamadı",
+                "test_fail_invalid": "Geçersiz yanıt, bağlantıyı kontrol edin"
             },
             "actions": {
-                "recheck": ""
+                "recheck": "Kontrolleri yeniden çalıştır"
             },
             "errors": {
-                "load_failed": ""
+                "load_failed": "Hazırlık kontrolleri çalıştırılamadı. Lütfen tekrar deneyin."
             }
         }
     }
