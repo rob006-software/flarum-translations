@@ -2,19 +2,19 @@
     "huseyinfiliz-simple-dark-mode": {
         "admin": {
             "settings": {
-                "always_show_header_toggle_label": "",
-                "always_show_header_toggle_help": "",
-                "solid_icon_label": "",
-                "solid_icon_help": ""
+                "always_show_header_toggle_label": "Toujours afficher le bouton de changement de thème dans l'en-tête du forum",
+                "always_show_header_toggle_help": "Par défaut, le bouton de l'en-tête s'affiche uniquement pour les invités. Activez cette option pour qu'il s'affiche également pour les utilisateurs connectés (ces derniers disposent toujours de ce bouton dans leur menu utilisateur, de toute façon).",
+                "solid_icon_label": "Afficher l'icône du thème dans le style solide",
+                "solid_icon_help": "Utilise des icônes Font Awesome solides à la place du style standard (contour) pour le bouton de sélection du thème."
             }
         },
         "forum": {
             "header": {
-                "toggle_tooltip": ""
+                "toggle_tooltip": "Basculer le thème"
             },
             "session": {
-                "dark_mode": "",
-                "light_mode": ""
+                "dark_mode": "Mode sombre",
+                "light_mode": "Mode clair"
             }
         }
     }
