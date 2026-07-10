@@ -3,19 +3,19 @@
         "admin": {
             "settings": {
                 "decimal_places": {
-                    "label": "",
-                    "help": ""
+                    "label": "Ondalık Basamak Sayısı",
+                    "help": "Büyük sayılar için gösterilecek ondalık basamak sayısı (0-2)."
                 }
             }
         },
         "forum": {
             "widget": {
                 "stats": {
-                    "comment_post_count": "",
-                    "discussion_count": "",
-                    "user_count": ""
+                    "comment_post_count": "Gönderiler",
+                    "discussion_count": "Tartışmalar",
+                    "user_count": "Kullanıcılar"
                 },
-                "title": ""
+                "title": "Forum İstatistikleri"
             }
         }
     }
