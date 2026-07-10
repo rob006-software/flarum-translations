@@ -2,42 +2,42 @@
     "fof-signature": {
         "forum": {
             "buttons": {
-                "signature": "",
-                "save": "",
-                "edit": ""
+                "signature": "İmza",
+                "save": "İmzayı Kaydet",
+                "edit": "İmzayı Düzenle"
             },
             "errors": {
-                "max_char_limit_exceed": "",
-                "max_image_count_exceed": "",
-                "save_failed": ""
+                "max_char_limit_exceed": "Maksimum karakter sınırı aşıldı.",
+                "max_image_count_exceed": "Maksimum görsel sayısı aşıldı.",
+                "save_failed": "İmzanız kaydedilirken bir hata oluştu."
             },
             "editor": {
-                "placeholder": ""
+                "placeholder": "İmzanızı buradan düzenleyin"
             },
             "settings": {
-                "heading": ""
+                "heading": "İmza"
             },
             "profile": {
-                "click": ""
+                "click": "İmzanızı yazmak için tıklayın"
             }
         },
         "admin": {
             "permissions": {
-                "edit_signature_others": "",
-                "allow_signature": ""
+                "edit_signature_others": "Diğer kullanıcıların imzalarını düzenleyebilir",
+                "allow_signature": "İmza kullanabilir"
             },
             "settings": {
                 "maximum_image_count": {
-                    "description": "",
-                    "help": ""
+                    "description": "Maksimum eklenebilecek görsel sayısı.",
+                    "help": "Kullanıcı imzasındaki maksimum görsel sayısını aştığında, görsel sayısı sınıra uygun hale getirilene kadar kaydetmesi engellenecektir."
                 },
                 "maximum_char_limit": {
-                    "description": "",
-                    "help": ""
+                    "description": "İmzanın maksimum karakter sınırı.",
+                    "help": "Kullanıcı imzasındaki maksimum karakter sınırını aştığında, karakter sayısı sınıra uygun hale getirilene kadar kaydetmesi engellenecektir."
                 },
                 "allow_inline_editing": {
-                    "description": "",
-                    "help": ""
+                    "description": "İmzanın satır içi düzenlenmesi.",
+                    "help": "Etkinleştirildiğinde, kullanıcılar bir gönderiyi görüntülerken imzalarını doğrudan satır içinden düzenleyebilirler."
                 }
             }
         }
