@@ -2,11 +2,11 @@
     "tapao-custom-landing-page": {
         "admin": {
             "settings": {
-                "enabled_label": "",
-                "guests_only_label": "",
-                "guests_only_help": "",
-                "html_label": "",
-                "html_help": ""
+                "enabled_label": "Özel Giriş Sayfasını Etkinleştir",
+                "guests_only_label": "Sadece misafirlere göster",
+                "guests_only_help": "Etkinleştirildiğinde, giriş yapmış kullanıcılar giriş sayfasını atlar ve normal forumu görür. Özel /login ve /register sayfaları için fof/direct-links eklentisini yükleyin veya HTML kodunuzda '{{ login_url }}' ve '{{ register_url }}' şablon değişkenlerini kullanın.\n",
+                "html_label": "Açılış Sayfası HTML",
+                "html_help": "HTML belgenizin tamamını (<!DOCTYPE html> ve <html> etiketleri dahil olacak şekilde) buraya yapıştırın. Kullanılabilecek şablon değişkenleri: '{{ forum_title }}', '{{ forum_url }}', '{{ login_url }}', '{{ register_url }}', '{{ year }}'.\n"
             }
         }
     }
