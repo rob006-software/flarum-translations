@@ -5,7 +5,23 @@
                 "btn": "Challenge"
             },
             "badge": {
-                "tooltip": "Wins: {wins} | Losses: {losses} | Draws: {draws}"
+                "tooltip": "Wins: {wins} | Losses: {losses} | Draws: {draws}",
+                "level": "Level {level}"
+            },
+            "battle_pass": {
+                "title": "Battle Pass",
+                "btn_level": "Level {level}",
+                "modal_intro": "Fight battles, level up and earn unique rewards",
+                "level_label": "Level {level}",
+                "progress": "{current} of {needed, plural, one {{needed} game} other {{needed} games}} to level {next}",
+                "max_level_reached": "Maximum level reached",
+                "no_reward": "no reward",
+                "scroll_back": "Back",
+                "scroll_forward": "Forward",
+                "reward_card": "Card \"{name}\"",
+                "reward_card_back": "Card back \"{name}\"",
+                "reward_hp": "+{n} HP",
+                "reward_mana": "+{n} mana"
             },
             "settings": {
                 "section_label": "Arena",
@@ -18,7 +34,8 @@
                 "notify_draw_cancelled_label": "Opponent cancelled a draw on Arena",
                 "notify_battle_declined_label": "Opponent declined a battle on Arena",
                 "notify_item_granted_label": "Someone granted me a card or a card back",
-                "notify_custom_card_back_requested_label": "Someone requested a custom card back"
+                "notify_custom_card_back_requested_label": "Someone requested a custom card back",
+                "notify_level_up_label": "Reached a new Arena level"
             },
             "how_to_play": {
                 "btn": "How to play"
@@ -72,7 +89,8 @@
                 "battle_declined_text": "{decliner} declined the battle with you on Arena",
                 "card_granted_text": "You received the card \"{name}\"",
                 "card_back_granted_text": "You received the card back \"{name}\"",
-                "custom_card_back_requested_text": "Custom card back requested by {name}"
+                "custom_card_back_requested_text": "Custom card back requested by {name}",
+                "level_up_text": "You reached Arena level {level}"
             },
             "select_deck_modal": {
                 "title": "Choose your deck",
@@ -454,6 +472,34 @@
                     "error_delete": "Failed to delete the request. Please try again",
                     "error_load": "Failed to load requests. Please try again"
                 }
+            },
+            "battle_pass": {
+                "tab": "Battle Pass",
+                "title": "Battle Pass",
+                "help": "Players earn levels for games played — wins, losses and draws alike. The level track shows up on the Arena profile tab and in the tag-page modal",
+                "enabled": "Enable Battle Pass",
+                "games_per_level": "Games count",
+                "games_per_level_help": "How many games it takes to reach the next level",
+                "levels_title": "Levels and rewards",
+                "levels_help": "Progression stops at the last level in the list. Every player starts at level one, so rewards make sense from level two up. They are granted automatically",
+                "empty": "No levels yet. Add the first one!",
+                "add_level": "Add level",
+                "remove_level": "Remove level",
+                "level_label": "Level",
+                "no_rewards": "No rewards yet",
+                "add_reward": "Add",
+                "remove_reward": "Remove reward",
+                "type_card": "Personal card",
+                "type_card_back": "Personal card back",
+                "type_hp": "HP bonus",
+                "type_mana": "Mana bonus",
+                "pick_placeholder": "— Select —",
+                "no_personal_cards": "No personal cards yet",
+                "no_personal_backs": "No personal card backs yet",
+                "reward_card": "Card \"{name}\"",
+                "reward_card_back": "Card back \"{name}\"",
+                "reward_hp": "+{n} HP",
+                "reward_mana": "+{n} mana"
             },
             "settings": {
                 "tab": "Settings",

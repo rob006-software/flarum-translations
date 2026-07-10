@@ -5,7 +5,23 @@
                 "btn": ""
             },
             "badge": {
-                "tooltip": ""
+                "tooltip": "",
+                "level": ""
+            },
+            "battle_pass": {
+                "title": "",
+                "btn_level": "",
+                "modal_intro": "",
+                "level_label": "",
+                "progress": "",
+                "max_level_reached": "",
+                "no_reward": "",
+                "scroll_back": "",
+                "scroll_forward": "",
+                "reward_card": "",
+                "reward_card_back": "",
+                "reward_hp": "",
+                "reward_mana": ""
             },
             "settings": {
                 "section_label": "",
@@ -18,7 +34,8 @@
                 "notify_draw_cancelled_label": "",
                 "notify_battle_declined_label": "",
                 "notify_item_granted_label": "",
-                "notify_custom_card_back_requested_label": ""
+                "notify_custom_card_back_requested_label": "",
+                "notify_level_up_label": ""
             },
             "how_to_play": {
                 "btn": ""
@@ -72,7 +89,8 @@
                 "battle_declined_text": "",
                 "card_granted_text": "",
                 "card_back_granted_text": "",
-                "custom_card_back_requested_text": ""
+                "custom_card_back_requested_text": "",
+                "level_up_text": ""
             },
             "select_deck_modal": {
                 "title": "",
@@ -454,6 +472,34 @@
                     "error_delete": "",
                     "error_load": ""
                 }
+            },
+            "battle_pass": {
+                "tab": "",
+                "title": "",
+                "help": "",
+                "enabled": "",
+                "games_per_level": "",
+                "games_per_level_help": "",
+                "levels_title": "",
+                "levels_help": "",
+                "empty": "",
+                "add_level": "",
+                "remove_level": "",
+                "level_label": "",
+                "no_rewards": "",
+                "add_reward": "",
+                "remove_reward": "",
+                "type_card": "",
+                "type_card_back": "",
+                "type_hp": "",
+                "type_mana": "",
+                "pick_placeholder": "",
+                "no_personal_cards": "",
+                "no_personal_backs": "",
+                "reward_card": "",
+                "reward_card_back": "",
+                "reward_hp": "",
+                "reward_mana": ""
             },
             "settings": {
                 "tab": "",
