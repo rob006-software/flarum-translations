@@ -2,18 +2,18 @@
     "fof-online-users-widget": {
         "admin": {
             "settings": {
-                "cache_ttl": "",
-                "last_seen_interval": "",
-                "max_users": ""
+                "cache_ttl": "Üye listesini önbelleğe alma süresi (saniye)",
+                "last_seen_interval": "Üyenin çevrimiçi olarak kabul edileceği süre (dakika)",
+                "max_users": "Gösterilecek maksimum kullanıcı sayısı"
             },
             "permissions": {
-                "view_online_users_widget": ""
+                "view_online_users_widget": "Çevrimiçi Kullanıcılar Bileşenini Göster"
             }
         },
         "forum": {
             "widget": {
-                "title": "",
-                "empty": ""
+                "title": "Çevrimiçi Kullanıcılar",
+                "empty": "Çevrimiçi Kullanıcı Bulunmuyor."
             }
         }
     }
