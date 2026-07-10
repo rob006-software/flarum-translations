@@ -135,7 +135,7 @@
                 "display_name_driver_options": {
                     "username": ""
                 },
-                "display_name_heading": "Korisničko ime za prikaz",
+                "display_name_heading": "Ime za prikaz",
                 "display_name_text": "Izaberite mehanizam koji treba da se koristi za prikazana imena korisnika. Podrazumevano je prikazano korisničko ime.",
                 "avatar_driver_options": {
                     "default": ""
@@ -259,7 +259,7 @@
             "edit_group": {
                 "color_label": "=> core.ref.color",
                 "delete_button": "Izbriši grupu",
-                "delete_confirmation": "Da li ste sigurni da želite da izbrišete ovu grupu? Članovi grupe NEĆE biti izbrisani.",
+                "delete_confirmation": "Da li ste sigurni da želite da izbrišete ovu grupu? Članovi grupe neće biti izbrisani.",
                 "hide_label": "Sakrij na forumu",
                 "icon_label": "=> core.ref.icon",
                 "icon_text": "=> core.ref.icon_text",
@@ -378,7 +378,7 @@
                     "analytics": "",
                     "authentication": "Potvrda identiteta",
                     "core": "Osnovna podešavanja",
-                    "discussion": "Diskusija",
+                    "discussion": "Tema",
                     "feature": "Karakteristike",
                     "formatting": "Formatiranje",
                     "forum-widget": "Forum vidžeti",
@@ -402,47 +402,47 @@
                 "allow_hide_own_posts_label": "Dozvoli brisanje sopstvenih odgovora",
                 "allow_post_editing_label": "Dozvoli uređivanje odgovora",
                 "allow_renaming_label": "Dozvoli preimenovanje",
-                "create_access_token_label": "Napravi token za pristup",
+                "create_access_token_label": "Napravi pristupni token",
                 "create_heading": "Kreiranje",
-                "delete_discussions_forever_label": "Brisanje diskusija zauvek",
-                "delete_discussions_label": "Privremeno brisanje diskusija",
-                "delete_posts_forever_label": "Brisanje odgovora zauvek",
-                "delete_posts_label": "Privremeno brisanje odgovora",
-                "description": "Konfigurišite ko može šta da vidi i radi.",
-                "edit_posts_label": "Izmena odgovora",
-                "edit_users_label": "Izmenite korisničke atribute",
-                "edit_users_credentials_label": "Izmenite akreditive korisnika",
-                "edit_users_groups_label": "Izmenite korisničke grupe",
+                "delete_discussions_forever_label": "Trajno brisanje tema",
+                "delete_discussions_label": "Brisanje tema",
+                "delete_posts_forever_label": "Trajno brisanje odgovora",
+                "delete_posts_label": "Brisanje odgovora",
+                "description": "Podesite ko može šta da vidi i radi.",
+                "edit_posts_label": "Uređivanje odgovora",
+                "edit_users_label": "Uređivanje korisničkih svojstava",
+                "edit_users_credentials_label": "Uređivanje korisničkih podataka za prijavu",
+                "edit_users_groups_label": "Uređivanje korisničkih grupa",
                 "global_heading": "Opšte",
                 "moderate_heading": "Upravljanje",
-                "moderate_access_tokens_label": "Moderiši tokene za pristup",
+                "moderate_access_tokens_label": "Upravljanje pristupnim tokenima",
                 "new_group_button": "Nova grupa",
                 "participate_heading": "Učestvovanje",
-                "post_without_throttle_label": "Više odgovora u nizu bez čekanja",
+                "post_without_throttle_label": "Slanje više odgovora bez čekanja",
                 "read_heading": "Pregled",
                 "remove_scope_label": "Obriši opseg {scope}",
                 "remove_scope_confirmation": "",
-                "rename_discussions_label": "Preimenovanje diskusija",
-                "reply_to_discussions_label": "Odgovaranje u diskusijama",
+                "rename_discussions_label": "Preimenovanje tema",
+                "reply_to_discussions_label": "Odgovaranje u temama",
                 "search_users_label": "=> core.ref.search_users",
-                "sign_up_label": "Registracija",
-                "start_discussions_label": "Kreiranje novih diskusija",
+                "sign_up_label": "Napravi nalog",
+                "start_discussions_label": "Pokretanje tema",
                 "title": "Dozvole",
-                "view_forum_label": "Pregled foruma (diskusije i korisnici)",
-                "view_hidden_groups_label": "Prikazivanje oznaka skrivenih grupa",
-                "view_last_seen_at_label": "Prikazivanje kada je korisnik poslednji put viđen",
-                "view_post_ips_label": "Prikazivanje IP adrese autora odgovora"
+                "view_forum_label": "Pregled foruma (teme i korisnici)",
+                "view_hidden_groups_label": "Pregled bedževa skrivenih grupa",
+                "view_last_seen_at_label": "Pregled poslednje aktivnosti korisnika",
+                "view_post_ips_label": "Pregled IP adresa odgovora"
             },
             "permissions_controls": {
-                "allow_indefinitely_button": "Neodređeno",
+                "allow_indefinitely_button": "Neograničeno",
                 "allow_never_button": "=> core.ref.never",
-                "allow_some_minutes_button": "{count, plural, one {Na # minut} other {Na # minuta}}",
-                "allow_ten_minutes_button": "Do prvih 10 minuta",
+                "allow_some_minutes_button": "{count, plural, one {Na # minut} other {Na # minut(a)}}",
+                "allow_ten_minutes_button": "Na 10 minuta",
                 "allow_until_reply_button": "Do sledećeg odgovora",
                 "everyone_button": "Svi",
                 "members_button": "=> core.group.members",
-                "signup_closed_button": "Zatvorena",
-                "signup_open_button": "Otvorena"
+                "signup_closed_button": "Onemogućeno",
+                "signup_open_button": "Omogućeno"
             },
             "search_source": {
                 "general": {
@@ -456,7 +456,7 @@
             },
             "upload_image": {
                 "remove_button": "=> core.ref.remove",
-                "upload_button": "Odaberite sliku.."
+                "upload_button": "Odaberite sliku..."
             },
             "users": {
                 "create_user_button": "Novi korisnik",
@@ -468,8 +468,8 @@
                         },
                         "email": {
                             "title": "=> core.ref.email",
-                            "visibility_hide": "Sakrij email adresu",
-                            "visibility_show": "Prikaži email adresu"
+                            "visibility_hide": "Sakrij e-poštu",
+                            "visibility_show": "Prikaži e-poštu"
                         },
                         "group_badges": {
                             "no_badges": "Negrupisan",
@@ -523,7 +523,7 @@
             },
             "composer_discussion": {
                 "body_placeholder": "Napišite odgovor..",
-                "discard_confirmation": "Niste objavili diskusiju. Da li želite da odustanete?",
+                "discard_confirmation": "Niste objavili temu. Da li želite da odustanete?",
                 "submit_button": "Objavite",
                 "title": "=> core.ref.start_a_discussion",
                 "title_placeholder": "Naziv diskusije"
