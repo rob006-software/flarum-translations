@@ -7,6 +7,10 @@
                 "section_homepage": "首页",
                 "section_auth": "登录与注册",
                 "section_search": "搜索",
+                "section_bookmarks": "",
+                "section_user_card": "",
+                "section_presence": "",
+                "section_cakeday": "",
                 "section_posts": "帖子",
                 "section_logo": "Logo",
                 "section_footer": "页脚",
@@ -56,6 +60,14 @@
                 "custom_hero_html_help": "HTML内容将嵌入横幅遮罩层，替换.AvocadoHome-heroBannerContent内容。支持使用内链「<style>」标签。",
                 "search_v1_label": "启用 V1 搜索栏样式",
                 "search_v1_help": "显示内联搜索下拉框而非 V2 弹窗样式。",
+                "bookmarks_enabled_label": "",
+                "bookmarks_enabled_help": "",
+                "user_card_enabled_label": "",
+                "user_card_enabled_help": "",
+                "presence_enabled_label": "",
+                "presence_enabled_help": "",
+                "cakeday_enabled_label": "",
+                "cakeday_enabled_help": "",
                 "show_share_label": "在帖子中显示分享按钮",
                 "show_share_help": "为每条帖子添加分享操作按钮。",
                 "show_action_icons_label": "在点赞和回复按钮上显示图标",
@@ -288,9 +300,45 @@
                 "title": "",
                 "save": "",
                 "unsave": "",
+                "edit": "",
                 "empty": "",
                 "guest_prompt": "",
-                "toggle_error": ""
+                "toggle_error": "",
+                "update_error": "",
+                "modal_title": "",
+                "modal_save": "",
+                "note_label": "",
+                "note_placeholder": "",
+                "reminder_label": "",
+                "reminder_none": "",
+                "reminder_later": "",
+                "reminder_tomorrow": "",
+                "reminder_week": "",
+                "reminder_custom": "",
+                "reminder_invalid": ""
+            },
+            "notifications": {
+                "bookmark_reminder_text": ""
+            },
+            "settings": {
+                "notify_bookmark_reminder_label": ""
+            },
+            "presence": {
+                "reading_now": ""
+            },
+            "cakeday": {
+                "tooltip_singular": "",
+                "tooltip_plural": "",
+                "aria": ""
+            },
+            "user_card": {
+                "online": "",
+                "last_seen": "",
+                "discussions": "",
+                "posts": "",
+                "joined_label": "",
+                "view_profile": "",
+                "message": ""
             },
             "post": {
                 "op_badge": "楼主"

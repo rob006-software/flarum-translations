@@ -7,6 +7,10 @@
                 "section_homepage": "Əsas səhifə",
                 "section_auth": "Giriş & Qeydiyyat",
                 "section_search": "Axtar",
+                "section_bookmarks": "",
+                "section_user_card": "",
+                "section_presence": "",
+                "section_cakeday": "",
                 "section_posts": "Yazılar",
                 "section_logo": "Logo",
                 "section_footer": "Altbilgi",
@@ -56,6 +60,14 @@
                 "custom_hero_html_help": "Qəhrəman banner örtüyünə daxil edilmiş HTML (.AvocadoHome-heroBannerContent-i əvəz edir). Daxili '<style>' teqləri dəstəklənir.",
                 "search_v1_label": "V1 axtarış çubuğu stilini aktivləşdirin",
                 "search_v1_help": "V2 modalı əvəzinə daxili axtarış açılan menyunu göstərin.",
+                "bookmarks_enabled_label": "",
+                "bookmarks_enabled_help": "",
+                "user_card_enabled_label": "",
+                "user_card_enabled_help": "",
+                "presence_enabled_label": "",
+                "presence_enabled_help": "",
+                "cakeday_enabled_label": "",
+                "cakeday_enabled_help": "",
                 "show_share_label": "Postlarda Paylaş düyməsini göstər",
                 "show_share_help": "Hər yazıya Paylaş əməliyyatı düyməsi əlavə edin.",
                 "show_action_icons_label": "Bəyən və Cavab düymələrində nişanları göstərin",
@@ -279,9 +291,45 @@
                 "title": "",
                 "save": "",
                 "unsave": "",
+                "edit": "",
                 "empty": "",
                 "guest_prompt": "",
-                "toggle_error": ""
+                "toggle_error": "",
+                "update_error": "",
+                "modal_title": "",
+                "modal_save": "",
+                "note_label": "",
+                "note_placeholder": "",
+                "reminder_label": "",
+                "reminder_none": "",
+                "reminder_later": "",
+                "reminder_tomorrow": "",
+                "reminder_week": "",
+                "reminder_custom": "",
+                "reminder_invalid": ""
+            },
+            "notifications": {
+                "bookmark_reminder_text": ""
+            },
+            "settings": {
+                "notify_bookmark_reminder_label": ""
+            },
+            "presence": {
+                "reading_now": ""
+            },
+            "cakeday": {
+                "tooltip_singular": "",
+                "tooltip_plural": "",
+                "aria": ""
+            },
+            "user_card": {
+                "online": "",
+                "last_seen": "",
+                "discussions": "",
+                "posts": "",
+                "joined_label": "",
+                "view_profile": "",
+                "message": ""
             },
             "post": {
                 "op_badge": ""

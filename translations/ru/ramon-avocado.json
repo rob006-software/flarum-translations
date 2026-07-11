@@ -7,6 +7,10 @@
                 "section_homepage": "Главная",
                 "section_auth": "Вход и регистрация",
                 "section_search": "Поиск",
+                "section_bookmarks": "",
+                "section_user_card": "",
+                "section_presence": "",
+                "section_cakeday": "",
                 "section_posts": "Сообщения",
                 "section_logo": "Логотип",
                 "section_footer": "Подвал",
@@ -56,6 +60,14 @@
                 "custom_hero_html_help": "HTML, вставляемый в overlay обложки — заменяет AvocadoHome-heroBannerContent. Поддерживаются встроенные теги '<style>' .",
                 "search_v1_label": "Включить стиль поиска V1",
                 "search_v1_help": "Показывать встроенный выпадающий поиск вместо модального окна V2.",
+                "bookmarks_enabled_label": "",
+                "bookmarks_enabled_help": "",
+                "user_card_enabled_label": "",
+                "user_card_enabled_help": "",
+                "presence_enabled_label": "",
+                "presence_enabled_help": "",
+                "cakeday_enabled_label": "",
+                "cakeday_enabled_help": "",
                 "show_share_label": "Показывать кнопку «Поделиться» в сообщениях",
                 "show_share_help": "Добавить кнопку «Поделиться» к каждому сообщению.",
                 "show_action_icons_label": "Показывать иконки в кнопках «Нравится» и «Ответить»",
@@ -288,9 +300,45 @@
                 "title": "",
                 "save": "",
                 "unsave": "",
+                "edit": "",
                 "empty": "",
                 "guest_prompt": "",
-                "toggle_error": ""
+                "toggle_error": "",
+                "update_error": "",
+                "modal_title": "",
+                "modal_save": "",
+                "note_label": "",
+                "note_placeholder": "",
+                "reminder_label": "",
+                "reminder_none": "",
+                "reminder_later": "",
+                "reminder_tomorrow": "",
+                "reminder_week": "",
+                "reminder_custom": "",
+                "reminder_invalid": ""
+            },
+            "notifications": {
+                "bookmark_reminder_text": ""
+            },
+            "settings": {
+                "notify_bookmark_reminder_label": ""
+            },
+            "presence": {
+                "reading_now": ""
+            },
+            "cakeday": {
+                "tooltip_singular": "",
+                "tooltip_plural": "",
+                "aria": ""
+            },
+            "user_card": {
+                "online": "",
+                "last_seen": "",
+                "discussions": "",
+                "posts": "",
+                "joined_label": "",
+                "view_profile": "",
+                "message": ""
             },
             "post": {
                 "op_badge": "Автор темы"

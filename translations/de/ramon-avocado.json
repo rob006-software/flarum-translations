@@ -7,6 +7,10 @@
                 "section_homepage": "Homepage",
                 "section_auth": "Anmeldung und Registrierung",
                 "section_search": "Suche",
+                "section_bookmarks": "",
+                "section_user_card": "",
+                "section_presence": "",
+                "section_cakeday": "",
                 "section_posts": "Beiträge",
                 "section_logo": "Logo",
                 "section_footer": "Fußzeile",
@@ -56,6 +60,14 @@
                 "custom_hero_html_help": "HTML, das in das Hero-Banner-Overlay eingefügt wird (ersetzt .AvocadoHome-heroBannerContent). Inline-Tags vom Typ „<style>“ werden unterstützt.",
                 "search_v1_label": "Suchleistenstil „V1“ aktivieren",
                 "search_v1_help": "Zeige das Dropdown-Menü für die Inline-Suche anstelle des V2-Modals an.",
+                "bookmarks_enabled_label": "",
+                "bookmarks_enabled_help": "",
+                "user_card_enabled_label": "",
+                "user_card_enabled_help": "",
+                "presence_enabled_label": "",
+                "presence_enabled_help": "",
+                "cakeday_enabled_label": "",
+                "cakeday_enabled_help": "",
                 "show_share_label": "Teilen-Knopf neben Beiträgen anzeigen",
                 "show_share_help": "Füge zu jedem Beitrag eine Schaltfläche zum Teilen hinzu.",
                 "show_action_icons_label": "Symbole auf den Schaltflächen „Gefällt mir“ und „Antworten“ anzeigen",
@@ -288,9 +300,45 @@
                 "title": "Gespeichert",
                 "save": "Speichern",
                 "unsave": "Aus den Favoriten entfernen",
+                "edit": "",
                 "empty": "Du hast noch keine Diskussionen gespeichert.",
                 "guest_prompt": "Melde dich an, um Diskussionen zu speichern und sie später hier wiederzufinden.",
-                "toggle_error": "Deine gespeicherte Liste konnte nicht aktualisiert werden. Bitte versuche es erneut."
+                "toggle_error": "Deine gespeicherte Liste konnte nicht aktualisiert werden. Bitte versuche es erneut.",
+                "update_error": "",
+                "modal_title": "",
+                "modal_save": "",
+                "note_label": "",
+                "note_placeholder": "",
+                "reminder_label": "",
+                "reminder_none": "",
+                "reminder_later": "",
+                "reminder_tomorrow": "",
+                "reminder_week": "",
+                "reminder_custom": "",
+                "reminder_invalid": ""
+            },
+            "notifications": {
+                "bookmark_reminder_text": ""
+            },
+            "settings": {
+                "notify_bookmark_reminder_label": ""
+            },
+            "presence": {
+                "reading_now": ""
+            },
+            "cakeday": {
+                "tooltip_singular": "",
+                "tooltip_plural": "",
+                "aria": ""
+            },
+            "user_card": {
+                "online": "",
+                "last_seen": "",
+                "discussions": "",
+                "posts": "",
+                "joined_label": "",
+                "view_profile": "",
+                "message": ""
             },
             "post": {
                 "op_badge": "Verfasser"

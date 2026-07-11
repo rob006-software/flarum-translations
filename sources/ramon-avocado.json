@@ -7,6 +7,10 @@
                 "section_homepage": "Homepage",
                 "section_auth": "Login & Registration",
                 "section_search": "Search",
+                "section_bookmarks": "Bookmarks",
+                "section_user_card": "User Card",
+                "section_presence": "Presence",
+                "section_cakeday": "Cakeday",
                 "section_posts": "Posts",
                 "section_logo": "Logo",
                 "section_footer": "Footer",
@@ -56,6 +60,14 @@
                 "custom_hero_html_help": "HTML injected inside the hero banner overlay (replaces .AvocadoHome-heroBannerContent). Inline '<style>' tags are supported.",
                 "search_v1_label": "Enable V1 search bar style",
                 "search_v1_help": "Show the inline search dropdown instead of the V2 modal.",
+                "bookmarks_enabled_label": "Enable the bookmark system",
+                "bookmarks_enabled_help": "Save button on cards, the Saved page, notes, reminders and reminder notifications. Turning this off hides everything and disables the API endpoints; saved data is kept.",
+                "user_card_enabled_label": "Enable the user hover card",
+                "user_card_enabled_help": "Show a Discourse-style mini profile (bio, badges, stats, actions) when hovering avatars and usernames.",
+                "presence_enabled_label": "Show who's reading a discussion",
+                "presence_enabled_help": "Live \"N reading now\" indicator in the discussion hero, with reader avatars. Requires the Realtime extension; users with \"disclose online\" off are never listed.",
+                "cakeday_enabled_label": "Show account anniversary badge",
+                "cakeday_enabled_help": "Show a 🎂 next to the username on the anniversary of the account registration (thread cards, posts and user card).",
                 "show_share_label": "Show Share button on posts",
                 "show_share_help": "Add a Share action button to each post.",
                 "show_action_icons_label": "Show icons on Like and Reply buttons",
@@ -279,9 +291,45 @@
                 "title": "Saved",
                 "save": "Save",
                 "unsave": "Remove from saved",
+                "edit": "Edit bookmark",
                 "empty": "You haven't saved any discussions yet.",
                 "guest_prompt": "Log in to save discussions and find them here later.",
-                "toggle_error": "Could not update your saved list. Please try again."
+                "toggle_error": "Could not update your saved list. Please try again.",
+                "update_error": "Could not update your bookmark. Please try again.",
+                "modal_title": "Bookmark",
+                "modal_save": "Save",
+                "note_label": "Note",
+                "note_placeholder": "Why are you saving this? (optional)",
+                "reminder_label": "Remind me",
+                "reminder_none": "No reminder",
+                "reminder_later": "Later today (in 4 hours)",
+                "reminder_tomorrow": "Tomorrow morning",
+                "reminder_week": "Next week",
+                "reminder_custom": "Pick date & time",
+                "reminder_invalid": "Pick a date in the future."
+            },
+            "notifications": {
+                "bookmark_reminder_text": "Reminder about your saved discussion"
+            },
+            "settings": {
+                "notify_bookmark_reminder_label": "Bookmark reminders"
+            },
+            "presence": {
+                "reading_now": "{count} reading now"
+            },
+            "cakeday": {
+                "tooltip_singular": "Account anniversary — 1 year here today!",
+                "tooltip_plural": "Account anniversary — {years} years here today!",
+                "aria": "Account anniversary"
+            },
+            "user_card": {
+                "online": "Online",
+                "last_seen": "Seen {time}",
+                "discussions": "discussions",
+                "posts": "posts",
+                "joined_label": "joined",
+                "view_profile": "View profile",
+                "message": "Message"
             },
             "post": {
                 "op_badge": "OP"
