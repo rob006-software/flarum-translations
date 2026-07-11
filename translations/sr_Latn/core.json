@@ -561,21 +561,21 @@
                 "skip_discussion_list_pane": "",
                 "started_text": "{username} započinje {ago}",
                 "total_replies_a11y_label": "{count, plural, one {# odgovor} other {# odgovor(a)}}",
-                "unread_replies_a11y_label": "{count, plural, one {# nepročitan odgovor} other {# nepročitanih odgovora}}. Označi {count, plural, one {reply} other {replies}} kao pročitano."
+                "unread_replies_a11y_label": "{count, plural, one {# nepročitan odgovor} other {# nepročitana(ih) odgovora}}. Označi {count, plural, one {odgovor} other {odgovora}} kao pročitan(a)."
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
                 "email_placeholder": "=> core.ref.email",
-                "email_sent_message": "Ukoliko je mejl adresa koju ste uneli registrovana na ovom sajtu, poslaćemo vam mejl sa linkom za resetovanje vaše šifre. Ukoliko ne dobijete mejl za nekoliko minuta, proverite da nije završio u fascikli za nepoželjnu poštu.",
-                "not_found_message": "Nijedan korisnik nije registrovan sa tom email adresom.",
-                "submit_button": "Resetuj lozinku",
-                "text": "Unesite svoju email adresu i mi ćemo Vam poslati uputstva za resetovanje lozinke.",
+                "email_sent_message": "Ukoliko je uneta e-pošta registrovana na ovom sajtu, poslaćemo Vam e-poštu koja sadrži vezu za promenu lozinke. Proverite fasciklu sa neželjenom e-poštom ukoliko je ne primite u narednih minut ili dva.",
+                "not_found_message": "Nijedan korisnik nije registrovan sa tom e-poštom.",
+                "submit_button": "Pošalji",
+                "text": "Unesite svoju e-poštu i poslaćemo Vam vezu za promenu lozinke.",
                 "title": "Zaboravljena lozinka"
             },
             "header": {
                 "admin_button": "Administracija",
-                "back_to_index_tooltip": "Povratak na listu diskusija",
-                "locale_dropdown_accessible_label": "Promenite lokalitet na forumu",
+                "back_to_index_tooltip": "Povratak na listu tema",
+                "locale_dropdown_accessible_label": "Promenite jezik foruma",
                 "log_in_link": "=> core.ref.log_in",
                 "log_out_button": "=> core.ref.log_out",
                 "profile_button": "Profil",
