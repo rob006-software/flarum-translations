@@ -471,7 +471,7 @@ return [
 		],
 	],
 	'forumaker-magicbb' => [
-		'tag' => 'https://raw.githubusercontent.com/forumaker/magicbb/2.4.6/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/forumaker/magicbb/2.5.0/resources/locale/en.yml',
 	],
 	'forumaker-magicdice' => [
 		'tag' => 'https://raw.githubusercontent.com/forumaker/magicdice/2.1.0/resources/locale/en.yml',
