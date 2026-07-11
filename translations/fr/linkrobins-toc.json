@@ -2,10 +2,10 @@
     "linkrobins-toc": {
         "admin": {
             "settings": {
-                "max_depth_label": "Profondeur maximale de l'en-tête",
+                "max_depth_label": "Hauteur maximale des titres",
                 "max_depth_help": "",
-                "min_headings_label": "",
-                "min_headings_help": ""
+                "min_headings_label": "Nombre minimum de titres à afficher",
+                "min_headings_help": "Afficher la table des matières uniquement dans les messages qui contiennent au moins ce nombre de titres. La valeur par défaut est 2."
             }
         },
         "forum": {
