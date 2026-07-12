@@ -95,7 +95,9 @@
             "select_deck_modal": {
                 "title": "",
                 "text": "",
-                "choose_btn": ""
+                "text_random_cards": "",
+                "choose_btn": "",
+                "start_btn": ""
             },
             "challenge_modal": {
                 "title": "",
@@ -107,6 +109,7 @@
                 "per_turn_label": "",
                 "turn_time_value": "",
                 "deck_label": "",
+                "modifier_label": "",
                 "opponent_label": "",
                 "opponent_hint": "",
                 "search_placeholder": "",
@@ -140,7 +143,8 @@
             },
             "battle_start": {
                 "first_turn": "",
-                "first_turn_subtitle": ""
+                "first_turn_subtitle": "",
+                "modifier_active": ""
             },
             "battle_open": {
                 "title": "",
@@ -480,6 +484,14 @@
                 "enabled": "",
                 "games_per_level": "",
                 "games_per_level_help": "",
+                "background_title": "",
+                "background_help": "",
+                "background_upload": "",
+                "background_url_label": "",
+                "background_url_placeholder": "",
+                "background_remove": "",
+                "background_uploaded": "",
+                "background_upload_error": "",
                 "levels_title": "",
                 "levels_help": "",
                 "empty": "",
@@ -526,6 +538,18 @@
                 "how_to_play_url": "",
                 "how_to_play_new_tab": "",
                 "allow_draw": "",
+                "buttons_title": "",
+                "buttons_help": "",
+                "buttons_target": "",
+                "buttons_challenge_title": "",
+                "buttons_how_to_play_title": "",
+                "buttons_battle_pass_title": "",
+                "buttons_challenge_default": "",
+                "buttons_how_to_play_default": "",
+                "buttons_battle_pass_default": "",
+                "buttons_icon": "",
+                "buttons_text": "",
+                "buttons_preview": "",
                 "custom_card_back_title": "",
                 "custom_card_back_help": "",
                 "custom_card_back_enabled": "",
@@ -604,6 +628,13 @@
                 "lightning": "",
                 "earth": "",
                 "water": ""
+            },
+            "modifiers": {
+                "classic": "",
+                "infinite_mana": "",
+                "infinite_hp": "",
+                "infinite_turns": "",
+                "random_cards": ""
             },
             "bonus_effects": {
                 "heal": "",

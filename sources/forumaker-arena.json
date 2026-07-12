@@ -95,7 +95,9 @@
             "select_deck_modal": {
                 "title": "Choose your deck",
                 "text": "Choose the deck for this battle. You won't be able to change it afterward",
-                "choose_btn": "Choose"
+                "text_random_cards": "Your opponent enabled the random cards modifier — you won't be able to choose a deck",
+                "choose_btn": "Choose",
+                "start_btn": "Start battle"
             },
             "challenge_modal": {
                 "title": "Start a battle",
@@ -107,6 +109,7 @@
                 "per_turn_label": "per turn",
                 "turn_time_value": "24h",
                 "deck_label": "Deck",
+                "modifier_label": "Modifier",
                 "opponent_label": "Opponent name",
                 "opponent_hint": "Optional. You can create an open battle and wait for an opponent inside the topic",
                 "search_placeholder": "First 3 characters...",
@@ -140,7 +143,8 @@
             },
             "battle_start": {
                 "first_turn": "{name} goes first",
-                "first_turn_subtitle": "The card deck is only visible during your turn"
+                "first_turn_subtitle": "The card deck is only visible during your turn",
+                "modifier_active": "Modifier: {modifier}"
             },
             "battle_open": {
                 "title": "{name} is looking for an opponent",
@@ -422,7 +426,7 @@
             "card_backs": {
                 "tab": "Card backs",
                 "title": "Card backs",
-                "help": "Upload images and set how many wins are needed to unlock them. Ideal size — 640x360",
+                "help": "Upload images and set how many wins are needed to unlock them. Recommended size — 640x360",
                 "name_label": "Name",
                 "name_placeholder": "Card back",
                 "unnamed": "Unnamed",
@@ -480,6 +484,14 @@
                 "enabled": "Enable Battle Pass",
                 "games_per_level": "Games count",
                 "games_per_level_help": "How many games it takes to reach the next level",
+                "background_title": "Background",
+                "background_help": "Set a neutral background to decorate the Battle Pass. Recommended size — 1600x400",
+                "background_upload": "File",
+                "background_url_label": "Image",
+                "background_url_placeholder": "URL",
+                "background_remove": "Remove background",
+                "background_uploaded": "Battle Pass background uploaded",
+                "background_upload_error": "Failed to upload the background. Please try again",
                 "levels_title": "Levels and rewards",
                 "levels_help": "Progression stops at the last level in the list. Every player starts at level one, so rewards make sense from level two up. They are granted automatically",
                 "empty": "No levels yet — add the first one. Remember to run a recalculation on the Battles tab to update earned levels",
@@ -526,6 +538,18 @@
                 "how_to_play_url": "Link",
                 "how_to_play_new_tab": "Open in a new tab",
                 "allow_draw": "Allow proposing a draw",
+                "buttons_title": "Buttons",
+                "buttons_help": "Overrides the buttons on the Arena tag page",
+                "buttons_target": "Button",
+                "buttons_challenge_title": "Challenge",
+                "buttons_how_to_play_title": "How to play",
+                "buttons_battle_pass_title": "Battle Pass",
+                "buttons_challenge_default": "Challenge",
+                "buttons_how_to_play_default": "How to play",
+                "buttons_battle_pass_default": "Battle Pass",
+                "buttons_icon": "Icon",
+                "buttons_text": "Text",
+                "buttons_preview": "Preview",
                 "custom_card_back_title": "Custom card back",
                 "custom_card_back_help": "Players will be able to request a custom design and describe their idea in a text field. Requests will be listed here.",
                 "custom_card_back_enabled": "Show the custom card back",
@@ -604,6 +628,13 @@
                 "lightning": "Lightning",
                 "earth": "Earth",
                 "water": "Water"
+            },
+            "modifiers": {
+                "classic": "Classic",
+                "infinite_mana": "Infinite mana",
+                "infinite_hp": "Infinite health",
+                "infinite_turns": "Infinite turns",
+                "random_cards": "Random cards"
             },
             "bonus_effects": {
                 "heal": "Heal",
