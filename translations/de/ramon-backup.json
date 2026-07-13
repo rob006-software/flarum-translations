@@ -2,48 +2,48 @@
     "ramon-backup": {
         "admin": {
             "errors": {
-                "generic": "",
+                "generic": "Es ist ein Fehler aufgetreten. Bitte versuche es erneut.",
                 "boundary_title": "",
                 "boundary_body": "",
-                "boundary_retry": "",
-                "confirm_default": "",
+                "boundary_retry": "Erneut versuchen",
+                "confirm_default": "Bestätigen",
                 "cancel_default": "Abbrechen"
             },
             "permissions": {
-                "manage_label": ""
+                "manage_label": "Sicherungen verwalten"
             },
             "panel": {
-                "actions_title": "",
+                "actions_title": "Sicherung & Migration",
                 "actions_help": "",
-                "create_button": "",
-                "import_button": "",
-                "list_title": ""
+                "create_button": "Sicherung erstellen",
+                "import_button": "Sicherung importieren",
+                "list_title": "Gespeicherte Sicherungen"
             },
             "list": {
-                "empty": "",
-                "col_when": "",
-                "col_size": "",
-                "col_contents": "",
-                "col_status": "",
-                "content_db": "",
-                "content_assets": "",
-                "content_storage": "",
-                "content_extensions": "",
-                "target_for": "",
+                "empty": "Es gibt noch keine Sicherungen. Klicke auf „Sicherung erstellen“, um eine zu erstellen.",
+                "col_when": "Wann",
+                "col_size": "Größe",
+                "col_contents": "Inhalte",
+                "col_status": "Verschlüsselung",
+                "content_db": "Datenbank",
+                "content_assets": "Assets",
+                "content_storage": "Speicher",
+                "content_extensions": "Erweiterungen",
+                "target_for": "für {engine}",
                 "target_tooltip": "",
-                "encrypted": "",
-                "plain": "",
+                "encrypted": "Verschlüsselt",
+                "plain": "Einfach",
                 "download_title": "",
                 "delete_title": "",
                 "confirm_delete_title": "",
                 "confirm_delete": "",
-                "deleted": "",
-                "delete_failed": "",
+                "deleted": "Sicherung gelöscht.",
+                "delete_failed": "Sicherung konnte nicht gelöscht werden.",
                 "load_failed": "",
                 "retry": ""
             },
             "encryption": {
-                "section_title": "",
+                "section_title": "Verschlüsselung",
                 "section_help": "",
                 "clipboard_unavailable": "",
                 "clipboard_failed": "",
@@ -54,10 +54,10 @@
                     "libsodium_missing": "",
                     "healthy": "",
                     "not_setup": "",
-                    "public_key_label": "",
-                    "private_key_label": "",
-                    "present": "",
-                    "absent": "",
+                    "public_key_label": "Öffentlicher Schlüssel",
+                    "private_key_label": "Privater Schlüssel (config.php)",
+                    "present": "Vorhanden",
+                    "absent": "Fehlt",
                     "mismatch_title": "",
                     "mismatch_body": "",
                     "private_missing_title": "",
@@ -70,7 +70,7 @@
                 "public_key": {
                     "label": "",
                     "copy_title": "",
-                    "copied": "",
+                    "copied": "Kopiert!",
                     "help_healthy": "",
                     "help_broken": "",
                     "remove_button": ""
@@ -82,7 +82,7 @@
                     "warning_body": "",
                     "snippet_label": "",
                     "copy_button": "",
-                    "copied": "",
+                    "copied": "Kopiert!",
                     "close": ""
                 },
                 "regenerate_modal": {
@@ -93,16 +93,16 @@
                 }
             },
             "export_modal": {
-                "title": "",
-                "intro": "",
-                "contents_title": "",
-                "content_db": "",
+                "title": "Sicherung erstellen",
+                "intro": "Wähle aus, was du sichern möchtest. Das Ergebnis ist eine einzige .flarum-Datei, die du herunterladen, übertragen oder extern speichern kannst.",
+                "contents_title": "Was soll enthalten sein",
+                "content_db": "Datenbank",
                 "content_db_help": "",
                 "content_assets": "",
                 "content_assets_help": "",
                 "content_storage": "",
                 "content_storage_help": "",
-                "content_extensions": "",
+                "content_extensions": "Erweiterungen",
                 "content_extensions_help": "",
                 "extensions_select_all": "",
                 "extensions_select_none": "",
@@ -140,7 +140,7 @@
                 "phase_done": "",
                 "phase_error": "",
                 "phase_error_network": "",
-                "warnings_title": "",
+                "warnings_title": "{count} Warnung zur Umwandlung|{count} Warnungen zur Umwandlung",
                 "warnings_help": ""
             },
             "import_modal": {
