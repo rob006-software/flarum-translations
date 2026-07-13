@@ -8,7 +8,7 @@
                 "tagline_help": "Untertitel, der unter der Begrüßungszeile angezeigt wird. Zum Ausblenden leer lassen.",
                 "eyebrow_label": "Hero Augenbraue",
                 "eyebrow_help": "Kleine Akzentlinie über der Überschrift (z. B. ▸ Spieler verbunden).",
-                "chips_label": "Hero Themen-Chips",
+                "chips_label": "Hero Tag-Chips",
                 "chips_help": "Durch Kommas getrennte Liste von Tag-Slugs, die als Schnellzugriff-Kacheln angezeigt werden sollen (z. B. halo, elden-ring, deals). Leer lassen, um sie auszublenden.",
                 "mode_option_dark": "Dunkel",
                 "mode_option_light": "Hell",
@@ -21,7 +21,7 @@
             "hero": {
                 "welcome": "Willkommen im {forum}",
                 "new_discussion": "+ Neue Diskussion",
-                "search_placeholder": "Diskussionen, Spieler, Themen suchen…"
+                "search_placeholder": "Diskussionen, Spieler, Tags suchen…"
             },
             "stats": {
                 "title": "Serverstatus",
@@ -37,16 +37,16 @@
                 "to_dark": "Zum dunklen Modus wechseln"
             },
             "player": {
-                "level": "",
-                "progress": "",
-                "next": ""
+                "level": "LVL {level} · {posts} BEITRÄGE",
+                "progress": "{progress} / 100",
+                "next": "NÄCHSTES: LVL {level}"
             },
             "rarity": {
-                "title": "",
-                "legendary": "",
-                "epic": "",
-                "rare": "",
-                "common": ""
+                "title": "Seltenheitsstufen",
+                "legendary": "Legendär",
+                "epic": "Episch",
+                "rare": "Selten",
+                "common": "Gewöhnlich"
             }
         }
     }
