@@ -13401,8 +13401,15 @@
         "ramon-backup": {
             "admin": {
                 "encryption": {
+                    "actions": {
+                        "generate": "dd4ecd2eac1a1782edc9630b87ad81df dd4ecd2eac1a1782edc9630b87ad81df",
+                        "generate_failed": "0cf77b36eadb512e88964d87c7194e02 0cf77b36eadb512e88964d87c7194e02"
+                    },
                     "public_key": {
                         "copied": "70dfc150110de4d5d2a3e1fbedfbe1cf 70dfc150110de4d5d2a3e1fbedfbe1cf"
+                    },
+                    "regenerate_modal": {
+                        "submit": "32a28a20bc3b58faf2e4607664f8f05d 32a28a20bc3b58faf2e4607664f8f05d"
                     },
                     "reveal_modal": {
                         "copied": "70dfc150110de4d5d2a3e1fbedfbe1cf 70dfc150110de4d5d2a3e1fbedfbe1cf"
@@ -13423,15 +13430,49 @@
                 },
                 "export_modal": {
                     "cancel_button": "4b97278b444c0203fc17d7b93a39f5c7 4b97278b444c0203fc17d7b93a39f5c7",
+                    "close_button": "8311b9b64370db830145f6612a9021fd 8311b9b64370db830145f6612a9021fd",
+                    "completed": "c68a4684d80c8b314f762d5b3f6bd3d7 c68a4684d80c8b314f762d5b3f6bd3d7",
+                    "content_assets": "6086a6554fe097cc5174569174e9324e 6086a6554fe097cc5174569174e9324e",
+                    "content_assets_help": "88b52d1f0bbf7e1887088de64363d10d 88b52d1f0bbf7e1887088de64363d10d",
                     "content_db": "34ae96f6e3e2bd244bc9509bdb66f323 34ae96f6e3e2bd244bc9509bdb66f323",
+                    "content_db_help": "7a03a12de54c0ef51c36c6225d14dd7a 7a03a12de54c0ef51c36c6225d14dd7a",
                     "content_extensions": "4ecfd5ba4473d6d947b37600399ad2be 4ecfd5ba4473d6d947b37600399ad2be",
+                    "content_extensions_help": "2d009791f6aed1f65f99d476ea969428 2d009791f6aed1f65f99d476ea969428",
                     "contents_title": "33d58ea091776e34c029fd9059272997 33d58ea091776e34c029fd9059272997",
+                    "encryption_enable": "9523285337d96b4717c9c5f9203600ba 9523285337d96b4717c9c5f9203600ba",
+                    "encryption_help": "b0000738484ee8cec2d2308dcefc2a68 b0000738484ee8cec2d2308dcefc2a68",
+                    "encryption_title": "3016f3fd9435542f17f29cb108e72530 3016f3fd9435542f17f29cb108e72530",
+                    "extensions_group_workbench": "0aebee64a96a1696aceff937aedab732 0aebee64a96a1696aceff937aedab732",
+                    "extensions_load_failed": "4d3f887d259f8d524091a158e8114daf 4d3f887d259f8d524091a158e8114daf",
+                    "extensions_none": "51226296f0e0d132cf3156fe8faf66ff 51226296f0e0d132cf3156fe8faf66ff",
+                    "extensions_select_all": "f687cca4add06ebc15712a4f20f357be f687cca4add06ebc15712a4f20f357be",
+                    "extensions_select_none": "9792feab8428b730e610c8d31b33bca2 9792feab8428b730e610c8d31b33bca2",
+                    "extensions_tag_unknown": "9630d5d23e65cdd4ecf28357798e4da5 9630d5d23e65cdd4ecf28357798e4da5",
+                    "files_count": "202a6f6b45049d8791028447815e4d20 202a6f6b45049d8791028447815e4d20",
                     "intro": "e40fc7bb639a8be621aadb5fb6d1e832 e40fc7bb639a8be621aadb5fb6d1e832",
+                    "phase_done": "e5a557e11c5934e2ed68ef8e4501ba72 e5a557e11c5934e2ed68ef8e4501ba72",
+                    "phase_error": "52e5304c8c7dfe795117f86497f74b8d 52e5304c8c7dfe795117f86497f74b8d",
+                    "target_mariadb": "49410a895b0fb08d59a76ac40fd7fd26 49410a895b0fb08d59a76ac40fd7fd26",
+                    "target_mysql": "7bc3fed858a5164de8ac2e114d44d83a 7bc3fed858a5164de8ac2e114d44d83a",
+                    "target_postgres": "3151964736a10caeaa8d2f6600c4e125 3151964736a10caeaa8d2f6600c4e125",
+                    "target_sqlite": "049e65f8b47c76af86ffa9146e125eed 049e65f8b47c76af86ffa9146e125eed",
                     "title": "086b7cd2811b5ee382ef2d00a137616b 086b7cd2811b5ee382ef2d00a137616b",
                     "warnings_title": "a1bb326441b7b569d01860c7dd6ab818 a1bb326441b7b569d01860c7dd6ab818"
                 },
                 "import_modal": {
-                    "cancel_button": "4b97278b444c0203fc17d7b93a39f5c7 4b97278b444c0203fc17d7b93a39f5c7"
+                    "cancel_button": "4b97278b444c0203fc17d7b93a39f5c7 4b97278b444c0203fc17d7b93a39f5c7",
+                    "key_title": "97176c65579ff2d15fdde99e50308af7 97176c65579ff2d15fdde99e50308af7",
+                    "meta_contents": "9f86b9814597262fcc80203fac19ed24 9f86b9814597262fcc80203fac19ed24",
+                    "meta_flarum": "b424fd046681129be2b268d23ac293e8 b424fd046681129be2b268d23ac293e8",
+                    "meta_size": "fb7b2fed7111dad1982df6ba1dec9348 fb7b2fed7111dad1982df6ba1dec9348",
+                    "meta_source_url": "0cf167cc6f2a5b95910dd9d4cde4cda9 0cf167cc6f2a5b95910dd9d4cde4cda9",
+                    "meta_when": "7c6cb74764b781e546e605a1086486f8 7c6cb74764b781e546e605a1086486f8",
+                    "section_assets": "9aedeaf1f77b8642abe528503b8c5de8 9aedeaf1f77b8642abe528503b8c5de8",
+                    "section_count": "9aac6fbba660f5bd930465ba53563f5d 9aac6fbba660f5bd930465ba53563f5d",
+                    "section_db": "34ae96f6e3e2bd244bc9509bdb66f323 34ae96f6e3e2bd244bc9509bdb66f323",
+                    "section_extensions": "4ecfd5ba4473d6d947b37600399ad2be 4ecfd5ba4473d6d947b37600399ad2be",
+                    "start_button": "577e3a8810e6318ed2cad33536d043d2 577e3a8810e6318ed2cad33536d043d2",
+                    "uploading_pct": "409a329a141f4b43b9e9b6a31a0d2efa 409a329a141f4b43b9e9b6a31a0d2efa"
                 },
                 "list": {
                     "col_contents": "032890e86a347060858f281282a2a28c 032890e86a347060858f281282a2a28c",
