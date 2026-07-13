@@ -2,19 +2,19 @@
     "huseyinfiliz-simple-dark-mode": {
         "admin": {
             "settings": {
-                "always_show_header_toggle_label": "",
-                "always_show_header_toggle_help": "",
-                "solid_icon_label": "",
-                "solid_icon_help": ""
+                "always_show_header_toggle_label": "Schaltfläche zum Wechseln des Designs immer in der Kopfzeile des Forums anzeigen",
+                "always_show_header_toggle_help": "Standardmäßig wird die Schaltfläche in der Kopfzeile nur Gästen angezeigt. Aktiviere diese Option, um sie auch angemeldeten Benutzern anzuzeigen (diese haben die Umschaltfunktion ohnehin immer in ihrem Benutzermenü).",
+                "solid_icon_label": "Design-Symbol im ausgefüllten Stil anzeigen",
+                "solid_icon_help": "Verwendet ausgefüllte Font Awesome-Symbole anstelle des üblichen (Umriss-)Stils für die Design-Umschaltung."
             }
         },
         "forum": {
             "header": {
-                "toggle_tooltip": ""
+                "toggle_tooltip": "Design umschalten"
             },
             "session": {
-                "dark_mode": "",
-                "light_mode": ""
+                "dark_mode": "Dunkler Modus",
+                "light_mode": "Heller Modus"
             }
         }
     }
