@@ -21,11 +21,19 @@
                 "text_size_help": "Sets the sitewide default for post body and title text. Users can override this with the Font Size button in the header.",
                 "text_size_value": "{percent}%",
                 "reset_button": "Reset to 100%",
+                "bases_label": "Base Text Sizes",
+                "bases_help": "The starting sizes, in pixels, that the reading text scale multiplies. If your theme's font runs small or large (many serif fonts do), adjust these to match instead of writing Custom CSS. Changed values apply to everyone, even at 100%.",
+                "base_input_label": "Post text",
+                "small_input_label": "Small text",
+                "title_input_label": "Titles",
+                "bases_reset_button": "Reset to defaults (14 / 12 / 16)",
                 "ui_size_label": "Default Interface Size",
                 "ui_size_help": "Sets the sitewide default for navigation, buttons, and UI elements. Users can override this with the Font Size button in the header.",
                 "ui_toggle_label": "Use a larger interface",
                 "preview_label": "Preview",
-                "preview_text": "The quick brown fox jumps over the lazy dog. This sample reading text scales with the setting above.",
+                "preview_title": "A sample discussion title",
+                "preview_text": "The quick brown fox jumps over the lazy dog. This sample reading text scales with the settings above.",
+                "preview_small": "A small excerpt line, like the ones under discussion titles.",
                 "preview_button": "Sample button"
             }
         }
