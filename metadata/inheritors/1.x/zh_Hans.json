@@ -2500,6 +2500,18 @@
         }
     },
     "fof-anti-spam.json": {
+        "flarum-audit": {
+            "lib": {
+                "browser": {
+                    "registration": {
+                        "blocked": "d41d8cd98f00b204e9800998ecf8427e 5f4c899a1c86ce2fb0f273faaf3b3f63"
+                    },
+                    "user": {
+                        "marked_as_spammer": "d41d8cd98f00b204e9800998ecf8427e 33342aecbad71e2c21c82891f03a0dde"
+                    }
+                }
+            }
+        },
         "fof-anti-spam": {
             "admin": {
                 "blocked_registrations": {

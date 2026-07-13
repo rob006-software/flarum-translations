@@ -2138,6 +2138,18 @@
         }
     },
     "fof-anti-spam.json": {
+        "flarum-audit": {
+            "lib": {
+                "browser": {
+                    "registration": {
+                        "blocked": "d41d8cd98f00b204e9800998ecf8427e 0d9917264205171b53b5a01a1b078e4b"
+                    },
+                    "user": {
+                        "marked_as_spammer": "d41d8cd98f00b204e9800998ecf8427e f832d262f85736278e15a34b2f097cf0"
+                    }
+                }
+            }
+        },
         "fof-anti-spam": {
             "admin": {
                 "blocked_registrations": {
