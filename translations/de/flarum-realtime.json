@@ -13,7 +13,7 @@
             },
             "index-typing": {
                 "someone-typing": "Jemand schreibt in dieser Diskussion",
-                "someone-typing-tag": "Jemand schreibt in diesem Thema"
+                "someone-typing-tag": "Jemand schreibt in diesem Tag"
             },
             "user": {
                 "settings": {
@@ -40,8 +40,8 @@
                 "typing-indicator-help": "Wenn aktiviert, können Benutzer vorbehaltlich einer entsprechenden Berechtigung die Anzahl der anderen Benutzer anzeigen, die gerade in einer Diskussion tippen. Wenn deaktiviert, wird die Tippaktivität sowohl aus der Benutzeroberfläche als auch aus der Websocket-Nutzlast entfernt.",
                 "index-typing-indicator": "Eingabe-Punkte in der Diskussionsliste",
                 "index-typing-indicator-help": "Wenn aktiviert, erscheint in der Diskussionsliste ein Symbol für jede öffentlich sichtbare Diskussion, in der gerade jemand einen Beitrag eingibt. Es werden keine Namen angezeigt.",
-                "index-typing-indicator-restricted": "Eingabe-Punkte in der Diskussionsliste für eingeschränkte Themen",
-                "index-typing-indicator-restricted-help": "Zeige auch Eingabe-Punkte für Diskussionen in eingeschränkten Themen an – für Benutzer, die diese Themen sehen können. Erfordert die Erweiterung „Tags“. Standardmäßig deaktiviert."
+                "index-typing-indicator-restricted": "Eingabe-Punkte in der Diskussionsliste für eingeschränkte Tags",
+                "index-typing-indicator-restricted-help": "Zeige auch Eingabe-Punkte für Diskussionen in eingeschränkten Tags an – für Benutzer, die diese Tags sehen können. Erfordert die „Tags“-Erweiterung. Standardmäßig deaktiviert."
             }
         }
     }
