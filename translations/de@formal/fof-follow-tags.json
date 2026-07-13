@@ -64,21 +64,21 @@
                 "following_tags_label": "=> fof-follow-tags.ref.filtering_options.tags",
                 "prompt_new_users_label": "Neue Nutzer dazu auffordern, Tags auszuwählen, denen sie folgen möchten",
                 "prompt_new_users_help": "Nutzern, die ihre Auswahl noch nicht bestätigt haben, wird ein Modalfenster angezeigt, in dem sie aufgefordert werden, Tags zu folgen. Das Modalfenster wird bei jedem Besuch erneut angezeigt, bis sie auf „Weiter zum Forum“ klicken.\n",
-                "prompt_button_on_following_page_label": "",
-                "prompt_tag_strategy_label": "",
+                "prompt_button_on_following_page_label": "Schaltfläche „Wähle Tags aus, denen Du folgen möchtest“ auf der „Du folgst“ anzeigen",
+                "prompt_tag_strategy_label": "Zur Auswahl stehende Tags",
                 "prompt_tag_strategy_options": {
-                    "primary": "",
-                    "primaryAndChildren": "",
-                    "primaryAndSecondary": "",
-                    "secondary": "",
-                    "all": "",
-                    "list": ""
+                    "primary": "Haupt-Tags der obersten Ebene",
+                    "primaryAndChildren": "Alle Haupt-Tags von jeder Ebene",
+                    "primaryAndSecondary": "Haupt-Tags der obersten Ebene und Sekundär-Tags",
+                    "secondary": "Nur Sekundär-Tags",
+                    "all": "Alle Tags",
+                    "list": "Unten ausgewählte Tags"
                 },
-                "prompt_tag_ids_label": "",
-                "all_discussions_on_following_page_for_guests_label": ""
+                "prompt_tag_ids_label": "Zur Auswahl stehende Tags",
+                "all_discussions_on_following_page_for_guests_label": "Alle Diskussionen auf der „Du folgst“-Seite für Gäste anzeigen"
             },
             "basics": {
-                "following_label": ""
+                "following_label": "=> flarum-subscriptions.forum.index.following_link"
             }
         },
         "email": {
