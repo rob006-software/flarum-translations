@@ -2,7 +2,7 @@
     "ramon-avocado": {
         "admin": {
             "loading": "Wird geladen…",
-            "search_tags": "Themen durchsuchen…",
+            "search_tags": "Tags durchsuchen…",
             "settings": {
                 "section_homepage": "Homepage",
                 "section_auth": "Anmeldung und Registrierung",
@@ -19,12 +19,12 @@
                 "section_hero_image_tags": "Titelbild für Diskussionen",
                 "featured_tags_label": "Hervorgehobene Kategorien",
                 "featured_tags_help": "Ausgewählte Kategorien werden auf der Startseite und der Kategorieseite mit einem Sternsymbol hervorgehoben.",
-                "featured_tags_empty": "Keine Themen gefunden.",
-                "tag_picker_placeholder": "Themen auswählen…",
+                "featured_tags_empty": "Keine Tags gefunden.",
+                "tag_picker_placeholder": "Tags auswählen…",
                 "showcase_enabled_label": "Abschnitt Showcase / Portfolio aktivieren",
-                "showcase_enabled_help": "Zeige auf der Startseite einen Showcase-Slider mit Diskussionen aus ausgewählten Themen an.",
-                "showcase_tag_label": "Showcase / Portfolio Themen",
-                "showcase_tag_help": "Diskussionen aus diesen Themen werden im Showcase-Slider auf der Startseite angezeigt.",
+                "showcase_enabled_help": "Zeige auf der Startseite einen Showcase-Slider mit Diskussionen aus ausgewählten Tags an.",
+                "showcase_tag_label": "Showcase- / Portfolio-Tags",
+                "showcase_tag_help": "Diskussionen aus diesen Tags werden im Showcase-Slider auf der Startseite angezeigt.",
                 "showcase_heading_label": "Titel des Showcase-Abschnitts",
                 "showcase_heading_help": "Benutzerdefinierter Titel für den Showcase-Abschnitt. Leer lassen, um den Standardtitel zu verwenden.",
                 "showcase_count_label": "Anzahl der Showcase-Elemente",
@@ -82,14 +82,14 @@
                 "hero_decoration_icon_opacity_help": "Stelle die Deckkraft des Dekorationssymbols als Prozentsatz ein. 100 = vollständig deckend, 0 = durchsichtig.",
                 "hero_decoration_icon_count_label": "Anzahl der Schmucksymbole",
                 "hero_decoration_icon_count_help": "Bei 1 Symbol wird das erste untergeordnete Element verwendet. Bei 2 Symbolen wird zusätzlich das zweite untergeordnete Element angezeigt, das nach links versetzt ist.",
-                "hero_decoration_icon_count_one": "1 Symbol (erstes untergeordnetes Thema)",
-                "hero_decoration_icon_count_two": "2 Symbole (erstes und zweites untergeordnetes Thema)",
+                "hero_decoration_icon_count_one": "1 Symbol (erstes untergeordnetes Tag)",
+                "hero_decoration_icon_count_two": "2 Symbole (erstes und zweites untergeordnetes Tag)",
                 "hero_deco_divider_label": "Trennsymbol zwischen den Dekorationssymbolen anzeigen",
                 "hero_deco_divider_help": "Zeige ein Symbol in der Lücke zwischen den beiden Dekorationssymbolen an (z. B. ein „vs“-Symbol für Sportseiten).",
                 "hero_deco_divider_icon_label": "Symbolklasse des Trennsymbols",
                 "hero_deco_divider_icon_help": "Font Awesome-Klasse für das Trennsymbol, z. B. „fas fa-times“ oder „fas fa-circle“.",
                 "colored_enabled_label": "Farbakzente aktivieren",
-                "colored_enabled_help": "Wende die Farbe für aktive Themen oder Diskussionen auf die wichtigsten Schaltflächen, Links und andere UI-Akzente im gesamten Forum an.",
+                "colored_enabled_help": "Wende die Farbe für das aktive Tag oder der Diskussionen auf die wichtigsten Schaltflächen, Links und andere UI-Akzente im gesamten Forum an.",
                 "colored_border_style_label": "Rahmenstil für Diskussionskarten",
                 "colored_border_style_help": "Füge den Diskussionskarten einen farbigen Rand hinzu, der der Farbe des Haupt-Themas entspricht.",
                 "colored_border_style_none": "Keinen",
@@ -117,8 +117,8 @@
                 "hide_links_for_guests_help": "Verhindert, dass Gäste Links in Beiträgen anklicken können. Beim Anklicken eines Links wird stattdessen eine Aufforderung zum Anmelden oder Registrieren angezeigt.",
                 "custom_default_avatar_label": "Benutzerdefinierter Standard-Avatar",
                 "custom_default_avatar_help": "Lade ein benutzerdefiniertes Standard-Avatarbild für Benutzer hoch, die keinen Avatar haben.",
-                "hero_image_tags_label": "Themen, die ein Hero-Bild erfordern",
-                "hero_image_tags_help": "Wenn der Benutzer einem neuen Beitrag eines dieser Themen hinzufügt, wird im Editor ein optionales Feld zum Hochladen von Bildern angezeigt. Das hochgeladene Bild wird als Hintergrund für die Beitragsüberschrift und als erstes Bild in der Vorschau auf der Startseite angezeigt.",
+                "hero_image_tags_label": "Tags, die ein Hero-Bild erfordern",
+                "hero_image_tags_help": "Wenn der Benutzer einem neuen Beitrag eines dieser Tags hinzufügt, wird im Editor ein optionales Feld zum Hochladen von Bildern angezeigt. Das hochgeladene Bild wird als Hintergrund für die Beitragsüberschrift und als erstes Bild in der Vorschau auf der Startseite angezeigt.",
                 "team_enabled_label": "Teamseite aktivieren",
                 "team_enabled_help": "Zeige eine /team-Seite an, auf der die Mitglieder der ausgewählten Gruppen aufgelistet sind.",
                 "team_title_label": "Seitentitel",
@@ -166,7 +166,7 @@
                 "online": "online"
             },
             "tag_picker": {
-                "remove": "Thema entfernen"
+                "remove": "Tag entfernen"
             },
             "actions": {
                 "share": "Teilen"
@@ -207,7 +207,7 @@
                 "results": "Suchergebnisse",
                 "results_for": "Ergebnisse für",
                 "tip": "Tipp: Präfix ",
-                "tip_suffix": " um nach Themen zu filtern",
+                "tip_suffix": " um nach Tags zu filtern",
                 "esc_key": "ESC"
             },
             "header": {
@@ -237,7 +237,7 @@
                 "badge_sticky": "Angeheftet",
                 "badge_unread_tooltip": "{count} ungelesene Beiträge",
                 "categories_heading": "Kategorien",
-                "choose_tags": "Themen auswählen",
+                "choose_tags": "Tags auswählen",
                 "bypass_tag_requirements": "Themenanforderung umgehen",
                 "choose_primary_tag_singular": "1 Hauptthema auswählen",
                 "choose_primary_tag_plural": "{count} Hauptthemen auswählen",
@@ -257,7 +257,7 @@
                 "composer_hero_image_upload_failed": "Das Titelbild konnte nicht hochgeladen werden. Du kannst es auf der Diskussionsseite erneut versuchen.",
                 "discussion_singular": "Diskussion",
                 "discussions": "Diskussionen",
-                "filter_tags": "Themen filtern",
+                "filter_tags": "Tags filtern",
                 "following_heading": "Folgend",
                 "like": "Like",
                 "like_count_plural": "{count} Likes",
@@ -265,7 +265,7 @@
                 "log_in": "Anmelden",
                 "more": "mehr",
                 "new_discussion": "Neue Diskussion",
-                "no_tags_found": "Keine Themen gefunden",
+                "no_tags_found": "Keine Tags gefunden",
                 "or": "oder",
                 "popular_heading": "Populäre Diskussionen",
                 "popular_no_discussions": "Noch keine Diskussionen.",
@@ -354,11 +354,11 @@
                 "home": "Start",
                 "discussion_singular": "Diskussion",
                 "discussion_plural": "Diskussionen",
-                "other_tags_label": "Andere Themen",
+                "other_tags_label": "Andere Tags",
                 "featured": "Hervorgehoben",
                 "all_discussions": "Alle Diskussionen",
                 "empty": "In dieser Kategorie gibt es noch keine Diskussionen.",
-                "not_found": "Thema nicht gefunden.",
+                "not_found": "Tag nicht gefunden.",
                 "load_more": "Mehr laden"
             },
             "team": {

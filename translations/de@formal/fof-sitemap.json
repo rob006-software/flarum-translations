@@ -5,7 +5,7 @@
                 "exclude_users": "Nutzerprofile von Sitemap ausschließen",
                 "exclude_users_help": "Standardmäßig wird jeder Nutzer, der für Gäste sichtbar ist, indiziert",
                 "exclude_tags": "Alle Themenseiten von Sitemap ausschließen",
-                "exclude_tags_help": "Standardmäßig werden alle Themen, die für Gäste sichtbar ist, indiziert",
+                "exclude_tags_help": "Standardmäßig werden alle Tags, die für Gäste sichtbar ist, indiziert",
                 "build_button": "Sitemaps jetzt neu erstellen",
                 "build_button_help": "Löst eine sofortige Neuerstellung aller Sitemaps-Dateien aus. Der Auftrag wird in die Warteschlange eingereiht, sofern diese konfiguriert ist, andernfalls wird er sofort ausgeführt.",
                 "build_success": "Neuerstellung der Sitemap wurde erfolgreich in die Warteschlange eingereiht. Du kannst den Fortschritt in den Logs verfolgen.",
@@ -48,8 +48,8 @@
                     },
                     "tags": {
                         "discussion": {
-                            "minimum_item_threshold_label": "Thema: Mindestanzahl an Diskussionen",
-                            "minimum_item_threshold_help": "Die Mindestanzahl an Diskussionen, über die ein Thema verfügen muss, damit es in die Sitemap aufgenommen wird."
+                            "minimum_item_threshold_label": "Tag: Mindestanzahl an Diskussionen",
+                            "minimum_item_threshold_help": "Die Mindestanzahl an Diskussionen, über die ein Tag verfügen muss, damit es in die Sitemap aufgenommen wird."
                         }
                     }
                 }
