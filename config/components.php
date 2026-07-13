@@ -72,7 +72,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/datlechin/flarum-link-preview/v2.0.0-beta.2/locale/en.yml',
 	],
 	'datlechin-mermaid' => [
-		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-mermaid/v1.0.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-mermaid/v1.1.0/locale/en.yml',
 	],
 	'datlechin-more-discussions' => [
 		'beta' => 'https://raw.githubusercontent.com/datlechin/flarum-more-discussions/v2.0.0-beta.1/locale/en.yml',
