@@ -615,7 +615,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/linkrobins/countdown-widget/v1.1.3/locale/en.yml',
 	],
 	'linkrobins-font-sizer' => [
-		'tag' => 'https://raw.githubusercontent.com/linkrobins/font-sizer/v1.4.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/linkrobins/font-sizer/v1.5.0/locale/en.yml',
 	],
 	'linkrobins-html-widget' => [
 		'tag' => 'https://raw.githubusercontent.com/linkrobins/html-widget/v1.1.2/locale/en.yml',
