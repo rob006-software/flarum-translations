@@ -77,8 +77,8 @@
                     "heading": "Steuerelemente für die Indizierung",
                     "profiles_label": "Profilseiten aus dem Index entfernen",
                     "profiles_help": "Wenn diese Option aktiviert ist, enthalten die Benutzerprofilseiten einen „noindex“-Meta-Tag, sodass sie aus den Suchergebnissen ausgeschlossen werden. Die Links auf der Seite werden weiterhin verfolgt, sodass Crawler die Inhalte, auf die sie verweisen, nach wie vor erreichen können.",
-                    "tags_help": "Beiträge in den ausgewählten Themen (sowie auf den jeweiligen Themen-Seiten) werden mithilfe eines „noindex“-Meta-Tags aus den Suchergebnissen ausgeschlossen. Links werden weiterhin verfolgt. Die Auswahl eines übergeordneten Themas umfasst auch dessen untergeordnete Themen.",
-                    "tags_button": "Themen auswählen",
+                    "tags_help": "Beiträge in den ausgewählten Tags (sowie auf den jeweiligen Tag-Seiten) werden mithilfe eines „noindex“-Meta-Tags aus den Suchergebnissen ausgeschlossen. Links werden weiterhin verfolgt. Die Auswahl eines übergeordneten Tags umfasst auch dessen untergeordnete Tags.",
+                    "tags_button": "Tags auswählen",
                     "tags_none_selected": "Es werden keine Tags von der Indizierung ausgeschlossen."
                 },
                 "nofollow": {
@@ -122,7 +122,7 @@
                     "generated_note": "Die Sitemap-Datei wird automatisch generiert und erfordert keine weitere Pflege.",
                     "which_extension_heading": "Welche Erweiterung soll ich installieren?",
                     "which_extension_body": "{link} ist die empfohlene Erweiterung für Flarum. Wir empfehlen nachdrücklich, diese zu installieren und zu aktivieren.",
-                    "which_extension_details": "Diese Erweiterung sorgt dafür, dass Crawler deine <b>Diskussionen</b>, <b>Themen</b> (sofern die Erweiterung aktiviert ist) und <b>Seiten</b> (sofern die Erweiterung installiert und aktiviert ist) finden. Außerdem wird automatisch eine sitemap.xml bereitgestellt.",
+                    "which_extension_details": "Diese Erweiterung sorgt dafür, dass Crawler deine <b>Diskussionen</b>, <b>Tags</b> (sofern die Erweiterung aktiviert ist) und <b>Seiten</b> (sofern die Erweiterung installiert und aktiviert ist) finden. Außerdem wird automatisch eine sitemap.xml bereitgestellt.",
                     "robots_heading": "Was hat es mit der robots.txt-Datei auf sich?",
                     "robots_body": "Die selbe Erweiterung erstellt außerdem eine <b>robots.txt</b> für dein Forum. Diese Datei teilt Suchmaschinen mit, welche Bereiche sie crawlen dürfen, und verweist sie auf die Sitemap. Durch die Installation werden also beide Dateien auf einmal eingerichtet – es sind keine zusätzlichen Konfigurationen erforderlich.",
                     "just_installed_heading": "Ich habe die Erweiterung gerade installiert",
