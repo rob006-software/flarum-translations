@@ -83,5 +83,17 @@
                 "spammer_button": "Spammer"
             }
         }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "user": {
+                    "marked_as_spammer": "Marked {username} as a spammer"
+                },
+                "registration": {
+                    "blocked": "Blocked registration for {username} ({email}) from {ip}"
+                }
+            }
+        }
     }
 }

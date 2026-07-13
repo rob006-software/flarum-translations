@@ -85,5 +85,17 @@
                 "spammer_button": "Spamer"
             }
         }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "user": {
+                    "marked_as_spammer": ""
+                },
+                "registration": {
+                    "blocked": ""
+                }
+            }
+        }
     }
 }

@@ -84,5 +84,17 @@
                 "spammer_button": "垃圾账号"
             }
         }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "user": {
+                    "marked_as_spammer": ""
+                },
+                "registration": {
+                    "blocked": ""
+                }
+            }
+        }
     }
 }
