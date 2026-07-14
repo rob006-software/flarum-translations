@@ -2,19 +2,19 @@
     "datlechin-mermaid": {
         "admin": {
             "settings": {
-                "theme_label": "",
-                "theme_help": "",
+                "theme_label": "Diagramm-Design",
+                "theme_help": "So werden Diagramme eingefärbt. Die Option „An Forum-Design anpassen“ übernimmt die Farben deines Forums und passt sich dem hellen und dunklen Modus an.",
                 "theme_options": {
-                    "flarum": "",
-                    "auto": "",
-                    "default": "",
-                    "dark": "",
-                    "neutral": "",
-                    "forest": ""
+                    "flarum": "An Forum-Design anpassen",
+                    "auto": "Mermaid hell & dunkel",
+                    "default": "Mermaid Standard",
+                    "dark": "Mermaid dunkel",
+                    "neutral": "Mermaid neutral",
+                    "forest": "Mermaid Wald"
                 },
-                "font_family_label": "",
-                "font_family_help": "",
-                "font_family_placeholder": "",
+                "font_family_label": "Schriftart",
+                "font_family_help": "Beliebiger CSS-Schriftart-Stapel, zum Beispiel: „Inter“, system-ui, sans-serif. Lasse das Feld leer, um die Schriftart zu verwenden, die dein Forum für den Beitragstext nutzt.",
+                "font_family_placeholder": "Aus dem Forum übernehmen",
                 "description": "Es sind noch keine Einstellungen vorhanden. Mermaid-Diagramme werden automatisch innerhalb von umschlossenen ```Mermaid-Code-Blöcken gerendert."
             }
         }
