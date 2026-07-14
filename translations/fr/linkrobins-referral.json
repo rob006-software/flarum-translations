@@ -7,6 +7,7 @@
                 "invite_code_help": "Partagez votre code ou votre lien d'invitation. Toute personne qui cliquera sur votre lien verra le code s'afficher automatiquement lors de son inscription.",
                 "copy": "Copier",
                 "copy_link": "Copier le lien d'invitation",
+                "qr_button": "",
                 "total_referrals": "Nombre total de recommandations",
                 "no_referrals": "Aucune recommandation pour le moment. Partagez votre code d'invitation pour commencer !",
                 "not_eligible": "Vous n’êtes pas encore éligible pour recevoir un code d'invitation personnel. Continuez à participer et revenez plus tard."
@@ -19,6 +20,14 @@
             "user_card": {
                 "referrals_singular": "{count} recommandation",
                 "referrals_plural": "{count} recommandations"
+            },
+            "notifications": {
+                "registered_text": "",
+                "someone": "",
+                "group_label": ""
+            },
+            "settings": {
+                "notify_registered_label": ""
             }
         },
         "admin": {
@@ -54,12 +63,25 @@
                 "no_expiry": "Jamais",
                 "expired": "expiré",
                 "delete": "Supprimer",
+                "qr": "",
                 "confirm_delete": "Supprimer ce code de campagne ? Toute personne qui utilise ce code ne pourra plus s'inscrire avec."
+            }
+        },
+        "lib": {
+            "qr": {
+                "title": "",
+                "download": ""
             }
         },
         "api": {
             "invalid_expiry": "Date d'expiration invalide.",
             "label_too_long": "Le libellé est trop long."
+        },
+        "email": {
+            "registered_subject": "",
+            "registered_body": "",
+            "view_profile": "",
+            "someone": ""
         },
         "validation": {
             "required": "Un code d'invitation est requis pour s'inscrire.",

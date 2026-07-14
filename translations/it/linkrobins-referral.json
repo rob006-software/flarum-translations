@@ -7,6 +7,7 @@
                 "invite_code_help": "",
                 "copy": "",
                 "copy_link": "",
+                "qr_button": "",
                 "total_referrals": "",
                 "no_referrals": "",
                 "not_eligible": ""
@@ -19,6 +20,14 @@
             "user_card": {
                 "referrals_singular": "",
                 "referrals_plural": ""
+            },
+            "notifications": {
+                "registered_text": "",
+                "someone": "",
+                "group_label": ""
+            },
+            "settings": {
+                "notify_registered_label": ""
             }
         },
         "admin": {
@@ -54,12 +63,25 @@
                 "no_expiry": "",
                 "expired": "",
                 "delete": "",
+                "qr": "",
                 "confirm_delete": ""
+            }
+        },
+        "lib": {
+            "qr": {
+                "title": "",
+                "download": ""
             }
         },
         "api": {
             "invalid_expiry": "",
             "label_too_long": ""
+        },
+        "email": {
+            "registered_subject": "",
+            "registered_body": "",
+            "view_profile": "",
+            "someone": ""
         },
         "validation": {
             "required": "",

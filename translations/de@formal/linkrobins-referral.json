@@ -7,6 +7,7 @@
                 "invite_code_help": "Teile deinen Code oder deinen Empfehlungslink. Bei jedem, der deinen Link folgt, wird der Code bei der Registrierung automatisch vorausgefüllt.",
                 "copy": "Kopieren",
                 "copy_link": "Empfehlungslink kopieren",
+                "qr_button": "",
                 "total_referrals": "Weiterempfehlungen insgesamt",
                 "no_referrals": "Noch keine Weiterempfehlungen. Teile deinen Einladungscode, um loszulegen!",
                 "not_eligible": "Du hast noch keinen persönlichen Einladungscode freigeschaltet. Mach weiter mit und schau später noch einmal vorbei."
@@ -19,6 +20,14 @@
             "user_card": {
                 "referrals_singular": "{count} Empfehlung",
                 "referrals_plural": "{count} Empfehlungen"
+            },
+            "notifications": {
+                "registered_text": "",
+                "someone": "",
+                "group_label": ""
+            },
+            "settings": {
+                "notify_registered_label": ""
             },
             "notification": {
                 "user_referred": "{displayName} hat sich mit deinem Einladungscode registriert!"
@@ -57,12 +66,25 @@
                 "no_expiry": "Nie",
                 "expired": "abgelaufen",
                 "delete": "Löschen",
+                "qr": "",
                 "confirm_delete": "Diesen Aktionscode löschen? Wer ihn verwendet, kann sich damit nicht mehr registrieren."
+            }
+        },
+        "lib": {
+            "qr": {
+                "title": "",
+                "download": ""
             }
         },
         "api": {
             "invalid_expiry": "Ungültiges Ablaufdatum.",
             "label_too_long": "Die Beschriftung ist zu lang."
+        },
+        "email": {
+            "registered_subject": "",
+            "registered_body": "",
+            "view_profile": "",
+            "someone": ""
         },
         "validation": {
             "required": "Für die Registrierung ist ein Einladungscode erforderlich.",

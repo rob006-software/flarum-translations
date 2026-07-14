@@ -7,6 +7,7 @@
                 "invite_code_help": "分享你的邀请码或链接。用户通过你的邀请链接访问本站并注册时，邀请码将自动填入。",
                 "copy": "复制",
                 "copy_link": "复制邀请链接",
+                "qr_button": "",
                 "total_referrals": "邀请总人数",
                 "no_referrals": "暂无邀请记录。快快分享你的邀请码吧！",
                 "not_eligible": "你尚未获得个人邀请码权限。多在论坛保持活跃，过段时间再来看看吧。"
@@ -19,6 +20,14 @@
             "user_card": {
                 "referrals_singular": "成功邀请{count}人",
                 "referrals_plural": "成功邀请{count}人"
+            },
+            "notifications": {
+                "registered_text": "",
+                "someone": "",
+                "group_label": ""
+            },
+            "settings": {
+                "notify_registered_label": ""
             }
         },
         "admin": {
@@ -54,12 +63,25 @@
                 "no_expiry": "永久",
                 "expired": "已过期",
                 "delete": "删除",
+                "qr": "",
                 "confirm_delete": "确认删除该全局邀请码？用户将无法继续使用此邀请码注册。"
+            }
+        },
+        "lib": {
+            "qr": {
+                "title": "",
+                "download": ""
             }
         },
         "api": {
             "invalid_expiry": "有效期日期无效。",
             "label_too_long": ""
+        },
+        "email": {
+            "registered_subject": "",
+            "registered_body": "",
+            "view_profile": "",
+            "someone": ""
         },
         "validation": {
             "required": "注册必须使用邀请码。",

@@ -7,6 +7,7 @@
                 "invite_code_help": "Share your code or referral link. Anyone who visits your link will have the code pre-filled automatically when they sign up.",
                 "copy": "Copy",
                 "copy_link": "Copy Referral Link",
+                "qr_button": "QR Code",
                 "total_referrals": "Total Referrals",
                 "no_referrals": "No referrals yet. Share your invite code to get started!",
                 "not_eligible": "You're not eligible for a personal invite code yet. Keep participating and check back later."
@@ -19,6 +20,14 @@
             "user_card": {
                 "referrals_singular": "{count} referral",
                 "referrals_plural": "{count} referrals"
+            },
+            "notifications": {
+                "registered_text": "{name} joined using your invite code",
+                "someone": "Someone",
+                "group_label": "Referrals"
+            },
+            "settings": {
+                "notify_registered_label": "Someone joins using your invite code"
             }
         },
         "admin": {
@@ -54,12 +63,25 @@
                 "no_expiry": "Never",
                 "expired": "expired",
                 "delete": "Delete",
+                "qr": "Show QR code",
                 "confirm_delete": "Delete this campaign code? Anyone using it will no longer be able to register with it."
+            }
+        },
+        "lib": {
+            "qr": {
+                "title": "Invite QR code: {code}",
+                "download": "Download PNG"
             }
         },
         "api": {
             "invalid_expiry": "Invalid expiry date.",
             "label_too_long": "The label is too long."
+        },
+        "email": {
+            "registered_subject": "{name} joined using your invite code",
+            "registered_body": "Good news! {name} just registered on the forum using your invite code.",
+            "view_profile": "View their profile",
+            "someone": "Someone"
         },
         "validation": {
             "required": "An invite code is required to register.",

@@ -220,6 +220,7 @@
                 "whos_turn": "{name}'s turn"
             },
             "profile": {
+                "load_error": "Failed to load profile data. Try refreshing the page",
                 "stats": {
                     "wins": "{n, plural, one {Win} other {Wins}}",
                     "losses": "{n, plural, one {Loss} other {Losses}}",

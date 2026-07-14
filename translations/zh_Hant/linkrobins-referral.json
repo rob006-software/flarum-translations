@@ -7,6 +7,7 @@
                 "invite_code_help": "分享你的邀请码或邀请链接。其他人通过你的邀请链接注册时，邀请码将会自动填入。",
                 "copy": "复制邀请码",
                 "copy_link": "复制邀请链接",
+                "qr_button": "",
                 "total_referrals": "总邀请人数",
                 "no_referrals": "暂无邀请记录。快快分享你的邀请链接吧！",
                 "not_eligible": ""
@@ -19,6 +20,14 @@
             "user_card": {
                 "referrals_singular": "",
                 "referrals_plural": ""
+            },
+            "notifications": {
+                "registered_text": "",
+                "someone": "",
+                "group_label": ""
+            },
+            "settings": {
+                "notify_registered_label": ""
             }
         },
         "admin": {
@@ -54,12 +63,25 @@
                 "no_expiry": "",
                 "expired": "",
                 "delete": "",
+                "qr": "",
                 "confirm_delete": ""
+            }
+        },
+        "lib": {
+            "qr": {
+                "title": "",
+                "download": ""
             }
         },
         "api": {
             "invalid_expiry": "",
             "label_too_long": ""
+        },
+        "email": {
+            "registered_subject": "",
+            "registered_body": "",
+            "view_profile": "",
+            "someone": ""
         },
         "validation": {
             "required": "注册必须提供邀请码。",
