@@ -7,7 +7,7 @@
                 "invite_code_help": "Teile deinen Code oder deinen Empfehlungslink. Bei jedem, der deinen Link folgt, wird der Code bei der Registrierung automatisch vorausgefüllt.",
                 "copy": "Kopieren",
                 "copy_link": "Empfehlungslink kopieren",
-                "qr_button": "",
+                "qr_button": "QR-Code",
                 "total_referrals": "Weiterempfehlungen insgesamt",
                 "no_referrals": "Noch keine Weiterempfehlungen. Teile deinen Einladungscode, um loszulegen!",
                 "not_eligible": "Du hast noch keinen persönlichen Einladungscode freigeschaltet. Mach weiter mit und schau später noch einmal vorbei."
@@ -22,12 +22,12 @@
                 "referrals_plural": "{count} Empfehlungen"
             },
             "notifications": {
-                "registered_text": "",
-                "someone": "",
-                "group_label": ""
+                "registered_text": "{name} hat sich über deinen Einladungscode angemeldet",
+                "someone": "Jemand",
+                "group_label": "Weiterempfehlungen"
             },
             "settings": {
-                "notify_registered_label": ""
+                "notify_registered_label": "Jemand meldet sich mit deinem Einladungscode an"
             },
             "notification": {
                 "user_referred": "{displayName} hat sich mit deinem Einladungscode registriert!"
@@ -66,14 +66,14 @@
                 "no_expiry": "Nie",
                 "expired": "abgelaufen",
                 "delete": "Löschen",
-                "qr": "",
+                "qr": "QR-Code anzeigen",
                 "confirm_delete": "Diesen Aktionscode löschen? Wer ihn verwendet, kann sich damit nicht mehr registrieren."
             }
         },
         "lib": {
             "qr": {
-                "title": "",
-                "download": ""
+                "title": "Einladungs-QR-Code: {code}",
+                "download": "PNG herunterladen"
             }
         },
         "api": {
@@ -81,10 +81,10 @@
             "label_too_long": "Die Beschriftung ist zu lang."
         },
         "email": {
-            "registered_subject": "",
-            "registered_body": "",
-            "view_profile": "",
-            "someone": ""
+            "registered_subject": "{name} hat sich über deinen Einladungscode angemeldet",
+            "registered_body": "Gute Nachrichten! {name} hat sich gerade mit deinem Einladungscode im Forum registriert.",
+            "view_profile": "Profil anzeigen",
+            "someone": "Jemand"
         },
         "validation": {
             "required": "Für die Registrierung ist ein Einladungscode erforderlich.",
