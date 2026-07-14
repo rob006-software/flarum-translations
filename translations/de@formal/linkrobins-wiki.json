@@ -8,12 +8,12 @@
             },
             "index_layout": {
                 "heading": "Wiki-Startseite",
-                "intro": "",
-                "label": "",
-                "help": "",
-                "shortcodes_heading": "",
-                "shortcode_articles": "",
-                "shortcode_articles_cat": "",
+                "intro": "Gestalte den Inhalt der /wiki-Startseite mithilfe von Shortcodes. Lasse das Feld leer, um einfach alle Artikel aufzulisten.",
+                "label": "Layout der Startseite",
+                "help": "Jeder Shortcode steht in einer eigenen Zeile. Zeilen, die keine Shortcodes sind, werden als Text angezeigt; Zeilen, die mit #, ## oder ### beginnen, werden zu Überschriften.",
+                "shortcodes_heading": "Verfügbare Shortcodes",
+                "shortcode_articles": "Alle Artikel auflisten.",
+                "shortcode_articles_cat": "Eine Kategorie auflisten (nach Slug oder ID), optional auf die N neuesten Einträge beschränkt. Füge title=\"…\" hinzu, um eine Überschrift zu erstellen.",
                 "shortcode_article": "",
                 "shortcode_categories": "",
                 "shortcode_heading": ""
