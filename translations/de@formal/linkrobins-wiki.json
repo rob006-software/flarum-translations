@@ -118,8 +118,8 @@
                 "placeholder": "Einen Kommentar verfassen…",
                 "post": "Kommentar schreiben",
                 "deleted": "Dieser Kommentar wurde gelöscht.",
-                "discard_confirm": "",
-                "empty_error": "",
+                "discard_confirm": "Du hast einen noch nicht abgeschickten Kommentar. Möchtest du ihn verwerfen?",
+                "empty_error": "Bitte schreib zuerst etwas.",
                 "confirm_delete": "Diesen Kommentar löschen?",
                 "confirm_delete_forever": "Diesen Kommentar endgültig löschen? Dieser Vorgang kann nicht rückgängig gemacht werden.",
                 "error_post": "Kommentar konnte nicht veröffentlicht werden.",
@@ -127,11 +127,11 @@
                 "error_delete": "Kommentar konnte nicht gelöscht werden."
             },
             "confirm": {
-                "soft_delete": "",
-                "delete_forever": ""
+                "soft_delete": "Diesen Artikel löschen? Bearbeiter können ihn später wiederherstellen.",
+                "delete_forever": "Diesen Artikel und seinen Versionsverlauf endgültig löschen? Dieser Vorgang kann nicht rückgängig gemacht werden."
             },
             "errors": {
-                "load_articles": "",
+                "load_articles": "Artikel konnten nicht geladen werden.",
                 "load_article": "",
                 "title_required": "",
                 "empty_body": "",
