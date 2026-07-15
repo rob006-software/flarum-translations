@@ -135,23 +135,23 @@
                 "load_article": "Dieser Artikel konnte nicht geladen werden. Möglicherweise wurde er gelöscht, oder du verfügst nicht über die Berechtigung, ihn anzuzeigen.",
                 "title_required": "Bitte gib einen Titel ein.",
                 "empty_body": "Bitte verfasse den Artikeltext, bevor du ihn einreichst.",
-                "submit": "",
-                "delete_article": "",
-                "restore_article": "",
-                "delete_article_forever": "",
-                "upload": "",
-                "upload_no_files": "",
-                "unknown": ""
+                "submit": "Artikel konnte nicht gespeichert werden.",
+                "delete_article": "Artikel konnte nicht gelöscht werden.",
+                "restore_article": "Artikel konnte nicht wiederhergestellt werden.",
+                "delete_article_forever": "Artikel konnte nicht dauerhaft gelöscht werden.",
+                "upload": "Datei konnte nicht hochgeladen werden.",
+                "upload_no_files": "Beim Hochladen wurden keine Dateien gefunden. Bitte versuche es erneut.",
+                "unknown": "Unbekannter Fehler."
             }
         },
         "api": {
-            "title_required": "",
-            "content_required": "",
-            "article_soft_delete_first": "",
-            "article_required": "",
-            "article_not_found": "",
-            "comment_required": "",
-            "comment_soft_delete_first": ""
+            "title_required": "Ein Titel für den Artikel ist erforderlich.",
+            "content_required": "Artikelinhalt ist erforderlich.",
+            "article_soft_delete_first": "Ein Artikel muss erst gelöscht werden, bevor er endgültig entfernt werden kann.",
+            "article_required": "Ein Artikel ist erforderlich.",
+            "article_not_found": "Artikel nicht gefunden.",
+            "comment_required": "Kommentarinhalt ist erforderlich.",
+            "comment_soft_delete_first": "Ein Kommentar muss erst gelöscht werden, bevor er endgültig entfernt werden kann."
         }
     }
 }
