@@ -71,6 +71,12 @@ return [
 	'askvortsov-saml' => [
 		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-saml/v2.4.0/resources/locale/en.yml',
 	],
+	'bigreja-bragalotto' => [
+		'tag' => 'https://raw.githubusercontent.com/bigreja/bragalotto/1.1/resources/locale/en.yml',
+		'__builtInLanguages' => [
+			'pt',
+		],
+	],
 	'blessing-oauth-client' => [
 		'tag' => 'https://raw.githubusercontent.com/bs-community/flarum-oauth-client/v2.0.2/locale/en.yml',
 	],
