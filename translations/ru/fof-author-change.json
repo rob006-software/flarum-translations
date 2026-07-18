@@ -2,30 +2,30 @@
     "fof-author-change": {
         "forum": {
             "controls": {
-                "edit": ""
+                "edit": "Изменить автора и дату"
             },
             "modal": {
-                "title-post": "",
-                "title-discussion": "",
-                "user": "",
-                "created_at": "",
-                "edited_at": "",
-                "sync-with-discussion": "",
-                "sync-with-post": "",
-                "sync-impossible": "",
-                "submit": "",
-                "cancel": ""
+                "title-post": "Изменение автора сообщения и дату",
+                "title-discussion": "Изменение автора темы и даты",
+                "user": "Автор",
+                "created_at": "Время публикации",
+                "edited_at": "Время редактирования",
+                "sync-with-discussion": "Синхронизировать с темой",
+                "sync-with-post": "Синхронизировать с первым сообщением",
+                "sync-impossible": "Не удалось найти первое сообщение. Попробуйте подняться к началу темы.",
+                "submit": "Сохранить",
+                "cancel": "Отмена"
             },
             "search": {
-                "placeholder": "",
-                "type-more": "",
-                "no-results": ""
+                "placeholder": "Поиск пользователей",
+                "type-more": "Введите 3 символа для поиска в базе данных",
+                "no-results": "Результаты отсутствуют"
             }
         },
         "admin": {
             "permissions": {
-                "edit-user": "",
-                "edit-date": ""
+                "edit-user": "Изменять автора темы и сообщения",
+                "edit-date": "Изменять дату темы и сообщения"
             }
         }
     }
