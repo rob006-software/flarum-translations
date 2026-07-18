@@ -2,25 +2,25 @@
     "club-1-cross-references": {
         "admin": {
             "show_discussion_id": {
-                "label": "",
-                "help": ""
+                "label": "Показывать ID темы",
+                "help": "Добавлять номера ID темы везде, где отображается тема."
             },
             "enable_short_references": {
-                "label": "",
-                "help": ""
+                "label": "Включить краткие ссылки",
+                "help": "Преобразовывать текст #<ID> в сообщениях — например #42 — в ссылки на соответствующую тему."
             },
             "retrofit_links_in_frontend": {
-                "label": "",
-                "help": ""
+                "label": "Добавлять ссылки в интерфейс",
+                "help": "<p><strong>Устарело</strong> (будет удалено в <code>v1.2.0</code>) Рассмотрите использование команды <code>chore:reparse</code> расширения <code>club-1/flarum-ext-chore-commands</code> вместо этого. См.: <code>https://github.com/club-1/flarum-ext-chore-commands</code></p> <p>Показывать заголовки ссылок тем в сообщениях, отправленных когда это расширение было отключено. Это делается в интерфейсе, поэтому может привести к плохому опыту пользователя.</p>\n"
             }
         },
         "forum": {
             "post_stream": {
                 "discussion_referenced_text": "{username} упомянул(а) эту тему в {source}",
-                "discussion_referenced_multiple_text": ""
+                "discussion_referenced_multiple_text": "{username} ссылается на эту тему из нескольких источников: {sources}"
             },
-            "unknown_discussion": "",
-            "comment": ""
+            "unknown_discussion": "[неизвестная тема]",
+            "comment": "сообщение"
         }
     }
 }
