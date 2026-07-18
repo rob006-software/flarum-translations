@@ -2,35 +2,35 @@
     "fof-upgrade-advisor": {
         "admin": {
             "overall": {
-                "subtitle": "",
-                "pass": "",
-                "warning": "",
-                "fail": ""
+                "subtitle": "Готовность к обновлению Flarum {version}.",
+                "pass": "Ваш форум готов к обновлению Flarum {version}",
+                "warning": "Ваш форум почти готов к обновлению Flarum {version}",
+                "fail": "Ваш форум ещё не готов к обновлению Flarum {version}"
             },
             "categories": {
-                "environment": "",
-                "database": "",
-                "extensions": ""
+                "environment": "Окружение сервера",
+                "database": "База данных",
+                "extensions": "Расширения"
             },
             "checks": {
                 "php-version": {
-                    "title": "",
-                    "pass": "",
-                    "warning": "",
-                    "fail": ""
+                    "title": "Версия PHP",
+                    "pass": "Установлена PHP {current}.",
+                    "warning": "Не удалось определить версию PHP.",
+                    "fail": "Установлена PHP {current}, но требуется {required} или новее."
                 },
                 "database-version": {
-                    "title": "",
-                    "pass": "",
-                    "warning_unknown": "",
-                    "warning_below_recommended": "",
-                    "fail": ""
+                    "title": "Версия базы данных",
+                    "pass": "Установлена {current}.",
+                    "warning_unknown": "Не удалось определить версию сервера базы данных.",
+                    "warning_below_recommended": "{current} работает, но для лучшего опыта рекомендуется {recommended} или новее.",
+                    "fail": "Установлена {current}, но для Flarum 2.0 требуется минимум {required}."
                 },
                 "extension-compatibility": {
-                    "title": "",
-                    "pass": "",
-                    "warning": "",
-                    "fail": ""
+                    "title": "Совместимость расширений",
+                    "pass": "Все {current} включённых расширений готовы.",
+                    "warning": "{current} включённых расширений не удалось проверить — они могут быть премиум-расширениями или приватными. Добавьте доступ во вкладке «Репозитории».",
+                    "fail": "{current} включённых расширений требуют действия перед обновлением."
                 }
             },
             "extensions": {
