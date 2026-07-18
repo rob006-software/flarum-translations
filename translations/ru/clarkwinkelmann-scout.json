@@ -2,34 +2,34 @@
     "clarkwinkelmann-scout": {
         "admin": {
             "setting": {
-                "driver": "",
+                "driver": "Драйвер",
                 "driverOption": {
-                    "null": "",
-                    "algolia": "",
-                    "meilisearch": "",
-                    "tntsearch": ""
+                    "null": "Отсутствует",
+                    "algolia": "Algolia",
+                    "meilisearch": "Meilisearch",
+                    "tntsearch": "TNTSearch"
                 },
-                "prefix": "",
-                "queue": "",
-                "queueHelp": "",
-                "limit": "",
-                "limitPlaceholder": "",
-                "limitHelp": "",
-                "queryMinLength": "",
-                "queryMinLengthPlaceholder": "",
-                "queryMinLengthHelp": "",
-                "algoliaId": "",
-                "algoliaSecret": "",
-                "algoliaConnectTimeout": "",
-                "algoliaReadTimeout": "",
-                "algoliaWriteTimeout": "",
-                "meilisearchHost": "",
-                "meilisearchKey": "",
-                "tntsearchMaxDocs": "",
-                "tntsearchFuzziness": "",
-                "tntsearchFuzzyDistance": "",
-                "tntsearchFuzzyPrefixLength": "",
-                "tntsearchFuzzyMaxExpansions": ""
+                "prefix": "Префикс имени индекса — опционально",
+                "queue": "Обрабатывать обновления индекса в очереди",
+                "queueHelp": "Этот параметр имеет эффект только если в Flarum настроен асинхронный драйвер очереди.",
+                "limit": "Лимит результатов по умолчанию",
+                "limitPlaceholder": "Автоматически",
+                "limitHelp": "Это переопределит количество результатов, запрашиваемых у поисковой системы, и повлияет на количество страниц результатов, которые могут быть сгенерированы — лимит также учитывает контент, который пользователь не сможет видеть. Некоторые движки могут требовать дополнительной настройки для изменения максимально допустимого значения.\n",
+                "queryMinLength": "Минимальная длина запроса для подсказок",
+                "queryMinLengthPlaceholder": "Автоматически",
+                "queryMinLengthHelp": "Этот параметр влияет только на выпадающее меню подсказок в поле поиска в заголовке. Flarum имеет минимальную длину запроса 3 символа перед получением подсказок, которую вы можете переопределить этим параметром. Полная страница результатов поиска никогда не имеет минимальной длины запроса. Вы должны очистить кеш после изменения этого значения.\n",
+                "algoliaId": "ID Algolia",
+                "algoliaSecret": "Секрет Algolia",
+                "algoliaConnectTimeout": "Тайм-аут подключения Algolia — опционально",
+                "algoliaReadTimeout": "Тайм-аут чтения Algolia — опционально",
+                "algoliaWriteTimeout": "Тайм-аут записи Algolia — опционально",
+                "meilisearchHost": "Хост Meilisearch",
+                "meilisearchKey": "Ключ Meilisearch",
+                "tntsearchMaxDocs": "Максимум документов TNT Search — опционально",
+                "tntsearchFuzziness": "Нечёткий поиск TNT Search — совпадение опечаток/вариаций",
+                "tntsearchFuzzyDistance": "Расстояние Левенштейна нечёткого поиска TNT Search — опционально",
+                "tntsearchFuzzyPrefixLength": "Длина префикса нечёткого поиска TNT Search — опционально",
+                "tntsearchFuzzyMaxExpansions": "Максимум расширений нечёткого поиска TNT Search — опционально"
             }
         }
     }
