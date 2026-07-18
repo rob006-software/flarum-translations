@@ -2,32 +2,32 @@
     "guest-posting": {
         "forum": {
             "alert": {
-                "create-account": "",
-                "create-account-votes-only": "",
-                "create-account-posts-and-votes": "",
-                "signup": ""
+                "create-account": "Создайте учётную запись и импортируйте ваши {count} сообщений!",
+                "create-account-votes-only": "Создайте учётную запись и импортируйте ваши {count} голосов!",
+                "create-account-posts-and-votes": "Создайте учётную запись и импортируйте ваши {postCount} сообщений и {voteCount} голосов!",
+                "signup": "Зарегистрироваться"
             },
             "modal": {
-                "import": "",
-                "import-votes": ""
+                "import": "Импортировать мои {count} гостевых сообщений",
+                "import-votes": "Импортировать мои {postCount} гостевых сообщений и {voteCount} голосов"
             },
             "badge": {
-                "guest": ""
+                "guest": "Гость"
             }
         },
         "admin": {
             "settings": {
-                "title": "",
-                "enableImport": "",
-                "sessionLifetime": "",
-                "usernames": ""
+                "title": "Параметры гостевых сообщений",
+                "enableImport": "Включить импорт существующих сообщений при регистрации",
+                "sessionLifetime": "Время жизни гостевой сессии в часах",
+                "usernames": "Случайные имена пользователей для гостей"
             }
         }
     },
     "core": {
         "lib": {
             "username": {
-                "deleted_text": ""
+                "deleted_text": "Гость"
             }
         }
     }
