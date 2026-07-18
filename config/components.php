@@ -161,6 +161,9 @@ return [
 	'ernestdefoe-onair' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/onair/v0.1.4/locale/en.yml',
 	],
+	'ernestdefoe-projects' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/projects/v1.5.1/resources/locale/en.yml',
+	],
 	'ernestdefoe-respawn' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/respawn/3.0.3/locale/en.yml',
 	],
