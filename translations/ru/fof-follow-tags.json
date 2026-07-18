@@ -3,7 +3,7 @@
         "forum": {
             "settings": {
                 "notify_new_discussion_label": "Кто-то создал тему в теге из моих подписок",
-                "notify_new_post_label": "Публикация сообщения в теге, на который я подписан",
+                "notify_new_post_label": "Кто-то отправил сообщение в теге из моих подписок",
                 "notify_new_discussion_tag_label": "Кто-то переместил тему в тег из моих подписок"
             },
             "index": {
@@ -45,10 +45,10 @@
                 "new_discussion_tag_text": "{username} изменил(а) тег"
             },
             "prompt": {
-                "choose_button": "",
-                "modal_title": "",
-                "later_button": "",
-                "continue_button": ""
+                "choose_button": "Выбрать теги для отслеживания",
+                "modal_title": "Выбор тегов",
+                "later_button": "Напомнить позже",
+                "continue_button": "Перейти на форум"
             },
             "user": {
                 "settings": {
@@ -62,23 +62,23 @@
                 "following_page_default_label": "Фильтр страницы подписок по умолчанию",
                 "following_none_label": "=> fof-follow-tags.ref.filtering_options.none",
                 "following_tags_label": "=> fof-follow-tags.ref.filtering_options.tags",
-                "prompt_new_users_label": "",
-                "prompt_new_users_help": "",
-                "prompt_button_on_following_page_label": "",
-                "prompt_tag_strategy_label": "",
+                "prompt_new_users_label": "Предложить новым пользователям выбрать теги для отслеживания",
+                "prompt_new_users_help": "Пользователям, которые ещё не выбрали теги, будет показано модальное окно с просьбой выбрать теги для отслеживания. Оно будет появляться при каждом визите, пока пользователь не нажмёт «Перейти на форум».\n",
+                "prompt_button_on_following_page_label": "Показывать кнопку «Выбрать теги для отслеживания» на странице подписок",
+                "prompt_tag_strategy_label": "Какие теги предложить",
                 "prompt_tag_strategy_options": {
-                    "primary": "",
-                    "primaryAndChildren": "",
-                    "primaryAndSecondary": "",
-                    "secondary": "",
-                    "all": "",
-                    "list": ""
+                    "primary": "Основные теги первого уровня",
+                    "primaryAndChildren": "Все основные теги любого уровня",
+                    "primaryAndSecondary": "Основные теги первого уровня и дополнительные теги",
+                    "secondary": "Только дополнительные теги",
+                    "all": "Все теги",
+                    "list": "Теги, выбранные ниже"
                 },
-                "prompt_tag_ids_label": "",
-                "all_discussions_on_following_page_for_guests_label": ""
+                "prompt_tag_ids_label": "Теги для предложения",
+                "all_discussions_on_following_page_for_guests_label": "Показывать все темы на странице подписок для гостей"
             },
             "basics": {
-                "following_label": ""
+                "following_label": "=> flarum-subscriptions.forum.index.following_link"
             }
         },
         "email": {
@@ -100,8 +100,8 @@
             "ignoring": "Игнорировать",
             "lurking": "Следить",
             "filtering_options": {
-                "none": "Наблюдаемые обсуждения",
-                "tags": "Наблюдаемые теги"
+                "none": "Отслеживаемые темы",
+                "tags": "Отслеживаемые теги"
             }
         }
     },
