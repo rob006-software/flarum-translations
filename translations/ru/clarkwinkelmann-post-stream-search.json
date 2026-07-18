@@ -2,43 +2,43 @@
     "clarkwinkelmann-post-stream-search": {
         "admin": {
             "settings": {
-                "dropdownAccess": "",
-                "dropdownAccessHelp": "",
-                "sideNavAccess": "",
-                "sideNavAccessHelp": "",
-                "authorQuickFilter": "",
-                "authorQuickFilterHelp": "",
-                "originalPosterBadge": "",
-                "originalPosterBadgeHelp": ""
+                "dropdownAccess": "Доступ через выпадающее меню темы",
+                "dropdownAccessHelp": "Если отключено, панель инструментов будет доступна только через горячую клавишу или другие включённые ярлыки ниже.",
+                "sideNavAccess": "Доступ через боковую навигацию темы",
+                "sideNavAccessHelp": "То же, что и предыдущая настройка, но кнопка будет добавлена как отдельный элемент в боковую панель вместо выпадающего меню.",
+                "authorQuickFilter": "Быстрый фильтр по автору сообщения",
+                "authorQuickFilterHelp": "Ярлык будет добавлен в каждое выпадающее меню сообщения для фильтрации по этому пользователю.",
+                "originalPosterBadge": "Показывать интерактивный значок создателя темы",
+                "originalPosterBadgeHelp": "Значок будет добавлен рядом с сообщениями создателя темы. Нажатие на него автоматически отфильтрует сообщения этого пользователя."
             }
         },
         "forum": {
             "stream": {
-                "noResults": "",
-                "unmatchedGap": "",
-                "otherAuthorsGap": ""
+                "noResults": "Ни одно сообщение не соответствует поисковому запросу в этой теме",
+                "unmatchedGap": "{count, plural, one {Одно несоответствующее сообщение скрыто} other {{count} несоответствующих сообщений скрыто}}",
+                "otherAuthorsGap": "{count, plural, one {Одно сообщение другого автора скрыто} other {{count} сообщений других авторов скрыто}}"
             },
             "toolbar": {
-                "searchPlaceholder": "",
-                "authorPlaceholder": "",
-                "summary": "",
-                "pin": "",
-                "close": "",
-                "clear": ""
+                "searchPlaceholder": "Поиск в теме...",
+                "authorPlaceholder": "Фильтр по автору...",
+                "summary": "{matching} из {total} совпадений",
+                "pin": "Всегда открывать панель фильтров в темах",
+                "close": "Очистить фильтры и закрыть панель",
+                "clear": "Очистить фильтры"
             },
             "discussionControls": {
-                "searchInDiscussion": ""
+                "searchInDiscussion": "Поиск в теме"
             },
             "postControls": {
-                "authorFilter": ""
+                "authorFilter": "Показывать только ответы этого автора"
             },
             "post": {
-                "opBadge": "",
-                "opBadgeTooltip": ""
+                "opBadge": "Создатель темы",
+                "opBadgeTooltip": "Нажмите, чтобы показывать только ответы этого пользователя"
             },
             "cannotGoToPost": {
-                "message": "",
-                "action": ""
+                "message": "Невозможно перейти к сообщению",
+                "action": "Попробуйте очистить фильтры"
             }
         }
     }
