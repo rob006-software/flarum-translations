@@ -1,36 +1,36 @@
 {
     "flamarkt-backoffice": {
         "admin": {
-            "settingsInBackoffice": ""
+            "settingsInBackoffice": "Настройки в панели управления"
         },
         "backoffice": {
-            "settingsNotAvailableForNonAdmin": "",
+            "settingsNotAvailableForNonAdmin": "Это расширение имеет настройки, но только администраторы могут их видеть и редактировать.",
             "nav": {
-                "dashboard": "",
-                "users": "",
-                "searchPlaceholder": ""
+                "dashboard": "Панель управления",
+                "users": "Пользователи",
+                "searchPlaceholder": "=> core.admin.nav.search_placeholder"
             },
             "users": {
-                "title": "",
-                "new": "",
-                "searchPlaceholder": "",
+                "title": "Пользователи",
+                "new": "Создать пользователя",
+                "searchPlaceholder": "Поиск пользователей...",
                 "head": {
-                    "email": ""
+                    "email": "Email"
                 },
                 "field": {
-                    "username": "",
-                    "email": "",
-                    "password": ""
+                    "username": "Имя пользователя",
+                    "email": "Email",
+                    "password": "Пароль"
                 }
             },
             "permissions": {
-                "backoffice": ""
+                "backoffice": "Использовать панель управления"
             }
         },
         "lib": {
             "header": {
-                "admin_button": "",
-                "backoffice_button": ""
+                "admin_button": "=> core.forum.header.admin_button",
+                "backoffice_button": "Панель управления"
             }
         }
     }
