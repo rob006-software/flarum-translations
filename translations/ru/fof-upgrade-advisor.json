@@ -34,52 +34,52 @@
                 }
             },
             "extensions": {
-                "name": "",
-                "installed": "",
-                "status": "",
-                "compatible": "",
-                "incompatible": "",
-                "unknown": "",
+                "name": "Расширение",
+                "installed": "Установлено",
+                "status": "Статус",
+                "compatible": "Совместимо ({version})",
+                "incompatible": "Нет совместимой версии — последняя {version}",
+                "unknown": "Не найдено — скорее всего премиум или приватное. Настройте доступ к репозиторию",
                 "contact": {
-                    "label": "",
-                    "forum": "",
-                    "issues": "",
-                    "source": ""
+                    "label": "Узнать о планах 2.0:",
+                    "forum": "Тема поддержки",
+                    "issues": "Проблемы",
+                    "source": "Исходный код"
                 },
-                "superseded_into_core": "",
-                "superseded_replaced": "",
-                "superseded_self": "",
-                "abandoned": "",
-                "abandoned_replacement": "",
-                "abandoned_replacement_ready": "",
-                "abandoned_replacement_not_ready": ""
+                "superseded_into_core": "Удалить — теперь встроено в ядро",
+                "superseded_replaced": "Удалить перед обновлением, затем установить {replacement} после завершения обновления",
+                "superseded_self": "Удалить этот помощник как финальный шаг обновления",
+                "abandoned": "Заброшено — нет поддерживаемой замены",
+                "abandoned_replacement": "Заброшено — заменено на {replacement}",
+                "abandoned_replacement_ready": "Заброшено — переключитесь на {replacement}, который имеет 2.0-готовный релиз ✓",
+                "abandoned_replacement_not_ready": "Заброшено — замена {replacement} ещё не готова к 2.0"
             },
             "tabs": {
-                "report": "",
-                "repositories": ""
+                "report": "Отчёт о готовности",
+                "repositories": "Репозитории"
             },
             "repositories": {
-                "help": "",
-                "empty": "",
-                "add_floxum": "",
-                "add_composer": "",
-                "type_floxum": "",
-                "type_composer": "",
-                "url": "",
-                "username": "",
-                "token": "",
-                "remove": "",
+                "help": "Добавьте приватные или премиум-репозитории Composer, чтобы помощник мог проверить расширения, которые отсутствуют в публичном Packagist. Поможет, если расширение не найдено на Packagist.\n",
+                "empty": "Нет дополнительных репозиториев.",
+                "add_floxum": "Добавить Floxum",
+                "add_composer": "Добавить репозиторий",
+                "type_floxum": "Floxum",
+                "type_composer": "Приватный или пользовательский Packagist",
+                "url": "URL репозитория",
+                "username": "Имя пользователя",
+                "token": "Токен",
+                "remove": "Удалить репозиторий",
                 "test": "",
-                "test_ok": "",
-                "test_fail_auth": "",
-                "test_fail_unreachable": "",
-                "test_fail_invalid": ""
+                "test_ok": "Подключено",
+                "test_fail_auth": "Ошибка аутентификации — проверьте токен",
+                "test_fail_unreachable": "Не удалось подключиться к репозиторию",
+                "test_fail_invalid": "Неверный ответ — проверьте URL"
             },
             "actions": {
-                "recheck": ""
+                "recheck": "Повторить проверки"
             },
             "errors": {
-                "load_failed": ""
+                "load_failed": "Не удалось запустить проверки готовности. Попробуйте ещё раз."
             }
         }
     }
