@@ -89,10 +89,10 @@
         "lib": {
             "browser": {
                 "user": {
-                    "marked_as_spammer": ""
+                    "marked_as_spammer": "Пользователь {username} отмечен как спамер"
                 },
                 "registration": {
-                    "blocked": ""
+                    "blocked": "Заблокирована регистрация для {username} ({email}) с {ip}"
                 }
             }
         }
