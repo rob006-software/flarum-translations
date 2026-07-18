@@ -4,8 +4,8 @@
             "settings": {
                 "onlyInTags": "Только в следующих тегах (опционально)",
                 "onlyInTagsHelp": "Перечень тегов, разделяемых запятыми. Оставьте пустым, чтобы всегда использовать эту страницу, даже до выбора любого тега.\n",
-                "forPrivateDiscussions": "",
-                "forPrivateDiscussionsHelp": ""
+                "forPrivateDiscussions": "Использовать в переписках",
+                "forPrivateDiscussionsHelp": "Интегрирует редактор переписок на страницу"
             }
         },
         "forum": {
@@ -15,11 +15,11 @@
             },
             "page": {
                 "title": "Создать тему",
-                "heading": "Создать тему"
+                "heading": "Создание темы"
             },
             "page-private": {
-                "title": "",
-                "heading": ""
+                "title": "Создать переписку",
+                "heading": "Создание переписки"
             }
         }
     }
