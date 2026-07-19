@@ -2,19 +2,19 @@
     "datlechin-mermaid": {
         "admin": {
             "settings": {
-                "theme_label": "",
-                "theme_help": "",
+                "theme_label": "Тема диаграммы",
+                "theme_help": "Как раскрашиваются диаграммы. «Как на форуме» использует цвета вашего форума и следует светлому и тёмному режиму.",
                 "theme_options": {
-                    "flarum": "",
-                    "auto": "",
-                    "default": "",
-                    "dark": "",
-                    "neutral": "",
-                    "forest": ""
+                    "flarum": "Как на форуме",
+                    "auto": "Mermaid светлая и тёмная",
+                    "default": "Mermaid по умолчанию",
+                    "dark": "Mermaid тёмная",
+                    "neutral": "Mermaid нейтральная",
+                    "forest": "Mermaid лес"
                 },
-                "font_family_label": "",
-                "font_family_help": "",
-                "font_family_placeholder": "",
+                "font_family_label": "Семейство шрифтов",
+                "font_family_help": "Любой стек шрифтов CSS, например: «Inter», system-ui, sans-serif. Оставьте пусто, чтобы использовать шрифт, который ваш форум использует для текста сообщений.",
+                "font_family_placeholder": "Как на форуме",
                 "description": "Пока нет настроек. Диаграммы Mermaid автоматически отображаются внутри блоков кода ```mermaid."
             }
         }
