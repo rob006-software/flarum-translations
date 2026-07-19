@@ -1,19 +1,19 @@
 {
     "huseyinfiliz-guest": {
         "admin": {
-            "username_label": "",
-            "username_help": "",
-            "max_posts_label": "",
-            "max_posts_help": ""
+            "username_label": "Префикс имени пользователя для гостя",
+            "username_help": "Префикс имён для гостей. Например, Гость",
+            "max_posts_label": "Максимум сообщений гостя",
+            "max_posts_help": "Максимальное количество сообщений, разрешённое для гостей"
         },
         "forum": {
-            "login_button": "",
-            "modal_title": "",
-            "welcome_message": "",
-            "modal_understood": "",
-            "max_posts_reached": "",
-            "login_error": "",
-            "rate_limit_error": ""
+            "login_button": "Гостевой вход",
+            "modal_title": "Добро пожаловать, гость",
+            "welcome_message": "Добро пожаловать, гость! Вы можете отправить 3 сообщения.",
+            "modal_understood": "Хорошо",
+            "max_posts_reached": "Вы достигли лимита в {max} сообщений для гостей. Создайте учётную запись, чтобы продолжить.",
+            "login_error": "Не удалось войти. Попробуйте ещё раз.",
+            "rate_limit_error": "Подождите пару секунд перед повторной попыткой."
         }
     }
 }
