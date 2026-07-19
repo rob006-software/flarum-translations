@@ -2,11 +2,11 @@
     "glowingblue-redis-setup": {
         "admin": {
             "settings": {
-                "enable_cache": "",
-                "enable_redis_sessions": "",
-                "enable_queue": "",
-                "horizon_config": "",
-                "horizon_help_text": ""
+                "enable_cache": "Включить кэш Redis",
+                "enable_redis_sessions": "Включить сессии Redis — все пользователи будут разлогинены после изменения этого параметра",
+                "enable_queue": "Включить очередь Redis",
+                "horizon_config": "Конфигурация Horizon в формате JSON.",
+                "horizon_help_text": "Будет передано в <code>(new \\FoF\\Horizon\\Extend\\Horizon)->config(...))</code>"
             }
         }
     }
