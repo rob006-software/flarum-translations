@@ -9,7 +9,7 @@
     "blomstra-flag-duplicates": {
         "admin": {
             "settings": {
-                "event_post_help": "",
+                "event_post_help": "Создайте событие-сообщение в теме, где была поднята отметка «дубликат». Это может информировать пользователей о том, что тема потенциально является дубликатом другой, не предоставляя им доступ к общим поднятым отметкам.",
                 "event_post_label": "Сообщение о событии"
             }
         },
@@ -18,12 +18,12 @@
                 "duplicate_discussion": "Тема-дубликат",
                 "reason_duplicate_label": "Тема-дубликат",
                 "reason_duplicate_text": "Эта тема — дубликат другой.",
-                "reason_discussion_deleted": "",
+                "reason_discussion_deleted": "[удалённая тема]",
                 "deselect_discussion_a11y_label": "Отменить выбор темы"
             },
             "post_stream": {
                 "flagged_duplicate_text": "{username} отметил(а) эту тему как возможный дубликат {duplicate}. Модератор скоро рассмотрит это обращение.",
-                "deleted_discussion": ""
+                "deleted_discussion": "[удалённая тема]"
             }
         }
     }
