@@ -851,6 +851,12 @@ return [
 			'th',
 		],
 	],
+	'tapao-org-member-directory' => [
+		'tag' => 'https://raw.githubusercontent.com/Tapao-NonSen/Org-Member-Directory/2.0.9/locale/en.yml',
+		'__builtInLanguages' => [
+			'th',
+		],
+	],
 	'tryhackx-advanced-pages' => [
 		'tag' => 'https://raw.githubusercontent.com/TryHackX/flarum-advanced-pages/2.3.1/resources/locale/en.yml',
 		'__builtInLanguages' => [
