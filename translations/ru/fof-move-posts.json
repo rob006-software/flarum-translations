@@ -70,8 +70,8 @@
         "lib": {
             "browser": {
                 "posts": {
-                    "moved": "",
-                    "moved_to_new_discussion": ""
+                    "moved": "{post_count, plural, one {Перемещено одно сообщение} other {Перемещено {post_count} сообщений}} из {discussion} в {new_discussion}",
+                    "moved_to_new_discussion": "{post_count, plural, one {Перемещено одно сообщение} other {Перемещено {post_count} сообщений}} из {discussion} в {new_discussion}"
                 }
             }
         }
