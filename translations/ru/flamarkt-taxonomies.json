@@ -5,7 +5,7 @@
                 "title": "Таксономии",
                 "discussions": "Таксономии дискуссий",
                 "users": "Таксономии пользователей",
-                "products": "Product taxonomies"
+                "products": "Таксономии"
             },
             "page": {
                 "title": "Таксономии",
@@ -101,7 +101,7 @@
             "permissions": {
                 "heading": "Таксономии",
                 "moderate": "Настройка доступных таксономий",
-                "bypassTermCounts": "Bypass term count requirements",
+                "bypassTermCounts": "Игнорировать требования к количеству терминов",
                 "seeOwnDiscussion": "Смотреть таксономии в своих дискуссиях",
                 "seeAnyDiscussion": "Смотреть таксономии во всех дискуссиях",
                 "editOwnDiscussion": "Править таксономии в своих дискуссиях",
@@ -143,13 +143,13 @@
                 "placeholder": "{count, plural, one {Выберите значение...} other {Выберите # значения...}}",
                 "placeholderOptional": "Выбрать...",
                 "custom": "Использовать {value}",
-                "bypassTermCounts": "Bypass term counts",
+                "bypassTermCounts": "Игнорировать количество терминов",
                 "submit": "Ок"
             }
         },
         "api": {
             "error": {
-                "invalid_filter_taxonomy": "Invalid \"{type}\" taxonomy filter key \"{slug}\"",
+                "invalid_filter_taxonomy": "Неверный ключ фильтра таксономии \"{type}\" \"{slug}\"",
                 "discussion_taxonomy_not_in_scope": "Таксономия \"{slug}\" не доступна для текущего тэга",
                 "cannot_use_taxonomies_on_model": "Вам недоступно использовать таксономии в этом контексте"
             }
