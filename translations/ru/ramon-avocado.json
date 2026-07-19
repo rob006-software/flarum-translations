@@ -7,10 +7,10 @@
                 "section_homepage": "Главная",
                 "section_auth": "Вход и регистрация",
                 "section_search": "Поиск",
-                "section_bookmarks": "",
-                "section_user_card": "",
-                "section_presence": "",
-                "section_cakeday": "",
+                "section_bookmarks": "Закладки",
+                "section_user_card": "Карточка пользователя",
+                "section_presence": "Присутствие",
+                "section_cakeday": "День рождения аккаунта",
                 "section_posts": "Сообщения",
                 "section_logo": "Логотип",
                 "section_footer": "Подвал",
@@ -42,8 +42,8 @@
                 "show_online_users_help": "Отображать количество пользователей в сети.",
                 "show_online_count_label": "Показывать текст количества пользователей в сети",
                 "show_online_count_help": "Показывать метку «X в сети» рядом с аватарами пользователей.",
-                "custom_auth_modal_label": "",
-                "custom_auth_modal_help": "",
+                "custom_auth_modal_label": "Использовать пользовательское модальное окно входа / регистрации",
+                "custom_auth_modal_help": "Показывать пользовательский дизайн боковой панели в модальных окнах входа, регистрации и восстановления пароля. Отключите, чтобы использовать модальное окно Flarum по умолчанию.",
                 "auth_image_label": "Изображение окна авторизации",
                 "auth_image_help": "Фоновое изображение, отображаемое в правой части окон входа, регистрации и восстановления пароля.",
                 "banner_image_label": "Баннер",
@@ -60,14 +60,14 @@
                 "custom_hero_html_help": "HTML, вставляемый в overlay обложки — заменяет AvocadoHome-heroBannerContent. Поддерживаются встроенные теги '<style>' .",
                 "search_v1_label": "Включить стиль поиска V1",
                 "search_v1_help": "Показывать встроенный выпадающий поиск вместо модального окна V2.",
-                "bookmarks_enabled_label": "",
-                "bookmarks_enabled_help": "",
-                "user_card_enabled_label": "",
-                "user_card_enabled_help": "",
-                "presence_enabled_label": "",
-                "presence_enabled_help": "",
-                "cakeday_enabled_label": "",
-                "cakeday_enabled_help": "",
+                "bookmarks_enabled_label": "Включить систему закладок",
+                "bookmarks_enabled_help": "Кнопка сохранения на карточках, страница сохранённого, заметки, напоминания и уведомления о напоминаниях. Отключение скрывает всё и отключает конечные точки API.",
+                "user_card_enabled_label": "Включить карточку при наведении на пользователя",
+                "user_card_enabled_help": "Показывать мини-профиль в стиле Discourse — биография, значки, статистика, действия — при наведении на аватары и имена пользователей.",
+                "presence_enabled_label": "Показывать, кто читает тему",
+                "presence_enabled_help": "Живой индикатор «N читают сейчас» в заголовке темы с аватарами читателей. Требует расширения Realtime. Пользователи с отключённой опцией «Показывать мой статус в сети» никогда не указываются.",
+                "cakeday_enabled_label": "Показывать значок годовщины аккаунта",
+                "cakeday_enabled_help": "Показывать 🎂 рядом с именем пользователя в годовщину регистрации аккаунта в карточках тем, сообщениях и карточке пользователя.",
                 "show_share_label": "Показывать кнопку «Поделиться» в сообщениях",
                 "show_share_help": "Добавить кнопку «Поделиться» к каждому сообщению.",
                 "show_action_icons_label": "Показывать иконки в кнопках «Нравится» и «Ответить»",
@@ -122,7 +122,7 @@
                 "team_enabled_label": "Включить страницу команды",
                 "team_enabled_help": "Показывать страницу /team со списком участников из выбранных групп.",
                 "team_title_label": "Заголовок страницы",
-                "team_title_placeholder": "",
+                "team_title_placeholder": "Наша команда",
                 "team_desc_label": "Описание страницы",
                 "team_desc_placeholder": "Познакомьтесь с командой сообщества.",
                 "team_groups_label": "Группы для отображения",
@@ -155,18 +155,18 @@
             }
         },
         "forum": {
-            "back": "",
+            "back": "Назад",
             "profile": {
-                "joined": "",
-                "member_since": "",
-                "scroll_left": "",
-                "scroll_right": ""
+                "joined": "Регистрация {date}",
+                "member_since": "Участник с {date}",
+                "scroll_left": "Прокрутить влево",
+                "scroll_right": "Прокрутить вправо"
             },
             "online_users": {
-                "online": ""
+                "online": "в сети"
             },
             "tag_picker": {
-                "remove": ""
+                "remove": "Удалить тег"
             },
             "actions": {
                 "share": "Поделиться"
@@ -208,7 +208,7 @@
                 "results_for": "Результаты для",
                 "tip": "Подсказка: добавьте префикс ",
                 "tip_suffix": " чтобы фильтровать по тегу",
-                "esc_key": ""
+                "esc_key": "ESC"
             },
             "header": {
                 "back": "Назад",
@@ -227,9 +227,9 @@
                 "hero_image_remove_confirm": "Удалить обложку из этой темы?"
             },
             "home": {
-                "nav_label": "",
-                "nav_more": "",
-                "nav_more_label": "",
+                "nav_label": "Навигация",
+                "nav_more": "Ещё",
+                "nav_more_label": "Показать ещё ссылки навигации",
                 "all_categories": "Все категории",
                 "all_title": "Все темы",
                 "back_home": "Главная",
@@ -299,49 +299,49 @@
                 "empty": "Темы не найдены."
             },
             "bookmarks": {
-                "title": "",
-                "save": "",
-                "unsave": "",
-                "edit": "",
-                "empty": "",
-                "guest_prompt": "",
-                "toggle_error": "",
-                "update_error": "",
-                "modal_title": "",
-                "modal_save": "",
-                "modal_cancel": "",
-                "note_label": "",
-                "note_placeholder": "",
-                "reminder_label": "",
-                "reminder_none": "",
-                "reminder_later": "",
-                "reminder_tomorrow": "",
-                "reminder_week": "",
-                "reminder_custom": "",
-                "reminder_invalid": ""
+                "title": "Сохранённое",
+                "save": "Сохранить",
+                "unsave": "Удалить из сохранённого",
+                "edit": "Редактировать закладку",
+                "empty": "Вы ещё не сохранили ни одной темы.",
+                "guest_prompt": "Войдите, чтобы сохранять темы и находить их здесь позже.",
+                "toggle_error": "Не удалось обновить ваш список сохранённого. Попробуйте ещё раз.",
+                "update_error": "Не удалось обновить вашу закладку. Попробуйте ещё раз.",
+                "modal_title": "Закладка",
+                "modal_save": "Сохранить",
+                "modal_cancel": "Отмена",
+                "note_label": "Заметка",
+                "note_placeholder": "Почему вы сохраняете это? Укажите по желанию",
+                "reminder_label": "Напомнить мне",
+                "reminder_none": "Без напоминания",
+                "reminder_later": "Через 4 часа",
+                "reminder_tomorrow": "Завтра утром",
+                "reminder_week": "На следующей неделе",
+                "reminder_custom": "Выбрать дату и время",
+                "reminder_invalid": "Выберите дату в будущем."
             },
             "notifications": {
-                "bookmark_reminder_text": ""
+                "bookmark_reminder_text": "Напоминание о вашей сохранённой теме"
             },
             "settings": {
-                "notify_bookmark_reminder_label": ""
+                "notify_bookmark_reminder_label": "Напоминания о закладках"
             },
             "presence": {
-                "reading_now": ""
+                "reading_now": "{count} читают сейчас"
             },
             "cakeday": {
-                "tooltip_singular": "",
-                "tooltip_plural": "",
-                "aria": ""
+                "tooltip_singular": "Годовщина аккаунта — целый 1 год!",
+                "tooltip_plural": "Годовщина аккаунта — уже целых {years} лет!",
+                "aria": "Годовщина аккаунта"
             },
             "user_card": {
-                "online": "",
-                "last_seen": "",
-                "discussions": "",
-                "posts": "",
-                "joined_label": "",
-                "view_profile": "",
-                "message": ""
+                "online": "В сети",
+                "last_seen": "Видели {time}",
+                "discussions": "темы",
+                "posts": "сообщения",
+                "joined_label": "регистрация",
+                "view_profile": "Посмотреть профиль",
+                "message": "Написать"
             },
             "post": {
                 "op_badge": "Автор темы"
