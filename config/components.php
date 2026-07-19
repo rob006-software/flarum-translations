@@ -852,7 +852,7 @@ return [
 		],
 	],
 	'tapao-org-member-directory' => [
-		'tag' => 'https://raw.githubusercontent.com/Tapao-NonSen/Org-Member-Directory/2.0.9/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/Tapao-NonSen/Org-Member-Directory/2.1.4/locale/en.yml',
 		'__builtInLanguages' => [
 			'th',
 		],
