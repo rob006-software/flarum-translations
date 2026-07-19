@@ -2778,7 +2778,7 @@
 	</tr>
 	<tr>
 		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
+			<span title="Compatible with recent Flarum">🟢</span><span title="Extension is abandoned">❗</span>
 			<a href="https://github.com/shaokeyibb/flarum-passkey-login" title="hikarilan/flarum-passkey-login"><code>hikarilan/flarum-passkey-login</code></a>
 		</td>
 		<td align="center">251<br /><img src="https://img.shields.io/badge/--15-brightgreen" alt="-15" title="Change from last week"></td>
