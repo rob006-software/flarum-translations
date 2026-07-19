@@ -87,9 +87,9 @@
         "lib": {
             "browser": {
                 "masquerade": {
-                    "field_created": "",
-                    "field_updated": "",
-                    "field_deleted": "",
+                    "field_created": "Создано поле профиля «{name}»",
+                    "field_updated": "Обновлено поле профиля «{name}»",
+                    "field_deleted": "Удалено поле профиля «{name}»",
                     "profile_updated": "Обновлены профильные поля пользователя {username}"
                 }
             }
