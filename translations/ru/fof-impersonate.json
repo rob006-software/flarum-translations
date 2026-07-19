@@ -7,14 +7,14 @@
             "settings": {
                 "title": "Перевоплощение",
                 "require_reason": "Требовать указать причину прежде, чем входить под аккаунтом другого пользователя.",
-                "require_reason_help": "",
-                "no_settings_available": "В настоящее время настройки недоступны. Попробуйте установить \"fof/moderator-notes\""
+                "require_reason_help": "Причина записывается в журнал аудита (flarum/audit) и/или как заметки модератора на обоих аккаунтах (fof/moderator-notes), в зависимости от того, что включено.",
+                "no_settings_available": "Настройки недоступны. Попробуйте установить fof/moderator-notes или flarum/audit"
             }
         },
         "lib": {
             "modal": {
                 "title": "Войти как другой пользователь",
-                "label": "С большой силой приходит большая ответственность. Продолжая, вы станете {username}, пока не выйдете из системы.",
+                "label": "С большой силой приходит большая ответственность. Продолжая, вы станете {username}, пока не переключитесь обратно.",
                 "placeholder_optional": "(Необязательно) Укажите причину перехода на этого пользователя",
                 "placeholder_required": "Прежде чем продолжить, вы должны указать причину переключения на этого пользователя",
                 "impersonate_username": "Войти как {username}"
@@ -25,10 +25,10 @@
         },
         "forum": {
             "notice": {
-                "message": ""
+                "message": "Сейчас вы под именем {username}."
             },
             "return": {
-                "button": ""
+                "button": "Вернуться к {username}"
             }
         }
     },
@@ -36,8 +36,8 @@
         "lib": {
             "browser": {
                 "user": {
-                    "impersonated": "",
-                    "impersonation_ended": ""
+                    "impersonated": "Вход от имени {username}",
+                    "impersonation_ended": "Возвращение к {username}"
                 }
             }
         }
