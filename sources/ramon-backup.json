@@ -140,7 +140,7 @@
                 "phase_done": "Done",
                 "phase_error": "Error",
                 "phase_error_network": "Lost connection to the server during the backup. The job may still be running on the server — check the backup list shortly.",
-                "warnings_title": "{count} translation warning|{count} translation warnings",
+                "warnings_title": "{count, plural, one {# translation warning} other {# translation warnings}}",
                 "warnings_help": "Some columns use types that don't have a direct equivalent on the chosen target engine. The backup itself completes — but the destination column may not validate or behave identically. Review each note below before relying on this backup for migration."
             },
             "import_modal": {
