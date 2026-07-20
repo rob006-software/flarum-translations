@@ -1,27 +1,27 @@
 {
     "ernestdefoe-typesense": {
         "admin": {
-            "intro": "",
-            "host_label": "",
-            "port_label": "",
-            "protocol_label": "",
-            "api_key_label": "",
-            "collection_prefix_label": "",
-            "prefix_help": "",
-            "drivers_label": "",
-            "drivers_help": "",
-            "use_for_discussions": "",
-            "use_for_users": "",
-            "use_for_posts": "",
-            "connection_label": "",
-            "test_button": "",
-            "test_ok": "",
-            "test_fail": "",
-            "rebuild_label": "",
-            "rebuild_help": "",
-            "rebuild_button": "",
-            "rebuild_queued": "",
-            "rebuild_failed": ""
+            "intro": "Verbinde Flarum mit einem Typesense-Server, um eine schnelle, fehlertolerante Suche in Diskussionen, Benutzern und Beiträgen zu ermöglichen. Gib deine Serverdaten ein, speichere diese und erstelle anschließend den Index neu. Dein API-Schlüssel wird auf dem Server gespeichert und ist für Besucher niemals einsehbar.\n",
+            "host_label": "Host",
+            "port_label": "Port",
+            "protocol_label": "Protokoll",
+            "api_key_label": "API-Schlüssel",
+            "collection_prefix_label": "Sammlungs-Präfix",
+            "prefix_help": "Optional. Hält Sammlungen getrennt, wenn sich mehrere Foren einen Typesense-Server teilen. Lasse das Feld leer, um automatisch eine Sammlung aus deiner Forum-URL abzuleiten.\n",
+            "drivers_label": "Typesense verwenden für…",
+            "drivers_help": "Wähle aus, welche Suchanfragen von Typesense beantwortet werden sollen. Bei jeder dieser Optionen werden Textsuchen an Typesense weitergeleitet, während das Filtern und Stöbern ohne Suchbegriff weiterhin über die Datenbank erfolgt. Die Berechtigungen werden stets von Flarum durchgesetzt – Typesense ordnet lediglich die Ergebnisse nach Relevanz.\n",
+            "use_for_discussions": "Diskussionssuche",
+            "use_for_users": "Benutzersuche",
+            "use_for_posts": "Beitragssuche",
+            "connection_label": "Verbindung",
+            "test_button": "Verbindung testen",
+            "test_ok": "Verbunden",
+            "test_fail": "Typesense konnte nicht erreicht werden",
+            "rebuild_label": "Suchindex",
+            "rebuild_help": "Erstelle oder aktualisiere alle Typesense-Indizes (Diskussionen, Benutzer, Beiträge) anhand der vorhandenen Inhalte. Führe diesen Vorgang einmalig nach der Eingabe deiner Serverdaten aus und immer dann, wenn du vermutest, dass der Index nicht mehr aktuell sein könnte. Konfiguriere bei großen Foren einen echten Queue-Worker, damit dieser Vorgang im Hintergrund abläuft.\n",
+            "rebuild_button": "Index neu erstellen",
+            "rebuild_queued": "Neuindizierung in die Warteschlange gestellt. Der Vorgang wird im Hintergrund über deinen Queue-Worker ausgeführt.",
+            "rebuild_failed": "Die Neuindizierung konnte nicht gestartet werden. Überprüfe deine Verbindungseinstellungen."
         }
     }
 }
