@@ -614,6 +614,9 @@ return [
 	'linkrobins-countdown-widget' => [
 		'tag' => 'https://raw.githubusercontent.com/linkrobins/countdown-widget/v1.1.3/locale/en.yml',
 	],
+	'linkrobins-discussion-banners' => [
+		'tag' => 'https://raw.githubusercontent.com/linkrobins/flarum-discussion-banners/v1.0.0/locale/en.yml',
+	],
 	'linkrobins-font-sizer' => [
 		'tag' => 'https://raw.githubusercontent.com/linkrobins/font-sizer/v1.5.0/locale/en.yml',
 	],
