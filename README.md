@@ -1005,6 +1005,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`linkrobins-blog`](https://weblate.rob006.net/projects/flarum2/linkrobins-blog) | [`linkrobins/blog`](https://github.com/linkrobins/blog) |
 | [`linkrobins-clipboard`](https://weblate.rob006.net/projects/flarum2/linkrobins-clipboard) | [`linkrobins/clipboard`](https://github.com/linkrobins/clipboard) |
 | [`linkrobins-countdown-widget`](https://weblate.rob006.net/projects/flarum2/linkrobins-countdown-widget) | [`linkrobins/countdown-widget`](https://github.com/linkrobins/countdown-widget) |
+| [`linkrobins-discussion-banners`](https://weblate.rob006.net/projects/flarum2/linkrobins-discussion-banners) | [`linkrobins/discussion-banners`](https://github.com/linkrobins/flarum-discussion-banners) |
 | [`linkrobins-warble`](https://weblate.rob006.net/projects/flarum2/linkrobins-warble) | [`linkrobins/flarum-warble`](https://github.com/linkrobins/warble) |
 | [`linkrobins-font-sizer`](https://weblate.rob006.net/projects/flarum2/linkrobins-font-sizer) | [`linkrobins/font-sizer`](https://github.com/linkrobins/font-sizer) |
 | [`linkrobins-html-widget`](https://weblate.rob006.net/projects/flarum2/linkrobins-html-widget) | [`linkrobins/html-widget`](https://github.com/linkrobins/html-widget) |
