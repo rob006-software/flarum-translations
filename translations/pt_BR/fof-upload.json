@@ -80,6 +80,7 @@
                 },
                 "preferences": {
                     "max_file_size": "Tamanho máximo do arquivo (em kilobytes)",
+                    "max_file_size_equivalent": "",
                     "mime_types": "Configure seu tipo MIME, faça o upload do mapeamento do adaptador",
                     "mime_type_regex_placeholder": "",
                     "mime_type_regex_invalid": "",
@@ -127,7 +128,8 @@
                 "inspect-mime": "Tipo MIME do arquivo de teste"
             },
             "warnings": {
-                "fileinfo_missing": ""
+                "fileinfo_missing": "",
+                "max_file_size_exceeds_php": ""
             },
             "permissions": {
                 "download_label": "Baixar arquivos",

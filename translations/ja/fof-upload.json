@@ -80,6 +80,7 @@
                 },
                 "preferences": {
                     "max_file_size": "最大ファイルサイズ (キロバイト)",
+                    "max_file_size_equivalent": "",
                     "mime_types": "MIMEタイプの指定と、アップロード方法の振り分けを行います",
                     "mime_type_regex_placeholder": "",
                     "mime_type_regex_invalid": "",
@@ -127,7 +128,8 @@
                 "inspect-mime": "テストファイルのMIMEタイプ"
             },
             "warnings": {
-                "fileinfo_missing": ""
+                "fileinfo_missing": "",
+                "max_file_size_exceeds_php": ""
             },
             "permissions": {
                 "download_label": "ファイルのダウンロード",

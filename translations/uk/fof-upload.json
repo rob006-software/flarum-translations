@@ -80,6 +80,7 @@
                 },
                 "preferences": {
                     "max_file_size": "Максимальний розмір файлу (в кілобайтах)",
+                    "max_file_size_equivalent": "",
                     "mime_types": "Налаштуйте свій тип mime, завантажте мапу адаптера",
                     "mime_type_regex_placeholder": "",
                     "mime_type_regex_invalid": "",
@@ -127,7 +128,8 @@
                 "inspect-mime": "Тип тестового файлу MIME"
             },
             "warnings": {
-                "fileinfo_missing": ""
+                "fileinfo_missing": "",
+                "max_file_size_exceeds_php": ""
             },
             "permissions": {
                 "download_label": "Скачати файли",

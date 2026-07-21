@@ -80,6 +80,7 @@
                 },
                 "preferences": {
                     "max_file_size": "Maximale Dateigröße (in Kilobytes)",
+                    "max_file_size_equivalent": "",
                     "mime_types": "Konfiguriere deinen MIME-Typ, lade ein Adapter-Mapping hoch",
                     "mime_type_regex_placeholder": "z.B. ^image/(jpeg|png|gif)$",
                     "mime_type_regex_invalid": "Ungültiger regulärer Ausdruck (z. B. leere Alternativen wie ||)",
@@ -127,7 +128,8 @@
                 "inspect-mime": "MIME-Typ der Testdatei"
             },
             "warnings": {
-                "fileinfo_missing": "Die PHP-Erweiterung <strong>fileinfo</strong> ist auf diesem Server nicht geladen. FoF Upload funktioniert weiterhin, aber die MIME-Typ-Kreuzvalidierung ist deaktiviert, wodurch der Schutz vor gefälschten Dateitypen verringert wird. Aktiviere die Erweiterung in deiner PHP-Konfiguration, um optimale Sicherheit zu gewährleisten.\n"
+                "fileinfo_missing": "Die PHP-Erweiterung <strong>fileinfo</strong> ist auf diesem Server nicht geladen. FoF Upload funktioniert weiterhin, aber die MIME-Typ-Kreuzvalidierung ist deaktiviert, wodurch der Schutz vor gefälschten Dateitypen verringert wird. Aktiviere die Erweiterung in deiner PHP-Konfiguration, um optimale Sicherheit zu gewährleisten.\n",
+                "max_file_size_exceeds_php": ""
             },
             "permissions": {
                 "download_label": "Dateien herunterladen",

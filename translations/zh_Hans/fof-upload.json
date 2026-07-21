@@ -80,6 +80,7 @@
                 },
                 "preferences": {
                     "max_file_size": "最大文件大小（单位：KB）",
+                    "max_file_size_equivalent": "",
                     "mime_types": "设置可上传的文件类型及上传方式",
                     "mime_type_regex_placeholder": "例如：^image/(jpeg|png|gif)$",
                     "mime_type_regex_invalid": "无效的正则表达式（例如：|| 等空替代）",
@@ -127,7 +128,8 @@
                 "inspect-mime": "测试文件 MIME 类型"
             },
             "warnings": {
-                "fileinfo_missing": "此服务器未加载 PHP <strong>fileinfo</strong> 扩展。FoF Upload 仍可工作，但 MIME 类型交叉验证已禁用，这会降低对伪造文件类型的防护。请在 PHP 配置中启用此扩展以获得最佳安全性。\n"
+                "fileinfo_missing": "此服务器未加载 PHP <strong>fileinfo</strong> 扩展。FoF Upload 仍可工作，但 MIME 类型交叉验证已禁用，这会降低对伪造文件类型的防护。请在 PHP 配置中启用此扩展以获得最佳安全性。\n",
+                "max_file_size_exceeds_php": ""
             },
             "permissions": {
                 "download_label": "允许下载文件",

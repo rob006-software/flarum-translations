@@ -80,6 +80,7 @@
                 },
                 "preferences": {
                     "max_file_size": "ขนาดไฟล์สูงสุด (กิโลไบต์)",
+                    "max_file_size_equivalent": "",
                     "mime_types": "กำหนดการแมป MIME type และ upload adapter",
                     "mime_type_regex_placeholder": "",
                     "mime_type_regex_invalid": "",
@@ -127,7 +128,8 @@
                 "inspect-mime": "ทดสอบ MIME type ของไฟล์"
             },
             "warnings": {
-                "fileinfo_missing": ""
+                "fileinfo_missing": "",
+                "max_file_size_exceeds_php": ""
             },
             "permissions": {
                 "download_label": "ดาวน์โหลดไฟล์",

@@ -80,6 +80,7 @@
                 },
                 "preferences": {
                     "max_file_size": "Kích thước tối đa (kilobyte)",
+                    "max_file_size_equivalent": "",
                     "mime_types": "Cấu hình ánh xạ giữa loại MIME và bộ điều hợp tải lên",
                     "mime_type_regex_placeholder": "",
                     "mime_type_regex_invalid": "",
@@ -127,7 +128,8 @@
                 "inspect-mime": "Kiểm tra loại MIME của tệp"
             },
             "warnings": {
-                "fileinfo_missing": ""
+                "fileinfo_missing": "",
+                "max_file_size_exceeds_php": ""
             },
             "permissions": {
                 "download_label": "Tải xuống tập tin",

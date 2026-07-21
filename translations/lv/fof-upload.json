@@ -80,6 +80,7 @@
                 },
                 "preferences": {
                     "max_file_size": "Maksimālais faila lielums (kilobaitos)",
+                    "max_file_size_equivalent": "",
                     "mime_types": "Konfigurējiet savu MIME veidu, augšupielādējiet adaptera kartēšanu",
                     "mime_type_regex_placeholder": "",
                     "mime_type_regex_invalid": "",
@@ -127,7 +128,8 @@
                 "inspect-mime": "Testa faila MIME tips"
             },
             "warnings": {
-                "fileinfo_missing": ""
+                "fileinfo_missing": "",
+                "max_file_size_exceeds_php": ""
             },
             "permissions": {
                 "download_label": "Lejupielādēt failus",

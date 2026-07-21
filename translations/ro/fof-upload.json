@@ -80,6 +80,7 @@
                 },
                 "preferences": {
                     "max_file_size": "Dimensiunea maximă a fișierului (în kiloocteți)",
+                    "max_file_size_equivalent": "",
                     "mime_types": "Configurează maparea tipului MIME și a adaptorului de încărcare",
                     "mime_type_regex_placeholder": "",
                     "mime_type_regex_invalid": "",
@@ -127,7 +128,8 @@
                 "inspect-mime": "Testează tipul MIME al fișierului"
             },
             "warnings": {
-                "fileinfo_missing": ""
+                "fileinfo_missing": "",
+                "max_file_size_exceeds_php": ""
             },
             "permissions": {
                 "download_label": "Descarcă fișiere",

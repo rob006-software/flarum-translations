@@ -80,6 +80,7 @@
                 },
                 "preferences": {
                     "max_file_size": "Maksimi tiedostokoko (kilotavuina)",
+                    "max_file_size_equivalent": "",
                     "mime_types": "Määritä mime tyypit, siirtoadapterin linkitys",
                     "mime_type_regex_placeholder": "esim. ^image/(jpeg|png|gif)$",
                     "mime_type_regex_invalid": "Virheellinen säännöllinen lauseke (esim. tyhjät vaihtoehdot kuten ||)",
@@ -127,7 +128,8 @@
                 "inspect-mime": "Testi tiedoston MIME tyyppi"
             },
             "warnings": {
-                "fileinfo_missing": "PHP:n <strong>fileinfo</strong>-laajennusta ei ole ladattu tällä palvelimella. FoF Upload toimii silti, mutta MIME-tyypin ristiintarkistus on poistettu käytöstä, mikä heikentää suojaa väärennettyjä tiedostotyyppejä vastaan. Ota laajennus käyttöön PHP-asetuksistasi parhaan tietoturvan varmistamiseksi.\n"
+                "fileinfo_missing": "PHP:n <strong>fileinfo</strong>-laajennusta ei ole ladattu tällä palvelimella. FoF Upload toimii silti, mutta MIME-tyypin ristiintarkistus on poistettu käytöstä, mikä heikentää suojaa väärennettyjä tiedostotyyppejä vastaan. Ota laajennus käyttöön PHP-asetuksistasi parhaan tietoturvan varmistamiseksi.\n",
+                "max_file_size_exceeds_php": ""
             },
             "permissions": {
                 "download_label": "Lataa tiedostot",

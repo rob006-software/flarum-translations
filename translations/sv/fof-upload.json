@@ -80,6 +80,7 @@
                 },
                 "preferences": {
                     "max_file_size": "Max filstorlek",
+                    "max_file_size_equivalent": "",
                     "mime_types": "Tillåtna MIME-typer",
                     "mime_type_regex_placeholder": "",
                     "mime_type_regex_invalid": "",
@@ -127,7 +128,8 @@
                 "inspect-mime": "Inspektera MIME-typ"
             },
             "warnings": {
-                "fileinfo_missing": ""
+                "fileinfo_missing": "",
+                "max_file_size_exceeds_php": ""
             },
             "permissions": {
                 "download_label": "Ladda ner filer",

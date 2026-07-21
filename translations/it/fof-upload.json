@@ -80,6 +80,7 @@
                 },
                 "preferences": {
                     "max_file_size": "Dimensione massima dei file (in kb)",
+                    "max_file_size_equivalent": "",
                     "mime_types": "Configura il mimetype, formato dei file",
                     "mime_type_regex_placeholder": "",
                     "mime_type_regex_invalid": "",
@@ -127,7 +128,8 @@
                 "inspect-mime": "Test file MIME type"
             },
             "warnings": {
-                "fileinfo_missing": ""
+                "fileinfo_missing": "",
+                "max_file_size_exceeds_php": ""
             },
             "permissions": {
                 "download_label": "Scarica file",

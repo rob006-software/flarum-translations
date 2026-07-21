@@ -80,6 +80,7 @@
                 },
                 "preferences": {
                     "max_file_size": "Mida màxima de fitxer (en kilobytes)",
+                    "max_file_size_equivalent": "",
                     "mime_types": "Configura el teu tipus MIME, mapeja l'adaptador de pujada de fitxers",
                     "mime_type_regex_placeholder": "",
                     "mime_type_regex_invalid": "",
@@ -127,7 +128,8 @@
                 "inspect-mime": "Provar el tipus MIME"
             },
             "warnings": {
-                "fileinfo_missing": ""
+                "fileinfo_missing": "",
+                "max_file_size_exceeds_php": ""
             },
             "permissions": {
                 "download_label": "Descarregar fitxers",

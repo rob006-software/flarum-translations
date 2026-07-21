@@ -80,6 +80,7 @@
                 },
                 "preferences": {
                     "max_file_size": "最大檔案大小 (單位 KB)",
+                    "max_file_size_equivalent": "",
                     "mime_types": "設定 MIME 類型以及上載接口",
                     "mime_type_regex_placeholder": "",
                     "mime_type_regex_invalid": "",
@@ -127,7 +128,8 @@
                 "inspect-mime": "測試檔案 MIME 類型"
             },
             "warnings": {
-                "fileinfo_missing": ""
+                "fileinfo_missing": "",
+                "max_file_size_exceeds_php": ""
             },
             "permissions": {
                 "download_label": "下載檔案",

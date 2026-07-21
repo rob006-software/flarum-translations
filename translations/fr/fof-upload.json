@@ -80,6 +80,7 @@
                 },
                 "preferences": {
                     "max_file_size": "Taille maximale du fichier (en kilo-octets)",
+                    "max_file_size_equivalent": "",
                     "mime_types": "Configurez votre type MIME (téléversez la cartographie de téléchargement)",
                     "mime_type_regex_placeholder": "p. ex. ^image/(jpeg|png|gif)$",
                     "mime_type_regex_invalid": "Expression régulière non valide",
@@ -127,7 +128,8 @@
                 "inspect-mime": "Type MIME du fichier de test"
             },
             "warnings": {
-                "fileinfo_missing": "L'extension PHP <strong>fileinfo</strong> n'est pas chargée sur ce serveur. FoF Upload continuera de fonctionner, mais la validation croisée des types MIME sera désactivée, ce qui réduira la protection contre les types de fichiers falsifiés. Activez l'extension dans votre configuration PHP pour une sécurité optimale.\n"
+                "fileinfo_missing": "L'extension PHP <strong>fileinfo</strong> n'est pas chargée sur ce serveur. FoF Upload continuera de fonctionner, mais la validation croisée des types MIME sera désactivée, ce qui réduira la protection contre les types de fichiers falsifiés. Activez l'extension dans votre configuration PHP pour une sécurité optimale.\n",
+                "max_file_size_exceeds_php": ""
             },
             "permissions": {
                 "download_label": "Télécharger les fichiers",

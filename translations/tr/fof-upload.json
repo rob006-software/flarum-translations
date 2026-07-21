@@ -80,6 +80,7 @@
                 },
                 "preferences": {
                     "max_file_size": "Maksimum dosya boyutu (kilobyte cinsinden)",
+                    "max_file_size_equivalent": "",
                     "mime_types": "Mime türünüzü yapılandırın, uyarlayıcı eşlemesini yükleyin",
                     "mime_type_regex_placeholder": "ör. ^image/(jpeg|png|gif)$",
                     "mime_type_regex_invalid": "Geçersiz regex ifadesi (ör. || gibi boş alternatifler)",
@@ -127,7 +128,8 @@
                 "inspect-mime": "Test dosyası MIME türü"
             },
             "warnings": {
-                "fileinfo_missing": "Bu sunucuda PHP <strong>fileinfo</strong> uzantısı yüklü değil. FoF Yüklemesi yine de çalışacaktır, ancak MIME türü çapraz doğrulaması devre dışı bırakılmıştır, bu da sahte dosya türlerine karşı korumayı azaltır. En iyi güvenlik için uzantıyı PHP yapılandırmanızda etkinleştirin.\n"
+                "fileinfo_missing": "Bu sunucuda PHP <strong>fileinfo</strong> uzantısı yüklü değil. FoF Yüklemesi yine de çalışacaktır, ancak MIME türü çapraz doğrulaması devre dışı bırakılmıştır, bu da sahte dosya türlerine karşı korumayı azaltır. En iyi güvenlik için uzantıyı PHP yapılandırmanızda etkinleştirin.\n",
+                "max_file_size_exceeds_php": ""
             },
             "permissions": {
                 "download_label": "Dosya indirme",

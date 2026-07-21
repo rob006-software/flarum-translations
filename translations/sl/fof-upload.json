@@ -80,6 +80,7 @@
                 },
                 "preferences": {
                     "max_file_size": "Največja velikost datoteke (v kilobajtih)",
+                    "max_file_size_equivalent": "",
                     "mime_types": "Konfigurirajte mime tipe, preslikavo nalagalnega adapterja",
                     "mime_type_regex_placeholder": "",
                     "mime_type_regex_invalid": "",
@@ -127,7 +128,8 @@
                 "inspect-mime": "Preveri MIME tip datoteke"
             },
             "warnings": {
-                "fileinfo_missing": ""
+                "fileinfo_missing": "",
+                "max_file_size_exceeds_php": ""
             },
             "permissions": {
                 "download_label": "Prenos datotek",

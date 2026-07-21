@@ -80,6 +80,7 @@
                 },
                 "preferences": {
                     "max_file_size": "Legnagyobb fájlméret (kilobájtban)",
+                    "max_file_size_equivalent": "",
                     "mime_types": "Állítsa be a MIME-típust, és a feltöltési adapter hozzárendelését",
                     "mime_type_regex_placeholder": "például ^image/(jpeg|png|gif)$",
                     "mime_type_regex_invalid": "Érvénytelen regex (például üres alternatívák, mint a ||)",
@@ -127,7 +128,8 @@
                 "inspect-mime": "Fájl MIME-típusának tesztelése"
             },
             "warnings": {
-                "fileinfo_missing": "A PHP <strong>fileinfo</strong> kiterjesztés nincs betöltve ezen a kiszolgálón. A FoF Upload továbbra is fog működni, de a MIME-típusok keresztellenőrzése ki van kapcsova, ez csökkenti a meghamisított fájltípusok elleni védelmet. A legjobb biztonság érdekében kapcsolja be a kiterjesztést a PHP beállításaiban.\n"
+                "fileinfo_missing": "A PHP <strong>fileinfo</strong> kiterjesztés nincs betöltve ezen a kiszolgálón. A FoF Upload továbbra is fog működni, de a MIME-típusok keresztellenőrzése ki van kapcsova, ez csökkenti a meghamisított fájltípusok elleni védelmet. A legjobb biztonság érdekében kapcsolja be a kiterjesztést a PHP beállításaiban.\n",
+                "max_file_size_exceeds_php": ""
             },
             "permissions": {
                 "download_label": "Fájlok letöltése",

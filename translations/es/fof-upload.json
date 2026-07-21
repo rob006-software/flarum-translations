@@ -80,6 +80,7 @@
                 },
                 "preferences": {
                     "max_file_size": "Tamaño máximo de archivo (en kilobytes)",
+                    "max_file_size_equivalent": "",
                     "mime_types": "Configure su tipo mime, mapeo del adaptador de subida",
                     "mime_type_regex_placeholder": "ej. ^image/(jpeg|png|gif)$",
                     "mime_type_regex_invalid": "Expresión inválida (ej. Espacios vacíos ||)",
@@ -127,7 +128,8 @@
                 "inspect-mime": "Archivo de prueba tipo MIME"
             },
             "warnings": {
-                "fileinfo_missing": "La extensión de PHP <strong>fileinfo</strong> no está cargada en este servidor. FoF Upload seguirá funcionando, pero la validación cruzada del tipo MIME está desactivada, lo que reduce la protección contra tipos de archivo falsificados. Para una mayor seguridad, habilite la extensión en su configuración de PHP.\n"
+                "fileinfo_missing": "La extensión de PHP <strong>fileinfo</strong> no está cargada en este servidor. FoF Upload seguirá funcionando, pero la validación cruzada del tipo MIME está desactivada, lo que reduce la protección contra tipos de archivo falsificados. Para una mayor seguridad, habilite la extensión en su configuración de PHP.\n",
+                "max_file_size_exceeds_php": ""
             },
             "permissions": {
                 "download_label": "Descargar archivos",
