@@ -1,0 +1,33 @@
+{
+    "linkrobins-discussion-banners": {
+        "admin": {
+            "settings": {
+                "top_heading": "Banner above the discussion",
+                "bottom_heading": "Banner below the discussion",
+                "stream_heading": "Banner between posts",
+                "enabled_label": "Show this banner",
+                "label_label": "Small heading",
+                "label_help": "The short uppercase line at the top of the banner, for example \"Info\" or \"From our sponsor\". Leave blank for none.",
+                "content_label": "Banner content (HTML)",
+                "content_help": "The banner body. HTML is allowed and is sanitized before display.",
+                "visibility_label": "Who sees it",
+                "visibility_everyone": "Everyone",
+                "visibility_guests": "Guests only",
+                "visibility_members": "Logged-in users only",
+                "color_label": "Accent color",
+                "color_help": "Colors the banner border, background tint, and small heading. Leave blank to use your theme color. Body text always follows the theme so it stays readable in light and dark modes.",
+                "icon_label": "Icon",
+                "icon_help": "An optional icon shown beside the banner text: upload a small image or pick an emoji.",
+                "icon_none": "No icon",
+                "icon_image": "Uploaded image",
+                "icon_emoji": "Emoji",
+                "icon_upload_image": "Upload image",
+                "icon_replace_image": "Replace image",
+                "icon_remove": "Remove",
+                "icon_emoji_placeholder": "Type or paste",
+                "stream_every_label": "Show after every N posts",
+                "stream_every_help": "The banner appears after every Nth post in a discussion. Minimum 2."
+            }
+        }
+    }
+}
