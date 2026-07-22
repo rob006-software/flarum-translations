@@ -888,7 +888,7 @@ return [
 		],
 	],
 	'u0-ani-nya-ani-nya_i18n' => [
-		'beta' => 'https://raw.githubusercontent.com/u0-ani-nya/ani-nya_i18n/1.3.2-beta/locale/en.yml',
+		'beta' => 'https://raw.githubusercontent.com/u0-ani-nya/ani-nya_i18n/1.3.3-beta/locale/en.yml',
 		'__builtInLanguages' => [
 			'zh_Hans',
 		],
