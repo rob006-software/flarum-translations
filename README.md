@@ -1071,6 +1071,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`tryhackx-magnet-link`](https://weblate.rob006.net/projects/flarum2/tryhackx-magnet-link) | [`tryhackx/flarum-magnet-link`](https://github.com/TryHackX/flarum-magnet-link) |
 | [`tryhackx-thumb-sliders`](https://weblate.rob006.net/projects/flarum2/tryhackx-thumb-sliders) | [`tryhackx/flarum-thumb-sliders`](https://github.com/TryHackX/flarum-thumb-sliders) |
 | [`tryhackx-topic-rating`](https://weblate.rob006.net/projects/flarum2/tryhackx-topic-rating) | [`tryhackx/flarum-topic-rating`](https://github.com/TryHackX/flarum-topic-rating) |
+| [`u0-ani-nya-ani-nya_i18n`](https://weblate.rob006.net/projects/flarum2/u0-ani-nya-ani-nya_i18n) | [`u0-ani-nya/ani-nya_i18n`](https://github.com/u0-ani-nya/ani-nya_i18n) |
 | [`vlssu-cravatar`](https://weblate.rob006.net/projects/flarum2/vlssu-cravatar) | [`vlssu/flarum-cravatar`](https://github.com/vlssu/flarum-cravatar) |
 | [`walsgit-discussion-cards`](https://weblate.rob006.net/projects/flarum2/walsgit-discussion-cards) | [`walsgit/flarum-discussion-cards`](https://github.com/WalsGit/flarum-discussion-cards) |
 | [`walsgit-recycle-bin`](https://weblate.rob006.net/projects/flarum2/walsgit-recycle-bin) | [`walsgit/recycle-bin`](https://github.com/WalsGit/recycle-bin) |
