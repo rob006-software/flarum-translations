@@ -26,7 +26,7 @@
                 "feature": "Добавить в избранное",
                 "unfeature": "Удалить из избранного",
                 "pending_requests_badge": "{count, plural, one {# ожидающий запрос} other {# ожидающих запросов}}",
-                "generic_error": ""
+                "generic_error": "Что-то пошло не так. Попробуйте ещё раз."
             },
             "create_modal": {
                 "title": "Создать группу",
@@ -50,23 +50,23 @@
                 "submit": "Сохранить изменения"
             },
             "composer": {
-                "md_bold": "",
-                "md_italic": "",
-                "md_strike": "",
-                "md_link": "",
-                "md_quote": "",
-                "md_list": "",
-                "md_code": ""
+                "md_bold": "Жирный",
+                "md_italic": "Курсив",
+                "md_strike": "Зачёркнутый",
+                "md_link": "Вставить ссылку",
+                "md_quote": "Цитата",
+                "md_list": "Маркированный список",
+                "md_code": "Встроенный код"
             },
             "discussions": {
                 "title": "Темы",
-                "search_placeholder": "",
+                "search_placeholder": "Поиск сообщений…",
                 "new_button": "Новая тема",
                 "start_button": "Создать тему",
                 "empty": "Пока нет тем. Создайте первую!",
-                "search_empty": "",
-                "no_permission": "",
-                "log_in_button": "",
+                "search_empty": "По запросу «{query}» ничего не найдено.",
+                "no_permission": "У вас нет прав на просмотр сообщений в этой группе.",
+                "log_in_button": "Войти",
                 "back": "Назад к группе",
                 "create_title": "Создать тему",
                 "title_label": "Заголовок",
@@ -82,7 +82,7 @@
                 "locked": "Закрыто",
                 "reply_placeholder": "Напишите ответ…",
                 "reply_button": "Отправить",
-                "join_to_reply": "",
+                "join_to_reply": "Вступите в группу, чтобы ответить.",
                 "post_reply": "Ответить",
                 "post_comment": "Комментировать",
                 "more_options": "Дополнительные параметры",
@@ -92,7 +92,7 @@
                 "edit": "Править",
                 "save_edit": "Сохранить",
                 "cancel_edit": "Отменить",
-                "edit_failed": "",
+                "edit_failed": "Не удалось сохранить изменения.",
                 "delete_post": "Удалить",
                 "delete_post_confirm": "Удалить это сообщение?",
                 "like": "Лайк",
@@ -142,10 +142,10 @@
                 "role_admin": "Модератор",
                 "remove_member": "Удалить",
                 "remove_member_confirm": "Удалить участника {displayName} из этой группы? Он не сможет снова вступить.",
-                "mute_member": "",
-                "unmute_member": "",
-                "muted_badge": "",
-                "muted_notice": "",
+                "mute_member": "Замьютить — участник сможет только читать",
+                "unmute_member": "Размьютить",
+                "muted_badge": "В муте",
+                "muted_notice": "Вас замьютили в этой группе — вы можете всё читать, но не сможете писать, пока модератор группы не снимет ограничение.",
                 "load_error": "Не удалось загрузить группу.",
                 "not_found": "Группа не найдена.",
                 "members_load_error": "Не удалось загрузить участников.",
@@ -155,8 +155,8 @@
                 "tab_media": "Медиа"
             },
             "profile_groups": {
-                "nav": "",
-                "empty": ""
+                "nav": "Группы",
+                "empty": "Вы пока не состоите ни в одной группе."
             },
             "requests": {
                 "title": "Заявки на вступление",
@@ -176,8 +176,8 @@
                 "change": "Изменить",
                 "invalid_type": "Недопустимый тип файла. Загрузите изображение в формате JPG, PNG, GIF или WebP.",
                 "too_large": "Файл слишком большой. Максимальный размер — 5 МБ.",
-                "failed": "",
-                "no_url": ""
+                "failed": "Не удалось загрузить файл.",
+                "no_url": "Файл загружен, но URL не был получен."
             },
             "media": {
                 "upload_button": "Загрузить изображения",
@@ -205,37 +205,37 @@
                 "empty": "Вы ещё не вступили ни в одну группу.",
                 "none": "Нет",
                 "saving": "Сохранение…",
-                "save_failed": ""
+                "save_failed": "Не удалось сохранить."
             },
             "share_modal": {
-                "title": "",
-                "group_label": "",
-                "empty": "",
-                "comment_placeholder": "",
-                "submit": "",
-                "cancel": ""
+                "title": "Поделиться публикацией",
+                "group_label": "Где поделиться?",
+                "empty": "Вы не состоите ни в одной другой группе.",
+                "comment_placeholder": "Добавить комментарий",
+                "submit": "Поделиться",
+                "cancel": "Отмена"
             },
             "reactions": {
-                "like": "",
-                "love": "",
-                "haha": "",
-                "wow": "",
-                "sad": "",
-                "angry": ""
+                "like": "Лайк",
+                "love": "Любовь",
+                "haha": "Смешно",
+                "wow": "Ух ты",
+                "sad": "Грустно",
+                "angry": "Злость"
             },
             "notifications": {
                 "new_post": "опубликовано в {discussionTitle}",
                 "new_reply": "ответил на ваш комментарий в {discussionTitle}",
-                "join_request": ""
+                "join_request": "хочет вступить в {groupName}"
             },
             "settings": {
-                "notify_social_group_new_post_label": "",
-                "notify_social_group_new_reply_label": "",
-                "notify_social_group_join_request_label": ""
+                "notify_social_group_new_post_label": "Новые публикации в группах, в которых я участвую",
+                "notify_social_group_new_reply_label": "Ответы на мои комментарии в группах",
+                "notify_social_group_join_request_label": "Запросы на вступление в группы, которыми я управляю"
             }
         },
         "lib": {
-            "shared_from": "",
+            "shared_from": "Поделился из {name}",
             "another_group": "",
             "errors": {
                 "unexpected": "",
