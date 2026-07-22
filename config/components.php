@@ -522,7 +522,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/glowingblue/flarum-ext-password-strength/5.0.0-beta.3/locale/en.yml',
 	],
 	'huoxin-filter-rule-manager' => [
-		'beta' => 'https://raw.githubusercontent.com/huoxin233/flarum-ext-filter-rule-manager/2.0.0-beta.1/locale/en.yml',
+		'beta' => 'https://raw.githubusercontent.com/huoxin233/flarum-ext-filter-rule-manager/2.0.0-beta.2/locale/en.yml',
 		'__builtInLanguages' => [
 			'zh_Hans',
 		],
