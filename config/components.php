@@ -168,7 +168,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/roleplay/v1.1.1/resources/locale/en.yml',
 	],
 	'ernestdefoe-seo' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/seo/2.0.12/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/seo/2.0.13/locale/en.yml',
 	],
 	'ernestdefoe-social-groups' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/social-groups/v2.4.11/locale/en.yml',
