@@ -609,7 +609,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/linkrobins/auto-verify/v1.1.1/locale/en.yml',
 	],
 	'linkrobins-birdseye' => [
-		'tag' => 'https://raw.githubusercontent.com/linkrobins/birdseye/v1.0.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/linkrobins/birdseye/v1.1.1/locale/en.yml',
 	],
 	'linkrobins-blog' => [
 		'tag' => 'https://raw.githubusercontent.com/linkrobins/blog/v1.2.1/locale/en.yml',
