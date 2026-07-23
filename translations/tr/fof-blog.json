@@ -1,16 +1,16 @@
 {
     "fof-blog": {
         "admin": {
-            "blog": "",
+            "blog": "Blog",
             "permissions": {
-                "write_articles": "",
-                "auto_approve_posts": "",
-                "approve_posts": ""
+                "write_articles": "Blog makaleleri yaz ve düzenle",
+                "auto_approve_posts": "Onay olmadan makaleler yayımlayın",
+                "approve_posts": "Blog makalelerini onaylayabilir"
             },
             "settings": {
-                "no_categories_selected": "",
-                "selected_category_count": "",
-                "select_categories_button": "",
+                "no_categories_selected": "Kategori seçilmedi",
+                "selected_category_count": "{count, plural, one {# kategori seçtiniz} other {# kategori seçtiniz}}",
+                "select_categories_button": "Blog kategorilerini seçin",
                 "categories_modal": {
                     "description": "",
                     "visit_blog": "",
@@ -18,23 +18,23 @@
                     "no_tags": "",
                     "close": ""
                 },
-                "blog_heading": "",
-                "featured_count_label": "",
-                "featured_count_text": "",
-                "allow_comments_label": "",
-                "allow_comments_text": "",
-                "require_review_label": "",
-                "require_review_text": "",
-                "hide_on_discussion_list_label": "",
-                "hide_on_discussion_list_text": "",
-                "add_sidebar_nav_label": "",
-                "add_sidebar_nav_text": "",
-                "categories_heading": "",
-                "hide_tags_in_taglist_label": "",
-                "hide_tags_in_taglist_text": "",
-                "show_tag_hierarchy_label": "",
-                "show_tag_hierarchy_text": "",
-                "redirects_heading": "",
+                "blog_heading": "Blog",
+                "featured_count_label": "Maksimum Öne Çıkan Gönderiler",
+                "featured_count_text": "Bir blog sayfasının üst kısmındaki büyük bir ızgarada kaç gönderi görüntülenmelidir?",
+                "allow_comments_label": "Yorumlara izin ver",
+                "allow_comments_text": "Varsayılan olarak, blog gönderilerine yorumlara izin verin. Etkisizleştirildiğinde, her blog yazısı için ayrı ayrı etkinleştirilebilir. <b>Not:</b> Bu ayarı değiştirmek, önceden var olan blog gönderilerini etkilemeyecektir.",
+                "require_review_label": "Blog gönderilerinin incelenmesi gerekiyor",
+                "require_review_text": "Bir makale gönderirken, doğrudan görünmez ve bir moderatör tarafından incelenmesi gerekir.",
+                "hide_on_discussion_list_label": "Tartışma listesinde gösterme",
+                "hide_on_discussion_list_text": "Tartışma listesinden blog gönderilerini gizleyin.",
+                "add_sidebar_nav_label": "Kenar çubuğu gezinmesine ekle",
+                "add_sidebar_nav_text": "Kenar çubuğu gezinme menüsünde bloga bir bağlantı ekleyin.",
+                "categories_heading": "Kategoriler",
+                "hide_tags_in_taglist_label": "Etiket listesinde etiketleri gizle",
+                "hide_tags_in_taglist_text": "Etkinleştirildiğinde, bu uzantı blog etiketlerini ana sayfanızdan gizler.",
+                "show_tag_hierarchy_label": "Etiket hiyerarşisini göster",
+                "show_tag_hierarchy_text": "Alt kategorilere boşluk ekleyin ve kategori listesine bir hiyerarşi verin.",
+                "redirects_heading": "Yönlendirmeler",
                 "redirects_text": "",
                 "redirects_options": {
                     "both": "",
@@ -42,90 +42,90 @@
                     "tags_only": "",
                     "none": ""
                 },
-                "default_article_image_label": "",
-                "default_article_image_text": "",
-                "add_hero_label": "",
-                "add_hero_text": ""
+                "default_article_image_label": "Varsayılan makale görseli",
+                "default_article_image_text": "Görsel ayarlanmadığında görüntülenecek varsayılan bir makale görseli seçin.",
+                "add_hero_label": "Karşılama başlığını göster",
+                "add_hero_text": "Henüz kapatılmamışsa, blog sayfalarında hoş geldiniz başlığını gösterin."
             }
         },
         "forum": {
-            "blog": "",
-            "read_more": "",
-            "hidden": "",
-            "recent_posts": "",
-            "categories": "",
-            "forum_nav": "",
-            "return_to_overview": "",
-            "no_more_posts": "",
-            "category_empty": "",
+            "blog": "Blog",
+            "read_more": "Devamını oku",
+            "hidden": "Gizli",
+            "recent_posts": "Son blog gönderileri",
+            "categories": "Kategoriler",
+            "forum_nav": "Forum Menüsü",
+            "return_to_overview": "Blog görünümüne geri dön ",
+            "no_more_posts": "Daha fazla blog gönderisi yok.",
+            "category_empty": "Bu kategoride bir blog gönderisi bulunmamaktadır.",
             "compose": {
-                "write_article": ""
+                "write_article": "Makale yaz"
             },
             "validation": {
-                "missing_id": ""
+                "missing_id": "Kayıp ID"
             },
             "article": {
-                "title": "",
-                "slug": "",
-                "summary": ""
+                "title": "Başlık",
+                "slug": "Adres Kısa Adı",
+                "summary": "Özet"
             },
             "comment_section": {
-                "comments": "",
-                "locked": ""
+                "comments": "Yorumlar",
+                "locked": "Bu makale için yorumlar kısmı etkisizleştirilmiştir"
             },
             "review_article": {
-                "pending_review_title": "",
-                "pending_review": "",
-                "approve_article": "",
-                "approve_article_approved": ""
+                "pending_review_title": "İncelenmeyi bekliyor",
+                "pending_review": "Bu makale incelenmeyi bekliyor ve henüz yayınlanmadı",
+                "approve_article": "Makaleyi onayla",
+                "approve_article_approved": "Makale onaylandı ve yayınlandı"
             },
             "tools": {
-                "rename_article": "",
-                "edit_article": "",
-                "update_category": "",
-                "article_settings": "",
-                "approve_article": "",
-                "hide_article": "",
-                "recover_article": "",
-                "delete_forever": "",
-                "enable_comments": "",
-                "disable_comments": ""
+                "rename_article": "Makaleyi yeniden adlandır",
+                "edit_article": "Makaleyi düzenle",
+                "update_category": "Kategorileri güncelle",
+                "article_settings": "Makale ayarları",
+                "approve_article": "Makaleyi onayla",
+                "hide_article": "Makaleyi gizle",
+                "recover_article": "Makaleyi kurtar",
+                "delete_forever": "Kalıcı olarak sil",
+                "enable_comments": "Yorumları etkinleştir",
+                "disable_comments": "Yorumları etkisizleştir"
             },
             "utils": {
                 "redirect": {
-                    "title": "",
-                    "link": ""
+                    "title": "Sizi blog yazımıza yönlendiriyoruz...",
+                    "link": "Eğer yönlendirilmezseniz <a>buraya</a> tıklayın"
                 }
             },
             "composer": {
-                "no_title": "",
-                "enter_message_here": "",
-                "post_article": "",
-                "select_category": "",
-                "edit_categories": "",
-                "update_settings": "",
-                "write": "",
-                "view": "",
-                "nothing_to_preview": "",
-                "comment_section": "",
-                "no_blog_tags_selected": "",
-                "post_without_blog_info": ""
+                "no_title": "Başlık yok",
+                "enter_message_here": "Mesajınızı buraya girin",
+                "post_article": "Makale yayınla",
+                "select_category": "Bir kategori seç",
+                "edit_categories": "Kategorileri düzenleyin",
+                "update_settings": "Blog ayarlarını güncelle",
+                "write": "Yaz",
+                "view": "Görünüm",
+                "nothing_to_preview": "Önizlenecek bir şey yok",
+                "comment_section": "Bir makale oluştururken yorum bölümü kullanılamaz.",
+                "no_blog_tags_selected": "Seçtiğiniz etiketlerin hiçbiri blog etiketi değil. Lütfen en az birini seçin.",
+                "post_without_blog_info": "Bu blog gönderisini göndermek istediğinizden emin misiniz? Henüz bir blog özeti veya resmi girmediniz."
             },
             "article_settings": {
-                "title": "",
+                "title": "Blog gönderi ayarları",
                 "fields": {
                     "summary": {
-                        "title": "",
-                        "placeholder": "",
-                        "helper_text": ""
+                        "title": "Makale özeti",
+                        "placeholder": "Lütfen bir özet veya açıklama girin",
+                        "helper_text": "Bu özet blog genel bakış sayfasında ve SEO amaçlı alanlarda kullanılacaktır."
                     },
                     "image": {
-                        "title": "",
-                        "helper_text": ""
+                        "title": "Makale görseli",
+                        "helper_text": "Sosyal medya için en iyi görsel çözünürlüğü: 1200x630"
                     },
                     "highlight": {
-                        "title": "",
-                        "helper_text": ""
+                        "title": "Öne çıkarılan gönderi",
+                        "helper_text": "Bu gönderiye blog genel bakış sayfasında büyük bir resim verin."
                     }
                 }
             }
