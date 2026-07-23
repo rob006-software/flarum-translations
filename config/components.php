@@ -423,7 +423,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/sitemap/3.0.0-beta.6/resources/locale/en.yml',
 	],
 	'fof-socialprofile' => [
-		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/socialprofile/2.0.0-beta.2/resources/locale/en.yml',
+		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/socialprofile/2.0.0-beta.3/resources/locale/en.yml',
 	],
 	'fof-split' => [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/split/2.0.0-beta.4/locale/en.yml',
