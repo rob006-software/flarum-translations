@@ -180,7 +180,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/topic-map/v0.2.0/locale/en.yml',
 	],
 	'ernestdefoe-typesense' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/typesense/v0.2.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/typesense/v0.2.1/locale/en.yml',
 	],
 	'flarum-akismet' => [
 		'beta' => 'https://raw.githubusercontent.com/flarum/akismet/v2.0.0-rc.5/locale/en.yml',
