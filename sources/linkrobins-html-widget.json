@@ -8,7 +8,9 @@
                 "icon_label": "Icon class",
                 "icon_help": "FontAwesome class shown next to the title (e.g. fas fa-bullhorn). Leave blank for no icon.",
                 "body_label": "HTML body",
-                "body_help": "Raw HTML, sanitised before display -- script tags, event-handler attributes, javascript: URLs, and unsafe elements such as iframes are removed."
+                "body_help": "Raw HTML, sanitised before display -- script tags, event-handler attributes, javascript: URLs, and unsafe elements such as iframes are removed.",
+                "background_label": "Background color",
+                "background_help": "Optional. The widget's background color. Leave blank to follow your theme."
             }
         }
     }
