@@ -1,0 +1,71 @@
+{
+    "linkrobins-birdseye": {
+        "lib": {
+            "dashboard": {
+                "title": "Analytics",
+                "range_7d": "7 days",
+                "range_30d": "30 days",
+                "visitors": "Visitors",
+                "pageviews": "Pageviews",
+                "bounce_rate": "Bounce rate",
+                "avg_visit": "Avg. visit",
+                "posts": "Posts",
+                "new_members": "New members",
+                "visitors_per_day": "Visitors per day",
+                "top_pages": "Top pages",
+                "top_discussions": "Top discussions",
+                "sources": "Sources",
+                "searches": "Searches",
+                "devices": "Devices",
+                "countries": "Countries",
+                "world": "World",
+                "direct": "Direct / unknown",
+                "unknown": "Unknown",
+                "no_data": "No data yet.",
+                "visitors_word": "visitors",
+                "no_visitors": "No visitors",
+                "today": "Today so far",
+                "today_note": "live — becomes final when the day closes",
+                "tags": "Top tags",
+                "unanswered": "Needs a reply",
+                "unanswered_note": "viewed this week, no replies",
+                "activation": "New-member activation",
+                "activation_help": "Share of new members who post within 7 days of joining. The newest weeks are still maturing.",
+                "joined_word": "joined"
+            }
+        },
+        "forum": {
+            "session_menu": {
+                "analytics_button": "Analytics"
+            }
+        },
+        "admin": {
+            "permissions": {
+                "view_stats_label": "View forum analytics"
+            },
+            "settings": {
+                "collect_label": "Collect analytics",
+                "collect_help": "Pause collection without disabling the extension. Existing stats keep rendering.",
+                "license_key_label": "License key",
+                "license_key_help": "From your Birdseye subscription at linkrobins.com. Without a key the extension records basic daily counts only, entirely locally.",
+                "geo_ip_prefix_label": "Country lookup via anonymized IP prefix",
+                "geo_ip_prefix_help": "When no proxy country header is present, keep a truncated IP prefix (never the full address) in the 72-hour buffer so the processor can resolve visitor countries. Turn off to skip country stats on non-proxied traffic.",
+                "weekly_digest_label": "Weekly email digest",
+                "weekly_digest_help": "Every Monday, email administrators a summary of last week — visitors, pageviews, posts, new members, top discussion, and top search. Sent by your forum's own mailer; nothing leaves the server."
+            }
+        },
+        "email": {
+            "digest": {
+                "subject": "{forum} last week: {visitors} visitors",
+                "heading": "{forum} — week of {start}–{end}",
+                "visitors_line": "Visitors: {count} ({change})",
+                "pageviews_line": "Pageviews: {count} ({change})",
+                "posts_line": "Posts: {count} ({change})",
+                "registrations_line": "New members: {count} ({change})",
+                "top_discussion_line": "Top discussion: \"{title}\" ({views} views)",
+                "top_search_line": "Top search: \"{query}\" ({count} searches)",
+                "footer": "— Link Robins Birdseye. Turn this digest off any time under Admin → Birdseye."
+            }
+        }
+    }
+}
