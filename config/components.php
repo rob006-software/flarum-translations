@@ -387,7 +387,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/photoswipe/v2.0.0-beta.2/resources/locale/en.yml',
 	],
 	'fof-polls' => [
-		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/polls/3.0.0-beta.4/resources/locale/en.yml',
+		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/polls/3.0.0-beta.5/resources/locale/en.yml',
 	],
 	'fof-prevent-necrobumping' => [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/prevent-necrobumping/2.0.0-beta.1/resources/locale/en.yml',
