@@ -699,7 +699,7 @@ return [
 		],
 	],
 	'qwe987299-auto-ban-spam' => [
-		'tag' => 'https://raw.githubusercontent.com/qwe987299/flarum-auto-ban-spam/v1.0.3/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/qwe987299/flarum-auto-ban-spam/v1.0.5/locale/en.yml',
 		'__builtInLanguages' => [
 			'ja',
 			'zh_Hant',
