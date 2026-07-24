@@ -12,11 +12,11 @@
                 "selected_category_count": "{count, plural, one {Vous avez sélectionné # catégorie} other {Vous avez sélectionné # catégories}}",
                 "select_categories_button": "Sélectionnez les catégories de blog",
                 "categories_modal": {
-                    "description": "",
-                    "visit_blog": "",
-                    "tag_name_column": "",
-                    "no_tags": "",
-                    "close": ""
+                    "description": "Veuillez sélectionner une ou plusieurs étiquettes qui sont considérées comme des étiquettes de blog.",
+                    "visit_blog": "Visitez votre blog.",
+                    "tag_name_column": "Nom de l'étiquette",
+                    "no_tags": "Vous n'avez actuellement aucune étiquette.",
+                    "close": "Fermer"
                 },
                 "blog_heading": "Blog",
                 "featured_count_label": "Maximum de messages en vedette",
@@ -35,12 +35,12 @@
                 "show_tag_hierarchy_label": "Afficher la hiérarchie des étiquettes",
                 "show_tag_hierarchy_text": "Ajoutez de l'espace aux catégories-enfants et attribuez une hiérarchie à la liste des catégories.",
                 "redirects_heading": "Redirections",
-                "redirects_text": "",
+                "redirects_text": "Rediriger les URL des discussions et des étiquettes d'origine vers leurs équivalents sur le blog.",
                 "redirects_options": {
-                    "both": "",
-                    "discussions_only": "",
-                    "tags_only": "",
-                    "none": ""
+                    "both": "Rediriger les articles et les étiquettes",
+                    "discussions_only": "Rediriger uniquement les articles",
+                    "tags_only": "Rediriger uniquement les étiquettes",
+                    "none": "Aucune redirection"
                 },
                 "default_article_image_label": "Image par défaut de l'article",
                 "default_article_image_text": "Sélectionnez une image d'article par défaut à afficher lorsqu'aucune image n'est définie.",
@@ -133,7 +133,7 @@
         "lib": {
             "gambits": {
                 "blog": {
-                    "key": ""
+                    "key": "blog"
                 }
             }
         }
@@ -142,11 +142,11 @@
         "lib": {
             "browser": {
                 "article": {
-                    "created": "",
-                    "approved": "",
-                    "updated": "",
-                    "featured": "",
-                    "unfeatured": ""
+                    "created": "A créé un article de blog {discussion}",
+                    "approved": "A approuvé l'article de blog {discussion}",
+                    "updated": "A mis à jour les métadonnées de l'article de blog {discussion}",
+                    "featured": "A ajouté l'article de blog {discussion} à la une",
+                    "unfeatured": "A retiré l'article de blog {discussion} de la une"
                 }
             }
         }
