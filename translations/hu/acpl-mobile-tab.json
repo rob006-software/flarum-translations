@@ -1,42 +1,42 @@
 {
     "acpl-mobile-tab": {
         "admin": {
-            "available_items": "",
-            "active_items": "",
-            "create_new_item_button": "",
+            "available_items": "Elérhető elemek",
+            "active_items": "Aktív elemek",
+            "create_new_item_button": "Új elem létrehozása",
             "edit_item": {
-                "modal_title": "",
-                "label": "",
-                "label_placeholder": "",
-                "path": "",
-                "url": "",
-                "icon": "",
-                "icon_help": "",
-                "is_internal_checkbox": "",
-                "open_new_tab_checkbox": "",
-                "submit_button": "",
-                "delete_button": "",
-                "delete_item_confirmation": ""
+                "modal_title": "Elem szerkesztése",
+                "label": "Címke",
+                "label_placeholder": "Saját egyéni elem",
+                "path": "Elérési út",
+                "url": "Webcím",
+                "icon": "Ikon",
+                "icon_help": "Adja meg egy <a>FontAwesome</a> ikonosztály nevét, beleértve a <code>fas fa-</code> előtagot.",
+                "is_internal_checkbox": "Ez belső hivatkozás?",
+                "open_new_tab_checkbox": "Hivatkozás megnyitása új lapon",
+                "submit_button": "Mentés",
+                "delete_button": "Törlés",
+                "delete_item_confirmation": "Biztos, hogy törli ezt az elemet?"
             },
             "scroll_settings": {
-                "toggle_label": "",
-                "threshold_label": "",
-                "threshold_help": ""
+                "toggle_label": "Láthatóság átállítása görgetéskor",
+                "threshold_label": "Görgetés küszöbértéke (képpont)",
+                "threshold_help": "Görgetési távolság a jelenlegi pozíciótól a láthatóság átállításához."
             }
         },
         "lib": {
             "item": {
-                "home": "",
-                "all_discussions": "",
-                "new_discussion": "",
-                "notifications": "",
-                "session": "",
-                "search": "",
-                "log_in": "",
-                "profile": "",
-                "tags": "",
-                "messages": "",
-                "fof-byobu": ""
+                "home": "Főoldal",
+                "all_discussions": "Témák",
+                "new_discussion": "Új témák",
+                "notifications": "Értesítések",
+                "session": "Munkamenet",
+                "search": "Keresés",
+                "log_in": "Bejelentkezés",
+                "profile": "Profil",
+                "tags": "Címkék",
+                "messages": "Üzenetek",
+                "fof-byobu": "Privát"
             }
         }
     }
