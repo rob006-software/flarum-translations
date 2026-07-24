@@ -1181,6 +1181,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`kilowhat-audit-free`](https://weblate.rob006.net/projects/flarum/kilowhat-audit-free) | [`kilowhat/flarum-ext-audit-free`](https://github.com/kilowhat/flarum-ext-audit-free) |
 | [`klxf-maintenance`](https://weblate.rob006.net/projects/flarum/klxf-maintenance) | [`klxf/flarum-maintenance`](https://github.com/klxf/flarum-maintenance) |
 | [`krombox-oauth-wordpress`](https://weblate.rob006.net/projects/flarum/krombox-oauth-wordpress) | [`krombox/flarum-ext-oauth-wordpress`](https://github.com/krombox/flarum-ext-oauth-wordpress) |
+| [`linkrobins-birdseye`](https://weblate.rob006.net/projects/flarum/linkrobins-birdseye) | [`linkrobins/birdseye`](https://github.com/linkrobins/birdseye) |
 | [`linkrobins-discussion-banners`](https://weblate.rob006.net/projects/flarum/linkrobins-discussion-banners) | [`linkrobins/discussion-banners`](https://github.com/linkrobins/flarum-discussion-banners) |
 | [`litalino-adblock`](https://weblate.rob006.net/projects/flarum/litalino-adblock) | [`litalino/flarum-adblock`](https://github.com/Litalino/flarum-adblock) |
 | [`litalino-auto-post-count-badge`](https://weblate.rob006.net/projects/flarum/litalino-auto-post-count-badge) | [`litalino/flarum-auto-post-count-badge`](https://github.com/Litalino/flarum-auto-post-count-badge) |
