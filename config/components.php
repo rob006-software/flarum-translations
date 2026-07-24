@@ -908,7 +908,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/glowingblue/flarum-ext-redis-setup/1.3.2/resources/locale/en.yml',
 	],
 	'gradba-pagination' => [
-		'tag' => 'https://raw.githubusercontent.com/gradba/flarum-pagination/v1.0.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/gradba/flarum-pagination/v1.1.1/resources/locale/en.yml',
 		'__builtInLanguages' => [
 			'mk',
 		],
