@@ -122,6 +122,9 @@ return [
 	'ernestdefoe-calendar' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/calendar/v2.2.0/resources/locale/en.yml',
 	],
+	'ernestdefoe-connect' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/connect/v1.0.1/locale/en.yml',
+	],
 	'ernestdefoe-cross-references' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/cross-references/3.0.0/locale/en.yml',
 	],
