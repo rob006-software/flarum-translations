@@ -60,9 +60,11 @@
                 "collect_label": "Collect analytics",
                 "collect_help": "Pause collection without disabling the extension. Existing stats keep rendering.",
                 "license_key_label": "License key",
-                "license_key_help": "From your Birdseye subscription at linkrobins.com. Without a key the extension records basic daily counts only, entirely locally.",
+                "license_key_help": "From your Birdseye subscription at linkrobins.com. Without a key the extension records basic daily counts only, entirely locally. Saving a key checks in with Birdseye right away, so your dashboard shows the forum as connected within seconds.",
                 "geo_ip_prefix_label": "Country lookup via anonymized IP prefix",
                 "geo_ip_prefix_help": "When no proxy country header is present, keep a truncated IP prefix (never the full address) in the 72-hour buffer so the processor can resolve visitor countries. Turn off to skip country stats on non-proxied traffic.",
+                "country_header_label": "Trusted country header",
+                "country_header_help": "The proxy header carrying each visitor's two-letter country code — CF-IPCountry on Cloudflare, or e.g. X-Country from nginx-geoip. It is trusted as-is, so only set a header your proxy really sets; leave it empty if you have no such proxy and rely on the anonymized IP prefix instead.",
                 "weekly_digest_label": "Weekly email digest",
                 "weekly_digest_help": "Every Monday, email administrators a summary of last week — visitors, pageviews, posts, new members, top discussion, and top search. Sent by your forum's own mailer; nothing leaves the server."
             }
