@@ -249,7 +249,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/flarum/tags/v2.0.0-rc.5/locale/en.yml',
 	],
 	'flectar-turnstile' => [
-		'beta' => 'https://raw.githubusercontent.com/flectar/flarum-ext-turnstile/2.0.0-beta.2/locale/en.yml',
+		'beta' => 'https://raw.githubusercontent.com/flectar/flarum-ext-turnstile/2.0.0-rc.1/locale/en.yml',
 	],
 	'fof-amazon-affiliation' => [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/amazon-affiliation/2.0.0-beta.1/resources/locale/en.yml',
