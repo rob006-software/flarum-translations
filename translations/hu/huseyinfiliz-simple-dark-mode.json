@@ -2,19 +2,19 @@
     "huseyinfiliz-simple-dark-mode": {
         "admin": {
             "settings": {
-                "always_show_header_toggle_label": "",
-                "always_show_header_toggle_help": "",
-                "solid_icon_label": "",
-                "solid_icon_help": ""
+                "always_show_header_toggle_label": "A témaváltó gomb megjelenítése mindig a fórumfejlécben",
+                "always_show_header_toggle_help": "Alapértelmezés szerint a fejléc gombja csak a vendégek számára látható. Ha bekapcsolja, akkor a bejelentkezett felhasználók számára is megjelenik (nekik egyébként is mindig elérhető a kapcsoló a felhasználói menüben).",
+                "solid_icon_label": "Témaikon megjelenítése tömör stílusban",
+                "solid_icon_help": "Tömör Font Awesome ikonokat használ a szokásos (körvonalas) stílus helyett a témakapcsolóhoz."
             }
         },
         "forum": {
             "header": {
-                "toggle_tooltip": ""
+                "toggle_tooltip": "Témakapcsoló"
             },
             "session": {
-                "dark_mode": "",
-                "light_mode": ""
+                "dark_mode": "Sötét mód",
+                "light_mode": "Világos mód"
             }
         }
     }
