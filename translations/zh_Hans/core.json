@@ -45,20 +45,20 @@
                     "source_help": "选择 FontAwesome 图标的加载方式。“本地”使用捆绑字体，“CDN”从 CDN 加载，“Kit”使用带有自定义图标的 FontAwesome Kit。",
                     "source_local": "本地（捆绑）",
                     "source_cdn": "CDN",
-                    "source_kit": "FontAwesome组件包",
+                    "source_kit": "Font Awesome Kit",
                     "cdn_url_label": "CDN URL",
-                    "cdn_url_help": "CDN 上 FontAwesome CSS 文件的完整 URL",
-                    "kit_url_label": "组件包网址",
-                    "kit_url_help": "您的 FontAwesome Kit 脚本 URL（来自 kit.fontawesome.com）",
+                    "cdn_url_help": "CDN 上 Font Awesome CSS 文件的完整 URL",
+                    "kit_url_label": "Kit 网址",
+                    "kit_url_help": "您的 Font Awesome Kit 脚本的 URL（来自于 kit.fontawesome.com）",
                     "config_override": {
                         "label": "配置覆盖",
-                        "help": "FontAwesome 设置目前已在 config.php 文件中设置，无法在此处更改。"
+                        "help": "Font Awesome 设置目前已在 config.php 文件中设置，无法在此处更改。"
                     },
                     "preview": {
                         "button": "预览图标",
                         "label": "图标预览",
-                        "help": "验证您的 FontAwesome 设置。渲染的图标表示该级别可用；损坏的方框表示未加载。",
-                        "fa5_fa6_label": "FA5/FA6 别名",
+                        "help": "验证您的 Font Awesome 设置。显示的图标表示该级别可用；损坏的方框表示未加载。",
+                        "fa5_fa6_label": "FA5 / FA6 别名",
                         "fa7_label": "FA7 类名",
                         "pro_label": "仅限专业版"
                     }
@@ -68,7 +68,7 @@
                 },
                 "queue": {
                     "section_label": "队列",
-                    "sync_info": "您的论坛正在使用同步队列驱动程序。任务在主进程线程中立即处理。",
+                    "sync_info": "您的论坛正在使用同步队列驱动程序。任务在主进程线程中会立即处理。",
                     "sync_help": "为了获得更好的性能和用户体验，请考虑使用数据库队列驱动程序。在文档中了解更多信息。",
                     "custom_driver": "您的论坛正在使用 {driver} 队列驱动程序，该驱动程序由扩展提供。",
                     "retries_label": "任务重试",
@@ -114,8 +114,8 @@
                 "enter_hex_message": "请输入十六进制颜色代码。",
                 "favicon_heading": "站点图标",
                 "favicon_text": "上传图片做为论坛的站点图标，该图标会显示在浏览器标签页、搜索引擎结果条目及书签等多个地方。",
-                "logo_heading": "标志",
-                "logo_text": "上传图片代替论坛名称，并展示在导航栏左侧。",
+                "logo_heading": "Logo",
+                "logo_text": "上传图片将会代替论坛名称，展示在导航栏左侧。",
                 "logo_dark_mode_heading": "深色模式 Logo",
                 "logo_dark_mode_text": "上传在启用深色模式时显示的备用 Logo。",
                 "title": "外观",
@@ -150,26 +150,26 @@
                 "show_language_selector_label": "显示语言选择器",
                 "slug_driver_options": {
                     "discussions": {
-                        "default": "带别名的 ID",
-                        "utf8": "带 UTF-8 别名的 ID"
+                        "default": "带 slug 的 ID",
+                        "utf8": "带 UTF-8 的 ID"
                     },
                     "users": {
                         "default": "用户名",
                         "id": "ID",
-                        "id_with_display_name": "ID 与显示名称"
+                        "id_with_display_name": "ID 与外显名称"
                     }
                 },
-                "slug_driver_heading": "固定链接驱动：{model}",
+                "slug_driver_heading": "Slug 驱动：{model}",
                 "slug_driver_text": "选择此模块的 URL 驱动。",
                 "title": "常规",
                 "welcome_banner_heading": "欢迎横幅",
-                "welcome_banner_text": "横幅文本将显示于「全部讨论」页面顶部，可以用于欢迎论坛访客。",
-                "abandoned_extensions_heading": "已弃用插件",
-                "abandoned_extensions_text": "Flarum维护了一个<a>已弃用扩展的清单</a>。当安装了列表中的插件时，管理员面板中将标记该插件。",
+                "welcome_banner_text": "横幅文本将显示于「全部讨论」页面顶部，可用于欢迎论坛的访客。",
+                "abandoned_extensions_heading": "已弃用的扩展",
+                "abandoned_extensions_text": "Flarum 维护了一个<a>已弃用扩展的清单</a>。当安装了清单里的扩展时，管理员面板中将会标记该扩展。",
                 "abandoned_extensions_sync_button": "立即检查",
-                "abandoned_extensions_sync_success": "已弃用插件清单更新完成。已安装插件中，发现{count}个已弃用的。",
-                "abandoned_extensions_sync_error": "已弃用插件清单更新失败。请稍后重试。",
-                "abandoned_extensions_notify_admins_label": "邮件通知管理员每周例行检查时新发现的已弃用插件"
+                "abandoned_extensions_sync_success": "「已弃用的扩展清单」更新完成。在已安装扩展中，发现 {count} 个为已弃用。",
+                "abandoned_extensions_sync_error": "「已弃用的扩展清单」更新失败。请稍后再重试。",
+                "abandoned_extensions_notify_admins_label": "当在每周检查中发现新的已弃用扩展时，给管理员发送电子邮件"
             },
             "create_user": {
                 "email_placeholder": "=> core.ref.email",
@@ -182,7 +182,7 @@
                 "username_placeholder": "=> core.ref.username"
             },
             "announcements": {
-                "comments_label": "{count, plural, one {# 条评论} other {# 条评论}}",
+                "comments_label": "{count, plural, one {# 条回复} other {# 条回复}}",
                 "description": "Flarum 团队的最新消息和公告。",
                 "empty": "未发现公告。",
                 "load_error": "无法加载公告。请稍后再试。",
@@ -233,9 +233,9 @@
                 "section_abandoned_heading": "需要注意",
                 "section_abandoned_help": "这些扩展不再维护，或者可能存在兼容性问题。请考虑更新、更换或移除。",
                 "section_suggested_heading": "建议",
-                "section_suggested_help": "Flarum 扩展可以通过指定其他扩展或包来添加可选的额外功能。这些可能会增加更多功能或集成。",
+                "section_suggested_help": "Flarum 扩展可以通过指定其他扩展或包来添加可选的额外功能。这些扩展可能会增加更多功能或集成。",
                 "section_disabled_heading": "已禁用",
-                "section_disabled_help": "这些扩展已安装但当前未启用。请从其设置页面启用它们，或者如果不再需要则将其删除。",
+                "section_disabled_help": "这些扩展已安装但当前未启用。请从其设置页面启用它们，或者如果不再需要则将其移除。",
                 "suggested_by": "由 {extension} 建议"
             },
             "database-driver-mismatch-warning": {
@@ -816,7 +816,7 @@
                 "payload_too_large_message": "上传内容过大。",
                 "permission_denied_message": "您没有权限进行此操作。",
                 "rate_limit_exceeded_message": "您的操作太频繁，请稍后再试。",
-                "render_failed_message": "抱歉，加载此内容时出错，请刷新页面重试。如果您是管理员，请查看论坛日志文件查看详情。"
+                "render_failed_message": "抱歉，加载此内容时出错，请刷新页面重试。如果您是管理员，请查看 Flarum 的日志文件以获取更多信息。"
             },
             "gambits": {
                 "group_keys": {
@@ -955,7 +955,7 @@
                 "info": {
                     "caption": "说明"
                 },
-                "title": "开发者"
+                "title": "管理员"
             },
             "confirm_email": {
                 "submit_button": "=> core.ref.confirm_email",
@@ -981,9 +981,9 @@
                 "method_not_allowed": "此页面不支持该请求方法。",
                 "not_authenticated": "您没有权限访问此页面，请登录后再试。",
                 "not_found": "您访问的页面不存在。",
-                "not_found_return_link": "返回 {forum}",
+                "not_found_return_link": "返回至 {forum}",
                 "permission_denied": "您没有权限访问此页面。",
-                "unknown": "加载页面时出错，请检查控制台。"
+                "unknown": "加载页面时出错，请检查日志。"
             },
             "index": {
                 "all_discussions_heading": "=> core.ref.all_discussions",
@@ -995,7 +995,7 @@
             },
             "log_out": {
                 "log_out_button": "=> core.ref.log_out",
-                "log_out_confirmation": "确定要退出登录 {forum}?",
+                "log_out_confirmation": "您确定要在 {forum} 上退出登录?",
                 "title": "=> core.ref.log_out"
             },
             "log_in": {
@@ -1066,11 +1066,11 @@
                 "body": "这是一封测试邮件，用于确认您的 Flarum 邮件配置是否工作正常。\n\n如果是您发送的，此邮件表示您的配置工作正常！\n\n如果这不是您本人，请忽略此邮件。\n"
             },
             "abandoned_extensions": {
-                "subject": "注意：发现已弃用插件",
-                "body_intro": "下列插件为已弃用插件：",
-                "body_outro": "请检查这些插件，并计划迁移到可用的替代插件。",
-                "line_with_replacement": "{package} （建议的替代插件：{replacement}）",
-                "line_no_replacement": "{package}（暂无可用替代插件）"
+                "subject": "注意：发现了已弃用扩展",
+                "body_intro": "下列为已弃用扩展：",
+                "body_outro": "请检查这些扩展，并计划迁移到可用的替代扩展。",
+                "line_with_replacement": "{package} （建议的替代扩展：{replacement}）",
+                "line_no_replacement": "{package}（暂无可用的替代扩展）"
             }
         },
         "ref": {
@@ -1096,7 +1096,7 @@
             "extensions": "扩展程序",
             "generic_confirmation_message": "确定要继续吗？此操作无法撤销。",
             "icon": "图标",
-            "icon_text": "请输入任何 <a>FontAwesome</a> 图标类名，<em>包括</em>前缀（例如 <code>fas fa-flag</code> 或 <code>fa-solid fa-flag</code>）。",
+            "icon_text": "请输入任何 <a>Font Awesome</a> 图标类名，<em>包括</em>前缀（例如 <code>fas fa-flag</code> 或 <code>fa-solid fa-flag</code>）。",
             "invalid_login_message": "您的登录信息不正确。",
             "light_hc_mode_label": "浅色高对比度模式",
             "light_mode_label": "浅色模式",
