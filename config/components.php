@@ -904,9 +904,6 @@ return [
 			'tr',
 		],
 	],
-	'glowingblue-redis-setup' => [
-		'tag' => 'https://raw.githubusercontent.com/glowingblue/flarum-ext-redis-setup/1.3.2/resources/locale/en.yml',
-	],
 	'gtdxyz-badges' => [
 		'tag' => 'https://raw.githubusercontent.com/daocatt/flarum-ext-badges/1.0.1/locale/en.yml',
 		'__builtInLanguages' => [
