@@ -1271,9 +1271,6 @@ return [
 	'katosdev-signature' => [
 		'tag' => 'https://raw.githubusercontent.com/katosdev/signature/1.6/locale/en.yml',
 	],
-	'kilowhat-audit-free' => [
-		'tag' => 'https://raw.githubusercontent.com/kilowhat/flarum-ext-audit-free/1.7.0/resources/locale/en.yml',
-	],
 	'kilowhat-audit-pro' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/84b06a54d8679050557844666ca9436064cb016b/kilowhat-audit-pro.yml',
 	],
