@@ -419,13 +419,11 @@ Flarum <del>维护了一个&lt;a&gt;社区弃用扩展列表&lt;/a&gt;。当已�
 
 ```diff
 -启用 <code>调试</code> 模式时，所有 Flarum 请求均不会缓存，<code>JavaScript</code> 和 <code>CSS</code> 文件将每次请求时返回全新的编译版本。调试模式中，所有日志、警告和错误均会以弹窗形式展示在网页中，数据库密码、环境变量等敏感信息均有可能在此期间泄露。
--
--因此我们强烈建议您在生产环境中将 <code>config.php</code> 文件中的 <code>debug</code> 设置为 <code>false</code> 以禁用调试模式。请查看 <link>Flarum 文档</link>了解更多信息。
--
 +当 <code>debug</code> 模式处于启用状态时，Flarum 会在每次请求时重新构建其 <code>JavaScript</code> 和 <code>CSS</code> 资源，并且可能导致其他敏感信息的泄露，例如数据库密钥、环境变量等。
-+
+
+-因此我们强烈建议您在生产环境中将 <code>config.php</code> 文件中的 <code>debug</code> 设置为 <code>false</code> 以禁用调试模式。请查看 <link>Flarum 文档</link>了解更多信息。
 +强烈建议在生产环境中修改您的 <code>config.php</code> 文件以禁用 <code>debug</code> 模式。欲了解更多信息，请参阅 <link>Flarum 文档</link>。
-+
+
 ```
 
 <del>启用</del><ins>当</ins> <del>&lt;code&gt;调试&lt;/code&gt;</del><ins>&lt;code&gt;debug&lt;/code&gt;</ins> <del>模式时，所有</del><ins>模式处于启用状态时，Flarum</ins> <del>Flarum</del><ins>会在每次请求时重新构建其</ins> <del>请求均不会缓存，&lt;code&gt;JavaScript&lt;/code&gt;</del><ins>&lt;code&gt;JavaScript&lt;/code&gt;</ins> 和 &lt;code&gt;CSS&lt;/code&gt; <del>文件将每次请求时返回全新的编译版本。调试模式中，所有日志、警告和错误均会以弹窗形式展示在网页中，数据库密码、环境变量等敏感信息均有可能在此期间泄露。</del><ins>资源，并且可能导致其他敏感信息的泄露，例如数据库密钥、环境变量等。</ins><br /><br /><del>因此我们强烈建议您在生产环境中将</del><ins>强烈建议在生产环境中修改您的</ins> &lt;code&gt;config.php&lt;/code&gt; <del>文件中的</del><ins>文件以禁用</ins> &lt;code&gt;debug&lt;/code&gt;<del> 设置为 &lt;code&gt;false&lt;/code&gt;</del> <del>以禁用调试模式。请查看</del><ins>模式。欲了解更多信息，请参阅</ins> &lt;link&gt;Flarum <del>文档&lt;/link&gt;了解更多信息。</del><ins>文档&lt;/link&gt;。</ins><br />
@@ -1004,9 +1002,8 @@ FTP <del>端口（默认</del><ins>端口（默认为</ins> 21）。
 
 ```diff
 -根据指引创建 Google Project 并获取 Client ID 和 Client Secret：https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md
--
 +按照 https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md 的说明创建 Google 项目并获取 Client ID 和 Client Secret。
-+
+
 ```
 
 <del>根据指引创建</del><ins>按照</ins> <del>Google</del><ins>https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md</ins> <del>Project</del><ins>的说明创建</ins> <del>并获取</del><ins>Google 项目并获取</ins> Client ID 和 Client <del>Secret：https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md</del><ins>Secret。</ins><br />
@@ -1040,9 +1037,8 @@ FTP <del>端口（默认</del><ins>端口（默认为</ins> 21）。
 
 ```diff
 -按照 @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/2-getting-your-refresh-token.md 的指引，取回您的 Google oAuth 应用程序刷新令牌。
--
 +按照 https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/2-getting-your-refresh-token.md 的说明取回您的 Google oAuth 应用程序刷新令牌。
-+
+
 ```
 
 按照 <del>@ </del>https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/2-getting-your-refresh-token.md <del>的指引，取回您的</del><ins>的说明取回您的</ins> Google oAuth 应用程序刷新令牌。<br />
@@ -1103,9 +1099,8 @@ FTP <del>端口（默认</del><ins>端口（默认为</ins> 21）。
 
 ```diff
 -为了使用这个驱动程序，您需要安装一个特定的软件包。您可以通过 Flarum 安装目录下运行 <code>composer require {package}</code> 命令来安装。
--
 +为了使用此驱动程序，您需要安装一个特定的软件包。您可以通过在 Flarum 安装目录下运行以下 composer 命令来安装：<code>composer require {package}</code>。
-+
+
 ```
 
 <del>为了使用这个驱动程序，您需要安装一个特定的软件包。您可以通过</del><ins>为了使用此驱动程序，您需要安装一个特定的软件包。您可以通过在</ins> Flarum <del>安装目录下运行</del><ins>安装目录下运行以下</ins> <del>&lt;code&gt;composer</del><ins>composer</ins> <del>require</del><ins>命令来安装：&lt;code&gt;composer</ins> <del>{package}&lt;/code&gt;</del><ins>require</ins> <del>命令来安装。</del><ins>{package}&lt;/code&gt;。</ins><br />
@@ -1450,9 +1445,8 @@ API <del>Key</del><ins>密钥</ins>
 
 ```diff
 -扩展程序管理器需要以下文件和目录的读写权限：composer.json、composer.lock、vendor、storage、storage/.composer
--
 +扩展程序管理器需要以下文件和目录的读写权限：composer.json，composer.lock，vendor，storage，storage/.composer
-+
+
 ```
 
 
@@ -2554,9 +2548,8 @@ Google <del>分析</del><ins>Analytics</ins>
 
 ```diff
 -本页显示所有被 StopForumSpam 服务拦截的注册信息，您可以查看详情或删除记录。
--
 +此页面显示了所有被 StopForumSpam 服务拦截的注册。您可以查看每项注册的详情，如果需要，您也可以从数据库中删除该记录。
-+
+
 ```
 
 <del>本页显示所有被</del><ins>此页面显示了所有被</ins> StopForumSpam <del>服务拦截的注册信息，您可以查看详情或删除记录。</del><ins>服务拦截的注册。您可以查看每项注册的详情，如果需要，您也可以从数据库中删除该记录。</ins><br />
@@ -2754,10 +2747,9 @@ Google <del>分析</del><ins>Analytics</ins>
 ```diff
 -所以已启用检查的触发次数。
 -例如：如果电子邮件有 1 次命中，而 IP 有 2 次命中，共记 3 次命中。如果阈值设置为 3 或更低，则阻止注册。
--
 +所有已启用检查项中的垃圾报告总数，达到此数量将触发垃圾过滤器。
 +例如：如果电子邮件有 1 次命中，IP 有 2 次命中，总计 3 次命中。如果阈值设置为 3 或更小，我们将阻止该注册。
-+
+
 ```
 
 <del>所以已启用检查的触发次数。</del><ins>所有已启用检查项中的垃圾报告总数，达到此数量将触发垃圾过滤器。</ins><br />例如：如果电子邮件有 1<del> 次命中，而</del> <del>IP</del><ins>次命中，IP</ins> 有 2 <del>次命中，共记</del><ins>次命中，总计</ins> 3 次命中。如果阈值设置为 3 <del>或更低，则阻止注册。</del><ins>或更小，我们将阻止该注册。</ins><br />
@@ -2771,13 +2763,11 @@ Google <del>分析</del><ins>Analytics</ins>
 
 ```diff
 -使用 <a>StopForumSpam</a> 检查服务，禁止<code>置信度</code>或<code>频率</code>不符合要求的客户端注册账号。
--
--此检查涵盖 <code>fof/oauth</code> 和 <code>fof/passport</code> 的 SSO 注册渠道。其它 SSO 提供程序应该也受支持，但未经测试。
--
 +根据 <a>StopForumSpam</a> 数据库检查新用户注册。如果达到 <code>confidence</code>（置信度）或 <code>frequency</code>（频率）阈值，该用户将无法在您的论坛上完成注册。
-+
+
+-此检查涵盖 <code>fof/oauth</code> 和 <code>fof/passport</code> 的 SSO 注册渠道。其它 SSO 提供程序应该也受支持，但未经测试。
 +也支持通过 <code>fof/oauth</code> 和 <code>fof/passport</code> 进行的 SSO 注册。其他 SSO 提供商应该也可以工作，但尚未经过测试。
-+
+
 ```
 
 <del>使用</del><ins>根据</ins> &lt;a&gt;StopForumSpam&lt;/a&gt; <del>检查服务，禁止&lt;code&gt;置信度&lt;/code&gt;或&lt;code&gt;频率&lt;/code&gt;不符合要求的客户端注册账号。</del><ins>数据库检查新用户注册。如果达到 &lt;code&gt;confidence&lt;/code&gt;（置信度）或 &lt;code&gt;frequency&lt;/code&gt;（频率）阈值，该用户将无法在您的论坛上完成注册。</ins><br /><br /><del>此检查涵盖</del><ins>也支持通过</ins> &lt;code&gt;fof/oauth&lt;/code&gt; 和 &lt;code&gt;fof/passport&lt;/code&gt; <del>的</del><ins>进行的</ins> SSO <del>注册渠道。其它</del><ins>注册。其他</ins> SSO <del>提供程序应该也受支持，但未经测试。</del><ins>提供商应该也可以工作，但尚未经过测试。</ins><br />
@@ -3053,18 +3043,13 @@ IP <del>地址滥用检查</del><ins>地址垃圾检查</ins>
 >
 
 ```diff
--{recipient_display_name}，你好！
--
+ {recipient_display_name}，你好！
+
 -{actor_display_name} 刚刚为你参与讨论的主题【{discussion_title}】选择了最佳回复。
--
--去看看吧：{discussion_url}
--
-+{recipient_display_name}，你好！
-+
 +{actor_display_name} 刚刚为你参与讨论的讨论【{discussion_title}】选择了最佳回复。
-+
-+去看看吧：{discussion_url}
-+
+
+ 去看看吧：{discussion_url}
+
 ```
 
 {recipient\_display\_name}，你好！<br /><br />{actor\_display\_name} <del>刚刚为你参与讨论的主题【{discussion\_title}】选择了最佳回复。</del><ins>刚刚为你参与讨论的讨论【{discussion\_title}】选择了最佳回复。</ins><br /><br />去看看吧：{discussion\_url}<br />
@@ -3083,26 +3068,18 @@ IP <del>地址滥用检查</del><ins>地址垃圾检查</ins>
 >
 
 ```diff
--{recipient_display_name}，你好！
--
+ {recipient_display_name}，你好！
+
 -你的主题「{discussion_title}」已经有了很多回复。
--
--如果其中有可以帮助你解决问题的，你可以把他选为最佳回复，这样不仅能让后来者快速找到解决问题的办法，也可以激励帮助你的人。
--
--点击此处查看主题：{discussion_url}，并选择最佳回复。
--
--此致
--
-+{recipient_display_name}，你好！
-+
 +你的讨论「{discussion_title}」已经有了很多回复。
-+
-+如果其中有可以帮助你解决问题的，你可以把他选为最佳回复，这样不仅能让后来者快速找到解决问题的办法，也可以激励帮助你的人。
-+
+
+ 如果其中有可以帮助你解决问题的，你可以把他选为最佳回复，这样不仅能让后来者快速找到解决问题的办法，也可以激励帮助你的人。
+
+-点击此处查看主题：{discussion_url}，并选择最佳回复。
 +点击此处查看讨论：{discussion_url}，并选择最佳回复。
-+
-+此致
-+
+
+ 此致
+
 ```
 
 {recipient\_display\_name}，你好！<br /><br /><del>你的主题「{discussion\_title}」已经有了很多回复。</del><ins>你的讨论「{discussion\_title}」已经有了很多回复。</ins><br /><br />如果其中有可以帮助你解决问题的，你可以把他选为最佳回复，这样不仅能让后来者快速找到解决问题的办法，也可以激励帮助你的人。<br /><br /><del>点击此处查看主题：{discussion\_url}，并选择最佳回复。</del><ins>点击此处查看讨论：{discussion\_url}，并选择最佳回复。</ins><br /><br />此致<br />
@@ -3829,9 +3806,8 @@ Byobu <del>主题帖徽章</del><ins>讨论帖徽章</ins>
 
 ```diff
 -当用户的点数发生变化时，将自动添加或删除组。修改设置后，请运行 <code>php flarum fof:gamification:assign-groups</code> 命令更新现有用户。如果您希望删除规则并从组中删除所有用户，请将最低最高点数均设为空，保存设置并执行命令后，在设置中删除规则。
--
 +当用户的积分发生变化时，系统将根据需要自动添加或移除所选的用户组。如果您修改了配置，应当运行 <code>php flarum fof:gamification:assign-groups</code> 命令以更新现有用户。如果您希望删除某条规则并从该组中移除所有用户，请将最小值和最大值均设为空（留空），保存设置并运行上述命令行命令。最后，您可以从设置中彻底删除该规则。
-+
+
 ```
 
 <del>当用户的点数发生变化时，将自动添加或删除组。修改设置后，请运行</del><ins>当用户的积分发生变化时，系统将根据需要自动添加或移除所选的用户组。如果您修改了配置，应当运行</ins> &lt;code&gt;php flarum fof:gamification:assign-groups&lt;/code&gt; <del>命令更新现有用户。如果您希望删除规则并从组中删除所有用户，请将最低最高点数均设为空，保存设置并执行命令后，在设置中删除规则。</del><ins>命令以更新现有用户。如果您希望删除某条规则并从该组中移除所有用户，请将最小值和最大值均设为空（留空），保存设置并运行上述命令行命令。最后，您可以从设置中彻底删除该规则。</ins><br />
@@ -3946,11 +3922,10 @@ IP <del>Location</del><ins>位置</ins>
 ```diff
 -您可以配置 Horizon 保留最近和失败任务的时间（以分钟为单位）。
 -通常，最近的任务保留一个小时，失败的任务保留一周。
--
 +您可以在此处配置 Horizon 的运行时间（以分钟为单位）。
 +保留最近失败的作业。通常情况下，会保留最近的作业。
 +失败的作业将保存一小时，所有失败的作业将保存整整一周。
-+
+
 ```
 
 <del>您可以配置</del><ins>您可以在此处配置</ins> Horizon <del>保留最近和失败任务的时间（以分钟为单位）。</del><ins>的运行时间（以分钟为单位）。</ins><br /><del>通常，最近的任务保留一个小时，失败的任务保留一周。</del><ins>保留最近失败的作业。通常情况下，会保留最近的作业。<br />失败的作业将保存一小时，所有失败的作业将保存整整一周。</ins><br />
@@ -4001,9 +3976,8 @@ IP <del>Location</del><ins>位置</ins>
 
 ```diff
 -可选描述，用来解释这个字段的用途/需求。
--
 +可选描述，用来解释这个字段的用途或填写要求。
-+
+
 ```
 
 #### [`fof-masquerade.admin.fields.icon-help`](https://weblate.rob006.net/translate/flarum2/fof-masquerade/zh_Hans/?q=context%3A%3D%22fof-masquerade.admin.fields.icon-help%22)
@@ -4013,9 +3987,8 @@ IP <del>Location</del><ins>位置</ins>
 
 ```diff
 -在字段名称前显示一个图标。可用的图标详情，请前往 <a>FontAwesome 官网</a>。图标名称包含前缀 "fa-"，例如 "fas fa-info"。
--
 +在字段名称前显示一个图标。可用的图标请查阅 <a>FontAwesome 官网</a>。图标名称需包含前缀 "fa-"，例如 "fas fa-info"。
-+
+
 ```
 
 <del>在字段名称前显示一个图标。可用的图标详情，请前往</del><ins>在字段名称前显示一个图标。可用的图标请查阅</ins> &lt;a&gt;FontAwesome <del>官网&lt;/a&gt;。图标名称包含前缀</del><ins>官网&lt;/a&gt;。图标名称需包含前缀</ins> "fa-"，例如 "fas fa-info"。<br />
@@ -4045,9 +4018,8 @@ IP <del>Location</del><ins>位置</ins>
 
 ```diff
 -检查支持的 <a>Laravel 验证规则</a>. 例如： "string|min:5" 或 "url"。
--
 +请参考支持的 <a>Laravel 验证规则</a>。例如："string|min:5" 或 "url"。
-+
+
 ```
 
 <del>检查支持的</del><ins>请参考支持的</ins> &lt;a&gt;Laravel<del> 验证规则&lt;/a&gt;. 例如：</del> <del>"string\|min:5"</del><ins>验证规则&lt;/a&gt;。例如："string\|min:5"</ins> 或 "url"。<br />
@@ -4795,9 +4767,8 @@ Flarum <del>用户组</del><ins>群组</ins>
 
 ```diff
 -接收 <em>{username}</em> 发布新主题的通知。
--
 +当 <em>{username}</em> 发布新讨论时接收通知。
-+
+
 ```
 
 <del>接收</del><ins>当</ins> &lt;em&gt;{username}&lt;/em&gt; <del>发布新主题的通知。</del><ins>发布新讨论时接收通知。</ins><br />
@@ -4818,9 +4789,8 @@ Flarum <del>用户组</del><ins>群组</ins>
 
 ```diff
 -接收 <em>{username}</em> 发布新主题和回复的所有通知。
--
 +当 <em>{username}</em> 发布新讨论或在任意讨论中发表回复时接收通知。
-+
+
 ```
 
 <del>接收</del><ins>当</ins> &lt;em&gt;{username}&lt;/em&gt; <del>发布新主题和回复的所有通知。</del><ins>发布新讨论或在任意讨论中发表回复时接收通知。</ins><br />

@@ -138,9 +138,8 @@ Each entry contains the English source string, followed by a diff between the tr
 
 ```diff
 -Introduce el nombre de alguna clase de <a>FontAwesome</a>, <em>incluyendo</em> el prefijo <code>fas fa-</code>.
--
 +Muestra un ícono delante de los valores introducidos por el usuario. Para consultar los íconos disponibles, visite el <a>sitio web de FontAwesome</a>. Utilice nombres de íconos con el prefijo "fa-", como "fas fa-info".
-+
+
 ```
 
 <del>Introduce</del><ins>Muestra un ícono delante de los valores introducidos por</ins> el <del>nombre</del><ins>usuario. Para consultar los íconos disponibles, visite el &lt;a&gt;sitio web</ins> de <del>alguna</del><ins>FontAwesome&lt;/a&gt;.</ins> <del>clase</del><ins>Utilice nombres</ins> de <del>&lt;a&gt;FontAwesome&lt;/a&gt;,</del><ins>íconos</ins> <del>&lt;em&gt;incluyendo&lt;/em&gt;</del><ins>con</ins> el prefijo <del>&lt;code&gt;fas</del><ins>"fa-",</ins> <del>fa-&lt;/code&gt;.</del><ins>como "fas fa-info".</ins><br />

@@ -45,13 +45,11 @@ Each entry contains the English source string, followed by a diff between the tr
 
 ```diff
 -啟用 <code>調適</code> 模式時，<code>JavaScript</code> 和 <code>CSS</code> 檔案將於每次請求時返回全新的編譯版本。調試模式中，所有日誌、警告和錯誤均會以彈窗形式展示在網頁中，資料庫密碼、環境變數等敏感資訊均有可能在此期間洩漏。 
-- 
--因此我們強烈建議您在生產環境中將 <code>config.php</code> 檔案中的 <code>debug</code> 設置為 <code>false</code> 以禁用調試模式。請查看 <link>Flarum 文件</link>了解更多資訊。
--
 +啟用 <code>debug</code> 模式時，<code>JavaScript</code> 和 <code>CSS</code> 檔案將於每次請求時返回全新的編譯版本。調試模式中，所有日誌、警告和錯誤均會以彈窗形式展示在網頁中，資料庫密碼、環境變數等敏感資訊均有可能在此期間洩漏。 
-+ 
+  
+-因此我們強烈建議您在生產環境中將 <code>config.php</code> 檔案中的 <code>debug</code> 設置為 <code>false</code> 以禁用調試模式。請查看 <link>Flarum 文件</link>了解更多資訊。
 +因此我們強烈建議您在生產環境中將 <code>config.php</code> 檔案中的禁用 <code>debug</code> 模式。請查看 <link>Flarum 文件</link>了解更多資訊。
-+
+
 ```
 
 啟用 <del>&lt;code&gt;調適&lt;/code&gt;</del><ins>&lt;code&gt;debug&lt;/code&gt;</ins> 模式時，&lt;code&gt;JavaScript&lt;/code&gt; 和 &lt;code&gt;CSS&lt;/code&gt; 檔案將於每次請求時返回全新的編譯版本。調試模式中，所有日誌、警告和錯誤均會以彈窗形式展示在網頁中，資料庫密碼、環境變數等敏感資訊均有可能在此期間洩漏。 <br /> <br />因此我們強烈建議您在生產環境中將 &lt;code&gt;config.php&lt;/code&gt; <del>檔案中的</del><ins>檔案中的禁用</ins> &lt;code&gt;debug&lt;/code&gt;<del> 設置為 &lt;code&gt;false&lt;/code&gt;</del> <del>以禁用調試模式。請查看</del><ins>模式。請查看</ins> &lt;link&gt;Flarum 文件&lt;/link&gt;了解更多資訊。<br />

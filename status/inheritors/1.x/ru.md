@@ -214,9 +214,8 @@ Each entry contains the English source string, followed by a diff between the tr
 
 ```diff
 -Эта таблица используется для отображения недавних неудачных заданий на панели мониторинга Horizon.
--
 +Эта таблица используется для отображения последних неудачных заданий на панели мониторинга Horizon.
-+
+
 ```
 
 Эта таблица используется для отображения <del>недавних</del><ins>последних</ins> неудачных заданий на панели мониторинга Horizon.<br />
@@ -301,9 +300,8 @@ Each entry contains the English source string, followed by a diff between the tr
 
 ```diff
 -Тема для использования со "скучными аватарами"
--
 +Тема аватарок
-+
+
 ```
 
 Тема <del>для использования со "скучными аватарами"</del><ins>аватарок</ins><br />

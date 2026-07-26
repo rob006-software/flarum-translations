@@ -116,9 +116,8 @@ Erweiterte Einstellungen für <del>dein</del><ins>Ihr</ins> Forum konfigurieren.
 
 ```diff
 -Das Forum befindet sich nicht mehr im Wartungsmodus. Die Erweiterung „Bisect“ wurde beendet. Basierend auf deinen Antworten zu den einzelnen Schritten ist die Ursache des Problems die folgende Erweiterung:
--
 +Das Forum befindet sich nicht mehr im Wartungsmodus. Die Erweiterung „Bisect“ wurde beendet. Basierend auf Ihren Antworten zu den einzelnen Schritten ist die Ursache des Problems die folgende Erweiterung:
-+
+
 ```
 
 Das Forum befindet sich nicht mehr im Wartungsmodus. Die Erweiterung „Bisect“ wurde beendet. Basierend auf <del>deinen</del><ins>Ihren</ins> Antworten zu den einzelnen Schritten ist die Ursache des Problems die folgende Erweiterung:<br />
@@ -327,14 +326,11 @@ Es konnte nicht in das Dateisystem geschrieben werden. <del>Überprüfe</del><in
 >
 
 ```diff
--Sofern der <code>Debugmodus</code> aktiv ist, wird Flarum seine <code>JavaScript</code> und <code>CSS</code> Ressourcen bei jedem Seitenabruf neu generieren und könnte zudem potenziell weitere Informationen preisgeben, etwa Datenbankgeheimnisse, Umgebungsvariablen usw.
--
+ Sofern der <code>Debugmodus</code> aktiv ist, wird Flarum seine <code>JavaScript</code> und <code>CSS</code> Ressourcen bei jedem Seitenabruf neu generieren und könnte zudem potenziell weitere Informationen preisgeben, etwa Datenbankgeheimnisse, Umgebungsvariablen usw.
+
 -Es wird dringend empfohlen, den <code>debug</code> in deiner <code>config.php</code> Datei in einem Produktionskontext zu deaktivieren. Konsultiere die <link>Flarum Dokumentation</link> für zusätzliche Informationen.
--
-+Sofern der <code>Debugmodus</code> aktiv ist, wird Flarum seine <code>JavaScript</code> und <code>CSS</code> Ressourcen bei jedem Seitenabruf neu generieren und könnte zudem potenziell weitere Informationen preisgeben, etwa Datenbankgeheimnisse, Umgebungsvariablen usw.
-+
 +Es wird dringendst empfohlen, den <code>debug</code> in Ihrer <code>config.php</code> Datei in einem Produktionskontext zu deaktivieren. Konsultieren Sie bitte die <link>Flarum Dokumentation</link> für zusätzliche Informationen.
-+
+
 ```
 
 Sofern der &lt;code&gt;Debugmodus&lt;/code&gt; aktiv ist, wird Flarum seine &lt;code&gt;JavaScript&lt;/code&gt; und &lt;code&gt;CSS&lt;/code&gt; Ressourcen bei jedem Seitenabruf neu generieren und könnte zudem potenziell weitere Informationen preisgeben, etwa Datenbankgeheimnisse, Umgebungsvariablen usw.<br /><br />Es wird <del>dringend</del><ins>dringendst</ins> empfohlen, den &lt;code&gt;debug&lt;/code&gt; in <del>deiner</del><ins>Ihrer</ins> &lt;code&gt;config.php&lt;/code&gt; Datei in einem Produktionskontext zu deaktivieren. <del>Konsultiere</del><ins>Konsultieren Sie bitte</ins> die &lt;link&gt;Flarum Dokumentation&lt;/link&gt; für zusätzliche Informationen.<br />
@@ -494,19 +490,15 @@ Der Benutzername darf nur Buchstaben, Zahlen und Bindestriche enthalten. <del>Mi
 
 ```diff
 -Jemand (hoffentlich du!) hat sich mit dieser E-Mail-Adresse bei {forum} angemeldet.
--
--Wenn du das warst, klicke einfach auf den folgenden Link, um dein Konto zu aktivieren:
--{url}
--
--Wenn du dich nicht angemeldet haben, ignoriere diese E-Mail bitte.
--
 +Jemand (hoffentlich Sie!) hat sich mit dieser E-Mail-Adresse bei {forum} registriert.
-+
+
+-Wenn du das warst, klicke einfach auf den folgenden Link, um dein Konto zu aktivieren:
 +Falls Sie das waren, klicken Sie einfach auf den folgenden Link, um Ihr Konto zu aktivieren:
-+{url}
-+
+ {url}
+
+-Wenn du dich nicht angemeldet haben, ignoriere diese E-Mail bitte.
 +Falls Sie sich nicht registriert haben, ignorieren Sie diese E-Mail bitte.
-+
+
 ```
 
 Jemand (hoffentlich <del>du!)</del><ins>Sie!)</ins> hat sich mit dieser E-Mail-Adresse bei {forum} <del>angemeldet.</del><ins>registriert.</ins><br /><br /><del>Wenn</del><ins>Falls</ins> <del>du</del><ins>Sie</ins> das <del>warst,</del><ins>waren,</ins> <del>klicke</del><ins>klicken Sie</ins> einfach auf den folgenden Link, um <del>dein</del><ins>Ihr</ins> Konto zu aktivieren:<br />{url}<br /><br /><del>Wenn</del><ins>Falls</ins> <del>du</del><ins>Sie</ins> <del>dich</del><ins>sich</ins> nicht <del>angemeldet</del><ins>registriert</ins> haben, <del>ignoriere</del><ins>ignorieren Sie</ins> diese E-Mail bitte.<br />
@@ -534,19 +526,15 @@ Aktivierung <del>deines</del><ins>Ihres</ins> neuen Kontos
 
 ```diff
 -Jemand (hoffentlich du!) hat seine E-Mail-Adresse im {forum} in diese geändert.
--
--Wenn du das warst, klicke einfach auf den folgenden Link, um deine E-Mail-Adresse zu bestätigen:
--{url}
--
--Wenn du das nicht warst, ignoriere bitte diese E-Mail.
--
 +Jemand (hoffentlich Sie!) hat seine E-Mail-Adresse im {forum} auf diese geändert.
-+
+
+-Wenn du das warst, klicke einfach auf den folgenden Link, um deine E-Mail-Adresse zu bestätigen:
 +Falls Sie das waren, klicken Sie einfach auf den folgenden Link, um Ihre E-Mail-Adresse zu bestätigen:
-+{url}
-+
+ {url}
+
+-Wenn du das nicht warst, ignoriere bitte diese E-Mail.
 +Falls Sie das nicht waren, ignorieren Sie diese E-Mail bitte.
-+
+
 ```
 
 Jemand (hoffentlich <del>du!)</del><ins>Sie!)</ins> hat seine E-Mail-Adresse im {forum} <del>in</del><ins>auf</ins> diese geändert.<br /><br /><del>Wenn</del><ins>Falls</ins> <del>du</del><ins>Sie</ins> das <del>warst,</del><ins>waren,</ins> <del>klicke</del><ins>klicken Sie</ins> einfach auf den folgenden Link, um <del>deine</del><ins>Ihre</ins> E-Mail-Adresse zu bestätigen:<br />{url}<br /><br /><del>Wenn</del><ins>Falls</ins> <del>du</del><ins>Sie</ins> das nicht <del>warst,</del><ins>waren,</ins> <del>ignoriere</del><ins>ignorieren</ins> <del>bitte</del><ins>Sie</ins> diese <del>E-Mail.</del><ins>E-Mail bitte.</ins><br />
@@ -596,19 +584,15 @@ Diese E-Mail wurde als Informationsdienstleistung in Bezug auf <del>dein</del><i
 
 ```diff
 -Jemand (hoffentlich du!) hat eine Anfrage zum Zurücksetzen des Passworts für dein Konto bei {forum} gestellt.
--
--Wenn du das warst, klicke auf den folgenden Link, um dein Passwort zurückzusetzen:
--{url}
--
--Wenn du dein Passwort nicht ändern möchtest, ignoriere diese E-Mail einfach, dann geschieht nichts weiter.
--
 +Jemand (hoffentlich Sie!) hat für Ihr Konto auf {forum} eine Anfrage wegen eines vergessenen Passworts gestellt.
-+
+
+-Wenn du das warst, klicke auf den folgenden Link, um dein Passwort zurückzusetzen:
 +Falls Sie das waren, klicken Sie auf den folgenden Link, um Ihr Passwort zurückzusetzen:
-+{url}
-+
+ {url}
+
+-Wenn du dein Passwort nicht ändern möchtest, ignoriere diese E-Mail einfach, dann geschieht nichts weiter.
 +Wenn Sie Ihr Passwort nicht ändern möchten, ignorieren Sie diese E-Mail einfach – es wird nichts passieren.
-+
+
 ```
 
 Jemand (hoffentlich <del>du!)</del><ins>Sie!)</ins> hat <del>eine</del><ins>für</ins> <del>Anfrage</del><ins>Ihr</ins> <del>zum</del><ins>Konto</ins> <del>Zurücksetzen</del><ins>auf</ins> <del>des</del><ins>{forum}</ins> <del>Passworts</del><ins>eine</ins> <del>für</del><ins>Anfrage</ins> <del>dein</del><ins>wegen</ins> <del>Konto</del><ins>eines</ins> <del>bei</del><ins>vergessenen</ins> <del>{forum}</del><ins>Passworts</ins> gestellt.<br /><br /><del>Wenn</del><ins>Falls</ins> <del>du</del><ins>Sie</ins> das <del>warst,</del><ins>waren,</ins> <del>klicke</del><ins>klicken Sie</ins> auf den folgenden Link, um <del>dein</del><ins>Ihr</ins> Passwort zurückzusetzen:<br />{url}<br /><br />Wenn <del>du</del><ins>Sie</ins> <del>dein</del><ins>Ihr</ins> Passwort nicht ändern <del>möchtest,</del><ins>möchten,</ins> <del>ignoriere</del><ins>ignorieren Sie</ins> diese E-Mail <del>einfach,</del><ins>einfach</ins> <del>dann</del><ins>–</ins> <del>geschieht</del><ins>es wird</ins> nichts <del>weiter.</del><ins>passieren.</ins><br />
@@ -635,17 +619,14 @@ Zurücksetzung <del>deines</del><ins>Ihres</ins> Passwortes
 
 ```diff
 -Dies ist eine Test-E-Mail, um zu überprüfen, ob deine Flarum-E-Mail-Konfiguration ordnungsgemäß funktioniert.
--
--Wenn du der Absender warst, bedeutet diese E-Mail, dass deine Konfiguration funktioniert!
--
--Wenn du nicht der Absender warst, ignoriere diese E-Mail bitte.
--
 +Dies ist eine Test-E-Mail, um zu überprüfen, ob Ihre E-Mail-Konfiguration in Flarum ordnungsgemäß funktioniert.
-+
+
+-Wenn du der Absender warst, bedeutet diese E-Mail, dass deine Konfiguration funktioniert!
 +Falls Sie diese E-Mail erhalten haben, bedeutet dies, dass Ihre Konfiguration funktioniert!
-+
+
+-Wenn du nicht der Absender warst, ignoriere diese E-Mail bitte.
 +Falls Sie diese E-Mail nicht erhalten haben, ignorieren Sie sie bitte.
-+
+
 ```
 
 Dies ist eine Test-E-Mail, um zu überprüfen, ob <del>deine</del><ins>Ihre</ins> <del>Flarum-E-Mail-Konfiguration</del><ins>E-Mail-Konfiguration in Flarum</ins> ordnungsgemäß funktioniert.<br /><br /><del>Wenn</del><ins>Falls</ins> <del>du</del><ins>Sie</ins> <del>der</del><ins>diese</ins> <del>Absender</del><ins>E-Mail</ins> <del>warst,</del><ins>erhalten</ins> <del>bedeutet</del><ins>haben,</ins> <del>diese</del><ins>bedeutet</ins> <del>E-Mail,</del><ins>dies,</ins> dass <del>deine</del><ins>Ihre</ins> Konfiguration funktioniert!<br /><br /><del>Wenn</del><ins>Falls</ins> <del>du</del><ins>Sie</ins> <del>nicht</del><ins>diese</ins> <del>der</del><ins>E-Mail</ins> <del>Absender</del><ins>nicht</ins> <del>warst,</del><ins>erhalten</ins> <del>ignoriere</del><ins>haben,</ins> <del>diese</del><ins>ignorieren</ins> <del>E-Mail</del><ins>Sie sie</ins> bitte.<br />
@@ -1215,9 +1196,8 @@ Der Hostname, zu dem <del>Du</del><ins>Sie</ins> <del>dich</del><ins>sich</ins> 
 
 ```diff
 -Befolge die Anweisungen unter https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md, um ein Google-Projekt zu erstellen und deine Client-ID und deinen geheimen Client-Schlüssel abzurufen.
--
 +Befolgen Sie die Anweisungen unter https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md, um ein Google-Projekt zu erstellen und Ihre Client-ID und Ihren geheimen Client-Schlüssel abzurufen.
-+
+
 ```
 
 <del>Befolge</del><ins>Befolgen Sie</ins> die Anweisungen unter https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md, um ein Google-Projekt zu erstellen und <del>deine</del><ins>Ihre</ins> Client-ID und <del>deinen</del><ins>Ihren</ins> geheimen Client-Schlüssel abzurufen.<br />
@@ -1251,9 +1231,8 @@ Erfolgreich mit Google Drive verbunden! <del>Speichere</del><ins>Speichern Sie</
 
 ```diff
 -Gib das Format für Zeitstempel in Sicherungsdateinamen an. Der Standardwert ist <code>U</code> (Unix-Zeitstempel). Verwendet <a>PHP-Datumsformatierung</a>. Unsichere Dateinamenzeichen werden bereinigt. Der Dateiname hat das Format <code>{forum}-[formatierter Zeitstempel].zip</code>.
--
 +Geben Sie das Format für Zeitstempel in Sicherungsdateinamen an. Der Standardwert ist <code>U</code> (Unix-Zeitstempel). Verwendet <a>PHP-Datumsformatierung</a>. Unsichere Dateinamenzeichen werden bereinigt. Der Dateiname hat das Format <code>{forum}-[formatierter Zeitstempel].zip</code>.
-+
+
 ```
 
 <del>Gib</del><ins>Geben Sie</ins> das Format für Zeitstempel in Sicherungsdateinamen an. Der Standardwert ist &lt;code&gt;U&lt;/code&gt; (Unix-Zeitstempel). Verwendet &lt;a&gt;PHP-Datumsformatierung&lt;/a&gt;. Unsichere Dateinamenzeichen werden bereinigt. Der Dateiname hat das Format &lt;code&gt;{forum}-\[formatierter Zeitstempel\].zip&lt;/code&gt;.<br />
@@ -1287,9 +1266,8 @@ Erfolgreich mit Google Drive verbunden! <del>Speichere</del><ins>Speichern Sie</
 
 ```diff
 -Um diesen Treiber verwenden zu können, musst Du ein bestimmtes Paket installieren. Führe dazu den folgenden Composer-Befehl in deinem Flarum-Installationsverzeichnis aus: <code>composer require {package}</code>.
--
 +Um diesen Treiber verwenden zu können, müssen Sie ein bestimmtes Paket installieren. Führen Sie dazu den folgenden Composer-Befehl in Ihrem Flarum-Installationsverzeichnis aus: <code>composer require {package}</code>.
-+
+
 ```
 
 Um diesen Treiber verwenden zu können, <del>musst</del><ins>müssen</ins> <del>Du</del><ins>Sie</ins> ein bestimmtes Paket installieren. <del>Führe</del><ins>Führen Sie</ins> dazu den folgenden Composer-Befehl in <del>deinem</del><ins>Ihrem</ins> Flarum-Installationsverzeichnis aus: &lt;code&gt;composer require {package}&lt;/code&gt;.<br />
@@ -1301,9 +1279,8 @@ Um diesen Treiber verwenden zu können, <del>musst</del><ins>müssen</ins> <del>
 
 ```diff
 -Wenn sich die Binärdateien deiner Datenbank (z. B. mysqldump, pg_dump) nicht im PATH deines Systems befinden, kannst du hier das Verzeichnis angeben, in dem sie sich befinden. Achte darauf, den abschließenden Schrägstrich anzugeben (z. B. <code>/usr/local/mysql/bin/</code>).
--
 +Wenn sich die Binärdateien Ihrer Datenbank (z. B. mysqldump, pg_dump) nicht im PATH Ihres Systems befinden, können Sie hier das Verzeichnis angeben, in dem sie sich befinden. Achten Sie darauf, den abschließenden Schrägstrich anzugeben (z. B. <code>/usr/local/mysql/bin/</code>).
-+
+
 ```
 
 Wenn sich die Binärdateien <del>deiner</del><ins>Ihrer</ins> Datenbank (z. B. mysqldump, pg\_dump) nicht im PATH <del>deines</del><ins>Ihres</ins> Systems befinden, <del>kannst</del><ins>können</ins> <del>du</del><ins>Sie</ins> hier das Verzeichnis angeben, in dem sie sich befinden. <del>Achte</del><ins>Achten Sie</ins> darauf, den abschließenden Schrägstrich anzugeben (z. B. &lt;code&gt;/usr/local/mysql/bin/&lt;/code&gt;).<br />
@@ -1655,9 +1632,8 @@ Die Art von Paketen, die installiert werden dürfen. <del>Ändere</del><ins>Änd
 
 ```diff
 -Füge zusätzliche Repositories hinzu, um Pakete daraus zu installieren. Das ist eine fortgeschrittene Funktion, füge keine Repositories hinzu, denen du nicht vertraust, da sie genutzt werden können, um schädlichen Code auf deinem Server auszuführen.
--
 +Fügen sie zusätzliche Repositories hinzu, um Pakete daraus zu installieren. Dies ist eine fortgeschrittene Funktion, fügen sie keine Repositories hinzu, denen sie nicht vertrauen, da sie genutzt werden können, um schädlichen Code auf ihrem Server auszuführen.
-+
+
 ```
 
 <del>Füge</del><ins>Fügen sie</ins> zusätzliche Repositories hinzu, um Pakete daraus zu installieren. <del>Das</del><ins>Dies</ins> ist eine fortgeschrittene Funktion, <del>füge</del><ins>fügen sie</ins> keine Repositories hinzu, denen <del>du</del><ins>sie</ins> nicht <del>vertraust,</del><ins>vertrauen,</ins> da sie genutzt werden können, um schädlichen Code auf <del>deinem</del><ins>ihrem</ins> Server auszuführen.<br />
@@ -1680,9 +1656,8 @@ Ausführung fehlgeschlagen. <del>Überprüfe</del><ins>Überprüfen sie</ins> di
 
 ```diff
 -Gib den Namen des Erweiterungspakets ein, um fortzufahren. Du kannst eine <semantic_link>semantische Version</semantic_link> im Format <code>Anbieter/Paketname:Version</code> angeben. Besuche {link}, um verfügbare Pakete zu durchsuchen.
--
 +Geben Sie den Paketnamen der Erweiterung ein, um fortzufahren. Sie können eine <semantic_link>semantische Version</semantic_link> angeben, indem Sie das Format <code>vendor/package-name:version</code> verwenden. Besuchen Sie {link}, um Pakete zu durchsuchen.
-+
+
 ```
 
 <del>Gib</del><ins>Geben Sie</ins> den <del>Namen</del><ins>Paketnamen</ins> <del>des</del><ins>der</ins> <del>Erweiterungspakets</del><ins>Erweiterung</ins> ein, um fortzufahren. <del>Du</del><ins>Sie</ins> <del>kannst</del><ins>können</ins> eine &lt;semantic\_link&gt;semantische Version&lt;/semantic\_link&gt; <del>im</del><ins>angeben, indem Sie das</ins> Format <del>&lt;code&gt;Anbieter/Paketname:Version&lt;/code&gt;</del><ins>&lt;code&gt;vendor/package-name:version&lt;/code&gt;</ins> <del>angeben.</del><ins>verwenden.</ins> <del>Besuche</del><ins>Besuchen Sie</ins> {link}, um<del> verfügbare</del> Pakete zu durchsuchen.<br />
@@ -1694,9 +1669,8 @@ Ausführung fehlgeschlagen. <del>Überprüfe</del><ins>Überprüfen sie</ins> di
 
 ```diff
 -Große Flarum-Updates sind nicht rückwärtskompatibel, was bedeutet, dass einige deiner derzeit installierten Erweiterungen und manuell durchgeführten Änderungen möglicherweise nicht mit dieser neuen Version funktionieren. Bitte stelle sicher, dass du ein Backup deiner Datenbank und Dateien erstellst, bevor du fortfährst.
--
 +Große Flarum-Updates sind nicht rückwärtskompatibel, was bedeutet, dass einige ihrer derzeit installierten Erweiterungen und manuell durchgeführten Änderungen möglicherweise nicht mit dieser neuen Version funktionieren. Bitte stellen sie sicher, dass sie ein Backup Ihrer Datenbank und Dateien erstellen, bevor sie fortfahren.
-+
+
 ```
 
 Große Flarum-Updates sind nicht rückwärtskompatibel, was bedeutet, dass einige <del>deiner</del><ins>ihrer</ins> derzeit installierten Erweiterungen und manuell durchgeführten Änderungen möglicherweise nicht mit dieser neuen Version funktionieren. Bitte <del>stelle</del><ins>stellen sie</ins> sicher, dass <del>du</del><ins>sie</ins> ein Backup <del>deiner</del><ins>Ihrer</ins> Datenbank und Dateien <del>erstellst,</del><ins>erstellen,</ins> bevor <del>du</del><ins>sie</ins> <del>fortfährst.</del><ins>fortfahren.</ins><br />
@@ -1752,9 +1726,8 @@ Bitte <del>sei</del><ins>seien sie</ins> vorsichtig, wem <del>du</del><ins>sie</
 
 ```diff
 -Du kannst dich über eine <basic_impl_link>einfache Warteschlange</basic_impl_link> oder eine <adv_impl_link>fortgeschrittenere</adv_impl_link> Implementierung informieren. Stelle sicher, dass die für die Warteschlange verwendete PHP-Version {php_version} ist. Prüfe auch, dass die <folder_perms_link>Ordnerberechtigungen</folder_perms_link> korrekt konfiguriert sind.
--
 +Sie können sich über eine <basic_impl_link>einfache Warteschlangen-Implementierung</basic_impl_link> oder eine <adv_impl_link>fortgeschrittenere</adv_impl_link> Variante informieren. Stellen Sie sicher, dass die für die Warteschlange verwendete PHP-Version {php_version} ist. Stellen Sie ausserdem sicher, dass die <folder_perms_link>Ordnerberechtigungen</folder_perms_link> korrekt konfiguriert sind.
-+
+
 ```
 
 <del>Du</del><ins>Sie</ins> <del>kannst</del><ins>können</ins> <del>dich</del><ins>sich</ins> über eine &lt;basic\_impl\_link&gt;einfache <del>Warteschlange&lt;/basic\_impl\_link&gt;</del><ins>Warteschlangen-Implementierung&lt;/basic\_impl\_link&gt;</ins> oder eine &lt;adv\_impl\_link&gt;fortgeschrittenere&lt;/adv\_impl\_link&gt; <del>Implementierung</del><ins>Variante</ins> informieren. <del>Stelle</del><ins>Stellen Sie</ins> sicher, dass die für die Warteschlange verwendete PHP-Version {php\_version} ist. <del>Prüfe</del><ins>Stellen</ins> <del>auch,</del><ins>Sie ausserdem sicher,</ins> dass die &lt;folder\_perms\_link&gt;Ordnerberechtigungen&lt;/folder\_perms\_link&gt; korrekt konfiguriert sind.<br />
@@ -1829,10 +1802,9 @@ Dieser Beitrag ist <del>Werbung oder Spam.</del><ins>Werbung.</ins>
 ```diff
 -Hier sind die derzeit registrierten Datentypen aufgeführt. Jeder Typ wird zusammen mit den zugehörigen Export-, Anonymisierungs- und Löschungsaktionen aufgeführt. Wenn eine Erweiterung Daten verarbeitet, die unter die DSGVO-Vorschriften fallen, so sollte sie ihre Datentypen bei <code>blomstra/gdpr</code> registrieren.
 -Daten, die in der <code>Benutzer</code>-Tabelle gespeichert sind, werden gesondert behandelt, siehe Benutzertabellendaten unten.
--
 +Hier sind die derzeit registrierten Datentypen aufgeführt. Jeder Typ wird zusammen mit den zugehörigen Export-, Anonymisierungs- und Löschungsaktionen aufgeführt. Wenn eine Erweiterung Daten verarbeitet, die unter die DSGVO-Vorschriften fallen, so sollte sie ihre Datentypen bei <code>flarum/gdpr</code> registrieren.
 +Daten, die in der <code>Benutzer</code>-Tabelle gespeichert sind, werden gesondert behandelt, siehe „Daten der Benutzertabelle“ unten.
-+
+
 ```
 
 Hier sind die derzeit registrierten Datentypen aufgeführt. Jeder Typ wird zusammen mit den zugehörigen Export-, Anonymisierungs- und Löschungsaktionen aufgeführt. Wenn eine Erweiterung Daten verarbeitet, die unter die DSGVO-Vorschriften fallen, so sollte sie ihre Datentypen bei <del>&lt;code&gt;blomstra/gdpr&lt;/code&gt;</del><ins>&lt;code&gt;flarum/gdpr&lt;/code&gt;</ins> registrieren.<br />Daten, die in der &lt;code&gt;Benutzer&lt;/code&gt;-Tabelle gespeichert sind, werden gesondert behandelt, siehe <del>Benutzertabellendaten</del><ins>„Daten der Benutzertabelle“</ins> unten.<br />
@@ -1859,17 +1831,13 @@ Vor der Entscheidung, welche Aktionen in <del>deinem</del><ins>Ihrem</ins> Forum
 
 ```diff
 -Jemand (hoffentlich du) hat gerade die Löschung des Kontos „{display_name}“ beantragt.
--
--Um diesen Vorgang zu bestätigen, folge bitte dem folgenden Link. Anschließend wird dein Antrag von unserem Team bearbeitet.
--
--{erasure_confirm_url}
--
 +Jemand (hoffentlich Sie) hat gerade die Löschung des Kontos „{display_name}“ beantragt.
-+
+
+-Um diesen Vorgang zu bestätigen, folge bitte dem folgenden Link. Anschließend wird dein Antrag von unserem Team bearbeitet.
 +Um diesen Vorgang zu bestätigen, folgen Sie bitte dem folgenden Link. Anschließend wird Ihr Antrag von unserem Team bearbeitet.
-+
-+{erasure_confirm_url}
-+
+
+ {erasure_confirm_url}
+
 ```
 
 Jemand (hoffentlich <del>du)</del><ins>Sie)</ins> hat gerade die Löschung des Kontos „{display\_name}“ beantragt.<br /><br />Um diesen Vorgang zu bestätigen, <del>folge</del><ins>folgen Sie</ins> bitte dem folgenden Link. Anschließend wird <del>dein</del><ins>Ihr</ins> Antrag von unserem Team bearbeitet.<br /><br />{erasure\_confirm\_url}<br />
@@ -1883,13 +1851,11 @@ Jemand (hoffentlich <del>du)</del><ins>Sie)</ins> hat gerade die Löschung des K
 
 ```diff
 -Dies ist eine automatische Benachrichtigung, dass deine Anfrage zur Stornierung der Kontolöschung bearbeitet wurde.
--
--Dein Konto wird nicht mehr gelöscht.
--
 +Dies ist eine automatische Benachrichtigung, dass Ihre Anfrage zur Rücknahme der Kontolöschung bearbeitet wurde.
-+
+
+-Dein Konto wird nicht mehr gelöscht.
 +Ihr Konto wird nun nicht mehr gelöscht.
-+
+
 ```
 
 Dies ist eine automatische Benachrichtigung, dass <del>deine</del><ins>Ihre</ins> Anfrage zur <del>Stornierung</del><ins>Rücknahme</ins> der Kontolöschung bearbeitet wurde.<br /><br /><del>Dein</del><ins>Ihr</ins> Konto wird<ins> nun</ins> nicht mehr gelöscht.<br />
@@ -1901,9 +1867,8 @@ Dies ist eine automatische Benachrichtigung, dass <del>deine</del><ins>Ihre</ins
 
 ```diff
 -Dies ist eine automatische, finale Benachrichtigung darüber, dass dein Konto anonymisiert wurde.
--
 +Dies ist eine automatische, abschließende Benachrichtigung darüber, dass Ihr Konto anonymisiert wurde.
-+
+
 ```
 
 Dies ist eine automatische, <del>finale</del><ins>abschließende</ins> Benachrichtigung darüber, dass <del>dein</del><ins>Ihr</ins> Konto anonymisiert wurde.<br />
@@ -1915,9 +1880,8 @@ Dies ist eine automatische, <del>finale</del><ins>abschließende</ins> Benachric
 
 ```diff
 -Dies ist eine automatische, endgültige Benachrichtigung darüber, dass dein Konto gelöscht wurde.
--
 +Dies ist eine automatische, abschließende Benachrichtigung darüber, dass Ihr Konto gelöscht wurde.
-+
+
 ```
 
 Dies ist eine automatische, <del>endgültige</del><ins>abschließende</ins> Benachrichtigung darüber, dass <del>dein</del><ins>Ihr</ins> Konto gelöscht wurde.<br />
@@ -1933,17 +1897,13 @@ Dies ist eine automatische, <del>endgültige</del><ins>abschließende</ins> Bena
 
 ```diff
 -Du hast einen Export der Kontodaten für {Benutzername} angefordert. Dieser Export wurde erfolgreich erstellt und steht nun zur Verfügung:
--
--{url}
--
--Dieser Export bleibt bis {destroys_at} verfügbar.
--
 +Sie haben einen Export der Kontodaten für {username} angefordert. Dieser Export wurde erfolgreich erstellt und steht nun zur Verfügung:
-+
-+{url}
-+
+
+ {url}
+
+-Dieser Export bleibt bis {destroys_at} verfügbar.
 +Dieser Export bleibt bis zum {destroys_at} verfügbar.
-+
+
 ```
 
 <del>Du</del><ins>Sie</ins> <del>hast</del><ins>haben</ins> einen Export der Kontodaten für <del>{Benutzername}</del><ins>{username}</ins> angefordert. Dieser Export wurde erfolgreich erstellt und steht nun zur Verfügung:<br /><br />{url}<br /><br />Dieser Export bleibt bis<ins> zum</ins> {destroys\_at} verfügbar.<br />
@@ -1957,13 +1917,10 @@ Dies ist eine automatische, <del>endgültige</del><ins>abschließende</ins> Bena
 
 ```diff
 -Bist du sicher, dass du {username}s Konto löschen möchtest?
--
--Dieser Vorgang kann nicht rückgängig gemacht werden.
--
 +Sind Sie sicher, dass Sie {username}s Konto löschen möchten?
-+
-+Dieser Vorgang kann nicht rückgängig gemacht werden.
-+
+
+ Dieser Vorgang kann nicht rückgängig gemacht werden.
+
 ```
 
 <del>Bist</del><ins>Sind</ins> <del>du</del><ins>Sie</ins> sicher, dass <del>du</del><ins>Sie</ins> {username}s Konto löschen <del>möchtest?</del><ins>möchten?</ins><br /><br />Dieser Vorgang kann nicht rückgängig gemacht werden.<br />
@@ -1997,9 +1954,8 @@ Dies ist eine automatische, <del>endgültige</del><ins>abschließende</ins> Bena
 
 ```diff
 -Du solltest eine E-Mail zur Bestätigung deiner Löschanfrage erhalten haben.
--
 +Sie sollten eine E-Mail zur Bestätigung Ihrer Löschanfrage erhalten haben.
-+
+
 ```
 
 <del>Du</del><ins>Sie</ins> <del>solltest</del><ins>sollten</ins> eine E-Mail zur Bestätigung <del>deiner</del><ins>Ihrer</ins> Löschanfrage erhalten haben.<br />
@@ -2011,9 +1967,8 @@ Dies ist eine automatische, <del>endgültige</del><ins>abschließende</ins> Bena
 
 ```diff
 -Du hast deinen Antrag zur Löschung deines Kontos bestätigt. Wie in der DSGVO vorgeschrieben, werden innerhalb von 30 Tagen Maßnahmen ergriffen.
--
 +Sie haben Ihren Antrag zur Löschung Ihres Kontos bestätigt. Wie in der DSGVO vorgeschrieben, werden innerhalb von 30 Tagen Maßnahmen ergriffen.
-+
+
 ```
 
 <del>Du</del><ins>Sie</ins> <del>hast</del><ins>haben</ins> <del>deinen</del><ins>Ihren</ins> Antrag zur Löschung <del>deines</del><ins>Ihres</ins> Kontos bestätigt. Wie in der DSGVO vorgeschrieben, werden innerhalb von 30 Tagen Maßnahmen ergriffen.<br />
@@ -2280,11 +2235,9 @@ Dieser Spitzname ist ungültig. Bitte <del>wende</del><ins>wenden</ins> <del>dic
 
 ```diff
 -Wähle einen benutzerdefinierten Datumsbereich, für den du Statistiken anzeigen möchtest.
--Das Laden der Daten kann bei Foren mit viel Aktivität mehrere Minuten dauern.
--
 +Wählen Sie einen benutzerdefinierten Datumsbereich, für den Sie Statistiken anzeigen möchten.
-+Das Laden der Daten kann bei Foren mit viel Aktivität mehrere Minuten dauern.
-+
+ Das Laden der Daten kann bei Foren mit viel Aktivität mehrere Minuten dauern.
+
 ```
 
 <del>Wähle</del><ins>Wählen Sie</ins> einen benutzerdefinierten Datumsbereich, für den <del>du</del><ins>Sie</ins> Statistiken anzeigen <del>möchtest.</del><ins>möchten.</ins><br />Das Laden der Daten kann bei Foren mit viel Aktivität mehrere Minuten dauern.<br />
@@ -2488,19 +2441,15 @@ Erstelle private Diskussionen mit Nutzern, die <del>du</del><ins>es</ins> <del>b
 
 ```diff
 -{actor_display_name} hat dich zu einer bestehenden privaten Diskussion hinzugefügt: {discussion_title}.
--
--Hier kannst du sie einsehen:
--{discussion_url}
--
--Möglicherweise musst du dich zuerst anmelden, bevor du auf diesen Link zugreifen kannst.
--
 +{actor_display_name} hat Sie zu einer bestehenden privaten Diskussion hinzugefügt: {discussion_title}.
-+
+
+-Hier kannst du sie einsehen:
 +Hier können Sie sie einsehen:
-+{discussion_url}
-+
+ {discussion_url}
+
+-Möglicherweise musst du dich zuerst anmelden, bevor du auf diesen Link zugreifen kannst.
 +Möglicherweise müssen Sie sich zuerst anmelden, bevor Sie auf diesen Link zugreifen können.
-+
+
 ```
 
 {actor\_display\_name} hat <del>dich</del><ins>Sie</ins> zu einer bestehenden privaten Diskussion hinzugefügt: {discussion\_title}.<br /><br />Hier <del>kannst</del><ins>können</ins> <del>du</del><ins>Sie</ins> sie einsehen:<br />{discussion\_url}<br /><br />Möglicherweise <del>musst</del><ins>müssen</ins> <del>du</del><ins>Sie</ins> <del>dich</del><ins>sich</ins> zuerst anmelden, bevor <del>du</del><ins>Sie</ins> auf diesen Link zugreifen <del>kannst.</del><ins>können.</ins><br />
@@ -2517,19 +2466,15 @@ Erstelle private Diskussionen mit Nutzern, die <del>du</del><ins>es</ins> <del>b
 
 ```diff
 -{actor_display_name} hat eine neue private Diskussion mit dir als Empfänger gestartet: {discussion_title}.
--
--Hier kannst du sie anzeigen:
--{discussion_url}
--
--Möglicherweise musst du dich zuerst anmelden, bevor du auf diesen Link zugreifen kannst.
--
 +{actor_display_name} hat eine neue private Diskussion mit Ihnen als Empfänger gestartet: {discussion_title}.
-+
+
+-Hier kannst du sie anzeigen:
 +Hier können Sie sie anzeigen:
-+{discussion_url}
-+
+ {discussion_url}
+
+-Möglicherweise musst du dich zuerst anmelden, bevor du auf diesen Link zugreifen kannst.
 +Möglicherweise müssen Sie sich zuerst anmelden, bevor Sie auf diesen Link zugreifen können.
-+
+
 ```
 
 {actor\_display\_name} hat eine neue private Diskussion mit <del>dir</del><ins>Ihnen</ins> als Empfänger gestartet: {discussion\_title}.<br /><br />Hier <del>kannst</del><ins>können</ins> <del>du</del><ins>Sie</ins> sie anzeigen:<br />{discussion\_url}<br /><br />Möglicherweise <del>musst</del><ins>müssen</ins> <del>du</del><ins>Sie</ins> <del>dich</del><ins>sich</ins> zuerst anmelden, bevor <del>du</del><ins>Sie</ins> auf diesen Link zugreifen <del>kannst.</del><ins>können.</ins><br />
@@ -2546,19 +2491,15 @@ Erstelle private Diskussionen mit Nutzern, die <del>du</del><ins>es</ins> <del>b
 
 ```diff
 -{actor_display_name} hat in einer privaten Diskussion mit dir als Empfänger folgenden Beitrag gepostet: {discussion_title}.
--
--Hier kannst du ihn ansehen:
--{post_url}
--
--Möglicherweise musst du dich zuerst anmelden, bevor du auf diesen Link zugreifen kannst.
--
 +{actor_display_name} hat in einer privaten Diskussion mit Ihnen als Empfänger folgenden Beitrag gepostet: {discussion_title}.
-+
+
+-Hier kannst du ihn ansehen:
 +Hier können Sie ihn ansehen:
-+{post_url}
-+
+ {post_url}
+
+-Möglicherweise musst du dich zuerst anmelden, bevor du auf diesen Link zugreifen kannst.
 +Möglicherweise müssen Sie sich zuerst anmelden, bevor Sie auf diesen Link zugreifen können.
-+
+
 ```
 
 {actor\_display\_name} hat in einer privaten Diskussion mit <del>dir</del><ins>Ihnen</ins> als Empfänger folgenden Beitrag gepostet: {discussion\_title}.<br /><br />Hier <del>kannst</del><ins>können</ins> <del>du</del><ins>Sie</ins> ihn ansehen:<br />{post\_url}<br /><br />Möglicherweise <del>musst</del><ins>müssen</ins> <del>du</del><ins>Sie</ins> <del>dich</del><ins>sich</ins> zuerst anmelden, bevor <del>du</del><ins>Sie</ins> auf diesen Link zugreifen <del>kannst.</del><ins>können.</ins><br />
@@ -2574,20 +2515,14 @@ Erstelle private Diskussionen mit Nutzern, die <del>du</del><ins>es</ins> <del>b
 >
 
 ```diff
--{actor_display_name} hat die private Diskussion verlassen: {discussion_title}. Er/sie kann nun keine Inhalte mehr davon sehen.
--
--Hier ansehen:
--{discussion_url}
--
+ {actor_display_name} hat die private Diskussion verlassen: {discussion_title}. Er/sie kann nun keine Inhalte mehr davon sehen.
+
+ Hier ansehen:
+ {discussion_url}
+
 -Möglicherweise musst du dich zuerst anmelden, bevor du auf diesen Link zugreifen kannst.
--
-+{actor_display_name} hat die private Diskussion verlassen: {discussion_title}. Er/sie kann nun keine Inhalte mehr davon sehen.
-+
-+Hier ansehen:
-+{discussion_url}
-+
 +Möglicherweise müssen Sie sich zuerst anmelden, bevor Sie auf diesen Link zugreifen können.
-+
+
 ```
 
 {actor\_display\_name} hat die private Diskussion verlassen: {discussion\_title}. Er/sie kann nun keine Inhalte mehr davon sehen.<br /><br />Hier ansehen:<br />{discussion\_url}<br /><br />Möglicherweise <del>musst</del><ins>müssen</ins> <del>du</del><ins>Sie</ins> <del>dich</del><ins>sich</ins> zuerst anmelden, bevor <del>du</del><ins>Sie</ins> auf diesen Link zugreifen <del>kannst.</del><ins>können.</ins><br />
@@ -2733,23 +2668,17 @@ Vorlage bei <del>Tag-Änderung</del><ins>Thema-Änderung</ins> anhängen?
 
 ```diff
 -Du wurdest zum Beitritt für {forum} eingeladen.
--
--Wenn du bereit bist, dein Konto zu erstellen, klicke einfach auf den folgenden Link und gib den Code bei der Registrierung ein:
--
--Url: {url}
--Einladungscode: {code}
--
--Solltest du diese E-Mail irrtümlich erhalten haben, ignoriere sie bitte.
--
 +Sie wurden zum Beitritt für {forum} eingeladen.
-+
+
+-Wenn du bereit bist, dein Konto zu erstellen, klicke einfach auf den folgenden Link und gib den Code bei der Registrierung ein:
 +Wenn Sie bereit sind, Ihr Konto zu erstellen, klicken Sie einfach auf den folgenden Link und geben Sie den Code bei der Registrierung ein:
-+
-+Url: {url}
-+Einladungscode: {code}
-+
+
+ Url: {url}
+ Einladungscode: {code}
+
+-Solltest du diese E-Mail irrtümlich erhalten haben, ignoriere sie bitte.
 +Sollten Sie diese E-Mail irrtümlich erhalten haben, ignorieren Sie sie bitte.
-+
+
 ```
 
 <del>Du</del><ins>Sie</ins> <del>wurdest</del><ins>wurden</ins> zum Beitritt für {forum} eingeladen.<br /><br />Wenn <del>du</del><ins>Sie</ins> bereit <del>bist,</del><ins>sind,</ins> <del>dein</del><ins>Ihr</ins> Konto zu erstellen, <del>klicke</del><ins>klicken Sie</ins> einfach auf den folgenden Link und <del>gib</del><ins>geben Sie</ins> den Code bei der Registrierung ein:<br /><br />Url: {url}<br />Einladungscode: {code}<br /><br /><del>Solltest</del><ins>Sollten</ins> <del>du</del><ins>Sie</ins> diese E-Mail irrtümlich erhalten haben, <del>ignoriere</del><ins>ignorieren Sie</ins> sie bitte.<br />
@@ -2808,13 +2737,10 @@ Vorlage bei <del>Tag-Änderung</del><ins>Thema-Änderung</ins> anhängen?
 
 ```diff
 -Hier kannst du einstellen, wie lange (in Minuten) Horizon
--die letzten und fehlgeschlagenen Aufträge aufbewahren soll. In der Regel werden die letzten Aufträge
--eine Stunde lang aufbewahrt, während alle fehlgeschlagenen Aufträge eine ganze Woche lang gespeichert werden.
--
 +Hier können Sie einstellen, wie lange (in Minuten) Horizon
-+die letzten und fehlgeschlagenen Aufträge aufbewahren soll. In der Regel werden die letzten Aufträge
-+eine Stunde lang aufbewahrt, während alle fehlgeschlagenen Aufträge eine ganze Woche lang gespeichert werden.
-+
+ die letzten und fehlgeschlagenen Aufträge aufbewahren soll. In der Regel werden die letzten Aufträge
+ eine Stunde lang aufbewahrt, während alle fehlgeschlagenen Aufträge eine ganze Woche lang gespeichert werden.
+
 ```
 
 Hier <del>kannst</del><ins>können</ins> <del>du</del><ins>Sie</ins> einstellen, wie lange (in Minuten) Horizon<br />die letzten und fehlgeschlagenen Aufträge aufbewahren soll. In der Regel werden die letzten Aufträge<br />eine Stunde lang aufbewahrt, während alle fehlgeschlagenen Aufträge eine ganze Woche lang gespeichert werden.<br />
@@ -2827,14 +2753,11 @@ Hier <del>kannst</del><ins>können</ins> <del>du</del><ins>Sie</ins> einstellen,
 >
 
 ```diff
--Die Speicherrichtlinie ist die Art und Weise, wie Redis auswählt, was entfernt werden soll,
--wenn das maximale Speicherlimit erreicht ist. Die Standardeinstellung ist „noeviction“: Neue Werte
+ Die Speicherrichtlinie ist die Art und Weise, wie Redis auswählt, was entfernt werden soll,
+ wenn das maximale Speicherlimit erreicht ist. Die Standardeinstellung ist „noeviction“: Neue Werte
 -werden nicht gespeichert, wenn das Speicherlimit erreicht ist. Klicke hier, um die Dokumentation anzuzeigen.
--
-+Die Speicherrichtlinie ist die Art und Weise, wie Redis auswählt, was entfernt werden soll,
-+wenn das maximale Speicherlimit erreicht ist. Die Standardeinstellung ist „noeviction“: Neue Werte
 +werden nicht gespeichert, wenn das Speicherlimit erreicht ist. Klicken Sie hier, um die Dokumentation anzuzeigen.
-+
+
 ```
 
 Die Speicherrichtlinie ist die Art und Weise, wie Redis auswählt, was entfernt werden soll,<br />wenn das maximale Speicherlimit erreicht ist. Die Standardeinstellung ist „noeviction“: Neue Werte<br />werden nicht gespeichert, wenn das Speicherlimit erreicht ist. <del>Klicke</del><ins>Klicken Sie</ins> hier, um die Dokumentation anzuzeigen.<br />
@@ -2887,13 +2810,11 @@ Wenn <del>du</del><ins>Sie</ins> ein Markensymbol verwenden <del>möchtest,</del
 
 ```diff
 -Deine Diskussion {merged_discussion_title} wurde von {actor_display_name} mit {discussion_title} zusammengeführt.
--
--Du kannst sie hier ansehen: {discussion_url} .
--
 +Ihre Diskussion mit dem Titel {merged_discussion_title} wurde von {actor_display_name} mit der Diskussion {discussion_title} zusammengeführt.
-+
+
+-Du kannst sie hier ansehen: {discussion_url} .
 +Hier können Sie sie sich ansehen: {discussion_url} .
-+
+
 ```
 
 <del>Deine</del><ins>Ihre</ins> Diskussion<ins> mit dem Titel</ins> {merged\_discussion\_title} wurde von {actor\_display\_name} mit<ins> der Diskussion</ins> {discussion\_title} zusammengeführt.<br /><br /><del>Du</del><ins>Hier</ins> <del>kannst</del><ins>können Sie</ins> sie <del>hier</del><ins>sich</ins> ansehen: {discussion\_url} .<br />
@@ -2979,26 +2900,17 @@ Wenn <del>du</del><ins>Sie</ins> ein Markensymbol verwenden <del>möchtest,</del
 >
 
 ```diff
--Hallo {warnee_display_name}!
--
+ Hallo {warnee_display_name}!
+
 -{warner_display_name} hat Dich mit {strikes, plural, one {# Strike} other {# Strikes}} in {discussion_title} gewarnt
--
--Es wurde folgender Grund angegeben:
--
-----
--
--{public_comment}
--
-+Hallo {warnee_display_name}!
-+
 +{warner_display_name} hat Sie mit {strikes, plural, one {# Strike} other {# Strikes}} in {discussion_title} gewarnt
-+
-+Es wurde folgender Grund angegeben:
-+
-+---
-+
-+{public_comment}
-+
+
+ Es wurde folgender Grund angegeben:
+
+ ---
+
+ {public_comment}
+
 ```
 
 Hallo {warnee\_display\_name}!<br /><br />{warner\_display\_name} hat <del>Dich</del><ins>Sie</ins> mit {strikes, plural, one {# Strike} other {# Strikes}} in {discussion\_title} gewarnt<br /><br />Es wurde folgender Grund angegeben:<br /><br />---<br /><br />{public\_comment}<br />
@@ -3017,26 +2929,17 @@ Hallo {warnee\_display\_name}!<br /><br />{warner\_display\_name} hat <del>Dich<
 >
 
 ```diff
--Hallo {warnee_display_name}!
--
+ Hallo {warnee_display_name}!
+
 -{warner_display_name} hat Dich mit {strikes, plural, one {# Strike} other {# Strikes}} gewarnt
--
--Es wurde folgender Grund angegeben wurde angegeben:
--
-----
--
--{public_comment}
--
-+Hallo {warnee_display_name}!
-+
 +{warner_display_name} hat Sie mit {strikes, plural, one {# Strike} other {# Strikes}} gewarnt
-+
-+Es wurde folgender Grund angegeben wurde angegeben:
-+
-+---
-+
-+{public_comment}
-+
+
+ Es wurde folgender Grund angegeben wurde angegeben:
+
+ ---
+
+ {public_comment}
+
 ```
 
 Hallo {warnee\_display\_name}!<br /><br />{warner\_display\_name} hat <del>Dich</del><ins>Sie</ins> mit {strikes, plural, one {# Strike} other {# Strikes}} gewarnt<br /><br />Es wurde folgender Grund angegeben wurde angegeben:<br /><br />---<br /><br />{public\_comment}<br />
@@ -3223,9 +3126,8 @@ Zuschneiden fehlgeschlagen. <del>Stelle</del><ins>Stellen Sie</ins> sicher das d
 
 ```diff
 -Das Hochladen von Bildern kann fehlschlagen, wenn die Datenschutzeinstellungen deines Browsers sehr streng sind. Wenn du Probleme hast, deaktiviere den Fingerprinting-Schutz. Andernfalls kannst du auch <disableCrop>das Zuschneiden vollständig deaktivieren</disableCrop>.
--
 +Das Hochladen des Bildes kann fehlschlagen, wenn die Datenschutzeinstellungen Ihres Browsers sehr streng sind. Wenn Sie Probleme haben, versuchen Sie, den Fingerabdruck-Schutz zu deaktivieren. Andernfalls können Sie <disableCrop>das Zuschneiden ganz deaktivieren</disableCrop>.
-+
+
 ```
 
 Das Hochladen <del>von</del><ins>des</ins> <del>Bildern</del><ins>Bildes</ins> kann fehlschlagen, wenn die Datenschutzeinstellungen <del>deines</del><ins>Ihres</ins> Browsers sehr streng sind. Wenn <del>du</del><ins>Sie</ins> Probleme <del>hast,</del><ins>haben,</ins> <del>deaktiviere</del><ins>versuchen Sie,</ins> den <del>Fingerprinting-Schutz.</del><ins>Fingerabdruck-Schutz</ins> <del>Andernfalls</del><ins>zu</ins> <del>kannst</del><ins>deaktivieren.</ins> <del>du</del><ins>Andernfalls</ins> <del>auch</del><ins>können Sie</ins> &lt;disableCrop&gt;das Zuschneiden <del>vollständig</del><ins>ganz</ins> deaktivieren&lt;/disableCrop&gt;.<br />
@@ -3244,20 +3146,14 @@ Das Hochladen <del>von</del><ins>des</ins> <del>Bildern</del><ins>Bildes</ins> k
 >
 
 ```diff
--In der Standardkonfiguration werden Assets für Reaktionen über Cloudflares CDN ausgeliefert. Es gibt auch die Möglichkeit,
--eine andere CDN-Adresse zu verwenden. <code>[codepoint]</code> wird durch den Codepoint des Emojis ersetzt.
--
--Um zum Beispiel auf Noto Emoji per jsdelivr zu wechseln, würde man als URL <code>https://cdn.jsdelivr.net/gh/googlefonts/noto-emoji@v2.040/svg/emoji_u[codepoint].svg</code> verwenden.
--
+ In der Standardkonfiguration werden Assets für Reaktionen über Cloudflares CDN ausgeliefert. Es gibt auch die Möglichkeit,
+ eine andere CDN-Adresse zu verwenden. <code>[codepoint]</code> wird durch den Codepoint des Emojis ersetzt.
+
+ Um zum Beispiel auf Noto Emoji per jsdelivr zu wechseln, würde man als URL <code>https://cdn.jsdelivr.net/gh/googlefonts/noto-emoji@v2.040/svg/emoji_u[codepoint].svg</code> verwenden.
+
 -Dein CDN muss Emoji/Unicode {emojibase} oder höher unterstützen. Verwende [twemoji], um durch die Twemoji-Version zu ersetzen.
--
-+In der Standardkonfiguration werden Assets für Reaktionen über Cloudflares CDN ausgeliefert. Es gibt auch die Möglichkeit,
-+eine andere CDN-Adresse zu verwenden. <code>[codepoint]</code> wird durch den Codepoint des Emojis ersetzt.
-+
-+Um zum Beispiel auf Noto Emoji per jsdelivr zu wechseln, würde man als URL <code>https://cdn.jsdelivr.net/gh/googlefonts/noto-emoji@v2.040/svg/emoji_u[codepoint].svg</code> verwenden.
-+
 +Ihr CDN muss Emoji/Unicode {emojibase} oder höher unterstützen. Verwenden Sie [twemoji], um durch die Twemoji-Version zu ersetzen.
-+
+
 ```
 
 In der Standardkonfiguration werden Assets für Reaktionen über Cloudflares CDN ausgeliefert. Es gibt auch die Möglichkeit,<br />eine andere CDN-Adresse zu verwenden. &lt;code&gt;\[codepoint\]&lt;/code&gt; wird durch den Codepoint des Emojis ersetzt.<br /><br />Um zum Beispiel auf Noto Emoji per jsdelivr zu wechseln, würde man als URL &lt;code&gt;https://cdn.jsdelivr.net/gh/googlefonts/noto-emoji@v2.040/svg/emoji\_u\[codepoint\].svg&lt;/code&gt; verwenden.<br /><br /><del>Dein</del><ins>Ihr</ins> CDN muss Emoji/Unicode {emojibase} oder höher unterstützen. <del>Verwende</del><ins>Verwenden Sie</ins> \[twemoji\], um durch die Twemoji-Version zu ersetzen.<br />
@@ -3297,9 +3193,8 @@ Wenn <del>du</del><ins>Sie</ins> <del>deine</del><ins>Ihere</ins> Erweiterung ge
 
 ```diff
 -Verwende diese Einstellung, wenn du einen S3-kompatiblen Dienst nutzt, der ein bestimmtes URL-Format erfordert (z. B. Backblaze B2) oder wenn du Probleme mit dem Standard-URL-Format hast. In der Regel ist diese Einstellung für die meisten Dienste nicht erforderlich. Achte darauf, dass die URL das Protokoll (https://) enthält und korrekt formatiert ist. Beispiel: https://your-bucket.s3.your-region.backblazeb2.com
--
 +Verwende diese Einstellung, wenn Sie einen S3-kompatiblen Dienst nutzen, der ein bestimmtes URL-Format erfordert (z. B. Backblaze B2) oder wenn Sie Probleme mit dem Standard-URL-Format haben. In der Regel ist diese Einstellung für die meisten Dienste nicht erforderlich. Achten Sie darauf, dass die URL das Protokoll (https://) enthält und korrekt formatiert ist. Beispiel: https://your-bucket.s3.your-region.backblazeb2.com
-+
+
 ```
 
 Verwende diese Einstellung, wenn <del>du</del><ins>Sie</ins> einen S3-kompatiblen Dienst <del>nutzt,</del><ins>nutzen,</ins> der ein bestimmtes URL-Format erfordert (z. B. Backblaze B2) oder wenn <del>du</del><ins>Sie</ins> Probleme mit dem Standard-URL-Format <del>hast.</del><ins>haben.</ins> In der Regel ist diese Einstellung für die meisten Dienste nicht erforderlich. <del>Achte</del><ins>Achten Sie</ins> darauf, dass die URL das Protokoll (https://) enthält und korrekt formatiert ist. Beispiel: https://your-bucket.s3.your-region.backblazeb2.com<br />
@@ -3315,11 +3210,10 @@ Verwende diese Einstellung, wenn <del>du</del><ins>Sie</ins> einen S3-kompatible
 -Bitte konfiguriere hier deine Zuordnung. Jeder reguläre Ausdruck für einen MIME-Typ wird von einem bestimmten Upload-Adapter und einer bestimmten Download-Vorlage verarbeitet.
 -Optional kannst du jedem Eintrag eine Berechtigungsbezeichnung (z. B. „Bilder“, „Videos“) zuweisen, um eine spezielle Berechtigung im Berechtigungsraster zu erstellen.
 -Auf diese Weise kannst du einschränken, welche Gruppen bestimmte Dateitypen hochladen dürfen – zusätzlich zur Basisberechtigung „Dateien hochladen“, die immer erforderlich ist.
--
 +Bitte konfigurieren Sie hier Ihre Zuordnung. Jeder reguläre Ausdruck für einen MIME-Typ wird von einem bestimmten Upload-Adapter und einer bestimmten Download-Vorlage verarbeitet.
 +Optional können Sie jedem Eintrag eine Berechtigungsbezeichnung (z. B. „Bilder“, „Videos“) zuweisen, um eine eigene Berechtigung im Berechtigungsraster zu erstellen.
 +Auf diese Weise können Sie einschränken, welche Gruppen bestimmte Dateitypen hochladen dürfen – zusätzlich zu der grundlegenden Berechtigung „Dateien hochladen“, die immer erforderlich ist.
-+
+
 ```
 
 Bitte <del>konfiguriere</del><ins>konfigurieren Sie</ins> hier <del>deine</del><ins>Ihre</ins> Zuordnung. Jeder reguläre Ausdruck für einen MIME-Typ wird von einem bestimmten Upload-Adapter und einer bestimmten Download-Vorlage verarbeitet.<br />Optional <del>kannst</del><ins>können</ins> <del>du</del><ins>Sie</ins> jedem Eintrag eine Berechtigungsbezeichnung (z. B. „Bilder“, „Videos“) zuweisen, um eine <del>spezielle</del><ins>eigene</ins> Berechtigung im Berechtigungsraster zu erstellen.<br />Auf diese Weise <del>kannst</del><ins>können</ins> <del>du</del><ins>Sie</ins> einschränken, welche Gruppen bestimmte Dateitypen hochladen dürfen – zusätzlich <del>zur</del><ins>zu</ins> <del>Basisberechtigung</del><ins>der grundlegenden Berechtigung</ins> „Dateien hochladen“, die immer erforderlich ist.<br />
@@ -3358,13 +3252,11 @@ Dateien hochladen (Basisberechtigung, <del>erforderlich </del>für alle <del>Upl
 
 ```diff
 -Deine Anfrage, um deinen Benutzernamen in „{new_username}” zu ändern, wurde von {actor_display_name} genehmigt.
--
--Du kannst dich nun mit deinem neuen Benutzernamen anmelden: {login_url}
--
 +Ihr Antrag auf Änderung Ihres Benutzernamens in „{new_username}“ wurde von {actor_display_name} genehmigt.
-+
+
+-Du kannst dich nun mit deinem neuen Benutzernamen anmelden: {login_url}
 +Sie können sich nun mit Ihrem neuen Benutzernamen anmelden: {login_url}
-+
+
 ```
 
 <del>Deine Anfrage,</del><ins>Ihr</ins> <del>um</del><ins>Antrag</ins> <del>deinen</del><ins>auf</ins> <del>Benutzernamen</del><ins>Änderung</ins> <del>in</del><ins>Ihres</ins> <del>„{new\_username}”</del><ins>Benutzernamens</ins> <del>zu</del><ins>in</ins> <del>ändern,</del><ins>„{new\_username}“</ins> wurde von {actor\_display\_name} genehmigt.<br /><br /><del>Du</del><ins>Sie</ins> <del>kannst</del><ins>können</ins> <del>dich</del><ins>sich</ins> nun mit <del>deinem</del><ins>Ihrem</ins> neuen Benutzernamen anmelden: {login\_url}<br />
@@ -3378,13 +3270,10 @@ Dateien hochladen (Basisberechtigung, <del>erforderlich </del>für alle <del>Upl
 
 ```diff
 -Deine Anfrage, deinen Benutzernamen von „{old_username}” in „{requested_username}” zu ändern, wurde von {actor_display_name} abgelehnt.
--
--Grund: {reason}
--
 +Ihr Antrag auf Änderung Ihres Benutzernamens von „{old_username}“ in „{requested_username}“ wurde von {actor_display_name} abgelehnt.
-+
-+Grund: {reason}
-+
+
+ Grund: {reason}
+
 ```
 
 <del>Deine</del><ins>Ihr</ins> <del>Anfrage,</del><ins>Antrag</ins> <del>deinen</del><ins>auf</ins> <del>Benutzernamen</del><ins>Änderung</ins> <del>von</del><ins>Ihres</ins> <del>„{old\_username}”</del><ins>Benutzernamens</ins> <del>in</del><ins>von</ins> <del>„{requested\_username}”</del><ins>„{old\_username}“</ins> <del>zu</del><ins>in</ins> <del>ändern,</del><ins>„{requested\_username}“</ins> wurde von {actor\_display\_name} abgelehnt.<br /><br />Grund: {reason}<br />

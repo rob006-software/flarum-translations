@@ -49,11 +49,10 @@ Ses <del>oynatıcısını</del><ins>oynatıcı</ins> <del>ekleyin:</del><ins>ekl
 
 ```diff
 -Siz yazarken {count} yeni yanıt eklendi.
--
++Yazarken {count} yeni yanıt eklendi.
+
 -Tamam → Yanıtınızı yine de gönderin
 -İptal → Önce bunları okuyun (taslağınız açık kalır)
-+Yazarken {count} yeni yanıt eklendi.
-+
 +Tamam → Yanıtını yine de gönder
 +İptal → Önce yanıtları oku (taslağın açık kalır)
 ```
@@ -69,11 +68,10 @@ Ses <del>oynatıcısını</del><ins>oynatıcı</ins> <del>ekleyin:</del><ins>ekl
 
 ```diff
 -Siz yazarken 1 yeni yanıt eklendi.
--
++Yazarken 1 yeni yanıt eklendi.
+
 -Tamam → Yanıtınızı yine de gönderin
 -İptal → Önce okuyun (taslağınız açık kalır)
-+Yazarken 1 yeni yanıt eklendi.
-+
 +Tamam → Yanıtını yine de gönder
 +İptal → Önce oku (taslağın açık kalır)
 ```

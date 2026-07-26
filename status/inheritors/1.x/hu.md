@@ -401,9 +401,8 @@ Szerezze <del>meg</del><ins>be</ins> a Google reCAPTCHA hitelesítő adatait &lt
 
 ```diff
 -Csak az URL-t illeszti be. A megjelenítést más, automatikus hivatkozásra képes kiegészítők kezelhetik. Nincs letöltési funkció, és statisztika sem keletkezik, valamint a hivatkozásvédelem is figyelmen kívül lesz hagyva.
--
 +Csak a webcímet illeszti be. A megjelenítést más, automatikus hivatkozásra képes kiegészítők kezelhetik. Nincs letöltési funkció, és statisztika sem keletkezik, valamint a hivatkozásvédelem is figyelmen kívül lesz hagyva.
-+
+
 ```
 
 Csak <del>az</del><ins>a</ins> <del>URL-t</del><ins>webcímet</ins> illeszti be. A megjelenítést más, automatikus hivatkozásra képes kiegészítők kezelhetik. Nincs letöltési funkció, és statisztika sem keletkezik, valamint a hivatkozásvédelem is figyelmen kívül lesz hagyva.<br />

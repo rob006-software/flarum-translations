@@ -151,9 +151,8 @@ Each entry contains the English source string, followed by a diff between the tr
 
 ```diff
 -Folgen Sie den Anweisungen @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/2-getting-your-refresh-token.md, um das Aktualisierungstoken für Ihre Google oAuth-App abzurufen.
--
 +Folge den Anweisungen @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/2-getting-your-refresh-token.md, um das Aktualisierungstoken für deine Google oAuth-App abzurufen.
-+
+
 ```
 
 <del>Folgen Sie</del><ins>Folge</ins> den Anweisungen @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/2-getting-your-refresh-token.md, um das Aktualisierungstoken für <del>Ihre</del><ins>deine</ins> Google oAuth-App abzurufen.<br />
@@ -417,9 +416,8 @@ Operationen <del>im</del><ins>in</ins> <del>Hintergrund</del><ins>der Hintergrun
 
 ```diff
 -Die Anzahl der Tage, die abgeschlossene Aufgaben in der Datenbank aufbewahrt werden. Aufgaben, die älter als diese sind, werden gelöscht. Setze auf 0, um alle Aufgaben zu behalten.
--
 +Die Anzahl der Tage, die abgeschlossene Aufgaben in der Datenbank aufbewahrt werden. Ältere Aufgaben werden gelöscht. Setze auf 0, um alle zu behalten.
-+
+
 ```
 
 Die Anzahl der Tage, die abgeschlossene Aufgaben in der Datenbank aufbewahrt werden. <del>Aufgaben, die älter als diese</del><ins>Ältere</ins> <del>sind,</del><ins>Aufgaben</ins> werden gelöscht. Setze auf 0, um alle<del> Aufgaben</del> zu behalten.<br />
@@ -1072,9 +1070,8 @@ Du musst ein <del>Thema</del><ins>Tag</ins> auswählen, wenn du die Metrik „Be
 
 ```diff
 -Wenn ein Tag „Beste Antwort“ aktiviert ist, weisen Sie jeder Benutzergruppe, die Antworten festlegen darf (eigene Diskussion, beliebige Diskussion), Berechtigungen zu. Berechtigungen können global (für jeden Tag mit aktivierter „Beste Antwort“) oder pro Tag zugewiesen werden.
--
 +Wenn ein Tag „Beste Antwort“ aktiviert ist, weise jeder Benutzergruppe, die Antworten festlegen darf (eigene Diskussion, beliebige Diskussion), Berechtigungen zu. Berechtigungen können global (für jeden Tag mit aktivierter „Beste Antwort“) oder pro Tag zugewiesen werden.
-+
+
 ```
 
 Wenn ein Tag „Beste Antwort“ aktiviert ist, <del>weisen Sie</del><ins>weise</ins> jeder Benutzergruppe, die Antworten festlegen darf (eigene Diskussion, beliebige Diskussion), Berechtigungen zu. Berechtigungen können global (für jeden Tag mit aktivierter „Beste Antwort“) oder pro Tag zugewiesen werden.<br />
@@ -1491,9 +1488,8 @@ Links sind standardmässig nur für &lt;code&gt;{admin}&lt;/code&gt;-Nutzer sich
 
 ```diff
 -Überprüfe die unterstützten <a>Laravel-Validierungsregeln</a>. ZB: "string|min:5" oder "url".
--
 +Überprüfe die unterstützten <a>Laravel-Validierungsregeln</a>. Z. B.: "string|min:5" oder "url".
-+
+
 ```
 
 Überprüfe die unterstützten &lt;a&gt;Laravel-Validierungsregeln&lt;/a&gt;. <del>ZB:</del><ins>Z. B.:</ins> "string\|min:5" oder "url".<br />
@@ -2440,9 +2436,8 @@ Wähle aus, wie die Farben <del>der Themen</del><ins>des</ins> <del>in</del><ins
 
 ```diff
 -Das Theme welches für die Boring Avatars verwendet wird.
--
 +Das Theme, welches für die Boring Avatars verwendet wird.
-+
+
 ```
 
 Das <del>Theme</del><ins>Theme,</ins> welches für die Boring Avatars verwendet wird.<br />

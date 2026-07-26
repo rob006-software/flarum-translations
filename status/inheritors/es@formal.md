@@ -947,9 +947,8 @@ El tipo de paquetes que se permite instalar. No <del>cambies</del><ins>cambie</i
 
 ```diff
 -Añade repositorios adicionales desde los que instalar paquetes. Esta es una característica avanzada, no añadas repositorios que no sean de confianza, ya que pueden ser utilizados para ejecutar código malicioso en tu servidor.
--
 +Añada repositorios adicionales desde los que instalar paquetes. Esta es una característica avanzada, no añada repositorios que no sean de confianza, ya que pueden ser utilizados para ejecutar código malicioso en su servidor.
-+
+
 ```
 
 <del>Añade</del><ins>Añada</ins> repositorios adicionales desde los que instalar paquetes. Esta es una característica avanzada, no <del>añadas</del><ins>añada</ins> repositorios que no sean de confianza, ya que pueden ser utilizados para ejecutar código malicioso en <del>tu</del><ins>su</ins> servidor.<br />
@@ -961,9 +960,8 @@ El tipo de paquetes que se permite instalar. No <del>cambies</del><ins>cambie</i
 
 ```diff
 -Algunas extensiones instaladas no son compatibles con la versión principal más reciente. Espera a que los autores actualicen las extensiones para que sean compatibles o elimínalas antes de continuar.
--
 +Algunas extensiones instaladas no son compatibles con la versión principal más reciente. Espere a que los autores actualicen las extensiones para que sean compatibles o elimínelas antes de continuar.
-+
+
 ```
 
 Algunas extensiones instaladas no son compatibles con la versión principal más reciente. <del>Espera</del><ins>Espere</ins> a que los autores actualicen las extensiones para que sean compatibles o <del>elimínalas</del><ins>elimínelas</ins> antes de continuar.<br />
@@ -975,9 +973,8 @@ Algunas extensiones instaladas no son compatibles con la versión principal más
 
 ```diff
 -Completa el nombre del paquete de extensión para continuar. Puedes especificar una <semantic_link>versión semántica</semantic_link> utilizando el formato <code>vendor/package-name:version</code>. Visita {link} para explorar extensiones disponibles.
--
 +Complete el nombre del paquete de extensión para continuar. Puede especificar una <semantic_link>versión semántica</semantic_link> utilizando el formato <code>vendor/nombre-del-paquete:versión</code>. Visite {extiverse} para explorar extensiones.
-+
+
 ```
 
 <del>Completa</del><ins>Complete</ins> el nombre del paquete de extensión para continuar. <del>Puedes</del><ins>Puede</ins> especificar una &lt;semantic\_link&gt;versión semántica&lt;/semantic\_link&gt; utilizando el formato <del>&lt;code&gt;vendor/package-name:version&lt;/code&gt;.</del><ins>&lt;code&gt;vendor/nombre-del-paquete:versión&lt;/code&gt;.</ins> <del>Visita</del><ins>Visite</ins> <del>{link}</del><ins>{extiverse}</ins> para explorar<del> extensiones</del> <del>disponibles.</del><ins>extensiones.</ins><br />
@@ -989,9 +986,8 @@ Algunas extensiones instaladas no son compatibles con la versión principal más
 
 ```diff
 -Las actualizaciones mayores de Flarum no son compatibles con versiones anteriores, lo que significa que algunas de tus extensiones instaladas actualmente y las modificaciones realizadas manualmente podrían no funcionar con esta nueva versión. Por favor, asegúrate de hacer una copia de seguridad de tu base de datos y archivos antes de proceder.
--
 +Las actualizaciones mayores de Flarum no son compatibles con versiones anteriores, lo que significa que algunas de sus extensiones instaladas actualmente y las modificaciones realizadas manualmente podrían no funcionar con esta nueva versión. Por favor, asegúrese de hacer una copia de seguridad de su base de datos y archivos antes de proceder.
-+
+
 ```
 
 Las actualizaciones mayores de Flarum no son compatibles con versiones anteriores, lo que significa que algunas de <del>tus</del><ins>sus</ins> extensiones instaladas actualmente y las modificaciones realizadas manualmente podrían no funcionar con esta nueva versión. Por favor, <del>asegúrate</del><ins>asegúrese</ins> de hacer una copia de seguridad de <del>tu</del><ins>su</ins> base de datos y archivos antes de proceder.<br />
@@ -1496,9 +1492,8 @@ Editar las etiquetas para <del>{title}</del><ins>'{title}'</ins>
 
 ```diff
 -Muestra un ícono delante de los valores introducidos por el usuario. Para consultar los íconos disponibles, visite el <a>sitio web de FontAwesome</a>. Utilice nombres de íconos con el prefijo "fa-", como "fas fa-info".
--
 +Introduzca el nombre de alguna clase de <a>FontAwesome</a>, <em>incluyendo</em> el prefijo <code>fas fa-</code>.
-+
+
 ```
 
 <del>Muestra un ícono delante de los valores introducidos por el usuario. Para consultar los íconos disponibles, visite</del><ins>Introduzca</ins> el<del> &lt;a&gt;sitio</del> <del>web</del><ins>nombre</ins> de<del> FontAwesome&lt;/a&gt;.</del> <del>Utilice</del><ins>alguna</ins> <del>nombres</del><ins>clase</ins> de <del>íconos</del><ins>&lt;a&gt;FontAwesome&lt;/a&gt;,</ins> <del>con</del><ins>&lt;em&gt;incluyendo&lt;/em&gt;</ins> el prefijo<del> "fa-", como</del> <del>"fas</del><ins>&lt;code&gt;fas</ins> <del>fa-info".</del><ins>fa-&lt;/code&gt;.</ins><br />
@@ -1510,9 +1505,8 @@ Editar las etiquetas para <del>{title}</del><ins>'{title}'</ins>
 
 ```diff
 -Consulta las <a>reglas de validación de Laravel</a>. Ej: "string|min:5" o "url".
--
 +Consulte las <a>reglas de validación de Laravel</a>. Ej: "string|min:5" o "url".
-+
+
 ```
 
 <del>Consulta</del><ins>Consulte</ins> las &lt;a&gt;reglas de validación de Laravel&lt;/a&gt;. Ej: "string\|min:5" o "url".<br />
@@ -1524,9 +1518,8 @@ Editar las etiquetas para <del>{title}</del><ins>'{title}'</ins>
 
 ```diff
 -Por favor completa los campos del perfil de usuario.
--
 +Por favor complete los campos del perfil de usuario.
-+
+
 ```
 
 Por favor <del>completa</del><ins>complete</ins> los campos del perfil de usuario.<br />

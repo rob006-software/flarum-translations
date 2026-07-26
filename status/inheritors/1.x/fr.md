@@ -236,12 +236,10 @@ Masquer le préfixe numérique des noms de fichiers <del>téléchargés</del><in
 > Cancel → Read them first (your draft stays open)
 
 ```diff
--{count} nouvelles réponses ont été ajoutées pendant que vous écriviez.
--
+ {count} nouvelles réponses ont été ajoutées pendant que vous écriviez.
+
 -Valider → Publier quand même votre réponse
 -Annuler → Les lire d'abord (votre brouillon reste ouvert)
-+{count} nouvelles réponses ont été ajoutées pendant que vous écriviez.
-+
 +OK → Publier quand même votre réponse
 +Annuler → Lire d'abord les réponses qui ont été ajoutées (votre brouillon reste ouvert)
 ```
@@ -256,12 +254,10 @@ Masquer le préfixe numérique des noms de fichiers <del>téléchargés</del><in
 > Cancel → Read it first (your draft stays open)
 
 ```diff
--Une nouvelle réponse a été ajoutée pendant que vous écriviez.
--
+ Une nouvelle réponse a été ajoutée pendant que vous écriviez.
+
 -Valider → Publier quand même votre réponse
 -Annuler → La lire d'abord (votre brouillon reste ouvert)
-+Une nouvelle réponse a été ajoutée pendant que vous écriviez.
-+
 +OK → Publier quand même votre réponse
 +Annuler → Lire d'abord la réponse qui a été ajoutée (votre brouillon reste ouvert)
 ```
@@ -664,9 +660,8 @@ Saisissez votre nom d'utilisateur GitHub (pour les comptes <del>individuels)</de
 
 ```diff
 -Vérifiez les <a>règles de validation de Laravel</a> prises en charge. Par exemple : « string|min:5 » ou « url ».
--
 +Vérifiez les <a>règles de validation de Laravel</a> prises en charge. P. ex. : « string|min:5 » ou « url ».
-+
+
 ```
 
 Vérifiez les &lt;a&gt;règles de validation de Laravel&lt;/a&gt; prises en charge. <del>Par</del><ins>P.</ins> <del>exemple</del><ins>ex.</ins> : « string\|min:5 » ou « url ».<br />
@@ -692,9 +687,8 @@ Vérifiez les &lt;a&gt;règles de validation de Laravel&lt;/a&gt; prises en char
 
 ```diff
 -Lorsque vous participez à une discussion qui ne comporte qu'un seul message, le déplacement de ce message entraînera la modification du premier message de la discussion d'origine afin qu'il renvoie vers la nouvelle discussion. Vous pouvez modifier le contenu de ce message ici.
--
 +Lorsque vous avez une discussion avec un seul message, le déplacement de ce message entraînera la modification du premier message de la discussion initiale pour pointer vers la nouvelle discussion. Vous pouvez modifier le contenu de cette publication ici.
-+
+
 ```
 
 Lorsque vous <del>participez à</del><ins>avez</ins> une discussion<del> qui ne</del> <del>comporte</del><ins>avec</ins> <del>qu'un</del><ins>un</ins> seul message, le déplacement de ce message entraînera la modification du premier message de la discussion<del> d'origine</del> <del>afin</del><ins>initiale</ins> <del>qu'il</del><ins>pour</ins> <del>renvoie</del><ins>pointer</ins> vers la nouvelle discussion. Vous pouvez modifier le contenu de <del>ce</del><ins>cette</ins> <del>message</del><ins>publication</ins> ici.<br />
@@ -1229,9 +1223,8 @@ Déclenche une reconstruction immédiate de tous les fichiers de plan <del>du</d
 
 ```diff
 -Utilisez ce paramètre si vous utilisez un service compatible S3 qui nécessite un format d'URL spécifique (par exemple, Backblaze B2) ou si vous rencontrez des problèmes avec le format d'URL par défaut. Ce paramètre n'est généralement pas nécessaire pour la plupart des services. Assurez-vous que l'URL inclut le protocole (https://) et qu'elle est correctement formatée. Par exemple : https://your-bucket.s3.your-region.backblazeb2.com
--
 +Utilisez ce paramètre si vous utilisez un service compatible S3 qui nécessite un format d'URL spécifique (p. ex. Backblaze B2) ou si vous rencontrez des problèmes avec le format d'URL par défaut. Ce paramètre n'est généralement pas nécessaire pour la plupart des services. Assurez-vous que l'URL inclut le protocole (https://) et qu'elle est correctement formatée. Par exemple : https://your-bucket.s3.your-region.backblazeb2.com
-+
+
 ```
 
 Utilisez ce paramètre si vous utilisez un service compatible S3 qui nécessite un format d'URL spécifique <del>(par</del><ins>(p.</ins> <del>exemple,</del><ins>ex.</ins> Backblaze B2) ou si vous rencontrez des problèmes avec le format d'URL par défaut. Ce paramètre n'est généralement pas nécessaire pour la plupart des services. Assurez-vous que l'URL inclut le protocole (https://) et qu'elle est correctement formatée. Par exemple : https://your-bucket.s3.your-region.backblazeb2.com<br />
@@ -1304,20 +1297,14 @@ Compteur de caractères en <del>temps réel</del><ins>direct</ins> dans le compo
 >
 
 ```diff
--Un par ligne.
+ Un par ligne.
 -Indiquez uniquement le nom de domaine, SANS http ou https.
--Par exemple :
--forum1.org
--forum2.org
--forum3.org
--
-+Un par ligne.
 +Domaine uniquement, NE PAS inclure http ou https.
-+Par exemple :
-+forum1.org
-+forum2.org
-+forum3.org
-+
+ Par exemple :
+ forum1.org
+ forum2.org
+ forum3.org
+
 ```
 
 Un par ligne.<br /><del>Indiquez uniquement le</del><ins>Domaine</ins> <del>nom</del><ins>uniquement,</ins> <del>de</del><ins>NE</ins> <del>domaine,</del><ins>PAS</ins> <del>SANS</del><ins>inclure</ins> http ou https.<br />Par exemple :<br />forum1.org<br />forum2.org<br />forum3.org<br />

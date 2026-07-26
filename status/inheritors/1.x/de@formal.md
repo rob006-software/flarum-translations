@@ -242,9 +242,8 @@ Der Hostname, zu dem <del>Du</del><ins>Sie</ins> <del>dich</del><ins>sich</ins> 
 
 ```diff
 -Befolge die Anweisungen unter https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md, um ein Google-Projekt zu erstellen und deine Client-ID und deinen geheimen Client-Schlüssel abzurufen.
--
 +Befolgen Sie die Anweisungen unter https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md, um ein Google-Projekt zu erstellen und Ihre Client-ID und Ihren geheimen Client-Schlüssel abzurufen.
-+
+
 ```
 
 <del>Befolge</del><ins>Befolgen Sie</ins> die Anweisungen unter https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md, um ein Google-Projekt zu erstellen und <del>deine</del><ins>Ihre</ins> Client-ID und <del>deinen</del><ins>Ihren</ins> geheimen Client-Schlüssel abzurufen.<br />
@@ -267,9 +266,8 @@ Erfolgreich mit Google Drive verbunden! <del>Speichere</del><ins>Speichern Sie</
 
 ```diff
 -Folgen Sie den Anweisungen @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/2-getting-your-refresh-token.md, um das Aktualisierungstoken für Ihre Google oAuth-App abzurufen.
--
 +Folge den Anweisungen @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/2-getting-your-refresh-token.md, um das Aktualisierungstoken für deine Google oAuth-App abzurufen.
-+
+
 ```
 
 <del>Folgen Sie</del><ins>Folge</ins> den Anweisungen @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/2-getting-your-refresh-token.md, um das Aktualisierungstoken für <del>Ihre</del><ins>deine</ins> Google oAuth-App abzurufen.<br />
@@ -314,9 +312,8 @@ Erfolgreich mit Google Drive verbunden! <del>Speichere</del><ins>Speichern Sie</
 
 ```diff
 -Um diesen Treiber verwenden zu können, musst Du ein bestimmtes Paket installieren. Führe dazu den folgenden Composer-Befehl in deinem Flarum-Installationsverzeichnis aus: <code>composer require {package}</code>.
--
 +Um diesen Treiber verwenden zu können, müssen Sie ein bestimmtes Paket installieren. Führen Sie dazu den folgenden Composer-Befehl in Ihrem Flarum-Installationsverzeichnis aus: <code>composer require {package}</code>.
-+
+
 ```
 
 Um diesen Treiber verwenden zu können, <del>musst</del><ins>müssen</ins> <del>Du</del><ins>Sie</ins> ein bestimmtes Paket installieren. <del>Führe</del><ins>Führen Sie</ins> dazu den folgenden Composer-Befehl in <del>deinem</del><ins>Ihrem</ins> Flarum-Installationsverzeichnis aus: &lt;code&gt;composer require {package}&lt;/code&gt;.<br />
@@ -585,9 +582,8 @@ Operationen <del>im</del><ins>in</ins> <del>Hintergrund</del><ins>der Hintergrun
 
 ```diff
 -Die Anzahl der Tage, die abgeschlossene Aufgaben in der Datenbank aufbewahrt werden. Aufgaben, die älter als diese sind, werden gelöscht. Setze auf 0, um alle Aufgaben zu behalten.
--
 +Die Anzahl der Tage, die abgeschlossene Aufgaben in der Datenbank aufbewahrt werden. Ältere Aufgaben werden gelöscht. Setze auf 0, um alle zu behalten.
-+
+
 ```
 
 Die Anzahl der Tage, die abgeschlossene Aufgaben in der Datenbank aufbewahrt werden. <del>Aufgaben, die älter als diese</del><ins>Ältere</ins> <del>sind,</del><ins>Aufgaben</ins> werden gelöscht. Setze auf 0, um alle<del> Aufgaben</del> zu behalten.<br />
@@ -627,10 +623,9 @@ Die Anzahl der Tage, die abgeschlossene Aufgaben in der Datenbank aufbewahrt wer
 ```diff
 -Hier sind die derzeit registrierten Datentypen aufgeführt. Jeder Typ wird zusammen mit den zugehörigen Export-, Anonymisierungs- und Löschungsaktionen aufgeführt. Wenn eine Erweiterung Daten verarbeitet, die unter die DSGVO-Vorschriften fallen, so sollte sie ihre Datentypen bei <code>blomstra/gdpr</code> registrieren.
 -Daten, die in der <code>Benutzer</code>-Tabelle gespeichert sind, werden gesondert behandelt, siehe Benutzertabellendaten unten.
--
 +Hier sind die derzeit registrierten Datentypen aufgeführt. Jeder Typ wird zusammen mit den zugehörigen Export-, Anonymisierungs- und Löschungsaktionen aufgeführt. Wenn eine Erweiterung Daten verarbeitet, die unter die DSGVO-Vorschriften fallen, so sollte sie ihre Datentypen bei <code>flarum/gdpr</code> registrieren.
 +Daten, die in der <code>Benutzer</code>-Tabelle gespeichert sind, werden gesondert behandelt, siehe „Daten der Benutzertabelle“ unten.
-+
+
 ```
 
 Hier sind die derzeit registrierten Datentypen aufgeführt. Jeder Typ wird zusammen mit den zugehörigen Export-, Anonymisierungs- und Löschungsaktionen aufgeführt. Wenn eine Erweiterung Daten verarbeitet, die unter die DSGVO-Vorschriften fallen, so sollte sie ihre Datentypen bei <del>&lt;code&gt;blomstra/gdpr&lt;/code&gt;</del><ins>&lt;code&gt;flarum/gdpr&lt;/code&gt;</ins> registrieren.<br />Daten, die in der &lt;code&gt;Benutzer&lt;/code&gt;-Tabelle gespeichert sind, werden gesondert behandelt, siehe <del>Benutzertabellendaten</del><ins>„Daten der Benutzertabelle“</ins> unten.<br />
@@ -1175,9 +1170,8 @@ Du musst ein <del>Thema</del><ins>Tag</ins> auswählen, wenn du die Metrik „Be
 
 ```diff
 -Wenn ein Tag „Beste Antwort“ aktiviert ist, weisen Sie jeder Benutzergruppe, die Antworten festlegen darf (eigene Diskussion, beliebige Diskussion), Berechtigungen zu. Berechtigungen können global (für jeden Tag mit aktivierter „Beste Antwort“) oder pro Tag zugewiesen werden.
--
 +Wenn ein Tag „Beste Antwort“ aktiviert ist, weise jeder Benutzergruppe, die Antworten festlegen darf (eigene Diskussion, beliebige Diskussion), Berechtigungen zu. Berechtigungen können global (für jeden Tag mit aktivierter „Beste Antwort“) oder pro Tag zugewiesen werden.
-+
+
 ```
 
 Wenn ein Tag „Beste Antwort“ aktiviert ist, <del>weisen Sie</del><ins>weise</ins> jeder Benutzergruppe, die Antworten festlegen darf (eigene Diskussion, beliebige Diskussion), Berechtigungen zu. Berechtigungen können global (für jeden Tag mit aktivierter „Beste Antwort“) oder pro Tag zugewiesen werden.<br />
@@ -1657,13 +1651,10 @@ IP-Adresse in <del>die </del>Zwischenablage kopieren
 
 ```diff
 -Hier kannst du einstellen, wie lange (in Minuten) Horizon
--die letzten und fehlgeschlagenen Aufträge aufbewahren soll. In der Regel werden die letzten Aufträge
--eine Stunde lang aufbewahrt, während alle fehlgeschlagenen Aufträge eine ganze Woche lang gespeichert werden.
--
 +Hier können Sie einstellen, wie lange (in Minuten) Horizon
-+die letzten und fehlgeschlagenen Aufträge aufbewahren soll. In der Regel werden die letzten Aufträge
-+eine Stunde lang aufbewahrt, während alle fehlgeschlagenen Aufträge eine ganze Woche lang gespeichert werden.
-+
+ die letzten und fehlgeschlagenen Aufträge aufbewahren soll. In der Regel werden die letzten Aufträge
+ eine Stunde lang aufbewahrt, während alle fehlgeschlagenen Aufträge eine ganze Woche lang gespeichert werden.
+
 ```
 
 Hier <del>kannst</del><ins>können</ins> <del>du</del><ins>Sie</ins> einstellen, wie lange (in Minuten) Horizon<br />die letzten und fehlgeschlagenen Aufträge aufbewahren soll. In der Regel werden die letzten Aufträge<br />eine Stunde lang aufbewahrt, während alle fehlgeschlagenen Aufträge eine ganze Woche lang gespeichert werden.<br />
@@ -1676,14 +1667,11 @@ Hier <del>kannst</del><ins>können</ins> <del>du</del><ins>Sie</ins> einstellen,
 >
 
 ```diff
--Die Speicherrichtlinie ist die Art und Weise, wie Redis auswählt, was entfernt werden soll,
--wenn das maximale Speicherlimit erreicht ist. Die Standardeinstellung ist „noeviction“: Neue Werte
+ Die Speicherrichtlinie ist die Art und Weise, wie Redis auswählt, was entfernt werden soll,
+ wenn das maximale Speicherlimit erreicht ist. Die Standardeinstellung ist „noeviction“: Neue Werte
 -werden nicht gespeichert, wenn das Speicherlimit erreicht ist. Klicke hier, um die Dokumentation anzuzeigen.
--
-+Die Speicherrichtlinie ist die Art und Weise, wie Redis auswählt, was entfernt werden soll,
-+wenn das maximale Speicherlimit erreicht ist. Die Standardeinstellung ist „noeviction“: Neue Werte
 +werden nicht gespeichert, wenn das Speicherlimit erreicht ist. Klicken Sie hier, um die Dokumentation anzuzeigen.
-+
+
 ```
 
 Die Speicherrichtlinie ist die Art und Weise, wie Redis auswählt, was entfernt werden soll,<br />wenn das maximale Speicherlimit erreicht ist. Die Standardeinstellung ist „noeviction“: Neue Werte<br />werden nicht gespeichert, wenn das Speicherlimit erreicht ist. <del>Klicke</del><ins>Klicken Sie</ins> hier, um die Dokumentation anzuzeigen.<br />
@@ -1748,9 +1736,8 @@ Links sind standardmässig nur für &lt;code&gt;{admin}&lt;/code&gt;-Nutzer sich
 
 ```diff
 -Überprüfe die unterstützten <a>Laravel-Validierungsregeln</a>. ZB: "string|min:5" oder "url".
--
 +Überprüfe die unterstützten <a>Laravel-Validierungsregeln</a>. Z. B.: "string|min:5" oder "url".
-+
+
 ```
 
 Überprüfe die unterstützten &lt;a&gt;Laravel-Validierungsregeln&lt;/a&gt;. <del>ZB:</del><ins>Z. B.:</ins> "string\|min:5" oder "url".<br />
@@ -1837,26 +1824,17 @@ Suchlimit für <del>Diskussionen</del><ins>das</ins> <del>zusammenführen</del><
 >
 
 ```diff
--Hallo {warnee_display_name}!
--
+ Hallo {warnee_display_name}!
+
 -{warner_display_name} hat Dich mit {strikes, plural, one {# Strike} other {# Strikes}} in {discussion_title} gewarnt
--
--Es wurde folgender Grund angegeben:
--
-----
--
--{public_comment}
--
-+Hallo {warnee_display_name}!
-+
 +{warner_display_name} hat Sie mit {strikes, plural, one {# Strike} other {# Strikes}} in {discussion_title} gewarnt
-+
-+Es wurde folgender Grund angegeben:
-+
-+---
-+
-+{public_comment}
-+
+
+ Es wurde folgender Grund angegeben:
+
+ ---
+
+ {public_comment}
+
 ```
 
 Hallo {warnee\_display\_name}!<br /><br />{warner\_display\_name} hat <del>Dich</del><ins>Sie</ins> mit {strikes, plural, one {# Strike} other {# Strikes}} in {discussion\_title} gewarnt<br /><br />Es wurde folgender Grund angegeben:<br /><br />---<br /><br />{public\_comment}<br />
@@ -1875,26 +1853,17 @@ Hallo {warnee\_display\_name}!<br /><br />{warner\_display\_name} hat <del>Dich<
 >
 
 ```diff
--Hallo {warnee_display_name}!
--
+ Hallo {warnee_display_name}!
+
 -{warner_display_name} hat Dich mit {strikes, plural, one {# Strike} other {# Strikes}} gewarnt
--
--Es wurde folgender Grund angegeben wurde angegeben:
--
-----
--
--{public_comment}
--
-+Hallo {warnee_display_name}!
-+
 +{warner_display_name} hat Sie mit {strikes, plural, one {# Strike} other {# Strikes}} gewarnt
-+
-+Es wurde folgender Grund angegeben wurde angegeben:
-+
-+---
-+
-+{public_comment}
-+
+
+ Es wurde folgender Grund angegeben wurde angegeben:
+
+ ---
+
+ {public_comment}
+
 ```
 
 Hallo {warnee\_display\_name}!<br /><br />{warner\_display\_name} hat <del>Dich</del><ins>Sie</ins> mit {strikes, plural, one {# Strike} other {# Strikes}} gewarnt<br /><br />Es wurde folgender Grund angegeben wurde angegeben:<br /><br />---<br /><br />{public\_comment}<br />
@@ -2219,9 +2188,8 @@ Die Mindestanzahl an Diskussionen, über die ein <del>Thema</del><ins>Tag</ins> 
 
 ```diff
 -Verwende diese Einstellung, wenn du einen S3-kompatiblen Dienst nutzt, der ein bestimmtes URL-Format erfordert (z. B. Backblaze B2) oder wenn du Probleme mit dem Standard-URL-Format hast. In der Regel ist diese Einstellung für die meisten Dienste nicht erforderlich. Achte darauf, dass die URL das Protokoll (https://) enthält und korrekt formatiert ist. Beispiel: https://your-bucket.s3.your-region.backblazeb2.com
--
 +Verwende diese Einstellung, wenn Sie einen S3-kompatiblen Dienst nutzen, der ein bestimmtes URL-Format erfordert (z. B. Backblaze B2) oder wenn Sie Probleme mit dem Standard-URL-Format haben. In der Regel ist diese Einstellung für die meisten Dienste nicht erforderlich. Achten Sie darauf, dass die URL das Protokoll (https://) enthält und korrekt formatiert ist. Beispiel: https://your-bucket.s3.your-region.backblazeb2.com
-+
+
 ```
 
 Verwende diese Einstellung, wenn <del>du</del><ins>Sie</ins> einen S3-kompatiblen Dienst <del>nutzt,</del><ins>nutzen,</ins> der ein bestimmtes URL-Format erfordert (z. B. Backblaze B2) oder wenn <del>du</del><ins>Sie</ins> Probleme mit dem Standard-URL-Format <del>hast.</del><ins>haben.</ins> In der Regel ist diese Einstellung für die meisten Dienste nicht erforderlich. <del>Achte</del><ins>Achten Sie</ins> darauf, dass die URL das Protokoll (https://) enthält und korrekt formatiert ist. Beispiel: https://your-bucket.s3.your-region.backblazeb2.com<br />
@@ -3108,9 +3076,8 @@ Wähle aus, wie die Farben <del>der Themen</del><ins>des</ins> <del>in</del><ins
 
 ```diff
 -Das Theme welches für die Boring Avatars verwendet wird.
--
 +Das Theme, welches für die Boring Avatars verwendet wird.
-+
+
 ```
 
 Das <del>Theme</del><ins>Theme,</ins> welches für die Boring Avatars verwendet wird.<br />
