@@ -904,9 +904,6 @@ return [
 			'tr',
 		],
 	],
-	'glowingblue-redis-setup' => [
-		'tag' => 'https://raw.githubusercontent.com/glowingblue/flarum-ext-redis-setup/1.3.2/resources/locale/en.yml',
-	],
 	'gtdxyz-badges' => [
 		'tag' => 'https://raw.githubusercontent.com/daocatt/flarum-ext-badges/1.0.1/locale/en.yml',
 		'__builtInLanguages' => [
@@ -960,9 +957,6 @@ return [
 	],
 	'huseyinfiliz-flagify' => [
 		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/flagify/0.1/locale/en.yml',
-	],
-	'huseyinfiliz-guest' => [
-		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/guest/v2.1/locale/en.yml',
 	],
 	'huseyinfiliz-leaderboard' => [
 		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/leaderboard/1.0.0/locale/en.yml',
@@ -1270,9 +1264,6 @@ return [
 	],
 	'katosdev-signature' => [
 		'tag' => 'https://raw.githubusercontent.com/katosdev/signature/1.6/locale/en.yml',
-	],
-	'kilowhat-audit-free' => [
-		'tag' => 'https://raw.githubusercontent.com/kilowhat/flarum-ext-audit-free/1.7.0/resources/locale/en.yml',
 	],
 	'kilowhat-audit-pro' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/84b06a54d8679050557844666ca9436064cb016b/kilowhat-audit-pro.yml',
