@@ -9,6 +9,7 @@
 - [License summary](https://rob006-software.github.io/flarum-translations/master/status/licenses.html)
 - [Language packs summary](https://rob006-software.github.io/flarum-translations/master/status/language-packs.html)
 - [Pending extensions summary](https://rob006-software.github.io/flarum-translations/master/status/pending.html)
+- [Inherited translations summary](https://rob006-software.github.io/flarum-translations/master/status/inheritors/)
 
 
 ## Flarum 2.x translation status
@@ -22,3 +23,4 @@
 - [License summary](https://rob006-software.github.io/flarum-translations/flarum2/status/licenses.html)
 - [Language packs summary](https://rob006-software.github.io/flarum-translations/flarum2/status/language-packs.html)
 - [Pending extensions summary](https://rob006-software.github.io/flarum-translations/flarum2/status/pending.html)
+- [Inherited translations summary](https://rob006-software.github.io/flarum-translations/flarum2/status/inheritors/)
