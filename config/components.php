@@ -441,7 +441,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/synopsis/2.0.0-beta.2/resources/locale/en.yml',
 	],
 	'fof-terms' => [
-		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/terms/2.0.0-beta.6/resources/locale/en.yml',
+		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/terms/2.0.0-rc.1/resources/locale/en.yml',
 	],
 	'fof-top-posters-widget' => [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/top-posters-widget/2.0.0-beta.1/locale/en.yml',
