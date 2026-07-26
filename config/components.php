@@ -614,9 +614,6 @@ return [
 	'linkrobins-birdseye' => [
 		'tag' => 'https://raw.githubusercontent.com/linkrobins/birdseye/v1.4.0/locale/en.yml',
 	],
-	'linkrobins-blog' => [
-		'tag' => 'https://raw.githubusercontent.com/linkrobins/blog/v1.2.1/locale/en.yml',
-	],
 	'linkrobins-clipboard' => [
 		'tag' => 'https://raw.githubusercontent.com/linkrobins/clipboard/v1.1.3/locale/en.yml',
 	],
