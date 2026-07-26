@@ -95,14 +95,6 @@
                 "view_private_discussions-when-flagged": "Xem cuộc thảo luận riêng tư của những người dùng khác nếu bị gắn cờ"
             },
             "settings": {
-                "general": {
-                    "heading": "Cài đặt chung",
-                    "help": "Các thiết lập này kiểm soát các tính năng cơ bản của byobu."
-                },
-                "icon": {
-                    "heading": "Cài đặt biểu tượng",
-                    "help": "Các thiết lập này kiểm soát các biểu tượng mà byobu sử dụng trên diễn đàn."
-                },
                 "badge-icon": "Huy hiệu thảo luận của Byobu",
                 "enable-make-public-option": "Bật tuỳ chọn \"đặt ở chế độ công khai\"",
                 "enable-make-public-option-help": "Thêm tuỳ chọn cho những người có quyền xóa tất cả người nhận, chỉ định thẻ mới và hiển thị cuộc thảo luận ở chế độ công khai (theo cài đặt hiển thị của thẻ đã chọn).",
@@ -110,7 +102,15 @@
                 "delete_on_last_recipient_left": "Xóa PD khi người dùng cuối cùng rời đi",
                 "delete_on_last_recipient_left_help": "Nếu được bật, các PD sẽ bị xóa vĩnh viễn khỏi cơ sở dữ liệu khi người dùng cuối cùng rời đi. Nếu không, PD sẽ bị xoá tạm/ẩn.",
                 "hide_from_all_discussions_page": "Ẩn PD khỏi trang \"Tất cả cuộc thảo luận\"",
-                "hide_from_all_discussions_page_help": "Các cuộc thảo luận riêng tư sẽ chỉ có thể truy cập được từ trang \"Thảo luận riêng tư\" hoặc hồ sơ người dùng"
+                "hide_from_all_discussions_page_help": "Các cuộc thảo luận riêng tư sẽ chỉ có thể truy cập được từ trang \"Thảo luận riêng tư\" hoặc hồ sơ người dùng",
+                "general": {
+                    "heading": "Cài đặt chung",
+                    "help": "Các thiết lập này kiểm soát các tính năng cơ bản của byobu."
+                },
+                "icon": {
+                    "heading": "Cài đặt biểu tượng",
+                    "help": "Các thiết lập này kiểm soát các biểu tượng mà byobu sử dụng trên diễn đàn."
+                }
             }
         },
         "email": {
@@ -131,13 +131,15 @@
         "lib": {
             "gambits": {
                 "byobu": {
-                    "key": ""
+                    "key": "",
+                    "hint": ""
                 },
                 "private": {
                     "key": ""
                 },
                 "allows-pd": {
-                    "key": ""
+                    "key": "",
+                    "hint": ""
                 }
             }
         }

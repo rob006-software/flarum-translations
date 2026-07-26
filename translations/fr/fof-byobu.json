@@ -95,14 +95,6 @@
                 "view_private_discussions-when-flagged": "Afficher les discussions privées d'autres utilisateurs qui ont été signalées"
             },
             "settings": {
-                "general": {
-                    "heading": "Paramètres généraux",
-                    "help": "Ces paramètres contrôlent les fonctions de base de byobu."
-                },
-                "icon": {
-                    "heading": "Paramètres des icônes",
-                    "help": "Ces paramètres contrôlent les icônes utilisées par byobu sur le forum."
-                },
                 "badge-icon": "Badge de discussion Byobu",
                 "enable-make-public-option": "Activer la capacité « rendre public »",
                 "enable-make-public-option-help": "Ajoute la possibilité pour les personnes autorisées de supprimer tous les destinataires, d'attribuer une nouvelle étiquette et de rendre la discussion visible publiquement (selon les paramètres de visibilité de l'étiquette choisie).",
@@ -110,7 +102,15 @@
                 "delete_on_last_recipient_left": "Suppression des discussions privées lors du départ du dernier utilisateur",
                 "delete_on_last_recipient_left_help": "Si cette option est activée, les discussions privées seront définitivement supprimées de la base de données lorsque le dernier utilisateur partira de la conversation. Sinon, les discussions privées seront supprimées en douceur et cachées.",
                 "hide_from_all_discussions_page": "Masquer les discussions privées de la page « Toutes les discussions »",
-                "hide_from_all_discussions_page_help": "Les discussions privées ne seront accessibles que depuis la page « Discussions privées » ou sur le profil de l'utilisateur"
+                "hide_from_all_discussions_page_help": "Les discussions privées ne seront accessibles que depuis la page « Discussions privées » ou sur le profil de l'utilisateur",
+                "general": {
+                    "heading": "Paramètres généraux",
+                    "help": "Ces paramètres contrôlent les fonctions de base de byobu."
+                },
+                "icon": {
+                    "heading": "Paramètres des icônes",
+                    "help": "Ces paramètres contrôlent les icônes utilisées par byobu sur le forum."
+                }
             }
         },
         "email": {
@@ -131,13 +131,15 @@
         "lib": {
             "gambits": {
                 "byobu": {
-                    "key": "byobu"
+                    "key": "byobu",
+                    "hint": ""
                 },
                 "private": {
                     "key": "privée"
                 },
                 "allows-pd": {
-                    "key": "autorise-dp"
+                    "key": "autorise-dp",
+                    "hint": ""
                 }
             }
         }

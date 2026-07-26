@@ -95,14 +95,6 @@
                 "view_private_discussions-when-flagged": "Przeglądanie prywatnych dyskusji innych użytkowników, jeśli ktoś je zgłosił"
             },
             "settings": {
-                "general": {
-                    "heading": "Ogólne ustawienia",
-                    "help": "Te ustawienia kontrolują podstawowe funkcje Byobu."
-                },
-                "icon": {
-                    "heading": "Ustawienia ikon",
-                    "help": "Te ustawienia kontrolują ikony używane przez forum."
-                },
                 "badge-icon": "Ikona w etykiecie dyskusji Byobu",
                 "enable-make-public-option": "Włącz możliwość upublicznienia prywatnej dyskusji",
                 "enable-make-public-option-help": "Dodaje możliwość, aby osoby z uprawnieniami mogły usunąć wszystkich uczestników, przypisać nowy tag i uczynić dyskusję publicznie widoczną (zgodnie z ustawieniami widoczności wybranego tagu).",
@@ -110,7 +102,15 @@
                 "delete_on_last_recipient_left": "Usuń prywatną dyskusję po tym, jak ostatni uczestnik ją opuści",
                 "delete_on_last_recipient_left_help": "Jeśli włączone, prywatne dyskusje zostaną nieodwracalnie usunięte, gdy ostatni uczestnik opuści dyskusję. W innym wypadku prywatne dyskusje zostaną ukryte (soft deleted).",
                 "hide_from_all_discussions_page": "Ukryj prywatne dyskusje z podstrony \"Wszystkie dyskusje\"",
-                "hide_from_all_discussions_page_help": "Prywatne dyskusje będą dostępne jedynie na podstronie \"Prywatne dyskusje\" lub w profilu użytkownika"
+                "hide_from_all_discussions_page_help": "Prywatne dyskusje będą dostępne jedynie na podstronie \"Prywatne dyskusje\" lub w profilu użytkownika",
+                "general": {
+                    "heading": "Ogólne ustawienia",
+                    "help": "Te ustawienia kontrolują podstawowe funkcje Byobu."
+                },
+                "icon": {
+                    "heading": "Ustawienia ikon",
+                    "help": "Te ustawienia kontrolują ikony używane przez forum."
+                }
             }
         },
         "email": {
@@ -131,13 +131,15 @@
         "lib": {
             "gambits": {
                 "byobu": {
-                    "key": ""
+                    "key": "",
+                    "hint": ""
                 },
                 "private": {
                     "key": ""
                 },
                 "allows-pd": {
-                    "key": ""
+                    "key": "",
+                    "hint": ""
                 }
             }
         }

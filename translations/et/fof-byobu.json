@@ -95,14 +95,6 @@
                 "view_private_discussions-when-flagged": "Teiste kasutajate privaatsete vestluste vaatamine, kui see on sobimatuks märgitud"
             },
             "settings": {
-                "general": {
-                    "heading": "Üldised seaded",
-                    "help": "Need seaded juhivad byobu peamisi funktsioone."
-                },
-                "icon": {
-                    "heading": "Ikooni seaded",
-                    "help": "Need seaded määravad foorumis kasutatavad byobu ikoonid."
-                },
                 "badge-icon": "Byobu vestluse märk",
                 "enable-make-public-option": "Lülita sisse võimalus teha vestlusi avalikuks",
                 "enable-make-public-option-help": "Lisab neile, kel on selleks õigus, võimaluse eemaldada kõiki osalejaid, määrata uusi silte ja teha vestlus avalikuks (vastavalt valitud sildi nähtavuse seadetele).",
@@ -110,7 +102,15 @@
                 "delete_on_last_recipient_left": "Kustutab privaatse vestluse, kui viimane kasutaja lahkub",
                 "delete_on_last_recipient_left_help": "Kui see valik on sisse lülitatud, siis privaatsed vestlused kustutatakse jäädavalt andmebaasist, kui viimane kasutaja sellest lahkub. Kui see valik pole sisse lülitatud, siis vestlused pannakse prügikasti või peidetakse.",
                 "hide_from_all_discussions_page": "Peida privaatsed vestlused \"Kõigi vestluste\" lehelt",
-                "hide_from_all_discussions_page_help": "Privaatsed vestlused on saadaval ainult \"Privaatsete vestluste\" lehelt kasutajaprofiilil"
+                "hide_from_all_discussions_page_help": "Privaatsed vestlused on saadaval ainult \"Privaatsete vestluste\" lehelt kasutajaprofiilil",
+                "general": {
+                    "heading": "Üldised seaded",
+                    "help": "Need seaded juhivad byobu peamisi funktsioone."
+                },
+                "icon": {
+                    "heading": "Ikooni seaded",
+                    "help": "Need seaded määravad foorumis kasutatavad byobu ikoonid."
+                }
             }
         },
         "email": {
@@ -131,13 +131,15 @@
         "lib": {
             "gambits": {
                 "byobu": {
-                    "key": ""
+                    "key": "",
+                    "hint": ""
                 },
                 "private": {
                     "key": ""
                 },
                 "allows-pd": {
-                    "key": ""
+                    "key": "",
+                    "hint": ""
                 }
             }
         }

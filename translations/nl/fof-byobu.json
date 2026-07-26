@@ -95,14 +95,6 @@
                 "view_private_discussions-when-flagged": "Bekijk privégesprekken van andere gebruikers indien gemarkeerd"
             },
             "settings": {
-                "general": {
-                    "heading": "Algemene instellingen",
-                    "help": "Met deze instellingen bepaalt u de basisfuncties van byobu."
-                },
-                "icon": {
-                    "heading": "Icooninstellingen",
-                    "help": "Deze instellingen bepalen welke byobu iconen op het forum worden gebruikt."
-                },
                 "badge-icon": "Badge voor privégesprekken",
                 "enable-make-public-option": "Schakel de mogelijkheid \"openbaar maken\" in",
                 "enable-make-public-option-help": "Voegt de mogelijkheid toe voor degenen met toestemming om alle ontvangers te verwijderen, een nieuwe tag toe te wijzen en het gesprek openbaar zichtbaar te maken (volgens de zichtbaarheidsinstellingen van de gekozen tag).",
@@ -110,7 +102,15 @@
                 "delete_on_last_recipient_left": "Verwijder privégesprekken wanneer de laatste gebruiker vertrekt",
                 "delete_on_last_recipient_left_help": "Indien ingeschakeld worden privégesprekken permanent uit de database verwijderd wanneer de laatste gebruiker vertrekt. Anders worden privégesprekken tijdelijk verwijderd/verborgen.",
                 "hide_from_all_discussions_page": "Verberg privégesprekken van de pagina \"Alle discussies\"",
-                "hide_from_all_discussions_page_help": "Privégesprekken zijn alleen toegankelijk via de pagina \"Privégesprekken\" of het gebruikersprofiel"
+                "hide_from_all_discussions_page_help": "Privégesprekken zijn alleen toegankelijk via de pagina \"Privégesprekken\" of het gebruikersprofiel",
+                "general": {
+                    "heading": "Algemene instellingen",
+                    "help": "Met deze instellingen bepaalt u de basisfuncties van byobu."
+                },
+                "icon": {
+                    "heading": "Icooninstellingen",
+                    "help": "Deze instellingen bepalen welke byobu iconen op het forum worden gebruikt."
+                }
             }
         },
         "email": {
@@ -131,13 +131,15 @@
         "lib": {
             "gambits": {
                 "byobu": {
-                    "key": ""
+                    "key": "",
+                    "hint": ""
                 },
                 "private": {
                     "key": ""
                 },
                 "allows-pd": {
-                    "key": ""
+                    "key": "",
+                    "hint": ""
                 }
             }
         }

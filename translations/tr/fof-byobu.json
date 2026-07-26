@@ -95,14 +95,6 @@
                 "view_private_discussions-when-flagged": "Kullanıcıların bildirdiği özel tarışmaları görüntüle"
             },
             "settings": {
-                "general": {
-                    "heading": "Genel Ayarlar",
-                    "help": "Bu ayarlar Byobu'nun temel özelliklerini kontrol eder."
-                },
-                "icon": {
-                    "heading": "Simge Ayarları",
-                    "help": "Bu ayarlar Byobu'nun forumda kullandığı ikonları kontrol eder."
-                },
                 "badge-icon": "Byobu Tartışma Rozeti",
                 "enable-make-public-option": "\"Herkese açık hale getir\" özelliğini etkinleştirin",
                 "enable-make-public-option-help": "Tüm alıcıları kaldırma, yeni bir etiket atama ve tartışmayı herkese açık hale getirme (seçilen etiketin görünürlük ayarlarına göre) izni olanlara yetenek ekler.",
@@ -110,7 +102,15 @@
                 "delete_on_last_recipient_left": "Son kullanıcı ayrıldığında PD'leri silin",
                 "delete_on_last_recipient_left_help": "Etkinleştirilirse, son kullanıcı ayrıldığında PD'ler veritabanından kalıcı olarak silinir. Aksi takdirde, PD geçici olarak silinir/gizlenir.",
                 "hide_from_all_discussions_page": "PM'leri \"Tüm Tartışmalar\" sayfasından gizle",
-                "hide_from_all_discussions_page_help": "Özel tartışmalara yalnızca \"Özel Tartışmalar\" sayfasından veya kullanıcı profilinden erişilebilir"
+                "hide_from_all_discussions_page_help": "Özel tartışmalara yalnızca \"Özel Tartışmalar\" sayfasından veya kullanıcı profilinden erişilebilir",
+                "general": {
+                    "heading": "Genel Ayarlar",
+                    "help": "Bu ayarlar Byobu'nun temel özelliklerini kontrol eder."
+                },
+                "icon": {
+                    "heading": "Simge Ayarları",
+                    "help": "Bu ayarlar Byobu'nun forumda kullandığı ikonları kontrol eder."
+                }
             }
         },
         "email": {
@@ -131,13 +131,15 @@
         "lib": {
             "gambits": {
                 "byobu": {
-                    "key": "byobu"
+                    "key": "byobu",
+                    "hint": ""
                 },
                 "private": {
                     "key": "gizli"
                 },
                 "allows-pd": {
-                    "key": "özel sohbetlere olanak tanı"
+                    "key": "özel sohbetlere olanak tanı",
+                    "hint": ""
                 }
             }
         }

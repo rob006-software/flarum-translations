@@ -95,14 +95,6 @@
                 "view_private_discussions-when-flagged": "Visa privata diskussioner med andra användare om de är flaggade"
             },
             "settings": {
-                "general": {
-                    "heading": "Allmänna inställningar",
-                    "help": "Dessa inställningar styr de grundläggande funktionerna i byobun."
-                },
-                "icon": {
-                    "heading": "Ikoninställningar",
-                    "help": "Dessa inställningar kontrollerar ikonerna som används för byobu på forumet."
-                },
                 "badge-icon": "Byobu-diskussionsmärke",
                 "enable-make-public-option": "Aktivera möjligheten att \"publicera\"",
                 "enable-make-public-option-help": "Lägger till möjligheten för de som har behörighet att ta bort alla mottagare, tilldela en ny tagg och göra diskussionen offentligt synlig (enligt synlighetsinställningarna för den valda taggen).",
@@ -110,7 +102,15 @@
                 "delete_on_last_recipient_left": "Ta bort Privata Diskussioner när den sista användaren lämnar",
                 "delete_on_last_recipient_left_help": "Om aktiverat kommer PD:er att raderas permanent från databasen när den sista användaren lämnar. Annars kommer PD:n att raderas/döljas mjukt.",
                 "hide_from_all_discussions_page": "Dölj PD:er från sidan \"Alla diskussioner\"",
-                "hide_from_all_discussions_page_help": "Privata diskussioner kommer endast att vara tillgängliga från sidan \"Privata diskussioner\" eller användarprofilen."
+                "hide_from_all_discussions_page_help": "Privata diskussioner kommer endast att vara tillgängliga från sidan \"Privata diskussioner\" eller användarprofilen.",
+                "general": {
+                    "heading": "Allmänna inställningar",
+                    "help": "Dessa inställningar styr de grundläggande funktionerna i byobun."
+                },
+                "icon": {
+                    "heading": "Ikoninställningar",
+                    "help": "Dessa inställningar kontrollerar ikonerna som används för byobu på forumet."
+                }
             }
         },
         "email": {
@@ -131,13 +131,15 @@
         "lib": {
             "gambits": {
                 "byobu": {
-                    "key": ""
+                    "key": "",
+                    "hint": ""
                 },
                 "private": {
                     "key": ""
                 },
                 "allows-pd": {
-                    "key": ""
+                    "key": "",
+                    "hint": ""
                 }
             }
         }

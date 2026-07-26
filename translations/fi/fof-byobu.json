@@ -95,14 +95,6 @@
                 "view_private_discussions-when-flagged": "Nähdä muiden yksityiset keskustelut jos raportoitu"
             },
             "settings": {
-                "general": {
-                    "heading": "Yleiset asetukset",
-                    "help": "Näillä asetuksilla hallitaan Byobun perusominaisuuksia."
-                },
-                "icon": {
-                    "heading": "Ikonien asetukset",
-                    "help": "Näillä asetuksilla hallitaan Byobun käyttämiä ikoneita foorumilla."
-                },
                 "badge-icon": "Byobu keskusteluikoni",
                 "enable-make-public-option": "Ota käyttöön \"tee julkiseksi\" ominaisuus",
                 "enable-make-public-option-help": "Ottaa käyttöön mahdollisuuden niille joilla on oikeus: poistaa kaikki vastaanottajat ja asettaa uuden avainsanan sekä asettaa keskustelun julkiseksi (riippuen avainsanan näkyvyysasetuksista).",
@@ -110,7 +102,15 @@
                 "delete_on_last_recipient_left": "Poista yksityiset keskustelut, kun viimeinen käyttäjä lähtee",
                 "delete_on_last_recipient_left_help": "Jos käytössä, yksityiset keskustelut poistetaan pysyvästi tietokannasta, kun viimeinen käyttäjä lähtee. Muuten, keskustelut piilotetaan.",
                 "hide_from_all_discussions_page": "Piilota yksityiset viestit \"Kaikki keskustelut\" sivulta",
-                "hide_from_all_discussions_page_help": "Yksityiset keskustelut näkyvät vain \"Yksityiset keskustelut\" sivulla tai käyttäjän profiilissa"
+                "hide_from_all_discussions_page_help": "Yksityiset keskustelut näkyvät vain \"Yksityiset keskustelut\" sivulla tai käyttäjän profiilissa",
+                "general": {
+                    "heading": "Yleiset asetukset",
+                    "help": "Näillä asetuksilla hallitaan Byobun perusominaisuuksia."
+                },
+                "icon": {
+                    "heading": "Ikonien asetukset",
+                    "help": "Näillä asetuksilla hallitaan Byobun käyttämiä ikoneita foorumilla."
+                }
             }
         },
         "email": {
@@ -131,13 +131,15 @@
         "lib": {
             "gambits": {
                 "byobu": {
-                    "key": "byobu"
+                    "key": "byobu",
+                    "hint": ""
                 },
                 "private": {
                     "key": "yksityinen"
                 },
                 "allows-pd": {
-                    "key": "sallii-pd"
+                    "key": "sallii-pd",
+                    "hint": ""
                 }
             }
         }

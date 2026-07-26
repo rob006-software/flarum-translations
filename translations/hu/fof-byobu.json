@@ -95,14 +95,6 @@
                 "view_private_discussions-when-flagged": "Más felhasználók privát témáinak megjelenítése, ha jelentették"
             },
             "settings": {
-                "general": {
-                    "heading": "Általános beállítások",
-                    "help": "Ezek a beállítások vezérlik a byobu alapvető funkcióit."
-                },
-                "icon": {
-                    "heading": "Ikonbeállítások",
-                    "help": "Ezek a beállítások vezérlik a byobu által használt ikonokat a fórumban."
-                },
                 "badge-icon": "Byobu témajelvény",
                 "enable-make-public-option": "Engedélyezi a „nyilvánossá tétel” lehetőséget",
                 "enable-make-public-option-help": "Lehetőséget ad az összes résztvevő eltávolítására, új címke hozzárendelésére, és arra, hogy nyilvánosan láthatóvá váljon a téma (a kiválasztott címke beállításai alapján).",
@@ -110,7 +102,15 @@
                 "delete_on_last_recipient_left": "Privát témák törlése, ha az utolsó felhasználó kilép",
                 "delete_on_last_recipient_left_help": "Ha be van kapcsolva, akkor a privát témák véglegesen törlődnek az adatbázisból, ha az utolsó felhasználó kilép. Különben a privát téma el lesz rejtve.",
                 "hide_from_all_discussions_page": "Privát témák elrejtése az „Összes téma” oldalon",
-                "hide_from_all_discussions_page_help": "A privát témák csak a „Privát témák” oldalon vagy a felhasználói profilon lesznek elérhetők"
+                "hide_from_all_discussions_page_help": "A privát témák csak a „Privát témák” oldalon vagy a felhasználói profilon lesznek elérhetők",
+                "general": {
+                    "heading": "Általános beállítások",
+                    "help": "Ezek a beállítások vezérlik a byobu alapvető funkcióit."
+                },
+                "icon": {
+                    "heading": "Ikonbeállítások",
+                    "help": "Ezek a beállítások vezérlik a byobu által használt ikonokat a fórumban."
+                }
             }
         },
         "email": {
@@ -131,13 +131,15 @@
         "lib": {
             "gambits": {
                 "byobu": {
-                    "key": "byobu"
+                    "key": "byobu",
+                    "hint": ""
                 },
                 "private": {
                     "key": "privát"
                 },
                 "allows-pd": {
-                    "key": "pt-engedélyezve"
+                    "key": "pt-engedélyezve",
+                    "hint": ""
                 }
             }
         }
