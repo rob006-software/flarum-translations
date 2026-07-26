@@ -1080,7 +1080,6 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`gbcl-userip`](https://weblate.rob006.net/projects/flarum/gbcl-userip) | [`gbcl/userip`](https://github.com/GBCLStudio/userip) |
 | [`glowingblue-author-filter`](https://weblate.rob006.net/projects/flarum/glowingblue-author-filter) | [`glowingblue/author-filter`](https://github.com/glowingblue/flarum-ext-author-filter) |
 | [`glowingblue-password-strength`](https://weblate.rob006.net/projects/flarum/glowingblue-password-strength) | [`glowingblue/password-strength`](https://github.com/glowingblue/flarum-ext-password-strength) |
-| [`glowingblue-redis-setup`](https://weblate.rob006.net/projects/flarum/glowingblue-redis-setup) | [`glowingblue/redis-setup`](https://github.com/glowingblue/flarum-ext-redis-setup) |
 | [`gtdxyz-badges`](https://weblate.rob006.net/projects/flarum/gtdxyz-badges) | [`gtdxyz/flarum-ext-badges`](https://github.com/daocatt/flarum-ext-badges) |
 | [`gtdxyz-login`](https://weblate.rob006.net/projects/flarum/gtdxyz-login) | [`gtdxyz/flarum-ext-login`](https://github.com/daocatt/flarum-ext-login) |
 | [`hehongyuanlove-auth-qq`](https://weblate.rob006.net/projects/flarum/hehongyuanlove-auth-qq) | [`hehongyuanlove/flarum-auth-qq`](https://github.com/Hehongyuanlove/flarum-auth-qq) |
@@ -1093,7 +1092,6 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`huseyinfiliz-custom-profile-page`](https://weblate.rob006.net/projects/flarum/huseyinfiliz-custom-profile-page) | [`huseyinfiliz/custom-profile-page`](https://github.com/huseyinfiliz/custom-profile-page) |
 | [`huseyinfiliz-flagify`](https://weblate.rob006.net/projects/flarum/huseyinfiliz-flagify) | [`huseyinfiliz/flagify`](https://github.com/huseyinfiliz/flagify) |
 | [`huseyinfiliz-diff`](https://weblate.rob006.net/projects/flarum/huseyinfiliz-diff) | [`huseyinfiliz/flarum-diff`](https://github.com/huseyinfiliz/flarum-diff) |
-| [`huseyinfiliz-guest`](https://weblate.rob006.net/projects/flarum/huseyinfiliz-guest) | [`huseyinfiliz/guest`](https://github.com/huseyinfiliz/guest) |
 | [`huseyinfiliz-leaderboard`](https://weblate.rob006.net/projects/flarum/huseyinfiliz-leaderboard) | [`huseyinfiliz/leaderboard`](https://github.com/huseyinfiliz/leaderboard) |
 | [`huseyinfiliz-modern-footer`](https://weblate.rob006.net/projects/flarum/huseyinfiliz-modern-footer) | [`huseyinfiliz/modern-footer`](https://github.com/huseyinfiliz/modern-footer) |
 | [`huseyinfiliz-notificationhub`](https://weblate.rob006.net/projects/flarum/huseyinfiliz-notificationhub) | [`huseyinfiliz/notificationhub`](https://github.com/huseyinfiliz/notificationhub) |
@@ -1177,7 +1175,6 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`justoverclock-users-map-location`](https://weblate.rob006.net/projects/flarum/justoverclock-users-map-location) | [`justoverclock/users-map-location`](https://github.com/justoverclockl/users-map-location) |
 | [`justoverclock-youtube-video-feed`](https://weblate.rob006.net/projects/flarum/justoverclock-youtube-video-feed) | [`justoverclock/youtube-video-feed`](https://github.com/justoverclockl/youtube-video-feed) |
 | [`katosdev-signature`](https://weblate.rob006.net/projects/flarum/katosdev-signature) | [`katosdev/signature`](https://github.com/katosdev/signature) |
-| [`kilowhat-audit-free`](https://weblate.rob006.net/projects/flarum/kilowhat-audit-free) | [`kilowhat/flarum-ext-audit-free`](https://github.com/kilowhat/flarum-ext-audit-free) |
 | [`klxf-maintenance`](https://weblate.rob006.net/projects/flarum/klxf-maintenance) | [`klxf/flarum-maintenance`](https://github.com/klxf/flarum-maintenance) |
 | [`krombox-oauth-wordpress`](https://weblate.rob006.net/projects/flarum/krombox-oauth-wordpress) | [`krombox/flarum-ext-oauth-wordpress`](https://github.com/krombox/flarum-ext-oauth-wordpress) |
 | [`linkrobins-birdseye`](https://weblate.rob006.net/projects/flarum/linkrobins-birdseye) | [`linkrobins/birdseye`](https://github.com/linkrobins/birdseye) |
