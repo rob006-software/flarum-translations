@@ -359,27 +359,22 @@ Por favor, <del>espera...</del><ins>espere...</ins>
 
 ```diff
 -¡Hola {username}!
--
--Alguien (¡espero que tú!) se ha registrado en {forum} con esta dirección de correo electrónico.
--
--Si has sido tú, simplemente haz clic en el siguiente enlace y tu cuenta se activará:
--{url}
--
--Si no te has registrado, ignora este correo electrónico.
--
 +¡Hola, {username}!
-+
+
+-Alguien (¡espero que tú!) se ha registrado en {forum} con esta dirección de correo electrónico.
 +Alguien se ha registrado como usuario en {forum} con esta dirección de correo electrónico.
-+
+
+-Si has sido tú, simplemente haz clic en el siguiente enlace y tu cuenta se activará:
 +Si efectivamente ha sido usted, por favor, haga click en el siguiente enlace y su cuenta de usuario será activada:
-+{url}
-+
+ {url}
+
+-Si no te has registrado, ignora este correo electrónico.
 +Si por el contrario no ha sido usted, por favor, ignore este correo electrónico.
 +
 +Reciba un cordial saludo,
 +
 +El Equipo de {forum}
-+
+
 ```
 
 <del>¡Hola</del><ins>¡Hola,</ins> {username}!<br /><br />Alguien<del> (¡espero que tú!)</del> se ha registrado<ins> como usuario</ins> en {forum} con esta dirección de correo electrónico.<br /><br />Si <del>has</del><ins>efectivamente ha</ins> sido <del>tú,</del><ins>usted,</ins> <del>simplemente</del><ins>por</ins> <del>haz</del><ins>favor,</ins> <del>clic</del><ins>haga click</ins> en el siguiente enlace y <del>tu</del><ins>su</ins> cuenta <del>se</del><ins>de</ins> <del>activará:</del><ins>usuario será activada:</ins><br />{url}<br /><br />Si<ins> por el contrario</ins> no <del>te</del><ins>ha</ins> <del>has</del><ins>sido</ins> <del>registrado,</del><ins>usted,</ins> <del>ignora</del><ins>por favor, ignore</ins> este correo electrónico.<ins><br /><br />Reciba un cordial saludo,<br /><br />El Equipo de {forum}</ins><br />
@@ -409,27 +404,22 @@ Por favor, <del>espera...</del><ins>espere...</ins>
 
 ```diff
 -¡Hola {username}!
--
--Alguien (¡espero que tú!) ha cambiado su dirección de correo electrónico en {forum} por esta.
--
--Si has sido tú, simplemente haz clic en el siguiente enlace y tu correo electrónico será confirmado:
--{url}
--
--Si no has sido tú, por favor ignora este email.
--
 +¡Hola, {username}!
-+
+
+-Alguien (¡espero que tú!) ha cambiado su dirección de correo electrónico en {forum} por esta.
 +Alguien se ha registrado como usuario en {forum} con Su dirección de correo electrónico.
-+
+
+-Si has sido tú, simplemente haz clic en el siguiente enlace y tu correo electrónico será confirmado:
 +Si efectivamente ha sido usted, por favor, haga click en el siguiente enlace para confirmar tu dirección de correo electrónico:
-+{url}
-+
+ {url}
+
+-Si no has sido tú, por favor ignora este email.
 +Si por el contrario no ha sido usted, por favor, ignore este correo electrónico.
 +
 +Reciba un cordial saludo,
 +
 +El Equipo de {forum}
-+
+
 ```
 
 <del>¡Hola</del><ins>¡Hola,</ins> {username}!<br /><br />Alguien<del> (¡espero que</del> <del>tú!)</del><ins>se</ins> ha <del>cambiado</del><ins>registrado</ins> <del>su</del><ins>como</ins> <del>dirección</del><ins>usuario</ins> <del>de</del><ins>en</ins> <del>correo</del><ins>{forum}</ins> <del>electrónico</del><ins>con</ins> <del>en</del><ins>Su</ins> <del>{forum}</del><ins>dirección</ins> <del>por</del><ins>de</ins> <del>esta.</del><ins>correo electrónico.</ins><br /><br />Si <del>has</del><ins>efectivamente ha</ins> sido <del>tú,</del><ins>usted,</ins> <del>simplemente</del><ins>por</ins> <del>haz</del><ins>favor,</ins> <del>clic</del><ins>haga click</ins> en el siguiente enlace <del>y</del><ins>para confirmar</ins> tu <del>correo</del><ins>dirección</ins> <del>electrónico</del><ins>de</ins> <del>será</del><ins>correo</ins> <del>confirmado:</del><ins>electrónico:</ins><br />{url}<br /><br />Si<ins> por el contrario</ins> no <del>has</del><ins>ha</ins> sido <del>tú,</del><ins>usted,</ins> por <del>favor</del><ins>favor,</ins> <del>ignora</del><ins>ignore</ins> este <del>email.</del><ins>correo electrónico.<br /><br />Reciba un cordial saludo,<br /><br />El Equipo de {forum}</ins><br />
@@ -459,27 +449,22 @@ Por favor, <del>espera...</del><ins>espere...</ins>
 
 ```diff
 -¡Hola {username}!
--
--Alguien (¡espero que tú!) ha enviado una solicitud de contraseña olvidada para tu cuenta en {forum}.
--
--Si has sido tú, haz clic en el siguiente enlace para restablecer tu contraseña:
--{url}
--
--Si no deseas cambiar tu contraseña, simplemente ignora este correo electrónico y no pasará nada.
--
 +¡Hola, {username}!
-+
+
+-Alguien (¡espero que tú!) ha enviado una solicitud de contraseña olvidada para tu cuenta en {forum}.
 +Alguien ha enviado una solicitud para restablecer la contraseña de su cuenta de usuario en {forum}.
-+
+
+-Si has sido tú, haz clic en el siguiente enlace para restablecer tu contraseña:
 +Si efectivamente ha sido usted, por favor, haga click en el siguiente enlace para restablecer tu contraseña:
-+{url}
-+
+ {url}
+
+-Si no deseas cambiar tu contraseña, simplemente ignora este correo electrónico y no pasará nada.
 +Si por el contrario no ha sido usted, por favor, ignore este correo electrónico.
 +
 +Reciba un cordial saludo,
 +
 +El Equipo de {forum}
-+
+
 ```
 
 <del>¡Hola</del><ins>¡Hola,</ins> {username}!<br /><br />Alguien<del> (¡espero que tú!)</del> ha enviado una solicitud <del>de</del><ins>para</ins> <del>contraseña</del><ins>restablecer</ins> <del>olvidada</del><ins>la</ins> <del>para</del><ins>contraseña</ins> <del>tu</del><ins>de su</ins> cuenta<ins> de usuario</ins> en {forum}.<br /><br />Si <del>has</del><ins>efectivamente ha</ins> sido <del>tú,</del><ins>usted,</ins> <del>haz</del><ins>por</ins> <del>clic</del><ins>favor, haga click</ins> en el siguiente enlace para restablecer tu contraseña:<br />{url}<br /><br />Si<ins> por el contrario</ins> no <del>deseas</del><ins>ha</ins> <del>cambiar</del><ins>sido</ins> <del>tu</del><ins>usted,</ins> <del>contraseña,</del><ins>por</ins> <del>simplemente</del><ins>favor,</ins> <del>ignora</del><ins>ignore</ins> este correo <del>electrónico</del><ins>electrónico.<br /><br />Reciba</ins> <del>y</del><ins>un</ins> <del>no</del><ins>cordial</ins> <del>pasará</del><ins>saludo,<br /><br />El</ins> <del>nada.</del><ins>Equipo de {forum}</ins><br />
@@ -496,22 +481,16 @@ Por favor, <del>espera...</del><ins>espere...</ins>
 >
 
 ```diff
--Hey {username}!
--
--Este es un correo electrónico de prueba para confirmar que la configuración de Flarum funciona correctamente.
--
+ Hey {username}!
+
+ Este es un correo electrónico de prueba para confirmar que la configuración de Flarum funciona correctamente.
+
 -Si fuiste tú, este correo electrónico significa que su configuración funciona.
--
--Si no fuiste tú, ignora este correo electrónico.
--
-+Hey {username}!
-+
-+Este es un correo electrónico de prueba para confirmar que la configuración de Flarum funciona correctamente.
-+
 +Si fué usted, este correo electrónico significa que su configuración funciona.
-+
+
+-Si no fuiste tú, ignora este correo electrónico.
 +Si no ha sido usted, ignore este correo electrónico.
-+
+
 ```
 
 Hey {username}!<br /><br />Este es un correo electrónico de prueba para confirmar que la configuración de Flarum funciona correctamente.<br /><br />Si <del>fuiste</del><ins>fué</ins> <del>tú,</del><ins>usted,</ins> este correo electrónico significa que su configuración funciona.<br /><br />Si no <del>fuiste</del><ins>ha</ins> <del>tú,</del><ins>sido</ins> <del>ignora</del><ins>usted, ignore</ins> este correo electrónico.<br />
@@ -1143,9 +1122,8 @@ El tipo de paquetes que se permite instalar. No <del>cambies</del><ins>cambie</i
 
 ```diff
 -Añade repositorios adicionales desde los que instalar paquetes. Esta es una característica avanzada, no añadas repositorios que no sean de confianza, ya que pueden ser utilizados para ejecutar código malicioso en tu servidor.
--
 +Añada repositorios adicionales desde los que instalar paquetes. Esta es una característica avanzada, no añada repositorios que no sean de confianza, ya que pueden ser utilizados para ejecutar código malicioso en su servidor.
-+
+
 ```
 
 <del>Añade</del><ins>Añada</ins> repositorios adicionales desde los que instalar paquetes. Esta es una característica avanzada, no <del>añadas</del><ins>añada</ins> repositorios que no sean de confianza, ya que pueden ser utilizados para ejecutar código malicioso en <del>tu</del><ins>su</ins> servidor.<br />
@@ -1157,9 +1135,8 @@ El tipo de paquetes que se permite instalar. No <del>cambies</del><ins>cambie</i
 
 ```diff
 -Algunas extensiones instaladas no son compatibles con la versión principal más reciente. Espera a que los autores actualicen las extensiones para que sean compatibles o elimínalas antes de continuar.
--
 +Algunas extensiones instaladas no son compatibles con la versión principal más reciente. Espere a que los autores actualicen las extensiones para que sean compatibles o elimínelas antes de continuar.
-+
+
 ```
 
 Algunas extensiones instaladas no son compatibles con la versión principal más reciente. <del>Espera</del><ins>Espere</ins> a que los autores actualicen las extensiones para que sean compatibles o <del>elimínalas</del><ins>elimínelas</ins> antes de continuar.<br />
@@ -1171,9 +1148,8 @@ Algunas extensiones instaladas no son compatibles con la versión principal más
 
 ```diff
 -Completa el nombre del paquete de extensión para continuar. Puedes especificar una <semantic_link>versión semántica</semantic_link> utilizando el formato <code>vendor/nombre-del-paquete:versión</code>. Visita {extiverse} para explorar extensiones.
--
 +Complete el nombre del paquete de extensión para continuar. Puede especificar una <semantic_link>versión semántica</semantic_link> utilizando el formato <code>vendor/nombre-del-paquete:versión</code>. Visite {extiverse} para explorar extensiones.
-+
+
 ```
 
 <del>Completa</del><ins>Complete</ins> el nombre del paquete de extensión para continuar. <del>Puedes</del><ins>Puede</ins> especificar una &lt;semantic\_link&gt;versión semántica&lt;/semantic\_link&gt; utilizando el formato &lt;code&gt;vendor/nombre-del-paquete:versión&lt;/code&gt;. <del>Visita</del><ins>Visite</ins> {extiverse} para explorar extensiones.<br />
@@ -1185,9 +1161,8 @@ Algunas extensiones instaladas no son compatibles con la versión principal más
 
 ```diff
 -Las actualizaciones mayores de Flarum no son compatibles con versiones anteriores, lo que significa que algunas de tus extensiones instaladas actualmente y las modificaciones realizadas manualmente podrían no funcionar con esta nueva versión. Por favor, asegúrate de hacer una copia de seguridad de tu base de datos y archivos antes de proceder.
--
 +Las actualizaciones mayores de Flarum no son compatibles con versiones anteriores, lo que significa que algunas de sus extensiones instaladas actualmente y las modificaciones realizadas manualmente podrían no funcionar con esta nueva versión. Por favor, asegúrese de hacer una copia de seguridad de su base de datos y archivos antes de proceder.
-+
+
 ```
 
 Las actualizaciones mayores de Flarum no son compatibles con versiones anteriores, lo que significa que algunas de <del>tus</del><ins>sus</ins> extensiones instaladas actualmente y las modificaciones realizadas manualmente podrían no funcionar con esta nueva versión. Por favor, <del>asegúrate</del><ins>asegúrese</ins> de hacer una copia de seguridad de <del>tu</del><ins>su</ins> base de datos y archivos antes de proceder.<br />
@@ -1232,9 +1207,8 @@ Por favor, <del>ten</del><ins>tenga</ins> cuidado a quién le <del>das</del><ins
 
 ```diff
 -Puedes leer sobre una <a href='{basic_impl_link}'>implementación básica</a> de una cola o una <a href='{adv_impl_link}'>más avanzada</a>. Asegúrate de que la versión de PHP utilizada para la cola sea {php_version}. Asegúrate de que los <a href='{folder_perms_link}'>permisos de las carpetas</a> estén configurados correctamente.
--
 +Puede leer sobre una <a href='{basic_impl_link}'>implementación básica</a> de una cola o una <a href='{adv_impl_link}'>más avanzada</a>. Asegúrese de que la versión de PHP utilizada para la cola sea {php_version}. Asegúrese de que los <a href='{folder_perms_link}'>permisos de las carpetas</a> estén configurados correctamente.
-+
+
 ```
 
 <del>Puedes</del><ins>Puede</ins> leer sobre una &lt;a href='{basic\_impl\_link}'&gt;implementación básica&lt;/a&gt; de una cola o una &lt;a href='{adv\_impl\_link}'&gt;más avanzada&lt;/a&gt;. <del>Asegúrate</del><ins>Asegúrese</ins> de que la versión de PHP utilizada para la cola sea {php\_version}. <del>Asegúrate</del><ins>Asegúrese</ins> de que los &lt;a href='{folder\_perms\_link}'&gt;permisos de las carpetas&lt;/a&gt; estén configurados correctamente.<br />
@@ -1370,26 +1344,17 @@ Alguien cerró una discusión que <del>tú</del><ins>usted</ins> <del>creaste</d
 >
 
 ```diff
--Hey {recipient_display_name}!
--
+ Hey {recipient_display_name}!
+
 -{replier_display_name} respondió a tu publicación (#{post_number}) en {title}.
--
--{url}
--
-----
--
--{content}
--
-+Hey {recipient_display_name}!
-+
 +{replier_display_name} respondió a su publicación (#{post_number}) en {title}.
-+
-+{url}
-+
-+---
-+
-+{content}
-+
+
+ {url}
+
+ ---
+
+ {content}
+
 ```
 
 Hey {recipient\_display\_name}!<br /><br />{replier\_display\_name} respondió a <del>tu</del><ins>su</ins> publicación (#{post\_number}) en {title}.<br /><br />{url}<br /><br />---<br /><br />{content}<br />
@@ -1419,26 +1384,17 @@ Hey {recipient\_display\_name}!<br /><br />{replier\_display\_name} respondió a
 >
 
 ```diff
--Hey {recipient_display_name}!
--
+ Hey {recipient_display_name}!
+
 -{mencioner_display_name} te mencionó en una publicación en {title}.
--
--{url}
--
-----
--
--{content}
--
-+Hey {recipient_display_name}!
-+
 +{mencioner_display_name} le mencionó en una publicación en {title}.
-+
-+{url}
-+
-+---
-+
-+{content}
-+
+
+ {url}
+
+ ---
+
+ {content}
+
 ```
 
 Hey {recipient\_display\_name}!<br /><br />{mencioner\_display\_name} <del>te</del><ins>le</ins> mencionó en una publicación en {title}.<br /><br />{url}<br /><br />---<br /><br />{content}<br />
@@ -1590,36 +1546,23 @@ Alguien <del>te</del><ins>le</ins> mencionó en una publicación
 >
 
 ```diff
--Hey {recipient_display_name}!
--
+ Hey {recipient_display_name}!
+
 -{poster_display_name} hizo una publicación en una discusión que estás siguiendo: {title}.
--
--Para ver la nueva actividad, consulte el siguiente enlace:
--{url}
--
-----
--
--{content}
--
-----
--
--No recibirás más notificaciones sobre esta discusión hasta que estés al tanto de las novedades.
--
-+Hey {recipient_display_name}!
-+
 +{poster_display_name} hizo una publicación en una discusión que usted está siguiendo: {title}.
-+
-+Para ver la nueva actividad, consulte el siguiente enlace:
-+{url}
-+
-+---
-+
-+{content}
-+
-+---
-+
+
+ Para ver la nueva actividad, consulte el siguiente enlace:
+ {url}
+
+ ---
+
+ {content}
+
+ ---
+
+-No recibirás más notificaciones sobre esta discusión hasta que estés al tanto de las novedades.
 +No recibirá más notificaciones sobre esta discusión hasta que haya más actualizaciones.
-+
+
 ```
 
 Hey {recipient\_display\_name}!<br /><br />{poster\_display\_name} hizo una publicación en una discusión que <del>estás</del><ins>usted está</ins> siguiendo: {title}.<br /><br />Para ver la nueva actividad, consulte el siguiente enlace:<br />{url}<br /><br />---<br /><br />{content}<br /><br />---<br /><br />No <del>recibirás</del><ins>recibirá</ins> más notificaciones sobre esta discusión hasta que<del> estés al tanto</del> <del>de</del><ins>haya</ins> <del>las</del><ins>más</ins> <del>novedades.</del><ins>actualizaciones.</ins><br />
@@ -1865,9 +1808,8 @@ Editar las etiquetas para <del>{title}</del><ins>'{title}'</ins>
 
 ```diff
 -Introduce el nombre de alguna clase de <a>FontAwesome</a>, <em>incluyendo</em> el prefijo <code>fas fa-</code>.
--
 +Introduzca el nombre de alguna clase de <a>FontAwesome</a>, <em>incluyendo</em> el prefijo <code>fas fa-</code>.
-+
+
 ```
 
 <del>Introduce</del><ins>Introduzca</ins> el nombre de alguna clase de &lt;a&gt;FontAwesome&lt;/a&gt;, &lt;em&gt;incluyendo&lt;/em&gt; el prefijo &lt;code&gt;fas fa-&lt;/code&gt;.<br />
@@ -1879,9 +1821,8 @@ Editar las etiquetas para <del>{title}</del><ins>'{title}'</ins>
 
 ```diff
 -Consulta las <a>reglas de validación de Laravel</a>. Ej: "string|min:5" o "url".
--
 +Consulte las <a>reglas de validación de Laravel</a>. Ej: "string|min:5" o "url".
-+
+
 ```
 
 <del>Consulta</del><ins>Consulte</ins> las &lt;a&gt;reglas de validación de Laravel&lt;/a&gt;. Ej: "string\|min:5" o "url".<br />
@@ -1893,9 +1834,8 @@ Editar las etiquetas para <del>{title}</del><ins>'{title}'</ins>
 
 ```diff
 -Por favor completa los campos del perfil de usuario.
--
 +Por favor complete los campos del perfil de usuario.
-+
+
 ```
 
 Por favor <del>completa</del><ins>complete</ins> los campos del perfil de usuario.<br />

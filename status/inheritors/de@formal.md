@@ -323,14 +323,11 @@ Es konnte nicht in das Dateisystem geschrieben werden. <del>Überprüfe</del><in
 >
 
 ```diff
--Sofern der <code>Debugmodus</code> aktiv ist, wird Flarum seine <code>JavaScript</code> und <code>CSS</code> Ressourcen bei jedem Seitenabruf neu generieren und könnte zudem potenziell weitere Informationen preisgeben, etwa Datenbankgeheimnisse, Umgebungsvariablen usw.
--
+ Sofern der <code>Debugmodus</code> aktiv ist, wird Flarum seine <code>JavaScript</code> und <code>CSS</code> Ressourcen bei jedem Seitenabruf neu generieren und könnte zudem potenziell weitere Informationen preisgeben, etwa Datenbankgeheimnisse, Umgebungsvariablen usw.
+
 -Es wird dringend empfohlen, den <code>debug</code> in deiner <code>config.php</code> Datei in einem Produktionskontext zu deaktivieren. Konsultiere die <link>Flarum Dokumentation</link> für zusätzliche Informationen.
--
-+Sofern der <code>Debugmodus</code> aktiv ist, wird Flarum seine <code>JavaScript</code> und <code>CSS</code> Ressourcen bei jedem Seitenabruf neu generieren und könnte zudem potenziell weitere Informationen preisgeben, etwa Datenbankgeheimnisse, Umgebungsvariablen usw.
-+
 +Es wird dringendst empfohlen, den <code>debug</code> in Ihrer <code>config.php</code> Datei in einem Produktionskontext zu deaktivieren. Konsultieren Sie bitte die <link>Flarum Dokumentation</link> für zusätzliche Informationen.
-+
+
 ```
 
 Sofern der &lt;code&gt;Debugmodus&lt;/code&gt; aktiv ist, wird Flarum seine &lt;code&gt;JavaScript&lt;/code&gt; und &lt;code&gt;CSS&lt;/code&gt; Ressourcen bei jedem Seitenabruf neu generieren und könnte zudem potenziell weitere Informationen preisgeben, etwa Datenbankgeheimnisse, Umgebungsvariablen usw.<br /><br />Es wird <del>dringend</del><ins>dringendst</ins> empfohlen, den &lt;code&gt;debug&lt;/code&gt; in <del>deiner</del><ins>Ihrer</ins> &lt;code&gt;config.php&lt;/code&gt; Datei in einem Produktionskontext zu deaktivieren. <del>Konsultiere</del><ins>Konsultieren Sie bitte</ins> die &lt;link&gt;Flarum Dokumentation&lt;/link&gt; für zusätzliche Informationen.<br />
@@ -468,22 +465,15 @@ Eine paginierte Liste aller Benutzer in <del>deinem</del><ins>Ihrem</ins> Forum.
 >
 
 ```diff
--Hallo {username},
--
--Die folgenden installierte(n) Erweiterung(en) wurden als verwaist markiert:
--
--{extensions}
--
+ Hallo {username},
+
+ Die folgenden installierte(n) Erweiterung(en) wurden als verwaist markiert:
+
+ {extensions}
+
 -Bitte überprüfe diese Erweiterungen und erwäge den Wechsel zu Alternativen, sofern verfügbar.
--
-+Hallo {username},
-+
-+Die folgenden installierte(n) Erweiterung(en) wurden als verwaist markiert:
-+
-+{extensions}
-+
 +Bitte überprüfen Sie diese Erweiterungen und erwägen Sie den Wechsel zu Alternativen, sofern verfügbar.
-+
+
 ```
 
 Hallo {username},<br /><br />Die folgenden installierte(n) Erweiterung(en) wurden als verwaist markiert:<br /><br />{extensions}<br /><br />Bitte <del>überprüfe</del><ins>überprüfen Sie</ins> diese Erweiterungen und <del>erwäge</del><ins>erwägen Sie</ins> den Wechsel zu Alternativen, sofern verfügbar.<br />
@@ -502,23 +492,18 @@ Hallo {username},<br /><br />Die folgenden installierte(n) Erweiterung(en) wurde
 
 ```diff
 -Hallo {username}!
--
--jemand (hoffentlich du!) hat sich im Forum {forum} mit dieser E-Mail-Adresse registriert.
--
--Wenn du es warst, folge bitte dem Link, um das Konto zu aktivieren:
--{url}
--
--Wenn du das nicht warst, ignoriere diese E-Mail.
--
 +Sehr geehrte/r {username},
-+
+
+-jemand (hoffentlich du!) hat sich im Forum {forum} mit dieser E-Mail-Adresse registriert.
 +jemand (hoffentlich Sie!) hat sich im Forum {forum} mit dieser E-Mail-Adresse registriert.
-+
+
+-Wenn du es warst, folge bitte dem Link, um das Konto zu aktivieren:
 +Falls Sie es waren, folgen Sie bitte dem untenstehenden Link, um Ihr Konto zu aktivieren:
-+{url}
-+
+ {url}
+
+-Wenn du das nicht warst, ignoriere diese E-Mail.
 +Falls Sie es nicht waren, ignorieren Sie bitte diese E-Mail.
-+
+
 ```
 
 <del>Hallo</del><ins>Sehr</ins> <del>{username}!</del><ins>geehrte/r {username},</ins><br /><br />jemand (hoffentlich <del>du!)</del><ins>Sie!)</ins> hat sich im Forum {forum} mit dieser E-Mail-Adresse registriert.<br /><br /><del>Wenn</del><ins>Falls</ins> <del>du</del><ins>Sie</ins> es <del>warst,</del><ins>waren,</ins> <del>folge</del><ins>folgen Sie</ins> bitte dem<ins> untenstehenden</ins> Link, um <del>das</del><ins>Ihr</ins> Konto zu aktivieren:<br />{url}<br /><br /><del>Wenn</del><ins>Falls</ins> <del>du</del><ins>Sie</ins> <del>das</del><ins>es</ins> nicht <del>warst,</del><ins>waren,</ins> <del>ignoriere</del><ins>ignorieren Sie bitte</ins> diese E-Mail.<br />
@@ -548,23 +533,18 @@ Aktivierung <del>deines</del><ins>Ihres</ins> neuen Kontos
 
 ```diff
 -Hallo {username}!
--
--jemand (hoffentlich du!) hat die E-Mail-Adresse im Forum {forum} geändert.
--
--Wenn du das warst, folge bitte dem Link, um die neue E-Mail-Adresse zu bestätigen:
--{url}
--
--Wenn du das nicht warst, ignoriere diese E-Mail.
--
 +Sehr geehrte/r {username},
-+
+
+-jemand (hoffentlich du!) hat die E-Mail-Adresse im Forum {forum} geändert.
 +jemand (hoffentlich Sie!) hat die E-Mail-Adresse im Forum {forum} geändert.
-+
+
+-Wenn du das warst, folge bitte dem Link, um die neue E-Mail-Adresse zu bestätigen:
 +Falls Sie es waren, folgen Sie bitte dem untenstehenden Link, um die neue E-Mail-Adresse zu bestätigen:
-+{url}
-+
+ {url}
+
+-Wenn du das nicht warst, ignoriere diese E-Mail.
 +Falls Sie es nicht waren, ignorieren Sie bitte diese E-Mail.
-+
+
 ```
 
 <del>Hallo</del><ins>Sehr</ins> <del>{username}!</del><ins>geehrte/r {username},</ins><br /><br />jemand (hoffentlich <del>du!)</del><ins>Sie!)</ins> hat die E-Mail-Adresse im Forum {forum} geändert.<br /><br /><del>Wenn</del><ins>Falls</ins> <del>du</del><ins>Sie</ins> <del>das</del><ins>es</ins> <del>warst,</del><ins>waren,</ins> <del>folge</del><ins>folgen Sie</ins> bitte dem<ins> untenstehenden</ins> Link, um die neue E-Mail-Adresse zu bestätigen:<br />{url}<br /><br /><del>Wenn</del><ins>Falls</ins> <del>du</del><ins>Sie</ins> <del>das</del><ins>es</ins> nicht <del>warst,</del><ins>waren,</ins> <del>ignoriere</del><ins>ignorieren Sie bitte</ins> diese E-Mail.<br />
@@ -594,23 +574,18 @@ Bestätigung <del>deiner</del><ins>Ihrer</ins> E-Mail-Adresse
 
 ```diff
 -Hallo {username}!
--
--jemand (hoffentlich du!) hat das Zurücksetzen des Passwortes im Forum {forum} beantragt.
--
--Wenn du das warst, folge bitte dem Link, um ein neues Passwort festzulegen:
--{url}
--
--Wenn du das nicht warst, ignoriere diese E-Mail.
--
 +Sehr geehrte/r {username},
-+
+
+-jemand (hoffentlich du!) hat das Zurücksetzen des Passwortes im Forum {forum} beantragt.
 +jemand (hoffentlich Sie!) hat das Zurücksetzen des Passwortes im Forum {forum} beantragt.
-+
+
+-Wenn du das warst, folge bitte dem Link, um ein neues Passwort festzulegen:
 +Falls Sie es waren, folgen Sie bitte dem untenstehenden Link, um ein neues Passwort festzulegen:
-+{url}
-+
+ {url}
+
+-Wenn du das nicht warst, ignoriere diese E-Mail.
 +Falls Sie es nicht waren, ignorieren Sie bitte diese E-Mail.
-+
+
 ```
 
 <del>Hallo</del><ins>Sehr</ins> <del>{username}!</del><ins>geehrte/r {username},</ins><br /><br />jemand (hoffentlich <del>du!)</del><ins>Sie!)</ins> hat das Zurücksetzen des Passwortes im Forum {forum} beantragt.<br /><br /><del>Wenn</del><ins>Falls</ins> <del>du</del><ins>Sie</ins> <del>das</del><ins>es</ins> <del>warst,</del><ins>waren,</ins> <del>folge</del><ins>folgen Sie</ins> bitte dem<ins> untenstehenden</ins> Link, um ein neues Passwort festzulegen:<br />{url}<br /><br /><del>Wenn</del><ins>Falls</ins> <del>du</del><ins>Sie</ins> <del>das</del><ins>es</ins> nicht <del>warst,</del><ins>waren,</ins> <del>ignoriere</del><ins>ignorieren Sie bitte</ins> diese E-Mail.<br />
@@ -639,21 +614,17 @@ Zurücksetzung <del>deines</del><ins>Ihres</ins> Passwortes
 
 ```diff
 -Hallo {username}!
--
--Dies ist eine Test E-Mail zur Überprüfung, ob deine Flarum E-Mail-Konfiguration richtig funktioniert.
--
--Wenn du das warst, dann zeigt diese E-Mail an, dass deine Konfiguration funktioniert.
--
--Wenn du das nicht warst, ignoriere diese E-Mail.
--
 +Sehr geehrte/r {username},
-+
+
+-Dies ist eine Test E-Mail zur Überprüfung, ob deine Flarum E-Mail-Konfiguration richtig funktioniert.
 +dies ist eine Test-E-Mail zur Überprüfung, ob Ihre Flarum-E-Mail-Konfiguration korrekt funktioniert.
-+
+
+-Wenn du das warst, dann zeigt diese E-Mail an, dass deine Konfiguration funktioniert.
 +Falls Sie es waren, dann zeigt diese E-Mail an, dass Ihre Konfiguration funktioniert.
-+
+
+-Wenn du das nicht warst, ignoriere diese E-Mail.
 +Falls Sie es nicht waren, ignorieren Sie bitte diese E-Mail.
-+
+
 ```
 
 <del>Hallo</del><ins>Sehr</ins> <del>{username}!</del><ins>geehrte/r {username},</ins><br /><br /><del>Dies</del><ins>dies</ins> ist eine<del> Test</del> <del>E-Mail</del><ins>Test-E-Mail</ins> zur Überprüfung, ob<del> deine</del> <del>Flarum</del><ins>Ihre</ins> <del>E-Mail-Konfiguration</del><ins>Flarum-E-Mail-Konfiguration</ins> <del>richtig</del><ins>korrekt</ins> funktioniert.<br /><br /><del>Wenn</del><ins>Falls</ins> <del>du</del><ins>Sie</ins> <del>das</del><ins>es</ins> <del>warst,</del><ins>waren,</ins> dann zeigt diese E-Mail an, dass <del>deine</del><ins>Ihre</ins> Konfiguration funktioniert.<br /><br /><del>Wenn</del><ins>Falls</ins> <del>du</del><ins>Sie</ins> <del>das</del><ins>es</ins> nicht <del>warst,</del><ins>waren,</ins> <del>ignoriere</del><ins>ignorieren Sie bitte</ins> diese E-Mail.<br />
@@ -1475,9 +1446,8 @@ Die Art von Paketen, die installiert werden dürfen. <del>Ändere</del><ins>Änd
 
 ```diff
 -Füge zusätzliche Repositories hinzu, um Pakete daraus zu installieren. Das ist eine fortgeschrittene Funktion, füge keine Repositories hinzu, denen du nicht vertraust, da sie genutzt werden können, um schädlichen Code auf deinem Server auszuführen.
--
 +Fügen sie zusätzliche Repositories hinzu, um Pakete daraus zu installieren. Dies ist eine fortgeschrittene Funktion, fügen sie keine Repositories hinzu, denen sie nicht vertrauen, da sie genutzt werden können, um schädlichen Code auf ihrem Server auszuführen.
-+
+
 ```
 
 <del>Füge</del><ins>Fügen sie</ins> zusätzliche Repositories hinzu, um Pakete daraus zu installieren. <del>Das</del><ins>Dies</ins> ist eine fortgeschrittene Funktion, <del>füge</del><ins>fügen sie</ins> keine Repositories hinzu, denen <del>du</del><ins>sie</ins> nicht <del>vertraust,</del><ins>vertrauen,</ins> da sie genutzt werden können, um schädlichen Code auf <del>deinem</del><ins>ihrem</ins> Server auszuführen.<br />
@@ -1500,9 +1470,8 @@ Ausführung fehlgeschlagen. <del>Überprüfe</del><ins>Überprüfen sie</ins> di
 
 ```diff
 -Gib den Paketnamen der Erweiterung ein, um fortzufahren. Du kannst mithilfe des Formats <code>vendor/package-name:version</code> eine <semantic_link>semantische Version</semantic_link> angeben. Besuche {link}, um Erweiterungen zu durchsuchen.
--
 +Geben Sie den Paketnamen der Erweiterung ein, um fortzufahren. Sie können mithilfe des Formats <code>vendor/package-name:version</code> eine <semantic_link>semantische Version</semantic_link> angeben. Besuchen Sie {link}, um Erweiterungen zu durchsuchen.
-+
+
 ```
 
 <del>Gib</del><ins>Geben Sie</ins> den Paketnamen der Erweiterung ein, um fortzufahren. <del>Du</del><ins>Sie</ins> <del>kannst</del><ins>können</ins> mithilfe des Formats &lt;code&gt;vendor/package-name:version&lt;/code&gt; eine &lt;semantic\_link&gt;semantische Version&lt;/semantic\_link&gt; angeben. <del>Besuche</del><ins>Besuchen Sie</ins> {link}, um Erweiterungen zu durchsuchen.<br />
@@ -1514,9 +1483,8 @@ Ausführung fehlgeschlagen. <del>Überprüfe</del><ins>Überprüfen sie</ins> di
 
 ```diff
 -Große Flarum-Updates sind nicht rückwärtskompatibel, was bedeutet, dass einige deiner derzeit installierten Erweiterungen und manuell durchgeführten Änderungen möglicherweise nicht mit dieser neuen Version funktionieren. Bitte stelle sicher, dass du ein Backup deiner Datenbank und Dateien erstellst, bevor du fortfährst.
--
 +Große Flarum-Updates sind nicht rückwärtskompatibel, was bedeutet, dass einige ihrer derzeit installierten Erweiterungen und manuell durchgeführten Änderungen möglicherweise nicht mit dieser neuen Version funktionieren. Bitte stellen sie sicher, dass sie ein Backup Ihrer Datenbank und Dateien erstellen, bevor sie fortfahren.
-+
+
 ```
 
 Große Flarum-Updates sind nicht rückwärtskompatibel, was bedeutet, dass einige <del>deiner</del><ins>ihrer</ins> derzeit installierten Erweiterungen und manuell durchgeführten Änderungen möglicherweise nicht mit dieser neuen Version funktionieren. Bitte <del>stelle</del><ins>stellen sie</ins> sicher, dass <del>du</del><ins>sie</ins> ein Backup <del>deiner</del><ins>Ihrer</ins> Datenbank und Dateien <del>erstellst,</del><ins>erstellen,</ins> bevor <del>du</del><ins>sie</ins> <del>fortfährst.</del><ins>fortfahren.</ins><br />
@@ -1561,9 +1529,8 @@ Bitte <del>sei</del><ins>seien sie</ins> vorsichtig, wem <del>du</del><ins>sie</
 
 ```diff
 -Du kannst dich über eine <a href='{basic_impl_link}'>einfache Warteschlangen-Implementierung</a> oder eine <a href='{adv_impl_link}'>fortgeschrittenere</a> informieren. Stelle sicher, dass die für die Warteschlange verwendete PHP-Version {php_version} ist. Stelle außerdem sicher, dass die <a href='{folder_perms_link}'>Ordnerberechtigungen</a> richtig konfiguriert sind.
--
 +Sie können sich über eine <a href='{basic_impl_link}'>einfache Warteschlangen-Implementierung</a> oder eine <a href='{adv_impl_link}'>fortgeschrittenere</a> informieren. Stellen sie sicher, dass die für die Warteschlange verwendete PHP-Version {php_version} ist. Stellen sie außerdem sicher, dass die <a href='{folder_perms_link}'>Ordnerberechtigungen</a> richtig konfiguriert sind.
-+
+
 ```
 
 <del>Du</del><ins>Sie</ins> <del>kannst</del><ins>können</ins> <del>dich</del><ins>sich</ins> über eine &lt;a href='{basic\_impl\_link}'&gt;einfache Warteschlangen-Implementierung&lt;/a&gt; oder eine &lt;a href='{adv\_impl\_link}'&gt;fortgeschrittenere&lt;/a&gt; informieren. <del>Stelle</del><ins>Stellen sie</ins> sicher, dass die für die Warteschlange verwendete PHP-Version {php\_version} ist. <del>Stelle</del><ins>Stellen sie</ins> außerdem sicher, dass die &lt;a href='{folder\_perms\_link}'&gt;Ordnerberechtigungen&lt;/a&gt; richtig konfiguriert sind.<br />
@@ -1662,21 +1629,16 @@ Vor der Entscheidung, welche Aktionen in <del>deinem</del><ins>Ihrem</ins> Forum
 
 ```diff
 -Hey {display_name}!
--
--Jemand (hoffentlich du) hat gerade beantragt, das Konto `{display_name}` zu löschen.
--
--Um diese Aktion zu bestätigen, folge bitte dem folgenden Link. Danach wird dein Antrag von unserem Team bearbeitet.
--
--{erasure_confirm_url}
--
 +Hallo {display_name}!
-+
+
+-Jemand (hoffentlich du) hat gerade beantragt, das Konto `{display_name}` zu löschen.
 +Jemand (hoffentlich Sie) hat gerade die Löschung des Kontos „{display_name}“ beantragt.
-+
+
+-Um diese Aktion zu bestätigen, folge bitte dem folgenden Link. Danach wird dein Antrag von unserem Team bearbeitet.
 +Um diese Aktion zu bestätigen, folgen Sie bitte dem folgenden Link. Anschließend wird Ihre Anfrage von unserem Team bearbeitet.
-+
-+{erasure_confirm_url}
-+
+
+ {erasure_confirm_url}
+
 ```
 
 <del>Hey</del><ins>Hallo</ins> {display\_name}!<br /><br />Jemand (hoffentlich <del>du)</del><ins>Sie)</ins> hat gerade <del>beantragt,</del><ins>die</ins> <del>das</del><ins>Löschung</ins> <del>Konto</del><ins>des</ins> <del>\`{display\_name}\`</del><ins>Kontos</ins> <del>zu</del><ins>„{display\_name}“</ins> <del>löschen.</del><ins>beantragt.</ins><br /><br />Um diese Aktion zu bestätigen, <del>folge</del><ins>folgen Sie</ins> bitte dem folgenden Link. <del>Danach</del><ins>Anschließend</ins> wird <del>dein</del><ins>Ihre</ins> <del>Antrag</del><ins>Anfrage</ins> von unserem Team bearbeitet.<br /><br />{erasure\_confirm\_url}<br />
@@ -1692,17 +1654,14 @@ Vor der Entscheidung, welche Aktionen in <del>deinem</del><ins>Ihrem</ins> Forum
 
 ```diff
 -Hey {display_name}!
--
--Dies ist eine automatische Benachrichtigung, dass dein Antrag auf Stornierung der Kontolöschung bearbeitet wurde.
--
--Dein Konto wird nicht mehr gelöscht.
--
 +Hallo {display_name}!
-+
+
+-Dies ist eine automatische Benachrichtigung, dass dein Antrag auf Stornierung der Kontolöschung bearbeitet wurde.
 +Dies ist eine automatische Benachrichtigung, dass Ihr Antrag auf Stornierung der Kontolöschung bearbeitet wurde.
-+
+
+-Dein Konto wird nicht mehr gelöscht.
 +Ihr Konto wird nicht mehr gelöscht.
-+
+
 ```
 
 <del>Hey</del><ins>Hallo</ins> {display\_name}!<br /><br />Dies ist eine automatische Benachrichtigung, dass <del>dein</del><ins>Ihr</ins> Antrag auf Stornierung der Kontolöschung bearbeitet wurde.<br /><br /><del>Dein</del><ins>Ihr</ins> Konto wird nicht mehr gelöscht.<br />
@@ -1720,21 +1679,15 @@ Vor der Entscheidung, welche Aktionen in <del>deinem</del><ins>Ihrem</ins> Forum
 
 ```diff
 -Hey {display_name}!
--
--Du hast einen Export der Kontodaten für {username} angefordert. Dieser Export wurde erfolgreich generiert und ist jetzt verfügbar:
--
--{url}
--
--Dieser Export bleibt bis {destroys_at} verfügbar.
--
 +Hallo {display_name}!
-+
+
+-Du hast einen Export der Kontodaten für {username} angefordert. Dieser Export wurde erfolgreich generiert und ist jetzt verfügbar:
 +Sie haben einen Export der Kontodaten für {username} angefordert. Dieser Export wurde erfolgreich generiert und ist jetzt verfügbar:
-+
-+{url}
-+
-+Dieser Export bleibt bis {destroys_at} verfügbar.
-+
+
+ {url}
+
+ Dieser Export bleibt bis {destroys_at} verfügbar.
+
 ```
 
 <del>Hey</del><ins>Hallo</ins> {display\_name}!<br /><br /><del>Du</del><ins>Sie</ins> <del>hast</del><ins>haben</ins> einen Export der Kontodaten für {username} angefordert. Dieser Export wurde erfolgreich generiert und ist jetzt verfügbar:<br /><br />{url}<br /><br />Dieser Export bleibt bis {destroys\_at} verfügbar.<br />
@@ -1748,13 +1701,10 @@ Vor der Entscheidung, welche Aktionen in <del>deinem</del><ins>Ihrem</ins> Forum
 
 ```diff
 -Bist du sicher, dass du {username}s Konto löschen möchtest?
--
--Dieser Vorgang kann nicht rückgängig gemacht werden.
--
 +Sind Sie sicher, dass Sie {username}s Konto löschen möchten?
-+
-+Dieser Vorgang kann nicht rückgängig gemacht werden.
-+
+
+ Dieser Vorgang kann nicht rückgängig gemacht werden.
+
 ```
 
 <del>Bist</del><ins>Sind</ins> <del>du</del><ins>Sie</ins> sicher, dass <del>du</del><ins>Sie</ins> {username}s Konto löschen <del>möchtest?</del><ins>möchten?</ins><br /><br />Dieser Vorgang kann nicht rückgängig gemacht werden.<br />
@@ -1788,9 +1738,8 @@ Vor der Entscheidung, welche Aktionen in <del>deinem</del><ins>Ihrem</ins> Forum
 
 ```diff
 -Du solltest eine E-Mail zur Bestätigung deiner Löschanfrage erhalten haben.
--
 +Sie sollten eine E-Mail zur Bestätigung Ihrer Löschanfrage erhalten haben.
-+
+
 ```
 
 <del>Du</del><ins>Sie</ins> <del>solltest</del><ins>sollten</ins> eine E-Mail zur Bestätigung <del>deiner</del><ins>Ihrer</ins> Löschanfrage erhalten haben.<br />
@@ -1802,9 +1751,8 @@ Vor der Entscheidung, welche Aktionen in <del>deinem</del><ins>Ihrem</ins> Forum
 
 ```diff
 -Du hast deinen Antrag zur Löschung deines Kontos bestätigt. Wie in der DSGVO vorgeschrieben, werden innerhalb von 30 Tagen Maßnahmen ergriffen.
--
 +Sie haben Ihren Antrag zur Löschung Ihres Kontos bestätigt. Wie in der DSGVO vorgeschrieben, werden innerhalb von 30 Tagen Maßnahmen ergriffen.
-+
+
 ```
 
 <del>Du</del><ins>Sie</ins> <del>hast</del><ins>haben</ins> <del>deinen</del><ins>Ihren</ins> Antrag zur Löschung <del>deines</del><ins>Ihres</ins> Kontos bestätigt. Wie in der DSGVO vorgeschrieben, werden innerhalb von 30 Tagen Maßnahmen ergriffen.<br />
@@ -1908,25 +1856,17 @@ Jemand hat eine <del>Diskussion von</del><ins>Ihrer</ins> <del>dir</del><ins>Dis
 
 ```diff
 -Hallo {recipient_display_name}!
--
--{mentioner_display_name} hat in {title} eine Gruppe erwähnt, in der du Mitglied bist.
--
--{url}
--
-----
--
--{content}
--
 +Sehr geehrte/r {recipient_display_name},
-+
+
+-{mentioner_display_name} hat in {title} eine Gruppe erwähnt, in der du Mitglied bist.
 +{mentioner_display_name} hat in {title} eine Gruppe erwähnt, in der Sie Mitglied sind.
-+
-+{url}
-+
-+---
-+
-+{content}
-+
+
+ {url}
+
+ ---
+
+ {content}
+
 ```
 
 <del>Hallo</del><ins>Sehr</ins> <del>{recipient\_display\_name}!</del><ins>geehrte/r {recipient\_display\_name},</ins><br /><br />{mentioner\_display\_name} hat in {title} eine Gruppe erwähnt, in der <del>du</del><ins>Sie</ins> Mitglied <del>bist.</del><ins>sind.</ins><br /><br />{url}<br /><br />---<br /><br />{content}<br />
@@ -1957,25 +1897,17 @@ Jemand hat eine <del>Diskussion von</del><ins>Ihrer</ins> <del>dir</del><ins>Dis
 
 ```diff
 -Hallo {recipient_display_name}!
--
--{replier_display_name} hat auf deinen Beitrag (#{post_number}) in {title} geantwortet.
--
--{url}
--
-----
--
--{content}
--
 +Sehr geehrte/r {recipient_display_name},
-+
+
+-{replier_display_name} hat auf deinen Beitrag (#{post_number}) in {title} geantwortet.
 +{replier_display_name} hat auf Ihren Beitrag (#{post_number}) in {title} geantwortet.
-+
-+{url}
-+
-+---
-+
-+{content}
-+
+
+ {url}
+
+ ---
+
+ {content}
+
 ```
 
 <del>Hallo</del><ins>Sehr</ins> <del>{recipient\_display\_name}!</del><ins>geehrte/r {recipient\_display\_name},</ins><br /><br />{replier\_display\_name} hat auf <del>deinen</del><ins>Ihren</ins> Beitrag (#{post\_number}) in {title} geantwortet.<br /><br />{url}<br /><br />---<br /><br />{content}<br />
@@ -2006,25 +1938,17 @@ Jemand hat eine <del>Diskussion von</del><ins>Ihrer</ins> <del>dir</del><ins>Dis
 
 ```diff
 -Hallo {recipient_display_name}!
--
--{mentioner_display_name} hat dich in der Diskussion {title} erwähnt.
--
--{url}
--
-----
--
--{content}
--
 +Sehr geehrte/r {recipient_display_name},
-+
+
+-{mentioner_display_name} hat dich in der Diskussion {title} erwähnt.
 +{mentioner_display_name} hat Sie in der Diskussion {title} erwähnt.
-+
-+{url}
-+
-+---
-+
-+{content}
-+
+
+ {url}
+
+ ---
+
+ {content}
+
 ```
 
 <del>Hallo</del><ins>Sehr</ins> <del>{recipient\_display\_name}!</del><ins>geehrte/r {recipient\_display\_name},</ins><br /><br />{mentioner\_display\_name} hat <del>dich</del><ins>Sie</ins> in der Diskussion {title} erwähnt.<br /><br />{url}<br /><br />---<br /><br />{content}<br />
@@ -2194,11 +2118,9 @@ Dieser Spitzname ist ungültig. Bitte <del>wende</del><ins>wenden</ins> <del>dic
 
 ```diff
 -Wähle einen benutzerdefinierten Datumsbereich, für den du Statistiken anzeigen möchtest.
--Das Laden der Daten kann bei Foren mit viel Aktivität mehrere Minuten dauern.
--
 +Wählen Sie einen benutzerdefinierten Datumsbereich, für den Sie Statistiken anzeigen möchten.
-+Das Laden der Daten kann bei Foren mit viel Aktivität mehrere Minuten dauern.
-+
+ Das Laden der Daten kann bei Foren mit viel Aktivität mehrere Minuten dauern.
+
 ```
 
 <del>Wähle</del><ins>Wählen Sie</ins> einen benutzerdefinierten Datumsbereich, für den <del>du</del><ins>Sie</ins> Statistiken anzeigen <del>möchtest.</del><ins>möchten.</ins><br />Das Laden der Daten kann bei Foren mit viel Aktivität mehrere Minuten dauern.<br />
@@ -2226,35 +2148,24 @@ Dieser Spitzname ist ungültig. Bitte <del>wende</del><ins>wenden</ins> <del>dic
 
 ```diff
 -Hallo {recipient_display_name}!
--
--{poster_display_name} hat einen Beitrag in einer Diskussion verfasst, der du folgst: {title}.
--
--Folge dem untenstehenden Link, um die neue Aktivität zu sehen:
--{url}
--
-----
--
--{content}
--
-----
--
--Du wirst keine weiteren Benachrichtigungen über diese Diskussion erhalten, bis du wieder auf dem Laufenden bist.
--
 +Sehr geehrte/r {recipient_display_name},
-+
+
+-{poster_display_name} hat einen Beitrag in einer Diskussion verfasst, der du folgst: {title}.
 +{poster_display_name} hat einen Beitrag in einer Diskussion verfasst, der Sie folgen: {title}.
-+
+
+-Folge dem untenstehenden Link, um die neue Aktivität zu sehen:
 +Bitte folgen Sie dem untenstehenden Link, um die neue Aktivität zu sehen:
-+{url}
-+
-+---
-+
-+{content}
-+
-+---
-+
+ {url}
+
+ ---
+
+ {content}
+
+ ---
+
+-Du wirst keine weiteren Benachrichtigungen über diese Diskussion erhalten, bis du wieder auf dem Laufenden bist.
 +Sie werden keine weiteren Benachrichtigungen über diese Diskussion erhalten, bis Sie sie wieder besucht haben.
-+
+
 ```
 
 <del>Hallo</del><ins>Sehr</ins> <del>{recipient\_display\_name}!</del><ins>geehrte/r {recipient\_display\_name},</ins><br /><br />{poster\_display\_name} hat einen Beitrag in einer Diskussion verfasst, der <del>du</del><ins>Sie</ins> <del>folgst:</del><ins>folgen:</ins> {title}.<br /><br /><del>Folge</del><ins>Bitte folgen Sie</ins> dem untenstehenden Link, um die neue Aktivität zu sehen:<br />{url}<br /><br />---<br /><br />{content}<br /><br />---<br /><br /><del>Du</del><ins>Sie</ins> <del>wirst</del><ins>werden</ins> keine weiteren Benachrichtigungen über diese Diskussion erhalten, bis<del> du</del> <del>wieder</del><ins>Sie</ins> <del>auf</del><ins>sie</ins> <del>dem</del><ins>wieder</ins> <del>Laufenden</del><ins>besucht</ins> <del>bist.</del><ins>haben.</ins><br />
@@ -2306,21 +2217,15 @@ Jemand hat in einer Diskussion geantwortet, der <del>du</del><ins>Sie</ins> <del
 
 ```diff
 -Hallo {recipient_display_name},
--
--Du wurdest aus folgendem Grund ausgeschlossen:
--
-----
--{suspension_message}
-----
--
 +Sehr geehrte/r {recipient_display_name},
-+
+
+-Du wurdest aus folgendem Grund ausgeschlossen:
 +Sie wurden aus folgendem Grund ausgeschlossen:
-+
-+---
-+{suspension_message}
-+---
-+
+
+ ---
+ {suspension_message}
+ ---
+
 ```
 
 <del>Hallo</del><ins>Sehr geehrte/r</ins> {recipient\_display\_name},<br /><br /><del>Du</del><ins>Sie</ins> <del>wurdest</del><ins>wurden</ins> aus folgendem Grund ausgeschlossen:<br /><br />---<br />{suspension\_message}<br />---<br />
@@ -2347,17 +2252,13 @@ Jemand hat in einer Diskussion geantwortet, der <del>du</del><ins>Sie</ins> <del
 
 ```diff
 -Hallo {recipient_display_name},
--
--Dein Ausschluss wurde aufgehoben. Du kannst zum Forum zurückkehren, indem Du auf den folgenden Link klickst:
--
--{forum_url}
--
 +Sehr geehrte/r {recipient_display_name},
-+
+
+-Dein Ausschluss wurde aufgehoben. Du kannst zum Forum zurückkehren, indem Du auf den folgenden Link klickst:
 +Ihr Ausschluss wurde aufgehoben. Sie können zum Forum zurückkehren, indem Sie auf den folgenden Link klicken:
-+
-+{forum_url}
-+
+
+ {forum_url}
+
 ```
 
 <del>Hallo</del><ins>Sehr geehrte/r</ins> {recipient\_display\_name},<br /><br /><del>Dein</del><ins>Ihr</ins> Ausschluss wurde aufgehoben. <del>Du</del><ins>Sie</ins> <del>kannst</del><ins>können</ins> zum Forum zurückkehren, indem <del>Du</del><ins>Sie</ins> auf den folgenden Link <del>klickst:</del><ins>klicken:</ins><br /><br />{forum\_url}<br />
@@ -2722,9 +2623,8 @@ Zuschneiden fehlgeschlagen. <del>Stelle</del><ins>Stellen Sie</ins> sicher das d
 
 ```diff
 -Das Hochladen von Bildern kann fehlschlagen, wenn die Datenschutzeinstellungen deines Browsers sehr streng sind. Hast du Probleme, Versuche den Fingerprinting-Schutz zu deaktivieren. Ansonsten kannst du auch <disableResize>die Komprimierung des zugeschnittenen Bildes deaktivieren</disableResize> oder <disableCrop>das Zuschneiden ganz deaktivieren</disableCrop>.
--
 +Das Hochladen von Bildern kann fehlschlagen, wenn die Datenschutzeinstellungen Ihres Browsers sehr streng sind. Wenn Sie Probleme haben, versuchen Sie den Fingerprinting-Schutz zu deaktivieren. Ansonsten können Sie auch <disableResize>die Komprimierung des zugeschnittenen Bildes deaktivieren</disableResize> oder <disableCrop>das Zuschneiden ganz deaktivieren</disableCrop>.
-+
+
 ```
 
 Das Hochladen von Bildern kann fehlschlagen, wenn die Datenschutzeinstellungen <del>deines</del><ins>Ihres</ins> Browsers sehr streng sind. <del>Hast</del><ins>Wenn</ins> <del>du</del><ins>Sie</ins> <del>Probleme,</del><ins>Probleme</ins> <del>Versuche</del><ins>haben, versuchen Sie</ins> den Fingerprinting-Schutz zu deaktivieren. Ansonsten <del>kannst</del><ins>können</ins> <del>du</del><ins>Sie</ins> auch &lt;disableResize&gt;die Komprimierung des zugeschnittenen Bildes deaktivieren&lt;/disableResize&gt; oder &lt;disableCrop&gt;das Zuschneiden ganz deaktivieren&lt;/disableCrop&gt;.<br />
@@ -2973,9 +2873,8 @@ Zurzeit wegen Wartungsarbeiten nicht verfügbar. Bitte <del>komm</del><ins>komme
 
 ```diff
 -<p>Wir führen gerade Wartungsarbeiten durch. Bitte komm später wieder.</p>
--
 +<p>Wir führen gerade Wartungsarbeiten durch. Bitte kommen Sie später wieder.</p>
-+
+
 ```
 
 &lt;p&gt;Wir führen gerade Wartungsarbeiten durch. Bitte <del>komm</del><ins>kommen Sie</ins> später wieder.&lt;/p&gt;<br />

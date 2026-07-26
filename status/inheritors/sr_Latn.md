@@ -1051,23 +1051,18 @@ Idi na <del>zadnju</del><ins>poslednju</ins> stranicu
 
 ```diff
 -Dobar dan {username},
--
--Neko (nadamo se vi!) je otvorio nalog na {forum} sa ovom adresom e-pošte.
--
--Ako ste to bili vi, jednostavno kliknite na link ispod i vaš nalog će biti aktiviran.
--{url}
--
--Ako se vi niste prijavili za ovaj nalog, molimo vas da ignorišete ovu poruku.
--
 +Zdravo {username}!
-+
+
+-Neko (nadamo se vi!) je otvorio nalog na {forum} sa ovom adresom e-pošte.
 +Neko se (nadamo se da si Vi!) registrovao na {forum} sa ovom email adresom.
-+
+
+-Ako ste to bili vi, jednostavno kliknite na link ispod i vaš nalog će biti aktiviran.
 +Ako ste Vi, jednostavno kliknite na sledeći link i Vaš nalog će biti aktiviran:
-+{url}
-+
+ {url}
+
+-Ako se vi niste prijavili za ovaj nalog, molimo vas da ignorišete ovu poruku.
 +Ako niste bili Vi, molimo Vas da ignorišete ovu poruku!
-+
+
 ```
 
 <del>Dobar dan</del><ins>Zdravo</ins> <del>{username},</del><ins>{username}!</ins><br /><br />Neko<ins> se</ins> (nadamo se <del>vi!)</del><ins>da</ins> <del>je</del><ins>si</ins> <del>otvorio</del><ins>Vi!)</ins> <del>nalog</del><ins>registrovao</ins> na {forum} sa ovom <del>adresom</del><ins>email</ins> <del>e-pošte.</del><ins>adresom.</ins><br /><br />Ako ste<del> to bili</del> <del>vi,</del><ins>Vi,</ins> jednostavno kliknite na <del>link</del><ins>sledeći</ins> <del>ispod</del><ins>link</ins> i <del>vaš</del><ins>Vaš</ins> nalog <del>će</del><ins>će</ins> biti <del>aktiviran.</del><ins>aktiviran:</ins><br />{url}<br /><br />Ako<del> se vi</del> niste<del> prijavili za</del> <del>ovaj</del><ins>bili</ins> <del>nalog,</del><ins>Vi,</ins> molimo <del>vas</del><ins>Vas</ins> da ignorišete ovu <del>poruku.</del><ins>poruku!</ins><br />
