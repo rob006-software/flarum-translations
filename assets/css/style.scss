@@ -16,3 +16,15 @@ $section-headings-color: #e7672e;
 .main-content table {
 	overflow: visible;
 }
+
+del {
+	color: #000000;
+	background-color: #ffdddd;
+	text-decoration: none;
+}
+
+ins {
+	color: #000000;
+	background-color: #ddffdd;
+	text-decoration: none;
+}
