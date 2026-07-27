@@ -89,10 +89,10 @@
         "lib": {
             "browser": {
                 "user": {
-                    "marked_as_spammer": ""
+                    "marked_as_spammer": "{username} megjelölve kéretlen tartalmat küldőként"
                 },
                 "registration": {
-                    "blocked": ""
+                    "blocked": "{username} ({email}) regisztrációja blokkolva erről az IP-ről: {ip}"
                 }
             }
         }
