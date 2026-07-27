@@ -79,8 +79,8 @@
                     "bucket": "Tároló"
                 },
                 "preferences": {
-                    "max_file_size": "Legnagyobb fájlméret (kilobájtban)",
-                    "max_file_size_equivalent": "",
+                    "max_file_size": "Legnagyobb fájlméret",
+                    "max_file_size_equivalent": "<code>{kb}</code> kB-ként tárolva ({value}).",
                     "mime_types": "Állítsa be a MIME-típust, és a feltöltési adapter hozzárendelését",
                     "mime_type_regex_placeholder": "például ^image/(jpeg|png|gif)$",
                     "mime_type_regex_invalid": "Érvénytelen regex (például üres alternatívák, mint a ||)",
@@ -129,7 +129,7 @@
             },
             "warnings": {
                 "fileinfo_missing": "A PHP <strong>fileinfo</strong> kiterjesztés nincs betöltve ezen a kiszolgálón. A FoF Upload továbbra is fog működni, de a MIME-típusok keresztellenőrzése ki van kapcsova, ez csökkenti a meghamisított fájltípusok elleni védelmet. A legjobb biztonság érdekében kapcsolja be a kiterjesztést a PHP beállításaiban.\n",
-                "max_file_size_exceeds_php": ""
+                "max_file_size_exceeds_php": "Ez meghaladja a kiszolgáló érvényben lévő feltöltési korlátját: <strong>{limit}</strong> (<code>post_max_size={post}</code>, <code>upload_max_filesize={upload}</code>). Az e korlátot meghaladó feltöltéseket a PHP elutasítja, függetlenül ettől a beállítástól. Csökkentse ezt az értéket, vagy növelje a korlátokat a <code>php.ini</code> fájlban (és az <code>client_max_body_size</code> beállítást is, ha Nginx-et használ)."
             },
             "permissions": {
                 "download_label": "Fájlok letöltése",
