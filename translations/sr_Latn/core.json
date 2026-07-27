@@ -581,20 +581,20 @@
                 "profile_button": "Profil",
                 "search_placeholder": "Pretraži forum",
                 "search_role_label": "Pretraži forum",
-                "session_dropdown_accessible_label": "Uključite/Isključite padajući meni sa opcijama sesije",
+                "session_dropdown_accessible_label": "Uključi ili isključi padajući meni sa opcijama sesije",
                 "settings_button": "=> core.ref.settings",
                 "sign_up_link": "=> core.ref.sign_up"
             },
             "index": {
                 "all_discussions_link": "=> core.ref.all_discussions",
-                "cannot_start_discussion_button": "Započnite diskusiju",
-                "mark_all_as_read_confirmation": "Da li ste sigurni da želite da sve diskusije označite kao pročitane?",
+                "cannot_start_discussion_button": "Nije moguće započeti temu",
+                "mark_all_as_read_confirmation": "Da li ste sigurni da želite da označite sve teme kao pročitane?",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "meta_title_text": "=> core.ref.all_discussions",
                 "refresh_tooltip": "",
                 "start_discussion_button": "=> core.ref.start_a_discussion",
                 "skip_to_main_content": "",
-                "toggle_sidenav_dropdown_accessible_label": "Uključite/Isključite padajući meni za navigaciju"
+                "toggle_sidenav_dropdown_accessible_label": "Uključi ili isključi padajući meni za navigaciju"
             },
             "index_sort": {
                 "latest_button": "Najnoviji odgovori",
@@ -637,7 +637,7 @@
                 "edit_button": "=> core.ref.edit",
                 "hide_confirmation": "Da li ste sigurni da želite da izbrišete ovaj odgovor?",
                 "restore_button": "=> core.ref.restore",
-                "toggle_dropdown_accessible_label": "Uključi / isključi padajući meni za kontrolu poruke"
+                "toggle_dropdown_accessible_label": "Uključi ili isključi padajući meni za kontrolu odgovora"
             },
             "post_list": {
                 "empty_text": "",
@@ -760,7 +760,7 @@
                 "delete_error_message": "Brisanje korisnika <i>{username} ({email})</i> nije uspelo",
                 "delete_success_message": "Korisnik <i>{username} ({email})</i> je uspešno izbrisan",
                 "edit_button": "=> core.ref.edit",
-                "toggle_dropdown_accessible_label": "Uključite/Isključite padajući meni korisničkih kontrola"
+                "toggle_dropdown_accessible_label": "Uključi ili isključi padajući meni korisničkih kontrola"
             },
             "user_email_confirmation": {
                 "alert_message": "=> core.ref.confirmation_email_sent",
@@ -784,7 +784,7 @@
                 "hidden_tooltip": "Sakriveno"
             },
             "dropdown": {
-                "toggle_dropdown_accessible_label": "Uključite/Isključite padajući meni"
+                "toggle_dropdown_accessible_label": "Uključi ili isključi padajući meni"
             },
             "data_segment": {
                 "label": "{label}:"
