@@ -45,10 +45,10 @@
                 "new_discussion_tag_text": "{username} megváltoztatta a címkét"
             },
             "prompt": {
-                "choose_button": "",
-                "modal_title": "",
-                "later_button": "",
-                "continue_button": ""
+                "choose_button": "Követendő címkék kiválasztása",
+                "modal_title": "Követendő címkék kiválasztása",
+                "later_button": "Emlékeztessen később",
+                "continue_button": "Tovább a fórumhoz"
             },
             "user": {
                 "settings": {
@@ -62,23 +62,23 @@
                 "following_page_default_label": "Alapértelmezett követett oldal szűrése",
                 "following_none_label": "=> fof-follow-tags.ref.filtering_options.none",
                 "following_tags_label": "=> fof-follow-tags.ref.filtering_options.tags",
-                "prompt_new_users_label": "",
-                "prompt_new_users_help": "",
-                "prompt_button_on_following_page_label": "",
-                "prompt_tag_strategy_label": "",
+                "prompt_new_users_label": "Új felhasználók megkérdezése, hogy mely címkéket követik",
+                "prompt_new_users_help": "A felhasználók akik még nem erősítették meg a döntésüket, egy párbeszédablakot fognak látni, amely címkék követésére kéri őket. A párbeszédablak addig jelenik meg, amíg a felhasználók meg nem nyomják a „Tovább a fórumhoz” gombot.\n",
+                "prompt_button_on_following_page_label": "A „Követendő címkék kiválasztása” gomb megjelenítése a Követve oldalon",
+                "prompt_tag_strategy_label": "Felajánlandó címkék a párbeszédablakon",
                 "prompt_tag_strategy_options": {
-                    "primary": "",
-                    "primaryAndChildren": "",
-                    "primaryAndSecondary": "",
-                    "secondary": "",
-                    "all": "",
-                    "list": ""
+                    "primary": "Első szintű elsődleges címkék",
+                    "primaryAndChildren": "Összes elsődleges címke",
+                    "primaryAndSecondary": "Első szintű elsődleges és másodlagos címkék",
+                    "secondary": "Csak a másodlagos címkék",
+                    "all": "Összes címke",
+                    "list": "Alább kiválasztott címkék"
                 },
-                "prompt_tag_ids_label": "",
-                "all_discussions_on_following_page_for_guests_label": ""
+                "prompt_tag_ids_label": "Felajánlandó címkék",
+                "all_discussions_on_following_page_for_guests_label": "Összes téma megjelenítése a vendégek Követve oldalán"
             },
             "basics": {
-                "following_label": ""
+                "following_label": "=> flarum-subscriptions.forum.index.following_link"
             }
         },
         "email": {
