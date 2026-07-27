@@ -112,12 +112,12 @@
         "lib": {
             "browser": {
                 "user": {
-                    "nickname_requested": "",
-                    "nickname_request_approved": "",
-                    "nickname_request_rejected": "",
-                    "username_requested": "",
-                    "username_request_approved": "",
-                    "username_request_rejected": ""
+                    "nickname_requested": "Új becenév kérve {username} számára: {new_nickname}",
+                    "nickname_request_approved": "{username} becenév-módosítása engedélyezve erről: {old_nickname}, erre: {new_nickname}",
+                    "nickname_request_rejected": "{username} becenév-módosítása elutasítva",
+                    "username_requested": "Új felhasználónév kérve {username} számára: {new_nickname}",
+                    "username_request_approved": "{username} felhasználónév-módosítása engedélyezve erről: {old_nickname}, erre: {new_nickname}",
+                    "username_request_rejected": "{username} felhasználónév-módosítása elutasítva"
                 }
             }
         }
