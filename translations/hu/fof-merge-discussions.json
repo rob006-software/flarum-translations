@@ -62,8 +62,8 @@
         "lib": {
             "browser": {
                 "discussion": {
-                    "merged_away": "",
-                    "merged_into": ""
+                    "merged_away": "{discussion} beolvasztva ebbe: {new_discussion}",
+                    "merged_into": "{post_count} bejegyzés beolvasztva {original_discussion_ids_count} témából ebbe: {discussion}"
                 }
             }
         }
