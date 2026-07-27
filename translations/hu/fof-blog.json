@@ -12,11 +12,11 @@
                 "selected_category_count": "{count, plural, one {#} other {#}} kategóriát választott ki",
                 "select_categories_button": "Válasszon blogkategóriát",
                 "categories_modal": {
-                    "description": "",
-                    "visit_blog": "",
-                    "tag_name_column": "",
-                    "no_tags": "",
-                    "close": ""
+                    "description": "Válasszon egy vagy több blogcímkének számító címkét.",
+                    "visit_blog": "Saját blog felkeresése.",
+                    "tag_name_column": "Címkenév",
+                    "no_tags": "Jelenleg nincsenek címkéi.",
+                    "close": "Bezárás"
                 },
                 "blog_heading": "Blog",
                 "featured_count_label": "Kiemelt bejegyzések legnagyobb száma",
@@ -35,12 +35,12 @@
                 "show_tag_hierarchy_label": "Címkehierarchia megjelenítése",
                 "show_tag_hierarchy_text": "Behúzás hozzáadása az alkategóriákhoz, és hierarchia adása a kategórialistához.",
                 "redirects_heading": "Átirányítások",
-                "redirects_text": "",
+                "redirects_text": "Eredeti téma- és címkewebcímek átirányítása a blogos megfelelőjükre.",
                 "redirects_options": {
-                    "both": "",
-                    "discussions_only": "",
-                    "tags_only": "",
-                    "none": ""
+                    "both": "Cikkek és címkék átirányítása",
+                    "discussions_only": "Csak a cikkek átirányítása",
+                    "tags_only": "Csak a címkék átirányítása",
+                    "none": "Nincs átirányítás"
                 },
                 "default_article_image_label": "Alapértelmezett cikk-kép",
                 "default_article_image_text": "Válassza ki az alapértelmezett képet, amely azoknál a cikkeknél jelenik meg, ahol nincs kép megadva.",
@@ -133,7 +133,7 @@
         "lib": {
             "gambits": {
                 "blog": {
-                    "key": ""
+                    "key": "blog"
                 }
             }
         }
@@ -142,11 +142,11 @@
         "lib": {
             "browser": {
                 "article": {
-                    "created": "",
-                    "approved": "",
-                    "updated": "",
-                    "featured": "",
-                    "unfeatured": ""
+                    "created": "Blogcikk létrehozva: {discussion}",
+                    "approved": "Blogcikk jóváhagyva: {discussion}",
+                    "updated": "{discussion} blogcikk metaadatainak frissítve",
+                    "featured": "{discussion} blogcikk kiemelve",
+                    "unfeatured": "{discussion} blogcikk kiemelése megszüntetve"
                 }
             }
         }
