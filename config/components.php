@@ -689,6 +689,27 @@ return [
 	'pianotell-flamoji' => [
 		'tag' => 'https://raw.githubusercontent.com/PrimateCoder/flarum-flamoji/v2.5.0/locale/en.yml',
 	],
+	'proxytracer-proxytracer' => [
+		'tag' => 'https://raw.githubusercontent.com/ProxyTracer/flarum-proxytracer/v2.0.2/locale/en.yml',
+		'__builtInLanguages' => [
+			'ar',
+			'bn',
+			'de',
+			'es',
+			'fr',
+			'hi',
+			'id',
+			'it',
+			'ja',
+			'pl',
+			'pt',
+			'ru',
+			'tr',
+			'uk',
+			'ur',
+			'zh_Hans',
+		],
+	],
 	'quasimo-carousel-grids' => [
 		'tag' => 'https://raw.githubusercontent.com/Quasimo/flarum-ext-carousel-grids/v2.0.6/resources/locale/en.yml',
 		'__builtInLanguages' => [
