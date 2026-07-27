@@ -69,7 +69,9 @@
                 "start_submit": "Open trade window",
                 "start_cancel": "Cancel",
                 "start_not_found": "No user matches that name.",
-                "start_search_failed": "Couldn't search for users. Check your connection and try again."
+                "start_search_failed": "Couldn't search for users. Check your connection and try again.",
+                "load_failed": "Couldn't load your trades. Check your connection and try again.",
+                "retry": "Try again"
             },
             "confirm": {
                 "title": "Confirm purchase",
@@ -100,6 +102,7 @@
                 "toggle_nav_label": "Toggle rewards section menu",
                 "tiers_empty": "No groups available yet.",
                 "empty": "No items available right now.",
+                "truncated": "Showing the first {count} items. Trim the catalog from the admin panel or use another tab to see the rest.",
                 "claim": "Claim",
                 "equip": "Equip",
                 "equipped": "Equipped",
@@ -605,6 +608,17 @@
                 "bulk_awarded": "Users updated",
                 "bulk_errors": "Errors",
                 "bulk_success": "Bulk adjustment applied."
+            }
+        }
+    },
+    "flarum-gdpr": {
+        "lib": {
+            "data": {
+                "pointsystem": {
+                    "export_description": "Your points balance and lifetime total, the full ledger of points earned or spent, every shop item you claimed, and every trade you took part in.",
+                    "anonymize_description": "Free-text notes an admin wrote on manual point adjustments are cleared. Balances, the ledger, claimed items and trades are kept so forum totals stay consistent.",
+                    "delete_description": "Your points balance, the whole transaction ledger, every claimed item and every trade you took part in are permanently deleted."
+                }
             }
         }
     }

@@ -69,7 +69,9 @@
                 "start_submit": "进入交易页面",
                 "start_cancel": "取消",
                 "start_not_found": "没有找到此用户。",
-                "start_search_failed": "无法搜索用户。检查网络连接后重试。"
+                "start_search_failed": "无法搜索用户。检查网络连接后重试。",
+                "load_failed": "",
+                "retry": ""
             },
             "confirm": {
                 "title": "确认购买",
@@ -100,6 +102,7 @@
                 "toggle_nav_label": "开启或关闭道具中心菜单",
                 "tiers_empty": "暂无可用的用户组。",
                 "empty": "暂无可用的内容。",
+                "truncated": "",
                 "claim": "兑换",
                 "equip": "佩戴",
                 "equipped": "已佩戴",
@@ -606,6 +609,17 @@
                 "bulk_awarded": "",
                 "bulk_errors": "",
                 "bulk_success": ""
+            }
+        }
+    },
+    "flarum-gdpr": {
+        "lib": {
+            "data": {
+                "pointsystem": {
+                    "export_description": "",
+                    "anonymize_description": "",
+                    "delete_description": ""
+                }
             }
         }
     }

@@ -69,7 +69,9 @@
                 "start_submit": "",
                 "start_cancel": "Abbrechen",
                 "start_not_found": "",
-                "start_search_failed": ""
+                "start_search_failed": "",
+                "load_failed": "",
+                "retry": ""
             },
             "confirm": {
                 "title": "",
@@ -100,6 +102,7 @@
                 "toggle_nav_label": "",
                 "tiers_empty": "",
                 "empty": "",
+                "truncated": "",
                 "claim": "",
                 "equip": "",
                 "equipped": "",
@@ -605,6 +608,17 @@
                 "bulk_awarded": "",
                 "bulk_errors": "",
                 "bulk_success": ""
+            }
+        }
+    },
+    "flarum-gdpr": {
+        "lib": {
+            "data": {
+                "pointsystem": {
+                    "export_description": "",
+                    "anonymize_description": "",
+                    "delete_description": ""
+                }
             }
         }
     }

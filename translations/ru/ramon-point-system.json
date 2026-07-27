@@ -69,7 +69,9 @@
                 "start_submit": "Открыть окно обмена",
                 "start_cancel": "Отменить",
                 "start_not_found": "Пользователь с таким именем не найден.",
-                "start_search_failed": "Не удалось найти пользователей. Проверьте подключение и попробуйте снова."
+                "start_search_failed": "Не удалось найти пользователей. Проверьте подключение и попробуйте снова.",
+                "load_failed": "",
+                "retry": ""
             },
             "confirm": {
                 "title": "Подтверждение покупки",
@@ -100,6 +102,7 @@
                 "toggle_nav_label": "Переключить меню украшений",
                 "tiers_empty": "Группы пока недоступны.",
                 "empty": "Сейчас нет доступных элементов.",
+                "truncated": "",
                 "claim": "Получить",
                 "equip": "Надеть",
                 "equipped": "Надето",
@@ -606,6 +609,17 @@
                 "bulk_awarded": "Пользователи обновлены",
                 "bulk_errors": "Ошибки",
                 "bulk_success": "Применена массовая корректировка."
+            }
+        }
+    },
+    "flarum-gdpr": {
+        "lib": {
+            "data": {
+                "pointsystem": {
+                    "export_description": "",
+                    "anonymize_description": "",
+                    "delete_description": ""
+                }
             }
         }
     }
