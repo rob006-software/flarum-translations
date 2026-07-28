@@ -2,8 +2,8 @@
 
 Translations for Hungarian (`hu`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **36** are translated differently and **8** are
-translated only in `hu`. Altogether they cover **20** components.
+sides, but do not match between them: **43** are translated differently and **6** are
+translated only in `hu`. Altogether they cover **21** components.
 
 <!-- {% raw %} -->
 
@@ -19,7 +19,7 @@ translated only in `hu`. Altogether they cover **20** components.
 | `flarum-sticky` | [1](#flarum-sticky) | 0 |
 | `flarum-subscriptions` | [1](#flarum-subscriptions) | 0 |
 | `fof-analytics` | [4](#fof-analytics) | 0 |
-| `fof-anti-spam` | 0 | [2](#fof-anti-spam-missing) |
+| `fof-anti-spam` | [2](#fof-anti-spam) | 0 |
 | `fof-ban-ips` | [1](#fof-ban-ips) | 0 |
 | `fof-best-answer` | [2](#fof-best-answer) | 0 |
 | `fof-default-user-preferences` | [3](#fof-default-user-preferences) | 0 |
@@ -27,6 +27,7 @@ translated only in `hu`. Altogether they cover **20** components.
 | `fof-frontpage` | [1](#fof-frontpage) | 0 |
 | `fof-open-collective` | [1](#fof-open-collective) | 0 |
 | `fof-recaptcha` | [1](#fof-recaptcha) | 0 |
+| `fof-split` | [5](#fof-split) | 0 |
 | `fof-upload` | [1](#fof-upload) | 0 |
 | `forumaker-magicbb` | [2](#forumaker-magicbb) | 0 |
 | `glowingblue-password-strength` | [1](#glowingblue-password-strength) | 0 |
@@ -279,6 +280,31 @@ Egyéni <del>felhasználó</del><ins>felhasználói</ins> <del>fiók</del><ins>f
 Matomo domén vagy <del>URL</del><ins>webcím</ins>
 
 
+### `fof-anti-spam`
+
+#### [`flarum-audit.lib.browser.registration.blocked`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/hu/?q=context%3A%3D%22flarum-audit.lib.browser.registration.blocked%22)
+
+> Blocked registration for {username} ({email}) from {ip}
+
+```diff
+-{username} ({email}) regisztrációja blokkolva erről az IP-ről: {ip}
++{username} ({email}) regisztrációja a következő címről blokkolva: {ip}
+```
+
+{username} ({email}) regisztrációja <del>blokkolva</del><ins>a</ins> <del>erről</del><ins>következő</ins> <del>az</del><ins>címről</ins> <del>IP-ről:</del><ins>blokkolva:</ins> {ip}
+
+#### [`flarum-audit.lib.browser.user.marked_as_spammer`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/hu/?q=context%3A%3D%22flarum-audit.lib.browser.user.marked_as_spammer%22)
+
+> Marked {username} as a spammer
+
+```diff
+-{username} megjelölve kéretlen tartalmat küldőként
++{username} kéretlen tartalmat küldőnek jelölve
+```
+
+{username} <del>megjelölve </del>kéretlen tartalmat <del>küldőként</del><ins>küldőnek jelölve</ins>
+
+
 ### `fof-ban-ips`
 
 #### [`flarum-gdpr.lib.data.bannedipdata.export_description`](https://weblate.rob006.net/translate/flarum2/fof-ban-ips/hu/?q=context%3A%3D%22flarum-gdpr.lib.data.bannedipdata.export_description%22)
@@ -392,6 +418,60 @@ Adja meg az Open Collective kollektíva keresőbarát <del>nevét</del><ins>cím
 Szerezze <del>meg</del><ins>be</ins> a Google reCAPTCHA hitelesítő adatait &lt;a&gt;itt&lt;/a&gt;.
 
 
+### `fof-split`
+
+#### [`fof-split.forum.modal.new_discussion_label`](https://weblate.rob006.net/translate/flarum2/fof-split/hu/?q=context%3A%3D%22fof-split.forum.modal.new_discussion_label%22)
+
+> Specify the title for the new discussion
+
+```diff
+-Add meg az új téma címét
++Adja meg az új téma címét
+```
+
+<del>Add</del><ins>Adja</ins> meg az új téma címét
+
+#### [`fof-split.forum.modal.submit_button`](https://weblate.rob006.net/translate/flarum2/fof-split/hu/?q=context%3A%3D%22fof-split.forum.modal.submit_button%22)
+
+> Split
+
+```diff
+-Szétválasztás
++Leválasztás
+```
+
+#### [`fof-split.forum.modal.title`](https://weblate.rob006.net/translate/flarum2/fof-split/hu/?q=context%3A%3D%22fof-split.forum.modal.title%22)
+
+> Split discussion
+
+```diff
+-Beszélgetés szétválasztása
++Téma leválasztása
+```
+
+#### [`fof-split.forum.post.was_split_from`](https://weblate.rob006.net/translate/flarum2/fof-split/hu/?q=context%3A%3D%22fof-split.forum.post.was_split_from%22)
+
+> {count, plural, one {{count} post was split from {target}.} other {{count} posts were split from {target}.}}
+
+```diff
+-{count, plural, one {{count} bejegyzés leválasztásra került ettől: {target}.} other {{count} bejegyzés leválasztásra került ettől: {target}.}}
++{count, plural, one {{count}} other {{count}}} bejegyzés leválasztásra került ettől: {target}.
+```
+
+{count, plural, one <del>{{count} bejegyzés leválasztásra került ettől: {target}.}</del><ins>{{count}}</ins> other <del>{{count}</del><ins>{{count}}}</ins> bejegyzés leválasztásra került ettől: <del>{target}.}}</del><ins>{target}.</ins>
+
+#### [`fof-split.forum.post.was_split_to`](https://weblate.rob006.net/translate/flarum2/fof-split/hu/?q=context%3A%3D%22fof-split.forum.post.was_split_to%22)
+
+> {count, plural, one {{count} post was split to {target}.} other {{count} posts were split to {target}.}}
+
+```diff
+-{count, plural, one {{count} bejegyzés át lett rendelve ehhez: {target}.} other {{count} bejegyzés át lett rendelve ehhez: {target}.}}
++{count, plural, one {{count}} other {{count}}} bejegyzés át lett rendelve ehhez: {target}.
+```
+
+{count, plural, one <del>{{count} bejegyzés át lett rendelve ehhez: {target}.}</del><ins>{{count}}</ins> other <del>{{count}</del><ins>{{count}}}</ins> bejegyzés át lett rendelve ehhez: <del>{target}.}}</del><ins>{target}.</ins>
+
+
 ### `fof-upload`
 
 #### [`fof-upload.admin.templates.just-url_description`](https://weblate.rob006.net/translate/flarum2/fof-upload/hu/?q=context%3A%3D%22fof-upload.admin.templates.just-url_description%22)
@@ -474,25 +554,6 @@ A képeket és más <del>soron belüli</del><ins>beágyazott</ins> médiát egy 
 ## Missing translations
 
 These strings are translated only in `hu`, so there is nothing to inherit from Flarum 1.x - they could be used to fill the gaps there. Each entry contains the English source string, followed by the translation available only in `hu`.
-
-
-### `fof-anti-spam` (missing)
-
-#### [`flarum-audit.lib.browser.registration.blocked`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/hu/?q=context%3A%3D%22flarum-audit.lib.browser.registration.blocked%22)
-
-> Blocked registration for {username} ({email}) from {ip}
-
-```diff
-+{username} ({email}) regisztrációja a következő címről blokkolva: {ip}
-```
-
-#### [`flarum-audit.lib.browser.user.marked_as_spammer`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/hu/?q=context%3A%3D%22flarum-audit.lib.browser.user.marked_as_spammer%22)
-
-> Marked {username} as a spammer
-
-```diff
-+{username} kéretlen tartalmat küldőnek jelölve
-```
 
 
 ### `fof-forum-stats-widget` (missing)

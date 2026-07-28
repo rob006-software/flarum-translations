@@ -15,7 +15,7 @@ are fully in sync and are not listed here.
 | [French](fr.md) (`fr`) | 125 | 1118 | 54 |
 | [German](de.md) (`de`) | 265 | 442 | 73 |
 | [German (formal)](de@formal.md) (`de@formal`) | 316 | 442 | 76 |
-| [Hungarian](hu.md) (`hu`) | 36 | 8 | 20 |
+| [Hungarian](hu.md) (`hu`) | 43 | 6 | 21 |
 | [Indonesian](id.md) (`id`) | 1 | 0 | 1 |
 | [Italian](it.md) (`it`) | 0 | 1 | 1 |
 | [Japanese](ja.md) (`ja`) | 1 | 0 | 1 |
