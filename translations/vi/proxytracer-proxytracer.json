@@ -2,20 +2,20 @@
     "proxytracer-proxytracer": {
         "admin": {
             "settings": {
-                "api_key_label": "",
-                "api_key_help": "",
-                "block_all_label": "",
-                "block_login_label": "",
-                "block_signup_label": "",
-                "api_timeout_label": "",
-                "cache_expiry_label": "",
-                "fail_open_label": "",
-                "fail_open_help": "",
-                "trust_cloudflare_label": "",
-                "trust_cloudflare_help": "",
-                "custom_block_message_label": "",
-                "ip_whitelist_label": "",
-                "ip_whitelist_help": ""
+                "api_key_label": "Khóa API ProxyTracer",
+                "api_key_help": "Mã token API của bạn, có thể lấy từ <a>proxytracer.com</a>.",
+                "block_all_label": "Chặn mọi truy cập vào trang",
+                "block_login_label": "Chặn đăng nhập",
+                "block_signup_label": "Chặn đăng ký",
+                "api_timeout_label": "Thời gian chờ API (mili giây)",
+                "cache_expiry_label": "Thời hạn bộ nhớ đệm (giờ)",
+                "fail_open_label": "Cho phép truy cập khi API gặp lỗi",
+                "fail_open_help": "Nếu bật, người dùng vẫn được phép truy cập khi API ProxyTracer hết thời gian chờ hoặc ngừng hoạt động.",
+                "trust_cloudflare_label": "Trích xuất IP từ header của Cloudflare",
+                "trust_cloudflare_help": "Bắt buộc nếu trang của bạn nằm sau Cloudflare để đọc chính xác IP người dùng. Không bật tùy chọn này trong các trường hợp khác.",
+                "custom_block_message_label": "Thông báo chặn tùy chỉnh",
+                "ip_whitelist_label": "Danh sách IP cho phép",
+                "ip_whitelist_help": "Nhập các IP hoặc dải CIDR để bỏ qua kiểm tra proxy, mỗi mục một dòng."
             }
         }
     }
