@@ -7,7 +7,7 @@
                     "title": "Заголовок RSS канала",
                     "url": "URL RSS канала",
                     "user": "Связанный пользователь",
-                    "status": "Статус одобрения",
+                    "status": "Статус активации",
                     "actions": "Действия"
                 },
                 "view": "Смотреть",
@@ -31,7 +31,7 @@
                 "user_bind_tooltip": "Привязать пользователя",
                 "user_change_tooltip": "Изменить связанного пользователя",
                 "user_unbind_tooltip": "Удалить связанного пользователя",
-                "preview_default_title": "RSS Лента",
+                "preview_default_title": "RSS канал",
                 "preview_title": "RSS статьи из {title}",
                 "preview_empty": "Этот RSS канал не вернул ни одной статьи.",
                 "preview_error": "Не удалось получить этот RSS канал в реальном времени.",
@@ -41,13 +41,13 @@
         "forum": {
             "rss_link": "Независимые Блоги",
             "page_title": "Агрегатор RSS каналов",
-            "submit_feed_button": "Отправить ленту",
+            "submit_feed_button": "Отправить канал",
             "load_more": "Загрузить ещё",
-            "published_at": "Опубликовано в",
+            "published_at": "Опубликовано",
             "empty_text": "Пока нет доступных элементов RSS.",
             "load_error": "Не удалось загрузить элементы RSS.",
             "open_original": "Открыть исходную статью",
-            "unknown_site": "RSS Лента",
+            "unknown_site": "RSS Канал",
             "index": {
                 "switch_to_native_tooltip": "Переключиться на основной список тем",
                 "switch_to_rss_tooltip": "Переключиться на смешанный список RSS",
@@ -70,7 +70,7 @@
                 "validation_required": "Комментарий должен содержать текст.",
                 "validation_too_long": "Комментарий слишком длинный.",
                 "source_line": "Источник: {site}",
-                "published_line": "Опубликовано в: {time}",
+                "published_line": "Опубликовано: {time}",
                 "original_link_line": "Оригинальная статья: {url}"
             },
             "submit_modal": {
