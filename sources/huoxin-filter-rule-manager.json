@@ -83,8 +83,6 @@
             "settings": {
                 "global_evaluate_title": "Evaluate Discussion Title",
                 "global_evaluate_title_help": "If enabled, the rules engine will evaluate the title of the discussion alongside the post content.",
-                "global_strip_mentions": "Strip Mentions",
-                "global_strip_mentions_help": "If enabled, rulesets will strip all mentions from the text before evaluation by default (unless explicitly disabled on the ruleset).",
                 "global_strict_edit_evaluation": "Strict Edit Evaluation",
                 "global_strict_edit_evaluation_help": "If enabled, edits will be strictly evaluated, preventing grandfathering of approved violations.",
                 "global_auto_flag": "Auto Flag",
@@ -140,8 +138,6 @@
             "ruleset_evaluate_all_rules_help": "If enabled, the engine will evaluate every rule in this ruleset even if a match is already found. This allows you to gather tokens from multiple rules for your custom flag message. If disabled, the ruleset stops evaluating as soon as its condition is met, improving performance.",
             "ruleset_evaluate_title": "Evaluate Discussion Title",
             "ruleset_evaluate_title_help": "If enabled, the discussion title is prepended to the first post before evaluation.",
-            "ruleset_strip_mentions": "Strip Mentions Before Evaluation",
-            "ruleset_strip_mentions_help": "If enabled, all user and post mentions will be stripped from the text before it is evaluated by the rules.",
             "ruleset_auto_flag": "Auto-flag post on match",
             "ruleset_auto_flag_help": "If enabled, triggering this ruleset will automatically create a flag for moderators to review. (Requires flarum/flags)",
             "ruleset_require_approval": "Require approval on match",
@@ -194,6 +190,12 @@
             },
             "providers": {
                 "builtin": "Built-in"
+            },
+            "modifiers": {
+                "entire_post": "Entire Post",
+                "multiple_selected": "{count} Modifiers",
+                "strip_mentions": "Strip Mentions (@)",
+                "strip_mentions_help": "Removes all @ user mentions and post mentions from the text before checking it against this rule, preventing user names from triggering false positives."
             },
             "displays": {
                 "none": "None (Hidden)",

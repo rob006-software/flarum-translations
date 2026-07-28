@@ -83,8 +83,6 @@
             "settings": {
                 "global_evaluate_title": "ประเมินหัวข้อโพสต์",
                 "global_evaluate_title_help": "เมื่อเปิดใช้งาน engine กฎจะประเมินหัวข้อโพสต์ร่วมกับเนื้อหาโพสต์",
-                "global_strip_mentions": "",
-                "global_strip_mentions_help": "",
                 "global_strict_edit_evaluation": "",
                 "global_strict_edit_evaluation_help": "",
                 "global_auto_flag": "Auto Flag",
@@ -140,8 +138,6 @@
             "ruleset_evaluate_all_rules_help": "หากเปิดใช้งาน engine จะประเมินกฎทุกข้อใน Ruleset แม้จะพบการตรงกันแล้ว ช่วยให้รวบรวม token จากหลายกฎสำหรับข้อความ flag กำหนดเองได้ หากปิด Ruleset จะหยุดประเมินเมื่อเงื่อนไขตรงกัน ช่วยประหยัดประสิทธิภาพ",
             "ruleset_evaluate_title": "",
             "ruleset_evaluate_title_help": "เมื่อเปิดใช้งาน engine กฎจะประเมินหัวข้อโพสต์ร่วมกับเนื้อหาโพสต์",
-            "ruleset_strip_mentions": "",
-            "ruleset_strip_mentions_help": "",
             "ruleset_auto_flag": "Auto-flag โพสต์เมื่อตรงกัน",
             "ruleset_auto_flag_help": "หากเปิดใช้งาน การ trigger Ruleset จะสร้าง flag อัตโนมัติให้ moderator ตรวจสอบ (ต้องใช้ flarum/flags)",
             "ruleset_require_approval": "ต้องการการอนุมัติเมื่อตรงกัน",
@@ -194,6 +190,12 @@
             },
             "providers": {
                 "builtin": "Built-in"
+            },
+            "modifiers": {
+                "entire_post": "",
+                "multiple_selected": "",
+                "strip_mentions": "",
+                "strip_mentions_help": ""
             },
             "displays": {
                 "none": "",
