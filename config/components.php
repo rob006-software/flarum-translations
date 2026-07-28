@@ -680,6 +680,12 @@ return [
 	'peopleinside-antiflood' => [
 		'tag' => 'https://raw.githubusercontent.com/PeopleInside/flarum-ext-antiflood/2.0.1/locale/en.yml',
 	],
+	'peopleinside-automore' => [
+		'tag' => 'https://raw.githubusercontent.com/PeopleInside/automore/2.0.9/locale/en.yml',
+		'__builtInLanguages' => [
+			'it',
+		],
+	],
 	'peopleinside-fla-powcaptcha' => [
 		'tag' => 'https://raw.githubusercontent.com/PeopleInside/fla-powcaptcha/3.6.0/locale/en.yml',
 		'__builtInLanguages' => [
