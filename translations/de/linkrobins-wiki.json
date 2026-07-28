@@ -5,7 +5,7 @@
                 "create_article": "Wiki-Artikel erstellen",
                 "comment": "Wiki-Artikel kommentieren",
                 "edit_articles": "Alle Wiki-Artikel bearbeiten und moderieren",
-                "view_history": ""
+                "view_history": "Versionsverlauf des Wiki-Artikels anzeigen"
             },
             "index_layout": {
                 "heading": "Wiki-Startseite",
@@ -80,9 +80,9 @@
                 "title_edit": "Artikel bearbeiten",
                 "title_label": "Titel",
                 "title_placeholder": "Artikel-Titel",
-                "slug_label": "",
-                "slug_placeholder": "",
-                "slug_help": "",
+                "slug_label": "URL-Slug",
+                "slug_placeholder": "z. B. los-gehts",
+                "slug_help": "Wird in der URL des Artikels verwendet. Lasse das Feld leer, um die URL aus dem Titel zu generieren.",
                 "category_label": "Kategorie",
                 "no_category": "Keine Kategorie",
                 "body_label": "Inhalt",
@@ -92,7 +92,7 @@
                 "discard_confirm": "Du hast einen nicht gespeicherten Artikel. Möchtest du ihn verwerfen?",
                 "submit_create": "Artikel veröffentlichen",
                 "submit_update": "Änderungen speichern",
-                "faq_heading": "",
+                "faq_heading": "FAQ",
                 "faq_help": "",
                 "faq_question_placeholder": "",
                 "faq_answer_placeholder": "",
