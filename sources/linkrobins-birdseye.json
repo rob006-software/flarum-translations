@@ -10,6 +10,7 @@
                 "bounce_rate": "Bounce rate",
                 "avg_visit": "Avg. visit",
                 "posts": "Posts",
+                "signups": "Signups",
                 "new_members": "New members",
                 "visitors_per_day": "Visitors per day",
                 "top_pages": "Top pages",
@@ -25,6 +26,7 @@
                 "visitors_word": "visitors",
                 "views_word": "views",
                 "searches_word": "searches",
+                "members_word": "members",
                 "other": "Other",
                 "view_bars": "Bars",
                 "view_pie": "Pie",
@@ -34,9 +36,6 @@
                 "tags": "Top tags",
                 "unanswered": "Needs a reply",
                 "unanswered_note": "viewed this week, no replies",
-                "activation": "New-member activation",
-                "activation_help": "Share of new members who post within 7 days of joining. The newest weeks are still maturing.",
-                "joined_word": "joined",
                 "export": "Export as CSV",
                 "export_all": "Export CSV",
                 "totals": "Totals",
@@ -46,9 +45,7 @@
                 "col_views": "Views",
                 "col_searches": "Searches",
                 "col_value": "Value",
-                "col_week": "Week",
-                "col_converted": "Converted",
-                "col_activation_pct": "Activation %"
+                "col_members": "New members"
             }
         },
         "forum": {
@@ -70,7 +67,7 @@
                 "country_header_label": "Trusted country header",
                 "country_header_help": "The proxy header carrying each visitor's two-letter country code — CF-IPCountry on Cloudflare, or e.g. X-Country from nginx-geoip. It is trusted as-is, so only set a header your proxy really sets; leave it empty if you have no such proxy and rely on the anonymized IP prefix instead.",
                 "weekly_digest_label": "Weekly email digest",
-                "weekly_digest_help": "Every Monday, email administrators a summary of last week — visitors, pageviews, posts, new members, top discussion, and top search. Sent by your forum's own mailer; nothing leaves the server."
+                "weekly_digest_help": "Every Monday, email administrators a summary of last week — visitors, pageviews, posts, signups, top discussion, and top search. Sent by your forum's own mailer; nothing leaves the server."
             }
         },
         "email": {
@@ -80,7 +77,7 @@
                 "visitors_line": "Visitors: {count} ({change})",
                 "pageviews_line": "Pageviews: {count} ({change})",
                 "posts_line": "Posts: {count} ({change})",
-                "registrations_line": "New members: {count} ({change})",
+                "registrations_line": "Signups: {count} ({change})",
                 "top_discussion_line": "Top discussion: \"{title}\" ({views} views)",
                 "top_search_line": "Top search: \"{query}\" ({count} searches)",
                 "footer": "— Link Robins Birdseye. Turn this digest off any time under Admin → Birdseye."
