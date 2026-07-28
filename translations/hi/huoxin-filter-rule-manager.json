@@ -83,8 +83,6 @@
             "settings": {
                 "global_evaluate_title": "",
                 "global_evaluate_title_help": "",
-                "global_strip_mentions": "",
-                "global_strip_mentions_help": "",
                 "global_strict_edit_evaluation": "",
                 "global_strict_edit_evaluation_help": "",
                 "global_auto_flag": "",
@@ -140,8 +138,6 @@
             "ruleset_evaluate_all_rules_help": "",
             "ruleset_evaluate_title": "",
             "ruleset_evaluate_title_help": "",
-            "ruleset_strip_mentions": "",
-            "ruleset_strip_mentions_help": "",
             "ruleset_auto_flag": "",
             "ruleset_auto_flag_help": "",
             "ruleset_require_approval": "",
@@ -194,6 +190,12 @@
             },
             "providers": {
                 "builtin": ""
+            },
+            "modifiers": {
+                "entire_post": "",
+                "multiple_selected": "",
+                "strip_mentions": "",
+                "strip_mentions_help": ""
             },
             "displays": {
                 "none": "",
