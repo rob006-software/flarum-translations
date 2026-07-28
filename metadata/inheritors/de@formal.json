@@ -5376,6 +5376,19 @@
         }
     },
     "fof-blog.json": {
+        "flarum-audit": {
+            "lib": {
+                "browser": {
+                    "article": {
+                        "approved": "719bd007d5610ba3b4ba51c560d6a0ec 719bd007d5610ba3b4ba51c560d6a0ec",
+                        "created": "99649f68ed6a88d7ba8521eafb3b06e0 99649f68ed6a88d7ba8521eafb3b06e0",
+                        "featured": "d05e41c5d22001aacfac5934f6ddb568 d05e41c5d22001aacfac5934f6ddb568",
+                        "unfeatured": "4355eaa039c7c6cd7e51ac9fce2935ed 4355eaa039c7c6cd7e51ac9fce2935ed",
+                        "updated": "770a5ee49f9c4c95de5e40040a123c49 770a5ee49f9c4c95de5e40040a123c49"
+                    }
+                }
+            }
+        },
         "fof-blog": {
             "admin": {
                 "blog": "be8df1f28c0abc85a0ed0c6860e5d832 be8df1f28c0abc85a0ed0c6860e5d832",
@@ -5395,6 +5408,8 @@
                     "categories_heading": "2d707e301392c9ecf968755f45a08273 2d707e301392c9ecf968755f45a08273",
                     "categories_modal": {
                         "close": "8311b9b64370db830145f6612a9021fd 8311b9b64370db830145f6612a9021fd",
+                        "description": "7845886b1e9fb73779757ebba25b2eb1 7845886b1e9fb73779757ebba25b2eb1",
+                        "no_tags": "87b0707c8ec11276c9fa09f0d8436b3c 87b0707c8ec11276c9fa09f0d8436b3c",
                         "tag_name_column": "d7e0abdfd93465500c0b5fc74d51a0bb d7e0abdfd93465500c0b5fc74d51a0bb",
                         "visit_blog": "7bc30c828f2a1534a0a93929573ea67b 7bc30c828f2a1534a0a93929573ea67b"
                     },
@@ -5408,6 +5423,13 @@
                     "hide_tags_in_taglist_text": "26442b88695f9e71f14b05969590f955 26442b88695f9e71f14b05969590f955",
                     "no_categories_selected": "11c6a1f7dfc451a2aa80b73010c54679 11c6a1f7dfc451a2aa80b73010c54679",
                     "redirects_heading": "da55d88b759072f8f49f299bae781784 da55d88b759072f8f49f299bae781784",
+                    "redirects_options": {
+                        "both": "a3d69e998b862142a48436700563f3d2 a3d69e998b862142a48436700563f3d2",
+                        "discussions_only": "b0126f16de0c74e4b79e800fc126f128 b0126f16de0c74e4b79e800fc126f128",
+                        "none": "6e805280c9324b93d7a39e502b1907dc 6e805280c9324b93d7a39e502b1907dc",
+                        "tags_only": "44ed2171fc2dca0aea14c409ba834ca3 44ed2171fc2dca0aea14c409ba834ca3"
+                    },
+                    "redirects_text": "deffdbaea497074b8e6dcc579164ac03 deffdbaea497074b8e6dcc579164ac03",
                     "require_review_label": "3dbd1515e71eeda399d292b1c7c76a41 3dbd1515e71eeda399d292b1c7c76a41",
                     "require_review_text": "6ebae1946bc0ef8611c7b09f4e16a8d0 6ebae1946bc0ef8611c7b09f4e16a8d0",
                     "select_categories_button": "140aeafc13a3817e0c8acac636defde7 140aeafc13a3817e0c8acac636defde7",
@@ -5496,6 +5518,13 @@
                 },
                 "validation": {
                     "missing_id": "a341a7424cab5831ffcba60db29d42ea a341a7424cab5831ffcba60db29d42ea"
+                }
+            },
+            "lib": {
+                "gambits": {
+                    "blog": {
+                        "key": "126ac9f6149081eb0e97c2e939eaad52 126ac9f6149081eb0e97c2e939eaad52"
+                    }
                 }
             }
         }
@@ -12071,7 +12100,8 @@
                 "permissions": {
                     "comment": "503f2b20cfcedab7f69bf47ee229a857 503f2b20cfcedab7f69bf47ee229a857",
                     "create_article": "b25ffa593fdda7e1e7b3ec8992e41da8 b25ffa593fdda7e1e7b3ec8992e41da8",
-                    "edit_articles": "44e83c2bd869b251080d6df622cafe6d 44e83c2bd869b251080d6df622cafe6d"
+                    "edit_articles": "44e83c2bd869b251080d6df622cafe6d 44e83c2bd869b251080d6df622cafe6d",
+                    "view_history": "30b3a24f8c4aceb7754d88e55acf50be 30b3a24f8c4aceb7754d88e55acf50be"
                 },
                 "toc": {
                     "enabled_help": "42a696e0c29808960740e446bde99546 42a696e0c29808960740e446bde99546",
@@ -12125,7 +12155,11 @@
                     "body_placeholder_edit": "3f7597d63bc9ae66bc5be800a066561c 3f7597d63bc9ae66bc5be800a066561c",
                     "category_label": "efcfe755debad10919b919b6b2be112f efcfe755debad10919b919b6b2be112f",
                     "discard_confirm": "e1e6a0758004c544f1e886a18207ea05 e1e6a0758004c544f1e886a18207ea05",
+                    "faq_heading": "1fe917b01f9a3f87fa2d7d3b7643fac1 1fe917b01f9a3f87fa2d7d3b7643fac1",
                     "no_category": "3d0a9d58951fd9ec494a0e29ce791ee3 3d0a9d58951fd9ec494a0e29ce791ee3",
+                    "slug_help": "bdb9aeffc789814308324c11dad6301b bdb9aeffc789814308324c11dad6301b",
+                    "slug_label": "a625192fdabe2ad2e1d1ea5bea10a7a8 a625192fdabe2ad2e1d1ea5bea10a7a8",
+                    "slug_placeholder": "c759fdbb2f2d19b5578b8a6444c20a0b c759fdbb2f2d19b5578b8a6444c20a0b",
                     "submit_create": "6452f7bb162b366a30d979faab591b06 6452f7bb162b366a30d979faab591b06",
                     "submit_update": "2aecef96f81b160fed14d90375699a85 2aecef96f81b160fed14d90375699a85",
                     "title": "ed19b9829c8a8bdec94f0ac888392978 ed19b9829c8a8bdec94f0ac888392978",
