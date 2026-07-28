@@ -3041,6 +3041,9 @@
                 "use_for_discussions": "44f076307f416c69efef8056c8e1f2bb 44f076307f416c69efef8056c8e1f2bb",
                 "use_for_posts": "237c13ae588816f8a067425c18aafd02 237c13ae588816f8a067425c18aafd02",
                 "use_for_users": "95c966c2911a03db65c9345dc00ae497 95c966c2911a03db65c9345dc00ae497"
+            },
+            "forum": {
+                "powered_by": "8bd3fe55a18edcc0103275d0c8162942 8bd3fe55a18edcc0103275d0c8162942"
             }
         }
     },
@@ -5630,9 +5633,11 @@
             "lib": {
                 "gambits": {
                     "allows-pd": {
+                        "hint": "a78c5bf69b40d464b954ef76815c6fa0 a78c5bf69b40d464b954ef76815c6fa0",
                         "key": "2a86c283c7e54ca3f27d4c038deecb90 2a86c283c7e54ca3f27d4c038deecb90"
                     },
                     "byobu": {
+                        "hint": "140483df533928637bf54c23af998044 140483df533928637bf54c23af998044",
                         "key": "9326d04113ad8d70a38a1e68fdb10922 9326d04113ad8d70a38a1e68fdb10922"
                     },
                     "private": {
@@ -9019,7 +9024,8 @@
                     "qiniu": "b4700c5299e7ec6dd5331ebb754ba5b8 b4700c5299e7ec6dd5331ebb754ba5b8"
                 },
                 "warnings": {
-                    "fileinfo_missing": "275d7c0bc155fc4c59b1240b48a1ad9b 275d7c0bc155fc4c59b1240b48a1ad9b"
+                    "fileinfo_missing": "275d7c0bc155fc4c59b1240b48a1ad9b 275d7c0bc155fc4c59b1240b48a1ad9b",
+                    "max_file_size_exceeds_php": "7c51836c6dca4215845dae662b03f3d6 7c51836c6dca4215845dae662b03f3d6"
                 }
             },
             "api": {
@@ -11771,6 +11777,7 @@
         "linkrobins-html-widget": {
             "admin": {
                 "settings": {
+                    "background_help": "9ff7382801c218daace87c3ce6c3b16c 9ff7382801c218daace87c3ce6c3b16c",
                     "background_label": "86da8521b13dba2849903ecfd0380d6d 86da8521b13dba2849903ecfd0380d6d",
                     "body_help": "9684ee805eca8841735aa9e8a046e625 9684ee805eca8841735aa9e8a046e625",
                     "body_label": "c17a185a025ff0cacef6e9942212d02e c17a185a025ff0cacef6e9942212d02e",
@@ -11787,6 +11794,8 @@
         "linkrobins-markdown-widget": {
             "admin": {
                 "settings": {
+                    "background_help": "9ff7382801c218daace87c3ce6c3b16c 9ff7382801c218daace87c3ce6c3b16c",
+                    "background_label": "86da8521b13dba2849903ecfd0380d6d 86da8521b13dba2849903ecfd0380d6d",
                     "body_help": "304dcec21d2c6ae4dd07d00a05e4cadd 304dcec21d2c6ae4dd07d00a05e4cadd",
                     "body_label": "67f3300aa9c2b069ab1b9e79c3e5d31d 67f3300aa9c2b069ab1b9e79c3e5d31d",
                     "icon_help": "7bf1b4834c81470c195dfa616d927bf5 7bf1b4834c81470c195dfa616d927bf5",
