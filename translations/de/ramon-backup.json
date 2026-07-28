@@ -140,7 +140,7 @@
                 "phase_done": "Abgeschlossen",
                 "phase_error": "Fehler",
                 "phase_error_network": "Während der Sicherung ist die Verbindung zum Server unterbrochen worden. Der Auftrag wird möglicherweise noch auf dem Server ausgeführt – überprüfe in Kürze die Sicherungsliste.",
-                "warnings_title": "{count} Warnung zur Umwandlung|{count} Warnungen zur Umwandlung",
+                "warnings_title": "{count, plural, one {# Warnung zur Umwandlung} other {# Warnungen zur Umwandlung}}",
                 "warnings_help": "Einige Spalten verwenden Datentypen, für die es in der ausgewählten Ziel-Engine keine direkte Entsprechung gibt. Die Sicherung selbst wird zwar abgeschlossen – die Zielspalte wird jedoch möglicherweise nicht validiert oder verhält sich nicht identisch. Lese die folgenden Hinweise sorgfältig durch, bevor du diese Sicherung für die Migration verwendest."
             },
             "import_modal": {
