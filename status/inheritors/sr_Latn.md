@@ -2,7 +2,7 @@
 
 Translations for Serbian (Latin) (`sr_Latn`) are inherited from Serbian (Cyrillic), but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **280** are translated differently and **126** are
+sides, but do not match between them: **281** are translated differently and **126** are
 translated only in `sr_Latn`. Altogether they cover **18** components.
 
 <!-- {% raw %} -->
@@ -16,7 +16,7 @@ translated only in `sr_Latn`. Altogether they cover **18** components.
 | `blomstra-readme` | 0 | [1](#blomstra-readme-missing) |
 | `blomstra-realtime` | 0 | [2](#blomstra-realtime-missing) |
 | `clarkwinkelmann-likes-received` | 0 | [1](#clarkwinkelmann-likes-received-missing) |
-| `core` | [231](#core) | [34](#core-missing) |
+| `core` | [232](#core) | [34](#core-missing) |
 | `flarum-flags` | [2](#flarum-flags) | [3](#flarum-flags-missing) |
 | `flarum-likes` | [8](#flarum-likes) | 0 |
 | `flarum-lock` | [7](#flarum-lock) | 0 |
@@ -1466,10 +1466,10 @@ Promenite jezik<ins> foruma</ins>
 
 ```diff
 -Uključi / isključi padajući meni sa opcijama za sesiju
-+Uključite/Isključite padajući meni sa opcijama sesije
++Uključi ili isključi padajući meni sa opcijama sesije
 ```
 
-<del>Uključi / isključi</del><ins>Uključite/Isključite</ins> <del>padajući</del><ins>padajući</ins> meni sa opcijama<del> za</del> <del>sesiju</del><ins>sesije</ins>
+Uključi <del>/</del><ins>ili</ins> isključi <del>padajući</del><ins>padajući</ins> meni sa opcijama<del> za</del> <del>sesiju</del><ins>sesije</ins>
 
 #### [`core.forum.index.cannot_start_discussion_button`](https://weblate.rob006.net/translate/flarum/core/sr_Latn/?q=context%3A%3D%22core.forum.index.cannot_start_discussion_button%22)
 
@@ -1477,10 +1477,8 @@ Promenite jezik<ins> foruma</ins>
 
 ```diff
 -Ne možete početi diskusiju
-+Započnite diskusiju
++Nije moguće započeti temu
 ```
-
-<del>Ne možete početi</del><ins>Započnite</ins> diskusiju
 
 #### [`core.forum.index.mark_all_as_read_confirmation`](https://weblate.rob006.net/translate/flarum/core/sr_Latn/?q=context%3A%3D%22core.forum.index.mark_all_as_read_confirmation%22)
 
@@ -1488,10 +1486,10 @@ Promenite jezik<ins> foruma</ins>
 
 ```diff
 -Da li ste sigurni da želite da obeležite sve diskusije kao pročitane?
-+Da li ste sigurni da želite da sve diskusije označite kao pročitane?
++Da li ste sigurni da želite da označite sve teme kao pročitane?
 ```
 
-Da li ste sigurni da želite da <del>obeležite </del>sve diskusije<ins> označite</ins> kao pročitane?
+Da li ste sigurni da želite da <del>obeležite</del><ins>označite</ins> sve <del>diskusije</del><ins>teme</ins> kao pročitane?
 
 #### [`core.forum.index.refresh_tooltip`](https://weblate.rob006.net/translate/flarum/core/sr_Latn/?q=context%3A%3D%22core.forum.index.refresh_tooltip%22)
 
@@ -1508,10 +1506,10 @@ Da li ste sigurni da želite da <del>obeležite </del>sve diskusije<ins> označi
 
 ```diff
 -Uključi/isključi padajuću meni za navigaciju
-+Uključite/Isključite padajući meni za navigaciju
++Uključi ili isključi padajući meni za navigaciju
 ```
 
-<del>Uključi/isključi</del><ins>Uključite/Isključite</ins> <del>padajuću</del><ins>padajući</ins> meni za navigaciju
+<del>Uključi/isključi</del><ins>Uključi</ins> <del>padajuću</del><ins>ili isključi padajući</ins> meni za navigaciju
 
 #### [`core.forum.index_sort.latest_button`](https://weblate.rob006.net/translate/flarum/core/sr_Latn/?q=context%3A%3D%22core.forum.index_sort.latest_button%22)
 
@@ -1708,6 +1706,17 @@ Da li <del>želite</del><ins>ste sigurni</ins> da <del>obrišete</del><ins>želi
 
 Da li ste sigurni da želite da <del>obrišete</del><ins>izbrišete</ins> <del>ovu</del><ins>ovaj</ins> <del>poruku?</del><ins>odgovor?</ins>
 
+#### [`core.forum.post_controls.toggle_dropdown_accessible_label`](https://weblate.rob006.net/translate/flarum/core/sr_Latn/?q=context%3A%3D%22core.forum.post_controls.toggle_dropdown_accessible_label%22)
+
+> Toggle post controls dropdown menu
+
+```diff
+-Uključi / isključi padajući meni za kontrolu poruke
++Uključi ili isključi padajući meni za kontrolu odgovora
+```
+
+Uključi <del>/</del><ins>ili</ins> isključi padajući meni za kontrolu <del>poruke</del><ins>odgovora</ins>
+
 #### [`core.forum.post_scrubber.now_link`](https://weblate.rob006.net/translate/flarum/core/sr_Latn/?q=context%3A%3D%22core.forum.post_scrubber.now_link%22)
 
 > Now
@@ -1880,10 +1889,10 @@ Korisnik &lt;i&gt;{username} ({email})&lt;/i&gt; je <del>obrisan</del><ins>uspe�
 
 ```diff
 -Uključi / isključi padajući meni za korisničke kontrole
-+Uključite/Isključite padajući meni korisničkih kontrola
++Uključi ili isključi padajući meni korisničkih kontrola
 ```
 
-<del>Uključi / isključi</del><ins>Uključite/Isključite</ins> <del>padajući</del><ins>padajući</ins> meni<del> za</del> <del>korisničke</del><ins>korisničkih</ins> <del>kontrole</del><ins>kontrola</ins>
+Uključi <del>/</del><ins>ili</ins> isključi <del>padajući</del><ins>padajući</ins> meni<del> za</del> <del>korisničke</del><ins>korisničkih</ins> <del>kontrole</del><ins>kontrola</ins>
 
 #### [`core.forum.welcome_hero.hide`](https://weblate.rob006.net/translate/flarum/core/sr_Latn/?q=context%3A%3D%22core.forum.welcome_hero.hide%22)
 
@@ -1920,10 +1929,10 @@ Korisnik &lt;i&gt;{username} ({email})&lt;/i&gt; je <del>obrisan</del><ins>uspe�
 
 ```diff
 -Uključi / isključi padajući meni
-+Uključite/Isključite padajući meni
++Uključi ili isključi padajući meni
 ```
 
-<del>Uključi / isključi</del><ins>Uključite/Isključite</ins> <del>padajući</del><ins>padajući</ins> meni
+Uključi <del>/</del><ins>ili</ins> isključi <del>padajući</del><ins>padajući</ins> meni
 
 #### [`core.lib.edit_user.activate_button`](https://weblate.rob006.net/translate/flarum/core/sr_Latn/?q=context%3A%3D%22core.lib.edit_user.activate_button%22)
 
