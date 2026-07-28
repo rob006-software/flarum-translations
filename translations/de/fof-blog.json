@@ -12,10 +12,10 @@
                 "selected_category_count": "{count, plural, one {Du hast # Kategorie ausgewählt} other {Du hast # Kategorien ausgewählt}}",
                 "select_categories_button": "Blog-Kategorien auswählen",
                 "categories_modal": {
-                    "description": "",
+                    "description": "Bitte wähle ein oder mehrere Tags aus, die als Blog-Tags gelten.",
                     "visit_blog": "Besuche dein Blog.",
                     "tag_name_column": "Tagname",
-                    "no_tags": "",
+                    "no_tags": "Du hast derzeit keine Tags.",
                     "close": "Schließen"
                 },
                 "blog_heading": "Blog",
@@ -35,12 +35,12 @@
                 "show_tag_hierarchy_label": "Tag-Hierarchie anzeigen",
                 "show_tag_hierarchy_text": "Füge Abstände zu den Unterkategorien hinzu und gebe der Kategorieliste eine Hierarchie.",
                 "redirects_heading": "Umleitungen",
-                "redirects_text": "",
+                "redirects_text": "URLs der ursprünglichen Diskussionen und Tags auf die entsprechenden Blog-Beiträge weiterleiten.",
                 "redirects_options": {
-                    "both": "",
-                    "discussions_only": "",
-                    "tags_only": "",
-                    "none": ""
+                    "both": "Artikel und Tags weiterleiten",
+                    "discussions_only": "Nur Artikel weiterleiten",
+                    "tags_only": "Nur Tags weiterleiten",
+                    "none": "Keine Weiterleitungen"
                 },
                 "default_article_image_label": "Standardartikelbild",
                 "default_article_image_text": "Wähle ein Standardartikelbild aus, das angezeigt werden soll, wenn kein Bild eingestellt ist.",
@@ -133,7 +133,7 @@
         "lib": {
             "gambits": {
                 "blog": {
-                    "key": ""
+                    "key": "blog"
                 }
             }
         }
@@ -142,11 +142,11 @@
         "lib": {
             "browser": {
                 "article": {
-                    "created": "",
-                    "approved": "",
-                    "updated": "",
-                    "featured": "",
-                    "unfeatured": ""
+                    "created": "Hat den Blog-Artikel {discussion} erstellt",
+                    "approved": "Hat den Blog-Artikel {discussion} genehmigt",
+                    "updated": "Hat Metadaten für den Blog-Artikel {discussion} aktualisiert",
+                    "featured": "Hat den Blog-Artikel {discussion} hervorgehoben",
+                    "unfeatured": "Hat die Hervorhebung des Blog-Artikels {discussion} entfernt"
                 }
             }
         }
