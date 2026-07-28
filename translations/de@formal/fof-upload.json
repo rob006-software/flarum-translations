@@ -79,8 +79,8 @@
                     "bucket": "Bucket"
                 },
                 "preferences": {
-                    "max_file_size": "Maximale Dateigröße (in Kilobytes)",
-                    "max_file_size_equivalent": "",
+                    "max_file_size": "Maximale Dateigröße",
+                    "max_file_size_equivalent": "Gespeichert als <code>{kb}</code> KB ({value}).",
                     "mime_types": "Konfiguriere deinen MIME-Typ, lade ein Adapter-Mapping hoch",
                     "mime_type_regex_placeholder": "z.B. ^image/(jpeg|png|gif)$",
                     "mime_type_regex_invalid": "Ungültiger regulärer Ausdruck (z. B. leere Alternativen wie ||)",
