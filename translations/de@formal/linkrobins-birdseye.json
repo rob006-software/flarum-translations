@@ -66,7 +66,7 @@
                 "geo_ip_prefix_help": "",
                 "country_header_label": "",
                 "country_header_help": "",
-                "weekly_digest_label": "",
+                "weekly_digest_label": "Wöchentliche E-Mail-Zusammenfassung",
                 "weekly_digest_help": ""
             }
         },
@@ -78,8 +78,8 @@
                 "pageviews_line": "Seitenaufrufe: {count} ({change})",
                 "posts_line": "Beiträge: {count} ({change})",
                 "registrations_line": "Registrierungen: {count} ({change})",
-                "top_discussion_line": "",
-                "top_search_line": "",
+                "top_discussion_line": "Beliebteste Diskussion: „{title}“ ({views} Aufrufe)",
+                "top_search_line": "Beliebtester Suchbegriff: „{query}“ ({count} Suchen)",
                 "footer": ""
             }
         }
