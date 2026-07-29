@@ -1,0 +1,23 @@
+{
+    "linkrobins-badge-labels": {
+        "forum": {
+            "post_count": "{count, plural, one {# post} other {# posts}}"
+        },
+        "admin": {
+            "settings": {
+                "layout_label": "Badge placement",
+                "layout_help": "Where a post author's badges appear. Below the avatar gives each badge its own row in a widened author column. Beside the username keeps the author column as it is and puts the badges on the post header line.",
+                "layout_below": "Below the avatar",
+                "layout_beside": "Beside the username",
+                "labels_label": "Show full badge titles",
+                "labels_help": "Show each badge's name next to its icon instead of the icon on its own.",
+                "post_count_label": "Show the author's post count",
+                "post_count_help": "Adds the number of posts the author has written, under their badges.",
+                "column_width_label": "Author column width (pixels)",
+                "column_width_help": "How much room the badges and titles get beside the post. Only used when the badges sit below the avatar. Between 85 and 400.",
+                "phone_label": "Apply on phones too",
+                "phone_help": "Off by default, because phones show a compact post header where Flarum tucks the badges over the avatar. Turn this on to show titles and the post count there as well."
+            }
+        }
+    }
+}
