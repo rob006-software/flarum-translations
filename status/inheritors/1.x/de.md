@@ -2,8 +2,8 @@
 
 Translations for German (`de`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **265** are translated differently and **442** are
-translated only in `de`. Altogether they cover **73** components.
+sides, but do not match between them: **285** are translated differently and **442** are
+translated only in `de`. Altogether they cover **79** components.
 
 <!-- {% raw %} -->
 
@@ -12,14 +12,15 @@ translated only in `de`. Altogether they cover **73** components.
 
 | Component | Different translations | Missing translations |
 | --- | --- | --- |
-| `core` | [4](#core) | 0 |
+| `acpl-lscache` | [2](#acpl-lscache) | 0 |
+| `core` | [5](#core) | 0 |
 | `datitisev-backup` | [3](#datitisev-backup) | 0 |
 | `datlechin-passkey` | [4](#datlechin-passkey) | 0 |
 | `datlechin-tag-passwords` | [13](#datlechin-tag-passwords) | 0 |
 | `ernestdefoe-aurora` | 0 | [20](#ernestdefoe-aurora-missing) |
 | `flarum-audit` | [1](#flarum-audit) | 0 |
 | `flarum-extension-manager` | [5](#flarum-extension-manager) | 0 |
-| `flarum-flags` | [3](#flarum-flags) | 0 |
+| `flarum-flags` | [4](#flarum-flags) | 0 |
 | `flarum-nicknames` | [1](#flarum-nicknames) | 0 |
 | `flarum-pusher` | [2](#flarum-pusher) | 0 |
 | `flarum-statistics` | [1](#flarum-statistics) | 0 |
@@ -28,29 +29,32 @@ translated only in `de`. Altogether they cover **73** components.
 | `fof-anti-spam` | [5](#fof-anti-spam) | 0 |
 | `fof-badges` | [5](#fof-badges) | 0 |
 | `fof-best-answer` | [5](#fof-best-answer) | 0 |
-| `fof-byobu` | [2](#fof-byobu) | 0 |
+| `fof-blog` | [2](#fof-blog) | 0 |
+| `fof-byobu` | [4](#fof-byobu) | 0 |
 | `fof-categories` | [5](#fof-categories) | 0 |
 | `fof-checklist` | [1](#fof-checklist) | 0 |
 | `fof-default-group` | [1](#fof-default-group) | 0 |
 | `fof-default-user-preferences` | [7](#fof-default-user-preferences) | 0 |
 | `fof-discussion-templates` | [5](#fof-discussion-templates) | 0 |
 | `fof-doorman` | [1](#fof-doorman) | 0 |
-| `fof-gamification` | [7](#fof-gamification) | 0 |
+| `fof-gamification` | [9](#fof-gamification) | 0 |
 | `fof-geoip` | [2](#fof-geoip) | 0 |
 | `fof-impersonate` | [1](#fof-impersonate) | 0 |
 | `fof-links` | [2](#fof-links) | 0 |
 | `fof-masquerade` | [2](#fof-masquerade) | 0 |
 | `fof-merge-discussions` | [5](#fof-merge-discussions) | 0 |
+| `fof-moderator-notes` | [1](#fof-moderator-notes) | 0 |
 | `fof-moderator-warnings` | [6](#fof-moderator-warnings) | 0 |
 | `fof-move-posts` | [2](#fof-move-posts) | 0 |
 | `fof-oauth` | [3](#fof-oauth) | 0 |
 | `fof-polls` | [5](#fof-polls) | 0 |
+| `fof-reactions` | [3](#fof-reactions) | 0 |
 | `fof-seo` | [3](#fof-seo) | 0 |
 | `fof-sitemap` | [3](#fof-sitemap) | 0 |
 | `fof-terms` | [1](#fof-terms) | 0 |
 | `fof-upload` | [1](#fof-upload) | 0 |
 | `fof-username-request` | [8](#fof-username-request) | 0 |
-| `fof-webhooks` | [3](#fof-webhooks) | 0 |
+| `fof-webhooks` | [4](#fof-webhooks) | 0 |
 | `forumaker-magicbb` | [3](#forumaker-magicbb) | [19](#forumaker-magicbb-missing) |
 | `forumaker-magicread` | 0 | [18](#forumaker-magicread-missing) |
 | `forumaker-magicslider` | [2](#forumaker-magicslider) | 0 |
@@ -61,7 +65,9 @@ translated only in `de`. Altogether they cover **73** components.
 | `ianm-boring-avatars` | [1](#ianm-boring-avatars) | 0 |
 | `ianm-follow-users` | [1](#ianm-follow-users) | 0 |
 | `ianm-syndication` | [7](#ianm-syndication) | 0 |
-| `justoverclock-related-discussions` | [1](#justoverclock-related-discussions) | 0 |
+| `ianm-twofactor` | [3](#ianm-twofactor) | 0 |
+| `justoverclock-related-discussions` | [2](#justoverclock-related-discussions) | 0 |
+| `justoverclock-welcomebox` | [1](#justoverclock-welcomebox) | 0 |
 | `maicol07-sso` | 0 | [13](#maicol07-sso-missing) |
 | `michaelbelgium-ai-autoreply` | 0 | [22](#michaelbelgium-ai-autoreply-missing) |
 | `migratetoflarum-fake-data` | [1](#migratetoflarum-fake-data) | 0 |
@@ -92,6 +98,31 @@ translated only in `de`. Altogether they cover **73** components.
 Each entry contains the English source string, followed by a diff between the translation from Flarum 1.x (`-` line) and the translation from `de` (`+` line). Changed words are additionally marked as <del>removed</del> and <ins>added</ins> below the diff.
 
 
+### `acpl-lscache`
+
+#### [`acpl-lscache.admin.public_cache_ttl_help`](https://weblate.rob006.net/translate/flarum2/acpl-lscache/de/?q=context%3A%3D%22acpl-lscache.admin.public_cache_ttl_help%22)
+
+> Define how long, in seconds, public pages should be cached. The default value is 604800 seconds (one week).
+
+```diff
+-Gebe an, wie lange (in Sekunden) öffentliche Seiten zwischengespeichert werden. Standard sind 604800 Sekunden (eine Woche).
++Gib an, wie lange (in Sekunden) öffentliche Seiten zwischengespeichert werden. Standard sind 604800 Sekunden (eine Woche).
+```
+
+<del>Gebe</del><ins>Gib</ins> an, wie lange (in Sekunden) öffentliche Seiten zwischengespeichert werden. Standard sind 604800 Sekunden (eine Woche).
+
+#### [`acpl-lscache.admin.purge_on_discussion_update_help`](https://weblate.rob006.net/translate/flarum2/acpl-lscache/de/?q=context%3A%3D%22acpl-lscache.admin.purge_on_discussion_update_help%22)
+
+> Enter the URLs or cache Tags you want to purge when a discussion is updated, one per line. URL should start with &lt;code&gt;/&lt;/code&gt;, e.g. &lt;code&gt;/rankings&lt;/code&gt;, and cache Tag should start with &lt;code&gt;tag=&lt;/code&gt;, e.g. &lt;code&gt;tag=rankings&lt;/code&gt;. For multiple routes, adding a rule in .htaccess with a regular expression that tags routes and entering only this tag here is faster. &lt;a&gt;Learn more&lt;/a&gt;. By default, the cache for the homepage and updated discussions is purged.
+
+```diff
+-Gebe die URLs oder Cache-Tags ein, die du löschen möchten, wenn eine Diskussion aktualisiert wird, jeweils eine pro Zeile. Die URL sollte mit <code>/</code> beginnen, z. B. <code>/rankings</code>, und das Cache-Tag sollte mit <code>tag=</code> beginnen, z. B. <code>tag=rankings</code>. Bei mehreren Routen ist es schneller, eine Regel in .htaccess mit einem regulären Ausdruck hinzuzufügen, der Routen markiert, und hier nur dieses Tag einzugeben. <a>Weitere Informationen</a>. Standardmäßig wird der Cache für die Startseite und aktualisierte Diskussionen gelöscht.
++Gib die URLs oder Cache-Tags ein, die du löschen möchten, wenn eine Diskussion aktualisiert wird, jeweils eine pro Zeile. Die URL sollte mit <code>/</code> beginnen, z. B. <code>/rankings</code>, und das Cache-Tag sollte mit <code>tag=</code> beginnen, z. B. <code>tag=rankings</code>. Bei mehreren Routen ist es schneller, eine Regel in .htaccess mit einem regulären Ausdruck hinzuzufügen, der Routen markiert, und hier nur dieses Tag einzugeben. <a>Weitere Informationen</a>. Standardmäßig wird der Cache für die Startseite und aktualisierte Diskussionen gelöscht.
+```
+
+<del>Gebe</del><ins>Gib</ins> die URLs oder Cache-Tags ein, die du löschen möchten, wenn eine Diskussion aktualisiert wird, jeweils eine pro Zeile. Die URL sollte mit &lt;code&gt;/&lt;/code&gt; beginnen, z. B. &lt;code&gt;/rankings&lt;/code&gt;, und das Cache-Tag sollte mit &lt;code&gt;tag=&lt;/code&gt; beginnen, z. B. &lt;code&gt;tag=rankings&lt;/code&gt;. Bei mehreren Routen ist es schneller, eine Regel in .htaccess mit einem regulären Ausdruck hinzuzufügen, der Routen markiert, und hier nur dieses Tag einzugeben. &lt;a&gt;Weitere Informationen&lt;/a&gt;. Standardmäßig wird der Cache für die Startseite und aktualisierte Diskussionen gelöscht.
+
+
 ### `core`
 
 #### [`core.admin.basics.forum_description_heading`](https://weblate.rob006.net/translate/flarum2/core/de/?q=context%3A%3D%22core.admin.basics.forum_description_heading%22)
@@ -111,6 +142,17 @@ Each entry contains the English source string, followed by a diff between the tr
 -Titel des Forums
 +Forumtitel
 ```
+
+#### [`core.forum.forgot_password.text`](https://weblate.rob006.net/translate/flarum2/core/de/?q=context%3A%3D%22core.forum.forgot_password.text%22)
+
+> Enter your email address and we will send you a link to reset your password.
+
+```diff
+-Bitte gebe deine E-Mail-Adresse ein, um einen Link zum Zurücksetzen deines Passwortes zu erhalten.
++Bitte gib deine E-Mail-Adresse ein, um einen Link zum Zurücksetzen deines Passwortes zu erhalten.
+```
+
+Bitte <del>gebe</del><ins>gib</ins> deine E-Mail-Adresse ein, um einen Link zum Zurücksetzen deines Passwortes zu erhalten.
 
 #### [`core.lib.series.glue_text`](https://weblate.rob006.net/translate/flarum2/core/de/?q=context%3A%3D%22core.lib.series.glue_text%22)
 
@@ -464,6 +506,17 @@ Erlaube <del>Benutzern</del><ins>Benutzern,</ins> eigene Beiträge zu melden
 -Community-Richtlinien URL
 +Community-Richtlinien-URL
 ```
+
+#### [`flarum-flags.forum.flag_post.reason_missing_message`](https://weblate.rob006.net/translate/flarum2/flarum-flags/de/?q=context%3A%3D%22flarum-flags.forum.flag_post.reason_missing_message%22)
+
+> Please provide some details for our moderators.
+
+```diff
+-Bitte gebe einen Grund an.
++Bitte gib einen Grund an.
+```
+
+Bitte <del>gebe</del><ins>gib</ins> einen Grund an.
 
 
 ### `flarum-nicknames`
@@ -1088,7 +1141,43 @@ Wenn ein Tag „Beste Antwort“ aktiviert ist, <del>weisen Sie</del><ins>weise<
 <del>Konnten</del><ins>Konntest</ins> <del>Sie</del><ins>du</ins> eine Antwort auf <del>Ihre</del><ins>deine</ins> Frage erhalten?
 
 
+### `fof-blog`
+
+#### [`fof-blog.admin.settings.show_tag_hierarchy_text`](https://weblate.rob006.net/translate/flarum2/fof-blog/de/?q=context%3A%3D%22fof-blog.admin.settings.show_tag_hierarchy_text%22)
+
+> Add spacing to child-categories and give the category-list a hierarchy.
+
+```diff
+-Füge Abstände zu den Unterkategorien hinzu und gebe der Kategorieliste eine Hierarchie.
++Füge Abstände zu den Unterkategorien hinzu und gib der Kategorieliste eine Hierarchie.
+```
+
+Füge Abstände zu den Unterkategorien hinzu und <del>gebe</del><ins>gib</ins> der Kategorieliste eine Hierarchie.
+
+#### [`fof-blog.forum.composer.enter_message_here`](https://weblate.rob006.net/translate/flarum2/fof-blog/de/?q=context%3A%3D%22fof-blog.forum.composer.enter_message_here%22)
+
+> Enter your message here
+
+```diff
+-Gebe deine Nachricht hier ein
++Gib deine Nachricht hier ein
+```
+
+<del>Gebe</del><ins>Gib</ins> deine Nachricht hier ein
+
+
 ### `fof-byobu`
+
+#### [`fof-byobu.admin.permission.create_private_discussions_with_blocking_users`](https://weblate.rob006.net/translate/flarum2/fof-byobu/de/?q=context%3A%3D%22fof-byobu.admin.permission.create_private_discussions_with_blocking_users%22)
+
+> Create private discussions with users that block it
+
+```diff
+-Erstelle private Diskussionen mit Nutzern, die du blockierst
++Erstelle private Diskussionen mit Nutzern, die dies blockieren
+```
+
+Erstelle private Diskussionen mit Nutzern, die <del>du</del><ins>dies</ins> <del>blockierst</del><ins>blockieren</ins>
 
 #### [`fof-byobu.admin.settings.badge-icon`](https://weblate.rob006.net/translate/flarum2/fof-byobu/de/?q=context%3A%3D%22fof-byobu.admin.settings.badge-icon%22)
 
@@ -1109,6 +1198,17 @@ Wenn ein Tag „Beste Antwort“ aktiviert ist, <del>weisen Sie</del><ins>weise<
 ```
 
 Fügt die Möglichkeit für diejenigen hinzu, die die Berechtigung haben, alle Empfänger zu entfernen, ein neues <del>Thema</del><ins>Tag</ins> zuzuweisen und die Diskussion öffentlich sichtbar zu machen (gemäß den Sichtbarkeitseinstellungen des ausgewählten <del>Themas).</del><ins>Tags).</ins>
+
+#### [`fof-byobu.admin.settings.post-event-icon`](https://weblate.rob006.net/translate/flarum2/fof-byobu/de/?q=context%3A%3D%22fof-byobu.admin.settings.post-event-icon%22)
+
+> Byobu Post Events
+
+```diff
+-Byobu Post Ereignisse
++Byobu Post-Ereignisse
+```
+
+Byobu <del>Post Ereignisse</del><ins>Post-Ereignisse</ins>
 
 
 ### `fof-categories`
@@ -1343,6 +1443,28 @@ Verwalte eine Vorlage für neue Diskussionen in diesem <del>Thema.</del><ins>Tag
 
 ### `fof-gamification`
 
+#### [`fof-gamification.admin.page.ranks.help.help`](https://weblate.rob006.net/translate/flarum2/fof-gamification/de/?q=context%3A%3D%22fof-gamification.admin.page.ranks.help.help%22)
+
+> Input the required number of upvotes, the name of the rank, and the hex color of the rank
+
+```diff
+-Gebe die gewünschte Anzahl an Upvotes, den Namen des Ranges und die Hex-Farbe des Ranges ein
++Gib die gewünschte Anzahl an Upvotes, den Namen des Ranges und die Hex-Farbe des Ranges ein
+```
+
+<del>Gebe</del><ins>Gib</ins> die gewünschte Anzahl an Upvotes, den Namen des Ranges und die Hex-Farbe des Ranges ein
+
+#### [`fof-gamification.admin.page.votes.icon_help`](https://weblate.rob006.net/translate/flarum2/fof-gamification/de/?q=context%3A%3D%22fof-gamification.admin.page.votes.icon_help%22)
+
+> Input any Font-Awesome icon that is suffixed with -up and -down. Examples: arrow, thumbs, chevron
+
+```diff
+-Gebe ein beliebiges Font-Awesome-Icon mit den Endungen -up und -down ein. Beispiele: arrow, thumbs, chevron
++Gib ein beliebiges Font-Awesome-Symbol mit den Endungen -up und -down ein. Beispiele: arrow, thumbs, chevron
+```
+
+<del>Gebe</del><ins>Gib</ins> ein beliebiges <del>Font-Awesome-Icon</del><ins>Font-Awesome-Symbol</ins> mit den Endungen -up und -down ein. Beispiele: arrow, thumbs, chevron
+
 #### [`fof-gamification.forum.modal.title`](https://weblate.rob006.net/translate/flarum2/fof-gamification/de/?q=context%3A%3D%22fof-gamification.forum.modal.title%22)
 
 > Voters
@@ -1560,6 +1682,20 @@ Deine Diskussion <del>"{merged\_discussion\_title}"</del><ins>„{merged\_discus
 ```
 
 
+### `fof-moderator-notes`
+
+#### [`fof-moderator-notes.forum.moderatorNotes.input_heading`](https://weblate.rob006.net/translate/flarum2/fof-moderator-notes/de/?q=context%3A%3D%22fof-moderator-notes.forum.moderatorNotes.input_heading%22)
+
+> Enter your notes for &lt;strong&gt;{username}&lt;/strong&gt;, (markdown is supported)
+
+```diff
+-Gebe deine Notizen für <strong>{username}</strong> ein, (Markdown wird unterstützt)
++Gib deine Notizen für <strong>{username}</strong> ein, (Markdown wird unterstützt)
+```
+
+<del>Gebe</del><ins>Gib</ins> deine Notizen für &lt;strong&gt;{username}&lt;/strong&gt; ein, (Markdown wird unterstützt)
+
+
 ### `fof-moderator-warnings`
 
 #### [`fof-moderator-warnings.forum.validation.public_comment_required`](https://weblate.rob006.net/translate/flarum2/fof-moderator-warnings/de/?q=context%3A%3D%22fof-moderator-warnings.forum.validation.public_comment_required%22)
@@ -1736,6 +1872,42 @@ Beim Speichern der Umfrage ist ein Fehler aufgetreten, bitte <del>kontaktieren S
 ```
 
 <del>Sind Sie sicher, dass</del><ins>Möchtest</ins> <del>Sie</del><ins>du</ins> diese Umfrage-Gruppe <del>löschen</del><ins>wirklich</ins> <del>möchten?</del><ins>löschen?</ins>
+
+
+### `fof-reactions`
+
+#### [`fof-reactions.admin.page.settings.integrations.gamification.downvoteHelptext`](https://weblate.rob006.net/translate/flarum2/fof-reactions/de/?q=context%3A%3D%22fof-reactions.admin.page.settings.integrations.gamification.downvoteHelptext%22)
+
+> Enter the identifier of the reaction you would like to automatically convert into an downvote
+
+```diff
+-Gebe den Bezeichner der Reaktion ein, die du automatisch in ein Downvote umwandeln möchtest
++Gib den Bezeichner der Reaktion ein, die du automatisch in ein Downvote umwandeln möchtest
+```
+
+<del>Gebe</del><ins>Gib</ins> den Bezeichner der Reaktion ein, die du automatisch in ein Downvote umwandeln möchtest
+
+#### [`fof-reactions.admin.page.settings.integrations.gamification.upvoteHelptext`](https://weblate.rob006.net/translate/flarum2/fof-reactions/de/?q=context%3A%3D%22fof-reactions.admin.page.settings.integrations.gamification.upvoteHelptext%22)
+
+> Enter the identifier of the reaction you would like to automatically convert into an upvote
+
+```diff
+-Gebe den Bezeichner der Reaktion ein, die du automatisch in ein Upvote umwandeln möchtest
++Gib den Bezeichner der Reaktion ein, die du automatisch in ein Upvote umwandeln möchtest
+```
+
+<del>Gebe</del><ins>Gib</ins> den Bezeichner der Reaktion ein, die du automatisch in ein Upvote umwandeln möchtest
+
+#### [`fof-reactions.admin.page.settings.integrations.likes.Helptext`](https://weblate.rob006.net/translate/flarum2/fof-reactions/de/?q=context%3A%3D%22fof-reactions.admin.page.settings.integrations.likes.Helptext%22)
+
+> Enter the identifier of the reaction you would like to automatically convert into a like
+
+```diff
+-Gebe den Bezeichner der Reaktion ein, die du automatisch in ein Gefällt mir umwandeln möchtest
++Gib den Bezeichner der Reaktion ein, die du automatisch in ein Gefällt mir umwandeln möchtest
+```
+
+<del>Gebe</del><ins>Gib</ins> den Bezeichner der Reaktion ein, die du automatisch in ein Gefällt mir umwandeln möchtest
 
 
 ### `fof-seo`
@@ -1941,6 +2113,17 @@ Du kannst Webhooks auf bestimmte Tags beschränken. Wenn du bestimmte Tags ausw�
 ```
 
 Zutreffende <del>Themen</del><ins>Tags</ins> einschliessen — Für Webhooks, die auf bestimmte <del>Themen</del><ins>Tags</ins> beschränkt sind, wird angezeigt,<del> welche</del> <del>Themen</del><ins>welches</ins> das Ereignis <del>auslösen</del><ins>auslöst</ins>
+
+#### [`fof-webhooks.admin.settings.modal.max_post_content_length_help`](https://weblate.rob006.net/translate/flarum2/fof-webhooks/de/?q=context%3A%3D%22fof-webhooks.admin.settings.modal.max_post_content_length_help%22)
+
+> Set a number to limit the post content in all post-related events. Change to 0 or nothing to remove limit.
+
+```diff
+-Bestimme ein Zahl um die Länge von Beiträgen in allen Beitrags-bezogenen Ereignissen zu limitieren. Um das Limit zu entfernen, gebe 0 oder nichts ein.
++Gib eine Zahl an, um den Inhalt von Beiträgen in allen Beitrags-bezogenen Ereignissen zu limitieren. Um das Limit zu entfernen, gib 0 oder nichts ein.
+```
+
+<del>Bestimme</del><ins>Gib</ins> <del>ein</del><ins>eine</ins> Zahl<ins> an,</ins> um <del>die</del><ins>den</ins> <del>Länge</del><ins>Inhalt</ins> von Beiträgen in allen Beitrags-bezogenen Ereignissen zu limitieren. Um das Limit zu entfernen, <del>gebe</del><ins>gib</ins> 0 oder nichts ein.
 
 
 ### `forumaker-magicbb`
@@ -2537,7 +2720,54 @@ Neueste Beiträge im <del>Thema</del><ins>Tag</ins> {tag}
 Aktivität im <del>Thema</del><ins>Tag</ins> {tag}
 
 
+### `ianm-twofactor`
+
+#### [`ianm-twofactor.forum.security.enable_2fa_modal_text`](https://weblate.rob006.net/translate/flarum2/ianm-twofactor/de/?q=context%3A%3D%22ianm-twofactor.forum.security.enable_2fa_modal_text%22)
+
+> Scan the QR code below with your authentication app, then enter the provided token to enable Two-Factor Authentication.
+
+```diff
+-Scanne den unten stehenden QR-Code mit deiner Authentifizierungs-App und gebe dann den generierten Sicherheitsschlüssel ein, um die Zwei-Faktor-Authentifizierung zu aktivieren.
++Scanne den unten stehenden QR-Code mit deiner Authentifizierungs-App und gib dann den generierten Sicherheitsschlüssel ein, um die Zwei-Faktor-Authentifizierung zu aktivieren.
+```
+
+Scanne den unten stehenden QR-Code mit deiner Authentifizierungs-App und <del>gebe</del><ins>gib</ins> dann den generierten Sicherheitsschlüssel ein, um die Zwei-Faktor-Authentifizierung zu aktivieren.
+
+#### [`ianm-twofactor.forum.security.manual_entry_instruction`](https://weblate.rob006.net/translate/flarum2/ianm-twofactor/de/?q=context%3A%3D%22ianm-twofactor.forum.security.manual_entry_instruction%22)
+
+> Enter the provided code into your authentication app, then enter the generated token to enable Two-Factor Authentication.
+
+```diff
+-Gebe den bereitgestellten Code in deiner Authentifizierungs-App ein und gebe dann den dort generierten Sicherheitsschlüssel ein, um die Zwei-Faktor-Authentifizierung zu aktivieren.
++Gib den bereitgestellten Code in deiner Authentifizierungs-App ein und gib dann den dort generierten Sicherheitsschlüssel ein, um die Zwei-Faktor-Authentifizierung zu aktivieren.
+```
+
+<del>Gebe</del><ins>Gib</ins> den bereitgestellten Code in deiner Authentifizierungs-App ein und <del>gebe</del><ins>gib</ins> dann den dort generierten Sicherheitsschlüssel ein, um die Zwei-Faktor-Authentifizierung zu aktivieren.
+
+#### [`ianm-twofactor.forum.security.scan_qr_instruction`](https://weblate.rob006.net/translate/flarum2/ianm-twofactor/de/?q=context%3A%3D%22ianm-twofactor.forum.security.scan_qr_instruction%22)
+
+> Scan the QR code above with your authentication app, then enter the provided token to enable Two-Factor Authentication.
+
+```diff
+-Scanne den obigen QR-Code mit deiner Authentifizierungs-App und gebe dann den generierten Sicherheitsschlüssel ein, um die Zwei-Faktor-Authentifizierung zu aktivieren.
++Scanne den obigen QR-Code mit deiner Authentifizierungs-App und gib dann den generierten Sicherheitsschlüssel ein, um die Zwei-Faktor-Authentifizierung zu aktivieren.
+```
+
+Scanne den obigen QR-Code mit deiner Authentifizierungs-App und <del>gebe</del><ins>gib</ins> dann den generierten Sicherheitsschlüssel ein, um die Zwei-Faktor-Authentifizierung zu aktivieren.
+
+
 ### `justoverclock-related-discussions`
+
+#### [`justoverclock-related-discussions.admin.relatedLimit-help`](https://weblate.rob006.net/translate/flarum2/justoverclock-related-discussions/de/?q=context%3A%3D%22justoverclock-related-discussions.admin.relatedLimit-help%22)
+
+> write here the number of discussion that you want to see (e.g. "4")
+
+```diff
+-gebe hier die Nummer der Diskussion ein, die Du sehen möchtest (z. B. '4')
++gib hier die Anzahl der Diskussion ein, die du sehen möchtest (z. B. „4“)
+```
+
+<del>gebe</del><ins>gib</ins> hier die <del>Nummer</del><ins>Anzahl</ins> der Diskussion ein, die <del>Du</del><ins>du</ins> sehen möchtest (z. B. <del>'4')</del><ins>„4“)</ins>
 
 #### [`justoverclock-related-discussions.admin.relatedTitle`](https://weblate.rob006.net/translate/flarum2/justoverclock-related-discussions/de/?q=context%3A%3D%22justoverclock-related-discussions.admin.relatedTitle%22)
 
@@ -2549,6 +2779,20 @@ Aktivität im <del>Thema</del><ins>Tag</ins> {tag}
 ```
 
 Titel für <del>"Verwandte</del><ins>„Verwandte</ins> <del>Diskussionen"</del><ins>Diskussionen“</ins>
+
+
+### `justoverclock-welcomebox`
+
+#### [`flarum-ext-welcomebox.admin.img-help`](https://weblate.rob006.net/translate/flarum2/justoverclock-welcomebox/de/?q=context%3A%3D%22flarum-ext-welcomebox.admin.img-help%22)
+
+> put here the url of image for guest box
+
+```diff
+-Gebe hier die URL des Bildes für die Gästebox ein
++Gib hier die URL des Bildes für die Gästebox ein
+```
+
+<del>Gebe</del><ins>Gib</ins> hier die URL des Bildes für die Gästebox ein
 
 
 ### `migratetoflarum-fake-data`

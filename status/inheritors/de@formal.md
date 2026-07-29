@@ -766,11 +766,11 @@ Falls die von <del>dir</del><ins>Ihnen</ins> eingegebene E-Mail-Adresse auf dies
 > Enter your email address and we will send you a link to reset your password.
 
 ```diff
--Bitte gebe deine E-Mail-Adresse ein, um einen Link zum Zurücksetzen deines Passwortes zu erhalten.
+-Bitte gib deine E-Mail-Adresse ein, um einen Link zum Zurücksetzen deines Passwortes zu erhalten.
 +Bitte geben Sie Ihre E-Mail-Adresse ein, um einen Link zum Zurücksetzen Ihres Passwortes zu erhalten.
 ```
 
-Bitte <del>gebe</del><ins>geben</ins> <del>deine</del><ins>Sie Ihre</ins> E-Mail-Adresse ein, um einen Link zum Zurücksetzen <del>deines</del><ins>Ihres</ins> Passwortes zu erhalten.
+Bitte <del>gib</del><ins>geben</ins> <del>deine</del><ins>Sie Ihre</ins> E-Mail-Adresse ein, um einen Link zum Zurücksetzen <del>deines</del><ins>Ihres</ins> Passwortes zu erhalten.
 
 #### [`core.forum.index.mark_all_as_read_confirmation`](https://weblate.rob006.net/translate/flarum2/core/de@formal/?q=context%3A%3D%22core.forum.index.mark_all_as_read_confirmation%22)
 
@@ -986,11 +986,11 @@ Wir haben eine <del>Bestätigungsmail</del><ins>Bestätigungs-E-Mail</ins> an {e
 > Enter the name of any &lt;a&gt;FontAwesome&lt;/a&gt; icon class, &lt;em&gt;including&lt;/em&gt; the prefix (e.g. &lt;code&gt;fas fa-flag&lt;/code&gt; or &lt;code&gt;fa-solid fa-flag&lt;/code&gt;).
 
 ```diff
--Gebe den Namen der <a>FontAwesome</a>-Symbolklasse ein, aber <em>mit</em> dem Präfix (z. B. <code>fas fa-flag</code> oder <code>fa-solid fa-flag</code>).
+-Gib den Namen der <a>FontAwesome</a>-Symbolklasse ein, aber <em>mit</em> dem Präfix (z. B. <code>fas fa-flag</code> oder <code>fa-solid fa-flag</code>).
 +Geben Sie den Namen der <a>FontAwesome</a>-Symbolklasse ein, aber <em>mit</em> dem Präfix (z. B. <code>fas fa-flag</code> oder <code>fa-solid fa-flag</code>).
 ```
 
-<del>Gebe</del><ins>Geben Sie</ins> den Namen der &lt;a&gt;FontAwesome&lt;/a&gt;-Symbolklasse ein, aber &lt;em&gt;mit&lt;/em&gt; dem Präfix (z. B. &lt;code&gt;fas fa-flag&lt;/code&gt; oder &lt;code&gt;fa-solid fa-flag&lt;/code&gt;).
+<del>Gib</del><ins>Geben Sie</ins> den Namen der &lt;a&gt;FontAwesome&lt;/a&gt;-Symbolklasse ein, aber &lt;em&gt;mit&lt;/em&gt; dem Präfix (z. B. &lt;code&gt;fas fa-flag&lt;/code&gt; oder &lt;code&gt;fa-solid fa-flag&lt;/code&gt;).
 
 #### [`core.ref.reset_your_password`](https://weblate.rob006.net/translate/flarum2/core/de@formal/?q=context%3A%3D%22core.ref.reset_your_password%22)
 
@@ -1773,11 +1773,11 @@ Dieser Beitrag ist anstößig, beleidigend oder verstößt gegen <del>unsere</de
 > Please provide some details for our moderators.
 
 ```diff
--Bitte gebe einen Grund an.
+-Bitte gib einen Grund an.
 +Bitte geben Sie einen Grund an.
 ```
 
-Bitte <del>gebe</del><ins>geben Sie</ins> einen Grund an.
+Bitte <del>gib</del><ins>geben Sie</ins> einen Grund an.
 
 #### [`flarum-flags.forum.flag_post.reason_spam_text`](https://weblate.rob006.net/translate/flarum2/flarum-flags/de@formal/?q=context%3A%3D%22flarum-flags.forum.flag_post.reason_spam_text%22)
 
@@ -2414,18 +2414,18 @@ Jemand hat in einer Diskussion geantwortet, der <del>du</del><ins>Sie</ins> <del
 > Create private discussions with users that block it
 
 ```diff
--Erstelle private Diskussionen mit Nutzern, die du blockierst
+-Erstelle private Diskussionen mit Nutzern, die dies blockieren
 +Erstelle private Diskussionen mit Nutzern, die es blockieren
 ```
 
-Erstelle private Diskussionen mit Nutzern, die <del>du</del><ins>es</ins> <del>blockierst</del><ins>blockieren</ins>
+Erstelle private Diskussionen mit Nutzern, die <del>dies</del><ins>es</ins> blockieren
 
 #### [`fof-byobu.admin.settings.post-event-icon`](https://weblate.rob006.net/translate/flarum2/fof-byobu/de@formal/?q=context%3A%3D%22fof-byobu.admin.settings.post-event-icon%22)
 
 > Byobu Post Events
 
 ```diff
--Byobu Post Ereignisse
+-Byobu Post-Ereignisse
 +Byobu-Post-Ereignisse
 ```
 
