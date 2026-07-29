@@ -1295,6 +1295,9 @@ return [
 	'krombox-oauth-wordpress' => [
 		'tag' => 'https://raw.githubusercontent.com/krombox/flarum-ext-oauth-wordpress/0.0.1/locale/en.yml',
 	],
+	'linkrobins-badge-labels' => [
+		'tag' => 'https://raw.githubusercontent.com/linkrobins/flarum-badge-labels/v1.0.0/locale/en.yml',
+	],
 	'linkrobins-birdseye' => [
 		'tag' => 'https://raw.githubusercontent.com/linkrobins/birdseye/v1.5.0/locale/en.yml',
 	],
