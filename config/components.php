@@ -932,6 +932,9 @@ return [
 	'walsgit-recycle-bin' => [
 		'tag' => 'https://raw.githubusercontent.com/WalsGit/recycle-bin/2.0.5/locale/en.yml',
 	],
+	'williamcho-rss' => [
+		'tag' => 'https://raw.githubusercontent.com/William1607cho/flarum-ext-rss/v1.0.0/resources/locale/en.yml',
+	],
 	'yippy-auth-ldap' => [
 		'tag' => 'https://raw.githubusercontent.com/Yippy/flarum-ext-auth-ldap/v2.0.2/locale/en.yml',
 	],
