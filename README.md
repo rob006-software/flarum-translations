@@ -1177,6 +1177,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`katosdev-signature`](https://weblate.rob006.net/projects/flarum/katosdev-signature) | [`katosdev/signature`](https://github.com/katosdev/signature) |
 | [`klxf-maintenance`](https://weblate.rob006.net/projects/flarum/klxf-maintenance) | [`klxf/flarum-maintenance`](https://github.com/klxf/flarum-maintenance) |
 | [`krombox-oauth-wordpress`](https://weblate.rob006.net/projects/flarum/krombox-oauth-wordpress) | [`krombox/flarum-ext-oauth-wordpress`](https://github.com/krombox/flarum-ext-oauth-wordpress) |
+| [`linkrobins-badge-labels`](https://weblate.rob006.net/projects/flarum/linkrobins-badge-labels) | [`linkrobins/badge-labels`](https://github.com/linkrobins/flarum-badge-labels) |
 | [`linkrobins-birdseye`](https://weblate.rob006.net/projects/flarum/linkrobins-birdseye) | [`linkrobins/birdseye`](https://github.com/linkrobins/birdseye) |
 | [`linkrobins-discussion-banners`](https://weblate.rob006.net/projects/flarum/linkrobins-discussion-banners) | [`linkrobins/discussion-banners`](https://github.com/linkrobins/flarum-discussion-banners) |
 | [`litalino-adblock`](https://weblate.rob006.net/projects/flarum/litalino-adblock) | [`litalino/flarum-adblock`](https://github.com/Litalino/flarum-adblock) |
@@ -1251,7 +1252,6 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`ralkage-word-censor`](https://weblate.rob006.net/projects/flarum/ralkage-word-censor) | [`ralkage/flarum-ext-word-censor`](https://github.com/Ralkage/flarum-ext-word-censor) |
 | [`ralkage-word-counter`](https://weblate.rob006.net/projects/flarum/ralkage-word-counter) | [`ralkage/flarum-ext-word-counter`](https://github.com/Ralkage/flarum-ext-word-counter) |
 | [`ralkage-hcaptcha`](https://weblate.rob006.net/projects/flarum/ralkage-hcaptcha) | [`ralkage/flarum-hcaptcha`](https://github.com/Ralkage/flarum-hcaptcha) |
-| [`ramon-colored`](https://weblate.rob006.net/projects/flarum/ramon-colored) | [`ramon/colored`](https://github.com/ram0ng1/colored) |
 | [`rehiy-reply-to-see`](https://weblate.rob006.net/projects/flarum/rehiy-reply-to-see) | [`rehiy/flarum-reply-to-see`](https://github.com/rehiy/flarum-reply-to-see) |
 | [`resofire-blog-cards`](https://weblate.rob006.net/projects/flarum/resofire-blog-cards) | [`resofire/blog-cards`](https://github.com/ResofireV2/blog-cards) |
 | [`resofire-digest-mail`](https://weblate.rob006.net/projects/flarum/resofire-digest-mail) | [`resofire/digest-mail`](https://github.com/ResofireV2/digest-mail) |
