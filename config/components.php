@@ -1701,6 +1701,9 @@ return [
 	'therealsujitk-gifs' => [
 		'tag' => 'https://raw.githubusercontent.com/therealsujitk/flarum-ext-gifs/v4.1.1/resources/locale/en.yml',
 	],
+	'thesilwar-copy-code-to-clipboard' => [
+		'tag' => 'https://raw.githubusercontent.com/thesilwar/flarum-ext-copy-code-to-clipboard/v2.3.0/locale/en.yml',
+	],
 	'tituspijean-auth-ldap' => [
 		'tag' => 'https://raw.githubusercontent.com/tituspijean/flarum-ext-auth-ldap/v1.0.0-p6/locale/en.yml',
 		'__builtInLanguages' => [
