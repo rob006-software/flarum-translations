@@ -1,22 +1,22 @@
 {
     "linkrobins-badge-labels": {
         "forum": {
-            "post_count": ""
+            "post_count": "{count, plural, one {# Beitrag} other {# Beiträge}}"
         },
         "admin": {
             "settings": {
-                "layout_label": "",
-                "layout_help": "",
-                "layout_below": "",
-                "layout_beside": "",
-                "labels_label": "",
-                "labels_help": "",
-                "post_count_label": "",
-                "post_count_help": "",
-                "column_width_label": "",
-                "column_width_help": "",
-                "phone_label": "",
-                "phone_help": ""
+                "layout_label": "Abzeichen-Platzierung",
+                "layout_help": "Hier werden die Abzeichen des Autors eines Beitrags angezeigt. Unterhalb des Avatars erhält jedes Abzeichen eine eigene Zeile in einer verbreiterten Autorenspalte. Neben dem Benutzernamen bleibt die Autorenspalte unverändert, und die Abzeichen werden in der Kopfzeile des Beitrags angezeigt.",
+                "layout_below": "Unter dem Avatar",
+                "layout_beside": "Neben dem Benutzernamen",
+                "labels_label": "Vollständigen Abzeichentitel anzeigen",
+                "labels_help": "Zeige den Namen jedes Abzeichens neben dem entsprechenden Symbol an, anstatt nur das Symbol allein anzuzeigen.",
+                "post_count_label": "Anzahl der Beiträge des Autors anzeigen",
+                "post_count_help": "Fügt unter den Abzeichen des Autors die Anzahl der von ihm verfassten Beiträge hinzu.",
+                "column_width_label": "Breite der Autorenspalte (Pixel)",
+                "column_width_help": "Wie viel Platz die Abzeichen und Titel neben dem Beitrag einnehmen. Wird nur verwendet, wenn die Abzeichen unterhalb des Avatars angezeigt werden. Zwischen 85 und 400.",
+                "phone_label": "Auch auf Handys anwenden",
+                "phone_help": "Standardmäßig deaktiviert, da auf Mobilgeräten eine kompakte Beitragsüberschrift angezeigt wird, in der Flarum die Badges über dem Avatar anzeigt. Aktiviere diese Option, um dort auch Titel und die Anzahl der Beiträge anzuzeigen."
             }
         }
     }
