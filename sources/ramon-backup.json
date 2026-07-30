@@ -186,6 +186,8 @@
                 "reload_button": "Reload page",
                 "done_title": "Restore complete",
                 "done_body": "All selected files have been restored. The database was not modified, so your current session is unchanged.",
+                "incomplete_title": "Restore finished incomplete",
+                "incomplete_body": "The restore ran to the end, but not everything selected was written. Review the details below before treating this migration as done.",
                 "logout_title": "You've been logged out",
                 "logout_body": "Restoring the database replaced this server's `users` and `sessions` tables, so the account you were signed in with no longer exists here. Sign in again with the credentials of the imported forum to continue.",
                 "logout_step_reload": "Reload the page below to clear the stale session cookie",
