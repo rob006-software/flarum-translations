@@ -762,7 +762,7 @@ return [
 		],
 	],
 	'ramon-backup' => [
-		'tag' => 'https://raw.githubusercontent.com/ram0ng1/backup/v2.0.21/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ram0ng1/backup/v2.0.22/locale/en.yml',
 		'__builtInLanguages' => [
 			'pt_BR',
 		],
