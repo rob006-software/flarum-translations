@@ -8,7 +8,7 @@ are fully in sync and are not listed here.
 | Language | Different translations | Missing translations | Components |
 | --- | --- | --- | --- |
 | [Azerbaijani](az.md) (`az`) | 0 | 2 | 1 |
-| [Chinese (Simplified)](zh_Hans.md) (`zh_Hans`) | 569 | 1548 | 113 |
+| [Chinese (Simplified)](zh_Hans.md) (`zh_Hans`) | 570 | 1548 | 113 |
 | [Chinese (Traditional)](zh_Hant.md) (`zh_Hant`) | 33 | 199 | 6 |
 | [Dutch](nl.md) (`nl`) | 0 | 9 | 8 |
 | [Finnish](fi.md) (`fi`) | 5 | 61 | 7 |

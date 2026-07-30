@@ -2,7 +2,7 @@
 
 Translations for Chinese (Simplified) (`zh_Hans`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **569** are translated differently and **1548** are
+sides, but do not match between them: **570** are translated differently and **1548** are
 translated only in `zh_Hans`. Altogether they cover **113** components.
 
 <!-- {% raw %} -->
@@ -23,7 +23,7 @@ translated only in `zh_Hans`. Altogether they cover **113** components.
 | `ekumanov-inline-audio` | 0 | [5](#ekumanov-inline-audio-missing) |
 | `ekumanov-new-posts-notice` | 0 | [2](#ekumanov-new-posts-notice-missing) |
 | `flarum-akismet` | [1](#flarum-akismet) | 0 |
-| `flarum-approval` | [2](#flarum-approval) | 0 |
+| `flarum-approval` | [3](#flarum-approval) | 0 |
 | `flarum-audit` | 0 | [93](#flarum-audit-missing) |
 | `flarum-bbcode` | [1](#flarum-bbcode) | 0 |
 | `flarum-extension-manager` | [4](#flarum-extension-manager) | 0 |
@@ -1384,7 +1384,16 @@ API <del>Key</del><ins>密钥</ins>
 
 ```diff
 -审核主题
-+审核讨论
++审核帖子
+```
+
+#### [`flarum-approval.admin.permissions.reply_without_approval_label`](https://weblate.rob006.net/translate/flarum2/flarum-approval/zh_Hans/?q=context%3A%3D%22flarum-approval.admin.permissions.reply_without_approval_label%22)
+
+> Reply to discussions without approval
+
+```diff
+-回复无需审核
++无需审核回复
 ```
 
 #### [`flarum-approval.admin.permissions.start_discussions_without_approval_label`](https://weblate.rob006.net/translate/flarum2/flarum-approval/zh_Hans/?q=context%3A%3D%22flarum-approval.admin.permissions.start_discussions_without_approval_label%22)
@@ -1393,7 +1402,7 @@ API <del>Key</del><ins>密钥</ins>
 
 ```diff
 -发布主题无需审核
-+发布讨论无需审核
++无需审核讨论
 ```
 
 
@@ -6008,7 +6017,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Requires extension {extension}
 
 ```diff
-+需要的拓展程序{extension}
++需要的扩展程序 {extension}
 ```
 
 #### [`flarum-audit.admin.limitedSettings.title`](https://weblate.rob006.net/translate/flarum2/flarum-audit/zh_Hans/?q=context%3A%3D%22flarum-audit.admin.limitedSettings.title%22)
@@ -6040,7 +6049,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > View IP Address
 
 ```diff
-+查看IP地址
++查看 IP 地址
 ```
 
 #### [`flarum-audit.forum.link.actor-audit`](https://weblate.rob006.net/translate/flarum2/flarum-audit/zh_Hans/?q=context%3A%3D%22flarum-audit.forum.link.actor-audit%22)
@@ -6048,7 +6057,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Audit log (user as actor)
 
 ```diff
-+查看操作日志（由该用户发起）
++查看操作日志（以用户为主体）
 ```
 
 #### [`flarum-audit.forum.link.all-audit`](https://weblate.rob006.net/translate/flarum2/flarum-audit/zh_Hans/?q=context%3A%3D%22flarum-audit.forum.link.all-audit%22)
@@ -6072,7 +6081,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Audit log (account edits)
 
 ```diff
-+操作日志(账户编辑)
++操作日志（账户编辑）
 ```
 
 #### [`flarum-audit.forum.modal.actor-title`](https://weblate.rob006.net/translate/flarum2/flarum-audit/zh_Hans/?q=context%3A%3D%22flarum-audit.forum.modal.actor-title%22)
@@ -6080,7 +6089,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Actor Audit Log
 
 ```diff
-+操作者操作记录
++操作者审计
 ```
 
 #### [`flarum-audit.forum.modal.all-title`](https://weblate.rob006.net/translate/flarum2/flarum-audit/zh_Hans/?q=context%3A%3D%22flarum-audit.forum.modal.all-title%22)
@@ -6096,7 +6105,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Discussion Audit Log
 
 ```diff
-+讨论操作日志
++讨论审计
 ```
 
 #### [`flarum-audit.forum.modal.user-title`](https://weblate.rob006.net/translate/flarum2/flarum-audit/zh_Hans/?q=context%3A%3D%22flarum-audit.forum.modal.user-title%22)
@@ -6104,7 +6113,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > User Audit Log
 
 ```diff
-+用户操作日志
++用户审计
 ```
 
 #### [`flarum-audit.lib.browser.audit_log_cleared`](https://weblate.rob006.net/translate/flarum2/flarum-audit/zh_Hans/?q=context%3A%3D%22flarum-audit.lib.browser.audit_log_cleared%22)
