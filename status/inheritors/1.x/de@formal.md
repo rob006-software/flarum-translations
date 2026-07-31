@@ -2,8 +2,8 @@
 
 Translations for German (formal) (`de@formal`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **332** are translated differently and **442** are
-translated only in `de@formal`. Altogether they cover **81** components.
+sides, but do not match between them: **332** are translated differently and **454** are
+translated only in `de@formal`. Altogether they cover **82** components.
 
 <!-- {% raw %} -->
 
@@ -70,11 +70,12 @@ translated only in `de@formal`. Altogether they cover **81** components.
 | `ianm-twofactor` | [3](#ianm-twofactor) | 0 |
 | `justoverclock-related-discussions` | [2](#justoverclock-related-discussions) | 0 |
 | `justoverclock-welcomebox` | [1](#justoverclock-welcomebox) | 0 |
+| `linkrobins-badge-labels` | 0 | [13](#linkrobins-badge-labels-missing) |
 | `maicol07-sso` | 0 | [13](#maicol07-sso-missing) |
 | `michaelbelgium-ai-autoreply` | 0 | [22](#michaelbelgium-ai-autoreply-missing) |
 | `migratetoflarum-fake-data` | [1](#migratetoflarum-fake-data) | 0 |
 | `peopleinside-antiflood` | 0 | [18](#peopleinside-antiflood-missing) |
-| `peopleinside-fla-powcaptcha` | 0 | [18](#peopleinside-fla-powcaptcha-missing) |
+| `peopleinside-fla-powcaptcha` | 0 | [17](#peopleinside-fla-powcaptcha-missing) |
 | `quasimo-carousel-grids` | 0 | [23](#quasimo-carousel-grids-missing) |
 | `quasimo-llms-txt` | 0 | [18](#quasimo-llms-txt-missing) |
 | `quasimo-tag-sidebar` | 0 | [23](#quasimo-tag-sidebar-missing) |
@@ -4372,6 +4373,113 @@ These strings are translated only in `de@formal`, so there is nothing to inherit
 ```
 
 
+### `linkrobins-badge-labels` (missing)
+
+#### [`linkrobins-badge-labels.admin.settings.column_width_help`](https://weblate.rob006.net/translate/flarum2/linkrobins-badge-labels/de@formal/?q=context%3A%3D%22linkrobins-badge-labels.admin.settings.column_width_help%22)
+
+> How much room the badges and titles get beside the post. Only used when the badges sit below the avatar. Between 85 and 400.
+
+```diff
++Wie viel Platz die Abzeichen und Titel neben dem Beitrag einnehmen. Wird nur verwendet, wenn die Abzeichen unterhalb des Avatars angezeigt werden. Zwischen 85 und 400.
+```
+
+#### [`linkrobins-badge-labels.admin.settings.column_width_label`](https://weblate.rob006.net/translate/flarum2/linkrobins-badge-labels/de@formal/?q=context%3A%3D%22linkrobins-badge-labels.admin.settings.column_width_label%22)
+
+> Author column width (pixels)
+
+```diff
++Breite der Autorenspalte (Pixel)
+```
+
+#### [`linkrobins-badge-labels.admin.settings.labels_help`](https://weblate.rob006.net/translate/flarum2/linkrobins-badge-labels/de@formal/?q=context%3A%3D%22linkrobins-badge-labels.admin.settings.labels_help%22)
+
+> Show each badge's name next to its icon instead of the icon on its own.
+
+```diff
++Zeige den Namen jedes Abzeichens neben dem entsprechenden Symbol an, anstatt nur das Symbol allein anzuzeigen.
+```
+
+#### [`linkrobins-badge-labels.admin.settings.labels_label`](https://weblate.rob006.net/translate/flarum2/linkrobins-badge-labels/de@formal/?q=context%3A%3D%22linkrobins-badge-labels.admin.settings.labels_label%22)
+
+> Show full badge titles
+
+```diff
++Vollständigen Abzeichentitel anzeigen
+```
+
+#### [`linkrobins-badge-labels.admin.settings.layout_below`](https://weblate.rob006.net/translate/flarum2/linkrobins-badge-labels/de@formal/?q=context%3A%3D%22linkrobins-badge-labels.admin.settings.layout_below%22)
+
+> Below the avatar
+
+```diff
++Unter dem Avatar
+```
+
+#### [`linkrobins-badge-labels.admin.settings.layout_beside`](https://weblate.rob006.net/translate/flarum2/linkrobins-badge-labels/de@formal/?q=context%3A%3D%22linkrobins-badge-labels.admin.settings.layout_beside%22)
+
+> Beside the username
+
+```diff
++Neben dem Benutzernamen
+```
+
+#### [`linkrobins-badge-labels.admin.settings.layout_help`](https://weblate.rob006.net/translate/flarum2/linkrobins-badge-labels/de@formal/?q=context%3A%3D%22linkrobins-badge-labels.admin.settings.layout_help%22)
+
+> Where a post author's badges appear. Below the avatar gives each badge its own row in a widened author column. Beside the username keeps the author column as it is and puts the badges on the post header line.
+
+```diff
++Hier werden die Abzeichen des Autors eines Beitrags angezeigt. Unterhalb des Avatars erhält jedes Abzeichen eine eigene Zeile in einer verbreiterten Autorenspalte. Neben dem Benutzernamen bleibt die Autorenspalte unverändert, und die Abzeichen werden in der Kopfzeile des Beitrags angezeigt.
+```
+
+#### [`linkrobins-badge-labels.admin.settings.layout_label`](https://weblate.rob006.net/translate/flarum2/linkrobins-badge-labels/de@formal/?q=context%3A%3D%22linkrobins-badge-labels.admin.settings.layout_label%22)
+
+> Badge placement
+
+```diff
++Abzeichen-Platzierung
+```
+
+#### [`linkrobins-badge-labels.admin.settings.phone_help`](https://weblate.rob006.net/translate/flarum2/linkrobins-badge-labels/de@formal/?q=context%3A%3D%22linkrobins-badge-labels.admin.settings.phone_help%22)
+
+> Off by default, because phones show a compact post header where Flarum tucks the badges over the avatar. Turn this on to show titles and the post count there as well.
+
+```diff
++Standardmäßig deaktiviert, da auf Mobilgeräten eine kompakte Beitragsüberschrift angezeigt wird, in der Flarum die Badges über dem Avatar anzeigt. Aktiviere diese Option, um dort auch Titel und die Anzahl der Beiträge anzuzeigen.
+```
+
+#### [`linkrobins-badge-labels.admin.settings.phone_label`](https://weblate.rob006.net/translate/flarum2/linkrobins-badge-labels/de@formal/?q=context%3A%3D%22linkrobins-badge-labels.admin.settings.phone_label%22)
+
+> Apply on phones too
+
+```diff
++Auch auf Handys anwenden
+```
+
+#### [`linkrobins-badge-labels.admin.settings.post_count_help`](https://weblate.rob006.net/translate/flarum2/linkrobins-badge-labels/de@formal/?q=context%3A%3D%22linkrobins-badge-labels.admin.settings.post_count_help%22)
+
+> Adds the number of posts the author has written, under their badges.
+
+```diff
++Fügt unter den Abzeichen des Autors die Anzahl der von ihm verfassten Beiträge hinzu.
+```
+
+#### [`linkrobins-badge-labels.admin.settings.post_count_label`](https://weblate.rob006.net/translate/flarum2/linkrobins-badge-labels/de@formal/?q=context%3A%3D%22linkrobins-badge-labels.admin.settings.post_count_label%22)
+
+> Show the author's post count
+
+```diff
++Anzahl der Beiträge des Autors anzeigen
+```
+
+#### [`linkrobins-badge-labels.forum.post_count`](https://weblate.rob006.net/translate/flarum2/linkrobins-badge-labels/de@formal/?q=context%3A%3D%22linkrobins-badge-labels.forum.post_count%22)
+
+> {count, plural, one {# post} other {# posts}}
+
+```diff
++{count, plural, one {# Beitrag} other {# Beiträge}}
+```
+
+
 ### `maicol07-sso` (missing)
 
 #### [`maicol07-sso.admin.settings.client_api_key`](https://weblate.rob006.net/translate/flarum2/maicol07-sso/de@formal/?q=context%3A%3D%22maicol07-sso.admin.settings.client_api_key%22)
@@ -4925,14 +5033,6 @@ These strings are translated only in `de@formal`, so there is nothing to inherit
 
 ```diff
 +Bewältigung der Sicherheitsabfrage…
-```
-
-#### [`peopleinside-powcaptcha.forum.submitting`](https://weblate.rob006.net/translate/flarum2/peopleinside-fla-powcaptcha/de@formal/?q=context%3A%3D%22peopleinside-powcaptcha.forum.submitting%22)
-
-> Verifying security… completing submission automatically.
-
-```diff
-+Sicherheit wird überprüft… Die Übermittlung wird automatisch abgeschlossen.
 ```
 
 #### [`peopleinside-powcaptcha.forum.verified`](https://weblate.rob006.net/translate/flarum2/peopleinside-fla-powcaptcha/de@formal/?q=context%3A%3D%22peopleinside-powcaptcha.forum.verified%22)
