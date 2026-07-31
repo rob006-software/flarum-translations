@@ -767,6 +767,12 @@ return [
 			'pt_BR',
 		],
 	],
+	'ramon-chat' => [
+		'tag' => 'https://raw.githubusercontent.com/ram0ng1/chat/v0.0.6/locale/en.yml',
+		'__builtInLanguages' => [
+			'pt_BR',
+		],
+	],
 	'ramon-classifieds' => [
 		'tag' => 'https://raw.githubusercontent.com/ram0ng1/classifieds/1.0.0/locale/en.yml',
 		'__builtInLanguages' => [
