@@ -2,39 +2,39 @@
     "clarkwinkelmann-discussion-open-position": {
         "admin": {
             "settings": {
-                "defaultOpenLastRead": "",
-                "suggestFirstTime": "",
+                "defaultOpenLastRead": "Значение по умолчанию для открытия темы на последнем прочитанном сообщении",
+                "suggestFirstTime": "Показывать пользователю подсказку об изменении настройки при первом открытии темы",
                 "openLastOptions": {
-                    "always": "",
-                    "unread": "",
-                    "never": ""
+                    "always": "=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.always",
+                    "unread": "=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.unread",
+                    "never": "=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.never"
                 }
             }
         },
         "forum": {
             "firstTimePrompt": {
-                "fromAlways": "",
-                "fromNever": "",
+                "fromAlways": "Ссылки на темы ведут к последнему прочитанному вами сообщению",
+                "fromNever": "Ссылки на темы открывают первое сообщение",
                 "openLastOptions": {
-                    "always": "",
-                    "never": ""
+                    "always": "Всегда открывать на последнем прочитанном мной сообщении",
+                    "never": "Всегда открывать на первом сообщении"
                 },
-                "more": ""
+                "more": "Больше опций"
             },
             "preferences": {
-                "discussionOpenLastRead": "",
+                "discussionOpenLastRead": "Список тем",
                 "openLastOptions": {
-                    "always": "",
-                    "unread": "",
-                    "never": ""
+                    "always": "=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.always",
+                    "unread": "=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.unread",
+                    "never": "=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.never"
                 }
             }
         },
         "ref": {
             "openLastOptions": {
-                "always": "",
-                "unread": "",
-                "never": ""
+                "always": "Всегда открывать темы на последнем прочитанном сообщении",
+                "unread": "Открывать тему на последнем прочитанном сообщении, только если есть новые ответы",
+                "never": "Всегда открывать темы на первом сообщении"
             }
         }
     }
