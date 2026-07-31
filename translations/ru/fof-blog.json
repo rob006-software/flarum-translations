@@ -12,11 +12,11 @@
                 "selected_category_count": "{count, plural, one {Вы выбрали категорию# category} other {Вы выбрали # categories категорий}}",
                 "select_categories_button": "Выбрать категории блога",
                 "categories_modal": {
-                    "description": "",
-                    "visit_blog": "",
-                    "tag_name_column": "",
-                    "no_tags": "",
-                    "close": ""
+                    "description": "Выберите один или несколько тегов, которые являются тегами блога.",
+                    "visit_blog": "Посмотреть блог.",
+                    "tag_name_column": "Название тега",
+                    "no_tags": "У вас пока нет тегов.",
+                    "close": "Закрыть"
                 },
                 "blog_heading": "Блог",
                 "featured_count_label": "Максимальное количество постов",
@@ -35,12 +35,12 @@
                 "show_tag_hierarchy_label": "Отобразить дерево тегов",
                 "show_tag_hierarchy_text": "Добавьте интервалы между дочерними категориями и задайте списку категорий иерархию.",
                 "redirects_heading": "Перенаправления",
-                "redirects_text": "",
+                "redirects_text": "Перенаправлять оригинальные URL тем и тегов на их аналоги в блоге.",
                 "redirects_options": {
-                    "both": "",
-                    "discussions_only": "",
-                    "tags_only": "",
-                    "none": ""
+                    "both": "Перенаправлять статьи и теги",
+                    "discussions_only": "Перенаправлять только статьи",
+                    "tags_only": "Перенаправлять только теги",
+                    "none": "Не перенаправлять"
                 },
                 "default_article_image_label": "Изображение статьи по умолчанию",
                 "default_article_image_text": "Выберите изображение статьи по умолчанию, которое будет отображаться, если изображение не задано.",
@@ -133,7 +133,7 @@
         "lib": {
             "gambits": {
                 "blog": {
-                    "key": ""
+                    "key": "блог"
                 }
             }
         }
@@ -142,11 +142,11 @@
         "lib": {
             "browser": {
                 "article": {
-                    "created": "",
-                    "approved": "",
-                    "updated": "",
-                    "featured": "",
-                    "unfeatured": ""
+                    "created": "Создана {discussion} в блоге",
+                    "approved": "Одобрена {discussion} в блоге",
+                    "updated": "Обновлены метаданные {discussion} в блоге",
+                    "featured": "Закреплена {discussion} в блоге",
+                    "unfeatured": "Откреплена {discussion} в блоге"
                 }
             }
         }
