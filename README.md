@@ -1044,6 +1044,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`ramon-auth-modals`](https://weblate.rob006.net/projects/flarum2/ramon-auth-modals) | [`ramon/auth-modals`](https://github.com/ram0ng1/auth-modals) |
 | [`ramon-avocado`](https://weblate.rob006.net/projects/flarum2/ramon-avocado) | [`ramon/avocado`](https://github.com/ram0ng1/avocado) |
 | [`ramon-backup`](https://weblate.rob006.net/projects/flarum2/ramon-backup) | [`ramon/backup`](https://github.com/ram0ng1/backup) |
+| [`ramon-chat`](https://weblate.rob006.net/projects/flarum2/ramon-chat) | [`ramon/chat`](https://github.com/ram0ng1/chat) |
 | [`ramon-classifieds`](https://weblate.rob006.net/projects/flarum2/ramon-classifieds) | [`ramon/classifieds`](https://github.com/ram0ng1/classifieds) |
 | [`ramon-guest-cta`](https://weblate.rob006.net/projects/flarum2/ramon-guest-cta) | [`ramon/guest-cta`](https://github.com/ram0ng1/guest-cta) |
 | [`ramon-mail-reply`](https://weblate.rob006.net/projects/flarum2/ramon-mail-reply) | [`ramon/mail-reply`](https://github.com/ram0ng1/mail-reply) |

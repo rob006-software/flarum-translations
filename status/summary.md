@@ -256,6 +256,7 @@
 | [`ramon/auth-modals`](https://github.com/ram0ng1/auth-modals) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/-/ramon-auth-modals/multi-auto.svg)](https://weblate.rob006.net/projects/flarum2/ramon-auth-modals/) |
 | [`ramon/avocado`](https://github.com/ram0ng1/avocado) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/-/ramon-avocado/multi-auto.svg)](https://weblate.rob006.net/projects/flarum2/ramon-avocado/) |
 | [`ramon/backup`](https://github.com/ram0ng1/backup) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/-/ramon-backup/multi-auto.svg)](https://weblate.rob006.net/projects/flarum2/ramon-backup/) |
+| [`ramon/chat`](https://github.com/ram0ng1/chat) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/-/ramon-chat/multi-auto.svg)](https://weblate.rob006.net/projects/flarum2/ramon-chat/) |
 | [`ramon/classifieds`](https://github.com/ram0ng1/classifieds) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/-/ramon-classifieds/multi-auto.svg)](https://weblate.rob006.net/projects/flarum2/ramon-classifieds/) |
 | [`ramon/guest-cta`](https://github.com/ram0ng1/guest-cta) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/-/ramon-guest-cta/multi-auto.svg)](https://weblate.rob006.net/projects/flarum2/ramon-guest-cta/) |
 | [`ramon/mail-reply`](https://github.com/ram0ng1/mail-reply) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/-/ramon-mail-reply/multi-auto.svg)](https://weblate.rob006.net/projects/flarum2/ramon-mail-reply/) |
