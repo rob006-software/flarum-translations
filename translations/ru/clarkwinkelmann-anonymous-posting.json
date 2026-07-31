@@ -2,60 +2,60 @@
     "clarkwinkelmann-anonymous-posting": {
         "admin": {
             "settings": {
-                "defaultAnonymity": "",
-                "defaultAnonymityWhenAbleToSwitch": "",
-                "alwaysAnonymiseEdits": "",
-                "alwaysAnonymiseEditsHelp": "",
-                "composerHelpTextPosition": "",
-                "composerHelpTextPositionVisible": "",
-                "composerHelpTextPositionTooltip": "",
-                "composerHelpTextPositionHidden": "",
-                "composerHelpTextPositionHelp": "",
-                "avatars": "",
-                "avatarsHelp": "",
-                "avatarFormId": "",
-                "avatarFieldKey": "",
-                "avatarFieldValue": "",
-                "avatarAvatarUrl": "",
-                "avatarAdd": ""
+                "defaultAnonymity": "Новый контент анонимный по умолчанию",
+                "defaultAnonymityWhenAbleToSwitch": "Новый контент анонимный по умолчанию для пользователей с правом переключения",
+                "alwaysAnonymiseEdits": "Всегда анонимизировать правки",
+                "alwaysAnonymiseEditsHelp": "По умолчанию правки и скрытия, сделанные анонимным автором сообщения, анонимизируются, но если модератор правит сообщение или тему, он всё равно будет показан как автор правки и скрытия. При включении этой опции автор никогда не будет фиксироваться для анонимного контента, независимо от того, кто его выполнил.\n",
+                "composerHelpTextPosition": "Расположение подсказки в редакторе",
+                "composerHelpTextPositionVisible": "Видимая — под подписью",
+                "composerHelpTextPositionTooltip": "Всплывающая подсказка — после подписи",
+                "composerHelpTextPositionHidden": "Скрытая",
+                "composerHelpTextPositionHelp": "Флажок и этот текст видны только пользователям с правом переключения.",
+                "avatars": "Анонимные аватары",
+                "avatarsHelp": "Эта функция требует премиум-расширение <a>Formulaire</a>. Использование этой функции немного влияет на производительность, поскольку требуются дополнительные запросы к базе данных для получения тем и сообщений. Подробности о формате каждого поля — в README.\n",
+                "avatarFormId": "ID формы",
+                "avatarFieldKey": "Ключ поля",
+                "avatarFieldValue": "Значение поля",
+                "avatarAvatarUrl": "URL аватара",
+                "avatarAdd": "Добавить правило аватара"
             },
             "permissions": {
-                "use": "",
-                "reveal": "",
-                "moderate": ""
+                "use": "Переключать анонимность контента при создании",
+                "reveal": "Видеть настоящих авторов анонимных тем и сообщений",
+                "moderate": "Анонимизировать или деанонимизировать любую тему или сообщение"
             }
         },
         "forum": {
             "composerControls": {
-                "anonymize": "",
-                "anonymizeHelp": ""
+                "anonymize": "Опубликовать анонимно",
+                "anonymizeHelp": "Модераторы всё равно будут знать, что этот контент создали вы"
             },
             "discussionControls": {
-                "anonymize": "",
-                "anonymizeConfirmation": "",
-                "deanonymize": "",
-                "deanonymizeConfirmation": ""
+                "anonymize": "Анонимизировать",
+                "anonymizeConfirmation": "Автор темы станет анонимным. Первое сообщение нужно анонимизировать отдельно. Продолжить?",
+                "deanonymize": "Деанонимизировать",
+                "deanonymizeConfirmation": "Настоящий автор темы снова станет виден всем. Продолжить?"
             },
             "postControls": {
-                "anonymize": "",
-                "firstPostConfirmation": "",
-                "deanonymize": "",
-                "deanonymizeConfirmation": ""
+                "anonymize": "Анонимизировать",
+                "firstPostConfirmation": "Автор первого сообщения станет анонимным. Тему нужно анонимизировать отдельно. Продолжить?",
+                "deanonymize": "Деанонимизировать",
+                "deanonymizeConfirmation": "Настоящий автор сообщения снова станет виден всем. Продолжить?"
             },
             "discussionList": {
-                "genericReplyText": ""
+                "genericReplyText": "Последний ответ {ago}"
             },
             "postPrivacy": {
-                "mine": "",
-                "mineHelp": "",
-                "profile": "",
-                "profileHelp": ""
+                "mine": "Я",
+                "mineHelp": "Эту информацию видите только вы",
+                "profile": "Видно только вам",
+                "profileHelp": "Только вы можете видеть свои анонимные сообщения в своём профиле"
             }
         },
         "lib": {
             "userMeta": {
-                "initials": "",
-                "username": ""
+                "initials": "?",
+                "username": "Аноним"
             }
         }
     }
