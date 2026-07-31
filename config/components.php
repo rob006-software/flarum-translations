@@ -273,7 +273,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/best-answer/2.0.0-beta.7/resources/locale/en.yml',
 	],
 	'fof-blog' => [
-		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/blog/2.0.0-beta.2/locale/en.yml',
+		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/blog/2.0.0-beta.3/locale/en.yml',
 	],
 	'fof-byobu' => [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/byobu/2.0.0-rc.1/resources/locale/en.yml',
