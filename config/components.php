@@ -38,6 +38,9 @@ return [
 			'fr',
 		],
 	],
+	'buxin-a-confix-theme' => [
+		'tag' => 'https://raw.githubusercontent.com/BUXIN-A/flarum-confix-theme/v3.0.5/resources/locale/en.yml',
+	],
 	'captchala-flarum' => [
 		'tag' => 'https://raw.githubusercontent.com/Captcha-La/captchala-flarum/v1.0.2/resources/locale/en.yml',
 	],
