@@ -2,25 +2,25 @@
     "fof-user-bio": {
         "admin": {
             "permission": {
-                "view": "",
-                "editOwn": "",
-                "editAny": ""
+                "view": "Види биографију",
+                "editOwn": "Промените вашу биографију",
+                "editAny": "Промените нечију биографију"
             },
             "setting": {
-                "bioLimit": "",
-                "maxLines": "",
-                "allowFormatting": "",
-                "allowFormatting_help": ""
+                "bioLimit": "Највећи дозвољен број слова у биографији",
+                "maxLines": "Највећи број линија које се приказују одједном",
+                "allowFormatting": "Дозволи форматирање у биографији",
+                "allowFormatting_help": "У овом контексту, форматирање је независно од форматирања порука. Уколико су BBCode и/или Markdown додаци омогућени, они ће бити доступни само за форматирање биографије. Није дозвољено користити слике и уграђени садржај. Сви додаци који проширују форматирање у Фларуму неће радити за биографију све док *наменски* не додају подршку за овај додатак."
             }
         },
         "forum": {
-            "userbioPlaceholder": "",
-            "userbioPlaceholderOtherUser": "",
+            "userbioPlaceholder": "Напишите нешто о себи",
+            "userbioPlaceholderOtherUser": "Напишите биографију за {username}",
             "profile": {
-                "cancel_confirm": "",
-                "cancel_button": "",
-                "save_button": "",
-                "edit_bio_label": ""
+                "cancel_confirm": "Сигурни сте да желите да откажете промену биографије? Све досадашње промене ће бити изгубљене.",
+                "cancel_button": "Откажи",
+                "save_button": "Сачувај",
+                "edit_bio_label": "Промени биографију"
             }
         }
     }
