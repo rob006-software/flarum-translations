@@ -2,61 +2,61 @@
     "neoncube-private-messages": {
         "admin": {
             "settings": {
-                "return_key": "",
-                "return_key_help": "",
-                "show_read_receipts": "",
-                "show_read_receipts_help": "",
-                "sender_background_color": "",
-                "recipient_background_color": "",
-                "sender_text_color": "",
-                "recipient_text_color": "",
-                "enable_custom_colors": ""
+                "return_key": "Притисак на дугме ентер шаље поруку",
+                "return_key_help": "Подеси да притисак на тастер \"ентер\" шаље поруку. Уколико је ово онемогућено, притискање тастера ентер ће направити нови ред у поруци па корисник мора да кликне  дугме  \"Пошаљи поруку\" како би порука била послата.",
+                "show_read_receipts": "Прикажи потврду да је порука прочитана",
+                "show_read_receipts_help": "Штиклирај поруку када је прималац прочита.",
+                "sender_background_color": "Боја позадине за послате поруке:",
+                "recipient_background_color": "Боја позадине за примљене поруке:",
+                "sender_text_color": "Боја текста за послате поруке:",
+                "recipient_text_color": "Боја текста за примљене поруке:",
+                "enable_custom_colors": "Омогући подешавање боја"
             },
             "permissions": {
-                "start_label": "",
-                "allow_users_to_receive_email_notifications": ""
+                "start_label": "Почни разговор личним порукама",
+                "allow_users_to_receive_email_notifications": "Дозволи корисницима да добијају обавештења е-поштом када добију личну поруку"
             }
         },
         "forum": {
             "dropdown": {
-                "tooltip": ""
+                "tooltip": "Разговори"
             },
             "modal": {
-                "title": "",
-                "help": "",
-                "help_start": "",
-                "search_recipients": "",
-                "submit": "",
-                "copied": "",
-                "more_users": "",
-                "already": ""
+                "title": "Отпочни разговор",
+                "help": "Откуцајте корисничко име да би започели разговор.",
+                "help_start": "Откуцајте вашу прву поруку. Ово је једина порука коју можете послати све док {username} не одговори. Притисните корисник да одаберете другог примаоца.",
+                "search_recipients": "Унесите корисничко име...",
+                "submit": "Пошаљи и започни разговор",
+                "copied": "Ваша порука је ископирана у клипборд.",
+                "more_users": "Уколико не можете да пронађете корисника кога тражите, то значи да је корисник није омогућио приватне поруке.",
+                "already": "Већ сте отпочели разговор са {username}."
             },
             "chat": {
-                "messages_single": "",
-                "messages_multiple": "",
-                "chat_with": "",
-                "start": "",
-                "start_of_conversation": "",
-                "read": "",
-                "cant_start": "",
-                "text_placeholder": "",
-                "send": "",
-                "message_read": ""
+                "messages_single": "Нови разговор",
+                "messages_multiple": "Укупно {count} порука",
+                "chat_with": "Разговарај са {username}",
+                "start": "Отпочни разговор",
+                "start_of_conversation": "Отпочни разговор",
+                "read": "Прочитај",
+                "cant_start": "Није могуће отпочети разговор",
+                "text_placeholder": "Откуцајте вашу поруку",
+                "send": "Пошаљи поруку",
+                "message_read": "Порука је прочитана"
             },
             "notifications": {
-                "message_received": "",
-                "new_private_message": "",
+                "message_received": "Тест",
+                "new_private_message": "Неко ми је послао поруку",
                 "web": {
                     "new_private_message": {
-                        "body": ""
+                        "body": "Порука од {fromUser}"
                     }
                 },
                 "email": {
                     "new_private_message": {
-                        "subject": "",
-                        "youHaveReceivedNewMessage": "",
-                        "viewMessage": "",
-                        "manageEmailSettings": ""
+                        "subject": "Порука од {user}",
+                        "youHaveReceivedNewMessage": "Добили сте нову поруку од {user}!",
+                        "viewMessage": "Погледај поруку",
+                        "manageEmailSettings": "Промени подешавања е-поште"
                     }
                 }
             }
