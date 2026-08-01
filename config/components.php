@@ -1299,7 +1299,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/linkrobins/flarum-badge-labels/v1.0.1/locale/en.yml',
 	],
 	'linkrobins-birdseye' => [
-		'tag' => 'https://raw.githubusercontent.com/linkrobins/birdseye/v1.5.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/linkrobins/birdseye/v1.6.0/locale/en.yml',
 	],
 	'linkrobins-discussion-banners' => [
 		'tag' => 'https://raw.githubusercontent.com/linkrobins/flarum-discussion-banners/v1.1.1/locale/en.yml',
