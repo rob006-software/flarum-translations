@@ -1271,6 +1271,33 @@
             }
         }
     },
+    "fof-user-bio.json": {
+        "fof-user-bio": {
+            "admin": {
+                "permission": {
+                    "editAny": "d8760b054d378f308e7fd565efa060de d8760b054d378f308e7fd565efa060de",
+                    "editOwn": "97ed07dde033d0124179cd0d61197acf 97ed07dde033d0124179cd0d61197acf",
+                    "view": "aa851886bb645f8b9e33b808d9ca2546 aa851886bb645f8b9e33b808d9ca2546"
+                },
+                "setting": {
+                    "allowFormatting": "cfa962deabfcaf073374a6ef725e5284 cfa962deabfcaf073374a6ef725e5284",
+                    "allowFormatting_help": "81cf7f4c30c5982d98ab526324909edc 81cf7f4c30c5982d98ab526324909edc",
+                    "bioLimit": "7cb6f795dea654ff71dbb70b5010c21e 7cb6f795dea654ff71dbb70b5010c21e",
+                    "maxLines": "5839a43d73f45500d9111f02bcffa363 5839a43d73f45500d9111f02bcffa363"
+                }
+            },
+            "forum": {
+                "profile": {
+                    "cancel_button": "6866d539d028a5c500d66b83a5d05664 6866d539d028a5c500d66b83a5d05664",
+                    "cancel_confirm": "76e2637924c9ea2a909814527db6a558 76e2637924c9ea2a909814527db6a558",
+                    "edit_bio_label": "066382a1b640f098197cec80b81504e3 066382a1b640f098197cec80b81504e3",
+                    "save_button": "cc64557d369431eaac281aac99630de1 cc64557d369431eaac281aac99630de1"
+                },
+                "userbioPlaceholder": "37a9726eb16cc8e631f156e5c84a3583 37a9726eb16cc8e631f156e5c84a3583",
+                "userbioPlaceholderOtherUser": "8ff5201bcca82955ea87dd9a7a108d1a 8ff5201bcca82955ea87dd9a7a108d1a"
+            }
+        }
+    },
     "validation.json": {
         "validation": {
             "attributes": {
