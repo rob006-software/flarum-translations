@@ -2,8 +2,8 @@
 
 Translations for Russian (`ru`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **44** are translated differently and **64** are
-translated only in `ru`. Altogether they cover **17** components.
+sides, but do not match between them: **44** are translated differently and **63** are
+translated only in `ru`. Altogether they cover **16** components.
 
 <!-- {% raw %} -->
 
@@ -27,7 +27,6 @@ translated only in `ru`. Altogether they cover **17** components.
 | `maicol07-sso` | 0 | [26](#maicol07-sso-missing) |
 | `pianotell-flamoji` | [21](#pianotell-flamoji) | 0 |
 | `quasimo-carousel-grids` | 0 | [23](#quasimo-carousel-grids-missing) |
-| `ralkage-account-lockout` | 0 | [1](#ralkage-account-lockout-missing) |
 | `ralkage-profile-messages` | [1](#ralkage-profile-messages) | 0 |
 
 
@@ -1074,17 +1073,6 @@ These strings are translated only in `ru`, so there is nothing to inherit from F
 
 ```diff
 +Заголовок
-```
-
-
-### `ralkage-account-lockout` (missing)
-
-#### [`ralkage-account-lockout.forum.user_controls.unlock_button`](https://weblate.rob006.net/translate/flarum2/ralkage-account-lockout/ru/?q=context%3A%3D%22ralkage-account-lockout.forum.user_controls.unlock_button%22)
-
-> Unlock
-
-```diff
-+Разблокировать
 ```
 
 <!-- {% endraw %} -->

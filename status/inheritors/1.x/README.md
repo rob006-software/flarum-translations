@@ -22,7 +22,7 @@ are fully in sync and are not listed here.
 | [Korean](ko.md) (`ko`) | 0 | 1 | 1 |
 | [Persian](fa.md) (`fa`) | 7 | 79 | 38 |
 | [Romanian](ro.md) (`ro`) | 0 | 12 | 1 |
-| [Russian](ru.md) (`ru`) | 44 | 64 | 17 |
+| [Russian](ru.md) (`ru`) | 44 | 63 | 16 |
 | [Serbian (Latin)](sr_Latn.md) (`sr_Latn`) | 0 | 5 | 1 |
 | [Spanish](es.md) (`es`) | 12 | 1180 | 59 |
 | [Spanish (formal)](es@formal.md) (`es@formal`) | 9 | 1180 | 58 |
