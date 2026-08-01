@@ -1530,6 +1530,33 @@
             }
         }
     },
+    "fof-user-bio.json": {
+        "fof-user-bio": {
+            "admin": {
+                "permission": {
+                    "editAny": "a937ec2c4e2cab88ea289e37cab8c1c3 a937ec2c4e2cab88ea289e37cab8c1c3",
+                    "editOwn": "9683b528bc05c1d49e5d4e8e24042f44 9683b528bc05c1d49e5d4e8e24042f44",
+                    "view": "7b0f49258f5e528376aa62ae3805a433 7b0f49258f5e528376aa62ae3805a433"
+                },
+                "setting": {
+                    "allowFormatting": "485303659eecc38434b771a332463949 485303659eecc38434b771a332463949",
+                    "allowFormatting_help": "72e7e15fd3a4cc836b90935546adedda 72e7e15fd3a4cc836b90935546adedda",
+                    "bioLimit": "82f238d596fb3bae5b3e9b8e772659f4 82f238d596fb3bae5b3e9b8e772659f4",
+                    "maxLines": "0f84e68cfeb123a455fe89c3d2026abf 0f84e68cfeb123a455fe89c3d2026abf"
+                }
+            },
+            "forum": {
+                "profile": {
+                    "cancel_button": "c1a923f7c5b8823ae510f655daf053ce c1a923f7c5b8823ae510f655daf053ce",
+                    "cancel_confirm": "1cf45fca3a1adc0edfb6bbfb8c10d67a 1cf45fca3a1adc0edfb6bbfb8c10d67a",
+                    "edit_bio_label": "16b05755c916f7afe24610c0ce3fc86c 16b05755c916f7afe24610c0ce3fc86c",
+                    "save_button": "ce79c0cf68b7bb8b10f766fb6be7407d ce79c0cf68b7bb8b10f766fb6be7407d"
+                },
+                "userbioPlaceholder": "00f32d0ad179d696cd2087ea11c7d2b5 00f32d0ad179d696cd2087ea11c7d2b5",
+                "userbioPlaceholderOtherUser": "d09af54e37f3811a68535fabfa1e9956 d09af54e37f3811a68535fabfa1e9956"
+            }
+        }
+    },
     "gtdxyz-badges.json": {
         "gtdxyz-flarum-badges": {
             "admin": {
