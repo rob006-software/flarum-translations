@@ -1,15 +1,15 @@
 {
     "ramon-chat": {
         "api": {
-            "message_empty": "",
-            "message_too_short": "",
-            "message_too_long": "",
-            "rate_limited": "",
+            "message_empty": "Вы не можете отправить пустое сообщение.",
+            "message_too_short": "Сообщения должны содержать не менее {min} символов.",
+            "message_too_long": "Сообщения не могут быть длиннее {max} символов.",
+            "rate_limited": "Вы отправляете сообщения слишком быстро. Пожалуйста, сбавьте темп.",
             "invalid_reaction": "",
-            "slow_mode_wait": "",
-            "flag_reason_invalid": "",
-            "flag_detail_required": "",
-            "invalid_reply_target": "",
+            "slow_mode_wait": "В этом канале включен режим замедления. Вы снова сможете опубликовать сообщение через {seconds} секунд.",
+            "flag_reason_invalid": "Это не повод для жалобы на сообщение.",
+            "flag_detail_required": "Пожалуйста, скажите, что не так с этим сообщением.",
+            "invalid_reply_target": "Вы не можете ответить на сообщение с другого канала.",
             "invalid_thread_target": "",
             "invalid_channel_status": "",
             "threading_disabled": "",
