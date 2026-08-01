@@ -1638,6 +1638,71 @@
             }
         }
     },
+    "neoncube-private-messages.json": {
+        "neoncube-private-messages": {
+            "admin": {
+                "permissions": {
+                    "allow_users_to_receive_email_notifications": "3fe055c1e94670d78c454c7d32981061 3fe055c1e94670d78c454c7d32981061",
+                    "start_label": "dc30fdb15fce22580706e0e4b8343cd6 dc30fdb15fce22580706e0e4b8343cd6"
+                },
+                "settings": {
+                    "enable_custom_colors": "a570b960dd0ad3707bc4f10510e50622 a570b960dd0ad3707bc4f10510e50622",
+                    "recipient_background_color": "ad60860333adef4692e0566578278bac ad60860333adef4692e0566578278bac",
+                    "recipient_text_color": "0c7cd8861e68f44de9d028c1ea1744fb 0c7cd8861e68f44de9d028c1ea1744fb",
+                    "return_key": "86f9702c5fe566efa1f09efdd0dee571 86f9702c5fe566efa1f09efdd0dee571",
+                    "return_key_help": "512bef92744a27f8868e880c8299583c 512bef92744a27f8868e880c8299583c",
+                    "sender_background_color": "e2eb5def8ef1604e86a0f98649814f1f e2eb5def8ef1604e86a0f98649814f1f",
+                    "sender_text_color": "dcbde649dfcd8fb0d55aadbbce04c5f3 dcbde649dfcd8fb0d55aadbbce04c5f3",
+                    "show_read_receipts": "ff213cd125b477aad586afee0641623e ff213cd125b477aad586afee0641623e",
+                    "show_read_receipts_help": "5bd76f7e5b5bfa05e716e91b1bb432c3 5bd76f7e5b5bfa05e716e91b1bb432c3"
+                }
+            },
+            "forum": {
+                "chat": {
+                    "cant_start": "31fdd679729145be044281c68a3e9ad7 31fdd679729145be044281c68a3e9ad7",
+                    "chat_with": "eb3f9e33f4690517a3c3e0e381ee0b72 eb3f9e33f4690517a3c3e0e381ee0b72",
+                    "message_read": "2b428f0beabdb620784999841c6cfd1c 2b428f0beabdb620784999841c6cfd1c",
+                    "messages_multiple": "1c937e4f6f86b6749cabb9ad071089a7 1c937e4f6f86b6749cabb9ad071089a7",
+                    "messages_single": "b90f859b56bd0dc74e8276d652e64ccd b90f859b56bd0dc74e8276d652e64ccd",
+                    "read": "654d4098cf9c3d4aa484231b662aebf2 654d4098cf9c3d4aa484231b662aebf2",
+                    "send": "0b2b2e018b8e9ca1b2cdddff235358ed 0b2b2e018b8e9ca1b2cdddff235358ed",
+                    "start": "274fa6d66f09102ed381ad9825d4f451 274fa6d66f09102ed381ad9825d4f451",
+                    "start_of_conversation": "274fa6d66f09102ed381ad9825d4f451 274fa6d66f09102ed381ad9825d4f451",
+                    "text_placeholder": "da716c2164d200d148c19158eb15b68e da716c2164d200d148c19158eb15b68e"
+                },
+                "dropdown": {
+                    "tooltip": "e2c7e35dd52131d2b351386b899c45e2 e2c7e35dd52131d2b351386b899c45e2"
+                },
+                "modal": {
+                    "already": "38499377d840643ca4cfdbcb677eb489 38499377d840643ca4cfdbcb677eb489",
+                    "copied": "7955c1cda118070413d72c58de64821d 7955c1cda118070413d72c58de64821d",
+                    "help": "df7a2fd781924979fc3f55c1052d8a49 df7a2fd781924979fc3f55c1052d8a49",
+                    "help_start": "9170a897113eabc8d119352df3dc9719 9170a897113eabc8d119352df3dc9719",
+                    "more_users": "3f7147abfbdeb0ce295414fd6bb2b796 3f7147abfbdeb0ce295414fd6bb2b796",
+                    "search_recipients": "ae01d94e2f80206869b378795a662a63 ae01d94e2f80206869b378795a662a63",
+                    "submit": "6f68bf5726f18bac9cf0e06fe652e6f2 6f68bf5726f18bac9cf0e06fe652e6f2",
+                    "title": "274fa6d66f09102ed381ad9825d4f451 274fa6d66f09102ed381ad9825d4f451"
+                },
+                "notifications": {
+                    "email": {
+                        "new_private_message": {
+                            "manageEmailSettings": "6536a1ae9dc4f445ba99397097dc97af 6536a1ae9dc4f445ba99397097dc97af",
+                            "subject": "6d8a7996c33a6c83ec2a5761eaf67305 6d8a7996c33a6c83ec2a5761eaf67305",
+                            "viewMessage": "aedc420521840a5c6541dfeb93feeed3 aedc420521840a5c6541dfeb93feeed3",
+                            "youHaveReceivedNewMessage": "3a045f961a6fb23355d9513674d1b5c9 3a045f961a6fb23355d9513674d1b5c9"
+                        }
+                    },
+                    "message_received": "0cbc6611f5540bd0809a388dc95a615b 0cbc6611f5540bd0809a388dc95a615b",
+                    "new_private_message": "3e57f4ee1cdbfafdb845aaaddb0ee099 3e57f4ee1cdbfafdb845aaaddb0ee099",
+                    "web": {
+                        "new_private_message": {
+                            "body": "61cd8a9cb4c7631a9e82089ab6ec27bb 61cd8a9cb4c7631a9e82089ab6ec27bb"
+                        }
+                    }
+                }
+            }
+        }
+    },
     "validation.json": {
         "validation": {
             "accepted": "8dd22bd2d4de873deb3961b4c2dfbc19 e875f87e83d10558dd21d2943a98d074",
