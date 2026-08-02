@@ -6,73 +6,73 @@
             "message_too_long": "Сообщения не могут быть длиннее {max} символов.",
             "rate_limited": "Вы отправляете сообщения слишком быстро. Пожалуйста, сбавьте темп.",
             "invalid_reaction": "Некорректное эмодзи.",
-            "slow_mode_wait": "В этом канале включен режим замедления. Вы снова сможете опубликовать сообщение через {seconds} секунд.",
+            "slow_mode_wait": "В этом канале включён режим замедления. Вы снова сможете опубликовать сообщение через {seconds} секунд.",
             "flag_reason_invalid": "Это не повод для жалобы на сообщение.",
             "flag_detail_required": "Пожалуйста, скажите, что не так с этим сообщением.",
             "invalid_reply_target": "Вы не можете ответить на сообщение из другого канала.",
             "invalid_thread_target": "",
-            "invalid_channel_status": "",
+            "invalid_channel_status": "Канал можно только открыть или закрыть.",
             "threading_disabled": "",
-            "channel_not_found": "",
+            "channel_not_found": "Такого канала не существует или у вас нет к нему доступа.",
             "archive_discussion_not_found": "",
             "archive_title_required": "",
-            "archive_empty": "",
-            "direct_channel_self": "",
-            "uploads_disabled": "",
-            "upload_missing": "",
-            "upload_too_large": "",
-            "upload_unsupported": "",
-            "direct_needs_participant": "",
-            "direct_too_many": "",
-            "direct_unknown_user": "",
-            "stickers_not_allowed": "",
-            "members_empty": "",
-            "members_too_many": "",
-            "cannot_remove_self": "",
-            "not_a_member": "",
-            "transcript_empty": "",
-            "transcript_too_many": "",
-            "move_empty": "",
-            "move_too_many": "",
-            "move_target_frozen": "",
-            "webhook_channel_unavailable": "",
-            "webhook_empty": ""
+            "archive_empty": "Этот канал был заархивирован без сообщений.",
+            "direct_channel_self": "Только ты",
+            "uploads_disabled": "Загрузка файлов в чате отключена.",
+            "upload_missing": "Файл не загружен.",
+            "upload_too_large": "Этот файл слишком большой.",
+            "upload_unsupported": "Неподдерживаемый тип файла: {type}",
+            "direct_needs_participant": "Выберите хотя бы одного человека, которому вы отправите сообщение.",
+            "direct_too_many": "В групповом чате может быть не более {max} участников.",
+            "direct_unknown_user": "Одного из этих пользователей не существует.",
+            "stickers_not_allowed": "Вам не разрешено отправлять стикеры.",
+            "members_empty": "Выберите хотя бы одного человека, которого хотите добавить.",
+            "members_too_many": "Вы можете добавить не более {max} человек одновременно.",
+            "cannot_remove_self": "Воспользуйтесь функцией \"Покинуть канал\", чтобы удалить себя из списка участников.",
+            "not_a_member": "Этого человека нет в этом канале.",
+            "transcript_empty": "Сообщения не были выбраны, или вы не можете их прочитать.",
+            "transcript_too_many": "Одновременно можно цитировать не более {max} сообщений.",
+            "move_empty": "Сообщения не были выбраны, или они уже находятся в этом канале.",
+            "move_too_many": "Одновременно можно перемещать не более {max} сообщений.",
+            "move_target_frozen": "Перемещать сообщения в закрытый или архивный канал невозможно.",
+            "webhook_channel_unavailable": "Канал этого вебхука закрыт или недоступен.",
+            "webhook_empty": "В содержимом веб-хука не было текста."
         },
         "email": {
             "mentioned": {
-                "subject": "",
-                "direct_channel": "",
-                "unknown_author": "",
+                "subject": "Вас упомянули в {channel}",
+                "direct_channel": "личное сообщение",
+                "unknown_author": "Кто-то",
                 "plain": {
-                    "body": ""
+                    "body": "{author} упомянул вас в {channel}:\n\n{content}\n\nОтветить: {url}\n"
                 },
                 "html": {
-                    "intro": "",
-                    "action": ""
+                    "intro": "<strong>{author}</strong> упомянул вас в <strong>{channel}</strong>.",
+                    "action": "Открыть канал"
                 }
             }
         },
         "notifications": {
-            "chat_mention": "",
-            "chat_message": "",
-            "chat_channel_invite": ""
+            "chat_mention": "{username} упомянул вас в {channel}",
+            "chat_message": "{username} опубликовал сообщение в {channel}",
+            "chat_channel_invite": "{username} добавил вас в {channel}"
         },
         "lib": {
             "gdpr": {
-                "export_description": "",
-                "anonymize_description": "",
-                "delete_description": ""
+                "export_description": "Ваши сообщения в чате, сведения о вложенных файлах и каналы, в которых вы состояли.",
+                "anonymize_description": "Ваши сообщения в чате сохраняются, поэтому переписка остается читаемой, но больше не приписываются вам. Вложения, реакции, черновики и информация о членстве в каналах удаляются.",
+                "delete_description": "Ваши сообщения в чате и вложения, а также ваши реакции, черновики и информация о членстве в каналах удаляются."
             }
         },
         "forum": {
             "nav": {
-                "chat": "",
-                "unread_channels": "",
-                "unread_messages": "",
-                "unread_mentions": ""
+                "chat": "Чат",
+                "unread_channels": "{count} каналов с непрочитанными сообщениями",
+                "unread_messages": "{count} непрочитанных сообщений",
+                "unread_mentions": "{count} непрочитанных упоминаний"
             },
             "drawer": {
-                "title": "",
+                "title": "Чат",
                 "expand": "",
                 "collapse": "",
                 "full_screen": "",
