@@ -3799,7 +3799,7 @@ These strings are translated only in `de`, so there is nothing to inherit from F
 
 #### [`linkrobins-badge-labels.admin.settings.column_width_help`](https://weblate.rob006.net/translate/flarum2/linkrobins-badge-labels/de/?q=context%3A%3D%22linkrobins-badge-labels.admin.settings.column_width_help%22)
 
-> How much room the badges and titles get beside the post. Only used when the badges sit below the avatar. Between 85 and 400.
+> How much room the badges and titles get beside the post. Only used when something sits below the avatar. Between 85 and 400.
 
 ```diff
 +Wie viel Platz die Abzeichen und Titel neben dem Beitrag einnehmen. Wird nur verwendet, wenn die Abzeichen unterhalb des Avatars angezeigt werden. Zwischen 85 und 400.
@@ -3815,7 +3815,7 @@ These strings are translated only in `de`, so there is nothing to inherit from F
 
 #### [`linkrobins-badge-labels.admin.settings.labels_help`](https://weblate.rob006.net/translate/flarum2/linkrobins-badge-labels/de/?q=context%3A%3D%22linkrobins-badge-labels.admin.settings.labels_help%22)
 
-> Show each badge's name next to its icon instead of the icon on its own.
+> Show each badge's name next to its icon instead of the icon on its own. Only the first badge is a user's main one, so this can spell that one out and leave the rest as icons.
 
 ```diff
 +Zeige den Namen jedes Abzeichens neben dem entsprechenden Symbol an, anstatt nur das Symbol allein anzuzeigen.
@@ -3879,7 +3879,7 @@ These strings are translated only in `de`, so there is nothing to inherit from F
 
 #### [`linkrobins-badge-labels.admin.settings.post_count_help`](https://weblate.rob006.net/translate/flarum2/linkrobins-badge-labels/de/?q=context%3A%3D%22linkrobins-badge-labels.admin.settings.post_count_help%22)
 
-> Adds the number of posts the author has written, under their badges.
+> Adds the number of posts the author has written, as a pill of its own.
 
 ```diff
 +Fügt unter den Abzeichen des Autors die Anzahl der von ihm verfassten Beiträge hinzu.
