@@ -1302,7 +1302,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/linkrobins/birdseye/v1.6.2/locale/en.yml',
 	],
 	'linkrobins-discussion-banners' => [
-		'tag' => 'https://raw.githubusercontent.com/linkrobins/flarum-discussion-banners/v1.1.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/linkrobins/flarum-discussion-banners/v1.1.2/locale/en.yml',
 	],
 	'litalino-adblock' => [
 		'tag' => 'https://raw.githubusercontent.com/Litalino/flarum-adblock/1.2.1/locale/en.yml',
