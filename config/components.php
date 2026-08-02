@@ -1422,6 +1422,9 @@ return [
 	'michaelbelgium-ai-autoreply' => [
 		'tag' => 'https://raw.githubusercontent.com/MichaelBelgium/flarum-ai-autoreply/v1.3.1/locale/en.yml',
 	],
+	'mattoid-money-history' => [
+		'tag' => 'https://raw.githubusercontent.com/Mattoids/flarum-ext-money-history/v1.1.3.2/locale/en.yml',
+	],
 	'michaelbelgium-discussion-views' => [
 		'tag' => 'https://raw.githubusercontent.com/MichaelBelgium/flarum-discussion-views/v7.4.2/locale/en.yml',
 	],
