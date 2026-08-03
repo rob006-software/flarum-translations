@@ -187,7 +187,7 @@
             },
             "flags": {
                 "title": "Gemeldete Nachrichten",
-                "show_resolved": "",
+                "show_resolved": "Bearbeitete einbeziehen",
                 "empty": "Nichts wurde gemeldet.",
                 "empty_all": "Noch keine Berichte.",
                 "forbidden": "Du hast keine Berechtigung, gemeldete Nachrichten einzusehen.",
@@ -196,10 +196,10 @@
                 "delete_message": "Nachricht löschen",
                 "message_gone": "Die gemeldete Nachricht existiert nicht mehr.",
                 "message_deleted": "Diese Nachricht wurde gelöscht.",
-                "resolved_by": "",
+                "resolved_by": "Bearbeitet von {moderator}",
                 "flarum_item": "{username} wurde gemeldet in {em}{channel}{/em} wegen {reason}",
                 "load_failed": "Berichte konnten nicht geladen werden.",
-                "action_failed": ""
+                "action_failed": "Diese Aktion konnte nicht abgeschlossen werden."
             },
             "bookmarks": {
                 "empty": "Du hast noch keine Nachrichten gespeichert.",
@@ -217,24 +217,24 @@
                 "title": "Thread",
                 "untitled": "Thread ohne Titel",
                 "replies": "{count} Antworten",
-                "set_title": "",
+                "set_title": "Threadtitel festlegen",
                 "tracking": "Benachrichtigungen",
                 "tracking_always": "",
                 "tracking_mentions": "Nur Erwähnungen",
                 "tracking_never": "Stummgeschaltet",
                 "no_threads": "Du folgst keinen Threads.",
-                "no_replies": "",
-                "close": ""
+                "no_replies": "Noch keine Antworten. Sei der Erste.",
+                "close": "Thread-Panel schließen"
             },
             "composer": {
                 "placeholder": "Nachricht an {channel}",
                 "placeholder_thread": "Im Thread antworten",
                 "placeholder_closed": "Dieser Kanal ist geschlossen",
                 "send": "Senden",
-                "send_enter": "",
-                "send_ctrl_enter": "",
+                "send_enter": "Senden (Eingabetaste)",
+                "send_ctrl_enter": "Senden (Strg+Eingabetaste)",
                 "too_long_title": "Deine Nachricht ist zu lang.",
-                "too_long_body": "",
+                "too_long_body": "Kürze deine Nachricht um {over} Zeichen. Dieser Kanal akzeptiert bis zu {max}.",
                 "too_long_dismiss": "Ok",
                 "attach": "Eine Datei anhängen",
                 "sticker": "Einen Sticker einfügen",
@@ -244,12 +244,12 @@
                 "insert_date": "Datum einfügen",
                 "cancel_edit": "Abbrechen",
                 "editing": "Nachricht wird bearbeitet",
-                "mention_here": "",
-                "mention_all": "",
+                "mention_here": "Jeden sonst benachrichtigen",
+                "mention_all": "Jedes Mitglied benachrichtigen",
                 "uploading": "Wird hochgeladen…",
                 "upload_failed": "Hochladen fehlgeschlagen.",
                 "too_large": "Diese Datei ist zu groß.",
-                "slow_mode_wait": "",
+                "slow_mode_wait": "Der Langsam-Modus ist aktiviert. In {duration} kannst du wieder schreiben.",
                 "send_failed": "Deine Nachricht konnte nicht gesendet werden."
             },
             "typing": {
@@ -260,7 +260,7 @@
                 "new_messages": "Neue Nachrichten",
                 "today": "Heute",
                 "yesterday": "Gestern",
-                "jump_to_latest": ""
+                "jump_to_latest": "Zur neuesten springen"
             },
             "new_channel": {
                 "subtitle": "",
@@ -406,13 +406,13 @@
                 "move_to": "Verschieben zu…",
                 "moved": "{count} Nachrichten verschoben.",
                 "copied": "In die Zwischenablage kopiert.",
-                "copy_failed": "",
-                "omitted": "",
-                "failed": ""
+                "copy_failed": "Dein Browser erlaubt nicht das Kopieren.",
+                "omitted": "{count} Nachrichten wurden ausgelassen, da du diese nicht lesen kannst.",
+                "failed": "Diese Aktion konnte nicht abgeschlossen werden."
             },
             "search": {
-                "title": "",
-                "placeholder": "",
+                "title": "Chat durchsuchen",
+                "placeholder": "Alle Kanäle durchsuchen",
                 "in_channel": "in {channel}",
                 "prompt": "",
                 "empty": ""
