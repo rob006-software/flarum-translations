@@ -87,7 +87,8 @@
                 "direct_messages": "",
                 "browse_channels": "",
                 "new_channel": "",
-                "no_channels": ""
+                "no_channels": "",
+                "back_to_channels": ""
             },
             "channel": {
                 "threading_enabled": "",
@@ -111,7 +112,8 @@
                 "leave_failed": "",
                 "join_hidden": "",
                 "joined_hidden": "",
-                "join_failed": ""
+                "join_failed": "",
+                "muted": ""
             },
             "message": {
                 "edited": "",
@@ -149,6 +151,7 @@
                 "delete_failed": "",
                 "system": {
                     "user_joined": "",
+                    "user_added": "",
                     "user_left": "",
                     "channel_closed": "",
                     "channel_reopened": "",
@@ -383,7 +386,6 @@
                 "auto_join_on_reply_help_none": "",
                 "auto_join_on_reply_help_bound": "",
                 "post_discussions": "",
-                "post_discussions_help_none": "",
                 "post_discussions_help_bound": "",
                 "threading": "",
                 "close_channel": "",

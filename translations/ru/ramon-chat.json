@@ -87,7 +87,8 @@
                 "direct_messages": "Личные сообщения",
                 "browse_channels": "Обзор каналов",
                 "new_channel": "Новый канал",
-                "no_channels": "Вы еще не присоединились ни к одному каналу."
+                "no_channels": "Вы еще не присоединились ни к одному каналу.",
+                "back_to_channels": ""
             },
             "channel": {
                 "threading_enabled": "",
@@ -111,7 +112,8 @@
                 "leave_failed": "Не удалось выйти из канала.",
                 "join_hidden": "Присоединиться незаметно",
                 "joined_hidden": "Вы присоединились, но не появились в списке участников.",
-                "join_failed": "Не удалось присоединиться к каналу."
+                "join_failed": "Не удалось присоединиться к каналу.",
+                "muted": ""
             },
             "message": {
                 "edited": "",
@@ -149,6 +151,7 @@
                 "delete_failed": "",
                 "system": {
                     "user_joined": "",
+                    "user_added": "",
                     "user_left": "",
                     "channel_closed": "",
                     "channel_reopened": "",
@@ -383,7 +386,6 @@
                 "auto_join_on_reply_help_none": "",
                 "auto_join_on_reply_help_bound": "",
                 "post_discussions": "",
-                "post_discussions_help_none": "",
                 "post_discussions_help_bound": "",
                 "threading": "",
                 "close_channel": "",

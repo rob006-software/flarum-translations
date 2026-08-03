@@ -87,7 +87,8 @@
                 "direct_messages": "Direct Messages",
                 "browse_channels": "Browse channels",
                 "new_channel": "New channel",
-                "no_channels": "You have not joined any channels yet."
+                "no_channels": "You have not joined any channels yet.",
+                "back_to_channels": "Back to channels"
             },
             "channel": {
                 "threading_enabled": "Threads enabled",
@@ -111,7 +112,8 @@
                 "leave_failed": "Could not leave the channel.",
                 "join_hidden": "Join without being seen",
                 "joined_hidden": "You joined without appearing in the member list.",
-                "join_failed": "Could not join the channel."
+                "join_failed": "Could not join the channel.",
+                "muted": "Muted"
             },
             "message": {
                 "edited": "edited",
@@ -149,6 +151,7 @@
                 "delete_failed": "That message could not be deleted.",
                 "system": {
                     "user_joined": "{username} joined the channel.",
+                    "user_added": "{username} was added by {actor}.",
                     "user_left": "{username} left the channel.",
                     "channel_closed": "The channel was closed.",
                     "channel_reopened": "The channel was reopened.",
@@ -383,7 +386,6 @@
                 "auto_join_on_reply_help_none": "Only does anything once the channel is bound to a category.",
                 "auto_join_on_reply_help_bound": "A user joins the first time they reply to a discussion in {category}, and is not re-added if they later leave.",
                 "post_discussions": "Announce new discussions from this category",
-                "post_discussions_help_none": "Only does anything once the channel is bound to a category.",
                 "post_discussions_help_bound": "Each new discussion started in {category} is announced in the channel.",
                 "threading": "Enable threads",
                 "close_channel": "Close channel",
