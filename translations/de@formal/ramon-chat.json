@@ -516,7 +516,7 @@
                 "mention_channel_wide": "Verwende @here und @all"
             },
             "bot": {
-                "title": "",
+                "title": "Ankündiger",
                 "intro": "Neue Diskussionen in einer verknüpften Kategorie werden im Kanal angekündigt. Wähle aus, unter welchem Namen sie veröffentlicht werden sollen.",
                 "upload": "Bild hochladen",
                 "remove_upload": "Bild entfernen",
@@ -529,18 +529,18 @@
             },
             "webhooks": {
                 "title": "Eingehende Webhooks",
-                "help": "",
+                "help": "Ein externer Dienst kann über eine geheime URL eine Nachricht per POST an einen Kanal senden. Die URL wird einmalig angezeigt, und zwar bei ihrer Erstellung oder bei einer Rotation.",
                 "name": "Webhook-Name",
                 "pick_channel": "Kanal wählen",
                 "create": "Webhook erstellen",
                 "empty": "Noch keine Webhooks.",
                 "active": "Aktiv",
-                "rotate": "",
-                "rotate_confirm": "",
+                "rotate": "Schlüssel rotieren",
+                "rotate_confirm": "Durch das Rotieren des Schlüssels werden alle Anwendungen unterbrochen, die die alte URL verwenden. Möchtest du fortfahren?",
                 "delete": "Löschen",
-                "delete_confirm": "",
+                "delete_confirm": "Diesen Webhook löschen? Alle Dienste, die dessen URL verwenden, funktionieren dann nicht mehr.",
                 "deliveries": "{count} Zustellungen",
-                "url_once": "",
+                "url_once": "Kopiere diese URL jetzt – sie wird nicht noch einmal angezeigt.",
                 "failed": "Diese Änderung konnte nicht gespeichert werden."
             }
         }
