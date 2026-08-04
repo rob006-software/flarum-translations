@@ -840,6 +840,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`fof-ban-ips`](https://weblate.rob006.net/projects/flarum/fof-ban-ips) | [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips) |
 | [`fof-best-answer`](https://weblate.rob006.net/projects/flarum/fof-best-answer) | [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer) |
 | [`fof-blog`](https://weblate.rob006.net/projects/flarum/fof-blog) | [`fof/blog`](https://github.com/FriendsOfFlarum/blog) |
+| [`fof-bookmarks`](https://weblate.rob006.net/projects/flarum/fof-bookmarks) | [`fof/bookmarks`](https://github.com/FriendsOfFlarum/bookmarks) |
 | [`fof-byobu`](https://weblate.rob006.net/projects/flarum/fof-byobu) | [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu) |
 | [`fof-categories`](https://weblate.rob006.net/projects/flarum/fof-categories) | [`fof/categories`](https://github.com/FriendsOfFlarum/categories) |
 | [`fof-checklist`](https://weblate.rob006.net/projects/flarum/fof-checklist) | [`fof/checklist`](https://github.com/FriendsOfFlarum/checklist) |
