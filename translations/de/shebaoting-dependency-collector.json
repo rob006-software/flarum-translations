@@ -1,36 +1,36 @@
 {
     "shebaoting-dependency-collector": {
         "forum": {
-            "nav_title": "",
+            "nav_title": "Sammlungen",
             "list": {
                 "submit_button": "",
                 "filter_by_tag": "",
                 "all_tags": "",
                 "empty_text": "",
-                "my_favorites_button": "",
+                "my_favorites_button": "Meine Favoriten",
                 "search_placeholder": ""
             },
             "item": {
                 "pending_approval": "",
-                "delete_button_label": "",
+                "delete_button_label": "Löschen",
                 "delete_confirmation_title": "",
                 "delete_confirmation_text": "",
-                "favorite_button_label": "",
-                "unfavorite_button_label": "",
+                "favorite_button_label": "Als Favorit markieren",
+                "unfavorite_button_label": "Nicht mehr Favorit",
                 "approve_button": "",
                 "unapprove_button": ""
             },
             "modal": {
                 "submit_title": "",
                 "edit_title": "",
-                "title_label": "",
-                "title_placeholder": "",
-                "link_label": "",
-                "description_label": "",
-                "description_placeholder": "",
+                "title_label": "Titel",
+                "title_placeholder": "z. B. Tolle Sammlung",
+                "link_label": "Link",
+                "description_label": "Beschreibung",
+                "description_placeholder": "Eine kurze Zusammenfassung dieser Sammlung.",
                 "tags_label": "",
                 "tags_help": "",
-                "submit_button": "",
+                "submit_button": "Senden",
                 "save_changes_button": "",
                 "no_tags_available": ""
             }
@@ -49,24 +49,24 @@
                 "no_plugin_tags": ""
             },
             "table": {
-                "title": "",
-                "submitted_by": "",
-                "submitted_at": "",
-                "approved_by": "",
-                "approved_at": "",
+                "title": "Titel",
+                "submitted_by": "Eingereicht von",
+                "submitted_at": "Eingereicht um",
+                "approved_by": "Genehmigt durch",
+                "approved_at": "Genehmigt um",
                 "tags": "",
                 "tag_name": "",
-                "tag_slug": "",
-                "tag_color_icon": "",
-                "tag_item_count": "",
-                "actions": "",
-                "tag_color": "",
-                "tag_icon": ""
+                "tag_slug": "Slug",
+                "tag_color_icon": "Farbe & Symbol",
+                "tag_item_count": "Artikel",
+                "actions": "Aktionen",
+                "tag_color": "Farbe",
+                "tag_icon": "Symbol"
             },
             "actions": {
                 "create_tag": "",
-                "approve": "",
-                "reject": ""
+                "approve": "Genehmigen",
+                "reject": "Ablehnen"
             },
             "confirm": {
                 "approve": "",
@@ -77,12 +77,12 @@
             "modal": {
                 "edit_tag_title": "",
                 "create_tag_title": "",
-                "tag_name_label": "",
-                "tag_slug_label": "",
-                "tag_description_label": "",
-                "tag_color_label": "",
-                "tag_icon_label": "",
-                "tag_icon_help": "",
+                "tag_name_label": "Name",
+                "tag_slug_label": "Slug",
+                "tag_description_label": "Beschreibung (optional)",
+                "tag_color_label": "Farbe (z. B.",
+                "tag_icon_label": "Symbol (z. B. fas fa-code)",
+                "tag_icon_help": "Finde Symbole auf <a>Font Awesome</a>.",
                 "save_button": "",
                 "icon_options": {
                     "code": "",
@@ -105,11 +105,11 @@
                 }
             },
             "permissions": {
-                "submit_label": "",
-                "moderate_label": "",
+                "submit_label": "Sammlungen einreichen",
+                "moderate_label": "Sammlungen moderieren (genehmigen, ablehnen, bearbeiten, löschen)",
                 "manage_tags_label": "",
-                "delete_label": "",
-                "favorite_items_label": ""
+                "delete_label": "Sammlungen löschen",
+                "favorite_items_label": "Sammlungen als Favorit markieren"
             }
         }
     }
