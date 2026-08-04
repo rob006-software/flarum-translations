@@ -2,8 +2,8 @@
 
 Translations for German (`de`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **285** are translated differently and **454** are
-translated only in `de`. Altogether they cover **80** components.
+sides, but do not match between them: **286** are translated differently and **471** are
+translated only in `de`. Altogether they cover **81** components.
 
 <!-- {% raw %} -->
 
@@ -51,6 +51,7 @@ translated only in `de`. Altogether they cover **80** components.
 | `fof-reactions` | [3](#fof-reactions) | 0 |
 | `fof-seo` | [3](#fof-seo) | 0 |
 | `fof-sitemap` | [3](#fof-sitemap) | 0 |
+| `fof-split` | [1](#fof-split) | 0 |
 | `fof-terms` | [1](#fof-terms) | 0 |
 | `fof-upload` | [1](#fof-upload) | 0 |
 | `fof-username-request` | [8](#fof-username-request) | 0 |
@@ -68,7 +69,7 @@ translated only in `de`. Altogether they cover **80** components.
 | `ianm-twofactor` | [3](#ianm-twofactor) | 0 |
 | `justoverclock-related-discussions` | [2](#justoverclock-related-discussions) | 0 |
 | `justoverclock-welcomebox` | [1](#justoverclock-welcomebox) | 0 |
-| `linkrobins-badge-labels` | 0 | [13](#linkrobins-badge-labels-missing) |
+| `linkrobins-badge-labels` | 0 | [30](#linkrobins-badge-labels-missing) |
 | `maicol07-sso` | 0 | [13](#maicol07-sso-missing) |
 | `michaelbelgium-ai-autoreply` | 0 | [22](#michaelbelgium-ai-autoreply-missing) |
 | `migratetoflarum-fake-data` | [1](#migratetoflarum-fake-data) | 0 |
@@ -1983,6 +1984,20 @@ Die Mindestanzahl an Diskussionen, über die ein <del>Thema</del><ins>Tag</ins> 
 <del>Thema:</del><ins>Tag:</ins> Mindestanzahl an Diskussionen
 
 
+### `fof-split`
+
+#### [`fof-split.admin.permissions.split_discussion_label`](https://weblate.rob006.net/translate/flarum2/fof-split/de/?q=context%3A%3D%22fof-split.admin.permissions.split_discussion_label%22)
+
+> Split posts from discussions
+
+```diff
+-Teile Beiträge von Diskussionen auf
++Beiträge von Diskussionen aufteilen
+```
+
+<del>Teile </del>Beiträge von Diskussionen <del>auf</del><ins>aufteilen</ins>
+
+
 ### `fof-terms`
 
 #### [`fof-terms.admin.policies.name`](https://weblate.rob006.net/translate/flarum2/fof-terms/de/?q=context%3A%3D%22fof-terms.admin.policies.name%22)
@@ -3797,12 +3812,68 @@ These strings are translated only in `de`, so there is nothing to inherit from F
 
 ### `linkrobins-badge-labels` (missing)
 
+#### [`linkrobins-badge-labels.admin.settings.arrangement_centered`](https://weblate.rob006.net/translate/flarum2/linkrobins-badge-labels/de/?q=context%3A%3D%22linkrobins-badge-labels.admin.settings.arrangement_centered%22)
+
+> One per row, centered
+
+```diff
++Eines pro Zeile, zentriert
+```
+
+#### [`linkrobins-badge-labels.admin.settings.arrangement_grid`](https://weblate.rob006.net/translate/flarum2/linkrobins-badge-labels/de/?q=context%3A%3D%22linkrobins-badge-labels.admin.settings.arrangement_grid%22)
+
+> Centered, icons sharing rows
+
+```diff
++Zentriert, Symbole in einer Zeile
+```
+
+#### [`linkrobins-badge-labels.admin.settings.arrangement_help`](https://weblate.rob006.net/translate/flarum2/linkrobins-badge-labels/de/?q=context%3A%3D%22linkrobins-badge-labels.admin.settings.arrangement_help%22)
+
+> How the badges under the avatar are arranged. Only used when something sits below the avatar. Rows is how they have always been laid out. The grid lets badges with no title share a row, so a column of icons reads as a block under the avatar instead of a long thin line.
+
+```diff
++Wie die Abzeichen unter dem Avatar angeordnet sind. Wird nur verwendet, wenn sich etwas unterhalb des Avatars befindet. Bei der Anordnung „Zeilen“ werden sie wie bisher angeordnet. Bei der Anordnung „Raster“ teilen sich Abzeichen ohne Titel eine Zeile, sodass eine Spalte mit Symbolen unter dem Avatar wie ein Block wirkt und nicht wie eine lange, schmale Linie.
+```
+
+#### [`linkrobins-badge-labels.admin.settings.arrangement_label`](https://weblate.rob006.net/translate/flarum2/linkrobins-badge-labels/de/?q=context%3A%3D%22linkrobins-badge-labels.admin.settings.arrangement_label%22)
+
+> Badge arrangement
+
+```diff
++Anordnung der Abzeichen
+```
+
+#### [`linkrobins-badge-labels.admin.settings.arrangement_rows`](https://weblate.rob006.net/translate/flarum2/linkrobins-badge-labels/de/?q=context%3A%3D%22linkrobins-badge-labels.admin.settings.arrangement_rows%22)
+
+> One per row
+
+```diff
++Eines pro Zeile
+```
+
+#### [`linkrobins-badge-labels.admin.settings.avatar_gap_help`](https://weblate.rob006.net/translate/flarum2/linkrobins-badge-labels/de/?q=context%3A%3D%22linkrobins-badge-labels.admin.settings.avatar_gap_help%22)
+
+> The space between the avatar and the first badge under it. Only used when something sits below the avatar. Between 0 and 60.
+
+```diff
++Der Abstand zwischen dem Avatar und dem ersten Abzeichen darunter. Wird nur verwendet, wenn sich etwas unterhalb des Avatars befindet. Zwischen 0 und 60.
+```
+
+#### [`linkrobins-badge-labels.admin.settings.avatar_gap_label`](https://weblate.rob006.net/translate/flarum2/linkrobins-badge-labels/de/?q=context%3A%3D%22linkrobins-badge-labels.admin.settings.avatar_gap_label%22)
+
+> Gap below the avatar (pixels)
+
+```diff
++Abstand unterhalb des Avatars (in Pixeln)
+```
+
 #### [`linkrobins-badge-labels.admin.settings.column_width_help`](https://weblate.rob006.net/translate/flarum2/linkrobins-badge-labels/de/?q=context%3A%3D%22linkrobins-badge-labels.admin.settings.column_width_help%22)
 
 > How much room the badges and titles get beside the post. Only used when something sits below the avatar. Between 85 and 400.
 
 ```diff
-+Wie viel Platz die Abzeichen und Titel neben dem Beitrag einnehmen. Wird nur verwendet, wenn die Abzeichen unterhalb des Avatars angezeigt werden. Zwischen 85 und 400.
++Wie viel Platz die Abzeichen und Titel neben dem Beitrag einnehmen. Wird nur verwendet, wenn etwas unterhalb des Avatars angezeigt wird. Zwischen 85 und 400.
 ```
 
 #### [`linkrobins-badge-labels.admin.settings.column_width_label`](https://weblate.rob006.net/translate/flarum2/linkrobins-badge-labels/de/?q=context%3A%3D%22linkrobins-badge-labels.admin.settings.column_width_label%22)
@@ -3813,12 +3884,44 @@ These strings are translated only in `de`, so there is nothing to inherit from F
 +Breite der Autorenspalte (Pixel)
 ```
 
+#### [`linkrobins-badge-labels.admin.settings.discussion_badges_help`](https://weblate.rob006.net/translate/flarum2/linkrobins-badge-labels/de/?q=context%3A%3D%22linkrobins-badge-labels.admin.settings.discussion_badges_help%22)
+
+> Gives the same pills to a discussion's own badges, such as sticky and locked. In the discussion list they move to the line under the title, where there is room for their names.
+
+```diff
++Weist den Abzeichen einer Diskussion, wie z. B. „Angeheftet“ und „Gesperrt“, dieselben Symbole zu. In der Diskussionsliste werden sie in die Zeile unter dem Titel verschoben, wo Platz für ihre Namen ist.
+```
+
+#### [`linkrobins-badge-labels.admin.settings.discussion_badges_label`](https://weblate.rob006.net/translate/flarum2/linkrobins-badge-labels/de/?q=context%3A%3D%22linkrobins-badge-labels.admin.settings.discussion_badges_label%22)
+
+> Label discussion badges too
+
+```diff
++Diskussionsabzeichen auch beschriften
+```
+
+#### [`linkrobins-badge-labels.admin.settings.labels_all`](https://weblate.rob006.net/translate/flarum2/linkrobins-badge-labels/de/?q=context%3A%3D%22linkrobins-badge-labels.admin.settings.labels_all%22)
+
+> On every badge
+
+```diff
++Bei jedem Abzeichen
+```
+
+#### [`linkrobins-badge-labels.admin.settings.labels_first`](https://weblate.rob006.net/translate/flarum2/linkrobins-badge-labels/de/?q=context%3A%3D%22linkrobins-badge-labels.admin.settings.labels_first%22)
+
+> On the first badge only
+
+```diff
++Nur bei erstem Abzeichen
+```
+
 #### [`linkrobins-badge-labels.admin.settings.labels_help`](https://weblate.rob006.net/translate/flarum2/linkrobins-badge-labels/de/?q=context%3A%3D%22linkrobins-badge-labels.admin.settings.labels_help%22)
 
 > Show each badge's name next to its icon instead of the icon on its own. Only the first badge is a user's main one, so this can spell that one out and leave the rest as icons.
 
 ```diff
-+Zeige den Namen jedes Abzeichens neben dem entsprechenden Symbol an, anstatt nur das Symbol allein anzuzeigen.
++Zeige den Namen jedes Abzeichens neben dem entsprechenden Symbol an, anstatt nur das Symbol allein anzuzeigen. Da nur das erste Abzeichen das Hauptabzeichen eines Benutzers ist, kann dessen Name vollständig angezeigt werden, während die übrigen als Symbole dargestellt werden.
 ```
 
 #### [`linkrobins-badge-labels.admin.settings.labels_label`](https://weblate.rob006.net/translate/flarum2/linkrobins-badge-labels/de/?q=context%3A%3D%22linkrobins-badge-labels.admin.settings.labels_label%22)
@@ -3827,6 +3930,14 @@ These strings are translated only in `de`, so there is nothing to inherit from F
 
 ```diff
 +Vollständigen Abzeichentitel anzeigen
+```
+
+#### [`linkrobins-badge-labels.admin.settings.labels_none`](https://weblate.rob006.net/translate/flarum2/linkrobins-badge-labels/de/?q=context%3A%3D%22linkrobins-badge-labels.admin.settings.labels_none%22)
+
+> Off: icons only
+
+```diff
++Aus: Nur Symbole
 ```
 
 #### [`linkrobins-badge-labels.admin.settings.layout_below`](https://weblate.rob006.net/translate/flarum2/linkrobins-badge-labels/de/?q=context%3A%3D%22linkrobins-badge-labels.admin.settings.layout_below%22)
@@ -3882,7 +3993,7 @@ These strings are translated only in `de`, so there is nothing to inherit from F
 > Adds the number of posts the author has written, as a pill of its own.
 
 ```diff
-+Fügt unter den Abzeichen des Autors die Anzahl der von ihm verfassten Beiträge hinzu.
++Fügt die Anzahl der von einem Autor verfassten Beiträge in einer eigenen Pille hinzu.
 ```
 
 #### [`linkrobins-badge-labels.admin.settings.post_count_label`](https://weblate.rob006.net/translate/flarum2/linkrobins-badge-labels/de/?q=context%3A%3D%22linkrobins-badge-labels.admin.settings.post_count_label%22)
@@ -3891,6 +4002,46 @@ These strings are translated only in `de`, so there is nothing to inherit from F
 
 ```diff
 +Anzahl der Beiträge des Autors anzeigen
+```
+
+#### [`linkrobins-badge-labels.admin.settings.post_count_placement_badges`](https://weblate.rob006.net/translate/flarum2/linkrobins-badge-labels/de/?q=context%3A%3D%22linkrobins-badge-labels.admin.settings.post_count_placement_badges%22)
+
+> With the badges
+
+```diff
++Mit den Abzeichen
+```
+
+#### [`linkrobins-badge-labels.admin.settings.post_count_placement_below`](https://weblate.rob006.net/translate/flarum2/linkrobins-badge-labels/de/?q=context%3A%3D%22linkrobins-badge-labels.admin.settings.post_count_placement_below%22)
+
+> Below the avatar
+
+```diff
++Unter dem Avatar
+```
+
+#### [`linkrobins-badge-labels.admin.settings.post_count_placement_beside`](https://weblate.rob006.net/translate/flarum2/linkrobins-badge-labels/de/?q=context%3A%3D%22linkrobins-badge-labels.admin.settings.post_count_placement_beside%22)
+
+> Beside the username
+
+```diff
++Neben dem Benutzernamen
+```
+
+#### [`linkrobins-badge-labels.admin.settings.post_count_placement_help`](https://weblate.rob006.net/translate/flarum2/linkrobins-badge-labels/de/?q=context%3A%3D%22linkrobins-badge-labels.admin.settings.post_count_placement_help%22)
+
+> Where that pill goes. It can follow the badges wherever they are, or sit in the other place, so the count can be under the avatar while the badges stay on the header line.
+
+```diff
++Wo diese Pille angezeigt wird. Sie kann den Abzeichen folgen, wo immer diese sich befinden, oder an einer anderen Stelle platziert werden, sodass die Anzahl unter dem Avatar angezeigt wird, während die Abzeichen in der Kopfzeile bleiben.
+```
+
+#### [`linkrobins-badge-labels.admin.settings.post_count_placement_label`](https://weblate.rob006.net/translate/flarum2/linkrobins-badge-labels/de/?q=context%3A%3D%22linkrobins-badge-labels.admin.settings.post_count_placement_label%22)
+
+> Post count placement
+
+```diff
++Platzierung des Beitragszählers
 ```
 
 #### [`linkrobins-badge-labels.forum.post_count`](https://weblate.rob006.net/translate/flarum2/linkrobins-badge-labels/de/?q=context%3A%3D%22linkrobins-badge-labels.forum.post_count%22)
