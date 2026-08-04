@@ -397,7 +397,7 @@
                 "member_removed": "{username} wurde aus dem Kanal entfernt.",
                 "remove_member": "{username} entfernen",
                 "remove_member_confirm": "{username} aus diesem Kanal entfernen?",
-                "no_members": "",
+                "no_members": "Es wurden keine Mitglieder gefunden.",
                 "save_failed": "Änderung konnte nicht gespeichert werden."
             },
             "selection": {
@@ -415,17 +415,17 @@
                 "placeholder": "Alle Kanäle durchsuchen",
                 "in_channel": "in {channel}",
                 "prompt": "Gib einen Suchbegriff ein, um Nachrichten zu suchen.",
-                "empty": ""
+                "empty": "Keine passenden Nachrichten gefunden."
             },
             "revisions": {
                 "title": "Änderungsverlauf",
                 "current": "Aktuelle Version",
                 "unknown_editor": "Unbekannt",
-                "failed": ""
+                "failed": "Der Änderungsverlauf konnte nicht geladen werden."
             },
             "notifications": {
-                "message_flagged": "",
-                "channel_invite": "",
+                "message_flagged": "{username} hat eine Nachricht in {channel} gemeldet",
+                "channel_invite": "{username} hat dich zu {channel} hinzugefügt",
                 "someone": ""
             },
             "bot": {
