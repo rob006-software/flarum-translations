@@ -14,51 +14,51 @@
                 "min_img_size_help": "Bilder, deren Breite oder Höhe kleiner als dieser Wert ist, werden ausgeschlossen.",
                 "max_img_size_label": "Maximalbildgröße (px)",
                 "max_img_size_help": "Bilder, deren Breite oder Höhe größer als dieser Wert ist, werden ausgeschlossen.",
-                "fallback_mode_label": "",
-                "fallback_mode_help": "",
-                "fallback_mode_none": "",
-                "fallback_mode_default": "",
-                "fallback_mode_custom": ""
+                "fallback_mode_label": "Ausweichlösung, wenn kein Bild verfügbar ist",
+                "fallback_mode_help": "Lege fest, was angezeigt werden soll, wenn zu einer Diskussion kein brauchbares Bild vorhanden ist oder wenn das Bild nicht geladen werden kann.",
+                "fallback_mode_none": "Kein Vorschaubild (Inhalt verschiebt sich nach links)",
+                "fallback_mode_default": "Eingebauter Platzhalter",
+                "fallback_mode_custom": "Benutzerdefiniertes hochgeladenes Bild"
             },
             "fallback": {
-                "title": "",
-                "upload_button": "",
-                "uploading": "",
-                "no_files": "",
-                "delete": "",
-                "confirm_delete": "",
-                "delete_modal_title": "",
+                "title": "Ausweich-Bildbibliothek",
+                "upload_button": "Bild hochladen",
+                "uploading": "Wird hochgeladen…",
+                "no_files": "Noch keine Bilder hochgeladen.",
+                "delete": "Löschen",
+                "confirm_delete": "Dieses Bild löschen?",
+                "delete_modal_title": "Ausweichbild löschen",
                 "delete_modal_cancel": "Abbrechen",
-                "delete_modal_error": "",
-                "clear_selection": "",
-                "not_active_mode": ""
+                "delete_modal_error": "Dieses Bild konnte nicht gelöscht werden. Bitte versuche es erneut.",
+                "clear_selection": "Keine Auswahl verwenden",
+                "not_active_mode": "Diese Bilder werden nur verwendet, wenn der Ausweich-Modus auf „Benutzerdefiniertes hochgeladenes Bild“ eingestellt ist."
             },
             "support": {
-                "button": "",
-                "title": "",
+                "button": "Unterstütze die Entwicklung",
+                "title": "Unterstütze diese Erweiterung",
                 "description": "",
-                "copy": "",
-                "thanks": ""
+                "copy": "Adresse kopieren",
+                "thanks": "Vielen Dank für deine Unterstützung!"
             }
         }
     },
     "tryhackx-avatars": {
         "admin": {
-            "title": "",
-            "help": "",
-            "thumbs_inactive": "",
-            "save_error": "",
-            "device_desktop": "",
-            "device_mobile": "",
-            "mode_show": "",
-            "mode_with_image": "",
-            "mode_always": "",
-            "mode_hide": "",
-            "hint_show": "",
-            "hint_hide": "",
-            "hint_with_image": "",
-            "hint_always": "",
-            "hint_replace_no_thumbs": ""
+            "title": "Avatare in der Diskussionsliste",
+            "help": "Lege fest, wie sich der Autoren-Avatar in der Diskussionsliste verhält – separat für Desktop- und Mobilgeräte. Dies ist eine gemeinsame Einstellung – wenn du sie hier änderst, wird sie auch in „Thumb Sliders“ bzw. „Topic Rating“ aktualisiert, je nachdem, welches der beiden Erweiterungen du installiert hast.",
+            "thumbs_inactive": "„Thumb Sliders“ ist nicht aktiviert, daher gibt es kein Vorschaubild, durch das der Avatar ersetzt werden könnte. Die unten stehenden „Ersetzen“-Optionen verhalten sich wie „Avatar anzeigen“ – verwende „Avatar ausblenden“, um Avatare zu entfernen (z. B. für eine übersichtlichere Liste auf Mobilgeräten).",
+            "save_error": "Avatareinstellung konnte nicht gespeichert werden. Bitte versuche es erneut.",
+            "device_desktop": "Desktop",
+            "device_mobile": "Handy",
+            "mode_show": "Avatar anzeigen",
+            "mode_with_image": "Durch Miniaturansicht ersetzen, wenn die Diskussion ein Bild enthält",
+            "mode_always": "Immer durch Miniaturansicht ersetzen",
+            "mode_hide": "Avatar verbergen",
+            "hint_show": "Der Avatar des Verfassers wird immer angezeigt.",
+            "hint_hide": "Der Avatar wird nie angezeigt. Ist ein Miniaturbild verfügbar, wird dieses an seiner Stelle angezeigt; andernfalls enthält die Zeile einfach keinen Avatar.",
+            "hint_with_image": "Das Vorschaubild ersetzt den Avatar nur, wenn die Diskussion ein echtes Bild enthält; andernfalls wird der Avatar angezeigt.",
+            "hint_always": "Das Miniaturansicht (oder das konfigurierte Ausweichbild) ersetzt immer den Avatar; bei Diskussionen, für die überhaupt keine Miniaturansicht vorhanden ist, bleibt der Avatar erhalten.",
+            "hint_replace_no_thumbs": "„Thumb Sliders“ ist deaktiviert, daher wird der Avatar wie gewohnt angezeigt. Installiere bzw. aktiviere „Thumb Sliders“, um ihn durch eine Miniaturansicht zu ersetzen, oder wähle „Avatar ausblenden“."
         }
     }
 }
