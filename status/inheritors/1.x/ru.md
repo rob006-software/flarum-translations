@@ -2,8 +2,8 @@
 
 Translations for Russian (`ru`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **44** are translated differently and **63** are
-translated only in `ru`. Altogether they cover **16** components.
+sides, but do not match between them: **44** are translated differently and **85** are
+translated only in `ru`. Altogether they cover **17** components.
 
 <!-- {% raw %} -->
 
@@ -17,6 +17,7 @@ translated only in `ru`. Altogether they cover **16** components.
 | `ernestdefoe-aurora` | [1](#ernestdefoe-aurora) | 0 |
 | `fof-anti-spam` | [2](#fof-anti-spam) | 0 |
 | `fof-best-answer` | [2](#fof-best-answer) | 0 |
+| `fof-bookmarks` | 0 | [22](#fof-bookmarks-missing) |
 | `fof-doorman` | [7](#fof-doorman) | 0 |
 | `fof-gamification` | [1](#fof-gamification) | 0 |
 | `fof-github-sponsors` | 0 | [4](#fof-github-sponsors-missing) |
@@ -640,6 +641,185 @@ These strings are translated only in `ru`, so there is nothing to inherit from F
 
 ```diff
 +Минимальная длина
+```
+
+
+### `fof-bookmarks` (missing)
+
+#### [`fof-bookmarks.admin.settings.independent_button`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/ru/?q=context%3A%3D%22fof-bookmarks.admin.settings.independent_button%22)
+
+> Show the discussion bookmark control in the sidebar
+
+```diff
++Показывать кнопку закладки в боковой панели
+```
+
+#### [`fof-bookmarks.admin.settings.independent_button_help`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/ru/?q=context%3A%3D%22fof-bookmarks.admin.settings.independent_button_help%22)
+
+> When off, the control appears in the discussion dropdown menu instead.
+
+```diff
++Если выключено, кнопка будет отображаться в выпадающем меню темы.
+```
+
+#### [`fof-bookmarks.admin.settings.post_button_position`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/ru/?q=context%3A%3D%22fof-bookmarks.admin.settings.post_button_position%22)
+
+> Post bookmark button position
+
+```diff
++Расположение кнопки закладки сообщения
+```
+
+#### [`fof-bookmarks.admin.settings.post_button_position_actions`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/ru/?q=context%3A%3D%22fof-bookmarks.admin.settings.post_button_position_actions%22)
+
+> Below post (quick actions)
+
+```diff
++Под сообщением (быстрые действия)
+```
+
+#### [`fof-bookmarks.admin.settings.post_button_position_header`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/ru/?q=context%3A%3D%22fof-bookmarks.admin.settings.post_button_position_header%22)
+
+> Above post (header)
+
+```diff
++Над сообщением (заголовок)
+```
+
+#### [`fof-bookmarks.admin.settings.post_button_position_menu`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/ru/?q=context%3A%3D%22fof-bookmarks.admin.settings.post_button_position_menu%22)
+
+> In post menu (three dots)
+
+```diff
++В меню сообщения (три точки)
+```
+
+#### [`fof-bookmarks.admin.settings.post_header_badge`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/ru/?q=context%3A%3D%22fof-bookmarks.admin.settings.post_header_badge%22)
+
+> Label bookmarked posts
+
+```diff
++Помечать сообщения в закладках
+```
+
+#### [`fof-bookmarks.admin.settings.post_header_badge_help`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/ru/?q=context%3A%3D%22fof-bookmarks.admin.settings.post_header_badge_help%22)
+
+> Shows a label above a bookmarked post. Only applies when the button is not in the header.
+
+```diff
++Показывает метку над сообщением в закладках. Применяется только когда кнопка находится не в заголовке.
+```
+
+#### [`fof-bookmarks.forum.alert.added`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/ru/?q=context%3A%3D%22fof-bookmarks.forum.alert.added%22)
+
+> Bookmark added!
+
+```diff
++Закладка добавлена!
+```
+
+#### [`fof-bookmarks.forum.alert.removed`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/ru/?q=context%3A%3D%22fof-bookmarks.forum.alert.removed%22)
+
+> Bookmark removed!
+
+```diff
++Закладка удалена!
+```
+
+#### [`fof-bookmarks.forum.alert.show_bookmarks`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/ru/?q=context%3A%3D%22fof-bookmarks.forum.alert.show_bookmarks%22)
+
+> Go to bookmarks
+
+```diff
++Перейти к закладкам
+```
+
+#### [`fof-bookmarks.forum.badge`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/ru/?q=context%3A%3D%22fof-bookmarks.forum.badge%22)
+
+> Bookmarked
+
+```diff
++В закладках
+```
+
+#### [`fof-bookmarks.forum.dropdownButton.add`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/ru/?q=context%3A%3D%22fof-bookmarks.forum.dropdownButton.add%22)
+
+> Add to bookmarks
+
+```diff
++Добавить в закладки
+```
+
+#### [`fof-bookmarks.forum.dropdownButton.remove`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/ru/?q=context%3A%3D%22fof-bookmarks.forum.dropdownButton.remove%22)
+
+> Remove from bookmarks
+
+```diff
++Убрать из закладок
+```
+
+#### [`fof-bookmarks.forum.independentButton.add`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/ru/?q=context%3A%3D%22fof-bookmarks.forum.independentButton.add%22)
+
+> Bookmark
+
+```diff
++В закладки
+```
+
+#### [`fof-bookmarks.forum.independentButton.remove`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/ru/?q=context%3A%3D%22fof-bookmarks.forum.independentButton.remove%22)
+
+> Bookmarked
+
+```diff
++В закладках
+```
+
+#### [`fof-bookmarks.forum.page.link`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/ru/?q=context%3A%3D%22fof-bookmarks.forum.page.link%22)
+
+> Bookmarks
+
+```diff
++Закладки
+```
+
+#### [`fof-bookmarks.forum.page.tab.discussions`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/ru/?q=context%3A%3D%22fof-bookmarks.forum.page.tab.discussions%22)
+
+> Discussions
+
+```diff
++Темы
+```
+
+#### [`fof-bookmarks.forum.page.tab.posts`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/ru/?q=context%3A%3D%22fof-bookmarks.forum.page.tab.posts%22)
+
+> Posts
+
+```diff
++Сообщения
+```
+
+#### [`fof-bookmarks.forum.page.title`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/ru/?q=context%3A%3D%22fof-bookmarks.forum.page.title%22)
+
+> Bookmarks
+
+```diff
++Закладки
+```
+
+#### [`fof-bookmarks.forum.postButton.add`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/ru/?q=context%3A%3D%22fof-bookmarks.forum.postButton.add%22)
+
+> Bookmark
+
+```diff
++В закладки
+```
+
+#### [`fof-bookmarks.forum.postButton.remove`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/ru/?q=context%3A%3D%22fof-bookmarks.forum.postButton.remove%22)
+
+> Bookmarked
+
+```diff
++В закладках
 ```
 
 

@@ -2,8 +2,8 @@
 
 Translations for French (`fr`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **125** are translated differently and **1118** are
-translated only in `fr`. Altogether they cover **54** components.
+sides, but do not match between them: **125** are translated differently and **1138** are
+translated only in `fr`. Altogether they cover **55** components.
 
 <!-- {% raw %} -->
 
@@ -24,6 +24,7 @@ translated only in `fr`. Altogether they cover **54** components.
 | `fof-author-change` | 0 | [16](#fof-author-change-missing) |
 | `fof-badges` | 0 | [289](#fof-badges-missing) |
 | `fof-best-answer` | [4](#fof-best-answer) | [2](#fof-best-answer-missing) |
+| `fof-bookmarks` | 0 | [20](#fof-bookmarks-missing) |
 | `fof-categories` | [15](#fof-categories) | 0 |
 | `fof-checklist` | [2](#fof-checklist) | 0 |
 | `fof-follow-tags` | 0 | [17](#fof-follow-tags-missing) |
@@ -4813,6 +4814,169 @@ These strings are translated only in `fr`, so there is nothing to inherit from F
 
 ```diff
 +A désélectionné {post} comme meilleure réponse dans {discussion}
+```
+
+
+### `fof-bookmarks` (missing)
+
+#### [`fof-bookmarks.admin.settings.independent_button`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/fr/?q=context%3A%3D%22fof-bookmarks.admin.settings.independent_button%22)
+
+> Show the discussion bookmark control in the sidebar
+
+```diff
++Affiche le contrôle des favoris dans la barre latérale de discussion
+```
+
+#### [`fof-bookmarks.admin.settings.independent_button_help`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/fr/?q=context%3A%3D%22fof-bookmarks.admin.settings.independent_button_help%22)
+
+> When off, the control appears in the discussion dropdown menu instead.
+
+```diff
++Lorsque cette option est désactivée, le contrôle apparaît dans le menu déroulant de la discussion.
+```
+
+#### [`fof-bookmarks.admin.settings.post_button_position`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/fr/?q=context%3A%3D%22fof-bookmarks.admin.settings.post_button_position%22)
+
+> Post bookmark button position
+
+```diff
++Position du bouton « Favori » dans les messages
+```
+
+#### [`fof-bookmarks.admin.settings.post_button_position_actions`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/fr/?q=context%3A%3D%22fof-bookmarks.admin.settings.post_button_position_actions%22)
+
+> Below post (quick actions)
+
+```diff
++Sous le message (actions rapides)
+```
+
+#### [`fof-bookmarks.admin.settings.post_button_position_header`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/fr/?q=context%3A%3D%22fof-bookmarks.admin.settings.post_button_position_header%22)
+
+> Above post (header)
+
+```diff
++Au-dessus du message (en-tête)
+```
+
+#### [`fof-bookmarks.admin.settings.post_button_position_menu`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/fr/?q=context%3A%3D%22fof-bookmarks.admin.settings.post_button_position_menu%22)
+
+> In post menu (three dots)
+
+```diff
++Dans le menu du message (3 points)
+```
+
+#### [`fof-bookmarks.forum.alert.added`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/fr/?q=context%3A%3D%22fof-bookmarks.forum.alert.added%22)
+
+> Bookmark added!
+
+```diff
++Favori ajouté !
+```
+
+#### [`fof-bookmarks.forum.alert.removed`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/fr/?q=context%3A%3D%22fof-bookmarks.forum.alert.removed%22)
+
+> Bookmark removed!
+
+```diff
++Favori supprimé !
+```
+
+#### [`fof-bookmarks.forum.alert.show_bookmarks`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/fr/?q=context%3A%3D%22fof-bookmarks.forum.alert.show_bookmarks%22)
+
+> Go to bookmarks
+
+```diff
++Aller aux favoris
+```
+
+#### [`fof-bookmarks.forum.badge`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/fr/?q=context%3A%3D%22fof-bookmarks.forum.badge%22)
+
+> Bookmarked
+
+```diff
++Ajouté aux favoris
+```
+
+#### [`fof-bookmarks.forum.dropdownButton.add`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/fr/?q=context%3A%3D%22fof-bookmarks.forum.dropdownButton.add%22)
+
+> Add to bookmarks
+
+```diff
++Ajouter aux favoris
+```
+
+#### [`fof-bookmarks.forum.dropdownButton.remove`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/fr/?q=context%3A%3D%22fof-bookmarks.forum.dropdownButton.remove%22)
+
+> Remove from bookmarks
+
+```diff
++Retirer des favoris
+```
+
+#### [`fof-bookmarks.forum.independentButton.add`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/fr/?q=context%3A%3D%22fof-bookmarks.forum.independentButton.add%22)
+
+> Bookmark
+
+```diff
++Favori
+```
+
+#### [`fof-bookmarks.forum.independentButton.remove`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/fr/?q=context%3A%3D%22fof-bookmarks.forum.independentButton.remove%22)
+
+> Bookmarked
+
+```diff
++Ajouté aux favoris
+```
+
+#### [`fof-bookmarks.forum.page.link`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/fr/?q=context%3A%3D%22fof-bookmarks.forum.page.link%22)
+
+> Bookmarks
+
+```diff
++Favoris
+```
+
+#### [`fof-bookmarks.forum.page.tab.discussions`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/fr/?q=context%3A%3D%22fof-bookmarks.forum.page.tab.discussions%22)
+
+> Discussions
+
+```diff
++Discussions
+```
+
+#### [`fof-bookmarks.forum.page.tab.posts`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/fr/?q=context%3A%3D%22fof-bookmarks.forum.page.tab.posts%22)
+
+> Posts
+
+```diff
++Messages
+```
+
+#### [`fof-bookmarks.forum.page.title`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/fr/?q=context%3A%3D%22fof-bookmarks.forum.page.title%22)
+
+> Bookmarks
+
+```diff
++Favoris
+```
+
+#### [`fof-bookmarks.forum.postButton.add`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/fr/?q=context%3A%3D%22fof-bookmarks.forum.postButton.add%22)
+
+> Bookmark
+
+```diff
++Favori
+```
+
+#### [`fof-bookmarks.forum.postButton.remove`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/fr/?q=context%3A%3D%22fof-bookmarks.forum.postButton.remove%22)
+
+> Bookmarked
+
+```diff
++Ajouté aux favoris
 ```
 
 

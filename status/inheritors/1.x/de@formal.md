@@ -2,8 +2,8 @@
 
 Translations for German (formal) (`de@formal`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **333** are translated differently and **471** are
-translated only in `de@formal`. Altogether they cover **83** components.
+sides, but do not match between them: **333** are translated differently and **488** are
+translated only in `de@formal`. Altogether they cover **84** components.
 
 <!-- {% raw %} -->
 
@@ -91,6 +91,7 @@ translated only in `de@formal`. Altogether they cover **83** components.
 | `tapao-custom-landing-page` | 0 | [4](#tapao-custom-landing-page-missing) |
 | `tryhackx-advanced-pages` | 0 | [61](#tryhackx-advanced-pages-missing) |
 | `tryhackx-homepage-blocks` | [2](#tryhackx-homepage-blocks) | [21](#tryhackx-homepage-blocks-missing) |
+| `tryhackx-thumb-sliders` | 0 | [17](#tryhackx-thumb-sliders-missing) |
 | `validation` | [10](#validation) | 0 |
 | `walsgit-discussion-cards` | [6](#walsgit-discussion-cards) | 0 |
 | `yippy-auth-ldap` | [3](#yippy-auth-ldap) | [31](#yippy-auth-ldap-missing) |
@@ -7511,6 +7512,145 @@ These strings are translated only in `de@formal`, so there is nothing to inherit
 
 ```diff
 +Verfügbarkeit
+```
+
+
+### `tryhackx-thumb-sliders` (missing)
+
+#### [`tryhackx-thumb-sliders.admin.fallback.clear_selection`](https://weblate.rob006.net/translate/flarum2/tryhackx-thumb-sliders/de@formal/?q=context%3A%3D%22tryhackx-thumb-sliders.admin.fallback.clear_selection%22)
+
+> Use no selection
+
+```diff
++Keine Auswahl verwenden
+```
+
+#### [`tryhackx-thumb-sliders.admin.fallback.confirm_delete`](https://weblate.rob006.net/translate/flarum2/tryhackx-thumb-sliders/de@formal/?q=context%3A%3D%22tryhackx-thumb-sliders.admin.fallback.confirm_delete%22)
+
+> Delete this image?
+
+```diff
++Dieses Bild löschen?
+```
+
+#### [`tryhackx-thumb-sliders.admin.fallback.delete`](https://weblate.rob006.net/translate/flarum2/tryhackx-thumb-sliders/de@formal/?q=context%3A%3D%22tryhackx-thumb-sliders.admin.fallback.delete%22)
+
+> Delete
+
+```diff
++Löschen
+```
+
+#### [`tryhackx-thumb-sliders.admin.fallback.no_files`](https://weblate.rob006.net/translate/flarum2/tryhackx-thumb-sliders/de@formal/?q=context%3A%3D%22tryhackx-thumb-sliders.admin.fallback.no_files%22)
+
+> No images uploaded yet.
+
+```diff
++Noch keine Bilder hochgeladen.
+```
+
+#### [`tryhackx-thumb-sliders.admin.fallback.not_active_mode`](https://weblate.rob006.net/translate/flarum2/tryhackx-thumb-sliders/de@formal/?q=context%3A%3D%22tryhackx-thumb-sliders.admin.fallback.not_active_mode%22)
+
+> These images are only used when fallback mode is set to "Custom uploaded image".
+
+```diff
++Diese Bilder werden nur verwendet, wenn der Ausweich-Modus auf „Benutzerdefiniertes hochgeladenes Bild“ eingestellt ist.
+```
+
+#### [`tryhackx-thumb-sliders.admin.fallback.title`](https://weblate.rob006.net/translate/flarum2/tryhackx-thumb-sliders/de@formal/?q=context%3A%3D%22tryhackx-thumb-sliders.admin.fallback.title%22)
+
+> Fallback image library
+
+```diff
++Ausweich-Bildbibliothek
+```
+
+#### [`tryhackx-thumb-sliders.admin.fallback.upload_button`](https://weblate.rob006.net/translate/flarum2/tryhackx-thumb-sliders/de@formal/?q=context%3A%3D%22tryhackx-thumb-sliders.admin.fallback.upload_button%22)
+
+> Upload image
+
+```diff
++Bild hochladen
+```
+
+#### [`tryhackx-thumb-sliders.admin.fallback.uploading`](https://weblate.rob006.net/translate/flarum2/tryhackx-thumb-sliders/de@formal/?q=context%3A%3D%22tryhackx-thumb-sliders.admin.fallback.uploading%22)
+
+> Uploading…
+
+```diff
++Wird hochgeladen…
+```
+
+#### [`tryhackx-thumb-sliders.admin.settings.fallback_mode_custom`](https://weblate.rob006.net/translate/flarum2/tryhackx-thumb-sliders/de@formal/?q=context%3A%3D%22tryhackx-thumb-sliders.admin.settings.fallback_mode_custom%22)
+
+> Custom uploaded image
+
+```diff
++Benutzerdefiniertes hochgeladenes Bild
+```
+
+#### [`tryhackx-thumb-sliders.admin.settings.fallback_mode_default`](https://weblate.rob006.net/translate/flarum2/tryhackx-thumb-sliders/de@formal/?q=context%3A%3D%22tryhackx-thumb-sliders.admin.settings.fallback_mode_default%22)
+
+> Built-in placeholder
+
+```diff
++Eingebauter Platzhalter
+```
+
+#### [`tryhackx-thumb-sliders.admin.settings.fallback_mode_help`](https://weblate.rob006.net/translate/flarum2/tryhackx-thumb-sliders/de@formal/?q=context%3A%3D%22tryhackx-thumb-sliders.admin.settings.fallback_mode_help%22)
+
+> Choose what to display when a discussion has no usable image, or when the image fails to load.
+
+```diff
++Lege fest, was angezeigt werden soll, wenn zu einer Diskussion kein brauchbares Bild vorhanden ist oder wenn das Bild nicht geladen werden kann.
+```
+
+#### [`tryhackx-thumb-sliders.admin.settings.fallback_mode_label`](https://weblate.rob006.net/translate/flarum2/tryhackx-thumb-sliders/de@formal/?q=context%3A%3D%22tryhackx-thumb-sliders.admin.settings.fallback_mode_label%22)
+
+> Fallback when no image is available
+
+```diff
++Ausweichlösung, wenn kein Bild verfügbar ist
+```
+
+#### [`tryhackx-thumb-sliders.admin.settings.fallback_mode_none`](https://weblate.rob006.net/translate/flarum2/tryhackx-thumb-sliders/de@formal/?q=context%3A%3D%22tryhackx-thumb-sliders.admin.settings.fallback_mode_none%22)
+
+> No thumbnail (content shifts left)
+
+```diff
++Kein Vorschaubild (Inhalt verschiebt sich nach links)
+```
+
+#### [`tryhackx-thumb-sliders.admin.support.button`](https://weblate.rob006.net/translate/flarum2/tryhackx-thumb-sliders/de@formal/?q=context%3A%3D%22tryhackx-thumb-sliders.admin.support.button%22)
+
+> Support Development
+
+```diff
++Unterstütze die Entwicklung
+```
+
+#### [`tryhackx-thumb-sliders.admin.support.copy`](https://weblate.rob006.net/translate/flarum2/tryhackx-thumb-sliders/de@formal/?q=context%3A%3D%22tryhackx-thumb-sliders.admin.support.copy%22)
+
+> Copy address
+
+```diff
++Adresse kopieren
+```
+
+#### [`tryhackx-thumb-sliders.admin.support.thanks`](https://weblate.rob006.net/translate/flarum2/tryhackx-thumb-sliders/de@formal/?q=context%3A%3D%22tryhackx-thumb-sliders.admin.support.thanks%22)
+
+> Thank you for your support!
+
+```diff
++Vielen Dank für deine Unterstützung!
+```
+
+#### [`tryhackx-thumb-sliders.admin.support.title`](https://weblate.rob006.net/translate/flarum2/tryhackx-thumb-sliders/de@formal/?q=context%3A%3D%22tryhackx-thumb-sliders.admin.support.title%22)
+
+> Support This Extension
+
+```diff
++Unterstütze diese Erweiterung
 ```
 
 
