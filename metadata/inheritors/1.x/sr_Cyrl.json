@@ -1271,6 +1271,39 @@
             }
         }
     },
+    "fof-upload.json": {
+        "flarum-gdpr": {
+            "lib": {
+                "data": {
+                    "uploads": {
+                        "anonymize_description": "868c195c4feeb281f8d9a3ee643bfa48 868c195c4feeb281f8d9a3ee643bfa48",
+                        "delete_description": "72cc5b4e7d297e9d3a84cf30889191f7 72cc5b4e7d297e9d3a84cf30889191f7",
+                        "export_description": "5b893c169cd827e5d3c83660d34df7d9 5b893c169cd827e5d3c83660d34df7d9"
+                    }
+                }
+            }
+        },
+        "fof-upload": {
+            "admin": {
+                "help_texts": {
+                    "disable-download-logging": "be9e2f3e5c751bc087dd0a2a387c27b5 be9e2f3e5c751bc087dd0a2a387c27b5"
+                },
+                "nav": {
+                    "shared-uploads-button": "caf2b9ca10ce58901f043b1a97fd195f caf2b9ca10ce58901f043b1a97fd195f"
+                },
+                "pane": {
+                    "title": "7cfb272e74948a01952f1f6cbb51c37b 7cfb272e74948a01952f1f6cbb51c37b"
+                },
+                "shared-uploads": {
+                    "description": "8c957eff0f635d1ef99a42f4c2f7d419 8c957eff0f635d1ef99a42f4c2f7d419",
+                    "introduction": "52716aae2fd2acf6ae63a02df0ef1698 52716aae2fd2acf6ae63a02df0ef1698",
+                    "no-files": "495384b8f978e23ab4c95ca802daa8cd 495384b8f978e23ab4c95ca802daa8cd",
+                    "title": "caf2b9ca10ce58901f043b1a97fd195f caf2b9ca10ce58901f043b1a97fd195f",
+                    "upload-new-button": "35fed18e4bc56bfc2d7de1969b626bd4 35fed18e4bc56bfc2d7de1969b626bd4"
+                }
+            }
+        }
+    },
     "fof-user-bio.json": {
         "fof-user-bio": {
             "admin": {
