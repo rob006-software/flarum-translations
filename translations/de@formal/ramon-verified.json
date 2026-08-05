@@ -8,7 +8,7 @@
                 "headline": "Dieses Konto verfügt über eine <strong>verifizierte Identität</strong>.",
                 "verified_on": "Verifiziert {date}",
                 "verified_no_date": "Automatisch verifiziertes Konto",
-                "learn_more": ""
+                "learn_more": "Mehr erfahren"
             },
             "tier_prompt": {
                 "no_tiers": ""
@@ -18,9 +18,9 @@
                 "note_placeholder": ""
             },
             "errors": {
-                "generic": "",
-                "network": "",
-                "clipboard": ""
+                "generic": "Es ist ein Fehler aufgetreten. Bitte versuche es erneut.",
+                "network": "Netzwerkfehler. Überprüfe deine Verbindung und versuche es erneut.",
+                "clipboard": "Kopieren in die Zwischenablage fehlgeschlagen."
             }
         },
         "forum": {
@@ -45,11 +45,11 @@
                 "request_change_failed": ""
             },
             "user_controls": {
-                "verify_button": "",
-                "revoke_button": "",
+                "verify_button": "Benutzer verifizieren",
+                "revoke_button": "Verifizierung widerrufen",
                 "verify_prompt": "",
                 "revoke_prompt": "",
-                "verify_success": "",
+                "verify_success": "Benutzer wurde verifiziert.",
                 "revoke_success": "",
                 "verify_failed": "",
                 "revoke_failed": ""
