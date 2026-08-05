@@ -3,9 +3,9 @@
         "lib": {
             "data": {
                 "uploads": {
-                    "export_description": "",
-                    "anonymize_description": "",
-                    "delete_description": ""
+                    "export_description": "Sve datoteke koje je otpremio korisnik.",
+                    "anonymize_description": "Uklanja podatak o identitetu korisnika koji je otpremio datoteke. Datoteke ostaju dostupne korisnicima koji su mogli da im pristupe pre anonimizacije.",
+                    "delete_description": "Briše sve datoteke koje je otpremio korisnik."
                 }
             }
         }
@@ -13,21 +13,21 @@
     "fof-upload": {
         "admin": {
             "nav": {
-                "shared-uploads-button": ""
+                "shared-uploads-button": "Zajedničke datoteke"
             },
             "shared-uploads": {
-                "description": "",
-                "introduction": "",
-                "no-files": "",
-                "title": "",
-                "upload-new-button": ""
+                "description": "Otpremi datoteke kojima mogu pristupiti svi članovi vašeg foruma.",
+                "introduction": "Zajedničke datoteke su datoteke kojima mogu pristupiti svi članovi vašeg foruma. Oni nisu zakačeni ni za jednu objavu, ali mogu biti umetnuti u bilo koju objavu pomoću medija menadžera.\n\n<strong>Upozorenje:</strong> Zajedničke datoteke nisu zaštićene dozvolama za pristup. Može ih videti svako ko ima njihovu veb adresu.\n",
+                "no-files": "Još uvek nije otpremljena ni jedna zajednička datoteka.",
+                "title": "Zajedničke datoteke",
+                "upload-new-button": "Otpremi novu datoteku"
             },
             "pane": {
-                "title": "",
+                "title": "Otpremi",
                 "description": ""
             },
             "help_texts": {
-                "disable-download-logging": "",
+                "disable-download-logging": "Onemoguće praćenje preuzimanja fajlova od strane korisnika na forumu. Praćenje preuzimanja će vam omogućiti da pristupite broju preuzimanja i drugim metrikama u bliskoj budućnosti.\n",
                 "disable-hotlink-protection": "",
                 "download_templates": "",
                 "mime_types": "",
