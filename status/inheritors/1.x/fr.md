@@ -2,7 +2,7 @@
 
 Translations for French (`fr`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **125** are translated differently and **1138** are
+sides, but do not match between them: **125** are translated differently and **1140** are
 translated only in `fr`. Altogether they cover **55** components.
 
 <!-- {% raw %} -->
@@ -24,7 +24,7 @@ translated only in `fr`. Altogether they cover **55** components.
 | `fof-author-change` | 0 | [16](#fof-author-change-missing) |
 | `fof-badges` | 0 | [289](#fof-badges-missing) |
 | `fof-best-answer` | [4](#fof-best-answer) | [2](#fof-best-answer-missing) |
-| `fof-bookmarks` | 0 | [20](#fof-bookmarks-missing) |
+| `fof-bookmarks` | 0 | [22](#fof-bookmarks-missing) |
 | `fof-categories` | [15](#fof-categories) | 0 |
 | `fof-checklist` | [2](#fof-checklist) | 0 |
 | `fof-follow-tags` | 0 | [17](#fof-follow-tags-missing) |
@@ -4865,6 +4865,22 @@ These strings are translated only in `fr`, so there is nothing to inherit from F
 
 ```diff
 +Dans le menu du message (3 points)
+```
+
+#### [`fof-bookmarks.admin.settings.post_header_badge`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/fr/?q=context%3A%3D%22fof-bookmarks.admin.settings.post_header_badge%22)
+
+> Label bookmarked posts
+
+```diff
++Marquer les messages ajoutés aux favoris
+```
+
+#### [`fof-bookmarks.admin.settings.post_header_badge_help`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/fr/?q=context%3A%3D%22fof-bookmarks.admin.settings.post_header_badge_help%22)
+
+> Shows a label above a bookmarked post. Only applies when the button is not in the header.
+
+```diff
++Affiche un marqueur au-dessus d'un message ajouté aux favoris. S'applique uniquement lorsque le bouton ne se trouve pas dans l'en-tête.
 ```
 
 #### [`fof-bookmarks.forum.alert.added`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/fr/?q=context%3A%3D%22fof-bookmarks.forum.alert.added%22)

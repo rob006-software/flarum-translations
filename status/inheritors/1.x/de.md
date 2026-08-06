@@ -2,7 +2,7 @@
 
 Translations for German (`de`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **286** are translated differently and **488** are
+sides, but do not match between them: **286** are translated differently and **489** are
 translated only in `de`. Altogether they cover **82** components.
 
 <!-- {% raw %} -->
@@ -89,7 +89,7 @@ translated only in `de`. Altogether they cover **82** components.
 | `tapao-custom-landing-page` | 0 | [4](#tapao-custom-landing-page-missing) |
 | `tryhackx-advanced-pages` | 0 | [61](#tryhackx-advanced-pages-missing) |
 | `tryhackx-homepage-blocks` | [2](#tryhackx-homepage-blocks) | [21](#tryhackx-homepage-blocks-missing) |
-| `tryhackx-thumb-sliders` | 0 | [17](#tryhackx-thumb-sliders-missing) |
+| `tryhackx-thumb-sliders` | 0 | [18](#tryhackx-thumb-sliders-missing) |
 | `validation` | [10](#validation) | 0 |
 | `walsgit-discussion-cards` | [6](#walsgit-discussion-cards) | 0 |
 | `yippy-auth-ldap` | [3](#yippy-auth-ldap) | [31](#yippy-auth-ldap-missing) |
@@ -7057,6 +7057,14 @@ These strings are translated only in `de`, so there is nothing to inherit from F
 
 ```diff
 +Adresse kopieren
+```
+
+#### [`tryhackx-thumb-sliders.admin.support.description`](https://weblate.rob006.net/translate/flarum2/tryhackx-thumb-sliders/de/?q=context%3A%3D%22tryhackx-thumb-sliders.admin.support.description%22)
+
+> If you find this extension useful, please consider supporting its development with a small donation. Every contribution helps keep the project alive and maintained.
+
+```diff
++Wenn du diese Erweiterung nützlich findest, würden wir uns über eine kleine Spende zur Unterstützung ihrer Weiterentwicklung freuen. Jeder Beitrag trägt dazu bei, das Projekt am Leben zu erhalten und weiterzuentwickeln.
 ```
 
 #### [`tryhackx-thumb-sliders.admin.support.thanks`](https://weblate.rob006.net/translate/flarum2/tryhackx-thumb-sliders/de/?q=context%3A%3D%22tryhackx-thumb-sliders.admin.support.thanks%22)
