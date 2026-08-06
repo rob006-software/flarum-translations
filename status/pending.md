@@ -77,6 +77,4 @@
 
 ## Dead branches
 
-| Extension | Pull request |
-| --- | --- |
-| `buxin-a-confix-theme` | [![#1881 (open)](https://img.shields.io/badge/PR-%231881-brightgreen)](https://github.com/rob006-software/flarum-translations/pull/1881) |
+There are no dead branches.
