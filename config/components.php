@@ -618,7 +618,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/linkrobins/auto-verify/v1.1.1/locale/en.yml',
 	],
 	'linkrobins-badge-labels' => [
-		'tag' => 'https://raw.githubusercontent.com/linkrobins/flarum-badge-labels/v2.0.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/linkrobins/flarum-badge-labels/v2.1.0/locale/en.yml',
 	],
 	'linkrobins-birdseye' => [
 		'tag' => 'https://raw.githubusercontent.com/linkrobins/birdseye/v2.0.1/locale/en.yml',
