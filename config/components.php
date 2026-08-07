@@ -1452,6 +1452,9 @@ return [
 	'miniflar-top-like-givers-widget' => [
 		'tag' => 'https://raw.githubusercontent.com/miniflar/top-like-givers-widget/0.1.0/resources/locale/en.yml',
 	],
+	'modshield-flarum' => [
+		'tag' => 'https://raw.githubusercontent.com/mehdi-zaidi/ModShield-Flarum/v1.3.0/resources/locale/en.yml',
+	],
 	'mshuo-reply-to-see' => [
 		'tag' => 'https://raw.githubusercontent.com/MShuoo/reply-to-see/v1.0.3/locale/en.yml',
 		'__builtInLanguages' => [
