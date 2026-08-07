@@ -2,8 +2,8 @@
 
 Translations for German (formal) (`de@formal`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **333** are translated differently and **489** are
-translated only in `de@formal`. Altogether they cover **84** components.
+sides, but do not match between them: **335** are translated differently and **493** are
+translated only in `de@formal`. Altogether they cover **85** components.
 
 <!-- {% raw %} -->
 
@@ -28,7 +28,7 @@ translated only in `de@formal`. Altogether they cover **84** components.
 | `flarum-sticky` | [6](#flarum-sticky) | 0 |
 | `flarum-tags` | [26](#flarum-tags) | 0 |
 | `fof-anti-spam` | [5](#fof-anti-spam) | 0 |
-| `fof-badges` | [6](#fof-badges) | 0 |
+| `fof-badges` | [7](#fof-badges) | 0 |
 | `fof-best-answer` | [5](#fof-best-answer) | 0 |
 | `fof-blog` | [2](#fof-blog) | 0 |
 | `fof-byobu` | [11](#fof-byobu) | 0 |
@@ -71,7 +71,8 @@ translated only in `de@formal`. Altogether they cover **84** components.
 | `ianm-twofactor` | [3](#ianm-twofactor) | 0 |
 | `justoverclock-related-discussions` | [2](#justoverclock-related-discussions) | 0 |
 | `justoverclock-welcomebox` | [1](#justoverclock-welcomebox) | 0 |
-| `linkrobins-badge-labels` | 0 | [30](#linkrobins-badge-labels-missing) |
+| `linkrobins-badge-labels` | 0 | [34](#linkrobins-badge-labels-missing) |
+| `linkrobins-birdseye` | [1](#linkrobins-birdseye) | 0 |
 | `maicol07-sso` | 0 | [13](#maicol07-sso-missing) |
 | `michaelbelgium-ai-autoreply` | 0 | [22](#michaelbelgium-ai-autoreply-missing) |
 | `migratetoflarum-fake-data` | [1](#migratetoflarum-fake-data) | 0 |
@@ -1106,6 +1107,17 @@ Dadurch werden alle von diesem Benutzer gestarteten Diskussionen in das <del>The
 ```
 
 Beiträge <del>zum</del><ins>im</ins> <del>Thema</del><ins>Tag</ins>
+
+#### [`fof-badges.admin.recalculate_tab.no_revoke_label`](https://weblate.rob006.net/translate/flarum2/fof-badges/de@formal/?q=context%3A%3D%22fof-badges.admin.recalculate_tab.no_revoke_label%22)
+
+> Don't revoke existing badges
+
+```diff
+-Verliehene Abzeichen nicht zurück genommen
++Verliehene Abzeichen nicht zurücknehmen
+```
+
+Verliehene Abzeichen nicht <del>zurück genommen</del><ins>zurücknehmen</ins>
 
 #### [`fof-badges.admin.trigger_builder.loading_tags`](https://weblate.rob006.net/translate/flarum2/fof-badges/de@formal/?q=context%3A%3D%22fof-badges.admin.trigger_builder.loading_tags%22)
 
@@ -3390,6 +3402,18 @@ Titel für <del>"Verwandte</del><ins>„Verwandte</ins> <del>Diskussionen"</del>
 <del>Gebe</del><ins>Gib</ins> hier die URL des Bildes für die Gästebox ein
 
 
+### `linkrobins-birdseye`
+
+#### [`linkrobins-birdseye.lib.dashboard.tags`](https://weblate.rob006.net/translate/flarum2/linkrobins-birdseye/de@formal/?q=context%3A%3D%22linkrobins-birdseye.lib.dashboard.tags%22)
+
+> Top tags
+
+```diff
+-Top-Tags
++Beliebteste Tags
+```
+
+
 ### `migratetoflarum-fake-data`
 
 #### [`migratetoflarum-fake-data.lib.generator.discussion-tags`](https://weblate.rob006.net/translate/flarum2/migratetoflarum-fake-data/de@formal/?q=context%3A%3D%22migratetoflarum-fake-data.lib.generator.discussion-tags%22)
@@ -4477,6 +4501,38 @@ These strings are translated only in `de@formal`, so there is nothing to inherit
 
 ```diff
 +Diskussionsabzeichen auch beschriften
+```
+
+#### [`linkrobins-badge-labels.admin.settings.header_position_after`](https://weblate.rob006.net/translate/flarum2/linkrobins-badge-labels/de@formal/?q=context%3A%3D%22linkrobins-badge-labels.admin.settings.header_position_after%22)
+
+> After the time
+
+```diff
++Nach der Uhrzeit
+```
+
+#### [`linkrobins-badge-labels.admin.settings.header_position_before`](https://weblate.rob006.net/translate/flarum2/linkrobins-badge-labels/de@formal/?q=context%3A%3D%22linkrobins-badge-labels.admin.settings.header_position_before%22)
+
+> Before the time, next to the username
+
+```diff
++Vor der Uhrzeit, hinter dem Benutzernamen
+```
+
+#### [`linkrobins-badge-labels.admin.settings.header_position_help`](https://weblate.rob006.net/translate/flarum2/linkrobins-badge-labels/de@formal/?q=context%3A%3D%22linkrobins-badge-labels.admin.settings.header_position_help%22)
+
+> Which side of the post's time the badges sit on, when they are on the post header line. Only used when something is on that line. After the time is where they have always been. Before it puts them straight after the username, which is where other extensions tend to put theirs, though a forum with long badge names has less room for them there.
+
+```diff
++Auf welcher Seite der Uhrzeit des Beitrags die Abzeichen angezeigt werden, wenn sie in der Kopfzeile des Beitrags stehen. Wird nur verwendet, wenn sich etwas in dieser Zeile befindet. Nach der Uhrzeit befinden sie sich dort, wo sie schon immer waren. Vor der Uhrzeit werden sie direkt nach dem Benutzernamen angezeigt – dort, wo andere Erweiterungen ihre Abzeichen in der Regel platzieren, obwohl in einem Forum mit langen Abzeichen-Namen dort weniger Platz für sie ist.
+```
+
+#### [`linkrobins-badge-labels.admin.settings.header_position_label`](https://weblate.rob006.net/translate/flarum2/linkrobins-badge-labels/de@formal/?q=context%3A%3D%22linkrobins-badge-labels.admin.settings.header_position_label%22)
+
+> Badge position on the header line
+
+```diff
++Abzeichenposition in der Kopfzeile
 ```
 
 #### [`linkrobins-badge-labels.admin.settings.labels_all`](https://weblate.rob006.net/translate/flarum2/linkrobins-badge-labels/de@formal/?q=context%3A%3D%22linkrobins-badge-labels.admin.settings.labels_all%22)
