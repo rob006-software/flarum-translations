@@ -13,8 +13,8 @@ are fully in sync and are not listed here.
 | [Dutch](nl.md) (`nl`) | 0 | 9 | 8 |
 | [Finnish](fi.md) (`fi`) | 5 | 61 | 7 |
 | [French](fr.md) (`fr`) | 125 | 1140 | 55 |
-| [German](de.md) (`de`) | 288 | 493 | 83 |
-| [German (formal)](de@formal.md) (`de@formal`) | 335 | 493 | 85 |
+| [German](de.md) (`de`) | 289 | 494 | 84 |
+| [German (formal)](de@formal.md) (`de@formal`) | 336 | 494 | 86 |
 | [Hungarian](hu.md) (`hu`) | 43 | 6 | 21 |
 | [Indonesian](id.md) (`id`) | 1 | 0 | 1 |
 | [Italian](it.md) (`it`) | 0 | 1 | 1 |

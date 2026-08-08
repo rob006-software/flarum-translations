@@ -2,8 +2,8 @@
 
 Translations for German (`de`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **288** are translated differently and **493** are
-translated only in `de`. Altogether they cover **83** components.
+sides, but do not match between them: **289** are translated differently and **494** are
+translated only in `de`. Altogether they cover **84** components.
 
 <!-- {% raw %} -->
 
@@ -59,6 +59,7 @@ translated only in `de`. Altogether they cover **83** components.
 | `forumaker-magicbb` | [3](#forumaker-magicbb) | [19](#forumaker-magicbb-missing) |
 | `forumaker-magicread` | 0 | [18](#forumaker-magicread-missing) |
 | `forumaker-magicslider` | [2](#forumaker-magicslider) | 0 |
+| `huoxin-money-with-history` | 0 | [1](#huoxin-money-with-history-missing) |
 | `huseyinfiliz-awards` | [22](#huseyinfiliz-awards) | 0 |
 | `huseyinfiliz-diff` | [10](#huseyinfiliz-diff) | 0 |
 | `huseyinfiliz-leaderboard` | [5](#huseyinfiliz-leaderboard) | 0 |
@@ -68,7 +69,7 @@ translated only in `de`. Altogether they cover **83** components.
 | `ianm-syndication` | [7](#ianm-syndication) | 0 |
 | `ianm-twofactor` | [3](#ianm-twofactor) | 0 |
 | `justoverclock-related-discussions` | [2](#justoverclock-related-discussions) | 0 |
-| `justoverclock-welcomebox` | [1](#justoverclock-welcomebox) | 0 |
+| `justoverclock-welcomebox` | [2](#justoverclock-welcomebox) | 0 |
 | `linkrobins-badge-labels` | 0 | [34](#linkrobins-badge-labels-missing) |
 | `linkrobins-birdseye` | [1](#linkrobins-birdseye) | 0 |
 | `maicol07-sso` | 0 | [13](#maicol07-sso-missing) |
@@ -2823,6 +2824,15 @@ Titel für <del>"Verwandte</del><ins>„Verwandte</ins> <del>Diskussionen"</del>
 
 <del>Gebe</del><ins>Gib</ins> hier die URL des Bildes für die Gästebox ein
 
+#### [`flarum-ext-welcomebox.forum.SettingsLink`](https://weblate.rob006.net/translate/flarum2/justoverclock-welcomebox/de/?q=context%3A%3D%22flarum-ext-welcomebox.forum.SettingsLink%22)
+
+> Settings
+
+```diff
+-Einstellugnen
++Einstellungen
+```
+
 
 ### `linkrobins-birdseye`
 
@@ -3832,6 +3842,17 @@ These strings are translated only in `de`, so there is nothing to inherit from F
 
 ```diff
 +Mehr lesen
+```
+
+
+### `huoxin-money-with-history` (missing)
+
+#### [`huoxin-money-with-history.admin.settings.title`](https://weblate.rob006.net/translate/flarum2/huoxin-money-with-history/de/?q=context%3A%3D%22huoxin-money-with-history.admin.settings.title%22)
+
+> Settings
+
+```diff
++Einstellungen
 ```
 
 
