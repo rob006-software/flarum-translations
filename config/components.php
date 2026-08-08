@@ -1359,7 +1359,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/littlecxm/flarum-reply-to-see/1.0.2/resources/locale/en.yml',
 	],
 	'm4v3rick4git-lineup' => [
-		'tag' => 'https://raw.githubusercontent.com/m4v3rick4git/flarum-lineup/v0.1.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/m4v3rick4git/flarum-lineup/v0.1.2/locale/en.yml',
 		'__builtInLanguages' => [
 			'de',
 		],
