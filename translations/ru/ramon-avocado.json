@@ -74,6 +74,12 @@
                 "search_v1_help": "Показывать встроенный выпадающий поиск вместо модального окна V2.",
                 "bookmarks_enabled_label": "Включить систему закладок",
                 "bookmarks_enabled_help": "Кнопка сохранения на карточках, страница сохранённого, заметки, напоминания и уведомления о напоминаниях. Отключение скрывает всё и отключает конечные точки API.",
+                "bookmarks_fof_notice": "",
+                "clock_format_label": "",
+                "clock_format_help": "",
+                "clock_format_auto": "",
+                "clock_format_12": "",
+                "clock_format_24": "",
                 "user_card_enabled_label": "Включить карточку при наведении на пользователя",
                 "user_card_enabled_help": "Показывать мини-профиль в стиле Discourse — биография, значки, статистика, действия — при наведении на аватары и имена пользователей.",
                 "presence_enabled_label": "Показывать, кто читает тему",
@@ -316,6 +322,7 @@
                 "unsave": "Удалить из сохранённого",
                 "edit": "Редактировать закладку",
                 "empty": "Вы ещё не сохранили ни одной темы.",
+                "empty_posts": "",
                 "guest_prompt": "Войдите, чтобы сохранять темы и находить их здесь позже.",
                 "toggle_error": "Не удалось обновить ваш список сохранённого. Попробуйте ещё раз.",
                 "update_error": "Не удалось обновить вашу закладку. Попробуйте ещё раз.",
@@ -330,7 +337,14 @@
                 "reminder_tomorrow": "Завтра утром",
                 "reminder_week": "На следующей неделе",
                 "reminder_custom": "Выбрать дату и время",
-                "reminder_invalid": "Выберите дату в будущем."
+                "reminder_invalid": "Выберите дату в будущем.",
+                "reminder_invalid_date": "",
+                "reminder_date_label": "",
+                "reminder_hour_label": "",
+                "reminder_minute_label": "",
+                "reminder_meridiem_label": "",
+                "reminder_am": "",
+                "reminder_pm": ""
             },
             "notifications": {
                 "bookmark_reminder_text": "Напоминание о вашей сохранённой теме"

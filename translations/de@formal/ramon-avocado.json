@@ -74,6 +74,12 @@
                 "search_v1_help": "Zeige das Dropdown-Menü für die Inline-Suche anstelle des V2-Modals an.",
                 "bookmarks_enabled_label": "Lesezeichen-System aktivieren",
                 "bookmarks_enabled_help": "Die Schaltfläche „Merken“ auf Karten, die Seite „Gemerkt“, Notizen, Erinnerungen und Erinnerungsbenachrichtigungen. Wenn du diese Funktion deaktivierst, wird alles ausgeblendet und die API-Endpunkte werden deaktiviert; gespeicherte Daten bleiben erhalten.",
+                "bookmarks_fof_notice": "",
+                "clock_format_label": "",
+                "clock_format_help": "",
+                "clock_format_auto": "",
+                "clock_format_12": "",
+                "clock_format_24": "",
                 "user_card_enabled_label": "Die Hover-Karte für Benutzer aktivieren",
                 "user_card_enabled_help": "Zeige ein Mini-Profil im Discourse-Stil (Biografie, Abzeichen, Statistiken, Aktionen) an, wenn der Mauszeiger über Avatare und Benutzernamen geführt wird.",
                 "presence_enabled_label": "Anzeigen, wer eine Diskussion liest",
@@ -316,6 +322,7 @@
                 "unsave": "Aus den Favoriten entfernen",
                 "edit": "Lesezeichen bearbeiten",
                 "empty": "Du hast noch keine Diskussionen gespeichert.",
+                "empty_posts": "",
                 "guest_prompt": "Melde dich an, um Diskussionen zu speichern und sie später hier wiederzufinden.",
                 "toggle_error": "Deine gespeicherte Liste konnte nicht aktualisiert werden. Bitte versuche es erneut.",
                 "update_error": "Lesezeichen konnte nicht aktualisiert werden. Bitte versuche es erneut.",
@@ -330,7 +337,14 @@
                 "reminder_tomorrow": "Morgen früh",
                 "reminder_week": "Nächste Woche",
                 "reminder_custom": "Datum & Uhrzeit auswählen",
-                "reminder_invalid": ""
+                "reminder_invalid": "",
+                "reminder_invalid_date": "",
+                "reminder_date_label": "",
+                "reminder_hour_label": "",
+                "reminder_minute_label": "",
+                "reminder_meridiem_label": "",
+                "reminder_am": "",
+                "reminder_pm": ""
             },
             "notifications": {
                 "bookmark_reminder_text": ""

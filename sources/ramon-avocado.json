@@ -74,6 +74,12 @@
                 "search_v1_help": "Show the inline search dropdown instead of the V2 modal.",
                 "bookmarks_enabled_label": "Enable the bookmark system",
                 "bookmarks_enabled_help": "Save button on cards, the Saved page, notes, reminders and reminder notifications. Turning this off hides everything and disables the API endpoints; saved data is kept.",
+                "bookmarks_fof_notice": "FoF Bookmarks is enabled, so Avocado hands its own bookmark system over to it: the theme shows a single Saved menu item and a single save button, which writes to FoF Bookmarks. Notes and reminders are unavailable while it is on; your saved Avocado data is kept and comes back if you disable it.",
+                "clock_format_label": "Time format",
+                "clock_format_help": "Used by reminders: the hour picker in “Remind me” and the time shown on saved cards. Automatic follows each visitor’s browser.",
+                "clock_format_auto": "Automatic (visitor’s browser)",
+                "clock_format_12": "12-hour (2:30 PM)",
+                "clock_format_24": "24-hour (14:30)",
                 "user_card_enabled_label": "Enable the user hover card",
                 "user_card_enabled_help": "Show a Discourse-style mini profile (bio, badges, stats, actions) when hovering avatars and usernames.",
                 "presence_enabled_label": "Show who's reading a discussion",
@@ -307,6 +313,7 @@
                 "unsave": "Remove from saved",
                 "edit": "Edit bookmark",
                 "empty": "You haven't saved any discussions yet.",
+                "empty_posts": "You haven't bookmarked any posts yet.",
                 "guest_prompt": "Log in to save discussions and find them here later.",
                 "toggle_error": "Could not update your saved list. Please try again.",
                 "update_error": "Could not update your bookmark. Please try again.",
@@ -321,7 +328,14 @@
                 "reminder_tomorrow": "Tomorrow morning",
                 "reminder_week": "Next week",
                 "reminder_custom": "Pick date & time",
-                "reminder_invalid": "Pick a date in the future."
+                "reminder_invalid": "That date and time have already passed. Choose a moment in the future.",
+                "reminder_invalid_date": "Choose a date for the reminder.",
+                "reminder_date_label": "Date",
+                "reminder_hour_label": "Hour",
+                "reminder_minute_label": "Minute",
+                "reminder_meridiem_label": "AM or PM",
+                "reminder_am": "AM",
+                "reminder_pm": "PM"
             },
             "notifications": {
                 "bookmark_reminder_text": "Reminder about your saved discussion"
