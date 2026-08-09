@@ -1307,6 +1307,9 @@ return [
 	'linkrobins-discussion-banners' => [
 		'tag' => 'https://raw.githubusercontent.com/linkrobins/flarum-discussion-banners/v1.1.2/locale/en.yml',
 	],
+	'linkrobins-link-gate' => [
+		'tag' => 'https://raw.githubusercontent.com/linkrobins/flarum-link-gate/v1.0.0/locale/en.yml',
+	],
 	'litalino-adblock' => [
 		'tag' => 'https://raw.githubusercontent.com/Litalino/flarum-adblock/1.2.1/locale/en.yml',
 		'__builtInLanguages' => [
