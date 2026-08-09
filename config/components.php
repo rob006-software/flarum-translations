@@ -641,6 +641,9 @@ return [
 	'linkrobins-html-widget' => [
 		'tag' => 'https://raw.githubusercontent.com/linkrobins/html-widget/v1.2.0/locale/en.yml',
 	],
+	'linkrobins-link-gate' => [
+		'tag' => 'https://raw.githubusercontent.com/linkrobins/flarum-link-gate/v2.0.0/locale/en.yml',
+	],
 	'linkrobins-markdown-widget' => [
 		'tag' => 'https://raw.githubusercontent.com/linkrobins/markdown-widget/v1.2.0/locale/en.yml',
 	],
