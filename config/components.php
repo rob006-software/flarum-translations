@@ -795,7 +795,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/daocatt/flarum-ext-login/1.0.2/locale/en.yml',
 	],
 	'half-nothing-oauth-apoc' => [
-		'tag' => 'https://raw.githubusercontent.com/FSD-Universe/flarum-ext-oauth-apoc/v0.2.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/apocfly/flarum-ext-oauth-apoc/v0.3.0/locale/en.yml',
 		'__builtInLanguages' => [
 			'zh_Hans',
 		],
