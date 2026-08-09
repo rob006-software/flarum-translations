@@ -1066,6 +1066,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`forumaker-magicbb`](https://weblate.rob006.net/projects/flarum/forumaker-magicbb) | [`forumaker/magicbb`](https://github.com/forumaker/magicbb) |
 | [`forumaker-magicread`](https://weblate.rob006.net/projects/flarum/forumaker-magicread) | [`forumaker/magicread`](https://github.com/forumaker/magicread) |
 | [`forumaker-magicslider`](https://weblate.rob006.net/projects/flarum/forumaker-magicslider) | [`forumaker/magicslider`](https://github.com/forumaker/magicslider) |
+| [`forumfortress-flarum`](https://weblate.rob006.net/projects/flarum/forumfortress-flarum) | [`forumfortress/flarum`](https://github.com/forum-fortress/flarum) |
 | [`foskym-activity-graph`](https://weblate.rob006.net/projects/flarum/foskym-activity-graph) | [`foskym/flarum-activity-graph`](https://github.com/FoskyM/flarum-activity-graph) |
 | [`foskym-better-user-directory`](https://weblate.rob006.net/projects/flarum/foskym-better-user-directory) | [`foskym/flarum-better-user-directory`](https://github.com/FoskyM/flarum-better-user-directory) |
 | [`foskym-custom-levels`](https://weblate.rob006.net/projects/flarum/foskym-custom-levels) | [`foskym/flarum-custom-levels`](https://github.com/FoskyM/flarum-custom-levels) |
