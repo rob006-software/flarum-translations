@@ -31,23 +31,46 @@
                 "disable-hotlink-protection": "（默认启用）防盗链将通过验证 CSRF TOKEN 和 POST ID 来保护你的文件不会被其他站点调用下载。\n",
                 "download_templates": "启用模板后，您上传的文件将按模板样式显示于帖子中，并增加了“预览”、“下载”等按钮。 当前可用：\n",
                 "mime_types": "请在此处配置您的映射。每个 MIME 类型正则表达式将由特定的上传适配器和下载模板处理。\n可选地，为每个条目提供一个权限标签（例如“图片”，“视频”），以在权限网格中创建一个专用权限。\n这允许您限制哪些组可以上传特定文件类型 — 除了始终需要的基本“上传文件”权限之外。\n",
+                "mime_order": "",
                 "resize": "配置图片缩放功能，以像素为单位，超过最大宽度及高度后会被缩放，图片横纵比不变。\n",
                 "client_extension": "默认情况下，上传器将根据 MIME 类型选择一个安全的文件扩展名。\n对于某些基于 ZIP 或二进制数据的文件类型，这可能导致使用不正确的通用扩展名。\n在这里，您可以输入一个逗号分隔的文件扩展名列表，该列表将被逐字保留。\n",
                 "thumbnails": "在上传时为图片生成缩小尺寸的缩略图。缩略图会内联显示；\n点击它会在新标签页中打开原始全分辨率文件。\n对于包含许多大图片的论坛，缩略图可以显著减少带宽和页面权重。\n",
+                "thumbnail_quality": "",
                 "watermark": "选择上传图片时是否添加水印。水印会根据下面的偏好设置来添加到非 GIF 图片上。\n",
-                "s3_compatible_storage": "填写下方设置以配置 S3 兼容存储模式。如果您使用 AWS，请保持留空。有关 S3 兼容配置详情，请查阅各大云服务商的文档（七牛云：https://iflarum.cn/qiniu-s3）\n",
+                "storage_intro": "",
+                "storage_configure_another": "",
+                "storage_not_installed": "",
+                "local_cdn": "",
+                "s3_provider": "",
+                "s3_endpoint": "",
                 "s3_acl": "应用于上传对象的读写权限 ACL（默认私有读写）。 有关可用的值，请参阅 https://iflarum.cn/aws-s3acl\n",
+                "s3_acl_unsupported": "",
+                "s3_path_style": "",
                 "custom_s3_url": "如您使用需要特定 URL 格式的 S3 兼容服务（例如 Backblaze B2），或者默认 URL 格式有问题，请使用此设置。大多数情况下无需使用本设置。使用时请按正确格式填写，并确保包含 URL 协议（如 https://）。示例：https://your-bucket.s3.your-region.backblazeb2.com\n",
                 "s3_instance_profile": "公钥和秘钥留空时，可为实例单独配置。\n",
-                "composer_buttons": "默认情况下，媒体管理按钮和上传按钮皆可见。您可以选择只显示其中一个按钮。\n"
+                "composer_buttons": "默认情况下，媒体管理按钮和上传按钮皆可见。您可以选择只显示其中一个按钮。\n",
+                "s3_compatible_storage": "填写下方设置以配置 S3 兼容存储模式。如果您使用 AWS，请保持留空。有关 S3 兼容配置详情，请查阅各大云服务商的文档（七牛云：https://iflarum.cn/qiniu-s3）\n"
+            },
+            "tabs": {
+                "files": "",
+                "storage": "",
+                "images": "",
+                "advanced": "",
+                "unsaved_changes": "",
+                "unsaved_hint": ""
             },
             "labels": {
+                "storage": {
+                    "configure_another": "",
+                    "hide_unused": ""
+                },
                 "aws-s3": {
                     "bucket": "存储空间（Bucket）",
                     "key": "Key",
                     "region": "地域（Region）",
                     "secret": "Secret",
                     "title": "AWS S3 存储设置（配置请参阅 http://t.cn/A6zX0V3N）",
+                    "provider": "",
                     "advanced_title": "高级 S3 存储设置",
                     "endpoint": "访问域名（Endpoint）",
                     "use_path_style_endpoint": "使用 path-style 访问域名",
@@ -85,8 +108,39 @@
                     "mime_type_regex_placeholder": "例如：^image/(jpeg|png|gif)$",
                     "mime_type_regex_invalid": "无效的正则表达式（例如：|| 等空替代）",
                     "mime_type_permission_placeholder": "权限标签（可选，例如 图片）",
+                    "mime_type_remove": "",
+                    "mime_type_add": "",
+                    "mime_column_pattern": "",
+                    "mime_column_pattern_help": "",
+                    "mime_column_storage": "",
+                    "mime_column_storage_help": "",
+                    "mime_column_display": "",
+                    "mime_column_display_help": "",
+                    "mime_column_permission": "",
+                    "mime_column_permission_help": "",
+                    "mime_move_up": "",
+                    "mime_move_down": "",
+                    "mime_edit_pattern": "",
+                    "mime_use_simple": "",
+                    "mime_advanced_pattern": "",
+                    "mime_add_subtype": "",
+                    "mime_add_subtype_placeholder": "",
+                    "mime_remove_subtype": "",
+                    "mime_add_prompt": "",
+                    "mime_add_custom": "",
                     "title": "偏好设置",
                     "php_ini_values": "当前服务器 <code>php.ini</code> 配置上限为 <code>post_max_size={post}</code>，<code>upload_max_filesize={upload}</code>。请确保上方设置的值小于上限，否则请提高上限。若您使用 <code>Nginx</code> 服务器，请确保 <code>client_max_body_size</code> 高于当前设置的值。"
+                },
+                "mime_presets": {
+                    "images": "",
+                    "pdf": "",
+                    "documents": "",
+                    "spreadsheets": "",
+                    "archives": "",
+                    "audio": "",
+                    "video": "",
+                    "title": "",
+                    "php_ini_values": ""
                 },
                 "resize": {
                     "max_width": "最大图片宽高",
@@ -94,13 +148,15 @@
                     "toggle": "开启缩放"
                 },
                 "client_extension": {
-                    "title": "用户自定义文件扩展名"
+                    "title": "用户自定义文件扩展名",
+                    "placeholder": ""
                 },
                 "thumbnails": {
                     "title": "图片缩略图",
                     "toggle": "上传时生成缩略图",
                     "webp_toggle": "将缩略图编码为 WebP（推荐，约小 30%）",
-                    "max_width": "缩略图最大宽度（像素）"
+                    "max_width": "缩略图最大宽度（像素）",
+                    "quality": ""
                 },
                 "watermark": {
                     "file": "上传水印图片",
@@ -179,6 +235,13 @@
         },
         "forum": {
             "media_manager": "媒体管理器",
+            "display_name": {
+                "title": "",
+                "title_plural": "",
+                "help": "",
+                "insert": "",
+                "use_file_name": ""
+            },
             "buttons": {
                 "attach": "添加附件",
                 "upload": "上传",
@@ -191,7 +254,8 @@
             "states": {
                 "error": "错误",
                 "loading": "加载中",
-                "unauthorized": "您没有下载权限"
+                "unauthorized": "您没有下载权限",
+                "permission_required": ""
             },
             "validation": {
                 "max_size": "文件需小于 {max} KB。"

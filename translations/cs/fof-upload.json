@@ -31,23 +31,46 @@
                 "disable-hotlink-protection": "Ochrana hotlink zabraňuje otevírání stahování z jiných webů. Aktuální metoda vyžaduje token csrf a ID příspěvku.\n",
                 "download_templates": "Šablony pro stažení představují způsob zobrazení nahraných souborů na vašem fóru, např. náhledy, tlačítka. Aktuálně k dispozici:\n",
                 "mime_types": "",
+                "mime_order": "",
                 "resize": "Zvolte, zda chcete změnit velikost obrázků před jejich odesláním. Můžete zvolit maximální šířku a výšku v pixelech. Při změně velikosti se zachová poměr stran obrázků.\n",
                 "client_extension": "Ve výchozím nastavení vybere rozšíření Upload bezpečnou příponu souboru na základě typu MIME.\nU některých typů souborů založených na ZIP nebo binárních datech to může vést k tomu, že se místo očekávané přípony použije obecná přípona.\nZde můžete zadat čárkou oddělený seznam přípon souborů, které budou zachovány doslovně.\n",
                 "thumbnails": "",
+                "thumbnail_quality": "",
                 "watermark": "Zvolte, zda se má při nahrávání obrázků přidat vodoznak. Vodoznaky se přidávají k obrázkům, které nejsou soubory GIF, na základě vašich preferencí uvedených níže.\n",
-                "s3_compatible_storage": "Následující nastavení jsou vyžadována pouze při použití úložiště kompatibilního se standardem S3. Pokud používáte AWS, můžete je nechat prázdné.\n",
+                "storage_intro": "",
+                "storage_configure_another": "",
+                "storage_not_installed": "",
+                "local_cdn": "",
+                "s3_provider": "",
+                "s3_endpoint": "",
                 "s3_acl": "ACL, které by se mělo použít na nahraný objekt (výchozí: soukromý). Možné hodnoty naleznete na adrese https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
+                "s3_acl_unsupported": "",
+                "s3_path_style": "",
                 "custom_s3_url": "",
                 "s3_instance_profile": "Chcete-li použít pověření v profilu instance, ponechte klíč a tajný klíč prázdný.\n",
-                "composer_buttons": "Ve výchozím nastavení je viditelné tlačítko správce médií i tlačítko pro nahrávání. Můžete také zvolit zobrazení pouze jednoho tlačítka.\n"
+                "composer_buttons": "Ve výchozím nastavení je viditelné tlačítko správce médií i tlačítko pro nahrávání. Můžete také zvolit zobrazení pouze jednoho tlačítka.\n",
+                "s3_compatible_storage": "Následující nastavení jsou vyžadována pouze při použití úložiště kompatibilního se standardem S3. Pokud používáte AWS, můžete je nechat prázdné.\n"
+            },
+            "tabs": {
+                "files": "",
+                "storage": "",
+                "images": "",
+                "advanced": "",
+                "unsaved_changes": "",
+                "unsaved_hint": ""
             },
             "labels": {
+                "storage": {
+                    "configure_another": "",
+                    "hide_unused": ""
+                },
                 "aws-s3": {
                     "bucket": "Bucket",
                     "key": "Klíč",
                     "region": "Region",
                     "secret": "Secret",
                     "title": "Nastavení úložiště AWS S3",
+                    "provider": "",
                     "advanced_title": "Pokročilá nastavení úložiště S3",
                     "endpoint": "Endpoint",
                     "use_path_style_endpoint": "Použít path style endpoint",
@@ -85,8 +108,39 @@
                     "mime_type_regex_placeholder": "",
                     "mime_type_regex_invalid": "",
                     "mime_type_permission_placeholder": "",
+                    "mime_type_remove": "",
+                    "mime_type_add": "",
+                    "mime_column_pattern": "",
+                    "mime_column_pattern_help": "",
+                    "mime_column_storage": "",
+                    "mime_column_storage_help": "",
+                    "mime_column_display": "",
+                    "mime_column_display_help": "",
+                    "mime_column_permission": "",
+                    "mime_column_permission_help": "",
+                    "mime_move_up": "",
+                    "mime_move_down": "",
+                    "mime_edit_pattern": "",
+                    "mime_use_simple": "",
+                    "mime_advanced_pattern": "",
+                    "mime_add_subtype": "",
+                    "mime_add_subtype_placeholder": "",
+                    "mime_remove_subtype": "",
+                    "mime_add_prompt": "",
+                    "mime_add_custom": "",
                     "title": "Obecné předvolby",
                     "php_ini_values": "Vaše hodnoty <code>php.ini</code> jsou <code>post_max_size={post}</code> a <code>upload_max_filesize={upload}</code>. Ujistěte se, že zde nastavené hodnoty jsou pod těmito prahovými hodnotami, nebo je odpovídajícím způsobem upravte. Pokud používáte <code>Nginx</code>, ujistěte se, že <code>client_max_body_size</code> má dostatečnou velikost pro vámi zvolený maximální limit."
+                },
+                "mime_presets": {
+                    "images": "",
+                    "pdf": "",
+                    "documents": "",
+                    "spreadsheets": "",
+                    "archives": "",
+                    "audio": "",
+                    "video": "",
+                    "title": "",
+                    "php_ini_values": ""
                 },
                 "resize": {
                     "max_width": "Maximální šířka/výška obrázku",
@@ -94,13 +148,15 @@
                     "toggle": "Změnit velikost obrázků"
                 },
                 "client_extension": {
-                    "title": "Přípony souborů zadané uživatelem"
+                    "title": "Přípony souborů zadané uživatelem",
+                    "placeholder": ""
                 },
                 "thumbnails": {
                     "title": "",
                     "toggle": "",
                     "webp_toggle": "",
-                    "max_width": ""
+                    "max_width": "",
+                    "quality": ""
                 },
                 "watermark": {
                     "file": "Nahrajte obrázek vodoznaku",
@@ -179,6 +235,13 @@
         },
         "forum": {
             "media_manager": "Správce médií",
+            "display_name": {
+                "title": "",
+                "title_plural": "",
+                "help": "",
+                "insert": "",
+                "use_file_name": ""
+            },
             "buttons": {
                 "attach": "Připojit",
                 "upload": "Nahrát",
@@ -191,7 +254,8 @@
             "states": {
                 "error": "Chyba",
                 "loading": "Nahrávání",
-                "unauthorized": "Nejste oprávněni stahovat soubory"
+                "unauthorized": "Nejste oprávněni stahovat soubory",
+                "permission_required": ""
             },
             "validation": {
                 "max_size": "Nahrávání větší než {max} kb nejsou akceptována."

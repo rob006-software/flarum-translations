@@ -31,23 +31,46 @@
                 "disable-hotlink-protection": "Захист від гарячих посилань запобігає відкриттю скачувань з інших сайтів. Поточний метод вимагає токен csrf та ідентифікатор публікації.\n",
                 "download_templates": "Шаблони скачування - це те, як скачування відображаються на вашому форумі, наприклад, попередній перегляд, кнопки. Наразі доступні:\n",
                 "mime_types": "",
+                "mime_order": "",
                 "resize": "Оберіть, чи потрібно змінювати розмір зображень перед завантаженням. Ви можете вибрати максимальну ширину і висоту в пікселях. Процес зміни розміру зберігає співвідношення сторін зображень.\n",
                 "client_extension": "За налаштуванням під час завантаження буде обрано безпечне розширення файлу на основі типу MIME.\nДля деяких типів файлів, заснованих на ZIP або двійкових даних, це може призвести до того, що замість очікуваного розширення буде використано загальне розширення.\nТут ви можете ввести через кому список розширень файлів, який буде збережено дослівно.\n",
                 "thumbnails": "",
+                "thumbnail_quality": "",
                 "watermark": "Оберіть, чи буде додано водяний знак до зображень під час завантаження. Водяні знаки додаються до зображень, які не є гіфками, відповідно до ваших налаштувань нижче.\n",
-                "s3_compatible_storage": "Наступні налаштування потрібні лише у разі використання сховища, сумісного з S3. Якщо ви використовуєте AWS, ви можете залишити їх порожніми.\n",
+                "storage_intro": "",
+                "storage_configure_another": "",
+                "storage_not_installed": "",
+                "local_cdn": "",
+                "s3_provider": "",
+                "s3_endpoint": "",
                 "s3_acl": "ACL, який має бути застосований до завантаженого об'єкта (за налаштуванням: private). Можливі значення дивіться за посиланням https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
+                "s3_acl_unsupported": "",
+                "s3_path_style": "",
                 "custom_s3_url": "Використовуйте цей параметр, якщо ви використовуєте S3-сумісний сервіс, який вимагає певного формату URL-адреси (наприклад, Backblaze B2), або якщо у вас виникають проблеми з форматом URL-адреси за замовчуванням. Для більшості сервісів цей параметр зазвичай не потрібен. Переконайтеся, що URL-адреса містить протокол (https://) і правильно відформатована. Приклад: https://your-bucket.s3.your-region.backblazeb2.com\n",
                 "s3_instance_profile": "Залиште ключ і секрет порожніми, щоб використовувати облікові дані в профілі екземпляра.\n",
-                "composer_buttons": "За налаштуванням відображаються і кнопка медіа-менеджера, і кнопка завантаження. Ви також можете обрати відображення лише однієї кнопки.\n"
+                "composer_buttons": "За налаштуванням відображаються і кнопка медіа-менеджера, і кнопка завантаження. Ви також можете обрати відображення лише однієї кнопки.\n",
+                "s3_compatible_storage": "Наступні налаштування потрібні лише у разі використання сховища, сумісного з S3. Якщо ви використовуєте AWS, ви можете залишити їх порожніми.\n"
+            },
+            "tabs": {
+                "files": "",
+                "storage": "",
+                "images": "",
+                "advanced": "",
+                "unsaved_changes": "",
+                "unsaved_hint": ""
             },
             "labels": {
+                "storage": {
+                    "configure_another": "",
+                    "hide_unused": ""
+                },
                 "aws-s3": {
                     "bucket": "Bucket",
                     "key": "Ключ",
                     "region": "Регіон",
                     "secret": "Секрет",
                     "title": "Налаштування AWS S3",
+                    "provider": "",
                     "advanced_title": "Розширене налаштування S3",
                     "endpoint": "Кінцева точка",
                     "use_path_style_endpoint": "Використовуйте кінцеву точку в стилі шляху",
@@ -85,8 +108,39 @@
                     "mime_type_regex_placeholder": "",
                     "mime_type_regex_invalid": "",
                     "mime_type_permission_placeholder": "",
+                    "mime_type_remove": "",
+                    "mime_type_add": "",
+                    "mime_column_pattern": "",
+                    "mime_column_pattern_help": "",
+                    "mime_column_storage": "",
+                    "mime_column_storage_help": "",
+                    "mime_column_display": "",
+                    "mime_column_display_help": "",
+                    "mime_column_permission": "",
+                    "mime_column_permission_help": "",
+                    "mime_move_up": "",
+                    "mime_move_down": "",
+                    "mime_edit_pattern": "",
+                    "mime_use_simple": "",
+                    "mime_advanced_pattern": "",
+                    "mime_add_subtype": "",
+                    "mime_add_subtype_placeholder": "",
+                    "mime_remove_subtype": "",
+                    "mime_add_prompt": "",
+                    "mime_add_custom": "",
                     "title": "Загальні налаштування",
                     "php_ini_values": "Значення ваших <code>php.ini</code> - <code>post_max_size={post}</code> та <code>upload_max_filesize={upload}</code>. Переконайтеся, що значення, встановлені тут, нижче цих порогових значень, або відрегулюйте їх відповідним чином. Якщо використовується <code>Nginx</code>, також переконайтеся, що <code>client_max_body_size</code> має достатній розмір для обраного вами максимального обмеження."
+                },
+                "mime_presets": {
+                    "images": "",
+                    "pdf": "",
+                    "documents": "",
+                    "spreadsheets": "",
+                    "archives": "",
+                    "audio": "",
+                    "video": "",
+                    "title": "",
+                    "php_ini_values": ""
                 },
                 "resize": {
                     "max_width": "Максимальна ширина/висота зображення",
@@ -94,13 +148,15 @@
                     "toggle": "Зміна розміру зображення"
                 },
                 "client_extension": {
-                    "title": "Розширення файлів, що надаються користувачем"
+                    "title": "Розширення файлів, що надаються користувачем",
+                    "placeholder": ""
                 },
                 "thumbnails": {
                     "title": "",
                     "toggle": "",
                     "webp_toggle": "",
-                    "max_width": ""
+                    "max_width": "",
+                    "quality": ""
                 },
                 "watermark": {
                     "file": "Завантажте зображення вашого водяного знаку",
@@ -179,6 +235,13 @@
         },
         "forum": {
             "media_manager": "Медіа-менеджер",
+            "display_name": {
+                "title": "",
+                "title_plural": "",
+                "help": "",
+                "insert": "",
+                "use_file_name": ""
+            },
             "buttons": {
                 "attach": "Прикріпити",
                 "upload": "Завантажити",
@@ -191,7 +254,8 @@
             "states": {
                 "error": "Помилка",
                 "loading": "Завантаження",
-                "unauthorized": "Ви не маєте права завантажувати файли"
+                "unauthorized": "Ви не маєте права завантажувати файли",
+                "permission_required": ""
             },
             "validation": {
                 "max_size": "Завантаження понад {max} kb не приймаються."

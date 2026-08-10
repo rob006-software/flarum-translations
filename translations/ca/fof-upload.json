@@ -31,23 +31,46 @@
                 "disable-hotlink-protection": "La protecció d'enllaços directes impedeix obrir baixades d'altres llocs. El mètode actual requereix un identificador csrf i un identificador de publicació.\n",
                 "download_templates": "Les plantilles de baixada són com es mostren les pujades al vostre fòrum, per exemple, com a visualitzacions prèvies, botons. Disponible actualment:\n",
                 "mime_types": "",
+                "mime_order": "",
                 "resize": "Tria si vols canviar la mida de les teves imatges abans que es pengin. Pots triar una amplada i una alçada màximes, en píxels. El procés de redimensionament manté la relació d'aspecte de les imatges.\n",
                 "client_extension": "Per defecte, es triarà una extensió de fitxer segura en funció del tipus MIME.\nPer a alguns tipus de fitxer basats en format ZIP o dades binàries, això pot provocar que s'utilitzin extensions genèriques en lloc de l'esperada.\nAquí pots introduir una llista d'extensions de fitxer separades per comes que es mantindran literalment.\n",
                 "thumbnails": "",
+                "thumbnail_quality": "",
                 "watermark": "Tria si s'ha d'afegir una marca d'aigua a les imatges durant la càrrega. Les marques d'aigua s'afegiran als fixers que no siguin de format GIF en funció de les teves preferències a sota.\n",
-                "s3_compatible_storage": "Els paràmetres següents només són necessaris quan s'utilitza algun emmagatzematge compatible amb S3. Si utilitzes AWS, pots deixar-los en blanc.\n",
+                "storage_intro": "",
+                "storage_configure_another": "",
+                "storage_not_installed": "",
+                "local_cdn": "",
+                "s3_provider": "",
+                "s3_endpoint": "",
                 "s3_acl": "La llista de control d'accessos (ACL) que s'ha d'aplicar a l'objecte pujat (per defecte: privat). Per obtenir els valors possibles, consulta https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
+                "s3_acl_unsupported": "",
+                "s3_path_style": "",
                 "custom_s3_url": "",
                 "s3_instance_profile": "Deixa la clau i el secret buits per utilitzar les credencials al perfil de la instància.\n",
-                "composer_buttons": "Per defecte, es mostraran els botons del gestor de mitjans i el de pujada de fitxers. També pots optar per mostrar només un botó.\n"
+                "composer_buttons": "Per defecte, es mostraran els botons del gestor de mitjans i el de pujada de fitxers. També pots optar per mostrar només un botó.\n",
+                "s3_compatible_storage": "Els paràmetres següents només són necessaris quan s'utilitza algun emmagatzematge compatible amb S3. Si utilitzes AWS, pots deixar-los en blanc.\n"
+            },
+            "tabs": {
+                "files": "",
+                "storage": "",
+                "images": "",
+                "advanced": "",
+                "unsaved_changes": "",
+                "unsaved_hint": ""
             },
             "labels": {
+                "storage": {
+                    "configure_another": "",
+                    "hide_unused": ""
+                },
                 "aws-s3": {
                     "bucket": "Bucket S3",
                     "key": "Clau",
                     "region": "Regió",
                     "secret": "Secret",
                     "title": "Configuració d'emmagatzematge S3",
+                    "provider": "",
                     "advanced_title": "Configuració avançada d'emmagatzematge S3",
                     "endpoint": "Punt final",
                     "use_path_style_endpoint": "Utilitzar punt final de tipus ruta de fitxer completa",
@@ -85,8 +108,39 @@
                     "mime_type_regex_placeholder": "",
                     "mime_type_regex_invalid": "",
                     "mime_type_permission_placeholder": "",
+                    "mime_type_remove": "",
+                    "mime_type_add": "",
+                    "mime_column_pattern": "",
+                    "mime_column_pattern_help": "",
+                    "mime_column_storage": "",
+                    "mime_column_storage_help": "",
+                    "mime_column_display": "",
+                    "mime_column_display_help": "",
+                    "mime_column_permission": "",
+                    "mime_column_permission_help": "",
+                    "mime_move_up": "",
+                    "mime_move_down": "",
+                    "mime_edit_pattern": "",
+                    "mime_use_simple": "",
+                    "mime_advanced_pattern": "",
+                    "mime_add_subtype": "",
+                    "mime_add_subtype_placeholder": "",
+                    "mime_remove_subtype": "",
+                    "mime_add_prompt": "",
+                    "mime_add_custom": "",
                     "title": "Preferències generals",
                     "php_ini_values": "Els valors al teu fitxer <code>php.ini</code> són <code>post_max_size={post}</code> i <code>upload_max_filesize={upload}</code>. Assegura't que el valor establert aquí estigui per sota d'aquests llindars o ajusta'ls en conseqüència. Si utilitzes <code>Nginx</code>, assegura't també que <code>client_max_body_size</code> tingui una mida suficient per al teu límit màxim escollit."
+                },
+                "mime_presets": {
+                    "images": "",
+                    "pdf": "",
+                    "documents": "",
+                    "spreadsheets": "",
+                    "archives": "",
+                    "audio": "",
+                    "video": "",
+                    "title": "",
+                    "php_ini_values": ""
                 },
                 "resize": {
                     "max_width": "Amplada/alçada màxima de la imatge",
@@ -94,13 +148,15 @@
                     "toggle": "Canviar la mida de les imatges"
                 },
                 "client_extension": {
-                    "title": "Extensions de fitxers proporcionades per l'usuari"
+                    "title": "Extensions de fitxers proporcionades per l'usuari",
+                    "placeholder": ""
                 },
                 "thumbnails": {
                     "title": "",
                     "toggle": "",
                     "webp_toggle": "",
-                    "max_width": ""
+                    "max_width": "",
+                    "quality": ""
                 },
                 "watermark": {
                     "file": "Puja la teva imatge de marca d'aigua",
@@ -179,6 +235,13 @@
         },
         "forum": {
             "media_manager": "Gestor de mitjans",
+            "display_name": {
+                "title": "",
+                "title_plural": "",
+                "help": "",
+                "insert": "",
+                "use_file_name": ""
+            },
             "buttons": {
                 "attach": "Adjuntar",
                 "upload": "Pujar",
@@ -191,7 +254,8 @@
             "states": {
                 "error": "Error",
                 "loading": "Pujant",
-                "unauthorized": "No tens permisos per descarregar fitxers"
+                "unauthorized": "No tens permisos per descarregar fitxers",
+                "permission_required": ""
             },
             "validation": {
                 "max_size": "No es permet la pujada de fitxers de més de {max} kb."

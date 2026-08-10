@@ -31,23 +31,46 @@
                 "disable-hotlink-protection": "การป้องกัน hotlink ป้องกันการดาวน์โหลดจากเว็บไซต์อื่น ปัจจุบันต้องใช้ CSRF token และ ID โพสต์\n",
                 "download_templates": "เทมเพลตดาวน์โหลดกำหนดวิธีแสดงไฟล์ในฟอรัม เช่น ตัวอย่าง ปุ่ม ที่มีให้เลือกปัจจุบัน:\n",
                 "mime_types": "",
+                "mime_order": "",
                 "resize": "เลือกว่าต้องการปรับขนาดรูปภาพก่อนอัปโหลดหรือไม่ สามารถกำหนดความกว้างและความสูงสูงสุดเป็นพิกเซล อัตราส่วนภาพจะคงเดิม\n",
                 "client_extension": "โดยค่าเริ่มต้น Upload จะเลือกนามสกุลไฟล์ที่ปลอดภัยตาม MIME type สำหรับไฟล์บางประเภทที่ใช้ ZIP หรือไบนารี อาจได้นามสกุลทั่วไปแทนที่คาดหวัง ที่นี่สามารถใส่รายการนามสกุลคั่นด้วยจุลภาคที่จะถูกเก็บไว้ตรง ๆ\n",
                 "thumbnails": "",
+                "thumbnail_quality": "",
                 "watermark": "เลือกว่าต้องการเพิ่มลายน้ำลงในรูปภาพขณะอัปโหลดหรือไม่ ลายน้ำจะถูกเพิ่มในรูปที่ไม่ใช่ GIF ตามการตั้งค่าด้านล่าง\n",
-                "s3_compatible_storage": "การตั้งค่าต่อไปนี้ต้องการเฉพาะเมื่อใช้พื้นที่เก็บข้อมูลที่รองรับ S3 หากใช้ AWS สามารถเว้นว่างได้\n",
+                "storage_intro": "",
+                "storage_configure_another": "",
+                "storage_not_installed": "",
+                "local_cdn": "",
+                "s3_provider": "",
+                "s3_endpoint": "",
                 "s3_acl": "ACL ที่จะใช้กับออบเจกต์ที่อัปโหลด (ค่าเริ่มต้น: private) ดูค่าที่เป็นไปได้ที่ https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
+                "s3_acl_unsupported": "",
+                "s3_path_style": "",
                 "custom_s3_url": "ใช้การตั้งค่านี้หากบริการ S3-compatible ต้องการรูปแบบ URL เฉพาะ (เช่น Backblaze B2) ให้ URL ที่รวม protocol (https://) ตัวอย่าง: https://your-bucket.s3.your-region.backblazeb2.com\n",
                 "s3_instance_profile": "เว้น key และ secret ว่างเพื่อใช้ข้อมูลประจำตัวจาก instance profile\n",
-                "composer_buttons": "โดยค่าเริ่มต้นจะแสดงทั้งปุ่ม Media Manager และปุ่มอัปโหลด สามารถเลือกแสดงเพียงปุ่มเดียวได้\n"
+                "composer_buttons": "โดยค่าเริ่มต้นจะแสดงทั้งปุ่ม Media Manager และปุ่มอัปโหลด สามารถเลือกแสดงเพียงปุ่มเดียวได้\n",
+                "s3_compatible_storage": "การตั้งค่าต่อไปนี้ต้องการเฉพาะเมื่อใช้พื้นที่เก็บข้อมูลที่รองรับ S3 หากใช้ AWS สามารถเว้นว่างได้\n"
+            },
+            "tabs": {
+                "files": "",
+                "storage": "",
+                "images": "",
+                "advanced": "",
+                "unsaved_changes": "",
+                "unsaved_hint": ""
             },
             "labels": {
+                "storage": {
+                    "configure_another": "",
+                    "hide_unused": ""
+                },
                 "aws-s3": {
                     "bucket": "Bucket",
                     "key": "Key",
                     "region": "Region",
                     "secret": "Secret",
                     "title": "การตั้งค่า AWS S3",
+                    "provider": "",
                     "advanced_title": "การตั้งค่า S3 ขั้นสูง",
                     "endpoint": "Endpoint",
                     "use_path_style_endpoint": "ใช้ path style endpoint",
@@ -85,8 +108,39 @@
                     "mime_type_regex_placeholder": "",
                     "mime_type_regex_invalid": "",
                     "mime_type_permission_placeholder": "",
+                    "mime_type_remove": "",
+                    "mime_type_add": "",
+                    "mime_column_pattern": "",
+                    "mime_column_pattern_help": "",
+                    "mime_column_storage": "",
+                    "mime_column_storage_help": "",
+                    "mime_column_display": "",
+                    "mime_column_display_help": "",
+                    "mime_column_permission": "",
+                    "mime_column_permission_help": "",
+                    "mime_move_up": "",
+                    "mime_move_down": "",
+                    "mime_edit_pattern": "",
+                    "mime_use_simple": "",
+                    "mime_advanced_pattern": "",
+                    "mime_add_subtype": "",
+                    "mime_add_subtype_placeholder": "",
+                    "mime_remove_subtype": "",
+                    "mime_add_prompt": "",
+                    "mime_add_custom": "",
                     "title": "ค่าตั้งค่าทั่วไป",
                     "php_ini_values": "ค่า <code>php.ini</code> ของคุณ: <code>post_max_size={post}</code> และ <code>upload_max_filesize={upload}</code> ตรวจสอบให้ค่าที่กำหนดไม่เกินค่าเหล่านี้ หากใช้ <code>Nginx</code> ให้ตรวจสอบ <code>client_max_body_size</code> ด้วย"
+                },
+                "mime_presets": {
+                    "images": "",
+                    "pdf": "",
+                    "documents": "",
+                    "spreadsheets": "",
+                    "archives": "",
+                    "audio": "",
+                    "video": "",
+                    "title": "",
+                    "php_ini_values": ""
                 },
                 "resize": {
                     "max_width": "ความกว้าง/ความสูงสูงสุดของรูปภาพ",
@@ -94,13 +148,15 @@
                     "toggle": "ปรับขนาดรูปภาพ"
                 },
                 "client_extension": {
-                    "title": "นามสกุลไฟล์ที่กำหนดเอง"
+                    "title": "นามสกุลไฟล์ที่กำหนดเอง",
+                    "placeholder": ""
                 },
                 "thumbnails": {
                     "title": "",
                     "toggle": "",
                     "webp_toggle": "",
-                    "max_width": ""
+                    "max_width": "",
+                    "quality": ""
                 },
                 "watermark": {
                     "file": "อัปโหลดรูปภาพลายน้ำ",
@@ -179,6 +235,13 @@
         },
         "forum": {
             "media_manager": "จัดการสื่อ",
+            "display_name": {
+                "title": "",
+                "title_plural": "",
+                "help": "",
+                "insert": "",
+                "use_file_name": ""
+            },
             "buttons": {
                 "attach": "แนบ",
                 "upload": "อัปโหลด",
@@ -191,7 +254,8 @@
             "states": {
                 "error": "ข้อผิดพลาด",
                 "loading": "กำลังอัปโหลด",
-                "unauthorized": "คุณไม่มีสิทธิ์ดาวน์โหลดไฟล์"
+                "unauthorized": "คุณไม่มีสิทธิ์ดาวน์โหลดไฟล์",
+                "permission_required": ""
             },
             "validation": {
                 "max_size": "ไม่รับไฟล์ที่มีขนาดเกิน {max} kb"

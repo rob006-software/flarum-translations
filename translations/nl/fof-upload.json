@@ -31,23 +31,46 @@
                 "disable-hotlink-protection": "Hotlinkbeveiliging voorkomt het openen van downloads van andere websites. De huidige methode vereist een csrf-token en bericht-id.\n",
                 "download_templates": "Download templates geven aan hoe uploads worden weergegeven op je forum, zoals voorbeeld, knoppen. Momenteel beschikbaar:\n",
                 "mime_types": "",
+                "mime_order": "",
                 "resize": "Kies of je afbeeldingsformaat wilt wijzigen voordat deze worden geüpload. Je kan een maximale breedte en hoogte instellen in pixels. De afbeelding behoud de verhouding na het schalen.\n",
                 "client_extension": "Standaard kiest Upload een veilige bestandsextensie op basis van het MIME-type.\nVoor sommige bestandstypen gebaseerd op ZIP of binaire gegevens kan dit betekenen dat een algemene extensies worden gebruikt in plaats van de verwachte extensie.\nHier kun je een door komma gescheiden lijst van bestandextensies invoeren die letterlijk behouden blijven.\n",
                 "thumbnails": "",
+                "thumbnail_quality": "",
                 "watermark": "Kies of afbeeldingen een watermerk moeten krijgen tijdens het uploaden. Watermerken worden, behalve bij GIFs, toegevoegd op basis van je voorkeur hieronder.\n",
-                "s3_compatible_storage": "De volgende optie is enkel verplicht wanneer er een S3-compatibele opslag wordt gebruikt. Als je AWS gebruikt kun je deze leeglaten.\n",
+                "storage_intro": "",
+                "storage_configure_another": "",
+                "storage_not_installed": "",
+                "local_cdn": "",
+                "s3_provider": "",
+                "s3_endpoint": "",
                 "s3_acl": "De ACL die zal worden toegepast op het geüploade object (standaard: privé). Voor mogelijke waarden, bekijk https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
+                "s3_acl_unsupported": "",
+                "s3_path_style": "",
                 "custom_s3_url": "Gebruik deze instelling als je een S3-compatibele dienst gebruikt die een specifieke URL-indeling vereist (bijvoorbeeld Backblaze B2), of wanneer je problemen ondervindt met de standaard URL-indeling. Deze instelling is over het algemeen niet nodig voor de meeste diensten. Zorg ervoor dat de URL het protocol (https://) bevat en correct is geformatteerd. Voorbeeld: https://your-bucket.s3.your-region.backblazeb2.com\n",
                 "s3_instance_profile": "Laat de sleutel en geheime sleutel leeg om de profiel instantiegegevens te gebruiken.\n",
-                "composer_buttons": "Standaard zijn zowel de mediabeheerknop als de uploadknop zichtbaar. Je kunt er ook voor kiezen om enkel één knop weer te geven.\n"
+                "composer_buttons": "Standaard zijn zowel de mediabeheerknop als de uploadknop zichtbaar. Je kunt er ook voor kiezen om enkel één knop weer te geven.\n",
+                "s3_compatible_storage": "De volgende optie is enkel verplicht wanneer er een S3-compatibele opslag wordt gebruikt. Als je AWS gebruikt kun je deze leeglaten.\n"
+            },
+            "tabs": {
+                "files": "",
+                "storage": "",
+                "images": "",
+                "advanced": "",
+                "unsaved_changes": "",
+                "unsaved_hint": ""
             },
             "labels": {
+                "storage": {
+                    "configure_another": "",
+                    "hide_unused": ""
+                },
                 "aws-s3": {
                     "bucket": "Bucket",
                     "key": "Sleutel",
                     "region": "Regio",
                     "secret": "Geheime sleutel",
                     "title": "AWS S3 opslaginstellingen",
+                    "provider": "",
                     "advanced_title": "Geavanceerde S3 opslaginstellingen",
                     "endpoint": "Endpoint",
                     "use_path_style_endpoint": "Gebruik s3 pad-stijl endpoint",
@@ -85,8 +108,39 @@
                     "mime_type_regex_placeholder": "",
                     "mime_type_regex_invalid": "",
                     "mime_type_permission_placeholder": "",
+                    "mime_type_remove": "",
+                    "mime_type_add": "",
+                    "mime_column_pattern": "",
+                    "mime_column_pattern_help": "",
+                    "mime_column_storage": "",
+                    "mime_column_storage_help": "",
+                    "mime_column_display": "",
+                    "mime_column_display_help": "",
+                    "mime_column_permission": "",
+                    "mime_column_permission_help": "",
+                    "mime_move_up": "",
+                    "mime_move_down": "",
+                    "mime_edit_pattern": "",
+                    "mime_use_simple": "",
+                    "mime_advanced_pattern": "",
+                    "mime_add_subtype": "",
+                    "mime_add_subtype_placeholder": "",
+                    "mime_remove_subtype": "",
+                    "mime_add_prompt": "",
+                    "mime_add_custom": "",
                     "title": "Generieke voorkeuren",
                     "php_ini_values": "Uw <code>php.ini</code>-waarden zijn <code>post_max_size={post}</code> en <code>upload_max_filesize={upload}</code>. Zorg ervoor dat de hier ingestelde waarde onder deze drempelwaarden ligt, of pas ze dienovereenkomstig aan. Als u <code>Nginx</code> gebruikt, zorg er dan ook voor dat <code>client_max_body_size</code> voldoende groot is voor de door u gekozen maximale limiet."
+                },
+                "mime_presets": {
+                    "images": "",
+                    "pdf": "",
+                    "documents": "",
+                    "spreadsheets": "",
+                    "archives": "",
+                    "audio": "",
+                    "video": "",
+                    "title": "",
+                    "php_ini_values": ""
                 },
                 "resize": {
                     "max_width": "Maximale afbeeldingsbreedte/hoogte",
@@ -94,13 +148,15 @@
                     "toggle": "Wijzig afbeeldingsformaat"
                 },
                 "client_extension": {
-                    "title": "Door gebruiker opgegeven bestandsextensies"
+                    "title": "Door gebruiker opgegeven bestandsextensies",
+                    "placeholder": ""
                 },
                 "thumbnails": {
                     "title": "",
                     "toggle": "",
                     "webp_toggle": "",
-                    "max_width": ""
+                    "max_width": "",
+                    "quality": ""
                 },
                 "watermark": {
                     "file": "Upload je watermerk-afbeelding",
@@ -179,6 +235,13 @@
         },
         "forum": {
             "media_manager": "Mediabeheer",
+            "display_name": {
+                "title": "",
+                "title_plural": "",
+                "help": "",
+                "insert": "",
+                "use_file_name": ""
+            },
             "buttons": {
                 "attach": "",
                 "upload": "Uploaden",
@@ -191,7 +254,8 @@
             "states": {
                 "error": "Fout",
                 "loading": "Uploaden",
-                "unauthorized": "Je bent niet gemachtigd om bestanden te downloaden"
+                "unauthorized": "Je bent niet gemachtigd om bestanden te downloaden",
+                "permission_required": ""
             },
             "validation": {
                 "max_size": "Uploads boven de {max} kb zijn niet geaccepteerd."

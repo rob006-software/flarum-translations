@@ -30,29 +30,51 @@
                 "disable-download-logging": "Disable logging every download made by users of your forum. Keeping it enabled allows you to view the number of downloads and other metrics in the nearby future.\n",
                 "disable-hotlink-protection": "Hotlink protection prevents opening downloads from other sites. Current method requires a csrf token and post id.\n",
                 "download_templates": "Download templates are how uploads are shown on your forum, eg like previews, buttons. Currently available:\n",
-                "mime_types": "Please configure your mapping here. Each mime type regular expression will be handled by a specific upload adapter and download template.\nOptionally, give each entry a permission label (e.g. \"Images\", \"Videos\") to create a dedicated permission in the permission grid.\nThis lets you restrict which groups may upload specific file types — in addition to the base \"Upload files\" permission which is always required.\n",
+                "mime_types": "Decide which files members may upload, where each kind is stored, and how it appears in a post.\n",
+                "mime_order": "Rules are matched from the top down and the first match wins, so put more specific rules above general ones.\n",
                 "resize": "Choose whether you want to resize your images before they get uploaded. You can choose a maximum width and height, in pixels. The resizing process keeps the aspect ratio of the images.\n",
                 "client_extension": "By default Upload will choose a safe file extension based on the MIME type.\nFor some file types based around ZIP or binary data this can result in generic extensions being used instead of the expected one.\nHere you can enter a comma-separated list of file extensions that will be kept verbatim.\n",
                 "thumbnails": "Generate a downscaled thumbnail for images at upload time. The thumbnail is shown inline;\nclicking it opens the original full-resolution file in a new tab. Thumbnails significantly\nreduce bandwidth and page weight for forums with many large images.\n",
+                "thumbnail_quality": "Encode quality from 1 to 100, applied to WebP and JPEG thumbnails. Higher values look sharper\nbut produce larger files. GIF and PNG thumbnails are lossless and ignore this setting.\nExisting thumbnails keep their current quality until regenerated with the backfill command.\n",
                 "watermark": "Choose whether images will have a watermark added during upload. Watermarks are added to non-gifs based on your preferences below.\n",
-                "s3_compatible_storage": "The following settings are only required when using S3 compatible storage. If you use AWS, you can leave them blank.\n",
-                "s3_acl": "The ACL that should be applied to the uploaded object (default: private). For possible values, see https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
-                "custom_s3_url": "Use this setting if you are using an S3-compatible service that requires a specific URL format (e.g., Backblaze B2) or if you are experiencing issues with the default URL format. This setting is generally not necessary for most services. Ensure the URL includes the protocol (https://) and is correctly formatted. Example: https://your-bucket.s3.your-region.backblazeb2.com\n",
-                "s3_instance_profile": "Leave key and secret empty to use credentials in instance profile.\n",
+                "storage_intro": "Services you have configured, or that a file type is using, are shown here. You can set up a service\nbefore pointing any file type at it — assign it on the Files tab when you are ready.\n",
+                "storage_configure_another": "Other storage services are installed but not yet set up. Configuring one does not change where files go\nuntil you assign it to a file type.\n",
+                "storage_not_installed": "Looking for Amazon S3, Cloudflare R2 or Qiniu? Those need an extra package — see <a>installing storage adapters</a>.",
+                "local_cdn": "Optional. If you serve <code>assets/files</code> through a CDN, enter its base URL and uploaded file links will use it.\nLeave blank to serve files directly from your forum.\n",
+                "s3_provider": "Choosing your provider sets the endpoint format, addressing style and ACL support below. Pick \"Other S3-compatible\"\nif yours is not listed.\n",
+                "s3_endpoint": "The provider's S3 API URL — not your bucket's public URL. Amazon S3 does not need one.\n",
+                "s3_acl": "Applied to each uploaded object. Leave blank for the provider default (usually private).\nUse <code>public-read</code> if files must be readable directly from the bucket.\n",
+                "s3_acl_unsupported": "{provider} does not support ACLs. Control public access in the provider's own dashboard instead.\n",
+                "s3_path_style": "Puts the bucket in the URL path rather than the hostname. Required by MinIO and Cloudflare R2;\nset automatically when you choose a provider.\n",
+                "custom_s3_url": "The public base URL your files are served from — a CDN or custom domain in front of the bucket.\nLeave blank to use the provider's default URL. Must include <code>https://</code>.\n",
+                "s3_instance_profile": "Leave both blank to use an IAM role instead — only works on EC2, ECS or EKS.\n",
                 "composer_buttons": "By default both the media manager button and upload button are visible. You can also choose to display only one button.\n"
             },
+            "tabs": {
+                "files": "Files",
+                "storage": "Storage",
+                "images": "Images",
+                "advanced": "Advanced",
+                "unsaved_changes": "This tab has unsaved changes",
+                "unsaved_hint": "You have unsaved changes."
+            },
             "labels": {
+                "storage": {
+                    "configure_another": "Configure another storage service ({count} available)",
+                    "hide_unused": "Hide services that are not in use"
+                },
                 "aws-s3": {
                     "bucket": "Bucket",
-                    "key": "Key",
+                    "key": "Access key ID",
                     "region": "Region",
-                    "secret": "Secret",
-                    "title": "AWS S3 storage settings",
-                    "advanced_title": "Advanced S3 storage settings",
+                    "secret": "Secret access key",
+                    "title": "S3 storage",
+                    "provider": "Provider",
+                    "advanced_title": "Advanced options",
                     "endpoint": "Endpoint",
-                    "use_path_style_endpoint": "Use path style endpoint",
+                    "use_path_style_endpoint": "Use path-style addressing",
                     "acl": "Access Control List (ACL)",
-                    "custom_url": "Custom S3 URL"
+                    "custom_url": "Public URL"
                 },
                 "disable-download-logging": {
                     "title": "Disable logging downloads",
@@ -81,10 +103,39 @@
                 "preferences": {
                     "max_file_size": "Maximum file size",
                     "max_file_size_equivalent": "Stored as <code>{kb}</code> KB ({value}).",
-                    "mime_types": "Configure your mime type, upload adapter mapping",
+                    "mime_types": "File types",
                     "mime_type_regex_placeholder": "e.g. ^image/(jpeg|png|gif)$",
                     "mime_type_regex_invalid": "Invalid regex (e.g. empty alternatives like ||)",
-                    "mime_type_permission_placeholder": "Permission label (optional, e.g. Images)",
+                    "mime_type_permission_placeholder": "Optional, e.g. Images",
+                    "mime_type_remove": "Remove this file type",
+                    "mime_type_add": "Add this file type",
+                    "mime_column_pattern": "File type",
+                    "mime_column_pattern_help": "The kinds of file this rule applies to, matched against the file's MIME type.",
+                    "mime_column_storage": "Stored in",
+                    "mime_column_storage_help": "Which storage service files of this type are uploaded to.",
+                    "mime_column_display": "Shown as",
+                    "mime_column_display_help": "How the file appears in a post — an inline preview, a download button, and so on.",
+                    "mime_column_permission": "Permission label",
+                    "mime_column_permission_help": "Optional. Naming a group here creates a permission so you can control who may upload these files.",
+                    "mime_move_up": "Move up (matched earlier)",
+                    "mime_move_down": "Move down (matched later)",
+                    "mime_edit_pattern": "Edit pattern",
+                    "mime_use_simple": "Use simple editor",
+                    "mime_advanced_pattern": "Advanced pattern",
+                    "mime_add_subtype": "Add a file format",
+                    "mime_add_subtype_placeholder": "e.g. webp",
+                    "mime_remove_subtype": "Remove {subtype}",
+                    "mime_add_prompt": "Add file types…",
+                    "mime_add_custom": "Custom pattern…"
+                },
+                "mime_presets": {
+                    "images": "Images",
+                    "pdf": "PDF documents",
+                    "documents": "Word documents",
+                    "spreadsheets": "Spreadsheets",
+                    "archives": "Archives (zip, tar, 7z)",
+                    "audio": "Audio",
+                    "video": "Video",
                     "title": "General preferences",
                     "php_ini_values": "Your <code>php.ini</code> values are <code>post_max_size={post}</code> and <code>upload_max_filesize={upload}</code>. Ensure the value set here is below these thresholds, or adjust them accordingly. If using <code>Nginx</code>, also ensure that <code>client_max_body_size</code> is of sufficient size for your chosen max limit."
                 },
@@ -94,13 +145,15 @@
                     "toggle": "Resize images"
                 },
                 "client_extension": {
-                    "title": "User-provided file extensions"
+                    "title": "User-provided file extensions",
+                    "placeholder": "e.g. docx, xlsx, epub"
                 },
                 "thumbnails": {
                     "title": "Image thumbnails",
                     "toggle": "Generate thumbnails on upload",
                     "webp_toggle": "Encode thumbnails as WebP (recommended, ~30% smaller)",
-                    "max_width": "Thumbnail max width (px)"
+                    "max_width": "Thumbnail max width (px)",
+                    "quality": "Thumbnail quality"
                 },
                 "watermark": {
                     "file": "Upload your watermark image",
@@ -179,6 +232,13 @@
         },
         "forum": {
             "media_manager": "Media manager",
+            "display_name": {
+                "title": "Name this download",
+                "title_plural": "Name these downloads",
+                "help": "Shown on the download instead of the file name. Leave as-is to use the file name.",
+                "insert": "Insert",
+                "use_file_name": "Use file names"
+            },
             "buttons": {
                 "attach": "Attach",
                 "upload": "Upload",
@@ -191,7 +251,8 @@
             "states": {
                 "error": "Error",
                 "loading": "Uploading",
-                "unauthorized": "You are not allowed to download files"
+                "unauthorized": "You are not allowed to download this file",
+                "permission_required": "Permission required"
             },
             "validation": {
                 "max_size": "Uploads over {max} kb are not accepted."

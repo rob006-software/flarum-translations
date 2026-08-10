@@ -31,23 +31,46 @@
                 "disable-hotlink-protection": "Hotlink защита предотвратява отварянето на сваляния (downloads) от други сайтове. Настоящият метод изисква csrf токен и id на поста.\n",
                 "download_templates": "Образците за сваляне отговарят на това как сваляния (downloads) се показват на твоя форум, например преглед на харесване, бутони. По настоящем достъпни.\n",
                 "mime_types": "",
+                "mime_order": "",
                 "resize": "Избери дали искаш да промениш размера на изображенията преди да са качени. Може да избереш максимална ширина и височина, в пиксели. Оразмеряването запазва съотношението на изображенията.\n",
                 "client_extension": "По подразбиране качването (upload) ще избере сигурно разширение за файл базирано на MIME тип.\nЗа някои видове файлове базирани около ZIP или бинарни данни това може да доведе до използването на общи разширения вместо на очакваните.\nТук може да въведеш списък, разделен със запетая, на разширения на файлове, които ще бъдат запазени.\n",
                 "thumbnails": "",
+                "thumbnail_quality": "",
                 "watermark": "Избери дали изображенията да имат добавен воден знак по време на качването (upload). Водните знаци се добавят към изображения без гифчета (no gifs) въз основа на твоите предпочитания по-долу.\n",
-                "s3_compatible_storage": "Следните настройки са необходими само когато се използва хранилище съвместимо с S3. Ако използваш AWS, може да ги оставиш празни.\n",
+                "storage_intro": "",
+                "storage_configure_another": "",
+                "storage_not_installed": "",
+                "local_cdn": "",
+                "s3_provider": "",
+                "s3_endpoint": "",
                 "s3_acl": "ACL който трябва да бъде приложен към качвания обект (по подразбиране: личен). За възможни стойности, виж https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
+                "s3_acl_unsupported": "",
+                "s3_path_style": "",
                 "custom_s3_url": "",
                 "s3_instance_profile": "Остави ключът скрит и празен за да използваш удостоверения за самоличност (credentials) в профила на инстанцията.\n",
-                "composer_buttons": "По подразбиране двата бутона за управление на медия и за качване (upload) са видими. Можеш също да избереш да показваш само един бутон.\n"
+                "composer_buttons": "По подразбиране двата бутона за управление на медия и за качване (upload) са видими. Можеш също да избереш да показваш само един бутон.\n",
+                "s3_compatible_storage": "Следните настройки са необходими само когато се използва хранилище съвместимо с S3. Ако използваш AWS, може да ги оставиш празни.\n"
+            },
+            "tabs": {
+                "files": "",
+                "storage": "",
+                "images": "",
+                "advanced": "",
+                "unsaved_changes": "",
+                "unsaved_hint": ""
             },
             "labels": {
+                "storage": {
+                    "configure_another": "",
+                    "hide_unused": ""
+                },
                 "aws-s3": {
                     "bucket": "Категория",
                     "key": "Ключ",
                     "region": "Регион",
                     "secret": "Таен",
                     "title": "AWS S3 настройки за хранилище",
+                    "provider": "",
                     "advanced_title": "Разширени настройки за хранилище S3",
                     "endpoint": "Крайна точка",
                     "use_path_style_endpoint": "Използвай стил път за крайната точка",
@@ -85,8 +108,39 @@
                     "mime_type_regex_placeholder": "",
                     "mime_type_regex_invalid": "",
                     "mime_type_permission_placeholder": "",
+                    "mime_type_remove": "",
+                    "mime_type_add": "",
+                    "mime_column_pattern": "",
+                    "mime_column_pattern_help": "",
+                    "mime_column_storage": "",
+                    "mime_column_storage_help": "",
+                    "mime_column_display": "",
+                    "mime_column_display_help": "",
+                    "mime_column_permission": "",
+                    "mime_column_permission_help": "",
+                    "mime_move_up": "",
+                    "mime_move_down": "",
+                    "mime_edit_pattern": "",
+                    "mime_use_simple": "",
+                    "mime_advanced_pattern": "",
+                    "mime_add_subtype": "",
+                    "mime_add_subtype_placeholder": "",
+                    "mime_remove_subtype": "",
+                    "mime_add_prompt": "",
+                    "mime_add_custom": "",
                     "title": "Общи преференции",
                     "php_ini_values": "Твоите <code>php.ini</code> стойности са<code>post_max_size={post}</code> и<code>upload_max_filesize={upload}</code>. Подсигури, че стойностите тук са под тези прагове, или съотвено ги коригирай. Ако използваш<code>Nginx</code>, също подсигури,че <code>client_max_body_size</code> е с достатъчен размер за избрания от теб максимален лимит."
+                },
+                "mime_presets": {
+                    "images": "",
+                    "pdf": "",
+                    "documents": "",
+                    "spreadsheets": "",
+                    "archives": "",
+                    "audio": "",
+                    "video": "",
+                    "title": "",
+                    "php_ini_values": ""
                 },
                 "resize": {
                     "max_width": "Максимална (ширина/височина) на изображение",
@@ -94,13 +148,15 @@
                     "toggle": "Промени размера на изображенията"
                 },
                 "client_extension": {
-                    "title": "Разширения на файл подадени от потребителя"
+                    "title": "Разширения на файл подадени от потребителя",
+                    "placeholder": ""
                 },
                 "thumbnails": {
                     "title": "",
                     "toggle": "",
                     "webp_toggle": "",
-                    "max_width": ""
+                    "max_width": "",
+                    "quality": ""
                 },
                 "watermark": {
                     "file": "Качи твоето изображение с воден знак",
@@ -179,6 +235,13 @@
         },
         "forum": {
             "media_manager": "Управление на медия",
+            "display_name": {
+                "title": "",
+                "title_plural": "",
+                "help": "",
+                "insert": "",
+                "use_file_name": ""
+            },
             "buttons": {
                 "attach": "Прикачи",
                 "upload": "Качи (upload)",
@@ -191,7 +254,8 @@
             "states": {
                 "error": "Грешка",
                 "loading": "Качва се",
-                "unauthorized": "Не си оторизиран да свалиш файловете"
+                "unauthorized": "Не си оторизиран да свалиш файловете",
+                "permission_required": ""
             },
             "validation": {
                 "max_size": "Качвания над {max} kb не са приети."

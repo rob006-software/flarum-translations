@@ -31,23 +31,46 @@
                 "disable-hotlink-protection": "Hotlink protection berfungsi untuk mencegah download yang dilakukan dari situs lain. Metode saat ini memerlukan token csrf dan post id.\n",
                 "download_templates": "Template download adalah bagaimana upload ditampilkan di forum Anda, misalnya pratinjau, tombol. Saat ini tersedia:\n",
                 "mime_types": "",
+                "mime_order": "",
                 "resize": "Pilih apakah Anda ingin mengubah ukuran gambar sebelum diunggah. Anda dapat memilih lebar dan tinggi maksimum, dalam piksel. Proses pengubahan ukuran akan mempertahankan aspect ratio gambar.\n",
                 "client_extension": "Secara default, Upload akan memilih ekstensi file yang aman berdasarkan jenis MIME.\nUntuk beberapa jenis file yang berbasis ZIP atau data biner, hal ini dapat mengakibatkan ekstensi umum digunakan, alih-alih ekstensi yang diharapkan.\nDi sini Anda dapat memasukkan daftar ekstensi file yang dipisahkan koma yang akan disimpan kata demi kata.\n",
                 "thumbnails": "",
+                "thumbnail_quality": "",
                 "watermark": "Tentukan apakah gambar akan ditambahkan watermark saat di-upload. Watermark ditambahkan ke non-gif berdasarkan preferensi Anda di bawah ini.\n",
-                "s3_compatible_storage": "Pengaturan berikut ini hanya diperlukan bila menggunakan penyimpanan yang kompatibel dengan S3. Jika Anda menggunakan AWS, Anda dapat mengosongkannya.\n",
+                "storage_intro": "",
+                "storage_configure_another": "",
+                "storage_not_installed": "",
+                "local_cdn": "",
+                "s3_provider": "",
+                "s3_endpoint": "",
                 "s3_acl": "ACL yang harus diterapkan pada objek yang diunggah (default: private). Untuk value-nya, lihat https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
+                "s3_acl_unsupported": "",
+                "s3_path_style": "",
                 "custom_s3_url": "Gunakan pengaturan ini jika Anda menggunakan layanan yang kompatibel dengan S3 yang memerlukan format URL tertentu (misalnya, Backblaze B2) atau jika Anda mengalami masalah dengan format URL default. Pengaturan ini umumnya tidak diperlukan untuk sebagian besar layanan. Pastikan URL menyertakan protokol (https://) dan diformat dengan benar. Contoh: https://your-bucket.s3.your-region.example.com\n",
                 "s3_instance_profile": "Biarkan key dan secret kosong untuk menggunakan kredensial di instance profile.\n",
-                "composer_buttons": "Secara default, tombol pengelola media dan tombol upload akan terlihat. Anda juga dapat memilih untuk hanya menampilkan satu tombol saja.\n"
+                "composer_buttons": "Secara default, tombol pengelola media dan tombol upload akan terlihat. Anda juga dapat memilih untuk hanya menampilkan satu tombol saja.\n",
+                "s3_compatible_storage": "Pengaturan berikut ini hanya diperlukan bila menggunakan penyimpanan yang kompatibel dengan S3. Jika Anda menggunakan AWS, Anda dapat mengosongkannya.\n"
+            },
+            "tabs": {
+                "files": "",
+                "storage": "",
+                "images": "",
+                "advanced": "",
+                "unsaved_changes": "",
+                "unsaved_hint": ""
             },
             "labels": {
+                "storage": {
+                    "configure_another": "",
+                    "hide_unused": ""
+                },
                 "aws-s3": {
                     "bucket": "Bucket",
                     "key": "Key",
                     "region": "Letak geografis",
                     "secret": "Secret",
                     "title": "Pengaturan AWS S3 storage",
+                    "provider": "",
                     "advanced_title": "Pengaturan S3 storage lanjutan",
                     "endpoint": "Endpoint",
                     "use_path_style_endpoint": "Gunakan path-style endpoint",
@@ -85,8 +108,39 @@
                     "mime_type_regex_placeholder": "",
                     "mime_type_regex_invalid": "",
                     "mime_type_permission_placeholder": "",
+                    "mime_type_remove": "",
+                    "mime_type_add": "",
+                    "mime_column_pattern": "",
+                    "mime_column_pattern_help": "",
+                    "mime_column_storage": "",
+                    "mime_column_storage_help": "",
+                    "mime_column_display": "",
+                    "mime_column_display_help": "",
+                    "mime_column_permission": "",
+                    "mime_column_permission_help": "",
+                    "mime_move_up": "",
+                    "mime_move_down": "",
+                    "mime_edit_pattern": "",
+                    "mime_use_simple": "",
+                    "mime_advanced_pattern": "",
+                    "mime_add_subtype": "",
+                    "mime_add_subtype_placeholder": "",
+                    "mime_remove_subtype": "",
+                    "mime_add_prompt": "",
+                    "mime_add_custom": "",
                     "title": "Preferensi umum",
                     "php_ini_values": "Value <code>php.ini</code> Anda adalah <code>post_max_size={post}</code> dan <code>upload_max_filesize={upload}</code>. Pastikan value yang ditetapkan di sini berada di bawah ambang batas ini, atau sesuaikan dengan kebutuhan Anda. Jika menggunakan <code>Nginx</code>, pastikan juga bahwa <code>client_max_body_size</code> memiliki ukuran yang cukup untuk batas maksimal yang Anda pilih."
+                },
+                "mime_presets": {
+                    "images": "",
+                    "pdf": "",
+                    "documents": "",
+                    "spreadsheets": "",
+                    "archives": "",
+                    "audio": "",
+                    "video": "",
+                    "title": "",
+                    "php_ini_values": ""
                 },
                 "resize": {
                     "max_width": "Lebar/tinggi gambar maksimum",
@@ -94,13 +148,15 @@
                     "toggle": "Ubah ukuran gambar"
                 },
                 "client_extension": {
-                    "title": "Ekstensi file yang disediakan oleh pengguna"
+                    "title": "Ekstensi file yang disediakan oleh pengguna",
+                    "placeholder": ""
                 },
                 "thumbnails": {
                     "title": "",
                     "toggle": "",
                     "webp_toggle": "",
-                    "max_width": ""
+                    "max_width": "",
+                    "quality": ""
                 },
                 "watermark": {
                     "file": "Upload gambar watermark Anda",
@@ -179,6 +235,13 @@
         },
         "forum": {
             "media_manager": "Pengelola media",
+            "display_name": {
+                "title": "",
+                "title_plural": "",
+                "help": "",
+                "insert": "",
+                "use_file_name": ""
+            },
             "buttons": {
                 "attach": "Lampirkan",
                 "upload": "Upload",
@@ -191,7 +254,8 @@
             "states": {
                 "error": "Error",
                 "loading": "Meng-upload",
-                "unauthorized": "Anda tidak diizinkan untuk men-download file"
+                "unauthorized": "Anda tidak diizinkan untuk men-download file",
+                "permission_required": ""
             },
             "validation": {
                 "max_size": "File yang memiliki ukuran lebih dari {max} kb tidak diizinkan."

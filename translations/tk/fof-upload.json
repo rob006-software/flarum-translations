@@ -31,23 +31,46 @@
                 "disable-hotlink-protection": "“Hotlink” goragy beýleki saýtlardan göçürip almalaryň öňüni alýar. Häzirki usul, csrf belligini we post idini talap edýär.\n",
                 "download_templates": "Göçürip alýan galyplar, ýüklemeleriň forumyňyzda görkezilişi, mysal üçin deslapky syn, düwmeler ýaly. Häzirki wagtda elýeterli:\n",
                 "mime_types": "",
+                "mime_order": "",
                 "resize": "Suratlaryňyzy ýüklemezden ozal ölçegini üýtgetmek isleýändigiňizi saýlaň. Iň ýokary ini we beýikligi pikselde saýlap bilersiňiz. Ölçegiň ölçegi şekilleriň aspekt derejesini saklaýar.\n",
                 "client_extension": "Adaty tertipde Uploadüklemek, MIME görnüşine esaslanýan ygtybarly faýl giňeltmesini saýlar.\nZIP ýa-da ikilik maglumatlary töweregindäki käbir faýl görnüşleri üçin bu garaşylýan ýerine derek umumy giňeltmeleriň ulanylmagyna sebäp bolup biler.\nBu ýerde söz bilen saklanjak faýl giňeltmeleriniň vergul bilen bölünen sanawyny girizip bilersiňiz.\n",
                 "thumbnails": "",
+                "thumbnail_quality": "",
                 "watermark": "Suratlaryň ýüklenende suw belliginiň goşuljakdygyny ýa-da ýokdugyny saýlaň. Suw bellikleri aşakdaky islegleriňize görä gif dällere goşulýar.\n",
-                "s3_compatible_storage": "Aşakdaky sazlamalar diňe S3 gabat gelýän ammar ulanylanda talap edilýär. AWS ulanýan bolsaňyz, olary boş goýup bilersiňiz.\n",
+                "storage_intro": "",
+                "storage_configure_another": "",
+                "storage_not_installed": "",
+                "local_cdn": "",
+                "s3_provider": "",
+                "s3_endpoint": "",
                 "s3_acl": "Uploadüklenen obýekte ulanylmaly ACL (default: hususy). Mümkin bolan gymmatlyklar üçin https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl serediň\n",
+                "s3_acl_unsupported": "",
+                "s3_path_style": "",
                 "custom_s3_url": "",
                 "s3_instance_profile": "Mysal profilinde şahsyýet maglumatlaryny ulanmak üçin açary we syry boş goýuň.\n",
-                "composer_buttons": "Adaty tertipde media dolandyryjy düwmesi we ýüklemek düwmesi görünýär. Şeýle hem diňe bir düwmäni görkezmegi saýlap bilersiňiz.\n"
+                "composer_buttons": "Adaty tertipde media dolandyryjy düwmesi we ýüklemek düwmesi görünýär. Şeýle hem diňe bir düwmäni görkezmegi saýlap bilersiňiz.\n",
+                "s3_compatible_storage": "Aşakdaky sazlamalar diňe S3 gabat gelýän ammar ulanylanda talap edilýär. AWS ulanýan bolsaňyz, olary boş goýup bilersiňiz.\n"
+            },
+            "tabs": {
+                "files": "",
+                "storage": "",
+                "images": "",
+                "advanced": "",
+                "unsaved_changes": "",
+                "unsaved_hint": ""
             },
             "labels": {
+                "storage": {
+                    "configure_another": "",
+                    "hide_unused": ""
+                },
                 "aws-s3": {
                     "bucket": "Çelek",
                     "key": "Açar",
                     "region": "Region",
                     "secret": "Syr",
                     "title": "AWS S3 ammar sazlamalary",
+                    "provider": "",
                     "advanced_title": "Ösen S3 ammar sazlamalary",
                     "endpoint": "Ahyrky nokat",
                     "use_path_style_endpoint": "Styleol stiliniň ahyrky nokadyny ulanyň",
@@ -85,8 +108,39 @@
                     "mime_type_regex_placeholder": "",
                     "mime_type_regex_invalid": "",
                     "mime_type_permission_placeholder": "",
+                    "mime_type_remove": "",
+                    "mime_type_add": "",
+                    "mime_column_pattern": "",
+                    "mime_column_pattern_help": "",
+                    "mime_column_storage": "",
+                    "mime_column_storage_help": "",
+                    "mime_column_display": "",
+                    "mime_column_display_help": "",
+                    "mime_column_permission": "",
+                    "mime_column_permission_help": "",
+                    "mime_move_up": "",
+                    "mime_move_down": "",
+                    "mime_edit_pattern": "",
+                    "mime_use_simple": "",
+                    "mime_advanced_pattern": "",
+                    "mime_add_subtype": "",
+                    "mime_add_subtype_placeholder": "",
+                    "mime_remove_subtype": "",
+                    "mime_add_prompt": "",
+                    "mime_add_custom": "",
                     "title": "Umumy saýlawlar",
                     "php_ini_values": "<code> php.ini </code> bahalaryňyz <code> post_max_size = {post} </code> we <code> upload_max_filesize = {upload} </code>. Bu ýerde goýlan bahanyň şu çäklerden aşakdadygyna göz ýetiriň ýa-da şoňa görä sazlaň. <code> Nginx </code> ulanýan bolsaňyz, <code> client_max_body_size </code> saýlan iň ýokary çägiňiz üçin ýeterlik ululykda bolmagyny üpjün ediň."
+                },
+                "mime_presets": {
+                    "images": "",
+                    "pdf": "",
+                    "documents": "",
+                    "spreadsheets": "",
+                    "archives": "",
+                    "audio": "",
+                    "video": "",
+                    "title": "",
+                    "php_ini_values": ""
                 },
                 "resize": {
                     "max_width": "Suratyň iň giňligi / beýikligi",
@@ -94,13 +148,15 @@
                     "toggle": "Suratlaryň ölçegini üýtgediň"
                 },
                 "client_extension": {
-                    "title": "Ulanyjy tarapyndan üpjün edilen faýl giňeltmeleri"
+                    "title": "Ulanyjy tarapyndan üpjün edilen faýl giňeltmeleri",
+                    "placeholder": ""
                 },
                 "thumbnails": {
                     "title": "",
                     "toggle": "",
                     "webp_toggle": "",
-                    "max_width": ""
+                    "max_width": "",
+                    "quality": ""
                 },
                 "watermark": {
                     "file": "Suw belligi suratyňyzy ýükläň",
@@ -179,6 +235,13 @@
         },
         "forum": {
             "media_manager": "Mediýa dolandyryjysy",
+            "display_name": {
+                "title": "",
+                "title_plural": "",
+                "help": "",
+                "insert": "",
+                "use_file_name": ""
+            },
             "buttons": {
                 "attach": "Berkit",
                 "upload": "Ýükle",
@@ -191,7 +254,8 @@
             "states": {
                 "error": "Ýalňyşlyk",
                 "loading": "Ýüklenilýär",
-                "unauthorized": "Size faýllary göçürip almaga rugsat berilmeýär"
+                "unauthorized": "Size faýllary göçürip almaga rugsat berilmeýär",
+                "permission_required": ""
             },
             "validation": {
                 "max_size": "{max} kb-dan ýokary ýüklemeler kabul edilmeýär."

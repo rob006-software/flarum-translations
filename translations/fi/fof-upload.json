@@ -31,23 +31,46 @@
                 "disable-hotlink-protection": "Hotlink suojaus estää latausten avaukset muilta sivuilta. Nykyinen tapa vaatii crsf tunnisteen ja viestin id:n.\n",
                 "download_templates": "Latauspohjat ovat kuinka siirretyt tiedostot näkyy foorumillasi. Esim. esikatselut, napit. Tällä hetkellä saatavilla:\n",
                 "mime_types": "Määritä yhdistämisasetukset tässä. Jokainen MIME-tyyppisäännöllinen lauseke käsitellään tietyllä latauskäsittelijällä ja latauspohjamalilla.\nVoit halutessasi antaa kullekin merkinnälle oikeuksien tunnisteen (esim. \"Kuvat\", \"Videot\") luodaksesi erillisen oikeuden oikeusruudukkoon.\nTämän avulla voit rajoittaa, mitkä ryhmät voivat ladata tiettyjä tiedostotyyppejä — sen lisäksi, että perustason \"Lataa tiedostoja\" -oikeus on aina pakollinen.\n",
+                "mime_order": "",
                 "resize": "Valitse haluatko, että kuvien koko määritetään uudelleen ennen siirtoa. Voit määrittää maksimi leveyden ja korkeuden pikseleissä. Koon muutos säilyttää kuvasuhteen.\n",
                 "client_extension": "Oletuksen siirto valitsee turvalliset päätteet perustuen MIME tyyppiin.\nJotkut tiedostotyypit perustuen ZIP tai binaariseen dataan voi johtaa geneerisen päätteen käyttöön oletetun sijaan.\nTässä voit määrittää pilkuilla erotetun listan päätteistä joita käytetään.\n",
                 "thumbnails": "Luo pienennetty esikatselukuva kuville lataushetkellä. Esikatselukuva näytetään tekstin sisällä;\nnapsauttamalla se avaa alkuperäisen täysresoluutioisen tiedoston uudessa välilehdessä. Esikatselukuvat\nvähentävät merkittävästi kaistanleveyttä ja sivun kokoa foorumeilla, joilla on paljon suuria kuvia.\n",
+                "thumbnail_quality": "",
                 "watermark": "Valitse lisätäänkä kuviin vesileima. Vesileima laitetaan muihin, kuin gif tyyppisiin kuviin alla olevien asetusten mukaan.\n",
-                "s3_compatible_storage": "Seuraavat asetukset ovat vaadittuja vain jos käytetään S3 yhteensopivaa tiedostovarastoa. Jos käytät AWS:ssää, voit jättää ne tyhjäksi.\n",
+                "storage_intro": "",
+                "storage_configure_another": "",
+                "storage_not_installed": "",
+                "local_cdn": "",
+                "s3_provider": "",
+                "s3_endpoint": "",
                 "s3_acl": "ACL mikä asetetaan siirrettyyn objektiin (oletus: private). Mahdolliset arvot: https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
+                "s3_acl_unsupported": "",
+                "s3_path_style": "",
                 "custom_s3_url": "Käytä tätä asetusta jos käytät S3-yhteensopivaa palvelua joka vaatii tietyn URL formaatin (esim. Backblaze B2) tai jos sinulla on ongelmia oletus URL formaatin kanssa. Tämä asetus ei ole välttämätön useimpien palveluiden kautta. Pidä huoli, että URL sisältää protokollan (https://) ja on oikein muotoiltu. Esimerkiksi: https://your-bucket.s3.your-region.backblazeb2.com\n",
                 "s3_instance_profile": "Jätä avain salaisuus tyhjäksi, jotta käytetään instanssin profiilin tunnuksia.\n",
-                "composer_buttons": "Oletuksena mediahallinta ja siirto napit ovat näkyvillä. Voit myös valita näytettäväksi vain yhden napin.\n"
+                "composer_buttons": "Oletuksena mediahallinta ja siirto napit ovat näkyvillä. Voit myös valita näytettäväksi vain yhden napin.\n",
+                "s3_compatible_storage": "Seuraavat asetukset ovat vaadittuja vain jos käytetään S3 yhteensopivaa tiedostovarastoa. Jos käytät AWS:ssää, voit jättää ne tyhjäksi.\n"
+            },
+            "tabs": {
+                "files": "",
+                "storage": "",
+                "images": "",
+                "advanced": "",
+                "unsaved_changes": "",
+                "unsaved_hint": ""
             },
             "labels": {
+                "storage": {
+                    "configure_another": "",
+                    "hide_unused": ""
+                },
                 "aws-s3": {
                     "bucket": "Ämpäri (bucket)",
                     "key": "Avain (key)",
                     "region": "Alue (region)",
                     "secret": "Salainen avain (secret)",
                     "title": "AWS S3 asetukset",
+                    "provider": "",
                     "advanced_title": "S3 lisäasetukset",
                     "endpoint": "Päätepiste (endpoint)",
                     "use_path_style_endpoint": "Käytä polku tyylistä päätepistettä (Use path style endpoint)",
@@ -85,8 +108,39 @@
                     "mime_type_regex_placeholder": "esim. ^image/(jpeg|png|gif)$",
                     "mime_type_regex_invalid": "Virheellinen säännöllinen lauseke (esim. tyhjät vaihtoehdot kuten ||)",
                     "mime_type_permission_placeholder": "Oikeuden tunniste (valinnainen, esim. Kuvat)",
+                    "mime_type_remove": "",
+                    "mime_type_add": "",
+                    "mime_column_pattern": "",
+                    "mime_column_pattern_help": "",
+                    "mime_column_storage": "",
+                    "mime_column_storage_help": "",
+                    "mime_column_display": "",
+                    "mime_column_display_help": "",
+                    "mime_column_permission": "",
+                    "mime_column_permission_help": "",
+                    "mime_move_up": "",
+                    "mime_move_down": "",
+                    "mime_edit_pattern": "",
+                    "mime_use_simple": "",
+                    "mime_advanced_pattern": "",
+                    "mime_add_subtype": "",
+                    "mime_add_subtype_placeholder": "",
+                    "mime_remove_subtype": "",
+                    "mime_add_prompt": "",
+                    "mime_add_custom": "",
                     "title": "Yleiset asetukset",
                     "php_ini_values": "Sinun <code>php.ini</code> määreet ovat <code>post_max_size={post}</code> ja <code>upload_max_filesize={upload}</code>. Vahvista, että tämän osion asetukset ovat näiden vähemmän, kuin nämä määreet tai määritä ne kuntoon. Jos käytät <code>Nginx</code> niin vahvista myösm että määre <code>client_max_body_size</code> on tarpeitasi vastaava."
+                },
+                "mime_presets": {
+                    "images": "",
+                    "pdf": "",
+                    "documents": "",
+                    "spreadsheets": "",
+                    "archives": "",
+                    "audio": "",
+                    "video": "",
+                    "title": "",
+                    "php_ini_values": ""
                 },
                 "resize": {
                     "max_width": "Kuvan maksimi leveys/korkeus",
@@ -94,13 +148,15 @@
                     "toggle": "Muunna kuvakoot"
                 },
                 "client_extension": {
-                    "title": "Käyttäjän toimittamat tiedostopäätteet"
+                    "title": "Käyttäjän toimittamat tiedostopäätteet",
+                    "placeholder": ""
                 },
                 "thumbnails": {
                     "title": "Kuvan esikatselukuvat",
                     "toggle": "Luo esikatselukuvat siirron yhteydessä",
                     "webp_toggle": "Muunna esikatselukuvat WebP-muotoon (suositeltu, ~30 % pienempi)",
-                    "max_width": "Esikatselukuvan enimmäisleveys (px)"
+                    "max_width": "Esikatselukuvan enimmäisleveys (px)",
+                    "quality": ""
                 },
                 "watermark": {
                     "file": "Siirrä vesileiman kuva",
@@ -179,6 +235,13 @@
         },
         "forum": {
             "media_manager": "Median hallinta",
+            "display_name": {
+                "title": "",
+                "title_plural": "",
+                "help": "",
+                "insert": "",
+                "use_file_name": ""
+            },
             "buttons": {
                 "attach": "Liitä",
                 "upload": "Siirrä",
@@ -191,7 +254,8 @@
             "states": {
                 "error": "Virhe",
                 "loading": "Siirretään",
-                "unauthorized": "Sinulla ei ole oikeutta ladata tiedostoja"
+                "unauthorized": "Sinulla ei ole oikeutta ladata tiedostoja",
+                "permission_required": ""
             },
             "validation": {
                 "max_size": "Yli {max} kb siirrot eivät ole sallittuja."

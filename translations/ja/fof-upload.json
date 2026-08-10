@@ -31,23 +31,46 @@
                 "disable-hotlink-protection": "他のサイトからのダウンロードを防止します。現在の方法では、csrfトークンと投稿IDが必要です。\n",
                 "download_templates": "表示方法は、アップロードされたファイルがフォーラムでどのように表示されるかを指定します（プレビューやボタンなど）。現在利用できる表示方法は以下のとおりです。\n",
                 "mime_types": "",
+                "mime_order": "",
                 "resize": "アップロードされる前に画像サイズを変更するかどうかを選択します。最大の幅と高さをピクセル単位で指定できます。画像サイズを変更しても、アスペクト比は維持されます。\n",
                 "client_extension": "標準の設定では、MINEタイプに応じて安全な拡張子を判別しています。\nそのため、ZIPやバイナリデータといった一部のファイルタイプでは、本来と異なる汎用拡張子として認識される場合があります。\nここでは、コンマ区切りで拡張子を入力することで、拡張子をそのまま解釈するファイルを選択します。\n",
                 "thumbnails": "",
+                "thumbnail_quality": "",
                 "watermark": "アップロード時に電子透かしを追加するかどうかを選択します。電子透かしは以下の設定に基づいてGIF以外に追加されます。\n",
-                "s3_compatible_storage": "S3互換ストレージを使用する場合は、以下の設定が必要です。AWSを使用する場合は、空欄にしてください。\n",
+                "storage_intro": "",
+                "storage_configure_another": "",
+                "storage_not_installed": "",
+                "local_cdn": "",
+                "s3_provider": "",
+                "s3_endpoint": "",
                 "s3_acl": "アップロードされたオブジェクトに適用するACLを選択します(標準：private)。利用可能な値は、以下のURLを確認してください。 https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
+                "s3_acl_unsupported": "",
+                "s3_path_style": "",
                 "custom_s3_url": "",
                 "s3_instance_profile": "インスタンス プロファイルの認証情報を使用するには、キーとシークレットを空のままにしておきます。\n",
-                "composer_buttons": "デフォルトでは、メディア 管理ボタンとアップロードボタンの両方が表示されます。ボタンを 1 つだけ表示することもできます。\n"
+                "composer_buttons": "デフォルトでは、メディア 管理ボタンとアップロードボタンの両方が表示されます。ボタンを 1 つだけ表示することもできます。\n",
+                "s3_compatible_storage": "S3互換ストレージを使用する場合は、以下の設定が必要です。AWSを使用する場合は、空欄にしてください。\n"
+            },
+            "tabs": {
+                "files": "",
+                "storage": "",
+                "images": "",
+                "advanced": "",
+                "unsaved_changes": "",
+                "unsaved_hint": ""
             },
             "labels": {
+                "storage": {
+                    "configure_another": "",
+                    "hide_unused": ""
+                },
                 "aws-s3": {
                     "bucket": "Bucket",
                     "key": "キー",
                     "region": "Region",
                     "secret": "シークレット",
                     "title": "AWS S3 ストレージ設定",
+                    "provider": "",
                     "advanced_title": "S3 ストレージ詳細設定",
                     "endpoint": "エンドポイント",
                     "use_path_style_endpoint": "path style endpointを使用",
@@ -85,8 +108,39 @@
                     "mime_type_regex_placeholder": "",
                     "mime_type_regex_invalid": "",
                     "mime_type_permission_placeholder": "",
+                    "mime_type_remove": "",
+                    "mime_type_add": "",
+                    "mime_column_pattern": "",
+                    "mime_column_pattern_help": "",
+                    "mime_column_storage": "",
+                    "mime_column_storage_help": "",
+                    "mime_column_display": "",
+                    "mime_column_display_help": "",
+                    "mime_column_permission": "",
+                    "mime_column_permission_help": "",
+                    "mime_move_up": "",
+                    "mime_move_down": "",
+                    "mime_edit_pattern": "",
+                    "mime_use_simple": "",
+                    "mime_advanced_pattern": "",
+                    "mime_add_subtype": "",
+                    "mime_add_subtype_placeholder": "",
+                    "mime_remove_subtype": "",
+                    "mime_add_prompt": "",
+                    "mime_add_custom": "",
                     "title": "一般設定",
                     "php_ini_values": "<code>php.ini</code> の値は <code>post_max_size={post}</code> と <code>upload_max_filesize={upload}</code> です。 ここで設定した値がこれらのしきい値を下回っていることを確認するか、それに応じて値を調整してください。 <code>Nginx</code> を使用する場合は、<code>client_max_body_size</code> が選択した最大制限に対して十分なサイズであることも確認してください。"
+                },
+                "mime_presets": {
+                    "images": "",
+                    "pdf": "",
+                    "documents": "",
+                    "spreadsheets": "",
+                    "archives": "",
+                    "audio": "",
+                    "video": "",
+                    "title": "",
+                    "php_ini_values": ""
                 },
                 "resize": {
                     "max_width": "画像の最大幅/高さ",
@@ -94,13 +148,15 @@
                     "toggle": "画像サイズ変更の有効化"
                 },
                 "client_extension": {
-                    "title": "ユーザーが提供するファイル拡張子"
+                    "title": "ユーザーが提供するファイル拡張子",
+                    "placeholder": ""
                 },
                 "thumbnails": {
                     "title": "",
                     "toggle": "",
                     "webp_toggle": "",
-                    "max_width": ""
+                    "max_width": "",
+                    "quality": ""
                 },
                 "watermark": {
                     "file": "電子透かしのアップロード　",
@@ -179,6 +235,13 @@
         },
         "forum": {
             "media_manager": "メディア管理",
+            "display_name": {
+                "title": "",
+                "title_plural": "",
+                "help": "",
+                "insert": "",
+                "use_file_name": ""
+            },
             "buttons": {
                 "attach": "添付",
                 "upload": "アップロード",
@@ -191,7 +254,8 @@
             "states": {
                 "error": "エラー",
                 "loading": "アップロード中",
-                "unauthorized": "ダウンロードする権限がありません"
+                "unauthorized": "ダウンロードする権限がありません",
+                "permission_required": ""
             },
             "validation": {
                 "max_size": "{max} kb を超えるアップロードはできません。"

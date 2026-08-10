@@ -31,23 +31,46 @@
                 "disable-hotlink-protection": "Bảo vệ hotlink ngăn chặn việc mở các bản tải xuống từ các trang khác. Phương pháp hiện tại yêu cầu mã thông báo csrf và id bài đăng.\n",
                 "download_templates": "Các mẫu tải xuống là cách các nội dung tải lên được hiển thị trên diễn đàn của bạn, ví dụ như các bản xem trước, các nút. Hiện đang có sẵn:\n",
                 "mime_types": "",
+                "mime_order": "",
                 "resize": "Chọn xem bạn có muốn thay đổi kích thước hình ảnh của mình trước khi tải lên hay không. Bạn có thể chọn chiều rộng và chiều cao tối đa, tính bằng pixel. Quá trình thay đổi kích thước giữ nguyên tỷ lệ khung hình của hình ảnh.\n",
                 "client_extension": "Theo mặc định, Tải lên sẽ chọn một phần mở rộng tệp an toàn dựa trên loại MIME.\nĐối với một số loại tệp dựa trên dữ liệu ZIP hoặc nhị phân, điều này có thể dẫn đến việc sử dụng các phần mở rộng chung thay vì phần mở rộng như mong đợi.\nTại đây, bạn có thể nhập danh sách các phần mở rộng tệp được phân tách bằng dấu phẩy sẽ được giữ nguyên văn.\n",
                 "thumbnails": "",
+                "thumbnail_quality": "",
                 "watermark": "Chọn xem hình ảnh có được thêm hình mờ trong quá trình tải lên hay không. Hình mờ được thêm vào không phải gif dựa trên tùy chọn của bạn bên dưới.\n",
-                "s3_compatible_storage": "Các cài đặt sau chỉ được yêu cầu khi sử dụng bộ lưu trữ tương thích S3. Nếu bạn sử dụng AWS, bạn có thể để trống chúng.\n",
+                "storage_intro": "",
+                "storage_configure_another": "",
+                "storage_not_installed": "",
+                "local_cdn": "",
+                "s3_provider": "",
+                "s3_endpoint": "",
                 "s3_acl": "ACL sẽ được áp dụng cho đối tượng được tải lên (mặc định: private). Để biết các giá trị có thể, hãy xem https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
+                "s3_acl_unsupported": "",
+                "s3_path_style": "",
                 "custom_s3_url": "Sử dụng cài đặt này nếu bạn đang sử dụng dịch vụ tương thích S3 yêu cầu định dạng URL cụ thể (ví dụ như Backblaze B2), hoặc nếu bạn gặp vấn đề với định dạng URL mặc định. Điều này thường không cần thiết đối với hầu hết các dịch vụ. Đảm bảo URL bao gồm giao thức (https://) và được định dạng đúng. Ví dụ: https://your-bucket.s3.your-region.backblazeb2.com\n",
                 "s3_instance_profile": "Để trống khóa và bí mật để sử dụng thông tin đăng nhập trong hồ sơ cá thể.\n",
-                "composer_buttons": "Theo mặc định, cả nút trình quản lý phương tiện và nút tải lên đều hiển thị. Bạn cũng có thể chọn chỉ hiển thị một nút.\n"
+                "composer_buttons": "Theo mặc định, cả nút trình quản lý phương tiện và nút tải lên đều hiển thị. Bạn cũng có thể chọn chỉ hiển thị một nút.\n",
+                "s3_compatible_storage": "Các cài đặt sau chỉ được yêu cầu khi sử dụng bộ lưu trữ tương thích S3. Nếu bạn sử dụng AWS, bạn có thể để trống chúng.\n"
+            },
+            "tabs": {
+                "files": "",
+                "storage": "",
+                "images": "",
+                "advanced": "",
+                "unsaved_changes": "",
+                "unsaved_hint": ""
             },
             "labels": {
+                "storage": {
+                    "configure_another": "",
+                    "hide_unused": ""
+                },
                 "aws-s3": {
                     "bucket": "Bucket",
                     "key": "Mã khóa",
                     "region": "Khu vực",
                     "secret": "Mã khoá bí mật",
                     "title": "Thiết lập lưu trữ AWS S3",
+                    "provider": "",
                     "advanced_title": "Thiết lập lưu trữ S3 nâng cao",
                     "endpoint": "Điểm cuối",
                     "use_path_style_endpoint": "Sử dụng điểm cuối kiểu đường dẫn",
@@ -85,8 +108,39 @@
                     "mime_type_regex_placeholder": "",
                     "mime_type_regex_invalid": "",
                     "mime_type_permission_placeholder": "",
+                    "mime_type_remove": "",
+                    "mime_type_add": "",
+                    "mime_column_pattern": "",
+                    "mime_column_pattern_help": "",
+                    "mime_column_storage": "",
+                    "mime_column_storage_help": "",
+                    "mime_column_display": "",
+                    "mime_column_display_help": "",
+                    "mime_column_permission": "",
+                    "mime_column_permission_help": "",
+                    "mime_move_up": "",
+                    "mime_move_down": "",
+                    "mime_edit_pattern": "",
+                    "mime_use_simple": "",
+                    "mime_advanced_pattern": "",
+                    "mime_add_subtype": "",
+                    "mime_add_subtype_placeholder": "",
+                    "mime_remove_subtype": "",
+                    "mime_add_prompt": "",
+                    "mime_add_custom": "",
                     "title": "Cài đặt chung",
                     "php_ini_values": "Các giá trị trong <code>php.ini</code> của bạn là <code>post_max_size={post}</code> và <code>upload_max_filesize={upload}</code>. Đảm bảo giá trị được đặt ở đây thấp hơn các ngưỡng này hoặc điều chỉnh chúng cho phù hợp. Nếu sử dụng <code>Nginx</code>, thì cũng đảm bảo <code>client_max_body_size</code> có đủ kích thước cho giới hạn tối đa bạn đã nhập."
+                },
+                "mime_presets": {
+                    "images": "",
+                    "pdf": "",
+                    "documents": "",
+                    "spreadsheets": "",
+                    "archives": "",
+                    "audio": "",
+                    "video": "",
+                    "title": "",
+                    "php_ini_values": ""
                 },
                 "resize": {
                     "max_width": "Chiều rộng/chiều cao hình ảnh tối đa",
@@ -94,13 +148,15 @@
                     "toggle": "Thay đổi kích thước hình ảnh"
                 },
                 "client_extension": {
-                    "title": "Phần mở rộng tệp do người dùng cung cấp"
+                    "title": "Phần mở rộng tệp do người dùng cung cấp",
+                    "placeholder": ""
                 },
                 "thumbnails": {
                     "title": "",
                     "toggle": "",
                     "webp_toggle": "",
-                    "max_width": ""
+                    "max_width": "",
+                    "quality": ""
                 },
                 "watermark": {
                     "file": "Tải lên hình ảnh đóng dấu của bạn",
@@ -179,6 +235,13 @@
         },
         "forum": {
             "media_manager": "Quản lý phương tiện",
+            "display_name": {
+                "title": "",
+                "title_plural": "",
+                "help": "",
+                "insert": "",
+                "use_file_name": ""
+            },
             "buttons": {
                 "attach": "Đính kèm",
                 "upload": "Tải lên",
@@ -191,7 +254,8 @@
             "states": {
                 "error": "Lỗi",
                 "loading": "Đang tải lên",
-                "unauthorized": "Bạn không được phép tải xuống tệp"
+                "unauthorized": "Bạn không được phép tải xuống tệp",
+                "permission_required": ""
             },
             "validation": {
                 "max_size": "Kích thước tệp trên {max} kb không được chấp nhận."

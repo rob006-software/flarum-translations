@@ -31,23 +31,46 @@
                 "disable-hotlink-protection": "熱鏈保護可防止從其他網站下載。目前的方式需求 csrf token 及貼文 ID。\n",
                 "download_templates": "下載模板是上載的檔案如何在論壇上顯示 比如預覽、按鈕等，目前支援的有：\n",
                 "mime_types": "",
+                "mime_order": "",
                 "resize": "您可以選擇是否在上載圖片前調整圖片大小，您也可以設定圖片最大長寬（px），圖片大小調整將會保持圖片長寬比例。\n",
                 "client_extension": "預設情況下，上傳器將根據 MIME 類型選擇一個安全的檔案擴充套件名。\n對於某些基於 ZIP 或二進制數據的檔案類型，這可能導致使用不正確的通用擴充套件名。\n在這裡，您可以輸入一個逗號分隔的檔案擴充套件名列表，該列表將被逐字保留。\n",
                 "thumbnails": "",
+                "thumbnail_quality": "",
                 "watermark": "在圖片上載時新增水印，僅支援非 gif 圖片。\n",
-                "s3_compatible_storage": "僅在使用 S3 兼容存儲時才需要以下設置。 如果您使用 AWS，您可以將它們留空。\n",
+                "storage_intro": "",
+                "storage_configure_another": "",
+                "storage_not_installed": "",
+                "local_cdn": "",
+                "s3_provider": "",
+                "s3_endpoint": "",
                 "s3_acl": "應用於上傳對象的 ACL（預設：私有）。 有關可能的值，請參閱 https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
+                "s3_acl_unsupported": "",
+                "s3_path_style": "",
                 "custom_s3_url": "如果您使用需要特定 URL 格式（例如 Backblaze B2）的 S3 相容服務，或者您遇到預設 URL 格式問題，請使用此設定。對於大多數服務來說，通常不需要此設定。確保 URL 包含協定 (https://) 並且格式正確。範例：https://your-bucket.s3.your-region.backblazeb2.com\n",
                 "s3_instance_profile": "公鑰和秘鑰留空時，可為實例單獨配置。\n",
-                "composer_buttons": "預設情況下，媒體管理按鈕和上傳按鈕皆可見。您可以選擇只顯示其中一個按鈕。\n"
+                "composer_buttons": "預設情況下，媒體管理按鈕和上傳按鈕皆可見。您可以選擇只顯示其中一個按鈕。\n",
+                "s3_compatible_storage": "僅在使用 S3 兼容存儲時才需要以下設置。 如果您使用 AWS，您可以將它們留空。\n"
+            },
+            "tabs": {
+                "files": "",
+                "storage": "",
+                "images": "",
+                "advanced": "",
+                "unsaved_changes": "",
+                "unsaved_hint": ""
             },
             "labels": {
+                "storage": {
+                    "configure_another": "",
+                    "hide_unused": ""
+                },
                 "aws-s3": {
                     "bucket": "存儲空間（Bucket）",
                     "key": "Key",
                     "region": "區域",
                     "secret": "Secret",
                     "title": "AWS S3 存儲設定",
+                    "provider": "",
                     "advanced_title": "進階 S3 存儲設置",
                     "endpoint": "訪問域名（Endpoint）",
                     "use_path_style_endpoint": "使用 path-style 訪問域名",
@@ -85,8 +108,39 @@
                     "mime_type_regex_placeholder": "",
                     "mime_type_regex_invalid": "",
                     "mime_type_permission_placeholder": "",
+                    "mime_type_remove": "",
+                    "mime_type_add": "",
+                    "mime_column_pattern": "",
+                    "mime_column_pattern_help": "",
+                    "mime_column_storage": "",
+                    "mime_column_storage_help": "",
+                    "mime_column_display": "",
+                    "mime_column_display_help": "",
+                    "mime_column_permission": "",
+                    "mime_column_permission_help": "",
+                    "mime_move_up": "",
+                    "mime_move_down": "",
+                    "mime_edit_pattern": "",
+                    "mime_use_simple": "",
+                    "mime_advanced_pattern": "",
+                    "mime_add_subtype": "",
+                    "mime_add_subtype_placeholder": "",
+                    "mime_remove_subtype": "",
+                    "mime_add_prompt": "",
+                    "mime_add_custom": "",
                     "title": "偏好設定",
                     "php_ini_values": "目前伺服器 <code>php.ini</code> 配置上限為 <code>post_max_size={post}</code>，<code>upload_max_filesize={upload}</code>。請確保上方設置的值小於上限，否則請提高上限。若您使用 <code>Nginx</code> 伺服器，請確保 <code>client_max_body_size</code> 高於目前設置的值。"
+                },
+                "mime_presets": {
+                    "images": "",
+                    "pdf": "",
+                    "documents": "",
+                    "spreadsheets": "",
+                    "archives": "",
+                    "audio": "",
+                    "video": "",
+                    "title": "",
+                    "php_ini_values": ""
                 },
                 "resize": {
                     "max_width": "最大圖片寬度",
@@ -94,13 +148,15 @@
                     "toggle": "縮放圖片"
                 },
                 "client_extension": {
-                    "title": "用戶自定義檔案擴充套件名"
+                    "title": "用戶自定義檔案擴充套件名",
+                    "placeholder": ""
                 },
                 "thumbnails": {
                     "title": "",
                     "toggle": "",
                     "webp_toggle": "",
-                    "max_width": ""
+                    "max_width": "",
+                    "quality": ""
                 },
                 "watermark": {
                     "file": "上載水印圖片",
@@ -179,6 +235,13 @@
         },
         "forum": {
             "media_manager": "媒體管理器",
+            "display_name": {
+                "title": "",
+                "title_plural": "",
+                "help": "",
+                "insert": "",
+                "use_file_name": ""
+            },
             "buttons": {
                 "attach": "上載",
                 "upload": "上傳",
@@ -191,7 +254,8 @@
             "states": {
                 "error": "錯誤",
                 "loading": "正在上載",
-                "unauthorized": "您未被允許下載檔案"
+                "unauthorized": "您未被允許下載檔案",
+                "permission_required": ""
             },
             "validation": {
                 "max_size": "檔案需小於 {max} KB。"

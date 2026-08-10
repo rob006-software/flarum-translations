@@ -31,23 +31,46 @@
                 "disable-hotlink-protection": "La protection contre les liens hypertextes automatiques empêche l'ouverture des téléchargements à partir d'autres sites. La méthode actuelle nécessite un jeton CSRF et un identifiant de publication.\n",
                 "download_templates": "Les modèles de téléchargement indiquent comment les téléchargements sont affichés sur votre forum, comme par exemple des prévisualisations ou des boutons. Actuellement disponible :\n",
                 "mime_types": "Veuillez configurer votre cartographie ici. Chaque expression régulière de type MIME sera traitée par un adaptateur de téléchargement et un modèle de téléchargement spécifiques.\nVous pouvez également attribuer un libellé d'autorisation à chaque entrée (p. ex. : « Images », « Vidéos ») afin de créer une autorisation dédiée dans la grille d'autorisations.\nCela vous permet de restreindre les groupes autorisés à télécharger des types de fichiers spécifiques, en plus de l'autorisation de base « Télécharger des fichiers » qui est toujours requise.\n",
+                "mime_order": "",
                 "resize": "Décidez si vous souhaitez redimensionner vos images avant qu'elles ne soient téléchargées. Vous pouvez indiquer une largeur et une hauteur maximales, en pixels. Le processus de redimensionnement conserve le rapport hauteur/largeur des images.\n",
                 "client_extension": "Par défaut, l'extension Upload sélectionnera une extension de fichier sûre en fonction du type MIME.\nPour certains types de fichiers basés sur des données ZIP ou binaires, cela peut entraîner l'utilisation d'extensions génériques au lieu de l'extension attendue.\nVous pouvez saisir ici une liste d'extensions de fichiers, séparées par des virgules, qui seront conservées mot pour mot.\n",
                 "thumbnails": "Génère une miniature pour les images au moment du transfert. La miniature est affichée ;\nen cliquant dessus, le fichier original en pleine résolution s'ouvre dans un nouvel onglet.\nLes miniatures réduisent considérablement la bande passante et le poids des pages pour les forums contenant de nombreuses images volumineuses.\n",
+                "thumbnail_quality": "",
                 "watermark": "Décidez si un filigrane sera ajouté aux images lors du téléchargement. Les filigranes sont ajoutés aux images qui ne sont pas des GIFS en fonction de vos préférences définies ci-dessous.\n",
-                "s3_compatible_storage": "Les paramètres suivants ne sont obligatoires que si vous utilisez un stockage compatible S3. Si vous utilisez AWS, vous pouvez les laisser vides.\n",
+                "storage_intro": "",
+                "storage_configure_another": "",
+                "storage_not_installed": "",
+                "local_cdn": "",
+                "s3_provider": "",
+                "s3_endpoint": "",
                 "s3_acl": "L'ACL qui doit être appliquée à l'objet téléchargé (par défaut : privé). Pour les valeurs possibles, veuillez consulter https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
+                "s3_acl_unsupported": "",
+                "s3_path_style": "",
                 "custom_s3_url": "Utilisez ce paramètre si vous utilisez un service compatible S3 qui nécessite un format d'URL spécifique (p. ex. Backblaze B2) ou si vous rencontrez des problèmes avec le format d'URL par défaut. Ce paramètre n'est généralement pas nécessaire pour la plupart des services. Assurez-vous que l'URL inclut le protocole (https://) et qu'elle est correctement formatée. Par exemple : https://your-bucket.s3.your-region.backblazeb2.com\n",
                 "s3_instance_profile": "Laissez la clé et la clé secrète vides pour utiliser les informations d'identification dans le profil de l'instance.\n",
-                "composer_buttons": "Par défaut, le bouton du gestionnaire de médias et le bouton de téléchargement sont tous deux visibles. Vous pouvez également décider de n'afficher qu'un seul bouton.\n"
+                "composer_buttons": "Par défaut, le bouton du gestionnaire de médias et le bouton de téléchargement sont tous deux visibles. Vous pouvez également décider de n'afficher qu'un seul bouton.\n",
+                "s3_compatible_storage": "Les paramètres suivants ne sont obligatoires que si vous utilisez un stockage compatible S3. Si vous utilisez AWS, vous pouvez les laisser vides.\n"
+            },
+            "tabs": {
+                "files": "",
+                "storage": "",
+                "images": "",
+                "advanced": "",
+                "unsaved_changes": "",
+                "unsaved_hint": ""
             },
             "labels": {
+                "storage": {
+                    "configure_another": "",
+                    "hide_unused": ""
+                },
                 "aws-s3": {
                     "bucket": "Espace de stockage mémoire",
                     "key": "Clé",
                     "region": "Région",
                     "secret": "Clé secrète",
                     "title": "Paramètres de stockage AWS S3",
+                    "provider": "",
                     "advanced_title": "Paramètres avancés de stockage S3",
                     "endpoint": "Point d'accès",
                     "use_path_style_endpoint": "Utiliser un point d'entrée de type chemin",
@@ -85,8 +108,39 @@
                     "mime_type_regex_placeholder": "p. ex. ^image/(jpeg|png|gif)$",
                     "mime_type_regex_invalid": "Expression régulière non valide",
                     "mime_type_permission_placeholder": "Libellé d'autorisation (facultatif, p. ex. Images)",
+                    "mime_type_remove": "",
+                    "mime_type_add": "",
+                    "mime_column_pattern": "",
+                    "mime_column_pattern_help": "",
+                    "mime_column_storage": "",
+                    "mime_column_storage_help": "",
+                    "mime_column_display": "",
+                    "mime_column_display_help": "",
+                    "mime_column_permission": "",
+                    "mime_column_permission_help": "",
+                    "mime_move_up": "",
+                    "mime_move_down": "",
+                    "mime_edit_pattern": "",
+                    "mime_use_simple": "",
+                    "mime_advanced_pattern": "",
+                    "mime_add_subtype": "",
+                    "mime_add_subtype_placeholder": "",
+                    "mime_remove_subtype": "",
+                    "mime_add_prompt": "",
+                    "mime_add_custom": "",
                     "title": "Préférences générales",
                     "php_ini_values": "Vos valeurs <code>php.ini</code> sont <code>post_max_size={post}</code> et <code>upload_max_filesize={upload}</code>. Assurez-vous que la valeur définie ici est inférieure à ces seuils ou ajustez-les en conséquence. Si vous utilisez <code>Nginx</code>, assurez-vous également que <code>client_max_body_size</code> est d'une taille suffisante pour la limite maximale choisie."
+                },
+                "mime_presets": {
+                    "images": "",
+                    "pdf": "",
+                    "documents": "",
+                    "spreadsheets": "",
+                    "archives": "",
+                    "audio": "",
+                    "video": "",
+                    "title": "",
+                    "php_ini_values": ""
                 },
                 "resize": {
                     "max_width": "Largeur/hauteur maximale de l'image",
@@ -94,13 +148,15 @@
                     "toggle": "Redimensionner les images"
                 },
                 "client_extension": {
-                    "title": "Extensions de fichiers fournies par l'utilisateur"
+                    "title": "Extensions de fichiers fournies par l'utilisateur",
+                    "placeholder": ""
                 },
                 "thumbnails": {
                     "title": "Miniatures",
                     "toggle": "Générer des miniatures lors du transfert",
                     "webp_toggle": "Encoder les miniatures au format WebP (recommandé, ~30% plus petit)",
-                    "max_width": "Largeur maximale de la miniature (px)"
+                    "max_width": "Largeur maximale de la miniature (px)",
+                    "quality": ""
                 },
                 "watermark": {
                     "file": "Transférer votre image de filigrane",
@@ -179,6 +235,13 @@
         },
         "forum": {
             "media_manager": "Gestionnaire de médias",
+            "display_name": {
+                "title": "",
+                "title_plural": "",
+                "help": "",
+                "insert": "",
+                "use_file_name": ""
+            },
             "buttons": {
                 "attach": "Joindre",
                 "upload": "Transférer",
@@ -191,7 +254,8 @@
             "states": {
                 "error": "Erreur",
                 "loading": "Transfert",
-                "unauthorized": "Vous n'êtes pas autorisé à télécharger des fichiers"
+                "unauthorized": "Vous n'êtes pas autorisé à télécharger des fichiers",
+                "permission_required": ""
             },
             "validation": {
                 "max_size": "Les téléchargements de plus de {max} kb ne sont pas acceptés."

@@ -31,23 +31,46 @@
                 "disable-hotlink-protection": "La protezione da hotlink impedisce l'apertura dei dowload da altri siti. Il metodo attuale richiede un token csrf e id del post.\n",
                 "download_templates": "I modelli di scaricamento servono per cambiare il modo di come i file vengono mostrati sul tuo forum, es come le anteprime e bottoni. Attualmente sono disponibili:\n",
                 "mime_types": "",
+                "mime_order": "",
                 "resize": "Qui puoi decidere se ridimensionare le tue immagini prima che vengano caricate. Puoi impostare le dimensioni massime per larghezza e altezza, in pixel. Il processo di ridimensionamento manterrà il corretto rapporto tra i due lati.\n",
                 "client_extension": "Per impostazione predefinita, il caricamento sceglierà un'estensione di file sicura in base al tipo MIME.\nPer alcuni tipi di file basati su ZIP o dati binari, ciò può comportare l'utilizzo di estensioni generiche invece di quelle previste.\nQui puoi inserire un elenco separato da virgole di estensioni di file che verranno mantenute alla lettera.\n",
                 "thumbnails": "",
+                "thumbnail_quality": "",
                 "watermark": "Qui puoi decidere se aggiungere un Watermark alle tue immagini. Il Watermark sarà aggiunto a tutte le immagini non GIF seguendo le impostazioni che inserirai qui sotto\n",
-                "s3_compatible_storage": "Le seguenti impostazioni sono necessarie solo quando si utilizza l'archiviazione compatibile S3. Se utilizzi AWS, puoi lasciarli vuoti.\n",
+                "storage_intro": "",
+                "storage_configure_another": "",
+                "storage_not_installed": "",
+                "local_cdn": "",
+                "s3_provider": "",
+                "s3_endpoint": "",
                 "s3_acl": "L'ACL da applicare all'oggetto caricato (predefinito: privato). Per i valori possibili, vedere https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
+                "s3_acl_unsupported": "",
+                "s3_path_style": "",
                 "custom_s3_url": "",
                 "s3_instance_profile": "Lascia la chiave e il segreto vuoti per utilizzare le credenziali nel profilo dell'istanza.\n",
-                "composer_buttons": "Per impostazione predefinita, sono visibili sia il pulsante del gestore multimediale che il pulsante di caricamento. Puoi anche scegliere di visualizzare un solo pulsante.\n"
+                "composer_buttons": "Per impostazione predefinita, sono visibili sia il pulsante del gestore multimediale che il pulsante di caricamento. Puoi anche scegliere di visualizzare un solo pulsante.\n",
+                "s3_compatible_storage": "Le seguenti impostazioni sono necessarie solo quando si utilizza l'archiviazione compatibile S3. Se utilizzi AWS, puoi lasciarli vuoti.\n"
+            },
+            "tabs": {
+                "files": "",
+                "storage": "",
+                "images": "",
+                "advanced": "",
+                "unsaved_changes": "",
+                "unsaved_hint": ""
             },
             "labels": {
+                "storage": {
+                    "configure_another": "",
+                    "hide_unused": ""
+                },
                 "aws-s3": {
                     "bucket": "Cestino",
                     "key": "Chiave",
                     "region": "Regione",
                     "secret": "Codice segreto",
                     "title": "Impostazioni AWS S3",
+                    "provider": "",
                     "advanced_title": "Impostazioni di archiviazione S3 avanzate",
                     "endpoint": "Endpoint",
                     "use_path_style_endpoint": "Usa path style endpoint",
@@ -85,8 +108,39 @@
                     "mime_type_regex_placeholder": "",
                     "mime_type_regex_invalid": "",
                     "mime_type_permission_placeholder": "",
+                    "mime_type_remove": "",
+                    "mime_type_add": "",
+                    "mime_column_pattern": "",
+                    "mime_column_pattern_help": "",
+                    "mime_column_storage": "",
+                    "mime_column_storage_help": "",
+                    "mime_column_display": "",
+                    "mime_column_display_help": "",
+                    "mime_column_permission": "",
+                    "mime_column_permission_help": "",
+                    "mime_move_up": "",
+                    "mime_move_down": "",
+                    "mime_edit_pattern": "",
+                    "mime_use_simple": "",
+                    "mime_advanced_pattern": "",
+                    "mime_add_subtype": "",
+                    "mime_add_subtype_placeholder": "",
+                    "mime_remove_subtype": "",
+                    "mime_add_prompt": "",
+                    "mime_add_custom": "",
                     "title": "Preferenze generali",
                     "php_ini_values": "I tuoi valori <code>php.ini</code> sono <code>post_max_size={post}</code> e <code>upload_max_filesize={upload}</code>. Assicurarsi che il valore impostato qui sia inferiore a queste soglie o regolarle di conseguenza. Se utilizzi <code>Nginx</code>, assicurati anche che <code>client_max_body_size</code> sia di dimensioni sufficienti per il limite massimo scelto."
+                },
+                "mime_presets": {
+                    "images": "",
+                    "pdf": "",
+                    "documents": "",
+                    "spreadsheets": "",
+                    "archives": "",
+                    "audio": "",
+                    "video": "",
+                    "title": "",
+                    "php_ini_values": ""
                 },
                 "resize": {
                     "max_width": "Larghezza massima delle immagini",
@@ -94,13 +148,15 @@
                     "toggle": "Ridimensiona immagini"
                 },
                 "client_extension": {
-                    "title": "Estensioni di file fornite dall'utente"
+                    "title": "Estensioni di file fornite dall'utente",
+                    "placeholder": ""
                 },
                 "thumbnails": {
                     "title": "",
                     "toggle": "",
                     "webp_toggle": "",
-                    "max_width": ""
+                    "max_width": "",
+                    "quality": ""
                 },
                 "watermark": {
                     "file": "Carica filigrana (watermark)",
@@ -179,6 +235,13 @@
         },
         "forum": {
             "media_manager": "Media manager",
+            "display_name": {
+                "title": "",
+                "title_plural": "",
+                "help": "",
+                "insert": "",
+                "use_file_name": ""
+            },
             "buttons": {
                 "attach": "Allega",
                 "upload": "Carica",
@@ -191,7 +254,8 @@
             "states": {
                 "error": "Errore",
                 "loading": "Caricamento...",
-                "unauthorized": "Non hai permessi per scaricare file"
+                "unauthorized": "Non hai permessi per scaricare file",
+                "permission_required": ""
             },
             "validation": {
                 "max_size": "I caricamenti superiori a {max} kb non sono accettati."

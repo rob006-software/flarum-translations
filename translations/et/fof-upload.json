@@ -31,23 +31,46 @@
                 "disable-hotlink-protection": "Otse linkimise kaitse takistab pildi lisamist teistele saitidele. Praegune meetod nõuab csrf kontrollkoodi ja postituse ID-d.\n",
                 "download_templates": "Allalaadimise mallid, mida kasutatakse üleslaadimiste näitamiseks sinu foorumis, nt eelvaated, nupud. Praegu on saadaval:\n",
                 "mime_types": "",
+                "mime_order": "",
                 "resize": "Vali kas sa soovid enne piltide üleslaadimist nende suurust muuta. Saad valida maksimaalse kõrguse ja laiuse pikslites. Suuruse muutmine säilitab pildi külgede suhte.\n",
                 "client_extension": "Vaikimisi valib lisaprogramm turvalise faililaiendi vastavalt failitüübile.\nMõningate ZIP-il põhinevate failitüüpide puhul võib selle tulemusena kasutada valet faililaiendit.\nSiin saad määrata komadega eraldatud nimekirja faililaienditest, mis säilitatakse nii nagu nad on.\n",
                 "thumbnails": "",
+                "thumbnail_quality": "",
                 "watermark": "Vali kas piltidele lisatakse üleslaadimisel ka vesipilt. Vesipildid lisatakse kõigile piltidele välja arvatud GIF-id.\n",
-                "s3_compatible_storage": "Järgnevad seaded on vajalikud ainult siis, kui kasutad S3-ga ühilduvat säilitusteenust. Kui kasutad AWS-i, siis võid need tühjaks jätta.\n",
+                "storage_intro": "",
+                "storage_configure_another": "",
+                "storage_not_installed": "",
+                "local_cdn": "",
+                "s3_provider": "",
+                "s3_endpoint": "",
                 "s3_acl": "ACL, mida peaks rakendama üleslaaditud objektile (vaikimisi: privaatne). Võimalikke väärtuseid näed lingilt https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
+                "s3_acl_unsupported": "",
+                "s3_path_style": "",
                 "custom_s3_url": "Kasuta seda seadet, kui kasutad S3-ga ühilduvat teenust, mis nõuab konkreetset URL-i formaati (nt., Backblaze B2) või kui sul on probleeme vaikimisi URL-i vorminguga. Need seaded pole enamike teenuste jaoks vajalikud. Veendu, et sinu URL-is oleks ka protokoll (https://) ja, et see oleks korrektselt vormindatud. Näide: https://your-bucket.s3.your-region.backblazeb2.com\n",
                 "s3_instance_profile": "Jäta võti ja salasõna tühjaks et kasutada profiilis olevaid kasutajaandmeid.\n",
-                "composer_buttons": "Vaikimisi näidatakse nii failihalduri nuppu kui ka üleslaadimise nuppu. Võid ka valida, kas soovid näidata ainult ühte neist nuppudest.\n"
+                "composer_buttons": "Vaikimisi näidatakse nii failihalduri nuppu kui ka üleslaadimise nuppu. Võid ka valida, kas soovid näidata ainult ühte neist nuppudest.\n",
+                "s3_compatible_storage": "Järgnevad seaded on vajalikud ainult siis, kui kasutad S3-ga ühilduvat säilitusteenust. Kui kasutad AWS-i, siis võid need tühjaks jätta.\n"
+            },
+            "tabs": {
+                "files": "",
+                "storage": "",
+                "images": "",
+                "advanced": "",
+                "unsaved_changes": "",
+                "unsaved_hint": ""
             },
             "labels": {
+                "storage": {
+                    "configure_another": "",
+                    "hide_unused": ""
+                },
                 "aws-s3": {
                     "bucket": "Korv",
                     "key": "Võti",
                     "region": "Regioon",
                     "secret": "Salasõna",
                     "title": "AWS S3 salvestamise seaded",
+                    "provider": "",
                     "advanced_title": "S3 säilituskoha lisaseaded",
                     "endpoint": "Lõpp-punkt",
                     "use_path_style_endpoint": "Kasuta asukoha-stiilis lõpp-punkti",
@@ -85,8 +108,39 @@
                     "mime_type_regex_placeholder": "",
                     "mime_type_regex_invalid": "",
                     "mime_type_permission_placeholder": "",
+                    "mime_type_remove": "",
+                    "mime_type_add": "",
+                    "mime_column_pattern": "",
+                    "mime_column_pattern_help": "",
+                    "mime_column_storage": "",
+                    "mime_column_storage_help": "",
+                    "mime_column_display": "",
+                    "mime_column_display_help": "",
+                    "mime_column_permission": "",
+                    "mime_column_permission_help": "",
+                    "mime_move_up": "",
+                    "mime_move_down": "",
+                    "mime_edit_pattern": "",
+                    "mime_use_simple": "",
+                    "mime_advanced_pattern": "",
+                    "mime_add_subtype": "",
+                    "mime_add_subtype_placeholder": "",
+                    "mime_remove_subtype": "",
+                    "mime_add_prompt": "",
+                    "mime_add_custom": "",
                     "title": "Üldised eelistused",
                     "php_ini_values": "Sinu <code>php.ini</code> väärtused on <code>post_max_size={post}</code> ja <code>upload_max_filesize={upload}</code>. Veendu, et siin määratud suurused oleksid väiksemad, kui need suurused või siis kohanda neid seadeid vastavalt oma vajadustele. Kui kasutad <code>Nginx</code>-i, siis veendu, et seade <code>client_max_body_size</code> suurus oleks sinu maksimaalse suurusega kooskõlas ja sinu vajadustele vastav."
+                },
+                "mime_presets": {
+                    "images": "",
+                    "pdf": "",
+                    "documents": "",
+                    "spreadsheets": "",
+                    "archives": "",
+                    "audio": "",
+                    "video": "",
+                    "title": "",
+                    "php_ini_values": ""
                 },
                 "resize": {
                     "max_width": "Maksimaalne pildi laius/kõrgus",
@@ -94,13 +148,15 @@
                     "toggle": "Muuda piltide suurust"
                 },
                 "client_extension": {
-                    "title": "Kasutaja lisatud failide laiendid"
+                    "title": "Kasutaja lisatud failide laiendid",
+                    "placeholder": ""
                 },
                 "thumbnails": {
                     "title": "",
                     "toggle": "",
                     "webp_toggle": "",
-                    "max_width": ""
+                    "max_width": "",
+                    "quality": ""
                 },
                 "watermark": {
                     "file": "Laadi vesipilt üles",
@@ -179,6 +235,13 @@
         },
         "forum": {
             "media_manager": "Failihaldur",
+            "display_name": {
+                "title": "",
+                "title_plural": "",
+                "help": "",
+                "insert": "",
+                "use_file_name": ""
+            },
             "buttons": {
                 "attach": "Lisa fail",
                 "upload": "Laadi üles",
@@ -191,7 +254,8 @@
             "states": {
                 "error": "Viga",
                 "loading": "Üleslaadimine",
-                "unauthorized": "Sul pole lubatud faile alla laadida"
+                "unauthorized": "Sul pole lubatud faile alla laadida",
+                "permission_required": ""
             },
             "validation": {
                 "max_size": "Üleslaadimisi, mis on suuremad kui {max} kb ei aktsepteerita."

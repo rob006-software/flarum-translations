@@ -31,23 +31,46 @@
                 "disable-hotlink-protection": "Der Hotlink-Schutz verhindert das Öffnen von Downloads auf anderen Seiten. Die aktuelle Methode erfordert ein csrf-Token und eine Post-ID.\n",
                 "download_templates": "Downloadvorlagen sind die Art und Weise, wie Uploads in deinem Forum angezeigt werden, z.B. als Vorschaubilder oder Buttons. Derzeit verfügbar:\n",
                 "mime_types": "Bitte konfigurieren Sie hier Ihre Zuordnung. Jeder reguläre Ausdruck für einen MIME-Typ wird von einem bestimmten Upload-Adapter und einer bestimmten Download-Vorlage verarbeitet.\nOptional können Sie jedem Eintrag eine Berechtigungsbezeichnung (z. B. „Bilder“, „Videos“) zuweisen, um eine eigene Berechtigung im Berechtigungsraster zu erstellen.\nAuf diese Weise können Sie einschränken, welche Gruppen bestimmte Dateitypen hochladen dürfen – zusätzlich zu der grundlegenden Berechtigung „Dateien hochladen“, die immer erforderlich ist.\n",
+                "mime_order": "",
                 "resize": "Wähle aus, ob du die Größe deiner Bilder ändern möchtest, bevor sie hochgeladen werden. Du kannst eine maximale Breite und Höhe in Pixeln wählen. Bei der Größenänderung wird das Seitenverhältnis der Bilder beibehalten.\n",
                 "client_extension": "Standardmäßig wählt Upload eine sichere Dateierweiterung basierend auf dem MIME-Typ.\nBei einigen Dateitypen, die auf ZIP- oder Binärdaten basieren, kann dies dazu führen, dass generische Erweiterungen statt der erwarteten verwendet werden.\nHier kannst du eine kommagetrennte Liste von Dateierweiterungen eingeben, die genau beibehalten werden sollen.\n",
                 "thumbnails": "Erstelle beim Hochladen eine verkleinerte Miniaturansicht für Bilder. Die Miniaturansicht wird inline angezeigt.\nDurch Anklicken wird die Originaldatei in voller Auflösung in einem neuen Tab geöffnet. Miniaturansichten\nreduzieren die Bandbreite und das Seitengewicht für Foren mit vielen großen Bildern erheblich.\n",
+                "thumbnail_quality": "",
                 "watermark": "Wähle aus, ob Bilder beim Hochladen mit einem Wasserzeichen versehen werden sollen. Wasserzeichen werden basierend auf deinen Einstellungen unten hinzugefügt, jedoch nicht bei GIF's.\n",
-                "s3_compatible_storage": "Die folgenden Einstellungen sind nur erforderlich, wenn du S3 kompatiblen Speicher verwendest. Wenn du AWS verwendest, kannst du sie leer lassen.\n",
+                "storage_intro": "",
+                "storage_configure_another": "",
+                "storage_not_installed": "",
+                "local_cdn": "",
+                "s3_provider": "",
+                "s3_endpoint": "",
                 "s3_acl": "Die Zugriffssteuerungsliste (ACL), die auf das hochgeladene Objekt angewendet werden soll (Standard: private). Für mögliche Werte, siehe https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
+                "s3_acl_unsupported": "",
+                "s3_path_style": "",
                 "custom_s3_url": "Verwende diese Einstellung, wenn Sie einen S3-kompatiblen Dienst nutzen, der ein bestimmtes URL-Format erfordert (z. B. Backblaze B2) oder wenn Sie Probleme mit dem Standard-URL-Format haben. In der Regel ist diese Einstellung für die meisten Dienste nicht erforderlich. Achten Sie darauf, dass die URL das Protokoll (https://) enthält und korrekt formatiert ist. Beispiel: https://your-bucket.s3.your-region.backblazeb2.com\n",
                 "s3_instance_profile": "Schlüssel und Secret leer lassen, um Anmeldeinformationen im Instanzprofil zu verwenden.\n",
-                "composer_buttons": "Standardmäßig sind sowohl die Medienmanager-Schaltfläche als auch die Upload-Schaltfläche sichtbar. Du kannst auch festlegen, dass nur eine Schaltfläche angezeigt wird.\n"
+                "composer_buttons": "Standardmäßig sind sowohl die Medienmanager-Schaltfläche als auch die Upload-Schaltfläche sichtbar. Du kannst auch festlegen, dass nur eine Schaltfläche angezeigt wird.\n",
+                "s3_compatible_storage": "Die folgenden Einstellungen sind nur erforderlich, wenn du S3 kompatiblen Speicher verwendest. Wenn du AWS verwendest, kannst du sie leer lassen.\n"
+            },
+            "tabs": {
+                "files": "",
+                "storage": "",
+                "images": "",
+                "advanced": "",
+                "unsaved_changes": "",
+                "unsaved_hint": ""
             },
             "labels": {
+                "storage": {
+                    "configure_another": "",
+                    "hide_unused": ""
+                },
                 "aws-s3": {
                     "bucket": "Bucket",
                     "key": "Schlüssel",
                     "region": "Region",
                     "secret": "Geheimnis",
                     "title": "AWS S3 Speichereinstellungen",
+                    "provider": "",
                     "advanced_title": "Advanced S3 Speichereinstellungen",
                     "endpoint": "Endpunkt",
                     "use_path_style_endpoint": "Verwende \"path style\"-Endpunkt",
@@ -85,8 +108,39 @@
                     "mime_type_regex_placeholder": "z.B. ^image/(jpeg|png|gif)$",
                     "mime_type_regex_invalid": "Ungültiger regulärer Ausdruck (z. B. leere Alternativen wie ||)",
                     "mime_type_permission_placeholder": "Berechtigungslabel (optional, z. B. Bilder)",
+                    "mime_type_remove": "",
+                    "mime_type_add": "",
+                    "mime_column_pattern": "",
+                    "mime_column_pattern_help": "",
+                    "mime_column_storage": "",
+                    "mime_column_storage_help": "",
+                    "mime_column_display": "",
+                    "mime_column_display_help": "",
+                    "mime_column_permission": "",
+                    "mime_column_permission_help": "",
+                    "mime_move_up": "",
+                    "mime_move_down": "",
+                    "mime_edit_pattern": "",
+                    "mime_use_simple": "",
+                    "mime_advanced_pattern": "",
+                    "mime_add_subtype": "",
+                    "mime_add_subtype_placeholder": "",
+                    "mime_remove_subtype": "",
+                    "mime_add_prompt": "",
+                    "mime_add_custom": "",
                     "title": "Allgemeine Einstellungen",
                     "php_ini_values": "Deine <code>php.ini</code>-Werte sind <code>post_max_size={post}</code> und <code>upload_max_filesize={upload}</code>. Stelle sicher, dass der hier eingestellte Wert unter diesen Schwellenwerten liegt, oder passe sie entsprechend an. Wenn Du <code>Nginx</code> verwendest, stelle außerdem sicher, dass <code>client_max_body_size</code> eine ausreichende Größe für Deine gewählte maximale Grenze hat."
+                },
+                "mime_presets": {
+                    "images": "",
+                    "pdf": "",
+                    "documents": "",
+                    "spreadsheets": "",
+                    "archives": "",
+                    "audio": "",
+                    "video": "",
+                    "title": "",
+                    "php_ini_values": ""
                 },
                 "resize": {
                     "max_width": "Maximale Bildbreite/-höhe",
@@ -94,13 +148,15 @@
                     "toggle": "Größe der Bilder ändern"
                 },
                 "client_extension": {
-                    "title": "Benutzerdefinierte Dateierweiterungen"
+                    "title": "Benutzerdefinierte Dateierweiterungen",
+                    "placeholder": ""
                 },
                 "thumbnails": {
                     "title": "Bildminiaturen",
                     "toggle": "Miniaturansichten beim Hochladen erstellen",
                     "webp_toggle": "Miniaturansichten als WebP kodieren (empfohlen, ~30 % kleiner)",
-                    "max_width": "Maximale Breite der Miniaturansicht (px)"
+                    "max_width": "Maximale Breite der Miniaturansicht (px)",
+                    "quality": ""
                 },
                 "watermark": {
                     "file": "Lade dein Wasserzeichen hoch",
@@ -179,6 +235,13 @@
         },
         "forum": {
             "media_manager": "Medien-Manager",
+            "display_name": {
+                "title": "",
+                "title_plural": "",
+                "help": "",
+                "insert": "",
+                "use_file_name": ""
+            },
             "buttons": {
                 "attach": "Anhängen",
                 "upload": "Hochladen",
@@ -191,7 +254,8 @@
             "states": {
                 "error": "Fehler",
                 "loading": "Lädt hoch",
-                "unauthorized": "Du darfst keine Dateien herunterladen"
+                "unauthorized": "Du darfst keine Dateien herunterladen",
+                "permission_required": ""
             },
             "validation": {
                 "max_size": "Uploads über {max}KB werden nicht akzeptiert."

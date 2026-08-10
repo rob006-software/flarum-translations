@@ -31,23 +31,46 @@
                 "disable-hotlink-protection": "Stänger av skydd mot hotlinking (direktlänkning).\n",
                 "download_templates": "Mallarna styr hur länkar och inbäddningar genereras när du infogar en fil i ett inlägg.\n",
                 "mime_types": "",
+                "mime_order": "",
                 "resize": "Ändra storlek på uppladdade bilder automatiskt.\n",
                 "client_extension": "Styr hur filändelser hanteras i klienten. Använd med försiktighet.\n",
                 "thumbnails": "",
+                "thumbnail_quality": "",
                 "watermark": "Lägg en vattenstämpel på uppladdade bilder.\n",
-                "s3_compatible_storage": "Använd S3-kompatibel lagring (t.ex. MinIO/Wasabi) genom att ange endpoint.\n",
+                "storage_intro": "",
+                "storage_configure_another": "",
+                "storage_not_installed": "",
+                "local_cdn": "",
+                "s3_provider": "",
+                "s3_endpoint": "",
                 "s3_acl": "Åtkomstnivå (ACL) för uppladdade objekt i S3.\n",
+                "s3_acl_unsupported": "",
+                "s3_path_style": "",
                 "custom_s3_url": "Ange en egen bas-URL för att servera filer (t.ex. via CDN/proxy).\n",
                 "s3_instance_profile": "Använd IAM Instance Profile istället för statiska access keys.\n",
-                "composer_buttons": "Välj vilka knappar som ska visas i kompositorn.\n"
+                "composer_buttons": "Välj vilka knappar som ska visas i kompositorn.\n",
+                "s3_compatible_storage": "Använd S3-kompatibel lagring (t.ex. MinIO/Wasabi) genom att ange endpoint.\n"
+            },
+            "tabs": {
+                "files": "",
+                "storage": "",
+                "images": "",
+                "advanced": "",
+                "unsaved_changes": "",
+                "unsaved_hint": ""
             },
             "labels": {
+                "storage": {
+                    "configure_another": "",
+                    "hide_unused": ""
+                },
                 "aws-s3": {
                     "bucket": "Bucket",
                     "key": "Access key",
                     "region": "Region",
                     "secret": "Secret key",
                     "title": "Amazon S3",
+                    "provider": "",
                     "advanced_title": "Avancerat",
                     "endpoint": "Endpoint",
                     "use_path_style_endpoint": "Använd path-style endpoint",
@@ -85,8 +108,39 @@
                     "mime_type_regex_placeholder": "",
                     "mime_type_regex_invalid": "",
                     "mime_type_permission_placeholder": "",
+                    "mime_type_remove": "",
+                    "mime_type_add": "",
+                    "mime_column_pattern": "",
+                    "mime_column_pattern_help": "",
+                    "mime_column_storage": "",
+                    "mime_column_storage_help": "",
+                    "mime_column_display": "",
+                    "mime_column_display_help": "",
+                    "mime_column_permission": "",
+                    "mime_column_permission_help": "",
+                    "mime_move_up": "",
+                    "mime_move_down": "",
+                    "mime_edit_pattern": "",
+                    "mime_use_simple": "",
+                    "mime_advanced_pattern": "",
+                    "mime_add_subtype": "",
+                    "mime_add_subtype_placeholder": "",
+                    "mime_remove_subtype": "",
+                    "mime_add_prompt": "",
+                    "mime_add_custom": "",
                     "title": "Preferenser",
                     "php_ini_values": "PHP ini-värden"
+                },
+                "mime_presets": {
+                    "images": "",
+                    "pdf": "",
+                    "documents": "",
+                    "spreadsheets": "",
+                    "archives": "",
+                    "audio": "",
+                    "video": "",
+                    "title": "",
+                    "php_ini_values": ""
                 },
                 "resize": {
                     "max_width": "Max bredd",
@@ -94,13 +148,15 @@
                     "toggle": "Aktivera"
                 },
                 "client_extension": {
-                    "title": "Hantering av filändelser"
+                    "title": "Hantering av filändelser",
+                    "placeholder": ""
                 },
                 "thumbnails": {
                     "title": "",
                     "toggle": "",
                     "webp_toggle": "",
-                    "max_width": ""
+                    "max_width": "",
+                    "quality": ""
                 },
                 "watermark": {
                     "file": "Vattenstämpelfil",
@@ -179,6 +235,13 @@
         },
         "forum": {
             "media_manager": "Mediabibliotek",
+            "display_name": {
+                "title": "",
+                "title_plural": "",
+                "help": "",
+                "insert": "",
+                "use_file_name": ""
+            },
             "buttons": {
                 "attach": "Bifoga",
                 "upload": "Ladda upp",
@@ -191,7 +254,8 @@
             "states": {
                 "error": "Fel",
                 "loading": "Laddar...",
-                "unauthorized": "Obehörig"
+                "unauthorized": "Obehörig",
+                "permission_required": ""
             },
             "validation": {
                 "max_size": "Filen är för stor. Maxstorlek: {max}."

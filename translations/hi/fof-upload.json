@@ -31,23 +31,46 @@
                 "disable-hotlink-protection": "हॉटलिंक सुरक्षा अन्य साइटों से डाउनलोड खोलने से रोकती है। वर्तमान विधि के लिए सीएसआरएफ टोकन और पोस्ट आईडी की आवश्यकता होती है।\n",
                 "download_templates": "डाउनलोड टेम्प्लेट आपके फ़ोरम पर अपलोड कैसे दिखाए जाते हैं, उदाहरण के लिए पूर्वावलोकन, बटन। अभी उपलब्ध है:\n",
                 "mime_types": "",
+                "mime_order": "",
                 "resize": "चुनें कि क्या आप अपलोड होने से पहले अपनी छवियों का आकार बदलना चाहते हैं। आप पिक्सेल में अधिकतम चौड़ाई और ऊंचाई चुन सकते हैं। आकार बदलने की प्रक्रिया छवियों का पहलू अनुपात बनाए रखती है।\n",
                 "client_extension": "डिफ़ॉल्ट रूप से अपलोड MIME प्रकार के आधार पर एक सुरक्षित फ़ाइल एक्सटेंशन का चयन करेगा।\nज़िप या बाइनरी डेटा पर आधारित कुछ फ़ाइल प्रकारों के लिए इसके परिणामस्वरूप अपेक्षित एक्सटेंशन के बजाय सामान्य एक्सटेंशन का उपयोग किया जा सकता है।\nयहां आप फ़ाइल एक्सटेंशन की अल्पविराम से अलग की गई सूची दर्ज कर सकते हैं जिन्हें शब्दशः रखा जाएगा।\n",
                 "thumbnails": "",
+                "thumbnail_quality": "",
                 "watermark": "चुनें कि अपलोड के दौरान छवियों में वॉटरमार्क जोड़ा जाएगा या नहीं। नीचे आपकी प्राथमिकताओं के आधार पर वॉटरमार्क गैर-जीआईएफ में जोड़े जाते हैं।\n",
-                "s3_compatible_storage": "निम्नलिखित सेटिंग्स केवल S3 संगत भंडारण का उपयोग करते समय आवश्यक हैं। यदि आप AWS का उपयोग करते हैं, तो आप उन्हें खाली छोड़ सकते हैं।\n",
+                "storage_intro": "",
+                "storage_configure_another": "",
+                "storage_not_installed": "",
+                "local_cdn": "",
+                "s3_provider": "",
+                "s3_endpoint": "",
                 "s3_acl": "ACL जिसे अपलोड किए गए ऑब्जेक्ट पर लागू किया जाना चाहिए (डिफ़ॉल्ट: निजी)। संभावित मानों के लिए, https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl देखें\n",
+                "s3_acl_unsupported": "",
+                "s3_path_style": "",
                 "custom_s3_url": "",
                 "s3_instance_profile": "उदाहरण प्रोफ़ाइल में क्रेडेंशियल का उपयोग करने के लिए कुंजी और रहस्य को खाली छोड़ दें।\n",
-                "composer_buttons": "डिफ़ॉल्ट रूप से मीडिया मैनेजर बटन और अपलोड बटन दोनों दिखाई देते हैं। आप केवल एक बटन प्रदर्शित करना भी चुन सकते हैं।\n"
+                "composer_buttons": "डिफ़ॉल्ट रूप से मीडिया मैनेजर बटन और अपलोड बटन दोनों दिखाई देते हैं। आप केवल एक बटन प्रदर्शित करना भी चुन सकते हैं।\n",
+                "s3_compatible_storage": "निम्नलिखित सेटिंग्स केवल S3 संगत भंडारण का उपयोग करते समय आवश्यक हैं। यदि आप AWS का उपयोग करते हैं, तो आप उन्हें खाली छोड़ सकते हैं।\n"
+            },
+            "tabs": {
+                "files": "",
+                "storage": "",
+                "images": "",
+                "advanced": "",
+                "unsaved_changes": "",
+                "unsaved_hint": ""
             },
             "labels": {
+                "storage": {
+                    "configure_another": "",
+                    "hide_unused": ""
+                },
                 "aws-s3": {
                     "bucket": "बकेत",
                     "key": "कए",
                     "region": "रीजन",
                     "secret": "सीक्रिट",
                     "title": "AWS S3 रकने का तरीका",
+                    "provider": "",
                     "advanced_title": "Advanced S3 रखने का तरीका",
                     "endpoint": "आकरी पॉइंट",
                     "use_path_style_endpoint": "पाठ स्टाइल एण्डपों उसे करे",
@@ -85,8 +108,39 @@
                     "mime_type_regex_placeholder": "",
                     "mime_type_regex_invalid": "",
                     "mime_type_permission_placeholder": "",
+                    "mime_type_remove": "",
+                    "mime_type_add": "",
+                    "mime_column_pattern": "",
+                    "mime_column_pattern_help": "",
+                    "mime_column_storage": "",
+                    "mime_column_storage_help": "",
+                    "mime_column_display": "",
+                    "mime_column_display_help": "",
+                    "mime_column_permission": "",
+                    "mime_column_permission_help": "",
+                    "mime_move_up": "",
+                    "mime_move_down": "",
+                    "mime_edit_pattern": "",
+                    "mime_use_simple": "",
+                    "mime_advanced_pattern": "",
+                    "mime_add_subtype": "",
+                    "mime_add_subtype_placeholder": "",
+                    "mime_remove_subtype": "",
+                    "mime_add_prompt": "",
+                    "mime_add_custom": "",
                     "title": "जनरल पसंद",
                     "php_ini_values": "आपके <code>php.ini</code> मान <code>post_max_size={post}</code> और <code>upload_max_filesize={upload}</code> हैं। सुनिश्चित करें कि यहां निर्धारित मूल्य इन सीमाओं से कम है, या तदनुसार उन्हें समायोजित करें। यदि <code>Nginx</code> का उपयोग कर रहे हैं, तो यह भी सुनिश्चित करें कि <code>client_max_body_size</code> आपकी चुनी गई अधिकतम सीमा के लिए पर्याप्त आकार का है।"
+                },
+                "mime_presets": {
+                    "images": "",
+                    "pdf": "",
+                    "documents": "",
+                    "spreadsheets": "",
+                    "archives": "",
+                    "audio": "",
+                    "video": "",
+                    "title": "",
+                    "php_ini_values": ""
                 },
                 "resize": {
                     "max_width": "मैक्समम इमेज विड्थ/हाइट",
@@ -94,13 +148,15 @@
                     "toggle": "रेसीजे इमागेस"
                 },
                 "client_extension": {
-                    "title": "user-provided फाइल के एक्सटेनसीऑनस"
+                    "title": "user-provided फाइल के एक्सटेनसीऑनस",
+                    "placeholder": ""
                 },
                 "thumbnails": {
                     "title": "",
                     "toggle": "",
                     "webp_toggle": "",
-                    "max_width": ""
+                    "max_width": "",
+                    "quality": ""
                 },
                 "watermark": {
                     "file": "अपनी वोर्टमर्क इमेज अपलोड करिए",
@@ -179,6 +235,13 @@
         },
         "forum": {
             "media_manager": "",
+            "display_name": {
+                "title": "",
+                "title_plural": "",
+                "help": "",
+                "insert": "",
+                "use_file_name": ""
+            },
             "buttons": {
                 "attach": "",
                 "upload": "",
@@ -191,7 +254,8 @@
             "states": {
                 "error": "",
                 "loading": "",
-                "unauthorized": ""
+                "unauthorized": "",
+                "permission_required": ""
             },
             "validation": {
                 "max_size": ""

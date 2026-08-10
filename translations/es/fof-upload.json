@@ -31,23 +31,46 @@
                 "disable-hotlink-protection": "La protección Hotlink evita que se abran descargas de otros sitios. El método actual requiere un token csrf y un ID de publicación.\n",
                 "download_templates": "Las plantillas de descarga son la forma en que se muestran las subidas en su foro, por ejemplo: Vistas previas, botones. Actualmente disponible:\n",
                 "mime_types": "Configure aquí su mapeado. Cada expresión regular de tipo MIME será gestionada por un adaptador de carga y una plantilla de descarga específicos.\nOpcionalmente, asigne a cada entrada una etiqueta de permiso (ej. \"Imágenes\", \"Vídeos\") para crear un permiso específico en la cuadrícula de permisos.\nEsto le permite restringir qué grupos pueden cargar tipos de archivo específicos, además del permiso básico \"Cargar archivos\", que siempre es obligatorio.\n",
+                "mime_order": "",
                 "resize": "Elija si desea cambiar el tamaño de sus imágenes antes de que se carguen. Puede elegir un ancho y alto máximo, en píxeles. El proceso de cambio de tamaño mantiene la relación de aspecto de las imágenes.\n",
                 "client_extension": "Por defecto, Upload elegirá una extensión de archivo segura basada en el tipo MIME.\nPara algunos tipos de archivos basados en ZIP o datos binarios, esto puede resultar en el uso de extensiones genéricas en lugar de la esperada. \nAquí puede ingresar una lista separada por comas de extensiones de archivo que se mantendrán palabra por palabra.\n",
                 "thumbnails": "Genera una miniatura reducida para las imágenes al subirlas. La miniatura se muestra integrada;\nal hacer clic en ella, abre el archivo original en alta resolución en una nueva pestaña. Las miniaturas\nreducen mucho el ancho de banda y el peso de la página en foros con muchas imágenes grandes.\n",
+                "thumbnail_quality": "",
                 "watermark": "Elija si las imágenes tendrán una marca de agua añadida durante la subida. Las marcas de agua se agregan a los no gifs según sus preferencias a continuación.\n",
-                "s3_compatible_storage": "Los siguientes ajustes solo son necesarios cuando se utiliza almacenamiento compatible con S3. Si usa AWS, puede dejarlos en blanco.\n",
+                "storage_intro": "",
+                "storage_configure_another": "",
+                "storage_not_installed": "",
+                "local_cdn": "",
+                "s3_provider": "",
+                "s3_endpoint": "",
                 "s3_acl": "La ACL que debe aplicarse al objeto subido (predeterminado: privado). Para conocer los valores posibles, consulte https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
+                "s3_acl_unsupported": "",
+                "s3_path_style": "",
                 "custom_s3_url": "Utiliza esta configuración si estás utilizando un servicio compatible con S3 que requiere un formato de URL específico (por ejemplo, Backblaze B2) o si tiene problemas con el formato de URL predeterminado. Esta configuración no suele ser necesaria para la mayoría de los servicios. Asegúrese de que la URL incluya el protocolo (https://) y tenga el formato correcto. Ejemplo: https://your-bucket.s3.your-region.backblazeb2.com\n",
                 "s3_instance_profile": "Deje el campo Key y Secret vacíos para usar las credenciales en el perfil de la instancia.\n",
-                "composer_buttons": "De forma predeterminada, tanto el botón del gestor de medios como el botón de subida están visibles. También puede optar por mostrar sólo un botón.\n"
+                "composer_buttons": "De forma predeterminada, tanto el botón del gestor de medios como el botón de subida están visibles. También puede optar por mostrar sólo un botón.\n",
+                "s3_compatible_storage": "Los siguientes ajustes solo son necesarios cuando se utiliza almacenamiento compatible con S3. Si usa AWS, puede dejarlos en blanco.\n"
+            },
+            "tabs": {
+                "files": "",
+                "storage": "",
+                "images": "",
+                "advanced": "",
+                "unsaved_changes": "",
+                "unsaved_hint": ""
             },
             "labels": {
+                "storage": {
+                    "configure_another": "",
+                    "hide_unused": ""
+                },
                 "aws-s3": {
                     "bucket": "Bucket",
                     "key": "Key",
                     "region": "Región",
                     "secret": "Secret",
                     "title": "Configuración de almacenamiento AWS S3",
+                    "provider": "",
                     "advanced_title": "Configuración avanzada de almacenamiento S3",
                     "endpoint": "Endpoint",
                     "use_path_style_endpoint": "Utilizar endpoint de estilo de ruta",
@@ -85,8 +108,39 @@
                     "mime_type_regex_placeholder": "ej. ^image/(jpeg|png|gif)$",
                     "mime_type_regex_invalid": "Expresión inválida (ej. Espacios vacíos ||)",
                     "mime_type_permission_placeholder": "Etiqueta de permisos (opcional, ej. Imágenes)",
+                    "mime_type_remove": "",
+                    "mime_type_add": "",
+                    "mime_column_pattern": "",
+                    "mime_column_pattern_help": "",
+                    "mime_column_storage": "",
+                    "mime_column_storage_help": "",
+                    "mime_column_display": "",
+                    "mime_column_display_help": "",
+                    "mime_column_permission": "",
+                    "mime_column_permission_help": "",
+                    "mime_move_up": "",
+                    "mime_move_down": "",
+                    "mime_edit_pattern": "",
+                    "mime_use_simple": "",
+                    "mime_advanced_pattern": "",
+                    "mime_add_subtype": "",
+                    "mime_add_subtype_placeholder": "",
+                    "mime_remove_subtype": "",
+                    "mime_add_prompt": "",
+                    "mime_add_custom": "",
                     "title": "Preferencias generales",
                     "php_ini_values": "Los valores de <code>php.ini</code> son <code>post_max_size={post}</code> y <code>upload_max_filesize={upload}</code>. Asegúrese de que el valor establecido aquí esté por debajo de estos umbrales o ajústelos en consecuencia. Si usa <code>Nginx</code>, también asegúrese de que <code>client_max_body_size</code> tenga el tamaño suficiente para el límite máximo elegido."
+                },
+                "mime_presets": {
+                    "images": "",
+                    "pdf": "",
+                    "documents": "",
+                    "spreadsheets": "",
+                    "archives": "",
+                    "audio": "",
+                    "video": "",
+                    "title": "",
+                    "php_ini_values": ""
                 },
                 "resize": {
                     "max_width": "Ancho/alto máximo de la imagen",
@@ -94,13 +148,15 @@
                     "toggle": "Cambiar el tamaño de las imágenes"
                 },
                 "client_extension": {
-                    "title": "Extensiones de archivo proporcionadas por el usuario"
+                    "title": "Extensiones de archivo proporcionadas por el usuario",
+                    "placeholder": ""
                 },
                 "thumbnails": {
                     "title": "Miniaturas de imágenes",
                     "toggle": "Generar miniaturas al subir archivos",
                     "webp_toggle": "Codificar miniaturas como WebP (recomendado, ~30% se reduce)",
-                    "max_width": "Ancho max de la miniatura (px)"
+                    "max_width": "Ancho max de la miniatura (px)",
+                    "quality": ""
                 },
                 "watermark": {
                     "file": "Sube tu imagen de marca de agua",
@@ -179,6 +235,13 @@
         },
         "forum": {
             "media_manager": "Gestor de medios",
+            "display_name": {
+                "title": "",
+                "title_plural": "",
+                "help": "",
+                "insert": "",
+                "use_file_name": ""
+            },
             "buttons": {
                 "attach": "Adjuntar",
                 "upload": "Subir",
@@ -191,7 +254,8 @@
             "states": {
                 "error": "Error",
                 "loading": "Subiendo",
-                "unauthorized": "No está autorizado a descargar archivos"
+                "unauthorized": "No está autorizado a descargar archivos",
+                "permission_required": ""
             },
             "validation": {
                 "max_size": "No se aceptan subidas de más de {max} kb."

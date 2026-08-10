@@ -31,23 +31,46 @@
                 "disable-hotlink-protection": "Zaščita pred hotlinkom preprečuje odpiranje prenosov z drugih strani. Trenutna metoda zahteva csrf žeton in id objave.\n",
                 "download_templates": "Predloge za prenos določajo, kako so naložene datoteke prikazane na vašem forumu, na primer kot predogledi, gumbi. Trenutno so na voljo:\n",
                 "mime_types": "",
+                "mime_order": "",
                 "resize": "Izberite, ali želite slike zmanjšati, preden jih naložite. Izberete lahko največjo širino in višino v slikovnih pikah. Postopek zmanjševanja ohrani razmerje stranic slik.\n",
                 "client_extension": "Privzeto bo nalagalna razširitev izbrala varno končnico datoteke glede na MIME tip.\nZa nekatere vrste datotek, ki temeljijo na ZIP ali binarnih podatkih, lahko to povzroči uporabo generičnih končnic namesto pričakovane.\nTukaj lahko vnesete seznam končnic datotek, ki bodo ohranjene nespremenjene.\n",
                 "thumbnails": "",
+                "thumbnail_quality": "",
                 "watermark": "Izberite, ali bodo slikam med nalaganjem dodane vodne oznake. Vodne oznake se dodajo za datoteke, ki niso GIF, glede na vaše nastavitve spodaj.\n",
-                "s3_compatible_storage": "Naslednje nastavitve so potrebne le pri uporabi shranjevanja, združljivega z S3. Če uporabljate AWS, jih lahko pustite prazne.\n",
+                "storage_intro": "",
+                "storage_configure_another": "",
+                "storage_not_installed": "",
+                "local_cdn": "",
+                "s3_provider": "",
+                "s3_endpoint": "",
                 "s3_acl": "ACL, ki se uporablja za naložene predmete (privzeto: zasebno). Za možne vrednosti glejte https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
+                "s3_acl_unsupported": "",
+                "s3_path_style": "",
                 "custom_s3_url": "Uporabite to nastavitev, če uporabljate storitev, združljivo z S3, ki zahteva posebno obliko URL-ja (npr. Backblaze B2), ali če imate težave s privzeto obliko URL-ja. Ta nastavitev večinoma ni potrebna za večino storitev. Prepričajte se, da URL vključuje protokol (https://) in je pravilno oblikovan. Primer: https://your-bucket.s3.your-region.backblazeb2.com\n",
                 "s3_instance_profile": "Pustite ključ in skrivnost prazna, če želite uporabiti poverilnice iz profilov primerkov.\n",
-                "composer_buttons": "Privzeto sta prikazana tako gumb za upravitelja medijev kot gumb za nalaganje. Lahko izberete, da se prikaže le eden.\n"
+                "composer_buttons": "Privzeto sta prikazana tako gumb za upravitelja medijev kot gumb za nalaganje. Lahko izberete, da se prikaže le eden.\n",
+                "s3_compatible_storage": "Naslednje nastavitve so potrebne le pri uporabi shranjevanja, združljivega z S3. Če uporabljate AWS, jih lahko pustite prazne.\n"
+            },
+            "tabs": {
+                "files": "",
+                "storage": "",
+                "images": "",
+                "advanced": "",
+                "unsaved_changes": "",
+                "unsaved_hint": ""
             },
             "labels": {
+                "storage": {
+                    "configure_another": "",
+                    "hide_unused": ""
+                },
                 "aws-s3": {
                     "bucket": "Vedro",
                     "key": "Ključ",
                     "region": "Regija",
                     "secret": "Skrivnost",
                     "title": "Nastavitve shranjevanja AWS S3",
+                    "provider": "",
                     "advanced_title": "Napredne nastavitve S3 shranjevanja",
                     "endpoint": "Končna točka",
                     "use_path_style_endpoint": "Uporabi slog poti za končno točko",
@@ -85,8 +108,39 @@
                     "mime_type_regex_placeholder": "",
                     "mime_type_regex_invalid": "",
                     "mime_type_permission_placeholder": "",
+                    "mime_type_remove": "",
+                    "mime_type_add": "",
+                    "mime_column_pattern": "",
+                    "mime_column_pattern_help": "",
+                    "mime_column_storage": "",
+                    "mime_column_storage_help": "",
+                    "mime_column_display": "",
+                    "mime_column_display_help": "",
+                    "mime_column_permission": "",
+                    "mime_column_permission_help": "",
+                    "mime_move_up": "",
+                    "mime_move_down": "",
+                    "mime_edit_pattern": "",
+                    "mime_use_simple": "",
+                    "mime_advanced_pattern": "",
+                    "mime_add_subtype": "",
+                    "mime_add_subtype_placeholder": "",
+                    "mime_remove_subtype": "",
+                    "mime_add_prompt": "",
+                    "mime_add_custom": "",
                     "title": "Splošne nastavitve",
                     "php_ini_values": "Vaše <code>php.ini</code> vrednosti so <code>post_max_size={post}</code> in <code>upload_max_filesize={upload}</code>. Prepričajte se, da je tukaj nastavljena vrednost nižja od teh mej, ali jih ustrezno prilagodite. Če uporabljate <code>Nginx</code>, poskrbite, da je <code>client_max_body_size</code> ustrezne velikosti za vašo izbrano največjo omejitev."
+                },
+                "mime_presets": {
+                    "images": "",
+                    "pdf": "",
+                    "documents": "",
+                    "spreadsheets": "",
+                    "archives": "",
+                    "audio": "",
+                    "video": "",
+                    "title": "",
+                    "php_ini_values": ""
                 },
                 "resize": {
                     "max_width": "Največja širina/višina slike",
@@ -94,13 +148,15 @@
                     "toggle": "Spremeni velikost slik"
                 },
                 "client_extension": {
-                    "title": "Razširitve datotek, ki jih poda uporabnik"
+                    "title": "Razširitve datotek, ki jih poda uporabnik",
+                    "placeholder": ""
                 },
                 "thumbnails": {
                     "title": "",
                     "toggle": "",
                     "webp_toggle": "",
-                    "max_width": ""
+                    "max_width": "",
+                    "quality": ""
                 },
                 "watermark": {
                     "file": "Naloži svojo vodno oznako",
@@ -179,6 +235,13 @@
         },
         "forum": {
             "media_manager": "Upravitelj medijev",
+            "display_name": {
+                "title": "",
+                "title_plural": "",
+                "help": "",
+                "insert": "",
+                "use_file_name": ""
+            },
             "buttons": {
                 "attach": "Pripni",
                 "upload": "Naloži",
@@ -191,7 +254,8 @@
             "states": {
                 "error": "Napaka",
                 "loading": "Nalagam",
-                "unauthorized": "Nimate dovoljenja za prenos datotek"
+                "unauthorized": "Nimate dovoljenja za prenos datotek",
+                "permission_required": ""
             },
             "validation": {
                 "max_size": "Nalaganje datotek, večjih od {max} kb, ni dovoljeno."

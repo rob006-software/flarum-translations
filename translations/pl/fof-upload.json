@@ -31,23 +31,46 @@
                 "disable-hotlink-protection": "Ochrona przed hotlinkowaniem zapobiega otwieraniu tutejszych plików z poziomu innych stron. Obecna metoda wymaga tokenu CSRF i identyfikatora posta.\n",
                 "download_templates": "Szablony pobierania decydują o tym jak przesłane pliki są wyświetlane na Twoim forum, np. podgląd miniatury, przyciski. Obecnie dostępne:\n",
                 "mime_types": "",
+                "mime_order": "",
                 "resize": "Wybierz czy chcesz przeskalować obrazki zanim zostaną przesłane. Możesz wybrać maksymalną szerokość i wysokość w pikselach. Proces zmiany rozmiaru zachowa proporcje obrazka.\n",
                 "client_extension": "Domyślnie wtyczka wybierze bezpieczne rozszerzenie dla wysłanego pliku na podstawie typu MIME.\nDla niektórych typów bazujących na ZIP lub plików binarnych, może to skutkować zastąpieniem oryginalnego rozszerzenia na bardziej ogólne.\nTutaj możesz podać listę rozszerzeń (rozdzielonych przecinkami), które mają zostać pozostawione bez zmian.\n",
                 "thumbnails": "",
+                "thumbnail_quality": "",
                 "watermark": "Wybierz, czy obrazki będą miały dodany znak wodny podczas przesyłania. Znaki wodne są dodawane do nie-gifów bazując na Twoich preferencjach poniżej.\n",
-                "s3_compatible_storage": "Poniższe ustawienia są wymagane jedynie, gdy korzystasz z usługi kompatybilnej z S3. Jeśli korzystasz z AWS, możesz pozostawić je puste.\n",
+                "storage_intro": "",
+                "storage_configure_another": "",
+                "storage_not_installed": "",
+                "local_cdn": "",
+                "s3_provider": "",
+                "s3_endpoint": "",
                 "s3_acl": "ACL, które powinno być zastosowane do wysłanego obiektu (domyślnie: private). Obsługiwane wartości można znaleźć na https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
+                "s3_acl_unsupported": "",
+                "s3_path_style": "",
                 "custom_s3_url": "Użyj tego ustawienia, jeśli korzystasz z usługi zgodnej z S3, która wymaga określonego formatu URL (np. Backblaze B2), lub jeśli występują problemy z domyślnym formatem adresu. W większości usług to ustawienie nie jest potrzebne. Upewnij się, że adres URL zawiera protokół (https://) i jest poprawnie sformatowany. Przykład: https://your-bucket.s3.your-region.backblazeb2.com\n",
                 "s3_instance_profile": "Pozostaw klucz i sekret puste, aby użyć poświadczeń w profilu instancji.\n",
-                "composer_buttons": "Domyślnie przycisk dla managera plików oraz przycisk do wysyłania plików są jednocześnie widoczne. Ale możesz to zmienić i wyświetlać tylko jeden przycisk.\n"
+                "composer_buttons": "Domyślnie przycisk dla managera plików oraz przycisk do wysyłania plików są jednocześnie widoczne. Ale możesz to zmienić i wyświetlać tylko jeden przycisk.\n",
+                "s3_compatible_storage": "Poniższe ustawienia są wymagane jedynie, gdy korzystasz z usługi kompatybilnej z S3. Jeśli korzystasz z AWS, możesz pozostawić je puste.\n"
+            },
+            "tabs": {
+                "files": "",
+                "storage": "",
+                "images": "",
+                "advanced": "",
+                "unsaved_changes": "",
+                "unsaved_hint": ""
             },
             "labels": {
+                "storage": {
+                    "configure_another": "",
+                    "hide_unused": ""
+                },
                 "aws-s3": {
                     "bucket": "Bucket",
                     "key": "Key",
                     "region": "Region",
                     "secret": "Secret",
                     "title": "Ustawienia AWS S3",
+                    "provider": "",
                     "advanced_title": "Zaawansowane ustawienia S3",
                     "endpoint": "Endpoint",
                     "use_path_style_endpoint": "Use path style endpoint",
@@ -85,8 +108,39 @@
                     "mime_type_regex_placeholder": "",
                     "mime_type_regex_invalid": "",
                     "mime_type_permission_placeholder": "",
+                    "mime_type_remove": "",
+                    "mime_type_add": "",
+                    "mime_column_pattern": "",
+                    "mime_column_pattern_help": "",
+                    "mime_column_storage": "",
+                    "mime_column_storage_help": "",
+                    "mime_column_display": "",
+                    "mime_column_display_help": "",
+                    "mime_column_permission": "",
+                    "mime_column_permission_help": "",
+                    "mime_move_up": "",
+                    "mime_move_down": "",
+                    "mime_edit_pattern": "",
+                    "mime_use_simple": "",
+                    "mime_advanced_pattern": "",
+                    "mime_add_subtype": "",
+                    "mime_add_subtype_placeholder": "",
+                    "mime_remove_subtype": "",
+                    "mime_add_prompt": "",
+                    "mime_add_custom": "",
                     "title": "Preferencje ogólne",
                     "php_ini_values": "Twoje wartości <code>php.ini</code> to <code>post_max_size={post}</code> i <code>upload_max_filesize={upload}</code>. Upewnij się, że wartość ustawiona tutaj jest poniżej tych progów, lub dostosuj je odpowiednio. Jeśli korzystasz z <code>Nginx</code>, upewnij się również, że <code>client_max_body_size</code> jest odpowiedniej wielkości dla wybranego maksymalnego limitu."
+                },
+                "mime_presets": {
+                    "images": "",
+                    "pdf": "",
+                    "documents": "",
+                    "spreadsheets": "",
+                    "archives": "",
+                    "audio": "",
+                    "video": "",
+                    "title": "",
+                    "php_ini_values": ""
                 },
                 "resize": {
                     "max_width": "Maksymalna wysokość/szerokość obrazka",
@@ -94,13 +148,15 @@
                     "toggle": "Przeskaluj obrazki"
                 },
                 "client_extension": {
-                    "title": "Rozszerzenia pików podane przez użytkownika"
+                    "title": "Rozszerzenia pików podane przez użytkownika",
+                    "placeholder": ""
                 },
                 "thumbnails": {
                     "title": "",
                     "toggle": "",
                     "webp_toggle": "",
-                    "max_width": ""
+                    "max_width": "",
+                    "quality": ""
                 },
                 "watermark": {
                     "file": "Prześlij swój znak wodny",
@@ -179,6 +235,13 @@
         },
         "forum": {
             "media_manager": "Manager plików",
+            "display_name": {
+                "title": "",
+                "title_plural": "",
+                "help": "",
+                "insert": "",
+                "use_file_name": ""
+            },
             "buttons": {
                 "attach": "Załącz",
                 "upload": "Wyślij",
@@ -191,7 +254,8 @@
             "states": {
                 "error": "Błąd",
                 "loading": "Wysyłanie",
-                "unauthorized": "Nie masz uprawnień, aby pobierać pliki"
+                "unauthorized": "Nie masz uprawnień, aby pobierać pliki",
+                "permission_required": ""
             },
             "validation": {
                 "max_size": "Wysyłanie plików większych niż {max} kb nie jest obsługiwane."
