@@ -596,6 +596,7 @@
             }
         },
         "lib": {
+            "connection_restored_message": "",
             "debug_button": "Derinimas",
             "alert": {
                 "dismiss_a11y_label": "Atmesti įspėjimą"
@@ -630,7 +631,9 @@
                 "generic_message": "Oops! Kažkas įvyko ne taip. Perkraukite puslapį iš naujo ir bandykite dar kartą.",
                 "generic_cross_origin_message": "",
                 "missing_dependencies_message": "Įskiepio {extension} įjungimas yra negalimas kol įskiepiai yra įjungti: {extensions}",
+                "network_message": "",
                 "not_found_message": "Prašomas šaltinis nerastas.",
+                "offline_message": "",
                 "payload_too_large_message": "Naudingasis užklausos kiekis buvo per didelis.",
                 "permission_denied_message": "Šiam veiksmui atlikti neturite leidimo.",
                 "rate_limit_exceeded_message": "Jūs šiek tiek per greitas. Bandykite dar kartą po kelių sekundžių.",

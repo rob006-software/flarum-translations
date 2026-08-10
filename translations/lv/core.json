@@ -573,6 +573,7 @@
             }
         },
         "lib": {
+            "connection_restored_message": "",
             "debug_button": "Atkļūdošana",
             "alert": {
                 "dismiss_a11y_label": "Noraidīt brīdinājumu"
@@ -607,7 +608,9 @@
                 "generic_message": "Ups! Kaut kas nogāja greizi. Lūdzu, atkārtoti ielādējiet lapu un mēģiniet vēlreiz.",
                 "generic_cross_origin_message": "Hmm! Vairākas izcelsmes pieprasījuma laikā radās problēma. Lūdzu, atkārtoti ielādējiet lapu un mēģiniet vēlreiz.",
                 "missing_dependencies_message": "Nevar iespējot {extension}, kamēr nav iespējoti šie paplašinājumi: {extensions}",
+                "network_message": "",
                 "not_found_message": "Pieprasītais resurss netika atrasts.",
+                "offline_message": "",
                 "payload_too_large_message": "Pieprasījuma slodze bija pārāk liela.",
                 "permission_denied_message": "Jums nav atļaujas to darīt.",
                 "rate_limit_exceeded_message": "Tu esi mazliet par ātri. Pēc dažām sekundēm mēģini vēlreiz.",

@@ -573,6 +573,7 @@
             }
         },
         "lib": {
+            "connection_restored_message": "",
             "debug_button": "Дебъг",
             "alert": {
                 "dismiss_a11y_label": "Отхвърли предупреждението"
@@ -607,7 +608,9 @@
                 "generic_message": "Опа! Нещо се обърка. Моля, презаредете страницата и опитайте отново.",
                 "generic_cross_origin_message": "Опа! Нещо се обърка по време на заявка между различни произходи. Моля, презаредете страницата и опитайте отново.",
                 "missing_dependencies_message": "{extension} не може да бъде активирано, докато следните зависимости са активирани: {extensions}",
+                "network_message": "",
                 "not_found_message": "Исканият ресурс не е намерен.",
+                "offline_message": "",
                 "payload_too_large_message": "Обемът на заявката е твърде голям.",
                 "permission_denied_message": "Нямате права да направите това.",
                 "rate_limit_exceeded_message": "Вие се движите твърде бързо. Моля, опитайте отново след няколко секунди.",

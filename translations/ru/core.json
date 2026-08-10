@@ -576,6 +576,7 @@
             }
         },
         "lib": {
+            "connection_restored_message": "",
             "debug_button": "Отладка",
             "alert": {
                 "dismiss_a11y_label": "Закрыть"
@@ -610,7 +611,9 @@
                 "generic_message": "Упс! Что-то пошло не так. Пожалуйста, обновите страницу и попробуйте ещё раз.",
                 "generic_cross_origin_message": "Упс! Что-то пошло не так при выполнении запроса cross-origin. Пожалуйста, обновите страницу и попробуйте ещё раз.",
                 "missing_dependencies_message": "Невозможно включить {extension}, пока не будут включены следующие зависимые расширения: {extensions}",
+                "network_message": "",
                 "not_found_message": "Запрашиваемый ресурс не найден.",
+                "offline_message": "",
                 "payload_too_large_message": "Нагрузка при запросе была слишком большая.",
                 "permission_denied_message": "У вас нет прав доступа для выполнения этого действия.",
                 "rate_limit_exceeded_message": "Вы размещаете сообщения слишком часто. Пожалуйста, попробуйте ещё раз через несколько секунд.",

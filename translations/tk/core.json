@@ -573,6 +573,7 @@
             }
         },
         "lib": {
+            "connection_restored_message": "",
             "debug_button": "Debug",
             "alert": {
                 "dismiss_a11y_label": "Duýduryşy ýatyr"
@@ -607,7 +608,9 @@
                 "generic_message": "Ups! Bir zat nädogry boldy. Sahypany täzeden açyň we gaýtadan synanyşyň.",
                 "generic_cross_origin_message": "Ups! Cross-origin haýyşy ugradylanda bir zat ýalňyş gitdi. Sahypany täzeläň we gaýtadan synanyşyň.",
                 "missing_dependencies_message": "Aşakdaky garaşlylyklar işjeň bolýança {extension} işledip bolmaýar: {extensions}",
+                "network_message": "",
                 "not_found_message": "Talap edilýän çeşme tapylmady.",
+                "offline_message": "",
                 "payload_too_large_message": "Islegiňiziň ýüki gaty ulydy.",
                 "permission_denied_message": "Muny etmäge rugsadyňyz ýok.",
                 "rate_limit_exceeded_message": "Biraz çalt gidýärsiňiz. Birnäçe sekuntdan soň gaýtadan synanyşmagyňyzy haýyş edýäris.",

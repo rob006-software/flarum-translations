@@ -573,6 +573,7 @@
             }
         },
         "lib": {
+            "connection_restored_message": "",
             "debug_button": "",
             "alert": {
                 "dismiss_a11y_label": ""
@@ -607,7 +608,9 @@
                 "generic_message": "Iepa! Zerbait gaizki joan da. Freskatu orria eta saia zaitez berriro.",
                 "generic_cross_origin_message": "",
                 "missing_dependencies_message": "Ezin da {extension} aktibatu bere dependentziak aktibatu harte: {extensions}",
+                "network_message": "",
                 "not_found_message": "Eskatutako errekurtsoa ez da aurkitu.",
+                "offline_message": "",
                 "payload_too_large_message": "",
                 "permission_denied_message": "Ez daukazu hori egiteko baimenaik.",
                 "rate_limit_exceeded_message": "Oso azkar zabiltza. Saiatu berriro segundu batzuk ondoren.",

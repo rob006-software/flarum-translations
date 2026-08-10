@@ -573,6 +573,7 @@
             }
         },
         "lib": {
+            "connection_restored_message": "",
             "debug_button": "Debug",
             "alert": {
                 "dismiss_a11y_label": "Zavrni opozorilo"
@@ -607,7 +608,9 @@
                 "generic_message": "Ups! Nešto je pošlo po zlu. Ponovno učitajte stranicu i pokušajte ponovno, molimo.",
                 "generic_cross_origin_message": "Oops! Nekaj je šlo narobe med zahtevo iz drugega vira. Prosimo, osvežite stran in poskusite znova.",
                 "missing_dependencies_message": "Nemoguće omogućavanje {extension} bez uključivanja sljedećih proširenja: {extensions}",
+                "network_message": "",
                 "not_found_message": "Traženi resurs nije pronađen.",
+                "offline_message": "",
                 "payload_too_large_message": "Zahtevek je bil prevelik.",
                 "permission_denied_message": "Nemate dozvolu za to.",
                 "rate_limit_exceeded_message": "Malo ste prebrzi. Pokušajte ponovno za par sekundi, molimo.",

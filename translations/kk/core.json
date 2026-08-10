@@ -573,6 +573,7 @@
             }
         },
         "lib": {
+            "connection_restored_message": "",
             "debug_button": "Тексеру",
             "alert": {
                 "dismiss_a11y_label": "Жабу"
@@ -607,7 +608,9 @@
                 "generic_message": "Ой! Бірдеңе дұрыс болмады. Бетті жаңартып, әрекетті қайталаңыз.",
                 "generic_cross_origin_message": "Ой! Сұрауды өңдеу кезінде бірдеңе дұрыс болмады. Бетті жаңартып, әрекетті қайталаңыз.",
                 "missing_dependencies_message": "Келесі тәуелді кеңейтімдер қосылмайынша, {extension} қосу мүмкін емес: {extensions}",
+                "network_message": "",
                 "not_found_message": "Сұралған ресурс табылмады.",
+                "offline_message": "",
                 "payload_too_large_message": "Сұраныс жүктемесі тым жоғары болды.",
                 "permission_denied_message": "Бұл әрекетті орындауға рұқсат құқығыңыз жоқ.",
                 "rate_limit_exceeded_message": "Сіз тым жиі пост жазасыз. Бірнеше секундтан кейін әрекетті қайталаңыз.",

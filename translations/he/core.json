@@ -573,6 +573,7 @@
             }
         },
         "lib": {
+            "connection_restored_message": "",
             "debug_button": "Debug",
             "alert": {
                 "dismiss_a11y_label": "הסתרת התראה"
@@ -607,7 +608,9 @@
                 "generic_message": "אופס! משהו השתמש. רענן את הדף ונסה שוב.",
                 "generic_cross_origin_message": "אופס! משהו השתבש בזמן בקשת cross-origin. טענו את העמוד מחדש ונסו שנית.",
                 "missing_dependencies_message": "אין אפשרות להפעיל את ההרחבה {extension} עד שלא יופעלו ההרחבות הבאות: {extensions}",
+                "network_message": "",
                 "not_found_message": "המקור המבוקש לא נמצא.",
+                "offline_message": "",
                 "payload_too_large_message": "הבקשה גדולה מדי לטעינה.",
                 "permission_denied_message": "אין לך גישה לעשות את זה.",
                 "rate_limit_exceeded_message": "פעולותיך מהירות מדי. נסה שוב עוד כמה שניות.",

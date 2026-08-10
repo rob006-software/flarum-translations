@@ -576,6 +576,7 @@
             }
         },
         "lib": {
+            "connection_restored_message": "",
             "debug_button": "Hata Ayıklama",
             "alert": {
                 "dismiss_a11y_label": "Uyarıyı kapat"
@@ -610,7 +611,9 @@
                 "generic_message": "Oops! Bir şeyler yanlış gitti. Lütfen sayfayı yenileyin ve tekrar deneyin.",
                 "generic_cross_origin_message": "Oops! Kaynaklar arası istek sırasında bir şeyler ters gitti. Lütfen sayfayı yeniden yükleyin ve tekrar deneyin.",
                 "missing_dependencies_message": "{extension} şu uzantı aktif edilmeden önce aktif edilemez: {extensions}",
+                "network_message": "",
                 "not_found_message": "İstenen kaynak bulunamadı.",
+                "offline_message": "",
                 "payload_too_large_message": "İstek yükü çok büyük.",
                 "permission_denied_message": "Bunu yapmaya yetkiniz bulunmuyor.",
                 "rate_limit_exceeded_message": "Biraz fazla hızlı gidiyorsun. Lütfen birkaç saniye içinde tekrar dene.",

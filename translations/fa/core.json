@@ -622,6 +622,7 @@
             }
         },
         "lib": {
+            "connection_restored_message": "",
             "debug_button": "دیباگ",
             "alert": {
                 "dismiss_a11y_label": "لغو هشدار"
@@ -656,7 +657,9 @@
                 "generic_message": "متأسفانه خطایی رخ داد. لطفاً صفحه را دوباره بارگذاری کنید.",
                 "generic_cross_origin_message": "خطایی هنگام اجرای این درخواست رخ داده است. لطفا\" صفحه را بارگذاری مجدد کنید سپس تلاش کنید.",
                 "missing_dependencies_message": "تا زمانی که وابستگی‌های زیر فعال نشده باشند، نمی‌توان {extension} را فعال کرد: {extensions}",
+                "network_message": "",
                 "not_found_message": "یافت نشد.",
+                "offline_message": "",
                 "payload_too_large_message": "بار درخواست خیلی بزرگ بود.",
                 "permission_denied_message": "شما دسترسی لازم برای انجام این کار را ندارید.",
                 "rate_limit_exceeded_message": "سرعت عمل شما خیلی زیاد است. لطفاً کمی صبر کنید.",

@@ -573,6 +573,7 @@
             }
         },
         "lib": {
+            "connection_restored_message": "",
             "debug_button": "",
             "alert": {
                 "dismiss_a11y_label": ""
@@ -607,7 +608,9 @@
                 "generic_message": "Vaia! Algo malo pasou. Por favor, recarga a páxina e inténtao de novo.",
                 "generic_cross_origin_message": "",
                 "missing_dependencies_message": "",
+                "network_message": "",
                 "not_found_message": "Non se atopou o recurso que estabas buscando.",
+                "offline_message": "",
                 "payload_too_large_message": "",
                 "permission_denied_message": "Non tes permiso para facer isto.",
                 "rate_limit_exceeded_message": "Estas indo demasiado rápido. Por favor, inténtao de novo dentro duns segundos.",

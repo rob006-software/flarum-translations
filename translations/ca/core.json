@@ -573,6 +573,7 @@
             }
         },
         "lib": {
+            "connection_restored_message": "",
             "debug_button": "Depurar",
             "alert": {
                 "dismiss_a11y_label": "Descartar l'alerta"
@@ -607,7 +608,9 @@
                 "generic_message": "Vaja! Alguna cosa ha anat malament. Si us plau, torna a carregar la pàgina i prova-ho un altre cop.",
                 "generic_cross_origin_message": "Vaja! Alguna cosa ha anat malament durant una petició d'origen creuat. Si us plau, torna a carregar la pàgina i prova-ho un altre cop.",
                 "missing_dependencies_message": "No es pot activar {extension} fins que les següents dependències s'hagin activat també: {extensions}",
+                "network_message": "",
                 "not_found_message": "No s'ha trobat el recurs sol·licitat.",
+                "offline_message": "",
                 "payload_too_large_message": "La informació a carregar era massa gran.",
                 "permission_denied_message": "No tens permisos per fer aquesta acció.",
                 "rate_limit_exceeded_message": "Vas massa ràpid. Si us plau, prova-ho novament d'aquí a uns segons.",

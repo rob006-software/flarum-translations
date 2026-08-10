@@ -573,6 +573,7 @@
             }
         },
         "lib": {
+            "connection_restored_message": "",
             "debug_button": "デバッグ",
             "alert": {
                 "dismiss_a11y_label": "通知を閉じる"
@@ -607,7 +608,9 @@
                 "generic_message": "エラーが発生しました。ページを更新して再度お試しください。",
                 "generic_cross_origin_message": "cross-originリクエスト中にエラーが発生しました。ページを更新して再度お試しください。",
                 "missing_dependencies_message": "以下の依存関係にある拡張機能を有効化するまで、{extension}を有効化できません。: {extensions}",
+                "network_message": "",
                 "not_found_message": "要求されたリソースが見つかりませんでした。",
+                "offline_message": "",
                 "payload_too_large_message": "要求のデータサイズが大きすぎます。",
                 "permission_denied_message": "この操作を実行する権限がありません。",
                 "rate_limit_exceeded_message": "操作が早すぎます。数秒後に再度お試しください。",

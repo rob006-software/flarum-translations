@@ -576,6 +576,7 @@
             }
         },
         "lib": {
+            "connection_restored_message": "",
             "debug_button": "Vianetsintä",
             "alert": {
                 "dismiss_a11y_label": "Poista ilmoitus"
@@ -610,7 +611,9 @@
                 "generic_message": "Hups! Jotain meni pieleen. Päivitä sivu ja yritä uudelleen.",
                 "generic_cross_origin_message": "Hups! Jotain meni pieleen cross-origin pyynnössä. Päivitä sivu ja yritä uudelleen.",
                 "missing_dependencies_message": "Lisäosaa {extension} ei voida ottaa käyttöön ennen kuin seuraavat lisäosat on otettu käyttöön: {extensions}",
+                "network_message": "",
                 "not_found_message": "Pyydettyä resurssia ei löytynyt.",
+                "offline_message": "",
                 "payload_too_large_message": "Pyydetty kuorma (payload) oli liian iso.",
                 "permission_denied_message": "Sinulla ei ole oikeuksia tehdä sitä.",
                 "rate_limit_exceeded_message": "Toimit hieman liian nopeasti. Yritä uudelleen muutaman sekunnin kuluttua.",

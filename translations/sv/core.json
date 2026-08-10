@@ -596,6 +596,7 @@
             }
         },
         "lib": {
+            "connection_restored_message": "",
             "debug_button": "Debug",
             "alert": {
                 "dismiss_a11y_label": "Avfärda varning"
@@ -630,7 +631,9 @@
                 "generic_message": "Hoppsan! Något gick fel. Vänligen ladda om sidan och försök igen.",
                 "generic_cross_origin_message": "Hoppsan! Något gick fel under en förfrågan mellan olika ursprung. Var vänlig ladda om sidan och försök igen.",
                 "missing_dependencies_message": "Cannot enable {extension} until the following dependencies are enabled: {extensions}",
+                "network_message": "",
                 "not_found_message": "Den begärda resursen hittades inte.",
+                "offline_message": "",
                 "payload_too_large_message": "Innehållet i svaret var för stort.",
                 "permission_denied_message": "Du saknar rättigheterna för att göra det.",
                 "rate_limit_exceeded_message": "Du är lite för snabb. Försök igen om några sekunder.",

@@ -573,6 +573,7 @@
             }
         },
         "lib": {
+            "connection_restored_message": "",
             "debug_button": "Depanare",
             "alert": {
                 "dismiss_a11y_label": "Închide"
@@ -607,7 +608,9 @@
                 "generic_message": "Hopa! Ceva nu a mers. Vă rugăm, încărcați pagina din nou (F5) și încercați din nou.",
                 "generic_cross_origin_message": "Hopa! Ceva nu a funcționat corect în timpul unei solicitări între origini (cross-origin). Te rugăm să reîncarci pagina și să încerci din nou.",
                 "missing_dependencies_message": "Extensia {extension} nu poate fi activată până când următoarele dependențe sunt dezactivate: {extensions}",
+                "network_message": "",
                 "not_found_message": "Resursa solicitată nu a fost găsită.",
+                "offline_message": "",
                 "payload_too_large_message": "Datele utile ale cererii au fost prea mari.",
                 "permission_denied_message": "Nu aveți permisiunea de a face acest lucru.",
                 "rate_limit_exceeded_message": "Faceți totul prea rapid. Vă rugăm, încercați din nou peste câteva secunde.",

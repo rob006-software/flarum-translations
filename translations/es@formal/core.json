@@ -614,6 +614,7 @@
             }
         },
         "lib": {
+            "connection_restored_message": "",
             "debug_button": "Depurar",
             "alert": {
                 "dismiss_a11y_label": "Descartar la alerta"
@@ -648,7 +649,9 @@
                 "generic_message": "¡Caramba! Algo salió mal. Por favor, cargue de nuevo la página y vuelva a intentarlo.",
                 "generic_cross_origin_message": "¡Ups! Algo salió mal durante una solicitud de origen cruzado. Vuelve a cargar la página e inténtalo de nuevo.",
                 "missing_dependencies_message": "No se puede activar {extension} hasta que se activen las siguientes extensiones dependientes: {extensions}",
+                "network_message": "",
                 "not_found_message": "¡Recórcholis! El recurso solicitado no fue encontrado.",
+                "offline_message": "",
                 "payload_too_large_message": "La solicitud de carga era demasiado grande.",
                 "permission_denied_message": "¡Nanay de la China! No tiene permiso para hacer eso.",
                 "rate_limit_exceeded_message": "¡Pare el carro! Va usted muy rápido. Por favor, vuelva a intentarlo en unos segundos.",

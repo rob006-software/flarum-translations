@@ -576,6 +576,7 @@
             }
         },
         "lib": {
+            "connection_restored_message": "",
             "debug_button": "Sazlama (Debug)",
             "alert": {
                 "dismiss_a11y_label": "Xəbərdarlığı rədd et"
@@ -610,7 +611,9 @@
                 "generic_message": "Xəta baş verdi. Səhifəni yenidən yükləyin və yenidən cəhd edin.",
                 "generic_cross_origin_message": "Çarpaz mənbə (cross-origin) sorğusu zamanı xəta baş verdi. Səhifəni yenidən yükləyin və yenidən cəhd edin.",
                 "missing_dependencies_message": "Aşağıdakı asılılıqlar aktiv olana qədər {extension} aktiv edilə bilməz: {extension}",
+                "network_message": "",
                 "not_found_message": "Tələb olunan resurs tapılmadı.",
+                "offline_message": "",
                 "payload_too_large_message": "Sorğu yükü çox böyük idi.",
                 "permission_denied_message": "Bunu etmək üçün icazəniz yoxdur.",
                 "rate_limit_exceeded_message": "Bir neçə saniyədən sonra yenidən cəhd edin.",

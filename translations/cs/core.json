@@ -573,6 +573,7 @@
             }
         },
         "lib": {
+            "connection_restored_message": "",
             "debug_button": "Debugovat",
             "alert": {
                 "dismiss_a11y_label": "Zrušit upozornění"
@@ -607,7 +608,9 @@
                 "generic_message": "Jejda! Něco se pokazilo. Znovu načtěte stránku a zkuste to znovu.",
                 "generic_cross_origin_message": "Jejda! Při požadavku typu cross-origin se něco pokazilo. Znovu načtěte stránku a zkuste to znovu.",
                 "missing_dependencies_message": "Není možné povolit {extension} dokud nejsou povolena tato rozšíření: {extensions}",
+                "network_message": "",
                 "not_found_message": "Požadovaný zdroj nebyl nalezen.",
+                "offline_message": "",
                 "payload_too_large_message": "Datová část požadavku byla příliš velká.",
                 "permission_denied_message": "Na tuto operaci nemáte dostatečná práva.",
                 "rate_limit_exceeded_message": "Jste moc rychlý. Zkuste to za několik sekund znovu.",

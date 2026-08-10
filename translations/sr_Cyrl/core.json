@@ -573,6 +573,7 @@
             }
         },
         "lib": {
+            "connection_restored_message": "",
             "debug_button": "Дебагирај",
             "alert": {
                 "dismiss_a11y_label": "Одбаци упозорење"
@@ -607,7 +608,9 @@
                 "generic_message": "Сто му громова! Нешто пошло наопако. Поново учитајте ову страницу и покушајте поново.",
                 "generic_cross_origin_message": "Сто му громова! Нешто је пошло наопако са cross-origin захтевом. Поново учитајте страницу и покушајте још једном.",
                 "missing_dependencies_message": "Немогуће је укључити {extension} уколико не укључите додатке од којих он зависи: {extensions}",
+                "network_message": "",
                 "not_found_message": "Тражени ресурс није пронађен.",
+                "offline_message": "",
                 "payload_too_large_message": "Товар захтева је превелик.",
                 "permission_denied_message": "Немате потребне дозволе да би сте то урадили.",
                 "rate_limit_exceeded_message": "Превише сте брзи. Покушајте поново за неколико секунди.",

@@ -576,6 +576,7 @@
             }
         },
         "lib": {
+            "connection_restored_message": "",
             "debug_button": "",
             "alert": {
                 "dismiss_a11y_label": ""
@@ -610,7 +611,9 @@
                 "generic_message": "",
                 "generic_cross_origin_message": "",
                 "missing_dependencies_message": "",
+                "network_message": "",
                 "not_found_message": "",
+                "offline_message": "",
                 "payload_too_large_message": "",
                 "permission_denied_message": "",
                 "rate_limit_exceeded_message": "",

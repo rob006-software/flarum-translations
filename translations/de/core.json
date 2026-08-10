@@ -576,6 +576,7 @@
             }
         },
         "lib": {
+            "connection_restored_message": "",
             "debug_button": "Debug",
             "alert": {
                 "dismiss_a11y_label": "Warnung schließen"
@@ -610,7 +611,9 @@
                 "generic_message": "Ups! Da ist was schief gelaufen. Bitte lade die Seite neu oder versuche es erneut.",
                 "generic_cross_origin_message": "Ups! Bei einer Cross-Origin-Anfrage ist etwas schief gelaufen. Bitte lade die Seite neu und versuche es erneut.",
                 "missing_dependencies_message": "Die Erweiterung {extension} kann nicht aktiviert werden, bis die folgenden abhängigen Erweiterungen aktiviert wurden: {extensions}",
+                "network_message": "",
                 "not_found_message": "Leider wurde nichts gefunden.",
+                "offline_message": "",
                 "payload_too_large_message": "Die Datenmenge der Anfrage war zu groß.",
                 "permission_denied_message": "Du hast keine Berechtigung dies zu tun.",
                 "rate_limit_exceeded_message": "Nicht so schnell. Bitte versuche es in Kürze erneut.",

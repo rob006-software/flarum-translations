@@ -573,6 +573,7 @@
             }
         },
         "lib": {
+            "connection_restored_message": "",
             "debug_button": "Debug",
             "alert": {
                 "dismiss_a11y_label": "Hişyariyê biavêjin"
@@ -607,7 +608,9 @@
                 "generic_message": "Oops! Tiştek xelet derket. Ji kerema xwe rûpelê nû bar bike û dîsa biceribîne.",
                 "generic_cross_origin_message": "Oops! Di dema daxwazek xaçepirsînê de tiştek xelet derket. Ji kerema xwe rûpelê nû bar bike û dîsa biceribîne.",
                 "missing_dependencies_message": "Nekare {extension} çalak bike heya ku girêdayîbûna jêrîn neyên çalak kirin: {extensions}",
+                "network_message": "",
                 "not_found_message": "Çavkaniya daxwazkirî nehat dîtin.",
+                "offline_message": "",
                 "payload_too_large_message": "Barkirina daxwazê pir mezin bû.",
                 "permission_denied_message": "Destûra we tune ku hûn vê bikin.",
                 "rate_limit_exceeded_message": "Hûn hinekî bi lez diçin. Ji kerema xwe di çend saniyan de dîsa biceribîne.",

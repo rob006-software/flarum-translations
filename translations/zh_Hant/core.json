@@ -573,6 +573,7 @@
             }
         },
         "lib": {
+            "connection_restored_message": "",
             "debug_button": "除錯",
             "alert": {
                 "dismiss_a11y_label": "忽略警告"
@@ -607,7 +608,9 @@
                 "generic_message": "糟糕，出錯啦！請重新整理頁面再試一次。",
                 "generic_cross_origin_message": "哎呀！跨來源請求時出現問題；請重新整理頁面，然後再試一次。",
                 "missing_dependencies_message": "無法啟用「{extension}」，請先啟用依賴擴充套件「{extensions}」",
+                "network_message": "",
                 "not_found_message": "請求的資源不存在。",
+                "offline_message": "",
                 "payload_too_large_message": "請求負載過大。",
                 "permission_denied_message": "沒有權限執行此操作。",
                 "rate_limit_exceeded_message": "操作太頻繁，請稍後再試。",

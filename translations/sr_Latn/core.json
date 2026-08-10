@@ -573,6 +573,7 @@
             }
         },
         "lib": {
+            "connection_restored_message": "",
             "debug_button": "Otklanjanje grešaka",
             "alert": {
                 "dismiss_a11y_label": "Odbaci upozorenje"
@@ -607,7 +608,9 @@
                 "generic_message": "Sto mu gromova! Nešto pošlo naopako. Ponovo učitajte ovu stranicu i pokušajte ponovo.",
                 "generic_cross_origin_message": "Sto mu gromova! Nešto je pošlo naopako sa cross-origin zahtevom. Ponovo učitajte stranicu i pokušajte još jednom.",
                 "missing_dependencies_message": "Ne možete omogućiti {extension} dok se ne omogući sledeće: {extensions}",
+                "network_message": "",
                 "not_found_message": "Traženi resurs nije pronađen.",
+                "offline_message": "",
                 "payload_too_large_message": "Tovar zahteva je prevelik.",
                 "permission_denied_message": "Nemate potrebne dozvole da bi ste to uradili.",
                 "rate_limit_exceeded_message": "Previše ste brzi. Pokušajte ponovo za nekoliko sekundi.",

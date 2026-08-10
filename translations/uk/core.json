@@ -573,6 +573,7 @@
             }
         },
         "lib": {
+            "connection_restored_message": "",
             "debug_button": "Налагодження",
             "alert": {
                 "dismiss_a11y_label": "Відбій тривоги"
@@ -607,7 +608,9 @@
                 "generic_message": "Ой! Будь ласка, оновіть сторінку та спробуйте ще раз.",
                 "generic_cross_origin_message": "Ой! Щось пішло не так під час перехресного запиту на походження. Будь ласка, перезавантажте сторінку і спробуйте ще раз.",
                 "missing_dependencies_message": "Неможливо ввімкнути {extension}, доки не ввімкнемо такі залежності: {extensions}",
+                "network_message": "",
                 "not_found_message": "Ресурс не знайдено.",
+                "offline_message": "",
                 "payload_too_large_message": "Корисне навантаження запиту було занадто великим.",
                 "permission_denied_message": "У вас немає прав доступу для виконання цієї дії.",
                 "rate_limit_exceeded_message": "Ви рухаєтесь занадто швидко. Будь ласка, спробуйте ще раз через кілька секунд.",

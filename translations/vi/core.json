@@ -576,6 +576,7 @@
             }
         },
         "lib": {
+            "connection_restored_message": "",
             "debug_button": "Gỡ lỗi",
             "alert": {
                 "dismiss_a11y_label": "Ẩn cảnh báo"
@@ -610,7 +611,9 @@
                 "generic_message": "Rất tiếc! Đã xảy ra lỗi. Vui lòng tải lại trang và thử lại.",
                 "generic_cross_origin_message": "Rất tiếc! Đã xảy ra lỗi trong một yêu cầu cross-origin. Vui lòng tải lại trang và thử lại.",
                 "missing_dependencies_message": "Không thể kích hoạt {extension} cho đến khi các tiện ích mở rộng phụ thuộc sau được kích hoạt: {extensions}",
+                "network_message": "",
                 "not_found_message": "Không tìm thấy tài nguyên được yêu cầu.",
+                "offline_message": "",
                 "payload_too_large_message": "Dữ liệu của yêu cầu quá lớn.",
                 "permission_denied_message": "Bạn không có quyền để làm điều này.",
                 "rate_limit_exceeded_message": "Bạn thao tác hơi nhanh quá. Vui lòng thử lại sau vài giây.",

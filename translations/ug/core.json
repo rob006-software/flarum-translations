@@ -573,6 +573,7 @@
             }
         },
         "lib": {
+            "connection_restored_message": "",
             "debug_button": "چاتاق ئىزدەش",
             "alert": {
                 "dismiss_a11y_label": "ئاگاھلاندۇرۇشنى يېپىش"
@@ -607,7 +608,9 @@
                 "generic_message": "ئاپلا! بىر خاتالىق يۈز بەردى. بەتنى يېڭىلاپ سىناپ كۆرۈڭ.",
                 "generic_cross_origin_message": "ئاپلا! بەتلەر ئارا مۇلازىمەتنى بىر تەرەپ قىلىشتا خاتالىق كۆرۈلدى، بەتنى يېڭىلاپ ئاندىن قايتا سىناڭ.",
                 "missing_dependencies_message": "{extensions} لار ئېچىلمىغىچە {extension}نى ئاچقىلى بولمايدۇ",
+                "network_message": "",
                 "not_found_message": "سورالغان ئەشيا تېپىلمىدى.",
+                "offline_message": "",
                 "payload_too_large_message": "ئىلتىماسنىڭ يۈكلىمىسى بەك چوڭ.",
                 "permission_denied_message": "سىزنىڭ بۇنىڭغا رۇخسىتىڭىز يوق.",
                 "rate_limit_exceeded_message": "سىز بەك تېز مەشغۇلات قىلىۋاتىسىز. بىر نەچچە سىكۇنت ساقلاڭ.",

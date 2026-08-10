@@ -573,6 +573,7 @@
             }
         },
         "lib": {
+            "connection_restored_message": "",
             "debug_button": "Feilsøk",
             "alert": {
                 "dismiss_a11y_label": "Avvis varsel"
@@ -607,7 +608,9 @@
                 "generic_message": "Oops! Noe gikk galt. Last inn siden på nytt og prøv igjen.",
                 "generic_cross_origin_message": "Oops! Noe gikk galt under en forespørsel om kryssopprinnelse. Last inn siden på nytt og prøv igjen.",
                 "missing_dependencies_message": "Kan ikke aktivere {extension} før følgende avhengigheter er aktivert: {extensions}",
+                "network_message": "",
                 "not_found_message": "Den forespurte ressursen ble ikke funnet.",
+                "offline_message": "",
                 "payload_too_large_message": "Forespørselsnyttelasten var for stor.",
                 "permission_denied_message": "Du har ikke tillatelse til å gjøre det.",
                 "rate_limit_exceeded_message": "Du går litt for fort frem. Prøv igjen om noen sekunder.",

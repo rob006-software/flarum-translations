@@ -573,6 +573,7 @@
             }
         },
         "lib": {
+            "connection_restored_message": "",
             "debug_button": "Déboguer",
             "alert": {
                 "dismiss_a11y_label": "Rejeter l'alerte"
@@ -607,7 +608,9 @@
                 "generic_message": "Oups ! Une erreur est survenue. Veuillez actualiser la page puis réessayer.",
                 "generic_cross_origin_message": "Oups ! Un problème s'est produit lors d'une demande d'origine croisée. Veuillez recharger la page puis réessayer.",
                 "missing_dependencies_message": "Impossible d'activer {extension} tant que les dépendances suivantes ne sont pas activées : {extensions}",
+                "network_message": "",
                 "not_found_message": "La ressource demandée est introuvable.",
+                "offline_message": "",
                 "payload_too_large_message": "La charge utile de la requête est trop élevée.",
                 "permission_denied_message": "Vous n'avez pas l'autorisation de faire cela.",
                 "rate_limit_exceeded_message": "Vous allez un peu trop vite. Veuillez réessayer dans quelques secondes.",

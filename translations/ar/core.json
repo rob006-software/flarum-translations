@@ -575,6 +575,7 @@
             }
         },
         "lib": {
+            "connection_restored_message": "",
             "debug_button": "التّصحيح",
             "alert": {
                 "dismiss_a11y_label": "تجاهل التّنبيه"
@@ -609,7 +610,9 @@
                 "generic_message": "أُووبس! هناك خطأ ما. يرجى إعادة تحميل الصّفحة والمحاولة مرّة أخرى.",
                 "generic_cross_origin_message": "عفواً! حدث خطأ أثناء طلب متعدد المصادر. يُرجى إعادة تحميل الصفحة والمحاولة مرة أخرى.",
                 "missing_dependencies_message": "لا يُمكن تمكين {extension} حتى يتمّ تمكين التّبعات التّالية: {extensions}",
+                "network_message": "",
                 "not_found_message": "لم يتمّ العثور على المورد المطلوب.",
+                "offline_message": "",
                 "payload_too_large_message": "حمولة الطّلب كانت كبيرة جدًا.",
                 "permission_denied_message": "ليس لديك إذن من الإدارة للقيام بذلك.",
                 "rate_limit_exceeded_message": "أنت تسير بسرعة كبيرة قليلا. يرجى المحاولة مرّة أخرى بعد بضع ثوان.",

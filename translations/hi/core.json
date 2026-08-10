@@ -576,6 +576,7 @@
             }
         },
         "lib": {
+            "connection_restored_message": "",
             "debug_button": "डिबग",
             "alert": {
                 "dismiss_a11y_label": "अलर्ट खारिज करें"
@@ -610,7 +611,9 @@
                 "generic_message": "उफ़! कुछ गलत हो गया। कृपया पेज लोड करें और पुन: प्रयास करें।",
                 "generic_cross_origin_message": "उफ़! क्रॉस-ओरिजिन अनुरोध के दौरान कुछ अप्रत्याशित हुआ। कृपया पेज लोड करें और पुन: प्रयास करें।",
                 "missing_dependencies_message": "निम्न निर्भरताएँ सक्षम होने तक {extension} को सक्षम नहीं किया जा सकता: {extensions}",
+                "network_message": "",
                 "not_found_message": "अनुरोधित संसाधन नहीं मिला।",
+                "offline_message": "",
                 "payload_too_large_message": "अनुरोध पेलोड बहुत बड़ा था।",
                 "permission_denied_message": "आपको ऐसा करने की अनुमति नहीं है।",
                 "rate_limit_exceeded_message": "आप थोड़ी जल्दी कर रहे हो। कृपया कुछ क्षणों में पुन: प्रयास करें।",

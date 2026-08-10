@@ -574,6 +574,7 @@
             }
         },
         "lib": {
+            "connection_restored_message": "",
             "debug_button": "Debug",
             "alert": {
                 "dismiss_a11y_label": "Warnung schließen"
@@ -608,7 +609,9 @@
                 "generic_message": "Es tut uns leid! Es ist ein Fehler aufgetreten. Bitte laden Sie die Seite neu und versuchen Sie es erneut.",
                 "generic_cross_origin_message": "Es tut uns leid! Bei einer Cross-Origin-Anfrage ist ein Problem aufgetreten. Bitte laden Sie die Seite neu und versuchen Sie es erneut.",
                 "missing_dependencies_message": "Die Erweiterung {extension} kann nicht aktiviert werden, bis die folgenden abhängigen Erweiterungen aktiviert wurden: {extensions}",
+                "network_message": "",
                 "not_found_message": "Leider wurde nichts gefunden.",
+                "offline_message": "",
                 "payload_too_large_message": "Die Datenmenge der Anfrage war zu groß.",
                 "permission_denied_message": "Sie haben keine Berechtigung, dies zu tun.",
                 "rate_limit_exceeded_message": "Bitte nicht so schnell. Versuchen Sie es in Kürze erneut.",

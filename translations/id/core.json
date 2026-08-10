@@ -573,6 +573,7 @@
             }
         },
         "lib": {
+            "connection_restored_message": "",
             "debug_button": "Debug",
             "alert": {
                 "dismiss_a11y_label": "Singkirkan peringatan"
@@ -607,7 +608,9 @@
                 "generic_message": "Ups! Ada yang tidak beres. Silakan muat ulang halaman dan coba lagi.",
                 "generic_cross_origin_message": "Ups! Terjadi kesalahan saat melakukan cross-origin request. Silakan muat ulang halaman dan coba lagi.",
                 "missing_dependencies_message": "Tidak dapat mengaktifkan {extension} sebelum dependensi berikut diaktifkan: {extensions}",
+                "network_message": "",
                 "not_found_message": "Resource yang diminta tidak ditemukan.",
+                "offline_message": "",
                 "payload_too_large_message": "Request payload terlalu besar.",
                 "permission_denied_message": "Anda tidak memiliki izin untuk melakukan itu.",
                 "rate_limit_exceeded_message": "Anda terlihat terlalu cepat. Silakan coba lagi dalam beberapa detik.",

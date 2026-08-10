@@ -573,6 +573,7 @@
             }
         },
         "lib": {
+            "connection_restored_message": "",
             "debug_button": "",
             "alert": {
                 "dismiss_a11y_label": ""
@@ -607,7 +608,9 @@
                 "generic_message": "უი! Რაღაც არასწორად წავიდა. გთხოვთ, გადატვირთოთ გვერდი და ისევ სცადოთ.",
                 "generic_cross_origin_message": "",
                 "missing_dependencies_message": "შეუძელებლია {extension} გაფართოების ჩართვა, სანამ შემდეგი გაფართოებები ჩართულია: {extensions}",
+                "network_message": "",
                 "not_found_message": "მოთხოვნილი რესურსი ვერ მოიძებნა.",
+                "offline_message": "",
                 "payload_too_large_message": "",
                 "permission_denied_message": "თქვენ არ გაქვთ ამის ნებართვა.",
                 "rate_limit_exceeded_message": "ცოტა სწრაფად მიდიხარ. გთხოვთ, სცადოთ ხელახლა რამდენიმე წამში.",

@@ -573,6 +573,7 @@
             }
         },
         "lib": {
+            "connection_restored_message": "",
             "debug_button": "",
             "alert": {
                 "dismiss_a11y_label": "Skjul besked"
@@ -607,7 +608,9 @@
                 "generic_message": "Ups! Noget gik galt. Genindlæs siden og prøv igen.",
                 "generic_cross_origin_message": "",
                 "missing_dependencies_message": "",
+                "network_message": "",
                 "not_found_message": "Den forespurgte resurse blev ikke fundet.",
+                "offline_message": "",
                 "payload_too_large_message": "Forespørgslen var for stor.",
                 "permission_denied_message": "Du har ikke tilladelse til at gøre dette.",
                 "rate_limit_exceeded_message": "Du er lidt for hurtig. Prøv venligst igen om få sekunder.",

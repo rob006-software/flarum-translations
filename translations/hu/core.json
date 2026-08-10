@@ -621,6 +621,7 @@
             }
         },
         "lib": {
+            "connection_restored_message": "",
             "debug_button": "Hibakeresés",
             "alert": {
                 "dismiss_a11y_label": "Figyelmeztetés eltüntetése"
@@ -655,7 +656,9 @@
                 "generic_message": "Hoppá! Valami hiba történt. Frissítse az oldalt és próbálja meg újra.",
                 "generic_cross_origin_message": "Hoppá! Hiba történt a nem egyező eredetű kérésnél. Töltse újra az oldalt, és próbálja újra.",
                 "missing_dependencies_message": "Nem engedélyezheti a(z) {extension} bővítményt, amíg a következő bővítmények le vannak tiltva: {extensions}",
+                "network_message": "",
                 "not_found_message": "A kért erőforrás nem található.",
+                "offline_message": "",
                 "payload_too_large_message": "A kérés mérete túl nagy volt.",
                 "permission_denied_message": "Nem rendelkezik a megfelelő engedélyekkel.",
                 "rate_limit_exceeded_message": "Túl gyors volt. Próbálja meg újra pár másodperc múlva.",

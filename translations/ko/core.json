@@ -621,6 +621,7 @@
             }
         },
         "lib": {
+            "connection_restored_message": "",
             "debug_button": "디버그",
             "alert": {
                 "dismiss_a11y_label": "알림 닫"
@@ -655,7 +656,9 @@
                 "generic_message": "이런! 뭔가 잘못되었습니다. 페이지를 다시 로드하고 다시 시도하십시오.",
                 "generic_cross_origin_message": "이런! 교차 출처 요청 중에 문제가 발생했습니다. 페이지를 새로 고쳐서 다시 시도해주세요.",
                 "missing_dependencies_message": "{extension}을 다음 상속 확장들이 모두 활성화 되기 전까지 활성화 할 수 없습니다. 상속 확장들: {extensions}",
+                "network_message": "",
                 "not_found_message": "요청한 리소스를 찾을 수 없습니다.",
+                "offline_message": "",
                 "payload_too_large_message": "요청의 크기가 너무 컸습니다.",
                 "permission_denied_message": "이에 대한 권한이 없습니다.",
                 "rate_limit_exceeded_message": "요청이 너무 빠릅니다. 잠시 후에 다시 시도하십시오.",

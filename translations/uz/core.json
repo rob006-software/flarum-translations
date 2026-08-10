@@ -576,6 +576,7 @@
             }
         },
         "lib": {
+            "connection_restored_message": "",
             "debug_button": "Debug",
             "alert": {
                 "dismiss_a11y_label": ""
@@ -610,7 +611,9 @@
                 "generic_message": "Voy! Nimadir noto'g'ri bajarildi. Sahifani qayta yuklang va qaytadan urining.",
                 "generic_cross_origin_message": "",
                 "missing_dependencies_message": "{extensions} lar yoqilmaguncha {extension} yoqib bo'lmaydi",
+                "network_message": "",
                 "not_found_message": "So'ralgan resurs topilmadi.",
+                "offline_message": "",
                 "payload_too_large_message": "So'rov uzunligi juda ham katta.",
                 "permission_denied_message": "Sizda bunga ruxsat yo'q.",
                 "rate_limit_exceeded_message": "Siz juda ham tez harakat qilyapsiz. Keyinroq urinib ko'ring.",

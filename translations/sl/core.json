@@ -573,6 +573,7 @@
             }
         },
         "lib": {
+            "connection_restored_message": "",
             "debug_button": "Debug",
             "alert": {
                 "dismiss_a11y_label": "Zavrni opozorilo"
@@ -607,7 +608,9 @@
                 "generic_message": "Oops! Nekaj je šlo narobe. Prosimo, osvežite stran in poskusite znova.",
                 "generic_cross_origin_message": "Oops! Nekaj je šlo narobe med zahtevo iz drugega vira. Prosimo, osvežite stran in poskusite znova.",
                 "missing_dependencies_message": "Ni mogoče omogočiti {extension}, dokler niso omogočene naslednje odvisnosti: {extensions}",
+                "network_message": "",
                 "not_found_message": "Zahtevani vir ni bil najden.",
+                "offline_message": "",
                 "payload_too_large_message": "Zahtevek je bil prevelik.",
                 "permission_denied_message": "Nimate dovoljenja za to dejanje.",
                 "rate_limit_exceeded_message": "Prehitro nadaljujete. Poskusite znova čez nekaj sekund.",

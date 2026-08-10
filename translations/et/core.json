@@ -573,6 +573,7 @@
             }
         },
         "lib": {
+            "connection_restored_message": "",
             "debug_button": "Silumisrežiim",
             "alert": {
                 "dismiss_a11y_label": "Hülga teavitus"
@@ -607,7 +608,9 @@
                 "generic_message": "Oih! Juhtus ootamatu viga. Palun laadi leht uuesti ja proovi veel kord.",
                 "generic_cross_origin_message": "Ups! Päringuga läks midagi valesti. Palun laadi lehekülg ja proovi uuesti.",
                 "missing_dependencies_message": "{extension} laiendust ei saa lubada enne nende laienduste lubamist: {extensions}",
+                "network_message": "",
                 "not_found_message": "Nõutud ressurssi ei leitud.",
+                "offline_message": "",
                 "payload_too_large_message": "Teostatud päring oli liiga mahukas.",
                 "permission_denied_message": "Sul ei ole selle jaoks õigusi.",
                 "rate_limit_exceeded_message": "Postitad liiga kiiresti. Proovi mõne sekundi pärast uuesti.",

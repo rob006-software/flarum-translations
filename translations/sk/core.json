@@ -596,6 +596,7 @@
             }
         },
         "lib": {
+            "connection_restored_message": "",
             "debug_button": "Debugovať",
             "alert": {
                 "dismiss_a11y_label": "Zrušiť upozornenie"
@@ -630,7 +631,9 @@
                 "generic_message": "Hups! Vyskytla sa chyba. Prosím, opätovne načítajte stránku a skúste to znovu.",
                 "generic_cross_origin_message": "Ups! Počas cross-origin žiadosti sa niečo pokazilo. Znovu načítajte stránku a skúste to znova.",
                 "missing_dependencies_message": "Nemožno aktivovať {extension} pokiaľ nie sú aktivované aj nasledujúce doplnky: {extensions}",
+                "network_message": "",
                 "not_found_message": "Požadovaný obsah sa nenašiel.",
+                "offline_message": "",
                 "payload_too_large_message": "Požiadavka bola príliš veľká.",
                 "permission_denied_message": "Na toto nemáš oprávnenie.",
                 "rate_limit_exceeded_message": "Ideš trošku prirýchlo. Skús to znova neskôr.",

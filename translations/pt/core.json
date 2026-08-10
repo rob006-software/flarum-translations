@@ -585,6 +585,7 @@
             }
         },
         "lib": {
+            "connection_restored_message": "",
             "debug_button": "Depurar",
             "alert": {
                 "dismiss_a11y_label": "Desactivar alerta"
@@ -619,7 +620,9 @@
                 "generic_message": "Opa! Algo deu errado. Por favor, recarregue a página e tente novamente.",
                 "generic_cross_origin_message": "Oops! Ocorreu um erro durante o pedido de origem cruzada. Por favor recarregue e página e tente de novo.",
                 "missing_dependencies_message": "Não é possível ativar {extension} até que as seguintes dependências sejam ativadas: {extensions}",
+                "network_message": "",
                 "not_found_message": "O recurso solicitado não foi encontrado.",
+                "offline_message": "",
                 "payload_too_large_message": "A carga solicitada era demasiado elevada.",
                 "permission_denied_message": "Você não tem permissão para fazer isso.",
                 "rate_limit_exceeded_message": "Você está indo um pouco rápido demais. Tente novamente em alguns segundos.",

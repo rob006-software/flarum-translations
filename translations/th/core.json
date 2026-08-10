@@ -573,6 +573,7 @@
             }
         },
         "lib": {
+            "connection_restored_message": "",
             "debug_button": "Debug",
             "alert": {
                 "dismiss_a11y_label": "ปิดการแจ้งเตือน"
@@ -607,7 +608,9 @@
                 "generic_message": "อ๊ะ! เกิดข้อผิดพลาดบางอย่าง กรุณาโหลดหน้าใหม่แล้วลองอีกครั้ง",
                 "generic_cross_origin_message": "อ๊ะ! เกิดข้อผิดพลาดในการร้องขอข้ามโดเมน กรุณาโหลดหน้าใหม่แล้วลองอีกครั้ง",
                 "missing_dependencies_message": "ไม่สามารถเปิด {extension} ได้จนกว่าจะเปิด dependency ต่อไปนี้: {extensions}",
+                "network_message": "",
                 "not_found_message": "ไม่พบทรัพยากรที่ร้องขอ",
+                "offline_message": "",
                 "payload_too_large_message": "คำขอมีขนาดใหญ่เกินไป",
                 "permission_denied_message": "คุณไม่มีสิทธิ์ดำเนินการนี้",
                 "rate_limit_exceeded_message": "คุณดำเนินการเร็วเกินไป กรุณาลองอีกครั้งในอีกสักครู่",

@@ -576,6 +576,7 @@
             }
         },
         "lib": {
+            "connection_restored_message": "",
             "debug_button": "Debug",
             "alert": {
                 "dismiss_a11y_label": "Melding negeren"
@@ -610,7 +611,9 @@
                 "generic_message": "Oeps! Er is iets misgegaan. Herlaad de pagina en probeer het opnieuw.",
                 "generic_cross_origin_message": "Oeps! Er is iets misgegaan tijdens een cross-origin verzoek. Laad de pagina opnieuw en probeer het opnieuw.",
                 "missing_dependencies_message": "Kan {extension} pas inschakelen als de volgende afhankelijke extensies zijn ingeschakeld: {extensions}",
+                "network_message": "",
                 "not_found_message": "Het opgevraagde kon niet worden gevonden.",
+                "offline_message": "",
                 "payload_too_large_message": "De payload van het verzoek was te groot.",
                 "permission_denied_message": "Je hebt geen permissie om dat te doen.",
                 "rate_limit_exceeded_message": "Je gaat een beetje te snel. Probeer het over een paar seconden nog eens.",

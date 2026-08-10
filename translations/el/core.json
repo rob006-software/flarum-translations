@@ -573,6 +573,7 @@
             }
         },
         "lib": {
+            "connection_restored_message": "",
             "debug_button": "",
             "alert": {
                 "dismiss_a11y_label": ""
@@ -607,7 +608,9 @@
                 "generic_message": "Ωχ! Κάτι πήγε στραβά. Ανανεώστε τη σελίδα και δοκιμάστε ξανά.",
                 "generic_cross_origin_message": "",
                 "missing_dependencies_message": "Δεν είναι δυνατή η ενεργοποίηση του πρόσθετου {extension} έως ότου ενεργοποιηθούν τα ακόλουθα πρόσθετα: {extensions}",
+                "network_message": "",
                 "not_found_message": "Η πηγή που ζητήσατε δεν βρέθηκε.",
+                "offline_message": "",
                 "payload_too_large_message": "",
                 "permission_denied_message": "Δυστυχώς δεν έχετε τα απαραίτητα δικαώματα για να το κάνετε αυτό.",
                 "rate_limit_exceeded_message": "Δοκιμάσατε αρκετές φορές. Για λόγους ασφαλείας, ξαναδοκιμάστε σε λίγα λεπτά.",
