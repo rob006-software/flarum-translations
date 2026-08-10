@@ -2,7 +2,7 @@
 
 Translations for Chinese (Simplified) (`zh_Hans`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **570** are translated differently and **1548** are
+sides, but do not match between them: **580** are translated differently and **1548** are
 translated only in `zh_Hans`. Altogether they cover **113** components.
 
 <!-- {% raw %} -->
@@ -14,7 +14,7 @@ translated only in `zh_Hans`. Altogether they cover **113** components.
 | --- | --- | --- |
 | `acpl-lscache` | [3](#acpl-lscache) | [8](#acpl-lscache-missing) |
 | `antoinefr-money` | [7](#antoinefr-money) | 0 |
-| `core` | [61](#core) | 0 |
+| `core` | [62](#core) | 0 |
 | `datitisev-backup` | [28](#datitisev-backup) | 0 |
 | `datlechin-birthdays` | [1](#datlechin-birthdays) | 0 |
 | `datlechin-more-discussions` | [5](#datlechin-more-discussions) | 0 |
@@ -32,13 +32,13 @@ translated only in `zh_Hans`. Altogether they cover **113** components.
 | `flarum-likes` | [3](#flarum-likes) | 0 |
 | `flarum-lock` | [6](#flarum-lock) | 0 |
 | `flarum-markdown` | [11](#flarum-markdown) | 0 |
-| `flarum-mentions` | [12](#flarum-mentions) | 0 |
+| `flarum-mentions` | [15](#flarum-mentions) | 0 |
 | `flarum-nicknames` | [1](#flarum-nicknames) | 0 |
 | `flarum-pusher` | [1](#flarum-pusher) | 0 |
 | `flarum-statistics` | [2](#flarum-statistics) | 0 |
 | `flarum-sticky` | [5](#flarum-sticky) | 0 |
-| `flarum-subscriptions` | [14](#flarum-subscriptions) | 0 |
-| `flarum-suspend` | [8](#flarum-suspend) | 0 |
+| `flarum-subscriptions` | [16](#flarum-subscriptions) | 0 |
+| `flarum-suspend` | [12](#flarum-suspend) | 0 |
 | `flarum-tags` | [31](#flarum-tags) | 0 |
 | `flectar-turnstile` | [2](#flectar-turnstile) | 0 |
 | `fof-analytics` | [4](#fof-analytics) | 0 |
@@ -524,7 +524,7 @@ Flarum <del>维护了一个&lt;a&gt;社区弃用扩展列表&lt;/a&gt;。当已�
 
 ```diff
 -发布主题
-+发布讨论
++开始讨论
 ```
 
 #### [`core.admin.users.description`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.users.description%22)
@@ -662,6 +662,15 @@ Flarum <del>维护了一个&lt;a&gt;社区弃用扩展列表&lt;/a&gt;。当已�
 +账号设置
 ```
 
+#### [`core.forum.index.mark_all_as_read_confirmation`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.forum.index.mark_all_as_read_confirmation%22)
+
+> Are you sure you want to mark all discussions as read?
+
+```diff
+-确定要标记所有帖子为已读吗？
++确定要标记所有讨论为已读吗？
+```
+
 #### [`core.forum.index_sort.toggle_dropdown_accessible_label`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.forum.index_sort.toggle_dropdown_accessible_label%22)
 
 > Change discussion list sorting
@@ -742,7 +751,7 @@ Flarum <del>维护了一个&lt;a&gt;社区弃用扩展列表&lt;/a&gt;。当已�
 
 ```diff
 -主题
-+话题
++讨论
 ```
 
 #### [`core.ref.generic_confirmation_message`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.ref.generic_confirmation_message%22)
@@ -1754,6 +1763,15 @@ API <del>Key</del><ins>密钥</ins>
 +提及群组
 ```
 
+#### [`flarum-mentions.admin.settings.allow_username_format_label`](https://weblate.rob006.net/translate/flarum2/flarum-mentions/zh_Hans/?q=context%3A%3D%22flarum-mentions.admin.settings.allow_username_format_label%22)
+
+> Allow username mention format (@Username)
+
+```diff
+-允许@用户名
++允许 @用户名
+```
+
 #### [`flarum-mentions.email.group_mentioned.subject`](https://weblate.rob006.net/translate/flarum2/flarum-mentions/zh_Hans/?q=context%3A%3D%22flarum-mentions.email.group_mentioned.subject%22)
 
 > {mentioner\_display\_name} mentioned a group you're a member of in {title}
@@ -1764,6 +1782,28 @@ API <del>Key</del><ins>密钥</ins>
 ```
 
 {mentioner\_display\_name} 在 {title} <del>中提到了您所属的组群</del><ins>中提到了您所属的群组</ins>
+
+#### [`flarum-mentions.email.post_mentioned.subject`](https://weblate.rob006.net/translate/flarum2/flarum-mentions/zh_Hans/?q=context%3A%3D%22flarum-mentions.email.post_mentioned.subject%22)
+
+> {replier\_display\_name} replied to your post in {title}
+
+```diff
+-{replier_display_name} 回复了您【{title}】
++{replier_display_name} 在讨论「{title}」中回复了您
+```
+
+{replier\_display\_name} <del>回复了您【{title}】</del><ins>在讨论「{title}」中回复了您</ins>
+
+#### [`flarum-mentions.email.user_mentioned.subject`](https://weblate.rob006.net/translate/flarum2/flarum-mentions/zh_Hans/?q=context%3A%3D%22flarum-mentions.email.user_mentioned.subject%22)
+
+> {mentioner\_display\_name} mentioned you in {title}
+
+```diff
+-{mentioner_display_name} 提及了您【{title}】
++{mentioner_display_name} 在 「{title}」中提及了您
+```
+
+{mentioner\_display\_name} <del>提及了您【{title}】</del><ins>在 「{title}」中提及了您</ins>
 
 #### [`flarum-mentions.forum.composer.mention_tooltip`](https://weblate.rob006.net/translate/flarum2/flarum-mentions/zh_Hans/?q=context%3A%3D%22flarum-mentions.forum.composer.mention_tooltip%22)
 
@@ -1917,7 +1957,7 @@ Cluster<del> 集群</del>
 
 ```diff
 -置顶主题
-+置顶话题
++置顶讨论
 ```
 
 #### [`flarum-sticky.forum.badge.sticky_tooltip`](https://weblate.rob006.net/translate/flarum2/flarum-sticky/zh_Hans/?q=context%3A%3D%22flarum-sticky.forum.badge.sticky_tooltip%22)
@@ -1944,8 +1984,10 @@ Cluster<del> 集群</del>
 
 ```diff
 -{username} 于 {time} 置顶此帖
-+{username}于{time}置顶此帖。
++{username} 于 {time} 置顶此帖。
 ```
+
+{username} 于 {time} <del>置顶此帖</del><ins>置顶此帖。</ins>
 
 #### [`flarum-sticky.forum.post_stream.discussion_unstickied_text`](https://weblate.rob006.net/translate/flarum2/flarum-sticky/zh_Hans/?q=context%3A%3D%22flarum-sticky.forum.post_stream.discussion_unstickied_text%22)
 
@@ -1953,8 +1995,10 @@ Cluster<del> 集群</del>
 
 ```diff
 -{username} 于 {time} 取消置顶
-+{username}于{time}取消置顶。
++{username} 于 {time} 取消置顶本帖。
 ```
+
+{username} 于 {time} <del>取消置顶</del><ins>取消置顶本帖。</ins>
 
 
 ### `flarum-subscriptions`
@@ -2024,13 +2068,22 @@ Cluster<del> 集群</del>
 +自动关注我回复的讨论
 ```
 
+#### [`flarum-subscriptions.forum.settings.notify_for_all_posts_label`](https://weblate.rob006.net/translate/flarum2/flarum-subscriptions/zh_Hans/?q=context%3A%3D%22flarum-subscriptions.forum.settings.notify_for_all_posts_label%22)
+
+> Notify about every new post instead of only the last in a discussion
+
+```diff
+-通知每一个新帖，而非仅最后一个
++通知所有新帖，而非仅通知讨论的最后一条
+```
+
 #### [`flarum-subscriptions.forum.settings.notify_new_post_label`](https://weblate.rob006.net/translate/flarum2/flarum-subscriptions/zh_Hans/?q=context%3A%3D%22flarum-subscriptions.forum.settings.notify_new_post_label%22)
 
 > Someone posts in a discussion I'm following
 
 ```diff
 -我关注的主题有新回复
-+我关注的讨论有新回复
++有人在我关注的讨论中回复
 ```
 
 #### [`flarum-subscriptions.forum.sub_controls.follow_button`](https://weblate.rob006.net/translate/flarum2/flarum-subscriptions/zh_Hans/?q=context%3A%3D%22flarum-subscriptions.forum.sub_controls.follow_button%22)
@@ -2048,7 +2101,7 @@ Cluster<del> 集群</del>
 
 ```diff
 -=> flarum-subscriptions.ref.following
-+正在关注
++关注中
 ```
 
 #### [`flarum-subscriptions.forum.sub_controls.following_text`](https://weblate.rob006.net/translate/flarum2/flarum-subscriptions/zh_Hans/?q=context%3A%3D%22flarum-subscriptions.forum.sub_controls.following_text%22)
@@ -2078,6 +2131,15 @@ Cluster<del> 集群</del>
 +不接收任何通知并从讨论列表中隐藏此讨论。
 ```
 
+#### [`flarum-subscriptions.forum.sub_controls.notify_email_tooltip`](https://weblate.rob006.net/translate/flarum2/flarum-subscriptions/zh_Hans/?q=context%3A%3D%22flarum-subscriptions.forum.sub_controls.notify_email_tooltip%22)
+
+> Get an email when there are new posts
+
+```diff
+-有新回复时发送邮件
++有新回复时邮件提醒
+```
+
 #### [`flarum-subscriptions.ref.ignoring`](https://weblate.rob006.net/translate/flarum2/flarum-subscriptions/zh_Hans/?q=context%3A%3D%22flarum-subscriptions.ref.ignoring%22)
 
 > Ignoring
@@ -2089,6 +2151,42 @@ Cluster<del> 集群</del>
 
 
 ### `flarum-suspend`
+
+#### [`flarum-suspend.email.no_reason_given`](https://weblate.rob006.net/translate/flarum2/flarum-suspend/zh_Hans/?q=context%3A%3D%22flarum-suspend.email.no_reason_given%22)
+
+> No reason was given for this suspension.
+
+```diff
+-管理员并未给出封禁原因。
++未说明封禁原因。
+```
+
+#### [`flarum-suspend.email.unsuspended.subject`](https://weblate.rob006.net/translate/flarum2/flarum-suspend/zh_Hans/?q=context%3A%3D%22flarum-suspend.email.unsuspended.subject%22)
+
+> Your account has been unsuspended
+
+```diff
+-你的账号已解封
++您的账号已解除封禁
+```
+
+#### [`flarum-suspend.forum.notifications.user_suspended_indefinite_text`](https://weblate.rob006.net/translate/flarum2/flarum-suspend/zh_Hans/?q=context%3A%3D%22flarum-suspend.forum.notifications.user_suspended_indefinite_text%22)
+
+> You have been suspended indefinitely
+
+```diff
+-你已被永久封禁
++你已被无限期封禁
+```
+
+#### [`flarum-suspend.forum.notifications.user_unsuspended_text`](https://weblate.rob006.net/translate/flarum2/flarum-suspend/zh_Hans/?q=context%3A%3D%22flarum-suspend.forum.notifications.user_unsuspended_text%22)
+
+> You have been unsuspended
+
+```diff
+-你已解封
++你已被解除封禁
+```
 
 #### [`flarum-suspend.forum.suspend_user.display_message`](https://weblate.rob006.net/translate/flarum2/flarum-suspend/zh_Hans/?q=context%3A%3D%22flarum-suspend.forum.suspend_user.display_message%22)
 
@@ -2105,7 +2203,7 @@ Cluster<del> 集群</del>
 
 ```diff
 -永久封禁
-+无期限封禁
++无限期封禁
 ```
 
 #### [`flarum-suspend.forum.suspend_user.limited_time_label`](https://weblate.rob006.net/translate/flarum2/flarum-suspend/zh_Hans/?q=context%3A%3D%22flarum-suspend.forum.suspend_user.limited_time_label%22)
@@ -2141,7 +2239,7 @@ Cluster<del> 集群</del>
 
 ```diff
 -封禁期限：永久
-+此账号已被无期限封禁
++此账号已被无限期封禁
 ```
 
 #### [`flarum-suspend.forum.suspension_info.limited`](https://weblate.rob006.net/translate/flarum2/flarum-suspend/zh_Hans/?q=context%3A%3D%22flarum-suspend.forum.suspension_info.limited%22)
@@ -2173,7 +2271,7 @@ Cluster<del> 集群</del>
 
 ```diff
 -确定要删除此标签？此操作不会删除标签下的主题帖。
-+确定要删除此标签吗？标签下的话题将不会被删除。
++确定要删除此标签吗？此标签下的讨论将不会被删除。
 ```
 
 #### [`flarum-tags.admin.edit_tag.hide_label`](https://weblate.rob006.net/translate/flarum2/flarum-tags/zh_Hans/?q=context%3A%3D%22flarum-tags.admin.edit_tag.hide_label%22)
@@ -2182,7 +2280,7 @@ Cluster<del> 集群</del>
 
 ```diff
 -从“全部主题”中隐藏
-+在「所有话题」中隐藏
++在「全部讨论」中隐藏该标签下的讨论
 ```
 
 #### [`flarum-tags.admin.edit_tag.slug_label`](https://weblate.rob006.net/translate/flarum2/flarum-tags/zh_Hans/?q=context%3A%3D%22flarum-tags.admin.edit_tag.slug_label%22)
@@ -2191,7 +2289,7 @@ Cluster<del> 集群</del>
 
 ```diff
 -英文名称（Slug）
-+别名
++Slug
 ```
 
 #### [`flarum-tags.admin.edit_tag.title`](https://weblate.rob006.net/translate/flarum2/flarum-tags/zh_Hans/?q=context%3A%3D%22flarum-tags.admin.edit_tag.title%22)
@@ -2218,7 +2316,7 @@ Cluster<del> 集群</del>
 
 ```diff
 -管理论坛标签列表。
-+管理用于组织话题的标签列表。
++管理用于组织讨论的标签列表。
 ```
 
 #### [`flarum-tags.admin.permissions.bypass_tag_counts_label`](https://weblate.rob006.net/translate/flarum2/flarum-tags/zh_Hans/?q=context%3A%3D%22flarum-tags.admin.permissions.bypass_tag_counts_label%22)
@@ -2245,7 +2343,7 @@ Cluster<del> 集群</del>
 
 ```diff
 -更改标签
-+标记话题
++为讨论添加标签
 ```
 
 #### [`flarum-tags.admin.tag_settings.required_primary_heading`](https://weblate.rob006.net/translate/flarum2/flarum-tags/zh_Hans/?q=context%3A%3D%22flarum-tags.admin.tag_settings.required_primary_heading%22)
@@ -2263,7 +2361,7 @@ Cluster<del> 集群</del>
 
 ```diff
 -设置每个主题帖需添加的主标签数量。
-+设置一个话题可以添加的主标签数量下限和上限。
++设置讨论可添加的主标签数量范围。
 ```
 
 #### [`flarum-tags.admin.tag_settings.required_secondary_heading`](https://weblate.rob006.net/translate/flarum2/flarum-tags/zh_Hans/?q=context%3A%3D%22flarum-tags.admin.tag_settings.required_secondary_heading%22)
@@ -2281,7 +2379,7 @@ Cluster<del> 集群</del>
 
 ```diff
 -设置每个主题帖需添加的次标签数量。
-+设置一个话题可以添加的副标签数量下限和上限。
++设置讨论可添加的副标签数量范围。
 ```
 
 #### [`flarum-tags.admin.tags.about_tags_text`](https://weblate.rob006.net/translate/flarum2/flarum-tags/zh_Hans/?q=context%3A%3D%22flarum-tags.admin.tags.about_tags_text%22)
@@ -2290,7 +2388,7 @@ Cluster<del> 集群</del>
 
 ```diff
 -使用标签对主题帖分类。主标签类似于传统论坛的板块，可以分成两级。次标签无层级无顺序，可作为次板块。鼠标拖动标签即可排序或调整层级位置。
-+标签用于对话题进行分类。主标签类似于传统的话题版块：它们可以排列成两级层级结构。副标签没有层级或顺序，适用于微观分类。
++标签用于对讨论进行分类。主标签类似于传统论坛的板块：它们可以按两级层级排列。副标签没有层级或顺序，适用于更细粒度的分类。
 ```
 
 #### [`flarum-tags.admin.tags.create_primary_tag_button`](https://weblate.rob006.net/translate/flarum2/flarum-tags/zh_Hans/?q=context%3A%3D%22flarum-tags.admin.tags.create_primary_tag_button%22)
@@ -2344,7 +2442,7 @@ Cluster<del> 集群</del>
 
 ```diff
 -添加标签
-+为您的话题选择标签
++为您的讨论选择标签
 ```
 
 #### [`flarum-tags.forum.index.more_link`](https://weblate.rob006.net/translate/flarum2/flarum-tags/zh_Hans/?q=context%3A%3D%22flarum-tags.forum.index.more_link%22)
@@ -2371,10 +2469,10 @@ Cluster<del> 集群</del>
 
 ```diff
 -{username} 于 {time} 添加 {tagsAdded}，并移除 {tagsRemoved}。
-+{username} 添加了 {tagsAdded} 并移除了 {tagsRemoved} {time}。
++{username} 于 {time} 添加了 {tagsAdded}，并移除了 {tagsRemoved}。
 ```
 
-{username} <del>于</del><ins>添加了</ins> <del>{time}</del><ins>{tagsAdded}</ins> <del>添加</del><ins>并移除了</ins> <del>{tagsAdded}，并移除</del><ins>{tagsRemoved}</ins> <del>{tagsRemoved}。</del><ins>{time}。</ins>
+{username} 于 {time} <del>添加</del><ins>添加了</ins> <del>{tagsAdded}，并移除</del><ins>{tagsAdded}，并移除了</ins> {tagsRemoved}。
 
 #### [`flarum-tags.forum.post_stream.added_tags_text`](https://weblate.rob006.net/translate/flarum2/flarum-tags/zh_Hans/?q=context%3A%3D%22flarum-tags.forum.post_stream.added_tags_text%22)
 
@@ -2382,8 +2480,10 @@ Cluster<del> 集群</del>
 
 ```diff
 -{username} 于 {time} 添加 {tagsAdded}
-+{username}于{time}添加标签{tagsAdded}。
++{username} 于 {time} 添加了 {tagsAdded}。
 ```
+
+{username} 于 {time} <del>添加</del><ins>添加了</ins> <del>{tagsAdded}</del><ins>{tagsAdded}。</ins>
 
 #### [`flarum-tags.forum.post_stream.removed_tags_text`](https://weblate.rob006.net/translate/flarum2/flarum-tags/zh_Hans/?q=context%3A%3D%22flarum-tags.forum.post_stream.removed_tags_text%22)
 
@@ -2391,10 +2491,10 @@ Cluster<del> 集群</del>
 
 ```diff
 -{username} 于 {time} 移除 {tagsRemoved}
-+{username} 移除了 {tagsRemoved} {time}。
++{username} 于 {time} 移除了 {tagsRemoved}。
 ```
 
-{username} <del>于 {time} 移除</del><ins>移除了</ins> {tagsRemoved}<ins> {time}。</ins>
+{username} 于 {time} <del>移除</del><ins>移除了</ins> <del>{tagsRemoved}</del><ins>{tagsRemoved}。</ins>
 
 #### [`flarum-tags.forum.post_stream.tags_text`](https://weblate.rob006.net/translate/flarum2/flarum-tags/zh_Hans/?q=context%3A%3D%22flarum-tags.forum.post_stream.tags_text%22)
 
@@ -2402,7 +2502,7 @@ Cluster<del> 集群</del>
 
 ```diff
 -{tags} 标签
-+{count, plural, one {{tags}} other {{tags}}} 个标签
++{count, plural, one {{tags} 个标签} other {{tags} 个标签}}
 ```
 
 #### [`flarum-tags.forum.tag.meta_description_text`](https://weblate.rob006.net/translate/flarum2/flarum-tags/zh_Hans/?q=context%3A%3D%22flarum-tags.forum.tag.meta_description_text%22)
@@ -2411,8 +2511,10 @@ Cluster<del> 集群</del>
 
 ```diff
 -{tag} 标签下的所有主题
-+所有带有{tag}标签的话题
++所有带有 {tag} 的讨论
 ```
+
+<ins>所有带有 </ins>{tag} <del>标签下的所有主题</del><ins>的讨论</ins>
 
 #### [`flarum-tags.lib.tag_selection_modal.bypass_requirements`](https://weblate.rob006.net/translate/flarum2/flarum-tags/zh_Hans/?q=context%3A%3D%22flarum-tags.lib.tag_selection_modal.bypass_requirements%22)
 
