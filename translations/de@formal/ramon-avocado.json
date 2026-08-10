@@ -9,7 +9,7 @@
                 "section_search": "Suche",
                 "section_bookmarks": "Lesezeichen",
                 "section_user_card": "Benutzerkarte",
-                "section_presence": "",
+                "section_presence": "Präsenz",
                 "section_cakeday": "Kuchentag",
                 "section_posts": "Beiträge",
                 "section_logo": "Logo",
@@ -74,12 +74,12 @@
                 "search_v1_help": "Zeige das Dropdown-Menü für die Inline-Suche anstelle des V2-Modals an.",
                 "bookmarks_enabled_label": "Lesezeichen-System aktivieren",
                 "bookmarks_enabled_help": "Die Schaltfläche „Merken“ auf Karten, die Seite „Gemerkt“, Notizen, Erinnerungen und Erinnerungsbenachrichtigungen. Wenn du diese Funktion deaktivierst, wird alles ausgeblendet und die API-Endpunkte werden deaktiviert; gespeicherte Daten bleiben erhalten.",
-                "bookmarks_fof_notice": "",
-                "clock_format_label": "",
-                "clock_format_help": "",
-                "clock_format_auto": "",
-                "clock_format_12": "",
-                "clock_format_24": "",
+                "bookmarks_fof_notice": "„FoF Bookmarks“ ist aktiviert, sodass Avocado sein eigenes Lesezeichensystem an diese Funktion übergibt: Das Theme zeigt einen einzigen Menüpunkt „Gespeichert“ und eine einzige Schaltfläche zum Speichern an, über die Daten an „FoF Bookmarks“ übertragen werden. Notizen und Erinnerungen sind nicht verfügbar, solange diese Funktion aktiviert ist; Deine in Avocado gespeicherten Daten bleiben erhalten und werden wiederhergestellt, wenn du die Funktion deaktivierst.",
+                "clock_format_label": "Zeitformat",
+                "clock_format_help": "Wird von Erinnerungsfunktionen verwendet: die Stundenauswahl in „Erinnere mich“ und die auf gespeicherten Karten angezeigte Uhrzeit. Die automatische Einstellung richtet sich nach dem Browser des jeweiligen Besuchers.",
+                "clock_format_auto": "Automatisch (Browser des Besuchers)",
+                "clock_format_12": "12 Stunden(2:30 PM)",
+                "clock_format_24": "24 Stunden(14:30)",
                 "user_card_enabled_label": "Die Hover-Karte für Benutzer aktivieren",
                 "user_card_enabled_help": "Zeige ein Mini-Profil im Discourse-Stil (Biografie, Abzeichen, Statistiken, Aktionen) an, wenn der Mauszeiger über Avatare und Benutzernamen geführt wird.",
                 "presence_enabled_label": "Anzeigen, wer eine Diskussion liest",
@@ -322,7 +322,7 @@
                 "unsave": "Aus den Favoriten entfernen",
                 "edit": "Lesezeichen bearbeiten",
                 "empty": "Du hast noch keine Diskussionen gespeichert.",
-                "empty_posts": "",
+                "empty_posts": "Du hast noch keine Beiträge als Lesezeichen gespeichert.",
                 "guest_prompt": "Melde dich an, um Diskussionen zu speichern und sie später hier wiederzufinden.",
                 "toggle_error": "Deine gespeicherte Liste konnte nicht aktualisiert werden. Bitte versuche es erneut.",
                 "update_error": "Lesezeichen konnte nicht aktualisiert werden. Bitte versuche es erneut.",
@@ -337,20 +337,20 @@
                 "reminder_tomorrow": "Morgen früh",
                 "reminder_week": "Nächste Woche",
                 "reminder_custom": "Datum & Uhrzeit auswählen",
-                "reminder_invalid": "",
-                "reminder_invalid_date": "",
-                "reminder_date_label": "",
-                "reminder_hour_label": "",
-                "reminder_minute_label": "",
-                "reminder_meridiem_label": "",
-                "reminder_am": "",
-                "reminder_pm": ""
+                "reminder_invalid": "Dieses Datum und diese Uhrzeit liegen in der Vergangenheit. Wähle einen Zeitpunkt in der Zukunft aus.",
+                "reminder_invalid_date": "Wähle ein Datum für die Erinnerung aus.",
+                "reminder_date_label": "Datum",
+                "reminder_hour_label": "Stunde",
+                "reminder_minute_label": "Minute",
+                "reminder_meridiem_label": "Vormittags oder nachmittags",
+                "reminder_am": "Vormittags",
+                "reminder_pm": "Nachmittags"
             },
             "notifications": {
-                "bookmark_reminder_text": ""
+                "bookmark_reminder_text": "Erinnerung an deine gespeicherte Diskussion"
             },
             "settings": {
-                "notify_bookmark_reminder_label": ""
+                "notify_bookmark_reminder_label": "Lesezeichenerinnerung"
             },
             "presence": {
                 "reading_now": "{count} lesen gerade"
