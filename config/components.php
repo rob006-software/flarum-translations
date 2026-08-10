@@ -381,7 +381,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/news-widget/2.0.0-beta.1/locale/en.yml',
 	],
 	'fof-oauth' => [
-		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/oauth/2.0.0-beta.3/resources/locale/en.yml',
+		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/oauth/2.0.0-beta.4/resources/locale/en.yml',
 	],
 	'fof-online-users-widget' => [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/online-users-widget/2.0.0-beta.2/locale/en.yml',
