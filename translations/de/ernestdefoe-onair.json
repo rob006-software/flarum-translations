@@ -1,64 +1,64 @@
 {
     "onair": {
         "lib": {
-            "live": "",
-            "live_now": "",
+            "live": "LIVE",
+            "live_now": "Jetzt Live",
             "errors": {
-                "url_required": "",
-                "no_provider": ""
+                "url_required": "Füge die URL deines YouTube- oder Twitch-Streams ein.",
+                "no_provider": "Diese URL ist kein YouTube- oder Twitch-Link, den OnAir erkennt."
             }
         },
         "forum": {
             "nav": {
-                "live": ""
+                "live": "Live"
             },
             "directory": {
-                "title": "",
-                "empty": ""
+                "title": "Jetzt Live",
+                "empty": "Derzeit ist niemand live. Sei der Erste – klicke auf „Live gehen“."
             },
             "go_live": {
-                "button": "",
-                "title": "",
-                "provider_label": "",
-                "url_label": "",
-                "title_label": "",
-                "submit": "",
-                "success": ""
+                "button": "Live gehen",
+                "title": "Live gehen",
+                "provider_label": "Wo streamst du?",
+                "url_label": "Kanal- oder Video-URL",
+                "title_label": "Titel des Streams",
+                "submit": "Live gehen",
+                "success": "Du bist live! Dein LIVE-Abzeichen wird jetzt angezeigt."
             },
             "viewer": {
-                "unavailable": ""
+                "unavailable": "Dieser Stream kann derzeit nicht eingebettet werden."
             },
             "widget": {
-                "name": "",
-                "title_label": "",
-                "count_label": "",
-                "preview_label": "",
-                "empty": ""
+                "name": "Livestreams",
+                "title_label": "Titel",
+                "count_label": "Wie viele",
+                "preview_label": "Stream-Vorschauen anzeigen",
+                "empty": "Im Moment streamt niemand."
             },
             "stream": {
-                "by": "",
-                "untitled": "",
-                "not_found": "",
-                "end": "",
-                "has_ended": "",
-                "end_failed": "",
-                "delete": "",
-                "delete_confirm": "",
-                "delete_failed": ""
+                "by": "von",
+                "untitled": "Livestream",
+                "not_found": "Dieser Stream wird nicht mehr live übertragen.",
+                "end": "Stream beenden",
+                "has_ended": "Dieser Stream wurde beendet.",
+                "end_failed": "Der Stream konnte nicht beendet werden. Bitte versuche es erneut.",
+                "delete": "Stream löschen",
+                "delete_confirm": "Diesen Stream löschen? Dadurch wird er dauerhaft entfernt, einschließlich seines Verlaufs.",
+                "delete_failed": "Der Stream konnte nicht gelöscht werden. Bitte versuche es erneut."
             }
         },
         "admin": {
             "settings": {
-                "default_provider_label": "",
-                "default_provider_help": "",
-                "poll_interval_label": "",
-                "poll_interval_help": "",
-                "max_hours_label": "",
-                "max_hours_help": ""
+                "default_provider_label": "Standardanbieter",
+                "default_provider_help": "Beim Live gehen vorab ausgewählte Quelle.",
+                "poll_interval_label": "Intervall der Anwesenheitsabfrage (Sekunden)",
+                "poll_interval_help": "Wie oft der Fallback-Transport überprüft, wer gerade online ist, wenn flarum/realtime nicht installiert ist? Mindestens 10.",
+                "max_hours_label": "Maximale Stream-Dauer (Stunden)",
+                "max_hours_help": "Streams, die nach so vielen Stunden immer noch als „live“ markiert sind, werden automatisch vom stündlichen „Reaper“ beendet. Dies betrifft Streamer, die ihren Tab geschlossen haben, ohne den Stream zu beenden."
             },
             "permissions": {
-                "broadcast": "",
-                "manage": ""
+                "broadcast": "Live gehen (einen Stream starten)",
+                "manage": "Streams anderer verwalten / beenden"
             }
         }
     }
