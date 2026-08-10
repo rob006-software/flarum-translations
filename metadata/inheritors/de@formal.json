@@ -2526,7 +2526,12 @@
     "club-1-server-side-highlight.json": {
         "club-1-server-side-highlight": {
             "admin": {
-                "light_theme_bg_color": "ffe84b6ff5912d084edd67754b675913 ffe84b6ff5912d084edd67754b675913"
+                "dark_theme_bg_color": "e2a98b928761918295192719b9014fc7 e2a98b928761918295192719b9014fc7",
+                "dark_theme_highlight_theme": "879e19eabbedfb1d2f19f2d8812b4a78 879e19eabbedfb1d2f19f2d8812b4a78",
+                "dark_theme_text_color": "333e0df7ebc2b2efc7ea11e8e36813c1 333e0df7ebc2b2efc7ea11e8e36813c1",
+                "light_theme_bg_color": "7b5e3f7f2be95584f5342377a25bb17c 7b5e3f7f2be95584f5342377a25bb17c",
+                "light_theme_highlight_theme": "6728d2bf87648d3974fe05e4c292afa4 6728d2bf87648d3974fe05e4c292afa4",
+                "light_theme_text_color": "8ea37e69f2c5a4a25b1d8c1841a2950d 8ea37e69f2c5a4a25b1d8c1841a2950d"
             }
         }
     },
@@ -3196,6 +3201,7 @@
                 "badge": {
                     "hidden_tooltip": "7e933fd2795419e39c89aaede4f142cf 7e933fd2795419e39c89aaede4f142cf"
                 },
+                "connection_restored_message": "4f27b3129d844971cea75cc3864a5280 8c1f404c615ab1459549ec2550a0b5ce",
                 "data_segment": {
                     "label": "4005f6e781f147f712c9633fe0f95be2 4005f6e781f147f712c9633fe0f95be2"
                 },
@@ -3229,7 +3235,9 @@
                     "generic_cross_origin_message": "b5e938d6f458481f6ea12b7c25fa472b 30a44c97e210bbea4463f178846fb641",
                     "generic_message": "316286e5c345e471a6e86c9699bc5756 2990f5bc7fb7f5f9c5ab62f092aa79b2",
                     "missing_dependencies_message": "d77a5a8b7f2ce03def8b1ce41f337ad4 d77a5a8b7f2ce03def8b1ce41f337ad4",
+                    "network_message": "036f180d56eaeb018f9b8c34865e66f5 9b96b9f9c8892bce34e3cab35c881fe2",
                     "not_found_message": "397b718cfe5c181fe605e5c58e4ed89f 397b718cfe5c181fe605e5c58e4ed89f",
+                    "offline_message": "1c1fdbcbd639ae7ad1b589d4da4613d0 da572df2ce613c80200e84a2e2f42217",
                     "payload_too_large_message": "3e200c99aca68cbe386ceed37c306e20 3e200c99aca68cbe386ceed37c306e20",
                     "permission_denied_message": "07baaf734027be86047015e34ae2529b 086b98b52fd4332cf10f7e8e2ae4294a",
                     "rate_limit_exceeded_message": "1320d3f7168f1166e7005678e71ee550 480da37c9f8b0393ff201a1644055824",
@@ -5645,6 +5653,10 @@
             "admin": {
                 "permissions": {
                     "sticky_discussions_label": "08ac80f85d2f33d4b795c8742dc95a57 08ac80f85d2f33d4b795c8742dc95a57"
+                },
+                "settings": {
+                    "pin_sticky_on_all_discussions_help": "ebf0d2988bc4ba67614eb16d31416b97 ebf0d2988bc4ba67614eb16d31416b97",
+                    "pin_sticky_on_all_discussions_label": "3fb77a558037e4429f5bcb0a25067192 3fb77a558037e4429f5bcb0a25067192"
                 }
             },
             "forum": {
@@ -17095,6 +17107,19 @@
                 "removed": {
                     "error": "befa270539f1be2cf8cca71b3c2b77a5 befa270539f1be2cf8cca71b3c2b77a5",
                     "success": "eee9f8e5ae0e6563e9b343cbbfc250a5 eee9f8e5ae0e6563e9b343cbbfc250a5"
+                }
+            }
+        }
+    },
+    "tapao-custom-landing-page.json": {
+        "tapao-custom-landing-page": {
+            "admin": {
+                "settings": {
+                    "enabled_label": "c6623b1dc0adf9d9ca17e3a89bf7181b c6623b1dc0adf9d9ca17e3a89bf7181b",
+                    "guests_only_help": "ec0dc507d9886d86eebe251f053c2965 ec0dc507d9886d86eebe251f053c2965",
+                    "guests_only_label": "67c1329f06a75ab9e38e0452a62c6360 67c1329f06a75ab9e38e0452a62c6360",
+                    "html_help": "064f60d88a7bf92b6b81b194820afd14 064f60d88a7bf92b6b81b194820afd14",
+                    "html_label": "7cb05c2c0aee70b7105e6a20232e9ec7 7cb05c2c0aee70b7105e6a20232e9ec7"
                 }
             }
         }
