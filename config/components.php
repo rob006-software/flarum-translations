@@ -1540,7 +1540,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/PeopleInside/flarum-ext-antiflood/2.0.3/locale/en.yml',
 	],
 	'peopleinside-fla-powcaptcha' => [
-		'tag' => 'https://raw.githubusercontent.com/PeopleInside/fla-powcaptcha/3.6.4/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/PeopleInside/fla-powcaptcha/3.6.6/locale/en.yml',
 		'__builtInLanguages' => [
 			'it',
 		],
