@@ -2,7 +2,7 @@
 
 Translations for German (`de`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **289** are translated differently and **555** are
+sides, but do not match between them: **292** are translated differently and **551** are
 translated only in `de`. Altogether they cover **85** components.
 
 <!-- {% raw %} -->
@@ -89,7 +89,7 @@ translated only in `de`. Altogether they cover **85** components.
 | `resofire-digest-mail` | [10](#resofire-digest-mail) | 0 |
 | `resofire-menu-control` | [2](#resofire-menu-control) | 0 |
 | `tapao-auto-ai-moderation` | 0 | [28](#tapao-auto-ai-moderation-missing) |
-| `tapao-custom-landing-page` | 0 | [4](#tapao-custom-landing-page-missing) |
+| `tapao-custom-landing-page` | [3](#tapao-custom-landing-page) | 0 |
 | `tryhackx-advanced-pages` | 0 | [61](#tryhackx-advanced-pages-missing) |
 | `tryhackx-homepage-blocks` | [2](#tryhackx-homepage-blocks) | [21](#tryhackx-homepage-blocks-missing) |
 | `tryhackx-thumb-sliders` | 0 | [18](#tryhackx-thumb-sliders-missing) |
@@ -3075,6 +3075,44 @@ Wenn aktiviert, werden die <del>Themen-Links</del><ins>Tag-Links</ins> oben in d
 Navigation umkehren <del>(Themen</del><ins>(Tags</ins> oberhalb der Menüpunkte anzeigen)
 
 
+### `tapao-custom-landing-page`
+
+#### [`tapao-custom-landing-page.admin.settings.guests_only_help`](https://weblate.rob006.net/translate/flarum2/tapao-custom-landing-page/de/?q=context%3A%3D%22tapao-custom-landing-page.admin.settings.guests_only_help%22)
+
+> When enabled, logged-in users bypass the landing page and see the normal forum. Install fof/direct-links for dedicated /login and /register pages, or use the '{{ login\_url }}' and '{{ register\_url }}' template variables in your HTML.
+>
+
+```diff
+-Wenn aktiviert, umgehen angemeldete Benutzer die Startseite und gelangen direkt zum normalen Forum. Installiere „fof/direct-links“, um eigene Seiten für „/login“ und „/register“ zu erstellen, oder verwende die Vorlagenvariablen „{{ login_url }}“ und „{{ register_url }}“ in deinem HTML-Code.
++Wenn aktiviert, umgehen angemeldete Benutzer die Startseite und gelangen direkt zum normalen Forum. Installiere „fof/direct-links“, um eigene Seiten für /login und /register zu erstellen, oder verwende die Vorlagenvariablen „{{ login_url }}“ und „{{ register_url }}“ in deinem HTML-Code.
+
+```
+
+Wenn aktiviert, umgehen angemeldete Benutzer die Startseite und gelangen direkt zum normalen Forum. Installiere „fof/direct-links“, um eigene Seiten für <del>„/login“</del><ins>/login</ins> und <del>„/register“</del><ins>/register</ins> zu erstellen, oder verwende die Vorlagenvariablen „{{ login\_url }}“ und „{{ register\_url }}“ in deinem HTML-Code.<br />
+
+#### [`tapao-custom-landing-page.admin.settings.guests_only_label`](https://weblate.rob006.net/translate/flarum2/tapao-custom-landing-page/de/?q=context%3A%3D%22tapao-custom-landing-page.admin.settings.guests_only_label%22)
+
+> Show to guests only
+
+```diff
+-Nur Gästen anzeigen
++Nur für Gäste anzeigen
+```
+
+Nur <del>Gästen</del><ins>für Gäste</ins> anzeigen
+
+#### [`tapao-custom-landing-page.admin.settings.html_label`](https://weblate.rob006.net/translate/flarum2/tapao-custom-landing-page/de/?q=context%3A%3D%22tapao-custom-landing-page.admin.settings.html_label%22)
+
+> Landing Page HTML
+
+```diff
+-HTML-Code der Landingpage
++HTML der Landingpage
+```
+
+<del>HTML-Code</del><ins>HTML</ins> der Landingpage
+
+
 ### `tryhackx-homepage-blocks`
 
 #### [`tryhackx-homepage-blocks.admin.settings.show_only_used_tags`](https://weblate.rob006.net/translate/flarum2/tryhackx-homepage-blocks/de/?q=context%3A%3D%22tryhackx-homepage-blocks.admin.settings.show_only_used_tags%22)
@@ -4427,7 +4465,7 @@ These strings are translated only in `de`, so there is nothing to inherit from F
 > A discussion's own badges, such as sticky and locked, normally sit in a narrow strip over its avatar in the discussion list, where they overlap it and have no room for names. This moves them down to the line under the title instead. Whether they are named there follows the badge titles setting above, so you can move them and still keep them as plain icons.
 
 ```diff
-+Weist den Abzeichen einer Diskussion, wie z. B. „Angeheftet“ und „Gesperrt“, dieselben Symbole zu. In der Diskussionsliste werden sie in die Zeile unter dem Titel verschoben, wo Platz für ihre Namen ist.
++Die für eine Diskussion spezifischen Symbole, wie beispielsweise „Angeheftet“ und „Gesperrt“, werden normalerweise in einem schmalen Streifen über dem Avatar in der Diskussionsliste angezeigt, wo sie diesen überlappen und keinen Platz für Namen lassen. Durch diese Änderung werden sie stattdessen in die Zeile unterhalb des Titels verschoben. Ob sie dort mit Namen angezeigt werden, hängt von der oben festgelegten Einstellung für Symboltitel ab, sodass du sie verschieben und dennoch als einfache Symbole beibehalten kannst.
 ```
 
 #### [`linkrobins-badge-labels.admin.settings.discussion_badges_label`](https://weblate.rob006.net/translate/flarum2/linkrobins-badge-labels/de/?q=context%3A%3D%22linkrobins-badge-labels.admin.settings.discussion_badges_label%22)
@@ -4435,7 +4473,7 @@ These strings are translated only in `de`, so there is nothing to inherit from F
 > Move discussion badges under the title
 
 ```diff
-+Diskussionsabzeichen auch beschriften
++Diskussionsabzeichen unter den Titel verschieben
 ```
 
 #### [`linkrobins-badge-labels.admin.settings.header_position_after`](https://weblate.rob006.net/translate/flarum2/linkrobins-badge-labels/de/?q=context%3A%3D%22linkrobins-badge-labels.admin.settings.header_position_after%22)
@@ -6804,43 +6842,6 @@ These strings are translated only in `de`, so there is nothing to inherit from F
 
 ```diff
 +Diese Datei wurde vom Inhaltsmoderationssystem abgelehnt.
-```
-
-
-### `tapao-custom-landing-page` (missing)
-
-#### [`tapao-custom-landing-page.admin.settings.enabled_label`](https://weblate.rob006.net/translate/flarum2/tapao-custom-landing-page/de/?q=context%3A%3D%22tapao-custom-landing-page.admin.settings.enabled_label%22)
-
-> Enable Custom Landing Page
-
-```diff
-+Benutzerdefinierte Landingpage aktivieren
-```
-
-#### [`tapao-custom-landing-page.admin.settings.guests_only_help`](https://weblate.rob006.net/translate/flarum2/tapao-custom-landing-page/de/?q=context%3A%3D%22tapao-custom-landing-page.admin.settings.guests_only_help%22)
-
-> When enabled, logged-in users bypass the landing page and see the normal forum. Install fof/direct-links for dedicated /login and /register pages, or use the '{{ login\_url }}' and '{{ register\_url }}' template variables in your HTML.
->
-
-```diff
-+Wenn aktiviert, umgehen angemeldete Benutzer die Startseite und gelangen direkt zum normalen Forum. Installiere „fof/direct-links“, um eigene Seiten für /login und /register zu erstellen, oder verwende die Vorlagenvariablen „{{ login_url }}“ und „{{ register_url }}“ in deinem HTML-Code.
-+
-```
-
-#### [`tapao-custom-landing-page.admin.settings.guests_only_label`](https://weblate.rob006.net/translate/flarum2/tapao-custom-landing-page/de/?q=context%3A%3D%22tapao-custom-landing-page.admin.settings.guests_only_label%22)
-
-> Show to guests only
-
-```diff
-+Nur für Gäste anzeigen
-```
-
-#### [`tapao-custom-landing-page.admin.settings.html_label`](https://weblate.rob006.net/translate/flarum2/tapao-custom-landing-page/de/?q=context%3A%3D%22tapao-custom-landing-page.admin.settings.html_label%22)
-
-> Landing Page HTML
-
-```diff
-+HTML der Landingpage
 ```
 
 

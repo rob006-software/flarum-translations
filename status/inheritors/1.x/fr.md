@@ -2,7 +2,7 @@
 
 Translations for French (`fr`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **125** are translated differently and **1140** are
+sides, but do not match between them: **124** are translated differently and **1140** are
 translated only in `fr`. Altogether they cover **55** components.
 
 <!-- {% raw %} -->
@@ -46,7 +46,7 @@ translated only in `fr`. Altogether they cover **55** components.
 | `fof-seo` | 0 | [195](#fof-seo-missing) |
 | `fof-signature` | 0 | [17](#fof-signature-missing) |
 | `fof-sitemap` | [3](#fof-sitemap) | 0 |
-| `fof-upload` | [2](#fof-upload) | 0 |
+| `fof-upload` | [1](#fof-upload) | 0 |
 | `forumaker-magicbb` | 0 | [46](#forumaker-magicbb-missing) |
 | `forumaker-magicread` | [4](#forumaker-magicread) | [13](#forumaker-magicread-missing) |
 | `huoxin-relative-url` | [1](#huoxin-relative-url) | 0 |
@@ -1216,19 +1216,6 @@ Déclenche une reconstruction immédiate de tous les fichiers de plan <del>du</d
 
 
 ### `fof-upload`
-
-#### [`fof-upload.admin.help_texts.custom_s3_url`](https://weblate.rob006.net/translate/flarum2/fof-upload/fr/?q=context%3A%3D%22fof-upload.admin.help_texts.custom_s3_url%22)
-
-> Use this setting if you are using an S3-compatible service that requires a specific URL format (e.g., Backblaze B2) or if you are experiencing issues with the default URL format. This setting is generally not necessary for most services. Ensure the URL includes the protocol (https://) and is correctly formatted. Example: https://your-bucket.s3.your-region.backblazeb2.com
->
-
-```diff
--Utilisez ce paramètre si vous utilisez un service compatible S3 qui nécessite un format d'URL spécifique (par exemple, Backblaze B2) ou si vous rencontrez des problèmes avec le format d'URL par défaut. Ce paramètre n'est généralement pas nécessaire pour la plupart des services. Assurez-vous que l'URL inclut le protocole (https://) et qu'elle est correctement formatée. Par exemple : https://your-bucket.s3.your-region.backblazeb2.com
-+Utilisez ce paramètre si vous utilisez un service compatible S3 qui nécessite un format d'URL spécifique (p. ex. Backblaze B2) ou si vous rencontrez des problèmes avec le format d'URL par défaut. Ce paramètre n'est généralement pas nécessaire pour la plupart des services. Assurez-vous que l'URL inclut le protocole (https://) et qu'elle est correctement formatée. Par exemple : https://your-bucket.s3.your-region.backblazeb2.com
-
-```
-
-Utilisez ce paramètre si vous utilisez un service compatible S3 qui nécessite un format d'URL spécifique <del>(par</del><ins>(p.</ins> <del>exemple,</del><ins>ex.</ins> Backblaze B2) ou si vous rencontrez des problèmes avec le format d'URL par défaut. Ce paramètre n'est généralement pas nécessaire pour la plupart des services. Assurez-vous que l'URL inclut le protocole (https://) et qu'elle est correctement formatée. Par exemple : https://your-bucket.s3.your-region.backblazeb2.com<br />
 
 #### [`fof-upload.forum.buttons.user_uploads`](https://weblate.rob006.net/translate/flarum2/fof-upload/fr/?q=context%3A%3D%22fof-upload.forum.buttons.user_uploads%22)
 

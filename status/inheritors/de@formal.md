@@ -3188,7 +3188,8 @@ Wenn <del>du</del><ins>Sie</ins> <del>deine</del><ins>Ihere</ins> Erweiterung ge
 
 #### [`fof-upload.admin.help_texts.custom_s3_url`](https://weblate.rob006.net/translate/flarum2/fof-upload/de@formal/?q=context%3A%3D%22fof-upload.admin.help_texts.custom_s3_url%22)
 
-> Use this setting if you are using an S3-compatible service that requires a specific URL format (e.g., Backblaze B2) or if you are experiencing issues with the default URL format. This setting is generally not necessary for most services. Ensure the URL includes the protocol (https://) and is correctly formatted. Example: https://your-bucket.s3.your-region.backblazeb2.com
+> The public base URL your files are served from — a CDN or custom domain in front of the bucket.
+> Leave blank to use the provider's default URL. Must include &lt;code&gt;https://&lt;/code&gt;.
 >
 
 ```diff
@@ -3201,9 +3202,7 @@ Verwende diese Einstellung, wenn <del>du</del><ins>Sie</ins> einen S3-kompatible
 
 #### [`fof-upload.admin.help_texts.mime_types`](https://weblate.rob006.net/translate/flarum2/fof-upload/de@formal/?q=context%3A%3D%22fof-upload.admin.help_texts.mime_types%22)
 
-> Please configure your mapping here. Each mime type regular expression will be handled by a specific upload adapter and download template.
-> Optionally, give each entry a permission label (e.g. "Images", "Videos") to create a dedicated permission in the permission grid.
-> This lets you restrict which groups may upload specific file types — in addition to the base "Upload files" permission which is always required.
+> Decide which files members may upload, where each kind is stored, and how it appears in a post.
 >
 
 ```diff
