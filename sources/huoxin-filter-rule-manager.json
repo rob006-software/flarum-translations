@@ -11,6 +11,9 @@
                 "templates": "Display Templates",
                 "modes": "Display Modes"
             },
+            "registry_headers": {
+                "global_tokens": "Global"
+            },
             "add_ruleset": "Add ruleset",
             "edit_ruleset": "Edit ruleset",
             "no_rulesets": "No rulesets have been created yet. Create one to start showing filter rules.",
@@ -180,7 +183,10 @@
                 "global": "All posts",
                 "normal_post": "Normal Discussions",
                 "private_post": "Private Discussions",
-                "tag": "Specific tags",
+                "tag": "Specific tags"
+            },
+            "runs": {
+                "global": "Global",
                 "backend": "Backend",
                 "frontend": "Frontend",
                 "both": "Frontend + Backend"
@@ -194,8 +200,14 @@
             "modifiers": {
                 "entire_post": "Entire Post",
                 "multiple_selected": "{count} Modifiers",
-                "strip_mentions": "Strip Mentions (@)",
-                "strip_mentions_help": "Removes all @ user mentions and post mentions from the text before checking it against this rule, preventing user names from triggering false positives."
+                "strip_mentions": "Strip Mentions",
+                "strip_mentions_help": "Removes all user mentions and post mentions from the text before checking it against this rule, preventing user names from triggering false positives.",
+                "strip_upload_tags": "Strip FoF Upload Tags",
+                "strip_upload_tags_help": "Removes [upl-image-preview] and other fof/upload shortcode tags from the text before checking it against this rule.",
+                "strip_images": "Strip Image URLs",
+                "strip_images_help": "Removes standard [img] BBCode and Markdown image formatting from the text before checking it against this rule.",
+                "strip_urls": "Strip URLs",
+                "strip_urls_help": "Removes all http/https links from the text before checking it against this rule."
             },
             "displays": {
                 "none": "None (Hidden)",
@@ -229,6 +241,7 @@
             },
             "tokens_available": "Available tokens — click to insert",
             "tokens_none": "No tokens available — add a rule to see what tokens it exposes.",
+            "token_rule_name_desc": "The name of the triggered ruleset",
             "type_contains_word": "Contains word(s)",
             "type_regex": "Matches regex pattern(s)",
             "type_group": "User in Group(s)",
@@ -257,10 +270,6 @@
             "config_word_count_min": "Minimum words/characters",
             "config_word_count_max": "Maximum words/characters",
             "config_word_count_help": "Note: CJK text (Chinese/Japanese/Korean) is counted character by character. Other text (English, numbers, etc.) is counted by word boundaries (spaces). e.g., 'hello world' is 2 words, while '你好' is 2 characters.",
-            "config_exclude_mentions": "Exclude Mentions (@username)",
-            "config_exclude_mentions_help": "If enabled, mentions like @username will not be counted towards the length limit.",
-            "config_exclude_urls": "Exclude URLs (http://...)",
-            "config_exclude_urls_help": "If enabled, URLs will be stripped before counting to prevent long links from artificially inflating word counts.",
             "rule_scan_all": "Find all matches",
             "rule_scan_all_help": "If enabled, this rule will list every matched word or pattern in the warning message. If disabled, it only lists the first match.",
             "rule_regex_warning": "Regex patterns run server-side on every post save. Avoid catastrophic backtracking (e.g. nested quantifiers like (a+)+) — keep patterns simple and well-anchored.",
