@@ -8,7 +8,7 @@
                 "title": "=> fof-user-directory.forum.page.nav"
             },
             "search": {
-                "users_heading": "Durchsuche alle Benutzer nach \"{query}\"",
+                "users_heading": "Durchsuche alle Benutzer nach „{query}“",
                 "field": {
                     "placeholder": "Alle Nutzer durchsuchen"
                 },
@@ -22,7 +22,7 @@
                 "refresh_tooltip": "=> core.forum.index.refresh_tooltip",
                 "load_more_button": "=> core.ref.load_more",
                 "empty_text": "Wir konnten keinen Benutzer finden, der deiner Suche entspricht.",
-                "filter_button": "Gruppen Filtern",
+                "filter_button": "Gruppen filtern",
                 "usercard": {
                     "discussion-count": "{count, plural, one { {count} Diskussion} other {{count} Diskussionen}}",
                     "post-count": "{count, plural, one { {count} Beitrag} other {{count} Beiträge}}"
@@ -36,7 +36,7 @@
             "settings": {
                 "link": "Link auf der Homepage hinzufügen, damit Benutzer das Verzeichnis sehen können",
                 "default-sort": "Standard-Sortierung",
-                "use-small-cards": "Kleine Nutzer-Karten verwenden",
+                "use-small-cards": "Kleine Benutzerkarten verwenden",
                 "disable-global-search-source": "Benutzerverzeichnis nicht zum globalen Suchfeld von Flarum hinzufügen",
                 "link-group-mentions": "Gruppenerwähnungen in Beiträgen mit dem Benutzerverzeichnis verlinken"
             }
@@ -51,8 +51,8 @@
                 "oldest": "Älteste",
                 "most_discussions": "Meiste Diskussionen",
                 "least_discussions": "Wenigste Diskussionen",
-                "seen_recent": "",
-                "seen_oldest": "",
+                "seen_recent": "Zuletzt online",
+                "seen_oldest": "Am längsten abwesend",
                 "most_posts": "Meiste Beiträge",
                 "least_posts": "Wenigste Beiträge"
             }
