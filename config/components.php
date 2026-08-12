@@ -360,7 +360,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/links/2.0.0-rc.1/locale/en.yml',
 	],
 	'fof-mailing' => [
-		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/mailing/2.0.0-beta.1/resources/locale/en.yml',
+		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/mailing/2.0.0-beta.2/resources/locale/en.yml',
 	],
 	'fof-masquerade' => [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/masquerade/3.0.0-beta.8/resources/locale/en.yml',
