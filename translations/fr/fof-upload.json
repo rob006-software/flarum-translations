@@ -31,7 +31,7 @@
                 "disable-hotlink-protection": "La protection contre les liens hypertextes automatiques empêche l'ouverture des téléchargements à partir d'autres sites. La méthode actuelle nécessite un jeton CSRF et un identifiant de publication.\n",
                 "download_templates": "Les modèles de téléchargement indiquent comment les téléchargements sont affichés sur votre forum, comme par exemple des prévisualisations ou des boutons. Actuellement disponible :\n",
                 "mime_types": "Déterminez quels fichiers les membres peuvent transférer, où chaque type de fichier est stocké et comment il apparaît dans un message.\n",
-                "mime_order": "",
+                "mime_order": "Les règles sont évaluées de haut en bas et la première correspondance l'emporte ; veillez donc à placer les règles les plus spécifiques avant les règles générales.\n",
                 "resize": "Décidez si vous souhaitez redimensionner vos images avant qu'elles ne soient téléchargées. Vous pouvez indiquer une largeur et une hauteur maximales, en pixels. Le processus de redimensionnement conserve le rapport hauteur/largeur des images.\n",
                 "client_extension": "Par défaut, l'extension Upload sélectionnera une extension de fichier sûre en fonction du type MIME.\nPour certains types de fichiers basés sur des données ZIP ou binaires, cela peut entraîner l'utilisation d'extensions génériques au lieu de l'extension attendue.\nVous pouvez saisir ici une liste d'extensions de fichiers, séparées par des virgules, qui seront conservées mot pour mot.\n",
                 "thumbnails": "Génère une miniature pour les images au moment du transfert. La miniature est affichée ;\nen cliquant dessus, le fichier original en pleine résolution s'ouvre dans un nouvel onglet.\nLes miniatures réduisent considérablement la bande passante et le poids des pages pour les forums contenant de nombreuses images volumineuses.\n",
@@ -127,7 +127,7 @@
                     "mime_add_subtype_placeholder": "p. ex. webp",
                     "mime_remove_subtype": "Supprimer {subtype}",
                     "mime_add_prompt": "Ajouter des types de fichiers…",
-                    "mime_add_custom": "",
+                    "mime_add_custom": "Modèle personnalisé…",
                     "title": "Préférences générales",
                     "php_ini_values": "Vos valeurs <code>php.ini</code> sont <code>post_max_size={post}</code> et <code>upload_max_filesize={upload}</code>. Assurez-vous que la valeur définie ici est inférieure à ces seuils ou ajustez-les en conséquence. Si vous utilisez <code>Nginx</code>, assurez-vous également que <code>client_max_body_size</code> est d'une taille suffisante pour la limite maximale choisie."
                 },
@@ -156,7 +156,7 @@
                     "toggle": "Générer des miniatures lors du transfert",
                     "webp_toggle": "Encoder les miniatures au format WebP (recommandé, ~30% plus petit)",
                     "max_width": "Largeur maximale de la miniature (px)",
-                    "quality": "Qualité des miniatures"
+                    "quality": "Qualité de la miniature"
                 },
                 "watermark": {
                     "file": "Transférer votre image de filigrane",
