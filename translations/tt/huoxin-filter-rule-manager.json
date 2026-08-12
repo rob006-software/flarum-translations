@@ -11,6 +11,9 @@
                 "templates": "",
                 "modes": ""
             },
+            "registry_headers": {
+                "global_tokens": ""
+            },
             "add_ruleset": "",
             "edit_ruleset": "",
             "no_rulesets": "",
@@ -180,7 +183,10 @@
                 "global": "",
                 "normal_post": "",
                 "private_post": "",
-                "tag": "",
+                "tag": ""
+            },
+            "runs": {
+                "global": "",
                 "backend": "",
                 "frontend": "",
                 "both": ""
@@ -195,7 +201,13 @@
                 "entire_post": "",
                 "multiple_selected": "",
                 "strip_mentions": "",
-                "strip_mentions_help": ""
+                "strip_mentions_help": "",
+                "strip_upload_tags": "",
+                "strip_upload_tags_help": "",
+                "strip_images": "",
+                "strip_images_help": "",
+                "strip_urls": "",
+                "strip_urls_help": ""
             },
             "displays": {
                 "none": "",
@@ -229,6 +241,7 @@
             },
             "tokens_available": "",
             "tokens_none": "",
+            "token_rule_name_desc": "",
             "type_contains_word": "",
             "type_regex": "",
             "type_group": "",
@@ -257,10 +270,6 @@
             "config_word_count_min": "",
             "config_word_count_max": "",
             "config_word_count_help": "",
-            "config_exclude_mentions": "",
-            "config_exclude_mentions_help": "",
-            "config_exclude_urls": "",
-            "config_exclude_urls_help": "",
             "rule_scan_all": "",
             "rule_scan_all_help": "",
             "rule_regex_warning": "",

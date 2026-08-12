@@ -11,6 +11,9 @@
                 "templates": "Display Templates",
                 "modes": "Display Modes"
             },
+            "registry_headers": {
+                "global_tokens": ""
+            },
             "add_ruleset": "เพิ่ม Ruleset",
             "edit_ruleset": "แก้ไข Ruleset",
             "no_rulesets": "ยังไม่มี Ruleset สร้างขึ้น สร้างหนึ่งอันเพื่อเริ่มแสดงกฎการกรอง",
@@ -185,6 +188,12 @@
                 "frontend": "Frontend",
                 "both": "Frontend + Backend"
             },
+            "runs": {
+                "global": "",
+                "backend": "",
+                "frontend": "",
+                "both": ""
+            },
             "templates": {
                 "builtin": "Built-in"
             },
@@ -195,7 +204,13 @@
                 "entire_post": "",
                 "multiple_selected": "",
                 "strip_mentions": "",
-                "strip_mentions_help": ""
+                "strip_mentions_help": "",
+                "strip_upload_tags": "",
+                "strip_upload_tags_help": "",
+                "strip_images": "",
+                "strip_images_help": "",
+                "strip_urls": "",
+                "strip_urls_help": ""
             },
             "displays": {
                 "none": "",
@@ -229,6 +244,7 @@
             },
             "tokens_available": "Tokens ที่ใช้ได้ — คลิกเพื่อแทรก",
             "tokens_none": "ไม่มี token ที่ใช้ได้ — เพิ่มกฎเพื่อดู token ที่กฎนั้น expose",
+            "token_rule_name_desc": "",
             "type_contains_word": "มีคำ/วลี",
             "type_regex": "ตรงกับ regex pattern",
             "type_group": "",
@@ -257,10 +273,6 @@
             "config_word_count_min": "",
             "config_word_count_max": "",
             "config_word_count_help": "",
-            "config_exclude_mentions": "",
-            "config_exclude_mentions_help": "",
-            "config_exclude_urls": "",
-            "config_exclude_urls_help": "",
             "rule_scan_all": "หาทุก match",
             "rule_scan_all_help": "หากเปิดใช้งาน กฎนี้จะรวบรวมคำหรือ pattern ทุกตัวที่ตรงกันใน list หากปิด จะส่งคืนเร็วเมื่อพบ match แรกเพื่อประหยัดเวลาประมวลผล",
             "rule_regex_warning": "Regex pattern ทำงานฝั่ง server ทุกครั้งที่บันทึกโพสต์ หลีกเลี่ยง catastrophic backtracking (เช่น nested quantifiers อย่าง (a+)+) — ทำ pattern ให้เรียบง่ายและ anchor ให้ดี",
