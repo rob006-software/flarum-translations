@@ -17286,9 +17286,13 @@
                 "settings": {
                     "animate-flip": "db0fa28ca98ebcafce2203be96b7cf16 db0fa28ca98ebcafce2203be96b7cf16",
                     "discussion": "b2cf2ebddfb37e6d1a41978a05531dcd b2cf2ebddfb37e6d1a41978a05531dcd",
+                    "discussion-tags": "14342da6072bdd313f6f0a99ca7c2a68 14342da6072bdd313f6f0a99ca7c2a68",
                     "general": "0a6892b9c620daf64f6cac8931ecef06 0a6892b9c620daf64f6cac8931ecef06",
                     "post": "483d032d9f7f165d86c62eff7de0e2de 483d032d9f7f165d86c62eff7de0e2de",
                     "tags-control": {
+                        "add": "fea9823d3149d04227e2e169908767bf fea9823d3149d04227e2e169908767bf",
+                        "choose": "104d9f8daaf6269a117ef936f4142686 104d9f8daaf6269a117ef936f4142686",
+                        "delete": "c85326d9e3ed6570a707f6157b55498d c85326d9e3ed6570a707f6157b55498d",
                         "down": "016d06a527b38e01867f4005f44eae1b 016d06a527b38e01867f4005f44eae1b",
                         "up": "3599fcf39d6007d0c64f2ef8c3871776 3599fcf39d6007d0c64f2ef8c3871776"
                     },
@@ -17303,12 +17307,29 @@
                 "default-fish-name": "87a58e793815a7db0346f0e893731c4a 87a58e793815a7db0346f0e893731c4a"
             },
             "forum": {
+                "basket": {
+                    "drag-help": "d2c5874be0f684302a83d414e7fc8dcd d2c5874be0f684302a83d414e7fc8dcd",
+                    "time": "e65a789036276f7e233b6ecca370eb20 e65a789036276f7e233b6ecca370eb20",
+                    "title": "44ad7941c435361793ba78961d7f8c3e 44ad7941c435361793ba78961d7f8c3e"
+                },
                 "caught-fish-modal": {
+                    "congratulation": "14a8ab00c15453536d9d86f77ffc9801 14a8ab00c15453536d9d86f77ffc9801",
                     "name": "8c5964fdef7cf18736ad387ff9876155 8c5964fdef7cf18736ad387ff9876155",
                     "name-help": "bf3d3c48f4cca9ae6fe11baa470398f1 bf3d3c48f4cca9ae6fe11baa470398f1",
                     "named-by": "29e6d022db4bc8c49e3bc0a986fbb847 29e6d022db4bc8c49e3bc0a986fbb847",
+                    "placed-by": "ac97a0d4267e75d1bdf6a2b1f1268bf5 ac97a0d4267e75d1bdf6a2b1f1268bf5",
+                    "placement-help": "3d48d6a9a086ed1275a4b6aaef2aca19 3d48d6a9a086ed1275a4b6aaef2aca19",
+                    "submit-continue": "c39838d84fd81cbfeb7cf74ccd8ae9d0 c39838d84fd81cbfeb7cf74ccd8ae9d0",
                     "submit-name": "35894ed68a920ed8c364f88209fdb84a 35894ed68a920ed8c364f88209fdb84a",
+                    "submit-name-place-later": "f3c5334742bd950d6a00c379adedbce3 f3c5334742bd950d6a00c379adedbce3",
+                    "submit-name-place-random": "ccdf1ab44a869fa3d2995f05f5d64b68 ccdf1ab44a869fa3d2995f05f5d64b68",
+                    "submit-place-later": "75de7e7c43801dafc492be547ba013b9 75de7e7c43801dafc492be547ba013b9",
+                    "submit-place-random": "b42943eb2558499c89b9e3502f8f9f50 b42943eb2558499c89b9e3502f8f9f50",
                     "title": "41ca512d3d87b0bf437cf356ed5a51e7 41ca512d3d87b0bf437cf356ed5a51e7"
+                },
+                "drop-area": {
+                    "message": "75c2f762e71c9edd4dbcd66d251b9aa7 75c2f762e71c9edd4dbcd66d251b9aa7",
+                    "missing-from-store": "bb431f4731e319df63ea7175ba0f40b7 bb431f4731e319df63ea7175ba0f40b7"
                 },
                 "edit-fish-modal": {
                     "title": "d5e66869fdb0f872383540dca60c4b7f d5e66869fdb0f872383540dca60c4b7f"
@@ -17318,13 +17339,27 @@
                     "delete": "8206c697b46b8ebd546b4f741970b7fe 8206c697b46b8ebd546b4f741970b7fe",
                     "delete-confirmation": "e2baec03b525807a43a786e661497deb e2baec03b525807a43a786e661497deb",
                     "name": "49ee3087348e8d44e1feda1917443987 49ee3087348e8d44e1feda1917443987",
+                    "name-help": "226b58792c8b0f83fc5145b71169132e 226b58792c8b0f83fc5145b71169132e",
                     "save": "4ccd40613e8c087237a933f75b61b0d2 4ccd40613e8c087237a933f75b61b0d2"
                 },
                 "edit-round-modal": {
                     "title": "1aa7f2d638fd6b77dfd7aca31f4856eb 1aa7f2d638fd6b77dfd7aca31f4856eb"
                 },
                 "edit-round": {
-                    "name": "49ee3087348e8d44e1feda1917443987 49ee3087348e8d44e1feda1917443987"
+                    "create": "51026f85f9cc100414061a5a2f625727 51026f85f9cc100414061a5a2f625727",
+                    "delete": "bbc1562a67b849a5abbe3149d8c1c2a3 bbc1562a67b849a5abbe3149d8c1c2a3",
+                    "delete-confirmation": "72010df46867fedf6cd14930fe4db91a 72010df46867fedf6cd14930fe4db91a",
+                    "ends-at": "f63c97d183d03c6f3fbce7a349354a0e f63c97d183d03c6f3fbce7a349354a0e",
+                    "name": "49ee3087348e8d44e1feda1917443987 49ee3087348e8d44e1feda1917443987",
+                    "name-help": "757e80e0a0e5e0ed03a5f9f26c6d6b83 757e80e0a0e5e0ed03a5f9f26c6d6b83",
+                    "save": "ee6a5f87e705913c90ca3b07a821606a ee6a5f87e705913c90ca3b07a821606a",
+                    "starting-pack": "65eca232101122e3dd418ea757a1cf79 65eca232101122e3dd418ea757a1cf79",
+                    "starting-pack-help": "e03f6877ac1290f4746ee4effd9b04a8 e03f6877ac1290f4746ee4effd9b04a8",
+                    "starts-at": "b6f55f38d4f05da563f7640685145b1e b6f55f38d4f05da563f7640685145b1e"
+                },
+                "fish-image": {
+                    "alt": "5b80c2228a7e60e4fe2f7da9d6a053e9 5b80c2228a7e60e4fe2f7da9d6a053e9",
+                    "missing": "421efe66a2da2c9871245a234f7ff9f8 421efe66a2da2c9871245a234f7ff9f8"
                 },
                 "moderate": {
                     "add": "5f4110486d00f1ceafd93d33f82c55a8 5f4110486d00f1ceafd93d33f82c55a8",
@@ -17346,19 +17381,44 @@
                 "new-round-modal": {
                     "title": "756005936a1fa230ce382c2ab29f2869 756005936a1fa230ce382c2ab29f2869"
                 },
+                "page-ranking": {
+                    "nothing": "4c3bbb02a7d6703585117486c2f2ff2a 4c3bbb02a7d6703585117486c2f2ff2a",
+                    "permission": "fa02cf22d73f547fe2b55b8b849da845 fa02cf22d73f547fe2b55b8b849da845",
+                    "title": "a1881131637e87a79a2064428ef6b027 a1881131637e87a79a2064428ef6b027"
+                },
+                "round-alert": {
+                    "message": "c688387627ab662efe520535a9d9a7c8 c688387627ab662efe520535a9d9a7c8",
+                    "rankings": "302540af84bb81a21121328ccdc6133c 302540af84bb81a21121328ccdc6133c"
+                },
                 "table-fish": {
                     "actions": "872073b901a14fa46db0fcd34e25c7e7 872073b901a14fa46db0fcd34e25c7e7",
                     "edit": "5ad05dd4fa8fe82c3a85570683c368ad 5ad05dd4fa8fe82c3a85570683c368ad",
-                    "loading": "429632256a7cb8e976e824c1deedefcc 429632256a7cb8e976e824c1deedefcc"
+                    "image": "0da3b78d9546e8fe0065cd3c9ed1879a 0da3b78d9546e8fe0065cd3c9ed1879a",
+                    "loading": "429632256a7cb8e976e824c1deedefcc 429632256a7cb8e976e824c1deedefcc",
+                    "name": "49ee3087348e8d44e1feda1917443987 49ee3087348e8d44e1feda1917443987",
+                    "new": "ff2ebf9721d2f74b061d7329d9cf2957 ff2ebf9721d2f74b061d7329d9cf2957",
+                    "new-from-image": "d4aaac6ea1ae1ace7cdb1f7cc88c57b9 d4aaac6ea1ae1ace7cdb1f7cc88c57b9",
+                    "no-user-name": "ce6c91ee939d4dac90abfc7d791898e3 ce6c91ee939d4dac90abfc7d791898e3",
+                    "no-user-place": "11aaa692277100990b3377574b784250 11aaa692277100990b3377574b784250",
+                    "placement": "29e88c412f548cac488418fcbf014bd4 29e88c412f548cac488418fcbf014bd4",
+                    "title": "c6a54c0a90a2ceb470eebb8f06714007 c6a54c0a90a2ceb470eebb8f06714007",
+                    "upload": "969201b0b858517a8f00f45fc9466576 969201b0b858517a8f00f45fc9466576",
+                    "user-name": "886f5659b3a46973a756117016130260 886f5659b3a46973a756117016130260",
+                    "user-place": "34cd824d7ce3cdbfc9d947cb9b2f7e3a 34cd824d7ce3cdbfc9d947cb9b2f7e3a"
                 },
                 "table-ranking": {
-                    "rank": "49ee3087348e8d44e1feda1917443987 49ee3087348e8d44e1feda1917443987"
+                    "count": "a76ee108ee53ba6bf8860b44698ad2d5 a76ee108ee53ba6bf8860b44698ad2d5",
+                    "loading": "429632256a7cb8e976e824c1deedefcc 429632256a7cb8e976e824c1deedefcc",
+                    "rank": "49ee3087348e8d44e1feda1917443987 49ee3087348e8d44e1feda1917443987",
+                    "title": "be64fcc5e8a1af13db8631a642025d6c be64fcc5e8a1af13db8631a642025d6c",
+                    "user": "b15b7b0340f52d448dc6191fc9317f3a b15b7b0340f52d448dc6191fc9317f3a"
                 },
                 "table-round": {
                     "actions": "872073b901a14fa46db0fcd34e25c7e7 872073b901a14fa46db0fcd34e25c7e7",
                     "edit": "5ad05dd4fa8fe82c3a85570683c368ad 5ad05dd4fa8fe82c3a85570683c368ad",
                     "end": "59eb64d02eb86e919ce0a72aa8bf013b 59eb64d02eb86e919ce0a72aa8bf013b",
                     "fishes": "4adf750f60e18ab47f596aeb5b838733 4adf750f60e18ab47f596aeb5b838733",
+                    "loading": "429632256a7cb8e976e824c1deedefcc 429632256a7cb8e976e824c1deedefcc",
                     "name": "49ee3087348e8d44e1feda1917443987 49ee3087348e8d44e1feda1917443987",
                     "new": "756005936a1fa230ce382c2ab29f2869 756005936a1fa230ce382c2ab29f2869",
                     "start": "ac9bebfcb2b274fd133af0bccc2defa4 ac9bebfcb2b274fd133af0bccc2defa4",
