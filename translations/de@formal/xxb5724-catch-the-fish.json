@@ -122,13 +122,13 @@
         "admin": {
             "settings": {
                 "user": "Benutzer",
-                "user-age": "",
-                "user-probability": "",
+                "user-age": "Wie lange muss ein Benutzer bereits aktiv sein, damit ein Fisch darauf ausgesetzt wird (Tage)",
+                "user-probability": "Wahrscheinlichkeit, in einem Benutzerprofil ausgesetzt zu werden (%)",
                 "discussion": "Diskussionen",
-                "discussion-age": "",
+                "discussion-age": "Wie alt muss ein Diskussion sein, bevor ein Fisch darauf ausgesetzt wird (Tage)",
                 "discussion-tags": "Tag-Zulassungsliste",
-                "discussion-tags-unavailable": "",
-                "discussion-tags-help": "",
+                "discussion-tags-unavailable": "Diese Einstellung ist nicht verfügbar, da die „Tags“-Erweiterung deaktiviert ist.",
+                "discussion-tags-help": "Wenn du kein Tag auswählst, kann jede Diskussion ausgewählt werden, die den oben genannten Zeiteinstellungen entspricht. Wenn mehrere Tags ausgewählt sind, muss eine Diskussion mindestens eines der ausgewählten Tags enthalten, um in die Auswahl zu kommen. Die Wahrscheinlichkeit gibt an, wie hoch die Chance ist, ausgewählt zu werden, nachdem alle vorherigen Auswahlmöglichkeiten durchprobiert wurden. Das letzte Tag in der Liste dient immer als Ausweichoption. Stelle daher sicher, dass dieses Tag mindestens eine gültige Diskussion enthält.\n",
                 "tags-header": {
                     "tag": "Tag",
                     "probability": "Wahrscheinlichkeit"
@@ -141,15 +141,15 @@
                     "delete": "Von Zulassungsliste entfernen"
                 },
                 "tags-fallback": {
-                    "last-line": "",
-                    "single-line": ""
+                    "last-line": "Ausweichlösung",
+                    "single-line": "Für die Wahrscheinlichkeit sind mindestens 2 Tags erforderlich"
                 },
                 "post": "Beiträge",
-                "post-age": "",
-                "post-probability": "",
+                "post-age": "Wie alt muss ein Beitrag sein, bevor ein Fisch darauf ausgesetzt wird (Tage)",
+                "post-probability": "Wahrscheinlichkeit, dass ein Fisch eher in einem Beitrag als in der Diskussion ausgesetzt wird (%)",
                 "general": "Allgemein",
-                "time-to-place": "",
-                "alert-round": "",
+                "time-to-place": "Zeit, die zum Aussetzen der Fische zur Verfügung steht, bevor diese zufällig platziert werden (Minuten)",
+                "alert-round": "Auf der Startseite eine Meldung mit dem Namen und der Dauer der Runde anzeigen",
                 "animate-flip": "Fischbilder je nach Richtung spiegeln"
             },
             "permissions": {
