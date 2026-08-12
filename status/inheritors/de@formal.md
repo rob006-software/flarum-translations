@@ -2,7 +2,7 @@
 
 Translations for German (formal) (`de@formal`) are inherited from German informal variant, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **295** are translated differently and **0** are
+sides, but do not match between them: **310** are translated differently and **0** are
 translated only in `de@formal`. Altogether they cover **43** components.
 
 <!-- {% raw %} -->
@@ -50,7 +50,7 @@ translated only in `de@formal`. Altogether they cover **43** components.
 | `fof-profile-image-crop` | [2](#fof-profile-image-crop) |
 | `fof-reactions` | [2](#fof-reactions) |
 | `fof-sitemap` | [1](#fof-sitemap) |
-| `fof-upload` | [4](#fof-upload) |
+| `fof-upload` | [19](#fof-upload) |
 | `fof-username-request` | [33](#fof-username-request) |
 | `forumaker-magicbb` | [1](#forumaker-magicbb) |
 | `resofire-digest-mail` | [1](#resofire-digest-mail) |
@@ -3186,6 +3186,36 @@ Wenn <del>du</del><ins>Sie</ins> <del>deine</del><ins>Ihere</ins> Erweiterung ge
 
 ### `fof-upload`
 
+#### [`fof-upload.admin.help_texts.client_extension`](https://weblate.rob006.net/translate/flarum2/fof-upload/de@formal/?q=context%3A%3D%22fof-upload.admin.help_texts.client_extension%22)
+
+> By default Upload will choose a safe file extension based on the MIME type.
+> For some file types based around ZIP or binary data this can result in generic extensions being used instead of the expected one.
+> Here you can enter a comma-separated list of file extensions that will be kept verbatim.
+>
+
+```diff
+ Standardmäßig wählt Upload eine sichere Dateierweiterung basierend auf dem MIME-Typ.
+ Bei einigen Dateitypen, die auf ZIP- oder Binärdaten basieren, kann dies dazu führen, dass generische Erweiterungen statt der erwarteten verwendet werden.
+-Hier kannst du eine kommagetrennte Liste von Dateierweiterungen eingeben, die genau beibehalten werden sollen.
++Hier können Sie eine kommagetrennte Liste von Dateierweiterungen eingeben, die genau beibehalten werden sollen.
+
+```
+
+Standardmäßig wählt Upload eine sichere Dateierweiterung basierend auf dem MIME-Typ.<br />Bei einigen Dateitypen, die auf ZIP- oder Binärdaten basieren, kann dies dazu führen, dass generische Erweiterungen statt der erwarteten verwendet werden.<br />Hier <del>kannst</del><ins>können</ins> <del>du</del><ins>Sie</ins> eine kommagetrennte Liste von Dateierweiterungen eingeben, die genau beibehalten werden sollen.<br />
+
+#### [`fof-upload.admin.help_texts.composer_buttons`](https://weblate.rob006.net/translate/flarum2/fof-upload/de@formal/?q=context%3A%3D%22fof-upload.admin.help_texts.composer_buttons%22)
+
+> By default both the media manager button and upload button are visible. You can also choose to display only one button.
+>
+
+```diff
+-Standardmäßig sind sowohl die Medienmanager-Schaltfläche als auch die Upload-Schaltfläche sichtbar. Du kannst auch festlegen, dass nur eine Schaltfläche angezeigt wird.
++Standardmäßig sind sowohl die Medienmanager-Schaltfläche als auch die Upload-Schaltfläche sichtbar. Sie können auch festlegen, dass nur eine Schaltfläche angezeigt wird.
+
+```
+
+Standardmäßig sind sowohl die Medienmanager-Schaltfläche als auch die Upload-Schaltfläche sichtbar. <del>Du</del><ins>Sie</ins> <del>kannst</del><ins>können</ins> auch festlegen, dass nur eine Schaltfläche angezeigt wird.<br />
+
 #### [`fof-upload.admin.help_texts.custom_s3_url`](https://weblate.rob006.net/translate/flarum2/fof-upload/de@formal/?q=context%3A%3D%22fof-upload.admin.help_texts.custom_s3_url%22)
 
 > The public base URL your files are served from — a CDN or custom domain in front of the bucket.
@@ -3193,12 +3223,56 @@ Wenn <del>du</del><ins>Sie</ins> <del>deine</del><ins>Ihere</ins> Erweiterung ge
 >
 
 ```diff
--Verwende diese Einstellung, wenn du einen S3-kompatiblen Dienst nutzt, der ein bestimmtes URL-Format erfordert (z. B. Backblaze B2) oder wenn du Probleme mit dem Standard-URL-Format hast. In der Regel ist diese Einstellung für die meisten Dienste nicht erforderlich. Achte darauf, dass die URL das Protokoll (https://) enthält und korrekt formatiert ist. Beispiel: https://your-bucket.s3.your-region.backblazeb2.com
-+Verwende diese Einstellung, wenn Sie einen S3-kompatiblen Dienst nutzen, der ein bestimmtes URL-Format erfordert (z. B. Backblaze B2) oder wenn Sie Probleme mit dem Standard-URL-Format haben. In der Regel ist diese Einstellung für die meisten Dienste nicht erforderlich. Achten Sie darauf, dass die URL das Protokoll (https://) enthält und korrekt formatiert ist. Beispiel: https://your-bucket.s3.your-region.backblazeb2.com
+-Die öffentliche Basis-URL, über die deine Dateien bereitgestellt werden – ein CDN oder eine benutzerdefinierte Domain vor dem Bucket.
+-Lasse das Feld leer, um die Standard-URL des Anbieters zu verwenden. Muss <code>https://</code> enthalten.
++Die öffentliche Basis-URL, über die Ihre Dateien bereitgestellt werden – ein CDN oder eine benutzerdefinierte Domain vor dem Bucket.
++Lassen Sie das Feld leer, um die Standard-URL des Anbieters zu verwenden. Muss <code>https://</code> enthalten.
 
 ```
 
-Verwende diese Einstellung, wenn <del>du</del><ins>Sie</ins> einen S3-kompatiblen Dienst <del>nutzt,</del><ins>nutzen,</ins> der ein bestimmtes URL-Format erfordert (z. B. Backblaze B2) oder wenn <del>du</del><ins>Sie</ins> Probleme mit dem Standard-URL-Format <del>hast.</del><ins>haben.</ins> In der Regel ist diese Einstellung für die meisten Dienste nicht erforderlich. <del>Achte</del><ins>Achten Sie</ins> darauf, dass die URL das Protokoll (https://) enthält und korrekt formatiert ist. Beispiel: https://your-bucket.s3.your-region.backblazeb2.com<br />
+Die öffentliche Basis-URL, über die <del>deine</del><ins>Ihre</ins> Dateien bereitgestellt werden – ein CDN oder eine benutzerdefinierte Domain vor dem Bucket.<br /><del>Lasse</del><ins>Lassen Sie</ins> das Feld leer, um die Standard-URL des Anbieters zu verwenden. Muss &lt;code&gt;https://&lt;/code&gt; enthalten.<br />
+
+#### [`fof-upload.admin.help_texts.disable-download-logging`](https://weblate.rob006.net/translate/flarum2/fof-upload/de@formal/?q=context%3A%3D%22fof-upload.admin.help_texts.disable-download-logging%22)
+
+> Disable logging every download made by users of your forum. Keeping it enabled allows you to view the number of downloads and other metrics in the nearby future.
+>
+
+```diff
+-Deaktiviere die Protokollierung aller Downloads, die von Nutzern deines Forums getätigt werden. Wenn du es aktiviert lässt, kannst du die Anzahl der Downloads und andere Metriken in der nahen Zukunft einsehen.
++Deaktiviere die Protokollierung aller Downloads, die von Nutzern deines Forums getätigt werden. Wenn Sie es aktiviert lassen, können Sie die Anzahl der Downloads und andere Metriken in der nahen Zukunft einsehen.
+
+```
+
+Deaktiviere die Protokollierung aller Downloads, die von Nutzern deines Forums getätigt werden. Wenn <del>du</del><ins>Sie</ins> es aktiviert <del>lässt,</del><ins>lassen,</ins> <del>kannst</del><ins>können</ins> <del>du</del><ins>Sie</ins> die Anzahl der Downloads und andere Metriken in der nahen Zukunft einsehen.<br />
+
+#### [`fof-upload.admin.help_texts.local_cdn`](https://weblate.rob006.net/translate/flarum2/fof-upload/de@formal/?q=context%3A%3D%22fof-upload.admin.help_texts.local_cdn%22)
+
+> Optional. If you serve &lt;code&gt;assets/files&lt;/code&gt; through a CDN, enter its base URL and uploaded file links will use it.
+> Leave blank to serve files directly from your forum.
+>
+
+```diff
+-Optional. Wenn du <code>assets/files</code> über ein CDN bereitstellst, gibst du dessen Basis-URL ein; die Links zu den hochgeladenen Dateien verwenden diese dann.
+-Lasse das Feld leer, um die Dateien direkt aus deinem Forum bereitzustellen.
++Optional. Wenn Sie <code>assets/files</code> über ein CDN bereitstellst, geben Sie dessen Basis-URL ein; die Links zu den hochgeladenen Dateien verwenden diese dann.
++Lassen Sie das Feld leer, um die Dateien direkt aus deinem Forum bereitzustellen.
+
+```
+
+Optional. Wenn <del>du</del><ins>Sie</ins> &lt;code&gt;assets/files&lt;/code&gt; über ein CDN bereitstellst, <del>gibst</del><ins>geben</ins> <del>du</del><ins>Sie</ins> dessen Basis-URL ein; die Links zu den hochgeladenen Dateien verwenden diese dann.<br /><del>Lasse</del><ins>Lassen Sie</ins> das Feld leer, um die Dateien direkt aus deinem Forum bereitzustellen.<br />
+
+#### [`fof-upload.admin.help_texts.mime_order`](https://weblate.rob006.net/translate/flarum2/fof-upload/de@formal/?q=context%3A%3D%22fof-upload.admin.help_texts.mime_order%22)
+
+> Rules are matched from the top down and the first match wins, so put more specific rules above general ones.
+>
+
+```diff
+-Regeln werden von oben nach unten abgeglichen, und die erste Übereinstimmung hat Vorrang. Platziere daher spezifischere Regeln vor allgemeinen.
++Regeln werden von oben nach unten abgeglichen, und die erste Übereinstimmung hat Vorrang. Platzieren Sie daher spezifischere Regeln vor allgemeinen.
+
+```
+
+Regeln werden von oben nach unten abgeglichen, und die erste Übereinstimmung hat Vorrang. <del>Platziere</del><ins>Platzieren Sie</ins> daher spezifischere Regeln vor allgemeinen.<br />
 
 #### [`fof-upload.admin.help_texts.mime_types`](https://weblate.rob006.net/translate/flarum2/fof-upload/de@formal/?q=context%3A%3D%22fof-upload.admin.help_texts.mime_types%22)
 
@@ -3206,16 +3280,153 @@ Verwende diese Einstellung, wenn <del>du</del><ins>Sie</ins> einen S3-kompatible
 >
 
 ```diff
--Bitte konfiguriere hier deine Zuordnung. Jeder reguläre Ausdruck für einen MIME-Typ wird von einem bestimmten Upload-Adapter und einer bestimmten Download-Vorlage verarbeitet.
--Optional kannst du jedem Eintrag eine Berechtigungsbezeichnung (z. B. „Bilder“, „Videos“) zuweisen, um eine spezielle Berechtigung im Berechtigungsraster zu erstellen.
--Auf diese Weise kannst du einschränken, welche Gruppen bestimmte Dateitypen hochladen dürfen – zusätzlich zur Basisberechtigung „Dateien hochladen“, die immer erforderlich ist.
-+Bitte konfigurieren Sie hier Ihre Zuordnung. Jeder reguläre Ausdruck für einen MIME-Typ wird von einem bestimmten Upload-Adapter und einer bestimmten Download-Vorlage verarbeitet.
-+Optional können Sie jedem Eintrag eine Berechtigungsbezeichnung (z. B. „Bilder“, „Videos“) zuweisen, um eine eigene Berechtigung im Berechtigungsraster zu erstellen.
-+Auf diese Weise können Sie einschränken, welche Gruppen bestimmte Dateitypen hochladen dürfen – zusätzlich zu der grundlegenden Berechtigung „Dateien hochladen“, die immer erforderlich ist.
+-Lege fest, welche Dateien Mitglieder hochladen dürfen, wo die einzelnen Dateitypen gespeichert werden und wie sie in einem Beitrag angezeigt werden.
++Legen Sie fest, welche Dateien Mitglieder hochladen dürfen, wo die einzelnen Dateitypen gespeichert werden und wie sie in einem Beitrag angezeigt werden.
 
 ```
 
-Bitte <del>konfiguriere</del><ins>konfigurieren Sie</ins> hier <del>deine</del><ins>Ihre</ins> Zuordnung. Jeder reguläre Ausdruck für einen MIME-Typ wird von einem bestimmten Upload-Adapter und einer bestimmten Download-Vorlage verarbeitet.<br />Optional <del>kannst</del><ins>können</ins> <del>du</del><ins>Sie</ins> jedem Eintrag eine Berechtigungsbezeichnung (z. B. „Bilder“, „Videos“) zuweisen, um eine <del>spezielle</del><ins>eigene</ins> Berechtigung im Berechtigungsraster zu erstellen.<br />Auf diese Weise <del>kannst</del><ins>können</ins> <del>du</del><ins>Sie</ins> einschränken, welche Gruppen bestimmte Dateitypen hochladen dürfen – zusätzlich <del>zur</del><ins>zu</ins> <del>Basisberechtigung</del><ins>der grundlegenden Berechtigung</ins> „Dateien hochladen“, die immer erforderlich ist.<br />
+<del>Lege</del><ins>Legen Sie</ins> fest, welche Dateien Mitglieder hochladen dürfen, wo die einzelnen Dateitypen gespeichert werden und wie sie in einem Beitrag angezeigt werden.<br />
+
+#### [`fof-upload.admin.help_texts.resize`](https://weblate.rob006.net/translate/flarum2/fof-upload/de@formal/?q=context%3A%3D%22fof-upload.admin.help_texts.resize%22)
+
+> Choose whether you want to resize your images before they get uploaded. You can choose a maximum width and height, in pixels. The resizing process keeps the aspect ratio of the images.
+>
+
+```diff
+-Wähle aus, ob du die Größe deiner Bilder ändern möchtest, bevor sie hochgeladen werden. Du kannst eine maximale Breite und Höhe in Pixeln wählen. Bei der Größenänderung wird das Seitenverhältnis der Bilder beibehalten.
++Wählen Sie aus, ob Sie die Größe Ihrer Bilder ändern möchten, bevor sie hochgeladen werden. Sie können eine maximale Breite und Höhe in Pixeln wählen. Bei der Größenänderung wird das Seitenverhältnis der Bilder beibehalten.
+
+```
+
+<del>Wähle</del><ins>Wählen Sie</ins> aus, ob <del>du</del><ins>Sie</ins> die Größe <del>deiner</del><ins>Ihrer</ins> Bilder ändern <del>möchtest,</del><ins>möchten,</ins> bevor sie hochgeladen werden. <del>Du</del><ins>Sie</ins> <del>kannst</del><ins>können</ins> eine maximale Breite und Höhe in Pixeln wählen. Bei der Größenänderung wird das Seitenverhältnis der Bilder beibehalten.<br />
+
+#### [`fof-upload.admin.help_texts.s3_acl`](https://weblate.rob006.net/translate/flarum2/fof-upload/de@formal/?q=context%3A%3D%22fof-upload.admin.help_texts.s3_acl%22)
+
+> Applied to each uploaded object. Leave blank for the provider default (usually private).
+> Use &lt;code&gt;public-read&lt;/code&gt; if files must be readable directly from the bucket.
+>
+
+```diff
+-Wird auf jedes hochgeladene Objekt angewendet. Lasse das Feld leer, um die Standardeinstellung des Anbieters zu verwenden (in der Regel „private“).
+-Verwende <code>public-read</code>, wenn Dateien direkt aus dem Bucket gelesen werden können müssen.
++Wird auf jedes hochgeladene Objekt angewendet. Lassen Sie das Feld leer, um die Standardeinstellung des Anbieters zu verwenden (in der Regel „private“).
++Verwenden Sie <code>public-read</code>, wenn Dateien direkt aus dem Bucket gelesen werden können müssen.
+
+```
+
+Wird auf jedes hochgeladene Objekt angewendet. <del>Lasse</del><ins>Lassen Sie</ins> das Feld leer, um die Standardeinstellung des Anbieters zu verwenden (in der Regel „private“).<br /><del>Verwende</del><ins>Verwenden Sie</ins> &lt;code&gt;public-read&lt;/code&gt;, wenn Dateien direkt aus dem Bucket gelesen werden können müssen.<br />
+
+#### [`fof-upload.admin.help_texts.s3_acl_unsupported`](https://weblate.rob006.net/translate/flarum2/fof-upload/de@formal/?q=context%3A%3D%22fof-upload.admin.help_texts.s3_acl_unsupported%22)
+
+> {provider} does not support ACLs. Control public access in the provider's own dashboard instead.
+>
+
+```diff
+-{provider} unterstützt keine ACLs. Steuere den öffentlichen Zugriff stattdessen über das Dashboard des Anbieters.
++{provider} unterstützt keine ACLs. Steuern Sie den öffentlichen Zugriff stattdessen über das Dashboard des Anbieters.
+
+```
+
+{provider} unterstützt keine ACLs. <del>Steuere</del><ins>Steuern Sie</ins> den öffentlichen Zugriff stattdessen über das Dashboard des Anbieters.<br />
+
+#### [`fof-upload.admin.help_texts.s3_instance_profile`](https://weblate.rob006.net/translate/flarum2/fof-upload/de@formal/?q=context%3A%3D%22fof-upload.admin.help_texts.s3_instance_profile%22)
+
+> Leave both blank to use an IAM role instead — only works on EC2, ECS or EKS.
+>
+
+```diff
+-Lasse beide Felder leer, um stattdessen eine IAM-Rolle zu verwenden – dies funktioniert nur auf EC2, ECS oder EKS.
++Lassen Sie beide Felder leer, um stattdessen eine IAM-Rolle zu verwenden – dies funktioniert nur auf EC2, ECS oder EKS.
+
+```
+
+<del>Lasse</del><ins>Lassen Sie</ins> beide Felder leer, um stattdessen eine IAM-Rolle zu verwenden – dies funktioniert nur auf EC2, ECS oder EKS.<br />
+
+#### [`fof-upload.admin.help_texts.s3_path_style`](https://weblate.rob006.net/translate/flarum2/fof-upload/de@formal/?q=context%3A%3D%22fof-upload.admin.help_texts.s3_path_style%22)
+
+> Puts the bucket in the URL path rather than the hostname. Required by MinIO and Cloudflare R2;
+> set automatically when you choose a provider.
+>
+
+```diff
+ Fügt den Bucket anstelle des Hostnamens in den URL-Pfad ein. Wird von MinIO und Cloudflare R2 benötigt;
+-wird automatisch festgelegt, wenn du einen Anbieter auswählst.
++wird automatisch festgelegt, wenn Sie einen Anbieter auswählen.
+
+```
+
+Fügt den Bucket anstelle des Hostnamens in den URL-Pfad ein. Wird von MinIO und Cloudflare R2 benötigt;<br />wird automatisch festgelegt, wenn <del>du</del><ins>Sie</ins> einen Anbieter <del>auswählst.</del><ins>auswählen.</ins><br />
+
+#### [`fof-upload.admin.help_texts.s3_provider`](https://weblate.rob006.net/translate/flarum2/fof-upload/de@formal/?q=context%3A%3D%22fof-upload.admin.help_texts.s3_provider%22)
+
+> Choosing your provider sets the endpoint format, addressing style and ACL support below. Pick "Other S3-compatible"
+> if yours is not listed.
+>
+
+```diff
+-Durch die Auswahl deines Anbieters werden das Endpunktformat, die Adressierungsart und die ACL-Unterstützung wie unten beschrieben festgelegt.
+-Wähle „Andere S3-kompatible Anbieter“, falls dein Anbieter nicht aufgeführt ist.
++Durch die Auswahl Ihres Anbieters werden das Endpunktformat, die Adressierungsart und die ACL-Unterstützung wie unten beschrieben festgelegt.
++Wählen Sie „Andere S3-kompatible Anbieter“, falls Ihr Anbieter nicht aufgeführt ist.
+
+```
+
+Durch die Auswahl <del>deines</del><ins>Ihres</ins> Anbieters werden das Endpunktformat, die Adressierungsart und die ACL-Unterstützung wie unten beschrieben festgelegt.<br /><del>Wähle</del><ins>Wählen Sie</ins> „Andere S3-kompatible Anbieter“, falls <del>dein</del><ins>Ihr</ins> Anbieter nicht aufgeführt ist.<br />
+
+#### [`fof-upload.admin.help_texts.storage_configure_another`](https://weblate.rob006.net/translate/flarum2/fof-upload/de@formal/?q=context%3A%3D%22fof-upload.admin.help_texts.storage_configure_another%22)
+
+> Other storage services are installed but not yet set up. Configuring one does not change where files go
+> until you assign it to a file type.
+>
+
+```diff
+ Es sind weitere Speicherdienste installiert, aber noch nicht eingerichtet. Die Konfiguration eines solchen Dienstes
+-hat keinen Einfluss darauf, wo Dateien gespeichert werden, solange du ihn keinem Dateityp zuweist.
++hat keinen Einfluss darauf, wo Dateien gespeichert werden, solange Sie ihn keinem Dateityp zuweisen.
+
+```
+
+Es sind weitere Speicherdienste installiert, aber noch nicht eingerichtet. Die Konfiguration eines solchen Dienstes<br />hat keinen Einfluss darauf, wo Dateien gespeichert werden, solange <del>du</del><ins>Sie</ins> ihn keinem Dateityp <del>zuweist.</del><ins>zuweisen.</ins><br />
+
+#### [`fof-upload.admin.help_texts.storage_intro`](https://weblate.rob006.net/translate/flarum2/fof-upload/de@formal/?q=context%3A%3D%22fof-upload.admin.help_texts.storage_intro%22)
+
+> Services you have configured, or that a file type is using, are shown here. You can set up a service
+> before pointing any file type at it — assign it on the Files tab when you are ready.
+>
+
+```diff
+-Hier werden die Dienste angezeigt, die du konfiguriert hast oder die von einem Dateityp verwendet werden. Du kannst einen Dienst einrichten,
+-bevor du einen Dateityp darauf verweisen – weise ihn auf der Registerkarte „Dateien“ zu, sobald du bereit bist.
++Hier werden die Dienste angezeigt, die Sie konfiguriert haben oder die von einem Dateityp verwendet werden. Sie können einen Dienst einrichten,
++bevor Sie einen Dateityp darauf verweisen – weisen Sie ihn auf der Registerkarte „Dateien“ zu, sobald Sie bereit sind.
+
+```
+
+Hier werden die Dienste angezeigt, die <del>du</del><ins>Sie</ins> konfiguriert <del>hast</del><ins>haben</ins> oder die von einem Dateityp verwendet werden. <del>Du</del><ins>Sie</ins> <del>kannst</del><ins>können</ins> einen Dienst einrichten,<br />bevor <del>du</del><ins>Sie</ins> einen Dateityp darauf verweisen – <del>weise</del><ins>weisen Sie</ins> ihn auf der Registerkarte „Dateien“ zu, sobald <del>du</del><ins>Sie</ins> bereit <del>bist.</del><ins>sind.</ins><br />
+
+#### [`fof-upload.admin.help_texts.storage_not_installed`](https://weblate.rob006.net/translate/flarum2/fof-upload/de@formal/?q=context%3A%3D%22fof-upload.admin.help_texts.storage_not_installed%22)
+
+> Looking for Amazon S3, Cloudflare R2 or Qiniu? Those need an extra package — see &lt;a&gt;installing storage adapters&lt;/a&gt;.
+
+```diff
+-Suchst du nach Amazon S3, Cloudflare R2 oder Qiniu? Dafür ist ein zusätzliches Paket erforderlich – siehe <a>Installation von Speicheradaptern</a>.
++Suchen Sie nach Amazon S3, Cloudflare R2 oder Qiniu? Dafür ist ein zusätzliches Paket erforderlich – siehe <a>Installation von Speicheradaptern</a>.
+```
+
+<del>Suchst</del><ins>Suchen</ins> <del>du</del><ins>Sie</ins> nach Amazon S3, Cloudflare R2 oder Qiniu? Dafür ist ein zusätzliches Paket erforderlich – siehe &lt;a&gt;Installation von Speicheradaptern&lt;/a&gt;.
+
+#### [`fof-upload.admin.help_texts.watermark`](https://weblate.rob006.net/translate/flarum2/fof-upload/de@formal/?q=context%3A%3D%22fof-upload.admin.help_texts.watermark%22)
+
+> Choose whether images will have a watermark added during upload. Watermarks are added to non-gifs based on your preferences below.
+>
+
+```diff
+-Wähle aus, ob Bilder beim Hochladen mit einem Wasserzeichen versehen werden sollen. Wasserzeichen werden basierend auf deinen Einstellungen unten hinzugefügt, jedoch nicht bei GIF's.
++Wählen Sie aus, ob Bilder beim Hochladen mit einem Wasserzeichen versehen werden sollen. Wasserzeichen werden basierend auf deinen Einstellungen unten hinzugefügt, jedoch nicht bei GIF's.
+
+```
+
+<del>Wähle</del><ins>Wählen Sie</ins> aus, ob Bilder beim Hochladen mit einem Wasserzeichen versehen werden sollen. Wasserzeichen werden basierend auf deinen Einstellungen unten hinzugefügt, jedoch nicht bei GIF's.<br />
 
 #### [`fof-upload.admin.permissions.upload_label`](https://weblate.rob006.net/translate/flarum2/fof-upload/de@formal/?q=context%3A%3D%22fof-upload.admin.permissions.upload_label%22)
 

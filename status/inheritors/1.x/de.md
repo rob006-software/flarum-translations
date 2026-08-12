@@ -2,7 +2,7 @@
 
 Translations for German (`de`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **292** are translated differently and **551** are
+sides, but do not match between them: **293** are translated differently and **551** are
 translated only in `de`. Altogether they cover **85** components.
 
 <!-- {% raw %} -->
@@ -53,7 +53,7 @@ translated only in `de`. Altogether they cover **85** components.
 | `fof-sitemap` | [3](#fof-sitemap) | 0 |
 | `fof-split` | [1](#fof-split) | 0 |
 | `fof-terms` | [1](#fof-terms) | 0 |
-| `fof-upload` | [1](#fof-upload) | 0 |
+| `fof-upload` | [2](#fof-upload) | 0 |
 | `fof-username-request` | [8](#fof-username-request) | 0 |
 | `fof-webhooks` | [4](#fof-webhooks) | 0 |
 | `forumaker-magicbb` | [3](#forumaker-magicbb) | [19](#forumaker-magicbb-missing) |
@@ -2026,6 +2026,17 @@ Die Mindestanzahl an Diskussionen, über die ein <del>Thema</del><ins>Tag</ins> 
 
 
 ### `fof-upload`
+
+#### [`fof-upload.admin.labels.inspect-mime`](https://weblate.rob006.net/translate/flarum2/fof-upload/de/?q=context%3A%3D%22fof-upload.admin.labels.inspect-mime%22)
+
+> Test file MIME type
+
+```diff
+-MIME-Typ der Testdatei
++MIME-Typ einer Datei testen
+```
+
+MIME-Typ <del>der</del><ins>einer</ins> <del>Testdatei</del><ins>Datei testen</ins>
 
 #### [`fof-upload.forum.buttons.cancel`](https://weblate.rob006.net/translate/flarum2/fof-upload/de/?q=context%3A%3D%22fof-upload.forum.buttons.cancel%22)
 

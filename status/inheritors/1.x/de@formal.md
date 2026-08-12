@@ -2,7 +2,7 @@
 
 Translations for German (formal) (`de@formal`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **338** are translated differently and **551** are
+sides, but do not match between them: **344** are translated differently and **551** are
 translated only in `de@formal`. Altogether they cover **87** components.
 
 <!-- {% raw %} -->
@@ -56,7 +56,7 @@ translated only in `de@formal`. Altogether they cover **87** components.
 | `fof-sitemap` | [4](#fof-sitemap) | 0 |
 | `fof-split` | [1](#fof-split) | 0 |
 | `fof-terms` | [1](#fof-terms) | 0 |
-| `fof-upload` | [1](#fof-upload) | 0 |
+| `fof-upload` | [7](#fof-upload) | 0 |
 | `fof-username-request` | [34](#fof-username-request) | 0 |
 | `fof-webhooks` | [4](#fof-webhooks) | 0 |
 | `forumaker-magicbb` | [3](#forumaker-magicbb) | [19](#forumaker-magicbb-missing) |
@@ -2335,6 +2335,86 @@ Die Mindestanzahl an Diskussionen, über die ein <del>Thema</del><ins>Tag</ins> 
 
 
 ### `fof-upload`
+
+#### [`fof-upload.admin.help_texts.client_extension`](https://weblate.rob006.net/translate/flarum2/fof-upload/de@formal/?q=context%3A%3D%22fof-upload.admin.help_texts.client_extension%22)
+
+> By default Upload will choose a safe file extension based on the MIME type.
+> For some file types based around ZIP or binary data this can result in generic extensions being used instead of the expected one.
+> Here you can enter a comma-separated list of file extensions that will be kept verbatim.
+>
+
+```diff
+ Standardmäßig wählt Upload eine sichere Dateierweiterung basierend auf dem MIME-Typ.
+ Bei einigen Dateitypen, die auf ZIP- oder Binärdaten basieren, kann dies dazu führen, dass generische Erweiterungen statt der erwarteten verwendet werden.
+-Hier kannst du eine kommagetrennte Liste von Dateierweiterungen eingeben, die genau beibehalten werden sollen.
++Hier können Sie eine kommagetrennte Liste von Dateierweiterungen eingeben, die genau beibehalten werden sollen.
+
+```
+
+Standardmäßig wählt Upload eine sichere Dateierweiterung basierend auf dem MIME-Typ.<br />Bei einigen Dateitypen, die auf ZIP- oder Binärdaten basieren, kann dies dazu führen, dass generische Erweiterungen statt der erwarteten verwendet werden.<br />Hier <del>kannst</del><ins>können</ins> <del>du</del><ins>Sie</ins> eine kommagetrennte Liste von Dateierweiterungen eingeben, die genau beibehalten werden sollen.<br />
+
+#### [`fof-upload.admin.help_texts.composer_buttons`](https://weblate.rob006.net/translate/flarum2/fof-upload/de@formal/?q=context%3A%3D%22fof-upload.admin.help_texts.composer_buttons%22)
+
+> By default both the media manager button and upload button are visible. You can also choose to display only one button.
+>
+
+```diff
+-Standardmäßig sind sowohl die Medienmanager-Schaltfläche als auch die Upload-Schaltfläche sichtbar. Du kannst auch festlegen, dass nur eine Schaltfläche angezeigt wird.
++Standardmäßig sind sowohl die Medienmanager-Schaltfläche als auch die Upload-Schaltfläche sichtbar. Sie können auch festlegen, dass nur eine Schaltfläche angezeigt wird.
+
+```
+
+Standardmäßig sind sowohl die Medienmanager-Schaltfläche als auch die Upload-Schaltfläche sichtbar. <del>Du</del><ins>Sie</ins> <del>kannst</del><ins>können</ins> auch festlegen, dass nur eine Schaltfläche angezeigt wird.<br />
+
+#### [`fof-upload.admin.help_texts.disable-download-logging`](https://weblate.rob006.net/translate/flarum2/fof-upload/de@formal/?q=context%3A%3D%22fof-upload.admin.help_texts.disable-download-logging%22)
+
+> Disable logging every download made by users of your forum. Keeping it enabled allows you to view the number of downloads and other metrics in the nearby future.
+>
+
+```diff
+-Deaktiviere die Protokollierung aller Downloads, die von Nutzern deines Forums getätigt werden. Wenn du es aktiviert lässt, kannst du die Anzahl der Downloads und andere Metriken in der nahen Zukunft einsehen.
++Deaktiviere die Protokollierung aller Downloads, die von Nutzern deines Forums getätigt werden. Wenn Sie es aktiviert lassen, können Sie die Anzahl der Downloads und andere Metriken in der nahen Zukunft einsehen.
+
+```
+
+Deaktiviere die Protokollierung aller Downloads, die von Nutzern deines Forums getätigt werden. Wenn <del>du</del><ins>Sie</ins> es aktiviert <del>lässt,</del><ins>lassen,</ins> <del>kannst</del><ins>können</ins> <del>du</del><ins>Sie</ins> die Anzahl der Downloads und andere Metriken in der nahen Zukunft einsehen.<br />
+
+#### [`fof-upload.admin.help_texts.resize`](https://weblate.rob006.net/translate/flarum2/fof-upload/de@formal/?q=context%3A%3D%22fof-upload.admin.help_texts.resize%22)
+
+> Choose whether you want to resize your images before they get uploaded. You can choose a maximum width and height, in pixels. The resizing process keeps the aspect ratio of the images.
+>
+
+```diff
+-Wähle aus, ob du die Größe deiner Bilder ändern möchtest, bevor sie hochgeladen werden. Du kannst eine maximale Breite und Höhe in Pixeln wählen. Bei der Größenänderung wird das Seitenverhältnis der Bilder beibehalten.
++Wählen Sie aus, ob Sie die Größe Ihrer Bilder ändern möchten, bevor sie hochgeladen werden. Sie können eine maximale Breite und Höhe in Pixeln wählen. Bei der Größenänderung wird das Seitenverhältnis der Bilder beibehalten.
+
+```
+
+<del>Wähle</del><ins>Wählen Sie</ins> aus, ob <del>du</del><ins>Sie</ins> die Größe <del>deiner</del><ins>Ihrer</ins> Bilder ändern <del>möchtest,</del><ins>möchten,</ins> bevor sie hochgeladen werden. <del>Du</del><ins>Sie</ins> <del>kannst</del><ins>können</ins> eine maximale Breite und Höhe in Pixeln wählen. Bei der Größenänderung wird das Seitenverhältnis der Bilder beibehalten.<br />
+
+#### [`fof-upload.admin.help_texts.watermark`](https://weblate.rob006.net/translate/flarum2/fof-upload/de@formal/?q=context%3A%3D%22fof-upload.admin.help_texts.watermark%22)
+
+> Choose whether images will have a watermark added during upload. Watermarks are added to non-gifs based on your preferences below.
+>
+
+```diff
+-Wähle aus, ob Bilder beim Hochladen mit einem Wasserzeichen versehen werden sollen. Wasserzeichen werden basierend auf deinen Einstellungen unten hinzugefügt, jedoch nicht bei GIF's.
++Wählen Sie aus, ob Bilder beim Hochladen mit einem Wasserzeichen versehen werden sollen. Wasserzeichen werden basierend auf deinen Einstellungen unten hinzugefügt, jedoch nicht bei GIF's.
+
+```
+
+<del>Wähle</del><ins>Wählen Sie</ins> aus, ob Bilder beim Hochladen mit einem Wasserzeichen versehen werden sollen. Wasserzeichen werden basierend auf deinen Einstellungen unten hinzugefügt, jedoch nicht bei GIF's.<br />
+
+#### [`fof-upload.admin.labels.inspect-mime`](https://weblate.rob006.net/translate/flarum2/fof-upload/de@formal/?q=context%3A%3D%22fof-upload.admin.labels.inspect-mime%22)
+
+> Test file MIME type
+
+```diff
+-MIME-Typ der Testdatei
++MIME-Typ einer Datei testen
+```
+
+MIME-Typ <del>der</del><ins>einer</ins> <del>Testdatei</del><ins>Datei testen</ins>
 
 #### [`fof-upload.forum.buttons.cancel`](https://weblate.rob006.net/translate/flarum2/fof-upload/de@formal/?q=context%3A%3D%22fof-upload.forum.buttons.cancel%22)
 
