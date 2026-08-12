@@ -30,17 +30,17 @@
                 "placed-by": "",
                 "congratulation": "",
                 "name": "Fischname",
-                "name-help": "",
+                "name-help": "Du kannst den Fisch umbenennen, wenn du möchtest. Der Name muss den Forenrichtlinien entsprechen.",
                 "placement-help": "",
                 "submit-name-place-later": "",
-                "submit-name": "",
+                "submit-name": "Namen speichern",
                 "submit-place-later": "",
                 "submit-continue": "",
                 "submit-name-place-random": "",
                 "submit-place-random": ""
             },
             "edit-round": {
-                "name": "",
+                "name": "Name",
                 "name-help": "",
                 "starts-at": "",
                 "ends-at": "",
@@ -52,15 +52,15 @@
                 "delete-confirmation": ""
             },
             "edit-fish": {
-                "name": "",
+                "name": "Name",
                 "name-help": "",
-                "create": "",
-                "save": "",
-                "delete": "",
-                "delete-confirmation": ""
+                "create": "Fisch erstellen",
+                "save": "Fisch speichern",
+                "delete": "Fisch löschen",
+                "delete-confirmation": "Fisch „{name}“ löschen?"
             },
             "moving-fish": {
-                "login": ""
+                "login": "Anmelden, um Fische zu fangen"
             },
             "fish-image": {
                 "alt": "",
@@ -77,17 +77,17 @@
             },
             "table-round": {
                 "loading": "",
-                "title": "",
-                "new": "",
-                "name": "",
-                "start": "",
-                "end": "",
-                "actions": "",
-                "edit": "",
-                "fishes": ""
+                "title": "Runden",
+                "new": "Neue Runde",
+                "name": "Name",
+                "start": "Von",
+                "end": "Bis",
+                "actions": "Aktionen",
+                "edit": "Bearbeiten",
+                "fishes": "Fische"
             },
             "table-fish": {
-                "loading": "",
+                "loading": "Wird geladen...",
                 "title": "",
                 "new": "",
                 "image": "",
@@ -95,8 +95,8 @@
                 "user-name": "",
                 "user-place": "",
                 "placement": "",
-                "actions": "",
-                "edit": "",
+                "actions": "Aktionen",
+                "edit": "Bearbeiten",
                 "no-user-name": "",
                 "no-user-place": "",
                 "upload": "",
@@ -105,7 +105,7 @@
             "table-ranking": {
                 "loading": "",
                 "title": "",
-                "rank": "",
+                "rank": "Name",
                 "count": "",
                 "user": ""
             },
@@ -121,40 +121,40 @@
         },
         "admin": {
             "settings": {
-                "user": "",
+                "user": "Benutzer",
                 "user-age": "",
                 "user-probability": "",
-                "discussion": "",
+                "discussion": "Diskussionen",
                 "discussion-age": "",
                 "discussion-tags": "",
                 "discussion-tags-unavailable": "",
                 "discussion-tags-help": "",
                 "tags-header": {
-                    "tag": "",
-                    "probability": ""
+                    "tag": "Tag",
+                    "probability": "Wahrscheinlichkeit"
                 },
                 "tags-control": {
                     "choose": "",
                     "add": "",
-                    "down": "",
-                    "up": "",
+                    "down": "Nach unten verschieben",
+                    "up": "Nach oben verschieben",
                     "delete": ""
                 },
                 "tags-fallback": {
                     "last-line": "",
                     "single-line": ""
                 },
-                "post": "",
+                "post": "Beiträge",
                 "post-age": "",
                 "post-probability": "",
-                "general": "",
+                "general": "Allgemein",
                 "time-to-place": "",
                 "alert-round": "",
-                "animate-flip": ""
+                "animate-flip": "Fischbilder je nach Richtung spiegeln"
             },
             "permissions": {
-                "visible": "",
-                "list-rankings": "",
+                "visible": "Fische anzeigen",
+                "list-rankings": "Auf die Rangliste zugreifen",
                 "participate": "",
                 "choose-place": "",
                 "choose-name": "",
@@ -162,7 +162,7 @@
             }
         },
         "api": {
-            "default-fish-name": "",
+            "default-fish-name": "Fisch #{number}",
             "wrong-catch-placement": "",
             "too-many-placement-models": "",
             "invalid-discussion-id": "",
