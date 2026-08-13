@@ -660,7 +660,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/linkrobins/referral/v1.4.4/locale/en.yml',
 	],
 	'linkrobins-shoutbox' => [
-		'tag' => 'https://raw.githubusercontent.com/linkrobins/shoutbox/v1.6.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/linkrobins/shoutbox/v1.7.0/locale/en.yml',
 	],
 	'linkrobins-support' => [
 		'tag' => 'https://raw.githubusercontent.com/linkrobins/support/v1.6.3/locale/en.yml',
