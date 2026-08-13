@@ -8110,6 +8110,7 @@
         "fof-profile-image-crop": {
             "forum": {
                 "modal": {
+                    "crop_too_small": "d4a77ddf65fcb9bcdc504a284421b633 d4a77ddf65fcb9bcdc504a284421b633",
                     "error": {
                         "failed_to_load_cropper": "32f14ad70331e5215221490ddfb07b0c 32f14ad70331e5215221490ddfb07b0c",
                         "generic_resize": "3de66b2ac5793a3b7cd002dd5a2877a5 3de66b2ac5793a3b7cd002dd5a2877a5",
@@ -16338,6 +16339,40 @@
                 },
                 "spoiler": {
                     "locked": "f421e1a8b59e3538f218fbf29b1ebbd4 f421e1a8b59e3538f218fbf29b1ebbd4"
+                }
+            }
+        }
+    },
+    "tryhackx-cover-studio.json": {
+        "tryhackx-cover-studio": {
+            "admin": {
+                "cover_height_help": "870aca7b90ef8a9bd8efedf44cb1e021 870aca7b90ef8a9bd8efedf44cb1e021",
+                "cover_height_label": "8d4bff8af2dc8029d3f49536201f26a7 8d4bff8af2dc8029d3f49536201f26a7",
+                "cover_height_mobile_label": "4fb1b4ffbe78a31a1db8eb567abd5b7c 4fb1b4ffbe78a31a1db8eb567abd5b7c",
+                "default": {
+                    "avatar_title": "2498df042c38f0950d3f13757d1a625a 2498df042c38f0950d3f13757d1a625a",
+                    "change_button": "b28a8473f9101b15ad7608d216888850 b28a8473f9101b15ad7608d216888850",
+                    "cover_title": "e05b87da0a52ac6426ee30e0a6229a9b e05b87da0a52ac6426ee30e0a6229a9b",
+                    "not_set": "0e6e19383f6b702df1aeb6f5dd284826 0e6e19383f6b702df1aeb6f5dd284826",
+                    "picker_back": "429bdf7fb1ab9dd6ff5f8f5b6d380968 429bdf7fb1ab9dd6ff5f8f5b6d380968",
+                    "remove_button": "513d306cc83aa63d5a3801c0cac5f739 513d306cc83aa63d5a3801c0cac5f739",
+                    "save_position_button": "b6a05c828a40ce7739a2851730d94e23 b6a05c828a40ce7739a2851730d94e23",
+                    "saved": "d88dae73bf14c96963d05c87a98a7b95 d88dae73bf14c96963d05c87a98a7b95",
+                    "set_button": "07d7d3212ce94459a3163fe77b615a21 07d7d3212ce94459a3163fe77b615a21",
+                    "upload_button": "68ec19d85caadea33ee430f79414dd21 68ec19d85caadea33ee430f79414dd21"
+                },
+                "default_avatar_label": "2498df042c38f0950d3f13757d1a625a 2498df042c38f0950d3f13757d1a625a",
+                "default_cover_label": "e05b87da0a52ac6426ee30e0a6229a9b e05b87da0a52ac6426ee30e0a6229a9b",
+                "max_size_help": "40e3593bab9e333737b7416b5819d99c 40e3593bab9e333737b7416b5819d99c",
+                "max_size_label": "df60d0d2fba9251f244d0374d96ae124 df60d0d2fba9251f244d0374d96ae124",
+                "overlay_darken": "b34bbd10fefb4e6e0badd430497013e9 b34bbd10fefb4e6e0badd430497013e9",
+                "overlay_gradient": "3bba8c82451cc7816ea1abe475547b8a 3bba8c82451cc7816ea1abe475547b8a",
+                "overlay_help": "ff946909be89465baeb4a1cdbd72b1b4 ff946909be89465baeb4a1cdbd72b1b4",
+                "overlay_label": "b0dddb8af0eb8165efda17fad4ed380f b0dddb8af0eb8165efda17fad4ed380f",
+                "overlay_none": "39f1f3896af3529ef6c1490208538b4c 39f1f3896af3529ef6c1490208538b4c",
+                "show_on_popover_label": "10a4be29af51ae2cf32d1330c754286f 10a4be29af51ae2cf32d1330c754286f",
+                "support": {
+                    "copy": "d609a48f26e56517f32b0796b78bebaa d609a48f26e56517f32b0796b78bebaa"
                 }
             }
         }
