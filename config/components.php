@@ -38,6 +38,9 @@ return [
 			'fr',
 		],
 	],
+	'asyntai-chatbot' => [
+		'tag' => 'https://raw.githubusercontent.com/asyntai/flarum-chatbot/v1.0.1/locale/en.yml',
+	],
 	'captchala-flarum' => [
 		'tag' => 'https://raw.githubusercontent.com/Captcha-La/captchala-flarum/v1.0.2/resources/locale/en.yml',
 	],
