@@ -891,6 +891,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`fof-pretty-mail`](https://weblate.rob006.net/projects/flarum/fof-pretty-mail) | [`fof/pretty-mail`](https://github.com/FriendsOfFlarum/pretty-mail) |
 | [`fof-prevent-necrobumping`](https://weblate.rob006.net/projects/flarum/fof-prevent-necrobumping) | [`fof/prevent-necrobumping`](https://github.com/FriendsOfFlarum/prevent-necrobumping) |
 | [`fof-profile-image-crop`](https://weblate.rob006.net/projects/flarum/fof-profile-image-crop) | [`fof/profile-image-crop`](https://github.com/FriendsOfFlarum/profile-image-crop) |
+| [`fof-pwa`](https://weblate.rob006.net/projects/flarum/fof-pwa) | [`fof/pwa`](https://github.com/FriendsOfFlarum/pwa) |
 | [`fof-pwned-passwords`](https://weblate.rob006.net/projects/flarum/fof-pwned-passwords) | [`fof/pwned-passwords`](https://github.com/FriendsOfFlarum/pwned-passwords) |
 | [`fof-reactions`](https://weblate.rob006.net/projects/flarum/fof-reactions) | [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions) |
 | [`fof-recaptcha`](https://weblate.rob006.net/projects/flarum/fof-recaptcha) | [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha) |
@@ -938,6 +939,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`askvortsov-pwa`](https://weblate.rob006.net/projects/flarum/askvortsov-pwa) | [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa) |
 | [`askvortsov-rich-text`](https://weblate.rob006.net/projects/flarum/askvortsov-rich-text) | [`askvortsov/flarum-rich-text`](https://github.com/askvortsov1/flarum-rich-text) |
 | [`askvortsov-saml`](https://weblate.rob006.net/projects/flarum/askvortsov-saml) | [`askvortsov/flarum-saml`](https://github.com/askvortsov1/flarum-saml) |
+| [`asyntai-chatbot`](https://weblate.rob006.net/projects/flarum/asyntai-chatbot) | [`asyntai/flarum-chatbot`](https://github.com/asyntai/flarum-chatbot) |
 | [`blessing-oauth-client`](https://weblate.rob006.net/projects/flarum/blessing-oauth-client) | [`blessing/flarum-oauth-client`](https://github.com/bs-community/flarum-oauth-client) |
 | [`blomstra-conversations`](https://weblate.rob006.net/projects/flarum/blomstra-conversations) | [`blomstra/conversations`](https://github.com/blomstra/flarum-ext-conversations) |
 | [`blomstra-database-queue`](https://weblate.rob006.net/projects/flarum/blomstra-database-queue) | [`blomstra/database-queue`](https://github.com/blomstra/flarum-ext-database-queue) |
