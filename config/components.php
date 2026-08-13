@@ -620,6 +620,9 @@ return [
 			'zh_Hans',
 		],
 	],
+	'linkrobins-auto-lock' => [
+		'tag' => 'https://raw.githubusercontent.com/linkrobins/auto-lock/v1.0.0/locale/en.yml',
+	],
 	'linkrobins-auto-verify' => [
 		'tag' => 'https://raw.githubusercontent.com/linkrobins/auto-verify/v1.1.2/locale/en.yml',
 	],
