@@ -223,7 +223,9 @@
                     "elemental_tide": "Elemental advantage doubled for {value, plural, one {{value} turn} other {{value} turns}}",
                     "elemental_dominance": "Elemental bonus guaranteed",
                     "preparation": "Next turn is free",
-                    "resonance_failed": "Resonance didn't trigger"
+                    "resonance_failed": "Resonance didn't trigger",
+                    "amplify_failed": "Nothing to amplify",
+                    "weaken_applied": "Weaken activated"
                 }
             },
             "battle_surrender": {
@@ -240,6 +242,10 @@
                 "subtitle": "{name} didn't play a turn in 24 hours",
                 "subtitle_generic": "Turn time expired"
             },
+            "battle_closed": {
+                "title": "Battle closed",
+                "subtitle": "It never started within 5 days"
+            },
             "battle_next": {
                 "whos_turn": "{name}'s turn"
             },
@@ -249,7 +255,8 @@
                     "wins": "{n, plural, one {Win} other {Wins}}",
                     "losses": "{n, plural, one {Loss} other {Losses}}",
                     "draws": "{n, plural, one {Draw} other {Draws}}",
-                    "winrate": "Win rate"
+                    "winrate": "Win rate",
+                    "rating": "Rating"
                 },
                 "stats_overview": {
                     "btn": "Overall statistics",
@@ -450,6 +457,7 @@
                 "cancel": "Cancel",
                 "empty": "Nothing found",
                 "winner_label": "Winner:",
+                "close_waiting_confirm": "Close this open battle? No opponent ever joined — stats and Battle Pass progress are unaffected.",
                 "filter_all_battles": "All battles",
                 "filter_turns_placeholder": "Turns",
                 "col_id": "#",
@@ -458,12 +466,14 @@
                 "col_turn": "Turn",
                 "col_created": "Created",
                 "outcome_draw": "Draw",
+                "outcome_force_close": "Force close",
                 "status_waiting": "Open lobby",
                 "status_active": "Active",
                 "status_completed": "Completed",
                 "status_expired": "Expired",
                 "status_surrendered": "Surrender",
                 "status_draw": "Draw",
+                "status_closed": "Closed",
                 "waiting_for_opponent": "Waiting for an opponent",
                 "closed": "Battle closed.",
                 "already_deleted": "The battle has already been deleted",
@@ -795,7 +805,8 @@
                 "infinite_mana": "Infinite mana",
                 "infinite_hp": "Infinite health",
                 "infinite_turns": "Infinite turns",
-                "random_cards": "Random cards"
+                "random_cards": "Random cards",
+                "friendly": "Friendly match"
             },
             "bonus_effects": {
                 "heal": "Heal",

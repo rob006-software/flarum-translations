@@ -223,7 +223,9 @@
                     "elemental_tide": "",
                     "elemental_dominance": "",
                     "preparation": "",
-                    "resonance_failed": ""
+                    "resonance_failed": "",
+                    "amplify_failed": "",
+                    "weaken_applied": ""
                 }
             },
             "battle_surrender": {
@@ -240,6 +242,10 @@
                 "subtitle": "",
                 "subtitle_generic": ""
             },
+            "battle_closed": {
+                "title": "",
+                "subtitle": ""
+            },
             "battle_next": {
                 "whos_turn": ""
             },
@@ -249,7 +255,8 @@
                     "wins": "",
                     "losses": "",
                     "draws": "",
-                    "winrate": ""
+                    "winrate": "",
+                    "rating": ""
                 },
                 "stats_overview": {
                     "btn": "",
@@ -450,6 +457,7 @@
                 "cancel": "",
                 "empty": "",
                 "winner_label": "",
+                "close_waiting_confirm": "",
                 "filter_all_battles": "",
                 "filter_turns_placeholder": "",
                 "col_id": "",
@@ -458,12 +466,14 @@
                 "col_turn": "",
                 "col_created": "",
                 "outcome_draw": "",
+                "outcome_force_close": "",
                 "status_waiting": "",
                 "status_active": "",
                 "status_completed": "",
                 "status_expired": "",
                 "status_surrendered": "",
                 "status_draw": "",
+                "status_closed": "",
                 "waiting_for_opponent": "",
                 "closed": "",
                 "already_deleted": "",
@@ -795,7 +805,8 @@
                 "infinite_mana": "",
                 "infinite_hp": "",
                 "infinite_turns": "",
-                "random_cards": ""
+                "random_cards": "",
+                "friendly": ""
             },
             "bonus_effects": {
                 "heal": "",
