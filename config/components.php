@@ -621,7 +621,7 @@ return [
 		],
 	],
 	'linkrobins-auto-verify' => [
-		'tag' => 'https://raw.githubusercontent.com/linkrobins/auto-verify/v1.1.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/linkrobins/auto-verify/v1.1.2/locale/en.yml',
 	],
 	'linkrobins-badge-labels' => [
 		'tag' => 'https://raw.githubusercontent.com/linkrobins/flarum-badge-labels/v2.2.1/locale/en.yml',
