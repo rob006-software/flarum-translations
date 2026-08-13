@@ -1,0 +1,33 @@
+{
+    "linkrobins-auto-lock": {
+        "forum": {
+            "countdown": {
+                "days": "This discussion locks in {count} days if nobody replies.",
+                "day": "This discussion locks tomorrow if nobody replies.",
+                "today": "This discussion locks today if nobody replies.",
+                "title": "Quiet discussions are locked automatically after {days} days."
+            },
+            "post": {
+                "locked": "Locked automatically after {count} days without a reply."
+            }
+        },
+        "admin": {
+            "settings": {
+                "title": "Auto Lock",
+                "description": "Locks discussions that have gone quiet, so old threads stop collecting replies nobody is waiting for.",
+                "enabled_label": "Lock quiet discussions automatically",
+                "enabled_help": "Off until you turn it on. Nothing is locked while this is off.",
+                "days_label": "Days of silence before locking",
+                "days_help": "Counted from the most recent post. Minimum 1.",
+                "exempt_tags_loading": "Loading tags...",
+                "exempt_tags_label": "Tags that are never locked",
+                "exempt_tags_help": "Discussions with any of these tags stay open no matter how quiet they get.",
+                "show_countdown_label": "Show a countdown above the reply box",
+                "show_countdown_help": "Tells members a discussion is about to lock while they can still reply to it.",
+                "post_notice_label": "Leave a note in the discussion when it locks",
+                "post_notice_help": "Adds one line to the discussion saying it was locked automatically, and after how long. Without it a thread just closes with no explanation.",
+                "scheduler_notice": "This runs on Flarum's scheduler, so it only works if your server runs the schedule:run command every minute. To see what would happen without changing anything, run the auto-lock command with --dry-run."
+            }
+        }
+    }
+}
