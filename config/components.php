@@ -633,7 +633,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/linkrobins/chirp/v1.1.7/locale/en.yml',
 	],
 	'linkrobins-clipboard' => [
-		'tag' => 'https://raw.githubusercontent.com/linkrobins/clipboard/v1.1.3/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/linkrobins/clipboard/v1.1.4/locale/en.yml',
 	],
 	'linkrobins-countdown-widget' => [
 		'tag' => 'https://raw.githubusercontent.com/linkrobins/countdown-widget/v1.1.4/locale/en.yml',
