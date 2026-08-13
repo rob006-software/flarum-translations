@@ -171,18 +171,18 @@
             "model-deleted": "Fische können nicht in einer gelöschten Diskussion oder einem gelöschten Beitrag ausgesetzt werden",
             "model-private": "Fische können nicht in einer privaten Diskussion oder einem privaten Beitrag ausgesetzt werden",
             "tag-not-allowed": "In diesem Tag kannst du keine Fische aussetzen",
-            "inactive-discussion": "Fische können nicht in einer Diskussion ausgesetzt werden, die mehr als {days} Tag inaktiv ist",
+            "inactive-discussion": "Fische können nicht in einer Diskussion ausgesetzt werden, die seit mehr als {days} Tagen inaktiv ist",
             "inactive-post": "Fische können nicht in einem Beitrag ausgesetzt werden, der vor mehr als {days} Tagen erstellt wurde",
-            "inactive-user": "",
-            "non-comment-post": "",
-            "user-suspended": "",
-            "random-error": "",
-            "cannot-catch-own-fish": "",
-            "cannot-catch-hold-fish": "",
-            "fish-update-wrong-user": "",
-            "fish-update-expired": "",
-            "round-not-started": "",
-            "round-finished": ""
+            "inactive-user": "Fische können nicht bei einem Benutzer ausgesetzt werden, der seit mehr als {days} Tagen inaktiv ist",
+            "non-comment-post": "Fische können nur in Kommentarbeiträgen ausgesetzt werden",
+            "user-suspended": "Fische können nicht bei einem gesperrten Benutzer ausgesetzt werden",
+            "random-error": "Ein zufälliger Aussetzort für den Fische konnte nicht generiert werden",
+            "cannot-catch-own-fish": "Du kannst einen Fisch, den du selbst ausgesetzt hast, nicht fangen",
+            "cannot-catch-hold-fish": "Der vorherige Angler muss den Fisch freilassen, bevor du ihn fangen kannst",
+            "fish-update-wrong-user": "Du kannst diesen Fisch nicht mehr bearbeiten. Wahrscheinlich hat ihn jemand anderes gefangen.",
+            "fish-update-expired": "Zu spät, du kannst diesen Fisch nicht mehr bearbeiten. Er wurde inzwischen automatisch anderswo ausgesetzt.",
+            "round-not-started": "Diese Runde hat noch nicht begonnen",
+            "round-finished": "Diese Runde ist abgeschlossen"
         }
     }
 }
