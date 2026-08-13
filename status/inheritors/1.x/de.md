@@ -2,8 +2,8 @@
 
 Translations for German (`de`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **293** are translated differently and **551** are
-translated only in `de`. Altogether they cover **85** components.
+sides, but do not match between them: **301** are translated differently and **551** are
+translated only in `de`. Altogether they cover **87** components.
 
 <!-- {% raw %} -->
 
@@ -28,7 +28,7 @@ translated only in `de`. Altogether they cover **85** components.
 | `flarum-tags` | [31](#flarum-tags) | 0 |
 | `fof-anti-spam` | [5](#fof-anti-spam) | 0 |
 | `fof-badges` | [6](#fof-badges) | 0 |
-| `fof-best-answer` | [5](#fof-best-answer) | 0 |
+| `fof-best-answer` | [7](#fof-best-answer) | 0 |
 | `fof-blog` | [2](#fof-blog) | 0 |
 | `fof-byobu` | [4](#fof-byobu) | 0 |
 | `fof-categories` | [5](#fof-categories) | 0 |
@@ -52,8 +52,10 @@ translated only in `de`. Altogether they cover **85** components.
 | `fof-seo` | [3](#fof-seo) | 0 |
 | `fof-sitemap` | [3](#fof-sitemap) | 0 |
 | `fof-split` | [1](#fof-split) | 0 |
+| `fof-synopsis` | [3](#fof-synopsis) | 0 |
 | `fof-terms` | [1](#fof-terms) | 0 |
 | `fof-upload` | [2](#fof-upload) | 0 |
+| `fof-user-directory` | [3](#fof-user-directory) | 0 |
 | `fof-username-request` | [8](#fof-username-request) | 0 |
 | `fof-webhooks` | [4](#fof-webhooks) | 0 |
 | `forumaker-magicbb` | [3](#forumaker-magicbb) | [19](#forumaker-magicbb-missing) |
@@ -1157,6 +1159,28 @@ Wenn ein Tag „Beste Antwort“ aktiviert ist, <del>weisen Sie</del><ins>weise<
 
 <del>Konnten</del><ins>Konntest</ins> <del>Sie</del><ins>du</ins> eine Antwort auf <del>Ihre</del><ins>deine</ins> Frage erhalten?
 
+#### [`fof-user-directory.lib.sort.least_best_answers`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/de/?q=context%3A%3D%22fof-user-directory.lib.sort.least_best_answers%22)
+
+> Least best answers
+
+```diff
+-Am wenigsten beste Antworten
++Wenigste beste Antworten
+```
+
+<del>Am wenigsten</del><ins>Wenigste</ins> beste Antworten
+
+#### [`fof-user-directory.lib.sort.most_best_answers`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/de/?q=context%3A%3D%22fof-user-directory.lib.sort.most_best_answers%22)
+
+> Most best answers
+
+```diff
+-Die besten Antworten
++Meisten beste Antworten
+```
+
+<del>Die</del><ins>Meisten</ins> <del>besten</del><ins>beste</ins> Antworten
+
 
 ### `fof-blog`
 
@@ -2013,6 +2037,42 @@ Die Mindestanzahl an Diskussionen, über die ein <del>Thema</del><ins>Tag</ins> 
 <del>Teile </del>Beiträge von Diskussionen <del>auf</del><ins>aufteilen</ins>
 
 
+### `fof-synopsis`
+
+#### [`fof-synopsis.admin.settings.excerpt-length.help`](https://weblate.rob006.net/translate/flarum2/fof-synopsis/de/?q=context%3A%3D%22fof-synopsis.admin.settings.excerpt-length.help%22)
+
+> How many characters should be displayed from the post.
+
+```diff
+-Wie viele Zeichen sollen aus dem Beitrag angezeigt werden.
++Wie viele Zeichen aus dem Beitrag angezeigt werden sollen.
+```
+
+Wie viele Zeichen <del>sollen </del>aus dem Beitrag angezeigt <del>werden.</del><ins>werden sollen.</ins>
+
+#### [`fof-synopsis.admin.settings.rich-excerpts.help`](https://weblate.rob006.net/translate/flarum2/fof-synopsis/de/?q=context%3A%3D%22fof-synopsis.admin.settings.rich-excerpts.help%22)
+
+> When enabled, images, embeds and other non text elements may be included in the synopsis
+
+```diff
+-Wenn diese Option aktiviert ist, können Bilder, Einbettungen und andere Nicht-Text-Elemente in die Zusammenfassung aufgenommen werden
++Wenn aktiviert, können Bilder, Einbettungen und andere Nicht-Text-Elemente in die Zusammenfassung aufgenommen werden
+```
+
+Wenn <del>diese Option aktiviert ist,</del><ins>aktiviert,</ins> können Bilder, Einbettungen und andere Nicht-Text-Elemente in die Zusammenfassung aufgenommen werden
+
+#### [`fof-synopsis.admin.settings.rich-excerpts.label`](https://weblate.rob006.net/translate/flarum2/fof-synopsis/de/?q=context%3A%3D%22fof-synopsis.admin.settings.rich-excerpts.label%22)
+
+> Display excerpts using rich content
+
+```diff
+-Zeige Auszüge mit Rich Content an
++Auszüge mit Rich Content anzeigen
+```
+
+<del>Zeige </del>Auszüge mit Rich Content <del>an</del><ins>anzeigen</ins>
+
+
 ### `fof-terms`
 
 #### [`fof-terms.admin.policies.name`](https://weblate.rob006.net/translate/flarum2/fof-terms/de/?q=context%3A%3D%22fof-terms.admin.policies.name%22)
@@ -2046,6 +2106,42 @@ MIME-Typ <del>der</del><ins>einer</ins> <del>Testdatei</del><ins>Datei testen</i
 -Abbruch
 +Abbrechen
 ```
+
+
+### `fof-user-directory`
+
+#### [`fof-user-directory.admin.settings.use-small-cards`](https://weblate.rob006.net/translate/flarum2/fof-user-directory/de/?q=context%3A%3D%22fof-user-directory.admin.settings.use-small-cards%22)
+
+> Use small user cards
+
+```diff
+-Kleine Nutzer-Karten verwenden
++Kleine Benutzerkarten verwenden
+```
+
+Kleine <del>Nutzer-Karten</del><ins>Benutzerkarten</ins> verwenden
+
+#### [`fof-user-directory.forum.page.filter_button`](https://weblate.rob006.net/translate/flarum2/fof-user-directory/de/?q=context%3A%3D%22fof-user-directory.forum.page.filter_button%22)
+
+> Filter Groups
+
+```diff
+-Gruppen Filtern
++Gruppen filtern
+```
+
+Gruppen <del>Filtern</del><ins>filtern</ins>
+
+#### [`fof-user-directory.forum.search.users_heading`](https://weblate.rob006.net/translate/flarum2/fof-user-directory/de/?q=context%3A%3D%22fof-user-directory.forum.search.users_heading%22)
+
+> Search all users for "{query}"
+
+```diff
+-Durchsuche alle Benutzer nach "{query}"
++Durchsuche alle Benutzer nach „{query}“
+```
+
+Durchsuche alle Benutzer nach <del>"{query}"</del><ins>„{query}“</ins>
 
 
 ### `fof-username-request`
