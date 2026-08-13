@@ -960,7 +960,7 @@ return [
 		],
 	],
 	'walsgit-recycle-bin' => [
-		'tag' => 'https://raw.githubusercontent.com/WalsGit/recycle-bin/2.0.5/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/WalsGit/recycle-bin/2.0.6/locale/en.yml',
 	],
 	'xxb5724-catch-the-fish' => [
 		'tag' => 'https://raw.githubusercontent.com/Xiaoxiaobai5724/catch-the-fish/2.0.0/resources/locale/en.yml',
