@@ -1,0 +1,14 @@
+{
+    "asyntai-chatbot": {
+        "admin": {
+            "settings": {
+                "widget_id_label": "Asyntai widget ID",
+                "widget_id_help": "Paste the snippet from your Asyntai dashboard, or only the widget ID. Leave this field empty to switch the chat off. You find the ID at asyntai.com under Setup & Integration.\n",
+                "hide_for_members_label": "Show only to guests",
+                "hide_for_members_help": "Members who are logged in never see the chat.",
+                "script_url_label": "Script address (optional)",
+                "script_url_help": "Leave this field empty to use the standard address https://widget.asyntai.com/static/js/chat-widget.js\n"
+            }
+        }
+    }
+}
