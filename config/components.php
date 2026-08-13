@@ -639,7 +639,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/linkrobins/countdown-widget/v1.1.5/locale/en.yml',
 	],
 	'linkrobins-discussion-banners' => [
-		'tag' => 'https://raw.githubusercontent.com/linkrobins/flarum-discussion-banners/v2.0.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/linkrobins/flarum-discussion-banners/v2.0.2/locale/en.yml',
 	],
 	'linkrobins-font-sizer' => [
 		'tag' => 'https://raw.githubusercontent.com/linkrobins/font-sizer/v1.5.0/locale/en.yml',
