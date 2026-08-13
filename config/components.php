@@ -402,7 +402,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/prevent-necrobumping/2.0.0-beta.1/resources/locale/en.yml',
 	],
 	'fof-profile-image-crop' => [
-		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/profile-image-crop/2.0.0-beta.1/resources/locale/en.yml',
+		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/profile-image-crop/2.0.0-rc.1/resources/locale/en.yml',
 	],
 	'fof-pwned-passwords' => [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/pwned-passwords/2.0.0-beta.1/locale/en.yml',
