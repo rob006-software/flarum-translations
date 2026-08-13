@@ -1006,6 +1006,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`irmmr-rtl`](https://weblate.rob006.net/projects/flarum2/irmmr-rtl) | [`irmmr/flarum-ext-rtl`](https://github.com/irmmr/flarum-ext-rtl) |
 | [`justoverclock-welcomebox`](https://weblate.rob006.net/projects/flarum2/justoverclock-welcomebox) | [`justoverclock/flarum-ext-welcomebox`](https://github.com/justoverclockl/flarum-ext-welcomebox) |
 | [`lcoy-cipher`](https://weblate.rob006.net/projects/flarum2/lcoy-cipher) | [`lcoy/cipher`](https://github.com/Lcoy2004/Flarum-cipher) |
+| [`linkrobins-auto-lock`](https://weblate.rob006.net/projects/flarum2/linkrobins-auto-lock) | [`linkrobins/auto-lock`](https://github.com/linkrobins/auto-lock) |
 | [`linkrobins-auto-verify`](https://weblate.rob006.net/projects/flarum2/linkrobins-auto-verify) | [`linkrobins/auto-verify`](https://github.com/linkrobins/auto-verify) |
 | [`linkrobins-badge-labels`](https://weblate.rob006.net/projects/flarum2/linkrobins-badge-labels) | [`linkrobins/badge-labels`](https://github.com/linkrobins/flarum-badge-labels) |
 | [`linkrobins-birdseye`](https://weblate.rob006.net/projects/flarum2/linkrobins-birdseye) | [`linkrobins/birdseye`](https://github.com/linkrobins/birdseye) |
