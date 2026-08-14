@@ -1018,7 +1018,9 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`linkrobins-warble`](https://weblate.rob006.net/projects/flarum2/linkrobins-warble) | [`linkrobins/flarum-warble`](https://github.com/linkrobins/warble) |
 | [`linkrobins-font-sizer`](https://weblate.rob006.net/projects/flarum2/linkrobins-font-sizer) | [`linkrobins/font-sizer`](https://github.com/linkrobins/font-sizer) |
 | [`linkrobins-html-widget`](https://weblate.rob006.net/projects/flarum2/linkrobins-html-widget) | [`linkrobins/html-widget`](https://github.com/linkrobins/html-widget) |
+| [`linkrobins-link-gate`](https://weblate.rob006.net/projects/flarum2/linkrobins-link-gate) | [`linkrobins/link-gate`](https://github.com/linkrobins/flarum-link-gate) |
 | [`linkrobins-markdown-widget`](https://weblate.rob006.net/projects/flarum2/linkrobins-markdown-widget) | [`linkrobins/markdown-widget`](https://github.com/linkrobins/markdown-widget) |
+| [`linkrobins-mobile-logo`](https://weblate.rob006.net/projects/flarum2/linkrobins-mobile-logo) | [`linkrobins/mobile-logo`](https://github.com/linkrobins/mobile-logo) |
 | [`linkrobins-op`](https://weblate.rob006.net/projects/flarum2/linkrobins-op) | [`linkrobins/op`](https://github.com/linkrobins/OP) |
 | [`linkrobins-post-num`](https://weblate.rob006.net/projects/flarum2/linkrobins-post-num) | [`linkrobins/post-num`](https://github.com/linkrobins/post-num) |
 | [`linkrobins-referral`](https://weblate.rob006.net/projects/flarum2/linkrobins-referral) | [`linkrobins/referral`](https://github.com/linkrobins/referral) |
