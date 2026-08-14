@@ -102,5 +102,15 @@
                 "text": "This app requires a network connection; it cannot be used offline. Please check your connection."
             }
         }
+    },
+    "flarum-gdpr": {
+        "lib": {
+            "data": {
+                "pushsubscriptions": {
+                    "export_description": "Exports all push notification subscriptions and device tokens associated with the user.",
+                    "delete_description": "Deletes all push notification subscriptions and device tokens associated with the user."
+                }
+            }
+        }
     }
 }
