@@ -2,30 +2,30 @@
     "fof-pwa": {
         "admin": {
             "nav": {
-                "pwa_button": "",
-                "pwa_text": ""
+                "pwa_button": "Progressive Web App",
+                "pwa_text": "Konfiguriere Flarum als Progressive Web App, um eine Installation auf mobilen Geräten zu ermöglichen."
             },
             "pwa": {
                 "about": {
-                    "description_label": "",
-                    "description_text": "",
-                    "long_name_label": "",
-                    "long_name_text": "",
-                    "heading": "",
-                    "short_name_label": "",
-                    "short_name_text": ""
+                    "description_label": "Beschreibung",
+                    "description_text": "Die Beschreibung kannst du auf der Seite „Grundeinstellungen“ in deinem Admin-Dashboard einstellen.",
+                    "long_name_label": "Langer Name",
+                    "long_name_text": "Der Name der Webanwendung, der dem Benutzer angezeigt wird.",
+                    "heading": "Über",
+                    "short_name_label": "Kurzname",
+                    "short_name_text": "Den Kurznamen kannst du auf der Seite „Grundeinstellungen“ in deinem Admin-Dashboard einstellen."
                 },
                 "colors": {
-                    "heading": "",
-                    "background_color_label": "",
-                    "background_color_text": "",
-                    "theme_color_label": "",
-                    "theme_color_text": ""
+                    "heading": "Farben",
+                    "background_color_label": "Hintergrundfarbe",
+                    "background_color_text": "Diese Farbe wird als Platzhalter für den Startbildschirm verwendet, der angezeigt wird, während deine PWA geladen wird. Sie wird nicht verwendet, wenn die App bereits geladen ist.",
+                    "theme_color_label": "Designfarbe",
+                    "theme_color_text": "Diese Farbe wird manchmal bei der Anzeige deiner App als die Farbe verwendet, die die Seite umgibt, z.B. im Task Switcher von Android."
                 },
                 "maintenance": {
-                    "heading": "",
-                    "debug_label": "",
-                    "debug_text": "",
+                    "heading": "Wartungsmodus",
+                    "debug_label": "Debug-Modus",
+                    "debug_text": "Dadurch werden Informationen über Benachrichtigungen in „storage/logs“ protokolliert. Es sollte im Allgemeinen deaktiviert werden, um unnötiges Auffüllen von Protokollen zu vermeiden.",
                     "reset_vapid_text": "",
                     "reset_vapid_confirm": "",
                     "reset_vapid_success": ""
