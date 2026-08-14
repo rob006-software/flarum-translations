@@ -3010,7 +3010,7 @@ Hallo {warnee\_display\_name}!<br /><br />{warner\_display\_name} hat <del>Dich<
 
 #### [`fof-moderator-warnings.forum.warning_modal.confirmation_message`](https://weblate.rob006.net/translate/flarum2/fof-moderator-warnings/de@formal/?q=context%3A%3D%22fof-moderator-warnings.forum.warning_modal.confirmation_message%22)
 
-> Your warning has been saved. You may need to refresh the page to see it.
+> Your warning has been saved.
 
 ```diff
 -Deine Warnung wurde hinterlegt. Möglicherweise musst Du die Seite aktualisieren, um sie anzuzeigen.

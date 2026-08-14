@@ -2,7 +2,7 @@
 
 Translations for German (formal) (`de@formal`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **352** are translated differently and **551** are
+sides, but do not match between them: **351** are translated differently and **551** are
 translated only in `de@formal`. Altogether they cover **89** components.
 
 <!-- {% raw %} -->
@@ -47,7 +47,7 @@ translated only in `de@formal`. Altogether they cover **89** components.
 | `fof-masquerade` | [2](#fof-masquerade) | 0 |
 | `fof-merge-discussions` | [5](#fof-merge-discussions) | 0 |
 | `fof-moderator-notes` | [1](#fof-moderator-notes) | 0 |
-| `fof-moderator-warnings` | [13](#fof-moderator-warnings) | 0 |
+| `fof-moderator-warnings` | [12](#fof-moderator-warnings) | 0 |
 | `fof-move-posts` | [1](#fof-move-posts) | 0 |
 | `fof-oauth` | [1](#fof-oauth) | 0 |
 | `fof-polls` | [5](#fof-polls) | 0 |
@@ -2074,17 +2074,6 @@ Hallo {warnee\_display\_name}!<br /><br />{warner\_display\_name} hat <del>Dich<
 ```
 
 <del>Moderator Warnungen:</del><ins>Moderator-Verwarnungen:</ins> Keine Strikes erhalten
-
-#### [`fof-moderator-warnings.forum.warning_modal.confirmation_message`](https://weblate.rob006.net/translate/flarum2/fof-moderator-warnings/de@formal/?q=context%3A%3D%22fof-moderator-warnings.forum.warning_modal.confirmation_message%22)
-
-> Your warning has been saved. You may need to refresh the page to see it.
-
-```diff
--Deine Warnung wurde hinterlegt. Möglicherweise musst Du die Seite aktualisieren, um sie anzuzeigen.
-+Ihre Warnung wurde hinterlegt. Möglicherweise müssen Sie die Seite aktualisieren, um sie anzuzeigen.
-```
-
-<del>Deine</del><ins>Ihre</ins> Warnung wurde hinterlegt. Möglicherweise <del>musst</del><ins>müssen</ins> <del>Du</del><ins>Sie</ins> die Seite aktualisieren, um sie anzuzeigen.
 
 #### [`fof-moderator-warnings.forum.warning_modal.private_comment_heading`](https://weblate.rob006.net/translate/flarum2/fof-moderator-warnings/de@formal/?q=context%3A%3D%22fof-moderator-warnings.forum.warning_modal.private_comment_heading%22)
 
