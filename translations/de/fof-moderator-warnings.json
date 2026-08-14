@@ -58,7 +58,7 @@
                 "linked_post": "Verlinkter Beitrag"
             },
             "warning_modal": {
-                "confirmation_message": "Deine Warnung wurde hinterlegt. Möglicherweise musst Du die Seite aktualisieren, um sie anzuzeigen.",
+                "confirmation_message": "Deine Warnung wurde hinterlegt.",
                 "heading": "<strong>{username}</strong> verwarnen",
                 "strikes_heading": "Wie viele Strikes sollen angewendet werden?",
                 "public_comment_heading": "Wieso erhält <strong>{username}</strong> diese Verwarnungen? Diese Kommentare sind für den Benutzer und andere Moderatoren sichtbar.",
@@ -71,10 +71,10 @@
         "lib": {
             "browser": {
                 "warning": {
-                    "created": "",
-                    "hidden": "",
-                    "restored": "",
-                    "deleted": ""
+                    "created": "Hat {username} verwarnt",
+                    "hidden": "Hat Warnung für {username} entfernt",
+                    "restored": "Hat Warnung für {username} wiederhergestellt",
+                    "deleted": "Hat Warnung für {username} dauerhaft gelöscht"
                 }
             }
         }
