@@ -58,7 +58,7 @@
                 "linked_post": "Message lié"
             },
             "warning_modal": {
-                "confirmation_message": "Votre avertissement a été enregistré. Vous devrez peut-être actualiser la page pour le voir.",
+                "confirmation_message": "Votre avertissement a été enregistré.",
                 "heading": "Avertir <strong>{username}</strong>",
                 "strikes_heading": "Combien de sanctions doivent être appliquées ?",
                 "public_comment_heading": "Pourquoi <strong>{username}</strong> a-t-il reçu ces avertissements ? Ces commentaires seront visibles à l'utilisateur et aux autres modérateurs.",
@@ -71,10 +71,10 @@
         "lib": {
             "browser": {
                 "warning": {
-                    "created": "",
-                    "hidden": "",
-                    "restored": "",
-                    "deleted": ""
+                    "created": "A averti {username}",
+                    "hidden": "A supprimé l'avertissement de {username}",
+                    "restored": "A restauré l'avertissement de {username}",
+                    "deleted": "A supprimé définitivement l'avertissement de {username}"
                 }
             }
         }
