@@ -1,0 +1,26 @@
+{
+    "linkrobins-link-gate": {
+        "admin": {
+            "settings": {
+                "enabled_label": "Gate links",
+                "enabled_help": "Turn this off to show every link to everyone again, without losing your domain list.",
+                "domains_label": "Gated domains",
+                "domains_help": "One domain per line, for example mega.nz. Subdomains are included, so mega.nz also covers folder.mega.nz. Leave empty and nothing is gated.",
+                "html_label": "What to show instead",
+                "html_help": "The HTML shown where a gated link used to be. Anything you would put in a post works here. Leave empty to show the plain wording below instead.",
+                "fallback_label": "Plain wording",
+                "fallback_help": "Used where HTML cannot go, in particular notification emails. Keep it short and say where the link can be found."
+            },
+            "translations": {
+                "label": "Other languages",
+                "help": "What you wrote above is shown to everyone. Fill in a language here and readers using it see that instead. Leave one blank and it falls back to what you wrote above."
+            },
+            "permissions": {
+                "view_gated_links_label": "View gated links"
+            }
+        },
+        "forum": {
+            "fallback": "This link is available to members only."
+        }
+    }
+}
