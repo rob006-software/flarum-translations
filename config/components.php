@@ -1771,6 +1771,9 @@ return [
 			'zh_Hans',
 		],
 	],
+	'waazdakka-users-map-location-osm' => [
+		'tag' => 'https://raw.githubusercontent.com/waazdakka/users-map-location-osm/v1.0.0/locale/en.yml',
+	],
 	'walsgit-discussion-cards' => [
 		'tag' => 'https://raw.githubusercontent.com/WalsGit/flarum-discussion-cards/1.4.4/locale/en.yml',
 		'__builtInLanguages' => [
