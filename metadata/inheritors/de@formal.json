@@ -16405,21 +16405,27 @@
         "tryhackx-cover-studio": {
             "admin": {
                 "avatar_focus_help": "77b3aaaaad4e92021cd729fadd30f33c 77b3aaaaad4e92021cd729fadd30f33c",
+                "avatar_focus_label": "b438ff6b1bd5ef49b6b152319739e7d4 b438ff6b1bd5ef49b6b152319739e7d4",
                 "cover_height_help": "870aca7b90ef8a9bd8efedf44cb1e021 870aca7b90ef8a9bd8efedf44cb1e021",
                 "cover_height_label": "8d4bff8af2dc8029d3f49536201f26a7 8d4bff8af2dc8029d3f49536201f26a7",
                 "cover_height_mobile_label": "4fb1b4ffbe78a31a1db8eb567abd5b7c 4fb1b4ffbe78a31a1db8eb567abd5b7c",
                 "default": {
+                    "avatar_empty": "dfb8fe2ef067479aff7964fd13bab21a dfb8fe2ef067479aff7964fd13bab21a",
                     "avatar_title": "2498df042c38f0950d3f13757d1a625a 2498df042c38f0950d3f13757d1a625a",
                     "change_button": "b28a8473f9101b15ad7608d216888850 b28a8473f9101b15ad7608d216888850",
+                    "cover_empty": "ac585702c63e4c88f6ba451b33da7bcb ac585702c63e4c88f6ba451b33da7bcb",
                     "cover_title": "e05b87da0a52ac6426ee30e0a6229a9b e05b87da0a52ac6426ee30e0a6229a9b",
                     "generic_error": "2406410e8ed6deb394cc11dfe64cdc8e 2406410e8ed6deb394cc11dfe64cdc8e",
                     "media_button": "c797c47fa64f2f87e520b2383a6f6fcc c797c47fa64f2f87e520b2383a6f6fcc",
                     "not_set": "0e6e19383f6b702df1aeb6f5dd284826 0e6e19383f6b702df1aeb6f5dd284826",
                     "picker_back": "429bdf7fb1ab9dd6ff5f8f5b6d380968 429bdf7fb1ab9dd6ff5f8f5b6d380968",
+                    "picker_empty": "4aa59de6022346da03c01043acc9cdfb 4aa59de6022346da03c01043acc9cdfb",
                     "remove_button": "513d306cc83aa63d5a3801c0cac5f739 513d306cc83aa63d5a3801c0cac5f739",
+                    "remove_confirm": "579f72110054c7bb6806032a6aace51d 579f72110054c7bb6806032a6aace51d",
                     "save_position_button": "b6a05c828a40ce7739a2851730d94e23 b6a05c828a40ce7739a2851730d94e23",
                     "saved": "d88dae73bf14c96963d05c87a98a7b95 d88dae73bf14c96963d05c87a98a7b95",
                     "set_button": "07d7d3212ce94459a3163fe77b615a21 07d7d3212ce94459a3163fe77b615a21",
+                    "size_hint": "507a30a930b107b89ecf65fc48cf2354 507a30a930b107b89ecf65fc48cf2354",
                     "upload_button": "68ec19d85caadea33ee430f79414dd21 68ec19d85caadea33ee430f79414dd21",
                     "zoom_label": "4252b72e6ebcd4d4b4c2e46a786f03d2 4252b72e6ebcd4d4b4c2e46a786f03d2",
                     "zoom_reset": "77ccb52000a79397849ba5b7f42b6280 77ccb52000a79397849ba5b7f42b6280"
@@ -16447,15 +16453,22 @@
                 "support": {
                     "button": "4cb5209f8dc571d2d0dc33fa4f3237f8 4cb5209f8dc571d2d0dc33fa4f3237f8",
                     "copy": "d609a48f26e56517f32b0796b78bebaa d609a48f26e56517f32b0796b78bebaa",
+                    "description": "d3b4dd38e84ef08392a016dcd9baf4db d3b4dd38e84ef08392a016dcd9baf4db",
+                    "thanks": "c5beae3c262b9f8cc80c0b59d056f85d c5beae3c262b9f8cc80c0b59d056f85d",
                     "title": "5e5d5b3aa2e1c9fbeda4b2fc5f978dfd 5e5d5b3aa2e1c9fbeda4b2fc5f978dfd"
                 }
             },
             "api": {
                 "file_not_eligible": "fb107b0a94245ba944325abbc84f355f fb107b0a94245ba944325abbc84f355f",
+                "invalid_focus": "fed2df02c30144f0c544be4a6d22fa76 fed2df02c30144f0c544be4a6d22fa76",
                 "invalid_zoom": "1b1c9ae7178120172eeaae3d45972b1b 1b1c9ae7178120172eeaae3d45972b1b",
+                "no_adapter": "18e77b2d685de964d0d23b49f646082f 18e77b2d685de964d0d23b49f646082f",
                 "no_file": "8997e28c153693e6a9ad7a66f60c0b5b 8997e28c153693e6a9ad7a66f60c0b5b",
                 "no_original": "6a7d4f16c87428f9439eb57da101102d 6a7d4f16c87428f9439eb57da101102d",
-                "original_unreadable": "571b23c200a08d129a4d972e1c47a522 571b23c200a08d129a4d972e1c47a522"
+                "original_unreadable": "571b23c200a08d129a4d972e1c47a522 571b23c200a08d129a4d972e1c47a522",
+                "too_many_uploads": "342327f739353ccd29212839916d2024 342327f739353ccd29212839916d2024",
+                "unsupported_type": "4902239c5ad2c39ceb34cabc55929dd9 4902239c5ad2c39ceb34cabc55929dd9",
+                "upload_failed": "a340433fb7ffd998c7fc4850c2b954cc a340433fb7ffd998c7fc4850c2b954cc"
             },
             "forum": {
                 "avatar": {
