@@ -2,44 +2,44 @@
     "fof-bookmarks": {
         "admin": {
             "settings": {
-                "independent_button": "",
-                "independent_button_help": "",
-                "post_button_position": "",
-                "post_button_position_header": "",
-                "post_button_position_actions": "",
-                "post_button_position_menu": "",
-                "post_header_badge": "",
-                "post_header_badge_help": ""
+                "independent_button": "Показывать кнопку закладки в боковой панели",
+                "independent_button_help": "Если выключено, кнопка отображается в выпадающем меню темы.",
+                "post_button_position": "Расположение кнопки закладки сообщения",
+                "post_button_position_header": "Над сообщением — в шапке",
+                "post_button_position_actions": "Под сообщением — в быстрых действиях",
+                "post_button_position_menu": "В меню сообщения — три точки",
+                "post_header_badge": "Показывать метку у сообщений в закладках",
+                "post_header_badge_help": "Показывает метку над сообщением, добавленным в закладки, если кнопка не отображается в шапке."
             }
         },
         "forum": {
-            "badge": "",
+            "badge": "В закладках",
             "dropdownButton": {
-                "add": "",
-                "remove": ""
+                "add": "Добавить в закладки",
+                "remove": "Удалить из закладок"
             },
             "independentButton": {
-                "add": "",
-                "remove": ""
+                "add": "В закладки",
+                "remove": "В закладках"
             },
             "postButton": {
-                "add": "",
-                "remove": ""
+                "add": "В закладки",
+                "remove": "В закладках"
             },
             "alert": {
-                "added": "",
-                "removed": "",
-                "show_bookmarks": ""
+                "added": "Добавлено в закладки!",
+                "removed": "Удалено из закладок!",
+                "show_bookmarks": "Перейти к закладкам"
             },
             "page": {
-                "link": "",
-                "title": "",
+                "link": "Закладки",
+                "title": "Закладки",
                 "tab": {
-                    "discussions": "",
-                    "posts": ""
+                    "discussions": "Темы",
+                    "posts": "Сообщения"
                 },
                 "empty": {
-                    "posts": ""
+                    "posts": "В закладках пока ничего нет."
                 }
             }
         }
