@@ -3,7 +3,7 @@
         "admin": {
             "settings": {
                 "enabled_label": "Enable Forum Fortress protection",
-                "enabled_help": "Check registrations, logins, topics, and replies against Forum Fortress.",
+                "enabled_help": "Check registrations, topics, replies, posts, and profile changes against Forum Fortress.",
                 "api_base_url_label": "Check API base URL",
                 "control_base_url_label": "Control API base URL",
                 "api_key_label": "Site API key",
@@ -15,7 +15,6 @@
                 "timeout_label": "Request timeout in seconds",
                 "fail_open_label": "Allow requests when Forum Fortress is unavailable",
                 "fail_open_help": "Recommended for normal operation so a network outage does not lock users out.",
-                "send_ham_label": "Report restored posts as ham",
                 "block_reject_action_label": "BLOCK moderation action",
                 "block_reject_action_reject": "Reject content",
                 "block_reject_action_spam_clean": "Spam-clean content and suspend its author",
@@ -25,6 +24,7 @@
             "dashboard": {
                 "tagline": "Protection status, controls, and account links.",
                 "connected": "Connected",
+                "disconnected": "Disconnected",
                 "configured": "Configured",
                 "checking": "Checking...",
                 "not_checked": "Not checked",
@@ -53,6 +53,12 @@
                 "maintenance_help": "Less common account and diagnostic actions",
                 "registration_help": "Use Register Site only when attaching this forum to an account. Normal operation bootstraps automatically, and portal registration remains available.",
                 "register_site": "Register site",
+                "deprovision_site": "Disconnect and remove site",
+                "deprovision_help": "Use this before removing the Composer package through Extension Manager. It removes this forum from Forum Fortress, clears local credentials, and pauses automatic bootstrap until the extension is re-enabled. Paid non-trial accounts are retained; accounts with other forums keep those forums.",
+                "deprovision_confirm": "Remove this forum from Forum Fortress? This cannot be undone. Other forums and paid non-trial accounts will be retained.",
+                "deprovision_success": "The Forum Fortress site was removed and automatic bootstrap is paused. Re-enable or reinstall the extension when you want to reconnect.",
+                "deprovision_pending": "Remote cleanup from a previous removal is still pending.",
+                "contact_support": "Contact support",
                 "dismiss": "Dismiss",
                 "request_timeout": "The request timed out before Forum Fortress responded.",
                 "request_failed": "Forum Fortress could not complete the request. Check the connection and try again.",
