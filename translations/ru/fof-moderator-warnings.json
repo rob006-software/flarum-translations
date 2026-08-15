@@ -58,7 +58,7 @@
                 "linked_post": "Связанное сообщение"
             },
             "warning_modal": {
-                "confirmation_message": "Предупреждение сохранено. Возможно, вам потребуется обновить страницу, чтобы увидеть предупреждение.",
+                "confirmation_message": "Предупреждение сохранено.",
                 "heading": "Предупреждение для <strong>{username}</strong>",
                 "strikes_heading": "Количество баллов",
                 "public_comment_heading": "За что <strong>{username}</strong> получает предупреждение? Это публичный комментарий, он будет виден пользователю и модераторам.",
@@ -71,10 +71,10 @@
         "lib": {
             "browser": {
                 "warning": {
-                    "created": "",
-                    "hidden": "",
-                    "restored": "",
-                    "deleted": ""
+                    "created": "Выдано предупреждение пользователю {username}",
+                    "hidden": "Удалено предупреждение пользователя {username}",
+                    "restored": "Восстановлено предупреждение пользователя {username}",
+                    "deleted": "Навсегда удалено предупреждение пользователя {username}"
                 }
             }
         }
