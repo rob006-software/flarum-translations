@@ -9,7 +9,7 @@
                     "help_text": "下表所列为当前所有注册的数据类型，以及关联的导出、匿名化和删除操作规范。扩展程序应当向 <code>blomstra/gdpr</code> 主动注册其处理并且符合 GDPR 法规的数据类型。\n<code>user</code> 表中存储的数据另行处理，详见下一章节。\n",
                     "type": "类型",
                     "export_description": "导出操作",
-                    "anonymize_description": "匿名化操作",
+                    "anonymize_description": "匿名操作",
                     "delete_description": "删除操作",
                     "extension": "扩展程序"
                 },
@@ -20,12 +20,12 @@
                 },
                 "user_table_data": {
                     "title": "用户表数据",
-                    "help_text": "多数情况下，我们会自动处理导出和抹除时的 <code>用户</code>表数据。\n然而，会存在一些特殊情况，如下。\n",
+                    "help_text": "多数情况下，我们会自动处理导出和抹除时的 <code>user</code> 表数据。\n然而，会存在一些特殊情况，如下。\n",
                     "column": "列",
                     "type": "类型",
                     "nullable": "可为空",
                     "pii": "个人可识别信息 (PII)",
-                    "redacted_on_export": "导出时脱敏",
+                    "redacted_on_export": "导出时屏蔽",
                     "extension": "扩展",
                     "yes": "是",
                     "no": "否",
