@@ -3013,11 +3013,11 @@ Hallo {warnee\_display\_name}!<br /><br />{warner\_display\_name} hat <del>Dich<
 > Your warning has been saved.
 
 ```diff
--Deine Warnung wurde hinterlegt. Möglicherweise musst Du die Seite aktualisieren, um sie anzuzeigen.
+-Deine Warnung wurde hinterlegt.
 +Ihre Warnung wurde hinterlegt. Möglicherweise müssen Sie die Seite aktualisieren, um sie anzuzeigen.
 ```
 
-<del>Deine</del><ins>Ihre</ins> Warnung wurde hinterlegt. Möglicherweise <del>musst</del><ins>müssen</ins> <del>Du</del><ins>Sie</ins> die Seite aktualisieren, um sie anzuzeigen.
+<del>Deine</del><ins>Ihre</ins> Warnung wurde hinterlegt.<ins> Möglicherweise müssen Sie die Seite aktualisieren, um sie anzuzeigen.</ins>
 
 
 ### `fof-move-posts`

@@ -2,8 +2,8 @@
 
 Translations for German (`de`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **301** are translated differently and **551** are
-translated only in `de`. Altogether they cover **87** components.
+sides, but do not match between them: **301** are translated differently and **569** are
+translated only in `de`. Altogether they cover **89** components.
 
 <!-- {% raw %} -->
 
@@ -13,6 +13,7 @@ translated only in `de`. Altogether they cover **87** components.
 | Component | Different translations | Missing translations |
 | --- | --- | --- |
 | `acpl-lscache` | [2](#acpl-lscache) | 0 |
+| `asyntai-chatbot` | 0 | [6](#asyntai-chatbot-missing) |
 | `core` | [5](#core) | 0 |
 | `datitisev-backup` | [3](#datitisev-backup) | 0 |
 | `datlechin-passkey` | [4](#datlechin-passkey) | 0 |
@@ -75,6 +76,7 @@ translated only in `de`. Altogether they cover **87** components.
 | `justoverclock-welcomebox` | [2](#justoverclock-welcomebox) | 0 |
 | `linkrobins-badge-labels` | 0 | [34](#linkrobins-badge-labels-missing) |
 | `linkrobins-birdseye` | [1](#linkrobins-birdseye) | 0 |
+| `linkrobins-link-gate` | 0 | [12](#linkrobins-link-gate-missing) |
 | `maicol07-sso` | 0 | [13](#maicol07-sso-missing) |
 | `michaelbelgium-ai-autoreply` | 0 | [22](#michaelbelgium-ai-autoreply-missing) |
 | `migratetoflarum-fake-data` | [1](#migratetoflarum-fake-data) | 0 |
@@ -3526,6 +3528,61 @@ Berechtigung <del>„Thema</del><ins>„Tag</ins> für Designs“ aktivieren
 These strings are translated only in `de`, so there is nothing to inherit from Flarum 1.x - they could be used to fill the gaps there. Each entry contains the English source string, followed by the translation available only in `de`.
 
 
+### `asyntai-chatbot` (missing)
+
+#### [`asyntai-chatbot.admin.settings.hide_for_members_help`](https://weblate.rob006.net/translate/flarum2/asyntai-chatbot/de/?q=context%3A%3D%22asyntai-chatbot.admin.settings.hide_for_members_help%22)
+
+> Members who are logged in never see the chat.
+
+```diff
++Angemeldete Mitglieder sehen den Chat nie.
+```
+
+#### [`asyntai-chatbot.admin.settings.hide_for_members_label`](https://weblate.rob006.net/translate/flarum2/asyntai-chatbot/de/?q=context%3A%3D%22asyntai-chatbot.admin.settings.hide_for_members_label%22)
+
+> Show only to guests
+
+```diff
++Nur für Gäste anzeigen
+```
+
+#### [`asyntai-chatbot.admin.settings.script_url_help`](https://weblate.rob006.net/translate/flarum2/asyntai-chatbot/de/?q=context%3A%3D%22asyntai-chatbot.admin.settings.script_url_help%22)
+
+> Leave this field empty to use the standard address https://widget.asyntai.com/static/js/chat-widget.js
+>
+
+```diff
++Lasse dieses Feld leer, um die Standardadresse https://widget.asyntai.com/static/js/chat-widget.js zu verwenden.
++
+```
+
+#### [`asyntai-chatbot.admin.settings.script_url_label`](https://weblate.rob006.net/translate/flarum2/asyntai-chatbot/de/?q=context%3A%3D%22asyntai-chatbot.admin.settings.script_url_label%22)
+
+> Script address (optional)
+
+```diff
++Skriptadresse (optional)
+```
+
+#### [`asyntai-chatbot.admin.settings.widget_id_help`](https://weblate.rob006.net/translate/flarum2/asyntai-chatbot/de/?q=context%3A%3D%22asyntai-chatbot.admin.settings.widget_id_help%22)
+
+> Paste the snippet from your Asyntai dashboard, or only the widget ID. Leave this field empty to switch the chat off. You find the ID at asyntai.com under Setup &amp; Integration.
+>
+
+```diff
++Füge den Codeausschnitt aus deinem Asyntai-Dashboard ein oder gib nur die Widget-ID ein. Lasse dieses Feld leer, um den Chat zu deaktivieren. Die ID findest du auf asyntai.com unter „Einrichtung & Integration“.
++
+```
+
+#### [`asyntai-chatbot.admin.settings.widget_id_label`](https://weblate.rob006.net/translate/flarum2/asyntai-chatbot/de/?q=context%3A%3D%22asyntai-chatbot.admin.settings.widget_id_label%22)
+
+> Asyntai widget ID
+
+```diff
++Asyntai Widget-ID
+```
+
+
 ### `ernestdefoe-aurora` (missing)
 
 #### [`ernestdefoe-aurora.admin.settings.accent_color`](https://weblate.rob006.net/translate/flarum2/ernestdefoe-aurora/de/?q=context%3A%3D%22ernestdefoe-aurora.admin.settings.accent_color%22)
@@ -4765,6 +4822,105 @@ These strings are translated only in `de`, so there is nothing to inherit from F
 
 ```diff
 +{count, plural, one {# Beitrag} other {# Beiträge}}
+```
+
+
+### `linkrobins-link-gate` (missing)
+
+#### [`linkrobins-link-gate.admin.permissions.view_gated_links_label`](https://weblate.rob006.net/translate/flarum2/linkrobins-link-gate/de/?q=context%3A%3D%22linkrobins-link-gate.admin.permissions.view_gated_links_label%22)
+
+> View gated links
+
+```diff
++Zugriffsbeschränkte Links ansehen
+```
+
+#### [`linkrobins-link-gate.admin.settings.domains_help`](https://weblate.rob006.net/translate/flarum2/linkrobins-link-gate/de/?q=context%3A%3D%22linkrobins-link-gate.admin.settings.domains_help%22)
+
+> One domain per line, for example mega.nz. Subdomains are included, so mega.nz also covers folder.mega.nz. Leave empty and nothing is gated.
+
+```diff
++Eine Domäne pro Zeile, zum Beispiel mega.nz. Subdomains sind enthalten, sodass mega.nz auch folder.mega.nz umfasst. Lasse das Feld leer, wenn nichts gesperrt werden soll.
+```
+
+#### [`linkrobins-link-gate.admin.settings.domains_label`](https://weblate.rob006.net/translate/flarum2/linkrobins-link-gate/de/?q=context%3A%3D%22linkrobins-link-gate.admin.settings.domains_label%22)
+
+> Gated domains
+
+```diff
++Zugriffsbeschränkte Domänen
+```
+
+#### [`linkrobins-link-gate.admin.settings.enabled_help`](https://weblate.rob006.net/translate/flarum2/linkrobins-link-gate/de/?q=context%3A%3D%22linkrobins-link-gate.admin.settings.enabled_help%22)
+
+> Turn this off to show every link to everyone again, without losing your domain list.
+
+```diff
++Deaktiviere diese Option, um alle Links wieder für alle Nutzer anzuzeigen, ohne dass deine Domänen-Liste verloren geht.
+```
+
+#### [`linkrobins-link-gate.admin.settings.enabled_label`](https://weblate.rob006.net/translate/flarum2/linkrobins-link-gate/de/?q=context%3A%3D%22linkrobins-link-gate.admin.settings.enabled_label%22)
+
+> Gate links
+
+```diff
++Zugriffsbeschränkte Links
+```
+
+#### [`linkrobins-link-gate.admin.settings.fallback_help`](https://weblate.rob006.net/translate/flarum2/linkrobins-link-gate/de/?q=context%3A%3D%22linkrobins-link-gate.admin.settings.fallback_help%22)
+
+> Used where HTML cannot go, in particular notification emails. Keep it short and say where the link can be found.
+
+```diff
++Wird dort verwendet, wo HTML nicht eingesetzt werden kann, insbesondere in Benachrichtigungs-E-Mails. Halte den Text kurz und gib an, wo der Link gefunden werden kann.
+```
+
+#### [`linkrobins-link-gate.admin.settings.fallback_label`](https://weblate.rob006.net/translate/flarum2/linkrobins-link-gate/de/?q=context%3A%3D%22linkrobins-link-gate.admin.settings.fallback_label%22)
+
+> Plain wording
+
+```diff
++Einfacher Wortlaut
+```
+
+#### [`linkrobins-link-gate.admin.settings.html_help`](https://weblate.rob006.net/translate/flarum2/linkrobins-link-gate/de/?q=context%3A%3D%22linkrobins-link-gate.admin.settings.html_help%22)
+
+> The HTML shown where a gated link used to be. Anything you would put in a post works here. Leave empty to show the plain wording below instead.
+
+```diff
++Der angezeigte HTML-Code an Stelle des beschränkten Links. D u kannst hier alles verwenden, was auch in einen Beitrag funktioniert. Lasse das Feld leer, um stattdessen den untenstehenden Text anzuzeigen.
+```
+
+#### [`linkrobins-link-gate.admin.settings.html_label`](https://weblate.rob006.net/translate/flarum2/linkrobins-link-gate/de/?q=context%3A%3D%22linkrobins-link-gate.admin.settings.html_label%22)
+
+> What to show instead
+
+```diff
++Was stattdessen angezeigt wird
+```
+
+#### [`linkrobins-link-gate.admin.translations.help`](https://weblate.rob006.net/translate/flarum2/linkrobins-link-gate/de/?q=context%3A%3D%22linkrobins-link-gate.admin.translations.help%22)
+
+> What you wrote above is shown to everyone. Fill in a language here and readers using it see that instead. Leave one blank and it falls back to what you wrote above.
+
+```diff
++Was du oben geschrieben hast, wird allen angezeigt. Gib hier eine Sprache ein, dann wird den Lesern, die diese Sprache verwenden, stattdessen dieser Text angezeigt. Lässt du das Feld leer, wird stattdessen das angezeigt, was du oben geschrieben hast.
+```
+
+#### [`linkrobins-link-gate.admin.translations.label`](https://weblate.rob006.net/translate/flarum2/linkrobins-link-gate/de/?q=context%3A%3D%22linkrobins-link-gate.admin.translations.label%22)
+
+> Other languages
+
+```diff
++Andere Sprachen
+```
+
+#### [`linkrobins-link-gate.forum.fallback`](https://weblate.rob006.net/translate/flarum2/linkrobins-link-gate/de/?q=context%3A%3D%22linkrobins-link-gate.forum.fallback%22)
+
+> This link is available to members only.
+
+```diff
++Dieser Link ist nur für Mitglieder zugänglich.
 ```
 
 
