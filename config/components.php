@@ -29,6 +29,12 @@ return [
 	'acpl-my-tags' => [
 		'beta' => 'https://raw.githubusercontent.com/android-com-pl/my-tags/2.0.0-beta.3/locale/en.yml',
 	],
+	'alanqoq-mie-files' => [
+		'tag' => 'https://raw.githubusercontent.com/alanqoq/flarum-mie-CDN-image-file/v0.1.1/locale/en.yml',
+		'__builtInLanguages' => [
+			'zh_Hans',
+		],
+	],
 	'anto0102-mailguard' => [
 		'tag' => 'https://raw.githubusercontent.com/anto0102/MailGuard/v2.0.7/locale/en.yml',
 	],
