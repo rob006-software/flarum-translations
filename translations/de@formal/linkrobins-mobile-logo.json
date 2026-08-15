@@ -2,23 +2,23 @@
     "linkrobins-mobile-logo": {
         "admin": {
             "settings": {
-                "title": "",
-                "description": "",
-                "source_label": "",
-                "source_help": "",
-                "source_favicon": "",
-                "source_logo": "",
-                "source_custom": "",
-                "custom_url_label": "",
-                "custom_url_help": "",
-                "position_label": "",
-                "position_help": "",
-                "position_left": "",
-                "position_right": "",
-                "height_label": "",
-                "height_help": "",
-                "link_home_label": "",
-                "link_home_help": ""
+                "title": "Handy-Logo",
+                "description": "Zeigt das Logo deines Forums in der Navigationsleiste auf Handys an, wo sich sonst nur eine Menüschaltfläche befindet.",
+                "source_label": "Welches Bild soll angezeigt werden",
+                "source_help": "Das Favicon ist in der Regel quadratisch, da diese Form gut in eine Navigationsleiste passt. Ein breites Wortmarken-Logo passt dort oft nicht hinein.",
+                "source_favicon": "Favicon (empfohlen)",
+                "source_logo": "Forumlogo",
+                "source_custom": "Ein benutzerdefiniertes Bild",
+                "custom_url_label": "Benutzerdefinierte Bildadresse",
+                "custom_url_help": "Wird nur verwendet, wenn die obige Einstellung auf ein benutzerdefiniertes Bild gesetzt ist. Am besten eignet sich ein Pfad zu deiner eigenen Website, beispielsweise /assets/my-logo.png, damit keine Daten deiner Besucher an Dritte weitergegeben werden. Eine vollständige Adresse funktioniert ebenfalls, muss jedoch mit „https“ beginnen. Wenn das Bild anderweitig gehostet wird, kann der Host jeden Besucher sehen, der eine Seite lädt. Ist die Adresse nicht verwendbar, wird kein Logo angezeigt, anstatt ein fehlerhaftes Bild darzustellen.",
+                "position_label": "Wo das Logo angezeigt werden soll",
+                "position_help": "Links neben den Menü- und Zurück-Schaltflächen oder rechts davon. Wenn es rechts platziert ist, liegen diese Schaltflächen am Bildschirmrand, was das Antippen mit dem Daumen etwas erleichtert.",
+                "position_left": "Links von den Schaltflächen",
+                "position_right": "Rechts von den Schaltflächen",
+                "height_label": "Höhe in Pixeln",
+                "height_help": "Die Höhe des Bildes in der Navigationsleiste. Zwischen 16 und 64. Der Standardwert ist 32.",
+                "link_home_label": "Antippen des Logos bringt einen zur Startseite zurück",
+                "link_home_help": "Deaktiviere diese Option, um das Logo anzuzeigen, ohne es zu verlinken."
             }
         }
     }
