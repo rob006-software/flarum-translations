@@ -643,6 +643,9 @@ return [
 	'fof-filter' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/filter/1.2.3/resources/locale/en.yml',
 	],
+	'fof-first-post-approval' => [
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/first-post-approval/1.0.0/resources/locale/en.yml',
+	],
 	'fof-follow-tags' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/follow-tags/1.3.0/resources/locale/en.yml',
 	],
