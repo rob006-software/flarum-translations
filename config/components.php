@@ -621,7 +621,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-welcomebox/3.0.0/locale/en.yml',
 	],
 	'lcoy-cipher' => [
-		'tag' => 'https://raw.githubusercontent.com/Lcoy2004/Flarum-cipher/v1.0.6/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/Lcoy2004/Flarum-cipher/v1.0.7/resources/locale/en.yml',
 		'__builtInLanguages' => [
 			'zh_Hans',
 		],
