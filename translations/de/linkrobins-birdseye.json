@@ -58,14 +58,14 @@
             }
         },
         "admin": {
-            "status_active_waiting": "",
-            "status_active_seen": "",
-            "status_no_key": "",
-            "status_incomplete": "",
-            "status_canceled": "",
-            "status_invalid_key": "",
-            "status_bound_elsewhere": "",
-            "status_unreachable": "",
+            "status_active_waiting": "✓ Verbunden – Dein Schlüssel ist aktiv. Dein Forum sendet jeweils die Statistiken eines Tages, daher trifft die erste Datenmenge erst nach Ablauf des heutigen Tages ein.",
+            "status_active_seen": "✓ Verbunden – Dein Schlüssel ist aktiv, und Birdseye hat zuletzt am {when} Daten von diesem Forum empfangen.",
+            "status_no_key": "Es wurde noch kein Schlüssel gespeichert. Ohne Schlüssel erfasst diese Erweiterung lediglich grundlegende Tageszahlen in deinem eigenen Forum und sendet keinerlei Daten. Füge unten einen Schlüssel ein, um das vollständige Dashboard zu aktivieren – diesen finden Sie in deinem Dashboard auf linkrobins.com unter „Birdseye“.",
+            "status_incomplete": "Dein Abonnement ist noch nicht aktiv, in der Regel, weil die erste Zahlung noch nicht eingegangen ist. Dein Forum erfasst in der Zwischenzeit weiterhin lokal die grundlegenden Zahlen. Überprüfe dein Dashboard auf linkrobins.com → Birdseye.",
+            "status_canceled": "Dieser Schlüssel wurde deaktiviert, sodass keine neuen Statistiken mehr verarbeitet werden. Alle bereits in der Datenbank deines Forums vorhandenen Statistiken bleiben unverändert erhalten. Melde dich über dein Dashboard auf linkrobins.com → Birdseye erneut an.",
+            "status_invalid_key": "Dieser Schlüssel wurde nicht erkannt. Bitte überprüfe, ob du ihn vollständig kopiert hast und ob er seitdem nicht geändert wurde – eine Änderung des Schlüssels bedeutet, dass du hier den neuen Schlüssel einfügen musst.",
+            "status_bound_elsewhere": "Dieser Schlüssel wird bereits von einem anderen Forum ({forum}) verwendet. Ein Schlüssel gilt jeweils für ein Forum, daher werden die Statistiken von hier abgelehnt. Verwende einen anderen Schlüssel oder bitte den Support, diesen Schlüssel freizugeben.",
+            "status_unreachable": "Ich konnte Birdseye gerade nicht erreichen, daher lässt sich nicht sagen, ob dein Schlüssel funktioniert. Dein Forum erfasst die Statistiken so oder so weiter und sendet sie, sobald es möglich ist.",
             "permissions": {
                 "view_stats_label": "Forum-Statistiken anzeigen"
             },
