@@ -1,0 +1,21 @@
+{
+    "linkrobins-forage": {
+        "admin": {
+            "key_label": "Forage key",
+            "key_help": "Paste the key from your linkrobins.com dashboard → Forage. That's it — Forage sets up your search server's connection for you and starts indexing your posts. Leave it blank to go back to your forum's own search.\n",
+            "unconfigured": "Paste your Forage key below to turn on hosted search. Get it from your linkrobins.com dashboard → Forage. Until then your forum keeps using its own search, so nothing is broken in the meantime.\n",
+            "connected": "✓ Connected — your forum's search is being answered by your own search server.\n",
+            "connected_indexed": "✓ Connected — your forum's search is being answered by your own search server, which is holding {indexed} posts.\n",
+            "provisioning": "Your key is fine, and your search server is still being built. That takes a minute or two after subscribing. Your forum's own search is being used until it's ready.\n",
+            "check_again": "Check again",
+            "invalid": "That key wasn't recognized. Check that you copied it in full, and that your Forage subscription is still active. Your forum's own search is being used in the meantime.\n",
+            "invalid_still_connected": "That key wasn't recognized, so it hasn't been used. Check that you copied it in full, and that your Forage subscription is still active. Your forum is still searching through the key it had before, so nothing has stopped working.\n",
+            "error": "Forage couldn't finish setting up. Your forum's own search is still working, so nothing is broken for your members. Try saving your key again, and get in touch if it keeps happening.\n",
+            "error_still_connected": "Forage couldn't check that key, so it hasn't been used. Your forum is still searching through the key it had before, so nothing has stopped working. Try saving again, and get in touch if it keeps happening.\n",
+            "unreachable": "Your setup is fine, but your search server isn't answering right now. Your forum's own search is being used in the meantime, so members can still search.\n",
+            "index_empty": "Your key is fine, but your search server is holding nothing at all, so searches on this forum are finding nothing. If you have just connected or just rebuilt, it is still filling and this will sort itself out shortly. If not, run \"php flarum forage:reindex\" on your server to fill it again from your forum's own posts. Nothing has been lost either way: your posts live in your forum's database, and the index is built from them.\n",
+            "index_short": "Your search server is holding {indexed} posts, and this forum has {expected} that belong there. If you have just connected, or just posted a lot at once, it is still catching up and will settle on its own. If the gap stays, run \"php flarum forage:reindex\" to rebuild it.\n",
+            "at_limit": "Your search server is holding {indexed} posts, which is the limit on your plan ({cap}). Newer posts aren't being added, so they won't turn up in search. Upgrading your plan raises the limit.\n"
+        }
+    }
+}
