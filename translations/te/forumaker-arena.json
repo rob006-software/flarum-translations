@@ -49,6 +49,8 @@
                 "section_label": "",
                 "show_stats_profile": "",
                 "show_stats_posts": "",
+                "sound_opponent_move": "",
+                "sound_opponent_move_hint": "",
                 "notify_battle_started_label": "",
                 "notify_battle_joined_label": "",
                 "notify_battle_ended_label": "",
@@ -58,7 +60,8 @@
                 "notify_item_granted_label": "",
                 "notify_custom_card_back_requested_label": "",
                 "notify_level_up_label": "",
-                "notify_quest_completed_label": ""
+                "notify_quest_completed_label": "",
+                "notify_opponent_moved_label": ""
             },
             "how_to_play": {
                 "btn": ""
@@ -114,7 +117,8 @@
                 "card_back_granted_text": "",
                 "custom_card_back_requested_text": "",
                 "level_up_text": "",
-                "quest_completed_text": ""
+                "quest_completed_text": "",
+                "opponent_moved_text": ""
             },
             "select_deck_modal": {
                 "title": "",
@@ -308,7 +312,9 @@
                     "create_slot_confirm": "",
                     "new_slot_placeholder": "",
                     "cancel": "",
-                    "slot_error": ""
+                    "slot_error": "",
+                    "scroll_back": "",
+                    "scroll_forward": ""
                 },
                 "sections": {
                     "elemental": "",
@@ -467,6 +473,7 @@
                 "col_created": "",
                 "outcome_draw": "",
                 "outcome_force_close": "",
+                "confirm_force_close": "",
                 "status_waiting": "",
                 "status_active": "",
                 "status_completed": "",
@@ -879,7 +886,6 @@
                 "deck_size": "",
                 "deck_inactive_cards": "",
                 "deck_composition": "",
-                "deck_locked_active_battle": "",
                 "deck_select_locked": "",
                 "deck_slot_name_required": "",
                 "deck_slot_limit": "",
