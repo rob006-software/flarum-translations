@@ -8,13 +8,13 @@ are fully in sync and are not listed here.
 | Language | Different translations | Missing translations | Components |
 | --- | --- | --- | --- |
 | [Azerbaijani](az.md) (`az`) | 0 | 2 | 1 |
-| [Chinese (Simplified)](zh_Hans.md) (`zh_Hans`) | 580 | 1548 | 113 |
+| [Chinese (Simplified)](zh_Hans.md) (`zh_Hans`) | 582 | 1548 | 113 |
 | [Chinese (Traditional)](zh_Hant.md) (`zh_Hant`) | 33 | 199 | 6 |
 | [Dutch](nl.md) (`nl`) | 0 | 9 | 8 |
 | [Finnish](fi.md) (`fi`) | 5 | 61 | 7 |
 | [French](fr.md) (`fr`) | 124 | 1140 | 55 |
-| [German](de.md) (`de`) | 301 | 569 | 89 |
-| [German (formal)](de@formal.md) (`de@formal`) | 351 | 569 | 91 |
+| [German](de.md) (`de`) | 303 | 575 | 90 |
+| [German (formal)](de@formal.md) (`de@formal`) | 353 | 575 | 92 |
 | [Hungarian](hu.md) (`hu`) | 43 | 6 | 21 |
 | [Indonesian](id.md) (`id`) | 1 | 0 | 1 |
 | [Italian](it.md) (`it`) | 0 | 1 | 1 |
@@ -22,7 +22,7 @@ are fully in sync and are not listed here.
 | [Korean](ko.md) (`ko`) | 0 | 1 | 1 |
 | [Persian](fa.md) (`fa`) | 7 | 79 | 38 |
 | [Romanian](ro.md) (`ro`) | 0 | 12 | 1 |
-| [Russian](ru.md) (`ru`) | 43 | 85 | 16 |
+| [Russian](ru.md) (`ru`) | 56 | 59 | 16 |
 | [Serbian (Latin)](sr_Latn.md) (`sr_Latn`) | 0 | 5 | 1 |
 | [Spanish](es.md) (`es`) | 12 | 1180 | 59 |
 | [Spanish (formal)](es@formal.md) (`es@formal`) | 9 | 1180 | 58 |

@@ -2,8 +2,8 @@
 
 Translations for German (`de`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **301** are translated differently and **569** are
-translated only in `de`. Altogether they cover **89** components.
+sides, but do not match between them: **303** are translated differently and **575** are
+translated only in `de`. Altogether they cover **90** components.
 
 <!-- {% raw %} -->
 
@@ -52,6 +52,7 @@ translated only in `de`. Altogether they cover **89** components.
 | `fof-reactions` | [3](#fof-reactions) | 0 |
 | `fof-seo` | [3](#fof-seo) | 0 |
 | `fof-sitemap` | [3](#fof-sitemap) | 0 |
+| `fof-socialprofile` | [2](#fof-socialprofile) | 0 |
 | `fof-split` | [1](#fof-split) | 0 |
 | `fof-synopsis` | [3](#fof-synopsis) | 0 |
 | `fof-terms` | [1](#fof-terms) | 0 |
@@ -62,7 +63,7 @@ translated only in `de`. Altogether they cover **89** components.
 | `forumaker-magicbb` | [3](#forumaker-magicbb) | [19](#forumaker-magicbb-missing) |
 | `forumaker-magicread` | 0 | [18](#forumaker-magicread-missing) |
 | `forumaker-magicslider` | [2](#forumaker-magicslider) | 0 |
-| `forumfortress-flarum` | 0 | [61](#forumfortress-flarum-missing) |
+| `forumfortress-flarum` | 0 | [67](#forumfortress-flarum-missing) |
 | `huoxin-money-with-history` | 0 | [1](#huoxin-money-with-history-missing) |
 | `huseyinfiliz-awards` | [22](#huseyinfiliz-awards) | 0 |
 | `huseyinfiliz-diff` | [10](#huseyinfiliz-diff) | 0 |
@@ -2023,6 +2024,31 @@ Die Mindestanzahl an Diskussionen, über die ein <del>Thema</del><ins>Tag</ins> 
 ```
 
 <del>Thema:</del><ins>Tag:</ins> Mindestanzahl an Diskussionen
+
+
+### `fof-socialprofile`
+
+#### [`fof-socialprofile.forum.edit.add`](https://weblate.rob006.net/translate/flarum2/fof-socialprofile/de/?q=context%3A%3D%22fof-socialprofile.forum.edit.add%22)
+
+> Add buttons to your social media
+
+```diff
+-Füge Schaltflächen zu Deinen sozialen Medien hinzu
++Füge Schaltflächen zu deinen sozialen Medien hinzu
+```
+
+Füge Schaltflächen zu <del>Deinen</del><ins>deinen</ins> sozialen Medien hinzu
+
+#### [`fof-socialprofile.forum.edit.edit`](https://weblate.rob006.net/translate/flarum2/fof-socialprofile/de/?q=context%3A%3D%22fof-socialprofile.forum.edit.edit%22)
+
+> Edit your social media buttons
+
+```diff
+-Bearbeiten Deine Social-Media-Buttons
++Bearbeite deine Social-Media-Buttons
+```
+
+<del>Bearbeiten</del><ins>Bearbeite</ins> <del>Deine</del><ins>deine</ins> Social-Media-Buttons
 
 
 ### `fof-split`
@@ -4146,12 +4172,68 @@ These strings are translated only in `de`, so there is nothing to inherit from F
 +Verbindungstest
 ```
 
+#### [`forumfortress-flarum.admin.dashboard.contact_support`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.dashboard.contact_support%22)
+
+> Contact support
+
+```diff
++Kundendienst kontaktieren
+```
+
 #### [`forumfortress-flarum.admin.dashboard.decisions`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.dashboard.decisions%22)
 
 > Decisions
 
 ```diff
 +Entscheidungen
+```
+
+#### [`forumfortress-flarum.admin.dashboard.deprovision_confirm`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.dashboard.deprovision_confirm%22)
+
+> Remove this forum from Forum Fortress? This cannot be undone. Other forums and paid non-trial accounts will be retained.
+
+```diff
++Dieses Forum aus „Forum Fortress“ entfernen? Dieser Vorgang kann nicht rückgängig gemacht werden. Andere Foren und kostenpflichtige Konten (keine Testkonten) bleiben erhalten.
+```
+
+#### [`forumfortress-flarum.admin.dashboard.deprovision_help`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.dashboard.deprovision_help%22)
+
+> Use this before removing the Composer package through Extension Manager. It removes this forum from Forum Fortress, clears local credentials, and pauses automatic bootstrap until the extension is re-enabled. Paid non-trial accounts are retained; accounts with other forums keep those forums.
+
+```diff
++Führe diesen Vorgang durch, bevor du das Composer-Paket über den Extension Manager entfernst. Dadurch wird dieses Forum aus Forum Fortress entfernt, lokale Anmeldedaten werden gelöscht und der automatische Bootstrap-Vorgang wird angehalten, bis die Erweiterung wieder aktiviert wird. Bezahlte Nicht-Testkonten bleiben erhalten; Konten mit anderen Foren behalten diese Foren.
+```
+
+#### [`forumfortress-flarum.admin.dashboard.deprovision_pending`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.dashboard.deprovision_pending%22)
+
+> Remote cleanup from a previous removal is still pending.
+
+```diff
++Die Fernbereinigung nach einer früheren Deinstallation steht noch aus.
+```
+
+#### [`forumfortress-flarum.admin.dashboard.deprovision_site`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.dashboard.deprovision_site%22)
+
+> Disconnect and remove site
+
+```diff
++Verbindung trennen und Seite entfernen
+```
+
+#### [`forumfortress-flarum.admin.dashboard.deprovision_success`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.dashboard.deprovision_success%22)
+
+> The Forum Fortress site was removed and automatic bootstrap is paused. Re-enable or reinstall the extension when you want to reconnect.
+
+```diff
++Die „Forum Fortress“-Website wurde entfernt und der automatische Bootstrap-Vorgang wurde angehalten. Aktiviere die Erweiterung erneut oder installiere sie neu, wenn du die Verbindung wiederherstellen möchten.
+```
+
+#### [`forumfortress-flarum.admin.dashboard.disconnected`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.dashboard.disconnected%22)
+
+> Disconnected
+
+```diff
++Nicht verbunden
 ```
 
 #### [`forumfortress-flarum.admin.dashboard.dismiss`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.dashboard.dismiss%22)
@@ -4460,10 +4542,10 @@ These strings are translated only in `de`, so there is nothing to inherit from F
 
 #### [`forumfortress-flarum.admin.settings.enabled_help`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.settings.enabled_help%22)
 
-> Check registrations, logins, topics, and replies against Forum Fortress.
+> Check registrations, topics, replies, posts, and profile changes against Forum Fortress.
 
 ```diff
-+Registrierungen, Anmeldungen, Diskussionen und Antworten mit „Forum Fortress“ gegenprüfen.
++Registrierungen, Diskussionen, Antworten, Beiträge und Profiländerungen mit „Forum Fortress“ gegenprüfen.
 ```
 
 #### [`forumfortress-flarum.admin.settings.enabled_label`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.settings.enabled_label%22)
@@ -4520,14 +4602,6 @@ These strings are translated only in `de`, so there is nothing to inherit from F
 
 ```diff
 +Zur Registrierung der Seite verwendete E-Mail
-```
-
-#### [`forumfortress-flarum.admin.settings.send_ham_label`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.settings.send_ham_label%22)
-
-> Report restored posts as ham
-
-```diff
-+Wiederhergestellte Beiträge als Ham melden
 ```
 
 #### [`forumfortress-flarum.admin.settings.timeout_label`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.settings.timeout_label%22)

@@ -2,7 +2,7 @@
 
 Translations for Chinese (Simplified) (`zh_Hans`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **580** are translated differently and **1548** are
+sides, but do not match between them: **582** are translated differently and **1548** are
 translated only in `zh_Hans`. Altogether they cover **113** components.
 
 <!-- {% raw %} -->
@@ -28,7 +28,7 @@ translated only in `zh_Hans`. Altogether they cover **113** components.
 | `flarum-bbcode` | [1](#flarum-bbcode) | 0 |
 | `flarum-extension-manager` | [4](#flarum-extension-manager) | 0 |
 | `flarum-flags` | [1](#flarum-flags) | 0 |
-| `flarum-gdpr` | [8](#flarum-gdpr) | 0 |
+| `flarum-gdpr` | [10](#flarum-gdpr) | 0 |
 | `flarum-likes` | [3](#flarum-likes) | 0 |
 | `flarum-lock` | [6](#flarum-lock) | 0 |
 | `flarum-markdown` | [11](#flarum-markdown) | 0 |
@@ -1482,6 +1482,15 @@ API <del>Key</del><ins>密钥</ins>
 
 ### `flarum-gdpr`
 
+#### [`flarum-gdpr.admin.gdpr_page.data_types.anonymize_description`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/zh_Hans/?q=context%3A%3D%22flarum-gdpr.admin.gdpr_page.data_types.anonymize_description%22)
+
+> Anonymize Action
+
+```diff
+-匿名化操作
++匿名操作
+```
+
 #### [`flarum-gdpr.admin.gdpr_page.user_table_data.extension`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/zh_Hans/?q=context%3A%3D%22flarum-gdpr.admin.gdpr_page.user_table_data.extension%22)
 
 > Extension
@@ -1490,6 +1499,21 @@ API <del>Key</del><ins>密钥</ins>
 -扩展程序
 +扩展
 ```
+
+#### [`flarum-gdpr.admin.gdpr_page.user_table_data.help_text`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/zh_Hans/?q=context%3A%3D%22flarum-gdpr.admin.gdpr_page.user_table_data.help_text%22)
+
+> On the most part, any columns added to the &lt;code&gt;user&lt;/code&gt; table will be handled automatically, both for exporting data and for erasure.
+> However, there are some special cases, which are listed below.
+>
+
+```diff
+-多数情况下，我们会自动处理导出和抹除时的 <code>用户</code>表数据。
++多数情况下，我们会自动处理导出和抹除时的 <code>user</code> 表数据。
+ 然而，会存在一些特殊情况，如下。
+
+```
+
+多数情况下，我们会自动处理导出和抹除时的 <del>&lt;code&gt;用户&lt;/code&gt;表数据。</del><ins>&lt;code&gt;user&lt;/code&gt; 表数据。</ins><br />然而，会存在一些特殊情况，如下。<br />
 
 #### [`flarum-gdpr.admin.gdpr_page.user_table_data.pii`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/zh_Hans/?q=context%3A%3D%22flarum-gdpr.admin.gdpr_page.user_table_data.pii%22)
 
@@ -1515,7 +1539,7 @@ API <del>Key</del><ins>密钥</ins>
 
 ```diff
 -导出时隐藏
-+导出时脱敏
++导出时屏蔽
 ```
 
 #### [`flarum-gdpr.admin.gdpr_page.user_table_data.redacted_on_export_tooltip`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/zh_Hans/?q=context%3A%3D%22flarum-gdpr.admin.gdpr_page.user_table_data.redacted_on_export_tooltip%22)

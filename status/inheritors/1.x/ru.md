@@ -2,7 +2,7 @@
 
 Translations for Russian (`ru`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **43** are translated differently and **85** are
+sides, but do not match between them: **56** are translated differently and **59** are
 translated only in `ru`. Altogether they cover **16** components.
 
 <!-- {% raw %} -->
@@ -17,10 +17,10 @@ translated only in `ru`. Altogether they cover **16** components.
 | `ernestdefoe-aurora` | [1](#ernestdefoe-aurora) | 0 |
 | `fof-anti-spam` | [2](#fof-anti-spam) | 0 |
 | `fof-best-answer` | [2](#fof-best-answer) | 0 |
-| `fof-bookmarks` | 0 | [22](#fof-bookmarks-missing) |
+| `fof-bookmarks` | [9](#fof-bookmarks) | 0 |
 | `fof-doorman` | [7](#fof-doorman) | 0 |
 | `fof-gamification` | [1](#fof-gamification) | 0 |
-| `fof-github-sponsors` | 0 | [4](#fof-github-sponsors-missing) |
+| `fof-github-sponsors` | [4](#fof-github-sponsors) | 0 |
 | `fof-horizon` | [3](#fof-horizon) | 0 |
 | `fof-seo` | [4](#fof-seo) | 0 |
 | `ianm-boring-avatars` | [1](#ianm-boring-avatars) | 0 |
@@ -97,6 +97,104 @@ Each entry contains the English source string, followed by a diff between the tr
 ```
 
 <del>Снята отметка</del><ins>{post}</ins> <del>лучшего</del><ins>Больше</ins> <del>ответа</del><ins>не</ins> <del>с</del><ins>лучший</ins> <del>{post}</del><ins>ответ</ins> в {discussion}
+
+
+### `fof-bookmarks`
+
+#### [`fof-bookmarks.admin.settings.independent_button_help`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/ru/?q=context%3A%3D%22fof-bookmarks.admin.settings.independent_button_help%22)
+
+> When off, the control appears in the discussion dropdown menu instead.
+
+```diff
+-Если выключено, кнопка отображается в выпадающем меню темы.
++Если выключено, кнопка будет отображаться в выпадающем меню темы.
+```
+
+Если выключено, кнопка <del>отображается</del><ins>будет отображаться</ins> в выпадающем меню темы.
+
+#### [`fof-bookmarks.admin.settings.post_button_position_actions`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/ru/?q=context%3A%3D%22fof-bookmarks.admin.settings.post_button_position_actions%22)
+
+> Below post (quick actions)
+
+```diff
+-Под сообщением — в быстрых действиях
++Под сообщением (быстрые действия)
+```
+
+Под сообщением <del>— в быстрых</del><ins>(быстрые</ins> <del>действиях</del><ins>действия)</ins>
+
+#### [`fof-bookmarks.admin.settings.post_button_position_header`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/ru/?q=context%3A%3D%22fof-bookmarks.admin.settings.post_button_position_header%22)
+
+> Above post (header)
+
+```diff
+-Над сообщением — в шапке
++Над сообщением (заголовок)
+```
+
+Над сообщением <del>— в шапке</del><ins>(заголовок)</ins>
+
+#### [`fof-bookmarks.admin.settings.post_button_position_menu`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/ru/?q=context%3A%3D%22fof-bookmarks.admin.settings.post_button_position_menu%22)
+
+> In post menu (three dots)
+
+```diff
+-В меню сообщения — три точки
++В меню сообщения (три точки)
+```
+
+В меню сообщения <del>— три</del><ins>(три</ins> <del>точки</del><ins>точки)</ins>
+
+#### [`fof-bookmarks.admin.settings.post_header_badge`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/ru/?q=context%3A%3D%22fof-bookmarks.admin.settings.post_header_badge%22)
+
+> Label bookmarked posts
+
+```diff
+-Показывать метку у сообщений в закладках
++Помечать сообщения в закладках
+```
+
+<del>Показывать метку у</del><ins>Помечать</ins> <del>сообщений</del><ins>сообщения</ins> в закладках
+
+#### [`fof-bookmarks.admin.settings.post_header_badge_help`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/ru/?q=context%3A%3D%22fof-bookmarks.admin.settings.post_header_badge_help%22)
+
+> Shows a label above a bookmarked post. Only applies when the button is not in the header.
+
+```diff
+-Показывает метку над сообщением, добавленным в закладки, если кнопка не отображается в шапке.
++Показывает метку над сообщением в закладках. Применяется только когда кнопка находится не в заголовке.
+```
+
+Показывает метку над <del>сообщением, добавленным</del><ins>сообщением</ins> в <del>закладки,</del><ins>закладках.</ins> <del>если</del><ins>Применяется только когда</ins> кнопка <del>не</del><ins>находится</ins> <del>отображается</del><ins>не</ins> в <del>шапке.</del><ins>заголовке.</ins>
+
+#### [`fof-bookmarks.forum.alert.added`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/ru/?q=context%3A%3D%22fof-bookmarks.forum.alert.added%22)
+
+> Bookmark added!
+
+```diff
+-Добавлено в закладки!
++Закладка добавлена!
+```
+
+#### [`fof-bookmarks.forum.alert.removed`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/ru/?q=context%3A%3D%22fof-bookmarks.forum.alert.removed%22)
+
+> Bookmark removed!
+
+```diff
+-Удалено из закладок!
++Закладка удалена!
+```
+
+#### [`fof-bookmarks.forum.dropdownButton.remove`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/ru/?q=context%3A%3D%22fof-bookmarks.forum.dropdownButton.remove%22)
+
+> Remove from bookmarks
+
+```diff
+-Удалить из закладок
++Убрать из закладок
+```
+
+<del>Удалить</del><ins>Убрать</ins> из закладок
 
 
 ### `fof-doorman`
@@ -191,6 +289,53 @@ Each entry contains the English source string, followed by a diff between the tr
 ```
 
 Эти пользователи не будут отображаться на странице <del>рангов.</del><ins>рейтинга.</ins> Имена пользователей следует <del>разделять</del><ins>указывать</ins> <del>сочетанием</del><ins>через</ins> <del>запятая/пробел.</del><ins>запятую и пробел.</ins>
+
+
+### `fof-github-sponsors`
+
+#### [`fof-github-sponsors.admin.settings.account_type_help`](https://weblate.rob006.net/translate/flarum2/fof-github-sponsors/ru/?q=context%3A%3D%22fof-github-sponsors.admin.settings.account_type_help%22)
+
+> Select whether you're tracking sponsors for a personal GitHub user account or an organization account.
+
+```diff
+-Выберите, отслеживаете ли вы спонсоров личного аккаунта GitHub или аккаунта организации.
++Выберите, отслеживаете ли вы спонсоров для личного аккаунта GitHub или аккаунта организации.
+```
+
+Выберите, отслеживаете ли вы спонсоров <ins>для </ins>личного аккаунта GitHub или аккаунта организации.
+
+#### [`fof-github-sponsors.admin.settings.api_token_help`](https://weblate.rob006.net/translate/flarum2/fof-github-sponsors/ru/?q=context%3A%3D%22fof-github-sponsors.admin.settings.api_token_help%22)
+
+> Create a personal access token at &lt;a&gt;https://github.com/settings/tokens/new&lt;/a&gt; with the &lt;code&gt;user&lt;/code&gt; and &lt;code&gt;read:org&lt;/code&gt; scopes. This token is used to fetch your sponsor information from GitHub.
+
+```diff
+-Создайте личный токен доступа на странице <a>https://github.com/settings/tokens/new</a> с разрешениями <code>user</code> и <code>read:org</code>. Этот токен используется для получения информации о спонсорах из GitHub.
++Создайте персональный токен доступа на <a>https://github.com/settings/tokens/new</a> с правами <code>user</code> и <code>read:org</code>. Этот токен используется для получения информации о ваших спонсорах из GitHub.
+```
+
+Создайте <del>личный</del><ins>персональный</ins> токен доступа на<del> странице</del> &lt;a&gt;https://github.com/settings/tokens/new&lt;/a&gt; с <del>разрешениями</del><ins>правами</ins> &lt;code&gt;user&lt;/code&gt; и &lt;code&gt;read:org&lt;/code&gt;. Этот токен используется для получения информации о<ins> ваших</ins> спонсорах из GitHub.
+
+#### [`fof-github-sponsors.admin.settings.group_help`](https://weblate.rob006.net/translate/flarum2/fof-github-sponsors/ru/?q=context%3A%3D%22fof-github-sponsors.admin.settings.group_help%22)
+
+> Select which Flarum user group sponsors should be added to. Users will be automatically added when they become sponsors and removed when they stop sponsoring.
+
+```diff
+-Выберите группу пользователей Flarum, в которую будут добавляться спонсоры. Пользователи будут автоматически добавляться в группу, когда становятся спонсорами, и удаляться, когда перестают ими быть.
++Выберите группу пользователей для спонсоров. Пользователи будут автоматически добавляться при оформлении спонсорства и удаляться при его прекращении.
+```
+
+Выберите группу пользователей <del>Flarum, в которую будут добавляться</del><ins>для</ins> <del>спонсоры.</del><ins>спонсоров.</ins> Пользователи будут автоматически добавляться<del> в группу,</del> <del>когда</del><ins>при</ins> <del>становятся</del><ins>оформлении</ins> <del>спонсорами,</del><ins>спонсорства</ins> и<del> удаляться,</del> <del>когда</del><ins>удаляться</ins> <del>перестают</del><ins>при</ins> <del>ими</del><ins>его</ins> <del>быть.</del><ins>прекращении.</ins>
+
+#### [`fof-github-sponsors.admin.settings.login_help`](https://weblate.rob006.net/translate/flarum2/fof-github-sponsors/ru/?q=context%3A%3D%22fof-github-sponsors.admin.settings.login_help%22)
+
+> Enter your GitHub username (for user accounts) or organization name (for organizations). This is the account whose sponsors will be synchronized.
+
+```diff
+-Укажите имя пользователя GitHub для личных аккаунтов или название организации. Это аккаунт, спонсоры которого будут синхронизироваться.
++Введите имя пользователя GitHub для личных аккаунтов или название организации. Это аккаунт, спонсоры которого будут синхронизированы.
+```
+
+<del>Укажите</del><ins>Введите</ins> имя пользователя GitHub для личных аккаунтов или название организации. Это аккаунт, спонсоры которого будут <del>синхронизироваться.</del><ins>синхронизированы.</ins>
 
 
 ### `fof-horizon`
@@ -626,220 +771,6 @@ These strings are translated only in `ru`, so there is nothing to inherit from F
 
 ```diff
 +Минимальная длина
-```
-
-
-### `fof-bookmarks` (missing)
-
-#### [`fof-bookmarks.admin.settings.independent_button`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/ru/?q=context%3A%3D%22fof-bookmarks.admin.settings.independent_button%22)
-
-> Show the discussion bookmark control in the sidebar
-
-```diff
-+Показывать кнопку закладки в боковой панели
-```
-
-#### [`fof-bookmarks.admin.settings.independent_button_help`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/ru/?q=context%3A%3D%22fof-bookmarks.admin.settings.independent_button_help%22)
-
-> When off, the control appears in the discussion dropdown menu instead.
-
-```diff
-+Если выключено, кнопка будет отображаться в выпадающем меню темы.
-```
-
-#### [`fof-bookmarks.admin.settings.post_button_position`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/ru/?q=context%3A%3D%22fof-bookmarks.admin.settings.post_button_position%22)
-
-> Post bookmark button position
-
-```diff
-+Расположение кнопки закладки сообщения
-```
-
-#### [`fof-bookmarks.admin.settings.post_button_position_actions`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/ru/?q=context%3A%3D%22fof-bookmarks.admin.settings.post_button_position_actions%22)
-
-> Below post (quick actions)
-
-```diff
-+Под сообщением (быстрые действия)
-```
-
-#### [`fof-bookmarks.admin.settings.post_button_position_header`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/ru/?q=context%3A%3D%22fof-bookmarks.admin.settings.post_button_position_header%22)
-
-> Above post (header)
-
-```diff
-+Над сообщением (заголовок)
-```
-
-#### [`fof-bookmarks.admin.settings.post_button_position_menu`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/ru/?q=context%3A%3D%22fof-bookmarks.admin.settings.post_button_position_menu%22)
-
-> In post menu (three dots)
-
-```diff
-+В меню сообщения (три точки)
-```
-
-#### [`fof-bookmarks.admin.settings.post_header_badge`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/ru/?q=context%3A%3D%22fof-bookmarks.admin.settings.post_header_badge%22)
-
-> Label bookmarked posts
-
-```diff
-+Помечать сообщения в закладках
-```
-
-#### [`fof-bookmarks.admin.settings.post_header_badge_help`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/ru/?q=context%3A%3D%22fof-bookmarks.admin.settings.post_header_badge_help%22)
-
-> Shows a label above a bookmarked post. Only applies when the button is not in the header.
-
-```diff
-+Показывает метку над сообщением в закладках. Применяется только когда кнопка находится не в заголовке.
-```
-
-#### [`fof-bookmarks.forum.alert.added`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/ru/?q=context%3A%3D%22fof-bookmarks.forum.alert.added%22)
-
-> Bookmark added!
-
-```diff
-+Закладка добавлена!
-```
-
-#### [`fof-bookmarks.forum.alert.removed`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/ru/?q=context%3A%3D%22fof-bookmarks.forum.alert.removed%22)
-
-> Bookmark removed!
-
-```diff
-+Закладка удалена!
-```
-
-#### [`fof-bookmarks.forum.alert.show_bookmarks`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/ru/?q=context%3A%3D%22fof-bookmarks.forum.alert.show_bookmarks%22)
-
-> Go to bookmarks
-
-```diff
-+Перейти к закладкам
-```
-
-#### [`fof-bookmarks.forum.badge`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/ru/?q=context%3A%3D%22fof-bookmarks.forum.badge%22)
-
-> Bookmarked
-
-```diff
-+В закладках
-```
-
-#### [`fof-bookmarks.forum.dropdownButton.add`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/ru/?q=context%3A%3D%22fof-bookmarks.forum.dropdownButton.add%22)
-
-> Add to bookmarks
-
-```diff
-+Добавить в закладки
-```
-
-#### [`fof-bookmarks.forum.dropdownButton.remove`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/ru/?q=context%3A%3D%22fof-bookmarks.forum.dropdownButton.remove%22)
-
-> Remove from bookmarks
-
-```diff
-+Убрать из закладок
-```
-
-#### [`fof-bookmarks.forum.independentButton.add`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/ru/?q=context%3A%3D%22fof-bookmarks.forum.independentButton.add%22)
-
-> Bookmark
-
-```diff
-+В закладки
-```
-
-#### [`fof-bookmarks.forum.independentButton.remove`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/ru/?q=context%3A%3D%22fof-bookmarks.forum.independentButton.remove%22)
-
-> Bookmarked
-
-```diff
-+В закладках
-```
-
-#### [`fof-bookmarks.forum.page.link`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/ru/?q=context%3A%3D%22fof-bookmarks.forum.page.link%22)
-
-> Bookmarks
-
-```diff
-+Закладки
-```
-
-#### [`fof-bookmarks.forum.page.tab.discussions`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/ru/?q=context%3A%3D%22fof-bookmarks.forum.page.tab.discussions%22)
-
-> Discussions
-
-```diff
-+Темы
-```
-
-#### [`fof-bookmarks.forum.page.tab.posts`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/ru/?q=context%3A%3D%22fof-bookmarks.forum.page.tab.posts%22)
-
-> Posts
-
-```diff
-+Сообщения
-```
-
-#### [`fof-bookmarks.forum.page.title`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/ru/?q=context%3A%3D%22fof-bookmarks.forum.page.title%22)
-
-> Bookmarks
-
-```diff
-+Закладки
-```
-
-#### [`fof-bookmarks.forum.postButton.add`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/ru/?q=context%3A%3D%22fof-bookmarks.forum.postButton.add%22)
-
-> Bookmark
-
-```diff
-+В закладки
-```
-
-#### [`fof-bookmarks.forum.postButton.remove`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/ru/?q=context%3A%3D%22fof-bookmarks.forum.postButton.remove%22)
-
-> Bookmarked
-
-```diff
-+В закладках
-```
-
-
-### `fof-github-sponsors` (missing)
-
-#### [`fof-github-sponsors.admin.settings.account_type_help`](https://weblate.rob006.net/translate/flarum2/fof-github-sponsors/ru/?q=context%3A%3D%22fof-github-sponsors.admin.settings.account_type_help%22)
-
-> Select whether you're tracking sponsors for a personal GitHub user account or an organization account.
-
-```diff
-+Выберите, отслеживаете ли вы спонсоров для личного аккаунта GitHub или аккаунта организации.
-```
-
-#### [`fof-github-sponsors.admin.settings.api_token_help`](https://weblate.rob006.net/translate/flarum2/fof-github-sponsors/ru/?q=context%3A%3D%22fof-github-sponsors.admin.settings.api_token_help%22)
-
-> Create a personal access token at &lt;a&gt;https://github.com/settings/tokens/new&lt;/a&gt; with the &lt;code&gt;user&lt;/code&gt; and &lt;code&gt;read:org&lt;/code&gt; scopes. This token is used to fetch your sponsor information from GitHub.
-
-```diff
-+Создайте персональный токен доступа на <a>https://github.com/settings/tokens/new</a> с правами <code>user</code> и <code>read:org</code>. Этот токен используется для получения информации о ваших спонсорах из GitHub.
-```
-
-#### [`fof-github-sponsors.admin.settings.group_help`](https://weblate.rob006.net/translate/flarum2/fof-github-sponsors/ru/?q=context%3A%3D%22fof-github-sponsors.admin.settings.group_help%22)
-
-> Select which Flarum user group sponsors should be added to. Users will be automatically added when they become sponsors and removed when they stop sponsoring.
-
-```diff
-+Выберите группу пользователей для спонсоров. Пользователи будут автоматически добавляться при оформлении спонсорства и удаляться при его прекращении.
-```
-
-#### [`fof-github-sponsors.admin.settings.login_help`](https://weblate.rob006.net/translate/flarum2/fof-github-sponsors/ru/?q=context%3A%3D%22fof-github-sponsors.admin.settings.login_help%22)
-
-> Enter your GitHub username (for user accounts) or organization name (for organizations). This is the account whose sponsors will be synchronized.
-
-```diff
-+Введите имя пользователя GitHub для личных аккаунтов или название организации. Это аккаунт, спонсоры которого будут синхронизированы.
 ```
 
 
