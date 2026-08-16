@@ -64,29 +64,29 @@
             "upload_failed": "Die Datei konnte nicht gespeichert werden. Bitte versuche es erneut.",
             "too_many_uploads": "Du lädst die Daten zu schnell hoch. Bitte warte eine Minute und versuche es dann erneut.",
             "file_not_eligible": "Diese Datei kann nicht als Cover verwendet werden.",
-            "no_default_image": "",
-            "unknown_default_kind": "",
-            "no_cover": "",
+            "no_default_image": "Es gibt kein Standardbild, das neu positioniert werden könnte.",
+            "unknown_default_kind": "Unbekannter Standardbildtyp.",
+            "no_cover": "Es gibt kein Cover, das neu positioniert werden müsste.",
             "no_original": "Das ursprüngliche Avatar-Bild ist nicht verfügbar – lade bitte zuerst einen neuen Avatar hoch.",
             "original_unreadable": "Das Originalbild konnte nicht gelesen werden. Lade stattdessen einen neuen Avatar hoch.",
-            "avatar_focus_disabled": ""
+            "avatar_focus_disabled": "Die Bearbeitung des Avatar-Fokus ist in diesem Forum deaktiviert."
         },
         "forum": {
             "controls": {
-                "edit_cover": ""
+                "edit_cover": "Cover bearbeiten"
             },
             "editor": {
-                "title": "",
-                "empty_hint": "",
-                "size_hint": "",
-                "drag_hint": "",
-                "drag_aria": "",
+                "title": "Profilcover",
+                "empty_hint": "Noch kein Cover – lade ein Bild hoch oder wähle eines aus deinen Medien aus.",
+                "size_hint": "Maximale Größe: {max}. Das Bild in voller Auflösung bleibt erhalten; ziehe den Mauszeiger, um den sichtbaren Bereich auszuwählen.",
+                "drag_hint": "Zum Verschieben ziehen, zum Zoomen scrollen",
+                "drag_aria": "Bildpositions-Editor. Verwende die Pfeiltasten, um den Fokuspunkt zu verschieben, und die Plus- und Minus-Tasten zum Zoomen.",
                 "zoom_label": "Zoom",
                 "zoom_reset": "Zoom auf 1× zurücksetzen",
                 "upload_button": "Bild hochladen",
-                "media_button": "",
+                "media_button": "Aus „Meine Medien“ auswählen",
                 "remove_button": "Entfernen",
-                "remove_confirm": "",
+                "remove_confirm": "Dieses Cover entfernen? Das Bild bleibt in deinem Medienmanager erhalten.",
                 "save_position_button": "Position speichern",
                 "saved": "Gespeichert.",
                 "generic_error": "Es ist ein Fehler aufgetreten. Bitte versuche es erneut."
@@ -94,8 +94,8 @@
             "avatar": {
                 "title": "Avatarposition",
                 "adjust_button": "Position anpassen",
-                "hint": "",
-                "no_original": ""
+                "hint": "Ziehe das Bild, um den sichtbaren Kreis auszuwählen. Der Avatar wird in voller Qualität aus dem Original neu zugeschnitten.",
+                "no_original": "Es ist noch kein Quellbild vorhanden – lade eines hoch oder wähle es aus deinen Medien aus, um deinen Avatar zu platzieren."
             }
         }
     }
