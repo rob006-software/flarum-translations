@@ -2,15 +2,15 @@
     "fof-first-post-approval": {
         "admin": {
             "permissions": {
-                "bypass": ""
+                "bypass": "Beitrag ohne Freigabe des ersten Beitrags veröffentlichen"
             },
             "settings": {
-                "discussionCount": "",
-                "discussionCount_help": "",
-                "postCount": "",
-                "postCount_help": "",
-                "restrictPrivateDiscussions": "",
-                "restrictPrivateDiscussions_help": ""
+                "discussionCount": "Anzahl der ersten Diskussionen, für die eine Genehmigung erforderlich ist",
+                "discussionCount_help": "Setze den Wert auf 0, um neue Diskussionen stattdessen anhand der Anzahl der freizugebenden Beiträge zurückzuhalten.",
+                "postCount": "Anzahl der ersten Beiträge, für die eine Genehmigung erforderlich ist",
+                "postCount_help": "Sobald diese Anzahl an Beiträgen eines Nutzers freigegeben wurde, werden seine Beiträge direkt veröffentlicht.",
+                "restrictPrivateDiscussions": "Private Diskussionen erst nach Freigabe zulassen",
+                "restrictPrivateDiscussions_help": "Private Diskussionen können nicht zur Freigabe vorgelegt werden, daher wird Benutzern, deren erster Beitrag noch einer Freigabe bedarf, das Starten solcher Diskussionen untersagt. Deaktiviere diese Option, damit sie private Diskussionen sofort starten können."
             }
         }
     }
