@@ -317,6 +317,9 @@ return [
 	'fof-drafts' => [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/drafts/2.0.0-rc.1/resources/locale/en.yml',
 	],
+	'fof-filter' => [
+		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/filter/2.0.0-beta.1/resources/locale/en.yml',
+	],
 	'fof-follow-tags' => [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/follow-tags/2.0.0-beta.7/resources/locale/en.yml',
 	],
