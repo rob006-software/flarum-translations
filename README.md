@@ -855,6 +855,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`fof-disposable-emails`](https://weblate.rob006.net/projects/flarum2/fof-disposable-emails) | [`fof/disposable-emails`](https://github.com/FriendsOfFlarum/disposable-emails) |
 | [`fof-doorman`](https://weblate.rob006.net/projects/flarum2/fof-doorman) | [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman) |
 | [`fof-drafts`](https://weblate.rob006.net/projects/flarum2/fof-drafts) | [`fof/drafts`](https://github.com/FriendsOfFlarum/drafts) |
+| [`fof-filter`](https://weblate.rob006.net/projects/flarum2/fof-filter) | [`fof/filter`](https://github.com/FriendsOfFlarum/filter) |
 | [`fof-follow-tags`](https://weblate.rob006.net/projects/flarum2/fof-follow-tags) | [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags) |
 | [`fof-formatting`](https://weblate.rob006.net/projects/flarum2/fof-formatting) | [`fof/formatting`](https://github.com/FriendsOfFlarum/formatting) |
 | [`fof-forum-statistics-widget`](https://weblate.rob006.net/projects/flarum2/fof-forum-statistics-widget) | [`fof/forum-statistics-widget`](https://github.com/FriendsOfFlarum/forum-statistics-widget) |
