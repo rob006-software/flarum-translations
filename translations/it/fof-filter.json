@@ -1,41 +1,41 @@
 {
     "fof-filter": {
         "forum": {
-            "flagger_name": "",
-            "flag_message": ""
+            "flagger_name": "Auto Moderazione",
+            "flag_message": "Stringhe bloccate contenute"
         },
         "admin": {
-            "title": "",
-            "bad_words_help": "",
-            "help2": "",
-            "email_help": "",
-            "filter_label": "",
-            "countLabel": "",
-            "cooldownLabel": "",
-            "auto_merge_title": "",
+            "title": "Filtro",
+            "bad_words_help": "Inserisci testo o parole da filtrare, una per riga. Se il contenuto del post di un utente contiene una stringa che desideri filtrare, verrà contrassegnata per l'approvazione. Resistente contro 133t.",
+            "help2": "Intervallo in minuti in cui i post dello stesso utente nella stessa discussione verranno uniti automaticamente.",
+            "email_help": "Corpo dell'email contrassegnata. Accetta html o testo normale.",
+            "filter_label": "Stringhe da filtrare",
+            "countLabel": "Tolleranza Censura",
+            "cooldownLabel": "Unisci post Recuperati",
+            "auto_merge_title": "Unione automatica",
             "input": {
-                "placeholder": "",
-                "filter_title": "",
-                "email_label": "",
+                "placeholder": "Stringhe da filtrare",
+                "filter_title": "Stringhe da filtrare",
+                "email_label": "Impostazioni Email",
                 "email_help": "",
                 "switch": {
-                    "email": "",
-                    "merge": "",
+                    "email": "Invia un'e-mail all'utente quando un post viene filtrato",
+                    "merge": "Unisci automaticamente i doppi post",
                     "delete": ""
                 },
-                "email_subject": "",
-                "email_body": ""
+                "email_subject": "Oggetto",
+                "email_body": "Corpo Messaggio"
             },
             "nav": {
-                "text": "",
-                "desc": ""
+                "text": "Filtro",
+                "desc": "Filtra post da parole"
             },
             "permission": {
-                "bypass_filter_label": ""
+                "bypass_filter_label": "Ignora i filtri delle parole"
             },
             "email": {
-                "default_subject": "",
-                "default_text": ""
+                "default_subject": "Riguardo il tuo Post Recente",
+                "default_text": "Grazie per aver postato! Sfortunatamente, il tuo post è stato rimosso perché conteneva qualcosa che non volevamo vedere nei nostri forum.\n\nSe ritieni che sia stato un errore, sei fortunato, ogni post rimosso viene esaminato dai nostri moderatori. Se scoprono che questo è stato rimosso ingiustamente, lo ripristineranno.\n\nGrazie per la  comprensione."
             }
         }
     }
