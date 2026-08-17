@@ -86,7 +86,7 @@
                 "title": "Klick-Analysen",
                 "since": "Seit",
                 "until": "Bis",
-                "scope": "",
+                "scope": "Geltungsbereich",
                 "scope_all": "Alle Links",
                 "scope_external": "Nur externe",
                 "scope_internal": "Nur interne",
@@ -103,7 +103,7 @@
                 "column_last": "Letzter Klick",
                 "empty": "Keine Klicks im ausgewählten Zeitraum.",
                 "export_csv": "CSV exportieren",
-                "drilldown_tooltip": ""
+                "drilldown_tooltip": "Klicke hier, um zu sehen, wer auf diesen Link geklickt hat"
             },
             "clickers": {
                 "title": "Wer hat auf diesen Link geklickt",
@@ -114,10 +114,10 @@
                 "guest": "Gast",
                 "anonymized": "Anonymisiert",
                 "empty": "Für diesen Link wurden keine Klicks gezählt.",
-                "view_trail_tooltip": ""
+                "view_trail_tooltip": "Zeige an, worauf dieser Benutzer geklickt hat"
             },
             "click_trail": {
-                "title": "",
+                "title": "Klickverlauf von {name}",
                 "column_link": "Link",
                 "column_when": "Wann",
                 "empty": "Für diesen Nutzer wurden keine gezählten Klicks erfasst."
@@ -128,7 +128,7 @@
                 "column_urls": "URLs"
             },
             "devices": {
-                "title": "",
+                "title": "Woher Klicks stammen (letzte 30 Tage)",
                 "devices_label": "Nach Gerät",
                 "browsers_label": "Nach Browser",
                 "devices": {
@@ -159,8 +159,8 @@
         },
         "gdpr": {
             "export_description": "Alle registrierten Link-Klicks dieses Benutzers.",
-            "anonymize_description": "",
-            "delete_description": ""
+            "anonymize_description": "Extrahiere die „user_id“ und die „ip_address“ aus jedem Link-Klick-Ereignis dieses Benutzers.",
+            "delete_description": "Lösche alle für diesen Benutzer aufgezeichneten Link-Klick-Ereignisse."
         }
     }
 }
