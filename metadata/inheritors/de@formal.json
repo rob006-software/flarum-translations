@@ -1867,10 +1867,12 @@
                     "column_total": "25a57b94266ed563e8d30b41d16ceab6 25a57b94266ed563e8d30b41d16ceab6",
                     "column_unique": "85c5b62d267b7b7803657e27fc73a41d 85c5b62d267b7b7803657e27fc73a41d",
                     "column_url": "97e7c9a7d06eac006a28bf05467fcc8b 97e7c9a7d06eac006a28bf05467fcc8b",
+                    "drilldown_tooltip": "6a9c3ae82e8f22885e21d41c89fb82b2 6a9c3ae82e8f22885e21d41c89fb82b2",
                     "empty": "36952be63a191e4973a4a7ee7b0f7f8d 36952be63a191e4973a4a7ee7b0f7f8d",
                     "export_csv": "dfa1b7ea5b94594ce4353e71d97d28a5 dfa1b7ea5b94594ce4353e71d97d28a5",
                     "external_label": "498ab78ee0b25ce33c83714c1a453831 498ab78ee0b25ce33c83714c1a453831",
                     "internal_label": "17ac93e56edd16cafa7b57979b959292 17ac93e56edd16cafa7b57979b959292",
+                    "scope": "edf077523807cd2542ba45f2caeefcc4 edf077523807cd2542ba45f2caeefcc4",
                     "scope_all": "fd3d57a259cc9437e55e6e9ff804cb59 fd3d57a259cc9437e55e6e9ff804cb59",
                     "scope_attachments": "46479dc30cd449efc83bcd5f18f4a45f 46479dc30cd449efc83bcd5f18f4a45f",
                     "scope_external": "8bb381c0605b84272b38e8398dc07be1 8bb381c0605b84272b38e8398dc07be1",
@@ -1884,7 +1886,8 @@
                 "click_trail": {
                     "column_link": "97e7c9a7d06eac006a28bf05467fcc8b 97e7c9a7d06eac006a28bf05467fcc8b",
                     "column_when": "5c110c313d3ce4096b249e66345cc254 5c110c313d3ce4096b249e66345cc254",
-                    "empty": "6178b84117c064c380bfcdeb6397607b 6178b84117c064c380bfcdeb6397607b"
+                    "empty": "6178b84117c064c380bfcdeb6397607b 6178b84117c064c380bfcdeb6397607b",
+                    "title": "9974312b613da3f5bae6869ed3c6ac1b 9974312b613da3f5bae6869ed3c6ac1b"
                 },
                 "clickers": {
                     "anonymized": "a23f859b06939bda90b7cd40b54523e8 a23f859b06939bda90b7cd40b54523e8",
@@ -1894,7 +1897,8 @@
                     "column_who": "5ac9f461b16c1743f4b241d2826b500c 5ac9f461b16c1743f4b241d2826b500c",
                     "empty": "0dd20ec79f301e06c62dbdf2775ca52d 0dd20ec79f301e06c62dbdf2775ca52d",
                     "guest": "0aa7015fbee329464981c3654f3119fd 0aa7015fbee329464981c3654f3119fd",
-                    "title": "b3421aeec23bc17bdc4d90c265a0d61a b3421aeec23bc17bdc4d90c265a0d61a"
+                    "title": "b3421aeec23bc17bdc4d90c265a0d61a b3421aeec23bc17bdc4d90c265a0d61a",
+                    "view_trail_tooltip": "ddf4a12e1e2f5ec460a5b3cfafd00a38 ddf4a12e1e2f5ec460a5b3cfafd00a38"
                 },
                 "devices": {
                     "browsers": {
@@ -1912,7 +1916,8 @@
                         "mobile": "f525aa846d36e5177cffd429d8bdca45 f525aa846d36e5177cffd429d8bdca45",
                         "tablet": "36384a9ea3ec791e6bd4ab6b36f2ff2a 36384a9ea3ec791e6bd4ab6b36f2ff2a"
                     },
-                    "devices_label": "fb1b99794bfdb05f8e17c401d050e632 fb1b99794bfdb05f8e17c401d050e632"
+                    "devices_label": "fb1b99794bfdb05f8e17c401d050e632 fb1b99794bfdb05f8e17c401d050e632",
+                    "title": "e3228c6f662467a38b13ec1582ceb471 e3228c6f662467a38b13ec1582ceb471"
                 },
                 "domains": {
                     "column_domain": "558662a192a5ecb6177e20250717b904 558662a192a5ecb6177e20250717b904",
@@ -2012,6 +2017,8 @@
                 "user_popular_links_title": "c6631b2adc31a4d6ec9eb3d473dfad5c c6631b2adc31a4d6ec9eb3d473dfad5c"
             },
             "gdpr": {
+                "anonymize_description": "0688c507865031c18ad0219b8baca677 0688c507865031c18ad0219b8baca677",
+                "delete_description": "44f3f9f1bec28ac0ffd30decad53ad66 44f3f9f1bec28ac0ffd30decad53ad66",
                 "export_description": "359559e792bd7563ca010eca75cc067b 359559e792bd7563ca010eca75cc067b"
             }
         }
@@ -6136,6 +6143,8 @@
                     "reset_views_label": "a449f4d70bb19de457bc55b21391bf17 a449f4d70bb19de457bc55b21391bf17"
                 },
                 "settings": {
+                    "dedupe_ttl": "67df8d4b1348a193985ea16dcf994ce9 67df8d4b1348a193985ea16dcf994ce9",
+                    "dedupe_ttl_help": "4a99f4e6ce1dbaa7793a4e8c0b48022e 4a99f4e6ce1dbaa7793a4e8c0b48022e",
                     "ignore_crawlers": "74d60dd5ddf9a2d5c7ddcfa6d62211be 74d60dd5ddf9a2d5c7ddcfa6d62211be"
                 }
             },

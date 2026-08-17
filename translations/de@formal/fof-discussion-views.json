@@ -25,8 +25,8 @@
             },
             "settings": {
                 "ignore_crawlers": "Crawler-Besuche ignorieren",
-                "dedupe_ttl": "",
-                "dedupe_ttl_help": ""
+                "dedupe_ttl": "Sekunden, nach denen ein Zuschauer erneut gezählt wird",
+                "dedupe_ttl_help": "Wie lange ein Besucher nach dem Aufrufen einer Diskussion im Speicher verbleibt, damit das Aktualisieren oder erneute Aufrufen nicht erneut gezählt wird. Setze den Wert auf 0, um jeden Aufruf zu zählen."
             }
         },
         "lib": {
