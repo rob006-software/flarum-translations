@@ -267,7 +267,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/author-change/2.0.0/resources/locale/en.yml',
 	],
 	'fof-badges' => [
-		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/badges/2.0.0-beta.1/locale/en.yml',
+		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/badges/2.0.0-beta.2/locale/en.yml',
 	],
 	'fof-ban-ips' => [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/ban-ips/2.0.0-beta.2/resources/locale/en.yml',
