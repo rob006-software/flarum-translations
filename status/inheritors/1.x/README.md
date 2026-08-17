@@ -12,7 +12,7 @@ are fully in sync and are not listed here.
 | [Chinese (Traditional)](zh_Hant.md) (`zh_Hant`) | 33 | 199 | 6 |
 | [Dutch](nl.md) (`nl`) | 0 | 9 | 8 |
 | [Finnish](fi.md) (`fi`) | 5 | 61 | 7 |
-| [French](fr.md) (`fr`) | 124 | 1140 | 55 |
+| [French](fr.md) (`fr`) | 124 | 1147 | 56 |
 | [German](de.md) (`de`) | 303 | 575 | 90 |
 | [German (formal)](de@formal.md) (`de@formal`) | 353 | 575 | 92 |
 | [Hungarian](hu.md) (`hu`) | 43 | 6 | 21 |

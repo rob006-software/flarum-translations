@@ -2,8 +2,8 @@
 
 Translations for French (`fr`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **124** are translated differently and **1140** are
-translated only in `fr`. Altogether they cover **55** components.
+sides, but do not match between them: **124** are translated differently and **1147** are
+translated only in `fr`. Altogether they cover **56** components.
 
 <!-- {% raw %} -->
 
@@ -27,6 +27,7 @@ translated only in `fr`. Altogether they cover **55** components.
 | `fof-bookmarks` | 0 | [22](#fof-bookmarks-missing) |
 | `fof-categories` | [15](#fof-categories) | 0 |
 | `fof-checklist` | [2](#fof-checklist) | 0 |
+| `fof-first-post-approval` | 0 | [7](#fof-first-post-approval-missing) |
 | `fof-follow-tags` | 0 | [17](#fof-follow-tags-missing) |
 | `fof-forum-stats-widget` | [1](#fof-forum-stats-widget) | 0 |
 | `fof-forum-widgets-core` | [3](#fof-forum-widgets-core) | 0 |
@@ -4980,6 +4981,65 @@ These strings are translated only in `fr`, so there is nothing to inherit from F
 
 ```diff
 +Ajouté aux favoris
+```
+
+
+### `fof-first-post-approval` (missing)
+
+#### [`fof-first-post-approval.admin.permissions.bypass`](https://weblate.rob006.net/translate/flarum2/fof-first-post-approval/fr/?q=context%3A%3D%22fof-first-post-approval.admin.permissions.bypass%22)
+
+> Post without first post approval
+
+```diff
++Publier sans approbation de premier message
+```
+
+#### [`fof-first-post-approval.admin.settings.discussionCount`](https://weblate.rob006.net/translate/flarum2/fof-first-post-approval/fr/?q=context%3A%3D%22fof-first-post-approval.admin.settings.discussionCount%22)
+
+> Number of first discussions to require approval for
+
+```diff
++Nombre de premières discussions nécessitant une approbation
+```
+
+#### [`fof-first-post-approval.admin.settings.discussionCount_help`](https://weblate.rob006.net/translate/flarum2/fof-first-post-approval/fr/?q=context%3A%3D%22fof-first-post-approval.admin.settings.discussionCount_help%22)
+
+> Set to 0 to hold new discussions for approval based on the number of posts instead.
+
+```diff
++Définissez cette valeur sur 0 pour que les nouvelles discussions soient soumises à validation en fonction du nombre de messages.
+```
+
+#### [`fof-first-post-approval.admin.settings.postCount`](https://weblate.rob006.net/translate/flarum2/fof-first-post-approval/fr/?q=context%3A%3D%22fof-first-post-approval.admin.settings.postCount%22)
+
+> Number of first posts to require approval for
+
+```diff
++Nombre de premiers messages nécessitant une approbation
+```
+
+#### [`fof-first-post-approval.admin.settings.postCount_help`](https://weblate.rob006.net/translate/flarum2/fof-first-post-approval/fr/?q=context%3A%3D%22fof-first-post-approval.admin.settings.postCount_help%22)
+
+> Once this many posts by a user have been approved, their posts are published immediately.
+
+```diff
++Une fois ce nombre de messages d’un utilisateur approuvés, ses nouveaux messages sont publiés immédiatement.
+```
+
+#### [`fof-first-post-approval.admin.settings.restrictPrivateDiscussions`](https://weblate.rob006.net/translate/flarum2/fof-first-post-approval/fr/?q=context%3A%3D%22fof-first-post-approval.admin.settings.restrictPrivateDiscussions%22)
+
+> Prevent private discussions until approved
+
+```diff
++Empêcher les discussions privées jusqu’à approbation
+```
+
+#### [`fof-first-post-approval.admin.settings.restrictPrivateDiscussions_help`](https://weblate.rob006.net/translate/flarum2/fof-first-post-approval/fr/?q=context%3A%3D%22fof-first-post-approval.admin.settings.restrictPrivateDiscussions_help%22)
+
+> Private discussions cannot be held for approval, so users still subject to first post approval are stopped from starting them. Turn this off to let them start private discussions freely.
+
+```diff
++Les discussions privées ne peuvent pas être mises en attente pour approbation. Les utilisateurs encore soumis à l’approbation de leurs premiers messages ne peuvent donc pas en démarrer. Désactivez cette option pour leur permettre de démarrer librement des discussions privées.
 ```
 
 
