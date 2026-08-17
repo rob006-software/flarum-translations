@@ -306,7 +306,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/discussion-thumbnail/2.0.0-beta.1/resources/locale/en.yml',
 	],
 	'fof-discussion-views' => [
-		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/discussion-views/2.0.0-beta.1/resources/locale/en.yml',
+		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/discussion-views/2.0.0-rc.1/resources/locale/en.yml',
 	],
 	'fof-disposable-emails' => [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/disposable-emails/2.0.0-beta.1/locale/en.yml',
