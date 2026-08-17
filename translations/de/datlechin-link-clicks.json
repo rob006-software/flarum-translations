@@ -48,42 +48,42 @@
                 "honor_dnt_help": "Aufzeichnung überspringen, wenn die Anfrage DNT: 1 enthält.",
                 "skip_guests_label": "Gäste nicht nachverfolgen",
                 "skip_guests_help": "Es werden nur Klicks von angemeldeten Benutzern gezählt. Klicks von Gästen führen zwar zur Weiterleitung, es wird jedoch keine Zeile geschrieben.",
-                "min_display_label": "",
-                "min_display_help": "",
-                "dedup_window_label": "",
-                "dedup_window_help": "",
+                "min_display_label": "Mindestanzahl für die Anzeige des Abzeichens",
+                "min_display_help": "Das Abzeichen unterhalb dieser Anzahl ausblenden.",
+                "dedup_window_label": "Deduplizierungsfenster (Stunden)",
+                "dedup_window_help": "Ein bestimmter Nutzer wird in diesem Fenster pro Link nur einmal gezählt.",
                 "retention_label": "Speicherdauer von Ereignissen (in Tagen)",
                 "retention_help": "Tägliche Jobs löschen alle link_click_events, die älter als dieser sind. Setze den Wert auf 0, um Ereignisse dauerhaft zu speichern.",
-                "bot_ua_label": "",
-                "bot_ua_help": "",
+                "bot_ua_label": "Zusätzliche User-Agent-Fragmente für Bots",
+                "bot_ua_help": "Ein Fragment pro Zeile. Eine Anfrage, deren „User-Agent“-Feld eine dieser Teilzeichenfolgen enthält (Groß-/Kleinschreibung spielt keine Rolle), wird als Bot behandelt. Die integrierte Bot-Erkennung läuft ständig; die Einträge hier ergänzen diese.",
                 "bot_ua_placeholder": "Googlebot\nMJ12bot\nAhrefsBot",
-                "tracking_params_label": "",
-                "tracking_params_help": "",
-                "tracking_params_placeholder": "",
-                "attachment_prefixes_label": "",
-                "attachment_prefixes_help": "",
+                "tracking_params_label": "Zusätzliche Tracking-Abfrageparameter, die entfernt werden sollen",
+                "tracking_params_help": "Ein Muster pro Zeile. Vor der Dublettenbereinigung aus den URLs entfernt, sodass Varianten mit UTM-Tags demselben Link zugeordnet werden. Das abschließende * steht für ein Präfix (z. B. utm_*). Die Standardliste umfasst bereits utm_*, fbclid, gclid, mc_cid, igshid, _ga und weitere.",
+                "tracking_params_placeholder": "ref_url\nyclid\ncustom_param",
+                "attachment_prefixes_label": "Zusätzliche Präfixe für Anhangspfade",
+                "attachment_prefixes_help": "URLs auf dem Forum-Host, deren Pfad mit einem dieser Präfixe beginnt, werden auch dann nachverfolgt, wenn die Nachverfolgung interner Links deaktiviert ist. „/assets/files/“ ist für den Standard-Upload-Speicher von Flarum integriert; füge deinen eigenen Pfad hinzu, wenn du „fof/upload“ oder einen benutzerdefinierten CDN-Pfad verwendest.",
                 "domain_blocklist_label": "Domains blockieren",
                 "domain_blocklist_help": "Zu überspringende Hosts. Einer pro Zeile. Verwende *.beispiel.de, um alle Subdomains abzudecken. Beiträge, die auf diese Hosts verweisen, erhalten kein Abzeichen, und Klicks werden nicht erfasst.",
-                "confirm_external_label": "",
-                "confirm_external_help": "",
-                "digest_enabled_label": "",
-                "digest_enabled_help": "",
+                "confirm_external_label": "Vor dem Verlassen des Forums Bestätigung einfordern",
+                "confirm_external_help": "Zeigt einen Bestätigungsdialog des Browsers an, wenn ein Leser auf einen externen Link klickt. Standardmäßig deaktiviert.",
+                "digest_enabled_label": "Wöchentliche E-Mail-Zusammenfassung an die Administratoren senden",
+                "digest_enabled_help": "Jeden Montagmorgen wird jedem Administrator eine Zusammenfassung der Klicks der vergangenen Woche im Klartext per E-Mail zugesandt. Standardmäßig deaktiviert.",
                 "webhook_enabled_label": "Webhook aktivieren",
                 "webhook_enabled_help": "Leite jeden erfassten Klick als JSON-POST über die Warteschlange an eine externe URL weiter.",
                 "webhook_url_label": "Webhook-URL",
-                "webhook_url_help": "",
-                "webhook_secret_label": "",
-                "webhook_secret_help": "",
-                "webhook_test_button": "",
-                "webhook_test_ok": "",
-                "webhook_test_failed": ""
+                "webhook_url_help": "Wohin die JSON-Nutzlast gesendet werden soll.",
+                "webhook_secret_label": "Webhook-Secret",
+                "webhook_secret_help": "Wenn diese Option gesetzt ist, wird der Request-Body mit HMAC-SHA256 signiert und die Signatur im Header „X-LinkClicks-Signature“ in der Form „sha256=HEX_DIGEST“ gesendet. Empfänger überprüfen die Signatur, indem sie sie mit demselben geheimen Schlüssel neu berechnen.",
+                "webhook_test_button": "Test-Ping senden",
+                "webhook_test_ok": "Der Webhook hat mit dem HTTP-Status {status} geantwortet.",
+                "webhook_test_failed": "Webhook-Test fehlgeschlagen: {detail}"
             },
             "tags": {
-                "disable_tracking_label": "",
-                "disable_tracking_help": ""
+                "disable_tracking_label": "Link-Klick-Tracking in diesem Tag deaktivieren",
+                "disable_tracking_help": "Beiträge in Diskussionen, die mit diesem Tag versehen sind, werden nicht mehr nachverfolgt. Bereits vorhandene Zählwerte bleiben erhalten."
             },
             "analytics": {
-                "title": "",
+                "title": "Klick-Analysen",
                 "since": "Seit",
                 "until": "Bis",
                 "scope": "",
@@ -98,39 +98,39 @@
                 "external_label": "Extern",
                 "column_url": "Link",
                 "column_total": "Klicks",
-                "column_unique": "",
+                "column_unique": "Eindeutige Besucher",
                 "column_first": "Erster Klick",
                 "column_last": "Letzter Klick",
-                "empty": "",
+                "empty": "Keine Klicks im ausgewählten Zeitraum.",
                 "export_csv": "CSV exportieren",
                 "drilldown_tooltip": ""
             },
             "clickers": {
-                "title": "",
+                "title": "Wer hat auf diesen Link geklickt",
                 "column_who": "Wer",
                 "column_clicks": "Klicks",
                 "column_first": "Erster Klick",
                 "column_last": "Letzter Klick",
                 "guest": "Gast",
                 "anonymized": "Anonymisiert",
-                "empty": "",
+                "empty": "Für diesen Link wurden keine Klicks gezählt.",
                 "view_trail_tooltip": ""
             },
             "click_trail": {
                 "title": "",
                 "column_link": "Link",
                 "column_when": "Wann",
-                "empty": ""
+                "empty": "Für diesen Nutzer wurden keine gezählten Klicks erfasst."
             },
             "domains": {
-                "title": "",
-                "column_domain": "",
-                "column_urls": ""
+                "title": "Top-Domänen (letzte 30 Tage)",
+                "column_domain": "Domäne",
+                "column_urls": "URLs"
             },
             "devices": {
                 "title": "",
-                "devices_label": "",
-                "browsers_label": "",
+                "devices_label": "Nach Gerät",
+                "browsers_label": "Nach Browser",
                 "devices": {
                     "mobile": "Handy",
                     "tablet": "Tablet",
@@ -153,8 +153,8 @@
             "timeseries": {
                 "title": "Tägliche Klicks",
                 "total_clicks": "insgesamt",
-                "avg_per_day": "",
-                "peak_day": ""
+                "avg_per_day": "durchschn. / Tag",
+                "peak_day": "Spitzentag"
             }
         },
         "gdpr": {
