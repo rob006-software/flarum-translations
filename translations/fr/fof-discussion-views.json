@@ -25,8 +25,8 @@
             },
             "settings": {
                 "ignore_crawlers": "Ignorer les visites des robots",
-                "dedupe_ttl": "",
-                "dedupe_ttl_help": ""
+                "dedupe_ttl": "Nombre de secondes avant qu'un visiteur ne soit à nouveau comptabilisé",
+                "dedupe_ttl_help": "Durée pendant laquelle un visiteur est mémorisé après avoir consulté une discussion, afin que le rafraîchissement de la page ou le retour sur cette discussion ne soit pas comptabilisé à nouveau. Définissez cette valeur sur 0 pour comptabiliser chaque consultation."
             }
         },
         "lib": {
