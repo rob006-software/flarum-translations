@@ -182,11 +182,11 @@ Die Ankündigungen konnten nicht geladen werden. Bitte <del>versuche</del><ins>v
 > Customize your forum's colors, logos, and other variables.
 
 ```diff
--Ändere die Farbe, das Logo und weitere Variablen des Forums.
+-Ändere die Farben, das Logo und weitere Variablen des Forums.
 +Verändern Sie die Farbe, das Logo und weitere Variablen des Forums.
 ```
 
-<del>Ändere</del><ins>Verändern Sie</ins> die Farbe, das Logo und weitere Variablen des Forums.
+<del>Ändere</del><ins>Verändern Sie</ins> die <del>Farben,</del><ins>Farbe,</ins> das Logo und weitere Variablen des Forums.
 
 #### [`core.admin.appearance.enter_hex_message`](https://weblate.rob006.net/translate/flarum2/core/de@formal/?q=context%3A%3D%22core.admin.appearance.enter_hex_message%22)
 
@@ -3014,10 +3014,10 @@ Hallo {warnee\_display\_name}!<br /><br />{warner\_display\_name} hat <del>Dich<
 
 ```diff
 -Deine Warnung wurde hinterlegt.
-+Ihre Warnung wurde hinterlegt. Möglicherweise müssen Sie die Seite aktualisieren, um sie anzuzeigen.
++Ihre Warnung wurde hinterlegt.
 ```
 
-<del>Deine</del><ins>Ihre</ins> Warnung wurde hinterlegt.<ins> Möglicherweise müssen Sie die Seite aktualisieren, um sie anzuzeigen.</ins>
+<del>Deine</del><ins>Ihre</ins> Warnung wurde hinterlegt.
 
 
 ### `fof-move-posts`

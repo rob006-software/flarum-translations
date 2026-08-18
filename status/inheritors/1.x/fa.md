@@ -2,7 +2,7 @@
 
 Translations for Persian (`fa`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **7** are translated differently and **79** are
+sides, but do not match between them: **7** are translated differently and **82** are
 translated only in `fa`. Altogether they cover **38** components.
 
 <!-- {% raw %} -->
@@ -21,7 +21,7 @@ translated only in `fa`. Altogether they cover **38** components.
 | `flarum-mentions` | [2](#flarum-mentions) | 0 |
 | `fof-analytics` | 0 | [2](#fof-analytics-missing) |
 | `fof-anti-spam` | 0 | [2](#fof-anti-spam-missing) |
-| `fof-badges` | 0 | [7](#fof-badges-missing) |
+| `fof-badges` | 0 | [10](#fof-badges-missing) |
 | `fof-best-answer` | 0 | [1](#fof-best-answer-missing) |
 | `fof-follow-tags` | 0 | [1](#fof-follow-tags-missing) |
 | `fof-forum-stats-widget` | 0 | [2](#fof-forum-stats-widget-missing) |
@@ -304,6 +304,30 @@ These strings are translated only in `fa`, so there is nothing to inherit from F
 
 ```diff
 +درج کردن
+```
+
+#### [`fof-badges.admin.settings.primary_badge_icon`](https://weblate.rob006.net/translate/flarum2/fof-badges/fa/?q=context%3A%3D%22fof-badges.admin.settings.primary_badge_icon%22)
+
+> Icon only
+
+```diff
++فقط نماد
+```
+
+#### [`fof-badges.admin.settings.primary_badge_icon_name`](https://weblate.rob006.net/translate/flarum2/fof-badges/fa/?q=context%3A%3D%22fof-badges.admin.settings.primary_badge_icon_name%22)
+
+> Icon and name
+
+```diff
++نماد و نام
+```
+
+#### [`fof-badges.admin.tabs.categories`](https://weblate.rob006.net/translate/flarum2/fof-badges/fa/?q=context%3A%3D%22fof-badges.admin.tabs.categories%22)
+
+> Categories
+
+```diff
++دسته‌بندی‌ها
 ```
 
 #### [`fof-badges.admin.tabs.settings`](https://weblate.rob006.net/translate/flarum2/fof-badges/fa/?q=context%3A%3D%22fof-badges.admin.tabs.settings%22)

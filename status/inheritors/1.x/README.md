@@ -13,14 +13,14 @@ are fully in sync and are not listed here.
 | [Dutch](nl.md) (`nl`) | 0 | 9 | 8 |
 | [Finnish](fi.md) (`fi`) | 5 | 61 | 7 |
 | [French](fr.md) (`fr`) | 124 | 1147 | 56 |
-| [German](de.md) (`de`) | 303 | 575 | 90 |
-| [German (formal)](de@formal.md) (`de@formal`) | 353 | 575 | 92 |
+| [German](de.md) (`de`) | 308 | 575 | 91 |
+| [German (formal)](de@formal.md) (`de@formal`) | 357 | 575 | 93 |
 | [Hungarian](hu.md) (`hu`) | 43 | 6 | 21 |
 | [Indonesian](id.md) (`id`) | 1 | 0 | 1 |
 | [Italian](it.md) (`it`) | 0 | 1 | 1 |
 | [Japanese](ja.md) (`ja`) | 1 | 0 | 1 |
 | [Korean](ko.md) (`ko`) | 0 | 1 | 1 |
-| [Persian](fa.md) (`fa`) | 7 | 79 | 38 |
+| [Persian](fa.md) (`fa`) | 7 | 82 | 38 |
 | [Romanian](ro.md) (`ro`) | 0 | 12 | 1 |
 | [Russian](ru.md) (`ru`) | 56 | 59 | 16 |
 | [Serbian (Latin)](sr_Latn.md) (`sr_Latn`) | 0 | 5 | 1 |

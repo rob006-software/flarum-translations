@@ -2,8 +2,8 @@
 
 Translations for German (formal) (`de@formal`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **353** are translated differently and **575** are
-translated only in `de@formal`. Altogether they cover **92** components.
+sides, but do not match between them: **357** are translated differently and **575** are
+translated only in `de@formal`. Altogether they cover **93** components.
 
 <!-- {% raw %} -->
 
@@ -40,6 +40,7 @@ translated only in `de@formal`. Altogether they cover **92** components.
 | `fof-discussion-templates` | [3](#fof-discussion-templates) | 0 |
 | `fof-doorman` | [1](#fof-doorman) | 0 |
 | `fof-drafts` | [1](#fof-drafts) | 0 |
+| `fof-filter` | [4](#fof-filter) | 0 |
 | `fof-gamification` | [9](#fof-gamification) | 0 |
 | `fof-geoip` | [3](#fof-geoip) | 0 |
 | `fof-horizon` | [3](#fof-horizon) | 0 |
@@ -1627,6 +1628,47 @@ Verwalte eine Vorlage für neue Diskussionen in diesem <del>Thema.</del><ins>Tag
 ```
 
 <del>Du</del><ins>Sie</ins> <del>hast</del><ins>haben</ins> keine Entwürfe gespeichert
+
+
+### `fof-filter`
+
+#### [`fof-filter.admin.filter_label`](https://weblate.rob006.net/translate/flarum2/fof-filter/de@formal/?q=context%3A%3D%22fof-filter.admin.filter_label%22)
+
+> Strings to filter
+
+```diff
+-=> fof-filter.ref.strings_to_filter
++Zu filternde Zeichenfolgen
+```
+
+#### [`fof-filter.admin.input.email_label`](https://weblate.rob006.net/translate/flarum2/fof-filter/de@formal/?q=context%3A%3D%22fof-filter.admin.input.email_label%22)
+
+> Email Settings
+
+```diff
+-E-Mail Einstellungen
++E-Mail-Einstellungen
+```
+
+#### [`fof-filter.admin.input.filter_title`](https://weblate.rob006.net/translate/flarum2/fof-filter/de@formal/?q=context%3A%3D%22fof-filter.admin.input.filter_title%22)
+
+> Strings to filter
+
+```diff
+-=> fof-filter.ref.strings_to_filter
++Zu filternde Zeichenfolgen
+```
+
+#### [`fof-filter.admin.input.switch.email`](https://weblate.rob006.net/translate/flarum2/fof-filter/de@formal/?q=context%3A%3D%22fof-filter.admin.input.switch.email%22)
+
+> Email user when post is filtered
+
+```diff
+-Sende E-Mail an Verfasser wenn Beitrag gefiltert wird
++Sende E-Mail an Verfasser, wenn Beitrag gefiltert wird
+```
+
+Sende E-Mail an <del>Verfasser</del><ins>Verfasser,</ins> wenn Beitrag gefiltert wird
 
 
 ### `fof-gamification`

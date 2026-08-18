@@ -2,8 +2,8 @@
 
 Translations for German (`de`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **303** are translated differently and **575** are
-translated only in `de`. Altogether they cover **90** components.
+sides, but do not match between them: **308** are translated differently and **575** are
+translated only in `de`. Altogether they cover **91** components.
 
 <!-- {% raw %} -->
 
@@ -14,7 +14,7 @@ translated only in `de`. Altogether they cover **90** components.
 | --- | --- | --- |
 | `acpl-lscache` | [2](#acpl-lscache) | 0 |
 | `asyntai-chatbot` | 0 | [6](#asyntai-chatbot-missing) |
-| `core` | [5](#core) | 0 |
+| `core` | [6](#core) | 0 |
 | `datitisev-backup` | [3](#datitisev-backup) | 0 |
 | `datlechin-passkey` | [4](#datlechin-passkey) | 0 |
 | `datlechin-tag-passwords` | [13](#datlechin-tag-passwords) | 0 |
@@ -38,6 +38,7 @@ translated only in `de`. Altogether they cover **90** components.
 | `fof-default-user-preferences` | [7](#fof-default-user-preferences) | 0 |
 | `fof-discussion-templates` | [5](#fof-discussion-templates) | 0 |
 | `fof-doorman` | [1](#fof-doorman) | 0 |
+| `fof-filter` | [4](#fof-filter) | 0 |
 | `fof-gamification` | [9](#fof-gamification) | 0 |
 | `fof-geoip` | [2](#fof-geoip) | 0 |
 | `fof-impersonate` | [1](#fof-impersonate) | 0 |
@@ -135,6 +136,17 @@ Each entry contains the English source string, followed by a diff between the tr
 
 
 ### `core`
+
+#### [`core.admin.appearance.description`](https://weblate.rob006.net/translate/flarum2/core/de/?q=context%3A%3D%22core.admin.appearance.description%22)
+
+> Customize your forum's colors, logos, and other variables.
+
+```diff
+-Ändere die Farbe, das Logo und weitere Variablen des Forums.
++Ändere die Farben, das Logo und weitere Variablen des Forums.
+```
+
+Ändere die <del>Farbe,</del><ins>Farben,</ins> das Logo und weitere Variablen des Forums.
 
 #### [`core.admin.basics.forum_description_heading`](https://weblate.rob006.net/translate/flarum2/core/de/?q=context%3A%3D%22core.admin.basics.forum_description_heading%22)
 
@@ -1483,6 +1495,47 @@ Verwalte eine Vorlage für neue Diskussionen in diesem <del>Thema.</del><ins>Tag
 -xSchlüssel
 +Schlüssel
 ```
+
+
+### `fof-filter`
+
+#### [`fof-filter.admin.filter_label`](https://weblate.rob006.net/translate/flarum2/fof-filter/de/?q=context%3A%3D%22fof-filter.admin.filter_label%22)
+
+> Strings to filter
+
+```diff
+-=> fof-filter.ref.strings_to_filter
++Zu filternde Zeichenfolgen
+```
+
+#### [`fof-filter.admin.input.email_label`](https://weblate.rob006.net/translate/flarum2/fof-filter/de/?q=context%3A%3D%22fof-filter.admin.input.email_label%22)
+
+> Email Settings
+
+```diff
+-E-Mail Einstellungen
++E-Mail-Einstellungen
+```
+
+#### [`fof-filter.admin.input.filter_title`](https://weblate.rob006.net/translate/flarum2/fof-filter/de/?q=context%3A%3D%22fof-filter.admin.input.filter_title%22)
+
+> Strings to filter
+
+```diff
+-=> fof-filter.ref.strings_to_filter
++Zu filternde Zeichenfolgen
+```
+
+#### [`fof-filter.admin.input.switch.email`](https://weblate.rob006.net/translate/flarum2/fof-filter/de/?q=context%3A%3D%22fof-filter.admin.input.switch.email%22)
+
+> Email user when post is filtered
+
+```diff
+-Sende E-Mail an Verfasser wenn Beitrag gefiltert wird
++Sende E-Mail an Verfasser, wenn Beitrag gefiltert wird
+```
+
+Sende E-Mail an <del>Verfasser</del><ins>Verfasser,</ins> wenn Beitrag gefiltert wird
 
 
 ### `fof-gamification`
