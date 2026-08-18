@@ -30,7 +30,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/android-com-pl/my-tags/2.0.0-beta.3/locale/en.yml',
 	],
 	'alanqoq-mie-files' => [
-		'tag' => 'https://raw.githubusercontent.com/alanqoq/flarum-mie-CDN-image-file/v0.1.8/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/alanqoq/flarum-mie-CDN-image-file/v0.1.9/locale/en.yml',
 		'__builtInLanguages' => [
 			'zh_Hans',
 		],
