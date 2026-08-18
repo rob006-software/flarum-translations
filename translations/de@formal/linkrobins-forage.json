@@ -3,6 +3,10 @@
         "admin": {
             "key_label": "Forage-Schlüssel",
             "key_help": "Füge den Schlüssel aus deinem Linkrobins.com-Dashboard → Forage ein. Das war’s schon – Forage richtet die Verbindung zu deinem Suchserver für dich ein und beginnt mit der Indizierung deiner Beiträge. Lasse das Feld leer, um zur eigenen Suche deines Forums zurückzukehren.\n",
+            "related_discussion_label": "",
+            "related_discussion_help": "",
+            "related_composer_label": "",
+            "related_composer_help": "",
             "unconfigured": "Füge unten deinen Forage-Schlüssel ein, um die gehostete Suche zu aktivieren. Du findest ihn in deinem linkrobins.com-Dashboard unter „Forage“. Bis dahin nutzt dein Forum weiterhin die eigene Suchfunktion, sodass in der Zwischenzeit keine Probleme auftreten.\n",
             "connected": "✓ Verbunden – Suchanfragen in deinem Forum werden von deinem eigenen Suchserver beantwortet.\n",
             "connected_indexed": "✓ Verbunden – Suchanfragen in deinem Forum werden von deinem eigenen Suchserver beantwortet, auf dem {indexed} Beiträge gespeichert sind.\n",
@@ -16,6 +20,14 @@
             "index_empty": "Dein Schlüssel ist in Ordnung, aber dein Suchserver enthält überhaupt keine Daten, sodass Suchanfragen in diesem Forum keine Ergebnisse liefern. Wenn du gerade eine Verbindung hergestellt oder das Forum neu aufgebaut hast, ist der Index noch dabei, sich zu füllen, und das Problem wird sich in Kürze von selbst beheben. Falls nicht, führe auf deinem Server den Befehl „php flarum forage:reindex“ aus, um den Index anhand der Beiträge deines Forums neu zu erstellen. In jedem Fall ist nichts verloren gegangen: Deine Beiträge befinden sich in der Datenbank deines Forums, und der Index wird daraus erstellt.\n",
             "index_short": "Ihr Suchserver enthält {indexed} Beiträge, und in diesem Forum sind {expected} Beiträge, die dort hinein gehören. Wenn du dich gerade erst angemeldet hast oder viele Beiträge auf einmal verfasst wurden, ist der Server noch dabei, den Rückstand aufzuholen, und die Situation wird sich von selbst normalisieren. Sollte die Diskrepanz bestehen bleiben, führe den Befehl „php flarum forage:reindex“ aus, um den Index neu zu erstellen.\n",
             "at_limit": "Dein Suchserver enthält {indexed} Beiträge, was dem Limit deines Tarifs ({cap}) entspricht. Neuere Beiträge werden nicht hinzugefügt und erscheinen daher nicht in den Suchergebnissen. Durch ein Upgrade deines Tarifs wird das Limit erhöht.\n"
+        },
+        "forum": {
+            "related_heading": "",
+            "related_replies": "",
+            "related_more": "",
+            "related_none": "",
+            "composer_heading": "",
+            "composer_dismiss": ""
         }
     }
 }

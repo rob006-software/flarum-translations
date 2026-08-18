@@ -3,6 +3,10 @@
         "admin": {
             "key_label": "Forage key",
             "key_help": "Paste the key from your linkrobins.com dashboard → Forage. That's it — Forage sets up your search server's connection for you and starts indexing your posts. Leave it blank to go back to your forum's own search.\n",
+            "related_discussion_label": "Show related discussions under each thread",
+            "related_discussion_help": "Adds a short list of other discussions like the one being read, at the bottom of the page. Turn it off if you'd rather leave the end of a thread clear.\n",
+            "related_composer_label": "Suggest similar discussions while someone writes",
+            "related_composer_help": "When a member starts a new discussion, shows a few existing ones with similar titles under the title box. It's only a suggestion: it never stops anyone posting, and they can hide it.\n",
             "unconfigured": "Paste your Forage key below to turn on hosted search. Get it from your linkrobins.com dashboard → Forage. Until then your forum keeps using its own search, so nothing is broken in the meantime.\n",
             "connected": "✓ Connected — your forum's search is being answered by your own search server.\n",
             "connected_indexed": "✓ Connected — your forum's search is being answered by your own search server, which is holding {indexed} posts.\n",
@@ -16,6 +20,14 @@
             "index_empty": "Your key is fine, but your search server is holding nothing at all, so searches on this forum are finding nothing. If you have just connected or just rebuilt, it is still filling and this will sort itself out shortly. If not, run \"php flarum forage:reindex\" on your server to fill it again from your forum's own posts. Nothing has been lost either way: your posts live in your forum's database, and the index is built from them.\n",
             "index_short": "Your search server is holding {indexed} posts, and this forum has {expected} that belong there. If you have just connected, or just posted a lot at once, it is still catching up and will settle on its own. If the gap stays, run \"php flarum forage:reindex\" to rebuild it.\n",
             "at_limit": "Your search server is holding {indexed} posts, which is the limit on your plan ({cap}). Newer posts aren't being added, so they won't turn up in search. Upgrading your plan raises the limit.\n"
+        },
+        "forum": {
+            "related_heading": "Related Discussions",
+            "related_replies": "{count, plural, one {# reply} other {# replies}}",
+            "related_more": "See more",
+            "related_none": "Nothing else here looks like this one yet.",
+            "composer_heading": "Similar Discussions",
+            "composer_dismiss": "Hide these suggestions"
         }
     }
 }
