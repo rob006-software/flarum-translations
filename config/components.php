@@ -143,7 +143,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/netcccyun/flarum-clogin-oauth/v1.0.2/resources/locale/en.yml',
 	],
 	'chatixy-chatixy' => [
-		'tag' => 'https://raw.githubusercontent.com/Devoflex/flarum-chatixy/v1.0.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/Devoflex/flarum-chatixy/v1.0.1/resources/locale/en.yml',
 	],
 	'clarkwinkelmann-anonymous-posting' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-anonymous-posting/1.1.1/locale/en.yml',
