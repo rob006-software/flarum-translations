@@ -315,8 +315,8 @@
                 "title": "=> core.ref.email"
             },
             "extension": {
-                "abandoned_no_replacement": "此扩展不再由其作者维护，并且可能不会再收到更新。",
-                "abandoned_with_replacement": "此扩展程序已被{replacement}替换。考虑迁移到替换包。",
+                "abandoned_no_replacement": "此扩展程序已停止维护，今后可能不再更新。",
+                "abandoned_with_replacement": "此扩展程序已被 {replacement} 替代，请考虑迁移。",
                 "configure_scopes": "设置范围",
                 "confirm_purge": "重置操作会清除数据库中所有该扩展相关的记录和资源。如要卸载扩展，请通过 Composer 操作。确定要重置扩展吗？",
                 "database_driver_mismatch": "此扩展不支持您配置的数据库驱动程序。",
@@ -342,7 +342,7 @@
                     "no_readme": "此扩展未提供自述文件",
                     "title": "{extName} 文档"
                 },
-                "replaced": "替换",
+                "replaced": "替代",
                 "reset_settings": {
                     "button": "重置设置",
                     "cancel_button": "取消",
