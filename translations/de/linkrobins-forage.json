@@ -3,10 +3,10 @@
         "admin": {
             "key_label": "Forage-Schlüssel",
             "key_help": "Füge den Schlüssel aus deinem Linkrobins.com-Dashboard → Forage ein. Das war’s schon – Forage richtet die Verbindung zu deinem Suchserver für dich ein und beginnt mit der Indizierung deiner Beiträge. Lasse das Feld leer, um zur eigenen Suche deines Forums zurückzukehren.\n",
-            "related_discussion_label": "",
-            "related_discussion_help": "",
-            "related_composer_label": "",
-            "related_composer_help": "",
+            "related_discussion_label": "Unter jedem Thread verwandte Diskussionen anzeigen",
+            "related_discussion_help": "Fügt am Ende der Seite eine kurze Liste weiterer Diskussionen hinzu, die der gerade gelesenen ähneln. Deaktiviere diese Funktion, wenn du das Ende eines Threads lieber frei halten möchtest.\n",
+            "related_composer_label": "Ähnliche Diskussionen vorschlagen, während jemand schreibt",
+            "related_composer_help": "Wenn ein Mitglied eine neue Diskussion startet, werden unter dem Titelfeld einige bereits vorhandene Diskussionen mit ähnlichen Titeln angezeigt. Das ist nur ein Vorschlag: Es hindert niemanden daran, einen neue Diskussion zu verfassen, und Benutzer können diese Anzeige ausblenden.\n",
             "unconfigured": "Füge unten deinen Forage-Schlüssel ein, um die gehostete Suche zu aktivieren. Du findest ihn in deinem linkrobins.com-Dashboard unter „Forage“. Bis dahin nutzt dein Forum weiterhin die eigene Suchfunktion, sodass in der Zwischenzeit keine Probleme auftreten.\n",
             "connected": "✓ Verbunden – Suchanfragen in deinem Forum werden von deinem eigenen Suchserver beantwortet.\n",
             "connected_indexed": "✓ Verbunden – Suchanfragen in deinem Forum werden von deinem eigenen Suchserver beantwortet, auf dem {indexed} Beiträge gespeichert sind.\n",
@@ -22,12 +22,12 @@
             "at_limit": "Dein Suchserver enthält {indexed} Beiträge, was dem Limit deines Tarifs ({cap}) entspricht. Neuere Beiträge werden nicht hinzugefügt und erscheinen daher nicht in den Suchergebnissen. Durch ein Upgrade deines Tarifs wird das Limit erhöht.\n"
         },
         "forum": {
-            "related_heading": "",
-            "related_replies": "",
-            "related_more": "",
-            "related_none": "",
-            "composer_heading": "",
-            "composer_dismiss": ""
+            "related_heading": "Ähnliche Diskussionen",
+            "related_replies": "{count, plural, one {# Antwort} other {# Antworten}}",
+            "related_more": "Mehr anzeigen",
+            "related_none": "Bisher sieht noch nichts diesem ähnlich.",
+            "composer_heading": "Ähnliche Diskussionen",
+            "composer_dismiss": "Diese Vorschläge ausblenden"
         }
     }
 }
