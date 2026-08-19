@@ -68,7 +68,7 @@
                 },
                 "queue": {
                     "section_label": "Warteschlange",
-                    "sync_info": "Dein Forum verwendet den synchronen Warteschlangentreiber. Aufträge werden sofort im Hauptprozess-Thread verarbeitet.",
+                    "sync_info": "Dein Forum verwendet den synchronen Warteschlangentreiber. Jobs werden sofort im Hauptprozess-Thread verarbeitet.",
                     "sync_help": "Für eine bessere Leistung und Benutzererfahrung solltest du die Verwendung des Datenbank-Warteschlangentreibers in Betracht ziehen. Weitere Informationen findest du in der Dokumentation.",
                     "custom_driver": "Dein Forum verwendet den {driver} Queue-Treiber, der von einer Erweiterung bereitgestellt wird.",
                     "retries_label": "Job-Wiederholungsversuche",
@@ -209,7 +209,7 @@
                 "status": {
                     "headers": {
                         "scheduler-status": "Scheduler",
-                        "queue-driver": "Queue-Treiber",
+                        "queue-driver": "Warteschlangen-Treiber",
                         "session-driver": "Session-Treiber"
                     },
                     "scheduler": {
