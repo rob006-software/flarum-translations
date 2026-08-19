@@ -531,7 +531,31 @@
         "blomstra-database-queue": {
             "admin": {
                 "settings": {
-                    "backoff_label": "5df3a87b0fe405a2492a68936c717e47 5df3a87b0fe405a2492a68936c717e47"
+                    "backoff_help": "6153b049294891605678bbcf89e1057d 6153b049294891605678bbcf89e1057d",
+                    "backoff_label": "5df3a87b0fe405a2492a68936c717e47 5df3a87b0fe405a2492a68936c717e47",
+                    "memory_help": "4c022722c01b2442676371cdd2a48dd3 4c022722c01b2442676371cdd2a48dd3",
+                    "memory_label": "0f91f887a4e0f122b07c327a2de28a35 0f91f887a4e0f122b07c327a2de28a35",
+                    "rest_help": "9bb958ea93b9d1501a8309890e145a87 9bb958ea93b9d1501a8309890e145a87",
+                    "rest_label": "4d3f4b5c416ece10107518080e820a5a 4d3f4b5c416ece10107518080e820a5a",
+                    "retries_help": "9ea1a4c6c38d95c0d02c0f95ee9d6b47 9ea1a4c6c38d95c0d02c0f95ee9d6b47",
+                    "retries_label": "cc1ead77ded8e17c3753bcb0375e6de5 cc1ead77ded8e17c3753bcb0375e6de5",
+                    "timeout_help": "5e92fe14b8b609cc402fe9da9acbb8e2 5e92fe14b8b609cc402fe9da9acbb8e2",
+                    "timeout_label": "80c9fbdb56789ade0ef0a89df83dd349 80c9fbdb56789ade0ef0a89df83dd349"
+                },
+                "stats": {
+                    "auto_refresh": "c01099ebc123810db6ef429df5dfb132 c01099ebc123810db6ef429df5dfb132",
+                    "data": {
+                        "failed-jobs": "73d33235e37664eb2b2d078a68fe6b2c 73d33235e37664eb2b2d078a68fe6b2c",
+                        "pending-jobs": "def5555f0b1ab124ca719212b13d91b5 def5555f0b1ab124ca719212b13d91b5",
+                        "queue-name": "7e89d17254fcb85eda9c4e9370db7196 7e89d17254fcb85eda9c4e9370db7196",
+                        "status": {
+                            "inactive": "2aaad1e130dd23b7195ed5235483cef4 2aaad1e130dd23b7195ed5235483cef4",
+                            "label": "ec53a8c4f07baed5d8825072c89799be ec53a8c4f07baed5d8825072c89799be",
+                            "running": "7300bbb1ee8f8dd100f7915d0653b165 7300bbb1ee8f8dd100f7915d0653b165"
+                        }
+                    },
+                    "heading": "2d166171fb14a4bce85a77aea1d61258 2d166171fb14a4bce85a77aea1d61258",
+                    "refresh": "bf3cfcc67443f35738da254ed9c6ef3f bf3cfcc67443f35738da254ed9c6ef3f"
                 }
             }
         }
