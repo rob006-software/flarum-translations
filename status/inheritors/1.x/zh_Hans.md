@@ -2,7 +2,7 @@
 
 Translations for Chinese (Simplified) (`zh_Hans`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **582** are translated differently and **1548** are
+sides, but do not match between them: **580** are translated differently and **1548** are
 translated only in `zh_Hans`. Altogether they cover **113** components.
 
 <!-- {% raw %} -->
@@ -14,7 +14,7 @@ translated only in `zh_Hans`. Altogether they cover **113** components.
 | --- | --- | --- |
 | `acpl-lscache` | [3](#acpl-lscache) | [8](#acpl-lscache-missing) |
 | `antoinefr-money` | [7](#antoinefr-money) | 0 |
-| `core` | [62](#core) | 0 |
+| `core` | [60](#core) | 0 |
 | `datitisev-backup` | [28](#datitisev-backup) | 0 |
 | `datlechin-birthdays` | [1](#datlechin-birthdays) | 0 |
 | `datlechin-more-discussions` | [5](#datlechin-more-discussions) | 0 |
@@ -303,26 +303,8 @@ Each entry contains the English source string, followed by a diff between the tr
 > Customize your forum's colors, logos, and other variables.
 
 ```diff
--自定义论坛配色、图标以及其他元素
-+自定义您的论坛颜色、Logo 以及其他变量。
-```
-
-#### [`core.admin.appearance.logo_heading`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.appearance.logo_heading%22)
-
-> Logo
-
-```diff
--标志
-+Logo
-```
-
-#### [`core.admin.appearance.logo_text`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.appearance.logo_text%22)
-
-> Upload an image to be displayed in place of the forum title.
-
-```diff
--上传图片代替论坛名称，并展示在导航栏左侧。
-+上传图片将会代替论坛名称，展示在导航栏左侧。
+-自定义论坛配色、图标及其他元素
++自定义论坛配色、图标以及其他元素
 ```
 
 #### [`core.admin.basics.abandoned_extensions_heading`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.basics.abandoned_extensions_heading%22)
@@ -380,7 +362,7 @@ Flarum <del>维护了一个&lt;a&gt;社区弃用扩展列表&lt;/a&gt;。当已�
 
 ```diff
 -设置论坛名称、语言以及其他基础设置
-+设置您的论坛名称、语言及其他基础设置。
++设置论坛名称、语言及其他基础设置
 ```
 
 #### [`core.admin.basics.slug_driver_heading`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.basics.slug_driver_heading%22)
