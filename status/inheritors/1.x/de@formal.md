@@ -2,7 +2,7 @@
 
 Translations for German (formal) (`de@formal`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **357** are translated differently and **575** are
+sides, but do not match between them: **358** are translated differently and **575** are
 translated only in `de@formal`. Altogether they cover **93** components.
 
 <!-- {% raw %} -->
@@ -14,7 +14,7 @@ translated only in `de@formal`. Altogether they cover **93** components.
 | --- | --- | --- |
 | `acpl-lscache` | [2](#acpl-lscache) | 0 |
 | `asyntai-chatbot` | 0 | [6](#asyntai-chatbot-missing) |
-| `core` | [5](#core) | 0 |
+| `core` | [6](#core) | 0 |
 | `datitisev-backup` | [15](#datitisev-backup) | 0 |
 | `datlechin-bbcode-hide-content` | [3](#datlechin-bbcode-hide-content) | 0 |
 | `datlechin-passkey` | [4](#datlechin-passkey) | 0 |
@@ -167,6 +167,15 @@ Each entry contains the English source string, followed by a diff between the tr
 ```
 
 Legen Sie den Text fest, der auf der Seite <del>"Alle</del><ins>„Alle</ins> <del>Diskussionen"</del><ins>Diskussionen“</ins> erscheint, um Besucher zu begrüßen.
+
+#### [`core.admin.dashboard.status.headers.queue-driver`](https://weblate.rob006.net/translate/flarum2/core/de@formal/?q=context%3A%3D%22core.admin.dashboard.status.headers.queue-driver%22)
+
+> Queue Driver
+
+```diff
+-Queue-Treiber
++Warteschlangen-Treiber
+```
 
 #### [`core.lib.series.glue_text`](https://weblate.rob006.net/translate/flarum2/core/de@formal/?q=context%3A%3D%22core.lib.series.glue_text%22)
 

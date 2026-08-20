@@ -2,7 +2,7 @@
 
 Translations for Chinese (Simplified) (`zh_Hans`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **580** are translated differently and **1548** are
+sides, but do not match between them: **567** are translated differently and **1548** are
 translated only in `zh_Hans`. Altogether they cover **113** components.
 
 <!-- {% raw %} -->
@@ -14,7 +14,7 @@ translated only in `zh_Hans`. Altogether they cover **113** components.
 | --- | --- | --- |
 | `acpl-lscache` | [3](#acpl-lscache) | [8](#acpl-lscache-missing) |
 | `antoinefr-money` | [7](#antoinefr-money) | 0 |
-| `core` | [60](#core) | 0 |
+| `core` | [47](#core) | 0 |
 | `datitisev-backup` | [28](#datitisev-backup) | 0 |
 | `datlechin-birthdays` | [1](#datlechin-birthdays) | 0 |
 | `datlechin-more-discussions` | [5](#datlechin-more-discussions) | 0 |
@@ -236,68 +236,6 @@ Each entry contains the English source string, followed by a diff between the tr
 
 ### `core`
 
-#### [`core.admin.announcements.about`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.announcements.about%22)
-
-> Latest news and announcements pulled from the official Flarum community at discuss.flarum.org.
-
-```diff
--从官方 Flarum 社区（discuss.flarum.org）获取的最新新闻和公告。
-+从官方 Flarum 社区 discuss.flarum.org 获取的最新消息和公告。
-```
-
-从官方 Flarum <del>社区（discuss.flarum.org）获取的最新新闻和公告。</del><ins>社区 discuss.flarum.org 获取的最新消息和公告。</ins>
-
-#### [`core.admin.announcements.comments_label`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.announcements.comments_label%22)
-
-> {count, plural, one {# comment} other {# comments}}
-
-```diff
--{count, plural, one {# 条评论} other {# 条评论}}
-+{count, plural, one {# 条回复} other {# 条回复}}
-```
-
-{count, plural, one {# <del>条评论}</del><ins>条回复}</ins> other {# <del>条评论}}</del><ins>条回复}}</ins>
-
-#### [`core.admin.announcements.description`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.announcements.description%22)
-
-> Latest news and announcements from the Flarum Team.
-
-```diff
--来自 Flarum 团队的最新新闻和公告。
-+Flarum 团队的最新消息和公告。
-```
-
-<del>来自 </del>Flarum <del>团队的最新新闻和公告。</del><ins>团队的最新消息和公告。</ins>
-
-#### [`core.admin.announcements.empty`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.announcements.empty%22)
-
-> No announcements found.
-
-```diff
--未找到公告。
-+未发现公告。
-```
-
-#### [`core.admin.announcements.load_error`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.announcements.load_error%22)
-
-> Could not load announcements. Please try again later.
-
-```diff
--无法加载公告，请稍后重试。
-+无法加载公告。请稍后再试。
-```
-
-#### [`core.admin.announcements.view_all`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.announcements.view_all%22)
-
-> View all on discuss.flarum.org
-
-```diff
--在 discuss.flarum.org 上查看全部
-+在 discuss.flarum.org 查看全部
-```
-
-在 discuss.flarum.org <del>上查看全部</del><ins>查看全部</ins>
-
 #### [`core.admin.appearance.description`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.appearance.description%22)
 
 > Customize your forum's colors, logos, and other variables.
@@ -307,54 +245,16 @@ Each entry contains the English source string, followed by a diff between the tr
 +自定义论坛配色、图标以及其他元素
 ```
 
-#### [`core.admin.basics.abandoned_extensions_heading`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.basics.abandoned_extensions_heading%22)
-
-> Abandoned Extensions
-
-```diff
--弃用扩展
-+已弃用的扩展
-```
-
-#### [`core.admin.basics.abandoned_extensions_notify_admins_label`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.basics.abandoned_extensions_notify_admins_label%22)
-
-> Email admins when a newly abandoned extension is detected during the weekly check
-
-```diff
--每周检查发现新弃用扩展时，通过电子邮件通知管理员
-+当在每周检查中发现新的已弃用扩展时，给管理员发送电子邮件
-```
-
-#### [`core.admin.basics.abandoned_extensions_sync_error`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.basics.abandoned_extensions_sync_error%22)
-
-> Failed to fetch the abandoned extensions list. Please try again later.
-
-```diff
--获取弃用扩展列表失败。请稍后重试。
-+「已弃用的扩展清单」更新失败。请稍后再重试。
-```
-
-#### [`core.admin.basics.abandoned_extensions_sync_success`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.basics.abandoned_extensions_sync_success%22)
-
-> Abandoned extensions list updated. {count} matching installed extension(s) found.
-
-```diff
--弃用扩展列表已更新。发现 {count} 个匹配的已安装扩展。
-+「已弃用的扩展清单」更新完成。在已安装扩展中，发现 {count} 个为已弃用。
-```
-
-<del>弃用扩展列表已更新。发现</del><ins>「已弃用的扩展清单」更新完成。在已安装扩展中，发现</ins> {count} <del>个匹配的已安装扩展。</del><ins>个为已弃用。</ins>
-
 #### [`core.admin.basics.abandoned_extensions_text`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.basics.abandoned_extensions_text%22)
 
 > Flarum maintains a &lt;a&gt;community list of abandoned extensions&lt;/a&gt;. When an installed extension appears on the list, it will be flagged in the admin panel.
 
 ```diff
--Flarum 维护了一个<a>社区弃用扩展列表</a>。当已安装的扩展出现在该列表中时，将在管理面板中标记。
-+Flarum 维护了一个<a>已弃用扩展的清单</a>。当安装了清单里的扩展时，管理员面板中将会标记该扩展。
+-Flarum 维护着一份《<a>停止维护的扩展程序清单</a>》。如果您安装的某些扩展程序已停止维护，管理页面会显示相应提示。
++Flarum 维护着一份<a>停止维护的扩展程序清单</a>。如果您安装的某些扩展程序已停止维护，管理页面会显示相应提示。
 ```
 
-Flarum <del>维护了一个&lt;a&gt;社区弃用扩展列表&lt;/a&gt;。当已安装的扩展出现在该列表中时，将在管理面板中标记。</del><ins>维护了一个&lt;a&gt;已弃用扩展的清单&lt;/a&gt;。当安装了清单里的扩展时，管理员面板中将会标记该扩展。</ins>
+Flarum <del>维护着一份《&lt;a&gt;停止维护的扩展程序清单&lt;/a&gt;》。如果您安装的某些扩展程序已停止维护，管理页面会显示相应提示。</del><ins>维护着一份&lt;a&gt;停止维护的扩展程序清单&lt;/a&gt;。如果您安装的某些扩展程序已停止维护，管理页面会显示相应提示。</ins>
 
 #### [`core.admin.basics.description`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.basics.description%22)
 
@@ -362,61 +262,25 @@ Flarum <del>维护了一个&lt;a&gt;社区弃用扩展列表&lt;/a&gt;。当已�
 
 ```diff
 -设置论坛名称、语言以及其他基础设置
-+设置论坛名称、语言及其他基础设置
++设置论坛名称、语言及其他基本设置
 ```
 
-#### [`core.admin.basics.slug_driver_heading`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.basics.slug_driver_heading%22)
+#### [`core.admin.basics.title`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.basics.title%22)
 
-> Slug Driver: {model}
+> Basics
 
 ```diff
--固定链接驱动：{model}
-+Slug 驱动：{model}
+-常规
++基本设置
 ```
 
-#### [`core.admin.basics.welcome_banner_text`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.basics.welcome_banner_text%22)
+#### [`core.admin.email.mail_encryption_label`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.email.mail_encryption_label%22)
 
-> Configure the text that displays in the banner on the All Discussions page. Use this to welcome guests to your forum.
-
-```diff
--横幅文本将显示于「全部主题」页面顶部，可以用于欢迎论坛访客。
-+横幅文本将显示于「全部讨论」页面顶部，可用于欢迎论坛的访客。
-```
-
-#### [`core.admin.dashboard.description`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.dashboard.description%22)
-
-> Your forum at a glance.
+> Encryption
 
 ```diff
--论坛各项数据一览
-+快速了解您的论坛概况。
-```
-
-#### [`core.admin.debug-warning.detail`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.debug-warning.detail%22)
-
-> When &lt;code&gt;debug&lt;/code&gt; mode is active, Flarum will rebuild its &lt;code&gt;JavaScript&lt;/code&gt; and &lt;code&gt;CSS&lt;/code&gt; assets on every request, and could also potentially leak other information, such as database secrets, environment variables, etc.
->
-> It is highly recommended to disable &lt;code&gt;debug&lt;/code&gt; in your &lt;code&gt;config.php&lt;/code&gt; file in production. See &lt;link&gt;Flarum docs&lt;/link&gt; for more information.
->
-
-```diff
--启用 <code>调试</code> 模式时，所有 Flarum 请求均不会缓存，<code>JavaScript</code> 和 <code>CSS</code> 文件将每次请求时返回全新的编译版本。调试模式中，所有日志、警告和错误均会以弹窗形式展示在网页中，数据库密码、环境变量等敏感信息均有可能在此期间泄露。
-+当 <code>debug</code> 模式处于启用状态时，Flarum 会在每次请求时重新构建其 <code>JavaScript</code> 和 <code>CSS</code> 资源，并且可能导致其他敏感信息的泄露，例如数据库密钥、环境变量等。
-
--因此我们强烈建议您在生产环境中将 <code>config.php</code> 文件中的 <code>debug</code> 设置为 <code>false</code> 以禁用调试模式。请查看 <link>Flarum 文档</link>了解更多信息。
-+强烈建议在生产环境中修改您的 <code>config.php</code> 文件以禁用 <code>debug</code> 模式。欲了解更多信息，请参阅 <link>Flarum 文档</link>。
-
-```
-
-<del>启用</del><ins>当</ins> <del>&lt;code&gt;调试&lt;/code&gt;</del><ins>&lt;code&gt;debug&lt;/code&gt;</ins> <del>模式时，所有</del><ins>模式处于启用状态时，Flarum</ins> <del>Flarum</del><ins>会在每次请求时重新构建其</ins> <del>请求均不会缓存，&lt;code&gt;JavaScript&lt;/code&gt;</del><ins>&lt;code&gt;JavaScript&lt;/code&gt;</ins> 和 &lt;code&gt;CSS&lt;/code&gt; <del>文件将每次请求时返回全新的编译版本。调试模式中，所有日志、警告和错误均会以弹窗形式展示在网页中，数据库密码、环境变量等敏感信息均有可能在此期间泄露。</del><ins>资源，并且可能导致其他敏感信息的泄露，例如数据库密钥、环境变量等。</ins><br /><br /><del>因此我们强烈建议您在生产环境中将</del><ins>强烈建议在生产环境中修改您的</ins> &lt;code&gt;config.php&lt;/code&gt; <del>文件中的</del><ins>文件以禁用</ins> &lt;code&gt;debug&lt;/code&gt;<del> 设置为 &lt;code&gt;false&lt;/code&gt;</del> <del>以禁用调试模式。请查看</del><ins>模式。欲了解更多信息，请参阅</ins> &lt;link&gt;Flarum <del>文档&lt;/link&gt;了解更多信息。</del><ins>文档&lt;/link&gt;。</ins><br />
-
-#### [`core.admin.email.description`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.email.description%22)
-
-> Configure the driver, settings and addresses your forum will use to send email.
-
-```diff
--配置论坛邮件服务
-+配置您的论坛发送邮件所使用的驱动程序、设置及地址。
+-加密协议（小写 ssl 或 tls）
++加密协议
 ```
 
 #### [`core.admin.email.mail_mailgun_secret_label`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.email.mail_mailgun_secret_label%22)
@@ -424,7 +288,7 @@ Flarum <del>维护了一个&lt;a&gt;社区弃用扩展列表&lt;/a&gt;。当已�
 > Secret key
 
 ```diff
--Secret key
+-秘钥
 +密钥
 ```
 
@@ -433,9 +297,11 @@ Flarum <del>维护了一个&lt;a&gt;社区弃用扩展列表&lt;/a&gt;。当已�
 > This will send an email using the above configuration to your email, {email}.
 
 ```diff
--使用上述设置发送测试邮件到您的邮箱：{email}
+-使用上述配置向 {email} 发送测试邮件。
 +这将使用上述配置向您的邮箱 {email} 发送一封邮件。
 ```
+
+<del>使用上述配置向</del><ins>这将使用上述配置向您的邮箱</ins> {email} <del>发送测试邮件。</del><ins>发送一封邮件。</ins>
 
 #### [`core.admin.nav.categories.discussion`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.nav.categories.discussion%22)
 

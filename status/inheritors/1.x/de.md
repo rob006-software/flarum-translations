@@ -2,7 +2,7 @@
 
 Translations for German (`de`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **308** are translated differently and **575** are
+sides, but do not match between them: **309** are translated differently and **575** are
 translated only in `de`. Altogether they cover **91** components.
 
 <!-- {% raw %} -->
@@ -14,7 +14,7 @@ translated only in `de`. Altogether they cover **91** components.
 | --- | --- | --- |
 | `acpl-lscache` | [2](#acpl-lscache) | 0 |
 | `asyntai-chatbot` | 0 | [6](#asyntai-chatbot-missing) |
-| `core` | [6](#core) | 0 |
+| `core` | [7](#core) | 0 |
 | `datitisev-backup` | [3](#datitisev-backup) | 0 |
 | `datlechin-passkey` | [4](#datlechin-passkey) | 0 |
 | `datlechin-tag-passwords` | [13](#datlechin-tag-passwords) | 0 |
@@ -164,6 +164,15 @@ Each entry contains the English source string, followed by a diff between the tr
 ```diff
 -Titel des Forums
 +Forumtitel
+```
+
+#### [`core.admin.dashboard.status.headers.queue-driver`](https://weblate.rob006.net/translate/flarum2/core/de/?q=context%3A%3D%22core.admin.dashboard.status.headers.queue-driver%22)
+
+> Queue Driver
+
+```diff
+-Queue-Treiber
++Warteschlangen-Treiber
 ```
 
 #### [`core.forum.forgot_password.text`](https://weblate.rob006.net/translate/flarum2/core/de/?q=context%3A%3D%22core.forum.forgot_password.text%22)

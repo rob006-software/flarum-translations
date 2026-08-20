@@ -149,11 +149,11 @@ Das Forum befindet sich nicht mehr im Wartungsmodus. Die Erweiterung „Bisect�
 > Your forum is using the synchronous queue driver. Jobs are processed immediately in the main process thread.
 
 ```diff
--Dein Forum verwendet den synchronen Warteschlangentreiber. Aufträge werden sofort im Hauptprozess-Thread verarbeitet.
+-Dein Forum verwendet den synchronen Warteschlangentreiber. Jobs werden sofort im Hauptprozess-Thread verarbeitet.
 +Ihr Forum verwendet den synchronen Warteschlangentreiber. Aufträge werden sofort im Hauptprozess-Thread verarbeitet.
 ```
 
-<del>Dein</del><ins>Ihr</ins> Forum verwendet den synchronen Warteschlangentreiber. Aufträge werden sofort im Hauptprozess-Thread verarbeitet.
+<del>Dein</del><ins>Ihr</ins> Forum verwendet den synchronen Warteschlangentreiber. <del>Jobs</del><ins>Aufträge</ins> werden sofort im Hauptprozess-Thread verarbeitet.
 
 #### [`core.admin.announcements.load_error`](https://weblate.rob006.net/translate/flarum2/core/de@formal/?q=context%3A%3D%22core.admin.announcements.load_error%22)
 
