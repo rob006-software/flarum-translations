@@ -938,7 +938,7 @@ return [
 		],
 	],
 	'tryhackx-homepage-blocks' => [
-		'tag' => 'https://raw.githubusercontent.com/TryHackX/flarum-homepage-blocks/2.6.2/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/TryHackX/flarum-homepage-blocks/2.6.3/resources/locale/en.yml',
 		'__builtInLanguages' => [
 			'pl',
 		],
