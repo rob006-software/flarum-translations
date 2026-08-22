@@ -517,6 +517,12 @@ return [
 			'ru',
 		],
 	],
+	'forumaker-vk-oauth' => [
+		'tag' => 'https://raw.githubusercontent.com/forumaker/VK-Oauth/2.0.0/resources/locale/en.yml',
+		'__builtInLanguages' => [
+			'ru',
+		],
+	],
 	'forumaker-yandex-oauth' => [
 		'tag' => 'https://raw.githubusercontent.com/forumaker/Yandex-Oauth/2.3.0/resources/locale/en.yml',
 		'__builtInLanguages' => [
