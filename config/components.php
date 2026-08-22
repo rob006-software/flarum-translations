@@ -786,7 +786,7 @@ return [
 		],
 	],
 	'stezkoy-noui-tele-notify' => [
-		'tag' => 'https://raw.githubusercontent.com/Stezkoy/noui-tele-notify/1.0.8/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/Stezkoy/noui-tele-notify/1.0.9/locale/en.yml',
 		'__builtInLanguages' => [
 			'de',
 			'fr',
