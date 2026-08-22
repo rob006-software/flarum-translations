@@ -338,8 +338,8 @@
                 "permissions_title": "权限",
                 "purge_button": "重置",
                 "readme": {
-                    "button_label": "自述文件",
-                    "no_readme": "此扩展未提供自述文件",
+                    "button_label": "说明",
+                    "no_readme": "此扩展程序似乎没有 README 文件",
                     "title": "{extName} 文档"
                 },
                 "replaced": "替代",
@@ -347,16 +347,16 @@
                     "button": "重置设置",
                     "cancel_button": "取消",
                     "confirm_button": "重置",
-                    "warning": "该操作无法撤销。下列设置信息将从数据库中永久删除，并重置为默认设置。该插件的数据不会受影响。",
+                    "warning": "此操作无法撤销。扩展程序设置将恢复为默认值，数据库已保存的内容数据不受影响。",
                     "title": "重置设置",
-                    "title_extension": "重置{extensionTitle}设置"
+                    "title_extension": "重置 {extensionTitle} 设置"
                 },
-                "safe_mode_warning": "当前已启用安全模式。扩展未启动，因此无法访问其设置。"
+                "safe_mode_warning": "当前处于安全模式，无法加载扩展程序及其设置。"
             },
             "header": {
-                "get_help": "帮助",
+                "get_help": "获取帮助",
                 "log_out_button": "=> core.ref.log_out",
-                "search_placeholder": "搜索...",
+                "search_placeholder": "搜索…",
                 "search_role_label": "搜索"
             },
             "loading": {
@@ -376,13 +376,13 @@
                 "basics_title": "=> core.admin.basics.description",
                 "categories": {
                     "analytics": "分析",
-                    "authentication": "认证",
-                    "core": "核心配置",
-                    "discussion": "讨论",
+                    "authentication": "身份验证",
+                    "core": "核心设置",
+                    "discussion": "主题与内容",
                     "feature": "功能",
                     "formatting": "格式化",
                     "forum-widget": "论坛小组件",
-                    "infrastructure": "基础",
+                    "infrastructure": "基础设施",
                     "language": "语言包",
                     "moderation": "内容审核",
                     "other": "其他",
@@ -396,15 +396,15 @@
                 "permissions_title": "=> core.admin.permissions.description",
                 "userlist_button": "=> core.admin.users.title",
                 "userlist_title": "=> core.admin.users.description",
-                "search_placeholder": "搜索扩展"
+                "search_placeholder": "搜索扩展程序"
             },
             "permissions": {
                 "allow_hide_own_posts_label": "允许删除自己的帖子",
-                "allow_post_editing_label": "编辑帖子内容",
-                "allow_renaming_label": "更改自己的讨论标题",
+                "allow_post_editing_label": "允许编辑帖子",
+                "allow_renaming_label": "允许修改自己的主题标题",
                 "create_access_token_label": "创建访问令牌",
-                "create_heading": "帖子相关",
-                "delete_discussions_forever_label": "永久删除讨论",
+                "create_heading": "发布",
+                "delete_discussions_forever_label": "永久删除主题",
                 "delete_discussions_label": "删除讨论",
                 "delete_posts_forever_label": "永久删除回复",
                 "delete_posts_label": "删除回复",
