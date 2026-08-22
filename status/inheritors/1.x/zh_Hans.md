@@ -292,16 +292,16 @@ Flarum <del>维护着一份《&lt;a&gt;停止维护的扩展程序清单&lt;/a&g
 +密钥
 ```
 
-#### [`core.admin.email.send_test_mail_text`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.email.send_test_mail_text%22)
+#### [`core.admin.email.smtp_heading`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.email.smtp_heading%22)
 
-> This will send an email using the above configuration to your email, {email}.
+> SMTP Settings
 
 ```diff
--使用上述配置向 {email} 发送测试邮件。
-+这将使用上述配置向您的邮箱 {email} 发送一封邮件。
+-SMTP 设置
++SMTP 服务
 ```
 
-<del>使用上述配置向</del><ins>这将使用上述配置向您的邮箱</ins> {email} <del>发送测试邮件。</del><ins>发送一封邮件。</ins>
+SMTP <del>设置</del><ins>服务</ins>
 
 #### [`core.admin.nav.categories.discussion`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.nav.categories.discussion%22)
 

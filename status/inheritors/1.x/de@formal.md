@@ -2,7 +2,7 @@
 
 Translations for German (formal) (`de@formal`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **358** are translated differently and **575** are
+sides, but do not match between them: **358** are translated differently and **574** are
 translated only in `de@formal`. Altogether they cover **93** components.
 
 <!-- {% raw %} -->
@@ -67,7 +67,7 @@ translated only in `de@formal`. Altogether they cover **93** components.
 | `forumaker-magicbb` | [3](#forumaker-magicbb) | [19](#forumaker-magicbb-missing) |
 | `forumaker-magicread` | 0 | [18](#forumaker-magicread-missing) |
 | `forumaker-magicslider` | [2](#forumaker-magicslider) | 0 |
-| `forumfortress-flarum` | 0 | [67](#forumfortress-flarum-missing) |
+| `forumfortress-flarum` | 0 | [66](#forumfortress-flarum-missing) |
 | `huoxin-money-with-history` | 0 | [1](#huoxin-money-with-history-missing) |
 | `huseyinfiliz-awards` | [22](#huseyinfiliz-awards) | 0 |
 | `huseyinfiliz-diff` | [10](#huseyinfiliz-diff) | 0 |
@@ -5188,14 +5188,6 @@ These strings are translated only in `de@formal`, so there is nothing to inherit
 
 ```diff
 +Spam - Inhalte entfernen und den Verfasser sperren
-```
-
-#### [`forumfortress-flarum.admin.settings.control_base_url_label`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de@formal/?q=context%3A%3D%22forumfortress-flarum.admin.settings.control_base_url_label%22)
-
-> Control API base URL
-
-```diff
-+Kontroll-API-Basis-URL
 ```
 
 #### [`forumfortress-flarum.admin.settings.controls_label`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de@formal/?q=context%3A%3D%22forumfortress-flarum.admin.settings.controls_label%22)
