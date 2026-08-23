@@ -195,7 +195,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/flarum/approval/v2.0.0-rc.6/locale/en.yml',
 	],
 	'flarum-audit' => [
-		'beta' => 'https://raw.githubusercontent.com/flarum/audit/v2.0.0-rc.5/locale/en.yml',
+		'beta' => 'https://raw.githubusercontent.com/flarum/audit/v2.0.0-rc.6/locale/en.yml',
 	],
 	'flarum-bbcode' => [
 		'beta' => 'https://raw.githubusercontent.com/flarum/bbcode/v2.0.0-rc.5/locale/en.yml',
