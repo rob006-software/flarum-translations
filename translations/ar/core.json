@@ -50,6 +50,8 @@
                     "cdn_url_help": "",
                     "kit_url_label": "",
                     "kit_url_help": "",
+                    "forced_style_label": "",
+                    "forced_style_help": "",
                     "config_override": {
                         "label": "",
                         "help": ""
@@ -67,6 +69,10 @@
                     "search_configuration": ""
                 },
                 "queue": {
+                    "pause_label": "",
+                    "pause_all_label": "",
+                    "pause_queue_label": "",
+                    "pause_help": "",
                     "section_label": "",
                     "sync_info": "",
                     "sync_help": "",
@@ -89,7 +95,9 @@
                     "driver_options": {
                         "default": ""
                     },
-                    "no_other_drivers": ""
+                    "no_other_drivers": "",
+                    "cjk_mode_label": "",
+                    "cjk_mode_help": ""
                 },
                 "title": ""
             },
@@ -118,6 +126,8 @@
                 "logo_text": "قم بتحميل صورة لعرضها مكان عنوان المنتدى.",
                 "logo_dark_mode_heading": "",
                 "logo_dark_mode_text": "",
+                "show_theme_selector_help": "",
+                "show_theme_selector_label": "",
                 "title": "المظهر",
                 "color_scheme_label": "",
                 "color_schemes": {
@@ -195,7 +205,26 @@
                 "title": "",
                 "view_all": ""
             },
+            "queue_widget": {
+                "title": "",
+                "pending": "",
+                "reserved": "",
+                "failed": "",
+                "refresh": ""
+            },
+            "failed_jobs": {
+                "title": "",
+                "none": "",
+                "meta": "",
+                "details": "",
+                "retry": "",
+                "retry_all": "",
+                "delete": ""
+            },
             "dashboard": {
+                "queue_paused_warning": "",
+                "queue_paused_all_warning": "",
+                "queue_paused_manage": "",
                 "clear_cache_button": "مسح ذاكرة التخزين المؤقت",
                 "description": "المنتدى الخاص بك في لمحة.",
                 "info_button": "",
@@ -241,6 +270,10 @@
             "database-driver-mismatch-warning": {
                 "detail": "",
                 "label": ""
+            },
+            "database-version-warning": {
+                "below-recommended-detail": "",
+                "below-recommended-label": ""
             },
             "debug-warning": {
                 "detail": "عندما يكون وضع <code>التّصحيح</code> نشطًا، سيعيد فلاروم إنشاء أصول <code>JavaScript</code> و<code>CSS</code> الخاصّة به عند كل طلب، ويمكن أيضًا أن يؤدّي إلى تسريب معلومات أخرى، مثل أسرار قاعدة البيانات، ومتغيّرات البيئة، وما إلى ذلك.\n\nيوصَى بشدّة بتعطيل <code>التصحيح</code> في ملف <code>config.php</code> في الإنتاج. انظر <link>مستندات فلاروم</link> لمزيد من المعلومات.\n",
@@ -583,7 +616,8 @@
                 "search_role_label": "البحث",
                 "session_dropdown_accessible_label": "تبديل القائمة المنسدلة لخيارات الجلسة",
                 "settings_button": "الاعدادات",
-                "sign_up_link": "إنشاء حساب"
+                "sign_up_link": "إنشاء حساب",
+                "theme_switcher_accessible_label": ""
             },
             "index": {
                 "all_discussions_link": "الرئيسية",
@@ -597,12 +631,14 @@
                 "toggle_sidenav_dropdown_accessible_label": "تبديل قائمة التّنقّل المنسدلة"
             },
             "index_sort": {
+                "az_button": "",
                 "latest_button": "الاخير",
                 "newest_button": "",
                 "oldest_button": "",
                 "relevance_button": "",
                 "toggle_dropdown_accessible_label": "تغيير فرز قائمة المناقشات",
-                "top_button": "الاعلى"
+                "top_button": "الاعلى",
+                "za_button": ""
             },
             "log_in": {
                 "forgot_password_link": "نسيت كلمة السر ؟",
@@ -772,6 +808,7 @@
             }
         },
         "lib": {
+            "connection_restored_message": "",
             "debug_button": "التّصحيح",
             "alert": {
                 "dismiss_a11y_label": "تجاهل التّنبيه"
@@ -812,7 +849,9 @@
                 "generic_message": "أُووبس! هناك خطأ ما. يرجى إعادة تحميل الصّفحة والمحاولة مرّة أخرى.",
                 "generic_cross_origin_message": "عفواً! حدث خطأ أثناء طلب متعدد المصادر. يُرجى إعادة تحميل الصفحة والمحاولة مرة أخرى.",
                 "missing_dependencies_message": "لا يُمكن تمكين {extension} حتى يتمّ تمكين التّبعات التّالية: {extensions}",
+                "network_message": "",
                 "not_found_message": "لم يتمّ العثور على المورد المطلوب.",
+                "offline_message": "",
                 "payload_too_large_message": "حمولة الطّلب كانت كبيرة جدًا.",
                 "permission_denied_message": "ليس لديك إذن من الإدارة للقيام بذلك.",
                 "rate_limit_exceeded_message": "أنت تسير بسرعة كبيرة قليلا. يرجى المحاولة مرّة أخرى بعد بضع ثوان.",
@@ -874,7 +913,8 @@
                 "placeholder": ""
             },
             "nav": {
-                "drawer_button": "فتح مربّع التّنقّل"
+                "drawer_button": "فتح مربّع التّنقّل",
+                "pin_pane_button": ""
             },
             "notices": {
                 "bisecting": "",
@@ -882,9 +922,21 @@
                 "maintenance_mode_low": "",
                 "maintenance_mode_safe": ""
             },
+            "index_sort": {
+                "az_button": "",
+                "latest_button": "",
+                "newest_button": "",
+                "oldest_button": "",
+                "relevance_button": "",
+                "top_button": "",
+                "za_button": ""
+            },
             "number_suffix": {
                 "kilo_text": "كلغ",
                 "mega_text": "ميغا"
+            },
+            "overflowing_list": {
+                "toggle_accessible_label": ""
             },
             "pagination": {
                 "back_button": "",
@@ -903,6 +955,7 @@
                 "options_heading": "",
                 "placeholder": "",
                 "preview_heading": "",
+                "search_active_button_accessible_label": "",
                 "search_clear_button_accessible_label": ""
             },
             "search_source": {
@@ -1101,6 +1154,7 @@
             "light_hc_mode_label": "",
             "light_mode_label": "",
             "load_more": "تحميل المزيد",
+            "latest": "",
             "loading": "جارٍ التّحميل...",
             "log_in": "تسجيل الدخول",
             "log_out": "تسجيل خروج",
@@ -1130,6 +1184,9 @@
             "sign_up": "إنشاء حساب",
             "some_others": "{count, plural, one {# آخر} other {# آخرون}}",
             "start_a_discussion": "أنشئ موضوع",
+            "title_az": "",
+            "title_za": "",
+            "top": "",
             "username": "اسم المستخدِم",
             "username_or_email_placeholder": "",
             "users": "المستخدمون",

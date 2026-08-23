@@ -50,6 +50,8 @@
                     "cdn_url_help": "A CDN-en lévő FontAwesome CSS-fájl teljes webcíme",
                     "kit_url_label": "Kit webcíme",
                     "kit_url_help": "A FontAwesome Kit parancsfájljának webcíme (a kit.fontawesome.com webhelyről)",
+                    "forced_style_label": "",
+                    "forced_style_help": "",
                     "config_override": {
                         "label": "Konfiguráció felülbírálása",
                         "help": "A FontAwesome beállításai jelenleg a config.php fájlban vannak megadva, és innen nem változtathatók meg."
@@ -67,6 +69,10 @@
                     "search_configuration": "Használandó konfiguráció keresése"
                 },
                 "queue": {
+                    "pause_label": "",
+                    "pause_all_label": "",
+                    "pause_queue_label": "",
+                    "pause_help": "",
                     "section_label": "Várólista",
                     "sync_info": "A fórum a szinkron várólista-illesztőprogramot használja. A feladatok azonnal feldolgozásra kerülnek a fő folyamatszálban.",
                     "sync_help": "A jobb teljesítmény és felhasználói élmény érdekében fontolja meg az adatbázist használó várólista-illesztőprogram használatát. További információk a dokumentációban.",
@@ -89,7 +95,9 @@
                     "driver_options": {
                         "default": "Alapértelmezett adatbázis-keresés"
                     },
-                    "no_other_drivers": "Még nincs elérhető keresési illesztőprogram. Telepítsen egy keresési illesztőprogramot biztosító bővítményt, hogy beállíthassa."
+                    "no_other_drivers": "Még nincs elérhető keresési illesztőprogram. Telepítsen egy keresési illesztőprogramot biztosító bővítményt, hogy beállíthassa.",
+                    "cjk_mode_label": "",
+                    "cjk_mode_help": ""
                 },
                 "title": "Speciális"
             },
@@ -118,6 +126,8 @@
                 "logo_text": "Kép feltöltése, mely a fórumcím helyett fog megjelenni.",
                 "logo_dark_mode_heading": "Sötét módú logó",
                 "logo_dark_mode_text": "Töltsön fel egy alternatív logót, amely a sötét mód engedélyezése esetén jelenik meg.",
+                "show_theme_selector_help": "",
+                "show_theme_selector_label": "",
                 "title": "Megjelenés",
                 "color_scheme_label": "Színséma (alapértelmezett)",
                 "color_schemes": {
@@ -195,7 +205,26 @@
                 "title": "Bejelentések",
                 "view_all": "Összes megtekintése itt: discuss.flarum.org"
             },
+            "queue_widget": {
+                "title": "",
+                "pending": "",
+                "reserved": "",
+                "failed": "",
+                "refresh": ""
+            },
+            "failed_jobs": {
+                "title": "",
+                "none": "",
+                "meta": "",
+                "details": "",
+                "retry": "",
+                "retry_all": "",
+                "delete": ""
+            },
             "dashboard": {
+                "queue_paused_warning": "",
+                "queue_paused_all_warning": "",
+                "queue_paused_manage": "",
                 "clear_cache_button": "Gyorsítótár törlése",
                 "description": "Fórum összefoglalása.",
                 "info_button": "Rendszer-információk",
@@ -241,6 +270,10 @@
             "database-driver-mismatch-warning": {
                 "detail": "A <code>config.php</code> fájl úgy van beállítva, hogy a(z) <code>{configured}</code> adatbázis-illesztőprogramot használja, de a Flarum azt észlelte, hogy az adatbázis-kiszolgáló valójában <code>{actual}</code>.\n\nA hibás illesztőprogram használata rejtett, nehezen diagnosztizálható hibákat okozhat. Állítsa be a következőt a <code>config.php</code> fájl <code>database</code> szakaszában: <code>'driver' => ''{actual}''</code>. További információkért lásd a <link>Flarum dokumentációját</link>.\n",
                 "label": "Eltérő adatbázis-illesztőprogram"
+            },
+            "database-version-warning": {
+                "below-recommended-detail": "",
+                "below-recommended-label": ""
             },
             "debug-warning": {
                 "detail": "Ha a <code>hibakeresési</code> mód aktív, a Flarum újraépíti a <code>JavaScript</code> és <code>CSS</code> erőforrásait minden egyes kérésnél, és lehetséges, hogy egyéb információkat fog szivárogtatni, például adatbázistitkokat, környezeti változókat stb.\n\nÉles üzemben nagyon ajánlott kikapcsolni a <code>hibakeresést</code> a <code>config.php</code> fájlban. További információért lásd a <link>Flarum dokumentációját</link>.\n",
@@ -583,7 +616,8 @@
                 "search_role_label": "Keresés a fórumban",
                 "session_dropdown_accessible_label": "Munkamenet-beállítások legördülő menüje be/ki",
                 "settings_button": "=> core.ref.settings",
-                "sign_up_link": "=> core.ref.sign_up"
+                "sign_up_link": "=> core.ref.sign_up",
+                "theme_switcher_accessible_label": ""
             },
             "index": {
                 "all_discussions_link": "=> core.ref.all_discussions",
@@ -597,12 +631,14 @@
                 "toggle_sidenav_dropdown_accessible_label": "Navigációs legördülő menü be/ki"
             },
             "index_sort": {
+                "az_button": "",
                 "latest_button": "Legutóbbi",
                 "newest_button": "=> core.ref.newest",
                 "oldest_button": "=> core.ref.oldest",
                 "relevance_button": "=> core.ref.relevance",
                 "toggle_dropdown_accessible_label": "Témák rendezésének megváltoztatása",
-                "top_button": "Felkapott"
+                "top_button": "Felkapott",
+                "za_button": ""
             },
             "log_in": {
                 "forgot_password_link": "Elfelejtette a jelszavát?",
@@ -772,6 +808,7 @@
             }
         },
         "lib": {
+            "connection_restored_message": "",
             "debug_button": "Hibakeresés",
             "alert": {
                 "dismiss_a11y_label": "Figyelmeztetés eltüntetése"
@@ -812,7 +849,9 @@
                 "generic_message": "Hoppá! Valami hiba történt. Frissítse az oldalt és próbálja meg újra.",
                 "generic_cross_origin_message": "Hoppá! Hiba történt a nem egyező eredetű kérésnél. Töltse újra az oldalt, és próbálja újra.",
                 "missing_dependencies_message": "Nem engedélyezheti a(z) {extension} bővítményt, amíg a következő bővítmények le vannak tiltva: {extensions}",
+                "network_message": "",
                 "not_found_message": "A kért erőforrás nem található.",
+                "offline_message": "",
                 "payload_too_large_message": "A kérés mérete túl nagy volt.",
                 "permission_denied_message": "Nem rendelkezik a megfelelő engedélyekkel.",
                 "rate_limit_exceeded_message": "Túl gyors volt. Próbálja meg újra pár másodperc múlva.",
@@ -874,7 +913,8 @@
                 "placeholder": "Több lehetőség kiválasztása"
             },
             "nav": {
-                "drawer_button": "Navigációs fiók kinyitása"
+                "drawer_button": "Navigációs fiók kinyitása",
+                "pin_pane_button": ""
             },
             "notices": {
                 "bisecting": "A bővítmények felező hibakeresési folyamatának futtatása, hogy kiderüljön, melyik bővítmény okoz problémát.",
@@ -882,9 +922,21 @@
                 "maintenance_mode_low": "Karbantartás miatt leállítva. Csak az adminisztrátorok érik el a fórumot.",
                 "maintenance_mode_safe": "Karbantartás miatt leállítva biztonságos módban. Csak az adminisztrátorok érik el a fórumot, és nincs betöltve bővítmény."
             },
+            "index_sort": {
+                "az_button": "",
+                "latest_button": "",
+                "newest_button": "",
+                "oldest_button": "",
+                "relevance_button": "",
+                "top_button": "",
+                "za_button": ""
+            },
             "number_suffix": {
                 "kilo_text": "e",
                 "mega_text": "m"
+            },
+            "overflowing_list": {
+                "toggle_accessible_label": ""
             },
             "pagination": {
                 "back_button": "Előző oldal",
@@ -903,6 +955,7 @@
                 "options_heading": "Keresési beállítások",
                 "placeholder": "Keresés…",
                 "preview_heading": "Keresés előnézete",
+                "search_active_button_accessible_label": "",
                 "search_clear_button_accessible_label": "Keresési kifejezés törlése"
             },
             "search_source": {
@@ -1101,6 +1154,7 @@
             "light_hc_mode_label": "Világos, magas kontrasztú mód",
             "light_mode_label": "Világos mód",
             "load_more": "Továbbiak betöltése",
+            "latest": "",
             "loading": "Betöltés…",
             "log_in": "Bejelentkezés",
             "log_out": "Kijelentkezés",
@@ -1130,6 +1184,9 @@
             "sign_up": "Regisztráció",
             "some_others": "{count} további",
             "start_a_discussion": "Új téma indítása",
+            "title_az": "",
+            "title_za": "",
+            "top": "",
             "username": "Felhasználónév",
             "username_or_email_placeholder": "Felhasználónév vagy e-mail-cím",
             "users": "Felhasználók",

@@ -50,6 +50,8 @@
                     "cdn_url_help": "Bir CDN üzerindeki FontAwesome CSS dosyasının tam bağlantısı",
                     "kit_url_label": "Kit Bağlantısı",
                     "kit_url_help": "FontAwesome Kit betik bağlantınız (kit.fontawesome.com adresinden)",
+                    "forced_style_label": "",
+                    "forced_style_help": "",
                     "config_override": {
                         "label": "Yapılandırma Geçersiz Kılma",
                         "help": "FontAwesome ayarları şu anda config.php dosyanızda tanımlı olduğundan buradan değiştirilemez."
@@ -67,6 +69,10 @@
                     "search_configuration": "Kullanılacak arama yapılandırması"
                 },
                 "queue": {
+                    "pause_label": "",
+                    "pause_all_label": "",
+                    "pause_queue_label": "",
+                    "pause_help": "",
                     "section_label": "Kuyruk",
                     "sync_info": "Forumunuz eşzamanlı kuyruk sürücüsü kullanıyor. İşler ana işlem iş parçacığında anında işlenmektedir.",
                     "sync_help": "Daha iyi performans ve kullanıcı deneyimi için veritabanı kuyruk sürücüsünü kullanmayı düşünün. Daha fazla bilgi için belgelere göz atın.",
@@ -89,7 +95,9 @@
                     "driver_options": {
                         "default": "Varsayılan veritabanı araması"
                     },
-                    "no_other_drivers": "Henüz kullanılabilir arama sürücüsü yok. Yapılandırabilmek için bir arama sürücüsü uzantısı yükleyin."
+                    "no_other_drivers": "Henüz kullanılabilir arama sürücüsü yok. Yapılandırabilmek için bir arama sürücüsü uzantısı yükleyin.",
+                    "cjk_mode_label": "",
+                    "cjk_mode_help": ""
                 },
                 "title": "Gelişmiş"
             },
@@ -118,6 +126,8 @@
                 "logo_text": "Forum başlığının yerine görüntülenecek bir görsel yükle.",
                 "logo_dark_mode_heading": "",
                 "logo_dark_mode_text": "",
+                "show_theme_selector_help": "",
+                "show_theme_selector_label": "",
                 "title": "Görünüm",
                 "color_scheme_label": "Renk Şeması (varsayılan)",
                 "color_schemes": {
@@ -195,7 +205,26 @@
                 "title": "Duyurular",
                 "view_all": "Tümünü discuss.flarum.org üzerinde görüntüle"
             },
+            "queue_widget": {
+                "title": "",
+                "pending": "",
+                "reserved": "",
+                "failed": "",
+                "refresh": ""
+            },
+            "failed_jobs": {
+                "title": "",
+                "none": "",
+                "meta": "",
+                "details": "",
+                "retry": "",
+                "retry_all": "",
+                "delete": ""
+            },
             "dashboard": {
+                "queue_paused_warning": "",
+                "queue_paused_all_warning": "",
+                "queue_paused_manage": "",
                 "clear_cache_button": "Önbelleği Temizle",
                 "description": "Bir bakışta forumun.",
                 "info_button": "Sistem Bilgisi",
@@ -241,6 +270,10 @@
             "database-driver-mismatch-warning": {
                 "detail": "",
                 "label": ""
+            },
+            "database-version-warning": {
+                "below-recommended-detail": "",
+                "below-recommended-label": ""
             },
             "debug-warning": {
                 "detail": "<code>debug</code> modu etkin olduğunda, Flarum her istekte <code>JavaScript</code> ve <code>CSS</code> varlıklarını yeniden oluşturur ve ayrıca veritabanı gibi diğer bilgileri de (Secret, ortam değişkenleri vb.) sızdırabilir.\n\nYayındayken <code>config.php</code> dosyanızdaki <code>debug</code>'u devre dışı bırakmanız şiddetle tavsiye edilir. Daha fazla bilgi için <link>Flarum belgelerine</link> bakın.\n",
@@ -583,7 +616,8 @@
                 "search_role_label": "Forumda Ara",
                 "session_dropdown_accessible_label": "Oturum seçenekleri açılır menüsünü aç / kapat",
                 "settings_button": "=> core.ref.settings",
-                "sign_up_link": "=> core.ref.sign_up"
+                "sign_up_link": "=> core.ref.sign_up",
+                "theme_switcher_accessible_label": ""
             },
             "index": {
                 "all_discussions_link": "=> core.ref.all_discussions",
@@ -597,12 +631,14 @@
                 "toggle_sidenav_dropdown_accessible_label": "Gezinme açılır menüsünü aç / kapat"
             },
             "index_sort": {
+                "az_button": "",
                 "latest_button": "En Son",
                 "newest_button": "=> core.ref.newest",
                 "oldest_button": "=> core.ref.oldest",
                 "relevance_button": "=> core.ref.relevance",
                 "toggle_dropdown_accessible_label": "Tartışma listesi sıralamasını değiştir",
-                "top_button": "Popüler"
+                "top_button": "Popüler",
+                "za_button": ""
             },
             "log_in": {
                 "forgot_password_link": "Şifreni mi unuttun?",
@@ -772,6 +808,7 @@
             }
         },
         "lib": {
+            "connection_restored_message": "",
             "debug_button": "Hata Ayıklama",
             "alert": {
                 "dismiss_a11y_label": "Uyarıyı kapat"
@@ -812,7 +849,9 @@
                 "generic_message": "Oops! Bir şeyler yanlış gitti. Lütfen sayfayı yenileyin ve tekrar deneyin.",
                 "generic_cross_origin_message": "Oops! Kaynaklar arası istek sırasında bir şeyler ters gitti. Lütfen sayfayı yeniden yükleyin ve tekrar deneyin.",
                 "missing_dependencies_message": "{extension} şu uzantı aktif edilmeden önce aktif edilemez: {extensions}",
+                "network_message": "",
                 "not_found_message": "İstenen kaynak bulunamadı.",
+                "offline_message": "",
                 "payload_too_large_message": "İstek yükü çok büyük.",
                 "permission_denied_message": "Bunu yapmaya yetkiniz bulunmuyor.",
                 "rate_limit_exceeded_message": "Biraz fazla hızlı gidiyorsun. Lütfen birkaç saniye içinde tekrar dene.",
@@ -874,7 +913,8 @@
                 "placeholder": "Birden fazla seçenek belirleyin"
             },
             "nav": {
-                "drawer_button": "Gezinme Çekmecesini Aç"
+                "drawer_button": "Gezinme Çekmecesini Aç",
+                "pin_pane_button": ""
             },
             "notices": {
                 "bisecting": "Soruna neden olan uzantıyı belirlemek için uzantı ikiye bölme işlemi yürütülüyor.",
@@ -882,9 +922,21 @@
                 "maintenance_mode_low": "Bakımda. Foruma yalnızca yöneticiler erişebilir.",
                 "maintenance_mode_safe": "Güvenli modda bakımda. Foruma yalnızca yöneticiler erişebilir ve hiçbir uzantı yüklenmez."
             },
+            "index_sort": {
+                "az_button": "",
+                "latest_button": "",
+                "newest_button": "",
+                "oldest_button": "",
+                "relevance_button": "",
+                "top_button": "",
+                "za_button": ""
+            },
             "number_suffix": {
                 "kilo_text": "K",
                 "mega_text": "M"
+            },
+            "overflowing_list": {
+                "toggle_accessible_label": ""
             },
             "pagination": {
                 "back_button": "Önceki sayfa",
@@ -903,6 +955,7 @@
                 "options_heading": "Arama seçenekleri",
                 "placeholder": "Ara...",
                 "preview_heading": "Arama önizlemesi",
+                "search_active_button_accessible_label": "",
                 "search_clear_button_accessible_label": "Arama terimini temizle"
             },
             "search_source": {
@@ -1101,6 +1154,7 @@
             "light_hc_mode_label": "Açık Yüksek Kontrastlı Mod",
             "light_mode_label": "Açık Mod",
             "load_more": "Daha Fazla Yükle",
+            "latest": "",
             "loading": "Yükleniyor...",
             "log_in": "Giriş Yap",
             "log_out": "Çıkış Yap",
@@ -1130,6 +1184,9 @@
             "sign_up": "Kayıt Ol",
             "some_others": "{count, plural, one {# diğer} other {# diğer}}",
             "start_a_discussion": "Bir Tartışma Başlat",
+            "title_az": "",
+            "title_za": "",
+            "top": "",
             "username": "Kullanıcı Adı",
             "username_or_email_placeholder": "Kullanıcı Adı ya da E-posta",
             "users": "Kullanıcılar",

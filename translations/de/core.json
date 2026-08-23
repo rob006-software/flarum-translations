@@ -50,6 +50,8 @@
                     "cdn_url_help": "Vollständige URL zur FontAwesome-CSS-Datei auf einem CDN",
                     "kit_url_label": "Kit-URL",
                     "kit_url_help": "Die URL deines FontAwesome-Kit-Skripts (von kit.fontawesome.com)",
+                    "forced_style_label": "",
+                    "forced_style_help": "",
                     "config_override": {
                         "label": "Konfigurationsüberschreibung",
                         "help": "Die FontAwesome-Einstellungen sind derzeit in deiner config.php-Datei festgelegt und können hier nicht geändert werden."
@@ -67,6 +69,10 @@
                     "search_configuration": "Zu verwendende Suchkonfiguration"
                 },
                 "queue": {
+                    "pause_label": "",
+                    "pause_all_label": "",
+                    "pause_queue_label": "",
+                    "pause_help": "",
                     "section_label": "Warteschlange",
                     "sync_info": "Dein Forum verwendet den synchronen Warteschlangentreiber. Jobs werden sofort im Hauptprozess-Thread verarbeitet.",
                     "sync_help": "Für eine bessere Leistung und Benutzererfahrung solltest du die Verwendung des Datenbank-Warteschlangentreibers in Betracht ziehen. Weitere Informationen findest du in der Dokumentation.",
@@ -89,7 +95,9 @@
                     "driver_options": {
                         "default": "Standard-Datenbanksuche"
                     },
-                    "no_other_drivers": "Es sind noch keine Suchtreiber verfügbar. Installiere eine Suchtreiber-Erweiterung, um diese konfigurieren zu können."
+                    "no_other_drivers": "Es sind noch keine Suchtreiber verfügbar. Installiere eine Suchtreiber-Erweiterung, um diese konfigurieren zu können.",
+                    "cjk_mode_label": "",
+                    "cjk_mode_help": ""
                 },
                 "title": "Fortgeschritten"
             },
@@ -118,6 +126,8 @@
                 "logo_text": "Lade ein Logo hoch, welches anstelle des Forum-Titels angezeigt wird.",
                 "logo_dark_mode_heading": "Logo für dunklen Modus",
                 "logo_dark_mode_text": "Lade ein alternatives Logo hoch, das angezeigt werden soll, wenn der Dunkle Modus aktiviert ist.",
+                "show_theme_selector_help": "",
+                "show_theme_selector_label": "",
                 "title": "Erscheinungsbild",
                 "color_scheme_label": "Farbschema (Standard)",
                 "color_schemes": {
@@ -195,7 +205,26 @@
                 "title": "Ankündigungen",
                 "view_all": "Alle auf discuss.flarum.org anzeigen"
             },
+            "queue_widget": {
+                "title": "",
+                "pending": "",
+                "reserved": "",
+                "failed": "",
+                "refresh": ""
+            },
+            "failed_jobs": {
+                "title": "",
+                "none": "",
+                "meta": "",
+                "details": "",
+                "retry": "",
+                "retry_all": "",
+                "delete": ""
+            },
             "dashboard": {
+                "queue_paused_warning": "",
+                "queue_paused_all_warning": "",
+                "queue_paused_manage": "",
                 "clear_cache_button": "Cache leeren",
                 "description": "Dein Forum auf einen Blick.",
                 "info_button": "Systeminformationen",
@@ -241,6 +270,10 @@
             "database-driver-mismatch-warning": {
                 "detail": "Deine <code>config.php</code> ist für die Verwendung des Datenbanktreibers <code>{configured}</code> konfiguriert, aber Flarum hat festgestellt, dass der Datenbankserver tatsächlich <code>{actual}</code> ist.\n\nDie Verwendung des falschen Treibers kann zu subtilen, schwer zu diagnostizierenden Fehlern führen. Setze <code>‚driver‘ => ‚‘{actual}‚‘</code> im Abschnitt <code>database</code> deiner <code>config.php</code>-Datei. Weitere Informationen findest du in der <link>Flarum-Dokumentation</link>.\n",
                 "label": "Datenbank-Treiber-Konflikt"
+            },
+            "database-version-warning": {
+                "below-recommended-detail": "",
+                "below-recommended-label": ""
             },
             "debug-warning": {
                 "detail": "Sofern der <code>Debugmodus</code> aktiv ist, wird Flarum seine <code>JavaScript</code> und <code>CSS</code> Ressourcen bei jedem Seitenabruf neu generieren und könnte zudem potenziell weitere Informationen preisgeben, etwa Datenbankgeheimnisse, Umgebungsvariablen usw.\n\nEs wird dringend empfohlen, den <code>debug</code> in deiner <code>config.php</code> Datei in einem Produktionskontext zu deaktivieren. Konsultiere die <link>Flarum Dokumentation</link> für zusätzliche Informationen.\n",
@@ -583,7 +616,8 @@
                 "search_role_label": "Suche im Forum",
                 "session_dropdown_accessible_label": "Dropdown-Menü für Sitzungsoptionen umschalten",
                 "settings_button": "=> core.ref.settings",
-                "sign_up_link": "=> core.ref.sign_up"
+                "sign_up_link": "=> core.ref.sign_up",
+                "theme_switcher_accessible_label": ""
             },
             "index": {
                 "all_discussions_link": "=> core.ref.all_discussions",
@@ -597,12 +631,14 @@
                 "toggle_sidenav_dropdown_accessible_label": "Dropdown-Menü für die Navigation umschalten"
             },
             "index_sort": {
+                "az_button": "",
                 "latest_button": "Zuletzt",
                 "newest_button": "=> core.ref.newest",
                 "oldest_button": "=> core.ref.oldest",
                 "relevance_button": "=> core.ref.relevance",
                 "toggle_dropdown_accessible_label": "Sortierung der Diskussionsliste ändern",
-                "top_button": "Meist diskutiert"
+                "top_button": "Meist diskutiert",
+                "za_button": ""
             },
             "log_in": {
                 "forgot_password_link": "Passwort vergessen?",
@@ -772,6 +808,7 @@
             }
         },
         "lib": {
+            "connection_restored_message": "",
             "debug_button": "Debug",
             "alert": {
                 "dismiss_a11y_label": "Warnung schließen"
@@ -812,7 +849,9 @@
                 "generic_message": "Ups! Da ist was schief gelaufen. Bitte lade die Seite neu oder versuche es erneut.",
                 "generic_cross_origin_message": "Ups! Bei einer Cross-Origin-Anfrage ist etwas schief gelaufen. Bitte lade die Seite neu und versuche es erneut.",
                 "missing_dependencies_message": "Die Erweiterung {extension} kann nicht aktiviert werden, bis die folgenden abhängigen Erweiterungen aktiviert wurden: {extensions}",
+                "network_message": "",
                 "not_found_message": "Leider wurde nichts gefunden.",
+                "offline_message": "",
                 "payload_too_large_message": "Die Datenmenge der Anfrage war zu groß.",
                 "permission_denied_message": "Du hast keine Berechtigung dies zu tun.",
                 "rate_limit_exceeded_message": "Nicht so schnell. Bitte versuche es in Kürze erneut.",
@@ -874,7 +913,8 @@
                 "placeholder": "Mehrere Optionen auswählen"
             },
             "nav": {
-                "drawer_button": "Navigationsleiste öffnen"
+                "drawer_button": "Navigationsleiste öffnen",
+                "pin_pane_button": ""
             },
             "notices": {
                 "bisecting": "Ausführen eines Erweiterungs-Bisektionsprozesses, um festzustellen, welche Erweiterung ein Problem verursacht.",
@@ -882,9 +922,21 @@
                 "maintenance_mode_low": "Wegen Wartungsarbeiten nicht verfügbar. Nur Administratoren haben Zugriff auf das Forum.",
                 "maintenance_mode_safe": "Wegen Wartungsarbeiten im abgesicherten Modus. Nur Administratoren haben Zugriff auf das Forum, und es werden keine Erweiterungen gestartet."
             },
+            "index_sort": {
+                "az_button": "",
+                "latest_button": "",
+                "newest_button": "",
+                "oldest_button": "",
+                "relevance_button": "",
+                "top_button": "",
+                "za_button": ""
+            },
             "number_suffix": {
                 "kilo_text": "K",
                 "mega_text": "M"
+            },
+            "overflowing_list": {
+                "toggle_accessible_label": ""
             },
             "pagination": {
                 "back_button": "Vorherige Seite",
@@ -903,6 +955,7 @@
                 "options_heading": "Suchoptionen",
                 "placeholder": "Suchen...",
                 "preview_heading": "Suchvorschau",
+                "search_active_button_accessible_label": "",
                 "search_clear_button_accessible_label": "Suchanfrage löschen"
             },
             "search_source": {
@@ -1101,6 +1154,7 @@
             "light_hc_mode_label": "Heller Modus mit hohem Kontrast",
             "light_mode_label": "Heller Modus",
             "load_more": "Mehr laden",
+            "latest": "",
             "loading": "Ladevorgang läuft…",
             "log_in": "Anmelden",
             "log_out": "Abmelden",
@@ -1130,6 +1184,9 @@
             "sign_up": "Registrieren",
             "some_others": "{count, plural, one {# weiterem} other {# weiteren}}",
             "start_a_discussion": "Diskussion starten",
+            "title_az": "",
+            "title_za": "",
+            "top": "",
             "username": "Benutzername",
             "username_or_email_placeholder": "Benutzername oder E-Mail",
             "users": "Benutzer",

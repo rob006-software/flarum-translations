@@ -50,6 +50,8 @@
                     "cdn_url_help": "",
                     "kit_url_label": "",
                     "kit_url_help": "",
+                    "forced_style_label": "",
+                    "forced_style_help": "",
                     "config_override": {
                         "label": "",
                         "help": ""
@@ -67,6 +69,10 @@
                     "search_configuration": ""
                 },
                 "queue": {
+                    "pause_label": "",
+                    "pause_all_label": "",
+                    "pause_queue_label": "",
+                    "pause_help": "",
                     "section_label": "",
                     "sync_info": "",
                     "sync_help": "",
@@ -89,7 +95,9 @@
                     "driver_options": {
                         "default": ""
                     },
-                    "no_other_drivers": ""
+                    "no_other_drivers": "",
+                    "cjk_mode_label": "",
+                    "cjk_mode_help": ""
                 },
                 "title": ""
             },
@@ -118,6 +126,8 @@
                 "logo_text": "फ़ोरम शीर्षक के स्थान पर प्रदर्शित होने वाली छवि अपलोड करें।",
                 "logo_dark_mode_heading": "",
                 "logo_dark_mode_text": "",
+                "show_theme_selector_help": "",
+                "show_theme_selector_label": "",
                 "title": "रूप",
                 "color_scheme_label": "",
                 "color_schemes": {
@@ -195,7 +205,26 @@
                 "title": "",
                 "view_all": ""
             },
+            "queue_widget": {
+                "title": "",
+                "pending": "",
+                "reserved": "",
+                "failed": "",
+                "refresh": ""
+            },
+            "failed_jobs": {
+                "title": "",
+                "none": "",
+                "meta": "",
+                "details": "",
+                "retry": "",
+                "retry_all": "",
+                "delete": ""
+            },
             "dashboard": {
+                "queue_paused_warning": "",
+                "queue_paused_all_warning": "",
+                "queue_paused_manage": "",
                 "clear_cache_button": "कैश को साफ़ करें",
                 "description": "आपका मंच एक नजर में।",
                 "info_button": "",
@@ -241,6 +270,10 @@
             "database-driver-mismatch-warning": {
                 "detail": "",
                 "label": ""
+            },
+            "database-version-warning": {
+                "below-recommended-detail": "",
+                "below-recommended-label": ""
             },
             "debug-warning": {
                 "detail": "जब <code>डिबग </code> मोड सक्रिय होता है, तो Flarum प्रत्येक अनुरोध पर अपनी <code>JavaScript</code> और <code>CSS</code> संपत्तियों का पुनर्निर्माण करेगा, और इसके परिणाम स्वरुप अन्य जानकारी भी लीक कर सकता है जैसे की डेटाबेस की गोपनीय जानकारी, एनवायरनमेंट वेरिएबल, आदि।\n\nउत्पादन में आपकी <code>config.php</code> फ़ाइल में <code>debug</code> को अक्षम करने की अत्यधिक अनुशंसा की जाती है। अधिक जानकारी के लिए <link>Flarum docs</link> देखें।\n",
@@ -583,7 +616,8 @@
                 "search_role_label": "फ़ोरम में खोजे",
                 "session_dropdown_accessible_label": "सत्र विकल्प ड्रॉपडाउन मेनू टॉगल करें",
                 "settings_button": "=> core.ref.settings",
-                "sign_up_link": "=> core.ref.sign_up"
+                "sign_up_link": "=> core.ref.sign_up",
+                "theme_switcher_accessible_label": ""
             },
             "index": {
                 "all_discussions_link": "=> core.ref.all_discussions",
@@ -597,12 +631,14 @@
                 "toggle_sidenav_dropdown_accessible_label": "नेविगेशन ड्रॉपडाउन मेनू टॉगल करें"
             },
             "index_sort": {
+                "az_button": "",
                 "latest_button": "नवीनतम",
                 "newest_button": "",
                 "oldest_button": "",
                 "relevance_button": "",
                 "toggle_dropdown_accessible_label": "चर्चा सूची छँटाई बदलें",
-                "top_button": "ऊपर"
+                "top_button": "ऊपर",
+                "za_button": ""
             },
             "log_in": {
                 "forgot_password_link": "पासवर्ड भूल गए?",
@@ -772,6 +808,7 @@
             }
         },
         "lib": {
+            "connection_restored_message": "",
             "debug_button": "डिबग",
             "alert": {
                 "dismiss_a11y_label": "अलर्ट खारिज करें"
@@ -812,7 +849,9 @@
                 "generic_message": "उफ़! कुछ गलत हो गया। कृपया पेज लोड करें और पुन: प्रयास करें।",
                 "generic_cross_origin_message": "उफ़! क्रॉस-ओरिजिन अनुरोध के दौरान कुछ अप्रत्याशित हुआ। कृपया पेज लोड करें और पुन: प्रयास करें।",
                 "missing_dependencies_message": "निम्न निर्भरताएँ सक्षम होने तक {extension} को सक्षम नहीं किया जा सकता: {extensions}",
+                "network_message": "",
                 "not_found_message": "अनुरोधित संसाधन नहीं मिला।",
+                "offline_message": "",
                 "payload_too_large_message": "अनुरोध पेलोड बहुत बड़ा था।",
                 "permission_denied_message": "आपको ऐसा करने की अनुमति नहीं है।",
                 "rate_limit_exceeded_message": "आप थोड़ी जल्दी कर रहे हो। कृपया कुछ क्षणों में पुन: प्रयास करें।",
@@ -874,7 +913,8 @@
                 "placeholder": ""
             },
             "nav": {
-                "drawer_button": "नेविगेशन दराज खोलें"
+                "drawer_button": "नेविगेशन दराज खोलें",
+                "pin_pane_button": ""
             },
             "notices": {
                 "bisecting": "",
@@ -882,9 +922,21 @@
                 "maintenance_mode_low": "",
                 "maintenance_mode_safe": ""
             },
+            "index_sort": {
+                "az_button": "",
+                "latest_button": "",
+                "newest_button": "",
+                "oldest_button": "",
+                "relevance_button": "",
+                "top_button": "",
+                "za_button": ""
+            },
             "number_suffix": {
                 "kilo_text": "की",
                 "mega_text": "मे"
+            },
+            "overflowing_list": {
+                "toggle_accessible_label": ""
             },
             "pagination": {
                 "back_button": "",
@@ -903,6 +955,7 @@
                 "options_heading": "",
                 "placeholder": "",
                 "preview_heading": "",
+                "search_active_button_accessible_label": "",
                 "search_clear_button_accessible_label": ""
             },
             "search_source": {
@@ -1101,6 +1154,7 @@
             "light_hc_mode_label": "",
             "light_mode_label": "",
             "load_more": "और लोड करें",
+            "latest": "",
             "loading": "लोड हो रहा है...",
             "log_in": "लॉग इन करें",
             "log_out": "बाहर जाये",
@@ -1130,6 +1184,9 @@
             "sign_up": "खाता खोले",
             "some_others": "{count, plural, one {# अन्य} other {# अन्य}}",
             "start_a_discussion": "एक चर्चा शुरू करें",
+            "title_az": "",
+            "title_za": "",
+            "top": "",
             "username": "उपयोगकर्ता नाम",
             "username_or_email_placeholder": "",
             "users": "उपयोगकर्ता",

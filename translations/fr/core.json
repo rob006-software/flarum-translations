@@ -50,6 +50,8 @@
                     "cdn_url_help": "Lien complet vers le fichier CSS de FontAwesome sur un CDN",
                     "kit_url_label": "URL Kit",
                     "kit_url_help": "Lien vers le script du Kit FontAwesome (à partir de l'adresse kit.fontawesome.com)",
+                    "forced_style_label": "",
+                    "forced_style_help": "",
                     "config_override": {
                         "label": "Remplacement de configuration",
                         "help": "Les paramètres FontAwesome sont actuellement définis dans votre fichier config.php et ne peuvent pas être modifiés ici."
@@ -67,6 +69,10 @@
                     "search_configuration": "Rechercher la configuration à utiliser"
                 },
                 "queue": {
+                    "pause_label": "",
+                    "pause_all_label": "",
+                    "pause_queue_label": "",
+                    "pause_help": "",
                     "section_label": "File d'attente",
                     "sync_info": "Votre forum utilise un pilote de file d'attente synchrone. Les tâches sont traitées instantanément dans le thread principal.",
                     "sync_help": "Pour améliorer les performances et l'expérience utilisateur, envisagez d'utiliser le pilote de file d'attente de base de données. Pour plus d'informations, consultez la documentation.",
@@ -89,7 +95,9 @@
                     "driver_options": {
                         "default": "Recherche dans la base de données par défaut"
                     },
-                    "no_other_drivers": "Aucun pilote de recherche n'est encore disponible. Installez une extension de pilote de recherche pour pouvoir le configurer."
+                    "no_other_drivers": "Aucun pilote de recherche n'est encore disponible. Installez une extension de pilote de recherche pour pouvoir le configurer.",
+                    "cjk_mode_label": "",
+                    "cjk_mode_help": ""
                 },
                 "title": "Avancé"
             },
@@ -118,6 +126,8 @@
                 "logo_text": "Transférez une image qui sera affichée à la place du titre du forum.",
                 "logo_dark_mode_heading": "Logo en mode sombre",
                 "logo_dark_mode_text": "Transférez une autre image qui sera affichée lorsque le mode sombre est activé.",
+                "show_theme_selector_help": "",
+                "show_theme_selector_label": "",
                 "title": "Apparence",
                 "color_scheme_label": "Thème (par défaut)",
                 "color_schemes": {
@@ -195,7 +205,26 @@
                 "title": "Annonces",
                 "view_all": "Toutes les annonces sur discuss.flarum.org"
             },
+            "queue_widget": {
+                "title": "",
+                "pending": "",
+                "reserved": "",
+                "failed": "",
+                "refresh": ""
+            },
+            "failed_jobs": {
+                "title": "",
+                "none": "",
+                "meta": "",
+                "details": "",
+                "retry": "",
+                "retry_all": "",
+                "delete": ""
+            },
             "dashboard": {
+                "queue_paused_warning": "",
+                "queue_paused_all_warning": "",
+                "queue_paused_manage": "",
                 "clear_cache_button": "Effacer le cache",
                 "description": "Votre forum en un coup d'œil.",
                 "info_button": "Informations système",
@@ -241,6 +270,10 @@
             "database-driver-mismatch-warning": {
                 "detail": "Votre <code>config.php</code> est configuré pour utiliser le pilote de base de données <code>{configured}</code>, mais Flarum a détecté que le serveur de base de données est en réalité <code>{actual}</code>.\n\nL'utilisation d'un pilote incorrect peut entraîner des bugs difficiles à diagnostiquer. Définissez <code>'driver' => ''{actual}''</code> dans la section <code>database</code> de votre <code>config.php</code>. Consultez <link>la documentation Flarum</link> pour plus d'informations.\n",
                 "label": "Incompatibilité du pilote de base de données"
+            },
+            "database-version-warning": {
+                "below-recommended-detail": "",
+                "below-recommended-label": ""
             },
             "debug-warning": {
                 "detail": "Lorsque le mode <code>débogage</code> est actif, Flarum reconstruit ses ressources <code>JavaScript</code> et <code>CSS</code> à chaque requête, et peut aussi potentiellement divulguer d'autres informations, comme les clés secrètes de la base de données, les variables d'environnement, etc.\n\nIl est fortement recommandé de désactiver le mode <code>débogage</code> dans votre fichier <code>config.php</code> si votre forum est dans un environnement de production. Pour plus d'informations, veuillez consulter <link>la documentation de Flarum</link>.\n",
@@ -583,7 +616,8 @@
                 "search_role_label": "Rechercher dans le forum",
                 "session_dropdown_accessible_label": "Afficher le menu déroulant des options de session",
                 "settings_button": "=> core.ref.settings",
-                "sign_up_link": "=> core.ref.sign_up"
+                "sign_up_link": "=> core.ref.sign_up",
+                "theme_switcher_accessible_label": ""
             },
             "index": {
                 "all_discussions_link": "=> core.ref.all_discussions",
@@ -597,12 +631,14 @@
                 "toggle_sidenav_dropdown_accessible_label": "Afficher le menu déroulant de navigation"
             },
             "index_sort": {
+                "az_button": "",
                 "latest_button": "Activité",
                 "newest_button": "=> core.ref.newest",
                 "oldest_button": "=> core.ref.oldest",
                 "relevance_button": "=> core.ref.relevance",
                 "toggle_dropdown_accessible_label": "Modifier l'ordre d'affichage de la liste de discussion",
-                "top_button": "Popularité"
+                "top_button": "Popularité",
+                "za_button": ""
             },
             "log_in": {
                 "forgot_password_link": "Mot de passe oublié ?",
@@ -772,6 +808,7 @@
             }
         },
         "lib": {
+            "connection_restored_message": "",
             "debug_button": "Déboguer",
             "alert": {
                 "dismiss_a11y_label": "Rejeter l'alerte"
@@ -812,7 +849,9 @@
                 "generic_message": "Oups ! Une erreur est survenue. Veuillez actualiser la page puis réessayer.",
                 "generic_cross_origin_message": "Oups ! Un problème s'est produit lors d'une demande d'origine croisée. Veuillez recharger la page puis réessayer.",
                 "missing_dependencies_message": "Impossible d'activer {extension} tant que les dépendances suivantes ne sont pas activées : {extensions}",
+                "network_message": "",
                 "not_found_message": "La ressource demandée est introuvable.",
+                "offline_message": "",
                 "payload_too_large_message": "La charge utile de la requête est trop élevée.",
                 "permission_denied_message": "Vous n'avez pas l'autorisation de faire cela.",
                 "rate_limit_exceeded_message": "Vous allez un peu trop vite. Veuillez réessayer dans quelques secondes.",
@@ -874,7 +913,8 @@
                 "placeholder": "Sélectionnez plusieurs options"
             },
             "nav": {
-                "drawer_button": "Ouvrir le tiroir de navigation"
+                "drawer_button": "Ouvrir le tiroir de navigation",
+                "pin_pane_button": ""
             },
             "notices": {
                 "bisecting": "Exécution d'un processus de bissection des extensions afin de déterminer quelle extension est à l'origine du problème.",
@@ -882,9 +922,21 @@
                 "maintenance_mode_low": "Indisponible pour maintenance. Seuls les administrateurs peuvent accéder au forum.",
                 "maintenance_mode_safe": "Indisponible pour maintenance en mode sans échec. Seuls les administrateurs peuvent accéder au forum et aucune extension n'est lancée."
             },
+            "index_sort": {
+                "az_button": "",
+                "latest_button": "",
+                "newest_button": "",
+                "oldest_button": "",
+                "relevance_button": "",
+                "top_button": "",
+                "za_button": ""
+            },
             "number_suffix": {
                 "kilo_text": "k",
                 "mega_text": "M"
+            },
+            "overflowing_list": {
+                "toggle_accessible_label": ""
             },
             "pagination": {
                 "back_button": "Page précédente",
@@ -903,6 +955,7 @@
                 "options_heading": "Options de recherche",
                 "placeholder": "Rechercher...",
                 "preview_heading": "Aperçu de la recherche",
+                "search_active_button_accessible_label": "",
                 "search_clear_button_accessible_label": "Effacer la requête de recherche"
             },
             "search_source": {
@@ -1101,6 +1154,7 @@
             "light_hc_mode_label": "Mode clair à contraste élevé",
             "light_mode_label": "Mode clair",
             "load_more": "Charger davantage",
+            "latest": "",
             "loading": "Chargement…",
             "log_in": "Se connecter",
             "log_out": "Se déconnecter",
@@ -1130,6 +1184,9 @@
             "sign_up": "S'inscrire",
             "some_others": "{count, plural, one {# autre} other {# autres}}",
             "start_a_discussion": "Nouvelle discussion",
+            "title_az": "",
+            "title_za": "",
+            "top": "",
             "username": "Nom d'utilisateur",
             "username_or_email_placeholder": "Nom d'utilisateur ou adresse e-mail",
             "users": "Utilisateurs",

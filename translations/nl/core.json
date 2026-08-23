@@ -50,6 +50,8 @@
                     "cdn_url_help": "Volledige URL naar het FontAwesome CSS-bestand op een CDN",
                     "kit_url_label": "Kit-URL",
                     "kit_url_help": "De script-URL van uw FontAwesome Kit (van kit.fontawesome.com)",
+                    "forced_style_label": "",
+                    "forced_style_help": "",
                     "config_override": {
                         "label": "Configuratie-override",
                         "help": "FontAwesome-instellingen zijn momenteel ingesteld in uw config.php-bestand en kunnen hier niet worden gewijzigd."
@@ -67,6 +69,10 @@
                     "search_configuration": "Zoekconfiguatie om te gebruiken"
                 },
                 "queue": {
+                    "pause_label": "",
+                    "pause_all_label": "",
+                    "pause_queue_label": "",
+                    "pause_help": "",
                     "section_label": "Wachtrij",
                     "sync_info": "Uw forum gebruikt de synchrone wachtrij-driver. Taken worden onmiddellijk verwerkt in de hoofdproces-thread.",
                     "sync_help": "Overweeg voor betere prestaties de database-wachtrij-driver te gebruiken. Lees meer in de documentatie.",
@@ -89,7 +95,9 @@
                     "driver_options": {
                         "default": "Standaard databasezoekopdracht"
                     },
-                    "no_other_drivers": "Er zijn nog geen zoekdrivers beschikbaar. Installeer een zoekdriver-extensie om deze te kunnen configureren."
+                    "no_other_drivers": "Er zijn nog geen zoekdrivers beschikbaar. Installeer een zoekdriver-extensie om deze te kunnen configureren.",
+                    "cjk_mode_label": "",
+                    "cjk_mode_help": ""
                 },
                 "title": "Geavanceerd"
             },
@@ -118,6 +126,8 @@
                 "logo_text": "Upload een afbeelding om weergegeven te worden i.p.v. de forum titel.",
                 "logo_dark_mode_heading": "Logo donkere modus",
                 "logo_dark_mode_text": "Upload een alternatief logo om te tonen wanneer de donkere modus is ingeschakeld.",
+                "show_theme_selector_help": "",
+                "show_theme_selector_label": "",
                 "title": "Vormgeving",
                 "color_scheme_label": "Kleurenschema (standaard)",
                 "color_schemes": {
@@ -195,7 +205,26 @@
                 "title": "Aankondigingen",
                 "view_all": "Bekijk alles op discuss.flarum.org"
             },
+            "queue_widget": {
+                "title": "",
+                "pending": "",
+                "reserved": "",
+                "failed": "",
+                "refresh": ""
+            },
+            "failed_jobs": {
+                "title": "",
+                "none": "",
+                "meta": "",
+                "details": "",
+                "retry": "",
+                "retry_all": "",
+                "delete": ""
+            },
             "dashboard": {
+                "queue_paused_warning": "",
+                "queue_paused_all_warning": "",
+                "queue_paused_manage": "",
                 "clear_cache_button": "Cache wissen",
                 "description": "Uw forum in één oogopslag.",
                 "info_button": "Systeeminfo",
@@ -241,6 +270,10 @@
             "database-driver-mismatch-warning": {
                 "detail": "",
                 "label": ""
+            },
+            "database-version-warning": {
+                "below-recommended-detail": "",
+                "below-recommended-label": ""
             },
             "debug-warning": {
                 "detail": "Wanneer de <code>debug</code>-modus actief is, zal Flarum zijn <code>JavaScript</code>- en <code>CSS</code>-assets bij elk verzoek opnieuw opbouwen en kan mogelijk ook andere informatie lekken, zoals database geheimen, omgevingsvariabelen, enz.\n\nHet wordt ten sterkste aanbevolen om <code>debug</code> uit te schakelen in uw <code>config.php</code>-bestand in productie. Zie <link>Flarum-documenten</link> voor meer informatie.\n",
@@ -583,7 +616,8 @@
                 "search_role_label": "Doorzoek forum",
                 "session_dropdown_accessible_label": "Toggle sessie opties menu",
                 "settings_button": "=> core.ref.settings",
-                "sign_up_link": "=> core.ref.sign_up"
+                "sign_up_link": "=> core.ref.sign_up",
+                "theme_switcher_accessible_label": ""
             },
             "index": {
                 "all_discussions_link": "=> core.ref.all_discussions",
@@ -597,12 +631,14 @@
                 "toggle_sidenav_dropdown_accessible_label": "Toggle navigatie dropdown menu"
             },
             "index_sort": {
+                "az_button": "",
                 "latest_button": "Laatste",
                 "newest_button": "=> core.ref.newest",
                 "oldest_button": "=> core.ref.oldest",
                 "relevance_button": "=> core.ref.relevance",
                 "toggle_dropdown_accessible_label": "Verander de sortering van de discussielijst",
-                "top_button": "Top"
+                "top_button": "Top",
+                "za_button": ""
             },
             "log_in": {
                 "forgot_password_link": "Wachtwoord vergeten?",
@@ -772,6 +808,7 @@
             }
         },
         "lib": {
+            "connection_restored_message": "",
             "debug_button": "Debug",
             "alert": {
                 "dismiss_a11y_label": "Melding negeren"
@@ -812,7 +849,9 @@
                 "generic_message": "Oeps! Er is iets misgegaan. Herlaad de pagina en probeer het opnieuw.",
                 "generic_cross_origin_message": "Oeps! Er is iets misgegaan tijdens een cross-origin verzoek. Laad de pagina opnieuw en probeer het opnieuw.",
                 "missing_dependencies_message": "Kan {extension} pas inschakelen als de volgende afhankelijke extensies zijn ingeschakeld: {extensions}",
+                "network_message": "",
                 "not_found_message": "Het opgevraagde kon niet worden gevonden.",
+                "offline_message": "",
                 "payload_too_large_message": "De payload van het verzoek was te groot.",
                 "permission_denied_message": "Je hebt geen permissie om dat te doen.",
                 "rate_limit_exceeded_message": "Je gaat een beetje te snel. Probeer het over een paar seconden nog eens.",
@@ -874,7 +913,8 @@
                 "placeholder": "Selecteer meerdere opties"
             },
             "nav": {
-                "drawer_button": "Open navigatie"
+                "drawer_button": "Open navigatie",
+                "pin_pane_button": ""
             },
             "notices": {
                 "bisecting": "Er wordt een extensie bisect-proces uitgevoerd om te bepalen welke extensie een probleem veroorzaakt.",
@@ -882,9 +922,21 @@
                 "maintenance_mode_low": "In onderhoud. Alleen beheerders hebben toegang tot het forum.",
                 "maintenance_mode_safe": "In onderhoud met veilige modus. Alleen beheerders hebben toegang tot het forum en er worden geen extensies geladen."
             },
+            "index_sort": {
+                "az_button": "",
+                "latest_button": "",
+                "newest_button": "",
+                "oldest_button": "",
+                "relevance_button": "",
+                "top_button": "",
+                "za_button": ""
+            },
             "number_suffix": {
                 "kilo_text": "K",
                 "mega_text": "M"
+            },
+            "overflowing_list": {
+                "toggle_accessible_label": ""
             },
             "pagination": {
                 "back_button": "Vorige pagina",
@@ -903,6 +955,7 @@
                 "options_heading": "Zoekopties",
                 "placeholder": "Zoeken...",
                 "preview_heading": "Zoekvoorbeeld",
+                "search_active_button_accessible_label": "",
                 "search_clear_button_accessible_label": "Zoekopdracht wissen"
             },
             "search_source": {
@@ -1101,6 +1154,7 @@
             "light_hc_mode_label": "Licht hoog contrastmodus",
             "light_mode_label": "Lichte modus",
             "load_more": "Meer laden",
+            "latest": "",
             "loading": "Laden...",
             "log_in": "Inloggen",
             "log_out": "Uitloggen",
@@ -1130,6 +1184,9 @@
             "sign_up": "Registreren",
             "some_others": "{count, plural, one {# ander} other {# andere}}",
             "start_a_discussion": "Start een discussie",
+            "title_az": "",
+            "title_za": "",
+            "top": "",
             "username": "Gebruikersnaam",
             "username_or_email_placeholder": "Gebruikersnaam of e-mailadres",
             "users": "Gebruikers",

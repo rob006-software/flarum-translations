@@ -50,6 +50,8 @@
                     "cdn_url_help": "CDN 上 FontAwesome CSS 文件的完整 URL",
                     "kit_url_label": "套件 URL",
                     "kit_url_help": "您的 FontAwesome Kit 脚本 URL（来自 kit.fontawesome.com）",
+                    "forced_style_label": "",
+                    "forced_style_help": "",
                     "config_override": {
                         "label": "配置覆蓋",
                         "help": "Font Awesome 設定已於 <code>config.php</code> 檔案中指定，因此無法在此修改。"
@@ -67,6 +69,10 @@
                     "search_configuration": "要使用的搜索配置"
                 },
                 "queue": {
+                    "pause_label": "",
+                    "pause_all_label": "",
+                    "pause_queue_label": "",
+                    "pause_help": "",
                     "section_label": "隊列",
                     "sync_info": "您的論壇目前使用同步佇列驅動程式，所有工作會立即於主程序中執行。",
                     "sync_help": "為了提升效能與使用體驗，建議改用資料庫佇列驅動程式。請參閱文件以了解更多資訊。",
@@ -89,7 +95,9 @@
                     "driver_options": {
                         "default": "預設資料庫搜尋"
                     },
-                    "no_other_drivers": "目前沒有可用的搜尋驅動。請安裝搜尋驅動擴充套件後，再進行設定。"
+                    "no_other_drivers": "目前沒有可用的搜尋驅動。請安裝搜尋驅動擴充套件後，再進行設定。",
+                    "cjk_mode_label": "",
+                    "cjk_mode_help": ""
                 },
                 "title": "進階"
             },
@@ -118,6 +126,8 @@
                 "logo_text": "上傳圖片代替論壇名稱，將顯示在導航欄的左側。",
                 "logo_dark_mode_heading": "深色模式 Logo",
                 "logo_dark_mode_text": "上傳在深色模式下顯示的替代 Logo。",
+                "show_theme_selector_help": "",
+                "show_theme_selector_label": "",
                 "title": "外觀",
                 "color_scheme_label": "配色主題（預設）",
                 "color_schemes": {
@@ -195,7 +205,26 @@
                 "title": "公告",
                 "view_all": "在 discuss.flarum.org 查看全部"
             },
+            "queue_widget": {
+                "title": "",
+                "pending": "",
+                "reserved": "",
+                "failed": "",
+                "refresh": ""
+            },
+            "failed_jobs": {
+                "title": "",
+                "none": "",
+                "meta": "",
+                "details": "",
+                "retry": "",
+                "retry_all": "",
+                "delete": ""
+            },
             "dashboard": {
+                "queue_paused_warning": "",
+                "queue_paused_all_warning": "",
+                "queue_paused_manage": "",
                 "clear_cache_button": "清除快取",
                 "description": "論壇資訊總覽。",
                 "info_button": "系統訊息",
@@ -241,6 +270,10 @@
             "database-driver-mismatch-warning": {
                 "detail": "您的環境設定檔 <code>config.php</code> 中設定的資料庫驅動為 <code>{configured}</code>，但 Flarum 偵測到目前實際使用的資料庫驅動為 <code>{actual}</code>。\n\n使用錯誤的資料庫驅動可能導致嚴重且難以診斷的問題。請將 <code>config.php</code> 中 <code>database</code> 設定的資料庫驅動修改為 <code>'driver' => '{actual}'</code>。詳情請參閱 <link>Flarum 官方文件</link>。\n",
                 "label": "數據庫驅動不匹配"
+            },
+            "database-version-warning": {
+                "below-recommended-detail": "",
+                "below-recommended-label": ""
             },
             "debug-warning": {
                 "detail": "啟用 <code>debug</code> 模式時，<code>JavaScript</code> 和 <code>CSS</code> 檔案將於每次請求時返回全新的編譯版本。調試模式中，所有日誌、警告和錯誤均會以彈窗形式展示在網頁中，資料庫密碼、環境變數等敏感資訊均有可能在此期間洩漏。 \n \n因此我們強烈建議您在生產環境中將 <code>config.php</code> 檔案中的禁用 <code>debug</code> 模式。請查看 <link>Flarum 文件</link>了解更多資訊。\n",
@@ -583,7 +616,8 @@
                 "search_role_label": "搜尋論壇",
                 "session_dropdown_accessible_label": "對話下拉選單開關",
                 "settings_button": "=> core.ref.settings",
-                "sign_up_link": "註冊"
+                "sign_up_link": "註冊",
+                "theme_switcher_accessible_label": ""
             },
             "index": {
                 "all_discussions_link": "=> core.ref.all_discussions",
@@ -597,12 +631,14 @@
                 "toggle_sidenav_dropdown_accessible_label": "導航欄下拉選單開關"
             },
             "index_sort": {
+                "az_button": "",
                 "latest_button": "最新回覆",
                 "newest_button": "=> core.ref.newest",
                 "oldest_button": "=> core.ref.oldest",
                 "relevance_button": "=> core.ref.relevance",
                 "toggle_dropdown_accessible_label": "更改「全部主題」排序",
-                "top_button": "熱門討論"
+                "top_button": "熱門討論",
+                "za_button": ""
             },
             "log_in": {
                 "forgot_password_link": "忘記密碼？",
@@ -772,6 +808,7 @@
             }
         },
         "lib": {
+            "connection_restored_message": "",
             "debug_button": "除錯",
             "alert": {
                 "dismiss_a11y_label": "忽略警告"
@@ -812,7 +849,9 @@
                 "generic_message": "糟糕，出錯啦！請重新整理頁面再試一次。",
                 "generic_cross_origin_message": "哎呀！跨來源請求時出現問題；請重新整理頁面，然後再試一次。",
                 "missing_dependencies_message": "無法啟用「{extension}」，請先啟用依賴擴充套件「{extensions}」",
+                "network_message": "",
                 "not_found_message": "請求的資源不存在。",
+                "offline_message": "",
                 "payload_too_large_message": "請求負載過大。",
                 "permission_denied_message": "沒有權限執行此操作。",
                 "rate_limit_exceeded_message": "操作太頻繁，請稍後再試。",
@@ -874,7 +913,8 @@
                 "placeholder": "選擇多個選項"
             },
             "nav": {
-                "drawer_button": "打開導航抽屜"
+                "drawer_button": "打開導航抽屜",
+                "pin_pane_button": ""
             },
             "notices": {
                 "bisecting": "正在運行擴展程序的二分法排查，以確定是那個擴展導致了問題。",
@@ -882,9 +922,21 @@
                 "maintenance_mode_low": "正在維護。僅管理可訪問論譠。",
                 "maintenance_mode_safe": "論壇目前處於安全模式維護中。僅管理員可存取論壇，且不會載入任何擴充套件。"
             },
+            "index_sort": {
+                "az_button": "",
+                "latest_button": "",
+                "newest_button": "",
+                "oldest_button": "",
+                "relevance_button": "",
+                "top_button": "",
+                "za_button": ""
+            },
             "number_suffix": {
                 "kilo_text": "K",
                 "mega_text": "M"
+            },
+            "overflowing_list": {
+                "toggle_accessible_label": ""
             },
             "pagination": {
                 "back_button": "上一頁",
@@ -903,6 +955,7 @@
                 "options_heading": "搜索選項",
                 "placeholder": "搜索…",
                 "preview_heading": "搜索預覽",
+                "search_active_button_accessible_label": "",
                 "search_clear_button_accessible_label": "清空搜索"
             },
             "search_source": {
@@ -1101,6 +1154,7 @@
             "light_hc_mode_label": "淺色高對比度模式",
             "light_mode_label": "淺色模式",
             "load_more": "載入更多",
+            "latest": "",
             "loading": "正在載入…",
             "log_in": "登入",
             "log_out": "登出",
@@ -1130,6 +1184,9 @@
             "sign_up": "註冊",
             "some_others": "{count, plural, one {# 人} other {# 人}}",
             "start_a_discussion": "發表文章",
+            "title_az": "",
+            "title_za": "",
+            "top": "",
             "username": "使用者名稱",
             "username_or_email_placeholder": "用戶名或郵箱",
             "users": "使用者",

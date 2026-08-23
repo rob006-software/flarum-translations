@@ -50,6 +50,8 @@
                     "cdn_url_help": "Font Awesome CSS 文件的 CDN 链接",
                     "kit_url_label": "Kit 链接",
                     "kit_url_help": "您的 Font Awesome Kit 脚本的 URL（来自于 kit.fontawesome.com）",
+                    "forced_style_label": "",
+                    "forced_style_help": "",
                     "config_override": {
                         "label": "配置覆盖",
                         "help": "FontAwesome 设置目前已在 config.php 文件中存在，无法在此处更改。"
@@ -67,6 +69,10 @@
                     "search_configuration": "要使用的搜索配置"
                 },
                 "queue": {
+                    "pause_label": "",
+                    "pause_all_label": "",
+                    "pause_queue_label": "",
+                    "pause_help": "",
                     "section_label": "队列",
                     "sync_info": "当前使用同步队列驱动，所有任务均由主线程直接处理。",
                     "sync_help": "为了更佳的性能和用户体验，建议使用数据库队列驱动。相关信息请查阅文档。",
@@ -89,7 +95,9 @@
                     "driver_options": {
                         "default": "默认数据库搜索"
                     },
-                    "no_other_drivers": "暂无可用驱动，请先安装相关扩展程序。"
+                    "no_other_drivers": "暂无可用驱动，请先安装相关扩展程序。",
+                    "cjk_mode_label": "",
+                    "cjk_mode_help": ""
                 },
                 "title": "高级设置"
             },
@@ -118,6 +126,8 @@
                 "logo_text": "上传图片，替代论坛名称展示在导航栏左侧。",
                 "logo_dark_mode_heading": "深色模式 Logo",
                 "logo_dark_mode_text": "上传更适合在深色模式下展示的 Logo 图片。",
+                "show_theme_selector_help": "",
+                "show_theme_selector_label": "",
                 "title": "外观",
                 "color_scheme_label": "默认配色模式",
                 "color_schemes": {
@@ -195,7 +205,26 @@
                 "title": "公告",
                 "view_all": "前往 discuss.flarum.org 查看全部"
             },
+            "queue_widget": {
+                "title": "",
+                "pending": "",
+                "reserved": "",
+                "failed": "",
+                "refresh": ""
+            },
+            "failed_jobs": {
+                "title": "",
+                "none": "",
+                "meta": "",
+                "details": "",
+                "retry": "",
+                "retry_all": "",
+                "delete": ""
+            },
             "dashboard": {
+                "queue_paused_warning": "",
+                "queue_paused_all_warning": "",
+                "queue_paused_manage": "",
                 "clear_cache_button": "清除缓存",
                 "description": "论坛概况一览",
                 "info_button": "系统信息",
@@ -241,6 +270,10 @@
             "database-driver-mismatch-warning": {
                 "detail": "Flarum 检测到当前实际使用 <code>{actual}</code> 数据库，这与 <code>config.php</code> 中配置的数据库驱动 <code>{configured}</code> 不一致。\n\n使用错误的数据库驱动可能引发难以察觉且难以排查的故障，请将 <code>config.php</code> 中 <code>database</code> 下的配置更正为 <code>'driver' => ''{actual}''</code>。详情请参阅 <link>Flarum 官方文档</link>。\n",
                 "label": "数据库驱动配置不一致"
+            },
+            "database-version-warning": {
+                "below-recommended-detail": "",
+                "below-recommended-label": ""
             },
             "debug-warning": {
                 "detail": "启用 <code>debug</code> 模式时，Flarum 会在每次请求时重新构建 <code>JavaScript</code> 和 <code>CSS</code> 资源。页面警告和错误也会以弹窗形式展示详细信息，数据库凭据、环境变量等敏感信息可能会在此期间泄露。\n\n强烈建议在生产环境中禁用 <code>config.php</code> 中的 <code>debug</code> 模式。详情请参阅 <link>Flarum 官方文档</link>。\n",
@@ -583,7 +616,8 @@
                 "search_role_label": "搜索社区",
                 "session_dropdown_accessible_label": "会话下拉菜单开关",
                 "settings_button": "账号设置",
-                "sign_up_link": "=> core.ref.sign_up"
+                "sign_up_link": "=> core.ref.sign_up",
+                "theme_switcher_accessible_label": ""
             },
             "index": {
                 "all_discussions_link": "=> core.ref.all_discussions",
@@ -597,12 +631,14 @@
                 "toggle_sidenav_dropdown_accessible_label": "导航栏下拉菜单开关"
             },
             "index_sort": {
+                "az_button": "",
                 "latest_button": "最新回复",
                 "newest_button": "=> core.ref.newest",
                 "oldest_button": "=> core.ref.oldest",
                 "relevance_button": "=> core.ref.relevance",
                 "toggle_dropdown_accessible_label": "更改「全部讨论」排序",
-                "top_button": "热门讨论"
+                "top_button": "热门讨论",
+                "za_button": ""
             },
             "log_in": {
                 "forgot_password_link": "忘记密码？",
@@ -772,6 +808,7 @@
             }
         },
         "lib": {
+            "connection_restored_message": "",
             "debug_button": "调试",
             "alert": {
                 "dismiss_a11y_label": "忽略警告"
@@ -812,7 +849,9 @@
                 "generic_message": "糟糕，出错啦！请刷新页面重试。",
                 "generic_cross_origin_message": "跨域请求时出现问题，请刷新页面后重试。",
                 "missing_dependencies_message": "无法启用「{extension}」，请先启用依赖扩展「{extensions}」",
+                "network_message": "",
                 "not_found_message": "您请求的资源不存在。",
+                "offline_message": "",
                 "payload_too_large_message": "上传内容过大。",
                 "permission_denied_message": "您没有权限进行此操作。",
                 "rate_limit_exceeded_message": "您的操作太频繁，请稍后再试。",
@@ -874,7 +913,8 @@
                 "placeholder": "选择多个选项"
             },
             "nav": {
-                "drawer_button": "打开导航抽屉"
+                "drawer_button": "打开导航抽屉",
+                "pin_pane_button": ""
             },
             "notices": {
                 "bisecting": "正在运行扩展程序二分法排查，以确定哪个扩展导致了问题。",
@@ -882,9 +922,21 @@
                 "maintenance_mode_low": "正在维护。仅管理员可访问论坛。",
                 "maintenance_mode_safe": "正在进行安全模式维护。仅管理员可访问论坛，且未加载任何扩展。"
             },
+            "index_sort": {
+                "az_button": "",
+                "latest_button": "",
+                "newest_button": "",
+                "oldest_button": "",
+                "relevance_button": "",
+                "top_button": "",
+                "za_button": ""
+            },
             "number_suffix": {
                 "kilo_text": "千",
                 "mega_text": "百万"
+            },
+            "overflowing_list": {
+                "toggle_accessible_label": ""
             },
             "pagination": {
                 "back_button": "上一页",
@@ -903,6 +955,7 @@
                 "options_heading": "搜索选项",
                 "placeholder": "搜索...",
                 "preview_heading": "搜索预览",
+                "search_active_button_accessible_label": "",
                 "search_clear_button_accessible_label": "清空搜索"
             },
             "search_source": {
@@ -1101,6 +1154,7 @@
             "light_hc_mode_label": "浅色高对比度模式",
             "light_mode_label": "浅色模式",
             "load_more": "加载更多",
+            "latest": "",
             "loading": "正在加载…",
             "log_in": "登录",
             "log_out": "退出",
@@ -1130,6 +1184,9 @@
             "sign_up": "注册",
             "some_others": "{count, plural, one {# 人} other {# 人}}",
             "start_a_discussion": "开始讨论",
+            "title_az": "",
+            "title_za": "",
+            "top": "",
             "username": "用户名",
             "username_or_email_placeholder": "用户名或邮箱",
             "users": "用户",

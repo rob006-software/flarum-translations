@@ -50,6 +50,8 @@
                     "cdn_url_help": "",
                     "kit_url_label": "",
                     "kit_url_help": "",
+                    "forced_style_label": "",
+                    "forced_style_help": "",
                     "config_override": {
                         "label": "",
                         "help": ""
@@ -67,6 +69,10 @@
                     "search_configuration": ""
                 },
                 "queue": {
+                    "pause_label": "",
+                    "pause_all_label": "",
+                    "pause_queue_label": "",
+                    "pause_help": "",
                     "section_label": "",
                     "sync_info": "",
                     "sync_help": "",
@@ -89,7 +95,9 @@
                     "driver_options": {
                         "default": ""
                     },
-                    "no_other_drivers": ""
+                    "no_other_drivers": "",
+                    "cjk_mode_label": "",
+                    "cjk_mode_help": ""
                 },
                 "title": ""
             },
@@ -118,6 +126,8 @@
                 "logo_text": "Įkelkite vaizdą, kuris bus rodomas vietoje forumo pavadinimo.",
                 "logo_dark_mode_heading": "",
                 "logo_dark_mode_text": "",
+                "show_theme_selector_help": "",
+                "show_theme_selector_label": "",
                 "title": "Išvaizda",
                 "color_scheme_label": "",
                 "color_schemes": {
@@ -195,7 +205,26 @@
                 "title": "",
                 "view_all": ""
             },
+            "queue_widget": {
+                "title": "",
+                "pending": "",
+                "reserved": "",
+                "failed": "",
+                "refresh": ""
+            },
+            "failed_jobs": {
+                "title": "",
+                "none": "",
+                "meta": "",
+                "details": "",
+                "retry": "",
+                "retry_all": "",
+                "delete": ""
+            },
             "dashboard": {
+                "queue_paused_warning": "",
+                "queue_paused_all_warning": "",
+                "queue_paused_manage": "",
                 "clear_cache_button": "Išvalyti talpyklą",
                 "description": "Jūsų forumas trumpai.",
                 "info_button": "",
@@ -241,6 +270,10 @@
             "database-driver-mismatch-warning": {
                 "detail": "",
                 "label": ""
+            },
+            "database-version-warning": {
+                "below-recommended-detail": "",
+                "below-recommended-label": ""
             },
             "debug-warning": {
                 "detail": "",
@@ -583,7 +616,8 @@
                 "search_role_label": "Ieškoti forume",
                 "session_dropdown_accessible_label": "Perjungti seanso parinkčių išskleidžiamąjį meniu",
                 "settings_button": "=> core.ref.settings",
-                "sign_up_link": "=> core.ref.sign_up"
+                "sign_up_link": "=> core.ref.sign_up",
+                "theme_switcher_accessible_label": ""
             },
             "index": {
                 "all_discussions_link": "=> core.ref.all_discussions",
@@ -597,12 +631,14 @@
                 "toggle_sidenav_dropdown_accessible_label": "Perjungti naršymo išskleidžiamąjį meniu"
             },
             "index_sort": {
+                "az_button": "",
                 "latest_button": "Paskutinės",
                 "newest_button": "",
                 "oldest_button": "",
                 "relevance_button": "",
                 "toggle_dropdown_accessible_label": "Keisti diskusijų sąrašo rūšiavimą",
-                "top_button": "Populiariausios"
+                "top_button": "Populiariausios",
+                "za_button": ""
             },
             "log_in": {
                 "forgot_password_link": "Pamiršote slaptažodį?",
@@ -772,6 +808,7 @@
             }
         },
         "lib": {
+            "connection_restored_message": "",
             "debug_button": "Derinimas",
             "alert": {
                 "dismiss_a11y_label": "Atmesti įspėjimą"
@@ -812,7 +849,9 @@
                 "generic_message": "Oops! Kažkas įvyko ne taip. Perkraukite puslapį iš naujo ir bandykite dar kartą.",
                 "generic_cross_origin_message": "",
                 "missing_dependencies_message": "Įskiepio {extension} įjungimas yra negalimas kol įskiepiai yra įjungti: {extensions}",
+                "network_message": "",
                 "not_found_message": "Prašomas šaltinis nerastas.",
+                "offline_message": "",
                 "payload_too_large_message": "Naudingasis užklausos kiekis buvo per didelis.",
                 "permission_denied_message": "Šiam veiksmui atlikti neturite leidimo.",
                 "rate_limit_exceeded_message": "Jūs šiek tiek per greitas. Bandykite dar kartą po kelių sekundžių.",
@@ -874,7 +913,8 @@
                 "placeholder": ""
             },
             "nav": {
-                "drawer_button": "Atidarykite naršymo stalčių"
+                "drawer_button": "Atidarykite naršymo stalčių",
+                "pin_pane_button": ""
             },
             "notices": {
                 "bisecting": "",
@@ -882,9 +922,21 @@
                 "maintenance_mode_low": "",
                 "maintenance_mode_safe": ""
             },
+            "index_sort": {
+                "az_button": "",
+                "latest_button": "",
+                "newest_button": "",
+                "oldest_button": "",
+                "relevance_button": "",
+                "top_button": "",
+                "za_button": ""
+            },
             "number_suffix": {
                 "kilo_text": "K",
                 "mega_text": "M"
+            },
+            "overflowing_list": {
+                "toggle_accessible_label": ""
             },
             "pagination": {
                 "back_button": "",
@@ -903,6 +955,7 @@
                 "options_heading": "",
                 "placeholder": "",
                 "preview_heading": "",
+                "search_active_button_accessible_label": "",
                 "search_clear_button_accessible_label": ""
             },
             "search_source": {
@@ -1101,6 +1154,7 @@
             "light_hc_mode_label": "",
             "light_mode_label": "",
             "load_more": "Įkelti daugiau",
+            "latest": "",
             "loading": "Įkeliama...",
             "log_in": "Prisijungti",
             "log_out": "Atsijungti",
@@ -1130,6 +1184,9 @@
             "sign_up": "Registracija",
             "some_others": "{count, plural, one {# kitas} other {# kiti}}",
             "start_a_discussion": "Pradėti temą",
+            "title_az": "",
+            "title_za": "",
+            "top": "",
             "username": "Prisijungimo vardas",
             "username_or_email_placeholder": "",
             "users": "Vartotojai",

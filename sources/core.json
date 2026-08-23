@@ -50,6 +50,8 @@
                     "cdn_url_help": "Full URL to the FontAwesome CSS file on a CDN",
                     "kit_url_label": "Kit URL",
                     "kit_url_help": "Your FontAwesome Kit script URL (from kit.fontawesome.com)",
+                    "forced_style_label": "Forced Icon Style",
+                    "forced_style_help": "Force every icon to a particular FontAwesome style, e.g. \"fa-duotone fa-light\" or \"fa-regular\". Replaces the style declared by core and extensions (brand icons are never changed). Your icon source has to be able to supply the style: the bundled icons are FontAwesome Free, which only covers a few hundred icons outside the solid style, so forcing anything else on them leaves most icons blank. Every style is available with a FontAwesome Pro CDN or Kit. Leave empty to disable.",
                     "config_override": {
                         "label": "Config Override",
                         "help": "FontAwesome settings are currently set in your config.php file and cannot be changed here."
@@ -67,6 +69,10 @@
                     "search_configuration": "Search configuration to use"
                 },
                 "queue": {
+                    "pause_label": "Pause queue processing",
+                    "pause_all_label": "Pause all queues",
+                    "pause_queue_label": "Pause the {queue} queue",
+                    "pause_help": "While paused, workers stop picking up new jobs from the affected queues — jobs accumulate until processing is resumed. Jobs that are already running are not affected.",
                     "section_label": "Queue",
                     "sync_info": "Your forum is using the synchronous queue driver. Jobs are processed immediately in the main process thread.",
                     "sync_help": "For better performance and user experience, consider using the database queue driver. Learn more in the documentation.",
@@ -89,7 +95,9 @@
                     "driver_options": {
                         "default": "Default database search"
                     },
-                    "no_other_drivers": "No search drivers are available yet. Install a search driver extension to be able to configure it."
+                    "no_other_drivers": "No search drivers are available yet. Install a search driver extension to be able to configure it.",
+                    "cjk_mode_label": "Optimise search for CJK languages",
+                    "cjk_mode_help": "Enable if your forum is primarily in Chinese, Japanese, or Korean. The database's word-based search cannot match parts of CJK text, so this switches to a substring match that can. It is slower on very large forums, where configuring a CJK-aware fulltext parser at the database level (such as MySQL/MariaDB's ngram parser) is a faster alternative."
                 },
                 "title": "Advanced"
             },
@@ -118,6 +126,8 @@
                 "logo_text": "Upload an image to be displayed in place of the forum title.",
                 "logo_dark_mode_heading": "Dark mode logo",
                 "logo_dark_mode_text": "Upload an alternate logo to be displayed when dark mode is enabled.",
+                "show_theme_selector_help": "Let users switch between the available color schemes from a control in the header.",
+                "show_theme_selector_label": "Show theme selector",
                 "title": "Appearance",
                 "color_scheme_label": "Color Scheme (default)",
                 "color_schemes": {
@@ -195,7 +205,26 @@
                 "title": "Announcements",
                 "view_all": "View all on discuss.flarum.org"
             },
+            "queue_widget": {
+                "title": "Queue",
+                "pending": "Pending",
+                "reserved": "In progress",
+                "failed": "Failed",
+                "refresh": "Refresh"
+            },
+            "failed_jobs": {
+                "title": "Failed Jobs",
+                "none": "No failed jobs.",
+                "meta": "Queue {queue} · failed {time}",
+                "details": "Details",
+                "retry": "Retry",
+                "retry_all": "Retry all",
+                "delete": "Delete"
+            },
             "dashboard": {
+                "queue_paused_warning": "Queue processing is paused (queue: {queues}). Jobs will accumulate until it is resumed.",
+                "queue_paused_all_warning": "All queue processing is paused. Jobs will accumulate until it is resumed.",
+                "queue_paused_manage": "Manage",
                 "clear_cache_button": "Clear Cache",
                 "description": "Your forum at a glance.",
                 "info_button": "System Info",
@@ -241,6 +270,10 @@
             "database-driver-mismatch-warning": {
                 "detail": "Your <code>config.php</code> is configured to use the <code>{configured}</code> database driver, but Flarum has detected that the database server is actually <code>{actual}</code>.\n\nUsing the wrong driver can cause subtle, hard-to-diagnose bugs. Set <code>'driver' => ''{actual}''</code> in the <code>database</code> section of your <code>config.php</code> file. See <link>Flarum docs</link> for more information.\n",
                 "label": "Database driver mismatch"
+            },
+            "database-version-warning": {
+                "below-recommended-detail": "Your {server} server is running version <code>{version}</code>. This is supported, but Flarum recommends {server} <code>{recommended}</code> or later for the best performance and to stay on a maintained release. See <link>Flarum docs</link> for more information.\n",
+                "below-recommended-label": "Database version outdated"
             },
             "debug-warning": {
                 "detail": "When <code>debug</code> mode is active, Flarum will rebuild its <code>JavaScript</code> and <code>CSS</code> assets on every request, and could also potentially leak other information, such as database secrets, environment variables, etc.\n\nIt is highly recommended to disable <code>debug</code> in your <code>config.php</code> file in production. See <link>Flarum docs</link> for more information.\n",
@@ -583,7 +616,8 @@
                 "search_role_label": "Search Forum",
                 "session_dropdown_accessible_label": "Toggle session options dropdown menu",
                 "settings_button": "=> core.ref.settings",
-                "sign_up_link": "=> core.ref.sign_up"
+                "sign_up_link": "=> core.ref.sign_up",
+                "theme_switcher_accessible_label": "Change theme"
             },
             "index": {
                 "all_discussions_link": "=> core.ref.all_discussions",
@@ -597,12 +631,14 @@
                 "toggle_sidenav_dropdown_accessible_label": "Toggle navigation dropdown menu"
             },
             "index_sort": {
-                "latest_button": "Latest",
+                "az_button": "=> core.ref.title_az",
+                "latest_button": "=> core.ref.latest",
                 "newest_button": "=> core.ref.newest",
                 "oldest_button": "=> core.ref.oldest",
                 "relevance_button": "=> core.ref.relevance",
                 "toggle_dropdown_accessible_label": "Change discussion list sorting",
-                "top_button": "Top"
+                "top_button": "=> core.ref.top",
+                "za_button": "=> core.ref.title_za"
             },
             "log_in": {
                 "forgot_password_link": "Forgot password?",
@@ -772,6 +808,7 @@
             }
         },
         "lib": {
+            "connection_restored_message": "Your connection has been restored.",
             "debug_button": "Debug",
             "alert": {
                 "dismiss_a11y_label": "Dismiss alert"
@@ -812,7 +849,9 @@
                 "generic_message": "Oops! Something went wrong. Please reload the page and try again.",
                 "generic_cross_origin_message": "Oops! Something went wrong during a cross-origin request. Please reload the page and try again.",
                 "missing_dependencies_message": "Cannot enable {extension} until the following dependencies are enabled: {extensions}",
+                "network_message": "Something seems to be wrong with your connection. Please check your network and try again.",
                 "not_found_message": "The requested resource was not found.",
+                "offline_message": "You appear to be offline. Please check your connection and try again.",
                 "payload_too_large_message": "The request payload was too large.",
                 "permission_denied_message": "You do not have permission to do that.",
                 "rate_limit_exceeded_message": "You're going a little too quickly. Please try again in a few seconds.",
@@ -874,7 +913,8 @@
                 "placeholder": "Select multiple options"
             },
             "nav": {
-                "drawer_button": "Open Navigation Drawer"
+                "drawer_button": "Open Navigation Drawer",
+                "pin_pane_button": "Pin Discussion List"
             },
             "notices": {
                 "bisecting": "Running an extension bisect process to determine which extension is causing an issue.",
@@ -882,9 +922,21 @@
                 "maintenance_mode_low": "Down for maintenance. Only administrators can access the forum.",
                 "maintenance_mode_safe": "Down for maintenance with safe mode. Only administrators can access the forum and no extensions are booted."
             },
+            "index_sort": {
+                "az_button": "=> core.ref.title_az",
+                "latest_button": "=> core.ref.latest",
+                "newest_button": "=> core.ref.newest",
+                "oldest_button": "=> core.ref.oldest",
+                "relevance_button": "=> core.ref.relevance",
+                "top_button": "=> core.ref.top",
+                "za_button": "=> core.ref.title_za"
+            },
             "number_suffix": {
                 "kilo_text": "K",
                 "mega_text": "M"
+            },
+            "overflowing_list": {
+                "toggle_accessible_label": "More items"
             },
             "pagination": {
                 "back_button": "Previous page",
@@ -903,6 +955,7 @@
                 "options_heading": "Search options",
                 "placeholder": "Search...",
                 "preview_heading": "Search preview",
+                "search_active_button_accessible_label": "Change search: {query}",
                 "search_clear_button_accessible_label": "Clear search query"
             },
             "search_source": {
@@ -1101,6 +1154,7 @@
             "light_hc_mode_label": "Light High Contrast Mode",
             "light_mode_label": "Light Mode",
             "load_more": "Load More",
+            "latest": "Latest",
             "loading": "Loading...",
             "log_in": "Log In",
             "log_out": "Log Out",
@@ -1130,6 +1184,9 @@
             "sign_up": "Sign Up",
             "some_others": "{count, plural, one {# other} other {# others}}",
             "start_a_discussion": "Start a Discussion",
+            "title_az": "Title (A–Z)",
+            "title_za": "Title (Z–A)",
+            "top": "Top",
             "username": "Username",
             "username_or_email_placeholder": "Username or Email",
             "users": "Users",
