@@ -25,8 +25,8 @@
             },
             "settings": {
                 "ignore_crawlers": "Keresőrobotok figyelmen kívül hagyása",
-                "dedupe_ttl": "",
-                "dedupe_ttl_help": ""
+                "dedupe_ttl": "Eltelt másodpercek, mely után egy megtekintő újra számít",
+                "dedupe_ttl_help": "Mennyi ideig legyen egy megtekintő megjegyezve egy téma megtekintése után, hogy így a frissítés vagy visszatérés ne számítson újra. Állítsa 0-ra az összes megtekintés számolásához."
             }
         },
         "lib": {
