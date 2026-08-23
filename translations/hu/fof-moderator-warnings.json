@@ -33,7 +33,7 @@
                 "warnings": "Figyelmeztetések"
             },
             "settings": {
-                "warning_notification_label": "Egy moderátor figyelmeztetett"
+                "warning_notification_label": "Egy moderátor figyelmeztet"
             },
             "validation": {
                 "public_comment_required": "Nyilvános megjegyzést kell tennie.",
@@ -58,7 +58,7 @@
                 "linked_post": "Hozzákapcsolt bejegyzés"
             },
             "warning_modal": {
-                "confirmation_message": "A figyelmeztetés mentve. Lehet, hogy újra kell töltenie a lapot, hogy lássa.",
+                "confirmation_message": "A figyelmeztetés mentve.",
                 "heading": "<strong>{username}</strong> figyelmeztetése",
                 "strikes_heading": "Hány büntetőpontot kapjon?",
                 "public_comment_heading": "<strong>{username}</strong> miért kapja ezeket a figyelmeztetéseket? Ezek a megjegyzések láthatók lesznek a felhasználó, és a többi moderátor számára.",
@@ -71,10 +71,10 @@
         "lib": {
             "browser": {
                 "warning": {
-                    "created": "",
-                    "hidden": "",
-                    "restored": "",
-                    "deleted": ""
+                    "created": "{username} figyelmeztetve",
+                    "hidden": "{username} figyelmeztetése eltávolítva",
+                    "restored": "{username} figyelmeztetése helyreállítva",
+                    "deleted": "{username} figyelmeztetése véglegesen törölve"
                 }
             }
         }
