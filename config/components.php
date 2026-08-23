@@ -204,7 +204,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/flarum/emoji/v2.0.0-rc.6/locale/en.yml',
 	],
 	'flarum-extension-manager' => [
-		'beta' => 'https://raw.githubusercontent.com/flarum/extension-manager/v2.0.0-rc.5/locale/en.yml',
+		'beta' => 'https://raw.githubusercontent.com/flarum/extension-manager/v2.0.0-rc.6/locale/en.yml',
 	],
 	'flarum-flags' => [
 		'beta' => 'https://raw.githubusercontent.com/flarum/flags/v2.0.0-rc.5/locale/en.yml',
