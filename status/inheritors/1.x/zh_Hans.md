@@ -2,7 +2,7 @@
 
 Translations for Chinese (Simplified) (`zh_Hans`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **567** are translated differently and **1548** are
+sides, but do not match between them: **559** are translated differently and **1548** are
 translated only in `zh_Hans`. Altogether they cover **113** components.
 
 <!-- {% raw %} -->
@@ -14,7 +14,7 @@ translated only in `zh_Hans`. Altogether they cover **113** components.
 | --- | --- | --- |
 | `acpl-lscache` | [3](#acpl-lscache) | [8](#acpl-lscache-missing) |
 | `antoinefr-money` | [7](#antoinefr-money) | 0 |
-| `core` | [47](#core) | 0 |
+| `core` | [40](#core) | 0 |
 | `datitisev-backup` | [28](#datitisev-backup) | 0 |
 | `datlechin-birthdays` | [1](#datlechin-birthdays) | 0 |
 | `datlechin-more-discussions` | [5](#datlechin-more-discussions) | 0 |
@@ -39,7 +39,7 @@ translated only in `zh_Hans`. Altogether they cover **113** components.
 | `flarum-sticky` | [5](#flarum-sticky) | 0 |
 | `flarum-subscriptions` | [16](#flarum-subscriptions) | 0 |
 | `flarum-suspend` | [12](#flarum-suspend) | 0 |
-| `flarum-tags` | [31](#flarum-tags) | 0 |
+| `flarum-tags` | [30](#flarum-tags) | 0 |
 | `flectar-turnstile` | [2](#flectar-turnstile) | 0 |
 | `fof-analytics` | [4](#fof-analytics) | 0 |
 | `fof-anti-spam` | [47](#fof-anti-spam) | [2](#fof-anti-spam-missing) |
@@ -302,69 +302,6 @@ Flarum <del>维护着一份《&lt;a&gt;停止维护的扩展程序清单&lt;/a&g
 ```
 
 SMTP <del>设置</del><ins>服务</ins>
-
-#### [`core.admin.nav.categories.discussion`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.nav.categories.discussion%22)
-
-> Discussion
-
-```diff
--主题
-+讨论
-```
-
-#### [`core.admin.nav.search_placeholder`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.nav.search_placeholder%22)
-
-> Search Extensions
-
-```diff
--搜索
-+搜索扩展
-```
-
-#### [`core.admin.permissions.allow_renaming_label`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.permissions.allow_renaming_label%22)
-
-> Allow renaming
-
-```diff
--更改自己的主题标题
-+更改自己的讨论标题
-```
-
-#### [`core.admin.permissions.delete_discussions_forever_label`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.permissions.delete_discussions_forever_label%22)
-
-> Delete discussions forever
-
-```diff
--永久删除主题
-+永久删除讨论
-```
-
-#### [`core.admin.permissions.delete_discussions_label`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.permissions.delete_discussions_label%22)
-
-> Delete discussions
-
-```diff
--删除主题
-+删除讨论
-```
-
-#### [`core.admin.permissions.description`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.permissions.description%22)
-
-> Configure who can see and do what.
-
-```diff
--设置各用户组访问及操作权限
-+配置用户的查看与操作权限。
-```
-
-#### [`core.admin.permissions.rename_discussions_label`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.permissions.rename_discussions_label%22)
-
-> Rename discussions
-
-```diff
--更改主题标题
-+更改讨论标题
-```
 
 #### [`core.admin.permissions.start_discussions_label`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.permissions.start_discussions_label%22)
 
@@ -2198,15 +2135,6 @@ Cluster<del> 集群</del>
 ```diff
 -不受标签数量限制
 +绕过标签数量限制
-```
-
-#### [`flarum-tags.admin.permissions.restrict_by_tag_heading`](https://weblate.rob006.net/translate/flarum2/flarum-tags/zh_Hans/?q=context%3A%3D%22flarum-tags.admin.permissions.restrict_by_tag_heading%22)
-
-> Restrict by Tag
-
-```diff
--按标签分类
-+按标签限制
 ```
 
 #### [`flarum-tags.admin.permissions.tag_discussions_label`](https://weblate.rob006.net/translate/flarum2/flarum-tags/zh_Hans/?q=context%3A%3D%22flarum-tags.admin.permissions.tag_discussions_label%22)
