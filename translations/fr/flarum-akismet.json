@@ -3,7 +3,7 @@
         "admin": {
             "akismet_settings": {
                 "api_key_label": "Clé API",
-                "invalid_api_key_message": "",
+                "invalid_api_key_message": "Akismet a rejeté cette clé API. Vérifiez-la dans votre compte Akismet, puis réessayez.",
                 "title": "Paramètres d'Akismet",
                 "delete_blatant_spam_label": "Supprimer automatiquement les messages indésirables flagrants",
                 "delete_blatant_spam_help": "Si Akismet a déterminé que le commentaire est un message indésirable flagrant, il supprimera automatiquement le message au lieu de le signaler"
