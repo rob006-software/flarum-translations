@@ -28,7 +28,28 @@
             "complete": "Import complete",
             "failed": "Import failed",
             "shared_note": "Runs in small batches straight from your browser — no queue worker or SSH needed, so it works on shared hosting. Keep this tab open; if it's interrupted, reopen this page and it resumes where it left off.",
-            "import_another": "Import another"
+            "import_another": "Import another",
+            "redirects": {
+                "title": "Keep the old links working",
+                "intro": "Your old forum's addresses are in Google, in bookmarks, and in every post that ever linked to a discussion. Turn this on and Flarum answers them — each old topic, tag and profile URL sends people to wherever that content ended up, with a permanent redirect so search engines move the ranking across instead of dropping it.\n",
+                "loading": "Checking what this forum has to redirect…",
+                "no_runs": "Nothing to redirect yet. Once an import has finished, this is where you point the old forum's addresses at their new homes.",
+                "run": "Use the map from",
+                "run_option": "Import #{id} — {source}, {topics} topics",
+                "source": "Old forum's addresses looked like",
+                "source_help": "Usually the platform you imported from. Change it if the links out in the world came from an earlier one — vBulletin 3, 4 and 5 all import the same way but serve completely different URLs.",
+                "unknown_source": "No address patterns are known for that platform, so there is nothing to match against.",
+                "examples_intro": "Real addresses from your import, resolved right now — these are exactly what visitors will get:",
+                "no_examples": "This import's map has nothing to preview.",
+                "unresolved": "nothing to send it to",
+                "on": "Redirects are on",
+                "off": "Redirects are off",
+                "note": "Only ever runs on a page Flarum could not answer itself, so it can never take over an address your forum already serves. Nothing is rewritten and nothing is stored — old links are matched as they arrive.",
+                "error_empty_map": "That import has no id map left — it was reset, so there is nothing to look anything up in.",
+                "error_no_such_run": "That import no longer exists.",
+                "error_unknown_source": "No address patterns are known for that platform.",
+                "error_failed": "Could not save. Please try again."
+            }
         }
     }
 }
