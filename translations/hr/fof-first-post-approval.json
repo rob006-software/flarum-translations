@@ -2,15 +2,15 @@
     "fof-first-post-approval": {
         "admin": {
             "permissions": {
-                "bypass": ""
+                "bypass": "Objavljivanje bez odobrenja prvih objava"
             },
             "settings": {
-                "discussionCount": "",
-                "discussionCount_help": "",
-                "postCount": "",
-                "postCount_help": "",
-                "restrictPrivateDiscussions": "",
-                "restrictPrivateDiscussions_help": ""
+                "discussionCount": "Broj prvih rasprava koje zahtijevaju odobrenje",
+                "discussionCount_help": "Postavite na 0 ako želite da odobrenje novih rasprava ovisi o broju objava.",
+                "postCount": "Broj prvih objava koje zahtijevaju odobrenje",
+                "postCount_help": "Nakon što korisniku bude odobren ovaj broj objava, njegove sljedeće objave bit će odmah objavljene.",
+                "restrictPrivateDiscussions": "Onemogući privatne rasprave do odobrenja",
+                "restrictPrivateDiscussions_help": "Privatne rasprave nije moguće zadržati na odobrenju, pa korisnici koji još podliježu odobravanju prvih objava ne mogu pokretati privatne rasprave. Isključite ovu opciju ako im želite omogućiti slobodno pokretanje privatnih rasprava."
             }
         }
     }
