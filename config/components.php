@@ -240,7 +240,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/flarum/statistics/v2.0.0-rc.6/locale/en.yml',
 	],
 	'flarum-sticky' => [
-		'beta' => 'https://raw.githubusercontent.com/flarum/sticky/v2.0.0-rc.5/locale/en.yml',
+		'beta' => 'https://raw.githubusercontent.com/flarum/sticky/v2.0.0-rc.6/locale/en.yml',
 	],
 	'flarum-subscriptions' => [
 		'beta' => 'https://raw.githubusercontent.com/flarum/subscriptions/v2.0.0-rc.5/locale/en.yml',
