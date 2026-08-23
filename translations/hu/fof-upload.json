@@ -30,52 +30,52 @@
                 "disable-download-logging": "A fórum felhasználóinak letöltéseinek naplózásának letiltása. Az engedélyezve tartás lehetővé teszi, hogy a közeljövőben megtekintse a letöltések számát, és más metrikákat.\n",
                 "disable-hotlink-protection": "A hivatkozásvédelem megakadályozza a más oldalakon lévő letöltések megnyitását. A jelenlegi módszer CSRF tokent és bejegyzésazonosítót igényel.\n",
                 "download_templates": "A letöltési sablonok kezelik, hogy a feltöltések hogyan jelennek meg a fórumban, például milyen előnézet vagy gombok jelennek meg. Jelenleg elérhető:\n",
-                "mime_types": "Itt állítsa be a hozzárendeléseit. Minden egyes MIME-típus reguláris kifejezését egy konkrét feltöltési adapter és letöltési sablon fogja kezelni.\nMinden egyes bejegyzéshez engedélycímke (például „Képek”, „Videók”) adható, melyek dedikált engedélyt adnak az engedélyrácshoz.\nEzzel csoportokra korlátozhatók az egyes fájltípusok feltöltése – az alapvető „Fájlok feltöltése” engedély mindig szükséges.\n",
-                "mime_order": "",
+                "mime_types": "Döntse el, hogy mely fájlok tagjai tölthessenek fel, hol legyenek tárolva és hogyan jelenjenek meg a bejegyzésekben.\n",
+                "mime_order": "A szabályok felülről lefelé lesznek alkalmazva, és az első egyezés nyer, így a specifikusabb szabályokat helyezze az általánosak fölé.\n",
                 "resize": "Válassza ki, hogy átméretezi-e a képeket a feltöltésük előtt. Képpontokban megadhat egy szélesség- és magasságkorlátot. Az átméretezési folyamat megtartja a képek képarányát.\n",
                 "client_extension": "Alapértelmezés szerinte a Feltöltés a MIME-típus alapján választ egy biztonságos fájlkiterjesztést.\nEgyes ZIP vagy bináris adatokat tartalmazó fájltípusoknál ez általános fájlkiterjesztéseket eredményezhet a várt helyett.\nItt megadhatja a fájlkiterjesztések vesszőkkel elválasztott listáját, amelyeknél az eredeti formában marad meg a kiterjesztés.\n",
                 "thumbnails": "Kis méretű bélyegképek létrehozása a képekhez a feltöltés idején. A bélyegkép jelenik meg soron belül;\nrákattintással nyitható meg új lapon a teljes felbontású kép. A bélyegképek jelentősen\ncsökkentik a sok nagy képpel rendelkező fórumok forgalmát és lapméretét.\n",
-                "thumbnail_quality": "",
+                "thumbnail_quality": "Kódolási minőség 1 és 100 között, a WebP és JPEG bélyegképekre alkalmazva. A magasabb értékek\nélesebb, de nagyobb fájlokat eredményeznek. A GIF és PNG bélyegképek veszteségmentesek, és\nfigyelmen kívül hagyják ezt a beállítást. A meglévő bélyegképek megtartják a jelenlegi\nminőségüket, amíg újból elő nem állítja őket a backfill paranccsal.\n",
                 "watermark": "Válasszon, hogy a képek vízjelet kapjanak-e feltöltéskor. A vízjelek a nem GIF képekhez lesznek adva, a lenti beállítások alapján.\n",
-                "storage_intro": "",
-                "storage_configure_another": "",
-                "storage_not_installed": "",
-                "local_cdn": "",
-                "s3_provider": "",
-                "s3_endpoint": "",
-                "s3_acl": "A feltöltött objektumra alkalmazandó ACL (alapértelmezett: privát). A lehetséges értékekhez lásd: https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
-                "s3_acl_unsupported": "",
-                "s3_path_style": "",
-                "custom_s3_url": "Akkor használja ezt a beállítást, ha olyan S3-mal kompatibilis szolgáltatást használ (például a Backblaze B2), amelyhez adott webcímformátum szükséges; vagy ha problémákat tapasztal az alapértelmezett webcímformátummal. Ez a beállítás a legtöbb szolgáltatás esetén nem szükséges. Győződjön meg arról, hogy a webcím tartalmazza a protokollt (https://), és hogy helyesen van formázva. Például: https://sajat-tarolo.s3.sajat-regio.backblazeb2.com\n",
-                "s3_instance_profile": "Hagyja a kulcsot és a titkot üresen, hogy a példány profiljában lévő hitelesítő adatokat használja.\n",
+                "storage_intro": "Itt jelennek meg a beállított vagy egy fájltípus által használt szolgáltatások. Azelőtt beállíthat\negy szolgáltatást, hogy azt egy fájltípus használná – rendelje hozzá a Fájlok lapon, ha készen áll.\n",
+                "storage_configure_another": "Az egyéb telepített tárolószolgáltatások, melyek még nincsenek beállítva. A beállítás addig nem változtat\na fájlokon, amíg nem rendeli egy fájltípushoz.\n",
+                "storage_not_installed": "Az Amazon S3-at, Cloudflare R2-t vagy a Qiniut keresi? Azokhoz további csomagra van szükség – lásd: <a>tárolóadapterek telepítése</a>.",
+                "local_cdn": "Nem kötelező. Ha az <code>assets/files</code> tartalmát CDN-nel szolgálja ki, adja meg az alapwebcímét, és a feltöltött\nfájlok hivatkozásai azt fogják használni. Hagyja üresen, hogy közvetlenül a fórumjáról szolgálja ki a fájlokat.\n",
+                "s3_provider": "A szolgáltató kiválasztása beállítja lentebb a végponti formátumot, a címzési stílust és az ACL-ek támogatását. Válassza\naz „Egyéb S3-mal kompatibilis” lehetőséget, ha az Öné nem szerepel.\n",
+                "s3_endpoint": "A szolgáltató S3 API-webcíme – nem a tároló nyilvános webcíme. Az Amazon S3-hoz nem szükséges.\n",
+                "s3_acl": "A feltöltött objektumokra alkalmazandó ACL. Hagyja üresen a szolgáltató alapértelmezéséhez (általában privát).\nHasználja a <code>public-read</code> lehetőséget, ha a fájloknak közvetlenül olvashatónak kell lenniük a tárolóból.\n",
+                "s3_acl_unsupported": "A(z) {provider} nem támogatja az ACL-eket. A nyilvános hozzáférést a szolgáltató saját vezérlőpultján kell beállítani.\n",
+                "s3_path_style": "A tárolót a webcím elérési útjára teszi, nem a gépnévére. A MinIO és a Cloudflare R2 esetén szükséges;\nautomatikusan be lesz állítva, amikor szolgáltatót választ.\n",
+                "custom_s3_url": "A kiszolgált fájlok nyilvános alapwebcíme – a tároló elé helyezett CDN vagy egyéni domain.\nHagyj üresen a szolgáltató alapértelmezett webcímének használatához. Tartalmaznia kell\na <code>https://</code> részletet.\n",
+                "s3_instance_profile": "Hagyja mindkettőt üresen egy IAM szerepkör használatához – csak EC2, ECS vagy EKS esetén működik.\n",
                 "composer_buttons": "Alapértelmezetten a médiakezelő és a feltöltés gomb is látható. Választhat, hogy csak az egyik gomb jelenjen meg.\n",
                 "s3_compatible_storage": "A következő beállítások csak akkor szükségesek, ha S3-mal kompatibilis tárolót használ. Ha AWS-t használt, akkor üresen hagyhatja.\n"
             },
             "tabs": {
-                "files": "",
-                "storage": "",
-                "images": "",
-                "advanced": "",
-                "unsaved_changes": "",
-                "unsaved_hint": ""
+                "files": "Fájlok",
+                "storage": "Tároló",
+                "images": "Képek",
+                "advanced": "Speciális",
+                "unsaved_changes": "Ez a lap mentetlen változtatásokat tartalmaz",
+                "unsaved_hint": "Mentetlen változtatásai vannak."
             },
             "labels": {
                 "storage": {
-                    "configure_another": "",
-                    "hide_unused": ""
+                    "configure_another": "Más tárhelyszolgáltatás beállítása ({count} érhető el)",
+                    "hide_unused": "Nem használt szolgáltatások elrejtése"
                 },
                 "aws-s3": {
                     "bucket": "Tároló",
-                    "key": "Kulcs",
+                    "key": "Hozzáférési kulcsazonosító",
                     "region": "Régió",
-                    "secret": "Titok",
-                    "title": "AWS S3 tárolóbeállítások",
-                    "provider": "",
-                    "advanced_title": "Speciális S3 tárolóbeállítások",
+                    "secret": "Titkos hozzáférési kulcs",
+                    "title": "S3 tároló",
+                    "provider": "Szolgáltató",
+                    "advanced_title": "Speciális beállítások",
                     "endpoint": "Végpont",
-                    "use_path_style_endpoint": "Útvonalstílus végpont használata",
+                    "use_path_style_endpoint": "Elérési út stílusú címzés használata",
                     "acl": "Hozzáférés-vezérlési lista (ACL)",
-                    "custom_url": "Egyéni S3 webcím"
+                    "custom_url": "Nyilvános webcím"
                 },
                 "disable-download-logging": {
                     "title": "Letöltések naplózásának letiltása",
@@ -104,43 +104,43 @@
                 "preferences": {
                     "max_file_size": "Legnagyobb fájlméret",
                     "max_file_size_equivalent": "<code>{kb}</code> kB-ként tárolva ({value}).",
-                    "mime_types": "Állítsa be a MIME-típust, és a feltöltési adapter hozzárendelését",
+                    "mime_types": "Fájltípusok",
                     "mime_type_regex_placeholder": "például ^image/(jpeg|png|gif)$",
                     "mime_type_regex_invalid": "Érvénytelen regex (például üres alternatívák, mint a ||)",
-                    "mime_type_permission_placeholder": "Engedélycímke (nem kötelező, például Képek)",
-                    "mime_type_remove": "",
-                    "mime_type_add": "",
-                    "mime_column_pattern": "",
-                    "mime_column_pattern_help": "",
-                    "mime_column_storage": "",
-                    "mime_column_storage_help": "",
-                    "mime_column_display": "",
-                    "mime_column_display_help": "",
-                    "mime_column_permission": "",
-                    "mime_column_permission_help": "",
-                    "mime_move_up": "",
-                    "mime_move_down": "",
-                    "mime_edit_pattern": "",
-                    "mime_use_simple": "",
-                    "mime_advanced_pattern": "",
-                    "mime_add_subtype": "",
-                    "mime_add_subtype_placeholder": "",
-                    "mime_remove_subtype": "",
-                    "mime_add_prompt": "",
-                    "mime_add_custom": "",
+                    "mime_type_permission_placeholder": "Nem kötelező, például Képek",
+                    "mime_type_remove": "E fájltípus eltávolítása",
+                    "mime_type_add": "E fájltípus hozzáadása",
+                    "mime_column_pattern": "Fájltípus",
+                    "mime_column_pattern_help": "A fájltípus, melyre ez a szabály vonatkozik, a fájl MIME-típusával lesz összehasonlítva.",
+                    "mime_column_storage": "Tárolás helye",
+                    "mime_column_storage_help": "Az ilyen fájlok melyik tárolószolgáltatásba lesznek feltöltve.",
+                    "mime_column_display": "Megjelenítés módja",
+                    "mime_column_display_help": "Hogyan jelenik meg a fájl egy bejegyzésben – beágyazott előnézetként, letöltési gombként vagy más módon.",
+                    "mime_column_permission": "Engedélycímke",
+                    "mime_column_permission_help": "Nem kötelező. Egy csoport elnevezése egy engedélyt hoz létre, mellyel korlátozhatja, hogy ki tölthet fel ilyen fájlokat.",
+                    "mime_move_up": "Fentebb helyezés (korábbi illesztés)",
+                    "mime_move_down": "Lentebb helyezés (későbbi illesztés)",
+                    "mime_edit_pattern": "Minta szerkesztése",
+                    "mime_use_simple": "Egyszerű szerkesztő használata",
+                    "mime_advanced_pattern": "Speciális minta",
+                    "mime_add_subtype": "Fájlformátum hozzáadása",
+                    "mime_add_subtype_placeholder": "például webp",
+                    "mime_remove_subtype": "{subtype} eltávolítása",
+                    "mime_add_prompt": "Fájltípusok hozzáadása…",
+                    "mime_add_custom": "Egyéni minta…",
                     "title": "Általános beállítások",
                     "php_ini_values": "A <code>php.ini</code> fájlban a <code>post_max_size={post}</code> és <code>upload_max_filesize={upload}</code> van beállítva. Győződjön meg róla, hogy az itt beállított értékek ezeknél kisebb, vagy állítsa be őket megfelelően. Ha <code>Nginx</code>-et használ, akkor győződjön meg arról is, hogy a <code>client_max_body_size</code> elégséges méretű a választott felső korláthoz képest."
                 },
                 "mime_presets": {
-                    "images": "",
-                    "pdf": "",
-                    "documents": "",
-                    "spreadsheets": "",
-                    "archives": "",
-                    "audio": "",
-                    "video": "",
-                    "title": "",
-                    "php_ini_values": ""
+                    "images": "Képek",
+                    "pdf": "PDF-dokumentumok",
+                    "documents": "Szöveges dokumentumok",
+                    "spreadsheets": "Munkafüzetek",
+                    "archives": "Archívumok (zip, tar, 7z)",
+                    "audio": "Hang",
+                    "video": "Videó",
+                    "title": "Általános beállítások",
+                    "php_ini_values": "A <code>php.ini</code> értékei: <code>post_max_size={post}</code> és <code>upload_max_filesize={upload}</code>. Győződjön meg róla, hogy az itt beállított értékek ezen korlátok alatt vannak, vagy módosítsa őket ezeknek megfelelően. Ha <code>Nginx</code> webkiszolgálót használ, biztosítsa azt is, hogy a <code>client_max_body_size</code> értéke a választott felső korlátnak megfelelő méretű."
                 },
                 "resize": {
                     "max_width": "Legnagyobb képszélesség és magasság",
@@ -149,14 +149,14 @@
                 },
                 "client_extension": {
                     "title": "Felhasználó által megadott fájlkiterjesztések",
-                    "placeholder": ""
+                    "placeholder": "például docx, xlsx, epub"
                 },
                 "thumbnails": {
                     "title": "Bélyegképek",
                     "toggle": "Bélyegképek előállítása feltöltés során",
                     "webp_toggle": "Bélyegképek kódolása WebP-ként (javasolt, ~30%-kal kisebb)",
                     "max_width": "Bélyegképek legnagyobb szélessége (px)",
-                    "quality": ""
+                    "quality": "Bélyegképek minősége"
                 },
                 "watermark": {
                     "file": "Töltse fel a vízjelképet",
@@ -236,11 +236,11 @@
         "forum": {
             "media_manager": "Médiakezelő",
             "display_name": {
-                "title": "",
-                "title_plural": "",
-                "help": "",
-                "insert": "",
-                "use_file_name": ""
+                "title": "Letöltés elnevezése",
+                "title_plural": "Letöltések elnevezése",
+                "help": "A letöltésen jelenik meg a fájl neve helyett. A fájlnév használatához hagyja változatlanul.",
+                "insert": "Beszúrás",
+                "use_file_name": "Fájlnevek használata"
             },
             "buttons": {
                 "attach": "Csatolás",
@@ -254,8 +254,8 @@
             "states": {
                 "error": "Hiba",
                 "loading": "Feltöltés",
-                "unauthorized": "Nem tölthet le fájlokat",
-                "permission_required": ""
+                "unauthorized": "Nem töltheti le ezt a fájlt",
+                "permission_required": "Engedély szükséges"
             },
             "validation": {
                 "max_size": "A(z) {max} kB-nál nagyobb fájlok nem engedélyezettek."
