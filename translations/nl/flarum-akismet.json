@@ -3,6 +3,7 @@
         "admin": {
             "akismet_settings": {
                 "api_key_label": "API sleutel",
+                "invalid_api_key_message": "",
                 "title": "Akismet instellingen",
                 "delete_blatant_spam_label": "Overduidelijke spam automatisch verwijderen",
                 "delete_blatant_spam_help": "Als Akismet heeft vastgesteld dat de opmerking flagrante spam is, verwijder de post automatisch in plaats van te markeren"

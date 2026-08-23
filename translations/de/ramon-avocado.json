@@ -4,6 +4,14 @@
             "loading": "Wird geladen…",
             "search_tags": "Tags durchsuchen…",
             "settings": {
+                "spinner_option_avocado": "",
+                "spinner_option_orbital": "",
+                "spinner_option_css_orbital": "",
+                "spinner_option_ditie": "",
+                "spinner_option_b2": "",
+                "spinner_option_flarum": "",
+                "spinner_option_pl3": "",
+                "spinner_option_custom": "",
                 "section_homepage": "Homepage",
                 "section_auth": "Anmeldung und Registrierung",
                 "section_search": "Suche",
@@ -70,6 +78,7 @@
                 "custom_hero_enabled_help": "Ersetze den Standardinhalt des Hero-Bereichs (Symbol, Titel, Beschreibung, Schaltflächen „Anmelden“/„Registrieren“) durch deinen eigenen HTML-Code. Der Rahmen des Hero-Banners, das Hintergrundbild und die Überlagerung bleiben unverändert. Wird nur Gästen angezeigt – genau wie der Standard-Hero-Bereich.",
                 "custom_hero_html_label": "Benutzerdefiniertes Hero-HTML",
                 "custom_hero_html_help": "HTML, das in das Hero-Banner-Overlay eingefügt wird (ersetzt .AvocadoHome-heroBannerContent). Inline-Tags vom Typ „<style>“ werden unterstützt.",
+                "custom_hero_html_placeholder": "",
                 "search_v1_label": "Suchleistenstil „V1“ aktivieren",
                 "search_v1_help": "Zeige das Dropdown-Menü für die Inline-Suche anstelle des V2-Modals an.",
                 "bookmarks_enabled_label": "Lesezeichen-System aktivieren",
@@ -173,6 +182,7 @@
             }
         },
         "forum": {
+            "loading": "",
             "back": "Zurück",
             "profile": {
                 "joined": "Beigetreten {date}",
@@ -226,7 +236,8 @@
                 "results_for": "Ergebnisse für",
                 "tip": "Tipp: Präfix ",
                 "tip_suffix": " um nach Tags zu filtern",
-                "esc_key": "ESC"
+                "esc_key": "ESC",
+                "close": ""
             },
             "header": {
                 "back": "Zurück",
@@ -308,7 +319,9 @@
                 "discussion_singular_card": "Eine Diskussion",
                 "discussion_plural_card": "{count} Diskussionen",
                 "yesterday_time": "Gestern, {time}",
-                "showcase_heading": "Vitrine"
+                "showcase_heading": "Vitrine",
+                "ws_update_singular": "",
+                "ws_update_plural": ""
             },
             "discussions": {
                 "title": "Alle Diskussionen",
@@ -370,7 +383,8 @@
                 "message": "Nachricht"
             },
             "post": {
-                "op_badge": "Verfasser"
+                "op_badge": "Verfasser",
+                "copy_code": ""
             },
             "messages": {
                 "deleted_message": "Nachricht gelöscht"
@@ -409,6 +423,22 @@
                 "load_more": "Mehr laden",
                 "online": "Online"
             }
+        },
+        "api": {
+            "invalid_discussion_id": "",
+            "discussion_not_found": "",
+            "invalid_note": "",
+            "note_too_long": "",
+            "invalid_reminder_date": "",
+            "reminder_must_be_future": "",
+            "reminder_too_far": "",
+            "file_not_readable": "",
+            "no_file_uploaded": "",
+            "file_too_large": "",
+            "unsupported_image_type": "",
+            "svg_forbidden_declaration": "",
+            "svg_parse_failed": "",
+            "svg_invalid": ""
         }
     }
 }

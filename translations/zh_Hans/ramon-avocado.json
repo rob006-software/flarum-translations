@@ -4,6 +4,14 @@
             "loading": "加载中…",
             "search_tags": "搜索标签…",
             "settings": {
+                "spinner_option_avocado": "",
+                "spinner_option_orbital": "",
+                "spinner_option_css_orbital": "",
+                "spinner_option_ditie": "",
+                "spinner_option_b2": "",
+                "spinner_option_flarum": "",
+                "spinner_option_pl3": "",
+                "spinner_option_custom": "",
                 "section_homepage": "首页",
                 "section_auth": "登录与注册",
                 "section_search": "搜索",
@@ -70,6 +78,7 @@
                 "custom_hero_enabled_help": "使用自定义HTML内容，替换默认横幅内容，包含：图标、标题、描述、登录/注册按钮。横幅容器、背景图片和遮罩层不变。与默认横幅一样，自定义横幅仅对访客可见。",
                 "custom_hero_html_label": "自定义横幅HTML",
                 "custom_hero_html_help": "HTML内容将嵌入横幅遮罩层，替换.AvocadoHome-heroBannerContent内容。支持使用内链「<style>」标签。",
+                "custom_hero_html_placeholder": "",
                 "search_v1_label": "启用 V1 搜索栏样式",
                 "search_v1_help": "显示内联搜索下拉框而非 V2 弹窗样式。",
                 "bookmarks_enabled_label": "",
@@ -173,6 +182,7 @@
             }
         },
         "forum": {
+            "loading": "",
             "back": "返回",
             "profile": {
                 "joined": "加入于{date}",
@@ -226,7 +236,8 @@
                 "results_for": "结果",
                 "tip": "提示：输入前缀 ",
                 "tip_suffix": " 可以根据标签进行筛选",
-                "esc_key": "ESC键"
+                "esc_key": "ESC键",
+                "close": ""
             },
             "header": {
                 "back": "返回",
@@ -308,7 +319,9 @@
                 "discussion_singular_card": "个话题",
                 "discussion_plural_card": "{count} 个话题",
                 "yesterday_time": "昨天 ，{time}",
-                "showcase_heading": "展示"
+                "showcase_heading": "展示",
+                "ws_update_singular": "",
+                "ws_update_plural": ""
             },
             "discussions": {
                 "title": "所有话题",
@@ -370,7 +383,8 @@
                 "message": ""
             },
             "post": {
-                "op_badge": "楼主"
+                "op_badge": "楼主",
+                "copy_code": ""
             },
             "messages": {
                 "deleted_message": "消息已删除"
@@ -410,6 +424,22 @@
                 "load_more": "加载更多",
                 "online": "在线"
             }
+        },
+        "api": {
+            "invalid_discussion_id": "",
+            "discussion_not_found": "",
+            "invalid_note": "",
+            "note_too_long": "",
+            "invalid_reminder_date": "",
+            "reminder_must_be_future": "",
+            "reminder_too_far": "",
+            "file_not_readable": "",
+            "no_file_uploaded": "",
+            "file_too_large": "",
+            "unsupported_image_type": "",
+            "svg_forbidden_declaration": "",
+            "svg_parse_failed": "",
+            "svg_invalid": ""
         }
     }
 }

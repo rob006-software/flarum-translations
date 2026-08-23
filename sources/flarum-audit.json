@@ -106,6 +106,10 @@
                     "enabled": "Enabled extension {package}",
                     "uninstalled": "Uninstalled extension {package}"
                 },
+                "queue": {
+                    "paused": "Paused queue processing on {queue} ({connection})",
+                    "resumed": "Resumed queue processing on {queue} ({connection})"
+                },
                 "group": {
                     "created": "Created group {name}",
                     "deleted": "Deleted group {name}",

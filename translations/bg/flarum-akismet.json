@@ -3,6 +3,7 @@
         "admin": {
             "akismet_settings": {
                 "api_key_label": "API Ключ",
+                "invalid_api_key_message": "",
                 "title": "Akismet Настройки",
                 "delete_blatant_spam_label": "Автоматично изтрива обидния речник",
                 "delete_blatant_spam_help": "Ако Akismet открие, че този коментар е спам, вместо да го отбележи като такъв, автоматично ще го изтрие"

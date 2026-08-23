@@ -4,6 +4,14 @@
             "loading": "Loading…",
             "search_tags": "Search tags…",
             "settings": {
+                "spinner_option_avocado": "Avocado",
+                "spinner_option_orbital": "Orbital",
+                "spinner_option_css_orbital": "Orbital (CSS)",
+                "spinner_option_ditie": "ditie.online",
+                "spinner_option_b2": "Spinning",
+                "spinner_option_flarum": "Flarum",
+                "spinner_option_pl3": "Pulse",
+                "spinner_option_custom": "Custom",
                 "section_homepage": "Homepage",
                 "section_auth": "Login & Registration",
                 "section_search": "Search",
@@ -70,6 +78,7 @@
                 "custom_hero_enabled_help": "Replace the default hero content (icon, title, description, Login/Sign Up buttons) with your own HTML. The hero banner wrapper, background image and overlay stay intact. Shown to guests only — same as the default hero.",
                 "custom_hero_html_label": "Custom hero HTML",
                 "custom_hero_html_help": "HTML injected inside the hero banner overlay (replaces .AvocadoHome-heroBannerContent). Inline '<style>' tags are supported.",
+                "custom_hero_html_placeholder": "<div class=\"AvocadoHome-heroBannerContent\">\n  <h1 class=\"AvocadoHome-heroBannerTitle\">Welcome!</h1>\n  <p class=\"AvocadoHome-heroBannerDesc\">Anything you want — links, images, buttons.</p>\n</div>",
                 "search_v1_label": "Enable V1 search bar style",
                 "search_v1_help": "Show the inline search dropdown instead of the V2 modal.",
                 "bookmarks_enabled_label": "Enable the bookmark system",
@@ -164,6 +173,7 @@
             }
         },
         "forum": {
+            "loading": "Loading…",
             "back": "Back",
             "profile": {
                 "joined": "Joined {date}",
@@ -217,7 +227,8 @@
                 "results_for": "Results for",
                 "tip": "Tip: prefix ",
                 "tip_suffix": " to filter by tag",
-                "esc_key": "ESC"
+                "esc_key": "ESC",
+                "close": "Close (Escape)"
             },
             "header": {
                 "back": "Back",
@@ -299,7 +310,9 @@
                 "discussion_singular_card": "1 discussion",
                 "discussion_plural_card": "{count} discussions",
                 "yesterday_time": "Yesterday, {time}",
-                "showcase_heading": "Showcase"
+                "showcase_heading": "Showcase",
+                "ws_update_singular": "1 new discussion",
+                "ws_update_plural": "{count} new discussions"
             },
             "discussions": {
                 "title": "All discussions",
@@ -361,7 +374,8 @@
                 "message": "Message"
             },
             "post": {
-                "op_badge": "OP"
+                "op_badge": "OP",
+                "copy_code": "Copy code"
             },
             "messages": {
                 "deleted_message": "Message deleted"
@@ -400,6 +414,22 @@
                 "load_more": "Load more",
                 "online": "Online"
             }
+        },
+        "api": {
+            "invalid_discussion_id": "Invalid discussion id.",
+            "discussion_not_found": "Discussion not found.",
+            "invalid_note": "Invalid note.",
+            "note_too_long": "Note is too long.",
+            "invalid_reminder_date": "Invalid reminder date.",
+            "reminder_must_be_future": "Reminder must be in the future.",
+            "reminder_too_far": "Reminder is too far in the future.",
+            "file_not_readable": "Uploaded file is not readable.",
+            "no_file_uploaded": "No file uploaded.",
+            "file_too_large": "File is too large (max {max}).",
+            "unsupported_image_type": "Unsupported image type.",
+            "svg_forbidden_declaration": "SVG contains a forbidden DOCTYPE or ENTITY declaration.",
+            "svg_parse_failed": "Invalid SVG: could not parse the XML.",
+            "svg_invalid": "The uploaded file must be a valid SVG."
         }
     }
 }

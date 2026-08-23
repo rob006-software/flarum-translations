@@ -4,6 +4,14 @@
             "loading": "Chargement…",
             "search_tags": "Rechercher des étiquettes…",
             "settings": {
+                "spinner_option_avocado": "",
+                "spinner_option_orbital": "",
+                "spinner_option_css_orbital": "",
+                "spinner_option_ditie": "",
+                "spinner_option_b2": "",
+                "spinner_option_flarum": "",
+                "spinner_option_pl3": "",
+                "spinner_option_custom": "",
                 "section_homepage": "Page d'accueil",
                 "section_auth": "Connexion & Inscription",
                 "section_search": "Recherche",
@@ -70,6 +78,7 @@
                 "custom_hero_enabled_help": "Remplacer le contenu du bandeau par défaut (icône, titre, description, boutons « Connexion » et « Inscription ») par votre propre code HTML. Le conteneur de la bannière, l'image d'arrière-plan et la superposition restent inchangés. Affiché uniquement aux invités — comme pour le bandeau par défaut.",
                 "custom_hero_html_label": "Code HTML du bandeau personnalisé",
                 "custom_hero_html_help": "Code HTML inséré dans la superposition de la bannière (remplace .AvocadoHome-heroBannerContent). Les balises « <style> » intégrées sont prises en charge.",
+                "custom_hero_html_placeholder": "",
                 "search_v1_label": "Activer le style de la barre de recherche V1",
                 "search_v1_help": "Afficher le menu déroulant de recherche intégrée à la place de la fenêtre modale V2.",
                 "bookmarks_enabled_label": "Activer le système de favoris",
@@ -164,6 +173,7 @@
             }
         },
         "forum": {
+            "loading": "",
             "back": "Retour",
             "profile": {
                 "joined": "S'est inscrit le {date}",
@@ -217,7 +227,8 @@
                 "results_for": "Résultats pour",
                 "tip": "Astuce : préfixez ",
                 "tip_suffix": " pour filtrer par étiquette",
-                "esc_key": "ÉCHAP"
+                "esc_key": "ÉCHAP",
+                "close": ""
             },
             "header": {
                 "back": "Retour",
@@ -299,7 +310,9 @@
                 "discussion_singular_card": "1 discussion",
                 "discussion_plural_card": "{count} discussions",
                 "yesterday_time": "Hier, {time}",
-                "showcase_heading": "Vitrine"
+                "showcase_heading": "Vitrine",
+                "ws_update_singular": "",
+                "ws_update_plural": ""
             },
             "discussions": {
                 "title": "Toutes les discussions",
@@ -361,7 +374,8 @@
                 "message": "Message"
             },
             "post": {
-                "op_badge": "AO"
+                "op_badge": "AO",
+                "copy_code": ""
             },
             "messages": {
                 "deleted_message": "Message supprimé"
@@ -400,6 +414,22 @@
                 "load_more": "Charger plus",
                 "online": "En ligne"
             }
+        },
+        "api": {
+            "invalid_discussion_id": "",
+            "discussion_not_found": "",
+            "invalid_note": "",
+            "note_too_long": "",
+            "invalid_reminder_date": "",
+            "reminder_must_be_future": "",
+            "reminder_too_far": "",
+            "file_not_readable": "",
+            "no_file_uploaded": "",
+            "file_too_large": "",
+            "unsupported_image_type": "",
+            "svg_forbidden_declaration": "",
+            "svg_parse_failed": "",
+            "svg_invalid": ""
         }
     }
 }

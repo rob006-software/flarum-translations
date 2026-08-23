@@ -3,6 +3,7 @@
         "admin": {
             "akismet_settings": {
                 "api_key_label": "Ключ API",
+                "invalid_api_key_message": "",
                 "title": "Настройки Akismet",
                 "delete_blatant_spam_label": "Автоматически удалять явный спам",
                 "delete_blatant_spam_help": "Если Akismet определит сообщение как явный спам, он автоматически удалит это сообщение."

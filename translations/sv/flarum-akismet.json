@@ -3,6 +3,7 @@
         "admin": {
             "akismet_settings": {
                 "api_key_label": "API-nyckel",
+                "invalid_api_key_message": "",
                 "title": "Inställningar för Akismet",
                 "delete_blatant_spam_label": "Radera påtaglig spam automatiskt",
                 "delete_blatant_spam_help": "Om Akismet har markerat kommentaren som påtaglig spam, radera kommentaren direkt"

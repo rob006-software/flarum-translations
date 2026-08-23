@@ -3,6 +3,7 @@
         "admin": {
             "akismet_settings": {
                 "api_key_label": "Chiave API",
+                "invalid_api_key_message": "",
                 "title": "Impostazioni Akismet",
                 "delete_blatant_spam_label": "Elimina automaticamente lo spam palese",
                 "delete_blatant_spam_help": "Se Akismet ha stabilito che il commento è spam palese, invece di segnalare, elimina automaticamente il post"

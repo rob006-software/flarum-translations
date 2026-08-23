@@ -3,6 +3,7 @@
         "admin": {
             "akismet_settings": {
                 "api_key_label": "API Key",
+                "invalid_api_key_message": "",
                 "title": "Ustawienia Akismeta",
                 "delete_blatant_spam_label": "Automatycznie usuń najbardziej podejrzane posty",
                 "delete_blatant_spam_help": "Jeśli Akismet wykryje, że post jest rażącym spamem, post zostanie automatycznie usunięty zamiast oznaczać go jako spam"
