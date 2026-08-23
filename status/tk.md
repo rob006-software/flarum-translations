@@ -2996,6 +2996,17 @@
 		<td align="center"><a href="https://packagist.org/packages/captchala/flarum/stats">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum2/captchala-flarum/tk/"><img src="https://weblate.rob006.net/widgets/flarum2/tk/captchala-flarum/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/forumaker/VK-Oauth" title="forumaker/vk-oauth"><code>forumaker/vk-oauth</code></a>
+		</td>
+		<td align="center">271</td>
+		<td align="center"><a href="https://packagist.org/packages/forumaker/vk-oauth/stats">0</a></td>
+		<td align="center"><a href="https://packagist.org/packages/forumaker/vk-oauth/stats">0</a></td>
+		<td align="center"><a href="https://packagist.org/packages/forumaker/vk-oauth/stats">0</a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum2/forumaker-vk-oauth/tk/"><img src="https://weblate.rob006.net/widgets/flarum2/tk/forumaker-vk-oauth/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
 </tbody>
 </table>
 
