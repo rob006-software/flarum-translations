@@ -246,7 +246,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/flarum/subscriptions/v2.0.0-rc.6/locale/en.yml',
 	],
 	'flarum-suspend' => [
-		'beta' => 'https://raw.githubusercontent.com/flarum/suspend/v2.0.0-rc.5/locale/en.yml',
+		'beta' => 'https://raw.githubusercontent.com/flarum/suspend/v2.0.0-rc.6/locale/en.yml',
 	],
 	'flarum-tags' => [
 		'beta' => 'https://raw.githubusercontent.com/flarum/tags/v2.0.0-rc.5/locale/en.yml',
