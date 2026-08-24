@@ -50,8 +50,8 @@
                     "cdn_url_help": "Полный URL CSS-файла Font Awesome на CDN",
                     "kit_url_label": "URL набора",
                     "kit_url_help": "URL скрипта вашего набора с kit.fontawesome.com",
-                    "forced_style_label": "",
-                    "forced_style_help": "",
+                    "forced_style_label": "Стиль иконок",
+                    "forced_style_help": "Принудительно применяет к каждой иконке определённый стиль FontAwesome, например «fa-duotone fa-light» или «fa-regular». Заменяет стили ядра и расширений — при этом иконки брендов никогда не меняются. Источник иконок должен поддерживать нужный стиль: встроенные иконки — это FontAwesome Free, которые вне стиля Solid покрывают лишь несколько сотен иконок, поэтому принудительное указание другого стиля оставит большинство иконок пустыми. Все стили доступны при подключении FontAwesome Pro через CDN или Kit. Оставьте пустым, чтобы отключить.",
                     "config_override": {
                         "label": "Переопределение конфигурации",
                         "help": "Настройки Font Awesome заданы в файле config.php и не могут быть изменены здесь."
@@ -69,10 +69,10 @@
                     "search_configuration": "Конфигурация поиска"
                 },
                 "queue": {
-                    "pause_label": "",
-                    "pause_all_label": "",
-                    "pause_queue_label": "",
-                    "pause_help": "",
+                    "pause_label": "Приостановить обработку очереди",
+                    "pause_all_label": "Приостановить все очереди",
+                    "pause_queue_label": "Приостановить очередь «{queue}»",
+                    "pause_help": "Пока обработка приостановлена, воркеры не берут новые задачи из затронутых очередей — задачи накапливаются до возобновления обработки. На уже выполняющиеся задачи это не влияет.",
                     "section_label": "Очередь",
                     "sync_info": "Форум использует синхронный драйвер очереди. Задачи выполняются сразу в основном процессе.",
                     "sync_help": "Для повышения производительности и удобства пользователей рекомендуется использовать драйвер очереди с использованием базы данных. Подробнее в документации.",
@@ -96,8 +96,8 @@
                         "default": "Стандартный поиск в базе данных"
                     },
                     "no_other_drivers": "Другие драйверы поиска пока недоступны. Установите расширение драйвера поиска, чтобы настроить его.",
-                    "cjk_mode_label": "",
-                    "cjk_mode_help": ""
+                    "cjk_mode_label": "Оптимизировать поиск для CJK",
+                    "cjk_mode_help": "Включите, если ваш форум на китайском, японском или корейском языке. Полнотекстовый поиск базы данных ищет по словам и не может находить совпадения внутри иероглифического текста, поэтому эта опция переключает его на посимвольное сравнение подстрок. На очень крупных форумах это работает медленнее. Более быстрая альтернатива — настроить на уровне базы данных парсер полнотекстового поиска с поддержкой CJK, например ngram-парсер MySQL/MariaDB."
                 },
                 "title": "Расширенные"
             },
@@ -126,8 +126,8 @@
                 "logo_text": "Загрузите изображение, которое будет отображаться вместо названия форума.",
                 "logo_dark_mode_heading": "Логотип для тёмной темы",
                 "logo_dark_mode_text": "Загрузите альтернативный логотип для тёмной темы.",
-                "show_theme_selector_help": "",
-                "show_theme_selector_label": "",
+                "show_theme_selector_help": "Позволяет переключаться между доступными темами в шапке форума.",
+                "show_theme_selector_label": "Показывать переключатель темы",
                 "title": "Оформление",
                 "color_scheme_label": "Цветовая схема по умолчанию",
                 "color_schemes": {
@@ -206,25 +206,25 @@
                 "view_all": "Все анонсы на discuss.flarum.org"
             },
             "queue_widget": {
-                "title": "",
-                "pending": "",
-                "reserved": "",
-                "failed": "",
-                "refresh": ""
+                "title": "Очередь",
+                "pending": "В ожидании",
+                "reserved": "Выполняется",
+                "failed": "Ошибки",
+                "refresh": "Обновить"
             },
             "failed_jobs": {
-                "title": "",
-                "none": "",
-                "meta": "",
-                "details": "",
-                "retry": "",
-                "retry_all": "",
-                "delete": ""
+                "title": "Неудачные задачи",
+                "none": "Неудачных задач нет.",
+                "meta": "Очередь {queue} · сбой {time}",
+                "details": "Подробности",
+                "retry": "Повторить",
+                "retry_all": "Повторить все",
+                "delete": "Удалить"
             },
             "dashboard": {
-                "queue_paused_warning": "",
-                "queue_paused_all_warning": "",
-                "queue_paused_manage": "",
+                "queue_paused_warning": "Обработка очереди {queues} приостановлена. Задачи будут накапливаться до возобновления обработки.",
+                "queue_paused_all_warning": "Обработка всех очередей приостановлена. Задачи будут накапливаться до возобновления обработки.",
+                "queue_paused_manage": "Управление",
                 "clear_cache_button": "Очистить кэш",
                 "description": "Панель управления форумом.",
                 "info_button": "Сведения о системе",
@@ -272,8 +272,8 @@
                 "label": "Несоответствие драйвера базы данных"
             },
             "database-version-warning": {
-                "below-recommended-detail": "",
-                "below-recommended-label": ""
+                "below-recommended-detail": "Ваш сервер {server} работает на версии <code>{version}</code>. Она поддерживается, но для максимальной производительности и получения обновлений рекомендуем {server} <code>{recommended}</code> или новее. Подробнее в <link>документации Flarum</link>.\n",
+                "below-recommended-label": "Версия базы данных устарела"
             },
             "debug-warning": {
                 "detail": "При активном режиме <code>отладки</code> Flarum будет перестраивать <code>JavaScript</code> и <code>CSS</code> при каждом запросе. Это может привести к утечке потенциально важной информации, например, паролей баз данных, переменных окружения и другого.\n\nНастоятельно рекомендуется отключить режим <code>отладки</code> в вашем файле <code>config.php</code>. Дополнительную информацию смотрите в <link>документации Flarum</link>.\n",
@@ -617,7 +617,7 @@
                 "session_dropdown_accessible_label": "Меню опций сеанса",
                 "settings_button": "=> core.ref.settings",
                 "sign_up_link": "=> core.ref.sign_up",
-                "theme_switcher_accessible_label": ""
+                "theme_switcher_accessible_label": "Сменить тему"
             },
             "index": {
                 "all_discussions_link": "=> core.ref.all_discussions",
@@ -631,14 +631,14 @@
                 "toggle_sidenav_dropdown_accessible_label": "Меню навигации"
             },
             "index_sort": {
-                "az_button": "",
-                "latest_button": "По обновлению",
+                "az_button": "=> core.ref.title_az",
+                "latest_button": "=> core.ref.latest",
                 "newest_button": "=> core.ref.newest",
                 "oldest_button": "=> core.ref.oldest",
                 "relevance_button": "=> core.ref.relevance",
                 "toggle_dropdown_accessible_label": "Изменить сортировку списка тем",
-                "top_button": "Популярное",
-                "za_button": ""
+                "top_button": "=> core.ref.top",
+                "za_button": "=> core.ref.title_za"
             },
             "log_in": {
                 "forgot_password_link": "Забыли пароль?",
