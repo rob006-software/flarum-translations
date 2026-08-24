@@ -23,9 +23,9 @@
                 "trim_monitored": "Ajuster les tâches surveillées",
                 "trim_monitored_help": "Ce tableau est utilisé pour afficher les tâches surveillées dans le tableau de bord d'Horizon.\n",
                 "supervisor_title": "Paramètres du processus",
-                "supervisor_help": "",
+                "supervisor_help": "Horizon exécute vos processus de file d'attente selon des profils hiérarchisés (standard, rapide,\nlong, courriels). Le nombre de processus, la mémoire et les files d'attente sont configurés pour chaque\ndéploiement via les variables d'environnement REDIS_HORIZON_*, le fichier « config.php » (sous\nla clé « horizon ») ou l'extension Horizon dans extend.php — consultez le\nfichier README de l'extension. Redémarrez Horizon après avoir modifié la configuration des processus.\n",
                 "memory_limit": "Limite de mémoire du processus maître (Mo)",
-                "memory_limit_help": ""
+                "memory_limit_help": "Limite de mémoire pour le processus maître de supervision d'Horizon. Horizon l'augmente\nautomatiquement pour atteindre le budget le plus élevé alloué aux processus, vous n'avez donc que rarement besoin\nde la définir manuellement.\n"
             },
             "stats": {
                 "queue_heading": "File d'attente",
@@ -38,9 +38,9 @@
                     "fetch_failed": "Impossible de récupérer les statistiques Horizon. Veuillez vérifier votre configuration Redis.",
                     "setup_docs": "Consulter la documentation relative à la configuration de Redis"
                 },
-                "eviction_pressure": "",
-                "eviction_policy_tooltip": "",
-                "eviction_warning": "",
+                "eviction_pressure": "Pression sur la mémoire",
+                "eviction_policy_tooltip": "La politique d'éviction détermine la manière dont le magasin sélectionne les éléments à supprimer lorsque la limite « maxmemory » est atteinte. Le paramètre par défaut est « noeviction » : les nouvelles valeurs ne sont pas enregistrées lorsque la limite de mémoire est atteinte. Cliquez ici pour consulter la documentation.",
+                "eviction_warning": "L'utilisation de la mémoire s'élève à {usage} % de maxmemory et la politique d'éviction est « {policy} ». Par conséquent, des clés — y compris potentiellement des données de la file d'attente — pourraient être supprimées prochainement. Augmentez la valeur de maxmemory ou déplacez la file d'attente vers une base de données dédiée disposant d'une marge plus importante.",
                 "health": {
                     "excellent": "Excellent",
                     "good": "Bien",
@@ -50,7 +50,7 @@
                     "factor": {
                         "status": "Horizon est {value}",
                         "wait": "Longue file d'attente : {value}",
-                        "memory": ""
+                        "memory": "Pression sur la mémoire de Redis : {value}"
                     },
                     "tooltip": "Note de santé du système : {score}/100"
                 },
