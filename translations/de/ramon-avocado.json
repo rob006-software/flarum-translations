@@ -425,20 +425,20 @@
             }
         },
         "api": {
-            "invalid_discussion_id": "",
-            "discussion_not_found": "",
-            "invalid_note": "",
-            "note_too_long": "",
-            "invalid_reminder_date": "",
-            "reminder_must_be_future": "",
-            "reminder_too_far": "",
-            "file_not_readable": "",
-            "no_file_uploaded": "",
-            "file_too_large": "",
-            "unsupported_image_type": "",
-            "svg_forbidden_declaration": "",
-            "svg_parse_failed": "",
-            "svg_invalid": ""
+            "invalid_discussion_id": "Ungültige Diskussions-ID.",
+            "discussion_not_found": "Diskussion nicht gefunden.",
+            "invalid_note": "Ungültige Notiz.",
+            "note_too_long": "Notiz zu lang.",
+            "invalid_reminder_date": "Ungültiges Erinnerungsdatum.",
+            "reminder_must_be_future": "Erinnerung muss in der Zukunft liegen.",
+            "reminder_too_far": "Erinnerung liegt zu weit in der Zukunft.",
+            "file_not_readable": "Die hochgeladene Datei ist nicht lesbar.",
+            "no_file_uploaded": "Keine Datei hochgeladen.",
+            "file_too_large": "Die Datei ist zu groß (max {max}).",
+            "unsupported_image_type": "Nicht unterstützter Bildtyp.",
+            "svg_forbidden_declaration": "Die SVG-Datei enthält eine unzulässige DOCTYPE- oder ENTITY-Deklaration.",
+            "svg_parse_failed": "Ungültiges SVG: Das XML konnte nicht analysiert werden.",
+            "svg_invalid": "Die hochgeladene Datei muss ein gültiges SVG sein."
         }
     }
 }
