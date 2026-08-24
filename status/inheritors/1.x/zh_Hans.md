@@ -2,7 +2,7 @@
 
 Translations for Chinese (Simplified) (`zh_Hans`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **559** are translated differently and **1548** are
+sides, but do not match between them: **558** are translated differently and **1540** are
 translated only in `zh_Hans`. Altogether they cover **113** components.
 
 <!-- {% raw %} -->
@@ -14,7 +14,7 @@ translated only in `zh_Hans`. Altogether they cover **113** components.
 | --- | --- | --- |
 | `acpl-lscache` | [3](#acpl-lscache) | [8](#acpl-lscache-missing) |
 | `antoinefr-money` | [7](#antoinefr-money) | 0 |
-| `core` | [40](#core) | 0 |
+| `core` | [39](#core) | 0 |
 | `datitisev-backup` | [28](#datitisev-backup) | 0 |
 | `datlechin-birthdays` | [1](#datlechin-birthdays) | 0 |
 | `datlechin-more-discussions` | [5](#datlechin-more-discussions) | 0 |
@@ -62,7 +62,7 @@ translated only in `zh_Hans`. Altogether they cover **113** components.
 | `fof-gamification` | [13](#fof-gamification) | 0 |
 | `fof-geoip` | [1](#fof-geoip) | [47](#fof-geoip-missing) |
 | `fof-github-sponsors` | 0 | [4](#fof-github-sponsors-missing) |
-| `fof-horizon` | [1](#fof-horizon) | [15](#fof-horizon-missing) |
+| `fof-horizon` | [1](#fof-horizon) | [7](#fof-horizon-missing) |
 | `fof-ignore-users` | [1](#fof-ignore-users) | 0 |
 | `fof-impersonate` | [1](#fof-impersonate) | 0 |
 | `fof-links` | [1](#fof-links) | [1](#fof-links-missing) |
@@ -463,15 +463,6 @@ SMTP <del>设置</del><ins>服务</ins>
 ```diff
 -更改「全部主题」排序
 +更改「全部讨论」排序
-```
-
-#### [`core.forum.index_sort.top_button`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.forum.index_sort.top_button%22)
-
-> Top
-
-```diff
--热门主题
-+热门讨论
 ```
 
 #### [`core.forum.post_stream.discussion_renamed_text`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.forum.post_stream.discussion_renamed_text%22)
@@ -7611,62 +7602,6 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 
 ### `fof-horizon` (missing)
 
-#### [`fof-horizon.admin.stats.data.failure-rate`](https://weblate.rob006.net/translate/flarum2/fof-horizon/zh_Hans/?q=context%3A%3D%22fof-horizon.admin.stats.data.failure-rate%22)
-
-> Failure Rate
-
-```diff
-+失败率
-```
-
-#### [`fof-horizon.admin.stats.data.max-wait-queue`](https://weblate.rob006.net/translate/flarum2/fof-horizon/zh_Hans/?q=context%3A%3D%22fof-horizon.admin.stats.data.max-wait-queue%22)
-
-> Queue: {queue}
-
-```diff
-+队列: {queue}
-```
-
-#### [`fof-horizon.admin.stats.data.redis-blocked-clients`](https://weblate.rob006.net/translate/flarum2/fof-horizon/zh_Hans/?q=context%3A%3D%22fof-horizon.admin.stats.data.redis-blocked-clients%22)
-
-> Blocked Clients
-
-```diff
-+阻塞客户端
-```
-
-#### [`fof-horizon.admin.stats.data.redis-connected-clients`](https://weblate.rob006.net/translate/flarum2/fof-horizon/zh_Hans/?q=context%3A%3D%22fof-horizon.admin.stats.data.redis-connected-clients%22)
-
-> Connected Clients
-
-```diff
-+已连接客户端
-```
-
-#### [`fof-horizon.admin.stats.data.redis-memory-usage`](https://weblate.rob006.net/translate/flarum2/fof-horizon/zh_Hans/?q=context%3A%3D%22fof-horizon.admin.stats.data.redis-memory-usage%22)
-
-> Cache store Memory Usage
-
-```diff
-+缓存存储内存使用量
-```
-
-#### [`fof-horizon.admin.stats.data.redis-ops-per-sec`](https://weblate.rob006.net/translate/flarum2/fof-horizon/zh_Hans/?q=context%3A%3D%22fof-horizon.admin.stats.data.redis-ops-per-sec%22)
-
-> Ops Per Second
-
-```diff
-+每秒操作数
-```
-
-#### [`fof-horizon.admin.stats.data.success-rate`](https://weblate.rob006.net/translate/flarum2/fof-horizon/zh_Hans/?q=context%3A%3D%22fof-horizon.admin.stats.data.success-rate%22)
-
-> Success Rate
-
-```diff
-+成功率
-```
-
 #### [`fof-horizon.admin.stats.error.fetch_failed`](https://weblate.rob006.net/translate/flarum2/fof-horizon/zh_Hans/?q=context%3A%3D%22fof-horizon.admin.stats.error.fetch_failed%22)
 
 > Unable to fetch Horizon statistics. Please check your Redis configuration.
@@ -7721,14 +7656,6 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 
 ```diff
 +差
-```
-
-#### [`fof-horizon.admin.stats.health.tooltip`](https://weblate.rob006.net/translate/flarum2/fof-horizon/zh_Hans/?q=context%3A%3D%22fof-horizon.admin.stats.health.tooltip%22)
-
-> System health score: {score}/100
-
-```diff
-+系统健康评分: {score}/100
 ```
 
 

@@ -2,8 +2,8 @@
 
 Translations for French (`fr`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **124** are translated differently and **1147** are
-translated only in `fr`. Altogether they cover **56** components.
+sides, but do not match between them: **124** are translated differently and **1148** are
+translated only in `fr`. Altogether they cover **57** components.
 
 <!-- {% raw %} -->
 
@@ -19,6 +19,7 @@ translated only in `fr`. Altogether they cover **56** components.
 | `ekumanov-new-posts-notice` | [2](#ekumanov-new-posts-notice) | 0 |
 | `flarum-audit` | 0 | [93](#flarum-audit-missing) |
 | `flarum-extension-manager` | [2](#flarum-extension-manager) | 0 |
+| `flarum-sticky` | 0 | [1](#flarum-sticky-missing) |
 | `flarum-subscriptions` | [1](#flarum-subscriptions) | 0 |
 | `fof-anti-spam` | 0 | [2](#fof-anti-spam-missing) |
 | `fof-author-change` | 0 | [16](#fof-author-change-missing) |
@@ -2318,6 +2319,17 @@ These strings are translated only in `fr`, so there is nothing to inherit from F
 
 ```diff
 +=> core.group.guest
+```
+
+
+### `flarum-sticky` (missing)
+
+#### [`flarum-sticky.admin.settings.pin_sticky_on_all_discussions_label`](https://weblate.rob006.net/translate/flarum2/flarum-sticky/fr/?q=context%3A%3D%22flarum-sticky.admin.settings.pin_sticky_on_all_discussions_label%22)
+
+> Pin stickied discussions on the All Discussions page
+
+```diff
++Épingler les discussions sur la page « Toutes les discussions »
 ```
 
 

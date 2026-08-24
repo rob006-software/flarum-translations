@@ -2,7 +2,7 @@
 
 Translations for German (formal) (`de@formal`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **358** are translated differently and **574** are
+sides, but do not match between them: **357** are translated differently and **574** are
 translated only in `de@formal`. Altogether they cover **93** components.
 
 <!-- {% raw %} -->
@@ -43,7 +43,7 @@ translated only in `de@formal`. Altogether they cover **93** components.
 | `fof-filter` | [4](#fof-filter) | 0 |
 | `fof-gamification` | [9](#fof-gamification) | 0 |
 | `fof-geoip` | [3](#fof-geoip) | 0 |
-| `fof-horizon` | [3](#fof-horizon) | 0 |
+| `fof-horizon` | [2](#fof-horizon) | 0 |
 | `fof-impersonate` | [1](#fof-impersonate) | 0 |
 | `fof-links` | [2](#fof-links) | 0 |
 | `fof-masquerade` | [2](#fof-masquerade) | 0 |
@@ -1830,23 +1830,6 @@ IP-Adresse in <del>die </del>Zwischenablage kopieren
 ```
 
 Hier <del>kannst</del><ins>können</ins> <del>du</del><ins>Sie</ins> einstellen, wie lange (in Minuten) Horizon<br />die letzten und fehlgeschlagenen Aufträge aufbewahren soll. In der Regel werden die letzten Aufträge<br />eine Stunde lang aufbewahrt, während alle fehlgeschlagenen Aufträge eine ganze Woche lang gespeichert werden.<br />
-
-#### [`fof-horizon.admin.stats.data.redis-memory-policy-tooltip`](https://weblate.rob006.net/translate/flarum2/fof-horizon/de@formal/?q=context%3A%3D%22fof-horizon.admin.stats.data.redis-memory-policy-tooltip%22)
-
-> The memory policy is the way the cache store will select what to remove when
-> the maxmemory limit is reached. The default is \`noeviction\`: New values
-> aren't saved when memory limit is reached. Click to view documentation.
->
-
-```diff
- Die Speicherrichtlinie ist die Art und Weise, wie Redis auswählt, was entfernt werden soll,
- wenn das maximale Speicherlimit erreicht ist. Die Standardeinstellung ist „noeviction“: Neue Werte
--werden nicht gespeichert, wenn das Speicherlimit erreicht ist. Klicke hier, um die Dokumentation anzuzeigen.
-+werden nicht gespeichert, wenn das Speicherlimit erreicht ist. Klicken Sie hier, um die Dokumentation anzuzeigen.
-
-```
-
-Die Speicherrichtlinie ist die Art und Weise, wie Redis auswählt, was entfernt werden soll,<br />wenn das maximale Speicherlimit erreicht ist. Die Standardeinstellung ist „noeviction“: Neue Werte<br />werden nicht gespeichert, wenn das Speicherlimit erreicht ist. <del>Klicke</del><ins>Klicken Sie</ins> hier, um die Dokumentation anzuzeigen.<br />
 
 #### [`fof-horizon.admin.stats.error.fetch_failed`](https://weblate.rob006.net/translate/flarum2/fof-horizon/de@formal/?q=context%3A%3D%22fof-horizon.admin.stats.error.fetch_failed%22)
 

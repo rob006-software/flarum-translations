@@ -2,7 +2,7 @@
 
 Translations for German (formal) (`de@formal`) are inherited from German informal variant, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **310** are translated differently and **0** are
+sides, but do not match between them: **312** are translated differently and **0** are
 translated only in `de@formal`. Altogether they cover **43** components.
 
 <!-- {% raw %} -->
@@ -13,7 +13,7 @@ translated only in `de@formal`. Altogether they cover **43** components.
 | Component | Different translations |
 | --- | --- |
 | `acpl-my-tags` | [3](#acpl-my-tags) |
-| `core` | [84](#core) |
+| `core` | [87](#core) |
 | `datitisev-backup` | [18](#datitisev-backup) |
 | `datlechin-bbcode-hide-content` | [3](#datlechin-bbcode-hide-content) |
 | `datlechin-birthdays` | [5](#datlechin-birthdays) |
@@ -40,7 +40,7 @@ translated only in `de@formal`. Altogether they cover **43** components.
 | `fof-drafts` | [1](#fof-drafts) |
 | `fof-gamification` | [1](#fof-gamification) |
 | `fof-geoip` | [1](#fof-geoip) |
-| `fof-horizon` | [3](#fof-horizon) |
+| `fof-horizon` | [2](#fof-horizon) |
 | `fof-links` | [2](#fof-links) |
 | `fof-merge-discussions` | [7](#fof-merge-discussions) |
 | `fof-moderator-warnings` | [9](#fof-moderator-warnings) |
@@ -871,6 +871,17 @@ Wenn jemand eine Diskussion ändert, die <del>du</del><ins>Sie</ins> gestartet <
 
 <del>Lade</del><ins>Laden Sie</ins> einen neuen Avatar hoch
 
+#### [`core.lib.connection_restored_message`](https://weblate.rob006.net/translate/flarum2/core/de@formal/?q=context%3A%3D%22core.lib.connection_restored_message%22)
+
+> Your connection has been restored.
+
+```diff
+-Deine Verbindung wurde wiederhergestellt.
++Ihre Verbindung wurde wiederhergestellt.
+```
+
+<del>Deine</del><ins>Ihre</ins> Verbindung wurde wiederhergestellt.
+
 #### [`core.lib.edit_user.nothing_available`](https://weblate.rob006.net/translate/flarum2/core/de@formal/?q=context%3A%3D%22core.lib.edit_user.nothing_available%22)
 
 > You are not allowed to edit this user.
@@ -925,6 +936,28 @@ Zirkuläre Abhängigkeiten erkannt: {extensions}. Prozess abgebrochen. Bitte <de
 ```
 
 <del>Ups!</del><ins>Es</ins> <del>Da</del><ins>tut uns leid! Es</ins> ist <del>was</del><ins>ein</ins> <del>schief</del><ins>Fehler</ins> <del>gelaufen.</del><ins>aufgetreten.</ins> Bitte <del>lade</del><ins>laden Sie</ins> die Seite neu <del>oder</del><ins>und</ins> <del>versuche</del><ins>versuchen Sie</ins> es erneut.
+
+#### [`core.lib.error.network_message`](https://weblate.rob006.net/translate/flarum2/core/de@formal/?q=context%3A%3D%22core.lib.error.network_message%22)
+
+> Something seems to be wrong with your connection. Please check your network and try again.
+
+```diff
+-Mit deiner Verbindung scheint etwas nicht zu stimmen. Bitte überprüfe deine Netzwerkverbindung und versuche es erneut.
++Mit Ihrer Verbindung scheint etwas nicht zu stimmen. Bitte überprüfen Sie Ihre Netzwerkverbindung und versuchen Sie es erneut.
+```
+
+Mit <del>deiner</del><ins>Ihrer</ins> Verbindung scheint etwas nicht zu stimmen. Bitte <del>überprüfe</del><ins>überprüfen</ins> <del>deine</del><ins>Sie Ihre</ins> Netzwerkverbindung und <del>versuche</del><ins>versuchen Sie</ins> es erneut.
+
+#### [`core.lib.error.offline_message`](https://weblate.rob006.net/translate/flarum2/core/de@formal/?q=context%3A%3D%22core.lib.error.offline_message%22)
+
+> You appear to be offline. Please check your connection and try again.
+
+```diff
+-Du scheinst offline zu sein. Bitte überprüfe deine Verbindung und versuche es erneut.
++Sie scheinen offline zu sein. Bitte überprüfen Sie Ihre Verbindung und versuchen Sie es erneut.
+```
+
+<del>Du</del><ins>Sie</ins> <del>scheinst</del><ins>scheinen</ins> offline zu sein. Bitte <del>überprüfe</del><ins>überprüfen</ins> <del>deine</del><ins>Sie Ihre</ins> Verbindung und <del>versuche</del><ins>versuchen Sie</ins> es erneut.
 
 #### [`core.lib.error.permission_denied_message`](https://weblate.rob006.net/translate/flarum2/core/de@formal/?q=context%3A%3D%22core.lib.error.permission_denied_message%22)
 
@@ -2744,23 +2777,6 @@ Vorlage bei <del>Tag-Änderung</del><ins>Thema-Änderung</ins> anhängen?
 ```
 
 Hier <del>kannst</del><ins>können</ins> <del>du</del><ins>Sie</ins> einstellen, wie lange (in Minuten) Horizon<br />die letzten und fehlgeschlagenen Aufträge aufbewahren soll. In der Regel werden die letzten Aufträge<br />eine Stunde lang aufbewahrt, während alle fehlgeschlagenen Aufträge eine ganze Woche lang gespeichert werden.<br />
-
-#### [`fof-horizon.admin.stats.data.redis-memory-policy-tooltip`](https://weblate.rob006.net/translate/flarum2/fof-horizon/de@formal/?q=context%3A%3D%22fof-horizon.admin.stats.data.redis-memory-policy-tooltip%22)
-
-> The memory policy is the way the cache store will select what to remove when
-> the maxmemory limit is reached. The default is \`noeviction\`: New values
-> aren't saved when memory limit is reached. Click to view documentation.
->
-
-```diff
- Die Speicherrichtlinie ist die Art und Weise, wie Redis auswählt, was entfernt werden soll,
- wenn das maximale Speicherlimit erreicht ist. Die Standardeinstellung ist „noeviction“: Neue Werte
--werden nicht gespeichert, wenn das Speicherlimit erreicht ist. Klicke hier, um die Dokumentation anzuzeigen.
-+werden nicht gespeichert, wenn das Speicherlimit erreicht ist. Klicken Sie hier, um die Dokumentation anzuzeigen.
-
-```
-
-Die Speicherrichtlinie ist die Art und Weise, wie Redis auswählt, was entfernt werden soll,<br />wenn das maximale Speicherlimit erreicht ist. Die Standardeinstellung ist „noeviction“: Neue Werte<br />werden nicht gespeichert, wenn das Speicherlimit erreicht ist. <del>Klicke</del><ins>Klicken Sie</ins> hier, um die Dokumentation anzuzeigen.<br />
 
 #### [`fof-horizon.admin.stats.error.fetch_failed`](https://weblate.rob006.net/translate/flarum2/fof-horizon/de@formal/?q=context%3A%3D%22fof-horizon.admin.stats.error.fetch_failed%22)
 

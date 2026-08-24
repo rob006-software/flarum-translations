@@ -8,14 +8,14 @@ are fully in sync and are not listed here.
 | Language | Different translations | Missing translations | Components |
 | --- | --- | --- | --- |
 | [Azerbaijani](az.md) (`az`) | 0 | 2 | 1 |
-| [Chinese (Simplified)](zh_Hans.md) (`zh_Hans`) | 559 | 1548 | 113 |
+| [Chinese (Simplified)](zh_Hans.md) (`zh_Hans`) | 558 | 1540 | 113 |
 | [Chinese (Traditional)](zh_Hant.md) (`zh_Hant`) | 33 | 199 | 6 |
 | [Dutch](nl.md) (`nl`) | 0 | 9 | 8 |
 | [Finnish](fi.md) (`fi`) | 5 | 61 | 7 |
-| [French](fr.md) (`fr`) | 124 | 1147 | 56 |
+| [French](fr.md) (`fr`) | 124 | 1148 | 57 |
 | [German](de.md) (`de`) | 309 | 574 | 91 |
-| [German (formal)](de@formal.md) (`de@formal`) | 358 | 574 | 93 |
-| [Hungarian](hu.md) (`hu`) | 43 | 6 | 21 |
+| [German (formal)](de@formal.md) (`de@formal`) | 357 | 574 | 93 |
+| [Hungarian](hu.md) (`hu`) | 44 | 6 | 22 |
 | [Indonesian](id.md) (`id`) | 1 | 0 | 1 |
 | [Italian](it.md) (`it`) | 0 | 1 | 1 |
 | [Japanese](ja.md) (`ja`) | 1 | 0 | 1 |
