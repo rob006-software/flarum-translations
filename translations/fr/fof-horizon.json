@@ -4,10 +4,10 @@
             "settings": {
                 "locked_by_env": "Définir via une variable d'environnement sur {value} — modifiez la valeur à cet endroit, pas ici.",
                 "locked_by_code": "Définir dans le code (config.php ou extend.php) sur {value} — modifiez la valeur à cet endroit, pas ici.",
-                "mail_title": "",
-                "mail_help": "",
-                "email_concurrency": "",
-                "email_concurrency_help": "",
+                "mail_title": "Livraison de courriel",
+                "mail_help": "Contrôlez le nombre de courriels envoyés simultanément. Chaque processus envoie un\ncourriel à la fois ; il s'agit donc du nombre de messages sortants simultanés.\nRéglez cette valeur en fonction de la limite de connexions simultanées imposée par votre fournisseur de messagerie afin de ne pas\nla dépasser. Laissez ce champ vide pour conserver la valeur par défaut (1).\n",
+                "email_concurrency": "Courriels sortants simultanés",
+                "email_concurrency_help": "Nombre maximal de courriels envoyés simultanément. Une variable d'environnement\n(REDIS_HORIZON_EMAIL_CONCURRENCY) ou une valeur dans « config.php », si elle est définie, prévaut\nsur ce paramètre.\n",
                 "trim_title": "Réglages de l'ajustement",
                 "trim_help": "Vous pouvez configurer ici la durée (en minutes) pendant laquelle Horizon\ndoit conserver les tâches récentes et les tâches ayant échoué. En règle\ngénérale, les tâches récentes sont conservées pendant une heure, tandis\nque toutes les tâches ayant échoué sont stockées pendant une semaine entière.\n",
                 "trim_recent": "Ajuster les tâches récentes",
@@ -29,7 +29,7 @@
             },
             "stats": {
                 "queue_heading": "File d'attente",
-                "kv_heading": "",
+                "kv_heading": "Base de données clé-valeur",
                 "full_dashboard": "Tableau de bord d'Horizon",
                 "auto_refresh": "Actualisation automatique",
                 "refresh": "Actualiser",
@@ -48,8 +48,8 @@
                     "critical": "Critique",
                     "tooltip_heading": "Note de santé : {score}/100",
                     "factor": {
-                        "status": "",
-                        "wait": "",
+                        "status": "Horizon est {value}",
+                        "wait": "Longue file d'attente : {value}",
                         "memory": ""
                     },
                     "tooltip": "Note de santé du système : {score}/100"
@@ -68,7 +68,7 @@
                     "days": "au cours des {count} derniers jours"
                 },
                 "data": {
-                    "processes": "",
+                    "processes": "Processus de travail",
                     "jobs-per-minute": "Tâches par minute",
                     "pending-jobs": "Tâches en attente",
                     "recent-jobs": "Tâches",
@@ -108,7 +108,7 @@
                     "failure-rate": "Taux d'échec"
                 },
                 "tile": {
-                    "processes": "",
+                    "processes": "Processus de travail",
                     "jobs_per_minute": "Tâches / Min",
                     "max_wait": "Temps d'attente maximal",
                     "status": "Statut"
