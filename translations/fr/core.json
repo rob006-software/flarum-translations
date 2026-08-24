@@ -51,7 +51,7 @@
                     "kit_url_label": "URL Kit",
                     "kit_url_help": "Lien vers le script du Kit FontAwesome (à partir de l'adresse kit.fontawesome.com)",
                     "forced_style_label": "Style d'icône imposé",
-                    "forced_style_help": "",
+                    "forced_style_help": "Forcer chaque icône à adopter un style FontAwesome particulier, par exemple « fa-duotone fa-light » ou « fa-regular ». Cela remplace le style défini par le cœur du système et les extensions (les icônes de marques ne sont jamais modifiées). Votre source d’icônes doit pouvoir fournir ce style : les icônes fournies sont issues de FontAwesome Free, qui ne couvre que quelques centaines d’icônes en dehors du style « solid » ; par conséquent, leur appliquer un autre style rendra la plupart des icônes vides. Tous les styles sont disponibles avec un CDN ou un kit FontAwesome Pro. Laissez ce champ vide pour désactiver cette option.",
                     "config_override": {
                         "label": "Remplacement de configuration",
                         "help": "Les paramètres FontAwesome sont actuellement définis dans votre fichier config.php et ne peuvent pas être modifiés ici."
@@ -936,7 +936,7 @@
                 "mega_text": "M"
             },
             "overflowing_list": {
-                "toggle_accessible_label": ""
+                "toggle_accessible_label": "Plus d'éléments"
             },
             "pagination": {
                 "back_button": "Page précédente",
