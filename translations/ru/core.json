@@ -914,7 +914,7 @@
             },
             "nav": {
                 "drawer_button": "Открыть панель навигации",
-                "pin_pane_button": ""
+                "pin_pane_button": "Закрепить список тем"
             },
             "notices": {
                 "bisecting": "Выполняется диагностика расширений для определения причины проблемы.",
@@ -923,20 +923,20 @@
                 "maintenance_mode_safe": "Форум закрыт на техническое обслуживание в безопасном режиме. Доступ есть только у администраторов, расширения не загружаются."
             },
             "index_sort": {
-                "az_button": "",
-                "latest_button": "",
-                "newest_button": "",
-                "oldest_button": "",
-                "relevance_button": "",
-                "top_button": "",
-                "za_button": ""
+                "az_button": "=> core.ref.title_az",
+                "latest_button": "=> core.ref.latest",
+                "newest_button": "=> core.ref.newest",
+                "oldest_button": "=> core.ref.oldest",
+                "relevance_button": "=> core.ref.relevance",
+                "top_button": "=> core.ref.top",
+                "za_button": "=> core.ref.title_za"
             },
             "number_suffix": {
                 "kilo_text": "K",
                 "mega_text": "M"
             },
             "overflowing_list": {
-                "toggle_accessible_label": ""
+                "toggle_accessible_label": "Больше"
             },
             "pagination": {
                 "back_button": "Предыдущая страница",
@@ -955,7 +955,7 @@
                 "options_heading": "Параметры поиска",
                 "placeholder": "Поиск...",
                 "preview_heading": "Предпросмотр поиска",
-                "search_active_button_accessible_label": "",
+                "search_active_button_accessible_label": "Изменить поиск: {query}",
                 "search_clear_button_accessible_label": "Очистить поиск"
             },
             "search_source": {
@@ -1154,7 +1154,7 @@
             "light_hc_mode_label": "Контрастная светлая",
             "light_mode_label": "Светлая",
             "load_more": "Показать ещё",
-            "latest": "",
+            "latest": "По обновлению",
             "loading": "Загрузка...",
             "log_in": "Войти",
             "log_out": "Выйти",
@@ -1184,9 +1184,9 @@
             "sign_up": "Регистрация",
             "some_others": "{count, plural, one {# другой} other {# других}}",
             "start_a_discussion": "Создать тему",
-            "title_az": "",
-            "title_za": "",
-            "top": "",
+            "title_az": "Название (А–Я)",
+            "title_za": "Название (Я–А)",
+            "top": "Топ",
             "username": "Имя пользователя",
             "username_or_email_placeholder": "Имя пользователя или Email",
             "users": "Пользователи",
