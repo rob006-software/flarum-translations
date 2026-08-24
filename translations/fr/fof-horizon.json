@@ -2,8 +2,8 @@
     "fof-horizon": {
         "admin": {
             "settings": {
-                "locked_by_env": "",
-                "locked_by_code": "",
+                "locked_by_env": "Définir via une variable d'environnement sur {value} — modifiez la valeur à cet endroit, pas ici.",
+                "locked_by_code": "Définir dans le code (config.php ou extend.php) sur {value} — modifiez la valeur à cet endroit, pas ici.",
                 "mail_title": "",
                 "mail_help": "",
                 "email_concurrency": "",
@@ -22,13 +22,13 @@
                 "trim_failed_help": "Ce tableau est utilisé pour afficher les tâches qui ont échoué dans le tableau de bord d'Horizon.\n",
                 "trim_monitored": "Ajuster les tâches surveillées",
                 "trim_monitored_help": "Ce tableau est utilisé pour afficher les tâches surveillées dans le tableau de bord d'Horizon.\n",
-                "supervisor_title": "",
+                "supervisor_title": "Paramètres du processus",
                 "supervisor_help": "",
-                "memory_limit": "",
+                "memory_limit": "Limite de mémoire du processus maître (Mo)",
                 "memory_limit_help": ""
             },
             "stats": {
-                "queue_heading": "",
+                "queue_heading": "File d'attente",
                 "kv_heading": "",
                 "full_dashboard": "Tableau de bord d'Horizon",
                 "auto_refresh": "Actualisation automatique",
@@ -46,7 +46,7 @@
                     "good": "Bien",
                     "poor": "Mauvais",
                     "critical": "Critique",
-                    "tooltip_heading": "",
+                    "tooltip_heading": "Note de santé : {score}/100",
                     "factor": {
                         "status": "",
                         "wait": "",
@@ -55,34 +55,34 @@
                     "tooltip": "Note de santé du système : {score}/100"
                 },
                 "status": {
-                    "running": "",
-                    "paused": "",
-                    "inactive": "",
-                    "paused_pending": ""
+                    "running": "En cours d'exécution",
+                    "paused": "En pause",
+                    "inactive": "Inactif",
+                    "paused_pending": "En pause · {count} en attente"
                 },
                 "period": {
-                    "minutes": "",
-                    "hour": "",
-                    "hours": "",
-                    "day": "",
-                    "days": ""
+                    "minutes": "au cours des {count} dernières minutes",
+                    "hour": "au cours de la dernière heure",
+                    "hours": "au cours des {count} dernières heures",
+                    "day": "au cours des dernières 24 heures",
+                    "days": "au cours des {count} derniers jours"
                 },
                 "data": {
                     "processes": "",
                     "jobs-per-minute": "Tâches par minute",
-                    "pending-jobs": "",
-                    "recent-jobs": "",
-                    "failed-jobs": "",
-                    "max-wait": "",
-                    "slowest-queue": "",
-                    "highest-throughput-queue": "",
-                    "memory-used": "",
-                    "memory-peak": "",
-                    "memory-max": "",
-                    "ops-per-sec": "",
-                    "connected-clients": "",
-                    "blocked-clients": "",
-                    "eviction-policy": "",
+                    "pending-jobs": "Tâches en attente",
+                    "recent-jobs": "Tâches",
+                    "failed-jobs": "Tâches en échec",
+                    "max-wait": "Temps d'attente maximal",
+                    "slowest-queue": "File d'attente la plus lente",
+                    "highest-throughput-queue": "File d'attente la plus chargée",
+                    "memory-used": "Mémoire utilisée",
+                    "memory-peak": "Pic de mémoire",
+                    "memory-max": "Mémoire maximale",
+                    "ops-per-sec": "Opérations par seconde",
+                    "connected-clients": "Clients connectés",
+                    "blocked-clients": "Clients bloqués",
+                    "eviction-policy": "Politique d'expulsion",
                     "redis-used-memory": "Redistribuer la mémoire utilisée",
                     "redis-peak-memory": "Redistribuer les pics de mémoire",
                     "redis-max-memory": "Redistribuer la mémoire maximale",
@@ -109,12 +109,12 @@
                 },
                 "tile": {
                     "processes": "",
-                    "jobs_per_minute": "",
-                    "max_wait": "",
+                    "jobs_per_minute": "Tâches / Min",
+                    "max_wait": "Temps d'attente maximal",
                     "status": "Statut"
                 },
-                "horizon_max_wait_none": "",
-                "horizon_max_wait_value": "",
+                "horizon_max_wait_none": "Aucune",
+                "horizon_max_wait_value": "{seconds} s dans {queue}",
                 "heading": "Vue d'ensemble de la file d'attente",
                 "last_refresh": "Dernière actualisation : {time}"
             }
