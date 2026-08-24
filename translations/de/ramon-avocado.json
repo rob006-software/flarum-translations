@@ -78,7 +78,7 @@
                 "custom_hero_enabled_help": "Ersetze den Standardinhalt des Hero-Bereichs (Symbol, Titel, Beschreibung, Schaltflächen „Anmelden“/„Registrieren“) durch deinen eigenen HTML-Code. Der Rahmen des Hero-Banners, das Hintergrundbild und die Überlagerung bleiben unverändert. Wird nur Gästen angezeigt – genau wie der Standard-Hero-Bereich.",
                 "custom_hero_html_label": "Benutzerdefiniertes Hero-HTML",
                 "custom_hero_html_help": "HTML, das in das Hero-Banner-Overlay eingefügt wird (ersetzt .AvocadoHome-heroBannerContent). Inline-Tags vom Typ „<style>“ werden unterstützt.",
-                "custom_hero_html_placeholder": "",
+                "custom_hero_html_placeholder": "<div class=\"AvocadoHome-heroBannerContent\">\n  <h1 class=\"AvocadoHome-heroBannerTitle\">Willkommen!</h1>\n  <p class=\"AvocadoHome-heroBannerDesc\">Was immer du möchtest – Links, Bilder, Schaltflächen.</p>\n</div>",
                 "search_v1_label": "Suchleistenstil „V1“ aktivieren",
                 "search_v1_help": "Zeige das Dropdown-Menü für die Inline-Suche anstelle des V2-Modals an.",
                 "bookmarks_enabled_label": "Lesezeichen-System aktivieren",
@@ -182,7 +182,7 @@
             }
         },
         "forum": {
-            "loading": "",
+            "loading": "Wird geladen…",
             "back": "Zurück",
             "profile": {
                 "joined": "Beigetreten {date}",
@@ -237,7 +237,7 @@
                 "tip": "Tipp: Präfix ",
                 "tip_suffix": " um nach Tags zu filtern",
                 "esc_key": "ESC",
-                "close": ""
+                "close": "Schließen (Esc)"
             },
             "header": {
                 "back": "Zurück",
@@ -320,8 +320,8 @@
                 "discussion_plural_card": "{count} Diskussionen",
                 "yesterday_time": "Gestern, {time}",
                 "showcase_heading": "Vitrine",
-                "ws_update_singular": "",
-                "ws_update_plural": ""
+                "ws_update_singular": "1 neue Diskussion",
+                "ws_update_plural": "{count} neue Diskussionen"
             },
             "discussions": {
                 "title": "Alle Diskussionen",
@@ -384,7 +384,7 @@
             },
             "post": {
                 "op_badge": "Verfasser",
-                "copy_code": ""
+                "copy_code": "Code kopieren"
             },
             "messages": {
                 "deleted_message": "Nachricht gelöscht"
