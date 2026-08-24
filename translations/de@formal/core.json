@@ -222,9 +222,9 @@
                 "delete": "Löschen"
             },
             "dashboard": {
-                "queue_paused_warning": "",
-                "queue_paused_all_warning": "",
-                "queue_paused_manage": "",
+                "queue_paused_warning": "Die Warteschlangenverarbeitung wurde pausiert (Warteschlange: {queues}). Die Aufträge sammeln sich an, bis die Verarbeitung wieder aufgenommen wird.",
+                "queue_paused_all_warning": "Die gesamte Warteschlangenverarbeitung wurde pausiert. Die Aufträge sammeln sich an, bis die Verarbeitung wieder aufgenommen wird.",
+                "queue_paused_manage": "Verwalten",
                 "clear_cache_button": "Cache leeren",
                 "description": "Ihr Forum auf einen Blick.",
                 "info_button": "Systeminformationen",
@@ -272,8 +272,8 @@
                 "label": "Datenbank-Treiber-Konflikt"
             },
             "database-version-warning": {
-                "below-recommended-detail": "",
-                "below-recommended-label": ""
+                "below-recommended-detail": "Auf deinem {server} Server läuft die Version <code>{version}</code>. Diese Version wird zwar unterstützt, Flarum empfiehlt jedoch {server} <code>{recommended}</code> oder höher, um die beste Leistung zu erzielen und eine gepflegte Version zu nutzen. Weitere Informationen findest du in der <link>Flarum-Dokumentation</link>.\n",
+                "below-recommended-label": "Datenbankversion veraltet"
             },
             "debug-warning": {
                 "detail": "Sofern der <code>Debugmodus</code> aktiv ist, wird Flarum seine <code>JavaScript</code> und <code>CSS</code> Ressourcen bei jedem Seitenabruf neu generieren und könnte zudem potenziell weitere Informationen preisgeben, etwa Datenbankgeheimnisse, Umgebungsvariablen usw.\n\nEs wird dringendst empfohlen, den <code>debug</code> in Ihrer <code>config.php</code> Datei in einem Produktionskontext zu deaktivieren. Konsultieren Sie bitte die <link>Flarum Dokumentation</link> für zusätzliche Informationen.\n",
@@ -617,7 +617,7 @@
                 "session_dropdown_accessible_label": "Dropdown-Menü für Sitzungsoptionen umschalten",
                 "settings_button": "=> core.ref.settings",
                 "sign_up_link": "=> core.ref.sign_up",
-                "theme_switcher_accessible_label": ""
+                "theme_switcher_accessible_label": "Farbschema ändern"
             },
             "index": {
                 "all_discussions_link": "=> core.ref.all_discussions",
@@ -631,14 +631,14 @@
                 "toggle_sidenav_dropdown_accessible_label": "Dropdown-Menü für die Navigation umschalten"
             },
             "index_sort": {
-                "az_button": "",
-                "latest_button": "Zuletzt",
+                "az_button": "=> core.ref.title_az",
+                "latest_button": "=> core.ref.latest",
                 "newest_button": "=> core.ref.newest",
                 "oldest_button": "=> core.ref.oldest",
                 "relevance_button": "=> core.ref.relevance",
                 "toggle_dropdown_accessible_label": "Sortierung der Diskussionsliste ändern",
-                "top_button": "Meist diskutiert",
-                "za_button": ""
+                "top_button": "=> core.ref.top",
+                "za_button": "=> core.ref.title_za"
             },
             "log_in": {
                 "forgot_password_link": "Passwort vergessen?",
@@ -914,7 +914,7 @@
             },
             "nav": {
                 "drawer_button": "Navigationsleiste öffnen",
-                "pin_pane_button": ""
+                "pin_pane_button": "Diskussionsliste anheften"
             },
             "notices": {
                 "bisecting": "Ausführen eines Erweiterungs-Bisektionsprozesses, um festzustellen, welche Erweiterung ein Problem verursacht.",
@@ -923,20 +923,20 @@
                 "maintenance_mode_safe": "Wegen Wartungsarbeiten im abgesicherten Modus. Nur Administratoren haben Zugriff auf das Forum, und es werden keine Erweiterungen gestartet."
             },
             "index_sort": {
-                "az_button": "",
-                "latest_button": "",
-                "newest_button": "",
-                "oldest_button": "",
-                "relevance_button": "",
-                "top_button": "",
-                "za_button": ""
+                "az_button": "=> core.ref.title_az",
+                "latest_button": "=> core.ref.latest",
+                "newest_button": "=> core.ref.newest",
+                "oldest_button": "=> core.ref.oldest",
+                "relevance_button": "=> core.ref.relevance",
+                "top_button": "=> core.ref.top",
+                "za_button": "=> core.ref.title_za"
             },
             "number_suffix": {
                 "kilo_text": "K",
                 "mega_text": "M"
             },
             "overflowing_list": {
-                "toggle_accessible_label": ""
+                "toggle_accessible_label": "Weitere Elemente"
             },
             "pagination": {
                 "back_button": "Vorherige Seite",
@@ -955,7 +955,7 @@
                 "options_heading": "Suchoptionen",
                 "placeholder": "Suchen...",
                 "preview_heading": "Suchvorschau",
-                "search_active_button_accessible_label": "",
+                "search_active_button_accessible_label": "Suche ändern: {query}",
                 "search_clear_button_accessible_label": "Suchanfrage löschen"
             },
             "search_source": {
@@ -1154,7 +1154,7 @@
             "light_hc_mode_label": "Heller Modus mit hohem Kontrast",
             "light_mode_label": "Heller Modus",
             "load_more": "Mehr laden",
-            "latest": "",
+            "latest": "Neueste",
             "loading": "Ladevorgang läuft…",
             "log_in": "Anmelden",
             "log_out": "Abmelden",
@@ -1184,9 +1184,9 @@
             "sign_up": "Registrieren",
             "some_others": "{count, plural, one {# weiterem} other {# weiteren}}",
             "start_a_discussion": "Diskussion starten",
-            "title_az": "",
-            "title_za": "",
-            "top": "",
+            "title_az": "Titel (A–Z)",
+            "title_za": "Titel (Z–A)",
+            "top": "Meist diskutiert",
             "username": "Benutzername",
             "username_or_email_placeholder": "Benutzername oder E-Mail",
             "users": "Benutzer",
