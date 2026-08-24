@@ -2,12 +2,12 @@
     "fof-horizon": {
         "admin": {
             "settings": {
-                "locked_by_env": "",
-                "locked_by_code": "",
-                "mail_title": "",
-                "mail_help": "",
-                "email_concurrency": "",
-                "email_concurrency_help": "",
+                "locked_by_env": "Wird über eine Umgebungsvariable auf {value} gesetzt – ändere den Wert dort, nicht hier.",
+                "locked_by_code": "Im Code (config.php oder extend.php) auf {value} gesetzt – ändere den Wert dort, nicht hier.",
+                "mail_title": "E-Mail-Zustellung",
+                "mail_help": "Lege fest, wie viele E-Mails gleichzeitig versendet werden sollen. Jeder Worker versendet jeweils eine\nE-Mail, daher entspricht dieser Wert der Anzahl der gleichzeitig ausgehenden Nachrichten.\nStelle diesen Wert auf das Limit für gleichzeitige Verbindungen deines E-Mail-Anbieters ein, um dieses\nnicht zu überschreiten. Lasse das Feld leer, um den Standardwert (1) beizubehalten.\n",
+                "email_concurrency": "Gleichzeitig zu versendende E-Mails",
+                "email_concurrency_help": "Die maximale Anzahl an E-Mails, die gleichzeitig zugestellt werden dürfen. Eine Umgebungsvariable\n(REDIS_HORIZON_EMAIL_CONCURRENCY) oder ein Wert in der Datei „config.php“ hat, sofern festgelegt, Vorrang\nvor dieser Einstellung.\n",
                 "trim_title": "Trim-Einstellungen",
                 "trim_help": "Hier können Sie einstellen, wie lange (in Minuten) Horizon\ndie letzten und fehlgeschlagenen Aufträge aufbewahren soll. In der Regel werden die letzten Aufträge\neine Stunde lang aufbewahrt, während alle fehlgeschlagenen Aufträge eine ganze Woche lang gespeichert werden.\n",
                 "trim_recent": "Kürzliche Aufträge trimmen",
@@ -22,14 +22,14 @@
                 "trim_failed_help": "Diese Tabelle wird verwendet, um fehlgeschlagene Aufträge im Horizon-Dashboard anzuzeigen.\n",
                 "trim_monitored": "Überwachte Aufträge trimmen",
                 "trim_monitored_help": "Diese Tabelle wird verwendet, um überwachte Aufträge im Horizon-Dashboard anzuzeigen.\n",
-                "supervisor_title": "",
-                "supervisor_help": "",
-                "memory_limit": "",
-                "memory_limit_help": ""
+                "supervisor_title": "Worker-Einstellungen",
+                "supervisor_help": "Horizon führt deine Wartschlangen-Worker in abgestuften Profilen aus (Standard, Schnell,\nLang, E-Mails). Die Anzahl der Worker, der Arbeitsspeicher und die Warteschlangen werden pro\nBereitstellung über die Umgebungsvariablen REDIS_HORIZON_*, die Datei config.php (unter\ndem Schlüssel „horizon“) oder den Horizon-Extender in extend.php konfiguriert – siehe die\nREADME-Datei der Erweiterung. Starte Horizon nach einer Änderung der Worker-Konfiguration neu.\n",
+                "memory_limit": "Speichergrenze für Master-Prozess (MB)",
+                "memory_limit_help": "Speichergrenze für den Horizon-Master-Supervisor-Prozess. Horizon erhöht\ndiesen Wert automatisch auf das größte Worker-Budget, sodass du ihn nur selten\nmanuell festlegen musst.\n"
             },
             "stats": {
-                "queue_heading": "",
-                "kv_heading": "",
+                "queue_heading": "Warteschlange",
+                "kv_heading": "Schlüssel-Wert-Speicher",
                 "full_dashboard": "Horizon-Dashboard",
                 "auto_refresh": "Automatische Aktualisierung",
                 "refresh": "Aktualisieren",
@@ -38,51 +38,51 @@
                     "fetch_failed": "Horizon-Statistiken konnten nicht abgerufen werden. Bitte überprüfen Sie Ihre Redis-Konfiguration.",
                     "setup_docs": "Redis-Setup-Dokumentation aufrufen"
                 },
-                "eviction_pressure": "",
-                "eviction_policy_tooltip": "",
-                "eviction_warning": "",
+                "eviction_pressure": "Speicherbelastung",
+                "eviction_policy_tooltip": "Die „Eviction“-Richtlinie legt fest, nach welchen Kriterien der Store entscheidet, welche Daten entfernt werden, wenn das „maxmemory“-Limit erreicht ist. Die Standardeinstellung ist „noeviction“: Neue Werte werden nicht gespeichert, wenn das Speicherlimit erreicht wurde. Klicke hier, um die Dokumentation anzuzeigen.",
+                "eviction_warning": "Die Speicherauslastung beträgt {usage} % von maxmemory, und die Löschrichtlinie lautet „{policy}“. Daher werden möglicherweise bald Schlüssel – darunter möglicherweise auch Warteschlangendaten – gelöscht. Erhöhe den Wert für maxmemory oder verschiebe die Warteschlange in eine eigene Datenbank mit mehr Spielraum.",
                 "health": {
                     "excellent": "Hervorragend",
                     "good": "Gut",
                     "poor": "Schlecht",
                     "critical": "Kritisch",
-                    "tooltip_heading": "",
+                    "tooltip_heading": "Gesundheitsstatus: {score}/100",
                     "factor": {
-                        "status": "",
-                        "wait": "",
-                        "memory": ""
+                        "status": "Horizon ist {value}",
+                        "wait": "Lange Wartezeit in der Warteschlange: {value}",
+                        "memory": "Redis-Speicherbelastung: {value}"
                     },
                     "tooltip": "Systemgesundheitsbewertung: {score}/100"
                 },
                 "status": {
-                    "running": "",
-                    "paused": "",
-                    "inactive": "",
-                    "paused_pending": ""
+                    "running": "Wird ausgeführt",
+                    "paused": "Pausiert",
+                    "inactive": "Inaktiv",
+                    "paused_pending": "Pausiert · {count} warten"
                 },
                 "period": {
-                    "minutes": "",
-                    "hour": "",
-                    "hours": "",
-                    "day": "",
-                    "days": ""
+                    "minutes": "vergangene {count} min",
+                    "hour": "vergangene Stunde",
+                    "hours": "vergangene {count} Stunden",
+                    "day": "vergangener Tag",
+                    "days": "vergangene {count} Tage"
                 },
                 "data": {
-                    "processes": "",
-                    "jobs-per-minute": "Jobs pro Minute",
-                    "pending-jobs": "",
-                    "recent-jobs": "",
-                    "failed-jobs": "",
-                    "max-wait": "",
-                    "slowest-queue": "",
-                    "highest-throughput-queue": "",
-                    "memory-used": "",
-                    "memory-peak": "",
-                    "memory-max": "",
-                    "ops-per-sec": "",
-                    "connected-clients": "",
-                    "blocked-clients": "",
-                    "eviction-policy": "",
+                    "processes": "Worker-Prozesse",
+                    "jobs-per-minute": "Aufträge pro Minute",
+                    "pending-jobs": "Ausstehende Aufträge",
+                    "recent-jobs": "Aufträge",
+                    "failed-jobs": "Fehlgeschlagene Aufträge",
+                    "max-wait": "Max Wartezeit",
+                    "slowest-queue": "Langsamste Warteschlange",
+                    "highest-throughput-queue": "Beschäftigste Warteschlange",
+                    "memory-used": "Verwendeter Speicher",
+                    "memory-peak": "Spitzen-Speichernutzung",
+                    "memory-max": "Max. Speicher",
+                    "ops-per-sec": "Oper. pro Sekunden",
+                    "connected-clients": "Verbundene Clients",
+                    "blocked-clients": "Blockierte Clients",
+                    "eviction-policy": "„Eviction“-Richtlinie",
                     "redis-used-memory": "Redis-Arbeitsspeicherauslastung",
                     "redis-peak-memory": "Redis-Spitzenwert-Arbeitsspeicher",
                     "redis-max-memory": "Maximaler Redis-Arbeitsspeicher",
@@ -108,13 +108,13 @@
                     "failure-rate": "Fehlerquote"
                 },
                 "tile": {
-                    "processes": "",
-                    "jobs_per_minute": "",
-                    "max_wait": "",
-                    "status": ""
+                    "processes": "Worker-Prozesse",
+                    "jobs_per_minute": "Aufträge / Min",
+                    "max_wait": "Max. Wartezeit",
+                    "status": "Status"
                 },
                 "horizon_max_wait_none": "",
-                "horizon_max_wait_value": "",
+                "horizon_max_wait_value": "{seconds} s in {queue}",
                 "heading": "Warteschlangenübersicht",
                 "last_refresh": "Letzte Aktualisierung: {time}"
             }
