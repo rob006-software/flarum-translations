@@ -84,6 +84,4 @@
 
 ## Dead branches
 
-| Extension | Pull request |
-| --- | --- |
-| `forumaker-rolevaya` | [![#1842 (closed)](https://img.shields.io/badge/PR-%231842-red)](https://github.com/rob006-software/flarum-translations/pull/1842) |
+There are no dead branches.
