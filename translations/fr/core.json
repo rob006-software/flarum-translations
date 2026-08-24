@@ -97,7 +97,7 @@
                     },
                     "no_other_drivers": "Aucun pilote de recherche n'est encore disponible. Installez une extension de pilote de recherche pour pouvoir le configurer.",
                     "cjk_mode_label": "Optimiser la recherche pour les langues CJK",
-                    "cjk_mode_help": ""
+                    "cjk_mode_help": "Activez cette option si votre forum est principalement en chinois, en japonais ou en coréen. La recherche par mot de la base de données ne permet pas de trouver des extraits de texte CJK ; c'est pourquoi le système bascule vers une recherche par sous-chaîne qui rend cela possible. Elle est plus lente sur les forums très volumineux, où la configuration d'un analyseur de texte intégral prenant en charge les langues CJK au niveau de la base de données (tel que l'analyseur « ngram » de MySQL/MariaDB) constitue une alternative plus rapide."
                 },
                 "title": "Avancé"
             },
@@ -1154,7 +1154,7 @@
             "light_hc_mode_label": "Mode clair à contraste élevé",
             "light_mode_label": "Mode clair",
             "load_more": "Charger davantage",
-            "latest": "",
+            "latest": "Les plus récentes",
             "loading": "Chargement…",
             "log_in": "Se connecter",
             "log_out": "Se déconnecter",
