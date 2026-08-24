@@ -2,6 +2,12 @@
     "fof-horizon": {
         "admin": {
             "settings": {
+                "locked_by_env": "",
+                "locked_by_code": "",
+                "mail_title": "",
+                "mail_help": "",
+                "email_concurrency": "",
+                "email_concurrency_help": "",
                 "trim_title": "Réglages de l'ajustement",
                 "trim_help": "Vous pouvez configurer ici la durée (en minutes) pendant laquelle Horizon\ndoit conserver les tâches récentes et les tâches ayant échoué. En règle\ngénérale, les tâches récentes sont conservées pendant une heure, tandis\nque toutes les tâches ayant échoué sont stockées pendant une semaine entière.\n",
                 "trim_recent": "Ajuster les tâches récentes",
@@ -15,27 +21,68 @@
                 "trim_failed": "Ajuster les tâches échouées",
                 "trim_failed_help": "Ce tableau est utilisé pour afficher les tâches qui ont échoué dans le tableau de bord d'Horizon.\n",
                 "trim_monitored": "Ajuster les tâches surveillées",
-                "trim_monitored_help": "Ce tableau est utilisé pour afficher les tâches surveillées dans le tableau de bord d'Horizon.\n"
+                "trim_monitored_help": "Ce tableau est utilisé pour afficher les tâches surveillées dans le tableau de bord d'Horizon.\n",
+                "supervisor_title": "",
+                "supervisor_help": "",
+                "memory_limit": "",
+                "memory_limit_help": ""
             },
             "stats": {
-                "auto_refresh": "Actualisation automatique",
-                "heading": "Vue d'ensemble de la file d'attente",
+                "queue_heading": "",
+                "kv_heading": "",
                 "full_dashboard": "Tableau de bord d'Horizon",
+                "auto_refresh": "Actualisation automatique",
                 "refresh": "Actualiser",
-                "last_refresh": "Dernière actualisation : {time}",
                 "error": {
                     "title": "Erreur de connexion",
                     "fetch_failed": "Impossible de récupérer les statistiques Horizon. Veuillez vérifier votre configuration Redis.",
                     "setup_docs": "Consulter la documentation relative à la configuration de Redis"
                 },
+                "eviction_pressure": "",
+                "eviction_policy_tooltip": "",
+                "eviction_warning": "",
                 "health": {
                     "excellent": "Excellent",
                     "good": "Bien",
                     "poor": "Mauvais",
                     "critical": "Critique",
+                    "tooltip_heading": "",
+                    "factor": {
+                        "status": "",
+                        "wait": "",
+                        "memory": ""
+                    },
                     "tooltip": "Note de santé du système : {score}/100"
                 },
+                "status": {
+                    "running": "",
+                    "paused": "",
+                    "inactive": "",
+                    "paused_pending": ""
+                },
+                "period": {
+                    "minutes": "",
+                    "hour": "",
+                    "hours": "",
+                    "day": "",
+                    "days": ""
+                },
                 "data": {
+                    "processes": "",
+                    "jobs-per-minute": "Tâches par minute",
+                    "pending-jobs": "",
+                    "recent-jobs": "",
+                    "failed-jobs": "",
+                    "max-wait": "",
+                    "slowest-queue": "",
+                    "highest-throughput-queue": "",
+                    "memory-used": "",
+                    "memory-peak": "",
+                    "memory-max": "",
+                    "ops-per-sec": "",
+                    "connected-clients": "",
+                    "blocked-clients": "",
+                    "eviction-policy": "",
                     "redis-used-memory": "Redistribuer la mémoire utilisée",
                     "redis-peak-memory": "Redistribuer les pics de mémoire",
                     "redis-max-memory": "Redistribuer la mémoire maximale",
@@ -45,7 +92,6 @@
                     "redis-ops-per-sec": "Opérations par seconde",
                     "redis-connected-clients": "Clients connectés",
                     "redis-blocked-clients": "Clients bloqués",
-                    "jobs-per-minute": "Tâches par minute",
                     "jobs-past-hour": "Tâches de l'heure écoulée",
                     "failed-last-seconds": "Tâches échouées au cours des dernières secondes",
                     "status": {
@@ -60,7 +106,17 @@
                     "max-throughput": "Débit maximal",
                     "success-rate": "Taux de réussite",
                     "failure-rate": "Taux d'échec"
-                }
+                },
+                "tile": {
+                    "processes": "",
+                    "jobs_per_minute": "",
+                    "max_wait": "",
+                    "status": ""
+                },
+                "horizon_max_wait_none": "",
+                "horizon_max_wait_value": "",
+                "heading": "Vue d'ensemble de la file d'attente",
+                "last_refresh": "Dernière actualisation : {time}"
             }
         }
     }

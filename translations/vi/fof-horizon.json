@@ -2,6 +2,12 @@
     "fof-horizon": {
         "admin": {
             "settings": {
+                "locked_by_env": "",
+                "locked_by_code": "",
+                "mail_title": "",
+                "mail_help": "",
+                "email_concurrency": "",
+                "email_concurrency_help": "",
                 "trim_title": "Cài đặt cắt bớt",
                 "trim_help": "Tại đây bạn có thể cấu hình khoảng thời gian (tính bằng phút) mà bạn muốn Horizon lưu giữ các công việc gần đây và các công việc thất bại. Thông thường, các công việc gần đây được giữ trong một giờ trong khi tất cả công việc thất bại được lưu trữ trong một tuần.\n",
                 "trim_recent": "Cắt bớt công việc gần đây",
@@ -15,27 +21,68 @@
                 "trim_failed": "Cắt bớt công việc thất bại",
                 "trim_failed_help": "Bảng này được dùng để hiển thị các công việc thất bại trong bảng điều khiển Horizon.\n",
                 "trim_monitored": "Cắt bớt công việc được giám sát",
-                "trim_monitored_help": "Bảng này được dùng để hiển thị các công việc được giám sát trong bảng điều khiển Horizon.\n"
+                "trim_monitored_help": "Bảng này được dùng để hiển thị các công việc được giám sát trong bảng điều khiển Horizon.\n",
+                "supervisor_title": "",
+                "supervisor_help": "",
+                "memory_limit": "",
+                "memory_limit_help": ""
             },
             "stats": {
-                "auto_refresh": "Tự động làm mới",
-                "heading": "Tổng quan hàng đợi",
+                "queue_heading": "",
+                "kv_heading": "",
                 "full_dashboard": "Bảng điều khiển Horizon",
+                "auto_refresh": "Tự động làm mới",
                 "refresh": "Làm mới",
-                "last_refresh": "",
                 "error": {
                     "title": "Lỗi kết nối",
                     "fetch_failed": "Không thể lấy số liệu thống kê Horizon. Vui lòng kiểm tra cấu hình Redis của bạn.",
                     "setup_docs": "Xem tài liệu thiết lập Redis"
                 },
+                "eviction_pressure": "",
+                "eviction_policy_tooltip": "",
+                "eviction_warning": "",
                 "health": {
                     "excellent": "Tuyệt vời",
                     "good": "Tốt",
                     "poor": "Kém",
                     "critical": "Nghiêm trọng",
+                    "tooltip_heading": "",
+                    "factor": {
+                        "status": "",
+                        "wait": "",
+                        "memory": ""
+                    },
                     "tooltip": "Điểm sức khỏe hệ thống: {score}/100"
                 },
+                "status": {
+                    "running": "",
+                    "paused": "",
+                    "inactive": "",
+                    "paused_pending": ""
+                },
+                "period": {
+                    "minutes": "",
+                    "hour": "",
+                    "hours": "",
+                    "day": "",
+                    "days": ""
+                },
                 "data": {
+                    "processes": "",
+                    "jobs-per-minute": "Công việc mỗi phút",
+                    "pending-jobs": "",
+                    "recent-jobs": "",
+                    "failed-jobs": "",
+                    "max-wait": "",
+                    "slowest-queue": "",
+                    "highest-throughput-queue": "",
+                    "memory-used": "",
+                    "memory-peak": "",
+                    "memory-max": "",
+                    "ops-per-sec": "",
+                    "connected-clients": "",
+                    "blocked-clients": "",
+                    "eviction-policy": "",
                     "redis-used-memory": "Bộ nhớ đã dùng của bộ nhớ đệm",
                     "redis-peak-memory": "Bộ nhớ đỉnh của bộ nhớ đệm",
                     "redis-max-memory": "Bộ nhớ tối đa của bộ nhớ đệm",
@@ -45,7 +92,6 @@
                     "redis-ops-per-sec": "Hoạt động mỗi giây",
                     "redis-connected-clients": "Máy khách đã kết nối",
                     "redis-blocked-clients": "Máy khách bị chặn",
-                    "jobs-per-minute": "Công việc mỗi phút",
                     "jobs-past-hour": "Công việc trong giờ qua",
                     "failed-last-seconds": "Công việc thất bại trong vài giây qua",
                     "status": {
@@ -60,7 +106,16 @@
                     "max-throughput": "Thông lượng tối đa",
                     "success-rate": "Tỷ lệ thành công",
                     "failure-rate": "Tỷ lệ thất bại"
-                }
+                },
+                "tile": {
+                    "processes": "",
+                    "jobs_per_minute": "",
+                    "max_wait": "",
+                    "status": ""
+                },
+                "horizon_max_wait_none": "",
+                "horizon_max_wait_value": "",
+                "heading": "Tổng quan hàng đợi"
             }
         }
     }

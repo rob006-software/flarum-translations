@@ -2,6 +2,12 @@
     "fof-horizon": {
         "admin": {
             "settings": {
+                "locked_by_env": "",
+                "locked_by_code": "",
+                "mail_title": "",
+                "mail_help": "",
+                "email_concurrency": "",
+                "email_concurrency_help": "",
                 "trim_title": "Verwijder instellingen",
                 "trim_help": "Hier kan je instellen hoe lang (in minuten) gewenst is dat Horizon de recente\nen mislukte taken bewaart. Meestal worden recente taken een uur bewaard,\nterwijl alle mislukte taken een hele week worden bewaard.\n",
                 "trim_recent": "Recente opdrachten verwijderen",
@@ -15,37 +21,75 @@
                 "trim_failed": "Mislukte opdrachten verwijderen",
                 "trim_failed_help": "Deze tabel wordt gebruikt om gefaalde taken weer te geven in het Horizon dashboard.\n",
                 "trim_monitored": "Gemonitorde opdrachten verwijderen",
-                "trim_monitored_help": "Deze tabel wordt gebruikt om gemonitorde taken weer te geven in het Horizon dashboard.\n"
+                "trim_monitored_help": "Deze tabel wordt gebruikt om gemonitorde taken weer te geven in het Horizon dashboard.\n",
+                "supervisor_title": "",
+                "supervisor_help": "",
+                "memory_limit": "",
+                "memory_limit_help": ""
             },
             "stats": {
-                "auto_refresh": "Automatisch vernieuwen",
-                "heading": "Overzicht wachtrijen",
+                "queue_heading": "",
+                "kv_heading": "",
                 "full_dashboard": "Horizon Dashboard",
+                "auto_refresh": "Automatisch vernieuwen",
                 "refresh": "Vernieuw",
-                "last_refresh": "",
                 "error": {
                     "title": "",
                     "fetch_failed": "",
                     "setup_docs": ""
                 },
+                "eviction_pressure": "",
+                "eviction_policy_tooltip": "",
+                "eviction_warning": "",
                 "health": {
                     "excellent": "",
                     "good": "",
                     "poor": "",
                     "critical": "",
-                    "tooltip": ""
+                    "tooltip_heading": "",
+                    "factor": {
+                        "status": "",
+                        "wait": "",
+                        "memory": ""
+                    }
+                },
+                "status": {
+                    "running": "",
+                    "paused": "",
+                    "inactive": "",
+                    "paused_pending": ""
+                },
+                "period": {
+                    "minutes": "",
+                    "hour": "",
+                    "hours": "",
+                    "day": "",
+                    "days": ""
                 },
                 "data": {
+                    "processes": "",
+                    "jobs-per-minute": "Opdrachten per minuut",
+                    "pending-jobs": "",
+                    "recent-jobs": "",
+                    "failed-jobs": "",
+                    "max-wait": "",
+                    "slowest-queue": "",
+                    "highest-throughput-queue": "",
+                    "memory-used": "",
+                    "memory-peak": "",
+                    "memory-max": "",
+                    "ops-per-sec": "",
+                    "connected-clients": "",
+                    "blocked-clients": "",
+                    "eviction-policy": "",
                     "redis-used-memory": "Cache opslag Gebruikt geheugen",
                     "redis-peak-memory": "Cache opslag Piek geheugen",
                     "redis-max-memory": "Cache opslag Maximaal geheugen",
-                    "redis-memory-usage": "",
                     "redis-memory-policy": "Geheugenbeleid voor cacheopslag",
                     "redis-memory-policy-tooltip": "Het geheugenbeleid is de manier waarop de cacheopslag wordt geselecteerd wat er verwijderd moet worden\nwanneer de maximale geheugenlimiet is bereikt. De standaardwaarde is `noeviction`: Nieuwe waarden\nworden niet opgeslagen als het geheugenlimiet is bereikt. Klik om de notificatie te bekijken.\n",
                     "redis-ops-per-sec": "Operaties per seconde",
                     "redis-connected-clients": "Verbonden clients",
                     "redis-blocked-clients": "Geblokkeerde clients",
-                    "jobs-per-minute": "Opdrachten per minuut",
                     "jobs-past-hour": "Opdrachten afgelopen uur",
                     "failed-last-seconds": "Gefaalde opdrachten afgelopen paar seconden",
                     "status": {
@@ -55,12 +99,18 @@
                     },
                     "total-processes": "Totaal aantal processen",
                     "max-wait-time": "Maximale wachttijd",
-                    "max-wait-queue": "",
                     "max-runtime": "Maximale looptijd",
-                    "max-throughput": "Maximale doorvoer",
-                    "success-rate": "",
-                    "failure-rate": ""
-                }
+                    "max-throughput": "Maximale doorvoer"
+                },
+                "tile": {
+                    "processes": "",
+                    "jobs_per_minute": "",
+                    "max_wait": "",
+                    "status": ""
+                },
+                "horizon_max_wait_none": "",
+                "horizon_max_wait_value": "",
+                "heading": "Overzicht wachtrijen"
             }
         }
     }

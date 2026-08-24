@@ -2,6 +2,12 @@
     "fof-horizon": {
         "admin": {
             "settings": {
+                "locked_by_env": "Set by an environment variable to {value} — change it there, not here.",
+                "locked_by_code": "Set in code (config.php or extend.php) to {value} — change it there, not here.",
+                "mail_title": "Email Delivery",
+                "mail_help": "Control how many emails are sent at the same time. Each worker sends one\nemail at a time, so this is the number of simultaneous outgoing messages.\nSet it to your mail provider's concurrent-connection limit so you don't\nexceed it. Leave blank for the default (1).\n",
+                "email_concurrency": "Simultaneous outgoing emails",
+                "email_concurrency_help": "The maximum number of emails delivered at once. An environment variable\n(REDIS_HORIZON_EMAIL_CONCURRENCY) or config.php value, if set, overrides\nthis.\n",
                 "trim_title": "Trim Settings",
                 "trim_help": "Here you can configure for how long (in minutes) you desire Horizon to\npersist the recent and failed jobs. Typically, recent jobs are kept\nfor one hour while all failed jobs are stored for an entire week.\n",
                 "trim_recent": "Trim Recent Jobs",
@@ -15,52 +21,76 @@
                 "trim_failed": "Trim Failed Jobs",
                 "trim_failed_help": "This table is used to display failed jobs in the Horizon dashboard.\n",
                 "trim_monitored": "Trim Monitored Jobs",
-                "trim_monitored_help": "This table is used to display monitored jobs in the Horizon dashboard.\n"
+                "trim_monitored_help": "This table is used to display monitored jobs in the Horizon dashboard.\n",
+                "supervisor_title": "Worker Settings",
+                "supervisor_help": "Horizon runs your queue workers in tiered profiles (standard, fast,\nlong, emails). Worker counts, memory and queues are configured per\ndeployment via REDIS_HORIZON_* environment variables, config.php (under\nthe \"horizon\" key), or the Horizon extender in extend.php — see the\nextension's README. Restart Horizon after changing worker configuration.\n",
+                "memory_limit": "Master Process Memory Limit (MB)",
+                "memory_limit_help": "Memory limit for the Horizon master supervisor process. Horizon raises\nthis automatically to the largest worker budget, so you rarely need to\nset it by hand.\n"
             },
             "stats": {
-                "auto_refresh": "Auto Refresh",
-                "heading": "Queue Overview",
+                "queue_heading": "Queue",
+                "kv_heading": "Key-Value Store",
                 "full_dashboard": "Horizon Dashboard",
+                "auto_refresh": "Auto Refresh",
                 "refresh": "Refresh",
-                "last_refresh": "Last refresh: {time}",
                 "error": {
                     "title": "Connection Error",
                     "fetch_failed": "Unable to fetch Horizon statistics. Please check your Redis configuration.",
                     "setup_docs": "View Redis Setup Documentation"
                 },
+                "eviction_pressure": "memory pressure",
+                "eviction_policy_tooltip": "The eviction policy is how the store selects what to remove when the maxmemory limit is reached. The default is `noeviction`: new values aren't saved when the memory limit is reached. Click to view documentation.",
+                "eviction_warning": "Memory usage is at {usage}% of maxmemory and the eviction policy is \"{policy}\", so keys — potentially including queue data — may be evicted soon. Increase maxmemory or move the queue to a dedicated database with more headroom.",
                 "health": {
                     "excellent": "Excellent",
                     "good": "Good",
                     "poor": "Poor",
                     "critical": "Critical",
-                    "tooltip": "System health score: {score}/100"
+                    "tooltip_heading": "Health score: {score}/100",
+                    "factor": {
+                        "status": "Horizon is {value}",
+                        "wait": "Long queue wait: {value}",
+                        "memory": "Redis memory pressure: {value}"
+                    }
+                },
+                "status": {
+                    "running": "Running",
+                    "paused": "Paused",
+                    "inactive": "Inactive",
+                    "paused_pending": "Paused · {count} waiting"
+                },
+                "period": {
+                    "minutes": "past {count} min",
+                    "hour": "past hour",
+                    "hours": "past {count} hours",
+                    "day": "past day",
+                    "days": "past {count} days"
                 },
                 "data": {
-                    "redis-used-memory": "Cache store Used Memory",
-                    "redis-peak-memory": "Cache store Peak Memory",
-                    "redis-max-memory": "Cache store Max Memory",
-                    "redis-memory-usage": "Cache store Memory Usage",
-                    "redis-memory-policy": "Cache store Memory Policy",
-                    "redis-memory-policy-tooltip": "The memory policy is the way the cache store will select what to remove when\nthe maxmemory limit is reached. The default is `noeviction`: New values\naren't saved when memory limit is reached. Click to view documentation.\n",
-                    "redis-ops-per-sec": "Ops Per Second",
-                    "redis-connected-clients": "Connected Clients",
-                    "redis-blocked-clients": "Blocked Clients",
+                    "processes": "Worker Processes",
                     "jobs-per-minute": "Jobs Per Minute",
-                    "jobs-past-hour": "Jobs Past Hour",
-                    "failed-last-seconds": "Failed Jobs Past Few Seconds",
-                    "status": {
-                        "label": "Status",
-                        "running": "Running",
-                        "inactive": "Inactive"
-                    },
-                    "total-processes": "Total Processes",
-                    "max-wait-time": "Max Wait Time",
-                    "max-wait-queue": "Queue: {queue}",
-                    "max-runtime": "Max Runtime",
-                    "max-throughput": "Max Throughput",
-                    "success-rate": "Success Rate",
-                    "failure-rate": "Failure Rate"
-                }
+                    "pending-jobs": "Pending Jobs",
+                    "recent-jobs": "Jobs",
+                    "failed-jobs": "Failed Jobs",
+                    "max-wait": "Max Wait",
+                    "slowest-queue": "Slowest Queue",
+                    "highest-throughput-queue": "Busiest Queue",
+                    "memory-used": "Memory Used",
+                    "memory-peak": "Memory Peak",
+                    "memory-max": "Max Memory",
+                    "ops-per-sec": "Ops Per Second",
+                    "connected-clients": "Connected Clients",
+                    "blocked-clients": "Blocked Clients",
+                    "eviction-policy": "Eviction Policy"
+                },
+                "tile": {
+                    "processes": "Worker Processes",
+                    "jobs_per_minute": "Jobs / Min",
+                    "max_wait": "Max Wait",
+                    "status": "Status"
+                },
+                "horizon_max_wait_none": "None",
+                "horizon_max_wait_value": "{seconds}s on {queue}"
             }
         }
     }

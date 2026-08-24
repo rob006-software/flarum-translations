@@ -2,6 +2,12 @@
     "fof-horizon": {
         "admin": {
             "settings": {
+                "locked_by_env": "",
+                "locked_by_code": "",
+                "mail_title": "",
+                "mail_help": "",
+                "email_concurrency": "",
+                "email_concurrency_help": "",
                 "trim_title": "Kärpimise seaded",
                 "trim_help": "Siin saad seadistada kui kaua (minutites) sa soovid Horizoni\ntöölaual viimaseid ja ebaõnnestunud täid hoida, tavaliselt hoitakse\nviimaseid töid üks tund ja ebaõnnestunud töid terve nädala.\n",
                 "trim_recent": "Kärbi viimaseid teid",
@@ -15,37 +21,75 @@
                 "trim_failed": "Kärbi ebaõnnestunud töid",
                 "trim_failed_help": "Seda tabelit kasutatakse Horizon töölaual ebaõnnestunud tööde näitamiseks.\n",
                 "trim_monitored": "Kärbi jälgitavaid töid",
-                "trim_monitored_help": "Seda tabelit kasutatakse Horizon töölaual jälgitud tööde näitamiseks.\n"
+                "trim_monitored_help": "Seda tabelit kasutatakse Horizon töölaual jälgitud tööde näitamiseks.\n",
+                "supervisor_title": "",
+                "supervisor_help": "",
+                "memory_limit": "",
+                "memory_limit_help": ""
             },
             "stats": {
-                "auto_refresh": "Automaatne värskendamine",
-                "heading": "Järjekorra ülevaade",
+                "queue_heading": "",
+                "kv_heading": "",
                 "full_dashboard": "Horizon töölaud",
+                "auto_refresh": "Automaatne värskendamine",
                 "refresh": "Värskenda",
-                "last_refresh": "",
                 "error": {
                     "title": "",
                     "fetch_failed": "",
                     "setup_docs": ""
                 },
+                "eviction_pressure": "",
+                "eviction_policy_tooltip": "",
+                "eviction_warning": "",
                 "health": {
                     "excellent": "",
                     "good": "",
                     "poor": "",
                     "critical": "",
-                    "tooltip": ""
+                    "tooltip_heading": "",
+                    "factor": {
+                        "status": "",
+                        "wait": "",
+                        "memory": ""
+                    }
+                },
+                "status": {
+                    "running": "",
+                    "paused": "",
+                    "inactive": "",
+                    "paused_pending": ""
+                },
+                "period": {
+                    "minutes": "",
+                    "hour": "",
+                    "hours": "",
+                    "day": "",
+                    "days": ""
                 },
                 "data": {
+                    "processes": "",
+                    "jobs-per-minute": "Töid minutis",
+                    "pending-jobs": "",
+                    "recent-jobs": "",
+                    "failed-jobs": "",
+                    "max-wait": "",
+                    "slowest-queue": "",
+                    "highest-throughput-queue": "",
+                    "memory-used": "",
+                    "memory-peak": "",
+                    "memory-max": "",
+                    "ops-per-sec": "",
+                    "connected-clients": "",
+                    "blocked-clients": "",
+                    "eviction-policy": "",
                     "redis-used-memory": "Kasutatud Redis mälu",
                     "redis-peak-memory": "Redis mälu kõrgeim kasutus",
                     "redis-max-memory": "Redis maks. mälu",
-                    "redis-memory-usage": "",
                     "redis-memory-policy": "Redis mälu poliitika",
                     "redis-memory-policy-tooltip": "Mälu poliitika määrab kuidas Redis valib mida eemaldada kui\nmälulimiit (maxmemory) on täis. Vaikeväärtus on `noeviction`: Uusi väärtuseid \nei salvestata, kui mälulimiit on täis. Kliki dokumentatsiooni vaatamiseks.\n",
                     "redis-ops-per-sec": "Toimingud sekundis",
                     "redis-connected-clients": "Ühendatud kliente",
                     "redis-blocked-clients": "Blokeeritud kliente",
-                    "jobs-per-minute": "Töid minutis",
                     "jobs-past-hour": "Töid viimase tunni jooksul",
                     "failed-last-seconds": "Ebaõnnestunud tööd viimase sekundi jooksul",
                     "status": {
@@ -55,12 +99,18 @@
                     },
                     "total-processes": "Protsesse kokku",
                     "max-wait-time": "Maks. ootamise aeg",
-                    "max-wait-queue": "",
                     "max-runtime": "Maks. käivitusaeg",
-                    "max-throughput": "Maks. läbilaskevõime",
-                    "success-rate": "",
-                    "failure-rate": ""
-                }
+                    "max-throughput": "Maks. läbilaskevõime"
+                },
+                "tile": {
+                    "processes": "",
+                    "jobs_per_minute": "",
+                    "max_wait": "",
+                    "status": ""
+                },
+                "horizon_max_wait_none": "",
+                "horizon_max_wait_value": "",
+                "heading": "Järjekorra ülevaade"
             }
         }
     }

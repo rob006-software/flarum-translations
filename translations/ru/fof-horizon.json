@@ -2,6 +2,12 @@
     "fof-horizon": {
         "admin": {
             "settings": {
+                "locked_by_env": "",
+                "locked_by_code": "",
+                "mail_title": "",
+                "mail_help": "",
+                "email_concurrency": "",
+                "email_concurrency_help": "",
                 "trim_title": "Настройки очистки",
                 "trim_help": "Здесь вы можете настроить, как долго (в минутах) Horizon\nбудет сохранять недавние и завершившиеся неудачей задания.\nОбычно последние задания хранятся в течение одного часа, в то время как все завершившиеся неудачей задания хранятся в течение целой недели.\n",
                 "trim_recent": "Очистить недавние задания",
@@ -15,27 +21,68 @@
                 "trim_failed": "Очистить неудачные задания",
                 "trim_failed_help": "Эта таблица используется для отображения неудачных заданий на панели мониторинга Horizon.\n",
                 "trim_monitored": "Очистить контролируемые задания",
-                "trim_monitored_help": "Эта таблица используется для отображения контролируемых заданий на панели мониторинга Horizon.\n"
+                "trim_monitored_help": "Эта таблица используется для отображения контролируемых заданий на панели мониторинга Horizon.\n",
+                "supervisor_title": "",
+                "supervisor_help": "",
+                "memory_limit": "",
+                "memory_limit_help": ""
             },
             "stats": {
-                "auto_refresh": "Автоматическое обновление",
-                "heading": "Обзор очереди",
+                "queue_heading": "",
+                "kv_heading": "",
                 "full_dashboard": "Панель мониторинга Horizon",
+                "auto_refresh": "Автоматическое обновление",
                 "refresh": "Обновить",
-                "last_refresh": "Последнее обновление: {time}",
                 "error": {
                     "title": "Ошибка соединения",
                     "fetch_failed": "Не удается получить статистику Horizon. Пожалуйста, проверьте конфигурацию вашего Redis.",
                     "setup_docs": "Просмотр документации по настройке Redis"
                 },
+                "eviction_pressure": "",
+                "eviction_policy_tooltip": "",
+                "eviction_warning": "",
                 "health": {
                     "excellent": "Отлично",
                     "good": "Хорошо",
                     "poor": "Плохо",
                     "critical": "Критически",
+                    "tooltip_heading": "",
+                    "factor": {
+                        "status": "",
+                        "wait": "",
+                        "memory": ""
+                    },
                     "tooltip": "Оценка работоспособности системы: {score}/100"
                 },
+                "status": {
+                    "running": "",
+                    "paused": "",
+                    "inactive": "",
+                    "paused_pending": ""
+                },
+                "period": {
+                    "minutes": "",
+                    "hour": "",
+                    "hours": "",
+                    "day": "",
+                    "days": ""
+                },
                 "data": {
+                    "processes": "",
+                    "jobs-per-minute": "Количество заданий в минуту",
+                    "pending-jobs": "",
+                    "recent-jobs": "",
+                    "failed-jobs": "",
+                    "max-wait": "",
+                    "slowest-queue": "",
+                    "highest-throughput-queue": "",
+                    "memory-used": "",
+                    "memory-peak": "",
+                    "memory-max": "",
+                    "ops-per-sec": "",
+                    "connected-clients": "",
+                    "blocked-clients": "",
+                    "eviction-policy": "",
                     "redis-used-memory": "Используемая память Redis",
                     "redis-peak-memory": "Пиковое значение памяти Redis",
                     "redis-max-memory": "Максимальная память Redis",
@@ -45,7 +92,6 @@
                     "redis-ops-per-sec": "Операций в секунду",
                     "redis-connected-clients": "Подключенные клиенты",
                     "redis-blocked-clients": "Заблокированные клиенты",
-                    "jobs-per-minute": "Количество заданий в минуту",
                     "jobs-past-hour": "Количество заданий в час",
                     "failed-last-seconds": "Неудачные задания за последние секунды",
                     "status": {
@@ -60,7 +106,17 @@
                     "max-throughput": "Макс. пропускная способность",
                     "success-rate": "Коэффициент успеха",
                     "failure-rate": "Коэффициент отказа"
-                }
+                },
+                "tile": {
+                    "processes": "",
+                    "jobs_per_minute": "",
+                    "max_wait": "",
+                    "status": ""
+                },
+                "horizon_max_wait_none": "",
+                "horizon_max_wait_value": "",
+                "heading": "Обзор очереди",
+                "last_refresh": "Последнее обновление: {time}"
             }
         }
     }

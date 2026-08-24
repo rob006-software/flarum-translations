@@ -2,6 +2,12 @@
     "fof-horizon": {
         "admin": {
             "settings": {
+                "locked_by_env": "",
+                "locked_by_code": "",
+                "mail_title": "",
+                "mail_help": "",
+                "email_concurrency": "",
+                "email_concurrency_help": "",
                 "trim_title": "Eltávolítási beállítások",
                 "trim_help": "Itt beállíthatja, hogy mennyi ideig (percekben) szeretné, hogy a Horizon\nmegjegyezze a legutóbbi és a sikertelen feladatokat. Általában a legutóbbiakat\negy óráig tartja meg, míg a sikerteleneket egy teljes hétig tárolja.\n",
                 "trim_recent": "Legutóbbi feladatok eltávolítása",
@@ -15,27 +21,68 @@
                 "trim_failed": "Sikertelen feladatok eltávolítása",
                 "trim_failed_help": "Ez a táblázat a sikertelen feladatok megjelenítésére szolgál a Horizon vezérlőpultján.\n",
                 "trim_monitored": "Nyomon követett feladatok eltávolítása",
-                "trim_monitored_help": "Ez a táblázat a nyomon követett feladatok megjelenítésére szolgál a Horizon vezérlőpultján.\n"
+                "trim_monitored_help": "Ez a táblázat a nyomon követett feladatok megjelenítésére szolgál a Horizon vezérlőpultján.\n",
+                "supervisor_title": "",
+                "supervisor_help": "",
+                "memory_limit": "",
+                "memory_limit_help": ""
             },
             "stats": {
-                "auto_refresh": "Automatikus frissítés",
-                "heading": "Feladatsor áttekintése",
+                "queue_heading": "",
+                "kv_heading": "",
                 "full_dashboard": "Horizon vezérlőpult",
+                "auto_refresh": "Automatikus frissítés",
                 "refresh": "Frissítés",
-                "last_refresh": "Legutóbbi frissítés: {time}",
                 "error": {
                     "title": "Kapcsolódási hiba",
                     "fetch_failed": "A Horizon statisztikák nem kérhetők le. Ellenőrizze a Redis konfigurációt.",
                     "setup_docs": "Redis telepítési dokumentáció megtekintése"
                 },
+                "eviction_pressure": "",
+                "eviction_policy_tooltip": "",
+                "eviction_warning": "",
                 "health": {
                     "excellent": "Kiváló",
                     "good": "Jó",
                     "poor": "Gyenge",
                     "critical": "Kritikus",
+                    "tooltip_heading": "",
+                    "factor": {
+                        "status": "",
+                        "wait": "",
+                        "memory": ""
+                    },
                     "tooltip": "Rendszer egészségi pontszáma: {score}/100"
                 },
+                "status": {
+                    "running": "",
+                    "paused": "",
+                    "inactive": "",
+                    "paused_pending": ""
+                },
+                "period": {
+                    "minutes": "",
+                    "hour": "",
+                    "hours": "",
+                    "day": "",
+                    "days": ""
+                },
                 "data": {
+                    "processes": "",
+                    "jobs-per-minute": "Feladatok száma percenként",
+                    "pending-jobs": "",
+                    "recent-jobs": "",
+                    "failed-jobs": "",
+                    "max-wait": "",
+                    "slowest-queue": "",
+                    "highest-throughput-queue": "",
+                    "memory-used": "",
+                    "memory-peak": "",
+                    "memory-max": "",
+                    "ops-per-sec": "",
+                    "connected-clients": "",
+                    "blocked-clients": "",
+                    "eviction-policy": "",
                     "redis-used-memory": "A gyorsítótár által használt memória",
                     "redis-peak-memory": "A gyorsítótár legnagyobb memóriahasználata",
                     "redis-max-memory": "A gyorsítótár memóriakorlátja",
@@ -45,7 +92,6 @@
                     "redis-ops-per-sec": "Műveletek száma másodpercenként",
                     "redis-connected-clients": "Kapcsolódott kliensek",
                     "redis-blocked-clients": "Blokkolt kliensek",
-                    "jobs-per-minute": "Feladatok száma percenként",
                     "jobs-past-hour": "Feladatok száma óránként",
                     "failed-last-seconds": "Sikertelen feladatok az elmúlt néhány másodpercben",
                     "status": {
@@ -60,7 +106,17 @@
                     "max-throughput": "Legnagyobb áteresztőképesség",
                     "success-rate": "Sikerességi arány",
                     "failure-rate": "Hibaarány"
-                }
+                },
+                "tile": {
+                    "processes": "",
+                    "jobs_per_minute": "",
+                    "max_wait": "",
+                    "status": ""
+                },
+                "horizon_max_wait_none": "",
+                "horizon_max_wait_value": "",
+                "heading": "Feladatsor áttekintése",
+                "last_refresh": "Legutóbbi frissítés: {time}"
             }
         }
     }

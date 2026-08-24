@@ -2,6 +2,12 @@
     "fof-horizon": {
         "admin": {
             "settings": {
+                "locked_by_env": "",
+                "locked_by_code": "",
+                "mail_title": "",
+                "mail_help": "",
+                "email_concurrency": "",
+                "email_concurrency_help": "",
                 "trim_title": "修剪設定",
                 "trim_help": "您可以在此處配置您希望 Horizon 運行的時長（以分鐘為單位）\n保留最近和失敗的作業。 通常，保留最近的工作\n儲存一小時，而所有失敗的作業將儲存一整週。\n",
                 "trim_recent": "修剪最近的工作",
@@ -15,37 +21,72 @@
                 "trim_failed": "修剪失敗的作業",
                 "trim_failed_help": "此表用於在 Horizon 儀表板中顯示失敗的作業。\n",
                 "trim_monitored": "修剪受監控的作業",
-                "trim_monitored_help": "此表用於在 Horizon 儀表板中顯示受監控的作業。\n"
+                "trim_monitored_help": "此表用於在 Horizon 儀表板中顯示受監控的作業。\n",
+                "supervisor_title": "",
+                "supervisor_help": "",
+                "memory_limit": "",
+                "memory_limit_help": ""
             },
             "stats": {
-                "auto_refresh": "自動重新整理",
-                "heading": "隊列概覽",
+                "queue_heading": "",
+                "kv_heading": "",
                 "full_dashboard": "Horizon 儀表板",
+                "auto_refresh": "自動重新整理",
                 "refresh": "重整",
-                "last_refresh": "",
                 "error": {
                     "title": "",
                     "fetch_failed": "",
                     "setup_docs": ""
                 },
+                "eviction_pressure": "",
+                "eviction_policy_tooltip": "",
+                "eviction_warning": "",
                 "health": {
                     "excellent": "",
                     "good": "",
                     "poor": "",
                     "critical": "",
-                    "tooltip": ""
+                    "tooltip_heading": "",
+                    "factor": {
+                        "status": "",
+                        "wait": "",
+                        "memory": ""
+                    }
+                },
+                "status": {
+                    "running": "",
+                    "paused": "",
+                    "inactive": "",
+                    "paused_pending": ""
+                },
+                "period": {
+                    "minutes": "",
+                    "hour": "",
+                    "hours": "",
+                    "day": "",
+                    "days": ""
                 },
                 "data": {
+                    "processes": "",
+                    "jobs-per-minute": "每分鐘作業數",
+                    "pending-jobs": "",
+                    "recent-jobs": "",
+                    "failed-jobs": "",
+                    "max-wait": "",
+                    "slowest-queue": "",
+                    "highest-throughput-queue": "",
+                    "memory-used": "",
+                    "memory-peak": "",
+                    "memory-max": "",
+                    "ops-per-sec": "",
+                    "connected-clients": "",
+                    "blocked-clients": "",
+                    "eviction-policy": "",
                     "redis-used-memory": "Redis 使用記憶體",
                     "redis-peak-memory": "Redis 峰值內存",
                     "redis-max-memory": "Redis 最大內存",
-                    "redis-memory-usage": "",
                     "redis-memory-policy": "Redis 記憶體策略",
                     "redis-memory-policy-tooltip": "記憶體策略是 Redis 在以下情況下選擇刪除內容的方式：\n已達到最大記憶體限制。 預設為“noeviction”：新值 \n當達到記憶體限制時不會保存。 按一下查看文件。\n",
-                    "redis-ops-per-sec": "",
-                    "redis-connected-clients": "",
-                    "redis-blocked-clients": "",
-                    "jobs-per-minute": "每分鐘作業數",
                     "jobs-past-hour": "過去一小時的工作",
                     "failed-last-seconds": "過去幾秒鐘失敗的作業",
                     "status": {
@@ -55,12 +96,18 @@
                     },
                     "total-processes": "所有進程",
                     "max-wait-time": "最大等待時間",
-                    "max-wait-queue": "",
                     "max-runtime": "最大執行時間",
-                    "max-throughput": "最大吞吐量",
-                    "success-rate": "",
-                    "failure-rate": ""
-                }
+                    "max-throughput": "最大吞吐量"
+                },
+                "tile": {
+                    "processes": "",
+                    "jobs_per_minute": "",
+                    "max_wait": "",
+                    "status": ""
+                },
+                "horizon_max_wait_none": "",
+                "horizon_max_wait_value": "",
+                "heading": "隊列概覽"
             }
         }
     }
