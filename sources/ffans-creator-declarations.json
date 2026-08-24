@@ -1,0 +1,116 @@
+{
+    "ffans-creator-declarations": {
+        "admin": {
+            "permissions": {
+                "allow_edit_own_label": "Allow editing own creator declarations",
+                "moderate_label": "Edit creator declarations on posts"
+            },
+            "settings": {
+                "required_discussion_label": "Require a declaration when starting a discussion",
+                "required_discussion_help": "Discussions cannot be published until at least one declaration is selected.",
+                "required_reply_label": "Require a declaration when replying",
+                "required_reply_help": "Replies cannot be published until at least one declaration is selected.",
+                "max_label": "Maximum declarations per post",
+                "show_original_in_post_header_label": "Show original and repost tags in the post header",
+                "show_original_in_post_header_help": "When enabled, “Original” and “Repost” appear as tags in the post header and are omitted from the declaration summary above the post body.",
+                "show_in_user_post_lists_label": "Show creator declarations in profile Posts lists",
+                "show_in_user_post_lists_help": "When enabled, creator declarations are displayed with posts in user profile Posts lists.",
+                "order_label": "Declaration order",
+                "order_help": "Separate declaration keys with commas. Missing keys are appended automatically. Available keys are original, repost, ai_generated, fictional, personal_opinion, professional, sensitive, self_promotion, and sponsored."
+            }
+        },
+        "forum": {
+            "composer": {
+                "choose": "Add self declarations",
+                "selected": "{count} declarations selected"
+            },
+            "controls": {
+                "edit": "Edit self declarations"
+            },
+            "display": {
+                "title": "Creator declarations",
+                "disclaimer": "These declarations were provided by the author and have not been verified by the forum.",
+                "prefix": "Creator declaration: ",
+                "open_details": "View creator declaration details",
+                "original_tag": "Original",
+                "original_tooltip": "Original content. Do not reproduce without permission.",
+                "repost_tag": "Repost",
+                "repost_tooltip": "Reposted content. Copyright belongs to the original author.",
+                "declaration_separator": ", "
+            },
+            "info_modal": {
+                "title": "About this declaration",
+                "heading": "Why am I seeing this notice?",
+                "explanation": "This notice was added by the author, who declared this post as “{declarations}”.",
+                "disclaimer": "These declarations have not been verified or certified by the forum. Please consider them together with the post.",
+                "author_note": "Author's note: "
+            },
+            "modal": {
+                "title": "Self Declarations",
+                "help": "Select the declarations that apply to this post. They provide context and do not represent the forum's views.",
+                "save_button": "Save declarations",
+                "selection_count": "Selected {selected} / {max}"
+            }
+        },
+        "lib": {
+            "validation": {
+                "required": "At least one declaration is required.",
+                "too_many": "Too many declarations were selected.",
+                "invalid_payload": "The declaration payload is invalid.",
+                "invalid_selection": "The declaration selection is invalid.",
+                "details_too_long": "Declaration details may not exceed 500 characters.",
+                "repost_url_required": "A valid source URL is required for reposted content.",
+                "source_conflict": "Original and reposted content declarations cannot be selected at the same time."
+            },
+            "categories": {
+                "source": "Content source",
+                "authenticity": "Authenticity",
+                "safety": "Safety and content notices",
+                "commercial": "Commercial disclosure"
+            },
+            "declarations": {
+                "original": {
+                    "label": "Original content",
+                    "help": "The content was primarily created by the author and is not a direct repost."
+                },
+                "repost": {
+                    "label": "Reposted or quoted content",
+                    "help": "The content includes substantial material from another author or source.",
+                    "details_placeholder": "Enter the original source URL (required)"
+                },
+                "ai_generated": {
+                    "label": "AI-generated content",
+                    "help": "All or a significant part of the content was created or edited with generative AI.",
+                    "details_placeholder": "Optionally name the AI tool or add context"
+                },
+                "fictional": {
+                    "label": "Fictional or staged content",
+                    "help": "The content contains fictional events, role-play, or staged scenes."
+                },
+                "personal_opinion": {
+                    "label": "Personal opinions or perspectives",
+                    "help": "This content primarily expresses the author's personal views, judgments, or experiences and does not represent universal facts or professional conclusions."
+                },
+                "professional": {
+                    "label": "Dangerous behavior; do not imitate",
+                    "help": "Imitating this activity without suitable expertise may create a safety risk.",
+                    "details_placeholder": "Optionally add safety information"
+                },
+                "sensitive": {
+                    "label": "Potentially disturbing",
+                    "help": "The content may include disturbing, frightening, or sensitive descriptions.",
+                    "details_placeholder": "Optionally describe the content notice"
+                },
+                "self_promotion": {
+                    "label": "Contains marketing or promotional information",
+                    "help": "The content promotes products or services from the author, their organization, or third parties and may involve affiliate commissions or other compensation."
+                },
+                "sponsored": {
+                    "label": "Paid partnership, sponsorship, or material interest",
+                    "help": "A third party provided payment, gifts, or another material benefit.",
+                    "details_placeholder": "Optionally name the partner or describe the relationship"
+                }
+            }
+        }
+    }
+}
