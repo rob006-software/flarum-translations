@@ -970,6 +970,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`ernestdefoe-theme-toggle`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-theme-toggle) | [`ernestdefoe/theme-toggle`](https://github.com/ernestdefoe/theme-toggle) |
 | [`ernestdefoe-topic-map`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-topic-map) | [`ernestdefoe/topic-map`](https://github.com/ernestdefoe/topic-map) |
 | [`ernestdefoe-typesense`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-typesense) | [`ernestdefoe/typesense`](https://github.com/ernestdefoe/typesense) |
+| [`ffans-creator-declarations`](https://weblate.rob006.net/projects/flarum2/ffans-creator-declarations) | [`ffans/creator-declarations`](https://github.com/FFans/creator-declarations) |
 | [`flectar-turnstile`](https://weblate.rob006.net/projects/flarum2/flectar-turnstile) | [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile) |
 | [`forumaker-bento`](https://weblate.rob006.net/projects/flarum2/forumaker-bento) | [`forumaker/bento`](https://github.com/forumaker/Bento) |
 | [`forumaker-magicbb`](https://weblate.rob006.net/projects/flarum2/forumaker-magicbb) | [`forumaker/magicbb`](https://github.com/forumaker/magicbb) |
