@@ -50,8 +50,8 @@
                     "cdn_url_help": "Vollständige URL zur FontAwesome-CSS-Datei auf einem CDN",
                     "kit_url_label": "Kit-URL",
                     "kit_url_help": "Die URL deines FontAwesome-Kit-Skripts (von kit.fontawesome.com)",
-                    "forced_style_label": "",
-                    "forced_style_help": "",
+                    "forced_style_label": "Erzwungener Symbolstil",
+                    "forced_style_help": "Wendet auf jedes Symbol einen bestimmten FontAwesome-Stil an, z. B. „fa-duotone fa-light“ oder „fa-regular“. Das ersetzt den von Core und Erweiterungen festgelegten Stil (Markensymbole werden dabei nie verändert). Deine Symbol-Quelle muss den Stil bereitstellen können: Die mitgelieferten Symbole stammen aus FontAwesome Free, das nur einige hundert Symbole außerhalb des „solid“-Stils umfasst. Wenn du also einen anderen Stil erzwingst, bleiben die meisten Symbole leer. Alle Stile sind über das FontAwesome Pro-CDN oder das Kit verfügbar. Lasse das Feld leer, um die Funktion zu deaktivieren.",
                     "config_override": {
                         "label": "Konfigurationsüberschreibung",
                         "help": "Die FontAwesome-Einstellungen sind derzeit in deiner config.php-Datei festgelegt und können hier nicht geändert werden."
@@ -69,10 +69,10 @@
                     "search_configuration": "Zu verwendende Suchkonfiguration"
                 },
                 "queue": {
-                    "pause_label": "",
-                    "pause_all_label": "",
-                    "pause_queue_label": "",
-                    "pause_help": "",
+                    "pause_label": "Verarbeitung der Warteschlange pausieren",
+                    "pause_all_label": "Alle Warteschlangen pausieren",
+                    "pause_queue_label": "Warteschlange {queue} pausieren",
+                    "pause_help": "Während der Pause nehmen Worker keine neuen Aufträge aus den betroffenen Warteschlangen mehr an – die Aufträge sammeln sich an, bis die Bearbeitung wieder aufgenommen wird. Bereits laufende Aufträge sind davon nicht betroffen.",
                     "section_label": "Warteschlange",
                     "sync_info": "Dein Forum verwendet den synchronen Warteschlangentreiber. Jobs werden sofort im Hauptprozess-Thread verarbeitet.",
                     "sync_help": "Für eine bessere Leistung und Benutzererfahrung solltest du die Verwendung des Datenbank-Warteschlangentreibers in Betracht ziehen. Weitere Informationen findest du in der Dokumentation.",
@@ -96,8 +96,8 @@
                         "default": "Standard-Datenbanksuche"
                     },
                     "no_other_drivers": "Es sind noch keine Suchtreiber verfügbar. Installiere eine Suchtreiber-Erweiterung, um diese konfigurieren zu können.",
-                    "cjk_mode_label": "",
-                    "cjk_mode_help": ""
+                    "cjk_mode_label": "Suche für CJK-Sprachen optimieren",
+                    "cjk_mode_help": "Aktiviere diese Option, wenn dein Forum hauptsächlich auf Chinesisch, Japanisch oder Koreanisch verwendet wird. Die wortbasierte Suche der Datenbank kann keine Teilzeichenfolgen in CJK-Texten finden, daher wird hier auf eine Teilzeichenfolgen-Suche umgeschaltet, die dies ermöglicht. Bei sehr großen Foren ist dieser Vorgang langsamer; in diesem Fall ist die Konfiguration eines CJK-fähigen Volltext-Parsers auf Datenbankebene (wie beispielsweise der ngram-Parser von MySQL/MariaDB) eine schnellere Alternative."
                 },
                 "title": "Fortgeschritten"
             },
@@ -126,8 +126,8 @@
                 "logo_text": "Lade ein Logo hoch, welches anstelle des Forum-Titels angezeigt wird.",
                 "logo_dark_mode_heading": "Logo für dunklen Modus",
                 "logo_dark_mode_text": "Lade ein alternatives Logo hoch, das angezeigt werden soll, wenn der Dunkle Modus aktiviert ist.",
-                "show_theme_selector_help": "",
-                "show_theme_selector_label": "",
+                "show_theme_selector_help": "Erlaube Benutzern über ein Steuerelement in der Kopfzeile zwischen den verfügbaren Farbschemata wechseln zu können.",
+                "show_theme_selector_label": "Farbschema-Auswahl anzeigen",
                 "title": "Erscheinungsbild",
                 "color_scheme_label": "Farbschema (Standard)",
                 "color_schemes": {
@@ -206,20 +206,20 @@
                 "view_all": "Alle auf discuss.flarum.org anzeigen"
             },
             "queue_widget": {
-                "title": "",
-                "pending": "",
-                "reserved": "",
-                "failed": "",
-                "refresh": ""
+                "title": "Warteschlange",
+                "pending": "Ausstehend",
+                "reserved": "In Bearbeitung",
+                "failed": "Fehlgeschlagen",
+                "refresh": "Aktualisieren"
             },
             "failed_jobs": {
-                "title": "",
-                "none": "",
-                "meta": "",
-                "details": "",
-                "retry": "",
-                "retry_all": "",
-                "delete": ""
+                "title": "Fehlgeschlagene Aufträge",
+                "none": "Keine fehlgeschlagenen Aufträge.",
+                "meta": "Warteschlange {queue} · fehlgeschlagen {time}",
+                "details": "Details",
+                "retry": "Erneut versuchen",
+                "retry_all": "Alle erneut versuchen",
+                "delete": "Löschen"
             },
             "dashboard": {
                 "queue_paused_warning": "",
