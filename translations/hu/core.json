@@ -50,8 +50,8 @@
                     "cdn_url_help": "A CDN-en lévő FontAwesome CSS-fájl teljes webcíme",
                     "kit_url_label": "Kit webcíme",
                     "kit_url_help": "A FontAwesome Kit parancsfájljának webcíme (a kit.fontawesome.com webhelyről)",
-                    "forced_style_label": "",
-                    "forced_style_help": "",
+                    "forced_style_label": "Kényszerített ikonstílus",
+                    "forced_style_help": "Minden ikont egy adott FontAwesome stílusra állít, például „fa-duotone fa-light” vagy „fa-regular”. Felülbírálja a rendszermag és a bővítmények által megadott stílust (a márkaikonok sosem változnak). Az ikonforrásnak képesnek kell lennie a stílus biztosítására: a csomagban található ikonok a FontAwesome Free verzióból származnak, amely a tömör stíluson kívül csak néhány száz ikont tartalmaz, így ha más stílust kényszerít, a legtöbb ikon üresen marad. Minden stílus elérhető a FontAwesome Pro CDN-en vagy a Kitben. A funkció kikapcsolásához hagyja üresen.",
                     "config_override": {
                         "label": "Konfiguráció felülbírálása",
                         "help": "A FontAwesome beállításai jelenleg a config.php fájlban vannak megadva, és innen nem változtathatók meg."
@@ -69,10 +69,10 @@
                     "search_configuration": "Használandó konfiguráció keresése"
                 },
                 "queue": {
-                    "pause_label": "",
-                    "pause_all_label": "",
-                    "pause_queue_label": "",
-                    "pause_help": "",
+                    "pause_label": "Feldolgozási sorok felfüggesztése",
+                    "pause_all_label": "Összes várólista szüneteltetése",
+                    "pause_queue_label": "A(z) {queue} várólista felfüggesztése",
+                    "pause_help": "A szüneteltetés ideje alatt a feldolgozók nem vesznek fel új feladatokat az érintett várólistákból — a feladatok felhalmozódnak, amíg a feldolgozás újra meg nem kezdődik. A már futó feladatokra ez nincs hatással.",
                     "section_label": "Várólista",
                     "sync_info": "A fórum a szinkron várólista-illesztőprogramot használja. A feladatok azonnal feldolgozásra kerülnek a fő folyamatszálban.",
                     "sync_help": "A jobb teljesítmény és felhasználói élmény érdekében fontolja meg az adatbázist használó várólista-illesztőprogram használatát. További információk a dokumentációban.",
@@ -96,8 +96,8 @@
                         "default": "Alapértelmezett adatbázis-keresés"
                     },
                     "no_other_drivers": "Még nincs elérhető keresési illesztőprogram. Telepítsen egy keresési illesztőprogramot biztosító bővítményt, hogy beállíthassa.",
-                    "cjk_mode_label": "",
-                    "cjk_mode_help": ""
+                    "cjk_mode_label": "A keresés optimalizálása CJK-nyelvekre",
+                    "cjk_mode_help": "Kapcsolja be, ha a fóruma elsősorban kínai, japán vagy koreai nyelvű. Az adatbázis szóalapú keresése nem képes a CJK-szövegek részeit megtalálni, ezért ez a beállítás átvált egy olyan részleges szövegegyeztetésre, amely képes erre. Nagyon nagy fórumok esetén ez lassabb, ilyenkor gyorsabb megoldás lehet egy adatbázisszintű CJK-kompatibilis teljes szöveges elemző beállítása (például a MySQL/MariaDB ngram-elemzője)."
                 },
                 "title": "Speciális"
             },
@@ -126,8 +126,8 @@
                 "logo_text": "Kép feltöltése, mely a fórumcím helyett fog megjelenni.",
                 "logo_dark_mode_heading": "Sötét módú logó",
                 "logo_dark_mode_text": "Töltsön fel egy alternatív logót, amely a sötét mód engedélyezése esetén jelenik meg.",
-                "show_theme_selector_help": "",
-                "show_theme_selector_label": "",
+                "show_theme_selector_help": "A felhasználók a fejlécben válthatnak az elérhető színsémák közül.",
+                "show_theme_selector_label": "Témaválasztó megjelenítése",
                 "title": "Megjelenés",
                 "color_scheme_label": "Színséma (alapértelmezett)",
                 "color_schemes": {
@@ -206,25 +206,25 @@
                 "view_all": "Összes megtekintése itt: discuss.flarum.org"
             },
             "queue_widget": {
-                "title": "",
-                "pending": "",
-                "reserved": "",
-                "failed": "",
-                "refresh": ""
+                "title": "Várólista",
+                "pending": "Függőben",
+                "reserved": "Folyamatban",
+                "failed": "Sikertelen",
+                "refresh": "Frissítés"
             },
             "failed_jobs": {
-                "title": "",
-                "none": "",
-                "meta": "",
-                "details": "",
-                "retry": "",
-                "retry_all": "",
-                "delete": ""
+                "title": "Sikertelen feladatok",
+                "none": "Nincsenek sikertelen feladatok.",
+                "meta": "{queue} várólista · sikertelen {time}",
+                "details": "Részletek",
+                "retry": "Újra",
+                "retry_all": "Összes újrapróbálása",
+                "delete": "Törlés"
             },
             "dashboard": {
-                "queue_paused_warning": "",
-                "queue_paused_all_warning": "",
-                "queue_paused_manage": "",
+                "queue_paused_warning": "Várólista-feldolgozás szüneteltetve (várólista: {queues}). A feladatok gyűlni fognak a folytatásig.",
+                "queue_paused_all_warning": "Az összes várólista-feldolgozás szüneteltetve. A feladatok gyűlni fognak a folytatásig.",
+                "queue_paused_manage": "Kezelés",
                 "clear_cache_button": "Gyorsítótár törlése",
                 "description": "Fórum összefoglalása.",
                 "info_button": "Rendszer-információk",
@@ -272,8 +272,8 @@
                 "label": "Eltérő adatbázis-illesztőprogram"
             },
             "database-version-warning": {
-                "below-recommended-detail": "",
-                "below-recommended-label": ""
+                "below-recommended-detail": "A(z) {server} kiszolgáló a következő verziót futtatja: <code>{version}</code>. Ez támogatott, de a Flarum azt javasolja, hogy a legjobb teljesítmény érdekében, és hogy karbantartott kiadást használjon, frissítsen a(z) {server} <code>{recommended}</code> vagy újabb verzióra. További információkért lásd a <link>Flarum dokumentációját</link>.\n",
+                "below-recommended-label": "Az adatbázis-verzió elavult"
             },
             "debug-warning": {
                 "detail": "Ha a <code>hibakeresési</code> mód aktív, a Flarum újraépíti a <code>JavaScript</code> és <code>CSS</code> erőforrásait minden egyes kérésnél, és lehetséges, hogy egyéb információkat fog szivárogtatni, például adatbázistitkokat, környezeti változókat stb.\n\nÉles üzemben nagyon ajánlott kikapcsolni a <code>hibakeresést</code> a <code>config.php</code> fájlban. További információért lásd a <link>Flarum dokumentációját</link>.\n",
@@ -617,7 +617,7 @@
                 "session_dropdown_accessible_label": "Munkamenet-beállítások legördülő menüje be/ki",
                 "settings_button": "=> core.ref.settings",
                 "sign_up_link": "=> core.ref.sign_up",
-                "theme_switcher_accessible_label": ""
+                "theme_switcher_accessible_label": "Téma módosítása"
             },
             "index": {
                 "all_discussions_link": "=> core.ref.all_discussions",
@@ -631,14 +631,14 @@
                 "toggle_sidenav_dropdown_accessible_label": "Navigációs legördülő menü be/ki"
             },
             "index_sort": {
-                "az_button": "",
-                "latest_button": "Legutóbbi",
+                "az_button": "=> core.ref.title_az",
+                "latest_button": "=> core.ref.latest",
                 "newest_button": "=> core.ref.newest",
                 "oldest_button": "=> core.ref.oldest",
                 "relevance_button": "=> core.ref.relevance",
                 "toggle_dropdown_accessible_label": "Témák rendezésének megváltoztatása",
-                "top_button": "Felkapott",
-                "za_button": ""
+                "top_button": "=> core.ref.top",
+                "za_button": "=> core.ref.title_za"
             },
             "log_in": {
                 "forgot_password_link": "Elfelejtette a jelszavát?",
@@ -914,7 +914,7 @@
             },
             "nav": {
                 "drawer_button": "Navigációs fiók kinyitása",
-                "pin_pane_button": ""
+                "pin_pane_button": "Témalista kitűzése"
             },
             "notices": {
                 "bisecting": "A bővítmények felező hibakeresési folyamatának futtatása, hogy kiderüljön, melyik bővítmény okoz problémát.",
@@ -923,20 +923,20 @@
                 "maintenance_mode_safe": "Karbantartás miatt leállítva biztonságos módban. Csak az adminisztrátorok érik el a fórumot, és nincs betöltve bővítmény."
             },
             "index_sort": {
-                "az_button": "",
-                "latest_button": "",
-                "newest_button": "",
-                "oldest_button": "",
-                "relevance_button": "",
-                "top_button": "",
-                "za_button": ""
+                "az_button": "=> core.ref.title_az",
+                "latest_button": "=> core.ref.latest",
+                "newest_button": "=> core.ref.newest",
+                "oldest_button": "=> core.ref.oldest",
+                "relevance_button": "=> core.ref.relevance",
+                "top_button": "=> core.ref.top",
+                "za_button": "=> core.ref.title_za"
             },
             "number_suffix": {
                 "kilo_text": "e",
                 "mega_text": "m"
             },
             "overflowing_list": {
-                "toggle_accessible_label": ""
+                "toggle_accessible_label": "További elemek"
             },
             "pagination": {
                 "back_button": "Előző oldal",
@@ -955,7 +955,7 @@
                 "options_heading": "Keresési beállítások",
                 "placeholder": "Keresés…",
                 "preview_heading": "Keresés előnézete",
-                "search_active_button_accessible_label": "",
+                "search_active_button_accessible_label": "Keresés módosítása: {query}",
                 "search_clear_button_accessible_label": "Keresési kifejezés törlése"
             },
             "search_source": {
@@ -1154,7 +1154,7 @@
             "light_hc_mode_label": "Világos, magas kontrasztú mód",
             "light_mode_label": "Világos mód",
             "load_more": "Továbbiak betöltése",
-            "latest": "",
+            "latest": "Legutóbbi",
             "loading": "Betöltés…",
             "log_in": "Bejelentkezés",
             "log_out": "Kijelentkezés",
@@ -1184,9 +1184,9 @@
             "sign_up": "Regisztráció",
             "some_others": "{count} további",
             "start_a_discussion": "Új téma indítása",
-            "title_az": "",
-            "title_za": "",
-            "top": "",
+            "title_az": "Cím (A–Z)",
+            "title_za": "Cím (Z–A)",
+            "top": "Legnépszerűbb",
             "username": "Felhasználónév",
             "username_or_email_placeholder": "Felhasználónév vagy e-mail-cím",
             "users": "Felhasználók",
