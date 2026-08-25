@@ -902,7 +902,7 @@ return [
 		],
 	],
 	'stezkoy-telegram-notify' => [
-		'tag' => 'https://raw.githubusercontent.com/Stezkoy/flarum-telegram-notify/v1.0.2/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/Stezkoy/flarum-telegram-notify/v1.0.3/locale/en.yml',
 		'__builtInLanguages' => [
 			'ru',
 		],
