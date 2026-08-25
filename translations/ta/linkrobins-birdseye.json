@@ -4,6 +4,10 @@
             "dashboard": {
                 "title": "",
                 "range_7d": "",
+                "history": "",
+                "by_month": "",
+                "by_year": "",
+                "so_far": "",
                 "range_30d": "",
                 "visitors": "",
                 "pageviews": "",
@@ -58,24 +62,16 @@
             }
         },
         "admin": {
-            "status_active_waiting": "",
-            "status_active_seen": "",
-            "status_no_key": "",
-            "status_incomplete": "",
-            "status_canceled": "",
-            "status_invalid_key": "",
-            "status_bound_elsewhere": "",
-            "status_unreachable": "",
             "permissions": {
                 "view_stats_label": ""
             },
             "settings": {
                 "collect_label": "",
                 "collect_help": "",
-                "license_key_label": "",
-                "license_key_help": "",
                 "geo_ip_prefix_label": "",
                 "geo_ip_prefix_help": "",
+                "geoip_db_path_label": "",
+                "geoip_db_path_help": "",
                 "country_header_label": "",
                 "country_header_help": "",
                 "weekly_digest_label": "",
