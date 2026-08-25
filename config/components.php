@@ -899,6 +899,12 @@ return [
 			'zh_Hans',
 		],
 	],
+	'stezkoy-telegram-audit' => [
+		'tag' => 'https://raw.githubusercontent.com/Stezkoy/flarum-telegram-audit/v1.0.0/locale/en.yml',
+		'__builtInLanguages' => [
+			'ru',
+		],
+	],
 	'sycho-advanced-extension-categories' => [
 		'tag' => 'https://raw.githubusercontent.com/SychO9/flarum-advanced-extension-categories/v0.2.1/locale/en.yml',
 	],
