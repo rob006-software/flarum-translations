@@ -12,15 +12,15 @@ are fully in sync and are not listed here.
 | [Chinese (Traditional)](zh_Hant.md) (`zh_Hant`) | 33 | 199 | 6 |
 | [Dutch](nl.md) (`nl`) | 0 | 9 | 8 |
 | [Finnish](fi.md) (`fi`) | 5 | 61 | 7 |
-| [French](fr.md) (`fr`) | 124 | 1148 | 57 |
-| [German](de.md) (`de`) | 309 | 574 | 91 |
-| [German (formal)](de@formal.md) (`de@formal`) | 357 | 574 | 93 |
+| [French](fr.md) (`fr`) | 124 | 1151 | 57 |
+| [German](de.md) (`de`) | 312 | 582 | 92 |
+| [German (formal)](de@formal.md) (`de@formal`) | 360 | 582 | 93 |
 | [Hungarian](hu.md) (`hu`) | 44 | 6 | 22 |
 | [Indonesian](id.md) (`id`) | 1 | 0 | 1 |
 | [Italian](it.md) (`it`) | 0 | 1 | 1 |
 | [Japanese](ja.md) (`ja`) | 1 | 0 | 1 |
 | [Korean](ko.md) (`ko`) | 0 | 1 | 1 |
-| [Persian](fa.md) (`fa`) | 7 | 82 | 38 |
+| [Persian](fa.md) (`fa`) | 7 | 86 | 42 |
 | [Romanian](ro.md) (`ro`) | 0 | 12 | 1 |
 | [Russian](ru.md) (`ru`) | 56 | 59 | 16 |
 | [Serbian (Latin)](sr_Latn.md) (`sr_Latn`) | 0 | 5 | 1 |

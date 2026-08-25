@@ -2,7 +2,7 @@
 
 Translations for French (`fr`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **124** are translated differently and **1148** are
+sides, but do not match between them: **124** are translated differently and **1151** are
 translated only in `fr`. Altogether they cover **57** components.
 
 <!-- {% raw %} -->
@@ -13,7 +13,7 @@ translated only in `fr`. Altogether they cover **57** components.
 | Component | Different translations | Missing translations |
 | --- | --- | --- |
 | `acpl-lscache` | [1](#acpl-lscache) | 0 |
-| `core` | [7](#core) | 0 |
+| `core` | [7](#core) | [3](#core-missing) |
 | `datitisev-backup` | [1](#datitisev-backup) | 0 |
 | `ekumanov-inline-audio` | [4](#ekumanov-inline-audio) | 0 |
 | `ekumanov-new-posts-notice` | [2](#ekumanov-new-posts-notice) | 0 |
@@ -1573,6 +1573,33 @@ Nom distinctif <del>(DN)</del><ins>(ND)</ins>
 ## Missing translations
 
 These strings are translated only in `fr`, so there is nothing to inherit from Flarum 1.x - they could be used to fill the gaps there. Each entry contains the English source string, followed by the translation available only in `fr`.
+
+
+### `core` (missing)
+
+#### [`core.lib.connection_restored_message`](https://weblate.rob006.net/translate/flarum2/core/fr/?q=context%3A%3D%22core.lib.connection_restored_message%22)
+
+> Your connection has been restored.
+
+```diff
++Votre connexion a été rétablie.
+```
+
+#### [`core.lib.error.network_message`](https://weblate.rob006.net/translate/flarum2/core/fr/?q=context%3A%3D%22core.lib.error.network_message%22)
+
+> Something seems to be wrong with your connection. Please check your network and try again.
+
+```diff
++Il semble y avoir un problème avec votre connexion. Veuillez vérifier votre réseau et réessayer.
+```
+
+#### [`core.lib.error.offline_message`](https://weblate.rob006.net/translate/flarum2/core/fr/?q=context%3A%3D%22core.lib.error.offline_message%22)
+
+> You appear to be offline. Please check your connection and try again.
+
+```diff
++Vous semblez être hors ligne. Veuillez vérifier votre connexion et réessayer.
+```
 
 
 ### `flarum-audit` (missing)

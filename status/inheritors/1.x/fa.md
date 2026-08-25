@@ -2,8 +2,8 @@
 
 Translations for Persian (`fa`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **7** are translated differently and **82** are
-translated only in `fa`. Altogether they cover **38** components.
+sides, but do not match between them: **7** are translated differently and **86** are
+translated only in `fa`. Altogether they cover **42** components.
 
 <!-- {% raw %} -->
 
@@ -21,8 +21,11 @@ translated only in `fa`. Altogether they cover **38** components.
 | `flarum-mentions` | [2](#flarum-mentions) | 0 |
 | `fof-analytics` | 0 | [2](#fof-analytics-missing) |
 | `fof-anti-spam` | 0 | [2](#fof-anti-spam-missing) |
+| `fof-author-change` | 0 | [1](#fof-author-change-missing) |
 | `fof-badges` | 0 | [10](#fof-badges-missing) |
 | `fof-best-answer` | 0 | [1](#fof-best-answer-missing) |
+| `fof-blog` | 0 | [1](#fof-blog-missing) |
+| `fof-disposable-emails` | 0 | [1](#fof-disposable-emails-missing) |
 | `fof-follow-tags` | 0 | [1](#fof-follow-tags-missing) |
 | `fof-forum-stats-widget` | 0 | [2](#fof-forum-stats-widget-missing) |
 | `fof-rich-text` | 0 | [6](#fof-rich-text-missing) |
@@ -30,6 +33,7 @@ translated only in `fa`. Altogether they cover **38** components.
 | `fof-socialprofile` | 0 | [1](#fof-socialprofile-missing) |
 | `fof-upload` | 0 | [1](#fof-upload-missing) |
 | `forumaker-magicread` | 0 | [1](#forumaker-magicread-missing) |
+| `huoxin-filter-rule-manager` | 0 | [1](#huoxin-filter-rule-manager-missing) |
 | `huseyinfiliz-awards` | 0 | [4](#huseyinfiliz-awards-missing) |
 | `huseyinfiliz-diff` | 0 | [1](#huseyinfiliz-diff-missing) |
 | `huseyinfiliz-leaderboard` | 0 | [3](#huseyinfiliz-leaderboard-missing) |
@@ -264,6 +268,17 @@ These strings are translated only in `fa`, so there is nothing to inherit from F
 ```
 
 
+### `fof-author-change` (missing)
+
+#### [`fof-author-change.forum.modal.cancel`](https://weblate.rob006.net/translate/flarum2/fof-author-change/fa/?q=context%3A%3D%22fof-author-change.forum.modal.cancel%22)
+
+> Cancel
+
+```diff
++لغو
+```
+
+
 ### `fof-badges` (missing)
 
 #### [`fof-badges.admin.cancel`](https://weblate.rob006.net/translate/flarum2/fof-badges/fa/?q=context%3A%3D%22fof-badges.admin.cancel%22)
@@ -355,6 +370,28 @@ These strings are translated only in `fa`, so there is nothing to inherit from F
 
 ```diff
 +مدارک
+```
+
+
+### `fof-blog` (missing)
+
+#### [`fof-blog.admin.blog`](https://weblate.rob006.net/translate/flarum2/fof-blog/fa/?q=context%3A%3D%22fof-blog.admin.blog%22)
+
+> Blog
+
+```diff
++وبلاگ
+```
+
+
+### `fof-disposable-emails` (missing)
+
+#### [`fof-email-checker.error.disposable_email_message`](https://weblate.rob006.net/translate/flarum2/fof-disposable-emails/fa/?q=context%3A%3D%22fof-email-checker.error.disposable_email_message%22)
+
+> You may not use a disposable email.
+
+```diff
++شما مجاز به استفاده از ایمیل یک‌بارمصرف نیستید.
 ```
 
 
@@ -488,6 +525,17 @@ These strings are translated only in `fa`, so there is nothing to inherit from F
 
 ```diff
 +تنظیمات
+```
+
+
+### `huoxin-filter-rule-manager` (missing)
+
+#### [`huoxin-filter-rule-manager.admin.cancel`](https://weblate.rob006.net/translate/flarum2/huoxin-filter-rule-manager/fa/?q=context%3A%3D%22huoxin-filter-rule-manager.admin.cancel%22)
+
+> Cancel
+
+```diff
++لغو
 ```
 
 

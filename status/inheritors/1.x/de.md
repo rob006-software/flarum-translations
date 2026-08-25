@@ -2,8 +2,8 @@
 
 Translations for German (`de`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **309** are translated differently and **574** are
-translated only in `de`. Altogether they cover **91** components.
+sides, but do not match between them: **312** are translated differently and **582** are
+translated only in `de`. Altogether they cover **92** components.
 
 <!-- {% raw %} -->
 
@@ -41,6 +41,7 @@ translated only in `de`. Altogether they cover **91** components.
 | `fof-filter` | [4](#fof-filter) | 0 |
 | `fof-gamification` | [9](#fof-gamification) | 0 |
 | `fof-geoip` | [2](#fof-geoip) | 0 |
+| `fof-horizon` | [1](#fof-horizon) | 0 |
 | `fof-impersonate` | [1](#fof-impersonate) | 0 |
 | `fof-links` | [2](#fof-links) | 0 |
 | `fof-masquerade` | [2](#fof-masquerade) | 0 |
@@ -64,7 +65,7 @@ translated only in `de`. Altogether they cover **91** components.
 | `forumaker-magicbb` | [3](#forumaker-magicbb) | [19](#forumaker-magicbb-missing) |
 | `forumaker-magicread` | 0 | [18](#forumaker-magicread-missing) |
 | `forumaker-magicslider` | [2](#forumaker-magicslider) | 0 |
-| `forumfortress-flarum` | 0 | [66](#forumfortress-flarum-missing) |
+| `forumfortress-flarum` | 0 | [74](#forumfortress-flarum-missing) |
 | `huoxin-money-with-history` | 0 | [1](#huoxin-money-with-history-missing) |
 | `huseyinfiliz-awards` | [22](#huseyinfiliz-awards) | 0 |
 | `huseyinfiliz-diff` | [10](#huseyinfiliz-diff) | 0 |
@@ -77,7 +78,7 @@ translated only in `de`. Altogether they cover **91** components.
 | `justoverclock-related-discussions` | [2](#justoverclock-related-discussions) | 0 |
 | `justoverclock-welcomebox` | [2](#justoverclock-welcomebox) | 0 |
 | `linkrobins-badge-labels` | 0 | [34](#linkrobins-badge-labels-missing) |
-| `linkrobins-birdseye` | [1](#linkrobins-birdseye) | 0 |
+| `linkrobins-birdseye` | [3](#linkrobins-birdseye) | 0 |
 | `linkrobins-link-gate` | 0 | [12](#linkrobins-link-gate-missing) |
 | `maicol07-sso` | 0 | [13](#maicol07-sso-missing) |
 | `michaelbelgium-ai-autoreply` | 0 | [22](#michaelbelgium-ai-autoreply-missing) |
@@ -1356,10 +1357,10 @@ Statistiken für <del>Top-Level-Themen</del><ins>Haupt-Tags</ins> ausblenden?
 
 ```diff
 -Unten Kannst Du die Gruppe auswählen, die einem Benutzer zugewiesen werden soll, wenn sein Konto aktiviert wird.
-+Unten kannst du die Gruppe auswählen, die einem Benutzer zugewiesen werden soll, wenn sein Konto aktiviert wird.
++Wähle die Gruppe aus, die einem Benutzer zugewiesen werden soll, wenn dessen Konto aktiviert wird.
 ```
 
-Unten <del>Kannst</del><ins>kannst</ins> <del>Du</del><ins>du</ins> die Gruppe auswählen, die einem Benutzer zugewiesen werden soll, wenn sein Konto aktiviert wird.
+<del>Unten Kannst Du</del><ins>Wähle</ins> die Gruppe <del>auswählen,</del><ins>aus,</ins> die einem Benutzer zugewiesen werden soll, wenn <del>sein</del><ins>dessen</ins> Konto aktiviert wird.
 
 
 ### `fof-default-user-preferences`
@@ -1666,6 +1667,20 @@ IP <del>Api</del><ins>API</ins> Pro
 ```
 
 IP-Adresse in <del>die </del>Zwischenablage kopieren
+
+
+### `fof-horizon`
+
+#### [`fof-horizon.admin.stats.data.jobs-per-minute`](https://weblate.rob006.net/translate/flarum2/fof-horizon/de/?q=context%3A%3D%22fof-horizon.admin.stats.data.jobs-per-minute%22)
+
+> Jobs Per Minute
+
+```diff
+-Jobs pro Minute
++Aufträge pro Minute
+```
+
+<del>Jobs</del><ins>Aufträge</ins> pro Minute
 
 
 ### `fof-impersonate`
@@ -3034,6 +3049,15 @@ Titel für <del>"Verwandte</del><ins>„Verwandte</ins> <del>Diskussionen"</del>
 
 ### `linkrobins-birdseye`
 
+#### [`linkrobins-birdseye.forum.session_menu.analytics_button`](https://weblate.rob006.net/translate/flarum2/linkrobins-birdseye/de/?q=context%3A%3D%22linkrobins-birdseye.forum.session_menu.analytics_button%22)
+
+> Analytics
+
+```diff
+-Analytik
++Analyse
+```
+
 #### [`linkrobins-birdseye.lib.dashboard.tags`](https://weblate.rob006.net/translate/flarum2/linkrobins-birdseye/de/?q=context%3A%3D%22linkrobins-birdseye.lib.dashboard.tags%22)
 
 > Top tags
@@ -3041,6 +3065,15 @@ Titel für <del>"Verwandte</del><ins>„Verwandte</ins> <del>Diskussionen"</del>
 ```diff
 -Top-Tags
 +Beliebteste Tags
+```
+
+#### [`linkrobins-birdseye.lib.dashboard.title`](https://weblate.rob006.net/translate/flarum2/linkrobins-birdseye/de/?q=context%3A%3D%22linkrobins-birdseye.lib.dashboard.title%22)
+
+> Analytics
+
+```diff
+-Analytik
++Analyse
 ```
 
 
@@ -4530,6 +4563,22 @@ These strings are translated only in `de`, so there is nothing to inherit from F
 +Unbekannt
 ```
 
+#### [`forumfortress-flarum.admin.settings.allow_global_fallback_help`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.settings.allow_global_fallback_help%22)
+
+> After a regional retry fails, permit the global network. Processing may occur outside the selected region.
+
+```diff
++Wenn ein regionaler Wiederholungsversuch fehlschlägt, aktiviere das globale Netzwerk. Die Verarbeitung kann außerhalb der ausgewählten Region erfolgen.
+```
+
+#### [`forumfortress-flarum.admin.settings.allow_global_fallback_label`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.settings.allow_global_fallback_label%22)
+
+> Allow global emergency fallback
+
+```diff
++Globales Notfall-Fallback zulassen
+```
+
 #### [`forumfortress-flarum.admin.settings.api_base_url_label`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.settings.api_base_url_label%22)
 
 > Check API base URL
@@ -4552,6 +4601,22 @@ These strings are translated only in `de`, so there is nothing to inherit from F
 
 ```diff
 +Seiten-API-Schlüssel
+```
+
+#### [`forumfortress-flarum.admin.settings.api_region_help`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.settings.api_region_help%22)
+
+> Lock check traffic to a region, or use the recommended global network.
+
+```diff
++Beschränke den Datenverkehr auf eine Region oder nutze das empfohlene globale Netzwerk.
+```
+
+#### [`forumfortress-flarum.admin.settings.api_region_label`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.settings.api_region_label%22)
+
+> API region
+
+```diff
++API-Region
 ```
 
 #### [`forumfortress-flarum.admin.settings.block_reject_action_label`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.settings.block_reject_action_label%22)
@@ -4640,6 +4705,38 @@ These strings are translated only in `de`, so there is nothing to inherit from F
 
 ```diff
 +Bevorzugter Edge-Endpunkt
+```
+
+#### [`forumfortress-flarum.admin.settings.region_eu`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.settings.region_eu%22)
+
+> European Union only
+
+```diff
++Nur Europäische Union
+```
+
+#### [`forumfortress-flarum.admin.settings.region_global`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.settings.region_global%22)
+
+> Global - Recommended
+
+```diff
++Global - Empfohlen
+```
+
+#### [`forumfortress-flarum.admin.settings.region_uk`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.settings.region_uk%22)
+
+> United Kingdom only
+
+```diff
++Nur Vereinigtes Königreich
+```
+
+#### [`forumfortress-flarum.admin.settings.region_us`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.settings.region_us%22)
+
+> United States only
+
+```diff
++Nur Vereinigte Staaten
 ```
 
 #### [`forumfortress-flarum.admin.settings.registration_email_help`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.settings.registration_email_help%22)
