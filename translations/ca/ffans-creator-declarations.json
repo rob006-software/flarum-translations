@@ -11,8 +11,6 @@
                 "required_reply_label": "",
                 "required_reply_help": "",
                 "max_label": "",
-                "show_original_in_post_header_label": "",
-                "show_original_in_post_header_help": "",
                 "show_in_user_post_lists_label": "",
                 "show_in_user_post_lists_help": "",
                 "order_label": "",
@@ -28,14 +26,14 @@
                 "edit": ""
             },
             "display": {
-                "title": "",
-                "disclaimer": "",
-                "prefix": "",
+                "declaration_format": "",
                 "open_details": "",
-                "original_tag": "",
-                "original_tooltip": "",
-                "repost_tag": "",
-                "repost_tooltip": "",
+                "original_notice": "",
+                "original_summary": "",
+                "repost_notice": "",
+                "reference_notice": "",
+                "reference_summary": "",
+                "personal_opinion_summary": "",
                 "declaration_separator": ""
             },
             "info_modal": {
@@ -43,13 +41,16 @@
                 "heading": "",
                 "explanation": "",
                 "disclaimer": "",
+                "source": "",
+                "reference": "",
                 "author_note": ""
             },
             "modal": {
                 "title": "",
                 "help": "",
                 "save_button": "",
-                "selection_count": ""
+                "selection_count": "",
+                "link_title_placeholder": ""
             }
         },
         "lib": {
@@ -59,7 +60,8 @@
                 "invalid_payload": "",
                 "invalid_selection": "",
                 "details_too_long": "",
-                "repost_url_required": "",
+                "title_too_long": "",
+                "source_url_required": "",
                 "source_conflict": ""
             },
             "categories": {
@@ -74,6 +76,11 @@
                     "help": ""
                 },
                 "repost": {
+                    "label": "",
+                    "help": "",
+                    "details_placeholder": ""
+                },
+                "reference": {
                     "label": "",
                     "help": "",
                     "details_placeholder": ""

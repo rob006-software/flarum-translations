@@ -11,8 +11,6 @@
                 "required_reply_label": "回复主题时必须选择至少一项声明",
                 "required_reply_help": "开启后，未选择声明的回复无法发布。",
                 "max_label": "每篇帖子最多可选声明数",
-                "show_original_in_post_header_label": "",
-                "show_original_in_post_header_help": "",
                 "show_in_user_post_lists_label": "在个人主页回复列表中展示创作者声明",
                 "show_in_user_post_lists_help": "开启后，用户个人主页的回复列表会显示添加的创作者声明。",
                 "order_label": "声明排序",
@@ -28,14 +26,14 @@
                 "edit": "编辑自主声明"
             },
             "display": {
-                "title": "",
-                "disclaimer": "",
-                "prefix": "",
+                "declaration_format": "",
                 "open_details": "查看关于创作者声明",
-                "original_tag": "",
-                "original_tooltip": "",
-                "repost_tag": "",
-                "repost_tooltip": "",
+                "original_notice": "",
+                "original_summary": "",
+                "repost_notice": "",
+                "reference_notice": "",
+                "reference_summary": "",
+                "personal_opinion_summary": "",
                 "declaration_separator": "； "
             },
             "info_modal": {
@@ -43,13 +41,16 @@
                 "heading": "我为什么会看到此提示语",
                 "explanation": "此提示语由作者自主添加，作者声明本帖“{declarations}”。",
                 "disclaimer": "声明内容未经论坛核实或验证，请结合正文信息自行判断。",
+                "source": "",
+                "reference": "",
                 "author_note": ""
             },
             "modal": {
                 "title": "自主声明",
                 "help": "请选择与本篇帖子内容相符的声明。声明只用于帮助读者理解内容，不代表论坛观点或经论坛验证。",
                 "save_button": "保存声明",
-                "selection_count": "已选择 {selected} / {max} 项"
+                "selection_count": "已选择 {selected} / {max} 项",
+                "link_title_placeholder": ""
             }
         },
         "lib": {
@@ -59,8 +60,10 @@
                 "invalid_payload": "声明数据格式无效。",
                 "invalid_selection": "选择的声明无效。",
                 "details_too_long": "声明详情不能超过 500 个字符。",
-                "repost_url_required": "链接名称不能超过 100 个字符。",
-                "source_conflict": "原创、转载与参考/引用内容声明不能同时选择。"
+                "title_too_long": "",
+                "source_url_required": "",
+                "source_conflict": "原创、转载与参考/引用内容声明不能同时选择。",
+                "repost_url_required": "链接名称不能超过 100 个字符。"
             },
             "categories": {
                 "source": "内容来源",
@@ -77,6 +80,11 @@
                     "label": "转载内容",
                     "help": "内容主要转载自其他作者或来源。",
                     "details_placeholder": "请输入原始来源链接（必填）"
+                },
+                "reference": {
+                    "label": "",
+                    "help": "",
+                    "details_placeholder": ""
                 },
                 "ai_generated": {
                     "label": "内容由 AI 生成",

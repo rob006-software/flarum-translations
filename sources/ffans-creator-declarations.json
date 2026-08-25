@@ -11,12 +11,10 @@
                 "required_reply_label": "Require a declaration when replying",
                 "required_reply_help": "Replies cannot be published until at least one declaration is selected.",
                 "max_label": "Maximum declarations per post",
-                "show_original_in_post_header_label": "Show original and repost tags in the post header",
-                "show_original_in_post_header_help": "When enabled, “Original” and “Repost” appear as tags in the post header and are omitted from the declaration summary above the post body.",
                 "show_in_user_post_lists_label": "Show creator declarations in profile Posts lists",
                 "show_in_user_post_lists_help": "When enabled, creator declarations are displayed with posts in user profile Posts lists.",
                 "order_label": "Declaration order",
-                "order_help": "Separate declaration keys with commas. Missing keys are appended automatically. Available keys are original, repost, ai_generated, fictional, personal_opinion, professional, sensitive, self_promotion, and sponsored."
+                "order_help": "Separate declaration keys with commas. Missing keys are appended automatically. Available keys are original, repost, reference, ai_generated, fictional, personal_opinion, professional, sensitive, self_promotion, and sponsored."
             }
         },
         "forum": {
@@ -28,28 +26,31 @@
                 "edit": "Edit self declarations"
             },
             "display": {
-                "title": "Creator declarations",
-                "disclaimer": "These declarations were provided by the author and have not been verified by the forum.",
-                "prefix": "Creator declaration: ",
+                "declaration_format": "<strong>Author’s declaration:</strong> {declarations}.",
                 "open_details": "View creator declaration details",
-                "original_tag": "Original",
-                "original_tooltip": "Original content. Do not reproduce without permission.",
-                "repost_tag": "Repost",
-                "repost_tooltip": "Reposted content. Copyright belongs to the original author.",
-                "declaration_separator": ", "
+                "original_notice": "Original content. Do not reproduce without permission.",
+                "original_summary": "Original content, do not reproduce without permission",
+                "repost_notice": "This content comes from {source}.",
+                "reference_notice": "This content references {source}.",
+                "reference_summary": "Content was referenced or quoted",
+                "personal_opinion_summary": "Personal opinion, for reference only",
+                "declaration_separator": "; "
             },
             "info_modal": {
                 "title": "About this declaration",
                 "heading": "Why am I seeing this notice?",
                 "explanation": "This notice was added by the author, who declared this post as “{declarations}”.",
-                "disclaimer": "These declarations have not been verified or certified by the forum. Please consider them together with the post.",
+                "disclaimer": "The declarations have not been reviewed or verified by the forum. Please consider them alongside the post content and use your own judgment.",
+                "source": "Source: ",
+                "reference": "Reference: ",
                 "author_note": "Author's note: "
             },
             "modal": {
                 "title": "Self Declarations",
-                "help": "Select the declarations that apply to this post. They provide context and do not represent the forum's views.",
+                "help": "Select the declarations that apply to this post. They only help readers understand the content and they do not represent the forum's views or constitute verification by the forum.",
                 "save_button": "Save declarations",
-                "selection_count": "Selected {selected} / {max}"
+                "selection_count": "Selected {selected} / {max}",
+                "link_title_placeholder": "Link name (optional)"
             }
         },
         "lib": {
@@ -59,8 +60,9 @@
                 "invalid_payload": "The declaration payload is invalid.",
                 "invalid_selection": "The declaration selection is invalid.",
                 "details_too_long": "Declaration details may not exceed 500 characters.",
-                "repost_url_required": "A valid source URL is required for reposted content.",
-                "source_conflict": "Original and reposted content declarations cannot be selected at the same time."
+                "title_too_long": "The link name may not exceed 100 characters.",
+                "source_url_required": "A valid source URL is required for reposted or referenced content.",
+                "source_conflict": "Original, reposted, and referenced content declarations cannot be selected at the same time."
             },
             "categories": {
                 "source": "Content source",
@@ -71,11 +73,16 @@
             "declarations": {
                 "original": {
                     "label": "Original content",
-                    "help": "The content was primarily created by the author and is not a direct repost."
+                    "help": "The content was primarily created by the author and is not a direct repost. Please do not reproduce without permission."
                 },
                 "repost": {
-                    "label": "Reposted or quoted content",
-                    "help": "The content includes substantial material from another author or source.",
+                    "label": "Reposted content",
+                    "help": "The content is primarily reposted from another author or source.",
+                    "details_placeholder": "Enter the original source URL (required)"
+                },
+                "reference": {
+                    "label": "Referenced or quoted content",
+                    "help": "The content references or quotes material from another author or source.",
                     "details_placeholder": "Enter the original source URL (required)"
                 },
                 "ai_generated": {
