@@ -990,7 +990,7 @@ return [
 		],
 	],
 	'ygpynet-point-system' => [
-		'tag' => 'https://raw.githubusercontent.com/ygpynet/point-system/v1.0.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ygpynet/point-system/v1.1.0/locale/en.yml',
 		'__builtInLanguages' => [
 			'pt_BR',
 			'zh_Hans',
