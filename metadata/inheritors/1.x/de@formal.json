@@ -1502,6 +1502,54 @@
             }
         }
     },
+    "ffans-creator-declarations.json": {
+        "ffans-creator-declarations": {
+            "admin": {
+                "permissions": {
+                    "allow_edit_own_label": "d41d8cd98f00b204e9800998ecf8427e 3179241a91e90971bcb1aaa0901113b7",
+                    "moderate_label": "d41d8cd98f00b204e9800998ecf8427e e7e1ee15f22df95a7014dc0f73d9ce34"
+                },
+                "settings": {
+                    "max_label": "d41d8cd98f00b204e9800998ecf8427e 7ff267e7718f8e987976fd56dda27096",
+                    "order_help": "d41d8cd98f00b204e9800998ecf8427e 6d2c56fc0585550595903c36b3caf41f",
+                    "order_label": "d41d8cd98f00b204e9800998ecf8427e 2e5fe06ca74bc173c0832a5195178e36",
+                    "required_discussion_help": "d41d8cd98f00b204e9800998ecf8427e ef2082900e9ca157d5c4303aff24aa72",
+                    "required_discussion_label": "d41d8cd98f00b204e9800998ecf8427e 71ecf5cabe1b887095cc649a010b8bcd",
+                    "required_reply_help": "d41d8cd98f00b204e9800998ecf8427e d590f7458310677cf0453dfdb2e73353",
+                    "required_reply_label": "d41d8cd98f00b204e9800998ecf8427e e23ef64e01f4a88dd354cb1a6db33941",
+                    "show_in_user_post_lists_label": "d41d8cd98f00b204e9800998ecf8427e e4acfd00c8b021929f906473d473e867"
+                }
+            },
+            "forum": {
+                "composer": {
+                    "selected": "d41d8cd98f00b204e9800998ecf8427e c736f0da3477632710b0e1b4b4cd682a"
+                },
+                "display": {
+                    "declaration_format": "d41d8cd98f00b204e9800998ecf8427e b817b13f9266ef6946744e9772b93229",
+                    "declaration_separator": "d41d8cd98f00b204e9800998ecf8427e 3149e48366e2cde626334831bd6f8bd5"
+                },
+                "info_modal": {
+                    "heading": "d41d8cd98f00b204e9800998ecf8427e c61c830a661955758f193071b7b55abf",
+                    "source": "d41d8cd98f00b204e9800998ecf8427e c1c0586c84825860255af9fe1f222f1a"
+                },
+                "modal": {
+                    "link_title_placeholder": "d41d8cd98f00b204e9800998ecf8427e dc5933290787b083150dc223dc1108be",
+                    "save_button": "d41d8cd98f00b204e9800998ecf8427e 556e78d16ec9b2cf9b55c40953944d06",
+                    "selection_count": "d41d8cd98f00b204e9800998ecf8427e e5eb5279bc29ca4f5d7295be145888ed"
+                }
+            },
+            "lib": {
+                "categories": {
+                    "safety": "d41d8cd98f00b204e9800998ecf8427e 8e7ff367e1781d24a51aa717ecdb1743"
+                },
+                "declarations": {
+                    "ai_generated": {
+                        "label": "d41d8cd98f00b204e9800998ecf8427e a3b9effac6fd8745b54731e822ba9065"
+                    }
+                }
+            }
+        }
+    },
     "flarum-akismet.json": {
         "flarum-akismet": {
             "admin": {
