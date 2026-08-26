@@ -5648,6 +5648,90 @@
             }
         }
     },
+    "fof-pwa.json": {
+        "flarum-gdpr": {
+            "lib": {
+                "data": {
+                    "pushsubscriptions": {
+                        "delete_description": "046f4605dffffbbb9e6d2b63874f1570 046f4605dffffbbb9e6d2b63874f1570",
+                        "export_description": "71aa613aab838989f89a920ce0384444 71aa613aab838989f89a920ce0384444"
+                    }
+                }
+            }
+        },
+        "fof-pwa": {
+            "admin": {
+                "nav": {
+                    "pwa_button": "0503ffa75a95f35877fe7420d061b6a9 0503ffa75a95f35877fe7420d061b6a9"
+                },
+                "pwa": {
+                    "about": {
+                        "description_label": "35bedb45241d6b3f70fa6f56197c3361 35bedb45241d6b3f70fa6f56197c3361",
+                        "description_text": "eefd81100cb7956fb3d3f72ce94bdfff eefd81100cb7956fb3d3f72ce94bdfff",
+                        "heading": "e4fc557f576be7e92b592f15007c2b2d e4fc557f576be7e92b592f15007c2b2d",
+                        "long_name_label": "ddffc8f5cc539cbc1a9135a3106cda31 ddffc8f5cc539cbc1a9135a3106cda31",
+                        "long_name_text": "9731b847f1689a5aff37ca8eb25deea3 9731b847f1689a5aff37ca8eb25deea3",
+                        "short_name_label": "3682fd3d591a1d655d63dfd133ec6067 3682fd3d591a1d655d63dfd133ec6067"
+                    },
+                    "colors": {
+                        "background_color_label": "86da8521b13dba2849903ecfd0380d6d 86da8521b13dba2849903ecfd0380d6d",
+                        "heading": "7faaa1de90c91f60a58e46fae6daf77c 7faaa1de90c91f60a58e46fae6daf77c",
+                        "theme_color_label": "fb10ba44c02ae1925e563da633f775bc fb10ba44c02ae1925e563da633f775bc"
+                    },
+                    "firebase_config": {
+                        "heading": "035489ff8d092741943e4a83241f5af9 035489ff8d092741943e4a83241f5af9",
+                        "upload_file": "c8346c004fd9633c5b7dff34be0df64a c8346c004fd9633c5b7dff34be0df64a"
+                    },
+                    "heading": "490233d38fd82330c9685ee13272ad5a 490233d38fd82330c9685ee13272ad5a",
+                    "logo_heading": "ef1aac68807729fa1de40b4b306ba034 ef1aac68807729fa1de40b4b306ba034",
+                    "maintenance": {
+                        "debug_text": "9c122d9260f3a1e5015f1acbfc94e271 9c122d9260f3a1e5015f1acbfc94e271",
+                        "heading": "d2b2d88529d812ef588b060030e80663 d2b2d88529d812ef588b060030e80663",
+                        "reset_vapid_confirm": "68e99b6ce198425f181a236424ce2457 68e99b6ce198425f181a236424ce2457",
+                        "reset_vapid_success": "f3d84d284a9e350f0922d99a50034d1b f3d84d284a9e350f0922d99a50034d1b"
+                    },
+                    "other": {
+                        "heading": "0f95809fb73096b0c883aa94be5d2637 0f95809fb73096b0c883aa94be5d2637"
+                    },
+                    "refreshed_message": "1a8bd42279199493fd6554e0125ae7a9 1a8bd42279199493fd6554e0125ae7a9",
+                    "status_check_heading": "3d20c68e8d63fb127cbdccbe197cf5a1 3d20c68e8d63fb127cbdccbe197cf5a1",
+                    "submit_button": "b83bb4e13031a7de57d8f0bbff34f544 b83bb4e13031a7de57d8f0bbff34f544"
+                },
+                "status": {
+                    "no_logo": "587813d6731a2164faf6026197bc2935 587813d6731a2164faf6026197bc2935",
+                    "no_name": "d7d2b16d3ebb9a8e1567a78440f5e2c9 d7d2b16d3ebb9a8e1567a78440f5e2c9"
+                }
+            },
+            "forum": {
+                "discussion_controls": {
+                    "share_button": "09f3656cd22b30f1dc4021dbdf7f4fcd 09f3656cd22b30f1dc4021dbdf7f4fcd"
+                },
+                "post_controls": {
+                    "share_button": "09f3656cd22b30f1dc4021dbdf7f4fcd 09f3656cd22b30f1dc4021dbdf7f4fcd"
+                },
+                "settings": {
+                    "push_header": "9c6a9d9f033001a9b3104984d319563b 9c6a9d9f033001a9b3104984d319563b",
+                    "pwa_notifications": {
+                        "access_default": "d80b2fc7c0eedd758cc935bd35db2093 d80b2fc7c0eedd758cc935bd35db2093",
+                        "access_default_button": "585272ae319ff703f0f5676fe10d4526 585272ae319ff703f0f5676fe10d4526",
+                        "access_denied": "4acbf3d68d14a9b2f79c19ae57ee976b 4acbf3d68d14a9b2f79c19ae57ee976b",
+                        "access_denied_button": "7531874c1b124600439373885e9bc2cd 7531874c1b124600439373885e9bc2cd",
+                        "no_browser_support": "1542cecde20b51c56dd3de2d2f7ca2ed 1542cecde20b51c56dd3de2d2f7ca2ed",
+                        "no_browser_support_button": "3d34ae6b2170a867c24e35dba78f3a3e 3d34ae6b2170a867c24e35dba78f3a3e"
+                    }
+                },
+                "user_controls": {
+                    "share_button": "09f3656cd22b30f1dc4021dbdf7f4fcd 09f3656cd22b30f1dc4021dbdf7f4fcd"
+                }
+            },
+            "views": {
+                "offline": {
+                    "header": "256225ad63f8d516e3646d45ba86fa58 256225ad63f8d516e3646d45ba86fa58",
+                    "text": "e48e904443d78c2db4850ba3fa840fe6 e48e904443d78c2db4850ba3fa840fe6"
+                }
+            }
+        }
+    },
     "fof-pwned-passwords.json": {
         "fof-pwned-passwords": {
             "admin": {

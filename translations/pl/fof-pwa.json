@@ -2,43 +2,43 @@
     "fof-pwa": {
         "admin": {
             "nav": {
-                "pwa_button": "",
+                "pwa_button": "Progresywna aplikacja internetowa",
                 "pwa_text": ""
             },
             "pwa": {
                 "about": {
-                    "description_label": "",
-                    "description_text": "",
-                    "long_name_label": "",
-                    "long_name_text": "",
-                    "heading": "",
-                    "short_name_label": "",
+                    "description_label": "Opis",
+                    "description_text": "Opis możesz ustawić na stronie „Podstawowe” w panelu administracyjnym.",
+                    "long_name_label": "Pełna nazwa",
+                    "long_name_text": "Nazwa aplikacji wyświetlana użytkownikom.",
+                    "heading": "Informacje",
+                    "short_name_label": "Krótka nazwa",
                     "short_name_text": ""
                 },
                 "colors": {
-                    "heading": "",
-                    "background_color_label": "",
+                    "heading": "Kolory",
+                    "background_color_label": "Kolor tła",
                     "background_color_text": "",
-                    "theme_color_label": "",
+                    "theme_color_label": "Kolor motywu",
                     "theme_color_text": ""
                 },
                 "maintenance": {
-                    "heading": "",
+                    "heading": "Konserwacja",
                     "debug_label": "",
-                    "debug_text": "",
+                    "debug_text": "Zapisuje informacje o powiadomieniach w `storage/logs`. Zwykle powinien być wyłączony, aby nie zapełniać niepotrzebnie logów.",
                     "reset_vapid_button": "",
                     "reset_vapid_text": "",
-                    "reset_vapid_confirm": "",
-                    "reset_vapid_success": ""
+                    "reset_vapid_confirm": "Zresetowanie kluczy VAPID usunie subskrypcje korzystające z obecnych kluczy. Użytkownicy nie będą otrzymywać powiadomień, dopóki ponownie nie odwiedzą strony. Używaj tej opcji tylko przy pierwszej konfiguracji powiadomień push albo gdy powiadomienia w ogóle nie działają i powyżej widoczny jest komunikat o braku kluczy VAPID.",
+                    "reset_vapid_success": "Klucze VAPID zostały zresetowane. Zresetowano subskrypcje: {count}. Odśwież stronę, aby zobaczyć zaktualizowany raport stanu."
                 },
                 "firebase_config": {
-                    "heading": "",
+                    "heading": "Firebase",
                     "help_text": "",
                     "upload_successful": "",
-                    "upload_file": ""
+                    "upload_file": "Prześlij plik"
                 },
                 "other": {
-                    "heading": "",
+                    "heading": "Pozostałe",
                     "force_portrait_text": "",
                     "push_notif_preference_default_to_email_label": "",
                     "push_notif_preference_default_to_email_text": "",
@@ -47,20 +47,20 @@
                     "window_controls_overlay_label": "",
                     "window_controls_overlay_text": ""
                 },
-                "heading": "",
+                "heading": "Konfiguracja progresywnej aplikacji internetowej",
                 "text": "",
-                "status_check_heading": "",
-                "logo_heading": "",
+                "status_check_heading": "Kontrola stanu",
+                "logo_heading": "Logo i ikony",
                 "logo_text": "",
                 "logo_size_text": "",
-                "submit_button": "",
-                "refreshed_message": ""
+                "submit_button": "Zapisz ustawienia",
+                "refreshed_message": "Konfiguracja PWA została odświeżona."
             },
             "status": {
                 "config_no_https": "",
                 "possible_https_disabled": "",
-                "no_logo": "",
-                "no_name": "",
+                "no_logo": "Aby aplikację można było zainstalować, musisz przesłać co najmniej jedno logo o rozmiarze minimum 144 × 144 px.",
+                "no_name": "Aby aplikacja działała, musisz podać jej pełną nazwę.",
                 "no_vapid_keys": "",
                 "key_gen_failed": "",
                 "suggest_gmp": "",
@@ -76,33 +76,33 @@
                 "optin_deferred": ""
             },
             "discussion_controls": {
-                "share_button": ""
+                "share_button": "Udostępnij"
             },
             "post_controls": {
-                "share_button": "",
+                "share_button": "Udostępnij",
                 "share_api": {
                     "title": ""
                 }
             },
             "user_controls": {
-                "share_button": ""
+                "share_button": "Udostępnij"
             },
             "settings": {
-                "push_header": "",
+                "push_header": "Push",
                 "pwa_notifications": {
-                    "access_default": "",
-                    "access_default_button": "",
-                    "access_denied": "",
-                    "access_denied_button": "",
-                    "no_browser_support": "",
-                    "no_browser_support_button": ""
+                    "access_default": "Ze względu na ograniczenia przeglądarki musisz wyrazić zgodę na powiadomienia push na tym urządzeniu.",
+                    "access_default_button": "Zgadzam się",
+                    "access_denied": "Aby otrzymywać powiadomienia push na tym urządzeniu, zmień ustawienia przeglądarki.",
+                    "access_denied_button": "Dowiedz się jak",
+                    "no_browser_support": "Ta przeglądarka nie obsługuje powiadomień push dla progresywnych aplikacji internetowych.",
+                    "no_browser_support_button": "Dowiedz się więcej"
                 }
             }
         },
         "views": {
             "offline": {
-                "header": "",
-                "text": ""
+                "header": "Błąd połączenia z siecią",
+                "text": "Ta aplikacja wymaga połączenia z internetem i nie może działać offline. Sprawdź połączenie."
             }
         }
     },
@@ -110,8 +110,8 @@
         "lib": {
             "data": {
                 "pushsubscriptions": {
-                    "export_description": "",
-                    "delete_description": ""
+                    "export_description": "Eksportuje wszystkie subskrypcje powiadomień push i tokeny urządzeń powiązane z użytkownikiem.",
+                    "delete_description": "Usuwa wszystkie subskrypcje powiadomień push i tokeny urządzeń powiązane z użytkownikiem."
                 }
             }
         }

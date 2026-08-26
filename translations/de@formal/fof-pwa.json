@@ -2,43 +2,43 @@
     "fof-pwa": {
         "admin": {
             "nav": {
-                "pwa_button": "",
+                "pwa_button": "Progressive Web App",
                 "pwa_text": ""
             },
             "pwa": {
                 "about": {
-                    "description_label": "",
-                    "description_text": "",
-                    "long_name_label": "",
-                    "long_name_text": "",
-                    "heading": "",
-                    "short_name_label": "",
+                    "description_label": "Beschreibung",
+                    "description_text": "Die Beschreibung kannst du auf der Seite „Grundeinstellungen“ in deinem Admin-Dashboard einstellen.",
+                    "long_name_label": "Langer Name",
+                    "long_name_text": "Der Name der Webanwendung, der dem Benutzer angezeigt wird.",
+                    "heading": "Über",
+                    "short_name_label": "Kurzname",
                     "short_name_text": ""
                 },
                 "colors": {
-                    "heading": "",
-                    "background_color_label": "",
+                    "heading": "Farben",
+                    "background_color_label": "Hintergrundfarbe",
                     "background_color_text": "",
-                    "theme_color_label": "",
+                    "theme_color_label": "Designfarbe",
                     "theme_color_text": ""
                 },
                 "maintenance": {
-                    "heading": "",
+                    "heading": "Wartungsmodus",
                     "debug_label": "",
-                    "debug_text": "",
+                    "debug_text": "Dadurch werden Informationen über Benachrichtigungen in „storage/logs“ protokolliert. Es sollte im Allgemeinen deaktiviert werden, um unnötiges Auffüllen von Protokollen zu vermeiden.",
                     "reset_vapid_button": "",
                     "reset_vapid_text": "",
-                    "reset_vapid_confirm": "",
-                    "reset_vapid_success": ""
+                    "reset_vapid_confirm": "Durch das Zurücksetzen von VAPID-Schlüsseln werden alle Abonnements entfernt, die die vorhandenen Schlüssel verwenden, sodass Benutzer keine Benachrichtigungen erhalten, bis sie dein Forum das nächste Mal besuchen. Dies sollte nur beim erstmaligen Einrichten von Push-Benachrichtigungen erfolgen oder wenn Push-Benachrichtigungen überhaupt nicht funktionieren und oben eine Warnung zu fehlenden VAPID-Schlüsseln angezeigt wird.",
+                    "reset_vapid_success": "VAPID-Schlüssel erfolgreich zurückgesetzt. {count} Abonnements wurden zurückgesetzt. Lade die Seite neu, um einen aktualisierten Statusprüfbericht anzuzeigen."
                 },
                 "firebase_config": {
-                    "heading": "",
+                    "heading": "Firebase",
                     "help_text": "",
                     "upload_successful": "",
-                    "upload_file": ""
+                    "upload_file": "Datei hochladen"
                 },
                 "other": {
-                    "heading": "",
+                    "heading": "Andere",
                     "force_portrait_text": "",
                     "push_notif_preference_default_to_email_label": "",
                     "push_notif_preference_default_to_email_text": "",
@@ -47,20 +47,20 @@
                     "window_controls_overlay_label": "",
                     "window_controls_overlay_text": ""
                 },
-                "heading": "",
+                "heading": "Progressive Web App-Konfiguration",
                 "text": "",
-                "status_check_heading": "",
-                "logo_heading": "",
+                "status_check_heading": "Statusprüfung",
+                "logo_heading": "Logos und Symbole",
                 "logo_text": "",
                 "logo_size_text": "",
-                "submit_button": "",
-                "refreshed_message": ""
+                "submit_button": "Einstellungen speichern",
+                "refreshed_message": "Die PWA-Konfiguration wurde erfolgreich aktualisiert."
             },
             "status": {
                 "config_no_https": "",
                 "possible_https_disabled": "",
-                "no_logo": "",
-                "no_name": "",
+                "no_logo": "Du musst mindestens ein Logo mit einer Größe von mindestens 144x144 px hochladen, damit die PWA installiert werden kann.",
+                "no_name": "Du musst einen vollständigen Namen angeben, damit deine App funktioniert.",
                 "no_vapid_keys": "",
                 "key_gen_failed": "",
                 "suggest_gmp": "",
@@ -76,33 +76,33 @@
                 "optin_deferred": ""
             },
             "discussion_controls": {
-                "share_button": ""
+                "share_button": "Teilen"
             },
             "post_controls": {
-                "share_button": "",
+                "share_button": "Teilen",
                 "share_api": {
                     "title": ""
                 }
             },
             "user_controls": {
-                "share_button": ""
+                "share_button": "Teilen"
             },
             "settings": {
-                "push_header": "",
+                "push_header": "Push",
                 "pwa_notifications": {
-                    "access_default": "",
-                    "access_default_button": "",
-                    "access_denied": "",
-                    "access_denied_button": "",
-                    "no_browser_support": "",
-                    "no_browser_support_button": ""
+                    "access_default": "Aufgrund von Browser-Einschränkungen musst du einwilligen, um Push-Benachrichtigungen auf diesem Gerät zu erhalten.",
+                    "access_default_button": "Einwilligen",
+                    "access_denied": "Du musst deine Browsereinstellungen anpassen, um Push-Benachrichtigungen auf diesem Gerät zu erhalten.",
+                    "access_denied_button": "So geht’s",
+                    "no_browser_support": "Dieser Browser unterstützt keine Push-Benachrichtigungen für Progressive Web-Apps.",
+                    "no_browser_support_button": "Mehr erfahren"
                 }
             }
         },
         "views": {
             "offline": {
-                "header": "",
-                "text": ""
+                "header": "Netzwerkverbindungsfehler",
+                "text": "Diese App erfordert eine Netzwerkverbindung. Sie kann nicht offline verwendet werden. Bitte überprüfe deine Verbindung."
             }
         }
     },
@@ -110,8 +110,8 @@
         "lib": {
             "data": {
                 "pushsubscriptions": {
-                    "export_description": "",
-                    "delete_description": ""
+                    "export_description": "Exportiert alle Push-Benachrichtigungsabonnements und Gerätetoken, die mit dem Benutzer verknüpft sind.",
+                    "delete_description": "Löscht alle Push-Benachrichtigungsabonnements und Gerätetoken, die mit dem Benutzer verknüpft sind."
                 }
             }
         }

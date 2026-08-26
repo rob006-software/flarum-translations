@@ -2,43 +2,43 @@
     "fof-pwa": {
         "admin": {
             "nav": {
-                "pwa_button": "",
+                "pwa_button": "Прогрессивное веб-приложение",
                 "pwa_text": ""
             },
             "pwa": {
                 "about": {
-                    "description_label": "",
-                    "description_text": "",
-                    "long_name_label": "",
-                    "long_name_text": "",
-                    "heading": "",
-                    "short_name_label": "",
+                    "description_label": "Описание",
+                    "description_text": "Описание можно указать на странице «Основные» в панели администратора.",
+                    "long_name_label": "Полное название",
+                    "long_name_text": "Название веб-приложения, отображаемое пользователю.",
+                    "heading": "О приложении",
+                    "short_name_label": "Краткое название",
                     "short_name_text": ""
                 },
                 "colors": {
-                    "heading": "",
-                    "background_color_label": "",
+                    "heading": "Цвета",
+                    "background_color_label": "Фоновый цвет",
                     "background_color_text": "",
-                    "theme_color_label": "",
+                    "theme_color_label": "Цвет темы",
                     "theme_color_text": ""
                 },
                 "maintenance": {
-                    "heading": "",
+                    "heading": "Обслуживание",
                     "debug_label": "",
-                    "debug_text": "",
+                    "debug_text": "Информация об уведомлениях будет записываться в `storage/logs`. Обычно эту настройку следует отключать, чтобы не засорять журналы.",
                     "reset_vapid_button": "",
                     "reset_vapid_text": "",
-                    "reset_vapid_confirm": "",
-                    "reset_vapid_success": ""
+                    "reset_vapid_confirm": "Сброс ключей VAPID приведёт к удалению всех подписок, использующих текущие ключи, поэтому пользователи не будут получать уведомления, пока снова не посетят ваш сайт. Выполняйте это только при первоначальной настройке push-уведомлений либо если они не работают и выше отображается предупреждение об отсутствии ключей VAPID.",
+                    "reset_vapid_success": "Ключи VAPID сброшены. Сброшено подписок: {count}. Перезагрузите страницу, чтобы увидеть обновлённый отчёт о проверке состояния."
                 },
                 "firebase_config": {
-                    "heading": "",
+                    "heading": "Firebase",
                     "help_text": "",
                     "upload_successful": "",
-                    "upload_file": ""
+                    "upload_file": "Загрузить файл"
                 },
                 "other": {
-                    "heading": "",
+                    "heading": "Прочее",
                     "force_portrait_text": "",
                     "push_notif_preference_default_to_email_label": "",
                     "push_notif_preference_default_to_email_text": "",
@@ -47,20 +47,20 @@
                     "window_controls_overlay_label": "",
                     "window_controls_overlay_text": ""
                 },
-                "heading": "",
+                "heading": "Настройка прогрессивного веб-приложения",
                 "text": "",
-                "status_check_heading": "",
-                "logo_heading": "",
+                "status_check_heading": "Проверка состояния",
+                "logo_heading": "Логотипы и иконки",
                 "logo_text": "",
                 "logo_size_text": "",
-                "submit_button": "",
-                "refreshed_message": ""
+                "submit_button": "Сохранить настройки",
+                "refreshed_message": "Конфигурация PWA обновлена."
             },
             "status": {
                 "config_no_https": "",
                 "possible_https_disabled": "",
-                "no_logo": "",
-                "no_name": "",
+                "no_logo": "Необходимо загрузить хотя бы один логотип размером не менее 144×144 пикселей, чтобы PWA можно было установить.",
+                "no_name": "Необходимо указать полное название приложения.",
                 "no_vapid_keys": "",
                 "key_gen_failed": "",
                 "suggest_gmp": "",
@@ -76,33 +76,33 @@
                 "optin_deferred": ""
             },
             "discussion_controls": {
-                "share_button": ""
+                "share_button": "Поделиться"
             },
             "post_controls": {
-                "share_button": "",
+                "share_button": "Поделиться",
                 "share_api": {
                     "title": ""
                 }
             },
             "user_controls": {
-                "share_button": ""
+                "share_button": "Поделиться"
             },
             "settings": {
-                "push_header": "",
+                "push_header": "Push-уведомления",
                 "pwa_notifications": {
-                    "access_default": "",
-                    "access_default_button": "",
-                    "access_denied": "",
-                    "access_denied_button": "",
-                    "no_browser_support": "",
-                    "no_browser_support_button": ""
+                    "access_default": "Из-за ограничений браузера необходимо разрешить получение push-уведомлений на этом устройстве.",
+                    "access_default_button": "Разрешить",
+                    "access_denied": "Чтобы получать push-уведомления на этом устройстве, необходимо изменить настройки браузера.",
+                    "access_denied_button": "Как настроить",
+                    "no_browser_support": "Этот браузер не поддерживает push-уведомления для прогрессивных веб-приложений.",
+                    "no_browser_support_button": "Узнать больше"
                 }
             }
         },
         "views": {
             "offline": {
-                "header": "",
-                "text": ""
+                "header": "Ошибка подключения к сети",
+                "text": "Это приложение требует подключения к сети — его нельзя использовать в автономном режиме. Проверьте подключение."
             }
         }
     },
@@ -110,8 +110,8 @@
         "lib": {
             "data": {
                 "pushsubscriptions": {
-                    "export_description": "",
-                    "delete_description": ""
+                    "export_description": "Экспортирует все подписки на push-уведомления и токены устройств, связанные с пользователем.",
+                    "delete_description": "Удаляет все подписки на push-уведомления и токены устройств, связанные с пользователем."
                 }
             }
         }

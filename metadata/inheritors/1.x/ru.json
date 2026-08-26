@@ -5617,6 +5617,90 @@
             }
         }
     },
+    "fof-pwa.json": {
+        "flarum-gdpr": {
+            "lib": {
+                "data": {
+                    "pushsubscriptions": {
+                        "delete_description": "5fbf32c4c496f82ac69fd84d60e2a173 5fbf32c4c496f82ac69fd84d60e2a173",
+                        "export_description": "91b54a57934c4f5c1910f3f0b3cdad20 91b54a57934c4f5c1910f3f0b3cdad20"
+                    }
+                }
+            }
+        },
+        "fof-pwa": {
+            "admin": {
+                "nav": {
+                    "pwa_button": "28d672aa652438f3a084948c105d1e5b 28d672aa652438f3a084948c105d1e5b"
+                },
+                "pwa": {
+                    "about": {
+                        "description_label": "38ca0af80cd7bd241500e81ba2e6efff 38ca0af80cd7bd241500e81ba2e6efff",
+                        "description_text": "238fc9e5ab7b92c6c9f86aad203f9a51 238fc9e5ab7b92c6c9f86aad203f9a51",
+                        "heading": "322e9c3264747699ab43cdb810a637bd 322e9c3264747699ab43cdb810a637bd",
+                        "long_name_label": "b5cea2409b94d984ade2c7ecd44e4de6 b5cea2409b94d984ade2c7ecd44e4de6",
+                        "long_name_text": "f51bd2b223d77a94eb3d8ccb0a516908 f51bd2b223d77a94eb3d8ccb0a516908",
+                        "short_name_label": "60de6c1a47e101d003d72242a6d0abe4 60de6c1a47e101d003d72242a6d0abe4"
+                    },
+                    "colors": {
+                        "background_color_label": "e9950b4d4e1b9f17ed70ea37446aa581 e9950b4d4e1b9f17ed70ea37446aa581",
+                        "heading": "b324060487dc0df42cf72fc672a12dcb b324060487dc0df42cf72fc672a12dcb",
+                        "theme_color_label": "dab699da30bfdcc81404f9c8d4a2c440 dab699da30bfdcc81404f9c8d4a2c440"
+                    },
+                    "firebase_config": {
+                        "heading": "035489ff8d092741943e4a83241f5af9 035489ff8d092741943e4a83241f5af9",
+                        "upload_file": "26fbf8e81cf5d1c9694f08c52fc63ddd 26fbf8e81cf5d1c9694f08c52fc63ddd"
+                    },
+                    "heading": "8d1f97f738288c32092c498010c41aeb 8d1f97f738288c32092c498010c41aeb",
+                    "logo_heading": "3149dbdf7dd58d20b01d9d58451fe75c 3149dbdf7dd58d20b01d9d58451fe75c",
+                    "maintenance": {
+                        "debug_text": "97ca53aa35953cf4721477e93b17799a 97ca53aa35953cf4721477e93b17799a",
+                        "heading": "fef1f7ce91e14927426da187de7cf158 fef1f7ce91e14927426da187de7cf158",
+                        "reset_vapid_confirm": "a4ff1ae96e56d766420a1370399ecdbc a4ff1ae96e56d766420a1370399ecdbc",
+                        "reset_vapid_success": "e65745a13b425793f8d17b0d47a28677 e65745a13b425793f8d17b0d47a28677"
+                    },
+                    "other": {
+                        "heading": "57af51f34d67a37027635ae36d516dbe 57af51f34d67a37027635ae36d516dbe"
+                    },
+                    "refreshed_message": "54b7c14978a2a55a71a6698879e0e392 54b7c14978a2a55a71a6698879e0e392",
+                    "status_check_heading": "e57e06a1a67bdc92de4c56b600b52e8f e57e06a1a67bdc92de4c56b600b52e8f",
+                    "submit_button": "f2e3f707d57e6441543b167c0e908dcd f2e3f707d57e6441543b167c0e908dcd"
+                },
+                "status": {
+                    "no_logo": "7763c92ab5f920ca556a727e1d544fdd 7763c92ab5f920ca556a727e1d544fdd",
+                    "no_name": "eda2c9b2bd80323d0f56e15e46802321 eda2c9b2bd80323d0f56e15e46802321"
+                }
+            },
+            "forum": {
+                "discussion_controls": {
+                    "share_button": "87bc9c656c25424d5160ac6db78467f4 87bc9c656c25424d5160ac6db78467f4"
+                },
+                "post_controls": {
+                    "share_button": "87bc9c656c25424d5160ac6db78467f4 87bc9c656c25424d5160ac6db78467f4"
+                },
+                "settings": {
+                    "push_header": "cb71a729e04aea993b54de740294220b cb71a729e04aea993b54de740294220b",
+                    "pwa_notifications": {
+                        "access_default": "37d671a29603a0991e04ec323af50e96 37d671a29603a0991e04ec323af50e96",
+                        "access_default_button": "7ddbb3ec505962813b5048662295bb13 7ddbb3ec505962813b5048662295bb13",
+                        "access_denied": "a66bf50fca9190f65cf94806404a7627 a66bf50fca9190f65cf94806404a7627",
+                        "access_denied_button": "48ab356c29bdb66c325fa701a17bfd54 48ab356c29bdb66c325fa701a17bfd54",
+                        "no_browser_support": "87693d25e9ca4fe720114d59b1683a73 87693d25e9ca4fe720114d59b1683a73",
+                        "no_browser_support_button": "54ac5cfc9d66b84354b4bc4b24fcbb38 54ac5cfc9d66b84354b4bc4b24fcbb38"
+                    }
+                },
+                "user_controls": {
+                    "share_button": "87bc9c656c25424d5160ac6db78467f4 87bc9c656c25424d5160ac6db78467f4"
+                }
+            },
+            "views": {
+                "offline": {
+                    "header": "ff31fde387356e928eb4dca7c7676841 ff31fde387356e928eb4dca7c7676841",
+                    "text": "ba3ff6be9ce6191ff9d9d53a443434bc ba3ff6be9ce6191ff9d9d53a443434bc"
+                }
+            }
+        }
+    },
     "fof-pwned-passwords.json": {
         "fof-pwned-passwords": {
             "admin": {
