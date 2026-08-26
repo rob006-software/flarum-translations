@@ -12,27 +12,27 @@
                 "required_reply_help": "Antworten können erst veröffentlicht werden, wenn mindestens eine Erklärung ausgewählt wurde.",
                 "max_label": "Maximale Anzahl von Erklärungen pro Beitrag",
                 "show_in_user_post_lists_label": "Urhebererklärungen in den Beitragslisten des Profils anzeigen",
-                "show_in_user_post_lists_help": "",
+                "show_in_user_post_lists_help": "Wenn aktiviert, werden die Urhebererklärungen zusammen mit den Beiträgen in der Beitragsliste des Benutzerprofils angezeigt.",
                 "order_label": "Reihenfolge der Erklärungen",
                 "order_help": "Trenne die Erklärungsschlüssel durch Kommas. Fehlende Schlüssel werden automatisch angehängt. Verfügbare Schlüssel sind: original, repost, reference, ai_generated, fictional, personal_opinion, professional, sensitive, self_promotion und sponsored."
             }
         },
         "forum": {
             "composer": {
-                "choose": "",
+                "choose": "Eigenerklärung hinzufügen",
                 "selected": "{count} Erklärungen ausgewählt"
             },
             "controls": {
-                "edit": ""
+                "edit": "Eigenerklärung bearbeiten"
             },
             "display": {
                 "declaration_format": "<strong>Urhebererklärung:</strong> {declarations}.",
-                "open_details": "",
-                "original_notice": "",
-                "original_summary": "",
-                "repost_notice": "",
-                "reference_notice": "",
-                "reference_summary": "",
+                "open_details": "Details der Urhebererklärung anzeigen",
+                "original_notice": "Originalinhalt. Vervielfältigung ohne Genehmigung untersagt.",
+                "original_summary": "Originalinhalt. Vervielfältigung ohne Genehmigung untersagt",
+                "repost_notice": "Dieser Inhalt stammt von {source}.",
+                "reference_notice": "Dieser Inhalt bezieht sich auf {source}.",
+                "reference_summary": "Inhalt wurde referenziert oder zitiert",
                 "personal_opinion_summary": "",
                 "declaration_separator": "; "
             },
@@ -87,7 +87,7 @@
                 },
                 "ai_generated": {
                     "label": "KI-erstellter Inhalt",
-                    "help": "",
+                    "help": "Der Inhalt wurde ganz oder zu einem wesentlichen Teil mit generativer KI erstellt oder bearbeitet.",
                     "details_placeholder": ""
                 },
                 "fictional": {
