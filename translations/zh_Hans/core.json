@@ -51,10 +51,10 @@
                     "kit_url_label": "Kit 链接",
                     "kit_url_help": "您的 Font Awesome Kit 脚本的 URL（来自于 kit.fontawesome.com）",
                     "forced_style_label": "强制图标样式",
-                    "forced_style_help": "可统一指定所有图标使用的 FontAwesome 样式，例如 `fa-duotone fa-light` 或 `fa-regular`。该设置会覆盖核心和扩展程序原本指定的样式，但 brand 图标不会受到影响。请确保当前图标来源支持所选样式：内置的 FontAwesome Free 除实心样式外，仅包含少量其他样式的图标，强制切换后可能出现大量空白图标。使用 FontAwesome Pro CDN 或 Kit 可获得完整样式支持。留空即可关闭此设置。",
+                    "forced_style_help": "强制所有图标使用指定的 Font Awesome 样式，例如 `fa-duotone fa-light` 或 `fa-regular`。此设置会覆盖核心和扩展程序指定的图标样式，但不会影响品牌图标。请确保当前图标来源支持所选样式：内置的 Font Awesome Free 对 `fas` 实心样式以外的样式支持有限，强制使用其他样式可能导致大量图标无法显示。Font Awesome Pro CDN 或 Kit 支持全部样式。留空则禁用此设置。",
                     "config_override": {
                         "label": "配置覆盖",
-                        "help": "FontAwesome 设置目前已在 config.php 文件中存在，无法在此处更改。"
+                        "help": "FontAwesome 设置目前已在 config.php 文件中存在，无法在此处修改。"
                     },
                     "preview": {
                         "button": "预览图标",
@@ -69,10 +69,10 @@
                     "search_configuration": "要使用的搜索配置"
                 },
                 "queue": {
-                    "pause_label": "",
-                    "pause_all_label": "",
-                    "pause_queue_label": "",
-                    "pause_help": "",
+                    "pause_label": "暂停队列",
+                    "pause_all_label": "暂停所有队列",
+                    "pause_queue_label": "暂停 {queue} 队列",
+                    "pause_help": "暂停处理受影响队列中的任务，已经开始运行的任务不会受到影响。",
                     "section_label": "队列",
                     "sync_info": "当前使用同步队列驱动，所有任务均由主线程直接处理。",
                     "sync_help": "为了更佳的性能和用户体验，建议使用数据库队列驱动。相关信息请查阅文档。",
