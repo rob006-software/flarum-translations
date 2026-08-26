@@ -887,6 +887,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`fof-polls`](https://weblate.rob006.net/projects/flarum2/fof-polls) | [`fof/polls`](https://github.com/FriendsOfFlarum/polls) |
 | [`fof-prevent-necrobumping`](https://weblate.rob006.net/projects/flarum2/fof-prevent-necrobumping) | [`fof/prevent-necrobumping`](https://github.com/FriendsOfFlarum/prevent-necrobumping) |
 | [`fof-profile-image-crop`](https://weblate.rob006.net/projects/flarum2/fof-profile-image-crop) | [`fof/profile-image-crop`](https://github.com/FriendsOfFlarum/profile-image-crop) |
+| [`fof-pwa`](https://weblate.rob006.net/projects/flarum2/fof-pwa) | [`fof/pwa`](https://github.com/FriendsOfFlarum/pwa) |
 | [`fof-pwned-passwords`](https://weblate.rob006.net/projects/flarum2/fof-pwned-passwords) | [`fof/pwned-passwords`](https://github.com/FriendsOfFlarum/pwned-passwords) |
 | [`fof-reactions`](https://weblate.rob006.net/projects/flarum2/fof-reactions) | [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions) |
 | [`fof-recaptcha`](https://weblate.rob006.net/projects/flarum2/fof-recaptcha) | [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha) |
