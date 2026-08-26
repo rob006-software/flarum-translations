@@ -2,16 +2,16 @@
     "ffans-creator-declarations": {
         "admin": {
             "permissions": {
-                "allow_edit_own_label": "",
-                "moderate_label": ""
+                "allow_edit_own_label": "Eigene Urhebererklärung bearbeiten",
+                "moderate_label": "Urhebererklärungen aller Beiträge bearbeiten"
             },
             "settings": {
-                "required_discussion_label": "",
-                "required_discussion_help": "",
-                "required_reply_label": "",
-                "required_reply_help": "",
-                "max_label": "",
-                "show_in_user_post_lists_label": "",
+                "required_discussion_label": "Für jede neue Diskussion eine Erklärung verlangen",
+                "required_discussion_help": "Diskussionen können erst veröffentlicht werden, wenn mindestens eine Erklärung ausgewählt wurde.",
+                "required_reply_label": "Für jede Antwort eine Erklärung verlangen",
+                "required_reply_help": "Antworten können erst veröffentlicht werden, wenn mindestens eine Erklärung ausgewählt wurde.",
+                "max_label": "Maximale Anzahl von Erklärungen pro Beitrag",
+                "show_in_user_post_lists_label": "Urhebererklärungen in den Beitragslisten des Profils anzeigen",
                 "show_in_user_post_lists_help": "",
                 "order_label": "",
                 "order_help": ""
