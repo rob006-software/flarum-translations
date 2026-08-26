@@ -2,31 +2,31 @@
     "ffans-creator-declarations": {
         "admin": {
             "permissions": {
-                "allow_edit_own_label": "",
-                "moderate_label": ""
+                "allow_edit_own_label": "Eigene Urhebererklärung bearbeiten",
+                "moderate_label": "Urhebererklärungen aller Beiträge bearbeiten"
             },
             "settings": {
-                "required_discussion_label": "",
-                "required_discussion_help": "",
-                "required_reply_label": "",
-                "required_reply_help": "",
-                "max_label": "",
-                "show_in_user_post_lists_label": "",
+                "required_discussion_label": "Für jede neue Diskussion eine Erklärung verlangen",
+                "required_discussion_help": "Diskussionen können erst veröffentlicht werden, wenn mindestens eine Erklärung ausgewählt wurde.",
+                "required_reply_label": "Für jede Antwort eine Erklärung verlangen",
+                "required_reply_help": "Antworten können erst veröffentlicht werden, wenn mindestens eine Erklärung ausgewählt wurde.",
+                "max_label": "Maximale Anzahl von Erklärungen pro Beitrag",
+                "show_in_user_post_lists_label": "Urhebererklärungen in den Beitragslisten des Profils anzeigen",
                 "show_in_user_post_lists_help": "",
-                "order_label": "",
-                "order_help": ""
+                "order_label": "Reihenfolge der Erklärungen",
+                "order_help": "Trenne die Erklärungsschlüssel durch Kommas. Fehlende Schlüssel werden automatisch angehängt. Verfügbare Schlüssel sind: original, repost, reference, ai_generated, fictional, personal_opinion, professional, sensitive, self_promotion und sponsored."
             }
         },
         "forum": {
             "composer": {
                 "choose": "",
-                "selected": ""
+                "selected": "{count} Erklärungen ausgewählt"
             },
             "controls": {
                 "edit": ""
             },
             "display": {
-                "declaration_format": "",
+                "declaration_format": "<strong>Urhebererklärung:</strong> {declarations}.",
                 "open_details": "",
                 "original_notice": "",
                 "original_summary": "",
@@ -34,23 +34,23 @@
                 "reference_notice": "",
                 "reference_summary": "",
                 "personal_opinion_summary": "",
-                "declaration_separator": ""
+                "declaration_separator": "; "
             },
             "info_modal": {
                 "title": "",
-                "heading": "",
+                "heading": "Warum wird mir dieser Hinweis angezeigt?",
                 "explanation": "",
                 "disclaimer": "",
-                "source": "",
+                "source": "Quelle: ",
                 "reference": "",
                 "author_note": ""
             },
             "modal": {
                 "title": "",
                 "help": "",
-                "save_button": "",
-                "selection_count": "",
-                "link_title_placeholder": ""
+                "save_button": "Erklärungen speichern",
+                "selection_count": "{selected} / {max} ausgewählt",
+                "link_title_placeholder": "Linkname (optional)"
             }
         },
         "lib": {
@@ -67,7 +67,7 @@
             "categories": {
                 "source": "",
                 "authenticity": "",
-                "safety": "",
+                "safety": "Sicherheit und Inhaltswarnungen",
                 "commercial": ""
             },
             "declarations": {
@@ -86,7 +86,7 @@
                     "details_placeholder": ""
                 },
                 "ai_generated": {
-                    "label": "",
+                    "label": "KI-erstellter Inhalt",
                     "help": "",
                     "details_placeholder": ""
                 },
