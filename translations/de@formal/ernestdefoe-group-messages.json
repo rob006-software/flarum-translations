@@ -7,9 +7,9 @@
                 "name_label": "Gruppenname",
                 "name_placeholder": "Name dieser Gruppe (optional)",
                 "recipients_label": "Mitglieder hinzufügen",
-                "message_placeholder": "",
+                "message_placeholder": "Schreibe die erste Nachricht…",
                 "create_button": "Gruppe erstellen",
-                "create_error": ""
+                "create_error": "Die Gruppe konnte nicht erstellt werden. Bitte versuche es erneut."
             },
             "dialog": {
                 "participants": "{count} Teilnehmer",
@@ -25,7 +25,7 @@
                 "reply_button": "Antworten",
                 "replying_to": "{username} antworten",
                 "cancel": "Antwort abbrechen",
-                "unknown": ""
+                "unknown": "Antwort auf eine frühere Nachricht"
             },
             "quote": {
                 "quote_button": "Zitieren"
@@ -49,8 +49,8 @@
             "error": {
                 "generic": "Es ist ein Fehler aufgetreten. Bitte versuche es erneut.",
                 "not_group_member": "Du bist kein Mitglied dieser Gruppe.",
-                "cannot_manage": "",
-                "min_participants": ""
+                "cannot_manage": "Du hast keine Berechtigung, diese Gruppe zu verwalten.",
+                "min_participants": "Eine Gruppe benötigt mindestens zwei weiter Mitglieder."
             }
         }
     }
