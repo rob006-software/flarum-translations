@@ -902,7 +902,7 @@ return [
 		],
 	],
 	'stezkoy-feeds' => [
-		'tag' => 'https://raw.githubusercontent.com/Stezkoy/flarum-feeds/v4.0.3/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/Stezkoy/flarum-feeds/v4.0.4/locale/en.yml',
 		'__builtInLanguages' => [
 			'ru',
 			'zh_Hans',
