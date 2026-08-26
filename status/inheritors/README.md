@@ -9,4 +9,4 @@ which have the same source string on both sides, but do not match between them.
 | [German (formal) (`de@formal`)](de@formal.md) | German informal variant | 1 | 312 | 0 |
 | [Serbian (Latin) (`sr_Latn`)](sr_Latn.md) | Serbian (Cyrillic) | 1 | 247 | 79 |
 | [Spanish (formal) (`es@formal`)](es@formal.md) | Spanish informal variant | 1 | 148 | 0 |
-| [`1.x`](1.x/) | Flarum 1.x | 21 | 1531 | 6656 |
+| [`1.x`](1.x/) | Flarum 1.x | 21 | 1538 | 6729 |
