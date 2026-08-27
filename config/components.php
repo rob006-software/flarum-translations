@@ -191,6 +191,12 @@ return [
 	'ffans-creator-declarations' => [
 		'tag' => 'https://raw.githubusercontent.com/FFans/creator-declarations/v0.2.2/locale/en.yml',
 	],
+	'ffans-ip-location' => [
+		'beta' => 'https://raw.githubusercontent.com/FFans/ip-location/v2.0.0-beta.2/locale/en.yml',
+		'__builtInLanguages' => [
+			'zh_Hans',
+		],
+	],
 	'flarum-akismet' => [
 		'beta' => 'https://raw.githubusercontent.com/flarum/akismet/v2.0.0-rc.7/locale/en.yml',
 	],
