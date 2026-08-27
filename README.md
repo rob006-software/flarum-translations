@@ -931,6 +931,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`datlechin-bbcode-hide-content`](https://weblate.rob006.net/projects/flarum2/datlechin-bbcode-hide-content) | [`datlechin/flarum-bbcode-hide-content`](https://github.com/datlechin/flarum-bbcode-hide-content) |
 | [`datlechin-birthdays`](https://weblate.rob006.net/projects/flarum2/datlechin-birthdays) | [`datlechin/flarum-birthdays`](https://github.com/datlechin/flarum-birthdays) |
 | [`datlechin-copy-links`](https://weblate.rob006.net/projects/flarum2/datlechin-copy-links) | [`datlechin/flarum-copy-links`](https://github.com/datlechin/flarum-copy-links) |
+| [`datlechin-debugbar`](https://weblate.rob006.net/projects/flarum2/datlechin-debugbar) | [`datlechin/flarum-debugbar`](https://github.com/datlechin/flarum-debugbar) |
 | [`datlechin-discussion-overview`](https://weblate.rob006.net/projects/flarum2/datlechin-discussion-overview) | [`datlechin/flarum-discussion-overview`](https://github.com/datlechin/flarum-discussion-overview) |
 | [`datlechin-link-clicks`](https://weblate.rob006.net/projects/flarum2/datlechin-link-clicks) | [`datlechin/flarum-link-clicks`](https://github.com/datlechin/flarum-link-clicks) |
 | [`datlechin-link-preview`](https://weblate.rob006.net/projects/flarum2/datlechin-link-preview) | [`datlechin/flarum-link-preview`](https://github.com/datlechin/flarum-link-preview) |
