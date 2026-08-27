@@ -294,7 +294,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/checklist/2.0.0-beta.1/resources/locale/en.yml',
 	],
 	'fof-clockwork' => [
-		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/clockwork/2.0.0-beta.2/resources/locale/en.yml',
+		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/clockwork/2.0.0-beta.3/resources/locale/en.yml',
 	],
 	'fof-default-group' => [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/default-group/2.0.0-beta.1/resources/locale/en.yml',
