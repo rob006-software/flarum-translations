@@ -97,6 +97,19 @@
                     "no_browser_support": "This browser does not support push notifications for progressive web apps.",
                     "no_browser_support_button": "Learn More"
                 }
+            },
+            "notifications_help": {
+                "browser_notifications_title": "How to Enable Browser Notifications",
+                "title": "Enable Push Notifications",
+                "description": "If you previously blocked notifications, follow the instructions below to re-enable them on your device.",
+                "chromium_title": "Google Chrome, Microsoft Edge, and Android",
+                "chromium_instructions": "Click the site information icon (the padlock or tune icon) next to the web address in your browser. Select \"Site settings\" (or \"Permissions\"), find \"Notifications\", and change the setting to \"Allow\".",
+                "firefox_title": "Mozilla Firefox",
+                "firefox_instructions": "Click the padlock icon next to the web address. If \"Notifications\" is marked as \"Blocked\", click the \"X\" next to it to remove the restriction. Refresh the page and allow notifications when prompted.",
+                "safari_mac_title": "Apple Safari (macOS)",
+                "safari_mac_instructions": "Open the Safari menu at the top of the screen and select \"Settings\" (or \"Preferences\"). Click the \"Websites\" tab, select \"Notifications\" in the left sidebar, find this forum in the list, and change the setting to \"Allow\".",
+                "safari_ios_title": "Apple iPhone and iPad (iOS/iPadOS)",
+                "safari_ios_instructions": "Push notifications on iOS require the app to be installed. In Safari, tap the \"Share\" icon and select \"Add to Home Screen\". Then open the newly installed app. If notifications are blocked, open the iOS \"Settings\" app, go to \"Notifications\", select this web app from the list, and turn on \"Allow Notifications\"."
             }
         },
         "views": {
