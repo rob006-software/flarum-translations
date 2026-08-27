@@ -33,21 +33,21 @@
                 "repost_notice": "Dieser Inhalt stammt von {source}.",
                 "reference_notice": "Dieser Inhalt bezieht sich auf {source}.",
                 "reference_summary": "Inhalt wurde referenziert oder zitiert",
-                "personal_opinion_summary": "",
+                "personal_opinion_summary": "Persönliche Meinung, nur zur Information",
                 "declaration_separator": "; "
             },
             "info_modal": {
-                "title": "",
+                "title": "Über diese Erklärung",
                 "heading": "Warum wird mir dieser Hinweis angezeigt?",
-                "explanation": "",
-                "disclaimer": "",
+                "explanation": "Diese Erklärung wurde vom Verfasser hinzugefügt, der diesen Beitrag als „{declarations}“ gekennzeichnet hat.",
+                "disclaimer": "Die Aussagen wurden vom Forum weder geprüft noch bestätigt. Bitte betrachte sie im Zusammenhang mit dem Inhalt des Beitrags und bewerte nach eigenem Ermessen.",
                 "source": "Quelle: ",
-                "reference": "",
-                "author_note": ""
+                "reference": "Referenz: ",
+                "author_note": "Hinweis des Verfassers: "
             },
             "modal": {
-                "title": "",
-                "help": "",
+                "title": "Eigenerklärung",
+                "help": "Wähle die Erklärungen aus, die auf diesen Beitrag zutreffen. Sie dienen lediglich dazu, den Lesern das Verständnis des Inhalts zu erleichtern, und geben weder die Ansichten des Forums wieder noch stellen sie eine Überprüfung durch das Forum dar.",
                 "save_button": "Erklärungen speichern",
                 "selection_count": "{selected} / {max} ausgewählt",
                 "link_title_placeholder": "Linkname (optional)"
@@ -55,67 +55,67 @@
         },
         "lib": {
             "validation": {
-                "required": "",
-                "too_many": "",
-                "invalid_payload": "",
-                "invalid_selection": "",
-                "details_too_long": "",
-                "title_too_long": "",
-                "source_url_required": "",
-                "source_conflict": ""
+                "required": "Mindestens eine Erklärung ist erforderlich.",
+                "too_many": "Es wurden zu viele Erklärungen ausgewählt.",
+                "invalid_payload": "Die Nutzdaten der Erklärung sind ungültig.",
+                "invalid_selection": "Die Auswahl der Erklärungen ist ungültig.",
+                "details_too_long": "Die Angaben zur Erklärung dürfen 500 Zeichen nicht überschreiten.",
+                "title_too_long": "Der Name des Links darf nicht länger als 100 Zeichen sein.",
+                "source_url_required": "Für wiederveröffentlichte oder zitierte Inhalte ist eine gültige Quell-URL erforderlich.",
+                "source_conflict": "Die Optionen „Originalinhalt“, „wiederveröffentlicht“ und „zitiert“ können nicht gleichzeitig ausgewählt werden."
             },
             "categories": {
-                "source": "",
-                "authenticity": "",
+                "source": "Inhaltsherkunft",
+                "authenticity": "Authentizität",
                 "safety": "Sicherheit und Inhaltswarnungen",
-                "commercial": ""
+                "commercial": "Offenlegung kommerzieller Interessen"
             },
             "declarations": {
                 "original": {
-                    "label": "",
-                    "help": ""
+                    "label": "Originalinhalt",
+                    "help": "Der Inhalt wurde überwiegend vom Autor verfasst und ist kein direkter Repost. Bitte nicht ohne Genehmigung weiterveröffentlichen."
                 },
                 "repost": {
-                    "label": "",
-                    "help": "",
-                    "details_placeholder": ""
+                    "label": "Wiederveröffentlichter Inhalt",
+                    "help": "Der Inhalt ist überwiegend ein Wiederveröffentlichung von einem anderen Autor oder aus einer anderen Quelle.",
+                    "details_placeholder": "Gib die Quell-URL des Originals ein (erforderlich)"
                 },
                 "reference": {
-                    "label": "",
-                    "help": "",
-                    "details_placeholder": ""
+                    "label": "Wiederveröffentlichter oder zitierter Inhalt",
+                    "help": "Der Inhalt bezieht sich auf Material eines anderen Autors oder einer anderen Quelle bzw. zitiert dieses.",
+                    "details_placeholder": "Gib die Quell-URL des Originals ein (erforderlich)"
                 },
                 "ai_generated": {
                     "label": "KI-erstellter Inhalt",
                     "help": "Der Inhalt wurde ganz oder zu einem wesentlichen Teil mit generativer KI erstellt oder bearbeitet.",
-                    "details_placeholder": ""
+                    "details_placeholder": "Gib optional den Namen des KI-Tools an oder füge weitere Informationen hinzu"
                 },
                 "fictional": {
-                    "label": "",
-                    "help": ""
+                    "label": "Fiktive oder inszenierte Inhalte",
+                    "help": "Der Inhalt enthält fiktive Ereignisse, Rollenspiele oder inszenierte Szenen."
                 },
                 "personal_opinion": {
-                    "label": "",
-                    "help": ""
+                    "label": "Persönliche Meinungen oder Sichtweisen",
+                    "help": "Dieser Inhalt gibt in erster Linie die persönlichen Ansichten, Einschätzungen oder Erfahrungen des Autors wieder und stellt keine allgemeingültigen Tatsachen oder fachlichen Schlussfolgerungen dar."
                 },
                 "professional": {
-                    "label": "",
-                    "help": "",
-                    "details_placeholder": ""
+                    "label": "Gefährliches Verhalten; bitte nicht nachmachen",
+                    "help": "Das Nachahmen dieser Tätigkeit ohne entsprechende Fachkenntnisse kann ein Sicherheitsrisiko darstellen.",
+                    "details_placeholder": "Optional Sicherheitshinweise hinzufügen"
                 },
                 "sensitive": {
-                    "label": "",
-                    "help": "",
-                    "details_placeholder": ""
+                    "label": "Möglicherweise verstörend",
+                    "help": "Der Inhalt kann verstörende, beängstigende oder sensible Darstellungen enthalten.",
+                    "details_placeholder": "Beschreibe optional den Inhaltshinweis"
                 },
                 "self_promotion": {
-                    "label": "",
-                    "help": ""
+                    "label": "Enthält Marketing- oder Werbeinformationen",
+                    "help": "Der Inhalt wirbt für Produkte oder Dienstleistungen des Verfassers, seiner Organisation oder Dritter und kann mit Affiliate-Provisionen oder anderen Vergütungen verbunden sein."
                 },
                 "sponsored": {
-                    "label": "",
-                    "help": "",
-                    "details_placeholder": ""
+                    "label": "Bezahlte Partnerschaft, Sponsoring oder materielles Interesse",
+                    "help": "Ein Dritter hat Zahlungen, Geschenke oder einen anderen materiellen Vorteil gewährt.",
+                    "details_placeholder": "Gib optional den Namen des Partners an oder beschreibe die Beziehung"
                 }
             }
         }
