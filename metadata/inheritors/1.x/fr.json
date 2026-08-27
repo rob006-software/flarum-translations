@@ -5437,6 +5437,119 @@
             }
         }
     },
+    "fof-pwa.json": {
+        "flarum-gdpr": {
+            "lib": {
+                "data": {
+                    "pushsubscriptions": {
+                        "delete_description": "d41d8cd98f00b204e9800998ecf8427e 7b17f6ae14f80f63cba4b22d2d19cd4b",
+                        "export_description": "d41d8cd98f00b204e9800998ecf8427e a909ec198e6151967cac13297e65e7b8"
+                    }
+                }
+            }
+        },
+        "fof-pwa": {
+            "admin": {
+                "nav": {
+                    "pwa_button": "d41d8cd98f00b204e9800998ecf8427e 7901304c473cec7c8738b0645ca0eb11",
+                    "pwa_text": "d41d8cd98f00b204e9800998ecf8427e 4c28bc103622f731e9d0a29cc616e909"
+                },
+                "pwa": {
+                    "about": {
+                        "description_label": "d41d8cd98f00b204e9800998ecf8427e b5a7adde1af5c87d7fd797b6245c2a39",
+                        "description_text": "d41d8cd98f00b204e9800998ecf8427e 2b7ec07735bda89eef8f21bc33f45a30",
+                        "heading": "d41d8cd98f00b204e9800998ecf8427e a62ae798f2a753d56c1fea488fa91bd3",
+                        "long_name_label": "d41d8cd98f00b204e9800998ecf8427e be9dd5fc38f2678efe6ba09be4734a71",
+                        "long_name_text": "d41d8cd98f00b204e9800998ecf8427e 594be49cd69ff81e42ca90dab82584c0",
+                        "short_name_label": "d41d8cd98f00b204e9800998ecf8427e 8d250047936eb3ae3ab477cc0e42608c",
+                        "short_name_text": "d41d8cd98f00b204e9800998ecf8427e 9e12defdd83667192ee9a4d6179b356a"
+                    },
+                    "colors": {
+                        "background_color_label": "d41d8cd98f00b204e9800998ecf8427e 512b38461cde6fbf13c05144f43ce68d",
+                        "background_color_text": "d41d8cd98f00b204e9800998ecf8427e 768f4f37404889fb68b267b1a26ede38",
+                        "heading": "d41d8cd98f00b204e9800998ecf8427e 24095382b66fa0c066efb30eedb76116",
+                        "theme_color_label": "d41d8cd98f00b204e9800998ecf8427e 2acfbbd0323cbbecf7d34e5dd5936da6",
+                        "theme_color_text": "d41d8cd98f00b204e9800998ecf8427e 65f6e360be4f410b5fe208a5cede25f6"
+                    },
+                    "firebase_config": {
+                        "heading": "d41d8cd98f00b204e9800998ecf8427e 035489ff8d092741943e4a83241f5af9",
+                        "help_text": "d41d8cd98f00b204e9800998ecf8427e f2527d3d9170c5cf8ffa24d80246f986",
+                        "upload_file": "d41d8cd98f00b204e9800998ecf8427e d24512f481f30a8cc4a7f69d0da74b87",
+                        "upload_successful": "d41d8cd98f00b204e9800998ecf8427e 99b693d03b50f786f22a2013f4d6338e"
+                    },
+                    "heading": "d41d8cd98f00b204e9800998ecf8427e eb17bdd9ece8dbddd283e470f3c1bb7c",
+                    "logo_heading": "d41d8cd98f00b204e9800998ecf8427e 33dea0018aeb60a018492488467ad70a",
+                    "logo_size_text": "d41d8cd98f00b204e9800998ecf8427e 76828d8cabdf94af282c392301834ede",
+                    "logo_text": "d41d8cd98f00b204e9800998ecf8427e b836dbea1ff4e3ee004f007c214e1c6a",
+                    "maintenance": {
+                        "debug_label": "d41d8cd98f00b204e9800998ecf8427e 2027877db5169efc950028d5f863082b",
+                        "debug_text": "d41d8cd98f00b204e9800998ecf8427e 3e03cab531767448852895ad76427268",
+                        "heading": "d41d8cd98f00b204e9800998ecf8427e 10d0de28911c5f66463b9c8783f8148a",
+                        "reset_vapid_confirm": "d41d8cd98f00b204e9800998ecf8427e 20b348270cd2e0a5ca08f181c94bc702",
+                        "reset_vapid_success": "d41d8cd98f00b204e9800998ecf8427e 3e60df6696c4e4f10812e2fef5c3e928",
+                        "reset_vapid_text": "d41d8cd98f00b204e9800998ecf8427e 68a6c7e95021f6c349fc2ae1da72f212"
+                    },
+                    "other": {
+                        "force_portrait_text": "d41d8cd98f00b204e9800998ecf8427e 72946a8cfdfb2d46c21b0c9fea159da1",
+                        "heading": "d41d8cd98f00b204e9800998ecf8427e 977a7223997e10d4daa2ce0d309fafc6",
+                        "push_notif_preference_default_to_email_label": "d41d8cd98f00b204e9800998ecf8427e 6030dd6cf4d3b222bb81312422030cbb",
+                        "push_notif_preference_default_to_email_text": "d41d8cd98f00b204e9800998ecf8427e 0638107a15cce165a23efdf784827708",
+                        "user_max_subscriptions_label": "d41d8cd98f00b204e9800998ecf8427e 9f3e4791b87a4734c84b6c39bdd2274a",
+                        "user_max_subscriptions_text": "d41d8cd98f00b204e9800998ecf8427e 48733ead22cf98dc14889e32f56667c7",
+                        "window_controls_overlay_label": "d41d8cd98f00b204e9800998ecf8427e 0bc575c48282aa6f143398e212d44dff",
+                        "window_controls_overlay_text": "d41d8cd98f00b204e9800998ecf8427e 0c4a637c2d5e4fab77b86a1f8977f384"
+                    },
+                    "refreshed_message": "d41d8cd98f00b204e9800998ecf8427e dc27ad3f47a910f0193018908c931743",
+                    "status_check_heading": "d41d8cd98f00b204e9800998ecf8427e 4ebefeabf9308bf1d3d8bd9bdbf24acd",
+                    "submit_button": "d41d8cd98f00b204e9800998ecf8427e 313373aa08dd787dbb878d56b1c4c838"
+                },
+                "status": {
+                    "config_no_https": "d41d8cd98f00b204e9800998ecf8427e ef38fe9af021642eadf67ecfc0846327",
+                    "key_gen_failed": "d41d8cd98f00b204e9800998ecf8427e dca0b01e6e1d43fce4bcaadc64317d7a",
+                    "no_logo": "d41d8cd98f00b204e9800998ecf8427e a3814839eeadad1dc895a333b02d05ae",
+                    "no_name": "d41d8cd98f00b204e9800998ecf8427e 0525fa1faf106c1e9226c309d48d829e",
+                    "no_vapid_keys": "d41d8cd98f00b204e9800998ecf8427e 51603d939d73fd4eafeb645ee8f6cd89",
+                    "possible_https_disabled": "d41d8cd98f00b204e9800998ecf8427e 7eaf3276060eda6eed266bc7c5dfd359",
+                    "success": "d41d8cd98f00b204e9800998ecf8427e 6cccc4f72aa5ab5a58557fa058fc7fdc",
+                    "suggest_gmp": "d41d8cd98f00b204e9800998ecf8427e 95e923e680098c8ace3d72be97a17004"
+                }
+            },
+            "forum": {
+                "alerts": {
+                    "optin": "d41d8cd98f00b204e9800998ecf8427e 37e987230e79deba3a6969cac244a912"
+                },
+                "discussion_controls": {
+                    "share_button": "d41d8cd98f00b204e9800998ecf8427e 7f749d5084e8005c9cc1b5780ac2a052"
+                },
+                "post_controls": {
+                    "share_api": {
+                        "title": "d41d8cd98f00b204e9800998ecf8427e 1c5ff6e495f7916aa09b00876839db0f"
+                    },
+                    "share_button": "d41d8cd98f00b204e9800998ecf8427e 7f749d5084e8005c9cc1b5780ac2a052"
+                },
+                "settings": {
+                    "push_header": "d41d8cd98f00b204e9800998ecf8427e 56d7eccb5ba78489ac1e4166ea89c664",
+                    "pwa_notifications": {
+                        "access_default": "d41d8cd98f00b204e9800998ecf8427e 3aeae50aea55a8430eec9a44ffb15908",
+                        "access_default_button": "d41d8cd98f00b204e9800998ecf8427e a8b62d11c887512a56c5b6fc15fa916a",
+                        "access_denied": "d41d8cd98f00b204e9800998ecf8427e cfa5601a2c289f8c94bcfcecf269c49c",
+                        "access_denied_button": "d41d8cd98f00b204e9800998ecf8427e 847f2d8a35a94d017f8f67d05a1a118e",
+                        "no_browser_support": "d41d8cd98f00b204e9800998ecf8427e c380caefaf2fd5ceda14a8affc0e50ac",
+                        "no_browser_support_button": "d41d8cd98f00b204e9800998ecf8427e cec0cd69bc234d8d16f4187e2144cbd7"
+                    }
+                },
+                "user_controls": {
+                    "share_button": "d41d8cd98f00b204e9800998ecf8427e 7f749d5084e8005c9cc1b5780ac2a052"
+                }
+            },
+            "views": {
+                "offline": {
+                    "header": "d41d8cd98f00b204e9800998ecf8427e b2e4da2a9e35ff8e33b289920c17f0e5",
+                    "text": "d41d8cd98f00b204e9800998ecf8427e e83ecd4effbf145ab502fbd592cfa879"
+                }
+            }
+        }
+    },
     "fof-pwned-passwords.json": {
         "fof-pwned-passwords": {
             "admin": {
