@@ -1,0 +1,213 @@
+{
+    "datlechin-debugbar": {
+        "lib": {
+            "expand": "",
+            "collapse": "",
+            "resize": "",
+            "empty": "",
+            "no_matches": "",
+            "blank": "",
+            "yes": "",
+            "no": "",
+            "filter_placeholder": "",
+            "tabs": {
+                "timeline": "",
+                "queries": "",
+                "messages": "",
+                "request": "",
+                "events": "",
+                "cache": "",
+                "mail": "",
+                "settings": "",
+                "extensions": "",
+                "environment": ""
+            },
+            "summary": {
+                "duration": "",
+                "queries": "",
+                "memory": "",
+                "round_trip": ""
+            },
+            "errors": {
+                "expired": "",
+                "failed": "",
+                "no_data": ""
+            },
+            "requests": {
+                "toggle": "",
+                "none": "",
+                "document": ""
+            },
+            "timeline": {
+                "total": "",
+                "measures": "",
+                "unfinished": "",
+                "empty": "",
+                "spans": {
+                    "flarum": {
+                        "boot": "",
+                        "request": "",
+                        "route": ""
+                    }
+                }
+            },
+            "queries": {
+                "count": "",
+                "duration": "",
+                "duplicates": "",
+                "filter": "",
+                "preview": "",
+                "bindings": "",
+                "connection": "",
+                "origin": "",
+                "occurrences": "",
+                "dropped": "",
+                "empty": ""
+            },
+            "messages": {
+                "filter": "",
+                "show_trace": "",
+                "hide_trace": "",
+                "empty": "",
+                "levels": {
+                    "debug": "",
+                    "info": "",
+                    "warning": "",
+                    "error": ""
+                }
+            },
+            "request": {
+                "method": "",
+                "uri": "",
+                "status": "",
+                "route": "",
+                "handler": "",
+                "internal": "",
+                "user": "",
+                "guest": "",
+                "admin": "",
+                "groups": "",
+                "authentication": "",
+                "sections": {
+                    "overview": "",
+                    "actor": "",
+                    "parameters": "",
+                    "query": "",
+                    "json_api": "",
+                    "request_headers": "",
+                    "response_headers": ""
+                }
+            },
+            "events": {
+                "count": "",
+                "listed": "",
+                "filter": "",
+                "dropped": "",
+                "collapsed_title": "",
+                "collapsed_help": "",
+                "empty": ""
+            },
+            "cache": {
+                "hit_rate": "",
+                "filter": "",
+                "dropped": "",
+                "empty": "",
+                "types": {
+                    "hit": "",
+                    "miss": "",
+                    "write": "",
+                    "forget": "",
+                    "flush": ""
+                }
+            },
+            "mail": {
+                "count": "",
+                "show": "",
+                "hide": "",
+                "empty": "",
+                "statuses": {
+                    "sending": "",
+                    "sent": ""
+                },
+                "headers": {
+                    "from": "",
+                    "to": "",
+                    "cc": "",
+                    "bcc": "",
+                    "reply_to": ""
+                }
+            },
+            "settings": {
+                "count": "",
+                "groups": "",
+                "filter": "",
+                "redacted": "",
+                "empty": ""
+            },
+            "extensions": {
+                "enabled": "",
+                "installed": "",
+                "filter": "",
+                "empty": "",
+                "columns": {
+                    "id": "",
+                    "title": "",
+                    "version": "",
+                    "dependencies": ""
+                }
+            },
+            "environment": {
+                "empty": "",
+                "groups": {
+                    "flarum": "",
+                    "php": "",
+                    "drivers": ""
+                },
+                "keys": {
+                    "version": "",
+                    "url": "",
+                    "debug": "",
+                    "maintenance": "",
+                    "sapi": "",
+                    "memory_limit": "",
+                    "max_execution_time": "",
+                    "opcache": "",
+                    "timezone": "",
+                    "database": "",
+                    "cache": "",
+                    "queue": "",
+                    "session": "",
+                    "mail": ""
+                }
+            }
+        },
+        "admin": {
+            "debug_mode": {
+                "on": "",
+                "off": ""
+            },
+            "max_profiles": {
+                "label": "",
+                "help": ""
+            },
+            "trace_queries": {
+                "label": "",
+                "help": ""
+            },
+            "open_by_default": {
+                "label": "",
+                "help": ""
+            },
+            "collectors": {
+                "label": "",
+                "help": ""
+            },
+            "storage": {
+                "label": "",
+                "help": "",
+                "clear": "",
+                "cleared": ""
+            }
+        }
+    }
+}
