@@ -2,7 +2,7 @@
 
 Translations for Chinese (Simplified) (`zh_Hans`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **565** are translated differently and **1613** are
+sides, but do not match between them: **564** are translated differently and **1613** are
 translated only in `zh_Hans`. Altogether they cover **114** components.
 
 <!-- {% raw %} -->
@@ -14,7 +14,7 @@ translated only in `zh_Hans`. Altogether they cover **114** components.
 | --- | --- | --- |
 | `acpl-lscache` | [3](#acpl-lscache) | [8](#acpl-lscache-missing) |
 | `antoinefr-money` | [7](#antoinefr-money) | 0 |
-| `core` | [39](#core) | 0 |
+| `core` | [38](#core) | 0 |
 | `datitisev-backup` | [28](#datitisev-backup) | 0 |
 | `datlechin-birthdays` | [1](#datlechin-birthdays) | 0 |
 | `datlechin-more-discussions` | [5](#datlechin-more-discussions) | 0 |
@@ -327,7 +327,7 @@ SMTP <del>设置</del><ins>服务</ins>
 > Action required: abandoned extension(s) detected
 
 ```diff
--操作提醒：检测到弃用扩展
+-发现已停止维护的扩展，请处理
 +注意：发现了已弃用扩展
 ```
 
@@ -558,15 +558,6 @@ SMTP <del>设置</del><ins>服务</ins>
 +管理员
 ```
 
-#### [`core.views.error.method_not_allowed`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.views.error.method_not_allowed%22)
-
-> This page does not support that request method.
-
-```diff
--该页面不支持该请求方法。
-+此页面不支持该请求方法。
-```
-
 #### [`core.views.error.not_found_return_link`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.views.error.not_found_return_link%22)
 
 > Return to {forum}
@@ -592,9 +583,11 @@ SMTP <del>设置</del><ins>服务</ins>
 > Are you sure you want to log out of {forum}?
 
 ```diff
--确定要退出登录 {forum}?
+-确定要从 {forum} 退出登录？
 +您确定要在 {forum} 上退出登录?
 ```
+
+<del>确定要从</del><ins>您确定要在</ins> {forum} <del>退出登录？</del><ins>上退出登录?</ins>
 
 
 ### `datitisev-backup`

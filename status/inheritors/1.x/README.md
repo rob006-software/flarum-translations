@@ -8,13 +8,13 @@ are fully in sync and are not listed here.
 | Language | Different translations | Missing translations | Components |
 | --- | --- | --- | --- |
 | [Azerbaijani](az.md) (`az`) | 0 | 2 | 1 |
-| [Chinese (Simplified)](zh_Hans.md) (`zh_Hans`) | 565 | 1613 | 114 |
+| [Chinese (Simplified)](zh_Hans.md) (`zh_Hans`) | 564 | 1613 | 114 |
 | [Chinese (Traditional)](zh_Hant.md) (`zh_Hant`) | 33 | 199 | 6 |
 | [Dutch](nl.md) (`nl`) | 0 | 9 | 8 |
 | [Finnish](fi.md) (`fi`) | 5 | 61 | 7 |
 | [French](fr.md) (`fr`) | 124 | 1151 | 57 |
-| [German](de.md) (`de`) | 312 | 582 | 92 |
-| [German (formal)](de@formal.md) (`de@formal`) | 360 | 582 | 93 |
+| [German](de.md) (`de`) | 314 | 612 | 93 |
+| [German (formal)](de@formal.md) (`de@formal`) | 362 | 612 | 94 |
 | [Hungarian](hu.md) (`hu`) | 44 | 6 | 22 |
 | [Indonesian](id.md) (`id`) | 1 | 0 | 1 |
 | [Italian](it.md) (`it`) | 0 | 1 | 1 |
