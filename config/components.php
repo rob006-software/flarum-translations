@@ -195,7 +195,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FFans/creator-declarations/v0.2.2/locale/en.yml',
 	],
 	'flarum-akismet' => [
-		'beta' => 'https://raw.githubusercontent.com/flarum/akismet/v2.0.0-rc.7/locale/en.yml',
+		'beta' => 'https://raw.githubusercontent.com/flarum/akismet/v2.0.0-rc.8/locale/en.yml',
 	],
 	'flarum-approval' => [
 		'beta' => 'https://raw.githubusercontent.com/flarum/approval/v2.0.0-rc.7/locale/en.yml',
