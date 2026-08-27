@@ -228,7 +228,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/flarum/markdown/v2.0.0-rc.8/locale/en.yml',
 	],
 	'flarum-mentions' => [
-		'beta' => 'https://raw.githubusercontent.com/flarum/mentions/v2.0.0-rc.7/locale/en.yml',
+		'beta' => 'https://raw.githubusercontent.com/flarum/mentions/v2.0.0-rc.8/locale/en.yml',
 	],
 	'flarum-messages' => [
 		'beta' => 'https://raw.githubusercontent.com/flarum/messages/v2.0.0-rc.7/locale/en.yml',
