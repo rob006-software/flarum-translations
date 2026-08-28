@@ -2,7 +2,7 @@
     "core": {
         "admin": {
             "advanced": {
-                "description": "",
+                "description": "تنظیمات پیشرفته انجمن خود را پیکربندی کنید.",
                 "maintenance": {
                     "bisect": {
                         "begin_button_text": "",
@@ -46,7 +46,7 @@
                     "source_local": "",
                     "source_cdn": "CDN",
                     "source_kit": "",
-                    "cdn_url_label": "",
+                    "cdn_url_label": "CDN URL",
                     "cdn_url_help": "",
                     "kit_url_label": "",
                     "kit_url_help": "",
@@ -198,9 +198,9 @@
                 "load_error": "",
                 "about": "",
                 "hide": "",
-                "read_more": "",
+                "read_more": "بیشتر بخوانید",
                 "refresh": "",
-                "retry": "",
+                "retry": "دوباره تلاش کنید",
                 "show": "",
                 "title": "اعلامیه‌ها",
                 "view_all": ""
@@ -219,7 +219,7 @@
                 "details": "",
                 "retry": "",
                 "retry_all": "",
-                "delete": ""
+                "delete": "حذف"
             },
             "dashboard": {
                 "queue_paused_warning": "",
@@ -315,7 +315,7 @@
                 "format": {
                     "multipart_option": "",
                     "plain_option": "",
-                    "html_option": ""
+                    "html_option": "HTML"
                 },
                 "format_heading": "",
                 "format_help": "",
@@ -353,7 +353,7 @@
                 "configure_scopes": "پیکربندی محدوده",
                 "confirm_purge": "پاکسازی ، تمام ورودی‌های پایگاه داده و دارایی‌های مربوط به افزودنی را حذف می‌کند . این مورد افزودنی را حذف نصب نمی کند ; این مورد باید توسط Composer انجام شود . آیا اطمینان دارید که می خواهید ادامه دهید ؟",
                 "database_driver_mismatch": "",
-                "deprecated": "",
+                "deprecated": "منسوخ",
                 "disabled": "غیرفعال شد",
                 "enable_to_see": "افزونه را برای مشاهده و تغییر تنظیمات فعال کنید .",
                 "enabled": "فعال شد",
@@ -627,18 +627,18 @@
                 "meta_title_text": "=> core.ref.all_discussions",
                 "refresh_tooltip": "=> core.ref.refresh",
                 "start_discussion_button": "=> core.ref.start_a_discussion",
-                "skip_to_main_content": "",
+                "skip_to_main_content": "رفتن به محتوای اصلی",
                 "toggle_sidenav_dropdown_accessible_label": "تغییر منوی کشویی پیمایش"
             },
             "index_sort": {
-                "az_button": "",
-                "latest_button": "آخرین",
+                "az_button": "=> core.ref.title_az",
+                "latest_button": "=> core.ref.latest",
                 "newest_button": "=> core.ref.newest",
                 "oldest_button": "=> core.ref.oldest",
                 "relevance_button": "=> core.ref.relevance",
                 "toggle_dropdown_accessible_label": "تغییر مرتب‌سازی فهرست بحث",
-                "top_button": "بالا",
-                "za_button": ""
+                "top_button": "=> core.ref.top",
+                "za_button": "=> core.ref.title_za"
             },
             "log_in": {
                 "forgot_password_link": "رمزعبورتان را فراموش کردید؟",
@@ -923,13 +923,13 @@
                 "maintenance_mode_safe": ""
             },
             "index_sort": {
-                "az_button": "",
-                "latest_button": "",
-                "newest_button": "",
-                "oldest_button": "",
-                "relevance_button": "",
-                "top_button": "",
-                "za_button": ""
+                "az_button": "=> core.ref.title_az",
+                "latest_button": "=> core.ref.latest",
+                "newest_button": "=> core.ref.newest",
+                "oldest_button": "=> core.ref.oldest",
+                "relevance_button": "=> core.ref.relevance",
+                "top_button": "=> core.ref.top",
+                "za_button": "=> core.ref.title_za"
             },
             "number_suffix": {
                 "kilo_text": "K",
@@ -1181,7 +1181,7 @@
             "search_users": "جستجوی کاربر",
             "security": "امنیت",
             "settings": "تنظیمات",
-            "sign_up": "ثبت‌ نام",
+            "sign_up": "ثبت‌نام",
             "some_others": "{count, plural, one {# دیگر} other {# دیگر}}",
             "start_a_discussion": "شروع بحث جدید",
             "title_az": "",
