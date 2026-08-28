@@ -819,7 +819,7 @@ return [
 		],
 	],
 	'ramon-chat' => [
-		'tag' => 'https://raw.githubusercontent.com/ram0ng1/chat/v0.1.12/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ram0ng1/chat/v0.1.13/locale/en.yml',
 		'__builtInLanguages' => [
 			'pt_BR',
 		],
