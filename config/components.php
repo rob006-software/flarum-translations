@@ -1325,6 +1325,9 @@ return [
 	'linkrobins-link-gate' => [
 		'tag' => 'https://raw.githubusercontent.com/linkrobins/flarum-link-gate/v1.0.0/locale/en.yml',
 	],
+	'leanzo-discussion-thumbnail' => [
+		'tag' => 'https://raw.githubusercontent.com/LeanZo/discussion-thumbnail/v0.0.1/resources/locale/en.yml',
+	],
 	'litalino-adblock' => [
 		'tag' => 'https://raw.githubusercontent.com/Litalino/flarum-adblock/1.2.1/locale/en.yml',
 		'__builtInLanguages' => [
