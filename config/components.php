@@ -1355,6 +1355,12 @@ return [
 			'vi',
 		],
 	],
+	'litalino-guestengagement' => [
+		'tag' => 'https://raw.githubusercontent.com/Litalino/flarum-ext-guestengagement/1.1.0/resources/locale/en.yml',
+		'__builtInLanguages' => [
+			'vi',
+		],
+	],
 	'litalino-more-bbcode' => [
 		'tag' => 'https://raw.githubusercontent.com/Litalino/flarum-more-bbcode/2.0.0/resources/locale/en.yml',
 		'__builtInLanguages' => [
