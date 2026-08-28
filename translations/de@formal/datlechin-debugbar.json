@@ -12,9 +12,9 @@
             "filter_placeholder": "Filter…",
             "tabs": {
                 "timeline": "Zeitachse",
-                "queries": "",
+                "queries": "Anfragen",
                 "messages": "Nachrichten",
-                "request": "Anfragen",
+                "request": "Anforderungen",
                 "events": "Ereignisse",
                 "cache": "Cache",
                 "mail": "Mail",
@@ -31,23 +31,23 @@
             "errors": {
                 "expired": "Dieses Profil wird nicht mehr gespeichert. Es werden nur die letzten Anfragen aufbewahrt.",
                 "failed": "Das Profil konnte nicht geladen werden.",
-                "no_data": "Für diese Anfrage wurde nichts erfasst."
+                "no_data": "Für diese Anforderung wurde nichts erfasst."
             },
             "requests": {
-                "toggle": "Wähle eine Anfrage",
-                "none": "Keine Anfrage",
+                "toggle": "Wähle eine Anforderung",
+                "none": "Keine Anforderung",
                 "document": ""
             },
             "timeline": {
                 "total": "Insgesamt",
                 "measures": "",
                 "unfinished": "",
-                "empty": "Für diese Anfrage wurde nichts gemessen.",
+                "empty": "Für diese Anforderung wurde nichts gemessen.",
                 "spans": {
                     "flarum": {
                         "boot": "Boot",
-                        "request": "",
-                        "route": ""
+                        "request": "Middleware und Route",
+                        "route": "Routenhandler"
                     }
                 }
             },
@@ -59,16 +59,16 @@
                 "preview": "Mit Parametern",
                 "bindings": "Parameter",
                 "connection": "Verbindung",
-                "origin": "",
+                "origin": "Aufgerufen von",
                 "occurrences": "",
                 "dropped": "",
-                "empty": ""
+                "empty": "Diese Anforderung hat keine Anfragen ausgeführt."
             },
             "messages": {
                 "filter": "Nachrichten filtern…",
                 "show_trace": "Verlauf anzeigen",
                 "hide_trace": "Verlauf ausblenden",
-                "empty": "",
+                "empty": "Für diese Anforderung wurde nichts protokolliert.",
                 "levels": {
                     "debug": "Debug",
                     "info": "Info",
@@ -94,8 +94,8 @@
                     "parameters": "Routenparameter",
                     "query": "",
                     "json_api": "JSON:API",
-                    "request_headers": "",
-                    "response_headers": ""
+                    "request_headers": "Anforderungs-Header",
+                    "response_headers": "Antwort-Header"
                 }
             },
             "events": {
@@ -104,14 +104,14 @@
                 "filter": "Ereignisse filtern…",
                 "dropped": "{count} weitere Ereignisse wurden nicht gespeichert.",
                 "collapsed_title": "",
-                "collapsed_help": "",
+                "collapsed_help": "Modell- und Datenbankereignisse werden pro Anforderung hunderte Male ausgelöst. Im Bereich „Abfragen“ wird angezeigt, welche Datenbankereignisse stattgefunden haben.",
                 "empty": ""
             },
             "cache": {
                 "hit_rate": "Trefferquote",
                 "filter": "Schlüssel filtern…",
                 "dropped": "{count} weitere Operationen wurden nicht gespeichert.",
-                "empty": "",
+                "empty": "Diese Anforderung hat nicht auf den Cache zugegriffen.",
                 "types": {
                     "hit": "Treffer",
                     "miss": "Fehlschlag",
@@ -124,7 +124,7 @@
                 "count": "E-Mails",
                 "show": "Anzeigen",
                 "hide": "Verbergen",
-                "empty": "Bei dieser Anfrage wurde keine E-Mail versendet.",
+                "empty": "Bei dieser Anforderung wurde keine E-Mail versendet.",
                 "statuses": {
                     "sending": "Wird gesendet",
                     "sent": "Gesendet"
