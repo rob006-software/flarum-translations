@@ -876,6 +876,15 @@
             }
         }
     },
+    "flarum-audit.json": {
+        "flarum-audit": {
+            "lib": {
+                "browser": {
+                    "filterApply": "d41d8cd98f00b204e9800998ecf8427e 28874eef0df4abc71a6d925fd433a1f7"
+                }
+            }
+        }
+    },
     "flarum-bbcode.json": {
         "flarum-bbcode": {
             "forum": {
@@ -2325,6 +2334,18 @@
                     "ignore_confirmation": "95c786307f167b2514ed50e40d799bd8 95c786307f167b2514ed50e40d799bd8",
                     "unignore_button": "002982377cd3ab9d45ba7e2dd497395e 002982377cd3ab9d45ba7e2dd497395e",
                     "unignore_confirmation": "65b4bd292775395b21c6eda4fecf77ad 65b4bd292775395b21c6eda4fecf77ad"
+                }
+            }
+        }
+    },
+    "fof-linguist.json": {
+        "fof-linguist": {
+            "admin": {
+                "buttons": {
+                    "apply": "d41d8cd98f00b204e9800998ecf8427e 28874eef0df4abc71a6d925fd433a1f7"
+                },
+                "tabs": {
+                    "strings": "d41d8cd98f00b204e9800998ecf8427e 2ced95821179f5aa89a7b5a0ca388665"
                 }
             }
         }
