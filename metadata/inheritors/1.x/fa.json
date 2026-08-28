@@ -758,6 +758,11 @@
                         "username": {
                             "label": "d41d8cd98f00b204e9800998ecf8427e b8a9ec7a6f9502a6ec187f91d6d3068e"
                         }
+                    },
+                    "gdrive": {
+                        "client-id": {
+                            "label": "d41d8cd98f00b204e9800998ecf8427e 545e5d9a5ef5fdd748d0da8aef4e858f"
+                        }
                     }
                 },
                 "delete_button": "d41d8cd98f00b204e9800998ecf8427e 3b9854e1bb2b4b1f8b901248d9d16b3b"
@@ -2643,6 +2648,11 @@
                     }
                 },
                 "settings_accessibility_label": "1e5bdf3ce479b8ebdecb4833394a4714 1e5bdf3ce479b8ebdecb4833394a4714"
+            },
+            "ref": {
+                "settings": {
+                    "client_id": "d41d8cd98f00b204e9800998ecf8427e 545e5d9a5ef5fdd748d0da8aef4e858f"
+                }
             }
         }
     },
@@ -3306,6 +3316,19 @@
                 "table": {
                     "delete_button": "d41d8cd98f00b204e9800998ecf8427e 3b9854e1bb2b4b1f8b901248d9d16b3b",
                     "edit_button": "d41d8cd98f00b204e9800998ecf8427e af929aa6353eba94e16c8c8ed799a354"
+                }
+            }
+        }
+    },
+    "ianm-oauth-reddit.json": {
+        "fof-oauth": {
+            "admin": {
+                "settings": {
+                    "providers": {
+                        "reddit": {
+                            "client_id_label": "d41d8cd98f00b204e9800998ecf8427e 545e5d9a5ef5fdd748d0da8aef4e858f"
+                        }
+                    }
                 }
             }
         }
