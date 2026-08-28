@@ -1325,6 +1325,9 @@ return [
 	'linkrobins-link-gate' => [
 		'tag' => 'https://raw.githubusercontent.com/linkrobins/flarum-link-gate/v1.0.0/locale/en.yml',
 	],
+	'liplum-html-widget' => [
+		'tag' => 'https://raw.githubusercontent.com/liplum/flarum-html-widget/v0.1.0/locale/en.yml',
+	],
 	'litalino-adblock' => [
 		'tag' => 'https://raw.githubusercontent.com/Litalino/flarum-adblock/1.2.1/locale/en.yml',
 		'__builtInLanguages' => [
