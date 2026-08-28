@@ -833,7 +833,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/forumaker/magicslider/1.4.0/resources/locale/en.yml',
 	],
 	'forumfortress-flarum' => [
-		'tag' => 'https://raw.githubusercontent.com/forum-fortress/flarum/v1.3.6/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/forum-fortress/flarum/v1.3.7.1/locale/en.yml',
 	],
 	'foskym-activity-graph' => [
 		'tag' => 'https://raw.githubusercontent.com/FoskyM/flarum-activity-graph/v1.2.1/locale/en.yml',
