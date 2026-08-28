@@ -2,12 +2,12 @@
     "fof-oauth": {
         "lib": {
             "providers": {
-                "vk": ""
+                "vk": "VK"
             }
         },
         "forum": {
             "providers": {
-                "vk": ""
+                "vk": "VK"
             },
             "log_in": {
                 "with_vk_button": ""
@@ -18,7 +18,7 @@
                 "providers": {
                     "vk": {
                         "description": "",
-                        "client_id_label": "",
+                        "client_id_label": "شناسه مشتری",
                         "client_secret_label": ""
                     }
                 }
