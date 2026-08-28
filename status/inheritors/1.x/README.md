@@ -12,9 +12,9 @@ are fully in sync and are not listed here.
 | [Chinese (Traditional)](zh_Hant.md) (`zh_Hant`) | 33 | 199 | 6 |
 | [Dutch](nl.md) (`nl`) | 0 | 9 | 8 |
 | [Finnish](fi.md) (`fi`) | 5 | 61 | 7 |
-| [French](fr.md) (`fr`) | 124 | 1151 | 57 |
-| [German](de.md) (`de`) | 314 | 612 | 93 |
-| [German (formal)](de@formal.md) (`de@formal`) | 362 | 612 | 94 |
+| [French](fr.md) (`fr`) | 124 | 1189 | 58 |
+| [German](de.md) (`de`) | 314 | 655 | 93 |
+| [German (formal)](de@formal.md) (`de@formal`) | 362 | 655 | 94 |
 | [Hungarian](hu.md) (`hu`) | 44 | 6 | 22 |
 | [Indonesian](id.md) (`id`) | 1 | 0 | 1 |
 | [Italian](it.md) (`it`) | 0 | 1 | 1 |

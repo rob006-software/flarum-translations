@@ -2,7 +2,7 @@
 
 Translations for German (`de`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **314** are translated differently and **612** are
+sides, but do not match between them: **314** are translated differently and **655** are
 translated only in `de`. Altogether they cover **93** components.
 
 <!-- {% raw %} -->
@@ -19,7 +19,7 @@ translated only in `de`. Altogether they cover **93** components.
 | `datlechin-passkey` | [4](#datlechin-passkey) | 0 |
 | `datlechin-tag-passwords` | [13](#datlechin-tag-passwords) | 0 |
 | `ernestdefoe-aurora` | 0 | [20](#ernestdefoe-aurora-missing) |
-| `ffans-creator-declarations` | 0 | [30](#ffans-creator-declarations-missing) |
+| `ffans-creator-declarations` | 0 | [73](#ffans-creator-declarations-missing) |
 | `flarum-audit` | [1](#flarum-audit) | 0 |
 | `flarum-extension-manager` | [5](#flarum-extension-manager) | 0 |
 | `flarum-flags` | [4](#flarum-flags) | 0 |
@@ -4042,6 +4042,14 @@ These strings are translated only in `de`, so there is nothing to inherit from F
 +Originalinhalt. Vervielfältigung ohne Genehmigung untersagt
 ```
 
+#### [`ffans-creator-declarations.forum.display.personal_opinion_summary`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de/?q=context%3A%3D%22ffans-creator-declarations.forum.display.personal_opinion_summary%22)
+
+> Personal opinion, for reference only
+
+```diff
++Persönliche Meinung, nur zur Information
+```
+
 #### [`ffans-creator-declarations.forum.display.reference_notice`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de/?q=context%3A%3D%22ffans-creator-declarations.forum.display.reference_notice%22)
 
 > This content references {source}.
@@ -4066,6 +4074,30 @@ These strings are translated only in `de`, so there is nothing to inherit from F
 +Dieser Inhalt stammt von {source}.
 ```
 
+#### [`ffans-creator-declarations.forum.info_modal.author_note`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de/?q=context%3A%3D%22ffans-creator-declarations.forum.info_modal.author_note%22)
+
+> Author's note: 
+
+```diff
++Hinweis des Verfassers: 
+```
+
+#### [`ffans-creator-declarations.forum.info_modal.disclaimer`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de/?q=context%3A%3D%22ffans-creator-declarations.forum.info_modal.disclaimer%22)
+
+> The declarations have not been reviewed or verified by the forum. Please consider them alongside the post content and use your own judgment.
+
+```diff
++Die Aussagen wurden vom Forum weder geprüft noch bestätigt. Bitte betrachte sie im Zusammenhang mit dem Inhalt des Beitrags und bewerte nach eigenem Ermessen.
+```
+
+#### [`ffans-creator-declarations.forum.info_modal.explanation`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de/?q=context%3A%3D%22ffans-creator-declarations.forum.info_modal.explanation%22)
+
+> This notice was added by the author, who declared this post as “{declarations}”.
+
+```diff
++Diese Erklärung wurde vom Verfasser hinzugefügt, der diesen Beitrag als „{declarations}“ gekennzeichnet hat.
+```
+
 #### [`ffans-creator-declarations.forum.info_modal.heading`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de/?q=context%3A%3D%22ffans-creator-declarations.forum.info_modal.heading%22)
 
 > Why am I seeing this notice?
@@ -4074,12 +4106,36 @@ These strings are translated only in `de`, so there is nothing to inherit from F
 +Warum wird mir dieser Hinweis angezeigt?
 ```
 
+#### [`ffans-creator-declarations.forum.info_modal.reference`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de/?q=context%3A%3D%22ffans-creator-declarations.forum.info_modal.reference%22)
+
+> Reference: 
+
+```diff
++Referenz: 
+```
+
 #### [`ffans-creator-declarations.forum.info_modal.source`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de/?q=context%3A%3D%22ffans-creator-declarations.forum.info_modal.source%22)
 
 > Source: 
 
 ```diff
 +Quelle: 
+```
+
+#### [`ffans-creator-declarations.forum.info_modal.title`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de/?q=context%3A%3D%22ffans-creator-declarations.forum.info_modal.title%22)
+
+> About this declaration
+
+```diff
++Über diese Erklärung
+```
+
+#### [`ffans-creator-declarations.forum.modal.help`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de/?q=context%3A%3D%22ffans-creator-declarations.forum.modal.help%22)
+
+> Select the declarations that apply to this post. They only help readers understand the content and they do not represent the forum's views or constitute verification by the forum.
+
+```diff
++Wähle die Erklärungen aus, die auf diesen Beitrag zutreffen. Sie dienen lediglich dazu, den Lesern das Verständnis des Inhalts zu erleichtern, und geben weder die Ansichten des Forums wieder noch stellen sie eine Überprüfung durch das Forum dar.
 ```
 
 #### [`ffans-creator-declarations.forum.modal.link_title_placeholder`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de/?q=context%3A%3D%22ffans-creator-declarations.forum.modal.link_title_placeholder%22)
@@ -4106,12 +4162,52 @@ These strings are translated only in `de`, so there is nothing to inherit from F
 +{selected} / {max} ausgewählt
 ```
 
+#### [`ffans-creator-declarations.forum.modal.title`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de/?q=context%3A%3D%22ffans-creator-declarations.forum.modal.title%22)
+
+> Self Declarations
+
+```diff
++Eigenerklärung
+```
+
+#### [`ffans-creator-declarations.lib.categories.authenticity`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de/?q=context%3A%3D%22ffans-creator-declarations.lib.categories.authenticity%22)
+
+> Authenticity
+
+```diff
++Authentizität
+```
+
+#### [`ffans-creator-declarations.lib.categories.commercial`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de/?q=context%3A%3D%22ffans-creator-declarations.lib.categories.commercial%22)
+
+> Commercial disclosure
+
+```diff
++Offenlegung kommerzieller Interessen
+```
+
 #### [`ffans-creator-declarations.lib.categories.safety`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de/?q=context%3A%3D%22ffans-creator-declarations.lib.categories.safety%22)
 
 > Safety and content notices
 
 ```diff
 +Sicherheit und Inhaltswarnungen
+```
+
+#### [`ffans-creator-declarations.lib.categories.source`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de/?q=context%3A%3D%22ffans-creator-declarations.lib.categories.source%22)
+
+> Content source
+
+```diff
++Inhaltsherkunft
+```
+
+#### [`ffans-creator-declarations.lib.declarations.ai_generated.details_placeholder`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de/?q=context%3A%3D%22ffans-creator-declarations.lib.declarations.ai_generated.details_placeholder%22)
+
+> Optionally name the AI tool or add context
+
+```diff
++Gib optional den Namen des KI-Tools an oder füge weitere Informationen hinzu
 ```
 
 #### [`ffans-creator-declarations.lib.declarations.ai_generated.help`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de/?q=context%3A%3D%22ffans-creator-declarations.lib.declarations.ai_generated.help%22)
@@ -4128,6 +4224,254 @@ These strings are translated only in `de`, so there is nothing to inherit from F
 
 ```diff
 +KI-erstellter Inhalt
+```
+
+#### [`ffans-creator-declarations.lib.declarations.fictional.help`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de/?q=context%3A%3D%22ffans-creator-declarations.lib.declarations.fictional.help%22)
+
+> The content contains fictional events, role-play, or staged scenes.
+
+```diff
++Der Inhalt enthält fiktive Ereignisse, Rollenspiele oder inszenierte Szenen.
+```
+
+#### [`ffans-creator-declarations.lib.declarations.fictional.label`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de/?q=context%3A%3D%22ffans-creator-declarations.lib.declarations.fictional.label%22)
+
+> Fictional or staged content
+
+```diff
++Fiktive oder inszenierte Inhalte
+```
+
+#### [`ffans-creator-declarations.lib.declarations.original.help`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de/?q=context%3A%3D%22ffans-creator-declarations.lib.declarations.original.help%22)
+
+> The content was primarily created by the author and is not a direct repost. Please do not reproduce without permission.
+
+```diff
++Der Inhalt wurde überwiegend vom Autor verfasst und ist kein direkter Repost. Bitte nicht ohne Genehmigung weiterveröffentlichen.
+```
+
+#### [`ffans-creator-declarations.lib.declarations.original.label`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de/?q=context%3A%3D%22ffans-creator-declarations.lib.declarations.original.label%22)
+
+> Original content
+
+```diff
++Originalinhalt
+```
+
+#### [`ffans-creator-declarations.lib.declarations.personal_opinion.help`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de/?q=context%3A%3D%22ffans-creator-declarations.lib.declarations.personal_opinion.help%22)
+
+> This content primarily expresses the author's personal views, judgments, or experiences and does not represent universal facts or professional conclusions.
+
+```diff
++Dieser Inhalt gibt in erster Linie die persönlichen Ansichten, Einschätzungen oder Erfahrungen des Autors wieder und stellt keine allgemeingültigen Tatsachen oder fachlichen Schlussfolgerungen dar.
+```
+
+#### [`ffans-creator-declarations.lib.declarations.personal_opinion.label`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de/?q=context%3A%3D%22ffans-creator-declarations.lib.declarations.personal_opinion.label%22)
+
+> Personal opinions or perspectives
+
+```diff
++Persönliche Meinungen oder Sichtweisen
+```
+
+#### [`ffans-creator-declarations.lib.declarations.professional.details_placeholder`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de/?q=context%3A%3D%22ffans-creator-declarations.lib.declarations.professional.details_placeholder%22)
+
+> Optionally add safety information
+
+```diff
++Optional Sicherheitshinweise hinzufügen
+```
+
+#### [`ffans-creator-declarations.lib.declarations.professional.help`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de/?q=context%3A%3D%22ffans-creator-declarations.lib.declarations.professional.help%22)
+
+> Imitating this activity without suitable expertise may create a safety risk.
+
+```diff
++Das Nachahmen dieser Tätigkeit ohne entsprechende Fachkenntnisse kann ein Sicherheitsrisiko darstellen.
+```
+
+#### [`ffans-creator-declarations.lib.declarations.professional.label`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de/?q=context%3A%3D%22ffans-creator-declarations.lib.declarations.professional.label%22)
+
+> Dangerous behavior; do not imitate
+
+```diff
++Gefährliches Verhalten; bitte nicht nachmachen
+```
+
+#### [`ffans-creator-declarations.lib.declarations.reference.details_placeholder`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de/?q=context%3A%3D%22ffans-creator-declarations.lib.declarations.reference.details_placeholder%22)
+
+> Enter the original source URL (required)
+
+```diff
++Gib die Quell-URL des Originals ein (erforderlich)
+```
+
+#### [`ffans-creator-declarations.lib.declarations.reference.help`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de/?q=context%3A%3D%22ffans-creator-declarations.lib.declarations.reference.help%22)
+
+> The content references or quotes material from another author or source.
+
+```diff
++Der Inhalt bezieht sich auf Material eines anderen Autors oder einer anderen Quelle bzw. zitiert dieses.
+```
+
+#### [`ffans-creator-declarations.lib.declarations.reference.label`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de/?q=context%3A%3D%22ffans-creator-declarations.lib.declarations.reference.label%22)
+
+> Referenced or quoted content
+
+```diff
++Wiederveröffentlichter oder zitierter Inhalt
+```
+
+#### [`ffans-creator-declarations.lib.declarations.repost.details_placeholder`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de/?q=context%3A%3D%22ffans-creator-declarations.lib.declarations.repost.details_placeholder%22)
+
+> Enter the original source URL (required)
+
+```diff
++Gib die Quell-URL des Originals ein (erforderlich)
+```
+
+#### [`ffans-creator-declarations.lib.declarations.repost.help`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de/?q=context%3A%3D%22ffans-creator-declarations.lib.declarations.repost.help%22)
+
+> The content is primarily reposted from another author or source.
+
+```diff
++Der Inhalt ist überwiegend ein Wiederveröffentlichung von einem anderen Autor oder aus einer anderen Quelle.
+```
+
+#### [`ffans-creator-declarations.lib.declarations.repost.label`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de/?q=context%3A%3D%22ffans-creator-declarations.lib.declarations.repost.label%22)
+
+> Reposted content
+
+```diff
++Wiederveröffentlichter Inhalt
+```
+
+#### [`ffans-creator-declarations.lib.declarations.self_promotion.help`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de/?q=context%3A%3D%22ffans-creator-declarations.lib.declarations.self_promotion.help%22)
+
+> The content promotes products or services from the author, their organization, or third parties and may involve affiliate commissions or other compensation.
+
+```diff
++Der Inhalt wirbt für Produkte oder Dienstleistungen des Verfassers, seiner Organisation oder Dritter und kann mit Affiliate-Provisionen oder anderen Vergütungen verbunden sein.
+```
+
+#### [`ffans-creator-declarations.lib.declarations.self_promotion.label`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de/?q=context%3A%3D%22ffans-creator-declarations.lib.declarations.self_promotion.label%22)
+
+> Contains marketing or promotional information
+
+```diff
++Enthält Marketing- oder Werbeinformationen
+```
+
+#### [`ffans-creator-declarations.lib.declarations.sensitive.details_placeholder`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de/?q=context%3A%3D%22ffans-creator-declarations.lib.declarations.sensitive.details_placeholder%22)
+
+> Optionally describe the content notice
+
+```diff
++Beschreibe optional den Inhaltshinweis
+```
+
+#### [`ffans-creator-declarations.lib.declarations.sensitive.help`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de/?q=context%3A%3D%22ffans-creator-declarations.lib.declarations.sensitive.help%22)
+
+> The content may include disturbing, frightening, or sensitive descriptions.
+
+```diff
++Der Inhalt kann verstörende, beängstigende oder sensible Darstellungen enthalten.
+```
+
+#### [`ffans-creator-declarations.lib.declarations.sensitive.label`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de/?q=context%3A%3D%22ffans-creator-declarations.lib.declarations.sensitive.label%22)
+
+> Potentially disturbing
+
+```diff
++Möglicherweise verstörend
+```
+
+#### [`ffans-creator-declarations.lib.declarations.sponsored.details_placeholder`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de/?q=context%3A%3D%22ffans-creator-declarations.lib.declarations.sponsored.details_placeholder%22)
+
+> Optionally name the partner or describe the relationship
+
+```diff
++Gib optional den Namen des Partners an oder beschreibe die Beziehung
+```
+
+#### [`ffans-creator-declarations.lib.declarations.sponsored.help`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de/?q=context%3A%3D%22ffans-creator-declarations.lib.declarations.sponsored.help%22)
+
+> A third party provided payment, gifts, or another material benefit.
+
+```diff
++Ein Dritter hat Zahlungen, Geschenke oder einen anderen materiellen Vorteil gewährt.
+```
+
+#### [`ffans-creator-declarations.lib.declarations.sponsored.label`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de/?q=context%3A%3D%22ffans-creator-declarations.lib.declarations.sponsored.label%22)
+
+> Paid partnership, sponsorship, or material interest
+
+```diff
++Bezahlte Partnerschaft, Sponsoring oder materielles Interesse
+```
+
+#### [`ffans-creator-declarations.lib.validation.details_too_long`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de/?q=context%3A%3D%22ffans-creator-declarations.lib.validation.details_too_long%22)
+
+> Declaration details may not exceed 500 characters.
+
+```diff
++Die Angaben zur Erklärung dürfen 500 Zeichen nicht überschreiten.
+```
+
+#### [`ffans-creator-declarations.lib.validation.invalid_payload`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de/?q=context%3A%3D%22ffans-creator-declarations.lib.validation.invalid_payload%22)
+
+> The declaration payload is invalid.
+
+```diff
++Die Nutzdaten der Erklärung sind ungültig.
+```
+
+#### [`ffans-creator-declarations.lib.validation.invalid_selection`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de/?q=context%3A%3D%22ffans-creator-declarations.lib.validation.invalid_selection%22)
+
+> The declaration selection is invalid.
+
+```diff
++Die Auswahl der Erklärungen ist ungültig.
+```
+
+#### [`ffans-creator-declarations.lib.validation.required`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de/?q=context%3A%3D%22ffans-creator-declarations.lib.validation.required%22)
+
+> At least one declaration is required.
+
+```diff
++Mindestens eine Erklärung ist erforderlich.
+```
+
+#### [`ffans-creator-declarations.lib.validation.source_conflict`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de/?q=context%3A%3D%22ffans-creator-declarations.lib.validation.source_conflict%22)
+
+> Original, reposted, and referenced content declarations cannot be selected at the same time.
+
+```diff
++Die Optionen „Originalinhalt“, „wiederveröffentlicht“ und „zitiert“ können nicht gleichzeitig ausgewählt werden.
+```
+
+#### [`ffans-creator-declarations.lib.validation.source_url_required`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de/?q=context%3A%3D%22ffans-creator-declarations.lib.validation.source_url_required%22)
+
+> A valid source URL is required for reposted or referenced content.
+
+```diff
++Für wiederveröffentlichte oder zitierte Inhalte ist eine gültige Quell-URL erforderlich.
+```
+
+#### [`ffans-creator-declarations.lib.validation.title_too_long`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de/?q=context%3A%3D%22ffans-creator-declarations.lib.validation.title_too_long%22)
+
+> The link name may not exceed 100 characters.
+
+```diff
++Der Name des Links darf nicht länger als 100 Zeichen sein.
+```
+
+#### [`ffans-creator-declarations.lib.validation.too_many`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de/?q=context%3A%3D%22ffans-creator-declarations.lib.validation.too_many%22)
+
+> Too many declarations were selected.
+
+```diff
++Es wurden zu viele Erklärungen ausgewählt.
 ```
 
 
