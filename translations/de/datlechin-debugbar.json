@@ -1,51 +1,51 @@
 {
     "datlechin-debugbar": {
         "lib": {
-            "expand": "",
-            "collapse": "",
-            "resize": "",
-            "empty": "",
-            "no_matches": "",
-            "blank": "",
-            "yes": "",
-            "no": "",
-            "filter_placeholder": "",
+            "expand": "Debugleiste anzeigen",
+            "collapse": "Debugleiste verbergen",
+            "resize": "Größe der Debugleiste anpassen",
+            "empty": "Nichts aufgezeichnet.",
+            "no_matches": "Nichts trifft darauf zu.",
+            "blank": "leer",
+            "yes": "Ja",
+            "no": "Nein",
+            "filter_placeholder": "Filter…",
             "tabs": {
-                "timeline": "",
+                "timeline": "Zeitachse",
                 "queries": "",
-                "messages": "",
-                "request": "",
-                "events": "",
-                "cache": "",
-                "mail": "",
-                "settings": "",
-                "extensions": "",
-                "environment": ""
+                "messages": "Nachrichten",
+                "request": "Anfragen",
+                "events": "Ereignisse",
+                "cache": "Cache",
+                "mail": "Mail",
+                "settings": "Einstellungen",
+                "extensions": "Erweiterungen",
+                "environment": "Umgebung"
             },
             "summary": {
-                "duration": "",
-                "queries": "",
-                "memory": "",
-                "round_trip": ""
+                "duration": "Auf dem Server verbrachte Zeit",
+                "queries": "Datenbankabfragen",
+                "memory": "Maximal genutzter Speicher",
+                "round_trip": "Round-Trip-Zeit, gemessen im Browser"
             },
             "errors": {
-                "expired": "",
-                "failed": "",
-                "no_data": ""
+                "expired": "Dieses Profil wird nicht mehr gespeichert. Es werden nur die letzten Anfragen aufbewahrt.",
+                "failed": "Das Profil konnte nicht geladen werden.",
+                "no_data": "Für diese Anfrage wurde nichts erfasst."
             },
             "requests": {
-                "toggle": "",
-                "none": "",
+                "toggle": "Wähle eine Anfrage",
+                "none": "Keine Anfrage",
                 "document": ""
             },
             "timeline": {
-                "total": "",
+                "total": "Insgesamt",
                 "measures": "",
                 "unfinished": "",
-                "empty": "",
+                "empty": "Für diese Anfrage wurde nichts gemessen.",
                 "spans": {
                     "flarum": {
-                        "boot": "",
+                        "boot": "Boot",
                         "request": "",
                         "route": ""
                     }
@@ -53,47 +53,47 @@
             },
             "queries": {
                 "count": "",
-                "duration": "",
-                "duplicates": "",
+                "duration": "Gesamtzeit",
+                "duplicates": "Dopplungen",
                 "filter": "",
-                "preview": "",
-                "bindings": "",
-                "connection": "",
+                "preview": "Mit Parametern",
+                "bindings": "Parameter",
+                "connection": "Verbindung",
                 "origin": "",
                 "occurrences": "",
                 "dropped": "",
                 "empty": ""
             },
             "messages": {
-                "filter": "",
-                "show_trace": "",
-                "hide_trace": "",
+                "filter": "Nachrichten filtern…",
+                "show_trace": "Verlauf anzeigen",
+                "hide_trace": "Verlauf ausblenden",
                 "empty": "",
                 "levels": {
-                    "debug": "",
-                    "info": "",
-                    "warning": "",
-                    "error": ""
+                    "debug": "Debug",
+                    "info": "Info",
+                    "warning": "Warnung",
+                    "error": "Fehler"
                 }
             },
             "request": {
-                "method": "",
-                "uri": "",
-                "status": "",
-                "route": "",
-                "handler": "",
+                "method": "Methode",
+                "uri": "URI",
+                "status": "Status",
+                "route": "Route",
+                "handler": "Handler",
                 "internal": "",
-                "user": "",
-                "guest": "",
-                "admin": "",
-                "groups": "",
+                "user": "Benutzer",
+                "guest": "Gast",
+                "admin": "Administrator",
+                "groups": "Gruppen",
                 "authentication": "",
                 "sections": {
-                    "overview": "",
-                    "actor": "",
-                    "parameters": "",
+                    "overview": "Übersicht",
+                    "actor": "Akteur",
+                    "parameters": "Routenparameter",
                     "query": "",
-                    "json_api": "",
+                    "json_api": "JSON:API",
                     "request_headers": "",
                     "response_headers": ""
                 }
@@ -101,83 +101,83 @@
             "events": {
                 "count": "",
                 "listed": "",
-                "filter": "",
-                "dropped": "",
+                "filter": "Ereignisse filtern…",
+                "dropped": "{count} weitere Ereignisse wurden nicht gespeichert.",
                 "collapsed_title": "",
                 "collapsed_help": "",
                 "empty": ""
             },
             "cache": {
-                "hit_rate": "",
-                "filter": "",
-                "dropped": "",
+                "hit_rate": "Trefferquote",
+                "filter": "Schlüssel filtern…",
+                "dropped": "{count} weitere Operationen wurden nicht gespeichert.",
                 "empty": "",
                 "types": {
-                    "hit": "",
-                    "miss": "",
+                    "hit": "Treffer",
+                    "miss": "Fehlschlag",
                     "write": "",
                     "forget": "",
                     "flush": ""
                 }
             },
             "mail": {
-                "count": "",
-                "show": "",
-                "hide": "",
-                "empty": "",
+                "count": "E-Mails",
+                "show": "Anzeigen",
+                "hide": "Verbergen",
+                "empty": "Bei dieser Anfrage wurde keine E-Mail versendet.",
                 "statuses": {
-                    "sending": "",
-                    "sent": ""
+                    "sending": "Wird gesendet",
+                    "sent": "Gesendet"
                 },
                 "headers": {
-                    "from": "",
-                    "to": "",
-                    "cc": "",
-                    "bcc": "",
-                    "reply_to": ""
+                    "from": "Von",
+                    "to": "An",
+                    "cc": "Cc",
+                    "bcc": "Bcc",
+                    "reply_to": "Antwort an"
                 }
             },
             "settings": {
-                "count": "",
-                "groups": "",
-                "filter": "",
+                "count": "Einstellungen",
+                "groups": "Gruppen",
+                "filter": "Schlüssel filtern…",
                 "redacted": "",
-                "empty": ""
+                "empty": "Keine Einstellungen sind gespeichert."
             },
             "extensions": {
-                "enabled": "",
-                "installed": "",
-                "filter": "",
-                "empty": "",
+                "enabled": "Aktiviert",
+                "installed": "Installiert",
+                "filter": "Erweiterungen filtern…",
+                "empty": "Es sind keine Erweiterungen installiert.",
                 "columns": {
-                    "id": "",
-                    "title": "",
-                    "version": "",
+                    "id": "Erweiterung",
+                    "title": "Name",
+                    "version": "Version",
                     "dependencies": ""
                 }
             },
             "environment": {
                 "empty": "",
                 "groups": {
-                    "flarum": "",
-                    "php": "",
-                    "drivers": ""
+                    "flarum": "Flarum",
+                    "php": "PHP",
+                    "drivers": "Treiber"
                 },
                 "keys": {
-                    "version": "",
-                    "url": "",
-                    "debug": "",
-                    "maintenance": "",
-                    "sapi": "",
-                    "memory_limit": "",
-                    "max_execution_time": "",
-                    "opcache": "",
-                    "timezone": "",
-                    "database": "",
-                    "cache": "",
-                    "queue": "",
-                    "session": "",
-                    "mail": ""
+                    "version": "Version",
+                    "url": "URL",
+                    "debug": "Debugmodus",
+                    "maintenance": "Wartung",
+                    "sapi": "Oberfläche",
+                    "memory_limit": "Speicherlimit",
+                    "max_execution_time": "Maximale Ausführungsdauer",
+                    "opcache": "OPcache",
+                    "timezone": "Zeitzone",
+                    "database": "Datenbank",
+                    "cache": "Cache",
+                    "queue": "Warteschlange",
+                    "session": "Sitzung",
+                    "mail": "Mail"
                 }
             }
         },
@@ -199,11 +199,11 @@
                 "help": ""
             },
             "collectors": {
-                "label": "",
-                "help": ""
+                "label": "Paneele",
+                "help": "Schalte alles aus, was du nicht benötigst. Ein ausgeschaltetes Paneel sammelt überhaupt nichts, nicht einmal einen Listener, und verursacht daher keine Kosten."
             },
             "storage": {
-                "label": "",
+                "label": "Gespeicherte Anfragen",
                 "help": "",
                 "clear": "",
                 "cleared": ""
