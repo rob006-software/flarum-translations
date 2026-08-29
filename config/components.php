@@ -935,6 +935,9 @@ return [
 			'th',
 		],
 	],
+	'thesilwar-copy-code-to-clipboard' => [
+		'tag' => 'https://raw.githubusercontent.com/thesilwar/flarum-ext-copy-code-to-clipboard/v2.3.0/locale/en.yml',
+	],
 	'tryhackx-advanced-pages' => [
 		'tag' => 'https://raw.githubusercontent.com/TryHackX/flarum-advanced-pages/2.3.1/resources/locale/en.yml',
 		'__builtInLanguages' => [
