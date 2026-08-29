@@ -42,80 +42,80 @@
                 "fontawesome": {
                     "section_label": "FontAwesome ikoner",
                     "source_label": "Ikonkälla",
-                    "source_help": "",
-                    "source_local": "",
-                    "source_cdn": "",
-                    "source_kit": "",
-                    "cdn_url_label": "",
-                    "cdn_url_help": "",
-                    "kit_url_label": "",
-                    "kit_url_help": "",
-                    "forced_style_label": "",
-                    "forced_style_help": "",
+                    "source_help": "Välj hur FontAwesome-ikoner ska läsas in. Lokal använder lokala typsnitt, CDN läser in från ett CDN och Kit använder FontAwesome Kits med anpassade ikoner.",
+                    "source_local": "Lokal (paketerad)",
+                    "source_cdn": "CDN",
+                    "source_kit": "FontAwesome Kit",
+                    "cdn_url_label": "CDN URL",
+                    "cdn_url_help": "Fullständig URL till FontAwesome-CSS-filen på ett CDN",
+                    "kit_url_label": "Kit URL",
+                    "kit_url_help": "URL:en till ditt FontAwesome Kit-skript (från kit.fontawesome.com)",
+                    "forced_style_label": "Tvingad ikonstil",
+                    "forced_style_help": "Tvinga alla ikoner att använda en viss FontAwesome-stil, t.ex. \"fa-duotone fa-light\" eller \"fa-regular\". Detta ersätter stilen som angetts av kärnan och tilläggen (varumärkesikoner ändras aldrig). Ikonkällan måste ha stöd för den valda stilen: de medföljande ikonerna kommer från FontAwesome Free, som endast omfattar ett fåtal hundra ikoner utöver stilen \"solid\"; att tvinga fram en annan stil gör därför att de flesta ikoner inte visas. Alla stilar är tillgängliga via FontAwesome Pro CDN eller Kit. Lämna tomt för att inaktivera.",
                     "config_override": {
-                        "label": "",
-                        "help": ""
+                        "label": "Åsidosättning av konfiguration",
+                        "help": "FontAwesome-inställningarna är för närvarande konfigurerade i filen config.php och kan inte ändras här."
                     },
                     "preview": {
-                        "button": "",
-                        "label": "",
-                        "help": "",
-                        "fa5_fa6_label": "",
-                        "fa7_label": "",
-                        "pro_label": ""
+                        "button": "Förhandsgranska ikoner",
+                        "label": "Förhandsgranskning av ikoner",
+                        "help": "Kontrollera din FontAwesome-konfiguration. En korrekt visad ikon innebär att tier är tillgänglig; en trasig ikon (en ruta) innebär att den inte har laddats.",
+                        "fa5_fa6_label": "FA5/FA6 aliaser",
+                        "fa7_label": "FA7 klasser",
+                        "pro_label": "Enbart Pro"
                     }
                 },
                 "pgsql": {
-                    "search_configuration": ""
+                    "search_configuration": "Sök konfiguration att användas"
                 },
                 "queue": {
-                    "pause_label": "",
-                    "pause_all_label": "",
-                    "pause_queue_label": "",
-                    "pause_help": "",
-                    "section_label": "",
-                    "sync_info": "",
-                    "sync_help": "",
-                    "custom_driver": "",
-                    "retries_label": "",
-                    "retries_help": "",
-                    "memory_label": "",
-                    "memory_help": "",
-                    "timeout_label": "",
-                    "timeout_help": "",
-                    "rest_label": "",
-                    "rest_help": "",
-                    "backoff_label": "",
-                    "backoff_help": ""
+                    "pause_label": "Pausa köbearbetning",
+                    "pause_all_label": "Pausa alla köer",
+                    "pause_queue_label": "Pausa kön {queue}",
+                    "pause_help": "Under pausen slutar workers att hämta nya jobb från de berörda köerna – jobben ackumuleras tills bearbetningen återupptas. Jobb som redan pågår påverkas inte.",
+                    "section_label": "Kö",
+                    "sync_info": "Ditt forum använder drivrutinen för synkron köhantering. Jobb bearbetas omedelbart i huvudprocessens tråd.",
+                    "sync_help": "För bättre prestanda och användarupplevelse, överväg att använda databasdrivrutinen för köer. Läs mer i dokumentationen.",
+                    "custom_driver": "Ditt forum använder ködrivrutinen {driver}, som tillhandahålls av ett tillägg.",
+                    "retries_label": "Försök i jobb",
+                    "retries_help": "Maximalt antal försök för ett jobb innan det markeras som misslyckat. Standardvärdet är 1.",
+                    "memory_label": "Minnesgräns (MB)",
+                    "memory_help": "Maximalt minne som köarbetaren kan använda innan den startas om. Standardvärdet är 128 MB.",
+                    "timeout_label": "Tidsgräns för jobb (sekunder)",
+                    "timeout_help": "Maximal tid som ett enskilt jobb kan köras innan tidsgränsen nås. Standardvärdet är 60 sekunder.",
+                    "rest_label": "Vilotid (sekunder)",
+                    "rest_help": "Väntetid mellan bearbetningsjobb. Standardvärdet är 0 sekunder.",
+                    "backoff_label": "Väntetid (sekunder)",
+                    "backoff_help": "Väntetid innan ett misslyckat jobb körs på nytt. Standardvärdet är 0 sekunder."
                 },
                 "search": {
-                    "section_label": "",
-                    "driver_heading": "",
-                    "driver_text": "",
+                    "section_label": "Sök efter drivrutiner",
+                    "driver_heading": "Sök drivrutin: {model}",
+                    "driver_text": "Välj en drivrutin som ska användas för att söka i denna modell.",
                     "driver_options": {
-                        "default": ""
+                        "default": "Standardsökning i databasen"
                     },
-                    "no_other_drivers": "",
-                    "cjk_mode_label": "",
-                    "cjk_mode_help": ""
+                    "no_other_drivers": "Det finns inga sökdrivrutiner tillgängliga än. Installera ett tillägg för sökdrivrutiner för att kunna konfigurera det.",
+                    "cjk_mode_label": "Optimera sökning för CJK-språk",
+                    "cjk_mode_help": "Aktivera detta om ditt forum främst är på kinesiska, japanska eller koreanska. Databasens ordbaserade sökfunktion kan inte matcha delar av CJK-text; detta alternativ byter därför till sökning på delsträngar, vilket klarar av detta. Funktionen är långsammare på mycket stora forum, där det är snabbare att konfigurera en CJK-anpassad fulltexttolk på databasnivå (exempelvis MySQL/MariaDB:s ngram-tolk)."
                 },
-                "title": ""
+                "title": "Avancerad"
             },
             "appearance": {
-                "allow_user_color_scheme_label": "",
-                "colored_header_label": "Färgat Sidhuvud",
+                "allow_user_color_scheme_label": "Låt användarna välja sitt eget färgschema",
+                "colored_header_label": "Färgat sidhuvud",
                 "colors_heading": "Färger",
                 "colors_primary_label": "Primär färg",
                 "colors_secondary_label": "Sekundär färg",
-                "colors_text": "Välj två grundfärger för ditt forum. Den första kommer att användas som markeringsfärg, medan den andra kommer användas som bakgrundfärg för olika element.",
+                "colors_text": "Välj två grundfärger för ditt forum. Den första kommer att användas som markeringsfärg, medan den andra kommer användas som bakgrundsfärg för olika element.",
                 "custom_footer_heading": "Anpassad sidfot",
                 "custom_footer_text": "=> core.ref.custom_footer_text",
-                "custom_header_heading": "Anpassat Sidhuvud",
+                "custom_header_heading": "Anpassat sidhuvud",
                 "custom_header_text": "=> core.ref.custom_header_text",
                 "custom_styles_cannot_use_less_features": "Funktionerna @import och data-uri är inte tillåtna i anpassad LESS.",
-                "custom_styles_heading": "Anpassad Sidstil",
+                "custom_styles_heading": "Anpassad sidstil",
                 "custom_styles_text": "Ändra ditt forums utseende genom att lägga till egen LESS/CSS-kod som skriver över Flarums standardutseende.",
-                "description": "Customize your forum's colors, logos, and other variables.",
+                "description": "Anpassa forumets färger, logotyper och andra variabler.",
                 "edit_css_button": "Redigera anpassad CSS",
                 "edit_footer_button": "=> core.ref.custom_footer_title",
                 "edit_header_button": "=> core.ref.custom_header_title",
@@ -124,39 +124,39 @@
                 "favicon_text": "Ladda upp en bild som kommer att visas som forumets bokmärkesikon.",
                 "logo_heading": "Logotyp",
                 "logo_text": "Ladda upp en bild som kommer att visas istället för forumets titel.",
-                "logo_dark_mode_heading": "",
-                "logo_dark_mode_text": "",
-                "show_theme_selector_help": "",
-                "show_theme_selector_label": "",
+                "logo_dark_mode_heading": "Logotyp för mörkt läge",
+                "logo_dark_mode_text": "Ladda upp en alternativ logotyp som ska visas när mörkt läge är aktiverat.",
+                "show_theme_selector_help": "Låt användare växla mellan tillgängliga färgscheman via ett reglage i sidhuvudet.",
+                "show_theme_selector_label": "Visa temaväljare",
                 "title": "Utseende",
-                "color_scheme_label": "",
+                "color_scheme_label": "Färgschema (standard)",
                 "color_schemes": {
-                    "auto_mode_label": "",
-                    "dark_hc_mode_label": "",
-                    "dark_mode_label": "",
-                    "light_hc_mode_label": "",
-                    "light_mode_label": ""
+                    "auto_mode_label": "Användarsystem eller konfigurerad preferens",
+                    "dark_hc_mode_label": "=> core.ref.dark_hc_mode_label",
+                    "dark_mode_label": "=> core.ref.dark_mode_label",
+                    "light_hc_mode_label": "=> core.ref.light_hc_mode_label",
+                    "light_mode_label": "=> core.ref.light_mode_label"
                 }
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
                 "default_language_heading": "Standardspråk",
-                "description": "Set your forum title, language, and other basic settings.",
+                "description": "Ange forumets titel, språk och andra grundläggande inställningar.",
                 "display_name_driver_options": {
-                    "username": ""
+                    "username": "Användarnamn"
                 },
-                "display_name_heading": "User Display Name",
-                "display_name_text": "Select the driver that should be used for users' display names. By default, the username is shown.",
+                "display_name_heading": "Användarens visningsnamn",
+                "display_name_text": "Välj den drivrutin som ska användas för användarnas visningsnamn. Som standard visas användarnamnet.",
                 "avatar_driver_options": {
-                    "default": ""
+                    "default": "Standard"
                 },
-                "avatar_driver_heading": "",
-                "avatar_driver_text": "",
+                "avatar_driver_heading": "Användaravatar",
+                "avatar_driver_text": "Välj en drivrutin som ska användas för användaravatarer när ingen användaruppladdad avatar finns tillgänglig. Som standard visas ingen avatar om användaren inte har laddat upp någon.",
                 "forum_description_heading": "Forumbeskrivning",
-                "forum_description_text": "Beskriv ditt community med en kort mening eller två. Det här kommer att synas i metataggarna och dyka upp i sökmotorer.",
-                "forum_title_heading": "Forum Title",
+                "forum_description_text": "Beskriv ditt forum med en kort mening eller två. Det här kommer att synas i metataggarna och dyka upp i sökmotorer.",
+                "forum_title_heading": "Forumtitel",
                 "home_page_heading": "Startsida",
-                "home_page_text": "Välj vilken sida som ska vara den första som användarna ser när de besöker ditt forum. Om du anger en anpassad länk, använd en sökväg som är relativ till forumets root.",
+                "home_page_text": "Välj den sida som användarna ser först när de besöker ditt forum.",
                 "show_language_selector_label": "Visa språkväljare",
                 "slug_driver_options": {
                     "discussions": {
