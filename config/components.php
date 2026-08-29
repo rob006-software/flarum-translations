@@ -193,6 +193,9 @@ return [
 	],
 	'ffans-creator-declarations' => [
 		'tag' => 'https://raw.githubusercontent.com/FFans/creator-declarations/v0.2.3/locale/en.yml',
+		'__builtInLanguages' => [
+			'zh_Hans',
+		],
 	],
 	'flarum-akismet' => [
 		'beta' => 'https://raw.githubusercontent.com/flarum/akismet/v2.0.0-rc.8/locale/en.yml',
