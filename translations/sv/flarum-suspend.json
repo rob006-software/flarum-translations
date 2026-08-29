@@ -25,7 +25,7 @@
                 "not_suspended_label": "Inte avstängd",
                 "placeholder_optional": "Valfri",
                 "reason": "Orsak till avstängning",
-                "status_heading": "Avstängningens status",
+                "status_heading": "Status för avstängning",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "Stäng av {username}"
             },
@@ -37,23 +37,23 @@
             }
         },
         "email": {
-            "no_reason_given": "",
+            "no_reason_given": "Ingen anledning angavs till denna avstängning.",
             "suspended": {
-                "subject": "",
+                "subject": "Ditt konto har stängts av",
                 "plain": {
-                    "body": ""
+                    "body": "Du har blivit avstängd av följande anledning:\n\n---\n{suspension_message}\n---\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "Du har stängts av från {forumTitle} av följande anledning:"
                 }
             },
             "unsuspended": {
-                "subject": "",
+                "subject": "Ditt konto har återaktiverats",
                 "plain": {
-                    "body": ""
+                    "body": "Din avstängning har hävts. Du kan återvända till forumet genom att klicka på följande länk:\n\n{forum_url}\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "Din avstängning har hävts. Du kan återvända till [{forumTitle}]({forum_url}) när du är redo."
                 }
             }
         },
@@ -61,7 +61,7 @@
             "gambits": {
                 "users": {
                     "suspended": {
-                        "key": ""
+                        "key": "avstängd"
                     }
                 }
             }
@@ -71,8 +71,8 @@
         "lib": {
             "browser": {
                 "user": {
-                    "suspended": "",
-                    "unsuspended": ""
+                    "suspended": "Stängde av {username} till {until}",
+                    "unsuspended": "Avstängningen för {username} har hävts"
                 }
             }
         }
