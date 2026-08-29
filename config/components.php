@@ -192,7 +192,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/typesense/v0.2.1/locale/en.yml',
 	],
 	'ffans-creator-declarations' => [
-		'tag' => 'https://raw.githubusercontent.com/FFans/creator-declarations/v0.2.2/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FFans/creator-declarations/v0.2.3/locale/en.yml',
 	],
 	'flarum-akismet' => [
 		'beta' => 'https://raw.githubusercontent.com/flarum/akismet/v2.0.0-rc.8/locale/en.yml',
