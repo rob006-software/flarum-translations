@@ -3,64 +3,64 @@
         "admin": {
             "settings": {
                 "configuration_title": "Options de configuration",
-                "configuration_button_title": "",
-                "text_help": "",
+                "configuration_button_title": "Lien « En savoir plus »",
+                "text_help": "Le texte affiché aux visiteurs se trouve dans les fichiers de langue de cette extension ; il peut donc\nêtre traduit. Vous pouvez le remplacer à l'aide de FoF Linguist ou d'un pack de langue.\n",
                 "learnMoreLinkUrl": "Lien",
-                "learnMoreLinkUrl_help": "",
-                "appearance_title": "",
-                "layout": "",
-                "layout_help": "",
-                "position": "",
-                "equalWeightButtons": "",
-                "equalWeightButtons_help": "",
-                "colors_help": "",
-                "catchall_title": "",
+                "learnMoreLinkUrl_help": "Laissez ce champ vide pour masquer le lien.",
+                "appearance_title": "Apparence",
+                "layout": "Mise en page",
+                "layout_help": "Contrôle la forme de la bannière de consentement.",
+                "position": "Position",
+                "equalWeightButtons": "Accorder le même poids aux deux boutons",
+                "equalWeightButtons_help": "Recommandé. Le fait de présenter les boutons « Accepter » et « Refuser » de manière identique évite d'inciter les visiteurs à accepter.",
+                "colors_help": "La bannière s'adapte au thème de votre forum, y compris en mode sombre. Définissez une couleur\nuniquement pour la remplacer ; laissez le champ vide pour hériter de la couleur par défaut.\n",
+                "catchall_title": "Cookies non déclarés",
                 "sweepUndeclared": "",
                 "sweepUndeclared_help": "",
-                "allowedCookies": "",
+                "allowedCookies": "Ne jamais supprimer ces cookies",
                 "allowedCookies_help": "",
                 "theme_popup_title": "Couleurs de la fenêtre contextuelle",
                 "backgroundColor": "Arrière-plan",
                 "textColor": "Texte",
-                "theme_dismiss_title": "",
+                "theme_dismiss_title": "Couleurs des boutons",
                 "buttonBackgroundColor": "Arrière-plan",
                 "buttonTextColor": "Texte",
                 "layouts": {
-                    "box": "",
-                    "box_wide": "",
+                    "box": "Boîte",
+                    "box_wide": "Boîte (large)",
                     "box_inline": "",
                     "cloud": "",
                     "cloud_inline": "",
-                    "bar": "",
+                    "bar": "Barre",
                     "bar_inline": ""
                 },
                 "positions": {
-                    "top_left": "",
-                    "top_center": "",
-                    "top_right": "",
-                    "middle_left": "",
-                    "middle_center": "",
-                    "middle_right": "",
-                    "bottom_left": "",
-                    "bottom_center": "",
-                    "bottom_right": ""
+                    "top_left": "En haut à gauche",
+                    "top_center": "En haut au centre",
+                    "top_right": "En haut à droite",
+                    "middle_left": "Au milieu, à gauche",
+                    "middle_center": "Au milieu, au centre",
+                    "middle_right": "Au milieu, à droite",
+                    "bottom_left": "En bas à gauche",
+                    "bottom_center": "En bas au centre",
+                    "bottom_right": "En bas à droite"
                 }
             }
         },
         "forum": {
             "banner": {
-                "description": "",
-                "accept": "",
-                "decline": "",
-                "preferences": "",
-                "learn_more": ""
+                "description": "Ce site utilise des cookies. Vous pouvez gérer vos préférences ou accepter tous les cookies.",
+                "accept": "Accepter",
+                "decline": "Décliner",
+                "preferences": "Gérer vos préférences",
+                "learn_more": "En savoir plus"
             },
             "preferences": {
-                "title": "",
-                "save": "",
-                "description": "",
+                "title": "Préférences en matière de cookies",
+                "save": "Enregistrer vos préférences",
+                "description": "Les cookies sont de petits fichiers que ce site stocke dans votre navigateur. Découvrez ci-dessous ce qui est stocké et pourquoi. Vous pouvez modifier votre choix à tout moment.",
                 "cookie_table": {
-                    "name": "",
+                    "name": "Cookie",
                     "description": ""
                 }
             },
@@ -76,7 +76,7 @@
                     "description": ""
                 },
                 "analytics": {
-                    "title": "",
+                    "title": "Analyses",
                     "description": ""
                 },
                 "marketing": {
