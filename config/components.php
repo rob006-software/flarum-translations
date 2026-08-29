@@ -663,7 +663,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/linkrobins/flarum-discussion-banners/v2.0.2/locale/en.yml',
 	],
 	'linkrobins-font-sizer' => [
-		'tag' => 'https://raw.githubusercontent.com/linkrobins/font-sizer/v1.5.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/linkrobins/font-sizer/v1.6.0/locale/en.yml',
 	],
 	'linkrobins-forage' => [
 		'tag' => 'https://raw.githubusercontent.com/linkrobins/flarum-forage/v1.2.2/locale/en.yml',
