@@ -491,7 +491,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FFans/clipboardjs/v1.0.0/resources/locale/en.yml',
 	],
 	'ffans-creator-declarations' => [
-		'tag' => 'https://raw.githubusercontent.com/FFans/creator-declarations/v0.1.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FFans/creator-declarations/v0.1.1/locale/en.yml',
 	],
 	'ffans-geetest' => [
 		'tag' => 'https://raw.githubusercontent.com/FFans/geetest/v1.1.0/resources/locale/en.yml',
