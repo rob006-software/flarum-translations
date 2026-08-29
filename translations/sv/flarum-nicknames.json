@@ -3,25 +3,25 @@
         "admin": {
             "basics": {
                 "display_name_driver_options": {
-                    "nickname": ""
+                    "nickname": "Smeknamn"
                 }
             },
             "permissions": {
                 "edit_own_nickname_label": "Ändra ditt egna nickname"
             },
             "settings": {
-                "max_label": "Maximum nickname length",
-                "min_label": "Minimum nickname length",
-                "random_username_label": "",
-                "random_username_help": "",
-                "regex_label": "Regular expression for validation",
-                "set_on_registration_label": "",
-                "unique_label": "Require unique nicknames?"
+                "max_label": "Maximal längd på smeknamn",
+                "min_label": "Minsta längd för smeknamn",
+                "random_username_label": "Slumpa användarnamn",
+                "random_username_help": "Detta döljer inmatningsfältet för `användarnamn` vid registrering och använder ett slumpvalt nummer istället. Det gör även fältet `smeknamn` obligatoriskt. Detta träder endast i kraft om alternativet för att tillåta smeknamn vid registrering är aktiverat.",
+                "regex_label": "Reguljärt uttryck för validering",
+                "set_on_registration_label": "Tillåt inställning av smeknamn vid registrering",
+                "unique_label": "Kräv unika smeknamn"
             },
-            "wrong_driver": "You must select \"nickname\" as the display name driver on the <a><strong>Basics Page</strong></a> for this extension to take effect."
+            "wrong_driver": "Du måste välja ”smeknamn” som drivrutin för visningsnamn på <a><strong>grundinställningssidan</strong></a> för att tillägget ska börja fungera."
         },
         "api": {
-            "invalid_nickname_message": "This nickname is invalid. Please contact your forum administrator for more information on nickname rules."
+            "invalid_nickname_message": "Detta smeknamn är ogiltigt. Vänligen kontakta forumadministratören för mer information om reglerna för smeknamn."
         },
         "forum": {
             "change_nickname": {
@@ -36,19 +36,19 @@
                 "change_nickname_button": "=> flarum-nicknames.ref.change_nickname"
             },
             "sign_up": {
-                "nickname_placeholder": ""
+                "nickname_placeholder": "=> flarum-nicknames.ref.nickname"
             }
         },
         "ref": {
             "change_nickname": "Ändra Nickname",
-            "nickname": ""
+            "nickname": "Smeknamn"
         }
     },
     "flarum-audit": {
         "lib": {
             "browser": {
                 "user": {
-                    "nickname_changed": ""
+                    "nickname_changed": "Ändrade {username}s smeknamn från {old_nickname} till {new_nickname}"
                 }
             }
         }
