@@ -847,6 +847,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`fof-categories`](https://weblate.rob006.net/projects/flarum2/fof-categories) | [`fof/categories`](https://github.com/FriendsOfFlarum/categories) |
 | [`fof-checklist`](https://weblate.rob006.net/projects/flarum2/fof-checklist) | [`fof/checklist`](https://github.com/FriendsOfFlarum/checklist) |
 | [`fof-clockwork`](https://weblate.rob006.net/projects/flarum2/fof-clockwork) | [`fof/clockwork`](https://github.com/FriendsOfFlarum/clockwork) |
+| [`fof-cookie-consent`](https://weblate.rob006.net/projects/flarum2/fof-cookie-consent) | [`fof/cookie-consent`](https://github.com/FriendsOfFlarum/cookie-consent) |
 | [`fof-default-group`](https://weblate.rob006.net/projects/flarum2/fof-default-group) | [`fof/default-group`](https://github.com/FriendsOfFlarum/default-group) |
 | [`fof-default-user-preferences`](https://weblate.rob006.net/projects/flarum2/fof-default-user-preferences) | [`fof/default-user-preferences`](https://github.com/FriendsOfFlarum/default-user-preferences) |
 | [`fof-discussion-templates`](https://weblate.rob006.net/projects/flarum2/fof-discussion-templates) | [`fof/discussion-templates`](https://github.com/FriendsOfFlarum/discussion-templates) |
@@ -966,6 +967,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`ernestdefoe-maintenance`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-maintenance) | [`ernestdefoe/maintenance`](https://github.com/ernestdefoe/maintenance) |
 | [`ernestdefoe-mobile-tab`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-mobile-tab) | [`ernestdefoe/mobile-tab`](https://github.com/ernestdefoe/mobiletab) |
 | [`ernestdefoe-onair`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-onair) | [`ernestdefoe/onair`](https://github.com/ernestdefoe/onair) |
+| [`ernestdefoe-opensearch`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-opensearch) | [`ernestdefoe/opensearch`](https://github.com/ernestdefoe/opensearch) |
 | [`ernestdefoe-respawn`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-respawn) | [`ernestdefoe/respawn`](https://github.com/ernestdefoe/respawn) |
 | [`ernestdefoe-roleplay`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-roleplay) | [`ernestdefoe/roleplay`](https://github.com/ernestdefoe/roleplay) |
 | [`ernestdefoe-seo`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-seo) | [`ernestdefoe/seo`](https://github.com/ernestdefoe/seo) |
@@ -989,6 +991,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`forumaker-yandex-smartcaptcha`](https://weblate.rob006.net/projects/flarum2/forumaker-yandex-smartcaptcha) | [`forumaker/yandex-smartcaptcha`](https://github.com/forumaker/Yandex-SmartCaptcha) |
 | [`forumfortress-flarum`](https://weblate.rob006.net/projects/flarum2/forumfortress-flarum) | [`forumfortress/flarum`](https://github.com/forum-fortress/flarum) |
 | [`gitzaai-cnsearch`](https://weblate.rob006.net/projects/flarum2/gitzaai-cnsearch) | [`gitzaai/cnsearch`](https://github.com/gitzaai/cnsearch) |
+| [`glowingblue-author-filter`](https://weblate.rob006.net/projects/flarum2/glowingblue-author-filter) | [`glowingblue/author-filter`](https://github.com/glowingblue/flarum-ext-author-filter) |
 | [`glowingblue-password-strength`](https://weblate.rob006.net/projects/flarum2/glowingblue-password-strength) | [`glowingblue/password-strength`](https://github.com/glowingblue/flarum-ext-password-strength) |
 | [`huoxin-filter-rule-manager`](https://weblate.rob006.net/projects/flarum2/huoxin-filter-rule-manager) | [`huoxin/filter-rule-manager`](https://github.com/huoxin233/flarum-ext-filter-rule-manager) |
 | [`huoxin-money-with-history`](https://weblate.rob006.net/projects/flarum2/huoxin-money-with-history) | [`huoxin/money-with-history`](https://github.com/huoxin233/flarum-ext-money-with-history) |
