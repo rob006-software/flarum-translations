@@ -995,6 +995,9 @@ return [
 			'zh_Hans',
 		],
 	],
+	'wyatts97-chatroom' => [
+		'tag' => 'https://raw.githubusercontent.com/wyatts97/flarum-chatroom/v1.3.7/resources/locale/en.yml',
+	],
 	'yippy-auth-ldap' => [
 		'tag' => 'https://raw.githubusercontent.com/Yippy/flarum-ext-auth-ldap/v2.0.2/locale/en.yml',
 	],
