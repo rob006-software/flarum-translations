@@ -560,6 +560,15 @@ return [
 			'zh_Hans',
 		],
 	],
+	'glowingblue-author-filter' => [
+		'beta' => 'https://raw.githubusercontent.com/glowingblue/flarum-ext-author-filter/2.0.0-beta.1/resources/locale/en.yml',
+		'__builtInLanguages' => [
+			'de',
+			'es',
+			'fr',
+			'it',
+		],
+	],
 	'glowingblue-password-strength' => [
 		'beta' => 'https://raw.githubusercontent.com/glowingblue/flarum-ext-password-strength/5.0.0-beta.3/locale/en.yml',
 	],
