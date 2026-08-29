@@ -1013,5 +1013,11 @@ return [
 	'yippy-tag-with-themes' => [
 		'tag' => 'https://raw.githubusercontent.com/Yippy/flarum-tag-with-themes/v2.0.3/locale/en.yml',
 	],
+	'zephyrisle-registration-code' => [
+		'tag' => 'https://raw.githubusercontent.com/Zephyr-Isle/flarum-registration-code/v2.1.2/locale/en.yml',
+		'__builtInLanguages' => [
+			'zh_Hans',
+		],
+	],
 	/* extensions list end */
 ];
