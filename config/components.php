@@ -276,7 +276,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/analytics/2.0.0-beta.2/resources/locale/en.yml',
 	],
 	'fof-anti-spam' => [
-		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/anti-spam/2.0.0-rc.1/locale/en.yml',
+		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/anti-spam/2.0.0-rc.2/locale/en.yml',
 	],
 	'fof-author-change' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/author-change/2.0.0/resources/locale/en.yml',
