@@ -995,6 +995,9 @@ return [
 			'zh_Hans',
 		],
 	],
+	'wyatts97-forum-member-map' => [
+		'tag' => 'https://raw.githubusercontent.com/wyatts97/forum-member-map/v1.0.9/locale/en.yml',
+	],
 	'yippy-auth-ldap' => [
 		'tag' => 'https://raw.githubusercontent.com/Yippy/flarum-ext-auth-ldap/v2.0.2/locale/en.yml',
 	],
