@@ -954,6 +954,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`ernestdefoe-connect`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-connect) | [`ernestdefoe/connect`](https://github.com/ernestdefoe/connect) |
 | [`ernestdefoe-cross-references`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-cross-references) | [`ernestdefoe/cross-references`](https://github.com/ernestdefoe/cross-references) |
 | [`ernestdefoe-digest-mail`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-digest-mail) | [`ernestdefoe/digest-mail`](https://github.com/ernestdefoe/digest-mail) |
+| [`ernestdefoe-discussion-participants`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-discussion-participants) | [`ernestdefoe/discussion-participants`](https://github.com/ernestdefoe/discussion-participants) |
 | [`ernestdefoe-federation`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-federation) | [`ernestdefoe/federation`](https://github.com/ernestdefoe/federation) |
 | [`ernestdefoe-facebook-post`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-facebook-post) | [`ernestdefoe/flarum-facebook-post`](https://github.com/ernestdefoe/flarum-facebook-post) |
 | [`ernestdefoe-giveaways`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-giveaways) | [`ernestdefoe/giveaways`](https://github.com/ernestdefoe/giveaways) |
