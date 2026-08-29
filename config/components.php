@@ -137,6 +137,9 @@ return [
 	'ernestdefoe-digest-mail' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/digest-mail/2.2.0/locale/en.yml',
 	],
+	'ernestdefoe-discussion-participants' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/discussion-participants/v1.0.0/locale/en.yml',
+	],
 	'ernestdefoe-facebook-post' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/flarum-facebook-post/v2.1.6/locale/en.yml',
 	],
