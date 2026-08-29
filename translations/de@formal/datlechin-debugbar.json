@@ -12,7 +12,7 @@
             "filter_placeholder": "Filter…",
             "tabs": {
                 "timeline": "Zeitachse",
-                "queries": "Anfragen",
+                "queries": "Abfragen",
                 "messages": "Nachrichten",
                 "request": "Anforderungen",
                 "events": "Ereignisse",
@@ -41,7 +41,7 @@
             "timeline": {
                 "total": "Insgesamt",
                 "measures": "",
-                "unfinished": "",
+                "unfinished": "(unvollständig)",
                 "empty": "Für diese Anforderung wurde nichts gemessen.",
                 "spans": {
                     "flarum": {
@@ -52,17 +52,17 @@
                 }
             },
             "queries": {
-                "count": "",
+                "count": "Abfragen",
                 "duration": "Gesamtzeit",
                 "duplicates": "Dopplungen",
-                "filter": "",
+                "filter": "Aussagen filtern…",
                 "preview": "Mit Parametern",
                 "bindings": "Parameter",
                 "connection": "Verbindung",
                 "origin": "Aufgerufen von",
-                "occurrences": "",
-                "dropped": "",
-                "empty": "Diese Anforderung hat keine Anfragen ausgeführt."
+                "occurrences": "Genau diese Anweisung wurde während dieser Anfrage {count} Mal ausgeführt.",
+                "dropped": "{count} weitere Aussagen wurden nicht aufgezeichnet.",
+                "empty": "Diese Anforderung hat keine Abfragen ausgeführt."
             },
             "messages": {
                 "filter": "Nachrichten filtern…",
@@ -82,30 +82,30 @@
                 "status": "Status",
                 "route": "Route",
                 "handler": "Handler",
-                "internal": "",
+                "internal": "Interner Versand",
                 "user": "Benutzer",
                 "guest": "Gast",
                 "admin": "Administrator",
                 "groups": "Gruppen",
-                "authentication": "",
+                "authentication": "Authorisiert durch",
                 "sections": {
                     "overview": "Übersicht",
                     "actor": "Akteur",
                     "parameters": "Routenparameter",
-                    "query": "",
+                    "query": "Abfragezeichenfolge",
                     "json_api": "JSON:API",
                     "request_headers": "Anforderungs-Header",
                     "response_headers": "Antwort-Header"
                 }
             },
             "events": {
-                "count": "",
-                "listed": "",
+                "count": "Versandt",
+                "listed": "Aufgeführt",
                 "filter": "Ereignisse filtern…",
                 "dropped": "{count} weitere Ereignisse wurden nicht gespeichert.",
-                "collapsed_title": "",
+                "collapsed_title": "Gezählt, nicht aufgeführt",
                 "collapsed_help": "Modell- und Datenbankereignisse werden pro Anforderung hunderte Male ausgelöst. Im Bereich „Abfragen“ wird angezeigt, welche Datenbankereignisse stattgefunden haben.",
-                "empty": ""
+                "empty": "Bei dieser Anforderung wurden keine Ereignisse ausgelöst."
             },
             "cache": {
                 "hit_rate": "Trefferquote",
@@ -115,9 +115,9 @@
                 "types": {
                     "hit": "Treffer",
                     "miss": "Fehlschlag",
-                    "write": "",
-                    "forget": "",
-                    "flush": ""
+                    "write": "Schreiben",
+                    "forget": "Vergessen",
+                    "flush": "Leeren"
                 }
             },
             "mail": {
@@ -141,7 +141,7 @@
                 "count": "Einstellungen",
                 "groups": "Gruppen",
                 "filter": "Schlüssel filtern…",
-                "redacted": "",
+                "redacted": "Dieser Wert ist ausgeblendet, da sein Schlüssel wie eine Anmeldeinformation aussieht.",
                 "empty": "Keine Einstellungen sind gespeichert."
             },
             "extensions": {
@@ -153,11 +153,11 @@
                     "id": "Erweiterung",
                     "title": "Name",
                     "version": "Version",
-                    "dependencies": ""
+                    "dependencies": "Abhängig von"
                 }
             },
             "environment": {
-                "empty": "",
+                "empty": "Es gibt nichts zu berichten.",
                 "groups": {
                     "flarum": "Flarum",
                     "php": "PHP",
@@ -183,20 +183,20 @@
         },
         "admin": {
             "debug_mode": {
-                "on": "",
-                "off": ""
+                "on": "Der Debugmodus ist aktiviert, daher wird die Debug-Leiste angezeigt. Administratoren sehen sie am unteren Rand jeder Seite.",
+                "off": "Die Debug-Leiste wird nur angezeigt, wenn der Debug-Modus aktiviert ist. Setze `‚debug‘ => true` in der Datei config.php, um sie zu aktivieren."
             },
             "max_profiles": {
-                "label": "",
-                "help": ""
+                "label": "Anforderungen, die behalten werden sollen",
+                "help": "Wie viele der letzten Anforderungen in der Leiste sichtbar bleiben sollen. Ältere werden gelöscht, sobald neue hinzukommen."
             },
             "trace_queries": {
-                "label": "",
-                "help": ""
+                "label": "Protokollieren, woher die Abfragen stammen",
+                "help": "Zeigt die Zeile des Anwendungscodes an, in der die jeweilige Abfrage ausgeführt wurde. Dies ist die nützlichste Information, die das Abfragefenster anzeigt, und gleichzeitig der rechenintensivste Vorgang der Debug-Leiste."
             },
             "open_by_default": {
-                "label": "",
-                "help": ""
+                "label": "Ausgeklappt starten",
+                "help": "Die Leiste soll auf jeder Seite bis zum letzten Feld geöffnet sein und nicht bis zum Griff zusammengeklappt sein."
             },
             "collectors": {
                 "label": "Paneele",
@@ -204,9 +204,9 @@
             },
             "storage": {
                 "label": "Gespeicherte Anfragen",
-                "help": "",
-                "clear": "",
-                "cleared": ""
+                "help": "Die Profile werden in „storage/debugbar“ gespeichert. Sie enthalten Einstellungen, SQL-Anweisungen und Anforderungs-Header; lösche diese daher, bevor du eine Entwicklungsseite freigibst.",
+                "clear": "Gespeicherte Anforderungen löschen",
+                "cleared": "{count} gespeicherte Anforderungen gelöscht."
             }
         }
     }
