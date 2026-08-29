@@ -492,6 +492,9 @@ return [
 	],
 	'ffans-creator-declarations' => [
 		'tag' => 'https://raw.githubusercontent.com/FFans/creator-declarations/v0.1.1/locale/en.yml',
+		'__builtInLanguages' => [
+			'zh_Hans',
+		],
 	],
 	'ffans-geetest' => [
 		'tag' => 'https://raw.githubusercontent.com/FFans/geetest/v1.1.0/resources/locale/en.yml',
