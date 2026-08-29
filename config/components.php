@@ -995,6 +995,9 @@ return [
 			'zh_Hans',
 		],
 	],
+	'williamcho-rss' => [
+		'tag' => 'https://raw.githubusercontent.com/William1607cho/flarum-ext-rss/v1.0.0/resources/locale/en.yml',
+	],
 	'yippy-auth-ldap' => [
 		'tag' => 'https://raw.githubusercontent.com/Yippy/flarum-ext-auth-ldap/v2.0.2/locale/en.yml',
 	],
