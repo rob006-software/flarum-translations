@@ -995,6 +995,9 @@ return [
 			'zh_Hans',
 		],
 	],
+	'wyatts97-user-stories' => [
+		'tag' => 'https://raw.githubusercontent.com/wyatts97/user-stories/v1.0.3/locale/en.yml',
+	],
 	'yippy-auth-ldap' => [
 		'tag' => 'https://raw.githubusercontent.com/Yippy/flarum-ext-auth-ldap/v2.0.2/locale/en.yml',
 	],
