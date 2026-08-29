@@ -704,6 +704,9 @@ return [
 	'linkrobins-wiki' => [
 		'tag' => 'https://raw.githubusercontent.com/linkrobins/flarum-wiki/v1.5.0/locale/en.yml',
 	],
+	'luzzardik-oauth-generic' => [
+		'tag' => 'https://raw.githubusercontent.com/luzzardik/flarum-ext-oauth-generic/2.0.3/locale/en.yml',
+	],
 	'maicol07-sso' => [
 		'tag' => 'https://raw.githubusercontent.com/maicol07/flarum-ext-sso/2.0/locale/en.yml',
 		'__builtInLanguages' => [
