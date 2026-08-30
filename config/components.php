@@ -509,6 +509,12 @@ return [
 			'ru',
 		],
 	],
+	'forumaker-friendship' => [
+		'tag' => 'https://raw.githubusercontent.com/forumaker/Friendship/2.2.0/locale/en.yml',
+		'__builtInLanguages' => [
+			'ru',
+		],
+	],
 	'forumaker-magicbb' => [
 		'tag' => 'https://raw.githubusercontent.com/forumaker/magicbb/2.5.1/resources/locale/en.yml',
 	],
