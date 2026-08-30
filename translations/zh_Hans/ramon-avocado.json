@@ -85,16 +85,16 @@
                 "bookmarks_enabled_help": "在卡片，书签页面，备忘，提醒和提醒通知等功能处展示保存书签按钮。关闭此设置将隐藏所有保存书签按钮，并禁用相关API；已保存的书签数据仍然保留。",
                 "bookmarks_fof_notice": "检测到已启用FoF Bookmarks，因此Avocado会将自身的书签功能交由FoF Bookmarks管理：主题中仅显示一个“已保存”菜单项和一个保存按钮，保存内容将写入FoF Bookmarks。启用FoF Bookmarks后，备注和提醒功能将不可用；Avocado中原有的保存数据会被保留，停用FoF Bookmarks后将恢复显示。",
                 "clock_format_label": "时间格式",
-                "clock_format_help": "",
+                "clock_format_help": "用于提醒功能中：「提醒我」功能中的时间选择控件和已存书签卡片中展示的时间。自动则使用访问者的浏览器设置。",
                 "clock_format_auto": "自动（基于用户浏览器）",
                 "clock_format_12": "12小时制（下午2:30）",
                 "clock_format_24": "24小时制（14:30）",
                 "user_card_enabled_label": "启用用户悬停卡片",
                 "user_card_enabled_help": "当鼠标悬停在用户名或头像上时，显示Discourse风格的迷你用户卡片，包括个性签名、徽章、状态等内容。",
                 "presence_enabled_label": "显示正在阅览话题的用户",
-                "presence_enabled_help": "",
+                "presence_enabled_help": "在话题横幅中显示带有用户头像的「N人正在浏览」指示器，依赖Realtime插件。不会展示已设置「不展示在线状态」的用户。",
                 "cakeday_enabled_label": "显示账号纪念日徽章",
-                "cakeday_enabled_help": "",
+                "cakeday_enabled_help": "在用户注册的周年纪念日期间，用户名旁边（话题卡片，回帖和用户卡片）将显示一个🎂图标。",
                 "show_share_label": "在帖子中显示分享按钮",
                 "show_share_help": "为每条帖子添加分享操作按钮。",
                 "show_action_icons_label": "在点赞和回复按钮上显示图标",
@@ -237,7 +237,7 @@
                 "tip": "提示：输入前缀 ",
                 "tip_suffix": " 可以根据标签进行筛选",
                 "esc_key": "ESC键",
-                "close": ""
+                "close": "关闭（Esc）"
             },
             "header": {
                 "back": "返回",
@@ -335,9 +335,9 @@
                 "unsave": "从已存书签中移除",
                 "edit": "编辑书签",
                 "empty": "尚未保存任何话题为书签。",
-                "empty_posts": "",
-                "guest_prompt": "",
-                "toggle_error": "",
+                "empty_posts": "尚未将任何帖子存为书签。",
+                "guest_prompt": "登陆后可讲话题存为书签并随时找到它们。",
+                "toggle_error": "无法更新已存书签列表。请重试。",
                 "update_error": "无法更新书签收藏。请重试。",
                 "modal_title": "书签收藏",
                 "modal_save": "保存",
@@ -363,28 +363,28 @@
                 "bookmark_reminder_text": "已存话题的提醒"
             },
             "settings": {
-                "notify_bookmark_reminder_label": ""
+                "notify_bookmark_reminder_label": "书签提醒"
             },
             "presence": {
-                "reading_now": ""
+                "reading_now": "{count}人正在阅读"
             },
             "cakeday": {
-                "tooltip_singular": "",
-                "tooltip_plural": "",
-                "aria": ""
+                "tooltip_singular": "帐号周年纪念起：1周年！",
+                "tooltip_plural": "帐号周年纪念起：{years}周年！",
+                "aria": "帐号周年纪念日"
             },
             "user_card": {
-                "online": "",
-                "last_seen": "",
-                "discussions": "",
-                "posts": "",
-                "joined_label": "",
-                "view_profile": "",
-                "message": ""
+                "online": "在线",
+                "last_seen": "查阅{time}次",
+                "discussions": "话题",
+                "posts": "回帖",
+                "joined_label": "加入于",
+                "view_profile": "查看用户资料",
+                "message": "消息"
             },
             "post": {
                 "op_badge": "楼主",
-                "copy_code": ""
+                "copy_code": "复制代码"
             },
             "messages": {
                 "deleted_message": "消息已删除"
@@ -426,20 +426,20 @@
             }
         },
         "api": {
-            "invalid_discussion_id": "",
-            "discussion_not_found": "",
-            "invalid_note": "",
-            "note_too_long": "",
-            "invalid_reminder_date": "",
-            "reminder_must_be_future": "",
-            "reminder_too_far": "",
-            "file_not_readable": "",
-            "no_file_uploaded": "",
-            "file_too_large": "",
-            "unsupported_image_type": "",
-            "svg_forbidden_declaration": "",
-            "svg_parse_failed": "",
-            "svg_invalid": ""
+            "invalid_discussion_id": "话题ID无效。",
+            "discussion_not_found": "没有搜索到话题。",
+            "invalid_note": "备注无效。",
+            "note_too_long": "备注太长。",
+            "invalid_reminder_date": "提醒日期无效。",
+            "reminder_must_be_future": "提醒必需在未来时间。",
+            "reminder_too_far": "提醒时间距离当前太长。",
+            "file_not_readable": "已上传文件不可读。",
+            "no_file_uploaded": "尚无已上传文件。",
+            "file_too_large": "文件太大（最大{max}）。",
+            "unsupported_image_type": "不支持的图片类型。",
+            "svg_forbidden_declaration": "SVG中包含有禁止的DOCTYPE和ENTITY声明内容。",
+            "svg_parse_failed": "SVG无效：无法转换XML。",
+            "svg_invalid": "上传文件必须是SVG。"
         }
     }
 }
