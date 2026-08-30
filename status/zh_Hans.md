@@ -3995,7 +3995,7 @@
 		<td align="center"><a href="https://packagist.org/packages/ffans/creator-declarations/stats">4</a></td>
 		<td align="center"><a href="https://packagist.org/packages/ffans/creator-declarations/stats">4</a></td>
 		<td align="center"><a href="https://packagist.org/packages/ffans/creator-declarations/stats">3</a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/ffans-creator-declarations/zh_Hans/"><img src="https://weblate.rob006.net/widgets/flarum/zh_Hans/ffans-creator-declarations/svg-badge.svg" alt="Translation status"></a></td>
+		<td><img src="https://img.shields.io/badge/status-disabled-inactive.svg" alt="Translation status"></td>
 	</tr>
 	<tr>
 		<td>
