@@ -75,6 +75,13 @@
                     "region_us_label": "Yhdysvallat",
                     "confidence_label": "Luottamus",
                     "confidence_help": "Luottamuspisteet ovat melko hyvä indikaattori siitä, että testattava kenttä saattaa johtaa ei-toivottuun toimintaan. Aseta luottamustasosi prosentteina. Jos kenttä on yhtä suuri tai suurempi kuin tämä luku, rekisteröinti estetään, riippumatta yllä olevasta ‘taajuustestistä’.",
+                    "blocked_asns_label": "",
+                    "blocked_asns_help": "",
+                    "max_listing_age_label": "",
+                    "max_listing_age_help": "",
+                    "registration_throttle_label": "",
+                    "registration_throttle_help": "",
+                    "lookup_failed": "",
                     "email_hash_label": "Käytä hashattua sähköpostiosoitetta",
                     "email_hash_help": "Välitä sähköpostiosoitteen MD5-hash, jos et halua välittää itse sähköpostiosoitetta. Tämä menetelmä ohittaa kaikki mustalistat, normalisoinnit ja hämäyksen ohitustarkistukset.",
                     "block_tor_exit_nodes_label": "Estä Tor-poistumisnoodit",
@@ -105,6 +112,9 @@
                 "flagged_as_spam_text": "Automaattinen roskapostin tunnistus — pistemäärä {score}"
             },
             "message": {
+                "profile": {
+                    "blocked": ""
+                },
                 "stopforumspam": {
                     "blocked": "Rekisteröintisi tiedot on löydetty roskapostin estotietokannasta, joten rekisteröintisi on estetty."
                 }

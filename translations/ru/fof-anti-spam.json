@@ -75,6 +75,13 @@
                     "region_us_label": "Соединенные Штаты",
                     "confidence_label": "Доверие",
                     "confidence_help": "Установите уровень доверия в процентах. Если доверие равно или больше этого значения, регистрация пользователя будет предотвращена независимо от проверки по параметру \"Частота\".",
+                    "blocked_asns_label": "",
+                    "blocked_asns_help": "",
+                    "max_listing_age_label": "",
+                    "max_listing_age_help": "",
+                    "registration_throttle_label": "",
+                    "registration_throttle_help": "",
+                    "lookup_failed": "",
                     "email_hash_label": "Использовать хешированные адреса email",
                     "email_hash_help": "Если Вы не хотите передавать открытые адреса email, Вы можете передавать их MD5-хэш. Этот метод обходит все чёрные списки, проверки по нормализации и обфускации.",
                     "block_tor_exit_nodes_label": "Блокировать выходные узлы сети Tor",
@@ -105,6 +112,9 @@
                 "flagged_as_spam_text": "Автоматическое обнаружение спама — оценка {score}"
             },
             "message": {
+                "profile": {
+                    "blocked": ""
+                },
                 "stopforumspam": {
                     "blocked": "Данные Вашей регистрации были найдены в базе данных по предотвращению спама. Ваша регистрация заблокирована."
                 }

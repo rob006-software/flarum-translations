@@ -75,6 +75,13 @@
                     "region_us_label": "Estats Units",
                     "confidence_label": "Confiança",
                     "confidence_help": "La puntuació de confiança és un indicador raonablement bo de que el contingut que es comprova donaria lloc a una activitat no desitjada. Estableix el teu nivell de confiança com a percentatge. Si el camp és igual o superior a aquesta xifra, el registre es bloquejarà, independentment de la prova de \"freqüència\" anterior.",
+                    "blocked_asns_label": "",
+                    "blocked_asns_help": "",
+                    "max_listing_age_label": "",
+                    "max_listing_age_help": "",
+                    "registration_throttle_label": "",
+                    "registration_throttle_help": "",
+                    "lookup_failed": "",
                     "email_hash_label": "Utilitza l'adreça de correu, com a cadena encriptada hash",
                     "email_hash_help": "Passa un valor codificat hash MD5 de l'adreça de correu electrònic, si no vols passar l'adreça de correu electrònic en si. Aquest mètode evita totes les comprovacions de llistes negres, normalització i ofuscació.",
                     "block_tor_exit_nodes_label": "",
@@ -105,6 +112,9 @@
                 "flagged_as_spam_text": ""
             },
             "message": {
+                "profile": {
+                    "blocked": ""
+                },
                 "stopforumspam": {
                     "blocked": "La teva inscripció ha estat bloquejada perquè s'han trobat detalls de les teves dades a una base de dades de prevenció de correu brossa."
                 }

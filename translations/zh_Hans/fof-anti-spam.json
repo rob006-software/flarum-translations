@@ -75,6 +75,13 @@
                     "region_us_label": "美国",
                     "confidence_label": "置信度",
                     "confidence_help": "置信度评分是判断被测字段是否会导致违规行为的一个相当好的指标。请以百分比形式设置您的置信度等级。如果该字段等于或高于此数值，注册将被阻止，无论上述“频率”测试结果如何。",
+                    "blocked_asns_label": "",
+                    "blocked_asns_help": "",
+                    "max_listing_age_label": "",
+                    "max_listing_age_help": "",
+                    "registration_throttle_label": "",
+                    "registration_throttle_help": "",
+                    "lookup_failed": "",
                     "email_hash_label": "使用哈希电子邮件地址",
                     "email_hash_help": "如果您不希望传递电子邮件地址本身，请传递其 MD5 哈希值。此方法会绕过所有黑名单、规范化和混淆绕过检查。",
                     "block_tor_exit_nodes_label": "拦截 Tor 出口节点",
@@ -105,6 +112,9 @@
                 "flagged_as_spam_text": "自动垃圾信息检测 - 分数 {score}"
             },
             "message": {
+                "profile": {
+                    "blocked": ""
+                },
                 "stopforumspam": {
                     "blocked": "您的注册信息已在垃圾信息防控数据库中被发现，因此您的注册已被拦截。"
                 }

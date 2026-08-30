@@ -75,6 +75,13 @@
                     "region_us_label": "United States",
                     "confidence_label": "Confidence",
                     "confidence_help": "The confidence score is a reasonably good indicator that the field under test would result in unwanted activity. Set your confidence level as a percentage. If the field is equal or above this figure, the registration will be blocked, regardless on the 'frequency' test above.",
+                    "blocked_asns_label": "Blocked network numbers (ASNs)",
+                    "blocked_asns_help": "One per line, or comma separated. Registrations from these networks are refused outright, whether or not the address is listed. StopForumSpam returns the network number on every lookup, and almost nobody browses a forum from a hosting provider. Accepts 31272 or AS31272. Leave empty to record the network without acting on it.",
+                    "max_listing_age_label": "Ignore listings older than (days)",
+                    "max_listing_age_help": "A sighting from years ago says little about whoever is registering today. 0 keeps every listing, however old. Blacklisted domains and networks are always honoured regardless of this.",
+                    "registration_throttle_label": "Seconds between registrations from one address",
+                    "registration_throttle_help": "Flarum limits how often somebody can post, but not how often they can create accounts. 0 disables this. Bear in mind that offices, schools and mobile networks share one address between many people.",
+                    "lookup_failed": "StopForumSpam could not be reached (last failure {when}). Registrations are being allowed through unchecked until it recovers.",
                     "email_hash_label": "Use hashed email address",
                     "email_hash_help": "Pass a MD5 hash of the email address should you wish to not pass the email address itself. This method bypasses all blacklists, normalisation and obfuscation bypass checks.",
                     "block_tor_exit_nodes_label": "Block Tor exit nodes",
@@ -105,6 +112,9 @@
                 "flagged_as_spam_text": "Automatic Spam Detection - score {score}"
             },
             "message": {
+                "profile": {
+                    "blocked": "This looks like spam, so it has not been saved. Please remove any links or contact details and try again."
+                },
                 "stopforumspam": {
                     "blocked": "Details of your registration have been found in a spam prevention database, therefore your registration has been blocked."
                 }

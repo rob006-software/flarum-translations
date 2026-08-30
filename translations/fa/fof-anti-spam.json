@@ -75,6 +75,13 @@
                     "region_us_label": "",
                     "confidence_label": "",
                     "confidence_help": "",
+                    "blocked_asns_label": "",
+                    "blocked_asns_help": "",
+                    "max_listing_age_label": "",
+                    "max_listing_age_help": "",
+                    "registration_throttle_label": "",
+                    "registration_throttle_help": "",
+                    "lookup_failed": "",
                     "email_hash_label": "",
                     "email_hash_help": "",
                     "block_tor_exit_nodes_label": "",
@@ -105,6 +112,9 @@
                 "flagged_as_spam_text": ""
             },
             "message": {
+                "profile": {
+                    "blocked": ""
+                },
                 "stopforumspam": {
                     "blocked": ""
                 }

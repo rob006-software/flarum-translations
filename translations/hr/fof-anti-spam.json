@@ -75,6 +75,13 @@
                     "region_us_label": "Sjedinjene Američke Države",
                     "confidence_label": "Vjerojatnost (Confidence)",
                     "confidence_help": "Ocjena vjerojatnosti je prilično dobar pokazatelj da bi testirano polje moglo rezultirati neželjenom aktivnošću. Postavite razinu vjerojatnosti u postocima. Ako je polje jednako ili iznad ove vrijednosti, registracija će biti blokirana, bez obzira na gore navedeni test učestalosti.",
+                    "blocked_asns_label": "",
+                    "blocked_asns_help": "",
+                    "max_listing_age_label": "",
+                    "max_listing_age_help": "",
+                    "registration_throttle_label": "",
+                    "registration_throttle_help": "",
+                    "lookup_failed": "",
                     "email_hash_label": "Koristi hash e-mail adrese",
                     "email_hash_help": "Pošaljite MD5 hash e-mail adrese ako ne želite slati samu e-mail adresu. Ova metoda zaobilazi sve crne liste, normalizaciju i provjere zaobilaženja obfuskacije.",
                     "block_tor_exit_nodes_label": "",
@@ -105,6 +112,9 @@
                 "flagged_as_spam_text": ""
             },
             "message": {
+                "profile": {
+                    "blocked": ""
+                },
                 "stopforumspam": {
                     "blocked": "Podaci iz vaše registracije pronađeni su u bazi podataka za sprječavanje spama, stoga je vaša registracija blokirana."
                 }

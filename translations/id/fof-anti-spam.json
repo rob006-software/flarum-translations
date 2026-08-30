@@ -75,6 +75,13 @@
                     "region_us_label": "Amerika Serikat",
                     "confidence_label": "Nilai Confidence",
                     "confidence_help": "Nilai confidence merupakan indikator yang cukup baik untuk menunjukkan bahwa kolom yang diuji akan menghasilkan aktivitas yang tidak diinginkan. Atur tingkat confidence Anda sebagai persentase. Jika kolom tersebut sama dengan atau di atas angka ini, pendaftaran akan diblokir, terlepas dari hasil uji ‘frekuensi’ di atas.",
+                    "blocked_asns_label": "",
+                    "blocked_asns_help": "",
+                    "max_listing_age_label": "",
+                    "max_listing_age_help": "",
+                    "registration_throttle_label": "",
+                    "registration_throttle_help": "",
+                    "lookup_failed": "",
                     "email_hash_label": "Gunakan alamat email yang di-hash",
                     "email_hash_help": "Masukkan hash MD5 dari alamat email jika Anda tidak ingin menyertakan alamat email secara langsung. Metode ini akan melewati semua daftar hitam, normalisasi, dan obfuscation check.",
                     "block_tor_exit_nodes_label": "",
@@ -105,6 +112,9 @@
                 "flagged_as_spam_text": ""
             },
             "message": {
+                "profile": {
+                    "blocked": ""
+                },
                 "stopforumspam": {
                     "blocked": "Detail pendaftaran Anda telah ditemukan dalam database pencegahan spam, oleh karena itu pendaftaran Anda telah diblokir."
                 }

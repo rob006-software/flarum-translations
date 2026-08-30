@@ -75,6 +75,13 @@
                     "region_us_label": "Egyesült Államok",
                     "confidence_label": "Megbízhatóság",
                     "confidence_help": "A megbízhatósági pontszám meglehetősen jó mérőszáma annak, hogy a tesztelt mező kéretlen tevékenységet eredményezne. Százalékként állítsa be. Ha a mező ennél az értéknél nagyobb, vagy vele egyenlő, akkor a regisztráció meg lesz akadályozva, függetlenül a fenti „gyakorisági” teszttől.",
+                    "blocked_asns_label": "",
+                    "blocked_asns_help": "",
+                    "max_listing_age_label": "",
+                    "max_listing_age_help": "",
+                    "registration_throttle_label": "",
+                    "registration_throttle_help": "",
+                    "lookup_failed": "",
                     "email_hash_label": "Az e-mail-cím ujjlenyomatának használata",
                     "email_hash_help": "Az e-mail-cím MD5 ujjlenyomatának átadása, ha nem akarja magát az e-mail-címet átadni. Ez a módszer megkerüli az összes feketelistázást, normalizálási és obfuszkációmegkerülési ellenőrzést.",
                     "block_tor_exit_nodes_label": "Tor kilépési csomópontok blokkolása",
@@ -105,6 +112,9 @@
                 "flagged_as_spam_text": "Kéretlen tartalom automatikus észlelése – pontszám: {score}"
             },
             "message": {
+                "profile": {
+                    "blocked": ""
+                },
                 "stopforumspam": {
                     "blocked": "A regisztráció részletei megtalálhatók a kéretlen tartalmakat megelőző adatbázisban, így a regisztráció meg lett akadályozva."
                 }

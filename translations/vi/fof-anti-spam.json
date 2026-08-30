@@ -75,6 +75,13 @@
                     "region_us_label": "Hoa Kỳ",
                     "confidence_label": "Độ tin cậy",
                     "confidence_help": "Điểm độ tin cậy là chỉ báo khá tốt cho thấy trường đang kiểm tra có thể dẫn tới hoạt động không mong muốn. Đặt mức độ tin cậy theo phần trăm. Nếu trường đạt hoặc vượt mức này, đăng ký sẽ bị chặn bất kể bài kiểm tra 'frequency' ở trên.",
+                    "blocked_asns_label": "",
+                    "blocked_asns_help": "",
+                    "max_listing_age_label": "",
+                    "max_listing_age_help": "",
+                    "registration_throttle_label": "",
+                    "registration_throttle_help": "",
+                    "lookup_failed": "",
                     "email_hash_label": "Dùng email đã băm",
                     "email_hash_help": "Gửi giá trị băm MD5 của địa chỉ email nếu bạn không muốn gửi email thô. Cách này bỏ qua tất cả blacklist, chuẩn hóa và các kiểm tra vượt che giấu.",
                     "block_tor_exit_nodes_label": "",
@@ -105,6 +112,9 @@
                 "flagged_as_spam_text": ""
             },
             "message": {
+                "profile": {
+                    "blocked": ""
+                },
                 "stopforumspam": {
                     "blocked": "Chi tiết đăng ký của bạn đã được tìm thấy trong cơ sở dữ liệu ngăn chặn spam, vì vậy đăng ký đã bị chặn."
                 }

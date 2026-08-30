@@ -75,6 +75,13 @@
                     "region_us_label": "États-Unis d'Amérique",
                     "confidence_label": "Confiance",
                     "confidence_help": "Le niveau de confiance est un indicateur raisonnablement bon que le champ testé entraînera une activité indésirable. Définissez votre niveau de confiance en pourcentage. Si le champ est égal ou supérieur à ce chiffre, l'inscription sera bloquée, indépendamment du test de « fréquence » ci-dessus.",
+                    "blocked_asns_label": "",
+                    "blocked_asns_help": "",
+                    "max_listing_age_label": "",
+                    "max_listing_age_help": "",
+                    "registration_throttle_label": "",
+                    "registration_throttle_help": "",
+                    "lookup_failed": "",
                     "email_hash_label": "Utiliser une adresse électronique hachée",
                     "email_hash_help": "Transmettez un hachage MD5 de l'adresse de courriel si vous souhaitez ne pas transmettre l'adresse électronique elle-même. Cette méthode permet de contourner tous les contrôles de listes noires, de normalisation et de contournement de l'obscurcissement.",
                     "block_tor_exit_nodes_label": "Bloquer les nœuds de sortie Tor",
@@ -105,6 +112,9 @@
                 "flagged_as_spam_text": "Détection automatique des spams - score {score}"
             },
             "message": {
+                "profile": {
+                    "blocked": ""
+                },
                 "stopforumspam": {
                     "blocked": "Les détails de votre inscription ont été trouvés dans une base de données de prévention des utilisateurs indésirables, et votre inscription a donc été bloquée."
                 }

@@ -75,6 +75,13 @@
                     "region_us_label": "ABD",
                     "confidence_label": "Güven",
                     "confidence_help": "Güven puanı, test edilen alanın istenmeyen aktiviteye yol açacağının makul derecede iyi bir göstergesidir. Güven düzeyinizi yüzde olarak ayarlayın. Alan bu rakama eşit veya üstündeyse, yukarıdaki 'frekans' testine bakılmaksızın kayıt engellenecektir.",
+                    "blocked_asns_label": "",
+                    "blocked_asns_help": "",
+                    "max_listing_age_label": "",
+                    "max_listing_age_help": "",
+                    "registration_throttle_label": "",
+                    "registration_throttle_help": "",
+                    "lookup_failed": "",
                     "email_hash_label": "Karma (hashed) e-posta adresi kullan",
                     "email_hash_help": "E-posta adresinin kendisini geçirmek istemiyorsanız e-posta adresinin MD5 karmasını geçirin. Bu yöntem tüm kara listeleri, normalleştirme ve karartma atlama kontrollerini atlatır.",
                     "block_tor_exit_nodes_label": "Tor trafiğini engelle",
@@ -105,6 +112,9 @@
                 "flagged_as_spam_text": "Otomatik Spam Algılama - {score} Puan"
             },
             "message": {
+                "profile": {
+                    "blocked": ""
+                },
                 "stopforumspam": {
                     "blocked": "Kayıt bilgileriniz spam otomasyonu veritabanında bulunduğundan kaydınız engellenmiştir."
                 }

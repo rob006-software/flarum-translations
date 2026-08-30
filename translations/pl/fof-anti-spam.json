@@ -75,6 +75,13 @@
                     "region_us_label": "Stany Zjednoczone",
                     "confidence_label": "Pewność",
                     "confidence_help": "Wynik pewności jest dość dobrym wskaźnikiem, że badane pole może skutkować niechcianą aktywnością. Ustaw swój poziom pewności jako procent. Jeśli pole jest równe lub przekracza tę wartość, rejestracja zostanie zablokowana, niezależnie od testu \"częstotliwości\" opisanego wyżej.",
+                    "blocked_asns_label": "",
+                    "blocked_asns_help": "",
+                    "max_listing_age_label": "",
+                    "max_listing_age_help": "",
+                    "registration_throttle_label": "",
+                    "registration_throttle_help": "",
+                    "lookup_failed": "",
                     "email_hash_label": "Użyj zahashowanego adresu e-mail",
                     "email_hash_help": "Przekaż skrót MD5 adresu e-mail, jeśli nie chcesz przekazywać samego adresu e-mail. Ta metoda omija wszystkie czarne listy, normalizację i kontrole omijające zaciemnianie.",
                     "block_tor_exit_nodes_label": "",
@@ -105,6 +112,9 @@
                 "flagged_as_spam_text": ""
             },
             "message": {
+                "profile": {
+                    "blocked": ""
+                },
                 "stopforumspam": {
                     "blocked": "Szczegóły Twojej rejestracji zostały znalezione w bazie danych zapobiegania spamowi, dlatego Twoja rejestracja została zablokowana."
                 }

@@ -75,6 +75,13 @@
                     "region_us_label": "สหรัฐอเมริกา",
                     "confidence_label": "ความมั่นใจ (Confidence)",
                     "confidence_help": "คะแนนความมั่นใจเป็นตัวชี้วัดที่ค่อนข้างดีว่าข้อมูลที่กำลังทดสอบจะทำให้เกิดสแปม กำหนดระดับความมั่นใจของคุณเป็นเปอร์เซ็นต์ หากมีค่าเท่ากับหรือสูงกว่าระดับนี้ การลงทะเบียนจะถูกบล็อก โดยไม่ขึ้นกับการตรวจสอบ 'ความถี่' ข้างต้น",
+                    "blocked_asns_label": "",
+                    "blocked_asns_help": "",
+                    "max_listing_age_label": "",
+                    "max_listing_age_help": "",
+                    "registration_throttle_label": "",
+                    "registration_throttle_help": "",
+                    "lookup_failed": "",
                     "email_hash_label": "ใช้ที่อยู่อีเมลแบบเข้ารหัสแฮช (Hashed Email)",
                     "email_hash_help": "ส่งค่าแฮช MD5 ของอีเมลแทนที่จะส่งตัวอีเมลจริง วิธีนี้จะข้ามรายการแบล็กลิสต์ทั้งหมด การแปลงค่าให้เป็นมาตรฐาน และการตรวจสอบการอำพรางค่าต่างๆ",
                     "block_tor_exit_nodes_label": "",
@@ -105,6 +112,9 @@
                 "flagged_as_spam_text": ""
             },
             "message": {
+                "profile": {
+                    "blocked": ""
+                },
                 "stopforumspam": {
                     "blocked": "พบข้อมูลรายละเอียดการลงทะเบียนของคุณในฐานข้อมูลป้องกันสแปม ดังนั้นการลงทะเบียนของคุณจึงถูกบล็อก"
                 }

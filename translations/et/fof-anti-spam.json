@@ -75,6 +75,13 @@
                     "region_us_label": "USA",
                     "confidence_label": "Kindlus",
                     "confidence_help": "Kindluse skoor on mõistlikul tasemel hea indikaator, see väli vajaks tähelepanu soovimatu tegevuse vältimiseks. Määra oma kindluse tase protsentides. Kui see väli on võrdne või kõrgem kui see number, siis liitumine blokeeritakse vaatamata ülalolevatele 'sageduse' testi tulemustele.",
+                    "blocked_asns_label": "",
+                    "blocked_asns_help": "",
+                    "max_listing_age_label": "",
+                    "max_listing_age_help": "",
+                    "registration_throttle_label": "",
+                    "registration_throttle_help": "",
+                    "lookup_failed": "",
                     "email_hash_label": "Kasuta räsitud e-posti aadressi",
                     "email_hash_help": "Kui sa ei soovi e-postiaadressi ennast saata, siis saada e-posti aadressi MD5 räsi. See meetod läheb mööda kõigist mustadest nimekirjadest normaliseerimine peitmise kannete kontrollimisest.",
                     "block_tor_exit_nodes_label": "",
@@ -105,6 +112,9 @@
                 "flagged_as_spam_text": ""
             },
             "message": {
+                "profile": {
+                    "blocked": ""
+                },
                 "stopforumspam": {
                     "blocked": "Sinu liitumise üksikasjad on leitud spämmi ennetamise andmebaasist ning seetõttu on sinu liitumine blokeeritud."
                 }
