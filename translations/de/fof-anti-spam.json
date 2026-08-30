@@ -75,13 +75,13 @@
                     "region_us_label": "Vereinigte Staaten",
                     "confidence_label": "Konfidenz",
                     "confidence_help": "Der Konfidenzwert ist ein recht guter Indikator dafür, dass das untersuchte Feld zu unerwünschten Aktivitäten führen würde. Lege den Konfidenz-Schwellwert als Prozentwert fest. Wenn das Feld gleich oder über diesem Wert liegt, wird die Registrierung blockiert, unabhängig vom „Frequenz“-Test weiter oben.",
-                    "blocked_asns_label": "",
-                    "blocked_asns_help": "",
-                    "max_listing_age_label": "",
-                    "max_listing_age_help": "",
-                    "registration_throttle_label": "",
-                    "registration_throttle_help": "",
-                    "lookup_failed": "",
+                    "blocked_asns_label": "Gesperrte Netzwerknummern (ASNs)",
+                    "blocked_asns_help": "Eine pro Zeile oder durch Kommas getrennt. Registrierungen aus diesen Netzwerken werden grundsätzlich abgelehnt, unabhängig davon, ob die Adresse aufgeführt ist oder nicht. StopForumSpam gibt bei jeder Abfrage die Netzwerknummer zurück, und fast niemand besucht ein Forum über einen Hosting-Anbieter. Akzeptiert 31272 oder AS31272. Lasse das Feld leer, um das Netzwerk zu erfassen, ohne Maßnahmen zu ergreifen.",
+                    "max_listing_age_label": "Einträge ignorieren, die älter sind (in Tagen)",
+                    "max_listing_age_help": "Eine Sichtung von vor Jahren sagt wenig darüber aus, wer heute eine Registrierung vornimmt. 0 behält jeden Eintrag bei, egal wie alt er ist. Auf der schwarzen Liste stehende Domains und Netzwerke werden davon unberührt stets berücksichtigt.",
+                    "registration_throttle_label": "Sekunden zwischen Registrierungen von derselben Adresse",
+                    "registration_throttle_help": "Flarum begrenzt, wie oft jemand Beiträge verfassen kann, nicht jedoch, wie oft er Konten erstellen kann. Mit dem Wert 0 wird diese Funktion deaktiviert. Beachte, dass in Büros, Schulen und Mobilfunknetzen oft viele Personen dieselbe IP-Adresse nutzen.",
+                    "lookup_failed": "StopForumSpam konnte nicht erreicht werden (letzter Fehler {when}). Registrierungen werden bis zur Wiederherstellung ungeprüft zugelassen.",
                     "email_hash_label": "Gehashte E-Mail-Adresse verwenden",
                     "email_hash_help": "Es wird ein MD5-Hash der E-Mail-Adresse weiter gegeben, wenn du nicht die E-Mail-Adresse weitergeben möchtest. Diese Methode umgeht alle Tests auf Blockierlisten, Normalisierung und Verschleierungsprüfungen.",
                     "block_tor_exit_nodes_label": "Tor-Ausgangsknoten blockieren",
@@ -113,7 +113,7 @@
             },
             "message": {
                 "profile": {
-                    "blocked": ""
+                    "blocked": "Das sieht nach Spam aus, daher wurde es nicht gespeichert. Bitte entferne alle Links und Kontaktdaten und versuche es erneut."
                 },
                 "stopforumspam": {
                     "blocked": "Details deiner Registrierung wurden ein einer Datenbank zur Spamvermeidung gefunden, daher haben wir deine Registrierung abgelehnt."
