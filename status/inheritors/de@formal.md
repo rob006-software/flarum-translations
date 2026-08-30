@@ -2,8 +2,8 @@
 
 Translations for German (formal) (`de@formal`) are inherited from German informal variant, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **312** are translated differently and **0** are
-translated only in `de@formal`. Altogether they cover **43** components.
+sides, but do not match between them: **314** are translated differently and **0** are
+translated only in `de@formal`. Altogether they cover **44** components.
 
 <!-- {% raw %} -->
 
@@ -35,6 +35,7 @@ translated only in `de@formal`. Altogether they cover **43** components.
 | `flarum-tags` | [5](#flarum-tags) |
 | `fof-badges` | [1](#fof-badges) |
 | `fof-byobu` | [14](#fof-byobu) |
+| `fof-cookie-consent` | [2](#fof-cookie-consent) |
 | `fof-discussion-templates` | [3](#fof-discussion-templates) |
 | `fof-doorman` | [1](#fof-doorman) |
 | `fof-drafts` | [1](#fof-drafts) |
@@ -2647,6 +2648,27 @@ Diese Diskussion wird nur für die Nutzer sichtbar sein, die <del>du</del><ins>S
 ```
 
 {username} hat eine neue private Diskussion mit <del>dir</del><ins>Ihnen</ins> begonnen
+
+
+### `fof-cookie-consent`
+
+#### [`fof-cookie-consent.admin.settings.configuration_title`](https://weblate.rob006.net/translate/flarum2/fof-cookie-consent/de@formal/?q=context%3A%3D%22fof-cookie-consent.admin.settings.configuration_title%22)
+
+> Configuration Options
+
+```diff
+-Einstellmöglichkeiten
++Einstellungen
+```
+
+#### [`fof-cookie-consent.admin.settings.theme_popup_title`](https://weblate.rob006.net/translate/flarum2/fof-cookie-consent/de@formal/?q=context%3A%3D%22fof-cookie-consent.admin.settings.theme_popup_title%22)
+
+> Popup Colors
+
+```diff
+-Popup-Farben
++Farben für Popups
+```
 
 
 ### `fof-discussion-templates`
