@@ -1119,8 +1119,8 @@
                 "body": "这是一封测试邮件，用于确认您的 Flarum 邮件配置是否工作正常。\n\n如果是您发送的，此邮件表示您的配置工作正常！\n\n如果这不是您本人，请忽略此邮件。\n"
             },
             "abandoned_extensions": {
-                "subject": "注意：发现了已弃用扩展",
-                "body_intro": "下列为已弃用扩展：",
+                "subject": "扩展已停止维护",
+                "body_intro": "以下您安装的扩展已停止维护：",
                 "body_outro": "请检查这些扩展，并计划迁移到可用的替代扩展。",
                 "line_with_replacement": "{package} （建议的替代扩展：{replacement}）",
                 "line_no_replacement": "{package}（暂无可用的替代扩展）"
