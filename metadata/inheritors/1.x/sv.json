@@ -1011,6 +1011,101 @@
             }
         }
     },
+    "flarum-extension-manager.json": {
+        "flarum-extension-manager": {
+            "admin": {
+                "auth_config": {
+                    "add_label": "d41d8cd98f00b204e9800998ecf8427e 36904f8bedb82944adccd01f4c8f9c38",
+                    "add_modal": {
+                        "host_label": "d41d8cd98f00b204e9800998ecf8427e 2816ff476fe4a806c2a2e7748b771da2",
+                        "host_placeholder": "d41d8cd98f00b204e9800998ecf8427e 8534cebd4e1e6ad1be3a437ed62b035f",
+                        "submit_button": "d41d8cd98f00b204e9800998ecf8427e c8eca2b9c112953d818b58389a1cf5b5",
+                        "token_label": "d41d8cd98f00b204e9800998ecf8427e 459a6f79ad9b13cbcb5f692d2cc7a94d",
+                        "type_label": "d41d8cd98f00b204e9800998ecf8427e c2ea84331318265913c436726c9c4ff3",
+                        "unchanged_token_placeholder": "d41d8cd98f00b204e9800998ecf8427e b0dab4165c2178a4772a979d533adb7e"
+                    },
+                    "delete_confirmation": "d41d8cd98f00b204e9800998ecf8427e 401611dbc9ab0622421edb9c6ccf416d",
+                    "delete_label": "d41d8cd98f00b204e9800998ecf8427e 1b8c1a0ff789a629e5c87712c9cb1887",
+                    "edit_label": "d41d8cd98f00b204e9800998ecf8427e 13bb7a9411269c63c0b49402dd9acb90",
+                    "fields": {
+                        "host": "d41d8cd98f00b204e9800998ecf8427e 2816ff476fe4a806c2a2e7748b771da2",
+                        "token": "d41d8cd98f00b204e9800998ecf8427e 459a6f79ad9b13cbcb5f692d2cc7a94d"
+                    },
+                    "no_auth_methods_configured": "d41d8cd98f00b204e9800998ecf8427e 829c4122ebb1202c0fccab8d336f76ac",
+                    "remove_button_label": "d41d8cd98f00b204e9800998ecf8427e 1b8c1a0ff789a629e5c87712c9cb1887",
+                    "title": "d41d8cd98f00b204e9800998ecf8427e bfcc21c421f32d4a575852883bd5d0e7",
+                    "types": {
+                        "bearer": "d41d8cd98f00b204e9800998ecf8427e 0920df081a5d6e8d4df2ff3d4dbf7940",
+                        "github-oauth": "d41d8cd98f00b204e9800998ecf8427e fa8aeeb77b9b878993d8ec990ff89f55",
+                        "gitlab-oauth": "d41d8cd98f00b204e9800998ecf8427e d91a50b3f9fc790ed6ae0358fdf6aae5",
+                        "gitlab-token": "d41d8cd98f00b204e9800998ecf8427e e863a1c56ed7985eeecba6eecb5c37f4"
+                    }
+                },
+                "composer": {
+                    "add_repository_label": "d41d8cd98f00b204e9800998ecf8427e fe0dfc901629717e752f6b46b33ac9e3",
+                    "delete_repository_confirmation": "d41d8cd98f00b204e9800998ecf8427e 7026b8e499aa0ff7388d5bb6ad83816f",
+                    "delete_repository_label": "d41d8cd98f00b204e9800998ecf8427e 6d8cad46b0769381dba7e7ce066be957",
+                    "edit_repository_label": "d41d8cd98f00b204e9800998ecf8427e 6cc77754ffd825ca88be2fc3e72d7465",
+                    "minimum_stability": {
+                        "help": "d41d8cd98f00b204e9800998ecf8427e 911a87cef91381341662ebb7e92a00c2",
+                        "label": "d41d8cd98f00b204e9800998ecf8427e b7a9017df818c6897acb8d40da114dcb",
+                        "options": {
+                            "alpha": "d41d8cd98f00b204e9800998ecf8427e 6132295fcf5570fb8b0a944ef322a598",
+                            "beta": "d41d8cd98f00b204e9800998ecf8427e 0b87d66b88c72957dfea8c9605016442",
+                            "dev": "d41d8cd98f00b204e9800998ecf8427e 55f37d1fd483f6a85379640fe51aafa8",
+                            "rc": "d41d8cd98f00b204e9800998ecf8427e b076b2077f8b24faeabe04311ba0b959",
+                            "stable": "d41d8cd98f00b204e9800998ecf8427e 2636f45400e972f57c6023665c32b4b4"
+                        }
+                    },
+                    "repositories": {
+                        "add_modal": {
+                            "name_label": "d41d8cd98f00b204e9800998ecf8427e c9a10cd76807ddd5e422eae14ba8a6e5",
+                            "submit_button": "d41d8cd98f00b204e9800998ecf8427e c8eca2b9c112953d818b58389a1cf5b5",
+                            "type_label": "d41d8cd98f00b204e9800998ecf8427e c2ea84331318265913c436726c9c4ff3",
+                            "url": "d41d8cd98f00b204e9800998ecf8427e e6b391a8d2c4d45902a23a8b6585703d"
+                        },
+                        "help": "d41d8cd98f00b204e9800998ecf8427e 1f468ed39e5c657c7bbc41dc2b93ddf8",
+                        "label": "d41d8cd98f00b204e9800998ecf8427e de1f88f6f7789baf4d35f2919f100fc3",
+                        "types": {
+                            "composer": "d41d8cd98f00b204e9800998ecf8427e 180b81a58ca6dde990aba761b7299f43",
+                            "path": "d41d8cd98f00b204e9800998ecf8427e 25349e53220ffc9ec25cd2e5c9ff681d",
+                            "vcs": "d41d8cd98f00b204e9800998ecf8427e d6bfe3ce1bf5714887f4ffbb7b94feab"
+                        }
+                    },
+                    "title": "d41d8cd98f00b204e9800998ecf8427e bcba235aa0401fd10464df6afbfaab77"
+                },
+                "exceptions": {
+                    "composer_command_failure": "d41d8cd98f00b204e9800998ecf8427e dc2755630b82a3666af2dc1b2ebd82f6",
+                    "extension_already_installed": "d41d8cd98f00b204e9800998ecf8427e f45430d95696de39deaccbafc2391c13",
+                    "extension_not_directly_dependency": "d41d8cd98f00b204e9800998ecf8427e 01a05fd693a99d5c367290b7dfb4449b",
+                    "extension_not_installed": "d41d8cd98f00b204e9800998ecf8427e feee80e5076f8c7ab5558444dcbfbf9b",
+                    "guessed_cause": {
+                        "extension_incompatible_with_instance": "d41d8cd98f00b204e9800998ecf8427e f60864c01c9bec631e510f198cac0cd9",
+                        "extension_not_found": "d41d8cd98f00b204e9800998ecf8427e 27a41a3c63f18c8a09e42e5ff40be61d",
+                        "extensions_incompatible_with_new_major": "d41d8cd98f00b204e9800998ecf8427e ab9b91f589afc088a613ec98b0c53455"
+                    }
+                },
+                "extensions": {
+                    "check_why_it_failed_updating": "d41d8cd98f00b204e9800998ecf8427e 70d9497bfd609a093ad9bb434c14f6bd",
+                    "install": "d41d8cd98f00b204e9800998ecf8427e d4d94ae84101d1a4478e1ed0494b8638",
+                    "install_help": "d41d8cd98f00b204e9800998ecf8427e 34f7a739ec1812fe54347249d2961b82",
+                    "proceed": "d41d8cd98f00b204e9800998ecf8427e 8bedfbc21b65be982410b3fbe1fef630",
+                    "remove": "d41d8cd98f00b204e9800998ecf8427e 0a81166c4671eb13b43ca10e35c45e97",
+                    "successful_install": "d41d8cd98f00b204e9800998ecf8427e ad79cc7cab0ab775c632ab0c4a91d733",
+                    "successful_remove": "d41d8cd98f00b204e9800998ecf8427e 32269589b2aa8b83a6d82def531e8da5",
+                    "successful_update": "d41d8cd98f00b204e9800998ecf8427e 5a514bb16d4626e9401e6e6920ae25d7",
+                    "update": "d41d8cd98f00b204e9800998ecf8427e b618d180f2e625dda388c5368fee8832",
+                    "update_hard_label": "d41d8cd98f00b204e9800998ecf8427e 76bffa76d4d99107f693789bc4aa51b5",
+                    "update_soft_label": "d41d8cd98f00b204e9800998ecf8427e cc84ba9ada20aa146b8c77eb80cb280c"
+                },
+                "file_permissions": "d41d8cd98f00b204e9800998ecf8427e 26575bb0857d0cf602dea9e196969790",
+                "major_updater": {
+                    "description": "d41d8cd98f00b204e9800998ecf8427e 73af0cbbf9f039797bbd29c954cc2724",
+                    "dry_run": "d41d8cd98f00b204e9800998ecf8427e ce6621d4d942dcdf4f6837b46d63d839"
+                }
+            }
+        }
+    },
     "flarum-flags.json": {
         "flarum-flags": {
             "admin": {
