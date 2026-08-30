@@ -1,26 +1,26 @@
 {
     "ernestdefoe-opensearch": {
         "forum": {
-            "powered_by": ""
+            "powered_by": "Powered by OpenSearch"
         },
         "admin": {
-            "url_label": "",
+            "url_label": "Cluster-URL",
             "url_help": "",
-            "username_label": "",
-            "username_help": "",
-            "password_label": "",
-            "verify_tls_label": "",
+            "username_label": "Benutzername",
+            "username_help": "Optional. Nur erforderlich, wenn für deinen Cluster eine Authentifizierung erforderlich ist.\n",
+            "password_label": "Passwort",
+            "verify_tls_label": "TLS-Zertifikat überprüfen",
             "verify_tls_help": "",
             "index_prefix_label": "",
             "index_prefix_help": "",
             "drivers_label": "",
             "drivers_help": "",
-            "use_for_discussions": "",
-            "use_for_users": "",
-            "use_for_posts": "",
-            "connection_label": "",
-            "test_button": "",
-            "test_ok": "",
+            "use_for_discussions": "Diskussionssuche",
+            "use_for_users": "Benutzersuche",
+            "use_for_posts": "Beitragssuche",
+            "connection_label": "Verbindung",
+            "test_button": "Verbindung testen",
+            "test_ok": "Verbunden",
             "test_fail": "",
             "rebuild_label": "",
             "rebuild_help": "",
