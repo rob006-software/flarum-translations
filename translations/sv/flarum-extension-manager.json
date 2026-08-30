@@ -2,94 +2,94 @@
     "flarum-extension-manager": {
         "admin": {
             "auth_config": {
-                "add_label": "",
+                "add_label": "Ny autentiseringsmetod",
                 "add_modal": {
-                    "host_label": "",
-                    "host_placeholder": "",
-                    "submit_button": "",
-                    "token_label": "",
-                    "type_label": "",
-                    "unchanged_token_placeholder": ""
+                    "host_label": "Värd",
+                    "host_placeholder": "exempel: bearer.flarum.org",
+                    "submit_button": "Skicka",
+                    "token_label": "Token",
+                    "type_label": "Typ",
+                    "unchanged_token_placeholder": "(oförändrad)"
                 },
-                "delete_confirmation": "",
-                "delete_label": "",
-                "edit_label": "",
+                "delete_confirmation": "Är du säker på att du vill ta bort den här autentiseringsmetoden?",
+                "delete_label": "Ta bort autentiseringsmetod",
+                "edit_label": "Redigera autentiseringsmetod",
                 "fields": {
-                    "host": "",
-                    "token": ""
+                    "host": "Värd",
+                    "token": "Token"
                 },
-                "no_auth_methods_configured": "",
-                "remove_button_label": "",
-                "title": "",
+                "no_auth_methods_configured": "Inga autentiseringsmetoder har konfigurerats. Detta är en valfri avancerad funktion som möjliggör installation från privata repositories.",
+                "remove_button_label": "Ta bort autentiseringsmetod",
+                "title": "Autentiseringsmetoder",
                 "types": {
-                    "github-oauth": "",
-                    "gitlab-oauth": "",
-                    "gitlab-token": "",
-                    "bearer": ""
+                    "github-oauth": "GitHub OAuth",
+                    "gitlab-oauth": "GitLab OAuth",
+                    "gitlab-token": "GitLab Token",
+                    "bearer": "HTTP Bearer"
                 }
             },
             "composer": {
-                "add_repository_label": "",
-                "delete_repository_confirmation": "",
-                "delete_repository_label": "",
-                "edit_repository_label": "",
-                "title": "",
+                "add_repository_label": "Lägg till repository",
+                "delete_repository_confirmation": "Är du säker på att du vill ta bort det här repositoryt? Alla tillägg som installerats från detta repository kommer att tas bort.",
+                "delete_repository_label": "Ta bort repository",
+                "edit_repository_label": "Redigera repository",
+                "title": "Composer",
                 "minimum_stability": {
-                    "label": "",
-                    "help": "",
+                    "label": "Minsta stabilitet",
+                    "help": "Vilken typ av paket som får installeras. Ändra inte detta om du inte vet vad du gör.",
                     "options": {
-                        "stable": "",
-                        "rc": "",
-                        "beta": "",
-                        "alpha": "",
-                        "dev": ""
+                        "stable": "Stabil (rekommenderas)",
+                        "rc": "Releasekandidat",
+                        "beta": "Beta",
+                        "alpha": "Alpha",
+                        "dev": "Dev"
                     }
                 },
                 "repositories": {
-                    "label": "",
-                    "help": "",
+                    "label": "Repositories",
+                    "help": "Lägg till ytterligare repositories för installation av paket. Detta är en avancerad funktion; lägg inte till repositories som inte är betrodda eftersom de kan användas för att köra skadlig kod på din server.\n",
                     "types": {
-                        "composer": "",
-                        "vcs": "",
-                        "path": ""
+                        "composer": "composer",
+                        "vcs": "vcs",
+                        "path": "sökväg"
                     },
                     "add_modal": {
-                        "name_label": "",
-                        "type_label": "",
-                        "url": "",
-                        "submit_button": ""
+                        "name_label": "Namn",
+                        "type_label": "Typ",
+                        "url": "URL",
+                        "submit_button": "Skicka"
                     }
                 }
             },
             "exceptions": {
-                "composer_command_failure": "",
-                "extension_already_installed": "",
-                "extension_not_directly_dependency": "",
-                "extension_not_installed": "",
+                "composer_command_failure": "Kunde inte utföra åtgärden. Kontrollera Composer-loggarna i storage/logs/composer.",
+                "extension_already_installed": "Tillägget är redan installerat.",
+                "extension_not_directly_dependency": "Tillägget är installerat som ett beroende till ett annat tillägg och kan inte tas bort direkt.",
+                "extension_not_installed": "Tillägget hittades inte.",
                 "guessed_cause": {
-                    "extension_incompatible_with_instance": "",
-                    "extension_not_found": "",
-                    "extensions_incompatible_with_new_major": ""
+                    "extension_incompatible_with_instance": "Tillägget är högst sannolikt inkompatibelt med din nuvarande Flarum-instans.",
+                    "extension_not_found": "Tillägget hittades inte eller finns inte.",
+                    "extensions_incompatible_with_new_major": "Vissa installerade tillägg är inte kompatibla med den senaste releasen. Vänta tills tilläggen har uppdaterats av upphovsmännen för att bli kompatibla, eller ta bort dem innan du går vidare.\n"
                 }
             },
             "extensions": {
-                "already_installed": "",
-                "check_why_it_failed_updating": "",
-                "install": "",
-                "install_help": "",
-                "proceed": "",
-                "remove": "",
-                "successful_install": "",
-                "successful_remove": "",
-                "successful_update": "",
-                "update": "",
-                "update_soft_label": "",
-                "update_hard_label": ""
+                "already_installed": "Detta tillägg är redan installerat",
+                "check_why_it_failed_updating": "Visa varför det inte uppdaterades till den senaste versionen.",
+                "install": "Installera ett nytt tillägg",
+                "install_help": "Ange namnet på tilläggspaketet för att fortsätta. Du kan ange en <semantic_link>semantisk version</semantic_link> med formatet <code>vendor/package-name:version</code>. Besök {link} för att se tillgängliga paket.\n",
+                "proceed": "Fortsätt",
+                "remove": "Avinstallera",
+                "successful_install": "{extension} installerades utan problem, omdirigerar...",
+                "successful_remove": "Tillägget har tagits bort.",
+                "successful_update": "{extension} uppdaterades utan problem, omdirigerar...",
+                "update": "Uppdatera",
+                "update_soft_label": "Mjuk uppdatering",
+                "update_hard_label": "Hård uppdatering"
             },
-            "file_permissions": "",
+            "file_permissions": "Tilläggshanteraren kräver läs- och skrivbehörighet för följande filer och kataloger: composer.json, composer.lock, vendor, storage, storage/.composer\n",
             "major_updater": {
-                "description": "",
-                "dry_run": "",
+                "description": "Större uppdateringar av Flarum är inte bakåtkompatibla, vilket innebär att vissa av dina nuvarande tillägg och manuella ändringar kanske inte fungerar med den nya versionen. Se till att säkerhetskopiera din databas och dina filer innan du går vidare.\n",
+                "dry_run": "Testkörning",
                 "dry_run_help": "",
                 "failure": {
                     "desc": "",
