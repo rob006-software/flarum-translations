@@ -68,6 +68,9 @@ return [
 	'datlechin-discussion-overview' => [
 		'beta' => 'https://raw.githubusercontent.com/datlechin/flarum-discussion-overview/v2.0.0-beta.1/locale/en.yml',
 	],
+	'datlechin-keyboard-shortcuts' => [
+		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-keyboard-shortcuts/v1.0.0/locale/en.yml',
+	],
 	'datlechin-link-clicks' => [
 		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-link-clicks/v1.2.0/locale/en.yml',
 		'__builtInLanguages' => [
