@@ -1,0 +1,117 @@
+{
+    "forumaker-friendship": {
+        "lib": {
+            "errors": {
+                "user_not_found": "User not found",
+                "request_not_found": "Friend request not found",
+                "not_recipient": "You cannot respond to this request",
+                "not_friends": "You are not friends with this user",
+                "self_request": "Cannot send a friend request to yourself",
+                "already_friends": "You are already friends with this user"
+            }
+        },
+        "forum": {
+            "user": {
+                "friends_tab": "Friends",
+                "friends_count": "{count, plural, one {# friend} other {# friends}}",
+                "requests_btn": "Requests",
+                "no_friends": "No friends yet",
+                "friends_since": "Friends since {date}",
+                "load_more": "Load more"
+            },
+            "dropdown": {
+                "add_friend_btn": "Add friend",
+                "cancel_request_btn": "Cancel friend request",
+                "remove_friend_btn": "Remove friend"
+            },
+            "add_modal": {
+                "title": "Add friend",
+                "text": "Send {username} a friend request?",
+                "confirm_btn": "Add friend",
+                "cancel_btn": "Cancel",
+                "success": "Friend request sent"
+            },
+            "pending_modal": {
+                "text": "This user already asked to be your friend",
+                "accept_btn": "Add friend",
+                "decline_btn": "Decline"
+            },
+            "cancel_request_modal": {
+                "title": "Cancel friend request",
+                "text": "Cancel your friend request to {username}?",
+                "confirm_btn": "Don't want to",
+                "cancel_btn": "Leave it"
+            },
+            "remove_modal": {
+                "title": "Remove friend",
+                "text": "Remove {username} from friends?",
+                "confirm_btn": "Remove",
+                "cancel_btn": "Don't remove",
+                "success": "You are no longer friends"
+            },
+            "requests_modal": {
+                "title": "Friend requests",
+                "incoming_tab": "Incoming — {count}",
+                "outgoing_tab": "Outgoing — {count}",
+                "history_btn": "History",
+                "search_placeholder": "Search by name",
+                "no_incoming": "No incoming requests",
+                "no_outgoing": "No outgoing requests",
+                "accept_btn": "Accept",
+                "decline_btn": "Decline",
+                "cancel_btn": "Cancel",
+                "cancel_success": "Request cancelled",
+                "accept_success": "You are now friends"
+            },
+            "history_modal": {
+                "title": "History",
+                "empty": "No history yet",
+                "load_more": "Load more"
+            },
+            "history": {
+                "requested_self": "You sent {username} a friend request",
+                "requested_other": "{username} sent you a friend request",
+                "cancelled_self": "You changed your mind about {username}",
+                "cancelled_other": "{username} cancelled their request",
+                "accepted_self": "You accepted {username}'s request",
+                "accepted_other": "{username} accepted your request",
+                "declined_self": "You declined {username}'s request",
+                "declined_other": "{username} declined your request",
+                "removed_self": "You removed {username} from friends",
+                "removed_other": "{username} removed you from friends"
+            },
+            "notifications": {
+                "requested_text": "{name} wants to add you as a friend",
+                "removed_text": "{name} removed you from friends",
+                "declined_text": "{name} declined your friend request"
+            },
+            "settings": {
+                "section_label": "Friends",
+                "show_on_usercard": "Show friend count next to the avatar in profile",
+                "show_in_posts": "Show friend count next to the avatar in posts",
+                "notify_requested_label": "Someone sends me a friend request",
+                "notify_removed_label": "Someone removes me from friends",
+                "notify_declined_label": "Someone declines my friend request"
+            }
+        },
+        "admin": {
+            "sections": {
+                "badges": "Badge"
+            },
+            "settings": {
+                "badges_intro": "Where enabled, users will be able to control this in their own settings",
+                "show_badge_on_usercard": "Show friend count next to the avatar in profile",
+                "show_badge_on_usercard_help": "Shown next to online status/join date on the profile card",
+                "show_badge_on_post": "Show friend count next to the avatar in posts",
+                "show_badge_on_post_help": "Shown next to the avatar in the post header",
+                "badge_color": "Color and icon"
+            },
+            "permissions": {
+                "add_friends": "Add friends",
+                "view_others": "View other users' friends",
+                "moderate": "Moderate friendships",
+                "manage": "Manage friendships"
+            }
+        }
+    }
+}
