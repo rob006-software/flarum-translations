@@ -15,10 +15,10 @@
                 "equalWeightButtons_help": "Recommandé. Le fait de présenter les boutons « Accepter » et « Refuser » de manière identique évite d'inciter les visiteurs à accepter.",
                 "colors_help": "La bannière s'adapte au thème de votre forum, y compris en mode sombre. Définissez une couleur\nuniquement pour la remplacer ; laissez le champ vide pour hériter de la couleur par défaut.\n",
                 "catchall_title": "Cookies non déclarés",
-                "sweepUndeclared": "",
+                "sweepUndeclared": "Supprimer les cookies qu'aucune extension n'a déclarés",
                 "sweepUndeclared_help": "",
                 "allowedCookies": "Ne jamais supprimer ces cookies",
-                "allowedCookies_help": "",
+                "allowedCookies_help": "Un nom par ligne. Encadrez-le par des barres obliques pour définir un motif, p. ex. /^app_/.\nLes cookies créés par Flarum sont toujours conservés.\n",
                 "theme_popup_title": "Couleurs de la fenêtre contextuelle",
                 "backgroundColor": "Arrière-plan",
                 "textColor": "Texte",
@@ -28,11 +28,11 @@
                 "layouts": {
                     "box": "Boîte",
                     "box_wide": "Boîte (large)",
-                    "box_inline": "",
-                    "cloud": "",
-                    "cloud_inline": "",
+                    "box_inline": "Boîte (ligne)",
+                    "cloud": "Nuage",
+                    "cloud_inline": "Nuage (ligne)",
                     "bar": "Barre",
-                    "bar_inline": ""
+                    "bar_inline": "Barre (ligne)"
                 },
                 "positions": {
                     "top_left": "En haut à gauche",
@@ -61,27 +61,27 @@
                 "description": "Les cookies sont de petits fichiers que ce site stocke dans votre navigateur. Découvrez ci-dessous ce qui est stocké et pourquoi. Vous pouvez modifier votre choix à tout moment.",
                 "cookie_table": {
                     "name": "Cookie",
-                    "description": ""
+                    "description": "Finalité"
                 }
             },
             "cookies": {
-                "flarum_session": "",
-                "flarum_remember": "",
-                "locale": "",
-                "cc_cookie": ""
+                "flarum_session": "Vous garde connecté pendant que vous naviguez.",
+                "flarum_remember": "Vous reconnecte automatiquement lors de votre prochaine visite.",
+                "locale": "Mémorise la langue que vous avez choisie.",
+                "cc_cookie": "Mémorise votre choix concernant les cookies afin de ne plus vous le demander."
             },
             "categories": {
                 "necessary": {
-                    "title": "",
-                    "description": ""
+                    "title": "Strictement nécessaires",
+                    "description": "Indispensables au bon fonctionnement du site : connexion, maintien de la connexion et mémorisation de vos préférences en matière de cookies. Ces cookies ne peuvent pas être désactivés."
                 },
                 "analytics": {
                     "title": "Analyses",
-                    "description": ""
+                    "description": "Aidez-nous à comprendre comment le forum est utilisé, afin que nous puissions l'améliorer. Aucun de ces éléments n'est indispensable au bon fonctionnement du forum."
                 },
                 "marketing": {
-                    "title": "",
-                    "description": ""
+                    "title": "Marketing",
+                    "description": "Utilisé pour mesurer la publicité et vous afficher des publicités sur d'autres sites."
                 }
             }
         }
