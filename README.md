@@ -934,6 +934,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`datlechin-copy-links`](https://weblate.rob006.net/projects/flarum2/datlechin-copy-links) | [`datlechin/flarum-copy-links`](https://github.com/datlechin/flarum-copy-links) |
 | [`datlechin-debugbar`](https://weblate.rob006.net/projects/flarum2/datlechin-debugbar) | [`datlechin/flarum-debugbar`](https://github.com/datlechin/flarum-debugbar) |
 | [`datlechin-discussion-overview`](https://weblate.rob006.net/projects/flarum2/datlechin-discussion-overview) | [`datlechin/flarum-discussion-overview`](https://github.com/datlechin/flarum-discussion-overview) |
+| [`datlechin-keyboard-shortcuts`](https://weblate.rob006.net/projects/flarum2/datlechin-keyboard-shortcuts) | [`datlechin/flarum-keyboard-shortcuts`](https://github.com/datlechin/flarum-keyboard-shortcuts) |
 | [`datlechin-link-clicks`](https://weblate.rob006.net/projects/flarum2/datlechin-link-clicks) | [`datlechin/flarum-link-clicks`](https://github.com/datlechin/flarum-link-clicks) |
 | [`datlechin-link-preview`](https://weblate.rob006.net/projects/flarum2/datlechin-link-preview) | [`datlechin/flarum-link-preview`](https://github.com/datlechin/flarum-link-preview) |
 | [`datlechin-mermaid`](https://weblate.rob006.net/projects/flarum2/datlechin-mermaid) | [`datlechin/flarum-mermaid`](https://github.com/datlechin/flarum-mermaid) |
@@ -979,6 +980,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`ffans-creator-declarations`](https://weblate.rob006.net/projects/flarum2/ffans-creator-declarations) | [`ffans/creator-declarations`](https://github.com/FFans/creator-declarations) |
 | [`flectar-turnstile`](https://weblate.rob006.net/projects/flarum2/flectar-turnstile) | [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile) |
 | [`forumaker-bento`](https://weblate.rob006.net/projects/flarum2/forumaker-bento) | [`forumaker/bento`](https://github.com/forumaker/Bento) |
+| [`forumaker-friendship`](https://weblate.rob006.net/projects/flarum2/forumaker-friendship) | [`forumaker/friendship`](https://github.com/forumaker/Friendship) |
 | [`forumaker-magicbb`](https://weblate.rob006.net/projects/flarum2/forumaker-magicbb) | [`forumaker/magicbb`](https://github.com/forumaker/magicbb) |
 | [`forumaker-magicdice`](https://weblate.rob006.net/projects/flarum2/forumaker-magicdice) | [`forumaker/magicdice`](https://github.com/forumaker/magicdice) |
 | [`forumaker-magicread`](https://weblate.rob006.net/projects/flarum2/forumaker-magicread) | [`forumaker/magicread`](https://github.com/forumaker/magicread) |
