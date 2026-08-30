@@ -78,7 +78,7 @@
                 "custom_hero_enabled_help": "使用自定义HTML内容，替换默认横幅内容，包含：图标、标题、描述、登录/注册按钮。横幅容器、背景图片和遮罩层不变。与默认横幅一样，自定义横幅仅对访客可见。",
                 "custom_hero_html_label": "自定义横幅HTML",
                 "custom_hero_html_help": "HTML内容将嵌入横幅遮罩层，替换.AvocadoHome-heroBannerContent内容。支持使用内链「<style>」标签。",
-                "custom_hero_html_placeholder": "",
+                "custom_hero_html_placeholder": "<div class=\"AvocadoHome-heroBannerContent\">\n  <h1 class=\"AvocadoHome-heroBannerTitle\">欢迎访问</h1>\n  <p class=\"AvocadoHome-heroBannerDesc\">这里可以时任何你需要展示的内容：链接、图片、按钮等</p>\n</div>",
                 "search_v1_label": "启用 V1 搜索栏样式",
                 "search_v1_help": "显示内联搜索下拉框而非 V2 弹窗样式。",
                 "bookmarks_enabled_label": "启用书签系统",
