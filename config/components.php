@@ -212,6 +212,12 @@ return [
 			'zh_Hans',
 		],
 	],
+	'ffans-geetest' => [
+		'beta' => 'https://raw.githubusercontent.com/FFans/geetest/v2.0.0-beta.1/resources/locale/en.yml',
+		'__builtInLanguages' => [
+			'zh_Hans',
+		],
+	],
 	'flarum-akismet' => [
 		'beta' => 'https://raw.githubusercontent.com/flarum/akismet/v2.0.0-rc.8/locale/en.yml',
 	],
