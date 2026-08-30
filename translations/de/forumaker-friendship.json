@@ -2,39 +2,39 @@
     "forumaker-friendship": {
         "lib": {
             "errors": {
-                "user_not_found": "",
-                "request_not_found": "",
-                "not_recipient": "",
-                "not_friends": "",
-                "self_request": "",
+                "user_not_found": "Benutzer nicht gefunden",
+                "request_not_found": "Freundschaftsanfrage nicht gefunden",
+                "not_recipient": "Du kannst auf diese Anfrage nicht antworten",
+                "not_friends": "Du bist kein Freund dieses Benutzers",
+                "self_request": "Du kannst keine Freundschaftsanfrage an dich selbst senden",
                 "already_friends": ""
             }
         },
         "forum": {
             "user": {
-                "friends_tab": "",
-                "friends_count": "",
-                "requests_btn": "",
-                "no_friends": "",
-                "friends_since": "",
-                "load_more": ""
+                "friends_tab": "Freunde",
+                "friends_count": "{count, plural, one {# Freund} other {# Freunde}}",
+                "requests_btn": "Anfragen",
+                "no_friends": "Noch keine Freunde",
+                "friends_since": "Freund seit {date}",
+                "load_more": "Mehr laden"
             },
             "dropdown": {
-                "add_friend_btn": "",
-                "cancel_request_btn": "",
-                "remove_friend_btn": ""
+                "add_friend_btn": "Freund hinzufügen",
+                "cancel_request_btn": "Freundschaftsanfrage zurückziehen",
+                "remove_friend_btn": "Freund entfernen"
             },
             "add_modal": {
-                "title": "",
+                "title": "Freund hinzufügen",
                 "text": "",
-                "confirm_btn": "",
-                "cancel_btn": "",
+                "confirm_btn": "Freund hinzufügen",
+                "cancel_btn": "Abbrechen",
                 "success": ""
             },
             "pending_modal": {
                 "text": "",
-                "accept_btn": "",
-                "decline_btn": ""
+                "accept_btn": "Freund hinzufügen",
+                "decline_btn": "Ablehnen"
             },
             "cancel_request_modal": {
                 "title": "",
@@ -43,9 +43,9 @@
                 "cancel_btn": ""
             },
             "remove_modal": {
-                "title": "",
+                "title": "Freund entfernen",
                 "text": "",
-                "confirm_btn": "",
+                "confirm_btn": "Entfernen",
                 "cancel_btn": "",
                 "success": ""
             },
@@ -57,16 +57,16 @@
                 "search_placeholder": "",
                 "no_incoming": "",
                 "no_outgoing": "",
-                "accept_btn": "",
-                "decline_btn": "",
-                "cancel_btn": "",
+                "accept_btn": "Annehmen",
+                "decline_btn": "Ablehnen",
+                "cancel_btn": "Abbrechen",
                 "cancel_success": "",
                 "accept_success": ""
             },
             "history_modal": {
                 "title": "",
                 "empty": "",
-                "load_more": ""
+                "load_more": "Mehr laden"
             },
             "history": {
                 "requested_self": "",
@@ -86,7 +86,7 @@
                 "declined_text": ""
             },
             "settings": {
-                "section_label": "",
+                "section_label": "Freunde",
                 "show_on_usercard": "",
                 "show_in_posts": "",
                 "notify_requested_label": "",
