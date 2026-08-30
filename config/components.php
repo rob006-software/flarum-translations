@@ -108,7 +108,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ekumanov/flarum-ext-inline-audio/v2.10.2/locale/en.yml',
 	],
 	'ekumanov-link-preview' => [
-		'tag' => 'https://raw.githubusercontent.com/ekumanov/flarum-ext-link-preview/v1.1.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ekumanov/flarum-ext-link-preview/v1.1.1/locale/en.yml',
 	],
 	'ekumanov-markdown-tables' => [
 		'tag' => 'https://raw.githubusercontent.com/ekumanov/flarum-ext-markdown-tables/v1.0.2/locale/en.yml',
