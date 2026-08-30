@@ -7,11 +7,11 @@
                 "app_id_label": "ApplikationsID",
                 "app_id_help": "Det numeriska app-ID:t från sidan ”App Keys” för din Pusher-app.",
                 "app_key_label": "Applikationsnyckel",
-                "app_key_help": "",
+                "app_key_help": "Den publika nyckeln från sidan ”App Keys” i din Pusher-app. Den skickas till webbläsare och är därför inte hemlig.",
                 "app_secret_label": "Applikations-hemlighet",
-                "app_secret_help": "",
-                "server_hostname_label": "",
-                "server_hostname_help": "",
+                "app_secret_help": "Den privata hemligheten från sidan ”App Keys” i din Pusher-app. Håll den hemlig – den används endast på serversidan.",
+                "server_hostname_label": "Värdnamn för server",
+                "server_hostname_help": "Valfritt. Åsidosätt värden som klienten ansluter till för en egenvärd, Pusher-kompatibel server (till exempel soketi). Lämna tomt för att använda Pushers värdtjänst med klustret ovan.",
                 "title": "Inställningar för Pusher"
             }
         },
