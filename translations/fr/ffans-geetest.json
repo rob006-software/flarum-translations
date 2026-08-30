@@ -14,7 +14,7 @@
                 "config": {
                     "title": "Configuration pour {context}",
                     "standalone_label": "Autonome",
-                    "standalone_help_text": "Activer pour utiliser une configuration autonome pour ce scénario.",
+                    "standalone_help_text": "Permettre l'utilisation d'une configuration autonome pour ce scénario.",
                     "product_label": "Style d'animation",
                     "product_help_text": "Choisissez la présentation du panneau de vérification.",
                     "product_float_label": "Flottant",
@@ -40,11 +40,11 @@
         },
         "lib": {
             "error": {
-                "api_http_error": "",
-                "incomplete_configuration": "",
-                "captcha_id_mismatch": "",
-                "invalid_api_response": "",
-                "verification_request_failed": ""
+                "api_http_error": "L'API GeeTest a renvoyé le code HTTP {status}.",
+                "incomplete_configuration": "La configuration de GeeTest est incomplète.",
+                "captcha_id_mismatch": "L'identifiant CAPTCHA de GeeTest ne correspond pas au produit configuré.",
+                "invalid_api_response": "L'API GeeTest a renvoyé une réponse qui n'est pas un objet.",
+                "verification_request_failed": "Impossible de demander la vérification GeeTest."
             },
             "verify": {
                 "success_message": "Validation réussie.",
