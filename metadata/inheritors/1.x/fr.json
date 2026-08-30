@@ -1299,6 +1299,58 @@
             }
         }
     },
+    "ffans-geetest.json": {
+        "ffans-geetest": {
+            "admin": {
+                "settings": {
+                    "config": {
+                        "id_help_text": "7eb4e3e59c9362f6a3c6a6fb8d78b671 7eb4e3e59c9362f6a3c6a6fb8d78b671",
+                        "id_label": "10a0c7b52a29bbc85d00d2f11e968272 10a0c7b52a29bbc85d00d2f11e968272",
+                        "key_help_text": "2ab7f9902e0875d0c17091ebc7baf12e 2ab7f9902e0875d0c17091ebc7baf12e",
+                        "key_label": "172de4da807ec79242f83bc20dbb363f 172de4da807ec79242f83bc20dbb363f",
+                        "product_bind_help_text": "28007c19d12a5764c322744cc19c20b2 28007c19d12a5764c322744cc19c20b2",
+                        "product_bind_label": "24be69fe0fc9f419991297b136a7e1c5 24be69fe0fc9f419991297b136a7e1c5",
+                        "product_float_help_text": "19b66c39c128d121ded60619fb680085 19b66c39c128d121ded60619fb680085",
+                        "product_float_label": "6e3fc60cfca5bb77ae41cdd704fe792c 6e3fc60cfca5bb77ae41cdd704fe792c",
+                        "product_help_text": "cfcf1575d992398edda9400136b08af4 cfcf1575d992398edda9400136b08af4",
+                        "product_label": "1db127af898ab97299b5a7bbdf6077f6 1db127af898ab97299b5a7bbdf6077f6",
+                        "product_learn_more_link": "c0bd7269ce404b0956b6b32b5e3c37a8 c0bd7269ce404b0956b6b32b5e3c37a8",
+                        "product_popup_help_text": "dfae263ab4cc9d9f02a7a62373fc18aa dfae263ab4cc9d9f02a7a62373fc18aa",
+                        "product_popup_label": "32378a9103a27896d2439addd7dd2c29 32378a9103a27896d2439addd7dd2c29",
+                        "standalone_help_text": "2c48fcaeed54672ab4e401d26966f2f7 2c48fcaeed54672ab4e401d26966f2f7",
+                        "standalone_label": "50a7a7ee211d3c46eb1f10bcdb8cbe25 50a7a7ee211d3c46eb1f10bcdb8cbe25",
+                        "title": "07f371eef13ab620b08addbc221a9d1f 07f371eef13ab620b08addbc221a9d1f"
+                    },
+                    "context_event_forgot_label": "1eb31d5ef4f07299a967de5544068940 1eb31d5ef4f07299a967de5544068940",
+                    "context_event_help_text": "8464ef0fc28e709b7c9661d586fa1797 8464ef0fc28e709b7c9661d586fa1797",
+                    "context_event_label": "1fc4a4142c6f3bd4068e8d2e85316eb9 1fc4a4142c6f3bd4068e8d2e85316eb9",
+                    "context_event_login_label": "0215257d16a1b5afb21683c057beebf8 0215257d16a1b5afb21683c057beebf8",
+                    "context_event_signup_label": "5da2448f7f07b2c3b4026f455b0b1a10 5da2448f7f07b2c3b4026f455b0b1a10",
+                    "product_service_help_text": "2cb923854f769f9c2d1e067e9d776f8e 2cb923854f769f9c2d1e067e9d776f8e",
+                    "product_service_label": "a47df4b13575846b87c1b1fd8c4eccf5 a47df4b13575846b87c1b1fd8c4eccf5",
+                    "product_service_v3_label": "3e5b1b63f522512267bec488f42d68d7 3e5b1b63f522512267bec488f42d68d7",
+                    "product_service_v4_label": "8feb5bcffb135df7d01e2501bb78e7b2 8feb5bcffb135df7d01e2501bb78e7b2"
+                },
+                "test": {
+                    "help_text": "e7011f6b36373291991a3a842a1ff20b e7011f6b36373291991a3a842a1ff20b",
+                    "load_button": "b728d9571d34cd80c23104e44dff869c b728d9571d34cd80c23104e44dff869c",
+                    "reload_button": "9f3e4f00fd495f901116657ebec116de 9f3e4f00fd495f901116657ebec116de",
+                    "submit_button": "770a1a1e17972d73a5f39914e0d5c6b1 770a1a1e17972d73a5f39914e0d5c6b1",
+                    "title": "4a6e5ab23d4a3c95d4a310fb4a0e49ae 4a6e5ab23d4a3c95d4a310fb4a0e49ae"
+                }
+            },
+            "lib": {
+                "verify": {
+                    "error_message": "c0574327d7bbc6b3cc1c677de0a25e52 c0574327d7bbc6b3cc1c677de0a25e52",
+                    "error_retry_message": "14506f2bd4e63ded278268a8698b1a38 14506f2bd4e63ded278268a8698b1a38",
+                    "init_error_message": "e747ade3e910b9ac2925a5c192132409 e747ade3e910b9ac2925a5c192132409",
+                    "not_pass_message": "4c06286a51f6bb0325d9ea0929834b96 4c06286a51f6bb0325d9ea0929834b96",
+                    "required_message": "f02a4e223b909e62ecc00623f1ee573b f02a4e223b909e62ecc00623f1ee573b",
+                    "success_message": "c657429504e4f949378329186e6bcd75 c657429504e4f949378329186e6bcd75"
+                }
+            }
+        }
+    },
     "flarum-akismet.json": {
         "flarum-akismet": {
             "admin": {
