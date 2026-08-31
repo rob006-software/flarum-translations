@@ -5,7 +5,7 @@
                 "add_label": "روش احراز هویت جدید",
                 "add_modal": {
                     "host_label": "میزبان",
-                    "host_placeholder": "",
+                    "host_placeholder": "مثال: bearer.flarum.org",
                     "submit_button": "تایید",
                     "token_label": "توکن",
                     "type_label": "نوع",
@@ -73,7 +73,7 @@
                 }
             },
             "extensions": {
-                "already_installed": "",
+                "already_installed": "این افزونه قبلا نصب شده است",
                 "check_why_it_failed_updating": "نمایش اینکه چرا به آخرین نسخه بروز رسانی نشده است.",
                 "install": "نصب افزونه جدید",
                 "install_help": "برای ادامه، نام پکیج افزونه را وارد کنید. می توانید یک مقدار استاندارد <semantic_link>semantic version</semantic_link> یا نام پکیج همراه با نسخه آن با فرمت <code>vendor/package-name:version</code> را وارد کنید. برای مرور افزونه ها از سایت {extiverse} دیدن کنید.\n",
@@ -99,33 +99,33 @@
                 "update": "بروزرسانی"
             },
             "minor_update_confirmation": {
-                "content": ""
+                "content": "این کار همچنین به‌روزرسانی‌ خواهد کرد سایر افزونه‌ها/بسته‌ها را که برای آنها به‌روزرسانی در دسترس باشد."
             },
             "required_php_functions": "",
             "sections": {
                 "discover": {
-                    "description": "",
-                    "empty_results": "",
+                    "description": "با افزونه‌ها، ویژگی‌ها و ترکیب‌های جدیدی را به انجمن فلاروم خود اضافه کنید.",
+                    "empty_results": "به نظر می‌رسد هیچ افزونه‌ای در دسترس نیست.",
                     "extension": {
                         "badges": {
-                            "abandoned": "",
-                            "fof": "",
-                            "flarum": ""
+                            "abandoned": "رها شده",
+                            "fof": "فرند آف فلاروم",
+                            "flarum": "فلاروم"
                         },
                         "downloads": ""
                     },
-                    "search": "",
-                    "server_error": "",
+                    "search": "جستجو...",
+                    "server_error": "سرویس در حال حاضر در دسترس نیست، لطفا بعدا دوباره امتحان کنید.",
                     "sort": {
-                        "top": ""
+                        "top": "بیشترین دانلودها"
                     },
                     "tabs": {
-                        "discover": "",
-                        "extensions": "",
-                        "languages": "",
-                        "themes": ""
+                        "discover": "پیدا کردن",
+                        "extensions": "افزونه‌ها",
+                        "languages": "زبان‌ها",
+                        "themes": "قالب‌ها"
                     },
-                    "title": ""
+                    "title": "افزونه‌ها"
                 },
                 "queue": {
                     "columns": {
