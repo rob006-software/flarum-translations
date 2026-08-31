@@ -482,7 +482,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ekumanov/flarum-ext-new-posts-notice/v1.0.4/locale/en.yml',
 	],
 	'fastchen-fancybox' => [
-		'tag' => 'https://raw.githubusercontent.com/FastChen/flarum-ext-fancybox/v1.0.3/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FastChen/flarum-ext-fancybox/v1.0.5/locale/en.yml',
 		'__builtInLanguages' => [
 			'zh_Hans',
 		],
