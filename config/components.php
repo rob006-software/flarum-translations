@@ -615,7 +615,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/huseyinfiliz/flarum-diff/2.0.0-beta.4/locale/en.yml',
 	],
 	'huseyinfiliz-leaderboard' => [
-		'beta' => 'https://raw.githubusercontent.com/huseyinfiliz/leaderboard/2.0.0-beta.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/leaderboard/2.0.0/locale/en.yml',
 	],
 	'huseyinfiliz-modern-footer' => [
 		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/modern-footer/2.0.0/resources/locale/en.yml',
