@@ -796,7 +796,7 @@
                 "delete_error_message": "删除用户 <i>{username} ({email})</i> 失败",
                 "delete_success_message": "已删除用户 <i>{username} ({email})</i>",
                 "edit_button": "=> core.ref.edit",
-                "toggle_dropdown_accessible_label": "用户下拉菜单开关"
+                "toggle_dropdown_accessible_label": "展开或收起用户操作菜单"
             },
             "user_email_confirmation": {
                 "alert_message": "=> core.ref.confirmation_email_sent",
@@ -804,7 +804,7 @@
                 "sent_message": "发送"
             },
             "welcome_hero": {
-                "hide": "隐藏欢迎横幅内容"
+                "hide": "隐藏欢迎横幅"
             }
         },
         "lib": {
@@ -814,14 +814,14 @@
                 "dismiss_a11y_label": "忽略警告"
             },
             "assets_updated": {
-                "message": "此页面有新版本。",
+                "message": "检测到社区版本有更新，请刷新页面以保证功能的正常使用。",
                 "reload_button": "刷新"
             },
             "badge": {
                 "hidden_tooltip": "隐藏"
             },
             "dropdown": {
-                "toggle_dropdown_accessible_label": "下拉菜单开关"
+                "toggle_dropdown_accessible_label": "展开或收起更多菜单"
             },
             "data_segment": {
                 "label": "{label}："
@@ -838,10 +838,10 @@
                 "title": "=> core.ref.edit_user",
                 "username_heading": "=> core.ref.username",
                 "username_label": "=> core.ref.username",
-                "nothing_available": "您无权编辑此用户。"
+                "nothing_available": "你没有权限编辑此用户。"
             },
             "error": {
-                "circular_dependencies_message": "检测到循环依赖关系：{extensions}。正在中止操作。请禁用其中一个扩展，然后重试。",
+                "circular_dependencies_message": "检测到循环依赖关系：{extensions}，已中止操作。请禁用其中一个扩展后重试。",
                 "db_error_message": "数据库查询失败。某个扩展程序可能与当前使用的数据库驱动不兼容。",
                 "dependent_extensions_message": "无法禁用「{extension」。请先禁用以下依赖它的扩展：{extensions}",
                 "extension_initialiation_failed_message": "初始化「{extension}」失败，详情请查看浏览器控制台。",
