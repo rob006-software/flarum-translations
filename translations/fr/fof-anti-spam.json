@@ -78,7 +78,7 @@
                     "blocked_asns_label": "Numéros de système autonome (ASN) bloqués",
                     "blocked_asns_help": "Une par ligne, ou séparées par des virgules. Les inscriptions provenant de ces réseaux sont systématiquement refusées, que l'adresse figure dans la liste ou non. StopForumSpam renvoie le numéro de réseau à chaque requête, et presque personne ne navigue sur un forum depuis un hébergeur. Accepte 31272 ou AS31272. Laissez ce champ vide pour enregistrer le réseau sans prendre de mesure.",
                     "max_listing_age_label": "",
-                    "max_listing_age_help": "",
+                    "max_listing_age_help": "Une observation datant d'il y a plusieurs années ne nous apprend pas grand-chose sur la personne qui s'inscrit aujourd'hui. 0 conserve toutes les inscriptions, quelle que soit leur ancienneté. Les domaines et réseaux figurant sur la liste noire sont toujours pris en compte, indépendamment de cela.",
                     "registration_throttle_label": "Nombre de secondes entre deux inscriptions provenant d'une même adresse",
                     "registration_throttle_help": "Flarum limite la fréquence à laquelle une personne peut publier des messages, mais pas celle à laquelle elle peut créer des comptes. La valeur 0 désactive cette restriction. Gardez à l'esprit que les bureaux, les écoles et les réseaux mobiles partagent une même adresse entre de nombreuses personnes.",
                     "lookup_failed": "Impossible d'accéder à StopForumSpam (dernier échec : {when}). Les inscriptions sont autorisées sans vérification jusqu'à ce que le service soit rétabli.",
