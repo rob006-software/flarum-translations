@@ -12,6 +12,8 @@
                     "enabled_label": "Activer le filtrage de contenu",
                     "enabled_help": "Lorsque cette option est activée, les publications et les discussions des nouveaux utilisateurs seront analysées afin de détecter tout indicateur de spam.",
                     "user_targeting_heading": "Ciblage des utilisateurs",
+                    "monitor_all_users_label": "",
+                    "monitor_all_users_help": "",
                     "monitor_post_count_label": "Surveiller les utilisateurs jusqu'au nombre de messages",
                     "monitor_post_count_help": "Analysez uniquement le contenu des utilisateurs qui ont publié moins de ce nombre de messages. Définissez cette valeur sur 0 pour désactiver la vérification du nombre de messages.",
                     "monitor_hours_old_label": "Surveillez les utilisateurs jusqu'à plusieurs heures après leur création",
@@ -92,6 +94,19 @@
                     "report_blocked_registrations_help": "Lorsqu'une inscription est bloquée par la fonction de consultation des inscriptions, la tentative est signalée à StopForumSpam afin de mieux confirmer l'activité indésirable. Une clé API StopForumSpam doit être définie (voir ci-dessous)."
                 }
             },
+            "statistics": {
+                "heading": "",
+                "total_label": "",
+                "registrations_blocked": "",
+                "users_marked": "",
+                "posts_flagged": "",
+                "awaiting_review": "",
+                "this_week": "",
+                "vs_last_week": "",
+                "top_reason": "",
+                "view_all": "",
+                "failed": ""
+            },
             "blocked_registrations": {
                 "button": "Inscriptions bloquées",
                 "title": "Inscriptions bloquées",
@@ -104,7 +119,62 @@
                 "login-provider": "Fournisseur d'accès",
                 "login-provider-data": "Données du fournisseur de connexion",
                 "sfs-data": "Données de StopForumSpam",
-                "delete_entry": "Supprimer l'entrée"
+                "reasons": "",
+                "delete_entry": "Supprimer l'entrée",
+                "total": "",
+                "filters": {
+                    "placeholder": "",
+                    "apply": "",
+                    "clear": "",
+                    "hint": "",
+                    "no-matches": "",
+                    "help": {
+                        "toggle": "",
+                        "multiple": "",
+                        "negate": "",
+                        "ip": "",
+                        "email": "",
+                        "username": "",
+                        "provider": "",
+                        "reason": "",
+                        "attemptedAt": ""
+                    }
+                },
+                "evidence": {
+                    "label": "",
+                    "none": "",
+                    "lookup_failed": "",
+                    "blocked_by": "",
+                    "rule": {
+                        "confidence": "",
+                        "frequency": "",
+                        "blacklisted": "",
+                        "torExit": "",
+                        "deniedAsn": ""
+                    },
+                    "field": {
+                        "ip": "",
+                        "email": "",
+                        "username": ""
+                    },
+                    "badge": {
+                        "blacklisted": "",
+                        "tor_exit": "",
+                        "not_listed": "",
+                        "confidence": "",
+                        "frequency": "",
+                        "last_seen": "",
+                        "asn": "",
+                        "normalized": ""
+                    }
+                },
+                "raw_data": {
+                    "button": "",
+                    "title": "",
+                    "copy": "",
+                    "copied": "",
+                    "copy_failed": ""
+                }
             }
         },
         "forum": {

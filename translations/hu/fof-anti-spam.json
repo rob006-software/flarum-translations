@@ -12,6 +12,8 @@
                     "enabled_label": "Tartalomszűrés engedélyezése",
                     "enabled_help": "Ha be van kapcsolva, a felhasználók bejegyzései és témái elemezve lesznek, hogy nem kéretlen tartalomról van-e szó.",
                     "user_targeting_heading": "Felhasználók célzása",
+                    "monitor_all_users_label": "",
+                    "monitor_all_users_help": "",
                     "monitor_post_count_label": "Felhasználók követése egy adott bejegyzésszámig",
                     "monitor_post_count_help": "Csak azon felhasználók tartalmának elemzése, akik ennél kevesebb bejegyzést tettek közzé. Állítsa 0-ra, hogy letiltsa a bejegyzések számának ellenőrzését.",
                     "monitor_hours_old_label": "Felhasználók követése adott számú óráig",
@@ -92,6 +94,19 @@
                     "report_blocked_registrations_help": "Ha a Regisztrációk megkeresése funkció megakadályoz egy felhasználót a regisztrációban, akkor a próbálkozás jelentésre kerül a StopForumSpam számára, így a kéretlen tartalmat küldő tevékenysége jobban megerősíthető. Ehhez a StopForumSpam API-kulcsának beállítása szükséges (lásd alább)."
                 }
             },
+            "statistics": {
+                "heading": "",
+                "total_label": "",
+                "registrations_blocked": "",
+                "users_marked": "",
+                "posts_flagged": "",
+                "awaiting_review": "",
+                "this_week": "",
+                "vs_last_week": "",
+                "top_reason": "",
+                "view_all": "",
+                "failed": ""
+            },
             "blocked_registrations": {
                 "button": "Megakadályozott regisztrációk",
                 "title": "Megakadályozott regisztrációk",
@@ -104,7 +119,62 @@
                 "login-provider": "Bejelentkezési szolgáltató",
                 "login-provider-data": "Bejelentkezési szolgáltató adatai",
                 "sfs-data": "StopForumSpam adatok",
-                "delete_entry": "Bejegyzés törlése"
+                "reasons": "",
+                "delete_entry": "Bejegyzés törlése",
+                "total": "",
+                "filters": {
+                    "placeholder": "",
+                    "apply": "",
+                    "clear": "",
+                    "hint": "",
+                    "no-matches": "",
+                    "help": {
+                        "toggle": "",
+                        "multiple": "",
+                        "negate": "",
+                        "ip": "",
+                        "email": "",
+                        "username": "",
+                        "provider": "",
+                        "reason": "",
+                        "attemptedAt": ""
+                    }
+                },
+                "evidence": {
+                    "label": "",
+                    "none": "",
+                    "lookup_failed": "",
+                    "blocked_by": "",
+                    "rule": {
+                        "confidence": "",
+                        "frequency": "",
+                        "blacklisted": "",
+                        "torExit": "",
+                        "deniedAsn": ""
+                    },
+                    "field": {
+                        "ip": "",
+                        "email": "",
+                        "username": ""
+                    },
+                    "badge": {
+                        "blacklisted": "",
+                        "tor_exit": "",
+                        "not_listed": "",
+                        "confidence": "",
+                        "frequency": "",
+                        "last_seen": "",
+                        "asn": "",
+                        "normalized": ""
+                    }
+                },
+                "raw_data": {
+                    "button": "",
+                    "title": "",
+                    "copy": "",
+                    "copied": "",
+                    "copy_failed": ""
+                }
             }
         },
         "forum": {

@@ -12,6 +12,8 @@
                     "enabled_label": "Inhaltsfilter aktivieren",
                     "enabled_help": "Wenn aktiviert, werden Beiträge und Diskussionen neuer Benutzer auf Spam-Indikatoren analysiert.",
                     "user_targeting_heading": "Zielgruppenmonitoring",
+                    "monitor_all_users_label": "",
+                    "monitor_all_users_help": "",
                     "monitor_post_count_label": "Benutzer bis zu dieser Beitragsanzahl überwachen",
                     "monitor_post_count_help": "Es werden nur Beiträge von Nutzern analysiert, die weniger als diese Anzahl an Beiträgen verfasst haben. Setze den Wert auf 0, um die Überprüfung der Beitragsanzahl zu deaktivieren.",
                     "monitor_hours_old_label": "Benutzer nach Registrierungsalter überwachen",
@@ -92,6 +94,19 @@
                     "report_blocked_registrations_help": "Wenn eine Registrierung durch die Spam-Prüfung blockiert wird, melden wir den Versuch an StopForumSpam zurück, damit die Aktivität des Spammers besser bestätigt werden kann. Dazu muss ein StopForumSpam-API-Schlüssel festgelegt werden (siehe unten)."
                 }
             },
+            "statistics": {
+                "heading": "",
+                "total_label": "",
+                "registrations_blocked": "",
+                "users_marked": "",
+                "posts_flagged": "",
+                "awaiting_review": "",
+                "this_week": "",
+                "vs_last_week": "",
+                "top_reason": "",
+                "view_all": "",
+                "failed": ""
+            },
             "blocked_registrations": {
                 "button": "Blockierte Registrierungen",
                 "title": "Blockierte Registrierungen",
@@ -104,7 +119,62 @@
                 "login-provider": "Anmeldeanbieter",
                 "login-provider-data": "Daten des Loginanbieters",
                 "sfs-data": "StopForumSpam-Daten",
-                "delete_entry": "Eintrag löschen"
+                "reasons": "",
+                "delete_entry": "Eintrag löschen",
+                "total": "",
+                "filters": {
+                    "placeholder": "",
+                    "apply": "",
+                    "clear": "",
+                    "hint": "",
+                    "no-matches": "",
+                    "help": {
+                        "toggle": "",
+                        "multiple": "",
+                        "negate": "",
+                        "ip": "",
+                        "email": "",
+                        "username": "",
+                        "provider": "",
+                        "reason": "",
+                        "attemptedAt": ""
+                    }
+                },
+                "evidence": {
+                    "label": "",
+                    "none": "",
+                    "lookup_failed": "",
+                    "blocked_by": "",
+                    "rule": {
+                        "confidence": "",
+                        "frequency": "",
+                        "blacklisted": "",
+                        "torExit": "",
+                        "deniedAsn": ""
+                    },
+                    "field": {
+                        "ip": "",
+                        "email": "",
+                        "username": ""
+                    },
+                    "badge": {
+                        "blacklisted": "",
+                        "tor_exit": "",
+                        "not_listed": "",
+                        "confidence": "",
+                        "frequency": "",
+                        "last_seen": "",
+                        "asn": "",
+                        "normalized": ""
+                    }
+                },
+                "raw_data": {
+                    "button": "",
+                    "title": "",
+                    "copy": "",
+                    "copied": "",
+                    "copy_failed": ""
+                }
             }
         },
         "forum": {

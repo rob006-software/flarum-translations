@@ -12,6 +12,8 @@
                     "enabled_label": "",
                     "enabled_help": "",
                     "user_targeting_heading": "",
+                    "monitor_all_users_label": "",
+                    "monitor_all_users_help": "",
                     "monitor_post_count_label": "",
                     "monitor_post_count_help": "",
                     "monitor_hours_old_label": "",
@@ -92,6 +94,19 @@
                     "report_blocked_registrations_help": "เมื่อการลงทะเบียนถูกบล็อกโดยฟีเจอร์ตรวจสอบการลงทะเบียน เราจะส่งรายงานความพยายามนั้นกลับไปยัง StopForumSpam เพื่อช่วยยืนยันพฤติกรรมของผู้ส่งสแปม จำเป็นต้องตั้งค่า StopForumSpam API key ก่อน (ดูด้านล่าง)"
                 }
             },
+            "statistics": {
+                "heading": "",
+                "total_label": "",
+                "registrations_blocked": "",
+                "users_marked": "",
+                "posts_flagged": "",
+                "awaiting_review": "",
+                "this_week": "",
+                "vs_last_week": "",
+                "top_reason": "",
+                "view_all": "",
+                "failed": ""
+            },
             "blocked_registrations": {
                 "button": "การลงทะเบียนที่ถูกบล็อก",
                 "title": "การลงทะเบียนที่ถูกบล็อก",
@@ -104,7 +119,62 @@
                 "login-provider": "ผู้ให้บริการเข้าระบบ",
                 "login-provider-data": "ข้อมูลผู้ให้บริการเข้าระบบ",
                 "sfs-data": "ข้อมูล StopForumSpam",
-                "delete_entry": "ลบรายการ"
+                "reasons": "",
+                "delete_entry": "ลบรายการ",
+                "total": "",
+                "filters": {
+                    "placeholder": "",
+                    "apply": "",
+                    "clear": "",
+                    "hint": "",
+                    "no-matches": "",
+                    "help": {
+                        "toggle": "",
+                        "multiple": "",
+                        "negate": "",
+                        "ip": "",
+                        "email": "",
+                        "username": "",
+                        "provider": "",
+                        "reason": "",
+                        "attemptedAt": ""
+                    }
+                },
+                "evidence": {
+                    "label": "",
+                    "none": "",
+                    "lookup_failed": "",
+                    "blocked_by": "",
+                    "rule": {
+                        "confidence": "",
+                        "frequency": "",
+                        "blacklisted": "",
+                        "torExit": "",
+                        "deniedAsn": ""
+                    },
+                    "field": {
+                        "ip": "",
+                        "email": "",
+                        "username": ""
+                    },
+                    "badge": {
+                        "blacklisted": "",
+                        "tor_exit": "",
+                        "not_listed": "",
+                        "confidence": "",
+                        "frequency": "",
+                        "last_seen": "",
+                        "asn": "",
+                        "normalized": ""
+                    }
+                },
+                "raw_data": {
+                    "button": "",
+                    "title": "",
+                    "copy": "",
+                    "copied": "",
+                    "copy_failed": ""
+                }
             }
         },
         "forum": {

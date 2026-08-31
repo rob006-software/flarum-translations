@@ -13,7 +13,9 @@
     "ianm-follow-users": {
         "admin": {
             "permissions": {
-                "be_followed_label": "Autoriser les utilisateurs à suivre"
+                "follow_label": "",
+                "be_followed_label": "Autoriser les utilisateurs à suivre",
+                "view_followed_users_label": ""
             },
             "settings": {
                 "button-on-profile-label": "Afficher le bouton « Suivre » directement sur l'en-tête du profil de l'utilisateur",

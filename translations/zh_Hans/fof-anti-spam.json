@@ -12,6 +12,8 @@
                     "enabled_label": "启用内容过滤",
                     "enabled_help": "启用后，将分析新用户的帖子和讨论中的垃圾信息指标。",
                     "user_targeting_heading": "目标用户",
+                    "monitor_all_users_label": "",
+                    "monitor_all_users_help": "",
                     "monitor_post_count_label": "监控发帖数不超过此数量的用户",
                     "monitor_post_count_help": "仅分析发帖数量少于此数值的用户内容。设置为 0 以禁用发帖数检查。",
                     "monitor_hours_old_label": "监控注册时间不超过此小时数的用户",
@@ -92,6 +94,19 @@
                     "report_blocked_registrations_help": "当注册被“查询注册信息”功能拦截时，我们将向 StopForumSpam 报告此次尝试，以便更好地确认垃圾行为。需要设置 StopForumSpam API 密钥（见下文）。"
                 }
             },
+            "statistics": {
+                "heading": "",
+                "total_label": "",
+                "registrations_blocked": "",
+                "users_marked": "",
+                "posts_flagged": "",
+                "awaiting_review": "",
+                "this_week": "",
+                "vs_last_week": "",
+                "top_reason": "",
+                "view_all": "",
+                "failed": ""
+            },
             "blocked_registrations": {
                 "button": "已拦截的注册",
                 "title": "已拦截的注册",
@@ -104,7 +119,62 @@
                 "login-provider": "登录提供商",
                 "login-provider-data": "登录提供商数据",
                 "sfs-data": "StopForumSpam 数据",
-                "delete_entry": "删除条目"
+                "reasons": "",
+                "delete_entry": "删除条目",
+                "total": "",
+                "filters": {
+                    "placeholder": "",
+                    "apply": "",
+                    "clear": "",
+                    "hint": "",
+                    "no-matches": "",
+                    "help": {
+                        "toggle": "",
+                        "multiple": "",
+                        "negate": "",
+                        "ip": "",
+                        "email": "",
+                        "username": "",
+                        "provider": "",
+                        "reason": "",
+                        "attemptedAt": ""
+                    }
+                },
+                "evidence": {
+                    "label": "",
+                    "none": "",
+                    "lookup_failed": "",
+                    "blocked_by": "",
+                    "rule": {
+                        "confidence": "",
+                        "frequency": "",
+                        "blacklisted": "",
+                        "torExit": "",
+                        "deniedAsn": ""
+                    },
+                    "field": {
+                        "ip": "",
+                        "email": "",
+                        "username": ""
+                    },
+                    "badge": {
+                        "blacklisted": "",
+                        "tor_exit": "",
+                        "not_listed": "",
+                        "confidence": "",
+                        "frequency": "",
+                        "last_seen": "",
+                        "asn": "",
+                        "normalized": ""
+                    }
+                },
+                "raw_data": {
+                    "button": "",
+                    "title": "",
+                    "copy": "",
+                    "copied": "",
+                    "copy_failed": ""
+                }
             }
         },
         "forum": {

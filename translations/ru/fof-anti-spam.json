@@ -12,6 +12,8 @@
                     "enabled_label": "Включить фильтр контента",
                     "enabled_help": "Если включено, сообщения и темы новых пользователей будут проверяться на признаки спама.",
                     "user_targeting_heading": "Выбор пользователей",
+                    "monitor_all_users_label": "",
+                    "monitor_all_users_help": "",
                     "monitor_post_count_label": "Отслеживать пользователей до указанного количества сообщений",
                     "monitor_post_count_help": "Анализировать контент только от пользователей, у которых меньше указанного количества сообщений. Установите 0, чтобы отключить проверку.",
                     "monitor_hours_old_label": "Отслеживать пользователей не старше указанного количества часов",
@@ -92,6 +94,19 @@
                     "report_blocked_registrations_help": "При блокировании регистрации пользователя функцией \"Поиск регистраций\", мы отправим отчёт в StopForumSpam для подтверждения активности спамеров. Для работы этого параметра требуется указать ключ API StopForumSpam."
                 }
             },
+            "statistics": {
+                "heading": "",
+                "total_label": "",
+                "registrations_blocked": "",
+                "users_marked": "",
+                "posts_flagged": "",
+                "awaiting_review": "",
+                "this_week": "",
+                "vs_last_week": "",
+                "top_reason": "",
+                "view_all": "",
+                "failed": ""
+            },
             "blocked_registrations": {
                 "button": "Заблокированные регистрации",
                 "title": "Заблокированные регистрации",
@@ -104,7 +119,62 @@
                 "login-provider": "Провайдер",
                 "login-provider-data": "Данные провайдера",
                 "sfs-data": "Данные StopForumSpam",
-                "delete_entry": "Удалить запись"
+                "reasons": "",
+                "delete_entry": "Удалить запись",
+                "total": "",
+                "filters": {
+                    "placeholder": "",
+                    "apply": "",
+                    "clear": "",
+                    "hint": "",
+                    "no-matches": "",
+                    "help": {
+                        "toggle": "",
+                        "multiple": "",
+                        "negate": "",
+                        "ip": "",
+                        "email": "",
+                        "username": "",
+                        "provider": "",
+                        "reason": "",
+                        "attemptedAt": ""
+                    }
+                },
+                "evidence": {
+                    "label": "",
+                    "none": "",
+                    "lookup_failed": "",
+                    "blocked_by": "",
+                    "rule": {
+                        "confidence": "",
+                        "frequency": "",
+                        "blacklisted": "",
+                        "torExit": "",
+                        "deniedAsn": ""
+                    },
+                    "field": {
+                        "ip": "",
+                        "email": "",
+                        "username": ""
+                    },
+                    "badge": {
+                        "blacklisted": "",
+                        "tor_exit": "",
+                        "not_listed": "",
+                        "confidence": "",
+                        "frequency": "",
+                        "last_seen": "",
+                        "asn": "",
+                        "normalized": ""
+                    }
+                },
+                "raw_data": {
+                    "button": "",
+                    "title": "",
+                    "copy": "",
+                    "copied": "",
+                    "copy_failed": ""
+                }
             }
         },
         "forum": {

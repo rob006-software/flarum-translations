@@ -12,6 +12,8 @@
                     "enabled_label": "Ota sisältösuodatus käyttöön",
                     "enabled_help": "Kun käytössä, uusien käyttäjien viestit ja keskustelut analysoidaan roskapostin tunnusmerkkien varalta.",
                     "user_targeting_heading": "Käyttäjäkohdistus",
+                    "monitor_all_users_label": "",
+                    "monitor_all_users_help": "",
                     "monitor_post_count_label": "Seuraa käyttäjiä viestirajaan asti",
                     "monitor_post_count_help": "Analysoi vain niiden käyttäjien sisältöä, joilla on tätä vähemmän viestejä. Aseta arvoksi 0 poistaaksesi viestirajatarkistuksen käytöstä.",
                     "monitor_hours_old_label": "Seuraa käyttäjiä tuntirajan asti",
@@ -92,6 +94,19 @@
                     "report_blocked_registrations_help": "Kun rekisteröinti estetään Rekisteröintien haku -ominaisuuden avulla, ilmoitamme yrityksestä takaisin StopForumSpam-palveluun, jotta roskapostittajan toiminta voidaan varmemmin vahvistaa. Tämä vaatii StopForumSpam API-avaimen asettamisen (katso alla)."
                 }
             },
+            "statistics": {
+                "heading": "",
+                "total_label": "",
+                "registrations_blocked": "",
+                "users_marked": "",
+                "posts_flagged": "",
+                "awaiting_review": "",
+                "this_week": "",
+                "vs_last_week": "",
+                "top_reason": "",
+                "view_all": "",
+                "failed": ""
+            },
             "blocked_registrations": {
                 "button": "Estetyt rekisteröinnit",
                 "title": "Estetyt rekisteröinnit",
@@ -104,7 +119,62 @@
                 "login-provider": "Sisäänkirjautumisen tarjoaja",
                 "login-provider-data": "Sisäänkirjautumisen tarjoajan tiedot",
                 "sfs-data": "StopForumSpam tiedot",
-                "delete_entry": "Poista merkintä"
+                "reasons": "",
+                "delete_entry": "Poista merkintä",
+                "total": "",
+                "filters": {
+                    "placeholder": "",
+                    "apply": "",
+                    "clear": "",
+                    "hint": "",
+                    "no-matches": "",
+                    "help": {
+                        "toggle": "",
+                        "multiple": "",
+                        "negate": "",
+                        "ip": "",
+                        "email": "",
+                        "username": "",
+                        "provider": "",
+                        "reason": "",
+                        "attemptedAt": ""
+                    }
+                },
+                "evidence": {
+                    "label": "",
+                    "none": "",
+                    "lookup_failed": "",
+                    "blocked_by": "",
+                    "rule": {
+                        "confidence": "",
+                        "frequency": "",
+                        "blacklisted": "",
+                        "torExit": "",
+                        "deniedAsn": ""
+                    },
+                    "field": {
+                        "ip": "",
+                        "email": "",
+                        "username": ""
+                    },
+                    "badge": {
+                        "blacklisted": "",
+                        "tor_exit": "",
+                        "not_listed": "",
+                        "confidence": "",
+                        "frequency": "",
+                        "last_seen": "",
+                        "asn": "",
+                        "normalized": ""
+                    }
+                },
+                "raw_data": {
+                    "button": "",
+                    "title": "",
+                    "copy": "",
+                    "copied": "",
+                    "copy_failed": ""
+                }
             }
         },
         "forum": {

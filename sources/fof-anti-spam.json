@@ -12,6 +12,8 @@
                     "enabled_label": "Enable content filtering",
                     "enabled_help": "When enabled, posts and discussions from new users will be analyzed for spam indicators.",
                     "user_targeting_heading": "User Targeting",
+                    "monitor_all_users_label": "Monitor all users",
+                    "monitor_all_users_help": "Check every post, not just those from new accounts. Without this, an account is never examined again once it passes the limits below — which is exactly the case for a member whose account is compromised, or one that waits the limits out before posting spam. Administrators, and anyone whose group can hide discussions, are never monitored either way. Expect more false positives from established members, so review your thresholds before turning this on.\n",
                     "monitor_post_count_label": "Monitor users up to post count",
                     "monitor_post_count_help": "Only analyze content from users who have made fewer than this many posts. Set to 0 to disable post count checking.",
                     "monitor_hours_old_label": "Monitor users up to hours old",
@@ -92,6 +94,19 @@
                     "report_blocked_registrations_help": "When a registration is blocked by the Lookup Registrations feature, we will report the attempt back to StopForumSpam, so that the spammers activity can be better confirmed. Requires a StopForumSpam API key to be set (see below)."
                 }
             },
+            "statistics": {
+                "heading": "Spam Defence",
+                "total_label": "Total",
+                "registrations_blocked": "Registrations blocked",
+                "users_marked": "Users marked as spammers",
+                "posts_flagged": "Posts flagged as spam",
+                "awaiting_review": "Flags awaiting review",
+                "this_week": "{count, plural, one {# this week} other {# this week}}",
+                "vs_last_week": "Compared with the previous seven days",
+                "top_reason": "Most often: {reason} ({count, plural, one {# block} other {# blocks}})",
+                "view_all": "View blocked registrations",
+                "failed": "Could not load spam statistics."
+            },
             "blocked_registrations": {
                 "button": "Blocked Registrations",
                 "title": "Blocked Registrations",
@@ -104,7 +119,62 @@
                 "login-provider": "Login Provider",
                 "login-provider-data": "Login Provider Data",
                 "sfs-data": "StopForumSpam Data",
-                "delete_entry": "Delete entry"
+                "reasons": "Recorded block reasons",
+                "delete_entry": "Delete entry",
+                "total": "{count, plural, one {# blocked registration} other {# blocked registrations}}",
+                "filters": {
+                    "placeholder": "Search, or filter with key:value",
+                    "apply": "Apply",
+                    "clear": "Clear search",
+                    "hint": "Filters:",
+                    "no-matches": "No blocked registrations match this search.",
+                    "help": {
+                        "toggle": "Search help",
+                        "multiple": "Combine filters by separating them with spaces.",
+                        "negate": "Prefix a filter with - to exclude matches, e.g. -provider:github",
+                        "ip": "Attempts from an exact IP address.",
+                        "email": "Attempts using an exact email address.",
+                        "username": "Attempts using an exact username.",
+                        "provider": "The login provider the attempt came through.",
+                        "reason": "The rule that blocked the attempt. Only recorded for recent blocks.",
+                        "attemptedAt": "A date, or a range such as 2026-01-01..2026-02-01. Either side may be left open."
+                    }
+                },
+                "evidence": {
+                    "label": "Why this was blocked",
+                    "none": "No StopForumSpam data was recorded for this attempt.",
+                    "lookup_failed": "The StopForumSpam lookup failed, so no data was returned for this attempt.",
+                    "blocked_by": "Blocked by",
+                    "rule": {
+                        "confidence": "Confidence threshold",
+                        "frequency": "Report threshold",
+                        "blacklisted": "Blacklisted",
+                        "torExit": "Tor exit node",
+                        "deniedAsn": "Denied network"
+                    },
+                    "field": {
+                        "ip": "IP",
+                        "email": "Email",
+                        "username": "Username"
+                    },
+                    "badge": {
+                        "blacklisted": "Blacklisted",
+                        "tor_exit": "Tor exit node",
+                        "not_listed": "Not listed",
+                        "confidence": "{value}% confidence",
+                        "frequency": "{count, plural, one {reported # time} other {reported # times}}",
+                        "last_seen": "last seen {when}",
+                        "asn": "AS{asn}",
+                        "normalized": "normalises to {value}"
+                    }
+                },
+                "raw_data": {
+                    "button": "View raw data",
+                    "title": "Raw recorded data",
+                    "copy": "Copy",
+                    "copied": "Copied to clipboard.",
+                    "copy_failed": "Could not copy to clipboard."
+                }
             }
         },
         "forum": {

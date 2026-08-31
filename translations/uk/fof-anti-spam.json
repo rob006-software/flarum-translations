@@ -12,6 +12,8 @@
                     "enabled_label": "",
                     "enabled_help": "",
                     "user_targeting_heading": "",
+                    "monitor_all_users_label": "",
+                    "monitor_all_users_help": "",
                     "monitor_post_count_label": "",
                     "monitor_post_count_help": "",
                     "monitor_hours_old_label": "",
@@ -92,6 +94,19 @@
                     "report_blocked_registrations_help": "Коли реєстрація буде заблокована функцією пошуку реєстрацій, ми повідомимо StopForumSpam про цю спробу, щоб можна було краще підтвердити активність спамерів. Потрібно встановити ключ API StopForumSpam (див. нижче)."
                 }
             },
+            "statistics": {
+                "heading": "",
+                "total_label": "",
+                "registrations_blocked": "",
+                "users_marked": "",
+                "posts_flagged": "",
+                "awaiting_review": "",
+                "this_week": "",
+                "vs_last_week": "",
+                "top_reason": "",
+                "view_all": "",
+                "failed": ""
+            },
             "blocked_registrations": {
                 "button": "Заблоковані реєстрації",
                 "title": "Заблоковані реєстрації",
@@ -104,7 +119,62 @@
                 "login-provider": "Постачальник послуг входу",
                 "login-provider-data": "Дані постачальника послуг входу",
                 "sfs-data": "Дані StopForumSpam",
-                "delete_entry": "Видалити запис"
+                "reasons": "",
+                "delete_entry": "Видалити запис",
+                "total": "",
+                "filters": {
+                    "placeholder": "",
+                    "apply": "",
+                    "clear": "",
+                    "hint": "",
+                    "no-matches": "",
+                    "help": {
+                        "toggle": "",
+                        "multiple": "",
+                        "negate": "",
+                        "ip": "",
+                        "email": "",
+                        "username": "",
+                        "provider": "",
+                        "reason": "",
+                        "attemptedAt": ""
+                    }
+                },
+                "evidence": {
+                    "label": "",
+                    "none": "",
+                    "lookup_failed": "",
+                    "blocked_by": "",
+                    "rule": {
+                        "confidence": "",
+                        "frequency": "",
+                        "blacklisted": "",
+                        "torExit": "",
+                        "deniedAsn": ""
+                    },
+                    "field": {
+                        "ip": "",
+                        "email": "",
+                        "username": ""
+                    },
+                    "badge": {
+                        "blacklisted": "",
+                        "tor_exit": "",
+                        "not_listed": "",
+                        "confidence": "",
+                        "frequency": "",
+                        "last_seen": "",
+                        "asn": "",
+                        "normalized": ""
+                    }
+                },
+                "raw_data": {
+                    "button": "",
+                    "title": "",
+                    "copy": "",
+                    "copied": "",
+                    "copy_failed": ""
+                }
             }
         },
         "forum": {

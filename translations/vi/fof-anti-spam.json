@@ -12,6 +12,8 @@
                     "enabled_label": "",
                     "enabled_help": "",
                     "user_targeting_heading": "",
+                    "monitor_all_users_label": "",
+                    "monitor_all_users_help": "",
                     "monitor_post_count_label": "",
                     "monitor_post_count_help": "",
                     "monitor_hours_old_label": "",
@@ -92,6 +94,19 @@
                     "report_blocked_registrations_help": "Khi đăng ký bị chặn bởi tính năng Tra cứu đăng ký, chúng tôi sẽ báo cáo nỗ lực đó về StopForumSpam để xác thực hoạt động spam tốt hơn. Yêu cầu có API key StopForumSpam (xem bên dưới)."
                 }
             },
+            "statistics": {
+                "heading": "",
+                "total_label": "",
+                "registrations_blocked": "",
+                "users_marked": "",
+                "posts_flagged": "",
+                "awaiting_review": "",
+                "this_week": "",
+                "vs_last_week": "",
+                "top_reason": "",
+                "view_all": "",
+                "failed": ""
+            },
             "blocked_registrations": {
                 "button": "Đăng ký bị chặn",
                 "title": "Đăng ký bị chặn",
@@ -104,7 +119,62 @@
                 "login-provider": "Nhà cung cấp đăng nhập",
                 "login-provider-data": "Dữ liệu nhà cung cấp đăng nhập",
                 "sfs-data": "Dữ liệu StopForumSpam",
-                "delete_entry": "Xóa bản ghi"
+                "reasons": "",
+                "delete_entry": "Xóa bản ghi",
+                "total": "",
+                "filters": {
+                    "placeholder": "",
+                    "apply": "",
+                    "clear": "",
+                    "hint": "",
+                    "no-matches": "",
+                    "help": {
+                        "toggle": "",
+                        "multiple": "",
+                        "negate": "",
+                        "ip": "",
+                        "email": "",
+                        "username": "",
+                        "provider": "",
+                        "reason": "",
+                        "attemptedAt": ""
+                    }
+                },
+                "evidence": {
+                    "label": "",
+                    "none": "",
+                    "lookup_failed": "",
+                    "blocked_by": "",
+                    "rule": {
+                        "confidence": "",
+                        "frequency": "",
+                        "blacklisted": "",
+                        "torExit": "",
+                        "deniedAsn": ""
+                    },
+                    "field": {
+                        "ip": "",
+                        "email": "",
+                        "username": ""
+                    },
+                    "badge": {
+                        "blacklisted": "",
+                        "tor_exit": "",
+                        "not_listed": "",
+                        "confidence": "",
+                        "frequency": "",
+                        "last_seen": "",
+                        "asn": "",
+                        "normalized": ""
+                    }
+                },
+                "raw_data": {
+                    "button": "",
+                    "title": "",
+                    "copy": "",
+                    "copied": "",
+                    "copy_failed": ""
+                }
             }
         },
         "forum": {
