@@ -8,13 +8,13 @@ are fully in sync and are not listed here.
 | Language | Different translations | Missing translations | Components |
 | --- | --- | --- | --- |
 | [Azerbaijani](az.md) (`az`) | 0 | 2 | 1 |
-| [Chinese (Simplified)](zh_Hans.md) (`zh_Hans`) | 564 | 1541 | 113 |
+| [Chinese (Simplified)](zh_Hans.md) (`zh_Hans`) | 567 | 1541 | 113 |
 | [Chinese (Traditional)](zh_Hant.md) (`zh_Hant`) | 33 | 199 | 6 |
 | [Dutch](nl.md) (`nl`) | 0 | 9 | 8 |
 | [Finnish](fi.md) (`fi`) | 5 | 61 | 7 |
-| [French](fr.md) (`fr`) | 124 | 1189 | 58 |
-| [German](de.md) (`de`) | 314 | 655 | 93 |
-| [German (formal)](de@formal.md) (`de@formal`) | 362 | 655 | 94 |
+| [French](fr.md) (`fr`) | 126 | 1189 | 60 |
+| [German](de.md) (`de`) | 314 | 657 | 93 |
+| [German (formal)](de@formal.md) (`de@formal`) | 362 | 657 | 94 |
 | [Hungarian](hu.md) (`hu`) | 44 | 6 | 22 |
 | [Indonesian](id.md) (`id`) | 1 | 0 | 1 |
 | [Italian](it.md) (`it`) | 0 | 1 | 1 |
@@ -26,6 +26,6 @@ are fully in sync and are not listed here.
 | [Serbian (Latin)](sr_Latn.md) (`sr_Latn`) | 0 | 5 | 1 |
 | [Spanish](es.md) (`es`) | 12 | 1180 | 59 |
 | [Spanish (formal)](es@formal.md) (`es@formal`) | 9 | 1180 | 58 |
-| [Swedish](sv.md) (`sv`) | 195 | 238 | 16 |
+| [Swedish](sv.md) (`sv`) | 195 | 440 | 18 |
 | [Turkish](tr.md) (`tr`) | 6 | 0 | 5 |
 | [Vietnamese](vi.md) (`vi`) | 3 | 0 | 1 |

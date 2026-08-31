@@ -2,7 +2,7 @@
 
 Translations for Chinese (Simplified) (`zh_Hans`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **564** are translated differently and **1541** are
+sides, but do not match between them: **567** are translated differently and **1541** are
 translated only in `zh_Hans`. Altogether they cover **113** components.
 
 <!-- {% raw %} -->
@@ -14,7 +14,7 @@ translated only in `zh_Hans`. Altogether they cover **113** components.
 | --- | --- | --- |
 | `acpl-lscache` | [3](#acpl-lscache) | [8](#acpl-lscache-missing) |
 | `antoinefr-money` | [7](#antoinefr-money) | 0 |
-| `core` | [38](#core) | 0 |
+| `core` | [41](#core) | 0 |
 | `datitisev-backup` | [28](#datitisev-backup) | 0 |
 | `datlechin-birthdays` | [1](#datlechin-birthdays) | 0 |
 | `datlechin-more-discussions` | [5](#datlechin-more-discussions) | 0 |
@@ -303,6 +303,33 @@ Flarum <del>维护着一份《&lt;a&gt;停止维护的扩展程序清单&lt;/a&g
 
 SMTP <del>设置</del><ins>服务</ins>
 
+#### [`core.admin.extension.configure_scopes`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.extension.configure_scopes%22)
+
+> Configure Scopes
+
+```diff
+-按标签配置
++添加标签配置
+```
+
+#### [`core.admin.extension.no_permissions`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.extension.no_permissions%22)
+
+> This extension has no permissions.
+
+```diff
+-此扩展程序无可配置权限。
++无新增权限
+```
+
+#### [`core.admin.extension.no_settings`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.extension.no_settings%22)
+
+> This extension has no settings.
+
+```diff
+-此扩展程序无设置项。
++无设置项
+```
+
 #### [`core.admin.permissions.start_discussions_label`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.permissions.start_discussions_label%22)
 
 > Start discussions
@@ -327,7 +354,7 @@ SMTP <del>设置</del><ins>服务</ins>
 
 ```diff
 -发现已停止维护的扩展，请处理
-+注意：发现了已弃用扩展
++扩展已停止维护
 ```
 
 #### [`core.forum.change_email.incorrect_password_message`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.forum.change_email.incorrect_password_message%22)

@@ -2,7 +2,7 @@
 
 Translations for German (`de`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **314** are translated differently and **655** are
+sides, but do not match between them: **314** are translated differently and **657** are
 translated only in `de`. Altogether they cover **93** components.
 
 <!-- {% raw %} -->
@@ -79,7 +79,7 @@ translated only in `de`. Altogether they cover **93** components.
 | `justoverclock-related-discussions` | [2](#justoverclock-related-discussions) | 0 |
 | `justoverclock-welcomebox` | [2](#justoverclock-welcomebox) | 0 |
 | `linkrobins-badge-labels` | 0 | [34](#linkrobins-badge-labels-missing) |
-| `linkrobins-birdseye` | [3](#linkrobins-birdseye) | 0 |
+| `linkrobins-birdseye` | [3](#linkrobins-birdseye) | [2](#linkrobins-birdseye-missing) |
 | `linkrobins-link-gate` | 0 | [12](#linkrobins-link-gate-missing) |
 | `maicol07-sso` | 0 | [13](#maicol07-sso-missing) |
 | `michaelbelgium-ai-autoreply` | 0 | [22](#michaelbelgium-ai-autoreply-missing) |
@@ -5655,6 +5655,25 @@ These strings are translated only in `de`, so there is nothing to inherit from F
 
 ```diff
 +{count, plural, one {# Beitrag} other {# Beiträge}}
+```
+
+
+### `linkrobins-birdseye` (missing)
+
+#### [`linkrobins-birdseye.admin.settings.geoip_db_path_help`](https://weblate.rob006.net/translate/flarum2/linkrobins-birdseye/de/?q=context%3A%3D%22linkrobins-birdseye.admin.settings.geoip_db_path_help%22)
+
+> Full path on this server to a MaxMind country database, such as the free GeoLite2-Country.mmdb (download it from maxmind.com under your own account). Used only when no trusted proxy header supplies the country; every lookup happens on this server.
+
+```diff
++Vollständiger Pfad auf diesem Server zu einer MaxMind-Länderdatenbank, beispielsweise der kostenlosen Datei „GeoLite2-Country.mmdb“ (die du unter deinem eigenen Konto von maxmind.com herunterladen kannst). Wird nur verwendet, wenn kein vertrauenswürdiger Proxy-Header das Land angibt; jede Auflösung erfolgt lokal auf diesem Server.
+```
+
+#### [`linkrobins-birdseye.admin.settings.geoip_db_path_label`](https://weblate.rob006.net/translate/flarum2/linkrobins-birdseye/de/?q=context%3A%3D%22linkrobins-birdseye.admin.settings.geoip_db_path_label%22)
+
+> Country database file (optional)
+
+```diff
++Datei mit Länderdatenbank (optional)
 ```
 
 

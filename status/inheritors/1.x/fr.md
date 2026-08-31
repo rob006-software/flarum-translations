@@ -2,8 +2,8 @@
 
 Translations for French (`fr`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **124** are translated differently and **1189** are
-translated only in `fr`. Altogether they cover **58** components.
+sides, but do not match between them: **126** are translated differently and **1189** are
+translated only in `fr`. Altogether they cover **60** components.
 
 <!-- {% raw %} -->
 
@@ -15,8 +15,10 @@ translated only in `fr`. Altogether they cover **58** components.
 | `acpl-lscache` | [1](#acpl-lscache) | 0 |
 | `core` | [7](#core) | [3](#core-missing) |
 | `datitisev-backup` | [1](#datitisev-backup) | 0 |
+| `datlechin-keyboard-shortcuts` | [1](#datlechin-keyboard-shortcuts) | 0 |
 | `ekumanov-inline-audio` | [4](#ekumanov-inline-audio) | 0 |
 | `ekumanov-new-posts-notice` | [2](#ekumanov-new-posts-notice) | 0 |
+| `ffans-geetest` | [1](#ffans-geetest) | 0 |
 | `flarum-audit` | 0 | [93](#flarum-audit-missing) |
 | `flarum-extension-manager` | [2](#flarum-extension-manager) | 0 |
 | `flarum-sticky` | 0 | [1](#flarum-sticky-missing) |
@@ -183,6 +185,18 @@ Modifier <del>le</del><ins>l'ordre</ins> <del>tri</del><ins>d'affichage</ins> <d
 Le nom d'hôte auquel se connecter avec FTP, <del>par</del><ins>p.</ins> <del>exemple</del><ins>ex.</ins> : &lt;em&gt;ftp.votredomaine.local&lt;/em&gt;.
 
 
+### `datlechin-keyboard-shortcuts`
+
+#### [`datlechin-keyboard-shortcuts.lib.shortcuts.signup`](https://weblate.rob006.net/translate/flarum2/datlechin-keyboard-shortcuts/fr/?q=context%3A%3D%22datlechin-keyboard-shortcuts.lib.shortcuts.signup%22)
+
+> Sign up
+
+```diff
+-Inscription
++S'inscrire
+```
+
+
 ### `ekumanov-inline-audio`
 
 #### [`ekumanov-inline-audio.admin.settings.auto_play`](https://weblate.rob006.net/translate/flarum2/ekumanov-inline-audio/fr/?q=context%3A%3D%22ekumanov-inline-audio.admin.settings.auto_play%22)
@@ -267,6 +281,20 @@ Masquer le préfixe numérique des noms de fichiers <del>téléchargés</del><in
 ```
 
 Une nouvelle réponse a été ajoutée pendant que vous écriviez.<br /><br /><del>Valider</del><ins>OK</ins> → Publier quand même votre réponse<br />Annuler →<del> La</del> <del>lire</del><ins>Lire</ins> d'abord<ins> la réponse qui a été ajoutée</ins> (votre brouillon reste ouvert)
+
+
+### `ffans-geetest`
+
+#### [`ffans-geetest.admin.settings.config.standalone_help_text`](https://weblate.rob006.net/translate/flarum2/ffans-geetest/fr/?q=context%3A%3D%22ffans-geetest.admin.settings.config.standalone_help_text%22)
+
+> Enable to use a standalone configuration for this scenario.
+
+```diff
+-Activer pour utiliser une configuration autonome pour ce scénario.
++Permettre l'utilisation d'une configuration autonome pour ce scénario.
+```
+
+<del>Activer pour</del><ins>Permettre</ins> <del>utiliser</del><ins>l'utilisation</ins> <del>une</del><ins>d'une</ins> configuration autonome pour ce scénario.
 
 
 ### `flarum-extension-manager`
@@ -10465,7 +10493,7 @@ These strings are translated only in `fr`, so there is nothing to inherit from F
 > Wrap the shortcode in colons and use only letters, numbers, and \_ + - (e.g. :myemoji\_partyparrot:).
 
 ```diff
-+Enveloppez le code court entre deux deux-points et utilisez uniquement des lettres, des chiffres et les caractères _ + - (p. ex. :myemoji_partyparrot:).
++Encadrez le code court entre deux deux-points et utilisez uniquement des lettres, des chiffres et les caractères _ + - (p. ex. :myemoji_partyparrot:).
 ```
 
 #### [`pianotell-flamoji.admin.custom_emojis_section.edit_emoji.submit_button`](https://weblate.rob006.net/translate/flarum2/pianotell-flamoji/fr/?q=context%3A%3D%22pianotell-flamoji.admin.custom_emojis_section.edit_emoji.submit_button%22)

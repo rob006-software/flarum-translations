@@ -2,8 +2,8 @@
 
 Translations for Swedish (`sv`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **195** are translated differently and **238** are
-translated only in `sv`. Altogether they cover **16** components.
+sides, but do not match between them: **195** are translated differently and **440** are
+translated only in `sv`. Altogether they cover **18** components.
 
 <!-- {% raw %} -->
 
@@ -17,7 +17,9 @@ translated only in `sv`. Altogether they cover **16** components.
 | `flarum-akismet` | [1](#flarum-akismet) | 0 |
 | `flarum-audit` | 0 | [93](#flarum-audit-missing) |
 | `flarum-bbcode` | 0 | [1](#flarum-bbcode-missing) |
+| `flarum-extension-manager` | 0 | [105](#flarum-extension-manager-missing) |
 | `flarum-flags` | [3](#flarum-flags) | 0 |
+| `flarum-gdpr` | 0 | [97](#flarum-gdpr-missing) |
 | `flarum-likes` | [2](#flarum-likes) | 0 |
 | `flarum-lock` | [4](#flarum-lock) | 0 |
 | `flarum-markdown` | 0 | [11](#flarum-markdown-missing) |
@@ -3361,6 +3363,1658 @@ These strings are translated only in `sv`, so there is nothing to inherit from F
 
 ```diff
 +skrev
+```
+
+
+### `flarum-extension-manager` (missing)
+
+#### [`flarum-extension-manager.admin.auth_config.add_label`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.auth_config.add_label%22)
+
+> New authentication method
+
+```diff
++Ny autentiseringsmetod
+```
+
+#### [`flarum-extension-manager.admin.auth_config.add_modal.host_label`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.auth_config.add_modal.host_label%22)
+
+> Host
+
+```diff
++Värd
+```
+
+#### [`flarum-extension-manager.admin.auth_config.add_modal.submit_button`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.auth_config.add_modal.submit_button%22)
+
+> Submit
+
+```diff
++Skicka
+```
+
+#### [`flarum-extension-manager.admin.auth_config.add_modal.token_label`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.auth_config.add_modal.token_label%22)
+
+> Token
+
+```diff
++Token
+```
+
+#### [`flarum-extension-manager.admin.auth_config.add_modal.type_label`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.auth_config.add_modal.type_label%22)
+
+> Type
+
+```diff
++Typ
+```
+
+#### [`flarum-extension-manager.admin.auth_config.add_modal.unchanged_token_placeholder`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.auth_config.add_modal.unchanged_token_placeholder%22)
+
+> (unchanged)
+
+```diff
++(oförändrad)
+```
+
+#### [`flarum-extension-manager.admin.auth_config.delete_confirmation`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.auth_config.delete_confirmation%22)
+
+> Are you sure you want to delete this authentication method?
+
+```diff
++Är du säker på att du vill ta bort den här autentiseringsmetoden?
+```
+
+#### [`flarum-extension-manager.admin.auth_config.delete_label`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.auth_config.delete_label%22)
+
+> Delete authentication method
+
+```diff
++Ta bort autentiseringsmetod
+```
+
+#### [`flarum-extension-manager.admin.auth_config.edit_label`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.auth_config.edit_label%22)
+
+> Edit authentication method
+
+```diff
++Redigera autentiseringsmetod
+```
+
+#### [`flarum-extension-manager.admin.auth_config.fields.host`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.auth_config.fields.host%22)
+
+> Host
+
+```diff
++Värd
+```
+
+#### [`flarum-extension-manager.admin.auth_config.fields.token`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.auth_config.fields.token%22)
+
+> Token
+
+```diff
++Token
+```
+
+#### [`flarum-extension-manager.admin.auth_config.no_auth_methods_configured`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.auth_config.no_auth_methods_configured%22)
+
+> No authentication methods configured. This is an optional advanced feature to allow installing from private repositories.
+
+```diff
++Inga autentiseringsmetoder har konfigurerats. Detta är en valfri avancerad funktion som möjliggör installation från privata repositories.
+```
+
+#### [`flarum-extension-manager.admin.auth_config.remove_button_label`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.auth_config.remove_button_label%22)
+
+> Remove authentication method
+
+```diff
++Ta bort autentiseringsmetod
+```
+
+#### [`flarum-extension-manager.admin.auth_config.title`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.auth_config.title%22)
+
+> Authentication Methods
+
+```diff
++Autentiseringsmetoder
+```
+
+#### [`flarum-extension-manager.admin.auth_config.types.bearer`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.auth_config.types.bearer%22)
+
+> HTTP Bearer
+
+```diff
++HTTP Bearer
+```
+
+#### [`flarum-extension-manager.admin.auth_config.types.github-oauth`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.auth_config.types.github-oauth%22)
+
+> GitHub OAuth
+
+```diff
++GitHub OAuth
+```
+
+#### [`flarum-extension-manager.admin.auth_config.types.gitlab-oauth`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.auth_config.types.gitlab-oauth%22)
+
+> GitLab OAuth
+
+```diff
++GitLab OAuth
+```
+
+#### [`flarum-extension-manager.admin.auth_config.types.gitlab-token`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.auth_config.types.gitlab-token%22)
+
+> GitLab Token
+
+```diff
++GitLab Token
+```
+
+#### [`flarum-extension-manager.admin.composer.add_repository_label`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.composer.add_repository_label%22)
+
+> Add Repository
+
+```diff
++Lägg till repository
+```
+
+#### [`flarum-extension-manager.admin.composer.delete_repository_confirmation`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.composer.delete_repository_confirmation%22)
+
+> Are you sure you want to delete this repository? All extensions installed from this repository will be removed.
+
+```diff
++Är du säker på att du vill ta bort det här repositoryt? Alla tillägg som installerats från detta repository kommer att tas bort.
+```
+
+#### [`flarum-extension-manager.admin.composer.delete_repository_label`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.composer.delete_repository_label%22)
+
+> Delete repository
+
+```diff
++Ta bort repository
+```
+
+#### [`flarum-extension-manager.admin.composer.edit_repository_label`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.composer.edit_repository_label%22)
+
+> Edit repository
+
+```diff
++Redigera repository
+```
+
+#### [`flarum-extension-manager.admin.composer.minimum_stability.help`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.composer.minimum_stability.help%22)
+
+> The type of packages allowed to be installed. Do not change this unless you know what you are doing.
+
+```diff
++Vilken typ av paket som får installeras. Ändra inte detta om du inte vet vad du gör.
+```
+
+#### [`flarum-extension-manager.admin.composer.minimum_stability.label`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.composer.minimum_stability.label%22)
+
+> Minimum Stability
+
+```diff
++Minsta stabilitet
+```
+
+#### [`flarum-extension-manager.admin.composer.minimum_stability.options.alpha`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.composer.minimum_stability.options.alpha%22)
+
+> Alpha
+
+```diff
++Alpha
+```
+
+#### [`flarum-extension-manager.admin.composer.minimum_stability.options.beta`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.composer.minimum_stability.options.beta%22)
+
+> Beta
+
+```diff
++Beta
+```
+
+#### [`flarum-extension-manager.admin.composer.minimum_stability.options.dev`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.composer.minimum_stability.options.dev%22)
+
+> Dev
+
+```diff
++Dev
+```
+
+#### [`flarum-extension-manager.admin.composer.minimum_stability.options.rc`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.composer.minimum_stability.options.rc%22)
+
+> Release Candidate
+
+```diff
++Releasekandidat
+```
+
+#### [`flarum-extension-manager.admin.composer.minimum_stability.options.stable`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.composer.minimum_stability.options.stable%22)
+
+> Stable (Recommended)
+
+```diff
++Stabil (rekommenderas)
+```
+
+#### [`flarum-extension-manager.admin.composer.repositories.add_modal.name_label`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.composer.repositories.add_modal.name_label%22)
+
+> Name
+
+```diff
++Namn
+```
+
+#### [`flarum-extension-manager.admin.composer.repositories.add_modal.submit_button`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.composer.repositories.add_modal.submit_button%22)
+
+> Submit
+
+```diff
++Skicka
+```
+
+#### [`flarum-extension-manager.admin.composer.repositories.add_modal.type_label`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.composer.repositories.add_modal.type_label%22)
+
+> Type
+
+```diff
++Typ
+```
+
+#### [`flarum-extension-manager.admin.composer.repositories.add_modal.url`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.composer.repositories.add_modal.url%22)
+
+> URL
+
+```diff
++URL
+```
+
+#### [`flarum-extension-manager.admin.composer.repositories.help`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.composer.repositories.help%22)
+
+> Add additional repositories to install packages from. This is an advanced feature, do not add repositories that are not trusted, as they can be used to execute malicious code on your server.
+>
+
+```diff
++Lägg till ytterligare repositories för installation av paket. Detta är en avancerad funktion; lägg inte till repositories som inte är betrodda eftersom de kan användas för att köra skadlig kod på din server.
++
+```
+
+#### [`flarum-extension-manager.admin.composer.repositories.label`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.composer.repositories.label%22)
+
+> Repositories
+
+```diff
++Repositories
+```
+
+#### [`flarum-extension-manager.admin.composer.repositories.types.composer`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.composer.repositories.types.composer%22)
+
+> composer
+
+```diff
++composer
+```
+
+#### [`flarum-extension-manager.admin.composer.repositories.types.path`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.composer.repositories.types.path%22)
+
+> path
+
+```diff
++sökväg
+```
+
+#### [`flarum-extension-manager.admin.composer.repositories.types.vcs`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.composer.repositories.types.vcs%22)
+
+> vcs
+
+```diff
++vcs
+```
+
+#### [`flarum-extension-manager.admin.composer.title`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.composer.title%22)
+
+> Composer
+
+```diff
++Composer
+```
+
+#### [`flarum-extension-manager.admin.exceptions.composer_command_failure`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.exceptions.composer_command_failure%22)
+
+> Failed to execute. Check the composer logs in storage/logs/composer.
+
+```diff
++Kunde inte utföra åtgärden. Kontrollera Composer-loggarna i storage/logs/composer.
+```
+
+#### [`flarum-extension-manager.admin.exceptions.extension_already_installed`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.exceptions.extension_already_installed%22)
+
+> Extension is already installed.
+
+```diff
++Tillägget är redan installerat.
+```
+
+#### [`flarum-extension-manager.admin.exceptions.extension_not_directly_dependency`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.exceptions.extension_not_directly_dependency%22)
+
+> Extension is installed as a dependency of another extension, it cannot be directly removed.
+
+```diff
++Tillägget är installerat som ett beroende till ett annat tillägg och kan inte tas bort direkt.
+```
+
+#### [`flarum-extension-manager.admin.exceptions.extension_not_installed`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.exceptions.extension_not_installed%22)
+
+> Extension not found.
+
+```diff
++Tillägget hittades inte.
+```
+
+#### [`flarum-extension-manager.admin.exceptions.guessed_cause.extension_incompatible_with_instance`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.exceptions.guessed_cause.extension_incompatible_with_instance%22)
+
+> The extension is most likely incompatible with your current Flarum instance.
+
+```diff
++Tillägget är högst sannolikt inkompatibelt med din nuvarande Flarum-instans.
+```
+
+#### [`flarum-extension-manager.admin.exceptions.guessed_cause.extension_not_found`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.exceptions.guessed_cause.extension_not_found%22)
+
+> The extension was not found or does not exist.
+
+```diff
++Tillägget hittades inte eller finns inte.
+```
+
+#### [`flarum-extension-manager.admin.exceptions.guessed_cause.extensions_incompatible_with_new_major`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.exceptions.guessed_cause.extensions_incompatible_with_new_major%22)
+
+> Some installed extensions are not compatible with the newest major release. Please wait until the extensions are updated to be compatible by the authors, or remove them before proceeding.
+>
+
+```diff
++Vissa installerade tillägg är inte kompatibla med den senaste releasen. Vänta tills tilläggen har uppdaterats av upphovsmännen för att bli kompatibla, eller ta bort dem innan du går vidare.
++
+```
+
+#### [`flarum-extension-manager.admin.extensions.check_why_it_failed_updating`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.extensions.check_why_it_failed_updating%22)
+
+> Show why it did not update to the latest.
+
+```diff
++Visa varför det inte uppdaterades till den senaste versionen.
+```
+
+#### [`flarum-extension-manager.admin.extensions.install`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.extensions.install%22)
+
+> Install a new extension
+
+```diff
++Installera ett nytt tillägg
+```
+
+#### [`flarum-extension-manager.admin.extensions.proceed`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.extensions.proceed%22)
+
+> Proceed
+
+```diff
++Fortsätt
+```
+
+#### [`flarum-extension-manager.admin.extensions.remove`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.extensions.remove%22)
+
+> Uninstall
+
+```diff
++Avinstallera
+```
+
+#### [`flarum-extension-manager.admin.extensions.successful_install`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.extensions.successful_install%22)
+
+> {extension} was installed successfully, redirecting..
+
+```diff
++{extension} installerades utan problem, omdirigerar...
+```
+
+#### [`flarum-extension-manager.admin.extensions.successful_remove`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.extensions.successful_remove%22)
+
+> Extension removed successfully.
+
+```diff
++Tillägget har tagits bort.
+```
+
+#### [`flarum-extension-manager.admin.extensions.successful_update`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.extensions.successful_update%22)
+
+> {extension} was updated successfully, redirecting..
+
+```diff
++{extension} uppdaterades utan problem, omdirigerar...
+```
+
+#### [`flarum-extension-manager.admin.extensions.update`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.extensions.update%22)
+
+> Update
+
+```diff
++Uppdatera
+```
+
+#### [`flarum-extension-manager.admin.extensions.update_hard_label`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.extensions.update_hard_label%22)
+
+> Hard update
+
+```diff
++Hård uppdatering
+```
+
+#### [`flarum-extension-manager.admin.extensions.update_soft_label`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.extensions.update_soft_label%22)
+
+> Soft update
+
+```diff
++Mjuk uppdatering
+```
+
+#### [`flarum-extension-manager.admin.file_permissions`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.file_permissions%22)
+
+> The extension manager requires read and write permissions on the following files and directories: composer.json, composer.lock, vendor, storage, storage/.composer
+>
+
+```diff
++Tilläggshanteraren kräver läs- och skrivbehörighet för följande filer och kataloger: composer.json, composer.lock, vendor, storage, storage/.composer
++
+```
+
+#### [`flarum-extension-manager.admin.major_updater.description`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.major_updater.description%22)
+
+> Major Flarum updates are not backwards compatible, meaning that some of your currently installed extensions, and manually made modifications might not work with this new version. Please make sure to make a backup of your database and files before proceeding.
+>
+
+```diff
++Större uppdateringar av Flarum är inte bakåtkompatibla, vilket innebär att vissa av dina nuvarande tillägg och manuella ändringar kanske inte fungerar med den nya versionen. Se till att säkerhetskopiera din databas och dina filer innan du går vidare.
++
+```
+
+#### [`flarum-extension-manager.admin.major_updater.dry_run`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.major_updater.dry_run%22)
+
+> Dry Run
+
+```diff
++Testkörning
+```
+
+#### [`flarum-extension-manager.admin.major_updater.dry_run_help`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.major_updater.dry_run_help%22)
+
+> A dry run emulates the update to see if your current setup can safely update, this does not mean that your manual made custom modifications will work in the newer version.
+
+```diff
++En testkörning simulerar uppdateringen för att se om din nuvarande konfiguration kan uppdateras på ett säkert sätt. Detta innebär dock inte att dina manuella, skräddarsydda ändringar kommer att fungera i den nyare versionen.
+```
+
+#### [`flarum-extension-manager.admin.major_updater.failure.desc`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.major_updater.failure.desc%22)
+
+> The last major update failed, some installed extensions are not compatible with the new major release.
+
+```diff
++Den senaste större uppdateringen misslyckades; vissa installerade tillägg är inte kompatibla med den nya huvudreleasen.
+```
+
+#### [`flarum-extension-manager.admin.major_updater.failure.why`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.major_updater.failure.why%22)
+
+> Find out more
+
+```diff
++Läs mer
+```
+
+#### [`flarum-extension-manager.admin.major_updater.title`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.major_updater.title%22)
+
+> Flarum {version} Major Update Available
+
+```diff
++Större uppdatering för Flarum {version} tillgänglig
+```
+
+#### [`flarum-extension-manager.admin.major_updater.update`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.major_updater.update%22)
+
+> Update
+
+```diff
++Uppdatera
+```
+
+#### [`flarum-extension-manager.admin.sections.queue.columns.details`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.sections.queue.columns.details%22)
+
+> Details
+
+```diff
++Detaljer
+```
+
+#### [`flarum-extension-manager.admin.sections.queue.columns.elapsed_time`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.sections.queue.columns.elapsed_time%22)
+
+> Completed in
+
+```diff
++Slutförd i
+```
+
+#### [`flarum-extension-manager.admin.sections.queue.columns.operation`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.sections.queue.columns.operation%22)
+
+> Operation
+
+```diff
++Operation
+```
+
+#### [`flarum-extension-manager.admin.sections.queue.columns.package`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.sections.queue.columns.package%22)
+
+> Package
+
+```diff
++Paket
+```
+
+#### [`flarum-extension-manager.admin.sections.queue.columns.peak_memory_used`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.sections.queue.columns.peak_memory_used%22)
+
+> Peak Memory Usage
+
+```diff
++Högsta minnesanvändning
+```
+
+#### [`flarum-extension-manager.admin.sections.queue.columns.status`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.sections.queue.columns.status%22)
+
+> Status
+
+```diff
++Status
+```
+
+#### [`flarum-extension-manager.admin.sections.queue.none`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.sections.queue.none%22)
+
+> There are no tasks yet.
+
+```diff
++Det finns inga uppgifter än.
+```
+
+#### [`flarum-extension-manager.admin.sections.queue.operations.extension_install`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.sections.queue.operations.extension_install%22)
+
+> Install extension
+
+```diff
++Installera tillägg
+```
+
+#### [`flarum-extension-manager.admin.sections.queue.operations.extension_remove`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.sections.queue.operations.extension_remove%22)
+
+> Remove extension
+
+```diff
++Ta bort tillägg
+```
+
+#### [`flarum-extension-manager.admin.sections.queue.operations.extension_update`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.sections.queue.operations.extension_update%22)
+
+> Update extension
+
+```diff
++Uppdatera tillägg
+```
+
+#### [`flarum-extension-manager.admin.sections.queue.operations.update_check`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.sections.queue.operations.update_check%22)
+
+> Check for updates
+
+```diff
++Sök efter uppdateringar
+```
+
+#### [`flarum-extension-manager.admin.sections.queue.operations.update_global`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.sections.queue.operations.update_global%22)
+
+> Update all software packages
+
+```diff
++Uppdatera alla programvarupaket
+```
+
+#### [`flarum-extension-manager.admin.sections.queue.operations.update_major`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.sections.queue.operations.update_major%22)
+
+> Major update
+
+```diff
++Stor uppdatering
+```
+
+#### [`flarum-extension-manager.admin.sections.queue.operations.update_minor`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.sections.queue.operations.update_minor%22)
+
+> Minor update
+
+```diff
++Mindre uppdatering
+```
+
+#### [`flarum-extension-manager.admin.sections.queue.operations.why_not`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.sections.queue.operations.why_not%22)
+
+> Analyze why a package cannot be updated
+
+```diff
++Analysera varför ett paket inte kan uppdateras
+```
+
+#### [`flarum-extension-manager.admin.sections.queue.output_modal.cause_unknown`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.sections.queue.output_modal.cause_unknown%22)
+
+> Unknown
+
+```diff
++Okänd
+```
+
+#### [`flarum-extension-manager.admin.sections.queue.output_modal.command`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.sections.queue.output_modal.command%22)
+
+> Composer Command
+
+```diff
++Composer-kommando
+```
+
+#### [`flarum-extension-manager.admin.sections.queue.output_modal.guessed_cause`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.sections.queue.output_modal.guessed_cause%22)
+
+> Cause
+
+```diff
++Orsak
+```
+
+#### [`flarum-extension-manager.admin.sections.queue.output_modal.output`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.sections.queue.output_modal.output%22)
+
+> Output
+
+```diff
++Output
+```
+
+#### [`flarum-extension-manager.admin.sections.queue.refresh`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.sections.queue.refresh%22)
+
+> Refresh tasks list
+
+```diff
++Uppdatera uppgiftslistan
+```
+
+#### [`flarum-extension-manager.admin.sections.queue.statuses.failure`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.sections.queue.statuses.failure%22)
+
+> Failed
+
+```diff
++Misslyckades
+```
+
+#### [`flarum-extension-manager.admin.sections.queue.statuses.pending`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.sections.queue.statuses.pending%22)
+
+> Pending
+
+```diff
++Väntar
+```
+
+#### [`flarum-extension-manager.admin.sections.queue.statuses.running`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.sections.queue.statuses.running%22)
+
+> Running
+
+```diff
++Körs
+```
+
+#### [`flarum-extension-manager.admin.sections.queue.statuses.success`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.sections.queue.statuses.success%22)
+
+> Success
+
+```diff
++Slutförd
+```
+
+#### [`flarum-extension-manager.admin.sections.queue.task_just_started`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.sections.queue.task_just_started%22)
+
+> Task just started
+
+```diff
++Uppgiften har precis påbörjats
+```
+
+#### [`flarum-extension-manager.admin.sections.queue.title`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.sections.queue.title%22)
+
+> Queue
+
+```diff
++Kö
+```
+
+#### [`flarum-extension-manager.admin.settings.access_warning`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.settings.access_warning%22)
+
+> Please be careful to who you give access to the admin area, the extension manager could be misused by bad actors to install packages that can lead to security breaches.
+
+```diff
++Var noga med vem du ger åtkomst till administrationsdelen. Tilläggshanteraren kan missbrukas av illasinnade aktörer för att installera paket som kan leda till säkerhetsintrång.
+```
+
+#### [`flarum-extension-manager.admin.settings.debug_mode_warning`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.settings.debug_mode_warning%22)
+
+> You are running in debug mode, the extension manager cannot properly install and update local development packages. Please use the command line interface instead for such purposes.
+
+```diff
++Du kör i felsökningsläge. Tilläggshanteraren kan inte korrekt installera och uppdatera lokala utvecklingspaket. Använd istället kommandoradsgränssnittet för sådana ändamål.
+```
+
+#### [`flarum-extension-manager.admin.settings.queue_jobs`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.settings.queue_jobs%22)
+
+> Run operations in the background queue
+
+```diff
++Kör åtgärder i bakgrundskön
+```
+
+#### [`flarum-extension-manager.admin.settings.task_retention_days`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.settings.task_retention_days%22)
+
+> Task retention days
+
+```diff
++Antal dagar uppgiften behålls
+```
+
+#### [`flarum-extension-manager.admin.settings.task_retention_days_help`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.settings.task_retention_days_help%22)
+
+> The number of days to keep completed tasks in the database. Tasks older than this will be deleted. Set to 0 to keep all tasks.
+>
+
+```diff
++Antal dagar som slutförda uppgifter ska behållas i databasen. Uppgifter som är äldre än så kommer att tas bort. Ange 0 för att behålla alla uppgifter.
++
+```
+
+#### [`flarum-extension-manager.admin.settings.title`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.settings.title%22)
+
+> =&gt; core.ref.settings
+
+```diff
++=> core.ref.settings
+```
+
+#### [`flarum-extension-manager.admin.update_successful`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.update_successful%22)
+
+> Flarum successfully updated.
+
+```diff
++Flarum har uppdaterats utan problem.
+```
+
+#### [`flarum-extension-manager.admin.updater.check_for_updates`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.updater.check_for_updates%22)
+
+> Check for updates
+
+```diff
++Sök efter uppdateringar
+```
+
+#### [`flarum-extension-manager.admin.updater.flarum`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.updater.flarum%22)
+
+> Flarum Core
+
+```diff
++Flarum Core
+```
+
+#### [`flarum-extension-manager.admin.updater.global_update_successful`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.updater.global_update_successful%22)
+
+> Successfully updated all packages.
+
+```diff
++Alla paket har uppdaterats utan problem.
+```
+
+#### [`flarum-extension-manager.admin.updater.last_update_checked_at`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.updater.last_update_checked_at%22)
+
+> Last Update Check: 
+
+```diff
++Senaste kontroll av uppdateringar: 
+```
+
+#### [`flarum-extension-manager.admin.updater.run_global_update`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.updater.run_global_update%22)
+
+> Run Global Update
+
+```diff
++Kör global uppdatering
+```
+
+#### [`flarum-extension-manager.admin.updater.updater_help`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.updater.updater_help%22)
+
+> Runs a check for new extension and Flarum updates.
+
+```diff
++Kontrollerar om det finns nya tillägg och Flarum-uppdateringar.
+```
+
+#### [`flarum-extension-manager.admin.updater.updater_title`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.updater.updater_title%22)
+
+> Updates
+
+```diff
++Uppdateringar
+```
+
+#### [`flarum-extension-manager.admin.why_not_modal.title`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/sv/?q=context%3A%3D%22flarum-extension-manager.admin.why_not_modal.title%22)
+
+> Why Won't it Update
+
+```diff
++Varför uppdateras det inte
+```
+
+
+### `flarum-gdpr` (missing)
+
+#### [`flarum-gdpr.admin.gdpr_page.data_types.anonymize_description`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.admin.gdpr_page.data_types.anonymize_description%22)
+
+> Anonymize Action
+
+```diff
++Åtgärd för anonymisering
+```
+
+#### [`flarum-gdpr.admin.gdpr_page.data_types.delete_description`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.admin.gdpr_page.data_types.delete_description%22)
+
+> Delete Action
+
+```diff
++Åtgärd för borttagning
+```
+
+#### [`flarum-gdpr.admin.gdpr_page.data_types.export_description`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.admin.gdpr_page.data_types.export_description%22)
+
+> Export Action
+
+```diff
++Exportåtgärd
+```
+
+#### [`flarum-gdpr.admin.gdpr_page.data_types.extension`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.admin.gdpr_page.data_types.extension%22)
+
+> Extension
+
+```diff
++Tillägg
+```
+
+#### [`flarum-gdpr.admin.gdpr_page.data_types.help_text`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.admin.gdpr_page.data_types.help_text%22)
+
+> These are the currently registered data types. Each type is listed along with it's associated export, anonymization, and deletion actions. If an extension handles any data which falls under GDPR regulations, it should register it's data types with &lt;code&gt;flarum/gdpr&lt;/code&gt;.
+> Data stored in the &lt;code&gt;user&lt;/code&gt; table is handled seperately, see user table data below.
+>
+
+```diff
++Detta är de för närvarande registrerade datatyperna. Varje typ listas tillsammans med tillhörande åtgärder för export, anonymisering och borttagning. Om ett tillägg hanterar data som omfattas av GDPR-reglerna bör det registrera sina datatyper hos <code>flarum/gdpr</code>.
++Data som lagras i tabellen <code>user</code> hanteras separat; se information om data i användartabellen nedan.
++
+```
+
+#### [`flarum-gdpr.admin.gdpr_page.data_types.title`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.admin.gdpr_page.data_types.title%22)
+
+> Data Types
+
+```diff
++Datatyper
+```
+
+#### [`flarum-gdpr.admin.gdpr_page.data_types.type`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.admin.gdpr_page.data_types.type%22)
+
+> Type
+
+```diff
++Typ
+```
+
+#### [`flarum-gdpr.admin.gdpr_page.description`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.admin.gdpr_page.description%22)
+
+> Status of various GDPR actions and integrations
+
+```diff
++Status för olika GDPR-åtgärder och integrationer
+```
+
+#### [`flarum-gdpr.admin.gdpr_page.heading`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.admin.gdpr_page.heading%22)
+
+> GDPR Data Overview
+
+```diff
++Översikt över GDPR-data
+```
+
+#### [`flarum-gdpr.admin.gdpr_page.settings.extension_settings_button`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.admin.gdpr_page.settings.extension_settings_button%22)
+
+> GDPR Settings
+
+```diff
++GDPR-inställningar
+```
+
+#### [`flarum-gdpr.admin.gdpr_page.settings.heading`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.admin.gdpr_page.settings.heading%22)
+
+> GDPR Settings
+
+```diff
++GDPR-inställningar
+```
+
+#### [`flarum-gdpr.admin.gdpr_page.settings.help_text`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.admin.gdpr_page.settings.help_text%22)
+
+> Looking for GDPR settings? They're found on the extension page.
+
+```diff
++Letar du efter GDPR-inställningar? Du hittar dem på tilläggssidan.
+```
+
+#### [`flarum-gdpr.admin.gdpr_page.user_table_data.column`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.admin.gdpr_page.user_table_data.column%22)
+
+> Column
+
+```diff
++Kolumn
+```
+
+#### [`flarum-gdpr.admin.gdpr_page.user_table_data.extension`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.admin.gdpr_page.user_table_data.extension%22)
+
+> Extension
+
+```diff
++Tillägg
+```
+
+#### [`flarum-gdpr.admin.gdpr_page.user_table_data.help_text`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.admin.gdpr_page.user_table_data.help_text%22)
+
+> On the most part, any columns added to the &lt;code&gt;user&lt;/code&gt; table will be handled automatically, both for exporting data and for erasure.
+> However, there are some special cases, which are listed below.
+>
+
+```diff
++För det mesta hanteras alla kolumner som läggs till i <code>user</code>-tabellen automatiskt, både för export av data och för radering.
++Det finns dock några specialfall, som listas nedan.
++
+```
+
+#### [`flarum-gdpr.admin.gdpr_page.user_table_data.no`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.admin.gdpr_page.user_table_data.no%22)
+
+> No
+
+```diff
++Nej
+```
+
+#### [`flarum-gdpr.admin.gdpr_page.user_table_data.nullable`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.admin.gdpr_page.user_table_data.nullable%22)
+
+> Nullable
+
+```diff
++Nollbar
+```
+
+#### [`flarum-gdpr.admin.gdpr_page.user_table_data.pii`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.admin.gdpr_page.user_table_data.pii%22)
+
+> PII
+
+```diff
++PII
+```
+
+#### [`flarum-gdpr.admin.gdpr_page.user_table_data.pii_tooltip`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.admin.gdpr_page.user_table_data.pii_tooltip%22)
+
+> This column is considered personally identifiable information and will be redacted in anonymized contexts (e.g. anonymized event payloads).
+
+```diff
++Denna kolumn anses innehålla personuppgifter och kommer att maskeras i anonymiserade sammanhang (t.ex. anonymiserade payloads i händelser).
+```
+
+#### [`flarum-gdpr.admin.gdpr_page.user_table_data.redacted_on_export`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.admin.gdpr_page.user_table_data.redacted_on_export%22)
+
+> Redacted on export
+
+```diff
++Maskerad vid export
+```
+
+#### [`flarum-gdpr.admin.gdpr_page.user_table_data.redacted_on_export_tooltip`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.admin.gdpr_page.user_table_data.redacted_on_export_tooltip%22)
+
+> This column's value is blanked (set to null) when generating a user data export. The column still appears in the export with a null value.
+
+```diff
++Värdet i den här kolumnen rensas (ställs in på null) när en export av användardata genereras. Kolumnen visas fortfarande i exporten men med värdet null.
+```
+
+#### [`flarum-gdpr.admin.gdpr_page.user_table_data.title`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.admin.gdpr_page.user_table_data.title%22)
+
+> User Table Data
+
+```diff
++Data från användartabellen
+```
+
+#### [`flarum-gdpr.admin.gdpr_page.user_table_data.type`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.admin.gdpr_page.user_table_data.type%22)
+
+> Type
+
+```diff
++Typ
+```
+
+#### [`flarum-gdpr.admin.gdpr_page.user_table_data.yes`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.admin.gdpr_page.user_table_data.yes%22)
+
+> Yes
+
+```diff
++Ja
+```
+
+#### [`flarum-gdpr.admin.nav.gdpr_button`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.admin.nav.gdpr_button%22)
+
+> GDPR Integrations
+
+```diff
++GDPR-integrationer
+```
+
+#### [`flarum-gdpr.admin.permissions.process_erasure`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.admin.permissions.process_erasure%22)
+
+> Process erasure requests
+
+```diff
++Hantera begäranden om radering
+```
+
+#### [`flarum-gdpr.admin.permissions.process_export_for_others`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.admin.permissions.process_export_for_others%22)
+
+> Request and receive data exports for other users
+
+```diff
++Begär och ta emot dataexporter för andra användare
+```
+
+#### [`flarum-gdpr.admin.permissions.see_anonymized_user_badges`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.admin.permissions.see_anonymized_user_badges%22)
+
+> See anonymized user badges
+
+```diff
++Visa anonymiserade användarmärken
+```
+
+#### [`flarum-gdpr.admin.settings.allow_anonymization`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.admin.settings.allow_anonymization%22)
+
+> Allow anonymization for erasure requests
+
+```diff
++Tillåt anonymisering vid begäran om radering
+```
+
+#### [`flarum-gdpr.admin.settings.allow_anonymization_help`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.admin.settings.allow_anonymization_help%22)
+
+> The default option, and recommended for most communities. Under this mode, posts/comments will be preserved as much as possible as allowed by GDPR, but any user identifiable information is removed.
+
+```diff
++Standardalternativet, som rekommenderas för de flesta typer av forum. I detta läge bevaras inlägg och kommentarer i så stor utsträckning som GDPR tillåter, men all information som kan kopplas till en enskild användare tas bort.
+```
+
+#### [`flarum-gdpr.admin.settings.allow_deletion`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.admin.settings.allow_deletion%22)
+
+> Allow deletion for erasure requests
+
+```diff
++Tillåt borttagning vid begäran om radering
+```
+
+#### [`flarum-gdpr.admin.settings.allow_deletion_help`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.admin.settings.allow_deletion_help%22)
+
+> A much stricter option. Under this mode, all posts/comments will be deleted, and the user will be removed from the database. Use with caution.
+
+```diff
++Ett betydligt strängare alternativ. I detta läge raderas alla inlägg och kommentarer, och användaren tas bort ur databasen. Använd med försiktighet.
+```
+
+#### [`flarum-gdpr.admin.settings.default_anonymous_username`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.admin.settings.default_anonymous_username%22)
+
+> Default username for anonymized users
+
+```diff
++Standardanvändarnamn för anonymiserade användare
+```
+
+#### [`flarum-gdpr.admin.settings.default_anonymous_username_help`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.admin.settings.default_anonymous_username_help%22)
+
+> When a user is anonymized, their username will be replaced with this value, plus the ID of the anonymization request, for example &lt;code&gt;Anonymous123&lt;/code&gt;.
+
+```diff
++När en användare anonymiseras ersätts användarnamnet med detta värde samt ID:t för anonymiseringsbegäran, till exempel <code>Anonymous123</code>.
+```
+
+#### [`flarum-gdpr.admin.settings.default_erasure`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.admin.settings.default_erasure%22)
+
+> Default action for erasure requests
+
+```diff
++Standardåtgärd för raderingsbegäranden
+```
+
+#### [`flarum-gdpr.admin.settings.default_erasure_help`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.admin.settings.default_erasure_help%22)
+
+> What should the default action be for erasure requests?
+
+```diff
++Vad bör standardåtgärden vara för raderingsbegäranden?
+```
+
+#### [`flarum-gdpr.admin.settings.default_erasure_options.anonymization`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.admin.settings.default_erasure_options.anonymization%22)
+
+> Anonymization
+
+```diff
++Anonymisering
+```
+
+#### [`flarum-gdpr.admin.settings.default_erasure_options.deletion`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.admin.settings.default_erasure_options.deletion%22)
+
+> Deletion
+
+```diff
++Radering
+```
+
+#### [`flarum-gdpr.admin.settings.gdpr_page.help_text`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.admin.settings.gdpr_page.help_text%22)
+
+> Before deciding on which actions to use on your forum, it is vital to understand which data is integrated, and how it is handled for both anonymization and deletion. Vist the GDPR overview to understand how data is handled, and which optional extensions have registered their data to be handled by this extension.
+
+```diff
++Innan du bestämmer vilka åtgärder som ska användas på ditt forum är det viktigt att förstå vilka uppgifter som är integrerade och hur de hanteras med avseende på både anonymisering och radering. Besök översikten för GDPR för att förstå hur uppgifter hanteras och vilka valfria tillägg som har registrerat sina uppgifter för hantering via detta tillägg.
+```
+
+#### [`flarum-gdpr.admin.settings.gdpr_page.title`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.admin.settings.gdpr_page.title%22)
+
+> Data Integration and actions
+
+```diff
++Dataintegration och åtgärder
+```
+
+#### [`flarum-gdpr.email.confirm_erasure.subject`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.email.confirm_erasure.subject%22)
+
+> Confirm your account erasure request
+
+```diff
++Bekräfta din begäran om radering av konto
+```
+
+#### [`flarum-gdpr.email.erasure_cancelled.subject`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.email.erasure_cancelled.subject%22)
+
+> Account erasure request cancelled
+
+```diff
++Begäran om radering av konto avbröts
+```
+
+#### [`flarum-gdpr.email.erasure_completed.anonymization.subject`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.email.erasure_completed.anonymization.subject%22)
+
+> Account anonymization completed
+
+```diff
++Anonymisering av konto slutförd
+```
+
+#### [`flarum-gdpr.email.erasure_completed.deletion.subject`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.email.erasure_completed.deletion.subject%22)
+
+> Account deletion completed
+
+```diff
++Kontot har raderats
+```
+
+#### [`flarum-gdpr.email.export_available.subject`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.email.export_available.subject%22)
+
+> Data export available
+
+```diff
++Dataexport tillgänglig
+```
+
+#### [`flarum-gdpr.forum.badges.anonymized_user`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.forum.badges.anonymized_user%22)
+
+> Anonymized User
+
+```diff
++Anonymiserad användare
+```
+
+#### [`flarum-gdpr.forum.delete_user.delete_button`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.forum.delete_user.delete_button%22)
+
+> Erase
+
+```diff
++Radera
+```
+
+#### [`flarum-gdpr.forum.delete_user.modal_delete_button`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.forum.delete_user.modal_delete_button%22)
+
+> Erase using default action
+
+```diff
++Radera med standardåtgärd
+```
+
+#### [`flarum-gdpr.forum.delete_user.text`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.forum.delete_user.text%22)
+
+> Are you sure you want to erase {username}'s account?
+>
+> This action is irreversible.
+>
+
+```diff
++Är du säker på att du vill radera {username}s konto?
++
++Denna åtgärd går inte att ångra.
++
+```
+
+#### [`flarum-gdpr.forum.delete_user.title`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.forum.delete_user.title%22)
+
+> Erase {username}'s account
+
+```diff
++Radera {username}s konto
+```
+
+#### [`flarum-gdpr.forum.erasure_request_confirmed`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.forum.erasure_request_confirmed%22)
+
+> You have confirmed your account erasure request. Action will be taken within 30 days, as required by the GDPR.
+
+```diff
++Du har bekräftat din begäran om radering av konto. Åtgärder kommer att vidtas inom 30 dagar, i enlighet med GDPR.
+```
+
+#### [`flarum-gdpr.forum.erasure_requests.empty_text`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.forum.erasure_requests.empty_text%22)
+
+> No pending account erasure requests
+
+```diff
++Inga väntande begäranden om radering av konto
+```
+
+#### [`flarum-gdpr.forum.erasure_requests.item_text`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.forum.erasure_requests.item_text%22)
+
+> {name} requested account erasure
+
+```diff
++{name} begärde radering av kontot
+```
+
+#### [`flarum-gdpr.forum.erasure_requests.title`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.forum.erasure_requests.title%22)
+
+> Account Erasure Requests
+
+```diff
++Begäranden om radering av konto
+```
+
+#### [`flarum-gdpr.forum.erasure_requests.tooltip`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.forum.erasure_requests.tooltip%22)
+
+> Account Erasure Requests
+
+```diff
++Begäranden om radering av konto
+```
+
+#### [`flarum-gdpr.forum.export_file`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.forum.export_file%22)
+
+> Export of user data for {username} ({email}) prepared at {date} from {forumTitle} ({url})
+
+```diff
++Export av användardata för {username} ({email}) förberedd den {date} från {forumTitle} ({url})
+```
+
+#### [`flarum-gdpr.forum.notification.export-ready`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.forum.notification.export-ready%22)
+
+> Your data export for {username} is now ready to download.
+
+```diff
++Din dataexport för {username} är nu redo att laddas ned.
+```
+
+#### [`flarum-gdpr.forum.process_erasure.anonymization_button`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.forum.process_erasure.anonymization_button%22)
+
+> Anonymize user
+
+```diff
++Anonymisera användare
+```
+
+#### [`flarum-gdpr.forum.process_erasure.comments_label`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.forum.process_erasure.comments_label%22)
+
+> Comments (optional)
+
+```diff
++Kommentarer (valfritt)
+```
+
+#### [`flarum-gdpr.forum.process_erasure.confirm`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.forum.process_erasure.confirm%22)
+
+> Are you sure you want to erase {name}'s account under {mode} mode?
+
+```diff
++Är du säker på att du vill radera {name}s konto i läget {mode}?
+```
+
+#### [`flarum-gdpr.forum.process_erasure.confirmed_at`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.forum.process_erasure.confirmed_at%22)
+
+> Confirmed: {date}
+
+```diff
++Bekräftad: {datum}
+```
+
+#### [`flarum-gdpr.forum.process_erasure.deletion_button`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.forum.process_erasure.deletion_button%22)
+
+> Delete user
+
+```diff
++Ta bort användare
+```
+
+#### [`flarum-gdpr.forum.process_erasure.eligible_at`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.forum.process_erasure.eligible_at%22)
+
+> Eligible for auto-processing: {date}
+
+```diff
++Kvalificerad för automatisk behandling: {datum}
+```
+
+#### [`flarum-gdpr.forum.process_erasure.requested_at`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.forum.process_erasure.requested_at%22)
+
+> Requested: {date}
+
+```diff
++Begärd: {date}
+```
+
+#### [`flarum-gdpr.forum.process_erasure.text`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.forum.process_erasure.text%22)
+
+> {name} has requested account erasure.
+
+```diff
++{name} har begärt radering av kontot.
+```
+
+#### [`flarum-gdpr.forum.process_erasure.title`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.forum.process_erasure.title%22)
+
+> Process erasure request
+
+```diff
++Hantera begäran om radering
+```
+
+#### [`flarum-gdpr.forum.request_erasure.cancel_button`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.forum.request_erasure.cancel_button%22)
+
+> Cancel request
+
+```diff
++Avbryt begäran
+```
+
+#### [`flarum-gdpr.forum.request_erasure.password_label`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.forum.request_erasure.password_label%22)
+
+> Confirm Password
+
+```diff
++Bekräfta lösenord
+```
+
+#### [`flarum-gdpr.forum.request_erasure.reason`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.forum.request_erasure.reason%22)
+
+> You provided the following reason: {reason}
+
+```diff
++Du angav följande orsak: {reason}
+```
+
+#### [`flarum-gdpr.forum.request_erasure.reason_label`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.forum.request_erasure.reason_label%22)
+
+> Reason (optional)
+
+```diff
++Orsak (valfritt)
+```
+
+#### [`flarum-gdpr.forum.request_erasure.request_button`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.forum.request_erasure.request_button%22)
+
+> Request erasure
+
+```diff
++Begär radering
+```
+
+#### [`flarum-gdpr.forum.request_erasure.status.awaiting_user_confirmation`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.forum.request_erasure.status.awaiting_user_confirmation%22)
+
+> You should have received an email to confirm your account erasure request.
+>
+
+```diff
++Du bör ha fått ett e-postmeddelande för att bekräfta din begäran om radering av konto.
++
+```
+
+#### [`flarum-gdpr.forum.request_erasure.status.user_confirmed`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.forum.request_erasure.status.user_confirmed%22)
+
+> You have confirmed your account erasure request. Action will be taken within 30 days, as required by the GDPR.
+>
+
+```diff
++Du har bekräftat din begäran om radering av konto. Åtgärder kommer att vidtas inom 30 dagar, i enlighet med GDPR.
++
+```
+
+#### [`flarum-gdpr.forum.request_erasure.text`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.forum.request_erasure.text%22)
+
+> Once received and confirmed, an admin will review your request within 30 days, as required by the GDPR.
+
+```diff
++När din begäran har mottagits och bekräftats kommer en administratör att granska den inom 30 dagar, i enlighet med GDPR.
+```
+
+#### [`flarum-gdpr.forum.request_erasure.title`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.forum.request_erasure.title%22)
+
+> Request account erasure
+
+```diff
++Begär radering av konto
+```
+
+#### [`flarum-gdpr.forum.settings.data.heading`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.forum.settings.data.heading%22)
+
+> Personal data
+
+```diff
++Personlig data
+```
+
+#### [`flarum-gdpr.forum.settings.export_data_button`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.forum.settings.export_data_button%22)
+
+> Export Data
+
+```diff
++Exportera data
+```
+
+#### [`flarum-gdpr.forum.settings.export_data_help`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.forum.settings.export_data_help%22)
+
+> Requesting data export will provide you with a downloadable copy of all the information associated with your account. This includes posts, comments, and profile details.
+
+```diff
++Om du begär en dataexport får du en nedladdningsbar kopia av all information som är kopplad till ditt konto. Detta inkluderar inlägg, kommentarer och profiluppgifter.
+```
+
+#### [`flarum-gdpr.forum.settings.request_erasure_button`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.forum.settings.request_erasure_button%22)
+
+> Erase Account
+
+```diff
++Radera konto
+```
+
+#### [`flarum-gdpr.forum.settings.request_erasure_help`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.forum.settings.request_erasure_help%22)
+
+> Requesting erasure will permanently delete your account and all associated data. This action is irreversible. Before proceeding, ensure you have saved any content you wish to keep.
+
+```diff
++Om du begär radering kommer ditt konto och all tillhörande data att tas bort permanent. Denna åtgärd går inte att ångra. Innan du fortsätter bör du se till att du har sparat allt innehåll du vill behålla.
+```
+
+#### [`flarum-gdpr.lib.data.avatar.delete_description`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.lib.data.avatar.delete_description%22)
+
+> Deletes the user's avatar from the filesystem.
+
+```diff
++Tar bort användarens avatar från filsystemet.
+```
+
+#### [`flarum-gdpr.lib.data.avatar.export_description`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.lib.data.avatar.export_description%22)
+
+> Retrieves the user's avatar from the filesystem and includes it in the export.
+
+```diff
++Hämtar användarens avatar från filsystemet och inkluderar den i exporten.
+```
+
+#### [`flarum-gdpr.lib.data.default_user_action`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.lib.data.default_user_action%22)
+
+> No action, handled by default user table data handling.
+
+```diff
++Ingen åtgärd; hanteras genom standardhantering av användartabelldata.
+```
+
+#### [`flarum-gdpr.lib.data.discussions.export_description`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.lib.data.discussions.export_description%22)
+
+> Exports all discussions the user has started. Data restricted to title and creation date.
+
+```diff
++Exporterar alla diskussioner som användaren har startat. Informationen begränsas till titel och skapandedatum.
+```
+
+#### [`flarum-gdpr.lib.data.forum.export_description`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.lib.data.forum.export_description%22)
+
+> Exports the forum title, url, username, email and the current date.
+
+```diff
++Exporterar forumets titel, webbadress, användarnamn, e-postadress och aktuellt datum.
+```
+
+#### [`flarum-gdpr.lib.data.no_action`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.lib.data.no_action%22)
+
+> No action taken.
+
+```diff
++Ingen åtgärd har gjorts.
+```
+
+#### [`flarum-gdpr.lib.data.posts.anonymize_description`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.lib.data.posts.anonymize_description%22)
+
+> Removes the IP address from all posts the user has made.
+
+```diff
++Tar bort IP-adressen från alla inlägg som användaren har skapat.
+```
+
+#### [`flarum-gdpr.lib.data.posts.delete_description`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.lib.data.posts.delete_description%22)
+
+> Deletes all posts the user has made.
+
+```diff
++Tar bort alla inlägg som användaren har skapat.
+```
+
+#### [`flarum-gdpr.lib.data.posts.export_description`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.lib.data.posts.export_description%22)
+
+> Exports all posts the user has made. Data restricted to content, creation date, IP address and discussion ID.
+
+```diff
++Exporterar alla inlägg som användaren har skapat. Informationen begränsas till innehåll, skapandedatum, IP-adress och diskussions-ID.
+```
+
+#### [`flarum-gdpr.lib.data.tokens.delete_description`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.lib.data.tokens.delete_description%22)
+
+> Deletes all tokens the user has created.
+
+```diff
++Tar bort alla tokens som användaren har skapat.
+```
+
+#### [`flarum-gdpr.lib.data.tokens.export_description`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.lib.data.tokens.export_description%22)
+
+> Exports all tokens the user has created. Data restricted to creation date and token type.
+
+```diff
++Exporterar alla tokens som användaren har skapat. Informationen begränsas till skapandedatum och typ av token.
+```
+
+#### [`flarum-gdpr.lib.data.user.anonymize_description`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.lib.data.user.anonymize_description%22)
+
+> Sets all columns on the user table to null. Non-nullable columns are set to their default values or special values. Password is changed, preferences set to default and all groups are removed.
+
+```diff
++Sätter alla kolumner i användartabellen till null. Kolumner som inte tillåter null-värden sätts till sina standardvärden eller till särskilda värden. Lösenordet ändras, inställningarna återställs till standardvärden och alla grupptillhörigheter tas bort.
+```
+
+#### [`flarum-gdpr.lib.data.user.delete_description`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.lib.data.user.delete_description%22)
+
+> Deletes the user from the database.
+
+```diff
++Tar bort användaren från databasen.
+```
+
+#### [`flarum-gdpr.lib.data.user.export_description`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.lib.data.user.export_description%22)
+
+> Exports data from the user table. All columns except id, password.
+
+```diff
++Exporterar data från användartabellen. Alla kolumner utom id och lösenord.
+```
+
+#### [`flarum-gdpr.lib.request_data.request_button`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.lib.request_data.request_button%22)
+
+> Request archive
+
+```diff
++Begär arkiv
+```
+
+#### [`flarum-gdpr.lib.request_data.text`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.lib.request_data.text%22)
+
+> A zip archive will be prepared for you. Once it's ready, you'll receive a notification with a download link. The link will remain active for one day.
+>
+
+```diff
++Ett zip-arkiv kommer att förberedas åt dig. När det är klart får du ett meddelande med en nedladdningslänk. Länken är aktiv i ett dygn.
++
+```
+
+#### [`flarum-gdpr.lib.request_data.title`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/sv/?q=context%3A%3D%22flarum-gdpr.lib.request_data.title%22)
+
+> Request data for {username}
+
+```diff
++Begär data för {username}
 ```
 
 
