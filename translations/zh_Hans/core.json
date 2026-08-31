@@ -854,19 +854,19 @@
                 "offline_message": "当前似乎处于离线状态，请检查网络连接后重试。",
                 "payload_too_large_message": "请求负载过大。",
                 "permission_denied_message": "你没有权限执行此操作。",
-                "rate_limit_exceeded_message": "您的操作太频繁，请稍后再试。",
-                "render_failed_message": "抱歉，加载此内容时出错，请刷新页面重试。如果您是管理员，请查看 Flarum 的日志文件以获取更多信息。"
+                "rate_limit_exceeded_message": "操作过于频繁，请稍后再试。",
+                "render_failed_message": "抱歉，加载此内容时出错，请刷新页面重试。管理员可查看 Flarum 日志文件获取更多信息。"
             },
             "gambits": {
                 "group_keys": {
                     "allows": "允许",
-                    "has": "拥有",
+                    "has": "有",
                     "is": "是"
                 },
                 "discussions": {
                     "author": {
                         "key": "作者",
-                        "hint": "用户名或以逗号分隔的用户名列表"
+                        "hint": "用户名，多个请用英文逗号分隔"
                     },
                     "created": {
                         "key": "创建于",
@@ -887,17 +887,17 @@
                 },
                 "users": {
                     "email": {
-                        "key": "电子邮箱",
-                        "hint": "example@machine.local"
+                        "key": "邮箱",
+                        "hint": "example@qq.com"
                     },
                     "group": {
                         "key": "用户组",
-                        "hint": "单数或复数用户组名称"
+                        "hint": "成员称谓或用户组名称"
                     }
                 }
             },
             "input": {
-                "clear_button": "清除输入"
+                "clear_button": "清空输入"
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
@@ -910,17 +910,17 @@
                 "close": "关闭"
             },
             "multi_select": {
-                "placeholder": "选择多个选项"
+                "placeholder": "请选择多个选项"
             },
             "nav": {
-                "drawer_button": "打开导航抽屉",
+                "drawer_button": "打开导航菜单",
                 "pin_pane_button": "固定讨论列表"
             },
             "notices": {
                 "bisecting": "正在排查导致问题的扩展程序。",
                 "bisecting_continue": "继续排查",
-                "maintenance_mode_low": "正在维护。仅管理员可访问论坛。",
-                "maintenance_mode_safe": "正在进行安全模式维护。仅管理员可访问论坛，且未加载任何扩展。"
+                "maintenance_mode_low": "论坛维护中，仅管理员可访问。",
+                "maintenance_mode_safe": "论坛维护中，当前仅管理员可访问。安全模式下不会加载任何扩展程序。"
             },
             "index_sort": {
                 "az_button": "=> core.ref.title_az",
@@ -936,31 +936,31 @@
                 "mega_text": "百万"
             },
             "overflowing_list": {
-                "toggle_accessible_label": "更多内容"
+                "toggle_accessible_label": "更多菜单"
             },
             "pagination": {
                 "back_button": "上一页",
-                "first_button": "返回首页",
-                "go_to_page_textbox_a11y_label": "翻页到页码",
+                "first_button": "返回第一页",
+                "go_to_page_textbox_a11y_label": "跳转页码",
                 "last_button": "前往最后一页",
                 "next_button": "下一页",
-                "page_counter": "第 {current} 页 / 共 {total} 页"
+                "page_counter": "第 {current} 页，共 {total} 页"
             },
             "search": {
-                "gambit_plus_button_a11y_label": "添加正向过滤器",
-                "gambit_minus_button_a11y_label": "添加反向过滤器",
+                "gambit_plus_button_a11y_label": "添加包含条件",
+                "gambit_minus_button_a11y_label": "添加排除条件",
                 "title": "搜索",
-                "no_results_text": "这里似乎没有任何结果。",
-                "no_search_text": "您还没有搜索任何内容。",
-                "options_heading": "搜索选项",
+                "no_results_text": "似乎没有你要找的内容…",
+                "no_search_text": "想找什么？搜搜看吧……",
+                "options_heading": "筛选项",
                 "placeholder": "搜索...",
-                "preview_heading": "搜索预览",
-                "search_active_button_accessible_label": "修改搜索：{query}",
+                "preview_heading": "结果预览",
+                "search_active_button_accessible_label": "修改当前搜索：{query}",
                 "search_clear_button_accessible_label": "清空搜索"
             },
             "search_source": {
                 "discussions": {
-                    "all_button": "在全部讨论中搜索 “{query}”",
+                    "all_button": "在所有讨论中搜索 “{query}”",
                     "heading": "=> core.ref.discussions"
                 },
                 "posts": {
@@ -973,7 +973,7 @@
             },
             "series": {
                 "glue_text": "， ",
-                "three_text": "{first}、{second} 与 {third}",
+                "three_text": "{first}、{second} 和 {third}",
                 "two_text": "{first} 和 {second}"
             },
             "user_selection_modal": {
@@ -981,16 +981,16 @@
                 "max_items_to_select": "{count, plural, one {最多选择 # 名用户} other {最多选择 # 名用户}}",
                 "search_placeholder": "=> core.ref.search_users",
                 "submit_button": "=> core.ref.okay",
-                "title": "选择相关用户"
+                "title": "选择用户"
             },
             "username": {
                 "deleted_text": "[已注销]"
             },
             "datetime_formats": {
                 "fullTime": "LLLL",
-                "humanTimeShort": "MMMD日",
+                "humanTimeShort": "M月D日",
                 "humanTimeLong": "ll",
-                "scrubber": "YYYY年MMM",
+                "scrubber": "YYYY年M月",
                 "userListJoinDate": "LLL"
             }
         },
@@ -999,16 +999,16 @@
                 "extensions": {
                     "caption": "=> core.ref.extensions",
                     "disable": "关闭",
-                    "empty": "尚未安装扩展程序",
+                    "empty": "尚未安装扩展",
                     "enable": "启用",
                     "name": "扩展名",
-                    "package_name": "软件包",
+                    "package_name": "包名",
                     "version": "版本"
                 },
                 "info": {
                     "caption": "说明"
                 },
-                "title": "管理员"
+                "title": "管理后台"
             },
             "confirm_email": {
                 "submit_button": "=> core.ref.confirm_email",
