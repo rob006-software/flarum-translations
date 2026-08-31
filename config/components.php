@@ -639,7 +639,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/imorland/flarum-ext-boring-avatars/2.0.0-beta.2/locale/en.yml',
 	],
 	'ianm-follow-users' => [
-		'beta' => 'https://raw.githubusercontent.com/imorland/follow-users/2.0.0-beta.8/resources/locale/en.yml',
+		'beta' => 'https://raw.githubusercontent.com/imorland/follow-users/2.0.0-beta.9/resources/locale/en.yml',
 	],
 	'ianm-html-head' => [
 		'beta' => 'https://raw.githubusercontent.com/imorland/html-head/2.0.0-beta.2/resources/locale/en.yml',
