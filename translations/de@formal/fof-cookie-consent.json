@@ -13,12 +13,12 @@
                 "position": "Position",
                 "equalWeightButtons": "Beiden Schaltflächen das gleiche Gewicht zuweisen",
                 "equalWeightButtons_help": "Empfohlen. Wenn die Optionen „Akzeptieren“ und „Ablehnen“ identisch dargestellt werden, wird vermieden, dass Besucher dazu verleitet werden, zuzustimmen.",
-                "colors_help": "",
-                "catchall_title": "",
-                "sweepUndeclared": "",
-                "sweepUndeclared_help": "",
+                "colors_help": "Das Banner passt sich dem Design deines Forums an, einschließlich des Dunkelmodus. Lege eine Farbe fest,\num das Design zu überschreiben – lasse das Feld leer, um das Standarddesign zu übernehmen.\n",
+                "catchall_title": "Nicht deklarierte Cookies",
+                "sweepUndeclared": "Cookies löschen, die durch keine Erweiterung deklariert wurden",
+                "sweepUndeclared_help": "Wenn ein Besucher die Zustimmung verweigert, lösche auch Cookies, die keine Erweiterung\nüber den Cookie-Einwilligungs-Extender gemeldet hat. Dadurch werden Tracker von\nErweiterungen erfasst, die diesen nicht implementiert haben – allerdings werden dabei auch Cookies gelöscht, die eine\nErweiterung tatsächlich benötigt, was zu Funktionsstörungen führen kann. Nutze die untenstehende Zulassungsliste,\num für diese eine Ausnahme zu erstellen.\n",
                 "allowedCookies": "Diese Cookies nie löschen",
-                "allowedCookies_help": "",
+                "allowedCookies_help": "Ein Name pro Zeile. Um ein Muster anzugeben, setze es in Schrägstriche, z. B. /^app_/.\nDie von Flarum selbst gesetzten Cookies bleiben immer erhalten.\n",
                 "theme_popup_title": "Farben für Popups",
                 "backgroundColor": "Hintergrund",
                 "textColor": "Text",
@@ -26,13 +26,13 @@
                 "buttonBackgroundColor": "Hintergrund",
                 "buttonTextColor": "Text",
                 "layouts": {
-                    "box": "",
-                    "box_wide": "",
-                    "box_inline": "",
+                    "box": "Kasten",
+                    "box_wide": "Kasten (breit)",
+                    "box_inline": "Kasten (inline)",
                     "cloud": "Wolke",
-                    "cloud_inline": "",
+                    "cloud_inline": "Wolke (inline)",
                     "bar": "Leiste",
-                    "bar_inline": ""
+                    "bar_inline": "Leiste (inline)"
                 },
                 "positions": {
                     "top_left": "Oben links",
@@ -49,39 +49,39 @@
         },
         "forum": {
             "banner": {
-                "description": "",
+                "description": "Auf dieser Website werden Cookies verwendet. Du kannst deine Einstellungen anpassen oder alle Cookies akzeptieren.",
                 "accept": "Akzeptieren",
                 "decline": "Ablehnen",
                 "preferences": "Einstellungen verwalten",
-                "learn_more": ""
+                "learn_more": "Weitere Informationen"
             },
             "preferences": {
                 "title": "Cookie-Einstellungen",
                 "save": "Einstellungen speichern",
-                "description": "",
+                "description": "Cookies sind kleine Dateien, die diese Website in deinem Browser speichert. Nachfolgend erfährest du, welche Daten gespeichert werden und warum. Du kannst deine Einstellungen jederzeit ändern.",
                 "cookie_table": {
                     "name": "Cookie",
                     "description": "Zweck"
                 }
             },
             "cookies": {
-                "flarum_session": "",
-                "flarum_remember": "",
-                "locale": "",
-                "cc_cookie": ""
+                "flarum_session": "Behält dich während des Surfens angemeldet.",
+                "flarum_remember": "Meldet dich bei deinem nächsten Besuch automatisch wieder an.",
+                "locale": "Merkt sich die von dir gewählte Sprache.",
+                "cc_cookie": "Speichert deine Cookie-Einstellung, damit du nicht erneut danach gefragt wirst."
             },
             "categories": {
                 "necessary": {
-                    "title": "",
-                    "description": ""
+                    "title": "Essenziell",
+                    "description": "Diese sind für die Funktion der Website erforderlich – zum Anmelden, zum Angemeldetbleiben und zum Speichern deiner Cookie-Einstellungen. Sie können nicht deaktiviert werden."
                 },
                 "analytics": {
-                    "title": "",
-                    "description": ""
+                    "title": "Analytik",
+                    "description": "Hilf uns zu verstehen, wie das Forum genutzt wird, damit wir es verbessern können. Nichts davon ist für den Betrieb des Forums erforderlich."
                 },
                 "marketing": {
                     "title": "Marketing",
-                    "description": ""
+                    "description": "Wird zur Messung von Werbemaßnahmen und zur Anzeige von Werbung auf anderen Websites verwendet."
                 }
             }
         }
