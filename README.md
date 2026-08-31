@@ -1098,6 +1098,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`huseyinfiliz-custom-profile-page`](https://weblate.rob006.net/projects/flarum/huseyinfiliz-custom-profile-page) | [`huseyinfiliz/custom-profile-page`](https://github.com/huseyinfiliz/custom-profile-page) |
 | [`huseyinfiliz-flagify`](https://weblate.rob006.net/projects/flarum/huseyinfiliz-flagify) | [`huseyinfiliz/flagify`](https://github.com/huseyinfiliz/flagify) |
 | [`huseyinfiliz-diff`](https://weblate.rob006.net/projects/flarum/huseyinfiliz-diff) | [`huseyinfiliz/flarum-diff`](https://github.com/huseyinfiliz/flarum-diff) |
+| [`huseyinfiliz-language-detection`](https://weblate.rob006.net/projects/flarum/huseyinfiliz-language-detection) | [`huseyinfiliz/language-detection`](https://github.com/huseyinfiliz/language-detection) |
 | [`huseyinfiliz-leaderboard`](https://weblate.rob006.net/projects/flarum/huseyinfiliz-leaderboard) | [`huseyinfiliz/leaderboard`](https://github.com/huseyinfiliz/leaderboard) |
 | [`huseyinfiliz-modern-footer`](https://weblate.rob006.net/projects/flarum/huseyinfiliz-modern-footer) | [`huseyinfiliz/modern-footer`](https://github.com/huseyinfiliz/modern-footer) |
 | [`huseyinfiliz-notificationhub`](https://weblate.rob006.net/projects/flarum/huseyinfiliz-notificationhub) | [`huseyinfiliz/notificationhub`](https://github.com/huseyinfiliz/notificationhub) |
