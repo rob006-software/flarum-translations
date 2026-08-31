@@ -4,10 +4,10 @@
             "errors": {
                 "user_not_found": "Benutzer nicht gefunden",
                 "request_not_found": "Freundschaftsanfrage nicht gefunden",
-                "not_recipient": "Du kannst auf diese Anfrage nicht antworten",
                 "not_friends": "Du bist kein Freund dieses Benutzers",
                 "self_request": "Du kannst keine Freundschaftsanfrage an dich selbst senden",
-                "already_friends": ""
+                "already_friends": "",
+                "not_recipient": "Du kannst auf diese Anfrage nicht antworten"
             }
         },
         "forum": {
@@ -16,6 +16,7 @@
                 "friends_count": "{count, plural, one {# Freund} other {# Freunde}}",
                 "requests_btn": "Anfragen",
                 "no_friends": "Noch keine Freunde",
+                "friends_hidden": "",
                 "friends_since": "Freund seit {date}",
                 "load_more": "Mehr laden"
             },
@@ -96,7 +97,8 @@
         },
         "admin": {
             "sections": {
-                "badges": ""
+                "badges": "",
+                "history": ""
             },
             "settings": {
                 "badges_intro": "",
@@ -105,7 +107,10 @@
                 "show_badge_on_post": "",
                 "show_badge_on_post_help": "",
                 "badge_color": "",
-                "badge_bg_color": ""
+                "badge_bg_color": "",
+                "event_retention_intro": "",
+                "event_retention_days": "",
+                "event_retention_days_help": ""
             },
             "permissions": {
                 "add_friends": "",

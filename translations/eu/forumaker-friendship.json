@@ -4,7 +4,6 @@
             "errors": {
                 "user_not_found": "",
                 "request_not_found": "",
-                "not_recipient": "",
                 "not_friends": "",
                 "self_request": "",
                 "already_friends": ""
@@ -16,6 +15,7 @@
                 "friends_count": "",
                 "requests_btn": "",
                 "no_friends": "",
+                "friends_hidden": "",
                 "friends_since": "",
                 "load_more": ""
             },
@@ -96,7 +96,8 @@
         },
         "admin": {
             "sections": {
-                "badges": ""
+                "badges": "",
+                "history": ""
             },
             "settings": {
                 "badges_intro": "",
@@ -105,7 +106,10 @@
                 "show_badge_on_post": "",
                 "show_badge_on_post_help": "",
                 "badge_color": "",
-                "badge_bg_color": ""
+                "badge_bg_color": "",
+                "event_retention_intro": "",
+                "event_retention_days": "",
+                "event_retention_days_help": ""
             },
             "permissions": {
                 "add_friends": "",

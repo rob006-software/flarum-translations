@@ -4,7 +4,6 @@
             "errors": {
                 "user_not_found": "User not found",
                 "request_not_found": "Friend request not found",
-                "not_recipient": "You cannot respond to this request",
                 "not_friends": "You are not friends with this user",
                 "self_request": "Cannot send a friend request to yourself",
                 "already_friends": "You are already friends with this user"
@@ -16,6 +15,7 @@
                 "friends_count": "{count, plural, one {# friend} other {# friends}}",
                 "requests_btn": "Requests",
                 "no_friends": "No friends yet",
+                "friends_hidden": "Friends are hidden",
                 "friends_since": "Friends since {date}",
                 "load_more": "Load more"
             },
@@ -96,7 +96,8 @@
         },
         "admin": {
             "sections": {
-                "badges": "Badge"
+                "badges": "Badge",
+                "history": "History"
             },
             "settings": {
                 "badges_intro": "Where enabled, users will be able to control this in their own settings",
@@ -105,7 +106,10 @@
                 "show_badge_on_post": "Show friend count next to the avatar in posts",
                 "show_badge_on_post_help": "Shown next to the avatar in the post header",
                 "badge_color": "Color and icon in profile",
-                "badge_bg_color": "Background color in posts"
+                "badge_bg_color": "Background color in posts",
+                "event_retention_intro": "Old request history entries are pruned automatically once a day",
+                "event_retention_days": "Keep history for (days)",
+                "event_retention_days_help": "0 disables pruning — history is kept forever"
             },
             "permissions": {
                 "add_friends": "Add friends",
