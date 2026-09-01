@@ -113,8 +113,8 @@
                     "uninstalled": "卸载扩展{package}"
                 },
                 "queue": {
-                    "paused": "",
-                    "resumed": ""
+                    "paused": "{queue} 的队列处理已暂停（{connection}）",
+                    "resumed": "{queue} 的队列处理已恢复（{connection}）"
                 },
                 "group": {
                     "created": "新建群组{name}",
