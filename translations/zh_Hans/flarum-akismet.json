@@ -3,7 +3,7 @@
         "admin": {
             "akismet_settings": {
                 "api_key_label": "API 密钥",
-                "invalid_api_key_message": "",
+                "invalid_api_key_message": "Akismet 拒绝了这个 API 密钥。请检查你的 Akismet 账户之后再试。",
                 "title": "Akismet 设置",
                 "delete_blatant_spam_label": "自动删除问题内容",
                 "delete_blatant_spam_help": "直接删除检测到问题的内容"
