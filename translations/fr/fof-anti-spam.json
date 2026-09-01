@@ -119,19 +119,19 @@
                 "login-provider": "Fournisseur d'accès",
                 "login-provider-data": "Données du fournisseur de connexion",
                 "sfs-data": "Données de StopForumSpam",
-                "reasons": "",
+                "reasons": "Motifs de blocage enregistrés",
                 "delete_entry": "Supprimer l'entrée",
-                "total": "",
+                "total": "{count, plural, one {# inscription bloquée} other {# inscriptions bloquées}}",
                 "filters": {
-                    "placeholder": "",
-                    "apply": "",
-                    "clear": "",
-                    "hint": "",
-                    "no-matches": "",
+                    "placeholder": "Rechercher ou filtrer par clé:valeur",
+                    "apply": "Appliquer",
+                    "clear": "Effacer la recherche",
+                    "hint": "Filtres :",
+                    "no-matches": "Aucune inscription bloquée ne correspond à cette recherche.",
                     "help": {
-                        "toggle": "",
-                        "multiple": "",
-                        "negate": "",
+                        "toggle": "Aide à la recherche",
+                        "multiple": "Combinez les filtres en les séparant par des espaces.",
+                        "negate": "Préfixez un filtre avec « - » pour exclure les résultats correspondants, p. ex. -provider:github",
                         "ip": "",
                         "email": "",
                         "username": "",
@@ -141,24 +141,24 @@
                     }
                 },
                 "evidence": {
-                    "label": "",
-                    "none": "",
+                    "label": "Pourquoi celle-ci a été bloquée",
+                    "none": "Aucune donnée StopForumSpam n'a été enregistrée pour cette tentative.",
                     "lookup_failed": "",
-                    "blocked_by": "",
+                    "blocked_by": "Bloquée par",
                     "rule": {
-                        "confidence": "",
-                        "frequency": "",
-                        "blacklisted": "",
-                        "torExit": "",
-                        "deniedAsn": ""
+                        "confidence": "Seuil de confiance",
+                        "frequency": "Seuil de signalement",
+                        "blacklisted": "Sur la liste noire",
+                        "torExit": "Nœud de sortie Tor",
+                        "deniedAsn": "Réseau refusé"
                     },
                     "field": {
-                        "ip": "",
-                        "email": "",
-                        "username": ""
+                        "ip": "IP",
+                        "email": "Courriel",
+                        "username": "Nom d'utilisateur"
                     },
                     "badge": {
-                        "blacklisted": "",
+                        "blacklisted": "Sur la liste noire",
                         "tor_exit": "Nœud de sortie Tor",
                         "not_listed": "",
                         "confidence": "{value} % de confiance",
