@@ -947,6 +947,12 @@ return [
 			'zh_Hans',
 		],
 	],
+	'stezkoy-ai-openreply' => [
+		'tag' => 'https://raw.githubusercontent.com/Stezkoy/flarum-ai-openreply/v0.0.2/locale/en.yml',
+		'__builtInLanguages' => [
+			'ru',
+		],
+	],
 	'sycho-advanced-extension-categories' => [
 		'tag' => 'https://raw.githubusercontent.com/SychO9/flarum-advanced-extension-categories/v0.2.1/locale/en.yml',
 	],
