@@ -103,10 +103,10 @@
             "birthday_saved": "Geburtstag gespeichert."
         },
         "api": {
-            "title_required": "",
-            "start_required": "",
-            "end_before_start": "",
-            "category_name_required": ""
+            "title_required": "Ein Titel wird benötigt.",
+            "start_required": "Ein gültiges Startdatum und -zeit wird benötigt.",
+            "end_before_start": "Das Ende muss nach dem Beginn liegen.",
+            "category_name_required": "Der Kategoriename wird benötigt."
         },
         "admin": {
             "settings_title": "Kalender",
@@ -139,7 +139,7 @@
         "forum": {
             "widget_events": "Anstehende Veranstaltungen",
             "widget_pulse": "",
-            "widget_memories": "",
+            "widget_memories": "An diesem Tag",
             "widget_celebrations": "Feierlichkeiten"
         }
     }
