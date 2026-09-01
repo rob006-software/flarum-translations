@@ -101,11 +101,11 @@
                 "users_marked": "Utilisateurs signalés comme spammeurs",
                 "posts_flagged": "Messages signalés comme spam",
                 "awaiting_review": "Signalements en attente de révision",
-                "this_week": "",
-                "vs_last_week": "",
+                "this_week": "{count, plural, one {# cette semaine} other {# cette semaine}}",
+                "vs_last_week": "Par rapport aux sept jours précédents",
                 "top_reason": "",
-                "view_all": "",
-                "failed": ""
+                "view_all": "Afficher les inscriptions bloquées",
+                "failed": "Impossible de charger les statistiques relatives au spam."
             },
             "blocked_registrations": {
                 "button": "Inscriptions bloquées",
@@ -159,11 +159,11 @@
                     },
                     "badge": {
                         "blacklisted": "",
-                        "tor_exit": "",
+                        "tor_exit": "Nœud de sortie Tor",
                         "not_listed": "",
                         "confidence": "{value} % de confiance",
                         "frequency": "",
-                        "last_seen": "",
+                        "last_seen": "dernière connexion {when}",
                         "asn": "AS{asn}",
                         "normalized": ""
                     }
