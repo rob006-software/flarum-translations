@@ -185,6 +185,9 @@ return [
 	'ernestdefoe-roleplay' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/roleplay/v1.1.1/resources/locale/en.yml',
 	],
+	'ernestdefoe-scribe' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/scribe/1.0.1/locale/en.yml',
+	],
 	'ernestdefoe-seo' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/seo/2.0.14/locale/en.yml',
 	],
