@@ -100,7 +100,7 @@
                 "registrations_blocked": "Registrierungen blockiert",
                 "users_marked": "Benutzer als Spammer markiert",
                 "posts_flagged": "Beiträge als Spam markiert",
-                "awaiting_review": "",
+                "awaiting_review": "Markiert zur Überprüfung ausstehend",
                 "this_week": "{count, plural, one {# diese Woche} other {# diese Woche}}",
                 "vs_last_week": "Verglichen mit den vorherigen sieben Tagen",
                 "top_reason": "Am häufigsten: {reason} ({count, plural, one {# Block} other {# Blöcke}})",
@@ -119,7 +119,7 @@
                 "login-provider": "Anmeldeanbieter",
                 "login-provider-data": "Daten des Loginanbieters",
                 "sfs-data": "StopForumSpam-Daten",
-                "reasons": "",
+                "reasons": "Aufgenommene Gründe für Blockierung",
                 "delete_entry": "Eintrag löschen",
                 "total": "{count, plural, one {# blockierte Registrierung} other {# blockierte Registrierungen}}",
                 "filters": {
@@ -127,7 +127,7 @@
                     "apply": "Anwenden",
                     "clear": "Suche löschen",
                     "hint": "Filter:",
-                    "no-matches": "",
+                    "no-matches": "Es wurden keine blockierten Registrierungen gefunden, die dieser Suche entsprechen.",
                     "help": {
                         "toggle": "Hilfe zur Suche",
                         "multiple": "Kombiniere Filter, indem du sie durch Leerzeichen voneinander trennst.",
@@ -142,15 +142,15 @@
                 },
                 "evidence": {
                     "label": "Warum diese blockiert wurde",
-                    "none": "",
-                    "lookup_failed": "",
+                    "none": "Für diesen Versuch wurden keine StopForumSpam-Daten erfasst.",
+                    "lookup_failed": "Die Abfrage bei StopForumSpam ist fehlgeschlagen, daher wurden für diesen Versuch keine Daten zurückgegeben.",
                     "blocked_by": "Blockiert von",
                     "rule": {
                         "confidence": "Konfidenzschwelle",
                         "frequency": "Berichtsschwelle",
-                        "blacklisted": "",
-                        "torExit": "",
-                        "deniedAsn": ""
+                        "blacklisted": "Auf der schwarzen Liste",
+                        "torExit": "Tor-Ausgangsknoten",
+                        "deniedAsn": "Abgelehntes Netzwerk"
                     },
                     "field": {
                         "ip": "IP",
@@ -158,13 +158,13 @@
                         "username": "Benutzername"
                     },
                     "badge": {
-                        "blacklisted": "",
-                        "tor_exit": "",
-                        "not_listed": "",
+                        "blacklisted": "Auf der schwarzen Liste",
+                        "tor_exit": "Tor-Ausgangsknoten",
+                        "not_listed": "Kein Treffer",
                         "confidence": "{value} % Konfidenz",
                         "frequency": "{count, plural, one {# Mal gemeldet} other {# Mal gemeldet}}",
                         "last_seen": "zuletzt gesehen {when}",
-                        "asn": "",
+                        "asn": "AS{asn}",
                         "normalized": "auf den Wert {value} normalisiert"
                     }
                 },
