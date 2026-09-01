@@ -92,6 +92,15 @@
             }
         }
     },
+    "asyntai-chatbot.json": {
+        "asyntai-chatbot": {
+            "admin": {
+                "settings": {
+                    "widget_id_label": "df4e7960ae35f4e18bd7103efcfea9b8 df4e7960ae35f4e18bd7103efcfea9b8"
+                }
+            }
+        }
+    },
     "core.json": {
         "core": {
             "admin": {
@@ -1189,7 +1198,7 @@
                     "cancelled": "d41d8cd98f00b204e9800998ecf8427e 4a80d11d6ed98730b500a31c4af2d120",
                     "failed": "d41d8cd98f00b204e9800998ecf8427e 792938a5d2494491b3681643cf741db5",
                     "passkey_unsupported": "d41d8cd98f00b204e9800998ecf8427e 17762f09f4084d6484b7295a73b66896",
-                    "sign_in_with_passkey": "d41d8cd98f00b204e9800998ecf8427e 9e32d76a398ff576373d7f8f7ef94baa",
+                    "sign_in_with_passkey": "06264bce41ee073ba180776ec11c01cb 9e32d76a398ff576373d7f8f7ef94baa",
                     "verifying": "d41d8cd98f00b204e9800998ecf8427e 624da581dc60636b054e6aeab987d477"
                 }
             }
@@ -1342,7 +1351,7 @@
                 }
             },
             "forum": {
-                "bbcode_description": "d41d8cd98f00b204e9800998ecf8427e 9ee8e762bc44e1373f0e79ae07327a96"
+                "bbcode_description": "5dd4bcfc449de869469aa3a86c4e8692 9ee8e762bc44e1373f0e79ae07327a96"
             }
         }
     },
@@ -1350,7 +1359,16 @@
         "ekumanov-new-posts-notice": {
             "forum": {
                 "new_posts_plural": "d41d8cd98f00b204e9800998ecf8427e 40eb2f8dedd1b3c7c82a23df04c7e1c2",
-                "new_posts_single": "d41d8cd98f00b204e9800998ecf8427e 53a6da8079367aca8cd2bd5ad33b4573"
+                "new_posts_single": "b8e5686611a2beda04b9b6603f5fe61a 53a6da8079367aca8cd2bd5ad33b4573"
+            }
+        }
+    },
+    "ernestdefoe-aurora.json": {
+        "ernestdefoe-aurora": {
+            "admin": {
+                "settings": {
+                    "gradient_start": "76eddabfb19ec971e72ead0dbb63e402 76eddabfb19ec971e72ead0dbb63e402"
+                }
             }
         }
     },
@@ -1413,7 +1431,7 @@
                     "title": "d41d8cd98f00b204e9800998ecf8427e 80e0f41fd327ac1403aa6615d0fa45ff"
                 },
                 "permissions": {
-                    "view": "d41d8cd98f00b204e9800998ecf8427e 49c953a55fb4a358c01f37830810637f",
+                    "view": "8cd300b2ce523efdd7f0236f57b035ae 49c953a55fb4a358c01f37830810637f",
                     "viewLimited": "d41d8cd98f00b204e9800998ecf8427e ee00a2066ddaf523fb4f98f31d6be7d4"
                 },
                 "settings": {
@@ -2613,6 +2631,15 @@
                 },
                 "user_controls": {
                     "spammer_button": "69018752e14589c2ea83247993cbaeb8 b726b35ea375193c184ad434c338781e"
+                }
+            }
+        }
+    },
+    "fof-author-change.json": {
+        "fof-author-change": {
+            "forum": {
+                "controls": {
+                    "edit": "16f9bd03bb54476e78d5c12f461f114b 16f9bd03bb54476e78d5c12f461f114b"
                 }
             }
         }
