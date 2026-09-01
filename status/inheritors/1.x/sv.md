@@ -2,8 +2,8 @@
 
 Translations for Swedish (`sv`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **195** are translated differently and **440** are
-translated only in `sv`. Altogether they cover **18** components.
+sides, but do not match between them: **195** are translated differently and **634** are
+translated only in `sv`. Altogether they cover **26** components.
 
 <!-- {% raw %} -->
 
@@ -30,6 +30,14 @@ translated only in `sv`. Altogether they cover **18** components.
 | `flarum-subscriptions` | [5](#flarum-subscriptions) | [3](#flarum-subscriptions-missing) |
 | `flarum-suspend` | [4](#flarum-suspend) | [11](#flarum-suspend-missing) |
 | `flarum-tags` | [23](#flarum-tags) | [13](#flarum-tags-missing) |
+| `fof-analytics` | 0 | [20](#fof-analytics-missing) |
+| `fof-anti-spam` | 0 | [56](#fof-anti-spam-missing) |
+| `fof-formatting` | 0 | [7](#fof-formatting-missing) |
+| `fof-links` | 0 | [28](#fof-links-missing) |
+| `fof-move-posts` | 0 | [29](#fof-move-posts-missing) |
+| `fof-pages` | 0 | [29](#fof-pages-missing) |
+| `fof-recaptcha` | 0 | [16](#fof-recaptcha-missing) |
+| `fof-split` | 0 | [9](#fof-split-missing) |
 
 
 ## Different translations
@@ -5639,6 +5647,1606 @@ These strings are translated only in `sv`, so there is nothing to inherit from F
 
 ```diff
 +{count, plural, one {Välj 1 tagg till} other {Välj # taggar till}}
+```
+
+
+### `fof-analytics` (missing)
+
+#### [`fof-analytics.admin.matomo-widget.title`](https://weblate.rob006.net/translate/flarum2/fof-analytics/sv/?q=context%3A%3D%22fof-analytics.admin.matomo-widget.title%22)
+
+> Matomo
+
+```diff
++Matomo
+```
+
+#### [`fof-analytics.admin.popup.field.googleGTMCode`](https://weblate.rob006.net/translate/flarum2/fof-analytics/sv/?q=context%3A%3D%22fof-analytics.admin.popup.field.googleGTMCode%22)
+
+> GTM code ID (optional)
+
+```diff
++GTM-kod-ID (valfritt)
+```
+
+#### [`fof-analytics.admin.popup.field.googleTrackingCode`](https://weblate.rob006.net/translate/flarum2/fof-analytics/sv/?q=context%3A%3D%22fof-analytics.admin.popup.field.googleTrackingCode%22)
+
+> Tracking Code ID
+
+```diff
++ID för spårningskod
+```
+
+#### [`fof-analytics.admin.popup.field.optTrackingCode`](https://weblate.rob006.net/translate/flarum2/fof-analytics/sv/?q=context%3A%3D%22fof-analytics.admin.popup.field.optTrackingCode%22)
+
+> Optimize Tracking Code (optional)
+
+```diff
++Optimera spårningskod (valfritt)
+```
+
+#### [`fof-analytics.admin.popup.field.piwikAliasUrl`](https://weblate.rob006.net/translate/flarum2/fof-analytics/sv/?q=context%3A%3D%22fof-analytics.admin.popup.field.piwikAliasUrl%22)
+
+> Alias URL
+
+```diff
++Alias URL
+```
+
+#### [`fof-analytics.admin.popup.field.piwikAuthToken`](https://weblate.rob006.net/translate/flarum2/fof-analytics/sv/?q=context%3A%3D%22fof-analytics.admin.popup.field.piwikAuthToken%22)
+
+> Authentication Token
+
+```diff
++Autentiseringstoken
+```
+
+#### [`fof-analytics.admin.popup.field.piwikHideAliasUrl`](https://weblate.rob006.net/translate/flarum2/fof-analytics/sv/?q=context%3A%3D%22fof-analytics.admin.popup.field.piwikHideAliasUrl%22)
+
+> In the "Outlinks" report, hide clicks to known alias URLs
+
+```diff
++Dölj klick på kända alias-webbadresser i rapporten ”Utgående länkar”
+```
+
+#### [`fof-analytics.admin.popup.field.piwikPrependDomain`](https://weblate.rob006.net/translate/flarum2/fof-analytics/sv/?q=context%3A%3D%22fof-analytics.admin.popup.field.piwikPrependDomain%22)
+
+> Prepend the site domain to the page title when tracking
+
+```diff
++Lägg till webbplatsdomänen före sidtiteln vid spårning
+```
+
+#### [`fof-analytics.admin.popup.field.piwikSiteId`](https://weblate.rob006.net/translate/flarum2/fof-analytics/sv/?q=context%3A%3D%22fof-analytics.admin.popup.field.piwikSiteId%22)
+
+> Site ID
+
+```diff
++Webbplats-ID
+```
+
+#### [`fof-analytics.admin.popup.field.piwikTrackAccounts`](https://weblate.rob006.net/translate/flarum2/fof-analytics/sv/?q=context%3A%3D%22fof-analytics.admin.popup.field.piwikTrackAccounts%22)
+
+> Track individual user accounts
+
+```diff
++Spåra enskilda användarkonton
+```
+
+#### [`fof-analytics.admin.popup.field.piwikTrackSubdomain`](https://weblate.rob006.net/translate/flarum2/fof-analytics/sv/?q=context%3A%3D%22fof-analytics.admin.popup.field.piwikTrackSubdomain%22)
+
+> Track visitors across all subdomains of Flarum
+
+```diff
++Spåra besökare till alla Flarums underdomäner
+```
+
+#### [`fof-analytics.admin.popup.field.piwikUrl`](https://weblate.rob006.net/translate/flarum2/fof-analytics/sv/?q=context%3A%3D%22fof-analytics.admin.popup.field.piwikUrl%22)
+
+> Matomo domain or URL
+
+```diff
++Matomo-domän eller webbadress
+```
+
+#### [`fof-analytics.admin.popup.field.statusGoogle`](https://weblate.rob006.net/translate/flarum2/fof-analytics/sv/?q=context%3A%3D%22fof-analytics.admin.popup.field.statusGoogle%22)
+
+> Enable Google Analytics (UA/GA4)
+
+```diff
++Aktivera Google Analytics (UA/GA4)
+```
+
+#### [`fof-analytics.admin.popup.field.statusPiwik`](https://weblate.rob006.net/translate/flarum2/fof-analytics/sv/?q=context%3A%3D%22fof-analytics.admin.popup.field.statusPiwik%22)
+
+> Enable Matomo
+
+```diff
++Aktivera Matomo
+```
+
+#### [`fof-analytics.admin.popup.placeholder.piwikAuthToken`](https://weblate.rob006.net/translate/flarum2/fof-analytics/sv/?q=context%3A%3D%22fof-analytics.admin.popup.placeholder.piwikAuthToken%22)
+
+> Fill this token to enable a Matomo stats widget in the admin panel.
+> You can find it in Settings &gt; Personal &gt; API Authentication Token.
+>
+
+```diff
++Ange denna token för att aktivera en Matomo-statistikwidget i administrationspanelen.
++Du hittar den under Inställningar > Personligt > API-autentiseringstoken.
++
+```
+
+#### [`fof-analytics.admin.popup.section.googleAnalytics`](https://weblate.rob006.net/translate/flarum2/fof-analytics/sv/?q=context%3A%3D%22fof-analytics.admin.popup.section.googleAnalytics%22)
+
+> Google Analytics
+
+```diff
++Google Analytics
+```
+
+#### [`fof-analytics.admin.popup.section.piwik`](https://weblate.rob006.net/translate/flarum2/fof-analytics/sv/?q=context%3A%3D%22fof-analytics.admin.popup.section.piwik%22)
+
+> Matomo
+
+```diff
++Matomo
+```
+
+#### [`fof-analytics.admin.popup.trackAccounts.email`](https://weblate.rob006.net/translate/flarum2/fof-analytics/sv/?q=context%3A%3D%22fof-analytics.admin.popup.trackAccounts.email%22)
+
+> Track by email
+
+```diff
++Spåra via e-post
+```
+
+#### [`fof-analytics.admin.popup.trackAccounts.none`](https://weblate.rob006.net/translate/flarum2/fof-analytics/sv/?q=context%3A%3D%22fof-analytics.admin.popup.trackAccounts.none%22)
+
+> Do not track
+
+```diff
++Spåra inte
+```
+
+#### [`fof-analytics.admin.popup.trackAccounts.username`](https://weblate.rob006.net/translate/flarum2/fof-analytics/sv/?q=context%3A%3D%22fof-analytics.admin.popup.trackAccounts.username%22)
+
+> Track by username
+
+```diff
++Spåra via användarnamn
+```
+
+
+### `fof-anti-spam` (missing)
+
+#### [`flarum-audit.lib.browser.registration.blocked`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/sv/?q=context%3A%3D%22flarum-audit.lib.browser.registration.blocked%22)
+
+> Blocked registration for {username} ({email}) from {ip}
+
+```diff
++Registrering blockerad för {username} ({email}) från {ip}
+```
+
+#### [`flarum-audit.lib.browser.user.marked_as_spammer`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/sv/?q=context%3A%3D%22flarum-audit.lib.browser.user.marked_as_spammer%22)
+
+> Marked {username} as a spammer
+
+```diff
++Markerade {username} som spammare
+```
+
+#### [`fof-anti-spam.admin.blocked_registrations.attempted-at`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/sv/?q=context%3A%3D%22fof-anti-spam.admin.blocked_registrations.attempted-at%22)
+
+> Attempted at
+
+```diff
++Försökte vid
+```
+
+#### [`fof-anti-spam.admin.blocked_registrations.button`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/sv/?q=context%3A%3D%22fof-anti-spam.admin.blocked_registrations.button%22)
+
+> Blocked Registrations
+
+```diff
++Blockerade registreringar
+```
+
+#### [`fof-anti-spam.admin.blocked_registrations.delete_entry`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/sv/?q=context%3A%3D%22fof-anti-spam.admin.blocked_registrations.delete_entry%22)
+
+> Delete entry
+
+```diff
++Ta bort post
+```
+
+#### [`fof-anti-spam.admin.blocked_registrations.email`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/sv/?q=context%3A%3D%22fof-anti-spam.admin.blocked_registrations.email%22)
+
+> Email Address
+
+```diff
++E-postadress
+```
+
+#### [`fof-anti-spam.admin.blocked_registrations.help`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/sv/?q=context%3A%3D%22fof-anti-spam.admin.blocked_registrations.help%22)
+
+> This page shows all registrations that have been blocked by the StopForumSpam service. You can view the details of each registration, and if you wish, you can delete the record from the database.
+>
+
+```diff
++Denna sida visar alla registreringar som har blockerats av tjänsten StopForumSpam. Du kan se detaljerna för varje registrering - och om du vill - ta bort posten från databasen.
++
+```
+
+#### [`fof-anti-spam.admin.blocked_registrations.ip`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/sv/?q=context%3A%3D%22fof-anti-spam.admin.blocked_registrations.ip%22)
+
+> IP Address
+
+```diff
++IP-adress
+```
+
+#### [`fof-anti-spam.admin.blocked_registrations.login-provider`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/sv/?q=context%3A%3D%22fof-anti-spam.admin.blocked_registrations.login-provider%22)
+
+> Login Provider
+
+```diff
++Inloggningsprovider
+```
+
+#### [`fof-anti-spam.admin.blocked_registrations.login-provider-data`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/sv/?q=context%3A%3D%22fof-anti-spam.admin.blocked_registrations.login-provider-data%22)
+
+> Login Provider Data
+
+```diff
++Data från inloggningsprovider
+```
+
+#### [`fof-anti-spam.admin.blocked_registrations.no-records`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/sv/?q=context%3A%3D%22fof-anti-spam.admin.blocked_registrations.no-records%22)
+
+> No blocked registrations found.
+
+```diff
++Inga blockerade registreringar hittades.
+```
+
+#### [`fof-anti-spam.admin.blocked_registrations.sfs-data`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/sv/?q=context%3A%3D%22fof-anti-spam.admin.blocked_registrations.sfs-data%22)
+
+> StopForumSpam Data
+
+```diff
++StopForumSpam-data
+```
+
+#### [`fof-anti-spam.admin.blocked_registrations.title`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/sv/?q=context%3A%3D%22fof-anti-spam.admin.blocked_registrations.title%22)
+
+> Blocked Registrations
+
+```diff
++Blockerade registreringar
+```
+
+#### [`fof-anti-spam.admin.blocked_registrations.username`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/sv/?q=context%3A%3D%22fof-anti-spam.admin.blocked_registrations.username%22)
+
+> Username
+
+```diff
++Användarnamn
+```
+
+#### [`fof-anti-spam.admin.settings.default-actions.delete_posts_help`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/sv/?q=context%3A%3D%22fof-anti-spam.admin.settings.default-actions.delete_posts_help%22)
+
+> This will permanently delete all posts made by this user. When disabled, posts will be soft deleted instead.
+
+```diff
++Detta raderar permanent alla inlägg som gjorts av denna användare. Om funktionen inaktiveras kommer inläggen istället att markeras som borttagna.
+```
+
+#### [`fof-anti-spam.admin.settings.default-actions.heading`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/sv/?q=context%3A%3D%22fof-anti-spam.admin.settings.default-actions.heading%22)
+
+> Default moderation actions
+
+```diff
++Standardåtgärder för moderering
+```
+
+#### [`fof-anti-spam.admin.settings.default-actions.introduction`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/sv/?q=context%3A%3D%22fof-anti-spam.admin.settings.default-actions.introduction%22)
+
+> When a user is marked as a spammer, moderators are able to choose from various actions on how to deal with the particular use case. These settings allow you to pre-set the actions you'll normally take, to speed up the process, but also allowing for variations as needed.
+
+```diff
++När en användare markeras som spammare kan moderatorer välja mellan olika åtgärder för att hantera situationen. Med dessa inställningar kan du fördefiniera de åtgärder som vanligtvis vidtas för att påskynda processen, samtidigt som det finns utrymme för variationer vid behov.
+```
+
+#### [`fof-anti-spam.admin.settings.default-actions.move_discussions_to_tags_help`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/sv/?q=context%3A%3D%22fof-anti-spam.admin.settings.default-actions.move_discussions_to_tags_help%22)
+
+> This will move all discussions started by this user to the tag(s) you specified. Clear the tag selection to leave discussions in their original tag(s). Has no effect if the 'Delete discussions' option is enabled.
+
+```diff
++Detta flyttar alla diskussioner som startats av denna användare till de taggar du angav. Rensa taggvalet för att låta diskussionerna ligga kvar under sina ursprungliga taggar. Har ingen effekt om alternativet ”Ta bort diskussioner” är aktiverat.
+```
+
+#### [`fof-anti-spam.admin.settings.default-actions.move_discussions_to_tags_label`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/sv/?q=context%3A%3D%22fof-anti-spam.admin.settings.default-actions.move_discussions_to_tags_label%22)
+
+> Move discussions to tag(s)
+
+```diff
++Flytta diskussioner till tagg(ar)
+```
+
+#### [`fof-anti-spam.admin.settings.stopforumspam.api_key_instructions_text`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/sv/?q=context%3A%3D%22fof-anti-spam.admin.settings.stopforumspam.api_key_instructions_text%22)
+
+> &lt;register&gt;Sign up for StopForumSpam&lt;/register&gt;. Then you will need to &lt;key&gt;obtain an API key&lt;/key&gt;.
+
+```diff
++<register>Registrera dig hos StopForumSpam</register>. Därefter behöver du <key>skaffa en API-nyckel</key>.
+```
+
+#### [`fof-anti-spam.admin.settings.stopforumspam.api_key_label`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/sv/?q=context%3A%3D%22fof-anti-spam.admin.settings.stopforumspam.api_key_label%22)
+
+> API Key
+
+```diff
++API-nyckel
+```
+
+#### [`fof-anti-spam.admin.settings.stopforumspam.api_key_text`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/sv/?q=context%3A%3D%22fof-anti-spam.admin.settings.stopforumspam.api_key_text%22)
+
+> You have the option to report spammers to StopForumSpam in order to keep the greater forum community spam free.
+
+```diff
++Du har möjlighet att rapportera spammare till StopForumSpam för att hålla forumgemenskapen fri från spam.
+```
+
+#### [`fof-anti-spam.admin.settings.stopforumspam.confidence_help`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/sv/?q=context%3A%3D%22fof-anti-spam.admin.settings.stopforumspam.confidence_help%22)
+
+> The confidence score is a reasonably good indicator that the field under test would result in unwanted activity. Set your confidence level as a percentage. If the field is equal or above this figure, the registration will be blocked, regardless on the 'frequency' test above.
+
+```diff
++Förtroendepoängen är en relativt god indikator på att det testade fältet skulle leda till oönskad aktivitet. Ange din förtroendenivå i procent. Om värdet för fältet når upp till eller överstiger denna nivå kommer registreringen att blockeras, oavsett resultatet av ”frekvenstestet” ovan.
+```
+
+#### [`fof-anti-spam.admin.settings.stopforumspam.confidence_label`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/sv/?q=context%3A%3D%22fof-anti-spam.admin.settings.stopforumspam.confidence_label%22)
+
+> Confidence
+
+```diff
++Förtroende
+```
+
+#### [`fof-anti-spam.admin.settings.stopforumspam.email_hash_help`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/sv/?q=context%3A%3D%22fof-anti-spam.admin.settings.stopforumspam.email_hash_help%22)
+
+> Pass a MD5 hash of the email address should you wish to not pass the email address itself. This method bypasses all blacklists, normalisation and obfuscation bypass checks.
+
+```diff
++Skicka en MD5-hash av e-postadressen om du inte vill skicka själva e-postadressen. Denna metod kringgår alla svartlistor samt kontroller för normalisering och kringgående av maskering.
+```
+
+#### [`fof-anti-spam.admin.settings.stopforumspam.email_hash_label`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/sv/?q=context%3A%3D%22fof-anti-spam.admin.settings.stopforumspam.email_hash_label%22)
+
+> Use hashed email address
+
+```diff
++Använd hashad e-postadress
+```
+
+#### [`fof-anti-spam.admin.settings.stopforumspam.email_label`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/sv/?q=context%3A%3D%22fof-anti-spam.admin.settings.stopforumspam.email_label%22)
+
+> Email Spam Check
+
+```diff
++Spamkontroll av e-postadresser
+```
+
+#### [`fof-anti-spam.admin.settings.stopforumspam.frequency_help`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/sv/?q=context%3A%3D%22fof-anti-spam.admin.settings.stopforumspam.frequency_help%22)
+
+> The number of spam reports between all enabled checks that will trip the spam filter.
+> Ex: If the email has 1 hit, and the ip has 2 hits, there will be 3 hits in total. If the threshold is set to 3 or less we will prevent the registration.
+>
+
+```diff
++Antalet spamindikeringar från alla aktiverade kontroller som krävs för att trigga spamfiltret.
++Exempel: Om e-postadressen ger 1 träff och IP-adressen ger 2 träffar blir det totalt 3 träffar. Om tröskelvärdet är inställt på 3 eller lägre kommer registreringen att stoppas.
++
+```
+
+#### [`fof-anti-spam.admin.settings.stopforumspam.frequency_label`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/sv/?q=context%3A%3D%22fof-anti-spam.admin.settings.stopforumspam.frequency_label%22)
+
+> Threshold
+
+```diff
++Tröskelvärde
+```
+
+#### [`fof-anti-spam.admin.settings.stopforumspam.introduction`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/sv/?q=context%3A%3D%22fof-anti-spam.admin.settings.stopforumspam.introduction%22)
+
+> Checks new user registrations against the &lt;a&gt;StopForumSpam&lt;/a&gt; database. If either the &lt;code&gt;confidence&lt;/code&gt; or &lt;code&gt;frequency&lt;/code&gt; thresholds are reached, the user is prevented from completing their registration on your forum.
+>
+> SSO register via &lt;code&gt;fof/oauth&lt;/code&gt; and &lt;code&gt;fof/passport&lt;/code&gt; is also supported. Other SSO providers should work, but are untested.
+>
+
+```diff
++Kontrollerar nya användarregistreringar mot databasen <a>StopForumSpam</a>. Om tröskelvärdena för antingen <code>confidence</code> (tillförlitlighet) eller <code>frequency</code> (frekvens) uppnås, hindras användaren från att slutföra registreringen på ditt forum.
++
++Registrering via SSO med <code>fof/oauth</code> och <code>fof/passport</code> stöds också. Andra SSO-leverantörer bör fungera, men är inte testade.
++
+```
+
+#### [`fof-anti-spam.admin.settings.stopforumspam.ip_label`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/sv/?q=context%3A%3D%22fof-anti-spam.admin.settings.stopforumspam.ip_label%22)
+
+> IP Address Spam Check
+
+```diff
++Spamkontroll för IP-adresser
+```
+
+#### [`fof-anti-spam.admin.settings.stopforumspam.region_closest_label`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/sv/?q=context%3A%3D%22fof-anti-spam.admin.settings.stopforumspam.region_closest_label%22)
+
+> Closest
+
+```diff
++Närmaste
+```
+
+#### [`fof-anti-spam.admin.settings.stopforumspam.region_europe_label`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/sv/?q=context%3A%3D%22fof-anti-spam.admin.settings.stopforumspam.region_europe_label%22)
+
+> Europe
+
+```diff
++Europa
+```
+
+#### [`fof-anti-spam.admin.settings.stopforumspam.region_us_label`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/sv/?q=context%3A%3D%22fof-anti-spam.admin.settings.stopforumspam.region_us_label%22)
+
+> United States
+
+```diff
++USA
+```
+
+#### [`fof-anti-spam.admin.settings.stopforumspam.regional_endpoint_help`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/sv/?q=context%3A%3D%22fof-anti-spam.admin.settings.stopforumspam.regional_endpoint_help%22)
+
+> By default we will direct the lookup to the closest regional server in order to provide the fastest response. Should you wish to restrict traffic to a specific region, such as for compliance with company or country privacy regulations, then you can force a connection to a specific region.
+
+```diff
++Som standard dirigerar vi sökningen till den närmaste regionala servern för att säkerställa snabbast möjliga svar. Om du vill begränsa trafiken till en viss region – till exempel för att efterleva företagspolicyer eller nationella bestämmelser om dataskydd – kan du tvinga fram en anslutning till en specifik region.
+```
+
+#### [`fof-anti-spam.admin.settings.stopforumspam.regional_endpoint_label`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/sv/?q=context%3A%3D%22fof-anti-spam.admin.settings.stopforumspam.regional_endpoint_label%22)
+
+> Geographic Access
+
+```diff
++Geografisk åtkomst
+```
+
+#### [`fof-anti-spam.admin.settings.stopforumspam.report_blocked_registrations_help`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/sv/?q=context%3A%3D%22fof-anti-spam.admin.settings.stopforumspam.report_blocked_registrations_help%22)
+
+> When a registration is blocked by the Lookup Registrations feature, we will report the attempt back to StopForumSpam, so that the spammers activity can be better confirmed. Requires a StopForumSpam API key to be set (see below).
+
+```diff
++När en registrering blockeras av funktionen för registreringskontroll rapporterar vi försöket till StopForumSpam, så att spammarens aktivitet kan bekräftas bättre. Kräver att en API-nyckel för StopForumSpam har angetts (se nedan).
+```
+
+#### [`fof-anti-spam.admin.settings.stopforumspam.report_blocked_registrations_label`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/sv/?q=context%3A%3D%22fof-anti-spam.admin.settings.stopforumspam.report_blocked_registrations_label%22)
+
+> Report blocked registrations
+
+```diff
++Rapportera blockerade registreringar
+```
+
+#### [`fof-anti-spam.admin.settings.stopforumspam.sfs_lookup_help`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/sv/?q=context%3A%3D%22fof-anti-spam.admin.settings.stopforumspam.sfs_lookup_help%22)
+
+> If enabled, we will check the StopForumSpam database when a new user registers on your forum. If the user is found (username, IP address, email) and that data point is enabled along with the SFS confidence level reaching your defined level, they will be prevented from completing their registration.
+
+```diff
++Om funktionen är aktiverad kontrollerar vi databasen StopForumSpam när en ny användare registrerar sig på ditt forum. Om användaren hittas (via användarnamn, IP-adress eller e-postadress), den aktuella uppgiften är aktiverad och SFS-konfidensnivån når det gränsvärde du angett, hindras användaren från att slutföra registreringen.
+```
+
+#### [`fof-anti-spam.admin.settings.stopforumspam.sfs_lookup_label`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/sv/?q=context%3A%3D%22fof-anti-spam.admin.settings.stopforumspam.sfs_lookup_label%22)
+
+> Lookup registrations
+
+```diff
++Sök efter registreringar
+```
+
+#### [`fof-anti-spam.admin.settings.stopforumspam.username_label`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/sv/?q=context%3A%3D%22fof-anti-spam.admin.settings.stopforumspam.username_label%22)
+
+> Username Spam Check
+
+```diff
++Spamkontroll för användarnamn
+```
+
+#### [`fof-anti-spam.forum.message.stopforumspam.blocked`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/sv/?q=context%3A%3D%22fof-anti-spam.forum.message.stopforumspam.blocked%22)
+
+> Details of your registration have been found in a spam prevention database, therefore your registration has been blocked.
+
+```diff
++Uppgifter om din registrering har påträffats i en databas för skydd mot spam och därför har din registrering blockerats.
+```
+
+#### [`fof-anti-spam.forum.spammer_modal.hard_delete_discussions_help`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/sv/?q=context%3A%3D%22fof-anti-spam.forum.spammer_modal.hard_delete_discussions_help%22)
+
+> This will permanently delete all discussions started by this user. When disabled, discussions will be hidden instead.
+
+```diff
++Detta raderar permanent alla diskussioner som startats av denna användare. Om funktionen inaktiveras kommer diskussionerna istället att döljas.
+```
+
+#### [`fof-anti-spam.forum.spammer_modal.hard_delete_discussions_label`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/sv/?q=context%3A%3D%22fof-anti-spam.forum.spammer_modal.hard_delete_discussions_label%22)
+
+> Delete discussions
+
+```diff
++Ta bort diskussioner
+```
+
+#### [`fof-anti-spam.forum.spammer_modal.hard_delete_posts_help`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/sv/?q=context%3A%3D%22fof-anti-spam.forum.spammer_modal.hard_delete_posts_help%22)
+
+> This will permanently delete all posts (comments, replies, etc) made by this user. When disabled, posts will be hidden instead.
+
+```diff
++Detta raderar permanent alla inlägg (kommentarer, svar osv.) som gjorts av denna användare. Om funktionen inaktiveras döljs inläggen istället.
+```
+
+#### [`fof-anti-spam.forum.spammer_modal.hard_delete_posts_label`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/sv/?q=context%3A%3D%22fof-anti-spam.forum.spammer_modal.hard_delete_posts_label%22)
+
+> Delete posts
+
+```diff
++Ta bort inlägg
+```
+
+#### [`fof-anti-spam.forum.spammer_modal.hard_delete_user_help`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/sv/?q=context%3A%3D%22fof-anti-spam.forum.spammer_modal.hard_delete_user_help%22)
+
+> This will permanently delete the user. When disabled, the user will be suspended instead.
+
+```diff
++Detta raderar användaren permanent. Om användaren inaktiveras, stängs denne av i stället.
+```
+
+#### [`fof-anti-spam.forum.spammer_modal.hard_delete_user_label`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/sv/?q=context%3A%3D%22fof-anti-spam.forum.spammer_modal.hard_delete_user_label%22)
+
+> Delete user
+
+```diff
++Ta bort användare
+```
+
+#### [`fof-anti-spam.forum.spammer_modal.intro`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/sv/?q=context%3A%3D%22fof-anti-spam.forum.spammer_modal.intro%22)
+
+> When marking a user as a spammer, several actions will be taken, which depends on the extensions available on your forum.
+
+```diff
++När en användare markeras som spammare vidtas flera åtgärder, beroende på vilka tillägg som finns tillgängliga på ditt forum.
+```
+
+#### [`fof-anti-spam.forum.spammer_modal.move_discussions_tag_help`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/sv/?q=context%3A%3D%22fof-anti-spam.forum.spammer_modal.move_discussions_tag_help%22)
+
+> This will move all discussions started by this user to the tag you specified in the forum settings. When disabled, discussions will be left in their current tags.
+
+```diff
++Detta flyttar alla diskussioner som startats av denna användare till den tagg du angav i foruminställningarna. Om funktionen inaktiveras ligger diskussionerna kvar under sina nuvarande taggar.
+```
+
+#### [`fof-anti-spam.forum.spammer_modal.move_discussions_tag_label`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/sv/?q=context%3A%3D%22fof-anti-spam.forum.spammer_modal.move_discussions_tag_label%22)
+
+> Move discussions to quarantined tag
+
+```diff
++Flytta diskussioner till taggen för karantän
+```
+
+#### [`fof-anti-spam.forum.spammer_modal.process_button`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/sv/?q=context%3A%3D%22fof-anti-spam.forum.spammer_modal.process_button%22)
+
+> Process
+
+```diff
++Behandla
+```
+
+#### [`fof-anti-spam.forum.spammer_modal.report_to_sfs_help`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/sv/?q=context%3A%3D%22fof-anti-spam.forum.spammer_modal.report_to_sfs_help%22)
+
+> This will report the user's basic details (username, email, IP address) to StopForumSpam. This will help prevent the user from registering on other forums that use the StopForumSpam service.
+
+```diff
++Detta rapporterar användarens grundläggande uppgifter (användarnamn, e-postadress, IP-adress) till StopForumSpam. Detta bidrar till att förhindra att användaren registrerar sig på andra forum som använder tjänsten StopForumSpam.
+```
+
+#### [`fof-anti-spam.forum.spammer_modal.report_to_sfs_label`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/sv/?q=context%3A%3D%22fof-anti-spam.forum.spammer_modal.report_to_sfs_label%22)
+
+> Report to StopForumSpam
+
+```diff
++Rapportera till StopForumSpam
+```
+
+#### [`fof-anti-spam.forum.spammer_modal.title`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/sv/?q=context%3A%3D%22fof-anti-spam.forum.spammer_modal.title%22)
+
+> Mark {username} as a spammer
+
+```diff
++Markera {username} som spammare
+```
+
+#### [`fof-anti-spam.forum.user_controls.spammer_button`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/sv/?q=context%3A%3D%22fof-anti-spam.forum.user_controls.spammer_button%22)
+
+> Spammer
+
+```diff
++Spammare
+```
+
+
+### `fof-formatting` (missing)
+
+#### [`fof-formatting.admin.plugins.Autoimage`](https://weblate.rob006.net/translate/flarum2/fof-formatting/sv/?q=context%3A%3D%22fof-formatting.admin.plugins.Autoimage%22)
+
+> Convert image URLs into actual images
+
+```diff
++Omvandla bild-URL:er till faktiska bilder
+```
+
+#### [`fof-formatting.admin.plugins.Autovideo`](https://weblate.rob006.net/translate/flarum2/fof-formatting/sv/?q=context%3A%3D%22fof-formatting.admin.plugins.Autovideo%22)
+
+> Convert video URLs into playable videos
+
+```diff
++Omvandla videolänkar till uppspelningsbara videor
+```
+
+#### [`fof-formatting.admin.plugins.FancyPants`](https://weblate.rob006.net/translate/flarum2/fof-formatting/sv/?q=context%3A%3D%22fof-formatting.admin.plugins.FancyPants%22)
+
+> Use fancy typography
+
+```diff
++Använd elegant typografi
+```
+
+#### [`fof-formatting.admin.plugins.HTMLEntities`](https://weblate.rob006.net/translate/flarum2/fof-formatting/sv/?q=context%3A%3D%22fof-formatting.admin.plugins.HTMLEntities%22)
+
+> Use HTML entities
+
+```diff
++Använd HTML-entiteter
+```
+
+#### [`fof-formatting.admin.plugins.MediaEmbed`](https://weblate.rob006.net/translate/flarum2/fof-formatting/sv/?q=context%3A%3D%22fof-formatting.admin.plugins.MediaEmbed%22)
+
+> Embed content from allowed sites
+
+```diff
++Bädda in innehåll från tillåtna webbplatser
+```
+
+#### [`fof-formatting.admin.plugins.PipeTables`](https://weblate.rob006.net/translate/flarum2/fof-formatting/sv/?q=context%3A%3D%22fof-formatting.admin.plugins.PipeTables%22)
+
+> ASCII-style tables
+
+```diff
++Tabeller i ASCII-stil
+```
+
+#### [`fof-formatting.admin.plugins.TaskLists`](https://weblate.rob006.net/translate/flarum2/fof-formatting/sv/?q=context%3A%3D%22fof-formatting.admin.plugins.TaskLists%22)
+
+> GitHub/GitLab flavored task lists
+
+```diff
++Att-göra-listor i GitHub/GitLab-stil
+```
+
+
+### `fof-links` (missing)
+
+#### [`fof-links.admin.edit_link.delete_link_button`](https://weblate.rob006.net/translate/flarum2/fof-links/sv/?q=context%3A%3D%22fof-links.admin.edit_link.delete_link_button%22)
+
+> Delete Link
+
+```diff
++Ta bort länk
+```
+
+#### [`fof-links.admin.edit_link.delete_link_confirmation`](https://weblate.rob006.net/translate/flarum2/fof-links/sv/?q=context%3A%3D%22fof-links.admin.edit_link.delete_link_confirmation%22)
+
+> Are you sure you want to delete this link?
+
+```diff
++Är du säker på att du vill ta bort den här länken?
+```
+
+#### [`fof-links.admin.edit_link.icon_additional_text`](https://weblate.rob006.net/translate/flarum2/fof-links/sv/?q=context%3A%3D%22fof-links.admin.edit_link.icon_additional_text%22)
+
+> If you want to use a brand icon, the prefix is &lt;code&gt;fab fa-&lt;/code&gt; instead.
+
+```diff
++Om du vill använda en varumärkesikon är prefixet istället <code>fab fa-</code>.
+```
+
+#### [`fof-links.admin.edit_link.icon_label`](https://weblate.rob006.net/translate/flarum2/fof-links/sv/?q=context%3A%3D%22fof-links.admin.edit_link.icon_label%22)
+
+> =&gt; core.ref.icon
+
+```diff
++=> core.ref.icon
+```
+
+#### [`fof-links.admin.edit_link.icon_text`](https://weblate.rob006.net/translate/flarum2/fof-links/sv/?q=context%3A%3D%22fof-links.admin.edit_link.icon_text%22)
+
+> =&gt; core.ref.icon\_text
+
+```diff
++=> core.ref.icon_text
+```
+
+#### [`fof-links.admin.edit_link.internal_link`](https://weblate.rob006.net/translate/flarum2/fof-links/sv/?q=context%3A%3D%22fof-links.admin.edit_link.internal_link%22)
+
+> Is it an internal link?
+
+```diff
++Är det en intern länk?
+```
+
+#### [`fof-links.admin.edit_link.open_newtab`](https://weblate.rob006.net/translate/flarum2/fof-links/sv/?q=context%3A%3D%22fof-links.admin.edit_link.open_newtab%22)
+
+> Open link in new tab
+
+```diff
++Öppna länk i ny flik
+```
+
+#### [`fof-links.admin.edit_link.submit_button`](https://weblate.rob006.net/translate/flarum2/fof-links/sv/?q=context%3A%3D%22fof-links.admin.edit_link.submit_button%22)
+
+> =&gt; core.ref.save\_changes
+
+```diff
++=> core.ref.save_changes
+```
+
+#### [`fof-links.admin.edit_link.title`](https://weblate.rob006.net/translate/flarum2/fof-links/sv/?q=context%3A%3D%22fof-links.admin.edit_link.title%22)
+
+> =&gt; fof-links.ref.create\_link
+
+```diff
++=> fof-links.ref.create_link
+```
+
+#### [`fof-links.admin.edit_link.title_label`](https://weblate.rob006.net/translate/flarum2/fof-links/sv/?q=context%3A%3D%22fof-links.admin.edit_link.title_label%22)
+
+> =&gt; fof-links.ref.title
+
+```diff
++=> fof-links.ref.title
+```
+
+#### [`fof-links.admin.edit_link.title_placeholder`](https://weblate.rob006.net/translate/flarum2/fof-links/sv/?q=context%3A%3D%22fof-links.admin.edit_link.title_placeholder%22)
+
+> =&gt; fof-links.ref.title
+
+```diff
++=> fof-links.ref.title
+```
+
+#### [`fof-links.admin.edit_link.url_description`](https://weblate.rob006.net/translate/flarum2/fof-links/sv/?q=context%3A%3D%22fof-links.admin.edit_link.url_description%22)
+
+> Leave blank to show as a label.
+
+```diff
++Lämna tomt för att visa som en etikett.
+```
+
+#### [`fof-links.admin.edit_link.url_label`](https://weblate.rob006.net/translate/flarum2/fof-links/sv/?q=context%3A%3D%22fof-links.admin.edit_link.url_label%22)
+
+> =&gt; fof-links.ref.url
+
+```diff
++=> fof-links.ref.url
+```
+
+#### [`fof-links.admin.edit_link.url_placeholder`](https://weblate.rob006.net/translate/flarum2/fof-links/sv/?q=context%3A%3D%22fof-links.admin.edit_link.url_placeholder%22)
+
+> =&gt; fof-links.ref.url
+
+```diff
++=> fof-links.ref.url
+```
+
+#### [`fof-links.admin.edit_link.use_rel_me`](https://weblate.rob006.net/translate/flarum2/fof-links/sv/?q=context%3A%3D%22fof-links.admin.edit_link.use_rel_me%22)
+
+> Add &lt;code&gt;rel="me"&lt;/code&gt; attribute for identity verification on other sites
+
+```diff
++Lägg till attributet <code>rel="me"</code> för identitetsverifiering på andra webbplatser
+```
+
+#### [`fof-links.admin.edit_link.visibility.guest-only.help`](https://weblate.rob006.net/translate/flarum2/fof-links/sv/?q=context%3A%3D%22fof-links.admin.edit_link.visibility.guest-only.help%22)
+
+> Only {guest} can see this link. The permission above should be set to '{everyone}'.
+
+```diff
++Endast {guest} kan se den här länken. Behörigheten ovan borde vara inställd på ”{everyone}”.
+```
+
+#### [`fof-links.admin.edit_link.visibility.guest-only.label`](https://weblate.rob006.net/translate/flarum2/fof-links/sv/?q=context%3A%3D%22fof-links.admin.edit_link.visibility.guest-only.label%22)
+
+> {guest} only?
+
+```diff
++Endast {guest}?
+```
+
+#### [`fof-links.admin.edit_link.visibility.help`](https://weblate.rob006.net/translate/flarum2/fof-links/sv/?q=context%3A%3D%22fof-links.admin.edit_link.visibility.help%22)
+
+> Links by default are visible to only &lt;code&gt;{admin}&lt;/code&gt; users. Adjust the permissions to specify who can see this link.
+
+```diff
++Som standard är länkar endast synliga för användare med rollen <code>{admin}</code>. Justera behörigheterna för att ange vilka som kan se länken.
+```
+
+#### [`fof-links.admin.edit_link.visibility.help-disabled`](https://weblate.rob006.net/translate/flarum2/fof-links/sv/?q=context%3A%3D%22fof-links.admin.edit_link.visibility.help-disabled%22)
+
+> Save the link before changing visibility settings.
+
+```diff
++Spara länken innan du ändrar synlighetsinställningarna.
+```
+
+#### [`fof-links.admin.edit_link.visibility.label`](https://weblate.rob006.net/translate/flarum2/fof-links/sv/?q=context%3A%3D%22fof-links.admin.edit_link.visibility.label%22)
+
+> Link visibility
+
+```diff
++Länksynlighet
+```
+
+#### [`fof-links.admin.links.create_button`](https://weblate.rob006.net/translate/flarum2/fof-links/sv/?q=context%3A%3D%22fof-links.admin.links.create_button%22)
+
+> =&gt; fof-links.ref.create\_link
+
+```diff
++=> fof-links.ref.create_link
+```
+
+#### [`fof-links.admin.links.links`](https://weblate.rob006.net/translate/flarum2/fof-links/sv/?q=context%3A%3D%22fof-links.admin.links.links%22)
+
+> =&gt; fof-links.ref.links
+
+```diff
++=> fof-links.ref.links
+```
+
+#### [`fof-links.admin.links.preconfigured`](https://weblate.rob006.net/translate/flarum2/fof-links/sv/?q=context%3A%3D%22fof-links.admin.links.preconfigured%22)
+
+> The links on this forum have been preconfigured and cannot be edited here.
+
+```diff
++Länkarna på detta forum är förkonfigurerade och kan inte redigeras här.
+```
+
+#### [`fof-links.admin.settings.show_icons_only_on_tablet`](https://weblate.rob006.net/translate/flarum2/fof-links/sv/?q=context%3A%3D%22fof-links.admin.settings.show_icons_only_on_tablet%22)
+
+> Show icons only on tablet screens
+
+```diff
++Visa endast ikoner på surfplatteskärmar
+```
+
+#### [`fof-links.ref.create_link`](https://weblate.rob006.net/translate/flarum2/fof-links/sv/?q=context%3A%3D%22fof-links.ref.create_link%22)
+
+> Create Link
+
+```diff
++Skapa länk
+```
+
+#### [`fof-links.ref.links`](https://weblate.rob006.net/translate/flarum2/fof-links/sv/?q=context%3A%3D%22fof-links.ref.links%22)
+
+> Links
+
+```diff
++Länkar
+```
+
+#### [`fof-links.ref.title`](https://weblate.rob006.net/translate/flarum2/fof-links/sv/?q=context%3A%3D%22fof-links.ref.title%22)
+
+> Title
+
+```diff
++Titel
+```
+
+#### [`fof-links.ref.url`](https://weblate.rob006.net/translate/flarum2/fof-links/sv/?q=context%3A%3D%22fof-links.ref.url%22)
+
+> URL
+
+```diff
++URL
+```
+
+
+### `fof-move-posts` (missing)
+
+#### [`fof-move-posts.admin.permissions.move_posts`](https://weblate.rob006.net/translate/flarum2/fof-move-posts/sv/?q=context%3A%3D%22fof-move-posts.admin.permissions.move_posts%22)
+
+> =&gt; fof-move-posts.ref.move\_posts
+
+```diff
++=> fof-move-posts.ref.move_posts
+```
+
+#### [`fof-move-posts.admin.settings.group_sequential_posts`](https://weblate.rob006.net/translate/flarum2/fof-move-posts/sv/?q=context%3A%3D%22fof-move-posts.admin.settings.group_sequential_posts%22)
+
+> Group sequential post moved event posts into one.
+
+```diff
++Gruppera sekventiella flyttade inlägg till ett enda inlägg.
+```
+
+#### [`fof-move-posts.admin.settings.moved_first_post_content`](https://weblate.rob006.net/translate/flarum2/fof-move-posts/sv/?q=context%3A%3D%22fof-move-posts.admin.settings.moved_first_post_content%22)
+
+> Moved Discussion (First Post) Content
+
+```diff
++Innehåll i flyttad diskussion (första inlägget)
+```
+
+#### [`fof-move-posts.admin.settings.moved_first_post_content_help`](https://weblate.rob006.net/translate/flarum2/fof-move-posts/sv/?q=context%3A%3D%22fof-move-posts.admin.settings.moved_first_post_content_help%22)
+
+> When you have a discussion with only one single post, moving that post will result in the initial discussion's first post to be edited to point to the new discussion. You can edit the contents of that post here.
+>
+
+```diff
++När en diskussion bara består av ett enda inlägg kommer en flytt av inlägget att leda till att den ursprungliga diskussionens första inlägg redigeras så att det hänvisar till den nya diskussionen. Du kan redigera innehållet i det inlägget här.
++
+```
+
+#### [`fof-move-posts.forum.alerts.posts_moved_to`](https://weblate.rob006.net/translate/flarum2/fof-move-posts/sv/?q=context%3A%3D%22fof-move-posts.forum.alerts.posts_moved_to%22)
+
+> {count, plural, one {Post moved to {target\_discussion}.} other {Moved {count} posts to {target\_discussion}.}}
+
+```diff
++{count, plural, one {Inlägg flyttat till {target_discussion}.} other {Flyttade {count} inlägg till {target_discussion}.}}
+```
+
+#### [`fof-move-posts.forum.badge.first_moved_tooltip`](https://weblate.rob006.net/translate/flarum2/fof-move-posts/sv/?q=context%3A%3D%22fof-move-posts.forum.badge.first_moved_tooltip%22)
+
+> Moved
+
+```diff
++Flyttad(e)
+```
+
+#### [`fof-move-posts.forum.discussion.move_posts`](https://weblate.rob006.net/translate/flarum2/fof-move-posts/sv/?q=context%3A%3D%22fof-move-posts.forum.discussion.move_posts%22)
+
+> =&gt; fof-move-posts.ref.move\_posts
+
+```diff
++=> fof-move-posts.ref.move_posts
+```
+
+#### [`fof-move-posts.forum.error.move_old_post_to_newer_discussion`](https://weblate.rob006.net/translate/flarum2/fof-move-posts/sv/?q=context%3A%3D%22fof-move-posts.forum.error.move_old_post_to_newer_discussion%22)
+
+> =&gt; fof-move-posts.ref.status.old\_to\_new\_move
+
+```diff
++=> fof-move-posts.ref.status.old_to_new_move
+```
+
+#### [`fof-move-posts.forum.error.move_posts_to_same_discussion`](https://weblate.rob006.net/translate/flarum2/fof-move-posts/sv/?q=context%3A%3D%22fof-move-posts.forum.error.move_posts_to_same_discussion%22)
+
+> You cannot move posts to the same discussion.
+
+```diff
++Du kan inte flytta inlägg till samma diskussion.
+```
+
+#### [`fof-move-posts.forum.modal.check`](https://weblate.rob006.net/translate/flarum2/fof-move-posts/sv/?q=context%3A%3D%22fof-move-posts.forum.modal.check%22)
+
+> Check Operation Type
+
+```diff
++Kontrollera operationstyp
+```
+
+#### [`fof-move-posts.forum.modal.confirm_move_all_to_new_discussion`](https://weblate.rob006.net/translate/flarum2/fof-move-posts/sv/?q=context%3A%3D%22fof-move-posts.forum.modal.confirm_move_all_to_new_discussion%22)
+
+> You are about to move all posts from this discussion into a new one. In most cases, it makes more sense to edit the existing discussion instead, for example by changing its title, tags, or other attributes. Do you want to continue?
+
+```diff
++Du håller på att flytta alla inlägg från den här diskussionen till en ny. I de flesta fall är det mer lämpligt att redigera den befintliga diskussionen, till exempel genom att ändra dess titel, taggar eller andra egenskaper. Vill du fortsätta?
+```
+
+#### [`fof-move-posts.forum.modal.destination`](https://weblate.rob006.net/translate/flarum2/fof-move-posts/sv/?q=context%3A%3D%22fof-move-posts.forum.modal.destination%22)
+
+> Destination Discussion
+
+```diff
++Måldiskussion
+```
+
+#### [`fof-move-posts.forum.modal.discussion_help`](https://weblate.rob006.net/translate/flarum2/fof-move-posts/sv/?q=context%3A%3D%22fof-move-posts.forum.modal.discussion_help%22)
+
+> The tags of the source discussion will be used, and can be changed after creation.
+
+```diff
++Etiketterna från källdiskussionen kommer att användas och kan ändras efter att diskussionen har skapats.
+```
+
+#### [`fof-move-posts.forum.modal.discussion_name`](https://weblate.rob006.net/translate/flarum2/fof-move-posts/sv/?q=context%3A%3D%22fof-move-posts.forum.modal.discussion_name%22)
+
+> =&gt; core.forum.composer\_discussion.title\_placeholder
+
+```diff
++=> core.forum.composer_discussion.title_placeholder
+```
+
+#### [`fof-move-posts.forum.modal.new_discussion`](https://weblate.rob006.net/translate/flarum2/fof-move-posts/sv/?q=context%3A%3D%22fof-move-posts.forum.modal.new_discussion%22)
+
+> New Discussion
+
+```diff
++Ny diskussion
+```
+
+#### [`fof-move-posts.forum.modal.selected_posts`](https://weblate.rob006.net/translate/flarum2/fof-move-posts/sv/?q=context%3A%3D%22fof-move-posts.forum.modal.selected_posts%22)
+
+> {count, plural, one {One Post Selected} other {{count} Posts Selected}}
+
+```diff
++{count, plural, one {Ett inlägg valt} other {{count} inlägg valda}}
+```
+
+#### [`fof-move-posts.forum.modal.status.complex_move`](https://weblate.rob006.net/translate/flarum2/fof-move-posts/sv/?q=context%3A%3D%22fof-move-posts.forum.modal.status.complex_move%22)
+
+> Will be a complex move, posts will be pushed between posts, leading to old URL references of the target discussion's posts to change as well.
+
+```diff
++Det blir en komplex flytt; inlägg kommer att skjutas in mellan befintliga inlägg, vilket innebär att även de gamla URL-referenserna till inläggen i måldiskussionen kommer att ändras.
+```
+
+#### [`fof-move-posts.forum.modal.status.old_to_new_move`](https://weblate.rob006.net/translate/flarum2/fof-move-posts/sv/?q=context%3A%3D%22fof-move-posts.forum.modal.status.old_to_new_move%22)
+
+> =&gt; fof-move-posts.ref.status.old\_to\_new\_move
+
+```diff
++=> fof-move-posts.ref.status.old_to_new_move
+```
+
+#### [`fof-move-posts.forum.modal.status.simple_move`](https://weblate.rob006.net/translate/flarum2/fof-move-posts/sv/?q=context%3A%3D%22fof-move-posts.forum.modal.status.simple_move%22)
+
+> Will be a simple move, posts will all be added at the end of the discussion.
+
+```diff
++Det blir en enkel flytt; alla inlägg kommer att läggas till i slutet av diskussionen.
+```
+
+#### [`fof-move-posts.forum.modal.submit`](https://weblate.rob006.net/translate/flarum2/fof-move-posts/sv/?q=context%3A%3D%22fof-move-posts.forum.modal.submit%22)
+
+> Proceed
+
+```diff
++Fortsätt
+```
+
+#### [`fof-move-posts.forum.modal.title`](https://weblate.rob006.net/translate/flarum2/fof-move-posts/sv/?q=context%3A%3D%22fof-move-posts.forum.modal.title%22)
+
+> =&gt; fof-move-posts.ref.move\_posts
+
+```diff
++=> fof-move-posts.ref.move_posts
+```
+
+#### [`fof-move-posts.forum.notifications.post_moved_text`](https://weblate.rob006.net/translate/flarum2/fof-move-posts/sv/?q=context%3A%3D%22fof-move-posts.forum.notifications.post_moved_text%22)
+
+> One or more of your posts were moved to {targetDiscussionTitle}.
+
+```diff
++Ett eller flera av dina inlägg flyttades till {targetDiscussionTitle}.
+```
+
+#### [`fof-move-posts.forum.post.move`](https://weblate.rob006.net/translate/flarum2/fof-move-posts/sv/?q=context%3A%3D%22fof-move-posts.forum.post.move%22)
+
+> Select to move
+
+```diff
++Markera för att flytta
+```
+
+#### [`fof-move-posts.forum.post.moving`](https://weblate.rob006.net/translate/flarum2/fof-move-posts/sv/?q=context%3A%3D%22fof-move-posts.forum.post.moving%22)
+
+> Moving Post
+
+```diff
++Flyttar inlägg
+```
+
+#### [`fof-move-posts.forum.post.unmove`](https://weblate.rob006.net/translate/flarum2/fof-move-posts/sv/?q=context%3A%3D%22fof-move-posts.forum.post.unmove%22)
+
+> Unselect to move
+
+```diff
++Avmarkera för att flytta
+```
+
+#### [`fof-move-posts.forum.post_stream.post_moved`](https://weblate.rob006.net/translate/flarum2/fof-move-posts/sv/?q=context%3A%3D%22fof-move-posts.forum.post_stream.post_moved%22)
+
+> {count, plural, one {{username} moved a post to {target\_discussion}.} other {{username} moved {count} posts to {target\_discussion}.}}
+
+```diff
++{count, plural, one {{username} flyttade ett inlägg till {target_discussion}.} other {{username} flyttade {count} inlägg till {target_discussion}.}}
+```
+
+#### [`fof-move-posts.lib.discussion.first_post.default_content`](https://weblate.rob006.net/translate/flarum2/fof-move-posts/sv/?q=context%3A%3D%22fof-move-posts.lib.discussion.first_post.default_content%22)
+
+> \*This post has been moved to \*\*\[%DISCUSSION\_NAME%\](%POST\_LINK%)\*\*.\*
+>
+
+```diff
++*Detta inlägg har flyttats till **[%DISCUSSION_NAME%](%POST_LINK%)**.*
++
+```
+
+#### [`fof-move-posts.ref.move_posts`](https://weblate.rob006.net/translate/flarum2/fof-move-posts/sv/?q=context%3A%3D%22fof-move-posts.ref.move_posts%22)
+
+> Move Posts
+
+```diff
++Flytta inlägg
+```
+
+#### [`fof-move-posts.ref.status.old_to_new_move`](https://weblate.rob006.net/translate/flarum2/fof-move-posts/sv/?q=context%3A%3D%22fof-move-posts.ref.status.old_to_new_move%22)
+
+> Cannot move an old post to a newer discussion.
+
+```diff
++Det går inte att flytta ett gammalt inlägg till en nyare diskussion.
+```
+
+
+### `fof-pages` (missing)
+
+#### [`fof-pages.admin.badges.hidden`](https://weblate.rob006.net/translate/flarum2/fof-pages/sv/?q=context%3A%3D%22fof-pages.admin.badges.hidden%22)
+
+> Draft
+
+```diff
++Utkast
+```
+
+#### [`fof-pages.admin.badges.restricted`](https://weblate.rob006.net/translate/flarum2/fof-pages/sv/?q=context%3A%3D%22fof-pages.admin.badges.restricted%22)
+
+> Restricted
+
+```diff
++Begränsad
+```
+
+#### [`fof-pages.admin.edit_page.content_label`](https://weblate.rob006.net/translate/flarum2/fof-pages/sv/?q=context%3A%3D%22fof-pages.admin.edit_page.content_label%22)
+
+> =&gt; fof-pages.ref.content
+
+```diff
++=> fof-pages.ref.content
+```
+
+#### [`fof-pages.admin.edit_page.content_placeholder`](https://weblate.rob006.net/translate/flarum2/fof-pages/sv/?q=context%3A%3D%22fof-pages.admin.edit_page.content_placeholder%22)
+
+> =&gt; fof-pages.ref.content
+
+```diff
++=> fof-pages.ref.content
+```
+
+#### [`fof-pages.admin.edit_page.delete_page_button`](https://weblate.rob006.net/translate/flarum2/fof-pages/sv/?q=context%3A%3D%22fof-pages.admin.edit_page.delete_page_button%22)
+
+> Delete page
+
+```diff
++Ta bort sida
+```
+
+#### [`fof-pages.admin.edit_page.delete_page_confirmation`](https://weblate.rob006.net/translate/flarum2/fof-pages/sv/?q=context%3A%3D%22fof-pages.admin.edit_page.delete_page_confirmation%22)
+
+> Are you sure you want to delete this page?
+
+```diff
++Är du säker på att du vill ta bort den här sidan?
+```
+
+#### [`fof-pages.admin.edit_page.hidden_label`](https://weblate.rob006.net/translate/flarum2/fof-pages/sv/?q=context%3A%3D%22fof-pages.admin.edit_page.hidden_label%22)
+
+> Save as draft
+
+```diff
++Spara som utkast
+```
+
+#### [`fof-pages.admin.edit_page.html_label`](https://weblate.rob006.net/translate/flarum2/fof-pages/sv/?q=context%3A%3D%22fof-pages.admin.edit_page.html_label%22)
+
+> Enable HTML
+
+```diff
++Aktivera HTML
+```
+
+#### [`fof-pages.admin.edit_page.restricted_label`](https://weblate.rob006.net/translate/flarum2/fof-pages/sv/?q=context%3A%3D%22fof-pages.admin.edit_page.restricted_label%22)
+
+> Restrict access (configure who can access in the Permissions tab)
+
+```diff
++Begränsa åtkomst (konfigurera vem som har åtkomst på fliken Behörigheter)
+```
+
+#### [`fof-pages.admin.edit_page.set_as_home_page_confirmation`](https://weblate.rob006.net/translate/flarum2/fof-pages/sv/?q=context%3A%3D%22fof-pages.admin.edit_page.set_as_home_page_confirmation%22)
+
+> Are you sure you want to set this page as your home page?
+
+```diff
++Är du säker på att du vill ange den här sidan som din startsida?
+```
+
+#### [`fof-pages.admin.edit_page.set_as_home_page_done`](https://weblate.rob006.net/translate/flarum2/fof-pages/sv/?q=context%3A%3D%22fof-pages.admin.edit_page.set_as_home_page_done%22)
+
+> Home page updated
+
+```diff
++Startsidan uppdaterad
+```
+
+#### [`fof-pages.admin.edit_page.slug_label`](https://weblate.rob006.net/translate/flarum2/fof-pages/sv/?q=context%3A%3D%22fof-pages.admin.edit_page.slug_label%22)
+
+> =&gt; fof-pages.ref.slug
+
+```diff
++=> fof-pages.ref.slug
+```
+
+#### [`fof-pages.admin.edit_page.slug_placeholder`](https://weblate.rob006.net/translate/flarum2/fof-pages/sv/?q=context%3A%3D%22fof-pages.admin.edit_page.slug_placeholder%22)
+
+> =&gt; fof-pages.ref.slug
+
+```diff
++=> fof-pages.ref.slug
+```
+
+#### [`fof-pages.admin.edit_page.submit_button`](https://weblate.rob006.net/translate/flarum2/fof-pages/sv/?q=context%3A%3D%22fof-pages.admin.edit_page.submit_button%22)
+
+> =&gt; core.ref.save\_changes
+
+```diff
++=> core.ref.save_changes
+```
+
+#### [`fof-pages.admin.edit_page.title`](https://weblate.rob006.net/translate/flarum2/fof-pages/sv/?q=context%3A%3D%22fof-pages.admin.edit_page.title%22)
+
+> =&gt; fof-pages.ref.create\_page
+
+```diff
++=> fof-pages.ref.create_page
+```
+
+#### [`fof-pages.admin.edit_page.title_label`](https://weblate.rob006.net/translate/flarum2/fof-pages/sv/?q=context%3A%3D%22fof-pages.admin.edit_page.title_label%22)
+
+> =&gt; fof-pages.ref.title
+
+```diff
++=> fof-pages.ref.title
+```
+
+#### [`fof-pages.admin.edit_page.title_placeholder`](https://weblate.rob006.net/translate/flarum2/fof-pages/sv/?q=context%3A%3D%22fof-pages.admin.edit_page.title_placeholder%22)
+
+> =&gt; fof-pages.ref.title
+
+```diff
++=> fof-pages.ref.title
+```
+
+#### [`fof-pages.admin.edit_page.url_label`](https://weblate.rob006.net/translate/flarum2/fof-pages/sv/?q=context%3A%3D%22fof-pages.admin.edit_page.url_label%22)
+
+> =&gt; fof-pages.ref.url
+
+```diff
++=> fof-pages.ref.url
+```
+
+#### [`fof-pages.admin.edit_page.url_placeholder`](https://weblate.rob006.net/translate/flarum2/fof-pages/sv/?q=context%3A%3D%22fof-pages.admin.edit_page.url_placeholder%22)
+
+> =&gt; fof-pages.ref.url
+
+```diff
++=> fof-pages.ref.url
+```
+
+#### [`fof-pages.admin.pages.create_button`](https://weblate.rob006.net/translate/flarum2/fof-pages/sv/?q=context%3A%3D%22fof-pages.admin.pages.create_button%22)
+
+> =&gt; fof-pages.ref.create\_page
+
+```diff
++=> fof-pages.ref.create_page
+```
+
+#### [`fof-pages.admin.pages_list.empty_text`](https://weblate.rob006.net/translate/flarum2/fof-pages/sv/?q=context%3A%3D%22fof-pages.admin.pages_list.empty_text%22)
+
+> It looks like there are no pages here.
+
+```diff
++Det verkar inte finnas några sidor här.
+```
+
+#### [`fof-pages.admin.pages_list.title`](https://weblate.rob006.net/translate/flarum2/fof-pages/sv/?q=context%3A%3D%22fof-pages.admin.pages_list.title%22)
+
+> =&gt; fof-pages.ref.title
+
+```diff
++=> fof-pages.ref.title
+```
+
+#### [`fof-pages.admin.permissions.restricted`](https://weblate.rob006.net/translate/flarum2/fof-pages/sv/?q=context%3A%3D%22fof-pages.admin.permissions.restricted%22)
+
+> View restricted pages
+
+```diff
++Visa begränsade sidor
+```
+
+#### [`fof-pages.ref.content`](https://weblate.rob006.net/translate/flarum2/fof-pages/sv/?q=context%3A%3D%22fof-pages.ref.content%22)
+
+> Content
+
+```diff
++Innehåll
+```
+
+#### [`fof-pages.ref.create_page`](https://weblate.rob006.net/translate/flarum2/fof-pages/sv/?q=context%3A%3D%22fof-pages.ref.create_page%22)
+
+> Create page
+
+```diff
++Skapa sida
+```
+
+#### [`fof-pages.ref.pages`](https://weblate.rob006.net/translate/flarum2/fof-pages/sv/?q=context%3A%3D%22fof-pages.ref.pages%22)
+
+> Pages
+
+```diff
++Sidor
+```
+
+#### [`fof-pages.ref.slug`](https://weblate.rob006.net/translate/flarum2/fof-pages/sv/?q=context%3A%3D%22fof-pages.ref.slug%22)
+
+> Slug
+
+```diff
++Slug
+```
+
+#### [`fof-pages.ref.title`](https://weblate.rob006.net/translate/flarum2/fof-pages/sv/?q=context%3A%3D%22fof-pages.ref.title%22)
+
+> Title
+
+```diff
++Titel
+```
+
+#### [`fof-pages.ref.url`](https://weblate.rob006.net/translate/flarum2/fof-pages/sv/?q=context%3A%3D%22fof-pages.ref.url%22)
+
+> URL
+
+```diff
++URL
+```
+
+
+### `fof-recaptcha` (missing)
+
+#### [`fof-recaptcha.admin.permissions.post_without_captcha`](https://weblate.rob006.net/translate/flarum2/fof-recaptcha/sv/?q=context%3A%3D%22fof-recaptcha.admin.permissions.post_without_captcha%22)
+
+> Create posts and discussions without captcha
+
+```diff
++Skapa inlägg och diskussioner utan captcha
+```
+
+#### [`fof-recaptcha.admin.settings.forgot`](https://weblate.rob006.net/translate/flarum2/fof-recaptcha/sv/?q=context%3A%3D%22fof-recaptcha.admin.settings.forgot%22)
+
+> =&gt; core.forum.forgot\_password.title
+
+```diff
++=> core.forum.forgot_password.title
+```
+
+#### [`fof-recaptcha.admin.settings.help_text`](https://weblate.rob006.net/translate/flarum2/fof-recaptcha/sv/?q=context%3A%3D%22fof-recaptcha.admin.settings.help_text%22)
+
+> Obtain your Google reCAPTCHA credentials &lt;a&gt;here&lt;/a&gt;.
+
+```diff
++Hämta dina reCAPTCHA-uppgifter från Google <a>här</a>.
+```
+
+#### [`fof-recaptcha.admin.settings.secret_key_label`](https://weblate.rob006.net/translate/flarum2/fof-recaptcha/sv/?q=context%3A%3D%22fof-recaptcha.admin.settings.secret_key_label%22)
+
+> Secret Key
+
+```diff
++Hemlig nyckel (Secret Key)
+```
+
+#### [`fof-recaptcha.admin.settings.signin`](https://weblate.rob006.net/translate/flarum2/fof-recaptcha/sv/?q=context%3A%3D%22fof-recaptcha.admin.settings.signin%22)
+
+> =&gt; core.forum.log\_in.title
+
+```diff
++=> core.forum.log_in.title
+```
+
+#### [`fof-recaptcha.admin.settings.signup`](https://weblate.rob006.net/translate/flarum2/fof-recaptcha/sv/?q=context%3A%3D%22fof-recaptcha.admin.settings.signup%22)
+
+> =&gt; core.forum.sign\_up.title
+
+```diff
++=> core.forum.sign_up.title
+```
+
+#### [`fof-recaptcha.admin.settings.site_key_label`](https://weblate.rob006.net/translate/flarum2/fof-recaptcha/sv/?q=context%3A%3D%22fof-recaptcha.admin.settings.site_key_label%22)
+
+> Site Key
+
+```diff
++Webbplatsnyckel (Site Key)
+```
+
+#### [`fof-recaptcha.admin.settings.type_label`](https://weblate.rob006.net/translate/flarum2/fof-recaptcha/sv/?q=context%3A%3D%22fof-recaptcha.admin.settings.type_label%22)
+
+> reCAPTCHA Type
+
+```diff
++reCAPTCHA-typ
+```
+
+#### [`fof-recaptcha.admin.test.help_text`](https://weblate.rob006.net/translate/flarum2/fof-recaptcha/sv/?q=context%3A%3D%22fof-recaptcha.admin.test.help_text%22)
+
+> This test will use the current values entered above. Make sure to reload the test after modifying settings, and don't forget to save once the test passes!
+> Below may not reflect the saved settings.
+>
+
+```diff
++Detta test använder de aktuella värdena som angetts ovan. Kom ihåg att ladda om testet efter att ha ändrat inställningarna, och glöm inte att spara när testet har godkänts!
++Det som visas nedan kanske inte återspeglar de sparade inställningarna.
++
+```
+
+#### [`fof-recaptcha.admin.test.load_test_button`](https://weblate.rob006.net/translate/flarum2/fof-recaptcha/sv/?q=context%3A%3D%22fof-recaptcha.admin.test.load_test_button%22)
+
+> Load
+
+```diff
++Ladda
+```
+
+#### [`fof-recaptcha.admin.test.reload_button`](https://weblate.rob006.net/translate/flarum2/fof-recaptcha/sv/?q=context%3A%3D%22fof-recaptcha.admin.test.reload_button%22)
+
+> Reload
+
+```diff
++Ladda om
+```
+
+#### [`fof-recaptcha.admin.test.submit_button`](https://weblate.rob006.net/translate/flarum2/fof-recaptcha/sv/?q=context%3A%3D%22fof-recaptcha.admin.test.submit_button%22)
+
+> Submit
+
+```diff
++Skicka
+```
+
+#### [`fof-recaptcha.admin.test.success_message`](https://weblate.rob006.net/translate/flarum2/fof-recaptcha/sv/?q=context%3A%3D%22fof-recaptcha.admin.test.success_message%22)
+
+> Success! reCAPTCHA is configured correctly.
+
+```diff
++Klart! reCAPTCHA är korrekt konfigurerat.
+```
+
+#### [`fof-recaptcha.admin.test.title`](https://weblate.rob006.net/translate/flarum2/fof-recaptcha/sv/?q=context%3A%3D%22fof-recaptcha.admin.test.title%22)
+
+> Test reCAPTCHA
+
+```diff
++Testa reCAPTCHA
+```
+
+#### [`validation.recaptcha`](https://weblate.rob006.net/translate/flarum2/fof-recaptcha/sv/?q=context%3A%3D%22validation.recaptcha%22)
+
+> reCAPTCHA validation failed.
+
+```diff
++Validering av reCAPTCHA misslyckades.
+```
+
+#### [`validation.recaptcha-unknown`](https://weblate.rob006.net/translate/flarum2/fof-recaptcha/sv/?q=context%3A%3D%22validation.recaptcha-unknown%22)
+
+> An unknown error occurred while validating reCAPTCHA ({errors}).
+
+```diff
++Ett okänt fel uppstod vid validering av reCAPTCHA ({errors}).
+```
+
+
+### `fof-split` (missing)
+
+#### [`fof-split.admin.permissions.split_discussion_label`](https://weblate.rob006.net/translate/flarum2/fof-split/sv/?q=context%3A%3D%22fof-split.admin.permissions.split_discussion_label%22)
+
+> Split posts from discussions
+
+```diff
++Splitta inlägg från diskussioner
+```
+
+#### [`fof-split.forum.modal.new_discussion_label`](https://weblate.rob006.net/translate/flarum2/fof-split/sv/?q=context%3A%3D%22fof-split.forum.modal.new_discussion_label%22)
+
+> Specify the title for the new discussion
+
+```diff
++Ange en titel för den nya diskussionen
+```
+
+#### [`fof-split.forum.modal.submit_button`](https://weblate.rob006.net/translate/flarum2/fof-split/sv/?q=context%3A%3D%22fof-split.forum.modal.submit_button%22)
+
+> Split
+
+```diff
++Splitta
+```
+
+#### [`fof-split.forum.modal.title`](https://weblate.rob006.net/translate/flarum2/fof-split/sv/?q=context%3A%3D%22fof-split.forum.modal.title%22)
+
+> Split discussion
+
+```diff
++Splitta diskussionen
+```
+
+#### [`fof-split.forum.post.was_split_from`](https://weblate.rob006.net/translate/flarum2/fof-split/sv/?q=context%3A%3D%22fof-split.forum.post.was_split_from%22)
+
+> {count, plural, one {{count} post was split from {target}.} other {{count} posts were split from {target}.}}
+
+```diff
++{count, plural, one {{count} inlägg splittades från {target}.} other {{count} inlägg splittades från {target}.}}
+```
+
+#### [`fof-split.forum.post.was_split_to`](https://weblate.rob006.net/translate/flarum2/fof-split/sv/?q=context%3A%3D%22fof-split.forum.post.was_split_to%22)
+
+> {count, plural, one {{count} post was split to {target}.} other {{count} posts were split to {target}.}}
+
+```diff
++{count, plural, one {{count} inlägg splittades till {target}.} other {{count} inlägg splittades till {target}.}}
+```
+
+#### [`fof-split.forum.split.cancel`](https://weblate.rob006.net/translate/flarum2/fof-split/sv/?q=context%3A%3D%22fof-split.forum.split.cancel%22)
+
+> Cancel split
+
+```diff
++Avbryt splittning
+```
+
+#### [`fof-split.forum.split.from`](https://weblate.rob006.net/translate/flarum2/fof-split/sv/?q=context%3A%3D%22fof-split.forum.split.from%22)
+
+> Split from here
+
+```diff
++Splitta härifrån
+```
+
+#### [`fof-split.forum.split.to`](https://weblate.rob006.net/translate/flarum2/fof-split/sv/?q=context%3A%3D%22fof-split.forum.split.to%22)
+
+> Split to here
+
+```diff
++Splitta hit
 ```
 
 <!-- {% endraw %} -->

@@ -2,7 +2,7 @@
 
 Translations for Chinese (Simplified) (`zh_Hans`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **567** are translated differently and **1541** are
+sides, but do not match between them: **631** are translated differently and **1541** are
 translated only in `zh_Hans`. Altogether they cover **113** components.
 
 <!-- {% raw %} -->
@@ -14,7 +14,7 @@ translated only in `zh_Hans`. Altogether they cover **113** components.
 | --- | --- | --- |
 | `acpl-lscache` | [3](#acpl-lscache) | [8](#acpl-lscache-missing) |
 | `antoinefr-money` | [7](#antoinefr-money) | 0 |
-| `core` | [41](#core) | 0 |
+| `core` | [105](#core) | 0 |
 | `datitisev-backup` | [28](#datitisev-backup) | 0 |
 | `datlechin-birthdays` | [1](#datlechin-birthdays) | 0 |
 | `datlechin-more-discussions` | [5](#datlechin-more-discussions) | 0 |
@@ -245,16 +245,34 @@ Each entry contains the English source string, followed by a diff between the tr
 +自定义论坛配色、图标以及其他元素
 ```
 
+#### [`core.admin.basics.abandoned_extensions_notify_admins_label`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.basics.abandoned_extensions_notify_admins_label%22)
+
+> Email admins when a newly abandoned extension is detected during the weekly check
+
+```diff
+-每周检查发现有扩展程序停止维护时，邮件通知管理员
++每周检查停止维护清单，匹配时邮件通知管理员
+```
+
+#### [`core.admin.basics.abandoned_extensions_sync_success`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.basics.abandoned_extensions_sync_success%22)
+
+> Abandoned extensions list updated. {count} matching installed extension(s) found.
+
+```diff
+-停止维护的扩展程序清单已更新，发现 {count} 个已安装的扩展程序停止维护。
++停止维护的扩展清单已更新，发现 {count} 个已安装。
+```
+
+<del>停止维护的扩展程序清单已更新，发现</del><ins>停止维护的扩展清单已更新，发现</ins> {count} <del>个已安装的扩展程序停止维护。</del><ins>个已安装。</ins>
+
 #### [`core.admin.basics.abandoned_extensions_text`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.basics.abandoned_extensions_text%22)
 
 > Flarum maintains a &lt;a&gt;community list of abandoned extensions&lt;/a&gt;. When an installed extension appears on the list, it will be flagged in the admin panel.
 
 ```diff
 -Flarum 维护着一份《<a>停止维护的扩展程序清单</a>》。如果您安装的某些扩展程序已停止维护，管理页面会显示相应提示。
-+Flarum 维护着一份<a>停止维护的扩展程序清单</a>。如果您安装的某些扩展程序已停止维护，管理页面会显示相应提示。
++若安装了 <a>停止维护清单</a> 中的扩展，仪表盘中会有提示。
 ```
-
-Flarum <del>维护着一份《&lt;a&gt;停止维护的扩展程序清单&lt;/a&gt;》。如果您安装的某些扩展程序已停止维护，管理页面会显示相应提示。</del><ins>维护着一份&lt;a&gt;停止维护的扩展程序清单&lt;/a&gt;。如果您安装的某些扩展程序已停止维护，管理页面会显示相应提示。</ins>
 
 #### [`core.admin.basics.description`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.basics.description%22)
 
@@ -272,6 +290,33 @@ Flarum <del>维护着一份《&lt;a&gt;停止维护的扩展程序清单&lt;/a&g
 ```diff
 -常规
 +基本设置
+```
+
+#### [`core.admin.dashboard.status.headers.queue-driver`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.dashboard.status.headers.queue-driver%22)
+
+> Queue Driver
+
+```diff
+-队列驱动程序
++队列驱动
+```
+
+#### [`core.admin.dashboard.status.headers.scheduler-status`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.dashboard.status.headers.scheduler-status%22)
+
+> Scheduler
+
+```diff
+-任务调度程序
++任务调度
+```
+
+#### [`core.admin.dashboard.status.headers.session-driver`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.dashboard.status.headers.session-driver%22)
+
+> Session Driver
+
+```diff
+-会话驱动程序
++会话驱动
 ```
 
 #### [`core.admin.email.mail_encryption_label`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.email.mail_encryption_label%22)
@@ -303,6 +348,26 @@ Flarum <del>维护着一份《&lt;a&gt;停止维护的扩展程序清单&lt;/a&g
 
 SMTP <del>设置</del><ins>服务</ins>
 
+#### [`core.admin.extension.abandoned_no_replacement`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.extension.abandoned_no_replacement%22)
+
+> This extension is no longer maintained by its author and may not receive updates.
+
+```diff
+-此扩展程序已停止维护，今后可能不再更新。
++此扩展已停止维护，今后可能不再更新。
+```
+
+#### [`core.admin.extension.abandoned_with_replacement`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.extension.abandoned_with_replacement%22)
+
+> This extension has been replaced by {replacement}. Consider migrating to the replacement package.
+
+```diff
+-此扩展程序已被 {replacement} 替代，请考虑迁移。
++此扩展已被 {replacement} 替代，请考虑迁移。
+```
+
+<del>此扩展程序已被</del><ins>此扩展已被</ins> {replacement} 替代，请考虑迁移。
+
 #### [`core.admin.extension.configure_scopes`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.extension.configure_scopes%22)
 
 > Configure Scopes
@@ -310,6 +375,26 @@ SMTP <del>设置</del><ins>服务</ins>
 ```diff
 -按标签配置
 +添加标签配置
+```
+
+#### [`core.admin.extension.confirm_purge`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.extension.confirm_purge%22)
+
+> Purging will remove all database entries and assets related to the extension. It will not uninstall the extension; that must be done via Composer. Are you sure you want to continue?
+
+```diff
+-此操作将清除该扩展程序的所有数据库记录及相关资源，但不会卸载扩展；如需卸载，请通过 Composer 操作。确定要继续吗？
++此操作将清除该扩展的所有数据库记录及相关资源，但不会卸载扩展；如需卸载，请通过 Composer 操作。确定要继续吗？
+```
+
+<del>此操作将清除该扩展程序的所有数据库记录及相关资源，但不会卸载扩展；如需卸载，请通过</del><ins>此操作将清除该扩展的所有数据库记录及相关资源，但不会卸载扩展；如需卸载，请通过</ins> Composer 操作。确定要继续吗？
+
+#### [`core.admin.extension.enable_to_see`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.extension.enable_to_see%22)
+
+> Enable the extension to view and change settings.
+
+```diff
+-启用扩展程序即可查看和修改设置。
++启用扩展以查看和修改设置。
 ```
 
 #### [`core.admin.extension.no_permissions`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.extension.no_permissions%22)
@@ -330,13 +415,123 @@ SMTP <del>设置</del><ins>服务</ins>
 +无设置项
 ```
 
+#### [`core.admin.extension.readme.no_readme`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.extension.readme.no_readme%22)
+
+> This extension does not appear to have a README file
+
+```diff
+-此扩展程序似乎没有 README 文件
++此扩展似乎没有 README 文件
+```
+
+<del>此扩展程序似乎没有</del><ins>此扩展似乎没有</ins> README 文件
+
+#### [`core.admin.extension.replaced`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.extension.replaced%22)
+
+> Replaced
+
+```diff
+-替代
++已被替代
+```
+
+#### [`core.admin.loading.title`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.loading.title%22)
+
+> Please Wait...
+
+```diff
+-请稍后……
++请稍后…
+```
+
+#### [`core.admin.nav.categories.discussion`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.nav.categories.discussion%22)
+
+> Discussion
+
+```diff
+-主题与内容
++讨论与内容
+```
+
+#### [`core.admin.nav.categories.forum-widget`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.nav.categories.forum-widget%22)
+
+> Forum Widgets
+
+```diff
+-论坛小组件
++小组件
+```
+
+#### [`core.admin.nav.categories.theme`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.nav.categories.theme%22)
+
+> Themes
+
+```diff
+-样式
++主题样式
+```
+
+#### [`core.admin.nav.search_placeholder`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.nav.search_placeholder%22)
+
+> Search Extensions
+
+```diff
+-搜索扩展程序
++搜索扩展
+```
+
+#### [`core.admin.permissions.allow_renaming_label`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.permissions.allow_renaming_label%22)
+
+> Allow renaming
+
+```diff
+-允许修改自己的主题标题
++允许更改自己的讨论标题
+```
+
+#### [`core.admin.permissions.delete_discussions_forever_label`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.permissions.delete_discussions_forever_label%22)
+
+> Delete discussions forever
+
+```diff
+-永久删除主题
++永久删除讨论
+```
+
+#### [`core.admin.permissions.delete_discussions_label`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.permissions.delete_discussions_label%22)
+
+> Delete discussions
+
+```diff
+-删除主题
++删除讨论
+```
+
+#### [`core.admin.permissions.rename_discussions_label`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.permissions.rename_discussions_label%22)
+
+> Rename discussions
+
+```diff
+-修改主题标题
++更改讨论标题
+```
+
+#### [`core.admin.permissions.reply_to_discussions_label`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.permissions.reply_to_discussions_label%22)
+
+> Reply to discussions
+
+```diff
+-回复主题
++回帖
+```
+
 #### [`core.admin.permissions.start_discussions_label`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.permissions.start_discussions_label%22)
 
 > Start discussions
 
 ```diff
 -发布主题
-+开始讨论
++发起讨论
 ```
 
 #### [`core.admin.users.description`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.users.description%22)
@@ -345,7 +540,25 @@ SMTP <del>设置</del><ins>服务</ins>
 
 ```diff
 -论坛用户分页列表
-+您的论坛中所有用户的分页列表。
++论坛用户一览。
+```
+
+#### [`core.admin.users.grid.columns.display_name.title`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.users.grid.columns.display_name.title%22)
+
+> Display name
+
+```diff
+-外显昵称
++外显名称
+```
+
+#### [`core.admin.users.grid.invalid_column_content`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.users.grid.invalid_column_content%22)
+
+> Invalid
+
+```diff
+-非法
++数据异常
 ```
 
 #### [`core.email.abandoned_extensions.subject`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.email.abandoned_extensions.subject%22)
@@ -381,7 +594,7 @@ SMTP <del>设置</del><ins>服务</ins>
 
 ```diff
 -编辑成功
-+您的编辑已生效。
++您的修改已保存。
 ```
 
 #### [`core.forum.composer_edit.post_link`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.forum.composer_edit.post_link%22)
@@ -390,7 +603,7 @@ SMTP <del>设置</del><ins>服务</ins>
 
 ```diff
 -发布 #{number} 于 {discussion}
-+发布于 {discussion} 的 #{number}
++编辑 {discussion} 的 #{number}
 ```
 
 #### [`core.forum.discussion_controls.cannot_reply_text`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.forum.discussion_controls.cannot_reply_text%22)
@@ -399,7 +612,7 @@ SMTP <del>设置</del><ins>服务</ins>
 
 ```diff
 -您没有权限回复这个帖子。
-+您没有权限回复这篇讨论。
++您没有权限回帖。
 ```
 
 #### [`core.forum.discussion_controls.delete_confirmation`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.forum.discussion_controls.delete_confirmation%22)
@@ -408,7 +621,7 @@ SMTP <del>设置</del><ins>服务</ins>
 
 ```diff
 -确定要永久删除这个帖子？
-+确定要永久删除这个讨论？
++确定要永久删除这个讨论吗？
 ```
 
 #### [`core.forum.discussion_controls.toggle_dropdown_accessible_label`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.forum.discussion_controls.toggle_dropdown_accessible_label%22)
@@ -417,7 +630,25 @@ SMTP <del>设置</del><ins>服务</ins>
 
 ```diff
 -主题下拉菜单开关
-+讨论下拉菜单开关
++展开或收起更多菜单
+```
+
+#### [`core.forum.discussion_list.empty_text`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.forum.discussion_list.empty_text%22)
+
+> It looks as though there are no discussions here.
+
+```diff
+-这里空空如也...
++这里空空如也……
+```
+
+#### [`core.forum.forgot_password.email_sent_message`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.forum.forgot_password.email_sent_message%22)
+
+> If the email you entered is registered with this site, we'll send you an email containing a link to reset your password. Check your spam folder if you don't receive it within the next minute or two.
+
+```diff
+-如果您输入的电子邮件已在本站注册过，我们将向其发送一封含有重置密码链接的邮件。若未收到请检查垃圾箱。
++如果你输入的邮箱已在本站注册，我们会向该邮箱发送一封包含密码重置链接的邮件。若一两分钟后仍未收到，请检查垃圾箱。
 ```
 
 #### [`core.forum.forgot_password.not_found_message`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.forum.forgot_password.not_found_message%22)
@@ -426,7 +657,25 @@ SMTP <del>设置</del><ins>服务</ins>
 
 ```diff
 -此邮箱的注册用户不存在
-+未找到使用该邮箱注册的用户。
++此邮箱未注册。
+```
+
+#### [`core.forum.forgot_password.text`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.forum.forgot_password.text%22)
+
+> Enter your email address and we will send you a link to reset your password.
+
+```diff
+-请输入账户的注册邮箱地址，我们将发送重设密码链接至该邮箱。
++请输入邮箱地址，我们会向你发送密码重置链接。
+```
+
+#### [`core.forum.header.admin_button`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.forum.header.admin_button%22)
+
+> Administration
+
+```diff
+-后台管理
++管理后台
 ```
 
 #### [`core.forum.header.back_to_index_tooltip`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.forum.header.back_to_index_tooltip%22)
@@ -438,13 +687,13 @@ SMTP <del>设置</del><ins>服务</ins>
 +返回讨论列表
 ```
 
-#### [`core.forum.header.log_out_button`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.forum.header.log_out_button%22)
+#### [`core.forum.header.locale_dropdown_accessible_label`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.forum.header.locale_dropdown_accessible_label%22)
 
-> =&gt; core.ref.log\_out
+> Change forum locale
 
 ```diff
--=> core.ref.log_out
-+退出登录
+-更改论坛语言
++切换界面语言
 ```
 
 #### [`core.forum.header.search_placeholder`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.forum.header.search_placeholder%22)
@@ -465,13 +714,22 @@ SMTP <del>设置</del><ins>服务</ins>
 +搜索社区
 ```
 
+#### [`core.forum.header.session_dropdown_accessible_label`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.forum.header.session_dropdown_accessible_label%22)
+
+> Toggle session options dropdown menu
+
+```diff
+-会话下拉菜单开关
++展开或收起我的选项菜单
+```
+
 #### [`core.forum.header.settings_button`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.forum.header.settings_button%22)
 
 > =&gt; core.ref.settings
 
 ```diff
 -设置
-+账号设置
++=> core.ref.settings
 ```
 
 #### [`core.forum.index.mark_all_as_read_confirmation`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.forum.index.mark_all_as_read_confirmation%22)
@@ -480,7 +738,16 @@ SMTP <del>设置</del><ins>服务</ins>
 
 ```diff
 -确定要标记所有帖子为已读吗？
-+确定要标记所有讨论为已读吗？
++确定要将所有讨论标记为已读吗？
+```
+
+#### [`core.forum.index.toggle_sidenav_dropdown_accessible_label`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.forum.index.toggle_sidenav_dropdown_accessible_label%22)
+
+> Toggle navigation dropdown menu
+
+```diff
+-导航栏下拉菜单开关
++展开或收起导航栏菜单
 ```
 
 #### [`core.forum.index_sort.toggle_dropdown_accessible_label`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.forum.index_sort.toggle_dropdown_accessible_label%22)
@@ -489,19 +756,44 @@ SMTP <del>设置</del><ins>服务</ins>
 
 ```diff
 -更改「全部主题」排序
-+更改「全部讨论」排序
++更改讨论列表排序方式
 ```
 
-#### [`core.forum.post_stream.discussion_renamed_text`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.forum.post_stream.discussion_renamed_text%22)
+#### [`core.forum.log_in.sign_up_text`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.forum.log_in.sign_up_text%22)
 
-> {username} changed the title to {new} {time}.
+> Don't have an account? &lt;a&gt;Sign Up&lt;/a&gt;
 
 ```diff
--{username} 于 {time} 更改标题为「{new}」
-+{username} 于 {time} 将标题修改为 {new}。
+-还没有帐户？ <a>立即注册</a>
++还没有账号？<a>立即注册</a>
 ```
 
-{username} 于 {time} <del>更改标题为「{new}」</del><ins>将标题修改为 {new}。</ins>
+#### [`core.forum.notifications.empty_text`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.forum.notifications.empty_text%22)
+
+> No Notifications
+
+```diff
+-没有新通知
++暂无通知
+```
+
+#### [`core.forum.post_controls.toggle_dropdown_accessible_label`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.forum.post_controls.toggle_dropdown_accessible_label%22)
+
+> Toggle post controls dropdown menu
+
+```diff
+-帖子下拉菜单开关
++展开或收起帖子更多菜单
+```
+
+#### [`core.forum.post_stream.discussion_renamed_old_tooltip`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.forum.post_stream.discussion_renamed_old_tooltip%22)
+
+> The old title was: "{old}"
+
+```diff
+-原标题：「{old}」
++原标题「{old}」
+```
 
 #### [`core.forum.rename_discussion.title`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.forum.rename_discussion.title%22)
 
@@ -512,14 +804,97 @@ SMTP <del>设置</del><ins>服务</ins>
 +更改讨论标题
 ```
 
+#### [`core.forum.security.cannot_terminate_current_session`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.forum.security.cannot_terminate_current_session%22)
+
+> Cannot terminate the current active session. Log out instead.
+
+```diff
+-无法终止当前活动会话，请登出。
++无法终止当前会话，请直接退出登录。
+```
+
+#### [`core.forum.security.current_active_session`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.forum.security.current_active_session%22)
+
+> Current Active Session
+
+```diff
+-当前活动会话
++当前会话
+```
+
+#### [`core.forum.security.empty_text`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.forum.security.empty_text%22)
+
+> It looks like there is nothing to see here.
+
+```diff
+-无可用令牌。
++尚未创建令牌。
+```
+
+#### [`core.forum.security.global_logout.help_text`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.forum.security.global_logout.help_text%22)
+
+> Clears current cookie session, terminates all sessions, revokes developer tokens, and invalidates any email confirmation or password reset emails.
+
+```diff
+-清除当前 Cookie 会话、终止所有会话、撤销所有开发者令牌，并使一切验证邮箱或重置密码的链接失效。
++退出当前登录并终止所有其他会话，同时撤销开发者令牌，已发出的邮箱验证和密码重置链接也将失效。
+```
+
+#### [`core.forum.security.last_activity`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.forum.security.last_activity%22)
+
+> Last activity
+
+```diff
+-最近活动
++上次活动
+```
+
+#### [`core.forum.settings.account_heading`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.forum.settings.account_heading%22)
+
+> Account
+
+```diff
+-帐户设置
++账号设置
+```
+
+#### [`core.forum.settings.notify_by_web_heading`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.forum.settings.notify_by_web_heading%22)
+
+> Web
+
+```diff
+-通知
++站内通知
+```
+
 #### [`core.forum.settings.notify_discussion_renamed_label`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.forum.settings.notify_discussion_renamed_label%22)
 
 > Someone renames a discussion I started
 
 ```diff
 -我的主题标题被更改
-+有人更改了我的讨论标题
++有人更改我的讨论标题
 ```
+
+#### [`core.forum.settings.privacy_heading`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.forum.settings.privacy_heading%22)
+
+> Privacy
+
+```diff
+-隐私设置
++隐私
+```
+
+#### [`core.forum.sign_up.log_in_text`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.forum.sign_up.log_in_text%22)
+
+> Already have an account? &lt;a&gt;Log In&lt;/a&gt;
+
+```diff
+-已有帐户？ <a>登录</a>
++已有帐号？ <a>登录</a>
+```
+
+<del>已有帐户？</del><ins>已有帐号？</ins> &lt;a&gt;登录&lt;/a&gt;
 
 #### [`core.forum.user.posts_empty_text`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.forum.user.posts_empty_text%22)
 
@@ -527,7 +902,142 @@ SMTP <del>设置</del><ins>服务</ins>
 
 ```diff
 -暂无内容
-+这里似乎没有任何帖子。
++这里空空如也……
+```
+
+#### [`core.forum.user_controls.toggle_dropdown_accessible_label`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.forum.user_controls.toggle_dropdown_accessible_label%22)
+
+> Toggle user controls dropdown menu
+
+```diff
+-用户下拉菜单开关
++展开或收起用户操作菜单
+```
+
+#### [`core.forum.welcome_hero.hide`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.forum.welcome_hero.hide%22)
+
+> Hide welcome message
+
+```diff
+-隐藏欢迎横幅内容
++隐藏欢迎横幅
+```
+
+#### [`core.lib.datetime_formats.humanTimeShort`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.lib.datetime_formats.humanTimeShort%22)
+
+> D MMM
+
+```diff
+-MMMD日
++M月D日
+```
+
+#### [`core.lib.datetime_formats.scrubber`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.lib.datetime_formats.scrubber%22)
+
+> MMMM YYYY
+
+```diff
+-YYYY年MMM
++YYYY年M月
+```
+
+#### [`core.lib.dropdown.toggle_dropdown_accessible_label`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.lib.dropdown.toggle_dropdown_accessible_label%22)
+
+> Toggle dropdown menu
+
+```diff
+-下拉菜单开关
++展开或收起更多菜单
+```
+
+#### [`core.lib.edit_user.nothing_available`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.lib.edit_user.nothing_available%22)
+
+> You are not allowed to edit this user.
+
+```diff
+-您无权编辑此用户。
++你没有权限编辑此用户。
+```
+
+#### [`core.lib.error.circular_dependencies_message`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.lib.error.circular_dependencies_message%22)
+
+> Circular dependencies detected: {extensions}. Aborting. Please disable one of the extensions and try again.
+
+```diff
+-检测到循环依赖关系：{extensions}。正在中止操作。请禁用其中一个扩展，然后重试。
++检测到循环依赖关系：{extensions}，已中止操作。请禁用其中一个扩展后重试。
+```
+
+#### [`core.lib.error.dependent_extensions_message`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.lib.error.dependent_extensions_message%22)
+
+> Cannot disable {extension} until the following dependent extensions are disabled: {extensions}
+
+```diff
+-无法停用「{extension}」，请先停用依赖扩展「{extensions}」
++无法禁用「{extension」。请先禁用以下依赖它的扩展：{extensions}
+```
+
+#### [`core.lib.error.extension_initialiation_failed_message`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.lib.error.extension_initialiation_failed_message%22)
+
+> {extension} failed to initialize, check the browser console for further information.
+
+```diff
+-初始化「{extension}」失败，详情信息请查看控制台。
++初始化「{extension}」失败，详情请查看浏览器控制台。
+```
+
+#### [`core.lib.error.generic_cross_origin_message`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.lib.error.generic_cross_origin_message%22)
+
+> Oops! Something went wrong during a cross-origin request. Please reload the page and try again.
+
+```diff
+-跨域请求时出现问题，请刷新页面后重试。
++跨域请求时出现问题，请刷新页面重试。
+```
+
+#### [`core.lib.error.missing_dependencies_message`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.lib.error.missing_dependencies_message%22)
+
+> Cannot enable {extension} until the following dependencies are enabled: {extensions}
+
+```diff
+-无法启用「{extension}」，请先启用依赖扩展「{extensions}」
++无法启用「{extension}」，请先启用前置扩展「{extensions}」
+```
+
+#### [`core.lib.error.not_found_message`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.lib.error.not_found_message%22)
+
+> The requested resource was not found.
+
+```diff
+-您请求的资源不存在。
++你请求的资源不存在。
+```
+
+#### [`core.lib.error.payload_too_large_message`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.lib.error.payload_too_large_message%22)
+
+> The request payload was too large.
+
+```diff
+-上传内容过大。
++请求负载过大。
+```
+
+#### [`core.lib.error.permission_denied_message`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.lib.error.permission_denied_message%22)
+
+> You do not have permission to do that.
+
+```diff
+-您没有权限进行此操作。
++你没有权限执行此操作。
+```
+
+#### [`core.lib.error.rate_limit_exceeded_message`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.lib.error.rate_limit_exceeded_message%22)
+
+> You're going a little too quickly. Please try again in a few seconds.
+
+```diff
+-您的操作太频繁，请稍后再试。
++操作过于频繁，请稍后再试。
 ```
 
 #### [`core.lib.error.render_failed_message`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.lib.error.render_failed_message%22)
@@ -536,8 +1046,28 @@ SMTP <del>设置</del><ins>服务</ins>
 
 ```diff
 -抱歉，加载此内容时出错，请刷新页面重试。如果您是管理员，请查看论坛日志文件查看详情。
-+抱歉，加载此内容时出错，请刷新页面重试。如果您是管理员，请查看 Flarum 的日志文件以获取更多信息。
++抱歉，加载此内容时出错，请刷新页面重试。管理员可查看 Flarum 日志文件获取更多信息。
 ```
+
+#### [`core.lib.nav.drawer_button`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.lib.nav.drawer_button%22)
+
+> Open Navigation Drawer
+
+```diff
+-打开导航抽屉
++打开导航菜单
+```
+
+#### [`core.lib.series.three_text`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.lib.series.three_text%22)
+
+> {first}, {second}, and {third}
+
+```diff
+-{first}、{second} 与 {third}
++{first}、{second} 和 {third}
+```
+
+{first}、{second} <del>与</del><ins>和</ins> {third}
 
 #### [`core.ref.all_discussions`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.ref.all_discussions%22)
 
@@ -566,13 +1096,40 @@ SMTP <del>设置</del><ins>服务</ins>
 +确定要继续吗？此操作无法撤销。
 ```
 
+#### [`core.ref.log_out`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.ref.log_out%22)
+
+> Log Out
+
+```diff
+-退出
++退出登录
+```
+
 #### [`core.ref.start_a_discussion`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.ref.start_a_discussion%22)
 
 > Start a Discussion
 
 ```diff
 -发布主题
-+开始讨论
++发起讨论
+```
+
+#### [`core.views.admin.extensions.empty`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.views.admin.extensions.empty%22)
+
+> No installed extensions
+
+```diff
+-尚未安装扩展程序
++尚未安装扩展
+```
+
+#### [`core.views.admin.extensions.package_name`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.views.admin.extensions.package_name%22)
+
+> Package Name
+
+```diff
+-软件包
++包名
 ```
 
 #### [`core.views.admin.title`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.views.admin.title%22)
@@ -581,7 +1138,34 @@ SMTP <del>设置</del><ins>服务</ins>
 
 ```diff
 -开发者
-+管理员
++管理后台
+```
+
+#### [`core.views.confirm_email.text`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.views.confirm_email.text%22)
+
+> Click the button below to confirm your account's email.
+
+```diff
+-点击下方按钮确认您的邮箱。
++点击下方按钮确认你的邮箱。
+```
+
+#### [`core.views.content.javascript_disabled_message`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.views.content.javascript_disabled_message%22)
+
+> This site is best viewed in a modern browser with JavaScript enabled.
+
+```diff
+-请使用更现代的浏览器并启用 JavaScript 以获得最佳浏览体验。
++为获得最佳浏览体验，请使用现代浏览器并启用 JavaScript。
+```
+
+#### [`core.views.error.csrf_token_mismatch`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.views.error.csrf_token_mismatch%22)
+
+> You have been inactive for too long.
+
+```diff
+-您已经发呆很长时间了。
++你离开得有点久，当前会话已经失效。
 ```
 
 #### [`core.views.error.not_found_return_link`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.views.error.not_found_return_link%22)
@@ -610,10 +1194,10 @@ SMTP <del>设置</del><ins>服务</ins>
 
 ```diff
 -确定要从 {forum} 退出登录？
-+您确定要在 {forum} 上退出登录?
++确定要退出登录 {forum} 吗？
 ```
 
-<del>确定要从</del><ins>您确定要在</ins> {forum} <del>退出登录？</del><ins>上退出登录?</ins>
+<del>确定要从</del><ins>确定要退出登录</ins> {forum} <del>退出登录？</del><ins>吗？</ins>
 
 
 ### `datitisev-backup`

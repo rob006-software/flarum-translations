@@ -2,7 +2,7 @@
 
 Translations for German (`de`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **314** are translated differently and **657** are
+sides, but do not match between them: **317** are translated differently and **657** are
 translated only in `de`. Altogether they cover **93** components.
 
 <!-- {% raw %} -->
@@ -41,7 +41,7 @@ translated only in `de`. Altogether they cover **93** components.
 | `fof-doorman` | [1](#fof-doorman) | 0 |
 | `fof-filter` | [4](#fof-filter) | 0 |
 | `fof-gamification` | [9](#fof-gamification) | 0 |
-| `fof-geoip` | [2](#fof-geoip) | 0 |
+| `fof-geoip` | [4](#fof-geoip) | 0 |
 | `fof-horizon` | [1](#fof-horizon) | 0 |
 | `fof-impersonate` | [1](#fof-impersonate) | 0 |
 | `fof-links` | [2](#fof-links) | 0 |
@@ -73,7 +73,7 @@ translated only in `de`. Altogether they cover **93** components.
 | `huseyinfiliz-leaderboard` | [5](#huseyinfiliz-leaderboard) | 0 |
 | `huseyinfiliz-sticky-title` | [2](#huseyinfiliz-sticky-title) | 0 |
 | `ianm-boring-avatars` | [1](#ianm-boring-avatars) | 0 |
-| `ianm-follow-users` | [1](#ianm-follow-users) | 0 |
+| `ianm-follow-users` | [2](#ianm-follow-users) | 0 |
 | `ianm-syndication` | [7](#ianm-syndication) | 0 |
 | `ianm-twofactor` | [3](#ianm-twofactor) | 0 |
 | `justoverclock-related-discussions` | [2](#justoverclock-related-discussions) | 0 |
@@ -1667,6 +1667,28 @@ Noch keine <del>Wähler</del><ins>Abstimmenden</ins>
 
 ### `fof-geoip`
 
+#### [`fof-default-user-preferences.admin.settings.showIPCountry`](https://weblate.rob006.net/translate/flarum2/fof-geoip/de/?q=context%3A%3D%22fof-default-user-preferences.admin.settings.showIPCountry%22)
+
+> Show the flag of the country the user posts from
+
+```diff
+-Zeigt die Flagge des Landes, aus dem der Benutzer postet
++Flagge des Landes anzeigen, aus dem der Benutzer postet
+```
+
+<del>Zeigt die </del>Flagge des <del>Landes,</del><ins>Landes anzeigen,</ins> aus dem der Benutzer postet
+
+#### [`fof-default-user-preferences.admin.settings.showIPCountry-help`](https://weblate.rob006.net/translate/flarum2/fof-geoip/de/?q=context%3A%3D%22fof-default-user-preferences.admin.settings.showIPCountry-help%22)
+
+> This is based on their IP address at the time of posting. The country flag (if enabled) will be visible to all users. Admin users and moderators will see the IP address in the tooltip.
+
+```diff
+-Dies basiert auf ihrer IP-Adresse zum Zeitpunkt der Veröffentlichung. Die Landesflagge (falls aktiviert) ist für alle Benutzer sichtbar. Administratoren und Moderatoren sehen die IP-Adresse im Tooltip.
++Dies basiert auf der IP-Adresse zum Zeitpunkt der Veröffentlichung. Die Landesflagge (falls aktiviert) ist für alle Benutzer sichtbar. Administratoren und Moderatoren sehen die IP-Adresse im Tooltip.
+```
+
+Dies basiert auf <del>ihrer</del><ins>der</ins> IP-Adresse zum Zeitpunkt der Veröffentlichung. Die Landesflagge (falls aktiviert) ist für alle Benutzer sichtbar. Administratoren und Moderatoren sehen die IP-Adresse im Tooltip.
+
 #### [`fof-geoip.admin.settings.service_ipapi-pro_label`](https://weblate.rob006.net/translate/flarum2/fof-geoip/de/?q=context%3A%3D%22fof-geoip.admin.settings.service_ipapi-pro_label%22)
 
 > IP Api Pro
@@ -1752,11 +1774,11 @@ Links sind standardmässig nur für &lt;code&gt;{admin}&lt;/code&gt;-Nutzer sich
 
 ```diff
 -Überprüfe die unterstützten <a>Laravel-Validierungsregeln</a>. ZB: "string|min:5" oder "url".
-+Überprüfe die unterstützten <a>Laravel-Validierungsregeln</a>. Z. B.: "string|min:5" oder "url".
++Wende die unterstützten <a>Laravel-Validierungsregeln</a> an. Z. B.: „string|min:5“ oder „url“.
 
 ```
 
-Überprüfe die unterstützten &lt;a&gt;Laravel-Validierungsregeln&lt;/a&gt;. <del>ZB:</del><ins>Z. B.:</ins> "string\|min:5" oder "url".<br />
+<del>Überprüfe</del><ins>Wende</ins> die unterstützten <del>&lt;a&gt;Laravel-Validierungsregeln&lt;/a&gt;.</del><ins>&lt;a&gt;Laravel-Validierungsregeln&lt;/a&gt;</ins> <del>ZB:</del><ins>an.</ins> <del>"string\|min:5"</del><ins>Z. B.: „string\|min:5“</ins> oder <del>"url".</del><ins>„url“.</ins><br />
 
 #### [`fof-masquerade.forum.fields.select.none-required`](https://weblate.rob006.net/translate/flarum2/fof-masquerade/de/?q=context%3A%3D%22fof-masquerade.forum.fields.select.none-required%22)
 
@@ -2891,6 +2913,17 @@ Das <del>Theme</del><ins>Theme,</ins> welches für die Boring Avatars verwendet 
 
 
 ### `ianm-follow-users`
+
+#### [`ianm-follow-users.admin.permissions.be_followed_label`](https://weblate.rob006.net/translate/flarum2/ianm-follow-users/de/?q=context%3A%3D%22ianm-follow-users.admin.permissions.be_followed_label%22)
+
+> Allow users to follow
+
+```diff
+-Darf Benutzern folgen
++Benutzer dürfen folgen
+```
+
+<del>Darf</del><ins>Benutzer</ins> <del>Benutzern</del><ins>dürfen</ins> folgen
 
 #### [`ianm-follow-users.forum.followers`](https://weblate.rob006.net/translate/flarum2/ianm-follow-users/de/?q=context%3A%3D%22ianm-follow-users.forum.followers%22)
 
