@@ -129,7 +129,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/aurora/3.0.1/resources/locale/en.yml',
 	],
 	'ernestdefoe-calendar' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/calendar/v2.2.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/calendar/v2.2.2/resources/locale/en.yml',
 	],
 	'ernestdefoe-connect' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/connect/v1.0.1/locale/en.yml',
