@@ -21,24 +21,24 @@
             "modal": {
                 "title": "Tastenkürzel",
                 "filter_placeholder": "Tastenkürzel durchsuchen",
-                "filter_clear_label": "",
-                "no_results": "",
-                "enabled_label": "",
-                "customize_button": ""
+                "filter_clear_label": "Suche löschen",
+                "no_results": "Kein Tastenkürzel stimmt mit „{query}“ überein.",
+                "enabled_label": "Tastenkürzel aktivieren",
+                "customize_button": "Anpassen"
             },
             "customize": {
-                "title": "",
-                "help": "",
-                "submit_button": "",
+                "title": "Tastenkürzel anpassen",
+                "help": "Drücke die Tasten, die du als Tastenkürzel verwenden möchtest. Drücke direkt nach der ersten Taste eine zweite Taste, um eine Tastenfolge zu erstellen, zum Beispiel G und dann H.",
+                "submit_button": "Tastenkürzel speichern",
                 "reset_all_button": "Forum-Standardeinstellungen wiederherstellen",
                 "saved_message": "Deine Tastenkürzel wurden gespeichert.",
-                "group_has_conflict": "",
+                "group_has_conflict": "Diese Gruppe enthält Tastenkürzel, die dieselben Tasten verwenden.",
                 "unsaved": "{count, plural, one {# ungespeicherte Änderung} other {# ungespeicherte Änderungen}}"
             },
             "settings": {
                 "heading": "Tastenkürzel",
                 "enabled_label": "Tastenkürzel verwenden",
-                "help": "",
+                "help": "Drücke {key} an einer beliebigen Stelle im Forum, um die vollständige Liste anzuzeigen.",
                 "view_button": "Tastenkürzel anzeigen",
                 "customize_button": "Tastenkürzel anpassen"
             }
@@ -48,13 +48,13 @@
             "binding_then": "dann",
             "binding_or": "oder",
             "recorder": {
-                "start_label": "",
-                "stop_label": "",
+                "start_label": "Ein neues Tastenkürzel aufzeichnen",
+                "stop_label": "Aufzeichnung beenden",
                 "prompt": "Tasten drücken…",
                 "clear_label": "Dieses Tastenkürzel ausschalten",
-                "reset_label": "Auf die Standardeinstellung zurücksetzen",
-                "recording_status": "",
-                "conflict": ""
+                "reset_label": "Auf Standardeinstellung zurücksetzen",
+                "recording_status": "Auf Tastendrücke warten.",
+                "conflict": "Auch verwendet von {shortcuts}."
             },
             "groups": {
                 "global": "Überall",
@@ -69,10 +69,10 @@
                 "new_discussion": "Eine Diskussion starten",
                 "notifications": "Benachrichtigungen umschalten",
                 "flags": "Markierungen umschalten",
-                "session": "",
-                "login": "",
+                "session": "Benutzermenü umschalten",
+                "login": "Anmelden",
                 "signup": "Registrieren",
-                "toggle_theme": "",
+                "toggle_theme": "Farbschema umschalten",
                 "back": "Zurück",
                 "go_home": "Alle Diskussionen",
                 "go_notifications": "Benachrichtigungen",
@@ -80,19 +80,19 @@
                 "go_settings": "Deine Einstellungen",
                 "next_discussion": "Nächste Diskussion",
                 "previous_discussion": "Vorherige Diskussion",
-                "open_discussion": "",
+                "open_discussion": "Ausgewählte Diskussion öffnen",
                 "mark_all_as_read": "Alle als gelesen markieren",
-                "refresh": "",
+                "refresh": "Liste aktualisieren",
                 "reply": "Antworten",
                 "follow": "",
                 "next_post": "Nächster Beitrag",
                 "previous_post": "Vorheriger Beitrag",
-                "first_post": "",
-                "last_post": "",
-                "rename_discussion": "",
-                "pin_nav": "",
-                "toggle_full_screen": "",
-                "minimize_composer": ""
+                "first_post": "Zum ersten Beitrag springen",
+                "last_post": "Zum letzten Beitrag springen",
+                "rename_discussion": "Diskussion umbenennen",
+                "pin_nav": "Diskussionliste an-/abheften",
+                "toggle_full_screen": "Vollbild umschalten",
+                "minimize_composer": "Composer minimieren"
             }
         }
     }
