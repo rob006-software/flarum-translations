@@ -2940,7 +2940,8 @@
             "forum": {
                 "widget_celebrations": "e369b03ebe2a8605c34bfd540e15c774 e369b03ebe2a8605c34bfd540e15c774",
                 "widget_events": "7bb316a541dc5cbc986676c8c02ad867 7bb316a541dc5cbc986676c8c02ad867",
-                "widget_memories": "1cd2341ce19004c13c9263c255d242d2 1cd2341ce19004c13c9263c255d242d2"
+                "widget_memories": "1cd2341ce19004c13c9263c255d242d2 1cd2341ce19004c13c9263c255d242d2",
+                "widget_pulse": "2d0754d3852877a461c85dc204947d8d 2d0754d3852877a461c85dc204947d8d"
             }
         },
         "ernestdefoe-calendar": {
@@ -2961,6 +2962,9 @@
                 "settings_title": "5f6e141c52c1e8802746ecdaa883c9c9 5f6e141c52c1e8802746ecdaa883c9c9",
                 "show_celebrations_widget": "848d6ef13a0e81b34966c7ffd00f3b38 848d6ef13a0e81b34966c7ffd00f3b38",
                 "show_index_widget": "d9496ca596cba029a393482e66861858 d9496ca596cba029a393482e66861858",
+                "show_memories_widget": "483dbd9fa1766be76f2684042b01f2f6 483dbd9fa1766be76f2684042b01f2f6",
+                "show_pulse_widget": "a1f47cf7dc9cb6663435fec96e158580 a1f47cf7dc9cb6663435fec96e158580",
+                "show_pulse_widget_help": "63830a0c84c5891844bc295f95637860 63830a0c84c5891844bc295f95637860",
                 "view_list_opt": "48f898a99993ec949a0b9f9067b5c5e5 48f898a99993ec949a0b9f9067b5c5e5",
                 "view_month_opt": "ee4f27a05bbef1813eb40d732d045bed ee4f27a05bbef1813eb40d732d045bed",
                 "week_monday": "5ba92fd9fe06536b98e6ab7b19531d8f 5ba92fd9fe06536b98e6ab7b19531d8f",
@@ -3034,6 +3038,7 @@
                 "heat_more": "7bb2046a9d1157eb64f7445140d0d61a 7bb2046a9d1157eb64f7445140d0d61a",
                 "link": "97e7c9a7d06eac006a28bf05467fcc8b 97e7c9a7d06eac006a28bf05467fcc8b",
                 "location": "473390974397014edf78846c8f0e93b3 473390974397014edf78846c8f0e93b3",
+                "memories_empty": "f334d89e4c5e4e69b222f8cc8458bed1 f334d89e4c5e4e69b222f8cc8458bed1",
                 "memories_replies": "bfbbafb2ff841374c9914efa06ecf883 bfbbafb2ff841374c9914efa06ecf883",
                 "memories_title": "1cd2341ce19004c13c9263c255d242d2 1cd2341ce19004c13c9263c255d242d2",
                 "memories_years_ago": "c82fe344518b970cfafaaf331be4855e c82fe344518b970cfafaaf331be4855e",
@@ -3042,6 +3047,7 @@
                 "organizer": "6f7cc5e0d7d28eec8b3099f9040c75cb 6f7cc5e0d7d28eec8b3099f9040c75cb",
                 "page_title": "5f6e141c52c1e8802746ecdaa883c9c9 5f6e141c52c1e8802746ecdaa883c9c9",
                 "pulse_empty": "88913d79c8f4a2dafc3f8814742f0690 88913d79c8f4a2dafc3f8814742f0690",
+                "pulse_title": "2d0754d3852877a461c85dc204947d8d 2d0754d3852877a461c85dc204947d8d",
                 "pulse_total": "59cec65d6aa11a761529c90fed023179 59cec65d6aa11a761529c90fed023179",
                 "repeat_daily": "045d26850645c562fa10664edaf20d44 045d26850645c562fa10664edaf20d44",
                 "repeat_monthly": "773751d6d824fd2bb41dae26fbe82788 773751d6d824fd2bb41dae26fbe82788",
@@ -3070,6 +3076,7 @@
                 "view_week": "14098f9512325d19b99b3b99417aed1f 14098f9512325d19b99b3b99417aed1f",
                 "widget_celebrations": "e369b03ebe2a8605c34bfd540e15c774 e369b03ebe2a8605c34bfd540e15c774",
                 "widget_memories": "1cd2341ce19004c13c9263c255d242d2 1cd2341ce19004c13c9263c255d242d2",
+                "widget_pulse": "2d0754d3852877a461c85dc204947d8d 2d0754d3852877a461c85dc204947d8d",
                 "widget_title": "48f898a99993ec949a0b9f9067b5c5e5 48f898a99993ec949a0b9f9067b5c5e5"
             }
         }
@@ -3112,6 +3119,38 @@
                 "featured": {
                     "cta": "268a658890c1a64d342dc95e62aa0ae3 268a658890c1a64d342dc95e62aa0ae3"
                 }
+            }
+        }
+    },
+    "ernestdefoe-discussion-participants.json": {
+        "ernestdefoe-discussion-participants": {
+            "admin": {
+                "avatar_size_help": "63fc5cbf46e33869e761555876f442e3 63fc5cbf46e33869e761555876f442e3",
+                "avatar_size_label": "bbe7cdecff144e25632ce682bec431bf bbe7cdecff144e25632ce682bec431bf",
+                "avatar_size_large": "6578ebda5aaf572541c7d6dd3d3c9180 6578ebda5aaf572541c7d6dd3d3c9180",
+                "avatar_size_medium": "f7b252956581b9a57abf5c4c1e143d85 f7b252956581b9a57abf5c4c1e143d85",
+                "avatar_size_small": "cce8975166b0bb61f85be559d43c63b9 cce8975166b0bb61f85be559d43c63b9",
+                "include_op_never": "05d80eb1a19dd7aabeb3c28cd1aff5c6 05d80eb1a19dd7aabeb3c28cd1aff5c6",
+                "order_first_post": "5701be83751e48d1ed4aa686d76e61aa 5701be83751e48d1ed4aa686d76e61aa",
+                "order_help": "47e8c883578295c2982d8b44e60e083f 47e8c883578295c2982d8b44e60e083f",
+                "order_label": "29c5cb5714361026660563c1a024d4e6 29c5cb5714361026660563c1a024d4e6",
+                "order_most_active": "3f3e6aaf4062e3f87b8df930286fb4a5 3f3e6aaf4062e3f87b8df930286fb4a5",
+                "order_recent": "1fa2e68ae9bfe94b801dae01caaf4d77 1fa2e68ae9bfe94b801dae01caaf4d77",
+                "placement_below": "8c4da4fed472a1d11bf6b43d57347c05 8c4da4fed472a1d11bf6b43d57347c05",
+                "placement_inline": "4493cff162802b0aa315b7bed0f61e49 4493cff162802b0aa315b7bed0f61e49",
+                "strip_size_help": "8ae37fb583078a8c3ed5a66abc4e0be1 8ae37fb583078a8c3ed5a66abc4e0be1",
+                "strip_size_label": "a55b5126b220f914c6271ec932fab2c1 a55b5126b220f914c6271ec932fab2c1"
+            },
+            "forum": {
+                "author_badge": "00a0e2dda02f5412b76fca393366a280 00a0e2dda02f5412b76fca393366a280",
+                "load_failed": "a1c4ba1d0ecf5702df2d62b62aa419d9 a1c4ba1d0ecf5702df2d62b62aa419d9",
+                "modal_title": "6e6f13f840ab7c99a50ca166329e0804 6e6f13f840ab7c99a50ca166329e0804",
+                "modal_title_loading": "df76382f9a40f6fbb0be233673771071 df76382f9a40f6fbb0be233673771071",
+                "next_page": "a48abffe5168cb1d9287ed67ab9c8805 a48abffe5168cb1d9287ed67ab9c8805",
+                "overflow_a11y_label": "1854226f4efe9e9cba7b65f30ae0744e 1854226f4efe9e9cba7b65f30ae0744e",
+                "page_counter": "39b565157ab13ed9ed0e9131a3725ec9 39b565157ab13ed9ed0e9131a3725ec9",
+                "post_count": "e27f33ca79fc50f19bc7995a5fe5643a e27f33ca79fc50f19bc7995a5fe5643a",
+                "previous_page": "22145e339e8709678fb26085c43b4e04 22145e339e8709678fb26085c43b4e04"
             }
         }
     },
