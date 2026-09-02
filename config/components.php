@@ -980,7 +980,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/flagify/0.1/locale/en.yml',
 	],
 	'huseyinfiliz-language-detection' => [
-		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/language-detection/1.0.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/language-detection/1.1.0/locale/en.yml',
 	],
 	'huseyinfiliz-leaderboard' => [
 		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/leaderboard/1.0.0/locale/en.yml',
