@@ -2,8 +2,8 @@
 
 Translations for Chinese (Simplified) (`zh_Hans`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **631** are translated differently and **1541** are
-translated only in `zh_Hans`. Altogether they cover **113** components.
+sides, but do not match between them: **650** are translated differently and **1537** are
+translated only in `zh_Hans`. Altogether they cover **114** components.
 
 <!-- {% raw %} -->
 
@@ -14,18 +14,19 @@ translated only in `zh_Hans`. Altogether they cover **113** components.
 | --- | --- | --- |
 | `acpl-lscache` | [3](#acpl-lscache) | [8](#acpl-lscache-missing) |
 | `antoinefr-money` | [7](#antoinefr-money) | 0 |
-| `core` | [105](#core) | 0 |
+| `core` | [118](#core) | 0 |
 | `datitisev-backup` | [28](#datitisev-backup) | 0 |
 | `datlechin-birthdays` | [1](#datlechin-birthdays) | 0 |
 | `datlechin-more-discussions` | [5](#datlechin-more-discussions) | 0 |
-| `datlechin-passkey` | 0 | [5](#datlechin-passkey-missing) |
+| `datlechin-passkey` | [1](#datlechin-passkey) | [4](#datlechin-passkey-missing) |
 | `datlechin-tag-passwords` | [21](#datlechin-tag-passwords) | 0 |
-| `ekumanov-inline-audio` | 0 | [5](#ekumanov-inline-audio-missing) |
-| `ekumanov-new-posts-notice` | 0 | [2](#ekumanov-new-posts-notice-missing) |
-| `flarum-akismet` | [1](#flarum-akismet) | 0 |
-| `flarum-approval` | [3](#flarum-approval) | 0 |
-| `flarum-audit` | 0 | [93](#flarum-audit-missing) |
+| `ekumanov-inline-audio` | [1](#ekumanov-inline-audio) | [4](#ekumanov-inline-audio-missing) |
+| `ekumanov-new-posts-notice` | [1](#ekumanov-new-posts-notice) | [1](#ekumanov-new-posts-notice-missing) |
+| `flarum-akismet` | [3](#flarum-akismet) | 0 |
+| `flarum-approval` | [2](#flarum-approval) | 0 |
+| `flarum-audit` | [1](#flarum-audit) | [92](#flarum-audit-missing) |
 | `flarum-bbcode` | [1](#flarum-bbcode) | 0 |
+| `flarum-emoji` | [1](#flarum-emoji) | 0 |
 | `flarum-extension-manager` | [11](#flarum-extension-manager) | 0 |
 | `flarum-flags` | [1](#flarum-flags) | 0 |
 | `flarum-gdpr` | [10](#flarum-gdpr) | 0 |
@@ -561,13 +562,64 @@ SMTP <del>设置</del><ins>服务</ins>
 +数据异常
 ```
 
+#### [`core.api.invalid_filter_type.must_be_numeric_message`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.api.invalid_filter_type.must_be_numeric_message%22)
+
+> The {filter} filter must be numeric.
+
+```diff
+-{filter} 查询条件必须是数值。
++查询条件 {filter} 必须是数值。
+```
+
+<ins>查询条件 </ins>{filter} <del>查询条件必须是数值。</del><ins>必须是数值。</ins>
+
+#### [`core.api.invalid_filter_type.must_not_be_array_message`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.api.invalid_filter_type.must_not_be_array_message%22)
+
+> The {filter} filter must not be an array.
+
+```diff
+-{filter} 查询条件不能是数组。
++查询条件 {filter} 不能是数组。
+```
+
+<ins>查询条件 </ins>{filter} <del>查询条件不能是数组。</del><ins>不能是数组。</ins>
+
+#### [`core.api.invalid_filter_type.must_not_be_multidimensional_array_message`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.api.invalid_filter_type.must_not_be_multidimensional_array_message%22)
+
+> The {filter} filter must not be a multidimensional array.
+
+```diff
+-{filter} 查询条件不能是多维数组。
++查询条件 {filter} 不能是多维数组。
+```
+
+<ins>查询条件 </ins>{filter} <del>查询条件不能是多维数组。</del><ins>不能是多维数组。</ins>
+
 #### [`core.email.abandoned_extensions.subject`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.email.abandoned_extensions.subject%22)
 
 > Action required: abandoned extension(s) detected
 
 ```diff
 -发现已停止维护的扩展，请处理
-+扩展已停止维护
++部分扩展已停止维护
+```
+
+#### [`core.email.activate_account.subject`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.email.activate_account.subject%22)
+
+> Activate Your New Account
+
+```diff
+-账号激活
++激活你的新账号
+```
+
+#### [`core.email.confirm_email.subject`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.email.confirm_email.subject%22)
+
+> Confirm Your New Email Address
+
+```diff
+-确认邮箱地址
++确认新邮箱地址
 ```
 
 #### [`core.forum.change_email.incorrect_password_message`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.forum.change_email.incorrect_password_message%22)
@@ -1078,6 +1130,44 @@ SMTP <del>设置</del><ins>服务</ins>
 +全部讨论
 ```
 
+#### [`core.ref.confirmation_email_sent`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.ref.confirmation_email_sent%22)
+
+> We've sent a confirmation email to {email}. If it doesn't arrive soon, check your spam folder.
+
+```diff
+-账号激活邮件已发送至 {email}，请激活账号，若未收到请检查垃圾箱。
++激活邮件已发送至 {email}，若未收到请检查垃圾箱。
+```
+
+#### [`core.ref.custom_footer_title`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.ref.custom_footer_title%22)
+
+> Edit Custom Footer
+
+```diff
+-编辑自定义页脚
++自定义页脚
+```
+
+#### [`core.ref.custom_header_text`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.ref.custom_header_text%22)
+
+> Add HTML to be displayed at the very top of the page, above Flarum's own header.
+
+```diff
+-添加显示于页面顶部、位于 Flarum 默认页眉上方的 HTML 代码。
++添加显示于页面顶部、位于 Flarum 导航栏上方的 HTML 代码。
+```
+
+添加显示于页面顶部、位于 Flarum <del>默认页眉上方的</del><ins>导航栏上方的</ins> HTML 代码。
+
+#### [`core.ref.custom_header_title`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.ref.custom_header_title%22)
+
+> Edit Custom Header
+
+```diff
+-编辑自定义页眉
++自定义页眉
+```
+
 #### [`core.ref.discussions`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.ref.discussions%22)
 
 > Discussions
@@ -1103,6 +1193,15 @@ SMTP <del>设置</del><ins>服务</ins>
 ```diff
 -退出
 +退出登录
+```
+
+#### [`core.ref.notifications`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.ref.notifications%22)
+
+> Notifications
+
+```diff
+-通知中心
++通知
 ```
 
 #### [`core.ref.start_a_discussion`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.ref.start_a_discussion%22)
@@ -1168,16 +1267,41 @@ SMTP <del>设置</del><ins>服务</ins>
 +你离开得有点久，当前会话已经失效。
 ```
 
-#### [`core.views.error.not_found_return_link`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.views.error.not_found_return_link%22)
+#### [`core.views.error.method_not_allowed`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.views.error.method_not_allowed%22)
 
-> Return to {forum}
+> This page does not support that request method.
 
 ```diff
--返回 {forum}
-+返回至 {forum}
+-此页面不支持该请求方法。
++此页面不支持该请求方式。
 ```
 
-<del>返回</del><ins>返回至</ins> {forum}
+#### [`core.views.error.not_authenticated`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.views.error.not_authenticated%22)
+
+> You do not have permission to access this page. Try again after logging in.
+
+```diff
+-您没有权限访问此页面，请登录后再试。
++你没有权限访问此页面，请登录后再试。
+```
+
+#### [`core.views.error.not_found`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.views.error.not_found%22)
+
+> The page you requested could not be found.
+
+```diff
+-您访问的页面不存在。
++你访问的页面不存在。
+```
+
+#### [`core.views.error.permission_denied`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.views.error.permission_denied%22)
+
+> You do not have permission to access this page.
+
+```diff
+-您没有权限访问此页面。
++你没有权限访问此页面。
+```
 
 #### [`core.views.error.unknown`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.views.error.unknown%22)
 
@@ -1185,7 +1309,7 @@ SMTP <del>设置</del><ins>服务</ins>
 
 ```diff
 -加载页面时出错，请检查控制台。
-+加载页面时出错，请检查日志。
++出了点岔子，页面暂时无法加载。
 ```
 
 #### [`core.views.log_out.log_out_confirmation`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.views.log_out.log_out_confirmation%22)
@@ -1194,10 +1318,10 @@ SMTP <del>设置</del><ins>服务</ins>
 
 ```diff
 -确定要从 {forum} 退出登录？
-+确定要退出登录 {forum} 吗？
++确定要登出 {forum} 吗？
 ```
 
-<del>确定要从</del><ins>确定要退出登录</ins> {forum} <del>退出登录？</del><ins>吗？</ins>
+<del>确定要从</del><ins>确定要登出</ins> {forum} <del>退出登录？</del><ins>吗？</ins>
 
 
 ### `datitisev-backup`
@@ -1557,6 +1681,18 @@ FTP <del>端口（默认</del><ins>端口（默认为</ins> 21）。
 ```
 
 
+### `datlechin-passkey`
+
+#### [`datlechin-passkey.forum.log_in.sign_in_with_passkey`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/zh_Hans/?q=context%3A%3D%22datlechin-passkey.forum.log_in.sign_in_with_passkey%22)
+
+> Sign in with passkey
+
+```diff
+-使用通行密钥登录
++使用密钥登录
+```
+
+
 ### `datlechin-tag-passwords`
 
 #### [`datlechin-tag-passwords.admin.edit_tag.group_placeholder_label`](https://weblate.rob006.net/translate/flarum2/datlechin-tag-passwords/zh_Hans/?q=context%3A%3D%22datlechin-tag-passwords.admin.edit_tag.group_placeholder_label%22)
@@ -1751,6 +1887,40 @@ FTP <del>端口（默认</del><ins>端口（默认为</ins> 21）。
 ```
 
 
+### `ekumanov-inline-audio`
+
+#### [`ekumanov-inline-audio.forum.bbcode_description`](https://weblate.rob006.net/translate/flarum2/ekumanov-inline-audio/zh_Hans/?q=context%3A%3D%22ekumanov-inline-audio.forum.bbcode_description%22)
+
+> Embed an audio player: \[player\]URL\[/player\]
+
+```diff
+-嵌入一个音频播放器：[player]URL[/player]
++嵌入音频播放器：[player]链接地址[/player]
+```
+
+
+### `ekumanov-new-posts-notice`
+
+#### [`ekumanov-new-posts-notice.forum.new_posts_single`](https://weblate.rob006.net/translate/flarum2/ekumanov-new-posts-notice/zh_Hans/?q=context%3A%3D%22ekumanov-new-posts-notice.forum.new_posts_single%22)
+
+> 1 new reply was added while you were writing.
+>
+> OK → Post your reply anyway
+> Cancel → Read it first (your draft stays open)
+
+```diff
+-在你编辑的时候有一条新的回复。
++在您撰写期间新增了 1 条回复。
+
+-OK → 仍然回复
+-取消 → 先读读它（你的草稿仍会保留）
++确定 → 仍然发布回复
++取消 → 先查看新回复（草稿将被保留）
+```
+
+<del>在你编辑的时候有一条新的回复。</del><ins>在您撰写期间新增了 1 条回复。</ins><br /><br /><del>OK</del><ins>确定</ins> → <del>仍然回复</del><ins>仍然发布回复</ins><br />取消 → <del>先读读它（你的草稿仍会保留）</del><ins>先查看新回复（草稿将被保留）</ins>
+
+
 ### `flarum-akismet`
 
 #### [`flarum-akismet.admin.akismet_settings.api_key_label`](https://weblate.rob006.net/translate/flarum2/flarum-akismet/zh_Hans/?q=context%3A%3D%22flarum-akismet.admin.akismet_settings.api_key_label%22)
@@ -1764,6 +1934,26 @@ FTP <del>端口（默认</del><ins>端口（默认为</ins> 21）。
 
 API <del>Key</del><ins>密钥</ins>
 
+#### [`flarum-akismet.admin.akismet_settings.delete_blatant_spam_help`](https://weblate.rob006.net/translate/flarum2/flarum-akismet/zh_Hans/?q=context%3A%3D%22flarum-akismet.admin.akismet_settings.delete_blatant_spam_help%22)
+
+> If Akismet has determined that the comment is blatant spam, instead of flagging, automatically delete post
+
+```diff
+-直接删除检测到问题的内容
++Akismet 判定为明显垃圾的帖子将直接删除，而非仅标记
+```
+
+#### [`flarum-akismet.admin.permissions.bypass_akismet`](https://weblate.rob006.net/translate/flarum2/flarum-akismet/zh_Hans/?q=context%3A%3D%22flarum-akismet.admin.permissions.bypass_akismet%22)
+
+> Bypass Akismet
+
+```diff
+-跳过 Akismet 内容审查
++跳过 Akismet 内容检查
+```
+
+跳过 Akismet <del>内容审查</del><ins>内容检查</ins>
+
 
 ### `flarum-approval`
 
@@ -1776,22 +1966,25 @@ API <del>Key</del><ins>密钥</ins>
 +审核帖子
 ```
 
-#### [`flarum-approval.admin.permissions.reply_without_approval_label`](https://weblate.rob006.net/translate/flarum2/flarum-approval/zh_Hans/?q=context%3A%3D%22flarum-approval.admin.permissions.reply_without_approval_label%22)
-
-> Reply to discussions without approval
-
-```diff
--回复无需审核
-+无需审核回复
-```
-
 #### [`flarum-approval.admin.permissions.start_discussions_without_approval_label`](https://weblate.rob006.net/translate/flarum2/flarum-approval/zh_Hans/?q=context%3A%3D%22flarum-approval.admin.permissions.start_discussions_without_approval_label%22)
 
 > Start discussions without approval
 
 ```diff
 -发布主题无需审核
-+无需审核讨论
++发起讨论无需审核
+```
+
+
+### `flarum-audit`
+
+#### [`flarum-audit.admin.permissions.view`](https://weblate.rob006.net/translate/flarum2/flarum-audit/zh_Hans/?q=context%3A%3D%22flarum-audit.admin.permissions.view%22)
+
+> View audit log
+
+```diff
+-查看审查日志
++查看操作记录
 ```
 
 
@@ -1803,7 +1996,19 @@ API <del>Key</del><ins>密钥</ins>
 
 ```diff
 -：
-+说
++云
+```
+
+
+### `flarum-emoji`
+
+#### [`flarum-emoji.forum.composer.type_to_search_text`](https://weblate.rob006.net/translate/flarum2/flarum-emoji/zh_Hans/?q=context%3A%3D%22flarum-emoji.forum.composer.type_to_search_text%22)
+
+> Type to search for an emoji
+
+```diff
+-搜索 Emoji 表情
++继续输入以搜索表情
 ```
 
 
@@ -6457,14 +6662,6 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 +此浏览器不支持Passkeys。
 ```
 
-#### [`datlechin-passkey.forum.log_in.sign_in_with_passkey`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/zh_Hans/?q=context%3A%3D%22datlechin-passkey.forum.log_in.sign_in_with_passkey%22)
-
-> Sign in with passkey
-
-```diff
-+使用密钥登录
-```
-
 #### [`datlechin-passkey.forum.log_in.verifying`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/zh_Hans/?q=context%3A%3D%22datlechin-passkey.forum.log_in.verifying%22)
 
 > Verifying passkey...
@@ -6508,14 +6705,6 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 +隐藏已上传文件名的数字前缀 (例如 \"1774205518-685373-song.mp3\" → \"song.mp3\")
 ```
 
-#### [`ekumanov-inline-audio.forum.bbcode_description`](https://weblate.rob006.net/translate/flarum2/ekumanov-inline-audio/zh_Hans/?q=context%3A%3D%22ekumanov-inline-audio.forum.bbcode_description%22)
-
-> Embed an audio player: \[player\]URL\[/player\]
-
-```diff
-+嵌入音频播放器：[player]链接地址[/player]
-```
-
 
 ### `ekumanov-new-posts-notice` (missing)
 
@@ -6528,20 +6717,6 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 
 ```diff
 +在您撰写期间新增了 {count} 条回复。
-+
-+确定 → 仍然发布回复
-+取消 → 先查看新回复（草稿将被保留）
-```
-
-#### [`ekumanov-new-posts-notice.forum.new_posts_single`](https://weblate.rob006.net/translate/flarum2/ekumanov-new-posts-notice/zh_Hans/?q=context%3A%3D%22ekumanov-new-posts-notice.forum.new_posts_single%22)
-
-> 1 new reply was added while you were writing.
->
-> OK → Post your reply anyway
-> Cancel → Read it first (your draft stays open)
-
-```diff
-+在您撰写期间新增了 1 条回复。
 +
 +确定 → 仍然发布回复
 +取消 → 先查看新回复（草稿将被保留）
@@ -6588,14 +6763,6 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 
 ```diff
 +访问限制设置
-```
-
-#### [`flarum-audit.admin.permissions.view`](https://weblate.rob006.net/translate/flarum2/flarum-audit/zh_Hans/?q=context%3A%3D%22flarum-audit.admin.permissions.view%22)
-
-> View audit log
-
-```diff
-+查看操作记录
 ```
 
 #### [`flarum-audit.admin.permissions.viewLimited`](https://weblate.rob006.net/translate/flarum2/flarum-audit/zh_Hans/?q=context%3A%3D%22flarum-audit.admin.permissions.viewLimited%22)

@@ -2,7 +2,7 @@
 
 Translations for German (`de`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **317** are translated differently and **657** are
+sides, but do not match between them: **318** are translated differently and **657** are
 translated only in `de`. Altogether they cover **93** components.
 
 <!-- {% raw %} -->
@@ -28,7 +28,7 @@ translated only in `de`. Altogether they cover **93** components.
 | `flarum-statistics` | [1](#flarum-statistics) | 0 |
 | `flarum-sticky` | [6](#flarum-sticky) | 0 |
 | `flarum-tags` | [31](#flarum-tags) | 0 |
-| `fof-anti-spam` | [7](#fof-anti-spam) | 0 |
+| `fof-anti-spam` | [8](#fof-anti-spam) | 0 |
 | `fof-badges` | [6](#fof-badges) | 0 |
 | `fof-best-answer` | [7](#fof-best-answer) | 0 |
 | `fof-blog` | [2](#fof-blog) | 0 |
@@ -1046,6 +1046,17 @@ Dadurch werden alle Diskussionen, die von diesem Benutzer begonnen wurden, in di
 ```
 
 Diskussionen in <del>Themen</del><ins>Tags</ins> verschieben
+
+#### [`fof-anti-spam.admin.settings.stopforumspam.report_blocked_registrations_label`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/de/?q=context%3A%3D%22fof-anti-spam.admin.settings.stopforumspam.report_blocked_registrations_label%22)
+
+> Report blocked registrations
+
+```diff
+-Melde blockierte Registrierungen
++Blockierte Registrierungen melden
+```
+
+<del>Melde blockierte</del><ins>Blockierte</ins> Registrierungen<ins> melden</ins>
 
 #### [`fof-anti-spam.forum.spammer_modal.move_discussions_tag_help`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/de/?q=context%3A%3D%22fof-anti-spam.forum.spammer_modal.move_discussions_tag_help%22)
 
