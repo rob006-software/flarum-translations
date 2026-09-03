@@ -5,27 +5,27 @@
                 "edit": "编辑作者和日期"
             },
             "modal": {
-                "title-post": "",
-                "title-discussion": "",
-                "user": "",
-                "created_at": "",
-                "edited_at": "",
-                "sync-with-discussion": "",
-                "sync-with-post": "",
-                "sync-impossible": "",
-                "submit": "",
-                "cancel": ""
+                "title-post": "编辑帖子作者和日期",
+                "title-discussion": "编辑讨论作者和日期",
+                "user": "作者",
+                "created_at": "发布时间",
+                "edited_at": "编辑时间",
+                "sync-with-discussion": "同步修改讨论",
+                "sync-with-post": "同步修改首贴",
+                "sync-impossible": "未找到首帖，请滚动到讨论开头后再试。",
+                "submit": "保存",
+                "cancel": "取消"
             },
             "search": {
-                "placeholder": "",
-                "type-more": "",
-                "no-results": ""
+                "placeholder": "搜索用户",
+                "type-more": "输入至少 3 个字符开始搜索",
+                "no-results": "未找到用户"
             }
         },
         "admin": {
             "permissions": {
-                "edit-user": "",
-                "edit-date": ""
+                "edit-user": "修改讨论和帖子作者",
+                "edit-date": "修改讨论和帖子作者"
             }
         }
     }
