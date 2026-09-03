@@ -134,6 +134,9 @@ return [
 	'ernestdefoe-connect' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/connect/v1.0.1/locale/en.yml',
 	],
+	'ernestdefoe-courier' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/courier/1.0.0/resources/locale/en.yml',
+	],
 	'ernestdefoe-cross-references' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/cross-references/3.0.0/locale/en.yml',
 	],
