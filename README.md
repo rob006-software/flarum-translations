@@ -974,6 +974,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`ernestdefoe-scribe`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-scribe) | [`ernestdefoe/scribe`](https://github.com/ernestdefoe/scribe) |
 | [`ernestdefoe-seo`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-seo) | [`ernestdefoe/seo`](https://github.com/ernestdefoe/seo) |
 | [`ernestdefoe-social-groups`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-social-groups) | [`ernestdefoe/social-groups`](https://github.com/ernestdefoe/social-groups) |
+| [`ernestdefoe-steward`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-steward) | [`ernestdefoe/steward`](https://github.com/ernestdefoe/steward) |
 | [`ernestdefoe-theme-toggle`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-theme-toggle) | [`ernestdefoe/theme-toggle`](https://github.com/ernestdefoe/theme-toggle) |
 | [`ernestdefoe-topic-map`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-topic-map) | [`ernestdefoe/topic-map`](https://github.com/ernestdefoe/topic-map) |
 | [`ernestdefoe-typesense`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-typesense) | [`ernestdefoe/typesense`](https://github.com/ernestdefoe/typesense) |
