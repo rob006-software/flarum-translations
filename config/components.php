@@ -624,7 +624,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/migratetoflarum/fake-data/2.0.0-beta.1/resources/locale/en.yml',
 	],
 	'mosparo-integration' => [
-		'tag' => 'https://raw.githubusercontent.com/mosparo/flarum-integration/v1.0.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/mosparo/flarum-integration/v1.0.1/locale/en.yml',
 		'__builtInLanguages' => [
 			'de',
 		],
