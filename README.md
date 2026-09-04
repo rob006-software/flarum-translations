@@ -1086,6 +1086,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`shebaoting-money`](https://weblate.rob006.net/projects/flarum2/shebaoting-money) | [`shebaoting/flarum-money`](https://github.com/shebaoting/flarum-money) |
 | [`shebaoting-repost`](https://weblate.rob006.net/projects/flarum2/shebaoting-repost) | [`shebaoting/flarum-repost`](https://github.com/shebaoting/flarum-repost) |
 | [`shebaoting-rss`](https://weblate.rob006.net/projects/flarum2/shebaoting-rss) | [`shebaoting/flarum-rss`](https://github.com/shebaoting/flarum-rss) |
+| [`stezkoy-modularis`](https://weblate.rob006.net/projects/flarum2/stezkoy-modularis) | [`stezkoy/flarum-modularis`](https://github.com/Stezkoy/flarum-modularis) |
 | [`stezkoy-time-of-magic`](https://weblate.rob006.net/projects/flarum2/stezkoy-time-of-magic) | [`stezkoy/flarum-time-of-magic`](https://github.com/Stezkoy/flarum-time-of-magic) |
 | [`sycho-advanced-extension-categories`](https://weblate.rob006.net/projects/flarum2/sycho-advanced-extension-categories) | [`sycho/flarum-advanced-extension-categories`](https://github.com/SychO9/flarum-advanced-extension-categories) |
 | [`sycho-github-milestone`](https://weblate.rob006.net/projects/flarum2/sycho-github-milestone) | [`sycho/flarum-github-milestone`](https://github.com/SychO9/flarum-github-milestone) |
