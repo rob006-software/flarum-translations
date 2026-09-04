@@ -1,0 +1,99 @@
+{
+    "datlechin-keyboard-shortcuts": {
+        "admin": {
+            "behaviour_heading": "Verhalten",
+            "enabled_by_default_label": "Tastaturkürzel aktivieren",
+            "enabled_by_default_help": "Mitglieder können die Kürzel in ihren Einstellungen für sich selbst deaktivieren.",
+            "allow_customization_label": "Mitglieder erlauben, ihre Tastaturkürzel selbst zu festzulegen",
+            "allow_customization_help": "Wenn deaktiviert, verwenden alle die Kürzel, die du unten festgelegt hast.",
+            "sequence_timeout_label": "Zeitlimit für die Sequenz (ms)",
+            "sequence_timeout_help": "Wie lange eine mehrstufige Tastenkombination wie „G, dann H“ auf die nächste Taste wartet, bevor sie von vorne beginnt.",
+            "bindings_heading": "Tastenkürzel",
+            "bindings_help": "Wähle ein Tastenkürzel aus und drücke dann die Tasten, die du dafür festlegen möchtest. Drücke direkt nach der ersten Taste eine zweite Taste, um eine Tastenfolge zu erstellen, beispielsweise G und dann H.",
+            "column_shortcut": "Tastenkürzel",
+            "column_binding": "Tasten",
+            "filter_placeholder": "Tastenkürzel filtern",
+            "filter_clear_label": "Filter löschen",
+            "no_results": "Kein Tastenkürzel stimmt mit „{query}“ überein.",
+            "reset_title": "Tastenkürzel zurücksetzen"
+        },
+        "forum": {
+            "modal": {
+                "title": "Tastenkürzel",
+                "filter_placeholder": "Tastenkürzel durchsuchen",
+                "filter_clear_label": "Suche löschen",
+                "no_results": "Kein Tastenkürzel stimmt mit „{query}“ überein.",
+                "enabled_label": "Tastenkürzel aktivieren",
+                "customize_button": "Anpassen"
+            },
+            "customize": {
+                "title": "Tastenkürzel anpassen",
+                "help": "Drücke die Tasten, die du als Tastenkürzel verwenden möchtest. Drücke direkt nach der ersten Taste eine zweite Taste, um eine Tastenfolge zu erstellen, zum Beispiel G und dann H.",
+                "submit_button": "Tastenkürzel speichern",
+                "reset_all_button": "Forum-Standardeinstellungen wiederherstellen",
+                "saved_message": "Deine Tastenkürzel wurden gespeichert.",
+                "group_has_conflict": "Diese Gruppe enthält Tastenkürzel, die dieselben Tasten verwenden.",
+                "unsaved": "{count, plural, one {# ungespeicherte Änderung} other {# ungespeicherte Änderungen}}"
+            },
+            "settings": {
+                "heading": "Tastenkürzel",
+                "enabled_label": "Tastenkürzel verwenden",
+                "help": "Drücke {key} an einer beliebigen Stelle im Forum, um die vollständige Liste anzuzeigen.",
+                "view_button": "Tastenkürzel anzeigen",
+                "customize_button": "Tastenkürzel anpassen"
+            }
+        },
+        "lib": {
+            "unbound": "Nicht festgelegt",
+            "binding_then": "dann",
+            "binding_or": "oder",
+            "recorder": {
+                "start_label": "Ein neues Tastenkürzel aufzeichnen",
+                "stop_label": "Aufzeichnung beenden",
+                "prompt": "Tasten drücken…",
+                "clear_label": "Dieses Tastenkürzel ausschalten",
+                "reset_label": "Auf Standardeinstellung zurücksetzen",
+                "recording_status": "Auf Tastendrücke warten.",
+                "conflict": "Auch verwendet von {shortcuts}."
+            },
+            "groups": {
+                "global": "Überall",
+                "navigation": "Gehe zu",
+                "discussionList": "Diskussionsliste",
+                "discussion": "Diskussion",
+                "composer": "Composer"
+            },
+            "shortcuts": {
+                "help": "Tastenkürzel anzeigen",
+                "search": "Suche",
+                "new_discussion": "Eine Diskussion starten",
+                "notifications": "Benachrichtigungen umschalten",
+                "flags": "Markierungen umschalten",
+                "session": "Benutzermenü umschalten",
+                "login": "Anmelden",
+                "signup": "Registrieren",
+                "toggle_theme": "Farbschema umschalten",
+                "back": "Zurück",
+                "go_home": "Alle Diskussionen",
+                "go_notifications": "Benachrichtigungen",
+                "go_profile": "Dein Profil",
+                "go_settings": "Deine Einstellungen",
+                "next_discussion": "Nächste Diskussion",
+                "previous_discussion": "Vorherige Diskussion",
+                "open_discussion": "Ausgewählte Diskussion öffnen",
+                "mark_all_as_read": "Alle als gelesen markieren",
+                "refresh": "Liste aktualisieren",
+                "reply": "Antworten",
+                "follow": "Folgen / Nicht mehr folgen",
+                "next_post": "Nächster Beitrag",
+                "previous_post": "Vorheriger Beitrag",
+                "first_post": "Zum ersten Beitrag springen",
+                "last_post": "Zum letzten Beitrag springen",
+                "rename_discussion": "Diskussion umbenennen",
+                "pin_nav": "Diskussionliste an-/abheften",
+                "toggle_full_screen": "Vollbild umschalten",
+                "minimize_composer": "Composer minimieren"
+            }
+        }
+    }
+}

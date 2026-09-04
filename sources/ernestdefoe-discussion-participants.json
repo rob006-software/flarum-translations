@@ -1,0 +1,53 @@
+{
+    "ernestdefoe-discussion-participants": {
+        "forum": {
+            "modal_title": "{count, plural, one {# participant} other {# participants}}",
+            "modal_title_loading": "Participants",
+            "overflow_a11y_label": "{count, plural, one {Show # more participant} other {Show # more participants}}",
+            "post_count": "{count, plural, one {# post} other {# posts}}",
+            "author_badge": "Author",
+            "previous_page": "Previous page",
+            "next_page": "Next page",
+            "page_counter": "Page {current} of {total}",
+            "load_failed": "Could not load the participant list."
+        },
+        "admin": {
+            "strip_size_label": "Avatars shown",
+            "strip_size_help": "How many avatars appear on a discussion row before the rest become an overflow badge.",
+            "placement_label": "Where to show them",
+            "placement_help": "On its own line the strip sits under the discussion title. Inline keeps rows one line tall by putting it beside the reply count.",
+            "placement_below": "On its own line, under the title",
+            "placement_inline": "Inline, beside the reply count",
+            "avatar_size_label": "Avatar size",
+            "avatar_size_help": "How large the avatars in the strip are.",
+            "avatar_size_small": "Small",
+            "avatar_size_medium": "Medium",
+            "avatar_size_large": "Large",
+            "order_label": "Order",
+            "order_help": "Which participants earn the visible places, and in what order they are stacked.",
+            "order_first_post": "Who posted first",
+            "order_most_active": "Who posted most",
+            "order_recent": "Who posted most recently",
+            "include_op_label": "The person who started the discussion",
+            "include_op_help": "Their avatar is already shown in the author column, so by default the strip leaves them out.",
+            "include_op_never": "Never show them in the strip",
+            "include_op_if_replied": "Show them only if they replied as well",
+            "include_op_always": "Always show them first",
+            "min_participants_label": "Minimum participants",
+            "min_participants_help": "Discussions with fewer repliers than this get no strip at all, which keeps quiet lists clean.",
+            "show_overflow_label": "Show the overflow badge",
+            "show_overflow_help": "The badge counts participants the strip has no room for, and opens the full list when clicked.",
+            "hover_cards_label": "Show a profile card on hover",
+            "hover_cards_help": "Hovering an avatar reveals the same profile card Flarum shows on post authors.",
+            "tags_label": "Limit to tags",
+            "tags_help": "Choose the tags that should show a strip. With none chosen it appears everywhere.",
+            "tags_empty": "This forum has no tags yet.",
+            "rebuild_label": "Recalculate participants",
+            "rebuild_help": "Discussions that existed before this extension was enabled have no participant data until it is built. This does the same job as the participants:populate command.",
+            "rebuild_button": "Recalculate",
+            "rebuild_progress": "{percent}% complete",
+            "rebuild_done": "{count, plural, one {Done — # participant record.} other {Done — # participant records.}}",
+            "rebuild_failed": "The recalculation failed. Check your server logs, or run participants:populate instead."
+        }
+    }
+}

@@ -15,14 +15,14 @@
             "flag_post": {
                 "confirmation_message": "Tack för att du flaggade detta inlägg. Våra moderatorer kommer att kolla upp detta.",
                 "dismiss_button": "=> core.ref.okay",
-                "reason_details_placeholder": "Additional details (optional)",
+                "reason_details_placeholder": "Ytterligare uppgifter (valfritt)",
                 "reason_inappropriate_label": "Olämpligt",
                 "reason_inappropriate_text": "Detta inlägg är stötande, kränkande eller bryter mot <a>forumets riktlinjer</a>.",
-                "reason_inappropriate_text_no_guidelines": "",
-                "reason_missing_message": "Please provide some details for our moderators.",
+                "reason_inappropriate_text_no_guidelines": "Det här inlägget är kränkande eller stötande.",
+                "reason_missing_message": "Lämna gärna mer information till våra moderatorer.",
                 "reason_off_topic_label": "Irrelevant",
                 "reason_off_topic_text": "Det här inlägget är inte relevant för den här diskussionen och bör flyttas någon annanstans.",
-                "reason_other_label": "Annat",
+                "reason_other_label": "Annat (vänligen ange)",
                 "reason_spam_label": "Spam",
                 "reason_spam_text": "Det här inlägget är reklam.",
                 "submit_button": "=> flarum-flags.ref.flag_post",
@@ -52,8 +52,8 @@
         "lib": {
             "browser": {
                 "post": {
-                    "dismissed_flags": "",
-                    "flagged": ""
+                    "dismissed_flags": "Avvisade flaggningar på {postuser}s {post} i {discussion}",
+                    "flagged": "Flaggade {postuser}s {post} som {reason} i {discussion}"
                 }
             }
         }

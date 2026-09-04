@@ -8,7 +8,7 @@
                 "spinner_option_orbital": "方块碎片",
                 "spinner_option_css_orbital": "方块碎片（CSS）",
                 "spinner_option_ditie": "地铁在线",
-                "spinner_option_b2": "",
+                "spinner_option_b2": "旋转",
                 "spinner_option_flarum": "Flarum图标",
                 "spinner_option_pl3": "脉冲",
                 "spinner_option_custom": "自定义",
@@ -27,12 +27,12 @@
                 "section_hero_image_tags": "话题横幅图片",
                 "section_discussion": "话题页面",
                 "disc_style_label": "话题页面样式",
-                "disc_style_help": "",
+                "disc_style_help": "默认使用当前页面的标准布局。选择「编辑式」后，阅读区域会加宽，并在头像所在列贯穿一条细线，将整个讨论串联起来。每个头像都会作为节点排列在线上，而不同时间段之间则以带标签的时间节点加以区分。两种布局使用相同的页头。编辑式布局仅适用于桌面设备。在手机和平板电脑上，无论选择哪种布局，均保持当前页面样式。\n",
                 "disc_style_default": "默认",
-                "disc_style_editorial": "",
+                "disc_style_editorial": "编辑式（讨论轴线）",
                 "post_badge_position_label": "帖子中群组徽章的展示位置",
-                "post_badge_position_help": "",
-                "post_badge_position_default": "",
+                "post_badge_position_help": "成员组徽章在帖子中的显示位置。第一项会关闭自定义徽章，恢复为 Flarum 默认的圆形徽章，并与头像重叠显示。其他选项会将每个徽章显示为胶囊形标签，并在图标旁显示用户组名称。无论是否启用固定头像效果，此设置均可正常使用。手机端始终采用紧凑的叠加显示方式。\n",
+                "post_badge_position_default": "Flarum默认（关闭：徽章叠加在头像上）",
                 "post_badge_position_inline": "在用户名旁边",
                 "post_badge_position_below": "在用户名下方（独占一行）",
                 "post_badge_position_side": "在头像下方（左侧边栏）",
@@ -78,23 +78,23 @@
                 "custom_hero_enabled_help": "使用自定义HTML内容，替换默认横幅内容，包含：图标、标题、描述、登录/注册按钮。横幅容器、背景图片和遮罩层不变。与默认横幅一样，自定义横幅仅对访客可见。",
                 "custom_hero_html_label": "自定义横幅HTML",
                 "custom_hero_html_help": "HTML内容将嵌入横幅遮罩层，替换.AvocadoHome-heroBannerContent内容。支持使用内链「<style>」标签。",
-                "custom_hero_html_placeholder": "",
+                "custom_hero_html_placeholder": "<div class=\"AvocadoHome-heroBannerContent\">\n  <h1 class=\"AvocadoHome-heroBannerTitle\">欢迎访问</h1>\n  <p class=\"AvocadoHome-heroBannerDesc\">这里可以时任何你需要展示的内容：链接、图片、按钮等</p>\n</div>",
                 "search_v1_label": "启用 V1 搜索栏样式",
                 "search_v1_help": "显示内联搜索下拉框而非 V2 弹窗样式。",
                 "bookmarks_enabled_label": "启用书签系统",
                 "bookmarks_enabled_help": "在卡片，书签页面，备忘，提醒和提醒通知等功能处展示保存书签按钮。关闭此设置将隐藏所有保存书签按钮，并禁用相关API；已保存的书签数据仍然保留。",
-                "bookmarks_fof_notice": "",
+                "bookmarks_fof_notice": "检测到已启用FoF Bookmarks，因此Avocado会将自身的书签功能交由FoF Bookmarks管理：主题中仅显示一个“已保存”菜单项和一个保存按钮，保存内容将写入FoF Bookmarks。启用FoF Bookmarks后，备注和提醒功能将不可用；Avocado中原有的保存数据会被保留，停用FoF Bookmarks后将恢复显示。",
                 "clock_format_label": "时间格式",
-                "clock_format_help": "",
+                "clock_format_help": "用于提醒功能中：「提醒我」功能中的时间选择控件和已存书签卡片中展示的时间。自动则使用访问者的浏览器设置。",
                 "clock_format_auto": "自动（基于用户浏览器）",
                 "clock_format_12": "12小时制（下午2:30）",
                 "clock_format_24": "24小时制（14:30）",
                 "user_card_enabled_label": "启用用户悬停卡片",
                 "user_card_enabled_help": "当鼠标悬停在用户名或头像上时，显示Discourse风格的迷你用户卡片，包括个性签名、徽章、状态等内容。",
                 "presence_enabled_label": "显示正在阅览话题的用户",
-                "presence_enabled_help": "",
+                "presence_enabled_help": "在话题横幅中显示带有用户头像的「N人正在浏览」指示器，依赖Realtime插件。不会展示已设置「不展示在线状态」的用户。",
                 "cakeday_enabled_label": "显示账号纪念日徽章",
-                "cakeday_enabled_help": "",
+                "cakeday_enabled_help": "在用户注册的周年纪念日期间，用户名旁边（话题卡片，回帖和用户卡片）将显示一个🎂图标。",
                 "show_share_label": "在帖子中显示分享按钮",
                 "show_share_help": "为每条帖子添加分享操作按钮。",
                 "show_action_icons_label": "在点赞和回复按钮上显示图标",
@@ -237,7 +237,7 @@
                 "tip": "提示：输入前缀 ",
                 "tip_suffix": " 可以根据标签进行筛选",
                 "esc_key": "ESC键",
-                "close": ""
+                "close": "关闭（Esc）"
             },
             "header": {
                 "back": "返回",
@@ -335,9 +335,9 @@
                 "unsave": "从已存书签中移除",
                 "edit": "编辑书签",
                 "empty": "尚未保存任何话题为书签。",
-                "empty_posts": "",
-                "guest_prompt": "",
-                "toggle_error": "",
+                "empty_posts": "尚未将任何帖子存为书签。",
+                "guest_prompt": "登陆后可讲话题存为书签并随时找到它们。",
+                "toggle_error": "无法更新已存书签列表。请重试。",
                 "update_error": "无法更新书签收藏。请重试。",
                 "modal_title": "书签收藏",
                 "modal_save": "保存",
@@ -363,28 +363,28 @@
                 "bookmark_reminder_text": "已存话题的提醒"
             },
             "settings": {
-                "notify_bookmark_reminder_label": ""
+                "notify_bookmark_reminder_label": "书签提醒"
             },
             "presence": {
-                "reading_now": ""
+                "reading_now": "{count}人正在阅读"
             },
             "cakeday": {
-                "tooltip_singular": "",
-                "tooltip_plural": "",
-                "aria": ""
+                "tooltip_singular": "帐号周年纪念起：1周年！",
+                "tooltip_plural": "帐号周年纪念起：{years}周年！",
+                "aria": "帐号周年纪念日"
             },
             "user_card": {
-                "online": "",
-                "last_seen": "",
-                "discussions": "",
-                "posts": "",
-                "joined_label": "",
-                "view_profile": "",
-                "message": ""
+                "online": "在线",
+                "last_seen": "查阅{time}次",
+                "discussions": "话题",
+                "posts": "回帖",
+                "joined_label": "加入于",
+                "view_profile": "查看用户资料",
+                "message": "消息"
             },
             "post": {
                 "op_badge": "楼主",
-                "copy_code": ""
+                "copy_code": "复制代码"
             },
             "messages": {
                 "deleted_message": "消息已删除"
@@ -426,20 +426,20 @@
             }
         },
         "api": {
-            "invalid_discussion_id": "",
-            "discussion_not_found": "",
-            "invalid_note": "",
-            "note_too_long": "",
-            "invalid_reminder_date": "",
-            "reminder_must_be_future": "",
-            "reminder_too_far": "",
-            "file_not_readable": "",
-            "no_file_uploaded": "",
-            "file_too_large": "",
-            "unsupported_image_type": "",
-            "svg_forbidden_declaration": "",
-            "svg_parse_failed": "",
-            "svg_invalid": ""
+            "invalid_discussion_id": "话题ID无效。",
+            "discussion_not_found": "没有搜索到话题。",
+            "invalid_note": "备注无效。",
+            "note_too_long": "备注太长。",
+            "invalid_reminder_date": "提醒日期无效。",
+            "reminder_must_be_future": "提醒必需在未来时间。",
+            "reminder_too_far": "提醒时间距离当前太长。",
+            "file_not_readable": "已上传文件不可读。",
+            "no_file_uploaded": "尚无已上传文件。",
+            "file_too_large": "文件太大（最大{max}）。",
+            "unsupported_image_type": "不支持的图片类型。",
+            "svg_forbidden_declaration": "SVG中包含有禁止的DOCTYPE和ENTITY声明内容。",
+            "svg_parse_failed": "SVG无效：无法转换XML。",
+            "svg_invalid": "上传文件必须是SVG。"
         }
     }
 }

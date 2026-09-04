@@ -1,48 +1,48 @@
 {
     "fof-recaptcha": {
         "admin": {
-            "maintenance_mode_warning": "",
+            "maintenance_mode_warning": "reCAPTCHA är inaktiverat på inloggningssidan när forumet är i underhållsläge.",
             "settings": {
-                "help_text": "",
-                "secret_key_label": "",
-                "site_key_label": "",
-                "type_label": "",
-                "type_help": "",
+                "help_text": "Hämta dina reCAPTCHA-uppgifter från Google <a>här</a>.",
+                "secret_key_label": "Hemlig nyckel (Secret Key)",
+                "site_key_label": "Webbplatsnyckel (Site Key)",
+                "type_label": "reCAPTCHA-typ",
+                "type_help": "Den valda typen måste matcha typen av dina reCAPTCHA-uppgifter. Checkbox och Invisible är båda reCAPTCHA v2 medan v3 är poängbaserad och körs i bakgrunden.",
                 "type_options": {
-                    "checkbox": "",
-                    "invisible": "",
-                    "v3": ""
+                    "checkbox": "v2 Checkbox",
+                    "invisible": "v2 Invisible",
+                    "v3": "v3 (poängbaserad)"
                 },
-                "v3_threshold_label": "",
-                "v3_threshold_help": "",
-                "signup": "",
-                "signin": "",
-                "forgot": ""
+                "v3_threshold_label": "Tröskelvärde för reCAPTCHA v3-poäng",
+                "v3_threshold_help": "Bidrag med ett poängvärde under detta (0,0 = troligen en bot, 1,0 = troligen en människa) kommer att avvisas. Google föreslår 0,5 som utgångspunkt. Används endast när typen är inställd på v3.",
+                "signup": "=> core.forum.sign_up.title",
+                "signin": "=> core.forum.log_in.title",
+                "forgot": "=> core.forum.forgot_password.title"
             },
             "test": {
-                "title": "",
-                "help_text": "",
-                "success_message": "",
-                "load_test_button": "",
-                "submit_button": "",
-                "reload_button": ""
+                "title": "Testa reCAPTCHA",
+                "help_text": "Detta test använder de aktuella värdena som angetts ovan. Kom ihåg att ladda om testet efter att ha ändrat inställningarna, och glöm inte att spara när testet har godkänts!\nDet som visas nedan kanske inte återspeglar de sparade inställningarna.\n",
+                "success_message": "Klart! reCAPTCHA är korrekt konfigurerat.",
+                "load_test_button": "Ladda",
+                "submit_button": "Skicka",
+                "reload_button": "Ladda om"
             },
             "permissions": {
-                "post_without_captcha": ""
+                "post_without_captcha": "Skapa inlägg och diskussioner utan captcha"
             }
         },
         "lib": {
-            "error": "",
-            "not_completed": "",
-            "rejected": "",
-            "unknown_error": ""
+            "error": "Ett fel uppstod vid inskickning av reCAPTCHA. Försök igen.",
+            "not_completed": "Vänligen slutför reCAPTCHA-kontrollen innan du fortsätter.",
+            "rejected": "reCAPTCHA-kontrollen misslyckades. Vänligen försök igen.",
+            "unknown_error": "Ett okänt fel uppstod. Försök igen."
         }
     },
     "validation": {
-        "recaptcha": "",
-        "recaptcha-unknown": "",
+        "recaptcha": "Validering av reCAPTCHA misslyckades.",
+        "recaptcha-unknown": "Ett okänt fel uppstod vid validering av reCAPTCHA ({errors}).",
         "attributes": {
-            "g-recaptcha-response": ""
+            "g-recaptcha-response": "reCAPTCHA"
         }
     }
 }

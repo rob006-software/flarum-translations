@@ -2,70 +2,70 @@
     "flarum-gdpr": {
         "admin": {
             "gdpr_page": {
-                "heading": "",
-                "description": "",
+                "heading": "Översikt över GDPR-data",
+                "description": "Status för olika GDPR-åtgärder och integrationer",
                 "data_types": {
-                    "title": "",
-                    "help_text": "",
-                    "type": "",
-                    "export_description": "",
-                    "anonymize_description": "",
-                    "delete_description": "",
-                    "extension": ""
+                    "title": "Datatyper",
+                    "help_text": "Detta är de för närvarande registrerade datatyperna. Varje typ listas tillsammans med tillhörande åtgärder för export, anonymisering och borttagning. Om ett tillägg hanterar data som omfattas av GDPR-reglerna bör det registrera sina datatyper hos <code>flarum/gdpr</code>.\nData som lagras i tabellen <code>user</code> hanteras separat; se information om data i användartabellen nedan.\n",
+                    "type": "Typ",
+                    "export_description": "Exportåtgärd",
+                    "anonymize_description": "Åtgärd för anonymisering",
+                    "delete_description": "Åtgärd för borttagning",
+                    "extension": "Tillägg"
                 },
                 "settings": {
-                    "heading": "",
-                    "help_text": "",
-                    "extension_settings_button": ""
+                    "heading": "GDPR-inställningar",
+                    "help_text": "Letar du efter GDPR-inställningar? Du hittar dem på tilläggssidan.",
+                    "extension_settings_button": "GDPR-inställningar"
                 },
                 "user_table_data": {
-                    "title": "",
-                    "help_text": "",
-                    "column": "",
-                    "type": "",
-                    "nullable": "",
-                    "pii": "",
-                    "redacted_on_export": "",
-                    "extension": "",
-                    "yes": "",
-                    "no": "",
-                    "pii_tooltip": "",
-                    "redacted_on_export_tooltip": ""
+                    "title": "Data från användartabellen",
+                    "help_text": "För det mesta hanteras alla kolumner som läggs till i <code>user</code>-tabellen automatiskt, både för export av data och för radering.\nDet finns dock några specialfall, som listas nedan.\n",
+                    "column": "Kolumn",
+                    "type": "Typ",
+                    "nullable": "Nollbar",
+                    "pii": "PII",
+                    "redacted_on_export": "Maskerad vid export",
+                    "extension": "Tillägg",
+                    "yes": "Ja",
+                    "no": "Nej",
+                    "pii_tooltip": "Denna kolumn anses innehålla personuppgifter och kommer att maskeras i anonymiserade sammanhang (t.ex. anonymiserade payloads i händelser).",
+                    "redacted_on_export_tooltip": "Värdet i den här kolumnen rensas (ställs in på null) när en export av användardata genereras. Kolumnen visas fortfarande i exporten men med värdet null."
                 }
             },
             "nav": {
-                "gdpr_button": "",
-                "gdpr_title": ""
+                "gdpr_button": "GDPR-integrationer",
+                "gdpr_title": "=> flarum-gdpr.admin.gdpr_page.description"
             },
             "permissions": {
-                "process_erasure": "",
-                "process_export_for_others": "",
-                "see_anonymized_user_badges": ""
+                "process_erasure": "Hantera begäranden om radering",
+                "process_export_for_others": "Begär och ta emot dataexporter för andra användare",
+                "see_anonymized_user_badges": "Visa anonymiserade användarmärken"
             },
             "settings": {
-                "allow_anonymization": "",
-                "allow_anonymization_help": "",
-                "allow_deletion": "",
-                "allow_deletion_help": "",
-                "default_anonymous_username": "",
-                "default_anonymous_username_help": "",
-                "default_erasure": "",
-                "default_erasure_help": "",
+                "allow_anonymization": "Tillåt anonymisering vid begäran om radering",
+                "allow_anonymization_help": "Standardalternativet, som rekommenderas för de flesta typer av forum. I detta läge bevaras inlägg och kommentarer i så stor utsträckning som GDPR tillåter, men all information som kan kopplas till en enskild användare tas bort.",
+                "allow_deletion": "Tillåt borttagning vid begäran om radering",
+                "allow_deletion_help": "Ett betydligt strängare alternativ. I detta läge raderas alla inlägg och kommentarer, och användaren tas bort ur databasen. Använd med försiktighet.",
+                "default_anonymous_username": "Standardanvändarnamn för anonymiserade användare",
+                "default_anonymous_username_help": "När en användare anonymiseras ersätts användarnamnet med detta värde samt ID:t för anonymiseringsbegäran, till exempel <code>Anonymous123</code>.",
+                "default_erasure": "Standardåtgärd för raderingsbegäranden",
+                "default_erasure_help": "Vad bör standardåtgärden vara för raderingsbegäranden?",
                 "default_erasure_options": {
-                    "anonymization": "",
-                    "deletion": ""
+                    "anonymization": "Anonymisering",
+                    "deletion": "Radering"
                 },
                 "gdpr_page": {
-                    "title": "",
-                    "help_text": ""
+                    "title": "Dataintegration och åtgärder",
+                    "help_text": "Innan du bestämmer vilka åtgärder som ska användas på ditt forum är det viktigt att förstå vilka uppgifter som är integrerade och hur de hanteras med avseende på både anonymisering och radering. Besök översikten för GDPR för att förstå hur uppgifter hanteras och vilka valfria tillägg som har registrerat sina uppgifter för hantering via detta tillägg."
                 }
             },
             "userlist": {
                 "columns": {
                     "user_actions": {
                         "data_export": {
-                            "button": "",
-                            "tooltip": ""
+                            "button": "Exportera",
+                            "tooltip": "Exportera data för {username}"
                         }
                     }
                 }
@@ -74,128 +74,128 @@
         "lib": {
             "data": {
                 "avatar": {
-                    "delete_description": "",
-                    "export_description": ""
+                    "delete_description": "Tar bort användarens avatar från filsystemet.",
+                    "export_description": "Hämtar användarens avatar från filsystemet och inkluderar den i exporten."
                 },
                 "discussions": {
-                    "export_description": ""
+                    "export_description": "Exporterar alla diskussioner som användaren har startat. Informationen begränsas till titel och skapandedatum."
                 },
                 "forum": {
-                    "export_description": ""
+                    "export_description": "Exporterar forumets titel, webbadress, användarnamn, e-postadress och aktuellt datum."
                 },
-                "default_user_action": "",
-                "no_action": "",
+                "default_user_action": "Ingen åtgärd; hanteras genom standardhantering av användartabelldata.",
+                "no_action": "Ingen åtgärd har gjorts.",
                 "posts": {
-                    "anonymize_description": "",
-                    "delete_description": "",
-                    "export_description": ""
+                    "anonymize_description": "Tar bort IP-adressen från alla inlägg som användaren har skapat.",
+                    "delete_description": "Tar bort alla inlägg som användaren har skapat.",
+                    "export_description": "Exporterar alla inlägg som användaren har skapat. Informationen begränsas till innehåll, skapandedatum, IP-adress och diskussions-ID."
                 },
                 "tokens": {
-                    "delete_description": "",
-                    "export_description": ""
+                    "delete_description": "Tar bort alla tokens som användaren har skapat.",
+                    "export_description": "Exporterar alla tokens som användaren har skapat. Informationen begränsas till skapandedatum och typ av token."
                 },
                 "user": {
-                    "anonymize_description": "",
-                    "delete_description": "",
-                    "export_description": ""
+                    "anonymize_description": "Sätter alla kolumner i användartabellen till null. Kolumner som inte tillåter null-värden sätts till sina standardvärden eller till särskilda värden. Lösenordet ändras, inställningarna återställs till standardvärden och alla grupptillhörigheter tas bort.",
+                    "delete_description": "Tar bort användaren från databasen.",
+                    "export_description": "Exporterar data från användartabellen. Alla kolumner utom id och lösenord."
                 }
             },
             "request_data": {
-                "title": "",
-                "text": "",
-                "request_button": ""
+                "title": "Begär data för {username}",
+                "text": "Ett zip-arkiv kommer att förberedas åt dig. När det är klart får du ett meddelande med en nedladdningslänk. Länken är aktiv i ett dygn.\n",
+                "request_button": "Begär arkiv"
             }
         },
         "email": {
             "confirm_erasure": {
-                "subject": "",
-                "body": ""
+                "subject": "Bekräfta din begäran om radering av konto",
+                "body": "Någon (förhoppningsvis du) har just begärt att kontot `{display_name}` ska raderas.\n\nFör att bekräfta denna åtgärd, vänligen följ följande länk, varefter din begäran kommer att behandlas av vårt team.\n\n{erasure_confirm_url}\n"
             },
             "erasure_completed": {
                 "deletion": {
-                    "subject": "",
-                    "body": ""
+                    "subject": "Kontot har raderats",
+                    "body": "Detta är en automatisk slutgiltig avisering om att ditt konto har raderats.\n"
                 },
                 "anonymization": {
-                    "subject": "",
-                    "body": ""
+                    "subject": "Anonymisering av konto slutförd",
+                    "body": "Detta är en automatisk slutgiltig avisering om att ditt konto har anonymiserats.\n"
                 }
             },
             "erasure_cancelled": {
-                "subject": "",
-                "body": ""
+                "subject": "Begäran om radering av konto avbröts",
+                "body": "Detta är ett automatiskt meddelande om att din begäran om att avbryta raderingen av kontot har behandlats.\n\nDitt konto kommer inte längre att raderas.\n"
             },
             "export_available": {
-                "subject": "",
-                "body": ""
+                "subject": "Dataexport tillgänglig",
+                "body": "Du har begärt ett utdrag av kontouppgifterna för {username}. Utdraget har skapats och finns nu tillgängligt här:\n\n{url}\n\nUtdraget finns tillgängligt till och med {destroys_at}.\n"
             }
         },
         "forum": {
             "badges": {
-                "anonymized_user": ""
+                "anonymized_user": "Anonymiserad användare"
             },
             "delete_user": {
-                "title": "",
-                "text": "",
-                "modal_delete_button": "",
-                "delete_button": ""
+                "title": "Radera {username}s konto",
+                "text": "Är du säker på att du vill radera {username}s konto?\n\nDenna åtgärd går inte att ångra.\n",
+                "modal_delete_button": "Radera med standardåtgärd",
+                "delete_button": "Radera"
             },
             "erasure_requests": {
-                "empty_text": "",
-                "item_text": "",
-                "tooltip": "",
-                "title": ""
+                "empty_text": "Inga väntande begäranden om radering av konto",
+                "item_text": "{name} begärde radering av kontot",
+                "tooltip": "Begäranden om radering av konto",
+                "title": "Begäranden om radering av konto"
             },
-            "erasure_request_confirmed": "",
+            "erasure_request_confirmed": "Du har bekräftat din begäran om radering av konto. Åtgärder kommer att vidtas inom 30 dagar, i enlighet med GDPR.",
             "settings": {
                 "data": {
-                    "heading": ""
+                    "heading": "Personlig data"
                 },
-                "export_data_button": "",
-                "export_data_help": "",
-                "request_erasure_button": "",
-                "request_erasure_help": ""
+                "export_data_button": "Exportera data",
+                "export_data_help": "Om du begär en dataexport får du en nedladdningsbar kopia av all information som är kopplad till ditt konto. Detta inkluderar inlägg, kommentarer och profiluppgifter.",
+                "request_erasure_button": "Radera konto",
+                "request_erasure_help": "Om du begär radering kommer ditt konto och all tillhörande data att tas bort permanent. Denna åtgärd går inte att ångra. Innan du fortsätter bör du se till att du har sparat allt innehåll du vill behålla."
             },
             "process_erasure": {
-                "confirm": "",
-                "title": "",
-                "text": "",
-                "comments_label": "",
-                "anonymization_button": "",
-                "deletion_button": "",
-                "requested_at": "",
-                "confirmed_at": "",
-                "eligible_at": ""
+                "confirm": "Är du säker på att du vill radera {name}s konto i läget {mode}?",
+                "title": "Hantera begäran om radering",
+                "text": "{name} har begärt radering av kontot.",
+                "comments_label": "Kommentarer (valfritt)",
+                "anonymization_button": "Anonymisera användare",
+                "deletion_button": "Ta bort användare",
+                "requested_at": "Begärd: {date}",
+                "confirmed_at": "Bekräftad: {datum}",
+                "eligible_at": "Kvalificerad för automatisk behandling: {datum}"
             },
             "request_erasure": {
-                "title": "",
-                "reason": "",
+                "title": "Begär radering av konto",
+                "reason": "Du angav följande orsak: {reason}",
                 "status": {
-                    "awaiting_user_confirmation": "",
-                    "user_confirmed": ""
+                    "awaiting_user_confirmation": "Du bör ha fått ett e-postmeddelande för att bekräfta din begäran om radering av konto.\n",
+                    "user_confirmed": "Du har bekräftat din begäran om radering av konto. Åtgärder kommer att vidtas inom 30 dagar, i enlighet med GDPR.\n"
                 },
-                "text": "",
-                "password_label": "",
-                "reason_label": "",
-                "cancel_button": "",
-                "request_button": ""
+                "text": "När din begäran har mottagits och bekräftats kommer en administratör att granska den inom 30 dagar, i enlighet med GDPR.",
+                "password_label": "Bekräfta lösenord",
+                "reason_label": "Orsak (valfritt)",
+                "cancel_button": "Avbryt begäran",
+                "request_button": "Begär radering"
             },
             "notification": {
-                "export-ready": ""
+                "export-ready": "Din dataexport för {username} är nu redo att laddas ned."
             },
-            "export_file": ""
+            "export_file": "Export av användardata för {username} ({email}) förberedd den {date} från {forumTitle} ({url})"
         }
     },
     "flarum-audit": {
         "lib": {
             "browser": {
                 "user": {
-                    "gdpr_erasure_requested": "",
-                    "gdpr_erasure_confirmed": "",
-                    "gdpr_erasure_cancelled": "",
-                    "gdpr_anonymized": "",
-                    "gdpr_deleted": "",
-                    "gdpr_exported": ""
+                    "gdpr_erasure_requested": "Begäran om radering av {användarnamn}s uppgifter",
+                    "gdpr_erasure_confirmed": "Bekräftade begäran om radering av {username}s data",
+                    "gdpr_erasure_cancelled": "Avbröt begäran om radering av {username}s data",
+                    "gdpr_anonymized": "Anonymiserade datat för {username}",
+                    "gdpr_deleted": "Raderade {username}s data",
+                    "gdpr_exported": "Exporterade {username}s data"
                 }
             }
         }

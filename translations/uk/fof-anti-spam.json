@@ -12,6 +12,8 @@
                     "enabled_label": "",
                     "enabled_help": "",
                     "user_targeting_heading": "",
+                    "monitor_all_users_label": "",
+                    "monitor_all_users_help": "",
                     "monitor_post_count_label": "",
                     "monitor_post_count_help": "",
                     "monitor_hours_old_label": "",
@@ -75,6 +77,13 @@
                     "region_us_label": "Сполучені Штати Америки",
                     "confidence_label": "Впевненість",
                     "confidence_help": "Оцінка впевненості є досить хорошим показником того, що досліджуване поле може призвести до небажаної активності. Встановіть рівень довіри у відсотках. Якщо поле дорівнює або перевищує цей показник, реєстрація буде заблокована, незалежно від результатів тесту «частоти», наведеного вище.",
+                    "blocked_asns_label": "",
+                    "blocked_asns_help": "",
+                    "max_listing_age_label": "",
+                    "max_listing_age_help": "",
+                    "registration_throttle_label": "",
+                    "registration_throttle_help": "",
+                    "lookup_failed": "",
                     "email_hash_label": "Використовуйте хешовану адресу електронної пошти",
                     "email_hash_help": "Передайте MD5-хеш адреси електронної пошти, якщо ви не хочете передавати саму адресу. Цей метод дозволяє обійти всі перевірки чорних списків, нормалізації та обходу обфускації.",
                     "block_tor_exit_nodes_label": "",
@@ -84,6 +93,19 @@
                     "report_blocked_registrations_label": "Повідомити про заблоковані реєстрації",
                     "report_blocked_registrations_help": "Коли реєстрація буде заблокована функцією пошуку реєстрацій, ми повідомимо StopForumSpam про цю спробу, щоб можна було краще підтвердити активність спамерів. Потрібно встановити ключ API StopForumSpam (див. нижче)."
                 }
+            },
+            "statistics": {
+                "heading": "",
+                "total_label": "",
+                "registrations_blocked": "",
+                "users_marked": "",
+                "posts_flagged": "",
+                "awaiting_review": "",
+                "this_week": "",
+                "vs_last_week": "",
+                "top_reason": "",
+                "view_all": "",
+                "failed": ""
             },
             "blocked_registrations": {
                 "button": "Заблоковані реєстрації",
@@ -97,7 +119,62 @@
                 "login-provider": "Постачальник послуг входу",
                 "login-provider-data": "Дані постачальника послуг входу",
                 "sfs-data": "Дані StopForumSpam",
-                "delete_entry": "Видалити запис"
+                "reasons": "",
+                "delete_entry": "Видалити запис",
+                "total": "",
+                "filters": {
+                    "placeholder": "",
+                    "apply": "",
+                    "clear": "",
+                    "hint": "",
+                    "no-matches": "",
+                    "help": {
+                        "toggle": "",
+                        "multiple": "",
+                        "negate": "",
+                        "ip": "",
+                        "email": "",
+                        "username": "",
+                        "provider": "",
+                        "reason": "",
+                        "attemptedAt": ""
+                    }
+                },
+                "evidence": {
+                    "label": "",
+                    "none": "",
+                    "lookup_failed": "",
+                    "blocked_by": "",
+                    "rule": {
+                        "confidence": "",
+                        "frequency": "",
+                        "blacklisted": "",
+                        "torExit": "",
+                        "deniedAsn": ""
+                    },
+                    "field": {
+                        "ip": "",
+                        "email": "",
+                        "username": ""
+                    },
+                    "badge": {
+                        "blacklisted": "",
+                        "tor_exit": "",
+                        "not_listed": "",
+                        "confidence": "",
+                        "frequency": "",
+                        "last_seen": "",
+                        "asn": "",
+                        "normalized": ""
+                    }
+                },
+                "raw_data": {
+                    "button": "",
+                    "title": "",
+                    "copy": "",
+                    "copied": "",
+                    "copy_failed": ""
+                }
             }
         },
         "forum": {
@@ -105,6 +182,9 @@
                 "flagged_as_spam_text": ""
             },
             "message": {
+                "profile": {
+                    "blocked": ""
+                },
                 "stopforumspam": {
                     "blocked": "Дані вашої реєстрації були знайдені в базі даних захисту від спаму, тому вашу реєстрацію було заблоковано."
                 }

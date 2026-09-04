@@ -7,6 +7,9 @@
                 "exclusions": "Ausnahmen",
                 "maintenance": "Wartung"
             },
+            "permissions": {
+                "view_leaderboard": "Rangliste anzeigen"
+            },
             "modals": {
                 "save": "Speichern",
                 "cancel": "Abbrechen",
@@ -68,6 +71,7 @@
             }
         },
         "forum": {
+            "permission_denied": "Du hast keine Berechtigung, die Rangliste einzusehen.",
             "period": {
                 "daily": "Täglich",
                 "weekly": "Wöchentlich",

@@ -12,6 +12,8 @@
                     "enabled_label": "Ota sisältösuodatus käyttöön",
                     "enabled_help": "Kun käytössä, uusien käyttäjien viestit ja keskustelut analysoidaan roskapostin tunnusmerkkien varalta.",
                     "user_targeting_heading": "Käyttäjäkohdistus",
+                    "monitor_all_users_label": "",
+                    "monitor_all_users_help": "",
                     "monitor_post_count_label": "Seuraa käyttäjiä viestirajaan asti",
                     "monitor_post_count_help": "Analysoi vain niiden käyttäjien sisältöä, joilla on tätä vähemmän viestejä. Aseta arvoksi 0 poistaaksesi viestirajatarkistuksen käytöstä.",
                     "monitor_hours_old_label": "Seuraa käyttäjiä tuntirajan asti",
@@ -75,6 +77,13 @@
                     "region_us_label": "Yhdysvallat",
                     "confidence_label": "Luottamus",
                     "confidence_help": "Luottamuspisteet ovat melko hyvä indikaattori siitä, että testattava kenttä saattaa johtaa ei-toivottuun toimintaan. Aseta luottamustasosi prosentteina. Jos kenttä on yhtä suuri tai suurempi kuin tämä luku, rekisteröinti estetään, riippumatta yllä olevasta ‘taajuustestistä’.",
+                    "blocked_asns_label": "",
+                    "blocked_asns_help": "",
+                    "max_listing_age_label": "",
+                    "max_listing_age_help": "",
+                    "registration_throttle_label": "",
+                    "registration_throttle_help": "",
+                    "lookup_failed": "",
                     "email_hash_label": "Käytä hashattua sähköpostiosoitetta",
                     "email_hash_help": "Välitä sähköpostiosoitteen MD5-hash, jos et halua välittää itse sähköpostiosoitetta. Tämä menetelmä ohittaa kaikki mustalistat, normalisoinnit ja hämäyksen ohitustarkistukset.",
                     "block_tor_exit_nodes_label": "Estä Tor-poistumisnoodit",
@@ -84,6 +93,19 @@
                     "report_blocked_registrations_label": "Raportoi estetyt rekisteröinnit",
                     "report_blocked_registrations_help": "Kun rekisteröinti estetään Rekisteröintien haku -ominaisuuden avulla, ilmoitamme yrityksestä takaisin StopForumSpam-palveluun, jotta roskapostittajan toiminta voidaan varmemmin vahvistaa. Tämä vaatii StopForumSpam API-avaimen asettamisen (katso alla)."
                 }
+            },
+            "statistics": {
+                "heading": "",
+                "total_label": "",
+                "registrations_blocked": "",
+                "users_marked": "",
+                "posts_flagged": "",
+                "awaiting_review": "",
+                "this_week": "",
+                "vs_last_week": "",
+                "top_reason": "",
+                "view_all": "",
+                "failed": ""
             },
             "blocked_registrations": {
                 "button": "Estetyt rekisteröinnit",
@@ -97,7 +119,62 @@
                 "login-provider": "Sisäänkirjautumisen tarjoaja",
                 "login-provider-data": "Sisäänkirjautumisen tarjoajan tiedot",
                 "sfs-data": "StopForumSpam tiedot",
-                "delete_entry": "Poista merkintä"
+                "reasons": "",
+                "delete_entry": "Poista merkintä",
+                "total": "",
+                "filters": {
+                    "placeholder": "",
+                    "apply": "",
+                    "clear": "",
+                    "hint": "",
+                    "no-matches": "",
+                    "help": {
+                        "toggle": "",
+                        "multiple": "",
+                        "negate": "",
+                        "ip": "",
+                        "email": "",
+                        "username": "",
+                        "provider": "",
+                        "reason": "",
+                        "attemptedAt": ""
+                    }
+                },
+                "evidence": {
+                    "label": "",
+                    "none": "",
+                    "lookup_failed": "",
+                    "blocked_by": "",
+                    "rule": {
+                        "confidence": "",
+                        "frequency": "",
+                        "blacklisted": "",
+                        "torExit": "",
+                        "deniedAsn": ""
+                    },
+                    "field": {
+                        "ip": "",
+                        "email": "",
+                        "username": ""
+                    },
+                    "badge": {
+                        "blacklisted": "",
+                        "tor_exit": "",
+                        "not_listed": "",
+                        "confidence": "",
+                        "frequency": "",
+                        "last_seen": "",
+                        "asn": "",
+                        "normalized": ""
+                    }
+                },
+                "raw_data": {
+                    "button": "",
+                    "title": "",
+                    "copy": "",
+                    "copied": "",
+                    "copy_failed": ""
+                }
             }
         },
         "forum": {
@@ -105,6 +182,9 @@
                 "flagged_as_spam_text": "Automaattinen roskapostin tunnistus — pistemäärä {score}"
             },
             "message": {
+                "profile": {
+                    "blocked": ""
+                },
                 "stopforumspam": {
                     "blocked": "Rekisteröintisi tiedot on löydetty roskapostin estotietokannasta, joten rekisteröintisi on estetty."
                 }

@@ -2,8 +2,8 @@
 
 Translations for French (`fr`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **124** are translated differently and **1151** are
-translated only in `fr`. Altogether they cover **57** components.
+sides, but do not match between them: **126** are translated differently and **1189** are
+translated only in `fr`. Altogether they cover **60** components.
 
 <!-- {% raw %} -->
 
@@ -15,8 +15,10 @@ translated only in `fr`. Altogether they cover **57** components.
 | `acpl-lscache` | [1](#acpl-lscache) | 0 |
 | `core` | [7](#core) | [3](#core-missing) |
 | `datitisev-backup` | [1](#datitisev-backup) | 0 |
+| `datlechin-keyboard-shortcuts` | [1](#datlechin-keyboard-shortcuts) | 0 |
 | `ekumanov-inline-audio` | [4](#ekumanov-inline-audio) | 0 |
 | `ekumanov-new-posts-notice` | [2](#ekumanov-new-posts-notice) | 0 |
+| `ffans-geetest` | [1](#ffans-geetest) | 0 |
 | `flarum-audit` | 0 | [93](#flarum-audit-missing) |
 | `flarum-extension-manager` | [2](#flarum-extension-manager) | 0 |
 | `flarum-sticky` | 0 | [1](#flarum-sticky-missing) |
@@ -42,6 +44,7 @@ translated only in `fr`. Altogether they cover **57** components.
 | `fof-open-collective` | [6](#fof-open-collective) | 0 |
 | `fof-photoswipe` | 0 | [5](#fof-photoswipe-missing) |
 | `fof-polls` | 0 | [27](#fof-polls-missing) |
+| `fof-pwa` | 0 | [38](#fof-pwa-missing) |
 | `fof-reactions` | [1](#fof-reactions) | 0 |
 | `fof-rich-text` | [6](#fof-rich-text) | 0 |
 | `fof-sentry` | [17](#fof-sentry) | 0 |
@@ -182,6 +185,18 @@ Modifier <del>le</del><ins>l'ordre</ins> <del>tri</del><ins>d'affichage</ins> <d
 Le nom d'hôte auquel se connecter avec FTP, <del>par</del><ins>p.</ins> <del>exemple</del><ins>ex.</ins> : &lt;em&gt;ftp.votredomaine.local&lt;/em&gt;.
 
 
+### `datlechin-keyboard-shortcuts`
+
+#### [`datlechin-keyboard-shortcuts.lib.shortcuts.signup`](https://weblate.rob006.net/translate/flarum2/datlechin-keyboard-shortcuts/fr/?q=context%3A%3D%22datlechin-keyboard-shortcuts.lib.shortcuts.signup%22)
+
+> Sign up
+
+```diff
+-Inscription
++S'inscrire
+```
+
+
 ### `ekumanov-inline-audio`
 
 #### [`ekumanov-inline-audio.admin.settings.auto_play`](https://weblate.rob006.net/translate/flarum2/ekumanov-inline-audio/fr/?q=context%3A%3D%22ekumanov-inline-audio.admin.settings.auto_play%22)
@@ -266,6 +281,20 @@ Masquer le préfixe numérique des noms de fichiers <del>téléchargés</del><in
 ```
 
 Une nouvelle réponse a été ajoutée pendant que vous écriviez.<br /><br /><del>Valider</del><ins>OK</ins> → Publier quand même votre réponse<br />Annuler →<del> La</del> <del>lire</del><ins>Lire</ins> d'abord<ins> la réponse qui a été ajoutée</ins> (votre brouillon reste ouvert)
+
+
+### `ffans-geetest`
+
+#### [`ffans-geetest.admin.settings.config.standalone_help_text`](https://weblate.rob006.net/translate/flarum2/ffans-geetest/fr/?q=context%3A%3D%22ffans-geetest.admin.settings.config.standalone_help_text%22)
+
+> Enable to use a standalone configuration for this scenario.
+
+```diff
+-Activer pour utiliser une configuration autonome pour ce scénario.
++Permettre l'utilisation d'une configuration autonome pour ce scénario.
+```
+
+<del>Activer pour</del><ins>Permettre</ins> <del>utiliser</del><ins>l'utilisation</ins> <del>une</del><ins>d'une</ins> configuration autonome pour ce scénario.
 
 
 ### `flarum-extension-manager`
@@ -5814,6 +5843,313 @@ These strings are translated only in `fr`, so there is nothing to inherit from F
 ```
 
 
+### `fof-pwa` (missing)
+
+#### [`flarum-gdpr.lib.data.pushsubscriptions.delete_description`](https://weblate.rob006.net/translate/flarum2/fof-pwa/fr/?q=context%3A%3D%22flarum-gdpr.lib.data.pushsubscriptions.delete_description%22)
+
+> Deletes all push notification subscriptions and device tokens associated with the user.
+
+```diff
++Supprime tous les abonnements aux notifications push et tous les jetons d'appareil associés à l'utilisateur.
+```
+
+#### [`flarum-gdpr.lib.data.pushsubscriptions.export_description`](https://weblate.rob006.net/translate/flarum2/fof-pwa/fr/?q=context%3A%3D%22flarum-gdpr.lib.data.pushsubscriptions.export_description%22)
+
+> Exports all push notification subscriptions and device tokens associated with the user.
+
+```diff
++Exporte tous les abonnements aux notifications push et tous les jetons d'appareil associés à l'utilisateur.
+```
+
+#### [`fof-pwa.admin.nav.pwa_button`](https://weblate.rob006.net/translate/flarum2/fof-pwa/fr/?q=context%3A%3D%22fof-pwa.admin.nav.pwa_button%22)
+
+> Progressive Web App
+
+```diff
++Application web progressive
+```
+
+#### [`fof-pwa.admin.pwa.about.description_label`](https://weblate.rob006.net/translate/flarum2/fof-pwa/fr/?q=context%3A%3D%22fof-pwa.admin.pwa.about.description_label%22)
+
+> Description
+
+```diff
++Description
+```
+
+#### [`fof-pwa.admin.pwa.about.description_text`](https://weblate.rob006.net/translate/flarum2/fof-pwa/fr/?q=context%3A%3D%22fof-pwa.admin.pwa.about.description_text%22)
+
+> You can set the description on the 'Basics' page in your admin dashboard.
+
+```diff
++Vous pouvez définir la description sur la page « Essentiels » de votre tableau de bord d'administration.
+```
+
+#### [`fof-pwa.admin.pwa.about.heading`](https://weblate.rob006.net/translate/flarum2/fof-pwa/fr/?q=context%3A%3D%22fof-pwa.admin.pwa.about.heading%22)
+
+> About
+
+```diff
++A propos
+```
+
+#### [`fof-pwa.admin.pwa.about.long_name_label`](https://weblate.rob006.net/translate/flarum2/fof-pwa/fr/?q=context%3A%3D%22fof-pwa.admin.pwa.about.long_name_label%22)
+
+> Long name
+
+```diff
++Nom long
+```
+
+#### [`fof-pwa.admin.pwa.about.long_name_text`](https://weblate.rob006.net/translate/flarum2/fof-pwa/fr/?q=context%3A%3D%22fof-pwa.admin.pwa.about.long_name_text%22)
+
+> The name of the web application displayed to the user.
+
+```diff
++Le nom de l'application web affichée à l’utilisateur.
+```
+
+#### [`fof-pwa.admin.pwa.about.short_name_label`](https://weblate.rob006.net/translate/flarum2/fof-pwa/fr/?q=context%3A%3D%22fof-pwa.admin.pwa.about.short_name_label%22)
+
+> Short name
+
+```diff
++Nom court
+```
+
+#### [`fof-pwa.admin.pwa.colors.background_color_label`](https://weblate.rob006.net/translate/flarum2/fof-pwa/fr/?q=context%3A%3D%22fof-pwa.admin.pwa.colors.background_color_label%22)
+
+> Background color
+
+```diff
++Couleur de l'arrière-plan
+```
+
+#### [`fof-pwa.admin.pwa.colors.heading`](https://weblate.rob006.net/translate/flarum2/fof-pwa/fr/?q=context%3A%3D%22fof-pwa.admin.pwa.colors.heading%22)
+
+> Colors
+
+```diff
++Couleurs
+```
+
+#### [`fof-pwa.admin.pwa.colors.theme_color_label`](https://weblate.rob006.net/translate/flarum2/fof-pwa/fr/?q=context%3A%3D%22fof-pwa.admin.pwa.colors.theme_color_label%22)
+
+> Theme color
+
+```diff
++Couleur du thème
+```
+
+#### [`fof-pwa.admin.pwa.firebase_config.heading`](https://weblate.rob006.net/translate/flarum2/fof-pwa/fr/?q=context%3A%3D%22fof-pwa.admin.pwa.firebase_config.heading%22)
+
+> Firebase
+
+```diff
++Firebase
+```
+
+#### [`fof-pwa.admin.pwa.firebase_config.upload_file`](https://weblate.rob006.net/translate/flarum2/fof-pwa/fr/?q=context%3A%3D%22fof-pwa.admin.pwa.firebase_config.upload_file%22)
+
+> Upload file
+
+```diff
++Transférer un fichier
+```
+
+#### [`fof-pwa.admin.pwa.heading`](https://weblate.rob006.net/translate/flarum2/fof-pwa/fr/?q=context%3A%3D%22fof-pwa.admin.pwa.heading%22)
+
+> Progressive Web App Configuration
+
+```diff
++Configuration de l'application web progressive
+```
+
+#### [`fof-pwa.admin.pwa.logo_heading`](https://weblate.rob006.net/translate/flarum2/fof-pwa/fr/?q=context%3A%3D%22fof-pwa.admin.pwa.logo_heading%22)
+
+> Logos and Icons
+
+```diff
++Logos et icônes
+```
+
+#### [`fof-pwa.admin.pwa.maintenance.debug_text`](https://weblate.rob006.net/translate/flarum2/fof-pwa/fr/?q=context%3A%3D%22fof-pwa.admin.pwa.maintenance.debug_text%22)
+
+> This will log info about notifications to \`storage/logs\`. It should generally be disabled to avoid filling up logs unnecessarily.
+
+```diff
++Cela enregistrera les informations sur les notifications dans « stockage/journaux ». Il doit généralement être désactivé pour éviter de remplir inutilement les journaux.
+```
+
+#### [`fof-pwa.admin.pwa.maintenance.heading`](https://weblate.rob006.net/translate/flarum2/fof-pwa/fr/?q=context%3A%3D%22fof-pwa.admin.pwa.maintenance.heading%22)
+
+> Maintenance
+
+```diff
++Maintenance
+```
+
+#### [`fof-pwa.admin.pwa.maintenance.reset_vapid_confirm`](https://weblate.rob006.net/translate/flarum2/fof-pwa/fr/?q=context%3A%3D%22fof-pwa.admin.pwa.maintenance.reset_vapid_confirm%22)
+
+> Resetting VAPID keys will remove any subscriptions using the existing keys, so users won't receive any notifications until the next time they visit your site. This should only be done when setting up push notifications for the first time, or if push notifications aren't working at all and there's a warning about missing VAPID keys above.
+
+```diff
++La réinitialisation des clés VAPID supprimera tous les abonnements utilisant les clés existantes, de sorte que les utilisateurs ne recevront aucune notification avant leur prochaine visite sur votre site. Cela ne doit être fait que lors de la configuration des notifications push pour la première fois, ou si les notifications push ne fonctionnent pas du tout et qu'il y a un avertissement concernant les clés VAPID manquantes ci-dessus.
+```
+
+#### [`fof-pwa.admin.pwa.maintenance.reset_vapid_success`](https://weblate.rob006.net/translate/flarum2/fof-pwa/fr/?q=context%3A%3D%22fof-pwa.admin.pwa.maintenance.reset_vapid_success%22)
+
+> Successfully reset VAPID keys. {count} subscriptions were reset. Reload the page to see an updated status check report.
+
+```diff
++Les clés VAPID ont été réinitialisées avec succès. {count} abonnements ont été réinitialisés. Veuillez recharger la page pour voir un rapport de contrôle d'état mis à jour.
+```
+
+#### [`fof-pwa.admin.pwa.other.heading`](https://weblate.rob006.net/translate/flarum2/fof-pwa/fr/?q=context%3A%3D%22fof-pwa.admin.pwa.other.heading%22)
+
+> Other
+
+```diff
++Autre
+```
+
+#### [`fof-pwa.admin.pwa.refreshed_message`](https://weblate.rob006.net/translate/flarum2/fof-pwa/fr/?q=context%3A%3D%22fof-pwa.admin.pwa.refreshed_message%22)
+
+> PWA config refreshed successfully.
+
+```diff
++La configuration de l'application web progressive a été actualisée.
+```
+
+#### [`fof-pwa.admin.pwa.status_check_heading`](https://weblate.rob006.net/translate/flarum2/fof-pwa/fr/?q=context%3A%3D%22fof-pwa.admin.pwa.status_check_heading%22)
+
+> Status Check
+
+```diff
++Vérification du statut
+```
+
+#### [`fof-pwa.admin.pwa.submit_button`](https://weblate.rob006.net/translate/flarum2/fof-pwa/fr/?q=context%3A%3D%22fof-pwa.admin.pwa.submit_button%22)
+
+> Save Settings
+
+```diff
++Enregistrer les paramètres
+```
+
+#### [`fof-pwa.admin.status.no_logo`](https://weblate.rob006.net/translate/flarum2/fof-pwa/fr/?q=context%3A%3D%22fof-pwa.admin.status.no_logo%22)
+
+> You must upload at least one logo, with a size of at least 144x144px, for the PWA to be installable.
+
+```diff
++Vous devez transférer au moins un logo, d'une taille minimale de 144x144 pixels, pour que l'application web progressive puisse être installée.
+```
+
+#### [`fof-pwa.admin.status.no_name`](https://weblate.rob006.net/translate/flarum2/fof-pwa/fr/?q=context%3A%3D%22fof-pwa.admin.status.no_name%22)
+
+> You must provide a full name for your app to work.
+
+```diff
++Vous devez fournir un nom complet pour que votre application fonctionne.
+```
+
+#### [`fof-pwa.forum.discussion_controls.share_button`](https://weblate.rob006.net/translate/flarum2/fof-pwa/fr/?q=context%3A%3D%22fof-pwa.forum.discussion_controls.share_button%22)
+
+> Share
+
+```diff
++Partager
+```
+
+#### [`fof-pwa.forum.post_controls.share_button`](https://weblate.rob006.net/translate/flarum2/fof-pwa/fr/?q=context%3A%3D%22fof-pwa.forum.post_controls.share_button%22)
+
+> Share
+
+```diff
++Partager
+```
+
+#### [`fof-pwa.forum.settings.push_header`](https://weblate.rob006.net/translate/flarum2/fof-pwa/fr/?q=context%3A%3D%22fof-pwa.forum.settings.push_header%22)
+
+> Push
+
+```diff
++Pousser
+```
+
+#### [`fof-pwa.forum.settings.pwa_notifications.access_default`](https://weblate.rob006.net/translate/flarum2/fof-pwa/fr/?q=context%3A%3D%22fof-pwa.forum.settings.pwa_notifications.access_default%22)
+
+> Due to browser restrictions, you must opt in to receive push notifications on this device.
+
+```diff
++En raison de restrictions liées au navigateur, vous devez accepter de recevoir les notifications poussées sur cet appareil.
+```
+
+#### [`fof-pwa.forum.settings.pwa_notifications.access_default_button`](https://weblate.rob006.net/translate/flarum2/fof-pwa/fr/?q=context%3A%3D%22fof-pwa.forum.settings.pwa_notifications.access_default_button%22)
+
+> Opt In
+
+```diff
++Participer
+```
+
+#### [`fof-pwa.forum.settings.pwa_notifications.access_denied`](https://weblate.rob006.net/translate/flarum2/fof-pwa/fr/?q=context%3A%3D%22fof-pwa.forum.settings.pwa_notifications.access_denied%22)
+
+> You must adjust your browser settings to receive push notifications on this device.
+
+```diff
++Vous devez régler les paramètres de votre navigateur pour recevoir des notifications poussées sur cet appareil.
+```
+
+#### [`fof-pwa.forum.settings.pwa_notifications.access_denied_button`](https://weblate.rob006.net/translate/flarum2/fof-pwa/fr/?q=context%3A%3D%22fof-pwa.forum.settings.pwa_notifications.access_denied_button%22)
+
+> Learn How
+
+```diff
++Apprendre comment faire
+```
+
+#### [`fof-pwa.forum.settings.pwa_notifications.no_browser_support`](https://weblate.rob006.net/translate/flarum2/fof-pwa/fr/?q=context%3A%3D%22fof-pwa.forum.settings.pwa_notifications.no_browser_support%22)
+
+> This browser does not support push notifications for progressive web apps.
+
+```diff
++Ce navigateur ne prend pas en charge les notifications poussées pour les applications web progressives.
+```
+
+#### [`fof-pwa.forum.settings.pwa_notifications.no_browser_support_button`](https://weblate.rob006.net/translate/flarum2/fof-pwa/fr/?q=context%3A%3D%22fof-pwa.forum.settings.pwa_notifications.no_browser_support_button%22)
+
+> Learn More
+
+```diff
++En savoir plus
+```
+
+#### [`fof-pwa.forum.user_controls.share_button`](https://weblate.rob006.net/translate/flarum2/fof-pwa/fr/?q=context%3A%3D%22fof-pwa.forum.user_controls.share_button%22)
+
+> Share
+
+```diff
++Partager
+```
+
+#### [`fof-pwa.views.offline.header`](https://weblate.rob006.net/translate/flarum2/fof-pwa/fr/?q=context%3A%3D%22fof-pwa.views.offline.header%22)
+
+> Network connection error
+
+```diff
++Erreur de connexion réseau
+```
+
+#### [`fof-pwa.views.offline.text`](https://weblate.rob006.net/translate/flarum2/fof-pwa/fr/?q=context%3A%3D%22fof-pwa.views.offline.text%22)
+
+> This app requires a network connection; it cannot be used offline. Please check your connection.
+
+```diff
++Cette application nécessite une connexion réseau ; elle ne peut pas être utilisée hors ligne. Veuillez vérifier votre connexion.
+```
+
+
 ### `fof-seo` (missing)
 
 #### [`fof-seo.admin.common.close`](https://weblate.rob006.net/translate/flarum2/fof-seo/fr/?q=context%3A%3D%22fof-seo.admin.common.close%22)
@@ -10157,7 +10493,7 @@ These strings are translated only in `fr`, so there is nothing to inherit from F
 > Wrap the shortcode in colons and use only letters, numbers, and \_ + - (e.g. :myemoji\_partyparrot:).
 
 ```diff
-+Enveloppez le code court entre deux deux-points et utilisez uniquement des lettres, des chiffres et les caractères _ + - (p. ex. :myemoji_partyparrot:).
++Encadrez le code court entre deux deux-points et utilisez uniquement des lettres, des chiffres et les caractères _ + - (p. ex. :myemoji_partyparrot:).
 ```
 
 #### [`pianotell-flamoji.admin.custom_emojis_section.edit_emoji.submit_button`](https://weblate.rob006.net/translate/flarum2/pianotell-flamoji/fr/?q=context%3A%3D%22pianotell-flamoji.admin.custom_emojis_section.edit_emoji.submit_button%22)

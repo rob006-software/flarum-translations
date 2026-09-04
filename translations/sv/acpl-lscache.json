@@ -1,38 +1,38 @@
 {
     "acpl-lscache": {
         "admin": {
-            "cache_enabled_label": "",
-            "cache_enabled_help": "",
-            "public_cache_ttl_label": "",
-            "public_cache_ttl_help": "",
-            "clearing_cache_listener_label": "",
-            "serve_stale_label": "",
-            "serve_stale_help": "",
-            "purge_on_discussion_update_label": "",
-            "purge_on_discussion_update_help": "",
-            "cache_exclude_label": "",
-            "cache_exclude_help": "",
-            "drop_qs_label": "",
-            "drop_qs_help": "",
-            "status_codes_cache_label": "",
-            "status_codes_cache_help": "",
-            "purge_all": "",
-            "test_failed_alert": "",
+            "cache_enabled_label": "Aktivera LSCache",
+            "cache_enabled_help": "Se <a>informationssidan</a> om hur du testar cachen. OBS! När cachen inaktiveras kommer all cachad data för denna webbplats att rensas.",
+            "public_cache_ttl_label": "Standard-TTL för publik cache",
+            "public_cache_ttl_help": "Ange hur länge (i sekunder) publika sidor ska cachelagras. Standardvärdet är 604800 sekunder (en vecka).",
+            "clearing_cache_listener_label": "Rensa LSCache när Flarum-cachen rensas",
+            "serve_stale_label": "Visa föråldrat innehåll",
+            "serve_stale_help": "Om funktionen är aktiverad visas en föråldrad version av en cachad sida för besökare fram till dess att en ny kopia har skapats i cachen. Detta minskar serverbelastningen. Om funktionen är inaktiverad genereras sidan dynamiskt under cacheuppdateringen, vilket kan leda till längre väntetider. Det ligger i funktionens natur att kunna visa inaktuellt innehåll; aktivera den därför inte om du anser att detta är oacceptabelt.",
+            "purge_on_discussion_update_label": "Rensa webbadresser eller cache-taggar vid uppdatering av diskussion",
+            "purge_on_discussion_update_help": "Ange de webbadresser eller cache-taggar som ska rensas när en diskussion uppdateras, en per rad. Webbadresser ska börja med <code>/</code> (t.ex. <code>/rankings</code>) och cache-taggar ska börja med <code>tag=</code> (t.ex. <code>tag=rankings</code>). Om det rör sig om flera sökvägar är det snabbare att lägga till en regel i .htaccess med ett reguljärt uttryck som taggar sökvägarna, och sedan bara ange denna tagg här. <a>Läs mer</a>. Som standard rensas cachen för startsidan och uppdaterade diskussioner.",
+            "cache_exclude_label": "Undanta sökvägar från cachning",
+            "cache_exclude_help": "Sökvägar som innehåller dessa strängar kommer inte att cachelagras. För <code>/mypath/mypage?aa=bb</code> kan du använda <code>mypage?aa=</code>. För att matcha början lägger du till <code>^</code> i början. För en exakt matchning lägger du till <code>$</code> i slutet av webbadressen. En per rad.",
+            "drop_qs_label": "Ta bort frågesträngar",
+            "drop_qs_help": "Använd den här funktionen för att exkludera specifika frågesträngar, som <code>fbclid</code> eller <code>utm*</code>, vid cachning. Detta förhindrar redundant cachning av sidor med \"skräp\"-frågesträngar – exempelvis UTM-koder – som används för spårning men inte påverkar sidans innehåll. Funktionen kräver LSWS v5.2.3 eller senare. Ange de frågesträngar som ska exkluderas, en per rad. <a>Läs mer om att exkludera frågesträngar</a>.<br></br>\n⚠️ Denna inställning kommer att ändra filen .htaccess.\n",
+            "status_codes_cache_label": "Standard-TTL för HTTP-statuskodssida",
+            "status_codes_cache_help": "Ange en HTTP-statuskod och antalet sekunder som sidan ska cachelagras, separerade med ett mellanslag. En per rad.",
+            "purge_all": "=> acpl-lscache.ref.purge_cache",
+            "test_failed_alert": "Det verkar som att din server inte stöder LSCache. Kontrollera serverkonfigurationen. Identifierad server: <b>{server}</b>, identifierad LiteSpeed-typ: <b>{type}</b>.",
             "permissions": {
-                "purge": ""
+                "purge": "=> acpl-lscache.ref.purge_cache"
             }
         },
         "forum": {
             "purge": {
-                "discussion": ""
+                "discussion": "=> acpl-lscache.ref.purge_cache"
             }
         },
         "lib": {
-            "purge_success": "",
-            "purge_all_success": ""
+            "purge_success": "Meddelade LiteSpeed-servern att rensa LSCache-poster.",
+            "purge_all_success": "Meddelade LiteSpeed-servern att rensa alla LSCache-poster."
         },
         "ref": {
-            "purge_cache": ""
+            "purge_cache": "Rensa LSCache"
         }
     }
 }

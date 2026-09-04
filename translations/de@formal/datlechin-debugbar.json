@@ -1,212 +1,212 @@
 {
     "datlechin-debugbar": {
         "lib": {
-            "expand": "",
-            "collapse": "",
-            "resize": "",
-            "empty": "",
-            "no_matches": "",
-            "blank": "",
-            "yes": "",
-            "no": "",
-            "filter_placeholder": "",
+            "expand": "Debugleiste anzeigen",
+            "collapse": "Debugleiste verbergen",
+            "resize": "Größe der Debugleiste anpassen",
+            "empty": "Nichts aufgezeichnet.",
+            "no_matches": "Nichts trifft darauf zu.",
+            "blank": "leer",
+            "yes": "Ja",
+            "no": "Nein",
+            "filter_placeholder": "Filter…",
             "tabs": {
-                "timeline": "",
-                "queries": "",
-                "messages": "",
-                "request": "",
-                "events": "",
-                "cache": "",
-                "mail": "",
-                "settings": "",
-                "extensions": "",
-                "environment": ""
+                "timeline": "Zeitachse",
+                "queries": "Abfragen",
+                "messages": "Nachrichten",
+                "request": "Anforderungen",
+                "events": "Ereignisse",
+                "cache": "Cache",
+                "mail": "Mail",
+                "settings": "Einstellungen",
+                "extensions": "Erweiterungen",
+                "environment": "Umgebung"
             },
             "summary": {
-                "duration": "",
-                "queries": "",
-                "memory": "",
-                "round_trip": ""
+                "duration": "Auf dem Server verbrachte Zeit",
+                "queries": "Datenbankabfragen",
+                "memory": "Maximal genutzter Speicher",
+                "round_trip": "Round-Trip-Zeit, gemessen im Browser"
             },
             "errors": {
-                "expired": "",
-                "failed": "",
-                "no_data": ""
+                "expired": "Dieses Profil wird nicht mehr gespeichert. Es werden nur die letzten Anfragen aufbewahrt.",
+                "failed": "Das Profil konnte nicht geladen werden.",
+                "no_data": "Für diese Anforderung wurde nichts erfasst."
             },
             "requests": {
-                "toggle": "",
-                "none": "",
-                "document": ""
+                "toggle": "Wähle eine Anforderung",
+                "none": "Keine Anforderung",
+                "document": "Laden der Seite"
             },
             "timeline": {
-                "total": "",
-                "measures": "",
-                "unfinished": "",
-                "empty": "",
+                "total": "Insgesamt",
+                "measures": "Zeiträume",
+                "unfinished": "(unvollständig)",
+                "empty": "Für diese Anforderung wurde nichts gemessen.",
                 "spans": {
                     "flarum": {
-                        "boot": "",
-                        "request": "",
-                        "route": ""
+                        "boot": "Boot",
+                        "request": "Middleware und Route",
+                        "route": "Routenhandler"
                     }
                 }
             },
             "queries": {
-                "count": "",
-                "duration": "",
-                "duplicates": "",
-                "filter": "",
-                "preview": "",
-                "bindings": "",
-                "connection": "",
-                "origin": "",
-                "occurrences": "",
-                "dropped": "",
-                "empty": ""
+                "count": "Abfragen",
+                "duration": "Gesamtzeit",
+                "duplicates": "Dopplungen",
+                "filter": "Aussagen filtern…",
+                "preview": "Mit Parametern",
+                "bindings": "Parameter",
+                "connection": "Verbindung",
+                "origin": "Aufgerufen von",
+                "occurrences": "Genau diese Anweisung wurde während dieser Anfrage {count} Mal ausgeführt.",
+                "dropped": "{count} weitere Aussagen wurden nicht aufgezeichnet.",
+                "empty": "Diese Anforderung hat keine Abfragen ausgeführt."
             },
             "messages": {
-                "filter": "",
-                "show_trace": "",
-                "hide_trace": "",
-                "empty": "",
+                "filter": "Nachrichten filtern…",
+                "show_trace": "Verlauf anzeigen",
+                "hide_trace": "Verlauf ausblenden",
+                "empty": "Für diese Anforderung wurde nichts protokolliert.",
                 "levels": {
-                    "debug": "",
-                    "info": "",
-                    "warning": "",
-                    "error": ""
+                    "debug": "Debug",
+                    "info": "Info",
+                    "warning": "Warnung",
+                    "error": "Fehler"
                 }
             },
             "request": {
-                "method": "",
-                "uri": "",
-                "status": "",
-                "route": "",
-                "handler": "",
-                "internal": "",
-                "user": "",
-                "guest": "",
-                "admin": "",
-                "groups": "",
-                "authentication": "",
+                "method": "Methode",
+                "uri": "URI",
+                "status": "Status",
+                "route": "Route",
+                "handler": "Handler",
+                "internal": "Interner Versand",
+                "user": "Benutzer",
+                "guest": "Gast",
+                "admin": "Administrator",
+                "groups": "Gruppen",
+                "authentication": "Authorisiert durch",
                 "sections": {
-                    "overview": "",
-                    "actor": "",
-                    "parameters": "",
-                    "query": "",
-                    "json_api": "",
-                    "request_headers": "",
-                    "response_headers": ""
+                    "overview": "Übersicht",
+                    "actor": "Akteur",
+                    "parameters": "Routenparameter",
+                    "query": "Abfragezeichenfolge",
+                    "json_api": "JSON:API",
+                    "request_headers": "Anforderungs-Header",
+                    "response_headers": "Antwort-Header"
                 }
             },
             "events": {
-                "count": "",
-                "listed": "",
-                "filter": "",
-                "dropped": "",
-                "collapsed_title": "",
-                "collapsed_help": "",
-                "empty": ""
+                "count": "Versandt",
+                "listed": "Aufgeführt",
+                "filter": "Ereignisse filtern…",
+                "dropped": "{count} weitere Ereignisse wurden nicht gespeichert.",
+                "collapsed_title": "Gezählt, nicht aufgeführt",
+                "collapsed_help": "Modell- und Datenbankereignisse werden pro Anforderung hunderte Male ausgelöst. Im Bereich „Abfragen“ wird angezeigt, welche Datenbankereignisse stattgefunden haben.",
+                "empty": "Bei dieser Anforderung wurden keine Ereignisse ausgelöst."
             },
             "cache": {
-                "hit_rate": "",
-                "filter": "",
-                "dropped": "",
-                "empty": "",
+                "hit_rate": "Trefferquote",
+                "filter": "Schlüssel filtern…",
+                "dropped": "{count} weitere Operationen wurden nicht gespeichert.",
+                "empty": "Diese Anforderung hat nicht auf den Cache zugegriffen.",
                 "types": {
-                    "hit": "",
-                    "miss": "",
-                    "write": "",
-                    "forget": "",
-                    "flush": ""
+                    "hit": "Treffer",
+                    "miss": "Fehlschlag",
+                    "write": "Schreiben",
+                    "forget": "Vergessen",
+                    "flush": "Leeren"
                 }
             },
             "mail": {
-                "count": "",
-                "show": "",
-                "hide": "",
-                "empty": "",
+                "count": "E-Mails",
+                "show": "Anzeigen",
+                "hide": "Verbergen",
+                "empty": "Bei dieser Anforderung wurde keine E-Mail versendet.",
                 "statuses": {
-                    "sending": "",
-                    "sent": ""
+                    "sending": "Wird gesendet",
+                    "sent": "Gesendet"
                 },
                 "headers": {
-                    "from": "",
-                    "to": "",
-                    "cc": "",
-                    "bcc": "",
-                    "reply_to": ""
+                    "from": "Von",
+                    "to": "An",
+                    "cc": "Cc",
+                    "bcc": "Bcc",
+                    "reply_to": "Antwort an"
                 }
             },
             "settings": {
-                "count": "",
-                "groups": "",
-                "filter": "",
-                "redacted": "",
-                "empty": ""
+                "count": "Einstellungen",
+                "groups": "Gruppen",
+                "filter": "Schlüssel filtern…",
+                "redacted": "Dieser Wert ist ausgeblendet, da sein Schlüssel wie eine Anmeldeinformation aussieht.",
+                "empty": "Keine Einstellungen sind gespeichert."
             },
             "extensions": {
-                "enabled": "",
-                "installed": "",
-                "filter": "",
-                "empty": "",
+                "enabled": "Aktiviert",
+                "installed": "Installiert",
+                "filter": "Erweiterungen filtern…",
+                "empty": "Es sind keine Erweiterungen installiert.",
                 "columns": {
-                    "id": "",
-                    "title": "",
-                    "version": "",
-                    "dependencies": ""
+                    "id": "Erweiterung",
+                    "title": "Name",
+                    "version": "Version",
+                    "dependencies": "Abhängig von"
                 }
             },
             "environment": {
-                "empty": "",
+                "empty": "Es gibt nichts zu berichten.",
                 "groups": {
-                    "flarum": "",
-                    "php": "",
-                    "drivers": ""
+                    "flarum": "Flarum",
+                    "php": "PHP",
+                    "drivers": "Treiber"
                 },
                 "keys": {
-                    "version": "",
-                    "url": "",
-                    "debug": "",
-                    "maintenance": "",
-                    "sapi": "",
-                    "memory_limit": "",
-                    "max_execution_time": "",
-                    "opcache": "",
-                    "timezone": "",
-                    "database": "",
-                    "cache": "",
-                    "queue": "",
-                    "session": "",
-                    "mail": ""
+                    "version": "Version",
+                    "url": "URL",
+                    "debug": "Debugmodus",
+                    "maintenance": "Wartung",
+                    "sapi": "Oberfläche",
+                    "memory_limit": "Speicherlimit",
+                    "max_execution_time": "Maximale Ausführungsdauer",
+                    "opcache": "OPcache",
+                    "timezone": "Zeitzone",
+                    "database": "Datenbank",
+                    "cache": "Cache",
+                    "queue": "Warteschlange",
+                    "session": "Sitzung",
+                    "mail": "Mail"
                 }
             }
         },
         "admin": {
             "debug_mode": {
-                "on": "",
-                "off": ""
+                "on": "Der Debugmodus ist aktiviert, daher wird die Debug-Leiste angezeigt. Administratoren sehen sie am unteren Rand jeder Seite.",
+                "off": "Die Debug-Leiste wird nur angezeigt, wenn der Debug-Modus aktiviert ist. Setze `‚debug‘ => true` in der Datei config.php, um sie zu aktivieren."
             },
             "max_profiles": {
-                "label": "",
-                "help": ""
+                "label": "Anforderungen, die behalten werden sollen",
+                "help": "Wie viele der letzten Anforderungen in der Leiste sichtbar bleiben sollen. Ältere werden gelöscht, sobald neue hinzukommen."
             },
             "trace_queries": {
-                "label": "",
-                "help": ""
+                "label": "Protokollieren, woher die Abfragen stammen",
+                "help": "Zeigt die Zeile des Anwendungscodes an, in der die jeweilige Abfrage ausgeführt wurde. Dies ist die nützlichste Information, die das Abfragefenster anzeigt, und gleichzeitig der rechenintensivste Vorgang der Debug-Leiste."
             },
             "open_by_default": {
-                "label": "",
-                "help": ""
+                "label": "Ausgeklappt starten",
+                "help": "Die Leiste soll auf jeder Seite bis zum letzten Feld geöffnet sein und nicht bis zum Griff zusammengeklappt sein."
             },
             "collectors": {
-                "label": "",
-                "help": ""
+                "label": "Paneele",
+                "help": "Schalte alles aus, was du nicht benötigst. Ein ausgeschaltetes Paneel sammelt überhaupt nichts, nicht einmal einen Listener, und verursacht daher keine Kosten."
             },
             "storage": {
-                "label": "",
-                "help": "",
-                "clear": "",
-                "cleared": ""
+                "label": "Gespeicherte Anfragen",
+                "help": "Die Profile werden in „storage/debugbar“ gespeichert. Sie enthalten Einstellungen, SQL-Anweisungen und Anforderungs-Header; lösche diese daher, bevor du eine Entwicklungsseite freigibst.",
+                "clear": "Gespeicherte Anforderungen löschen",
+                "cleared": "{count} gespeicherte Anforderungen gelöscht."
             }
         }
     }

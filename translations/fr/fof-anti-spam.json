@@ -12,6 +12,8 @@
                     "enabled_label": "Activer le filtrage de contenu",
                     "enabled_help": "Lorsque cette option est activée, les publications et les discussions des nouveaux utilisateurs seront analysées afin de détecter tout indicateur de spam.",
                     "user_targeting_heading": "Ciblage des utilisateurs",
+                    "monitor_all_users_label": "Surveiller tous les utilisateurs",
+                    "monitor_all_users_help": "",
                     "monitor_post_count_label": "Surveiller les utilisateurs jusqu'au nombre de messages",
                     "monitor_post_count_help": "Analysez uniquement le contenu des utilisateurs qui ont publié moins de ce nombre de messages. Définissez cette valeur sur 0 pour désactiver la vérification du nombre de messages.",
                     "monitor_hours_old_label": "Surveillez les utilisateurs jusqu'à plusieurs heures après leur création",
@@ -75,6 +77,13 @@
                     "region_us_label": "États-Unis d'Amérique",
                     "confidence_label": "Confiance",
                     "confidence_help": "Le niveau de confiance est un indicateur raisonnablement bon que le champ testé entraînera une activité indésirable. Définissez votre niveau de confiance en pourcentage. Si le champ est égal ou supérieur à ce chiffre, l'inscription sera bloquée, indépendamment du test de « fréquence » ci-dessus.",
+                    "blocked_asns_label": "Numéros de système autonome (ASN) bloqués",
+                    "blocked_asns_help": "Une par ligne, ou séparées par des virgules. Les inscriptions provenant de ces réseaux sont systématiquement refusées, que l'adresse figure dans la liste ou non. StopForumSpam renvoie le numéro de réseau à chaque requête, et presque personne ne navigue sur un forum depuis un hébergeur. Accepte 31272 ou AS31272. Laissez ce champ vide pour enregistrer le réseau sans prendre de mesure.",
+                    "max_listing_age_label": "Ignorer les listes anciennes de plus de (en jours)",
+                    "max_listing_age_help": "Une observation datant d'il y a plusieurs années ne nous apprend pas grand-chose sur la personne qui s'inscrit aujourd'hui. 0 conserve toutes les inscriptions, quelle que soit leur ancienneté. Les domaines et réseaux figurant sur la liste noire sont toujours pris en compte, indépendamment de cela.",
+                    "registration_throttle_label": "Nombre de secondes entre deux inscriptions provenant d'une même adresse",
+                    "registration_throttle_help": "Flarum limite la fréquence à laquelle une personne peut publier des messages, mais pas celle à laquelle elle peut créer des comptes. La valeur 0 désactive cette restriction. Gardez à l'esprit que les bureaux, les écoles et les réseaux mobiles partagent une même adresse entre de nombreuses personnes.",
+                    "lookup_failed": "Impossible d'accéder à StopForumSpam (dernier échec : {when}). Les inscriptions sont autorisées sans vérification jusqu'à ce que le service soit rétabli.",
                     "email_hash_label": "Utiliser une adresse électronique hachée",
                     "email_hash_help": "Transmettez un hachage MD5 de l'adresse de courriel si vous souhaitez ne pas transmettre l'adresse électronique elle-même. Cette méthode permet de contourner tous les contrôles de listes noires, de normalisation et de contournement de l'obscurcissement.",
                     "block_tor_exit_nodes_label": "Bloquer les nœuds de sortie Tor",
@@ -84,6 +93,19 @@
                     "report_blocked_registrations_label": "Signaler les inscriptions bloquées",
                     "report_blocked_registrations_help": "Lorsqu'une inscription est bloquée par la fonction de consultation des inscriptions, la tentative est signalée à StopForumSpam afin de mieux confirmer l'activité indésirable. Une clé API StopForumSpam doit être définie (voir ci-dessous)."
                 }
+            },
+            "statistics": {
+                "heading": "Protection anti-spam",
+                "total_label": "Total",
+                "registrations_blocked": "Inscriptions bloquées",
+                "users_marked": "Utilisateurs signalés comme spammeurs",
+                "posts_flagged": "Messages signalés comme spam",
+                "awaiting_review": "Signalements en attente de révision",
+                "this_week": "{count, plural, one {# cette semaine} other {# cette semaine}}",
+                "vs_last_week": "Par rapport aux sept jours précédents",
+                "top_reason": "",
+                "view_all": "Afficher les inscriptions bloquées",
+                "failed": "Impossible de charger les statistiques relatives au spam."
             },
             "blocked_registrations": {
                 "button": "Inscriptions bloquées",
@@ -97,7 +119,62 @@
                 "login-provider": "Fournisseur d'accès",
                 "login-provider-data": "Données du fournisseur de connexion",
                 "sfs-data": "Données de StopForumSpam",
-                "delete_entry": "Supprimer l'entrée"
+                "reasons": "Motifs de blocage enregistrés",
+                "delete_entry": "Supprimer l'entrée",
+                "total": "{count, plural, one {# inscription bloquée} other {# inscriptions bloquées}}",
+                "filters": {
+                    "placeholder": "Rechercher ou filtrer par clé:valeur",
+                    "apply": "Appliquer",
+                    "clear": "Effacer la recherche",
+                    "hint": "Filtres :",
+                    "no-matches": "Aucune inscription bloquée ne correspond à cette recherche.",
+                    "help": {
+                        "toggle": "Aide à la recherche",
+                        "multiple": "Combinez les filtres en les séparant par des espaces.",
+                        "negate": "Préfixez un filtre avec « - » pour exclure les résultats correspondants, p. ex. -provider:github",
+                        "ip": "",
+                        "email": "",
+                        "username": "",
+                        "provider": "",
+                        "reason": "",
+                        "attemptedAt": ""
+                    }
+                },
+                "evidence": {
+                    "label": "Pourquoi celle-ci a été bloquée",
+                    "none": "Aucune donnée StopForumSpam n'a été enregistrée pour cette tentative.",
+                    "lookup_failed": "",
+                    "blocked_by": "Bloquée par",
+                    "rule": {
+                        "confidence": "Seuil de confiance",
+                        "frequency": "Seuil de signalement",
+                        "blacklisted": "Sur la liste noire",
+                        "torExit": "Nœud de sortie Tor",
+                        "deniedAsn": "Réseau refusé"
+                    },
+                    "field": {
+                        "ip": "IP",
+                        "email": "Courriel",
+                        "username": "Nom d'utilisateur"
+                    },
+                    "badge": {
+                        "blacklisted": "Sur la liste noire",
+                        "tor_exit": "Nœud de sortie Tor",
+                        "not_listed": "",
+                        "confidence": "{value} % de confiance",
+                        "frequency": "",
+                        "last_seen": "dernière connexion {when}",
+                        "asn": "AS{asn}",
+                        "normalized": ""
+                    }
+                },
+                "raw_data": {
+                    "button": "Afficher les données brutes",
+                    "title": "Données brutes enregistrées",
+                    "copy": "Copier",
+                    "copied": "Copiée dans le presse-papiers.",
+                    "copy_failed": "Impossible de copier dans le presse-papiers."
+                }
             }
         },
         "forum": {
@@ -105,6 +182,9 @@
                 "flagged_as_spam_text": "Détection automatique des spams - score {score}"
             },
             "message": {
+                "profile": {
+                    "blocked": "Cela ressemble à du spam, c'est pourquoi il n'a pas été enregistré. Veuillez supprimer tous les liens et coordonnées, puis réessayez."
+                },
                 "stopforumspam": {
                     "blocked": "Les détails de votre inscription ont été trouvés dans une base de données de prévention des utilisateurs indésirables, et votre inscription a donc été bloquée."
                 }

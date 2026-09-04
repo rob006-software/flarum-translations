@@ -12,6 +12,8 @@
                     "enabled_label": "",
                     "enabled_help": "",
                     "user_targeting_heading": "",
+                    "monitor_all_users_label": "",
+                    "monitor_all_users_help": "",
                     "monitor_post_count_label": "",
                     "monitor_post_count_help": "",
                     "monitor_hours_old_label": "",
@@ -75,6 +77,13 @@
                     "region_us_label": "Sjedinjene Američke Države",
                     "confidence_label": "Vjerojatnost (Confidence)",
                     "confidence_help": "Ocjena vjerojatnosti je prilično dobar pokazatelj da bi testirano polje moglo rezultirati neželjenom aktivnošću. Postavite razinu vjerojatnosti u postocima. Ako je polje jednako ili iznad ove vrijednosti, registracija će biti blokirana, bez obzira na gore navedeni test učestalosti.",
+                    "blocked_asns_label": "",
+                    "blocked_asns_help": "",
+                    "max_listing_age_label": "",
+                    "max_listing_age_help": "",
+                    "registration_throttle_label": "",
+                    "registration_throttle_help": "",
+                    "lookup_failed": "",
                     "email_hash_label": "Koristi hash e-mail adrese",
                     "email_hash_help": "Pošaljite MD5 hash e-mail adrese ako ne želite slati samu e-mail adresu. Ova metoda zaobilazi sve crne liste, normalizaciju i provjere zaobilaženja obfuskacije.",
                     "block_tor_exit_nodes_label": "",
@@ -84,6 +93,19 @@
                     "report_blocked_registrations_label": "Prijavi blokirane registracije",
                     "report_blocked_registrations_help": "Kada je registracija blokirana značajkom provjere registracija, prijavit ćemo pokušaj servisu StopForumSpam kako bi se aktivnost spamera mogla bolje potvrditi. Zahtijeva postavljen StopForumSpam API ključ (vidi ispod)."
                 }
+            },
+            "statistics": {
+                "heading": "",
+                "total_label": "",
+                "registrations_blocked": "",
+                "users_marked": "",
+                "posts_flagged": "",
+                "awaiting_review": "",
+                "this_week": "",
+                "vs_last_week": "",
+                "top_reason": "",
+                "view_all": "",
+                "failed": ""
             },
             "blocked_registrations": {
                 "button": "Blokirane registracije",
@@ -97,7 +119,62 @@
                 "login-provider": "Pružatelj prijave",
                 "login-provider-data": "Podaci pružatelja prijave",
                 "sfs-data": "StopForumSpam podaci",
-                "delete_entry": "Obriši zapis"
+                "reasons": "",
+                "delete_entry": "Obriši zapis",
+                "total": "",
+                "filters": {
+                    "placeholder": "",
+                    "apply": "",
+                    "clear": "",
+                    "hint": "",
+                    "no-matches": "",
+                    "help": {
+                        "toggle": "",
+                        "multiple": "",
+                        "negate": "",
+                        "ip": "",
+                        "email": "",
+                        "username": "",
+                        "provider": "",
+                        "reason": "",
+                        "attemptedAt": ""
+                    }
+                },
+                "evidence": {
+                    "label": "",
+                    "none": "",
+                    "lookup_failed": "",
+                    "blocked_by": "",
+                    "rule": {
+                        "confidence": "",
+                        "frequency": "",
+                        "blacklisted": "",
+                        "torExit": "",
+                        "deniedAsn": ""
+                    },
+                    "field": {
+                        "ip": "",
+                        "email": "",
+                        "username": ""
+                    },
+                    "badge": {
+                        "blacklisted": "",
+                        "tor_exit": "",
+                        "not_listed": "",
+                        "confidence": "",
+                        "frequency": "",
+                        "last_seen": "",
+                        "asn": "",
+                        "normalized": ""
+                    }
+                },
+                "raw_data": {
+                    "button": "",
+                    "title": "",
+                    "copy": "",
+                    "copied": "",
+                    "copy_failed": ""
+                }
             }
         },
         "forum": {
@@ -105,6 +182,9 @@
                 "flagged_as_spam_text": ""
             },
             "message": {
+                "profile": {
+                    "blocked": ""
+                },
                 "stopforumspam": {
                     "blocked": "Podaci iz vaše registracije pronađeni su u bazi podataka za sprječavanje spama, stoga je vaša registracija blokirana."
                 }

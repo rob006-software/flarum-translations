@@ -126,6 +126,8 @@
             "ruleset_custom_color_transparent": "",
             "ruleset_no_icon": "",
             "ruleset_scope_type": "",
+            "ruleset_post_context": "",
+            "ruleset_post_context_help": "",
             "ruleset_scope_tags": "",
             "ruleset_primary_tags": "",
             "ruleset_secondary_tags": "",
@@ -185,6 +187,11 @@
                 "private_post": "",
                 "tag": ""
             },
+            "post_contexts": {
+                "all": "",
+                "discussion_start": "",
+                "reply": ""
+            },
             "runs": {
                 "global": "",
                 "backend": "",
@@ -242,6 +249,12 @@
             "tokens_available": "",
             "tokens_none": "",
             "token_rule_name_desc": "",
+            "token_matched_text_desc": "",
+            "token_matched_word_desc": "",
+            "token_matched_pattern_desc": "",
+            "token_matched_string_desc": "",
+            "token_matched_group_desc": "",
+            "token_word_count_desc": "",
             "type_contains_word": "",
             "type_regex": "",
             "type_group": "",
@@ -273,6 +286,7 @@
             "rule_scan_all": "",
             "rule_scan_all_help": "",
             "rule_regex_warning": "",
+            "token_badge_universal": "",
             "validation": {
                 "name_required": "",
                 "tags_required": "",

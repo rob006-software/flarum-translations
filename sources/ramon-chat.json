@@ -76,7 +76,8 @@
                 "expand": "Expand",
                 "collapse": "Collapse",
                 "full_screen": "Open full screen",
-                "close": "Close chat"
+                "close": "Close chat",
+                "channel_actions": "Channel actions"
             },
             "sidebar": {
                 "my_threads": "My Threads",
@@ -103,6 +104,7 @@
                 "view_info": "Channel details",
                 "search_in_channel": "Search this channel",
                 "pinned_messages": "Pinned messages",
+                "view_all_pinned": "View all {count} pinned messages",
                 "close_pinned": "Close pinned messages",
                 "no_pinned_messages": "No pinned messages in this channel.",
                 "edit": "Edit channel",
@@ -241,7 +243,7 @@
                 "sticker": "Insert a sticker",
                 "sticker_search": "Search stickers",
                 "sticker_none": "No stickers found.",
-                "emoji": "Emoji",
+                "emoji": "Insert an emoji",
                 "insert_date": "Insert date",
                 "cancel_edit": "Cancel",
                 "editing": "Editing message",
@@ -422,7 +424,8 @@
                 "placeholder": "Search all channels",
                 "in_channel": "in {channel}",
                 "prompt": "Type to search messages.",
-                "empty": "No messages match."
+                "empty": "No messages match.",
+                "close": "Close search"
             },
             "revisions": {
                 "title": "Edit history",
