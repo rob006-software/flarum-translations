@@ -2,8 +2,8 @@
 
 Translations for German (formal) (`de@formal`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **366** are translated differently and **657** are
-translated only in `de@formal`. Altogether they cover **95** components.
+sides, but do not match between them: **366** are translated differently and **661** are
+translated only in `de@formal`. Altogether they cover **96** components.
 
 <!-- {% raw %} -->
 
@@ -21,6 +21,7 @@ translated only in `de@formal`. Altogether they cover **95** components.
 | `datlechin-tag-passwords` | [13](#datlechin-tag-passwords) | 0 |
 | `ernestdefoe-aurora` | 0 | [20](#ernestdefoe-aurora-missing) |
 | `ffans-creator-declarations` | 0 | [73](#ffans-creator-declarations-missing) |
+| `ffans-geetest` | 0 | [4](#ffans-geetest-missing) |
 | `flarum-audit` | [1](#flarum-audit) | 0 |
 | `flarum-extension-manager` | [2](#flarum-extension-manager) | 0 |
 | `flarum-flags` | [2](#flarum-flags) | 0 |
@@ -5111,6 +5112,41 @@ These strings are translated only in `de@formal`, so there is nothing to inherit
 
 ```diff
 +Es wurden zu viele Erklärungen ausgewählt.
+```
+
+
+### `ffans-geetest` (missing)
+
+#### [`ffans-geetest.admin.settings.context_event_help_text`](https://weblate.rob006.net/translate/flarum2/ffans-geetest/de@formal/?q=context%3A%3D%22ffans-geetest.admin.settings.context_event_help_text%22)
+
+> Enable to use GeeTest CAPTCHA into different context events or business types, you can set a standalone configuration for each context.
+
+```diff
++Um GeeTest CAPTCHA in verschiedenen Kontexten oder Geschäftsbereichen nutzen zu können, kannst du für jeden Kontext eine eigenständige Konfiguration festlegen.
+```
+
+#### [`ffans-geetest.admin.settings.context_event_label`](https://weblate.rob006.net/translate/flarum2/ffans-geetest/de@formal/?q=context%3A%3D%22ffans-geetest.admin.settings.context_event_label%22)
+
+> Context Event
+
+```diff
++Kontextereignis
+```
+
+#### [`ffans-geetest.admin.settings.product_service_help_text`](https://weblate.rob006.net/translate/flarum2/ffans-geetest/de@formal/?q=context%3A%3D%22ffans-geetest.admin.settings.product_service_help_text%22)
+
+> The version of GeeTest CAPTCHA you what to use.
+
+```diff
++Die Version von GeeTest CAPTCHA, die du verwenden möchtest.
+```
+
+#### [`ffans-geetest.admin.settings.product_service_v4_label`](https://weblate.rob006.net/translate/flarum2/ffans-geetest/de@formal/?q=context%3A%3D%22ffans-geetest.admin.settings.product_service_v4_label%22)
+
+> Adaptive CAPTCHA (v4)
+
+```diff
++Adaptive CAPTCHA (v4)
 ```
 
 
