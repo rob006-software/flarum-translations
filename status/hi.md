@@ -3150,6 +3150,17 @@
 		<td align="center"><a href="https://packagist.org/packages/ernestdefoe/scribe/stats">0</a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum2/ernestdefoe-scribe/hi/"><img src="https://weblate.rob006.net/widgets/flarum2/hi/ernestdefoe-scribe/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/ernestdefoe/steward" title="ernestdefoe/steward"><code>ernestdefoe/steward</code></a>
+		</td>
+		<td align="center">285</td>
+		<td align="center"><a href="https://packagist.org/packages/ernestdefoe/steward/stats">0</a></td>
+		<td align="center"><a href="https://packagist.org/packages/ernestdefoe/steward/stats">0</a></td>
+		<td align="center"><a href="https://packagist.org/packages/ernestdefoe/steward/stats">0</a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum2/ernestdefoe-steward/hi/"><img src="https://weblate.rob006.net/widgets/flarum2/hi/ernestdefoe-steward/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
 </tbody>
 </table>
 
