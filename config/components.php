@@ -953,6 +953,12 @@ return [
 			'zh_Hans',
 		],
 	],
+	'stezkoy-modularis' => [
+		'tag' => 'https://raw.githubusercontent.com/Stezkoy/flarum-modularis/v1.0.6/locale/en.yml',
+		'__builtInLanguages' => [
+			'ru',
+		],
+	],
 	'stezkoy-time-of-magic' => [
 		'tag' => 'https://raw.githubusercontent.com/Stezkoy/flarum-time-of-magic/1.2.1/locale/en.yml',
 		'__builtInLanguages' => [
