@@ -13,12 +13,12 @@
                 "context_event_forgot_label": "=> core.forum.forgot_password.title",
                 "config": {
                     "title": "Konfiguration für {context}",
-                    "standalone_label": "",
-                    "standalone_help_text": "",
+                    "standalone_label": "Eigenständig",
+                    "standalone_help_text": "Eigenständige Konfiguration für dieses Szenario verwenden.",
                     "product_label": "Animationsart",
-                    "product_help_text": "",
+                    "product_help_text": "Wähle die Darstellungsart für das Verifikationspaneel.",
                     "product_float_label": "",
-                    "product_float_help_text": "",
+                    "product_float_help_text": "Umschalten zwischen Validierung per Schaltfläche oder Paneel.",
                     "product_popup_label": "",
                     "product_popup_help_text": "",
                     "product_bind_label": "",
@@ -31,11 +31,11 @@
                 }
             },
             "test": {
-                "title": "",
+                "title": "CAPTCHA testen",
                 "help_text": "",
                 "submit_button": "",
-                "load_button": "",
-                "reload_button": ""
+                "load_button": "Laden",
+                "reload_button": "Neu laden"
             }
         },
         "lib": {
@@ -47,11 +47,11 @@
                 "verification_request_failed": ""
             },
             "verify": {
-                "success_message": "",
-                "error_message": "",
-                "error_retry_message": "",
+                "success_message": "Validierung erfolgreich.",
+                "error_message": "Validierung fehlgeschlagen.",
+                "error_retry_message": "Validierung fehlgeschlagen, bitte erneut versuchen.",
                 "init_error_message": "",
-                "required_message": "",
+                "required_message": "Bitte löse das CAPTCHA.",
                 "not_pass_message": ""
             }
         }
