@@ -959,6 +959,12 @@ return [
 			'ru',
 		],
 	],
+	'stezkoy-telegram-notify' => [
+		'tag' => 'https://raw.githubusercontent.com/Stezkoy/flarum-telegram-notify/1.3.2/locale/en.yml',
+		'__builtInLanguages' => [
+			'ru',
+		],
+	],
 	'stezkoy-time-of-magic' => [
 		'tag' => 'https://raw.githubusercontent.com/Stezkoy/flarum-time-of-magic/1.2.1/locale/en.yml',
 		'__builtInLanguages' => [
