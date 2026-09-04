@@ -4178,7 +4178,11 @@
             "admin": {
                 "settings": {
                     "config": {
+                        "product_float_help_text": "796411f8f25e5eac6a3cfbf17adf983b 796411f8f25e5eac6a3cfbf17adf983b",
+                        "product_help_text": "9fc28df666af098aa0fe2a45afb6c853 9fc28df666af098aa0fe2a45afb6c853",
                         "product_label": "2151fa0c98381ca3f9da30b5735c4d2f 2151fa0c98381ca3f9da30b5735c4d2f",
+                        "standalone_help_text": "c66dc3559eda2fb151a1064105ab358e c66dc3559eda2fb151a1064105ab358e",
+                        "standalone_label": "9080b848b6f704b0d30622ee6c99b74d 9080b848b6f704b0d30622ee6c99b74d",
                         "title": "6bc6fe92fae16b570bdfadc95b20f5a1 6bc6fe92fae16b570bdfadc95b20f5a1"
                     },
                     "context_event_forgot_label": "1eb31d5ef4f07299a967de5544068940 1eb31d5ef4f07299a967de5544068940",
@@ -4190,6 +4194,19 @@
                     "product_service_label": "ecc55c5da81901008a8ce821268e0037 ecc55c5da81901008a8ce821268e0037",
                     "product_service_v3_label": "3e5b1b63f522512267bec488f42d68d7 3e5b1b63f522512267bec488f42d68d7",
                     "product_service_v4_label": "6b0dd056aed29b6079b022e19ee45db8 6b0dd056aed29b6079b022e19ee45db8"
+                },
+                "test": {
+                    "load_button": "18f6ee15e59ad9647428c059344d67d3 18f6ee15e59ad9647428c059344d67d3",
+                    "reload_button": "6e5595878483887071bb86a3ffeeb304 6e5595878483887071bb86a3ffeeb304",
+                    "title": "185343c6edd106e49047a4fcdc2d5694 185343c6edd106e49047a4fcdc2d5694"
+                }
+            },
+            "lib": {
+                "verify": {
+                    "error_message": "7c8d9b26b161581bd1b21a38e70598ba 7c8d9b26b161581bd1b21a38e70598ba",
+                    "error_retry_message": "f82178c2d50d3b0f5b1eed5cfd451552 f82178c2d50d3b0f5b1eed5cfd451552",
+                    "required_message": "f12d6d4096664ffb7f12a077724cd8ea f12d6d4096664ffb7f12a077724cd8ea",
+                    "success_message": "98af52c15d73cc30e13fe2f878dcf685 98af52c15d73cc30e13fe2f878dcf685"
                 }
             }
         }
@@ -9483,6 +9500,8 @@
                         "heading": "0f95809fb73096b0c883aa94be5d2637 0f95809fb73096b0c883aa94be5d2637",
                         "push_notif_preference_default_to_email_label": "ec131f5c8ae8eab19052293186942e04 ec131f5c8ae8eab19052293186942e04",
                         "push_notif_preference_default_to_email_text": "1eb43d25547afa60eb5ce126772e933f 1eb43d25547afa60eb5ce126772e933f",
+                        "share_buttons_label": "c5b5efa7b2e5b3350d3e0df8316292e1 c5b5efa7b2e5b3350d3e0df8316292e1",
+                        "share_buttons_text": "93efcb11e7e7c730b5bd950ae876e69b 93efcb11e7e7c730b5bd950ae876e69b",
                         "user_max_subscriptions_label": "6539eb5a99ff1b7aed4ebe808185b0c7 6539eb5a99ff1b7aed4ebe808185b0c7",
                         "user_max_subscriptions_text": "7412bcd3d1353ff004dbe51cb9a865ce 7412bcd3d1353ff004dbe51cb9a865ce",
                         "window_controls_overlay_label": "95e299df09678f459b496918966fed34 95e299df09678f459b496918966fed34",
