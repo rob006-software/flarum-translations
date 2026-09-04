@@ -7,6 +7,9 @@
                 "exclusions": "Exclusions",
                 "maintenance": "Maintenance"
             },
+            "permissions": {
+                "view_leaderboard": "View Leaderboard"
+            },
             "modals": {
                 "save": "Save",
                 "cancel": "Cancel",
@@ -68,6 +71,7 @@
             }
         },
         "forum": {
+            "permission_denied": "You do not have permission to view the leaderboard.",
             "period": {
                 "daily": "Daily",
                 "weekly": "Weekly",

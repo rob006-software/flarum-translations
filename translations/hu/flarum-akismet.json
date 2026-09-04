@@ -3,6 +3,7 @@
         "admin": {
             "akismet_settings": {
                 "api_key_label": "API-kulcs",
+                "invalid_api_key_message": "Az Akismet elutasította ezt az API-kulcsot. Ellenőrizze az Akismet-fiókját, és próbálja újra.",
                 "title": "Akismet beállítások",
                 "delete_blatant_spam_label": "Egyértelmű kéretlen tartalom automatikus törlése",
                 "delete_blatant_spam_help": "Ha az Akismet azt állapította meg, hogy a megjegyzés egyértelműen kéretlen tartalom, akkor a megjelölés helyett automatikusan törli a bejegyzést"

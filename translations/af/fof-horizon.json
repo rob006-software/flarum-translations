@@ -2,6 +2,12 @@
     "fof-horizon": {
         "admin": {
             "settings": {
+                "locked_by_env": "",
+                "locked_by_code": "",
+                "mail_title": "",
+                "mail_help": "",
+                "email_concurrency": "",
+                "email_concurrency_help": "",
                 "trim_title": "",
                 "trim_help": "Qui si può configurare per quanto tempo (in minuti) si vuole che Horizon mantenga\ni lavori recenti non riusciti. In genere, i lavori recenti vengono conservati per un'ora,\nmentre tutti i lavori non riusciti vengono archiviati per un'intera settimana.\n",
                 "trim_recent": "",
@@ -15,37 +21,72 @@
                 "trim_failed": "",
                 "trim_failed_help": "Questa tabella viene utilizzata per visualizzare i processi falliti nel pannello di controllo di Horizon.\n",
                 "trim_monitored": "",
-                "trim_monitored_help": "Questa tabella viene utilizzata per visualizzare i lavori monitorati nel pannello di controllo di Horizon.\n"
+                "trim_monitored_help": "Questa tabella viene utilizzata per visualizzare i lavori monitorati nel pannello di controllo di Horizon.\n",
+                "supervisor_title": "",
+                "supervisor_help": "",
+                "memory_limit": "",
+                "memory_limit_help": ""
             },
             "stats": {
-                "auto_refresh": "Aggiornamento automatico",
-                "heading": "Panoramica coda",
+                "queue_heading": "",
+                "kv_heading": "",
                 "full_dashboard": "Pannello di controllo di Horizon",
+                "auto_refresh": "Aggiornamento automatico",
                 "refresh": "Aggiorna",
-                "last_refresh": "",
                 "error": {
                     "title": "",
                     "fetch_failed": "",
                     "setup_docs": ""
                 },
+                "eviction_pressure": "",
+                "eviction_policy_tooltip": "",
+                "eviction_warning": "",
                 "health": {
                     "excellent": "",
                     "good": "",
                     "poor": "",
                     "critical": "",
-                    "tooltip": ""
+                    "tooltip_heading": "",
+                    "factor": {
+                        "status": "",
+                        "wait": "",
+                        "memory": ""
+                    }
+                },
+                "status": {
+                    "running": "",
+                    "paused": "",
+                    "inactive": "",
+                    "paused_pending": ""
+                },
+                "period": {
+                    "minutes": "",
+                    "hour": "",
+                    "hours": "",
+                    "day": "",
+                    "days": ""
                 },
                 "data": {
+                    "processes": "",
+                    "jobs-per-minute": "Lavori al minuto",
+                    "pending-jobs": "",
+                    "recent-jobs": "",
+                    "failed-jobs": "",
+                    "max-wait": "",
+                    "slowest-queue": "",
+                    "highest-throughput-queue": "",
+                    "memory-used": "",
+                    "memory-peak": "",
+                    "memory-max": "",
+                    "ops-per-sec": "",
+                    "connected-clients": "",
+                    "blocked-clients": "",
+                    "eviction-policy": "",
                     "redis-used-memory": "Memoria usata da Redis",
                     "redis-peak-memory": "Memoria usata di picco da Redis",
                     "redis-max-memory": "Memoria massima di Redis",
-                    "redis-memory-usage": "",
                     "redis-memory-policy": "Politica della memoria di Redis",
                     "redis-memory-policy-tooltip": "La politica di memoria è il modo in cui Redis selezionerà cosa rimuovere quando viene\nraggiunto il limite massimo di memoria. Il valore predefinito è `noeviction`: i nuovi valori\nnon vengono salvati quando viene raggiunto il limite di memoria. Fai clic per visualizzare la documentazione.\n",
-                    "redis-ops-per-sec": "",
-                    "redis-connected-clients": "",
-                    "redis-blocked-clients": "",
-                    "jobs-per-minute": "Lavori al minuto",
                     "jobs-past-hour": "Lavori ultima ora",
                     "failed-last-seconds": "Lavori falliti degli ultimi secondi",
                     "status": {
@@ -55,12 +96,18 @@
                     },
                     "total-processes": "Processi totali",
                     "max-wait-time": "Tempo attesa max",
-                    "max-wait-queue": "",
                     "max-runtime": "Tempo di esecuzione max",
-                    "max-throughput": "Performance max",
-                    "success-rate": "",
-                    "failure-rate": ""
-                }
+                    "max-throughput": "Performance max"
+                },
+                "tile": {
+                    "processes": "",
+                    "jobs_per_minute": "",
+                    "max_wait": "",
+                    "status": ""
+                },
+                "horizon_max_wait_none": "",
+                "horizon_max_wait_value": "",
+                "heading": "Panoramica coda"
             }
         }
     }

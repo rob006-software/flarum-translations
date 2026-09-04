@@ -2,6 +2,12 @@
     "fof-horizon": {
         "admin": {
             "settings": {
+                "locked_by_env": "",
+                "locked_by_code": "",
+                "mail_title": "",
+                "mail_help": "",
+                "email_concurrency": "",
+                "email_concurrency_help": "",
                 "trim_title": "Налаштувати прибирання",
                 "trim_help": "Тут ви можете вказати, як довго (у хвилинах) Horizon буде\nзберігати нещодавні та невдалі завдання. Зазвичай нещодавні завдання зберігаються\nпротягом однієї години, тоді як усі невиконані завдання зберігаються протягом цілого тижня.\n",
                 "trim_recent": "Прибрати нещодавні вакансії",
@@ -15,27 +21,68 @@
                 "trim_failed": "Ппибрати невдалі робочі місця",
                 "trim_failed_help": "Ця таблиця використовується для відображення невдалих завдань на інформаційній панелі Horizon.\n",
                 "trim_monitored": "Ппибрати відстежувані вакансії",
-                "trim_monitored_help": "Ця таблиця використовується для відображення відстежуваних завдань на інформаційній панелі Horizon.\n"
+                "trim_monitored_help": "Ця таблиця використовується для відображення відстежуваних завдань на інформаційній панелі Horizon.\n",
+                "supervisor_title": "",
+                "supervisor_help": "",
+                "memory_limit": "",
+                "memory_limit_help": ""
             },
             "stats": {
-                "auto_refresh": "Автоматичне оновлення",
-                "heading": "Огляд черги",
+                "queue_heading": "",
+                "kv_heading": "",
                 "full_dashboard": "Панель Horizon",
+                "auto_refresh": "Автоматичне оновлення",
                 "refresh": "Оновлення",
-                "last_refresh": "",
                 "error": {
                     "title": "Помилка звʼязку",
                     "fetch_failed": "Неможливо отримати статистику Horizon. Перевірте конфігурацію Redis.",
                     "setup_docs": "Переглянути документацію щодо налаштування Redis"
                 },
+                "eviction_pressure": "",
+                "eviction_policy_tooltip": "",
+                "eviction_warning": "",
                 "health": {
                     "excellent": "Відмінно",
                     "good": "Добре",
                     "poor": "Погано",
                     "critical": "Критично",
+                    "tooltip_heading": "",
+                    "factor": {
+                        "status": "",
+                        "wait": "",
+                        "memory": ""
+                    },
                     "tooltip": "Оцінка стану системи: {score}/100"
                 },
+                "status": {
+                    "running": "",
+                    "paused": "",
+                    "inactive": "",
+                    "paused_pending": ""
+                },
+                "period": {
+                    "minutes": "",
+                    "hour": "",
+                    "hours": "",
+                    "day": "",
+                    "days": ""
+                },
                 "data": {
+                    "processes": "",
+                    "jobs-per-minute": "Завдання за хвилину",
+                    "pending-jobs": "",
+                    "recent-jobs": "",
+                    "failed-jobs": "",
+                    "max-wait": "",
+                    "slowest-queue": "",
+                    "highest-throughput-queue": "",
+                    "memory-used": "",
+                    "memory-peak": "",
+                    "memory-max": "",
+                    "ops-per-sec": "",
+                    "connected-clients": "",
+                    "blocked-clients": "",
+                    "eviction-policy": "",
                     "redis-used-memory": "Використана пам'ять Redis",
                     "redis-peak-memory": "Пікове значення пам'яті Redis",
                     "redis-max-memory": "Максимальна пам'ять Redis",
@@ -45,7 +92,6 @@
                     "redis-ops-per-sec": "Операцій в секунду",
                     "redis-connected-clients": "Підключених клієнтів",
                     "redis-blocked-clients": "Заблокованих клієнтів",
-                    "jobs-per-minute": "Завдання за хвилину",
                     "jobs-past-hour": "Завдання за останню годину",
                     "failed-last-seconds": "Невдалі завдання за останні кілька секунд",
                     "status": {
@@ -60,7 +106,16 @@
                     "max-throughput": "Максимальна пропускна здатність",
                     "success-rate": "Рівень успішності",
                     "failure-rate": "Коефіцієнт відмов"
-                }
+                },
+                "tile": {
+                    "processes": "",
+                    "jobs_per_minute": "",
+                    "max_wait": "",
+                    "status": ""
+                },
+                "horizon_max_wait_none": "",
+                "horizon_max_wait_value": "",
+                "heading": "Огляд черги"
             }
         }
     }

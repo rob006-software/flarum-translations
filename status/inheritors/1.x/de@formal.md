@@ -2,8 +2,8 @@
 
 Translations for German (formal) (`de@formal`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **358** are translated differently and **574** are
-translated only in `de@formal`. Altogether they cover **93** components.
+sides, but do not match between them: **366** are translated differently and **661** are
+translated only in `de@formal`. Altogether they cover **96** components.
 
 <!-- {% raw %} -->
 
@@ -20,6 +20,8 @@ translated only in `de@formal`. Altogether they cover **93** components.
 | `datlechin-passkey` | [4](#datlechin-passkey) | 0 |
 | `datlechin-tag-passwords` | [13](#datlechin-tag-passwords) | 0 |
 | `ernestdefoe-aurora` | 0 | [20](#ernestdefoe-aurora-missing) |
+| `ffans-creator-declarations` | 0 | [73](#ffans-creator-declarations-missing) |
+| `ffans-geetest` | 0 | [4](#ffans-geetest-missing) |
 | `flarum-audit` | [1](#flarum-audit) | 0 |
 | `flarum-extension-manager` | [2](#flarum-extension-manager) | 0 |
 | `flarum-flags` | [2](#flarum-flags) | 0 |
@@ -28,7 +30,7 @@ translated only in `de@formal`. Altogether they cover **93** components.
 | `flarum-statistics` | [1](#flarum-statistics) | 0 |
 | `flarum-sticky` | [6](#flarum-sticky) | 0 |
 | `flarum-tags` | [26](#flarum-tags) | 0 |
-| `fof-anti-spam` | [5](#fof-anti-spam) | 0 |
+| `fof-anti-spam` | [8](#fof-anti-spam) | 0 |
 | `fof-badges` | [7](#fof-badges) | 0 |
 | `fof-best-answer` | [7](#fof-best-answer) | 0 |
 | `fof-blog` | [2](#fof-blog) | 0 |
@@ -42,7 +44,7 @@ translated only in `de@formal`. Altogether they cover **93** components.
 | `fof-drafts` | [1](#fof-drafts) | 0 |
 | `fof-filter` | [4](#fof-filter) | 0 |
 | `fof-gamification` | [9](#fof-gamification) | 0 |
-| `fof-geoip` | [3](#fof-geoip) | 0 |
+| `fof-geoip` | [5](#fof-geoip) | 0 |
 | `fof-horizon` | [3](#fof-horizon) | 0 |
 | `fof-impersonate` | [1](#fof-impersonate) | 0 |
 | `fof-links` | [2](#fof-links) | 0 |
@@ -67,19 +69,20 @@ translated only in `de@formal`. Altogether they cover **93** components.
 | `forumaker-magicbb` | [3](#forumaker-magicbb) | [19](#forumaker-magicbb-missing) |
 | `forumaker-magicread` | 0 | [18](#forumaker-magicread-missing) |
 | `forumaker-magicslider` | [2](#forumaker-magicslider) | 0 |
-| `forumfortress-flarum` | 0 | [66](#forumfortress-flarum-missing) |
+| `forumfortress-flarum` | 0 | [74](#forumfortress-flarum-missing) |
 | `huoxin-money-with-history` | 0 | [1](#huoxin-money-with-history-missing) |
 | `huseyinfiliz-awards` | [22](#huseyinfiliz-awards) | 0 |
 | `huseyinfiliz-diff` | [10](#huseyinfiliz-diff) | 0 |
 | `huseyinfiliz-leaderboard` | [5](#huseyinfiliz-leaderboard) | 0 |
 | `huseyinfiliz-sticky-title` | [2](#huseyinfiliz-sticky-title) | 0 |
 | `ianm-boring-avatars` | [1](#ianm-boring-avatars) | 0 |
+| `ianm-follow-users` | [1](#ianm-follow-users) | 0 |
 | `ianm-syndication` | [7](#ianm-syndication) | 0 |
 | `ianm-twofactor` | [3](#ianm-twofactor) | 0 |
 | `justoverclock-related-discussions` | [2](#justoverclock-related-discussions) | 0 |
 | `justoverclock-welcomebox` | [2](#justoverclock-welcomebox) | 0 |
 | `linkrobins-badge-labels` | 0 | [34](#linkrobins-badge-labels-missing) |
-| `linkrobins-birdseye` | [1](#linkrobins-birdseye) | 0 |
+| `linkrobins-birdseye` | [3](#linkrobins-birdseye) | [2](#linkrobins-birdseye-missing) |
 | `linkrobins-link-gate` | 0 | [12](#linkrobins-link-gate-missing) |
 | `maicol07-sso` | 0 | [13](#maicol07-sso-missing) |
 | `michaelbelgium-ai-autoreply` | 0 | [22](#michaelbelgium-ai-autoreply-missing) |
@@ -1100,6 +1103,17 @@ Dadurch werden alle Diskussionen, die von diesem Benutzer begonnen wurden, in di
 
 Diskussionen in <del>Themen</del><ins>Tags</ins> verschieben
 
+#### [`fof-anti-spam.admin.settings.stopforumspam.report_blocked_registrations_label`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/de@formal/?q=context%3A%3D%22fof-anti-spam.admin.settings.stopforumspam.report_blocked_registrations_label%22)
+
+> Report blocked registrations
+
+```diff
+-Melde blockierte Registrierungen
++Blockierte Registrierungen melden
+```
+
+<del>Melde blockierte</del><ins>Blockierte</ins> Registrierungen<ins> melden</ins>
+
 #### [`fof-anti-spam.forum.spammer_modal.move_discussions_tag_help`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/de@formal/?q=context%3A%3D%22fof-anti-spam.forum.spammer_modal.move_discussions_tag_help%22)
 
 > This will move all discussions started by this user to the tag you specified in the forum settings. When disabled, discussions will be left in their current tags.
@@ -1110,6 +1124,26 @@ Diskussionen in <del>Themen</del><ins>Tags</ins> verschieben
 ```
 
 Dadurch werden alle von diesem Benutzer gestarteten Diskussionen in das <del>Thema</del><ins>Tag</ins> verschoben, das du in den Forumeinstellungen festgelegt hast. Wenn diese Option deaktiviert ist, verbleiben Diskussionen im bisherigen <del>Thema.</del><ins>Tag.</ins>
+
+#### [`fof-anti-spam.forum.spammer_modal.move_discussions_tag_label`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/de@formal/?q=context%3A%3D%22fof-anti-spam.forum.spammer_modal.move_discussions_tag_label%22)
+
+> Move discussions to quarantined tag
+
+```diff
+-Diskussion zu Quarantäne-Tag verschieben
++Diskussion in Quarantäne-Tag verschieben
+```
+
+Diskussion <del>zu</del><ins>in</ins> Quarantäne-Tag verschieben
+
+#### [`fof-anti-spam.forum.spammer_modal.process_button`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/de@formal/?q=context%3A%3D%22fof-anti-spam.forum.spammer_modal.process_button%22)
+
+> Process
+
+```diff
+-Prozess
++Aktionen anwenden
+```
 
 
 ### `fof-badges`
@@ -1497,10 +1531,10 @@ Statistiken für <del>Top-Level-Themen</del><ins>Haupt-Tags</ins> ausblenden?
 
 ```diff
 -Unten Kannst Du die Gruppe auswählen, die einem Benutzer zugewiesen werden soll, wenn sein Konto aktiviert wird.
-+Unten kannst du die Gruppe auswählen, die einem Benutzer zugewiesen werden soll, wenn sein Konto aktiviert wird.
++Wähle die Gruppe aus, die einem Benutzer zugewiesen werden soll, wenn dessen Konto aktiviert wird.
 ```
 
-Unten <del>Kannst</del><ins>kannst</ins> <del>Du</del><ins>du</ins> die Gruppe auswählen, die einem Benutzer zugewiesen werden soll, wenn sein Konto aktiviert wird.
+<del>Unten Kannst Du</del><ins>Wähle</ins> die Gruppe <del>auswählen,</del><ins>aus,</ins> die einem Benutzer zugewiesen werden soll, wenn <del>sein</del><ins>dessen</ins> Konto aktiviert wird.
 
 
 ### `fof-default-user-preferences`
@@ -1778,6 +1812,28 @@ Noch keine <del>Wähler</del><ins>Abstimmenden</ins>
 
 ### `fof-geoip`
 
+#### [`fof-default-user-preferences.admin.settings.showIPCountry`](https://weblate.rob006.net/translate/flarum2/fof-geoip/de@formal/?q=context%3A%3D%22fof-default-user-preferences.admin.settings.showIPCountry%22)
+
+> Show the flag of the country the user posts from
+
+```diff
+-Zeigt die Flagge des Landes, aus dem der Benutzer postet
++Flagge des Landes anzeigen, aus dem der Benutzer postet
+```
+
+<del>Zeigt die </del>Flagge des <del>Landes,</del><ins>Landes anzeigen,</ins> aus dem der Benutzer postet
+
+#### [`fof-default-user-preferences.admin.settings.showIPCountry-help`](https://weblate.rob006.net/translate/flarum2/fof-geoip/de@formal/?q=context%3A%3D%22fof-default-user-preferences.admin.settings.showIPCountry-help%22)
+
+> This is based on their IP address at the time of posting. The country flag (if enabled) will be visible to all users. Admin users and moderators will see the IP address in the tooltip.
+
+```diff
+-Dies basiert auf ihrer IP-Adresse zum Zeitpunkt der Veröffentlichung. Die Landesflagge (falls aktiviert) ist für alle Benutzer sichtbar. Administratoren und Moderatoren sehen die IP-Adresse im Tooltip.
++Dies basiert auf der IP-Adresse zum Zeitpunkt der Veröffentlichung. Die Landesflagge (falls aktiviert) ist für alle Benutzer sichtbar. Administratoren und Moderatoren sehen die IP-Adresse im Tooltip.
+```
+
+Dies basiert auf <del>ihrer</del><ins>der</ins> IP-Adresse zum Zeitpunkt der Veröffentlichung. Die Landesflagge (falls aktiviert) ist für alle Benutzer sichtbar. Administratoren und Moderatoren sehen die IP-Adresse im Tooltip.
+
 #### [`fof-geoip.admin.settings.service_ipapi-pro_label`](https://weblate.rob006.net/translate/flarum2/fof-geoip/de@formal/?q=context%3A%3D%22fof-geoip.admin.settings.service_ipapi-pro_label%22)
 
 > IP Api Pro
@@ -1831,22 +1887,16 @@ IP-Adresse in <del>die </del>Zwischenablage kopieren
 
 Hier <del>kannst</del><ins>können</ins> <del>du</del><ins>Sie</ins> einstellen, wie lange (in Minuten) Horizon<br />die letzten und fehlgeschlagenen Aufträge aufbewahren soll. In der Regel werden die letzten Aufträge<br />eine Stunde lang aufbewahrt, während alle fehlgeschlagenen Aufträge eine ganze Woche lang gespeichert werden.<br />
 
-#### [`fof-horizon.admin.stats.data.redis-memory-policy-tooltip`](https://weblate.rob006.net/translate/flarum2/fof-horizon/de@formal/?q=context%3A%3D%22fof-horizon.admin.stats.data.redis-memory-policy-tooltip%22)
+#### [`fof-horizon.admin.stats.data.jobs-per-minute`](https://weblate.rob006.net/translate/flarum2/fof-horizon/de@formal/?q=context%3A%3D%22fof-horizon.admin.stats.data.jobs-per-minute%22)
 
-> The memory policy is the way the cache store will select what to remove when
-> the maxmemory limit is reached. The default is \`noeviction\`: New values
-> aren't saved when memory limit is reached. Click to view documentation.
->
+> Jobs Per Minute
 
 ```diff
- Die Speicherrichtlinie ist die Art und Weise, wie Redis auswählt, was entfernt werden soll,
- wenn das maximale Speicherlimit erreicht ist. Die Standardeinstellung ist „noeviction“: Neue Werte
--werden nicht gespeichert, wenn das Speicherlimit erreicht ist. Klicke hier, um die Dokumentation anzuzeigen.
-+werden nicht gespeichert, wenn das Speicherlimit erreicht ist. Klicken Sie hier, um die Dokumentation anzuzeigen.
-
+-Jobs pro Minute
++Aufträge pro Minute
 ```
 
-Die Speicherrichtlinie ist die Art und Weise, wie Redis auswählt, was entfernt werden soll,<br />wenn das maximale Speicherlimit erreicht ist. Die Standardeinstellung ist „noeviction“: Neue Werte<br />werden nicht gespeichert, wenn das Speicherlimit erreicht ist. <del>Klicke</del><ins>Klicken Sie</ins> hier, um die Dokumentation anzuzeigen.<br />
+<del>Jobs</del><ins>Aufträge</ins> pro Minute
 
 #### [`fof-horizon.admin.stats.error.fetch_failed`](https://weblate.rob006.net/translate/flarum2/fof-horizon/de@formal/?q=context%3A%3D%22fof-horizon.admin.stats.error.fetch_failed%22)
 
@@ -1908,11 +1958,11 @@ Links sind standardmässig nur für &lt;code&gt;{admin}&lt;/code&gt;-Nutzer sich
 
 ```diff
 -Überprüfe die unterstützten <a>Laravel-Validierungsregeln</a>. ZB: "string|min:5" oder "url".
-+Überprüfe die unterstützten <a>Laravel-Validierungsregeln</a>. Z. B.: "string|min:5" oder "url".
++Wende die unterstützten <a>Laravel-Validierungsregeln</a> an. Z. B.: „string|min:5“ oder „url“.
 
 ```
 
-Überprüfe die unterstützten &lt;a&gt;Laravel-Validierungsregeln&lt;/a&gt;. <del>ZB:</del><ins>Z. B.:</ins> "string\|min:5" oder "url".<br />
+<del>Überprüfe</del><ins>Wende</ins> die unterstützten <del>&lt;a&gt;Laravel-Validierungsregeln&lt;/a&gt;.</del><ins>&lt;a&gt;Laravel-Validierungsregeln&lt;/a&gt;</ins> <del>ZB:</del><ins>an.</ins> <del>"string\|min:5"</del><ins>Z. B.: „string\|min:5“</ins> oder <del>"url".</del><ins>„url“.</ins><br />
 
 #### [`fof-masquerade.forum.fields.select.none-required`](https://weblate.rob006.net/translate/flarum2/fof-masquerade/de@formal/?q=context%3A%3D%22fof-masquerade.forum.fields.select.none-required%22)
 
@@ -3480,6 +3530,20 @@ Wähle aus, wie die Farben <del>der Themen</del><ins>des</ins> <del>in</del><ins
 Das <del>Theme</del><ins>Theme,</ins> welches für die Boring Avatars verwendet wird.<br />
 
 
+### `ianm-follow-users`
+
+#### [`ianm-follow-users.admin.permissions.be_followed_label`](https://weblate.rob006.net/translate/flarum2/ianm-follow-users/de@formal/?q=context%3A%3D%22ianm-follow-users.admin.permissions.be_followed_label%22)
+
+> Allow users to follow
+
+```diff
+-Darf Benutzern folgen
++Benutzer dürfen folgen
+```
+
+<del>Darf</del><ins>Benutzer</ins> <del>Benutzern</del><ins>dürfen</ins> folgen
+
+
 ### `ianm-syndication`
 
 #### [`ianm-syndication.admin.settings.forum-icons.help`](https://weblate.rob006.net/translate/flarum2/ianm-syndication/de@formal/?q=context%3A%3D%22ianm-syndication.admin.settings.forum-icons.help%22)
@@ -3646,6 +3710,15 @@ Titel für <del>"Verwandte</del><ins>„Verwandte</ins> <del>Diskussionen"</del>
 
 ### `linkrobins-birdseye`
 
+#### [`linkrobins-birdseye.forum.session_menu.analytics_button`](https://weblate.rob006.net/translate/flarum2/linkrobins-birdseye/de@formal/?q=context%3A%3D%22linkrobins-birdseye.forum.session_menu.analytics_button%22)
+
+> Analytics
+
+```diff
+-Analytik
++Analyse
+```
+
 #### [`linkrobins-birdseye.lib.dashboard.tags`](https://weblate.rob006.net/translate/flarum2/linkrobins-birdseye/de@formal/?q=context%3A%3D%22linkrobins-birdseye.lib.dashboard.tags%22)
 
 > Top tags
@@ -3653,6 +3726,15 @@ Titel für <del>"Verwandte</del><ins>„Verwandte</ins> <del>Diskussionen"</del>
 ```diff
 -Top-Tags
 +Beliebteste Tags
+```
+
+#### [`linkrobins-birdseye.lib.dashboard.title`](https://weblate.rob006.net/translate/flarum2/linkrobins-birdseye/de@formal/?q=context%3A%3D%22linkrobins-birdseye.lib.dashboard.title%22)
+
+> Analytics
+
+```diff
+-Analytik
++Analyse
 ```
 
 
@@ -4446,6 +4528,628 @@ These strings are translated only in `de@formal`, so there is nothing to inherit
 ```
 
 
+### `ffans-creator-declarations` (missing)
+
+#### [`ffans-creator-declarations.admin.permissions.allow_edit_own_label`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de@formal/?q=context%3A%3D%22ffans-creator-declarations.admin.permissions.allow_edit_own_label%22)
+
+> Allow editing own creator declarations
+
+```diff
++Eigene Urhebererklärung bearbeiten
+```
+
+#### [`ffans-creator-declarations.admin.permissions.moderate_label`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de@formal/?q=context%3A%3D%22ffans-creator-declarations.admin.permissions.moderate_label%22)
+
+> Edit creator declarations on posts
+
+```diff
++Urhebererklärungen aller Beiträge bearbeiten
+```
+
+#### [`ffans-creator-declarations.admin.settings.max_label`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de@formal/?q=context%3A%3D%22ffans-creator-declarations.admin.settings.max_label%22)
+
+> Maximum declarations per post
+
+```diff
++Maximale Anzahl von Erklärungen pro Beitrag
+```
+
+#### [`ffans-creator-declarations.admin.settings.order_help`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de@formal/?q=context%3A%3D%22ffans-creator-declarations.admin.settings.order_help%22)
+
+> Separate declaration keys with commas. Missing keys are appended automatically. Available keys are original, repost, reference, ai\_generated, fictional, personal\_opinion, professional, sensitive, self\_promotion, and sponsored.
+
+```diff
++Trenne die Erklärungsschlüssel durch Kommas. Fehlende Schlüssel werden automatisch angehängt. Verfügbare Schlüssel sind: original, repost, reference, ai_generated, fictional, personal_opinion, professional, sensitive, self_promotion und sponsored.
+```
+
+#### [`ffans-creator-declarations.admin.settings.order_label`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de@formal/?q=context%3A%3D%22ffans-creator-declarations.admin.settings.order_label%22)
+
+> Declaration order
+
+```diff
++Reihenfolge der Erklärungen
+```
+
+#### [`ffans-creator-declarations.admin.settings.required_discussion_help`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de@formal/?q=context%3A%3D%22ffans-creator-declarations.admin.settings.required_discussion_help%22)
+
+> Discussions cannot be published until at least one declaration is selected.
+
+```diff
++Diskussionen können erst veröffentlicht werden, wenn mindestens eine Erklärung ausgewählt wurde.
+```
+
+#### [`ffans-creator-declarations.admin.settings.required_discussion_label`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de@formal/?q=context%3A%3D%22ffans-creator-declarations.admin.settings.required_discussion_label%22)
+
+> Require a declaration when starting a discussion
+
+```diff
++Für jede neue Diskussion eine Erklärung verlangen
+```
+
+#### [`ffans-creator-declarations.admin.settings.required_reply_help`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de@formal/?q=context%3A%3D%22ffans-creator-declarations.admin.settings.required_reply_help%22)
+
+> Replies cannot be published until at least one declaration is selected.
+
+```diff
++Antworten können erst veröffentlicht werden, wenn mindestens eine Erklärung ausgewählt wurde.
+```
+
+#### [`ffans-creator-declarations.admin.settings.required_reply_label`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de@formal/?q=context%3A%3D%22ffans-creator-declarations.admin.settings.required_reply_label%22)
+
+> Require a declaration when replying
+
+```diff
++Für jede Antwort eine Erklärung verlangen
+```
+
+#### [`ffans-creator-declarations.admin.settings.show_in_user_post_lists_help`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de@formal/?q=context%3A%3D%22ffans-creator-declarations.admin.settings.show_in_user_post_lists_help%22)
+
+> When enabled, creator declarations are displayed with posts in user profile Posts lists.
+
+```diff
++Wenn aktiviert, werden die Urhebererklärungen zusammen mit den Beiträgen in der Beitragsliste des Benutzerprofils angezeigt.
+```
+
+#### [`ffans-creator-declarations.admin.settings.show_in_user_post_lists_label`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de@formal/?q=context%3A%3D%22ffans-creator-declarations.admin.settings.show_in_user_post_lists_label%22)
+
+> Show creator declarations in profile Posts lists
+
+```diff
++Urhebererklärungen in den Beitragslisten des Profils anzeigen
+```
+
+#### [`ffans-creator-declarations.forum.composer.choose`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de@formal/?q=context%3A%3D%22ffans-creator-declarations.forum.composer.choose%22)
+
+> Add self declarations
+
+```diff
++Eigenerklärung hinzufügen
+```
+
+#### [`ffans-creator-declarations.forum.composer.selected`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de@formal/?q=context%3A%3D%22ffans-creator-declarations.forum.composer.selected%22)
+
+> {count} declarations selected
+
+```diff
++{count} Erklärungen ausgewählt
+```
+
+#### [`ffans-creator-declarations.forum.controls.edit`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de@formal/?q=context%3A%3D%22ffans-creator-declarations.forum.controls.edit%22)
+
+> Edit self declarations
+
+```diff
++Eigenerklärung bearbeiten
+```
+
+#### [`ffans-creator-declarations.forum.display.declaration_format`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de@formal/?q=context%3A%3D%22ffans-creator-declarations.forum.display.declaration_format%22)
+
+> &lt;strong&gt;Author’s declaration:&lt;/strong&gt; {declarations}.
+
+```diff
++<strong>Urhebererklärung:</strong> {declarations}.
+```
+
+#### [`ffans-creator-declarations.forum.display.declaration_separator`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de@formal/?q=context%3A%3D%22ffans-creator-declarations.forum.display.declaration_separator%22)
+
+> ; 
+
+```diff
++; 
+```
+
+#### [`ffans-creator-declarations.forum.display.open_details`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de@formal/?q=context%3A%3D%22ffans-creator-declarations.forum.display.open_details%22)
+
+> View creator declaration details
+
+```diff
++Details der Urhebererklärung anzeigen
+```
+
+#### [`ffans-creator-declarations.forum.display.original_notice`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de@formal/?q=context%3A%3D%22ffans-creator-declarations.forum.display.original_notice%22)
+
+> Original content. Do not reproduce without permission.
+
+```diff
++Originalinhalt. Vervielfältigung ohne Genehmigung untersagt.
+```
+
+#### [`ffans-creator-declarations.forum.display.original_summary`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de@formal/?q=context%3A%3D%22ffans-creator-declarations.forum.display.original_summary%22)
+
+> Original content, do not reproduce without permission
+
+```diff
++Originalinhalt. Vervielfältigung ohne Genehmigung untersagt
+```
+
+#### [`ffans-creator-declarations.forum.display.personal_opinion_summary`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de@formal/?q=context%3A%3D%22ffans-creator-declarations.forum.display.personal_opinion_summary%22)
+
+> Personal opinion, for reference only
+
+```diff
++Persönliche Meinung, nur zur Information
+```
+
+#### [`ffans-creator-declarations.forum.display.reference_notice`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de@formal/?q=context%3A%3D%22ffans-creator-declarations.forum.display.reference_notice%22)
+
+> This content references {source}.
+
+```diff
++Dieser Inhalt bezieht sich auf {source}.
+```
+
+#### [`ffans-creator-declarations.forum.display.reference_summary`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de@formal/?q=context%3A%3D%22ffans-creator-declarations.forum.display.reference_summary%22)
+
+> Content was referenced or quoted
+
+```diff
++Inhalt wurde referenziert oder zitiert
+```
+
+#### [`ffans-creator-declarations.forum.display.repost_notice`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de@formal/?q=context%3A%3D%22ffans-creator-declarations.forum.display.repost_notice%22)
+
+> This content comes from {source}.
+
+```diff
++Dieser Inhalt stammt von {source}.
+```
+
+#### [`ffans-creator-declarations.forum.info_modal.author_note`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de@formal/?q=context%3A%3D%22ffans-creator-declarations.forum.info_modal.author_note%22)
+
+> Author's note: 
+
+```diff
++Hinweis des Verfassers: 
+```
+
+#### [`ffans-creator-declarations.forum.info_modal.disclaimer`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de@formal/?q=context%3A%3D%22ffans-creator-declarations.forum.info_modal.disclaimer%22)
+
+> The declarations have not been reviewed or verified by the forum. Please consider them alongside the post content and use your own judgment.
+
+```diff
++Die Aussagen wurden vom Forum weder geprüft noch bestätigt. Bitte betrachte sie im Zusammenhang mit dem Inhalt des Beitrags und bewerte nach eigenem Ermessen.
+```
+
+#### [`ffans-creator-declarations.forum.info_modal.explanation`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de@formal/?q=context%3A%3D%22ffans-creator-declarations.forum.info_modal.explanation%22)
+
+> This notice was added by the author, who declared this post as “{declarations}”.
+
+```diff
++Diese Erklärung wurde vom Verfasser hinzugefügt, der diesen Beitrag als „{declarations}“ gekennzeichnet hat.
+```
+
+#### [`ffans-creator-declarations.forum.info_modal.heading`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de@formal/?q=context%3A%3D%22ffans-creator-declarations.forum.info_modal.heading%22)
+
+> Why am I seeing this notice?
+
+```diff
++Warum wird mir dieser Hinweis angezeigt?
+```
+
+#### [`ffans-creator-declarations.forum.info_modal.reference`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de@formal/?q=context%3A%3D%22ffans-creator-declarations.forum.info_modal.reference%22)
+
+> Reference: 
+
+```diff
++Referenz: 
+```
+
+#### [`ffans-creator-declarations.forum.info_modal.source`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de@formal/?q=context%3A%3D%22ffans-creator-declarations.forum.info_modal.source%22)
+
+> Source: 
+
+```diff
++Quelle: 
+```
+
+#### [`ffans-creator-declarations.forum.info_modal.title`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de@formal/?q=context%3A%3D%22ffans-creator-declarations.forum.info_modal.title%22)
+
+> About this declaration
+
+```diff
++Über diese Erklärung
+```
+
+#### [`ffans-creator-declarations.forum.modal.help`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de@formal/?q=context%3A%3D%22ffans-creator-declarations.forum.modal.help%22)
+
+> Select the declarations that apply to this post. They only help readers understand the content and they do not represent the forum's views or constitute verification by the forum.
+
+```diff
++Wähle die Erklärungen aus, die auf diesen Beitrag zutreffen. Sie dienen lediglich dazu, den Lesern das Verständnis des Inhalts zu erleichtern, und geben weder die Ansichten des Forums wieder noch stellen sie eine Überprüfung durch das Forum dar.
+```
+
+#### [`ffans-creator-declarations.forum.modal.link_title_placeholder`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de@formal/?q=context%3A%3D%22ffans-creator-declarations.forum.modal.link_title_placeholder%22)
+
+> Link name (optional)
+
+```diff
++Linkname (optional)
+```
+
+#### [`ffans-creator-declarations.forum.modal.save_button`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de@formal/?q=context%3A%3D%22ffans-creator-declarations.forum.modal.save_button%22)
+
+> Save declarations
+
+```diff
++Erklärungen speichern
+```
+
+#### [`ffans-creator-declarations.forum.modal.selection_count`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de@formal/?q=context%3A%3D%22ffans-creator-declarations.forum.modal.selection_count%22)
+
+> Selected {selected} / {max}
+
+```diff
++{selected} / {max} ausgewählt
+```
+
+#### [`ffans-creator-declarations.forum.modal.title`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de@formal/?q=context%3A%3D%22ffans-creator-declarations.forum.modal.title%22)
+
+> Self Declarations
+
+```diff
++Eigenerklärung
+```
+
+#### [`ffans-creator-declarations.lib.categories.authenticity`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de@formal/?q=context%3A%3D%22ffans-creator-declarations.lib.categories.authenticity%22)
+
+> Authenticity
+
+```diff
++Authentizität
+```
+
+#### [`ffans-creator-declarations.lib.categories.commercial`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de@formal/?q=context%3A%3D%22ffans-creator-declarations.lib.categories.commercial%22)
+
+> Commercial disclosure
+
+```diff
++Offenlegung kommerzieller Interessen
+```
+
+#### [`ffans-creator-declarations.lib.categories.safety`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de@formal/?q=context%3A%3D%22ffans-creator-declarations.lib.categories.safety%22)
+
+> Safety and content notices
+
+```diff
++Sicherheit und Inhaltswarnungen
+```
+
+#### [`ffans-creator-declarations.lib.categories.source`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de@formal/?q=context%3A%3D%22ffans-creator-declarations.lib.categories.source%22)
+
+> Content source
+
+```diff
++Inhaltsherkunft
+```
+
+#### [`ffans-creator-declarations.lib.declarations.ai_generated.details_placeholder`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de@formal/?q=context%3A%3D%22ffans-creator-declarations.lib.declarations.ai_generated.details_placeholder%22)
+
+> Optionally name the AI tool or add context
+
+```diff
++Gib optional den Namen des KI-Tools an oder füge weitere Informationen hinzu
+```
+
+#### [`ffans-creator-declarations.lib.declarations.ai_generated.help`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de@formal/?q=context%3A%3D%22ffans-creator-declarations.lib.declarations.ai_generated.help%22)
+
+> All or a significant part of the content was created or edited with generative AI.
+
+```diff
++Der Inhalt wurde ganz oder zu einem wesentlichen Teil mit generativer KI erstellt oder bearbeitet.
+```
+
+#### [`ffans-creator-declarations.lib.declarations.ai_generated.label`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de@formal/?q=context%3A%3D%22ffans-creator-declarations.lib.declarations.ai_generated.label%22)
+
+> AI-generated content
+
+```diff
++KI-erstellter Inhalt
+```
+
+#### [`ffans-creator-declarations.lib.declarations.fictional.help`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de@formal/?q=context%3A%3D%22ffans-creator-declarations.lib.declarations.fictional.help%22)
+
+> The content contains fictional events, role-play, or staged scenes.
+
+```diff
++Der Inhalt enthält fiktive Ereignisse, Rollenspiele oder inszenierte Szenen.
+```
+
+#### [`ffans-creator-declarations.lib.declarations.fictional.label`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de@formal/?q=context%3A%3D%22ffans-creator-declarations.lib.declarations.fictional.label%22)
+
+> Fictional or staged content
+
+```diff
++Fiktive oder inszenierte Inhalte
+```
+
+#### [`ffans-creator-declarations.lib.declarations.original.help`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de@formal/?q=context%3A%3D%22ffans-creator-declarations.lib.declarations.original.help%22)
+
+> The content was primarily created by the author and is not a direct repost. Please do not reproduce without permission.
+
+```diff
++Der Inhalt wurde überwiegend vom Autor verfasst und ist kein direkter Repost. Bitte nicht ohne Genehmigung weiterveröffentlichen.
+```
+
+#### [`ffans-creator-declarations.lib.declarations.original.label`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de@formal/?q=context%3A%3D%22ffans-creator-declarations.lib.declarations.original.label%22)
+
+> Original content
+
+```diff
++Originalinhalt
+```
+
+#### [`ffans-creator-declarations.lib.declarations.personal_opinion.help`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de@formal/?q=context%3A%3D%22ffans-creator-declarations.lib.declarations.personal_opinion.help%22)
+
+> This content primarily expresses the author's personal views, judgments, or experiences and does not represent universal facts or professional conclusions.
+
+```diff
++Dieser Inhalt gibt in erster Linie die persönlichen Ansichten, Einschätzungen oder Erfahrungen des Autors wieder und stellt keine allgemeingültigen Tatsachen oder fachlichen Schlussfolgerungen dar.
+```
+
+#### [`ffans-creator-declarations.lib.declarations.personal_opinion.label`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de@formal/?q=context%3A%3D%22ffans-creator-declarations.lib.declarations.personal_opinion.label%22)
+
+> Personal opinions or perspectives
+
+```diff
++Persönliche Meinungen oder Sichtweisen
+```
+
+#### [`ffans-creator-declarations.lib.declarations.professional.details_placeholder`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de@formal/?q=context%3A%3D%22ffans-creator-declarations.lib.declarations.professional.details_placeholder%22)
+
+> Optionally add safety information
+
+```diff
++Optional Sicherheitshinweise hinzufügen
+```
+
+#### [`ffans-creator-declarations.lib.declarations.professional.help`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de@formal/?q=context%3A%3D%22ffans-creator-declarations.lib.declarations.professional.help%22)
+
+> Imitating this activity without suitable expertise may create a safety risk.
+
+```diff
++Das Nachahmen dieser Tätigkeit ohne entsprechende Fachkenntnisse kann ein Sicherheitsrisiko darstellen.
+```
+
+#### [`ffans-creator-declarations.lib.declarations.professional.label`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de@formal/?q=context%3A%3D%22ffans-creator-declarations.lib.declarations.professional.label%22)
+
+> Dangerous behavior; do not imitate
+
+```diff
++Gefährliches Verhalten; bitte nicht nachmachen
+```
+
+#### [`ffans-creator-declarations.lib.declarations.reference.details_placeholder`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de@formal/?q=context%3A%3D%22ffans-creator-declarations.lib.declarations.reference.details_placeholder%22)
+
+> Enter the original source URL (required)
+
+```diff
++Gib die Quell-URL des Originals ein (erforderlich)
+```
+
+#### [`ffans-creator-declarations.lib.declarations.reference.help`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de@formal/?q=context%3A%3D%22ffans-creator-declarations.lib.declarations.reference.help%22)
+
+> The content references or quotes material from another author or source.
+
+```diff
++Der Inhalt bezieht sich auf Material eines anderen Autors oder einer anderen Quelle bzw. zitiert dieses.
+```
+
+#### [`ffans-creator-declarations.lib.declarations.reference.label`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de@formal/?q=context%3A%3D%22ffans-creator-declarations.lib.declarations.reference.label%22)
+
+> Referenced or quoted content
+
+```diff
++Wiederveröffentlichter oder zitierter Inhalt
+```
+
+#### [`ffans-creator-declarations.lib.declarations.repost.details_placeholder`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de@formal/?q=context%3A%3D%22ffans-creator-declarations.lib.declarations.repost.details_placeholder%22)
+
+> Enter the original source URL (required)
+
+```diff
++Gib die Quell-URL des Originals ein (erforderlich)
+```
+
+#### [`ffans-creator-declarations.lib.declarations.repost.help`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de@formal/?q=context%3A%3D%22ffans-creator-declarations.lib.declarations.repost.help%22)
+
+> The content is primarily reposted from another author or source.
+
+```diff
++Der Inhalt ist überwiegend ein Wiederveröffentlichung von einem anderen Autor oder aus einer anderen Quelle.
+```
+
+#### [`ffans-creator-declarations.lib.declarations.repost.label`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de@formal/?q=context%3A%3D%22ffans-creator-declarations.lib.declarations.repost.label%22)
+
+> Reposted content
+
+```diff
++Wiederveröffentlichter Inhalt
+```
+
+#### [`ffans-creator-declarations.lib.declarations.self_promotion.help`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de@formal/?q=context%3A%3D%22ffans-creator-declarations.lib.declarations.self_promotion.help%22)
+
+> The content promotes products or services from the author, their organization, or third parties and may involve affiliate commissions or other compensation.
+
+```diff
++Der Inhalt wirbt für Produkte oder Dienstleistungen des Verfassers, seiner Organisation oder Dritter und kann mit Affiliate-Provisionen oder anderen Vergütungen verbunden sein.
+```
+
+#### [`ffans-creator-declarations.lib.declarations.self_promotion.label`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de@formal/?q=context%3A%3D%22ffans-creator-declarations.lib.declarations.self_promotion.label%22)
+
+> Contains marketing or promotional information
+
+```diff
++Enthält Marketing- oder Werbeinformationen
+```
+
+#### [`ffans-creator-declarations.lib.declarations.sensitive.details_placeholder`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de@formal/?q=context%3A%3D%22ffans-creator-declarations.lib.declarations.sensitive.details_placeholder%22)
+
+> Optionally describe the content notice
+
+```diff
++Beschreibe optional den Inhaltshinweis
+```
+
+#### [`ffans-creator-declarations.lib.declarations.sensitive.help`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de@formal/?q=context%3A%3D%22ffans-creator-declarations.lib.declarations.sensitive.help%22)
+
+> The content may include disturbing, frightening, or sensitive descriptions.
+
+```diff
++Der Inhalt kann verstörende, beängstigende oder sensible Darstellungen enthalten.
+```
+
+#### [`ffans-creator-declarations.lib.declarations.sensitive.label`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de@formal/?q=context%3A%3D%22ffans-creator-declarations.lib.declarations.sensitive.label%22)
+
+> Potentially disturbing
+
+```diff
++Möglicherweise verstörend
+```
+
+#### [`ffans-creator-declarations.lib.declarations.sponsored.details_placeholder`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de@formal/?q=context%3A%3D%22ffans-creator-declarations.lib.declarations.sponsored.details_placeholder%22)
+
+> Optionally name the partner or describe the relationship
+
+```diff
++Gib optional den Namen des Partners an oder beschreibe die Beziehung
+```
+
+#### [`ffans-creator-declarations.lib.declarations.sponsored.help`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de@formal/?q=context%3A%3D%22ffans-creator-declarations.lib.declarations.sponsored.help%22)
+
+> A third party provided payment, gifts, or another material benefit.
+
+```diff
++Ein Dritter hat Zahlungen, Geschenke oder einen anderen materiellen Vorteil gewährt.
+```
+
+#### [`ffans-creator-declarations.lib.declarations.sponsored.label`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de@formal/?q=context%3A%3D%22ffans-creator-declarations.lib.declarations.sponsored.label%22)
+
+> Paid partnership, sponsorship, or material interest
+
+```diff
++Bezahlte Partnerschaft, Sponsoring oder materielles Interesse
+```
+
+#### [`ffans-creator-declarations.lib.validation.details_too_long`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de@formal/?q=context%3A%3D%22ffans-creator-declarations.lib.validation.details_too_long%22)
+
+> Declaration details may not exceed 500 characters.
+
+```diff
++Die Angaben zur Erklärung dürfen 500 Zeichen nicht überschreiten.
+```
+
+#### [`ffans-creator-declarations.lib.validation.invalid_payload`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de@formal/?q=context%3A%3D%22ffans-creator-declarations.lib.validation.invalid_payload%22)
+
+> The declaration payload is invalid.
+
+```diff
++Die Nutzdaten der Erklärung sind ungültig.
+```
+
+#### [`ffans-creator-declarations.lib.validation.invalid_selection`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de@formal/?q=context%3A%3D%22ffans-creator-declarations.lib.validation.invalid_selection%22)
+
+> The declaration selection is invalid.
+
+```diff
++Die Auswahl der Erklärungen ist ungültig.
+```
+
+#### [`ffans-creator-declarations.lib.validation.required`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de@formal/?q=context%3A%3D%22ffans-creator-declarations.lib.validation.required%22)
+
+> At least one declaration is required.
+
+```diff
++Mindestens eine Erklärung ist erforderlich.
+```
+
+#### [`ffans-creator-declarations.lib.validation.source_conflict`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de@formal/?q=context%3A%3D%22ffans-creator-declarations.lib.validation.source_conflict%22)
+
+> Original, reposted, and referenced content declarations cannot be selected at the same time.
+
+```diff
++Die Optionen „Originalinhalt“, „wiederveröffentlicht“ und „zitiert“ können nicht gleichzeitig ausgewählt werden.
+```
+
+#### [`ffans-creator-declarations.lib.validation.source_url_required`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de@formal/?q=context%3A%3D%22ffans-creator-declarations.lib.validation.source_url_required%22)
+
+> A valid source URL is required for reposted or referenced content.
+
+```diff
++Für wiederveröffentlichte oder zitierte Inhalte ist eine gültige Quell-URL erforderlich.
+```
+
+#### [`ffans-creator-declarations.lib.validation.title_too_long`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de@formal/?q=context%3A%3D%22ffans-creator-declarations.lib.validation.title_too_long%22)
+
+> The link name may not exceed 100 characters.
+
+```diff
++Der Name des Links darf nicht länger als 100 Zeichen sein.
+```
+
+#### [`ffans-creator-declarations.lib.validation.too_many`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/de@formal/?q=context%3A%3D%22ffans-creator-declarations.lib.validation.too_many%22)
+
+> Too many declarations were selected.
+
+```diff
++Es wurden zu viele Erklärungen ausgewählt.
+```
+
+
+### `ffans-geetest` (missing)
+
+#### [`ffans-geetest.admin.settings.context_event_help_text`](https://weblate.rob006.net/translate/flarum2/ffans-geetest/de@formal/?q=context%3A%3D%22ffans-geetest.admin.settings.context_event_help_text%22)
+
+> Enable to use GeeTest CAPTCHA into different context events or business types, you can set a standalone configuration for each context.
+
+```diff
++Um GeeTest CAPTCHA in verschiedenen Kontexten oder Geschäftsbereichen nutzen zu können, kannst du für jeden Kontext eine eigenständige Konfiguration festlegen.
+```
+
+#### [`ffans-geetest.admin.settings.context_event_label`](https://weblate.rob006.net/translate/flarum2/ffans-geetest/de@formal/?q=context%3A%3D%22ffans-geetest.admin.settings.context_event_label%22)
+
+> Context Event
+
+```diff
++Kontextereignis
+```
+
+#### [`ffans-geetest.admin.settings.product_service_help_text`](https://weblate.rob006.net/translate/flarum2/ffans-geetest/de@formal/?q=context%3A%3D%22ffans-geetest.admin.settings.product_service_help_text%22)
+
+> The version of GeeTest CAPTCHA you what to use.
+
+```diff
++Die Version von GeeTest CAPTCHA, die du verwenden möchtest.
+```
+
+#### [`ffans-geetest.admin.settings.product_service_v4_label`](https://weblate.rob006.net/translate/flarum2/ffans-geetest/de@formal/?q=context%3A%3D%22ffans-geetest.admin.settings.product_service_v4_label%22)
+
+> Adaptive CAPTCHA (v4)
+
+```diff
++Adaptive CAPTCHA (v4)
+```
+
+
 ### `forumaker-magicbb` (missing)
 
 #### [`forumaker-magicbb.admin.permissions.bypass_like`](https://weblate.rob006.net/translate/flarum2/forumaker-magicbb/de@formal/?q=context%3A%3D%22forumaker-magicbb.admin.permissions.bypass_like%22)
@@ -5142,6 +5846,22 @@ These strings are translated only in `de@formal`, so there is nothing to inherit
 +Unbekannt
 ```
 
+#### [`forumfortress-flarum.admin.settings.allow_global_fallback_help`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de@formal/?q=context%3A%3D%22forumfortress-flarum.admin.settings.allow_global_fallback_help%22)
+
+> After a regional retry fails, permit the global network. Processing may occur outside the selected region.
+
+```diff
++Wenn ein regionaler Wiederholungsversuch fehlschlägt, aktiviere das globale Netzwerk. Die Verarbeitung kann außerhalb der ausgewählten Region erfolgen.
+```
+
+#### [`forumfortress-flarum.admin.settings.allow_global_fallback_label`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de@formal/?q=context%3A%3D%22forumfortress-flarum.admin.settings.allow_global_fallback_label%22)
+
+> Allow global emergency fallback
+
+```diff
++Globales Notfall-Fallback zulassen
+```
+
 #### [`forumfortress-flarum.admin.settings.api_base_url_label`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de@formal/?q=context%3A%3D%22forumfortress-flarum.admin.settings.api_base_url_label%22)
 
 > Check API base URL
@@ -5164,6 +5884,22 @@ These strings are translated only in `de@formal`, so there is nothing to inherit
 
 ```diff
 +Seiten-API-Schlüssel
+```
+
+#### [`forumfortress-flarum.admin.settings.api_region_help`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de@formal/?q=context%3A%3D%22forumfortress-flarum.admin.settings.api_region_help%22)
+
+> Lock check traffic to a region, or use the recommended global network.
+
+```diff
++Beschränke den Datenverkehr auf eine Region oder nutze das empfohlene globale Netzwerk.
+```
+
+#### [`forumfortress-flarum.admin.settings.api_region_label`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de@formal/?q=context%3A%3D%22forumfortress-flarum.admin.settings.api_region_label%22)
+
+> API region
+
+```diff
++API-Region
 ```
 
 #### [`forumfortress-flarum.admin.settings.block_reject_action_label`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de@formal/?q=context%3A%3D%22forumfortress-flarum.admin.settings.block_reject_action_label%22)
@@ -5252,6 +5988,38 @@ These strings are translated only in `de@formal`, so there is nothing to inherit
 
 ```diff
 +Bevorzugter Edge-Endpunkt
+```
+
+#### [`forumfortress-flarum.admin.settings.region_eu`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de@formal/?q=context%3A%3D%22forumfortress-flarum.admin.settings.region_eu%22)
+
+> European Union only
+
+```diff
++Nur Europäische Union
+```
+
+#### [`forumfortress-flarum.admin.settings.region_global`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de@formal/?q=context%3A%3D%22forumfortress-flarum.admin.settings.region_global%22)
+
+> Global - Recommended
+
+```diff
++Global - Empfohlen
+```
+
+#### [`forumfortress-flarum.admin.settings.region_uk`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de@formal/?q=context%3A%3D%22forumfortress-flarum.admin.settings.region_uk%22)
+
+> United Kingdom only
+
+```diff
++Nur Vereinigtes Königreich
+```
+
+#### [`forumfortress-flarum.admin.settings.region_us`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de@formal/?q=context%3A%3D%22forumfortress-flarum.admin.settings.region_us%22)
+
+> United States only
+
+```diff
++Nur Vereinigte Staaten
 ```
 
 #### [`forumfortress-flarum.admin.settings.registration_email_help`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de@formal/?q=context%3A%3D%22forumfortress-flarum.admin.settings.registration_email_help%22)
@@ -5562,6 +6330,25 @@ These strings are translated only in `de@formal`, so there is nothing to inherit
 
 ```diff
 +{count, plural, one {# Beitrag} other {# Beiträge}}
+```
+
+
+### `linkrobins-birdseye` (missing)
+
+#### [`linkrobins-birdseye.admin.settings.geoip_db_path_help`](https://weblate.rob006.net/translate/flarum2/linkrobins-birdseye/de@formal/?q=context%3A%3D%22linkrobins-birdseye.admin.settings.geoip_db_path_help%22)
+
+> Full path on this server to a MaxMind country database, such as the free GeoLite2-Country.mmdb (download it from maxmind.com under your own account). Used only when no trusted proxy header supplies the country; every lookup happens on this server.
+
+```diff
++Vollständiger Pfad auf diesem Server zu einer MaxMind-Länderdatenbank, beispielsweise der kostenlosen Datei „GeoLite2-Country.mmdb“ (die du unter deinem eigenen Konto von maxmind.com herunterladen kannst). Wird nur verwendet, wenn kein vertrauenswürdiger Proxy-Header das Land angibt; jede Auflösung erfolgt lokal auf diesem Server.
+```
+
+#### [`linkrobins-birdseye.admin.settings.geoip_db_path_label`](https://weblate.rob006.net/translate/flarum2/linkrobins-birdseye/de@formal/?q=context%3A%3D%22linkrobins-birdseye.admin.settings.geoip_db_path_label%22)
+
+> Country database file (optional)
+
+```diff
++Datei mit Länderdatenbank (optional)
 ```
 
 

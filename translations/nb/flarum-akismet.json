@@ -3,6 +3,7 @@
         "admin": {
             "akismet_settings": {
                 "api_key_label": "API nøkkel",
+                "invalid_api_key_message": "",
                 "title": "Akismet innstillinger",
                 "delete_blatant_spam_label": "Slett åpenbar spam automatisk",
                 "delete_blatant_spam_help": "Hvis Akismet har fastslått at kommentaren er åpenbar spam, i stedet for å flagge, slett innlegget automatisk"

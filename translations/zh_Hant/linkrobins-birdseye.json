@@ -4,6 +4,10 @@
             "dashboard": {
                 "title": "分析",
                 "range_7d": "7 天",
+                "history": "",
+                "by_month": "",
+                "by_year": "",
+                "so_far": "",
                 "range_30d": "30 天",
                 "visitors": "訪客",
                 "pageviews": "瀏覽量",
@@ -64,28 +68,22 @@
             }
         },
         "admin": {
-            "status_active_waiting": "",
-            "status_active_seen": "",
-            "status_no_key": "",
-            "status_incomplete": "",
-            "status_canceled": "",
-            "status_invalid_key": "",
-            "status_bound_elsewhere": "",
-            "status_unreachable": "",
             "permissions": {
                 "view_stats_label": "檢視論壇分析"
             },
             "settings": {
                 "collect_label": "收集分析資料",
                 "collect_help": "暫停收集分析資料，而不需停用此擴充功能。已收集的統計資料仍可正常顯示。",
-                "license_key_label": "授權金鑰",
-                "license_key_help": "來自 linkrobins.com 的 Birdseye 訂閱授權。未填入授權金鑰時，擴充功能僅會在本機記錄基本的每日統計資料。儲存授權金鑰後，系統會立即與 Birdseye 驗證，幾秒鐘內即可在儀表板看到論壇已成功連線。",
                 "geo_ip_prefix_label": "使用匿名化 IP 前綴查詢國家",
                 "geo_ip_prefix_help": "當代理伺服器未提供國家代碼標頭時，系統會在 72 小時緩衝區中保留截斷後的 IP 前綴（絕不儲存完整 IP），以便解析訪客所在國家。若停用此功能，非代理流量將不會產生國家統計資料。",
+                "geoip_db_path_label": "",
+                "geoip_db_path_help": "",
                 "country_header_label": "可信任的國家代碼標頭",
                 "country_header_help": "代理伺服器提供訪客兩位字母國家代碼的 HTTP 標頭，例如 Cloudflare 使用 CF-IPCountry，或 nginx-geoip 可使用 X-Country。系統會直接信任此標頭，因此請僅填寫由您的代理伺服器實際提供的標頭名稱；若沒有，請留空並改用匿名化 IP 前綴解析。",
                 "weekly_digest_label": "每週電子郵件摘要",
-                "weekly_digest_help": "每週一寄送上週統計摘要給管理員，包括訪客數、瀏覽量、文章數、新會員數、熱門討論及熱門搜尋。郵件由論壇自己的郵件系統寄送，不會將任何資料傳送至外部服務。"
+                "weekly_digest_help": "每週一寄送上週統計摘要給管理員，包括訪客數、瀏覽量、文章數、新會員數、熱門討論及熱門搜尋。郵件由論壇自己的郵件系統寄送，不會將任何資料傳送至外部服務。",
+                "license_key_label": "授權金鑰",
+                "license_key_help": "來自 linkrobins.com 的 Birdseye 訂閱授權。未填入授權金鑰時，擴充功能僅會在本機記錄基本的每日統計資料。儲存授權金鑰後，系統會立即與 Birdseye 驗證，幾秒鐘內即可在儀表板看到論壇已成功連線。"
             }
         },
         "email": {

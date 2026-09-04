@@ -50,6 +50,8 @@
                     "cdn_url_help": "URL entera hacia el archivo CSS FontAwesome en una CDN",
                     "kit_url_label": "Kit URL",
                     "kit_url_help": "Tu URL del script FontAwesome Kit (desde kit.fontawesome.com)",
+                    "forced_style_label": "",
+                    "forced_style_help": "",
                     "config_override": {
                         "label": "Anular configuración",
                         "help": "Las configuraciones de FontAwesome están en el archivo config.php y no pueden ser cambiadas acá."
@@ -67,6 +69,10 @@
                     "search_configuration": "Buscar configuración para usar"
                 },
                 "queue": {
+                    "pause_label": "",
+                    "pause_all_label": "",
+                    "pause_queue_label": "",
+                    "pause_help": "",
                     "section_label": "Cola",
                     "sync_info": "Tu foro está usando controlador de cola síncrono. Jobs se procesan inmediatamente en el hilo principal del proceso.",
                     "sync_help": "Para un mejor rendimiento y experiencia de usuario, considere usar el controlador de cola de base de datos. Obtenga más información en la documentación.",
@@ -89,7 +95,9 @@
                     "driver_options": {
                         "default": ""
                     },
-                    "no_other_drivers": ""
+                    "no_other_drivers": "",
+                    "cjk_mode_label": "",
+                    "cjk_mode_help": ""
                 },
                 "title": ""
             },
@@ -118,6 +126,8 @@
                 "logo_text": "Subí una imagen para que sea mostrada en lugar del titulo del foro.",
                 "logo_dark_mode_heading": "",
                 "logo_dark_mode_text": "",
+                "show_theme_selector_help": "",
+                "show_theme_selector_label": "",
                 "title": "Apariencia",
                 "color_scheme_label": "",
                 "color_schemes": {
@@ -195,7 +205,26 @@
                 "title": "Anuncios",
                 "view_all": "Ver todo en discuss.flarum.org"
             },
+            "queue_widget": {
+                "title": "",
+                "pending": "",
+                "reserved": "",
+                "failed": "",
+                "refresh": ""
+            },
+            "failed_jobs": {
+                "title": "",
+                "none": "",
+                "meta": "",
+                "details": "",
+                "retry": "",
+                "retry_all": "",
+                "delete": ""
+            },
             "dashboard": {
+                "queue_paused_warning": "",
+                "queue_paused_all_warning": "",
+                "queue_paused_manage": "",
                 "clear_cache_button": "Limpiar caché",
                 "description": "Tu foro de un vistazo.",
                 "info_button": "Información del sistema",
@@ -241,6 +270,10 @@
             "database-driver-mismatch-warning": {
                 "detail": "",
                 "label": ""
+            },
+            "database-version-warning": {
+                "below-recommended-detail": "",
+                "below-recommended-label": ""
             },
             "debug-warning": {
                 "detail": "",
@@ -583,7 +616,8 @@
                 "search_role_label": "",
                 "session_dropdown_accessible_label": "",
                 "settings_button": "",
-                "sign_up_link": ""
+                "sign_up_link": "",
+                "theme_switcher_accessible_label": ""
             },
             "index": {
                 "all_discussions_link": "",
@@ -597,12 +631,14 @@
                 "toggle_sidenav_dropdown_accessible_label": ""
             },
             "index_sort": {
+                "az_button": "",
                 "latest_button": "",
                 "newest_button": "",
                 "oldest_button": "",
                 "relevance_button": "",
                 "toggle_dropdown_accessible_label": "",
-                "top_button": ""
+                "top_button": "",
+                "za_button": ""
             },
             "log_in": {
                 "forgot_password_link": "",
@@ -772,6 +808,7 @@
             }
         },
         "lib": {
+            "connection_restored_message": "",
             "debug_button": "",
             "alert": {
                 "dismiss_a11y_label": ""
@@ -812,7 +849,9 @@
                 "generic_message": "",
                 "generic_cross_origin_message": "",
                 "missing_dependencies_message": "",
+                "network_message": "",
                 "not_found_message": "",
+                "offline_message": "",
                 "payload_too_large_message": "",
                 "permission_denied_message": "",
                 "rate_limit_exceeded_message": "",
@@ -874,7 +913,8 @@
                 "placeholder": ""
             },
             "nav": {
-                "drawer_button": ""
+                "drawer_button": "",
+                "pin_pane_button": ""
             },
             "notices": {
                 "bisecting": "",
@@ -882,9 +922,21 @@
                 "maintenance_mode_low": "",
                 "maintenance_mode_safe": ""
             },
+            "index_sort": {
+                "az_button": "",
+                "latest_button": "",
+                "newest_button": "",
+                "oldest_button": "",
+                "relevance_button": "",
+                "top_button": "",
+                "za_button": ""
+            },
             "number_suffix": {
                 "kilo_text": "",
                 "mega_text": ""
+            },
+            "overflowing_list": {
+                "toggle_accessible_label": ""
             },
             "pagination": {
                 "back_button": "",
@@ -903,6 +955,7 @@
                 "options_heading": "",
                 "placeholder": "",
                 "preview_heading": "",
+                "search_active_button_accessible_label": "",
                 "search_clear_button_accessible_label": ""
             },
             "search_source": {
@@ -1101,6 +1154,7 @@
             "light_hc_mode_label": "",
             "light_mode_label": "",
             "load_more": "",
+            "latest": "",
             "loading": "",
             "log_in": "",
             "log_out": "",
@@ -1130,6 +1184,9 @@
             "sign_up": "",
             "some_others": "",
             "start_a_discussion": "",
+            "title_az": "",
+            "title_za": "",
+            "top": "",
             "username": "",
             "username_or_email_placeholder": "",
             "users": "",

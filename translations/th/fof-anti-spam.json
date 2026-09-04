@@ -12,6 +12,8 @@
                     "enabled_label": "",
                     "enabled_help": "",
                     "user_targeting_heading": "",
+                    "monitor_all_users_label": "",
+                    "monitor_all_users_help": "",
                     "monitor_post_count_label": "",
                     "monitor_post_count_help": "",
                     "monitor_hours_old_label": "",
@@ -75,6 +77,13 @@
                     "region_us_label": "สหรัฐอเมริกา",
                     "confidence_label": "ความมั่นใจ (Confidence)",
                     "confidence_help": "คะแนนความมั่นใจเป็นตัวชี้วัดที่ค่อนข้างดีว่าข้อมูลที่กำลังทดสอบจะทำให้เกิดสแปม กำหนดระดับความมั่นใจของคุณเป็นเปอร์เซ็นต์ หากมีค่าเท่ากับหรือสูงกว่าระดับนี้ การลงทะเบียนจะถูกบล็อก โดยไม่ขึ้นกับการตรวจสอบ 'ความถี่' ข้างต้น",
+                    "blocked_asns_label": "",
+                    "blocked_asns_help": "",
+                    "max_listing_age_label": "",
+                    "max_listing_age_help": "",
+                    "registration_throttle_label": "",
+                    "registration_throttle_help": "",
+                    "lookup_failed": "",
                     "email_hash_label": "ใช้ที่อยู่อีเมลแบบเข้ารหัสแฮช (Hashed Email)",
                     "email_hash_help": "ส่งค่าแฮช MD5 ของอีเมลแทนที่จะส่งตัวอีเมลจริง วิธีนี้จะข้ามรายการแบล็กลิสต์ทั้งหมด การแปลงค่าให้เป็นมาตรฐาน และการตรวจสอบการอำพรางค่าต่างๆ",
                     "block_tor_exit_nodes_label": "",
@@ -84,6 +93,19 @@
                     "report_blocked_registrations_label": "รายงานการลงทะเบียนที่ถูกบล็อก",
                     "report_blocked_registrations_help": "เมื่อการลงทะเบียนถูกบล็อกโดยฟีเจอร์ตรวจสอบการลงทะเบียน เราจะส่งรายงานความพยายามนั้นกลับไปยัง StopForumSpam เพื่อช่วยยืนยันพฤติกรรมของผู้ส่งสแปม จำเป็นต้องตั้งค่า StopForumSpam API key ก่อน (ดูด้านล่าง)"
                 }
+            },
+            "statistics": {
+                "heading": "",
+                "total_label": "",
+                "registrations_blocked": "",
+                "users_marked": "",
+                "posts_flagged": "",
+                "awaiting_review": "",
+                "this_week": "",
+                "vs_last_week": "",
+                "top_reason": "",
+                "view_all": "",
+                "failed": ""
             },
             "blocked_registrations": {
                 "button": "การลงทะเบียนที่ถูกบล็อก",
@@ -97,7 +119,62 @@
                 "login-provider": "ผู้ให้บริการเข้าระบบ",
                 "login-provider-data": "ข้อมูลผู้ให้บริการเข้าระบบ",
                 "sfs-data": "ข้อมูล StopForumSpam",
-                "delete_entry": "ลบรายการ"
+                "reasons": "",
+                "delete_entry": "ลบรายการ",
+                "total": "",
+                "filters": {
+                    "placeholder": "",
+                    "apply": "",
+                    "clear": "",
+                    "hint": "",
+                    "no-matches": "",
+                    "help": {
+                        "toggle": "",
+                        "multiple": "",
+                        "negate": "",
+                        "ip": "",
+                        "email": "",
+                        "username": "",
+                        "provider": "",
+                        "reason": "",
+                        "attemptedAt": ""
+                    }
+                },
+                "evidence": {
+                    "label": "",
+                    "none": "",
+                    "lookup_failed": "",
+                    "blocked_by": "",
+                    "rule": {
+                        "confidence": "",
+                        "frequency": "",
+                        "blacklisted": "",
+                        "torExit": "",
+                        "deniedAsn": ""
+                    },
+                    "field": {
+                        "ip": "",
+                        "email": "",
+                        "username": ""
+                    },
+                    "badge": {
+                        "blacklisted": "",
+                        "tor_exit": "",
+                        "not_listed": "",
+                        "confidence": "",
+                        "frequency": "",
+                        "last_seen": "",
+                        "asn": "",
+                        "normalized": ""
+                    }
+                },
+                "raw_data": {
+                    "button": "",
+                    "title": "",
+                    "copy": "",
+                    "copied": "",
+                    "copy_failed": ""
+                }
             }
         },
         "forum": {
@@ -105,6 +182,9 @@
                 "flagged_as_spam_text": ""
             },
             "message": {
+                "profile": {
+                    "blocked": ""
+                },
                 "stopforumspam": {
                     "blocked": "พบข้อมูลรายละเอียดการลงทะเบียนของคุณในฐานข้อมูลป้องกันสแปม ดังนั้นการลงทะเบียนของคุณจึงถูกบล็อก"
                 }

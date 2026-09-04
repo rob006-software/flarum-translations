@@ -3,12 +3,13 @@
         "admin": {
             "akismet_settings": {
                 "api_key_label": "API-nyckel",
+                "invalid_api_key_message": "Akismet avvisade denna API-nyckel. Kontrollera den mot ditt Akismet-konto och försök igen.",
                 "title": "Inställningar för Akismet",
                 "delete_blatant_spam_label": "Radera påtaglig spam automatiskt",
                 "delete_blatant_spam_help": "Om Akismet har markerat kommentaren som påtaglig spam, radera kommentaren direkt"
             },
             "permissions": {
-                "bypass_akismet": "Sidsteppa Akismet"
+                "bypass_akismet": "Förbigå Akismet"
             }
         },
         "forum": {

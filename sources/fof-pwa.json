@@ -1,0 +1,134 @@
+{
+    "fof-pwa": {
+        "admin": {
+            "nav": {
+                "pwa_button": "Progressive Web App",
+                "pwa_text": "Configure Flarum to run as a Progressive Web App, installable on mobile devices."
+            },
+            "pwa": {
+                "about": {
+                    "description_label": "Description",
+                    "description_text": "You can set the description on the 'Basics' page in your admin dashboard.",
+                    "long_name_label": "Long name",
+                    "long_name_text": "The name of the web application displayed to the user.",
+                    "heading": "About",
+                    "short_name_label": "Short name",
+                    "short_name_text": "The name of the application displayed to the user when there is not enough space for the long name."
+                },
+                "colors": {
+                    "heading": "Colors",
+                    "background_color_label": "Background color",
+                    "background_color_text": "This is used as a placeholder color for the splash screen displayed while your PWA is loading. It is not used once the app has loaded.",
+                    "theme_color_label": "Theme color",
+                    "theme_color_text": "This color is sometimes used by devices when displaying your app, for example on Android's task switcher as the color surrounding the site."
+                },
+                "maintenance": {
+                    "heading": "Maintenance",
+                    "debug_label": "Enable debug mode",
+                    "debug_text": "This will log info about notifications to `storage/logs`. It should generally be disabled to avoid filling up logs unnecessarily.",
+                    "reset_vapid_button": "Reset VAPID keys",
+                    "reset_vapid_text": "This will regenerate VAPID keys and delete any existing subscriptions using the current VAPID keys.",
+                    "reset_vapid_confirm": "Resetting VAPID keys will remove any subscriptions using the existing keys, so users won't receive any notifications until the next time they visit your site. This should only be done when setting up push notifications for the first time, or if push notifications aren't working at all and there's a warning about missing VAPID keys above.",
+                    "reset_vapid_success": "Successfully reset VAPID keys. {count} subscriptions were reset. Reload the page to see an updated status check report."
+                },
+                "firebase_config": {
+                    "heading": "Firebase",
+                    "help_text": "To add support for push notifications when publishing your app in the Apple App Store, you need to use Firebase to add push notifications to your application. Please generate your Firebase Service Config and upload it here. <a>See the documentation</a>.",
+                    "upload_successful": "Your Firebase config has been uploaded successfully.",
+                    "upload_file": "Upload file"
+                },
+                "other": {
+                    "heading": "Other",
+                    "force_portrait_text": "Force portrait orientation",
+                    "push_notif_preference_default_to_email_label": "Default push preferences to email",
+                    "push_notif_preference_default_to_email_text": "If enabled, users will have push notifications enabled by default for all notification types where email notifications are enabled by default. If disabled, users will have push notifications disabled by default.",
+                    "user_max_subscriptions_label": "Max push subscriptions per user",
+                    "user_max_subscriptions_text": "How many push subscriptions should each user be able to have at a time? When a user receives a push notification, each subscription results in an API call. Each subscription typically corresponds to a browser the user has used.",
+                    "window_controls_overlay_label": "Enable Window Controls Overlay",
+                    "window_controls_overlay_text": "If enabled, users can get a more immersive, native-like experience by hiding the native title bar. Whether Window Controls Overlay is actually applied depends on the user's preference and browser compatibility. You must customize your title bar with CSS/JS after enabling this, otherwise the controls will overlay elements of your forum's top navbar and the window will be nearly impossible to drag, resulting in a bad experience.\n\nSee also: <compatibilitylink>Window Controls Overlay browser compatibility</compatibilitylink> & <learnlink>About Window Controls Overlay on Microsoft Learn</learnlink>\n",
+                    "share_buttons_label": "Enable share buttons",
+                    "share_buttons_text": "If enabled, a \"Share\" button will be added to discussions, posts, and users."
+                },
+                "heading": "Progressive Web App Configuration",
+                "text": "Configure your Flarum site to run as a progressive web app! Please note that this doesn't automatically put your site in the app store. Instead, it gives users an 'Add to Home Screen' option for your site. We provide some status checks, but the best way to test this is to try installing it yourself (search the web for instructions on installing progressive web apps). Keep in mind that 'install this PWA' prompts are controlled by browsers and cannot be triggered by developers, admins, or programs. Consider including PWA installation instructions in your site's documentation.",
+                "status_check_heading": "Status Check",
+                "logo_heading": "Logos and Icons",
+                "logo_text": "You must upload at least one logo for your progressive web app to be installable. Please note that all logos must be square; if they are not, they will be resized and possibly stretched.\n\nSeveral size options are available below. We recommend uploading a logo for as many of them as possible, as this supports more devices.\n\nYou can upload one large logo to the inputs for smaller sizes. For instance, you can upload a 1000x1000px logo to ALL the file inputs below. However, if you upload a 50x50px logo to the 512x512 input, it will be stretched significantly.\n",
+                "logo_size_text": "Upload a logo which will be scaled to {size} by {size} pixels.",
+                "submit_button": "Save Settings",
+                "refreshed_message": "PWA config refreshed successfully."
+            },
+            "status": {
+                "config_no_https": "The URL in your config.php file isn't using HTTPS. HTTPS is required for Progressive Web Apps to work.",
+                "possible_https_disabled": "Your site might not be running on HTTPS. Clearing your cache (admin dashboard => tools button) might help. If it is, ignore this. If it isn't, keep in mind that HTTPS is required for Progressive Web Apps to work.",
+                "no_logo": "You must upload at least one logo, with a size of at least 144x144px, for the PWA to be installable.",
+                "no_name": "You must provide a full name for your app to work.",
+                "no_vapid_keys": "No VAPID keys found. These are required for push notifications to be sent. You can reset VAPID keys below.",
+                "key_gen_failed": "Generation of the keys needed for push notifications has failed. The full error message was: {error}",
+                "suggest_gmp": "The gmp PHP extension doesn't seem to be enabled on your server. It's not strictly necessary, but it can improve performance and is recommended. Some shared hosts might not support it, though.",
+                "success": "No potential issues found!"
+            }
+        },
+        "forum": {
+            "alerts": {
+                "optin": "This forum can send push notifications to this device. Would you like to enable them?",
+                "optin_enable_button": "Enable",
+                "optin_success": "Push notifications have been enabled on this device.",
+                "optin_declined": "Push notifications were blocked. You can allow them later in your browser settings.",
+                "optin_deferred": "Push notifications were not enabled. You can enable them later in your notification settings."
+            },
+            "discussion_controls": {
+                "share_button": "Share"
+            },
+            "post_controls": {
+                "share_button": "Share",
+                "share_api": {
+                    "title": "{username}'s reply to {title}"
+                }
+            },
+            "user_controls": {
+                "share_button": "Share"
+            },
+            "settings": {
+                "push_header": "Push",
+                "pwa_notifications": {
+                    "access_default": "Due to browser restrictions, you must opt in to receive push notifications on this device.",
+                    "access_default_button": "Opt In",
+                    "access_denied": "You must adjust your browser settings to receive push notifications on this device.",
+                    "access_denied_button": "Learn How",
+                    "no_browser_support": "This browser does not support push notifications for progressive web apps.",
+                    "no_browser_support_button": "Learn More"
+                }
+            },
+            "notifications_help": {
+                "browser_notifications_title": "How to Enable Browser Notifications",
+                "title": "Enable Push Notifications",
+                "description": "If you previously blocked notifications, follow the instructions below to re-enable them on your device.",
+                "chromium_title": "Google Chrome, Microsoft Edge, and Android",
+                "chromium_instructions": "Click the site information icon (the padlock or tune icon) next to the web address in your browser. Select \"Site settings\" (or \"Permissions\"), find \"Notifications\", and change the setting to \"Allow\".",
+                "firefox_title": "Mozilla Firefox",
+                "firefox_instructions": "Click the padlock icon next to the web address. If \"Notifications\" is marked as \"Blocked\", click the \"X\" next to it to remove the restriction. Refresh the page and allow notifications when prompted.",
+                "safari_mac_title": "Apple Safari (macOS)",
+                "safari_mac_instructions": "Open the Safari menu at the top of the screen and select \"Settings\" (or \"Preferences\"). Click the \"Websites\" tab, select \"Notifications\" in the left sidebar, find this forum in the list, and change the setting to \"Allow\".",
+                "safari_ios_title": "Apple iPhone and iPad (iOS/iPadOS)",
+                "safari_ios_instructions": "Push notifications on iOS require the app to be installed. In Safari, tap the \"Share\" icon and select \"Add to Home Screen\". Then open the newly installed app. If notifications are blocked, open the iOS \"Settings\" app, go to \"Notifications\", select this web app from the list, and turn on \"Allow Notifications\"."
+            }
+        },
+        "views": {
+            "offline": {
+                "header": "Network connection error",
+                "text": "This app requires a network connection; it cannot be used offline. Please check your connection."
+            }
+        }
+    },
+    "flarum-gdpr": {
+        "lib": {
+            "data": {
+                "pushsubscriptions": {
+                    "export_description": "Exports all push notification subscriptions and device tokens associated with the user.",
+                    "delete_description": "Deletes all push notification subscriptions and device tokens associated with the user."
+                }
+            }
+        }
+    }
+}

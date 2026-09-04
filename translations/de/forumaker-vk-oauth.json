@@ -2,24 +2,24 @@
     "fof-oauth": {
         "lib": {
             "providers": {
-                "vk": ""
+                "vk": "VK"
             }
         },
         "forum": {
             "providers": {
-                "vk": ""
+                "vk": "VK"
             },
             "log_in": {
-                "with_vk_button": ""
+                "with_vk_button": "Mit VK anmelden"
             }
         },
         "admin": {
             "settings": {
                 "providers": {
                     "vk": {
-                        "description": "",
-                        "client_id_label": "",
-                        "client_secret_label": ""
+                        "description": "Erstelle eine App unter https://id.vk.ru/about/business/go/accounts",
+                        "client_id_label": "Client-ID",
+                        "client_secret_label": "Sicherer Schlüssel"
                     }
                 }
             }

@@ -2,8 +2,8 @@
     "pianotell-flamoji": {
         "admin": {
             "settings": {
-                "emoji_settings_heading": "",
-                "category_settings_heading": "",
+                "emoji_settings_heading": "تنظیمات ایموجی",
+                "category_settings_heading": "تنظیمات دسته‌بندی",
                 "general_ui_settings_heading": "",
                 "show_variants_label": "",
                 "show_variants_text": "",
@@ -31,19 +31,19 @@
                 "picker_set_label": "",
                 "picker_set_text": "",
                 "picker_set_auto": "",
-                "picker_set_twemoji": "",
+                "picker_set_twemoji": "Twemoji",
                 "picker_set_native": "",
                 "specify_categories_label": "",
                 "specify_categories_text": "",
                 "emoji_categories": {
-                    "people": "",
-                    "nature": "",
-                    "foods": "",
-                    "activity": "",
-                    "places": "",
-                    "objects": "",
-                    "symbols": "",
-                    "flags": ""
+                    "people": "=> pianotell-flamoji.ref.emoji_categories.people",
+                    "nature": "=> pianotell-flamoji.ref.emoji_categories.nature",
+                    "foods": "=> pianotell-flamoji.ref.emoji_categories.foods",
+                    "activity": "=> pianotell-flamoji.ref.emoji_categories.activity",
+                    "places": "=> pianotell-flamoji.ref.emoji_categories.places",
+                    "objects": "=> pianotell-flamoji.ref.emoji_categories.objects",
+                    "symbols": "=> pianotell-flamoji.ref.emoji_categories.symbols",
+                    "flags": "=> pianotell-flamoji.ref.emoji_categories.flags"
                 }
             },
             "custom_emojis_section": {
@@ -80,7 +80,7 @@
         "forum": {
             "composer": {
                 "emoji_picker_label": "",
-                "emoji_tooltip": "",
+                "emoji_tooltip": "درج اموجی",
                 "picker_loading": "",
                 "picker_load_error": "",
                 "picker_load_retry": ""
@@ -93,38 +93,38 @@
                 "add_custom": "",
                 "category_search": "",
                 "skin_tone_choose": "",
-                "skin_tone_default": "",
+                "skin_tone_default": "پیش‌فرض",
                 "skin_tone_light": "",
                 "skin_tone_medium_light": "",
                 "skin_tone_medium": "",
                 "skin_tone_medium_dark": "",
                 "skin_tone_dark": "",
                 "categories": {
-                    "frequent": "",
-                    "people": "",
-                    "nature": "",
-                    "foods": "",
-                    "activity": "",
-                    "places": "",
-                    "objects": "",
-                    "symbols": "",
-                    "flags": "",
-                    "custom": ""
+                    "frequent": "=> pianotell-flamoji.ref.emoji_categories.frequent",
+                    "people": "=> pianotell-flamoji.ref.emoji_categories.people",
+                    "nature": "=> pianotell-flamoji.ref.emoji_categories.nature",
+                    "foods": "=> pianotell-flamoji.ref.emoji_categories.foods",
+                    "activity": "=> pianotell-flamoji.ref.emoji_categories.activity",
+                    "places": "=> pianotell-flamoji.ref.emoji_categories.places",
+                    "objects": "=> pianotell-flamoji.ref.emoji_categories.objects",
+                    "symbols": "=> pianotell-flamoji.ref.emoji_categories.symbols",
+                    "flags": "=> pianotell-flamoji.ref.emoji_categories.flags",
+                    "custom": "=> pianotell-flamoji.ref.emoji_categories.custom"
                 }
             }
         },
         "ref": {
             "emoji_categories": {
-                "frequent": "",
-                "people": "",
-                "nature": "",
-                "foods": "",
-                "activity": "",
-                "places": "",
-                "objects": "",
-                "symbols": "",
-                "flags": "",
-                "custom": ""
+                "frequent": "استفاده‌ی مکرر",
+                "people": "اسمایل‌ها و مردم",
+                "nature": "حیوانات و طبیعت",
+                "foods": "خوراک و نوشیدنی",
+                "activity": "فعالیت‌ها",
+                "places": "مسافرت و مکان‌ها",
+                "objects": "اشیا",
+                "symbols": "نمادها",
+                "flags": "پرچم‌ها",
+                "custom": "سفارشی"
             }
         }
     }

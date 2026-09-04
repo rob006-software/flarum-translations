@@ -4,6 +4,14 @@
             "loading": "",
             "search_tags": "",
             "settings": {
+                "spinner_option_avocado": "",
+                "spinner_option_orbital": "",
+                "spinner_option_css_orbital": "",
+                "spinner_option_ditie": "",
+                "spinner_option_b2": "",
+                "spinner_option_flarum": "",
+                "spinner_option_pl3": "",
+                "spinner_option_custom": "",
                 "section_homepage": "",
                 "section_auth": "",
                 "section_search": "",
@@ -70,6 +78,7 @@
                 "custom_hero_enabled_help": "",
                 "custom_hero_html_label": "",
                 "custom_hero_html_help": "",
+                "custom_hero_html_placeholder": "",
                 "search_v1_label": "",
                 "search_v1_help": "",
                 "bookmarks_enabled_label": "",
@@ -164,6 +173,7 @@
             }
         },
         "forum": {
+            "loading": "",
             "back": "",
             "profile": {
                 "joined": "",
@@ -217,7 +227,8 @@
                 "results_for": "",
                 "tip": "",
                 "tip_suffix": "",
-                "esc_key": ""
+                "esc_key": "",
+                "close": ""
             },
             "header": {
                 "back": "",
@@ -299,7 +310,9 @@
                 "discussion_singular_card": "",
                 "discussion_plural_card": "",
                 "yesterday_time": "",
-                "showcase_heading": ""
+                "showcase_heading": "",
+                "ws_update_singular": "",
+                "ws_update_plural": ""
             },
             "discussions": {
                 "title": "",
@@ -361,7 +374,8 @@
                 "message": ""
             },
             "post": {
-                "op_badge": ""
+                "op_badge": "",
+                "copy_code": ""
             },
             "messages": {
                 "deleted_message": ""
@@ -400,6 +414,22 @@
                 "load_more": "",
                 "online": ""
             }
+        },
+        "api": {
+            "invalid_discussion_id": "",
+            "discussion_not_found": "",
+            "invalid_note": "",
+            "note_too_long": "",
+            "invalid_reminder_date": "",
+            "reminder_must_be_future": "",
+            "reminder_too_far": "",
+            "file_not_readable": "",
+            "no_file_uploaded": "",
+            "file_too_large": "",
+            "unsupported_image_type": "",
+            "svg_forbidden_declaration": "",
+            "svg_parse_failed": "",
+            "svg_invalid": ""
         }
     }
 }

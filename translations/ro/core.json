@@ -50,6 +50,8 @@
                     "cdn_url_help": "URL complet către fișierul CSS FontAwesome de pe un CDN",
                     "kit_url_label": "URL Kit",
                     "kit_url_help": "URL-ul scriptului tău FontAwesome Kit (de pe kit.fontawesome.com)",
+                    "forced_style_label": "",
+                    "forced_style_help": "",
                     "config_override": {
                         "label": "Suprascriere Configurare",
                         "help": "Setările FontAwesome sunt configurate în prezent în fișierul tău config.php și nu pot fi modificate aici."
@@ -67,6 +69,10 @@
                     "search_configuration": "Configurația de căutare de utilizat"
                 },
                 "queue": {
+                    "pause_label": "",
+                    "pause_all_label": "",
+                    "pause_queue_label": "",
+                    "pause_help": "",
                     "section_label": "Coadă",
                     "sync_info": "Forumul tău utilizează driverul de coadă sincron. Joburile sunt procesate imediat în firul principal de execuție.",
                     "sync_help": "Pentru o performanță și o experiență de utilizare mai bună, ia în considerare utilizarea driverului de coadă prin baza de date. Află mai multe în documentație.",
@@ -89,7 +95,9 @@
                     "driver_options": {
                         "default": "Căutare implicită în baza de date"
                     },
-                    "no_other_drivers": "Niciun driver de căutare nu este disponibil încă. Instalați o extensie de driver de căutare pentru a-l putea configura."
+                    "no_other_drivers": "Niciun driver de căutare nu este disponibil încă. Instalați o extensie de driver de căutare pentru a-l putea configura.",
+                    "cjk_mode_label": "",
+                    "cjk_mode_help": ""
                 },
                 "title": "Avansat"
             },
@@ -118,6 +126,8 @@
                 "logo_text": "Încărcați o imagine care va înlocui titlul forumului.",
                 "logo_dark_mode_heading": "Logo pentru modul întunecat",
                 "logo_dark_mode_text": "Încărcați un logo alternativ care să fie afișat atunci când modul întunecat este activat.",
+                "show_theme_selector_help": "",
+                "show_theme_selector_label": "",
                 "title": "Aspect",
                 "color_scheme_label": "Schemă de culori (implicită)",
                 "color_schemes": {
@@ -195,7 +205,26 @@
                 "title": "Anunțuri",
                 "view_all": "Vezi toate pe discuss.flarum.org"
             },
+            "queue_widget": {
+                "title": "",
+                "pending": "",
+                "reserved": "",
+                "failed": "",
+                "refresh": ""
+            },
+            "failed_jobs": {
+                "title": "",
+                "none": "",
+                "meta": "",
+                "details": "",
+                "retry": "",
+                "retry_all": "",
+                "delete": ""
+            },
             "dashboard": {
+                "queue_paused_warning": "",
+                "queue_paused_all_warning": "",
+                "queue_paused_manage": "",
                 "clear_cache_button": "Ștergere memoria cache",
                 "description": "Forumul Dvs. dintr-o privire.",
                 "info_button": "Informații sistem",
@@ -241,6 +270,10 @@
             "database-driver-mismatch-warning": {
                 "detail": "",
                 "label": ""
+            },
+            "database-version-warning": {
+                "below-recommended-detail": "",
+                "below-recommended-label": ""
             },
             "debug-warning": {
                 "detail": "Atunci când modul <code>debug</code> este activ, Flarum își va reconstruii fișierele <code>JavaScript</code> și <code>CSS</code> la fiecare cerere, și ar putea probabil să scurgă și alte informații, cum ar fi secrete ale bazei de date, variabile de mediu, etc.\n\nEste foarte recomandat să dezactivezi <code>debug</code> din fișierul tău <code>config.php</code> în modul producție. Vezi <link>documentația Flarum</link> pentru mai multe informații.\n",
@@ -583,7 +616,8 @@
                 "search_role_label": "Căutare Forum",
                 "session_dropdown_accessible_label": "Comutare meniul derulant cu opțiunile sesiunii",
                 "settings_button": "=> core.ref.settings",
-                "sign_up_link": "=> core.ref.sign_up"
+                "sign_up_link": "=> core.ref.sign_up",
+                "theme_switcher_accessible_label": ""
             },
             "index": {
                 "all_discussions_link": "=> core.ref.all_discussions",
@@ -597,12 +631,14 @@
                 "toggle_sidenav_dropdown_accessible_label": "Comutare meniul derulant de navigare"
             },
             "index_sort": {
+                "az_button": "",
                 "latest_button": "Cele mai actuale",
                 "newest_button": "=> core.ref.newest",
                 "oldest_button": "=> core.ref.oldest",
                 "relevance_button": "=> core.ref.relevance",
                 "toggle_dropdown_accessible_label": "Modificare sortarea listei de discuții",
-                "top_button": "Cele mai citite"
+                "top_button": "Cele mai citite",
+                "za_button": ""
             },
             "log_in": {
                 "forgot_password_link": "Ați uitat parola?",
@@ -772,6 +808,7 @@
             }
         },
         "lib": {
+            "connection_restored_message": "",
             "debug_button": "Depanare",
             "alert": {
                 "dismiss_a11y_label": "Închide"
@@ -812,7 +849,9 @@
                 "generic_message": "Hopa! Ceva nu a mers. Vă rugăm, încărcați pagina din nou (F5) și încercați din nou.",
                 "generic_cross_origin_message": "Hopa! Ceva nu a funcționat corect în timpul unei solicitări între origini (cross-origin). Te rugăm să reîncarci pagina și să încerci din nou.",
                 "missing_dependencies_message": "Extensia {extension} nu poate fi activată până când următoarele dependențe sunt dezactivate: {extensions}",
+                "network_message": "",
                 "not_found_message": "Resursa solicitată nu a fost găsită.",
+                "offline_message": "",
                 "payload_too_large_message": "Datele utile ale cererii au fost prea mari.",
                 "permission_denied_message": "Nu aveți permisiunea de a face acest lucru.",
                 "rate_limit_exceeded_message": "Faceți totul prea rapid. Vă rugăm, încercați din nou peste câteva secunde.",
@@ -874,7 +913,8 @@
                 "placeholder": "Selectați mai multe opțiuni"
             },
             "nav": {
-                "drawer_button": "Deschide panoul de navigare"
+                "drawer_button": "Deschide panoul de navigare",
+                "pin_pane_button": ""
             },
             "notices": {
                 "bisecting": "Rularea unui proces de bisectare a extensiilor pentru a determina care extensie cauzează o problemă.",
@@ -882,9 +922,21 @@
                 "maintenance_mode_low": "Oprit pentru întreținere. Doar administratorii pot accesa forumul.",
                 "maintenance_mode_safe": "Oprit pentru întreținere în modul de siguranță. Doar administratorii pot accesa forumul și nicio extensie nu este încărcată."
             },
+            "index_sort": {
+                "az_button": "",
+                "latest_button": "",
+                "newest_button": "",
+                "oldest_button": "",
+                "relevance_button": "",
+                "top_button": "",
+                "za_button": ""
+            },
             "number_suffix": {
                 "kilo_text": "K",
                 "mega_text": "M"
+            },
+            "overflowing_list": {
+                "toggle_accessible_label": ""
             },
             "pagination": {
                 "back_button": "Pagina anterioară",
@@ -903,6 +955,7 @@
                 "options_heading": "Opțiuni de căutare",
                 "placeholder": "Căutare...",
                 "preview_heading": "Previzualizare căutare",
+                "search_active_button_accessible_label": "",
                 "search_clear_button_accessible_label": "Ștergeți interogarea de căutare"
             },
             "search_source": {
@@ -1101,6 +1154,7 @@
             "light_hc_mode_label": "Modul luminos cu contrast ridicat",
             "light_mode_label": "Modul luminos",
             "load_more": "Încarcă Mai Multe",
+            "latest": "",
             "loading": "Se încarcă...",
             "log_in": "Conectare",
             "log_out": "Deconectare",
@@ -1130,6 +1184,9 @@
             "sign_up": "Înregistrare",
             "some_others": "{count, plural, one {# altul} other {# altele}}",
             "start_a_discussion": "Discuție nouă",
+            "title_az": "",
+            "title_za": "",
+            "top": "",
             "username": "Nume utilizator",
             "username_or_email_placeholder": "Nume utilizator sau E-mail",
             "users": "Utilizatori",

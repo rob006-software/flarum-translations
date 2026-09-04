@@ -2,46 +2,46 @@
     "fof-pages": {
         "admin": {
             "edit_page": {
-                "content_label": "",
-                "content_placeholder": "",
-                "delete_page_button": "",
-                "delete_page_confirmation": "",
-                "hidden_label": "",
-                "restricted_label": "",
-                "html_label": "",
-                "set_as_home_page_confirmation": "",
-                "set_as_home_page_done": "",
-                "slug_label": "",
-                "slug_placeholder": "",
-                "submit_button": "",
-                "title": "",
-                "title_label": "",
-                "title_placeholder": "",
-                "url_label": "",
-                "url_placeholder": ""
+                "content_label": "=> fof-pages.ref.content",
+                "content_placeholder": "=> fof-pages.ref.content",
+                "delete_page_button": "Ta bort sida",
+                "delete_page_confirmation": "Är du säker på att du vill ta bort den här sidan?",
+                "hidden_label": "Spara som utkast",
+                "restricted_label": "Begränsa åtkomst (konfigurera vem som har åtkomst på fliken Behörigheter)",
+                "html_label": "Aktivera HTML",
+                "set_as_home_page_confirmation": "Är du säker på att du vill ange den här sidan som din startsida?",
+                "set_as_home_page_done": "Startsidan uppdaterad",
+                "slug_label": "=> fof-pages.ref.slug",
+                "slug_placeholder": "=> fof-pages.ref.slug",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> fof-pages.ref.create_page",
+                "title_label": "=> fof-pages.ref.title",
+                "title_placeholder": "=> fof-pages.ref.title",
+                "url_label": "=> fof-pages.ref.url",
+                "url_placeholder": "=> fof-pages.ref.url"
             },
             "pages": {
-                "create_button": ""
+                "create_button": "=> fof-pages.ref.create_page"
             },
             "pages_list": {
-                "empty_text": "",
-                "title": ""
+                "empty_text": "Det verkar inte finnas några sidor här.",
+                "title": "=> fof-pages.ref.title"
             },
             "permissions": {
-                "restricted": ""
+                "restricted": "Visa begränsade sidor"
             },
             "badges": {
-                "hidden": "",
-                "restricted": ""
+                "hidden": "Utkast",
+                "restricted": "Begränsad"
             }
         },
         "ref": {
-            "content": "",
-            "create_page": "",
-            "pages": "",
-            "slug": "",
-            "title": "",
-            "url": ""
+            "content": "Innehåll",
+            "create_page": "Skapa sida",
+            "pages": "Sidor",
+            "slug": "Slug",
+            "title": "Titel",
+            "url": "URL"
         }
     }
 }

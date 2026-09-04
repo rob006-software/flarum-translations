@@ -50,6 +50,8 @@
                     "cdn_url_help": "URL lengkap ke berkas CSS FontAwesome di CDN",
                     "kit_url_label": "URL Kit",
                     "kit_url_help": "URL script FontAwesome Kit Anda (dari kit.fontawesome.com)",
+                    "forced_style_label": "",
+                    "forced_style_help": "",
                     "config_override": {
                         "label": "Konfigurasi Pengganti",
                         "help": "Pengaturan FontAwesome saat ini ditetapkan dalam file config.php Anda dan tidak dapat diubah di sini."
@@ -67,6 +69,10 @@
                     "search_configuration": "Konfigurasi pencarian yang akan digunakan"
                 },
                 "queue": {
+                    "pause_label": "",
+                    "pause_all_label": "",
+                    "pause_queue_label": "",
+                    "pause_help": "",
                     "section_label": "",
                     "sync_info": "Forum Anda menggunakan driver synchronous queue. Pekerjaan diproses segera di main process thread.",
                     "sync_help": "Untuk kinerja dan pengalaman pengguna yang lebih baik, pertimbangkan untuk menggunakan driver database queue. Pelajari lebih lanjut di dokumentasi.",
@@ -89,7 +95,9 @@
                     "driver_options": {
                         "default": "Pencarian basis data default"
                     },
-                    "no_other_drivers": "Belum ada driver pencarian yang tersedia. Instal ekstensi driver pencarian agar dapat mengonfigurasinya."
+                    "no_other_drivers": "Belum ada driver pencarian yang tersedia. Instal ekstensi driver pencarian agar dapat mengonfigurasinya.",
+                    "cjk_mode_label": "",
+                    "cjk_mode_help": ""
                 },
                 "title": "Lanjutan"
             },
@@ -118,6 +126,8 @@
                 "logo_text": "Upload gambar untuk ditampilkan sebagai pengganti judul forum.",
                 "logo_dark_mode_heading": "Logo mode gelap",
                 "logo_dark_mode_text": "Upload logo alternatif untuk ditampilkan saat mode gelap diaktifkan.",
+                "show_theme_selector_help": "",
+                "show_theme_selector_label": "",
                 "title": "Tampilan",
                 "color_scheme_label": "Skema Warna (default)",
                 "color_schemes": {
@@ -195,7 +205,26 @@
                 "title": "Pengumuman",
                 "view_all": "Lihat semua di discuss.flarum.org"
             },
+            "queue_widget": {
+                "title": "",
+                "pending": "",
+                "reserved": "",
+                "failed": "",
+                "refresh": ""
+            },
+            "failed_jobs": {
+                "title": "",
+                "none": "",
+                "meta": "",
+                "details": "",
+                "retry": "",
+                "retry_all": "",
+                "delete": ""
+            },
             "dashboard": {
+                "queue_paused_warning": "",
+                "queue_paused_all_warning": "",
+                "queue_paused_manage": "",
                 "clear_cache_button": "Hapus Cache",
                 "description": "Sekilas tentang forum Anda.",
                 "info_button": "Info Sistem",
@@ -241,6 +270,10 @@
             "database-driver-mismatch-warning": {
                 "detail": "",
                 "label": ""
+            },
+            "database-version-warning": {
+                "below-recommended-detail": "",
+                "below-recommended-label": ""
             },
             "debug-warning": {
                 "detail": "Saat mode <code>debug</code> aktif, Flarum akan membangun kembali aset <code>JavaScript</code> dan <code>CSS</code> pada setiap request yang dijalankan, dan juga berpotensi membocorkan informasi lain, seperti rahasia di dalam database, environment variable, dll.\n\nKetika Anda siap untuk masuk ke dalam tahap produksi, sangat disarankan untuk menonaktifkan <code>debug</code> pada file <code>config.php</code> Anda. Lihat <link>Flarum docs</link> untuk informasi lebih lanjut.\n",
@@ -583,7 +616,8 @@
                 "search_role_label": "Cari",
                 "session_dropdown_accessible_label": "Tampilkan/Sembunyikan menu dropdown opsi sesi",
                 "settings_button": "=> core.ref.settings",
-                "sign_up_link": "=> core.ref.sign_up"
+                "sign_up_link": "=> core.ref.sign_up",
+                "theme_switcher_accessible_label": ""
             },
             "index": {
                 "all_discussions_link": "=> core.ref.all_discussions",
@@ -597,12 +631,14 @@
                 "toggle_sidenav_dropdown_accessible_label": "Tampilkan/Sembunyikan menu dropdown navigasi"
             },
             "index_sort": {
+                "az_button": "",
                 "latest_button": "Terkini",
                 "newest_button": "=> core.ref.newest",
                 "oldest_button": "=> core.ref.oldest",
                 "relevance_button": "=> core.ref.relevance",
                 "toggle_dropdown_accessible_label": "Ubah pengurutan daftar diskusi",
-                "top_button": "Top"
+                "top_button": "Top",
+                "za_button": ""
             },
             "log_in": {
                 "forgot_password_link": "Lupa password?",
@@ -772,6 +808,7 @@
             }
         },
         "lib": {
+            "connection_restored_message": "",
             "debug_button": "Debug",
             "alert": {
                 "dismiss_a11y_label": "Singkirkan peringatan"
@@ -812,7 +849,9 @@
                 "generic_message": "Ups! Ada yang tidak beres. Silakan muat ulang halaman dan coba lagi.",
                 "generic_cross_origin_message": "Ups! Terjadi kesalahan saat melakukan cross-origin request. Silakan muat ulang halaman dan coba lagi.",
                 "missing_dependencies_message": "Tidak dapat mengaktifkan {extension} sebelum dependensi berikut diaktifkan: {extensions}",
+                "network_message": "",
                 "not_found_message": "Resource yang diminta tidak ditemukan.",
+                "offline_message": "",
                 "payload_too_large_message": "Request payload terlalu besar.",
                 "permission_denied_message": "Anda tidak memiliki izin untuk melakukan itu.",
                 "rate_limit_exceeded_message": "Anda terlihat terlalu cepat. Silakan coba lagi dalam beberapa detik.",
@@ -874,7 +913,8 @@
                 "placeholder": "Pilih beberapa opsi"
             },
             "nav": {
-                "drawer_button": "Buka Drawer Navigasi"
+                "drawer_button": "Buka Drawer Navigasi",
+                "pin_pane_button": ""
             },
             "notices": {
                 "bisecting": "",
@@ -882,9 +922,21 @@
                 "maintenance_mode_low": "Sedang dalam pemeliharaan. Hanya administrator yang dapat mengakses forum.",
                 "maintenance_mode_safe": "Sedang dalam pemeliharaan dengan mode aman. Hanya administrator yang dapat mengakses forum dan tidak ada ekstensi yang dijalankan."
             },
+            "index_sort": {
+                "az_button": "",
+                "latest_button": "",
+                "newest_button": "",
+                "oldest_button": "",
+                "relevance_button": "",
+                "top_button": "",
+                "za_button": ""
+            },
             "number_suffix": {
                 "kilo_text": "K",
                 "mega_text": "M"
+            },
+            "overflowing_list": {
+                "toggle_accessible_label": ""
             },
             "pagination": {
                 "back_button": "Halaman sebelumnya",
@@ -903,6 +955,7 @@
                 "options_heading": "Opsi pencarian",
                 "placeholder": "Cari...",
                 "preview_heading": "Pratinjau pencarian",
+                "search_active_button_accessible_label": "",
                 "search_clear_button_accessible_label": "Hapus kueri pencarian"
             },
             "search_source": {
@@ -1101,6 +1154,7 @@
             "light_hc_mode_label": "Mode Terang Kontras Tinggi",
             "light_mode_label": "Mode Terang",
             "load_more": "Muat Lainnya",
+            "latest": "",
             "loading": "Memuat...",
             "log_in": "Login",
             "log_out": "Keluar",
@@ -1130,6 +1184,9 @@
             "sign_up": "Daftar",
             "some_others": "{count, plural, one {# lainnya} other {# lainnya}}",
             "start_a_discussion": "Mulai Diskusi",
+            "title_az": "",
+            "title_za": "",
+            "top": "",
             "username": "Username",
             "username_or_email_placeholder": "Username atau Email",
             "users": "Pengguna",

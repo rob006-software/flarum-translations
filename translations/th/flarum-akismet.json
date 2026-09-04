@@ -3,6 +3,7 @@
         "admin": {
             "akismet_settings": {
                 "api_key_label": "API Key",
+                "invalid_api_key_message": "",
                 "title": "การตั้งค่า Akismet",
                 "delete_blatant_spam_label": "ลบสแปมอัตโนมัติ",
                 "delete_blatant_spam_help": "หาก Akismet ระบุว่าเป็นสแปมชัดเจน ระบบจะลบโพสต์นั้นอัตโนมัติแทนการแจ้งเตือน"

@@ -3,6 +3,7 @@
         "admin": {
             "akismet_settings": {
                 "api_key_label": "Clave API",
+                "invalid_api_key_message": "",
                 "title": "Configuración de Akismet",
                 "delete_blatant_spam_label": "Eliminar automáticamente el spam flagrante",
                 "delete_blatant_spam_help": "Si Akismet determina que el comentario es spam descarado, en lugar de marcarlo como spam, elimina automáticamente la publicación"

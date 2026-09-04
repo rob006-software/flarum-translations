@@ -126,6 +126,8 @@
             "ruleset_custom_color_transparent": "",
             "ruleset_no_icon": "ไม่มี",
             "ruleset_scope_type": "ใช้กับ",
+            "ruleset_post_context": "",
+            "ruleset_post_context_help": "",
             "ruleset_scope_tags": "Tag IDs",
             "ruleset_primary_tags": "=> flarum-tags.admin.tags.primary_heading",
             "ruleset_secondary_tags": "=> flarum-tags.admin.tags.secondary_heading",
@@ -188,6 +190,11 @@
                 "frontend": "Frontend",
                 "both": "Frontend + Backend"
             },
+            "post_contexts": {
+                "all": "",
+                "discussion_start": "",
+                "reply": ""
+            },
             "runs": {
                 "global": "",
                 "backend": "",
@@ -245,6 +252,12 @@
             "tokens_available": "Tokens ที่ใช้ได้ — คลิกเพื่อแทรก",
             "tokens_none": "ไม่มี token ที่ใช้ได้ — เพิ่มกฎเพื่อดู token ที่กฎนั้น expose",
             "token_rule_name_desc": "",
+            "token_matched_text_desc": "",
+            "token_matched_word_desc": "",
+            "token_matched_pattern_desc": "",
+            "token_matched_string_desc": "",
+            "token_matched_group_desc": "",
+            "token_word_count_desc": "",
             "type_contains_word": "มีคำ/วลี",
             "type_regex": "ตรงกับ regex pattern",
             "type_group": "",
@@ -276,6 +289,7 @@
             "rule_scan_all": "หาทุก match",
             "rule_scan_all_help": "หากเปิดใช้งาน กฎนี้จะรวบรวมคำหรือ pattern ทุกตัวที่ตรงกันใน list หากปิด จะส่งคืนเร็วเมื่อพบ match แรกเพื่อประหยัดเวลาประมวลผล",
             "rule_regex_warning": "Regex pattern ทำงานฝั่ง server ทุกครั้งที่บันทึกโพสต์ หลีกเลี่ยง catastrophic backtracking (เช่น nested quantifiers อย่าง (a+)+) — ทำ pattern ให้เรียบง่ายและ anchor ให้ดี",
+            "token_badge_universal": "",
             "validation": {
                 "name_required": "โปรดตั้งชื่อให้ Ruleset",
                 "tags_required": "เลือก scope เป็น tag — ระบุ tag ID อย่างน้อยหนึ่งตัว",

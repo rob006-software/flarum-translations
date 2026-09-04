@@ -2,8 +2,8 @@
 
 Translations for Hungarian (`hu`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **43** are translated differently and **6** are
-translated only in `hu`. Altogether they cover **21** components.
+sides, but do not match between them: **44** are translated differently and **6** are
+translated only in `hu`. Altogether they cover **22** components.
 
 <!-- {% raw %} -->
 
@@ -25,6 +25,7 @@ translated only in `hu`. Altogether they cover **21** components.
 | `fof-default-user-preferences` | [3](#fof-default-user-preferences) | 0 |
 | `fof-forum-stats-widget` | 0 | [6](#fof-forum-stats-widget-missing) |
 | `fof-frontpage` | [1](#fof-frontpage) | 0 |
+| `fof-moderator-warnings` | [1](#fof-moderator-warnings) | 0 |
 | `fof-open-collective` | [1](#fof-open-collective) | 0 |
 | `fof-recaptcha` | [1](#fof-recaptcha) | 0 |
 | `fof-split` | [5](#fof-split) | 0 |
@@ -388,6 +389,20 @@ Ha egy <del>IP-cím kitiltási</del><ins>IP-cím-kitiltási</ins> rekord egy fel
 -Főoldal
 +Kezdőoldal
 ```
+
+
+### `fof-moderator-warnings`
+
+#### [`fof-moderator-warnings.forum.settings.warning_notification_label`](https://weblate.rob006.net/translate/flarum2/fof-moderator-warnings/hu/?q=context%3A%3D%22fof-moderator-warnings.forum.settings.warning_notification_label%22)
+
+> A moderator warns me
+
+```diff
+-Egy moderátor figyelmeztetett
++Egy moderátor figyelmeztet
+```
+
+Egy moderátor <del>figyelmeztetett</del><ins>figyelmeztet</ins>
 
 
 ### `fof-open-collective`

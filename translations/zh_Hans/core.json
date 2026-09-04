@@ -7,32 +7,32 @@
                     "bisect": {
                         "begin_button_text": "开始排查",
                         "continue_button_text": "继续排查",
-                        "label": "扩展程序排查",
-                        "help": "通过二分查找法，帮助您定位导致错误的扩展程序。使用此功能时，论坛会自动开启「普通维护模式」，直至排查结束。"
+                        "label": "排查扩展",
+                        "help": "通过二分查找法，帮助您定位导致错误的扩展。使用此功能时，论坛会自动开启「普通维护模式」，直至排查结束。"
                     },
                     "bisect_modal": {
                         "description": "继续操作会自动开启「普通维护模式」，直至排查结束。在每一步中，系统都会禁用部分扩展程序，直到找到导致问题的扩展程序。因此，如果您发现论坛功能缺失，亦或是样式变化，这是正常现象，请勿担心。请不要关闭当前页面，每操作一步，请在新标签页尝试复现问题。如果不慎关闭当前页面，您可以随时返回这里。\n",
-                        "end_button": "关闭并跳转到扩展程序页面",
+                        "end_button": "关闭并跳转到扩展页面",
                         "issue_question": "问题仍然存在吗？",
                         "issue_question_help": "请在尝试新标签页中复现问题，并根据实际情况选择回答。",
                         "no_button": "不存在",
-                        "result_description": "扩展程序排查完毕，论坛已退出维护模式。根据您在各步骤中的反馈，导致问题的扩展程序是：\n",
+                        "result_description": "扩展排查完毕，论坛已退出维护模式。根据您在各步骤中的反馈，导致问题的扩展是：\n",
                         "start_button": "开始排查",
                         "stop_button": "停止排查",
                         "steps_left": "剩余步骤：{steps}",
                         "total_steps": "排查大约需要 {steps} 步。",
-                        "title": "扩展程序排查",
+                        "title": "扩展排查",
                         "yes_button": "存在"
                     },
                     "config_override": {
                         "label": "您的 <code>config.php</code> 文件正在覆盖这些设置。",
-                        "help": "您仍可以在此处更改这些设置，但在将 <code>config.php</code> 文件中的 <code>offline</code> 设置为 <code>0</code> 之前，这些更改不会生效。"
+                        "help": "此处的设置可以被修改保存。如需生效，请将 <code>config.php</code> 文件中的 <code>offline</code> 设置为 <code>0</code>。"
                     },
                     "help": "开启维护模式，防止用户访问论坛。",
                     "options": {
-                        "none": "不启用维护模式",
+                        "none": "停止维护。",
                         "high": "深度维护。任何人都无法访问论坛（只能通过 config.php 开启）",
-                        "low": "普通维护。仅限管理员访问论坛。",
+                        "low": "常规维护。仅限管理员访问论坛。",
                         "safe": "安全模式。不加载任何扩展程序，且仅限管理员访问论坛。"
                     },
                     "safe_mode_extensions": "启用扩展程序",
@@ -50,9 +50,11 @@
                     "cdn_url_help": "Font Awesome CSS 文件的 CDN 链接",
                     "kit_url_label": "Kit 链接",
                     "kit_url_help": "您的 Font Awesome Kit 脚本的 URL（来自于 kit.fontawesome.com）",
+                    "forced_style_label": "强制图标样式",
+                    "forced_style_help": "强制所有图标使用指定的 Font Awesome 样式，例如 `fa-duotone fa-light` 或 `fa-regular`。此设置会覆盖核心和扩展程序指定的图标样式，但不会影响品牌图标。请确保当前图标来源支持所选样式：内置的 Font Awesome Free 对 `fas` 实心样式以外的样式支持有限，强制使用其他样式可能导致大量图标无法显示。Font Awesome Pro CDN 或 Kit 支持全部样式。留空则禁用此设置。",
                     "config_override": {
                         "label": "配置覆盖",
-                        "help": "FontAwesome 设置目前已在 config.php 文件中存在，无法在此处更改。"
+                        "help": "FontAwesome 设置目前已在 config.php 文件中存在，无法在此处修改。"
                     },
                     "preview": {
                         "button": "预览图标",
@@ -67,10 +69,14 @@
                     "search_configuration": "要使用的搜索配置"
                 },
                 "queue": {
+                    "pause_label": "暂停队列",
+                    "pause_all_label": "暂停所有队列",
+                    "pause_queue_label": "暂停 {queue} 队列",
+                    "pause_help": "暂停处理受影响队列中的任务，已经开始运行的任务不会受到影响。",
                     "section_label": "队列",
                     "sync_info": "当前使用同步队列驱动，所有任务均由主线程直接处理。",
                     "sync_help": "为了更佳的性能和用户体验，建议使用数据库队列驱动。相关信息请查阅文档。",
-                    "custom_driver": "当前使用由扩展程序提供的 {driver} 队列驱动。",
+                    "custom_driver": "当前使用由扩展提供的 {driver} 队列驱动。",
                     "retries_label": "任务重试",
                     "retries_help": "任务失败时的重试次数，默认为 1。",
                     "memory_label": "内存限制（MB）",
@@ -89,12 +95,14 @@
                     "driver_options": {
                         "default": "默认数据库搜索"
                     },
-                    "no_other_drivers": "暂无可用驱动，请先安装相关扩展程序。"
+                    "no_other_drivers": "暂无可用驱动，请先安装相关扩展。",
+                    "cjk_mode_label": "优化中日韩搜索",
+                    "cjk_mode_help": "如果论坛主要使用中文、日文或韩文，请开启此项。数据库默认搜索无法匹配中日韩文本中的部分内容，开启后将改用子串匹配。此模式在超大型论坛中速度较慢，可在数据库层配置支持中日韩文本的全文解析器（如 MySQL/MariaDB 的 ngram 解析器）来提升搜索性能。"
                 },
                 "title": "高级设置"
             },
             "appearance": {
-                "allow_user_color_scheme_label": "允许用户自行选择配色模式",
+                "allow_user_color_scheme_label": "允许用户切换显示模式",
                 "colored_header_label": "彩色导航栏",
                 "colors_heading": "配色",
                 "colors_primary_label": "主题色",
@@ -118,8 +126,10 @@
                 "logo_text": "上传图片，替代论坛名称展示在导航栏左侧。",
                 "logo_dark_mode_heading": "深色模式 Logo",
                 "logo_dark_mode_text": "上传更适合在深色模式下展示的 Logo 图片。",
+                "show_theme_selector_help": "允许用户在导航栏切换显示模式。",
+                "show_theme_selector_label": "导航栏支持切换显示模式",
                 "title": "外观",
-                "color_scheme_label": "默认配色模式",
+                "color_scheme_label": "默认显示模式",
                 "color_schemes": {
                     "auto_mode_label": "跟随系统或用户设置",
                     "dark_hc_mode_label": "=> core.ref.dark_hc_mode_label",
@@ -131,7 +141,7 @@
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
                 "default_language_heading": "默认语言",
-                "description": "设置论坛名称、语言及其他基本设置",
+                "description": "设置论坛名称、语言及其他常规设置",
                 "display_name_driver_options": {
                     "username": "用户名"
                 },
@@ -161,15 +171,15 @@
                 },
                 "slug_driver_heading": "固定链接格式：{model}",
                 "slug_driver_text": "选择此内容的链接生成方式。",
-                "title": "基本设置",
+                "title": "常规",
                 "welcome_banner_heading": "欢迎横幅",
                 "welcome_banner_text": "设置「全部主题」页面顶部的欢迎横幅文本。",
                 "abandoned_extensions_heading": "停止维护的扩展程序",
-                "abandoned_extensions_text": "Flarum 维护着一份<a>停止维护的扩展程序清单</a>。如果您安装的某些扩展程序已停止维护，管理页面会显示相应提示。",
+                "abandoned_extensions_text": "若安装了 <a>停止维护清单</a> 中的扩展，仪表盘中会有提示。",
                 "abandoned_extensions_sync_button": "立即检查",
-                "abandoned_extensions_sync_success": "停止维护的扩展程序清单已更新，发现 {count} 个已安装的扩展程序停止维护。",
+                "abandoned_extensions_sync_success": "停止维护的扩展清单已更新，发现 {count} 个已安装。",
                 "abandoned_extensions_sync_error": "获取停止维护的扩展程序清单失败，请稍后重试。",
-                "abandoned_extensions_notify_admins_label": "每周检查发现有扩展程序停止维护时，邮件通知管理员"
+                "abandoned_extensions_notify_admins_label": "每周检查停止维护清单，匹配时邮件通知管理员"
             },
             "create_user": {
                 "email_placeholder": "=> core.ref.email",
@@ -195,7 +205,26 @@
                 "title": "公告",
                 "view_all": "前往 discuss.flarum.org 查看全部"
             },
+            "queue_widget": {
+                "title": "队列",
+                "pending": "等待中",
+                "reserved": "处理中",
+                "failed": "失败",
+                "refresh": "刷新"
+            },
+            "failed_jobs": {
+                "title": "失败任务",
+                "none": "无失败任务。",
+                "meta": "队列 {queue} · {time} 失败",
+                "details": "详情",
+                "retry": "重试",
+                "retry_all": "全部重试",
+                "delete": "删除"
+            },
             "dashboard": {
+                "queue_paused_warning": "以下队列已暂停处理：{queues}，请留意任务积压风险。",
+                "queue_paused_all_warning": "所有队列均已暂停处理，请留意任务积压风险。",
+                "queue_paused_manage": "管理",
                 "clear_cache_button": "清除缓存",
                 "description": "论坛概况一览",
                 "info_button": "系统信息",
@@ -208,9 +237,9 @@
                 "io_error_message": "文件系统写入失败，请检查文件权限后重试，或改用命令行执行。",
                 "status": {
                     "headers": {
-                        "scheduler-status": "任务调度程序",
-                        "queue-driver": "队列驱动程序",
-                        "session-driver": "会话驱动程序"
+                        "scheduler-status": "任务调度",
+                        "queue-driver": "队列驱动",
+                        "session-driver": "会话驱动"
                     },
                     "scheduler": {
                         "active": "运行中",
@@ -223,24 +252,28 @@
                 "tools_button": "工具"
             },
             "extensions-health-widget": {
-                "abandoned_no_replacement": "暂无替代扩展程序",
+                "abandoned_no_replacement": "暂无替代扩展",
                 "abandoned_with_replacement": "推荐替代：{replacement}",
                 "all_healthy": "扩展程序状态正常。",
                 "section_abandoned_empty": "未发现问题",
                 "section_suggested_empty": "暂无建议",
-                "section_disabled_empty": "所有扩展程序均已启用",
-                "title": "扩展程序状态",
+                "section_disabled_empty": "所有扩展均已启用",
+                "title": "扩展状态",
                 "section_abandoned_heading": "需要关注",
                 "section_abandoned_help": "这些扩展程序已停止维护或可能存在兼容性问题，请考虑更新、替换或卸载。",
                 "section_suggested_heading": "建议",
-                "section_suggested_help": "部分扩展程序会推荐其他扩展程序或软件包，安装后可获得额外功能或集成。",
+                "section_suggested_help": "部分扩展程序会推荐其他扩展或软件包，安装后可获得额外功能或集成。",
                 "section_disabled_heading": "已禁用",
-                "section_disabled_help": "这些扩展已安装但尚未启用。请前往相应设置页面启用，如不再使用可考虑卸载。",
+                "section_disabled_help": "这些扩展已安装但未启用。如不再使用请考虑卸载。",
                 "suggested_by": "{extension} 推荐安装"
             },
             "database-driver-mismatch-warning": {
-                "detail": "Flarum 检测到当前实际使用 <code>{actual}</code> 数据库，这与 <code>config.php</code> 中配置的数据库驱动 <code>{configured}</code> 不一致。\n\n使用错误的数据库驱动可能引发难以察觉且难以排查的故障，请将 <code>config.php</code> 中 <code>database</code> 下的配置更正为 <code>'driver' => ''{actual}''</code>。详情请参阅 <link>Flarum 官方文档</link>。\n",
+                "detail": "Flarum 检测到当前实际使用 <code>{actual}</code> 数据库，这与 <code>config.php</code> 中配置的数据库驱动 <code>{configured}</code> 不一致。\n\n使用错误的数据库驱动可能引发难以察觉、难以排查的故障，请将 <code>config.php</code> 中 <code>database</code> 下的配置更正为 <code>'driver' => ''{actual}''</code>。详情请参阅 <link>Flarum 官方文档</link>。\n",
                 "label": "数据库驱动配置不一致"
+            },
+            "database-version-warning": {
+                "below-recommended-detail": "当前 {server} 运行版本为 <code>{version}</code>。该版本可正常使用，但 Flarum 建议升级至 <code>{recommended}</code> 或更高版本，以获得最佳性能并接收长期维护。更多信息请参阅 <link>Flarum 文档</link>。\n",
+                "below-recommended-label": "建议更新数据库"
             },
             "debug-warning": {
                 "detail": "启用 <code>debug</code> 模式时，Flarum 会在每次请求时重新构建 <code>JavaScript</code> 和 <code>CSS</code> 资源。页面警告和错误也会以弹窗形式展示详细信息，数据库凭据、环境变量等敏感信息可能会在此期间泄露。\n\n强烈建议在生产环境中禁用 <code>config.php</code> 中的 <code>debug</code> 模式。详情请参阅 <link>Flarum 官方文档</link>。\n",
@@ -315,14 +348,14 @@
                 "title": "=> core.ref.email"
             },
             "extension": {
-                "abandoned_no_replacement": "此扩展程序已停止维护，今后可能不再更新。",
-                "abandoned_with_replacement": "此扩展程序已被 {replacement} 替代，请考虑迁移。",
-                "configure_scopes": "按标签配置",
-                "confirm_purge": "此操作将清除该扩展程序的所有数据库记录及相关资源，但不会卸载扩展；如需卸载，请通过 Composer 操作。确定要继续吗？",
-                "database_driver_mismatch": "此扩展程序不支持您配置的数据库驱动。",
+                "abandoned_no_replacement": "此扩展已停止维护，今后可能不再更新。",
+                "abandoned_with_replacement": "此扩展已被 {replacement} 替代，请考虑迁移。",
+                "configure_scopes": "添加标签配置",
+                "confirm_purge": "此操作将清除该扩展的所有数据库记录及相关资源，但不会卸载扩展；如需卸载，请通过 Composer 操作。确定要继续吗？",
+                "database_driver_mismatch": "此扩展不支持您配置的数据库驱动。",
                 "deprecated": "已弃用",
                 "disabled": "关闭",
-                "enable_to_see": "启用扩展程序即可查看和修改设置。",
+                "enable_to_see": "启用扩展以查看和修改设置。",
                 "enabled": "开启",
                 "info_links": {
                     "discuss": "主题帖",
@@ -332,26 +365,26 @@
                     "support": "支持",
                     "website": "网站"
                 },
-                "no_permissions": "此扩展程序无可配置权限。",
-                "no_settings": "此扩展程序无设置项。",
+                "no_permissions": "无新增权限",
+                "no_settings": "无设置项",
                 "open_modal": "打开设置",
                 "permissions_title": "权限",
                 "purge_button": "重置",
                 "readme": {
                     "button_label": "说明",
-                    "no_readme": "此扩展程序似乎没有 README 文件",
+                    "no_readme": "此扩展似乎没有 README 文件",
                     "title": "{extName} 文档"
                 },
-                "replaced": "替代",
+                "replaced": "已被替代",
                 "reset_settings": {
                     "button": "重置设置",
                     "cancel_button": "取消",
                     "confirm_button": "重置",
-                    "warning": "此操作无法撤销。扩展程序设置将恢复为默认值，数据库已保存的内容数据不受影响。",
+                    "warning": "此操作无法撤销。扩展设置将恢复为默认值，数据库已保存的内容数据不受影响。",
                     "title": "重置设置",
                     "title_extension": "重置 {extensionTitle} 设置"
                 },
-                "safe_mode_warning": "当前处于安全模式，无法加载扩展程序及其设置。"
+                "safe_mode_warning": "当前处于安全模式，无法加载扩展及其设置。"
             },
             "header": {
                 "get_help": "获取帮助",
@@ -360,7 +393,7 @@
                 "search_role_label": "搜索"
             },
             "loading": {
-                "title": "请稍后……"
+                "title": "请稍后…"
             },
             "models": {
                 "discussions": "=> core.ref.discussions",
@@ -378,15 +411,15 @@
                     "analytics": "分析",
                     "authentication": "身份验证",
                     "core": "核心设置",
-                    "discussion": "主题与内容",
+                    "discussion": "讨论与内容",
                     "feature": "功能",
                     "formatting": "格式化",
-                    "forum-widget": "论坛小组件",
+                    "forum-widget": "小组件",
                     "infrastructure": "基础设施",
                     "language": "语言包",
                     "moderation": "内容审核",
                     "other": "其他",
-                    "theme": "样式"
+                    "theme": "主题样式"
                 },
                 "dashboard_button": "=> core.admin.dashboard.title",
                 "dashboard_title": "=> core.admin.dashboard.description",
@@ -396,16 +429,16 @@
                 "permissions_title": "=> core.admin.permissions.description",
                 "userlist_button": "=> core.admin.users.title",
                 "userlist_title": "=> core.admin.users.description",
-                "search_placeholder": "搜索扩展程序"
+                "search_placeholder": "搜索扩展"
             },
             "permissions": {
                 "allow_hide_own_posts_label": "允许删除自己的帖子",
                 "allow_post_editing_label": "允许编辑帖子",
-                "allow_renaming_label": "允许修改自己的主题标题",
+                "allow_renaming_label": "允许更改自己的讨论标题",
                 "create_access_token_label": "创建访问令牌",
                 "create_heading": "发布",
-                "delete_discussions_forever_label": "永久删除主题",
-                "delete_discussions_label": "删除主题",
+                "delete_discussions_forever_label": "永久删除讨论",
+                "delete_discussions_label": "删除讨论",
                 "delete_posts_forever_label": "永久删除帖子",
                 "delete_posts_label": "删除帖子",
                 "description": "全局或分标签设置用户的查看和操作权限",
@@ -421,12 +454,12 @@
                 "post_without_throttle_label": "允许连续发帖",
                 "read_heading": "访问",
                 "remove_scope_label": "移除 {scope} 的权限设置",
-                "remove_scope_confirmation": "确定要移除 {scope} 的权限设置吗？",
-                "rename_discussions_label": "修改主题标题",
-                "reply_to_discussions_label": "回复主题",
+                "remove_scope_confirmation": "确定要移除 {scope} 的权限设置？",
+                "rename_discussions_label": "更改讨论标题",
+                "reply_to_discussions_label": "回帖",
                 "search_users_label": "=> core.ref.search_users",
                 "sign_up_label": "注册",
-                "start_discussions_label": "开始讨论",
+                "start_discussions_label": "发起讨论",
                 "title": "权限",
                 "view_forum_label": "浏览论坛（讨论和用户）",
                 "view_hidden_groups_label": "查看隐藏的用户组徽章",
@@ -460,11 +493,11 @@
             },
             "users": {
                 "create_user_button": "新建用户",
-                "description": "您的论坛中所有用户的分页列表。",
+                "description": "论坛用户一览。",
                 "grid": {
                     "columns": {
                         "display_name": {
-                            "title": "外显昵称"
+                            "title": "外显名称"
                         },
                         "email": {
                             "title": "=> core.ref.email",
@@ -493,7 +526,7 @@
                             "title": "=> core.ref.username"
                         }
                     },
-                    "invalid_column_content": "非法"
+                    "invalid_column_content": "数据异常"
                 },
                 "search_placeholder": "=> core.ref.search_users",
                 "title": "=> core.ref.users",
@@ -530,8 +563,8 @@
             },
             "composer_edit": {
                 "discard_confirmation": "更改尚未保存，确定要丢弃吗？",
-                "edited_message": "您的编辑已生效。",
-                "post_link": "发布于 {discussion} 的 #{number}",
+                "edited_message": "您的修改已保存。",
+                "post_link": "编辑 {discussion} 的 #{number}",
                 "submit_button": "=> core.ref.save_changes",
                 "view_button": "=> core.ref.view"
             },
@@ -544,21 +577,21 @@
             },
             "discussion_controls": {
                 "cannot_reply_button": "回复已关闭",
-                "cannot_reply_text": "您没有权限回复这篇讨论。",
+                "cannot_reply_text": "您没有权限回帖。",
                 "delete_button": "=> core.ref.delete",
-                "delete_confirmation": "确定要永久删除这个讨论？",
+                "delete_confirmation": "确定要永久删除这个讨论吗？",
                 "delete_forever_button": "=> core.ref.delete_forever",
                 "log_in_to_reply_button": "登录以回复",
                 "rename_button": "=> core.ref.rename",
                 "reply_button": "=> core.ref.reply",
                 "restore_button": "=> core.ref.restore",
-                "toggle_dropdown_accessible_label": "讨论下拉菜单开关"
+                "toggle_dropdown_accessible_label": "展开或收起更多菜单"
             },
             "discussion_list": {
-                "empty_text": "这里空空如也...",
+                "empty_text": "这里空空如也……",
                 "load_more_button": "=> core.ref.load_more",
                 "replied_text": "{username} 回复于 {ago}",
-                "skip_discussion_list_pane": "跳过讨论列表面板",
+                "skip_discussion_list_pane": "跳过讨论列表",
                 "started_text": "{username} 发布于 {ago}",
                 "total_replies_a11y_label": "{count, plural, one {# 条回复} other {# 条回复}}",
                 "unread_replies_a11y_label": "{count, plural, one {# 条未读} other {# 条未读}}，全部标记为已读。"
@@ -566,59 +599,62 @@
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
                 "email_placeholder": "=> core.ref.email",
-                "email_sent_message": "如果您输入的电子邮件已在本站注册过，我们将向其发送一封含有重置密码链接的邮件。若未收到请检查垃圾箱。",
-                "not_found_message": "未找到使用该邮箱注册的用户。",
+                "email_sent_message": "如果你输入的邮箱已在本站注册，我们会向该邮箱发送一封包含密码重置链接的邮件。若一两分钟后仍未收到，请检查垃圾箱。",
+                "not_found_message": "此邮箱未注册。",
                 "submit_button": "重置密码",
-                "text": "请输入账户的注册邮箱地址，我们将发送重设密码链接至该邮箱。",
+                "text": "请输入邮箱地址，我们会向你发送密码重置链接。",
                 "title": "忘记密码"
             },
             "header": {
-                "admin_button": "后台管理",
+                "admin_button": "管理后台",
                 "back_to_index_tooltip": "返回讨论列表",
-                "locale_dropdown_accessible_label": "更改论坛语言",
+                "locale_dropdown_accessible_label": "切换界面语言",
                 "log_in_link": "=> core.ref.log_in",
-                "log_out_button": "退出登录",
+                "log_out_button": "=> core.ref.log_out",
                 "profile_button": "个人主页",
                 "search_placeholder": "搜索社区",
                 "search_role_label": "搜索社区",
-                "session_dropdown_accessible_label": "会话下拉菜单开关",
-                "settings_button": "账号设置",
-                "sign_up_link": "=> core.ref.sign_up"
+                "session_dropdown_accessible_label": "展开或收起我的选项菜单",
+                "settings_button": "=> core.ref.settings",
+                "sign_up_link": "=> core.ref.sign_up",
+                "theme_switcher_accessible_label": "切换显示模式"
             },
             "index": {
                 "all_discussions_link": "=> core.ref.all_discussions",
                 "cannot_start_discussion_button": "发帖功能已关闭",
-                "mark_all_as_read_confirmation": "确定要标记所有讨论为已读吗？",
+                "mark_all_as_read_confirmation": "确定要将所有讨论标记为已读吗？",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "meta_title_text": "=> core.ref.all_discussions",
                 "refresh_tooltip": "=> core.ref.refresh",
                 "start_discussion_button": "=> core.ref.start_a_discussion",
                 "skip_to_main_content": "跳至主体内容",
-                "toggle_sidenav_dropdown_accessible_label": "导航栏下拉菜单开关"
+                "toggle_sidenav_dropdown_accessible_label": "展开或收起导航栏菜单"
             },
             "index_sort": {
-                "latest_button": "最新回复",
+                "az_button": "=> core.ref.title_az",
+                "latest_button": "=> core.ref.latest",
                 "newest_button": "=> core.ref.newest",
                 "oldest_button": "=> core.ref.oldest",
                 "relevance_button": "=> core.ref.relevance",
-                "toggle_dropdown_accessible_label": "更改「全部讨论」排序",
-                "top_button": "热门讨论"
+                "toggle_dropdown_accessible_label": "更改讨论列表排序方式",
+                "top_button": "=> core.ref.top",
+                "za_button": "=> core.ref.title_za"
             },
             "log_in": {
                 "forgot_password_link": "忘记密码？",
                 "invalid_login_message": "=> core.ref.invalid_login_message",
                 "password_placeholder": "=> core.ref.password",
                 "remember_me_label": "=> core.ref.remember_me_label",
-                "sign_up_text": "还没有帐户？ <a>立即注册</a>",
+                "sign_up_text": "还没有账号？<a>立即注册</a>",
                 "submit_button": "=> core.ref.log_in",
                 "title": "=> core.ref.log_in",
                 "username_or_email_placeholder": "=> core.ref.username_or_email_placeholder"
             },
             "notifications": {
-                "delete_all_confirm": "您确定要删除所有通知吗？此操作不可撤销",
+                "delete_all_confirm": "确定要删除所有通知吗？此操作不可撤销",
                 "delete_all_tooltip": "删除所有通知",
                 "discussion_renamed_text": "{username} 更改了标题",
-                "empty_text": "没有新通知",
+                "empty_text": "暂无通知",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "mark_as_read_tooltip": "标记为已读",
                 "title": "=> core.ref.notifications",
@@ -637,11 +673,11 @@
                 "edit_button": "=> core.ref.edit",
                 "hide_confirmation": "确定要删除这个帖子吗？",
                 "restore_button": "=> core.ref.restore",
-                "toggle_dropdown_accessible_label": "帖子下拉菜单开关"
+                "toggle_dropdown_accessible_label": "展开或收起帖子更多菜单"
             },
             "post_list": {
-                "empty_text": "这里似乎没有任何回复。",
-                "in_discussion_text": "在 {discussion} 中",
+                "empty_text": "这里似乎是无主之地…",
+                "in_discussion_text": "于 {discussion}",
                 "load_more_button": "=> core.ref.load_more"
             },
             "post_scrubber": {
@@ -651,8 +687,8 @@
                 "viewing_text": "{count, plural, one {{index} / {formattedCount} 条} other {{index} / {formattedCount} 条}}"
             },
             "post_stream": {
-                "discussion_renamed_old_tooltip": "原标题：「{old}」",
-                "discussion_renamed_text": "{username} 于 {time} 将标题修改为 {new}。",
+                "discussion_renamed_old_tooltip": "原标题「{old}」",
+                "discussion_renamed_text": "{username} 于 {time} 更改标题为「{new}」",
                 "load_more_button": "=> core.ref.load_more",
                 "reply_placeholder": "=> core.ref.write_a_reply",
                 "time_lapsed_text": "{period} 后"
@@ -672,18 +708,18 @@
             },
             "security": {
                 "browser_on_operating_system": "{browser}（{os} 平台）",
-                "cannot_terminate_current_session": "无法终止当前活动会话，请登出。",
+                "cannot_terminate_current_session": "无法终止当前会话，请直接退出登录。",
                 "created": "创建时间",
-                "current_active_session": "当前活动会话",
+                "current_active_session": "当前会话",
                 "developer_tokens_heading": "开发者令牌",
-                "empty_text": "无可用令牌。",
+                "empty_text": "尚未创建令牌。",
                 "global_logout": {
                     "heading": "全局登出",
-                    "help_text": "清除当前 Cookie 会话、终止所有会话、撤销所有开发者令牌，并使一切验证邮箱或重置密码的链接失效。",
+                    "help_text": "退出当前登录并终止所有其他会话，同时撤销开发者令牌，已发出的邮箱验证和密码重置链接也将失效。",
                     "log_out_button": "=> core.ref.log_out"
                 },
                 "hide_access_token": "隐藏令牌",
-                "last_activity": "最近活动",
+                "last_activity": "上次活动",
                 "never": "=> core.ref.never",
                 "new_access_token_button": "=> core.ref.new_token",
                 "new_access_token_modal": {
@@ -706,12 +742,12 @@
                 "token_title_placeholder": "/"
             },
             "settings": {
-                "account_heading": "帐户设置",
+                "account_heading": "账号",
                 "change_email_button": "=> core.ref.change_email",
                 "change_password_button": "=> core.ref.change_password",
-                "color_scheme_heading": "配色方案",
+                "color_scheme_heading": "显示模式",
                 "color_schemes": {
-                    "auto_mode_label": "系统偏好设置",
+                    "auto_mode_label": "跟随系统",
                     "dark_hc_mode_label": "=> core.ref.dark_hc_mode_label",
                     "dark_mode_label": "=> core.ref.dark_mode_label",
                     "light_hc_mode_label": "=> core.ref.light_hc_mode_label",
@@ -720,19 +756,19 @@
                 "notification_checkbox_a11y_label_template": "通过 {method} 接收「{description}」通知",
                 "notifications_heading": "=> core.ref.notifications",
                 "notify_by_email_heading": "=> core.ref.email",
-                "notify_by_web_heading": "通知",
-                "notify_discussion_renamed_label": "有人更改了我的讨论标题",
+                "notify_by_web_heading": "站内通知",
+                "notify_discussion_renamed_label": "有人更改我的讨论标题",
                 "device_heading": "设备",
                 "haptic_feedback_help": "仅在受支持的移动设备上可用",
                 "haptic_feedback_label": "启用触感反馈",
                 "privacy_disclose_online_label": "公开我的在线状态",
-                "privacy_heading": "隐私设置",
+                "privacy_heading": "隐私",
                 "title": "=> core.ref.settings"
             },
             "sign_up": {
                 "dismiss_button": "=> core.ref.okay",
                 "email_placeholder": "=> core.ref.email",
-                "log_in_text": "已有帐户？ <a>登录</a>",
+                "log_in_text": "已有帐号？ <a>登录</a>",
                 "password_placeholder": "=> core.ref.password",
                 "submit_button": "=> core.ref.sign_up",
                 "title": "=> core.ref.sign_up",
@@ -747,7 +783,7 @@
                 "in_discussion_text": "于 {discussion}",
                 "joined_date_text": "注册于 {ago}",
                 "online_text": "在线",
-                "posts_empty_text": "这里似乎没有任何帖子。",
+                "posts_empty_text": "这里空空如也……",
                 "posts_link": "=> core.ref.posts",
                 "posts_load_more_button": "=> core.ref.load_more",
                 "security_link": "=> core.ref.security",
@@ -760,7 +796,7 @@
                 "delete_error_message": "删除用户 <i>{username} ({email})</i> 失败",
                 "delete_success_message": "已删除用户 <i>{username} ({email})</i>",
                 "edit_button": "=> core.ref.edit",
-                "toggle_dropdown_accessible_label": "用户下拉菜单开关"
+                "toggle_dropdown_accessible_label": "展开或收起用户操作菜单"
             },
             "user_email_confirmation": {
                 "alert_message": "=> core.ref.confirmation_email_sent",
@@ -768,23 +804,24 @@
                 "sent_message": "发送"
             },
             "welcome_hero": {
-                "hide": "隐藏欢迎横幅内容"
+                "hide": "隐藏欢迎横幅"
             }
         },
         "lib": {
+            "connection_restored_message": "网络连接已恢复。",
             "debug_button": "调试",
             "alert": {
                 "dismiss_a11y_label": "忽略警告"
             },
             "assets_updated": {
-                "message": "此页面有新版本。",
+                "message": "检测到社区版本有更新，请刷新页面以保证功能的正常使用。",
                 "reload_button": "刷新"
             },
             "badge": {
                 "hidden_tooltip": "隐藏"
             },
             "dropdown": {
-                "toggle_dropdown_accessible_label": "下拉菜单开关"
+                "toggle_dropdown_accessible_label": "展开或收起更多菜单"
             },
             "data_segment": {
                 "label": "{label}："
@@ -801,33 +838,35 @@
                 "title": "=> core.ref.edit_user",
                 "username_heading": "=> core.ref.username",
                 "username_label": "=> core.ref.username",
-                "nothing_available": "您无权编辑此用户。"
+                "nothing_available": "你没有权限编辑此用户。"
             },
             "error": {
-                "circular_dependencies_message": "检测到循环依赖关系：{extensions}。正在中止操作。请禁用其中一个扩展，然后重试。",
-                "db_error_message": "数据库查询失败。这可能是由于扩展程序与数据库驱动程序不兼容导致的。",
-                "dependent_extensions_message": "无法停用「{extension}」，请先停用依赖扩展「{extensions}」",
-                "extension_initialiation_failed_message": "初始化「{extension}」失败，详情信息请查看控制台。",
-                "extension_runtime_failed_message": "{extension} 运行时遇到错误。请检查浏览器控制台以获取更多信息。",
+                "circular_dependencies_message": "检测到循环依赖关系：{extensions}，已中止操作。请禁用其中一个扩展后重试。",
+                "db_error_message": "数据库查询失败。某个扩展程序可能与当前使用的数据库驱动不兼容。",
+                "dependent_extensions_message": "无法禁用「{extension」。请先禁用以下依赖它的扩展：{extensions}",
+                "extension_initialiation_failed_message": "初始化「{extension}」失败，详情请查看浏览器控制台。",
+                "extension_runtime_failed_message": "「{extension}」在运行时发生错误，详情请查看浏览器控制台。",
                 "generic_message": "糟糕，出错啦！请刷新页面重试。",
-                "generic_cross_origin_message": "跨域请求时出现问题，请刷新页面后重试。",
-                "missing_dependencies_message": "无法启用「{extension}」，请先启用依赖扩展「{extensions}」",
-                "not_found_message": "您请求的资源不存在。",
-                "payload_too_large_message": "上传内容过大。",
-                "permission_denied_message": "您没有权限进行此操作。",
-                "rate_limit_exceeded_message": "您的操作太频繁，请稍后再试。",
-                "render_failed_message": "抱歉，加载此内容时出错，请刷新页面重试。如果您是管理员，请查看 Flarum 的日志文件以获取更多信息。"
+                "generic_cross_origin_message": "跨域请求时出现问题，请刷新页面重试。",
+                "missing_dependencies_message": "无法启用「{extension}」，请先启用前置扩展「{extensions}」",
+                "network_message": "网络连接异常，请检查网络后重试。",
+                "not_found_message": "你请求的资源不存在。",
+                "offline_message": "当前似乎处于离线状态，请检查网络连接后重试。",
+                "payload_too_large_message": "请求负载过大。",
+                "permission_denied_message": "你没有权限执行此操作。",
+                "rate_limit_exceeded_message": "操作过于频繁，请稍后再试。",
+                "render_failed_message": "抱歉，加载此内容时出错，请刷新页面重试。管理员可查看 Flarum 日志文件获取更多信息。"
             },
             "gambits": {
                 "group_keys": {
                     "allows": "允许",
-                    "has": "拥有",
+                    "has": "有",
                     "is": "是"
                 },
                 "discussions": {
                     "author": {
                         "key": "作者",
-                        "hint": "用户名或以逗号分隔的用户名列表"
+                        "hint": "用户名，多个请用英文逗号分隔"
                     },
                     "created": {
                         "key": "创建于",
@@ -848,17 +887,17 @@
                 },
                 "users": {
                     "email": {
-                        "key": "电子邮箱",
-                        "hint": "example@machine.local"
+                        "key": "邮箱",
+                        "hint": "example@qq.com"
                     },
                     "group": {
                         "key": "用户组",
-                        "hint": "单数或复数用户组名称"
+                        "hint": "成员称谓或用户组名称"
                     }
                 }
             },
             "input": {
-                "clear_button": "清除输入"
+                "clear_button": "清空输入"
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
@@ -871,43 +910,57 @@
                 "close": "关闭"
             },
             "multi_select": {
-                "placeholder": "选择多个选项"
+                "placeholder": "请选择多个选项"
             },
             "nav": {
-                "drawer_button": "打开导航抽屉"
+                "drawer_button": "打开导航菜单",
+                "pin_pane_button": "固定讨论列表"
             },
             "notices": {
-                "bisecting": "正在运行扩展程序二分法排查，以确定哪个扩展导致了问题。",
+                "bisecting": "正在排查导致问题的扩展程序。",
                 "bisecting_continue": "继续排查",
-                "maintenance_mode_low": "正在维护。仅管理员可访问论坛。",
-                "maintenance_mode_safe": "正在进行安全模式维护。仅管理员可访问论坛，且未加载任何扩展。"
+                "maintenance_mode_low": "论坛维护中，仅管理员可访问。",
+                "maintenance_mode_safe": "论坛维护中，当前仅管理员可访问。安全模式下不会加载任何扩展程序。"
+            },
+            "index_sort": {
+                "az_button": "=> core.ref.title_az",
+                "latest_button": "=> core.ref.latest",
+                "newest_button": "=> core.ref.newest",
+                "oldest_button": "=> core.ref.oldest",
+                "relevance_button": "=> core.ref.relevance",
+                "top_button": "=> core.ref.top",
+                "za_button": "=> core.ref.title_za"
             },
             "number_suffix": {
                 "kilo_text": "千",
                 "mega_text": "百万"
             },
+            "overflowing_list": {
+                "toggle_accessible_label": "更多菜单"
+            },
             "pagination": {
                 "back_button": "上一页",
-                "first_button": "返回首页",
-                "go_to_page_textbox_a11y_label": "翻页到页码",
+                "first_button": "返回第一页",
+                "go_to_page_textbox_a11y_label": "跳转页码",
                 "last_button": "前往最后一页",
                 "next_button": "下一页",
-                "page_counter": "第 {current} 页 / 共 {total} 页"
+                "page_counter": "第 {current} 页，共 {total} 页"
             },
             "search": {
-                "gambit_plus_button_a11y_label": "添加正向过滤器",
-                "gambit_minus_button_a11y_label": "添加反向过滤器",
+                "gambit_plus_button_a11y_label": "添加包含条件",
+                "gambit_minus_button_a11y_label": "添加排除条件",
                 "title": "搜索",
-                "no_results_text": "这里似乎没有任何结果。",
-                "no_search_text": "您还没有搜索任何内容。",
-                "options_heading": "搜索选项",
+                "no_results_text": "似乎没有你要找的内容…",
+                "no_search_text": "想找什么？搜搜看吧……",
+                "options_heading": "筛选项",
                 "placeholder": "搜索...",
-                "preview_heading": "搜索预览",
+                "preview_heading": "结果预览",
+                "search_active_button_accessible_label": "修改当前搜索：{query}",
                 "search_clear_button_accessible_label": "清空搜索"
             },
             "search_source": {
                 "discussions": {
-                    "all_button": "在全部讨论中搜索 “{query}”",
+                    "all_button": "在所有讨论中搜索 “{query}”",
                     "heading": "=> core.ref.discussions"
                 },
                 "posts": {
@@ -920,7 +973,7 @@
             },
             "series": {
                 "glue_text": "， ",
-                "three_text": "{first}、{second} 与 {third}",
+                "three_text": "{first}、{second} 和 {third}",
                 "two_text": "{first} 和 {second}"
             },
             "user_selection_modal": {
@@ -928,16 +981,16 @@
                 "max_items_to_select": "{count, plural, one {最多选择 # 名用户} other {最多选择 # 名用户}}",
                 "search_placeholder": "=> core.ref.search_users",
                 "submit_button": "=> core.ref.okay",
-                "title": "选择相关用户"
+                "title": "选择用户"
             },
             "username": {
                 "deleted_text": "[已注销]"
             },
             "datetime_formats": {
                 "fullTime": "LLLL",
-                "humanTimeShort": "MMMD日",
+                "humanTimeShort": "M月D日",
                 "humanTimeLong": "ll",
-                "scrubber": "YYYY年MMM",
+                "scrubber": "YYYY年M月",
                 "userListJoinDate": "LLL"
             }
         },
@@ -946,24 +999,24 @@
                 "extensions": {
                     "caption": "=> core.ref.extensions",
                     "disable": "关闭",
-                    "empty": "尚未安装扩展程序",
+                    "empty": "尚未安装扩展",
                     "enable": "启用",
                     "name": "扩展名",
-                    "package_name": "软件包",
+                    "package_name": "包名",
                     "version": "版本"
                 },
                 "info": {
                     "caption": "说明"
                 },
-                "title": "管理员"
+                "title": "管理后台"
             },
             "confirm_email": {
                 "submit_button": "=> core.ref.confirm_email",
-                "text": "点击下方按钮确认您的邮箱。",
+                "text": "点击下方按钮确认你的邮箱。",
                 "title": "=> core.ref.confirm_email"
             },
             "content": {
-                "javascript_disabled_message": "请使用更现代的浏览器并启用 JavaScript 以获得最佳浏览体验。",
+                "javascript_disabled_message": "为获得最佳浏览体验，请使用现代浏览器并启用 JavaScript。",
                 "load_error_message": "加载论坛时出错，请强制刷新页面重试。",
                 "loading_text": "=> core.ref.loading"
             },
@@ -972,18 +1025,18 @@
                 "previous_page_button": "=> core.ref.previous_page"
             },
             "error": {
-                "csrf_token_mismatch": "您已经发呆很长时间了。",
+                "csrf_token_mismatch": "你离开得有点久，当前会话已经失效。",
                 "csrf_token_mismatch_return_link": "请返回再试一次",
                 "invalid_confirmation_token": "验证链接已使用或无效。",
                 "maintenance_mode_link": "管理员登录",
-                "maintenance_mode_message": "论坛目前正在维护。请稍后再试。",
-                "maintenance_mode_title": "维护",
-                "method_not_allowed": "此页面不支持该请求方法。",
-                "not_authenticated": "您没有权限访问此页面，请登录后再试。",
-                "not_found": "您访问的页面不存在。",
-                "not_found_return_link": "返回至 {forum}",
-                "permission_denied": "您没有权限访问此页面。",
-                "unknown": "加载页面时出错，请检查日志。"
+                "maintenance_mode_message": "论坛正在维护中，晚点再来看看吧。",
+                "maintenance_mode_title": "维护中",
+                "method_not_allowed": "此页面不支持该请求方式。",
+                "not_authenticated": "你没有权限访问此页面，请登录后再试。",
+                "not_found": "你访问的页面不存在。",
+                "not_found_return_link": "返回 {forum}",
+                "permission_denied": "你没有权限访问此页面。",
+                "unknown": "出了点岔子，页面暂时无法加载。"
             },
             "index": {
                 "all_discussions_heading": "=> core.ref.all_discussions",
@@ -991,11 +1044,11 @@
                 "previous_page_button": "=> core.ref.previous_page"
             },
             "layout": {
-                "skip_to_content": "跳至内容"
+                "skip_to_content": "跳至主要内容"
             },
             "log_out": {
                 "log_out_button": "=> core.ref.log_out",
-                "log_out_confirmation": "您确定要在 {forum} 上退出登录?",
+                "log_out_confirmation": "确定要登出 {forum} 吗？",
                 "title": "=> core.ref.log_out"
             },
             "log_in": {
@@ -1013,64 +1066,64 @@
                 "title": "=> core.ref.reset_your_password"
             },
             "unsubscribe_email": {
-                "title": "退订确认",
-                "return_to_forum": "返回到 {forumTitle}",
+                "title": "确认退订",
+                "return_to_forum": "返回 {forumTitle}",
                 "confirm_button": "确认",
-                "immediate_helptext": "确认后，您将立即取消订阅。",
-                "confirm_message": "您已请求取消订阅来自 {forumTitle} 的 “{type}” 邮件通知。",
-                "success_message": "您已成功取消订阅来自 {forumTitle} 的 “{type}” 通知。如果您希望再次接收，请 [更新您的设置]({settingsLink})。",
-                "invalid_message": "此取消订阅链接无效或已被使用。如需更改来自 {forumTitle} 的邮件通知，请 [检查您的设置]({settingsLink})。"
+                "immediate_helptext": "确认后立即退订。",
+                "confirm_message": "你即将取消接收来自 {forumTitle} 的“{type}”邮件通知。",
+                "success_message": "你已成功退订来自 {forumTitle} 的“{type}”邮件通知。如需再次接收，请 [更新你的设置]({settingsLink})。",
+                "invalid_message": "此退订链接无效或已被使用。如需调整来自 {forumTitle} 的邮件通知，请 [查看你的设置]({settingsLink})。"
             }
         },
         "api": {
-            "invalid_username_message": "用户名只能包含字母、数字和连字符，且至少包含一个字母。",
+            "invalid_username_message": "用户名只能使用字母、数字和连字符（-），并且至少要有一个字母。",
             "invalid_filter_type": {
-                "must_be_numeric_message": "{filter} 查询条件必须是数值。",
-                "must_not_be_array_message": "{filter} 查询条件不能是数组。",
-                "must_not_be_multidimensional_array_message": "{filter} 查询条件不能是多维数组。"
+                "must_be_numeric_message": "查询条件 {filter} 必须是数值。",
+                "must_not_be_array_message": "查询条件 {filter} 不能是数组。",
+                "must_not_be_multidimensional_array_message": "查询条件 {filter} 不能是多维数组。"
             }
         },
         "email": {
-            "greeting": "嘿 {displayName}，",
-            "signoff": "{forumTitle} 团队",
+            "greeting": "{displayName}，你好！",
+            "signoff": "{forumTitle}",
             "informational": {
-                "default_title": "信息",
-                "footer": "发送此邮件至 {userEmail} 是作为与您在 [{forumTitle}]({forumUrl}) 上的账户相关的通知服务。",
-                "footer_plain": "发送此邮件至 {userEmail} 是作为与您在 {forumTitle} 上的账户相关的通知服务。"
+                "default_title": "通知",
+                "footer": "你收到此邮件，是因为内容与你的 [{forumTitle}]({forumUrl}) 账号相关。",
+                "footer_plain": "你收到此邮件，是因为内容与你的 {forumTitle} 账号相关。"
             },
             "notification": {
                 "default_title": "通知",
                 "footer": {
-                    "main_text": "发送此邮件至 {email} 是因为您订阅了 [{forumTitle}]({forumUrl}) 上的 “{type}” 通知。",
-                    "main_text_plain": "发送此邮件至 {email} 是因为您订阅了 {forumTitle} 上的 “{type}” 通知。",
-                    "unsubscribe_text": "如果您想停止接收此类通知，请 [在此取消订阅]({unsubscribeLink})。",
-                    "unsubscribe_text_plain": "如果您想停止接收此类通知，请在此取消订阅：{unsubscribeLink}",
-                    "settings_text": "[在此]({settingsLink})管理您的通知设置。",
-                    "settings_text_plain": "在此管理您的通知设置：{settingsLink}"
+                    "main_text": "你收到此邮件，是因为你已订阅 [{forumTitle}]({forumUrl}) 的“{type}”通知。",
+                    "main_text_plain": "你收到此邮件，是因为你已订阅 {forumTitle} 的“{type}”通知。",
+                    "unsubscribe_text": "如不想再接收此类通知，可 [在此退订]({unsubscribeLink})。",
+                    "unsubscribe_text_plain": "如不想再接收此类通知，可在此退订：{unsubscribeLink}",
+                    "settings_text": "你可以 [在此]({settingsLink}) 管理通知设置。",
+                    "settings_text_plain": "你可以在此管理通知设置：{settingsLink}"
                 }
             },
             "activate_account": {
-                "subject": "账号激活",
-                "body": "有人（希望是您！）已使用此邮箱地址注册了 {forum}。\n\n如果是您本人，只需点击以下链接，您的账户即可激活：\n{url}\n\n如果您没有注册，请忽略此邮件。\n"
+                "subject": "激活你的新账号",
+                "body": "你正在使用此邮箱地址注册 {forum} 账号。\n\n请点击以下链接完成账号激活：\n{url}\n\n如果这不是你的操作，请忽略此邮件。\n"
             },
             "confirm_email": {
-                "subject": "确认邮箱地址",
-                "body": "有人（希望是您！）已将在 {forum} 上的邮箱地址更改为此邮箱。\n\n如果是您本人，只需点击以下链接，您的邮箱即可确认：\n{url}\n\n如果这不是您本人，请忽略此邮件。\n"
+                "subject": "确认新邮箱地址",
+                "body": "你正在将 {forum} 账号的邮箱地址更改为此邮箱。\n\n请点击以下链接完成新邮箱地址更换：\n{url}\n\n如果这不是你的操作，请忽略此邮件。\n"
             },
             "reset_password": {
                 "subject": "=> core.ref.reset_your_password",
-                "body": "有人（希望是您！）提交了重置您在 {forum} 上账户密码的请求。\n\n如果是您本人，请点击以下链接重置密码：\n{url}\n\n如果您不想更改密码，只需忽略此邮件即可。\n"
+                "body": "你正在重置 {forum} 账号的密码。\n\n请点击以下链接完成密码重置：\n{url}\n\n如果这不是你的操作，请忽略此邮件。\n"
             },
             "send_test": {
                 "subject": "Flarum 邮件测试",
-                "body": "这是一封测试邮件，用于确认您的 Flarum 邮件配置是否工作正常。\n\n如果是您发送的，此邮件表示您的配置工作正常！\n\n如果这不是您本人，请忽略此邮件。\n"
+                "body": "这是一封测试邮件，用于确认 Flarum 的邮件配置是否正常工作。\n\n当你看到这句话，就说明配置已成功生效。\n\n如果不是你的操作，请忽略此邮件。\n"
             },
             "abandoned_extensions": {
-                "subject": "注意：发现了已弃用扩展",
-                "body_intro": "下列为已弃用扩展：",
-                "body_outro": "请检查这些扩展，并计划迁移到可用的替代扩展。",
-                "line_with_replacement": "{package} （建议的替代扩展：{replacement}）",
-                "line_no_replacement": "{package}（暂无可用的替代扩展）"
+                "subject": "部分扩展已停止维护",
+                "body_intro": "以下安装的扩展已停止维护：",
+                "body_outro": "请检查这些扩展，并在有可替代方案时考虑迁移。",
+                "line_with_replacement": "{package}（推荐替代：{replacement}）",
+                "line_no_replacement": "{package}（暂无可用替代）"
             }
         },
         "ref": {
@@ -1080,13 +1133,13 @@
             "color": "颜色",
             "confirm_password": "确认密码",
             "confirm_email": "确认邮箱",
-            "confirmation_email_sent": "账号激活邮件已发送至 {email}，请激活账号，若未收到请检查垃圾箱。",
+            "confirmation_email_sent": "激活邮件已发送至 {email}，若未收到请检查垃圾箱。",
             "custom_footer_text": "添加显示于页面底部的 HTML 代码。",
-            "custom_footer_title": "编辑自定义页脚",
-            "custom_header_text": "添加显示于页面顶部、位于 Flarum 默认页眉上方的 HTML 代码。",
-            "custom_header_title": "编辑自定义页眉",
-            "dark_hc_mode_label": "深色高对比度模式",
-            "dark_mode_label": "深色模式",
+            "custom_footer_title": "自定义页脚",
+            "custom_header_text": "添加显示于页面顶部、位于 Flarum 导航栏上方的 HTML 代码。",
+            "custom_header_title": "自定义页眉",
+            "dark_hc_mode_label": "深色高对比度",
+            "dark_mode_label": "深色",
             "delete": "删除",
             "delete_forever": "永久删除",
             "discussions": "讨论",
@@ -1096,26 +1149,27 @@
             "extensions": "扩展程序",
             "generic_confirmation_message": "确定要继续吗？此操作无法撤销。",
             "icon": "图标",
-            "icon_text": "请输入任何 <a>Font Awesome</a> 图标类名，<em>包括</em>前缀（例如 <code>fas fa-flag</code> 或 <code>fa-solid fa-flag</code>）。",
-            "invalid_login_message": "您的登录信息不正确。",
-            "light_hc_mode_label": "浅色高对比度模式",
-            "light_mode_label": "浅色模式",
+            "icon_text": "请输入完整的 <a>FontAwesome</a> 图标类名，<em>不要省略</em>样式前缀，例如 <code>fas fa-flag</code> 或 <code>fa-solid fa-flag</code>。",
+            "invalid_login_message": "登录信息有误。",
+            "light_hc_mode_label": "浅色高对比度",
+            "light_mode_label": "浅色",
             "load_more": "加载更多",
+            "latest": "最新",
             "loading": "正在加载…",
             "log_in": "登录",
-            "log_out": "退出",
+            "log_out": "退出登录",
             "mark_all_as_read": "全部已读",
             "never": "无",
             "new_token": "创建令牌",
             "newest": "新鲜出炉",
             "next_page": "下一页",
-            "notifications": "通知中心",
+            "notifications": "通知",
             "okay": "确定",
-            "oldest": "陈年旧贴",
+            "oldest": "陈年讨论",
             "password": "密码",
             "posts": "回复",
             "previous_page": "上一页",
-            "relevance": "相关推荐",
+            "relevance": "最相关",
             "remember_me_label": "记住我的登录状态",
             "remove": "移除",
             "rename": "重命名",
@@ -1129,7 +1183,10 @@
             "settings": "设置",
             "sign_up": "注册",
             "some_others": "{count, plural, one {# 人} other {# 人}}",
-            "start_a_discussion": "开始讨论",
+            "start_a_discussion": "发起讨论",
+            "title_az": "标题（正序）",
+            "title_za": "标题（倒序）",
+            "top": "最多回复",
             "username": "用户名",
             "username_or_email_placeholder": "用户名或邮箱",
             "users": "用户",

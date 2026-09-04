@@ -2,12 +2,14 @@
     "flarum-sticky": {
         "admin": {
             "settings": {
-                "enable_display_excerpt": "",
-                "only_sticky_unread_discussions_label": "",
-                "only_sticky_unread_discussions_help": ""
+                "enable_display_excerpt": "Visa ett utdrag ur det första inlägget när en klistrad diskussion är oläst",
+                "only_sticky_unread_discussions_label": "Endast klistrade olästa diskussioner",
+                "only_sticky_unread_discussions_help": "På sidan för alla diskussioner fästs olästa klistrade diskussioner högst upp, medan lästa klistrade diskussioner följer den vanliga ordningen.",
+                "pin_sticky_on_all_discussions_label": "Nåla klistrade diskussioner på sidan Alla diskussioner",
+                "pin_sticky_on_all_discussions_help": "När funktionen är aktiverad (standardinställning) hamnar fastnålade klistrade diskussioner högst upp på sidan ”Alla diskussioner”. När den är inaktiverad visas de på sin naturliga plats baserat på senaste aktivitet. På taggsidor hamnar fastnålade klistrade diskussioner alltid högst upp, oavsett denna inställning."
             },
             "permissions": {
-                "sticky_discussions_label": "Klistrade trådar"
+                "sticky_discussions_label": "Klistrade diskussioner"
             }
         },
         "forum": {
@@ -19,15 +21,15 @@
                 "unsticky_button": "Avklistra"
             },
             "post_stream": {
-                "discussion_stickied_text": "{username} klistrade tråden.",
-                "discussion_unstickied_text": "{username} avklistrade tråden."
+                "discussion_stickied_text": "{username} klistrade diskussionen.",
+                "discussion_unstickied_text": "{username} avklistrade diskussionen."
             }
         },
         "lib": {
             "gambits": {
                 "discussions": {
                     "sticky": {
-                        "key": ""
+                        "key": "klistrad"
                     }
                 }
             }
@@ -40,8 +42,8 @@
         "lib": {
             "browser": {
                 "discussion": {
-                    "stickied": "",
-                    "unstickied": ""
+                    "stickied": "Klistrad diskussion {discussion}",
+                    "unstickied": "Avklistrad diskussion {discussion}"
                 }
             }
         }

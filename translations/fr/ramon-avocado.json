@@ -4,6 +4,14 @@
             "loading": "Chargement…",
             "search_tags": "Rechercher des étiquettes…",
             "settings": {
+                "spinner_option_avocado": "Avocado",
+                "spinner_option_orbital": "Orbital",
+                "spinner_option_css_orbital": "Orbital (CSS)",
+                "spinner_option_ditie": "ditie.online",
+                "spinner_option_b2": "Rotation",
+                "spinner_option_flarum": "Flarum",
+                "spinner_option_pl3": "Pulsation",
+                "spinner_option_custom": "Personnalisé",
                 "section_homepage": "Page d'accueil",
                 "section_auth": "Connexion & Inscription",
                 "section_search": "Recherche",
@@ -69,7 +77,8 @@
                 "custom_hero_enabled_label": "Utiliser un contenu personnalisé pour le bandeau (HTML)",
                 "custom_hero_enabled_help": "Remplacer le contenu du bandeau par défaut (icône, titre, description, boutons « Connexion » et « Inscription ») par votre propre code HTML. Le conteneur de la bannière, l'image d'arrière-plan et la superposition restent inchangés. Affiché uniquement aux invités — comme pour le bandeau par défaut.",
                 "custom_hero_html_label": "Code HTML du bandeau personnalisé",
-                "custom_hero_html_help": "Code HTML inséré dans la superposition de la bannière (remplace .AvocadoHome-heroBannerContent). Les balises « <style> » intégrées sont prises en charge.",
+                "custom_hero_html_help": "Code HTML inséré dans la superposition de la bannière (remplace .AvocadoHome-heroBannerContent). Les balises style intégrées sont prises en charge.",
+                "custom_hero_html_placeholder": "<div class=\"AvocadoHome-heroBannerContent\">\n  <h1 class=\"AvocadoHome-heroBannerTitle\">Bienvenue !</h1>\n  <p class=\"AvocadoHome-heroBannerDesc\">Tout ce que vous voulez : des liens, des images, des boutons.</p>\n</div>",
                 "search_v1_label": "Activer le style de la barre de recherche V1",
                 "search_v1_help": "Afficher le menu déroulant de recherche intégrée à la place de la fenêtre modale V2.",
                 "bookmarks_enabled_label": "Activer le système de favoris",
@@ -164,6 +173,7 @@
             }
         },
         "forum": {
+            "loading": "Chargement en cours…",
             "back": "Retour",
             "profile": {
                 "joined": "S'est inscrit le {date}",
@@ -217,7 +227,8 @@
                 "results_for": "Résultats pour",
                 "tip": "Astuce : préfixez ",
                 "tip_suffix": " pour filtrer par étiquette",
-                "esc_key": "ÉCHAP"
+                "esc_key": "ÉCHAP",
+                "close": "Fermer (Échap)"
             },
             "header": {
                 "back": "Retour",
@@ -299,7 +310,9 @@
                 "discussion_singular_card": "1 discussion",
                 "discussion_plural_card": "{count} discussions",
                 "yesterday_time": "Hier, {time}",
-                "showcase_heading": "Vitrine"
+                "showcase_heading": "Vitrine",
+                "ws_update_singular": "1 nouvelle discussion",
+                "ws_update_plural": "{count} nouvelles discussions"
             },
             "discussions": {
                 "title": "Toutes les discussions",
@@ -361,7 +374,8 @@
                 "message": "Message"
             },
             "post": {
-                "op_badge": "AO"
+                "op_badge": "AO",
+                "copy_code": "Copier le code"
             },
             "messages": {
                 "deleted_message": "Message supprimé"
@@ -400,6 +414,22 @@
                 "load_more": "Charger plus",
                 "online": "En ligne"
             }
+        },
+        "api": {
+            "invalid_discussion_id": "Identifiant de discussion invalide.",
+            "discussion_not_found": "Discussion introuvable.",
+            "invalid_note": "Note invalide.",
+            "note_too_long": "La note est trop longue.",
+            "invalid_reminder_date": "Date de rappel invalide.",
+            "reminder_must_be_future": "Le rappel doit être fixé à une date ultérieure.",
+            "reminder_too_far": "La date du rappel est trop éloignée.",
+            "file_not_readable": "Le fichier transféré n'est pas lisible.",
+            "no_file_uploaded": "Aucun fichier n'a été transféré.",
+            "file_too_large": "Le fichier est trop volumineux (max {max}).",
+            "unsupported_image_type": "Type d'image non pris en charge.",
+            "svg_forbidden_declaration": "Le fichier SVG contient une déclaration DOCTYPE ou ENTITY non autorisée.",
+            "svg_parse_failed": "SVG invalide : impossible d'analyser le code XML.",
+            "svg_invalid": "Le fichier transféré doit être un fichier SVG valide."
         }
     }
 }

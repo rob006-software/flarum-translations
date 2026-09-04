@@ -2,6 +2,12 @@
     "fof-horizon": {
         "admin": {
             "settings": {
+                "locked_by_env": "",
+                "locked_by_code": "",
+                "mail_title": "",
+                "mail_help": "",
+                "email_concurrency": "",
+                "email_concurrency_help": "",
                 "trim_title": "ตั้งค่าการเคลียร์ข้อมูลการทำงาน",
                 "trim_help": "คุณสามารถกำหนดระยะเวลา (หน่วยเป็นนาที) ที่ต้องการให้ Horizon\nจัดเก็บประวัติการประมวลผลงานล่าสุดและงานที่ล้มเหลวไว้ โดยปกติงานล่าสุดจะจัดเก็บไว้\nเป็นเวลาหนึ่งชั่วโมง ในขณะที่งานที่ล้มเหลวจะถูกจัดเก็บไว้เป็นเวลาหนึ่งสัปดาห์เต็ม\n",
                 "trim_recent": "เคลียร์งานล่าสุด (Trim Recent Jobs)",
@@ -15,27 +21,68 @@
                 "trim_failed": "เคลียร์งานที่ล้มเหลว (Trim Failed Jobs)",
                 "trim_failed_help": "ตารางข้อมูลนี้ใช้แสดงประวัติงานที่ประมวลผลล้มเหลวทั้งหมดบนแดชบอร์ดของ Horizon\n",
                 "trim_monitored": "เคลียร์งานที่กำลังติดตาม (Trim Monitored Jobs)",
-                "trim_monitored_help": "ตารางข้อมูลนี้ใช้แสดงประวัติงานที่เปิดติดตามตรวจสอบไว้บนแดชบอร์ดของ Horizon\n"
+                "trim_monitored_help": "ตารางข้อมูลนี้ใช้แสดงประวัติงานที่เปิดติดตามตรวจสอบไว้บนแดชบอร์ดของ Horizon\n",
+                "supervisor_title": "",
+                "supervisor_help": "",
+                "memory_limit": "",
+                "memory_limit_help": ""
             },
             "stats": {
-                "auto_refresh": "รีเฟรชอัตโนมัติ",
-                "heading": "ภาพรวมคิวทำงาน (Queue Overview)",
+                "queue_heading": "",
+                "kv_heading": "",
                 "full_dashboard": "แดชบอร์ด Horizon (Horizon Dashboard)",
+                "auto_refresh": "รีเฟรชอัตโนมัติ",
                 "refresh": "รีเฟรชข้อมูล",
-                "last_refresh": "",
                 "error": {
                     "title": "เกิดข้อผิดพลาดในการเชื่อมต่อ",
                     "fetch_failed": "ไม่สามารถดึงข้อมูลสถิติจาก Horizon ได้ โปรดตรวจสอบการกำหนดค่า Redis ของคุณให้ถูกต้อง",
                     "setup_docs": "ดูเอกสารประกอบการตั้งค่า Redis"
                 },
+                "eviction_pressure": "",
+                "eviction_policy_tooltip": "",
+                "eviction_warning": "",
                 "health": {
                     "excellent": "ดีเยี่ยม",
                     "good": "ดี",
                     "poor": "แย่",
                     "critical": "วิกฤต",
+                    "tooltip_heading": "",
+                    "factor": {
+                        "status": "",
+                        "wait": "",
+                        "memory": ""
+                    },
                     "tooltip": "คะแนนความสมบูรณ์ของระบบ: {score}/100"
                 },
+                "status": {
+                    "running": "",
+                    "paused": "",
+                    "inactive": "",
+                    "paused_pending": ""
+                },
+                "period": {
+                    "minutes": "",
+                    "hour": "",
+                    "hours": "",
+                    "day": "",
+                    "days": ""
+                },
                 "data": {
+                    "processes": "",
+                    "jobs-per-minute": "จำนวนงานต่อนาที (Jobs Per Minute)",
+                    "pending-jobs": "",
+                    "recent-jobs": "",
+                    "failed-jobs": "",
+                    "max-wait": "",
+                    "slowest-queue": "",
+                    "highest-throughput-queue": "",
+                    "memory-used": "",
+                    "memory-peak": "",
+                    "memory-max": "",
+                    "ops-per-sec": "",
+                    "connected-clients": "",
+                    "blocked-clients": "",
+                    "eviction-policy": "",
                     "redis-used-memory": "หน่วยความจำที่กำลังใช้งานของ Cache",
                     "redis-peak-memory": "หน่วยความจำที่ใช้งานสูงสุด (Peak Memory) ของ Cache",
                     "redis-max-memory": "ขีดจำกัดหน่วยความจำสูงสุด (Max Memory) ของ Cache",
@@ -45,7 +92,6 @@
                     "redis-ops-per-sec": "จำนวนการทำงานต่อวินาที (Ops Per Second)",
                     "redis-connected-clients": "จำนวนไคลเอนต์ที่เชื่อมต่ออยู่ (Connected Clients)",
                     "redis-blocked-clients": "จำนวนไคลเอนต์ที่ถูกระงับการทำงาน (Blocked Clients)",
-                    "jobs-per-minute": "จำนวนงานต่อนาที (Jobs Per Minute)",
                     "jobs-past-hour": "จำนวนงานในชั่วโมงที่ผ่านมา",
                     "failed-last-seconds": "งานที่ประมวลผลล้มเหลวในไม่กี่วินาทีล่าสุด",
                     "status": {
@@ -60,7 +106,16 @@
                     "max-throughput": "ปริมาณงานสูงสุดที่รองรับได้ (Max Throughput)",
                     "success-rate": "อัตราส่วนการทำงานสำเร็จ",
                     "failure-rate": "อัตราส่วนการทำงานล้มเหลว"
-                }
+                },
+                "tile": {
+                    "processes": "",
+                    "jobs_per_minute": "",
+                    "max_wait": "",
+                    "status": ""
+                },
+                "horizon_max_wait_none": "",
+                "horizon_max_wait_value": "",
+                "heading": "ภาพรวมคิวทำงาน (Queue Overview)"
             }
         }
     }

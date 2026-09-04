@@ -2,25 +2,25 @@
     "core": {
         "admin": {
             "advanced": {
-                "description": "",
+                "description": "تنظیمات پیشرفته انجمن خود را پیکربندی کنید.",
                 "maintenance": {
                     "bisect": {
                         "begin_button_text": "",
                         "continue_button_text": "",
                         "label": "",
-                        "help": ""
+                        "help": "به شناسایی افزونه‌ای که باعث ایجاد مشکلی که مشاهده کرده‌اید کمک می‌کند. این کار به طور خودکار انجمن را در حالت تعمیر و نگهداری (پایین) قرار می‌دهد تا زمانی که پردازش به پایان برسد."
                     },
                     "bisect_modal": {
                         "description": "",
-                        "end_button": "",
-                        "issue_question": "",
+                        "end_button": "ببندید و به صفحه افزونه بروید",
+                        "issue_question": "آیا مشکل همچنان روی می‌دهد؟",
                         "issue_question_help": "",
                         "no_button": "خیر",
                         "result_description": "",
                         "start_button": "",
                         "stop_button": "",
                         "steps_left": "",
-                        "total_steps": "",
+                        "total_steps": "این کار حدود {steps} مرحله طول خواهد کشید.",
                         "title": "",
                         "yes_button": "بله"
                     },
@@ -46,10 +46,12 @@
                     "source_local": "",
                     "source_cdn": "CDN",
                     "source_kit": "",
-                    "cdn_url_label": "",
+                    "cdn_url_label": "CDN URL",
                     "cdn_url_help": "",
                     "kit_url_label": "",
                     "kit_url_help": "",
+                    "forced_style_label": "",
+                    "forced_style_help": "",
                     "config_override": {
                         "label": "",
                         "help": ""
@@ -67,6 +69,10 @@
                     "search_configuration": ""
                 },
                 "queue": {
+                    "pause_label": "",
+                    "pause_all_label": "",
+                    "pause_queue_label": "",
+                    "pause_help": "",
                     "section_label": "",
                     "sync_info": "",
                     "sync_help": "",
@@ -89,7 +95,9 @@
                     "driver_options": {
                         "default": ""
                     },
-                    "no_other_drivers": ""
+                    "no_other_drivers": "",
+                    "cjk_mode_label": "",
+                    "cjk_mode_help": ""
                 },
                 "title": "پیشرفته"
             },
@@ -118,6 +126,8 @@
                 "logo_text": "تصویری برای نمایش در محل عنوان انجمن آپلود کنید.",
                 "logo_dark_mode_heading": "",
                 "logo_dark_mode_text": "",
+                "show_theme_selector_help": "",
+                "show_theme_selector_label": "",
                 "title": "ظاهر",
                 "color_scheme_label": "",
                 "color_schemes": {
@@ -138,7 +148,7 @@
                 "display_name_heading": "نام نمایشی کاربر",
                 "display_name_text": "درایوری را که باید برای نام‌های نمایشی کاربران استفاده شود انتخاب کنید. به طور پیش فرض ، نام کاربری نشان داده می شود.",
                 "avatar_driver_options": {
-                    "default": ""
+                    "default": "پیش‌فرض"
                 },
                 "avatar_driver_heading": "",
                 "avatar_driver_text": "",
@@ -188,14 +198,33 @@
                 "load_error": "",
                 "about": "",
                 "hide": "",
-                "read_more": "",
+                "read_more": "بیشتر بخوانید",
                 "refresh": "",
-                "retry": "",
+                "retry": "دوباره تلاش کنید",
                 "show": "",
                 "title": "اعلامیه‌ها",
                 "view_all": ""
             },
+            "queue_widget": {
+                "title": "",
+                "pending": "",
+                "reserved": "",
+                "failed": "",
+                "refresh": "تازه کردن"
+            },
+            "failed_jobs": {
+                "title": "",
+                "none": "",
+                "meta": "",
+                "details": "جزئیات",
+                "retry": "",
+                "retry_all": "",
+                "delete": "حذف"
+            },
             "dashboard": {
+                "queue_paused_warning": "",
+                "queue_paused_all_warning": "",
+                "queue_paused_manage": "مدیریت",
                 "clear_cache_button": "پاک کردن cache",
                 "description": "انجمن شما در یک نگاه.",
                 "info_button": "",
@@ -242,6 +271,10 @@
                 "detail": "",
                 "label": ""
             },
+            "database-version-warning": {
+                "below-recommended-detail": "",
+                "below-recommended-label": ""
+            },
             "debug-warning": {
                 "detail": "وقتی حالت <code>اشکال‌زدایی</code> فعال است، Flarum دارایی‌های <code>JavaScript</code> و <code>CSS</code> خود را در هر درخواست بازسازی می‌کند، و همچنین ممکن است اطلاعات دیگری مانند پایگاه داده را به بیرون درز کند. اسرار، متغیرهای محیطی و غیره\n\nبه شدت توصیه می شود که <code>debug</code> را در فایل <code>config.php</code> خود در حال تولید غیرفعال کنید. برای اطلاعات بیشتر به <link>اسناد فلاروم</link> مراجعه کنید.\n",
                 "label": "حالت اشکال‌زدایی فعال است"
@@ -282,7 +315,7 @@
                 "format": {
                     "multipart_option": "",
                     "plain_option": "",
-                    "html_option": ""
+                    "html_option": "HTML"
                 },
                 "format_heading": "",
                 "format_help": "",
@@ -320,7 +353,7 @@
                 "configure_scopes": "پیکربندی محدوده",
                 "confirm_purge": "پاکسازی ، تمام ورودی‌های پایگاه داده و دارایی‌های مربوط به افزودنی را حذف می‌کند . این مورد افزودنی را حذف نصب نمی کند ; این مورد باید توسط Composer انجام شود . آیا اطمینان دارید که می خواهید ادامه دهید ؟",
                 "database_driver_mismatch": "",
-                "deprecated": "",
+                "deprecated": "منسوخ",
                 "disabled": "غیرفعال شد",
                 "enable_to_see": "افزونه را برای مشاهده و تغییر تنظیمات فعال کنید .",
                 "enabled": "فعال شد",
@@ -583,7 +616,8 @@
                 "search_role_label": "جستجو در انجمن",
                 "session_dropdown_accessible_label": "تغییر منوی کشویی گزینه های جلسه",
                 "settings_button": "=> core.ref.settings",
-                "sign_up_link": "=> core.ref.sign_up"
+                "sign_up_link": "=> core.ref.sign_up",
+                "theme_switcher_accessible_label": ""
             },
             "index": {
                 "all_discussions_link": "=> core.ref.all_discussions",
@@ -593,16 +627,18 @@
                 "meta_title_text": "=> core.ref.all_discussions",
                 "refresh_tooltip": "=> core.ref.refresh",
                 "start_discussion_button": "=> core.ref.start_a_discussion",
-                "skip_to_main_content": "",
+                "skip_to_main_content": "رفتن به محتوای اصلی",
                 "toggle_sidenav_dropdown_accessible_label": "تغییر منوی کشویی پیمایش"
             },
             "index_sort": {
-                "latest_button": "آخرین",
+                "az_button": "=> core.ref.title_az",
+                "latest_button": "=> core.ref.latest",
                 "newest_button": "=> core.ref.newest",
                 "oldest_button": "=> core.ref.oldest",
                 "relevance_button": "=> core.ref.relevance",
                 "toggle_dropdown_accessible_label": "تغییر مرتب‌سازی فهرست بحث",
-                "top_button": "بالا"
+                "top_button": "=> core.ref.top",
+                "za_button": "=> core.ref.title_za"
             },
             "log_in": {
                 "forgot_password_link": "رمزعبورتان را فراموش کردید؟",
@@ -772,6 +808,7 @@
             }
         },
         "lib": {
+            "connection_restored_message": "",
             "debug_button": "دیباگ",
             "alert": {
                 "dismiss_a11y_label": "لغو هشدار"
@@ -812,7 +849,9 @@
                 "generic_message": "متأسفانه خطایی رخ داد. لطفاً صفحه را دوباره بارگذاری کنید.",
                 "generic_cross_origin_message": "خطایی هنگام اجرای این درخواست رخ داده است. لطفا\" صفحه را بارگذاری مجدد کنید سپس تلاش کنید.",
                 "missing_dependencies_message": "تا زمانی که وابستگی‌های زیر فعال نشده باشند، نمی‌توان {extension} را فعال کرد: {extensions}",
+                "network_message": "",
                 "not_found_message": "یافت نشد.",
+                "offline_message": "",
                 "payload_too_large_message": "بار درخواست خیلی بزرگ بود.",
                 "permission_denied_message": "شما دسترسی لازم برای انجام این کار را ندارید.",
                 "rate_limit_exceeded_message": "سرعت عمل شما خیلی زیاد است. لطفاً کمی صبر کنید.",
@@ -874,7 +913,8 @@
                 "placeholder": ""
             },
             "nav": {
-                "drawer_button": "باز کردن کشوی پیمایش"
+                "drawer_button": "باز کردن کشوی پیمایش",
+                "pin_pane_button": ""
             },
             "notices": {
                 "bisecting": "",
@@ -882,9 +922,21 @@
                 "maintenance_mode_low": "",
                 "maintenance_mode_safe": ""
             },
+            "index_sort": {
+                "az_button": "=> core.ref.title_az",
+                "latest_button": "=> core.ref.latest",
+                "newest_button": "=> core.ref.newest",
+                "oldest_button": "=> core.ref.oldest",
+                "relevance_button": "=> core.ref.relevance",
+                "top_button": "=> core.ref.top",
+                "za_button": "=> core.ref.title_za"
+            },
             "number_suffix": {
                 "kilo_text": "K",
                 "mega_text": "M"
+            },
+            "overflowing_list": {
+                "toggle_accessible_label": ""
             },
             "pagination": {
                 "back_button": "صفحه قبل",
@@ -903,6 +955,7 @@
                 "options_heading": "گزینه‌های جستجو",
                 "placeholder": "جستجو...",
                 "preview_heading": "پیش‌نمایش جستجو",
+                "search_active_button_accessible_label": "",
                 "search_clear_button_accessible_label": ""
             },
             "search_source": {
@@ -1101,6 +1154,7 @@
             "light_hc_mode_label": "",
             "light_mode_label": "",
             "load_more": "بیشتر",
+            "latest": "",
             "loading": "در حال بارگذاری ...",
             "log_in": "ورود",
             "log_out": "خروج",
@@ -1127,9 +1181,12 @@
             "search_users": "جستجوی کاربر",
             "security": "امنیت",
             "settings": "تنظیمات",
-            "sign_up": "ثبت‌ نام",
+            "sign_up": "ثبت‌نام",
             "some_others": "{count, plural, one {# دیگر} other {# دیگر}}",
             "start_a_discussion": "شروع بحث جدید",
+            "title_az": "",
+            "title_za": "",
+            "top": "",
             "username": "نام کاربری",
             "username_or_email_placeholder": "نام کاربری یا ایمیل",
             "users": "کاربران",

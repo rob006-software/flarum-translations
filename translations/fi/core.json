@@ -50,6 +50,8 @@
                     "cdn_url_help": "Täysi osoite FontAwesome CSS tiedostoon CDN:ssä",
                     "kit_url_label": "Kitin osoite",
                     "kit_url_help": "Sinun FontAwesome kitin skriptin osoite (kit.fontawesome.com sivulta)",
+                    "forced_style_label": "",
+                    "forced_style_help": "",
                     "config_override": {
                         "label": "Määrityksen yliajo",
                         "help": "FontAwesome-asetukset on määritetty config.php-tiedostossa eikä niitä voi muuttaa täällä."
@@ -67,6 +69,10 @@
                     "search_configuration": "Etsi käytettäviä asetuksia"
                 },
                 "queue": {
+                    "pause_label": "",
+                    "pause_all_label": "",
+                    "pause_queue_label": "",
+                    "pause_help": "",
                     "section_label": "Jono",
                     "sync_info": "Foorumisi käyttää synkronista jonoajuria. Tehtävät käsitellään välittömästi pääprosessin säikeessä.",
                     "sync_help": "Paremman suorituskyvyn ja käyttäjäkokemuksen saavuttamiseksi harkitse tietokantajonoajurin käyttöä. Lue lisää dokumentaatiosta.",
@@ -89,7 +95,9 @@
                     "driver_options": {
                         "default": "Oletus tietokantahaku"
                     },
-                    "no_other_drivers": "Hakuajureita ei ole vielä saatavilla. Asenna hakuajurilaajennus voidaksesi määrittää sen."
+                    "no_other_drivers": "Hakuajureita ei ole vielä saatavilla. Asenna hakuajurilaajennus voidaksesi määrittää sen.",
+                    "cjk_mode_label": "",
+                    "cjk_mode_help": ""
                 },
                 "title": "Lisäasetukset"
             },
@@ -118,6 +126,8 @@
                 "logo_text": "Siirrä kuva, jota käytetään foorumin logona tekstin sijaan.",
                 "logo_dark_mode_heading": "Tumman teeman logo",
                 "logo_dark_mode_text": "Siirrä toissijainen logo, jota käytetään, kun tumma teema on käytössä.",
+                "show_theme_selector_help": "",
+                "show_theme_selector_label": "",
                 "title": "Ulkoasu",
                 "color_scheme_label": "Väriteema (oletus)",
                 "color_schemes": {
@@ -195,7 +205,26 @@
                 "title": "Ilmoitukset",
                 "view_all": "Näytä kaikki osoitteessa discuss.flarum.org"
             },
+            "queue_widget": {
+                "title": "",
+                "pending": "",
+                "reserved": "",
+                "failed": "",
+                "refresh": ""
+            },
+            "failed_jobs": {
+                "title": "",
+                "none": "",
+                "meta": "",
+                "details": "",
+                "retry": "",
+                "retry_all": "",
+                "delete": ""
+            },
             "dashboard": {
+                "queue_paused_warning": "",
+                "queue_paused_all_warning": "",
+                "queue_paused_manage": "",
                 "clear_cache_button": "Tyhjennä välimuisti",
                 "description": "Foorumisi yhdellä silmäyksellä.",
                 "info_button": "Järjestelmän tiedot",
@@ -241,6 +270,10 @@
             "database-driver-mismatch-warning": {
                 "detail": "",
                 "label": ""
+            },
+            "database-version-warning": {
+                "below-recommended-detail": "",
+                "below-recommended-label": ""
             },
             "debug-warning": {
                 "detail": "Kun <code>debug</code> tila on aktiivisena Flarum luo uudelleen sen <code>JavaScript</code> ja <code>CSS</code> koodit joka pyynnöllä ja voi mahdollisesti vuotaa joitain tietoja kuten tietokanta salaisuuksia, ympäristön määreitä yms.\n\nSuosittelemme, että otat <code>debug</code> tilan pois päältä <code>config.php</code> tiedostosta tuotannossa. Katso <link>Flarumin dokumentoinnista</link> lisää tietoa.\n",
@@ -583,7 +616,8 @@
                 "search_role_label": "Hae foorumilta",
                 "session_dropdown_accessible_label": "Vaihda istunnon asetuksien alasvetovalikko",
                 "settings_button": "=> core.ref.settings",
-                "sign_up_link": "=> core.ref.sign_up"
+                "sign_up_link": "=> core.ref.sign_up",
+                "theme_switcher_accessible_label": ""
             },
             "index": {
                 "all_discussions_link": "=> core.ref.all_discussions",
@@ -597,12 +631,14 @@
                 "toggle_sidenav_dropdown_accessible_label": "Vaihda valikon alasvetovalikkoa"
             },
             "index_sort": {
+                "az_button": "",
                 "latest_button": "Viimeisin",
                 "newest_button": "=> core.ref.newest",
                 "oldest_button": "=> core.ref.oldest",
                 "relevance_button": "=> core.ref.relevance",
                 "toggle_dropdown_accessible_label": "Vaihda keskustelulistan järjestystä",
-                "top_button": "Parhaat"
+                "top_button": "Parhaat",
+                "za_button": ""
             },
             "log_in": {
                 "forgot_password_link": "Unohtuiko salasana?",
@@ -772,6 +808,7 @@
             }
         },
         "lib": {
+            "connection_restored_message": "",
             "debug_button": "Vianetsintä",
             "alert": {
                 "dismiss_a11y_label": "Poista ilmoitus"
@@ -812,7 +849,9 @@
                 "generic_message": "Hups! Jotain meni pieleen. Päivitä sivu ja yritä uudelleen.",
                 "generic_cross_origin_message": "Hups! Jotain meni pieleen cross-origin pyynnössä. Päivitä sivu ja yritä uudelleen.",
                 "missing_dependencies_message": "Lisäosaa {extension} ei voida ottaa käyttöön ennen kuin seuraavat lisäosat on otettu käyttöön: {extensions}",
+                "network_message": "",
                 "not_found_message": "Pyydettyä resurssia ei löytynyt.",
+                "offline_message": "",
                 "payload_too_large_message": "Pyydetty kuorma (payload) oli liian iso.",
                 "permission_denied_message": "Sinulla ei ole oikeuksia tehdä sitä.",
                 "rate_limit_exceeded_message": "Toimit hieman liian nopeasti. Yritä uudelleen muutaman sekunnin kuluttua.",
@@ -874,7 +913,8 @@
                 "placeholder": "Valitse useita vaihtoehtoja"
             },
             "nav": {
-                "drawer_button": "Avaa navigointi lokero"
+                "drawer_button": "Avaa navigointi lokero",
+                "pin_pane_button": ""
             },
             "notices": {
                 "bisecting": "Suoritetaan lisäosan vianhakuprosessia ongelman aiheuttavan lisäosan selvittämiseksi.",
@@ -882,9 +922,21 @@
                 "maintenance_mode_low": "Huoltokatkos. Vain ylläpitäjät voivat käyttää foorumia.",
                 "maintenance_mode_safe": "Huoltokatkos vikasietotilassa. Vain ylläpitäjät voivat käyttää foorumia eikä lisäosia ladata."
             },
+            "index_sort": {
+                "az_button": "",
+                "latest_button": "",
+                "newest_button": "",
+                "oldest_button": "",
+                "relevance_button": "",
+                "top_button": "",
+                "za_button": ""
+            },
             "number_suffix": {
                 "kilo_text": "K",
                 "mega_text": "M"
+            },
+            "overflowing_list": {
+                "toggle_accessible_label": ""
             },
             "pagination": {
                 "back_button": "Edellinen sivu",
@@ -903,6 +955,7 @@
                 "options_heading": "Hakuasetukset",
                 "placeholder": "Etsi...",
                 "preview_heading": "Haun esikatselu",
+                "search_active_button_accessible_label": "",
                 "search_clear_button_accessible_label": "Nollaa hakukysely"
             },
             "search_source": {
@@ -1101,6 +1154,7 @@
             "light_hc_mode_label": "Vaalea korkean kontrastin tila",
             "light_mode_label": "Vaalea tila",
             "load_more": "Lataa lisää",
+            "latest": "",
             "loading": "Ladataan...",
             "log_in": "Kirjaudu sisään",
             "log_out": "Kirjaudu ulos",
@@ -1130,6 +1184,9 @@
             "sign_up": "Rekisteröidy",
             "some_others": "{count, plural, one {# muu} other {# muuta}}",
             "start_a_discussion": "Aloita keskustelu",
+            "title_az": "",
+            "title_za": "",
+            "top": "",
             "username": "Käyttäjätunnus",
             "username_or_email_placeholder": "Käyttäjätunnus tai sähköposti",
             "users": "Käyttäjät",

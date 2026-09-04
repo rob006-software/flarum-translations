@@ -2,6 +2,12 @@
     "fof-horizon": {
         "admin": {
             "settings": {
+                "locked_by_env": "",
+                "locked_by_code": "",
+                "mail_title": "",
+                "mail_help": "",
+                "email_concurrency": "",
+                "email_concurrency_help": "",
                 "trim_title": "Kırpma Ayarları",
                 "trim_help": "Burada Horizon'un son ve başarısız işleri ne kadar süreyle (dakika cinsinden)\nsaklamasını istediğinizi yapılandırabilirsiniz. Genellikle, son işler bir saat\nboyunca saklanırken, tüm başarısız işler bir hafta boyunca saklanır.\n",
                 "trim_recent": "Son İşleri Kes",
@@ -15,27 +21,68 @@
                 "trim_failed": "Başarısız İşleri Kes",
                 "trim_failed_help": "Bu tablo, Horizon kontrol panelindeki başarısız işleri görüntüler.\n",
                 "trim_monitored": "İzlenen İşleri Kes",
-                "trim_monitored_help": "Bu tablo, Horizon kontrol panelindeki izlenen işleri görüntüler.\n"
+                "trim_monitored_help": "Bu tablo, Horizon kontrol panelindeki izlenen işleri görüntüler.\n",
+                "supervisor_title": "",
+                "supervisor_help": "",
+                "memory_limit": "",
+                "memory_limit_help": ""
             },
             "stats": {
-                "auto_refresh": "Otomatik Yenile",
-                "heading": "Kuyruğa Genel Bakış",
+                "queue_heading": "",
+                "kv_heading": "",
                 "full_dashboard": "Horizon Kontrol Paneli",
+                "auto_refresh": "Otomatik Yenile",
                 "refresh": "Yenile",
-                "last_refresh": "Son yenileme: {time}",
                 "error": {
                     "title": "Bağlantı Hatası",
                     "fetch_failed": "Horizon istatistikleri alınamıyor. Lütfen Redis yapılandırmanızı kontrol edin.",
                     "setup_docs": "Redis Kurulum Dokümantasyonunu Görüntüle"
                 },
+                "eviction_pressure": "",
+                "eviction_policy_tooltip": "",
+                "eviction_warning": "",
                 "health": {
                     "excellent": "Mükemmel",
                     "good": "İyi",
                     "poor": "Zayıf",
                     "critical": "Kritik",
+                    "tooltip_heading": "",
+                    "factor": {
+                        "status": "",
+                        "wait": "",
+                        "memory": ""
+                    },
                     "tooltip": "Sistem sağlık puanı: {score}/100"
                 },
+                "status": {
+                    "running": "",
+                    "paused": "",
+                    "inactive": "",
+                    "paused_pending": ""
+                },
+                "period": {
+                    "minutes": "",
+                    "hour": "",
+                    "hours": "",
+                    "day": "",
+                    "days": ""
+                },
                 "data": {
+                    "processes": "",
+                    "jobs-per-minute": "Dakika Başına İş Sayısı",
+                    "pending-jobs": "",
+                    "recent-jobs": "",
+                    "failed-jobs": "",
+                    "max-wait": "",
+                    "slowest-queue": "",
+                    "highest-throughput-queue": "",
+                    "memory-used": "",
+                    "memory-peak": "",
+                    "memory-max": "",
+                    "ops-per-sec": "",
+                    "connected-clients": "",
+                    "blocked-clients": "",
+                    "eviction-policy": "",
                     "redis-used-memory": "Kullanılan Redis Belleği",
                     "redis-peak-memory": "Redis Bellek Zirvesi",
                     "redis-max-memory": "Redis Maks Bellek",
@@ -45,7 +92,6 @@
                     "redis-ops-per-sec": "Saniye Başına İşlem",
                     "redis-connected-clients": "Bağlı İstemciler",
                     "redis-blocked-clients": "Engellenmiş İstemciler",
-                    "jobs-per-minute": "Dakika Başına İş Sayısı",
                     "jobs-past-hour": "Saat Başına İş Sayısı",
                     "failed-last-seconds": "Birkaç Saniyeden Sonra Başarısız Olan İşler",
                     "status": {
@@ -60,7 +106,17 @@
                     "max-throughput": "Maksimum Verim",
                     "success-rate": "Başarı Oranı",
                     "failure-rate": "Başarısızlık Oranı"
-                }
+                },
+                "tile": {
+                    "processes": "",
+                    "jobs_per_minute": "",
+                    "max_wait": "",
+                    "status": ""
+                },
+                "horizon_max_wait_none": "",
+                "horizon_max_wait_value": "",
+                "heading": "Kuyruğa Genel Bakış",
+                "last_refresh": "Son yenileme: {time}"
             }
         }
     }

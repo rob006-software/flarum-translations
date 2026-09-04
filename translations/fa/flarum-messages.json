@@ -10,34 +10,34 @@
             "composer": {
                 "discard_confirmation": "",
                 "placeholder": "",
-                "recipients": "",
-                "submit_button": "",
-                "to": ""
+                "recipients": "گیرندگان",
+                "submit_button": "ارسال پیام",
+                "to": "به:"
             },
             "dialog_list": {
                 "load_more_button": "=> core.ref.load_more",
-                "mark_as_read_tooltip": "",
-                "title": "",
+                "mark_as_read_tooltip": "علامت‌گذاری به‌عنوان خوانده",
+                "title": "پیام‌ها",
                 "view_all": ""
             },
             "dialog_section": {
                 "back_label": "",
                 "cannot_reply_text": "",
                 "controls": {
-                    "details_button": ""
+                    "details_button": "جزئیات"
                 },
                 "controls_toggle_label": "",
                 "details_modal": {
                     "created_at": "",
-                    "recipients": "",
+                    "recipients": "شرکت‌کنندگان",
                     "title": ""
                 }
             },
             "header": {
-                "dropdown_tooltip": ""
+                "dropdown_tooltip": "پیام‌ها"
             },
             "index": {
-                "messages_link": ""
+                "messages_link": "پیام‌ها"
             },
             "index_sort": {
                 "latest_button": "",
@@ -45,26 +45,26 @@
                 "oldest_button": ""
             },
             "message_controls": {
-                "delete_button": "",
+                "delete_button": "حذف",
                 "delete_confirmation": ""
             },
             "messages_page": {
                 "cannot_send_message_button": "",
                 "empty_text": "",
                 "hero": {
-                    "title": "",
+                    "title": "پیام‌ها",
                     "subtitle": ""
                 },
                 "mark_all_as_read_tooltip": "",
-                "refresh_tooltip": "",
+                "refresh_tooltip": "تازه کردن",
                 "send_message_button": "",
                 "stream": {
                     "load_previous_button": "",
                     "load_next_button": "",
                     "start_of_the_conversation": "",
-                    "time_lapsed_text": ""
+                    "time_lapsed_text": "=> core.forum.post_stream.time_lapsed_text"
                 },
-                "title": ""
+                "title": "پیام‌ها"
             },
             "recipient_selection_modal": {
                 "title": ""
@@ -73,7 +73,7 @@
                 "notify_message_received_label": ""
             },
             "user_controls": {
-                "send_message_button": "",
+                "send_message_button": "ارسال پیام",
                 "cannot_reply_text": ""
             },
             "notifications": {

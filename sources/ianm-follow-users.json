@@ -13,7 +13,9 @@
     "ianm-follow-users": {
         "admin": {
             "permissions": {
-                "be_followed_label": "Allow users to follow"
+                "follow_label": "Follow other users",
+                "be_followed_label": "Allow users to follow",
+                "view_followed_users_label": "View which users a member follows"
             },
             "settings": {
                 "button-on-profile-label": "Show the Follow button directly on the user profile header",

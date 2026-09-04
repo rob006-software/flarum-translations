@@ -50,6 +50,8 @@
                     "cdn_url_help": "",
                     "kit_url_label": "",
                     "kit_url_help": "",
+                    "forced_style_label": "",
+                    "forced_style_help": "",
                     "config_override": {
                         "label": "",
                         "help": ""
@@ -67,6 +69,10 @@
                     "search_configuration": ""
                 },
                 "queue": {
+                    "pause_label": "",
+                    "pause_all_label": "",
+                    "pause_queue_label": "",
+                    "pause_help": "",
                     "section_label": "",
                     "sync_info": "",
                     "sync_help": "",
@@ -89,7 +95,9 @@
                     "driver_options": {
                         "default": ""
                     },
-                    "no_other_drivers": ""
+                    "no_other_drivers": "",
+                    "cjk_mode_label": "",
+                    "cjk_mode_help": ""
                 },
                 "title": ""
             },
@@ -118,6 +126,8 @@
                 "logo_text": "Envie a imagem a ser visualizada no lugar do título do fórum.",
                 "logo_dark_mode_heading": "",
                 "logo_dark_mode_text": "",
+                "show_theme_selector_help": "",
+                "show_theme_selector_label": "",
                 "title": "Aparência",
                 "color_scheme_label": "",
                 "color_schemes": {
@@ -195,7 +205,26 @@
                 "title": "",
                 "view_all": ""
             },
+            "queue_widget": {
+                "title": "",
+                "pending": "",
+                "reserved": "",
+                "failed": "",
+                "refresh": ""
+            },
+            "failed_jobs": {
+                "title": "",
+                "none": "",
+                "meta": "",
+                "details": "",
+                "retry": "",
+                "retry_all": "",
+                "delete": ""
+            },
             "dashboard": {
+                "queue_paused_warning": "",
+                "queue_paused_all_warning": "",
+                "queue_paused_manage": "",
                 "clear_cache_button": "Limpar cache",
                 "description": "Resumo do seu fórum.",
                 "info_button": "",
@@ -241,6 +270,10 @@
             "database-driver-mismatch-warning": {
                 "detail": "",
                 "label": ""
+            },
+            "database-version-warning": {
+                "below-recommended-detail": "",
+                "below-recommended-label": ""
             },
             "debug-warning": {
                 "detail": "Quando o modo <code>debug</code> está activo, o Flarum vai efectuar o rebuild do codigo <code>Javascript</code> e <code>CSS</code> a cada pedido, e pode potencialmente \"verter\" outras informações, como dados de acesso à Base de Dados, variáveis de ambiente, etc.\n\nÉ altamente recomendado desactivar o modo <code>debug</code> no ficheiro <code>config.php</code> em modo produtivo. Veja a <link>documentação Flarum</link> para mais informações.\n",
@@ -583,7 +616,8 @@
                 "search_role_label": "Pesquisar",
                 "session_dropdown_accessible_label": "Abrir o menu de opções das sessões",
                 "settings_button": "=> core.ref.settings",
-                "sign_up_link": "=> core.ref.sign_up"
+                "sign_up_link": "=> core.ref.sign_up",
+                "theme_switcher_accessible_label": ""
             },
             "index": {
                 "all_discussions_link": "=> core.ref.all_discussions",
@@ -597,12 +631,14 @@
                 "toggle_sidenav_dropdown_accessible_label": "Abrir o menu de navegação"
             },
             "index_sort": {
+                "az_button": "",
                 "latest_button": "Mais recentes",
                 "newest_button": "",
                 "oldest_button": "",
                 "relevance_button": "",
                 "toggle_dropdown_accessible_label": "Alterar a classificação da lista de discussão",
-                "top_button": "Topo"
+                "top_button": "Topo",
+                "za_button": ""
             },
             "log_in": {
                 "forgot_password_link": "Esqueceu a senha?",
@@ -772,6 +808,7 @@
             }
         },
         "lib": {
+            "connection_restored_message": "",
             "debug_button": "Depurar",
             "alert": {
                 "dismiss_a11y_label": "Desactivar alerta"
@@ -812,7 +849,9 @@
                 "generic_message": "Opa! Algo deu errado. Por favor, recarregue a página e tente novamente.",
                 "generic_cross_origin_message": "Oops! Ocorreu um erro durante o pedido de origem cruzada. Por favor recarregue e página e tente de novo.",
                 "missing_dependencies_message": "Não é possível ativar {extension} até que as seguintes dependências sejam ativadas: {extensions}",
+                "network_message": "",
                 "not_found_message": "O recurso solicitado não foi encontrado.",
+                "offline_message": "",
                 "payload_too_large_message": "A carga solicitada era demasiado elevada.",
                 "permission_denied_message": "Você não tem permissão para fazer isso.",
                 "rate_limit_exceeded_message": "Você está indo um pouco rápido demais. Tente novamente em alguns segundos.",
@@ -874,7 +913,8 @@
                 "placeholder": ""
             },
             "nav": {
-                "drawer_button": "Abrir aba de navegação"
+                "drawer_button": "Abrir aba de navegação",
+                "pin_pane_button": ""
             },
             "notices": {
                 "bisecting": "",
@@ -882,9 +922,21 @@
                 "maintenance_mode_low": "",
                 "maintenance_mode_safe": ""
             },
+            "index_sort": {
+                "az_button": "",
+                "latest_button": "",
+                "newest_button": "",
+                "oldest_button": "",
+                "relevance_button": "",
+                "top_button": "",
+                "za_button": ""
+            },
             "number_suffix": {
                 "kilo_text": "K",
                 "mega_text": "M"
+            },
+            "overflowing_list": {
+                "toggle_accessible_label": ""
             },
             "pagination": {
                 "back_button": "",
@@ -903,6 +955,7 @@
                 "options_heading": "",
                 "placeholder": "",
                 "preview_heading": "",
+                "search_active_button_accessible_label": "",
                 "search_clear_button_accessible_label": ""
             },
             "search_source": {
@@ -1101,6 +1154,7 @@
             "light_hc_mode_label": "",
             "light_mode_label": "",
             "load_more": "Carregue mais",
+            "latest": "",
             "loading": "Carregando...",
             "log_in": "Entrar",
             "log_out": "Sair",
@@ -1130,6 +1184,9 @@
             "sign_up": "Registar",
             "some_others": "{count, plural, one {# outro} other {# outros}}",
             "start_a_discussion": "Iniciar Discussão",
+            "title_az": "",
+            "title_za": "",
+            "top": "",
             "username": "Nome de utilizador",
             "username_or_email_placeholder": "",
             "users": "Utilizadores",

@@ -112,6 +112,10 @@
                     "enabled": "Erweiterung {package} aktiviert",
                     "uninstalled": "Erweiterung {package} deinstalliert"
                 },
+                "queue": {
+                    "paused": "Verarbeitung der Warteschlange {queue} ({connection}) wurde pausiert",
+                    "resumed": "Verarbeitung der Warteschlange {queue} ({connection}) wurde fortgesetzt"
+                },
                 "group": {
                     "created": "Gruppe {name} erstellt",
                     "deleted": "Gruppe {name} gelöscht",

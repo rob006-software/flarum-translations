@@ -1444,7 +1444,7 @@ Da li ste sigurni da želite da <del>obeležite</del><ins>označite</ins> sve <d
 
 #### [`core.forum.index_sort.latest_button`](https://weblate.rob006.net/translate/flarum2/core/sr_Latn/?q=context%3A%3D%22core.forum.index_sort.latest_button%22)
 
-> Latest
+> =&gt; core.ref.latest
 
 ```diff
 -Najnovija tema
@@ -1464,7 +1464,7 @@ Da li ste sigurni da želite da <del>obeležite</del><ins>označite</ins> sve <d
 
 #### [`core.forum.index_sort.top_button`](https://weblate.rob006.net/translate/flarum2/core/sr_Latn/?q=context%3A%3D%22core.forum.index_sort.top_button%22)
 
-> Top
+> =&gt; core.ref.top
 
 ```diff
 -Najviše odgovora

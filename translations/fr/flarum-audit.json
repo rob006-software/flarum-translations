@@ -112,6 +112,10 @@
                     "enabled": "A activé l'extension {package}",
                     "uninstalled": "A désinstallé l'extension {package}"
                 },
+                "queue": {
+                    "paused": "A suspendu le traitement de la file d'attente sur {queue} ({connection})",
+                    "resumed": "A repris le traitement de la file d'attente sur {queue} ({connection})"
+                },
                 "group": {
                     "created": "A créé le groupe {name}",
                     "deleted": "A supprimé le groupe {name}",

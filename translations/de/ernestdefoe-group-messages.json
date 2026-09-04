@@ -5,52 +5,52 @@
                 "group_button": "Neue Gruppennachricht",
                 "group_title": "Neue Gruppennachricht",
                 "name_label": "Gruppenname",
-                "name_placeholder": "",
-                "recipients_label": "",
-                "message_placeholder": "",
-                "create_button": "",
-                "create_error": ""
+                "name_placeholder": "Name dieser Gruppe (optional)",
+                "recipients_label": "Mitglieder hinzufügen",
+                "message_placeholder": "Schreibe die erste Nachricht…",
+                "create_button": "Gruppe erstellen",
+                "create_error": "Die Gruppe konnte nicht erstellt werden. Bitte versuche es erneut."
             },
             "dialog": {
-                "participants": "",
-                "participant_count": "",
-                "group_fallback_title": "",
-                "seen_by": "",
-                "seen_by_count": ""
+                "participants": "{count} Teilnehmer",
+                "participant_count": "{count, plural, one {# Person} other {# Personen}}",
+                "group_fallback_title": "Gruppennachricht",
+                "seen_by": "Gesehen von {names}",
+                "seen_by_count": "Gesehen von {count}"
             },
             "reactions": {
-                "add_label": ""
+                "add_label": "Reaktion hinzufügen"
             },
             "reply": {
-                "reply_button": "",
-                "replying_to": "",
-                "cancel": "",
-                "unknown": ""
+                "reply_button": "Antworten",
+                "replying_to": "{username} antworten",
+                "cancel": "Antwort abbrechen",
+                "unknown": "Antwort auf eine frühere Nachricht"
             },
             "quote": {
-                "quote_button": ""
+                "quote_button": "Zitieren"
             },
             "manage": {
-                "title": "",
-                "name_label": "",
+                "title": "Gruppeneinstellungen",
+                "name_label": "Gruppenname & Symbol",
                 "save_button": "Speichern",
-                "participants_label": "",
-                "add_people": "",
-                "leave_button": "",
-                "remove_tooltip": "",
-                "promote_tooltip": "",
-                "demote_tooltip": "",
-                "role_owner": "",
-                "role_moderator": "",
-                "role_member": ""
+                "participants_label": "Teilnehmer ({count})",
+                "add_people": "Mitglieder hinzufügen",
+                "leave_button": "Gruppe verlassen",
+                "remove_tooltip": "Aus Gruppe entfernen",
+                "promote_tooltip": "Zum Moderator ernennen",
+                "demote_tooltip": "Als Moderator entfernen",
+                "role_owner": "Eigentümer",
+                "role_moderator": "Moderator",
+                "role_member": "Mitglied"
             }
         },
         "lib": {
             "error": {
-                "generic": "",
-                "not_group_member": "",
-                "cannot_manage": "",
-                "min_participants": ""
+                "generic": "Es ist ein Fehler aufgetreten. Bitte versuche es erneut.",
+                "not_group_member": "Du bist kein Mitglied dieser Gruppe.",
+                "cannot_manage": "Du hast keine Berechtigung, diese Gruppe zu verwalten.",
+                "min_participants": "Eine Gruppe benötigt mindestens zwei weiter Mitglieder."
             }
         }
     }

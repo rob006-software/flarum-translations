@@ -76,7 +76,8 @@
                 "expand": "",
                 "collapse": "",
                 "full_screen": "",
-                "close": ""
+                "close": "",
+                "channel_actions": ""
             },
             "sidebar": {
                 "my_threads": "",
@@ -103,6 +104,7 @@
                 "view_info": "",
                 "search_in_channel": "",
                 "pinned_messages": "",
+                "view_all_pinned": "",
                 "close_pinned": "",
                 "no_pinned_messages": "",
                 "edit": "",
@@ -135,14 +137,13 @@
                 "bookmark": "",
                 "remove_bookmark": "",
                 "edit": "",
-                "delete": "",
+                "delete": "حذف",
                 "restore": "",
                 "flag": "",
                 "flagged": "",
                 "purge": "",
                 "purge_confirm": "",
                 "purge_failed": "",
-                "move": "",
                 "quote_in_discussion": "",
                 "select": "",
                 "replying_to": "",
@@ -244,7 +245,7 @@
                 "sticker_none": "",
                 "emoji": "",
                 "insert_date": "",
-                "cancel_edit": "",
+                "cancel_edit": "لغو",
                 "editing": "",
                 "mention_here": "",
                 "mention_all": "",
@@ -266,7 +267,7 @@
             },
             "new_channel": {
                 "subtitle": "",
-                "cancel": "",
+                "cancel": "لغو",
                 "section_identity": "",
                 "section_access": "",
                 "section_behaviour": "",
@@ -410,7 +411,7 @@
             },
             "selection": {
                 "count": "",
-                "cancel": "",
+                "cancel": "لغو",
                 "move_to": "",
                 "moved": "",
                 "copied": "",
@@ -423,7 +424,8 @@
                 "placeholder": "",
                 "in_channel": "",
                 "prompt": "",
-                "empty": ""
+                "empty": "",
+                "close": ""
             },
             "revisions": {
                 "title": "",
@@ -502,7 +504,7 @@
                 "webhook_url": "",
                 "webhook_copy": "",
                 "webhook_regenerate": "",
-                "webhook_delete": "",
+                "webhook_delete": "حذف",
                 "webhook_empty": ""
             },
             "permissions": {
@@ -543,7 +545,7 @@
                 "active": "",
                 "rotate": "",
                 "rotate_confirm": "",
-                "delete": "",
+                "delete": "حذف",
                 "delete_confirm": "",
                 "deliveries": "",
                 "url_once": "",

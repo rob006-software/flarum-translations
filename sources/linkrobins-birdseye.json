@@ -4,6 +4,10 @@
             "dashboard": {
                 "title": "Analytics",
                 "range_7d": "7 days",
+                "history": "History",
+                "by_month": "Months",
+                "by_year": "Years",
+                "so_far": "so far",
                 "range_30d": "30 days",
                 "visitors": "Visitors",
                 "pageviews": "Pageviews",
@@ -58,24 +62,16 @@
             }
         },
         "admin": {
-            "status_active_waiting": "✓ Connected — your key is active. Your forum sends a day of stats at a time, so the first batch arrives after today finishes.",
-            "status_active_seen": "✓ Connected — your key is active, and Birdseye last received stats from this forum {when}.",
-            "status_no_key": "No key saved yet. Without one this extension records basic daily counts on your own forum and never sends anything. Paste a key below to turn on the full dashboard — get one from your linkrobins.com dashboard → Birdseye.",
-            "status_incomplete": "Your subscription isn't active yet, usually because the first payment hasn't gone through. Your forum keeps recording basic counts locally in the meantime. Check your linkrobins.com dashboard → Birdseye.",
-            "status_canceled": "This key has been cancelled, so no new stats are being processed. Every stat already in your forum's database stays exactly where it is. Resubscribe from your linkrobins.com dashboard → Birdseye.",
-            "status_invalid_key": "That key wasn't recognized. Check that you copied it in full, and that it hasn't been rotated since — rotating a key means pasting the new one here.",
-            "status_bound_elsewhere": "This key is already in use by another forum ({forum}). One key covers one forum, so stats from here are being refused. Use a different key, or ask support to unbind this one.",
-            "status_unreachable": "Couldn't reach Birdseye just now, so this can't say whether your key is working. Your forum keeps recording stats either way and sends them when it can.",
             "permissions": {
                 "view_stats_label": "View forum analytics"
             },
             "settings": {
                 "collect_label": "Collect analytics",
                 "collect_help": "Pause collection without disabling the extension. Existing stats keep rendering.",
-                "license_key_label": "License key",
-                "license_key_help": "From your Birdseye subscription at linkrobins.com. Without a key the extension records basic daily counts only, entirely locally. Saving a key checks in with Birdseye right away, so your dashboard shows the forum as connected within seconds.",
                 "geo_ip_prefix_label": "Country lookup via anonymized IP prefix",
-                "geo_ip_prefix_help": "When no proxy country header is present, keep a truncated IP prefix (never the full address) in the 72-hour buffer so the processor can resolve visitor countries. Turn off to skip country stats on non-proxied traffic.",
+                "geo_ip_prefix_help": "When no proxy country header is present, keep a truncated IP prefix (never the full address) in the 72-hour buffer so visitor countries can be resolved locally. Turn off to skip country stats on non-proxied traffic.",
+                "geoip_db_path_label": "Country database file (optional)",
+                "geoip_db_path_help": "Full path on this server to a MaxMind country database, such as the free GeoLite2-Country.mmdb (download it from maxmind.com under your own account). Used only when no trusted proxy header supplies the country; every lookup happens on this server.",
                 "country_header_label": "Trusted country header",
                 "country_header_help": "The proxy header carrying each visitor's two-letter country code — CF-IPCountry on Cloudflare, or e.g. X-Country from nginx-geoip. It is trusted as-is, so only set a header your proxy really sets; leave it empty if you have no such proxy and rely on the anonymized IP prefix instead.",
                 "weekly_digest_label": "Weekly email digest",

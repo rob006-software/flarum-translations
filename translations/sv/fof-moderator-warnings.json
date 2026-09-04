@@ -2,68 +2,68 @@
     "fof-moderator-warnings": {
         "admin": {
             "permissions": {
-                "manage_warnings": "",
-                "view_warnings": "",
-                "delete_warnings": ""
+                "manage_warnings": "Skapa och ta bort varningar från moderatorer",
+                "view_warnings": "Visa varningar från moderatorer",
+                "delete_warnings": "Radera varningar från moderatorer permanent"
             }
         },
         "emails": {
             "post_warned": {
-                "subject": "",
-                "body": ""
+                "subject": "{warner_display_name} varnade dig med {strikes, plural, one {# prick} other {# prickar}} i {discussion_title}",
+                "body": "Hej {warnee_display_name}!\n\n{warner_display_name} varnade dig med {strikes, plural, one {# prick} other {# prickar}} i {discussion_title}\n\nFöljande anledning angavs:\n\n---\n\n{public_comment}\n"
             },
             "user_warned": {
-                "subject": "",
-                "body": ""
+                "subject": "{warner_display_name} varnade dig med {strikes, plural, one {# prick} other {# prickar}}",
+                "body": "Hej {warnee_display_name}!\n\n{warner_display_name} varnade dig med {strikes, plural, one {# prick} other {# prickar}}\n\nFöljande anledning angavs:\n\n---\n\n{public_comment}\n"
             }
         },
         "forum": {
             "notifications": {
-                "warning_text": "",
-                "warning_no_strikes_text": ""
+                "warning_text": "{strikes, plural, one {Du blev varnad med # prick av {mod_username}} other {Du blev varnad med # prickar av {mod_username}}}",
+                "warning_no_strikes_text": "Du blev varnad av {mod_username} (inga prickar)"
             },
             "post": {
-                "warning": "",
-                "warning_no_strikes": ""
+                "warning": "{strikes, plural, one {Varnad med # prick av {mod_username}} other {Varnad med # prickar av {mod_username}}}",
+                "warning_no_strikes": "Varnad utan prickar av {mod_username}"
             },
             "post_controls": {
-                "warning_button": ""
+                "warning_button": "Varna användare"
             },
             "user": {
-                "warnings": ""
+                "warnings": "Varningar"
             },
             "settings": {
-                "warning_notification_label": ""
+                "warning_notification_label": "En moderator varnar mig"
             },
             "validation": {
-                "public_comment_required": "",
-                "invalid_strike_count": ""
+                "public_comment_required": "Du måste lämna en offentlig kommentar.",
+                "invalid_strike_count": "Antal prickar måste vara ett heltal mellan 0 och 5."
             },
             "warning_controls": {
-                "delete_button": "",
-                "restore_button": "",
-                "delete_forever_button": ""
+                "delete_button": "Ta bort",
+                "restore_button": "Återställ",
+                "delete_forever_button": "Ta bort permanent"
             },
             "warning_list": {
-                "add_button": "",
-                "no_warnings": "",
-                "warnings": "",
-                "warnings_no_strikes": ""
+                "add_button": "Ny varning",
+                "no_warnings": "Det verkar inte finnas några varningar här.",
+                "warnings": "{strikes, plural, one {Moderatorvarningar: # prick mottagen} other {Moderatorvarningar: # prickar mottagna}}",
+                "warnings_no_strikes": "Moderatorvarningar: Inga prickar"
             },
             "warning_list_item": {
-                "list_item_heading": "",
-                "list_item_heading_hidden": "",
-                "public_comment": "",
-                "private_comment": "",
-                "linked_post": ""
+                "list_item_heading": "{strikes, plural, one {# prick, {time}} other {# prickar, {time}}}",
+                "list_item_heading_hidden": "{strikes, plural, one {# prick, {time} (borttagen)} other {# prickar, {time} (borttagna)}}",
+                "public_comment": "Varning",
+                "private_comment": "Kommentarer synliga för moderatorer",
+                "linked_post": "Länkat inlägg"
             },
             "warning_modal": {
-                "confirmation_message": "",
-                "heading": "",
-                "strikes_heading": "",
-                "public_comment_heading": "",
-                "private_comment_heading": "",
-                "submit_button": ""
+                "confirmation_message": "Din varning har sparats.",
+                "heading": "Varna <strong>{username}</strong>",
+                "strikes_heading": "Hur många prickar ska läggas till?",
+                "public_comment_heading": "Varför får <strong>{username}</strong> de här varningarna? Kommentarerna kommer att vara synliga för användaren och andra moderatorer.",
+                "private_comment_heading": "Varför får <strong>{username}</strong> de här varningarna? Kommentarerna kommer ENDAST att vara synliga för andra moderatorer.",
+                "submit_button": "Spara varning"
             }
         }
     },
@@ -71,10 +71,10 @@
         "lib": {
             "browser": {
                 "warning": {
-                    "created": "",
-                    "hidden": "",
-                    "restored": "",
-                    "deleted": ""
+                    "created": "Varnade {username}",
+                    "hidden": "Tog bort {username}s varning",
+                    "restored": "Återställde {username}s varning",
+                    "deleted": "{användarnamn}s varning har raderats permanent"
                 }
             }
         }

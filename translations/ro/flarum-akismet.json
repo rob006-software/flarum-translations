@@ -3,6 +3,7 @@
         "admin": {
             "akismet_settings": {
                 "api_key_label": "Cheie API",
+                "invalid_api_key_message": "",
                 "title": "Setări Akismet",
                 "delete_blatant_spam_label": "Șterge automat spam-ul flagrant",
                 "delete_blatant_spam_help": "Dacă Akismet a determinat că răspunsul este spam flagrant, in locul raportării, șterge postarea automat"

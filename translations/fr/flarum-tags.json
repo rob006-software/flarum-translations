@@ -11,6 +11,10 @@
             "edit_tag": {
                 "color_label": "=> core.ref.color",
                 "delete_tag_button": "Supprimer l'étiquette",
+                "default_sort_label": "Tri par défaut",
+                "default_sort_none": "Utiliser le paramètre par défaut du forum",
+                "default_sort_text": "Comment les discussions de cette étiquette sont-elles classées lorsqu'un utilisateur arrive sans avoir choisi lui-même un critère de tri.",
+                "default_sort_unavailable": "{sort} (n'est plus disponible)",
                 "delete_tag_confirmation": "Êtes-vous sûr de vouloir supprimer cette étiquette ? Les discussions publiées sous cette étiquette ne seront pas supprimées.",
                 "description_label": "Description",
                 "hide_label": "Masquer de la liste de toutes les discussions",
@@ -92,7 +96,7 @@
                 "discussions": {
                     "tag": {
                         "key": "étiquetée",
-                        "hint": "nom d'une étiquette ou liste de noms d'étiquette séparés par des virgules, ou « non étiquetée»"
+                        "hint": "nom d'une étiquette, ou liste de noms d'étiquettes séparés par des virgules, ou « sans étiquette »"
                     }
                 }
             },
