@@ -18,6 +18,14 @@
     },
     "validation": {
         "turnstile": "รีเฟรช",
+        "custom": {
+            "turnstileToken": {
+                "required": ""
+            },
+            "turnstile": {
+                "required": ""
+            }
+        },
         "required": "ทั้งหมด"
     }
 }
