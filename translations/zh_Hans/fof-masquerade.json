@@ -37,6 +37,9 @@
                 "create": "创建字段",
                 "edit": "编辑字段 {field}",
                 "delete-confirmation": "确定要删除此字段吗？所有关联数据将被永久删除。",
+                "is_restricted": "",
+                "permissions": "",
+                "permissions-alert": "",
                 "name": "字段名",
                 "name-help": "公开可见（不可翻译）的字段名。\n",
                 "description": "字段描述",
@@ -67,7 +70,8 @@
         "lib": {
             "gambits": {
                 "answer": {
-                    "key": "回答"
+                    "key": "回答",
+                    "hint": ""
                 }
             }
         }

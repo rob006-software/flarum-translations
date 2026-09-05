@@ -18,6 +18,13 @@
     },
     "validation": {
         "turnstile": "",
-        "required": ""
+        "custom": {
+            "turnstileToken": {
+                "required": ""
+            },
+            "turnstile": {
+                "required": ""
+            }
+        }
     }
 }

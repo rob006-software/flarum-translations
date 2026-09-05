@@ -37,6 +37,9 @@
                 "create": "Создать поле",
                 "edit": "Редактировать поле {field}",
                 "delete-confirmation": "Удалить поле {field}? Это действие нельзя отменить.",
+                "is_restricted": "",
+                "permissions": "",
+                "permissions-alert": "",
                 "name": "Название поля",
                 "name-help": "Публичное непереводимое название поля\n",
                 "description": "Описание поля",
@@ -67,7 +70,8 @@
         "lib": {
             "gambits": {
                 "answer": {
-                    "key": "ответ"
+                    "key": "ответ",
+                    "hint": ""
                 }
             }
         }

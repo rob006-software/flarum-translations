@@ -37,6 +37,9 @@
                 "create": "",
                 "edit": "Modifica campo {field}",
                 "delete-confirmation": "",
+                "is_restricted": "",
+                "permissions": "",
+                "permissions-alert": "",
                 "name": "Nome campo",
                 "name-help": "L'etichetta del campo visibile pubblicamente (non traducibile).\n",
                 "description": "Descrizione campo",
@@ -67,7 +70,8 @@
         "lib": {
             "gambits": {
                 "answer": {
-                    "key": ""
+                    "key": "",
+                    "hint": ""
                 }
             }
         }

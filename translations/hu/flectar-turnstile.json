@@ -18,6 +18,14 @@
     },
     "validation": {
         "turnstile": "Nem tudtuk megállapítani, hogy Ön robot-e vagy sem. Frissítse az oldalt, és próbálja újra.",
+        "custom": {
+            "turnstileToken": {
+                "required": ""
+            },
+            "turnstile": {
+                "required": ""
+            }
+        },
         "required": "Fejezze be a Turnstile kihívást."
     }
 }

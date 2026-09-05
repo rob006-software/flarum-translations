@@ -37,6 +37,9 @@
                 "create": "",
                 "edit": "Edit kolom {field}",
                 "delete-confirmation": "Apakah Anda yakin ingin menghapus kolom {field}? Tindakan ini tidak dapat dibatalkan.",
+                "is_restricted": "",
+                "permissions": "",
+                "permissions-alert": "",
                 "name": "Nama kolom",
                 "name-help": "Label kolom yang dapat dilihat oleh publik (tidak dapat diterjemahkan).\n",
                 "description": "Deskripsi kolom",
@@ -67,7 +70,8 @@
         "lib": {
             "gambits": {
                 "answer": {
-                    "key": ""
+                    "key": "",
+                    "hint": ""
                 }
             }
         }

@@ -18,6 +18,13 @@
     },
     "validation": {
         "turnstile": "我們無法驗證您是否是一個機器人。請重整頁面並重試。",
-        "required": ""
+        "custom": {
+            "turnstileToken": {
+                "required": ""
+            },
+            "turnstile": {
+                "required": ""
+            }
+        }
     }
 }

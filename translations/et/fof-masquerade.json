@@ -37,6 +37,9 @@
                 "create": "",
                 "edit": "Lisa väli {field}",
                 "delete-confirmation": "",
+                "is_restricted": "",
+                "permissions": "",
+                "permissions-alert": "",
                 "name": "Välja nimi",
                 "name-help": "Avalikult nähtav (mittetõlgitav) välja silt.\n",
                 "description": "Välja kirjeldus",
@@ -67,7 +70,8 @@
         "lib": {
             "gambits": {
                 "answer": {
-                    "key": ""
+                    "key": "",
+                    "hint": ""
                 }
             }
         }

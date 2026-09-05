@@ -37,6 +37,9 @@
                 "create": "",
                 "edit": "ویرایش فیلد {field}",
                 "delete-confirmation": "",
+                "is_restricted": "",
+                "permissions": "",
+                "permissions-alert": "",
                 "name": "نام فیلد",
                 "name-help": "برچسب نام فیلد قابل مشاهده برای عموم (غیر قابل ترجمه)\n",
                 "description": "شرح فیلد",
@@ -67,7 +70,8 @@
         "lib": {
             "gambits": {
                 "answer": {
-                    "key": ""
+                    "key": "",
+                    "hint": ""
                 }
             }
         }

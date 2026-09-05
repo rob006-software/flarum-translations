@@ -37,6 +37,9 @@
                 "create": "",
                 "edit": "編輯欄位 {field}",
                 "delete-confirmation": "",
+                "is_restricted": "",
+                "permissions": "",
+                "permissions-alert": "",
                 "name": "欄位名稱",
                 "name-help": "公開可見且不可翻譯的欄位標籤\n",
                 "description": "欄位說明",
@@ -67,7 +70,8 @@
         "lib": {
             "gambits": {
                 "answer": {
-                    "key": ""
+                    "key": "",
+                    "hint": ""
                 }
             }
         }

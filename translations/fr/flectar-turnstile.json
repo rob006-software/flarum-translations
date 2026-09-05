@@ -18,6 +18,14 @@
     },
     "validation": {
         "turnstile": "Nous n'avons pas pu vérifier si vous êtes un robot ou non. Veuillez actualiser la page puis réessayer.",
+        "custom": {
+            "turnstileToken": {
+                "required": ""
+            },
+            "turnstile": {
+                "required": ""
+            }
+        },
         "required": "Veuillez relever le défi de Turnstile."
     }
 }

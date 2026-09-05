@@ -37,6 +37,9 @@
                 "create": "Crear campo",
                 "edit": "Editar campo {field}",
                 "delete-confirmation": "¿Seguro que deseas borrar el campo {field}? Esto no se puede deshacer.",
+                "is_restricted": "",
+                "permissions": "",
+                "permissions-alert": "",
                 "name": "Nombre",
                 "name-help": "Nombre visible del campo.\n",
                 "description": "Descripción",
@@ -67,7 +70,8 @@
         "lib": {
             "gambits": {
                 "answer": {
-                    "key": "respuesta"
+                    "key": "respuesta",
+                    "hint": ""
                 }
             }
         }
