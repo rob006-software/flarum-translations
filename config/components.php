@@ -755,7 +755,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/profile-image-crop/1.1.8/resources/locale/en.yml',
 	],
 	'fof-pwa' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/pwa/1.1.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/pwa/1.2.0/resources/locale/en.yml',
 	],
 	'fof-pwned-passwords' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/pwned-passwords/1.1.1/locale/en.yml',
