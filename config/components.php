@@ -170,6 +170,9 @@ return [
 	'ernestdefoe-maintenance' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/maintenance/v1.1.2/resources/locale/en.yml',
 	],
+	'ernestdefoe-millwright' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/millwright/v1.2.2/resources/locale/en.yml',
+	],
 	'ernestdefoe-mobile-tab' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/mobiletab/2.0.0/resources/locale/en.yml',
 	],
