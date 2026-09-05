@@ -2,8 +2,8 @@
 
 Translations for German (formal) (`de@formal`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **366** are translated differently and **661** are
-translated only in `de@formal`. Altogether they cover **96** components.
+sides, but do not match between them: **366** are translated differently and **674** are
+translated only in `de@formal`. Altogether they cover **97** components.
 
 <!-- {% raw %} -->
 
@@ -21,7 +21,7 @@ translated only in `de@formal`. Altogether they cover **96** components.
 | `datlechin-tag-passwords` | [13](#datlechin-tag-passwords) | 0 |
 | `ernestdefoe-aurora` | 0 | [20](#ernestdefoe-aurora-missing) |
 | `ffans-creator-declarations` | 0 | [73](#ffans-creator-declarations-missing) |
-| `ffans-geetest` | 0 | [4](#ffans-geetest-missing) |
+| `ffans-geetest` | 0 | [15](#ffans-geetest-missing) |
 | `flarum-audit` | [1](#flarum-audit) | 0 |
 | `flarum-extension-manager` | [2](#flarum-extension-manager) | 0 |
 | `flarum-flags` | [2](#flarum-flags) | 0 |
@@ -55,6 +55,7 @@ translated only in `de@formal`. Altogether they cover **96** components.
 | `fof-move-posts` | [1](#fof-move-posts) | 0 |
 | `fof-oauth` | [1](#fof-oauth) | 0 |
 | `fof-polls` | [5](#fof-polls) | 0 |
+| `fof-pwa` | 0 | [2](#fof-pwa-missing) |
 | `fof-reactions` | [4](#fof-reactions) | 0 |
 | `fof-seo` | [3](#fof-seo) | 0 |
 | `fof-sitemap` | [4](#fof-sitemap) | 0 |
@@ -5117,6 +5118,38 @@ These strings are translated only in `de@formal`, so there is nothing to inherit
 
 ### `ffans-geetest` (missing)
 
+#### [`ffans-geetest.admin.settings.config.product_float_help_text`](https://weblate.rob006.net/translate/flarum2/ffans-geetest/de@formal/?q=context%3A%3D%22ffans-geetest.admin.settings.config.product_float_help_text%22)
+
+> Switch from validation button to validation panel.
+
+```diff
++Umschalten zwischen Validierung per Schaltfläche oder Paneel.
+```
+
+#### [`ffans-geetest.admin.settings.config.product_help_text`](https://weblate.rob006.net/translate/flarum2/ffans-geetest/de@formal/?q=context%3A%3D%22ffans-geetest.admin.settings.config.product_help_text%22)
+
+> Choose the presentation of the verify panel.
+
+```diff
++Wähle die Darstellungsart für das Verifikationspaneel.
+```
+
+#### [`ffans-geetest.admin.settings.config.standalone_help_text`](https://weblate.rob006.net/translate/flarum2/ffans-geetest/de@formal/?q=context%3A%3D%22ffans-geetest.admin.settings.config.standalone_help_text%22)
+
+> Enable to use a standalone configuration for this scenario.
+
+```diff
++Eigenständige Konfiguration für dieses Szenario verwenden.
+```
+
+#### [`ffans-geetest.admin.settings.config.standalone_label`](https://weblate.rob006.net/translate/flarum2/ffans-geetest/de@formal/?q=context%3A%3D%22ffans-geetest.admin.settings.config.standalone_label%22)
+
+> Standalone
+
+```diff
++Eigenständig
+```
+
 #### [`ffans-geetest.admin.settings.context_event_help_text`](https://weblate.rob006.net/translate/flarum2/ffans-geetest/de@formal/?q=context%3A%3D%22ffans-geetest.admin.settings.context_event_help_text%22)
 
 > Enable to use GeeTest CAPTCHA into different context events or business types, you can set a standalone configuration for each context.
@@ -5147,6 +5180,81 @@ These strings are translated only in `de@formal`, so there is nothing to inherit
 
 ```diff
 +Adaptive CAPTCHA (v4)
+```
+
+#### [`ffans-geetest.admin.test.load_button`](https://weblate.rob006.net/translate/flarum2/ffans-geetest/de@formal/?q=context%3A%3D%22ffans-geetest.admin.test.load_button%22)
+
+> Load
+
+```diff
++Laden
+```
+
+#### [`ffans-geetest.admin.test.reload_button`](https://weblate.rob006.net/translate/flarum2/ffans-geetest/de@formal/?q=context%3A%3D%22ffans-geetest.admin.test.reload_button%22)
+
+> Reload
+
+```diff
++Neu laden
+```
+
+#### [`ffans-geetest.admin.test.title`](https://weblate.rob006.net/translate/flarum2/ffans-geetest/de@formal/?q=context%3A%3D%22ffans-geetest.admin.test.title%22)
+
+> Test CAPTCHA
+
+```diff
++CAPTCHA testen
+```
+
+#### [`ffans-geetest.lib.verify.error_message`](https://weblate.rob006.net/translate/flarum2/ffans-geetest/de@formal/?q=context%3A%3D%22ffans-geetest.lib.verify.error_message%22)
+
+> Validation failed.
+
+```diff
++Validierung fehlgeschlagen.
+```
+
+#### [`ffans-geetest.lib.verify.error_retry_message`](https://weblate.rob006.net/translate/flarum2/ffans-geetest/de@formal/?q=context%3A%3D%22ffans-geetest.lib.verify.error_retry_message%22)
+
+> Validation failed, please try again.
+
+```diff
++Validierung fehlgeschlagen, bitte erneut versuchen.
+```
+
+#### [`ffans-geetest.lib.verify.required_message`](https://weblate.rob006.net/translate/flarum2/ffans-geetest/de@formal/?q=context%3A%3D%22ffans-geetest.lib.verify.required_message%22)
+
+> Please complete the CAPTCHA.
+
+```diff
++Bitte löse das CAPTCHA.
+```
+
+#### [`ffans-geetest.lib.verify.success_message`](https://weblate.rob006.net/translate/flarum2/ffans-geetest/de@formal/?q=context%3A%3D%22ffans-geetest.lib.verify.success_message%22)
+
+> Validation successful.
+
+```diff
++Validierung erfolgreich.
+```
+
+
+### `fof-pwa` (missing)
+
+#### [`fof-pwa.admin.pwa.other.share_buttons_label`](https://weblate.rob006.net/translate/flarum2/fof-pwa/de@formal/?q=context%3A%3D%22fof-pwa.admin.pwa.other.share_buttons_label%22)
+
+> Enable share buttons
+
+```diff
++Schaltflächen „Teilen“ hinzufügen
+```
+
+#### [`fof-pwa.admin.pwa.other.share_buttons_text`](https://weblate.rob006.net/translate/flarum2/fof-pwa/de@formal/?q=context%3A%3D%22fof-pwa.admin.pwa.other.share_buttons_text%22)
+
+> If enabled, a "Share" button will be added to discussions, posts, and users.
+
+```diff
++Wenn aktiviert, wird Diskussionen, Beiträgen und Benutzerseiten eine „Teilen“-Schaltfläche hinzugefügt.
 ```
 
 

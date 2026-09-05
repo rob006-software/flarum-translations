@@ -2,8 +2,8 @@
 
 Translations for Chinese (Simplified) (`zh_Hans`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **997** are translated differently and **1552** are
-translated only in `zh_Hans`. Altogether they cover **116** components.
+sides, but do not match between them: **1096** are translated differently and **1574** are
+translated only in `zh_Hans`. Altogether they cover **118** components.
 
 <!-- {% raw %} -->
 
@@ -47,8 +47,10 @@ translated only in `zh_Hans`. Altogether they cover **116** components.
 | `fof-author-change` | 0 | [15](#fof-author-change-missing) |
 | `fof-badges` | [218](#fof-badges) | 0 |
 | `fof-ban-ips` | [23](#fof-ban-ips) | 0 |
-| `fof-best-answer` | [10](#fof-best-answer) | [3](#fof-best-answer-missing) |
-| `fof-byobu` | [42](#fof-byobu) | 0 |
+| `fof-best-answer` | [46](#fof-best-answer) | [3](#fof-best-answer-missing) |
+| `fof-blog` | [50](#fof-blog) | 0 |
+| `fof-bookmarks` | 0 | [22](#fof-bookmarks-missing) |
+| `fof-byobu` | [55](#fof-byobu) | 0 |
 | `fof-categories` | 0 | [27](#fof-categories-missing) |
 | `fof-checklist` | 0 | [2](#fof-checklist-missing) |
 | `fof-default-group` | [1](#fof-default-group) | 0 |
@@ -7045,6 +7047,24 @@ Google <del>分析</del><ins>Analytics</ins>
 
 ### `fof-best-answer`
 
+#### [`fof-best-answer.admin.edit_tag.qna_label`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-best-answer.admin.edit_tag.qna_label%22)
+
+> Enable Best Answers to be set in this tag
+
+```diff
+-启用最佳回复
++在此标签启用最佳回复
+```
+
+#### [`fof-best-answer.admin.edit_tag.reminders`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-best-answer.admin.edit_tag.reminders%22)
+
+> Send reminders to set a Best Answer for discussions in this tag
+
+```diff
+-提醒选择最佳回复
++提醒此标签下的讨论选择最佳回复
+```
+
 #### [`fof-best-answer.admin.permissions.best_answer`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-best-answer.admin.permissions.best_answer%22)
 
 > Select Best Answer (own Discussion)
@@ -7063,13 +7083,129 @@ Google <del>分析</del><ins>Analytics</ins>
 +为他人的讨论选择最佳回复
 ```
 
+#### [`fof-best-answer.admin.settings.discussion_sidebar_jump_button`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-best-answer.admin.settings.discussion_sidebar_jump_button%22)
+
+> Display jump to Best Answer button in discussion sidebar
+
+```diff
+-展示最佳回复跳转按钮
++最佳回复定位按钮
+```
+
 #### [`fof-best-answer.admin.settings.discussion_sidebar_jump_button_help`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-best-answer.admin.settings.discussion_sidebar_jump_button_help%22)
 
 > Adds a button to the discussion sidebar which jumps to the Best Answer in the stream of posts.
 
 ```diff
 -在主题帖侧边栏添加一个可以跳转到最佳回复的按钮。
-+在讨论帖侧边栏添加一个可以跳转到最佳回复的按钮。
++在讨论页侧边栏添加按钮，点击可直接跳转至最佳回复。
+```
+
+#### [`fof-best-answer.admin.settings.enabled_tags_help`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-best-answer.admin.settings.enabled_tags_help%22)
+
+> Select which tags, if any, to enable Best Answers for. These tags will become "Q&amp;A" formatted tags, and will have the ability to set Best Answers.
+
+```diff
+-如有需要，请选择要启用最佳回复的标签。这些标签将成为「Q&A」格式的标签。
++选择启用最佳回复功能的标签。启用后，这些标签下的讨论将采用问答模式，并可设置最佳回复。
+```
+
+#### [`fof-best-answer.admin.settings.label.reminders`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-best-answer.admin.settings.label.reminders%22)
+
+> Reminders
+
+```diff
+-提醒事项
++提醒
+```
+
+#### [`fof-best-answer.admin.settings.label.reminders_notice`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-best-answer.admin.settings.label.reminders_notice%22)
+
+> For reminders to function, you must have set up the Flarum scheduler correctly.
+
+```diff
+-要运行提醒功能，你必须正确配置 Flarum 调度器。
++要使用提醒功能，请先正确配置 Flarum 任务调度。
+```
+
+<del>要运行提醒功能，你必须正确配置</del><ins>要使用提醒功能，请先正确配置</ins> Flarum <del>调度器。</del><ins>任务调度。</ins>
+
+#### [`fof-best-answer.admin.settings.remind_tags_help`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-best-answer.admin.settings.remind_tags_help%22)
+
+> Select which tags, if any, to send reminders for. Reminders will only be sent for discussions with these tags.
+
+```diff
+-如有需要，请选择要发送提醒的标签（如果有）。
++仅提醒这些标签下尚未设置最佳回复的讨论。
+```
+
+#### [`fof-best-answer.admin.settings.schedule_log_output`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-best-answer.admin.settings.schedule_log_output%22)
+
+> Append scheduler output to log storage
+
+```diff
+-将调度程序的输出添加到日志存储中
++将任务调度输出写入日志
+```
+
+#### [`fof-best-answer.admin.settings.schedule_on_one_server`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-best-answer.admin.settings.schedule_on_one_server%22)
+
+> Use 'onOneServer()' directive for the task scheduler
+
+```diff
+-使用 onOneServer() 方法建立计划任务
++任务调度使用 onOneServer()
+```
+
+<del>使用</del><ins>任务调度使用</ins> onOneServer()<del> 方法建立计划任务</del>
+
+#### [`fof-best-answer.admin.settings.schedule_on_one_server_help`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-best-answer.admin.settings.schedule_on_one_server_help%22)
+
+> Requires Redis/Memcache
+
+```diff
+-需要 Redis/Memcache
++需要 Redis 或 Memcache
+```
+
+需要 <del>Redis/Memcache</del><ins>Redis 或 Memcache</ins>
+
+#### [`fof-best-answer.admin.settings.schedule_stop_overnight`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-best-answer.admin.settings.schedule_stop_overnight%22)
+
+> Prevent reminder notifications being sent during unsocial hours
+
+```diff
+-非工作时间禁用提醒
++夜间暂停提醒
+```
+
+#### [`fof-best-answer.admin.settings.schedule_stop_overnight_help`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-best-answer.admin.settings.schedule_stop_overnight_help%22)
+
+> 9pm - 8am server time
+
+```diff
+-服务器时间 20:00 至 9:00
++服务器时间 21:00 至次日 08:00 不发送提醒。
+```
+
+服务器时间 <del>20:00</del><ins>21:00</ins> <del>至</del><ins>至次日</ins> <del>9:00</del><ins>08:00 不发送提醒。</ins>
+
+#### [`fof-best-answer.admin.settings.select_best_answer_reminder_days`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-best-answer.admin.settings.select_best_answer_reminder_days%22)
+
+> Reminder frequency
+
+```diff
+-提醒计时
++提醒间隔
+```
+
+#### [`fof-best-answer.admin.settings.select_best_answer_reminder_days_help`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-best-answer.admin.settings.select_best_answer_reminder_days_help%22)
+
+> Send a reminder after the configurable amount of days to the OP to select a Best Answer, 0 = disable reminders.
+
+```diff
+-于 n 天后提问者选择最佳回复。
++讨论发起一定天数后，提醒发起人选择最佳回复。设为 0 则关闭提醒。
 ```
 
 #### [`fof-best-answer.admin.settings.select_best_answer_tags_help`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-best-answer.admin.settings.select_best_answer_tags_help%22)
@@ -7078,7 +7214,7 @@ Google <del>分析</del><ins>Analytics</ins>
 
 ```diff
 -选择一个次标签，绑定到拥有最佳回复的主题帖上。取消最佳回复时，同时移除该标签。
-+选择一个次标签，绑定到拥有最佳回复的讨论帖上。取消最佳回复时，同时移除该标签。
++设置最佳回复后，自动为讨论添加指定的次标签。取消最佳回复时自动移除。例如「已解决」。
 ```
 
 #### [`fof-best-answer.admin.settings.select_best_answer_tags_label`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-best-answer.admin.settings.select_best_answer_tags_label%22)
@@ -7087,8 +7223,97 @@ Google <del>分析</del><ins>Analytics</ins>
 
 ```diff
 -「已解决」主题帖标签
-+「已解决」讨论帖标签
++「已解决」讨论标签
 ```
+
+#### [`fof-best-answer.admin.settings.show_filter_help`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-best-answer.admin.settings.show_filter_help%22)
+
+> For tags which have Best Answers enabled, choose to display solved/unsolved filter option in the discussion list
+
+```diff
+-在启用最佳回复的标签页面显示「已解决/未解决」过滤项
++在启用最佳回复的标签中，为讨论列表显示「已解决 / 未解决」筛选项。
+```
+
+#### [`fof-best-answer.admin.settings.show_filter_label`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-best-answer.admin.settings.show_filter_label%22)
+
+> Display Best Answer filter dropdown
+
+```diff
+-显示已解决过滤项
++显示解决状态筛选
+```
+
+#### [`fof-best-answer.admin.settings.show_max_lines_help`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-best-answer.admin.settings.show_max_lines_help%22)
+
+> Set to 0 to disable. If a post is longer than the configured amount of lines, it will be truncated in the post preview with a fade out effect.
+
+```diff
+-预览帖超过一定行数时，使用淡出效果截断展示。设为 0 禁用此效果。
++超过此行数的内容会在预览中渐隐截断，设为 0 则不限制。
+```
+
+<del>预览帖超过一定行数时，使用淡出效果截断展示。设为</del><ins>超过此行数的内容会在预览中渐隐截断，设为</ins> 0 <del>禁用此效果。</del><ins>则不限制。</ins>
+
+#### [`fof-best-answer.admin.settings.show_max_lines_label`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-best-answer.admin.settings.show_max_lines_label%22)
+
+> Max lines to show in post preview
+
+```diff
+-最大预览帖行数
++帖子预览最大行数
+```
+
+#### [`fof-best-answer.admin.settings.tags_info`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-best-answer.admin.settings.tags_info%22)
+
+> When a tag is Best Answer enabled, assign permissions to each user group that may set answers (own discussion, any discussion). Permissions may be assigned globally (for any Best Answer anabled tag), or on a per tag basis.
+>
+
+```diff
+-为标签启用最佳回复功能后，请按需配置「设置最佳回复」的全局或标签权限。
++启用最佳回复后，请按需配置「设置最佳回复」的全局或标签权限。
+
+```
+
+#### [`fof-best-answer.admin.settings.use_alt_ui`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-best-answer.admin.settings.use_alt_ui%22)
+
+> Alternative layout
+
+```diff
+-按钮布局
++底部布局
+```
+
+#### [`fof-best-answer.admin.settings.use_alt_ui_help`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-best-answer.admin.settings.use_alt_ui_help%22)
+
+> Best answer controls in post footer
+
+```diff
+-在帖子底部显示最佳回复选择按钮
++将最佳回复操作放在帖子底部。
+```
+
+#### [`fof-best-answer.email.body.awarded`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-best-answer.email.body.awarded%22)
+
+> Hey {recipient\_display\_name},
+>
+> Great job, {actor\_display\_name} just set your post as the best answer in the discussion: {discussion\_title}. Thanks for helping out.
+>
+> View it here: {discussion\_url}
+>
+
+```diff
+ {recipient_display_name}，你好！
+
+-干得漂亮，您在【{discussion_title}】发表的回复刚刚被 {actor_display_name} 选为最佳回复。感谢你的耐心帮助。
++{actor_display_name} 刚刚将你在「{discussion_title}」中的帖子设为最佳回复。感谢你的热心帮助！
+
+-点击此处查看回复：{discussion_url}
++点击查看：{discussion_url}
+
+```
+
+{recipient\_display\_name}，你好！<br /><br /><del>干得漂亮，您在【{discussion\_title}】发表的回复刚刚被 </del>{actor\_display\_name} <del>选为最佳回复。感谢你的耐心帮助。</del><ins>刚刚将你在「{discussion\_title}」中的帖子设为最佳回复。感谢你的热心帮助！</ins><br /><br /><del>点击此处查看回复：{discussion\_url}</del><ins>点击查看：{discussion\_url}</ins><br />
 
 #### [`fof-best-answer.email.body.ba-set`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-best-answer.email.body.ba-set%22)
 
@@ -7103,13 +7328,14 @@ Google <del>分析</del><ins>Analytics</ins>
  {recipient_display_name}，你好！
 
 -{actor_display_name} 刚刚为你参与讨论的主题【{discussion_title}】选择了最佳回复。
-+{actor_display_name} 刚刚为你参与讨论的讨论【{discussion_title}】选择了最佳回复。
++{actor_display_name} 刚刚为你参与的讨论「{discussion_title}」设置了最佳回复。
 
- 去看看吧：{discussion_url}
+-去看看吧：{discussion_url}
++点击查看：{discussion_url}
 
 ```
 
-{recipient\_display\_name}，你好！<br /><br />{actor\_display\_name} <del>刚刚为你参与讨论的主题【{discussion\_title}】选择了最佳回复。</del><ins>刚刚为你参与讨论的讨论【{discussion\_title}】选择了最佳回复。</ins><br /><br />去看看吧：{discussion\_url}<br />
+{recipient\_display\_name}，你好！<br /><br />{actor\_display\_name} <del>刚刚为你参与讨论的主题【{discussion\_title}】选择了最佳回复。</del><ins>刚刚为你参与的讨论「{discussion\_title}」设置了最佳回复。</ins><br /><br /><del>去看看吧：{discussion\_url}</del><ins>点击查看：{discussion\_url}</ins><br />
 
 #### [`fof-best-answer.email.body.select`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-best-answer.email.body.select%22)
 
@@ -7128,18 +7354,62 @@ Google <del>分析</del><ins>Analytics</ins>
  {recipient_display_name}，你好！
 
 -你的主题「{discussion_title}」已经有了很多回复。
-+你的讨论「{discussion_title}」已经有了很多回复。
++你发起的讨论「{discussion_title}」已经收到了一些回复，不知道问题是否已经解决？
 
- 如果其中有可以帮助你解决问题的，你可以把他选为最佳回复，这样不仅能让后来者快速找到解决问题的办法，也可以激励帮助你的人。
+-如果其中有可以帮助你解决问题的，你可以把他选为最佳回复，这样不仅能让后来者快速找到解决问题的办法，也可以激励帮助你的人。
++如果问题已经解决，欢迎从回复中选出最有帮助的一条，设为最佳回复。此举不仅能帮到未来遇到相同问题人，也是对热心回复者的一份认可。
 
 -点击此处查看主题：{discussion_url}，并选择最佳回复。
-+点击此处查看讨论：{discussion_url}，并选择最佳回复。
++前往讨论：{discussion_url}
 
- 此致
+-此致
++感谢你的参与！
 
 ```
 
-{recipient\_display\_name}，你好！<br /><br /><del>你的主题「{discussion\_title}」已经有了很多回复。</del><ins>你的讨论「{discussion\_title}」已经有了很多回复。</ins><br /><br />如果其中有可以帮助你解决问题的，你可以把他选为最佳回复，这样不仅能让后来者快速找到解决问题的办法，也可以激励帮助你的人。<br /><br /><del>点击此处查看主题：{discussion\_url}，并选择最佳回复。</del><ins>点击此处查看讨论：{discussion\_url}，并选择最佳回复。</ins><br /><br />此致<br />
+{recipient\_display\_name}，你好！<br /><br /><del>你的主题「{discussion\_title}」已经有了很多回复。</del><ins>你发起的讨论「{discussion\_title}」已经收到了一些回复，不知道问题是否已经解决？</ins><br /><br /><del>如果其中有可以帮助你解决问题的，你可以把他选为最佳回复，这样不仅能让后来者快速找到解决问题的办法，也可以激励帮助你的人。</del><ins>如果问题已经解决，欢迎从回复中选出最有帮助的一条，设为最佳回复。此举不仅能帮到未来遇到相同问题人，也是对热心回复者的一份认可。</ins><br /><br /><del>点击此处查看主题：{discussion\_url}，并选择最佳回复。</del><ins>前往讨论：{discussion\_url}</ins><br /><br /><del>此致</del><ins>感谢你的参与！</ins><br />
+
+#### [`fof-best-answer.email.subject.awarded`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-best-answer.email.subject.awarded%22)
+
+> Your post was set as the best answer by {display\_name}
+
+```diff
+-您的帖子被 {display_name} 设为最佳回复
++{display_name} 将你的帖子设为最佳回复
+```
+
+<del>您的帖子被 </del>{display\_name} <del>设为最佳回复</del><ins>将你的帖子设为最佳回复</ins>
+
+#### [`fof-best-answer.email.subject.ba-set`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-best-answer.email.subject.ba-set%22)
+
+> A best answer was set by {display\_name}
+
+```diff
+-{display_name} 选择了一个最佳回复
++{display_name} 设置了最佳回复
+```
+
+{display\_name} <del>选择了一个最佳回复</del><ins>设置了最佳回复</ins>
+
+#### [`fof-best-answer.email.subject.select`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-best-answer.email.subject.select%22)
+
+> Did you manage to get your question answered?
+
+```diff
+-您的问题是否已解决？
++你的问题解决了吗？
+```
+
+#### [`fof-best-answer.forum.best_answer_label`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-best-answer.forum.best_answer_label%22)
+
+> set by &lt;a&gt;{username}&lt;/a&gt; {time\_set}
+
+```diff
+-由 <a>{username}</a> 于 {time_set} 选择
++由 <a>{username}</a> 于 {time_set} 设置
+```
+
+由 &lt;a&gt;{username}&lt;/a&gt; 于 {time\_set} <del>选择</del><ins>设置</ins>
 
 #### [`fof-best-answer.forum.errors.mismatch`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-best-answer.forum.errors.mismatch%22)
 
@@ -7147,7 +7417,63 @@ Google <del>分析</del><ins>Analytics</ins>
 
 ```diff
 -您选择的帖子在当前主题中不存在
-+所选回复不在当前讨论中。
++所选帖子不属于此讨论。
+```
+
+#### [`fof-best-answer.forum.filter.accessible_label`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-best-answer.forum.filter.accessible_label%22)
+
+> Solved/Unsolved selection
+
+```diff
+-已解决/未解决
++筛选解决状态
+```
+
+#### [`fof-best-answer.forum.filter.unsolved_label`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-best-answer.forum.filter.unsolved_label%22)
+
+> Unsolved questions
+
+```diff
+-等待解决
++未解决
+```
+
+#### [`fof-best-answer.forum.index.ask_question`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-best-answer.forum.index.ask_question%22)
+
+> Ask a Question
+
+```diff
+-提问
++开始提问
+```
+
+#### [`fof-best-answer.forum.index.unsolved_link`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-best-answer.forum.index.unsolved_link%22)
+
+> Unsolved discussions
+
+```diff
+-等待解决
++未解决
+```
+
+#### [`fof-best-answer.forum.notification.awarded`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-best-answer.forum.notification.awarded%22)
+
+> Your post was set as the best answer by {username}
+
+```diff
+-您的帖子被 {username} 设为最佳回复
++{username} 将你的帖子设为最佳回复
+```
+
+<del>您的帖子被 </del>{username} <del>设为最佳回复</del><ins>将你的帖子设为最佳回复</ins>
+
+#### [`fof-best-answer.forum.notification.content`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-best-answer.forum.notification.content%22)
+
+> Please select a Best Answer if your question has been answered
+
+```diff
+-如果您的问题已解决，请选择一个最佳回复
++如果你的问题已经解决，别忘了选择最佳回复
 ```
 
 #### [`fof-best-answer.forum.notification.preferences.best_answer_in_discussion`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-best-answer.forum.notification.preferences.best_answer_in_discussion%22)
@@ -7156,7 +7482,7 @@ Google <del>分析</del><ins>Analytics</ins>
 
 ```diff
 -我互动的主题有了最佳回复
-+我互动的讨论有了最佳回复
++我参与的讨论设置了最佳回复
 ```
 
 #### [`fof-best-answer.forum.notification.preferences.select_best_answer`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-best-answer.forum.notification.preferences.select_best_answer%22)
@@ -7165,7 +7491,500 @@ Google <del>分析</del><ins>Analytics</ins>
 
 ```diff
 -提醒我选择自己主题的最佳回复
-+提醒我选择自己讨论的最佳回复
++提醒我为自己发起的讨论选择最佳回复
+```
+
+#### [`fof-best-answer.forum.remove_best_answer`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-best-answer.forum.remove_best_answer%22)
+
+> Unselect Best Answer
+
+```diff
+-移除最佳回复
++取消最佳回复
+```
+
+#### [`fof-best-answer.forum.user.best-answer-count`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-best-answer.forum.user.best-answer-count%22)
+
+> {count, plural, one { {count} best answer} other {{count} best answers}}
+
+```diff
+-{count} 次助人
++{count, plural, one {{count} 个最佳回复} other {{count} 个最佳回复}}
+```
+
+#### [`fof-user-directory.lib.sort.least_best_answers`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-user-directory.lib.sort.least_best_answers%22)
+
+> Least best answers
+
+```diff
+-最少最佳回复
++解题潜力股
+```
+
+#### [`fof-user-directory.lib.sort.most_best_answers`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-user-directory.lib.sort.most_best_answers%22)
+
+> Most best answers
+
+```diff
+-最多最佳回复
++问题终结者
+```
+
+
+### `fof-blog`
+
+#### [`fof-blog.admin.permissions.approve_posts`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.admin.permissions.approve_posts%22)
+
+> Can approve blog articles
+
+```diff
+-审核博客文章
++审核文章
+```
+
+#### [`fof-blog.admin.permissions.write_articles`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.admin.permissions.write_articles%22)
+
+> Write and edit blog articles
+
+```diff
+-撰写和编辑博客文章
++撰写和编辑文章
+```
+
+#### [`fof-blog.admin.settings.add_hero_label`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.admin.settings.add_hero_label%22)
+
+> Show welcome banner
+
+```diff
+-展示欢迎横幅
++显示欢迎横幅
+```
+
+#### [`fof-blog.admin.settings.add_hero_text`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.admin.settings.add_hero_text%22)
+
+> Show welcome banner on blog pages if it wasn't closed yet.
+
+```diff
+-允许在博客页面展示首页的欢迎横幅。
++在博客页面显示欢迎横幅，用户关闭后不再显示。
+```
+
+#### [`fof-blog.admin.settings.add_sidebar_nav_label`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.admin.settings.add_sidebar_nav_label%22)
+
+> Add to sidebar navigation
+
+```diff
+-添加到侧边栏
++添加至侧边栏
+```
+
+#### [`fof-blog.admin.settings.allow_comments_text`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.admin.settings.allow_comments_text%22)
+
+> By default, allow comments on blog posts. When disabled, it can be enabled individually per blog post. &lt;b&gt;Note:&lt;/b&gt; Changing this setting will not affect pre-existing blog posts.
+
+```diff
+-允许他人在新文章中发表评论。此项关闭时，只能为每篇文章单独开启。<b>注意：</b>此项设置的变更不会影响已存在的文章。
++允许他人评论文章。关闭后，仍可为单篇文章单独开启。<b>注意：</b>此设置变更不会影响已发布的文章。
+```
+
+#### [`fof-blog.admin.settings.default_article_image_label`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.admin.settings.default_article_image_label%22)
+
+> Default article image
+
+```diff
+-默认封面图
++默认文章头图
+```
+
+#### [`fof-blog.admin.settings.default_article_image_text`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.admin.settings.default_article_image_text%22)
+
+> Select a default article image to display when no image is set.
+
+```diff
+-设置默认使用的文章封面图。
++文章未设置头图时，使用此图片作为默认头图。
+```
+
+#### [`fof-blog.admin.settings.featured_count_label`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.admin.settings.featured_count_label%22)
+
+> Max Featured Posts
+
+```diff
+-精选评论上限
++精选文章上限
+```
+
+#### [`fof-blog.admin.settings.featured_count_text`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.admin.settings.featured_count_text%22)
+
+> How many posts should be displayed in a big grid at the top of a blog page?
+
+```diff
+-博客页面顶部最多可显示多少评论？
++设置博客页面顶部大图区域最多显示的精选文章数量。
+```
+
+#### [`fof-blog.admin.settings.hide_on_discussion_list_label`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.admin.settings.hide_on_discussion_list_label%22)
+
+> Don't show on discussion list
+
+```diff
+-不在主题列表中显示
++从讨论列表中隐藏
+```
+
+#### [`fof-blog.admin.settings.hide_on_discussion_list_text`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.admin.settings.hide_on_discussion_list_text%22)
+
+> Hide blog posts from the discussions list.
+
+```diff
+-在「全部主题」列表中隐藏博客文章。
++不在讨论列表中显示博客文章。
+```
+
+#### [`fof-blog.admin.settings.hide_tags_in_taglist_label`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.admin.settings.hide_tags_in_taglist_label%22)
+
+> Hide tags in taglist
+
+```diff
+-对标签列表不可见
++从标签列表中隐藏博客标签
+```
+
+#### [`fof-blog.admin.settings.hide_tags_in_taglist_text`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.admin.settings.hide_tags_in_taglist_text%22)
+
+> When enabled, this extension will hide the blog tags from your homepage.
+
+```diff
+-开启后，将在首页中隐藏博客标签。
++开启后，博客标签不会显示在首页标签列表中。
+```
+
+#### [`fof-blog.admin.settings.no_categories_selected`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.admin.settings.no_categories_selected%22)
+
+> No categories selected
+
+```diff
+-请选择分类目录
++尚未选择分类目录
+```
+
+#### [`fof-blog.admin.settings.require_review_label`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.admin.settings.require_review_label%22)
+
+> Blog posts requires review
+
+```diff
+-文章必须经人工审核
++文章需要审核
+```
+
+#### [`fof-blog.admin.settings.require_review_text`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.admin.settings.require_review_text%22)
+
+> When posting an article, it will not be visible directly and needs to be reviewed by a moderator.
+
+```diff
+-发布文章时，经管理员人工审核后才会公开可见。
++开启后，新文章提交后需要管理人员审核，通过后才能公开可见。
+```
+
+#### [`fof-blog.admin.settings.selected_category_count`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.admin.settings.selected_category_count%22)
+
+> {count, plural, one {You have # category selected} other {You have # categories selected}}
+
+```diff
+-已指定 {count, plural, one {#} other {#}} 个分类目录
++{count, plural, one {已选择 # 个分类目录} other {已选择 # 个分类目录}}
+```
+
+<del>已指定 </del>{count, plural, one <del>{#}</del><ins>{已选择 # 个分类目录}</ins> other <del>{#}}</del><ins>{已选择</ins> <del>个分类目录</del><ins># 个分类目录}}</ins>
+
+#### [`fof-blog.admin.settings.show_tag_hierarchy_label`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.admin.settings.show_tag_hierarchy_label%22)
+
+> Show tag hierarchy
+
+```diff
+-显示标签层次
++显示分类层级
+```
+
+#### [`fof-blog.admin.settings.show_tag_hierarchy_text`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.admin.settings.show_tag_hierarchy_text%22)
+
+> Add spacing to child-categories and give the category-list a hierarchy.
+
+```diff
+-在子分类目录之间添加空格，并为分类目录列表提供层次结构视图。
++为子分类增加缩进，在分类目录中展示层级关系。
+```
+
+#### [`fof-blog.forum.article.slug`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.forum.article.slug%22)
+
+> Slug
+
+```diff
+-别名
++固定链接名
+```
+
+#### [`fof-blog.forum.article_settings.fields.highlight.helper_text`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.forum.article_settings.fields.highlight.helper_text%22)
+
+> Give this post a big image on the blog overview page.
+
+```diff
+-使用大尺寸图片展示本文章。
++在博客首页以大图形式突出显示此文章
+```
+
+#### [`fof-blog.forum.article_settings.fields.highlight.title`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.forum.article_settings.fields.highlight.title%22)
+
+> Highlighted post
+
+```diff
+-大图
++精选文章
+```
+
+#### [`fof-blog.forum.article_settings.fields.image.helper_text`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.forum.article_settings.fields.image.helper_text%22)
+
+> Best image resolution for social media: 1200x630
+
+```diff
+-最佳分辨率 1200x630
++推荐尺寸：1200 × 630，适合社交媒体分享
+```
+
+#### [`fof-blog.forum.article_settings.fields.summary.helper_text`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.forum.article_settings.fields.summary.helper_text%22)
+
+> This summary will be visible on the blog overview page and will be used for SEO purposes.
+
+```diff
+-摘要用于 SEO，以及博客主页的预览。
++摘要用于 SEO，以及博客首页预览
+```
+
+摘要用于 <del>SEO，以及博客主页的预览。</del><ins>SEO，以及博客首页预览</ins>
+
+#### [`fof-blog.forum.article_settings.fields.summary.placeholder`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.forum.article_settings.fields.summary.placeholder%22)
+
+> Please enter a summary
+
+```diff
+-请输入摘要
++填写文章摘要
+```
+
+#### [`fof-blog.forum.article_settings.title`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.forum.article_settings.title%22)
+
+> Blog post settings
+
+```diff
+-博客文章设置
++文章设置
+```
+
+#### [`fof-blog.forum.category_empty`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.forum.category_empty%22)
+
+> There are no blog posts in this category.
+
+```diff
+-此分类目录中没有文章
++此分类目录暂无文章
+```
+
+#### [`fof-blog.forum.comment_section.locked`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.forum.comment_section.locked%22)
+
+> The comment section is disabled for this article
+
+```diff
+-评论已关闭
++此文章已关闭评论
+```
+
+#### [`fof-blog.forum.compose.write_article`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.forum.compose.write_article%22)
+
+> Write article
+
+```diff
+-写文章
++撰写文章
+```
+
+#### [`fof-blog.forum.composer.comment_section`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.forum.composer.comment_section%22)
+
+> The comment section is not available when composing an article.
+
+```diff
+-撰写文章时，评论区无法使用。
++撰写文章时暂不提供评论区。
+```
+
+#### [`fof-blog.forum.composer.enter_message_here`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.forum.composer.enter_message_here%22)
+
+> Enter your message here
+
+```diff
+-在此输入正文内容
++写点什么吧…
+```
+
+#### [`fof-blog.forum.composer.no_blog_tags_selected`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.forum.composer.no_blog_tags_selected%22)
+
+> None of the tags you have selected is a blog tag. Please select at least one.
+
+```diff
+-您选择的标签中没有一个是博客标签，请至少选择一个博客标签。
++所选标签中没有博客分类，请至少选择一个博客分类。
+```
+
+#### [`fof-blog.forum.composer.no_title`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.forum.composer.no_title%22)
+
+> No title
+
+```diff
+-标题
++无标题
+```
+
+#### [`fof-blog.forum.composer.nothing_to_preview`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.forum.composer.nothing_to_preview%22)
+
+> Nothing to preview
+
+```diff
+-什么都还没写呢
++暂无可预览内容
+```
+
+#### [`fof-blog.forum.composer.post_without_blog_info`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.forum.composer.post_without_blog_info%22)
+
+> Are you sure you want to post this blog post? You did not yet enter a blog summary or image.
+
+```diff
+-确定要发布这篇文章吗？您还没有输入博客摘要或上传封面图。
++文章尚未填写摘要或设置头图，确定要直接发布吗？
+```
+
+#### [`fof-blog.forum.composer.update_settings`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.forum.composer.update_settings%22)
+
+> Update blog settings
+
+```diff
+-文章设置
++更新文章设置
+```
+
+#### [`fof-blog.forum.composer.write`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.forum.composer.write%22)
+
+> Write
+
+```diff
+-写作
++编辑
+```
+
+#### [`fof-blog.forum.read_more`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.forum.read_more%22)
+
+> Read more
+
+```diff
+-阅读更多
++阅读全文
+```
+
+#### [`fof-blog.forum.recent_posts`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.forum.recent_posts%22)
+
+> Recent blog posts
+
+```diff
+-近期文章
++最近文章
+```
+
+#### [`fof-blog.forum.review_article.approve_article`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.forum.review_article.approve_article%22)
+
+> Approve article
+
+```diff
+-批准文章
++通过审核
+```
+
+#### [`fof-blog.forum.review_article.approve_article_approved`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.forum.review_article.approve_article_approved%22)
+
+> The article has been approved and published
+
+```diff
+-已批准发布此文章
++文章已通过审核并发布
+```
+
+#### [`fof-blog.forum.review_article.pending_review`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.forum.review_article.pending_review%22)
+
+> This article is pending review and has not yet been published
+
+```diff
+-此文章需要审核后才会发布
++此文章正在等待审核，尚未发布
+```
+
+#### [`fof-blog.forum.review_article.pending_review_title`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.forum.review_article.pending_review_title%22)
+
+> Pending review
+
+```diff
+-待审核
++等待审核
+```
+
+#### [`fof-blog.forum.tools.approve_article`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.forum.tools.approve_article%22)
+
+> Approve article
+
+```diff
+-批准文章
++通过审核
+```
+
+#### [`fof-blog.forum.tools.rename_article`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.forum.tools.rename_article%22)
+
+> Rename article
+
+```diff
+-重命名文章
++修改标题
+```
+
+#### [`fof-blog.forum.tools.update_category`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.forum.tools.update_category%22)
+
+> Update categories
+
+```diff
+-更新分类目录
++修改分类目录
+```
+
+#### [`fof-blog.forum.utils.redirect.link`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.forum.utils.redirect.link%22)
+
+> &lt;a&gt;Click here&lt;/a&gt; if the page does not redirect you
+
+```diff
+-如果没有任何响应，请<a>点击此处</a>
++如果没有自动跳转，请<a>点击这里</a>
+```
+
+#### [`fof-blog.forum.utils.redirect.title`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.forum.utils.redirect.title%22)
+
+> Redirecting you to our blog article...
+
+```diff
+-正在将您重定向至博客文章……
++正在跳转至博客文章…
+```
+
+#### [`fof-blog.forum.validation.missing_id`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.forum.validation.missing_id%22)
+
+> Missing ID
+
+```diff
+-ID 缺失
++缺少 ID
 ```
 
 
@@ -7188,7 +8007,7 @@ Google <del>分析</del><ins>Analytics</ins>
 
 ```diff
 -强制将私密主题屏蔽的用户加入私密主题
-+强制将私密讨论屏蔽的用户加入私密讨论
++与拒绝私密讨论的用户发起私密讨论
 ```
 
 #### [`fof-byobu.admin.permission.create_private_discussions_with_groups`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.admin.permission.create_private_discussions_with_groups%22)
@@ -7197,7 +8016,7 @@ Google <del>分析</del><ins>Analytics</ins>
 
 ```diff
 -与用户组创建私密主题
-+与用户组创建私密讨论
++邀请用户组参与私密讨论
 ```
 
 #### [`fof-byobu.admin.permission.create_private_discussions_with_users`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.admin.permission.create_private_discussions_with_users%22)
@@ -7206,7 +8025,7 @@ Google <del>分析</del><ins>Analytics</ins>
 
 ```diff
 -与他人创建私密主题
-+与他人创建私密讨论
++与他人发起私密讨论
 ```
 
 #### [`fof-byobu.admin.permission.edit_group_recipients`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.admin.permission.edit_group_recipients%22)
@@ -7215,7 +8034,7 @@ Google <del>分析</del><ins>Analytics</ins>
 
 ```diff
 -设置私密主题用户组可见范围
-+设置私密讨论用户组可见范围
++编辑私密讨论参与用户组
 ```
 
 #### [`fof-byobu.admin.permission.edit_user_recipients`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.admin.permission.edit_user_recipients%22)
@@ -7224,7 +8043,7 @@ Google <del>分析</del><ins>Analytics</ins>
 
 ```diff
 -设置私密主题用户可见范围
-+设置私密讨论用户可见范围
++编辑私密讨论参与用户
 ```
 
 #### [`fof-byobu.admin.permission.make_private_into_public`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.admin.permission.make_private_into_public%22)
@@ -7233,7 +8052,7 @@ Google <del>分析</del><ins>Analytics</ins>
 
 ```diff
 -将私密主题转为公开
-+将私密讨论转为公开
++将私密讨论转为公开讨论
 ```
 
 #### [`fof-byobu.admin.permission.view_private_discussions-when-flagged`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.admin.permission.view_private_discussions-when-flagged%22)
@@ -7242,7 +8061,7 @@ Google <del>分析</del><ins>Analytics</ins>
 
 ```diff
 -查看他人被举报的私密主题
-+查看他人被举报的私密讨论
++查看被举报的私密讨论
 ```
 
 #### [`fof-byobu.admin.settings.badge-icon`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.admin.settings.badge-icon%22)
@@ -7251,10 +8070,8 @@ Google <del>分析</del><ins>Analytics</ins>
 
 ```diff
 -Byobu 主题帖徽章
-+Byobu 讨论帖徽章
++私密讨论徽章
 ```
-
-Byobu <del>主题帖徽章</del><ins>讨论帖徽章</ins>
 
 #### [`fof-byobu.admin.settings.delete_on_last_recipient_left`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.admin.settings.delete_on_last_recipient_left%22)
 
@@ -7262,7 +8079,7 @@ Byobu <del>主题帖徽章</del><ins>讨论帖徽章</ins>
 
 ```diff
 -所有参与者均离开后，自动删除该私密主题
-+所有参与者均离开后，自动删除该私密讨论
++最后一个参与对象退出后删除讨论
 ```
 
 #### [`fof-byobu.admin.settings.delete_on_last_recipient_left_help`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.admin.settings.delete_on_last_recipient_left_help%22)
@@ -7271,7 +8088,16 @@ Byobu <del>主题帖徽章</del><ins>讨论帖徽章</ins>
 
 ```diff
 -启用此项，在所有用户均退出私密主题时，永久删除主题内容。否则，隐藏私密主题。
-+启用此项，在所有用户均退出私密讨论时，永久删除讨论内容。否则，隐藏私密讨论。
++开启后，最后一个参与对象退出时会永久删除私密讨论。关闭此项则改为隐藏。
+```
+
+#### [`fof-byobu.admin.settings.enable-make-public-option`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.admin.settings.enable-make-public-option%22)
+
+> Enable the "make public" ability
+
+```diff
+-启用「私密转公开」功能
++允许私密转公开
 ```
 
 #### [`fof-byobu.admin.settings.enable-make-public-option-help`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.admin.settings.enable-make-public-option-help%22)
@@ -7280,7 +8106,7 @@ Byobu <del>主题帖徽章</del><ins>讨论帖徽章</ins>
 
 ```diff
 -转公开时，所有参与者自动退出私密主题，私密主题转为普通公开主题。
-+转公开时，所有参与者自动退出私密讨论，私密讨论转为普通公开讨论。
++开启后，拥有权限的用户可以移除所有参与对象、重新选择标签，并将私密讨论转为公开。公开后的可见范围由所选标签的权限决定。
 ```
 
 #### [`fof-byobu.admin.settings.hide_from_all_discussions_page`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.admin.settings.hide_from_all_discussions_page%22)
@@ -7289,7 +8115,7 @@ Byobu <del>主题帖徽章</del><ins>讨论帖徽章</ins>
 
 ```diff
 -在「全部主题」页面隐藏私密主题
-+在「全部讨论」页面隐藏私密讨论
++从「全部讨论」中隐藏私密讨论
 ```
 
 #### [`fof-byobu.admin.settings.hide_from_all_discussions_page_help`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.admin.settings.hide_from_all_discussions_page_help%22)
@@ -7298,7 +8124,16 @@ Byobu <del>主题帖徽章</del><ins>讨论帖徽章</ins>
 
 ```diff
 -只保留「私密主题」页面和个人主页两个访问入口
-+只保留「私密讨论」页面和个人主页两个访问入口
++开启后，私密讨论仅可从「私密讨论」页面或用户个人主页进入
+```
+
+#### [`fof-byobu.admin.settings.post-event-icon`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.admin.settings.post-event-icon%22)
+
+> Byobu Post Events
+
+```diff
+-Byobu 发帖事件
++私密讨论事件图标
 ```
 
 #### [`fof-byobu.email.subject.private_discussion_added`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.email.subject.private_discussion_added%22)
@@ -7307,7 +8142,7 @@ Byobu <del>主题帖徽章</del><ins>讨论帖徽章</ins>
 
 ```diff
 -【私密主题】{display_name} 将您加入私密主题
-+【私密讨论】{display_name} 将您加入私密讨论
++【私密讨论】{display_name} 将你加入了私密讨论
 ```
 
 #### [`fof-byobu.email.subject.private_discussion_created`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.email.subject.private_discussion_created%22)
@@ -7316,7 +8151,7 @@ Byobu <del>主题帖徽章</del><ins>讨论帖徽章</ins>
 
 ```diff
 -【私密主题】{display_name} 与您创建私密主题
-+【私密讨论】{display_name} 与您创建私密讨论
++【私密讨论】{display_name} 邀请你加入新的私密讨论
 ```
 
 #### [`fof-byobu.email.subject.private_discussion_replied`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.email.subject.private_discussion_replied%22)
@@ -7325,10 +8160,8 @@ Byobu <del>主题帖徽章</del><ins>讨论帖徽章</ins>
 
 ```diff
 -【私密主题】{display_name} 发表新帖
-+【私密讨论】{display_name} 发表新帖
++【私密讨论】{display_name} 发布了新内容
 ```
-
-<del>【私密主题】{display\_name}</del><ins>【私密讨论】{display\_name}</ins> 发表新帖
 
 #### [`fof-byobu.email.subject.recipient_removed`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.email.subject.recipient_removed%22)
 
@@ -7336,10 +8169,8 @@ Byobu <del>主题帖徽章</del><ins>讨论帖徽章</ins>
 
 ```diff
 -【私密主题】{display_name} 退出
-+【私密讨论】{display_name} 退出
++【私密讨论】{display_name} 退出了讨论
 ```
-
-<del>【私密主题】{display\_name}</del><ins>【私密讨论】{display\_name}</ins> 退出
 
 #### [`fof-byobu.forum.badges.is_private.tooltip`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.forum.badges.is_private.tooltip%22)
 
@@ -7350,13 +8181,31 @@ Byobu <del>主题帖徽章</del><ins>讨论帖徽章</ins>
 +私密讨论
 ```
 
+#### [`fof-byobu.forum.buttons.add_recipients`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.forum.buttons.add_recipients%22)
+
+> Recipients
+
+```diff
+-公开
++参与者
+```
+
+#### [`fof-byobu.forum.buttons.edit_recipients`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.forum.buttons.edit_recipients%22)
+
+> Edit Recipients
+
+```diff
+-可见范围
++编辑参与者
+```
+
 #### [`fof-byobu.forum.buttons.make_public`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.forum.buttons.make_public%22)
 
 > Make this discussion public
 
 ```diff
 -公开主题
-+公开讨论
++转为公开讨论
 ```
 
 #### [`fof-byobu.forum.buttons.remove_from_discussion`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.forum.buttons.remove_from_discussion%22)
@@ -7368,13 +8217,24 @@ Byobu <del>主题帖徽章</del><ins>讨论帖徽章</ins>
 +退出私密讨论
 ```
 
+#### [`fof-byobu.forum.buttons.send_pd`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.forum.buttons.send_pd%22)
+
+> Send {username} a message
+
+```diff
+-发送消息至 {username}
++与 {username} 发起私密讨论
+```
+
+<del>发送消息至</del><ins>与</ins> {username}<ins> 发起私密讨论</ins>
+
 #### [`fof-byobu.forum.composer_private_discussion.submit_button`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.forum.composer_private_discussion.submit_button%22)
 
 > Post Private Discussion
 
 ```diff
 -新建私密主题
-+新建私密讨论
++发起私密讨论
 ```
 
 #### [`fof-byobu.forum.composer_private_discussion.title_placeholder`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.forum.composer_private_discussion.title_placeholder%22)
@@ -7383,7 +8243,7 @@ Byobu <del>主题帖徽章</del><ins>讨论帖徽章</ins>
 
 ```diff
 -私密主题标题
-+私密讨论标题
++标题
 ```
 
 #### [`fof-byobu.forum.confirm.make_public`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.forum.confirm.make_public%22)
@@ -7392,8 +8252,28 @@ Byobu <del>主题帖徽章</del><ins>讨论帖徽章</ins>
 
 ```diff
 -确定移除所有参与者，并公开此主题吗？
-+确定移除所有参与者，并公开此讨论吗？
++确定要移除所有参与者，并公开此讨论吗？公开后，拥有当前标签权限的用户都可以查看此讨论。
 ```
+
+#### [`fof-byobu.forum.input.search_recipients`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.forum.input.search_recipients%22)
+
+> Search recipient by typing first three characters...
+
+```diff
+-输入用户名前三位……
++输入至少 3 个字符搜索参与者…
+```
+
+#### [`fof-byobu.forum.labels.recipients`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.forum.labels.recipients%22)
+
+> {count, plural, one {{count} Recipient} other {{count} Recipients}}
+
+```diff
+-{count, plural, one {{count}} other {{count}}} 人可见
++{count, plural, one {{count} 个参与对象} other {{count} 个参与对象}}
+```
+
+{count, plural, one <del>{{count}}</del><ins>{{count} 个参与对象}</ins> other <del>{{count}}}</del><ins>{{count}</ins> <del>人可见</del><ins>个参与对象}}</ins>
 
 #### [`fof-byobu.forum.modal.help.add_recipients`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.forum.modal.help.add_recipients%22)
 
@@ -7401,7 +8281,25 @@ Byobu <del>主题帖徽章</del><ins>讨论帖徽章</ins>
 
 ```diff
 -此主题仅选中的用户可见。至少添加一个用户（您除外）才能创建私密主题。
-+此讨论仅选中的用户可见。至少添加一个用户（您除外）才能创建私密讨论。
++此讨论仅所选用户可见。除自己外，至少需要添加 1 个参与者。
+```
+
+#### [`fof-byobu.forum.modal.help.click_user_to_remove_tooltip`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.forum.modal.help.click_user_to_remove_tooltip%22)
+
+> Click to remove
+
+```diff
+-单击移除
++点击移除
+```
+
+#### [`fof-byobu.forum.modal.help.selected_users`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.forum.modal.help.selected_users%22)
+
+> Click a user's name to remove them.
+
+```diff
+-单击以移除用户。
++点击用户名即可移除。
 ```
 
 #### [`fof-byobu.forum.modal.help.update_recipients`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.forum.modal.help.update_recipients%22)
@@ -7410,7 +8308,7 @@ Byobu <del>主题帖徽章</del><ins>讨论帖徽章</ins>
 
 ```diff
 -此主题仅选中的用户可见。
-+此讨论仅选中的用户可见。
++此讨论仅所选用户可见。
 ```
 
 #### [`fof-byobu.forum.modal.titles.add_recipients`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.forum.modal.titles.add_recipients%22)
@@ -7419,7 +8317,16 @@ Byobu <del>主题帖徽章</del><ins>讨论帖徽章</ins>
 
 ```diff
 -邀请用户加入私密主题
-+邀请用户加入私密讨论
++添加参与者
+```
+
+#### [`fof-byobu.forum.modal.titles.update_recipients`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.forum.modal.titles.update_recipients%22)
+
+> Update recipients of {title}
+
+```diff
+-更新「{title}」的可见范围
++编辑「{title}」的参与者
 ```
 
 #### [`fof-byobu.forum.nav.nav_item`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.forum.nav.nav_item%22)
@@ -7437,7 +8344,7 @@ Byobu <del>主题帖徽章</del><ins>讨论帖徽章</ins>
 
 ```diff
 -私密主题
-+私密讨论
++发起私密讨论
 ```
 
 #### [`fof-byobu.forum.notifications.pd_added_label`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.forum.notifications.pd_added_label%22)
@@ -7446,7 +8353,7 @@ Byobu <del>主题帖徽章</del><ins>讨论帖徽章</ins>
 
 ```diff
 -有人邀请我加入私密主题
-+有人邀请我加入私密讨论
++有人将我加入已有的私密讨论
 ```
 
 #### [`fof-byobu.forum.notifications.pd_added_text`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.forum.notifications.pd_added_text%22)
@@ -7455,10 +8362,10 @@ Byobu <del>主题帖徽章</del><ins>讨论帖徽章</ins>
 
 ```diff
 -{username} 邀请您加入私密主题
-+{username} 邀请您加入私密讨论
++{username} 将你加入私密讨论
 ```
 
-{username} <del>邀请您加入私密主题</del><ins>邀请您加入私密讨论</ins>
+{username} <del>邀请您加入私密主题</del><ins>将你加入私密讨论</ins>
 
 #### [`fof-byobu.forum.notifications.pd_label`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.forum.notifications.pd_label%22)
 
@@ -7466,7 +8373,7 @@ Byobu <del>主题帖徽章</del><ins>讨论帖徽章</ins>
 
 ```diff
 -有人和我创建私密主题
-+有人和我创建私密讨论
++有人邀请我加入新的私密讨论
 ```
 
 #### [`fof-byobu.forum.notifications.pd_reply_label`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.forum.notifications.pd_reply_label%22)
@@ -7475,7 +8382,7 @@ Byobu <del>主题帖徽章</del><ins>讨论帖徽章</ins>
 
 ```diff
 -参与的私密主题有新贴
-+参与的私密讨论有新贴
++我参与的私密讨论有新内容
 ```
 
 #### [`fof-byobu.forum.notifications.pd_reply_text`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.forum.notifications.pd_reply_text%22)
@@ -7484,10 +8391,10 @@ Byobu <del>主题帖徽章</del><ins>讨论帖徽章</ins>
 
 ```diff
 -{username} 在私密主题中发表新帖
-+{username} 在私密讨论中发表新帖
++{username} 在你参与的私密讨论中发布了新内容
 ```
 
-{username} <del>在私密主题中发表新帖</del><ins>在私密讨论中发表新帖</ins>
+{username} <del>在私密主题中发表新帖</del><ins>在你参与的私密讨论中发布了新内容</ins>
 
 #### [`fof-byobu.forum.notifications.pd_text`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.forum.notifications.pd_text%22)
 
@@ -7495,10 +8402,10 @@ Byobu <del>主题帖徽章</del><ins>讨论帖徽章</ins>
 
 ```diff
 -{username} 和我创建私密主题
-+{username} 和我创建私密讨论
++{username} 邀请你加入新的私密讨论
 ```
 
-{username} <del>和我创建私密主题</del><ins>和我创建私密讨论</ins>
+{username} <del>和我创建私密主题</del><ins>邀请你加入新的私密讨论</ins>
 
 #### [`fof-byobu.forum.notifications.pd_user_left_label`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.forum.notifications.pd_user_left_label%22)
 
@@ -7506,7 +8413,7 @@ Byobu <del>主题帖徽章</del><ins>讨论帖徽章</ins>
 
 ```diff
 -有人退出我参与的私密主题
-+有人退出我参与的私密讨论
++我参与的私密讨论有人退出
 ```
 
 #### [`fof-byobu.forum.notifications.pd_user_left_text`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.forum.notifications.pd_user_left_text%22)
@@ -7515,10 +8422,32 @@ Byobu <del>主题帖徽章</del><ins>讨论帖徽章</ins>
 
 ```diff
 -{username} 退出私密主题
-+{username} 退出私密讨论
++{username} 退出了私密讨论
 ```
 
-{username} <del>退出私密主题</del><ins>退出私密讨论</ins>
+{username} <del>退出私密主题</del><ins>退出了私密讨论</ins>
+
+#### [`fof-byobu.forum.post.recipients_modified.added`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.forum.post.recipients_modified.added%22)
+
+> {username} added recipients {added}.
+
+```diff
+-{username} 邀请 {added} 加入。
++{username} 邀请了 {added} 加入
+```
+
+{username} <del>邀请</del><ins>邀请了</ins> {added} <del>加入。</del><ins>加入</ins>
+
+#### [`fof-byobu.forum.post.recipients_modified.added_and_removed`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.forum.post.recipients_modified.added_and_removed%22)
+
+> {username} added recipients {added} and removed {removed}.
+
+```diff
+-{username} 邀请 {added} 加入，并移出 {removed}。
++{username} 邀请了 {added} 加入，并移出了 {removed}
+```
+
+{username} <del>邀请</del><ins>邀请了</ins> {added} <del>加入，并移出</del><ins>加入，并移出了</ins> <del>{removed}。</del><ins>{removed}</ins>
 
 #### [`fof-byobu.forum.post.recipients_modified.made_public`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.forum.post.recipients_modified.made_public%22)
 
@@ -7526,10 +8455,21 @@ Byobu <del>主题帖徽章</del><ins>讨论帖徽章</ins>
 
 ```diff
 -{username} 将主题公开
-+{username} 将讨论公开
++{username} 将讨论转为公开
 ```
 
-{username} <del>将主题公开</del><ins>将讨论公开</ins>
+{username} <del>将主题公开</del><ins>将讨论转为公开</ins>
+
+#### [`fof-byobu.forum.post.recipients_modified.removed`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.forum.post.recipients_modified.removed%22)
+
+> {username} removed recipients {removed}.
+
+```diff
+-{username} 将 {removed} 移出。
++{username} 移出了 {removed}
+```
+
+{username} <del>将</del><ins>移出了</ins> {removed}<del> 移出。</del>
 
 #### [`fof-byobu.forum.post.recipients_modified.removed_self`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.forum.post.recipients_modified.removed_self%22)
 
@@ -7537,10 +8477,10 @@ Byobu <del>主题帖徽章</del><ins>讨论帖徽章</ins>
 
 ```diff
 -{username} 退出私密主题。
-+{username} 退出私密讨论。
++{username} 退出了私密讨论
 ```
 
-{username} <del>退出私密主题。</del><ins>退出私密讨论。</ins>
+{username} <del>退出私密主题。</del><ins>退出了私密讨论</ins>
 
 #### [`fof-byobu.forum.user.byobu_link`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.forum.user.byobu_link%22)
 
@@ -7566,7 +8506,7 @@ Byobu <del>主题帖徽章</del><ins>讨论帖徽章</ins>
 
 ```diff
 -屏蔽私密主题
-+屏蔽私密讨论
++拒绝私密讨论邀请
 ```
 
 
@@ -10903,7 +11843,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Set {post} as best answer in {discussion}
 
 ```diff
-+将 {post} 设置为 {discussion} 中的最佳答案
++将 {post} 设为 {discussion} 的最佳回复
 ```
 
 #### [`flarum-audit.lib.browser.discussion.best_answer_unset`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22flarum-audit.lib.browser.discussion.best_answer_unset%22)
@@ -10911,7 +11851,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Unset best answer for {post} in {discussion}
 
 ```diff
-+取消设置{post}为 {discussion} 中 的最佳答案
++取消了 {discussion} 中的最佳回复 {post}
 ```
 
 #### [`fof-best-answer.admin.permissions.allow_select_own_post`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-best-answer.admin.permissions.allow_select_own_post%22)
@@ -10919,7 +11859,186 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Select own post as Best Answer
 
 ```diff
-+允许将自己的回复设为最佳回答
++将自己的帖子设为最佳回复
+```
+
+
+### `fof-bookmarks` (missing)
+
+#### [`fof-bookmarks.admin.settings.independent_button`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/zh_Hans/?q=context%3A%3D%22fof-bookmarks.admin.settings.independent_button%22)
+
+> Show the discussion bookmark control in the sidebar
+
+```diff
++在讨论侧边栏显示收藏按钮
+```
+
+#### [`fof-bookmarks.admin.settings.independent_button_help`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/zh_Hans/?q=context%3A%3D%22fof-bookmarks.admin.settings.independent_button_help%22)
+
+> When off, the control appears in the discussion dropdown menu instead.
+
+```diff
++关闭后，收藏操作会移至侧边栏更多菜单。
+```
+
+#### [`fof-bookmarks.admin.settings.post_button_position`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/zh_Hans/?q=context%3A%3D%22fof-bookmarks.admin.settings.post_button_position%22)
+
+> Post bookmark button position
+
+```diff
++帖子收藏按钮位置
+```
+
+#### [`fof-bookmarks.admin.settings.post_button_position_actions`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/zh_Hans/?q=context%3A%3D%22fof-bookmarks.admin.settings.post_button_position_actions%22)
+
+> Below post (quick actions)
+
+```diff
++帖子底部（快捷操作）
+```
+
+#### [`fof-bookmarks.admin.settings.post_button_position_header`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/zh_Hans/?q=context%3A%3D%22fof-bookmarks.admin.settings.post_button_position_header%22)
+
+> Above post (header)
+
+```diff
++帖子顶部
+```
+
+#### [`fof-bookmarks.admin.settings.post_button_position_menu`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/zh_Hans/?q=context%3A%3D%22fof-bookmarks.admin.settings.post_button_position_menu%22)
+
+> In post menu (three dots)
+
+```diff
++帖子更多菜单
+```
+
+#### [`fof-bookmarks.admin.settings.post_header_badge`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/zh_Hans/?q=context%3A%3D%22fof-bookmarks.admin.settings.post_header_badge%22)
+
+> Label bookmarked posts
+
+```diff
++显示收藏标记
+```
+
+#### [`fof-bookmarks.admin.settings.post_header_badge_help`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/zh_Hans/?q=context%3A%3D%22fof-bookmarks.admin.settings.post_header_badge_help%22)
+
+> Shows a label above a bookmarked post. Only applies when the button is not in the header.
+
+```diff
++在已收藏的帖子顶部显示标记。收藏按钮位于帖子顶部时不生效。
+```
+
+#### [`fof-bookmarks.forum.alert.added`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/zh_Hans/?q=context%3A%3D%22fof-bookmarks.forum.alert.added%22)
+
+> Bookmark added!
+
+```diff
++收藏成功！
+```
+
+#### [`fof-bookmarks.forum.alert.removed`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/zh_Hans/?q=context%3A%3D%22fof-bookmarks.forum.alert.removed%22)
+
+> Bookmark removed!
+
+```diff
++已取消收藏！
+```
+
+#### [`fof-bookmarks.forum.alert.show_bookmarks`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/zh_Hans/?q=context%3A%3D%22fof-bookmarks.forum.alert.show_bookmarks%22)
+
+> Go to bookmarks
+
+```diff
++查看收藏
+```
+
+#### [`fof-bookmarks.forum.badge`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/zh_Hans/?q=context%3A%3D%22fof-bookmarks.forum.badge%22)
+
+> Bookmarked
+
+```diff
++收藏
+```
+
+#### [`fof-bookmarks.forum.dropdownButton.add`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/zh_Hans/?q=context%3A%3D%22fof-bookmarks.forum.dropdownButton.add%22)
+
+> Add to bookmarks
+
+```diff
++加入收藏
+```
+
+#### [`fof-bookmarks.forum.dropdownButton.remove`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/zh_Hans/?q=context%3A%3D%22fof-bookmarks.forum.dropdownButton.remove%22)
+
+> Remove from bookmarks
+
+```diff
++取消收藏
+```
+
+#### [`fof-bookmarks.forum.independentButton.add`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/zh_Hans/?q=context%3A%3D%22fof-bookmarks.forum.independentButton.add%22)
+
+> Bookmark
+
+```diff
++收藏
+```
+
+#### [`fof-bookmarks.forum.independentButton.remove`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/zh_Hans/?q=context%3A%3D%22fof-bookmarks.forum.independentButton.remove%22)
+
+> Bookmarked
+
+```diff
++已收藏
+```
+
+#### [`fof-bookmarks.forum.page.link`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/zh_Hans/?q=context%3A%3D%22fof-bookmarks.forum.page.link%22)
+
+> Bookmarks
+
+```diff
++收藏
+```
+
+#### [`fof-bookmarks.forum.page.tab.discussions`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/zh_Hans/?q=context%3A%3D%22fof-bookmarks.forum.page.tab.discussions%22)
+
+> Discussions
+
+```diff
++讨论
+```
+
+#### [`fof-bookmarks.forum.page.tab.posts`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/zh_Hans/?q=context%3A%3D%22fof-bookmarks.forum.page.tab.posts%22)
+
+> Posts
+
+```diff
++帖子
+```
+
+#### [`fof-bookmarks.forum.page.title`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/zh_Hans/?q=context%3A%3D%22fof-bookmarks.forum.page.title%22)
+
+> Bookmarks
+
+```diff
++我的收藏
+```
+
+#### [`fof-bookmarks.forum.postButton.add`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/zh_Hans/?q=context%3A%3D%22fof-bookmarks.forum.postButton.add%22)
+
+> Bookmark
+
+```diff
++收藏
+```
+
+#### [`fof-bookmarks.forum.postButton.remove`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/zh_Hans/?q=context%3A%3D%22fof-bookmarks.forum.postButton.remove%22)
+
+> Bookmarked
+
+```diff
++已收藏
 ```
 
 
@@ -10930,7 +12049,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Categories
 
 ```diff
-+分类
++板块
 ```
 
 #### [`fof-categories.admin.headings.child_display`](https://weblate.rob006.net/translate/flarum2/fof-categories/zh_Hans/?q=context%3A%3D%22fof-categories.admin.headings.child_display%22)
@@ -10938,7 +12057,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Child Category Display
 
 ```diff
-+子分类显示
++子板块显示
 ```
 
 #### [`fof-categories.admin.headings.layout`](https://weblate.rob006.net/translate/flarum2/fof-categories/zh_Hans/?q=context%3A%3D%22fof-categories.admin.headings.layout%22)
@@ -10962,7 +12081,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Parent Category Display
 
 ```diff
-+父分类显示
++主板块显示
 ```
 
 #### [`fof-categories.admin.headings.performance`](https://weblate.rob006.net/translate/flarum2/fof-categories/zh_Hans/?q=context%3A%3D%22fof-categories.admin.headings.performance%22)
@@ -10978,7 +12097,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Should icons on child categories be displayed without a circular background?
 
 ```diff
-+子分类上的图标是否应在没有圆形背景的情况下显示？
++开启后，子板块图标不再显示圆形背景。
 ```
 
 #### [`fof-categories.admin.help.full_page_desktop`](https://weblate.rob006.net/translate/flarum2/fof-categories/zh_Hans/?q=context%3A%3D%22fof-categories.admin.help.full_page_desktop%22)
@@ -10986,7 +12105,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Should the sidebar nav menu be collapsed to a row (like on the traditional tags page)? This will also hide widgets (such as Friends of Flarum Forum Statistics) from the categories page navbar.
 
 ```diff
-+侧边栏导航菜单是否应折叠为一行（如传统的标签页面）？这还会在分类页面导航栏中隐藏组件（如 Friends of Flarum 论坛统计）。
++开启后，桌面端侧边栏导航会移动到顶部横排展示，与传统标签页类似。同时会隐藏侧边栏中的小组件，例如 FoF 论坛统计。
 ```
 
 #### [`fof-categories.admin.help.small_forum_optimized`](https://weblate.rob006.net/translate/flarum2/fof-categories/zh_Hans/?q=context%3A%3D%22fof-categories.admin.help.small_forum_optimized%22)
@@ -10994,7 +12113,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > This will give more accurate discussion/post counts, but will slow medium and large forums dramatically.
 
 ```diff
-+这将提供更准确的讨论/帖子计数，但会大幅降低中大型论坛的速度。
++提供更准确的讨论和帖子统计，但会大幅降低中大型论坛的性能。
 ```
 
 #### [`fof-categories.admin.labels.child_bare_icon`](https://weblate.rob006.net/translate/flarum2/fof-categories/zh_Hans/?q=context%3A%3D%22fof-categories.admin.labels.child_bare_icon%22)
@@ -11002,7 +12121,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Bare child icons?
 
 ```diff
-+使用无背景的子图标？
++子板块图标轻量展示
 ```
 
 #### [`fof-categories.admin.labels.compact_mobile_mode`](https://weblate.rob006.net/translate/flarum2/fof-categories/zh_Hans/?q=context%3A%3D%22fof-categories.admin.labels.compact_mobile_mode%22)
@@ -11018,7 +12137,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Full page desktop?
 
 ```diff
-+桌面端全屏显示？
++桌面端全页布局
 ```
 
 #### [`fof-categories.admin.labels.keep_tags_nav`](https://weblate.rob006.net/translate/flarum2/fof-categories/zh_Hans/?q=context%3A%3D%22fof-categories.admin.labels.keep_tags_nav%22)
@@ -11026,7 +12145,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Keep the tags page link in the nav sidebar?
 
 ```diff
-+在侧边导航栏保留标签页面链接？
++在侧边导航栏保留标签页入口
 ```
 
 #### [`fof-categories.admin.labels.parent_remove_description`](https://weblate.rob006.net/translate/flarum2/fof-categories/zh_Hans/?q=context%3A%3D%22fof-categories.admin.labels.parent_remove_description%22)
@@ -11034,7 +12153,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Hide descriptions for top-level tags?
 
 ```diff
-+隐藏顶级标签描述？
++隐藏主板块描述
 ```
 
 #### [`fof-categories.admin.labels.parent_remove_icon`](https://weblate.rob006.net/translate/flarum2/fof-categories/zh_Hans/?q=context%3A%3D%22fof-categories.admin.labels.parent_remove_icon%22)
@@ -11042,7 +12161,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Hide icons for top-level tags?
 
 ```diff
-+隐藏顶级标签图标？
++隐藏主板块图标
 ```
 
 #### [`fof-categories.admin.labels.parent_remove_last_discussion`](https://weblate.rob006.net/translate/flarum2/fof-categories/zh_Hans/?q=context%3A%3D%22fof-categories.admin.labels.parent_remove_last_discussion%22)
@@ -11050,7 +12169,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Hide most recent discussions for top-level tags?
 
 ```diff
-+隐藏顶级标签的最新讨论？
++隐藏主板块最新讨论
 ```
 
 #### [`fof-categories.admin.labels.parent_remove_stats`](https://weblate.rob006.net/translate/flarum2/fof-categories/zh_Hans/?q=context%3A%3D%22fof-categories.admin.labels.parent_remove_stats%22)
@@ -11058,7 +12177,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Hide stats for top-level tags?
 
 ```diff
-+隐藏顶级标签统计数据？
++隐藏主板块统计
 ```
 
 #### [`fof-categories.admin.labels.small_forum_optimized`](https://weblate.rob006.net/translate/flarum2/fof-categories/zh_Hans/?q=context%3A%3D%22fof-categories.admin.labels.small_forum_optimized%22)
@@ -11066,7 +12185,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Optimize for small forums?
 
 ```diff
-+为小型论坛优化？
++小型论坛优化
 ```
 
 #### [`fof-categories.admin.title`](https://weblate.rob006.net/translate/flarum2/fof-categories/zh_Hans/?q=context%3A%3D%22fof-categories.admin.title%22)
@@ -11074,7 +12193,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Categories Settings
 
 ```diff
-+分类设置
++板块设置
 ```
 
 #### [`fof-categories.forum.all_categories.meta_description_text`](https://weblate.rob006.net/translate/flarum2/fof-categories/zh_Hans/?q=context%3A%3D%22fof-categories.forum.all_categories.meta_description_text%22)
@@ -11082,7 +12201,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > All Categories
 
 ```diff
-+所有分类
++全部板块
 ```
 
 #### [`fof-categories.forum.all_categories.meta_title_text`](https://weblate.rob006.net/translate/flarum2/fof-categories/zh_Hans/?q=context%3A%3D%22fof-categories.forum.all_categories.meta_title_text%22)
@@ -11098,7 +12217,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Back to Categories
 
 ```diff
-+返回分类
++返回板块列表
 ```
 
 #### [`fof-categories.forum.index.categories_link`](https://weblate.rob006.net/translate/flarum2/fof-categories/zh_Hans/?q=context%3A%3D%22fof-categories.forum.index.categories_link%22)
@@ -11114,7 +12233,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > No Discussions (Yet!)
 
 ```diff
-+暂无讨论（抢个沙发吧！）
++暂无讨论
 ```
 
 #### [`fof-categories.forum.stat-widgets.discussion_label`](https://weblate.rob006.net/translate/flarum2/fof-categories/zh_Hans/?q=context%3A%3D%22fof-categories.forum.stat-widgets.discussion_label%22)
@@ -11138,7 +12257,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Categories
 
 ```diff
-+分类
++板块
 ```
 
 

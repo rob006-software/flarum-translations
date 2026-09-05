@@ -2,8 +2,8 @@
 
 Translations for Swedish (`sv`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **195** are translated differently and **634** are
-translated only in `sv`. Altogether they cover **26** components.
+sides, but do not match between them: **195** are translated differently and **714** are
+translated only in `sv`. Altogether they cover **30** components.
 
 <!-- {% raw %} -->
 
@@ -33,7 +33,11 @@ translated only in `sv`. Altogether they cover **26** components.
 | `fof-analytics` | 0 | [20](#fof-analytics-missing) |
 | `fof-anti-spam` | 0 | [56](#fof-anti-spam-missing) |
 | `fof-formatting` | 0 | [7](#fof-formatting-missing) |
+| `fof-ignore-users` | 0 | [9](#fof-ignore-users-missing) |
 | `fof-links` | 0 | [28](#fof-links-missing) |
+| `fof-merge-discussions` | 0 | [23](#fof-merge-discussions-missing) |
+| `fof-moderator-notes` | 0 | [18](#fof-moderator-notes-missing) |
+| `fof-moderator-warnings` | 0 | [30](#fof-moderator-warnings-missing) |
 | `fof-move-posts` | 0 | [29](#fof-move-posts-missing) |
 | `fof-pages` | 0 | [29](#fof-pages-missing) |
 | `fof-recaptcha` | 0 | [16](#fof-recaptcha-missing) |
@@ -6339,6 +6343,81 @@ These strings are translated only in `sv`, so there is nothing to inherit from F
 ```
 
 
+### `fof-ignore-users` (missing)
+
+#### [`fof-ignore-users.admin.permissions.can_not_be_ignored_label`](https://weblate.rob006.net/translate/flarum2/fof-ignore-users/sv/?q=context%3A%3D%22fof-ignore-users.admin.permissions.can_not_be_ignored_label%22)
+
+> Can not be ignored
+
+```diff
++Kan inte ignoreras
+```
+
+#### [`fof-ignore-users.forum.badge.discussion_label`](https://weblate.rob006.net/translate/flarum2/fof-ignore-users/sv/?q=context%3A%3D%22fof-ignore-users.forum.badge.discussion_label%22)
+
+> Started by an ignored user
+
+```diff
++Startad av en ignorerad användare
+```
+
+#### [`fof-ignore-users.forum.badge.user_label`](https://weblate.rob006.net/translate/flarum2/fof-ignore-users/sv/?q=context%3A%3D%22fof-ignore-users.forum.badge.user_label%22)
+
+> Ignored user
+
+```diff
++Ignorerad användare
+```
+
+#### [`fof-ignore-users.forum.profile_link`](https://weblate.rob006.net/translate/flarum2/fof-ignore-users/sv/?q=context%3A%3D%22fof-ignore-users.forum.profile_link%22)
+
+> Ignored Users
+
+```diff
++Ignorerade användare
+```
+
+#### [`fof-ignore-users.forum.profile_page.no_ignored`](https://weblate.rob006.net/translate/flarum2/fof-ignore-users/sv/?q=context%3A%3D%22fof-ignore-users.forum.profile_page.no_ignored%22)
+
+> It looks like you're not ignoring anyone.
+
+```diff
++Det verkar som att du inte ignorerar någon.
+```
+
+#### [`fof-ignore-users.forum.user_controls.ignore_button`](https://weblate.rob006.net/translate/flarum2/fof-ignore-users/sv/?q=context%3A%3D%22fof-ignore-users.forum.user_controls.ignore_button%22)
+
+> Ignore
+
+```diff
++Ignorera
+```
+
+#### [`fof-ignore-users.forum.user_controls.ignore_confirmation`](https://weblate.rob006.net/translate/flarum2/fof-ignore-users/sv/?q=context%3A%3D%22fof-ignore-users.forum.user_controls.ignore_confirmation%22)
+
+> Are you sure you want to ignore this user?
+
+```diff
++Är du säker på att du vill ignorera denna användaren?
+```
+
+#### [`fof-ignore-users.forum.user_controls.unignore_button`](https://weblate.rob006.net/translate/flarum2/fof-ignore-users/sv/?q=context%3A%3D%22fof-ignore-users.forum.user_controls.unignore_button%22)
+
+> Unignore
+
+```diff
++Ta bort ignorering
+```
+
+#### [`fof-ignore-users.forum.user_controls.unignore_confirmation`](https://weblate.rob006.net/translate/flarum2/fof-ignore-users/sv/?q=context%3A%3D%22fof-ignore-users.forum.user_controls.unignore_confirmation%22)
+
+> Are you sure you want to unignore this user?
+
+```diff
++Är du säker på att du vill ta bort ignorering av den här användaren?
+```
+
+
 ### `fof-links` (missing)
 
 #### [`fof-links.admin.edit_link.delete_link_button`](https://weblate.rob006.net/translate/flarum2/fof-links/sv/?q=context%3A%3D%22fof-links.admin.edit_link.delete_link_button%22)
@@ -6563,6 +6642,619 @@ These strings are translated only in `sv`, so there is nothing to inherit from F
 
 ```diff
 +URL
+```
+
+
+### `fof-merge-discussions` (missing)
+
+#### [`fof-merge-discussions.admin.permissions.merge_discussions_label`](https://weblate.rob006.net/translate/flarum2/fof-merge-discussions/sv/?q=context%3A%3D%22fof-merge-discussions.admin.permissions.merge_discussions_label%22)
+
+> Merge discussions
+
+```diff
++Sammanfogade diskussioner
+```
+
+#### [`fof-merge-discussions.admin.settings.search_result_help`](https://weblate.rob006.net/translate/flarum2/fof-merge-discussions/sv/?q=context%3A%3D%22fof-merge-discussions.admin.settings.search_result_help%22)
+
+> How many discussions should be returned when searching within the \`Merge Discussions\` modal.
+
+```diff
++Hur många diskussioner som ska visas vid sökning i ”Sammanfoga diskussioner”.
+```
+
+#### [`fof-merge-discussions.admin.settings.search_result_label`](https://weblate.rob006.net/translate/flarum2/fof-merge-discussions/sv/?q=context%3A%3D%22fof-merge-discussions.admin.settings.search_result_label%22)
+
+> Merge Discussion Search Limit
+
+```diff
++Gräns för sökning i sammanfogning av diskussioner
+```
+
+#### [`fof-merge-discussions.api.error.deleting_failed`](https://weblate.rob006.net/translate/flarum2/fof-merge-discussions/sv/?q=context%3A%3D%22fof-merge-discussions.api.error.deleting_failed%22)
+
+> Failed to delete empty discussions.
+
+```diff
++Det gick inte att ta bort tomma diskussioner.
+```
+
+#### [`fof-merge-discussions.api.error.fixing_posts_number_failed`](https://weblate.rob006.net/translate/flarum2/fof-merge-discussions/sv/?q=context%3A%3D%22fof-merge-discussions.api.error.fixing_posts_number_failed%22)
+
+> Failed to fix posts numbers.
+
+```diff
++Det gick inte att korrigera inläggsnumren.
+```
+
+#### [`fof-merge-discussions.api.error.fixing_posts_number_meta_failed`](https://weblate.rob006.net/translate/flarum2/fof-merge-discussions/sv/?q=context%3A%3D%22fof-merge-discussions.api.error.fixing_posts_number_meta_failed%22)
+
+> Failed to fix posts numbers.
+
+```diff
++Det gick inte att korrigera inläggsnumren.
+```
+
+#### [`fof-merge-discussions.api.error.merging_failed`](https://weblate.rob006.net/translate/flarum2/fof-merge-discussions/sv/?q=context%3A%3D%22fof-merge-discussions.api.error.merging_failed%22)
+
+> Failed to merge discussions.
+
+```diff
++Det gick inte att sammanfoga diskussionerna.
+```
+
+#### [`fof-merge-discussions.api.error.updating_failed`](https://weblate.rob006.net/translate/flarum2/fof-merge-discussions/sv/?q=context%3A%3D%22fof-merge-discussions.api.error.updating_failed%22)
+
+> Failed to update discussion details.
+
+```diff
++Det gick inte att uppdatera diskussionsdetaljerna.
+```
+
+#### [`fof-merge-discussions.email.merged.subject`](https://weblate.rob006.net/translate/flarum2/fof-merge-discussions/sv/?q=context%3A%3D%22fof-merge-discussions.email.merged.subject%22)
+
+> Your discussion "{merged\_discussion\_title}" was merged
+
+```diff
++Din diskussion ”{merged_discussion_title}” sammanfogades
+```
+
+#### [`fof-merge-discussions.forum.discussion.merge`](https://weblate.rob006.net/translate/flarum2/fof-merge-discussions/sv/?q=context%3A%3D%22fof-merge-discussions.forum.discussion.merge%22)
+
+> =&gt; fof-merge-discussions.ref.merge
+
+```diff
++=> fof-merge-discussions.ref.merge
+```
+
+#### [`fof-merge-discussions.forum.modal.load_preview_button`](https://weblate.rob006.net/translate/flarum2/fof-merge-discussions/sv/?q=context%3A%3D%22fof-merge-discussions.forum.modal.load_preview_button%22)
+
+> Preview
+
+```diff
++Förhandsgranska
+```
+
+#### [`fof-merge-discussions.forum.modal.ordering_date_help`](https://weblate.rob006.net/translate/flarum2/fof-merge-discussions/sv/?q=context%3A%3D%22fof-merge-discussions.forum.modal.ordering_date_help%22)
+
+> Posts in the resulting discussion are reordered by their individual creation date
+
+```diff
++Inläggen i måldiskussionen sorteras om utifrån sina respektive skapandedatum
+```
+
+#### [`fof-merge-discussions.forum.modal.ordering_date_label`](https://weblate.rob006.net/translate/flarum2/fof-merge-discussions/sv/?q=context%3A%3D%22fof-merge-discussions.forum.modal.ordering_date_label%22)
+
+> Merge posts by creation date
+
+```diff
++Sammanfoga inlägg efter skapandedatum
+```
+
+#### [`fof-merge-discussions.forum.modal.ordering_heading`](https://weblate.rob006.net/translate/flarum2/fof-merge-discussions/sv/?q=context%3A%3D%22fof-merge-discussions.forum.modal.ordering_heading%22)
+
+> Merge ordering
+
+```diff
++Sortering vid sammanfogning
+```
+
+#### [`fof-merge-discussions.forum.modal.ordering_suffix_help`](https://weblate.rob006.net/translate/flarum2/fof-merge-discussions/sv/?q=context%3A%3D%22fof-merge-discussions.forum.modal.ordering_suffix_help%22)
+
+> Posts that are merged into the surviving discussion will be appended at the end of the discussion
+
+```diff
++Inlägg som sammanfogas in i den kvarvarande diskussionen kommer att läggas till sist i diskussionen
+```
+
+#### [`fof-merge-discussions.forum.modal.ordering_suffix_label`](https://weblate.rob006.net/translate/flarum2/fof-merge-discussions/sv/?q=context%3A%3D%22fof-merge-discussions.forum.modal.ordering_suffix_label%22)
+
+> Add merged posts to the end of the discussion
+
+```diff
++Lägg till sammanfogade inlägg sist i diskussionen
+```
+
+#### [`fof-merge-discussions.forum.modal.submit_button`](https://weblate.rob006.net/translate/flarum2/fof-merge-discussions/sv/?q=context%3A%3D%22fof-merge-discussions.forum.modal.submit_button%22)
+
+> =&gt; fof-merge-discussions.ref.merge
+
+```diff
++=> fof-merge-discussions.ref.merge
+```
+
+#### [`fof-merge-discussions.forum.modal.title`](https://weblate.rob006.net/translate/flarum2/fof-merge-discussions/sv/?q=context%3A%3D%22fof-merge-discussions.forum.modal.title%22)
+
+> Merge Discussions
+
+```diff
++Sammanfoga diskussioner
+```
+
+#### [`fof-merge-discussions.forum.modal.type_from_label`](https://weblate.rob006.net/translate/flarum2/fof-merge-discussions/sv/?q=context%3A%3D%22fof-merge-discussions.forum.modal.type_from_label%22)
+
+> Merge this discussion into another
+
+```diff
++Sammanfoga den här diskussionen med en annan
+```
+
+#### [`fof-merge-discussions.forum.modal.type_heading`](https://weblate.rob006.net/translate/flarum2/fof-merge-discussions/sv/?q=context%3A%3D%22fof-merge-discussions.forum.modal.type_heading%22)
+
+> Merge type
+
+```diff
++Sammanfogningstyp
+```
+
+#### [`fof-merge-discussions.forum.modal.type_target_label`](https://weblate.rob006.net/translate/flarum2/fof-merge-discussions/sv/?q=context%3A%3D%22fof-merge-discussions.forum.modal.type_target_label%22)
+
+> Merge into me
+
+```diff
++Sammanfoga till mig
+```
+
+#### [`fof-merge-discussions.forum.notification.preferences.discussion_merged`](https://weblate.rob006.net/translate/flarum2/fof-merge-discussions/sv/?q=context%3A%3D%22fof-merge-discussions.forum.notification.preferences.discussion_merged%22)
+
+> Someone merges one of my discussions with another
+
+```diff
++Någon sammanfogar en av mina diskussioner med en annan
+```
+
+#### [`fof-merge-discussions.ref.merge`](https://weblate.rob006.net/translate/flarum2/fof-merge-discussions/sv/?q=context%3A%3D%22fof-merge-discussions.ref.merge%22)
+
+> Merge
+
+```diff
++Sammanfoga
+```
+
+
+### `fof-moderator-notes` (missing)
+
+#### [`fof-moderator-notes.admin.permissions.createnotes`](https://weblate.rob006.net/translate/flarum2/fof-moderator-notes/sv/?q=context%3A%3D%22fof-moderator-notes.admin.permissions.createnotes%22)
+
+> Create moderator notes
+
+```diff
++Skapa moderatoranteckningar
+```
+
+#### [`fof-moderator-notes.admin.permissions.deletenotes`](https://weblate.rob006.net/translate/flarum2/fof-moderator-notes/sv/?q=context%3A%3D%22fof-moderator-notes.admin.permissions.deletenotes%22)
+
+> Delete moderator notes
+
+```diff
++Ta bort moderatoranteckningar
+```
+
+#### [`fof-moderator-notes.admin.permissions.viewnotes`](https://weblate.rob006.net/translate/flarum2/fof-moderator-notes/sv/?q=context%3A%3D%22fof-moderator-notes.admin.permissions.viewnotes%22)
+
+> View moderator notes
+
+```diff
++Visa moderatoranteckningar
+```
+
+#### [`fof-moderator-notes.api.auto_note`](https://weblate.rob006.net/translate/flarum2/fof-moderator-notes/sv/?q=context%3A%3D%22fof-moderator-notes.api.auto_note%22)
+
+> \_I switched to this user:\_ {reason}
+
+```diff
++_Jag bytte till den här användaren:_ {reason}
+```
+
+#### [`fof-moderator-notes.api.auto_note_actor`](https://weblate.rob006.net/translate/flarum2/fof-moderator-notes/sv/?q=context%3A%3D%22fof-moderator-notes.api.auto_note_actor%22)
+
+> \_Switched to\_ @{username}: {reason}
+
+```diff
++_Bytte till_ @{username}: {reason}
+```
+
+#### [`fof-moderator-notes.api.no_reason_provided`](https://weblate.rob006.net/translate/flarum2/fof-moderator-notes/sv/?q=context%3A%3D%22fof-moderator-notes.api.no_reason_provided%22)
+
+> No reason provided
+
+```diff
++Ingen anledning angiven
+```
+
+#### [`fof-moderator-notes.forum.moderatorNotes.add_button`](https://weblate.rob006.net/translate/flarum2/fof-moderator-notes/sv/?q=context%3A%3D%22fof-moderator-notes.forum.moderatorNotes.add_button%22)
+
+> New note
+
+```diff
++Ny anteckning
+```
+
+#### [`fof-moderator-notes.forum.moderatorNotes.confirm`](https://weblate.rob006.net/translate/flarum2/fof-moderator-notes/sv/?q=context%3A%3D%22fof-moderator-notes.forum.moderatorNotes.confirm%22)
+
+> Are you sure you want to delete this note?
+
+```diff
++Är du säker på att du vill ta bort den här anteckningen?
+```
+
+#### [`fof-moderator-notes.forum.moderatorNotes.create-heading`](https://weblate.rob006.net/translate/flarum2/fof-moderator-notes/sv/?q=context%3A%3D%22fof-moderator-notes.forum.moderatorNotes.create-heading%22)
+
+> Create a new moderator note
+
+```diff
++Skapa en ny moderatoranteckning
+```
+
+#### [`fof-moderator-notes.forum.moderatorNotes.created_text`](https://weblate.rob006.net/translate/flarum2/fof-moderator-notes/sv/?q=context%3A%3D%22fof-moderator-notes.forum.moderatorNotes.created_text%22)
+
+> {username} created this note on {date}
+
+```diff
++{username} skapade den här anteckningen {date}
+```
+
+#### [`fof-moderator-notes.forum.moderatorNotes.delete`](https://weblate.rob006.net/translate/flarum2/fof-moderator-notes/sv/?q=context%3A%3D%22fof-moderator-notes.forum.moderatorNotes.delete%22)
+
+> Delete
+
+```diff
++Ta bort
+```
+
+#### [`fof-moderator-notes.forum.moderatorNotes.dismiss_button`](https://weblate.rob006.net/translate/flarum2/fof-moderator-notes/sv/?q=context%3A%3D%22fof-moderator-notes.forum.moderatorNotes.dismiss_button%22)
+
+> Done
+
+```diff
++Klart
+```
+
+#### [`fof-moderator-notes.forum.moderatorNotes.filter_by_me`](https://weblate.rob006.net/translate/flarum2/fof-moderator-notes/sv/?q=context%3A%3D%22fof-moderator-notes.forum.moderatorNotes.filter_by_me%22)
+
+> Only notes I created
+
+```diff
++Endast anteckningar jag har skapat
+```
+
+#### [`fof-moderator-notes.forum.moderatorNotes.input_heading`](https://weblate.rob006.net/translate/flarum2/fof-moderator-notes/sv/?q=context%3A%3D%22fof-moderator-notes.forum.moderatorNotes.input_heading%22)
+
+> Enter your notes for &lt;strong&gt;{username}&lt;/strong&gt;, (markdown is supported)
+
+```diff
++Ange dina anteckningar för <strong>{username}</strong> (markdown stöds)
+```
+
+#### [`fof-moderator-notes.forum.moderatorNotes.noNotes`](https://weblate.rob006.net/translate/flarum2/fof-moderator-notes/sv/?q=context%3A%3D%22fof-moderator-notes.forum.moderatorNotes.noNotes%22)
+
+> It looks like there are no notes here.
+
+```diff
++Det verkar inte finnas några anteckningar här.
+```
+
+#### [`fof-moderator-notes.forum.moderatorNotes.submit_button`](https://weblate.rob006.net/translate/flarum2/fof-moderator-notes/sv/?q=context%3A%3D%22fof-moderator-notes.forum.moderatorNotes.submit_button%22)
+
+> Save note
+
+```diff
++Spara anteckning
+```
+
+#### [`fof-moderator-notes.forum.no_content_given`](https://weblate.rob006.net/translate/flarum2/fof-moderator-notes/sv/?q=context%3A%3D%22fof-moderator-notes.forum.no_content_given%22)
+
+> An empty note is not permitted.
+
+```diff
++En tom anteckning är inte tillåten.
+```
+
+#### [`fof-moderator-notes.forum.user.notes`](https://weblate.rob006.net/translate/flarum2/fof-moderator-notes/sv/?q=context%3A%3D%22fof-moderator-notes.forum.user.notes%22)
+
+> Moderator Notes
+
+```diff
++Moderatoranteckningar
+```
+
+
+### `fof-moderator-warnings` (missing)
+
+#### [`fof-moderator-warnings.admin.permissions.delete_warnings`](https://weblate.rob006.net/translate/flarum2/fof-moderator-warnings/sv/?q=context%3A%3D%22fof-moderator-warnings.admin.permissions.delete_warnings%22)
+
+> Permanently delete moderator warnings
+
+```diff
++Radera varningar från moderatorer permanent
+```
+
+#### [`fof-moderator-warnings.admin.permissions.manage_warnings`](https://weblate.rob006.net/translate/flarum2/fof-moderator-warnings/sv/?q=context%3A%3D%22fof-moderator-warnings.admin.permissions.manage_warnings%22)
+
+> Create and remove moderator warnings
+
+```diff
++Skapa och ta bort varningar från moderatorer
+```
+
+#### [`fof-moderator-warnings.admin.permissions.view_warnings`](https://weblate.rob006.net/translate/flarum2/fof-moderator-warnings/sv/?q=context%3A%3D%22fof-moderator-warnings.admin.permissions.view_warnings%22)
+
+> View moderator warnings
+
+```diff
++Visa varningar från moderatorer
+```
+
+#### [`fof-moderator-warnings.emails.post_warned.body`](https://weblate.rob006.net/translate/flarum2/fof-moderator-warnings/sv/?q=context%3A%3D%22fof-moderator-warnings.emails.post_warned.body%22)
+
+> Hey {warnee\_display\_name}!
+>
+> {warner\_display\_name} warned you with {strikes, plural, one {# strike} other {# strikes}} in {discussion\_title}
+>
+> The following reason was given:
+>
+> \---
+>
+> {public\_comment}
+>
+
+```diff
++Hej {warnee_display_name}!
++
++{warner_display_name} varnade dig med {strikes, plural, one {# prick} other {# prickar}} i {discussion_title}
++
++Följande anledning angavs:
++
++---
++
++{public_comment}
++
+```
+
+#### [`fof-moderator-warnings.emails.post_warned.subject`](https://weblate.rob006.net/translate/flarum2/fof-moderator-warnings/sv/?q=context%3A%3D%22fof-moderator-warnings.emails.post_warned.subject%22)
+
+> {warner\_display\_name} warned you with {strikes, plural, one {# strike} other {# strikes}} in {discussion\_title}
+
+```diff
++{warner_display_name} varnade dig med {strikes, plural, one {# prick} other {# prickar}} i {discussion_title}
+```
+
+#### [`fof-moderator-warnings.emails.user_warned.body`](https://weblate.rob006.net/translate/flarum2/fof-moderator-warnings/sv/?q=context%3A%3D%22fof-moderator-warnings.emails.user_warned.body%22)
+
+> Hey {warnee\_display\_name}!
+>
+> {warner\_display\_name} warned you with {strikes, plural, one {# strike} other {# strikes}}
+>
+> The following reason was given:
+>
+> \---
+>
+> {public\_comment}
+>
+
+```diff
++Hej {warnee_display_name}!
++
++{warner_display_name} varnade dig med {strikes, plural, one {# prick} other {# prickar}}
++
++Följande anledning angavs:
++
++---
++
++{public_comment}
++
+```
+
+#### [`fof-moderator-warnings.emails.user_warned.subject`](https://weblate.rob006.net/translate/flarum2/fof-moderator-warnings/sv/?q=context%3A%3D%22fof-moderator-warnings.emails.user_warned.subject%22)
+
+> {warner\_display\_name} warned you with {strikes, plural, one {# strike} other {# strikes}}
+
+```diff
++{warner_display_name} varnade dig med {strikes, plural, one {# prick} other {# prickar}}
+```
+
+#### [`fof-moderator-warnings.forum.notifications.warning_no_strikes_text`](https://weblate.rob006.net/translate/flarum2/fof-moderator-warnings/sv/?q=context%3A%3D%22fof-moderator-warnings.forum.notifications.warning_no_strikes_text%22)
+
+> You were warned by {mod\_username} (no strikes)
+
+```diff
++Du blev varnad av {mod_username} (inga prickar)
+```
+
+#### [`fof-moderator-warnings.forum.notifications.warning_text`](https://weblate.rob006.net/translate/flarum2/fof-moderator-warnings/sv/?q=context%3A%3D%22fof-moderator-warnings.forum.notifications.warning_text%22)
+
+> {strikes, plural, one {You were warned with # strike by {mod\_username}} other {You were warned with # strikes by {mod\_username}}}
+
+```diff
++{strikes, plural, one {Du blev varnad med # prick av {mod_username}} other {Du blev varnad med # prickar av {mod_username}}}
+```
+
+#### [`fof-moderator-warnings.forum.post.warning`](https://weblate.rob006.net/translate/flarum2/fof-moderator-warnings/sv/?q=context%3A%3D%22fof-moderator-warnings.forum.post.warning%22)
+
+> {strikes, plural, one {Warned with # strike by {mod\_username}} other {Warned with # strikes by {mod\_username}}}
+
+```diff
++{strikes, plural, one {Varnad med # prick av {mod_username}} other {Varnad med # prickar av {mod_username}}}
+```
+
+#### [`fof-moderator-warnings.forum.post.warning_no_strikes`](https://weblate.rob006.net/translate/flarum2/fof-moderator-warnings/sv/?q=context%3A%3D%22fof-moderator-warnings.forum.post.warning_no_strikes%22)
+
+> Warned with no strikes by {mod\_username}
+
+```diff
++Varnad utan prickar av {mod_username}
+```
+
+#### [`fof-moderator-warnings.forum.post_controls.warning_button`](https://weblate.rob006.net/translate/flarum2/fof-moderator-warnings/sv/?q=context%3A%3D%22fof-moderator-warnings.forum.post_controls.warning_button%22)
+
+> Warn User
+
+```diff
++Varna användare
+```
+
+#### [`fof-moderator-warnings.forum.settings.warning_notification_label`](https://weblate.rob006.net/translate/flarum2/fof-moderator-warnings/sv/?q=context%3A%3D%22fof-moderator-warnings.forum.settings.warning_notification_label%22)
+
+> A moderator warns me
+
+```diff
++En moderator varnar mig
+```
+
+#### [`fof-moderator-warnings.forum.validation.invalid_strike_count`](https://weblate.rob006.net/translate/flarum2/fof-moderator-warnings/sv/?q=context%3A%3D%22fof-moderator-warnings.forum.validation.invalid_strike_count%22)
+
+> The number of strikes must be an integer between 0 and 5.
+
+```diff
++Antal prickar måste vara ett heltal mellan 0 och 5.
+```
+
+#### [`fof-moderator-warnings.forum.validation.public_comment_required`](https://weblate.rob006.net/translate/flarum2/fof-moderator-warnings/sv/?q=context%3A%3D%22fof-moderator-warnings.forum.validation.public_comment_required%22)
+
+> You most provide a public comment.
+
+```diff
++Du måste lämna en offentlig kommentar.
+```
+
+#### [`fof-moderator-warnings.forum.warning_controls.delete_button`](https://weblate.rob006.net/translate/flarum2/fof-moderator-warnings/sv/?q=context%3A%3D%22fof-moderator-warnings.forum.warning_controls.delete_button%22)
+
+> Remove
+
+```diff
++Ta bort
+```
+
+#### [`fof-moderator-warnings.forum.warning_controls.delete_forever_button`](https://weblate.rob006.net/translate/flarum2/fof-moderator-warnings/sv/?q=context%3A%3D%22fof-moderator-warnings.forum.warning_controls.delete_forever_button%22)
+
+> Permanently Delete
+
+```diff
++Ta bort permanent
+```
+
+#### [`fof-moderator-warnings.forum.warning_controls.restore_button`](https://weblate.rob006.net/translate/flarum2/fof-moderator-warnings/sv/?q=context%3A%3D%22fof-moderator-warnings.forum.warning_controls.restore_button%22)
+
+> Restore
+
+```diff
++Återställ
+```
+
+#### [`fof-moderator-warnings.forum.warning_list.add_button`](https://weblate.rob006.net/translate/flarum2/fof-moderator-warnings/sv/?q=context%3A%3D%22fof-moderator-warnings.forum.warning_list.add_button%22)
+
+> New Warning
+
+```diff
++Ny varning
+```
+
+#### [`fof-moderator-warnings.forum.warning_list.no_warnings`](https://weblate.rob006.net/translate/flarum2/fof-moderator-warnings/sv/?q=context%3A%3D%22fof-moderator-warnings.forum.warning_list.no_warnings%22)
+
+> It looks like there are no warnings here.
+
+```diff
++Det verkar inte finnas några varningar här.
+```
+
+#### [`fof-moderator-warnings.forum.warning_list.warnings`](https://weblate.rob006.net/translate/flarum2/fof-moderator-warnings/sv/?q=context%3A%3D%22fof-moderator-warnings.forum.warning_list.warnings%22)
+
+> {strikes, plural, one {Moderator Warnings: # Strike Received} other {Moderator Warnings: # Strikes Received}}
+
+```diff
++{strikes, plural, one {Moderatorvarningar: # prick mottagen} other {Moderatorvarningar: # prickar mottagna}}
+```
+
+#### [`fof-moderator-warnings.forum.warning_list.warnings_no_strikes`](https://weblate.rob006.net/translate/flarum2/fof-moderator-warnings/sv/?q=context%3A%3D%22fof-moderator-warnings.forum.warning_list.warnings_no_strikes%22)
+
+> Moderator Warnings: No Strikes Received
+
+```diff
++Moderatorvarningar: Inga prickar
+```
+
+#### [`fof-moderator-warnings.forum.warning_list_item.linked_post`](https://weblate.rob006.net/translate/flarum2/fof-moderator-warnings/sv/?q=context%3A%3D%22fof-moderator-warnings.forum.warning_list_item.linked_post%22)
+
+> Linked Post
+
+```diff
++Länkat inlägg
+```
+
+#### [`fof-moderator-warnings.forum.warning_list_item.private_comment`](https://weblate.rob006.net/translate/flarum2/fof-moderator-warnings/sv/?q=context%3A%3D%22fof-moderator-warnings.forum.warning_list_item.private_comment%22)
+
+> Moderator-Visible Comments
+
+```diff
++Kommentarer synliga för moderatorer
+```
+
+#### [`fof-moderator-warnings.forum.warning_list_item.public_comment`](https://weblate.rob006.net/translate/flarum2/fof-moderator-warnings/sv/?q=context%3A%3D%22fof-moderator-warnings.forum.warning_list_item.public_comment%22)
+
+> Warning
+
+```diff
++Varning
+```
+
+#### [`fof-moderator-warnings.forum.warning_modal.heading`](https://weblate.rob006.net/translate/flarum2/fof-moderator-warnings/sv/?q=context%3A%3D%22fof-moderator-warnings.forum.warning_modal.heading%22)
+
+> Warn &lt;strong&gt;{username}&lt;/strong&gt;
+
+```diff
++Varna <strong>{username}</strong>
+```
+
+#### [`fof-moderator-warnings.forum.warning_modal.private_comment_heading`](https://weblate.rob006.net/translate/flarum2/fof-moderator-warnings/sv/?q=context%3A%3D%22fof-moderator-warnings.forum.warning_modal.private_comment_heading%22)
+
+> Why is &lt;strong&gt;{username}&lt;/strong&gt; receiving these warnings? These comments will ONLY be visible to other moderators.
+
+```diff
++Varför får <strong>{username}</strong> de här varningarna? Kommentarerna kommer ENDAST att vara synliga för andra moderatorer.
+```
+
+#### [`fof-moderator-warnings.forum.warning_modal.public_comment_heading`](https://weblate.rob006.net/translate/flarum2/fof-moderator-warnings/sv/?q=context%3A%3D%22fof-moderator-warnings.forum.warning_modal.public_comment_heading%22)
+
+> Why is &lt;strong&gt;{username}&lt;/strong&gt; receiving these warnings? These comments will be visible to the user and other moderators.
+
+```diff
++Varför får <strong>{username}</strong> de här varningarna? Kommentarerna kommer att vara synliga för användaren och andra moderatorer.
+```
+
+#### [`fof-moderator-warnings.forum.warning_modal.strikes_heading`](https://weblate.rob006.net/translate/flarum2/fof-moderator-warnings/sv/?q=context%3A%3D%22fof-moderator-warnings.forum.warning_modal.strikes_heading%22)
+
+> How many strikes should be applied?
+
+```diff
++Hur många prickar ska läggas till?
+```
+
+#### [`fof-moderator-warnings.forum.warning_modal.submit_button`](https://weblate.rob006.net/translate/flarum2/fof-moderator-warnings/sv/?q=context%3A%3D%22fof-moderator-warnings.forum.warning_modal.submit_button%22)
+
+> Save warning
+
+```diff
++Spara varning
 ```
 
 
