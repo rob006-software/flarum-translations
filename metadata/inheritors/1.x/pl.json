@@ -1998,6 +1998,14 @@
             }
         },
         "validation": {
+            "custom": {
+                "turnstile": {
+                    "required": "2bc1ac23193d94c1a1e12d6365a2c87d 2bc1ac23193d94c1a1e12d6365a2c87d"
+                },
+                "turnstileToken": {
+                    "required": "2bc1ac23193d94c1a1e12d6365a2c87d 2bc1ac23193d94c1a1e12d6365a2c87d"
+                }
+            },
             "required": "2bc1ac23193d94c1a1e12d6365a2c87d 2bc1ac23193d94c1a1e12d6365a2c87d",
             "turnstile": "b8590acacfd3d47b74c61863a234a6b3 b8590acacfd3d47b74c61863a234a6b3"
         }
