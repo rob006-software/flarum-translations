@@ -674,6 +674,12 @@ return [
 	'irmmr-rtl' => [
 		'tag' => 'https://raw.githubusercontent.com/irmmr/flarum-ext-rtl/v1.0.2/locale/en.yml',
 	],
+	'jslirola-login2seeplus' => [
+		'beta' => 'https://raw.githubusercontent.com/jslirola/flarum-ext-login2seeplus/v2.0.0-beta.2/locale/en.yml',
+		'__builtInLanguages' => [
+			'es',
+		],
+	],
 	'justoverclock-related-discussions' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/main/justoverclock-related-discussions.yml',
 	],
