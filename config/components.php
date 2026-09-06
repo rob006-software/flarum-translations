@@ -953,6 +953,12 @@ return [
 			'zh_Hans',
 		],
 	],
+	'stezkoy-doorquest' => [
+		'beta' => 'https://raw.githubusercontent.com/Stezkoy/flarum-doorquest/1.0.0-beta.1/resources/locale/en.yml',
+		'__builtInLanguages' => [
+			'ru',
+		],
+	],
 	'stezkoy-modularis' => [
 		'tag' => 'https://raw.githubusercontent.com/Stezkoy/flarum-modularis/v1.0.6/locale/en.yml',
 		'__builtInLanguages' => [
