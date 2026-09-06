@@ -92,6 +92,9 @@ return [
 			'vi',
 		],
 	],
+	'datlechin-placements' => [
+		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-placements/v1.0.0/locale/en.yml',
+	],
 	'datlechin-posted-on' => [
 		'beta' => 'https://raw.githubusercontent.com/datlechin/flarum-posted-on/v2.0.0-beta.2/locale/en.yml',
 	],
