@@ -1,23 +1,23 @@
 {
     "jslirola-login2seeplus": {
         "forum": {
-            "post": "",
-            "post_login": "",
-            "link": "",
-            "image": "",
-            "code": ""
+            "post": "Du musst dich {login} oder {register}, um den ganzen Beitrag zu sehen",
+            "post_login": "Du musst dich {login}, um den ganzen Beitrag zu sehen",
+            "link": "Anmelden, um den Link zu sehen",
+            "image": "Anmelden, um das Bild zu sehen",
+            "code": "Anmelden, um den Code zu sehen"
         },
         "admin": {
-            "title": "",
-            "hide": "",
-            "link": "",
+            "title": "Login2SeePlus",
+            "hide": "Verstecken",
+            "link": "Links",
             "link_off": "",
             "link_hide": "",
             "link_mask": "",
-            "image": "",
-            "code": "",
+            "image": "Bilder",
+            "code": "Code",
             "post": {
-                "title": ""
+                "title": "Inhalte ausblenden, die diese Länge überschreiten (<em>-1</em> um alles anzuzeigen)"
             }
         }
     }
