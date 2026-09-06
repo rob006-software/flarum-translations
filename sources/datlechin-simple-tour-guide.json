@@ -1,0 +1,163 @@
+{
+    "datlechin-simple-tour-guide": {
+        "admin": {
+            "devices_label": "Devices",
+            "move_up": "Move up",
+            "move_down": "Move down",
+            "devices": {
+                "any": "Any device",
+                "desktop": "Desktop only",
+                "mobile": "Mobile only"
+            },
+            "start_mode": {
+                "auto": "Starts on its own",
+                "manual": "Started by the member"
+            },
+            "placement": {
+                "auto": "Wherever it fits",
+                "top": "Above the element",
+                "bottom": "Below the element",
+                "left": "Left of the element",
+                "right": "Right of the element"
+            },
+            "settings": {
+                "heading": "Settings",
+                "show_progress_label": "Show progress",
+                "show_progress_help": "Shows how far through a tour the reader is, next to the buttons.",
+                "allow_close_label": "Allow closing",
+                "allow_close_help": "Lets the reader leave a tour early, with a close button and the Escape key. The tour is still marked as taken.",
+                "show_in_settings_label": "List tours on the member's settings page",
+                "show_in_settings_help": "Lets members start a tour again themselves, instead of asking a moderator to reset it."
+            },
+            "tours": {
+                "heading": "Tours",
+                "none": "No tours yet.",
+                "disabled": "Off",
+                "add_button": "New tour",
+                "import_button": "Import",
+                "import_done": "Tour imported. It arrives switched off, so look it over before turning it on.",
+                "import_invalid": "That file is not a tour export.",
+                "edit_action": "Edit",
+                "controls_label": "Controls for {title}",
+                "preview_button": "Preview on the forum",
+                "preview_navigate": "Opened the forum. Go to a {route} page and the preview starts there.",
+                "export_button": "Export as a file",
+                "duplicate_button": "Duplicate this tour",
+                "copy_title": "{title} (copy)",
+                "no_steps_warning": "No steps, so nothing runs",
+                "step_count": "{count, plural, =0 {no steps} one {# step} other {# steps}}"
+            },
+            "steps": {
+                "heading": "Steps in {title}",
+                "none": "No steps yet, so this tour does not run.",
+                "no_target": "Shown on its own, in the middle of the screen",
+                "add_button": "Add step",
+                "duplicate_action": "Duplicate",
+                "controls_label": "Controls for {title}",
+                "copy_title": "{title} (copy)",
+                "flags": {
+                    "disabled": "Switched off",
+                    "desktop": "Desktop only",
+                    "mobile": "Mobile only",
+                    "clicks_target": "Clicks this element on the way to the next step",
+                    "advance_on_click": "The reader clicks this element to continue",
+                    "translated": "Translated into {count, plural, one {# language} other {# languages}}"
+                }
+            },
+            "stats": {
+                "heading": "How it is doing",
+                "none": "Nobody has been through this tour yet.",
+                "taken": "Taken",
+                "finished": "Finished",
+                "dismissed": "Left early",
+                "completion_rate": "Finished",
+                "dropoff_heading": "Where people stop",
+                "dropoff_help": "The step each person was on when they left. Only counts people who left early."
+            },
+            "tour_modal": {
+                "create_title": "New tour",
+                "edit_title": "Edit {title}",
+                "title_label": "Name",
+                "title_help": "For your reference. Members never see it.",
+                "key_label": "Key",
+                "key_help": "Identifies the tour in exports and in links. Leave it alone once members have taken it.",
+                "start_mode_label": "Starts",
+                "start_mode_help": "A tour that starts on its own runs once for each member who matches it. A manual one waits to be launched from their settings page.",
+                "route_label": "Page",
+                "route_placeholder": "Any page",
+                "route_help": "The Flarum route this tour belongs to, such as index or discussion. Leave it empty for a tour anchored to the header, which follows the member around.",
+                "audience_label": "Who sees it",
+                "audience_help": "Leave every group unticked to show it to everybody.",
+                "max_age_label": "Only accounts newer than",
+                "max_age_help": "In days. Leave it empty to show the tour whatever the account's age.",
+                "enabled_label": "Switched on",
+                "save_button": "Save",
+                "delete_button": "Delete tour",
+                "delete_confirmation": "Delete this tour, its steps, and the record of who has taken it?"
+            },
+            "step_modal": {
+                "create_title": "New step",
+                "edit_title": "Edit {title}",
+                "title_label": "Title",
+                "title_placeholder": "What this step is about",
+                "description_label": "Description",
+                "description_placeholder": "What you want the reader to know",
+                "description_help": "Formatted the same way a post is on this forum, so links, bold and images work if the extensions for them are on.",
+                "target_label": "Target",
+                "target_placeholder": "A CSS selector, e.g. #home-link",
+                "target_help": "The element this step points at. Leave it empty to show the step on its own, in the middle of the screen.",
+                "target_invalid": "That is not a valid CSS selector.",
+                "target_matches": "{count, plural, =0 {Matched nothing on the page you looked at} one {Matched # element} other {Matched # elements}}",
+                "pick_button": "Pick",
+                "test_button": "Test",
+                "placement_label": "Position",
+                "placement_help": "Where the popover sits relative to the element. It moves anyway when there is no room.",
+                "devices_help": "A header selector often has no match on a phone, where the header becomes the drawer.",
+                "translations_label": "Translations",
+                "translations_help": "Pick a language to write it in. Anything you leave empty falls back to the wording above.",
+                "translations_pick": "Choose a language",
+                "clicks_target_label": "Click this element on the way to the next step",
+                "clicks_target_help": "Use this to open a menu that a later step points inside.",
+                "advance_on_click_label": "The reader clicks this element to continue",
+                "advance_on_click_help": "Replaces the Next button on this step, and lets the click through to the element.",
+                "enabled_label": "Switched on",
+                "save_button": "Save",
+                "delete_button": "Delete step",
+                "delete_confirmation": "Delete this step from the tour?"
+            },
+            "permissions": {
+                "reset_tour_guide": "Send a member through their tours again"
+            }
+        },
+        "forum": {
+            "progress": "{current} of {total}",
+            "next_button": "Next",
+            "previous_button": "Back",
+            "done_button": "Done",
+            "close_button": "Close the tour",
+            "click_to_continue": "Click it to continue",
+            "preview_notice": "Preview. Nothing you do here is recorded.",
+            "settings": {
+                "heading": "Tours",
+                "none": "There are no tours to take.",
+                "take": "Take the tour",
+                "take_again": "Take it again",
+                "waiting": "Go to the page {title} is about and it will start there.",
+                "nothing_here": "Nothing on this page for {title}. Try it from the page it belongs to."
+            },
+            "picker": {
+                "picking": "Click the element this step points at",
+                "testing": "Showing what this selector matches",
+                "nothing_yet": "Point at something",
+                "matches": "{count, plural, =0 {no matches} one {# match} other {# matches}}",
+                "browse": "Browse",
+                "resume": "Pick",
+                "cancel": "Cancel"
+            },
+            "user_controls": {
+                "reset_tour_guide": "Start tours again",
+                "reset_tour_guide_confirmation": "Show this member their tours again next time they visit?"
+            }
+        }
+    }
+}
