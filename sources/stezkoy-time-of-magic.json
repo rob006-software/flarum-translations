@@ -35,6 +35,8 @@
             "click_spark_label": "Click spark effect",
             "click_spark_description": "A burst of magic particles at the click position.",
             "click_spark_color_label": "Click spark color",
+            "allow_user_disable_label": "Allow users to disable effects",
+            "allow_user_disable_description": "Lets each user turn falling effects off from their settings page.",
             "background_label": "Background pattern",
             "background_none": "None",
             "background_dots": "Dots",
@@ -105,6 +107,12 @@
             "scheduler_modal_save": "Save",
             "scheduler_cancel_button": "Cancel",
             "scheduler_no_effects": "No effects selected"
+        },
+        "forum": {
+            "effects_section_heading": "Effects",
+            "effects_section_description": "Control how visual effects behave on your account.",
+            "disable_effects_label": "Disable falling effects",
+            "disable_effects_description": "Hide the falling effects (snow, leaves, rain and others) across the forum."
         }
     }
 }
