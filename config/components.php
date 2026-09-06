@@ -107,6 +107,9 @@ return [
 	'datlechin-silent-edit' => [
 		'beta' => 'https://raw.githubusercontent.com/datlechin/flarum-silent-edit/v2.0.0-beta.1/locale/en.yml',
 	],
+	'datlechin-simple-tour-guide' => [
+		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-simple-tour-guide/v2.0.0/locale/en.yml',
+	],
 	'datlechin-tag-passwords' => [
 		'beta' => 'https://raw.githubusercontent.com/datlechin/flarum-tag-passwords/v2.0.0-beta.1/locale/en.yml',
 	],
