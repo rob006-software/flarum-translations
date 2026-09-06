@@ -2,7 +2,7 @@
     "fof-masquerade": {
         "forum": {
             "profile": {
-                "empty-text": ""
+                "empty-text": "Diese Benutzer hat noch keine Profilfelder ausgefüllt."
             },
             "alerts": {
                 "profile-completion-required": "Bitte fülle die notwendigen Profilfelder unten aus.\n",
@@ -40,9 +40,9 @@
                 "create": "Feld erstellen",
                 "edit": "Feld „{field}“ bearbeiten",
                 "delete-confirmation": "Möchtest du das Feld {field} wirklich löschen? Dieser Vorgang kann nicht rückgängig gemacht werden.",
-                "is_restricted": "",
-                "permissions": "",
-                "permissions-alert": "",
+                "is_restricted": "Feldsichtbarkeit einschränken",
+                "permissions": "Feldsichtbarkeit",
+                "permissions-alert": "Berechtigungseinstellungen sind nach der Erstellung des Feldes verfügbar.",
                 "name": "Name des Feldes",
                 "name-help": "Die öffentlich sichtbare (nicht übersetzbare) Feldbezeichnung.\n",
                 "description": "Feld-Beschreibung",
@@ -74,7 +74,7 @@
             "gambits": {
                 "answer": {
                     "key": "antwort",
-                    "hint": ""
+                    "hint": "Werte in Benutzer-Profilfeldern"
                 }
             }
         }
