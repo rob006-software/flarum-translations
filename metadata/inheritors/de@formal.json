@@ -5761,6 +5761,14 @@
             }
         },
         "validation": {
+            "custom": {
+                "turnstile": {
+                    "required": "32bde3d8893a9e1078f6d1d197bb3042 32bde3d8893a9e1078f6d1d197bb3042"
+                },
+                "turnstileToken": {
+                    "required": "32bde3d8893a9e1078f6d1d197bb3042 32bde3d8893a9e1078f6d1d197bb3042"
+                }
+            },
             "required": "32bde3d8893a9e1078f6d1d197bb3042 32bde3d8893a9e1078f6d1d197bb3042",
             "turnstile": "ca1a4487d7dd8a8e2dac6fa1a0a77744 ca1a4487d7dd8a8e2dac6fa1a0a77744"
         }
