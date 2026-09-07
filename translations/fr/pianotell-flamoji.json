@@ -52,7 +52,11 @@
                 "heading_title": "Émojis personnalisés",
                 "import_json_button": "Importer JSON",
                 "export_json_button": "Exporter JSON",
+                "upload_json_button": "",
                 "import_emojis_message": "Cela n'importera que les configurations des émojis. Vous devez télécharger manuellement les images des émojis.",
+                "import_override_mode": "",
+                "import_override_warning": "",
+                "import_override_confirm": "",
                 "import_legacy_shortcodes": "{count} émojis importés dont les codes courts ne suivent pas la convention recommandée :mot: : {shortcodes}. Ils ont été importés tels quels et fonctionnent toujours, mais pensez à les mettre à jour.",
                 "edit_emoji": {
                     "modal_title": "Ajouter un émoji",
@@ -75,7 +79,10 @@
                 "emoji_list": {
                     "edit_button": "Modifier un émoji",
                     "add_button": "Ajouter un émoji",
-                    "load_more_button": "=> core.forum.post_stream.load_more_button"
+                    "load_more_button": "=> core.forum.post_stream.load_more_button",
+                    "uncategorized": "",
+                    "rename_save_button": "",
+                    "rename_cancel_button": ""
                 }
             }
         },

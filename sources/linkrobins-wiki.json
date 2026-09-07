@@ -18,7 +18,20 @@
                 "shortcode_article": "Link a single article by id.",
                 "shortcode_categories": "Show the category list.",
                 "shortcode_heading": "A heading (## and ### for smaller).",
-                "shortcode_link": "A link. Bare web addresses become links too."
+                "shortcode_link": "A link. Bare web addresses become links too.",
+                "shortcode_html": "Raw HTML on the lines between the tags, for an embed or a widget. Left exactly as written."
+            },
+            "layout": {
+                "heading": "Layout",
+                "intro": "Where the Wiki link sits in the forum sidebar, and how much of the page the wiki uses.",
+                "nav_position_label": "Wiki link position",
+                "nav_position_help": "Where the Wiki link appears in the sidebar navigation, alongside All Discussions and any links other extensions add.",
+                "nav_position_top": "Top of the list",
+                "nav_position_below_all": "Below All Discussions",
+                "nav_position_sections": "With the section links (default)",
+                "nav_position_bottom": "Bottom of the list",
+                "full_width_label": "Use the full page width",
+                "full_width_help": "When on, wiki pages drop the forum sidebar and run the full width of the page. The article contents panel is unaffected. Note that the category filter lives in that sidebar, so readers browse categories from the wiki home page instead."
             },
             "toc": {
                 "heading": "Table of contents",
@@ -27,6 +40,14 @@
                 "enabled_help": "When on, each article shows a contents list built from its #, ## and ### headings in a sticky side panel. It follows along as the reader scrolls.",
                 "min_headings_label": "Minimum headings",
                 "min_headings_help": "Only show the contents panel when an article has at least this many headings."
+            },
+            "related": {
+                "heading": "Related articles",
+                "intro": "Show a short list of other articles from the same category under each article.",
+                "enabled_label": "Show related articles",
+                "enabled_help": "When on, an article with a category lists a few of its siblings underneath. Articles without a category show nothing.",
+                "limit_label": "How many to show",
+                "limit_help": "At most this many related articles, between 1 and 20."
             },
             "categories": {
                 "heading": "Wiki categories",
@@ -62,6 +83,15 @@
             }
         },
         "forum": {
+            "search": {
+                "heading": "Wiki",
+                "placeholder": "Search the wiki",
+                "button": "Search",
+                "clear": "Clear",
+                "results_heading": "Results for \"{query}\"",
+                "all_button": "Search the wiki for \"{query}\"",
+                "empty": "No articles match \"{query}\"."
+            },
             "nav": "Wiki",
             "common": {
                 "date_at_time": "{date} at {time}"
@@ -74,6 +104,7 @@
                 "empty": "No articles to show.",
                 "untitled": "Untitled",
                 "deleted_badge": "Deleted",
+                "draft_badge": "Draft",
                 "no_categories": "No categories yet."
             },
             "compose": {
@@ -84,6 +115,9 @@
                 "slug_label": "URL slug",
                 "slug_placeholder": "e.g. getting-started",
                 "slug_help": "Used in the article's URL. Leave blank to generate it from the title.",
+                "position_label": "Position",
+                "position_placeholder": "e.g. 1",
+                "position_help": "Orders this article within its category, lowest first. Leave blank and it sits after the ordered ones, newest first.",
                 "category_label": "Category",
                 "no_category": "No category",
                 "body_label": "Content",
@@ -93,6 +127,8 @@
                 "discard_confirm": "You have an unsaved article. Discard it?",
                 "submit_create": "Publish article",
                 "submit_update": "Save changes",
+                "draft_label": "Save as a draft",
+                "draft_help": "A draft is visible only to you and to wiki editors until you publish it.",
                 "faq_heading": "FAQ",
                 "faq_help": "Optional questions and answers shown under the article. Markdown is supported in answers.",
                 "faq_question_placeholder": "Question",
@@ -102,8 +138,10 @@
             },
             "show": {
                 "deleted_notice": "This article is deleted. Only editors can see it.",
+                "draft_notice": "This article is a draft. Only you and wiki editors can see it.",
                 "toc_heading": "Contents",
                 "faq_heading": "Frequently asked questions",
+                "related_heading": "Related articles",
                 "by": "by ",
                 "last_edited": "last edited by ",
                 "history": "History ({count})",

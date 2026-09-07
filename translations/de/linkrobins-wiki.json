@@ -18,7 +18,20 @@
                 "shortcode_article": "Einen einzelnen Artikel anhand seiner ID verlinken.",
                 "shortcode_categories": "Kategorien auflisten.",
                 "shortcode_heading": "Eine Überschrift (## und ### für kleinere).",
-                "shortcode_link": "Ein Link. Auch einfache Webadressen werden zu Links."
+                "shortcode_link": "Ein Link. Auch einfache Webadressen werden zu Links.",
+                "shortcode_html": ""
+            },
+            "layout": {
+                "heading": "",
+                "intro": "",
+                "nav_position_label": "",
+                "nav_position_help": "",
+                "nav_position_top": "",
+                "nav_position_below_all": "",
+                "nav_position_sections": "",
+                "nav_position_bottom": "",
+                "full_width_label": "",
+                "full_width_help": ""
             },
             "toc": {
                 "heading": "Inhaltsverzeichnis",
@@ -27,6 +40,14 @@
                 "enabled_help": "Wenn aktiviert, wird bei jedem Artikel in einem feststehenden Seitenbalken ein Inhaltsverzeichnis angezeigt, das aus den Überschriften der Ebenen #, ## und ### zusammengestellt wird. Es bleibt sichtbar, während der Leser scrollt.",
                 "min_headings_label": "Minimalanzahl an Überschriften",
                 "min_headings_help": "Das Inhaltsverzeichnis wird nur angezeigt, wenn ein Artikel mindestens diese Anzahl an Überschriften enthält."
+            },
+            "related": {
+                "heading": "",
+                "intro": "",
+                "enabled_label": "",
+                "enabled_help": "",
+                "limit_label": "",
+                "limit_help": ""
             },
             "categories": {
                 "heading": "Wiki-Kategorien",
@@ -62,6 +83,15 @@
             }
         },
         "forum": {
+            "search": {
+                "heading": "",
+                "placeholder": "",
+                "button": "",
+                "clear": "",
+                "results_heading": "",
+                "all_button": "",
+                "empty": ""
+            },
             "nav": "Wiki",
             "common": {
                 "date_at_time": "{date} um {time}"
@@ -74,6 +104,7 @@
                 "empty": "Es wurden keine Artikel gefunden.",
                 "untitled": "Ohne Titel",
                 "deleted_badge": "Gelöscht",
+                "draft_badge": "",
                 "no_categories": "Noch keine Kategorien."
             },
             "compose": {
@@ -84,6 +115,9 @@
                 "slug_label": "URL-Slug",
                 "slug_placeholder": "z. B. los-gehts",
                 "slug_help": "Wird in der URL des Artikels verwendet. Lasse das Feld leer, um die URL aus dem Titel zu generieren.",
+                "position_label": "",
+                "position_placeholder": "",
+                "position_help": "",
                 "category_label": "Kategorie",
                 "no_category": "Keine Kategorie",
                 "body_label": "Inhalt",
@@ -93,6 +127,8 @@
                 "discard_confirm": "Du hast einen nicht gespeicherten Artikel. Möchtest du ihn verwerfen?",
                 "submit_create": "Artikel veröffentlichen",
                 "submit_update": "Änderungen speichern",
+                "draft_label": "",
+                "draft_help": "",
                 "faq_heading": "FAQ",
                 "faq_help": "Optionale Fragen und Antworten unter dem Artikel. In den Antworten wird Markdown unterstützt.",
                 "faq_question_placeholder": "Frage",
@@ -102,8 +138,10 @@
             },
             "show": {
                 "deleted_notice": "Dieser Artikel wurde gelöscht. Nur Bearbeiter können ihn sehen.",
+                "draft_notice": "",
                 "toc_heading": "Inhalte",
                 "faq_heading": "Häufig gestellte Fragen",
+                "related_heading": "",
                 "by": "von ",
                 "last_edited": "zuletzt bearbeitet von ",
                 "history": "Änderungsverlauf ({count})",

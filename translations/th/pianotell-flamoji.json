@@ -50,7 +50,11 @@
                 "heading_title": "Custom Emojis",
                 "import_json_button": "Import JSON",
                 "export_json_button": "Export JSON",
+                "upload_json_button": "",
                 "import_emojis_message": "การ import นี้จะนำเข้าเฉพาะการตั้งค่า emoji เท่านั้น คุณต้อง upload รูปภาพ emoji ด้วยตัวเอง",
+                "import_override_mode": "",
+                "import_override_warning": "",
+                "import_override_confirm": "",
                 "import_legacy_shortcodes": "นำเข้า {count} emoji ที่มี shortcode ไม่ตรงตามรูปแบบ :word: ที่แนะนำ: {shortcodes} — นำเข้าตามที่เป็นและยังคงใช้งานได้ แต่ควรพิจารณาอัปเดต",
                 "edit_emoji": {
                     "modal_title": "เพิ่ม Emoji",
@@ -73,7 +77,10 @@
                 "emoji_list": {
                     "edit_button": "",
                     "add_button": "",
-                    "load_more_button": "=> core.forum.post_stream.load_more_button"
+                    "load_more_button": "=> core.forum.post_stream.load_more_button",
+                    "uncategorized": "",
+                    "rename_save_button": "",
+                    "rename_cancel_button": ""
                 }
             }
         },
