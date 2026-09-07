@@ -45,12 +45,12 @@
             "css_help": "Füge gültiges CSS ein. Wird beim Speichern geprüft.",
             "confirm_delete": "Stil „{name}“ löschen? Dies kann nicht rückgängig gemacht werden.",
             "error_syntax": "",
-            "error_import": "",
-            "error_script": "",
-            "error_closing_tag": "",
-            "error_data_uri": "",
+            "error_import": "„@import“ und „@charset“ sind nicht zulässig.",
+            "error_script": "JavaScript-ähnliche Inhalte sind nicht zulässig.",
+            "error_closing_tag": "Schließende HTML-Tags sind nicht zulässig.",
+            "error_data_uri": "Data-URIs sind nicht zulässig.",
             "request_error": "",
-            "load_error": ""
+            "load_error": "Stile konnten nicht geladen werden."
         }
     }
 }
