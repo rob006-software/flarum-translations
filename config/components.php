@@ -795,7 +795,7 @@ return [
 		],
 	],
 	'pianotell-flamoji' => [
-		'tag' => 'https://raw.githubusercontent.com/PrimateCoder/flarum-flamoji/v2.5.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/PrimateCoder/flarum-flamoji/v2.6.0/locale/en.yml',
 	],
 	'proxytracer-proxytracer' => [
 		'tag' => 'https://raw.githubusercontent.com/ProxyTracer/flarum-proxytracer/v2.0.2/locale/en.yml',
