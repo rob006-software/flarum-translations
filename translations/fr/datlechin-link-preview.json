@@ -24,7 +24,7 @@
                 "google_favicon_fallback_help": "",
                 "preview_internal_links_label": "",
                 "preview_internal_links_help": "",
-                "skip_media_links_label": "",
+                "skip_media_links_label": "Ignorer les liens vers les fichiers multimédias",
                 "skip_media_links_help": "",
                 "max_previews_per_post_label": "",
                 "max_previews_per_post_help": "",
@@ -32,10 +32,10 @@
                 "enable_batch_requests_help": "Améliore les performances en traitant simultanément plusieurs aperçus de liens. Lorsque cette option est désactivée, les liens sont traités un par un.",
                 "cache_time_label": "Durée du cache (en minutes)",
                 "cache_time_help": "Durée de stockage des aperçus de liens avant actualisation. La valeur 0 désactive la mise en cache. Valeur par défaut : 60 minutes.",
-                "allowlist_label": "",
+                "allowlist_label": "Sites autorisés",
                 "allowlist_help": "",
                 "allowlist_placeholder": "",
-                "blocklist_label": "",
+                "blocklist_label": "Sites bloqués",
                 "blocklist_help": "",
                 "blocklist_placeholder": "",
                 "blacklist_label": "Liste noire de domaines",
@@ -55,11 +55,11 @@
             }
         },
         "forum": {
-            "loading": "",
+            "loading": "Chargement de l'aperçu",
             "meta": {
-                "replies": "",
-                "posts": "",
-                "discussions": ""
+                "replies": "{count, plural, one {# réponse} other {# réponses}}",
+                "posts": "{count, plural, one {# message} other {# messages}}",
+                "discussions": "{count, plural, one {# discussion} other {# discussions}}"
             },
             "clicks": "{count, plural, one {# clic} other {# clics}}",
             "settings": {
