@@ -2,8 +2,8 @@
     "core": {
         "forum": {
             "index_sort": {
-                "hot_button": "赞同最多",
-                "votes_button": "赞同票"
+                "hot_button": "趋势",
+                "votes_button": "赞同最多"
             }
         }
     },
@@ -126,7 +126,7 @@
         },
         "email": {
             "body": {
-                "postVoted": "{recipient_display_name}，你好！\n\n{actor_display_name} 刚刚为你在「{discussion_title}」中的帖子投了票。\n\n点击链接查看详情：\n{discussion_url}\n"
+                "postVoted": "{recipient_display_name}，你好！\n\n{actor_display_name} 刚刚为你在「{discussion_title}」中的帖子投了票。\n\n点击链接查看详情：{discussion_url}\n"
             },
             "subject": {
                 "postVoted": "{display_name} 为你的帖子投了票"
@@ -136,7 +136,7 @@
     "lib": {
         "gambits": {
             "hot": {
-                "key": "热门"
+                "key": "趋势"
             }
         }
     }
