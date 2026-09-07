@@ -2,10 +2,10 @@
     "datlechin-link-preview": {
         "admin": {
             "sections": {
-                "appearance_label": "",
-                "appearance_description": "",
-                "behaviour_label": "",
-                "behaviour_description": "",
+                "appearance_label": "Erscheinungsbild",
+                "appearance_description": "Wie eine Vorschau aussieht und wohin man gelangt, wenn man darauf klickt.",
+                "behaviour_label": "Verhalten",
+                "behaviour_description": "Welche Links in einem Beitrag eine Vorschau erhalten.",
                 "performance_label": "Leistung",
                 "performance_description": "Optimiere, wie Link-Vorschauen abgerufen und zwischengespeichert werden.",
                 "filtering_label": "",
@@ -29,7 +29,7 @@
                 "max_previews_per_post_label": "",
                 "max_previews_per_post_help": "",
                 "enable_batch_requests_label": "Stapelverarbeitung einschalten",
-                "enable_batch_requests_help": "Die Leistung verbessern, indem mehrere Link-Vorschauen gleichzeitig verarbeitet werden. Wenn deaktiviert, werden Links nacheinander verarbeitet.",
+                "enable_batch_requests_help": "Eine Anfrage für die gesamte Seite statt einer pro Link. Schalte dies nur aus, wenn etwas vor dem Forum es ablehnt.\n",
                 "cache_time_label": "Speicherdauer im Cache (Minuten)",
                 "cache_time_help": "Legt fest, wie lange Link-Vorschauen gespeichert werden, bevor sie aktualisiert werden. Auf 0 setzen, um das Caching zu deaktivieren. Standard: 60 Minuten.",
                 "allowlist_label": "",
