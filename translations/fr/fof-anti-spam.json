@@ -103,7 +103,7 @@
                 "awaiting_review": "Signalements en attente de révision",
                 "this_week": "{count, plural, one {# cette semaine} other {# cette semaine}}",
                 "vs_last_week": "Par rapport aux sept jours précédents",
-                "top_reason": "",
+                "top_reason": "Le plus fréquent : {reason} ({count, plural, one {# bloc} other {# blocs}})",
                 "view_all": "Afficher les inscriptions bloquées",
                 "failed": "Impossible de charger les statistiques relatives au spam."
             },
@@ -143,7 +143,7 @@
                 "evidence": {
                     "label": "Pourquoi celle-ci a été bloquée",
                     "none": "Aucune donnée StopForumSpam n'a été enregistrée pour cette tentative.",
-                    "lookup_failed": "",
+                    "lookup_failed": "La recherche dans StopForumSpam a échoué, aucune donnée n'a donc été renvoyée pour cette tentative.",
                     "blocked_by": "Bloquée par",
                     "rule": {
                         "confidence": "Seuil de confiance",
@@ -160,9 +160,9 @@
                     "badge": {
                         "blacklisted": "Sur la liste noire",
                         "tor_exit": "Nœud de sortie Tor",
-                        "not_listed": "",
+                        "not_listed": "Non répertorié",
                         "confidence": "{value} % de confiance",
-                        "frequency": "",
+                        "frequency": "{count, plural, one {signalé # fois} other {signalé # fois}}",
                         "last_seen": "dernière connexion {when}",
                         "asn": "AS{asn}",
                         "normalized": "se normalise à {value}"
