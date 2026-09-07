@@ -2462,6 +2462,14 @@
             }
         },
         "validation": {
+            "custom": {
+                "turnstile": {
+                    "required": "d41d8cd98f00b204e9800998ecf8427e 3988b6100fdb283212b20202bba0ea60"
+                },
+                "turnstileToken": {
+                    "required": "d41d8cd98f00b204e9800998ecf8427e 3988b6100fdb283212b20202bba0ea60"
+                }
+            },
             "required": "a76b1fff3bfe3817712cadb4ce798716 a76b1fff3bfe3817712cadb4ce798716",
             "turnstile": "5c959eb38b2280eadacbd3d97499a6b7 5c959eb38b2280eadacbd3d97499a6b7"
         }
@@ -5582,6 +5590,8 @@
                         "heading": "d41d8cd98f00b204e9800998ecf8427e 977a7223997e10d4daa2ce0d309fafc6",
                         "push_notif_preference_default_to_email_label": "d41d8cd98f00b204e9800998ecf8427e 6030dd6cf4d3b222bb81312422030cbb",
                         "push_notif_preference_default_to_email_text": "d41d8cd98f00b204e9800998ecf8427e 0638107a15cce165a23efdf784827708",
+                        "share_buttons_label": "d41d8cd98f00b204e9800998ecf8427e df09e85e7b7ab082b626af8167823bfd",
+                        "share_buttons_text": "d41d8cd98f00b204e9800998ecf8427e e981cfd36f03f39863482120bb9d7d9e",
                         "user_max_subscriptions_label": "d41d8cd98f00b204e9800998ecf8427e 9f3e4791b87a4734c84b6c39bdd2274a",
                         "user_max_subscriptions_text": "d41d8cd98f00b204e9800998ecf8427e 48733ead22cf98dc14889e32f56667c7",
                         "window_controls_overlay_label": "d41d8cd98f00b204e9800998ecf8427e 0bc575c48282aa6f143398e212d44dff",
@@ -8457,13 +8467,20 @@
                         "text_to_replace_text": "d41d8cd98f00b204e9800998ecf8427e 724b12fbb703b9db7cbe0d2d6d44247e"
                     },
                     "emoji_list": {
-                        "load_more_button": "d41d8cd98f00b204e9800998ecf8427e 06dfbfd2a034badc35702d30d3e74402"
+                        "load_more_button": "d41d8cd98f00b204e9800998ecf8427e 06dfbfd2a034badc35702d30d3e74402",
+                        "rename_cancel_button": "d41d8cd98f00b204e9800998ecf8427e d12c3b0dcf75614dafb2ac6bdaa77a26",
+                        "rename_save_button": "d41d8cd98f00b204e9800998ecf8427e aed88202e2432ee2a613f9120ef7486b",
+                        "uncategorized": "d41d8cd98f00b204e9800998ecf8427e dbd09c889ec77d981d1005116312fb8a"
                     },
                     "export_json_button": "d41d8cd98f00b204e9800998ecf8427e 0152a79990573c018e3326bfd5b6b0bd",
                     "heading_title": "d41d8cd98f00b204e9800998ecf8427e 94ce7bf0f7ed8556278166ec74357de7",
                     "import_emojis_message": "d41d8cd98f00b204e9800998ecf8427e ca038b8a0609ca14be773f4e2604ac8c",
                     "import_json_button": "d41d8cd98f00b204e9800998ecf8427e 28540e2d9d359a33efec19c09bafa3b4",
-                    "import_legacy_shortcodes": "d41d8cd98f00b204e9800998ecf8427e f0ab3538ad799472edf32c8b657086de"
+                    "import_legacy_shortcodes": "d41d8cd98f00b204e9800998ecf8427e f0ab3538ad799472edf32c8b657086de",
+                    "import_override_confirm": "d41d8cd98f00b204e9800998ecf8427e 9379aefdb578bcdb5b29a39c0293e2a2",
+                    "import_override_mode": "d41d8cd98f00b204e9800998ecf8427e 956f6076c4b9e074b19164305f38becf",
+                    "import_override_warning": "d41d8cd98f00b204e9800998ecf8427e 4f77afbac004e8188963c030f1e4766c",
+                    "upload_json_button": "d41d8cd98f00b204e9800998ecf8427e a3fe83be6fd5bbe68eb3d22cea103d6a"
                 },
                 "settings": {
                     "auto_hide_label": "d41d8cd98f00b204e9800998ecf8427e d07b40987e06e8327dfa4428c131d41c",
