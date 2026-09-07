@@ -2,18 +2,42 @@
     "datlechin-link-preview": {
         "admin": {
             "sections": {
-                "general_label": "Genel",
-                "general_description": "Bağlantı önizlemeleri için temel görüntüleme tercihleri.",
+                "appearance_label": "",
+                "appearance_description": "",
+                "behaviour_label": "",
+                "behaviour_description": "",
                 "performance_label": "Performans",
                 "performance_description": "Bağlantı önizlemelerinin alınma ve önbelleğe alınma sürecini optimize edin.",
+                "filtering_label": "",
+                "filtering_description": "",
+                "general_label": "Genel",
+                "general_description": "Bağlantı önizlemeleri için temel görüntüleme tercihleri.",
                 "url_filtering_label": "URL Filtreleme",
                 "url_filtering_description": "Hangi URL'lerin bağlantı önizlemesi oluşturacağını belirleyin.",
                 "external_api_label": "Harici API Fallback",
                 "external_api_description": "Doğrudan veri alımı başarısız olduğunda (örneğin, bot korumalı siteler) harici bir hizmet kullanın."
             },
             "settings": {
+                "open_links_in_new_tab_label": "Bağlantıları Yeni Sekmede Aç",
+                "open_links_in_new_tab_help": "Önizlemedeki bağlantıları her zaman yeni bir tarayıcı sekmesinde açın.",
+                "google_favicon_fallback_label": "",
+                "google_favicon_fallback_help": "",
+                "preview_internal_links_label": "",
+                "preview_internal_links_help": "",
+                "skip_media_links_label": "",
+                "skip_media_links_help": "",
+                "max_previews_per_post_label": "",
+                "max_previews_per_post_help": "",
                 "enable_batch_requests_label": "Toplu İşlemeyi Etkinleştir",
                 "enable_batch_requests_help": "Birden fazla bağlantı önizlemesini aynı anda işleyerek performansı artırın. Devre dışı bırakıldığında, bağlantılar tek tek işlenir.",
+                "cache_time_label": "Önbellek Süresi (dakika)",
+                "cache_time_help": "Bağlantı önizlemelerinin yenilenmeden önce ne kadar süreyle saklanacağı. Önbelleğe almayı devre dışı bırakmak için 0 olarak ayarlayın. Varsayılan: 60 dakika.",
+                "allowlist_label": "",
+                "allowlist_help": "",
+                "allowlist_placeholder": "",
+                "blocklist_label": "",
+                "blocklist_help": "",
+                "blocklist_placeholder": "",
                 "blacklist_label": "Alan adı kara liste",
                 "blacklist_help": "Bağlantı önizlemeleri oluşturmaması gereken alan adlarını veya URL'leri belirtin. Birden fazla girişi ayırmak için virgül kullanın.",
                 "blacklist_placeholder": "Örneğin: facebook.com, twitter.com/specific-page",
@@ -24,10 +48,6 @@
                 "convert_media_urls_help": "Medya dosyalarına (resimler, videolar vb.) işaret eden URL'ler için önizlemeler oluşturun.",
                 "use_google_favicons_label": "Site Simgelerini Görüntüle",
                 "use_google_favicons_help": "Görsel tanınırlığı artırmak için Google'ın Favicon hizmetini kullanarak web sitesi favicon'larını gösterin.",
-                "cache_time_label": "Önbellek Süresi (dakika)",
-                "cache_time_help": "Bağlantı önizlemelerinin yenilenmeden önce ne kadar süreyle saklanacağı. Önbelleğe almayı devre dışı bırakmak için 0 olarak ayarlayın. Varsayılan: 60 dakika.",
-                "open_links_in_new_tab_label": "Bağlantıları Yeni Sekmede Aç",
-                "open_links_in_new_tab_help": "Önizlemedeki bağlantıları her zaman yeni bir tarayıcı sekmesinde açın.",
                 "external_api_fallback_label": "Harici API Fallback",
                 "external_api_fallback_help": "Doğrudan veri alma işlemi başarısız olduğunda (örneğin, Reuters gibi bot korumalı siteler), bağlantı meta verilerini almak için harici bir oEmbed API'si kullanın.",
                 "external_api_url_label": "Harici API URL",
@@ -35,6 +55,17 @@
             }
         },
         "forum": {
+            "loading": "",
+            "meta": {
+                "replies": "",
+                "posts": "",
+                "discussions": ""
+            },
+            "clicks": "",
+            "settings": {
+                "hide_link_previews_label": "",
+                "hide_link_previews_help": ""
+            },
             "site_cannot_be_reached": "Önizleme yüklenemedi. Lütfen URL'yi kontrol edin ve tekrar deneyin."
         }
     }

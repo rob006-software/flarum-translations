@@ -2,18 +2,42 @@
     "datlechin-link-preview": {
         "admin": {
             "sections": {
-                "general_label": "Général",
-                "general_description": "Préférences d'affichage de base pour les aperçus des liens.",
+                "appearance_label": "",
+                "appearance_description": "",
+                "behaviour_label": "",
+                "behaviour_description": "",
                 "performance_label": "Performance",
                 "performance_description": "Optimisez la manière dont les aperçus des liens sont récupérés et mis en cache.",
+                "filtering_label": "",
+                "filtering_description": "",
+                "general_label": "Général",
+                "general_description": "Préférences d'affichage de base pour les aperçus des liens.",
                 "url_filtering_label": "Filtrage des URL",
                 "url_filtering_description": "Contrôlez les URL qui génèrent des aperçus de liens.",
                 "external_api_label": "API externe de secours",
                 "external_api_description": "Utilisez un service externe lorsque la récupération directe échoue (par exemple, sur les sites qui se protègent des robots)."
             },
             "settings": {
+                "open_links_in_new_tab_label": "Ouvrir les liens dans un nouvel onglet",
+                "open_links_in_new_tab_help": "Toujours ouvrir les liens prévisualisés dans un nouvel onglet du navigateur.",
+                "google_favicon_fallback_label": "",
+                "google_favicon_fallback_help": "",
+                "preview_internal_links_label": "",
+                "preview_internal_links_help": "",
+                "skip_media_links_label": "",
+                "skip_media_links_help": "",
+                "max_previews_per_post_label": "",
+                "max_previews_per_post_help": "",
                 "enable_batch_requests_label": "Activer le traitement par lots",
                 "enable_batch_requests_help": "Améliore les performances en traitant simultanément plusieurs aperçus de liens. Lorsque cette option est désactivée, les liens sont traités un par un.",
+                "cache_time_label": "Durée du cache (en minutes)",
+                "cache_time_help": "Durée de stockage des aperçus de liens avant actualisation. La valeur 0 désactive la mise en cache. Valeur par défaut : 60 minutes.",
+                "allowlist_label": "",
+                "allowlist_help": "",
+                "allowlist_placeholder": "",
+                "blocklist_label": "",
+                "blocklist_help": "",
+                "blocklist_placeholder": "",
                 "blacklist_label": "Liste noire de domaines",
                 "blacklist_help": "Indiquez les domaines ou les URL qui ne doivent pas générer d'aperçus de liens. Utilisez des virgules pour séparer les entrées multiples.",
                 "blacklist_placeholder": "Exemples : facebook.com, twitter.com/page-spécifique",
@@ -24,10 +48,6 @@
                 "convert_media_urls_help": "Générer des aperçus pour les URL qui pointent vers des fichiers multimédias (images, vidéos, etc.).",
                 "use_google_favicons_label": "Afficher les icônes des sites",
                 "use_google_favicons_help": "Afficher les favicons des sites web en utilisant le service Favicon de Google pour améliorer la reconnaissance visuelle.",
-                "cache_time_label": "Durée du cache (en minutes)",
-                "cache_time_help": "Durée de stockage des aperçus de liens avant actualisation. La valeur 0 désactive la mise en cache. Valeur par défaut : 60 minutes.",
-                "open_links_in_new_tab_label": "Ouvrir les liens dans un nouvel onglet",
-                "open_links_in_new_tab_help": "Toujours ouvrir les liens prévisualisés dans un nouvel onglet du navigateur.",
                 "external_api_fallback_label": "API externe de secours",
                 "external_api_fallback_help": "Lorsque la récupération directe échoue (par exemple sur les sites qui se protègent des robots comme Reuters), utilisez une API oEmbed externe pour récupérer les métadonnées du lien.",
                 "external_api_url_label": "URL de l'API externe",
@@ -35,6 +55,17 @@
             }
         },
         "forum": {
+            "loading": "",
+            "meta": {
+                "replies": "",
+                "posts": "",
+                "discussions": ""
+            },
+            "clicks": "",
+            "settings": {
+                "hide_link_previews_label": "",
+                "hide_link_previews_help": ""
+            },
             "site_cannot_be_reached": "Impossible de charger l'aperçu. Veuillez vérifier l'URL et réessayer."
         }
     }

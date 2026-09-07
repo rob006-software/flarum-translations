@@ -2,18 +2,36 @@
     "datlechin-link-preview": {
         "admin": {
             "sections": {
-                "general_label": "",
-                "general_description": "",
+                "appearance_label": "",
+                "appearance_description": "",
+                "behaviour_label": "",
+                "behaviour_description": "",
                 "performance_label": "",
                 "performance_description": "",
-                "url_filtering_label": "",
-                "url_filtering_description": "",
-                "external_api_label": "",
-                "external_api_description": ""
+                "filtering_label": "",
+                "filtering_description": ""
             },
             "settings": {
+                "open_links_in_new_tab_label": "",
+                "open_links_in_new_tab_help": "",
+                "google_favicon_fallback_label": "",
+                "google_favicon_fallback_help": "",
+                "preview_internal_links_label": "",
+                "preview_internal_links_help": "",
+                "skip_media_links_label": "",
+                "skip_media_links_help": "",
+                "max_previews_per_post_label": "",
+                "max_previews_per_post_help": "",
                 "enable_batch_requests_label": "",
                 "enable_batch_requests_help": "",
+                "cache_time_label": "Tempo cache",
+                "cache_time_help": "Numero di minuti in cui i collegamenti sottoposti a scansione verranno memorizzati nella cache prima che sia possibile accedervi nuovamente. Impostare su 0 per disabilitare la memorizzazione nella cache dei collegamenti. L'impostazione predefinita è 60 minuti se non impostata.",
+                "allowlist_label": "",
+                "allowlist_help": "",
+                "allowlist_placeholder": "",
+                "blocklist_label": "",
+                "blocklist_help": "",
+                "blocklist_placeholder": "",
                 "blacklist_label": "Lista Nera",
                 "blacklist_help": "Inserisci una lista di domini separati da virgola per escluderli dall'anteprima.",
                 "blacklist_placeholder": "esempio facebook.com,https://dominio.it/percorso",
@@ -23,18 +41,21 @@
                 "convert_media_urls_label": "Convertu media URl",
                 "convert_media_urls_help": "Se abilitato, convertirà i media URL in anteprime.",
                 "use_google_favicons_label": "Usa api Google Favicon",
-                "use_google_favicons_help": "Se abilitato, utilizzerà un servizio Google nel frontend per richiedere la favicon del rispettivo sito.",
-                "cache_time_label": "Tempo cache",
-                "cache_time_help": "Numero di minuti in cui i collegamenti sottoposti a scansione verranno memorizzati nella cache prima che sia possibile accedervi nuovamente. Impostare su 0 per disabilitare la memorizzazione nella cache dei collegamenti. L'impostazione predefinita è 60 minuti se non impostata.",
-                "open_links_in_new_tab_label": "",
-                "open_links_in_new_tab_help": "",
-                "external_api_fallback_label": "",
-                "external_api_fallback_help": "",
-                "external_api_url_label": "",
-                "external_api_url_help": ""
+                "use_google_favicons_help": "Se abilitato, utilizzerà un servizio Google nel frontend per richiedere la favicon del rispettivo sito."
             }
         },
         "forum": {
+            "loading": "",
+            "meta": {
+                "replies": "",
+                "posts": "",
+                "discussions": ""
+            },
+            "clicks": "",
+            "settings": {
+                "hide_link_previews_label": "",
+                "hide_link_previews_help": ""
+            },
             "site_cannot_be_reached": "Questo sito non può essere raggiunto."
         }
     }

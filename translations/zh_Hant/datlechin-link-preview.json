@@ -2,18 +2,36 @@
     "datlechin-link-preview": {
         "admin": {
             "sections": {
-                "general_label": "",
-                "general_description": "",
+                "appearance_label": "",
+                "appearance_description": "",
+                "behaviour_label": "",
+                "behaviour_description": "",
                 "performance_label": "",
                 "performance_description": "",
-                "url_filtering_label": "",
-                "url_filtering_description": "",
-                "external_api_label": "",
-                "external_api_description": ""
+                "filtering_label": "",
+                "filtering_description": ""
             },
             "settings": {
+                "open_links_in_new_tab_label": "在新視窗打開連結",
+                "open_links_in_new_tab_help": "開啟後，連結將於新視窗中打開。",
+                "google_favicon_fallback_label": "",
+                "google_favicon_fallback_help": "",
+                "preview_internal_links_label": "",
+                "preview_internal_links_help": "",
+                "skip_media_links_label": "",
+                "skip_media_links_help": "",
+                "max_previews_per_post_label": "",
+                "max_previews_per_post_help": "",
                 "enable_batch_requests_label": "啟用批次處理",
                 "enable_batch_requests_help": "透過同時處理多個連結預覽來提高效能。禁用時，一次處理一個連結。",
+                "cache_time_label": "緩存時間",
+                "cache_time_help": "已查看連結再次訪問之前將被緩存的分鐘數。 設置為 0 以禁用緩存。 如果未設置，則預設為 60 分鐘。",
+                "allowlist_label": "",
+                "allowlist_help": "",
+                "allowlist_placeholder": "",
+                "blocklist_label": "",
+                "blocklist_help": "",
+                "blocklist_placeholder": "",
                 "blacklist_label": "域名黑名單",
                 "blacklist_help": "指定不應產生連結預覽的網域或 URL。使用逗號分隔多個條目。",
                 "blacklist_placeholder": "範例：facebook.com、twitter.com/specific-page",
@@ -23,18 +41,21 @@
                 "convert_media_urls_label": "預覽媒體連結",
                 "convert_media_urls_help": "啟用後，將轉換所有媒體連結作為預覽。",
                 "use_google_favicons_label": "使用 Google Favicon API",
-                "use_google_favicons_help": "如果啟用，將使用 Google 服務來請求相應網站的圖示。",
-                "cache_time_label": "緩存時間",
-                "cache_time_help": "已查看連結再次訪問之前將被緩存的分鐘數。 設置為 0 以禁用緩存。 如果未設置，則預設為 60 分鐘。",
-                "open_links_in_new_tab_label": "在新視窗打開連結",
-                "open_links_in_new_tab_help": "開啟後，連結將於新視窗中打開。",
-                "external_api_fallback_label": "",
-                "external_api_fallback_help": "",
-                "external_api_url_label": "",
-                "external_api_url_help": ""
+                "use_google_favicons_help": "如果啟用，將使用 Google 服務來請求相應網站的圖示。"
             }
         },
         "forum": {
+            "loading": "",
+            "meta": {
+                "replies": "",
+                "posts": "",
+                "discussions": ""
+            },
+            "clicks": "",
+            "settings": {
+                "hide_link_previews_label": "",
+                "hide_link_previews_help": ""
+            },
             "site_cannot_be_reached": "無法訪問此網站。"
         }
     }
