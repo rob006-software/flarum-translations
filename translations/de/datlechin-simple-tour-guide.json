@@ -1,27 +1,27 @@
 {
     "datlechin-simple-tour-guide": {
         "admin": {
-            "devices_label": "",
-            "move_up": "",
-            "move_down": "",
+            "devices_label": "Geräte",
+            "move_up": "Nach oben",
+            "move_down": "Nach unten",
             "devices": {
-                "any": "",
-                "desktop": "",
-                "mobile": ""
+                "any": "Jedes Gerät",
+                "desktop": "Nur Desktop",
+                "mobile": "Nur Mobil"
             },
             "start_mode": {
-                "auto": "",
-                "manual": ""
+                "auto": "Startet von allein",
+                "manual": "Wird von Benutzer gestartet"
             },
             "placement": {
                 "auto": "",
-                "top": "",
-                "bottom": "",
-                "left": "",
-                "right": ""
+                "top": "Über dem Element",
+                "bottom": "Unter dem Element",
+                "left": "Links vom Element",
+                "right": "Rechts vom Element"
             },
             "settings": {
-                "heading": "",
+                "heading": "Einstellungen",
                 "show_progress_label": "Fortschritt anzeigen",
                 "show_progress_help": "",
                 "allow_close_label": "",
@@ -30,31 +30,31 @@
                 "show_in_settings_help": ""
             },
             "tours": {
-                "heading": "",
-                "none": "",
-                "disabled": "",
-                "add_button": "",
-                "import_button": "",
+                "heading": "Touren",
+                "none": "Noch keine Tour.",
+                "disabled": "Aus",
+                "add_button": "Neue Tour",
+                "import_button": "Importieren",
                 "import_done": "",
                 "import_invalid": "",
-                "edit_action": "",
+                "edit_action": "Bearbeiten",
                 "controls_label": "",
                 "preview_button": "",
                 "preview_navigate": "",
-                "export_button": "",
-                "duplicate_button": "",
-                "copy_title": "",
+                "export_button": "Als Datei exportieren",
+                "duplicate_button": "Duplikat der Tour erstellen",
+                "copy_title": "{title} (copy)",
                 "no_steps_warning": "",
-                "step_count": ""
+                "step_count": "{count, plural, =0 {Keine Schritte} one {# Schritt} other {# Schritte}}"
             },
             "steps": {
-                "heading": "",
+                "heading": "Schritte in {title}",
                 "none": "",
                 "no_target": "",
-                "add_button": "",
-                "duplicate_action": "",
+                "add_button": "Schritt hinzufügen",
+                "duplicate_action": "Duplizieren",
                 "controls_label": "",
-                "copy_title": "",
+                "copy_title": "{title} (copy)",
                 "flags": {
                     "disabled": "",
                     "desktop": "",
