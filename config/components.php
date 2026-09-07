@@ -1019,6 +1019,12 @@ return [
 			'th',
 		],
 	],
+	'teddan-dislikes' => [
+		'tag' => 'https://raw.githubusercontent.com/tttteddan/dislikes/v0.1.0/locale/en.yml',
+		'__builtInLanguages' => [
+			'zh_Hans',
+		],
+	],
 	'tryhackx-advanced-pages' => [
 		'tag' => 'https://raw.githubusercontent.com/TryHackX/flarum-advanced-pages/2.3.1/resources/locale/en.yml',
 		'__builtInLanguages' => [
