@@ -2,13 +2,13 @@
     "datlechin-link-preview": {
         "admin": {
             "sections": {
-                "appearance_label": "",
+                "appearance_label": "Apparence",
                 "appearance_description": "",
-                "behaviour_label": "",
+                "behaviour_label": "Comportement",
                 "behaviour_description": "",
                 "performance_label": "Performance",
                 "performance_description": "Optimisez la manière dont les aperçus des liens sont récupérés et mis en cache.",
-                "filtering_label": "",
+                "filtering_label": "Filtrage",
                 "filtering_description": "",
                 "general_label": "Général",
                 "general_description": "Préférences d'affichage de base pour les aperçus des liens.",
@@ -61,9 +61,9 @@
                 "posts": "",
                 "discussions": ""
             },
-            "clicks": "",
+            "clicks": "{count, plural, one {# clic} other {# clics}}",
             "settings": {
-                "hide_link_previews_label": "",
+                "hide_link_previews_label": "Masquer les aperçus des liens",
                 "hide_link_previews_help": ""
             },
             "site_cannot_be_reached": "Impossible de charger l'aperçu. Veuillez vérifier l'URL et réessayer."
