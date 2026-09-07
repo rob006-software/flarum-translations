@@ -1089,6 +1089,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`shebaoting-money`](https://weblate.rob006.net/projects/flarum2/shebaoting-money) | [`shebaoting/flarum-money`](https://github.com/shebaoting/flarum-money) |
 | [`shebaoting-repost`](https://weblate.rob006.net/projects/flarum2/shebaoting-repost) | [`shebaoting/flarum-repost`](https://github.com/shebaoting/flarum-repost) |
 | [`shebaoting-rss`](https://weblate.rob006.net/projects/flarum2/shebaoting-rss) | [`shebaoting/flarum-rss`](https://github.com/shebaoting/flarum-rss) |
+| [`stezkoy-ai-openreply`](https://weblate.rob006.net/projects/flarum2/stezkoy-ai-openreply) | [`stezkoy/flarum-ai-openreply`](https://github.com/Stezkoy/flarum-ai-openreply) |
 | [`stezkoy-doorquest`](https://weblate.rob006.net/projects/flarum2/stezkoy-doorquest) | [`stezkoy/flarum-doorquest`](https://github.com/Stezkoy/flarum-doorquest) |
 | [`stezkoy-modularis`](https://weblate.rob006.net/projects/flarum2/stezkoy-modularis) | [`stezkoy/flarum-modularis`](https://github.com/Stezkoy/flarum-modularis) |
 | [`stezkoy-telegram-notify`](https://weblate.rob006.net/projects/flarum2/stezkoy-telegram-notify) | [`stezkoy/flarum-telegram-notify`](https://github.com/Stezkoy/flarum-telegram-notify) |
