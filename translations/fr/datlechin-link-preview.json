@@ -20,24 +20,24 @@
             "settings": {
                 "open_links_in_new_tab_label": "Ouvrir les liens dans un nouvel onglet",
                 "open_links_in_new_tab_help": "Autres sites uniquement. Ici, une discussion s'ouvre toujours dans le même onglet.",
-                "google_favicon_fallback_label": "",
+                "google_favicon_fallback_label": "Utiliser Google comme solution de repli pour les icônes de site",
                 "google_favicon_fallback_help": "",
                 "preview_internal_links_label": "Prévisualiser les liens vers ce forum",
-                "preview_internal_links_help": "Un lien vers une discussion, un membre, un tag ou l'index devient une carte lue depuis la base de données ; ainsi, rien n'est récupéré et personne ne voit plus que ce qu'il peut déjà ouvrir.\n",
+                "preview_internal_links_help": "Un lien vers une discussion, un membre, une étiquette ou l'index devient une carte lue depuis la base de données ; ainsi, rien n'est récupéré et personne ne voit plus que ce qu'il peut déjà ouvrir.\n",
                 "skip_media_links_label": "Ignorer les liens vers les fichiers multimédias",
-                "skip_media_links_help": "",
+                "skip_media_links_help": "Pour les liens se terminant par un fichier image, audio ou vidéo, que Flarum affiche déjà.",
                 "max_previews_per_post_label": "",
                 "max_previews_per_post_help": "",
-                "enable_batch_requests_label": "Activer le traitement par lots",
-                "enable_batch_requests_help": "Améliore les performances en traitant simultanément plusieurs aperçus de liens. Lorsque cette option est désactivée, les liens sont traités un par un.",
+                "enable_batch_requests_label": "Récupérer les aperçus par lots",
+                "enable_batch_requests_help": "Une seule requête pour toute la page, au lieu d'une par lien. Ne désactivez cette option que si un élément situé en amont du forum la rejette.\n",
                 "cache_time_label": "Durée du cache (en minutes)",
-                "cache_time_help": "Durée de stockage des aperçus de liens avant actualisation. La valeur 0 désactive la mise en cache. Valeur par défaut : 60 minutes.",
+                "cache_time_help": "Durée pendant laquelle un aperçu est conservé avant que le site ne soit à nouveau lu. La valeur 0 désactive la mise en cache.",
                 "allowlist_label": "Sites autorisés",
                 "allowlist_help": "",
-                "allowlist_placeholder": "",
+                "allowlist_placeholder": "docs.exemple.com, *.wikipedia.org",
                 "blocklist_label": "Sites bloqués",
                 "blocklist_help": "",
-                "blocklist_placeholder": "",
+                "blocklist_placeholder": "exemple.com, actualité.exemple.org/sponsorisé",
                 "blacklist_label": "Liste noire de domaines",
                 "blacklist_help": "Indiquez les domaines ou les URL qui ne doivent pas générer d'aperçus de liens. Utilisez des virgules pour séparer les entrées multiples.",
                 "blacklist_placeholder": "Exemples : facebook.com, twitter.com/page-spécifique",
@@ -64,7 +64,7 @@
             "clicks": "{count, plural, one {# clic} other {# clics}}",
             "settings": {
                 "hide_link_previews_label": "Masquer les aperçus des liens",
-                "hide_link_previews_help": ""
+                "hide_link_previews_help": "Afficher l'adresse brute au lieu d'une carte de prévisualisation dans chaque message que vous lisez."
             },
             "site_cannot_be_reached": "Impossible de charger l'aperçu. Veuillez vérifier l'URL et réessayer."
         }
