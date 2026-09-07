@@ -18,7 +18,20 @@
                 "shortcode_article": "Привязать одну статью по id.",
                 "shortcode_categories": "Показать список категорий.",
                 "shortcode_heading": "Заголовок (## и ### для более мелкого).",
-                "shortcode_link": ""
+                "shortcode_link": "",
+                "shortcode_html": ""
+            },
+            "layout": {
+                "heading": "",
+                "intro": "",
+                "nav_position_label": "",
+                "nav_position_help": "",
+                "nav_position_top": "",
+                "nav_position_below_all": "",
+                "nav_position_sections": "",
+                "nav_position_bottom": "",
+                "full_width_label": "",
+                "full_width_help": ""
             },
             "toc": {
                 "heading": "Оглавление",
@@ -27,6 +40,14 @@
                 "enabled_help": "Если включено, под каждой статьёй отображается список содержания, составленный из заголовков #, ## и ###, на закреплённой боковой панели. Список прокручивается вместе с текстом.",
                 "min_headings_label": "Минимальное количество заголовков",
                 "min_headings_help": "Панель содержимого отображается только в том случае, если в статье есть как минимум столько заголовков."
+            },
+            "related": {
+                "heading": "",
+                "intro": "",
+                "enabled_label": "",
+                "enabled_help": "",
+                "limit_label": "",
+                "limit_help": ""
             },
             "categories": {
                 "heading": "Категории Вики",
@@ -62,6 +83,15 @@
             }
         },
         "forum": {
+            "search": {
+                "heading": "",
+                "placeholder": "",
+                "button": "",
+                "clear": "",
+                "results_heading": "",
+                "all_button": "",
+                "empty": ""
+            },
             "nav": "Вики",
             "common": {
                 "date_at_time": "{date} в {time}"
@@ -74,6 +104,7 @@
                 "empty": "Нет статей для показа.",
                 "untitled": "Без названия",
                 "deleted_badge": "Удалено",
+                "draft_badge": "",
                 "no_categories": "Пока нет категорий."
             },
             "compose": {
@@ -84,6 +115,9 @@
                 "slug_label": "URL slug",
                 "slug_placeholder": "например, getting-started",
                 "slug_help": "Используется в URL статьи. Оставьте поле пустым, чтобы сгенерировать URL из заголовка.",
+                "position_label": "",
+                "position_placeholder": "",
+                "position_help": "",
                 "category_label": "Категория",
                 "no_category": "Нет категории",
                 "body_label": "Содержание",
@@ -93,6 +127,8 @@
                 "discard_confirm": "У вас есть несохранённая статья. Отменить изменения?",
                 "submit_create": "Опубликовать статью",
                 "submit_update": "Сохранить изменения",
+                "draft_label": "",
+                "draft_help": "",
                 "faq_heading": "FAQ",
                 "faq_help": "Под статьёй приведены необязательные вопросы и ответы. В ответах поддерживается разметка Markdown.",
                 "faq_question_placeholder": "Вопрос",
@@ -102,8 +138,10 @@
             },
             "show": {
                 "deleted_notice": "Эта статья удалена. Только редакторы могут её видеть.",
+                "draft_notice": "",
                 "toc_heading": "Содержание",
                 "faq_heading": "Часто задаваемые вопросы",
+                "related_heading": "",
                 "by": "от ",
                 "last_edited": "последние правки от ",
                 "history": "История ({count})",

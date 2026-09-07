@@ -52,28 +52,28 @@
             "post_mentioned": {
                 "subject": "{replier_display_name} به پست شما در {title} پاسخ داد",
                 "plain": {
-                    "body": ""
+                    "body": "{replier_display_name} به پست شما (#{post_number}) در {title} پاسخ داد.\n\n{url}\n\n---\n\n{content}\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{replier_display_name} به پست شما (#{post_number}) در [{title}]({url}) پاسخ داد."
                 }
             },
             "user_mentioned": {
                 "subject": "{mentioner_display_name} از شما در {title} نام برد",
                 "plain": {
-                    "body": ""
+                    "body": "{mentioner_display_name} به شما در پستی در {title} اشاره کرد.\n\n{url}\n\n---\n\n{content}\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{mentioner_display_name} در پستی در [{title}]({url}) از شما نام برده است."
                 }
             },
             "group_mentioned": {
                 "subject": "{mentioner_display_name} از گروهی که شما عضو آن هستید در {title} نام برد",
                 "plain": {
-                    "body": ""
+                    "body": "{mentioner_display_name} در {title} به گروهی که شما عضو آن هستید اشاره کرد.\n\n{url}\n\n---\n\n{content}\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{mentioner_display_name} در [{title}]({url}) به گروهی که شما عضو آن هستید اشاره کرده است."
                 }
             }
         },
@@ -81,8 +81,8 @@
             "gambits": {
                 "posts": {
                     "mentioned": {
-                        "key": "",
-                        "hint": ""
+                        "key": "اشاره شده",
+                        "hint": "شناسه یا نام کاربری کاربر نام برده شده"
                     }
                 }
             }

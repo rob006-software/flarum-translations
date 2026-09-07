@@ -12,6 +12,8 @@
                     "enabled_label": "",
                     "enabled_help": "",
                     "user_targeting_heading": "",
+                    "monitor_all_users_label": "",
+                    "monitor_all_users_help": "",
                     "monitor_post_count_label": "",
                     "monitor_post_count_help": "",
                     "monitor_hours_old_label": "",
@@ -75,6 +77,13 @@
                     "region_us_label": "Estats Units",
                     "confidence_label": "Confiança",
                     "confidence_help": "La puntuació de confiança és un indicador raonablement bo de que el contingut que es comprova donaria lloc a una activitat no desitjada. Estableix el teu nivell de confiança com a percentatge. Si el camp és igual o superior a aquesta xifra, el registre es bloquejarà, independentment de la prova de \"freqüència\" anterior.",
+                    "blocked_asns_label": "",
+                    "blocked_asns_help": "",
+                    "max_listing_age_label": "",
+                    "max_listing_age_help": "",
+                    "registration_throttle_label": "",
+                    "registration_throttle_help": "",
+                    "lookup_failed": "",
                     "email_hash_label": "Utilitza l'adreça de correu, com a cadena encriptada hash",
                     "email_hash_help": "Passa un valor codificat hash MD5 de l'adreça de correu electrònic, si no vols passar l'adreça de correu electrònic en si. Aquest mètode evita totes les comprovacions de llistes negres, normalització i ofuscació.",
                     "block_tor_exit_nodes_label": "",
@@ -84,6 +93,19 @@
                     "report_blocked_registrations_label": "Informar d'inscripcions bloquejades",
                     "report_blocked_registrations_help": "Quan la funció de cerca d'inscripcions en bloqueja una, informarem de l'intent a StopForumSpam, de manera que l'activitat dels spammers es pugui confirmar millor. Cal establir una clau de l'API StopForumSpam (vegeu més avall)."
                 }
+            },
+            "statistics": {
+                "heading": "",
+                "total_label": "",
+                "registrations_blocked": "",
+                "users_marked": "",
+                "posts_flagged": "",
+                "awaiting_review": "",
+                "this_week": "",
+                "vs_last_week": "",
+                "top_reason": "",
+                "view_all": "",
+                "failed": ""
             },
             "blocked_registrations": {
                 "button": "Inscripcions bloquejades",
@@ -97,7 +119,62 @@
                 "login-provider": "Proveïdor de servei d'inici de sessió",
                 "login-provider-data": "Dades del proveïdor del servei d'inici de sessió",
                 "sfs-data": "Dades de StopForumSpam",
-                "delete_entry": "Esborrar entrada"
+                "reasons": "",
+                "delete_entry": "Esborrar entrada",
+                "total": "",
+                "filters": {
+                    "placeholder": "",
+                    "apply": "",
+                    "clear": "",
+                    "hint": "",
+                    "no-matches": "",
+                    "help": {
+                        "toggle": "",
+                        "multiple": "",
+                        "negate": "",
+                        "ip": "",
+                        "email": "",
+                        "username": "",
+                        "provider": "",
+                        "reason": "",
+                        "attemptedAt": ""
+                    }
+                },
+                "evidence": {
+                    "label": "",
+                    "none": "",
+                    "lookup_failed": "",
+                    "blocked_by": "",
+                    "rule": {
+                        "confidence": "",
+                        "frequency": "",
+                        "blacklisted": "",
+                        "torExit": "",
+                        "deniedAsn": ""
+                    },
+                    "field": {
+                        "ip": "",
+                        "email": "",
+                        "username": ""
+                    },
+                    "badge": {
+                        "blacklisted": "",
+                        "tor_exit": "",
+                        "not_listed": "",
+                        "confidence": "",
+                        "frequency": "",
+                        "last_seen": "",
+                        "asn": "",
+                        "normalized": ""
+                    }
+                },
+                "raw_data": {
+                    "button": "",
+                    "title": "",
+                    "copy": "",
+                    "copied": "",
+                    "copy_failed": ""
+                }
             }
         },
         "forum": {
@@ -105,6 +182,9 @@
                 "flagged_as_spam_text": ""
             },
             "message": {
+                "profile": {
+                    "blocked": ""
+                },
                 "stopforumspam": {
                     "blocked": "La teva inscripció ha estat bloquejada perquè s'han trobat detalls de les teves dades a una base de dades de prevenció de correu brossa."
                 }

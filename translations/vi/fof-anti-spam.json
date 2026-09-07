@@ -12,6 +12,8 @@
                     "enabled_label": "",
                     "enabled_help": "",
                     "user_targeting_heading": "",
+                    "monitor_all_users_label": "",
+                    "monitor_all_users_help": "",
                     "monitor_post_count_label": "",
                     "monitor_post_count_help": "",
                     "monitor_hours_old_label": "",
@@ -75,6 +77,13 @@
                     "region_us_label": "Hoa Kỳ",
                     "confidence_label": "Độ tin cậy",
                     "confidence_help": "Điểm độ tin cậy là chỉ báo khá tốt cho thấy trường đang kiểm tra có thể dẫn tới hoạt động không mong muốn. Đặt mức độ tin cậy theo phần trăm. Nếu trường đạt hoặc vượt mức này, đăng ký sẽ bị chặn bất kể bài kiểm tra 'frequency' ở trên.",
+                    "blocked_asns_label": "",
+                    "blocked_asns_help": "",
+                    "max_listing_age_label": "",
+                    "max_listing_age_help": "",
+                    "registration_throttle_label": "",
+                    "registration_throttle_help": "",
+                    "lookup_failed": "",
                     "email_hash_label": "Dùng email đã băm",
                     "email_hash_help": "Gửi giá trị băm MD5 của địa chỉ email nếu bạn không muốn gửi email thô. Cách này bỏ qua tất cả blacklist, chuẩn hóa và các kiểm tra vượt che giấu.",
                     "block_tor_exit_nodes_label": "",
@@ -84,6 +93,19 @@
                     "report_blocked_registrations_label": "Báo cáo các đăng ký bị chặn",
                     "report_blocked_registrations_help": "Khi đăng ký bị chặn bởi tính năng Tra cứu đăng ký, chúng tôi sẽ báo cáo nỗ lực đó về StopForumSpam để xác thực hoạt động spam tốt hơn. Yêu cầu có API key StopForumSpam (xem bên dưới)."
                 }
+            },
+            "statistics": {
+                "heading": "",
+                "total_label": "",
+                "registrations_blocked": "",
+                "users_marked": "",
+                "posts_flagged": "",
+                "awaiting_review": "",
+                "this_week": "",
+                "vs_last_week": "",
+                "top_reason": "",
+                "view_all": "",
+                "failed": ""
             },
             "blocked_registrations": {
                 "button": "Đăng ký bị chặn",
@@ -97,7 +119,62 @@
                 "login-provider": "Nhà cung cấp đăng nhập",
                 "login-provider-data": "Dữ liệu nhà cung cấp đăng nhập",
                 "sfs-data": "Dữ liệu StopForumSpam",
-                "delete_entry": "Xóa bản ghi"
+                "reasons": "",
+                "delete_entry": "Xóa bản ghi",
+                "total": "",
+                "filters": {
+                    "placeholder": "",
+                    "apply": "",
+                    "clear": "",
+                    "hint": "",
+                    "no-matches": "",
+                    "help": {
+                        "toggle": "",
+                        "multiple": "",
+                        "negate": "",
+                        "ip": "",
+                        "email": "",
+                        "username": "",
+                        "provider": "",
+                        "reason": "",
+                        "attemptedAt": ""
+                    }
+                },
+                "evidence": {
+                    "label": "",
+                    "none": "",
+                    "lookup_failed": "",
+                    "blocked_by": "",
+                    "rule": {
+                        "confidence": "",
+                        "frequency": "",
+                        "blacklisted": "",
+                        "torExit": "",
+                        "deniedAsn": ""
+                    },
+                    "field": {
+                        "ip": "",
+                        "email": "",
+                        "username": ""
+                    },
+                    "badge": {
+                        "blacklisted": "",
+                        "tor_exit": "",
+                        "not_listed": "",
+                        "confidence": "",
+                        "frequency": "",
+                        "last_seen": "",
+                        "asn": "",
+                        "normalized": ""
+                    }
+                },
+                "raw_data": {
+                    "button": "",
+                    "title": "",
+                    "copy": "",
+                    "copied": "",
+                    "copy_failed": ""
+                }
             }
         },
         "forum": {
@@ -105,6 +182,9 @@
                 "flagged_as_spam_text": ""
             },
             "message": {
+                "profile": {
+                    "blocked": ""
+                },
                 "stopforumspam": {
                     "blocked": "Chi tiết đăng ký của bạn đã được tìm thấy trong cơ sở dữ liệu ngăn chặn spam, vì vậy đăng ký đã bị chặn."
                 }

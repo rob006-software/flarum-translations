@@ -2,98 +2,98 @@
     "flarum-messages": {
         "admin": {
             "permissions": {
-                "send_messages_label": "",
-                "delete_own_messages_label": ""
+                "send_messages_label": "Skicka privata meddelanden",
+                "delete_own_messages_label": "Ta bort egna meddelanden"
             }
         },
         "forum": {
             "composer": {
-                "discard_confirmation": "",
-                "placeholder": "",
-                "recipients": "",
-                "submit_button": "",
-                "to": ""
+                "discard_confirmation": "Du har inte skickat ditt meddelande. Är du säker på att du vill ta bort det?",
+                "placeholder": "Skriv ett meddelande...",
+                "recipients": "Mottagare",
+                "submit_button": "Skicka meddelande",
+                "to": "Till:"
             },
             "dialog_list": {
-                "load_more_button": "",
-                "mark_as_read_tooltip": "",
-                "title": "",
-                "view_all": ""
+                "load_more_button": "=> core.ref.load_more",
+                "mark_as_read_tooltip": "Markera som läst",
+                "title": "Meddelanden",
+                "view_all": "Visa alla meddelanden"
             },
             "dialog_section": {
-                "back_label": "",
-                "cannot_reply_text": "",
+                "back_label": "Gå tillbaka",
+                "cannot_reply_text": "Den här användaren kan inte svara",
                 "controls": {
-                    "details_button": ""
+                    "details_button": "Detaljer"
                 },
-                "controls_toggle_label": "",
+                "controls_toggle_label": "Åtgärder för dialogstyrning",
                 "details_modal": {
-                    "created_at": "",
-                    "recipients": "",
-                    "title": ""
+                    "created_at": "Skapat datum",
+                    "recipients": "Deltagare",
+                    "title": "Konversationsdetaljer"
                 }
             },
             "header": {
-                "dropdown_tooltip": ""
+                "dropdown_tooltip": "Meddelanden"
             },
             "index": {
-                "messages_link": ""
+                "messages_link": "Meddelanden"
             },
             "index_sort": {
-                "latest_button": "",
-                "newest_button": "",
-                "oldest_button": ""
+                "latest_button": "Senaste",
+                "newest_button": "Nyaste",
+                "oldest_button": "Äldsta"
             },
             "message_controls": {
-                "delete_button": "",
-                "delete_confirmation": ""
+                "delete_button": "Radera",
+                "delete_confirmation": "Är du säker på att du vill ta bort det här meddelandet? Denna åtgärd går inte att ångra."
             },
             "messages_page": {
-                "cannot_send_message_button": "",
-                "empty_text": "",
+                "cannot_send_message_button": "Det går inte att skicka ett meddelande",
+                "empty_text": "Inga nya meddelanden",
                 "hero": {
-                    "title": "",
-                    "subtitle": ""
+                    "title": "Meddelanden",
+                    "subtitle": "Dina privata konversationer med andra användare"
                 },
-                "mark_all_as_read_tooltip": "",
-                "refresh_tooltip": "",
-                "send_message_button": "",
+                "mark_all_as_read_tooltip": "Markera alla som lästa",
+                "refresh_tooltip": "Uppdatera",
+                "send_message_button": "Skicka ett meddelande",
                 "stream": {
-                    "load_previous_button": "",
-                    "load_next_button": "",
-                    "start_of_the_conversation": "",
-                    "time_lapsed_text": ""
+                    "load_previous_button": "Läs in tidigare meddelanden",
+                    "load_next_button": "Läs in nästa meddelanden",
+                    "start_of_the_conversation": "Konversationen börjar",
+                    "time_lapsed_text": "=> core.forum.post_stream.time_lapsed_text"
                 },
-                "title": ""
+                "title": "Meddelanden"
             },
             "recipient_selection_modal": {
-                "title": ""
+                "title": "Välj mottagare av detta meddelande"
             },
             "settings": {
-                "notify_message_received_label": ""
+                "notify_message_received_label": "Någon skickar ett meddelande till mig"
             },
             "user_controls": {
-                "send_message_button": "",
-                "cannot_reply_text": ""
+                "send_message_button": "Skicka ett meddelande",
+                "cannot_reply_text": "Den här användaren kan inte svara"
             },
             "notifications": {
-                "message_received_text": ""
+                "message_received_text": "Avisering om privat meddelande från {user}"
             }
         },
         "email": {
             "message_received": {
-                "subject": "",
+                "subject": "{user_display_name} skickade ett privat meddelande till dig",
                 "plain": {
-                    "body": ""
+                    "body": "{user_display_name} har skickat ett nytt privat meddelande till dig.\n\n{url}\n\n---\n\n{content}\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{user_display_name} skickade ett [nytt meddelande]({url}) till dig."
                 }
             }
         },
         "lib": {
             "dialog": {
-                "title": ""
+                "title": "Skicka meddelande till {username}"
             }
         }
     }

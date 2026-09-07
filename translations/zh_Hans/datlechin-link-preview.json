@@ -2,18 +2,42 @@
     "datlechin-link-preview": {
         "admin": {
             "sections": {
-                "general_label": "常规",
-                "general_description": "链接预览的基本显示偏好。",
+                "appearance_label": "",
+                "appearance_description": "",
+                "behaviour_label": "",
+                "behaviour_description": "",
                 "performance_label": "性能",
                 "performance_description": "优化链接预览的获取和缓存方式。",
+                "filtering_label": "",
+                "filtering_description": "",
+                "general_label": "常规",
+                "general_description": "链接预览的基本显示偏好。",
                 "url_filtering_label": "URL 过滤",
                 "url_filtering_description": "控制哪些 URL 会生成链接预览。",
                 "external_api_label": "外部 API 回退",
                 "external_api_description": "当直接获取失败时（例如受机器人保护的站点），使用外部服务。"
             },
             "settings": {
+                "open_links_in_new_tab_label": "在新标签页打开链接",
+                "open_links_in_new_tab_help": "让链接在新标签页中打开。",
+                "google_favicon_fallback_label": "",
+                "google_favicon_fallback_help": "",
+                "preview_internal_links_label": "",
+                "preview_internal_links_help": "",
+                "skip_media_links_label": "",
+                "skip_media_links_help": "",
+                "max_previews_per_post_label": "",
+                "max_previews_per_post_help": "",
                 "enable_batch_requests_label": "启用批量处理",
                 "enable_batch_requests_help": "同时生成多个链接预览，提升加载效率。",
+                "cache_time_label": "缓存时长（分钟）",
+                "cache_time_help": "设置链接预览的缓存存储时长，设为0则禁用缓存，默认值为60分钟。",
+                "allowlist_label": "",
+                "allowlist_help": "",
+                "allowlist_placeholder": "",
+                "blocklist_label": "",
+                "blocklist_help": "",
+                "blocklist_placeholder": "",
                 "blacklist_label": "排除列表（黑名单）",
                 "blacklist_help": "指定不生成链接预览的域名或URL，如果是多个条目请用英文逗号分隔。",
                 "blacklist_placeholder": "如：flarum.org,flarum.org.cn",
@@ -24,10 +48,6 @@
                 "convert_media_urls_help": "为媒体文件（如图片、视频等）的URL生成预览。",
                 "use_google_favicons_label": "显示网站图标（使用谷歌图标 API）",
                 "use_google_favicons_help": "使用谷歌图标API显示网站图标，增强视觉辨识度。",
-                "cache_time_label": "缓存时长（分钟）",
-                "cache_time_help": "设置链接预览的缓存存储时长，设为0则禁用缓存，默认值为60分钟。",
-                "open_links_in_new_tab_label": "在新标签页打开链接",
-                "open_links_in_new_tab_help": "让链接在新标签页中打开。",
                 "external_api_fallback_label": "外部 API 回退",
                 "external_api_fallback_help": "当直接获取失败时（例如像Reuters这样受机器人保护的站点），使用外部 oEmbed API 来检索链接元数据。",
                 "external_api_url_label": "外部 API URL",
@@ -35,6 +55,17 @@
             }
         },
         "forum": {
+            "loading": "",
+            "meta": {
+                "replies": "",
+                "posts": "",
+                "discussions": ""
+            },
+            "clicks": "",
+            "settings": {
+                "hide_link_previews_label": "",
+                "hide_link_previews_help": ""
+            },
             "site_cannot_be_reached": "无法加载预览，请检查链接后重试。"
         }
     }

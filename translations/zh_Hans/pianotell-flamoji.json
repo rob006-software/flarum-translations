@@ -52,7 +52,11 @@
                 "heading_title": "自定义表情",
                 "import_json_button": "导入JSON",
                 "export_json_button": "导出JSON",
+                "upload_json_button": "",
                 "import_emojis_message": "此操作只导入表情配置。表情包图片需要手动上传。",
+                "import_override_mode": "",
+                "import_override_warning": "",
+                "import_override_confirm": "",
                 "import_legacy_shortcodes": "",
                 "edit_emoji": {
                     "modal_title": "添加表情",
@@ -75,7 +79,10 @@
                 "emoji_list": {
                     "edit_button": "编辑表情",
                     "add_button": "添加表情",
-                    "load_more_button": "=> core.forum.post_stream.load_more_button"
+                    "load_more_button": "=> core.forum.post_stream.load_more_button",
+                    "uncategorized": "",
+                    "rename_save_button": "",
+                    "rename_cancel_button": ""
                 }
             }
         },

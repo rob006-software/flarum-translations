@@ -12,6 +12,8 @@
                     "enabled_label": "Inhaltsfilter aktivieren",
                     "enabled_help": "Wenn aktiviert, werden Beiträge und Diskussionen neuer Benutzer auf Spam-Indikatoren analysiert.",
                     "user_targeting_heading": "Zielgruppenmonitoring",
+                    "monitor_all_users_label": "Alle Benutzer überwachen",
+                    "monitor_all_users_help": "Überprüfe jeden Beitrag, nicht nur diejenigen von neuen Konten. Andernfalls wird ein Konto nie wieder überprüft, sobald es die unten genannten Grenzwerte überschreitet – was genau bei Mitgliedern der Fall ist, deren Konto gehackt wurde, oder bei solchen, die die Grenzwerte abwarten, bevor sie Spam posten. Administratoren und alle, deren Gruppe Diskussionen ausblenden kann, werden in keinem Fall überwacht. Rechne mit mehr Fehlalarmen bei etablierten Mitgliedern, überprüfe daher deine Schwellenwerte, bevor du diese Funktion aktivierst.\n",
                     "monitor_post_count_label": "Benutzer bis zu dieser Beitragsanzahl überwachen",
                     "monitor_post_count_help": "Es werden nur Beiträge von Nutzern analysiert, die weniger als diese Anzahl an Beiträgen verfasst haben. Setze den Wert auf 0, um die Überprüfung der Beitragsanzahl zu deaktivieren.",
                     "monitor_hours_old_label": "Benutzer nach Registrierungsalter überwachen",
@@ -75,15 +77,35 @@
                     "region_us_label": "Vereinigte Staaten",
                     "confidence_label": "Konfidenz",
                     "confidence_help": "Der Konfidenzwert ist ein recht guter Indikator dafür, dass das untersuchte Feld zu unerwünschten Aktivitäten führen würde. Lege den Konfidenz-Schwellwert als Prozentwert fest. Wenn das Feld gleich oder über diesem Wert liegt, wird die Registrierung blockiert, unabhängig vom „Frequenz“-Test weiter oben.",
+                    "blocked_asns_label": "Gesperrte Netzwerknummern (ASNs)",
+                    "blocked_asns_help": "Eine pro Zeile oder durch Kommas getrennt. Registrierungen aus diesen Netzwerken werden grundsätzlich abgelehnt, unabhängig davon, ob die Adresse aufgeführt ist oder nicht. StopForumSpam gibt bei jeder Abfrage die Netzwerknummer zurück, und fast niemand besucht ein Forum über einen Hosting-Anbieter. Akzeptiert 31272 oder AS31272. Lasse das Feld leer, um das Netzwerk zu erfassen, ohne Maßnahmen zu ergreifen.",
+                    "max_listing_age_label": "Einträge ignorieren, die älter sind (in Tagen)",
+                    "max_listing_age_help": "Eine Sichtung von vor Jahren sagt wenig darüber aus, wer heute eine Registrierung vornimmt. 0 behält jeden Eintrag bei, egal wie alt er ist. Auf der schwarzen Liste stehende Domains und Netzwerke werden davon unberührt stets berücksichtigt.",
+                    "registration_throttle_label": "Sekunden zwischen Registrierungen von derselben Adresse",
+                    "registration_throttle_help": "Flarum begrenzt, wie oft jemand Beiträge verfassen kann, nicht jedoch, wie oft er Konten erstellen kann. Mit dem Wert 0 wird diese Funktion deaktiviert. Beachte, dass in Büros, Schulen und Mobilfunknetzen oft viele Personen dieselbe IP-Adresse nutzen.",
+                    "lookup_failed": "StopForumSpam konnte nicht erreicht werden (letzter Fehler {when}). Registrierungen werden bis zur Wiederherstellung ungeprüft zugelassen.",
                     "email_hash_label": "Gehashte E-Mail-Adresse verwenden",
                     "email_hash_help": "Es wird ein MD5-Hash der E-Mail-Adresse weiter gegeben, wenn du nicht die E-Mail-Adresse weitergeben möchtest. Diese Methode umgeht alle Tests auf Blockierlisten, Normalisierung und Verschleierungsprüfungen.",
                     "block_tor_exit_nodes_label": "Tor-Ausgangsknoten blockieren",
                     "block_tor_exit_nodes_help": "Wenn aktiviert, werden Registrierungen von bekannten Tor-Ausgangsknoten automatisch blockiert. Dies kann dazu beitragen, anonyme Spam-Registrierungen zu verhindern, kann aber auch legitime Nutzer ausschließen, die Tor zum Schutz ihrer Privatsphäre nutzen.",
                     "sfs_lookup_label": "Registrierungen überprüfen",
                     "sfs_lookup_help": "Wenn diese Option aktiviert ist, überprüfen wir die StopForumSpam-Datenbank, wenn sich ein neuer Benutzer in deinem Forum registriert. Wenn der Benutzer gefunden wird (Benutzername, IP-Adresse, E-Mail) und dieser Punkt aktiviert sowie die Vertrauensstufe die von dir festgelegte Stufe erreicht, wird er daran gehindert, seine Registrierung abzuschließen.",
-                    "report_blocked_registrations_label": "Melde blockierte Registrierungen",
+                    "report_blocked_registrations_label": "Blockierte Registrierungen melden",
                     "report_blocked_registrations_help": "Wenn eine Registrierung durch die Spam-Prüfung blockiert wird, melden wir den Versuch an StopForumSpam zurück, damit die Aktivität des Spammers besser bestätigt werden kann. Dazu muss ein StopForumSpam-API-Schlüssel festgelegt werden (siehe unten)."
                 }
+            },
+            "statistics": {
+                "heading": "Spamabwehr",
+                "total_label": "Insgesamt",
+                "registrations_blocked": "Registrierungen blockiert",
+                "users_marked": "Benutzer als Spammer markiert",
+                "posts_flagged": "Beiträge als Spam markiert",
+                "awaiting_review": "Markiert zur Überprüfung ausstehend",
+                "this_week": "{count, plural, one {# diese Woche} other {# diese Woche}}",
+                "vs_last_week": "Verglichen mit den vorherigen sieben Tagen",
+                "top_reason": "Am häufigsten: {reason} ({count, plural, one {# Block} other {# Blöcke}})",
+                "view_all": "Blockierte Registrierungen anzeigen",
+                "failed": "Spam-Statistiken konnten nicht geladen werden."
             },
             "blocked_registrations": {
                 "button": "Blockierte Registrierungen",
@@ -97,7 +119,62 @@
                 "login-provider": "Anmeldeanbieter",
                 "login-provider-data": "Daten des Loginanbieters",
                 "sfs-data": "StopForumSpam-Daten",
-                "delete_entry": "Eintrag löschen"
+                "reasons": "Aufgenommene Gründe für Blockierung",
+                "delete_entry": "Eintrag löschen",
+                "total": "{count, plural, one {# blockierte Registrierung} other {# blockierte Registrierungen}}",
+                "filters": {
+                    "placeholder": "Suche, oder filtere mit key:value",
+                    "apply": "Anwenden",
+                    "clear": "Suche löschen",
+                    "hint": "Filter:",
+                    "no-matches": "Es wurden keine blockierten Registrierungen gefunden, die dieser Suche entsprechen.",
+                    "help": {
+                        "toggle": "Hilfe zur Suche",
+                        "multiple": "Kombiniere Filter, indem du sie durch Leerzeichen voneinander trennst.",
+                        "negate": "Stelle einem Filter ein „-“ voran, um Treffer auszuschließen, z. B. -provider:github",
+                        "ip": "Registrierungsversuche von einer bestimmten IP-Adresse.",
+                        "email": "Registrierungsversuche mit einer bestimmten E-Mail-Adresse.",
+                        "username": "Registrierungsversuche mit einem bestimmten Benutzernamen.",
+                        "provider": "Der Anmeldeanbieter, über den der Versuch erfolgte.",
+                        "reason": "Die Regel, die den Versuch blockiert hat. Wird nur für kürzlich erfolgte Blockierungen erfasst.",
+                        "attemptedAt": "Ein Datum oder ein Zeitraum, z. B. 2026-01-01..2026-02-01. Eine der beiden Seiten kann offen bleiben."
+                    }
+                },
+                "evidence": {
+                    "label": "Warum diese blockiert wurde",
+                    "none": "Für diesen Versuch wurden keine StopForumSpam-Daten erfasst.",
+                    "lookup_failed": "Die Abfrage bei StopForumSpam ist fehlgeschlagen, daher wurden für diesen Versuch keine Daten zurückgegeben.",
+                    "blocked_by": "Blockiert von",
+                    "rule": {
+                        "confidence": "Konfidenzschwelle",
+                        "frequency": "Berichtsschwelle",
+                        "blacklisted": "Auf der schwarzen Liste",
+                        "torExit": "Tor-Ausgangsknoten",
+                        "deniedAsn": "Abgelehntes Netzwerk"
+                    },
+                    "field": {
+                        "ip": "IP",
+                        "email": "E-Mail",
+                        "username": "Benutzername"
+                    },
+                    "badge": {
+                        "blacklisted": "Auf der schwarzen Liste",
+                        "tor_exit": "Tor-Ausgangsknoten",
+                        "not_listed": "Kein Treffer",
+                        "confidence": "{value} % Konfidenz",
+                        "frequency": "{count, plural, one {# Mal gemeldet} other {# Mal gemeldet}}",
+                        "last_seen": "zuletzt gesehen {when}",
+                        "asn": "AS{asn}",
+                        "normalized": "auf den Wert {value} normalisiert"
+                    }
+                },
+                "raw_data": {
+                    "button": "Rohdaten anzeigen",
+                    "title": "Aufgenommene Rohdaten",
+                    "copy": "Kopieren",
+                    "copied": "In die Zwischenablage kopiert.",
+                    "copy_failed": "Konnte nicht in die Zwischenablage kopiert werden."
+                }
             }
         },
         "forum": {
@@ -105,6 +182,9 @@
                 "flagged_as_spam_text": "Automatische Spam-Erkennung – Bewertung {score}"
             },
             "message": {
+                "profile": {
+                    "blocked": "Das sieht nach Spam aus, daher wurde es nicht gespeichert. Bitte entferne alle Links und Kontaktdaten und versuche es erneut."
+                },
                 "stopforumspam": {
                     "blocked": "Details deiner Registrierung wurden ein einer Datenbank zur Spamvermeidung gefunden, daher haben wir deine Registrierung abgelehnt."
                 }

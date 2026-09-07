@@ -2,8 +2,8 @@
 
 Translations for German (`de`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **314** are translated differently and **655** are
-translated only in `de`. Altogether they cover **93** components.
+sides, but do not match between them: **318** are translated differently and **676** are
+translated only in `de`. Altogether they cover **96** components.
 
 <!-- {% raw %} -->
 
@@ -20,6 +20,7 @@ translated only in `de`. Altogether they cover **93** components.
 | `datlechin-tag-passwords` | [13](#datlechin-tag-passwords) | 0 |
 | `ernestdefoe-aurora` | 0 | [20](#ernestdefoe-aurora-missing) |
 | `ffans-creator-declarations` | 0 | [73](#ffans-creator-declarations-missing) |
+| `ffans-geetest` | 0 | [15](#ffans-geetest-missing) |
 | `flarum-audit` | [1](#flarum-audit) | 0 |
 | `flarum-extension-manager` | [5](#flarum-extension-manager) | 0 |
 | `flarum-flags` | [4](#flarum-flags) | 0 |
@@ -28,7 +29,8 @@ translated only in `de`. Altogether they cover **93** components.
 | `flarum-statistics` | [1](#flarum-statistics) | 0 |
 | `flarum-sticky` | [6](#flarum-sticky) | 0 |
 | `flarum-tags` | [31](#flarum-tags) | 0 |
-| `fof-anti-spam` | [7](#fof-anti-spam) | 0 |
+| `flectar-turnstile` | 0 | [2](#flectar-turnstile-missing) |
+| `fof-anti-spam` | [8](#fof-anti-spam) | 0 |
 | `fof-badges` | [6](#fof-badges) | 0 |
 | `fof-best-answer` | [7](#fof-best-answer) | 0 |
 | `fof-blog` | [2](#fof-blog) | 0 |
@@ -41,7 +43,7 @@ translated only in `de`. Altogether they cover **93** components.
 | `fof-doorman` | [1](#fof-doorman) | 0 |
 | `fof-filter` | [4](#fof-filter) | 0 |
 | `fof-gamification` | [9](#fof-gamification) | 0 |
-| `fof-geoip` | [2](#fof-geoip) | 0 |
+| `fof-geoip` | [4](#fof-geoip) | 0 |
 | `fof-horizon` | [1](#fof-horizon) | 0 |
 | `fof-impersonate` | [1](#fof-impersonate) | 0 |
 | `fof-links` | [2](#fof-links) | 0 |
@@ -52,6 +54,7 @@ translated only in `de`. Altogether they cover **93** components.
 | `fof-move-posts` | [2](#fof-move-posts) | 0 |
 | `fof-oauth` | [3](#fof-oauth) | 0 |
 | `fof-polls` | [5](#fof-polls) | 0 |
+| `fof-pwa` | 0 | [2](#fof-pwa-missing) |
 | `fof-reactions` | [3](#fof-reactions) | 0 |
 | `fof-seo` | [3](#fof-seo) | 0 |
 | `fof-sitemap` | [3](#fof-sitemap) | 0 |
@@ -73,13 +76,13 @@ translated only in `de`. Altogether they cover **93** components.
 | `huseyinfiliz-leaderboard` | [5](#huseyinfiliz-leaderboard) | 0 |
 | `huseyinfiliz-sticky-title` | [2](#huseyinfiliz-sticky-title) | 0 |
 | `ianm-boring-avatars` | [1](#ianm-boring-avatars) | 0 |
-| `ianm-follow-users` | [1](#ianm-follow-users) | 0 |
+| `ianm-follow-users` | [2](#ianm-follow-users) | 0 |
 | `ianm-syndication` | [7](#ianm-syndication) | 0 |
 | `ianm-twofactor` | [3](#ianm-twofactor) | 0 |
 | `justoverclock-related-discussions` | [2](#justoverclock-related-discussions) | 0 |
 | `justoverclock-welcomebox` | [2](#justoverclock-welcomebox) | 0 |
 | `linkrobins-badge-labels` | 0 | [34](#linkrobins-badge-labels-missing) |
-| `linkrobins-birdseye` | [3](#linkrobins-birdseye) | 0 |
+| `linkrobins-birdseye` | [3](#linkrobins-birdseye) | [2](#linkrobins-birdseye-missing) |
 | `linkrobins-link-gate` | 0 | [12](#linkrobins-link-gate-missing) |
 | `maicol07-sso` | 0 | [13](#maicol07-sso-missing) |
 | `michaelbelgium-ai-autoreply` | 0 | [22](#michaelbelgium-ai-autoreply-missing) |
@@ -1047,6 +1050,17 @@ Dadurch werden alle Diskussionen, die von diesem Benutzer begonnen wurden, in di
 
 Diskussionen in <del>Themen</del><ins>Tags</ins> verschieben
 
+#### [`fof-anti-spam.admin.settings.stopforumspam.report_blocked_registrations_label`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/de/?q=context%3A%3D%22fof-anti-spam.admin.settings.stopforumspam.report_blocked_registrations_label%22)
+
+> Report blocked registrations
+
+```diff
+-Melde blockierte Registrierungen
++Blockierte Registrierungen melden
+```
+
+<del>Melde blockierte</del><ins>Blockierte</ins> Registrierungen<ins> melden</ins>
+
 #### [`fof-anti-spam.forum.spammer_modal.move_discussions_tag_help`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/de/?q=context%3A%3D%22fof-anti-spam.forum.spammer_modal.move_discussions_tag_help%22)
 
 > This will move all discussions started by this user to the tag you specified in the forum settings. When disabled, discussions will be left in their current tags.
@@ -1667,6 +1681,28 @@ Noch keine <del>Wähler</del><ins>Abstimmenden</ins>
 
 ### `fof-geoip`
 
+#### [`fof-default-user-preferences.admin.settings.showIPCountry`](https://weblate.rob006.net/translate/flarum2/fof-geoip/de/?q=context%3A%3D%22fof-default-user-preferences.admin.settings.showIPCountry%22)
+
+> Show the flag of the country the user posts from
+
+```diff
+-Zeigt die Flagge des Landes, aus dem der Benutzer postet
++Flagge des Landes anzeigen, aus dem der Benutzer postet
+```
+
+<del>Zeigt die </del>Flagge des <del>Landes,</del><ins>Landes anzeigen,</ins> aus dem der Benutzer postet
+
+#### [`fof-default-user-preferences.admin.settings.showIPCountry-help`](https://weblate.rob006.net/translate/flarum2/fof-geoip/de/?q=context%3A%3D%22fof-default-user-preferences.admin.settings.showIPCountry-help%22)
+
+> This is based on their IP address at the time of posting. The country flag (if enabled) will be visible to all users. Admin users and moderators will see the IP address in the tooltip.
+
+```diff
+-Dies basiert auf ihrer IP-Adresse zum Zeitpunkt der Veröffentlichung. Die Landesflagge (falls aktiviert) ist für alle Benutzer sichtbar. Administratoren und Moderatoren sehen die IP-Adresse im Tooltip.
++Dies basiert auf der IP-Adresse zum Zeitpunkt der Veröffentlichung. Die Landesflagge (falls aktiviert) ist für alle Benutzer sichtbar. Administratoren und Moderatoren sehen die IP-Adresse im Tooltip.
+```
+
+Dies basiert auf <del>ihrer</del><ins>der</ins> IP-Adresse zum Zeitpunkt der Veröffentlichung. Die Landesflagge (falls aktiviert) ist für alle Benutzer sichtbar. Administratoren und Moderatoren sehen die IP-Adresse im Tooltip.
+
 #### [`fof-geoip.admin.settings.service_ipapi-pro_label`](https://weblate.rob006.net/translate/flarum2/fof-geoip/de/?q=context%3A%3D%22fof-geoip.admin.settings.service_ipapi-pro_label%22)
 
 > IP Api Pro
@@ -1752,11 +1788,11 @@ Links sind standardmässig nur für &lt;code&gt;{admin}&lt;/code&gt;-Nutzer sich
 
 ```diff
 -Überprüfe die unterstützten <a>Laravel-Validierungsregeln</a>. ZB: "string|min:5" oder "url".
-+Überprüfe die unterstützten <a>Laravel-Validierungsregeln</a>. Z. B.: "string|min:5" oder "url".
++Wende die unterstützten <a>Laravel-Validierungsregeln</a> an. Z. B.: „string|min:5“ oder „url“.
 
 ```
 
-Überprüfe die unterstützten &lt;a&gt;Laravel-Validierungsregeln&lt;/a&gt;. <del>ZB:</del><ins>Z. B.:</ins> "string\|min:5" oder "url".<br />
+<del>Überprüfe</del><ins>Wende</ins> die unterstützten <del>&lt;a&gt;Laravel-Validierungsregeln&lt;/a&gt;.</del><ins>&lt;a&gt;Laravel-Validierungsregeln&lt;/a&gt;</ins> <del>ZB:</del><ins>an.</ins> <del>"string\|min:5"</del><ins>Z. B.: „string\|min:5“</ins> oder <del>"url".</del><ins>„url“.</ins><br />
 
 #### [`fof-masquerade.forum.fields.select.none-required`](https://weblate.rob006.net/translate/flarum2/fof-masquerade/de/?q=context%3A%3D%22fof-masquerade.forum.fields.select.none-required%22)
 
@@ -2891,6 +2927,17 @@ Das <del>Theme</del><ins>Theme,</ins> welches für die Boring Avatars verwendet 
 
 
 ### `ianm-follow-users`
+
+#### [`ianm-follow-users.admin.permissions.be_followed_label`](https://weblate.rob006.net/translate/flarum2/ianm-follow-users/de/?q=context%3A%3D%22ianm-follow-users.admin.permissions.be_followed_label%22)
+
+> Allow users to follow
+
+```diff
+-Darf Benutzern folgen
++Benutzer dürfen folgen
+```
+
+<del>Darf</del><ins>Benutzer</ins> <del>Benutzern</del><ins>dürfen</ins> folgen
 
 #### [`ianm-follow-users.forum.followers`](https://weblate.rob006.net/translate/flarum2/ianm-follow-users/de/?q=context%3A%3D%22ianm-follow-users.forum.followers%22)
 
@@ -4475,6 +4522,167 @@ These strings are translated only in `de`, so there is nothing to inherit from F
 ```
 
 
+### `ffans-geetest` (missing)
+
+#### [`ffans-geetest.admin.settings.config.product_float_help_text`](https://weblate.rob006.net/translate/flarum2/ffans-geetest/de/?q=context%3A%3D%22ffans-geetest.admin.settings.config.product_float_help_text%22)
+
+> Switch from validation button to validation panel.
+
+```diff
++Umschalten zwischen Validierung per Schaltfläche oder Paneel.
+```
+
+#### [`ffans-geetest.admin.settings.config.product_help_text`](https://weblate.rob006.net/translate/flarum2/ffans-geetest/de/?q=context%3A%3D%22ffans-geetest.admin.settings.config.product_help_text%22)
+
+> Choose the presentation of the verify panel.
+
+```diff
++Wähle die Darstellungsart für das Verifikationspaneel.
+```
+
+#### [`ffans-geetest.admin.settings.config.standalone_help_text`](https://weblate.rob006.net/translate/flarum2/ffans-geetest/de/?q=context%3A%3D%22ffans-geetest.admin.settings.config.standalone_help_text%22)
+
+> Enable to use a standalone configuration for this scenario.
+
+```diff
++Eigenständige Konfiguration für dieses Szenario verwenden.
+```
+
+#### [`ffans-geetest.admin.settings.config.standalone_label`](https://weblate.rob006.net/translate/flarum2/ffans-geetest/de/?q=context%3A%3D%22ffans-geetest.admin.settings.config.standalone_label%22)
+
+> Standalone
+
+```diff
++Eigenständig
+```
+
+#### [`ffans-geetest.admin.settings.context_event_help_text`](https://weblate.rob006.net/translate/flarum2/ffans-geetest/de/?q=context%3A%3D%22ffans-geetest.admin.settings.context_event_help_text%22)
+
+> Enable to use GeeTest CAPTCHA into different context events or business types, you can set a standalone configuration for each context.
+
+```diff
++Um GeeTest CAPTCHA in verschiedenen Kontexten oder Geschäftsbereichen nutzen zu können, kannst du für jeden Kontext eine eigenständige Konfiguration festlegen.
+```
+
+#### [`ffans-geetest.admin.settings.context_event_label`](https://weblate.rob006.net/translate/flarum2/ffans-geetest/de/?q=context%3A%3D%22ffans-geetest.admin.settings.context_event_label%22)
+
+> Context Event
+
+```diff
++Kontextereignis
+```
+
+#### [`ffans-geetest.admin.settings.product_service_help_text`](https://weblate.rob006.net/translate/flarum2/ffans-geetest/de/?q=context%3A%3D%22ffans-geetest.admin.settings.product_service_help_text%22)
+
+> The version of GeeTest CAPTCHA you what to use.
+
+```diff
++Die Version von GeeTest CAPTCHA, die du verwenden möchtest.
+```
+
+#### [`ffans-geetest.admin.settings.product_service_v4_label`](https://weblate.rob006.net/translate/flarum2/ffans-geetest/de/?q=context%3A%3D%22ffans-geetest.admin.settings.product_service_v4_label%22)
+
+> Adaptive CAPTCHA (v4)
+
+```diff
++Adaptive CAPTCHA (v4)
+```
+
+#### [`ffans-geetest.admin.test.load_button`](https://weblate.rob006.net/translate/flarum2/ffans-geetest/de/?q=context%3A%3D%22ffans-geetest.admin.test.load_button%22)
+
+> Load
+
+```diff
++Laden
+```
+
+#### [`ffans-geetest.admin.test.reload_button`](https://weblate.rob006.net/translate/flarum2/ffans-geetest/de/?q=context%3A%3D%22ffans-geetest.admin.test.reload_button%22)
+
+> Reload
+
+```diff
++Neu laden
+```
+
+#### [`ffans-geetest.admin.test.title`](https://weblate.rob006.net/translate/flarum2/ffans-geetest/de/?q=context%3A%3D%22ffans-geetest.admin.test.title%22)
+
+> Test CAPTCHA
+
+```diff
++CAPTCHA testen
+```
+
+#### [`ffans-geetest.lib.verify.error_message`](https://weblate.rob006.net/translate/flarum2/ffans-geetest/de/?q=context%3A%3D%22ffans-geetest.lib.verify.error_message%22)
+
+> Validation failed.
+
+```diff
++Validierung fehlgeschlagen.
+```
+
+#### [`ffans-geetest.lib.verify.error_retry_message`](https://weblate.rob006.net/translate/flarum2/ffans-geetest/de/?q=context%3A%3D%22ffans-geetest.lib.verify.error_retry_message%22)
+
+> Validation failed, please try again.
+
+```diff
++Validierung fehlgeschlagen, bitte erneut versuchen.
+```
+
+#### [`ffans-geetest.lib.verify.required_message`](https://weblate.rob006.net/translate/flarum2/ffans-geetest/de/?q=context%3A%3D%22ffans-geetest.lib.verify.required_message%22)
+
+> Please complete the CAPTCHA.
+
+```diff
++Bitte löse das CAPTCHA.
+```
+
+#### [`ffans-geetest.lib.verify.success_message`](https://weblate.rob006.net/translate/flarum2/ffans-geetest/de/?q=context%3A%3D%22ffans-geetest.lib.verify.success_message%22)
+
+> Validation successful.
+
+```diff
++Validierung erfolgreich.
+```
+
+
+### `flectar-turnstile` (missing)
+
+#### [`validation.custom.turnstile.required`](https://weblate.rob006.net/translate/flarum2/flectar-turnstile/de/?q=context%3A%3D%22validation.custom.turnstile.required%22)
+
+> Please complete the Turnstile challenge.
+
+```diff
++Bitte die Turnstile-Prüfung abschließen.
+```
+
+#### [`validation.custom.turnstileToken.required`](https://weblate.rob006.net/translate/flarum2/flectar-turnstile/de/?q=context%3A%3D%22validation.custom.turnstileToken.required%22)
+
+> Please complete the Turnstile challenge.
+
+```diff
++Bitte die Turnstile-Prüfung abschließen.
+```
+
+
+### `fof-pwa` (missing)
+
+#### [`fof-pwa.admin.pwa.other.share_buttons_label`](https://weblate.rob006.net/translate/flarum2/fof-pwa/de/?q=context%3A%3D%22fof-pwa.admin.pwa.other.share_buttons_label%22)
+
+> Enable share buttons
+
+```diff
++Schaltflächen „Teilen“ hinzufügen
+```
+
+#### [`fof-pwa.admin.pwa.other.share_buttons_text`](https://weblate.rob006.net/translate/flarum2/fof-pwa/de/?q=context%3A%3D%22fof-pwa.admin.pwa.other.share_buttons_text%22)
+
+> If enabled, a "Share" button will be added to discussions, posts, and users.
+
+```diff
++Wenn aktiviert, wird Diskussionen, Beiträgen und Benutzerseiten eine „Teilen“-Schaltfläche hinzugefügt.
+```
+
+
 ### `forumaker-magicbb` (missing)
 
 #### [`forumaker-magicbb.admin.permissions.bypass_like`](https://weblate.rob006.net/translate/flarum2/forumaker-magicbb/de/?q=context%3A%3D%22forumaker-magicbb.admin.permissions.bypass_like%22)
@@ -5655,6 +5863,25 @@ These strings are translated only in `de`, so there is nothing to inherit from F
 
 ```diff
 +{count, plural, one {# Beitrag} other {# Beiträge}}
+```
+
+
+### `linkrobins-birdseye` (missing)
+
+#### [`linkrobins-birdseye.admin.settings.geoip_db_path_help`](https://weblate.rob006.net/translate/flarum2/linkrobins-birdseye/de/?q=context%3A%3D%22linkrobins-birdseye.admin.settings.geoip_db_path_help%22)
+
+> Full path on this server to a MaxMind country database, such as the free GeoLite2-Country.mmdb (download it from maxmind.com under your own account). Used only when no trusted proxy header supplies the country; every lookup happens on this server.
+
+```diff
++Vollständiger Pfad auf diesem Server zu einer MaxMind-Länderdatenbank, beispielsweise der kostenlosen Datei „GeoLite2-Country.mmdb“ (die du unter deinem eigenen Konto von maxmind.com herunterladen kannst). Wird nur verwendet, wenn kein vertrauenswürdiger Proxy-Header das Land angibt; jede Auflösung erfolgt lokal auf diesem Server.
+```
+
+#### [`linkrobins-birdseye.admin.settings.geoip_db_path_label`](https://weblate.rob006.net/translate/flarum2/linkrobins-birdseye/de/?q=context%3A%3D%22linkrobins-birdseye.admin.settings.geoip_db_path_label%22)
+
+> Country database file (optional)
+
+```diff
++Datei mit Länderdatenbank (optional)
 ```
 
 

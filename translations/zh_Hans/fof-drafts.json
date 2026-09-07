@@ -2,18 +2,18 @@
     "fof-drafts": {
         "admin": {
             "permissions": {
-                "start": "新建草稿",
-                "schedule": "定时发布"
+                "start": "创建草稿",
+                "schedule": "定时发布草稿"
             },
             "settings": {
-                "title": "FoF 草稿箱",
-                "enable_scheduled_drafts": "启用定时发布功能",
-                "schedule_on_one_server": "将使用 onOneServer() 方法用于计划任务（需要 Redis/Memcache）",
-                "schedule_log_output": "保存计划任务日志"
+                "title": "FoF 草稿",
+                "enable_scheduled_drafts": "启用定时发布",
+                "schedule_on_one_server": "任务调度使用「onOneServer()」，需要 Redis/Memcache",
+                "schedule_log_output": "保存任务调度日志"
             }
         },
         "console": {
-            "scheduled_drafts_disabled": "定时发布功能已被禁用。",
+            "scheduled_drafts_disabled": "尚未启用草稿定时发布功能。",
             "no_title_error": "已跳过草稿：缺少讨论标题。"
         },
         "ref": {
@@ -24,42 +24,42 @@
                 "title": "保存草稿",
                 "saving": "正在保存…",
                 "saved": "保存成功！",
-                "exit_alert": "确定放弃对草稿的更改吗？",
-                "discard_empty_draft_alert": "丢弃空草稿？"
+                "exit_alert": "放弃草稿更改？",
+                "discard_empty_draft_alert": "丢弃空白草稿？"
             },
             "dropdown": {
-                "empty_text": "您还没有草稿",
+                "empty_text": "暂无保存的草稿",
                 "title": "草稿",
-                "delete_all_button": "删除所有草稿",
+                "delete_all_button": "删除全部草稿",
                 "delete_button": "删除草稿",
                 "schedule_button": "=> fof-drafts.ref.schedule_draft",
                 "scheduled_icon_tooltip": "{datetime} 发布",
-                "scheduled_icon_tooltip_formatter": "LL [at] LT",
+                "scheduled_icon_tooltip_formatter": "L LT",
                 "tooltip": "=> fof-drafts.forum.dropdown.title",
-                "alert": "确定要删除草稿吗？",
-                "delete_all_alert": "确定要删除所有草稿吗？"
+                "alert": "确定要删除此草稿吗？",
+                "delete_all_alert": "确定要删除全部草稿吗？"
             },
             "schedule_draft_modal": {
                 "title": "=> fof-drafts.ref.schedule_draft",
-                "text": "选择一个稍后的时间自动发布您的草稿！",
-                "scheduled_text": "定时发布于 {datetime}。",
-                "scheduled_error": "定时发布失败：{error}。",
-                "unschedule_button": "取消定时",
-                "unschedule_warning": "确定要取消定时发布这个草稿？",
+                "text": "在指定时间自动发布草稿。",
+                "scheduled_text": "当前定于 {datetime} 发布。",
+                "scheduled_error": "无法定时发布草稿：{error}。",
+                "unschedule_button": "取消定时发布",
+                "unschedule_warning": "确定要取消此草稿的定时发布吗？",
                 "reschedule_button": "重新定时",
-                "schedule_button": "定时",
+                "schedule_button": "定时发布",
                 "schedule_time_preview": "此草稿将于 <b>{datetime}</b> 自动发布。",
-                "schedule_time_preview_formatter": "llll",
-                "schedule_time_preview_invalid": "无效的日期或时间",
-                "no_title_error": "设定定时发布前，必须填写讨论标题。"
+                "schedule_time_preview_formatter": "LLLL",
+                "schedule_time_preview_invalid": "日期或时间无效",
+                "no_title_error": "定时发布前请先填写讨论标题。"
             },
             "user": {
                 "settings": {
-                    "drafts_heading": "草稿箱",
-                    "draft_autosave_enable": "开启草稿自动保存？",
+                    "drafts_heading": "草稿",
+                    "draft_autosave_enable": "启用草稿自动保存",
                     "draft_autosave_interval_label": "自动保存频率（秒）",
                     "draft_autosave_interval_button": "更新频率",
-                    "draft_autosave_interval_invalid": "请输入大于4的整数。"
+                    "draft_autosave_interval_invalid": "请输入大于 4 的整数。"
                 }
             }
         }
@@ -67,8 +67,8 @@
     "fof-default-user-preferences": {
         "admin": {
             "settings": {
-                "draftAutosaveEnable": "默认开启草稿自动保存",
-                "draftAutosaveInterval": "默认自动保存间隔（秒）"
+                "draftAutosaveEnable": "默认启用草稿自动保存",
+                "draftAutosaveInterval": "默认自动保存频率（秒）"
             }
         }
     },
@@ -76,7 +76,7 @@
         "lib": {
             "data": {
                 "drafts": {
-                    "export_description": "用户创建的所有草稿。",
+                    "export_description": "导出用户创建的所有草稿。",
                     "delete_description": "删除用户创建的所有草稿。"
                 }
             }

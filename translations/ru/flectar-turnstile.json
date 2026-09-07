@@ -18,6 +18,14 @@
     },
     "validation": {
         "turnstile": "Не удалось подтвердить, что вы не робот. Пожалуйста, обновите страницу и попробуйте снова.",
+        "custom": {
+            "turnstileToken": {
+                "required": ""
+            },
+            "turnstile": {
+                "required": ""
+            }
+        },
         "required": "Пожалуйста, пройдите проверку Cloudflare Turnstile."
     }
 }

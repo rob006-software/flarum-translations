@@ -2,30 +2,30 @@
     "flarum-suspend": {
         "admin": {
             "permissions": {
-                "suspend_users_label": "Avstängda användare"
+                "suspend_users_label": "Stäng av användare"
             }
         },
         "forum": {
             "notifications": {
-                "user_suspended_text": "Du har blivit avstängd i {timeReadable}",
-                "user_suspended_indefinite_text": "",
+                "user_suspended_text": "Du har blivit stängts av i {timeReadable}",
+                "user_suspended_indefinite_text": "Du har stängts av på obestämd tid",
                 "user_unsuspended_text": "{username} upphävde avstängningen"
             },
             "suspension_info": {
-                "dismiss_button": "",
-                "indefinite": "",
-                "limited": "",
-                "title": ""
+                "dismiss_button": "Avfärda",
+                "indefinite": "Detta är en avstängning på obestämd tid",
+                "limited": "Denna avstängning gäller till och med {datum}",
+                "title": "Detta konto är avstängt"
             },
             "suspend_user": {
-                "display_message": "",
+                "display_message": "Visa meddelande för användaren",
                 "indefinitely_label": "Avstängd på obestämd tid",
                 "limited_time_days_text": " dagar",
-                "limited_time_label": "Stäng av under begränsad tid...",
+                "limited_time_label": "Stäng av under en begränsad tid...",
                 "not_suspended_label": "Inte avstängd",
-                "placeholder_optional": "",
-                "reason": "",
-                "status_heading": "Avstängningens status",
+                "placeholder_optional": "Valfri",
+                "reason": "Orsak till avstängning",
+                "status_heading": "Status för avstängning",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "Stäng av {username}"
             },
@@ -37,23 +37,23 @@
             }
         },
         "email": {
-            "no_reason_given": "",
+            "no_reason_given": "Ingen anledning angavs till denna avstängning.",
             "suspended": {
-                "subject": "",
+                "subject": "Ditt konto har stängts av",
                 "plain": {
-                    "body": ""
+                    "body": "Du har blivit avstängd av följande anledning:\n\n---\n{suspension_message}\n---\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "Du har stängts av från {forumTitle} av följande anledning:"
                 }
             },
             "unsuspended": {
-                "subject": "",
+                "subject": "Ditt konto har återaktiverats",
                 "plain": {
-                    "body": ""
+                    "body": "Din avstängning har hävts. Du kan återvända till forumet genom att klicka på följande länk:\n\n{forum_url}\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "Din avstängning har hävts. Du kan återvända till [{forumTitle}]({forum_url}) när du är redo."
                 }
             }
         },
@@ -61,7 +61,7 @@
             "gambits": {
                 "users": {
                     "suspended": {
-                        "key": ""
+                        "key": "avstängd"
                     }
                 }
             }
@@ -71,8 +71,8 @@
         "lib": {
             "browser": {
                 "user": {
-                    "suspended": "",
-                    "unsuspended": ""
+                    "suspended": "Stängde av {username} till {until}",
+                    "unsuspended": "Avstängningen för {username} har hävts"
                 }
             }
         }

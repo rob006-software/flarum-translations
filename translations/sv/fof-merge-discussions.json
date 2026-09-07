@@ -2,59 +2,59 @@
     "fof-merge-discussions": {
         "forum": {
             "modal": {
-                "title": "",
-                "search_discussions_placeholder": "",
-                "ordering_heading": "",
-                "ordering_date_label": "",
-                "ordering_date_help": "",
-                "ordering_suffix_label": "",
-                "ordering_suffix_help": "",
-                "type_heading": "",
-                "type_target_label": "",
-                "type_target_help_text": "",
-                "type_from_label": "",
-                "type_from_help_text": "",
-                "load_preview_button": "",
-                "submit_button": ""
+                "title": "Sammanfoga diskussioner",
+                "search_discussions_placeholder": "Sök i diskussioner...",
+                "ordering_heading": "Sortering vid sammanfogning",
+                "ordering_date_label": "Sammanfoga inlägg efter skapandedatum",
+                "ordering_date_help": "Inläggen i måldiskussionen sorteras om utifrån sina respektive skapandedatum",
+                "ordering_suffix_label": "Lägg till sammanfogade inlägg sist i diskussionen",
+                "ordering_suffix_help": "Inlägg som sammanfogas in i den kvarvarande diskussionen kommer att läggas till sist i diskussionen",
+                "type_heading": "Sammanfogningstyp",
+                "type_target_label": "Sammanfoga till mig",
+                "type_target_help_text": "Välj diskussion(er) att sammanfoga med {title}.",
+                "type_from_label": "Sammanfoga den här diskussionen med en annan",
+                "type_from_help_text": "Välj måldiskussion att sammanfoga {title} med.",
+                "load_preview_button": "Förhandsgranska",
+                "submit_button": "=> fof-merge-discussions.ref.merge"
             },
             "notification": {
-                "discussion_merged": "",
+                "discussion_merged": "Din diskussion {oldTitle} sammanfogades med denna diskussion av {username}.",
                 "preferences": {
-                    "discussion_merged": ""
+                    "discussion_merged": "Någon sammanfogar en av mina diskussioner med en annan"
                 }
             },
             "discussion": {
-                "merge": ""
+                "merge": "=> fof-merge-discussions.ref.merge"
             },
             "post": {
-                "merged": ""
+                "merged": "{count, plural, one {Sammanfogade ett inlägg från {titles}.} other {Sammanfogade {count} inlägg från {titles}.}}"
             }
         },
         "admin": {
             "permissions": {
-                "merge_discussions_label": ""
+                "merge_discussions_label": "Sammanfogade diskussioner"
             },
             "settings": {
-                "search_result_help": "",
-                "search_result_label": ""
+                "search_result_help": "Hur många diskussioner som ska visas vid sökning i ”Sammanfoga diskussioner”.",
+                "search_result_label": "Gräns för sökning i sammanfogning av diskussioner"
             }
         },
         "api": {
             "error": {
-                "merging_failed": "",
-                "updating_failed": "",
-                "deleting_failed": "",
-                "fixing_posts_number_failed": "",
-                "fixing_posts_number_meta_failed": ""
+                "merging_failed": "Det gick inte att sammanfoga diskussionerna.",
+                "updating_failed": "Det gick inte att uppdatera diskussionsdetaljerna.",
+                "deleting_failed": "Det gick inte att ta bort tomma diskussioner.",
+                "fixing_posts_number_failed": "Det gick inte att korrigera inläggsnumren.",
+                "fixing_posts_number_meta_failed": "Det gick inte att korrigera inläggsnumren."
             }
         },
         "ref": {
-            "merge": ""
+            "merge": "Sammanfoga"
         },
         "email": {
             "merged": {
-                "body": "",
-                "subject": ""
+                "body": "Din diskussion, {merged_discussion_title}, sammanfogades med {discussion_title} av {actor_display_name}.\n\nSe den här: {discussion_url} .\n",
+                "subject": "Din diskussion ”{merged_discussion_title}” sammanfogades"
             }
         }
     },
@@ -62,8 +62,8 @@
         "lib": {
             "browser": {
                 "discussion": {
-                    "merged_away": "",
-                    "merged_into": ""
+                    "merged_away": "Sammanfogade {discussion} med {new_discussion}",
+                    "merged_into": "Sammanfogade {post_count} inlägg från {original_discussion_ids_count} diskussioner till {discussion}"
                 }
             }
         }

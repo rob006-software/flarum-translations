@@ -1,6 +1,9 @@
 {
     "fof-masquerade": {
         "forum": {
+            "profile": {
+                "empty-text": ""
+            },
             "alerts": {
                 "profile-completion-required": "Lütfen aşağıdaki gerekli alanları doldurun.\n",
                 "profile-completed": "Profil tamamlandı! <a>Ana sayfaya gidin</a>"
@@ -37,6 +40,9 @@
                 "create": "",
                 "edit": "Alan düzenle {field}",
                 "delete-confirmation": "{field} alanını silmek istediğinize emin misiniz? Bu işlem geri alınamaz.",
+                "is_restricted": "",
+                "permissions": "",
+                "permissions-alert": "",
                 "name": "Alan adı",
                 "name-help": "Herkes tarafından görülebilen (çevrilmeyen) alan.\n",
                 "description": "Alan açıklaması",
@@ -67,7 +73,8 @@
         "lib": {
             "gambits": {
                 "answer": {
-                    "key": ""
+                    "key": "",
+                    "hint": ""
                 }
             }
         }

@@ -1,9 +1,19 @@
 {
     "core": {
+        "ref": {
+            "most_viewed": "Most Viewed",
+            "least_viewed": "Least Viewed"
+        },
         "forum": {
             "index_sort": {
-                "most_viewed_button": "Most Viewed",
-                "least_viewed_button": "Least Viewed"
+                "most_viewed_button": "=> core.ref.most_viewed",
+                "least_viewed_button": "=> core.ref.least_viewed"
+            }
+        },
+        "lib": {
+            "index_sort": {
+                "most_viewed_button": "=> core.ref.most_viewed",
+                "least_viewed_button": "=> core.ref.least_viewed"
             }
         }
     },

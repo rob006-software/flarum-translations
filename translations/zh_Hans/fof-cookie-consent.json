@@ -1,0 +1,89 @@
+{
+    "fof-cookie-consent": {
+        "admin": {
+            "settings": {
+                "configuration_title": "常规设置",
+                "configuration_button_title": "了解更多",
+                "text_help": "提示语句支持多语言。如需自定义，可通过 FoF Linguist 或语言包覆盖。\n",
+                "learnMoreLinkUrl": "链接地址",
+                "learnMoreLinkUrl_help": "留空则不显示「了解更多」链接。",
+                "appearance_title": "外观",
+                "layout": "布局",
+                "layout_help": "设置 Cookie 提示框的样式。",
+                "position": "位置",
+                "equalWeightButtons": "接受和拒绝按钮同等醒目",
+                "equalWeightButtons_help": "推荐开启。接受和拒绝按钮使用相同视觉权重，避免诱导访客点击接受 Cookie。",
+                "colors_help": "提示框默认跟随论坛主题外观，包括深色模式。请仅在需要自定义时设置颜色，留空则自动继承。\n",
+                "catchall_title": "未声明 Cookie",
+                "sweepUndeclared": "清理未声明 Cookie",
+                "sweepUndeclared_help": "访客拒绝 Cookie 时，同时清除未通过本扩展声明的 Cookie。此功能可以清理尚未适配本扩展的跟踪 Cookie，但也可能误删其他扩展正常运行所需的 Cookie，导致功能异常。可使用下方白名单排除需要保留的 Cookie。\n",
+                "allowedCookies": "始终保留的 Cookie",
+                "allowedCookies_help": "每行填写一个 Cookie 名称。使用斜杠可填写匹配规则，例如 /^app_/。\nFlarum 自身设置的 Cookie 无需设置，始终会被保留。\n",
+                "theme_popup_title": "提示框颜色",
+                "backgroundColor": "背景",
+                "textColor": "文本",
+                "theme_dismiss_title": "按钮颜色",
+                "buttonBackgroundColor": "背景",
+                "buttonTextColor": "文本",
+                "layouts": {
+                    "box": "方框",
+                    "box_wide": "宽方框",
+                    "box_inline": "行内方框",
+                    "cloud": "炫富",
+                    "cloud_inline": "行内悬浮",
+                    "bar": "横幅",
+                    "bar_inline": "行内横幅"
+                },
+                "positions": {
+                    "top_left": "左上",
+                    "top_center": "顶部居中",
+                    "top_right": "右上",
+                    "middle_left": "左侧居中",
+                    "middle_center": "页面居中",
+                    "middle_right": "右侧居中",
+                    "bottom_left": "左下",
+                    "bottom_center": "底部居中",
+                    "bottom_right": "右下"
+                }
+            }
+        },
+        "forum": {
+            "banner": {
+                "description": "本站使用 Cookie 以提供更好的浏览体验。你可以管理偏好或接受全部 Cookie。",
+                "accept": "全部接受",
+                "decline": "全部拒绝",
+                "preferences": "管理偏好",
+                "learn_more": "了解更多"
+            },
+            "preferences": {
+                "title": "Cookie 偏好",
+                "save": "保存偏好",
+                "description": "Cookie 是网站保存在浏览器中的小型数据文件。你可以在下方查看本站使用的 Cookie 及其用途，并随时修改选择。",
+                "cookie_table": {
+                    "name": "Cookie",
+                    "description": "用途"
+                }
+            },
+            "cookies": {
+                "flarum_session": "在浏览论坛期间维持你的登录状态。",
+                "flarum_remember": "记住登录状态，下次访问时自动登录。",
+                "locale": "记住你选择的界面语言。",
+                "cc_cookie": "记住你的 Cookie 选择，避免重复询问。"
+            },
+            "categories": {
+                "necessary": {
+                    "title": "必要 Cookie",
+                    "description": "用于保障网站正常运行，包括登录、维持登录状态和记住 Cookie 选择等，因此无法关闭。"
+                },
+                "analytics": {
+                    "title": "数据分析",
+                    "description": "帮助我们了解论坛的使用情况并持续改进。关闭此类 Cookie 不会影响论坛正常使用。"
+                },
+                "marketing": {
+                    "title": "广告营销",
+                    "description": "用于衡量广告效果，并帮助广告平台在其他网站向你展示个性化广告。"
+                }
+            }
+        }
+    }
+}

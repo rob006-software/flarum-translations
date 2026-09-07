@@ -2,47 +2,47 @@
     "flarum-realtime": {
         "forum": {
             "push": {
-                "discussion-list-new-activity": "",
-                "discussion-list-new-activity-with-auto-release": ""
+                "discussion-list-new-activity": "{count, plural, one {Visa # uppdaterad diskussion} other {Visa # uppdaterade diskussioner}}",
+                "discussion-list-new-activity-with-auto-release": "{count, plural, one {# diskussion har} other {# diskussioner har}} uppdaterad aktivitet och kommer att visas om {releaseTimeout} sekunder. Klicka för att visa nu."
             },
             "typing-indicator": {
-                "anonymous-user": "",
-                "hidden-user": "",
-                "people-are-typing": "",
-                "users-are-typing": "",
-                "no-activity": ""
+                "anonymous-user": "[Dold]",
+                "hidden-user": "{username} (dold)",
+                "people-are-typing": "{number, plural, one {# person skriver} other {# personer skriver}}",
+                "users-are-typing": "{count, plural, one {{users} skriver} other {{users}{others, plural, =1 { & # annan} =0 {} other { & # andra}}} skriver}",
+                "no-activity": "Ingen skriver"
             },
             "index-typing": {
-                "someone-typing": "",
-                "someone-typing-tag": ""
+                "someone-typing": "Någon skriver i den här diskussionen",
+                "someone-typing-tag": "Någon skriver i den här taggen"
             },
             "user": {
                 "settings": {
-                    "heading": "",
+                    "heading": "Realtime",
                     "typing-indicator-type": {
-                        "help": "",
-                        "label": ""
+                        "help": "När funktionen är aktiverad visas vilka användare som skriver. Inaktivera den för att endast visa antalet användare som skriver.",
+                        "label": "Visa vem som skriver"
                     }
                 }
             }
         },
         "admin": {
             "permission": {
-                "view-who-types": ""
+                "view-who-types": "Se vem som skriver"
             },
             "settings": {
-                "release-discussion-updates": "",
-                "release-discussion-updates-help": "",
-                "release-discussion-updates-interval": "",
-                "release-discussion-updates-interval-help": "",
-                "notification-toast-dismiss-after": "",
-                "notification-toast-dismiss-after-help": "",
-                "typing-indicator": "",
-                "typing-indicator-help": "",
-                "index-typing-indicator": "",
-                "index-typing-indicator-help": "",
-                "index-typing-indicator-restricted": "",
-                "index-typing-indicator-restricted-help": ""
+                "release-discussion-updates": "Uppdateringar av diskussionslistan",
+                "release-discussion-updates-help": "När funktionen är aktiverad kommer nya diskussioner att läggas till i <code>diskussionslistan</code> med det intervall som anges nedan.",
+                "release-discussion-updates-interval": "Intervall för automatisk överföring av ny diskussionsaktivitet",
+                "release-discussion-updates-interval-help": "I sekunder. 0 innebär ingen automatisk push.",
+                "notification-toast-dismiss-after": "Varaktighet för meddelanderuta",
+                "notification-toast-dismiss-after-help": "Hur länge (i sekunder) en avisering i realtid visas på skärmen innan den stängs automatiskt. Ange 0 för att inaktivera aviseringar.",
+                "typing-indicator": "Indikator för pågående skrivning",
+                "typing-indicator-help": "När funktionen är aktiverad – och förutsatt att rätt behörighet finns – kan användare se hur många andra som för tillfället skriver i en diskussion. När den är inaktiverad tas information om skrivaktivitet bort både från användargränssnittet och från websocket-payloaden.",
+                "index-typing-indicator": "Indikator för pågående skrivande i diskussionslista",
+                "index-typing-indicator-help": "När funktionen är aktiverad visas en diskret ikon i diskussionslistan vid alla offentligt synliga diskussioner där någon för tillfället skriver. Inga namn visas.",
+                "index-typing-indicator-restricted": "Skrivindikator (prickar) i begränsade taggar på diskussionslistor",
+                "index-typing-indicator-restricted-help": "Visa även indikatorer för pågående skrivande vid diskussioner i begränsade taggar för användare som kan se dessa taggar. Kräver tillägget Tags. Avaktiverat som standard."
             }
         }
     }

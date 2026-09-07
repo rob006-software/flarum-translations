@@ -1,0 +1,99 @@
+{
+    "datlechin-keyboard-shortcuts": {
+        "admin": {
+            "behaviour_heading": "Behaviour",
+            "enabled_by_default_label": "Enable keyboard shortcuts",
+            "enabled_by_default_help": "Members can turn shortcuts off for themselves from their settings page.",
+            "allow_customization_label": "Let members choose their own keys",
+            "allow_customization_help": "When off, everyone uses the bindings you set below.",
+            "sequence_timeout_label": "Sequence timeout (ms)",
+            "sequence_timeout_help": "How long a multi-step shortcut such as \"G then H\" waits for its next key before starting over.",
+            "bindings_heading": "Shortcuts",
+            "bindings_help": "Select a shortcut, then press the keys you want for it. Press a second key straight after the first to build a sequence, such as G then H.",
+            "column_shortcut": "Shortcut",
+            "column_binding": "Keys",
+            "filter_placeholder": "Filter shortcuts",
+            "filter_clear_label": "Clear the filter",
+            "no_results": "No shortcut matches \"{query}\".",
+            "reset_title": "Reset keyboard shortcuts"
+        },
+        "forum": {
+            "modal": {
+                "title": "Keyboard shortcuts",
+                "filter_placeholder": "Search shortcuts",
+                "filter_clear_label": "Clear the search",
+                "no_results": "No shortcut matches \"{query}\".",
+                "enabled_label": "Keyboard shortcuts enabled",
+                "customize_button": "Customise"
+            },
+            "customize": {
+                "title": "Customise shortcuts",
+                "help": "Press the keys you want for a shortcut. Type a second key straight after the first to build a sequence, such as G then H.",
+                "submit_button": "Save shortcuts",
+                "reset_all_button": "Restore forum defaults",
+                "saved_message": "Your keyboard shortcuts have been saved.",
+                "group_has_conflict": "This group has shortcuts sharing the same keys.",
+                "unsaved": "{count, plural, one {# unsaved change} other {# unsaved changes}}"
+            },
+            "settings": {
+                "heading": "Keyboard shortcuts",
+                "enabled_label": "Use keyboard shortcuts",
+                "help": "Press {key} anywhere on the forum to see the full list.",
+                "view_button": "View shortcuts",
+                "customize_button": "Customise shortcuts"
+            }
+        },
+        "lib": {
+            "unbound": "Not set",
+            "binding_then": "then",
+            "binding_or": "or",
+            "recorder": {
+                "start_label": "Record a new shortcut",
+                "stop_label": "Stop recording",
+                "prompt": "Press keys…",
+                "clear_label": "Turn this shortcut off",
+                "reset_label": "Restore the default",
+                "recording_status": "Listening for keys.",
+                "conflict": "Also used by {shortcuts}."
+            },
+            "groups": {
+                "global": "Anywhere",
+                "navigation": "Go to",
+                "discussionList": "Discussion list",
+                "discussion": "Discussion",
+                "composer": "Composer"
+            },
+            "shortcuts": {
+                "help": "Show keyboard shortcuts",
+                "search": "Search",
+                "new_discussion": "Start a discussion",
+                "notifications": "Toggle notifications",
+                "flags": "Toggle flags",
+                "session": "Toggle the user menu",
+                "login": "Log in",
+                "signup": "Sign up",
+                "toggle_theme": "Switch colour scheme",
+                "back": "Go back",
+                "go_home": "All discussions",
+                "go_notifications": "Notifications",
+                "go_profile": "Your profile",
+                "go_settings": "Your settings",
+                "next_discussion": "Next discussion",
+                "previous_discussion": "Previous discussion",
+                "open_discussion": "Open the selected discussion",
+                "mark_all_as_read": "Mark all as read",
+                "refresh": "Refresh the list",
+                "reply": "Reply",
+                "follow": "Follow or unfollow",
+                "next_post": "Next post",
+                "previous_post": "Previous post",
+                "first_post": "Jump to the first post",
+                "last_post": "Jump to the last post",
+                "rename_discussion": "Rename the discussion",
+                "pin_nav": "Pin or unpin the discussion list",
+                "toggle_full_screen": "Toggle full screen",
+                "minimize_composer": "Minimise the composer"
+            }
+        }
+    }
+}

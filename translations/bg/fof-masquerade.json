@@ -1,6 +1,9 @@
 {
     "fof-masquerade": {
         "forum": {
+            "profile": {
+                "empty-text": ""
+            },
             "alerts": {
                 "profile-completion-required": "Моля, попълни необходимите полета на профила по-долу.\n",
                 "profile-completed": "Завършен профил! <a>Премини към начална страница</a>"
@@ -37,6 +40,9 @@
                 "create": "",
                 "edit": "",
                 "delete-confirmation": "",
+                "is_restricted": "",
+                "permissions": "",
+                "permissions-alert": "",
                 "name": "",
                 "name-help": "",
                 "description": "",
@@ -65,7 +71,8 @@
         "lib": {
             "gambits": {
                 "answer": {
-                    "key": ""
+                    "key": "",
+                    "hint": ""
                 }
             }
         }

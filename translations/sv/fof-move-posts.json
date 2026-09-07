@@ -2,66 +2,66 @@
     "fof-move-posts": {
         "admin": {
             "settings": {
-                "moved_first_post_content": "",
-                "moved_first_post_content_help": "",
-                "group_sequential_posts": ""
+                "moved_first_post_content": "Innehåll i flyttad diskussion (första inlägget)",
+                "moved_first_post_content_help": "När en diskussion bara består av ett enda inlägg kommer en flytt av inlägget att leda till att den ursprungliga diskussionens första inlägg redigeras så att det hänvisar till den nya diskussionen. Du kan redigera innehållet i det inlägget här.\n",
+                "group_sequential_posts": "Gruppera sekventiella flyttade inlägg till ett enda inlägg."
             },
             "permissions": {
-                "move_posts": ""
+                "move_posts": "=> fof-move-posts.ref.move_posts"
             }
         },
         "forum": {
             "badge": {
-                "first_moved_tooltip": ""
+                "first_moved_tooltip": "Flyttad(e)"
             },
             "discussion": {
-                "move_posts": ""
+                "move_posts": "=> fof-move-posts.ref.move_posts"
             },
             "error": {
-                "move_old_post_to_newer_discussion": "",
-                "move_posts_to_same_discussion": ""
+                "move_old_post_to_newer_discussion": "=> fof-move-posts.ref.status.old_to_new_move",
+                "move_posts_to_same_discussion": "Du kan inte flytta inlägg till samma diskussion."
             },
             "modal": {
-                "check": "",
-                "destination": "",
-                "discussion_help": "",
-                "discussion_name": "",
-                "new_discussion": "",
-                "selected_posts": "",
+                "check": "Kontrollera operationstyp",
+                "destination": "Måldiskussion",
+                "discussion_help": "Etiketterna från källdiskussionen kommer att användas och kan ändras efter att diskussionen har skapats.",
+                "discussion_name": "=> core.forum.composer_discussion.title_placeholder",
+                "new_discussion": "Ny diskussion",
+                "selected_posts": "{count, plural, one {Ett inlägg valt} other {{count} inlägg valda}}",
                 "status": {
-                    "complex_move": "",
-                    "old_to_new_move": "",
-                    "simple_move": ""
+                    "complex_move": "Det blir en komplex flytt; inlägg kommer att skjutas in mellan befintliga inlägg, vilket innebär att även de gamla URL-referenserna till inläggen i måldiskussionen kommer att ändras.",
+                    "old_to_new_move": "=> fof-move-posts.ref.status.old_to_new_move",
+                    "simple_move": "Det blir en enkel flytt; alla inlägg kommer att läggas till i slutet av diskussionen."
                 },
-                "submit": "",
-                "title": "",
-                "confirm_move_all_to_new_discussion": ""
+                "submit": "Fortsätt",
+                "title": "=> fof-move-posts.ref.move_posts",
+                "confirm_move_all_to_new_discussion": "Du håller på att flytta alla inlägg från den här diskussionen till en ny. I de flesta fall är det mer lämpligt att redigera den befintliga diskussionen, till exempel genom att ändra dess titel, taggar eller andra egenskaper. Vill du fortsätta?"
             },
             "alerts": {
-                "posts_moved_to": ""
+                "posts_moved_to": "{count, plural, one {Inlägg flyttat till {target_discussion}.} other {Flyttade {count} inlägg till {target_discussion}.}}"
             },
             "notifications": {
-                "post_moved_text": ""
+                "post_moved_text": "Ett eller flera av dina inlägg flyttades till {targetDiscussionTitle}."
             },
             "post": {
-                "unmove": "",
-                "move": "",
-                "moving": ""
+                "unmove": "Avmarkera för att flytta",
+                "move": "Markera för att flytta",
+                "moving": "Flyttar inlägg"
             },
             "post_stream": {
-                "post_moved": ""
+                "post_moved": "{count, plural, one {{username} flyttade ett inlägg till {target_discussion}.} other {{username} flyttade {count} inlägg till {target_discussion}.}}"
             }
         },
         "ref": {
-            "move_posts": "",
+            "move_posts": "Flytta inlägg",
             "status": {
-                "old_to_new_move": ""
+                "old_to_new_move": "Det går inte att flytta ett gammalt inlägg till en nyare diskussion."
             }
         },
         "lib": {
             "discussion": {
                 "first_post": {
-                    "default_content": ""
+                    "default_content": "*Detta inlägg har flyttats till **[%DISCUSSION_NAME%](%POST_LINK%)**.*\n"
                 }
             }
         }
@@ -70,8 +70,8 @@
         "lib": {
             "browser": {
                 "posts": {
-                    "moved": "",
-                    "moved_to_new_discussion": ""
+                    "moved": "Flyttade {post_count, plural, one {ett inlägg} other {{post_count} inlägg}} från {discussion} till {new_discussion}",
+                    "moved_to_new_discussion": "Flyttade {post_count, plural, one {ett inlägg} other {{post_count} inlägg}} från {discussion} till den nya diskussionen {new_discussion}"
                 }
             }
         }

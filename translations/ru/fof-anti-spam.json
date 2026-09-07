@@ -12,6 +12,8 @@
                     "enabled_label": "Включить фильтр контента",
                     "enabled_help": "Если включено, сообщения и темы новых пользователей будут проверяться на признаки спама.",
                     "user_targeting_heading": "Выбор пользователей",
+                    "monitor_all_users_label": "",
+                    "monitor_all_users_help": "",
                     "monitor_post_count_label": "Отслеживать пользователей до указанного количества сообщений",
                     "monitor_post_count_help": "Анализировать контент только от пользователей, у которых меньше указанного количества сообщений. Установите 0, чтобы отключить проверку.",
                     "monitor_hours_old_label": "Отслеживать пользователей не старше указанного количества часов",
@@ -75,6 +77,13 @@
                     "region_us_label": "Соединенные Штаты",
                     "confidence_label": "Доверие",
                     "confidence_help": "Установите уровень доверия в процентах. Если доверие равно или больше этого значения, регистрация пользователя будет предотвращена независимо от проверки по параметру \"Частота\".",
+                    "blocked_asns_label": "",
+                    "blocked_asns_help": "",
+                    "max_listing_age_label": "",
+                    "max_listing_age_help": "",
+                    "registration_throttle_label": "",
+                    "registration_throttle_help": "",
+                    "lookup_failed": "",
                     "email_hash_label": "Использовать хешированные адреса email",
                     "email_hash_help": "Если Вы не хотите передавать открытые адреса email, Вы можете передавать их MD5-хэш. Этот метод обходит все чёрные списки, проверки по нормализации и обфускации.",
                     "block_tor_exit_nodes_label": "Блокировать выходные узлы сети Tor",
@@ -84,6 +93,19 @@
                     "report_blocked_registrations_label": "Сообщать о заблокированных регистрациях",
                     "report_blocked_registrations_help": "При блокировании регистрации пользователя функцией \"Поиск регистраций\", мы отправим отчёт в StopForumSpam для подтверждения активности спамеров. Для работы этого параметра требуется указать ключ API StopForumSpam."
                 }
+            },
+            "statistics": {
+                "heading": "",
+                "total_label": "",
+                "registrations_blocked": "",
+                "users_marked": "",
+                "posts_flagged": "",
+                "awaiting_review": "",
+                "this_week": "",
+                "vs_last_week": "",
+                "top_reason": "",
+                "view_all": "",
+                "failed": ""
             },
             "blocked_registrations": {
                 "button": "Заблокированные регистрации",
@@ -97,7 +119,62 @@
                 "login-provider": "Провайдер",
                 "login-provider-data": "Данные провайдера",
                 "sfs-data": "Данные StopForumSpam",
-                "delete_entry": "Удалить запись"
+                "reasons": "",
+                "delete_entry": "Удалить запись",
+                "total": "",
+                "filters": {
+                    "placeholder": "",
+                    "apply": "",
+                    "clear": "",
+                    "hint": "",
+                    "no-matches": "",
+                    "help": {
+                        "toggle": "",
+                        "multiple": "",
+                        "negate": "",
+                        "ip": "",
+                        "email": "",
+                        "username": "",
+                        "provider": "",
+                        "reason": "",
+                        "attemptedAt": ""
+                    }
+                },
+                "evidence": {
+                    "label": "",
+                    "none": "",
+                    "lookup_failed": "",
+                    "blocked_by": "",
+                    "rule": {
+                        "confidence": "",
+                        "frequency": "",
+                        "blacklisted": "",
+                        "torExit": "",
+                        "deniedAsn": ""
+                    },
+                    "field": {
+                        "ip": "",
+                        "email": "",
+                        "username": ""
+                    },
+                    "badge": {
+                        "blacklisted": "",
+                        "tor_exit": "",
+                        "not_listed": "",
+                        "confidence": "",
+                        "frequency": "",
+                        "last_seen": "",
+                        "asn": "",
+                        "normalized": ""
+                    }
+                },
+                "raw_data": {
+                    "button": "",
+                    "title": "",
+                    "copy": "",
+                    "copied": "",
+                    "copy_failed": ""
+                }
             }
         },
         "forum": {
@@ -105,6 +182,9 @@
                 "flagged_as_spam_text": "Автоматическое обнаружение спама — оценка {score}"
             },
             "message": {
+                "profile": {
+                    "blocked": ""
+                },
                 "stopforumspam": {
                     "blocked": "Данные Вашей регистрации были найдены в базе данных по предотвращению спама. Ваша регистрация заблокирована."
                 }

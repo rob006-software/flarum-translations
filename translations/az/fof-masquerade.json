@@ -1,6 +1,9 @@
 {
     "fof-masquerade": {
         "forum": {
+            "profile": {
+                "empty-text": ""
+            },
             "alerts": {
                 "profile-completion-required": "Zəhmət olmasa aşağıdakı profil sahələrini doldurun.\n",
                 "profile-completed": "Profil tamamlandı! <a>Əsas səhifəyə keçin</a>"
@@ -37,6 +40,9 @@
                 "create": "",
                 "edit": "{field} sahəsini redaktə et",
                 "delete-confirmation": "",
+                "is_restricted": "",
+                "permissions": "",
+                "permissions-alert": "",
                 "name": "Sahənin adı",
                 "name-help": "İctimai görünən (tərcümə olunmayan) sahə başlığı.\n",
                 "description": "Sahənin açıqlaması",
@@ -67,7 +73,8 @@
         "lib": {
             "gambits": {
                 "answer": {
-                    "key": ""
+                    "key": "",
+                    "hint": ""
                 }
             }
         }

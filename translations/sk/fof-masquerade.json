@@ -1,6 +1,9 @@
 {
     "fof-masquerade": {
         "forum": {
+            "profile": {
+                "empty-text": ""
+            },
             "alerts": {
                 "profile-completion-required": "Prosím vyplňte povinné profilové údaje nižšie.\n",
                 "profile-completed": ""
@@ -37,6 +40,9 @@
                 "create": "",
                 "edit": "",
                 "delete-confirmation": "",
+                "is_restricted": "",
+                "permissions": "",
+                "permissions-alert": "",
                 "name": "",
                 "name-help": "",
                 "description": "",
@@ -65,7 +71,8 @@
         "lib": {
             "gambits": {
                 "answer": {
-                    "key": ""
+                    "key": "",
+                    "hint": ""
                 }
             }
         }

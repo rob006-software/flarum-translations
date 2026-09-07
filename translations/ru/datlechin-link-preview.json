@@ -2,18 +2,42 @@
     "datlechin-link-preview": {
         "admin": {
             "sections": {
-                "general_label": "Основные",
-                "general_description": "Базовые настройки отображения предпросмотра ссылок.",
+                "appearance_label": "",
+                "appearance_description": "",
+                "behaviour_label": "",
+                "behaviour_description": "",
                 "performance_label": "Производительность",
                 "performance_description": "Оптимизация получения и кэширования предпросмотра ссылок.",
+                "filtering_label": "",
+                "filtering_description": "",
+                "general_label": "Основные",
+                "general_description": "Базовые настройки отображения предпросмотра ссылок.",
                 "url_filtering_label": "Фильтрация URL",
                 "url_filtering_description": "Определяет, для каких URL создаётся предпросмотр ссылок.",
                 "external_api_label": "Резервный внешний API",
                 "external_api_description": "Использовать внешний сервис, если не удалось получить данные напрямую. Например, для сайтов с защитой от ботов."
             },
             "settings": {
+                "open_links_in_new_tab_label": "Открывать ссылки в новой вкладке",
+                "open_links_in_new_tab_help": "Всегда открывать предпросмотр ссылок в новой вкладке браузера.",
+                "google_favicon_fallback_label": "",
+                "google_favicon_fallback_help": "",
+                "preview_internal_links_label": "",
+                "preview_internal_links_help": "",
+                "skip_media_links_label": "",
+                "skip_media_links_help": "",
+                "max_previews_per_post_label": "",
+                "max_previews_per_post_help": "",
                 "enable_batch_requests_label": "Включить пакетную обработку",
                 "enable_batch_requests_help": "Повышает производительность благодаря одновременной обработке нескольких предпросмотров. Если функция отключена, ссылки обрабатываются по одной.",
+                "cache_time_label": "Время кэширования (в минутах)",
+                "cache_time_help": "Время хранения предпросмотра перед обновлением. Установите 0, чтобы отключить кэширование. По умолчанию — 60 минут.",
+                "allowlist_label": "",
+                "allowlist_help": "",
+                "allowlist_placeholder": "",
+                "blocklist_label": "",
+                "blocklist_help": "",
+                "blocklist_placeholder": "",
                 "blacklist_label": "Чёрный список",
                 "blacklist_help": "Укажите домены или URL, для которых не нужно создавать предпросмотр ссылок. Используйте запятые для разделения нескольких записей.",
                 "blacklist_placeholder": "Например, facebook.com,https://domain.com/path",
@@ -24,10 +48,6 @@
                 "convert_media_urls_help": "Создавать предпросмотр для ссылок на медиафайлы (изображения, видео и другое).",
                 "use_google_favicons_label": "Показывать иконки сайтов",
                 "use_google_favicons_help": "Показывать фавиконки сайтов с помощью сервиса Google Favicon для улучшения стиля.",
-                "cache_time_label": "Время кэширования (в минутах)",
-                "cache_time_help": "Время хранения предпросмотра перед обновлением. Установите 0, чтобы отключить кэширование. По умолчанию — 60 минут.",
-                "open_links_in_new_tab_label": "Открывать ссылки в новой вкладке",
-                "open_links_in_new_tab_help": "Всегда открывать предпросмотр ссылок в новой вкладке браузера.",
                 "external_api_fallback_label": "Резервный внешний API",
                 "external_api_fallback_help": "Если не удалось получить данные напрямую, например, с сайтов с защитой от ботов, таких как Reuters, используется внешний oEmbed API для получения метаданных ссылки.",
                 "external_api_url_label": "URL внешнего API",
@@ -35,6 +55,17 @@
             }
         },
         "forum": {
+            "loading": "",
+            "meta": {
+                "replies": "",
+                "posts": "",
+                "discussions": ""
+            },
+            "clicks": "",
+            "settings": {
+                "hide_link_previews_label": "",
+                "hide_link_previews_help": ""
+            },
             "site_cannot_be_reached": "Не удалось загрузить предпросмотр. Проверьте URL и попробуйте снова."
         }
     }

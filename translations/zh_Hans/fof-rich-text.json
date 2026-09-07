@@ -2,8 +2,8 @@
     "fof-rich-text": {
         "admin": {
             "settings": {
-                "toggle_on_editor": "在编辑器上显示富文本模式切换按钮？",
-                "force_compact_paragraphs": "为所有用户强制使用紧凑段落（回车键创建换行而不是新段落）"
+                "toggle_on_editor": "在编辑器中显示富文本模式切换按钮",
+                "force_compact_paragraphs": "强制所有用户使用紧凑段落（按 Enter 插入换行，而不是新建段落）"
             }
         },
         "lib": {
@@ -16,36 +16,36 @@
                 },
                 "insert_link": {
                     "text_placeholder": "文本",
-                    "href_placeholder": "网址",
+                    "href_placeholder": "URL",
                     "title_placeholder": "标题（悬停时显示）",
-                    "remove_button": "删除"
+                    "remove_button": "移除"
                 },
-                "additional_items_tooltip": "附加控件",
-                "bold_tooltip": "粗体文本 ({modifierKey}-b)",
-                "code_tooltip": "行内代码 ({modifierKey}-`)",
+                "additional_items_tooltip": "更多控件",
+                "bold_tooltip": "粗体（{modifierKey}-b）",
+                "code_tooltip": "行内代码（{modifierKey}-`）",
                 "code_block_tooltip": "插入代码块",
-                "header_tooltip": "更改为标题 {level} ({modifierKey}-shift-{level})",
-                "horizontal_rule_tooltip": "插入水平线",
-                "image_tooltip": "添加图片",
-                "italic_tooltip": "斜体文本 ({modifierKey}-i)",
+                "header_tooltip": "切换为 {level} 级标题（{modifierKey}-shift-{level}）",
+                "horizontal_rule_tooltip": "插入分隔线",
+                "image_tooltip": "插入图片",
+                "italic_tooltip": "斜体（{modifierKey}-i）",
                 "link_tooltip": "添加链接",
-                "ordered_list_tooltip": "编号列表 ({modifierKey}-shift-9)",
-                "paragraph_tooltip": "更改为段落 ({modifierKey}-shift-0)",
-                "quote_tooltip": "插入引用 ({modifierKey}-q)",
-                "spoiler_block_tooltip": "块剧透/下拉菜单",
-                "spoiler_inline_tooltip": "剧透 ({modifierKey}-;)",
-                "strike_tooltip": "删除线 (alt-shift-5)",
-                "sub_tooltip": "下标 ({modifierKey}-,)",
-                "sup_tooltip": "上标 ({modifierKey}-.)",
+                "ordered_list_tooltip": "有序列表（{modifierKey}-shift-9）",
+                "paragraph_tooltip": "切换为段落（{modifierKey}-shift-0）",
+                "quote_tooltip": "插入引用（{modifierKey}-q）",
+                "spoiler_block_tooltip": "折叠式剧透",
+                "spoiler_inline_tooltip": "剧透（{modifierKey}-;）",
+                "strike_tooltip": "删除线（alt-shift-5）",
+                "sub_tooltip": "下标（{modifierKey}-,）",
+                "sup_tooltip": "上标（{modifierKey}-.）",
                 "text_type_tooltip": "选择文本类型",
-                "unordered_list_tooltip": "项目符号列表 ({modifierKey}-shift-8)"
+                "unordered_list_tooltip": "无序列表（{modifierKey}-shift-8）"
             }
         },
         "forum": {
             "settings": {
                 "composer_heading": "编辑器",
-                "use_rich_text_editor_label": "使用富文本编辑器？",
-                "rich_text_compact_paragraphs_label": "不要用换行符分隔段落。"
+                "use_rich_text_editor_label": "使用富文本编辑器",
+                "rich_text_compact_paragraphs_label": "使用紧凑段落（按 Enter 直接换行）"
             }
         }
     }

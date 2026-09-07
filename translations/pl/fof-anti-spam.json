@@ -12,6 +12,8 @@
                     "enabled_label": "",
                     "enabled_help": "",
                     "user_targeting_heading": "",
+                    "monitor_all_users_label": "",
+                    "monitor_all_users_help": "",
                     "monitor_post_count_label": "",
                     "monitor_post_count_help": "",
                     "monitor_hours_old_label": "",
@@ -75,6 +77,13 @@
                     "region_us_label": "Stany Zjednoczone",
                     "confidence_label": "Pewność",
                     "confidence_help": "Wynik pewności jest dość dobrym wskaźnikiem, że badane pole może skutkować niechcianą aktywnością. Ustaw swój poziom pewności jako procent. Jeśli pole jest równe lub przekracza tę wartość, rejestracja zostanie zablokowana, niezależnie od testu \"częstotliwości\" opisanego wyżej.",
+                    "blocked_asns_label": "",
+                    "blocked_asns_help": "",
+                    "max_listing_age_label": "",
+                    "max_listing_age_help": "",
+                    "registration_throttle_label": "",
+                    "registration_throttle_help": "",
+                    "lookup_failed": "",
                     "email_hash_label": "Użyj zahashowanego adresu e-mail",
                     "email_hash_help": "Przekaż skrót MD5 adresu e-mail, jeśli nie chcesz przekazywać samego adresu e-mail. Ta metoda omija wszystkie czarne listy, normalizację i kontrole omijające zaciemnianie.",
                     "block_tor_exit_nodes_label": "",
@@ -84,6 +93,19 @@
                     "report_blocked_registrations_label": "Zgłoś blokowane rejestracje",
                     "report_blocked_registrations_help": "Gdy rejestracja zostanie zablokowana przez funkcję \"Weryfikuj rejestracje\", zgłosimy próbę z powrotem do StopForumSpam, aby aktywność spamerów mogła zostać lepiej potwierdzona. Wymaga ustawienia klucza API StopForumSpam (zobacz poniżej)."
                 }
+            },
+            "statistics": {
+                "heading": "",
+                "total_label": "",
+                "registrations_blocked": "",
+                "users_marked": "",
+                "posts_flagged": "",
+                "awaiting_review": "",
+                "this_week": "",
+                "vs_last_week": "",
+                "top_reason": "",
+                "view_all": "",
+                "failed": ""
             },
             "blocked_registrations": {
                 "button": "Zablokowane rejestracje",
@@ -97,7 +119,62 @@
                 "login-provider": "Dostawca logowania",
                 "login-provider-data": "Dane dostawcy logowania",
                 "sfs-data": "Dane StopForumSpam",
-                "delete_entry": "Usuń rekord"
+                "reasons": "",
+                "delete_entry": "Usuń rekord",
+                "total": "",
+                "filters": {
+                    "placeholder": "",
+                    "apply": "",
+                    "clear": "",
+                    "hint": "",
+                    "no-matches": "",
+                    "help": {
+                        "toggle": "",
+                        "multiple": "",
+                        "negate": "",
+                        "ip": "",
+                        "email": "",
+                        "username": "",
+                        "provider": "",
+                        "reason": "",
+                        "attemptedAt": ""
+                    }
+                },
+                "evidence": {
+                    "label": "",
+                    "none": "",
+                    "lookup_failed": "",
+                    "blocked_by": "",
+                    "rule": {
+                        "confidence": "",
+                        "frequency": "",
+                        "blacklisted": "",
+                        "torExit": "",
+                        "deniedAsn": ""
+                    },
+                    "field": {
+                        "ip": "",
+                        "email": "",
+                        "username": ""
+                    },
+                    "badge": {
+                        "blacklisted": "",
+                        "tor_exit": "",
+                        "not_listed": "",
+                        "confidence": "",
+                        "frequency": "",
+                        "last_seen": "",
+                        "asn": "",
+                        "normalized": ""
+                    }
+                },
+                "raw_data": {
+                    "button": "",
+                    "title": "",
+                    "copy": "",
+                    "copied": "",
+                    "copy_failed": ""
+                }
             }
         },
         "forum": {
@@ -105,6 +182,9 @@
                 "flagged_as_spam_text": ""
             },
             "message": {
+                "profile": {
+                    "blocked": ""
+                },
                 "stopforumspam": {
                     "blocked": "Szczegóły Twojej rejestracji zostały znalezione w bazie danych zapobiegania spamowi, dlatego Twoja rejestracja została zablokowana."
                 }

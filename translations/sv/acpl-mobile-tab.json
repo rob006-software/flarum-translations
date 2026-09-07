@@ -1,42 +1,42 @@
 {
     "acpl-mobile-tab": {
         "admin": {
-            "available_items": "",
-            "active_items": "",
-            "create_new_item_button": "",
+            "available_items": "Tillgängliga objekt",
+            "active_items": "Aktiva objekt",
+            "create_new_item_button": "Skapa nytt objekt",
             "edit_item": {
-                "modal_title": "",
-                "label": "",
-                "label_placeholder": "",
-                "path": "",
-                "url": "",
-                "icon": "",
-                "icon_help": "",
-                "is_internal_checkbox": "",
-                "open_new_tab_checkbox": "",
-                "submit_button": "",
-                "delete_button": "",
-                "delete_item_confirmation": ""
+                "modal_title": "Redigera objekt",
+                "label": "Etikett",
+                "label_placeholder": "Mitt anpassade objekt",
+                "path": "Sökväg",
+                "url": "Url",
+                "icon": "Ikon",
+                "icon_help": "Ange namnet på valfri <a>FontAwesome</a>-ikonklass, inklusive prefixet <code>fas fa-</code>.",
+                "is_internal_checkbox": "Är det en intern länk?",
+                "open_new_tab_checkbox": "Öppna länk i ny flik",
+                "submit_button": "Spara",
+                "delete_button": "Radera",
+                "delete_item_confirmation": "Är du säker på att du vill ta bort det här objektet?"
             },
             "scroll_settings": {
-                "toggle_label": "",
-                "threshold_label": "",
-                "threshold_help": ""
+                "toggle_label": "Växla synlighet vid skrollning",
+                "threshold_label": "Tröskelvärde för skrollning (px)",
+                "threshold_help": "Avstånd att skrolla från aktuell position för att växla synlighet."
             }
         },
         "lib": {
             "item": {
-                "home": "",
-                "all_discussions": "",
-                "new_discussion": "",
-                "notifications": "",
-                "session": "",
-                "search": "",
-                "log_in": "",
-                "profile": "",
-                "tags": "",
-                "messages": "",
-                "fof-byobu": ""
+                "home": "Hem",
+                "all_discussions": "Diskussioner",
+                "new_discussion": "Ny diskussion",
+                "notifications": "Aviseringar",
+                "session": "Session",
+                "search": "Sök",
+                "log_in": "Logga in",
+                "profile": "Profil",
+                "tags": "Taggar",
+                "messages": "Meddelanden",
+                "fof-byobu": "Privat"
             }
         }
     }

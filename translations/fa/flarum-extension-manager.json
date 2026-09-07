@@ -5,7 +5,7 @@
                 "add_label": "روش احراز هویت جدید",
                 "add_modal": {
                     "host_label": "میزبان",
-                    "host_placeholder": "",
+                    "host_placeholder": "مثال: bearer.flarum.org",
                     "submit_button": "تایید",
                     "token_label": "توکن",
                     "type_label": "نوع",
@@ -73,7 +73,7 @@
                 }
             },
             "extensions": {
-                "already_installed": "",
+                "already_installed": "این افزونه قبلا نصب شده است",
                 "check_why_it_failed_updating": "نمایش اینکه چرا به آخرین نسخه بروز رسانی نشده است.",
                 "install": "نصب افزونه جدید",
                 "install_help": "برای ادامه، نام پکیج افزونه را وارد کنید. می توانید یک مقدار استاندارد <semantic_link>semantic version</semantic_link> یا نام پکیج همراه با نسخه آن با فرمت <code>vendor/package-name:version</code> را وارد کنید. برای مرور افزونه ها از سایت {extiverse} دیدن کنید.\n",
@@ -99,33 +99,33 @@
                 "update": "بروزرسانی"
             },
             "minor_update_confirmation": {
-                "content": ""
+                "content": "این کار همچنین به‌روزرسانی‌ خواهد کرد سایر افزونه‌ها/بسته‌ها را که برای آنها به‌روزرسانی در دسترس باشد."
             },
-            "required_php_functions": "",
+            "required_php_functions": "مدیریت افزونه‌ها به توابع PHP فعال زیر نیاز دارد: <code>{functions}</code>. اگر به پیکربندی PHP دسترسی ندارید، لطفاً با ارائه‌دهنده خدمات میزبانی خود تماس بگیرید.\n",
             "sections": {
                 "discover": {
-                    "description": "",
-                    "empty_results": "",
+                    "description": "با افزونه‌ها، ویژگی‌ها و ترکیب‌های جدیدی را به انجمن فلاروم خود اضافه کنید.",
+                    "empty_results": "به نظر می‌رسد هیچ افزونه‌ای در دسترس نیست.",
                     "extension": {
                         "badges": {
-                            "abandoned": "",
-                            "fof": "",
-                            "flarum": ""
+                            "abandoned": "رها شده",
+                            "fof": "فرند آف فلاروم",
+                            "flarum": "فلاروم"
                         },
-                        "downloads": ""
+                        "downloads": "{count, plural, one {{formattedCount} دانلود} other {{formattedCount} دانلودها}}"
                     },
-                    "search": "",
-                    "server_error": "",
+                    "search": "جستجو...",
+                    "server_error": "سرویس در حال حاضر در دسترس نیست، لطفا بعدا دوباره امتحان کنید.",
                     "sort": {
-                        "top": ""
+                        "top": "بیشترین دانلودها"
                     },
                     "tabs": {
-                        "discover": "",
-                        "extensions": "",
-                        "languages": "",
-                        "themes": ""
+                        "discover": "پیدا کردن",
+                        "extensions": "افزونه‌ها",
+                        "languages": "زبان‌ها",
+                        "themes": "قالب‌ها"
                     },
-                    "title": ""
+                    "title": "افزونه‌ها"
                 },
                 "queue": {
                     "columns": {
@@ -164,8 +164,8 @@
                     "title": "صف"
                 },
                 "settings": {
-                    "title": "",
-                    "description": ""
+                    "title": "گزینه‌ها و صف",
+                    "description": "مدیر افزونه را پیکربندی کنید و عملیات موجود در صف را بررسی کنید."
                 }
             },
             "settings": {
@@ -173,12 +173,12 @@
                 "access_warning": "لطفاً مراقب باشید که به چه کسی دسترسی بخش مدیریت را می دهید، مدیر افزونه ها میتواند با نصب بسته های نا امن منجر به نقض امنیت سایت شود و مورد سوء استفاده قرار گیرد.",
                 "debug_mode_warning": "شما در حالت اشکال زدایی در حال اجرا هستید، مدیر افزونه ها نمی تواند بسته های توسعه محلی را به درستی نصب و به روز کند. لطفاً به جای آن از رابط خط فرمان برای چنین اهدافی استفاده کنید.",
                 "queue_jobs": "عملیات را در صف پس‌زمینه اجرا کنید",
-                "queue_jobs_help": "",
+                "queue_jobs_help": "می‌توانید درباره پیاده‌سازی <basic_impl_link>صف‌بندی ساده</basic_impl_link> یا <adv_impl_link>پیشرفته‌تر</adv_impl_link> مطالعه کنید. مطمئن شوید که نسخه PHP مورد استفاده برای صف {php_version} است. مطمئن شوید که <folder_perms_link>مجوزهای پوشه</folder_perms_link> به درستی پیکربندی شده‌اند.\n",
                 "task_retention_days": "روزهای حفظ وظایف",
                 "task_retention_days_help": "تعداد روزهای نگهداری وظایف تکمیل شده در پایگاه داده. وظایف قدیمی تر از این حذف خواهند شد. برای حفظ تمام وظایف، روی 0 تنظیم کنید.\n"
             },
             "updater": {
-                "up_to_date": "",
+                "up_to_date": "هیچ به‌روزرسانی در حالت انتظار نیست.",
                 "check_for_updates": "بررسی بروزرسانی ها",
                 "flarum": "هسته فلاروم",
                 "global_update_successful": "همه پکیج ها با موفقیت به روز شدند.",

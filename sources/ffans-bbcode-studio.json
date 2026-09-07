@@ -1,0 +1,175 @@
+{
+    "ffans-bbcode-studio": {
+        "admin": {
+            "page": {
+                "security_notice": "Custom BBCodes and media embeds are compiled and checked by Flarum's formatter. Before enabling them, review each usage and rendering template; incorrect configurations may prevent posts from being parsed or displayed correctly. When embedding third-party content, also make sure the service source is trustworthy.",
+                "empty": "No templates."
+            },
+            "actions": {
+                "create": "Create template",
+                "edit": "Edit template",
+                "delete": "Delete template",
+                "save": "Save template",
+                "test_url": "Test URL",
+                "reset": "Reset to defaults",
+                "add_source_rule": "Add recognition rule",
+                "remove_source_rule": "Remove recognition rule"
+            },
+            "groups": {
+                "bbcode_title": "Custom BBCodes",
+                "bbcode_description": "Define custom tag usage, rendering templates, and styles.",
+                "bbcode_empty": "No custom BBCode templates.",
+                "media_title": "Media embeds",
+                "media_description": "Recognize media links and render embedded content.",
+                "media_empty": "No media embed templates.",
+                "rule_count": "{count} templates in total"
+            },
+            "status": {
+                "built_in": "Built-in",
+                "enabled": "Enabled",
+                "disabled": "Disabled",
+                "toolbar": "Composer button",
+                "media_recognition": "Link recognition",
+                "type_bbcode": "Custom BBCode",
+                "type_media": "Media embed"
+            },
+            "confirm": {
+                "delete": "Delete “{name}”? Existing posts will stop using this rendering template, while their source remains editable.",
+                "reset": "Reset “{name}” to its defaults? Current unsaved changes will be replaced."
+            },
+            "messages": {
+                "saved": "Template saved.",
+                "deleted": "Template deleted.",
+                "defaults_restored": "Defaults restored. Save the template to apply the changes."
+            },
+            "modal": {
+                "create_title": "Create template",
+                "edit_title": "Edit template"
+            },
+            "fields": {
+                "rule_type_label": "Template type",
+                "rule_type_help": "Custom BBCode defines its own usage and template. A built-in template's type cannot be changed.",
+                "rule_type_bbcode": "Custom BBCode",
+                "rule_type_media": "Media embed",
+                "name_label": "Name",
+                "name_help": "Define the rule name. Built-in template names cannot be edited.",
+                "tag_label": "Tag",
+                "tag_help": "Lowercase tag without brackets, for example bilibili.",
+                "description_label": "Description",
+                "description_help": "Describe the purpose of this custom BBCode.",
+                "usage_label": "BBCode usage",
+                "usage_help": "s9e BBCode definition, for example [notice color=color]text[/notice]; the color parameter is referenced as @color in the template.",
+                "template_label": "Rendering template",
+                "template_help": "Safe s9e XSL template. Every referenced @parameter must be declared by the BBCode usage; the rule is compiled and checked before saving. See the <a>s9e templating syntax documentation</a>.",
+                "dom_class_label": "Automatic DOM class",
+                "dom_class_help": "This class is added to every top-level HTML element output by the rendering template; the style field below uses it as the scope.",
+                "css_declarations_label": "Custom styles",
+                "css_declarations_help": "Enter custom CSS/Less styles, such as <code>color: red;</code>. Child selectors and state selectors are supported.",
+                "icon_label": "Icon",
+                "icon_help": "Font Awesome class, for example fas fa-code or fab fa-youtube.",
+                "button_label_label": "Button label",
+                "button_label_help": "Composer tooltip or dropdown label. Built-in labels can be translated and cannot be edited from here; custom rules use the rule name when empty.",
+                "example_label": "Inserted example",
+                "example_help": "Used as the initial content when the composer button is clicked without selected text.",
+                "example_attributes_label": "Automatically inserted attributes",
+                "example_attributes_help": "Each tag is detected from the BBCode usage. Choose a declared value, insert the attribute with an empty value as a prompt, or omit it from the composer insertion.",
+                "example_attribute_value": "Specified value",
+                "example_attribute_empty": "Insert {attribute}=",
+                "example_attribute_omit": "No insert",
+                "example_attribute_edit_accessible": "Configure automatic insertion for {attribute}",
+                "enabled_label": "Enable rule",
+                "toolbar_enabled_label": "Add composer button",
+                "media_group": "Media recognition",
+                "source_rule_extract": "Direct extraction",
+                "source_rule_redirect": "Short-link recognition",
+                "source_rule_number": "Source rule #{number}",
+                "source_hosts_prefix": "Source domains:",
+                "capture_variables_prefix": "Variables:",
+                "source_rule_extract_help": "Extract content used for embedding from the complete URL. Use PCRE Named Capture Groups for variable extraction.",
+                "source_rule_redirect_help": "For short links. When a post is saved, the server records the redirected URL and then applies direct recognition.",
+                "embed_url_label": "Embed URL",
+                "embed_url_help": "Use an HTTPS iframe embed URL or one beginning with //. Click to insert a variable:",
+                "capture_values_empty": "No extracted variables detected yet",
+                "iframe_attributes_label": "iframe attributes",
+                "iframe_attributes_help": "Use space-separated name='value' pairs. Only allow, referrerpolicy, allowfullscreen, scrolling, and height are supported. The allowfullscreen attribute may omit its value. When the aspect ratio is empty, a fixed height such as height='86' is required.",
+                "aspect_ratio_label": "Aspect ratio",
+                "aspect_ratio_help": "Responsive ratio for the media player, such as 16 / 9. Leave it empty for a fixed-height player and set height in the iframe attributes.",
+                "test_url_label": "Test",
+                "test_url_help": "Tests the current unsaved rules with PHP PCRE. Short URLs are resolved by the server only when you start the test.",
+                "sort_order_label": "Sort order",
+                "sort_order_help": "Used to order custom BBCode icons in the composer."
+            },
+            "test": {
+                "matched": "Matched {type} rule #{number}",
+                "embed_url": "Embed URL",
+                "empty_url": "Enter a URL to test.",
+                "url_too_long": "The test URL cannot exceed 2,000 characters.",
+                "missing_embed_capture": "The embed URL must contain at least one named capture variable.",
+                "invalid_embed_url": "The embed URL must use HTTPS or begin with //.",
+                "invalid_pattern": "Source rule #{number} is not a valid PCRE with a literal hostname.",
+                "missing_pattern_capture": "Direct recognition rule #{number} does not provide every variable used by the embed URL.",
+                "missing_extract_rule": "Add at least one direct recognition rule.",
+                "empty_capture": "Rule #{number} matched, but a required capture value was empty.",
+                "redirect_failed": "Short URL rule #{number} matched, but the server could not resolve it to a supported direct URL.",
+                "no_match": "The URL did not match any source rule.",
+                "request_failed": "The test request failed. Check the connection and try again."
+            }
+        },
+        "api": {
+            "validation": {
+                "usage_tag_mismatch": "The BBCode usage opening and closing tags must exactly match the configured tag.",
+                "example_attributes_object": "Inserted attributes must be an object keyed by attribute name.",
+                "example_attributes_limit": "No more than 32 inserted attributes may be configured.",
+                "example_attribute_text": "Inserted attribute values must be text or empty.",
+                "example_attribute_length": "Inserted attribute values cannot exceed 500 characters.",
+                "example_attribute_choice": "The inserted value for {attribute} must be one of its declared choices.",
+                "source_rules_array": "Media source rules must be an array.",
+                "source_rule_invalid": "Media source rule #{number} is invalid.",
+                "source_rule_type": "Media source rule #{number} has an invalid type.",
+                "fixed_height_required": "A fixed-height media rule must include a positive integer height, such as height='86'.",
+                "aspect_ratio_positive": "Both aspect-ratio values must be greater than zero.",
+                "embed_capture_required": "The embed URL must reference at least one named capture.",
+                "extract_hostname_required": "Extraction rule #{number} must contain at least one literal hostname.",
+                "extract_capture_required": "Extraction rule #{number} must contain at least one named capture.",
+                "embed_capture_mismatch": "Every embed URL placeholder must match a named capture in every extraction rule.",
+                "extract_regexp_invalid": "Extraction rule #{number} is not a valid regular expression.",
+                "redirect_hostname_required": "Short-link rule #{number} must contain at least one literal hostname.",
+                "redirect_regexp_invalid": "Short-link rule #{number} is not a valid regular expression.",
+                "embed_url_https": "The embed URL must use HTTPS or be protocol-relative.",
+                "bbcode_definition_invalid": "The BBCode usage or rendering template is invalid.",
+                "template_attributes_undeclared": "The rendering template references attributes not declared by the BBCode usage: {attributes}.",
+                "media_definition_invalid": "The media embed definition is invalid.",
+                "built_in_delete": "Built-in BBCode Studio templates cannot be deleted.",
+                "styles_imports_unsupported": "Less imports and plugins are not supported in custom BBCode styles.",
+                "styles_unsafe_value": "The custom styles contain an unsafe CSS value.",
+                "styles_invalid": "The custom Less styles are invalid.",
+                "styles_close_scope": "Custom styles cannot close the automatically generated class scope.",
+                "styles_unclosed": "The custom styles contain an unclosed comment, quote, or block.",
+                "template_requires_element": "The rendering template must output at least one HTML element so its automatic class can be applied.",
+                "regexp_delimiter_required": "The regular expression must use a delimiter.",
+                "regexp_delimiter_unclosed": "The regular expression delimiter is not closed.",
+                "iframe_attribute_format": "Iframe attributes must use the name or name='value' format.",
+                "iframe_attribute_not_allowed": "Iframe attribute \"{attribute}\" is not allowed.",
+                "iframe_attribute_repeated": "Iframe attribute \"{attribute}\" must not be repeated.",
+                "iframe_attribute_requires_value": "Iframe attribute \"{attribute}\" requires a quoted value.",
+                "iframe_attribute_static_value": "Iframe attribute values must be static text.",
+                "iframe_attribute_quote_types": "Iframe attribute values cannot contain both quote types."
+            }
+        },
+        "forum": {
+            "toolbar": {
+                "title": "Insert BBCode",
+                "built_in": {
+                    "notice": "Notice",
+                    "kdb": "KDB",
+                    "spoiler": "Spoiler",
+                    "bilibili": "Bilibili",
+                    "youtube": "YouTube",
+                    "vimeo": "Vimeo",
+                    "spotify": "Spotify",
+                    "netease": "NetEase Cloud Music"
+                }
+            }
+        }
+    }
+}

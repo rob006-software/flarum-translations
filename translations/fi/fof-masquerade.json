@@ -1,6 +1,9 @@
 {
     "fof-masquerade": {
         "forum": {
+            "profile": {
+                "empty-text": ""
+            },
             "alerts": {
                 "profile-completion-required": "Ole hyvä ja syötä alla olevat vaaditut profiilin kentät.\n",
                 "profile-completed": "Profiili valmis. <a>Jatka etusivulle</a>"
@@ -37,6 +40,9 @@
                 "create": "Luo kenttä",
                 "edit": "Muokkaa kenttää {field}",
                 "delete-confirmation": "Haluatko varmasti poistaa kentän {field}? Tätä ei voi peruuttaa.",
+                "is_restricted": "",
+                "permissions": "",
+                "permissions-alert": "",
                 "name": "Kentän nimi",
                 "name-help": "Julkisesti näkyvillä oleva (ei käännettävä) kentän tunniste.\n",
                 "description": "Kentän kuvaus",
@@ -67,7 +73,8 @@
         "lib": {
             "gambits": {
                 "answer": {
-                    "key": "vastaus"
+                    "key": "vastaus",
+                    "hint": ""
                 }
             }
         }

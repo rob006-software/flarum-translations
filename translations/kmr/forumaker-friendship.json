@@ -1,0 +1,123 @@
+{
+    "forumaker-friendship": {
+        "lib": {
+            "errors": {
+                "user_not_found": "",
+                "request_not_found": "",
+                "not_friends": "",
+                "self_request": "",
+                "already_friends": ""
+            }
+        },
+        "forum": {
+            "user": {
+                "friends_tab": "",
+                "friends_count": "",
+                "requests_btn": "",
+                "requests_btn_count": "",
+                "no_friends": "",
+                "friends_hidden": "",
+                "friends_since": "",
+                "load_more": ""
+            },
+            "dropdown": {
+                "add_friend_btn": "",
+                "cancel_request_btn": "",
+                "remove_friend_btn": ""
+            },
+            "add_modal": {
+                "title": "",
+                "text": "",
+                "confirm_btn": "",
+                "cancel_btn": "",
+                "success": ""
+            },
+            "pending_modal": {
+                "text": "",
+                "accept_btn": "",
+                "decline_btn": ""
+            },
+            "cancel_request_modal": {
+                "title": "",
+                "text": "",
+                "confirm_btn": "",
+                "cancel_btn": ""
+            },
+            "remove_modal": {
+                "title": "",
+                "text": "",
+                "confirm_btn": "",
+                "cancel_btn": "",
+                "success": ""
+            },
+            "requests_modal": {
+                "title": "",
+                "incoming_tab": "",
+                "outgoing_tab": "",
+                "history_btn": "",
+                "search_placeholder": "",
+                "no_incoming": "",
+                "no_outgoing": "",
+                "accept_btn": "",
+                "decline_btn": "",
+                "cancel_btn": "",
+                "cancel_success": "",
+                "accept_success": ""
+            },
+            "history_modal": {
+                "title": "",
+                "empty": "",
+                "load_more": ""
+            },
+            "history": {
+                "requested_self": "",
+                "requested_other": "",
+                "cancelled_self": "",
+                "cancelled_other": "",
+                "accepted_self": "",
+                "accepted_other": "",
+                "declined_self": "",
+                "declined_other": "",
+                "removed_self": "",
+                "removed_other": ""
+            },
+            "notifications": {
+                "requested_text": "",
+                "removed_text": "",
+                "declined_text": ""
+            },
+            "settings": {
+                "section_label": "",
+                "show_on_usercard": "",
+                "show_in_posts": "",
+                "notify_requested_label": "",
+                "notify_removed_label": "",
+                "notify_declined_label": ""
+            }
+        },
+        "admin": {
+            "sections": {
+                "badges": "",
+                "history": ""
+            },
+            "settings": {
+                "badges_intro": "",
+                "show_badge_on_usercard": "",
+                "show_badge_on_usercard_help": "",
+                "show_badge_on_post": "",
+                "show_badge_on_post_help": "",
+                "badge_color": "",
+                "badge_bg_color": "",
+                "event_retention_intro": "",
+                "event_retention_days": "",
+                "event_retention_days_help": ""
+            },
+            "permissions": {
+                "add_friends": "",
+                "view_others": "",
+                "moderate": "",
+                "manage": ""
+            }
+        }
+    }
+}

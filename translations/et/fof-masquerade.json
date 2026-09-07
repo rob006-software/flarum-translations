@@ -1,6 +1,9 @@
 {
     "fof-masquerade": {
         "forum": {
+            "profile": {
+                "empty-text": ""
+            },
             "alerts": {
                 "profile-completion-required": "Palun täida allpool nõutud profiili väljad.\n",
                 "profile-completed": "Profiil on loodud! <a>Mine avalehele</a>"
@@ -37,6 +40,9 @@
                 "create": "",
                 "edit": "Lisa väli {field}",
                 "delete-confirmation": "",
+                "is_restricted": "",
+                "permissions": "",
+                "permissions-alert": "",
                 "name": "Välja nimi",
                 "name-help": "Avalikult nähtav (mittetõlgitav) välja silt.\n",
                 "description": "Välja kirjeldus",
@@ -67,7 +73,8 @@
         "lib": {
             "gambits": {
                 "answer": {
-                    "key": ""
+                    "key": "",
+                    "hint": ""
                 }
             }
         }

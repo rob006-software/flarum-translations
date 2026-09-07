@@ -52,7 +52,11 @@
                 "heading_title": "Пользовательские эмодзи",
                 "import_json_button": "Импортировать JSON",
                 "export_json_button": "Экспортировать JSON",
+                "upload_json_button": "",
                 "import_emojis_message": "Это импортирует только конфигурации эмодзи. Вам нужно загрузить изображения эмодзи вручную.",
+                "import_override_mode": "",
+                "import_override_warning": "",
+                "import_override_confirm": "",
                 "import_legacy_shortcodes": "Импортировано {count} эмодзи, шорткоды которых не соответствуют рекомендуемому соглашению :word: {shortcodes}. Они были импортированы без изменений и по-прежнему работают, но рекомендуем обновить их.",
                 "edit_emoji": {
                     "modal_title": "Добавить эмодзи",
@@ -75,7 +79,10 @@
                 "emoji_list": {
                     "edit_button": "Править эмодзи",
                     "add_button": "Добавить эмодзи",
-                    "load_more_button": "=> core.forum.post_stream.load_more_button"
+                    "load_more_button": "=> core.forum.post_stream.load_more_button",
+                    "uncategorized": "",
+                    "rename_save_button": "",
+                    "rename_cancel_button": ""
                 }
             }
         },

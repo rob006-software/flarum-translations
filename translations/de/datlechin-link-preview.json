@@ -2,18 +2,42 @@
     "datlechin-link-preview": {
         "admin": {
             "sections": {
-                "general_label": "Allgemein",
-                "general_description": "Grundlegende Anzeigeeinstellungen für Link-Vorschauen.",
+                "appearance_label": "Erscheinungsbild",
+                "appearance_description": "Wie eine Vorschau aussieht und wohin man gelangt, wenn man darauf klickt.",
+                "behaviour_label": "Verhalten",
+                "behaviour_description": "Welche Links in einem Beitrag eine Vorschau erhalten.",
                 "performance_label": "Leistung",
                 "performance_description": "Optimiere, wie Link-Vorschauen abgerufen und zwischengespeichert werden.",
+                "filtering_label": "",
+                "filtering_description": "",
+                "general_label": "Allgemein",
+                "general_description": "Grundlegende Anzeigeeinstellungen für Link-Vorschauen.",
                 "url_filtering_label": "URL-Filterung",
                 "url_filtering_description": "Steuere, welche URLs Link-Vorschauen generieren.",
                 "external_api_label": "Externer API-Fallback",
                 "external_api_description": "Verwende einen externen Dienst, wenn das direkte Abrufen fehlschlägt (z. B. bei durch Bots geschützten Websites)."
             },
             "settings": {
+                "open_links_in_new_tab_label": "Links in einem neuen Browser-Tab öffnen",
+                "open_links_in_new_tab_help": "Alle Vorschau-Links standardmäßig in einem neuen Tab öffnen.",
+                "google_favicon_fallback_label": "",
+                "google_favicon_fallback_help": "",
+                "preview_internal_links_label": "",
+                "preview_internal_links_help": "",
+                "skip_media_links_label": "",
+                "skip_media_links_help": "",
+                "max_previews_per_post_label": "",
+                "max_previews_per_post_help": "",
                 "enable_batch_requests_label": "Stapelverarbeitung einschalten",
-                "enable_batch_requests_help": "Die Leistung verbessern, indem mehrere Link-Vorschauen gleichzeitig verarbeitet werden. Wenn deaktiviert, werden Links nacheinander verarbeitet.",
+                "enable_batch_requests_help": "Eine Anfrage für die gesamte Seite statt einer pro Link. Schalte dies nur aus, wenn etwas vor dem Forum es ablehnt.\n",
+                "cache_time_label": "Speicherdauer im Cache (Minuten)",
+                "cache_time_help": "Legt fest, wie lange Link-Vorschauen gespeichert werden, bevor sie aktualisiert werden. Auf 0 setzen, um das Caching zu deaktivieren. Standard: 60 Minuten.",
+                "allowlist_label": "",
+                "allowlist_help": "",
+                "allowlist_placeholder": "",
+                "blocklist_label": "",
+                "blocklist_help": "",
+                "blocklist_placeholder": "",
                 "blacklist_label": "Sperrliste für Domains",
                 "blacklist_help": "Gib Domains oder URLs an, die keine Link-Vorschauen erzeugen sollen. Mehrere Einträge durch Kommas trennen.",
                 "blacklist_placeholder": "Beispiele: facebook.com, twitter.com/spezifische-seite",
@@ -24,10 +48,6 @@
                 "convert_media_urls_help": "Vorschauen für URLs erzeugen, die auf Mediendateien (Bilder, Videos usw.) verweisen.",
                 "use_google_favicons_label": "Icons der Websites anzeigen",
                 "use_google_favicons_help": "Website-Favicons über den Google-Favicon-Dienst anzeigen, um die visuelle Erkennung zu verbessern.",
-                "cache_time_label": "Speicherdauer im Cache (Minuten)",
-                "cache_time_help": "Legt fest, wie lange Link-Vorschauen gespeichert werden, bevor sie aktualisiert werden. Auf 0 setzen, um das Caching zu deaktivieren. Standard: 60 Minuten.",
-                "open_links_in_new_tab_label": "Links in einem neuen Browser-Tab öffnen",
-                "open_links_in_new_tab_help": "Alle Vorschau-Links standardmäßig in einem neuen Tab öffnen.",
                 "external_api_fallback_label": "Externer API-Fallback",
                 "external_api_fallback_help": "Wenn der direkte Abruf fehlschlägt (z. B. bei botgeschützten Websites wie Reuters), verwende eine externe oEmbed-API, um die Metadaten des Links abzurufen.",
                 "external_api_url_label": "Externe API-URL",
@@ -35,6 +55,17 @@
             }
         },
         "forum": {
+            "loading": "",
+            "meta": {
+                "replies": "",
+                "posts": "",
+                "discussions": ""
+            },
+            "clicks": "",
+            "settings": {
+                "hide_link_previews_label": "",
+                "hide_link_previews_help": ""
+            },
             "site_cannot_be_reached": "Vorschau konnte nicht geladen werden. Bitte die URL prüfen und erneut versuchen."
         }
     }

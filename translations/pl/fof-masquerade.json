@@ -1,6 +1,9 @@
 {
     "fof-masquerade": {
         "forum": {
+            "profile": {
+                "empty-text": ""
+            },
             "alerts": {
                 "profile-completion-required": "Uzupełnij wymagane pola profilu poniżej.\n",
                 "profile-completed": "Profil uzupełniony! <a>Przejdź do strony głównej</a>"
@@ -37,6 +40,9 @@
                 "create": "Utwórz pole",
                 "edit": "Edytuj pole {field}",
                 "delete-confirmation": "Czy jesteś pewien, że chcesz usunąć pole {field}? Ta operacje nie może zostać cofnięta.",
+                "is_restricted": "",
+                "permissions": "",
+                "permissions-alert": "",
                 "name": "Nazwa pola",
                 "name-help": "Publicznie widoczna (nieprzetłumaczalna) etykieta pola.\n",
                 "description": "Opis pola",
@@ -67,7 +73,8 @@
         "lib": {
             "gambits": {
                 "answer": {
-                    "key": ""
+                    "key": "",
+                    "hint": ""
                 }
             }
         }

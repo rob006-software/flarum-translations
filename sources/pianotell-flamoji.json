@@ -50,7 +50,11 @@
                 "heading_title": "Custom Emojis",
                 "import_json_button": "Import JSON",
                 "export_json_button": "Export JSON",
+                "upload_json_button": "Upload JSON",
                 "import_emojis_message": "This will import emoji configurations only. You need to upload emoji images manually.",
+                "import_override_mode": "Override Mode (Replace all existing emojis)",
+                "import_override_warning": "Warning: This will delete all your current custom emojis!",
+                "import_override_confirm": "Yes, I want to replace all existing emojis.",
                 "import_legacy_shortcodes": "Imported {count} emoji whose shortcodes don't follow the recommended :word: convention: {shortcodes}. They were imported as-is and still work, but consider updating them.",
                 "edit_emoji": {
                     "modal_title": "Add Emoji",
@@ -73,7 +77,10 @@
                 "emoji_list": {
                     "edit_button": "Edit emoji",
                     "add_button": "Add emoji",
-                    "load_more_button": "=> core.forum.post_stream.load_more_button"
+                    "load_more_button": "=> core.forum.post_stream.load_more_button",
+                    "uncategorized": "Uncategorized",
+                    "rename_save_button": "Save",
+                    "rename_cancel_button": "Cancel"
                 }
             }
         },

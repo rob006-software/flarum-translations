@@ -1,0 +1,73 @@
+{
+    "ernestdefoe-steward": {
+        "admin": {
+            "settings": {
+                "site_key_label": "Site key",
+                "site_key_help": "From your client area. It is bound to this domain — the same key will not work on another site.",
+                "relay_url_label": "Service URL",
+                "moderation_label": "Screen new posts",
+                "moderation_help": "Most posts are cleared instantly and for free. Only genuinely ambiguous ones are looked at more closely, and nothing is ever removed automatically — anything questionable is queued for you.",
+                "answers_label": "Answer questions from your forum",
+                "answers_help": "Members can ask, and get an answer drawn from your own discussions. When nothing on your forum answers the question, it says so rather than guessing.",
+                "trusted_posts_label": "Trust members after this many posts",
+                "trusted_posts_help": "Established members are never screened.",
+                "threshold_label": "Answer confidence threshold",
+                "threshold_help": "Below this, Steward says it does not know rather than answering from a weak match. 0.62 suits most forums."
+            },
+            "usage": {
+                "title": "Your usage this month",
+                "answers": "Questions answered",
+                "screenings": "Posts screened",
+                "left": "{n} of {total} left",
+                "unmetered": "No limit",
+                "unmeteredUsed": "{n} used · no limit",
+                "resets": "Resets {date}",
+                "not_connected": "Not connected yet. Paste your site key above and your usage will appear here.",
+                "chart_label": "Daily usage over the last {n} days"
+            },
+            "permissions": {
+                "review_label": "See the Steward moderation queue"
+            }
+        },
+        "forum": {
+            "ask": {
+                "nav": "Ask",
+                "title": "Ask this forum",
+                "subtitle": "Answered from discussions and documentation already on this site — not from the wider internet.",
+                "placeholder": "What are you trying to do?",
+                "ask": "Ask",
+                "thinking": "Looking through the forum…",
+                "sources": "Answered from",
+                "caveat": "Drawn from posts on this forum, so check the sources if it matters.",
+                "miss_not_found": "Nothing on this forum seems to answer that. It may be worth starting a discussion.",
+                "miss_exhausted": "This forum has used up its questions for the month. It will work again when the allowance resets.",
+                "miss_unavailable": "The assistant is unavailable right now. Please try again shortly."
+            },
+            "queue": {
+                "nav": "Moderation queue",
+                "title": "Moderation queue",
+                "subtitle": "Posts Steward could not settle on its own. Nothing here has been hidden or removed — that is your call.",
+                "tab_open": "Needs a look ({n})",
+                "tab_unscreened": "Went unchecked ({n})",
+                "tab_resolved": "Done",
+                "unscreened_explainer": "These posts were published without being screened, because the allowance had run out or the service was unreachable. They are not suspicious — they are simply the window nobody checked.",
+                "empty_open": "Nothing waiting. Every post since the last check was cleared.",
+                "empty_unscreened": "Nothing went unchecked.",
+                "empty_resolved": "Nothing resolved yet.",
+                "load_failed": "The queue could not be loaded.",
+                "someone": "Someone",
+                "guardian": "Child safety — escalated",
+                "by_pre-filter": "matched without a model",
+                "by_model": "reviewed by the model",
+                "by_steward": "Steward",
+                "open_post": "Open the post",
+                "resolve_kept": "Keep",
+                "resolve_removed": "I removed it",
+                "resolve_ignored": "Not a problem",
+                "was_kept": "Kept",
+                "was_removed": "Removed",
+                "was_ignored": "Dismissed"
+            }
+        }
+    }
+}

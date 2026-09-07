@@ -2,18 +2,42 @@
     "datlechin-link-preview": {
         "admin": {
             "sections": {
-                "general_label": "Yleiset",
-                "general_description": "Perus näyttöasetukset linkkien esikatselua varten.",
+                "appearance_label": "",
+                "appearance_description": "",
+                "behaviour_label": "",
+                "behaviour_description": "",
                 "performance_label": "Suorituskyky",
                 "performance_description": "Optimoi linkkien esikatselujen hakeminen ja välimuistitus.",
+                "filtering_label": "",
+                "filtering_description": "",
+                "general_label": "Yleiset",
+                "general_description": "Perus näyttöasetukset linkkien esikatselua varten.",
                 "url_filtering_label": "URL suodatus",
                 "url_filtering_description": "Hallitsee mille osoitteille luodaan linkin esikatselu.",
                 "external_api_label": "Ulkoinen rajapinta varmuus",
                 "external_api_description": "Käytä ulkoista palvelua kun suorahaku epäonnistuu (esim. boteilta suojatut sivut)."
             },
             "settings": {
+                "open_links_in_new_tab_label": "Avaa linkit uuteen välilehteen",
+                "open_links_in_new_tab_help": "Avaa aina linkit uuteen selaimen välilehteen.",
+                "google_favicon_fallback_label": "",
+                "google_favicon_fallback_help": "",
+                "preview_internal_links_label": "",
+                "preview_internal_links_help": "",
+                "skip_media_links_label": "",
+                "skip_media_links_help": "",
+                "max_previews_per_post_label": "",
+                "max_previews_per_post_help": "",
                 "enable_batch_requests_label": "Ota eräajojen käsittely käyttöön",
                 "enable_batch_requests_help": "Paranna suorituskykyä käsittelemällä useita linkin esikatseluja samanaikaisesti. Kun tämä on poistettu käytöstä, linkit käsitellään yksi kerrallaan.",
+                "cache_time_label": "Välimuistin kesto (minuutteina)",
+                "cache_time_help": "Kuinka kauan linkin esikatseluja säilytetään ennen päivitystä. Aseta arvoksi 0 poistaaksesi välimuistin käytön. Oletus: 60 minuuttia.",
+                "allowlist_label": "",
+                "allowlist_help": "",
+                "allowlist_placeholder": "",
+                "blocklist_label": "",
+                "blocklist_help": "",
+                "blocklist_placeholder": "",
                 "blacklist_label": "Domainien estolista",
                 "blacklist_help": "Määritä verkkotunnukset tai URL-osoitteet, jotka eivät saa luoda linkin esikatseluja. Käytä pilkkuja erottamaan useita merkintöjä.",
                 "blacklist_placeholder": "Esimerkkejä: facebook.com,twitter.com/sivu",
@@ -24,10 +48,6 @@
                 "convert_media_urls_help": "Luo esikatseluja URL-osoitteille, jotka viittaavat mediasisältöihin (kuvat, videot jne.).",
                 "use_google_favicons_label": "Näytä sivuston ikonit",
                 "use_google_favicons_help": "Näytä verkkosivuston faviconit käyttäen Googlen Favicon-palvelua parantaaksesi visuaalista tunnistettavuutta.",
-                "cache_time_label": "Välimuistin kesto (minuutteina)",
-                "cache_time_help": "Kuinka kauan linkin esikatseluja säilytetään ennen päivitystä. Aseta arvoksi 0 poistaaksesi välimuistin käytön. Oletus: 60 minuuttia.",
-                "open_links_in_new_tab_label": "Avaa linkit uuteen välilehteen",
-                "open_links_in_new_tab_help": "Avaa aina linkit uuteen selaimen välilehteen.",
                 "external_api_fallback_label": "Ulkoisen rajapinnan varmuus",
                 "external_api_fallback_help": "Kun suorahaku epäonnistuu (esim. bottisuojatut sivut kuten Reuters), käytä ulkoista oEmbed rajapintaa linkin metatiedon hakuun.",
                 "external_api_url_label": "Ulkoisen rajapinnan osoite",
@@ -35,6 +55,17 @@
             }
         },
         "forum": {
+            "loading": "",
+            "meta": {
+                "replies": "",
+                "posts": "",
+                "discussions": ""
+            },
+            "clicks": "",
+            "settings": {
+                "hide_link_previews_label": "",
+                "hide_link_previews_help": ""
+            },
             "site_cannot_be_reached": "Esikatselua ei saatu ladattua. Tarkista osoite ja yritä uudelleen."
         }
     }

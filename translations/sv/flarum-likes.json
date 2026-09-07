@@ -17,14 +17,14 @@
             "post": {
                 "like_link": "Gilla",
                 "liked_by_self_text": "{users} gillar detta.",
-                "liked_by_text": "{count, plural, one {{users} gillar detta} other {{users} gillar detta}}",
+                "liked_by_text": "{count, plural, one {{users} gillar detta} other {{users} gillar detta}}.",
                 "others_link": "=> core.ref.some_others",
                 "unlike_link": "Ogilla",
                 "you_text": "=> core.ref.you"
             },
             "post_likes": {
                 "title": "Användare som gillar detta",
-                "load_more_button": "Visa fler"
+                "load_more_button": "=> core.ref.load_more"
             },
             "settings": {
                 "notify_post_liked_label": "Någon gillar ett av mina inlägg"
@@ -37,8 +37,8 @@
             "gambits": {
                 "posts": {
                     "likedBy": {
-                        "key": "",
-                        "hint": ""
+                        "key": "likedBy",
+                        "hint": "Användarens ID eller användarnamn"
                     }
                 }
             }

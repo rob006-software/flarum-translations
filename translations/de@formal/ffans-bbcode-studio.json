@@ -1,0 +1,175 @@
+{
+    "ffans-bbcode-studio": {
+        "admin": {
+            "page": {
+                "security_notice": "Benutzerdefinierte BBCodes und eingebettete Medien werden vom Flarum-Formatierer kompiliert und überprüft. Bevor du diese aktivierst, überprüfe bitte jede Verwendungs- und Darstellungsvorlage; falsche Konfigurationen können dazu führen, dass Beiträge nicht korrekt geparst oder angezeigt werden. Achte beim Einbetten von Inhalten von Drittanbietern außerdem darauf, dass die Quelle des Dienstes vertrauenswürdig ist.",
+                "empty": "Keine Vorlagen."
+            },
+            "actions": {
+                "create": "Vorlag erstellen",
+                "edit": "Vorlage bearbeiten",
+                "delete": "Vorlage löschen",
+                "save": "Vorlage speichern",
+                "test_url": "URL testen",
+                "reset": "Auf Standardwerte zurücksetzen",
+                "add_source_rule": "Erkennungsregel hinzufügen",
+                "remove_source_rule": "Erkennungsregel entfernen"
+            },
+            "groups": {
+                "bbcode_title": "Benutzerdefinierte BBCodes",
+                "bbcode_description": "",
+                "bbcode_empty": "",
+                "media_title": "",
+                "media_description": "",
+                "media_empty": "",
+                "rule_count": "Insgesamt {count} Vorlagen"
+            },
+            "status": {
+                "built_in": "Eingebaut",
+                "enabled": "Aktiviert",
+                "disabled": "Deaktiviert",
+                "toolbar": "",
+                "media_recognition": "Link-Erkennung",
+                "type_bbcode": "Benutzerdefinierter BBCode",
+                "type_media": ""
+            },
+            "confirm": {
+                "delete": "",
+                "reset": ""
+            },
+            "messages": {
+                "saved": "Vorlage gespeichert.",
+                "deleted": "Vorlage gelöscht.",
+                "defaults_restored": ""
+            },
+            "modal": {
+                "create_title": "Vorlage erstellen",
+                "edit_title": "Vorlage bearbeiten"
+            },
+            "fields": {
+                "rule_type_label": "Vorlagentyp",
+                "rule_type_help": "",
+                "rule_type_bbcode": "",
+                "rule_type_media": "",
+                "name_label": "Name",
+                "name_help": "",
+                "tag_label": "",
+                "tag_help": "",
+                "description_label": "Beschreibung",
+                "description_help": "",
+                "usage_label": "",
+                "usage_help": "",
+                "template_label": "",
+                "template_help": "",
+                "dom_class_label": "",
+                "dom_class_help": "",
+                "css_declarations_label": "",
+                "css_declarations_help": "",
+                "icon_label": "Symbol",
+                "icon_help": "",
+                "button_label_label": "",
+                "button_label_help": "",
+                "example_label": "",
+                "example_help": "",
+                "example_attributes_label": "",
+                "example_attributes_help": "",
+                "example_attribute_value": "Bestimmter Wert",
+                "example_attribute_empty": "",
+                "example_attribute_omit": "",
+                "example_attribute_edit_accessible": "",
+                "enabled_label": "",
+                "toolbar_enabled_label": "",
+                "media_group": "",
+                "source_rule_extract": "",
+                "source_rule_redirect": "",
+                "source_rule_number": "",
+                "source_hosts_prefix": "",
+                "capture_variables_prefix": "",
+                "source_rule_extract_help": "",
+                "source_rule_redirect_help": "",
+                "embed_url_label": "",
+                "embed_url_help": "",
+                "capture_values_empty": "",
+                "iframe_attributes_label": "",
+                "iframe_attributes_help": "",
+                "aspect_ratio_label": "",
+                "aspect_ratio_help": "",
+                "test_url_label": "",
+                "test_url_help": "",
+                "sort_order_label": "",
+                "sort_order_help": ""
+            },
+            "test": {
+                "matched": "",
+                "embed_url": "",
+                "empty_url": "",
+                "url_too_long": "",
+                "missing_embed_capture": "",
+                "invalid_embed_url": "",
+                "invalid_pattern": "",
+                "missing_pattern_capture": "",
+                "missing_extract_rule": "",
+                "empty_capture": "",
+                "redirect_failed": "",
+                "no_match": "",
+                "request_failed": ""
+            }
+        },
+        "api": {
+            "validation": {
+                "usage_tag_mismatch": "",
+                "example_attributes_object": "",
+                "example_attributes_limit": "",
+                "example_attribute_text": "",
+                "example_attribute_length": "",
+                "example_attribute_choice": "",
+                "source_rules_array": "",
+                "source_rule_invalid": "",
+                "source_rule_type": "",
+                "fixed_height_required": "",
+                "aspect_ratio_positive": "",
+                "embed_capture_required": "",
+                "extract_hostname_required": "",
+                "extract_capture_required": "",
+                "embed_capture_mismatch": "",
+                "extract_regexp_invalid": "",
+                "redirect_hostname_required": "",
+                "redirect_regexp_invalid": "",
+                "embed_url_https": "",
+                "bbcode_definition_invalid": "",
+                "template_attributes_undeclared": "",
+                "media_definition_invalid": "",
+                "built_in_delete": "",
+                "styles_imports_unsupported": "",
+                "styles_unsafe_value": "",
+                "styles_invalid": "",
+                "styles_close_scope": "",
+                "styles_unclosed": "",
+                "template_requires_element": "",
+                "regexp_delimiter_required": "",
+                "regexp_delimiter_unclosed": "",
+                "iframe_attribute_format": "",
+                "iframe_attribute_not_allowed": "",
+                "iframe_attribute_repeated": "",
+                "iframe_attribute_requires_value": "",
+                "iframe_attribute_static_value": "",
+                "iframe_attribute_quote_types": ""
+            }
+        },
+        "forum": {
+            "toolbar": {
+                "title": "",
+                "built_in": {
+                    "notice": "",
+                    "kdb": "",
+                    "spoiler": "",
+                    "bilibili": "",
+                    "youtube": "",
+                    "vimeo": "",
+                    "spotify": "",
+                    "netease": ""
+                }
+            }
+        }
+    }
+}

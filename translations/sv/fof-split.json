@@ -2,23 +2,23 @@
     "fof-split": {
         "admin": {
             "permissions": {
-                "split_discussion_label": ""
+                "split_discussion_label": "Splitta inlägg från diskussioner"
             }
         },
         "forum": {
             "post": {
-                "was_split_to": "",
-                "was_split_from": ""
+                "was_split_to": "{count, plural, one {{count} inlägg splittades till {target}.} other {{count} inlägg splittades till {target}.}}",
+                "was_split_from": "{count, plural, one {{count} inlägg splittades från {target}.} other {{count} inlägg splittades från {target}.}}"
             },
             "split": {
-                "from": "",
-                "to": "",
-                "cancel": ""
+                "from": "Splitta härifrån",
+                "to": "Splitta hit",
+                "cancel": "Avbryt splittning"
             },
             "modal": {
-                "title": "",
-                "new_discussion_label": "",
-                "submit_button": ""
+                "title": "Splitta diskussionen",
+                "new_discussion_label": "Ange en titel för den nya diskussionen",
+                "submit_button": "Splitta"
             }
         }
     },
@@ -26,8 +26,8 @@
         "lib": {
             "browser": {
                 "discussion": {
-                    "split_away": "",
-                    "split_into": ""
+                    "split_away": "Splitta {post_count} inlägg från {discussion} till {new_discussion}",
+                    "split_into": "Splitta {post_count} inlägg till den nya diskussionen {discussion}"
                 }
             }
         }

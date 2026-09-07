@@ -2,23 +2,23 @@
     "fof-ignore-users": {
         "admin": {
             "permissions": {
-                "can_not_be_ignored_label": ""
+                "can_not_be_ignored_label": "Kan inte ignoreras"
             }
         },
         "forum": {
-            "profile_link": "",
+            "profile_link": "Ignorerade användare",
             "profile_page": {
-                "no_ignored": ""
+                "no_ignored": "Det verkar som att du inte ignorerar någon."
             },
             "user_controls": {
-                "ignore_button": "",
-                "ignore_confirmation": "",
-                "unignore_button": "",
-                "unignore_confirmation": ""
+                "ignore_button": "Ignorera",
+                "ignore_confirmation": "Är du säker på att du vill ignorera denna användaren?",
+                "unignore_button": "Ta bort ignorering",
+                "unignore_confirmation": "Är du säker på att du vill ta bort ignorering av den här användaren?"
             },
             "badge": {
-                "user_label": "",
-                "discussion_label": ""
+                "user_label": "Ignorerad användare",
+                "discussion_label": "Startad av en ignorerad användare"
             }
         }
     }

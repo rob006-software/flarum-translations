@@ -1,6 +1,9 @@
 {
     "fof-masquerade": {
         "forum": {
+            "profile": {
+                "empty-text": ""
+            },
             "alerts": {
                 "profile-completion-required": "Будь ласка, заповніть необхідні поля облікового нижче.\n",
                 "profile-completed": "Обліковий запис заповнено! <a>Перейти на головну сторінку</a>"
@@ -37,6 +40,9 @@
                 "create": "",
                 "edit": "Редагувати поле {field}",
                 "delete-confirmation": "Ви впевнені, що хочете видалити поле {field}? Цю дію неможливо скасувати.",
+                "is_restricted": "",
+                "permissions": "",
+                "permissions-alert": "",
                 "name": "Назва поля",
                 "name-help": "Публічно видимий (неперекладний) напис на полі.\n",
                 "description": "Опис поля",
@@ -67,7 +73,8 @@
         "lib": {
             "gambits": {
                 "answer": {
-                    "key": ""
+                    "key": "",
+                    "hint": ""
                 }
             }
         }

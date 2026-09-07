@@ -2,8 +2,8 @@
 
 Translations for Chinese (Simplified) (`zh_Hans`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **564** are translated differently and **1613** are
-translated only in `zh_Hans`. Altogether they cover **114** components.
+sides, but do not match between them: **1209** are translated differently and **1591** are
+translated only in `zh_Hans`. Altogether they cover **121** components.
 
 <!-- {% raw %} -->
 
@@ -14,49 +14,56 @@ translated only in `zh_Hans`. Altogether they cover **114** components.
 | --- | --- | --- |
 | `acpl-lscache` | [3](#acpl-lscache) | [8](#acpl-lscache-missing) |
 | `antoinefr-money` | [7](#antoinefr-money) | 0 |
-| `core` | [38](#core) | 0 |
+| `core` | [117](#core) | 0 |
 | `datitisev-backup` | [28](#datitisev-backup) | 0 |
 | `datlechin-birthdays` | [1](#datlechin-birthdays) | 0 |
 | `datlechin-more-discussions` | [5](#datlechin-more-discussions) | 0 |
-| `datlechin-passkey` | 0 | [5](#datlechin-passkey-missing) |
+| `datlechin-passkey` | [1](#datlechin-passkey) | [4](#datlechin-passkey-missing) |
 | `datlechin-tag-passwords` | [21](#datlechin-tag-passwords) | 0 |
-| `ekumanov-inline-audio` | 0 | [5](#ekumanov-inline-audio-missing) |
-| `ekumanov-new-posts-notice` | 0 | [2](#ekumanov-new-posts-notice-missing) |
-| `ffans-creator-declarations` | 0 | [73](#ffans-creator-declarations-missing) |
-| `flarum-akismet` | [1](#flarum-akismet) | 0 |
-| `flarum-approval` | [3](#flarum-approval) | 0 |
-| `flarum-audit` | 0 | [93](#flarum-audit-missing) |
+| `ekumanov-inline-audio` | [1](#ekumanov-inline-audio) | [4](#ekumanov-inline-audio-missing) |
+| `ekumanov-new-posts-notice` | [1](#ekumanov-new-posts-notice) | [1](#ekumanov-new-posts-notice-missing) |
+| `flarum-akismet` | [3](#flarum-akismet) | 0 |
+| `flarum-approval` | [2](#flarum-approval) | 0 |
+| `flarum-audit` | [1](#flarum-audit) | [92](#flarum-audit-missing) |
 | `flarum-bbcode` | [1](#flarum-bbcode) | 0 |
-| `flarum-extension-manager` | [11](#flarum-extension-manager) | 0 |
-| `flarum-flags` | [1](#flarum-flags) | 0 |
-| `flarum-gdpr` | [10](#flarum-gdpr) | 0 |
-| `flarum-likes` | [3](#flarum-likes) | 0 |
-| `flarum-lock` | [6](#flarum-lock) | 0 |
-| `flarum-markdown` | [11](#flarum-markdown) | 0 |
-| `flarum-mentions` | [15](#flarum-mentions) | 0 |
-| `flarum-nicknames` | [1](#flarum-nicknames) | 0 |
+| `flarum-emoji` | [1](#flarum-emoji) | 0 |
+| `flarum-extension-manager` | [57](#flarum-extension-manager) | 0 |
+| `flarum-flags` | [9](#flarum-flags) | 0 |
+| `flarum-gdpr` | [63](#flarum-gdpr) | 0 |
+| `flarum-likes` | [2](#flarum-likes) | 0 |
+| `flarum-lock` | [7](#flarum-lock) | 0 |
+| `flarum-markdown` | [3](#flarum-markdown) | 0 |
+| `flarum-mentions` | [17](#flarum-mentions) | 0 |
+| `flarum-nicknames` | [3](#flarum-nicknames) | 0 |
 | `flarum-pusher` | [1](#flarum-pusher) | 0 |
-| `flarum-statistics` | [2](#flarum-statistics) | 0 |
-| `flarum-sticky` | [5](#flarum-sticky) | 0 |
-| `flarum-subscriptions` | [16](#flarum-subscriptions) | 0 |
-| `flarum-suspend` | [12](#flarum-suspend) | 0 |
-| `flarum-tags` | [30](#flarum-tags) | 0 |
+| `flarum-statistics` | [7](#flarum-statistics) | 0 |
+| `flarum-sticky` | [4](#flarum-sticky) | [1](#flarum-sticky-missing) |
+| `flarum-subscriptions` | [15](#flarum-subscriptions) | 0 |
+| `flarum-suspend` | [9](#flarum-suspend) | 0 |
+| `flarum-tags` | [26](#flarum-tags) | 0 |
 | `flectar-turnstile` | [2](#flectar-turnstile) | 0 |
-| `fof-analytics` | [4](#fof-analytics) | 0 |
-| `fof-anti-spam` | [47](#fof-anti-spam) | [2](#fof-anti-spam-missing) |
-| `fof-badges` | [1](#fof-badges) | 0 |
-| `fof-best-answer` | [10](#fof-best-answer) | [3](#fof-best-answer-missing) |
-| `fof-byobu` | [42](#fof-byobu) | 0 |
+| `fof-analytics` | [12](#fof-analytics) | 0 |
+| `fof-anti-spam` | [48](#fof-anti-spam) | [2](#fof-anti-spam-missing) |
+| `fof-author-change` | 0 | [15](#fof-author-change-missing) |
+| `fof-badges` | [218](#fof-badges) | 0 |
+| `fof-ban-ips` | [23](#fof-ban-ips) | 0 |
+| `fof-best-answer` | [46](#fof-best-answer) | [3](#fof-best-answer-missing) |
+| `fof-blog` | [50](#fof-blog) | 0 |
+| `fof-bookmarks` | 0 | [22](#fof-bookmarks-missing) |
+| `fof-byobu` | [55](#fof-byobu) | 0 |
 | `fof-categories` | 0 | [27](#fof-categories-missing) |
 | `fof-checklist` | 0 | [2](#fof-checklist-missing) |
-| `fof-default-group` | [1](#fof-default-group) | 0 |
-| `fof-default-user-preferences` | [3](#fof-default-user-preferences) | 0 |
-| `fof-discussion-templates` | [8](#fof-discussion-templates) | 0 |
+| `fof-cookie-consent` | [7](#fof-cookie-consent) | 0 |
+| `fof-default-user-preferences` | [11](#fof-default-user-preferences) | 0 |
+| `fof-discussion-templates` | [9](#fof-discussion-templates) | 0 |
 | `fof-discussion-thumbnail` | [1](#fof-discussion-thumbnail) | 0 |
-| `fof-doorman` | [1](#fof-doorman) | [22](#fof-doorman-missing) |
-| `fof-drafts` | [1](#fof-drafts) | 0 |
-| `fof-follow-tags` | [9](#fof-follow-tags) | 0 |
-| `fof-formatting` | [1](#fof-formatting) | 0 |
+| `fof-discussion-views` | [3](#fof-discussion-views) | 0 |
+| `fof-disposable-emails` | [1](#fof-disposable-emails) | 0 |
+| `fof-doorman` | [27](#fof-doorman) | [22](#fof-doorman-missing) |
+| `fof-drafts` | [26](#fof-drafts) | 0 |
+| `fof-filter` | [21](#fof-filter) | 0 |
+| `fof-follow-tags` | [26](#fof-follow-tags) | [17](#fof-follow-tags-missing) |
+| `fof-formatting` | [6](#fof-formatting) | 0 |
 | `fof-forum-statistics-widget` | 0 | [2](#fof-forum-statistics-widget-missing) |
 | `fof-forum-stats-widget` | 0 | [6](#fof-forum-stats-widget-missing) |
 | `fof-forum-widgets-core` | 0 | [3](#fof-forum-widgets-core-missing) |
@@ -246,16 +253,34 @@ Each entry contains the English source string, followed by a diff between the tr
 +自定义论坛配色、图标以及其他元素
 ```
 
+#### [`core.admin.basics.abandoned_extensions_notify_admins_label`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.basics.abandoned_extensions_notify_admins_label%22)
+
+> Email admins when a newly abandoned extension is detected during the weekly check
+
+```diff
+-每周检查发现有扩展程序停止维护时，邮件通知管理员
++每周检查停止维护清单，匹配时邮件通知管理员
+```
+
+#### [`core.admin.basics.abandoned_extensions_sync_success`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.basics.abandoned_extensions_sync_success%22)
+
+> Abandoned extensions list updated. {count} matching installed extension(s) found.
+
+```diff
+-停止维护的扩展程序清单已更新，发现 {count} 个已安装的扩展程序停止维护。
++停止维护的扩展清单已更新，发现 {count} 个已安装。
+```
+
+<del>停止维护的扩展程序清单已更新，发现</del><ins>停止维护的扩展清单已更新，发现</ins> {count} <del>个已安装的扩展程序停止维护。</del><ins>个已安装。</ins>
+
 #### [`core.admin.basics.abandoned_extensions_text`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.basics.abandoned_extensions_text%22)
 
 > Flarum maintains a &lt;a&gt;community list of abandoned extensions&lt;/a&gt;. When an installed extension appears on the list, it will be flagged in the admin panel.
 
 ```diff
 -Flarum 维护着一份《<a>停止维护的扩展程序清单</a>》。如果您安装的某些扩展程序已停止维护，管理页面会显示相应提示。
-+Flarum 维护着一份<a>停止维护的扩展程序清单</a>。如果您安装的某些扩展程序已停止维护，管理页面会显示相应提示。
++若安装了 <a>停止维护清单</a> 中的扩展，仪表盘中会有提示。
 ```
-
-Flarum <del>维护着一份《&lt;a&gt;停止维护的扩展程序清单&lt;/a&gt;》。如果您安装的某些扩展程序已停止维护，管理页面会显示相应提示。</del><ins>维护着一份&lt;a&gt;停止维护的扩展程序清单&lt;/a&gt;。如果您安装的某些扩展程序已停止维护，管理页面会显示相应提示。</ins>
 
 #### [`core.admin.basics.description`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.basics.description%22)
 
@@ -263,16 +288,34 @@ Flarum <del>维护着一份《&lt;a&gt;停止维护的扩展程序清单&lt;/a&g
 
 ```diff
 -设置论坛名称、语言以及其他基础设置
-+设置论坛名称、语言及其他基本设置
++设置论坛名称、语言及其他常规设置
 ```
 
-#### [`core.admin.basics.title`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.basics.title%22)
+#### [`core.admin.dashboard.status.headers.queue-driver`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.dashboard.status.headers.queue-driver%22)
 
-> Basics
+> Queue Driver
 
 ```diff
--常规
-+基本设置
+-队列驱动程序
++队列驱动
+```
+
+#### [`core.admin.dashboard.status.headers.scheduler-status`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.dashboard.status.headers.scheduler-status%22)
+
+> Scheduler
+
+```diff
+-任务调度程序
++任务调度
+```
+
+#### [`core.admin.dashboard.status.headers.session-driver`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.dashboard.status.headers.session-driver%22)
+
+> Session Driver
+
+```diff
+-会话驱动程序
++会话驱动
 ```
 
 #### [`core.admin.email.mail_encryption_label`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.email.mail_encryption_label%22)
@@ -304,13 +347,190 @@ Flarum <del>维护着一份《&lt;a&gt;停止维护的扩展程序清单&lt;/a&g
 
 SMTP <del>设置</del><ins>服务</ins>
 
+#### [`core.admin.extension.abandoned_no_replacement`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.extension.abandoned_no_replacement%22)
+
+> This extension is no longer maintained by its author and may not receive updates.
+
+```diff
+-此扩展程序已停止维护，今后可能不再更新。
++此扩展已停止维护，今后可能不再更新。
+```
+
+#### [`core.admin.extension.abandoned_with_replacement`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.extension.abandoned_with_replacement%22)
+
+> This extension has been replaced by {replacement}. Consider migrating to the replacement package.
+
+```diff
+-此扩展程序已被 {replacement} 替代，请考虑迁移。
++此扩展已被 {replacement} 替代，请考虑迁移。
+```
+
+<del>此扩展程序已被</del><ins>此扩展已被</ins> {replacement} 替代，请考虑迁移。
+
+#### [`core.admin.extension.configure_scopes`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.extension.configure_scopes%22)
+
+> Configure Scopes
+
+```diff
+-按标签配置
++添加标签配置
+```
+
+#### [`core.admin.extension.confirm_purge`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.extension.confirm_purge%22)
+
+> Purging will remove all database entries and assets related to the extension. It will not uninstall the extension; that must be done via Composer. Are you sure you want to continue?
+
+```diff
+-此操作将清除该扩展程序的所有数据库记录及相关资源，但不会卸载扩展；如需卸载，请通过 Composer 操作。确定要继续吗？
++此操作将清除该扩展的所有数据库记录及相关资源，但不会卸载扩展；如需卸载，请通过 Composer 操作。确定要继续吗？
+```
+
+<del>此操作将清除该扩展程序的所有数据库记录及相关资源，但不会卸载扩展；如需卸载，请通过</del><ins>此操作将清除该扩展的所有数据库记录及相关资源，但不会卸载扩展；如需卸载，请通过</ins> Composer 操作。确定要继续吗？
+
+#### [`core.admin.extension.enable_to_see`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.extension.enable_to_see%22)
+
+> Enable the extension to view and change settings.
+
+```diff
+-启用扩展程序即可查看和修改设置。
++启用扩展以查看和修改设置。
+```
+
+#### [`core.admin.extension.no_permissions`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.extension.no_permissions%22)
+
+> This extension has no permissions.
+
+```diff
+-此扩展程序无可配置权限。
++无新增权限
+```
+
+#### [`core.admin.extension.no_settings`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.extension.no_settings%22)
+
+> This extension has no settings.
+
+```diff
+-此扩展程序无设置项。
++无设置项
+```
+
+#### [`core.admin.extension.readme.no_readme`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.extension.readme.no_readme%22)
+
+> This extension does not appear to have a README file
+
+```diff
+-此扩展程序似乎没有 README 文件
++此扩展似乎没有 README 文件
+```
+
+<del>此扩展程序似乎没有</del><ins>此扩展似乎没有</ins> README 文件
+
+#### [`core.admin.extension.replaced`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.extension.replaced%22)
+
+> Replaced
+
+```diff
+-替代
++已被替代
+```
+
+#### [`core.admin.loading.title`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.loading.title%22)
+
+> Please Wait...
+
+```diff
+-请稍后……
++请稍后…
+```
+
+#### [`core.admin.nav.categories.discussion`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.nav.categories.discussion%22)
+
+> Discussion
+
+```diff
+-主题与内容
++讨论与内容
+```
+
+#### [`core.admin.nav.categories.forum-widget`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.nav.categories.forum-widget%22)
+
+> Forum Widgets
+
+```diff
+-论坛小组件
++小组件
+```
+
+#### [`core.admin.nav.categories.theme`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.nav.categories.theme%22)
+
+> Themes
+
+```diff
+-样式
++主题样式
+```
+
+#### [`core.admin.nav.search_placeholder`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.nav.search_placeholder%22)
+
+> Search Extensions
+
+```diff
+-搜索扩展程序
++搜索扩展
+```
+
+#### [`core.admin.permissions.allow_renaming_label`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.permissions.allow_renaming_label%22)
+
+> Allow renaming
+
+```diff
+-允许修改自己的主题标题
++允许更改自己的讨论标题
+```
+
+#### [`core.admin.permissions.delete_discussions_forever_label`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.permissions.delete_discussions_forever_label%22)
+
+> Delete discussions forever
+
+```diff
+-永久删除主题
++永久删除讨论
+```
+
+#### [`core.admin.permissions.delete_discussions_label`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.permissions.delete_discussions_label%22)
+
+> Delete discussions
+
+```diff
+-删除主题
++删除讨论
+```
+
+#### [`core.admin.permissions.rename_discussions_label`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.permissions.rename_discussions_label%22)
+
+> Rename discussions
+
+```diff
+-修改主题标题
++更改讨论标题
+```
+
+#### [`core.admin.permissions.reply_to_discussions_label`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.permissions.reply_to_discussions_label%22)
+
+> Reply to discussions
+
+```diff
+-回复主题
++回帖
+```
+
 #### [`core.admin.permissions.start_discussions_label`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.permissions.start_discussions_label%22)
 
 > Start discussions
 
 ```diff
 -发布主题
-+开始讨论
++发起讨论
 ```
 
 #### [`core.admin.users.description`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.users.description%22)
@@ -319,8 +539,59 @@ SMTP <del>设置</del><ins>服务</ins>
 
 ```diff
 -论坛用户分页列表
-+您的论坛中所有用户的分页列表。
++论坛用户一览。
 ```
+
+#### [`core.admin.users.grid.columns.display_name.title`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.users.grid.columns.display_name.title%22)
+
+> Display name
+
+```diff
+-外显昵称
++外显名称
+```
+
+#### [`core.admin.users.grid.invalid_column_content`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.users.grid.invalid_column_content%22)
+
+> Invalid
+
+```diff
+-非法
++数据异常
+```
+
+#### [`core.api.invalid_filter_type.must_be_numeric_message`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.api.invalid_filter_type.must_be_numeric_message%22)
+
+> The {filter} filter must be numeric.
+
+```diff
+-{filter} 查询条件必须是数值。
++查询条件 {filter} 必须是数值。
+```
+
+<ins>查询条件 </ins>{filter} <del>查询条件必须是数值。</del><ins>必须是数值。</ins>
+
+#### [`core.api.invalid_filter_type.must_not_be_array_message`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.api.invalid_filter_type.must_not_be_array_message%22)
+
+> The {filter} filter must not be an array.
+
+```diff
+-{filter} 查询条件不能是数组。
++查询条件 {filter} 不能是数组。
+```
+
+<ins>查询条件 </ins>{filter} <del>查询条件不能是数组。</del><ins>不能是数组。</ins>
+
+#### [`core.api.invalid_filter_type.must_not_be_multidimensional_array_message`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.api.invalid_filter_type.must_not_be_multidimensional_array_message%22)
+
+> The {filter} filter must not be a multidimensional array.
+
+```diff
+-{filter} 查询条件不能是多维数组。
++查询条件 {filter} 不能是多维数组。
+```
+
+<ins>查询条件 </ins>{filter} <del>查询条件不能是多维数组。</del><ins>不能是多维数组。</ins>
 
 #### [`core.email.abandoned_extensions.subject`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.email.abandoned_extensions.subject%22)
 
@@ -328,7 +599,25 @@ SMTP <del>设置</del><ins>服务</ins>
 
 ```diff
 -发现已停止维护的扩展，请处理
-+注意：发现了已弃用扩展
++部分扩展已停止维护
+```
+
+#### [`core.email.activate_account.subject`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.email.activate_account.subject%22)
+
+> Activate Your New Account
+
+```diff
+-账号激活
++激活你的新账号
+```
+
+#### [`core.email.confirm_email.subject`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.email.confirm_email.subject%22)
+
+> Confirm Your New Email Address
+
+```diff
+-确认邮箱地址
++确认新邮箱地址
 ```
 
 #### [`core.forum.change_email.incorrect_password_message`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.forum.change_email.incorrect_password_message%22)
@@ -355,7 +644,7 @@ SMTP <del>设置</del><ins>服务</ins>
 
 ```diff
 -编辑成功
-+您的编辑已生效。
++您的修改已保存。
 ```
 
 #### [`core.forum.composer_edit.post_link`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.forum.composer_edit.post_link%22)
@@ -364,7 +653,7 @@ SMTP <del>设置</del><ins>服务</ins>
 
 ```diff
 -发布 #{number} 于 {discussion}
-+发布于 {discussion} 的 #{number}
++编辑 {discussion} 的 #{number}
 ```
 
 #### [`core.forum.discussion_controls.cannot_reply_text`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.forum.discussion_controls.cannot_reply_text%22)
@@ -373,7 +662,7 @@ SMTP <del>设置</del><ins>服务</ins>
 
 ```diff
 -您没有权限回复这个帖子。
-+您没有权限回复这篇讨论。
++您没有权限回帖。
 ```
 
 #### [`core.forum.discussion_controls.delete_confirmation`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.forum.discussion_controls.delete_confirmation%22)
@@ -382,7 +671,7 @@ SMTP <del>设置</del><ins>服务</ins>
 
 ```diff
 -确定要永久删除这个帖子？
-+确定要永久删除这个讨论？
++确定要永久删除这个讨论吗？
 ```
 
 #### [`core.forum.discussion_controls.toggle_dropdown_accessible_label`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.forum.discussion_controls.toggle_dropdown_accessible_label%22)
@@ -391,7 +680,25 @@ SMTP <del>设置</del><ins>服务</ins>
 
 ```diff
 -主题下拉菜单开关
-+讨论下拉菜单开关
++展开或收起更多菜单
+```
+
+#### [`core.forum.discussion_list.empty_text`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.forum.discussion_list.empty_text%22)
+
+> It looks as though there are no discussions here.
+
+```diff
+-这里空空如也...
++这里空空如也……
+```
+
+#### [`core.forum.forgot_password.email_sent_message`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.forum.forgot_password.email_sent_message%22)
+
+> If the email you entered is registered with this site, we'll send you an email containing a link to reset your password. Check your spam folder if you don't receive it within the next minute or two.
+
+```diff
+-如果您输入的电子邮件已在本站注册过，我们将向其发送一封含有重置密码链接的邮件。若未收到请检查垃圾箱。
++如果你输入的邮箱已在本站注册，我们会向该邮箱发送一封包含密码重置链接的邮件。若一两分钟后仍未收到，请检查垃圾箱。
 ```
 
 #### [`core.forum.forgot_password.not_found_message`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.forum.forgot_password.not_found_message%22)
@@ -400,7 +707,25 @@ SMTP <del>设置</del><ins>服务</ins>
 
 ```diff
 -此邮箱的注册用户不存在
-+未找到使用该邮箱注册的用户。
++此邮箱未注册。
+```
+
+#### [`core.forum.forgot_password.text`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.forum.forgot_password.text%22)
+
+> Enter your email address and we will send you a link to reset your password.
+
+```diff
+-请输入账户的注册邮箱地址，我们将发送重设密码链接至该邮箱。
++请输入邮箱地址，我们会向你发送密码重置链接。
+```
+
+#### [`core.forum.header.admin_button`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.forum.header.admin_button%22)
+
+> Administration
+
+```diff
+-后台管理
++管理后台
 ```
 
 #### [`core.forum.header.back_to_index_tooltip`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.forum.header.back_to_index_tooltip%22)
@@ -412,13 +737,13 @@ SMTP <del>设置</del><ins>服务</ins>
 +返回讨论列表
 ```
 
-#### [`core.forum.header.log_out_button`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.forum.header.log_out_button%22)
+#### [`core.forum.header.locale_dropdown_accessible_label`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.forum.header.locale_dropdown_accessible_label%22)
 
-> =&gt; core.ref.log\_out
+> Change forum locale
 
 ```diff
--=> core.ref.log_out
-+退出登录
+-更改论坛语言
++切换界面语言
 ```
 
 #### [`core.forum.header.search_placeholder`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.forum.header.search_placeholder%22)
@@ -439,13 +764,22 @@ SMTP <del>设置</del><ins>服务</ins>
 +搜索社区
 ```
 
+#### [`core.forum.header.session_dropdown_accessible_label`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.forum.header.session_dropdown_accessible_label%22)
+
+> Toggle session options dropdown menu
+
+```diff
+-会话下拉菜单开关
++展开或收起我的选项菜单
+```
+
 #### [`core.forum.header.settings_button`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.forum.header.settings_button%22)
 
 > =&gt; core.ref.settings
 
 ```diff
 -设置
-+账号设置
++=> core.ref.settings
 ```
 
 #### [`core.forum.index.mark_all_as_read_confirmation`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.forum.index.mark_all_as_read_confirmation%22)
@@ -454,7 +788,16 @@ SMTP <del>设置</del><ins>服务</ins>
 
 ```diff
 -确定要标记所有帖子为已读吗？
-+确定要标记所有讨论为已读吗？
++确定要将所有讨论标记为已读吗？
+```
+
+#### [`core.forum.index.toggle_sidenav_dropdown_accessible_label`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.forum.index.toggle_sidenav_dropdown_accessible_label%22)
+
+> Toggle navigation dropdown menu
+
+```diff
+-导航栏下拉菜单开关
++展开或收起导航栏菜单
 ```
 
 #### [`core.forum.index_sort.toggle_dropdown_accessible_label`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.forum.index_sort.toggle_dropdown_accessible_label%22)
@@ -463,19 +806,44 @@ SMTP <del>设置</del><ins>服务</ins>
 
 ```diff
 -更改「全部主题」排序
-+更改「全部讨论」排序
++更改讨论列表排序方式
 ```
 
-#### [`core.forum.post_stream.discussion_renamed_text`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.forum.post_stream.discussion_renamed_text%22)
+#### [`core.forum.log_in.sign_up_text`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.forum.log_in.sign_up_text%22)
 
-> {username} changed the title to {new} {time}.
+> Don't have an account? &lt;a&gt;Sign Up&lt;/a&gt;
 
 ```diff
--{username} 于 {time} 更改标题为「{new}」
-+{username} 于 {time} 将标题修改为 {new}。
+-还没有帐户？ <a>立即注册</a>
++还没有账号？<a>立即注册</a>
 ```
 
-{username} 于 {time} <del>更改标题为「{new}」</del><ins>将标题修改为 {new}。</ins>
+#### [`core.forum.notifications.empty_text`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.forum.notifications.empty_text%22)
+
+> No Notifications
+
+```diff
+-没有新通知
++暂无通知
+```
+
+#### [`core.forum.post_controls.toggle_dropdown_accessible_label`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.forum.post_controls.toggle_dropdown_accessible_label%22)
+
+> Toggle post controls dropdown menu
+
+```diff
+-帖子下拉菜单开关
++展开或收起帖子更多菜单
+```
+
+#### [`core.forum.post_stream.discussion_renamed_old_tooltip`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.forum.post_stream.discussion_renamed_old_tooltip%22)
+
+> The old title was: "{old}"
+
+```diff
+-原标题：「{old}」
++原标题「{old}」
+```
 
 #### [`core.forum.rename_discussion.title`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.forum.rename_discussion.title%22)
 
@@ -486,14 +854,97 @@ SMTP <del>设置</del><ins>服务</ins>
 +更改讨论标题
 ```
 
+#### [`core.forum.security.cannot_terminate_current_session`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.forum.security.cannot_terminate_current_session%22)
+
+> Cannot terminate the current active session. Log out instead.
+
+```diff
+-无法终止当前活动会话，请登出。
++无法终止当前会话，请直接退出登录。
+```
+
+#### [`core.forum.security.current_active_session`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.forum.security.current_active_session%22)
+
+> Current Active Session
+
+```diff
+-当前活动会话
++当前会话
+```
+
+#### [`core.forum.security.empty_text`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.forum.security.empty_text%22)
+
+> It looks like there is nothing to see here.
+
+```diff
+-无可用令牌。
++尚未创建令牌。
+```
+
+#### [`core.forum.security.global_logout.help_text`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.forum.security.global_logout.help_text%22)
+
+> Clears current cookie session, terminates all sessions, revokes developer tokens, and invalidates any email confirmation or password reset emails.
+
+```diff
+-清除当前 Cookie 会话、终止所有会话、撤销所有开发者令牌，并使一切验证邮箱或重置密码的链接失效。
++退出当前登录并终止所有其他会话，同时撤销开发者令牌，已发出的邮箱验证和密码重置链接也将失效。
+```
+
+#### [`core.forum.security.last_activity`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.forum.security.last_activity%22)
+
+> Last activity
+
+```diff
+-最近活动
++上次活动
+```
+
+#### [`core.forum.settings.account_heading`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.forum.settings.account_heading%22)
+
+> Account
+
+```diff
+-帐户设置
++账号
+```
+
+#### [`core.forum.settings.notify_by_web_heading`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.forum.settings.notify_by_web_heading%22)
+
+> Web
+
+```diff
+-通知
++站内通知
+```
+
 #### [`core.forum.settings.notify_discussion_renamed_label`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.forum.settings.notify_discussion_renamed_label%22)
 
 > Someone renames a discussion I started
 
 ```diff
 -我的主题标题被更改
-+有人更改了我的讨论标题
++有人更改我的讨论标题
 ```
+
+#### [`core.forum.settings.privacy_heading`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.forum.settings.privacy_heading%22)
+
+> Privacy
+
+```diff
+-隐私设置
++隐私
+```
+
+#### [`core.forum.sign_up.log_in_text`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.forum.sign_up.log_in_text%22)
+
+> Already have an account? &lt;a&gt;Log In&lt;/a&gt;
+
+```diff
+-已有帐户？ <a>登录</a>
++已有帐号？ <a>登录</a>
+```
+
+<del>已有帐户？</del><ins>已有帐号？</ins> &lt;a&gt;登录&lt;/a&gt;
 
 #### [`core.forum.user.posts_empty_text`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.forum.user.posts_empty_text%22)
 
@@ -501,7 +952,142 @@ SMTP <del>设置</del><ins>服务</ins>
 
 ```diff
 -暂无内容
-+这里似乎没有任何帖子。
++这里空空如也……
+```
+
+#### [`core.forum.user_controls.toggle_dropdown_accessible_label`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.forum.user_controls.toggle_dropdown_accessible_label%22)
+
+> Toggle user controls dropdown menu
+
+```diff
+-用户下拉菜单开关
++展开或收起用户操作菜单
+```
+
+#### [`core.forum.welcome_hero.hide`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.forum.welcome_hero.hide%22)
+
+> Hide welcome message
+
+```diff
+-隐藏欢迎横幅内容
++隐藏欢迎横幅
+```
+
+#### [`core.lib.datetime_formats.humanTimeShort`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.lib.datetime_formats.humanTimeShort%22)
+
+> D MMM
+
+```diff
+-MMMD日
++M月D日
+```
+
+#### [`core.lib.datetime_formats.scrubber`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.lib.datetime_formats.scrubber%22)
+
+> MMMM YYYY
+
+```diff
+-YYYY年MMM
++YYYY年M月
+```
+
+#### [`core.lib.dropdown.toggle_dropdown_accessible_label`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.lib.dropdown.toggle_dropdown_accessible_label%22)
+
+> Toggle dropdown menu
+
+```diff
+-下拉菜单开关
++展开或收起更多菜单
+```
+
+#### [`core.lib.edit_user.nothing_available`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.lib.edit_user.nothing_available%22)
+
+> You are not allowed to edit this user.
+
+```diff
+-您无权编辑此用户。
++你没有权限编辑此用户。
+```
+
+#### [`core.lib.error.circular_dependencies_message`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.lib.error.circular_dependencies_message%22)
+
+> Circular dependencies detected: {extensions}. Aborting. Please disable one of the extensions and try again.
+
+```diff
+-检测到循环依赖关系：{extensions}。正在中止操作。请禁用其中一个扩展，然后重试。
++检测到循环依赖关系：{extensions}，已中止操作。请禁用其中一个扩展后重试。
+```
+
+#### [`core.lib.error.dependent_extensions_message`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.lib.error.dependent_extensions_message%22)
+
+> Cannot disable {extension} until the following dependent extensions are disabled: {extensions}
+
+```diff
+-无法停用「{extension}」，请先停用依赖扩展「{extensions}」
++无法禁用「{extension」。请先禁用以下依赖它的扩展：{extensions}
+```
+
+#### [`core.lib.error.extension_initialiation_failed_message`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.lib.error.extension_initialiation_failed_message%22)
+
+> {extension} failed to initialize, check the browser console for further information.
+
+```diff
+-初始化「{extension}」失败，详情信息请查看控制台。
++初始化「{extension}」失败，详情请查看浏览器控制台。
+```
+
+#### [`core.lib.error.generic_cross_origin_message`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.lib.error.generic_cross_origin_message%22)
+
+> Oops! Something went wrong during a cross-origin request. Please reload the page and try again.
+
+```diff
+-跨域请求时出现问题，请刷新页面后重试。
++跨域请求时出现问题，请刷新页面重试。
+```
+
+#### [`core.lib.error.missing_dependencies_message`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.lib.error.missing_dependencies_message%22)
+
+> Cannot enable {extension} until the following dependencies are enabled: {extensions}
+
+```diff
+-无法启用「{extension}」，请先启用依赖扩展「{extensions}」
++无法启用「{extension}」，请先启用前置扩展「{extensions}」
+```
+
+#### [`core.lib.error.not_found_message`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.lib.error.not_found_message%22)
+
+> The requested resource was not found.
+
+```diff
+-您请求的资源不存在。
++你请求的资源不存在。
+```
+
+#### [`core.lib.error.payload_too_large_message`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.lib.error.payload_too_large_message%22)
+
+> The request payload was too large.
+
+```diff
+-上传内容过大。
++请求负载过大。
+```
+
+#### [`core.lib.error.permission_denied_message`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.lib.error.permission_denied_message%22)
+
+> You do not have permission to do that.
+
+```diff
+-您没有权限进行此操作。
++你没有权限执行此操作。
+```
+
+#### [`core.lib.error.rate_limit_exceeded_message`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.lib.error.rate_limit_exceeded_message%22)
+
+> You're going a little too quickly. Please try again in a few seconds.
+
+```diff
+-您的操作太频繁，请稍后再试。
++操作过于频繁，请稍后再试。
 ```
 
 #### [`core.lib.error.render_failed_message`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.lib.error.render_failed_message%22)
@@ -510,8 +1096,28 @@ SMTP <del>设置</del><ins>服务</ins>
 
 ```diff
 -抱歉，加载此内容时出错，请刷新页面重试。如果您是管理员，请查看论坛日志文件查看详情。
-+抱歉，加载此内容时出错，请刷新页面重试。如果您是管理员，请查看 Flarum 的日志文件以获取更多信息。
++抱歉，加载此内容时出错，请刷新页面重试。管理员可查看 Flarum 日志文件获取更多信息。
 ```
+
+#### [`core.lib.nav.drawer_button`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.lib.nav.drawer_button%22)
+
+> Open Navigation Drawer
+
+```diff
+-打开导航抽屉
++打开导航菜单
+```
+
+#### [`core.lib.series.three_text`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.lib.series.three_text%22)
+
+> {first}, {second}, and {third}
+
+```diff
+-{first}、{second} 与 {third}
++{first}、{second} 和 {third}
+```
+
+{first}、{second} <del>与</del><ins>和</ins> {third}
 
 #### [`core.ref.all_discussions`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.ref.all_discussions%22)
 
@@ -520,6 +1126,44 @@ SMTP <del>设置</del><ins>服务</ins>
 ```diff
 -全部主题
 +全部讨论
+```
+
+#### [`core.ref.confirmation_email_sent`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.ref.confirmation_email_sent%22)
+
+> We've sent a confirmation email to {email}. If it doesn't arrive soon, check your spam folder.
+
+```diff
+-账号激活邮件已发送至 {email}，请激活账号，若未收到请检查垃圾箱。
++激活邮件已发送至 {email}，若未收到请检查垃圾箱。
+```
+
+#### [`core.ref.custom_footer_title`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.ref.custom_footer_title%22)
+
+> Edit Custom Footer
+
+```diff
+-编辑自定义页脚
++自定义页脚
+```
+
+#### [`core.ref.custom_header_text`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.ref.custom_header_text%22)
+
+> Add HTML to be displayed at the very top of the page, above Flarum's own header.
+
+```diff
+-添加显示于页面顶部、位于 Flarum 默认页眉上方的 HTML 代码。
++添加显示于页面顶部、位于 Flarum 导航栏上方的 HTML 代码。
+```
+
+添加显示于页面顶部、位于 Flarum <del>默认页眉上方的</del><ins>导航栏上方的</ins> HTML 代码。
+
+#### [`core.ref.custom_header_title`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.ref.custom_header_title%22)
+
+> Edit Custom Header
+
+```diff
+-编辑自定义页眉
++自定义页眉
 ```
 
 #### [`core.ref.discussions`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.ref.discussions%22)
@@ -540,13 +1184,49 @@ SMTP <del>设置</del><ins>服务</ins>
 +确定要继续吗？此操作无法撤销。
 ```
 
+#### [`core.ref.log_out`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.ref.log_out%22)
+
+> Log Out
+
+```diff
+-退出
++退出登录
+```
+
+#### [`core.ref.notifications`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.ref.notifications%22)
+
+> Notifications
+
+```diff
+-通知中心
++通知
+```
+
 #### [`core.ref.start_a_discussion`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.ref.start_a_discussion%22)
 
 > Start a Discussion
 
 ```diff
 -发布主题
-+开始讨论
++发起讨论
+```
+
+#### [`core.views.admin.extensions.empty`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.views.admin.extensions.empty%22)
+
+> No installed extensions
+
+```diff
+-尚未安装扩展程序
++尚未安装扩展
+```
+
+#### [`core.views.admin.extensions.package_name`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.views.admin.extensions.package_name%22)
+
+> Package Name
+
+```diff
+-软件包
++包名
 ```
 
 #### [`core.views.admin.title`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.views.admin.title%22)
@@ -555,19 +1235,71 @@ SMTP <del>设置</del><ins>服务</ins>
 
 ```diff
 -开发者
-+管理员
++管理后台
 ```
 
-#### [`core.views.error.not_found_return_link`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.views.error.not_found_return_link%22)
+#### [`core.views.confirm_email.text`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.views.confirm_email.text%22)
 
-> Return to {forum}
+> Click the button below to confirm your account's email.
 
 ```diff
--返回 {forum}
-+返回至 {forum}
+-点击下方按钮确认您的邮箱。
++点击下方按钮确认你的邮箱。
 ```
 
-<del>返回</del><ins>返回至</ins> {forum}
+#### [`core.views.content.javascript_disabled_message`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.views.content.javascript_disabled_message%22)
+
+> This site is best viewed in a modern browser with JavaScript enabled.
+
+```diff
+-请使用更现代的浏览器并启用 JavaScript 以获得最佳浏览体验。
++为获得最佳浏览体验，请使用现代浏览器并启用 JavaScript。
+```
+
+#### [`core.views.error.csrf_token_mismatch`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.views.error.csrf_token_mismatch%22)
+
+> You have been inactive for too long.
+
+```diff
+-您已经发呆很长时间了。
++你离开得有点久，当前会话已经失效。
+```
+
+#### [`core.views.error.method_not_allowed`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.views.error.method_not_allowed%22)
+
+> This page does not support that request method.
+
+```diff
+-此页面不支持该请求方法。
++此页面不支持该请求方式。
+```
+
+#### [`core.views.error.not_authenticated`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.views.error.not_authenticated%22)
+
+> You do not have permission to access this page. Try again after logging in.
+
+```diff
+-您没有权限访问此页面，请登录后再试。
++你没有权限访问此页面，请登录后再试。
+```
+
+#### [`core.views.error.not_found`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.views.error.not_found%22)
+
+> The page you requested could not be found.
+
+```diff
+-您访问的页面不存在。
++你访问的页面不存在。
+```
+
+#### [`core.views.error.permission_denied`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.views.error.permission_denied%22)
+
+> You do not have permission to access this page.
+
+```diff
+-您没有权限访问此页面。
++你没有权限访问此页面。
+```
 
 #### [`core.views.error.unknown`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.views.error.unknown%22)
 
@@ -575,7 +1307,7 @@ SMTP <del>设置</del><ins>服务</ins>
 
 ```diff
 -加载页面时出错，请检查控制台。
-+加载页面时出错，请检查日志。
++出了点岔子，页面暂时无法加载。
 ```
 
 #### [`core.views.log_out.log_out_confirmation`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.views.log_out.log_out_confirmation%22)
@@ -584,10 +1316,10 @@ SMTP <del>设置</del><ins>服务</ins>
 
 ```diff
 -确定要从 {forum} 退出登录？
-+您确定要在 {forum} 上退出登录?
++确定要登出 {forum} 吗？
 ```
 
-<del>确定要从</del><ins>您确定要在</ins> {forum} <del>退出登录？</del><ins>上退出登录?</ins>
+<del>确定要从</del><ins>确定要登出</ins> {forum} <del>退出登录？</del><ins>吗？</ins>
 
 
 ### `datitisev-backup`
@@ -947,6 +1679,18 @@ FTP <del>端口（默认</del><ins>端口（默认为</ins> 21）。
 ```
 
 
+### `datlechin-passkey`
+
+#### [`datlechin-passkey.forum.log_in.sign_in_with_passkey`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/zh_Hans/?q=context%3A%3D%22datlechin-passkey.forum.log_in.sign_in_with_passkey%22)
+
+> Sign in with passkey
+
+```diff
+-使用通行密钥登录
++使用密钥登录
+```
+
+
 ### `datlechin-tag-passwords`
 
 #### [`datlechin-tag-passwords.admin.edit_tag.group_placeholder_label`](https://weblate.rob006.net/translate/flarum2/datlechin-tag-passwords/zh_Hans/?q=context%3A%3D%22datlechin-tag-passwords.admin.edit_tag.group_placeholder_label%22)
@@ -1141,6 +1885,40 @@ FTP <del>端口（默认</del><ins>端口（默认为</ins> 21）。
 ```
 
 
+### `ekumanov-inline-audio`
+
+#### [`ekumanov-inline-audio.forum.bbcode_description`](https://weblate.rob006.net/translate/flarum2/ekumanov-inline-audio/zh_Hans/?q=context%3A%3D%22ekumanov-inline-audio.forum.bbcode_description%22)
+
+> Embed an audio player: \[player\]URL\[/player\]
+
+```diff
+-嵌入一个音频播放器：[player]URL[/player]
++嵌入音频播放器：[player]链接地址[/player]
+```
+
+
+### `ekumanov-new-posts-notice`
+
+#### [`ekumanov-new-posts-notice.forum.new_posts_single`](https://weblate.rob006.net/translate/flarum2/ekumanov-new-posts-notice/zh_Hans/?q=context%3A%3D%22ekumanov-new-posts-notice.forum.new_posts_single%22)
+
+> 1 new reply was added while you were writing.
+>
+> OK → Post your reply anyway
+> Cancel → Read it first (your draft stays open)
+
+```diff
+-在你编辑的时候有一条新的回复。
++在您撰写期间新增了 1 条回复。
+
+-OK → 仍然回复
+-取消 → 先读读它（你的草稿仍会保留）
++确定 → 仍然发布回复
++取消 → 先查看新回复（草稿将被保留）
+```
+
+<del>在你编辑的时候有一条新的回复。</del><ins>在您撰写期间新增了 1 条回复。</ins><br /><br /><del>OK</del><ins>确定</ins> → <del>仍然回复</del><ins>仍然发布回复</ins><br />取消 → <del>先读读它（你的草稿仍会保留）</del><ins>先查看新回复（草稿将被保留）</ins>
+
+
 ### `flarum-akismet`
 
 #### [`flarum-akismet.admin.akismet_settings.api_key_label`](https://weblate.rob006.net/translate/flarum2/flarum-akismet/zh_Hans/?q=context%3A%3D%22flarum-akismet.admin.akismet_settings.api_key_label%22)
@@ -1154,6 +1932,26 @@ FTP <del>端口（默认</del><ins>端口（默认为</ins> 21）。
 
 API <del>Key</del><ins>密钥</ins>
 
+#### [`flarum-akismet.admin.akismet_settings.delete_blatant_spam_help`](https://weblate.rob006.net/translate/flarum2/flarum-akismet/zh_Hans/?q=context%3A%3D%22flarum-akismet.admin.akismet_settings.delete_blatant_spam_help%22)
+
+> If Akismet has determined that the comment is blatant spam, instead of flagging, automatically delete post
+
+```diff
+-直接删除检测到问题的内容
++Akismet 判定为明显垃圾的帖子将直接删除，而非仅标记
+```
+
+#### [`flarum-akismet.admin.permissions.bypass_akismet`](https://weblate.rob006.net/translate/flarum2/flarum-akismet/zh_Hans/?q=context%3A%3D%22flarum-akismet.admin.permissions.bypass_akismet%22)
+
+> Bypass Akismet
+
+```diff
+-跳过 Akismet 内容审查
++跳过 Akismet 内容检查
+```
+
+跳过 Akismet <del>内容审查</del><ins>内容检查</ins>
+
 
 ### `flarum-approval`
 
@@ -1166,22 +1964,25 @@ API <del>Key</del><ins>密钥</ins>
 +审核帖子
 ```
 
-#### [`flarum-approval.admin.permissions.reply_without_approval_label`](https://weblate.rob006.net/translate/flarum2/flarum-approval/zh_Hans/?q=context%3A%3D%22flarum-approval.admin.permissions.reply_without_approval_label%22)
-
-> Reply to discussions without approval
-
-```diff
--回复无需审核
-+无需审核回复
-```
-
 #### [`flarum-approval.admin.permissions.start_discussions_without_approval_label`](https://weblate.rob006.net/translate/flarum2/flarum-approval/zh_Hans/?q=context%3A%3D%22flarum-approval.admin.permissions.start_discussions_without_approval_label%22)
 
 > Start discussions without approval
 
 ```diff
 -发布主题无需审核
-+无需审核讨论
++发起讨论无需审核
+```
+
+
+### `flarum-audit`
+
+#### [`flarum-audit.admin.permissions.view`](https://weblate.rob006.net/translate/flarum2/flarum-audit/zh_Hans/?q=context%3A%3D%22flarum-audit.admin.permissions.view%22)
+
+> View audit log
+
+```diff
+-查看审查日志
++查看审计日志
 ```
 
 
@@ -1193,22 +1994,113 @@ API <del>Key</del><ins>密钥</ins>
 
 ```diff
 -：
-+说
++云
+```
+
+
+### `flarum-emoji`
+
+#### [`flarum-emoji.forum.composer.type_to_search_text`](https://weblate.rob006.net/translate/flarum2/flarum-emoji/zh_Hans/?q=context%3A%3D%22flarum-emoji.forum.composer.type_to_search_text%22)
+
+> Type to search for an emoji
+
+```diff
+-搜索 Emoji 表情
++继续输入以搜索表情
 ```
 
 
 ### `flarum-extension-manager`
 
-#### [`flarum-extension-manager.admin.auth_config.types.bearer`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/zh_Hans/?q=context%3A%3D%22flarum-extension-manager.admin.auth_config.types.bearer%22)
+#### [`flarum-extension-manager.admin.auth_config.add_modal.host_label`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/zh_Hans/?q=context%3A%3D%22flarum-extension-manager.admin.auth_config.add_modal.host_label%22)
 
-> HTTP Bearer
+> Host
 
 ```diff
--HTTP Bearer
-+HTTP 承载令牌
+-主机
++主机地址
 ```
 
-HTTP <del>Bearer</del><ins>承载令牌</ins>
+#### [`flarum-extension-manager.admin.auth_config.add_modal.submit_button`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/zh_Hans/?q=context%3A%3D%22flarum-extension-manager.admin.auth_config.add_modal.submit_button%22)
+
+> Submit
+
+```diff
+-提交
++添加
+```
+
+#### [`flarum-extension-manager.admin.auth_config.add_modal.type_label`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/zh_Hans/?q=context%3A%3D%22flarum-extension-manager.admin.auth_config.add_modal.type_label%22)
+
+> Type
+
+```diff
+-类型
++认证类型
+```
+
+#### [`flarum-extension-manager.admin.auth_config.delete_confirmation`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/zh_Hans/?q=context%3A%3D%22flarum-extension-manager.admin.auth_config.delete_confirmation%22)
+
+> Are you sure you want to delete this authentication method?
+
+```diff
+-确定要删除此认证吗？
++确定要删除此认证方式吗？
+```
+
+#### [`flarum-extension-manager.admin.auth_config.delete_label`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/zh_Hans/?q=context%3A%3D%22flarum-extension-manager.admin.auth_config.delete_label%22)
+
+> Delete authentication method
+
+```diff
+-删除认证
++删除认证方式
+```
+
+#### [`flarum-extension-manager.admin.auth_config.edit_label`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/zh_Hans/?q=context%3A%3D%22flarum-extension-manager.admin.auth_config.edit_label%22)
+
+> Edit authentication method
+
+```diff
+-编辑认证
++编辑认证方式
+```
+
+#### [`flarum-extension-manager.admin.auth_config.fields.host`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/zh_Hans/?q=context%3A%3D%22flarum-extension-manager.admin.auth_config.fields.host%22)
+
+> Host
+
+```diff
+-主机
++主机地址
+```
+
+#### [`flarum-extension-manager.admin.auth_config.no_auth_methods_configured`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/zh_Hans/?q=context%3A%3D%22flarum-extension-manager.admin.auth_config.no_auth_methods_configured%22)
+
+> No authentication methods configured. This is an optional advanced feature to allow installing from private repositories.
+
+```diff
+-暂无认证配置。可选，您可以在此配置认证方式以从私有仓库安装扩展程序。
++尚未配置认证方式。如需从私有仓库安装软件包，请在此配置。
+```
+
+#### [`flarum-extension-manager.admin.auth_config.remove_button_label`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/zh_Hans/?q=context%3A%3D%22flarum-extension-manager.admin.auth_config.remove_button_label%22)
+
+> Remove authentication method
+
+```diff
+-移除认证
++移除认证方式
+```
+
+#### [`flarum-extension-manager.admin.auth_config.title`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/zh_Hans/?q=context%3A%3D%22flarum-extension-manager.admin.auth_config.title%22)
+
+> Authentication Methods
+
+```diff
+-认证
++认证方式
+```
 
 #### [`flarum-extension-manager.admin.composer.delete_repository_confirmation`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/zh_Hans/?q=context%3A%3D%22flarum-extension-manager.admin.composer.delete_repository_confirmation%22)
 
@@ -1216,7 +2108,94 @@ HTTP <del>Bearer</del><ins>承载令牌</ins>
 
 ```diff
 -确定要删除此仓库，以及从此来源安装的扩展程序吗？
-+你确定要删除这个仓库吗？所有从这个仓库安装的扩展都会被移除。
++确定要删除此仓库吗？从此仓库安装的所有扩展程序都将被移除。
+```
+
+#### [`flarum-extension-manager.admin.composer.minimum_stability.help`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/zh_Hans/?q=context%3A%3D%22flarum-extension-manager.admin.composer.minimum_stability.help%22)
+
+> The type of packages allowed to be installed. Do not change this unless you know what you are doing.
+
+```diff
+-允许安装的包类型。如非必要，请不要修改此设置。
++设置允许安装的软件包版本类型。如非必要，请勿修改此设置。
+```
+
+#### [`flarum-extension-manager.admin.composer.minimum_stability.options.alpha`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/zh_Hans/?q=context%3A%3D%22flarum-extension-manager.admin.composer.minimum_stability.options.alpha%22)
+
+> Alpha
+
+```diff
+-Alpha 测试
++Alpha 测试版
+```
+
+Alpha <del>测试</del><ins>测试版</ins>
+
+#### [`flarum-extension-manager.admin.composer.minimum_stability.options.beta`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/zh_Hans/?q=context%3A%3D%22flarum-extension-manager.admin.composer.minimum_stability.options.beta%22)
+
+> Beta
+
+```diff
+-Beta 测试
++Beta 测试版
+```
+
+Beta <del>测试</del><ins>测试版</ins>
+
+#### [`flarum-extension-manager.admin.composer.minimum_stability.options.dev`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/zh_Hans/?q=context%3A%3D%22flarum-extension-manager.admin.composer.minimum_stability.options.dev%22)
+
+> Dev
+
+```diff
+-开发版本
++开发版
+```
+
+#### [`flarum-extension-manager.admin.composer.minimum_stability.options.rc`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/zh_Hans/?q=context%3A%3D%22flarum-extension-manager.admin.composer.minimum_stability.options.rc%22)
+
+> Release Candidate
+
+```diff
+-候选版本
++候选发布版
+```
+
+#### [`flarum-extension-manager.admin.composer.minimum_stability.options.stable`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/zh_Hans/?q=context%3A%3D%22flarum-extension-manager.admin.composer.minimum_stability.options.stable%22)
+
+> Stable (Recommended)
+
+```diff
+-稳定（推荐）
++稳定版（推荐）
+```
+
+#### [`flarum-extension-manager.admin.composer.repositories.add_modal.submit_button`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/zh_Hans/?q=context%3A%3D%22flarum-extension-manager.admin.composer.repositories.add_modal.submit_button%22)
+
+> Submit
+
+```diff
+-提交
++添加
+```
+
+#### [`flarum-extension-manager.admin.composer.repositories.help`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/zh_Hans/?q=context%3A%3D%22flarum-extension-manager.admin.composer.repositories.help%22)
+
+> Add additional repositories to install packages from. This is an advanced feature, do not add repositories that are not trusted, as they can be used to execute malicious code on your server.
+>
+
+```diff
+-添加第三方公共或私有仓库。请不要添加不受信任的仓库，以免你的服务器遭受恶意代码执行。
++添加第三方公共或私有仓库。此为高级功能，请添加可信任的仓库，以免服务器被执行恶意代码。
+
+```
+
+#### [`flarum-extension-manager.admin.composer.repositories.types.composer`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/zh_Hans/?q=context%3A%3D%22flarum-extension-manager.admin.composer.repositories.types.composer%22)
+
+> composer
+
+```diff
+-composer
++Composer 仓库或软件源
 ```
 
 #### [`flarum-extension-manager.admin.composer.repositories.types.path`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/zh_Hans/?q=context%3A%3D%22flarum-extension-manager.admin.composer.repositories.types.path%22)
@@ -1225,7 +2204,34 @@ HTTP <del>Bearer</del><ins>承载令牌</ins>
 
 ```diff
 -path
-+路径
++本地路径
+```
+
+#### [`flarum-extension-manager.admin.composer.repositories.types.vcs`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/zh_Hans/?q=context%3A%3D%22flarum-extension-manager.admin.composer.repositories.types.vcs%22)
+
+> vcs
+
+```diff
+-vcs
++版本控制仓库（VCS）
+```
+
+#### [`flarum-extension-manager.admin.exceptions.extension_already_installed`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/zh_Hans/?q=context%3A%3D%22flarum-extension-manager.admin.exceptions.extension_already_installed%22)
+
+> Extension is already installed.
+
+```diff
+-此扩展程序已被安装。
++扩展程序已安装。
+```
+
+#### [`flarum-extension-manager.admin.exceptions.extension_not_directly_dependency`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/zh_Hans/?q=context%3A%3D%22flarum-extension-manager.admin.exceptions.extension_not_directly_dependency%22)
+
+> Extension is installed as a dependency of another extension, it cannot be directly removed.
+
+```diff
+-有其他扩展程序依赖于此扩展程序，无法直接移除。
++有其他扩展程序依赖此扩展，无法直接移除。
 ```
 
 #### [`flarum-extension-manager.admin.exceptions.guessed_cause.extension_not_found`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/zh_Hans/?q=context%3A%3D%22flarum-extension-manager.admin.exceptions.guessed_cause.extension_not_found%22)
@@ -1234,16 +2240,18 @@ HTTP <del>Bearer</del><ins>承载令牌</ins>
 
 ```diff
 -不存在的扩展程序。
-+找不到该扩展，或该扩展不存在。
++未找到此扩展程序，此扩展可能不存在。
 ```
 
-#### [`flarum-extension-manager.admin.extensions.check_why_it_failed_updating`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/zh_Hans/?q=context%3A%3D%22flarum-extension-manager.admin.extensions.check_why_it_failed_updating%22)
+#### [`flarum-extension-manager.admin.exceptions.guessed_cause.extensions_incompatible_with_new_major`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/zh_Hans/?q=context%3A%3D%22flarum-extension-manager.admin.exceptions.guessed_cause.extensions_incompatible_with_new_major%22)
 
-> Show why it did not update to the latest.
+> Some installed extensions are not compatible with the newest major release. Please wait until the extensions are updated to be compatible by the authors, or remove them before proceeding.
+>
 
 ```diff
--为什么无法更新到最新版本？
-+查看为什么无法更新到最新版本。
+-部分已安装的扩展程序不兼容最新大版本，请等候相应作者发布兼容性更新，或暂时卸载以继续操作。
++部分已安装的扩展程序与最新主版本不兼容。请等待作者发布兼容性更新，或暂时卸载以继续操作。
+
 ```
 
 #### [`flarum-extension-manager.admin.extensions.install`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/zh_Hans/?q=context%3A%3D%22flarum-extension-manager.admin.extensions.install%22)
@@ -1252,8 +2260,19 @@ HTTP <del>Bearer</del><ins>承载令牌</ins>
 
 ```diff
 -安装扩展程序
-+安装一个新的扩展程序
++安装新扩展
 ```
+
+#### [`flarum-extension-manager.admin.extensions.successful_install`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/zh_Hans/?q=context%3A%3D%22flarum-extension-manager.admin.extensions.successful_install%22)
+
+> {extension} was installed successfully, redirecting..
+
+```diff
+-{extension} 已成功安装，正在跳转……
++{extension} 安装成功，正在跳转…
+```
+
+{extension} <del>已成功安装，正在跳转……</del><ins>安装成功，正在跳转…</ins>
 
 #### [`flarum-extension-manager.admin.extensions.successful_remove`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/zh_Hans/?q=context%3A%3D%22flarum-extension-manager.admin.extensions.successful_remove%22)
 
@@ -1261,19 +2280,50 @@ HTTP <del>Bearer</del><ins>承载令牌</ins>
 
 ```diff
 -扩展程序已卸载。
-+扩展程序已成功卸载。
++扩展程序卸载成功。
 ```
 
-#### [`flarum-extension-manager.admin.file_permissions`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/zh_Hans/?q=context%3A%3D%22flarum-extension-manager.admin.file_permissions%22)
+#### [`flarum-extension-manager.admin.extensions.successful_update`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/zh_Hans/?q=context%3A%3D%22flarum-extension-manager.admin.extensions.successful_update%22)
 
-> The extension manager requires read and write permissions on the following files and directories: composer.json, composer.lock, vendor, storage, storage/.composer
+> {extension} was updated successfully, redirecting..
+
+```diff
+-{extension} 已成功更新，正在跳转……
++{extension} 更新成功，正在跳转…
+```
+
+{extension} <del>已成功更新，正在跳转……</del><ins>更新成功，正在跳转…</ins>
+
+#### [`flarum-extension-manager.admin.extensions.update_hard_label`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/zh_Hans/?q=context%3A%3D%22flarum-extension-manager.admin.extensions.update_hard_label%22)
+
+> Hard update
+
+```diff
+-硬更新
++忽略版本约束更新
+```
+
+#### [`flarum-extension-manager.admin.extensions.update_soft_label`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/zh_Hans/?q=context%3A%3D%22flarum-extension-manager.admin.extensions.update_soft_label%22)
+
+> Soft update
+
+```diff
+-软更新
++按版本约束更新
+```
+
+#### [`flarum-extension-manager.admin.major_updater.description`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/zh_Hans/?q=context%3A%3D%22flarum-extension-manager.admin.major_updater.description%22)
+
+> Major Flarum updates are not backwards compatible, meaning that some of your currently installed extensions, and manually made modifications might not work with this new version. Please make sure to make a backup of your database and files before proceeding.
 >
 
 ```diff
--扩展程序管理器需要以下文件和目录的读写权限：composer.json、composer.lock、vendor、storage、storage/.composer
-+扩展程序管理器需要以下文件和目录的读写权限：composer.json、composer.lock、vendor、storage 和 storage/.composer
+-Flarum 大版本更新并不向后兼容，因此您当前安装的部分扩展，以及手动修改的内容可能并兼容 Flarum 新版本。继续操作前，请确保备份数据库和文件。
++Flarum 主版本更新不保证向后兼容，因此部分已安装的扩展程序和手动修改的内容可能无法在新版本中正常工作。继续操作前请务必备份数据库和文件。
 
 ```
+
+Flarum <del>大版本更新并不向后兼容，因此您当前安装的部分扩展，以及手动修改的内容可能并兼容 Flarum 新版本。继续操作前，请确保备份数据库和文件。</del><ins>主版本更新不保证向后兼容，因此部分已安装的扩展程序和手动修改的内容可能无法在新版本中正常工作。继续操作前请务必备份数据库和文件。</ins><br />
 
 #### [`flarum-extension-manager.admin.major_updater.dry_run`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/zh_Hans/?q=context%3A%3D%22flarum-extension-manager.admin.major_updater.dry_run%22)
 
@@ -1281,7 +2331,108 @@ HTTP <del>Bearer</del><ins>承载令牌</ins>
 
 ```diff
 -测试运行
-+试运行
++模拟更新
+```
+
+#### [`flarum-extension-manager.admin.major_updater.dry_run_help`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/zh_Hans/?q=context%3A%3D%22flarum-extension-manager.admin.major_updater.dry_run_help%22)
+
+> A dry run emulates the update to see if your current setup can safely update, this does not mean that your manual made custom modifications will work in the newer version.
+
+```diff
+-测试运行可以模拟更新来确认当前配置是否可以安全更新，但并不意味着您手动修改的内容兼容新版本。
++模拟更新可用于检查当前环境能否安全升级，但无法保证你手动修改或自定义的内容也能在新版本中能生效。
+```
+
+#### [`flarum-extension-manager.admin.major_updater.failure.desc`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/zh_Hans/?q=context%3A%3D%22flarum-extension-manager.admin.major_updater.failure.desc%22)
+
+> The last major update failed, some installed extensions are not compatible with the new major release.
+
+```diff
+-更新上个大版本失败，部分已安装的扩展程序不兼容。
++主版本更新失败，部分已安装的扩展程序不兼容。
+```
+
+#### [`flarum-extension-manager.admin.major_updater.failure.why`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/zh_Hans/?q=context%3A%3D%22flarum-extension-manager.admin.major_updater.failure.why%22)
+
+> Find out more
+
+```diff
+-查看更多
++查看详情
+```
+
+#### [`flarum-extension-manager.admin.major_updater.title`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/zh_Hans/?q=context%3A%3D%22flarum-extension-manager.admin.major_updater.title%22)
+
+> Flarum {version} Major Update Available
+
+```diff
+-可用的大版本更新：Flarum {version}
++Flarum {version} 主版本更新可用
+```
+
+<del>可用的大版本更新：Flarum</del><ins>Flarum</ins> {version}<ins> 主版本更新可用</ins>
+
+#### [`flarum-extension-manager.admin.sections.queue.columns.elapsed_time`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/zh_Hans/?q=context%3A%3D%22flarum-extension-manager.admin.sections.queue.columns.elapsed_time%22)
+
+> Completed in
+
+```diff
+-完成于
++耗时
+```
+
+#### [`flarum-extension-manager.admin.sections.queue.columns.package`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/zh_Hans/?q=context%3A%3D%22flarum-extension-manager.admin.sections.queue.columns.package%22)
+
+> Package
+
+```diff
+-包
++软件包
+```
+
+#### [`flarum-extension-manager.admin.sections.queue.columns.peak_memory_used`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/zh_Hans/?q=context%3A%3D%22flarum-extension-manager.admin.sections.queue.columns.peak_memory_used%22)
+
+> Peak Memory Usage
+
+```diff
+-最高内存占用
++峰值内存占用
+```
+
+#### [`flarum-extension-manager.admin.sections.queue.operations.extension_install`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/zh_Hans/?q=context%3A%3D%22flarum-extension-manager.admin.sections.queue.operations.extension_install%22)
+
+> Install extension
+
+```diff
+-安装扩展程序
++安装扩展
+```
+
+#### [`flarum-extension-manager.admin.sections.queue.operations.extension_remove`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/zh_Hans/?q=context%3A%3D%22flarum-extension-manager.admin.sections.queue.operations.extension_remove%22)
+
+> Remove extension
+
+```diff
+-移除扩展程序
++卸载扩展
+```
+
+#### [`flarum-extension-manager.admin.sections.queue.operations.extension_update`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/zh_Hans/?q=context%3A%3D%22flarum-extension-manager.admin.sections.queue.operations.extension_update%22)
+
+> Update extension
+
+```diff
+-更新扩展程序
++更新扩展
+```
+
+#### [`flarum-extension-manager.admin.sections.queue.operations.update_major`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/zh_Hans/?q=context%3A%3D%22flarum-extension-manager.admin.sections.queue.operations.update_major%22)
+
+> Major update
+
+```diff
+-大版本更新
++主版本更新
 ```
 
 #### [`flarum-extension-manager.admin.sections.queue.operations.why_not`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/zh_Hans/?q=context%3A%3D%22flarum-extension-manager.admin.sections.queue.operations.why_not%22)
@@ -1290,7 +2441,16 @@ HTTP <del>Bearer</del><ins>承载令牌</ins>
 
 ```diff
 -分析软件包无法更新原因
-+分析软件包无法更新的原因
++分析无法更新原因
+```
+
+#### [`flarum-extension-manager.admin.sections.queue.output_modal.guessed_cause`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/zh_Hans/?q=context%3A%3D%22flarum-extension-manager.admin.sections.queue.output_modal.guessed_cause%22)
+
+> Cause
+
+```diff
+-原因
++可能原因
 ```
 
 #### [`flarum-extension-manager.admin.sections.queue.statuses.pending`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/zh_Hans/?q=context%3A%3D%22flarum-extension-manager.admin.sections.queue.statuses.pending%22)
@@ -1299,11 +2459,145 @@ HTTP <del>Bearer</del><ins>承载令牌</ins>
 
 ```diff
 -队列
-+等待
++等待中
 ```
+
+#### [`flarum-extension-manager.admin.sections.queue.task_just_started`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/zh_Hans/?q=context%3A%3D%22flarum-extension-manager.admin.sections.queue.task_just_started%22)
+
+> Task just started
+
+```diff
+-任务已刚刚
++任务刚刚开始
+```
+
+#### [`flarum-extension-manager.admin.settings.access_warning`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/zh_Hans/?q=context%3A%3D%22flarum-extension-manager.admin.settings.access_warning%22)
+
+> Please be careful to who you give access to the admin area, the extension manager could be misused by bad actors to install packages that can lead to security breaches.
+
+```diff
+-谨慎分配管理员账号，随意安装扩展程序可能带来安全漏洞。
++请谨慎分配管理后台访问权限。恶意利用扩展管理器安装软件包，可能带来安全风险。
+```
+
+#### [`flarum-extension-manager.admin.settings.debug_mode_warning`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/zh_Hans/?q=context%3A%3D%22flarum-extension-manager.admin.settings.debug_mode_warning%22)
+
+> You are running in debug mode, the extension manager cannot properly install and update local development packages. Please use the command line interface instead for such purposes.
+
+```diff
+-正在使用调试模式。扩展管理器无法正确安装和更新本地开发包，请使用命令行操作。
++正在使用调试模式，扩展程序管理器无法安装或更新本地开发软件包。此类操作请改用命令行。
+```
+
+#### [`flarum-extension-manager.admin.settings.task_retention_days_help`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/zh_Hans/?q=context%3A%3D%22flarum-extension-manager.admin.settings.task_retention_days_help%22)
+
+> The number of days to keep completed tasks in the database. Tasks older than this will be deleted. Set to 0 to keep all tasks.
+>
+
+```diff
+-暂存已完成的任务到数据库。超期一段时间后自动删除，设置为 0 表示永不删除。
++暂存已完成的任务到数据库。超期一定期限后自动删除，设置为 0 表示永不删除。
+
+```
+
+<del>暂存已完成的任务到数据库。超期一段时间后自动删除，设置为</del><ins>暂存已完成的任务到数据库。超期一定期限后自动删除，设置为</ins> 0 表示永不删除。<br />
+
+#### [`flarum-extension-manager.admin.update_successful`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/zh_Hans/?q=context%3A%3D%22flarum-extension-manager.admin.update_successful%22)
+
+> Flarum successfully updated.
+
+```diff
+-Flarum 已成功更新。
++Flarum 更新成功。
+```
+
+Flarum <del>已成功更新。</del><ins>更新成功。</ins>
+
+#### [`flarum-extension-manager.admin.updater.global_update_successful`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/zh_Hans/?q=context%3A%3D%22flarum-extension-manager.admin.updater.global_update_successful%22)
+
+> Successfully updated all packages.
+
+```diff
+-成功更新所有包。
++所有软件包更新成功。
+```
+
+#### [`flarum-extension-manager.admin.updater.last_update_checked_at`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/zh_Hans/?q=context%3A%3D%22flarum-extension-manager.admin.updater.last_update_checked_at%22)
+
+> Last Update Check: 
+
+```diff
+-上次更新检查： 
++上次检查更新： 
+```
+
+#### [`flarum-extension-manager.admin.updater.run_global_update`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/zh_Hans/?q=context%3A%3D%22flarum-extension-manager.admin.updater.run_global_update%22)
+
+> Run Global Update
+
+```diff
+-运行全局更新
++更新全部
+```
+
+#### [`flarum-extension-manager.admin.updater.updater_help`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/zh_Hans/?q=context%3A%3D%22flarum-extension-manager.admin.updater.updater_help%22)
+
+> Runs a check for new extension and Flarum updates.
+
+```diff
+-检查 Flarum 和扩展程序更新。
++检查 Flarum 和扩展程序是否有可用更新。
+```
+
+检查 Flarum <del>和扩展程序更新。</del><ins>和扩展程序是否有可用更新。</ins>
 
 
 ### `flarum-flags`
+
+#### [`flarum-flags.admin.settings.title`](https://weblate.rob006.net/translate/flarum2/flarum-flags/zh_Hans/?q=context%3A%3D%22flarum-flags.admin.settings.title%22)
+
+> Flags Settings
+
+```diff
+-小黑屋设置
++举报设置
+```
+
+#### [`flarum-flags.forum.flag_post.confirmation_message`](https://weblate.rob006.net/translate/flarum2/flarum-flags/zh_Hans/?q=context%3A%3D%22flarum-flags.forum.flag_post.confirmation_message%22)
+
+> Thank you for flagging this post. Our moderators will look into it.
+
+```diff
+-感谢举报，管理员很快就会处理。
++感谢举报，我们会尽快处理。
+```
+
+#### [`flarum-flags.forum.flag_post.reason_inappropriate_label`](https://weblate.rob006.net/translate/flarum2/flarum-flags/zh_Hans/?q=context%3A%3D%22flarum-flags.forum.flag_post.reason_inappropriate_label%22)
+
+> Inappropriate
+
+```diff
+-不雅
++不当内容
+```
+
+#### [`flarum-flags.forum.flag_post.reason_inappropriate_text`](https://weblate.rob006.net/translate/flarum2/flarum-flags/zh_Hans/?q=context%3A%3D%22flarum-flags.forum.flag_post.reason_inappropriate_text%22)
+
+> This post is offensive, abusive, or violates our &lt;a&gt;community guidelines&lt;/a&gt;.
+
+```diff
+-此帖包含攻击性、侮辱性语言或违反了<a>社区规范</a>。
++此帖包含冒犯、辱骂内容，或违反了<a>社区规范</a>。
+```
+
+#### [`flarum-flags.forum.flag_post.reason_missing_message`](https://weblate.rob006.net/translate/flarum2/flarum-flags/zh_Hans/?q=context%3A%3D%22flarum-flags.forum.flag_post.reason_missing_message%22)
+
+> Please provide some details for our moderators.
+
+```diff
+-请向我们提供一些详细信息。
++请提供一些详细信息，便于我们处理。
+```
 
 #### [`flarum-flags.forum.flag_post.reason_off_topic_text`](https://weblate.rob006.net/translate/flarum2/flarum-flags/zh_Hans/?q=context%3A%3D%22flarum-flags.forum.flag_post.reason_off_topic_text%22)
 
@@ -1314,25 +2608,70 @@ HTTP <del>Bearer</del><ins>承载令牌</ins>
 +此帖与当前的讨论无关，应当移动到其他地方。
 ```
 
+#### [`flarum-flags.forum.flag_post.reason_spam_label`](https://weblate.rob006.net/translate/flarum2/flarum-flags/zh_Hans/?q=context%3A%3D%22flarum-flags.forum.flag_post.reason_spam_label%22)
+
+> Spam
+
+```diff
+-垃圾
++垃圾内容
+```
+
+#### [`flarum-flags.forum.flag_post.reason_spam_text`](https://weblate.rob006.net/translate/flarum2/flarum-flags/zh_Hans/?q=context%3A%3D%22flarum-flags.forum.flag_post.reason_spam_text%22)
+
+> This post is an advertisement.
+
+```diff
+-这是一个广告贴。
++此帖包含广告。
+```
+
+#### [`flarum-flags.forum.post.dismiss_flag_button`](https://weblate.rob006.net/translate/flarum2/flarum-flags/zh_Hans/?q=context%3A%3D%22flarum-flags.forum.post.dismiss_flag_button%22)
+
+> Dismiss Flag
+
+```diff
+-撤销举报
++驳回举报
+```
+
 
 ### `flarum-gdpr`
 
-#### [`flarum-gdpr.admin.gdpr_page.data_types.anonymize_description`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/zh_Hans/?q=context%3A%3D%22flarum-gdpr.admin.gdpr_page.data_types.anonymize_description%22)
+#### [`flarum-gdpr.admin.gdpr_page.data_types.help_text`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/zh_Hans/?q=context%3A%3D%22flarum-gdpr.admin.gdpr_page.data_types.help_text%22)
 
-> Anonymize Action
+> These are the currently registered data types. Each type is listed along with it's associated export, anonymization, and deletion actions. If an extension handles any data which falls under GDPR regulations, it should register it's data types with &lt;code&gt;flarum/gdpr&lt;/code&gt;.
+> Data stored in the &lt;code&gt;user&lt;/code&gt; table is handled seperately, see user table data below.
+>
 
 ```diff
--匿名化操作
-+匿名操作
+-下表所列为当前所有注册的数据类型，以及关联的导出、匿名化和删除操作规范。扩展程序应当向 <code>blomstra/gdpr</code> 主动注册其处理并且符合 GDPR 法规的数据类型。
+-<code>user</code> 表中存储的数据另行处理，详见下一章节。
++以下是当前已注册的数据类型，以及各类型对应的导出、匿名化和删除操作。如果扩展程序处理了受 GDPR 约束的数据，应通过 <code>flarum/gdpr</code> 注册相应的数据类型。
++存储在 <code>user</code> 表中的数据会单独处理，详见下方的用户表数据。
+
 ```
 
-#### [`flarum-gdpr.admin.gdpr_page.user_table_data.extension`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/zh_Hans/?q=context%3A%3D%22flarum-gdpr.admin.gdpr_page.user_table_data.extension%22)
+<del>下表所列为当前所有注册的数据类型，以及关联的导出、匿名化和删除操作规范。扩展程序应当向</del><ins>以下是当前已注册的数据类型，以及各类型对应的导出、匿名化和删除操作。如果扩展程序处理了受</ins> <del>&lt;code&gt;blomstra/gdpr&lt;/code&gt;</del><ins>GDPR</ins> <del>主动注册其处理并且符合</del><ins>约束的数据，应通过</ins> <del>GDPR</del><ins>&lt;code&gt;flarum/gdpr&lt;/code&gt;</ins> <del>法规的数据类型。</del><ins>注册相应的数据类型。</ins><br /><ins>存储在 </ins>&lt;code&gt;user&lt;/code&gt; <del>表中存储的数据另行处理，详见下一章节。</del><ins>表中的数据会单独处理，详见下方的用户表数据。</ins><br />
 
-> Extension
+#### [`flarum-gdpr.admin.gdpr_page.description`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/zh_Hans/?q=context%3A%3D%22flarum-gdpr.admin.gdpr_page.description%22)
+
+> Status of various GDPR actions and integrations
 
 ```diff
--扩展程序
-+扩展
+-GDPR 数据统一管控
++查看 GDPR 操作及集成状态
+```
+
+<ins>查看 </ins>GDPR <del>数据统一管控</del><ins>操作及集成状态</ins>
+
+#### [`flarum-gdpr.admin.gdpr_page.settings.help_text`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/zh_Hans/?q=context%3A%3D%22flarum-gdpr.admin.gdpr_page.settings.help_text%22)
+
+> Looking for GDPR settings? They're found on the extension page.
+
+```diff
+-想要设置 GDPR？请前往扩展程序页面。
++请前往扩展程序设置页面。
 ```
 
 #### [`flarum-gdpr.admin.gdpr_page.user_table_data.help_text`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/zh_Hans/?q=context%3A%3D%22flarum-gdpr.admin.gdpr_page.user_table_data.help_text%22)
@@ -1343,20 +2682,10 @@ HTTP <del>Bearer</del><ins>承载令牌</ins>
 
 ```diff
 -多数情况下，我们会自动处理导出和抹除时的 <code>用户</code>表数据。
-+多数情况下，我们会自动处理导出和抹除时的 <code>user</code> 表数据。
- 然而，会存在一些特殊情况，如下。
+-然而，会存在一些特殊情况，如下。
++通常情况下，我们会在数据导出和擦除时，自动处理添加到 <code>user</code> 表中的列。
++但也存在一些特殊情况，具体如下。
 
-```
-
-多数情况下，我们会自动处理导出和抹除时的 <del>&lt;code&gt;用户&lt;/code&gt;表数据。</del><ins>&lt;code&gt;user&lt;/code&gt; 表数据。</ins><br />然而，会存在一些特殊情况，如下。<br />
-
-#### [`flarum-gdpr.admin.gdpr_page.user_table_data.pii`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/zh_Hans/?q=context%3A%3D%22flarum-gdpr.admin.gdpr_page.user_table_data.pii%22)
-
-> PII
-
-```diff
--个人身份信息
-+个人可识别信息 (PII)
 ```
 
 #### [`flarum-gdpr.admin.gdpr_page.user_table_data.pii_tooltip`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/zh_Hans/?q=context%3A%3D%22flarum-gdpr.admin.gdpr_page.user_table_data.pii_tooltip%22)
@@ -1365,7 +2694,7 @@ HTTP <del>Bearer</del><ins>承载令牌</ins>
 
 ```diff
 -该列被视为个人身份信息，在匿名化场景（例如匿名化事件载荷）中将被隐藏。
-+此列被视为个人可识别信息，并将在匿名上下文（例如匿名的事件负载）中进行脱敏处理。
++此列数据属于个人身份信息，会在匿名化场景中进行脱敏处理。
 ```
 
 #### [`flarum-gdpr.admin.gdpr_page.user_table_data.redacted_on_export`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/zh_Hans/?q=context%3A%3D%22flarum-gdpr.admin.gdpr_page.user_table_data.redacted_on_export%22)
@@ -1374,7 +2703,7 @@ HTTP <del>Bearer</del><ins>承载令牌</ins>
 
 ```diff
 -导出时隐藏
-+导出时屏蔽
++导出时抹除
 ```
 
 #### [`flarum-gdpr.admin.gdpr_page.user_table_data.redacted_on_export_tooltip`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/zh_Hans/?q=context%3A%3D%22flarum-gdpr.admin.gdpr_page.user_table_data.redacted_on_export_tooltip%22)
@@ -1383,7 +2712,438 @@ HTTP <del>Bearer</del><ins>承载令牌</ins>
 
 ```diff
 -生成用户数据导出时，该列的值会被清空（设为 null）。该列仍会出现在导出文件中，但值为 null。
-+生成用户数据导出时，此列的值将被置空（设置为 null）。该列仍会以 null 值的形式出现在导出文件中。
++导出用户数据时，会保留此列，但此列的值会被清空设为 null。
+```
+
+<del>生成用户数据导出时，该列的值会被清空（设为 null）。该列仍会出现在导出文件中，但值为</del><ins>导出用户数据时，会保留此列，但此列的值会被清空设为</ins> null。
+
+#### [`flarum-gdpr.admin.permissions.process_erasure`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/zh_Hans/?q=context%3A%3D%22flarum-gdpr.admin.permissions.process_erasure%22)
+
+> Process erasure requests
+
+```diff
+-处理账号抹除请求
++处理数据擦除请求
+```
+
+#### [`flarum-gdpr.admin.permissions.process_export_for_others`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/zh_Hans/?q=context%3A%3D%22flarum-gdpr.admin.permissions.process_export_for_others%22)
+
+> Request and receive data exports for other users
+
+```diff
+-处理其他用户的数据导出请求
++为其他用户请求并接收导出数据
+```
+
+#### [`flarum-gdpr.admin.permissions.see_anonymized_user_badges`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/zh_Hans/?q=context%3A%3D%22flarum-gdpr.admin.permissions.see_anonymized_user_badges%22)
+
+> See anonymized user badges
+
+```diff
+-查看匿名用户徽章
++查看匿名化用户徽章
+```
+
+#### [`flarum-gdpr.admin.settings.allow_anonymization`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/zh_Hans/?q=context%3A%3D%22flarum-gdpr.admin.settings.allow_anonymization%22)
+
+> Allow anonymization for erasure requests
+
+```diff
+-允许请求账号匿名化
++允许匿名化处理
+```
+
+#### [`flarum-gdpr.admin.settings.allow_anonymization_help`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/zh_Hans/?q=context%3A%3D%22flarum-gdpr.admin.settings.allow_anonymization_help%22)
+
+> The default option, and recommended for most communities. Under this mode, posts/comments will be preserved as much as possible as allowed by GDPR, but any user identifiable information is removed.
+
+```diff
+-默认选项，适用于绝大多数社区。此模式下，帖子或评论将在 GDPR 允许的范围内尽可能保留，但会删除一切可用于标识用户的信息。
++默认选项，推荐大多数社区使用。采用此方式时，会在 GDPR 允许的范围内尽可能保留帖子和回复，同时移除所有可识别用户身份的信息。
+```
+
+<del>默认选项，适用于绝大多数社区。此模式下，帖子或评论将在</del><ins>默认选项，推荐大多数社区使用。采用此方式时，会在</ins> GDPR <del>允许的范围内尽可能保留，但会删除一切可用于标识用户的信息。</del><ins>允许的范围内尽可能保留帖子和回复，同时移除所有可识别用户身份的信息。</ins>
+
+#### [`flarum-gdpr.admin.settings.allow_deletion`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/zh_Hans/?q=context%3A%3D%22flarum-gdpr.admin.settings.allow_deletion%22)
+
+> Allow deletion for erasure requests
+
+```diff
+-允许请求删除账号
++允许删除处理
+```
+
+#### [`flarum-gdpr.admin.settings.allow_deletion_help`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/zh_Hans/?q=context%3A%3D%22flarum-gdpr.admin.settings.allow_deletion_help%22)
+
+> A much stricter option. Under this mode, all posts/comments will be deleted, and the user will be removed from the database. Use with caution.
+
+```diff
+-更严格的选项，请谨慎使用。此模式下，所有帖子或评论都将被删除，用户也将从数据库中删除。
++更加严格的处理方式。采用此方式时，所有帖子和回复都会被删除，用户也将从数据库中移除。请谨慎使用。
+```
+
+#### [`flarum-gdpr.admin.settings.default_anonymous_username`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/zh_Hans/?q=context%3A%3D%22flarum-gdpr.admin.settings.default_anonymous_username%22)
+
+> Default username for anonymized users
+
+```diff
+-用户名匿名化
++匿名化用户的默认用户名
+```
+
+#### [`flarum-gdpr.admin.settings.default_anonymous_username_help`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/zh_Hans/?q=context%3A%3D%22flarum-gdpr.admin.settings.default_anonymous_username_help%22)
+
+> When a user is anonymized, their username will be replaced with this value, plus the ID of the anonymization request, for example &lt;code&gt;Anonymous123&lt;/code&gt;.
+
+```diff
+-使用自定义模板替换匿名化用户的用户名，末尾会自动拼接匿名化请求的 ID，效果：<code>匿名用户123</code>。
++用户被匿名化后，其用户名将替换为此值，并添加匿名化请求 ID 后缀，例如 <code>已注销123</code>。
+```
+
+#### [`flarum-gdpr.admin.settings.default_erasure`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/zh_Hans/?q=context%3A%3D%22flarum-gdpr.admin.settings.default_erasure%22)
+
+> Default action for erasure requests
+
+```diff
+-默认抹除请求
++默认处理方式
+```
+
+#### [`flarum-gdpr.admin.settings.default_erasure_help`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/zh_Hans/?q=context%3A%3D%22flarum-gdpr.admin.settings.default_erasure_help%22)
+
+> What should the default action be for erasure requests?
+
+```diff
+-申请抹除账号的默认类型是？
++处理数据擦除请求时的默认方案。
+```
+
+#### [`flarum-gdpr.admin.settings.gdpr_page.help_text`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/zh_Hans/?q=context%3A%3D%22flarum-gdpr.admin.settings.gdpr_page.help_text%22)
+
+> Before deciding on which actions to use on your forum, it is vital to understand which data is integrated, and how it is handled for both anonymization and deletion. Vist the GDPR overview to understand how data is handled, and which optional extensions have registered their data to be handled by this extension.
+
+```diff
+-重要！请先前往 GDPR 概览页面了解数据类型和数据处理规范等内容，然后再配置数据管控方式。
++重要：请先了解目前集成了哪些数据，以及这些数据在匿名化和删除时会如何处理。前往 GDPR 数据概览，可以查看各类数据的处理方式，以及哪些扩展程序已注册相应的数据处理方式。
+```
+
+<del>重要！请先前往</del><ins>重要：请先了解目前集成了哪些数据，以及这些数据在匿名化和删除时会如何处理。前往</ins> GDPR <del>概览页面了解数据类型和数据处理规范等内容，然后再配置数据管控方式。</del><ins>数据概览，可以查看各类数据的处理方式，以及哪些扩展程序已注册相应的数据处理方式。</ins>
+
+#### [`flarum-gdpr.admin.settings.gdpr_page.title`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/zh_Hans/?q=context%3A%3D%22flarum-gdpr.admin.settings.gdpr_page.title%22)
+
+> Data Integration and actions
+
+```diff
+-数据管控
++数据集成与处理方式
+```
+
+#### [`flarum-gdpr.email.confirm_erasure.subject`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/zh_Hans/?q=context%3A%3D%22flarum-gdpr.email.confirm_erasure.subject%22)
+
+> Confirm your account erasure request
+
+```diff
+-确认抹除你的账号
++确认账号数据擦除请求
+```
+
+#### [`flarum-gdpr.email.erasure_cancelled.subject`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/zh_Hans/?q=context%3A%3D%22flarum-gdpr.email.erasure_cancelled.subject%22)
+
+> Account erasure request cancelled
+
+```diff
+-帐号抹除请求已取消
++账号数据擦除请求已取消
+```
+
+#### [`flarum-gdpr.email.export_available.subject`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/zh_Hans/?q=context%3A%3D%22flarum-gdpr.email.export_available.subject%22)
+
+> Data export available
+
+```diff
+-数据导出已就绪
++数据导出已准备好
+```
+
+#### [`flarum-gdpr.forum.badges.anonymized_user`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/zh_Hans/?q=context%3A%3D%22flarum-gdpr.forum.badges.anonymized_user%22)
+
+> Anonymized User
+
+```diff
+-匿名用户
++已注销
+```
+
+#### [`flarum-gdpr.forum.delete_user.delete_button`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/zh_Hans/?q=context%3A%3D%22flarum-gdpr.forum.delete_user.delete_button%22)
+
+> Erase
+
+```diff
+-抹除
++擦除
+```
+
+#### [`flarum-gdpr.forum.delete_user.modal_delete_button`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/zh_Hans/?q=context%3A%3D%22flarum-gdpr.forum.delete_user.modal_delete_button%22)
+
+> Erase using default action
+
+```diff
+-使用默认操作抹除
++按默认方式擦除
+```
+
+#### [`flarum-gdpr.forum.delete_user.text`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/zh_Hans/?q=context%3A%3D%22flarum-gdpr.forum.delete_user.text%22)
+
+> Are you sure you want to erase {username}'s account?
+>
+> This action is irreversible.
+>
+
+```diff
+-确定要擦除 {username} 的帐号吗？
++确定要擦除 {username} 的帐号数据吗？
+
+-此操作不可撤消。
++此操作无法撤消。
+
+```
+
+确定要擦除 {username} <del>的帐号吗？</del><ins>的帐号数据吗？</ins><br /><br /><del>此操作不可撤消。</del><ins>此操作无法撤消。</ins><br />
+
+#### [`flarum-gdpr.forum.delete_user.title`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/zh_Hans/?q=context%3A%3D%22flarum-gdpr.forum.delete_user.title%22)
+
+> Erase {username}'s account
+
+```diff
+-抹除 {username} 的帐号
++擦除 {username} 的账号数据
+```
+
+<del>抹除</del><ins>擦除</ins> {username} <del>的帐号</del><ins>的账号数据</ins>
+
+#### [`flarum-gdpr.forum.erasure_request_confirmed`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/zh_Hans/?q=context%3A%3D%22flarum-gdpr.forum.erasure_request_confirmed%22)
+
+> You have confirmed your account erasure request. Action will be taken within 30 days, as required by the GDPR.
+
+```diff
+-您已经确认申请抹除账号。我们会按 GDPR 要求，在 30 天内完成处理。
++你已确认账号数据擦除请求。根据 GDPR 要求，我们将在 30 天内处理。
+```
+
+<del>您已经确认申请抹除账号。我们会按</del><ins>你已确认账号数据擦除请求。根据</ins> GDPR <del>要求，在</del><ins>要求，我们将在</ins> 30 <del>天内完成处理。</del><ins>天内处理。</ins>
+
+#### [`flarum-gdpr.forum.erasure_requests.empty_text`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/zh_Hans/?q=context%3A%3D%22flarum-gdpr.forum.erasure_requests.empty_text%22)
+
+> No pending account erasure requests
+
+```diff
+-暂无需要处理的帐号抹除请求
++暂无账号数据擦除请求
+```
+
+#### [`flarum-gdpr.forum.erasure_requests.item_text`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/zh_Hans/?q=context%3A%3D%22flarum-gdpr.forum.erasure_requests.item_text%22)
+
+> {name} requested account erasure
+
+```diff
+-{name} 申请抹除账号
++{name} 请求擦除账号数据
+```
+
+{name} <del>申请抹除账号</del><ins>请求擦除账号数据</ins>
+
+#### [`flarum-gdpr.forum.erasure_requests.title`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/zh_Hans/?q=context%3A%3D%22flarum-gdpr.forum.erasure_requests.title%22)
+
+> Account Erasure Requests
+
+```diff
+-帐号抹除请求
++账号数据擦除请求
+```
+
+#### [`flarum-gdpr.forum.erasure_requests.tooltip`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/zh_Hans/?q=context%3A%3D%22flarum-gdpr.forum.erasure_requests.tooltip%22)
+
+> Account Erasure Requests
+
+```diff
+-帐号抹除请求
++账号数据擦除请求
+```
+
+#### [`flarum-gdpr.forum.export_file`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/zh_Hans/?q=context%3A%3D%22flarum-gdpr.forum.export_file%22)
+
+> Export of user data for {username} ({email}) prepared at {date} from {forumTitle} ({url})
+
+```diff
+-导出数据-{username}-{email}-{date}-{forumTitle}-{url}
++用户数据导出：{username}（{email}），生成于 {date}，来源：{forumTitle}（{url}）
+```
+
+#### [`flarum-gdpr.forum.notification.export-ready`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/zh_Hans/?q=context%3A%3D%22flarum-gdpr.forum.notification.export-ready%22)
+
+> Your data export for {username} is now ready to download.
+
+```diff
+-{username} 的导出数据现已可下载。
++{username} 的数据导出已准备好，请下载。
+```
+
+{username} <del>的导出数据现已可下载。</del><ins>的数据导出已准备好，请下载。</ins>
+
+#### [`flarum-gdpr.forum.process_erasure.comments_label`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/zh_Hans/?q=context%3A%3D%22flarum-gdpr.forum.process_erasure.comments_label%22)
+
+> Comments (optional)
+
+```diff
+-回复（可选）
++备注（可选）
+```
+
+#### [`flarum-gdpr.forum.process_erasure.confirm`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/zh_Hans/?q=context%3A%3D%22flarum-gdpr.forum.process_erasure.confirm%22)
+
+> Are you sure you want to erase {name}'s account under {mode} mode?
+
+```diff
+-确定要使用 {mode} 模式擦除 {name} 的帐号？
++确定要以“{mode}”方式擦除 {name} 的账号数据吗？
+```
+
+<del>确定要使用 {mode} 模式擦除</del><ins>确定要以“{mode}”方式擦除</ins> {name} <del>的帐号？</del><ins>的账号数据吗？</ins>
+
+#### [`flarum-gdpr.forum.process_erasure.eligible_at`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/zh_Hans/?q=context%3A%3D%22flarum-gdpr.forum.process_erasure.eligible_at%22)
+
+> Eligible for auto-processing: {date}
+
+```diff
+-符合自动处理条件：{date}
++自动处理时间：{date}
+```
+
+#### [`flarum-gdpr.forum.process_erasure.text`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/zh_Hans/?q=context%3A%3D%22flarum-gdpr.forum.process_erasure.text%22)
+
+> {name} has requested account erasure.
+
+```diff
+-{name} 申请抹除帐号。
++{name} 请求擦除账号数据。
+```
+
+{name} <del>申请抹除帐号。</del><ins>请求擦除账号数据。</ins>
+
+#### [`flarum-gdpr.forum.process_erasure.title`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/zh_Hans/?q=context%3A%3D%22flarum-gdpr.forum.process_erasure.title%22)
+
+> Process erasure request
+
+```diff
+-处理账号抹除请求
++处理数据擦除请求
+```
+
+#### [`flarum-gdpr.forum.request_erasure.reason`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/zh_Hans/?q=context%3A%3D%22flarum-gdpr.forum.request_erasure.reason%22)
+
+> You provided the following reason: {reason}
+
+```diff
+-您的理由：{reason}
++申请理由：{reason}
+```
+
+#### [`flarum-gdpr.forum.request_erasure.reason_label`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/zh_Hans/?q=context%3A%3D%22flarum-gdpr.forum.request_erasure.reason_label%22)
+
+> Reason (optional)
+
+```diff
+-理由（可选）
++申请理由（可选）
+```
+
+#### [`flarum-gdpr.forum.request_erasure.request_button`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/zh_Hans/?q=context%3A%3D%22flarum-gdpr.forum.request_erasure.request_button%22)
+
+> Request erasure
+
+```diff
+-请求抹除
++提交请求
+```
+
+#### [`flarum-gdpr.forum.request_erasure.status.awaiting_user_confirmation`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/zh_Hans/?q=context%3A%3D%22flarum-gdpr.forum.request_erasure.status.awaiting_user_confirmation%22)
+
+> You should have received an email to confirm your account erasure request.
+>
+
+```diff
+-我们已向您发送了一封确认申请抹除账号的电子邮件。
++确认邮件已发送，请通过邮件确认你的账号数据擦除请求。
+
+```
+
+#### [`flarum-gdpr.forum.request_erasure.status.user_confirmed`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/zh_Hans/?q=context%3A%3D%22flarum-gdpr.forum.request_erasure.status.user_confirmed%22)
+
+> You have confirmed your account erasure request. Action will be taken within 30 days, as required by the GDPR.
+>
+
+```diff
+-您已经确认申请抹除账号。我们会按 GDPR 要求，在 30 天内完成处理。
++你已确认账号数据擦除请求。根据 GDPR 要求，我们将在 30 天内处理。
+
+```
+
+<del>您已经确认申请抹除账号。我们会按</del><ins>你已确认账号数据擦除请求。根据</ins> GDPR <del>要求，在</del><ins>要求，我们将在</ins> 30 <del>天内完成处理。</del><ins>天内处理。</ins><br />
+
+#### [`flarum-gdpr.forum.request_erasure.text`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/zh_Hans/?q=context%3A%3D%22flarum-gdpr.forum.request_erasure.text%22)
+
+> Once received and confirmed, an admin will review your request within 30 days, as required by the GDPR.
+
+```diff
+-收到您的请求后，我们的管理员会按 GDPR 要求，在 30 天内完成处理。
++确认请求后，根据 GDPR 要求，我们会在 30 天内进行处理。
+```
+
+<del>收到您的请求后，我们的管理员会按</del><ins>确认请求后，根据</ins> GDPR <del>要求，在</del><ins>要求，我们会在</ins> 30 <del>天内完成处理。</del><ins>天内进行处理。</ins>
+
+#### [`flarum-gdpr.forum.request_erasure.title`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/zh_Hans/?q=context%3A%3D%22flarum-gdpr.forum.request_erasure.title%22)
+
+> Request account erasure
+
+```diff
+-申请抹除账号
++请求擦除账号数据
+```
+
+#### [`flarum-gdpr.forum.settings.export_data_help`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/zh_Hans/?q=context%3A%3D%22flarum-gdpr.forum.settings.export_data_help%22)
+
+> Requesting data export will provide you with a downloadable copy of all the information associated with your account. This includes posts, comments, and profile details.
+
+```diff
+-将帐号相关的所有信息导出为压缩包副本，包含帖子、回复和个人资料详情。
++申请导出所有账号数据，包括帖子、回复和个人资料等。
+```
+
+#### [`flarum-gdpr.forum.settings.request_erasure_button`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/zh_Hans/?q=context%3A%3D%22flarum-gdpr.forum.settings.request_erasure_button%22)
+
+> Erase Account
+
+```diff
+-抹除帐号
++擦除账号数据
+```
+
+#### [`flarum-gdpr.forum.settings.request_erasure_help`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/zh_Hans/?q=context%3A%3D%22flarum-gdpr.forum.settings.request_erasure_help%22)
+
+> Requesting erasure will permanently delete your account and all associated data. This action is irreversible. Before proceeding, ensure you have saved any content you wish to keep.
+
+```diff
+-永久删除帐号和相关数据。此操作不可逆，继续操作前请确保您已保存重要数据。
++申请删除账号数据，此操作无法撤销。请提前备份希望保留的内容。
+```
+
+#### [`flarum-gdpr.lib.data.avatar.export_description`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/zh_Hans/?q=context%3A%3D%22flarum-gdpr.lib.data.avatar.export_description%22)
+
+> Retrieves the user's avatar from the filesystem and includes it in the export.
+
+```diff
+-从文件系统获取用户头像，并导出。
++导出文件系统中的用户头像。
 ```
 
 #### [`flarum-gdpr.lib.data.default_user_action`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/zh_Hans/?q=context%3A%3D%22flarum-gdpr.lib.data.default_user_action%22)
@@ -1392,7 +3152,7 @@ HTTP <del>Bearer</del><ins>承载令牌</ins>
 
 ```diff
 -无需操作，由默认的用户表数据处理方式自动处理。
-+无操作，由默认用户表数据处理。
++无额外操作，由默认的用户表处理机制处理。
 ```
 
 #### [`flarum-gdpr.lib.data.discussions.export_description`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/zh_Hans/?q=context%3A%3D%22flarum-gdpr.lib.data.discussions.export_description%22)
@@ -1401,8 +3161,28 @@ HTTP <del>Bearer</del><ins>承载令牌</ins>
 
 ```diff
 -导出用户发起的所有主题帖，数据仅限于标题和创建日期。
-+导出用户发起的所有讨论帖，数据仅限于标题和创建日期。
++导出用户发起的所有讨论，仅包含标题和创建日期。
 ```
+
+#### [`flarum-gdpr.lib.data.no_action`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/zh_Hans/?q=context%3A%3D%22flarum-gdpr.lib.data.no_action%22)
+
+> No action taken.
+
+```diff
+-不采取操作。
++不执行任何操作。
+```
+
+#### [`flarum-gdpr.lib.data.posts.anonymize_description`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/zh_Hans/?q=context%3A%3D%22flarum-gdpr.lib.data.posts.anonymize_description%22)
+
+> Removes the IP address from all posts the user has made.
+
+```diff
+-删除用户发布的所有帖子中的 IP 地址信息。
++移除用户所有帖子中的 IP 地址。
+```
+
+<del>删除用户发布的所有帖子中的</del><ins>移除用户所有帖子中的</ins> IP <del>地址信息。</del><ins>地址。</ins>
 
 #### [`flarum-gdpr.lib.data.posts.export_description`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/zh_Hans/?q=context%3A%3D%22flarum-gdpr.lib.data.posts.export_description%22)
 
@@ -1410,33 +3190,82 @@ HTTP <del>Bearer</del><ins>承载令牌</ins>
 
 ```diff
 -导出用户发表的所有帖子，数据仅限于文本内容、创建日期、IP 地址和主题帖 ID。
-+导出用户发表的所有帖子，数据仅限于文本内容、创建日期、IP 地址和讨论帖 ID。
++导出用户发布的所有帖子，仅包含内容、创建日期、IP 地址和讨论 ID。
 ```
 
-导出用户发表的所有帖子，数据仅限于文本内容、创建日期、IP <del>地址和主题帖</del><ins>地址和讨论帖</ins> ID。
+<del>导出用户发表的所有帖子，数据仅限于文本内容、创建日期、IP</del><ins>导出用户发布的所有帖子，仅包含内容、创建日期、IP</ins> <del>地址和主题帖</del><ins>地址和讨论</ins> ID。
+
+#### [`flarum-gdpr.lib.data.tokens.export_description`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/zh_Hans/?q=context%3A%3D%22flarum-gdpr.lib.data.tokens.export_description%22)
+
+> Exports all tokens the user has created. Data restricted to creation date and token type.
+
+```diff
+-导出用户创建的所有令牌，数据仅限于创建日期和令牌类型。
++导出用户创建的所有令牌，仅包含创建日期和令牌类型。
+```
+
+#### [`flarum-gdpr.lib.data.user.anonymize_description`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/zh_Hans/?q=context%3A%3D%22flarum-gdpr.lib.data.user.anonymize_description%22)
+
+> Sets all columns on the user table to null. Non-nullable columns are set to their default values or special values. Password is changed, preferences set to default and all groups are removed.
+
+```diff
+-将用户表中的所有列设置为空，不可为空的列将设置为默认值或特殊值；更改密码；将个人设置恢复默认值；移除所有用户组。
++将用户表中的所有列设为 null。不可为空的列会设为默认值或特殊值，同时修改密码、恢复个人设置默认值并移除所有用户组。
+```
+
+#### [`flarum-gdpr.lib.data.user.delete_description`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/zh_Hans/?q=context%3A%3D%22flarum-gdpr.lib.data.user.delete_description%22)
+
+> Deletes the user from the database.
+
+```diff
+-从数据库中删除用户。
++从数据库中删除该用户。
+```
+
+#### [`flarum-gdpr.lib.data.user.export_description`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/zh_Hans/?q=context%3A%3D%22flarum-gdpr.lib.data.user.export_description%22)
+
+> Exports data from the user table. All columns except id, password.
+
+```diff
+-导出用户表中的数据，除了用户 id 和密码。
++导出用户表中的数据，包括除 id 和 password 外的所有列。
+```
+
+<del>导出用户表中的数据，除了用户</del><ins>导出用户表中的数据，包括除</ins> id <del>和密码。</del><ins>和 password 外的所有列。</ins>
+
+#### [`flarum-gdpr.lib.request_data.request_button`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/zh_Hans/?q=context%3A%3D%22flarum-gdpr.lib.request_data.request_button%22)
+
+> Request archive
+
+```diff
+-申请归档
++申请数据
+```
+
+#### [`flarum-gdpr.lib.request_data.text`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/zh_Hans/?q=context%3A%3D%22flarum-gdpr.lib.request_data.text%22)
+
+> A zip archive will be prepared for you. Once it's ready, you'll receive a notification with a download link. The link will remain active for one day.
+>
+
+```diff
+-所有数据会打包到一个压缩包内，准备完成后，您将收到带有下载链接的通知。链接有效期为一天。
++所有数据会打包到一个压缩包内，准备完成后，你将收到一条包含下载链接的通知。链接有效期为 24 小时。
+
+```
+
+#### [`flarum-gdpr.lib.request_data.title`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/zh_Hans/?q=context%3A%3D%22flarum-gdpr.lib.request_data.title%22)
+
+> Request data for {username}
+
+```diff
+-申请 {username} 的数据
++请求 {username} 的数据
+```
+
+<del>申请</del><ins>请求</ins> {username} 的数据
 
 
 ### `flarum-likes`
-
-#### [`flarum-likes.forum.post.like_link`](https://weblate.rob006.net/translate/flarum2/flarum-likes/zh_Hans/?q=context%3A%3D%22flarum-likes.forum.post.like_link%22)
-
-> Like
-
-```diff
--赞
-+点赞
-```
-
-#### [`flarum-likes.forum.post.liked_by_self_text`](https://weblate.rob006.net/translate/flarum2/flarum-likes/zh_Hans/?q=context%3A%3D%22flarum-likes.forum.post.liked_by_self_text%22)
-
-> {users} like this.
-
-```diff
--{users} 觉得很赞
-+{users} 觉得很赞。
-```
-
-{users} <del>觉得很赞</del><ins>觉得很赞。</ins>
 
 #### [`flarum-likes.forum.post.liked_by_text`](https://weblate.rob006.net/translate/flarum2/flarum-likes/zh_Hans/?q=context%3A%3D%22flarum-likes.forum.post.liked_by_text%22)
 
@@ -1445,6 +3274,15 @@ HTTP <del>Bearer</del><ins>承载令牌</ins>
 ```diff
 -{users} 觉得很赞
 +{count, plural, other {{users} 觉得很赞}}。
+```
+
+#### [`flarum-likes.forum.post_likes.title`](https://weblate.rob006.net/translate/flarum2/flarum-likes/zh_Hans/?q=context%3A%3D%22flarum-likes.forum.post_likes.title%22)
+
+> Users Who Like This
+
+```diff
+-点赞的用户
++他们觉得很赞
 ```
 
 
@@ -1477,16 +3315,27 @@ HTTP <del>Bearer</del><ins>承载令牌</ins>
 +解锁
 ```
 
+#### [`flarum-lock.forum.notifications.discussion_locked_text`](https://weblate.rob006.net/translate/flarum2/flarum-lock/zh_Hans/?q=context%3A%3D%22flarum-lock.forum.notifications.discussion_locked_text%22)
+
+> {username} locked
+
+```diff
+-{username} 锁定此帖
++{username} 锁定了讨论
+```
+
+{username} <del>锁定此帖</del><ins>锁定了讨论</ins>
+
 #### [`flarum-lock.forum.post_stream.discussion_locked_text`](https://weblate.rob006.net/translate/flarum2/flarum-lock/zh_Hans/?q=context%3A%3D%22flarum-lock.forum.post_stream.discussion_locked_text%22)
 
 > {username} locked the discussion {time}.
 
 ```diff
 -{username} 于 {time} 锁定此帖
-+{username} 于 {time} 锁定此帖。
++{username} 于 {time} 锁定了讨论
 ```
 
-{username} 于 {time} <del>锁定此帖</del><ins>锁定此帖。</ins>
+{username} 于 {time} <del>锁定此帖</del><ins>锁定了讨论</ins>
 
 #### [`flarum-lock.forum.post_stream.discussion_unlocked_text`](https://weblate.rob006.net/translate/flarum2/flarum-lock/zh_Hans/?q=context%3A%3D%22flarum-lock.forum.post_stream.discussion_unlocked_text%22)
 
@@ -1494,10 +3343,10 @@ HTTP <del>Bearer</del><ins>承载令牌</ins>
 
 ```diff
 -{username} 于 {time} 解锁此帖
-+{username} 于 {time} 解锁此帖。
++{username} 于 {time} 解锁了讨论
 ```
 
-{username} 于 {time} <del>解锁此帖</del><ins>解锁此帖。</ins>
+{username} 于 {time} <del>解锁此帖</del><ins>解锁了讨论</ins>
 
 #### [`flarum-lock.forum.settings.notify_discussion_locked_label`](https://weblate.rob006.net/translate/flarum2/flarum-lock/zh_Hans/?q=context%3A%3D%22flarum-lock.forum.settings.notify_discussion_locked_label%22)
 
@@ -1505,7 +3354,7 @@ HTTP <del>Bearer</del><ins>承载令牌</ins>
 
 ```diff
 -我的主题帖被锁定
-+有人锁定了我发起的讨论
++有人锁定了我的讨论
 ```
 
 
@@ -1517,16 +3366,7 @@ HTTP <del>Bearer</del><ins>承载令牌</ins>
 
 ```diff
 -加粗文本
-+添加加粗文本
-```
-
-#### [`flarum-markdown.lib.composer.code_tooltip`](https://weblate.rob006.net/translate/flarum2/flarum-markdown/zh_Hans/?q=context%3A%3D%22flarum-markdown.lib.composer.code_tooltip%22)
-
-> Insert code
-
-```diff
--行内代码
-+添加行内代码
++粗体
 ```
 
 #### [`flarum-markdown.lib.composer.header_tooltip`](https://weblate.rob006.net/translate/flarum2/flarum-markdown/zh_Hans/?q=context%3A%3D%22flarum-markdown.lib.composer.header_tooltip%22)
@@ -1535,52 +3375,7 @@ HTTP <del>Bearer</del><ins>承载令牌</ins>
 
 ```diff
 -标题文本
-+添加标题文本
-```
-
-#### [`flarum-markdown.lib.composer.image_tooltip`](https://weblate.rob006.net/translate/flarum2/flarum-markdown/zh_Hans/?q=context%3A%3D%22flarum-markdown.lib.composer.image_tooltip%22)
-
-> Add an image
-
-```diff
--图片
-+添加图片
-```
-
-#### [`flarum-markdown.lib.composer.italic_tooltip`](https://weblate.rob006.net/translate/flarum2/flarum-markdown/zh_Hans/?q=context%3A%3D%22flarum-markdown.lib.composer.italic_tooltip%22)
-
-> Add italic text
-
-```diff
--斜体
-+添加斜体
-```
-
-#### [`flarum-markdown.lib.composer.link_tooltip`](https://weblate.rob006.net/translate/flarum2/flarum-markdown/zh_Hans/?q=context%3A%3D%22flarum-markdown.lib.composer.link_tooltip%22)
-
-> Add a link
-
-```diff
--链接
-+添加链接
-```
-
-#### [`flarum-markdown.lib.composer.ordered_list_tooltip`](https://weblate.rob006.net/translate/flarum2/flarum-markdown/zh_Hans/?q=context%3A%3D%22flarum-markdown.lib.composer.ordered_list_tooltip%22)
-
-> Add a numbered list
-
-```diff
--有序列表
-+添加有序列表
-```
-
-#### [`flarum-markdown.lib.composer.quote_tooltip`](https://weblate.rob006.net/translate/flarum2/flarum-markdown/zh_Hans/?q=context%3A%3D%22flarum-markdown.lib.composer.quote_tooltip%22)
-
-> Insert a quote
-
-```diff
--引用
-+插入引用
++标题
 ```
 
 #### [`flarum-markdown.lib.composer.spoiler_tooltip`](https://weblate.rob006.net/translate/flarum2/flarum-markdown/zh_Hans/?q=context%3A%3D%22flarum-markdown.lib.composer.spoiler_tooltip%22)
@@ -1589,25 +3384,7 @@ HTTP <del>Bearer</del><ins>承载令牌</ins>
 
 ```diff
 -黑幕
-+插入剧透
-```
-
-#### [`flarum-markdown.lib.composer.strikethrough_tooltip`](https://weblate.rob006.net/translate/flarum2/flarum-markdown/zh_Hans/?q=context%3A%3D%22flarum-markdown.lib.composer.strikethrough_tooltip%22)
-
-> Add strikethrough text
-
-```diff
--删除线
-+添加删除线
-```
-
-#### [`flarum-markdown.lib.composer.unordered_list_tooltip`](https://weblate.rob006.net/translate/flarum2/flarum-markdown/zh_Hans/?q=context%3A%3D%22flarum-markdown.lib.composer.unordered_list_tooltip%22)
-
-> Add a bulleted list
-
-```diff
--无序列表
-+添加无序列表
++剧透
 ```
 
 
@@ -1619,7 +3396,7 @@ HTTP <del>Bearer</del><ins>承载令牌</ins>
 
 ```diff
 -提及组群
-+提及群组
++提及用户组
 ```
 
 #### [`flarum-mentions.admin.settings.allow_username_format_label`](https://weblate.rob006.net/translate/flarum2/flarum-mentions/zh_Hans/?q=context%3A%3D%22flarum-mentions.admin.settings.allow_username_format_label%22)
@@ -1631,16 +3408,32 @@ HTTP <del>Bearer</del><ins>承载令牌</ins>
 +允许 @用户名
 ```
 
+#### [`flarum-mentions.admin.settings.allow_username_format_text`](https://weblate.rob006.net/translate/flarum2/flarum-mentions/zh_Hans/?q=context%3A%3D%22flarum-mentions.admin.settings.allow_username_format_text%22)
+
+> The current format for user mentions is @"Display Name"#ID.
+> This setting allows using the old format of @Username, however it will still be converted to the new format upon saving.
+>
+
+```diff
+-Flarum 默认提及格式是「@外显昵称#ID」，默认外显昵称为用户名。
+-启用 Nicknames 扩展程序后，你可能会将外显昵称更改为 nickname。开启此设置可允许用户同时使用旧格式「@用户名」，不过在保存时系统会自动转换成新格式。
++Flarum 默认提及格式是「@外显名称#ID」，默认外显名称为用户名。
++启用 Nicknames 扩展程序后，你可能会将外显名称更改为昵称。开启此设置可允许用户同时使用旧格式「@用户名」，不过在保存时系统会自动转换成新格式。
+
+```
+
+Flarum <del>默认提及格式是「@外显昵称#ID」，默认外显昵称为用户名。</del><ins>默认提及格式是「@外显名称#ID」，默认外显名称为用户名。</ins><br />启用 Nicknames<del> 扩展程序后，你可能会将外显昵称更改为</del> <del>nickname。开启此设置可允许用户同时使用旧格式「@用户名」，不过在保存时系统会自动转换成新格式。</del><ins>扩展程序后，你可能会将外显名称更改为昵称。开启此设置可允许用户同时使用旧格式「@用户名」，不过在保存时系统会自动转换成新格式。</ins><br />
+
 #### [`flarum-mentions.email.group_mentioned.subject`](https://weblate.rob006.net/translate/flarum2/flarum-mentions/zh_Hans/?q=context%3A%3D%22flarum-mentions.email.group_mentioned.subject%22)
 
 > {mentioner\_display\_name} mentioned a group you're a member of in {title}
 
 ```diff
 -{mentioner_display_name} 在 {title} 中提到了您所属的组群
-+{mentioner_display_name} 在 {title} 中提到了您所属的群组
++{mentioner_display_name} 提及了你所在的用户组 · {title}
 ```
 
-{mentioner\_display\_name} 在 {title} <del>中提到了您所属的组群</del><ins>中提到了您所属的群组</ins>
+{mentioner\_display\_name} <del>在</del><ins>提及了你所在的用户组</ins> <del>{title}</del><ins>·</ins> <del>中提到了您所属的组群</del><ins>{title}</ins>
 
 #### [`flarum-mentions.email.post_mentioned.subject`](https://weblate.rob006.net/translate/flarum2/flarum-mentions/zh_Hans/?q=context%3A%3D%22flarum-mentions.email.post_mentioned.subject%22)
 
@@ -1648,10 +3441,10 @@ HTTP <del>Bearer</del><ins>承载令牌</ins>
 
 ```diff
 -{replier_display_name} 回复了您【{title}】
-+{replier_display_name} 在讨论「{title}」中回复了您
++{replier_display_name} 回复了你的帖子 · {title}
 ```
 
-{replier\_display\_name} <del>回复了您【{title}】</del><ins>在讨论「{title}」中回复了您</ins>
+{replier\_display\_name} <del>回复了您【{title}】</del><ins>回复了你的帖子 · {title}</ins>
 
 #### [`flarum-mentions.email.user_mentioned.subject`](https://weblate.rob006.net/translate/flarum2/flarum-mentions/zh_Hans/?q=context%3A%3D%22flarum-mentions.email.user_mentioned.subject%22)
 
@@ -1659,10 +3452,10 @@ HTTP <del>Bearer</del><ins>承载令牌</ins>
 
 ```diff
 -{mentioner_display_name} 提及了您【{title}】
-+{mentioner_display_name} 在 「{title}」中提及了您
++{mentioner_display_name} 提及了你 · {title}
 ```
 
-{mentioner\_display\_name} <del>提及了您【{title}】</del><ins>在 「{title}」中提及了您</ins>
+{mentioner\_display\_name} <del>提及了您【{title}】</del><ins>提及了你 · {title}</ins>
 
 #### [`flarum-mentions.forum.composer.mention_tooltip`](https://weblate.rob006.net/translate/flarum2/flarum-mentions/zh_Hans/?q=context%3A%3D%22flarum-mentions.forum.composer.mention_tooltip%22)
 
@@ -1670,7 +3463,7 @@ HTTP <del>Bearer</del><ins>承载令牌</ins>
 
 ```diff
 -提及用户、组或楼层
-+提及用户、群组或帖子
++提及用户、用户组或帖子
 ```
 
 #### [`flarum-mentions.forum.group_mention.deleted_text`](https://weblate.rob006.net/translate/flarum2/flarum-mentions/zh_Hans/?q=context%3A%3D%22flarum-mentions.forum.group_mention.deleted_text%22)
@@ -1679,7 +3472,7 @@ HTTP <del>Bearer</del><ins>承载令牌</ins>
 
 ```diff
 -[未知组群]
-+[未知群组]
++[未知用户组]
 ```
 
 #### [`flarum-mentions.forum.mentioned_by.title`](https://weblate.rob006.net/translate/flarum2/flarum-mentions/zh_Hans/?q=context%3A%3D%22flarum-mentions.forum.mentioned_by.title%22)
@@ -1688,7 +3481,7 @@ HTTP <del>Bearer</del><ins>承载令牌</ins>
 
 ```diff
 -所有回复
-+对此帖的回复
++此帖的回复
 ```
 
 #### [`flarum-mentions.forum.notifications.group_mentioned_text`](https://weblate.rob006.net/translate/flarum2/flarum-mentions/zh_Hans/?q=context%3A%3D%22flarum-mentions.forum.notifications.group_mentioned_text%22)
@@ -1697,10 +3490,10 @@ HTTP <del>Bearer</del><ins>承载令牌</ins>
 
 ```diff
 -{username} 提到了您所属的组群
-+{username} 提到了您所属的群组
++{username} 提及了你所在的用户组
 ```
 
-{username} <del>提到了您所属的组群</del><ins>提到了您所属的群组</ins>
+{username} <del>提到了您所属的组群</del><ins>提及了你所在的用户组</ins>
 
 #### [`flarum-mentions.forum.notifications.post_mentioned_text`](https://weblate.rob006.net/translate/flarum2/flarum-mentions/zh_Hans/?q=context%3A%3D%22flarum-mentions.forum.notifications.post_mentioned_text%22)
 
@@ -1708,21 +3501,32 @@ HTTP <del>Bearer</del><ins>承载令牌</ins>
 
 ```diff
 -{username} 回复了您
-+{username} 回复了您的帖子
++{username} 回复了你的帖子
 ```
 
-{username} <del>回复了您</del><ins>回复了您的帖子</ins>
+{username} <del>回复了您</del><ins>回复了你的帖子</ins>
 
-#### [`flarum-mentions.forum.post.mentioned_by_self_text`](https://weblate.rob006.net/translate/flarum2/flarum-mentions/zh_Hans/?q=context%3A%3D%22flarum-mentions.forum.post.mentioned_by_self_text%22)
+#### [`flarum-mentions.forum.notifications.user_mentioned_text`](https://weblate.rob006.net/translate/flarum2/flarum-mentions/zh_Hans/?q=context%3A%3D%22flarum-mentions.forum.notifications.user_mentioned_text%22)
 
-> {users} replied to this.
+> {username} mentioned you
 
 ```diff
--{users} 回复了此帖
-+{users} 回复了您的帖子
+-{username} 提及了您
++{username} 提及了你
 ```
 
-{users} <del>回复了此帖</del><ins>回复了您的帖子</ins>
+{username} <del>提及了您</del><ins>提及了你</ins>
+
+#### [`flarum-mentions.forum.post.mentioned_by_more_text`](https://weblate.rob006.net/translate/flarum2/flarum-mentions/zh_Hans/?q=context%3A%3D%22flarum-mentions.forum.post.mentioned_by_more_text%22)
+
+> {count} more replies.
+
+```diff
+-等 {count} 个回帖。
++还有 {count} 条回复
+```
+
+<del>等</del><ins>还有</ins> {count} <del>个回帖。</del><ins>条回复</ins>
 
 #### [`flarum-mentions.forum.settings.notify_group_mentioned_label`](https://weblate.rob006.net/translate/flarum2/flarum-mentions/zh_Hans/?q=context%3A%3D%22flarum-mentions.forum.settings.notify_group_mentioned_label%22)
 
@@ -1730,7 +3534,7 @@ HTTP <del>Bearer</del><ins>承载令牌</ins>
 
 ```diff
 -有人在帖子中提到了我在的组群
-+有人在帖子中提到了我在的群组
++有人在帖子中提及我所在的用户组
 ```
 
 #### [`flarum-mentions.forum.settings.notify_post_mentioned_label`](https://weblate.rob006.net/translate/flarum2/flarum-mentions/zh_Hans/?q=context%3A%3D%22flarum-mentions.forum.settings.notify_post_mentioned_label%22)
@@ -1739,7 +3543,7 @@ HTTP <del>Bearer</del><ins>承载令牌</ins>
 
 ```diff
 -有人回复了我
-+有人回复了我的帖子
++有人回复我的帖子
 ```
 
 #### [`flarum-mentions.forum.settings.notify_user_mentioned_label`](https://weblate.rob006.net/translate/flarum2/flarum-mentions/zh_Hans/?q=context%3A%3D%22flarum-mentions.forum.settings.notify_user_mentioned_label%22)
@@ -1748,7 +3552,7 @@ HTTP <del>Bearer</del><ins>承载令牌</ins>
 
 ```diff
 -有人提到了我
-+有人提到了我的帖子
++有人在帖子中提及我
 ```
 
 #### [`flarum-mentions.forum.user.mentions_link`](https://weblate.rob006.net/translate/flarum2/flarum-mentions/zh_Hans/?q=context%3A%3D%22flarum-mentions.forum.user.mentions_link%22)
@@ -1769,7 +3573,27 @@ HTTP <del>Bearer</del><ins>承载令牌</ins>
 
 ```diff
 -验证用正则表达式
-+验证使用的正则表达式
++昵称正则表达式
+```
+
+#### [`flarum-nicknames.admin.wrong_driver`](https://weblate.rob006.net/translate/flarum2/flarum-nicknames/zh_Hans/?q=context%3A%3D%22flarum-nicknames.admin.wrong_driver%22)
+
+> You must select "nickname" as the display name driver on the &lt;a&gt;&lt;strong&gt;Basics Page&lt;/strong&gt;&lt;/a&gt; for this extension to take effect.
+
+```diff
+-您必须在 <a><strong>常规设置</strong></a> 中将「昵称」设置为外显名称，此扩展才会起作用。
++你必须在 <a><strong>常规页面</strong></a> 中将「昵称」设置为外显名称，此扩展才会起作用。
+```
+
+<del>您必须在</del><ins>你必须在</ins> <del>&lt;a&gt;&lt;strong&gt;常规设置&lt;/strong&gt;&lt;/a&gt;</del><ins>&lt;a&gt;&lt;strong&gt;常规页面&lt;/strong&gt;&lt;/a&gt;</ins> 中将「昵称」设置为外显名称，此扩展才会起作用。
+
+#### [`flarum-nicknames.api.invalid_nickname_message`](https://weblate.rob006.net/translate/flarum2/flarum-nicknames/zh_Hans/?q=context%3A%3D%22flarum-nicknames.api.invalid_nickname_message%22)
+
+> This nickname is invalid. Please contact your forum administrator for more information on nickname rules.
+
+```diff
+-昵称非法。请联系论坛管理员获取昵称规则。
++当前昵称不可用，详情请咨询管理员。
 ```
 
 
@@ -1781,30 +3605,81 @@ HTTP <del>Bearer</del><ins>承载令牌</ins>
 
 ```diff
 -Cluster 集群
-+Cluster
++集群（Cluster）
 ```
-
-Cluster<del> 集群</del>
 
 
 ### `flarum-statistics`
 
-#### [`flarum-statistics.admin.statistics.previous_28_days_label`](https://weblate.rob006.net/translate/flarum2/flarum-statistics/zh_Hans/?q=context%3A%3D%22flarum-statistics.admin.statistics.previous_28_days_label%22)
+#### [`flarum-statistics.admin.date_selection_modal.description`](https://weblate.rob006.net/translate/flarum2/flarum-statistics/zh_Hans/?q=context%3A%3D%22flarum-statistics.admin.date_selection_modal.description%22)
 
-> Previous 28 days
+> Pick a custom date range to display statistics for. Loading data may take
+> multiple minutes on forums with a lot of activity.
+>
 
 ```diff
--更早二十八天
-+过去二十八天
+ 统计自定义时间内的论坛数据。
+-数据分析耗时会根据单位时间内论坛的活跃度有所浮动。
++数据分析耗时会根据论坛数据量有所浮动。
+
 ```
 
-#### [`flarum-statistics.admin.statistics.previous_7_days_label`](https://weblate.rob006.net/translate/flarum2/flarum-statistics/zh_Hans/?q=context%3A%3D%22flarum-statistics.admin.statistics.previous_7_days_label%22)
+统计自定义时间内的论坛数据。<br /><del>数据分析耗时会根据单位时间内论坛的活跃度有所浮动。</del><ins>数据分析耗时会根据论坛数据量有所浮动。</ins><br />
 
-> Previous 7 days
+#### [`flarum-statistics.admin.date_selection_modal.end_date`](https://weblate.rob006.net/translate/flarum2/flarum-statistics/zh_Hans/?q=context%3A%3D%22flarum-statistics.admin.date_selection_modal.end_date%22)
+
+> End date (inclusive)
 
 ```diff
--更早一周
-+过去一周
+-结束日期（含）
++结束日期（含当日）
+```
+
+#### [`flarum-statistics.admin.date_selection_modal.start_date`](https://weblate.rob006.net/translate/flarum2/flarum-statistics/zh_Hans/?q=context%3A%3D%22flarum-statistics.admin.date_selection_modal.start_date%22)
+
+> Start date (inclusive)
+
+```diff
+-开始日期（含）
++开始日期（含当日）
+```
+
+#### [`flarum-statistics.admin.statistics.custom_label`](https://weblate.rob006.net/translate/flarum2/flarum-statistics/zh_Hans/?q=context%3A%3D%22flarum-statistics.admin.statistics.custom_label%22)
+
+> Choose custom range...
+
+```diff
+-自定义范围……
++自定义范围…
+```
+
+#### [`flarum-statistics.admin.statistics.export_chart_button`](https://weblate.rob006.net/translate/flarum2/flarum-statistics/zh_Hans/?q=context%3A%3D%22flarum-statistics.admin.statistics.export_chart_button%22)
+
+> Export chart to SVG
+
+```diff
+-导出 SVG 图片
++导出为 SVG
+```
+
+<del>导出</del><ins>导出为</ins> SVG<del> 图片</del>
+
+#### [`flarum-statistics.admin.statistics.no_data`](https://weblate.rob006.net/translate/flarum2/flarum-statistics/zh_Hans/?q=context%3A%3D%22flarum-statistics.admin.statistics.no_data%22)
+
+> There is no data available for this date range.
+
+```diff
+-当前时间段没有可用于分析的数据。
++当前时间段没有数据。
+```
+
+#### [`flarum-statistics.admin.statistics.total_label`](https://weblate.rob006.net/translate/flarum2/flarum-statistics/zh_Hans/?q=context%3A%3D%22flarum-statistics.admin.statistics.total_label%22)
+
+> Total
+
+```diff
+-累计
++总计
 ```
 
 
@@ -1817,15 +3692,6 @@ Cluster<del> 集群</del>
 ```diff
 -置顶主题
 +置顶讨论
-```
-
-#### [`flarum-sticky.forum.badge.sticky_tooltip`](https://weblate.rob006.net/translate/flarum2/flarum-sticky/zh_Hans/?q=context%3A%3D%22flarum-sticky.forum.badge.sticky_tooltip%22)
-
-> =&gt; flarum-sticky.ref.sticky
-
-```diff
--=> flarum-sticky.ref.sticky
-+置顶
 ```
 
 #### [`flarum-sticky.forum.discussion_controls.sticky_button`](https://weblate.rob006.net/translate/flarum2/flarum-sticky/zh_Hans/?q=context%3A%3D%22flarum-sticky.forum.discussion_controls.sticky_button%22)
@@ -1843,10 +3709,10 @@ Cluster<del> 集群</del>
 
 ```diff
 -{username} 于 {time} 置顶此帖
-+{username} 于 {time} 置顶此帖。
++{username} 于 {time} 置顶了讨论
 ```
 
-{username} 于 {time} <del>置顶此帖</del><ins>置顶此帖。</ins>
+{username} 于 {time} <del>置顶此帖</del><ins>置顶了讨论</ins>
 
 #### [`flarum-sticky.forum.post_stream.discussion_unstickied_text`](https://weblate.rob006.net/translate/flarum2/flarum-sticky/zh_Hans/?q=context%3A%3D%22flarum-sticky.forum.post_stream.discussion_unstickied_text%22)
 
@@ -1854,13 +3720,22 @@ Cluster<del> 集群</del>
 
 ```diff
 -{username} 于 {time} 取消置顶
-+{username} 于 {time} 取消置顶本帖。
++{username} 于 {time} 取消置顶讨论
 ```
 
-{username} 于 {time} <del>取消置顶</del><ins>取消置顶本帖。</ins>
+{username} 于 {time} <del>取消置顶</del><ins>取消置顶讨论</ins>
 
 
 ### `flarum-subscriptions`
+
+#### [`flarum-subscriptions.email.new_post.subject`](https://weblate.rob006.net/translate/flarum2/flarum-subscriptions/zh_Hans/?q=context%3A%3D%22flarum-subscriptions.email.new_post.subject%22)
+
+> \[New Post\] {title}
+
+```diff
+-【新帖】{title}
++【新内容】{title}
+```
 
 #### [`flarum-subscriptions.forum.badge.following_tooltip`](https://weblate.rob006.net/translate/flarum2/flarum-subscriptions/zh_Hans/?q=context%3A%3D%22flarum-subscriptions.forum.badge.following_tooltip%22)
 
@@ -1877,16 +3752,7 @@ Cluster<del> 集群</del>
 
 ```diff
 -=> flarum-subscriptions.ref.ignoring
-+已忽略
-```
-
-#### [`flarum-subscriptions.forum.discussion_controls.follow_button`](https://weblate.rob006.net/translate/flarum2/flarum-subscriptions/zh_Hans/?q=context%3A%3D%22flarum-subscriptions.forum.discussion_controls.follow_button%22)
-
-> =&gt; flarum-subscriptions.ref.follow
-
-```diff
--=> flarum-subscriptions.ref.follow
-+关注
++忽略
 ```
 
 #### [`flarum-subscriptions.forum.discussion_controls.unignore_button`](https://weblate.rob006.net/translate/flarum2/flarum-subscriptions/zh_Hans/?q=context%3A%3D%22flarum-subscriptions.forum.discussion_controls.unignore_button%22)
@@ -1904,7 +3770,7 @@ Cluster<del> 集群</del>
 
 ```diff
 -=> flarum-subscriptions.ref.following
-+正在关注
++我的关注
 ```
 
 #### [`flarum-subscriptions.forum.notifications.new_post_text`](https://weblate.rob006.net/translate/flarum2/flarum-subscriptions/zh_Hans/?q=context%3A%3D%22flarum-subscriptions.forum.notifications.new_post_text%22)
@@ -1913,10 +3779,10 @@ Cluster<del> 集群</del>
 
 ```diff
 -{username} 回复了你关注的主题
-+{username} 发布了新帖
++{username} 发布了新内容
 ```
 
-{username} <del>回复了你关注的主题</del><ins>发布了新帖</ins>
+{username} <del>回复了你关注的主题</del><ins>发布了新内容</ins>
 
 #### [`flarum-subscriptions.forum.settings.follow_after_reply_label`](https://weblate.rob006.net/translate/flarum2/flarum-subscriptions/zh_Hans/?q=context%3A%3D%22flarum-subscriptions.forum.settings.follow_after_reply_label%22)
 
@@ -1924,7 +3790,7 @@ Cluster<del> 集群</del>
 
 ```diff
 -自动关注我回复的主题
-+自动关注我回复的讨论
++自动关注我参与的讨论
 ```
 
 #### [`flarum-subscriptions.forum.settings.notify_for_all_posts_label`](https://weblate.rob006.net/translate/flarum2/flarum-subscriptions/zh_Hans/?q=context%3A%3D%22flarum-subscriptions.forum.settings.notify_for_all_posts_label%22)
@@ -1933,7 +3799,7 @@ Cluster<del> 集群</del>
 
 ```diff
 -通知每一个新帖，而非仅最后一个
-+通知所有新帖，而非仅通知讨论的最后一条
++通知所有新帖。关闭后每个讨论未读期间仅通知一次
 ```
 
 #### [`flarum-subscriptions.forum.settings.notify_new_post_label`](https://weblate.rob006.net/translate/flarum2/flarum-subscriptions/zh_Hans/?q=context%3A%3D%22flarum-subscriptions.forum.settings.notify_new_post_label%22)
@@ -1942,25 +3808,7 @@ Cluster<del> 集群</del>
 
 ```diff
 -我关注的主题有新回复
-+有人在我关注的讨论中回复
-```
-
-#### [`flarum-subscriptions.forum.sub_controls.follow_button`](https://weblate.rob006.net/translate/flarum2/flarum-subscriptions/zh_Hans/?q=context%3A%3D%22flarum-subscriptions.forum.sub_controls.follow_button%22)
-
-> =&gt; flarum-subscriptions.ref.follow
-
-```diff
--=> flarum-subscriptions.ref.follow
-+关注
-```
-
-#### [`flarum-subscriptions.forum.sub_controls.following_button`](https://weblate.rob006.net/translate/flarum2/flarum-subscriptions/zh_Hans/?q=context%3A%3D%22flarum-subscriptions.forum.sub_controls.following_button%22)
-
-> =&gt; flarum-subscriptions.ref.following
-
-```diff
--=> flarum-subscriptions.ref.following
-+关注中
++我关注的讨论有新内容
 ```
 
 #### [`flarum-subscriptions.forum.sub_controls.following_text`](https://weblate.rob006.net/translate/flarum2/flarum-subscriptions/zh_Hans/?q=context%3A%3D%22flarum-subscriptions.forum.sub_controls.following_text%22)
@@ -1969,16 +3817,7 @@ Cluster<del> 集群</del>
 
 ```diff
 -当有人回复此主题时通知我。
-+当有人回复此讨论时通知我。
-```
-
-#### [`flarum-subscriptions.forum.sub_controls.ignoring_button`](https://weblate.rob006.net/translate/flarum2/flarum-subscriptions/zh_Hans/?q=context%3A%3D%22flarum-subscriptions.forum.sub_controls.ignoring_button%22)
-
-> =&gt; flarum-subscriptions.ref.ignoring
-
-```diff
--=> flarum-subscriptions.ref.ignoring
-+忽略
++接收所有回复通知。
 ```
 
 #### [`flarum-subscriptions.forum.sub_controls.ignoring_text`](https://weblate.rob006.net/translate/flarum2/flarum-subscriptions/zh_Hans/?q=context%3A%3D%22flarum-subscriptions.forum.sub_controls.ignoring_text%22)
@@ -1987,7 +3826,25 @@ Cluster<del> 集群</del>
 
 ```diff
 -不接收任何通知并从主题列表中隐藏此主题。
-+不接收任何通知并从讨论列表中隐藏此讨论。
++不接收任何通知，并从讨论列表中隐藏。
+```
+
+#### [`flarum-subscriptions.forum.sub_controls.not_following_text`](https://weblate.rob006.net/translate/flarum2/flarum-subscriptions/zh_Hans/?q=context%3A%3D%22flarum-subscriptions.forum.sub_controls.not_following_text%22)
+
+> Be notified only when @mentioned.
+
+```diff
+-仅当有人提及我时通知我。
++仅当有人提及我时通知。
+```
+
+#### [`flarum-subscriptions.forum.sub_controls.notify_alert_tooltip`](https://weblate.rob006.net/translate/flarum2/flarum-subscriptions/zh_Hans/?q=context%3A%3D%22flarum-subscriptions.forum.sub_controls.notify_alert_tooltip%22)
+
+> Get a forum notification when there are new posts
+
+```diff
+-有新回复时通知提醒
++有新回复时接收站内通知
 ```
 
 #### [`flarum-subscriptions.forum.sub_controls.notify_email_tooltip`](https://weblate.rob006.net/translate/flarum2/flarum-subscriptions/zh_Hans/?q=context%3A%3D%22flarum-subscriptions.forum.sub_controls.notify_email_tooltip%22)
@@ -1996,7 +3853,7 @@ Cluster<del> 集群</del>
 
 ```diff
 -有新回复时发送邮件
-+有新回复时邮件提醒
++有新回复时接收邮件通知
 ```
 
 #### [`flarum-subscriptions.ref.ignoring`](https://weblate.rob006.net/translate/flarum2/flarum-subscriptions/zh_Hans/?q=context%3A%3D%22flarum-subscriptions.ref.ignoring%22)
@@ -2017,7 +3874,7 @@ Cluster<del> 集群</del>
 
 ```diff
 -管理员并未给出封禁原因。
-+未说明封禁原因。
++此次封禁暂无原因。
 ```
 
 #### [`flarum-suspend.email.unsuspended.subject`](https://weblate.rob006.net/translate/flarum2/flarum-suspend/zh_Hans/?q=context%3A%3D%22flarum-suspend.email.unsuspended.subject%22)
@@ -2026,16 +3883,7 @@ Cluster<del> 集群</del>
 
 ```diff
 -你的账号已解封
-+您的账号已解除封禁
-```
-
-#### [`flarum-suspend.forum.notifications.user_suspended_indefinite_text`](https://weblate.rob006.net/translate/flarum2/flarum-suspend/zh_Hans/?q=context%3A%3D%22flarum-suspend.forum.notifications.user_suspended_indefinite_text%22)
-
-> You have been suspended indefinitely
-
-```diff
--你已被永久封禁
-+你已被无限期封禁
++你的账号已解除封禁
 ```
 
 #### [`flarum-suspend.forum.notifications.user_unsuspended_text`](https://weblate.rob006.net/translate/flarum2/flarum-suspend/zh_Hans/?q=context%3A%3D%22flarum-suspend.forum.notifications.user_unsuspended_text%22)
@@ -2044,7 +3892,7 @@ Cluster<del> 集群</del>
 
 ```diff
 -你已解封
-+你已被解除封禁
++你的封禁已解除
 ```
 
 #### [`flarum-suspend.forum.suspend_user.display_message`](https://weblate.rob006.net/translate/flarum2/flarum-suspend/zh_Hans/?q=context%3A%3D%22flarum-suspend.forum.suspend_user.display_message%22)
@@ -2053,16 +3901,7 @@ Cluster<del> 集群</del>
 
 ```diff
 -封禁原因（用户联）
-+向用户显示说明
-```
-
-#### [`flarum-suspend.forum.suspend_user.indefinitely_label`](https://weblate.rob006.net/translate/flarum2/flarum-suspend/zh_Hans/?q=context%3A%3D%22flarum-suspend.forum.suspend_user.indefinitely_label%22)
-
-> Suspended indefinitely
-
-```diff
--永久封禁
-+无限期封禁
++留言
 ```
 
 #### [`flarum-suspend.forum.suspend_user.limited_time_label`](https://weblate.rob006.net/translate/flarum2/flarum-suspend/zh_Hans/?q=context%3A%3D%22flarum-suspend.forum.suspend_user.limited_time_label%22)
@@ -2071,7 +3910,7 @@ Cluster<del> 集群</del>
 
 ```diff
 -自定义封禁时间
-+临时封禁……
++限时封禁
 ```
 
 #### [`flarum-suspend.forum.suspend_user.not_suspended_label`](https://weblate.rob006.net/translate/flarum2/flarum-suspend/zh_Hans/?q=context%3A%3D%22flarum-suspend.forum.suspend_user.not_suspended_label%22)
@@ -2080,7 +3919,7 @@ Cluster<del> 集群</del>
 
 ```diff
 -不封禁
-+解除封禁
++未封禁
 ```
 
 #### [`flarum-suspend.forum.suspension_info.dismiss_button`](https://weblate.rob006.net/translate/flarum2/flarum-suspend/zh_Hans/?q=context%3A%3D%22flarum-suspend.forum.suspension_info.dismiss_button%22)
@@ -2089,7 +3928,7 @@ Cluster<del> 集群</del>
 
 ```diff
 -我知道了
-+关闭
++我已知晓
 ```
 
 #### [`flarum-suspend.forum.suspension_info.indefinite`](https://weblate.rob006.net/translate/flarum2/flarum-suspend/zh_Hans/?q=context%3A%3D%22flarum-suspend.forum.suspension_info.indefinite%22)
@@ -2098,7 +3937,7 @@ Cluster<del> 集群</del>
 
 ```diff
 -封禁期限：永久
-+此账号已被无限期封禁
++此账号已被永久封禁
 ```
 
 #### [`flarum-suspend.forum.suspension_info.limited`](https://weblate.rob006.net/translate/flarum2/flarum-suspend/zh_Hans/?q=context%3A%3D%22flarum-suspend.forum.suspension_info.limited%22)
@@ -2107,19 +3946,10 @@ Cluster<del> 集群</del>
 
 ```diff
 -封禁期至 {date}
-+此次封禁将持续至 {date}
++此账号将被封禁至 {date}
 ```
 
-<del>封禁期至</del><ins>此次封禁将持续至</ins> {date}
-
-#### [`flarum-suspend.forum.user_controls.suspend_button`](https://weblate.rob006.net/translate/flarum2/flarum-suspend/zh_Hans/?q=context%3A%3D%22flarum-suspend.forum.user_controls.suspend_button%22)
-
-> Suspend
-
-```diff
--封禁
-+封禁用户
-```
+<del>封禁期至</del><ins>此账号将被封禁至</ins> {date}
 
 
 ### `flarum-tags`
@@ -2130,7 +3960,7 @@ Cluster<del> 集群</del>
 
 ```diff
 -确定要删除此标签？此操作不会删除标签下的主题帖。
-+确定要删除此标签吗？此标签下的讨论将不会被删除。
++确定要删除此标签吗？标签下的讨论不会被删除。
 ```
 
 #### [`flarum-tags.admin.edit_tag.hide_label`](https://weblate.rob006.net/translate/flarum2/flarum-tags/zh_Hans/?q=context%3A%3D%22flarum-tags.admin.edit_tag.hide_label%22)
@@ -2139,7 +3969,7 @@ Cluster<del> 集群</del>
 
 ```diff
 -从“全部主题”中隐藏
-+在「全部讨论」中隐藏该标签下的讨论
++从「全部讨论」中隐藏
 ```
 
 #### [`flarum-tags.admin.edit_tag.slug_label`](https://weblate.rob006.net/translate/flarum2/flarum-tags/zh_Hans/?q=context%3A%3D%22flarum-tags.admin.edit_tag.slug_label%22)
@@ -2148,7 +3978,7 @@ Cluster<del> 集群</del>
 
 ```diff
 -英文名称（Slug）
-+Slug
++固定链接名
 ```
 
 #### [`flarum-tags.admin.edit_tag.title`](https://weblate.rob006.net/translate/flarum2/flarum-tags/zh_Hans/?q=context%3A%3D%22flarum-tags.admin.edit_tag.title%22)
@@ -2175,16 +4005,7 @@ Cluster<del> 集群</del>
 
 ```diff
 -管理论坛标签列表。
-+管理用于组织讨论的标签列表。
-```
-
-#### [`flarum-tags.admin.permissions.bypass_tag_counts_label`](https://weblate.rob006.net/translate/flarum2/flarum-tags/zh_Hans/?q=context%3A%3D%22flarum-tags.admin.permissions.bypass_tag_counts_label%22)
-
-> Bypass tag requirements
-
-```diff
--不受标签数量限制
-+绕过标签数量限制
++管理用于整理讨论的标签。
 ```
 
 #### [`flarum-tags.admin.permissions.tag_discussions_label`](https://weblate.rob006.net/translate/flarum2/flarum-tags/zh_Hans/?q=context%3A%3D%22flarum-tags.admin.permissions.tag_discussions_label%22)
@@ -2193,16 +4014,7 @@ Cluster<del> 集群</del>
 
 ```diff
 -更改标签
-+为讨论添加标签
-```
-
-#### [`flarum-tags.admin.tag_settings.required_primary_heading`](https://weblate.rob006.net/translate/flarum2/flarum-tags/zh_Hans/?q=context%3A%3D%22flarum-tags.admin.tag_settings.required_primary_heading%22)
-
-> Required Number of Primary Tags
-
-```diff
--主标签数量限制
-+主标签数量要求
++编辑讨论标签
 ```
 
 #### [`flarum-tags.admin.tag_settings.required_primary_text`](https://weblate.rob006.net/translate/flarum2/flarum-tags/zh_Hans/?q=context%3A%3D%22flarum-tags.admin.tag_settings.required_primary_text%22)
@@ -2211,16 +4023,7 @@ Cluster<del> 集群</del>
 
 ```diff
 -设置每个主题帖需添加的主标签数量。
-+设置讨论可添加的主标签数量范围。
-```
-
-#### [`flarum-tags.admin.tag_settings.required_secondary_heading`](https://weblate.rob006.net/translate/flarum2/flarum-tags/zh_Hans/?q=context%3A%3D%22flarum-tags.admin.tag_settings.required_secondary_heading%22)
-
-> Required Number of Secondary Tags
-
-```diff
--次标签数量限制
-+副标签数量要求
++设置每个讨论可添加的主标签数量上限和下限。
 ```
 
 #### [`flarum-tags.admin.tag_settings.required_secondary_text`](https://weblate.rob006.net/translate/flarum2/flarum-tags/zh_Hans/?q=context%3A%3D%22flarum-tags.admin.tag_settings.required_secondary_text%22)
@@ -2229,7 +4032,7 @@ Cluster<del> 集群</del>
 
 ```diff
 -设置每个主题帖需添加的次标签数量。
-+设置讨论可添加的副标签数量范围。
++设置每个讨论可添加的次标签数量上限和下限。
 ```
 
 #### [`flarum-tags.admin.tags.about_tags_text`](https://weblate.rob006.net/translate/flarum2/flarum-tags/zh_Hans/?q=context%3A%3D%22flarum-tags.admin.tags.about_tags_text%22)
@@ -2238,7 +4041,7 @@ Cluster<del> 集群</del>
 
 ```diff
 -使用标签对主题帖分类。主标签类似于传统论坛的板块，可以分成两级。次标签无层级无顺序，可作为次板块。鼠标拖动标签即可排序或调整层级位置。
-+标签用于对讨论进行分类。主标签类似于传统论坛的板块：它们可以按两级层级排列。副标签没有层级或顺序，适用于更细粒度的分类。
++标签用于对讨论进行分类。主标签类似传统论坛的板块，可分为两级；次标签无层级、无顺序，适合更细致的分类。拖动标签即可调整排序或层级。
 ```
 
 #### [`flarum-tags.admin.tags.create_primary_tag_button`](https://weblate.rob006.net/translate/flarum2/flarum-tags/zh_Hans/?q=context%3A%3D%22flarum-tags.admin.tags.create_primary_tag_button%22)
@@ -2256,16 +4059,7 @@ Cluster<del> 集群</del>
 
 ```diff
 -新建次标签
-+创建副标签
-```
-
-#### [`flarum-tags.admin.tags.secondary_heading`](https://weblate.rob006.net/translate/flarum2/flarum-tags/zh_Hans/?q=context%3A%3D%22flarum-tags.admin.tags.secondary_heading%22)
-
-> Secondary Tags
-
-```diff
--次标签
-+副标签
++创建次标签
 ```
 
 #### [`flarum-tags.forum.all_tags.meta_description_text`](https://weblate.rob006.net/translate/flarum2/flarum-tags/zh_Hans/?q=context%3A%3D%22flarum-tags.forum.all_tags.meta_description_text%22)
@@ -2283,7 +4077,7 @@ Cluster<del> 集群</del>
 
 ```diff
 -更改「{title}」的节点标签
-+编辑 {title} 的标签
++编辑「{title}」的标签
 ```
 
 #### [`flarum-tags.forum.choose_tags.title`](https://weblate.rob006.net/translate/flarum2/flarum-tags/zh_Hans/?q=context%3A%3D%22flarum-tags.forum.choose_tags.title%22)
@@ -2292,7 +4086,7 @@ Cluster<del> 集群</del>
 
 ```diff
 -添加标签
-+为您的讨论选择标签
++为你的讨论选择标签
 ```
 
 #### [`flarum-tags.forum.index.more_link`](https://weblate.rob006.net/translate/flarum2/flarum-tags/zh_Hans/?q=context%3A%3D%22flarum-tags.forum.index.more_link%22)
@@ -2310,7 +4104,7 @@ Cluster<del> 集群</del>
 
 ```diff
 -移除标签
-+未分类
++无标签
 ```
 
 #### [`flarum-tags.forum.post_stream.added_and_removed_tags_text`](https://weblate.rob006.net/translate/flarum2/flarum-tags/zh_Hans/?q=context%3A%3D%22flarum-tags.forum.post_stream.added_and_removed_tags_text%22)
@@ -2319,10 +4113,10 @@ Cluster<del> 集群</del>
 
 ```diff
 -{username} 于 {time} 添加 {tagsAdded}，并移除 {tagsRemoved}。
-+{username} 于 {time} 添加了 {tagsAdded}，并移除了 {tagsRemoved}。
++{username} 于 {time} 添加了 {tagsAdded}，并移除了 {tagsRemoved}
 ```
 
-{username} 于 {time} <del>添加</del><ins>添加了</ins> <del>{tagsAdded}，并移除</del><ins>{tagsAdded}，并移除了</ins> {tagsRemoved}。
+{username} 于 {time} <del>添加</del><ins>添加了</ins> <del>{tagsAdded}，并移除</del><ins>{tagsAdded}，并移除了</ins> <del>{tagsRemoved}。</del><ins>{tagsRemoved}</ins>
 
 #### [`flarum-tags.forum.post_stream.added_tags_text`](https://weblate.rob006.net/translate/flarum2/flarum-tags/zh_Hans/?q=context%3A%3D%22flarum-tags.forum.post_stream.added_tags_text%22)
 
@@ -2330,10 +4124,10 @@ Cluster<del> 集群</del>
 
 ```diff
 -{username} 于 {time} 添加 {tagsAdded}
-+{username} 于 {time} 添加了 {tagsAdded}。
++{username} 于 {time} 添加了 {tagsAdded}
 ```
 
-{username} 于 {time} <del>添加</del><ins>添加了</ins> <del>{tagsAdded}</del><ins>{tagsAdded}。</ins>
+{username} 于 {time} <del>添加</del><ins>添加了</ins> {tagsAdded}
 
 #### [`flarum-tags.forum.post_stream.removed_tags_text`](https://weblate.rob006.net/translate/flarum2/flarum-tags/zh_Hans/?q=context%3A%3D%22flarum-tags.forum.post_stream.removed_tags_text%22)
 
@@ -2341,10 +4135,10 @@ Cluster<del> 集群</del>
 
 ```diff
 -{username} 于 {time} 移除 {tagsRemoved}
-+{username} 于 {time} 移除了 {tagsRemoved}。
++{username} 于 {time} 移除了 {tagsRemoved}
 ```
 
-{username} 于 {time} <del>移除</del><ins>移除了</ins> <del>{tagsRemoved}</del><ins>{tagsRemoved}。</ins>
+{username} 于 {time} <del>移除</del><ins>移除了</ins> {tagsRemoved}
 
 #### [`flarum-tags.forum.post_stream.tags_text`](https://weblate.rob006.net/translate/flarum2/flarum-tags/zh_Hans/?q=context%3A%3D%22flarum-tags.forum.post_stream.tags_text%22)
 
@@ -2352,7 +4146,7 @@ Cluster<del> 集群</del>
 
 ```diff
 -{tags} 标签
-+{count, plural, one {{tags} 个标签} other {{tags} 个标签}}
++{count, plural, one {{tags} 标签} other {{tags} 标签}}
 ```
 
 #### [`flarum-tags.forum.tag.meta_description_text`](https://weblate.rob006.net/translate/flarum2/flarum-tags/zh_Hans/?q=context%3A%3D%22flarum-tags.forum.tag.meta_description_text%22)
@@ -2361,10 +4155,8 @@ Cluster<del> 集群</del>
 
 ```diff
 -{tag} 标签下的所有主题
-+所有带有 {tag} 的讨论
++带有「{tag}」标签的所有讨论
 ```
-
-<ins>所有带有 </ins>{tag} <del>标签下的所有主题</del><ins>的讨论</ins>
 
 #### [`flarum-tags.lib.tag_selection_modal.bypass_requirements`](https://weblate.rob006.net/translate/flarum2/flarum-tags/zh_Hans/?q=context%3A%3D%22flarum-tags.lib.tag_selection_modal.bypass_requirements%22)
 
@@ -2372,7 +4164,7 @@ Cluster<del> 集群</del>
 
 ```diff
 -忽略标签选择
-+绕过标签数量限制
++忽略标签要求
 ```
 
 #### [`flarum-tags.lib.tag_selection_modal.choose_primary_placeholder`](https://weblate.rob006.net/translate/flarum2/flarum-tags/zh_Hans/?q=context%3A%3D%22flarum-tags.lib.tag_selection_modal.choose_primary_placeholder%22)
@@ -2392,10 +4184,10 @@ Cluster<del> 集群</del>
 
 ```diff
 -{count, plural, one {请再选择一个标签} other {请再选择 # 个标签}}
-+{count, plural, one {再选择 1 个标签} other {再选择 # 个标签}}
++{count, plural, one {还需选择 1 个标签} other {还需选择 # 个标签}}
 ```
 
-{count, plural, one <del>{请再选择一个标签}</del><ins>{再选择 1 个标签}</ins> other <del>{请再选择</del><ins>{再选择</ins> # 个标签}}
+{count, plural, one <del>{请再选择一个标签}</del><ins>{还需选择 1 个标签}</ins> other <del>{请再选择</del><ins>{还需选择</ins> # 个标签}}
 
 #### [`flarum-tags.ref.name`](https://weblate.rob006.net/translate/flarum2/flarum-tags/zh_Hans/?q=context%3A%3D%22flarum-tags.ref.name%22)
 
@@ -2436,10 +4228,8 @@ Cluster<del> 集群</del>
 
 ```diff
 -验证 Token
-+验证 Toekn
++认证令牌
 ```
-
-验证 <del>Token</del><ins>Toekn</ins>
 
 #### [`fof-analytics.admin.popup.field.piwikHideAliasUrl`](https://weblate.rob006.net/translate/flarum2/fof-analytics/zh_Hans/?q=context%3A%3D%22fof-analytics.admin.popup.field.piwikHideAliasUrl%22)
 
@@ -2447,7 +4237,45 @@ Cluster<del> 集群</del>
 
 ```diff
 -在「导出链」报表中隐藏已知别名链接的点击（什么是导出链：http://t.cn/A6PlyGj6）
-+在“出站链接”报告中，隐藏指向已知别名 URL 的点击
++从「出站链接」报告中排除本站别名 URL
+```
+
+#### [`fof-analytics.admin.popup.field.piwikPrependDomain`](https://weblate.rob006.net/translate/flarum2/fof-analytics/zh_Hans/?q=context%3A%3D%22fof-analytics.admin.popup.field.piwikPrependDomain%22)
+
+> Prepend the site domain to the page title when tracking
+
+```diff
+-追踪时将网站域名放置在网页标题开头
++跟踪时在页面标题前添加站点域名
+```
+
+#### [`fof-analytics.admin.popup.field.piwikSiteId`](https://weblate.rob006.net/translate/flarum2/fof-analytics/zh_Hans/?q=context%3A%3D%22fof-analytics.admin.popup.field.piwikSiteId%22)
+
+> Site ID
+
+```diff
+-Site ID
++站点 ID
+```
+
+<del>Site</del><ins>站点</ins> ID
+
+#### [`fof-analytics.admin.popup.field.piwikTrackAccounts`](https://weblate.rob006.net/translate/flarum2/fof-analytics/zh_Hans/?q=context%3A%3D%22fof-analytics.admin.popup.field.piwikTrackAccounts%22)
+
+> Track individual user accounts
+
+```diff
+-追踪独立访客账户
++按用户账号跟踪访客
+```
+
+#### [`fof-analytics.admin.popup.field.piwikTrackSubdomain`](https://weblate.rob006.net/translate/flarum2/fof-analytics/zh_Hans/?q=context%3A%3D%22fof-analytics.admin.popup.field.piwikTrackSubdomain%22)
+
+> Track visitors across all subdomains of Flarum
+
+```diff
+-追踪所有 Flarum 子域访客
++跟踪论坛所有子域名访客
 ```
 
 #### [`fof-analytics.admin.popup.field.statusGoogle`](https://weblate.rob006.net/translate/flarum2/fof-analytics/zh_Hans/?q=context%3A%3D%22fof-analytics.admin.popup.field.statusGoogle%22)
@@ -2456,10 +4284,26 @@ Cluster<del> 集群</del>
 
 ```diff
 -启用 Google 分析 (UA/GA4)
-+启用 Google Analytics (UA/GA4)
++启用 Google Analytics（UA/GA4）
 ```
 
-启用 Google <del>分析</del><ins>Analytics</ins> (UA/GA4)
+启用 Google <del>分析 (UA/GA4)</del><ins>Analytics（UA/GA4）</ins>
+
+#### [`fof-analytics.admin.popup.placeholder.piwikAuthToken`](https://weblate.rob006.net/translate/flarum2/fof-analytics/zh_Hans/?q=context%3A%3D%22fof-analytics.admin.popup.placeholder.piwikAuthToken%22)
+
+> Fill this token to enable a Matomo stats widget in the admin panel.
+> You can find it in Settings &gt; Personal &gt; API Authentication Token.
+>
+
+```diff
+-填入 token 以在后台管理菜单启用 Matomo 统计部件。
+-你可以在 设置 > 个人 > API 验证 Token 中找到。
++填写令牌以在管理后台启用 Matomo 统计小组件。
++你可以在「设置 > 个人 > API Authentication Token」中找到此令牌。
+
+```
+
+<del>填入 token 以在后台管理菜单启用</del><ins>填写令牌以在管理后台启用</ins> Matomo <del>统计部件。</del><ins>统计小组件。</ins><br /><del>你可以在 设置</del><ins>你可以在「设置</ins> &gt; 个人 &gt; API<del> 验证</del> <del>Token</del><ins>Authentication</ins> <del>中找到。</del><ins>Token」中找到此令牌。</ins><br />
 
 #### [`fof-analytics.admin.popup.section.googleAnalytics`](https://weblate.rob006.net/translate/flarum2/fof-analytics/zh_Hans/?q=context%3A%3D%22fof-analytics.admin.popup.section.googleAnalytics%22)
 
@@ -2471,6 +4315,33 @@ Cluster<del> 集群</del>
 ```
 
 Google <del>分析</del><ins>Analytics</ins>
+
+#### [`fof-analytics.admin.popup.trackAccounts.email`](https://weblate.rob006.net/translate/flarum2/fof-analytics/zh_Hans/?q=context%3A%3D%22fof-analytics.admin.popup.trackAccounts.email%22)
+
+> Track by email
+
+```diff
+-按邮箱追踪
++按邮箱跟踪
+```
+
+#### [`fof-analytics.admin.popup.trackAccounts.none`](https://weblate.rob006.net/translate/flarum2/fof-analytics/zh_Hans/?q=context%3A%3D%22fof-analytics.admin.popup.trackAccounts.none%22)
+
+> Do not track
+
+```diff
+-不要追踪
++不跟踪
+```
+
+#### [`fof-analytics.admin.popup.trackAccounts.username`](https://weblate.rob006.net/translate/flarum2/fof-analytics/zh_Hans/?q=context%3A%3D%22fof-analytics.admin.popup.trackAccounts.username%22)
+
+> Track by username
+
+```diff
+-按用户名追踪
++按用户名跟踪
+```
 
 
 ### `fof-anti-spam`
@@ -2490,7 +4361,16 @@ Google <del>分析</del><ins>Analytics</ins>
 
 ```diff
 -拦截记录
-+已拦截的注册
++已拦截注册
+```
+
+#### [`fof-anti-spam.admin.blocked_registrations.delete_entry`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/zh_Hans/?q=context%3A%3D%22fof-anti-spam.admin.blocked_registrations.delete_entry%22)
+
+> Delete entry
+
+```diff
+-删除条目
++删除记录
 ```
 
 #### [`fof-anti-spam.admin.blocked_registrations.email`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/zh_Hans/?q=context%3A%3D%22fof-anti-spam.admin.blocked_registrations.email%22)
@@ -2499,7 +4379,7 @@ Google <del>分析</del><ins>Analytics</ins>
 
 ```diff
 -邮箱
-+电子邮箱地址
++邮箱地址
 ```
 
 #### [`fof-anti-spam.admin.blocked_registrations.help`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/zh_Hans/?q=context%3A%3D%22fof-anti-spam.admin.blocked_registrations.help%22)
@@ -2509,11 +4389,11 @@ Google <del>分析</del><ins>Analytics</ins>
 
 ```diff
 -本页显示所有被 StopForumSpam 服务拦截的注册信息，您可以查看详情或删除记录。
-+此页面显示了所有被 StopForumSpam 服务拦截的注册。您可以查看每项注册的详情，如果需要，您也可以从数据库中删除该记录。
++此页面列出了所有被 StopForumSpam 服务拦截的注册。你可以查看每次注册的详细信息，也可以根据需要从数据库中删除记录。
 
 ```
 
-<del>本页显示所有被</del><ins>此页面显示了所有被</ins> StopForumSpam <del>服务拦截的注册信息，您可以查看详情或删除记录。</del><ins>服务拦截的注册。您可以查看每项注册的详情，如果需要，您也可以从数据库中删除该记录。</ins><br />
+<del>本页显示所有被</del><ins>此页面列出了所有被</ins> StopForumSpam <del>服务拦截的注册信息，您可以查看详情或删除记录。</del><ins>服务拦截的注册。你可以查看每次注册的详细信息，也可以根据需要从数据库中删除记录。</ins><br />
 
 #### [`fof-anti-spam.admin.blocked_registrations.login-provider`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/zh_Hans/?q=context%3A%3D%22fof-anti-spam.admin.blocked_registrations.login-provider%22)
 
@@ -2530,16 +4410,7 @@ Google <del>分析</del><ins>Analytics</ins>
 
 ```diff
 -登录提供程序数据
-+登录提供商数据
-```
-
-#### [`fof-anti-spam.admin.blocked_registrations.no-records`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/zh_Hans/?q=context%3A%3D%22fof-anti-spam.admin.blocked_registrations.no-records%22)
-
-> No blocked registrations found.
-
-```diff
--暂无拦截记录。
-+未发现已拦截的注册。
++登录服务商
 ```
 
 #### [`fof-anti-spam.admin.blocked_registrations.title`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/zh_Hans/?q=context%3A%3D%22fof-anti-spam.admin.blocked_registrations.title%22)
@@ -2548,7 +4419,7 @@ Google <del>分析</del><ins>Analytics</ins>
 
 ```diff
 -拦截记录
-+已拦截的注册
++已拦截注册
 ```
 
 #### [`fof-anti-spam.admin.permissions.spamblock_users_label`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/zh_Hans/?q=context%3A%3D%22fof-anti-spam.admin.permissions.spamblock_users_label%22)
@@ -2557,7 +4428,7 @@ Google <del>分析</del><ins>Analytics</ins>
 
 ```diff
 -标记垃圾账号
-+将用户标记为垃圾信息发送者
++标记垃圾用户
 ```
 
 #### [`fof-anti-spam.admin.settings.default-actions.delete_discussions_help`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/zh_Hans/?q=context%3A%3D%22fof-anti-spam.admin.settings.default-actions.delete_discussions_help%22)
@@ -2566,7 +4437,7 @@ Google <del>分析</del><ins>Analytics</ins>
 
 ```diff
 -启用此项，永久删除主题帖，否则隐藏主题帖。
-+这将永久删除该用户发起的所有讨论。禁用后，讨论将改为软删除。
++永久删除此用户发起的所有讨论。关闭此项，改为软删除。
 ```
 
 #### [`fof-anti-spam.admin.settings.default-actions.delete_discussions_label`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/zh_Hans/?q=context%3A%3D%22fof-anti-spam.admin.settings.default-actions.delete_discussions_label%22)
@@ -2584,7 +4455,7 @@ Google <del>分析</del><ins>Analytics</ins>
 
 ```diff
 -启用此项，永久删除帖子，否则隐藏帖子。
-+这将永久删除该用户发表的所有帖子。禁用后，帖子将改为软删除。
++永久删除此用户发布的所有帖子。关闭此项，改为软删除。
 ```
 
 #### [`fof-anti-spam.admin.settings.default-actions.delete_user_help`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/zh_Hans/?q=context%3A%3D%22fof-anti-spam.admin.settings.default-actions.delete_user_help%22)
@@ -2593,7 +4464,7 @@ Google <del>分析</del><ins>Analytics</ins>
 
 ```diff
 -启用此项，永久删除账号，否则停用帐号。
-+这将永久删除该用户。禁用后，该用户将改为被封禁。
++永久删除此用户。关闭此项，改为封禁用户。
 ```
 
 #### [`fof-anti-spam.admin.settings.default-actions.delete_user_label`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/zh_Hans/?q=context%3A%3D%22fof-anti-spam.admin.settings.default-actions.delete_user_label%22)
@@ -2611,7 +4482,7 @@ Google <del>分析</del><ins>Analytics</ins>
 
 ```diff
 -默认操作
-+默认审核操作
++默认处理操作
 ```
 
 #### [`fof-anti-spam.admin.settings.default-actions.introduction`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/zh_Hans/?q=context%3A%3D%22fof-anti-spam.admin.settings.default-actions.introduction%22)
@@ -2620,7 +4491,7 @@ Google <del>分析</del><ins>Analytics</ins>
 
 ```diff
 -当用户被标记为垃圾邮件发送者时，版主可以从各种操作中选择如何处理特定用例。这些设置允许您预设通常会采取的操作，以加快过程，但也允许根据需要进行更改。
-+当用户被标记为垃圾信息发送者时，版主可以从多种操作中选择处理方式。这些设置允许您预设常用操作以加快处理过程，同时也允许根据需要进行调整。
++标记垃圾用户时，管理人员可以根据实际情况选择不同的处理方式。提前配置好下方设置可以加快处理流程。
 ```
 
 #### [`fof-anti-spam.admin.settings.default-actions.move_discussions_to_tags_help`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/zh_Hans/?q=context%3A%3D%22fof-anti-spam.admin.settings.default-actions.move_discussions_to_tags_help%22)
@@ -2629,7 +4500,7 @@ Google <del>分析</del><ins>Analytics</ins>
 
 ```diff
 -移除帖子的所有标签，并统一移动到指定标签旗下，「删除主题贴」禁用时生效。如需保留原始标签，请清空下方标签配置。
-+这将把该用户发起的所有讨论移动到您指定的标签。清除标签选择可使讨论保留在原始标签中。如果启用了“删除讨论”选项，则此项无效。
++将此用户发起的所有讨论移动至指定标签。清空标签选择则保留讨论原有标签。启用「删除讨论」后，此设置不生效。
 ```
 
 #### [`fof-anti-spam.admin.settings.default-actions.move_discussions_to_tags_label`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/zh_Hans/?q=context%3A%3D%22fof-anti-spam.admin.settings.default-actions.move_discussions_to_tags_label%22)
@@ -2638,19 +4509,8 @@ Google <del>分析</del><ins>Analytics</ins>
 
 ```diff
 -归档标签
-+将讨论移动到标签
++移动讨论至标签
 ```
-
-#### [`fof-anti-spam.admin.settings.stopforumspam.api_key_instructions_text`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/zh_Hans/?q=context%3A%3D%22fof-anti-spam.admin.settings.stopforumspam.api_key_instructions_text%22)
-
-> &lt;register&gt;Sign up for StopForumSpam&lt;/register&gt;. Then you will need to &lt;key&gt;obtain an API key&lt;/key&gt;.
-
-```diff
--<register>注册 StopForumSpam</register>，并<key>获取 API 密钥</key>。
-+<register>注册 StopForumSpam 账号</register>。然后您需要<key>获取 API 密钥</key>。
-```
-
-&lt;register&gt;注册 <del>StopForumSpam&lt;/register&gt;，并&lt;key&gt;获取</del><ins>StopForumSpam 账号&lt;/register&gt;。然后您需要&lt;key&gt;获取</ins> API 密钥&lt;/key&gt;。
 
 #### [`fof-anti-spam.admin.settings.stopforumspam.api_key_text`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/zh_Hans/?q=context%3A%3D%22fof-anti-spam.admin.settings.stopforumspam.api_key_text%22)
 
@@ -2658,8 +4518,10 @@ Google <del>分析</del><ins>Analytics</ins>
 
 ```diff
 -向 StopForumSpam 共享垃圾账号信息，改善检测服务。
-+您可以选择将垃圾信息发送者报告给 StopForumSpam，以保持整个论坛社区免受垃圾信息干扰。
++向 StopForumSpam 共享垃圾用户信息，帮助其他论坛共同防范。
 ```
+
+向 StopForumSpam <del>共享垃圾账号信息，改善检测服务。</del><ins>共享垃圾用户信息，帮助其他论坛共同防范。</ins>
 
 #### [`fof-anti-spam.admin.settings.stopforumspam.confidence_help`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/zh_Hans/?q=context%3A%3D%22fof-anti-spam.admin.settings.stopforumspam.confidence_help%22)
 
@@ -2667,7 +4529,7 @@ Google <del>分析</del><ins>Analytics</ins>
 
 ```diff
 -百分比等级，根据检测数据生成。等于或高于这个数字时，禁止客户端注册账号。
-+置信度评分是判断被测字段是否会导致违规行为的一个相当好的指标。请以百分比形式设置您的置信度等级。如果该字段等于或高于此数值，注册将被阻止，无论上述“频率”测试结果如何。
++百分比指标，根据检测数据得出。达到或超过此值时，无论命中数是否达到，都会直接禁止注册。
 ```
 
 #### [`fof-anti-spam.admin.settings.stopforumspam.email_hash_help`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/zh_Hans/?q=context%3A%3D%22fof-anti-spam.admin.settings.stopforumspam.email_hash_help%22)
@@ -2676,10 +4538,10 @@ Google <del>分析</del><ins>Analytics</ins>
 
 ```diff
 -传递邮件地址的 MD5 值。
-+如果您不希望传递电子邮件地址本身，请传递其 MD5 哈希值。此方法会绕过所有黑名单、规范化和混淆绕过检查。
++开启后，查询 StopForumSpam 时只会发送邮箱地址的 MD5 哈希值，不会发送原始邮箱地址。但是会导致无法使用黑名单、地址规范化和混淆识别等检查，可能降低垃圾注册的识别效果。
 ```
 
-<del>传递邮件地址的</del><ins>如果您不希望传递电子邮件地址本身，请传递其</ins> MD5 <del>值。</del><ins>哈希值。此方法会绕过所有黑名单、规范化和混淆绕过检查。</ins>
+<del>传递邮件地址的</del><ins>开启后，查询 StopForumSpam 时只会发送邮箱地址的</ins> MD5 <del>值。</del><ins>哈希值，不会发送原始邮箱地址。但是会导致无法使用黑名单、地址规范化和混淆识别等检查，可能降低垃圾注册的识别效果。</ins>
 
 #### [`fof-anti-spam.admin.settings.stopforumspam.email_hash_label`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/zh_Hans/?q=context%3A%3D%22fof-anti-spam.admin.settings.stopforumspam.email_hash_label%22)
 
@@ -2687,7 +4549,7 @@ Google <del>分析</del><ins>Analytics</ins>
 
 ```diff
 -使用散列后的邮箱地址
-+使用哈希电子邮件地址
++哈希邮箱地址
 ```
 
 #### [`fof-anti-spam.admin.settings.stopforumspam.email_label`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/zh_Hans/?q=context%3A%3D%22fof-anti-spam.admin.settings.stopforumspam.email_label%22)
@@ -2696,7 +4558,7 @@ Google <del>分析</del><ins>Analytics</ins>
 
 ```diff
 -邮箱地址滥用检查
-+电子邮件垃圾检查
++检查邮箱
 ```
 
 #### [`fof-anti-spam.admin.settings.stopforumspam.frequency_help`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/zh_Hans/?q=context%3A%3D%22fof-anti-spam.admin.settings.stopforumspam.frequency_help%22)
@@ -2708,12 +4570,21 @@ Google <del>分析</del><ins>Analytics</ins>
 ```diff
 -所以已启用检查的触发次数。
 -例如：如果电子邮件有 1 次命中，而 IP 有 2 次命中，共记 3 次命中。如果阈值设置为 3 或更低，则阻止注册。
-+所有已启用检查项中的垃圾报告总数，达到此数量将触发垃圾过滤器。
-+例如：如果电子邮件有 1 次命中，IP 有 2 次命中，总计 3 次命中。如果阈值设置为 3 或更小，我们将阻止该注册。
++将已启用检查项的命中次数累加，达到此值时，将拦截注册。
++例如邮箱命中 1 次、IP 命中 2 次，合计 3 次。命中数设为 3 或更低时，此次注册将被拦截。
 
 ```
 
-<del>所以已启用检查的触发次数。</del><ins>所有已启用检查项中的垃圾报告总数，达到此数量将触发垃圾过滤器。</ins><br />例如：如果电子邮件有 1<del> 次命中，而</del> <del>IP</del><ins>次命中，IP</ins> 有 2 <del>次命中，共记</del><ins>次命中，总计</ins> 3 次命中。如果阈值设置为 3 <del>或更低，则阻止注册。</del><ins>或更小，我们将阻止该注册。</ins><br />
+<del>所以已启用检查的触发次数。</del><ins>将已启用检查项的命中次数累加，达到此值时，将拦截注册。</ins><br /><del>例如：如果电子邮件有</del><ins>例如邮箱命中</ins> 1<del> 次命中，而</del> <del>IP</del><ins>次、IP</ins> <del>有</del><ins>命中</ins> 2 <del>次命中，共记</del><ins>次，合计</ins> 3 <del>次命中。如果阈值设置为</del><ins>次。命中数设为</ins> 3 <del>或更低，则阻止注册。</del><ins>或更低时，此次注册将被拦截。</ins><br />
+
+#### [`fof-anti-spam.admin.settings.stopforumspam.frequency_label`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/zh_Hans/?q=context%3A%3D%22fof-anti-spam.admin.settings.stopforumspam.frequency_label%22)
+
+> Threshold
+
+```diff
+-阈值
++命中数
+```
 
 #### [`fof-anti-spam.admin.settings.stopforumspam.introduction`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/zh_Hans/?q=context%3A%3D%22fof-anti-spam.admin.settings.stopforumspam.introduction%22)
 
@@ -2724,14 +4595,14 @@ Google <del>分析</del><ins>Analytics</ins>
 
 ```diff
 -使用 <a>StopForumSpam</a> 检查服务，禁止<code>置信度</code>或<code>频率</code>不符合要求的客户端注册账号。
-+根据 <a>StopForumSpam</a> 数据库检查新用户注册。如果达到 <code>confidence</code>（置信度）或 <code>frequency</code>（频率）阈值，该用户将无法在您的论坛上完成注册。
++新用户注册时，通过 <a>StopForumSpam</a> 数据库检查填写的信息。当 <code>confidence</code> 或 <code>frequency</code> 达到设定阈值时，会阻止用户完成注册。
 
 -此检查涵盖 <code>fof/oauth</code> 和 <code>fof/passport</code> 的 SSO 注册渠道。其它 SSO 提供程序应该也受支持，但未经测试。
-+也支持通过 <code>fof/oauth</code> 和 <code>fof/passport</code> 进行的 SSO 注册。其他 SSO 提供商应该也可以工作，但尚未经过测试。
++同时支持检查 <code>fof/oauth</code> 和 <code>fof/passport</code> 进行的 SSO 注册。其他 SSO 服务理论上也支持，但未经测试。
 
 ```
 
-<del>使用</del><ins>根据</ins> &lt;a&gt;StopForumSpam&lt;/a&gt; <del>检查服务，禁止&lt;code&gt;置信度&lt;/code&gt;或&lt;code&gt;频率&lt;/code&gt;不符合要求的客户端注册账号。</del><ins>数据库检查新用户注册。如果达到 &lt;code&gt;confidence&lt;/code&gt;（置信度）或 &lt;code&gt;frequency&lt;/code&gt;（频率）阈值，该用户将无法在您的论坛上完成注册。</ins><br /><br /><del>此检查涵盖</del><ins>也支持通过</ins> &lt;code&gt;fof/oauth&lt;/code&gt; 和 &lt;code&gt;fof/passport&lt;/code&gt; <del>的</del><ins>进行的</ins> SSO <del>注册渠道。其它</del><ins>注册。其他</ins> SSO <del>提供程序应该也受支持，但未经测试。</del><ins>提供商应该也可以工作，但尚未经过测试。</ins><br />
+<del>使用</del><ins>新用户注册时，通过</ins> &lt;a&gt;StopForumSpam&lt;/a&gt; <del>检查服务，禁止&lt;code&gt;置信度&lt;/code&gt;或&lt;code&gt;频率&lt;/code&gt;不符合要求的客户端注册账号。</del><ins>数据库检查填写的信息。当 &lt;code&gt;confidence&lt;/code&gt; 或 &lt;code&gt;frequency&lt;/code&gt; 达到设定阈值时，会阻止用户完成注册。</ins><br /><br /><del>此检查涵盖</del><ins>同时支持检查</ins> &lt;code&gt;fof/oauth&lt;/code&gt; 和 &lt;code&gt;fof/passport&lt;/code&gt; <del>的</del><ins>进行的</ins> SSO <del>注册渠道。其它</del><ins>注册。其他</ins> SSO <del>提供程序应该也受支持，但未经测试。</del><ins>服务理论上也支持，但未经测试。</ins><br />
 
 #### [`fof-anti-spam.admin.settings.stopforumspam.ip_label`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/zh_Hans/?q=context%3A%3D%22fof-anti-spam.admin.settings.stopforumspam.ip_label%22)
 
@@ -2739,10 +4610,19 @@ Google <del>分析</del><ins>Analytics</ins>
 
 ```diff
 -IP 地址滥用检查
-+IP 地址垃圾检查
++检查 IP 地址
 ```
 
-IP <del>地址滥用检查</del><ins>地址垃圾检查</ins>
+<ins>检查 </ins>IP <del>地址滥用检查</del><ins>地址</ins>
+
+#### [`fof-anti-spam.admin.settings.stopforumspam.region_closest_label`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/zh_Hans/?q=context%3A%3D%22fof-anti-spam.admin.settings.stopforumspam.region_closest_label%22)
+
+> Closest
+
+```diff
+-最近
++最近区域
+```
 
 #### [`fof-anti-spam.admin.settings.stopforumspam.regional_endpoint_help`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/zh_Hans/?q=context%3A%3D%22fof-anti-spam.admin.settings.stopforumspam.regional_endpoint_help%22)
 
@@ -2750,7 +4630,7 @@ IP <del>地址滥用检查</del><ins>地址垃圾检查</ins>
 
 ```diff
 -默认情况下，我们会使用最近的服务器，以最快的速度检测数据。根据不同国家或地区的法律法规，你可能需要指定数据处理服务器。
-+默认情况下，我们将查询定向到最近的区域服务器以提供最快响应。如果您希望将流量限制在特定区域（例如为了符合公司或国家的隐私法规），您可以强制连接到特定区域。
++默认使用最近的服务器，以获得最佳检查速度。根据不同国家或地区的法律法规，你可能需要指定数据处理服务器。
 ```
 
 #### [`fof-anti-spam.admin.settings.stopforumspam.regional_endpoint_label`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/zh_Hans/?q=context%3A%3D%22fof-anti-spam.admin.settings.stopforumspam.regional_endpoint_label%22)
@@ -2759,7 +4639,7 @@ IP <del>地址滥用检查</del><ins>地址垃圾检查</ins>
 
 ```diff
 -地域
-+地理访问
++访问区域
 ```
 
 #### [`fof-anti-spam.admin.settings.stopforumspam.report_blocked_registrations_help`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/zh_Hans/?q=context%3A%3D%22fof-anti-spam.admin.settings.stopforumspam.report_blocked_registrations_help%22)
@@ -2768,10 +4648,10 @@ IP <del>地址滥用检查</del><ins>地址垃圾检查</ins>
 
 ```diff
 -「注册时检查」功能成功拦截注册时，向 StopForumSpam 报告检测数据，用于进一步校验。此功能需要配置 StopForumSpam API 密钥。
-+当注册被“查询注册信息”功能拦截时，我们将向 StopForumSpam 报告此次尝试，以便更好地确认垃圾行为。需要设置 StopForumSpam API 密钥（见下文）。
++开启后，被「检查新用户注册」拦截的注册会自动上报至 StopForumSpam，帮助完善恶意行为识别。使用此功能前，请先配置 StopForumSpam API 密钥（见下方）。
 ```
 
-<del>「注册时检查」功能成功拦截注册时，向</del><ins>当注册被“查询注册信息”功能拦截时，我们将向</ins> StopForumSpam <del>报告检测数据，用于进一步校验。此功能需要配置</del><ins>报告此次尝试，以便更好地确认垃圾行为。需要设置</ins> StopForumSpam API <del>密钥。</del><ins>密钥（见下文）。</ins>
+<del>「注册时检查」功能成功拦截注册时，向 StopForumSpam</del><ins>开启后，被「检查新用户注册」拦截的注册会自动上报至</ins> <del>报告检测数据，用于进一步校验。此功能需要配置</del><ins>StopForumSpam，帮助完善恶意行为识别。使用此功能前，请先配置</ins> StopForumSpam API <del>密钥。</del><ins>密钥（见下方）。</ins>
 
 #### [`fof-anti-spam.admin.settings.stopforumspam.report_blocked_registrations_label`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/zh_Hans/?q=context%3A%3D%22fof-anti-spam.admin.settings.stopforumspam.report_blocked_registrations_label%22)
 
@@ -2779,7 +4659,7 @@ IP <del>地址滥用检查</del><ins>地址垃圾检查</ins>
 
 ```diff
 -报告拦截信息
-+报告被拦截的注册
++共享拦截信息
 ```
 
 #### [`fof-anti-spam.admin.settings.stopforumspam.sfs_lookup_help`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/zh_Hans/?q=context%3A%3D%22fof-anti-spam.admin.settings.stopforumspam.sfs_lookup_help%22)
@@ -2788,10 +4668,10 @@ IP <del>地址滥用检查</del><ins>地址垃圾检查</ins>
 
 ```diff
 -用户注册时，使用 StopForumSpam 服务检查。如果存在注册信息（用户名、IP 地址、电子邮件），且 SFS 置信度不符上面配置的等级，则阻止完成注册。
-+如果启用，当新用户在您的论坛注册时，我们将检查 StopForumSpam 数据库。如果找到了该用户（用户名、IP 地址、电子邮件）且该数据点已启用，且 SFS 置信度达到您定义的水平，他们将无法完成注册。
++用户注册时，使用 StopForumSpam 服务检查注册信息和置信度，若命中数和置信度满足设置的条件，则禁止注册。
 ```
 
-<del>用户注册时，使用</del><ins>如果启用，当新用户在您的论坛注册时，我们将检查</ins> StopForumSpam <del>服务检查。如果存在注册信息（用户名、IP</del><ins>数据库。如果找到了该用户（用户名、IP</ins> <del>地址、电子邮件），且</del><ins>地址、电子邮件）且该数据点已启用，且</ins> SFS <del>置信度不符上面配置的等级，则阻止完成注册。</del><ins>置信度达到您定义的水平，他们将无法完成注册。</ins>
+用户注册时，使用 StopForumSpam <del>服务检查。如果存在注册信息（用户名、IP 地址、电子邮件），且 SFS 置信度不符上面配置的等级，则阻止完成注册。</del><ins>服务检查注册信息和置信度，若命中数和置信度满足设置的条件，则禁止注册。</ins>
 
 #### [`fof-anti-spam.admin.settings.stopforumspam.sfs_lookup_label`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/zh_Hans/?q=context%3A%3D%22fof-anti-spam.admin.settings.stopforumspam.sfs_lookup_label%22)
 
@@ -2799,7 +4679,7 @@ IP <del>地址滥用检查</del><ins>地址垃圾检查</ins>
 
 ```diff
 -注册时检查
-+查询注册信息
++检查新用户注册
 ```
 
 #### [`fof-anti-spam.admin.settings.stopforumspam.username_label`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/zh_Hans/?q=context%3A%3D%22fof-anti-spam.admin.settings.stopforumspam.username_label%22)
@@ -2808,7 +4688,7 @@ IP <del>地址滥用检查</del><ins>地址垃圾检查</ins>
 
 ```diff
 -用户名滥用检查
-+用户名垃圾检查
++检查用户名
 ```
 
 #### [`fof-anti-spam.forum.message.stopforumspam.blocked`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/zh_Hans/?q=context%3A%3D%22fof-anti-spam.forum.message.stopforumspam.blocked%22)
@@ -2817,7 +4697,7 @@ IP <del>地址滥用检查</del><ins>地址垃圾检查</ins>
 
 ```diff
 -不安全的注册信息，无法完成注册。
-+您的注册信息已在垃圾信息防控数据库中被发现，因此您的注册已被拦截。
++网络环境异常。
 ```
 
 #### [`fof-anti-spam.forum.spammer_modal.hard_delete_discussions_help`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/zh_Hans/?q=context%3A%3D%22fof-anti-spam.forum.spammer_modal.hard_delete_discussions_help%22)
@@ -2826,7 +4706,7 @@ IP <del>地址滥用检查</del><ins>地址垃圾检查</ins>
 
 ```diff
 -启用此项，永久删除主题帖，否则隐藏主题帖。
-+这将永久删除该用户发起的所有讨论。禁用后，讨论将被隐藏。
++永久删除此用户发起的所有讨论。关闭此项，改为隐藏。
 ```
 
 #### [`fof-anti-spam.forum.spammer_modal.hard_delete_discussions_label`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/zh_Hans/?q=context%3A%3D%22fof-anti-spam.forum.spammer_modal.hard_delete_discussions_label%22)
@@ -2844,7 +4724,7 @@ IP <del>地址滥用检查</del><ins>地址垃圾检查</ins>
 
 ```diff
 -启用此项，永久删除帖子（评论和回复等），否则隐藏帖子。
-+这将永久删除该用户发表的所有内容（评论、回复等）。禁用后，内容将被隐藏。
++永久删除此用户发布的所有帖子（包括回复等）。关闭此项，改为隐藏。
 ```
 
 #### [`fof-anti-spam.forum.spammer_modal.hard_delete_user_help`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/zh_Hans/?q=context%3A%3D%22fof-anti-spam.forum.spammer_modal.hard_delete_user_help%22)
@@ -2853,7 +4733,7 @@ IP <del>地址滥用检查</del><ins>地址垃圾检查</ins>
 
 ```diff
 -启用此项，永久删除账号，否则停用帐号。
-+这将永久删除该用户。禁用后，用户将被封禁。
++永久删除此用户。关闭此项，改为封禁。
 ```
 
 #### [`fof-anti-spam.forum.spammer_modal.intro`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/zh_Hans/?q=context%3A%3D%22fof-anti-spam.forum.spammer_modal.intro%22)
@@ -2862,7 +4742,7 @@ IP <del>地址滥用检查</del><ins>地址垃圾检查</ins>
 
 ```diff
 -标记垃圾账号时，会根据已启用的扩展采取多个处置方式。
-+将用户标记为垃圾广告发布者时，将根据您论坛中可用的扩展程序采取多项操作。
++将用户标记为垃圾用户时，系统会根据论坛已安装的扩展执行以下操作。
 ```
 
 #### [`fof-anti-spam.forum.spammer_modal.move_discussions_tag_help`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/zh_Hans/?q=context%3A%3D%22fof-anti-spam.forum.spammer_modal.move_discussions_tag_help%22)
@@ -2871,7 +4751,7 @@ IP <del>地址滥用检查</del><ins>地址垃圾检查</ins>
 
 ```diff
 -移除主题帖的所有标签，并统一移动到指定标签旗下。如需保留原始标签，请清空标签配置。
-+这将把该用户发起的所有讨论移动到您在论坛设置中指定的标签。禁用后，讨论将保留在当前标签中。
++将此用户发起的所有讨论移动至指定的标签，并清除原标签。关闭此项，保留原标签。
 ```
 
 #### [`fof-anti-spam.forum.spammer_modal.move_discussions_tag_label`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/zh_Hans/?q=context%3A%3D%22fof-anti-spam.forum.spammer_modal.move_discussions_tag_label%22)
@@ -2880,7 +4760,7 @@ IP <del>地址滥用检查</del><ins>地址垃圾检查</ins>
 
 ```diff
 -隔离主题帖
-+将讨论移动到隔离标签
++移动讨论至隔离标签
 ```
 
 #### [`fof-anti-spam.forum.spammer_modal.process_button`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/zh_Hans/?q=context%3A%3D%22fof-anti-spam.forum.spammer_modal.process_button%22)
@@ -2898,10 +4778,8 @@ IP <del>地址滥用检查</del><ins>地址垃圾检查</ins>
 
 ```diff
 -向 StopForumSpam 共享垃圾账号基本信息（用户名、电子邮件、IP 地址），扩充垃圾账号数据库。
-+这将向 StopForumSpam 举报该用户的基本信息（用户名、邮箱、IP 地址）。这将有助于防止该用户在其他使用 StopForumSpam 服务的论坛上注册。
++将此用户的用户名、邮箱和 IP 地址上报至 StopForumSpam，帮助其他使用 StopForumSpam 的论坛识别并拦截该用户。
 ```
-
-<del>向</del><ins>这将向</ins> StopForumSpam <del>共享垃圾账号基本信息（用户名、电子邮件、IP</del><ins>举报该用户的基本信息（用户名、邮箱、IP</ins> <del>地址），扩充垃圾账号数据库。</del><ins>地址）。这将有助于防止该用户在其他使用 StopForumSpam 服务的论坛上注册。</ins>
 
 #### [`fof-anti-spam.forum.spammer_modal.report_to_sfs_label`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/zh_Hans/?q=context%3A%3D%22fof-anti-spam.forum.spammer_modal.report_to_sfs_label%22)
 
@@ -2909,10 +4787,10 @@ IP <del>地址滥用检查</del><ins>地址垃圾检查</ins>
 
 ```diff
 -报告到 StopForumSpam
-+举报至 StopForumSpam
++上报至 StopForumSpam
 ```
 
-<del>报告到</del><ins>举报至</ins> StopForumSpam
+<del>报告到</del><ins>上报至</ins> StopForumSpam
 
 #### [`fof-anti-spam.forum.spammer_modal.title`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/zh_Hans/?q=context%3A%3D%22fof-anti-spam.forum.spammer_modal.title%22)
 
@@ -2920,10 +4798,10 @@ IP <del>地址滥用检查</del><ins>地址垃圾检查</ins>
 
 ```diff
 -标记垃圾账号 {username}
-+将 {username} 标记为垃圾广告发布者
++将 {username} 标记为垃圾用户
 ```
 
-<del>标记垃圾账号</del><ins>将</ins> {username}<ins> 标记为垃圾广告发布者</ins>
+<del>标记垃圾账号</del><ins>将</ins> {username}<ins> 标记为垃圾用户</ins>
 
 #### [`fof-anti-spam.forum.user_controls.spammer_button`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/zh_Hans/?q=context%3A%3D%22fof-anti-spam.forum.user_controls.spammer_button%22)
 
@@ -2931,11 +4809,419 @@ IP <del>地址滥用检查</del><ins>地址垃圾检查</ins>
 
 ```diff
 -垃圾账号
-+垃圾广告发布者
++垃圾用户
 ```
 
 
 ### `fof-badges`
+
+#### [`fof-badges.admin.actions`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.actions%22)
+
+> Actions on Badge Earned
+
+```diff
+-获得后执行动作
++获得徽章后执行
+```
+
+#### [`fof-badges.admin.add_to_group`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.add_to_group%22)
+
+> Add user to group
+
+```diff
+-添加至用户组
++加入用户组
+```
+
+#### [`fof-badges.admin.add_to_group_help`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.add_to_group_help%22)
+
+> Automatically add the user to this group when they earn the badge.
+
+```diff
+-当用户获得此勋章时，自动将其添加到指定用户组。
++用户获得此徽章时，自动将其加入指定用户组。
+```
+
+#### [`fof-badges.admin.appearance`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.appearance%22)
+
+> Appearance
+
+```diff
+-外观设计
++外观
+```
+
+#### [`fof-badges.admin.assign_badge`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.assign_badge%22)
+
+> Assign: {badge}
+
+```diff
+-授予：{badge}
++授予徽章：{badge}
+```
+
+#### [`fof-badges.admin.assign_reason`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.assign_reason%22)
+
+> Reason (optional)
+
+```diff
+-授予理由（可选）
++授予原因（可选）
+```
+
+#### [`fof-badges.admin.assign_reason_help`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.assign_reason_help%22)
+
+> This reason will be visible on the user's badge.
+
+```diff
+-此理由将显示在该用户的勋章详情中。
++授予原因会显示在用户的徽章信息中。
+```
+
+#### [`fof-badges.admin.assign_reason_placeholder`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.assign_reason_placeholder%22)
+
+> Why is this badge being awarded?
+
+```diff
+-为什么要授予此勋章？
++为什么授予这个徽章？
+```
+
+#### [`fof-badges.admin.badge_assigned`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.badge_assigned%22)
+
+> Badge "{badge}" assigned to {username}!
+
+```diff
+-成功将勋章“{badge}”授予 {username}！
++已向 {username} 授予「{badge}」！
+```
+
+#### [`fof-badges.admin.badge_count`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.badge_count%22)
+
+> {count, plural, one {# badge} other {# badges}}
+
+```diff
+-{count, plural, one {# 个勋章} other {# 个勋章}}
++{count, plural, one {# 枚徽章} other {# 枚徽章}}
+```
+
+{count, plural, one {# <del>个勋章}</del><ins>枚徽章}</ins> other {# <del>个勋章}}</del><ins>枚徽章}}</ins>
+
+#### [`fof-badges.admin.badge_description_placeholder`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.badge_description_placeholder%22)
+
+> Describe how to earn this badge...
+
+```diff
+-简述如何获得此勋章...
++介绍如何获得这个徽章…
+```
+
+#### [`fof-badges.admin.badge_name_placeholder`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.badge_name_placeholder%22)
+
+> e.g., "100 Posts Master"
+
+```diff
+-例如：“水贴达人”
++例如：发帖狂魔
+```
+
+#### [`fof-badges.admin.badge_revoked`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.badge_revoked%22)
+
+> Badge "{badge}" has been revoked from {username}.
+
+```diff
+-已撤销 {username} 的“{badge}”勋章。
++已收回 {username} 的「{badge}」徽章。
+```
+
+<del>已撤销</del><ins>已收回</ins> {username} <del>的“{badge}”勋章。</del><ins>的「{badge}」徽章。</ins>
+
+#### [`fof-badges.admin.badge_slug`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.badge_slug%22)
+
+> Slug
+
+```diff
+-URL 别名
++固定链接名
+```
+
+#### [`fof-badges.admin.badge_slug_help`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.badge_slug_help%22)
+
+> URL-friendly identifier. Auto-generated from name if left empty.
+
+```diff
+-URL 友好的唯一标识符。留空则根据名称自动生成。
++用于 URL 的标识，留空时会根据名称自动生成。
+```
+
+<ins>用于 </ins>URL <del>友好的唯一标识符。留空则根据名称自动生成。</del><ins>的标识，留空时会根据名称自动生成。</ins>
+
+#### [`fof-badges.admin.badge_slug_placeholder`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.badge_slug_placeholder%22)
+
+> e.g., "100-posts-master"
+
+```diff
+-例如：posting-master
++例如：100-posts-master
+```
+
+#### [`fof-badges.admin.cancel`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.cancel%22)
+
+> Cancel
+
+```diff
+-放弃
++取消
+```
+
+#### [`fof-badges.admin.category_description_placeholder`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.category_description_placeholder%22)
+
+> Describe this category of badges...
+
+```diff
+-描述此分类下的勋章...
++介绍这一类徽章…
+```
+
+#### [`fof-badges.admin.category_enabled_help`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.category_enabled_help%22)
+
+> Disabled categories and their badges won't appear in the badge list.
+
+```diff
+-未启用的分类及其勋章将不会显示在勋章列表中。
++禁用后，此分类及其徽章都不会出现在徽章列表中。
+```
+
+#### [`fof-badges.admin.category_name_placeholder`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.category_name_placeholder%22)
+
+> e.g., "Achievement Badges"
+
+```diff
+-例如：“成就勋章”
++例如：成就徽章
+```
+
+#### [`fof-badges.admin.category_slug`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.category_slug%22)
+
+> Slug
+
+```diff
+-URL 别名
++固定链接名
+```
+
+#### [`fof-badges.admin.category_slug_help`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.category_slug_help%22)
+
+> URL-friendly identifier for the category.
+
+```diff
+-URL 友好的分类标识符。
++用于分类 URL 的标识。
+```
+
+<ins>用于分类 </ins>URL <del>友好的分类标识符。</del><ins>的标识。</ins>
+
+#### [`fof-badges.admin.clear_selection`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.clear_selection%22)
+
+> Clear selection
+
+```diff
+-清除
++清除选择
+```
+
+#### [`fof-badges.admin.create_badge`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.create_badge%22)
+
+> Create Badge
+
+```diff
+-新建勋章
++创建徽章
+```
+
+#### [`fof-badges.admin.create_category`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.create_category%22)
+
+> Create Category
+
+```diff
+-新建分类
++创建分类
+```
+
+#### [`fof-badges.admin.delete_badge_confirm`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.delete_badge_confirm%22)
+
+> Are you sure you want to delete the badge "{name}"? This will also remove it from all users who have earned it.
+
+```diff
+-确定要删除勋章“{name}”吗？所有已获得该勋章的用户也将失去它。
++确定要删除徽章「{name}」吗？所有已经获得此徽章的用户也会失去该徽章。
+```
+
+#### [`fof-badges.admin.delete_category_confirm`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.delete_category_confirm%22)
+
+> Are you sure you want to delete the category "{name}"?
+
+```diff
+-确定要删除分类“{name}”吗？
++确定要删除分类「{name}」吗？
+```
+
+#### [`fof-badges.admin.delete_category_confirm_with_badges`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.delete_category_confirm_with_badges%22)
+
+> Are you sure you want to delete the category "{name}"? {count, plural, one {# badge} other {# badges}} will become uncategorized.
+
+```diff
+-确定要删除分类“{name}”吗？该分类下的 {count, plural, one {# 个勋章} other {# 个勋章}} 将变为未分类状态。
++确定要删除分类「{name}」吗？其中 {count, plural, one {# 枚徽章} other {# 枚徽章}} 将归入未分类。
+```
+
+<del>确定要删除分类“{name}”吗？该分类下的</del><ins>确定要删除分类「{name}」吗？其中</ins> {count, plural, one {# <del>个勋章}</del><ins>枚徽章}</ins> other {# <del>个勋章}}</del><ins>枚徽章}}</ins> <del>将变为未分类状态。</del><ins>将归入未分类。</ins>
+
+#### [`fof-badges.admin.disabled`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.disabled%22)
+
+> Disabled
+
+```diff
+-已禁用
++禁用
+```
+
+#### [`fof-badges.admin.earned_count`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.earned_count%22)
+
+> {count} earned
+
+```diff
+-{count} 人持有
++{count} 人已获得
+```
+
+{count} <del>人持有</del><ins>人已获得</ins>
+
+#### [`fof-badges.admin.edit_badge`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.edit_badge%22)
+
+> Edit Badge
+
+```diff
+-编辑勋章
++编辑徽章
+```
+
+#### [`fof-badges.admin.enabled`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.enabled%22)
+
+> Enabled
+
+```diff
+-已启用
++启用
+```
+
+#### [`fof-badges.admin.granted_by_system`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.granted_by_system%22)
+
+> System
+
+```diff
+-系统自动
++系统
+```
+
+#### [`fof-badges.admin.headers.badges`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.headers.badges%22)
+
+> Badges
+
+```diff
+-勋章列表
++徽章
+```
+
+#### [`fof-badges.admin.headers.earned`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.headers.earned%22)
+
+> Earned
+
+```diff
+-持有数
++获得人数
+```
+
+#### [`fof-badges.admin.icon_picker.hint`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.icon_picker.hint%22)
+
+> Click an icon to select, or type a Font Awesome class name above.
+
+```diff
+-点击图标进行选择，或直接输入 Font Awesome 类名。
++点击图标选择，也可以直接在上方输入 FontAwesome 图标类名。
+```
+
+#### [`fof-badges.admin.install_defaults`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.install_defaults%22)
+
+> Install Default Badges
+
+```diff
+-导入预设勋章
++安装默认徽章
+```
+
+#### [`fof-badges.admin.install_defaults_error`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.install_defaults_error%22)
+
+> Failed to install default badges.
+
+```diff
+-导入失败。
++默认徽章安装失败。
+```
+
+#### [`fof-badges.admin.install_defaults_success`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.install_defaults_success%22)
+
+> Default badges installed successfully!
+
+```diff
+-预设勋章导入成功！
++默认徽章安装成功！
+```
+
+#### [`fof-badges.admin.is_active`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.is_active%22)
+
+> Active
+
+```diff
+-启用此勋章
++启用
+```
+
+#### [`fof-badges.admin.is_active_help`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.is_active_help%22)
+
+> Inactive badges won't be automatically awarded to users.
+
+```diff
+-未启用的勋章不会自动授予用户，也无法被手动授予。
++停用后，此徽章不会再自动授予。
+```
+
+#### [`fof-badges.admin.is_visible`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.is_visible%22)
+
+> Visible in badge list
+
+```diff
+-在列表中显示
++在徽章列表中显示
+```
+
+#### [`fof-badges.admin.is_visible_help`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.is_visible_help%22)
+
+> Hidden badges won't appear in the public badge list but users can still earn them.
+
+```diff
+-如果关闭，该勋章将不会显示在“所有勋章”列表中，但用户获得后仍可见。
++隐藏后不会出现在公开徽章列表中，但不影响用户通过其他渠道获得。
+```
+
+#### [`fof-badges.admin.metrics.best_answers_received`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.metrics.best_answers_received%22)
+
+> Best Answers Received
+
+```diff
+-获得最佳答案数
++最佳答案数
+```
 
 #### [`fof-badges.admin.metrics.discussion_count`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.metrics.discussion_count%22)
 
@@ -2946,8 +5232,1841 @@ IP <del>地址滥用检查</del><ins>地址垃圾检查</ins>
 +发起讨论数
 ```
 
+#### [`fof-badges.admin.metrics.downvotes_given`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.metrics.downvotes_given%22)
+
+> Downvotes Given
+
+```diff
+-投出反对
++投出反对票数
+```
+
+#### [`fof-badges.admin.metrics.downvotes_received`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.metrics.downvotes_received%22)
+
+> Downvotes Received
+
+```diff
+-收到反对
++收到反对票数
+```
+
+#### [`fof-badges.admin.metrics.edit_count`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.metrics.edit_count%22)
+
+> Posts Edited
+
+```diff
+-编辑帖子次数
++编辑帖子数
+```
+
+#### [`fof-badges.admin.metrics.has_avatar`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.metrics.has_avatar%22)
+
+> Has Avatar
+
+```diff
+-已上传头像
++已设置头像
+```
+
+#### [`fof-badges.admin.metrics.member_days`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.metrics.member_days%22)
+
+> Days as Member
+
+```diff
+-加入天数
++注册天数
+```
+
+#### [`fof-badges.admin.metrics.post_count`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.metrics.post_count%22)
+
+> Post Count
+
+```diff
+-总发帖数
++发帖数
+```
+
+#### [`fof-badges.admin.metrics.reactions_given`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.metrics.reactions_given%22)
+
+> Reactions Given
+
+```diff
+-做出回应数
++参与互动数
+```
+
+#### [`fof-badges.admin.metrics.reactions_received`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.metrics.reactions_received%22)
+
+> Reactions Received
+
+```diff
+-收到回应数
++收到互动数
+```
+
+#### [`fof-badges.admin.metrics.tag_posts`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.metrics.tag_posts%22)
+
+> Posts in Tag
+
+```diff
+-特定标签发帖数
++指定标签内发帖数
+```
+
+#### [`fof-badges.admin.metrics.upvotes_given`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.metrics.upvotes_given%22)
+
+> Upvotes Given
+
+```diff
+-投出点赞
++投出赞成票数
+```
+
+#### [`fof-badges.admin.metrics.upvotes_received`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.metrics.upvotes_received%22)
+
+> Upvotes Received
+
+```diff
+-收到点赞
++收到赞成票数
+```
+
+#### [`fof-badges.admin.no_badges`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.no_badges%22)
+
+> No badges yet. Create your first badge!
+
+```diff
+-暂无勋章。快去创建你的第一个勋章吧！
++还没有徽章，先创建一个吧！
+```
+
+#### [`fof-badges.admin.no_categories`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.no_categories%22)
+
+> No categories yet. Create your first category!
+
+```diff
+-暂无分类。快去创建你的第一个分类吧！
++还没有分类，先创建一个吧！
+```
+
+#### [`fof-badges.admin.no_group`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.no_group%22)
+
+> Don't add to group
+
+```diff
+-无用户组变更
++不加入用户组
+```
+
+#### [`fof-badges.admin.no_holders`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.no_holders%22)
+
+> No one has earned this badge yet.
+
+```diff
+-暂无人获得此勋章。
++还没有人获得这个徽章。
+```
+
+#### [`fof-badges.admin.no_holders_found`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.no_holders_found%22)
+
+> No holders found matching your search.
+
+```diff
+-未找到符合条件的用户。
++没有找到符合条件的获得者。
+```
+
+#### [`fof-badges.admin.permissions.give_manually`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.permissions.give_manually%22)
+
+> Manually assign badges
+
+```diff
+-手动授予勋章
++手动授予徽章
+```
+
+#### [`fof-badges.admin.permissions.moderate`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.permissions.moderate%22)
+
+> Manage badges
+
+```diff
+-管理勋章
++管理徽章
+```
+
+#### [`fof-badges.admin.permissions.view_list`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.permissions.view_list%22)
+
+> View badge list
+
+```diff
+-查看勋章列表
++查看徽章列表
+```
+
+#### [`fof-badges.admin.permissions.view_user_badges`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.permissions.view_user_badges%22)
+
+> View user badges
+
+```diff
+-查看用户勋章
++查看用户徽章
+```
+
+#### [`fof-badges.admin.recalculate`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.recalculate%22)
+
+> Recalculate
+
+```diff
+-立即重算
++重新评定
+```
+
+#### [`fof-badges.admin.recalculate_confirm`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.recalculate_confirm%22)
+
+> This will recalculate all automatic badges for all users. The process will run in the background. Continue?
+
+```diff
+-此操作将重新计算所有用户的自动分配勋章，过程将在后台运行。是否继续？
++将根据当前规则重新评定所有自动徽章，并相应授予或收回徽章。任务会在后台执行。确定要继续吗？
+```
+
+#### [`fof-badges.admin.recalculate_error`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.recalculate_error%22)
+
+> Failed to recalculate badges. Please try again.
+
+```diff
+-重算失败，请重试。
++徽章重新评定失败，请重试。
+```
+
+#### [`fof-badges.admin.recalculate_success`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.recalculate_success%22)
+
+> Recalculation complete! Awarded: {awarded}, Revoked: {revoked}, Users processed: {users}
+
+```diff
+-重算完成！授予：{awarded}，撤销：{revoked}，已处理用户：{users}
++重新评定完成！共处理 {users} 名用户，授予 {awarded} 枚徽章，收回 {revoked} 枚徽章。
+```
+
+#### [`fof-badges.admin.recalculate_tab.all_badges`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.recalculate_tab.all_badges%22)
+
+> All automatic badges
+
+```diff
+-所有自动勋章
++全部自动徽章
+```
+
+#### [`fof-badges.admin.recalculate_tab.badge_help`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.recalculate_tab.badge_help%22)
+
+> Select a specific badge or recalculate all automatic badges.
+
+```diff
+-选择特定勋章进行重算，或选择全部自动勋章。
++选择指定徽章，或重新评定全部自动徽章。
+```
+
+#### [`fof-badges.admin.recalculate_tab.badge_label`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.recalculate_tab.badge_label%22)
+
+> Badge to recalculate
+
+```diff
+-需要重算的勋章
++重新评定徽章
+```
+
+#### [`fof-badges.admin.recalculate_tab.badges_to_check`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.recalculate_tab.badges_to_check%22)
+
+> Badges to check
+
+```diff
+-待检勋章
++待检查徽章
+```
+
+#### [`fof-badges.admin.recalculate_tab.chunk_size_help`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.recalculate_tab.chunk_size_help%22)
+
+> Number of users to process per job. Smaller chunks are more reliable but take longer overall.
+
+```diff
+-每个任务处理的用户数量。较小的批次更稳定，但总耗时更长。
++分批处理时，每个后台任务处理的用户数量。数量越小越稳定，但整体耗时也越长。
+```
+
+#### [`fof-badges.admin.recalculate_tab.chunk_size_label`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.recalculate_tab.chunk_size_label%22)
+
+> Chunk size
+
+```diff
+-批次大小
++每批用户数
+```
+
+#### [`fof-badges.admin.recalculate_tab.estimated_chunks`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.recalculate_tab.estimated_chunks%22)
+
+> Estimated chunks
+
+```diff
+-预计批次
++预计批处理次数
+```
+
+#### [`fof-badges.admin.recalculate_tab.info`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.recalculate_tab.info%22)
+
+> Recalculation processes users in chunks to avoid queue timeouts. Each chunk runs as a separate background job.
+
+```diff
+-重算过程将分批处理以防止超时。每一批次将作为一个独立的后台任务运行。
++系统会分批处理用户，每批单独进入后台队列，避免任务超时。
+```
+
+#### [`fof-badges.admin.recalculate_tab.jobs_empty`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.recalculate_tab.jobs_empty%22)
+
+> No recalculation jobs yet.
+
+```diff
+-暂无历史任务。
++暂无重新评定任务。
+```
+
+#### [`fof-badges.admin.recalculate_tab.jobs_title`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.recalculate_tab.jobs_title%22)
+
+> Job History
+
+```diff
+-任务历史
++任务记录
+```
+
+#### [`fof-badges.admin.recalculate_tab.no_automatic_badges`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.recalculate_tab.no_automatic_badges%22)
+
+> No automatic badges configured. Create a badge with trigger conditions first.
+
+```diff
+-暂无自动勋章。请先创建一个带有触发条件的勋章。
++尚未配置自动徽章，请先创建徽章并设置自动授予条件。
+```
+
+#### [`fof-badges.admin.recalculate_tab.no_revoke_help`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.recalculate_tab.no_revoke_help%22)
+
+> If enabled, users who no longer meet the criteria will keep their badges.
+
+```diff
+-启用后，即使用户不再满足条件，也不会撤销已获得的勋章。
++开启后，即使用户不再满足条件，也不会收回已经获得的徽章。
+```
+
+#### [`fof-badges.admin.recalculate_tab.no_revoke_label`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.recalculate_tab.no_revoke_label%22)
+
+> Don't revoke existing badges
+
+```diff
+-保留现有勋章（不撤销）
++保留现有徽章
+```
+
+#### [`fof-badges.admin.recalculate_tab.reapply_actions_help`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.recalculate_tab.reapply_actions_help%22)
+
+> If enabled, badge actions (like adding to a group) will be re-applied to users who already have the badge. Useful when you've added new actions to an existing badge.
+
+```diff
+-启用后，即使是已拥有该勋章的用户，也会再次触发“获得后动作”（如添加到用户组）。适用于为现有勋章追加新动作的场景。
++开启后，会为已经拥有徽章的用户重新执行相关操作，例如加入用户组。适合为已有徽章新增操作后使用。
+```
+
+#### [`fof-badges.admin.recalculate_tab.reapply_actions_label`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.recalculate_tab.reapply_actions_label%22)
+
+> Re-apply actions to existing badge holders
+
+```diff
+-重新执行授予动作
++重新执行徽章操作
+```
+
+#### [`fof-badges.admin.recalculate_tab.show_more`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.recalculate_tab.show_more%22)
+
+> Show {count} more
+
+```diff
+-加载更多 ({count})
++再显示 {count} 条
+```
+
+#### [`fof-badges.admin.recalculate_tab.start`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.recalculate_tab.start%22)
+
+> Start Recalculation
+
+```diff
+-开始重算
++开始重新评定
+```
+
+#### [`fof-badges.admin.recalculate_tab.sync_counts`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.recalculate_tab.sync_counts%22)
+
+> Sync Badge Counts
+
+```diff
+-开始同步
++重新统计获得人数
+```
+
+#### [`fof-badges.admin.recalculate_tab.sync_counts_error`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.recalculate_tab.sync_counts_error%22)
+
+> Failed to sync badge counts.
+
+```diff
+-同步失败。
++重新统计获得人数失败。
+```
+
+#### [`fof-badges.admin.recalculate_tab.sync_counts_info`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.recalculate_tab.sync_counts_info%22)
+
+> Recalculate the "earned count" for all badges based on actual user\_badges records. Use this if counts become incorrect after recalculation.
+
+```diff
+-根据数据库实际记录，重新统计所有勋章的“持有数”。如果发现显示的获得人数不正确，请使用此功能。
++根据徽章记录重新统计每枚徽章的获得人数。重新评定后数量异常时可以使用此功能校正。
+```
+
+#### [`fof-badges.admin.recalculate_tab.sync_counts_success`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.recalculate_tab.sync_counts_success%22)
+
+> Badge counts synced! {corrected} of {total} badges were corrected.
+
+```diff
+-同步完成！在 {total} 个勋章中修正了 {corrected} 个计数错误。
++获得人数已重新统计，共修正 {corrected} / {total} 枚徽章。
+```
+
+#### [`fof-badges.admin.recalculate_tab.sync_counts_title`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.recalculate_tab.sync_counts_title%22)
+
+> Sync Badge Counts
+
+```diff
+-同步勋章数量
++重新统计获得人数
+```
+
+#### [`fof-badges.admin.recalculate_tab.title`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.recalculate_tab.title%22)
+
+> Start Recalculation
+
+```diff
+-发起重算任务
++开始重新评定
+```
+
+#### [`fof-badges.admin.recalculation.already_running`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.recalculation.already_running%22)
+
+> A badge recalculation is already in progress.
+
+```diff
+-已有重算任务正在进行中。
++已有重新评定任务正在运行。
+```
+
+#### [`fof-badges.admin.recalculation.auto_refresh_off`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.recalculation.auto_refresh_off%22)
+
+> Auto-refresh
+
+```diff
+-自动刷新：关
++开启自动刷新
+```
+
+#### [`fof-badges.admin.recalculation.auto_refresh_on`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.recalculation.auto_refresh_on%22)
+
+> Auto-refresh is on
+
+```diff
+-自动刷新：开
++自动刷新已开启
+```
+
+#### [`fof-badges.admin.recalculation.cancel`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.recalculation.cancel%22)
+
+> Cancel
+
+```diff
+-取消任务
++取消
+```
+
+#### [`fof-badges.admin.recalculation.cancel_confirm`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.recalculation.cancel_confirm%22)
+
+> Are you sure you want to cancel the recalculation? Progress will be lost.
+
+```diff
+-确定要取消重算吗？当前进度将丢失。
++确定要取消重新评定吗？当前进度将会丢失。
+```
+
+#### [`fof-badges.admin.recalculation.cancel_error`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.recalculation.cancel_error%22)
+
+> Failed to cancel recalculation.
+
+```diff
+-取消任务失败。
++取消重新评定失败。
+```
+
+#### [`fof-badges.admin.recalculation.cancelled`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.recalculation.cancelled%22)
+
+> Recalculation cancelled
+
+```diff
+-已取消
++重新评定已取消
+```
+
+#### [`fof-badges.admin.recalculation.completed`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.recalculation.completed%22)
+
+> Recalculation completed!
+
+```diff
+-计算完成！
++重新评定完成！
+```
+
+#### [`fof-badges.admin.recalculation.failed`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.recalculation.failed%22)
+
+> Recalculation failed
+
+```diff
+-计算失败
++重新评定失败
+```
+
+#### [`fof-badges.admin.recalculation.pending`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.recalculation.pending%22)
+
+> Preparing recalculation...
+
+```diff
+-准备中...
++准备中…
+```
+
+#### [`fof-badges.admin.recalculation.progress`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.recalculation.progress%22)
+
+> {processed} / {total} evaluations ({percentage}%)
+
+```diff
+-已处理 {processed} / {total} ({percentage}%)
++进度：{processed} / {total}（{percentage}%）
+```
+
+<del>已处理 {processed}</del><ins>进度：{processed}</ins> /<del> {total}</del> <del>({percentage}%)</del><ins>{total}（{percentage}%）</ins>
+
+#### [`fof-badges.admin.recalculation.running`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.recalculation.running%22)
+
+> Recalculating badges...
+
+```diff
+-正在计算...
++正在重新评定徽章…
+```
+
+#### [`fof-badges.admin.recalculation.started`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.recalculation.started%22)
+
+> Badge recalculation started. This will run in the background.
+
+```diff
+-勋章重算任务已启动，正在后台运行。
++已开始重新评定徽章，任务将在后台执行。
+```
+
+#### [`fof-badges.admin.recalculation.stats`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.recalculation.stats%22)
+
+> Awarded: {awarded} \| Revoked: {revoked}
+
+```diff
+-授予：{awarded} | 撤销：{revoked}
++授予 {awarded}｜收回 {revoked}
+```
+
+#### [`fof-badges.admin.recalculation_jobs.button`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.recalculation_jobs.button%22)
+
+> Jobs
+
+```diff
+-任务队列
++任务
+```
+
+#### [`fof-badges.admin.recalculation_jobs.empty`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.recalculation_jobs.empty%22)
+
+> No recalculation jobs found.
+
+```diff
+-队列中无任务。
++暂无重新评定任务。
+```
+
+#### [`fof-badges.admin.recalculation_jobs.force_cancel`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.recalculation_jobs.force_cancel%22)
+
+> Force Cancel
+
+```diff
+-强制终止
++强制取消
+```
+
+#### [`fof-badges.admin.recalculation_jobs.mark_failed`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.recalculation_jobs.mark_failed%22)
+
+> Mark as Failed
+
+```diff
+-标记为失败
++标记失败
+```
+
+#### [`fof-badges.admin.recalculation_jobs.mark_failed_error`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.recalculation_jobs.mark_failed_error%22)
+
+> Failed to mark job as failed.
+
+```diff
+-标记失败时出错。
++标记任务失败。
+```
+
+#### [`fof-badges.admin.recalculation_jobs.results`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.recalculation_jobs.results%22)
+
+> Awarded: {awarded} \| Revoked: {revoked}
+
+```diff
+-授予：{awarded} | 撤销：{revoked}
++授予 {awarded}｜收回 {revoked}
+```
+
+#### [`fof-badges.admin.recalculation_jobs.status.running`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.recalculation_jobs.status.running%22)
+
+> Running
+
+```diff
+-进行中
++运行中
+```
+
+#### [`fof-badges.admin.recalculation_jobs.stuck`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.recalculation_jobs.stuck%22)
+
+> Stuck
+
+```diff
+-未响应
++卡住
+```
+
+#### [`fof-badges.admin.recalculation_jobs.title`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.recalculation_jobs.title%22)
+
+> Recalculation Jobs
+
+```diff
+-重算任务
++重新评定任务
+```
+
+#### [`fof-badges.admin.recalculation_jobs.users`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.recalculation_jobs.users%22)
+
+> {processed} / {total} evaluations
+
+```diff
+-处理进度：{processed} / {total}
++检查进度：{processed} / {total}
+```
+
+<del>处理进度：{processed}</del><ins>检查进度：{processed}</ins> / {total}
+
+#### [`fof-badges.admin.revoke`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.revoke%22)
+
+> Revoke
+
+```diff
+-撤销
++收回
+```
+
+#### [`fof-badges.admin.revoke_confirm`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.revoke_confirm%22)
+
+> Are you sure you want to revoke the "{badge}" badge from {username}?
+
+```diff
+-确定要撤销 {username} 的“{badge}”勋章吗？
++确定要收回 {username} 的「{badge}」徽章吗？
+```
+
+<del>确定要撤销</del><ins>确定要收回</ins> {username} <del>的“{badge}”勋章吗？</del><ins>的「{badge}」徽章吗？</ins>
+
+#### [`fof-badges.admin.revoke_error`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.revoke_error%22)
+
+> Failed to revoke badge.
+
+```diff
+-撤销失败。
++收回徽章失败。
+```
+
+#### [`fof-badges.admin.save`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.save%22)
+
+> Save
+
+```diff
+-保存更改
++保存
+```
+
+#### [`fof-badges.admin.search_holders_placeholder`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.search_holders_placeholder%22)
+
+> Search holders...
+
+```diff
+-搜索持有者...
++搜索获得者…
+```
+
+#### [`fof-badges.admin.search_user_placeholder`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.search_user_placeholder%22)
+
+> Search by username or display name...
+
+```diff
+-搜索用户名或昵称...
++搜索用户名或外显名称…
+```
+
+#### [`fof-badges.admin.send_notification`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.send_notification%22)
+
+> Send notification to user
+
+```diff
+-发送系统通知
++通知用户
+```
+
+#### [`fof-badges.admin.settings.integrations_help`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.settings.integrations_help%22)
+
+> Badge metrics that depend on other extensions. Install the extension to unlock the corresponding metrics.
+
+```diff
+-勋章指标依赖其他扩展。请安装相应扩展以解锁对应指标。
++部分徽章指标依赖其他扩展，安装对应扩展后即可使用。
+```
+
+#### [`fof-badges.admin.settings.integrations_title`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.settings.integrations_title%22)
+
+> Extension Integrations
+
+```diff
+-第三方扩展集成
++扩展联动
+```
+
+#### [`fof-badges.admin.settings.new_badge_highlight`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.settings.new_badge_highlight%22)
+
+> Show "NEW" tag on recently earned badges
+
+```diff
+-高亮显示新获得的勋章
++新徽章标记
+```
+
+#### [`fof-badges.admin.settings.new_badge_highlight_help`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.settings.new_badge_highlight_help%22)
+
+> Displays a "NEW" tag on badges earned within the last 7 days.
+
+```diff
+-在过去 7 天内获得的勋章上显示“新”标签。
++获得不满 7 天的徽章会显示「新」标记。
+```
+
+<del>在过去</del><ins>获得不满</ins> 7 <del>天内获得的勋章上显示“新”标签。</del><ins>天的徽章会显示「新」标记。</ins>
+
+#### [`fof-badges.admin.settings.post_badge_display_limit`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.settings.post_badge_display_limit%22)
+
+> Post badge display limit
+
+```diff
+-帖子下方显示的勋章数量上限
++帖子徽章显示数量
+```
+
+#### [`fof-badges.admin.settings.post_badge_display_limit_help`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.settings.post_badge_display_limit_help%22)
+
+> Maximum number of badges to show under posts. Set to 0 to disable.
+
+```diff
+-帖子下方显示的勋章最大数量。设为 0 则禁用限制。
++每篇帖子下方最多显示的徽章数量，0 表示不显示。
+```
+
+#### [`fof-badges.admin.settings.primary_badge_display`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.settings.primary_badge_display%22)
+
+> Primary badge display
+
+```diff
+-主勋章显示方式
++主徽章显示
+```
+
+#### [`fof-badges.admin.settings.primary_badge_display_help`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.settings.primary_badge_display_help%22)
+
+> How the user's primary badge appears next to their username.
+
+```diff
+-用户主勋章在用户名旁的显示样式。
++设置主徽章在用户名旁的显示方式。
+```
+
+#### [`fof-badges.admin.settings.primary_badge_hidden`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.settings.primary_badge_hidden%22)
+
+> Hidden
+
+```diff
+-隐藏
++不显示
+```
+
+#### [`fof-badges.admin.settings.primary_badge_icon`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.settings.primary_badge_icon%22)
+
+> Icon only
+
+```diff
+-仅显示图标
++仅图标
+```
+
+#### [`fof-badges.admin.settings.primary_badge_icon_name`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.settings.primary_badge_icon_name%22)
+
+> Icon and name
+
+```diff
+-显示图标和名称
++图标和名称
+```
+
+#### [`fof-badges.admin.settings.save_error`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.settings.save_error%22)
+
+> Failed to save settings.
+
+```diff
+-保存设置失败。
++设置保存失败
+```
+
+#### [`fof-badges.admin.settings.saved`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.settings.saved%22)
+
+> Settings saved successfully.
+
+```diff
+-设置已保存。
++设置已保存
+```
+
+#### [`fof-badges.admin.settings.show_badges_on_user_card`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.settings.show_badges_on_user_card%22)
+
+> Show badges on user card
+
+```diff
+-在用户卡片上展示勋章
++用户卡片显示徽章
+```
+
+#### [`fof-badges.admin.settings.show_badges_on_user_card_help`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.settings.show_badges_on_user_card_help%22)
+
+> Display the user's favorite or rarest badge on user cards and profile pages.
+
+```diff
+-在用户卡片上展示已收藏或最稀有的勋章。
++在用户卡片和个人主页显示用户的最爱徽章或稀有徽章。
+```
+
+#### [`fof-badges.admin.showing_holders`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.showing_holders%22)
+
+> Showing {from}-{to} of {total}
+
+```diff
+-显示 {total} 位持有者中的第 {from}-{to} 位
++显示第 {from}–{to} 位，共 {total} 人
+```
+
+#### [`fof-badges.admin.tab_assign`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.tab_assign%22)
+
+> Assign
+
+```diff
+-授予操作
++授予
+```
+
+#### [`fof-badges.admin.tab_holders`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.tab_holders%22)
+
+> Holders ({count})
+
+```diff
+-持有者 ({count})
++获得者（{count}）
+```
+
+#### [`fof-badges.admin.tabs.badges`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.tabs.badges%22)
+
+> Badges
+
+```diff
+-勋章管理
++徽章
+```
+
+#### [`fof-badges.admin.tabs.categories`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.tabs.categories%22)
+
+> Categories
+
+```diff
+-分类管理
++分类
+```
+
+#### [`fof-badges.admin.tabs.recalculation`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.tabs.recalculation%22)
+
+> Recalculation
+
+```diff
+-重算任务管理
++重新评定
+```
+
+#### [`fof-badges.admin.tabs.settings`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.tabs.settings%22)
+
+> Settings
+
+```diff
+-扩展设置
++设置
+```
+
+#### [`fof-badges.admin.trigger_builder.and`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.trigger_builder.and%22)
+
+> ALL must match (AND)
+
+```diff
+-满足所有条件 (AND)
++全部满足（AND）
+```
+
+#### [`fof-badges.admin.trigger_builder.and_help`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.trigger_builder.and_help%22)
+
+> User must meet all conditions simultaneously to earn this badge.
+
+```diff
+-用户必须同时满足上述所有条件才能获得此勋章。
++用户必须同时满足所有条件才能获得此徽章。
+```
+
+#### [`fof-badges.admin.trigger_builder.date_range_help`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.trigger_builder.date_range_help%22)
+
+> Only count activity within this date range. Useful for event badges.
+
+```diff
+-仅统计在此日期范围内的数据。适用于限时活动勋章。
++仅统计此日期范围内的活动，适用于限时活动徽章。
+```
+
+#### [`fof-badges.admin.trigger_builder.loading_tags`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.trigger_builder.loading_tags%22)
+
+> Loading tags...
+
+```diff
+-加载标签中...
++正在加载标签…
+```
+
+#### [`fof-badges.admin.trigger_builder.logic`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.trigger_builder.logic%22)
+
+> When multiple conditions
+
+```diff
+-多条件逻辑
++多条件关系
+```
+
+#### [`fof-badges.admin.trigger_builder.no_conditions_info`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.trigger_builder.no_conditions_info%22)
+
+> No conditions set. This badge can only be assigned manually by moderators.
+
+```diff
+-未设置自动化条件。此勋章目前仅能由管理员/版主手动授予。
++尚未设置自动条件，此徽章只能由管理人员手动授予。
+```
+
+#### [`fof-badges.admin.trigger_builder.or`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.trigger_builder.or%22)
+
+> ANY must match (OR)
+
+```diff
+-满足任一条件 (OR)
++任一满足（OR）
+```
+
+#### [`fof-badges.admin.trigger_builder.or_help`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.trigger_builder.or_help%22)
+
+> User must meet at least one condition to earn this badge.
+
+```diff
+-用户只需满足上述任意一个条件即可获得此勋章。
++用户满足任意一个条件即可获得此徽章。
+```
+
+#### [`fof-badges.admin.trigger_builder.select_tag`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.trigger_builder.select_tag%22)
+
+> Select a tag...
+
+```diff
+-选择标签...
++选择标签…
+```
+
+#### [`fof-badges.admin.trigger_builder.tag_filter`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.trigger_builder.tag_filter%22)
+
+> Tag Filter
+
+```diff
+-限定标签
++标签筛选
+```
+
+#### [`fof-badges.admin.trigger_builder.tag_filter_help`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.trigger_builder.tag_filter_help%22)
+
+> Required when using "Posts in Tag" metric.
+
+```diff
+-当使用“特定标签发帖数”指标时为必选项。
++使用「指定标签内发帖数」指标时必须选择标签。
+```
+
+#### [`fof-badges.admin.trigger_builder.use_date_range`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.trigger_builder.use_date_range%22)
+
+> Limit to date range
+
+```diff
+-限制日期范围
++限定日期范围
+```
+
+#### [`fof-badges.admin.trigger_config`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.trigger_config%22)
+
+> Automatic Trigger
+
+```diff
+-自动获取条件
++自动授予
+```
+
+#### [`fof-badges.admin.trigger_config_help`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.trigger_config_help%22)
+
+> Configure conditions for automatic badge awarding. Leave empty for manual-only badges.
+
+```diff
+-配置自动授予勋章的触发条件。若为手动授予的勋章，请留空。
++设置自动授予徽章的条件。留空则只能手动授予。
+```
+
+#### [`fof-badges.admin.validation.tag_required`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.admin.validation.tag_required%22)
+
+> You must select a tag when using the "Posts in Tag" metric.
+
+```diff
+-使用“特定标签发帖数”指标时，必须选择一个标签。
++使用「指定标签内发帖数」指标时必须选择标签。
+```
+
+#### [`fof-badges.forum.all_badges`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.forum.all_badges%22)
+
+> All Badges
+
+```diff
+-勋章总览
++全部徽章
+```
+
+#### [`fof-badges.forum.badges_subtitle`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.forum.badges_subtitle%22)
+
+> Earn badges by participating in the community!
+
+```diff
+-积极参与社区互动，解锁勋章！
++参与讨论，解锁更多徽章！
+```
+
+#### [`fof-badges.forum.badges_title`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.forum.badges_title%22)
+
+> Badges
+
+```diff
+-勋章中心
++徽章
+```
+
+#### [`fof-badges.forum.earned_by`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.forum.earned_by%22)
+
+> {count, plural, one {# user} other {# users}}
+
+```diff
+-{count, plural, one {# 人} other {# 人}}已获得
++{count, plural, one {# 人已获得} other {# 人已获得}}
+```
+
+{count, plural, one {# <del>人}</del><ins>人已获得}</ins> other {# <del>人}}已获得</del><ins>人已获得}}</ins>
+
+#### [`fof-badges.forum.earned_users`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.forum.earned_users%22)
+
+> Earned By
+
+```diff
+-最近获得者
++获得者
+```
+
+#### [`fof-badges.forum.loading`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.forum.loading%22)
+
+> Loading...
+
+```diff
+-加载中...
++正在加载…
+```
+
+#### [`fof-badges.forum.more_users_earned`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.forum.more_users_earned%22)
+
+> And more users...
+
+```diff
+-以及更多...
++还有更多获得者…
+```
+
+#### [`fof-badges.forum.my_badges`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.forum.my_badges%22)
+
+> My Badges
+
+```diff
+-我的勋章
++我的徽章
+```
+
+#### [`fof-badges.forum.nav.badges`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.forum.nav.badges%22)
+
+> Badges
+
+```diff
+-勋章中心
++徽章
+```
+
+#### [`fof-badges.forum.no_badges`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.forum.no_badges%22)
+
+> No badges available yet.
+
+```diff
+-暂无勋章。
++暂无可用徽章。
+```
+
+#### [`fof-badges.forum.no_users_earned`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.forum.no_users_earned%22)
+
+> No one has earned this badge yet. Be the first!
+
+```diff
+-虚位以待，快来成为第一个获得者吧！
++还没有人获得这个徽章，来做第一个吧！
+```
+
+#### [`fof-badges.forum.notification.a_badge`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.forum.notification.a_badge%22)
+
+> a badge
+
+```diff
+-一枚勋章
++一枚徽章
+```
+
+#### [`fof-badges.forum.notification.badge_earned`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.forum.notification.badge_earned%22)
+
+> You earned {badge}
+
+```diff
+-恭喜！您获得了“{badge}”勋章
++你获得了 {badge}
+```
+
+#### [`fof-badges.forum.other_badges`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.forum.other_badges%22)
+
+> Other Badges
+
+```diff
+-其他
++其他徽章
+```
+
+#### [`fof-badges.forum.owned_badge`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.forum.owned_badge%22)
+
+> You own this badge
+
+```diff
+-您已拥有此勋章
++你已获得此徽章
+```
+
+#### [`fof-badges.forum.toggle_category_dropdown`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.forum.toggle_category_dropdown%22)
+
+> Toggle category dropdown
+
+```diff
+-切换分类
++展开或收起徽章分类
+```
+
+#### [`fof-badges.forum.user.assign_badge`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.forum.user.assign_badge%22)
+
+> Assign Badge
+
+```diff
+-授予勋章
++授予徽章
+```
+
+#### [`fof-badges.forum.user.assign_badge_title`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.forum.user.assign_badge_title%22)
+
+> Assign Badge to {username}
+
+```diff
+-授予勋章给 {username}
++向 {username} 授予徽章
+```
+
+<del>授予勋章给</del><ins>向</ins> {username}<ins> 授予徽章</ins>
+
+#### [`fof-badges.forum.user.assign_button`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.forum.user.assign_button%22)
+
+> Assign Badge
+
+```diff
+-确认授予
++授予徽章
+```
+
+#### [`fof-badges.forum.user.assign_reason`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.forum.user.assign_reason%22)
+
+> Reason (optional)
+
+```diff
+-授予理由（可选）
++授予原因（可选）
+```
+
+#### [`fof-badges.forum.user.assign_reason_help`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.forum.user.assign_reason_help%22)
+
+> This reason will be visible on the user's badge.
+
+```diff
+-理由将公开显示。
++授予原因会显示在用户的徽章信息中。
+```
+
+#### [`fof-badges.forum.user.assign_reason_placeholder`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.forum.user.assign_reason_placeholder%22)
+
+> Why is this badge being awarded?
+
+```diff
+-为什么要授予此勋章？
++为什么授予这个徽章？
+```
+
+#### [`fof-badges.forum.user.badge_actions`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.forum.user.badge_actions%22)
+
+> Badge actions
+
+```diff
+-操作
++徽章操作
+```
+
+#### [`fof-badges.forum.user.badge_assigned`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.forum.user.badge_assigned%22)
+
+> Badge "{badge}" assigned to {username}!
+
+```diff
+-勋章“{badge}”已成功授予 {username}！
++已向 {username} 授予「{badge}」！
+```
+
+#### [`fof-badges.forum.user.badge_revoked`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.forum.user.badge_revoked%22)
+
+> Badge "{badge}" has been revoked.
+
+```diff
+-勋章“{badge}”已撤销。
++徽章「{badge}」已收回。
+```
+
+#### [`fof-badges.forum.user.badges_count`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.forum.user.badges_count%22)
+
+> {count, plural, one {# Badge} other {# Badges}}
+
+```diff
+-{count, plural, one {# 枚勋章} other {# 枚勋章}}
++{count, plural, one {# 枚徽章} other {# 枚徽章}}
+```
+
+{count, plural, one {# <del>枚勋章}</del><ins>枚徽章}</ins> other {# <del>枚勋章}}</del><ins>枚徽章}}</ins>
+
+#### [`fof-badges.forum.user.badges_tab`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.forum.user.badges_tab%22)
+
+> Badges
+
+```diff
+-勋章
++徽章
+```
+
+#### [`fof-badges.forum.user.badges_title`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.forum.user.badges_title%22)
+
+> {username}'s Badges
+
+```diff
+-{username} 的勋章墙
++{username} 的徽章
+```
+
+{username} <del>的勋章墙</del><ins>的徽章</ins>
+
+#### [`fof-badges.forum.user.earned_on`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.forum.user.earned_on%22)
+
+> Earned {date}
+
+```diff
+-获得于 {date}
++于 {date} 获得
+```
+
+<del>获得于</del><ins>于</ins> {date}<ins> 获得</ins>
+
+#### [`fof-badges.forum.user.favorite_badge`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.forum.user.favorite_badge%22)
+
+> Favorite badge
+
+```diff
+-已收藏勋章
++最爱徽章
+```
+
+#### [`fof-badges.forum.user.hidden_badge`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.forum.user.hidden_badge%22)
+
+> Hidden from profile
+
+```diff
+-已隐藏
++已从个人主页隐藏
+```
+
+#### [`fof-badges.forum.user.hide_badge`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.forum.user.hide_badge%22)
+
+> Hide from profile
+
+```diff
+-从资料页隐藏
++从个人主页隐藏
+```
+
+#### [`fof-badges.forum.user.no_badges`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.forum.user.no_badges%22)
+
+> This user hasn't earned any badges yet.
+
+```diff
+-该用户暂未获得任何勋章。
++该用户还没有获得任何徽章。
+```
+
+#### [`fof-badges.forum.user.no_badges_available`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.forum.user.no_badges_available%22)
+
+> No badges available.
+
+```diff
+-没有可授予的勋章。
++暂无可授予的徽章。
+```
+
+#### [`fof-badges.forum.user.recalculate`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.forum.user.recalculate%22)
+
+> Recalculate Badges
+
+```diff
+-重算勋章
++重新评定徽章
+```
+
+#### [`fof-badges.forum.user.recalculate_error`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.forum.user.recalculate_error%22)
+
+> Failed to recalculate badges. Please try again.
+
+```diff
+-重算失败，请重试。
++徽章重新评定失败，请重试。
+```
+
+#### [`fof-badges.forum.user.recalculate_modal.all_badges`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.forum.user.recalculate_modal.all_badges%22)
+
+> All automatic badges
+
+```diff
+-所有自动勋章
++全部自动徽章
+```
+
+#### [`fof-badges.forum.user.recalculate_modal.badge_label`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.forum.user.recalculate_modal.badge_label%22)
+
+> Badge to recalculate
+
+```diff
+-需要重算的勋章
++重新评定徽章
+```
+
+#### [`fof-badges.forum.user.recalculate_modal.no_revoke_help`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.forum.user.recalculate_modal.no_revoke_help%22)
+
+> If enabled, the user will keep badges even if they no longer meet the criteria.
+
+```diff
+-启用后，即使用户不再满足条件，也不会撤销勋章。
++开启后，即使用户不再满足条件，也不会收回已经获得的徽章。
+```
+
+#### [`fof-badges.forum.user.recalculate_modal.no_revoke_label`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.forum.user.recalculate_modal.no_revoke_label%22)
+
+> Don't revoke existing badges
+
+```diff
+-保留现有勋章
++保留现有徽章
+```
+
+#### [`fof-badges.forum.user.recalculate_modal.reapply_actions_help`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.forum.user.recalculate_modal.reapply_actions_help%22)
+
+> Re-apply badge actions (like adding to a group) if the user already has the badge.
+
+```diff
+-若用户已拥有勋章，重新触发关联动作（如添加用户组）。
++如果用户已经拥有该徽章，则重新执行相关操作，例如加入用户组。
+```
+
+#### [`fof-badges.forum.user.recalculate_modal.reapply_actions_label`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.forum.user.recalculate_modal.reapply_actions_label%22)
+
+> Re-apply actions to existing badges
+
+```diff
+-重新执行动作
++重新执行徽章操作
+```
+
+#### [`fof-badges.forum.user.recalculate_modal.submit`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.forum.user.recalculate_modal.submit%22)
+
+> Recalculate
+
+```diff
+-开始重算
++重新评定
+```
+
+#### [`fof-badges.forum.user.recalculate_modal.title`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.forum.user.recalculate_modal.title%22)
+
+> Recalculate Badges
+
+```diff
+-重算用户勋章
++重新评定徽章
+```
+
+#### [`fof-badges.forum.user.recalculate_reapplied`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.forum.user.recalculate_reapplied%22)
+
+> Actions re-applied for {reapplied} badges
+
+```diff
+-已为 {reapplied} 个勋章重新执行了动作
++已重新执行 {reapplied} 枚徽章的操作
+```
+
+<del>已为</del><ins>已重新执行</ins> {reapplied} <del>个勋章重新执行了动作</del><ins>枚徽章的操作</ins>
+
+#### [`fof-badges.forum.user.recalculate_success`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.forum.user.recalculate_success%22)
+
+> Badges recalculated! Awarded: {awarded}, Revoked: {revoked}, Re-applied: {reapplied}
+
+```diff
+-重算完成！授予：{awarded}，撤销：{revoked}，重应用：{reapplied}
++重新评定完成！授予 {awarded}，收回 {revoked}，重新执行 {reapplied}。
+```
+
+#### [`fof-badges.forum.user.remove_favorite`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.forum.user.remove_favorite%22)
+
+> Remove favorite
+
+```diff
+-取消收藏
++取消最爱
+```
+
+#### [`fof-badges.forum.user.revoke_badge`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.forum.user.revoke_badge%22)
+
+> Revoke badge
+
+```diff
+-撤销勋章
++收回徽章
+```
+
+#### [`fof-badges.forum.user.revoke_confirm`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.forum.user.revoke_confirm%22)
+
+> Are you sure you want to revoke the "{badge}" badge from this user?
+
+```diff
+-确定要从该用户撤销“{badge}”勋章吗？
++确定要收回该用户的「{badge}」徽章吗？
+```
+
+#### [`fof-badges.forum.user.revoke_error`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.forum.user.revoke_error%22)
+
+> Failed to revoke badge.
+
+```diff
+-撤销失败。
++收回徽章失败。
+```
+
+#### [`fof-badges.forum.user.select_badge`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.forum.user.select_badge%22)
+
+> Select a badge...
+
+```diff
+-选择勋章...
++选择徽章…
+```
+
+#### [`fof-badges.forum.user.select_badge_label`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.forum.user.select_badge_label%22)
+
+> Select Badge
+
+```diff
+-选择勋章
++选择徽章
+```
+
+#### [`fof-badges.forum.user.set_favorite`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.forum.user.set_favorite%22)
+
+> Set as favorite
+
+```diff
+-设为收藏
++设为最爱
+```
+
+#### [`fof-badges.forum.user.show_badge`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.forum.user.show_badge%22)
+
+> Show on profile
+
+```diff
+-在资料页显示
++在个人主页显示
+```
+
+#### [`fof-badges.forum.user.view_all_badges`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.forum.user.view_all_badges%22)
+
+> View all badges
+
+```diff
+-查看所有
++查看全部徽章
+```
+
+#### [`fof-badges.lib.rarity_explain`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.lib.rarity_explain%22)
+
+> {percent}% of users have this badge
+
+```diff
+-全站仅 {percent}% 的用户拥有此勋章
++{percent}% 的用户已获得此徽章
+```
+
+<del>全站仅 </del>{percent}% <del>的用户拥有此勋章</del><ins>的用户已获得此徽章</ins>
+
+#### [`fof-badges.lib.rarity_legendary`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.lib.rarity_legendary%22)
+
+> Legendary
+
+```diff
+-传说
++传奇
+```
+
+#### [`fof-badges.lib.rarity_uncommon`](https://weblate.rob006.net/translate/flarum2/fof-badges/zh_Hans/?q=context%3A%3D%22fof-badges.lib.rarity_uncommon%22)
+
+> Uncommon
+
+```diff
+-罕见
++少见
+```
+
+
+### `fof-ban-ips`
+
+#### [`flarum-gdpr.lib.data.bannedipdata.anonymize_description`](https://weblate.rob006.net/translate/flarum2/fof-ban-ips/zh_Hans/?q=context%3A%3D%22flarum-gdpr.lib.data.bannedipdata.anonymize_description%22)
+
+> Any IP addresses linked to the user are decoupled, but the IP itself will remain banned, along with the reason. Ensure no PII data is stored in the 'reason' field.
+
+```diff
+-与用户链接的任何IP地址都是解耦的，但IP本身仍将被禁止，并说明原因。确保“原因”字段中没有存储PII数据。
++解除用户与 IP 封禁记录的关联，但 IP 和封禁原因仍会保留。因此，请勿在封禁原因中填写个人身份信息（PII）。
+```
+
+#### [`flarum-gdpr.lib.data.bannedipdata.export_description`](https://weblate.rob006.net/translate/flarum2/fof-ban-ips/zh_Hans/?q=context%3A%3D%22flarum-gdpr.lib.data.bannedipdata.export_description%22)
+
+> If an IP ban record is associated with a user (i.e. the user was banned by IP), the user's IP address will be included in the export, along with the reason for the ban and the creation date.
+
+```diff
+-如果IP封禁记录与用户关联（即该用户被IP封禁），导出时会包含该用户的IP地址、封禁原因和创建日期。
++导出与用户关联的 IP 封禁记录，包括 IP 地址、封禁原因和创建时间。
+```
+
+#### [`fof-ban-ips.admin.empty_text`](https://weblate.rob006.net/translate/flarum2/fof-ban-ips/zh_Hans/?q=context%3A%3D%22fof-ban-ips.admin.empty_text%22)
+
+> No banned IPs found.
+
+```diff
+-暂无 IP 被拉黑。
++暂无已封禁 IP。
+```
+
+#### [`fof-ban-ips.admin.modal.ban_ip_no_users`](https://weblate.rob006.net/translate/flarum2/fof-ban-ips/zh_Hans/?q=context%3A%3D%22fof-ban-ips.admin.modal.ban_ip_no_users%22)
+
+> No one will be banned
+
+```diff
+-没有使用此 IP 的其他用户
++此次封禁不会牵连其他用户
+```
+
+#### [`fof-ban-ips.admin.modal.update_title`](https://weblate.rob006.net/translate/flarum2/fof-ban-ips/zh_Hans/?q=context%3A%3D%22fof-ban-ips.admin.modal.update_title%22)
+
+> Update Banned IP
+
+```diff
+-更新 IP 黑名单
++编辑已封禁 IP
+```
+
+<del>更新</del><ins>编辑已封禁</ins> IP<del> 黑名单</del>
+
+#### [`fof-ban-ips.admin.permissions.view_banned_ip_list_label`](https://weblate.rob006.net/translate/flarum2/fof-ban-ips/zh_Hans/?q=context%3A%3D%22fof-ban-ips.admin.permissions.view_banned_ip_list_label%22)
+
+> View banned IP address list
+
+```diff
+-查看 IP 黑名单
++查看 IP 封禁名单
+```
+
+查看 IP <del>黑名单</del><ins>封禁名单</ins>
+
+#### [`fof-ban-ips.error.banned_ip_message`](https://weblate.rob006.net/translate/flarum2/fof-ban-ips/zh_Hans/?q=context%3A%3D%22fof-ban-ips.error.banned_ip_message%22)
+
+> Authorization failed.
+
+```diff
+-验证失败。
++网络环境异常，无法完成验证。
+```
+
+#### [`fof-ban-ips.error.no_ips_found_message`](https://weblate.rob006.net/translate/flarum2/fof-ban-ips/zh_Hans/?q=context%3A%3D%22fof-ban-ips.error.no_ips_found_message%22)
+
+> No IP(s) found for user.
+
+```diff
+-未获取到该用户使用的 IP。
++未找到此用户使用过的 IP。
+```
+
+<del>未获取到该用户使用的</del><ins>未找到此用户使用过的</ins> IP。
+
+#### [`fof-ban-ips.forum.modal.ban_ip_no_users`](https://weblate.rob006.net/translate/flarum2/fof-ban-ips/zh_Hans/?q=context%3A%3D%22fof-ban-ips.forum.modal.ban_ip_no_users%22)
+
+> No one else will be banned
+
+```diff
+-没有使用此 IP 的其他用户
++此次封禁不会牵连其他用户
+```
+
+#### [`fof-ban-ips.forum.modal.ban_options_all_ip`](https://weblate.rob006.net/translate/flarum2/fof-ban-ips/zh_Hans/?q=context%3A%3D%22fof-ban-ips.forum.modal.ban_options_all_ip%22)
+
+> Ban all IPs used by &lt;i&gt;{username}&lt;/i&gt;
+
+```diff
+-拉黑 <i>{username}</i> 使用过的所有 IP
++封禁 <i>{username}</i> 使用过的所有 IP
+```
+
+<del>拉黑</del><ins>封禁</ins> &lt;i&gt;{username}&lt;/i&gt; 使用过的所有 IP
+
+#### [`fof-ban-ips.forum.modal.ban_options_only_ip`](https://weblate.rob006.net/translate/flarum2/fof-ban-ips/zh_Hans/?q=context%3A%3D%22fof-ban-ips.forum.modal.ban_options_only_ip%22)
+
+> Only ban current IP (&lt;code&gt;{ip}&lt;/code&gt;)
+
+```diff
+-仅拉黑当前 IP (<code>{ip}</code>)
++仅封禁当前 IP（<code>{ip}</code>）
+```
+
+#### [`fof-ban-ips.lib.modal.ban_ip_confirmation`](https://weblate.rob006.net/translate/flarum2/fof-ban-ips/zh_Hans/?q=context%3A%3D%22fof-ban-ips.lib.modal.ban_ip_confirmation%22)
+
+> Are you sure you want to block this IP address from use on the forum? This will block users with this IP address(es) from logging in and registering.
+
+```diff
+-你确定要拉黑此 IP 吗？所有使用这个 IP 的用户将无法登录和注册论坛。
++确定要封禁所选 IP 吗？来自这些 IP 的注册将被阻止，同时可能牵连曾使用这些 IP 的其他用户，导致其无法登录。
+```
+
+<del>你确定要拉黑此</del><ins>确定要封禁所选</ins> IP <del>吗？所有使用这个</del><ins>吗？来自这些</ins> IP <del>的用户将无法登录和注册论坛。</del><ins>的注册将被阻止，同时可能牵连曾使用这些 IP 的其他用户，导致其无法登录。</ins>
+
+#### [`fof-ban-ips.lib.modal.unban_ip_confirmation`](https://weblate.rob006.net/translate/flarum2/fof-ban-ips/zh_Hans/?q=context%3A%3D%22fof-ban-ips.lib.modal.unban_ip_confirmation%22)
+
+> Are you sure you want to unban this user and all other users not banned by other IPs?
+
+```diff
+-确定要解封此用户以及所有仅被此 IP 封禁的其他用户吗？
++确定要解封此用户，以及所有仅被此 IP 封禁的用户吗？
+```
+
+<del>确定要解封此用户以及所有仅被此</del><ins>确定要解封此用户，以及所有仅被此</ins> IP <del>封禁的其他用户吗？</del><ins>封禁的用户吗？</ins>
+
+#### [`fof-ban-ips.lib.modal.unban_ip_no_users`](https://weblate.rob006.net/translate/flarum2/fof-ban-ips/zh_Hans/?q=context%3A%3D%22fof-ban-ips.lib.modal.unban_ip_no_users%22)
+
+> No one else will be unbanned
+
+```diff
+-没有使用此 IP 的其他用户
++此次解封没有涉及其他用户
+```
+
+#### [`fof-ban-ips.lib.modal.unban_ip_users`](https://weblate.rob006.net/translate/flarum2/fof-ban-ips/zh_Hans/?q=context%3A%3D%22fof-ban-ips.lib.modal.unban_ip_users%22)
+
+> {count, plural, one {User {users} will be unbanned} other {Users {users} will be unbanned}}
+
+```diff
+-即将解除封禁「{count, plural, one {{users}} other {{users}}}」
++即将解封「{count, plural, one {{users}} other {{users}}}」
+```
+
+<del>即将解除封禁「{count,</del><ins>即将解封「{count,</ins> plural, one {{users}} other {{users}}}」
+
+#### [`fof-ban-ips.lib.modal.unban_options_all_ip`](https://weblate.rob006.net/translate/flarum2/fof-ban-ips/zh_Hans/?q=context%3A%3D%22fof-ban-ips.lib.modal.unban_options_all_ip%22)
+
+> Unban all IPs used by &lt;i&gt;{username}&lt;/i&gt;
+
+```diff
+-取消拉黑 <i>{username}</i> 使用过的所有 IP
++解封 <i>{username}</i> 使用过的所有 IP
+```
+
+<del>取消拉黑</del><ins>解封</ins> &lt;i&gt;{username}&lt;/i&gt; 使用过的所有 IP
+
+#### [`fof-ban-ips.lib.modal.unban_options_only_ip`](https://weblate.rob006.net/translate/flarum2/fof-ban-ips/zh_Hans/?q=context%3A%3D%22fof-ban-ips.lib.modal.unban_options_only_ip%22)
+
+> Only unban current IP (&lt;code&gt;{ip}&lt;/code&gt;)
+
+```diff
+-仅取消拉黑当前 IP (<code>{ip}</code>)
++仅解封当前 IP（<code>{ip}</code>）
+```
+
+#### [`fof-ban-ips.lib.modal.unbanned_ips`](https://weblate.rob006.net/translate/flarum2/fof-ban-ips/zh_Hans/?q=context%3A%3D%22fof-ban-ips.lib.modal.unbanned_ips%22)
+
+> Unbanned &lt;code&gt;{ips}&lt;/code&gt;.
+
+```diff
+-取消拉黑 <code>{ips}</code>。
++已解封 <code>{ips}</code>。
+```
+
+<del>取消拉黑</del><ins>已解封</ins> &lt;code&gt;{ips}&lt;/code&gt;。
+
+#### [`fof-ban-ips.ref.ban_ip_addresses`](https://weblate.rob006.net/translate/flarum2/fof-ban-ips/zh_Hans/?q=context%3A%3D%22fof-ban-ips.ref.ban_ip_addresses%22)
+
+> Ban IP(s)
+
+```diff
+-拉黑 IP
++封禁 IP
+```
+
+<del>拉黑</del><ins>封禁</ins> IP
+
+#### [`fof-ban-ips.ref.ban_ip_button`](https://weblate.rob006.net/translate/flarum2/fof-ban-ips/zh_Hans/?q=context%3A%3D%22fof-ban-ips.ref.ban_ip_button%22)
+
+> Ban IP
+
+```diff
+-拉黑 IP
++封禁 IP
+```
+
+<del>拉黑</del><ins>封禁</ins> IP
+
+#### [`fof-ban-ips.ref.reason_label`](https://weblate.rob006.net/translate/flarum2/fof-ban-ips/zh_Hans/?q=context%3A%3D%22fof-ban-ips.ref.reason_label%22)
+
+> Reason
+
+```diff
+-原因（非必填）
++原因
+```
+
+#### [`fof-ban-ips.ref.unban_ip_addresses`](https://weblate.rob006.net/translate/flarum2/fof-ban-ips/zh_Hans/?q=context%3A%3D%22fof-ban-ips.ref.unban_ip_addresses%22)
+
+> Unban IP(s)
+
+```diff
+-取消拉黑 IP
++解封 IP
+```
+
+<del>取消拉黑</del><ins>解封</ins> IP
+
+#### [`fof-ban-ips.ref.unban_ip_button`](https://weblate.rob006.net/translate/flarum2/fof-ban-ips/zh_Hans/?q=context%3A%3D%22fof-ban-ips.ref.unban_ip_button%22)
+
+> Unban IP
+
+```diff
+-取消拉黑 IP
++解封 IP
+```
+
+<del>取消拉黑</del><ins>解封</ins> IP
+
 
 ### `fof-best-answer`
+
+#### [`fof-best-answer.admin.edit_tag.qna_label`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-best-answer.admin.edit_tag.qna_label%22)
+
+> Enable Best Answers to be set in this tag
+
+```diff
+-启用最佳回复
++在此标签启用最佳回复
+```
+
+#### [`fof-best-answer.admin.edit_tag.reminders`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-best-answer.admin.edit_tag.reminders%22)
+
+> Send reminders to set a Best Answer for discussions in this tag
+
+```diff
+-提醒选择最佳回复
++提醒此标签下的讨论选择最佳回复
+```
 
 #### [`fof-best-answer.admin.permissions.best_answer`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-best-answer.admin.permissions.best_answer%22)
 
@@ -2967,13 +7086,129 @@ IP <del>地址滥用检查</del><ins>地址垃圾检查</ins>
 +为他人的讨论选择最佳回复
 ```
 
+#### [`fof-best-answer.admin.settings.discussion_sidebar_jump_button`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-best-answer.admin.settings.discussion_sidebar_jump_button%22)
+
+> Display jump to Best Answer button in discussion sidebar
+
+```diff
+-展示最佳回复跳转按钮
++最佳回复定位按钮
+```
+
 #### [`fof-best-answer.admin.settings.discussion_sidebar_jump_button_help`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-best-answer.admin.settings.discussion_sidebar_jump_button_help%22)
 
 > Adds a button to the discussion sidebar which jumps to the Best Answer in the stream of posts.
 
 ```diff
 -在主题帖侧边栏添加一个可以跳转到最佳回复的按钮。
-+在讨论帖侧边栏添加一个可以跳转到最佳回复的按钮。
++在讨论页侧边栏添加按钮，点击可直接跳转至最佳回复。
+```
+
+#### [`fof-best-answer.admin.settings.enabled_tags_help`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-best-answer.admin.settings.enabled_tags_help%22)
+
+> Select which tags, if any, to enable Best Answers for. These tags will become "Q&amp;A" formatted tags, and will have the ability to set Best Answers.
+
+```diff
+-如有需要，请选择要启用最佳回复的标签。这些标签将成为「Q&A」格式的标签。
++选择启用最佳回复功能的标签。启用后，这些标签下的讨论将采用问答模式，并可设置最佳回复。
+```
+
+#### [`fof-best-answer.admin.settings.label.reminders`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-best-answer.admin.settings.label.reminders%22)
+
+> Reminders
+
+```diff
+-提醒事项
++提醒
+```
+
+#### [`fof-best-answer.admin.settings.label.reminders_notice`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-best-answer.admin.settings.label.reminders_notice%22)
+
+> For reminders to function, you must have set up the Flarum scheduler correctly.
+
+```diff
+-要运行提醒功能，你必须正确配置 Flarum 调度器。
++要使用提醒功能，请先正确配置 Flarum 任务调度。
+```
+
+<del>要运行提醒功能，你必须正确配置</del><ins>要使用提醒功能，请先正确配置</ins> Flarum <del>调度器。</del><ins>任务调度。</ins>
+
+#### [`fof-best-answer.admin.settings.remind_tags_help`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-best-answer.admin.settings.remind_tags_help%22)
+
+> Select which tags, if any, to send reminders for. Reminders will only be sent for discussions with these tags.
+
+```diff
+-如有需要，请选择要发送提醒的标签（如果有）。
++仅提醒这些标签下尚未设置最佳回复的讨论。
+```
+
+#### [`fof-best-answer.admin.settings.schedule_log_output`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-best-answer.admin.settings.schedule_log_output%22)
+
+> Append scheduler output to log storage
+
+```diff
+-将调度程序的输出添加到日志存储中
++将任务调度输出写入日志
+```
+
+#### [`fof-best-answer.admin.settings.schedule_on_one_server`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-best-answer.admin.settings.schedule_on_one_server%22)
+
+> Use 'onOneServer()' directive for the task scheduler
+
+```diff
+-使用 onOneServer() 方法建立计划任务
++任务调度使用 onOneServer()
+```
+
+<del>使用</del><ins>任务调度使用</ins> onOneServer()<del> 方法建立计划任务</del>
+
+#### [`fof-best-answer.admin.settings.schedule_on_one_server_help`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-best-answer.admin.settings.schedule_on_one_server_help%22)
+
+> Requires Redis/Memcache
+
+```diff
+-需要 Redis/Memcache
++需要 Redis 或 Memcache
+```
+
+需要 <del>Redis/Memcache</del><ins>Redis 或 Memcache</ins>
+
+#### [`fof-best-answer.admin.settings.schedule_stop_overnight`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-best-answer.admin.settings.schedule_stop_overnight%22)
+
+> Prevent reminder notifications being sent during unsocial hours
+
+```diff
+-非工作时间禁用提醒
++夜间暂停提醒
+```
+
+#### [`fof-best-answer.admin.settings.schedule_stop_overnight_help`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-best-answer.admin.settings.schedule_stop_overnight_help%22)
+
+> 9pm - 8am server time
+
+```diff
+-服务器时间 20:00 至 9:00
++服务器时间 21:00 至次日 08:00 不发送提醒。
+```
+
+服务器时间 <del>20:00</del><ins>21:00</ins> <del>至</del><ins>至次日</ins> <del>9:00</del><ins>08:00 不发送提醒。</ins>
+
+#### [`fof-best-answer.admin.settings.select_best_answer_reminder_days`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-best-answer.admin.settings.select_best_answer_reminder_days%22)
+
+> Reminder frequency
+
+```diff
+-提醒计时
++提醒间隔
+```
+
+#### [`fof-best-answer.admin.settings.select_best_answer_reminder_days_help`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-best-answer.admin.settings.select_best_answer_reminder_days_help%22)
+
+> Send a reminder after the configurable amount of days to the OP to select a Best Answer, 0 = disable reminders.
+
+```diff
+-于 n 天后提问者选择最佳回复。
++讨论发起一定天数后，提醒发起人选择最佳回复。设为 0 则关闭提醒。
 ```
 
 #### [`fof-best-answer.admin.settings.select_best_answer_tags_help`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-best-answer.admin.settings.select_best_answer_tags_help%22)
@@ -2982,7 +7217,7 @@ IP <del>地址滥用检查</del><ins>地址垃圾检查</ins>
 
 ```diff
 -选择一个次标签，绑定到拥有最佳回复的主题帖上。取消最佳回复时，同时移除该标签。
-+选择一个次标签，绑定到拥有最佳回复的讨论帖上。取消最佳回复时，同时移除该标签。
++设置最佳回复后，自动为讨论添加指定的次标签。取消最佳回复时自动移除。例如「已解决」。
 ```
 
 #### [`fof-best-answer.admin.settings.select_best_answer_tags_label`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-best-answer.admin.settings.select_best_answer_tags_label%22)
@@ -2991,8 +7226,97 @@ IP <del>地址滥用检查</del><ins>地址垃圾检查</ins>
 
 ```diff
 -「已解决」主题帖标签
-+「已解决」讨论帖标签
++「已解决」讨论标签
 ```
+
+#### [`fof-best-answer.admin.settings.show_filter_help`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-best-answer.admin.settings.show_filter_help%22)
+
+> For tags which have Best Answers enabled, choose to display solved/unsolved filter option in the discussion list
+
+```diff
+-在启用最佳回复的标签页面显示「已解决/未解决」过滤项
++在启用最佳回复的标签中，为讨论列表显示「已解决 / 未解决」筛选项。
+```
+
+#### [`fof-best-answer.admin.settings.show_filter_label`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-best-answer.admin.settings.show_filter_label%22)
+
+> Display Best Answer filter dropdown
+
+```diff
+-显示已解决过滤项
++显示解决状态筛选
+```
+
+#### [`fof-best-answer.admin.settings.show_max_lines_help`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-best-answer.admin.settings.show_max_lines_help%22)
+
+> Set to 0 to disable. If a post is longer than the configured amount of lines, it will be truncated in the post preview with a fade out effect.
+
+```diff
+-预览帖超过一定行数时，使用淡出效果截断展示。设为 0 禁用此效果。
++超过此行数的内容会在预览中渐隐截断，设为 0 则不限制。
+```
+
+<del>预览帖超过一定行数时，使用淡出效果截断展示。设为</del><ins>超过此行数的内容会在预览中渐隐截断，设为</ins> 0 <del>禁用此效果。</del><ins>则不限制。</ins>
+
+#### [`fof-best-answer.admin.settings.show_max_lines_label`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-best-answer.admin.settings.show_max_lines_label%22)
+
+> Max lines to show in post preview
+
+```diff
+-最大预览帖行数
++帖子预览最大行数
+```
+
+#### [`fof-best-answer.admin.settings.tags_info`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-best-answer.admin.settings.tags_info%22)
+
+> When a tag is Best Answer enabled, assign permissions to each user group that may set answers (own discussion, any discussion). Permissions may be assigned globally (for any Best Answer anabled tag), or on a per tag basis.
+>
+
+```diff
+-为标签启用最佳回复功能后，请按需配置「设置最佳回复」的全局或标签权限。
++启用最佳回复后，请按需配置「设置最佳回复」的全局或标签权限。
+
+```
+
+#### [`fof-best-answer.admin.settings.use_alt_ui`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-best-answer.admin.settings.use_alt_ui%22)
+
+> Alternative layout
+
+```diff
+-按钮布局
++底部布局
+```
+
+#### [`fof-best-answer.admin.settings.use_alt_ui_help`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-best-answer.admin.settings.use_alt_ui_help%22)
+
+> Best answer controls in post footer
+
+```diff
+-在帖子底部显示最佳回复选择按钮
++将最佳回复操作放在帖子底部。
+```
+
+#### [`fof-best-answer.email.body.awarded`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-best-answer.email.body.awarded%22)
+
+> Hey {recipient\_display\_name},
+>
+> Great job, {actor\_display\_name} just set your post as the best answer in the discussion: {discussion\_title}. Thanks for helping out.
+>
+> View it here: {discussion\_url}
+>
+
+```diff
+ {recipient_display_name}，你好！
+
+-干得漂亮，您在【{discussion_title}】发表的回复刚刚被 {actor_display_name} 选为最佳回复。感谢你的耐心帮助。
++{actor_display_name} 刚刚将你在「{discussion_title}」中的帖子设为最佳回复。感谢你的热心帮助！
+
+-点击此处查看回复：{discussion_url}
++点击查看：{discussion_url}
+
+```
+
+{recipient\_display\_name}，你好！<br /><br /><del>干得漂亮，您在【{discussion\_title}】发表的回复刚刚被 </del>{actor\_display\_name} <del>选为最佳回复。感谢你的耐心帮助。</del><ins>刚刚将你在「{discussion\_title}」中的帖子设为最佳回复。感谢你的热心帮助！</ins><br /><br /><del>点击此处查看回复：{discussion\_url}</del><ins>点击查看：{discussion\_url}</ins><br />
 
 #### [`fof-best-answer.email.body.ba-set`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-best-answer.email.body.ba-set%22)
 
@@ -3007,13 +7331,14 @@ IP <del>地址滥用检查</del><ins>地址垃圾检查</ins>
  {recipient_display_name}，你好！
 
 -{actor_display_name} 刚刚为你参与讨论的主题【{discussion_title}】选择了最佳回复。
-+{actor_display_name} 刚刚为你参与讨论的讨论【{discussion_title}】选择了最佳回复。
++{actor_display_name} 刚刚为你参与的讨论「{discussion_title}」设置了最佳回复。
 
- 去看看吧：{discussion_url}
+-去看看吧：{discussion_url}
++点击查看：{discussion_url}
 
 ```
 
-{recipient\_display\_name}，你好！<br /><br />{actor\_display\_name} <del>刚刚为你参与讨论的主题【{discussion\_title}】选择了最佳回复。</del><ins>刚刚为你参与讨论的讨论【{discussion\_title}】选择了最佳回复。</ins><br /><br />去看看吧：{discussion\_url}<br />
+{recipient\_display\_name}，你好！<br /><br />{actor\_display\_name} <del>刚刚为你参与讨论的主题【{discussion\_title}】选择了最佳回复。</del><ins>刚刚为你参与的讨论「{discussion\_title}」设置了最佳回复。</ins><br /><br /><del>去看看吧：{discussion\_url}</del><ins>点击查看：{discussion\_url}</ins><br />
 
 #### [`fof-best-answer.email.body.select`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-best-answer.email.body.select%22)
 
@@ -3032,18 +7357,62 @@ IP <del>地址滥用检查</del><ins>地址垃圾检查</ins>
  {recipient_display_name}，你好！
 
 -你的主题「{discussion_title}」已经有了很多回复。
-+你的讨论「{discussion_title}」已经有了很多回复。
++你发起的讨论「{discussion_title}」已经收到了一些回复，不知道问题是否已经解决？
 
- 如果其中有可以帮助你解决问题的，你可以把他选为最佳回复，这样不仅能让后来者快速找到解决问题的办法，也可以激励帮助你的人。
+-如果其中有可以帮助你解决问题的，你可以把他选为最佳回复，这样不仅能让后来者快速找到解决问题的办法，也可以激励帮助你的人。
++如果问题已经解决，欢迎从回复中选出最有帮助的一条，设为最佳回复。此举不仅能帮到未来遇到相同问题人，也是对热心回复者的一份认可。
 
 -点击此处查看主题：{discussion_url}，并选择最佳回复。
-+点击此处查看讨论：{discussion_url}，并选择最佳回复。
++前往讨论：{discussion_url}
 
- 此致
+-此致
++感谢你的参与！
 
 ```
 
-{recipient\_display\_name}，你好！<br /><br /><del>你的主题「{discussion\_title}」已经有了很多回复。</del><ins>你的讨论「{discussion\_title}」已经有了很多回复。</ins><br /><br />如果其中有可以帮助你解决问题的，你可以把他选为最佳回复，这样不仅能让后来者快速找到解决问题的办法，也可以激励帮助你的人。<br /><br /><del>点击此处查看主题：{discussion\_url}，并选择最佳回复。</del><ins>点击此处查看讨论：{discussion\_url}，并选择最佳回复。</ins><br /><br />此致<br />
+{recipient\_display\_name}，你好！<br /><br /><del>你的主题「{discussion\_title}」已经有了很多回复。</del><ins>你发起的讨论「{discussion\_title}」已经收到了一些回复，不知道问题是否已经解决？</ins><br /><br /><del>如果其中有可以帮助你解决问题的，你可以把他选为最佳回复，这样不仅能让后来者快速找到解决问题的办法，也可以激励帮助你的人。</del><ins>如果问题已经解决，欢迎从回复中选出最有帮助的一条，设为最佳回复。此举不仅能帮到未来遇到相同问题人，也是对热心回复者的一份认可。</ins><br /><br /><del>点击此处查看主题：{discussion\_url}，并选择最佳回复。</del><ins>前往讨论：{discussion\_url}</ins><br /><br /><del>此致</del><ins>感谢你的参与！</ins><br />
+
+#### [`fof-best-answer.email.subject.awarded`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-best-answer.email.subject.awarded%22)
+
+> Your post was set as the best answer by {display\_name}
+
+```diff
+-您的帖子被 {display_name} 设为最佳回复
++{display_name} 将你的帖子设为最佳回复
+```
+
+<del>您的帖子被 </del>{display\_name} <del>设为最佳回复</del><ins>将你的帖子设为最佳回复</ins>
+
+#### [`fof-best-answer.email.subject.ba-set`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-best-answer.email.subject.ba-set%22)
+
+> A best answer was set by {display\_name}
+
+```diff
+-{display_name} 选择了一个最佳回复
++{display_name} 设置了最佳回复
+```
+
+{display\_name} <del>选择了一个最佳回复</del><ins>设置了最佳回复</ins>
+
+#### [`fof-best-answer.email.subject.select`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-best-answer.email.subject.select%22)
+
+> Did you manage to get your question answered?
+
+```diff
+-您的问题是否已解决？
++你的问题解决了吗？
+```
+
+#### [`fof-best-answer.forum.best_answer_label`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-best-answer.forum.best_answer_label%22)
+
+> set by &lt;a&gt;{username}&lt;/a&gt; {time\_set}
+
+```diff
+-由 <a>{username}</a> 于 {time_set} 选择
++由 <a>{username}</a> 于 {time_set} 设置
+```
+
+由 &lt;a&gt;{username}&lt;/a&gt; 于 {time\_set} <del>选择</del><ins>设置</ins>
 
 #### [`fof-best-answer.forum.errors.mismatch`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-best-answer.forum.errors.mismatch%22)
 
@@ -3051,7 +7420,63 @@ IP <del>地址滥用检查</del><ins>地址垃圾检查</ins>
 
 ```diff
 -您选择的帖子在当前主题中不存在
-+所选回复不在当前讨论中。
++所选帖子不属于此讨论。
+```
+
+#### [`fof-best-answer.forum.filter.accessible_label`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-best-answer.forum.filter.accessible_label%22)
+
+> Solved/Unsolved selection
+
+```diff
+-已解决/未解决
++筛选解决状态
+```
+
+#### [`fof-best-answer.forum.filter.unsolved_label`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-best-answer.forum.filter.unsolved_label%22)
+
+> Unsolved questions
+
+```diff
+-等待解决
++未解决
+```
+
+#### [`fof-best-answer.forum.index.ask_question`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-best-answer.forum.index.ask_question%22)
+
+> Ask a Question
+
+```diff
+-提问
++开始提问
+```
+
+#### [`fof-best-answer.forum.index.unsolved_link`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-best-answer.forum.index.unsolved_link%22)
+
+> Unsolved discussions
+
+```diff
+-等待解决
++未解决
+```
+
+#### [`fof-best-answer.forum.notification.awarded`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-best-answer.forum.notification.awarded%22)
+
+> Your post was set as the best answer by {username}
+
+```diff
+-您的帖子被 {username} 设为最佳回复
++{username} 将你的帖子设为最佳回复
+```
+
+<del>您的帖子被 </del>{username} <del>设为最佳回复</del><ins>将你的帖子设为最佳回复</ins>
+
+#### [`fof-best-answer.forum.notification.content`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-best-answer.forum.notification.content%22)
+
+> Please select a Best Answer if your question has been answered
+
+```diff
+-如果您的问题已解决，请选择一个最佳回复
++如果你的问题已经解决，别忘了选择最佳回复
 ```
 
 #### [`fof-best-answer.forum.notification.preferences.best_answer_in_discussion`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-best-answer.forum.notification.preferences.best_answer_in_discussion%22)
@@ -3060,7 +7485,7 @@ IP <del>地址滥用检查</del><ins>地址垃圾检查</ins>
 
 ```diff
 -我互动的主题有了最佳回复
-+我互动的讨论有了最佳回复
++我参与的讨论设置了最佳回复
 ```
 
 #### [`fof-best-answer.forum.notification.preferences.select_best_answer`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-best-answer.forum.notification.preferences.select_best_answer%22)
@@ -3069,7 +7494,500 @@ IP <del>地址滥用检查</del><ins>地址垃圾检查</ins>
 
 ```diff
 -提醒我选择自己主题的最佳回复
-+提醒我选择自己讨论的最佳回复
++提醒我为自己发起的讨论选择最佳回复
+```
+
+#### [`fof-best-answer.forum.remove_best_answer`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-best-answer.forum.remove_best_answer%22)
+
+> Unselect Best Answer
+
+```diff
+-移除最佳回复
++取消最佳回复
+```
+
+#### [`fof-best-answer.forum.user.best-answer-count`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-best-answer.forum.user.best-answer-count%22)
+
+> {count, plural, one { {count} best answer} other {{count} best answers}}
+
+```diff
+-{count} 次助人
++{count, plural, one {{count} 个最佳回复} other {{count} 个最佳回复}}
+```
+
+#### [`fof-user-directory.lib.sort.least_best_answers`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-user-directory.lib.sort.least_best_answers%22)
+
+> Least best answers
+
+```diff
+-最少最佳回复
++解题潜力股
+```
+
+#### [`fof-user-directory.lib.sort.most_best_answers`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-user-directory.lib.sort.most_best_answers%22)
+
+> Most best answers
+
+```diff
+-最多最佳回复
++问题终结者
+```
+
+
+### `fof-blog`
+
+#### [`fof-blog.admin.permissions.approve_posts`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.admin.permissions.approve_posts%22)
+
+> Can approve blog articles
+
+```diff
+-审核博客文章
++审核文章
+```
+
+#### [`fof-blog.admin.permissions.write_articles`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.admin.permissions.write_articles%22)
+
+> Write and edit blog articles
+
+```diff
+-撰写和编辑博客文章
++撰写和编辑文章
+```
+
+#### [`fof-blog.admin.settings.add_hero_label`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.admin.settings.add_hero_label%22)
+
+> Show welcome banner
+
+```diff
+-展示欢迎横幅
++显示欢迎横幅
+```
+
+#### [`fof-blog.admin.settings.add_hero_text`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.admin.settings.add_hero_text%22)
+
+> Show welcome banner on blog pages if it wasn't closed yet.
+
+```diff
+-允许在博客页面展示首页的欢迎横幅。
++在博客页面显示欢迎横幅，用户关闭后不再显示。
+```
+
+#### [`fof-blog.admin.settings.add_sidebar_nav_label`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.admin.settings.add_sidebar_nav_label%22)
+
+> Add to sidebar navigation
+
+```diff
+-添加到侧边栏
++添加至侧边栏
+```
+
+#### [`fof-blog.admin.settings.allow_comments_text`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.admin.settings.allow_comments_text%22)
+
+> By default, allow comments on blog posts. When disabled, it can be enabled individually per blog post. &lt;b&gt;Note:&lt;/b&gt; Changing this setting will not affect pre-existing blog posts.
+
+```diff
+-允许他人在新文章中发表评论。此项关闭时，只能为每篇文章单独开启。<b>注意：</b>此项设置的变更不会影响已存在的文章。
++允许他人评论文章。关闭后，仍可为单篇文章单独开启。<b>注意：</b>此设置变更不会影响已发布的文章。
+```
+
+#### [`fof-blog.admin.settings.default_article_image_label`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.admin.settings.default_article_image_label%22)
+
+> Default article image
+
+```diff
+-默认封面图
++默认文章头图
+```
+
+#### [`fof-blog.admin.settings.default_article_image_text`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.admin.settings.default_article_image_text%22)
+
+> Select a default article image to display when no image is set.
+
+```diff
+-设置默认使用的文章封面图。
++文章未设置头图时，使用此图片作为默认头图。
+```
+
+#### [`fof-blog.admin.settings.featured_count_label`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.admin.settings.featured_count_label%22)
+
+> Max Featured Posts
+
+```diff
+-精选评论上限
++精选文章上限
+```
+
+#### [`fof-blog.admin.settings.featured_count_text`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.admin.settings.featured_count_text%22)
+
+> How many posts should be displayed in a big grid at the top of a blog page?
+
+```diff
+-博客页面顶部最多可显示多少评论？
++设置博客页面顶部大图区域最多显示的精选文章数量。
+```
+
+#### [`fof-blog.admin.settings.hide_on_discussion_list_label`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.admin.settings.hide_on_discussion_list_label%22)
+
+> Don't show on discussion list
+
+```diff
+-不在主题列表中显示
++从讨论列表中隐藏
+```
+
+#### [`fof-blog.admin.settings.hide_on_discussion_list_text`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.admin.settings.hide_on_discussion_list_text%22)
+
+> Hide blog posts from the discussions list.
+
+```diff
+-在「全部主题」列表中隐藏博客文章。
++不在讨论列表中显示博客文章。
+```
+
+#### [`fof-blog.admin.settings.hide_tags_in_taglist_label`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.admin.settings.hide_tags_in_taglist_label%22)
+
+> Hide tags in taglist
+
+```diff
+-对标签列表不可见
++从标签列表中隐藏博客标签
+```
+
+#### [`fof-blog.admin.settings.hide_tags_in_taglist_text`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.admin.settings.hide_tags_in_taglist_text%22)
+
+> When enabled, this extension will hide the blog tags from your homepage.
+
+```diff
+-开启后，将在首页中隐藏博客标签。
++开启后，博客标签不会显示在首页标签列表中。
+```
+
+#### [`fof-blog.admin.settings.no_categories_selected`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.admin.settings.no_categories_selected%22)
+
+> No categories selected
+
+```diff
+-请选择分类目录
++尚未选择分类目录
+```
+
+#### [`fof-blog.admin.settings.require_review_label`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.admin.settings.require_review_label%22)
+
+> Blog posts requires review
+
+```diff
+-文章必须经人工审核
++文章需要审核
+```
+
+#### [`fof-blog.admin.settings.require_review_text`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.admin.settings.require_review_text%22)
+
+> When posting an article, it will not be visible directly and needs to be reviewed by a moderator.
+
+```diff
+-发布文章时，经管理员人工审核后才会公开可见。
++开启后，新文章提交后需要管理人员审核，通过后才能公开可见。
+```
+
+#### [`fof-blog.admin.settings.selected_category_count`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.admin.settings.selected_category_count%22)
+
+> {count, plural, one {You have # category selected} other {You have # categories selected}}
+
+```diff
+-已指定 {count, plural, one {#} other {#}} 个分类目录
++{count, plural, one {已选择 # 个分类目录} other {已选择 # 个分类目录}}
+```
+
+<del>已指定 </del>{count, plural, one <del>{#}</del><ins>{已选择 # 个分类目录}</ins> other <del>{#}}</del><ins>{已选择</ins> <del>个分类目录</del><ins># 个分类目录}}</ins>
+
+#### [`fof-blog.admin.settings.show_tag_hierarchy_label`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.admin.settings.show_tag_hierarchy_label%22)
+
+> Show tag hierarchy
+
+```diff
+-显示标签层次
++显示分类层级
+```
+
+#### [`fof-blog.admin.settings.show_tag_hierarchy_text`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.admin.settings.show_tag_hierarchy_text%22)
+
+> Add spacing to child-categories and give the category-list a hierarchy.
+
+```diff
+-在子分类目录之间添加空格，并为分类目录列表提供层次结构视图。
++为子分类增加缩进，在分类目录中展示层级关系。
+```
+
+#### [`fof-blog.forum.article.slug`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.forum.article.slug%22)
+
+> Slug
+
+```diff
+-别名
++固定链接名
+```
+
+#### [`fof-blog.forum.article_settings.fields.highlight.helper_text`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.forum.article_settings.fields.highlight.helper_text%22)
+
+> Give this post a big image on the blog overview page.
+
+```diff
+-使用大尺寸图片展示本文章。
++在博客首页以大图形式突出显示此文章
+```
+
+#### [`fof-blog.forum.article_settings.fields.highlight.title`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.forum.article_settings.fields.highlight.title%22)
+
+> Highlighted post
+
+```diff
+-大图
++精选文章
+```
+
+#### [`fof-blog.forum.article_settings.fields.image.helper_text`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.forum.article_settings.fields.image.helper_text%22)
+
+> Best image resolution for social media: 1200x630
+
+```diff
+-最佳分辨率 1200x630
++推荐尺寸：1200 × 630，适合社交媒体分享
+```
+
+#### [`fof-blog.forum.article_settings.fields.summary.helper_text`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.forum.article_settings.fields.summary.helper_text%22)
+
+> This summary will be visible on the blog overview page and will be used for SEO purposes.
+
+```diff
+-摘要用于 SEO，以及博客主页的预览。
++摘要用于 SEO，以及博客首页预览
+```
+
+摘要用于 <del>SEO，以及博客主页的预览。</del><ins>SEO，以及博客首页预览</ins>
+
+#### [`fof-blog.forum.article_settings.fields.summary.placeholder`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.forum.article_settings.fields.summary.placeholder%22)
+
+> Please enter a summary
+
+```diff
+-请输入摘要
++填写文章摘要
+```
+
+#### [`fof-blog.forum.article_settings.title`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.forum.article_settings.title%22)
+
+> Blog post settings
+
+```diff
+-博客文章设置
++文章设置
+```
+
+#### [`fof-blog.forum.category_empty`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.forum.category_empty%22)
+
+> There are no blog posts in this category.
+
+```diff
+-此分类目录中没有文章
++此分类目录暂无文章
+```
+
+#### [`fof-blog.forum.comment_section.locked`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.forum.comment_section.locked%22)
+
+> The comment section is disabled for this article
+
+```diff
+-评论已关闭
++此文章已关闭评论
+```
+
+#### [`fof-blog.forum.compose.write_article`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.forum.compose.write_article%22)
+
+> Write article
+
+```diff
+-写文章
++撰写文章
+```
+
+#### [`fof-blog.forum.composer.comment_section`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.forum.composer.comment_section%22)
+
+> The comment section is not available when composing an article.
+
+```diff
+-撰写文章时，评论区无法使用。
++撰写文章时暂不提供评论区。
+```
+
+#### [`fof-blog.forum.composer.enter_message_here`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.forum.composer.enter_message_here%22)
+
+> Enter your message here
+
+```diff
+-在此输入正文内容
++写点什么吧…
+```
+
+#### [`fof-blog.forum.composer.no_blog_tags_selected`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.forum.composer.no_blog_tags_selected%22)
+
+> None of the tags you have selected is a blog tag. Please select at least one.
+
+```diff
+-您选择的标签中没有一个是博客标签，请至少选择一个博客标签。
++所选标签中没有博客分类，请至少选择一个博客分类。
+```
+
+#### [`fof-blog.forum.composer.no_title`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.forum.composer.no_title%22)
+
+> No title
+
+```diff
+-标题
++无标题
+```
+
+#### [`fof-blog.forum.composer.nothing_to_preview`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.forum.composer.nothing_to_preview%22)
+
+> Nothing to preview
+
+```diff
+-什么都还没写呢
++暂无可预览内容
+```
+
+#### [`fof-blog.forum.composer.post_without_blog_info`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.forum.composer.post_without_blog_info%22)
+
+> Are you sure you want to post this blog post? You did not yet enter a blog summary or image.
+
+```diff
+-确定要发布这篇文章吗？您还没有输入博客摘要或上传封面图。
++文章尚未填写摘要或设置头图，确定要直接发布吗？
+```
+
+#### [`fof-blog.forum.composer.update_settings`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.forum.composer.update_settings%22)
+
+> Update blog settings
+
+```diff
+-文章设置
++更新文章设置
+```
+
+#### [`fof-blog.forum.composer.write`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.forum.composer.write%22)
+
+> Write
+
+```diff
+-写作
++编辑
+```
+
+#### [`fof-blog.forum.read_more`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.forum.read_more%22)
+
+> Read more
+
+```diff
+-阅读更多
++阅读全文
+```
+
+#### [`fof-blog.forum.recent_posts`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.forum.recent_posts%22)
+
+> Recent blog posts
+
+```diff
+-近期文章
++最近文章
+```
+
+#### [`fof-blog.forum.review_article.approve_article`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.forum.review_article.approve_article%22)
+
+> Approve article
+
+```diff
+-批准文章
++通过审核
+```
+
+#### [`fof-blog.forum.review_article.approve_article_approved`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.forum.review_article.approve_article_approved%22)
+
+> The article has been approved and published
+
+```diff
+-已批准发布此文章
++文章已通过审核并发布
+```
+
+#### [`fof-blog.forum.review_article.pending_review`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.forum.review_article.pending_review%22)
+
+> This article is pending review and has not yet been published
+
+```diff
+-此文章需要审核后才会发布
++此文章正在等待审核，尚未发布
+```
+
+#### [`fof-blog.forum.review_article.pending_review_title`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.forum.review_article.pending_review_title%22)
+
+> Pending review
+
+```diff
+-待审核
++等待审核
+```
+
+#### [`fof-blog.forum.tools.approve_article`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.forum.tools.approve_article%22)
+
+> Approve article
+
+```diff
+-批准文章
++通过审核
+```
+
+#### [`fof-blog.forum.tools.rename_article`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.forum.tools.rename_article%22)
+
+> Rename article
+
+```diff
+-重命名文章
++修改标题
+```
+
+#### [`fof-blog.forum.tools.update_category`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.forum.tools.update_category%22)
+
+> Update categories
+
+```diff
+-更新分类目录
++修改分类目录
+```
+
+#### [`fof-blog.forum.utils.redirect.link`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.forum.utils.redirect.link%22)
+
+> &lt;a&gt;Click here&lt;/a&gt; if the page does not redirect you
+
+```diff
+-如果没有任何响应，请<a>点击此处</a>
++如果没有自动跳转，请<a>点击这里</a>
+```
+
+#### [`fof-blog.forum.utils.redirect.title`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.forum.utils.redirect.title%22)
+
+> Redirecting you to our blog article...
+
+```diff
+-正在将您重定向至博客文章……
++正在跳转至博客文章…
+```
+
+#### [`fof-blog.forum.validation.missing_id`](https://weblate.rob006.net/translate/flarum2/fof-blog/zh_Hans/?q=context%3A%3D%22fof-blog.forum.validation.missing_id%22)
+
+> Missing ID
+
+```diff
+-ID 缺失
++缺少 ID
 ```
 
 
@@ -3092,7 +8010,7 @@ IP <del>地址滥用检查</del><ins>地址垃圾检查</ins>
 
 ```diff
 -强制将私密主题屏蔽的用户加入私密主题
-+强制将私密讨论屏蔽的用户加入私密讨论
++与拒绝私密讨论的用户发起私密讨论
 ```
 
 #### [`fof-byobu.admin.permission.create_private_discussions_with_groups`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.admin.permission.create_private_discussions_with_groups%22)
@@ -3101,7 +8019,7 @@ IP <del>地址滥用检查</del><ins>地址垃圾检查</ins>
 
 ```diff
 -与用户组创建私密主题
-+与用户组创建私密讨论
++邀请用户组参与私密讨论
 ```
 
 #### [`fof-byobu.admin.permission.create_private_discussions_with_users`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.admin.permission.create_private_discussions_with_users%22)
@@ -3110,7 +8028,7 @@ IP <del>地址滥用检查</del><ins>地址垃圾检查</ins>
 
 ```diff
 -与他人创建私密主题
-+与他人创建私密讨论
++与他人发起私密讨论
 ```
 
 #### [`fof-byobu.admin.permission.edit_group_recipients`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.admin.permission.edit_group_recipients%22)
@@ -3119,7 +8037,7 @@ IP <del>地址滥用检查</del><ins>地址垃圾检查</ins>
 
 ```diff
 -设置私密主题用户组可见范围
-+设置私密讨论用户组可见范围
++编辑私密讨论参与用户组
 ```
 
 #### [`fof-byobu.admin.permission.edit_user_recipients`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.admin.permission.edit_user_recipients%22)
@@ -3128,7 +8046,7 @@ IP <del>地址滥用检查</del><ins>地址垃圾检查</ins>
 
 ```diff
 -设置私密主题用户可见范围
-+设置私密讨论用户可见范围
++编辑私密讨论参与用户
 ```
 
 #### [`fof-byobu.admin.permission.make_private_into_public`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.admin.permission.make_private_into_public%22)
@@ -3137,7 +8055,7 @@ IP <del>地址滥用检查</del><ins>地址垃圾检查</ins>
 
 ```diff
 -将私密主题转为公开
-+将私密讨论转为公开
++将私密讨论转为公开讨论
 ```
 
 #### [`fof-byobu.admin.permission.view_private_discussions-when-flagged`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.admin.permission.view_private_discussions-when-flagged%22)
@@ -3146,7 +8064,7 @@ IP <del>地址滥用检查</del><ins>地址垃圾检查</ins>
 
 ```diff
 -查看他人被举报的私密主题
-+查看他人被举报的私密讨论
++查看被举报的私密讨论
 ```
 
 #### [`fof-byobu.admin.settings.badge-icon`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.admin.settings.badge-icon%22)
@@ -3155,10 +8073,8 @@ IP <del>地址滥用检查</del><ins>地址垃圾检查</ins>
 
 ```diff
 -Byobu 主题帖徽章
-+Byobu 讨论帖徽章
++私密讨论徽章
 ```
-
-Byobu <del>主题帖徽章</del><ins>讨论帖徽章</ins>
 
 #### [`fof-byobu.admin.settings.delete_on_last_recipient_left`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.admin.settings.delete_on_last_recipient_left%22)
 
@@ -3166,7 +8082,7 @@ Byobu <del>主题帖徽章</del><ins>讨论帖徽章</ins>
 
 ```diff
 -所有参与者均离开后，自动删除该私密主题
-+所有参与者均离开后，自动删除该私密讨论
++最后一个参与对象退出后删除讨论
 ```
 
 #### [`fof-byobu.admin.settings.delete_on_last_recipient_left_help`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.admin.settings.delete_on_last_recipient_left_help%22)
@@ -3175,7 +8091,16 @@ Byobu <del>主题帖徽章</del><ins>讨论帖徽章</ins>
 
 ```diff
 -启用此项，在所有用户均退出私密主题时，永久删除主题内容。否则，隐藏私密主题。
-+启用此项，在所有用户均退出私密讨论时，永久删除讨论内容。否则，隐藏私密讨论。
++开启后，最后一个参与对象退出时会永久删除私密讨论。关闭此项则改为隐藏。
+```
+
+#### [`fof-byobu.admin.settings.enable-make-public-option`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.admin.settings.enable-make-public-option%22)
+
+> Enable the "make public" ability
+
+```diff
+-启用「私密转公开」功能
++允许私密转公开
 ```
 
 #### [`fof-byobu.admin.settings.enable-make-public-option-help`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.admin.settings.enable-make-public-option-help%22)
@@ -3184,7 +8109,7 @@ Byobu <del>主题帖徽章</del><ins>讨论帖徽章</ins>
 
 ```diff
 -转公开时，所有参与者自动退出私密主题，私密主题转为普通公开主题。
-+转公开时，所有参与者自动退出私密讨论，私密讨论转为普通公开讨论。
++开启后，拥有权限的用户可以移除所有参与对象、重新选择标签，并将私密讨论转为公开。公开后的可见范围由所选标签的权限决定。
 ```
 
 #### [`fof-byobu.admin.settings.hide_from_all_discussions_page`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.admin.settings.hide_from_all_discussions_page%22)
@@ -3193,7 +8118,7 @@ Byobu <del>主题帖徽章</del><ins>讨论帖徽章</ins>
 
 ```diff
 -在「全部主题」页面隐藏私密主题
-+在「全部讨论」页面隐藏私密讨论
++从「全部讨论」中隐藏私密讨论
 ```
 
 #### [`fof-byobu.admin.settings.hide_from_all_discussions_page_help`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.admin.settings.hide_from_all_discussions_page_help%22)
@@ -3202,7 +8127,16 @@ Byobu <del>主题帖徽章</del><ins>讨论帖徽章</ins>
 
 ```diff
 -只保留「私密主题」页面和个人主页两个访问入口
-+只保留「私密讨论」页面和个人主页两个访问入口
++开启后，私密讨论仅可从「私密讨论」页面或用户个人主页进入
+```
+
+#### [`fof-byobu.admin.settings.post-event-icon`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.admin.settings.post-event-icon%22)
+
+> Byobu Post Events
+
+```diff
+-Byobu 发帖事件
++私密讨论事件图标
 ```
 
 #### [`fof-byobu.email.subject.private_discussion_added`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.email.subject.private_discussion_added%22)
@@ -3211,7 +8145,7 @@ Byobu <del>主题帖徽章</del><ins>讨论帖徽章</ins>
 
 ```diff
 -【私密主题】{display_name} 将您加入私密主题
-+【私密讨论】{display_name} 将您加入私密讨论
++【私密讨论】{display_name} 将你加入了私密讨论
 ```
 
 #### [`fof-byobu.email.subject.private_discussion_created`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.email.subject.private_discussion_created%22)
@@ -3220,7 +8154,7 @@ Byobu <del>主题帖徽章</del><ins>讨论帖徽章</ins>
 
 ```diff
 -【私密主题】{display_name} 与您创建私密主题
-+【私密讨论】{display_name} 与您创建私密讨论
++【私密讨论】{display_name} 邀请你加入新的私密讨论
 ```
 
 #### [`fof-byobu.email.subject.private_discussion_replied`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.email.subject.private_discussion_replied%22)
@@ -3229,10 +8163,8 @@ Byobu <del>主题帖徽章</del><ins>讨论帖徽章</ins>
 
 ```diff
 -【私密主题】{display_name} 发表新帖
-+【私密讨论】{display_name} 发表新帖
++【私密讨论】{display_name} 发布了新内容
 ```
-
-<del>【私密主题】{display\_name}</del><ins>【私密讨论】{display\_name}</ins> 发表新帖
 
 #### [`fof-byobu.email.subject.recipient_removed`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.email.subject.recipient_removed%22)
 
@@ -3240,10 +8172,8 @@ Byobu <del>主题帖徽章</del><ins>讨论帖徽章</ins>
 
 ```diff
 -【私密主题】{display_name} 退出
-+【私密讨论】{display_name} 退出
++【私密讨论】{display_name} 退出了讨论
 ```
-
-<del>【私密主题】{display\_name}</del><ins>【私密讨论】{display\_name}</ins> 退出
 
 #### [`fof-byobu.forum.badges.is_private.tooltip`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.forum.badges.is_private.tooltip%22)
 
@@ -3254,13 +8184,31 @@ Byobu <del>主题帖徽章</del><ins>讨论帖徽章</ins>
 +私密讨论
 ```
 
+#### [`fof-byobu.forum.buttons.add_recipients`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.forum.buttons.add_recipients%22)
+
+> Recipients
+
+```diff
+-公开
++参与者
+```
+
+#### [`fof-byobu.forum.buttons.edit_recipients`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.forum.buttons.edit_recipients%22)
+
+> Edit Recipients
+
+```diff
+-可见范围
++编辑参与者
+```
+
 #### [`fof-byobu.forum.buttons.make_public`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.forum.buttons.make_public%22)
 
 > Make this discussion public
 
 ```diff
 -公开主题
-+公开讨论
++转为公开讨论
 ```
 
 #### [`fof-byobu.forum.buttons.remove_from_discussion`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.forum.buttons.remove_from_discussion%22)
@@ -3272,13 +8220,24 @@ Byobu <del>主题帖徽章</del><ins>讨论帖徽章</ins>
 +退出私密讨论
 ```
 
+#### [`fof-byobu.forum.buttons.send_pd`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.forum.buttons.send_pd%22)
+
+> Send {username} a message
+
+```diff
+-发送消息至 {username}
++与 {username} 发起私密讨论
+```
+
+<del>发送消息至</del><ins>与</ins> {username}<ins> 发起私密讨论</ins>
+
 #### [`fof-byobu.forum.composer_private_discussion.submit_button`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.forum.composer_private_discussion.submit_button%22)
 
 > Post Private Discussion
 
 ```diff
 -新建私密主题
-+新建私密讨论
++发起私密讨论
 ```
 
 #### [`fof-byobu.forum.composer_private_discussion.title_placeholder`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.forum.composer_private_discussion.title_placeholder%22)
@@ -3287,7 +8246,7 @@ Byobu <del>主题帖徽章</del><ins>讨论帖徽章</ins>
 
 ```diff
 -私密主题标题
-+私密讨论标题
++标题
 ```
 
 #### [`fof-byobu.forum.confirm.make_public`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.forum.confirm.make_public%22)
@@ -3296,8 +8255,28 @@ Byobu <del>主题帖徽章</del><ins>讨论帖徽章</ins>
 
 ```diff
 -确定移除所有参与者，并公开此主题吗？
-+确定移除所有参与者，并公开此讨论吗？
++确定要移除所有参与者，并公开此讨论吗？公开后，拥有当前标签权限的用户都可以查看此讨论。
 ```
+
+#### [`fof-byobu.forum.input.search_recipients`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.forum.input.search_recipients%22)
+
+> Search recipient by typing first three characters...
+
+```diff
+-输入用户名前三位……
++输入至少 3 个字符搜索参与者…
+```
+
+#### [`fof-byobu.forum.labels.recipients`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.forum.labels.recipients%22)
+
+> {count, plural, one {{count} Recipient} other {{count} Recipients}}
+
+```diff
+-{count, plural, one {{count}} other {{count}}} 人可见
++{count, plural, one {{count} 个参与对象} other {{count} 个参与对象}}
+```
+
+{count, plural, one <del>{{count}}</del><ins>{{count} 个参与对象}</ins> other <del>{{count}}}</del><ins>{{count}</ins> <del>人可见</del><ins>个参与对象}}</ins>
 
 #### [`fof-byobu.forum.modal.help.add_recipients`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.forum.modal.help.add_recipients%22)
 
@@ -3305,7 +8284,25 @@ Byobu <del>主题帖徽章</del><ins>讨论帖徽章</ins>
 
 ```diff
 -此主题仅选中的用户可见。至少添加一个用户（您除外）才能创建私密主题。
-+此讨论仅选中的用户可见。至少添加一个用户（您除外）才能创建私密讨论。
++此讨论仅所选用户可见。除自己外，至少需要添加 1 个参与者。
+```
+
+#### [`fof-byobu.forum.modal.help.click_user_to_remove_tooltip`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.forum.modal.help.click_user_to_remove_tooltip%22)
+
+> Click to remove
+
+```diff
+-单击移除
++点击移除
+```
+
+#### [`fof-byobu.forum.modal.help.selected_users`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.forum.modal.help.selected_users%22)
+
+> Click a user's name to remove them.
+
+```diff
+-单击以移除用户。
++点击用户名即可移除。
 ```
 
 #### [`fof-byobu.forum.modal.help.update_recipients`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.forum.modal.help.update_recipients%22)
@@ -3314,7 +8311,7 @@ Byobu <del>主题帖徽章</del><ins>讨论帖徽章</ins>
 
 ```diff
 -此主题仅选中的用户可见。
-+此讨论仅选中的用户可见。
++此讨论仅所选用户可见。
 ```
 
 #### [`fof-byobu.forum.modal.titles.add_recipients`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.forum.modal.titles.add_recipients%22)
@@ -3323,7 +8320,16 @@ Byobu <del>主题帖徽章</del><ins>讨论帖徽章</ins>
 
 ```diff
 -邀请用户加入私密主题
-+邀请用户加入私密讨论
++添加参与者
+```
+
+#### [`fof-byobu.forum.modal.titles.update_recipients`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.forum.modal.titles.update_recipients%22)
+
+> Update recipients of {title}
+
+```diff
+-更新「{title}」的可见范围
++编辑「{title}」的参与者
 ```
 
 #### [`fof-byobu.forum.nav.nav_item`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.forum.nav.nav_item%22)
@@ -3341,7 +8347,7 @@ Byobu <del>主题帖徽章</del><ins>讨论帖徽章</ins>
 
 ```diff
 -私密主题
-+私密讨论
++发起私密讨论
 ```
 
 #### [`fof-byobu.forum.notifications.pd_added_label`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.forum.notifications.pd_added_label%22)
@@ -3350,7 +8356,7 @@ Byobu <del>主题帖徽章</del><ins>讨论帖徽章</ins>
 
 ```diff
 -有人邀请我加入私密主题
-+有人邀请我加入私密讨论
++有人将我加入已有的私密讨论
 ```
 
 #### [`fof-byobu.forum.notifications.pd_added_text`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.forum.notifications.pd_added_text%22)
@@ -3359,10 +8365,10 @@ Byobu <del>主题帖徽章</del><ins>讨论帖徽章</ins>
 
 ```diff
 -{username} 邀请您加入私密主题
-+{username} 邀请您加入私密讨论
++{username} 将你加入私密讨论
 ```
 
-{username} <del>邀请您加入私密主题</del><ins>邀请您加入私密讨论</ins>
+{username} <del>邀请您加入私密主题</del><ins>将你加入私密讨论</ins>
 
 #### [`fof-byobu.forum.notifications.pd_label`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.forum.notifications.pd_label%22)
 
@@ -3370,7 +8376,7 @@ Byobu <del>主题帖徽章</del><ins>讨论帖徽章</ins>
 
 ```diff
 -有人和我创建私密主题
-+有人和我创建私密讨论
++有人邀请我加入新的私密讨论
 ```
 
 #### [`fof-byobu.forum.notifications.pd_reply_label`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.forum.notifications.pd_reply_label%22)
@@ -3379,7 +8385,7 @@ Byobu <del>主题帖徽章</del><ins>讨论帖徽章</ins>
 
 ```diff
 -参与的私密主题有新贴
-+参与的私密讨论有新贴
++我参与的私密讨论有新内容
 ```
 
 #### [`fof-byobu.forum.notifications.pd_reply_text`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.forum.notifications.pd_reply_text%22)
@@ -3388,10 +8394,10 @@ Byobu <del>主题帖徽章</del><ins>讨论帖徽章</ins>
 
 ```diff
 -{username} 在私密主题中发表新帖
-+{username} 在私密讨论中发表新帖
++{username} 在你参与的私密讨论中发布了新内容
 ```
 
-{username} <del>在私密主题中发表新帖</del><ins>在私密讨论中发表新帖</ins>
+{username} <del>在私密主题中发表新帖</del><ins>在你参与的私密讨论中发布了新内容</ins>
 
 #### [`fof-byobu.forum.notifications.pd_text`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.forum.notifications.pd_text%22)
 
@@ -3399,10 +8405,10 @@ Byobu <del>主题帖徽章</del><ins>讨论帖徽章</ins>
 
 ```diff
 -{username} 和我创建私密主题
-+{username} 和我创建私密讨论
++{username} 邀请你加入新的私密讨论
 ```
 
-{username} <del>和我创建私密主题</del><ins>和我创建私密讨论</ins>
+{username} <del>和我创建私密主题</del><ins>邀请你加入新的私密讨论</ins>
 
 #### [`fof-byobu.forum.notifications.pd_user_left_label`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.forum.notifications.pd_user_left_label%22)
 
@@ -3410,7 +8416,7 @@ Byobu <del>主题帖徽章</del><ins>讨论帖徽章</ins>
 
 ```diff
 -有人退出我参与的私密主题
-+有人退出我参与的私密讨论
++我参与的私密讨论有人退出
 ```
 
 #### [`fof-byobu.forum.notifications.pd_user_left_text`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.forum.notifications.pd_user_left_text%22)
@@ -3419,10 +8425,32 @@ Byobu <del>主题帖徽章</del><ins>讨论帖徽章</ins>
 
 ```diff
 -{username} 退出私密主题
-+{username} 退出私密讨论
++{username} 退出了私密讨论
 ```
 
-{username} <del>退出私密主题</del><ins>退出私密讨论</ins>
+{username} <del>退出私密主题</del><ins>退出了私密讨论</ins>
+
+#### [`fof-byobu.forum.post.recipients_modified.added`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.forum.post.recipients_modified.added%22)
+
+> {username} added recipients {added}.
+
+```diff
+-{username} 邀请 {added} 加入。
++{username} 邀请了 {added} 加入
+```
+
+{username} <del>邀请</del><ins>邀请了</ins> {added} <del>加入。</del><ins>加入</ins>
+
+#### [`fof-byobu.forum.post.recipients_modified.added_and_removed`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.forum.post.recipients_modified.added_and_removed%22)
+
+> {username} added recipients {added} and removed {removed}.
+
+```diff
+-{username} 邀请 {added} 加入，并移出 {removed}。
++{username} 邀请了 {added} 加入，并移出了 {removed}
+```
+
+{username} <del>邀请</del><ins>邀请了</ins> {added} <del>加入，并移出</del><ins>加入，并移出了</ins> <del>{removed}。</del><ins>{removed}</ins>
 
 #### [`fof-byobu.forum.post.recipients_modified.made_public`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.forum.post.recipients_modified.made_public%22)
 
@@ -3430,10 +8458,21 @@ Byobu <del>主题帖徽章</del><ins>讨论帖徽章</ins>
 
 ```diff
 -{username} 将主题公开
-+{username} 将讨论公开
++{username} 将讨论转为公开
 ```
 
-{username} <del>将主题公开</del><ins>将讨论公开</ins>
+{username} <del>将主题公开</del><ins>将讨论转为公开</ins>
+
+#### [`fof-byobu.forum.post.recipients_modified.removed`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.forum.post.recipients_modified.removed%22)
+
+> {username} removed recipients {removed}.
+
+```diff
+-{username} 将 {removed} 移出。
++{username} 移出了 {removed}
+```
+
+{username} <del>将</del><ins>移出了</ins> {removed}<del> 移出。</del>
 
 #### [`fof-byobu.forum.post.recipients_modified.removed_self`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.forum.post.recipients_modified.removed_self%22)
 
@@ -3441,10 +8480,10 @@ Byobu <del>主题帖徽章</del><ins>讨论帖徽章</ins>
 
 ```diff
 -{username} 退出私密主题。
-+{username} 退出私密讨论。
++{username} 退出了私密讨论
 ```
 
-{username} <del>退出私密主题。</del><ins>退出私密讨论。</ins>
+{username} <del>退出私密主题。</del><ins>退出了私密讨论</ins>
 
 #### [`fof-byobu.forum.user.byobu_link`](https://weblate.rob006.net/translate/flarum2/fof-byobu/zh_Hans/?q=context%3A%3D%22fof-byobu.forum.user.byobu_link%22)
 
@@ -3470,19 +8509,73 @@ Byobu <del>主题帖徽章</del><ins>讨论帖徽章</ins>
 
 ```diff
 -屏蔽私密主题
-+屏蔽私密讨论
++拒绝私密讨论邀请
 ```
 
 
-### `fof-default-group`
+### `fof-cookie-consent`
 
-#### [`fof-default-group.admin.settings.info`](https://weblate.rob006.net/translate/flarum2/fof-default-group/zh_Hans/?q=context%3A%3D%22fof-default-group.admin.settings.info%22)
+#### [`fof-cookie-consent.admin.settings.backgroundColor`](https://weblate.rob006.net/translate/flarum2/fof-cookie-consent/zh_Hans/?q=context%3A%3D%22fof-cookie-consent.admin.settings.backgroundColor%22)
 
-> Below you can select the group to assign a user when their account is activated.
+> Background
 
 ```diff
--请在下方选择新用户激活账号后默认分配的用户组。
-+请在下方选择新用户激活账号后默认分配的群组。
+-背景颜色
++背景
+```
+
+#### [`fof-cookie-consent.admin.settings.buttonBackgroundColor`](https://weblate.rob006.net/translate/flarum2/fof-cookie-consent/zh_Hans/?q=context%3A%3D%22fof-cookie-consent.admin.settings.buttonBackgroundColor%22)
+
+> Background
+
+```diff
+-按钮背景颜色
++背景
+```
+
+#### [`fof-cookie-consent.admin.settings.buttonTextColor`](https://weblate.rob006.net/translate/flarum2/fof-cookie-consent/zh_Hans/?q=context%3A%3D%22fof-cookie-consent.admin.settings.buttonTextColor%22)
+
+> Text
+
+```diff
+-按钮文本颜色
++文本
+```
+
+#### [`fof-cookie-consent.admin.settings.configuration_title`](https://weblate.rob006.net/translate/flarum2/fof-cookie-consent/zh_Hans/?q=context%3A%3D%22fof-cookie-consent.admin.settings.configuration_title%22)
+
+> Configuration Options
+
+```diff
+-配置选项
++常规设置
+```
+
+#### [`fof-cookie-consent.admin.settings.learnMoreLinkUrl`](https://weblate.rob006.net/translate/flarum2/fof-cookie-consent/zh_Hans/?q=context%3A%3D%22fof-cookie-consent.admin.settings.learnMoreLinkUrl%22)
+
+> Link
+
+```diff
+-链接
++链接地址
+```
+
+#### [`fof-cookie-consent.admin.settings.textColor`](https://weblate.rob006.net/translate/flarum2/fof-cookie-consent/zh_Hans/?q=context%3A%3D%22fof-cookie-consent.admin.settings.textColor%22)
+
+> Text
+
+```diff
+-文本颜色
++文本
+```
+
+#### [`fof-cookie-consent.admin.settings.theme_popup_title`](https://weblate.rob006.net/translate/flarum2/fof-cookie-consent/zh_Hans/?q=context%3A%3D%22fof-cookie-consent.admin.settings.theme_popup_title%22)
+
+> Popup Colors
+
+```diff
+-弹窗颜色
++提示框颜色
 ```
 
 
@@ -3494,7 +8587,25 @@ Byobu <del>主题帖徽章</del><ins>讨论帖徽章</ins>
 
 ```diff
 -在线披露
-+公开在线状态
++默认公开在线状态
+```
+
+#### [`fof-default-user-preferences.admin.settings.discloseOnline-help`](https://weblate.rob006.net/translate/flarum2/fof-default-user-preferences/zh_Hans/?q=context%3A%3D%22fof-default-user-preferences.admin.settings.discloseOnline-help%22)
+
+> When enabled, new users will allow others to see when they are online. Admins and other users with permission will still be able to see online status regardless of this setting.
+
+```diff
+-启用后，新用户将允许其他人看到他们何时在线。无论此设置如何，管理员和其他有权限的用户仍然可以看到在线状态。
++开启后，新用户默认允许他人查看自己的在线状态。管理员及其他拥有相应权限的用户始终可看，不受此设置影响。
+```
+
+#### [`fof-default-user-preferences.admin.settings.followAfterReply`](https://weblate.rob006.net/translate/flarum2/fof-default-user-preferences/zh_Hans/?q=context%3A%3D%22fof-default-user-preferences.admin.settings.followAfterReply%22)
+
+> Follow after reply
+
+```diff
+-回复并关注
++默认自动关注参与的讨论
 ```
 
 #### [`fof-default-user-preferences.admin.settings.followAfterReply-help`](https://weblate.rob006.net/translate/flarum2/fof-default-user-preferences/zh_Hans/?q=context%3A%3D%22fof-default-user-preferences.admin.settings.followAfterReply-help%22)
@@ -3503,7 +8614,7 @@ Byobu <del>主题帖徽章</del><ins>讨论帖徽章</ins>
 
 ```diff
 -启用后，新用户将自动关注回复或评论的主题帖。
-+启用后，新用户将自动关注回复或评论的讨论帖。
++开启后，新用户回复讨论后会自动关注该讨论。
 ```
 
 #### [`fof-default-user-preferences.admin.settings.groupMentioned`](https://weblate.rob006.net/translate/flarum2/fof-default-user-preferences/zh_Hans/?q=context%3A%3D%22fof-default-user-preferences.admin.settings.groupMentioned%22)
@@ -3512,7 +8623,61 @@ Byobu <del>主题帖徽章</del><ins>讨论帖徽章</ins>
 
 ```diff
 -用户组提及邮件通知
-+群组提及邮件通知
++默认接收用户组提及邮件
+```
+
+#### [`fof-default-user-preferences.admin.settings.indexProfile`](https://weblate.rob006.net/translate/flarum2/fof-default-user-preferences/zh_Hans/?q=context%3A%3D%22fof-default-user-preferences.admin.settings.indexProfile%22)
+
+> Index Profile
+
+```diff
+-索引配置文件
++默认允许索引个人主页
+```
+
+#### [`fof-default-user-preferences.admin.settings.indexProfile-help`](https://weblate.rob006.net/translate/flarum2/fof-default-user-preferences/zh_Hans/?q=context%3A%3D%22fof-default-user-preferences.admin.settings.indexProfile-help%22)
+
+> When enabled, new users will allow search engines to index their profile page, unless blocked by other site or extension settings.
+
+```diff
+-启用后，新用户将允许搜索引擎索引其个人资料页，除非被其他网站或扩展程序设置屏蔽。
++开启后，新用户默认允许搜索引擎索引个人主页，但仍会受论坛或其他扩展的相关设置限制。
+```
+
+#### [`fof-default-user-preferences.admin.settings.postMentioned`](https://weblate.rob006.net/translate/flarum2/fof-default-user-preferences/zh_Hans/?q=context%3A%3D%22fof-default-user-preferences.admin.settings.postMentioned%22)
+
+> Post mentioned email
+
+```diff
+-回复邮件通知
++默认接收帖子回复邮件
+```
+
+#### [`fof-default-user-preferences.admin.settings.postMentioned-help`](https://weblate.rob006.net/translate/flarum2/fof-default-user-preferences/zh_Hans/?q=context%3A%3D%22fof-default-user-preferences.admin.settings.postMentioned-help%22)
+
+> When enabled, new users will automatically opt into receiving an email notification when one of their posts is mentioned.
+
+```diff
+-启用后，新用户将默认开启「有人回复了我」邮件通知。
++开启后，新用户的帖子被回复时，默认接收邮件通知。
+```
+
+#### [`fof-default-user-preferences.admin.settings.userMentioned`](https://weblate.rob006.net/translate/flarum2/fof-default-user-preferences/zh_Hans/?q=context%3A%3D%22fof-default-user-preferences.admin.settings.userMentioned%22)
+
+> User mentioned email
+
+```diff
+-提及邮件通知
++默认接收提及邮件
+```
+
+#### [`fof-default-user-preferences.admin.settings.userMentioned-help`](https://weblate.rob006.net/translate/flarum2/fof-default-user-preferences/zh_Hans/?q=context%3A%3D%22fof-default-user-preferences.admin.settings.userMentioned-help%22)
+
+> When enabled, new users will automatically opt into receiving an email notification when they are @mentioned.
+
+```diff
+-启用后，新用户将默认开启「有人提到了我」邮件通知。
++开启后，新用户在帖子中被提及时，默认接收邮件通知。
 ```
 
 
@@ -3524,7 +8689,7 @@ Byobu <del>主题帖徽章</del><ins>讨论帖徽章</ins>
 
 ```diff
 -管理所有主题帖的回复模板
-+管理所有讨论帖的回复模板
++管理所有讨论的回复模板
 ```
 
 #### [`fof-discussion-templates.admin.permissions.manage_own_discussion_reply_templates`](https://weblate.rob006.net/translate/flarum2/fof-discussion-templates/zh_Hans/?q=context%3A%3D%22fof-discussion-templates.admin.permissions.manage_own_discussion_reply_templates%22)
@@ -3533,7 +8698,7 @@ Byobu <del>主题帖徽章</del><ins>讨论帖徽章</ins>
 
 ```diff
 -管理标签旗下主题贴的回复模板
-+管理标签下讨论贴的回复模板
++管理自己发起讨论的回复模板
 ```
 
 #### [`fof-discussion-templates.admin.settings.append_template_on_tag_change`](https://weblate.rob006.net/translate/flarum2/fof-discussion-templates/zh_Hans/?q=context%3A%3D%22fof-discussion-templates.admin.settings.append_template_on_tag_change%22)
@@ -3542,7 +8707,16 @@ Byobu <del>主题帖徽章</del><ins>讨论帖徽章</ins>
 
 ```diff
 -标签变化后重载模板
-+标签变化后重载模板？
++切换标签时追加模板
+```
+
+#### [`fof-discussion-templates.admin.settings.append_template_on_tag_change_help`](https://weblate.rob006.net/translate/flarum2/fof-discussion-templates/zh_Hans/?q=context%3A%3D%22fof-discussion-templates.admin.settings.append_template_on_tag_change_help%22)
+
+> When tags are changed, should the new tag's template be appended even if the user has already started writing? Regardless of this setting, if tags are changed and the user has not made modifications, the template will be switched.
+
+```diff
+-当用户已撰写内容的情况下，标签发生了变更，此时是否重新载入模板？不论此项开启与否，在未撰写内容的情况下，标签变更都会重新载入模板。
++开启后，用户已经输入内容的情况下，切换标签时追加新标签的模板。关闭后，若用户尚未修改内容，切换标签会自动替换为新模板。
 ```
 
 #### [`fof-discussion-templates.admin.settings.no_tag_template`](https://weblate.rob006.net/translate/flarum2/fof-discussion-templates/zh_Hans/?q=context%3A%3D%22fof-discussion-templates.admin.settings.no_tag_template%22)
@@ -3551,7 +8725,7 @@ Byobu <del>主题帖徽章</del><ins>讨论帖徽章</ins>
 
 ```diff
 -默认模板（适用于无自定义模板的标签）：
-+默认模板（在未选择任何标签发起讨论时使用）：
++默认模板（发起讨论时未选择标签则使用）：
 ```
 
 #### [`fof-discussion-templates.admin.tag_template_modal.customize_text`](https://weblate.rob006.net/translate/flarum2/fof-discussion-templates/zh_Hans/?q=context%3A%3D%22fof-discussion-templates.admin.tag_template_modal.customize_text%22)
@@ -3560,7 +8734,7 @@ Byobu <del>主题帖徽章</del><ins>讨论帖徽章</ins>
 
 ```diff
 -编辑在此标签下创建新主题时的默认模板。
-+编辑在此标签下创建新讨论时的默认模板。
++设置在此标签下发起讨论时使用的模板。
 ```
 
 #### [`fof-discussion-templates.admin.tag_template_modal.title`](https://weblate.rob006.net/translate/flarum2/fof-discussion-templates/zh_Hans/?q=context%3A%3D%22fof-discussion-templates.admin.tag_template_modal.title%22)
@@ -3569,7 +8743,7 @@ Byobu <del>主题帖徽章</del><ins>讨论帖徽章</ins>
 
 ```diff
 -新主题模板
-+新讨论模板
++讨论模板
 ```
 
 #### [`fof-discussion-templates.admin.tags.tag_template_heading`](https://weblate.rob006.net/translate/flarum2/fof-discussion-templates/zh_Hans/?q=context%3A%3D%22fof-discussion-templates.admin.tags.tag_template_heading%22)
@@ -3578,7 +8752,7 @@ Byobu <del>主题帖徽章</del><ins>讨论帖徽章</ins>
 
 ```diff
 -新主题模板
-+新讨论模板
++讨论模板
 ```
 
 #### [`fof-discussion-templates.admin.tags.tag_template_text`](https://weblate.rob006.net/translate/flarum2/fof-discussion-templates/zh_Hans/?q=context%3A%3D%22fof-discussion-templates.admin.tags.tag_template_text%22)
@@ -3587,7 +8761,7 @@ Byobu <del>主题帖徽章</del><ins>讨论帖徽章</ins>
 
 ```diff
 -编辑在此标签下创建新主题时的默认模板。
-+编辑在此标签下创建新讨论时的默认模板。
++设置在此标签下发起讨论时使用的模板。
 ```
 
 
@@ -3599,11 +8773,138 @@ Byobu <del>主题帖徽章</del><ins>讨论帖徽章</ins>
 
 ```diff
 -关联主题帖缩略图到主题帖，而非用户
-+关联讨论帖缩略图到讨论帖，而非用户
++开启后，点击讨论列表的头像将直接进入讨论页面
+```
+
+
+### `fof-discussion-views`
+
+#### [`fof-discussion-views.admin.permissions.reset_views_label`](https://weblate.rob006.net/translate/flarum2/fof-discussion-views/zh_Hans/?q=context%3A%3D%22fof-discussion-views.admin.permissions.reset_views_label%22)
+
+> Set discussion views
+
+```diff
+-设置主题浏览量
++设置讨论浏览量
+```
+
+#### [`fof-discussion-views.forum.modal_resetviews.submit`](https://weblate.rob006.net/translate/flarum2/fof-discussion-views/zh_Hans/?q=context%3A%3D%22fof-discussion-views.forum.modal_resetviews.submit%22)
+
+> Submit
+
+```diff
+-提交
++保存
+```
+
+#### [`fof-discussion-views.forum.modal_resetviews.title`](https://weblate.rob006.net/translate/flarum2/fof-discussion-views/zh_Hans/?q=context%3A%3D%22fof-discussion-views.forum.modal_resetviews.title%22)
+
+> Reset discussion view count
+
+```diff
+-重置主题浏览量
++重置讨论浏览量
+```
+
+
+### `fof-disposable-emails`
+
+#### [`fof-email-checker.error.disposable_email_message`](https://weblate.rob006.net/translate/flarum2/fof-disposable-emails/zh_Hans/?q=context%3A%3D%22fof-email-checker.error.disposable_email_message%22)
+
+> You may not use a disposable email.
+
+```diff
+-禁止使用一次性邮箱注册。
++不允许使用临时邮箱。
 ```
 
 
 ### `fof-doorman`
+
+#### [`fof-doorman.admin.list.columns.created_by`](https://weblate.rob006.net/translate/flarum2/fof-doorman/zh_Hans/?q=context%3A%3D%22fof-doorman.admin.list.columns.created_by%22)
+
+> Created By
+
+```diff
+-被创建由
++创建者
+```
+
+#### [`fof-doorman.admin.list.columns.uses`](https://weblate.rob006.net/translate/flarum2/fof-doorman/zh_Hans/?q=context%3A%3D%22fof-doorman.admin.list.columns.uses%22)
+
+> Uses
+
+```diff
+-使用次数
++使用情况
+```
+
+#### [`fof-doorman.admin.list.content.delete`](https://weblate.rob006.net/translate/flarum2/fof-doorman/zh_Hans/?q=context%3A%3D%22fof-doorman.admin.list.content.delete%22)
+
+> Are you sure you want to delete the invite code "{key}"?
+
+```diff
+-你确定要删除这个邀请码"{key}"吗？
++确定要删除邀请码「{key}」吗？
+```
+
+#### [`fof-doorman.admin.list.content.uses.total_uses`](https://weblate.rob006.net/translate/flarum2/fof-doorman/zh_Hans/?q=context%3A%3D%22fof-doorman.admin.list.content.uses.total_uses%22)
+
+> {totalUses, plural, one {Used {totalUses} time} other {Used {totalUses} times}}
+
+```diff
+-{totalUses, plural, one {使用过 {totalUses} 次} other {使用过 {totalUses} 次}}
++{totalUses, plural, other {已使用 {totalUses} 次}}
+```
+
+{totalUses, plural, <del>one {使用过 {totalUses} 次} </del>other <del>{使用过</del><ins>{已使用</ins> {totalUses} 次}}
+
+#### [`fof-doorman.admin.list.content.uses.used_times`](https://weblate.rob006.net/translate/flarum2/fof-doorman/zh_Hans/?q=context%3A%3D%22fof-doorman.admin.list.content.uses.used_times%22)
+
+> {remaining, plural, =0 {Unlimited uses} one {{remainingUses} use left} other {{remainingUses} uses left}}
+
+```diff
+-{remaining, plural, =0 {无限次使用} one {剩余 {remainingUses} 次使用} other {剩余 {remainingUses} 次使用}}
++{remaining, plural, =0 {不限次数} other {剩余 {remainingUses} 次}}
+```
+
+{remaining, plural, =0 <del>{无限次使用} one {剩余 {remainingUses} 次使用}</del><ins>{不限次数}</ins> other {剩余 {remainingUses} <del>次使用}}</del><ins>次}}</ins>
+
+#### [`fof-doorman.admin.list.content.warning`](https://weblate.rob006.net/translate/flarum2/fof-doorman/zh_Hans/?q=context%3A%3D%22fof-doorman.admin.list.content.warning%22)
+
+> This invite code has been used its max number of times.
+
+```diff
+-此邀请码已达到最大使用次数。
++此邀请码已达到使用次数上限。
+```
+
+#### [`fof-doorman.admin.modals.create_doorkey.submit_and_create_another_button`](https://weblate.rob006.net/translate/flarum2/fof-doorman/zh_Hans/?q=context%3A%3D%22fof-doorman.admin.modals.create_doorkey.submit_and_create_another_button%22)
+
+> Create and add another
+
+```diff
+-创建或添加另一个
++创建并继续添加
+```
+
+#### [`fof-doorman.admin.modals.create_doorkey.submit_button`](https://weblate.rob006.net/translate/flarum2/fof-doorman/zh_Hans/?q=context%3A%3D%22fof-doorman.admin.modals.create_doorkey.submit_button%22)
+
+> Create Invite Code
+
+```diff
+-创建新的邀请码
++创建邀请码
+```
+
+#### [`fof-doorman.admin.modals.create_doorkey.title`](https://weblate.rob006.net/translate/flarum2/fof-doorman/zh_Hans/?q=context%3A%3D%22fof-doorman.admin.modals.create_doorkey.title%22)
+
+> Create new Invite Code
+
+```diff
+-创建新的邀请码
++创建邀请码
+```
 
 #### [`fof-doorman.admin.modals.send_invites.group`](https://weblate.rob006.net/translate/flarum2/fof-doorman/zh_Hans/?q=context%3A%3D%22fof-doorman.admin.modals.send_invites.group%22)
 
@@ -3611,13 +8912,379 @@ Byobu <del>主题帖徽章</del><ins>讨论帖徽章</ins>
 
 ```diff
 -正在向 {group} 群组发送邀请。
-+正在向 {group} 群组发送邀请
++分享 {group} 用户组的邀请码
 ```
 
-正在向 {group} <del>群组发送邀请。</del><ins>群组发送邀请</ins>
+<del>正在向</del><ins>分享</ins> {group} <del>群组发送邀请。</del><ins>用户组的邀请码</ins>
+
+#### [`fof-doorman.admin.modals.send_invites.help`](https://weblate.rob006.net/translate/flarum2/fof-doorman/zh_Hans/?q=context%3A%3D%22fof-doorman.admin.modals.send_invites.help%22)
+
+> Accepts a comma, space, or comma-space seperated list. Type an individual email or paste a list then press space to add it/them.
+
+```diff
+-允许以逗号、空格或逗号加空格分隔的列表。输入单个电子邮件地址或粘贴列表，然后按空格键即可添加。
++支持使用逗号、空格或「逗号 + 空格」分隔多个邮箱地址。输入单个邮箱地址，或粘贴邮箱列表后按空格键添加。
+```
+
+#### [`fof-doorman.admin.modals.send_invites.invalid_emails`](https://weblate.rob006.net/translate/flarum2/fof-doorman/zh_Hans/?q=context%3A%3D%22fof-doorman.admin.modals.send_invites.invalid_emails%22)
+
+> The following email(s) are invalid: {emails}
+
+```diff
+-这个(些)邮件地址看起来无效:{emails}
++以下邮箱地址无效：{emails}
+```
+
+#### [`fof-doorman.admin.modals.send_invites.max_use_conflict`](https://weblate.rob006.net/translate/flarum2/fof-doorman/zh_Hans/?q=context%3A%3D%22fof-doorman.admin.modals.send_invites.max_use_conflict%22)
+
+> The number of emails exceeds the max number of uses for this code.
+
+```diff
+-发送的电子邮件数量已超过此代码的最大使用次数。
++邮箱数量超过此邀请码的剩余可用次数。
+```
+
+#### [`fof-doorman.admin.modals.send_invites.placeholder`](https://weblate.rob006.net/translate/flarum2/fof-doorman/zh_Hans/?q=context%3A%3D%22fof-doorman.admin.modals.send_invites.placeholder%22)
+
+> Enter emails here
+
+```diff
+-在这里填写电子邮件地址
++输入邮箱地址
+```
+
+#### [`fof-doorman.admin.modals.send_invites.success`](https://weblate.rob006.net/translate/flarum2/fof-doorman/zh_Hans/?q=context%3A%3D%22fof-doorman.admin.modals.send_invites.success%22)
+
+> Emails successfully sent
+
+```diff
+-电子邮件已成功发送
++邮件发送成功
+```
+
+#### [`fof-doorman.admin.ref.fields.activates_user.help`](https://weblate.rob006.net/translate/flarum2/fof-doorman/zh_Hans/?q=context%3A%3D%22fof-doorman.admin.ref.fields.activates_user.help%22)
+
+> Automatically activates the user when they register.
+
+```diff
+-用户注册后自动激活账号。
++使用此邀请码注册后自动激活用户账号。
+```
+
+#### [`fof-doorman.admin.ref.fields.activates_user.label`](https://weblate.rob006.net/translate/flarum2/fof-doorman/zh_Hans/?q=context%3A%3D%22fof-doorman.admin.ref.fields.activates_user.label%22)
+
+> Activates User
+
+```diff
+-激活用户
++自动激活用户
+```
+
+#### [`fof-doorman.admin.ref.fields.group.help`](https://weblate.rob006.net/translate/flarum2/fof-doorman/zh_Hans/?q=context%3A%3D%22fof-doorman.admin.ref.fields.group.help%22)
+
+> The group the user will be added to when registering using the invite code.
+
+```diff
+-用户使用邀请码注册时将被添加到的群组。
++使用此邀请码注册的用户将自动加入该用户组。
+```
+
+#### [`fof-doorman.admin.ref.fields.group.label`](https://weblate.rob006.net/translate/flarum2/fof-doorman/zh_Hans/?q=context%3A%3D%22fof-doorman.admin.ref.fields.group.label%22)
+
+> Group
+
+```diff
+-群组
++用户组
+```
+
+#### [`fof-doorman.admin.ref.fields.key.help`](https://weblate.rob006.net/translate/flarum2/fof-doorman/zh_Hans/?q=context%3A%3D%22fof-doorman.admin.ref.fields.key.help%22)
+
+> Code the user will type in when registering.
+
+```diff
+-用户注册时需要输入的验证码。
++用户注册时需要填写的邀请码。
+```
+
+#### [`fof-doorman.admin.ref.fields.key.label`](https://weblate.rob006.net/translate/flarum2/fof-doorman/zh_Hans/?q=context%3A%3D%22fof-doorman.admin.ref.fields.key.label%22)
+
+> Key
+
+```diff
+-密钥
++邀请码
+```
+
+#### [`fof-doorman.admin.ref.fields.max_uses.help`](https://weblate.rob006.net/translate/flarum2/fof-doorman/zh_Hans/?q=context%3A%3D%22fof-doorman.admin.ref.fields.max_uses.help%22)
+
+> The max number of times the code can be used. Set to 0 for unlimited uses
+
+```diff
+-该代码可使用的最大次数。设置为 0 表示可无限次使用
++邀请码最多可以使用的次数，设为 0 则不限次数
+```
+
+<del>该代码可使用的最大次数。设置为</del><ins>邀请码最多可以使用的次数，设为</ins> 0 <del>表示可无限次使用</del><ins>则不限次数</ins>
+
+#### [`fof-doorman.admin.ref.fields.max_uses.label`](https://weblate.rob006.net/translate/flarum2/fof-doorman/zh_Hans/?q=context%3A%3D%22fof-doorman.admin.ref.fields.max_uses.label%22)
+
+> Max Uses
+
+```diff
+-最大可用次数
++使用次数上限
+```
+
+#### [`fof-doorman.admin.settings.optional_usage`](https://weblate.rob006.net/translate/flarum2/fof-doorman/zh_Hans/?q=context%3A%3D%22fof-doorman.admin.settings.optional_usage%22)
+
+> Make invite code optional when signing up
+
+```diff
+-注册时可选择是否输入邀请码
++允许无邀请码注册
+```
+
+#### [`fof-doorman.admin.settings.search`](https://weblate.rob006.net/translate/flarum2/fof-doorman/zh_Hans/?q=context%3A%3D%22fof-doorman.admin.settings.search%22)
+
+> Search doorkeys
+
+```diff
+-搜索门禁密钥
++搜索邀请码
+```
+
+#### [`fof-doorman.admin.settings.total_doorkeys`](https://weblate.rob006.net/translate/flarum2/fof-doorman/zh_Hans/?q=context%3A%3D%22fof-doorman.admin.settings.total_doorkeys%22)
+
+> Total doorkeys: {count}
+
+```diff
+-门禁密钥总数：{count}
++邀请码总数：{count}
+```
+
+#### [`fof-doorman.email.subject`](https://weblate.rob006.net/translate/flarum2/fof-doorman/zh_Hans/?q=context%3A%3D%22fof-doorman.email.subject%22)
+
+> Invite to Join
+
+```diff
+-使用邀请码加入
++邀请加入
+```
 
 
 ### `fof-drafts`
+
+#### [`flarum-gdpr.lib.data.drafts.export_description`](https://weblate.rob006.net/translate/flarum2/fof-drafts/zh_Hans/?q=context%3A%3D%22flarum-gdpr.lib.data.drafts.export_description%22)
+
+> All drafts created by the user.
+
+```diff
+-用户创建的所有草稿。
++导出用户创建的所有草稿。
+```
+
+#### [`fof-drafts.admin.permissions.schedule`](https://weblate.rob006.net/translate/flarum2/fof-drafts/zh_Hans/?q=context%3A%3D%22fof-drafts.admin.permissions.schedule%22)
+
+> Schedule drafts
+
+```diff
+-定时发布
++定时发布草稿
+```
+
+#### [`fof-drafts.admin.permissions.start`](https://weblate.rob006.net/translate/flarum2/fof-drafts/zh_Hans/?q=context%3A%3D%22fof-drafts.admin.permissions.start%22)
+
+> Create drafts
+
+```diff
+-新建草稿
++创建草稿
+```
+
+#### [`fof-drafts.admin.settings.enable_scheduled_drafts`](https://weblate.rob006.net/translate/flarum2/fof-drafts/zh_Hans/?q=context%3A%3D%22fof-drafts.admin.settings.enable_scheduled_drafts%22)
+
+> Enable Scheduled Drafts
+
+```diff
+-启用定时发布功能
++启用定时发布
+```
+
+#### [`fof-drafts.admin.settings.schedule_log_output`](https://weblate.rob006.net/translate/flarum2/fof-drafts/zh_Hans/?q=context%3A%3D%22fof-drafts.admin.settings.schedule_log_output%22)
+
+> Append scheduler output to log storage
+
+```diff
+-保存计划任务日志
++保存任务调度日志
+```
+
+#### [`fof-drafts.admin.settings.schedule_on_one_server`](https://weblate.rob006.net/translate/flarum2/fof-drafts/zh_Hans/?q=context%3A%3D%22fof-drafts.admin.settings.schedule_on_one_server%22)
+
+> Use 'onOneServer()' directive for the task scheduler (requires Redis/Memcache)
+
+```diff
+-将使用 onOneServer() 方法用于计划任务（需要 Redis/Memcache）
++任务调度使用「onOneServer()」，需要 Redis/Memcache
+```
+
+#### [`fof-drafts.admin.settings.title`](https://weblate.rob006.net/translate/flarum2/fof-drafts/zh_Hans/?q=context%3A%3D%22fof-drafts.admin.settings.title%22)
+
+> FoF Drafts
+
+```diff
+-FoF 草稿箱
++FoF 草稿
+```
+
+FoF <del>草稿箱</del><ins>草稿</ins>
+
+#### [`fof-drafts.console.scheduled_drafts_disabled`](https://weblate.rob006.net/translate/flarum2/fof-drafts/zh_Hans/?q=context%3A%3D%22fof-drafts.console.scheduled_drafts_disabled%22)
+
+> Scheduled drafts are currently disabled in settings.
+
+```diff
+-定时发布功能已被禁用。
++尚未启用草稿定时发布功能。
+```
+
+#### [`fof-drafts.forum.composer.discard_empty_draft_alert`](https://weblate.rob006.net/translate/flarum2/fof-drafts/zh_Hans/?q=context%3A%3D%22fof-drafts.forum.composer.discard_empty_draft_alert%22)
+
+> Discard empty draft?
+
+```diff
+-丢弃空草稿？
++丢弃空白草稿？
+```
+
+#### [`fof-drafts.forum.composer.exit_alert`](https://weblate.rob006.net/translate/flarum2/fof-drafts/zh_Hans/?q=context%3A%3D%22fof-drafts.forum.composer.exit_alert%22)
+
+> Discard changes to draft?
+
+```diff
+-确定放弃对草稿的更改吗？
++放弃草稿更改？
+```
+
+#### [`fof-drafts.forum.dropdown.alert`](https://weblate.rob006.net/translate/flarum2/fof-drafts/zh_Hans/?q=context%3A%3D%22fof-drafts.forum.dropdown.alert%22)
+
+> Are you sure you want to delete your draft?
+
+```diff
+-确定要删除草稿吗？
++确定要删除此草稿吗？
+```
+
+#### [`fof-drafts.forum.dropdown.delete_all_alert`](https://weblate.rob006.net/translate/flarum2/fof-drafts/zh_Hans/?q=context%3A%3D%22fof-drafts.forum.dropdown.delete_all_alert%22)
+
+> Are you sure you want to delete all your drafts?
+
+```diff
+-确定要删除所有草稿吗？
++确定要删除全部草稿吗？
+```
+
+#### [`fof-drafts.forum.dropdown.delete_all_button`](https://weblate.rob006.net/translate/flarum2/fof-drafts/zh_Hans/?q=context%3A%3D%22fof-drafts.forum.dropdown.delete_all_button%22)
+
+> Delete all drafts
+
+```diff
+-删除所有草稿
++删除全部草稿
+```
+
+#### [`fof-drafts.forum.dropdown.empty_text`](https://weblate.rob006.net/translate/flarum2/fof-drafts/zh_Hans/?q=context%3A%3D%22fof-drafts.forum.dropdown.empty_text%22)
+
+> You haven't saved any drafts
+
+```diff
+-您还没有草稿
++暂无保存的草稿
+```
+
+#### [`fof-drafts.forum.dropdown.scheduled_icon_tooltip_formatter`](https://weblate.rob006.net/translate/flarum2/fof-drafts/zh_Hans/?q=context%3A%3D%22fof-drafts.forum.dropdown.scheduled_icon_tooltip_formatter%22)
+
+> L \[at\] LT
+
+```diff
+-LL [at] LT
++L LT
+```
+
+<del>LL \[at\]</del><ins>L</ins> LT
+
+#### [`fof-drafts.forum.schedule_draft_modal.schedule_button`](https://weblate.rob006.net/translate/flarum2/fof-drafts/zh_Hans/?q=context%3A%3D%22fof-drafts.forum.schedule_draft_modal.schedule_button%22)
+
+> Schedule
+
+```diff
+-定时
++定时发布
+```
+
+#### [`fof-drafts.forum.schedule_draft_modal.schedule_time_preview_formatter`](https://weblate.rob006.net/translate/flarum2/fof-drafts/zh_Hans/?q=context%3A%3D%22fof-drafts.forum.schedule_draft_modal.schedule_time_preview_formatter%22)
+
+> LLLL
+
+```diff
+-llll
++LLLL
+```
+
+#### [`fof-drafts.forum.schedule_draft_modal.schedule_time_preview_invalid`](https://weblate.rob006.net/translate/flarum2/fof-drafts/zh_Hans/?q=context%3A%3D%22fof-drafts.forum.schedule_draft_modal.schedule_time_preview_invalid%22)
+
+> Invalid date and/or time
+
+```diff
+-无效的日期或时间
++日期或时间无效
+```
+
+#### [`fof-drafts.forum.schedule_draft_modal.scheduled_error`](https://weblate.rob006.net/translate/flarum2/fof-drafts/zh_Hans/?q=context%3A%3D%22fof-drafts.forum.schedule_draft_modal.scheduled_error%22)
+
+> Unable to schedule draft: {error}.
+
+```diff
+-定时发布失败：{error}。
++无法定时发布草稿：{error}。
+```
+
+#### [`fof-drafts.forum.schedule_draft_modal.scheduled_text`](https://weblate.rob006.net/translate/flarum2/fof-drafts/zh_Hans/?q=context%3A%3D%22fof-drafts.forum.schedule_draft_modal.scheduled_text%22)
+
+> Currently scheduled to post on {datetime}.
+
+```diff
+-定时发布于 {datetime}。
++当前定于 {datetime} 发布。
+```
+
+#### [`fof-drafts.forum.schedule_draft_modal.text`](https://weblate.rob006.net/translate/flarum2/fof-drafts/zh_Hans/?q=context%3A%3D%22fof-drafts.forum.schedule_draft_modal.text%22)
+
+> Schedule your draft to automatically post at a later time!
+
+```diff
+-选择一个稍后的时间自动发布您的草稿！
++在指定时间自动发布草稿。
+```
+
+#### [`fof-drafts.forum.schedule_draft_modal.unschedule_button`](https://weblate.rob006.net/translate/flarum2/fof-drafts/zh_Hans/?q=context%3A%3D%22fof-drafts.forum.schedule_draft_modal.unschedule_button%22)
+
+> Unschedule
+
+```diff
+-取消定时
++取消定时发布
+```
+
+#### [`fof-drafts.forum.schedule_draft_modal.unschedule_warning`](https://weblate.rob006.net/translate/flarum2/fof-drafts/zh_Hans/?q=context%3A%3D%22fof-drafts.forum.schedule_draft_modal.unschedule_warning%22)
+
+> Are you sure you want to unschedule this draft?
+
+```diff
+-确定要取消定时发布这个草稿？
++确定要取消此草稿的定时发布吗？
+```
 
 #### [`fof-drafts.forum.user.settings.draft_autosave_enable`](https://weblate.rob006.net/translate/flarum2/fof-drafts/zh_Hans/?q=context%3A%3D%22fof-drafts.forum.user.settings.draft_autosave_enable%22)
 
@@ -3625,11 +9292,292 @@ Byobu <del>主题帖徽章</del><ins>讨论帖徽章</ins>
 
 ```diff
 -自动保存草稿
-+开启草稿自动保存？
++启用草稿自动保存
+```
+
+#### [`fof-drafts.forum.user.settings.draft_autosave_interval_invalid`](https://weblate.rob006.net/translate/flarum2/fof-drafts/zh_Hans/?q=context%3A%3D%22fof-drafts.forum.user.settings.draft_autosave_interval_invalid%22)
+
+> The interval must be an integer greater than 4.
+
+```diff
+-请输入大于4的整数。
++请输入大于 4 的整数。
+```
+
+#### [`fof-drafts.forum.user.settings.drafts_heading`](https://weblate.rob006.net/translate/flarum2/fof-drafts/zh_Hans/?q=context%3A%3D%22fof-drafts.forum.user.settings.drafts_heading%22)
+
+> Drafts
+
+```diff
+-草稿箱
++草稿
+```
+
+
+### `fof-filter`
+
+#### [`fof-filter.admin.auto_merge_title`](https://weblate.rob006.net/translate/flarum2/fof-filter/zh_Hans/?q=context%3A%3D%22fof-filter.admin.auto_merge_title%22)
+
+> Auto merge
+
+```diff
+-自动合并
++自动合并帖子
+```
+
+#### [`fof-filter.admin.bad_words_help`](https://weblate.rob006.net/translate/flarum2/fof-filter/zh_Hans/?q=context%3A%3D%22fof-filter.admin.bad_words_help%22)
+
+> Input text or words to filter, one per line. If the content of a user’s post contains a string you want to filter, it will be flagged for approval. Resistant against 133t.
+
+```diff
+-请输入要过滤的敏感词，一行一个。当用户发表的帖子内容包含敏感词时，自动送入审核列表。抵制んĒI話，从我做起。
++每行填写一个需要过滤的词语或文本。用户帖子包含其中任意内容时，将被标记等待审核。可识别 133t 等变体写法。
+```
+
+#### [`fof-filter.admin.cooldownLabel`](https://weblate.rob006.net/translate/flarum2/fof-filter/zh_Hans/?q=context%3A%3D%22fof-filter.admin.cooldownLabel%22)
+
+> Merge Post Cooldown
+
+```diff
+-防刷帖冷却时间（分钟）
++连续发帖合并间隔
+```
+
+#### [`fof-filter.admin.countLabel`](https://weblate.rob006.net/translate/flarum2/fof-filter/zh_Hans/?q=context%3A%3D%22fof-filter.admin.countLabel%22)
+
+> Censor Tolorance
+
+```diff
+-过滤敏感度
++过滤容差
+```
+
+#### [`fof-filter.admin.email.default_subject`](https://weblate.rob006.net/translate/flarum2/fof-filter/zh_Hans/?q=context%3A%3D%22fof-filter.admin.email.default_subject%22)
+
+> Regarding Your Recent Post
+
+```diff
+-您的帖子已被隐藏
++你的内容已被移除
+```
+
+#### [`fof-filter.admin.email.default_text`](https://weblate.rob006.net/translate/flarum2/fof-filter/zh_Hans/?q=context%3A%3D%22fof-filter.admin.email.default_text%22)
+
+> %USERNAME%,
+>
+> Thank you for posting! Unfortunately, your post was removed because it contained something we don't want to see on our forums.
+>
+> If you believe this was an error, you are in luck, each removed post is reviewed by our moderators. If they find that this was wrongfully removed, they will restore it.
+>
+> Thank you for your understanding.
+>
+
+```diff
+ %USERNAME%，
+-非常抱歉，您的帖子已被删除，因为其中包含敏感或违规内容。
+-如有异议，请联系论坛管理员请求人工核查。如核实没有违规内容，我们将恢复您的帖子。
+-感谢您的理解与配合。
++
++感谢你的参与。你最近发布的帖子因包含不符合论坛要求的内容已被移除。
++
++如有异议，请联系管理员核查。若确认误删，将会恢复。
++
++感谢理解与配合。
+
+```
+
+%USERNAME%，<del><br />非常抱歉，您的帖子已被删除，因为其中包含敏感或违规内容。<br />如有异议，请联系论坛管理员请求人工核查。如核实没有违规内容，我们将恢复您的帖子。<br />感谢您的理解与配合。</del><ins><br /><br />感谢你的参与。你最近发布的帖子因包含不符合论坛要求的内容已被移除。<br /><br />如有异议，请联系管理员核查。若确认误删，将会恢复。<br /><br />感谢理解与配合。</ins><br />
+
+#### [`fof-filter.admin.email_help`](https://weblate.rob006.net/translate/flarum2/fof-filter/zh_Hans/?q=context%3A%3D%22fof-filter.admin.email_help%22)
+
+> Body of flagged email. Accepts html or plaintext. You can use %USERNAME% to insert the username of the user whose post was flagged.
+>
+
+```diff
+-标记邮件内容，可使用 HTML 或纯文字。你可以使用 %USERNAME% 插入被标记文章的使用者用户名。
++帖子被过滤后发送给用户的邮件正文。支持 HTML 或纯文本，可使用 %USERNAME% 插入发帖用户的用户名。
+
+```
+
+<del>标记邮件内容，可使用</del><ins>帖子被过滤后发送给用户的邮件正文。支持</ins> HTML <del>或纯文字。你可以使用</del><ins>或纯文本，可使用</ins> %USERNAME% <del>插入被标记文章的使用者用户名。</del><ins>插入发帖用户的用户名。</ins><br />
+
+#### [`fof-filter.admin.filter_label`](https://weblate.rob006.net/translate/flarum2/fof-filter/zh_Hans/?q=context%3A%3D%22fof-filter.admin.filter_label%22)
+
+> Strings to filter
+
+```diff
+-自定义敏感词词库
++过滤词
+```
+
+#### [`fof-filter.admin.help2`](https://weblate.rob006.net/translate/flarum2/fof-filter/zh_Hans/?q=context%3A%3D%22fof-filter.admin.help2%22)
+
+> Interval in minutes in which posts from the same user in the same discussion will be automatically merged.
+
+```diff
+-在冷却时间内，用户在同一主题下的多次回复将被合并为一个帖子。此设置全局有效，与帖子内容是否含有敏感词无关。
++同一用户在同一讨论中连续发帖时，在此时间内发布的帖子将自动合并。单位为分钟。此设置全局有效，与内容是否含有过滤词无关。
+```
+
+#### [`fof-filter.admin.input.email_help`](https://weblate.rob006.net/translate/flarum2/fof-filter/zh_Hans/?q=context%3A%3D%22fof-filter.admin.input.email_help%22)
+
+> Leave empty to allow for translations to be used. You may use FoF Linguist to translate the email.
+
+```diff
+-留空来允许使用翻译。你可以用 FoF Linguist 来翻译邮件。
++留空则使用语言包中的默认邮件内容。你可以使用 FoF Linguist 翻译此邮件。
+```
+
+<del>留空来允许使用翻译。你可以用</del><ins>留空则使用语言包中的默认邮件内容。你可以使用</ins> FoF Linguist <del>来翻译邮件。</del><ins>翻译此邮件。</ins>
+
+#### [`fof-filter.admin.input.email_label`](https://weblate.rob006.net/translate/flarum2/fof-filter/zh_Hans/?q=context%3A%3D%22fof-filter.admin.input.email_label%22)
+
+> Email Settings
+
+```diff
+-邮件通知设置
++邮件通知
+```
+
+#### [`fof-filter.admin.input.filter_title`](https://weblate.rob006.net/translate/flarum2/fof-filter/zh_Hans/?q=context%3A%3D%22fof-filter.admin.input.filter_title%22)
+
+> Strings to filter
+
+```diff
+-要过滤的敏感词
++过滤词语
+```
+
+#### [`fof-filter.admin.input.placeholder`](https://weblate.rob006.net/translate/flarum2/fof-filter/zh_Hans/?q=context%3A%3D%22fof-filter.admin.input.placeholder%22)
+
+> Strings to be filtered
+
+```diff
+-输入敏感词
++输入需要过滤的词语
+```
+
+#### [`fof-filter.admin.input.switch.email`](https://weblate.rob006.net/translate/flarum2/fof-filter/zh_Hans/?q=context%3A%3D%22fof-filter.admin.input.switch.email%22)
+
+> Email user when post is filtered
+
+```diff
+-向用户发送被过滤通知邮件
++帖子被过滤时邮件通知用户
+```
+
+#### [`fof-filter.admin.input.switch.merge`](https://weblate.rob006.net/translate/flarum2/fof-filter/zh_Hans/?q=context%3A%3D%22fof-filter.admin.input.switch.merge%22)
+
+> Auto merge double posts
+
+```diff
+-防刷帖
++合并连续发帖
+```
+
+#### [`fof-filter.admin.nav.desc`](https://weblate.rob006.net/translate/flarum2/fof-filter/zh_Hans/?q=context%3A%3D%22fof-filter.admin.nav.desc%22)
+
+> Filter posts by words
+
+```diff
+-自动敏感词过滤
++按关键词过滤帖子
+```
+
+#### [`fof-filter.admin.nav.text`](https://weblate.rob006.net/translate/flarum2/fof-filter/zh_Hans/?q=context%3A%3D%22fof-filter.admin.nav.text%22)
+
+> Filter
+
+```diff
+-过滤器
++内容过滤
+```
+
+#### [`fof-filter.admin.permission.bypass_filter_label`](https://weblate.rob006.net/translate/flarum2/fof-filter/zh_Hans/?q=context%3A%3D%22fof-filter.admin.permission.bypass_filter_label%22)
+
+> Bypass word filter(s)
+
+```diff
+-无视过滤器
++绕过内容过滤
+```
+
+#### [`fof-filter.admin.title`](https://weblate.rob006.net/translate/flarum2/fof-filter/zh_Hans/?q=context%3A%3D%22fof-filter.admin.title%22)
+
+> Filter
+
+```diff
+-FoF 过滤器
++内容过滤
+```
+
+#### [`fof-filter.forum.flag_message`](https://weblate.rob006.net/translate/flarum2/fof-filter/zh_Hans/?q=context%3A%3D%22fof-filter.forum.flag_message%22)
+
+> Contained blocked strings
+
+```diff
+-敏感词匹配
++包含违禁内容
+```
+
+#### [`fof-filter.forum.flagger_name`](https://weblate.rob006.net/translate/flarum2/fof-filter/zh_Hans/?q=context%3A%3D%22fof-filter.forum.flagger_name%22)
+
+> Auto Moderator
+
+```diff
+-Auto Moderator
++自动审核
 ```
 
 
 ### `fof-follow-tags`
+
+#### [`flarum-gdpr.lib.data.tagsubscription.anonymize_description`](https://weblate.rob006.net/translate/flarum2/fof-follow-tags/zh_Hans/?q=context%3A%3D%22flarum-gdpr.lib.data.tagsubscription.anonymize_description%22)
+
+> Removes the subscription of the user to the tag.
+
+```diff
+-取消用户订阅的标签。
++移除用户对标签的关注。
+```
+
+#### [`flarum-gdpr.lib.data.tagsubscription.export_description`](https://weblate.rob006.net/translate/flarum2/fof-follow-tags/zh_Hans/?q=context%3A%3D%22flarum-gdpr.lib.data.tagsubscription.export_description%22)
+
+> Exports details of the subscription level for a tag, if one exists.
+
+```diff
+-如果标签存在，导出订阅级别的详细信息。
++导出用户对标签的关注设置。
+```
+
+#### [`fof-follow-tags.admin.settings.following_page_default_label`](https://weblate.rob006.net/translate/flarum2/fof-follow-tags/zh_Hans/?q=context%3A%3D%22fof-follow-tags.admin.settings.following_page_default_label%22)
+
+> Default Following Page Filtering
+
+```diff
+-「我的关注」默认内容
++「我的关注」页面默认筛选方式
+```
+
+#### [`fof-follow-tags.forum.badge.following_tag_tooltip`](https://weblate.rob006.net/translate/flarum2/fof-follow-tags/zh_Hans/?q=context%3A%3D%22fof-follow-tags.forum.badge.following_tag_tooltip%22)
+
+> Following
+
+```diff
+-关注中
++关注
+```
+
+#### [`fof-follow-tags.forum.notifications.new_discussion_tag_text`](https://weblate.rob006.net/translate/flarum2/fof-follow-tags/zh_Hans/?q=context%3A%3D%22fof-follow-tags.forum.notifications.new_discussion_tag_text%22)
+
+> {username} changed the tag
+
+```diff
+-{username} 修改了标签
++{username} 更改了标签
+```
+
+{username} <del>修改了标签</del><ins>更改了标签</ins>
 
 #### [`fof-follow-tags.forum.notifications.new_discussion_text`](https://weblate.rob006.net/translate/flarum2/fof-follow-tags/zh_Hans/?q=context%3A%3D%22fof-follow-tags.forum.notifications.new_discussion_text%22)
 
@@ -3637,10 +9585,21 @@ Byobu <del>主题帖徽章</del><ins>讨论帖徽章</ins>
 
 ```diff
 -{username} 发布了新主题
-+{username} 发布了新讨论
++{username} 发起了讨论
 ```
 
-{username} <del>发布了新主题</del><ins>发布了新讨论</ins>
+{username} <del>发布了新主题</del><ins>发起了讨论</ins>
+
+#### [`fof-follow-tags.forum.notifications.new_post_text`](https://weblate.rob006.net/translate/flarum2/fof-follow-tags/zh_Hans/?q=context%3A%3D%22fof-follow-tags.forum.notifications.new_post_text%22)
+
+> {username} posted
+
+```diff
+-{username} 发布了新回复
++{username} 回复了讨论
+```
+
+{username} <del>发布了新回复</del><ins>回复了讨论</ins>
 
 #### [`fof-follow-tags.forum.settings.notify_new_discussion_label`](https://weblate.rob006.net/translate/flarum2/fof-follow-tags/zh_Hans/?q=context%3A%3D%22fof-follow-tags.forum.settings.notify_new_discussion_label%22)
 
@@ -3648,7 +9607,7 @@ Byobu <del>主题帖徽章</del><ins>讨论帖徽章</ins>
 
 ```diff
 -我关注的标签有新建主题
-+我关注的标签有新建讨论
++有人在我关注的标签下发起讨论
 ```
 
 #### [`fof-follow-tags.forum.settings.notify_new_discussion_tag_label`](https://weblate.rob006.net/translate/flarum2/fof-follow-tags/zh_Hans/?q=context%3A%3D%22fof-follow-tags.forum.settings.notify_new_discussion_tag_label%22)
@@ -3657,7 +9616,16 @@ Byobu <del>主题帖徽章</del><ins>讨论帖徽章</ins>
 
 ```diff
 -有人将主题添加到我关注的标签
-+有人将讨论添加到我关注的标签
++有人将讨论移至我关注的标签
+```
+
+#### [`fof-follow-tags.forum.settings.notify_new_post_label`](https://weblate.rob006.net/translate/flarum2/fof-follow-tags/zh_Hans/?q=context%3A%3D%22fof-follow-tags.forum.settings.notify_new_post_label%22)
+
+> Someone posts in a tag I'm following
+
+```diff
+-我关注的标签有新回复
++有人在我关注的标签下回复
 ```
 
 #### [`fof-follow-tags.forum.sub_controls.following_text`](https://weblate.rob006.net/translate/flarum2/fof-follow-tags/zh_Hans/?q=context%3A%3D%22fof-follow-tags.forum.sub_controls.following_text%22)
@@ -3666,8 +9634,19 @@ Byobu <del>主题帖徽章</del><ins>讨论帖徽章</ins>
 
 ```diff
 -有新主题时提醒。
-+有新讨论时提醒。
++有新讨论时通知我。
 ```
+
+#### [`fof-follow-tags.forum.sub_controls.header`](https://weblate.rob006.net/translate/flarum2/fof-follow-tags/zh_Hans/?q=context%3A%3D%22fof-follow-tags.forum.sub_controls.header%22)
+
+> Subscription for {tagName}
+
+```diff
+-订阅 {tagName}
++{tagName} 的关注设置
+```
+
+<del>订阅 </del>{tagName}<ins> 的关注设置</ins>
 
 #### [`fof-follow-tags.forum.sub_controls.hiding_text`](https://weblate.rob006.net/translate/flarum2/fof-follow-tags/zh_Hans/?q=context%3A%3D%22fof-follow-tags.forum.sub_controls.hiding_text%22)
 
@@ -3675,7 +9654,16 @@ Byobu <del>主题帖徽章</del><ins>讨论帖徽章</ins>
 
 ```diff
 -在全部主题页面中隐藏旗下主题。
-+在全部讨论页面中隐藏旗下讨论。
++在「全部讨论」中隐藏此标签下的讨论。
+```
+
+#### [`fof-follow-tags.forum.sub_controls.ignoring_text`](https://weblate.rob006.net/translate/flarum2/fof-follow-tags/zh_Hans/?q=context%3A%3D%22fof-follow-tags.forum.sub_controls.ignoring_text%22)
+
+> Never be notified.
+
+```diff
+-从不提醒。
++永不通知。
 ```
 
 #### [`fof-follow-tags.forum.sub_controls.lurking_text`](https://weblate.rob006.net/translate/flarum2/fof-follow-tags/zh_Hans/?q=context%3A%3D%22fof-follow-tags.forum.sub_controls.lurking_text%22)
@@ -3684,7 +9672,16 @@ Byobu <del>主题帖徽章</del><ins>讨论帖徽章</ins>
 
 ```diff
 -有新主题或新回复时提醒。
-+有新讨论或新回复时提醒。
++有新讨论或新回复时都通知我。
+```
+
+#### [`fof-follow-tags.forum.sub_controls.not_following_text`](https://weblate.rob006.net/translate/flarum2/fof-follow-tags/zh_Hans/?q=context%3A%3D%22fof-follow-tags.forum.sub_controls.not_following_text%22)
+
+> Be notified only when @mentioned.
+
+```diff
+-仅当有人提及我时提醒。
++仅在被提及时通知我。
 ```
 
 #### [`fof-follow-tags.forum.sub_controls.notify_alert_tooltip`](https://weblate.rob006.net/translate/flarum2/fof-follow-tags/zh_Hans/?q=context%3A%3D%22fof-follow-tags.forum.sub_controls.notify_alert_tooltip%22)
@@ -3693,7 +9690,7 @@ Byobu <del>主题帖徽章</del><ins>讨论帖徽章</ins>
 
 ```diff
 -有新主题或新回复时推送论坛提醒
-+有新讨论或新回复时推送论坛提醒
++有新讨论或新回复时接收论坛通知
 ```
 
 #### [`fof-follow-tags.forum.sub_controls.notify_email_tooltip`](https://weblate.rob006.net/translate/flarum2/fof-follow-tags/zh_Hans/?q=context%3A%3D%22fof-follow-tags.forum.sub_controls.notify_email_tooltip%22)
@@ -3702,7 +9699,36 @@ Byobu <del>主题帖徽章</del><ins>讨论帖徽章</ins>
 
 ```diff
 -有新主题或新回复时发送邮件提醒
-+有新讨论或新回复时发送邮件提醒
++有新讨论或新回复时接收邮件通知
+```
+
+#### [`fof-follow-tags.forum.sub_controls.submit_button`](https://weblate.rob006.net/translate/flarum2/fof-follow-tags/zh_Hans/?q=context%3A%3D%22fof-follow-tags.forum.sub_controls.submit_button%22)
+
+> Confirm subscription
+
+```diff
+-确认订阅
++确认关注设置
+```
+
+#### [`fof-follow-tags.forum.sub_controls.subscription_label`](https://weblate.rob006.net/translate/flarum2/fof-follow-tags/zh_Hans/?q=context%3A%3D%22fof-follow-tags.forum.sub_controls.subscription_label%22)
+
+> Select your subscription level for {tagName}
+
+```diff
+-选择订阅 {tagName} 级别
++选择你对 {tagName} 的关注方式
+```
+
+<del>选择订阅</del><ins>选择你对</ins> {tagName} <del>级别</del><ins>的关注方式</ins>
+
+#### [`fof-follow-tags.forum.user.settings.filter_label`](https://weblate.rob006.net/translate/flarum2/fof-follow-tags/zh_Hans/?q=context%3A%3D%22fof-follow-tags.forum.user.settings.filter_label%22)
+
+> What to show by default in the Following page
+
+```diff
+-在「我的关注」中默认显示的内容
++「我的关注」页面默认显示
 ```
 
 #### [`fof-follow-tags.ref.filtering_options.none`](https://weblate.rob006.net/translate/flarum2/fof-follow-tags/zh_Hans/?q=context%3A%3D%22fof-follow-tags.ref.filtering_options.none%22)
@@ -3714,8 +9740,71 @@ Byobu <del>主题帖徽章</del><ins>讨论帖徽章</ins>
 +关注的讨论
 ```
 
+#### [`fof-follow-tags.ref.following`](https://weblate.rob006.net/translate/flarum2/fof-follow-tags/zh_Hans/?q=context%3A%3D%22fof-follow-tags.ref.following%22)
+
+> Following
+
+```diff
+-关注中
++关注
+```
+
+#### [`fof-follow-tags.ref.hiding`](https://weblate.rob006.net/translate/flarum2/fof-follow-tags/zh_Hans/?q=context%3A%3D%22fof-follow-tags.ref.hiding%22)
+
+> Hiding
+
+```diff
+-隐藏中
++隐藏
+```
+
+#### [`fof-follow-tags.ref.ignoring`](https://weblate.rob006.net/translate/flarum2/fof-follow-tags/zh_Hans/?q=context%3A%3D%22fof-follow-tags.ref.ignoring%22)
+
+> Ignoring
+
+```diff
+-忽视中
++忽略
+```
+
+#### [`fof-follow-tags.ref.lurking`](https://weblate.rob006.net/translate/flarum2/fof-follow-tags/zh_Hans/?q=context%3A%3D%22fof-follow-tags.ref.lurking%22)
+
+> Lurking
+
+```diff
+-吃瓜中
++密切关注
+```
+
 
 ### `fof-formatting`
+
+#### [`fof-formatting.admin.plugins.Autoimage`](https://weblate.rob006.net/translate/flarum2/fof-formatting/zh_Hans/?q=context%3A%3D%22fof-formatting.admin.plugins.Autoimage%22)
+
+> Convert image URLs into actual images
+
+```diff
+-自动识别图片链接，并实时显示图片
++自动将图片链接显示为图片
+```
+
+#### [`fof-formatting.admin.plugins.Autovideo`](https://weblate.rob006.net/translate/flarum2/fof-formatting/zh_Hans/?q=context%3A%3D%22fof-formatting.admin.plugins.Autovideo%22)
+
+> Convert video URLs into playable videos
+
+```diff
+-自动识别视频链接，并在帖子中嵌入视频
++自动将视频链接显示为播放器
+```
+
+#### [`fof-formatting.admin.plugins.FancyPants`](https://weblate.rob006.net/translate/flarum2/fof-formatting/zh_Hans/?q=context%3A%3D%22fof-formatting.admin.plugins.FancyPants%22)
+
+> Use fancy typography
+
+```diff
+-转换 ASCII 为 Unicode 标点符号
++优化标点排版
+```
 
 #### [`fof-formatting.admin.plugins.HTMLEntities`](https://weblate.rob006.net/translate/flarum2/fof-formatting/zh_Hans/?q=context%3A%3D%22fof-formatting.admin.plugins.HTMLEntities%22)
 
@@ -3723,10 +9812,30 @@ Byobu <del>主题帖徽章</del><ins>讨论帖徽章</ins>
 
 ```diff
 -使用 HTML 字符实体（详情：https://iflarum.cn/html-entities）
-+使用 HTML 实体（详情：https://iflarum.cn/html-entities）
++支持 HTML 实体
 ```
 
-使用 HTML <del>字符实体（详情：https://iflarum.cn/html-entities）</del><ins>实体（详情：https://iflarum.cn/html-entities）</ins>
+<del>使用</del><ins>支持</ins> HTML <del>字符实体（详情：https://iflarum.cn/html-entities）</del><ins>实体</ins>
+
+#### [`fof-formatting.admin.plugins.MediaEmbed`](https://weblate.rob006.net/translate/flarum2/fof-formatting/zh_Hans/?q=context%3A%3D%22fof-formatting.admin.plugins.MediaEmbed%22)
+
+> Embed content from allowed sites
+
+```diff
+-嵌入受支持的网站的内容（支持的网站：https://iflarum.cn/s9e-embed）
++嵌入受支持网站的内容
+```
+
+#### [`fof-formatting.admin.plugins.TaskLists`](https://weblate.rob006.net/translate/flarum2/fof-formatting/zh_Hans/?q=context%3A%3D%22fof-formatting.admin.plugins.TaskLists%22)
+
+> GitHub/GitLab flavored task lists
+
+```diff
+-GitHub/GitLab 风格待办清单
++GitHub/GitLab 风格代办清单
+```
+
+GitHub/GitLab <del>风格待办清单</del><ins>风格代办清单</ins>
 
 
 ### `fof-gamification`
@@ -4899,16 +11008,7 @@ Flarum <del>用户组</del><ins>群组</ins>
 
 ```diff
 -正文
-+正文内容
-```
-
-#### [`validation.attributes.email`](https://weblate.rob006.net/translate/flarum2/validation/zh_Hans/?q=context%3A%3D%22validation.attributes.email%22)
-
-> email
-
-```diff
--邮箱
-+电子邮箱
++内容
 ```
 
 #### [`validation.boolean`](https://weblate.rob006.net/translate/flarum2/validation/zh_Hans/?q=context%3A%3D%22validation.boolean%22)
@@ -4917,10 +11017,10 @@ Flarum <del>用户组</del><ins>群组</ins>
 
 ```diff
 -:attribute 须是布尔值（true 或 false）。
-+:attribute 必须是布尔值（true 或 false）。
++:attribute 必须为布尔值 true 或 false。
 ```
 
-:attribute <del>须是布尔值（true</del><ins>必须是布尔值（true</ins> 或 false）。
+:attribute <del>须是布尔值（true</del><ins>必须为布尔值 true</ins> 或 <del>false）。</del><ins>false。</ins>
 
 #### [`validation.distinct`](https://weblate.rob006.net/translate/flarum2/validation/zh_Hans/?q=context%3A%3D%22validation.distinct%22)
 
@@ -4928,10 +11028,10 @@ Flarum <del>用户组</del><ins>群组</ins>
 
 ```diff
 -:attribute 字段包含重复的值。
-+:attribute 包含重复的值。
++:attribute 存在重复值。
 ```
 
-:attribute <del>字段包含重复的值。</del><ins>包含重复的值。</ins>
+:attribute <del>字段包含重复的值。</del><ins>存在重复值。</ins>
 
 #### [`validation.exists`](https://weblate.rob006.net/translate/flarum2/validation/zh_Hans/?q=context%3A%3D%22validation.exists%22)
 
@@ -4972,10 +11072,8 @@ Flarum <del>用户组</del><ins>群组</ins>
 
 ```diff
 -:attribute 字段不能为空。
-+:attribute 必须存在。
++必须提供 :attribute。
 ```
-
-:attribute <del>字段不能为空。</del><ins>必须存在。</ins>
 
 #### [`validation.prohibited`](https://weblate.rob006.net/translate/flarum2/validation/zh_Hans/?q=context%3A%3D%22validation.prohibited%22)
 
@@ -4983,10 +11081,10 @@ Flarum <del>用户组</del><ins>群组</ins>
 
 ```diff
 -:attribute 字段不可用。
-+:attribute 被禁止使用。
++:attribute 必须为空。
 ```
 
-:attribute <del>字段不可用。</del><ins>被禁止使用。</ins>
+:attribute <del>字段不可用。</del><ins>必须为空。</ins>
 
 #### [`validation.prohibited_if`](https://weblate.rob006.net/translate/flarum2/validation/zh_Hans/?q=context%3A%3D%22validation.prohibited_if%22)
 
@@ -4994,10 +11092,10 @@ Flarum <del>用户组</del><ins>群组</ins>
 
 ```diff
 -:other 为 :value 时 :attribute 字段不可用。
-+当 :other 是 :value 时，:attribute 被禁止使用。
++:other 为 :value 时，:attribute 必须为空。
 ```
 
-<ins>当 </ins>:other <del>为</del><ins>是</ins> :value<del> 时</del> <del>:attribute</del><ins>时，:attribute</ins> <del>字段不可用。</del><ins>被禁止使用。</ins>
+:other 为 :value <del>时 :attribute</del><ins>时，:attribute</ins> <del>字段不可用。</del><ins>必须为空。</ins>
 
 #### [`validation.prohibited_unless`](https://weblate.rob006.net/translate/flarum2/validation/zh_Hans/?q=context%3A%3D%22validation.prohibited_unless%22)
 
@@ -5005,10 +11103,21 @@ Flarum <del>用户组</del><ins>群组</ins>
 
 ```diff
 -:other 非 :value 时 :attribute 字段不可用。
-+除非 :other 在 :values 中，否则 :attribute 被禁止使用。
++除非 :other 为 :values 中的任一值，否则 :attribute 必须为空。
 ```
 
-<ins>除非 </ins>:other <del>非</del><ins>在</ins> <del>:value</del><ins>:values</ins> <del>时</del><ins>中，否则</ins> :attribute <del>字段不可用。</del><ins>被禁止使用。</ins>
+<ins>除非 </ins>:other <del>非</del><ins>为</ins> <del>:value</del><ins>:values</ins> <del>时</del><ins>中的任一值，否则</ins> :attribute <del>字段不可用。</del><ins>必须为空。</ins>
+
+#### [`validation.required`](https://weblate.rob006.net/translate/flarum2/validation/zh_Hans/?q=context%3A%3D%22validation.required%22)
+
+> The :attribute field is required.
+
+```diff
+-:attribute 不能为空。
++:attribute 不得为空。
+```
+
+:attribute <del>不能为空。</del><ins>不得为空。</ins>
 
 #### [`validation.required_if`](https://weblate.rob006.net/translate/flarum2/validation/zh_Hans/?q=context%3A%3D%22validation.required_if%22)
 
@@ -5016,10 +11125,10 @@ Flarum <del>用户组</del><ins>群组</ins>
 
 ```diff
 -当 :other 为 :value 时 :attribute 不能为空。
-+当 :other 为 :value 时，:attribute 不能为空。
++:other 为 :value 时，:attribute 不得为空。
 ```
 
-当 :other 为 :value <del>时 :attribute</del><ins>时，:attribute</ins> 不能为空。
+<del>当 </del>:other 为 :value<del> 时</del> <del>:attribute</del><ins>时，:attribute</ins> <del>不能为空。</del><ins>不得为空。</ins>
 
 #### [`validation.required_unless`](https://weblate.rob006.net/translate/flarum2/validation/zh_Hans/?q=context%3A%3D%22validation.required_unless%22)
 
@@ -5027,10 +11136,10 @@ Flarum <del>用户组</del><ins>群组</ins>
 
 ```diff
 -:attribute 不能为空，除非 :other 是 :values。
-+除非 :other 在 :values 中，否则 :attribute 不能为空。
++除非 :other 为 :values 中的任一值，否则 :attribute 不得为空。
 ```
 
-<del>:attribute 不能为空，除非</del><ins>除非</ins> :other <del>是</del><ins>在</ins> <del>:values。</del><ins>:values 中，否则 :attribute 不能为空。</ins>
+<del>:attribute 不能为空，除非</del><ins>除非</ins> :other <del>是</del><ins>为</ins> <del>:values。</del><ins>:values 中的任一值，否则 :attribute 不得为空。</ins>
 
 #### [`validation.required_with`](https://weblate.rob006.net/translate/flarum2/validation/zh_Hans/?q=context%3A%3D%22validation.required_with%22)
 
@@ -5038,10 +11147,10 @@ Flarum <del>用户组</del><ins>群组</ins>
 
 ```diff
 -当 :values 存在时 :attribute 不能为空。
-+当 :values 存在时，:attribute 不能为空。
++:values 任一值不为空时，:attribute 不得为空。
 ```
 
-当 :values <del>存在时 :attribute</del><ins>存在时，:attribute</ins> 不能为空。
+<del>当 </del>:values<del> 存在时</del> <del>:attribute</del><ins>任一值不为空时，:attribute</ins> <del>不能为空。</del><ins>不得为空。</ins>
 
 #### [`validation.required_with_all`](https://weblate.rob006.net/translate/flarum2/validation/zh_Hans/?q=context%3A%3D%22validation.required_with_all%22)
 
@@ -5049,10 +11158,10 @@ Flarum <del>用户组</del><ins>群组</ins>
 
 ```diff
 -当 :values 存在时 :attribute 不能为空。
-+当 :values 存在时，:attribute 不能为空。
++:values 所有值均不为空时，:attribute 不得为空。
 ```
 
-当 :values <del>存在时 :attribute</del><ins>存在时，:attribute</ins> 不能为空。
+<del>当 </del>:values<del> 存在时</del> <del>:attribute</del><ins>所有值均不为空时，:attribute</ins> <del>不能为空。</del><ins>不得为空。</ins>
 
 #### [`validation.required_without`](https://weblate.rob006.net/translate/flarum2/validation/zh_Hans/?q=context%3A%3D%22validation.required_without%22)
 
@@ -5060,10 +11169,10 @@ Flarum <del>用户组</del><ins>群组</ins>
 
 ```diff
 -当 :values 不存在时 :attribute 不能为空。
-+当 :values 不存在时，:attribute 不能为空。
++:values 任一值为空或缺少时，:attribute 不得为空。
 ```
 
-当 :values <del>不存在时 :attribute</del><ins>不存在时，:attribute</ins> 不能为空。
+<del>当 </del>:values<del> 不存在时</del> <del>:attribute</del><ins>任一值为空或缺少时，:attribute</ins> <del>不能为空。</del><ins>不得为空。</ins>
 
 #### [`validation.required_without_all`](https://weblate.rob006.net/translate/flarum2/validation/zh_Hans/?q=context%3A%3D%22validation.required_without_all%22)
 
@@ -5071,10 +11180,10 @@ Flarum <del>用户组</del><ins>群组</ins>
 
 ```diff
 -当 :values 不存在时 :attribute 不能为空。
-+当 :values 均不存在时，:attribute 不能为空。
++:values 所有值均为空或缺少时，:attribute 不得为空。
 ```
 
-当 :values <del>不存在时 :attribute</del><ins>均不存在时，:attribute</ins> 不能为空。
+<del>当 </del>:values<del> 不存在时</del> <del>:attribute</del><ins>所有值均为空或缺少时，:attribute</ins> <del>不能为空。</del><ins>不得为空。</ins>
 
 #### [`validation.unique`](https://weblate.rob006.net/translate/flarum2/validation/zh_Hans/?q=context%3A%3D%22validation.unique%22)
 
@@ -5847,14 +11956,6 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 +此浏览器不支持Passkeys。
 ```
 
-#### [`datlechin-passkey.forum.log_in.sign_in_with_passkey`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/zh_Hans/?q=context%3A%3D%22datlechin-passkey.forum.log_in.sign_in_with_passkey%22)
-
-> Sign in with passkey
-
-```diff
-+使用密钥登录
-```
-
 #### [`datlechin-passkey.forum.log_in.verifying`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/zh_Hans/?q=context%3A%3D%22datlechin-passkey.forum.log_in.verifying%22)
 
 > Verifying passkey...
@@ -5898,14 +11999,6 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 +隐藏已上传文件名的数字前缀 (例如 \"1774205518-685373-song.mp3\" → \"song.mp3\")
 ```
 
-#### [`ekumanov-inline-audio.forum.bbcode_description`](https://weblate.rob006.net/translate/flarum2/ekumanov-inline-audio/zh_Hans/?q=context%3A%3D%22ekumanov-inline-audio.forum.bbcode_description%22)
-
-> Embed an audio player: \[player\]URL\[/player\]
-
-```diff
-+嵌入音频播放器：[player]链接地址[/player]
-```
-
 
 ### `ekumanov-new-posts-notice` (missing)
 
@@ -5923,607 +12016,6 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 +取消 → 先查看新回复（草稿将被保留）
 ```
 
-#### [`ekumanov-new-posts-notice.forum.new_posts_single`](https://weblate.rob006.net/translate/flarum2/ekumanov-new-posts-notice/zh_Hans/?q=context%3A%3D%22ekumanov-new-posts-notice.forum.new_posts_single%22)
-
-> 1 new reply was added while you were writing.
->
-> OK → Post your reply anyway
-> Cancel → Read it first (your draft stays open)
-
-```diff
-+在您撰写期间新增了 1 条回复。
-+
-+确定 → 仍然发布回复
-+取消 → 先查看新回复（草稿将被保留）
-```
-
-
-### `ffans-creator-declarations` (missing)
-
-#### [`ffans-creator-declarations.admin.permissions.allow_edit_own_label`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/zh_Hans/?q=context%3A%3D%22ffans-creator-declarations.admin.permissions.allow_edit_own_label%22)
-
-> Allow editing own creator declarations
-
-```diff
-+允许编辑自己的创作者声明
-```
-
-#### [`ffans-creator-declarations.admin.permissions.moderate_label`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/zh_Hans/?q=context%3A%3D%22ffans-creator-declarations.admin.permissions.moderate_label%22)
-
-> Edit creator declarations on posts
-
-```diff
-+编辑帖子的创作者声明
-```
-
-#### [`ffans-creator-declarations.admin.settings.max_label`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/zh_Hans/?q=context%3A%3D%22ffans-creator-declarations.admin.settings.max_label%22)
-
-> Maximum declarations per post
-
-```diff
-+每篇帖子最多可选声明数
-```
-
-#### [`ffans-creator-declarations.admin.settings.order_help`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/zh_Hans/?q=context%3A%3D%22ffans-creator-declarations.admin.settings.order_help%22)
-
-> Separate declaration keys with commas. Missing keys are appended automatically. Available keys are original, repost, reference, ai\_generated, fictional, personal\_opinion, professional, sensitive, self\_promotion, and sponsored.
-
-```diff
-+使用英文逗号分隔声明键，未列出的声明会自动排在末尾。可用键：original、repost、reference、ai_generated、fictional、personal_opinion、professional、sensitive、self_promotion、sponsored。
-```
-
-#### [`ffans-creator-declarations.admin.settings.order_label`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/zh_Hans/?q=context%3A%3D%22ffans-creator-declarations.admin.settings.order_label%22)
-
-> Declaration order
-
-```diff
-+声明排序
-```
-
-#### [`ffans-creator-declarations.admin.settings.required_discussion_help`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/zh_Hans/?q=context%3A%3D%22ffans-creator-declarations.admin.settings.required_discussion_help%22)
-
-> Discussions cannot be published until at least one declaration is selected.
-
-```diff
-+开启后，未选择声明的主题无法发布。
-```
-
-#### [`ffans-creator-declarations.admin.settings.required_discussion_label`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/zh_Hans/?q=context%3A%3D%22ffans-creator-declarations.admin.settings.required_discussion_label%22)
-
-> Require a declaration when starting a discussion
-
-```diff
-+发布主题时必须选择至少一项声明
-```
-
-#### [`ffans-creator-declarations.admin.settings.required_reply_help`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/zh_Hans/?q=context%3A%3D%22ffans-creator-declarations.admin.settings.required_reply_help%22)
-
-> Replies cannot be published until at least one declaration is selected.
-
-```diff
-+开启后，未选择声明的回复无法发布。
-```
-
-#### [`ffans-creator-declarations.admin.settings.required_reply_label`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/zh_Hans/?q=context%3A%3D%22ffans-creator-declarations.admin.settings.required_reply_label%22)
-
-> Require a declaration when replying
-
-```diff
-+回复主题时必须选择至少一项声明
-```
-
-#### [`ffans-creator-declarations.admin.settings.show_in_user_post_lists_help`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/zh_Hans/?q=context%3A%3D%22ffans-creator-declarations.admin.settings.show_in_user_post_lists_help%22)
-
-> When enabled, creator declarations are displayed with posts in user profile Posts lists.
-
-```diff
-+开启后，用户个人主页的回复列表会显示添加的创作者声明。
-```
-
-#### [`ffans-creator-declarations.admin.settings.show_in_user_post_lists_label`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/zh_Hans/?q=context%3A%3D%22ffans-creator-declarations.admin.settings.show_in_user_post_lists_label%22)
-
-> Show creator declarations in profile Posts lists
-
-```diff
-+在个人主页回复列表中展示创作者声明
-```
-
-#### [`ffans-creator-declarations.forum.composer.choose`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/zh_Hans/?q=context%3A%3D%22ffans-creator-declarations.forum.composer.choose%22)
-
-> Add self declarations
-
-```diff
-+添加自主声明
-```
-
-#### [`ffans-creator-declarations.forum.composer.selected`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/zh_Hans/?q=context%3A%3D%22ffans-creator-declarations.forum.composer.selected%22)
-
-> {count} declarations selected
-
-```diff
-+已选择 {count} 项声明
-```
-
-#### [`ffans-creator-declarations.forum.controls.edit`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/zh_Hans/?q=context%3A%3D%22ffans-creator-declarations.forum.controls.edit%22)
-
-> Edit self declarations
-
-```diff
-+编辑自主声明
-```
-
-#### [`ffans-creator-declarations.forum.display.declaration_format`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/zh_Hans/?q=context%3A%3D%22ffans-creator-declarations.forum.display.declaration_format%22)
-
-> &lt;strong&gt;Author’s declaration:&lt;/strong&gt; {declarations}.
-
-```diff
-+<strong>作者声明：</strong>{declarations}。
-```
-
-#### [`ffans-creator-declarations.forum.display.declaration_separator`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/zh_Hans/?q=context%3A%3D%22ffans-creator-declarations.forum.display.declaration_separator%22)
-
-> ; 
-
-```diff
-+； 
-```
-
-#### [`ffans-creator-declarations.forum.display.open_details`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/zh_Hans/?q=context%3A%3D%22ffans-creator-declarations.forum.display.open_details%22)
-
-> View creator declaration details
-
-```diff
-+查看关于创作者声明
-```
-
-#### [`ffans-creator-declarations.forum.display.original_notice`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/zh_Hans/?q=context%3A%3D%22ffans-creator-declarations.forum.display.original_notice%22)
-
-> Original content. Do not reproduce without permission.
-
-```diff
-+原创内容，未经许可禁止转载。
-```
-
-#### [`ffans-creator-declarations.forum.display.original_summary`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/zh_Hans/?q=context%3A%3D%22ffans-creator-declarations.forum.display.original_summary%22)
-
-> Original content, do not reproduce without permission
-
-```diff
-+原创内容，未经许可禁止转载
-```
-
-#### [`ffans-creator-declarations.forum.display.personal_opinion_summary`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/zh_Hans/?q=context%3A%3D%22ffans-creator-declarations.forum.display.personal_opinion_summary%22)
-
-> Personal opinion, for reference only
-
-```diff
-+个人观点，仅供参考
-```
-
-#### [`ffans-creator-declarations.forum.display.reference_notice`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/zh_Hans/?q=context%3A%3D%22ffans-creator-declarations.forum.display.reference_notice%22)
-
-> This content references {source}.
-
-```diff
-+以下内容参考自 {source}。
-```
-
-#### [`ffans-creator-declarations.forum.display.reference_summary`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/zh_Hans/?q=context%3A%3D%22ffans-creator-declarations.forum.display.reference_summary%22)
-
-> Content was referenced or quoted
-
-```diff
-+内容经过参考或引用
-```
-
-#### [`ffans-creator-declarations.forum.display.repost_notice`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/zh_Hans/?q=context%3A%3D%22ffans-creator-declarations.forum.display.repost_notice%22)
-
-> This content comes from {source}.
-
-```diff
-+以下内容来源于 {source}。
-```
-
-#### [`ffans-creator-declarations.forum.info_modal.author_note`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/zh_Hans/?q=context%3A%3D%22ffans-creator-declarations.forum.info_modal.author_note%22)
-
-> Author's note: 
-
-```diff
-+作者备注： 
-```
-
-#### [`ffans-creator-declarations.forum.info_modal.disclaimer`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/zh_Hans/?q=context%3A%3D%22ffans-creator-declarations.forum.info_modal.disclaimer%22)
-
-> The declarations have not been reviewed or verified by the forum. Please consider them alongside the post content and use your own judgment.
-
-```diff
-+声明内容未经论坛核实或验证，请结合正文信息自行判断。
-```
-
-#### [`ffans-creator-declarations.forum.info_modal.explanation`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/zh_Hans/?q=context%3A%3D%22ffans-creator-declarations.forum.info_modal.explanation%22)
-
-> This notice was added by the author, who declared this post as “{declarations}”.
-
-```diff
-+此提示语由作者自主添加，作者声明本帖“{declarations}”。
-```
-
-#### [`ffans-creator-declarations.forum.info_modal.heading`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/zh_Hans/?q=context%3A%3D%22ffans-creator-declarations.forum.info_modal.heading%22)
-
-> Why am I seeing this notice?
-
-```diff
-+我为什么会看到此提示语
-```
-
-#### [`ffans-creator-declarations.forum.info_modal.reference`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/zh_Hans/?q=context%3A%3D%22ffans-creator-declarations.forum.info_modal.reference%22)
-
-> Reference: 
-
-```diff
-+参考： 
-```
-
-#### [`ffans-creator-declarations.forum.info_modal.source`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/zh_Hans/?q=context%3A%3D%22ffans-creator-declarations.forum.info_modal.source%22)
-
-> Source: 
-
-```diff
-+来源： 
-```
-
-#### [`ffans-creator-declarations.forum.info_modal.title`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/zh_Hans/?q=context%3A%3D%22ffans-creator-declarations.forum.info_modal.title%22)
-
-> About this declaration
-
-```diff
-+关于创作者声明
-```
-
-#### [`ffans-creator-declarations.forum.modal.help`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/zh_Hans/?q=context%3A%3D%22ffans-creator-declarations.forum.modal.help%22)
-
-> Select the declarations that apply to this post. They only help readers understand the content and they do not represent the forum's views or constitute verification by the forum.
-
-```diff
-+请选择与本篇帖子内容相符的声明。声明只用于帮助读者理解内容，不代表论坛观点或经论坛验证。
-```
-
-#### [`ffans-creator-declarations.forum.modal.link_title_placeholder`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/zh_Hans/?q=context%3A%3D%22ffans-creator-declarations.forum.modal.link_title_placeholder%22)
-
-> Link name (optional)
-
-```diff
-+链接名称（可选）
-```
-
-#### [`ffans-creator-declarations.forum.modal.save_button`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/zh_Hans/?q=context%3A%3D%22ffans-creator-declarations.forum.modal.save_button%22)
-
-> Save declarations
-
-```diff
-+保存声明
-```
-
-#### [`ffans-creator-declarations.forum.modal.selection_count`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/zh_Hans/?q=context%3A%3D%22ffans-creator-declarations.forum.modal.selection_count%22)
-
-> Selected {selected} / {max}
-
-```diff
-+已选择 {selected} / {max} 项
-```
-
-#### [`ffans-creator-declarations.forum.modal.title`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/zh_Hans/?q=context%3A%3D%22ffans-creator-declarations.forum.modal.title%22)
-
-> Self Declarations
-
-```diff
-+自主声明
-```
-
-#### [`ffans-creator-declarations.lib.categories.authenticity`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/zh_Hans/?q=context%3A%3D%22ffans-creator-declarations.lib.categories.authenticity%22)
-
-> Authenticity
-
-```diff
-+真实性
-```
-
-#### [`ffans-creator-declarations.lib.categories.commercial`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/zh_Hans/?q=context%3A%3D%22ffans-creator-declarations.lib.categories.commercial%22)
-
-> Commercial disclosure
-
-```diff
-+商业披露
-```
-
-#### [`ffans-creator-declarations.lib.categories.safety`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/zh_Hans/?q=context%3A%3D%22ffans-creator-declarations.lib.categories.safety%22)
-
-> Safety and content notices
-
-```diff
-+安全与内容提示
-```
-
-#### [`ffans-creator-declarations.lib.categories.source`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/zh_Hans/?q=context%3A%3D%22ffans-creator-declarations.lib.categories.source%22)
-
-> Content source
-
-```diff
-+内容来源
-```
-
-#### [`ffans-creator-declarations.lib.declarations.ai_generated.details_placeholder`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/zh_Hans/?q=context%3A%3D%22ffans-creator-declarations.lib.declarations.ai_generated.details_placeholder%22)
-
-> Optionally name the AI tool or add context
-
-```diff
-+可填写使用的 AI 工具或补充说明
-```
-
-#### [`ffans-creator-declarations.lib.declarations.ai_generated.help`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/zh_Hans/?q=context%3A%3D%22ffans-creator-declarations.lib.declarations.ai_generated.help%22)
-
-> All or a significant part of the content was created or edited with generative AI.
-
-```diff
-+内容全部或重要部分使用人工智能生成技术（AIGC）制作或修改。
-```
-
-#### [`ffans-creator-declarations.lib.declarations.ai_generated.label`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/zh_Hans/?q=context%3A%3D%22ffans-creator-declarations.lib.declarations.ai_generated.label%22)
-
-> AI-generated content
-
-```diff
-+内容由 AI 生成
-```
-
-#### [`ffans-creator-declarations.lib.declarations.fictional.help`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/zh_Hans/?q=context%3A%3D%22ffans-creator-declarations.lib.declarations.fictional.help%22)
-
-> The content contains fictional events, role-play, or staged scenes.
-
-```diff
-+内容包含虚构情节、角色扮演或摆拍演绎。
-```
-
-#### [`ffans-creator-declarations.lib.declarations.fictional.label`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/zh_Hans/?q=context%3A%3D%22ffans-creator-declarations.lib.declarations.fictional.label%22)
-
-> Fictional or staged content
-
-```diff
-+情景演绎，仅供参考或娱乐
-```
-
-#### [`ffans-creator-declarations.lib.declarations.original.help`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/zh_Hans/?q=context%3A%3D%22ffans-creator-declarations.lib.declarations.original.help%22)
-
-> The content was primarily created by the author and is not a direct repost. Please do not reproduce without permission.
-
-```diff
-+内容主要由本人创作，不是直接转载他人作品。未经许可，禁止转载。
-```
-
-#### [`ffans-creator-declarations.lib.declarations.original.label`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/zh_Hans/?q=context%3A%3D%22ffans-creator-declarations.lib.declarations.original.label%22)
-
-> Original content
-
-```diff
-+原创内容
-```
-
-#### [`ffans-creator-declarations.lib.declarations.personal_opinion.help`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/zh_Hans/?q=context%3A%3D%22ffans-creator-declarations.lib.declarations.personal_opinion.help%22)
-
-> This content primarily expresses the author's personal views, judgments, or experiences and does not represent universal facts or professional conclusions.
-
-```diff
-+内容主要表达作者个人观点、判断或经验，不代表普遍事实或专业结论。
-```
-
-#### [`ffans-creator-declarations.lib.declarations.personal_opinion.label`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/zh_Hans/?q=context%3A%3D%22ffans-creator-declarations.lib.declarations.personal_opinion.label%22)
-
-> Personal opinions or perspectives
-
-```diff
-+内容为个人观点或见解
-```
-
-#### [`ffans-creator-declarations.lib.declarations.professional.details_placeholder`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/zh_Hans/?q=context%3A%3D%22ffans-creator-declarations.lib.declarations.professional.details_placeholder%22)
-
-> Optionally add safety information
-
-```diff
-+可填写安全注意事项
-```
-
-#### [`ffans-creator-declarations.lib.declarations.professional.help`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/zh_Hans/?q=context%3A%3D%22ffans-creator-declarations.lib.declarations.professional.help%22)
-
-> Imitating this activity without suitable expertise may create a safety risk.
-
-```diff
-+普通用户模仿相关行为可能带来安全风险。
-```
-
-#### [`ffans-creator-declarations.lib.declarations.professional.label`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/zh_Hans/?q=context%3A%3D%22ffans-creator-declarations.lib.declarations.professional.label%22)
-
-> Dangerous behavior; do not imitate
-
-```diff
-+危险行为，请勿模仿
-```
-
-#### [`ffans-creator-declarations.lib.declarations.reference.details_placeholder`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/zh_Hans/?q=context%3A%3D%22ffans-creator-declarations.lib.declarations.reference.details_placeholder%22)
-
-> Enter the original source URL (required)
-
-```diff
-+请输入原始来源链接（必填）
-```
-
-#### [`ffans-creator-declarations.lib.declarations.reference.help`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/zh_Hans/?q=context%3A%3D%22ffans-creator-declarations.lib.declarations.reference.help%22)
-
-> The content references or quotes material from another author or source.
-
-```diff
-+内容参考或引用了其他作者或来源的材料。
-```
-
-#### [`ffans-creator-declarations.lib.declarations.reference.label`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/zh_Hans/?q=context%3A%3D%22ffans-creator-declarations.lib.declarations.reference.label%22)
-
-> Referenced or quoted content
-
-```diff
-+参考或引用内容
-```
-
-#### [`ffans-creator-declarations.lib.declarations.repost.details_placeholder`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/zh_Hans/?q=context%3A%3D%22ffans-creator-declarations.lib.declarations.repost.details_placeholder%22)
-
-> Enter the original source URL (required)
-
-```diff
-+请输入原始来源链接（必填）
-```
-
-#### [`ffans-creator-declarations.lib.declarations.repost.help`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/zh_Hans/?q=context%3A%3D%22ffans-creator-declarations.lib.declarations.repost.help%22)
-
-> The content is primarily reposted from another author or source.
-
-```diff
-+内容主要转载自其他作者或来源。
-```
-
-#### [`ffans-creator-declarations.lib.declarations.repost.label`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/zh_Hans/?q=context%3A%3D%22ffans-creator-declarations.lib.declarations.repost.label%22)
-
-> Reposted content
-
-```diff
-+转载内容
-```
-
-#### [`ffans-creator-declarations.lib.declarations.self_promotion.help`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/zh_Hans/?q=context%3A%3D%22ffans-creator-declarations.lib.declarations.self_promotion.help%22)
-
-> The content promotes products or services from the author, their organization, or third parties and may involve affiliate commissions or other compensation.
-
-```diff
-+内容包含作者本人、所属组织或第三方的产品、服务推广，可能涉及推广佣金或其他收益。
-```
-
-#### [`ffans-creator-declarations.lib.declarations.self_promotion.label`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/zh_Hans/?q=context%3A%3D%22ffans-creator-declarations.lib.declarations.self_promotion.label%22)
-
-> Contains marketing or promotional information
-
-```diff
-+内容含营销推广信息
-```
-
-#### [`ffans-creator-declarations.lib.declarations.sensitive.details_placeholder`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/zh_Hans/?q=context%3A%3D%22ffans-creator-declarations.lib.declarations.sensitive.details_placeholder%22)
-
-> Optionally describe the content notice
-
-```diff
-+可填写具体内容提示
-```
-
-#### [`ffans-creator-declarations.lib.declarations.sensitive.help`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/zh_Hans/?q=context%3A%3D%22ffans-creator-declarations.lib.declarations.sensitive.help%22)
-
-> The content may include disturbing, frightening, or sensitive descriptions.
-
-```diff
-+内容可能包含令人不适、惊吓或敏感的描述。
-```
-
-#### [`ffans-creator-declarations.lib.declarations.sensitive.label`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/zh_Hans/?q=context%3A%3D%22ffans-creator-declarations.lib.declarations.sensitive.label%22)
-
-> Potentially disturbing
-
-```diff
-+可能引人不适
-```
-
-#### [`ffans-creator-declarations.lib.declarations.sponsored.details_placeholder`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/zh_Hans/?q=context%3A%3D%22ffans-creator-declarations.lib.declarations.sponsored.details_placeholder%22)
-
-> Optionally name the partner or describe the relationship
-
-```diff
-+可填写合作方或利益关系
-```
-
-#### [`ffans-creator-declarations.lib.declarations.sponsored.help`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/zh_Hans/?q=context%3A%3D%22ffans-creator-declarations.lib.declarations.sponsored.help%22)
-
-> A third party provided payment, gifts, or another material benefit.
-
-```diff
-+内容创作或发布涉及第三方报酬、赠品或其他利益。
-```
-
-#### [`ffans-creator-declarations.lib.declarations.sponsored.label`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/zh_Hans/?q=context%3A%3D%22ffans-creator-declarations.lib.declarations.sponsored.label%22)
-
-> Paid partnership, sponsorship, or material interest
-
-```diff
-+包含付费合作、赞助或利益关系
-```
-
-#### [`ffans-creator-declarations.lib.validation.details_too_long`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/zh_Hans/?q=context%3A%3D%22ffans-creator-declarations.lib.validation.details_too_long%22)
-
-> Declaration details may not exceed 500 characters.
-
-```diff
-+声明详情不能超过 500 个字符。
-```
-
-#### [`ffans-creator-declarations.lib.validation.invalid_payload`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/zh_Hans/?q=context%3A%3D%22ffans-creator-declarations.lib.validation.invalid_payload%22)
-
-> The declaration payload is invalid.
-
-```diff
-+声明数据格式无效。
-```
-
-#### [`ffans-creator-declarations.lib.validation.invalid_selection`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/zh_Hans/?q=context%3A%3D%22ffans-creator-declarations.lib.validation.invalid_selection%22)
-
-> The declaration selection is invalid.
-
-```diff
-+选择的声明无效。
-```
-
-#### [`ffans-creator-declarations.lib.validation.required`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/zh_Hans/?q=context%3A%3D%22ffans-creator-declarations.lib.validation.required%22)
-
-> At least one declaration is required.
-
-```diff
-+请至少选择一项声明。
-```
-
-#### [`ffans-creator-declarations.lib.validation.source_conflict`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/zh_Hans/?q=context%3A%3D%22ffans-creator-declarations.lib.validation.source_conflict%22)
-
-> Original, reposted, and referenced content declarations cannot be selected at the same time.
-
-```diff
-+原创、转载与参考/引用内容声明不能同时选择。
-```
-
-#### [`ffans-creator-declarations.lib.validation.source_url_required`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/zh_Hans/?q=context%3A%3D%22ffans-creator-declarations.lib.validation.source_url_required%22)
-
-> A valid source URL is required for reposted or referenced content.
-
-```diff
-+转载或参考/引用内容必须填写有效的来源链接。
-```
-
-#### [`ffans-creator-declarations.lib.validation.title_too_long`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/zh_Hans/?q=context%3A%3D%22ffans-creator-declarations.lib.validation.title_too_long%22)
-
-> The link name may not exceed 100 characters.
-
-```diff
-+链接名称不能超过 100 个字符。
-```
-
-#### [`ffans-creator-declarations.lib.validation.too_many`](https://weblate.rob006.net/translate/flarum2/ffans-creator-declarations/zh_Hans/?q=context%3A%3D%22ffans-creator-declarations.lib.validation.too_many%22)
-
-> Too many declarations were selected.
-
-```diff
-+选择的声明数量过多。
-```
-
 
 ### `flarum-audit` (missing)
 
@@ -6532,7 +12024,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Audit
 
 ```diff
-+操作
++审计
 ```
 
 #### [`flarum-audit.admin.limitedSettings.configure`](https://weblate.rob006.net/translate/flarum2/flarum-audit/zh_Hans/?q=context%3A%3D%22flarum-audit.admin.limitedSettings.configure%22)
@@ -6548,7 +12040,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Configure what users with the limited access permissions can see
 
 ```diff
-+配置受限权限的用户可以查看的内容
++选择「查看部分审计日志」权限用户可见的日志类型
 ```
 
 #### [`flarum-audit.admin.limitedSettings.requiresExtension`](https://weblate.rob006.net/translate/flarum2/flarum-audit/zh_Hans/?q=context%3A%3D%22flarum-audit.admin.limitedSettings.requiresExtension%22)
@@ -6556,7 +12048,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Requires extension {extension}
 
 ```diff
-+需要的扩展程序 {extension}
++需要先启用扩展「{extension}」
 ```
 
 #### [`flarum-audit.admin.limitedSettings.title`](https://weblate.rob006.net/translate/flarum2/flarum-audit/zh_Hans/?q=context%3A%3D%22flarum-audit.admin.limitedSettings.title%22)
@@ -6564,15 +12056,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Limited access settings
 
 ```diff
-+访问限制设置
-```
-
-#### [`flarum-audit.admin.permissions.view`](https://weblate.rob006.net/translate/flarum2/flarum-audit/zh_Hans/?q=context%3A%3D%22flarum-audit.admin.permissions.view%22)
-
-> View audit log
-
-```diff
-+查看操作记录
++配置可见类型
 ```
 
 #### [`flarum-audit.admin.permissions.viewLimited`](https://weblate.rob006.net/translate/flarum2/flarum-audit/zh_Hans/?q=context%3A%3D%22flarum-audit.admin.permissions.viewLimited%22)
@@ -6580,7 +12064,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > View limited audit log
 
 ```diff
-+查看受限操作记录
++查看部分审计日志
 ```
 
 #### [`flarum-audit.admin.settings.limitedIpAddress`](https://weblate.rob006.net/translate/flarum2/flarum-audit/zh_Hans/?q=context%3A%3D%22flarum-audit.admin.settings.limitedIpAddress%22)
@@ -6596,7 +12080,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Audit log (user as actor)
 
 ```diff
-+查看操作日志（以用户为主体）
++用户操作记录
 ```
 
 #### [`flarum-audit.forum.link.all-audit`](https://weblate.rob006.net/translate/flarum2/flarum-audit/zh_Hans/?q=context%3A%3D%22flarum-audit.forum.link.all-audit%22)
@@ -6604,7 +12088,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Audit log
 
 ```diff
-+操作日志
++审计日志
 ```
 
 #### [`flarum-audit.forum.link.discussion-audit`](https://weblate.rob006.net/translate/flarum2/flarum-audit/zh_Hans/?q=context%3A%3D%22flarum-audit.forum.link.discussion-audit%22)
@@ -6612,7 +12096,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Audit log
 
 ```diff
-+操作日志
++审计日志
 ```
 
 #### [`flarum-audit.forum.link.user-audit`](https://weblate.rob006.net/translate/flarum2/flarum-audit/zh_Hans/?q=context%3A%3D%22flarum-audit.forum.link.user-audit%22)
@@ -6620,7 +12104,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Audit log (account edits)
 
 ```diff
-+操作日志（账户编辑）
++账号变更记录
 ```
 
 #### [`flarum-audit.forum.modal.actor-title`](https://weblate.rob006.net/translate/flarum2/flarum-audit/zh_Hans/?q=context%3A%3D%22flarum-audit.forum.modal.actor-title%22)
@@ -6628,7 +12112,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Actor Audit Log
 
 ```diff
-+操作者审计
++用户操作记录
 ```
 
 #### [`flarum-audit.forum.modal.all-title`](https://weblate.rob006.net/translate/flarum2/flarum-audit/zh_Hans/?q=context%3A%3D%22flarum-audit.forum.modal.all-title%22)
@@ -6636,7 +12120,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Audit Log
 
 ```diff
-+操作日志
++审计日志
 ```
 
 #### [`flarum-audit.forum.modal.discussion-title`](https://weblate.rob006.net/translate/flarum2/flarum-audit/zh_Hans/?q=context%3A%3D%22flarum-audit.forum.modal.discussion-title%22)
@@ -6644,7 +12128,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Discussion Audit Log
 
 ```diff
-+讨论审计
++讨论审计日志
 ```
 
 #### [`flarum-audit.forum.modal.user-title`](https://weblate.rob006.net/translate/flarum2/flarum-audit/zh_Hans/?q=context%3A%3D%22flarum-audit.forum.modal.user-title%22)
@@ -6652,7 +12136,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > User Audit Log
 
 ```diff
-+用户审计
++账号变更记录
 ```
 
 #### [`flarum-audit.lib.browser.audit_log_cleared`](https://weblate.rob006.net/translate/flarum2/flarum-audit/zh_Hans/?q=context%3A%3D%22flarum-audit.lib.browser.audit_log_cleared%22)
@@ -6660,7 +12144,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Cleared {deleted\_count} entries from the audit logs
 
 ```diff
-+清除 {deleted_count}操作日志中的条目
++清除了审计日志中的 {deleted_count} 条记录
 ```
 
 #### [`flarum-audit.lib.browser.cache_cleared`](https://weblate.rob006.net/translate/flarum2/flarum-audit/zh_Hans/?q=context%3A%3D%22flarum-audit.lib.browser.cache_cleared%22)
@@ -6668,7 +12152,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Manually cleared the cache
 
 ```diff
-+手动清除缓存
++手动清除了缓存
 ```
 
 #### [`flarum-audit.lib.browser.client.access_token`](https://weblate.rob006.net/translate/flarum2/flarum-audit/zh_Hans/?q=context%3A%3D%22flarum-audit.lib.browser.client.access_token%22)
@@ -6700,7 +12184,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Web session
 
 ```diff
-+网络会话
++网页会话
 ```
 
 #### [`flarum-audit.lib.browser.client.unknown`](https://weblate.rob006.net/translate/flarum2/flarum-audit/zh_Hans/?q=context%3A%3D%22flarum-audit.lib.browser.client.unknown%22)
@@ -6716,7 +12200,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Show logs of the same action
 
 ```diff
-+显示来自相同操作者的日志
++筛选同一操作类型
 ```
 
 #### [`flarum-audit.lib.browser.controls.filterActor`](https://weblate.rob006.net/translate/flarum2/flarum-audit/zh_Hans/?q=context%3A%3D%22flarum-audit.lib.browser.controls.filterActor%22)
@@ -6724,7 +12208,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Show logs by this actor
 
 ```diff
-+显示来自该操作者的日志
++筛选同一操作者
 ```
 
 #### [`flarum-audit.lib.browser.controls.filterClient`](https://weblate.rob006.net/translate/flarum2/flarum-audit/zh_Hans/?q=context%3A%3D%22flarum-audit.lib.browser.controls.filterClient%22)
@@ -6732,7 +12216,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Show logs by this client type
 
 ```diff
-+显示来自该客户端类型的日志
++筛选同一客户端类型
 ```
 
 #### [`flarum-audit.lib.browser.controls.filterDiscussion`](https://weblate.rob006.net/translate/flarum2/flarum-audit/zh_Hans/?q=context%3A%3D%22flarum-audit.lib.browser.controls.filterDiscussion%22)
@@ -6740,7 +12224,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Show logs affecting the same discussion
 
 ```diff
-+显示影响同一讨论的日志
++筛选同一讨论
 ```
 
 #### [`flarum-audit.lib.browser.controls.filterIp`](https://weblate.rob006.net/translate/flarum2/flarum-audit/zh_Hans/?q=context%3A%3D%22flarum-audit.lib.browser.controls.filterIp%22)
@@ -6748,7 +12232,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Show logs by this IP
 
 ```diff
-+显示来自该IP地址的日志
++筛选同一 IP
 ```
 
 #### [`flarum-audit.lib.browser.controls.filterUser`](https://weblate.rob006.net/translate/flarum2/flarum-audit/zh_Hans/?q=context%3A%3D%22flarum-audit.lib.browser.controls.filterUser%22)
@@ -6756,7 +12240,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Show logs affecting the same user
 
 ```diff
-+显示影响同一用户的日志
++筛选同一受影响用户
 ```
 
 #### [`flarum-audit.lib.browser.controls.hideRaw`](https://weblate.rob006.net/translate/flarum2/flarum-audit/zh_Hans/?q=context%3A%3D%22flarum-audit.lib.browser.controls.hideRaw%22)
@@ -6780,7 +12264,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Discussion #{id}
 
 ```diff
-+讨论#{id}
++讨论 #{id}
 ```
 
 #### [`flarum-audit.lib.browser.deletedResource.group`](https://weblate.rob006.net/translate/flarum2/flarum-audit/zh_Hans/?q=context%3A%3D%22flarum-audit.lib.browser.deletedResource.group%22)
@@ -6788,7 +12272,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Group #{id}
 
 ```diff
-+群组#{id}
++用户组 #{id}
 ```
 
 #### [`flarum-audit.lib.browser.deletedResource.post`](https://weblate.rob006.net/translate/flarum2/flarum-audit/zh_Hans/?q=context%3A%3D%22flarum-audit.lib.browser.deletedResource.post%22)
@@ -6796,7 +12280,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Post #{id}
 
 ```diff
-+请求#{id}
++帖子 #{id}
 ```
 
 #### [`flarum-audit.lib.browser.deletedResource.tag`](https://weblate.rob006.net/translate/flarum2/flarum-audit/zh_Hans/?q=context%3A%3D%22flarum-audit.lib.browser.deletedResource.tag%22)
@@ -6804,7 +12288,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Tag #{id}
 
 ```diff
-+标签#{id}
++标签 #{id}
 ```
 
 #### [`flarum-audit.lib.browser.deletedResource.user`](https://weblate.rob006.net/translate/flarum2/flarum-audit/zh_Hans/?q=context%3A%3D%22flarum-audit.lib.browser.deletedResource.user%22)
@@ -6812,7 +12296,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > User #{id}
 
 ```diff
-+用户#{id}
++用户 #{id}
 ```
 
 #### [`flarum-audit.lib.browser.discussion.created`](https://weblate.rob006.net/translate/flarum2/flarum-audit/zh_Hans/?q=context%3A%3D%22flarum-audit.lib.browser.discussion.created%22)
@@ -6820,7 +12304,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Started discussion {discussion}
 
 ```diff
-+开始的讨论{discussion}
++发起了讨论 {discussion}
 ```
 
 #### [`flarum-audit.lib.browser.discussion.deleted`](https://weblate.rob006.net/translate/flarum2/flarum-audit/zh_Hans/?q=context%3A%3D%22flarum-audit.lib.browser.discussion.deleted%22)
@@ -6828,7 +12312,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Deleted discussion {discussion}
 
 ```diff
-+删除讨论{discussion}
++删除了讨论 {discussion}
 ```
 
 #### [`flarum-audit.lib.browser.discussion.hidden`](https://weblate.rob006.net/translate/flarum2/flarum-audit/zh_Hans/?q=context%3A%3D%22flarum-audit.lib.browser.discussion.hidden%22)
@@ -6836,7 +12320,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Hid discussion {discussion}
 
 ```diff
-+隐藏讨论{discussion}
++隐藏了讨论 {discussion}
 ```
 
 #### [`flarum-audit.lib.browser.discussion.renamed`](https://weblate.rob006.net/translate/flarum2/flarum-audit/zh_Hans/?q=context%3A%3D%22flarum-audit.lib.browser.discussion.renamed%22)
@@ -6844,7 +12328,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Renamed discussion from {old\_title} to {new\_title}
 
 ```diff
-+讨论标题已从 {old_title} 更改为 {new_title}
++将讨论标题从“{old_title}”修改为“{new_title}”
 ```
 
 #### [`flarum-audit.lib.browser.discussion.restored`](https://weblate.rob006.net/translate/flarum2/flarum-audit/zh_Hans/?q=context%3A%3D%22flarum-audit.lib.browser.discussion.restored%22)
@@ -6852,7 +12336,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Restored discussion {discussion}
 
 ```diff
-+恢复讨论 {discussion}
++恢复了讨论 {discussion}
 ```
 
 #### [`flarum-audit.lib.browser.empty`](https://weblate.rob006.net/translate/flarum2/flarum-audit/zh_Hans/?q=context%3A%3D%22flarum-audit.lib.browser.empty%22)
@@ -6860,7 +12344,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > No results
 
 ```diff
-+无符合条件的结果
++暂无审计记录
 ```
 
 #### [`flarum-audit.lib.browser.extension.disabled`](https://weblate.rob006.net/translate/flarum2/flarum-audit/zh_Hans/?q=context%3A%3D%22flarum-audit.lib.browser.extension.disabled%22)
@@ -6868,7 +12352,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Disabled extension {package}
 
 ```diff
-+禁用扩展{package}
++禁用了扩展 {package}
 ```
 
 #### [`flarum-audit.lib.browser.extension.enabled`](https://weblate.rob006.net/translate/flarum2/flarum-audit/zh_Hans/?q=context%3A%3D%22flarum-audit.lib.browser.extension.enabled%22)
@@ -6876,7 +12360,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Enabled extension {package}
 
 ```diff
-+启用扩展{package}
++启用了扩展 {package}
 ```
 
 #### [`flarum-audit.lib.browser.extension.uninstalled`](https://weblate.rob006.net/translate/flarum2/flarum-audit/zh_Hans/?q=context%3A%3D%22flarum-audit.lib.browser.extension.uninstalled%22)
@@ -6884,7 +12368,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Uninstalled extension {package}
 
 ```diff
-+卸载扩展{package}
++卸载了扩展 {package}
 ```
 
 #### [`flarum-audit.lib.browser.filterApply`](https://weblate.rob006.net/translate/flarum2/flarum-audit/zh_Hans/?q=context%3A%3D%22flarum-audit.lib.browser.filterApply%22)
@@ -6924,7 +12408,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Who performed the action. Use actor:guest for system or unauthenticated actions.
 
 ```diff
-+谁执行了此操作。对于系统操作或未经身份验证的操作，请使用 actor:guest。
++执行操作的用户。对于系统或未登录操作，可使用 actor:guest。
 ```
 
 #### [`flarum-audit.lib.browser.filters.client`](https://weblate.rob006.net/translate/flarum2/flarum-audit/zh_Hans/?q=context%3A%3D%22flarum-audit.lib.browser.filters.client%22)
@@ -6932,7 +12416,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > How the request was made.
 
 ```diff
-+这个请求是如何制造的。
++请求的发起方式。
 ```
 
 #### [`flarum-audit.lib.browser.filters.discussion`](https://weblate.rob006.net/translate/flarum2/flarum-audit/zh_Hans/?q=context%3A%3D%22flarum-audit.lib.browser.filters.discussion%22)
@@ -6940,7 +12424,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Actions affecting a specific discussion, by ID.
 
 ```diff
-+按 ID 影响特定讨论的操作。
++查询影响指定讨论的操作，使用讨论 ID 筛选。
 ```
 
 #### [`flarum-audit.lib.browser.filters.ip`](https://weblate.rob006.net/translate/flarum2/flarum-audit/zh_Hans/?q=context%3A%3D%22flarum-audit.lib.browser.filters.ip%22)
@@ -6948,7 +12432,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > The IP address the action came from.
 
 ```diff
-+发起此操作的 IP 地址。
++发起操作的 IP 地址。
 ```
 
 #### [`flarum-audit.lib.browser.filters.user`](https://weblate.rob006.net/translate/flarum2/flarum-audit/zh_Hans/?q=context%3A%3D%22flarum-audit.lib.browser.filters.user%22)
@@ -6956,7 +12440,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > The user the action affected, by username.
 
 ```diff
-+用户及其操作受影响的部分，按用户名确定。
++操作所影响的用户，使用用户名筛选。
 ```
 
 #### [`flarum-audit.lib.browser.filtersHint`](https://weblate.rob006.net/translate/flarum2/flarum-audit/zh_Hans/?q=context%3A%3D%22flarum-audit.lib.browser.filtersHint%22)
@@ -6972,7 +12456,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Comment
 
 ```diff
-+评论
++回复
 ```
 
 #### [`flarum-audit.lib.browser.genericResource.post`](https://weblate.rob006.net/translate/flarum2/flarum-audit/zh_Hans/?q=context%3A%3D%22flarum-audit.lib.browser.genericResource.post%22)
@@ -6988,7 +12472,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Combine values with commas to match any of them, e.g. action:post.created,post.deleted
 
 ```diff
-+用逗号来分隔即可匹配其中任何一个，例如：action:post.created,post.deleted
++使用英文逗号分隔多个筛选条件，可匹配其中任意一个，例如 action:post.created,post.deleted
 ```
 
 #### [`flarum-audit.lib.browser.help.negate`](https://weblate.rob006.net/translate/flarum2/flarum-audit/zh_Hans/?q=context%3A%3D%22flarum-audit.lib.browser.help.negate%22)
@@ -6996,7 +12480,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Prefix a filter with a minus to exclude matches, e.g. -client:cli
 
 ```diff
-+在筛选条件前加上减号（-）可以排除匹配项，例如：-client:cli
++在筛选条件前加减号可排除匹配项，例如 -client:cli
 ```
 
 #### [`flarum-audit.lib.browser.help.toggle`](https://weblate.rob006.net/translate/flarum2/flarum-audit/zh_Hans/?q=context%3A%3D%22flarum-audit.lib.browser.help.toggle%22)
@@ -7028,7 +12512,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > (no value)
 
 ```diff
-+（没有相关值）
++（无值）
 ```
 
 #### [`flarum-audit.lib.browser.permissionGroup.everyone`](https://weblate.rob006.net/translate/flarum2/flarum-audit/zh_Hans/?q=context%3A%3D%22flarum-audit.lib.browser.permissionGroup.everyone%22)
@@ -7052,7 +12536,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Edited permission {permission} from {old\_groups} to {new\_groups}
 
 ```diff
-+已将权限 {permission} 从 {old_groups} 修改为 {new_groups}
++将 {permission} 权限的用户组从 {old_groups} 调整为 {new_groups}
 ```
 
 #### [`flarum-audit.lib.browser.post.created`](https://weblate.rob006.net/translate/flarum2/flarum-audit/zh_Hans/?q=context%3A%3D%22flarum-audit.lib.browser.post.created%22)
@@ -7060,7 +12544,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Created a {post} in {discussion}
 
 ```diff
-+已在 {discussion} 中创建了 {post}
++在 {discussion} 中发布了 {post}
 ```
 
 #### [`flarum-audit.lib.browser.post.deleted`](https://weblate.rob006.net/translate/flarum2/flarum-audit/zh_Hans/?q=context%3A%3D%22flarum-audit.lib.browser.post.deleted%22)
@@ -7068,7 +12552,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Deleted {postuser}'s {post} in {discussion}
 
 ```diff
-+已删除 {postuser} 在 {discussion} 中的 {post}
++删除了 {postuser} 在 {discussion} 中发布的 {post}
 ```
 
 #### [`flarum-audit.lib.browser.post.hidden`](https://weblate.rob006.net/translate/flarum2/flarum-audit/zh_Hans/?q=context%3A%3D%22flarum-audit.lib.browser.post.hidden%22)
@@ -7076,7 +12560,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Hid {postuser}'s {post} in {discussion}
 
 ```diff
-+隐藏了 {postuser} 在 {discussion} 中的 {post}
++隐藏了 {postuser} 在 {discussion} 中发布的 {post}
 ```
 
 #### [`flarum-audit.lib.browser.post.restored`](https://weblate.rob006.net/translate/flarum2/flarum-audit/zh_Hans/?q=context%3A%3D%22flarum-audit.lib.browser.post.restored%22)
@@ -7084,7 +12568,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Restored {postuser}'s {post} in {discussion}
 
 ```diff
-+已恢复 {postuser} 在 {discussion} 中的 {post}
++恢复了 {postuser} 在 {discussion} 中发布的 {post}
 ```
 
 #### [`flarum-audit.lib.browser.post.revised`](https://weblate.rob006.net/translate/flarum2/flarum-audit/zh_Hans/?q=context%3A%3D%22flarum-audit.lib.browser.post.revised%22)
@@ -7092,7 +12576,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Revised {postuser}'s {post} in {discussion}
 
 ```diff
-+修改了{postuser}在{discussion}中的{post}
++修改了 {postuser} 在 {discussion} 中发布的 {post}
 ```
 
 #### [`flarum-audit.lib.browser.refresh`](https://weblate.rob006.net/translate/flarum2/flarum-audit/zh_Hans/?q=context%3A%3D%22flarum-audit.lib.browser.refresh%22)
@@ -7108,7 +12592,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Edited setting {key}
 
 ```diff
-+已更改设置{key}
++修改了设置 {key}
 ```
 
 #### [`flarum-audit.lib.browser.setting_changed_with_values`](https://weblate.rob006.net/translate/flarum2/flarum-audit/zh_Hans/?q=context%3A%3D%22flarum-audit.lib.browser.setting_changed_with_values%22)
@@ -7116,7 +12600,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Edited setting {key} from {old\_value} to {new\_value}
 
 ```diff
-+已将设置{key}的值从{old_value}更改为{new_value}
++修改了设置 {key}：{old_value} → {new_value}
 ```
 
 #### [`flarum-audit.lib.browser.user.activated`](https://weblate.rob006.net/translate/flarum2/flarum-audit/zh_Hans/?q=context%3A%3D%22flarum-audit.lib.browser.user.activated%22)
@@ -7124,7 +12608,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Activated {username}'s account manually
 
 ```diff
-+已手动激活 {username} 的帐户
++手动激活了 {username} 的账号
 ```
 
 #### [`flarum-audit.lib.browser.user.activated_with_email`](https://weblate.rob006.net/translate/flarum2/flarum-audit/zh_Hans/?q=context%3A%3D%22flarum-audit.lib.browser.user.activated_with_email%22)
@@ -7132,7 +12616,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Activated {username}'s account via confirmation link
 
 ```diff
-+已通过确认链接激活 {username} 的帐户
++通过确认链接激活了 {username} 的账号
 ```
 
 #### [`flarum-audit.lib.browser.user.avatar_changed`](https://weblate.rob006.net/translate/flarum2/flarum-audit/zh_Hans/?q=context%3A%3D%22flarum-audit.lib.browser.user.avatar_changed%22)
@@ -7140,7 +12624,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Changed {username}'s avatar
 
 ```diff
-+更改了{username}的头像
++更换了 {username} 的头像
 ```
 
 #### [`flarum-audit.lib.browser.user.avatar_removed`](https://weblate.rob006.net/translate/flarum2/flarum-audit/zh_Hans/?q=context%3A%3D%22flarum-audit.lib.browser.user.avatar_removed%22)
@@ -7148,7 +12632,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Removed {username}'s avatar
 
 ```diff
-+移除了{username}的头像
++移除了 {username} 的头像
 ```
 
 #### [`flarum-audit.lib.browser.user.created`](https://weblate.rob006.net/translate/flarum2/flarum-audit/zh_Hans/?q=context%3A%3D%22flarum-audit.lib.browser.user.created%22)
@@ -7156,7 +12640,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Created {username}'s account
 
 ```diff
-+已创建{username}的账户
++为 {username} 创建了账号
 ```
 
 #### [`flarum-audit.lib.browser.user.deleted`](https://weblate.rob006.net/translate/flarum2/flarum-audit/zh_Hans/?q=context%3A%3D%22flarum-audit.lib.browser.user.deleted%22)
@@ -7164,7 +12648,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Deleted {username}
 
 ```diff
-+删除了用户{username}
++删除了用户 {username}
 ```
 
 #### [`flarum-audit.lib.browser.user.email_change_requested`](https://weblate.rob006.net/translate/flarum2/flarum-audit/zh_Hans/?q=context%3A%3D%22flarum-audit.lib.browser.user.email_change_requested%22)
@@ -7172,7 +12656,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Requested to change {username}'s email to {new\_email}
 
 ```diff
-+已请求将 {username} 的电子邮件地址更改为 {new_email}
++请求将 {username} 的邮箱变更为 {new_email}
 ```
 
 #### [`flarum-audit.lib.browser.user.email_changed`](https://weblate.rob006.net/translate/flarum2/flarum-audit/zh_Hans/?q=context%3A%3D%22flarum-audit.lib.browser.user.email_changed%22)
@@ -7180,7 +12664,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Changed {username}'s email from {old\_email} to {new\_email}
 
 ```diff
-+已将 {username} 的电子邮件地址从 {old_email} 更改为 {new_email}
++修改了 {username} 的邮箱：{old_email} → {new_email}
 ```
 
 #### [`flarum-audit.lib.browser.user.groups_changed`](https://weblate.rob006.net/translate/flarum2/flarum-audit/zh_Hans/?q=context%3A%3D%22flarum-audit.lib.browser.user.groups_changed%22)
@@ -7188,7 +12672,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Changed {username}'s groups from {old\_groups} to {new\_groups}
 
 ```diff
-+已将 {username} 所在群组从 {old_groups} 更改为 {new_groups}
++修改了 {username} 的用户组：{old_groups} → {new_groups}
 ```
 
 #### [`flarum-audit.lib.browser.user.logged_in`](https://weblate.rob006.net/translate/flarum2/flarum-audit/zh_Hans/?q=context%3A%3D%22flarum-audit.lib.browser.user.logged_in%22)
@@ -7196,7 +12680,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Logged in {username} account
 
 ```diff
-+已登录 {username} 帐户
++登录了 {username} 的账号
 ```
 
 #### [`flarum-audit.lib.browser.user.logged_in_with_provider`](https://weblate.rob006.net/translate/flarum2/flarum-audit/zh_Hans/?q=context%3A%3D%22flarum-audit.lib.browser.user.logged_in_with_provider%22)
@@ -7204,7 +12688,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Logged in {username} account using {provider}
 
 ```diff
-+已使用 {provider} 登录帐户 {username}
++通过 {provider} 登录了 {username} 的账号
 ```
 
 #### [`flarum-audit.lib.browser.user.logged_out`](https://weblate.rob006.net/translate/flarum2/flarum-audit/zh_Hans/?q=context%3A%3D%22flarum-audit.lib.browser.user.logged_out%22)
@@ -7212,7 +12696,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Logged out {username} account
 
 ```diff
-+已登出帐户 {username}
++登出了 {username} 的账号
 ```
 
 #### [`flarum-audit.lib.browser.user.password_change_requested`](https://weblate.rob006.net/translate/flarum2/flarum-audit/zh_Hans/?q=context%3A%3D%22flarum-audit.lib.browser.user.password_change_requested%22)
@@ -7220,7 +12704,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Requested to change {username}'s password
 
 ```diff
-+请求更改 {username} 的密码
++请求修改 {username} 的密码
 ```
 
 #### [`flarum-audit.lib.browser.user.password_changed`](https://weblate.rob006.net/translate/flarum2/flarum-audit/zh_Hans/?q=context%3A%3D%22flarum-audit.lib.browser.user.password_changed%22)
@@ -7228,7 +12712,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Changed {username}'s password
 
 ```diff
-+已更改{username}的密码
++修改了 {username} 的密码
 ```
 
 #### [`flarum-audit.lib.browser.user.password_reset_attempted`](https://weblate.rob006.net/translate/flarum2/flarum-audit/zh_Hans/?q=context%3A%3D%22flarum-audit.lib.browser.user.password_reset_attempted%22)
@@ -7236,7 +12720,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Requested a password reset for {username}
 
 ```diff
-+用户 {username} 已请求重置密码
++请求重置 {username} 的密码
 ```
 
 #### [`flarum-audit.lib.browser.user.password_reset_attempted_unmatched`](https://weblate.rob006.net/translate/flarum2/flarum-audit/zh_Hans/?q=context%3A%3D%22flarum-audit.lib.browser.user.password_reset_attempted_unmatched%22)
@@ -7244,7 +12728,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Requested a password reset for {email} (no matching account)
 
 ```diff
-+请求重置 {email} 的密码（没有匹配的帐户）
++请求重置未注册邮箱 {email} 的密码
 ```
 
 #### [`flarum-audit.lib.browser.user.provider_connected`](https://weblate.rob006.net/translate/flarum2/flarum-audit/zh_Hans/?q=context%3A%3D%22flarum-audit.lib.browser.user.provider_connected%22)
@@ -7252,7 +12736,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Connected provider {provider} to {username} account
 
 ```diff
-+已将认证方式 {provider} 连接到 {username} 帐户
++为 {username} 的账号绑定了 {provider}
 ```
 
 #### [`flarum-audit.lib.browser.user.username_changed`](https://weblate.rob006.net/translate/flarum2/flarum-audit/zh_Hans/?q=context%3A%3D%22flarum-audit.lib.browser.user.username_changed%22)
@@ -7260,7 +12744,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Changed {username}'s username from {old\_username} to {new\_username}
 
 ```diff
-+已将 {username} 的用户名从 {old_username} 更改为 {new_username}
++修改了 {username} 的用户名：{old_username} → {new_username}
 ```
 
 #### [`flarum-audit.lib.browser.withoutActor`](https://weblate.rob006.net/translate/flarum2/flarum-audit/zh_Hans/?q=context%3A%3D%22flarum-audit.lib.browser.withoutActor%22)
@@ -7272,6 +12756,17 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 ```
 
 
+### `flarum-sticky` (missing)
+
+#### [`flarum-sticky.admin.settings.pin_sticky_on_all_discussions_label`](https://weblate.rob006.net/translate/flarum2/flarum-sticky/zh_Hans/?q=context%3A%3D%22flarum-sticky.admin.settings.pin_sticky_on_all_discussions_label%22)
+
+> Pin stickied discussions on the All Discussions page
+
+```diff
++置顶讨论
+```
+
+
 ### `fof-anti-spam` (missing)
 
 #### [`flarum-audit.lib.browser.registration.blocked`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/zh_Hans/?q=context%3A%3D%22flarum-audit.lib.browser.registration.blocked%22)
@@ -7279,7 +12774,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Blocked registration for {username} ({email}) from {ip}
 
 ```diff
-+已拦截用户 {username} ({email}) 从 {ip} 注册
++拦截了 {username}（{email}）从 {ip} 发起的注册
 ```
 
 #### [`flarum-audit.lib.browser.user.marked_as_spammer`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/zh_Hans/?q=context%3A%3D%22flarum-audit.lib.browser.user.marked_as_spammer%22)
@@ -7287,7 +12782,130 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Marked {username} as a spammer
 
 ```diff
-+已将 {username} 标记为垃圾邮件发送者
++将 {username} 标记为垃圾用户
+```
+
+
+### `fof-author-change` (missing)
+
+#### [`fof-author-change.admin.permissions.edit-date`](https://weblate.rob006.net/translate/flarum2/fof-author-change/zh_Hans/?q=context%3A%3D%22fof-author-change.admin.permissions.edit-date%22)
+
+> Update discussion and post date
+
+```diff
++修改讨论和帖子作者
+```
+
+#### [`fof-author-change.admin.permissions.edit-user`](https://weblate.rob006.net/translate/flarum2/fof-author-change/zh_Hans/?q=context%3A%3D%22fof-author-change.admin.permissions.edit-user%22)
+
+> Update discussion and post author
+
+```diff
++修改讨论和帖子作者
+```
+
+#### [`fof-author-change.forum.modal.cancel`](https://weblate.rob006.net/translate/flarum2/fof-author-change/zh_Hans/?q=context%3A%3D%22fof-author-change.forum.modal.cancel%22)
+
+> Cancel
+
+```diff
++取消
+```
+
+#### [`fof-author-change.forum.modal.created_at`](https://weblate.rob006.net/translate/flarum2/fof-author-change/zh_Hans/?q=context%3A%3D%22fof-author-change.forum.modal.created_at%22)
+
+> Creation time
+
+```diff
++发布时间
+```
+
+#### [`fof-author-change.forum.modal.edited_at`](https://weblate.rob006.net/translate/flarum2/fof-author-change/zh_Hans/?q=context%3A%3D%22fof-author-change.forum.modal.edited_at%22)
+
+> Edit time
+
+```diff
++编辑时间
+```
+
+#### [`fof-author-change.forum.modal.submit`](https://weblate.rob006.net/translate/flarum2/fof-author-change/zh_Hans/?q=context%3A%3D%22fof-author-change.forum.modal.submit%22)
+
+> Save
+
+```diff
++保存
+```
+
+#### [`fof-author-change.forum.modal.sync-impossible`](https://weblate.rob006.net/translate/flarum2/fof-author-change/zh_Hans/?q=context%3A%3D%22fof-author-change.forum.modal.sync-impossible%22)
+
+> Cannot find first post. Try scrolling to the start of the discussion.
+
+```diff
++未找到首帖，请滚动到讨论开头后再试。
+```
+
+#### [`fof-author-change.forum.modal.sync-with-discussion`](https://weblate.rob006.net/translate/flarum2/fof-author-change/zh_Hans/?q=context%3A%3D%22fof-author-change.forum.modal.sync-with-discussion%22)
+
+> Sync with discussion
+
+```diff
++同步修改讨论
+```
+
+#### [`fof-author-change.forum.modal.sync-with-post`](https://weblate.rob006.net/translate/flarum2/fof-author-change/zh_Hans/?q=context%3A%3D%22fof-author-change.forum.modal.sync-with-post%22)
+
+> Sync with first post
+
+```diff
++同步修改首贴
+```
+
+#### [`fof-author-change.forum.modal.title-discussion`](https://weblate.rob006.net/translate/flarum2/fof-author-change/zh_Hans/?q=context%3A%3D%22fof-author-change.forum.modal.title-discussion%22)
+
+> Edit Discussion Author and Date
+
+```diff
++编辑讨论作者和日期
+```
+
+#### [`fof-author-change.forum.modal.title-post`](https://weblate.rob006.net/translate/flarum2/fof-author-change/zh_Hans/?q=context%3A%3D%22fof-author-change.forum.modal.title-post%22)
+
+> Edit Post Author and Date
+
+```diff
++编辑帖子作者和日期
+```
+
+#### [`fof-author-change.forum.modal.user`](https://weblate.rob006.net/translate/flarum2/fof-author-change/zh_Hans/?q=context%3A%3D%22fof-author-change.forum.modal.user%22)
+
+> Author
+
+```diff
++作者
+```
+
+#### [`fof-author-change.forum.search.no-results`](https://weblate.rob006.net/translate/flarum2/fof-author-change/zh_Hans/?q=context%3A%3D%22fof-author-change.forum.search.no-results%22)
+
+> No results
+
+```diff
++未找到用户
+```
+
+#### [`fof-author-change.forum.search.placeholder`](https://weblate.rob006.net/translate/flarum2/fof-author-change/zh_Hans/?q=context%3A%3D%22fof-author-change.forum.search.placeholder%22)
+
+> Search users
+
+```diff
++搜索用户
+```
+
+#### [`fof-author-change.forum.search.type-more`](https://weblate.rob006.net/translate/flarum2/fof-author-change/zh_Hans/?q=context%3A%3D%22fof-author-change.forum.search.type-more%22)
+
+> Type 3 characters to search database
+
+```diff
++输入至少 3 个字符开始搜索
 ```
 
 
@@ -7298,7 +12916,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Set {post} as best answer in {discussion}
 
 ```diff
-+将 {post} 设置为 {discussion} 中的最佳答案
++将 {post} 设为 {discussion} 的最佳回复
 ```
 
 #### [`flarum-audit.lib.browser.discussion.best_answer_unset`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22flarum-audit.lib.browser.discussion.best_answer_unset%22)
@@ -7306,7 +12924,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Unset best answer for {post} in {discussion}
 
 ```diff
-+取消设置{post}为 {discussion} 中 的最佳答案
++取消了 {discussion} 中的最佳回复 {post}
 ```
 
 #### [`fof-best-answer.admin.permissions.allow_select_own_post`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/zh_Hans/?q=context%3A%3D%22fof-best-answer.admin.permissions.allow_select_own_post%22)
@@ -7314,7 +12932,186 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Select own post as Best Answer
 
 ```diff
-+允许将自己的回复设为最佳回答
++将自己的帖子设为最佳回复
+```
+
+
+### `fof-bookmarks` (missing)
+
+#### [`fof-bookmarks.admin.settings.independent_button`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/zh_Hans/?q=context%3A%3D%22fof-bookmarks.admin.settings.independent_button%22)
+
+> Show the discussion bookmark control in the sidebar
+
+```diff
++在讨论侧边栏显示收藏按钮
+```
+
+#### [`fof-bookmarks.admin.settings.independent_button_help`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/zh_Hans/?q=context%3A%3D%22fof-bookmarks.admin.settings.independent_button_help%22)
+
+> When off, the control appears in the discussion dropdown menu instead.
+
+```diff
++关闭后，收藏操作会移至侧边栏更多菜单。
+```
+
+#### [`fof-bookmarks.admin.settings.post_button_position`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/zh_Hans/?q=context%3A%3D%22fof-bookmarks.admin.settings.post_button_position%22)
+
+> Post bookmark button position
+
+```diff
++帖子收藏按钮位置
+```
+
+#### [`fof-bookmarks.admin.settings.post_button_position_actions`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/zh_Hans/?q=context%3A%3D%22fof-bookmarks.admin.settings.post_button_position_actions%22)
+
+> Below post (quick actions)
+
+```diff
++帖子底部（快捷操作）
+```
+
+#### [`fof-bookmarks.admin.settings.post_button_position_header`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/zh_Hans/?q=context%3A%3D%22fof-bookmarks.admin.settings.post_button_position_header%22)
+
+> Above post (header)
+
+```diff
++帖子顶部
+```
+
+#### [`fof-bookmarks.admin.settings.post_button_position_menu`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/zh_Hans/?q=context%3A%3D%22fof-bookmarks.admin.settings.post_button_position_menu%22)
+
+> In post menu (three dots)
+
+```diff
++帖子更多菜单
+```
+
+#### [`fof-bookmarks.admin.settings.post_header_badge`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/zh_Hans/?q=context%3A%3D%22fof-bookmarks.admin.settings.post_header_badge%22)
+
+> Label bookmarked posts
+
+```diff
++显示收藏标记
+```
+
+#### [`fof-bookmarks.admin.settings.post_header_badge_help`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/zh_Hans/?q=context%3A%3D%22fof-bookmarks.admin.settings.post_header_badge_help%22)
+
+> Shows a label above a bookmarked post. Only applies when the button is not in the header.
+
+```diff
++在已收藏的帖子顶部显示标记。收藏按钮位于帖子顶部时不生效。
+```
+
+#### [`fof-bookmarks.forum.alert.added`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/zh_Hans/?q=context%3A%3D%22fof-bookmarks.forum.alert.added%22)
+
+> Bookmark added!
+
+```diff
++收藏成功！
+```
+
+#### [`fof-bookmarks.forum.alert.removed`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/zh_Hans/?q=context%3A%3D%22fof-bookmarks.forum.alert.removed%22)
+
+> Bookmark removed!
+
+```diff
++已取消收藏！
+```
+
+#### [`fof-bookmarks.forum.alert.show_bookmarks`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/zh_Hans/?q=context%3A%3D%22fof-bookmarks.forum.alert.show_bookmarks%22)
+
+> Go to bookmarks
+
+```diff
++查看收藏
+```
+
+#### [`fof-bookmarks.forum.badge`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/zh_Hans/?q=context%3A%3D%22fof-bookmarks.forum.badge%22)
+
+> Bookmarked
+
+```diff
++收藏
+```
+
+#### [`fof-bookmarks.forum.dropdownButton.add`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/zh_Hans/?q=context%3A%3D%22fof-bookmarks.forum.dropdownButton.add%22)
+
+> Add to bookmarks
+
+```diff
++加入收藏
+```
+
+#### [`fof-bookmarks.forum.dropdownButton.remove`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/zh_Hans/?q=context%3A%3D%22fof-bookmarks.forum.dropdownButton.remove%22)
+
+> Remove from bookmarks
+
+```diff
++取消收藏
+```
+
+#### [`fof-bookmarks.forum.independentButton.add`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/zh_Hans/?q=context%3A%3D%22fof-bookmarks.forum.independentButton.add%22)
+
+> Bookmark
+
+```diff
++收藏
+```
+
+#### [`fof-bookmarks.forum.independentButton.remove`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/zh_Hans/?q=context%3A%3D%22fof-bookmarks.forum.independentButton.remove%22)
+
+> Bookmarked
+
+```diff
++已收藏
+```
+
+#### [`fof-bookmarks.forum.page.link`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/zh_Hans/?q=context%3A%3D%22fof-bookmarks.forum.page.link%22)
+
+> Bookmarks
+
+```diff
++收藏
+```
+
+#### [`fof-bookmarks.forum.page.tab.discussions`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/zh_Hans/?q=context%3A%3D%22fof-bookmarks.forum.page.tab.discussions%22)
+
+> Discussions
+
+```diff
++讨论
+```
+
+#### [`fof-bookmarks.forum.page.tab.posts`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/zh_Hans/?q=context%3A%3D%22fof-bookmarks.forum.page.tab.posts%22)
+
+> Posts
+
+```diff
++帖子
+```
+
+#### [`fof-bookmarks.forum.page.title`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/zh_Hans/?q=context%3A%3D%22fof-bookmarks.forum.page.title%22)
+
+> Bookmarks
+
+```diff
++我的收藏
+```
+
+#### [`fof-bookmarks.forum.postButton.add`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/zh_Hans/?q=context%3A%3D%22fof-bookmarks.forum.postButton.add%22)
+
+> Bookmark
+
+```diff
++收藏
+```
+
+#### [`fof-bookmarks.forum.postButton.remove`](https://weblate.rob006.net/translate/flarum2/fof-bookmarks/zh_Hans/?q=context%3A%3D%22fof-bookmarks.forum.postButton.remove%22)
+
+> Bookmarked
+
+```diff
++已收藏
 ```
 
 
@@ -7325,7 +13122,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Categories
 
 ```diff
-+分类
++板块
 ```
 
 #### [`fof-categories.admin.headings.child_display`](https://weblate.rob006.net/translate/flarum2/fof-categories/zh_Hans/?q=context%3A%3D%22fof-categories.admin.headings.child_display%22)
@@ -7333,7 +13130,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Child Category Display
 
 ```diff
-+子分类显示
++子板块显示
 ```
 
 #### [`fof-categories.admin.headings.layout`](https://weblate.rob006.net/translate/flarum2/fof-categories/zh_Hans/?q=context%3A%3D%22fof-categories.admin.headings.layout%22)
@@ -7357,7 +13154,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Parent Category Display
 
 ```diff
-+父分类显示
++主板块显示
 ```
 
 #### [`fof-categories.admin.headings.performance`](https://weblate.rob006.net/translate/flarum2/fof-categories/zh_Hans/?q=context%3A%3D%22fof-categories.admin.headings.performance%22)
@@ -7373,7 +13170,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Should icons on child categories be displayed without a circular background?
 
 ```diff
-+子分类上的图标是否应在没有圆形背景的情况下显示？
++开启后，子板块图标不再显示圆形背景。
 ```
 
 #### [`fof-categories.admin.help.full_page_desktop`](https://weblate.rob006.net/translate/flarum2/fof-categories/zh_Hans/?q=context%3A%3D%22fof-categories.admin.help.full_page_desktop%22)
@@ -7381,7 +13178,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Should the sidebar nav menu be collapsed to a row (like on the traditional tags page)? This will also hide widgets (such as Friends of Flarum Forum Statistics) from the categories page navbar.
 
 ```diff
-+侧边栏导航菜单是否应折叠为一行（如传统的标签页面）？这还会在分类页面导航栏中隐藏组件（如 Friends of Flarum 论坛统计）。
++开启后，桌面端侧边栏导航会移动到顶部横排展示，与传统标签页类似。同时会隐藏侧边栏中的小组件，例如 FoF 论坛统计。
 ```
 
 #### [`fof-categories.admin.help.small_forum_optimized`](https://weblate.rob006.net/translate/flarum2/fof-categories/zh_Hans/?q=context%3A%3D%22fof-categories.admin.help.small_forum_optimized%22)
@@ -7389,7 +13186,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > This will give more accurate discussion/post counts, but will slow medium and large forums dramatically.
 
 ```diff
-+这将提供更准确的讨论/帖子计数，但会大幅降低中大型论坛的速度。
++提供更准确的讨论和帖子统计，但会大幅降低中大型论坛的性能。
 ```
 
 #### [`fof-categories.admin.labels.child_bare_icon`](https://weblate.rob006.net/translate/flarum2/fof-categories/zh_Hans/?q=context%3A%3D%22fof-categories.admin.labels.child_bare_icon%22)
@@ -7397,7 +13194,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Bare child icons?
 
 ```diff
-+使用无背景的子图标？
++子板块图标轻量展示
 ```
 
 #### [`fof-categories.admin.labels.compact_mobile_mode`](https://weblate.rob006.net/translate/flarum2/fof-categories/zh_Hans/?q=context%3A%3D%22fof-categories.admin.labels.compact_mobile_mode%22)
@@ -7413,7 +13210,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Full page desktop?
 
 ```diff
-+桌面端全屏显示？
++桌面端全页布局
 ```
 
 #### [`fof-categories.admin.labels.keep_tags_nav`](https://weblate.rob006.net/translate/flarum2/fof-categories/zh_Hans/?q=context%3A%3D%22fof-categories.admin.labels.keep_tags_nav%22)
@@ -7421,7 +13218,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Keep the tags page link in the nav sidebar?
 
 ```diff
-+在侧边导航栏保留标签页面链接？
++在侧边导航栏保留标签页入口
 ```
 
 #### [`fof-categories.admin.labels.parent_remove_description`](https://weblate.rob006.net/translate/flarum2/fof-categories/zh_Hans/?q=context%3A%3D%22fof-categories.admin.labels.parent_remove_description%22)
@@ -7429,7 +13226,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Hide descriptions for top-level tags?
 
 ```diff
-+隐藏顶级标签描述？
++隐藏主板块描述
 ```
 
 #### [`fof-categories.admin.labels.parent_remove_icon`](https://weblate.rob006.net/translate/flarum2/fof-categories/zh_Hans/?q=context%3A%3D%22fof-categories.admin.labels.parent_remove_icon%22)
@@ -7437,7 +13234,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Hide icons for top-level tags?
 
 ```diff
-+隐藏顶级标签图标？
++隐藏主板块图标
 ```
 
 #### [`fof-categories.admin.labels.parent_remove_last_discussion`](https://weblate.rob006.net/translate/flarum2/fof-categories/zh_Hans/?q=context%3A%3D%22fof-categories.admin.labels.parent_remove_last_discussion%22)
@@ -7445,7 +13242,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Hide most recent discussions for top-level tags?
 
 ```diff
-+隐藏顶级标签的最新讨论？
++隐藏主板块最新讨论
 ```
 
 #### [`fof-categories.admin.labels.parent_remove_stats`](https://weblate.rob006.net/translate/flarum2/fof-categories/zh_Hans/?q=context%3A%3D%22fof-categories.admin.labels.parent_remove_stats%22)
@@ -7453,7 +13250,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Hide stats for top-level tags?
 
 ```diff
-+隐藏顶级标签统计数据？
++隐藏主板块统计
 ```
 
 #### [`fof-categories.admin.labels.small_forum_optimized`](https://weblate.rob006.net/translate/flarum2/fof-categories/zh_Hans/?q=context%3A%3D%22fof-categories.admin.labels.small_forum_optimized%22)
@@ -7461,7 +13258,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Optimize for small forums?
 
 ```diff
-+为小型论坛优化？
++小型论坛优化
 ```
 
 #### [`fof-categories.admin.title`](https://weblate.rob006.net/translate/flarum2/fof-categories/zh_Hans/?q=context%3A%3D%22fof-categories.admin.title%22)
@@ -7469,7 +13266,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Categories Settings
 
 ```diff
-+分类设置
++板块设置
 ```
 
 #### [`fof-categories.forum.all_categories.meta_description_text`](https://weblate.rob006.net/translate/flarum2/fof-categories/zh_Hans/?q=context%3A%3D%22fof-categories.forum.all_categories.meta_description_text%22)
@@ -7477,7 +13274,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > All Categories
 
 ```diff
-+所有分类
++全部板块
 ```
 
 #### [`fof-categories.forum.all_categories.meta_title_text`](https://weblate.rob006.net/translate/flarum2/fof-categories/zh_Hans/?q=context%3A%3D%22fof-categories.forum.all_categories.meta_title_text%22)
@@ -7493,7 +13290,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Back to Categories
 
 ```diff
-+返回分类
++返回板块列表
 ```
 
 #### [`fof-categories.forum.index.categories_link`](https://weblate.rob006.net/translate/flarum2/fof-categories/zh_Hans/?q=context%3A%3D%22fof-categories.forum.index.categories_link%22)
@@ -7509,7 +13306,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > No Discussions (Yet!)
 
 ```diff
-+暂无讨论（抢个沙发吧！）
++暂无讨论
 ```
 
 #### [`fof-categories.forum.stat-widgets.discussion_label`](https://weblate.rob006.net/translate/flarum2/fof-categories/zh_Hans/?q=context%3A%3D%22fof-categories.forum.stat-widgets.discussion_label%22)
@@ -7533,7 +13330,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Categories
 
 ```diff
-+分类
++板块
 ```
 
 
@@ -7627,7 +13424,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > =&gt; fof-doorman.admin.ref.fields.group.help
 
 ```diff
-+fof-doorman.admin.modals.create_doorkey.group.help
++=> fof-doorman.admin.ref.fields.group.help
 ```
 
 #### [`fof-doorman.admin.modals.create_doorkey.group.label`](https://weblate.rob006.net/translate/flarum2/fof-doorman/zh_Hans/?q=context%3A%3D%22fof-doorman.admin.modals.create_doorkey.group.label%22)
@@ -7732,6 +13529,147 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 
 ```diff
 +=> fof-doorman.admin.ref.fields.max_uses.label
+```
+
+
+### `fof-follow-tags` (missing)
+
+#### [`fof-follow-tags.admin.basics.following_label`](https://weblate.rob006.net/translate/flarum2/fof-follow-tags/zh_Hans/?q=context%3A%3D%22fof-follow-tags.admin.basics.following_label%22)
+
+> =&gt; flarum-subscriptions.forum.index.following\_link
+
+```diff
++=> flarum-subscriptions.forum.index.following_link
+```
+
+#### [`fof-follow-tags.admin.settings.all_discussions_on_following_page_for_guests_label`](https://weblate.rob006.net/translate/flarum2/fof-follow-tags/zh_Hans/?q=context%3A%3D%22fof-follow-tags.admin.settings.all_discussions_on_following_page_for_guests_label%22)
+
+> Show all discussions on the Following page for guests
+
+```diff
++访客打开「我的关注」页面时显示全部讨论
+```
+
+#### [`fof-follow-tags.admin.settings.prompt_button_on_following_page_label`](https://weblate.rob006.net/translate/flarum2/fof-follow-tags/zh_Hans/?q=context%3A%3D%22fof-follow-tags.admin.settings.prompt_button_on_following_page_label%22)
+
+> Show a "Choose tags to follow" button on the Following page
+
+```diff
++在「我的关注」页面显示「选择要关注的标签」按钮
+```
+
+#### [`fof-follow-tags.admin.settings.prompt_new_users_help`](https://weblate.rob006.net/translate/flarum2/fof-follow-tags/zh_Hans/?q=context%3A%3D%22fof-follow-tags.admin.settings.prompt_new_users_help%22)
+
+> Users who have not confirmed their choice yet will be shown a modal asking them to follow tags. The modal will keep coming back on each visit until they press "Continue to forum".
+>
+
+```diff
++尚未确认选择的用户会看到关注标签提示。每次访问社区时都会再次显示，直到用户点击「进入社区」。
++
+```
+
+#### [`fof-follow-tags.admin.settings.prompt_new_users_label`](https://weblate.rob006.net/translate/flarum2/fof-follow-tags/zh_Hans/?q=context%3A%3D%22fof-follow-tags.admin.settings.prompt_new_users_label%22)
+
+> Prompt new users to choose tags to follow
+
+```diff
++引导新用户选择关注标签
+```
+
+#### [`fof-follow-tags.admin.settings.prompt_tag_ids_label`](https://weblate.rob006.net/translate/flarum2/fof-follow-tags/zh_Hans/?q=context%3A%3D%22fof-follow-tags.admin.settings.prompt_tag_ids_label%22)
+
+> Tags to offer
+
+```diff
++可选择的标签
+```
+
+#### [`fof-follow-tags.admin.settings.prompt_tag_strategy_label`](https://weblate.rob006.net/translate/flarum2/fof-follow-tags/zh_Hans/?q=context%3A%3D%22fof-follow-tags.admin.settings.prompt_tag_strategy_label%22)
+
+> Tags to offer in the prompt
+
+```diff
++引导选择的标签
+```
+
+#### [`fof-follow-tags.admin.settings.prompt_tag_strategy_options.all`](https://weblate.rob006.net/translate/flarum2/fof-follow-tags/zh_Hans/?q=context%3A%3D%22fof-follow-tags.admin.settings.prompt_tag_strategy_options.all%22)
+
+> All tags
+
+```diff
++所有标签
+```
+
+#### [`fof-follow-tags.admin.settings.prompt_tag_strategy_options.list`](https://weblate.rob006.net/translate/flarum2/fof-follow-tags/zh_Hans/?q=context%3A%3D%22fof-follow-tags.admin.settings.prompt_tag_strategy_options.list%22)
+
+> Tags selected below
+
+```diff
++下方所选标签
+```
+
+#### [`fof-follow-tags.admin.settings.prompt_tag_strategy_options.primary`](https://weblate.rob006.net/translate/flarum2/fof-follow-tags/zh_Hans/?q=context%3A%3D%22fof-follow-tags.admin.settings.prompt_tag_strategy_options.primary%22)
+
+> First-level primary tags
+
+```diff
++一级主标签
+```
+
+#### [`fof-follow-tags.admin.settings.prompt_tag_strategy_options.primaryAndChildren`](https://weblate.rob006.net/translate/flarum2/fof-follow-tags/zh_Hans/?q=context%3A%3D%22fof-follow-tags.admin.settings.prompt_tag_strategy_options.primaryAndChildren%22)
+
+> All primary tags of any level
+
+```diff
++所有层级主标签
+```
+
+#### [`fof-follow-tags.admin.settings.prompt_tag_strategy_options.primaryAndSecondary`](https://weblate.rob006.net/translate/flarum2/fof-follow-tags/zh_Hans/?q=context%3A%3D%22fof-follow-tags.admin.settings.prompt_tag_strategy_options.primaryAndSecondary%22)
+
+> First-level primary tags and secondary tags
+
+```diff
++一级主标签和次标签
+```
+
+#### [`fof-follow-tags.admin.settings.prompt_tag_strategy_options.secondary`](https://weblate.rob006.net/translate/flarum2/fof-follow-tags/zh_Hans/?q=context%3A%3D%22fof-follow-tags.admin.settings.prompt_tag_strategy_options.secondary%22)
+
+> Only secondary tags
+
+```diff
++仅次标签
+```
+
+#### [`fof-follow-tags.forum.prompt.choose_button`](https://weblate.rob006.net/translate/flarum2/fof-follow-tags/zh_Hans/?q=context%3A%3D%22fof-follow-tags.forum.prompt.choose_button%22)
+
+> Choose tags to follow
+
+```diff
++选择要关注的标签
+```
+
+#### [`fof-follow-tags.forum.prompt.continue_button`](https://weblate.rob006.net/translate/flarum2/fof-follow-tags/zh_Hans/?q=context%3A%3D%22fof-follow-tags.forum.prompt.continue_button%22)
+
+> Continue to forum
+
+```diff
++进入社区
+```
+
+#### [`fof-follow-tags.forum.prompt.later_button`](https://weblate.rob006.net/translate/flarum2/fof-follow-tags/zh_Hans/?q=context%3A%3D%22fof-follow-tags.forum.prompt.later_button%22)
+
+> Remind me later
+
+```diff
++稍后提醒
+```
+
+#### [`fof-follow-tags.forum.prompt.modal_title`](https://weblate.rob006.net/translate/flarum2/fof-follow-tags/zh_Hans/?q=context%3A%3D%22fof-follow-tags.forum.prompt.modal_title%22)
+
+> Choose tags to follow
+
+```diff
++选择要关注的标签
 ```
 
 

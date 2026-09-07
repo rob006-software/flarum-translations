@@ -2,18 +2,42 @@
     "datlechin-link-preview": {
         "admin": {
             "sections": {
-                "general_label": "Általános",
-                "general_description": "Alapvető megjelenítési beállítások a hivatkozás-előnézetekhez.",
+                "appearance_label": "",
+                "appearance_description": "",
+                "behaviour_label": "",
+                "behaviour_description": "",
                 "performance_label": "Teljesítmény",
                 "performance_description": "Hivatkozás-előnézetek lekérésének és gyorsítótárazásának optimalizálása.",
+                "filtering_label": "",
+                "filtering_description": "",
+                "general_label": "Általános",
+                "general_description": "Alapvető megjelenítési beállítások a hivatkozás-előnézetekhez.",
                 "url_filtering_label": "Webcímszűrés",
                 "url_filtering_description": "Adja meg, hogy mely webcímekhez készüljön hivatkozás-előnézet.",
                 "external_api_label": "Tartalék külső API",
                 "external_api_description": "Külső szolgáltatás használata, ha a közvetlen lekérés sikertelen (például bottal védett oldalak esetén)."
             },
             "settings": {
+                "open_links_in_new_tab_label": "Hivatkozások megnyitása új lapon",
+                "open_links_in_new_tab_help": "Előnézettel rendelkező hivatkozások megnyitása mindig új böngészőlapon.",
+                "google_favicon_fallback_label": "",
+                "google_favicon_fallback_help": "",
+                "preview_internal_links_label": "",
+                "preview_internal_links_help": "",
+                "skip_media_links_label": "",
+                "skip_media_links_help": "",
+                "max_previews_per_post_label": "",
+                "max_previews_per_post_help": "",
                 "enable_batch_requests_label": "Kötegelt feldolgozás engedélyezése",
                 "enable_batch_requests_help": "A teljesítmény növelése több hivatkozás-előnézet egyidejű feldolgozásával. Ha ki van kapcsolva, akkor a hivatkozásokat egyesével dolgozza fel.",
+                "cache_time_label": "Gyorsítótárazás hossza (percben)",
+                "cache_time_help": "Meddig legyenek a hivatkozás-előnézetek tárolva frissítés előtt. A gyorsítótárazás kikapcsolásához állítsa 0-ra. Alapértelmezés: 60 perc.",
+                "allowlist_label": "",
+                "allowlist_help": "",
+                "allowlist_placeholder": "",
+                "blocklist_label": "",
+                "blocklist_help": "",
+                "blocklist_placeholder": "",
                 "blacklist_label": "Domain tiltólista",
                 "blacklist_help": "Adja meg azokat a domaineket vagy webcímeket, melyek nem állítanak elő hivatkozás-előnézeteket. Használjon vesszőket a bejegyzések elválasztásához.",
                 "blacklist_placeholder": "Példák: facebook.com, twitter.com/adott-oldal",
@@ -24,10 +48,6 @@
                 "convert_media_urls_help": "Előnézetek előállítása az médiafájlokra (képek, videók, stb.) mutató webcímek esetén.",
                 "use_google_favicons_label": "Oldalikonok megjelenítése",
                 "use_google_favicons_help": "Webhelyek faviconjainak megjelenítése a Google Favicon szolgáltatásának használatával, a jobb vizuális felismerés érdekében.",
-                "cache_time_label": "Gyorsítótárazás hossza (percben)",
-                "cache_time_help": "Meddig legyenek a hivatkozás-előnézetek tárolva frissítés előtt. A gyorsítótárazás kikapcsolásához állítsa 0-ra. Alapértelmezés: 60 perc.",
-                "open_links_in_new_tab_label": "Hivatkozások megnyitása új lapon",
-                "open_links_in_new_tab_help": "Előnézettel rendelkező hivatkozások megnyitása mindig új böngészőlapon.",
                 "external_api_fallback_label": "Tartalék külső API",
                 "external_api_fallback_help": "Ha a közvetlen lekérés sikertelen (például bottal védett oldalak esetén, mint a Reuters), külső oEmbed API használata a hivatkozás metaadatainak lekéréséhez.",
                 "external_api_url_label": "Külső API webcíme",
@@ -35,6 +55,17 @@
             }
         },
         "forum": {
+            "loading": "",
+            "meta": {
+                "replies": "",
+                "posts": "",
+                "discussions": ""
+            },
+            "clicks": "",
+            "settings": {
+                "hide_link_previews_label": "",
+                "hide_link_previews_help": ""
+            },
             "site_cannot_be_reached": "Az előnézet nem tölthető be. Ellenőrizze a webcímet, és próbálja újra."
         }
     }

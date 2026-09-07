@@ -1,6 +1,9 @@
 {
     "fof-masquerade": {
         "forum": {
+            "profile": {
+                "empty-text": ""
+            },
             "alerts": {
                 "profile-completion-required": "Vui lòng hoàn thành các trường hồ sơ cần thiết bên dưới.\n",
                 "profile-completed": "Hồ sơ đã hoàn thành! <a>Tiếp tục đến trang chủ</a>"
@@ -37,6 +40,9 @@
                 "create": "",
                 "edit": "Sửa trường {field}",
                 "delete-confirmation": "Bạn có chắc muốn xóa trường {field} không? Hành động này không thể hoàn tác.",
+                "is_restricted": "",
+                "permissions": "",
+                "permissions-alert": "",
                 "name": "Tên trường",
                 "name-help": "Nhãn trường hiển thị công khai (không thể dịch).\n",
                 "description": "Mô tả trường",
@@ -67,7 +73,8 @@
         "lib": {
             "gambits": {
                 "answer": {
-                    "key": ""
+                    "key": "",
+                    "hint": ""
                 }
             }
         }

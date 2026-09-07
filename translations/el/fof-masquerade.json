@@ -1,6 +1,9 @@
 {
     "fof-masquerade": {
         "forum": {
+            "profile": {
+                "empty-text": ""
+            },
             "alerts": {
                 "profile-completion-required": "Παρακαλώ συμπληρώστε τα απαραίτητα πεδία του προφίλ παρακάτω.\n",
                 "profile-completed": "Το προφίλ ολοκληρώθηκε! <a>Πίσω στην Αρχική σελίδα</a>"
@@ -37,6 +40,9 @@
                 "create": "",
                 "edit": "Επεξεργασία πεδίου {field}",
                 "delete-confirmation": "",
+                "is_restricted": "",
+                "permissions": "",
+                "permissions-alert": "",
                 "name": "Όνομα πεδίου",
                 "name-help": "Η δημόσια ορατή (μη μεταφράσιμη) ετικέτα πεδίου.\n",
                 "description": "Περιγραφή πεδίου",
@@ -67,7 +73,8 @@
         "lib": {
             "gambits": {
                 "answer": {
-                    "key": ""
+                    "key": "",
+                    "hint": ""
                 }
             }
         }

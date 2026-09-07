@@ -2,35 +2,35 @@
     "flarum-statistics": {
         "admin": {
             "date_selection_modal": {
-                "description": "",
-                "end_date": "",
+                "description": "Välj ett anpassat datumintervall för att visa statistik. \nDet kan ta flera minuter att läsa in data för forum med hög aktivitet.\n",
+                "end_date": "Slutdatum (inklusive)",
                 "errors": {
-                    "end_before_start": ""
+                    "end_before_start": "Slutdatumet måste vara efter startdatumet."
                 },
-                "start_date": "",
-                "submit_button": "",
-                "title": ""
+                "start_date": "Startdatum (inklusive)",
+                "submit_button": "Bekräfta datumintervall",
+                "title": "Välj eget datumintervall"
             },
             "statistics": {
                 "discussions_heading": "=> core.ref.discussions",
-                "export_chart_button": "",
+                "export_chart_button": "Exportera diagram till SVG",
                 "last_12_months_label": "Senaste 12 månaderna",
                 "last_28_days_label": "Senaste 28 dagarna",
                 "last_7_days_label": "Senaste 7 dagarna",
-                "mini_heading": "",
-                "previous_28_days_label": "",
-                "previous_7_days_label": "",
-                "custom_label": "",
-                "custom_label_specified": "",
-                "loading": "",
+                "mini_heading": "Forumstatistik",
+                "previous_28_days_label": "Föregående 28 dagarna",
+                "previous_7_days_label": "Föregående 7 dagarna",
+                "custom_label": "Välj eget intervall...",
+                "custom_label_specified": "{fromDate} till {toDate}",
+                "loading": "=> core.ref.loading",
                 "posts_heading": "=> core.ref.posts",
                 "today_label": "Idag",
                 "total_label": "Totalt",
                 "users_heading": "=> core.ref.users",
-                "view_full": "",
-                "no_data": "",
-                "current_period": "",
-                "previous_period": ""
+                "view_full": "Visa mer statistik",
+                "no_data": "Det finns ingen data tillgänglig för detta datumintervall.",
+                "current_period": "Aktuell period",
+                "previous_period": "Föregående period"
             }
         }
     }

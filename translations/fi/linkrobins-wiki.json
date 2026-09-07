@@ -18,7 +18,20 @@
                 "shortcode_article": "",
                 "shortcode_categories": "",
                 "shortcode_heading": "",
-                "shortcode_link": ""
+                "shortcode_link": "",
+                "shortcode_html": ""
+            },
+            "layout": {
+                "heading": "",
+                "intro": "",
+                "nav_position_label": "",
+                "nav_position_help": "",
+                "nav_position_top": "",
+                "nav_position_below_all": "",
+                "nav_position_sections": "",
+                "nav_position_bottom": "",
+                "full_width_label": "",
+                "full_width_help": ""
             },
             "toc": {
                 "heading": "",
@@ -27,6 +40,14 @@
                 "enabled_help": "",
                 "min_headings_label": "",
                 "min_headings_help": ""
+            },
+            "related": {
+                "heading": "",
+                "intro": "",
+                "enabled_label": "",
+                "enabled_help": "",
+                "limit_label": "",
+                "limit_help": ""
             },
             "categories": {
                 "heading": "",
@@ -62,6 +83,15 @@
             }
         },
         "forum": {
+            "search": {
+                "heading": "",
+                "placeholder": "",
+                "button": "",
+                "clear": "",
+                "results_heading": "",
+                "all_button": "",
+                "empty": ""
+            },
             "nav": "",
             "common": {
                 "date_at_time": ""
@@ -74,6 +104,7 @@
                 "empty": "",
                 "untitled": "",
                 "deleted_badge": "",
+                "draft_badge": "",
                 "no_categories": ""
             },
             "compose": {
@@ -84,6 +115,9 @@
                 "slug_label": "",
                 "slug_placeholder": "",
                 "slug_help": "",
+                "position_label": "",
+                "position_placeholder": "",
+                "position_help": "",
                 "category_label": "",
                 "no_category": "",
                 "body_label": "",
@@ -93,6 +127,8 @@
                 "discard_confirm": "",
                 "submit_create": "",
                 "submit_update": "",
+                "draft_label": "",
+                "draft_help": "",
                 "faq_heading": "",
                 "faq_help": "",
                 "faq_question_placeholder": "",
@@ -102,8 +138,10 @@
             },
             "show": {
                 "deleted_notice": "",
+                "draft_notice": "",
                 "toc_heading": "",
                 "faq_heading": "",
+                "related_heading": "",
                 "by": "",
                 "last_edited": "",
                 "history": "",

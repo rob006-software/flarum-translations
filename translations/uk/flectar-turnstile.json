@@ -18,6 +18,14 @@
     },
     "validation": {
         "turnstile": "Ми не змогли перевірити, чи є ви роботом чи ні. Будь ласка, оновіть сторінку та спробуйте ще раз.",
+        "custom": {
+            "turnstileToken": {
+                "required": ""
+            },
+            "turnstile": {
+                "required": ""
+            }
+        },
         "required": "Будь ласка, виконайте завдання Turnstile."
     }
 }
