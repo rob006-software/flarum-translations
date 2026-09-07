@@ -2,8 +2,8 @@
 
 Translations for German (`de`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **318** are translated differently and **674** are
-translated only in `de`. Altogether they cover **95** components.
+sides, but do not match between them: **318** are translated differently and **676** are
+translated only in `de`. Altogether they cover **96** components.
 
 <!-- {% raw %} -->
 
@@ -29,6 +29,7 @@ translated only in `de`. Altogether they cover **95** components.
 | `flarum-statistics` | [1](#flarum-statistics) | 0 |
 | `flarum-sticky` | [6](#flarum-sticky) | 0 |
 | `flarum-tags` | [31](#flarum-tags) | 0 |
+| `flectar-turnstile` | 0 | [2](#flectar-turnstile-missing) |
 | `fof-anti-spam` | [8](#fof-anti-spam) | 0 |
 | `fof-badges` | [6](#fof-badges) | 0 |
 | `fof-best-answer` | [7](#fof-best-answer) | 0 |
@@ -4641,6 +4642,25 @@ These strings are translated only in `de`, so there is nothing to inherit from F
 
 ```diff
 +Validierung erfolgreich.
+```
+
+
+### `flectar-turnstile` (missing)
+
+#### [`validation.custom.turnstile.required`](https://weblate.rob006.net/translate/flarum2/flectar-turnstile/de/?q=context%3A%3D%22validation.custom.turnstile.required%22)
+
+> Please complete the Turnstile challenge.
+
+```diff
++Bitte die Turnstile-Prüfung abschließen.
+```
+
+#### [`validation.custom.turnstileToken.required`](https://weblate.rob006.net/translate/flarum2/flectar-turnstile/de/?q=context%3A%3D%22validation.custom.turnstileToken.required%22)
+
+> Please complete the Turnstile challenge.
+
+```diff
++Bitte die Turnstile-Prüfung abschließen.
 ```
 
 
