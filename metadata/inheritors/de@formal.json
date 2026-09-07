@@ -2724,11 +2724,51 @@
                     "auto": "cc7257940cb5f09edcbb8ecaf93d367a cc7257940cb5f09edcbb8ecaf93d367a",
                     "manual": "fa80d83aa25235538c6695dc37eae89f fa80d83aa25235538c6695dc37eae89f"
                 },
+                "stats": {
+                    "completion_rate": "e5a557e11c5934e2ed68ef8e4501ba72 e5a557e11c5934e2ed68ef8e4501ba72",
+                    "finished": "e5a557e11c5934e2ed68ef8e4501ba72 e5a557e11c5934e2ed68ef8e4501ba72"
+                },
+                "step_modal": {
+                    "create_title": "ec4107b1f97d306473bcf43c9fb69793 ec4107b1f97d306473bcf43c9fb69793",
+                    "delete_button": "ee402e0a88e329f8e2e3351004db6e82 ee402e0a88e329f8e2e3351004db6e82",
+                    "delete_confirmation": "e49b0634f01e8dd8f1291bb3ba08c49f e49b0634f01e8dd8f1291bb3ba08c49f",
+                    "description_label": "35bedb45241d6b3f70fa6f56197c3361 35bedb45241d6b3f70fa6f56197c3361",
+                    "edit_title": "ec69162a1db66449505bf725a4c95310 ec69162a1db66449505bf725a4c95310",
+                    "placement_label": "52f5e0bc3859bc5f5e25130b6c7e8881 52f5e0bc3859bc5f5e25130b6c7e8881",
+                    "save_button": "b97d23bf800ff592f7afe97a29921271 b97d23bf800ff592f7afe97a29921271",
+                    "target_label": "ee074a930456c0eb73518905d2a36fd0 ee074a930456c0eb73518905d2a36fd0",
+                    "target_placeholder": "8df2c8e935303d43fdd15a43e4871b8e 8df2c8e935303d43fdd15a43e4871b8e",
+                    "test_button": "abda08705e775ef3419d493acd68dce1 abda08705e775ef3419d493acd68dce1",
+                    "title_label": "18a8022569d6ced829f833aa855530ce 18a8022569d6ced829f833aa855530ce",
+                    "title_placeholder": "51c4d812e83854c043f0e7b566992d03 51c4d812e83854c043f0e7b566992d03",
+                    "translations_label": "f686f320c3802565876af86f523cdfb6 f686f320c3802565876af86f523cdfb6"
+                },
                 "steps": {
                     "add_button": "abf31cec8cd8ddb6e2c61e74121d0b87 abf31cec8cd8ddb6e2c61e74121d0b87",
                     "copy_title": "733909c924d1e3a813de441169f5a4b6 733909c924d1e3a813de441169f5a4b6",
                     "duplicate_action": "529fdd508b8db8239dd7db30ddc7af18 529fdd508b8db8239dd7db30ddc7af18",
+                    "flags": {
+                        "desktop": "58ac981629ef1254a51c72c083924a9b 58ac981629ef1254a51c72c083924a9b",
+                        "disabled": "b78455b3178b66a5b0762673a4bbeaac b78455b3178b66a5b0762673a4bbeaac",
+                        "mobile": "6e5efa74a62df8aa21ef2b3eb5d77427 6e5efa74a62df8aa21ef2b3eb5d77427"
+                    },
                     "heading": "70cb6dda301b661f99d657f684a6b98b 70cb6dda301b661f99d657f684a6b98b"
+                },
+                "tour_modal": {
+                    "audience_help": "32f1fce1b622b7142ef70c6cbf98f7bb 32f1fce1b622b7142ef70c6cbf98f7bb",
+                    "audience_label": "7bd3890e5d95d3990c8dc41b2a90e6cc 7bd3890e5d95d3990c8dc41b2a90e6cc",
+                    "create_title": "fc9e17a75e60198d17402cf1d2f63af4 fc9e17a75e60198d17402cf1d2f63af4",
+                    "delete_button": "5d5dad4709b285ffe5f34bd41aad825d 5d5dad4709b285ffe5f34bd41aad825d",
+                    "edit_title": "ec69162a1db66449505bf725a4c95310 ec69162a1db66449505bf725a4c95310",
+                    "enabled_label": "0b749418ee714ef503b10273264a0b0c 0b749418ee714ef503b10273264a0b0c",
+                    "key_label": "0f511d362346c2f658bb594d5b04224e 0f511d362346c2f658bb594d5b04224e",
+                    "max_age_help": "7c15aa141110873304b656447b30c677 7c15aa141110873304b656447b30c677",
+                    "max_age_label": "7c21d5179bb5ae37609ee1c7d729c75e 7c21d5179bb5ae37609ee1c7d729c75e",
+                    "route_label": "4789ac07952deecf2a4ae4276ef5caad 4789ac07952deecf2a4ae4276ef5caad",
+                    "route_placeholder": "35b1d0c8a3200a573b3ac342f49d8c34 35b1d0c8a3200a573b3ac342f49d8c34",
+                    "save_button": "b97d23bf800ff592f7afe97a29921271 b97d23bf800ff592f7afe97a29921271",
+                    "title_help": "629de354272d90f341f9ea0c0006912a 629de354272d90f341f9ea0c0006912a",
+                    "title_label": "49ee3087348e8d44e1feda1917443987 49ee3087348e8d44e1feda1917443987"
                 },
                 "tours": {
                     "add_button": "fc9e17a75e60198d17402cf1d2f63af4 fc9e17a75e60198d17402cf1d2f63af4",
@@ -2740,7 +2780,22 @@
                     "heading": "f28f9f8eec11c8f15f4ddb1b994f5803 f28f9f8eec11c8f15f4ddb1b994f5803",
                     "import_button": "5af5fb34160907d05c1ac280dbb7fc90 5af5fb34160907d05c1ac280dbb7fc90",
                     "none": "333ac069814f5cd0bc148d4ebdd48cf2 333ac069814f5cd0bc148d4ebdd48cf2",
+                    "preview_button": "40b509af5a2b0bbcd32eb49a61d000e7 40b509af5a2b0bbcd32eb49a61d000e7",
                     "step_count": "f0d0556d006443fbb6eae7ad6beb3c21 f0d0556d006443fbb6eae7ad6beb3c21"
+                }
+            },
+            "forum": {
+                "done_button": "4d79152b5d9f9fe8185bff13520ca9fa 4d79152b5d9f9fe8185bff13520ca9fa",
+                "next_button": "c39838d84fd81cbfeb7cf74ccd8ae9d0 c39838d84fd81cbfeb7cf74ccd8ae9d0",
+                "picker": {
+                    "browse": "10a7df64539f0ef7ab6f7df2b4f01f3f 10a7df64539f0ef7ab6f7df2b4f01f3f",
+                    "cancel": "4b97278b444c0203fc17d7b93a39f5c7 4b97278b444c0203fc17d7b93a39f5c7",
+                    "matches": "e38213a473d184f8e5d91d7d5e3c1645 e38213a473d184f8e5d91d7d5e3c1645"
+                },
+                "previous_button": "429bdf7fb1ab9dd6ff5f8f5b6d380968 429bdf7fb1ab9dd6ff5f8f5b6d380968",
+                "progress": "0dfb60f4e1964545651e2e85acd72d40 0dfb60f4e1964545651e2e85acd72d40",
+                "settings": {
+                    "heading": "f28f9f8eec11c8f15f4ddb1b994f5803 f28f9f8eec11c8f15f4ddb1b994f5803"
                 }
             }
         }
