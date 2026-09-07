@@ -969,7 +969,7 @@ return [
 		],
 	],
 	'ygpynet-giveaways' => [
-		'tag' => 'https://raw.githubusercontent.com/ygpynet/giveaways/v1.3.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ygpynet/giveaways/v1.3.1/locale/en.yml',
 		'__builtInLanguages' => [
 			'zh_Hans',
 		],
