@@ -64,16 +64,16 @@
                     "body": "{mentioner_display_name} wspomniał o Tobie w poście w dyskusji {title}.\n\n{url}\n\n---\n\n{content}\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{mentioner_display_name} wspomniał o Tobie w poście w [{title}]({url})."
                 }
             },
             "group_mentioned": {
                 "subject": "{mentioner_display_name} wspomniał grupę, której jesteś członkiem, w {title}",
                 "plain": {
-                    "body": ""
+                    "body": "{mentioner_display_name} wspomniał o grupie, do której należysz, w dyskusji {title}.\n\n{url}\n\n---\n\n{content}\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{mentioner_display_name} wspomniał o grupie, do której należysz, w dyskusji [{title}]({url})."
                 }
             }
         },
@@ -81,8 +81,8 @@
             "gambits": {
                 "posts": {
                     "mentioned": {
-                        "key": "",
-                        "hint": ""
+                        "key": "wspomniano",
+                        "hint": "ID lub nazwa wspomnianego użytkownika"
                     }
                 }
             }
