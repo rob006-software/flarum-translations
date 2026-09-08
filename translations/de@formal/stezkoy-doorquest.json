@@ -2,84 +2,84 @@
     "stezkoy-doorquest": {
         "forum": {
             "sign_up": {
-                "question_label": "",
-                "answer_placeholder": "",
-                "invalid_answer": "",
-                "answer_required": ""
+                "question_label": "Frage",
+                "answer_placeholder": "Deine Antwort",
+                "invalid_answer": "Falsche Antwort. Bitte versuche es erneut.",
+                "answer_required": "Du musst die Frage beantworten, um dich zu registrieren."
             }
         },
         "admin": {
             "settings": {
-                "heading": "",
-                "total_questions": "",
-                "search": "",
-                "create_question_button": ""
+                "heading": "Doorquest-Einstellungen",
+                "total_questions": "{count} Frage(n)",
+                "search": "Fragen durchsuchen...",
+                "create_question_button": "Frage erstellen"
             },
             "list": {
-                "heading": "",
+                "heading": "Fragen",
                 "columns": {
-                    "id": "",
-                    "question": "",
-                    "answer": "",
-                    "group": "",
-                    "max_uses": "",
-                    "activates_user": "",
-                    "uses": "",
-                    "created_by": "",
-                    "manage": ""
+                    "id": "ID",
+                    "question": "Frage",
+                    "answer": "Antwort",
+                    "group": "Gruppe",
+                    "max_uses": "Max. Verwendungen",
+                    "activates_user": "Aktiviert",
+                    "uses": "Verwendungen",
+                    "created_by": "Erstellt von",
+                    "manage": "Verwalten"
                 },
                 "actions": {
-                    "edit": "",
-                    "delete": ""
+                    "edit": "Bearbeiten",
+                    "delete": "Löschen"
                 },
                 "content": {
-                    "no_group": "",
-                    "no_created_by": "",
-                    "delete": "",
+                    "no_group": "Keine",
+                    "no_created_by": "—",
+                    "delete": "Willst du die Frage „{question}“ wirklich löschen?",
                     "warning": "",
                     "uses": {
-                        "used_times": "",
-                        "total_uses": ""
+                        "used_times": "{remainingUses} verbleibend",
+                        "total_uses": "{totalUses} Mal verwendet"
                     },
                     "invalid_column": ""
                 },
                 "pagination": {
-                    "first_page_button": "",
-                    "back_button": "",
-                    "next_button": "",
-                    "last_page_button": "",
-                    "page_counter": ""
+                    "first_page_button": "Erste Seite",
+                    "back_button": "Vorherige Seite",
+                    "next_button": "Nächste Seite",
+                    "last_page_button": "Letzte Seite",
+                    "page_counter": "Seite {current} von {total}"
                 }
             },
             "modals": {
                 "create_question": {
-                    "title": "",
+                    "title": "Frage erstellen",
                     "question": {
-                        "label": "",
+                        "label": "Frage",
                         "help": ""
                     },
                     "answer": {
-                        "label": "",
-                        "help": ""
+                        "label": "Antwort",
+                        "help": "Die richtige Antwort (Groß-/Kleinschreibung wird nicht beachtet)."
                     },
                     "group": {
-                        "label": "",
+                        "label": "Gruppe zuweisen",
                         "help": ""
                     },
                     "max_uses": {
-                        "label": "",
+                        "label": "Max. Vewendungen",
                         "help": ""
                     },
                     "activates_user": {
                         "label": "",
                         "help": ""
                     },
-                    "submit_button": "",
-                    "submit_and_create_another_button": ""
+                    "submit_button": "Erstellen",
+                    "submit_and_create_another_button": "Erstellen und weitere hinzufügen"
                 },
                 "edit_question": {
-                    "title": "",
-                    "submit_button": ""
+                    "title": "Frage bearbeiten",
+                    "submit_button": "Änderungen speichern"
                 }
             }
         }
