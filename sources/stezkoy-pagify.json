@@ -1,0 +1,47 @@
+{
+    "stezkoy-pagify": {
+        "admin": {
+            "settings": {
+                "discussion_list_heading": "Discussion List",
+                "enableDiscussionList": "Paginate the discussion list",
+                "enableDiscussionList-Help": "Numbered pages on the index page instead of the \"Load More\" button.",
+                "perPage": "Discussions per page",
+                "perPage-Help": "How many discussions to show per page. Without pagination it sizes each \"Load More\" batch.",
+                "paginationPosition": "Pager position",
+                "post_stream_heading": "Post Stream",
+                "enablePostStream": "Paginate posts inside a discussion",
+                "enablePostStream-Help": "Numbered pages inside a discussion instead of infinite scrolling.",
+                "postsPerPage": "Posts per page",
+                "postsPerPage-Help": "How many posts to show per discussion page. Works only when post pagination is enabled.",
+                "postStreamPosition": "Post pager position",
+                "post_list_heading": "User Post Feed",
+                "enablePostList": "Paginate the user post feed",
+                "enablePostList-Help": "Numbered pages instead of the \"Load More\" button on the user profile feed and the posts page.",
+                "postListPerPage": "Posts per page",
+                "postListPerPage-Help": "How many posts to show per feed page. Without pagination it sizes each \"Load More\" batch.",
+                "postListPosition": "Pager position",
+                "position": {
+                    "above": "Above",
+                    "under": "Below",
+                    "both": "Both (top and bottom)"
+                }
+            }
+        },
+        "forum": {
+            "list": {
+                "first": "First page",
+                "previous": "Previous page",
+                "next": "Next page",
+                "last": "Last page",
+                "jump": "Jump to page"
+            },
+            "post_stream": {
+                "aria_label": "Post pages",
+                "first": "First page",
+                "previous": "Previous page",
+                "next": "Next page",
+                "last": "Last page"
+            }
+        }
+    }
+}
