@@ -942,6 +942,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`datlechin-passkey`](https://weblate.rob006.net/projects/flarum2/datlechin-passkey) | [`datlechin/flarum-passkey`](https://github.com/datlechin/flarum-passkey) |
 | [`datlechin-placements`](https://weblate.rob006.net/projects/flarum2/datlechin-placements) | [`datlechin/flarum-placements`](https://github.com/datlechin/flarum-placements) |
 | [`datlechin-posted-on`](https://weblate.rob006.net/projects/flarum2/datlechin-posted-on) | [`datlechin/flarum-posted-on`](https://github.com/datlechin/flarum-posted-on) |
+| [`datlechin-references`](https://weblate.rob006.net/projects/flarum2/datlechin-references) | [`datlechin/flarum-references`](https://github.com/datlechin/flarum-references) |
 | [`datlechin-scroll-buttons`](https://weblate.rob006.net/projects/flarum2/datlechin-scroll-buttons) | [`datlechin/flarum-scroll-buttons`](https://github.com/datlechin/flarum-scroll-buttons) |
 | [`datlechin-signup-button`](https://weblate.rob006.net/projects/flarum2/datlechin-signup-button) | [`datlechin/flarum-signup-button`](https://github.com/datlechin/flarum-signup-button) |
 | [`datlechin-silent-edit`](https://weblate.rob006.net/projects/flarum2/datlechin-silent-edit) | [`datlechin/flarum-silent-edit`](https://github.com/datlechin/flarum-silent-edit) |
@@ -1004,6 +1005,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`huoxin-money-with-history`](https://weblate.rob006.net/projects/flarum2/huoxin-money-with-history) | [`huoxin/money-with-history`](https://github.com/huoxin233/flarum-ext-money-with-history) |
 | [`huoxin-relative-url`](https://weblate.rob006.net/projects/flarum2/huoxin-relative-url) | [`huoxin/relative-url`](https://github.com/huoxin233/flarum-ext-relative-url) |
 | [`huseyinfiliz-awards`](https://weblate.rob006.net/projects/flarum2/huseyinfiliz-awards) | [`huseyinfiliz/awards`](https://github.com/huseyinfiliz/awards) |
+| [`huseyinfiliz-discussion-ban`](https://weblate.rob006.net/projects/flarum2/huseyinfiliz-discussion-ban) | [`huseyinfiliz/discussion-ban`](https://github.com/huseyinfiliz/discussion-ban) |
 | [`huseyinfiliz-diff`](https://weblate.rob006.net/projects/flarum2/huseyinfiliz-diff) | [`huseyinfiliz/flarum-diff`](https://github.com/huseyinfiliz/flarum-diff) |
 | [`huseyinfiliz-leaderboard`](https://weblate.rob006.net/projects/flarum2/huseyinfiliz-leaderboard) | [`huseyinfiliz/leaderboard`](https://github.com/huseyinfiliz/leaderboard) |
 | [`huseyinfiliz-modern-footer`](https://weblate.rob006.net/projects/flarum2/huseyinfiliz-modern-footer) | [`huseyinfiliz/modern-footer`](https://github.com/huseyinfiliz/modern-footer) |
@@ -1091,6 +1093,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`shebaoting-rss`](https://weblate.rob006.net/projects/flarum2/shebaoting-rss) | [`shebaoting/flarum-rss`](https://github.com/shebaoting/flarum-rss) |
 | [`stezkoy-doorquest`](https://weblate.rob006.net/projects/flarum2/stezkoy-doorquest) | [`stezkoy/flarum-doorquest`](https://github.com/Stezkoy/flarum-doorquest) |
 | [`stezkoy-modularis`](https://weblate.rob006.net/projects/flarum2/stezkoy-modularis) | [`stezkoy/flarum-modularis`](https://github.com/Stezkoy/flarum-modularis) |
+| [`stezkoy-pagify`](https://weblate.rob006.net/projects/flarum2/stezkoy-pagify) | [`stezkoy/flarum-pagify`](https://github.com/Stezkoy/flarum-pagify) |
 | [`stezkoy-telegram-notify`](https://weblate.rob006.net/projects/flarum2/stezkoy-telegram-notify) | [`stezkoy/flarum-telegram-notify`](https://github.com/Stezkoy/flarum-telegram-notify) |
 | [`stezkoy-time-of-magic`](https://weblate.rob006.net/projects/flarum2/stezkoy-time-of-magic) | [`stezkoy/flarum-time-of-magic`](https://github.com/Stezkoy/flarum-time-of-magic) |
 | [`sycho-advanced-extension-categories`](https://weblate.rob006.net/projects/flarum2/sycho-advanced-extension-categories) | [`sycho/flarum-advanced-extension-categories`](https://github.com/SychO9/flarum-advanced-extension-categories) |
