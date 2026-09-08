@@ -1,0 +1,173 @@
+{
+    "datlechin-references": {
+        "admin": {
+            "sections": {
+                "behaviour_label": "Behaviour",
+                "behaviour_description": "Which links in a post are recorded as references.",
+                "display_label": "Display",
+                "display_description": "Where references appear, and how many are shown before the list is cut.",
+                "discovery_label": "Discovery",
+                "discovery_description": "The widgets built from the reference graph.",
+                "maintenance_label": "Maintenance",
+                "maintenance_description": "How long a reference to something deleted is kept.",
+                "extensions_label": "Other extensions",
+                "extensions_description": "Settings other extensions add to this page."
+            },
+            "settings": {
+                "enabled_label": "Record references",
+                "enabled_help": "Off means nothing new is recorded. Existing references stay.",
+                "extract_url_references_label": "Record pasted links",
+                "extract_url_references_help": "A link to a discussion or a post in this forum becomes a reference.",
+                "extract_short_references_label": "Record typed references",
+                "extract_short_references_help": "The @\"Discussion title\"#d123 form, inserted by typing # in the composer.\n",
+                "extract_mention_references_label": "Record post mentions",
+                "extract_mention_references_help": "Needs Mentions. Without it a reply shows in two lists that do not agree.",
+                "event_post_enabled_label": "Announce references in the discussion",
+                "event_post_enabled_help": "Adds a line to the referenced discussion saying where it was linked from. Consecutive lines are merged into one.\n",
+                "max_preview_label": "References shown at once",
+                "max_preview_help": "The rest are behind a button.",
+                "related_discussions_enabled_label": "Show related discussions",
+                "related_discussions_enabled_help": "Worked out from which discussions get cited together, not from tags or titles.",
+                "related_discussions_limit_label": "Related discussions shown",
+                "related_discussions_limit_help": "In the sidebar of a discussion.",
+                "related_max_candidates_label": "Discussions read to find them",
+                "related_max_candidates_help": "A ceiling, so a heavily cited discussion cannot make this expensive.",
+                "cache_ttl_label": "Cache duration (seconds)",
+                "cache_ttl_help": "How long the list and the graph are kept before being worked out again. 0 turns caching off.",
+                "graph_max_depth_label": "Graph depth",
+                "graph_max_depth_help": "How many steps out from a discussion the graph reaches.",
+                "graph_max_per_hop_label": "Links per step",
+                "graph_max_per_hop_help": "Beyond this the graph shows the most recent and says so.",
+                "notify_followers_label": "Also notify followers",
+                "notify_followers_help": "Needs Subscriptions. Off means only the author of what was referenced hears about it.",
+                "broken_retention_days_label": "Keep broken references (days)",
+                "broken_retention_days_help": "A reference to something deleted stays in the report this long. 0 keeps them forever."
+            },
+            "permissions": {
+                "manage_references": "Create and edit references",
+                "view_broken_report": "See broken references",
+                "view_analytics": "See reference analytics"
+            },
+            "analytics": {
+                "title": "References",
+                "total_label": "References",
+                "broken_label": "Broken",
+                "manual_label": "Added by hand",
+                "by_origin_label": "How they were found",
+                "by_relation_label": "What they say",
+                "export_button": "Export CSV",
+                "empty": "Nothing recorded yet.",
+                "unavailable": "Could not read the figures.",
+                "chart_label": "References per day. {count, plural, one {# day} other {# days}} with activity, busiest {peak}."
+            },
+            "origin": {
+                "url": "Pasted link",
+                "shortref": "Typed reference",
+                "mention": "Post mention",
+                "manual": "Added by hand"
+            },
+            "relation": {
+                "references": "References",
+                "duplicate_of": "Duplicate of",
+                "see_also": "See also",
+                "supersedes": "Supersedes",
+                "answers": "Answers"
+            },
+            "broken": {
+                "title": "Broken references",
+                "description": "References pointing at something that no longer exists.",
+                "empty": "Nothing broken.",
+                "unavailable": "Could not read the report.",
+                "truncated": "Showing {shown} of {total}.",
+                "target_column": "Points at",
+                "source_column": "Written in",
+                "broken_at_column": "Broken since"
+            },
+            "target": {
+                "discussions": "Discussion #{id}",
+                "posts": "Post #{id}"
+            }
+        },
+        "forum": {
+            "reference": {
+                "deleted_text": "[deleted]"
+            },
+            "post": {
+                "referenced_by_text": "{discussions} {count, plural, one {references} other {reference}} this",
+                "others_text": "{count, plural, one {# other} other {# others}}"
+            },
+            "discussion": {
+                "referenced_by_title": "{count, plural, one {# reference} other {# references}}",
+                "references_title": "This discussion references",
+                "show_all_button": "Show all"
+            },
+            "related": {
+                "title": "Related discussions"
+            },
+            "most_referenced": {
+                "sort": "Most referenced"
+            },
+            "graph": {
+                "title": "Reference graph",
+                "description": "Discussions linked to this one, and to each other.",
+                "empty": "Nothing to draw yet.",
+                "accessible_label": "{count, plural, one {# discussion} other {# discussions}} and the links between them"
+            },
+            "relation": {
+                "references": "references",
+                "duplicate_of": "duplicate of",
+                "see_also": "see also",
+                "supersedes": "supersedes",
+                "answers": "answers"
+            },
+            "manual": {
+                "add_button": "Add a reference",
+                "title": "Add a reference",
+                "target_label": "Points at",
+                "target_placeholder": "Discussion id",
+                "relation_label": "Relationship",
+                "note_label": "Note",
+                "note_placeholder": "Why these two belong together",
+                "submit_button": "Add"
+            },
+            "event_post": {
+                "referenced": "{username} referenced this discussion"
+            },
+            "notifications": {
+                "discussion_referenced_text": "{username} referenced a discussion you started",
+                "post_referenced_text": "{username} referenced your post"
+            }
+        },
+        "email": {
+            "discussion_referenced": {
+                "subject": "Your discussion was referenced: {title}",
+                "body": "{username} referenced your discussion in another discussion.\n\n{url}\n"
+            },
+            "post_referenced": {
+                "subject": "Your post was referenced in {title}",
+                "body": "{username} referenced your post.\n\n{url}\n"
+            }
+        },
+        "gdpr": {
+            "export_description": "References you added by hand as a moderator.",
+            "anonymize_description": "Your name is removed from references you added, and the references stay.",
+            "delete_description": "Your name is removed from references you added. The references themselves are claims about other people's posts, so they stay."
+        },
+        "lib": {
+            "gambits": {
+                "references": {
+                    "key": "references",
+                    "hint": "\"12\""
+                },
+                "referenced_by": {
+                    "key": "referenced-by",
+                    "hint": "\"12\""
+                },
+                "has_references": {
+                    "key": "references",
+                    "hint": "discussions other discussions point at"
+                }
+            }
+        }
+    }
+}

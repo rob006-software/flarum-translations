@@ -1,0 +1,52 @@
+{
+    "huseyinfiliz-discussion-ban": {
+        "admin": {
+            "permissions": {
+                "ban_users_label": "Ban users from discussions"
+            },
+            "settings": {
+                "show_in_discussion_controls": "Show \"Ban from discussion\" in discussion controls",
+                "show_in_post_controls": "Show \"Ban from discussion\" in post controls",
+                "hide_discussions_from_banned": "Hide discussions completely from banned users (404 behavior)"
+            }
+        },
+        "forum": {
+            "discussion_controls": {
+                "ban_from_discussion": "Ban from discussion"
+            },
+            "post_controls": {
+                "ban_from_discussion": "Ban from discussion",
+                "unban_from_discussion": "Unban from discussion"
+            },
+            "modal": {
+                "title": "Discussion Ban",
+                "tab_ban": "Ban User",
+                "tab_list": "Banned Users ({count})",
+                "select_user": "Select User",
+                "search_placeholder": "Search by username or display name...",
+                "search_banned_placeholder": "Search banned users...",
+                "change_user": "Change",
+                "reason_label": "Reason (optional)",
+                "reason_placeholder": "Why is this user being banned from this discussion?",
+                "reason_help": "This reason will be visible to moderators in the banned users list.",
+                "submit": "Ban User",
+                "ban_success": "User has been banned from this discussion.",
+                "unban_success": "User ban has been removed.",
+                "no_bans": "No users are currently banned from this discussion.",
+                "banned_by": "Banned by {username}",
+                "unban": "Unban",
+                "confirm_unban": "Are you sure you want to unban this user? Their hidden posts will be restored."
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "discussion_ban": {
+                    "banned": "Banned {username} from {discussion} — {reason}",
+                    "unbanned": "Unbanned {username} from {discussion}"
+                }
+            }
+        }
+    }
+}

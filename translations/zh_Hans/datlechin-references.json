@@ -1,0 +1,173 @@
+{
+    "datlechin-references": {
+        "admin": {
+            "sections": {
+                "behaviour_label": "",
+                "behaviour_description": "",
+                "display_label": "",
+                "display_description": "",
+                "discovery_label": "",
+                "discovery_description": "",
+                "maintenance_label": "",
+                "maintenance_description": "",
+                "extensions_label": "",
+                "extensions_description": ""
+            },
+            "settings": {
+                "enabled_label": "",
+                "enabled_help": "",
+                "extract_url_references_label": "",
+                "extract_url_references_help": "",
+                "extract_short_references_label": "",
+                "extract_short_references_help": "",
+                "extract_mention_references_label": "",
+                "extract_mention_references_help": "",
+                "event_post_enabled_label": "",
+                "event_post_enabled_help": "",
+                "max_preview_label": "",
+                "max_preview_help": "",
+                "related_discussions_enabled_label": "",
+                "related_discussions_enabled_help": "",
+                "related_discussions_limit_label": "",
+                "related_discussions_limit_help": "",
+                "related_max_candidates_label": "",
+                "related_max_candidates_help": "",
+                "cache_ttl_label": "",
+                "cache_ttl_help": "",
+                "graph_max_depth_label": "",
+                "graph_max_depth_help": "",
+                "graph_max_per_hop_label": "",
+                "graph_max_per_hop_help": "",
+                "notify_followers_label": "",
+                "notify_followers_help": "",
+                "broken_retention_days_label": "",
+                "broken_retention_days_help": ""
+            },
+            "permissions": {
+                "manage_references": "",
+                "view_broken_report": "",
+                "view_analytics": ""
+            },
+            "analytics": {
+                "title": "",
+                "total_label": "",
+                "broken_label": "",
+                "manual_label": "",
+                "by_origin_label": "",
+                "by_relation_label": "",
+                "export_button": "",
+                "empty": "",
+                "unavailable": "",
+                "chart_label": ""
+            },
+            "origin": {
+                "url": "",
+                "shortref": "",
+                "mention": "",
+                "manual": ""
+            },
+            "relation": {
+                "references": "",
+                "duplicate_of": "",
+                "see_also": "",
+                "supersedes": "",
+                "answers": ""
+            },
+            "broken": {
+                "title": "",
+                "description": "",
+                "empty": "",
+                "unavailable": "",
+                "truncated": "",
+                "target_column": "",
+                "source_column": "",
+                "broken_at_column": ""
+            },
+            "target": {
+                "discussions": "",
+                "posts": ""
+            }
+        },
+        "forum": {
+            "reference": {
+                "deleted_text": ""
+            },
+            "post": {
+                "referenced_by_text": "",
+                "others_text": ""
+            },
+            "discussion": {
+                "referenced_by_title": "",
+                "references_title": "",
+                "show_all_button": ""
+            },
+            "related": {
+                "title": ""
+            },
+            "most_referenced": {
+                "sort": ""
+            },
+            "graph": {
+                "title": "",
+                "description": "",
+                "empty": "",
+                "accessible_label": ""
+            },
+            "relation": {
+                "references": "",
+                "duplicate_of": "",
+                "see_also": "",
+                "supersedes": "",
+                "answers": ""
+            },
+            "manual": {
+                "add_button": "",
+                "title": "",
+                "target_label": "",
+                "target_placeholder": "",
+                "relation_label": "",
+                "note_label": "",
+                "note_placeholder": "",
+                "submit_button": ""
+            },
+            "event_post": {
+                "referenced": ""
+            },
+            "notifications": {
+                "discussion_referenced_text": "",
+                "post_referenced_text": ""
+            }
+        },
+        "email": {
+            "discussion_referenced": {
+                "subject": "",
+                "body": ""
+            },
+            "post_referenced": {
+                "subject": "",
+                "body": ""
+            }
+        },
+        "gdpr": {
+            "export_description": "",
+            "anonymize_description": "",
+            "delete_description": ""
+        },
+        "lib": {
+            "gambits": {
+                "references": {
+                    "key": "",
+                    "hint": ""
+                },
+                "referenced_by": {
+                    "key": "",
+                    "hint": ""
+                },
+                "has_references": {
+                    "key": "",
+                    "hint": ""
+                }
+            }
+        }
+    }
+}

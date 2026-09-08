@@ -1,0 +1,52 @@
+{
+    "huseyinfiliz-discussion-ban": {
+        "admin": {
+            "permissions": {
+                "ban_users_label": ""
+            },
+            "settings": {
+                "show_in_discussion_controls": "",
+                "show_in_post_controls": "",
+                "hide_discussions_from_banned": ""
+            }
+        },
+        "forum": {
+            "discussion_controls": {
+                "ban_from_discussion": ""
+            },
+            "post_controls": {
+                "ban_from_discussion": "",
+                "unban_from_discussion": ""
+            },
+            "modal": {
+                "title": "",
+                "tab_ban": "",
+                "tab_list": "",
+                "select_user": "",
+                "search_placeholder": "",
+                "search_banned_placeholder": "",
+                "change_user": "",
+                "reason_label": "",
+                "reason_placeholder": "",
+                "reason_help": "",
+                "submit": "",
+                "ban_success": "",
+                "unban_success": "",
+                "no_bans": "",
+                "banned_by": "",
+                "unban": "",
+                "confirm_unban": ""
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "discussion_ban": {
+                    "banned": "",
+                    "unbanned": ""
+                }
+            }
+        }
+    }
+}
