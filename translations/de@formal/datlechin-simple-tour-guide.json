@@ -23,11 +23,11 @@
             "settings": {
                 "heading": "Einstellungen",
                 "show_progress_label": "Fortschritt anzeigen",
-                "show_progress_help": "",
-                "allow_close_label": "",
-                "allow_close_help": "",
-                "show_in_settings_label": "",
-                "show_in_settings_help": ""
+                "show_progress_help": "Zeigt den Fortschritt innerhalb einer Tour neben den Schaltflächen an.",
+                "allow_close_label": "Schließen erlauben",
+                "allow_close_help": "Ermöglicht es dem Leser, eine Tour vorzeitig zu beenden – über eine Schaltfläche „Schließen“ und die Escape-Taste. Die Tour wird dennoch als abgeschlossen markiert.",
+                "show_in_settings_label": "Touren auf der Einstellungsseite des Benutzers auflisten",
+                "show_in_settings_help": "Mitglieder können eine Tour neu starten, ohne einen Moderator darum bitten zu müssen."
             },
             "tours": {
                 "heading": "Touren",
@@ -35,8 +35,8 @@
                 "disabled": "Aus",
                 "add_button": "Neue Tour",
                 "import_button": "Importieren",
-                "import_done": "",
-                "import_invalid": "",
+                "import_done": "Tour importiert. Sie ist abgeschaltet angekommen. Wird einen Blick darüber, bevor du sie anschaltest.",
+                "import_invalid": "Diese Datei enthält keine exportierte Tour.",
                 "edit_action": "Bearbeiten",
                 "controls_label": "",
                 "preview_button": "Vorschau im Forum",
