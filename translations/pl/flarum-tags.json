@@ -4,17 +4,17 @@
             "basics": {
                 "tags_label": "=> flarum-tags.ref.tags",
                 "slug_driver_options": {
-                    "default": "",
-                    "id_with_slug": ""
+                    "default": "Domyślny",
+                    "id_with_slug": "ID ze slugiem"
                 }
             },
             "edit_tag": {
                 "color_label": "=> core.ref.color",
                 "delete_tag_button": "Usuń tag",
-                "default_sort_label": "",
-                "default_sort_none": "",
-                "default_sort_text": "",
-                "default_sort_unavailable": "",
+                "default_sort_label": "Domyślne sortowanie",
+                "default_sort_none": "Zgodne z ustawieniami forum",
+                "default_sort_text": "Kolejność dyskusji z tym tagiem, gdy użytkownik nie wybierze innego sortowania.",
+                "default_sort_unavailable": "{sort} (już niedostępne)",
                 "delete_tag_confirmation": "Czy jesteś pewien, że chcesz usunąć ten tag? Dyskusje oznaczone tym tagiem NIE zostaną usunięte.",
                 "description_label": "Opis",
                 "hide_label": "Ukryj z \"Wszystkie dyskusje\"",
@@ -95,8 +95,8 @@
             "gambits": {
                 "discussions": {
                     "tag": {
-                        "key": "",
-                        "hint": ""
+                        "key": "tag",
+                        "hint": "slug tagu, slugi kilku tagów oddzielone przecinkami lub „untagged” (bez tagów)"
                     }
                 }
             },
@@ -120,12 +120,12 @@
         "lib": {
             "browser": {
                 "discussion": {
-                    "tagged": ""
+                    "tagged": "Zmieniono tagi dyskusji {discussion} z {old_tags} na {new_tags}"
                 },
                 "tag": {
-                    "created": "",
-                    "updated": "",
-                    "deleted": ""
+                    "created": "Utworzono tag {tag}",
+                    "updated": "Zaktualizowano tag {tag}",
+                    "deleted": "Usunięto tag {tag}"
                 }
             }
         }

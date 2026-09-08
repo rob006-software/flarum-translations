@@ -21,7 +21,7 @@
             },
             "settings": {
                 "follow_after_reply_label": "Automatycznie obserwuj dyskusje, w których odpowiedziałem",
-                "follow_after_create_label": "",
+                "follow_after_create_label": "Automatycznie obserwuj dyskusje, które rozpoczynam",
                 "notify_for_all_posts_label": "Otrzymuj powiadomienia o wszystkich nowych postach w dyskusji (domyślnie powiadomienia wysyłane są tylko dla pierwszego nieodczytanego posta)",
                 "notify_new_post_label": "Ktoś odpowiedział w dyskusji, którą obserwuję"
             },
@@ -41,10 +41,10 @@
             "new_post": {
                 "subject": "[Nowy post] {title}",
                 "plain": {
-                    "body": ""
+                    "body": "{poster_display_name} dodał post w obserwowanej przez Ciebie dyskusji: {title}.\n\nAby przeczytać nowe posty, kliknij poniższy link:\n{url}\n\n---\n\n{content}\n\n---\n\nKolejne powiadomienia o tej dyskusji otrzymasz dopiero po przeczytaniu nowych postów.\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{poster_display_name} dodał post w obserwowanej przez Ciebie dyskusji: [{title}]({url}).\n\nKolejne powiadomienia o tej dyskusji otrzymasz dopiero po przeczytaniu nowych postów.\n"
                 }
             }
         },
