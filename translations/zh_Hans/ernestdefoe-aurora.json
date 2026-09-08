@@ -2,32 +2,32 @@
     "ernestdefoe-aurora": {
         "admin": {
             "settings": {
-                "gradient_start": "主渐变 — 起始颜色",
-                "gradient_end": "",
-                "accent_color": "",
-                "glassmorphism": "",
-                "glow": "",
-                "animate_background": ""
+                "gradient_start": "主渐变色 — 起始颜色",
+                "gradient_end": "主渐变色 — 结束颜色",
+                "accent_color": "强调色",
+                "glassmorphism": "启用玻璃拟态效果（毛玻璃面板）",
+                "glow": "启用发光效果",
+                "animate_background": "启用极光背景动画"
             }
         },
         "forum": {
             "palette": {
-                "button_label": "",
-                "palette": "",
-                "title": "",
-                "apply": "",
-                "aurora": "",
-                "sunset": "",
-                "ocean": "",
-                "forest": "",
-                "nebula": "",
-                "ember": ""
+                "button_label": "选择配色方案",
+                "palette": "配色方案",
+                "title": "配色方案",
+                "apply": "应用「{palette}」配色方案",
+                "aurora": "极光",
+                "sunset": "日落",
+                "ocean": "海洋",
+                "forest": "森林",
+                "nebula": "星云",
+                "ember": "余烬"
             },
             "widgets": {
-                "members": "",
-                "discussions": "",
-                "posts": "",
-                "online": ""
+                "members": "成员",
+                "discussions": "讨论",
+                "posts": "帖子",
+                "online": "当前在线"
             }
         }
     }
