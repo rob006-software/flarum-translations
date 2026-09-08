@@ -1,19 +1,19 @@
 {
     "ernestdefoe-topic-map": {
         "forum": {
-            "views": "",
-            "likes": "",
-            "reactions": "",
-            "links": "",
-            "users": "",
-            "min_read": "",
-            "top_replies": ""
+            "views": "浏览",
+            "likes": "点赞",
+            "reactions": "表情",
+            "links": "链接",
+            "users": "用户",
+            "min_read": "分钟读完",
+            "top_replies": "高赞回复"
         },
         "admin": {
-            "min_replies_label": "",
-            "min_replies_help": "",
-            "top_replies_label": "",
-            "top_replies_help": ""
+            "min_replies_label": "最少回复数",
+            "min_replies_help": "仅当讨论至少有此数量的回复时，才显示讨论概览。",
+            "top_replies_label": "显示高赞回复数",
+            "top_replies_help": "设置「高赞回复」面板最多显示多少条获赞最多的回复（需要 flarum/likes）。"
         }
     }
 }

@@ -2,44 +2,44 @@
     "ernestdefoe-scribe": {
         "lib": {
             "buttons": {
-                "bold": "",
-                "italic": "",
-                "underline": "",
-                "strike": "",
-                "code": "",
-                "text_color": "",
-                "highlight": "",
-                "heading": "",
-                "subheading": "",
-                "bullet_list": "",
-                "ordered_list": "",
-                "quote": "",
-                "code_block": "",
-                "link": "",
-                "image": "",
-                "table": "",
-                "horizontal_rule": "",
-                "undo": "",
-                "redo": ""
+                "bold": "粗体",
+                "italic": "斜体",
+                "underline": "下划线",
+                "strike": "删除线",
+                "code": "行内代码",
+                "text_color": "文字颜色",
+                "highlight": "高亮",
+                "heading": "标题",
+                "subheading": "副标题",
+                "bullet_list": "无序列表",
+                "ordered_list": "有序列表",
+                "quote": "引用",
+                "code_block": "代码块",
+                "link": "链接",
+                "image": "图片",
+                "table": "表格",
+                "horizontal_rule": "分隔线",
+                "undo": "撤销",
+                "redo": "重做"
             }
         },
         "forum": {
             "composer": {
-                "toolbar_label": "",
-                "apply": "",
-                "remove_link": "",
-                "clear_colour": "",
-                "link_placeholder": "",
-                "image_placeholder": ""
+                "toolbar_label": "格式",
+                "apply": "应用",
+                "remove_link": "移除链接",
+                "clear_colour": "清除颜色",
+                "link_placeholder": "粘贴或输入链接…",
+                "image_placeholder": "图片地址…"
             }
         },
         "admin": {
-            "toolbar_label": "",
-            "toolbar_help": "",
-            "palette_label": "",
-            "toolbar_empty": "",
-            "palette_empty": "",
-            "reset": ""
+            "toolbar_label": "编辑器工具栏",
+            "toolbar_help": "从下方的可用功能中拖动功能到工具栏，也可以在工具栏中拖动调整顺序。使用键盘时，按 Enter 添加功能，使用方向键移动，按 Delete 移除。\n",
+            "palette_label": "可用功能",
+            "toolbar_empty": "将功能拖到这里以配置工具栏。",
+            "palette_empty": "所有功能都已添加到工具栏。",
+            "reset": "恢复默认设置"
         }
     }
 }

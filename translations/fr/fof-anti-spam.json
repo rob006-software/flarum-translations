@@ -13,7 +13,7 @@
                     "enabled_help": "Lorsque cette option est activée, les publications et les discussions des nouveaux utilisateurs seront analysées afin de détecter tout indicateur de spam.",
                     "user_targeting_heading": "Ciblage des utilisateurs",
                     "monitor_all_users_label": "Surveiller tous les utilisateurs",
-                    "monitor_all_users_help": "",
+                    "monitor_all_users_help": "Vérifiez tous les messages, pas seulement ceux provenant de nouveaux comptes. Sans cela, un compte n’est plus jamais examiné une fois qu’il a dépassé les limites indiquées ci-dessous — ce qui est précisément le cas pour un membre dont le compte a été compromis ou pour un membre qui attend d’avoir dépassé ces limites avant de diffuser du spam. Les administrateurs, ainsi que toute personne dont le groupe peut masquer des discussions, ne font jamais l’objet d’une surveillance, quel que soit le cas. Attendez-vous à davantage de faux positifs de la part des membres établis ; vérifiez donc vos seuils avant d’activer cette fonctionnalité.\n",
                     "monitor_post_count_label": "Surveiller les utilisateurs jusqu'au nombre de messages",
                     "monitor_post_count_help": "Analysez uniquement le contenu des utilisateurs qui ont publié moins de ce nombre de messages. Définissez cette valeur sur 0 pour désactiver la vérification du nombre de messages.",
                     "monitor_hours_old_label": "Surveillez les utilisateurs jusqu'à plusieurs heures après leur création",
@@ -132,12 +132,12 @@
                         "toggle": "Aide à la recherche",
                         "multiple": "Combinez les filtres en les séparant par des espaces.",
                         "negate": "Préfixez un filtre avec « - » pour exclure les résultats correspondants, p. ex. -provider:github",
-                        "ip": "",
-                        "email": "",
-                        "username": "",
-                        "provider": "",
-                        "reason": "",
-                        "attemptedAt": ""
+                        "ip": "Tentatives d'inscription provenant d'une adresse IP spécifique.",
+                        "email": "Tentatives d'inscription avec une adresse courriel spécifique.",
+                        "username": "Tentatives d'inscription avec un nom d'utilisateur spécifique.",
+                        "provider": "Le fournisseur d'authentification par lequel la tentative a été effectuée.",
+                        "reason": "La règle qui a bloqué la tentative. N'est enregistrée que pour les blocages récents.",
+                        "attemptedAt": "Une date ou une plage de dates, p. ex. 2026-01-01..2026-02-01. L'une des deux dates peut rester indéterminée."
                     }
                 },
                 "evidence": {

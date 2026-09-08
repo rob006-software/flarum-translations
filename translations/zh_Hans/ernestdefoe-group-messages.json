@@ -2,55 +2,55 @@
     "ernestdefoe-group-messages": {
         "forum": {
             "compose": {
-                "group_button": "",
-                "group_title": "",
-                "name_label": "",
-                "name_placeholder": "",
-                "recipients_label": "",
-                "message_placeholder": "",
-                "create_button": "",
-                "create_error": ""
+                "group_button": "新建群聊",
+                "group_title": "新建群聊",
+                "name_label": "群聊名称",
+                "name_placeholder": "为群聊命名（可选）",
+                "recipients_label": "添加成员",
+                "message_placeholder": "写下第一条消息…",
+                "create_button": "创建群聊",
+                "create_error": "无法创建群聊，请重试。"
             },
             "dialog": {
-                "participants": "",
-                "participant_count": "",
-                "group_fallback_title": "",
-                "seen_by": "",
-                "seen_by_count": ""
+                "participants": "{count} 位成员",
+                "participant_count": "{count, plural, other {# 人}}",
+                "group_fallback_title": "群聊",
+                "seen_by": "{names} 已读",
+                "seen_by_count": "{count} 人已读"
             },
             "reactions": {
-                "add_label": ""
+                "add_label": "添加表情"
             },
             "reply": {
-                "reply_button": "",
-                "replying_to": "",
-                "cancel": "",
-                "unknown": ""
+                "reply_button": "回复",
+                "replying_to": "回复 {username}",
+                "cancel": "取消回复",
+                "unknown": "回复之前的消息"
             },
             "quote": {
-                "quote_button": ""
+                "quote_button": "引用"
             },
             "manage": {
-                "title": "",
-                "name_label": "",
-                "save_button": "",
-                "participants_label": "",
-                "add_people": "",
-                "leave_button": "",
-                "remove_tooltip": "",
-                "promote_tooltip": "",
-                "demote_tooltip": "",
-                "role_owner": "",
-                "role_moderator": "",
-                "role_member": ""
+                "title": "群聊设置",
+                "name_label": "群聊名称和图标",
+                "save_button": "保存",
+                "participants_label": "成员（{count}）",
+                "add_people": "添加成员",
+                "leave_button": "退出群聊",
+                "remove_tooltip": "移出群聊",
+                "promote_tooltip": "设为管理员",
+                "demote_tooltip": "取消管理员",
+                "role_owner": "群主",
+                "role_moderator": "管理员",
+                "role_member": "成员"
             }
         },
         "lib": {
             "error": {
-                "generic": "",
-                "not_group_member": "",
-                "cannot_manage": "",
-                "min_participants": ""
+                "generic": "出现错误，请重试。",
+                "not_group_member": "你不是此群聊的成员。",
+                "cannot_manage": "你没有管理此群聊的权限。",
+                "min_participants": "群聊至少需要另外两位成员。"
             }
         }
     }

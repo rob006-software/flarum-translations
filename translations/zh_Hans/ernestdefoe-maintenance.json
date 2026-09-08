@@ -1,11 +1,11 @@
 {
     "ernestdefoe-maintenance": {
         "admin": {
-            "migrate_button": "",
-            "assets_button": "",
-            "migrated": "",
-            "published": "",
-            "failed": ""
+            "migrate_button": "运行数据库迁移",
+            "assets_button": "发布资源文件",
+            "migrated": "数据库迁移已完成，正在重新加载以应用更改。",
+            "published": "资源文件已发布。",
+            "failed": "维护任务执行失败，请查看 Flarum 日志了解详情。"
         }
     }
 }

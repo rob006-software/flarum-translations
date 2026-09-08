@@ -2,30 +2,30 @@
     "ernestdefoe-cross-references": {
         "forum": {
             "sidebar": {
-                "heading": "",
-                "load_error": "",
-                "by_user": "",
-                "capped_notice": ""
+                "heading": "被 {count, plural, other {# 个讨论}} 引用",
+                "load_error": "无法加载引用记录。",
+                "by_user": "由 {username} 引用",
+                "capped_notice": "仅显示最近 50 条。"
             },
             "event_post": {
-                "text": "",
-                "post_specific": ""
+                "text": "{username} 在 {ref} 中引用了此讨论",
+                "post_specific": " （引用了具体帖子）"
             },
             "notification": {
-                "text": ""
+                "text": "有人在 {discussion} 中引用了你的讨论"
             },
             "post_number": {
-                "tooltip": "",
-                "copied": "",
-                "copy_failed": ""
+                "tooltip": "点击复制此帖的交叉引用（{ref}）",
+                "copied": "已将 {ref} 复制到剪贴板。",
+                "copy_failed": "无法复制。引用内容为 {ref}。"
             }
         },
         "admin": {
             "settings": {
-                "create_backlinks_label": "",
-                "create_backlinks_help": "",
-                "notify_author_label": "",
-                "notify_author_help": ""
+                "create_backlinks_label": "在被引用讨论中创建反向引用事件帖",
+                "create_backlinks_help": "当帖子引用其他讨论时，在被引用的讨论中插入一条简短的系统事件帖，显示引用来源。如果不希望被引用的讨论因此出现额外事件帖，可以关闭此项。",
+                "notify_author_label": "通知被引用讨论的作者",
+                "notify_author_help": "当讨论被引用时，向该讨论作者发送站内通知。用户引用自己发布的内容时不会收到通知。"
             }
         }
     }
