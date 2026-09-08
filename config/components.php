@@ -972,7 +972,7 @@ return [
 		],
 	],
 	'stezkoy-modularis' => [
-		'tag' => 'https://raw.githubusercontent.com/Stezkoy/flarum-modularis/v1.0.6/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/Stezkoy/flarum-modularis/v1.0.8/locale/en.yml',
 		'__builtInLanguages' => [
 			'ru',
 		],
