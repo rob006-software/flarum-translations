@@ -22,16 +22,16 @@
                 "shortcode_html": ""
             },
             "layout": {
-                "heading": "",
+                "heading": "Layout",
                 "intro": "",
-                "nav_position_label": "",
-                "nav_position_help": "",
-                "nav_position_top": "",
-                "nav_position_below_all": "",
+                "nav_position_label": "Wiki-Link-Position",
+                "nav_position_help": "Wo der Wiki-Link in der Seitenleiste angezeigt werden soll, neben „Alle Diskussionen“ und von anderen Erweiterungen hinzugefügten Links.",
+                "nav_position_top": "Am Anfang der Liste",
+                "nav_position_below_all": "Unterhalb von „Alle Diskussionen“",
                 "nav_position_sections": "",
-                "nav_position_bottom": "",
-                "full_width_label": "",
-                "full_width_help": ""
+                "nav_position_bottom": "Am Ende der Liste",
+                "full_width_label": "Volle Seitenbreite ausnutzen",
+                "full_width_help": "Wenn aktiviert, entfällt bei Wiki-Seiten die Seitenleiste des Forums und der Inhalt erstreckt sich über die gesamte Seitenbreite. Der Bereich mit dem Artikelinhalt bleibt davon unberührt. Da sich der Kategorienfilter in dieser Seitenleiste befindet, durchstöbern die Leser die Kategorien stattdessen über die Wiki-Startseite."
             },
             "toc": {
                 "heading": "Inhaltsverzeichnis",
@@ -42,9 +42,9 @@
                 "min_headings_help": "Das Inhaltsverzeichnis wird nur angezeigt, wenn ein Artikel mindestens diese Anzahl an Überschriften enthält."
             },
             "related": {
-                "heading": "",
-                "intro": "",
-                "enabled_label": "",
+                "heading": "Verwandte Artikel",
+                "intro": "Zeigt unter jedem Artikel eine kurze Liste weiterer Artikel aus derselben Kategorie an.",
+                "enabled_label": "Verwandte Artikel anzeigen",
                 "enabled_help": "",
                 "limit_label": "",
                 "limit_help": ""
