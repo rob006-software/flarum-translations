@@ -965,11 +965,6 @@ return [
 			'zh_Hans',
 		],
 	],
-	'stezkoy-ai-openreply' => [
-		'__builtInLanguages' => [
-			'ru',
-		],
-	],
 	'stezkoy-doorquest' => [
 		'beta' => 'https://raw.githubusercontent.com/Stezkoy/flarum-doorquest/1.0.0-beta.1/resources/locale/en.yml',
 		'__builtInLanguages' => [
