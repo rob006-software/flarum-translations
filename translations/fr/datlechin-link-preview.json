@@ -9,7 +9,7 @@
                 "performance_label": "Performance",
                 "performance_description": "Comment les aperçus sont récupérés et combien de temps ils sont conservés.",
                 "filtering_label": "Filtrage",
-                "filtering_description": "Quels sites peuvent être prévisualisés. Une entrée par ligne, ou séparées par des virgules. Un hôte correspond également à ses sous-domaines, et « * » représente une partie d'un nom.\n",
+                "filtering_description": "Quels sites peuvent être prévisualisés. Une entrée par ligne, ou séparées par des virgules. Un hôte prend également en compte ses sous-domaines, et « * » symbolise une partie d'un nom.\n",
                 "general_label": "Général",
                 "general_description": "Préférences d'affichage de base pour les aperçus des liens.",
                 "url_filtering_label": "Filtrage des URL",
@@ -20,7 +20,7 @@
             "settings": {
                 "open_links_in_new_tab_label": "Ouvrir les liens dans un nouvel onglet",
                 "open_links_in_new_tab_help": "Autres sites uniquement. Ici, une discussion s'ouvre toujours dans le même onglet.",
-                "google_favicon_fallback_label": "Utiliser Google comme solution de repli pour les icônes de site",
+                "google_favicon_fallback_label": "Recourir à Google pour les icônes de site",
                 "google_favicon_fallback_help": "",
                 "preview_internal_links_label": "Prévisualiser les liens vers ce forum",
                 "preview_internal_links_help": "Un lien vers une discussion, un membre, une étiquette ou l'index devient une carte lue depuis la base de données ; rien n'est donc récupéré et personne ne voit plus que ce qu'il pouvait déjà ouvrir.\n",
