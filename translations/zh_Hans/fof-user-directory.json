@@ -2,57 +2,57 @@
     "fof-user-directory": {
         "forum": {
             "header": {
-                "back_to_user_directory_tooltip": "返回会员名录"
+                "back_to_user_directory_tooltip": "返回用户目录"
             },
             "hero": {
                 "title": "=> fof-user-directory.forum.page.nav"
             },
             "search": {
-                "users_heading": "搜索用户「{query}」",
+                "users_heading": "在所有用户中搜索「{query}」",
                 "field": {
                     "placeholder": "搜索用户"
                 },
                 "kinds": {
-                    "group": "群组",
+                    "group": "用户组",
                     "text": "关键词"
                 }
             },
             "page": {
-                "nav": "会员名录",
+                "nav": "用户目录",
                 "refresh_tooltip": "=> core.forum.index.refresh_tooltip",
                 "load_more_button": "=> core.ref.load_more",
-                "empty_text": "抱歉，没有找到匹配的用户。",
-                "filter_button": "筛选群组",
+                "empty_text": "没有找到符合搜索条件的用户。",
+                "filter_button": "筛选用户组",
                 "usercard": {
-                    "discussion-count": "{count, plural, one {讨论 {count}} other {讨论 {count}}}",
-                    "post-count": "{count, plural, one {回复 {count}} other {回复 {count}}}"
+                    "discussion-count": "{count, plural, other {讨论 {count}}}",
+                    "post-count": "{count, plural, other {帖子 {count}}}"
                 }
             }
         },
         "admin": {
             "permissions": {
-                "view_user_directory": "查看会员名录"
+                "view_user_directory": "查看用户目录"
             },
             "settings": {
-                "link": "在论坛首页侧边栏添加「会员名录」选项卡",
+                "link": "在首页侧边栏显示「用户目录」入口",
                 "default-sort": "默认排序",
-                "use-small-cards": "使用小尺寸卡片",
-                "disable-global-search-source": "不要将会员名录添加到论坛搜索建议中",
-                "link-group-mentions": "将帖子中的群组提及链接到用户名录"
+                "use-small-cards": "使用紧凑卡片布局",
+                "disable-global-search-source": "不将用户目录加入 Flarum 全局搜索",
+                "link-group-mentions": "将帖子中的用户组提及链接到用户目录"
             }
         },
         "lib": {
             "sort": {
-                "not_specified": "使用 Flarum 默认排序",
+                "not_specified": "使用 Flarum 默认设置",
                 "default": "默认",
-                "username_az": "用户名（a-z）",
-                "username_za": "用户名（z-a）",
-                "newest": "新用户",
-                "oldest": "老用户",
+                "username_az": "用户名（A–Z）",
+                "username_za": "用户名（Z–A）",
+                "newest": "最新注册",
+                "oldest": "最早注册",
                 "most_discussions": "讨论最多",
                 "least_discussions": "讨论最少",
-                "seen_recent": "",
-                "seen_oldest": "",
+                "seen_recent": "最近在线",
+                "seen_oldest": "离线最久",
                 "most_posts": "发帖最多",
                 "least_posts": "发帖最少"
             }
