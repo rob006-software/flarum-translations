@@ -2,8 +2,8 @@
 
 Translations for German (formal) (`de@formal`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **366** are translated differently and **676** are
-translated only in `de@formal`. Altogether they cover **98** components.
+sides, but do not match between them: **366** are translated differently and **683** are
+translated only in `de@formal`. Altogether they cover **99** components.
 
 <!-- {% raw %} -->
 
@@ -91,6 +91,7 @@ translated only in `de@formal`. Altogether they cover **98** components.
 | `migratetoflarum-fake-data` | [1](#migratetoflarum-fake-data) | 0 |
 | `peopleinside-antiflood` | 0 | [18](#peopleinside-antiflood-missing) |
 | `peopleinside-fla-powcaptcha` | 0 | [17](#peopleinside-fla-powcaptcha-missing) |
+| `pianotell-flamoji` | 0 | [7](#pianotell-flamoji-missing) |
 | `quasimo-carousel-grids` | 0 | [23](#quasimo-carousel-grids-missing) |
 | `quasimo-llms-txt` | 0 | [18](#quasimo-llms-txt-missing) |
 | `quasimo-tag-sidebar` | 0 | [23](#quasimo-tag-sidebar-missing) |
@@ -5624,7 +5625,7 @@ These strings are translated only in `de@formal`, so there is nothing to inherit
 
 #### [`forumfortress-flarum.admin.dashboard.automatic_selection`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de@formal/?q=context%3A%3D%22forumfortress-flarum.admin.dashboard.automatic_selection%22)
 
-> Automatic selection
+> GeoDNS automatic routing
 
 ```diff
 +Automatische Auswahl
@@ -5840,7 +5841,7 @@ These strings are translated only in `de@formal`, so there is nothing to inherit
 
 #### [`forumfortress-flarum.admin.dashboard.preferred_endpoint`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de@formal/?q=context%3A%3D%22forumfortress-flarum.admin.dashboard.preferred_endpoint%22)
 
-> Preferred endpoint
+> GeoDNS route
 
 ```diff
 +Bevorzugter Endpunkt
@@ -7148,6 +7149,65 @@ These strings are translated only in `de@formal`, so there is nothing to inherit
 
 ```diff
 +Die Sicherheitsabfrage konnte nicht überprüft werden. Bitte versuche es erneut.
+```
+
+
+### `pianotell-flamoji` (missing)
+
+#### [`pianotell-flamoji.admin.custom_emojis_section.emoji_list.rename_cancel_button`](https://weblate.rob006.net/translate/flarum2/pianotell-flamoji/de@formal/?q=context%3A%3D%22pianotell-flamoji.admin.custom_emojis_section.emoji_list.rename_cancel_button%22)
+
+> Cancel
+
+```diff
++Abbrechen
+```
+
+#### [`pianotell-flamoji.admin.custom_emojis_section.emoji_list.rename_save_button`](https://weblate.rob006.net/translate/flarum2/pianotell-flamoji/de@formal/?q=context%3A%3D%22pianotell-flamoji.admin.custom_emojis_section.emoji_list.rename_save_button%22)
+
+> Save
+
+```diff
++Speichern
+```
+
+#### [`pianotell-flamoji.admin.custom_emojis_section.emoji_list.uncategorized`](https://weblate.rob006.net/translate/flarum2/pianotell-flamoji/de@formal/?q=context%3A%3D%22pianotell-flamoji.admin.custom_emojis_section.emoji_list.uncategorized%22)
+
+> Uncategorized
+
+```diff
++Ohne Kategorie
+```
+
+#### [`pianotell-flamoji.admin.custom_emojis_section.import_override_confirm`](https://weblate.rob006.net/translate/flarum2/pianotell-flamoji/de@formal/?q=context%3A%3D%22pianotell-flamoji.admin.custom_emojis_section.import_override_confirm%22)
+
+> Yes, I want to replace all existing emojis.
+
+```diff
++Ja, ich möchte alle vorhandenen Emojis ersetzen.
+```
+
+#### [`pianotell-flamoji.admin.custom_emojis_section.import_override_mode`](https://weblate.rob006.net/translate/flarum2/pianotell-flamoji/de@formal/?q=context%3A%3D%22pianotell-flamoji.admin.custom_emojis_section.import_override_mode%22)
+
+> Override Mode (Replace all existing emojis)
+
+```diff
++Überschreibungsmodus (Alle vorhandenen Emojis ersetzen)
+```
+
+#### [`pianotell-flamoji.admin.custom_emojis_section.import_override_warning`](https://weblate.rob006.net/translate/flarum2/pianotell-flamoji/de@formal/?q=context%3A%3D%22pianotell-flamoji.admin.custom_emojis_section.import_override_warning%22)
+
+> Warning: This will delete all your current custom emojis!
+
+```diff
++Achtung: Damit werden alle deine aktuellen benutzerdefinierten Emojis gelöscht!
+```
+
+#### [`pianotell-flamoji.admin.custom_emojis_section.upload_json_button`](https://weblate.rob006.net/translate/flarum2/pianotell-flamoji/de@formal/?q=context%3A%3D%22pianotell-flamoji.admin.custom_emojis_section.upload_json_button%22)
+
+> Upload JSON
+
+```diff
++JSON hochladen
 ```
 
 

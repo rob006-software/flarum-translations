@@ -2,7 +2,7 @@
 
 Translations for German (formal) (`de@formal`) are inherited from German informal variant, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **314** are translated differently and **0** are
+sides, but do not match between them: **303** are translated differently and **0** are
 translated only in `de@formal`. Altogether they cover **44** components.
 
 <!-- {% raw %} -->
@@ -18,7 +18,7 @@ translated only in `de@formal`. Altogether they cover **44** components.
 | `datlechin-bbcode-hide-content` | [3](#datlechin-bbcode-hide-content) |
 | `datlechin-birthdays` | [5](#datlechin-birthdays) |
 | `datlechin-copy-links` | [1](#datlechin-copy-links) |
-| `datlechin-link-preview` | [15](#datlechin-link-preview) |
+| `datlechin-link-preview` | [4](#datlechin-link-preview) |
 | `flarum-approval` | [2](#flarum-approval) |
 | `flarum-emoji` | [1](#flarum-emoji) |
 | `flarum-extension-manager` | [13](#flarum-extension-manager) |
@@ -1428,38 +1428,9 @@ Link in <ins>der </ins>Zwischenablage gespeichert!
 
 ### `datlechin-link-preview`
 
-#### [`datlechin-link-preview.admin.settings.blacklist_help`](https://weblate.rob006.net/translate/flarum2/datlechin-link-preview/de@formal/?q=context%3A%3D%22datlechin-link-preview.admin.settings.blacklist_help%22)
-
-> Specify domains or URLs that should not generate link previews. Use commas to separate multiple entries.
-
-```diff
--Gib Domains oder URLs an, die keine Link-Vorschauen erzeugen sollen. Mehrere Einträge durch Kommas trennen.
-+Geben Sie eine kommagetrennte Liste von Domains oder URLs ein, die von der Linkvorschau ausgeschlossen werden sollen.
-```
-
-<del>Gib</del><ins>Geben Sie eine kommagetrennte Liste von</ins> Domains oder URLs <del>an,</del><ins>ein,</ins> die<del> keine Link-Vorschauen erzeugen</del> <del>sollen.</del><ins>von</ins> <del>Mehrere</del><ins>der</ins> <del>Einträge</del><ins>Linkvorschau</ins> <del>durch</del><ins>ausgeschlossen</ins> <del>Kommas</del><ins>werden</ins> <del>trennen.</del><ins>sollen.</ins>
-
-#### [`datlechin-link-preview.admin.settings.blacklist_label`](https://weblate.rob006.net/translate/flarum2/datlechin-link-preview/de@formal/?q=context%3A%3D%22datlechin-link-preview.admin.settings.blacklist_label%22)
-
-> Domain Blacklist
-
-```diff
--Sperrliste für Domains
-+Blacklist
-```
-
-#### [`datlechin-link-preview.admin.settings.blacklist_placeholder`](https://weblate.rob006.net/translate/flarum2/datlechin-link-preview/de@formal/?q=context%3A%3D%22datlechin-link-preview.admin.settings.blacklist_placeholder%22)
-
-> Examples: facebook.com, twitter.com/specific-page
-
-```diff
--Beispiele: facebook.com, twitter.com/spezifische-seite
-+z.B. facebook.com,https://domain.com/path
-```
-
 #### [`datlechin-link-preview.admin.settings.cache_time_help`](https://weblate.rob006.net/translate/flarum2/datlechin-link-preview/de@formal/?q=context%3A%3D%22datlechin-link-preview.admin.settings.cache_time_help%22)
 
-> How long to store link previews before refreshing. Set to 0 to disable caching. Default: 60 minutes.
+> How long a preview is kept before the site is read again. 0 turns caching off.
 
 ```diff
 -Legt fest, wie lange Link-Vorschauen gespeichert werden, bevor sie aktualisiert werden. Auf 0 setzen, um das Caching zu deaktivieren. Standard: 60 Minuten.
@@ -1470,34 +1441,16 @@ Link in <ins>der </ins>Zwischenablage gespeichert!
 
 #### [`datlechin-link-preview.admin.settings.cache_time_label`](https://weblate.rob006.net/translate/flarum2/datlechin-link-preview/de@formal/?q=context%3A%3D%22datlechin-link-preview.admin.settings.cache_time_label%22)
 
-> Cache Duration (minutes)
+> Cache duration (minutes)
 
 ```diff
 -Speicherdauer im Cache (Minuten)
 +Dauer des Zwischenspeicherns
 ```
 
-#### [`datlechin-link-preview.admin.settings.convert_media_urls_help`](https://weblate.rob006.net/translate/flarum2/datlechin-link-preview/de@formal/?q=context%3A%3D%22datlechin-link-preview.admin.settings.convert_media_urls_help%22)
-
-> Generate previews for URLs that point to media files (images, videos, etc.).
-
-```diff
--Vorschauen für URLs erzeugen, die auf Mediendateien (Bilder, Videos usw.) verweisen.
-+Wenn aktiviert, werden alle Medien-URLs in eine Linkvorschau umgewandelt.
-```
-
-#### [`datlechin-link-preview.admin.settings.convert_media_urls_label`](https://weblate.rob006.net/translate/flarum2/datlechin-link-preview/de@formal/?q=context%3A%3D%22datlechin-link-preview.admin.settings.convert_media_urls_label%22)
-
-> Preview Media URLs
-
-```diff
--URLs für Medienvorschauen
-+Medien-URLs umwandeln
-```
-
 #### [`datlechin-link-preview.admin.settings.open_links_in_new_tab_help`](https://weblate.rob006.net/translate/flarum2/datlechin-link-preview/de@formal/?q=context%3A%3D%22datlechin-link-preview.admin.settings.open_links_in_new_tab_help%22)
 
-> Always open previewed links in a new browser tab.
+> Other sites only. A discussion here always opens in the same tab.
 
 ```diff
 -Alle Vorschau-Links standardmäßig in einem neuen Tab öffnen.
@@ -1508,7 +1461,7 @@ Link in <ins>der </ins>Zwischenablage gespeichert!
 
 #### [`datlechin-link-preview.admin.settings.open_links_in_new_tab_label`](https://weblate.rob006.net/translate/flarum2/datlechin-link-preview/de@formal/?q=context%3A%3D%22datlechin-link-preview.admin.settings.open_links_in_new_tab_label%22)
 
-> Open Links in New Tab
+> Open links in a new tab
 
 ```diff
 -Links in einem neuen Browser-Tab öffnen
@@ -1516,64 +1469,6 @@ Link in <ins>der </ins>Zwischenablage gespeichert!
 ```
 
 Links in einem neuen <del>Browser-Tab</del><ins>Tab</ins> öffnen
-
-#### [`datlechin-link-preview.admin.settings.use_google_favicons_help`](https://weblate.rob006.net/translate/flarum2/datlechin-link-preview/de@formal/?q=context%3A%3D%22datlechin-link-preview.admin.settings.use_google_favicons_help%22)
-
-> Show website favicons using Google's Favicon service to enhance visual recognition.
-
-```diff
--Website-Favicons über den Google-Favicon-Dienst anzeigen, um die visuelle Erkennung zu verbessern.
-+Wenn aktiviert, wird ein Google-Dienst im Frontend verwendet, um das Favicon der jeweiligen Webseite abzurufen.
-```
-
-<del>Website-Favicons</del><ins>Wenn</ins> <del>über</del><ins>aktiviert,</ins> <del>den</del><ins>wird</ins> <del>Google-Favicon-Dienst</del><ins>ein</ins> <del>anzeigen,</del><ins>Google-Dienst im Frontend verwendet,</ins> um <del>die</del><ins>das</ins> <del>visuelle</del><ins>Favicon</ins> <del>Erkennung</del><ins>der</ins> <del>zu</del><ins>jeweiligen</ins> <del>verbessern.</del><ins>Webseite abzurufen.</ins>
-
-#### [`datlechin-link-preview.admin.settings.use_google_favicons_label`](https://weblate.rob006.net/translate/flarum2/datlechin-link-preview/de@formal/?q=context%3A%3D%22datlechin-link-preview.admin.settings.use_google_favicons_label%22)
-
-> Display Site Icons
-
-```diff
--Icons der Websites anzeigen
-+Google Favicon-API verwenden
-```
-
-#### [`datlechin-link-preview.admin.settings.whitelist_help`](https://weblate.rob006.net/translate/flarum2/datlechin-link-preview/de@formal/?q=context%3A%3D%22datlechin-link-preview.admin.settings.whitelist_help%22)
-
-> Only generate previews for these domains or URLs. Leave empty to allow all non-blacklisted domains.
-
-```diff
--Vorschauen nur für die angegebenen Domains oder URLs erstellen. Feld leer lassen, um alle Domains, die nicht auf der Blacklist stehen, zuzulassen.
-+Geben Sie eine kommagetrennte Liste von Domains oder URLs ein, die eine Linkvorschau ermöglichen sollen.
-```
-
-<del>Vorschauen</del><ins>Geben</ins> <del>nur</del><ins>Sie</ins> <del>für</del><ins>eine</ins> <del>die</del><ins>kommagetrennte</ins> <del>angegebenen</del><ins>Liste von</ins> Domains oder URLs<del> erstellen. Feld leer lassen, um alle</del> <del>Domains,</del><ins>ein,</ins> die<del> nicht auf</del> <del>der</del><ins>eine</ins> <del>Blacklist</del><ins>Linkvorschau</ins> <del>stehen,</del><ins>ermöglichen</ins> <del>zuzulassen.</del><ins>sollen.</ins>
-
-#### [`datlechin-link-preview.admin.settings.whitelist_label`](https://weblate.rob006.net/translate/flarum2/datlechin-link-preview/de@formal/?q=context%3A%3D%22datlechin-link-preview.admin.settings.whitelist_label%22)
-
-> Domain Whitelist
-
-```diff
--Freigabeliste für Domains
-+Whitelist
-```
-
-#### [`datlechin-link-preview.admin.settings.whitelist_placeholder`](https://weblate.rob006.net/translate/flarum2/datlechin-link-preview/de@formal/?q=context%3A%3D%22datlechin-link-preview.admin.settings.whitelist_placeholder%22)
-
-> Examples: trusted-site.com, specific-domain.org/path
-
-```diff
--Beispiele: trusted-site.com, specific-domain.org/pfad
-+z.B. facebook.com,https://domain.com/pfad
-```
-
-#### [`datlechin-link-preview.forum.site_cannot_be_reached`](https://weblate.rob006.net/translate/flarum2/datlechin-link-preview/de@formal/?q=context%3A%3D%22datlechin-link-preview.forum.site_cannot_be_reached%22)
-
-> Unable to load preview. Please check the URL and try again.
-
-```diff
--Vorschau konnte nicht geladen werden. Bitte die URL prüfen und erneut versuchen.
-+Diese Webseite ist nicht erreichbar.
-```
 
 
 ### `flarum-approval`

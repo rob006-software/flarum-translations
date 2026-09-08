@@ -2,8 +2,8 @@
 
 Translations for French (`fr`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **126** are translated differently and **1189** are
-translated only in `fr`. Altogether they cover **60** components.
+sides, but do not match between them: **126** are translated differently and **1200** are
+translated only in `fr`. Altogether they cover **61** components.
 
 <!-- {% raw %} -->
 
@@ -23,6 +23,7 @@ translated only in `fr`. Altogether they cover **60** components.
 | `flarum-extension-manager` | [2](#flarum-extension-manager) | 0 |
 | `flarum-sticky` | 0 | [1](#flarum-sticky-missing) |
 | `flarum-subscriptions` | [1](#flarum-subscriptions) | 0 |
+| `flectar-turnstile` | 0 | [2](#flectar-turnstile-missing) |
 | `fof-anti-spam` | 0 | [2](#fof-anti-spam-missing) |
 | `fof-author-change` | 0 | [16](#fof-author-change-missing) |
 | `fof-badges` | 0 | [289](#fof-badges-missing) |
@@ -44,7 +45,7 @@ translated only in `fr`. Altogether they cover **60** components.
 | `fof-open-collective` | [6](#fof-open-collective) | 0 |
 | `fof-photoswipe` | 0 | [5](#fof-photoswipe-missing) |
 | `fof-polls` | 0 | [27](#fof-polls-missing) |
-| `fof-pwa` | 0 | [38](#fof-pwa-missing) |
+| `fof-pwa` | 0 | [40](#fof-pwa-missing) |
 | `fof-reactions` | [1](#fof-reactions) | 0 |
 | `fof-rich-text` | [6](#fof-rich-text) | 0 |
 | `fof-sentry` | [17](#fof-sentry) | 0 |
@@ -65,7 +66,7 @@ translated only in `fr`. Altogether they cover **60** components.
 | `justoverclock-related-discussions` | [1](#justoverclock-related-discussions) | 0 |
 | `justoverclock-welcomebox` | [1](#justoverclock-welcomebox) | 0 |
 | `michaelbelgium-ai-autoreply` | 0 | [22](#michaelbelgium-ai-autoreply-missing) |
-| `pianotell-flamoji` | 0 | [100](#pianotell-flamoji-missing) |
+| `pianotell-flamoji` | 0 | [107](#pianotell-flamoji-missing) |
 | `ralkage-cap-captcha` | [1](#ralkage-cap-captcha) | 0 |
 | `ralkage-hcaptcha` | [2](#ralkage-hcaptcha) | 0 |
 | `shebaoting-dependency-collector` | [3](#shebaoting-dependency-collector) | 0 |
@@ -2386,6 +2387,25 @@ These strings are translated only in `fr`, so there is nothing to inherit from F
 
 ```diff
 +Épingler les discussions sur la page « Toutes les discussions »
+```
+
+
+### `flectar-turnstile` (missing)
+
+#### [`validation.custom.turnstile.required`](https://weblate.rob006.net/translate/flarum2/flectar-turnstile/fr/?q=context%3A%3D%22validation.custom.turnstile.required%22)
+
+> Please complete the Turnstile challenge.
+
+```diff
++Veuillez compléter le défi de Turnstile.
+```
+
+#### [`validation.custom.turnstileToken.required`](https://weblate.rob006.net/translate/flarum2/flectar-turnstile/fr/?q=context%3A%3D%22validation.custom.turnstileToken.required%22)
+
+> Please complete the Turnstile challenge.
+
+```diff
++Veuillez compléter le défi de Turnstile.
 ```
 
 
@@ -6011,6 +6031,22 @@ These strings are translated only in `fr`, so there is nothing to inherit from F
 
 ```diff
 +Autre
+```
+
+#### [`fof-pwa.admin.pwa.other.share_buttons_label`](https://weblate.rob006.net/translate/flarum2/fof-pwa/fr/?q=context%3A%3D%22fof-pwa.admin.pwa.other.share_buttons_label%22)
+
+> Enable share buttons
+
+```diff
++Activer les boutons de partage
+```
+
+#### [`fof-pwa.admin.pwa.other.share_buttons_text`](https://weblate.rob006.net/translate/flarum2/fof-pwa/fr/?q=context%3A%3D%22fof-pwa.admin.pwa.other.share_buttons_text%22)
+
+> If enabled, a "Share" button will be added to discussions, posts, and users.
+
+```diff
++Si cette option est activée, un bouton « Partager » sera ajouté aux discussions, aux messages et aux utilisateurs.
 ```
 
 #### [`fof-pwa.admin.pwa.refreshed_message`](https://weblate.rob006.net/translate/flarum2/fof-pwa/fr/?q=context%3A%3D%22fof-pwa.admin.pwa.refreshed_message%22)
@@ -10528,6 +10564,30 @@ These strings are translated only in `fr`, so there is nothing to inherit from F
 +=> core.forum.post_stream.load_more_button
 ```
 
+#### [`pianotell-flamoji.admin.custom_emojis_section.emoji_list.rename_cancel_button`](https://weblate.rob006.net/translate/flarum2/pianotell-flamoji/fr/?q=context%3A%3D%22pianotell-flamoji.admin.custom_emojis_section.emoji_list.rename_cancel_button%22)
+
+> Cancel
+
+```diff
++Annuler
+```
+
+#### [`pianotell-flamoji.admin.custom_emojis_section.emoji_list.rename_save_button`](https://weblate.rob006.net/translate/flarum2/pianotell-flamoji/fr/?q=context%3A%3D%22pianotell-flamoji.admin.custom_emojis_section.emoji_list.rename_save_button%22)
+
+> Save
+
+```diff
++Enregistrer
+```
+
+#### [`pianotell-flamoji.admin.custom_emojis_section.emoji_list.uncategorized`](https://weblate.rob006.net/translate/flarum2/pianotell-flamoji/fr/?q=context%3A%3D%22pianotell-flamoji.admin.custom_emojis_section.emoji_list.uncategorized%22)
+
+> Uncategorized
+
+```diff
++Sans catégorie
+```
+
 #### [`pianotell-flamoji.admin.custom_emojis_section.export_json_button`](https://weblate.rob006.net/translate/flarum2/pianotell-flamoji/fr/?q=context%3A%3D%22pianotell-flamoji.admin.custom_emojis_section.export_json_button%22)
 
 > Export JSON
@@ -10566,6 +10626,38 @@ These strings are translated only in `fr`, so there is nothing to inherit from F
 
 ```diff
 +{count} émojis importés dont les codes courts ne suivent pas la convention recommandée :mot: : {shortcodes}. Ils ont été importés tels quels et fonctionnent toujours, mais pensez à les mettre à jour.
+```
+
+#### [`pianotell-flamoji.admin.custom_emojis_section.import_override_confirm`](https://weblate.rob006.net/translate/flarum2/pianotell-flamoji/fr/?q=context%3A%3D%22pianotell-flamoji.admin.custom_emojis_section.import_override_confirm%22)
+
+> Yes, I want to replace all existing emojis.
+
+```diff
++Oui, je souhaite remplacer tous les émojis existants.
+```
+
+#### [`pianotell-flamoji.admin.custom_emojis_section.import_override_mode`](https://weblate.rob006.net/translate/flarum2/pianotell-flamoji/fr/?q=context%3A%3D%22pianotell-flamoji.admin.custom_emojis_section.import_override_mode%22)
+
+> Override Mode (Replace all existing emojis)
+
+```diff
++Mode « Override » (Remplacer tous les émojis existants)
+```
+
+#### [`pianotell-flamoji.admin.custom_emojis_section.import_override_warning`](https://weblate.rob006.net/translate/flarum2/pianotell-flamoji/fr/?q=context%3A%3D%22pianotell-flamoji.admin.custom_emojis_section.import_override_warning%22)
+
+> Warning: This will delete all your current custom emojis!
+
+```diff
++Attention : cela supprimera tous vos émojis personnalisés actuels !
+```
+
+#### [`pianotell-flamoji.admin.custom_emojis_section.upload_json_button`](https://weblate.rob006.net/translate/flarum2/pianotell-flamoji/fr/?q=context%3A%3D%22pianotell-flamoji.admin.custom_emojis_section.upload_json_button%22)
+
+> Upload JSON
+
+```diff
++Importer un fichier JSON
 ```
 
 #### [`pianotell-flamoji.admin.settings.auto_hide_label`](https://weblate.rob006.net/translate/flarum2/pianotell-flamoji/fr/?q=context%3A%3D%22pianotell-flamoji.admin.settings.auto_hide_label%22)
