@@ -98,6 +98,9 @@ return [
 	'datlechin-posted-on' => [
 		'beta' => 'https://raw.githubusercontent.com/datlechin/flarum-posted-on/v2.0.0-beta.2/locale/en.yml',
 	],
+	'datlechin-references' => [
+		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-references/v1.0.0/locale/en.yml',
+	],
 	'datlechin-scroll-buttons' => [
 		'beta' => 'https://raw.githubusercontent.com/datlechin/flarum-scroll-buttons/v2.0.0-beta.1/locale/en.yml',
 	],
@@ -625,6 +628,9 @@ return [
 	],
 	'huseyinfiliz-diff' => [
 		'beta' => 'https://raw.githubusercontent.com/huseyinfiliz/flarum-diff/2.0.0-beta.4/locale/en.yml',
+	],
+	'huseyinfiliz-discussion-ban' => [
+		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/discussion-ban/1.1.0/locale/en.yml',
 	],
 	'huseyinfiliz-leaderboard' => [
 		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/leaderboard/2.0.0/locale/en.yml',
