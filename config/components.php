@@ -977,6 +977,12 @@ return [
 			'ru',
 		],
 	],
+	'stezkoy-pagify' => [
+		'beta' => 'https://raw.githubusercontent.com/Stezkoy/flarum-pagify/1.0.0-beta.5/locale/en.yml',
+		'__builtInLanguages' => [
+			'ru',
+		],
+	],
 	'stezkoy-telegram-notify' => [
 		'tag' => 'https://raw.githubusercontent.com/Stezkoy/flarum-telegram-notify/1.4.1/locale/en.yml',
 		'__builtInLanguages' => [
