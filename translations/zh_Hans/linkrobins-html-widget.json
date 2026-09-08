@@ -2,15 +2,15 @@
     "linkrobins-html-widget": {
         "admin": {
             "settings": {
-                "title_label": "",
-                "title_help": "",
-                "title_placeholder": "",
-                "icon_label": "",
-                "icon_help": "",
-                "body_label": "",
-                "body_help": "",
-                "background_label": "",
-                "background_help": ""
+                "title_label": "标题",
+                "title_help": "可选。显示在内容上方，留空则不显示标题。",
+                "title_placeholder": "欢迎来到我们的社区！",
+                "icon_label": "图标类名",
+                "icon_help": "显示在标题旁的 Font Awesome 类名，例如 fas fa-bullhorn。留空则不显示图标。",
+                "body_label": "HTML 内容",
+                "body_help": "支持 HTML，显示前会进行安全过滤。script 标签、事件处理属性、javascript: URL，以及 iframe 等不安全元素都会被移除。",
+                "background_label": "背景颜色",
+                "background_help": "可选。设置小组件的背景颜色，留空则跟随当前主题。"
             }
         }
     }

@@ -3,7 +3,7 @@
         "admin": {
             "settings": {
                 "enabled_label": "自动激活新账号",
-                "enabled_help": ""
+                "enabled_help": "开启后，新注册账号会立即激活，并跳过邮箱确认。关闭后将恢复 Flarum 默认的邮箱确认流程。如遇垃圾注册激增，可临时关闭此项，无需禁用本扩展。"
             }
         }
     }
