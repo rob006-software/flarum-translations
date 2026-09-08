@@ -966,7 +966,6 @@ return [
 		],
 	],
 	'stezkoy-ai-openreply' => [
-		'tag' => 'https://raw.githubusercontent.com/Stezkoy/flarum-ai-openreply/v0.0.2/locale/en.yml',
 		'__builtInLanguages' => [
 			'ru',
 		],
