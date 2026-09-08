@@ -41,7 +41,7 @@
                         "used_times": "{remainingUses} verbleibend",
                         "total_uses": "{totalUses} Mal verwendet"
                     },
-                    "invalid_column": ""
+                    "invalid_column": "—"
                 },
                 "pagination": {
                     "first_page_button": "Erste Seite",
@@ -56,7 +56,7 @@
                     "title": "Frage erstellen",
                     "question": {
                         "label": "Frage",
-                        "help": ""
+                        "help": "Diese Frage wird neuen Benutzern während der Registrierung gestellt."
                     },
                     "answer": {
                         "label": "Antwort",
@@ -64,7 +64,7 @@
                     },
                     "group": {
                         "label": "Gruppe zuweisen",
-                        "help": ""
+                        "help": "Benutzer, die korrekt geantwortet haben, werden zu dieser Gruppe hinzugefügt."
                     },
                     "max_uses": {
                         "label": "Max. Vewendungen",
