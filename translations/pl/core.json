@@ -1071,12 +1071,12 @@
                 "confirm_button": "Potwierdź",
                 "immediate_helptext": "Po potwierdzeniu od razu przestaniesz otrzymywać te powiadomienia.",
                 "confirm_message": "Czy chcesz zrezygnować z powiadomień e-mail typu „{type}” z forum {forumTitle}?",
-                "success_message": "",
-                "invalid_message": ""
+                "success_message": "Powiadomienia typu „{type}” z forum {forumTitle} zostały wyłączone. Jeśli zechcesz znów je otrzymywać, [zmień ustawienia]({settingsLink}).",
+                "invalid_message": "Ten link do rezygnacji z powiadomień jest nieprawidłowy lub został już użyty. Aby zmienić powiadomienia e-mail z forum {forumTitle}, [przejdź do ustawień]({settingsLink})."
             }
         },
         "api": {
-            "invalid_username_message": "",
+            "invalid_username_message": "Nazwa użytkownika może zawierać tylko litery, cyfry i łączniki. Musi zawierać co najmniej jedną literę.",
             "invalid_filter_type": {
                 "must_be_numeric_message": "Filtr {filter} musi być liczbą.",
                 "must_not_be_array_message": "Filtr {filter} nie może być tablicą.",
@@ -1084,21 +1084,21 @@
             }
         },
         "email": {
-            "greeting": "",
-            "signoff": "",
+            "greeting": "Cześć, {displayName},",
+            "signoff": "Zespół {forumTitle}",
             "informational": {
-                "default_title": "",
-                "footer": "",
-                "footer_plain": ""
+                "default_title": "Informacja",
+                "footer": "Ta wiadomość została wysłana na adres {userEmail}, ponieważ dotyczy Twojego konta na forum [{forumTitle}]({forumUrl}).",
+                "footer_plain": "Ta wiadomość została wysłana na adres {userEmail}, ponieważ dotyczy Twojego konta na forum {forumTitle}."
             },
             "notification": {
-                "default_title": "",
+                "default_title": "Powiadomienie",
                 "footer": {
-                    "main_text": "",
-                    "main_text_plain": "",
-                    "unsubscribe_text": "",
-                    "unsubscribe_text_plain": "",
-                    "settings_text": "",
+                    "main_text": "Ta wiadomość została wysłana na adres {email}, ponieważ masz włączone powiadomienia typu „{type}” na forum [{forumTitle}]({forumUrl}).",
+                    "main_text_plain": "Ta wiadomość została wysłana na adres {email}, ponieważ masz włączone powiadomienia typu „{type}” na forum {forumTitle}.",
+                    "unsubscribe_text": "Jeśli nie chcesz już otrzymywać takich powiadomień, [wyłącz je tutaj]({unsubscribeLink}).",
+                    "unsubscribe_text_plain": "Jeśli nie chcesz już otrzymywać takich powiadomień, wyłącz je tutaj: {unsubscribeLink}",
+                    "settings_text": "[Zmień ustawienia powiadomień]({settingsLink}).",
                     "settings_text_plain": ""
                 }
             },
