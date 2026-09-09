@@ -2,7 +2,7 @@
 
 Translations for German (formal) (`de@formal`) are inherited from German informal variant, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **303** are translated differently and **0** are
+sides, but do not match between them: **300** are translated differently and **0** are
 translated only in `de@formal`. Altogether they cover **44** components.
 
 <!-- {% raw %} -->
@@ -18,7 +18,7 @@ translated only in `de@formal`. Altogether they cover **44** components.
 | `datlechin-bbcode-hide-content` | [3](#datlechin-bbcode-hide-content) |
 | `datlechin-birthdays` | [5](#datlechin-birthdays) |
 | `datlechin-copy-links` | [1](#datlechin-copy-links) |
-| `datlechin-link-preview` | [4](#datlechin-link-preview) |
+| `datlechin-link-preview` | [1](#datlechin-link-preview) |
 | `flarum-approval` | [2](#flarum-approval) |
 | `flarum-emoji` | [1](#flarum-emoji) |
 | `flarum-extension-manager` | [13](#flarum-extension-manager) |
@@ -1427,37 +1427,6 @@ Link in <ins>der </ins>Zwischenablage gespeichert!
 
 
 ### `datlechin-link-preview`
-
-#### [`datlechin-link-preview.admin.settings.cache_time_help`](https://weblate.rob006.net/translate/flarum2/datlechin-link-preview/de@formal/?q=context%3A%3D%22datlechin-link-preview.admin.settings.cache_time_help%22)
-
-> How long a preview is kept before the site is read again. 0 turns caching off.
-
-```diff
--Legt fest, wie lange Link-Vorschauen gespeichert werden, bevor sie aktualisiert werden. Auf 0 setzen, um das Caching zu deaktivieren. Standard: 60 Minuten.
-+Anzahl der Minuten, die gecrawlte Links zwischengespeichert werden, bevor sie erneut aufgerufen werden. Mit dem Wert 0 wird das Link-Caching deaktiviert. Der Standardwert ist 60 Minuten, wenn er nicht gesetzt ist.
-```
-
-<del>Legt</del><ins>Anzahl</ins> <del>fest,</del><ins>der</ins> <del>wie</del><ins>Minuten,</ins> <del>lange</del><ins>die</ins> <del>Link-Vorschauen</del><ins>gecrawlte</ins> <del>gespeichert</del><ins>Links zwischengespeichert</ins> werden, bevor sie <del>aktualisiert</del><ins>erneut aufgerufen</ins> werden. <del>Auf</del><ins>Mit</ins> <del>0</del><ins>dem</ins> <del>setzen,</del><ins>Wert</ins> <del>um</del><ins>0 wird</ins> das <del>Caching</del><ins>Link-Caching</ins> <del>zu</del><ins>deaktiviert.</ins> <del>deaktivieren.</del><ins>Der</ins> <del>Standard:</del><ins>Standardwert ist</ins> 60 <del>Minuten.</del><ins>Minuten, wenn er nicht gesetzt ist.</ins>
-
-#### [`datlechin-link-preview.admin.settings.cache_time_label`](https://weblate.rob006.net/translate/flarum2/datlechin-link-preview/de@formal/?q=context%3A%3D%22datlechin-link-preview.admin.settings.cache_time_label%22)
-
-> Cache duration (minutes)
-
-```diff
--Speicherdauer im Cache (Minuten)
-+Dauer des Zwischenspeicherns
-```
-
-#### [`datlechin-link-preview.admin.settings.open_links_in_new_tab_help`](https://weblate.rob006.net/translate/flarum2/datlechin-link-preview/de@formal/?q=context%3A%3D%22datlechin-link-preview.admin.settings.open_links_in_new_tab_help%22)
-
-> Other sites only. A discussion here always opens in the same tab.
-
-```diff
--Alle Vorschau-Links standardmäßig in einem neuen Tab öffnen.
-+Wenn aktiviert, werden die Links in einem neuen Tab geöffnet.
-```
-
-<del>Alle</del><ins>Wenn</ins> <del>Vorschau-Links</del><ins>aktiviert,</ins> <del>standardmäßig</del><ins>werden die Links</ins> in einem neuen Tab <del>öffnen.</del><ins>geöffnet.</ins>
 
 #### [`datlechin-link-preview.admin.settings.open_links_in_new_tab_label`](https://weblate.rob006.net/translate/flarum2/datlechin-link-preview/de@formal/?q=context%3A%3D%22datlechin-link-preview.admin.settings.open_links_in_new_tab_label%22)
 

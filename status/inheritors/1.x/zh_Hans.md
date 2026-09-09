@@ -2,8 +2,8 @@
 
 Translations for Chinese (Simplified) (`zh_Hans`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **1891** are translated differently and **1638** are
-translated only in `zh_Hans`. Altogether they cover **133** components.
+sides, but do not match between them: **1901** are translated differently and **1827** are
+translated only in `zh_Hans`. Altogether they cover **138** components.
 
 <!-- {% raw %} -->
 
@@ -22,6 +22,7 @@ translated only in `zh_Hans`. Altogether they cover **133** components.
 | `datlechin-tag-passwords` | [21](#datlechin-tag-passwords) | 0 |
 | `ekumanov-inline-audio` | [1](#ekumanov-inline-audio) | [4](#ekumanov-inline-audio-missing) |
 | `ekumanov-new-posts-notice` | [1](#ekumanov-new-posts-notice) | [1](#ekumanov-new-posts-notice-missing) |
+| `ernestdefoe-aurora` | [1](#ernestdefoe-aurora) | [19](#ernestdefoe-aurora-missing) |
 | `flarum-akismet` | [3](#flarum-akismet) | 0 |
 | `flarum-approval` | [2](#flarum-approval) | 0 |
 | `flarum-audit` | [1](#flarum-audit) | [92](#flarum-audit-missing) |
@@ -123,8 +124,12 @@ translated only in `zh_Hans`. Altogether they cover **133** components.
 | `ianm-follow-users` | [13](#ianm-follow-users) | [5](#ianm-follow-users-missing) |
 | `ianm-log-viewer` | 0 | [6](#ianm-log-viewer-missing) |
 | `ianm-twofactor` | [1](#ianm-twofactor) | [14](#ianm-twofactor-missing) |
-| `justoverclock-related-discussions` | [6](#justoverclock-related-discussions) | 0 |
-| `justoverclock-welcomebox` | [1](#justoverclock-welcomebox) | 0 |
+| `justoverclock-related-discussions` | [8](#justoverclock-related-discussions) | 0 |
+| `justoverclock-welcomebox` | [8](#justoverclock-welcomebox) | 0 |
+| `linkrobins-badge-labels` | 0 | [34](#linkrobins-badge-labels-missing) |
+| `linkrobins-birdseye` | 0 | [68](#linkrobins-birdseye-missing) |
+| `linkrobins-discussion-banners` | 0 | [56](#linkrobins-discussion-banners-missing) |
+| `linkrobins-link-gate` | 0 | [12](#linkrobins-link-gate-missing) |
 | `migratetoflarum-fake-data` | [3](#migratetoflarum-fake-data) | 0 |
 | `pianotell-flamoji` | 0 | [82](#pianotell-flamoji-missing) |
 | `quasimo-llms-txt` | 0 | [18](#quasimo-llms-txt-missing) |
@@ -1931,6 +1936,20 @@ FTP <del>端口（默认</del><ins>端口（默认为</ins> 21）。
 <del>在你编辑的时候有一条新的回复。</del><ins>在您撰写期间新增了 1 条回复。</ins><br /><br /><del>OK</del><ins>确定</ins> → <del>仍然回复</del><ins>仍然发布回复</ins><br />取消 → <del>先读读它（你的草稿仍会保留）</del><ins>先查看新回复（草稿将被保留）</ins>
 
 
+### `ernestdefoe-aurora`
+
+#### [`ernestdefoe-aurora.admin.settings.gradient_start`](https://weblate.rob006.net/translate/flarum2/ernestdefoe-aurora/zh_Hans/?q=context%3A%3D%22ernestdefoe-aurora.admin.settings.gradient_start%22)
+
+> Primary gradient — start color
+
+```diff
+-主渐变 — 起始颜色
++主渐变色 — 起始颜色
+```
+
+<del>主渐变</del><ins>主渐变色</ins> — 起始颜色
+
+
 ### `flarum-akismet`
 
 #### [`flarum-akismet.admin.akismet_settings.api_key_label`](https://weblate.rob006.net/translate/flarum2/flarum-akismet/zh_Hans/?q=context%3A%3D%22flarum-akismet.admin.akismet_settings.api_key_label%22)
@@ -3366,7 +3385,7 @@ Flarum <del>已成功更新。</del><ins>更新成功。</ins>
 
 ```diff
 -我的主题帖被锁定
-+有人锁定了我的讨论
++有人锁定我的讨论
 ```
 
 
@@ -17654,6 +17673,15 @@ Flarum <del>回复</del><ins>帖子</ins>
 +在讨论页面底部显示相关讨论
 ```
 
+#### [`justoverclock-related-discussions.admin.relatedLimit-help`](https://weblate.rob006.net/translate/flarum2/justoverclock-related-discussions/zh_Hans/?q=context%3A%3D%22justoverclock-related-discussions.admin.relatedLimit-help%22)
+
+> write here the number of discussion that you want to see (e.g. "4")
+
+```diff
+-设置要显示的相关讨论帖条数
++填写要显示的相关讨论数量，例如「4」
+```
+
 #### [`justoverclock-related-discussions.admin.relatedTitle`](https://weblate.rob006.net/translate/flarum2/justoverclock-related-discussions/zh_Hans/?q=context%3A%3D%22justoverclock-related-discussions.admin.relatedTitle%22)
 
 > Title for "Related Discussions"
@@ -17669,7 +17697,16 @@ Flarum <del>回复</del><ins>帖子</ins>
 
 ```diff
 -自定义「相关主题」的标题
-+自定义「相关讨论」的标题
++自定义「相关讨论」标题
+```
+
+#### [`justoverclock-related-discussions.admin.showTooltip`](https://weblate.rob006.net/translate/flarum2/justoverclock-related-discussions/zh_Hans/?q=context%3A%3D%22justoverclock-related-discussions.admin.showTooltip%22)
+
+> Show Tooltip with Excerpt
+
+```diff
+-显示摘要提示框
++悬停时显示摘要
 ```
 
 #### [`justoverclock-related-discussions.forum.hasBestAnswer-title`](https://weblate.rob006.net/translate/flarum2/justoverclock-related-discussions/zh_Hans/?q=context%3A%3D%22justoverclock-related-discussions.forum.hasBestAnswer-title%22)
@@ -17678,7 +17715,7 @@ Flarum <del>回复</del><ins>帖子</ins>
 
 ```diff
 -此主题已被标记为已解决
-+此讨论已被标记为已解决
++此讨论已标记为已解决
 ```
 
 #### [`justoverclock-related-discussions.forum.postedOn`](https://weblate.rob006.net/translate/flarum2/justoverclock-related-discussions/zh_Hans/?q=context%3A%3D%22justoverclock-related-discussions.forum.postedOn%22)
@@ -17702,6 +17739,42 @@ Flarum <del>回复</del><ins>帖子</ins>
 
 ### `justoverclock-welcomebox`
 
+#### [`flarum-ext-welcomebox.admin.img`](https://weblate.rob006.net/translate/flarum2/justoverclock-welcomebox/zh_Hans/?q=context%3A%3D%22flarum-ext-welcomebox.admin.img%22)
+
+> Image url (Guest Box)
+
+```diff
+-图片链接（访客端）
++图片 URL（欢迎卡片）
+```
+
+#### [`flarum-ext-welcomebox.admin.img-help`](https://weblate.rob006.net/translate/flarum2/justoverclock-welcomebox/zh_Hans/?q=context%3A%3D%22flarum-ext-welcomebox.admin.img-help%22)
+
+> put here the url of image for guest box
+
+```diff
+-在此填写向访客展示的图片链接
++在此填写向访客展示的图片 URL
+```
+
+#### [`flarum-ext-welcomebox.forum.lastSeen`](https://weblate.rob006.net/translate/flarum2/justoverclock-welcomebox/zh_Hans/?q=context%3A%3D%22flarum-ext-welcomebox.forum.lastSeen%22)
+
+> Last Visit
+
+```diff
+-上次在线
++上次访问
+```
+
+#### [`flarum-ext-welcomebox.forum.notregistered`](https://weblate.rob006.net/translate/flarum2/justoverclock-welcomebox/zh_Hans/?q=context%3A%3D%22flarum-ext-welcomebox.forum.notregistered%22)
+
+> You are currently not registered to this forum.
+
+```diff
+-您好像还不是注册用户。
++你还不是注册用户。
+```
+
 #### [`flarum-ext-welcomebox.forum.tooltipDisclist`](https://weblate.rob006.net/translate/flarum2/justoverclock-welcomebox/zh_Hans/?q=context%3A%3D%22flarum-ext-welcomebox.forum.tooltipDisclist%22)
 
 > My Discussion List
@@ -17709,6 +17782,33 @@ Flarum <del>回复</del><ins>帖子</ins>
 ```diff
 -我的主题
 +我的讨论
+```
+
+#### [`flarum-ext-welcomebox.forum.tooltipMentions`](https://weblate.rob006.net/translate/flarum2/justoverclock-welcomebox/zh_Hans/?q=context%3A%3D%22flarum-ext-welcomebox.forum.tooltipMentions%22)
+
+> Mentions
+
+```diff
+-被提及
++提及
+```
+
+#### [`flarum-ext-welcomebox.forum.wback`](https://weblate.rob006.net/translate/flarum2/justoverclock-welcomebox/zh_Hans/?q=context%3A%3D%22flarum-ext-welcomebox.forum.wback%22)
+
+> Welcome back,
+
+```diff
+-欢迎回来
++欢迎回来，
+```
+
+#### [`flarum-ext-welcomebox.forum.welcomeguest`](https://weblate.rob006.net/translate/flarum2/justoverclock-welcomebox/zh_Hans/?q=context%3A%3D%22flarum-ext-welcomebox.forum.welcomeguest%22)
+
+> Welcome Guest
+
+```diff
+-欢迎光临
++欢迎访问
 ```
 
 
@@ -18777,6 +18877,161 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 +
 +确定 → 仍然发布回复
 +取消 → 先查看新回复（草稿将被保留）
+```
+
+
+### `ernestdefoe-aurora` (missing)
+
+#### [`ernestdefoe-aurora.admin.settings.accent_color`](https://weblate.rob006.net/translate/flarum2/ernestdefoe-aurora/zh_Hans/?q=context%3A%3D%22ernestdefoe-aurora.admin.settings.accent_color%22)
+
+> Accent color
+
+```diff
++强调色
+```
+
+#### [`ernestdefoe-aurora.admin.settings.animate_background`](https://weblate.rob006.net/translate/flarum2/ernestdefoe-aurora/zh_Hans/?q=context%3A%3D%22ernestdefoe-aurora.admin.settings.animate_background%22)
+
+> Animate aurora background
+
+```diff
++启用极光背景动画
+```
+
+#### [`ernestdefoe-aurora.admin.settings.glassmorphism`](https://weblate.rob006.net/translate/flarum2/ernestdefoe-aurora/zh_Hans/?q=context%3A%3D%22ernestdefoe-aurora.admin.settings.glassmorphism%22)
+
+> Enable glassmorphism (frosted panels)
+
+```diff
++启用玻璃拟态效果（毛玻璃面板）
+```
+
+#### [`ernestdefoe-aurora.admin.settings.glow`](https://weblate.rob006.net/translate/flarum2/ernestdefoe-aurora/zh_Hans/?q=context%3A%3D%22ernestdefoe-aurora.admin.settings.glow%22)
+
+> Enable glow effects
+
+```diff
++启用发光效果
+```
+
+#### [`ernestdefoe-aurora.admin.settings.gradient_end`](https://weblate.rob006.net/translate/flarum2/ernestdefoe-aurora/zh_Hans/?q=context%3A%3D%22ernestdefoe-aurora.admin.settings.gradient_end%22)
+
+> Primary gradient — end color
+
+```diff
++主渐变色 — 结束颜色
+```
+
+#### [`ernestdefoe-aurora.forum.palette.apply`](https://weblate.rob006.net/translate/flarum2/ernestdefoe-aurora/zh_Hans/?q=context%3A%3D%22ernestdefoe-aurora.forum.palette.apply%22)
+
+> Apply {palette} palette
+
+```diff
++应用「{palette}」配色方案
+```
+
+#### [`ernestdefoe-aurora.forum.palette.aurora`](https://weblate.rob006.net/translate/flarum2/ernestdefoe-aurora/zh_Hans/?q=context%3A%3D%22ernestdefoe-aurora.forum.palette.aurora%22)
+
+> Aurora
+
+```diff
++极光
+```
+
+#### [`ernestdefoe-aurora.forum.palette.button_label`](https://weblate.rob006.net/translate/flarum2/ernestdefoe-aurora/zh_Hans/?q=context%3A%3D%22ernestdefoe-aurora.forum.palette.button_label%22)
+
+> Choose color palette
+
+```diff
++选择配色方案
+```
+
+#### [`ernestdefoe-aurora.forum.palette.ember`](https://weblate.rob006.net/translate/flarum2/ernestdefoe-aurora/zh_Hans/?q=context%3A%3D%22ernestdefoe-aurora.forum.palette.ember%22)
+
+> Ember
+
+```diff
++余烬
+```
+
+#### [`ernestdefoe-aurora.forum.palette.forest`](https://weblate.rob006.net/translate/flarum2/ernestdefoe-aurora/zh_Hans/?q=context%3A%3D%22ernestdefoe-aurora.forum.palette.forest%22)
+
+> Forest
+
+```diff
++森林
+```
+
+#### [`ernestdefoe-aurora.forum.palette.nebula`](https://weblate.rob006.net/translate/flarum2/ernestdefoe-aurora/zh_Hans/?q=context%3A%3D%22ernestdefoe-aurora.forum.palette.nebula%22)
+
+> Nebula
+
+```diff
++星云
+```
+
+#### [`ernestdefoe-aurora.forum.palette.ocean`](https://weblate.rob006.net/translate/flarum2/ernestdefoe-aurora/zh_Hans/?q=context%3A%3D%22ernestdefoe-aurora.forum.palette.ocean%22)
+
+> Ocean
+
+```diff
++海洋
+```
+
+#### [`ernestdefoe-aurora.forum.palette.palette`](https://weblate.rob006.net/translate/flarum2/ernestdefoe-aurora/zh_Hans/?q=context%3A%3D%22ernestdefoe-aurora.forum.palette.palette%22)
+
+> Palette
+
+```diff
++配色方案
+```
+
+#### [`ernestdefoe-aurora.forum.palette.sunset`](https://weblate.rob006.net/translate/flarum2/ernestdefoe-aurora/zh_Hans/?q=context%3A%3D%22ernestdefoe-aurora.forum.palette.sunset%22)
+
+> Sunset
+
+```diff
++日落
+```
+
+#### [`ernestdefoe-aurora.forum.palette.title`](https://weblate.rob006.net/translate/flarum2/ernestdefoe-aurora/zh_Hans/?q=context%3A%3D%22ernestdefoe-aurora.forum.palette.title%22)
+
+> Color palette
+
+```diff
++配色方案
+```
+
+#### [`ernestdefoe-aurora.forum.widgets.discussions`](https://weblate.rob006.net/translate/flarum2/ernestdefoe-aurora/zh_Hans/?q=context%3A%3D%22ernestdefoe-aurora.forum.widgets.discussions%22)
+
+> Discussions
+
+```diff
++讨论
+```
+
+#### [`ernestdefoe-aurora.forum.widgets.members`](https://weblate.rob006.net/translate/flarum2/ernestdefoe-aurora/zh_Hans/?q=context%3A%3D%22ernestdefoe-aurora.forum.widgets.members%22)
+
+> Members
+
+```diff
++成员
+```
+
+#### [`ernestdefoe-aurora.forum.widgets.online`](https://weblate.rob006.net/translate/flarum2/ernestdefoe-aurora/zh_Hans/?q=context%3A%3D%22ernestdefoe-aurora.forum.widgets.online%22)
+
+> Online now
+
+```diff
++当前在线
+```
+
+#### [`ernestdefoe-aurora.forum.widgets.posts`](https://weblate.rob006.net/translate/flarum2/ernestdefoe-aurora/zh_Hans/?q=context%3A%3D%22ernestdefoe-aurora.forum.widgets.posts%22)
+
+> Posts
+
+```diff
++帖子
 ```
 
 
@@ -25953,6 +26208,1378 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 
 ```diff
 +请输入新设备中的验证码以完成更换。
+```
+
+
+### `linkrobins-badge-labels` (missing)
+
+#### [`linkrobins-badge-labels.admin.settings.arrangement_centered`](https://weblate.rob006.net/translate/flarum2/linkrobins-badge-labels/zh_Hans/?q=context%3A%3D%22linkrobins-badge-labels.admin.settings.arrangement_centered%22)
+
+> One per row, centered
+
+```diff
++每行一个，居中显示
+```
+
+#### [`linkrobins-badge-labels.admin.settings.arrangement_grid`](https://weblate.rob006.net/translate/flarum2/linkrobins-badge-labels/zh_Hans/?q=context%3A%3D%22linkrobins-badge-labels.admin.settings.arrangement_grid%22)
+
+> Centered, icons sharing rows
+
+```diff
++居中排列，纯图标可同行
+```
+
+#### [`linkrobins-badge-labels.admin.settings.arrangement_help`](https://weblate.rob006.net/translate/flarum2/linkrobins-badge-labels/zh_Hans/?q=context%3A%3D%22linkrobins-badge-labels.admin.settings.arrangement_help%22)
+
+> How the badges under the avatar are arranged. Only used when something sits below the avatar. Rows is how they have always been laid out. The grid lets badges with no title share a row, so a column of icons reads as a block under the avatar instead of a long thin line.
+
+```diff
++设置头像下方徽章的排列方式，仅在有内容显示于头像下方时生效。默认每个徽章单独占一行。网格布局允许不显示名称的徽章共享一行，使多个图标排列得更加紧凑。
+```
+
+#### [`linkrobins-badge-labels.admin.settings.arrangement_label`](https://weblate.rob006.net/translate/flarum2/linkrobins-badge-labels/zh_Hans/?q=context%3A%3D%22linkrobins-badge-labels.admin.settings.arrangement_label%22)
+
+> Badge arrangement
+
+```diff
++徽章排列方式
+```
+
+#### [`linkrobins-badge-labels.admin.settings.arrangement_rows`](https://weblate.rob006.net/translate/flarum2/linkrobins-badge-labels/zh_Hans/?q=context%3A%3D%22linkrobins-badge-labels.admin.settings.arrangement_rows%22)
+
+> One per row
+
+```diff
++每行一个
+```
+
+#### [`linkrobins-badge-labels.admin.settings.avatar_gap_help`](https://weblate.rob006.net/translate/flarum2/linkrobins-badge-labels/zh_Hans/?q=context%3A%3D%22linkrobins-badge-labels.admin.settings.avatar_gap_help%22)
+
+> The space between the avatar and the first badge under it. Only used when something sits below the avatar. Between 0 and 60.
+
+```diff
++设置头像与下方第一个徽章之间的间距。仅在有内容显示于头像下方时生效，可设置为 0 至 60。
+```
+
+#### [`linkrobins-badge-labels.admin.settings.avatar_gap_label`](https://weblate.rob006.net/translate/flarum2/linkrobins-badge-labels/zh_Hans/?q=context%3A%3D%22linkrobins-badge-labels.admin.settings.avatar_gap_label%22)
+
+> Gap below the avatar (pixels)
+
+```diff
++头像下方间距（像素）
+```
+
+#### [`linkrobins-badge-labels.admin.settings.column_width_help`](https://weblate.rob006.net/translate/flarum2/linkrobins-badge-labels/zh_Hans/?q=context%3A%3D%22linkrobins-badge-labels.admin.settings.column_width_help%22)
+
+> How much room the badges and titles get beside the post. Only used when something sits below the avatar. Between 85 and 400.
+
+```diff
++设置帖子作者栏为徽章及其名称预留的宽度。仅在有内容显示于头像下方时生效，可设置为 85 至 400。
+```
+
+#### [`linkrobins-badge-labels.admin.settings.column_width_label`](https://weblate.rob006.net/translate/flarum2/linkrobins-badge-labels/zh_Hans/?q=context%3A%3D%22linkrobins-badge-labels.admin.settings.column_width_label%22)
+
+> Author column width (pixels)
+
+```diff
++作者栏宽度（像素）
+```
+
+#### [`linkrobins-badge-labels.admin.settings.discussion_badges_help`](https://weblate.rob006.net/translate/flarum2/linkrobins-badge-labels/zh_Hans/?q=context%3A%3D%22linkrobins-badge-labels.admin.settings.discussion_badges_help%22)
+
+> A discussion's own badges, such as sticky and locked, normally sit in a narrow strip over its avatar in the discussion list, where they overlap it and have no room for names. This moves them down to the line under the title instead. Whether they are named there follows the badge titles setting above, so you can move them and still keep them as plain icons.
+
+```diff
++置顶、锁定等讨论自身的徽章通常显示在讨论列表头像上方的狭窄区域，容易与头像重叠，也没有足够空间显示名称。开启后，这些徽章会移到讨论标题下方。是否显示徽章名称仍遵循上方的「显示徽章完整名称」设置。
+```
+
+#### [`linkrobins-badge-labels.admin.settings.discussion_badges_label`](https://weblate.rob006.net/translate/flarum2/linkrobins-badge-labels/zh_Hans/?q=context%3A%3D%22linkrobins-badge-labels.admin.settings.discussion_badges_label%22)
+
+> Move discussion badges under the title
+
+```diff
++将讨论徽章移到标题下方
+```
+
+#### [`linkrobins-badge-labels.admin.settings.header_position_after`](https://weblate.rob006.net/translate/flarum2/linkrobins-badge-labels/zh_Hans/?q=context%3A%3D%22linkrobins-badge-labels.admin.settings.header_position_after%22)
+
+> After the time
+
+```diff
++时间之后
+```
+
+#### [`linkrobins-badge-labels.admin.settings.header_position_before`](https://weblate.rob006.net/translate/flarum2/linkrobins-badge-labels/zh_Hans/?q=context%3A%3D%22linkrobins-badge-labels.admin.settings.header_position_before%22)
+
+> Before the time, next to the username
+
+```diff
++时间之前，紧邻用户名
+```
+
+#### [`linkrobins-badge-labels.admin.settings.header_position_help`](https://weblate.rob006.net/translate/flarum2/linkrobins-badge-labels/zh_Hans/?q=context%3A%3D%22linkrobins-badge-labels.admin.settings.header_position_help%22)
+
+> Which side of the post's time the badges sit on, when they are on the post header line. Only used when something is on that line. After the time is where they have always been. Before it puts them straight after the username, which is where other extensions tend to put theirs, though a forum with long badge names has less room for them there.
+
+```diff
++当徽章显示在帖子标题栏时，设置徽章位于发布时间的哪一侧。「时间之后」是默认位置；「时间之前」会将徽章放在用户名后方，与其他扩展常用的位置一致，但徽章名称较长时可用空间会更少。
+```
+
+#### [`linkrobins-badge-labels.admin.settings.header_position_label`](https://weblate.rob006.net/translate/flarum2/linkrobins-badge-labels/zh_Hans/?q=context%3A%3D%22linkrobins-badge-labels.admin.settings.header_position_label%22)
+
+> Badge position on the header line
+
+```diff
++标题栏徽章位置
+```
+
+#### [`linkrobins-badge-labels.admin.settings.labels_all`](https://weblate.rob006.net/translate/flarum2/linkrobins-badge-labels/zh_Hans/?q=context%3A%3D%22linkrobins-badge-labels.admin.settings.labels_all%22)
+
+> On every badge
+
+```diff
++所有徽章
+```
+
+#### [`linkrobins-badge-labels.admin.settings.labels_first`](https://weblate.rob006.net/translate/flarum2/linkrobins-badge-labels/zh_Hans/?q=context%3A%3D%22linkrobins-badge-labels.admin.settings.labels_first%22)
+
+> On the first badge only
+
+```diff
++仅首个徽章
+```
+
+#### [`linkrobins-badge-labels.admin.settings.labels_help`](https://weblate.rob006.net/translate/flarum2/linkrobins-badge-labels/zh_Hans/?q=context%3A%3D%22linkrobins-badge-labels.admin.settings.labels_help%22)
+
+> Show each badge's name next to its icon instead of the icon on its own. Only the first badge is a user's main one, so this can spell that one out and leave the rest as icons.
+
+```diff
++在徽章图标旁显示徽章名称，而不是仅显示图标。由于首个徽章是用户的主徽章，你也可以只显示首个徽章的名称，其余徽章仍仅显示图标。
+```
+
+#### [`linkrobins-badge-labels.admin.settings.labels_label`](https://weblate.rob006.net/translate/flarum2/linkrobins-badge-labels/zh_Hans/?q=context%3A%3D%22linkrobins-badge-labels.admin.settings.labels_label%22)
+
+> Show full badge titles
+
+```diff
++显示徽章完整名称
+```
+
+#### [`linkrobins-badge-labels.admin.settings.labels_none`](https://weblate.rob006.net/translate/flarum2/linkrobins-badge-labels/zh_Hans/?q=context%3A%3D%22linkrobins-badge-labels.admin.settings.labels_none%22)
+
+> Off: icons only
+
+```diff
++不显示名称，仅图标
+```
+
+#### [`linkrobins-badge-labels.admin.settings.layout_below`](https://weblate.rob006.net/translate/flarum2/linkrobins-badge-labels/zh_Hans/?q=context%3A%3D%22linkrobins-badge-labels.admin.settings.layout_below%22)
+
+> Below the avatar
+
+```diff
++头像下方
+```
+
+#### [`linkrobins-badge-labels.admin.settings.layout_beside`](https://weblate.rob006.net/translate/flarum2/linkrobins-badge-labels/zh_Hans/?q=context%3A%3D%22linkrobins-badge-labels.admin.settings.layout_beside%22)
+
+> Beside the username
+
+```diff
++用户名旁
+```
+
+#### [`linkrobins-badge-labels.admin.settings.layout_help`](https://weblate.rob006.net/translate/flarum2/linkrobins-badge-labels/zh_Hans/?q=context%3A%3D%22linkrobins-badge-labels.admin.settings.layout_help%22)
+
+> Where a post author's badges appear. Below the avatar gives each badge its own row in a widened author column. Beside the username keeps the author column as it is and puts the badges on the post header line.
+
+```diff
++设置帖子作者的徽章显示位置。选择「头像下方」时，每个徽章会在加宽的作者栏中单独占一行；选择「用户名旁」时，作者栏保持原样，徽章显示在帖子标题栏中。
+```
+
+#### [`linkrobins-badge-labels.admin.settings.layout_label`](https://weblate.rob006.net/translate/flarum2/linkrobins-badge-labels/zh_Hans/?q=context%3A%3D%22linkrobins-badge-labels.admin.settings.layout_label%22)
+
+> Badge placement
+
+```diff
++徽章位置
+```
+
+#### [`linkrobins-badge-labels.admin.settings.phone_help`](https://weblate.rob006.net/translate/flarum2/linkrobins-badge-labels/zh_Hans/?q=context%3A%3D%22linkrobins-badge-labels.admin.settings.phone_help%22)
+
+> Off by default, because phones show a compact post header where Flarum tucks the badges over the avatar. Turn this on to show titles and the post count there as well.
+
+```diff
++默认关闭，因为移动端使用紧凑的帖子标题栏，Flarum 会将徽章叠放在头像附近。开启后，移动端也会显示徽章名称和帖子数。
+```
+
+#### [`linkrobins-badge-labels.admin.settings.phone_label`](https://weblate.rob006.net/translate/flarum2/linkrobins-badge-labels/zh_Hans/?q=context%3A%3D%22linkrobins-badge-labels.admin.settings.phone_label%22)
+
+> Apply on phones too
+
+```diff
++同时应用于移动端
+```
+
+#### [`linkrobins-badge-labels.admin.settings.post_count_help`](https://weblate.rob006.net/translate/flarum2/linkrobins-badge-labels/zh_Hans/?q=context%3A%3D%22linkrobins-badge-labels.admin.settings.post_count_help%22)
+
+> Adds the number of posts the author has written, as a pill of its own.
+
+```diff
++以独立标签显示作者发布的帖子数量。
+```
+
+#### [`linkrobins-badge-labels.admin.settings.post_count_label`](https://weblate.rob006.net/translate/flarum2/linkrobins-badge-labels/zh_Hans/?q=context%3A%3D%22linkrobins-badge-labels.admin.settings.post_count_label%22)
+
+> Show the author's post count
+
+```diff
++显示作者帖子数
+```
+
+#### [`linkrobins-badge-labels.admin.settings.post_count_placement_badges`](https://weblate.rob006.net/translate/flarum2/linkrobins-badge-labels/zh_Hans/?q=context%3A%3D%22linkrobins-badge-labels.admin.settings.post_count_placement_badges%22)
+
+> With the badges
+
+```diff
++跟随徽章
+```
+
+#### [`linkrobins-badge-labels.admin.settings.post_count_placement_below`](https://weblate.rob006.net/translate/flarum2/linkrobins-badge-labels/zh_Hans/?q=context%3A%3D%22linkrobins-badge-labels.admin.settings.post_count_placement_below%22)
+
+> Below the avatar
+
+```diff
++头像下方
+```
+
+#### [`linkrobins-badge-labels.admin.settings.post_count_placement_beside`](https://weblate.rob006.net/translate/flarum2/linkrobins-badge-labels/zh_Hans/?q=context%3A%3D%22linkrobins-badge-labels.admin.settings.post_count_placement_beside%22)
+
+> Beside the username
+
+```diff
++用户名旁
+```
+
+#### [`linkrobins-badge-labels.admin.settings.post_count_placement_help`](https://weblate.rob006.net/translate/flarum2/linkrobins-badge-labels/zh_Hans/?q=context%3A%3D%22linkrobins-badge-labels.admin.settings.post_count_placement_help%22)
+
+> Where that pill goes. It can follow the badges wherever they are, or sit in the other place, so the count can be under the avatar while the badges stay on the header line.
+
+```diff
++设置帖子数标签的显示位置。可以让它跟随徽章显示，也可以单独放到其他位置，例如徽章显示在标题栏，而帖子数显示在头像下方。
+```
+
+#### [`linkrobins-badge-labels.admin.settings.post_count_placement_label`](https://weblate.rob006.net/translate/flarum2/linkrobins-badge-labels/zh_Hans/?q=context%3A%3D%22linkrobins-badge-labels.admin.settings.post_count_placement_label%22)
+
+> Post count placement
+
+```diff
++帖子数位置
+```
+
+#### [`linkrobins-badge-labels.forum.post_count`](https://weblate.rob006.net/translate/flarum2/linkrobins-badge-labels/zh_Hans/?q=context%3A%3D%22linkrobins-badge-labels.forum.post_count%22)
+
+> {count, plural, one {# post} other {# posts}}
+
+```diff
++{count, plural, other {# 篇帖子}}
+```
+
+
+### `linkrobins-birdseye` (missing)
+
+#### [`linkrobins-birdseye.admin.permissions.view_stats_label`](https://weblate.rob006.net/translate/flarum2/linkrobins-birdseye/zh_Hans/?q=context%3A%3D%22linkrobins-birdseye.admin.permissions.view_stats_label%22)
+
+> View forum analytics
+
+```diff
++查看论坛分析数据
+```
+
+#### [`linkrobins-birdseye.admin.settings.collect_help`](https://weblate.rob006.net/translate/flarum2/linkrobins-birdseye/zh_Hans/?q=context%3A%3D%22linkrobins-birdseye.admin.settings.collect_help%22)
+
+> Pause collection without disabling the extension. Existing stats keep rendering.
+
+```diff
++无需禁用扩展即可暂停收集数据，已有统计数据仍会正常显示。
+```
+
+#### [`linkrobins-birdseye.admin.settings.collect_label`](https://weblate.rob006.net/translate/flarum2/linkrobins-birdseye/zh_Hans/?q=context%3A%3D%22linkrobins-birdseye.admin.settings.collect_label%22)
+
+> Collect analytics
+
+```diff
++收集分析数据
+```
+
+#### [`linkrobins-birdseye.admin.settings.country_header_help`](https://weblate.rob006.net/translate/flarum2/linkrobins-birdseye/zh_Hans/?q=context%3A%3D%22linkrobins-birdseye.admin.settings.country_header_help%22)
+
+> The proxy header carrying each visitor's two-letter country code — CF-IPCountry on Cloudflare, or e.g. X-Country from nginx-geoip. It is trusted as-is, so only set a header your proxy really sets; leave it empty if you have no such proxy and rely on the anonymized IP prefix instead.
+
+```diff
++填写代理用于传递访客两位国家或地区代码的请求头，例如 Cloudflare 的 CF-IPCountry，或 nginx-geoip 使用的 X-Country。系统会直接信任该请求头的值，因此仅应填写确实由你的代理设置的请求头；如果你的代理不会设置这类请求头，请留空，并改用匿名化 IP 前缀识别国家或地区。
+```
+
+#### [`linkrobins-birdseye.admin.settings.country_header_label`](https://weblate.rob006.net/translate/flarum2/linkrobins-birdseye/zh_Hans/?q=context%3A%3D%22linkrobins-birdseye.admin.settings.country_header_label%22)
+
+> Trusted country header
+
+```diff
++受信任的国家或地区请求头
+```
+
+#### [`linkrobins-birdseye.admin.settings.geo_ip_prefix_label`](https://weblate.rob006.net/translate/flarum2/linkrobins-birdseye/zh_Hans/?q=context%3A%3D%22linkrobins-birdseye.admin.settings.geo_ip_prefix_label%22)
+
+> Country lookup via anonymized IP prefix
+
+```diff
++通过匿名化 IP 前缀识别国家或地区
+```
+
+#### [`linkrobins-birdseye.admin.settings.geoip_db_path_help`](https://weblate.rob006.net/translate/flarum2/linkrobins-birdseye/zh_Hans/?q=context%3A%3D%22linkrobins-birdseye.admin.settings.geoip_db_path_help%22)
+
+> Full path on this server to a MaxMind country database, such as the free GeoLite2-Country.mmdb (download it from maxmind.com under your own account). Used only when no trusted proxy header supplies the country; every lookup happens on this server.
+
+```diff
++填写此服务器上的 MaxMind 数据库完整路径，例如免费的 GeoLite2-Country.mmdb（需使用你自己的账号从 maxmind.com 下载）。仅在受信任的代理请求头未提供国家或地区信息时使用，所有查询都会在本服务器完成。
+```
+
+#### [`linkrobins-birdseye.admin.settings.geoip_db_path_label`](https://weblate.rob006.net/translate/flarum2/linkrobins-birdseye/zh_Hans/?q=context%3A%3D%22linkrobins-birdseye.admin.settings.geoip_db_path_label%22)
+
+> Country database file (optional)
+
+```diff
++国家或地区数据库文件（可选）
+```
+
+#### [`linkrobins-birdseye.admin.settings.weekly_digest_help`](https://weblate.rob006.net/translate/flarum2/linkrobins-birdseye/zh_Hans/?q=context%3A%3D%22linkrobins-birdseye.admin.settings.weekly_digest_help%22)
+
+> Every Monday, email administrators a summary of last week — visitors, pageviews, posts, signups, top discussion, and top search. Sent by your forum's own mailer; nothing leaves the server.
+
+```diff
++每周一向管理员发送上周摘要，包括访客、浏览量、帖子、注册、热门讨论和热门搜索。邮件通过论坛自身的邮件系统发送，分析数据不会发送给第三方服务。
+```
+
+#### [`linkrobins-birdseye.admin.settings.weekly_digest_label`](https://weblate.rob006.net/translate/flarum2/linkrobins-birdseye/zh_Hans/?q=context%3A%3D%22linkrobins-birdseye.admin.settings.weekly_digest_label%22)
+
+> Weekly email digest
+
+```diff
++每周邮件摘要
+```
+
+#### [`linkrobins-birdseye.email.digest.footer`](https://weblate.rob006.net/translate/flarum2/linkrobins-birdseye/zh_Hans/?q=context%3A%3D%22linkrobins-birdseye.email.digest.footer%22)
+
+> — Link Robins Birdseye. Turn this digest off any time under Admin → Birdseye.
+
+```diff
++— Link Robins Birdseye。你可以随时前往「管理后台 → Birdseye」关闭此摘要。
+```
+
+#### [`linkrobins-birdseye.email.digest.heading`](https://weblate.rob006.net/translate/flarum2/linkrobins-birdseye/zh_Hans/?q=context%3A%3D%22linkrobins-birdseye.email.digest.heading%22)
+
+> {forum} — week of {start}–{end}
+
+```diff
++{forum} — {start} 至 {end}
+```
+
+#### [`linkrobins-birdseye.email.digest.pageviews_line`](https://weblate.rob006.net/translate/flarum2/linkrobins-birdseye/zh_Hans/?q=context%3A%3D%22linkrobins-birdseye.email.digest.pageviews_line%22)
+
+> Pageviews: {count} ({change})
+
+```diff
++浏览量：{count}（{change}）
+```
+
+#### [`linkrobins-birdseye.email.digest.posts_line`](https://weblate.rob006.net/translate/flarum2/linkrobins-birdseye/zh_Hans/?q=context%3A%3D%22linkrobins-birdseye.email.digest.posts_line%22)
+
+> Posts: {count} ({change})
+
+```diff
++帖子：{count}（{change}）
+```
+
+#### [`linkrobins-birdseye.email.digest.registrations_line`](https://weblate.rob006.net/translate/flarum2/linkrobins-birdseye/zh_Hans/?q=context%3A%3D%22linkrobins-birdseye.email.digest.registrations_line%22)
+
+> Signups: {count} ({change})
+
+```diff
++注册：{count}（{change}）
+```
+
+#### [`linkrobins-birdseye.email.digest.subject`](https://weblate.rob006.net/translate/flarum2/linkrobins-birdseye/zh_Hans/?q=context%3A%3D%22linkrobins-birdseye.email.digest.subject%22)
+
+> {forum} last week: {visitors} visitors
+
+```diff
++{forum} 上周数据：{visitors} 位访客
+```
+
+#### [`linkrobins-birdseye.email.digest.top_discussion_line`](https://weblate.rob006.net/translate/flarum2/linkrobins-birdseye/zh_Hans/?q=context%3A%3D%22linkrobins-birdseye.email.digest.top_discussion_line%22)
+
+> Top discussion: "{title}" ({views} views)
+
+```diff
++热门讨论：「{title}」（{views} 次浏览）
+```
+
+#### [`linkrobins-birdseye.email.digest.top_search_line`](https://weblate.rob006.net/translate/flarum2/linkrobins-birdseye/zh_Hans/?q=context%3A%3D%22linkrobins-birdseye.email.digest.top_search_line%22)
+
+> Top search: "{query}" ({count} searches)
+
+```diff
++热门搜索：「{query}」（{count} 次搜索）
+```
+
+#### [`linkrobins-birdseye.email.digest.visitors_line`](https://weblate.rob006.net/translate/flarum2/linkrobins-birdseye/zh_Hans/?q=context%3A%3D%22linkrobins-birdseye.email.digest.visitors_line%22)
+
+> Visitors: {count} ({change})
+
+```diff
++访客：{count}（{change}）
+```
+
+#### [`linkrobins-birdseye.forum.session_menu.analytics_button`](https://weblate.rob006.net/translate/flarum2/linkrobins-birdseye/zh_Hans/?q=context%3A%3D%22linkrobins-birdseye.forum.session_menu.analytics_button%22)
+
+> Analytics
+
+```diff
++分析
+```
+
+#### [`linkrobins-birdseye.lib.dashboard.avg_visit`](https://weblate.rob006.net/translate/flarum2/linkrobins-birdseye/zh_Hans/?q=context%3A%3D%22linkrobins-birdseye.lib.dashboard.avg_visit%22)
+
+> Avg. visit
+
+```diff
++平均访问时长
+```
+
+#### [`linkrobins-birdseye.lib.dashboard.bounce_rate`](https://weblate.rob006.net/translate/flarum2/linkrobins-birdseye/zh_Hans/?q=context%3A%3D%22linkrobins-birdseye.lib.dashboard.bounce_rate%22)
+
+> Bounce rate
+
+```diff
++跳出率
+```
+
+#### [`linkrobins-birdseye.lib.dashboard.col_label`](https://weblate.rob006.net/translate/flarum2/linkrobins-birdseye/zh_Hans/?q=context%3A%3D%22linkrobins-birdseye.lib.dashboard.col_label%22)
+
+> Label
+
+```diff
++名称
+```
+
+#### [`linkrobins-birdseye.lib.dashboard.col_members`](https://weblate.rob006.net/translate/flarum2/linkrobins-birdseye/zh_Hans/?q=context%3A%3D%22linkrobins-birdseye.lib.dashboard.col_members%22)
+
+> New members
+
+```diff
++新成员
+```
+
+#### [`linkrobins-birdseye.lib.dashboard.col_searches`](https://weblate.rob006.net/translate/flarum2/linkrobins-birdseye/zh_Hans/?q=context%3A%3D%22linkrobins-birdseye.lib.dashboard.col_searches%22)
+
+> Searches
+
+```diff
++搜索次数
+```
+
+#### [`linkrobins-birdseye.lib.dashboard.col_section`](https://weblate.rob006.net/translate/flarum2/linkrobins-birdseye/zh_Hans/?q=context%3A%3D%22linkrobins-birdseye.lib.dashboard.col_section%22)
+
+> Section
+
+```diff
++分类
+```
+
+#### [`linkrobins-birdseye.lib.dashboard.col_value`](https://weblate.rob006.net/translate/flarum2/linkrobins-birdseye/zh_Hans/?q=context%3A%3D%22linkrobins-birdseye.lib.dashboard.col_value%22)
+
+> Value
+
+```diff
++数值
+```
+
+#### [`linkrobins-birdseye.lib.dashboard.col_views`](https://weblate.rob006.net/translate/flarum2/linkrobins-birdseye/zh_Hans/?q=context%3A%3D%22linkrobins-birdseye.lib.dashboard.col_views%22)
+
+> Views
+
+```diff
++浏览量
+```
+
+#### [`linkrobins-birdseye.lib.dashboard.col_visitors`](https://weblate.rob006.net/translate/flarum2/linkrobins-birdseye/zh_Hans/?q=context%3A%3D%22linkrobins-birdseye.lib.dashboard.col_visitors%22)
+
+> Visitors
+
+```diff
++访客
+```
+
+#### [`linkrobins-birdseye.lib.dashboard.countries`](https://weblate.rob006.net/translate/flarum2/linkrobins-birdseye/zh_Hans/?q=context%3A%3D%22linkrobins-birdseye.lib.dashboard.countries%22)
+
+> Countries
+
+```diff
++国家和地区
+```
+
+#### [`linkrobins-birdseye.lib.dashboard.devices`](https://weblate.rob006.net/translate/flarum2/linkrobins-birdseye/zh_Hans/?q=context%3A%3D%22linkrobins-birdseye.lib.dashboard.devices%22)
+
+> Devices
+
+```diff
++设备
+```
+
+#### [`linkrobins-birdseye.lib.dashboard.direct`](https://weblate.rob006.net/translate/flarum2/linkrobins-birdseye/zh_Hans/?q=context%3A%3D%22linkrobins-birdseye.lib.dashboard.direct%22)
+
+> Direct / unknown
+
+```diff
++直接访问 / 未知
+```
+
+#### [`linkrobins-birdseye.lib.dashboard.export`](https://weblate.rob006.net/translate/flarum2/linkrobins-birdseye/zh_Hans/?q=context%3A%3D%22linkrobins-birdseye.lib.dashboard.export%22)
+
+> Export as CSV
+
+```diff
++导出为 CSV
+```
+
+#### [`linkrobins-birdseye.lib.dashboard.export_all`](https://weblate.rob006.net/translate/flarum2/linkrobins-birdseye/zh_Hans/?q=context%3A%3D%22linkrobins-birdseye.lib.dashboard.export_all%22)
+
+> Export CSV
+
+```diff
++导出 CSV
+```
+
+#### [`linkrobins-birdseye.lib.dashboard.map_collapse`](https://weblate.rob006.net/translate/flarum2/linkrobins-birdseye/zh_Hans/?q=context%3A%3D%22linkrobins-birdseye.lib.dashboard.map_collapse%22)
+
+> Exit full screen
+
+```diff
++退出全屏
+```
+
+#### [`linkrobins-birdseye.lib.dashboard.map_expand`](https://weblate.rob006.net/translate/flarum2/linkrobins-birdseye/zh_Hans/?q=context%3A%3D%22linkrobins-birdseye.lib.dashboard.map_expand%22)
+
+> Full screen
+
+```diff
++全屏显示
+```
+
+#### [`linkrobins-birdseye.lib.dashboard.members_word`](https://weblate.rob006.net/translate/flarum2/linkrobins-birdseye/zh_Hans/?q=context%3A%3D%22linkrobins-birdseye.lib.dashboard.members_word%22)
+
+> members
+
+```diff
++成员
+```
+
+#### [`linkrobins-birdseye.lib.dashboard.new_members`](https://weblate.rob006.net/translate/flarum2/linkrobins-birdseye/zh_Hans/?q=context%3A%3D%22linkrobins-birdseye.lib.dashboard.new_members%22)
+
+> New members
+
+```diff
++新成员
+```
+
+#### [`linkrobins-birdseye.lib.dashboard.no_data`](https://weblate.rob006.net/translate/flarum2/linkrobins-birdseye/zh_Hans/?q=context%3A%3D%22linkrobins-birdseye.lib.dashboard.no_data%22)
+
+> No data yet.
+
+```diff
++暂无数据。
+```
+
+#### [`linkrobins-birdseye.lib.dashboard.no_visitors`](https://weblate.rob006.net/translate/flarum2/linkrobins-birdseye/zh_Hans/?q=context%3A%3D%22linkrobins-birdseye.lib.dashboard.no_visitors%22)
+
+> No visitors
+
+```diff
++暂无访客
+```
+
+#### [`linkrobins-birdseye.lib.dashboard.other`](https://weblate.rob006.net/translate/flarum2/linkrobins-birdseye/zh_Hans/?q=context%3A%3D%22linkrobins-birdseye.lib.dashboard.other%22)
+
+> Other
+
+```diff
++其他
+```
+
+#### [`linkrobins-birdseye.lib.dashboard.pageviews`](https://weblate.rob006.net/translate/flarum2/linkrobins-birdseye/zh_Hans/?q=context%3A%3D%22linkrobins-birdseye.lib.dashboard.pageviews%22)
+
+> Pageviews
+
+```diff
++浏览量
+```
+
+#### [`linkrobins-birdseye.lib.dashboard.posts`](https://weblate.rob006.net/translate/flarum2/linkrobins-birdseye/zh_Hans/?q=context%3A%3D%22linkrobins-birdseye.lib.dashboard.posts%22)
+
+> Posts
+
+```diff
++帖子
+```
+
+#### [`linkrobins-birdseye.lib.dashboard.range_30d`](https://weblate.rob006.net/translate/flarum2/linkrobins-birdseye/zh_Hans/?q=context%3A%3D%22linkrobins-birdseye.lib.dashboard.range_30d%22)
+
+> 30 days
+
+```diff
++最近 30 天
+```
+
+#### [`linkrobins-birdseye.lib.dashboard.range_7d`](https://weblate.rob006.net/translate/flarum2/linkrobins-birdseye/zh_Hans/?q=context%3A%3D%22linkrobins-birdseye.lib.dashboard.range_7d%22)
+
+> 7 days
+
+```diff
++最近 7 天
+```
+
+#### [`linkrobins-birdseye.lib.dashboard.searches`](https://weblate.rob006.net/translate/flarum2/linkrobins-birdseye/zh_Hans/?q=context%3A%3D%22linkrobins-birdseye.lib.dashboard.searches%22)
+
+> Searches
+
+```diff
++搜索
+```
+
+#### [`linkrobins-birdseye.lib.dashboard.searches_word`](https://weblate.rob006.net/translate/flarum2/linkrobins-birdseye/zh_Hans/?q=context%3A%3D%22linkrobins-birdseye.lib.dashboard.searches_word%22)
+
+> searches
+
+```diff
++搜索
+```
+
+#### [`linkrobins-birdseye.lib.dashboard.signups`](https://weblate.rob006.net/translate/flarum2/linkrobins-birdseye/zh_Hans/?q=context%3A%3D%22linkrobins-birdseye.lib.dashboard.signups%22)
+
+> Signups
+
+```diff
++注册
+```
+
+#### [`linkrobins-birdseye.lib.dashboard.sources`](https://weblate.rob006.net/translate/flarum2/linkrobins-birdseye/zh_Hans/?q=context%3A%3D%22linkrobins-birdseye.lib.dashboard.sources%22)
+
+> Sources
+
+```diff
++流量来源
+```
+
+#### [`linkrobins-birdseye.lib.dashboard.tags`](https://weblate.rob006.net/translate/flarum2/linkrobins-birdseye/zh_Hans/?q=context%3A%3D%22linkrobins-birdseye.lib.dashboard.tags%22)
+
+> Top tags
+
+```diff
++热门标签
+```
+
+#### [`linkrobins-birdseye.lib.dashboard.title`](https://weblate.rob006.net/translate/flarum2/linkrobins-birdseye/zh_Hans/?q=context%3A%3D%22linkrobins-birdseye.lib.dashboard.title%22)
+
+> Analytics
+
+```diff
++分析
+```
+
+#### [`linkrobins-birdseye.lib.dashboard.today`](https://weblate.rob006.net/translate/flarum2/linkrobins-birdseye/zh_Hans/?q=context%3A%3D%22linkrobins-birdseye.lib.dashboard.today%22)
+
+> Today so far
+
+```diff
++今日截至目前
+```
+
+#### [`linkrobins-birdseye.lib.dashboard.today_note`](https://weblate.rob006.net/translate/flarum2/linkrobins-birdseye/zh_Hans/?q=context%3A%3D%22linkrobins-birdseye.lib.dashboard.today_note%22)
+
+> live — becomes final when the day closes
+
+```diff
++实时数据，将在当天结束后归档最终数据
+```
+
+#### [`linkrobins-birdseye.lib.dashboard.top_discussions`](https://weblate.rob006.net/translate/flarum2/linkrobins-birdseye/zh_Hans/?q=context%3A%3D%22linkrobins-birdseye.lib.dashboard.top_discussions%22)
+
+> Top discussions
+
+```diff
++热门讨论
+```
+
+#### [`linkrobins-birdseye.lib.dashboard.top_pages`](https://weblate.rob006.net/translate/flarum2/linkrobins-birdseye/zh_Hans/?q=context%3A%3D%22linkrobins-birdseye.lib.dashboard.top_pages%22)
+
+> Top pages
+
+```diff
++热门页面
+```
+
+#### [`linkrobins-birdseye.lib.dashboard.totals`](https://weblate.rob006.net/translate/flarum2/linkrobins-birdseye/zh_Hans/?q=context%3A%3D%22linkrobins-birdseye.lib.dashboard.totals%22)
+
+> Totals
+
+```diff
++合计
+```
+
+#### [`linkrobins-birdseye.lib.dashboard.unanswered`](https://weblate.rob006.net/translate/flarum2/linkrobins-birdseye/zh_Hans/?q=context%3A%3D%22linkrobins-birdseye.lib.dashboard.unanswered%22)
+
+> Needs a reply
+
+```diff
++待回复
+```
+
+#### [`linkrobins-birdseye.lib.dashboard.unanswered_note`](https://weblate.rob006.net/translate/flarum2/linkrobins-birdseye/zh_Hans/?q=context%3A%3D%22linkrobins-birdseye.lib.dashboard.unanswered_note%22)
+
+> viewed this week, no replies
+
+```diff
++本周有浏览，但尚无回复
+```
+
+#### [`linkrobins-birdseye.lib.dashboard.unknown`](https://weblate.rob006.net/translate/flarum2/linkrobins-birdseye/zh_Hans/?q=context%3A%3D%22linkrobins-birdseye.lib.dashboard.unknown%22)
+
+> Unknown
+
+```diff
++未知
+```
+
+#### [`linkrobins-birdseye.lib.dashboard.view_bars`](https://weblate.rob006.net/translate/flarum2/linkrobins-birdseye/zh_Hans/?q=context%3A%3D%22linkrobins-birdseye.lib.dashboard.view_bars%22)
+
+> Bars
+
+```diff
++条形图
+```
+
+#### [`linkrobins-birdseye.lib.dashboard.view_pie`](https://weblate.rob006.net/translate/flarum2/linkrobins-birdseye/zh_Hans/?q=context%3A%3D%22linkrobins-birdseye.lib.dashboard.view_pie%22)
+
+> Pie
+
+```diff
++饼图
+```
+
+#### [`linkrobins-birdseye.lib.dashboard.views_word`](https://weblate.rob006.net/translate/flarum2/linkrobins-birdseye/zh_Hans/?q=context%3A%3D%22linkrobins-birdseye.lib.dashboard.views_word%22)
+
+> views
+
+```diff
++浏览
+```
+
+#### [`linkrobins-birdseye.lib.dashboard.visitors`](https://weblate.rob006.net/translate/flarum2/linkrobins-birdseye/zh_Hans/?q=context%3A%3D%22linkrobins-birdseye.lib.dashboard.visitors%22)
+
+> Visitors
+
+```diff
++访客
+```
+
+#### [`linkrobins-birdseye.lib.dashboard.visitors_per_day`](https://weblate.rob006.net/translate/flarum2/linkrobins-birdseye/zh_Hans/?q=context%3A%3D%22linkrobins-birdseye.lib.dashboard.visitors_per_day%22)
+
+> Visitors per day
+
+```diff
++每日访客
+```
+
+#### [`linkrobins-birdseye.lib.dashboard.visitors_word`](https://weblate.rob006.net/translate/flarum2/linkrobins-birdseye/zh_Hans/?q=context%3A%3D%22linkrobins-birdseye.lib.dashboard.visitors_word%22)
+
+> visitors
+
+```diff
++访客
+```
+
+#### [`linkrobins-birdseye.lib.dashboard.world`](https://weblate.rob006.net/translate/flarum2/linkrobins-birdseye/zh_Hans/?q=context%3A%3D%22linkrobins-birdseye.lib.dashboard.world%22)
+
+> World
+
+```diff
++全球
+```
+
+#### [`linkrobins-birdseye.lib.dashboard.zoom_in`](https://weblate.rob006.net/translate/flarum2/linkrobins-birdseye/zh_Hans/?q=context%3A%3D%22linkrobins-birdseye.lib.dashboard.zoom_in%22)
+
+> Zoom in
+
+```diff
++放大
+```
+
+#### [`linkrobins-birdseye.lib.dashboard.zoom_out`](https://weblate.rob006.net/translate/flarum2/linkrobins-birdseye/zh_Hans/?q=context%3A%3D%22linkrobins-birdseye.lib.dashboard.zoom_out%22)
+
+> Zoom out
+
+```diff
++缩小
+```
+
+
+### `linkrobins-discussion-banners` (missing)
+
+#### [`linkrobins-discussion-banners.admin.settings.banners_add`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/zh_Hans/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.banners_add%22)
+
+> Add banner
+
+```diff
++添加横幅
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.banners_empty`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/zh_Hans/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.banners_empty%22)
+
+> No banners yet.
+
+```diff
++暂无横幅。
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.banners_help`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/zh_Hans/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.banners_help%22)
+
+> Add as many banners as you like. Each one has its own content and can be shown in every discussion, or only in the discussions and tags you choose.
+
+```diff
++可以添加任意数量的横幅。每个横幅都可以设置不同内容，并选择显示在所有讨论中，或仅显示在指定的讨论和标签中。
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.banners_label`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/zh_Hans/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.banners_label%22)
+
+> Banners
+
+```diff
++横幅
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.bottom_heading`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/zh_Hans/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.bottom_heading%22)
+
+> Below the discussion
+
+```diff
++讨论下方
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.bottom_short`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/zh_Hans/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.bottom_short%22)
+
+> Bottom
+
+```diff
++底部
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.color_help`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/zh_Hans/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.color_help%22)
+
+> Colors the banner border, background tint, and small heading. Leave blank to use your theme color. Body text always follows the theme so it stays readable in light and dark modes.
+
+```diff
++用于横幅边框、背景色调和小标题。留空则使用当前主题颜色。正文文字始终跟随主题，以确保在浅色和深色模式下都清晰可读。
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.color_label`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/zh_Hans/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.color_label%22)
+
+> Accent color
+
+```diff
++强调色
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.content_help`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/zh_Hans/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.content_help%22)
+
+> The banner body. HTML is allowed and is sanitized before display.
+
+```diff
++横幅正文，支持 HTML，显示前会进行安全过滤。
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.content_label`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/zh_Hans/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.content_label%22)
+
+> Banner content (HTML)
+
+```diff
++横幅内容（HTML）
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.delete`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/zh_Hans/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.delete%22)
+
+> Delete banner
+
+```diff
++删除横幅
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.icon_emoji`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/zh_Hans/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.icon_emoji%22)
+
+> Emoji
+
+```diff
++Emoji
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.icon_emoji_placeholder`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/zh_Hans/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.icon_emoji_placeholder%22)
+
+> Type or paste
+
+```diff
++输入或粘贴
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.icon_help`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/zh_Hans/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.icon_help%22)
+
+> An optional icon shown beside the banner text: upload a small image or pick an emoji.
+
+```diff
++可选。显示在横幅文字旁，可以上传一张小图片或选择 Emoji。
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.icon_image`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/zh_Hans/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.icon_image%22)
+
+> Uploaded image
+
+```diff
++已上传图片
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.icon_label`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/zh_Hans/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.icon_label%22)
+
+> Icon
+
+```diff
++图标
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.icon_none`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/zh_Hans/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.icon_none%22)
+
+> No icon
+
+```diff
++无图标
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.icon_remove`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/zh_Hans/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.icon_remove%22)
+
+> Remove
+
+```diff
++移除
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.icon_replace_image`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/zh_Hans/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.icon_replace_image%22)
+
+> Replace image
+
+```diff
++替换图片
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.icon_upload_image`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/zh_Hans/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.icon_upload_image%22)
+
+> Upload image
+
+```diff
++上传图片
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.label_help`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/zh_Hans/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.label_help%22)
+
+> The short uppercase line at the top of the banner, for example "Info" or "From our sponsor". Leave blank for none.
+
+```diff
++显示在横幅顶部的一行简短标题，例如「提示」或「来自赞助商」。留空则不显示。
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.label_label`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/zh_Hans/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.label_label%22)
+
+> Small heading
+
+```diff
++小标题
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.placement_help`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/zh_Hans/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.placement_help%22)
+
+> Above the first post, below the last post, or repeated after every few posts.
+
+```diff
++可显示在首帖上方、末帖下方，或每隔若干篇帖子重复显示。
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.placement_label`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/zh_Hans/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.placement_label%22)
+
+> Where it appears
+
+```diff
++显示位置
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.scope_all`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/zh_Hans/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.scope_all%22)
+
+> All discussions
+
+```diff
++所有讨论
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.scope_empty_except`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/zh_Hans/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.scope_empty_except%22)
+
+> Nothing is selected yet, so this banner appears everywhere.
+
+```diff
++尚未选择任何内容，因此此横幅会显示在所有讨论中。
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.scope_empty_only`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/zh_Hans/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.scope_empty_only%22)
+
+> Nothing is selected yet, so this banner will not appear anywhere.
+
+```diff
++尚未选择任何内容，因此此横幅不会显示。
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.scope_except`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/zh_Hans/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.scope_except%22)
+
+> All discussions except the ones I choose
+
+```diff
++除我选择的讨论外全部显示
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.scope_help`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/zh_Hans/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.scope_help%22)
+
+> Show this banner everywhere, or pick the discussions and tags it belongs in. Add a second banner with different text for a different discussion.
+
+```diff
++可以让此横幅显示在所有讨论中，也可以指定要包含或排除的讨论和标签。不同讨论需要不同内容时，可以针对性添加一个横幅。
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.scope_label`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/zh_Hans/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.scope_label%22)
+
+> Which discussions
+
+```diff
++显示范围
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.scope_only`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/zh_Hans/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.scope_only%22)
+
+> Only the discussions I choose
+
+```diff
++仅我选择的讨论
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.stream_every_help`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/zh_Hans/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.stream_every_help%22)
+
+> The banner appears after every Nth post in a discussion. Minimum 2.
+
+```diff
++横幅会在讨论中每第 N 篇帖子后显示一次，最小值为 2。
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.stream_every_label`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/zh_Hans/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.stream_every_label%22)
+
+> Show after every N posts
+
+```diff
++每 N 篇帖子后显示
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.stream_heading`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/zh_Hans/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.stream_heading%22)
+
+> Between posts
+
+```diff
++帖子之间
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.stream_short`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/zh_Hans/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.stream_short%22)
+
+> Between posts
+
+```diff
++帖子之间
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.summary_all`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/zh_Hans/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.summary_all%22)
+
+> In every discussion
+
+```diff
++所有讨论
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.summary_discussion_many`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/zh_Hans/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.summary_discussion_many%22)
+
+> {count} discussions
+
+```diff
++{count} 个讨论
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.summary_discussion_one`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/zh_Hans/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.summary_discussion_one%22)
+
+> 1 discussion
+
+```diff
++1 个讨论
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.summary_except`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/zh_Hans/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.summary_except%22)
+
+> Everywhere except
+
+```diff
++除以下内容外全部显示
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.summary_nothing`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/zh_Hans/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.summary_nothing%22)
+
+> Nothing selected
+
+```diff
++未选择任何内容
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.summary_only`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/zh_Hans/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.summary_only%22)
+
+> Only in
+
+```diff
++仅显示于
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.summary_tag_many`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/zh_Hans/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.summary_tag_many%22)
+
+> {count} tags
+
+```diff
++{count} 个标签
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.summary_tag_one`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/zh_Hans/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.summary_tag_one%22)
+
+> 1 tag
+
+```diff
++1 个标签
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.target_none`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/zh_Hans/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.target_none%22)
+
+> Nothing selected
+
+```diff
++未选择任何内容
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.target_remove`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/zh_Hans/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.target_remove%22)
+
+> Remove
+
+```diff
++移除
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.target_search_placeholder`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/zh_Hans/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.target_search_placeholder%22)
+
+> Search discussions, or paste a discussion link or ID
+
+```diff
++搜索讨论，或粘贴讨论链接或 ID
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.target_searching`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/zh_Hans/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.target_searching%22)
+
+> Searching...
+
+```diff
++正在搜索…
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.target_tags_label`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/zh_Hans/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.target_tags_label%22)
+
+> Tags
+
+```diff
++标签
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.target_tags_loading`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/zh_Hans/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.target_tags_loading%22)
+
+> Loading tags...
+
+```diff
++正在加载标签…
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.target_use_id`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/zh_Hans/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.target_use_id%22)
+
+> Use discussion {id}
+
+```diff
++使用讨论 {id}
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.top_heading`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/zh_Hans/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.top_heading%22)
+
+> Above the discussion
+
+```diff
++讨论上方
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.top_short`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/zh_Hans/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.top_short%22)
+
+> Top
+
+```diff
++顶部
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.visibility_everyone`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/zh_Hans/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.visibility_everyone%22)
+
+> Everyone
+
+```diff
++所有人
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.visibility_guests`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/zh_Hans/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.visibility_guests%22)
+
+> Guests only
+
+```diff
++仅游客
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.visibility_label`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/zh_Hans/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.visibility_label%22)
+
+> Who sees it
+
+```diff
++可见对象
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.visibility_members`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/zh_Hans/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.visibility_members%22)
+
+> Logged-in users only
+
+```diff
++仅已登录用户
+```
+
+
+### `linkrobins-link-gate` (missing)
+
+#### [`linkrobins-link-gate.admin.permissions.view_gated_links_label`](https://weblate.rob006.net/translate/flarum2/linkrobins-link-gate/zh_Hans/?q=context%3A%3D%22linkrobins-link-gate.admin.permissions.view_gated_links_label%22)
+
+> View gated links
+
+```diff
++查看受限链接
+```
+
+#### [`linkrobins-link-gate.admin.settings.domains_help`](https://weblate.rob006.net/translate/flarum2/linkrobins-link-gate/zh_Hans/?q=context%3A%3D%22linkrobins-link-gate.admin.settings.domains_help%22)
+
+> One domain per line, for example mega.nz. Subdomains are included, so mega.nz also covers folder.mega.nz. Leave empty and nothing is gated.
+
+```diff
++每行填写一个域名，例如 mega.nz。其子域名 folder.mega.nz 等也会一并限制。留空则不会限制任何链接。
+```
+
+#### [`linkrobins-link-gate.admin.settings.domains_label`](https://weblate.rob006.net/translate/flarum2/linkrobins-link-gate/zh_Hans/?q=context%3A%3D%22linkrobins-link-gate.admin.settings.domains_label%22)
+
+> Gated domains
+
+```diff
++受限域名
+```
+
+#### [`linkrobins-link-gate.admin.settings.enabled_help`](https://weblate.rob006.net/translate/flarum2/linkrobins-link-gate/zh_Hans/?q=context%3A%3D%22linkrobins-link-gate.admin.settings.enabled_help%22)
+
+> Turn this off to show every link to everyone again, without losing your domain list.
+
+```diff
++关闭后，所有用户都可以重新看到全部链接，已设置的域名列表不会丢失。
+```
+
+#### [`linkrobins-link-gate.admin.settings.enabled_label`](https://weblate.rob006.net/translate/flarum2/linkrobins-link-gate/zh_Hans/?q=context%3A%3D%22linkrobins-link-gate.admin.settings.enabled_label%22)
+
+> Gate links
+
+```diff
++启用链接访问限制
+```
+
+#### [`linkrobins-link-gate.admin.settings.fallback_help`](https://weblate.rob006.net/translate/flarum2/linkrobins-link-gate/zh_Hans/?q=context%3A%3D%22linkrobins-link-gate.admin.settings.fallback_help%22)
+
+> Used where HTML cannot go, in particular notification emails. Keep it short and say where the link can be found.
+
+```diff
++用于无法显示 HTML 的场景，尤其是通知邮件。建议保持简短，并说明用户可以在哪里查看该链接。
+```
+
+#### [`linkrobins-link-gate.admin.settings.fallback_label`](https://weblate.rob006.net/translate/flarum2/linkrobins-link-gate/zh_Hans/?q=context%3A%3D%22linkrobins-link-gate.admin.settings.fallback_label%22)
+
+> Plain wording
+
+```diff
++纯文本提示
+```
+
+#### [`linkrobins-link-gate.admin.settings.html_help`](https://weblate.rob006.net/translate/flarum2/linkrobins-link-gate/zh_Hans/?q=context%3A%3D%22linkrobins-link-gate.admin.settings.html_help%22)
+
+> The HTML shown where a gated link used to be. Anything you would put in a post works here. Leave empty to show the plain wording below instead.
+
+```diff
++受限链接原位置显示的 HTML 内容。这里可以使用帖子中支持的内容格式。留空则改为显示下方设置的纯文本提示。
+```
+
+#### [`linkrobins-link-gate.admin.settings.html_label`](https://weblate.rob006.net/translate/flarum2/linkrobins-link-gate/zh_Hans/?q=context%3A%3D%22linkrobins-link-gate.admin.settings.html_label%22)
+
+> What to show instead
+
+```diff
++替代显示内容
+```
+
+#### [`linkrobins-link-gate.admin.translations.help`](https://weblate.rob006.net/translate/flarum2/linkrobins-link-gate/zh_Hans/?q=context%3A%3D%22linkrobins-link-gate.admin.translations.help%22)
+
+> What you wrote above is shown to everyone. Fill in a language here and readers using it see that instead. Leave one blank and it falls back to what you wrote above.
+
+```diff
++上方填写的内容默认向所有用户显示。你可以在此为其他语言单独填写内容，使用相应语言的用户将看到对应版本。留空则使用上方的默认内容。
+```
+
+#### [`linkrobins-link-gate.admin.translations.label`](https://weblate.rob006.net/translate/flarum2/linkrobins-link-gate/zh_Hans/?q=context%3A%3D%22linkrobins-link-gate.admin.translations.label%22)
+
+> Other languages
+
+```diff
++其他语言
+```
+
+#### [`linkrobins-link-gate.forum.fallback`](https://weblate.rob006.net/translate/flarum2/linkrobins-link-gate/zh_Hans/?q=context%3A%3D%22linkrobins-link-gate.forum.fallback%22)
+
+> This link is available to members only.
+
+```diff
++此链接仅限社区成员可见。
 ```
 
 

@@ -5628,7 +5628,7 @@ These strings are translated only in `de@formal`, so there is nothing to inherit
 > GeoDNS automatic routing
 
 ```diff
-+Automatische Auswahl
++Automatisches GeoDNS-Routing
 ```
 
 #### [`forumfortress-flarum.admin.dashboard.blocked`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de@formal/?q=context%3A%3D%22forumfortress-flarum.admin.dashboard.blocked%22)
@@ -5844,7 +5844,7 @@ These strings are translated only in `de@formal`, so there is nothing to inherit
 > GeoDNS route
 
 ```diff
-+Bevorzugter Endpunkt
++GeoDNS-Route
 ```
 
 #### [`forumfortress-flarum.admin.dashboard.protection`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de@formal/?q=context%3A%3D%22forumfortress-flarum.admin.dashboard.protection%22)
