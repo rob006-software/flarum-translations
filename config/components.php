@@ -571,6 +571,15 @@ return [
 	'flarumite-simple-spoilers' => [
 		'tag' => 'https://raw.githubusercontent.com/flarumite/simple-spoilers/1.0.0/resources/locale/en.yml',
 	],
+	'flatrate-live-chat' => [
+		'tag' => 'https://raw.githubusercontent.com/mrkcntrmn/flatrate-flarum-live-chat/v1.0.0/resources/locale/en.yaml',
+		'__builtInLanguages' => [
+			'ja',
+			'ru',
+			'vi',
+			'zh_Hans',
+		],
+	],
 	'flectar-turnstile' => [
 		'tag' => 'https://raw.githubusercontent.com/flectar/flarum-ext-turnstile/1.1.1/locale/en.yml',
 	],
