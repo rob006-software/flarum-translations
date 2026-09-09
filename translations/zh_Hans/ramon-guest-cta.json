@@ -2,26 +2,26 @@
     "ramon-guest-cta": {
         "admin": {
             "settings": {
-                "hide_links_label": "",
-                "hide_links_help": "",
-                "show_post_cta_label": "",
-                "show_post_cta_help": "",
-                "position_label": "",
-                "position_help": "",
-                "position_1": "",
-                "position_2": "",
-                "position_3": "",
-                "position_4": "",
-                "position_5": ""
+                "hide_links_label": "对访客隐藏链接",
+                "hide_links_help": "阻止访客直接打开帖子中的链接。点击链接时改为显示登录或注册提示。",
+                "show_post_cta_label": "在指定帖子后向访客显示加入引导",
+                "show_post_cta_help": "在讨论的帖子之间显示登录或注册引导卡片，仅访客可见。通过位置设置选择显示在哪篇帖子之后。",
+                "position_label": "引导位置（显示在哪篇帖子之后）",
+                "position_help": "将引导卡片插入此帖与下一篇帖子之间。",
+                "position_1": "第 1 篇帖子之后",
+                "position_2": "第 2 篇帖子之后",
+                "position_3": "第 3 篇帖子之后",
+                "position_4": "第 4 篇帖子之后",
+                "position_5": "第 5 篇帖子之后"
             }
         },
         "forum": {
             "post_cta": {
-                "text": "",
-                "or": ""
+                "text": "喜欢这里的内容？加入讨论吧！",
+                "or": "或"
             },
             "link_cta": {
-                "placeholder": ""
+                "placeholder": "登录后查看链接"
             }
         }
     }
