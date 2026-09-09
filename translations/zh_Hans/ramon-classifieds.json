@@ -2,128 +2,128 @@
     "flarum-classifieds": {
         "admin": {
             "settings": {
-                "tag_ids_label": "",
-                "tag_ids_help": "",
-                "default_currency_label": "",
-                "default_currency_help": "",
-                "allowed_labels_label": "",
-                "allowed_labels_help": "",
-                "allow_price_range_label": "",
-                "allow_price_range_help": "",
-                "show_currency_symbol_label": "",
-                "show_currency_symbol_help": "",
-                "require_label_label": "",
-                "require_price_label": "",
-                "require_location_label": "",
-                "auto_prune_days_label": "",
-                "auto_prune_days_help": "",
-                "auto_prune_sold_label": "",
-                "auto_prune_sold_help": ""
+                "tag_ids_label": "分类信息标签",
+                "tag_ids_help": "选择用于分类信息的标签。带有任一所选标签的讨论都会启用分类信息字段、状态控制和价格设置。",
+                "default_currency_label": "默认货币代码",
+                "default_currency_help": "3 位 ISO 货币代码（例如 USD、EUR、CNY）。",
+                "allowed_labels_label": "允许的交易类型",
+                "allowed_labels_help": "使用半角逗号分隔，例如 iso,wtb,wts,trade。",
+                "allow_price_range_label": "允许价格范围",
+                "allow_price_range_help": "允许用户同时填写最低价格和最高价格。",
+                "show_currency_symbol_label": "显示货币符号",
+                "show_currency_symbol_help": "显示 $、€ 等货币符号，而不是货币代码。",
+                "require_label_label": "必须选择交易类型",
+                "require_price_label": "必须填写价格",
+                "require_location_label": "必须填写所在地",
+                "auto_prune_days_label": "自动清理天数",
+                "auto_prune_days_help": "自动删除发布超过此天数的交易信息。设为 0 则禁用。",
+                "auto_prune_sold_label": "自动清理已售交易信息",
+                "auto_prune_sold_help": "执行自动清理时，同时删除已售或已完成的交易信息。"
             },
             "permissions": {
-                "mark_listing_sold_label": "",
-                "bump_listing_label": "",
-                "edit_listing_label": ""
+                "mark_listing_sold_label": "将交易信息标记为已售 / 开放中",
+                "bump_listing_label": "擦亮自己的交易信息",
+                "edit_listing_label": "编辑自己的交易信息"
             },
             "edit_tag": {
-                "is_classifieds_label": "",
-                "is_classifieds_help": ""
+                "is_classifieds_label": "此标签用于分类信息",
+                "is_classifieds_help": "带有此标签的讨论需要填写分类信息字段。"
             }
         },
         "forum": {
             "composer": {
-                "section_title": "",
-                "label_label": "",
-                "label_placeholder": "",
-                "price_label": "",
-                "price_max_label": "",
-                "currency_label": "",
-                "location_label": "",
-                "location_placeholder": "",
-                "configure_listing_button": ""
+                "section_title": "分类信息详情",
+                "label_label": "交易类型",
+                "label_placeholder": "选择交易类型…",
+                "price_label": "价格",
+                "price_max_label": "价格上限",
+                "currency_label": "货币",
+                "location_label": "所在地",
+                "location_placeholder": "城市、省/州、国家/地区…",
+                "configure_listing_button": "设置交易信息"
             },
             "start_listing": {
-                "title": "",
-                "help": "",
-                "continue_button": ""
+                "title": "发布分类信息",
+                "help": "此讨论带有分类信息标签。请填写交易信息，之后仍可修改。",
+                "continue_button": "继续"
             },
             "classifieds_composer": {
-                "title_placeholder": "",
-                "body_placeholder": "",
-                "label_required": "",
-                "price_required": "",
-                "location_required": ""
+                "title_placeholder": "标题（例如：iPhone 15 Pro 256GB）",
+                "body_placeholder": "描述物品状况、详细信息和首选联系方式…",
+                "label_required": "请选择交易类型。",
+                "price_required": "请填写价格。",
+                "location_required": "请填写所在地。"
             },
             "create_listing": {
-                "title": "",
-                "title_label": "",
-                "description_label": "",
-                "submit_button": "",
-                "title_required": "",
-                "description_required": ""
+                "title": "发布分类信息",
+                "title_label": "标题",
+                "description_label": "描述",
+                "submit_button": "发布",
+                "title_required": "请输入标题。",
+                "description_required": "请输入描述。"
             },
             "edit_listing": {
-                "title": "",
-                "save_button": ""
+                "title": "编辑交易信息",
+                "save_button": "保存"
             },
             "discussion_controls": {
-                "mark_sold_button": "",
-                "mark_active_button": "",
-                "bump_button": "",
-                "edit_listing_button": ""
+                "mark_sold_button": "标记为已售",
+                "mark_active_button": "重新开放",
+                "bump_button": "擦亮",
+                "edit_listing_button": "编辑交易信息"
             },
             "post_stream": {
-                "status_changed_sold_text": "",
-                "status_changed_active_text": "",
-                "status_changed_completed_text": "",
-                "listing_bumped_text": ""
+                "status_changed_sold_text": "{username} 于 {time} 将此交易信息标记为已售。",
+                "status_changed_active_text": "{username} 于 {time} 重新开放了此交易信息。",
+                "status_changed_completed_text": "{username} 于 {time} 将此交易信息标记为已完成。",
+                "listing_bumped_text": "{username} 于 {time} 擦亮了此交易信息。"
             },
             "uploader": {
-                "title": "",
-                "hint": "",
-                "add": "",
-                "remove": "",
-                "invalid_type": "",
-                "too_large": ""
+                "title": "将照片拖到这里，或点击选择",
+                "hint": "最多上传 {max} 张照片，支持 JPG、PNG、GIF、WEBP，每张最大 5 MB。",
+                "add": "添加",
+                "remove": "移除",
+                "invalid_type": "部分文件已被拒绝，只能上传图片文件。",
+                "too_large": "部分文件因超过 5 MB 而被拒绝。"
             },
             "landing": {
-                "title": "",
-                "greeting": "",
-                "greeting_guest": "",
-                "prompt": "",
-                "select_category": "",
-                "empty": "",
-                "discussion_count": ""
+                "title": "分类信息",
+                "greeting": "你好，{username}！",
+                "greeting_guest": "欢迎！",
+                "prompt": "今天想发布什么信息？",
+                "select_category": "选择分类：{name}",
+                "empty": "尚未配置分类信息标签。",
+                "discussion_count": "{count, plural, =0{暂无交易信息} other {# 条交易信息}}"
             },
             "breadcrumb": {
-                "classifieds": ""
+                "classifieds": "分类信息"
             },
             "actions": {
-                "contact_seller": "",
-                "login_to_contact": "",
-                "share": "",
-                "copy_link": "",
-                "link_copied": "",
-                "copy_failed": ""
+                "contact_seller": "联系发布者",
+                "login_to_contact": "登录后联系发布者",
+                "share": "分享",
+                "copy_link": "复制链接",
+                "link_copied": "链接已复制到剪贴板。",
+                "copy_failed": "无法复制链接。"
             },
             "seller": {
-                "title": "",
-                "member_since": "",
-                "listings": "",
-                "last_seen": ""
+                "title": "发布者",
+                "member_since": "加入于 {time}",
+                "listings": "{count, plural, =0{暂无分类信息} other {# 条分类信息}}",
+                "last_seen": "最后在线 {time}"
             }
         },
         "lib": {
             "labels": {
-                "iso": "",
-                "wtb": "",
-                "wts": "",
-                "trade": ""
+                "iso": "寻找",
+                "wtb": "求购",
+                "wts": "出售",
+                "trade": "交换"
             },
             "statuses": {
-                "active": "",
-                "sold": "",
-                "completed": ""
+                "active": "开放中",
+                "sold": "已售",
+                "completed": "已完成"
             }
         }
     }
