@@ -176,6 +176,9 @@ return [
 	'ernestdefoe-janitor' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/janitor/v1.3.1/resources/locale/en.yml',
 	],
+	'ernestdefoe-logo-manager' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/logo-manager/1.0.0/locale/en.yml',
+	],
 	'ernestdefoe-maintenance' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/maintenance/v1.1.2/resources/locale/en.yml',
 	],
