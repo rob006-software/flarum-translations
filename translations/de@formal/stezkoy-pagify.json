@@ -2,45 +2,45 @@
     "stezkoy-pagify": {
         "admin": {
             "settings": {
-                "discussion_list_heading": "",
-                "enableDiscussionList": "",
-                "enableDiscussionList-Help": "",
-                "perPage": "",
-                "perPage-Help": "",
-                "paginationPosition": "",
-                "post_stream_heading": "",
-                "enablePostStream": "",
-                "enablePostStream-Help": "",
-                "postsPerPage": "",
-                "postsPerPage-Help": "",
-                "postStreamPosition": "",
-                "post_list_heading": "",
-                "enablePostList": "",
-                "enablePostList-Help": "",
-                "postListPerPage": "",
-                "postListPerPage-Help": "",
-                "postListPosition": "",
+                "discussion_list_heading": "Diskussionsliste",
+                "enableDiscussionList": "Diskussionsliste paginieren",
+                "enableDiscussionList-Help": "Zeigt nummerierte Seiten auf der Startseite anstatt der „Mehr laden“-Schaltfläche an.",
+                "perPage": "Diskussionen je Seite",
+                "perPage-Help": "Wie viele Diskussionen je Seite angezeigt werden sollen. Ohne Paginierung wird dadurch die Größe jedes „Mehr laden“-Batches festgelegt.",
+                "paginationPosition": "Pagerposition",
+                "post_stream_heading": "Beitragsstream",
+                "enablePostStream": "Beiträge innerhalb Diskussionen paginieren",
+                "enablePostStream-Help": "Nummerierte Seiten innerhalb Diskussionen anstatt Endlos-Scrollen.",
+                "postsPerPage": "Beiträge je Seite",
+                "postsPerPage-Help": "Wie viele Beiträge je Diskussionsseite angezeigt werden sollen. Hat nur einen Effekt, wenn Paginierung aktiviert ist.",
+                "postStreamPosition": "Beitrags-Pagerposition",
+                "post_list_heading": "Beitragsliste auf Benutzerseite",
+                "enablePostList": "Beiträge auf der Benutzerseite paginieren",
+                "enablePostList-Help": "Nummerierte Seiten anstatt der „Mehr laden“-Schaltfläche in Beitragslisten auf der Benutzerseite.",
+                "postListPerPage": "Beiträge je Seite",
+                "postListPerPage-Help": "Wie viele Beiträge je Seite angezeigt werden sollen. Ohne Paginierung wird dadurch die Größe jedes „Mehr laden“-Batches festgelegt.",
+                "postListPosition": "Pagerposition",
                 "position": {
-                    "above": "",
-                    "under": "",
-                    "both": ""
+                    "above": "Oberhalb",
+                    "under": "Unterhalb",
+                    "both": "Beide (Oberhalb und unterhalb)"
                 }
             }
         },
         "forum": {
             "list": {
-                "first": "",
-                "previous": "",
-                "next": "",
-                "last": "",
-                "jump": ""
+                "first": "Erste Seite",
+                "previous": "Vorherige Seite",
+                "next": "Nächste Seite",
+                "last": "Letzte Seite",
+                "jump": "Zu Seite springen"
             },
             "post_stream": {
-                "aria_label": "",
-                "first": "",
-                "previous": "",
-                "next": "",
-                "last": ""
+                "aria_label": "Beitragsseiten",
+                "first": "Erste Seite",
+                "previous": "Vorherige Seite",
+                "next": "Nächste Seite",
+                "last": "Letzte Seite"
             }
         }
     }

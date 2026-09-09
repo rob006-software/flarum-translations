@@ -2,40 +2,40 @@
     "huseyinfiliz-discussion-ban": {
         "admin": {
             "permissions": {
-                "ban_users_label": ""
+                "ban_users_label": "Benutzer aus Diskussionen ausschließen"
             },
             "settings": {
-                "show_in_discussion_controls": "",
-                "show_in_post_controls": "",
-                "hide_discussions_from_banned": ""
+                "show_in_discussion_controls": "„Aus Diskussion ausschließen“ in Diskussionsoptionen anzeigen",
+                "show_in_post_controls": "„Aus Diskussion ausschließen“ in Beitragsoptionen anzeigen",
+                "hide_discussions_from_banned": "Diskussionen vor ausgeschlossenen Benutzern vollständig verbergen (404-Verhalten)"
             }
         },
         "forum": {
             "discussion_controls": {
-                "ban_from_discussion": ""
+                "ban_from_discussion": "Aus Diskussion ausschließen"
             },
             "post_controls": {
-                "ban_from_discussion": "",
-                "unban_from_discussion": ""
+                "ban_from_discussion": "Aus Diskussion ausschließen",
+                "unban_from_discussion": "Ausschluss aus der Diskussion aufheben"
             },
             "modal": {
-                "title": "",
-                "tab_ban": "",
-                "tab_list": "",
-                "select_user": "",
-                "search_placeholder": "",
-                "search_banned_placeholder": "",
-                "change_user": "",
-                "reason_label": "",
-                "reason_placeholder": "",
-                "reason_help": "",
-                "submit": "",
-                "ban_success": "",
-                "unban_success": "",
-                "no_bans": "",
-                "banned_by": "",
-                "unban": "",
-                "confirm_unban": ""
+                "title": "Diskussionsausschluss",
+                "tab_ban": "Benutzer ausschließen",
+                "tab_list": "Ausgeschlossene Benutzer ({count})",
+                "select_user": "Benutzer auswählen",
+                "search_placeholder": "Nach Benutzername oder Anzeigename suchen…",
+                "search_banned_placeholder": "Ausgeschlossene Benutzer durchsuchen…",
+                "change_user": "Ändern",
+                "reason_label": "Grund (optional)",
+                "reason_placeholder": "Warum wird der Benutzer aus dieser Diskussion ausgeschlossen?",
+                "reason_help": "Der Grund wird nur Moderatoren in der Liste der ausgeschlossenen Benutzer angezeigt.",
+                "submit": "Benutzer ausschließen",
+                "ban_success": "Benutzer wurde aus dieser Diskussion ausgeschlossen.",
+                "unban_success": "Der Ausschluss des Nutzers wurde aufgehoben.",
+                "no_bans": "Momentan sind keine Benutzer aus dieser Diskussion ausgeschlossen.",
+                "banned_by": "Ausgeschlossen von {username}",
+                "unban": "Ausschluss aufheben",
+                "confirm_unban": "Möchtest du den Ausschluss von diesem Benutzer wirklich aufheben? Ihre verborgenen Beiträge werden wiederhergestellt."
             }
         }
     },
@@ -43,8 +43,8 @@
         "lib": {
             "browser": {
                 "discussion_ban": {
-                    "banned": "",
-                    "unbanned": ""
+                    "banned": "Hat {username} aus {discussion} ausgeschlossen — {reason}",
+                    "unbanned": "Hat Ausschluss von {username} aus {discussion} aufgehoben"
                 }
             }
         }
