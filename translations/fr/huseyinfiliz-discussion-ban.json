@@ -2,40 +2,40 @@
     "huseyinfiliz-discussion-ban": {
         "admin": {
             "permissions": {
-                "ban_users_label": ""
+                "ban_users_label": "Exclure des utilisateurs des discussions"
             },
             "settings": {
-                "show_in_discussion_controls": "",
-                "show_in_post_controls": "",
-                "hide_discussions_from_banned": ""
+                "show_in_discussion_controls": "Afficher « Exclure de la discussion » dans les commandes de discussion",
+                "show_in_post_controls": "Afficher « Exclure de la discussion » dans les commandes de publication",
+                "hide_discussions_from_banned": "Masquer complètement les discussions aux utilisateurs bannis (comportement 404)"
             }
         },
         "forum": {
             "discussion_controls": {
-                "ban_from_discussion": ""
+                "ban_from_discussion": "Exclure de la discussion"
             },
             "post_controls": {
-                "ban_from_discussion": "",
-                "unban_from_discussion": ""
+                "ban_from_discussion": "Exclure de la discussion",
+                "unban_from_discussion": "Réintégrer dans la discussion"
             },
             "modal": {
-                "title": "",
-                "tab_ban": "",
-                "tab_list": "",
-                "select_user": "",
-                "search_placeholder": "",
-                "search_banned_placeholder": "",
-                "change_user": "",
-                "reason_label": "",
-                "reason_placeholder": "",
-                "reason_help": "",
-                "submit": "",
-                "ban_success": "",
-                "unban_success": "",
-                "no_bans": "",
-                "banned_by": "",
-                "unban": "",
-                "confirm_unban": ""
+                "title": "Exclusion de la discussion",
+                "tab_ban": "Exclure un utilisateur",
+                "tab_list": "Utilisateurs exclus ({count})",
+                "select_user": "Sélectionner un utilisateur",
+                "search_placeholder": "Rechercher par nom d'utilisateur ou nom d'affichage...",
+                "search_banned_placeholder": "Rechercher des utilisateurs exclus...",
+                "change_user": "Modifier",
+                "reason_label": "Motif (facultatif)",
+                "reason_placeholder": "Pourquoi cet utilisateur est-il exclu de cette discussion ?",
+                "reason_help": "Ce motif sera visible par les modérateurs dans la liste des utilisateurs exclus.",
+                "submit": "Exclure un utilisateur",
+                "ban_success": "L'utilisateur a été exclu de cette discussion.",
+                "unban_success": "L'exclusion de l'utilisateur a été levée.",
+                "no_bans": "Aucun utilisateur n'est actuellement exclu de cette discussion.",
+                "banned_by": "Exclu par {username}",
+                "unban": "Réintégrer",
+                "confirm_unban": "Êtes-vous sûr de vouloir réintégrer cet utilisateur ? Ses messages masqués seront restaurés."
             }
         }
     },
@@ -43,8 +43,8 @@
         "lib": {
             "browser": {
                 "discussion_ban": {
-                    "banned": "",
-                    "unbanned": ""
+                    "banned": "A exclu {username} de {discussion} — {reason}",
+                    "unbanned": "A réintégré {username} dans {discussion}"
                 }
             }
         }
