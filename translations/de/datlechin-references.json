@@ -5,30 +5,30 @@
                 "behaviour_label": "Verhalten",
                 "behaviour_description": "Welche Links in Beiträgen als Verweise aufgenommen werden.",
                 "display_label": "Anzeige",
-                "display_description": "",
+                "display_description": "Wo Verweise angezeigt werden und wie viele aufgelistet werden, bevor die Liste abgeschnitten wird.",
                 "discovery_label": "Entdecken",
                 "discovery_description": "Das Widget, das vom Verweisgraph gefüllt wird.",
                 "maintenance_label": "Wartung",
-                "maintenance_description": "",
+                "maintenance_description": "Wie lange ein Verweis auf gelöschte Inhalte aufbewahrt wird.",
                 "extensions_label": "Andere Erweiterungen",
                 "extensions_description": "Einstellungen, die andere Erweiterungen dieser Seite hinzufügen."
             },
             "settings": {
                 "enabled_label": "Verweise aufnehmen",
-                "enabled_help": "",
+                "enabled_help": "Aus bedeutet, dass nichts aufgenommen wird. Vorhandene Verweise bleiben erhalten.",
                 "extract_url_references_label": "Eingefügte Links aufnehmen",
-                "extract_url_references_help": "",
+                "extract_url_references_help": "Ein Link auf eine Diskussion oder einen Beitrag in diesem Forum wird ein Verweis.",
                 "extract_short_references_label": "",
                 "extract_short_references_help": "Das Format @\"Discussion title\"#d123, wie es bei Eingabe von # im Composer eingefügt wird.\n",
                 "extract_mention_references_label": "Beitragserwähnungen aufnehmen",
-                "extract_mention_references_help": "",
+                "extract_mention_references_help": "Mentions wird benötigt. Ohne die Erweiterung wird eine Antwort in zwei Listen geführt, die nicht übereinstimmen.",
                 "event_post_enabled_label": "Referenzen in Diskussionen aufführen",
                 "event_post_enabled_help": "",
                 "max_preview_label": "",
                 "max_preview_help": "Der Rest liegt hinter einer Schaltfläche.",
                 "related_discussions_enabled_label": "Verwandte Diskussionen anzeigen",
                 "related_discussions_enabled_help": "",
-                "related_discussions_limit_label": "",
+                "related_discussions_limit_label": "Angezeigte verwandte Diskussionen",
                 "related_discussions_limit_help": "In der Seitenleiste einer Diskussion.",
                 "related_max_candidates_label": "",
                 "related_max_candidates_help": "",
@@ -44,7 +44,7 @@
                 "broken_retention_days_help": ""
             },
             "permissions": {
-                "manage_references": "",
+                "manage_references": "Verweise erstellen und bearbeiten",
                 "view_broken_report": "Siehe fehlerhafte Verweise",
                 "view_analytics": ""
             },
@@ -52,8 +52,8 @@
                 "title": "Verweise",
                 "total_label": "Verweise",
                 "broken_label": "",
-                "manual_label": "",
-                "by_origin_label": "",
+                "manual_label": "Händisch hinzugefügt",
+                "by_origin_label": "Wie sie gefunden wurden",
                 "by_relation_label": "",
                 "export_button": "CSV exportieren",
                 "empty": "",
@@ -63,25 +63,25 @@
             "origin": {
                 "url": "Eingefügter Link",
                 "shortref": "",
-                "mention": "",
-                "manual": ""
+                "mention": "Beitragserwähnung",
+                "manual": "Händisch hinzugefügt"
             },
             "relation": {
                 "references": "Verweise",
-                "duplicate_of": "",
-                "see_also": "",
-                "supersedes": "",
-                "answers": ""
+                "duplicate_of": "Duplikat von",
+                "see_also": "Siehe auch",
+                "supersedes": "Ersetzt",
+                "answers": "Antworten"
             },
             "broken": {
-                "title": "",
-                "description": "",
-                "empty": "",
-                "unavailable": "",
-                "truncated": "",
-                "target_column": "",
+                "title": "Fehlerhafte Verweise",
+                "description": "Verweise, die auf nicht mehr existierende Inhalte verweisen.",
+                "empty": "Nichts fehlerhaft.",
+                "unavailable": "Bericht konnte nicht gelesen werden.",
+                "truncated": "Zeige {shown} von {total}.",
+                "target_column": "Zeigt auf",
                 "source_column": "Geschrieben in",
-                "broken_at_column": ""
+                "broken_at_column": "Fehlerhaft seit"
             },
             "target": {
                 "discussions": "Diskussion #{id}",
