@@ -49,7 +49,7 @@
             },
             "steps": {
                 "heading": "Schritte in {title}",
-                "none": "",
+                "none": "Noch keine Schritte, daher kann diese Tour nicht ausgeführt werden.",
                 "no_target": "",
                 "add_button": "Schritt hinzufügen",
                 "duplicate_action": "Duplizieren",
@@ -61,17 +61,17 @@
                     "mobile": "Nur Mobil",
                     "clicks_target": "",
                     "advance_on_click": "",
-                    "translated": ""
+                    "translated": "Übersetzt in {count, plural, one {# Sprache} other {# Sprachen}}"
                 }
             },
             "stats": {
                 "heading": "",
-                "none": "",
+                "none": "Niemand hat diese Tour bisher abgeschlossen.",
                 "taken": "",
                 "finished": "Abgeschlossen",
                 "dismissed": "",
                 "completion_rate": "Abgeschlossen",
-                "dropoff_heading": "",
+                "dropoff_heading": "Wo Teilnehmer abspringen",
                 "dropoff_help": ""
             },
             "tour_modal": {
@@ -80,7 +80,7 @@
                 "title_label": "Name",
                 "title_help": "Als Referenz für dich. Benutzer sehen dies nicht.",
                 "key_label": "Schlüssel",
-                "key_help": "",
+                "key_help": "Identifiziert die Tour in Exporten und Links. Nicht mehr ändern, wenn Mitglieder sie bereits abgeschlossen haben.",
                 "start_mode_label": "",
                 "start_mode_help": "",
                 "route_label": "Seite",
@@ -101,12 +101,12 @@
                 "title_label": "Titel",
                 "title_placeholder": "Worum geht es in diesem Schritt",
                 "description_label": "Beschreibung",
-                "description_placeholder": "",
+                "description_placeholder": "Was die Lesenden lernen sollen",
                 "description_help": "",
                 "target_label": "Ziel",
                 "target_placeholder": "Ein CSS-Selektor, z. B. #home-link",
-                "target_help": "",
-                "target_invalid": "",
+                "target_help": "Das Element, auf das sich dieser Schritt bezieht. Lasse es leer, um den Schritt für sich allein mittig auf dem Bildschirm anzuzeigen.",
+                "target_invalid": "Das ist kein gültiger CSS-Selektor.",
                 "target_matches": "",
                 "pick_button": "",
                 "test_button": "Testen",
