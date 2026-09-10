@@ -222,7 +222,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/typesense/v0.2.1/locale/en.yml',
 	],
 	'ffans-bbcode-studio' => [
-		'beta' => 'https://raw.githubusercontent.com/FFans/bbcode-studio/v2.0.0-beta.1/locale/en.yml',
+		'beta' => 'https://raw.githubusercontent.com/FFans/bbcode-studio/v2.0.0-beta.2/locale/en.yml',
 		'__builtInLanguages' => [
 			'zh_Hans',
 		],
