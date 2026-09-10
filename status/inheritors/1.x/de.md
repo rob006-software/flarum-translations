@@ -2,7 +2,7 @@
 
 Translations for German (`de`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **318** are translated differently and **683** are
+sides, but do not match between them: **319** are translated differently and **683** are
 translated only in `de`. Altogether they cover **97** components.
 
 <!-- {% raw %} -->
@@ -68,7 +68,7 @@ translated only in `de`. Altogether they cover **97** components.
 | `fof-webhooks` | [4](#fof-webhooks) | 0 |
 | `forumaker-magicbb` | [3](#forumaker-magicbb) | [19](#forumaker-magicbb-missing) |
 | `forumaker-magicread` | 0 | [18](#forumaker-magicread-missing) |
-| `forumaker-magicslider` | [2](#forumaker-magicslider) | 0 |
+| `forumaker-magicslider` | [3](#forumaker-magicslider) | 0 |
 | `forumfortress-flarum` | 0 | [74](#forumfortress-flarum-missing) |
 | `huoxin-money-with-history` | 0 | [1](#huoxin-money-with-history-missing) |
 | `huseyinfiliz-awards` | [22](#huseyinfiliz-awards) | 0 |
@@ -2462,6 +2462,17 @@ Bild <del>hinzufügen</del><ins>ausrichten</ins>
 
 
 ### `forumaker-magicslider`
+
+#### [`forumaker-magicslider.admin.settings.autoplay_help`](https://weblate.rob006.net/translate/flarum2/forumaker-magicslider/de/?q=context%3A%3D%22forumaker-magicslider.admin.settings.autoplay_help%22)
+
+> 0 disables auto slide. In seconds
+
+```diff
+-0 deaktiviert die automatische Sliderumschaltung. In Sekunden
++0 deaktiviert die automatische Slideumschaltung. In Sekunden
+```
+
+0 deaktiviert die automatische <del>Sliderumschaltung.</del><ins>Slideumschaltung.</ins> In Sekunden
 
 #### [`forumaker-magicslider.admin.settings.fit_to_layout_help`](https://weblate.rob006.net/translate/flarum2/forumaker-magicslider/de/?q=context%3A%3D%22forumaker-magicslider.admin.settings.fit_to_layout_help%22)
 
