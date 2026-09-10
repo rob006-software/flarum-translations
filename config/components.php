@@ -636,7 +636,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/huseyinfiliz/flarum-diff/2.0.0-beta.4/locale/en.yml',
 	],
 	'huseyinfiliz-discussion-ban' => [
-		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/discussion-ban/1.1.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/discussion-ban/1.1.2/locale/en.yml',
 	],
 	'huseyinfiliz-leaderboard' => [
 		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/leaderboard/2.0.0/locale/en.yml',
