@@ -6,18 +6,18 @@
             },
             "settings": {
                 "show_in_discussion_controls": "Afficher « Exclure de la discussion » dans les commandes de discussion",
-                "show_in_discussion_sidebar": "",
+                "show_in_discussion_sidebar": "Afficher le bouton « Exclusion » dans la barre latérale de discussion",
                 "show_in_post_controls": "Afficher « Exclure de la discussion » dans les commandes de publication",
                 "hide_discussions_from_banned": "Masquer complètement les discussions aux utilisateurs bannis (comportement 404)",
-                "send_notifications": ""
+                "send_notifications": "Envoyer des notifications lorsqu'un utilisateur est exclu ou réintégré dans une discussion"
             }
         },
         "forum": {
             "discussion_page": {
-                "ban_button": ""
+                "ban_button": "Exclusion"
             },
             "discussion_controls": {
-                "ban_button": "",
+                "ban_button": "Exclusion",
                 "ban_from_discussion": "Exclure de la discussion"
             },
             "post_controls": {
@@ -25,19 +25,19 @@
                 "unban_from_discussion": "Réintégrer dans la discussion"
             },
             "post": {
-                "hidden_by_ban": ""
+                "hidden_by_ban": "Masqué. Ce membre a été exclu de la discussion."
             },
             "notifications": {
-                "discussion_banned_text": "",
-                "discussion_unbanned_text": ""
+                "discussion_banned_text": "{username} vous a exclu de {title}",
+                "discussion_unbanned_text": "{username} vous a réintégré dans {title}"
             },
             "settings": {
-                "notify_discussion_banned_label": "",
-                "notify_discussion_unbanned_label": ""
+                "notify_discussion_banned_label": "Quelqu'un m'exclut d'une discussion",
+                "notify_discussion_unbanned_label": "Quelqu'un me réintègre dans une discussion"
             },
             "modal": {
-                "title": "Exclusion de la discussion",
-                "tab_ban": "Exclure un utilisateur",
+                "title": "Exclusion",
+                "tab_ban": "Nouvelle exclusion",
                 "tab_list": "Utilisateurs exclus ({count})",
                 "select_user": "Sélectionner un utilisateur",
                 "search_placeholder": "Rechercher par nom d'utilisateur ou nom d'affichage...",
