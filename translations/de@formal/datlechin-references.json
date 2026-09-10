@@ -2,39 +2,39 @@
     "datlechin-references": {
         "admin": {
             "sections": {
-                "behaviour_label": "",
-                "behaviour_description": "",
-                "display_label": "",
+                "behaviour_label": "Verhalten",
+                "behaviour_description": "Welche Links in Beiträgen als Verweise aufgenommen werden.",
+                "display_label": "Anzeige",
                 "display_description": "",
-                "discovery_label": "",
-                "discovery_description": "",
-                "maintenance_label": "",
+                "discovery_label": "Entdecken",
+                "discovery_description": "Das Widget, das vom Verweisgraph gefüllt wird.",
+                "maintenance_label": "Wartung",
                 "maintenance_description": "",
-                "extensions_label": "",
-                "extensions_description": ""
+                "extensions_label": "Andere Erweiterungen",
+                "extensions_description": "Einstellungen, die andere Erweiterungen dieser Seite hinzufügen."
             },
             "settings": {
-                "enabled_label": "",
+                "enabled_label": "Verweise aufnehmen",
                 "enabled_help": "",
-                "extract_url_references_label": "",
+                "extract_url_references_label": "Eingefügte Links aufnehmen",
                 "extract_url_references_help": "",
                 "extract_short_references_label": "",
-                "extract_short_references_help": "",
-                "extract_mention_references_label": "",
+                "extract_short_references_help": "Das Format @\"Discussion title\"#d123, wie es bei Eingabe von # im Composer eingefügt wird.\n",
+                "extract_mention_references_label": "Beitragserwähnungen aufnehmen",
                 "extract_mention_references_help": "",
-                "event_post_enabled_label": "",
+                "event_post_enabled_label": "Referenzen in Diskussionen aufführen",
                 "event_post_enabled_help": "",
                 "max_preview_label": "",
-                "max_preview_help": "",
-                "related_discussions_enabled_label": "",
+                "max_preview_help": "Der Rest liegt hinter einer Schaltfläche.",
+                "related_discussions_enabled_label": "Verwandte Diskussionen anzeigen",
                 "related_discussions_enabled_help": "",
                 "related_discussions_limit_label": "",
-                "related_discussions_limit_help": "",
+                "related_discussions_limit_help": "In der Seitenleiste einer Diskussion.",
                 "related_max_candidates_label": "",
                 "related_max_candidates_help": "",
-                "cache_ttl_label": "",
+                "cache_ttl_label": "Cache-Speicherdauer (Sekunden)",
                 "cache_ttl_help": "",
-                "graph_max_depth_label": "",
+                "graph_max_depth_label": "Tiefe des Graphen",
                 "graph_max_depth_help": "",
                 "graph_max_per_hop_label": "",
                 "graph_max_per_hop_help": "",
@@ -45,29 +45,29 @@
             },
             "permissions": {
                 "manage_references": "",
-                "view_broken_report": "",
+                "view_broken_report": "Siehe fehlerhafte Verweise",
                 "view_analytics": ""
             },
             "analytics": {
-                "title": "",
-                "total_label": "",
+                "title": "Verweise",
+                "total_label": "Verweise",
                 "broken_label": "",
                 "manual_label": "",
                 "by_origin_label": "",
                 "by_relation_label": "",
-                "export_button": "",
+                "export_button": "CSV exportieren",
                 "empty": "",
                 "unavailable": "",
                 "chart_label": ""
             },
             "origin": {
-                "url": "",
+                "url": "Eingefügter Link",
                 "shortref": "",
                 "mention": "",
                 "manual": ""
             },
             "relation": {
-                "references": "",
+                "references": "Verweise",
                 "duplicate_of": "",
                 "see_also": "",
                 "supersedes": "",
@@ -80,58 +80,58 @@
                 "unavailable": "",
                 "truncated": "",
                 "target_column": "",
-                "source_column": "",
+                "source_column": "Geschrieben in",
                 "broken_at_column": ""
             },
             "target": {
-                "discussions": "",
-                "posts": ""
+                "discussions": "Diskussion #{id}",
+                "posts": "Beitrag #{id}"
             }
         },
         "forum": {
             "reference": {
-                "deleted_text": ""
+                "deleted_text": "[gelöscht]"
             },
             "post": {
-                "referenced_by_text": "",
-                "others_text": ""
+                "referenced_by_text": "{discussions} {count, plural, one {verweist} other {verweisen}} hierher",
+                "others_text": "{count, plural, one {# anderer} other {# andere}}"
             },
             "discussion": {
-                "referenced_by_title": "",
-                "references_title": "",
-                "show_all_button": ""
+                "referenced_by_title": "{count, plural, one {# Verweis} other {# Verweise}}",
+                "references_title": "Diese Diskussion verweist auf",
+                "show_all_button": "Alle anzeigen"
             },
             "related": {
-                "title": ""
+                "title": "Verwandte Diskussionen"
             },
             "most_referenced": {
-                "sort": ""
+                "sort": "Am meisten verwiesen auf"
             },
             "graph": {
-                "title": "",
+                "title": "Graph der Verweise",
                 "description": "",
                 "empty": "",
                 "accessible_label": ""
             },
             "relation": {
                 "references": "",
-                "duplicate_of": "",
+                "duplicate_of": "Duplikat von",
                 "see_also": "",
                 "supersedes": "",
-                "answers": ""
+                "answers": "beantwortet"
             },
             "manual": {
-                "add_button": "",
-                "title": "",
+                "add_button": "Verweis hinzufügen",
+                "title": "Verweis hinzufügen",
                 "target_label": "",
-                "target_placeholder": "",
-                "relation_label": "",
-                "note_label": "",
-                "note_placeholder": "",
-                "submit_button": ""
+                "target_placeholder": "Diskussions-ID",
+                "relation_label": "Beziehung",
+                "note_label": "Hinweis",
+                "note_placeholder": "Warum diese beiden zusammen gehören",
+                "submit_button": "Hinzufügen"
             },
             "event_post": {
-                "referenced": ""
+                "referenced": "{username} verweist auf diese Diskussion"
             },
             "notifications": {
                 "discussion_referenced_text": "",
@@ -140,7 +140,7 @@
         },
         "email": {
             "discussion_referenced": {
-                "subject": "",
+                "subject": "Ein Verweis auf deine Diskussion wurde erstellt: {title}",
                 "body": ""
             },
             "post_referenced": {
@@ -157,15 +157,15 @@
             "gambits": {
                 "references": {
                     "key": "",
-                    "hint": ""
+                    "hint": "„12“"
                 },
                 "referenced_by": {
-                    "key": "",
-                    "hint": ""
+                    "key": "verwiesen-von",
+                    "hint": "„12“"
                 },
                 "has_references": {
-                    "key": "",
-                    "hint": ""
+                    "key": "verweist-auf",
+                    "hint": "Diskussionen, auf die von anderen Diskussionen verwiesen werden"
                 }
             }
         }
